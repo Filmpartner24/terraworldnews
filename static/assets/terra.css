@@ -3,8 +3,8 @@
 :root{
   --paper:#f3f5f4; --surface:#ffffff; --ink:#101a1d; --muted:#56656a; --rule:#d5dcdb;
   --cobalt:#1d3fc4; --signal:#e0342a; --teal:#0d6e6a; --sand:#b9843a;
-  --display:'Inter','Helvetica Neue',Arial,sans-serif;
-  --head:'Inter','Helvetica Neue',Arial,sans-serif;
+  --display:'PT Sans Narrow','Arial Narrow',Arial,sans-serif;
+  --head:'PT Sans Narrow','Arial Narrow',Arial,sans-serif;
   --body:'PT Sans','Helvetica Neue',Arial,sans-serif; --label:'PT Sans Narrow','Arial Narrow',Arial,sans-serif;
   --mono:'IBM Plex Mono',ui-monospace,Menlo,Consolas,monospace;
 }
@@ -197,3 +197,12 @@ footer a.brand-s{text-decoration:none}
 .body p{font-family:var(--body);font-size:18.5px;line-height:1.6}
 .body p:first-child::first-letter{all:unset}
 .body h2{font-weight:700}
+
+/* Ueberschriften in Menueschrift (PT Sans Narrow 700) */
+h1,h2,h3,.rank .n,.rail-h h2,.plate .lbl,footer .brand-s{font-weight:700}
+.lead-main h1,.article h1{letter-spacing:-.005em;line-height:1.04;font-size:clamp(34px,5vw,64px)}
+.card h3{font-size:22px;letter-spacing:0;line-height:1.15}
+.rank h3{font-size:19px;letter-spacing:0;line-height:1.15}
+.rank .n{font-size:36px}
+.rail-h h2{letter-spacing:.04em;font-size:clamp(22px,2.6vw,30px)}
+.body h2{font-size:26px}
