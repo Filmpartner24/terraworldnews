@@ -25,3 +25,7 @@ jobs:
           git config user.email "media@filmpartner24.com"
           git add -A
           git diff --cached --quiet || (git commit -m "Update edition and photos" && git push)
+      - name: Build site (for sitemap)
+        run: PYTHONHASHSEED=1 python3 build.py
+      - name: Notify search engines via IndexNow (after Cloudflare deploy)
+        run: sleep 240 && python3 tools/indexnow.py

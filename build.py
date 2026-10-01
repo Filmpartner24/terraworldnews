@@ -35,11 +35,11 @@ UI = {
  'bg': dict(home='Начало', tagline='Новини от целия свят', ed='Брой {n} · Година I', places='София · Берлин · Светът', clocks=[('Берлин', 'Europe/Berlin'), ('София', 'Europe/Sofia'), ('Лондон', 'Europe/London'), ('Ню Йорк', 'America/New_York'), ('Пекин', 'Asia/Shanghai')],
    lead='Водеща новина', most='Последни новини', all='Всички новини →', src='Източници', by='Редакция TERRA', read='Четене {m} мин.', hour='ч.', items='новини', facts='Най-важното', more='Още от рубриката', trailer='Трейлър', play='▶ Пусни трейлъра', ytnote='При пускане видеото се зарежда от YouTube (Google).', empty='В тази рубрика скоро ще излизат материали на редакцията.',
    foot='Независими новини от целия свят · Редакция София и Берлин', publisher='Издател: FILMPARTNER 24 EOOD', imprint='Импресум', privacy='Поверителност', principles='Редакционни принципи', rss='RSS', back='Към началото',
-   desc_home='TERRA WORLD NEWS – новини от целия свят, от България, Германия и Европа. Всеки ден, проверени и с посочени източници.', title_home='TERRA WORLD NEWS – Новини от целия свят', live='НА ЖИВО', lang='Език'),
+   desc_home='TWN – World News (Terra World News): новини от целия свят, от България, Германия и Европа. Всеки ден, проверени и с посочени източници.', title_home='TWN – World News | Terra World News – Новини от целия свят', live='НА ЖИВО', lang='Език'),
  'de': dict(home='Start', tagline='Nachrichten aus aller Welt', ed='Ausgabe {n} · Jahrgang I', places='Sofia · Berlin · Die Welt', clocks=[('Berlin', 'Europe/Berlin'), ('Sofia', 'Europe/Sofia'), ('London', 'Europe/London'), ('New York', 'America/New_York'), ('Peking', 'Asia/Shanghai')],
    lead='Aufmacher', most='Neueste Meldungen', all='Alle Meldungen →', src='Quellen', by='TERRA-Redaktion', read='Lesezeit {m} Min.', hour='Uhr', items='Meldungen', facts='Das Wichtigste', more='Mehr aus dem Ressort', trailer='Trailer', play='▶ Trailer abspielen', ytnote='Beim Abspielen wird das Video von YouTube (Google) geladen.', empty='In diesem Ressort erscheinen in Kürze Meldungen der Redaktion.',
    foot='Unabhängige Nachrichten aus aller Welt · Redaktion Sofia & Berlin', publisher='Herausgeber: FILMPARTNER 24 EOOD', imprint='Impressum', privacy='Datenschutz', principles='Redaktionsgrundsätze', rss='RSS', back='Zur Startseite',
-   desc_home='TERRA WORLD NEWS – Nachrichten aus aller Welt, aus Deutschland, Bulgarien und Europa. Täglich, geprüft und mit Quellenangaben.', title_home='TERRA WORLD NEWS – Nachrichten aus aller Welt', live='LIVE', lang='Sprache'),
+   desc_home='TWN – World News (Terra World News): Nachrichten aus aller Welt, aus Deutschland, Bulgarien und Europa. Täglich, geprüft und mit Quellenangaben.', title_home='TWN – World News | Terra World News – Nachrichten aus aller Welt', live='LIVE', lang='Sprache'),
 }
 LEGAL_SLUG = {'bg': {'imprint': 'impresum', 'privacy': 'poveritelnost', 'principles': 'redaktsionni-printsipi'}, 'de': {'imprint': 'impressum', 'privacy': 'datenschutz', 'principles': 'redaktionsgrundsaetze'}}
 
@@ -115,13 +115,13 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <link rel="canonical" href="{SITE}{canon}">
 {alts}
-<link rel="alternate" type="application/rss+xml" title="TERRA WORLD NEWS ({l.upper()})" href="{SITE}{pre(l)}rss.xml">
+<link rel="alternate" type="application/rss+xml" title="TWN – World News ({l.upper()})" href="{SITE}{pre(l)}rss.xml">
 <meta name="theme-color" content="#ffffff"><meta name="color-scheme" content="light only">
-<link rel="icon" href="/favicon.ico" sizes="48x48"><link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
-<meta property="og:type" content="{og_type}"><meta property="og:site_name" content="TERRA WORLD NEWS"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{SITE}{canon}"><meta property="og:image" content="{SITE}{og_img or '/assets/og-image.jpg'}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="{675 if og_img else 630}"><meta property="og:locale" content="{LOCALE.get(l, l)}">
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/png" sizes="96x96" href="/assets/icon-96.png"><link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<meta property="og:type" content="{og_type}"><meta property="og:site_name" content="TWN – World News"><meta name="application-name" content="TWN"><meta name="apple-mobile-web-app-title" content="TWN"><link rel="manifest" href="/manifest.webmanifest"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{SITE}{canon}"><meta property="og:image" content="{SITE}{og_img or '/assets/og-image.jpg'}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="{675 if og_img else 630}"><meta property="og:locale" content="{LOCALE.get(l, l)}">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}"><meta name="twitter:image" content="{SITE}{og_img or '/assets/og-image.jpg'}">
 {extra_head}{ldj}
 <link rel="preload" as="image" href="/assets/terra-masthead-800.webp" imagesrcset="/assets/terra-masthead-800.webp 800w, /assets/terra-masthead-1600.webp 1600w" imagesizes="(max-width: 700px) 86vw, 620px" type="image/webp">
@@ -183,7 +183,7 @@ def card(it, l):
     return (f'<article class="card"><a href="{art_url(it, l)}">{plate(it, l)}{kick(it, l)}<h3>{e(T["t"])}</h3></a>'
             f'<p>{e(T["d"])}</p><span class="src">{UI[l]["src"]}: {e(SNAMES(it["src"]))}</span></article>')
 
-ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "/#org", "name": "TERRA WORLD NEWS", "url": SITE + "/",
+ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "/#org", "name": "TERRA WORLD NEWS", "alternateName": ["TWN", "TWN World News"], "url": SITE + "/",
        "logo": {"@type": "ImageObject", "url": SITE + "/assets/logo.png", "width": 600, "height": 185},
        "parentOrganization": {"@type": "Organization", "name": "FILMPARTNER 24 EOOD", "legalName": "„ФИЛМПАРТНЕР 24“ ЕООД", "url": "https://filmpartner24.com/", "vatID": "BG208477411"},
        "founder": {"@type": "Person", "name": "Nedy John Cross", "url": "https://nedyjcross.com/"},
@@ -225,7 +225,7 @@ def build():
                 f'<a href="{art_url(lead, l)}"><h1>{e(lead[l]["t"])}</h1></a><p class="dek">{e(lead[l]["d"])}</p><span class="src">{u["src"]}: {e(SNAMES(lead["src"]))}</span></div>'
                 f'<div class="ranked"><h2 class="rh">{e(u["most"])}</h2>{ranked}</div></section>{rails}')
         alts = {x: pre(x) for x in act}
-        ld = {"@context": "https://schema.org", "@graph": [ORG, {"@type": "WebSite", "@id": SITE + "/#website", "url": SITE + "/", "name": "TERRA WORLD NEWS", "publisher": {"@id": SITE + "/#org"}, "inLanguage": act},
+        ld = {"@context": "https://schema.org", "@graph": [ORG, {"@type": "WebSite", "@id": SITE + "/#website", "url": SITE + "/", "name": "TWN World News", "alternateName": ["TWN", "Terra World News", "TERRA WORLD NEWS"], "publisher": {"@id": SITE + "/#org"}, "inLanguage": act},
               {"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": SITE + art_url(it, l)} for i, it in enumerate([lead] + rest)]}]}
         write(pre(l), page(l, act, u['title_home'], u['desc_home'], pre(l), body, alts, ld, issue=latest.get('issue', 1), date=latest['date'], ticker=ticker))
         urls.append((pre(l), alts, latest['date']))
@@ -236,7 +236,7 @@ def build():
             body = f'<section class="rail" style="--c:{SEC_COLOR[s]}"><div class="rail-h"><h1 class="sec-h">{e(SEC[l][s][0])}</h1><span class="meta">{len(its)} {u["items"]}</span></div>{inner}</section>'
             body = body.replace('<h1 class="sec-h">', '<h2>').replace('</h1>', '</h2>', 1)
             salts = {x: sec_url(s, x) for x in act}
-            write(sec_url(s, l), page(l, act, f'{SEC[l][s][0]} – TERRA WORLD NEWS', f'{SEC[l][s][0]}: {u["desc_home"]}', sec_url(s, l), body, salts, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": SEC[l][s][0], "url": SITE + sec_url(s, l), "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
+            write(sec_url(s, l), page(l, act, f'{SEC[l][s][0]} | TWN – World News', f'{SEC[l][s][0]}: {u["desc_home"]}', sec_url(s, l), body, salts, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": SEC[l][s][0], "url": SITE + sec_url(s, l), "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
             urls.append((sec_url(s, l), salts, latest['date']))
         # ---- articles
         for it in items_l:
@@ -261,20 +261,20 @@ def build():
                   "citation": CIT(it['src'])},
                   {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": u['home'], "item": SITE + pre(l)}, {"@type": "ListItem", "position": 2, "name": SEC[l][it['s']][0], "item": SITE + sec_url(it['s'], l)}, {"@type": "ListItem", "position": 3, "name": T['t']}]}]}
             extra = f'<meta property="article:published_time" content="{iso(it)}"><meta property="article:section" content="{e(SEC[l][it["s"]][0])}">'
-            write(art_url(it, l), page(l, act, f'{T["t"]} – TERRA WORLD NEWS', T['d'], art_url(it, l), body, aalts, ld, og_type='article', issue=latest.get('issue', 1), date=it['date'], extra_head=extra, og_img=(it['img']['f'] if it.get('img') else None)))
+            write(art_url(it, l), page(l, act, f'{T["t"]} | TWN', T['d'], art_url(it, l), body, aalts, ld, og_type='article', issue=latest.get('issue', 1), date=it['date'], extra_head=extra, og_img=(it['img']['f'] if it.get('img') else None)))
             urls.append((art_url(it, l), aalts, it['date']))
         # ---- legal
         for k in ('imprint', 'privacy', 'principles'):
             txt = open(os.path.join(HERE, 'legal', f'{k}.{l}.html'), encoding='utf-8').read()
             lalts = {x: legal_url(k, x) for x in act}
-            write(legal_url(k, l), page(l, act, f'{u[k]} – TERRA WORLD NEWS', f'{u[k]} – TERRA WORLD NEWS', legal_url(k, l), f'<article class="legal">{txt}</article>', lalts, issue=latest.get('issue', 1), date=latest['date']))
+            write(legal_url(k, l), page(l, act, f'{u[k]} | TWN – World News', f'{u[k]} – TWN – World News (Terra World News)', legal_url(k, l), f'<article class="legal">{txt}</article>', lalts, issue=latest.get('issue', 1), date=latest['date']))
             urls.append((legal_url(k, l), lalts, latest['date']))
         # ---- RSS
         rss_items = ''
         for it in sorted(items_l, key=lambda x: (x['date'], x['time']), reverse=True)[:100]:
             dt = datetime.datetime.fromisoformat(iso(it))
             rss_items += f'<item><title>{e(it[l]["t"])}</title><link>{SITE}{art_url(it, l)}</link><guid>{SITE}{art_url(it, l)}</guid><pubDate>{format_datetime(dt)}</pubDate><category>{e(SEC[l][it["s"]][0])}</category><description>{e(it[l]["d"])}</description></item>'
-        write(pre(l) + 'rss.xml', f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>TERRA WORLD NEWS ({l.upper()})</title><link>{SITE}{pre(l)}</link><description>{e(u["desc_home"])}</description><language>{l}</language>{rss_items}</channel></rss>')
+        write(pre(l) + 'rss.xml', f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>TWN – World News ({l.upper()})</title><link>{SITE}{pre(l)}</link><description>{e(u["desc_home"])}</description><language>{l}</language>{rss_items}</channel></rss>')
 
     # ---- sitemaps
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
@@ -288,7 +288,7 @@ def build():
     for it in recent:
         for l in act:
             if l in it:
-                ns += f'  <url><loc>{SITE}{art_url(it, l)}</loc><news:news><news:publication><news:name>TERRA WORLD NEWS</news:name><news:language>{l}</news:language></news:publication><news:publication_date>{iso(it)}</news:publication_date><news:title>{e(it[l]["t"])}</news:title></news:news></url>\n'
+                ns += f'  <url><loc>{SITE}{art_url(it, l)}</loc><news:news><news:publication><news:name>TWN World News</news:name><news:language>{l}</news:language></news:publication><news:publication_date>{iso(it)}</news:publication_date><news:title>{e(it[l]["t"])}</news:title></news:news></url>\n'
     ns += '</urlset>\n'
     open(os.path.join(OUT, 'news-sitemap.xml'), 'w', encoding='utf-8').write(ns)
     open(os.path.join(OUT, 'robots.txt'), 'w').write(f'User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\nSitemap: {SITE}/news-sitemap.xml\n')
