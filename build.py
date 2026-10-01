@@ -136,7 +136,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
   </div>
   <header class="mast">
     <p class="brand"><a href="{pre(l)}"><img class="mast-logo" src="/assets/terra-masthead2-800.webp" srcset="/assets/terra-masthead2-800.webp 800w, /assets/terra-masthead2-1600.webp 1600w" sizes="(max-width: 700px) 86vw, 620px" width="800" height="246" alt="TERRA WORLD NEWS" fetchpriority="high"></a></p>
-    <div class="edition"><span class="ed-l" aria-hidden="true"></span><span class="mid">{e(nice_date(date, l)) if date else ''}</span><span>{e(u['places'])}</span></div>
+    <div class="edition"><span class="ed-l" aria-hidden="true"></span><span class="mid">{e(nice_date(date, l)) if date else ''}</span><span class="ed-l" aria-hidden="true"></span></div>
   </header>
   <nav class="sections" aria-label="{e(u['home'])}">{nav}</nav>
   {tick}
