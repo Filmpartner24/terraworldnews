@@ -137,7 +137,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
   <header class="mast">
     <a href="{pre(l)}" class="globe-link" aria-label="TERRA WORLD NEWS"><img class="globe-img" src="/assets/globe-160.webp" srcset="/assets/globe-160.webp 160w, /assets/globe-320.webp 320w" sizes="92px" width="160" height="160" alt=""></a>
     <p class="brand"><a href="{pre(l)}"><img class="mast-logo" src="/assets/terra-masthead-800.webp" srcset="/assets/terra-masthead-800.webp 800w, /assets/terra-masthead-1600.webp 1600w" sizes="(max-width: 700px) 86vw, 620px" width="800" height="235" alt="TERRA WORLD NEWS" fetchpriority="high"></a></p>
-    <div class="edition"><span>{e(u['ed'].format(n=issue))}</span><span class="mid">{e(nice_date(date, l)) if date else ''}</span><span>{e(u['places'])}</span></div>
+    <div class="edition"><span class="ed-l" aria-hidden="true"></span><span class="mid">{e(nice_date(date, l)) if date else ''}</span><span>{e(u['places'])}</span></div>
   </header>
   <nav class="sections" aria-label="{e(u['home'])}">{nav}</nav>
   {tick}
