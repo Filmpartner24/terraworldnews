@@ -3,9 +3,9 @@
 :root{
   --paper:#f3f5f4; --surface:#ffffff; --ink:#101a1d; --muted:#56656a; --rule:#d5dcdb;
   --cobalt:#1d3fc4; --signal:#e0342a; --teal:#0d6e6a; --sand:#b9843a;
-  --display:'Playfair Display',Georgia,'Times New Roman',serif;
-  --head:'PT Serif',Georgia,'Times New Roman',serif;
-  --body:'PT Serif',Georgia,'Times New Roman',serif; --label:'PT Sans Narrow','Arial Narrow',Arial,sans-serif;
+  --display:'Inter','Helvetica Neue',Arial,sans-serif;
+  --head:'Inter','Helvetica Neue',Arial,sans-serif;
+  --body:'PT Sans','Helvetica Neue',Arial,sans-serif; --label:'PT Sans Narrow','Arial Narrow',Arial,sans-serif;
   --mono:'IBM Plex Mono',ui-monospace,Menlo,Consolas,monospace;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
@@ -160,8 +160,8 @@ footer .brand-s{font-style:italic}
 .brand,.brand a,.brand span{font-weight:700;font-style:italic}
 footer .brand-s{font-weight:700;font-style:italic}
 
-.brand,.brand a,.brand span{font-family:'PT Serif',Georgia,'Times New Roman',serif;font-weight:700;font-style:italic;letter-spacing:-.02em}
-footer .brand-s{font-family:'PT Serif',Georgia,serif;font-weight:700;font-style:italic}
+.brand,.brand a,.brand span{font-family:var(--display);font-weight:800;font-style:normal}
+footer .brand-s{font-family:var(--display);font-weight:800;font-style:normal}
 
 /* --- logo masthead (image logos) --- */
 .brand{line-height:0;margin:0;font-size:0}
@@ -182,3 +182,18 @@ footer a.brand-s{text-decoration:none}
 .photo-fig{margin:0}
 .photo-fig figcaption{font-family:var(--label);font-size:13px;letter-spacing:.02em;color:var(--muted);padding:6px 0 0;border-bottom:1px solid var(--rule);padding-bottom:8px}
 .photo-fig figcaption a{color:var(--muted);text-decoration:underline;text-underline-offset:2px}
+
+/* Sachliche Nachrichtentypografie (Okt 2026): Montserrat fuer Titel, PT Sans fuer Text, keine Kursiven */
+.lead-main h1,.article h1{font-weight:800;letter-spacing:-.015em;line-height:1.08}
+.rank h3,.card h3{font-weight:700;letter-spacing:-.01em;line-height:1.22}
+.card h3{font-size:19px}
+.rank h3{font-size:16.5px}
+.rank .n,.rail-h h2,footer .brand-s{font-weight:800}
+.rail-h h2{text-transform:uppercase;letter-spacing:.02em;font-size:clamp(20px,2.4vw,28px)}
+.lead-main .dek,.article .dek,.edition .mid,.tag,.plate .lbl,.brand span{font-style:normal}
+.lead-main .dek,.article .dek{font-family:var(--body)}
+.edition .mid{font-family:var(--label);letter-spacing:.06em;text-transform:uppercase;font-size:13.5px}
+.plate .lbl{font-weight:800}
+.body p{font-family:var(--body);font-size:18.5px;line-height:1.6}
+.body p:first-child::first-letter{all:unset}
+.body h2{font-weight:700}
