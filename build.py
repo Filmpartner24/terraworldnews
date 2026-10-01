@@ -14,7 +14,7 @@ CUR_T = ' aria-current="true"'
 CUR_P = ' aria-current="page"'
 
 # All planned languages (order = language bar). Only languages with content are built.
-LANGS = [('bg', 'Български'), ('de', 'Deutsch'), ('en', 'English'), ('es', 'Español'), ('pt', 'Português'), ('fr', 'Français'),
+LANGS = [('de', 'Deutsch'), ('bg', 'Български'), ('en', 'English'), ('es', 'Español'), ('pt', 'Português'), ('fr', 'Français'),
          ('it', 'Italiano'), ('ro', 'Română'), ('tr', 'Türkçe'), ('ru', 'Русский'), ('uk', 'Українська'), ('ar', 'العربية'),
          ('zh', '中文'), ('hi', 'हिन्दी'), ('ja', '日本語'), ('el', 'Ελληνικά'), ('sr', 'Српски')]
 PREFIX = {'bg': '/'}  # Bulgarian is the main edition at the root
