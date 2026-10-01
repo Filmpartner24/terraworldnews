@@ -1,23 +1,27 @@
-name: Fetch article photos
+name: Unpack bundle and fetch photos
 on:
   push:
     branches: [main]
-    paths: ['content/**']
   workflow_dispatch:
 permissions:
   contents: write
 jobs:
-  images:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: '3.12' }
+      - name: Unpack uploaded bundle (if any)
+        run: |
+          if ls bundle*.tar.gz >/dev/null 2>&1; then
+            for b in bundle*.tar.gz; do tar -xzf "$b"; git rm -q "$b"; done
+          fi
       - run: pip install pillow
       - run: python3 tools/fetch_images.py
-      - name: Commit new photos
+      - name: Commit
         run: |
           git config user.name "terra-bot"
           git config user.email "media@filmpartner24.com"
-          git add static/assets/news
-          git diff --cached --quiet || (git commit -m "Add article photos" && git push)
+          git add -A
+          git diff --cached --quiet || (git commit -m "Update edition and photos" && git push)
