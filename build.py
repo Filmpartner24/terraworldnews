@@ -84,6 +84,9 @@ def globe_svg(cls='globe'):
             '<ellipse cx="40" cy="40" rx="15" ry="36" stroke="currentColor" stroke-width="3"/><path d="M6 40h68M12 22h56M12 58h56" stroke="currentColor" stroke-width="3"/>'
             '<circle cx="57" cy="23" r="6" fill="#e0342a"/></svg>')
 
+import hashlib as _hl
+ASSET_V={n:_hl.md5(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'static','assets',n),'rb').read()).hexdigest()[:8] for n in ('fonts.css','terra.css')}
+
 def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='website', issue=1, date=None, ticker=None, extra_head='', og_img=None):
     u = UI[l]
     alts = ''
@@ -122,8 +125,8 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}"><meta name="twitter:image" content="{SITE}{og_img or '/assets/og-image.jpg'}">
 {extra_head}{ldj}
 <link rel="preload" as="image" href="/assets/terra-masthead-800.webp" imagesrcset="/assets/terra-masthead-800.webp 800w, /assets/terra-masthead-1600.webp 1600w" imagesizes="(max-width: 700px) 86vw, 620px" type="image/webp">
-<link rel="stylesheet" href="/assets/fonts.css">
-<link rel="stylesheet" href="/assets/terra.css">
+<link rel="stylesheet" href="/assets/fonts.css?v={ASSET_V['fonts.css']}">
+<link rel="stylesheet" href="/assets/terra.css?v={ASSET_V['terra.css']}">
 </head>
 <body>
 <div class="wrap">
