@@ -23,8 +23,8 @@ LOCALE = {'bg': 'bg_BG', 'de': 'de_DE'}
 
 SECTIONS = ['welt', 'europa', 'deutschland', 'bulgarien', 'usa', 'ki', 'wirtschaft', 'klima', 'kultur']
 SEC = {
- 'bg': {'welt': ('Свят', 'svyat'), 'europa': ('Европа', 'evropa'), 'deutschland': ('Германия', 'germania'), 'bulgarien': ('България', 'balgaria'), 'usa': ('САЩ', 'sasht'), 'ki': ('Изкуствен интелект', 'izkustven-intelekt'), 'wirtschaft': ('Икономика', 'ikonomika'), 'klima': ('Климат и енергия', 'klimat'), 'kultur': ('Култура и кино', 'kultura')},
- 'de': {'welt': ('Welt', 'welt'), 'europa': ('Europa', 'europa'), 'deutschland': ('Deutschland', 'deutschland'), 'bulgarien': ('Bulgarien', 'bulgarien'), 'usa': ('USA', 'usa'), 'ki': ('KI', 'ki'), 'wirtschaft': ('Wirtschaft', 'wirtschaft'), 'klima': ('Klima & Energie', 'klima'), 'kultur': ('Kultur & Film', 'kultur')},
+ 'bg': {'welt': ('Свят', 'svyat'), 'europa': ('Европа', 'evropa'), 'deutschland': ('Германия', 'germania'), 'bulgarien': ('България', 'balgaria'), 'usa': ('САЩ', 'sasht'), 'ki': ('Изкуствен интелект', 'izkustven-intelekt'), 'wirtschaft': ('Икономика', 'ikonomika'), 'klima': ('Климат и енергия', 'klimat'), 'kultur': ('Развлечения', 'razvlechenia')},
+ 'de': {'welt': ('Welt', 'welt'), 'europa': ('Europa', 'europa'), 'deutschland': ('Deutschland', 'deutschland'), 'bulgarien': ('Bulgarien', 'bulgarien'), 'usa': ('USA', 'usa'), 'ki': ('KI', 'ki'), 'wirtschaft': ('Wirtschaft', 'wirtschaft'), 'klima': ('Klima & Energie', 'klima'), 'kultur': ('Entertainment', 'entertainment')},
 }
 SEC_COLOR = {'welt': 'var(--cobalt)', 'europa': '#5b3fc4', 'deutschland': 'var(--muted)', 'bulgarien': 'var(--teal)', 'usa': '#b23a48', 'ki': '#0f7c9c', 'wirtschaft': 'var(--sand)', 'klima': '#2f8a4a', 'kultur': 'var(--signal)'}
 NEWS_DIR = {'bg': 'novini', 'de': 'nachrichten'}
@@ -33,11 +33,11 @@ MONTHS = {'bg': ['януари', 'февруари', 'март', 'април', '
 
 UI = {
  'bg': dict(home='Начало', tagline='Новини от целия свят', ed='Брой {n} · Година I', places='София · Берлин · Светът', clocks=[('Берлин', 'Europe/Berlin'), ('София', 'Europe/Sofia'), ('Лондон', 'Europe/London'), ('Ню Йорк', 'America/New_York'), ('Пекин', 'Asia/Shanghai')],
-   lead='Водеща новина', most='Последни новини', all='Всички новини →', src='Източници', by='Редакция TERRA', read='Четене {m} мин.', hour='ч.', items='новини', facts='Най-важното', more='Още от рубриката', empty='В тази рубрика скоро ще излизат материали на редакцията.',
+   lead='Водеща новина', most='Последни новини', all='Всички новини →', src='Източници', by='Редакция TERRA', read='Четене {m} мин.', hour='ч.', items='новини', facts='Най-важното', more='Още от рубриката', trailer='Трейлър', play='▶ Пусни трейлъра', ytnote='При пускане видеото се зарежда от YouTube (Google).', empty='В тази рубрика скоро ще излизат материали на редакцията.',
    foot='Независими новини от целия свят · Редакция София и Берлин', publisher='Издател: FILMPARTNER 24 EOOD', imprint='Импресум', privacy='Поверителност', principles='Редакционни принципи', rss='RSS', back='Към началото',
    desc_home='TERRA WORLD NEWS – новини от целия свят, от България, Германия и Европа. Всеки ден, проверени и с посочени източници.', title_home='TERRA WORLD NEWS – Новини от целия свят', live='НА ЖИВО', lang='Език'),
  'de': dict(home='Start', tagline='Nachrichten aus aller Welt', ed='Ausgabe {n} · Jahrgang I', places='Sofia · Berlin · Die Welt', clocks=[('Berlin', 'Europe/Berlin'), ('Sofia', 'Europe/Sofia'), ('London', 'Europe/London'), ('New York', 'America/New_York'), ('Peking', 'Asia/Shanghai')],
-   lead='Aufmacher', most='Neueste Meldungen', all='Alle Meldungen →', src='Quellen', by='TERRA-Redaktion', read='Lesezeit {m} Min.', hour='Uhr', items='Meldungen', facts='Das Wichtigste', more='Mehr aus dem Ressort', empty='In diesem Ressort erscheinen in Kürze Meldungen der Redaktion.',
+   lead='Aufmacher', most='Neueste Meldungen', all='Alle Meldungen →', src='Quellen', by='TERRA-Redaktion', read='Lesezeit {m} Min.', hour='Uhr', items='Meldungen', facts='Das Wichtigste', more='Mehr aus dem Ressort', trailer='Trailer', play='▶ Trailer abspielen', ytnote='Beim Abspielen wird das Video von YouTube (Google) geladen.', empty='In diesem Ressort erscheinen in Kürze Meldungen der Redaktion.',
    foot='Unabhängige Nachrichten aus aller Welt · Redaktion Sofia & Berlin', publisher='Herausgeber: FILMPARTNER 24 EOOD', imprint='Impressum', privacy='Datenschutz', principles='Redaktionsgrundsätze', rss='RSS', back='Zur Startseite',
    desc_home='TERRA WORLD NEWS – Nachrichten aus aller Welt, aus Deutschland, Bulgarien und Europa. Täglich, geprüft und mit Quellenangaben.', title_home='TERRA WORLD NEWS – Nachrichten aus aller Welt', live='LIVE', lang='Sprache'),
 }
@@ -242,12 +242,18 @@ def build():
         for it in items_l:
             T = it[l]
             paras = ''.join(f'<p>{e(p)}</p>' for p in T.get('body', [T['d']]))
+            trailer = ''
+            for v in ([it['yt']] if isinstance(it.get('yt'), dict) else it.get('yt') or []):
+                vid = e(v['id']); ttl = e(v.get('t', {}).get(l) or T['t'])
+                trailer += (f'<section class="trailer"><h2>{e(u["trailer"])}: {ttl}</h2>'
+                            f'<div class="yt" data-yt="{vid}"><button type="button" class="yt-play">{e(u["play"])}</button><span class="yt-note">{e(u["ytnote"])}</span></div>'
+                            f'<p class="src">YouTube · {e(v.get("ch", ""))} · <a href="https://www.youtube.com/watch?v={vid}" rel="noopener nofollow" target="_blank">youtube.com</a></p></section>')
             facts = f'<aside class="facts"><h2>{e(u["facts"])}</h2><ul>{LI(T["facts"])}</ul></aside>' if T.get('facts') else ''
             rel = [x for x in items_l if x['s'] == it['s'] and x is not it][:3]
             relh = f'<section class="rail" style="--c:{SEC_COLOR[it["s"]]}"><div class="rail-h"><h2>{e(u["more"])}</h2><a href="{sec_url(it["s"], l)}">{e(SEC[l][it["s"]][0])} →</a></div><div class="cards">{"".join(card(x, l) for x in rel)}</div></section>' if rel else ''
             body = (f'<article class="article"><a class="back" href="{sec_url(it["s"], l)}">← {e(SEC[l][it["s"]][0])}</a>{kick(it, l)}<h1>{e(T["t"])}</h1><p class="dek">{e(T["d"])}</p>'
                     f'<div class="byline meta"><span>{e(u["by"])}</span><time datetime="{iso(it)}">{short_date(it["date"], l)}, {it["time"]} {u["hour"]}</time><span>{u["read"].format(m=read_min(it, l))}</span></div>'
-                    f'{plate(it, l, cap=True, eager=True)}<div class="body">{paras}</div>{facts}<div class="sources"><h2>{e(u["src"])}</h2><ul>{LI(it["src"])}</ul></div></article>{relh}')
+                    f'{plate(it, l, cap=True, eager=True)}<div class="body">{paras}</div>{trailer}{facts}<div class="sources"><h2>{e(u["src"])}</h2><ul>{LI(it["src"])}</ul></div></article>{relh}')
             aalts = {x: art_url(it, x) for x in act if x in it}
             ld = {"@context": "https://schema.org", "@graph": [ORG, {"@type": "NewsArticle", "@id": SITE + art_url(it, l) + "#article", "mainEntityOfPage": SITE + art_url(it, l), "headline": T['t'][:110], "description": T['d'],
                   "datePublished": iso(it), "dateModified": iso(it), "inLanguage": l, "articleSection": SEC[l][it['s']][0], "isAccessibleForFree": True,

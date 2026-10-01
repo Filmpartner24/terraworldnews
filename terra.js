@@ -15,3 +15,15 @@
   paint();var t;window.addEventListener('resize',function(){clearTimeout(t);t=setTimeout(paint,150)});
   try{matchMedia('(prefers-color-scheme: dark)').addEventListener('change',paint)}catch(e){}
 })();
+
+/* YouTube-Trailer: erst nach Klick laden (Datenschutz) */
+document.querySelectorAll('.yt[data-yt] .yt-play').forEach(function(b){
+  b.addEventListener('click',function(){
+    var box=b.parentNode, id=box.getAttribute('data-yt');
+    var f=document.createElement('iframe');
+    f.src='https://www.youtube-nocookie.com/embed/'+encodeURIComponent(id)+'?autoplay=1&rel=0';
+    f.title='YouTube';f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';f.allowFullscreen=true;
+    f.referrerPolicy='strict-origin-when-cross-origin';
+    box.innerHTML='';box.appendChild(f);box.classList.add('on');
+  });
+});
