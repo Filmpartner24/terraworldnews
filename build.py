@@ -105,8 +105,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
         if code in act:
             target = (alternates or {}).get(code, pre(code))
             langbar += f'<a href="{target}" hreflang="{code}" lang="{code}" title="{e(name)}"{CUR_T if code == l else ""}>{code.upper()}</a>'
-        else:
-            langbar += f'<span class="off" lang="{code}" title="{e(name)}">{code.upper()}</span>'
+
     clocks = ''.join(f'<span>{e(n)} <b data-tz="{tz}">--:--</b></span>' for n, tz in u['clocks'])
     nav = f'<a href="{pre(l)}"{CUR_P if canon == pre(l) else ""}>{e(u["home"])}</a>' + ''.join(
         f'<a href="{sec_url(s, l)}"{CUR_P if canon == sec_url(s, l) else ""}>{e(SEC[l][s][0])}</a>' for s in SECTIONS)
