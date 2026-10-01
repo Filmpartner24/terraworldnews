@@ -18,6 +18,8 @@ jobs:
             for b in bundle*.tar.gz; do tar -xzf "$b"; git rm -q "$b"; done
           fi
       - run: pip install pillow
+      - name: Download bridge
+        run: python3 tools/fetch_urls.py
       - name: Photo candidates from Wikimedia Commons
         run: python3 tools/commons_candidates.py
       - run: python3 tools/fetch_images.py
