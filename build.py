@@ -119,7 +119,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
 <link rel="canonical" href="{SITE}{canon}">
 {alts}
 <link rel="alternate" type="application/rss+xml" title="TERRA WORLD NEWS ({l.upper()})" href="{SITE}{pre(l)}rss.xml">
-<meta name="theme-color" content="#101a1d">
+<meta name="theme-color" content="#ffffff"><meta name="color-scheme" content="light only">
 <link rel="icon" href="/favicon.ico" sizes="48x48"><link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <meta property="og:type" content="{og_type}"><meta property="og:site_name" content="TERRA WORLD NEWS"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{SITE}{canon}"><meta property="og:image" content="{SITE}{og_img or '/assets/og-image.jpg'}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="{675 if og_img else 630}"><meta property="og:locale" content="{LOCALE.get(l, l)}">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}"><meta name="twitter:image" content="{SITE}{og_img or '/assets/og-image.jpg'}">
