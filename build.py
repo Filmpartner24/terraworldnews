@@ -212,7 +212,7 @@ ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "/#org", "name": "TERRA W
 
 TICKER = {}
 ARCH = {}            # Artikel älter als STATIC_DAYS: gebündelt in /_arch/<l>/<datum>/<bucket>.json, ausgeliefert von functions/
-STATIC_DAYS = 14     # so viele Tage liegen Artikel als einzelne HTML-Dateien vor
+STATIC_DAYS = 1     # so viele Tage liegen Artikel als einzelne HTML-Dateien vor
 ARCH_BUCKETS = 8
 STATIC_FROM = '0000-00-00'
 def arch_bucket(slug):
