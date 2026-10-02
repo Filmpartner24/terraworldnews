@@ -14,7 +14,7 @@ CUR_T = ' aria-current="true"'
 CUR_P = ' aria-current="page"'
 
 # All planned languages (order = language bar). Only languages with content are built.
-LANGS = [('de', 'Deutsch'), ('bg', 'Български'), ('en', 'English'), ('es', 'Español'), ('pt', 'Português'), ('fr', 'Français'),
+LANGS = [('bg', 'Български'), ('de', 'Deutsch'), ('en', 'English'), ('es', 'Español'), ('pt', 'Português'), ('fr', 'Français'),
          ('it', 'Italiano'), ('ro', 'Română'), ('tr', 'Türkçe'), ('ru', 'Русский'), ('uk', 'Українська'), ('ar', 'العربية'),
          ('zh', '中文'), ('hi', 'हिन्दी'), ('ja', '日本語'), ('el', 'Ελληνικά'), ('sr', 'Српски')]
 PREFIX = {'bg': '/'}  # Bulgarian is the main edition at the root
@@ -92,6 +92,7 @@ def globe_svg(cls='globe'):
 
 import hashlib as _hl
 ASSET_V={n:_hl.md5(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'static','assets',n),'rb').read()).hexdigest()[:8] for n in ('fonts.css','terra.css')}
+ASSET_V['terra.js']=_hl.md5(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'terra.js'),'rb').read()).hexdigest()[:8]
 
 def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='website', issue=1, date=None, ticker=None, extra_head='', og_img=None):
     u = UI[l]
@@ -153,7 +154,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
     <nav><a href="{legal_url('about', l)}">{e(u['about'])}</a><a href="{legal_url('imprint', l)}">{e(u['imprint'])}</a><a href="{legal_url('privacy', l)}">{e(u['privacy'])}</a><a href="{legal_url('principles', l)}">{e(u['principles'])}</a><a href="{pre(l)}rss.xml">{e(u['rss'])}</a></nav>
   </footer>
 </div>
-<script src="/assets/terra.js" defer></script>
+<script src="/assets/terra.js?v={ASSET_V['terra.js']}" defer></script>
 </body>
 </html>'''
 

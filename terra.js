@@ -27,3 +27,10 @@ document.querySelectorAll('.yt[data-yt] .yt-play').forEach(function(b){
     box.innerHTML='';box.appendChild(f);box.classList.add('on');
   });
 });
+
+/* Sprachwahl merken: wer die Sprache selbst wählt, wird auf der Startseite nicht mehr automatisch umgeleitet */
+document.querySelectorAll('.langs a[hreflang]').forEach(function(a){
+  a.addEventListener('click',function(){
+    document.cookie='twn_lang='+a.getAttribute('hreflang')+';path=/;max-age=31536000;SameSite=Lax;Secure';
+  });
+});
