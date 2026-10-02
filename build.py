@@ -112,7 +112,12 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
         f'<a href="{sec_url(s, l)}"{CUR_P if canon == sec_url(s, l) else ""}>{e(SEC[l][s][0])}</a>' for s in SECTIONS)
     tick = ''
     if ticker:
-        tick = f'<div class="ticker"><span class="k">{u["live"]}</span><p id="tick" data-items="{e(json.dumps(ticker, ensure_ascii=False))}"><a href="{ticker[0]["u"]}"><span class="meta">{ticker[0]["time"]}</span> · {e(ticker[0]["t"])}</a></p></div>'
+        _ti = ''.join(f'<a href="{x["u"]}"><span class="tm">{x["time"]}</span>{e(x["t"])}</a><span class="sep" aria-hidden="true"></span>' for x in ticker[:15])
+        _ti2 = _ti.replace('<a ', '<a tabindex="-1" ')
+        _pz = {'bg': 'Пауза', 'de': 'Pause', 'en': 'Pause'}.get(l, 'Pause')
+        tick = (f'<div class="ticker" role="region" aria-label="{u["live"]}"><span class="k"><i class="dot" aria-hidden="true"></i>{u["live"]}</span>'
+                f'<div class="tk-track"><div class="tk-move" id="tick"><div class="tk-set">{_ti}</div><div class="tk-set" aria-hidden="true">{_ti2}</div></div></div>'
+                f'<button class="tk-pause" type="button" aria-pressed="false" aria-label="{_pz}" title="{_pz}"><span aria-hidden="true"></span></button></div>')
     ldj = f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>' if ld else ''
     return f'''<!DOCTYPE html>
 <html lang="{l}">
