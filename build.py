@@ -184,11 +184,26 @@ def SNAMES(xs): return ', '.join(SN(x) for x in xs)
 def LI(xs): return ''.join(('<li><a href="' + e(x['u']) + '" rel="noopener nofollow" target="_blank">' + e(x['n']) + '</a></li>') if isinstance(x, dict) and x.get('u') else ('<li>' + e(SN(x)) + '</li>') for x in xs)
 def CIT(xs): return [({"@type": "CreativeWork", "name": x['n'], "url": x['u']} if isinstance(x, dict) and x.get('u') else SN(x)) for x in xs]
 
+def lic_url(lic):
+    import re as _r
+    t = (lic or '').strip()
+    m = _r.match(r'(?i)^CC[ -]?(BY(?:-SA)?)\s*([\d.]+)\s*([a-z]{2})?$', t)
+    if m:
+        return f'https://creativecommons.org/licenses/{m.group(1).lower()}/{m.group(2)}/' + (f'{m.group(3).lower()}/' if m.group(3) else '')
+    if _r.match(r'(?i)^CC0', t): return 'https://creativecommons.org/publicdomain/zero/1.0/'
+    m = _r.match(r'(?i)^OGL\s*v?(\d)', t)
+    if m: return f'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/{m.group(1)}/'
+    return ''
+
 def credit(im, l, link=False):
     who = (im['art'] + ' / ') if im.get('art') else ''
     lab = {'bg': 'Снимка', 'de': 'Foto'}.get(l, 'Photo')
     txt = f'{lab}: {who}Wikimedia Commons, {im["lic"]}'
-    return f'<a href="{e(im["page"])}" rel="noopener nofollow" target="_blank">{e(txt)}</a>' if link else e(txt)
+    if not link: return e(txt)
+    lu = lic_url(im.get('lic'))
+    mod = {'bg': 'изрязана и мащабирана', 'de': 'zugeschnitten und skaliert', 'en': 'cropped and resized'}.get(l, 'cropped and resized')
+    lic_h = f'<a href="{lu}" rel="noopener nofollow license" target="_blank">{e(im["lic"])}</a>' if lu else e(im['lic'])
+    return (f'{lab}: <a href="{e(im["page"])}" rel="noopener nofollow" target="_blank">{e(who + "Wikimedia Commons")}</a>, {lic_h} ({mod})')
 
 def plate(it, l, label=None, cap=False, eager=False):
     im = it.get('img')
