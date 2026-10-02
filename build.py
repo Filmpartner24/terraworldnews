@@ -112,6 +112,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
     nav = f'<a href="{pre(l)}"{CUR_P if canon == pre(l) else ""}>{e(u["home"])}</a>' + ''.join(
         f'<a href="{sec_url(s, l)}"{CUR_P if canon == sec_url(s, l) else ""}>{e(SEC[l][s][0])}</a>' for s in SECTIONS)
     tick = ''
+    ticker = ticker or TICKER.get(l)
     if ticker:
         _ti = ''.join(f'<a href="{x["u"]}"><span class="tm">{x["time"]}</span>{e(x["t"])}</a><span class="sep" aria-hidden="true"></span>' for x in ticker[:15])
         _ti2 = _ti.replace('<a ', '<a tabindex="-1" ')
@@ -207,6 +208,8 @@ ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "/#org", "name": "TERRA W
        "publishingPrinciples": SITE + "/redaktsionni-printsipi.html", "correctionsPolicy": SITE + "/redaktsionni-printsipi.html#korekcii",
        "email": "media@filmpartner24.com", "areaServed": "Worldwide", "knowsLanguage": ["bg", "de", "en"]}
 
+TICKER = {}
+
 def build():
     eds = load()
     act = active_langs(eds)
@@ -228,6 +231,7 @@ def build():
         items_l = [it for it in allitems if l in it]
         today = [it for it in latest['items'] if l in it]
         ticker = [{"t": it[l]['t'], "u": art_url(it, l), "time": it['time']} for it in sorted(today, key=lambda x: x['time'], reverse=True)]
+        TICKER[l] = ticker  # LIVE-Laufband auf allen Seiten
         # ---- home
         lead = next((it for it in today if it.get('lead')), today[0])
         rest = sorted([it for it in today if it is not lead], key=lambda x: x['time'], reverse=True)
