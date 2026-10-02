@@ -55,6 +55,7 @@ def load():
         for it in d['items']:
             it['date'] = d['date']
             if it.get('s') == 'usa': it['s'] = 'welt'  # USA-Meldungen laufen unter Welt
+            if it.get('img') and not it['img']['f'].startswith('/'): it['img']['f'] = '/' + it['img']['f']  # Pfad immer absolut
             if it.get('img') and not os.path.exists(os.path.join(HERE, 'static', it['img']['f'].lstrip('/'))):
                 it.pop('img')  # Foto noch nicht geladen (kommt mit dem nächsten Action-Lauf) -> Platzhalter statt grauer Fläche
             for _l in ('bg', 'de', 'en'):
