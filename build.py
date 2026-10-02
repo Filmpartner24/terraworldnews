@@ -107,6 +107,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
             target = (alternates or {}).get(code, pre(code))
             langbar += f'<a href="{target}" hreflang="{code}" lang="{code}" title="{e(name)}"{CUR_T if code == l else ""}>{code.upper()}</a>'
 
+    wx = ''.join(f'<span data-wx="{i}">{e(n)} <b>–</b></span>' for i, n in enumerate(WXC[l]))
     clocks = ''.join(f'<span>{e(n)} <b data-tz="{tz}">--:--</b></span>' for n, tz in u['clocks'])
     nav = f'<a href="{pre(l)}"{CUR_P if canon == pre(l) else ""}>{e(u["home"])}</a>' + ''.join(
         f'<a href="{sec_url(s, l)}"{CUR_P if canon == sec_url(s, l) else ""}>{e(SEC[l][s][0])}</a>' for s in SECTIONS)
@@ -142,13 +143,15 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
 <body>
 <div class="wrap">
   <div class="top">
-    <div class="clocks" aria-label="{e(u['clocks'][0][0])}">{clocks}</div>
     <nav class="langs" aria-label="{e(u['lang'])}">{langbar}</nav>
   </div>
-  <header class="mast">
+  <header class="mast"><div class="mast-in">
+    <div class="mast-l clocks" aria-label="{WXL[l][2]}">{clocks}</div>
     <p class="brand"><a href="{pre(l)}"><img class="mast-logo" src="/assets/terra-masthead2-800.webp" srcset="/assets/terra-masthead2-800.webp 800w, /assets/terra-masthead2-1600.webp 1600w" sizes="(max-width: 700px) 86vw, 620px" width="800" height="246" alt="TERRA WORLD NEWS" fetchpriority="high"></a></p>
+    <div class="mast-r wx" aria-label="{WXL[l][0]}" title="{WXL[l][1]}">{wx}<a class="wx-src" href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">MET Norway · CC BY 4.0</a></div>
+  </div></header>
     <div class="edition"><span class="ed-l" aria-hidden="true"></span><span class="mid">{e(nice_date(date, l)) if date else ''}</span><span class="ed-l" aria-hidden="true"></span></div>
-  </header>
+
   <nav class="sections" aria-label="{e(u['home'])}">{nav}</nav>
   {tick}
   <main id="main">
@@ -185,6 +188,8 @@ def plate(it, l, label=None, cap=False, eager=False):
         return f'<div class="plate photo">{tag}<span class="credit">{credit(im, l)}</span></div>'
     return f'<div class="plate" style="--c:{SEC_COLOR[it["s"]]}"><canvas data-seed="{it["id"]}" aria-hidden="true"></canvas><span class="lbl">{e(label or SEC[l][it["s"]][0])}</span></div>'
 
+WXC = {'bg': ['Берлин', 'Мюнхен', 'Хамбург', 'София', 'Бургас', 'Кюстендил'], 'de': ['Berlin', 'München', 'Hamburg', 'Sofia', 'Burgas', 'Kjustendil'], 'en': ['Berlin', 'Munich', 'Hamburg', 'Sofia', 'Burgas', 'Kyustendil']}
+WXL = {'bg': ('Времето', 'Данни за времето: MET Norway (CC BY 4.0)', 'Часовници'), 'de': ('Wetter', 'Wetterdaten: MET Norway (CC BY 4.0)', 'Uhrzeiten'), 'en': ('Weather', 'Weather data: MET Norway (CC BY 4.0)', 'World clocks')}
 PUBL = {'bg': 'Публикувано', 'de': 'Veröffentlicht', 'en': 'Published'}
 
 def num_date(d):
