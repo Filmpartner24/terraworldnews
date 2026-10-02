@@ -23,9 +23,9 @@ LOCALE = {'bg': 'bg_BG', 'de': 'de_DE', 'en': 'en_GB'}
 
 SECTIONS = ['welt', 'europa', 'deutschland', 'bulgarien', 'usa', 'ki', 'wirtschaft', 'klima', 'kultur']
 SEC = {
- 'bg': {'welt': ('Свят', 'svyat'), 'europa': ('Европа', 'evropa'), 'deutschland': ('Германия', 'germania'), 'bulgarien': ('България', 'balgaria'), 'usa': ('САЩ', 'sasht'), 'ki': ('Иновации', 'inovatsii'), 'wirtschaft': ('Икономика', 'ikonomika'), 'klima': ('Климат и енергия', 'klimat'), 'kultur': ('Развлечения', 'razvlechenia')},
- 'de': {'welt': ('Welt', 'welt'), 'europa': ('Europa', 'europa'), 'deutschland': ('Deutschland', 'deutschland'), 'bulgarien': ('Bulgarien', 'bulgarien'), 'usa': ('USA', 'usa'), 'ki': ('Innovation', 'innovation'), 'wirtschaft': ('Wirtschaft', 'wirtschaft'), 'klima': ('Klima & Energie', 'klima'), 'kultur': ('Entertainment', 'entertainment')},
- 'en': {'welt': ('World', 'world'), 'europa': ('Europe', 'europe'), 'deutschland': ('Germany', 'germany'), 'bulgarien': ('Bulgaria', 'bulgaria'), 'usa': ('USA', 'usa'), 'ki': ('Innovation', 'innovation'), 'wirtschaft': ('Business', 'business'), 'klima': ('Climate & Energy', 'climate'), 'kultur': ('Entertainment', 'entertainment')},
+ 'bg': {'welt': ('Свят', 'svyat'), 'europa': ('Европа', 'evropa'), 'deutschland': ('Германия', 'germania'), 'bulgarien': ('България', 'balgaria'), 'usa': ('САЩ', 'sasht'), 'ki': ('Технологии', 'tehnologii'), 'wirtschaft': ('Икономика', 'ikonomika'), 'klima': ('Климат и енергия', 'klimat'), 'kultur': ('Развлечения', 'razvlechenia')},
+ 'de': {'welt': ('Welt', 'welt'), 'europa': ('Europa', 'europa'), 'deutschland': ('Deutschland', 'deutschland'), 'bulgarien': ('Bulgarien', 'bulgarien'), 'usa': ('USA', 'usa'), 'ki': ('Technologie', 'technologie'), 'wirtschaft': ('Wirtschaft', 'wirtschaft'), 'klima': ('Klima & Energie', 'klima'), 'kultur': ('Entertainment', 'entertainment')},
+ 'en': {'welt': ('World', 'world'), 'europa': ('Europe', 'europe'), 'deutschland': ('Germany', 'germany'), 'bulgarien': ('Bulgaria', 'bulgaria'), 'usa': ('USA', 'usa'), 'ki': ('Technology', 'technology'), 'wirtschaft': ('Business', 'business'), 'klima': ('Climate & Energy', 'climate'), 'kultur': ('Entertainment', 'entertainment')},
 }
 SEC_COLOR = {'welt': 'var(--cobalt)', 'europa': '#5b3fc4', 'deutschland': 'var(--muted)', 'bulgarien': 'var(--teal)', 'usa': '#b23a48', 'ki': '#0f7c9c', 'wirtschaft': 'var(--sand)', 'klima': '#2f8a4a', 'kultur': 'var(--signal)'}
 NEWS_DIR = {'bg': 'novini', 'de': 'nachrichten', 'en': 'news'}
