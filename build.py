@@ -378,6 +378,12 @@ def build():
             rss_items += f'<item><title>{e(it[l]["t"])}</title><link>{SITE}{art_url(it, l)}</link><guid>{SITE}{art_url(it, l)}</guid><pubDate>{format_datetime(dt)}</pubDate><category>{e(SEC[l][it["s"]][0])}</category><description>{e(it[l]["d"])}</description></item>'
         write(pre(l) + 'rss.xml', f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>TWN – World News ({l.upper()})</title><link>{SITE}{pre(l)}</link><description>{e(u["desc_home"])}</description><language>{l}</language>{rss_items}</channel></rss>')
 
+    # ---- 404 page (needed so that missing files return 404 and the archive function can step in)
+    l0 = 'bg' if 'bg' in act else act[0]
+    nf = ('<section class="search-page"><h1 class="sec-h">404</h1>'
+          '<p>Страницата не е намерена. · Seite nicht gefunden. · Page not found.</p>'
+          f'<p><a href="/">TWN – Начало</a> · <a href="/de/">TWN – Start</a> · <a href="/en/">TWN – Home</a></p></section>')
+    open(os.path.join(OUT, '404.html'), 'w', encoding='utf-8').write(page(l0, act, '404 | TWN – World News', 'Page not found', '/404.html', nf, extra_head='<meta name="robots" content="noindex">'))
     # ---- archive bundles for older articles
     for (al, ad, ab), pages in ARCH.items():
         fp = os.path.join(OUT, '_arch', al, ad, f'{ab}.json')
