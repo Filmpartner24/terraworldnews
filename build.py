@@ -211,6 +211,15 @@ ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "/#org", "name": "TERRA W
        "email": "media@filmpartner24.com", "areaServed": "Worldwide", "knowsLanguage": ["bg", "de", "en"]}
 
 TICKER = {}
+ARCH = {}            # Artikel älter als STATIC_DAYS: gebündelt in /_arch/<l>/<datum>/<bucket>.json, ausgeliefert von functions/
+STATIC_DAYS = 14     # so viele Tage liegen Artikel als einzelne HTML-Dateien vor
+ARCH_BUCKETS = 8
+STATIC_FROM = '0000-00-00'
+def arch_bucket(slug):
+    h = 2166136261
+    for b in slug.encode('utf-8'):
+        h ^= b; h = (h * 16777619) & 0xffffffff
+    return h % ARCH_BUCKETS
 SEARCH_SLUG = {'bg': 'tarsene', 'de': 'suche', 'en': 'search'}
 SUI = {
  'bg': dict(title='Търсене', ph='Име, държава, събитие или дата …', btn='Търси', all='Всички рубрики', any='По всяко време', d1='Днес', d7='Последните 7 дни', d30='Последните 30 дни',
@@ -219,6 +228,20 @@ SUI = {
             hint='Suchen Sie nach Namen, Ländern, Ereignissen oder einem Datum (z. B. 2. Oktober oder 02.10.2026). Alle Wörter müssen im Artikel vorkommen.', found='{n} Treffer', none='Keine Artikel gefunden. Versuchen Sie ein anderes Wort oder einen größeren Zeitraum.', loading='Suche läuft …', more='Weitere Treffer'),
  'en': dict(title='Search', ph='Name, country, event or date …', btn='Search', all='All sections', any='Any time', d1='Today', d7='Last 7 days', d30='Last 30 days',
             hint='Search for names, countries, events or a date (e.g. 2 October or 02.10.2026). All words must appear in the article.', found='{n} results', none='No articles found. Try another word or a wider time range.', loading='Searching …', more='More results')}
+SEC_CODE = {k: chr(97 + i) for i, k in enumerate(['welt', 'europa', 'deutschland', 'bulgarien', 'usa', 'ki', 'wirtschaft', 'klima', 'kultur'])}
+DOC_CHUNK = 400
+STOP = {'de': set('der die das den dem des ein eine einen einem einer eines und oder aber in im ins an am auf aus bei mit nach von vom zu zum zur für über unter vor wie als auch es er sie wir ihr ist sind war wird werden wurde hat haben nicht noch nur so dass sich bis um durch gegen'.split()),
+        'en': set('the a an and or but in on at of for to from by with as is are was were be been has have had it its this that these those not no will would can could after over into about than'.split()),
+        'bg': set('и в на за с от по до да се е са не че като който която което които при към след без или но той тя те то ще би беше са'.split())}
+def snorm(t):
+    import unicodedata
+    t = unicodedata.normalize('NFD', (t or '').lower()).replace('ß', 'ss')
+    return ''.join(c for c in t if not ('\u0300' <= c <= '\u036f'))
+def stoks(t, l):
+    import re as _r
+    return [w for w in _r.findall(r'[^\W_]+', snorm(t)) if len(w) >= 2 and w not in STOP.get(l, ())]
+def shard_key(w):
+    return w[:2].encode('utf-8').hex()
 def search_url(l): return f"{pre(l)}{SEARCH_SLUG[l]}.html"
 
 def build():
@@ -231,6 +254,10 @@ def build():
     shutil.copy(os.path.join(HERE, 'search.js'), os.path.join(OUT, 'assets', 'search.js'))
     allitems = [it for d in eds for it in d['items']]
     latest = eds[-1]
+    global STATIC_FROM
+    import datetime as _dt
+    STATIC_FROM = (_dt.date.fromisoformat(latest['date']) - _dt.timedelta(days=STATIC_DAYS - 1)).isoformat()
+    ARCH.clear()
     urls = []  # (url, alternates, lastmod)
     def write(path, content):
         fp = os.path.join(OUT, path.lstrip('/'))
@@ -294,7 +321,9 @@ def build():
                   "citation": CIT(it['src'])},
                   {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": u['home'], "item": SITE + pre(l)}, {"@type": "ListItem", "position": 2, "name": SEC[l][it['s']][0], "item": SITE + sec_url(it['s'], l)}, {"@type": "ListItem", "position": 3, "name": T['t']}]}]}
             extra = f'<meta property="article:published_time" content="{iso(it)}"><meta property="article:section" content="{e(SEC[l][it["s"]][0])}">'
-            write(art_url(it, l), page(l, act, f'{T["t"]} | TWN', T['d'], art_url(it, l), body, aalts, ld, og_type='article', issue=latest.get('issue', 1), date=it['date'], extra_head=extra, og_img=(it['img']['f'] if it.get('img') else None)))
+            _html = page(l, act, f'{T["t"]} | TWN', T['d'], art_url(it, l), body, aalts, ld, og_type='article', issue=latest.get('issue', 1), date=it['date'], extra_head=extra, og_img=(it['img']['f'] if it.get('img') else None))
+            if it['date'] >= STATIC_FROM: write(art_url(it, l), _html)
+            else: ARCH.setdefault((l, it['date'], arch_bucket(it['id'])), {})[it['id']] = _html
             urls.append((art_url(it, l), aalts, it['date']))
         # ---- legal
         for k in ('about', 'imprint', 'privacy', 'principles'):
@@ -302,23 +331,34 @@ def build():
             lalts = {x: legal_url(k, x) for x in act}
             write(legal_url(k, l), page(l, act, f'{u[k]} | TWN – World News', f'{u[k]} – TWN – World News (Terra World News)', legal_url(k, l), f'<article class="legal">{txt}</article>', lalts, issue=latest.get('issue', 1), date=latest['date']))
             urls.append((legal_url(k, l), lalts, latest['date']))
-        # ---- search index (monthly shards) + search page
-        import re as _re
-        shards = {}
-        for it in items_l:
+        # ---- search index: inverted index sharded by token prefix (scales over years) + search page
+        docs = sorted(items_l, key=lambda x: (x['date'], x['time'], x['id']))
+        post = {}
+        days = {}
+        secs = ''
+        for n, it in enumerate(docs):
             T = it[l]
             body = T.get('body', '')
             body = ' '.join(body) if isinstance(body, list) else body
-            facts = ' '.join(T.get('facts') or [])
             y, m, d = it['date'].split('-')
-            dates = f"{int(d)}.{int(m)}.{y} {d}.{m}.{y} {it['date']} {short_date(it['date'], l)} {nice_date(it['date'], l)}"
-            src = ' '.join(x.get('n', '') for x in it.get('src', []))
-            shards.setdefault(f'{y}-{m}', []).append({'u': art_url(it, l), 't': T['t'], 'd': T['d'], 's': it['s'], 'sn': SEC[l][it['s']][0], 'dt': it['date'], 'tm': it['time'],
-                'x': _re.sub(r'\s+', ' ', f"{body} {facts} {src} {dates}")[:1800]})
-        months = sorted(shards, reverse=True)
-        for mo in months:
-            write(f'{pre(l)}search/{mo}.json', json.dumps(sorted(shards[mo], key=lambda x: (x['dt'], x['tm']), reverse=True), ensure_ascii=False, separators=(',', ':')))
-        write(f'{pre(l)}search/index.json', json.dumps({'months': months}, separators=(',', ':')))
+            days.setdefault(it['date'], n)
+            secs += SEC_CODE[it['s']]
+            tt = set(stoks(T['t'], l))
+            other = set(stoks(' '.join([T['d'], body, ' '.join(T.get('facts') or []), ' '.join(x.get('n', '') for x in it.get('src', [])), SEC[l][it['s']][0]]), l))
+            other |= {f'd{y}{m}{d}', f'md{m}{d}', f'ym{y}{m}'}
+            for w in tt | other:
+                post.setdefault(w, []).append(n * 2 + (1 if w in tt else 0))
+        shards = {}
+        years = sorted({it['date'][:4] for it in docs}, reverse=True)
+        for w, ps in post.items():
+            for pp in ps:
+                shards.setdefault((docs[pp >> 1]['date'][:4], shard_key(w)), {}).setdefault(w, []).append(pp)
+        for (yr, k), v in shards.items():
+            write(f'{pre(l)}search/t/{yr}/{k}.json', json.dumps(v, ensure_ascii=False, separators=(',', ':')))
+        for c in range(0, len(docs), DOC_CHUNK):
+            write(f'{pre(l)}search/d/{c // DOC_CHUNK}.json', json.dumps([[art_url(it, l), it[l]['t'], it[l]['d'], it['s'], it['date'], it['time']] for it in docs[c:c + DOC_CHUNK]], ensure_ascii=False, separators=(',', ':')))
+        write(f'{pre(l)}search/meta.json', json.dumps({'n': len(docs), 'chunk': DOC_CHUNK, 'sec': secs, 'codes': {SEC_CODE[k]: k for k in SEC[l]}, 'names': {k: SEC[l][k][0] for k in SEC[l]}, 'days': days,
+                                                       'months': {snorm(mn): i + 1 for i, mn in enumerate(MONTHS[l])}, 'stop': sorted(STOP.get(l, ())), 'years': years}, ensure_ascii=False, separators=(',', ':')))
         su = SUI[l]
         opts = ''.join(f'<option value="{k}">{e(SEC[l][k][0])}</option>' for k in SECTIONS if k in SEC[l])
         sbody = (f'<section class="search-page"><h1 class="sec-h">{e(su["title"])}</h1>'
@@ -338,6 +378,11 @@ def build():
             rss_items += f'<item><title>{e(it[l]["t"])}</title><link>{SITE}{art_url(it, l)}</link><guid>{SITE}{art_url(it, l)}</guid><pubDate>{format_datetime(dt)}</pubDate><category>{e(SEC[l][it["s"]][0])}</category><description>{e(it[l]["d"])}</description></item>'
         write(pre(l) + 'rss.xml', f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>TWN – World News ({l.upper()})</title><link>{SITE}{pre(l)}</link><description>{e(u["desc_home"])}</description><language>{l}</language>{rss_items}</channel></rss>')
 
+    # ---- archive bundles for older articles
+    for (al, ad, ab), pages in ARCH.items():
+        fp = os.path.join(OUT, '_arch', al, ad, f'{ab}.json')
+        os.makedirs(os.path.dirname(fp), exist_ok=True)
+        open(fp, 'w', encoding='utf-8').write(json.dumps(pages, ensure_ascii=False, separators=(',', ':')))
     # ---- sitemaps
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
     for url, alts, lm in urls:
@@ -353,7 +398,7 @@ def build():
                 ns += f'  <url><loc>{SITE}{art_url(it, l)}</loc><news:news><news:publication><news:name>TWN World News</news:name><news:language>{l}</news:language></news:publication><news:publication_date>{iso(it)}</news:publication_date><news:title>{e(it[l]["t"])}</news:title></news:news></url>\n'
     ns += '</urlset>\n'
     open(os.path.join(OUT, 'news-sitemap.xml'), 'w', encoding='utf-8').write(ns)
-    open(os.path.join(OUT, 'robots.txt'), 'w').write(f'User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\nSitemap: {SITE}/news-sitemap.xml\n')
+    open(os.path.join(OUT, 'robots.txt'), 'w').write(f'User-agent: *\nAllow: /\nDisallow: /_arch/\nDisallow: /search/\nDisallow: /de/search/\nDisallow: /en/search/\n\nSitemap: {SITE}/sitemap.xml\nSitemap: {SITE}/news-sitemap.xml\n')
     n = sum(1 for _ in glob.glob(OUT + '/**/*', recursive=True) if os.path.isfile(_))
     print(f'built {len(urls)} pages, {n} files, languages: {act}')
 
