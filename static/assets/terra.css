@@ -283,3 +283,8 @@ h1,h2,h3,.rank .n,.rail-h h2,.plate .lbl,footer .brand-s{font-weight:700}
 .rank .kick{flex-wrap:wrap;row-gap:2px}
 @media (max-width:420px){.rank{grid-template-columns:1.4em 96px minmax(0,1fr);gap:10px}.rt{width:96px}.rank h3{font-size:17px}}
 @media (min-width:821px){.rank{grid-template-columns:1.6em 136px minmax(0,1fr)}.rt{width:136px}.ranked h2.rh{font-size:30px}}
+/* Video-/Trailer-Hinweis auf Karten, Trailer des Tages */
+.has-v{position:relative}
+.has-v > .rt-play{z-index:2;left:10px;top:10px;bottom:auto;width:38px;height:38px;font-size:15px}
+.trl-day{margin:6px 0 26px;padding:14px 0 6px;border-top:4px solid #d4161c;border-bottom:1px solid var(--rule)}
+.trl-h{margin:0 0 14px;font-family:var(--head);font-size:26px;font-weight:700;text-transform:uppercase;letter-spacing:.02em;color:#d4161c}
