@@ -180,8 +180,14 @@ def plate(it, l, label=None, cap=False, eager=False):
         return f'<div class="plate photo">{tag}<span class="credit">{credit(im, l)}</span></div>'
     return f'<div class="plate" style="--c:{SEC_COLOR[it["s"]]}"><canvas data-seed="{it["id"]}" aria-hidden="true"></canvas><span class="lbl">{e(label or SEC[l][it["s"]][0])}</span></div>'
 
+PUBL = {'bg': 'Публикувано', 'de': 'Veröffentlicht', 'en': 'Published'}
+
+def num_date(d):
+    y, m, dd = d.split('-')
+    return f'{dd}.{m}.{y}'
+
 def kick(it, l, prefix=''):
-    return f'<div class="kick" style="--c:{SEC_COLOR[it["s"]]}"><i></i>{prefix}{e(SEC[l][it["s"]][0])} · <span class="meta">{it["time"]} {UI[l]["hour"]}</span></div>'
+    return f'<div class="kick" style="--c:{SEC_COLOR[it["s"]]}"><i></i>{prefix}{e(SEC[l][it["s"]][0])} · <time class="meta" datetime="{iso(it)}">{num_date(it["date"])}, {it["time"]}{(" " + UI[l]["hour"]) if UI[l]["hour"] else ""}</time></div>'
 
 def card(it, l):
     T = it[l]
@@ -219,7 +225,7 @@ def build():
         # ---- home
         lead = next((it for it in today if it.get('lead')), today[0])
         rest = sorted([it for it in today if it is not lead], key=lambda x: x['time'], reverse=True)
-        ranked = ''.join(f'<div class="rank"><span class="n">{i + 1}</span><a href="{art_url(it, l)}"><div class="kick" style="--c:{SEC_COLOR[it["s"]]}"><i></i>{e(SEC[l][it["s"]][0])}</div><h3>{e(it[l]["t"])}</h3></a></div>' for i, it in enumerate(rest[:5]))
+        ranked = ''.join(f'<div class="rank"><span class="n">{i + 1}</span><a href="{art_url(it, l)}">{kick(it, l)}<h3>{e(it[l]["t"])}</h3></a></div>' for i, it in enumerate(rest[:5]))
         order = ['bulgarien', 'welt', 'europa', 'deutschland', 'usa', 'ki', 'wirtschaft', 'klima', 'kultur'] if l == 'bg' else ['welt', 'europa', 'usa', 'deutschland', 'bulgarien', 'ki', 'wirtschaft', 'klima', 'kultur'] if l == 'en' else ['welt', 'deutschland', 'europa', 'bulgarien', 'usa', 'ki', 'wirtschaft', 'klima', 'kultur']
         rails = ''
         for s in order:
@@ -257,7 +263,7 @@ def build():
             rel = [x for x in items_l if x['s'] == it['s'] and x is not it][:3]
             relh = f'<section class="rail" style="--c:{SEC_COLOR[it["s"]]}"><div class="rail-h"><h2>{e(u["more"])}</h2><a href="{sec_url(it["s"], l)}">{e(SEC[l][it["s"]][0])} →</a></div><div class="cards">{"".join(card(x, l) for x in rel)}</div></section>' if rel else ''
             body = (f'<article class="article"><a class="back" href="{sec_url(it["s"], l)}">← {e(SEC[l][it["s"]][0])}</a>{kick(it, l)}<h1>{e(T["t"])}</h1><p class="dek">{e(T["d"])}</p>'
-                    f'<div class="byline meta"><span>{e(u["by"])}</span><time datetime="{iso(it)}">{short_date(it["date"], l)}, {it["time"]} {u["hour"]}</time><span>{u["read"].format(m=read_min(it, l))}</span></div>'
+                    f'<div class="byline meta"><span>{e(u["by"])}</span><time datetime="{iso(it)}">{PUBL[l]}: {short_date(it["date"], l)}, {it["time"]}{(" " + u["hour"]) if u["hour"] else ""}</time><span>{u["read"].format(m=read_min(it, l))}</span></div>'
                     f'{plate(it, l, cap=True, eager=True)}<div class="body">{paras}</div>{trailer}{facts}<div class="sources"><h2>{e(u["src"])}</h2><ul>{LI(it["src"])}</ul></div></article>{relh}')
             aalts = {x: art_url(it, x) for x in act if x in it}
             ld = {"@context": "https://schema.org", "@graph": [ORG, {"@type": "NewsArticle", "@id": SITE + art_url(it, l) + "#article", "mainEntityOfPage": SITE + art_url(it, l), "headline": T['t'][:110], "description": T['d'],
