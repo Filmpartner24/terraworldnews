@@ -339,20 +339,72 @@ def build():
               {"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": SITE + art_url(it, l)} for i, it in enumerate([lead] + rest)]}]}
         write(pre(l), page(l, act, u['title_home'], u['desc_home'], pre(l), body, alts, ld, issue=latest.get('issue', 1), date=latest['date'], ticker=ticker))
         urls.append((pre(l), alts, latest['date']))
-        # ---- sections
+        # ---- sections (Ressortseite: Aufmacher + Top-Teaser, Tagesblöcke der letzten 7 Tage, Seitenleiste, Archivseiten)
+        SX = {'bg': dict(latest='Последни новини', other='Други рубрики', older='По-стари новини', page='Страница', prev='← По-нови', next='По-стари →', arch='Архив'),
+              'de': dict(latest='Alle Meldungen', other='Aus anderen Ressorts', older='Ältere Meldungen', page='Seite', prev='← Neuere', next='Ältere →', arch='Archiv'),
+              'en': dict(latest='All stories', other='From other sections', older='Older stories', page='Page', prev='← Newer', next='Older →', arch='Archive')}[l]
+        def row(it):
+            T = it[l]
+            return (f'<article class="row"><a class="row-img" href="{art_url(it, l)}" tabindex="-1">{plate(it, l)}</a>'
+                    f'<div class="row-txt">{kick(it, l)}<a href="{art_url(it, l)}"><h3>{e(T["t"])}</h3></a><p>{e(T["d"])}</p>'
+                    f'<span class="src">{u["src"]}: {e(SNAMES(it["src"]))}</span></div></article>')
+        def daylist(lst):
+            out, cur = '', None
+            for it in lst:
+                if it['date'] != cur:
+                    if cur is not None: out += '</div>'
+                    cur = it['date']
+                    out += f'<h3 class="day-h">{e(nice_date(cur, l))}</h3><div class="rows">'
+                out += row(it)
+            return out + ('</div>' if cur else '')
+        def mini(it):
+            im = it.get('img')
+            th = f'<img src="{im["f"]}" width="{im["w"]}" height="{im["h"]}" alt="" loading="lazy" decoding="async">' if im else ''
+            return f'<li><a href="{art_url(it, l)}"><span class="mi">{th}</span><span>{e(it[l]["t"])}</span></a></li>'
+        PER = 60
         for s in SECTIONS:
             its = sorted([it for it in items_l if it['s'] == s], key=lambda x: (x['date'], x['time']), reverse=True)
-            inner = f'<div class="cards">{"".join(card(it, l) for it in its)}</div>' if its else f'<p class="note">{e(u["empty"])}</p>'
-            if s == 'kultur':
-                mvs = [it for it in its if it['date'] == latest['date'] and it.get('yt') and it.get('mv')][:3]
-                if mvs:
-                    inner = f'<section class="trl-day"><h2 class="trl-h">▶ {e(u["mvd"])}</h2><div class="cards">{"".join(card(it, l) for it in mvs)}</div></section>' + inner
-                trl = [it for it in its if it['date'] == latest['date'] and it.get('yt') and it.get('trl')][:3] or [it for it in its if it['date'] == latest['date'] and it.get('yt') and not it.get('mv')][:3]
-                if trl:
-                    inner = f'<section class="trl-day"><h2 class="trl-h">▶ {e(u["trl"])}</h2><div class="cards">{"".join(card(it, l) for it in trl)}</div></section>' + inner
-            body = f'<section class="rail" style="--c:{SEC_COLOR[s]}"><div class="rail-h"><h1 class="sec-h">{e(SEC[l][s][0])}</h1><span class="meta">{len(its)} {u["items"]}</span></div>{inner}</section>'
-            body = body.replace('<h1 class="sec-h">', '<h2>').replace('</h1>', '</h2>', 1)
             salts = {x: sec_url(s, x) for x in act}
+            if not its:
+                body = f'<section class="rail" style="--c:{SEC_COLOR[s]}"><div class="rail-h"><h1 class="sec-title">{e(SEC[l][s][0])}</h1></div><p class="note">{e(u["empty"])}</p></section>'
+            else:
+                day0 = its[0]['date']
+                today_s = [it for it in its if it['date'] == day0]
+                top0 = next((it for it in today_s if it.get('brk')), None) or next((it for it in today_s if it.get('lead')), None) or next((it for it in today_s if it.get('img')), today_s[0])
+                tops = [top0] + [it for it in today_s if it is not top0 and it.get('img')][:4]
+                tops += [it for it in today_s if it not in tops][:5 - len(tops)]
+                T0 = top0[l]
+                side4 = ''.join(f'<article class="st"><a href="{art_url(it, l)}">{plate(it, l)}{kick(it, l)}<h3>{e(it[l]["t"])}</h3></a></article>' for it in tops[1:5])
+                head = (f'<div class="rail-h sec-head"><h1 class="sec-title">{e(SEC[l][s][0])}</h1><span class="meta">{len(its)} {u["items"]}</span></div>'
+                        f'<section class="sec-top"><div class="sec-lead"><a href="{art_url(top0, l)}">{plate(top0, l, eager=True)}</a>{kick(top0, l)}'
+                        f'<a href="{art_url(top0, l)}"><h2>{e(T0["t"])}</h2></a><p class="dek">{e(T0["d"])}</p><span class="src">{u["src"]}: {e(SNAMES(top0["src"]))}</span></div>'
+                        f'<div class="sec-four">{side4}</div></section>')
+                extra = ''
+                if s == 'kultur':
+                    trl = [it for it in its if it['date'] == latest['date'] and it.get('yt') and it.get('trl')][:3] or [it for it in its if it['date'] == latest['date'] and it.get('yt') and not it.get('mv')][:3]
+                    mvs = [it for it in its if it['date'] == latest['date'] and it.get('yt') and it.get('mv')][:3]
+                    if trl: extra += f'<section class="trl-day"><h2 class="trl-h">▶ {e(u["trl"])}</h2><div class="cards">{"".join(card(it, l) for it in trl)}</div></section>'
+                    if mvs: extra += f'<section class="trl-day"><h2 class="trl-h">▶ {e(u["mvd"])}</h2><div class="cards">{"".join(card(it, l) for it in mvs)}</div></section>'
+                import datetime as _d7
+                cut = (_d7.date.fromisoformat(day0) - _d7.timedelta(days=6)).isoformat()
+                rest = [it for it in its if it not in tops]
+                front = [it for it in rest if it['date'] >= cut][:80]
+                older = [it for it in rest if it not in front]
+                others = ''
+                for s2 in SECTIONS:
+                    if s2 == s: continue
+                    o = sorted([it for it in items_l if it['s'] == s2], key=lambda x: (x['date'], x['time']), reverse=True)[:3]
+                    if o: others += f'<div class="side-sec" style="--c:{SEC_COLOR[s2]}"><h3><a href="{sec_url(s2, l)}">{e(SEC[l][s2][0])}</a></h3><ul>{"".join(mini(it) for it in o)}</ul></div>'
+                pages = [older[i:i + PER] for i in range(0, len(older), PER)]
+                def purl(n): return sec_url(s, l) + (f'{"stranitsa" if l == "bg" else "seite" if l == "de" else "page"}-{n}/' if n > 1 else '')
+                more = f'<p class="sec-more"><a href="{purl(2)}">{e(SX["older"])} →</a></p>' if pages else ''
+                body = (f'<div class="sec-page" style="--c:{SEC_COLOR[s]}">{head}{extra}<div class="sec-main"><div class="sec-list"><h2 class="list-h">{e(SX["latest"])}</h2>{daylist(front)}{more}</div>'
+                        f'<aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{others}</aside></div></div>')
+                for n, pit in enumerate(pages, start=2):
+                    nav = f'<nav class="pager"><a href="{purl(n - 1)}">{e(SX["prev"])}</a><span>{e(SX["page"])} {n} / {len(pages) + 1}</span>' + (f'<a href="{purl(n + 1)}">{e(SX["next"])}</a>' if n <= len(pages) else '<span></span>') + '</nav>'
+                    pb = (f'<div class="sec-page" style="--c:{SEC_COLOR[s]}"><div class="rail-h sec-head"><h1 class="sec-title">{e(SEC[l][s][0])} · {e(SX["arch"])}</h1><span class="meta">{e(SX["page"])} {n}</span></div>'
+                          f'<div class="sec-list wide">{daylist(pit)}</div>{nav}</div>')
+                    write(purl(n), page(l, act, f'{SEC[l][s][0]} – {SX["page"]} {n} | TWN – World News', f'{SEC[l][s][0]}: {u["desc_home"]}', purl(n), pb, None, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": f'{SEC[l][s][0]} {n}', "url": SITE + purl(n), "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
             write(sec_url(s, l), page(l, act, f'{SEC[l][s][0]} | TWN – World News', f'{SEC[l][s][0]}: {u["desc_home"]}', sec_url(s, l), body, salts, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": SEC[l][s][0], "url": SITE + sec_url(s, l), "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
             urls.append((sec_url(s, l), salts, latest['date']))
         # ---- articles
