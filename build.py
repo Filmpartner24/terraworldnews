@@ -346,7 +346,9 @@ def build():
             its = [it for it in rest if it['s'] == s]
             if its:
                 rails += f'<section class="rail" style="--c:{SEC_COLOR[s]}"><div class="rail-h"><h2>{e(SEC[l][s][0])}</h2><a href="{sec_url(s, l)}">{e(u["all"])}</a></div><div class="cards">{"".join(card(it, l) for it in its[:4])}</div></section>'
-        cur = [it for it in today if it.get('live')][:5]
+        cur = [it for it in today if it.get('live')]
+        if l == 'bg': cur = sorted(cur, key=lambda x: x['s'] != 'bulgarien')
+        cur = cur[:8]
         bkh = ''
         if cur:
             last = cur[0]['time']

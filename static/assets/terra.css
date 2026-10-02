@@ -329,3 +329,6 @@ h1,h2,h3,.rank .n,.rail-h h2,.plate .lbl,footer .brand-s{font-weight:700}
 .sec-desc{margin:-8px 0 20px;font-size:18px;line-height:1.45;color:var(--muted);max-width:760px}
 .rail-leben{background:linear-gradient(#fff7ee,#fff7ee) padding-box;padding-inline:16px;margin-inline:-16px;border-top:4px solid #c26a00}
 .noadv{margin:22px 0 0;padding:12px 14px;border-left:4px solid #c26a00;background:#fff7ee;font-size:15px;line-height:1.5;color:var(--ink)}
+/* Breaking-Block: 4 Spalten, Kopfzeile der Karten ruhiger */
+@media (min-width:1100px){.breaking .cards{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.breaking .kick{flex-wrap:wrap;row-gap:4px}
