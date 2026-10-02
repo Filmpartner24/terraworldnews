@@ -34,15 +34,15 @@ MONTHS = {'bg': ['януари', 'февруари', 'март', 'април', '
 
 UI = {
  'bg': dict(home='Начало', tagline='Новини от целия свят', ed='Брой {n} · Година I', places='София · Берлин · Светът', clocks=[('Берлин', 'Europe/Berlin'), ('София', 'Europe/Sofia'), ('Лондон', 'Europe/London'), ('Ню Йорк', 'America/New_York'), ('Пекин', 'Asia/Shanghai')],
-   brk='Извънредно', brkup='Update', vid='Видео', playv='▶ Пусни видеото', trl='Трейлъри на деня', lead='Водеща новина', most='Последни новини', all='Всички новини →', src='Източници', by='Редакция TERRA', read='Четене {m} мин.', hour='ч.', items='новини', facts='Най-важното', more='Още от рубриката', trailer='Трейлър', play='▶ Пусни трейлъра', ytnote='При пускане видеото се зарежда от YouTube (Google).', empty='В тази рубрика скоро ще излизат материали на редакцията.',
+   brk='Извънредно', brkup='Update', vid='Видео', playv='▶ Пусни видеото', trl='Трейлъри на деня', mvd='Музикални видеа на деня', lead='Водеща новина', most='Последни новини', all='Всички новини →', src='Източници', by='Редакция TERRA', read='Четене {m} мин.', hour='ч.', items='новини', facts='Най-важното', more='Още от рубриката', trailer='Трейлър', play='▶ Пусни трейлъра', ytnote='При пускане видеото се зарежда от YouTube (Google).', empty='В тази рубрика скоро ще излизат материали на редакцията.',
    foot='Terra World News (TWN) – независим новинарски портал с новини от целия свят · Редакция София и Берлин', about='За нас', publisher='Издател: FILMPARTNER 24 EOOD', imprint='Импресум', privacy='Поверителност', principles='Редакционни принципи', rss='RSS', back='Към началото',
    desc_home='TWN – World News (Terra World News): новини от целия свят, от България, Германия и Европа. Всеки ден, проверени и с посочени източници.', title_home='TWN – World News | Terra World News – Новини от целия свят', live='НА ЖИВО', lang='Език'),
  'de': dict(home='Start', tagline='Nachrichten aus aller Welt', ed='Ausgabe {n} · Jahrgang I', places='Sofia · Berlin · Die Welt', clocks=[('Berlin', 'Europe/Berlin'), ('Sofia', 'Europe/Sofia'), ('London', 'Europe/London'), ('New York', 'America/New_York'), ('Peking', 'Asia/Shanghai')],
-   brk='Breaking News', brkup='Update', vid='Video', playv='▶ Video abspielen', trl='Trailer des Tages', lead='Aufmacher', most='Neueste Meldungen', all='Alle Meldungen →', src='Quellen', by='TERRA-Redaktion', read='Lesezeit {m} Min.', hour='Uhr', items='Meldungen', facts='Das Wichtigste', more='Mehr aus dem Ressort', trailer='Trailer', play='▶ Trailer abspielen', ytnote='Beim Abspielen wird das Video von YouTube (Google) geladen.', empty='In diesem Ressort erscheinen in Kürze Meldungen der Redaktion.',
+   brk='Breaking News', brkup='Update', vid='Video', playv='▶ Video abspielen', trl='Trailer des Tages', mvd='Musikvideos des Tages', lead='Aufmacher', most='Neueste Meldungen', all='Alle Meldungen →', src='Quellen', by='TERRA-Redaktion', read='Lesezeit {m} Min.', hour='Uhr', items='Meldungen', facts='Das Wichtigste', more='Mehr aus dem Ressort', trailer='Trailer', play='▶ Trailer abspielen', ytnote='Beim Abspielen wird das Video von YouTube (Google) geladen.', empty='In diesem Ressort erscheinen in Kürze Meldungen der Redaktion.',
    foot='Terra World News (TWN) – unabhängiges Nachrichtenportal mit Nachrichten aus aller Welt · Redaktion Sofia & Berlin', about='Über uns', publisher='Herausgeber: FILMPARTNER 24 EOOD', imprint='Impressum', privacy='Datenschutz', principles='Redaktionsgrundsätze', rss='RSS', back='Zur Startseite',
    desc_home='TWN – World News (Terra World News): Nachrichten aus aller Welt, aus Deutschland, Bulgarien und Europa. Täglich, geprüft und mit Quellenangaben.', title_home='TWN – World News | Terra World News – Nachrichten aus aller Welt', live='LIVE', lang='Sprache'),
  'en': dict(home='Home', tagline='News from around the world', ed='Issue {n}', places='', clocks=[('Berlin', 'Europe/Berlin'), ('Sofia', 'Europe/Sofia'), ('London', 'Europe/London'), ('New York', 'America/New_York'), ('Beijing', 'Asia/Shanghai')],
-   brk='Breaking News', brkup='Update', vid='Video', playv='▶ Play video', trl='Trailers of the day', lead='Top story', most='Latest news', all='All news →', src='Sources', by='TWN newsroom', read='{m} min read', hour='', items='stories', facts='Key points', more='More from this section', trailer='Trailer', play='▶ Play trailer', ytnote='Playing the video loads it from YouTube (Google).', empty='Stories from our newsroom will appear in this section soon.',
+   brk='Breaking News', brkup='Update', vid='Video', playv='▶ Play video', trl='Trailers of the day', mvd='Music videos of the day', lead='Top story', most='Latest news', all='All news →', src='Sources', by='TWN newsroom', read='{m} min read', hour='', items='stories', facts='Key points', more='More from this section', trailer='Trailer', play='▶ Play trailer', ytnote='Playing the video loads it from YouTube (Google).', empty='Stories from our newsroom will appear in this section soon.',
    foot='Terra World News (TWN) – an independent news portal with news from around the world · Newsrooms in Sofia & Berlin', about='About us', publisher='Publisher: FILMPARTNER 24 EOOD', imprint='Imprint', privacy='Privacy', principles='Editorial principles', rss='RSS', back='Back to home',
    desc_home='TWN – World News (Terra World News): news from around the world, from Europe, Germany, Bulgaria and the USA. Daily, fact-checked and with sources.', title_home='TWN – World News | Terra World News – News from around the world', live='LIVE', lang='Language'),
 }
@@ -329,7 +329,10 @@ def build():
             its = sorted([it for it in items_l if it['s'] == s], key=lambda x: (x['date'], x['time']), reverse=True)
             inner = f'<div class="cards">{"".join(card(it, l) for it in its)}</div>' if its else f'<p class="note">{e(u["empty"])}</p>'
             if s == 'kultur':
-                trl = [it for it in its if it['date'] == latest['date'] and it.get('yt') and it.get('trl')][:3] or [it for it in its if it['date'] == latest['date'] and it.get('yt')][:3]
+                mvs = [it for it in its if it['date'] == latest['date'] and it.get('yt') and it.get('mv')][:3]
+                if mvs:
+                    inner = f'<section class="trl-day"><h2 class="trl-h">▶ {e(u["mvd"])}</h2><div class="cards">{"".join(card(it, l) for it in mvs)}</div></section>' + inner
+                trl = [it for it in its if it['date'] == latest['date'] and it.get('yt') and it.get('trl')][:3] or [it for it in its if it['date'] == latest['date'] and it.get('yt') and not it.get('mv')][:3]
                 if trl:
                     inner = f'<section class="trl-day"><h2 class="trl-h">▶ {e(u["trl"])}</h2><div class="cards">{"".join(card(it, l) for it in trl)}</div></section>' + inner
             body = f'<section class="rail" style="--c:{SEC_COLOR[s]}"><div class="rail-h"><h1 class="sec-h">{e(SEC[l][s][0])}</h1><span class="meta">{len(its)} {u["items"]}</span></div>{inner}</section>'
@@ -344,7 +347,7 @@ def build():
             trailer = ''
             for v in ([it['yt']] if isinstance(it.get('yt'), dict) else it.get('yt') or []):
                 vid = e(v['id']); ttl = e(v.get('t', {}).get(l) or T['t'])
-                isv = v.get('kind') == 'video' or it.get('brk')
+                isv = v.get('kind') == 'video' or it.get('brk') or it.get('mv')
                 trailer += (f'<section class="trailer"><h2>{e(u["vid"] if isv else u["trailer"])}: {ttl}</h2>'
                             f'<div class="yt" data-yt="{vid}"><button type="button" class="yt-play">{e(u["playv"] if isv else u["play"])}</button><span class="yt-note">{e(u["ytnote"])}</span></div>'
                             f'<p class="src">YouTube · {e(v.get("ch", ""))} · <a href="https://www.youtube.com/watch?v={vid}" rel="noopener nofollow" target="_blank">youtube.com</a></p></section>')
