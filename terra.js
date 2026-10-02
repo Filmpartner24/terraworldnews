@@ -36,9 +36,3 @@ document.querySelectorAll('.langs a[hreflang]').forEach(function(a){
     document.cookie='twn_lang='+a.getAttribute('hreflang')+';path=/;max-age=31536000;SameSite=Lax;Secure';
   });
 });
-
-/* Wetter in der Kopfzeile */
-(function(){var box=document.querySelector('.wx');if(!box||!window.fetch)return;
-  function ico(s){s=s||'';if(/thunder/.test(s))return'\u26C8';if(/snow|sleet/.test(s))return'\u2744';if(/rain|shower|drizzle/.test(s))return'\u2602';if(/fog/.test(s))return'\u2248';if(/partly|fair/.test(s))return'\u26C5';if(/cloud/.test(s))return'\u2601';if(/clear/.test(s))return/night/.test(s)?'\u263E':'\u2600';return''}
-  fetch('/api/weather').then(function(r){return r.json()}).then(function(d){d.forEach(function(w,i){var b=box.querySelector('[data-wx="'+i+'"] b');if(b&&w){b.textContent=w.t+'\u00B0';var c=ico(w.s);if(c){var i=document.createElement('i');i.className='wi';i.setAttribute('aria-hidden','true');i.textContent=c+'\uFE0E';b.prepend(i)}}})}).catch(function(){});
-})();
