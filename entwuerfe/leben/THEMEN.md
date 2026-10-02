@@ -1,0 +1,14 @@
+# Leben & Alltag – Themenplan (Mo–Fr, 1 Beitrag pro Tag, Entwurf zur Freigabe durch Nedy)
+
+Rubrik: „Was dein Leben bewegt: Geld, Wohnen, Arbeit, Reisen und digitale Sicherheit – verständlich erklärt.“
+Abgrenzung: „Wirtschaft“ = Unternehmen, Märkte, Wirtschaftspolitik. „Leben & Alltag“ = konkrete Auswirkungen auf Menschen und Haushalte.
+
+## Feste Startthemen (in dieser Reihenfolge)
+1. Deutschland oder Bulgarien: Was kostet der Alltag? (Lebensmittel, Wohnen, Energie, Mobilität; Vergleichsorte, Haushaltsgröße, Datenstand, Annahmen, Einkommensunterschiede)
+2. Was kostet deine Wohnung wirklich? (Kaltmiete, Nebenkosten, Strom, weitere laufende Ausgaben; ausdrücklich gekennzeichnetes Rechenbeispiel, DE und BG getrennt)
+3. Paket, Bank, Rechnung: So erkennst du Betrugsnachrichten (Warnzeichen, sichere Prüfwege; offizielle Quellen: BSI, Verbraucherzentrale, Polizei / КЗП, ГДБОП, БНБ)
+
+## Danach: rotierend Geld – Wohnen – Arbeit – Reisen – digitale Sicherheit
+Themen mit aktuellem Anlass bevorzugen (neue Gesetze, Fristen, Preise, Saison). Immer DE- und BG-Bezug, länderspezifische Angaben klar markieren.
+
+## Erledigt (Datum – Titel – Status)
