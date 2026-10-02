@@ -68,6 +68,14 @@ def load():
             eds.append(ed); eds.sort(key=lambda x: x['date'])
         ids = {it['id'] for it in ed['items']}
         ed['items'] += [it for it in b['items'] if it['id'] not in ids]
+    # Nur das jeweils neueste Breaking-News-Update ist "live" (roter Block, Badge, Laufband vorn);
+    # frühere Updates rutschen als normale Meldungen in "Neueste Meldungen", Ressorts und Laufband.
+    allb = [it for d in eds for it in d['items'] if it.get('brk')]
+    if allb:
+        top = max((it['date'], it['time']) for it in allb)
+        if top[0] == eds[-1]['date']:
+            for it in allb:
+                if (it['date'], it['time']) == top: it['live'] = True
     return eds
 
 def active_langs(eds):
@@ -223,7 +231,7 @@ def num_date(d):
     return f'{dd}.{m}.{y}'
 
 def kick(it, l, prefix=''):
-    if it.get('brk'): prefix = f'<b class="brk">{e(UI[l]["brk"])}</b>' + prefix
+    if it.get('live'): prefix = f'<b class="brk">{e(UI[l]["brk"])}</b>' + prefix
     return f'<div class="kick" style="--c:{SEC_COLOR[it["s"]]}"><i></i>{prefix}{e(SEC[l][it["s"]][0])} · <time class="meta" datetime="{iso(it)}">{num_date(it["date"])}, {it["time"]}{(" " + UI[l]["hour"]) if UI[l]["hour"] else ""}</time></div>'
 
 def card(it, l):
@@ -299,11 +307,11 @@ def build():
         u = UI[l]
         items_l = [it for it in allitems if l in it]
         today = [it for it in latest['items'] if l in it]
-        ticker = [{"t": it[l]['t'], "u": art_url(it, l), "time": it['time'], "b": it.get('brk')} for it in sorted(today, key=lambda x: (bool(x.get('brk')), x['time']), reverse=True)]
+        ticker = [{"t": it[l]['t'], "u": art_url(it, l), "time": it['time'], "b": it.get('live')} for it in sorted(today, key=lambda x: (bool(x.get('live')), x['time']), reverse=True)]
         TICKER[l] = ticker  # LIVE-Laufband auf allen Seiten
         # ---- home
         lead = next((it for it in today if it.get('lead')), today[0])
-        rest = sorted([it for it in today if it is not lead], key=lambda x: x['time'], reverse=True)
+        rest = sorted([it for it in today if it is not lead and not it.get("live")], key=lambda x: x['time'], reverse=True)
         def rthumb(it):
             hasv = bool(it.get('yt'))
             play = f'<span class="rt-play" aria-label="{e(u["vid"])}">▶</span>' if hasv else ''
@@ -321,16 +329,13 @@ def build():
             its = [it for it in rest if it['s'] == s]
             if its:
                 rails += f'<section class="rail" style="--c:{SEC_COLOR[s]}"><div class="rail-h"><h2>{e(SEC[l][s][0])}</h2><a href="{sec_url(s, l)}">{e(u["all"])}</a></div><div class="cards">{"".join(card(it, l) for it in its[:4])}</div></section>'
-        bk = sorted([it for it in today if it.get('brk')], key=lambda x: x['time'], reverse=True)
+        cur = [it for it in today if it.get('live')][:5]
         bkh = ''
-        if bk:
-            last = bk[0]['time']
-            cur = [it for it in bk if it['time'] == last][:5]
-            older = [it for it in bk if it['time'] != last][:8]
-            olderh = ''.join(f'<li><a href="{art_url(it, l)}"><span class="tm">{it["time"]}</span>{e(it[l]["t"])}</a></li>' for it in older)
+        if cur:
+            last = cur[0]['time']
             bkh = (f'<section class="breaking" aria-label="{e(u["brk"])}"><div class="bk-h"><h2><i class="dot" aria-hidden="true"></i>{e(u["brk"])}</h2>'
                    f'<span class="meta">{u["brkup"]} {last}{(" " + u["hour"]) if u["hour"] else ""}</span></div>'
-                   f'<div class="cards">{"".join(card(it, l) for it in cur)}</div>' + (f'<ul class="bk-old">{olderh}</ul>' if olderh else '') + '</section>')
+                   f'<div class="cards">{"".join(card(it, l) for it in cur)}</div></section>')
         body = bkh + (f'<section class="lead"><div class="lead-main"><a href="{art_url(lead, l)}">{plate(lead, l, eager=True)}</a>{kick(lead, l, e(u["lead"]) + " · ")}'
                 f'<a href="{art_url(lead, l)}"><h1>{e(lead[l]["t"])}</h1></a><p class="dek">{e(lead[l]["d"])}</p><span class="src">{u["src"]}: {e(SNAMES(lead["src"]))}</span></div>'
                 f'<div class="ranked"><h2 class="rh">{e(u["most"])}</h2>{ranked}</div></section>{rails}')
@@ -370,7 +375,7 @@ def build():
             else:
                 day0 = its[0]['date']
                 today_s = [it for it in its if it['date'] == day0]
-                top0 = next((it for it in today_s if it.get('brk')), None) or next((it for it in today_s if it.get('lead')), None) or next((it for it in today_s if it.get('img')), today_s[0])
+                top0 = next((it for it in today_s if it.get('live')), None) or next((it for it in today_s if it.get('lead')), None) or next((it for it in today_s if it.get('img')), today_s[0])
                 tops = [top0] + [it for it in today_s if it is not top0 and it.get('img')][:4]
                 tops += [it for it in today_s if it not in tops][:5 - len(tops)]
                 T0 = top0[l]
