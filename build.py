@@ -93,6 +93,7 @@ def globe_svg(cls='globe'):
 
 import hashlib as _hl
 ASSET_V={n:_hl.md5(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'static','assets',n),'rb').read()).hexdigest()[:8] for n in ('fonts.css','terra.css')}
+ASSET_V['search.js']=_hl.md5(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'search.js'),'rb').read()).hexdigest()[:8]
 ASSET_V['terra.js']=_hl.md5(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'terra.js'),'rb').read()).hexdigest()[:8]
 
 def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='website', issue=1, date=None, ticker=None, extra_head='', og_img=None):
@@ -145,7 +146,8 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
 <div class="wrap">
   <div class="top">
     <div class="clocks" aria-label="{e(u['clocks'][0][0])}">{clocks}</div>
-    <nav class="langs" aria-label="{e(u['lang'])}">{langbar}</nav>
+    <div class="top-r"><form class="sbox" action="{search_url(l)}" method="get" role="search"><input type="search" name="q" placeholder="{e(SUI[l]['ph'])}" aria-label="{e(SUI[l]['title'])}"><button type="submit" aria-label="{e(SUI[l]['btn'])}"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button></form>
+    <nav class="langs" aria-label="{e(u['lang'])}">{langbar}</nav></div>
   </div>
   <header class="mast">
     <p class="brand"><a href="{pre(l)}"><img class="mast-logo" src="/assets/terra-masthead2-800.webp" srcset="/assets/terra-masthead2-800.webp 800w, /assets/terra-masthead2-1600.webp 1600w" sizes="(max-width: 700px) 86vw, 620px" width="800" height="246" alt="TERRA WORLD NEWS" fetchpriority="high"></a></p>
@@ -209,6 +211,15 @@ ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "/#org", "name": "TERRA W
        "email": "media@filmpartner24.com", "areaServed": "Worldwide", "knowsLanguage": ["bg", "de", "en"]}
 
 TICKER = {}
+SEARCH_SLUG = {'bg': 'tarsene', 'de': 'suche', 'en': 'search'}
+SUI = {
+ 'bg': dict(title='Търсене', ph='Име, държава, събитие или дата …', btn='Търси', all='Всички рубрики', any='По всяко време', d1='Днес', d7='Последните 7 дни', d30='Последните 30 дни',
+            hint='Търсете по имена, държави, събития или дата (напр. 2 октомври или 02.10.2026). Всички думи трябва да се срещат в статията.', found='{n} резултата', none='Няма намерени статии. Опитайте с друга дума или по-широк период.', loading='Търсене …', more='Още резултати'),
+ 'de': dict(title='Suche', ph='Name, Land, Ereignis oder Datum …', btn='Suchen', all='Alle Rubriken', any='Gesamter Zeitraum', d1='Heute', d7='Letzte 7 Tage', d30='Letzte 30 Tage',
+            hint='Suchen Sie nach Namen, Ländern, Ereignissen oder einem Datum (z. B. 2. Oktober oder 02.10.2026). Alle Wörter müssen im Artikel vorkommen.', found='{n} Treffer', none='Keine Artikel gefunden. Versuchen Sie ein anderes Wort oder einen größeren Zeitraum.', loading='Suche läuft …', more='Weitere Treffer'),
+ 'en': dict(title='Search', ph='Name, country, event or date …', btn='Search', all='All sections', any='Any time', d1='Today', d7='Last 7 days', d30='Last 30 days',
+            hint='Search for names, countries, events or a date (e.g. 2 October or 02.10.2026). All words must appear in the article.', found='{n} results', none='No articles found. Try another word or a wider time range.', loading='Searching …', more='More results')}
+def search_url(l): return f"{pre(l)}{SEARCH_SLUG[l]}.html"
 
 def build():
     eds = load()
@@ -217,6 +228,7 @@ def build():
     if os.path.exists(OUT): shutil.rmtree(OUT)
     shutil.copytree(os.path.join(HERE, 'static'), OUT)
     shutil.copy(os.path.join(HERE, 'terra.js'), os.path.join(OUT, 'assets', 'terra.js'))
+    shutil.copy(os.path.join(HERE, 'search.js'), os.path.join(OUT, 'assets', 'search.js'))
     allitems = [it for d in eds for it in d['items']]
     latest = eds[-1]
     urls = []  # (url, alternates, lastmod)
@@ -290,6 +302,35 @@ def build():
             lalts = {x: legal_url(k, x) for x in act}
             write(legal_url(k, l), page(l, act, f'{u[k]} | TWN – World News', f'{u[k]} – TWN – World News (Terra World News)', legal_url(k, l), f'<article class="legal">{txt}</article>', lalts, issue=latest.get('issue', 1), date=latest['date']))
             urls.append((legal_url(k, l), lalts, latest['date']))
+        # ---- search index (monthly shards) + search page
+        import re as _re
+        shards = {}
+        for it in items_l:
+            T = it[l]
+            body = T.get('body', '')
+            body = ' '.join(body) if isinstance(body, list) else body
+            facts = ' '.join(T.get('facts') or [])
+            y, m, d = it['date'].split('-')
+            dates = f"{int(d)}.{int(m)}.{y} {d}.{m}.{y} {it['date']} {short_date(it['date'], l)} {nice_date(it['date'], l)}"
+            src = ' '.join(x.get('n', '') for x in it.get('src', []))
+            shards.setdefault(f'{y}-{m}', []).append({'u': art_url(it, l), 't': T['t'], 'd': T['d'], 's': it['s'], 'sn': SEC[l][it['s']][0], 'dt': it['date'], 'tm': it['time'],
+                'x': _re.sub(r'\s+', ' ', f"{body} {facts} {src} {dates}")[:1800]})
+        months = sorted(shards, reverse=True)
+        for mo in months:
+            write(f'{pre(l)}search/{mo}.json', json.dumps(sorted(shards[mo], key=lambda x: (x['dt'], x['tm']), reverse=True), ensure_ascii=False, separators=(',', ':')))
+        write(f'{pre(l)}search/index.json', json.dumps({'months': months}, separators=(',', ':')))
+        su = SUI[l]
+        opts = ''.join(f'<option value="{k}">{e(SEC[l][k][0])}</option>' for k in SECTIONS if k in SEC[l])
+        sbody = (f'<section class="search-page"><h1 class="sec-h">{e(su["title"])}</h1>'
+                 f'<form class="sform" role="search" data-base="{pre(l)}search/" data-lang="{l}" data-found="{e(su["found"])}" data-none="{e(su["none"])}" data-loading="{e(su["loading"])}" data-more="{e(su["more"])}" data-hour="{u["hour"]}">'
+                 f'<div class="srow"><input type="search" name="q" id="sq" placeholder="{e(su["ph"])}" aria-label="{e(su["title"])}" autocomplete="off"><button type="submit">{e(su["btn"])}</button></div>'
+                 f'<div class="sfil"><select name="s" aria-label="{e(su["all"])}"><option value="">{e(su["all"])}</option>{opts}</select>'
+                 f'<select name="p" aria-label="{e(su["any"])}"><option value="">{e(su["any"])}</option><option value="1">{e(su["d1"])}</option><option value="7">{e(su["d7"])}</option><option value="30">{e(su["d30"])}</option></select></div>'
+                 f'<p class="shint">{e(su["hint"])}</p></form><p class="sstat" aria-live="polite"></p><ol class="sres"></ol><button class="smore" type="button" hidden>{e(su["more"])}</button></section>'
+                 f'<script src="/assets/search.js?v={ASSET_V["search.js"]}" defer></script>')
+        salts2 = {x: search_url(x) for x in act}
+        write(search_url(l), page(l, act, f'{su["title"]} | TWN – World News', f'{su["title"]} – TWN – World News (Terra World News)', search_url(l), sbody, salts2, issue=latest.get('issue', 1), date=latest['date'],
+              extra_head='<meta name="robots" content="noindex,follow">'))
         # ---- RSS
         rss_items = ''
         for it in sorted(items_l, key=lambda x: (x['date'], x['time']), reverse=True)[:100]:
