@@ -34,28 +34,40 @@ MONTHS = {'bg': ['януари', 'февруари', 'март', 'април', '
 
 UI = {
  'bg': dict(home='Начало', tagline='Новини от целия свят', ed='Брой {n} · Година I', places='София · Берлин · Светът', clocks=[('Берлин', 'Europe/Berlin'), ('София', 'Europe/Sofia'), ('Лондон', 'Europe/London'), ('Ню Йорк', 'America/New_York'), ('Пекин', 'Asia/Shanghai')],
-   lead='Водеща новина', most='Последни новини', all='Всички новини →', src='Източници', by='Редакция TERRA', read='Четене {m} мин.', hour='ч.', items='новини', facts='Най-важното', more='Още от рубриката', trailer='Трейлър', play='▶ Пусни трейлъра', ytnote='При пускане видеото се зарежда от YouTube (Google).', empty='В тази рубрика скоро ще излизат материали на редакцията.',
+   brk='Извънредно', brkup='Update', vid='Видео', playv='▶ Пусни видеото', lead='Водеща новина', most='Последни новини', all='Всички новини →', src='Източници', by='Редакция TERRA', read='Четене {m} мин.', hour='ч.', items='новини', facts='Най-важното', more='Още от рубриката', trailer='Трейлър', play='▶ Пусни трейлъра', ytnote='При пускане видеото се зарежда от YouTube (Google).', empty='В тази рубрика скоро ще излизат материали на редакцията.',
    foot='Terra World News (TWN) – независим новинарски портал с новини от целия свят · Редакция София и Берлин', about='За нас', publisher='Издател: FILMPARTNER 24 EOOD', imprint='Импресум', privacy='Поверителност', principles='Редакционни принципи', rss='RSS', back='Към началото',
    desc_home='TWN – World News (Terra World News): новини от целия свят, от България, Германия и Европа. Всеки ден, проверени и с посочени източници.', title_home='TWN – World News | Terra World News – Новини от целия свят', live='НА ЖИВО', lang='Език'),
  'de': dict(home='Start', tagline='Nachrichten aus aller Welt', ed='Ausgabe {n} · Jahrgang I', places='Sofia · Berlin · Die Welt', clocks=[('Berlin', 'Europe/Berlin'), ('Sofia', 'Europe/Sofia'), ('London', 'Europe/London'), ('New York', 'America/New_York'), ('Peking', 'Asia/Shanghai')],
-   lead='Aufmacher', most='Neueste Meldungen', all='Alle Meldungen →', src='Quellen', by='TERRA-Redaktion', read='Lesezeit {m} Min.', hour='Uhr', items='Meldungen', facts='Das Wichtigste', more='Mehr aus dem Ressort', trailer='Trailer', play='▶ Trailer abspielen', ytnote='Beim Abspielen wird das Video von YouTube (Google) geladen.', empty='In diesem Ressort erscheinen in Kürze Meldungen der Redaktion.',
+   brk='Breaking News', brkup='Update', vid='Video', playv='▶ Video abspielen', lead='Aufmacher', most='Neueste Meldungen', all='Alle Meldungen →', src='Quellen', by='TERRA-Redaktion', read='Lesezeit {m} Min.', hour='Uhr', items='Meldungen', facts='Das Wichtigste', more='Mehr aus dem Ressort', trailer='Trailer', play='▶ Trailer abspielen', ytnote='Beim Abspielen wird das Video von YouTube (Google) geladen.', empty='In diesem Ressort erscheinen in Kürze Meldungen der Redaktion.',
    foot='Terra World News (TWN) – unabhängiges Nachrichtenportal mit Nachrichten aus aller Welt · Redaktion Sofia & Berlin', about='Über uns', publisher='Herausgeber: FILMPARTNER 24 EOOD', imprint='Impressum', privacy='Datenschutz', principles='Redaktionsgrundsätze', rss='RSS', back='Zur Startseite',
    desc_home='TWN – World News (Terra World News): Nachrichten aus aller Welt, aus Deutschland, Bulgarien und Europa. Täglich, geprüft und mit Quellenangaben.', title_home='TWN – World News | Terra World News – Nachrichten aus aller Welt', live='LIVE', lang='Sprache'),
  'en': dict(home='Home', tagline='News from around the world', ed='Issue {n}', places='', clocks=[('Berlin', 'Europe/Berlin'), ('Sofia', 'Europe/Sofia'), ('London', 'Europe/London'), ('New York', 'America/New_York'), ('Beijing', 'Asia/Shanghai')],
-   lead='Top story', most='Latest news', all='All news →', src='Sources', by='TWN newsroom', read='{m} min read', hour='', items='stories', facts='Key points', more='More from this section', trailer='Trailer', play='▶ Play trailer', ytnote='Playing the video loads it from YouTube (Google).', empty='Stories from our newsroom will appear in this section soon.',
+   brk='Breaking News', brkup='Update', vid='Video', playv='▶ Play video', lead='Top story', most='Latest news', all='All news →', src='Sources', by='TWN newsroom', read='{m} min read', hour='', items='stories', facts='Key points', more='More from this section', trailer='Trailer', play='▶ Play trailer', ytnote='Playing the video loads it from YouTube (Google).', empty='Stories from our newsroom will appear in this section soon.',
    foot='Terra World News (TWN) – an independent news portal with news from around the world · Newsrooms in Sofia & Berlin', about='About us', publisher='Publisher: FILMPARTNER 24 EOOD', imprint='Imprint', privacy='Privacy', principles='Editorial principles', rss='RSS', back='Back to home',
    desc_home='TWN – World News (Terra World News): news from around the world, from Europe, Germany, Bulgaria and the USA. Daily, fact-checked and with sources.', title_home='TWN – World News | Terra World News – News from around the world', live='LIVE', lang='Language'),
 }
 LEGAL_SLUG = {'bg': {'about': 'za-nas', 'imprint': 'impresum', 'privacy': 'poveritelnost', 'principles': 'redaktsionni-printsipi'}, 'de': {'about': 'ueber-uns', 'imprint': 'impressum', 'privacy': 'datenschutz', 'principles': 'redaktionsgrundsaetze'}, 'en': {'about': 'about', 'imprint': 'imprint', 'privacy': 'privacy', 'principles': 'editorial-principles'}}
 
 def load():
-    eds = []
+    eds, brk = [], []
     for f in sorted(glob.glob(os.path.join(HERE, 'content', '*.json'))):
         d = json.load(open(f, encoding='utf-8'))
         for it in d['items']:
             it['date'] = d['date']
             if it.get('s') == 'usa': it['s'] = 'welt'  # USA-Meldungen laufen unter Welt
-        eds.append(d)
+        if f.endswith('-breaking.json'):
+            for it in d['items']: it['brk'] = True; it.pop('lead', None)
+            brk.append(d)
+        else:
+            eds.append(d)
+    # Breaking-News-Updates (content/YYYY-MM-DD-breaking.json) gehören zur Ausgabe desselben Tages
+    for b in brk:
+        ed = next((x for x in eds if x['date'] == b['date']), None)
+        if ed is None:
+            ed = {'date': b['date'], 'issue': (eds[-1].get('issue', 0) + 1) if eds else 1, 'items': []}
+            eds.append(ed); eds.sort(key=lambda x: x['date'])
+        ids = {it['id'] for it in ed['items']}
+        ed['items'] += [it for it in b['items'] if it['id'] not in ids]
     return eds
 
 def active_langs(eds):
@@ -115,7 +127,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
     tick = ''
     ticker = ticker or TICKER.get(l)
     if ticker:
-        _ti = ''.join(f'<a href="{x["u"]}"><span class="tm">{x["time"]}</span>{e(x["t"])}</a><span class="sep" aria-hidden="true"></span>' for x in ticker[:15])
+        _ti = ''.join(f'<a href="{x["u"]}">{("<b class=" + chr(34) + "tbk" + chr(34) + ">" + e(u["brk"]) + "</b>") if x.get("b") else ""}<span class="tm">{x["time"]}</span>{e(x["t"])}</a><span class="sep" aria-hidden="true"></span>' for x in ticker[:15])
         _ti2 = _ti.replace('<a ', '<a tabindex="-1" ')
         _pz = {'bg': 'Пауза', 'de': 'Pause', 'en': 'Pause'}.get(l, 'Pause')
         tick = (f'<div class="ticker" role="region" aria-label="{u["live"]}"><span class="k"><i class="dot" aria-hidden="true"></i>{u["live"]}</span>'
@@ -196,6 +208,7 @@ def num_date(d):
     return f'{dd}.{m}.{y}'
 
 def kick(it, l, prefix=''):
+    if it.get('brk'): prefix = f'<b class="brk">{e(UI[l]["brk"])}</b>' + prefix
     return f'<div class="kick" style="--c:{SEC_COLOR[it["s"]]}"><i></i>{prefix}{e(SEC[l][it["s"]][0])} · <time class="meta" datetime="{iso(it)}">{num_date(it["date"])}, {it["time"]}{(" " + UI[l]["hour"]) if UI[l]["hour"] else ""}</time></div>'
 
 def card(it, l):
@@ -269,7 +282,7 @@ def build():
         u = UI[l]
         items_l = [it for it in allitems if l in it]
         today = [it for it in latest['items'] if l in it]
-        ticker = [{"t": it[l]['t'], "u": art_url(it, l), "time": it['time']} for it in sorted(today, key=lambda x: x['time'], reverse=True)]
+        ticker = [{"t": it[l]['t'], "u": art_url(it, l), "time": it['time'], "b": it.get('brk')} for it in sorted(today, key=lambda x: (bool(x.get('brk')), x['time']), reverse=True)]
         TICKER[l] = ticker  # LIVE-Laufband auf allen Seiten
         # ---- home
         lead = next((it for it in today if it.get('lead')), today[0])
@@ -281,7 +294,17 @@ def build():
             its = [it for it in rest if it['s'] == s]
             if its:
                 rails += f'<section class="rail" style="--c:{SEC_COLOR[s]}"><div class="rail-h"><h2>{e(SEC[l][s][0])}</h2><a href="{sec_url(s, l)}">{e(u["all"])}</a></div><div class="cards">{"".join(card(it, l) for it in its[:4])}</div></section>'
-        body = (f'<section class="lead"><div class="lead-main"><a href="{art_url(lead, l)}">{plate(lead, l, eager=True)}</a>{kick(lead, l, e(u["lead"]) + " · ")}'
+        bk = sorted([it for it in today if it.get('brk')], key=lambda x: x['time'], reverse=True)
+        bkh = ''
+        if bk:
+            last = bk[0]['time']
+            cur = [it for it in bk if it['time'] == last][:5]
+            older = [it for it in bk if it['time'] != last][:8]
+            olderh = ''.join(f'<li><a href="{art_url(it, l)}"><span class="tm">{it["time"]}</span>{e(it[l]["t"])}</a></li>' for it in older)
+            bkh = (f'<section class="breaking" aria-label="{e(u["brk"])}"><div class="bk-h"><h2><i class="dot" aria-hidden="true"></i>{e(u["brk"])}</h2>'
+                   f'<span class="meta">{u["brkup"]} {last}{(" " + u["hour"]) if u["hour"] else ""}</span></div>'
+                   f'<div class="cards">{"".join(card(it, l) for it in cur)}</div>' + (f'<ul class="bk-old">{olderh}</ul>' if olderh else '') + '</section>')
+        body = bkh + (f'<section class="lead"><div class="lead-main"><a href="{art_url(lead, l)}">{plate(lead, l, eager=True)}</a>{kick(lead, l, e(u["lead"]) + " · ")}'
                 f'<a href="{art_url(lead, l)}"><h1>{e(lead[l]["t"])}</h1></a><p class="dek">{e(lead[l]["d"])}</p><span class="src">{u["src"]}: {e(SNAMES(lead["src"]))}</span></div>'
                 f'<div class="ranked"><h2 class="rh">{e(u["most"])}</h2>{ranked}</div></section>{rails}')
         alts = {x: pre(x) for x in act}
@@ -305,8 +328,9 @@ def build():
             trailer = ''
             for v in ([it['yt']] if isinstance(it.get('yt'), dict) else it.get('yt') or []):
                 vid = e(v['id']); ttl = e(v.get('t', {}).get(l) or T['t'])
-                trailer += (f'<section class="trailer"><h2>{e(u["trailer"])}: {ttl}</h2>'
-                            f'<div class="yt" data-yt="{vid}"><button type="button" class="yt-play">{e(u["play"])}</button><span class="yt-note">{e(u["ytnote"])}</span></div>'
+                isv = v.get('kind') == 'video' or it.get('brk')
+                trailer += (f'<section class="trailer"><h2>{e(u["vid"] if isv else u["trailer"])}: {ttl}</h2>'
+                            f'<div class="yt" data-yt="{vid}"><button type="button" class="yt-play">{e(u["playv"] if isv else u["play"])}</button><span class="yt-note">{e(u["ytnote"])}</span></div>'
                             f'<p class="src">YouTube · {e(v.get("ch", ""))} · <a href="https://www.youtube.com/watch?v={vid}" rel="noopener nofollow" target="_blank">youtube.com</a></p></section>')
             facts = f'<aside class="facts"><h2>{e(u["facts"])}</h2><ul>{LI(T["facts"])}</ul></aside>' if T.get('facts') else ''
             rel = [x for x in items_l if x['s'] == it['s'] and x is not it][:3]

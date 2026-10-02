@@ -257,3 +257,16 @@ h1,h2,h3,.rank .n,.rail-h h2,.plate .lbl,footer .brand-s{font-weight:700}
 .sres a:hover h3{text-decoration:underline;text-underline-offset:3px}
 .sres mark{background:#ffe27a;color:inherit;padding:0 1px}
 .smore{display:block;margin:20px auto 0;border:1px solid var(--ink);background:var(--paper);font-family:var(--head);font-weight:700;padding:10px 22px;cursor:pointer}
+/* Breaking News */
+.breaking{margin-top:22px;padding:0 0 18px;border-top:4px solid #d4161c;border-bottom:1px solid var(--rule)}
+.bk-h{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:12px 0 14px}
+.bk-h h2{margin:0;display:inline-flex;align-items:center;gap:10px;background:#d4161c;color:#fff;font-family:var(--head);font-weight:700;font-size:22px;letter-spacing:.06em;text-transform:uppercase;padding:4px 14px 3px}
+.bk-h h2 .dot{width:9px;height:9px;border-radius:50%;background:#fff;animation:tkdot 1.4s ease-in-out infinite}
+.bk-h .meta{font-weight:700;color:#d4161c}
+.bk-old{list-style:none;margin:16px 0 0;padding:12px 0 0;border-top:1px solid var(--rule);display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:8px 24px}
+.bk-old a{color:var(--ink);text-decoration:none;font-family:var(--head);font-weight:700;font-size:17px;line-height:1.25}
+.bk-old a:hover{color:#d4161c}
+.bk-old .tm{color:#d4161c;margin-right:8px;font-family:var(--body);font-size:13px}
+.kick .brk{white-space:nowrap;flex:none;background:#d4161c;color:#fff;font-weight:700;padding:1px 6px;letter-spacing:.08em}
+.tk-move .tbk{background:#d4161c;color:#fff;font-family:var(--body);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:2px 6px;margin-right:8px;vertical-align:2px}
+@media (prefers-reduced-motion:reduce){.bk-h h2 .dot{animation:none}}
