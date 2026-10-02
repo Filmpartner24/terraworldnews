@@ -55,6 +55,10 @@ def load():
         for it in d['items']:
             it['date'] = d['date']
             if it.get('s') == 'usa': it['s'] = 'welt'  # USA-Meldungen laufen unter Welt
+            for _l in ('bg', 'de', 'en'):
+                _b = it.get(_l, {}).get('body') if isinstance(it.get(_l), dict) else None
+                if isinstance(_b, str):  # Text als ein Block geliefert -> in Absätze teilen
+                    it[_l]['body'] = [p.strip() for p in _b.replace('\r', '').split('\n') if p.strip()]
         if os.path.basename(f)[10:11] == '-':   # YYYY-MM-DD-<zusatz>.json: Breaking News, Leben & Alltag …
             for it in d['items']:
                 it.pop('lead', None)
@@ -428,7 +432,9 @@ def build():
         # ---- articles
         for it in items_l:
             T = it[l]
-            paras = ''.join(f'<p>{e(p)}</p>' for p in T.get('body', [T['d']]))
+            _b = T.get('body') or [T['d']]
+            if isinstance(_b, str): _b = [p.strip() for p in _b.replace('\r', '').split('\n') if p.strip()]  # Schutz: Text als ein Block
+            paras = ''.join(f'<p>{e(p)}</p>' for p in _b)
             trailer = ''
             for v in ([it['yt']] if isinstance(it.get('yt'), dict) else it.get('yt') or []):
                 vid = e(v['id']); ttl = e(v.get('t', {}).get(l) or T['t'])
