@@ -287,7 +287,17 @@ def build():
         # ---- home
         lead = next((it for it in today if it.get('lead')), today[0])
         rest = sorted([it for it in today if it is not lead], key=lambda x: x['time'], reverse=True)
-        ranked = ''.join(f'<div class="rank"><span class="n">{i + 1}</span><a href="{art_url(it, l)}">{kick(it, l)}<h3>{e(it[l]["t"])}</h3></a></div>' for i, it in enumerate(rest[:5]))
+        def rthumb(it):
+            hasv = bool(it.get('yt'))
+            play = f'<span class="rt-play" aria-label="{e(u["vid"])}">▶</span>' if hasv else ''
+            im = it.get('img')
+            if im:
+                alt = im.get('alt', {}).get(l, '')
+                return f'<a class="rt" href="{art_url(it, l)}" tabindex="-1"><img src="{im["f"]}" width="{im["w"]}" height="{im["h"]}" alt="{e(alt)}" loading="lazy" decoding="async">{play}</a>'
+            if hasv:
+                return f'<a class="rt rt-v" href="{art_url(it, l)}" tabindex="-1">{play}<span class="rt-l">{e(u["vid"])}</span></a>'
+            return f'<a class="rt rt-x" href="{art_url(it, l)}" tabindex="-1" aria-hidden="true" style="--c:{SEC_COLOR[it["s"]]}"></a>'
+        ranked = ''.join(f'<div class="rank"><span class="n">{i + 1}</span>{rthumb(it)}<a href="{art_url(it, l)}">{kick(it, l)}<h3>{e(it[l]["t"])}</h3></a></div>' for i, it in enumerate(rest[:5]))
         order = ['bulgarien', 'welt', 'europa', 'deutschland', 'ki', 'wirtschaft', 'klima', 'kultur'] if l == 'bg' else ['welt', 'europa', 'deutschland', 'bulgarien', 'ki', 'wirtschaft', 'klima', 'kultur'] if l == 'en' else ['welt', 'deutschland', 'europa', 'bulgarien', 'ki', 'wirtschaft', 'klima', 'kultur']
         rails = ''
         for s in order:
