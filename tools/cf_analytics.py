@@ -65,10 +65,12 @@ def main():
     today = dt.datetime.now(BER).date()
     force = os.environ.get('FORCE_DAYS')
     days = [today - dt.timedelta(days=i) for i in range(1, 8)]
+    if os.environ.get('INCLUDE_TODAY'):
+        days.insert(0, today)
     errs = []
     for d in days:
         fn = f'{OUT}/{d.isoformat()}.json'
-        if os.path.exists(fn) and not force and d != today - dt.timedelta(days=1):
+        if os.path.exists(fn) and not force and d < today - dt.timedelta(days=1):
             continue
         try:
             data = day(d)
