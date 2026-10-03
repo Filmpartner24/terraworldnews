@@ -683,3 +683,4 @@ nav.sections.nv2.stuck{box-shadow:0 6px 18px rgba(4,14,40,.35)}
 @media (min-width:1201px){.nv2 a{padding:0 7px}.nv2 .ng{padding:0 3px}.nv2 .nav-items a[aria-current="page"]::after{left:7px;right:7px}.nv2 .nv-logo,.nv2 .nv-search{flex-basis:84px}}
 @media (min-width:861px) and (max-width:1200px){.nv2 a{padding:0 4px}.nv2 .ng{padding:0 2px}.nv2 .nav-items a[aria-current="page"]::after{left:4px;right:4px}}
 @media (min-width:1201px) and (max-width:1400px){.nv2 .nv-logo,.nv2 .nv-search{flex-basis:58px}.nv2 .nv-logo b{display:none}}
+nav.sections.nv2{border-top:0;border-bottom:0}@media (max-width:860px){.nv2 .nav-items{border-bottom:0;margin-top:0}}
