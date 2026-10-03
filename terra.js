@@ -11,9 +11,16 @@
         var ic=/thunder/.test(s)?'⛈':/snow/.test(s)?'❄':/sleet/.test(s)?'🌨':/rain/.test(s)?'🌧':/fog/.test(s)?'🌫':/^cloudy/.test(s)?'☁':/partlycloudy/.test(s)?'⛅':/fair/.test(s)?(n?'☾':'🌤'):/clearsky/.test(s)?(n?'☾':'☀'):'';
         ew.innerHTML='<span class="wi" aria-hidden="true">'+ic+'</span>'+(d.t>0?'':d.t<0?'−':'')+Math.abs(d.t)+' °C';}
     }).catch(function(){});})();
-  document.querySelectorAll('.ticker .tk-move').forEach(function(tk){var tb=tk.closest('.ticker'),pb=tb.querySelector('.tk-pause');
-    var setDur=function(){var w=tk.firstElementChild.getBoundingClientRect().width;tk.style.setProperty('--dur',Math.max(20,w/70)+'s')};
-    setDur();window.addEventListener('resize',setDur);
+  /* Laufbänder: feste Lesegeschwindigkeit (Pixel pro Sekunde), unabhängig von Gerät und Textlänge.
+     Breite erst messen, wenn Schriften und Layout fertig sind; bei Änderung Animation sauber neu starten (iOS). */
+  document.querySelectorAll('.ticker .tk-move').forEach(function(tk){var tb=tk.closest('.ticker'),pb=tb.querySelector('.tk-pause'),last=0;
+    var setDur=function(){var w=tk.firstElementChild.getBoundingClientRect().width;if(w<200)return;
+      var pps=window.innerWidth<700?55:70,d=Math.max(25,w/pps);if(Math.abs(d-last)<1)return;last=d;
+      tk.style.setProperty('--dur',d.toFixed(1)+'s');tk.style.animationName='none';void tk.offsetWidth;tk.style.animationName='';};
+    setDur();
+    if(document.fonts&&document.fonts.ready)document.fonts.ready.then(setDur);
+    window.addEventListener('load',setDur);
+    if(window.ResizeObserver)new ResizeObserver(setDur).observe(tk.firstElementChild);else window.addEventListener('resize',setDur);
     if(pb)pb.addEventListener('click',function(){var p=tb.classList.toggle('paused');pb.setAttribute('aria-pressed',p?'true':'false')});});
   function seeded(str){var h=2166136261;for(var k=0;k<str.length;k++){h^=str.charCodeAt(k);h=Math.imul(h,16777619)}return function(){h^=h<<13;h^=h>>>17;h^=h<<5;return((h>>>0)%10000)/10000}}
   function paint(){var root=getComputedStyle(document.documentElement);var ink=root.getPropertyValue('--ink').trim()||'#101a1d';var red=root.getPropertyValue('--signal').trim()||'#e0342a';
