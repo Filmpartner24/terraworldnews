@@ -6,8 +6,9 @@ HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 req = os.path.join(HERE, 'bridge', 'requests.txt')
 if os.path.exists(req):
     out = os.path.join(HERE, 'bridge', 'files'); os.makedirs(out, exist_ok=True)
-    for u in [l.strip() for l in open(req) if l.strip() and not l.startswith('#')]:
-        name = urllib.parse.unquote(u.split('?')[0].rstrip('/').split('/')[-1]) or 'index.html'
+    for line in [l.strip() for l in open(req) if l.strip() and not l.startswith('#')]:
+        u, _, name = line.partition(' ')  # optional: "URL dateiname"
+        name = name.strip() or urllib.parse.unquote(u.split('?')[0].rstrip('/').split('/')[-1]) or 'index.html'
         dest = os.path.join(out, name)
         if os.path.exists(dest): continue
         try:
