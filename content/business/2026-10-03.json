@@ -1,0 +1,1935 @@
+{
+ "date": "2026-10-03",
+ "time": "11:45",
+ "blocks": [
+  {
+   "id": "strom-ibex",
+   "asof": {
+    "bg": "БНЕБ „Ден напред“, доставка в събота, 3 октомври 2026 (резултати от 2 октомври)",
+    "de": "IBEX Day-Ahead, Liefertag Samstag, 3. Oktober 2026 (Auktion vom 2. Oktober)",
+    "en": "IBEX day-ahead, delivery Saturday 3 October 2026 (auction of 2 October)"
+   },
+   "bg": {
+    "t": "Токът на борсата за събота: 136,46 евро/MWh, през деня – по-евтин от нощем",
+    "d": "Средната цена на БНЕБ за 3 октомври е с 1,57% по-ниска от петък. В пиковите часове токът струва 86,53 евро/MWh – по-малко от половината от цената извън пика (186,40 евро).",
+    "body": [
+     "Българската независима енергийна борса (БНЕБ, на английски IBEX) е пазар, на който производители и търговци купуват и продават ток на едро. На пазара „Ден напред“ всеки ден се провежда търг за всеки четвърт час на следващия ден. За събота, 3 октомври, средната цена (т.нар. Base) е 136,46 евро за мегаватчас без ДДС – с 1,57% по-малко от петък (138,63 евро). Изтъргувани са 101 018,93 мегаватчаса, с 8,8% по-малко от предния ден.",
+     "Денят има две лица. В пиковите часове (според БНЕБ от 09:00 до 20:00 ч.) средната цена е само 86,53 евро/MWh. Извън тях – през нощта и късно вечер – тя е 186,40 евро. Обикновено е обратното: през деня, когато търсенето е най-голямо, токът е по-скъп.",
+     "Причината е слънцето. През деня соларните паркове произвеждат много ток и предлагането е голямо, затова цената пада. Когато слънцето залезе, търсенето остава високо, а трябва да работят по-скъпи централи – цената се качва. За сравнение: в Германия средната цена „ден напред“ за същия ден е около 169 евро/MWh (данни на SMARD).",
+     "Цените за неделя, 4 октомври, се публикуват в събота следобед и още не бяха налични при изготвянето на текста."
+    ],
+    "explain": "Борсовата цена засяга преди всичко фирмите, които купуват ток на пазарни цени. Домакинствата в България плащат цени, определени от регулатора КЕВР, затова дневните скокове на борсата не се виждат пряко в сметката за ток."
+   },
+   "de": {
+    "t": "Strombörse Bulgarien für Samstag: 136,46 Euro/MWh, tagsüber billiger als nachts",
+    "d": "Der IBEX-Durchschnittspreis für den 3. Oktober liegt 1,57 % unter Freitag. In den Spitzenstunden kostet Strom 86,53 Euro/MWh – weniger als die Hälfte des Off-Peak-Preises von 186,40 Euro.",
+    "body": [
+     "Die Bulgarische Unabhängige Energiebörse (IBEX) ist ein Marktplatz, auf dem Kraftwerke und Händler Strom im Großhandel kaufen und verkaufen. Im Day-Ahead-Markt wird jeden Tag eine Auktion für jede Viertelstunde des Folgetags abgehalten. Für Samstag, 3. Oktober, liegt der Durchschnittspreis (Base) bei 136,46 Euro pro Megawattstunde ohne Mehrwertsteuer – 1,57 % weniger als am Freitag (138,63 Euro). Gehandelt wurden 101.018,93 Megawattstunden, 8,8 % weniger als am Vortag.",
+     "Der Tag hat zwei Gesichter. In den Spitzenstunden (Peak, laut IBEX 09:00 bis 20:00 Uhr) kostet Strom im Schnitt nur 86,53 Euro/MWh. In den übrigen Stunden (Off-Peak, nachts und spätabends) sind es 186,40 Euro. Normalerweise ist es umgekehrt: Tagsüber, wenn am meisten Strom gebraucht wird, ist er teurer.",
+     "Der Grund ist die Sonne. Tagsüber erzeugen Solarparks viel Strom, das Angebot ist groß, der Preis fällt. Nach Sonnenuntergang bleibt die Nachfrage hoch, teurere Kraftwerke müssen einspringen – der Preis steigt. Zum Vergleich: In Deutschland liegt der Day-Ahead-Durchschnitt für denselben Tag bei rund 169 Euro/MWh (Daten von SMARD).",
+     "Die Preise für Sonntag, 4. Oktober, veröffentlicht die Börse erst am Samstagnachmittag; sie lagen bei Redaktionsschluss noch nicht vor."
+    ],
+    "explain": "Der Börsenpreis betrifft vor allem Firmen, die Strom zu Marktpreisen einkaufen. Haushalte in Bulgarien zahlen Preise, die die Regulierungsbehörde KEVR festlegt – die Tagesschwankungen an der Börse landen deshalb nicht direkt auf der Stromrechnung."
+   },
+   "en": {
+    "t": "Bulgarian power exchange for Saturday: €136.46/MWh, cheaper by day than by night",
+    "d": "IBEX's average price for 3 October is 1.57% below Friday. During peak hours power costs €86.53/MWh – less than half the off-peak price of €186.40.",
+    "body": [
+     "The Independent Bulgarian Energy Exchange (IBEX) is a marketplace where power plants and traders buy and sell electricity wholesale. In the day-ahead market, an auction is held every day for each quarter-hour of the following day. For Saturday 3 October the average price (base) is €136.46 per megawatt-hour excluding VAT – 1.57% less than Friday (€138.63). Traded volume was 101,018.93 MWh, 8.8% less than the day before.",
+     "The day has two faces. During peak hours (09:00 to 20:00 according to IBEX) power costs only €86.53/MWh on average. In the remaining hours (off-peak, night and late evening) it is €186.40. Usually it is the other way round: power is dearer during the day, when demand is highest.",
+     "The reason is the sun. During the day solar parks produce a lot of power, supply is high and the price falls. After sunset demand stays high and more expensive plants have to step in, so the price rises. For comparison, Germany's day-ahead average for the same day is about €169/MWh (SMARD data).",
+     "Prices for Sunday 4 October are published on Saturday afternoon and were not yet available at the time of writing."
+    ],
+    "explain": "The exchange price mainly affects businesses that buy electricity at market prices. Households in Bulgaria pay prices set by the regulator KEVR, so daily swings on the exchange do not show up directly on their power bill."
+   },
+   "kpi": [
+    {
+     "l": {
+      "bg": "Base (средна цена) 3.10.",
+      "de": "Base (Durchschnitt) 3.10.",
+      "en": "Base (average) 3 Oct"
+     },
+     "v": 136.46,
+     "dec": 2,
+     "u": "EUR/MWh",
+     "chg": -1.57
+    },
+    {
+     "l": {
+      "bg": "Пик 3.10.",
+      "de": "Peak 3.10.",
+      "en": "Peak 3 Oct"
+     },
+     "v": 86.53,
+     "dec": 2,
+     "u": "EUR/MWh",
+     "chg": -9.52
+    },
+    {
+     "l": {
+      "bg": "Извън пика 3.10.",
+      "de": "Off-Peak 3.10.",
+      "en": "Off-peak 3 Oct"
+     },
+     "v": 186.4,
+     "dec": 2,
+     "u": "EUR/MWh",
+     "chg": 2.63
+    },
+    {
+     "l": {
+      "bg": "Изтъргуван обем 3.10.",
+      "de": "Gehandelte Menge 3.10.",
+      "en": "Traded volume 3 Oct"
+     },
+     "v": 101018.93,
+     "dec": 0,
+     "u": "MWh",
+     "chg": -8.84
+    }
+   ],
+   "tables": [
+    {
+     "cap": {
+      "bg": "Дневен преглед – БНЕБ „Ден напред“ (EUR/MWh без ДДС)",
+      "de": "Tagesüberblick – IBEX Day-Ahead (EUR/MWh ohne MwSt.)",
+      "en": "Daily overview – IBEX day-ahead (EUR/MWh excl. VAT)"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Показател",
+        "de": "Kennzahl",
+        "en": "Indicator"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Сб, 3.10.",
+        "de": "Sa, 3.10.",
+        "en": "Sat, 3 Oct"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Нд, 4.10.",
+        "de": "So, 4.10.",
+        "en": "Sun, 4 Oct"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Пт, 2.10. (предишен ден)",
+        "de": "Fr, 2.10. (Vortag)",
+        "en": "Fri, 2 Oct (previous day)"
+       },
+       "k": "num",
+       "dec": 2
+      }
+     ],
+     "rows": [
+      [
+       {
+        "bg": "Base – средна цена",
+        "de": "Base – Durchschnittspreis",
+        "en": "Base – average price"
+       },
+       136.46,
+       null,
+       138.63
+      ],
+      [
+       {
+        "bg": "Пик (09:00–20:00 ч. по БНЕБ)",
+        "de": "Peak (09:00–20:00 Uhr laut IBEX)",
+        "en": "Peak (09:00–20:00 per IBEX)"
+       },
+       86.53,
+       null,
+       95.63
+      ],
+      [
+       {
+        "bg": "Извън пика",
+        "de": "Off-Peak",
+        "en": "Off-peak"
+       },
+       186.4,
+       null,
+       181.63
+      ],
+      [
+       {
+        "bg": "Изтъргуван обем (MWh)",
+        "de": "Gehandelte Menge (MWh)",
+        "en": "Traded volume (MWh)"
+       },
+       101018.93,
+       null,
+       110818.72
+      ]
+     ]
+    }
+   ],
+   "ticker": [
+    {
+     "n": "IBEX Base 3.10.",
+     "v": 136.46,
+     "dec": 2,
+     "chg": -1.57
+    },
+    {
+     "n": "IBEX Peak 3.10.",
+     "v": 86.53,
+     "dec": 2,
+     "chg": -9.52
+    }
+   ],
+   "src": [
+    {
+     "n": "BTA – БНЕБ: доставка 3.10.2026 (Base, Peak, Off-Peak, обем)",
+     "u": "https://www.bta.bg/bg/news/economy/1216489-biznesat-shte-plashta-s-2-protsenta-po-evtina-elektroenergiya-utre-v-sravnenie-s"
+    },
+    {
+     "n": "BTA – БНЕБ: доставка 2.10.2026",
+     "u": "https://www.bta.bg/bg/news/economy/1215670-tsenata-na-toka-za-biznesa-utre-se-povishava-s-3-na-sto-sochat-dannite-na-bneb"
+    },
+    {
+     "n": "Energy-Charts / SMARD – 15-Min.-Preise DE-LU",
+     "u": "https://api.energy-charts.info/price?bzn=DE-LU&start=2026-10-02T22:00Z&end=2026-10-03T21:45Z"
+    },
+    {
+     "n": "EU Energy Live – Day-Ahead Deutschland 3.10.2026 (169,01 EUR/MWh)",
+     "u": "https://euenergy.live/de/deutschland"
+    },
+    {
+     "n": "BTA – КЕВР: регулирани цени за бита (1.7.2025)",
+     "u": "https://www.bta.bg/bg/videos/28874"
+    },
+    {
+     "n": "IBEX",
+     "u": "https://ibex.bg/en/"
+    }
+   ]
+  },
+  {
+   "id": "wallstreet",
+   "asof": {
+    "bg": "Стоп-цени, петък, 2 октомври 2026",
+    "de": "Schlusskurse Freitag, 2. Oktober 2026",
+    "en": "Closing prices, Friday 2 October 2026"
+   },
+   "bg": {
+    "t": "Уолстрийт расте след слаби данни за заетостта, Nasdaq води",
+    "d": "Само 29 000 нови работни места в САЩ през септември. Пазарите вече почти не очакват ново повишение на лихвите от Фед. Технологичните акции поведоха ръста.",
+    "body": [
+     "Американските борси приключиха петък на плюс. Индексът Dow Jones (30 големи компании) се повиши с 0,5% до 51 176,96 пункта. Широкият S&P 500 (500-те най-големи компании в САЩ) добави 0,7% до 7722,72 пункта. Технологичният Nasdaq Composite се покачи с 1,2% до 27 190,86 пункта.",
+     "Основната причина бяха данните за пазара на труда. През септември работодателите в САЩ са създали нетно само 29 000 нови работни места – значително по-малко от очакваното. Безработицата се повиши до 4,2% от 4,1%. Слабите данни намаляват натиска върху централната банка Фед (Федералния резерв) да вдигне лихвите, за да овладее инфлацията. Според AP вероятността за повишение през октомври, заложена от търговците, е спаднала под 23% при 64% седмица по-рано.",
+     "Сред отделните компании Tesla поскъпна с 4,65% след по-добри от очакваното доставки на автомобили за третото тримесечие (486 532 броя). Nvidia се повиши с 1,34%, като в хода на търговията достигна рекорд. Акциите на производителите на твърди дискове Seagate и Western Digital поевтиняха с около 10% след информация, че японската Toshiba разширява производството си. Nike загуби 3,64% след слаби продажби и планове за съкращения.",
+     "За цялата седмица картината е смесена: Nasdaq завърши на плюс (+0,45%), а Dow Jones (−1,26%) и S&P 500 (−0,27%) – на минус. Доходността на 10-годишните американски облигации остава висока – около 5,28%. През седмицата тя достигна най-високото си ниво от 2002 г. Петролът Brent се задържа над 102 долара за барел."
+    ],
+    "explain": "Когато икономиката на САЩ се охлажда, вероятността лихвите да се повишат намалява – това обикновено помага на акциите. Високите лихви по облигациите и скъпият петрол обаче остават риск, включително за кредитите и цените на горивата в Европа."
+   },
+   "de": {
+    "t": "Wall Street legt nach schwachen Jobdaten zu, Nasdaq vorn",
+    "d": "Nur 29.000 neue Stellen im September: Anleger rechnen kaum noch mit einer Zinserhöhung der US-Notenbank. Technologiewerte führten das Plus an.",
+    "body": [
+     "Die US-Börsen haben den Freitag im Plus beendet. Der Dow Jones (30 große US-Konzerne) stieg um 0,5 % auf 51.176,96 Punkte. Der breite S&P 500 (die 500 größten US-Unternehmen) gewann 0,7 % auf 7.722,72 Punkte. Der technologielastige Nasdaq Composite legte 1,2 % auf 27.190,86 Punkte zu.",
+     "Auslöser waren die Arbeitsmarktdaten. Im September schufen US-Arbeitgeber unter dem Strich nur 29.000 neue Stellen – deutlich weniger als erwartet. Die Arbeitslosenquote stieg von 4,1 auf 4,2 %. Schwache Daten verringern den Druck auf die Notenbank Fed (Federal Reserve), die Zinsen zur Inflationsbekämpfung anzuheben. Laut AP sank die von Händlern eingepreiste Wahrscheinlichkeit einer Zinserhöhung im Oktober auf unter 23 % – nach 64 % eine Woche zuvor.",
+     "Bei den Einzelwerten stieg Tesla um 4,65 %, nachdem der Konzern im dritten Quartal mit 486.532 Fahrzeugen mehr Autos ausgeliefert hatte als erwartet. Nvidia gewann 1,34 % und erreichte im Handelsverlauf ein Rekordhoch. Die Festplattenhersteller Seagate und Western Digital verloren rund 10 %, nachdem Berichte über einen Kapazitätsausbau beim japanischen Konkurrenten Toshiba aufkamen. Nike fiel um 3,64 % nach schwachen Umsätzen und angekündigtem Stellenabbau.",
+     "Die Wochenbilanz fällt gemischt aus: Der Nasdaq schloss im Plus (+0,45 %), Dow Jones (−1,26 %) und S&P 500 (−0,27 %) im Minus. Die Rendite zehnjähriger US-Staatsanleihen bleibt mit rund 5,28 % hoch; im Wochenverlauf erreichte sie den höchsten Stand seit 2002. Der Ölpreis der Sorte Brent hielt sich über 102 Dollar je Barrel."
+    ],
+    "explain": "Kühlt die US-Wirtschaft ab, sinkt die Wahrscheinlichkeit steigender Zinsen – das hilft meist den Aktienkursen. Hohe Anleihezinsen und teures Öl bleiben aber ein Risiko, auch für Kreditzinsen und Spritpreise in Europa."
+   },
+   "en": {
+    "t": "Wall Street rises after weak jobs data, Nasdaq leads",
+    "d": "Only 29,000 new US jobs in September: investors now see little chance of a Fed rate hike this month. Tech stocks led the gains.",
+    "body": [
+     "US stocks ended Friday higher. The Dow Jones Industrial Average (30 large US companies) rose 0.5% to 51,176.96 points. The broad S&P 500 (the 500 largest US companies) gained 0.7% to 7,722.72. The tech-heavy Nasdaq Composite climbed 1.2% to 27,190.86.",
+     "The trigger was the jobs report. US employers added a net 29,000 jobs in September, well below forecasts. The unemployment rate rose to 4.2% from 4.1%. Weak data ease the pressure on the Federal Reserve, the US central bank, to raise interest rates to fight inflation. According to AP, traders cut the probability of an October rate hike to below 23%, from 64% a week earlier.",
+     "Among individual stocks, Tesla rose 4.65% after third-quarter deliveries of 486,532 vehicles beat expectations. Nvidia gained 1.34% and touched a record high during the session. Hard-drive makers Seagate and Western Digital fell about 10% on reports that Japanese rival Toshiba is expanding capacity. Nike dropped 3.64% after weak sales and announced job cuts.",
+     "The week was mixed: the Nasdaq finished higher (+0.45%), while the Dow (−1.26%) and the S&P 500 (−0.27%) ended lower. The 10-year US Treasury yield stayed high at about 5.28%; during the week it hit its highest level since 2002. Brent crude held above $102 a barrel."
+    ],
+    "explain": "When the US economy cools, the chance of higher interest rates falls – that usually supports share prices. But high bond yields and expensive oil remain a risk, including for loan rates and fuel prices in Europe."
+   },
+   "kpi": [
+    {
+     "l": {
+      "bg": "Dow Jones",
+      "de": "Dow Jones",
+      "en": "Dow Jones"
+     },
+     "v": 51176.96,
+     "dec": 2,
+     "u": "Pkt.",
+     "chg": 0.49
+    },
+    {
+     "l": {
+      "bg": "S&P 500",
+      "de": "S&P 500",
+      "en": "S&P 500"
+     },
+     "v": 7722.72,
+     "dec": 2,
+     "u": "Pkt.",
+     "chg": 0.73
+    },
+    {
+     "l": {
+      "bg": "Nasdaq Composite",
+      "de": "Nasdaq Composite",
+      "en": "Nasdaq Composite"
+     },
+     "v": 27190.86,
+     "dec": 2,
+     "u": "Pkt.",
+     "chg": 1.19
+    }
+   ],
+   "tables": [
+    {
+     "cap": {
+      "bg": "Индекси",
+      "de": "Indizes",
+      "en": "Indices"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Индекс",
+        "de": "Index",
+        "en": "Index"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Стойност при затваряне",
+        "de": "Schluss",
+        "en": "Close"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Ден %",
+        "de": "Tag %",
+        "en": "Day %"
+       },
+       "k": "chg",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Седмица %",
+        "de": "Woche %",
+        "en": "Week %"
+       },
+       "k": "chg",
+       "dec": 2
+      }
+     ],
+     "rows": [
+      [
+       "Dow Jones",
+       51176.96,
+       0.49,
+       -1.26
+      ],
+      [
+       "S&P 500",
+       7722.72,
+       0.73,
+       -0.27
+      ],
+      [
+       "Nasdaq Composite",
+       27190.86,
+       1.19,
+       0.45
+      ]
+     ]
+    },
+    {
+     "cap": {
+      "bg": "Най-важните отделни акции на деня",
+      "de": "Wichtigste Einzelwerte des Tages",
+      "en": "Key stocks of the day"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Компания",
+        "de": "Unternehmen",
+        "en": "Company"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Цена (USD)",
+        "de": "Kurs (USD)",
+        "en": "Price (USD)"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Ден %",
+        "de": "Tag %",
+        "en": "Day %"
+       },
+       "k": "chg",
+       "dec": 2
+      }
+     ],
+     "rows": [
+      [
+       "Tesla",
+       370.59,
+       4.65
+      ],
+      [
+       "Nvidia",
+       233.95,
+       1.34
+      ],
+      [
+       "Lucid",
+       4.13,
+       -1.43
+      ],
+      [
+       "Rivian",
+       14.3,
+       -3.12
+      ],
+      [
+       "Nike",
+       33.87,
+       -3.64
+      ],
+      [
+       "Seagate",
+       848.99,
+       -10.21
+      ],
+      [
+       "Western Digital",
+       415.29,
+       -10.22
+      ]
+     ]
+    },
+    {
+     "cap": {
+      "bg": "Други пазарни данни",
+      "de": "Weitere Marktdaten",
+      "en": "Other market data"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Показател",
+        "de": "Kennzahl",
+        "en": "Indicator"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Стойност",
+        "de": "Wert",
+        "en": "Value"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Ден %",
+        "de": "Tag %",
+        "en": "Day %"
+       },
+       "k": "chg",
+       "dec": 2
+      }
+     ],
+     "rows": [
+      [
+       {
+        "bg": "Доходност 10-г. облигации на САЩ (%)",
+        "de": "Rendite 10-jährige US-Staatsanleihe (%)",
+        "en": "10-year US Treasury yield (%)"
+       },
+       5.28,
+       null
+      ],
+      [
+       {
+        "bg": "Петрол Brent (USD/барел)",
+        "de": "Öl Brent (USD/Barrel)",
+        "en": "Brent crude (USD/barrel)"
+       },
+       102.25,
+       -0.06
+      ],
+      [
+       {
+        "bg": "Петрол WTI (USD/барел)",
+        "de": "Öl WTI (USD/Barrel)",
+        "en": "WTI crude (USD/barrel)"
+       },
+       91.11,
+       -1.9
+      ],
+      [
+       {
+        "bg": "Злато (USD/унция)",
+        "de": "Gold (USD/Unze)",
+        "en": "Gold (USD/ounce)"
+       },
+       4162.3,
+       -0.95
+      ]
+     ]
+    }
+   ],
+   "ticker": [
+    {
+     "n": "Dow Jones",
+     "v": 51176.96,
+     "dec": 2,
+     "chg": 0.49
+    },
+    {
+     "n": "S&P 500",
+     "v": 7722.72,
+     "dec": 2,
+     "chg": 0.73
+    },
+    {
+     "n": "Nasdaq",
+     "v": 27190.86,
+     "dec": 2,
+     "chg": 1.19
+    },
+    {
+     "n": "Brent",
+     "v": 102.25,
+     "dec": 2,
+     "chg": -0.06
+    },
+    {
+     "n": "WTI",
+     "v": 91.11,
+     "dec": 2,
+     "chg": -1.9
+    },
+    {
+     "n": "Gold",
+     "v": 4162.3,
+     "dec": 2,
+     "chg": -0.95
+    }
+   ],
+   "src": [
+    {
+     "n": "AP (Stan Choe) via Jackson Hole News&Guide",
+     "u": "https://www.jhnewsandguide.com/jackson_hole_daily/business/us-stocks-rise-near-their-record-after-the-latest-jobs-report-eases-worries-about-inflation/article_2e91d7ae-58fe-52b8-9ae2-0b94008dbd95.html"
+    },
+    {
+     "n": "Yahoo Finance (Live-Blog 2.10.2026)",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-2-dow-sp-500-nasdaq-september-jobs-report-080623878.html"
+    },
+    {
+     "n": "TheStreet (2.10.2026)",
+     "u": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-02-2026"
+    },
+    {
+     "n": "TheStreet (25.9.2026, Vorwochen-Schluss)",
+     "u": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-25-2026"
+    },
+    {
+     "n": "StockMarketWatch Digest (25.9.2026)",
+     "u": "https://stockmarketwatch.com/digest/2026-09-25"
+    },
+    {
+     "n": "Nasdaq.com Chartstopper (2.10.2026)",
+     "u": "https://www.nasdaq.com/economic-institute/chartstopper-100226"
+    },
+    {
+     "n": "Motley Fool (Tesla, Rivian, Lucid)",
+     "u": "https://fool.com/coverage/stock-market-today/2026/10/02/stock-market-today-oct-2-tesla-rises-on-q3-delivery-beat"
+    },
+    {
+     "n": "StockAnalysis NVDA",
+     "u": "https://stockanalysis.com/stocks/nvda/history/"
+    },
+    {
+     "n": "StockAnalysis NKE",
+     "u": "https://stockanalysis.com/stocks/nke/history/"
+    },
+    {
+     "n": "StockAnalysis STX",
+     "u": "https://stockanalysis.com/stocks/stx/history/"
+    },
+    {
+     "n": "StockAnalysis WDC",
+     "u": "https://stockanalysis.com/stocks/wdc/history/"
+    },
+    {
+     "n": "MarketScreener (Reuters-Meldung)",
+     "u": "https://www.marketscreener.com/news/stocks-close-higher-as-soft-jobs-data-cools-rate-hike-bets-ce785ddbda8bf725"
+    },
+    {
+     "n": "EnergyNow (Öl-Settlements)",
+     "u": "https://energynow.com/2026/10/oil-ends-volatile-week-mixed-as-emergency-reserve-release-knocks-wti-lower-but-brent-holds-above-102/"
+    },
+    {
+     "n": "Investrade Market Review 2.10.2026 (Gold)",
+     "u": "https://investrade.com/market-review-october-02-2026/"
+    }
+   ]
+  },
+  {
+   "id": "deutsche-boerse",
+   "asof": {
+    "bg": "Стоп-цени, петък, 2 октомври 2026",
+    "de": "Schlusskurse Freitag, 2. Oktober 2026",
+    "en": "Closing prices, Friday 2 October 2026"
+   },
+   "bg": {
+    "t": "DAX се възстанови с 1,2% в петък, но завърши седмицата с лек спад",
+    "d": "Слаби данни за пазара на труда в САЩ и по-евтин петрол повдигнаха Франкфуртската борса. Чиповият концерн Infineon поскъпна с близо 9%.",
+    "body": [
+     "DAX е водещият германски борсов индекс: в него влизат 40-те най-големи германски компании, търгувани на борсата. В петък той се покачи с 1,17% до 25 231,20 пункта. Ден по-рано индексът бе паднал под границата от 25 000 пункта – до най-ниското си ниво от юли. За цялата седмица DAX остава на минус 0,7%.",
+     "Подкрепа дойде от САЩ: данните за пазара на труда там се оказаха по-слаби от очакваното. Инвеститорите приеха това като знак, че натискът за по-високи лихви отслабва. Цените на петрола също паднаха, след като държавите от Г-7 обявиха освобождаване на 100 милиона барела от резервите си. Инфлацията в еврозоната през септември се е повишила до 3,8%.",
+     "Най-голям победител в DAX беше производителят на чипове Infineon (+8,8%), подкрепен от силния ден на американските технологични акции. Индексът на технологичните компании TecDAX се повиши с 2,4%. Индексът на средните компании MDAX добави 0,7%, но за седмицата губи близо 1,9%. Сред губещите бяха SAP, Daimler Truck и Bayer, а в MDAX – Kion (−7,7%) и Auto1 (−4,8%).",
+     "В събота, 3 октомври, Германия отбелязва Деня на германското единство. Тъй като датата се пада в събота, борсата така или иначе е затворена; търговията продължава в понеделник, 5 октомври."
+    ],
+    "explain": "Ако имате спестявания във фондове, които следят DAX или европейски акции, петъчният ръст компенсира част от загубите от седмицата. Еднодневните движения обаче казват малко за дългосрочната стойност на инвестицията."
+   },
+   "de": {
+    "t": "Dax erholt sich am Freitag um 1,2 Prozent – Wochenbilanz bleibt leicht negativ",
+    "d": "Schwache US-Arbeitsmarktdaten und sinkende Ölpreise gaben der Frankfurter Börse Auftrieb. Der Chipkonzern Infineon legte fast 9 Prozent zu.",
+    "body": [
+     "Der Dax ist der Leitindex der deutschen Börse: Er bildet die 40 größten börsennotierten Unternehmen Deutschlands ab. Am Freitag stieg er um 1,17 Prozent auf 25.231,20 Punkte. Am Vortag war er unter die Marke von 25.000 Punkten und damit auf den tiefsten Stand seit Juli gefallen. Auf Wochensicht bleibt ein Minus von 0,7 Prozent.",
+     "Rückenwind kam aus den USA: Der Arbeitsmarktbericht fiel schwächer aus als erwartet. Anleger werteten das als Zeichen, dass der Druck in Richtung höherer Zinsen nachlässt. Zudem sanken die Ölpreise, nachdem die G7-Staaten die Freigabe von 100 Millionen Barrel aus ihren Reserven angekündigt hatten. Die Inflation im Euroraum stieg im September auf 3,8 Prozent.",
+     "Größter Gewinner im Dax war der Chiphersteller Infineon (+8,8 Prozent), gestützt von starken US-Technologiewerten. Der Technologieindex TecDax legte 2,4 Prozent zu. Der MDax der mittelgroßen Unternehmen gewann 0,7 Prozent, liegt auf Wochensicht aber knapp 1,9 Prozent im Minus. Zu den Verlierern zählten SAP, Daimler Truck und Bayer, im MDax Kion (−7,7 Prozent) und Auto1 (−4,8 Prozent).",
+     "Am Samstag, 3. Oktober, ist Tag der Deutschen Einheit. Da der Feiertag auf einen Samstag fällt, ist die Börse ohnehin geschlossen; der Handel geht am Montag, 5. Oktober, weiter."
+    ],
+    "explain": "Wer über Fonds in Dax- oder europäische Aktien investiert ist, hat am Freitag einen Teil der Wochenverluste wieder aufgeholt. Einzelne Handelstage sagen aber wenig über die langfristige Entwicklung einer Geldanlage."
+   },
+   "en": {
+    "t": "DAX rebounds 1.2% on Friday but ends the week slightly lower",
+    "d": "Weak US jobs data and falling oil prices lifted the Frankfurt stock exchange. Chipmaker Infineon jumped almost 9%.",
+    "body": [
+     "The DAX is Germany's benchmark index: it tracks the 40 largest companies listed on the German stock exchange. On Friday it rose 1.17% to 25,231.20 points. A day earlier it had slipped below the 25,000 mark, its lowest level since July. For the week as a whole, the DAX is down 0.7%.",
+     "Support came from the US, where the jobs report was weaker than expected. Investors took this as a sign that pressure for higher interest rates is easing. Oil prices also fell after the G7 countries announced the release of 100 million barrels from their reserves. Eurozone inflation rose to 3.8% in September.",
+     "The biggest DAX winner was chipmaker Infineon (+8.8%), helped by strong US tech stocks. The TecDAX technology index gained 2.4%. The MDAX of mid-sized companies added 0.7% but is down nearly 1.9% on the week. Losers included SAP, Daimler Truck and Bayer, and in the MDAX Kion (−7.7%) and Auto1 (−4.8%).",
+     "Saturday 3 October is German Unity Day. As the holiday falls on a Saturday, the exchange is closed anyway; trading resumes on Monday 5 October."
+    ],
+    "explain": "If you hold funds that track the DAX or European shares, Friday's gains made up for part of the week's losses. Single trading days, however, say little about how an investment performs over the long term."
+   },
+   "kpi": [
+    {
+     "l": {
+      "bg": "DAX",
+      "de": "DAX",
+      "en": "DAX"
+     },
+     "v": 25231.2,
+     "dec": 2,
+     "u": "Pkt.",
+     "chg": 1.17
+    },
+    {
+     "l": {
+      "bg": "MDAX",
+      "de": "MDAX",
+      "en": "MDAX"
+     },
+     "v": 30450.0,
+     "dec": 2,
+     "u": "Pkt.",
+     "chg": 0.66
+    },
+    {
+     "l": {
+      "bg": "TecDAX",
+      "de": "TecDAX",
+      "en": "TecDAX"
+     },
+     "v": 4074.01,
+     "dec": 2,
+     "u": "Pkt.",
+     "chg": 2.38
+    },
+    {
+     "l": {
+      "bg": "Euro Stoxx 50",
+      "de": "Euro Stoxx 50",
+      "en": "Euro Stoxx 50"
+     },
+     "v": 6238.5,
+     "dec": 2,
+     "u": "Pkt.",
+     "chg": 1.02
+    }
+   ],
+   "tables": [
+    {
+     "cap": {
+      "bg": "Индекси",
+      "de": "Indizes",
+      "en": "Indices"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Индекс",
+        "de": "Index",
+        "en": "Index"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Затваряне",
+        "de": "Schluss",
+        "en": "Close"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Ден %",
+        "de": "Tag %",
+        "en": "Day %"
+       },
+       "k": "chg",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Седмица %",
+        "de": "Woche %",
+        "en": "Week %"
+       },
+       "k": "chg",
+       "dec": 2
+      }
+     ],
+     "rows": [
+      [
+       "DAX",
+       25231.2,
+       1.17,
+       -0.7
+      ],
+      [
+       "MDAX",
+       30450.0,
+       0.66,
+       -1.87
+      ],
+      [
+       "SDAX",
+       18167.65,
+       -0.06,
+       null
+      ],
+      [
+       "TecDAX",
+       4074.01,
+       2.38,
+       null
+      ],
+      [
+       "Euro Stoxx 50",
+       6238.5,
+       1.02,
+       null
+      ]
+     ]
+    },
+    {
+     "cap": {
+      "bg": "Печеливши и губещи в DAX за деня",
+      "de": "DAX-Gewinner und -Verlierer des Tages",
+      "en": "DAX winners and losers of the day"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Компания",
+        "de": "Unternehmen",
+        "en": "Company"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Цена EUR",
+        "de": "Kurs EUR",
+        "en": "Price EUR"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Ден %",
+        "de": "Tag %",
+        "en": "Day %"
+       },
+       "k": "chg",
+       "dec": 2
+      }
+     ],
+     "rows": [
+      [
+       "Infineon",
+       64.64,
+       8.78
+      ],
+      [
+       "Qiagen",
+       40.41,
+       5.8
+      ],
+      [
+       "Hochtief",
+       407.4,
+       2.83
+      ],
+      [
+       "Bayer",
+       44.94,
+       -1.01
+      ],
+      [
+       "SAP",
+       183.92,
+       -1.51
+      ],
+      [
+       "Daimler Truck",
+       40.68,
+       -2.0
+      ]
+     ]
+    },
+    {
+     "cap": {
+      "bg": "Валута",
+      "de": "Devisen",
+      "en": "Currency"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Показател",
+        "de": "Wert",
+        "en": "Item"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Курс",
+        "de": "Kurs",
+        "en": "Rate"
+       },
+       "k": "num",
+       "dec": 4
+      },
+      {
+       "h": {
+        "bg": "Промяна %",
+        "de": "Veränderung %",
+        "en": "Change %"
+       },
+       "k": "chg",
+       "dec": 2
+      }
+     ],
+     "rows": [
+      [
+       {
+        "bg": "Евро в щатски долари (референтен курс на ЕЦБ)",
+        "de": "Euro in US-Dollar (EZB-Referenzkurs)",
+        "en": "Euro in US dollars (ECB reference rate)"
+       },
+       1.1225,
+       -0.65
+      ]
+     ]
+    }
+   ],
+   "ticker": [
+    {
+     "n": "DAX",
+     "v": 25231.2,
+     "dec": 2,
+     "chg": 1.17
+    },
+    {
+     "n": "MDAX",
+     "v": 30450.0,
+     "dec": 2,
+     "chg": 0.66
+    },
+    {
+     "n": "TecDAX",
+     "v": 4074.01,
+     "dec": 2,
+     "chg": 2.38
+    },
+    {
+     "n": "Euro Stoxx 50",
+     "v": 6238.5,
+     "dec": 2,
+     "chg": 1.02
+    }
+   ],
+   "src": [
+    {
+     "n": "dpa-AFX via ARIVA.DE: Aktien Frankfurt Schluss (ROUNDUP 2), 02.10.2026",
+     "u": "https://www.ariva.de/dax-index/news/roundup-2-aktien-frankfurt-schluss-dax-klar-erholt-vom-12157150"
+    },
+    {
+     "n": "dpa-AFX via finanzen.at: ROUNDUP/Aktien Frankfurt Schluss, 02.10.2026",
+     "u": "https://www.finanzen.at/nachrichten/aktien/roundup-aktien-frankfurt-schluss-dax-klar-erholt-vom-tiefsten-stand-seit-juli-1036594032"
+    },
+    {
+     "n": "dpa-AFX via ARIVA.DE: Aktien Frankfurt Schluss, 25.09.2026 (Wochenvergleich)",
+     "u": "https://www.ariva.de/dax-index/news/aktien-frankfurt-schluss-dax-beendet-durchwachsene-woche-12148933"
+    },
+    {
+     "n": "finanzen.net: DAX-Bericht 02.10.2026",
+     "u": "https://www.finanzen.net/nachricht/aktien/dax-aktuell-nach-us-arbeitsmarktdaten-dax-geht-wieder-deutlich-ueber-25-000-punkten-ins-wochenende-15955352"
+    },
+    {
+     "n": "finanzen.at: DAX beendet den Freitagshandel in der Gewinnzone",
+     "u": "https://www.finanzen.at/nachrichten/aktien/boerse-frankfurt-in-gruen-dax-beendet-den-freitagshandel-in-der-gewinnzone-1036593973"
+    },
+    {
+     "n": "finanzen.at: TecDAX schließt im Plus",
+     "u": "https://www.finanzen.at/nachrichten/aktien/gewinne-in-frankfurt-tecdax-schliesst-im-plus-1036593961"
+    },
+    {
+     "n": "finanzen.ch: SDAX zeigt sich letztendlich leichter",
+     "u": "https://www.finanzen.ch/nachrichten/aktien/schwacher-handel-in-frankfurt-sdax-zeigt-sich-letztendlich-leichter-1036593949"
+    },
+    {
+     "n": "finanzen.at: Devisen (EZB-Richtwerte), 02.10.2026",
+     "u": "https://www.finanzen.at/nachrichten/aktien/devisen-ezb-richtwerte-euro-referenzkurs-bei-1-1225-us-dollar-1036593765"
+    },
+    {
+     "n": "Handelsblatt: Dax schließt im Plus",
+     "u": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-im-plus-und-erobert-25.000-punkte-marke-zurueck/100259189.html"
+    },
+    {
+     "n": "Deutsche Börse: Handelszeiten und Kalender",
+     "u": "https://live.deutsche-boerse.com/handeln/handelszeiten-und-kalender"
+    }
+   ]
+  },
+  {
+   "id": "bg-energie-aktien",
+   "asof": {
+    "bg": "Стоп-цени, петък, 2 октомври 2026",
+    "de": "Schlusskurse Freitag, 2. Oktober 2026",
+    "en": "Closing prices, Friday 2 October 2026"
+   },
+   "bg": {
+    "t": "SOFIX над 1500 пункта за първи път от януари 2008 г.",
+    "d": "Основният индекс на БФБ се качи с 0,84% до 1508,45 пункта. От началото на годината ръстът е около 30%. Енергийните акции се търгуват рядко.",
+    "body": [
+     "SOFIX е основният индекс на Българската фондова борса (БФБ): той следи най-големите и най-търгуваните български компании. В петък индексът се повиши с 0,84% до 1508,45 пункта. Това е първото ниво над 1500 пункта от средата на януари 2008 г. Спрямо края на 2025 г. (1156,43 пункта) ръстът е около 30%.",
+     "Останалите индекси също поскъпнаха: BGBX40 (40-те най-търгувани акции) с 0,57% до 245,51 пункта, BGTR30 с 0,46% до 1157,30 пункта и BGREIT (дружества за имоти) с 0,15% до 243,28 пункта. Оборотът на основния пазар е 1,33 млн. евро. От 1 януари 2026 г. на БФБ се търгува в евро.",
+     "Енергийните компании на борсата са малко и се търгуват рядко. Акциите на „Петрол“ АД са с последна сделка на 10 септември при 0,318 евро. „Проучване и добив на нефт и газ“ е с последна сделка на 9 септември при 1,90 евро. На 2 октомври сделки с тях не са открити."
+    ],
+    "explain": "Ръстът на SOFIX показва, че инвеститорите купуват повече български акции. Енергийните книжа обаче се търгуват толкова рядко, че цената им може да се промени рязко и при малка сделка."
+   },
+   "de": {
+    "t": "Sofioter Leitindex SOFIX erstmals seit Januar 2008 über 1500 Punkten",
+    "d": "Der wichtigste Index der Bulgarischen Börse stieg um 0,84 % auf 1508,45 Punkte. Seit Jahresbeginn liegt das Plus bei rund 30 %. Energiewerte werden kaum gehandelt.",
+    "body": [
+     "SOFIX ist der Leitindex der Bulgarischen Börse (BSE) in Sofia: Er bildet die größten und meistgehandelten bulgarischen Unternehmen ab. Am Freitag stieg er um 0,84 % auf 1508,45 Punkte – erstmals seit Mitte Januar 2008 über der Marke von 1500 Punkten. Gegenüber dem Jahresende 2025 (1156,43 Punkte) beträgt das Plus rund 30 %.",
+     "Auch die übrigen Indizes legten zu: BGBX40 (die 40 meistgehandelten Aktien) um 0,57 % auf 245,51 Punkte, BGTR30 um 0,46 % auf 1157,30 Punkte und BGREIT (Immobiliengesellschaften) um 0,15 % auf 243,28 Punkte. Der Umsatz am Hauptmarkt betrug 1,33 Millionen Euro. Seit dem 1. Januar 2026 wird an der Börse in Sofia in Euro gehandelt.",
+     "Energieunternehmen sind an der Börse rar und werden selten gehandelt. Die Aktie von Petrol AD wurde zuletzt am 10. September zu 0,318 Euro gehandelt, Proutschwane i dobiw na neft i gas (Öl- und Gasförderung) zuletzt am 9. September zu 1,90 Euro. Am 2. Oktober wurden für beide keine Abschlüsse gefunden."
+    ],
+    "explain": "Der steigende SOFIX zeigt, dass Anleger mehr bulgarische Aktien kaufen. Energiewerte werden aber so selten gehandelt, dass schon ein kleiner Auftrag den Kurs stark bewegen kann."
+   },
+   "en": {
+    "t": "Sofia's SOFIX index tops 1,500 points for the first time since January 2008",
+    "d": "The Bulgarian Stock Exchange's main index rose 0.84% to 1,508.45 points, up about 30% so far this year. Energy stocks rarely trade.",
+    "body": [
+     "SOFIX is the main index of the Bulgarian Stock Exchange (BSE) in Sofia, tracking the largest and most traded Bulgarian companies. On Friday it rose 0.84% to 1,508.45 points – its first close above 1,500 since mid-January 2008. Compared with the end of 2025 (1,156.43 points) it is up about 30%.",
+     "The other indices also gained: BGBX40 (the 40 most traded shares) rose 0.57% to 245.51 points, BGTR30 0.46% to 1,157.30 and BGREIT (real-estate companies) 0.15% to 243.28. Turnover on the main market was €1.33 million. Since 1 January 2026 shares in Sofia have traded in euros.",
+     "Energy companies are few on the exchange and trade rarely. Petrol AD last traded on 10 September at €0.318; Oil and Gas Exploration and Production last traded on 9 September at €1.90. No trades in either were found on 2 October."
+    ],
+    "explain": "A rising SOFIX shows investors are buying more Bulgarian shares. Energy stocks, however, trade so rarely that even a small order can move their price sharply."
+   },
+   "kpi": [
+    {
+     "l": {
+      "bg": "SOFIX",
+      "de": "SOFIX",
+      "en": "SOFIX"
+     },
+     "v": 1508.45,
+     "dec": 2,
+     "u": "Pkt.",
+     "chg": 0.84
+    },
+    {
+     "l": {
+      "bg": "BGBX40",
+      "de": "BGBX40",
+      "en": "BGBX40"
+     },
+     "v": 245.51,
+     "dec": 2,
+     "u": "Pkt.",
+     "chg": 0.57
+    },
+    {
+     "l": {
+      "bg": "BGTR30",
+      "de": "BGTR30",
+      "en": "BGTR30"
+     },
+     "v": 1157.3,
+     "dec": 2,
+     "u": "Pkt.",
+     "chg": 0.46
+    },
+    {
+     "l": {
+      "bg": "SOFIX от началото на 2026 г.",
+      "de": "SOFIX seit Jahresbeginn",
+      "en": "SOFIX year to date"
+     },
+     "v": 30.44,
+     "dec": 2,
+     "u": "%"
+    }
+   ],
+   "tables": [
+    {
+     "cap": {
+      "bg": "Индекси на БФБ, 2.10.2026",
+      "de": "Indizes der Bulgarischen Börse, 2.10.2026",
+      "en": "Bulgarian Stock Exchange indices, 2 Oct 2026"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Индекс",
+        "de": "Index",
+        "en": "Index"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Пункта",
+        "de": "Punkte",
+        "en": "Points"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Ден %",
+        "de": "Tag %",
+        "en": "Day %"
+       },
+       "k": "chg",
+       "dec": 2
+      }
+     ],
+     "rows": [
+      [
+       "SOFIX",
+       1508.45,
+       0.84
+      ],
+      [
+       "BGBX40",
+       245.51,
+       0.57
+      ],
+      [
+       "BGTR30",
+       1157.3,
+       0.46
+      ],
+      [
+       "BGREIT",
+       243.28,
+       0.15
+      ],
+      [
+       "beamX",
+       126.21,
+       -1.58
+      ]
+     ]
+    },
+    {
+     "cap": {
+      "bg": "Енергийни акции на БФБ – последна сделка (в евро)",
+      "de": "Energiewerte an der Bulgarischen Börse – letzter Abschluss (in Euro)",
+      "en": "Energy stocks on the Bulgarian Stock Exchange – last trade (in euros)"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Компания",
+        "de": "Unternehmen",
+        "en": "Company"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Цена (EUR)",
+        "de": "Kurs (EUR)",
+        "en": "Price (EUR)"
+       },
+       "k": "num",
+       "dec": 3
+      },
+      {
+       "h": {
+        "bg": "Промяна %",
+        "de": "Veränderung %",
+        "en": "Change %"
+       },
+       "k": "chg",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Пазарна капитализация (млн. EUR)",
+        "de": "Marktkapitalisierung (Mio. EUR)",
+        "en": "Market cap (EUR m)"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Последна сделка",
+        "de": "Letzter Abschluss",
+        "en": "Last trade"
+       },
+       "k": "txt"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "bg": "Петрол АД (горива)",
+        "de": "Petrol AD (Tankstellen/Kraftstoffe)",
+        "en": "Petrol AD (fuel)"
+       },
+       0.318,
+       0.63,
+       8.69,
+       {
+        "bg": "10.09.2026",
+        "de": "10.09.2026",
+        "en": "10 Sep 2026"
+       }
+      ],
+      [
+       {
+        "bg": "Проучване и добив на нефт и газ АД",
+        "de": "Proutschwane i dobiw na neft i gas AD (Öl/Gas)",
+        "en": "Oil and Gas Exploration and Production AD"
+       },
+       1.9,
+       -12.04,
+       23.23,
+       {
+        "bg": "09.09.2026",
+        "de": "09.09.2026",
+        "en": "9 Sep 2026"
+       }
+      ]
+     ]
+    }
+   ],
+   "ticker": [
+    {
+     "n": "SOFIX",
+     "v": 1508.45,
+     "dec": 2,
+     "chg": 0.84
+    },
+    {
+     "n": "BGBX40",
+     "v": 245.51,
+     "dec": 2,
+     "chg": 0.57
+    }
+   ],
+   "src": [
+    {
+     "n": "BTA – Основният индекс на БФБ надмина 1500 пункта (2.10.2026)",
+     "u": "https://www.bta.bg/bg/news/economy/1216774-osnovniyat-indeks-na-bfb-nadmina-nivoto-ot-1500-punkta-za-parvi-pat-ot-sredata-n"
+    },
+    {
+     "n": "infostock.bg – Петрол АД",
+     "u": "https://www.infostock.bg/infostock/control/quotes/PET"
+    },
+    {
+     "n": "infostock.bg – Проучване и добив на нефт и газ",
+     "u": "https://www.infostock.bg/infostock/control/quotes/NGAZ"
+    }
+   ]
+  },
+  {
+   "id": "invest-bulgarien",
+   "asof": {
+    "bg": "Към 3 октомври 2026 г.",
+    "de": "Stand: 3. Oktober 2026",
+    "en": "As of 3 October 2026"
+   },
+   "bg": {
+    "t": "Къде се инвестира в България: заводи от Русе до Кърджали и Пловдив",
+    "d": "Нови заводи и паркове в Русе, Кърджали, Пловдив и София за над 120 млн. евро. Безработицата обаче е много различна според региона.",
+    "body": [
+     "През последните четири седмици бяха открити или започнати няколко индустриални проекта. В Русе „Булмаркет Груп“ откри индустриален парк „ЛВЗ“ на мястото на най-стария локомотивен и вагонен завод в страната. Инвестицията е над 60 млн. евро, а в парка вече работят над 210 души (БТА, 1 октомври). В Кърджали заработи завод за фотоволтаични модули на VESS Modules за около 15 млн. евро с около 200 работни места, по-късно около 300 (Money.bg, 1 октомври).",
+     "Районът на Пловдив и „Тракия икономическа зона“ (ТИЗ – голям индустриален район около града) остава магнит за инвестиции. На 8 септември започна строежът на завод за физиологични разтвори и медицински консумативи за 7 млн. евро с 35 работни места, а китайската ZS Europe откри разширение на завода си за алуминиеви авточасти (общо над 17,5 млн. евро досега). В София Healthy Bars строи нов завод за протеинови барове за 22 млн. евро. Край Тенево беше пуснат в експлоатация соларен парк с 242 MWp и батерии с 311 MW. За Бургас правителството предлага терен на Министерството на отбраната за евентуален завод на „Райнметал“ – преговорите продължават.",
+     "Защо тук? Компаниите изтъкват стратегическото разположение – Русе е до Румъния и на транспортни коридори между Европа и Азия. Част от проектите използват европейски пари: паркът в Русе е завършен по Плана за възстановяване и устойчивост. От 1 януари 2026 г. България е в еврозоната. Разликите между регионите обаче остават големи: по данни на НСИ за 2025 г. безработицата в София е 1,2%, а във Видин – 11,0%. За северозапада не открихме нови големи проекти в последните седмици."
+    ],
+    "explain": "Нов завод означава нови работни места и по-добри заплати наблизо. Но повечето инвестиции отиват в София, Пловдив и големите градове – северозападът изостава."
+   },
+   "de": {
+    "t": "Wo in Bulgarien investiert wird: Werke von Russe bis Kardschali und Plowdiw",
+    "d": "Neue Werke und Industrieparks in Russe, Kardschali, Plowdiw und Sofia für über 120 Mio. Euro. Die Arbeitslosigkeit ist je nach Region aber sehr unterschiedlich.",
+    "body": [
+     "In den vergangenen vier Wochen wurden mehrere Industrieprojekte eröffnet oder gestartet. In Russe an der Donau eröffnete die Bulmarket-Gruppe den Industriepark „LVZ“ auf dem Gelände des ältesten Lokomotiv- und Waggonwerks des Landes. Investiert wurden über 60 Mio. Euro; im Park arbeiten bereits mehr als 210 Menschen (BTA, 1. Oktober). In Kardschali im Süden nahm VESS Modules ein Werk für Solarmodule in Betrieb: rund 15 Mio. Euro, etwa 200 Arbeitsplätze, später rund 300 (Money.bg, 1. Oktober).",
+     "Die Region Plowdiw mit der Trakia-Wirtschaftszone (ein großes Industriegebiet rund um die zweitgrößte Stadt) bleibt ein Magnet. Am 8. September begann dort der Bau eines Werks für Kochsalzlösungen und Medizinbedarf (7 Mio. Euro, 35 Stellen). Der chinesische Autozulieferer ZS Europe eröffnete eine Erweiterung seines Aluminiumteile-Werks (bisher insgesamt über 17,5 Mio. Euro). In Sofia baut der Proteinriegel-Hersteller Healthy Bars ein Werk für 22 Mio. Euro. Bei Tenewo ging ein Solarpark mit 242 MWp plus Batteriespeicher (311 MW) ans Netz. Für Burgas bietet die Regierung dem Rüstungskonzern Rheinmetall ein Gelände des Verteidigungsministeriums an – die Verhandlungen laufen noch.",
+     "Warum dort? Firmen nennen vor allem die Lage: Russe liegt an der Grenze zu Rumänien und an Verkehrswegen zwischen Europa und Asien. Teils fließen EU-Gelder: Der Park in Russe wurde über den Aufbau- und Resilienzplan fertiggestellt. Seit 1. Januar 2026 gehört Bulgarien zur Eurozone. Das Gefälle bleibt groß: Laut Statistikamt NSI lag die Arbeitslosenquote 2025 in Sofia bei 1,2 %, in Widin im Nordwesten bei 11,0 %. Neue Großprojekte im Nordwesten fanden wir in den letzten Wochen nicht."
+    ],
+    "explain": "Ein neues Werk bringt Jobs und oft bessere Löhne in die Region. Doch das meiste Geld fließt nach Sofia, Plowdiw und in große Städte – der arme Nordwesten bleibt zurück."
+   },
+   "en": {
+    "t": "Where Bulgaria is investing: new plants from Ruse to Kardzhali and Plovdiv",
+    "d": "New plants and industrial parks in Ruse, Kardzhali, Plovdiv and Sofia worth over EUR 120m. But unemployment differs sharply from region to region.",
+    "body": [
+     "Over the past four weeks several industrial projects opened or broke ground. In Ruse on the Danube, Bulmarket Group opened the LVZ industrial park on the site of the country's oldest locomotive and wagon works. The investment exceeds EUR 60m and more than 210 people already work there (BTA, 1 October). In Kardzhali in the south, VESS Modules started a solar module plant worth about EUR 15m with around 200 jobs, rising to about 300 (Money.bg, 1 October).",
+     "The Plovdiv area and the Trakia Economic Zone (a large industrial cluster around Bulgaria's second city) remain a magnet. On 8 September construction began on a EUR 7m plant for saline solutions and medical supplies with 35 jobs, and Chinese car-parts maker ZS Europe opened an expansion of its aluminium-parts plant (over EUR 17.5m invested so far). In Sofia, protein-bar maker Healthy Bars is building a EUR 22m plant. Near Tenevo, a 242 MWp solar park with 311 MW of battery storage went into operation. For Burgas, the government is offering defence group Rheinmetall a Defence Ministry site – talks are ongoing.",
+     "Why there? Companies cite location: Ruse sits on the Romanian border and on Europe–Asia transport routes. Some projects use EU money: the Ruse park was completed under the Recovery and Resilience Plan. Bulgaria has been in the euro area since 1 January 2026. The regional gap remains wide: according to the statistics office NSI, unemployment in 2025 was 1.2% in Sofia but 11.0% in Vidin in the north-west. We found no new large projects in the north-west in recent weeks."
+    ],
+    "explain": "A new plant brings jobs and often better pay to a region. But most money goes to Sofia, Plovdiv and big cities – the poorer north-west is left behind."
+   },
+   "kpi": [
+    {
+     "l": {
+      "bg": "Сума на проектите с посочена стойност",
+      "de": "Summe der bezifferten Projekte",
+      "en": "Total of projects with stated value"
+     },
+     "v": 121.5,
+     "dec": 1,
+     "u": "Mio. EUR"
+    },
+    {
+     "l": {
+      "bg": "Проекти в таблицата",
+      "de": "Projekte in der Tabelle",
+      "en": "Projects in the table"
+     },
+     "v": 7,
+     "dec": 0,
+     "u": ""
+    },
+    {
+     "l": {
+      "bg": "Работни места (посочени)",
+      "de": "Arbeitsplätze (genannt)",
+      "en": "Jobs (stated)"
+     },
+     "v": 445,
+     "dec": 0,
+     "u": ""
+    }
+   ],
+   "tables": [
+    {
+     "cap": {
+      "bg": "Актуални инвестиционни проекти (септември – октомври 2026)",
+      "de": "Aktuelle Investitionsprojekte (September–Oktober 2026)",
+      "en": "Current investment projects (September–October 2026)"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Регион",
+        "de": "Region",
+        "en": "Region"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Компания / проект",
+        "de": "Unternehmen / Projekt",
+        "en": "Company / project"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Отрасъл",
+        "de": "Branche",
+        "en": "Sector"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Сума (млн. евро)",
+        "de": "Summe (Mio. EUR)",
+        "en": "Amount (EUR m)"
+       },
+       "k": "num",
+       "dec": 1
+      },
+      {
+       "h": {
+        "bg": "Работни места",
+        "de": "Arbeitsplätze",
+        "en": "Jobs"
+       },
+       "k": "num",
+       "dec": 0
+      },
+      {
+       "h": {
+        "bg": "Статус / дата",
+        "de": "Stand / Datum",
+        "en": "Status / date"
+       },
+       "k": "txt"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "bg": "Русе",
+        "de": "Russe",
+        "en": "Ruse"
+       },
+       {
+        "bg": "„Булмаркет Груп“ – индустриален парк „ЛВЗ“ (над 60 млн.; над 210 заети)",
+        "de": "Bulmarket Group – Industriepark „LVZ“ (über 60 Mio.; über 210 Beschäftigte)",
+        "en": "Bulmarket Group – LVZ industrial park (over EUR 60m; over 210 staff)"
+       },
+       {
+        "bg": "Железопътна техника",
+        "de": "Bahntechnik",
+        "en": "Rail equipment"
+       },
+       60,
+       210,
+       {
+        "bg": "открит 1.10.2026",
+        "de": "eröffnet 1.10.2026",
+        "en": "opened 1 Oct 2026"
+       }
+      ],
+      [
+       {
+        "bg": "Кърджали",
+        "de": "Kardschali",
+        "en": "Kardzhali"
+       },
+       {
+        "bg": "VESS Modules – завод за соларни модули (1 GW годишно)",
+        "de": "VESS Modules – Solarmodulwerk (1 GW/Jahr)",
+        "en": "VESS Modules – solar module plant (1 GW/year)"
+       },
+       {
+        "bg": "Соларна индустрия",
+        "de": "Solarindustrie",
+        "en": "Solar manufacturing"
+       },
+       15,
+       200,
+       {
+        "bg": "открит 1.10.2026; ок. 300 места при пълен капацитет",
+        "de": "eröffnet 1.10.2026; ca. 300 Stellen bei Volllast",
+        "en": "opened 1 Oct 2026; c. 300 jobs at full capacity"
+       }
+      ],
+      [
+       {
+        "bg": "Пловдив (ТИЗ, Царацово)",
+        "de": "Plowdiw (Trakia-Zone, Zarazowo)",
+        "en": "Plovdiv (Trakia Zone, Tsaratsovo)"
+       },
+       {
+        "bg": "Advanced Medical Care – физиологични разтвори и медицински консумативи",
+        "de": "Advanced Medical Care – Kochsalzlösungen und Medizinbedarf",
+        "en": "Advanced Medical Care – saline solutions and medical supplies"
+       },
+       {
+        "bg": "Медицински изделия",
+        "de": "Medizinprodukte",
+        "en": "Medical products"
+       },
+       7,
+       35,
+       {
+        "bg": "начало на строежа 8.9.2026; старт 2027",
+        "de": "Baustart 8.9.2026; Betrieb ab 2027",
+        "en": "construction began 8 Sep 2026; operations 2027"
+       }
+      ],
+      [
+       {
+        "bg": "Пловдив (ИЗ „Марица“, Радиново)",
+        "de": "Plowdiw (Industriezone Mariza, Radinowo)",
+        "en": "Plovdiv (Maritsa zone, Radinovo)"
+       },
+       {
+        "bg": "ZS Europe – разширение, алуминиеви авточасти (общо досега)",
+        "de": "ZS Europe – Erweiterung, Aluminium-Autoteile (Gesamtsumme bisher)",
+        "en": "ZS Europe – expansion, aluminium car parts (total to date)"
+       },
+       {
+        "bg": "Автокомпоненти",
+        "de": "Autozulieferer",
+        "en": "Automotive parts"
+       },
+       17.5,
+       null,
+       {
+        "bg": "разширение открито 8.9.2026",
+        "de": "Erweiterung eröffnet 8.9.2026",
+        "en": "expansion opened 8 Sep 2026"
+       }
+      ],
+      [
+       {
+        "bg": "София",
+        "de": "Sofia",
+        "en": "Sofia"
+       },
+       {
+        "bg": "Healthy Bars – нов завод за протеинови барове",
+        "de": "Healthy Bars – neues Werk für Proteinriegel",
+        "en": "Healthy Bars – new protein-bar plant"
+       },
+       {
+        "bg": "Храни",
+        "de": "Lebensmittel",
+        "en": "Food"
+       },
+       22,
+       null,
+       {
+        "bg": "в строеж, завършване до месеци (18.9.2026)",
+        "de": "im Bau, Fertigstellung in den kommenden Monaten (18.9.2026)",
+        "en": "under construction, completion in coming months (18 Sep 2026)"
+       }
+      ],
+      [
+       {
+        "bg": "Тенево (обл. Ямбол)",
+        "de": "Tenewo (Bezirk Jambol)",
+        "en": "Tenevo (Yambol province)"
+       },
+       {
+        "bg": "Renalfa IPP и Eurowind – соларен парк 242 MWp + батерии 311 MW",
+        "de": "Renalfa IPP & Eurowind – Solarpark 242 MWp + Batteriespeicher 311 MW",
+        "en": "Renalfa IPP & Eurowind – 242 MWp solar + 311 MW battery storage"
+       },
+       {
+        "bg": "Енергетика",
+        "de": "Energie",
+        "en": "Energy"
+       },
+       null,
+       null,
+       {
+        "bg": "пуснат 30.9.2026",
+        "de": "in Betrieb 30.9.2026",
+        "en": "commissioned 30 Sep 2026"
+       }
+      ],
+      [
+       {
+        "bg": "Бургас",
+        "de": "Burgas",
+        "en": "Burgas"
+       },
+       {
+        "bg": "„Райнметал“ – предложен терен на МО за бъдещ завод",
+        "de": "Rheinmetall – Gelände des Verteidigungsministeriums für künftiges Werk angeboten",
+        "en": "Rheinmetall – Defence Ministry site offered for future plant"
+       },
+       {
+        "bg": "Отбранителна индустрия",
+        "de": "Rüstung",
+        "en": "Defence"
+       },
+       null,
+       null,
+       {
+        "bg": "преговори (2.10.2026)",
+        "de": "in Verhandlung (2.10.2026)",
+        "en": "under negotiation (2 Oct 2026)"
+       }
+      ]
+     ]
+    },
+    {
+     "cap": {
+      "bg": "Безработица по региони (%)",
+      "de": "Arbeitslosigkeit nach Region (%)",
+      "en": "Unemployment by region (%)"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Регион",
+        "de": "Region",
+        "en": "Region"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Регистрирана, август 2026 (Агенция по заетостта)",
+        "de": "Registriert, August 2026 (Arbeitsagentur)",
+        "en": "Registered, August 2026 (Employment Agency)"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Наблюдение на работната сила 2025 (НСИ)",
+        "de": "Arbeitskräfteerhebung 2025 (NSI)",
+        "en": "Labour Force Survey 2025 (NSI)"
+       },
+       "k": "num",
+       "dec": 1
+      }
+     ],
+     "rows": [
+      [
+       {
+        "bg": "България",
+        "de": "Bulgarien gesamt",
+        "en": "Bulgaria"
+       },
+       5.47,
+       3.5
+      ],
+      [
+       {
+        "bg": "София (столица)",
+        "de": "Sofia (Stadt)",
+        "en": "Sofia (city)"
+       },
+       null,
+       1.2
+      ],
+      [
+       {
+        "bg": "Видин",
+        "de": "Widin",
+        "en": "Vidin"
+       },
+       null,
+       11.0
+      ],
+      [
+       {
+        "bg": "Стара Загора",
+        "de": "Stara Sagora",
+        "en": "Stara Zagora"
+       },
+       4.93,
+       null
+      ],
+      [
+       {
+        "bg": "Добрич",
+        "de": "Dobritsch",
+        "en": "Dobrich"
+       },
+       4.2,
+       null
+      ]
+     ]
+    }
+   ],
+   "ticker": [],
+   "src": [
+    {
+     "n": "BTA – Bulmarket LVZ Ruse (1.10.2026)",
+     "u": "https://www.bta.bg/bg/news/economy/1215874--bulmarket-grup-otkri-industrialen-park-lvz-v-ruse-sled-investitsiya-ot-nad-6"
+    },
+    {
+     "n": "Money.bg – VESS Modules Kardzhali (1.10.2026)",
+     "u": "https://money.bg/investments/nov-zavod-za-eur15-mln-postavya-kardzhali-na-kartata-na-evropeyskoto-solarno-proizvodstvo.html"
+    },
+    {
+     "n": "BTA – Saline plant near Plovdiv (8.9.2026)",
+     "u": "https://www.bta.bg/en/news/economy/1199964-eur-7-mln-saline-solution-and-medical-supplies-plant-to-be-built-near-plovdiv"
+    },
+    {
+     "n": "BTA – ZS Europe expansion (8.9.2026)",
+     "u": "https://www.bta.bg/en/news/economy/1200026-zs-europe-high-tech-plant-opens-production-capacity-expansion"
+    },
+    {
+     "n": "SeeNews – Healthy Bars (18.9.2026)",
+     "u": "https://seenews.com/news/update-1-bulgarias-healthy-bars-to-complete-new-plant-in-coming-months-1301527"
+    },
+    {
+     "n": "SeeNews – Renalfa/Eurowind Tenevo (30.9.2026)",
+     "u": "https://seenews.com/news/renalfa-ipp-eurowind-commission-tenevo-pv-bess-project-in-bulgaria-1302202"
+    },
+    {
+     "n": "BTA – Rheinmetall project (2.10.2026)",
+     "u": "https://www.bta.bg/en/news/economy/1216273-government-says-it-will-continue-actively-structuring-proposed-investment-proj"
+    },
+    {
+     "n": "BTA – Stara Zagora unemployment August 2026",
+     "u": "https://www.bta.bg/bg/news/bulgaria/1214481-bezrabotitsata-v-oblast-stara-zagora-prez-avgust-e-4-93-protsenta-po-danni-ot-b"
+    },
+    {
+     "n": "BTA – Dobrich unemployment August 2026",
+     "u": "https://www.bta.bg/bg/news/bulgaria/1210805-ravnishteto-na-bezrabotitsa-v-oblast-dobrich-e-4-2-protsenta-prez-avgust"
+    },
+    {
+     "n": "Plovdiv News – Agentur für Beschäftigung, August 2026 (5,47 %)",
+     "u": "https://plovdivnews.bg/obshtestvo/item/209378-s-14-se-uvelichavat-zayavenite-svobodni-rabotni-mesta-prez-avgust-registriranata-bezrabotitsa-e-5-47/"
+    },
+    {
+     "n": "NSI – Arbeitskräfteerhebung 2025 (Bulgarien)",
+     "u": "https://www.nsi.bg/file/34417/Press_LFS_2025_BG.pdf"
+    },
+    {
+     "n": "NSI TSB – Arbeitskräfte 2025, Sofia-Stadt",
+     "u": "https://www.nsi.bg/tsb/wp-content/uploads/2026/05/Rabitna-sila-SOF_2025.pdf"
+    },
+    {
+     "n": "NSI TSB – Arbeitskräfte 2025, Widin",
+     "u": "https://www.nsi.bg/tsb/wp-content/uploads/2026/04/Rabotna_sila_Vidin_2025.pdf"
+    },
+    {
+     "n": "BTA – Bulgarien in der Eurozone (Eurostat August)",
+     "u": "https://www.bta.bg/bg/news/economy/1215532-balgariya-e-vtora-v-evrozonata-s-nay-niska-bezrabotitsa-prez-avgust-i-peta-na-ni"
+    }
+   ]
+  },
+  {
+   "id": "invest-deutschland",
+   "asof": {
+    "bg": "Към 3 октомври 2026 г.",
+    "de": "Stand: 3. Oktober 2026",
+    "en": "As of 3 October 2026"
+   },
+   "bg": {
+    "t": "Германия: милиарди за BMW и центрове за данни, но и закрити заводи",
+    "d": "BMW пусна в Бавария завод за батерии за 1 млрд. евро. В същото време Biontech и Bosch съкращават хиляди работни места.",
+    "body": [
+     "В началото на октомври BMW откри новия си завод за батерии и започна серийно производство в Ирлбах-Щраскирхен (Долна Бавария). Инвестицията е около 1 млрд. евро, а при пълна мощност там ще работят около 1600 души. Общо BMW влага около 2 млрд. евро в Германия за новото поколение на модела 3 – приблизително половината отива за заводите в Мюнхен и Динголфинг.",
+     "В края на август групата „Шварц“ (собственик на Lidl и Kaufland) обяви голям център за данни край Росток в Мекленбург-Предна Померания. Първата фаза струва 5,6 млрд. евро, а с разширението до 2045 г. общата сума ще достигне двуцифрен брой милиарди. Провинцията ще даде до 120 млн. евро субсидии.",
+     "Има и лоши новини. На 28 септември Biontech обяви, че ще затвори производството в Тюбинген, Марбург и Идар-Оберщайн – засегнати са около 1800 служители. Същия ден Bosch обяви, че до края на 2029 г. ще съкрати 900 от около 1800 работни места в Нюрнберг. Безработицата в Германия през септември е 6,4% (2,994 млн. души)."
+    ],
+    "explain": "Новите инвестиции отиват основно в автомобилостроенето и дигиталната инфраструктура. В същото време фармацията и автодоставчиците съкращават – за засегнатите региони това е тежък удар."
+   },
+   "de": {
+    "t": "Deutschland: Milliarden für BMW und Rechenzentren – aber auch Werksschließungen",
+    "d": "BMW startet in Niederbayern ein Batteriewerk für rund 1 Mrd. Euro. Gleichzeitig streichen Biontech und Bosch Tausende Stellen.",
+    "body": [
+     "Anfang Oktober hat BMW sein neues Batteriewerk in Irlbach-Straßkirchen (Niederbayern) eröffnet und die Serienproduktion gestartet. Die Investition liegt bei rund 1 Mrd. Euro; bei Vollbetrieb sollen dort etwa 1.600 Menschen arbeiten. Insgesamt steckt BMW rund 2 Mrd. Euro in deutsche Standorte für die neue 3er-Generation – etwa die Hälfte geht an die Werke München und Dingolfing.",
+     "Ende August kündigte die Schwarz-Gruppe (Lidl, Kaufland) ein großes Rechenzentrum in Dummerstorf bei Rostock (Mecklenburg-Vorpommern) an. Die erste Stufe kostet 5,6 Mrd. Euro, mit dem Ausbau bis 2045 insgesamt ein zweistelliger Milliardenbetrag. Das Land will bis zu 120 Mio. Euro Förderung beisteuern.",
+     "Es gibt auch Rückzüge. Biontech gab am 28. September bekannt, die Produktion in Tübingen (Baden-Württemberg), Marburg (Hessen) und Idar-Oberstein (Rheinland-Pfalz) zu schließen; rund 1.800 Beschäftigte sind betroffen. Am selben Tag kündigte Bosch an, in Nürnberg bis Ende 2029 900 von rund 1.800 Stellen abzubauen. Bundesweit lag die Arbeitslosenquote im September bei 6,4 % (2,994 Mio. Arbeitslose)."
+    ],
+    "explain": "Neues Geld fließt vor allem in Autobau und digitale Infrastruktur. Pharma und Autozulieferer bauen dagegen ab – für die betroffenen Städte ist das ein harter Schlag."
+   },
+   "en": {
+    "t": "Germany: billions for BMW and data centres – but also plant closures",
+    "d": "BMW starts a battery plant in Lower Bavaria worth about EUR 1bn. At the same time Biontech and Bosch are cutting thousands of jobs.",
+    "body": [
+     "In early October BMW opened its new battery plant in Irlbach-Straßkirchen and started series production there (Lower Bavaria). The investment is about EUR 1bn and around 1,600 people are to work there at full capacity. In total BMW is putting about EUR 2bn into German sites for the new 3 Series generation – roughly half goes to its Munich and Dingolfing plants.",
+     "At the end of August the Schwarz Group (owner of Lidl and Kaufland) announced a large data centre in Dummerstorf near Rostock (Mecklenburg-Western Pomerania). The first stage costs EUR 5.6bn, with the total reaching double-digit billions with expansion by 2045. The state plans up to EUR 120m in subsidies.",
+     "There are also retreats. On 28 September Biontech said it will close production in Tübingen (Baden-Württemberg), Marburg (Hesse) and Idar-Oberstein (Rhineland-Palatinate), affecting about 1,800 staff. The same day Bosch announced it will cut 900 of about 1,800 jobs in Nuremberg by the end of 2029. Germany's unemployment rate in September was 6.4% (2.994 million people)."
+    ],
+    "explain": "New money is flowing mainly into car-making and digital infrastructure. Pharma and car suppliers are cutting back – a hard blow for the towns affected."
+   },
+   "kpi": [
+    {
+     "l": {
+      "bg": "Сума на инвестициите в таблицата",
+      "de": "Summe der gelisteten Investitionen",
+      "en": "Total listed investments"
+     },
+     "v": 7.6,
+     "dec": 1,
+     "u": "Mrd. EUR"
+    },
+    {
+     "l": {
+      "bg": "Проекти (3 инвестиции, 2 съкращения)",
+      "de": "Projekte (3 Investitionen, 2 Abbau)",
+      "en": "Projects (3 investments, 2 cutbacks)"
+     },
+     "v": 5,
+     "dec": 0,
+     "u": ""
+    },
+    {
+     "l": {
+      "bg": "Обявени съкращения",
+      "de": "Angekündigter Stellenabbau",
+      "en": "Announced job cuts"
+     },
+     "v": 2700,
+     "dec": 0,
+     "u": ""
+    }
+   ],
+   "tables": [
+    {
+     "cap": {
+      "bg": "Актуални инвестиционни проекти и съкращения",
+      "de": "Aktuelle Investitionsprojekte und Rückzüge",
+      "en": "Current investment projects and cutbacks"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Провинция / регион",
+        "de": "Bundesland / Region",
+        "en": "State / region"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Компания / проект",
+        "de": "Unternehmen / Projekt",
+        "en": "Company / project"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Отрасъл",
+        "de": "Branche",
+        "en": "Sector"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Сума (млн. евро)",
+        "de": "Summe (Mio. EUR)",
+        "en": "Amount (EUR m)"
+       },
+       "k": "num",
+       "dec": 0
+      },
+      {
+       "h": {
+        "bg": "Работни места (− = съкращение)",
+        "de": "Arbeitsplätze (− = Abbau)",
+        "en": "Jobs (− = cuts)"
+       },
+       "k": "num",
+       "dec": 0
+      },
+      {
+       "h": {
+        "bg": "Статус / дата",
+        "de": "Stand / Datum",
+        "en": "Status / date"
+       },
+       "k": "txt"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "bg": "Бавария (Ирлбах-Щраскирхен)",
+        "de": "Bayern (Irlbach-Straßkirchen)",
+        "en": "Bavaria (Irlbach-Straßkirchen)"
+       },
+       {
+        "bg": "BMW – завод за батерии Gen6",
+        "de": "BMW – Batteriewerk (Gen6)",
+        "en": "BMW – battery plant (Gen6)"
+       },
+       {
+        "bg": "Автомобили / батерии",
+        "de": "Auto / Batterien",
+        "en": "Cars / batteries"
+       },
+       1000,
+       1600,
+       {
+        "bg": "открит, серийно производство от 2.10.2026 (electrive); места при пълна мощност",
+        "de": "eröffnet, Serienstart gemeldet 2.10.2026; Stellen bei Vollbetrieb",
+        "en": "opened, series production reported 2 Oct 2026; jobs at full capacity"
+       }
+      ],
+      [
+       {
+        "bg": "Бавария (Мюнхен, Динголфинг)",
+        "de": "Bayern (München, Dingolfing)",
+        "en": "Bavaria (Munich, Dingolfing)"
+       },
+       {
+        "bg": "BMW – производство на новия модел 3 / i3 (ок. половината от 2 млрд.)",
+        "de": "BMW – Fertigung neuer 3er / i3 (rund Hälfte von 2 Mrd.)",
+        "en": "BMW – new 3 Series / i3 production (about half of EUR 2bn)"
+       },
+       {
+        "bg": "Автомобили",
+        "de": "Auto",
+        "en": "Cars"
+       },
+       1000,
+       null,
+       {
+        "bg": "обявено 30.9.2026",
+        "de": "angekündigt 30.9.2026",
+        "en": "announced 30 Sep 2026"
+       }
+      ],
+      [
+       {
+        "bg": "Мекленбург-Предна Померания (Думерсторф)",
+        "de": "Mecklenburg-Vorpommern (Dummerstorf)",
+        "en": "Mecklenburg-W. Pomerania (Dummerstorf)"
+       },
+       {
+        "bg": "Група „Шварц“ – център за данни 240 MW (разширение до 1 GW до 2045)",
+        "de": "Schwarz-Gruppe – Rechenzentrum 240 MW (Ausbau auf 1 GW bis 2045)",
+        "en": "Schwarz Group – 240 MW data centre (expandable to 1 GW by 2045)"
+       },
+       {
+        "bg": "Дигитална инфраструктура",
+        "de": "Digitale Infrastruktur",
+        "en": "Digital infrastructure"
+       },
+       5600,
+       null,
+       {
+        "bg": "обявено 27.8.2026; готов до 2033",
+        "de": "angekündigt 27.8.2026; fertig bis 2033",
+        "en": "announced 27 Aug 2026; ready by 2033"
+       }
+      ],
+      [
+       {
+        "bg": "Баден-Вюртемберг, Хесен, Рейнланд-Пфалц",
+        "de": "Baden-Württemberg, Hessen, Rheinland-Pfalz",
+        "en": "Baden-Württemberg, Hesse, Rhineland-Palatinate"
+       },
+       {
+        "bg": "Biontech – закриване на Тюбинген, Марбург, Идар-Оберщайн",
+        "de": "Biontech – Schließung Tübingen, Marburg, Idar-Oberstein",
+        "en": "Biontech – closure of Tübingen, Marburg, Idar-Oberstein"
+       },
+       {
+        "bg": "Фармация",
+        "de": "Pharma",
+        "en": "Pharma"
+       },
+       null,
+       -1800,
+       {
+        "bg": "обявено 28.9.2026; закриване 2027–2028",
+        "de": "angekündigt 28.9.2026; Schließung 2027–2028",
+        "en": "announced 28 Sep 2026; closures 2027–2028"
+       }
+      ],
+      [
+       {
+        "bg": "Бавария (Нюрнберг)",
+        "de": "Bayern (Nürnberg)",
+        "en": "Bavaria (Nuremberg)"
+       },
+       {
+        "bg": "Bosch Mobility – съкращаване на половината места",
+        "de": "Bosch Mobility – Abbau der Hälfte der Stellen",
+        "en": "Bosch Mobility – half of jobs cut"
+       },
+       {
+        "bg": "Автодоставчик",
+        "de": "Autozulieferer",
+        "en": "Car supplier"
+       },
+       null,
+       -900,
+       {
+        "bg": "обявено 28.9.2026; до края на 2029",
+        "de": "angekündigt 28.9.2026; bis Ende 2029",
+        "en": "announced 28 Sep 2026; by end-2029"
+       }
+      ]
+     ]
+    }
+   ],
+   "ticker": [],
+   "src": [
+    {
+     "n": "electrive – BMW Batteriewerk Irlbach-Straßkirchen (2.10.2026)",
+     "u": "https://www.electrive.net/2026/10/02/bmw-gen6-batterie-werk-irlbach/"
+    },
+    {
+     "n": "Euronews – BMW 2 Mrd. Euro (30.9.2026)",
+     "u": "https://www.euronews.com/2026/09/30/bmws-strategy-job-cuts-ai-and-a-2bn-bet-on-made-in-germany"
+    },
+    {
+     "n": "BMWBlog – Aufteilung 2 Mrd. Euro (30.9.2026)",
+     "u": "https://www.bmwblog.com/2026/09/30/bmw-two-billion-euros-investment-germany/"
+    },
+    {
+     "n": "ZDFheute – Schwarz-Gruppe Rechenzentrum Rostock (27.8.2026)",
+     "u": "https://www.zdfheute.de/wirtschaft/unternehmen/schwarz-zentrum-rechenzentrum-rostock-100.html"
+    },
+    {
+     "n": "ZDFheute – Biontech schließt drei Werke (28.9.2026)",
+     "u": "https://zdfheute.de/wirtschaft/unternehmen/biontech-marburg-idar-oberstein-tuebingen-schliessung-100.html"
+    },
+    {
+     "n": "inFranken – Bosch Nürnberg (28.9.2026)",
+     "u": "https://www.infranken.de/lk/nuernberg/bosch-streicht-in-nuernberg-900-stellen-entscheidung-ueberaus-schwer-art-6399188"
+    },
+    {
+     "n": "Bundesagentur für Arbeit – Arbeitsmarkt im September 2026 (30.9.2026)",
+     "u": "https://www.arbeitsagentur.de/presse/2026-37-arbeitsmarkt-im-september-2026"
+    }
+   ]
+  }
+ ]
+}

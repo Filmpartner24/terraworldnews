@@ -21,13 +21,13 @@ PREFIX = {'bg': '/'}  # Bulgarian is the main edition at the root
 def pre(l): return PREFIX.get(l, f'/{l}/')
 LOCALE = {'bg': 'bg_BG', 'de': 'de_DE', 'en': 'en_GB'}
 
-SECTIONS = ['welt', 'europa', 'deutschland', 'bulgarien', 'leben', 'ki', 'wirtschaft', 'klima', 'kultur']
+SECTIONS = ['welt', 'europa', 'deutschland', 'bulgarien', 'leben', 'ki', 'wirtschaft', 'business', 'klima', 'kultur']
 SEC = {
- 'bg': {'welt': ('Свят', 'svyat'), 'europa': ('Европа', 'evropa'), 'deutschland': ('Германия', 'germania'), 'bulgarien': ('България', 'balgaria'), 'ki': ('Технологии', 'tehnologii'), 'wirtschaft': ('Икономика', 'ikonomika'), 'klima': ('Климат и енергия', 'klimat'), 'kultur': ('Развлечения', 'razvlechenia'), 'leben': ('Живот и ежедневие', 'zhivot')},
- 'de': {'welt': ('Welt', 'welt'), 'europa': ('Europa', 'europa'), 'deutschland': ('Deutschland', 'deutschland'), 'bulgarien': ('Bulgarien', 'bulgarien'), 'ki': ('Technologie', 'technologie'), 'wirtschaft': ('Wirtschaft', 'wirtschaft'), 'klima': ('Klima & Energie', 'klima'), 'kultur': ('Entertainment', 'entertainment'), 'leben': ('Leben & Alltag', 'leben-alltag')},
- 'en': {'welt': ('World', 'world'), 'europa': ('Europe', 'europe'), 'deutschland': ('Germany', 'germany'), 'bulgarien': ('Bulgaria', 'bulgaria'), 'ki': ('Technology', 'technology'), 'wirtschaft': ('Business', 'business'), 'klima': ('Climate & Energy', 'climate'), 'kultur': ('Entertainment', 'entertainment'), 'leben': ('Everyday Life', 'everyday-life')},
+ 'bg': {'welt': ('Свят', 'svyat'), 'europa': ('Европа', 'evropa'), 'deutschland': ('Германия', 'germania'), 'bulgarien': ('България', 'balgaria'), 'ki': ('Технологии', 'tehnologii'), 'wirtschaft': ('Икономика', 'ikonomika'), 'business': ('Бизнес', 'biznes'), 'klima': ('Климат и енергия', 'klimat'), 'kultur': ('Развлечения', 'razvlechenia'), 'leben': ('Живот и ежедневие', 'zhivot')},
+ 'de': {'welt': ('Welt', 'welt'), 'europa': ('Europa', 'europa'), 'deutschland': ('Deutschland', 'deutschland'), 'bulgarien': ('Bulgarien', 'bulgarien'), 'ki': ('Technologie', 'technologie'), 'wirtschaft': ('Wirtschaft', 'wirtschaft'), 'business': ('Business', 'business'), 'klima': ('Klima & Energie', 'klima'), 'kultur': ('Entertainment', 'entertainment'), 'leben': ('Leben & Alltag', 'leben-alltag')},
+ 'en': {'welt': ('World', 'world'), 'europa': ('Europe', 'europe'), 'deutschland': ('Germany', 'germany'), 'bulgarien': ('Bulgaria', 'bulgaria'), 'ki': ('Technology', 'technology'), 'wirtschaft': ('Economy', 'economy'), 'business': ('Business', 'business'), 'klima': ('Climate & Energy', 'climate'), 'kultur': ('Entertainment', 'entertainment'), 'leben': ('Everyday Life', 'everyday-life')},
 }
-SEC_COLOR = {'welt': 'var(--cobalt)', 'europa': '#5b3fc4', 'deutschland': 'var(--muted)', 'bulgarien': 'var(--teal)', 'usa': '#b23a48', 'ki': '#0f7c9c', 'wirtschaft': 'var(--sand)', 'klima': '#2f8a4a', 'kultur': 'var(--signal)', 'leben': '#c26a00'}
+SEC_COLOR = {'welt': 'var(--cobalt)', 'europa': '#5b3fc4', 'deutschland': 'var(--muted)', 'bulgarien': 'var(--teal)', 'usa': '#b23a48', 'ki': '#0f7c9c', 'wirtschaft': 'var(--sand)', 'business': '#0a7d5a', 'klima': '#2f8a4a', 'kultur': 'var(--signal)', 'leben': '#c26a00'}
 NEWS_DIR = {'bg': 'novini', 'de': 'nachrichten', 'en': 'news'}
 WEEKDAYS = {'bg': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък', 'събота', 'неделя'], 'de': ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag'], 'en': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']}
 MONTHS = {'bg': ['януари', 'февруари', 'март', 'април', 'май', 'юни', 'юли', 'август', 'септември', 'октомври', 'ноември', 'декември'], 'de': ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'], 'en': ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']}
@@ -69,6 +69,17 @@ def load():
             brk.append(d)
         else:
             eds.append(d)
+    # Business-Seite (content/business/YYYY-MM-DD.json): jeder Bericht wird zusätzlich eine Meldung (Rubrik business, zusätzlich zu den 77)
+    for f in sorted(glob.glob(os.path.join(HERE, 'content', 'business', '*.json'))):
+        d = json.load(open(f, encoding='utf-8'))
+        its = []
+        for b in d.get('blocks', []):
+            it = {'id': b['id'], 'date': d['date'], 's': 'business', 'time': b.get('time') or d.get('time', '07:00'), 'src': b.get('src', []), 'biz': b}
+            for _l in ('bg', 'de', 'en'):
+                if _l in b: it[_l] = {k: b[_l][k] for k in ('t', 'd', 'body') if k in b[_l]}
+            its.append(it)
+        BIZ[d['date']] = d
+        brk.append({'date': d['date'], 'items': its})
     # Breaking-News-Updates (content/YYYY-MM-DD-breaking.json) gehören zur Ausgabe desselben Tages
     for b in brk:
         ed = next((x for x in eds if x['date'] == b['date']), None)
@@ -125,7 +136,7 @@ ASSET_V={n:_hl.md5(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
 ASSET_V['search.js']=_hl.md5(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'search.js'),'rb').read()).hexdigest()[:8]
 ASSET_V['terra.js']=_hl.md5(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'terra.js'),'rb').read()).hexdigest()[:8]
 
-def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='website', issue=1, date=None, ticker=None, extra_head='', og_img=None):
+def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='website', issue=1, date=None, ticker=None, extra_head='', og_img=None, ticker2=''):
     u = UI[l]
     alts = ''
     if alternates:
@@ -183,7 +194,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
     <div class="edition"><span class="ed-l" aria-hidden="true"></span><span class="mid">{e(nice_date(date, l)) if date else ''}</span><span class="ed-l" aria-hidden="true"></span></div>
   </header>
   <nav class="sections" aria-label="{e(u['home'])}">{nav}</nav>
-  {tick}
+  {tick}{ticker2}
   <main id="main">
 {body}
   </main>
@@ -250,6 +261,68 @@ def card(it, l):
     return (f'<article class="card"><a href="{art_url(it, l)}">{pl}{kick(it, l)}<h3>{e(T["t"])}</h3></a>'
             f'<p>{e(T["d"])}</p><span class="src">{UI[l]["src"]}: {e(SNAMES(it["src"]))}</span></article>')
 
+# ---- Business: Zahlen, Kennzahlen, Tabellen, Börsen-Laufband
+BZ = {'bg': dict(boerse='БОРСА', asof='Данни', explain='Какво означава това за мен?', overview='Пазарите накратко', jump='На тази страница', full='Цялата статия →', nodata='–', desc='Борси, ток и инвестиции – всеки ден с цифри и таблици, обяснени разбираемо: Уолстрийт, Франкфурт, София, енергийната борса IBEX и инвестиции по региони.', noadv='Информацията е само с информативна цел и не е инвестиционен съвет. Цените са към посочения момент; борсите в момента не се обновяват на живо.'),
+      'de': dict(boerse='BÖRSE', asof='Datenstand', explain='Was bedeutet das für mich?', overview='Märkte auf einen Blick', jump='Auf dieser Seite', full='Ganzer Artikel →', nodata='–', desc='Börse, Strom und Investitionen – täglich mit Zahlen und Tabellen, verständlich erklärt: Wall Street, Frankfurt, Sofia, die Strombörse IBEX und Investitionen in den Regionen.', noadv='Die Angaben dienen nur der Information und sind keine Anlageberatung. Kurse mit dem genannten Datenstand, keine Echtzeitkurse.'),
+      'en': dict(boerse='MARKETS', asof='Data as of', explain='What does this mean for me?', overview='Markets at a glance', jump='On this page', full='Full article →', nodata='–', desc='Stock markets, electricity and investment – daily with figures and tables, clearly explained: Wall Street, Frankfurt, Sofia, the IBEX power exchange and regional investment.', noadv='For information only, not investment advice. Prices as of the time stated, not real-time quotes.')}
+def L(x, l):
+    return x.get(l) or x.get('de') or next(iter(x.values()), '') if isinstance(x, dict) else ('' if x is None else str(x))
+def fnum(v, dec, l):
+    if v is None: return '–'
+    t = f'{abs(v):,.{dec}f}'
+    if l == 'de': t = t.replace(',', 'X').replace('.', ',').replace('X', '.')
+    elif l == 'bg': t = t.replace(',', ' ').replace('.', ',')
+    return ('−' if v < 0 else '') + t
+def fchg(v, dec, l):
+    if v is None: return '<span class="chg">–</span>'
+    cls = 'up' if v > 0 else 'dn' if v < 0 else 'eq'
+    ar = '▲' if v > 0 else '▼' if v < 0 else '■'
+    return f'<span class="chg {cls}"><span aria-hidden="true">{ar}</span> {"+" if v > 0 else ""}{fnum(v, dec, l)} %</span>'
+def biz_kpis(b, l):
+    out = ''
+    for k in b.get('kpi', []):
+        ch = fchg(k['chg'], 2, l) if k.get('chg') is not None else ''
+        out += f'<div class="kpi"><span class="kl">{e(L(k["l"], l))}</span><b class="kv">{fnum(k["v"], k.get("dec", 2), l)}</b><span class="ku">{e(L(k.get("u", ""), l))}</span>{ch}</div>'
+    return f'<div class="kpis">{out}</div>' if out else ''
+def biz_tables(b, l):
+    out = ''
+    for t in b.get('tables', []):
+        cols = t['cols']
+        th = ''.join(f'<th scope="col" class="{"n" if c["k"] != "txt" else ""}">{e(L(c["h"], l))}</th>' for c in cols)
+        trs = ''
+        for r in t['rows']:
+            tds = ''
+            for i, (c, v) in enumerate(zip(cols, r)):
+                if c['k'] == 'txt': cell = e(L(v, l)) if v is not None else '–'
+                elif c['k'] == 'chg': cell = fchg(v, c.get('dec', 2), l)
+                else: cell = fnum(v, c.get('dec', 2), l)
+                tag = 'th scope="row"' if i == 0 else 'td'
+                tds += f'<{tag} class="{"n" if c["k"] != "txt" else ""}">{cell}</{tag.split()[0]}>'
+            trs += f'<tr>{tds}</tr>'
+        out += f'<div class="tbl-wrap"><table class="biz-t"><caption>{e(L(t["cap"], l))}</caption><thead><tr>{th}</tr></thead><tbody>{trs}</tbody></table></div>'
+    return out
+def biz_explain(b, l):
+    x = b.get(l, {}).get('explain')
+    return f'<aside class="explain"><h3>{e(BZ[l]["explain"])}</h3><p>{e(x)}</p></aside>' if x else ''
+def biz_asof(b, l):
+    return f'<p class="asof meta">{e(BZ[l]["asof"])}: {e(L(b.get("asof", ""), l))}</p>' if b.get('asof') else ''
+def biz_src(b, l):
+    xs = [f'<a href="{e(x["u"])}" rel="noopener nofollow" target="_blank">{e(x["n"])}</a>' for x in b.get('src', []) if isinstance(x, dict) and x.get('u')]
+    return f'<p class="src">{UI[l]["src"]}: {" · ".join(xs)}</p>' if xs else ''
+def biz_block(b, l, au):
+    body = ''.join(f'<p>{e(x)}</p>' for x in b[l].get('body', []))
+    return (f'<section class="biz-block" id="{e(b["id"])}"><h2><a href="{au}">{e(b[l]["t"])}</a></h2>{biz_asof(b, l)}<p class="dek">{e(b[l]["d"])}</p>{biz_kpis(b, l)}'
+            f'<div class="body">{body}</div>{biz_explain(b, l)}{biz_tables(b, l)}{biz_src(b, l)}<p class="sec-more"><a href="{au}">{e(BZ[l]["full"])}</a></p></section>')
+def boerse_ticker(d, l):
+    if not d: return ''
+    xs = [t for b in d.get('blocks', []) for t in b.get('ticker', [])]
+    if not xs: return ''
+    one = ''.join(f'<span class="bq"><b>{e(L(t["n"], l))}</b> {fnum(t["v"], t.get("dec", 2), l)}{(" " + e(L(t["u"], l))) if t.get("u") else ""} {fchg(t.get("chg"), 2, l)}</span><span class="sep" aria-hidden="true"></span>' for t in xs)
+    _pz = {'bg': 'Пауза', 'de': 'Pause', 'en': 'Pause'}.get(l, 'Pause')
+    return (f'<div class="ticker boerse" role="region" aria-label="{BZ[l]["boerse"]}"><span class="k">{BZ[l]["boerse"]}</span>'
+            f'<div class="tk-track"><div class="tk-move"><div class="tk-set">{one}</div><div class="tk-set" aria-hidden="true">{one}</div></div></div>'
+            f'<button class="tk-pause" type="button" aria-pressed="false" aria-label="{_pz}" title="{_pz}"><span aria-hidden="true"></span></button></div>')
+
 ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "/#org", "name": "TERRA WORLD NEWS", "alternateName": ["Terra World News", "TWN", "TWN – World News", "TWN World News"], "description": "Terra World News (TWN) is an independent online news portal publishing daily news from around the world in Bulgarian, German and English.", "foundingDate": "2026", "url": SITE + "/",
        "logo": {"@type": "ImageObject", "url": SITE + "/assets/logo.png", "width": 600, "height": 185},
        "parentOrganization": {"@type": "Organization", "name": "FILMPARTNER 24 EOOD", "legalName": "„ФИЛМПАРТНЕР 24“ ЕООД", "url": "https://filmpartner24.com/", "vatID": "BG208477411"},
@@ -258,6 +331,7 @@ ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "/#org", "name": "TERRA W
        "email": "media@filmpartner24.com", "areaServed": "Worldwide", "knowsLanguage": ["bg", "de", "en"]}
 
 TICKER = {}
+BIZ = {}   # Datum -> Business-Datei
 ARCH = {}            # Artikel älter als STATIC_DAYS: gebündelt in /_arch/<l>/<datum>/<bucket>.json, ausgeliefert von functions/
 STATIC_DAYS = 14     # so viele Tage liegen Artikel als einzelne HTML-Dateien vor
 ARCH_BUCKETS = 8
@@ -275,7 +349,7 @@ SUI = {
             hint='Suchen Sie nach Namen, Ländern, Ereignissen oder einem Datum (z. B. 2. Oktober oder 02.10.2026). Alle Wörter müssen im Artikel vorkommen.', found='{n} Treffer', none='Keine Artikel gefunden. Versuchen Sie ein anderes Wort oder einen größeren Zeitraum.', loading='Suche läuft …', more='Weitere Treffer'),
  'en': dict(title='Search', ph='Name, country, event or date …', btn='Search', all='All sections', any='Any time', d1='Today', d7='Last 7 days', d30='Last 30 days',
             hint='Search for names, countries, events or a date (e.g. 2 October or 02.10.2026). All words must appear in the article.', found='{n} results', none='No articles found. Try another word or a wider time range.', loading='Searching …', more='More results')}
-SEC_CODE = {k: chr(97 + i) for i, k in enumerate(['welt', 'europa', 'deutschland', 'bulgarien', 'usa', 'ki', 'wirtschaft', 'klima', 'kultur', 'leben'])}
+SEC_CODE = {k: chr(97 + i) for i, k in enumerate(['welt', 'europa', 'deutschland', 'bulgarien', 'usa', 'ki', 'wirtschaft', 'klima', 'kultur', 'leben', 'business'])}
 SEC_DESC = {'leben': {'bg': 'Какво движи живота ти: пари, жилище, работа, пътувания и дигитална сигурност – разбираемо обяснени.',
                       'de': 'Was dein Leben bewegt: Geld, Wohnen, Arbeit, Reisen und digitale Sicherheit – verständlich erklärt.',
                       'en': 'What moves your life: money, housing, work, travel and digital safety – clearly explained.'}}
@@ -338,7 +412,7 @@ def build():
                 return f'<a class="rt rt-v" href="{art_url(it, l)}" tabindex="-1">{play}<span class="rt-l">{e(u["vid"])}</span></a>'
             return f'<a class="rt rt-x" href="{art_url(it, l)}" tabindex="-1" aria-hidden="true" style="--c:{SEC_COLOR[it["s"]]}"></a>'
         ranked = ''.join(f'<div class="rank"><span class="n">{i + 1}</span>{rthumb(it)}<a href="{art_url(it, l)}">{kick(it, l)}<h3>{e(it[l]["t"])}</h3></a></div>' for i, it in enumerate(rest[:5]))
-        order = ['bulgarien', 'deutschland', 'welt', 'europa', 'wirtschaft', 'ki', 'klima', 'kultur'] if l == 'bg' else ['welt', 'europa', 'deutschland', 'bulgarien', 'wirtschaft', 'ki', 'klima', 'kultur'] if l == 'en' else ['deutschland', 'bulgarien', 'welt', 'europa', 'wirtschaft', 'ki', 'klima', 'kultur']
+        order = ['bulgarien', 'deutschland', 'welt', 'europa', 'wirtschaft', 'business', 'ki', 'klima', 'kultur'] if l == 'bg' else ['welt', 'europa', 'deutschland', 'bulgarien', 'wirtschaft', 'business', 'ki', 'klima', 'kultur'] if l == 'en' else ['deutschland', 'bulgarien', 'welt', 'europa', 'wirtschaft', 'business', 'ki', 'klima', 'kultur']
         lv = sorted([it for it in items_l if it['s'] == 'leben'], key=lambda x: (x['date'], x['time']), reverse=True)[:4]
         rails = (f'<section class="rail rail-leben" style="--c:{SEC_COLOR["leben"]}"><div class="rail-h"><h2>{e(SEC[l]["leben"][0])}</h2><a href="{sec_url("leben", l)}">{e(u["all"])}</a></div>'
                  f'<p class="sec-desc">{e(SEC_DESC["leben"][l])}</p><div class="cards">{"".join(card(it, l) for it in lv)}</div></section>') if lv else ''
@@ -405,6 +479,19 @@ def build():
                         f'<a href="{art_url(top0, l)}"><h2>{e(T0["t"])}</h2></a><p class="dek">{e(T0["d"])}</p><span class="src">{u["src"]}: {e(SNAMES(top0["src"]))}</span></div>'
                         f'<div class="sec-four">{side4}</div></section>')
                 extra = ''
+                if s == 'business':
+                    bd = BIZ.get(day0) or {}
+                    blocks = [b for b in bd.get('blocks', []) if l in b]
+                    kp = ''.join(f'<li><a href="#{e(b["id"])}">{e(b[l]["t"])}</a></li>' for b in blocks)
+                    bl = ''
+                    for b in blocks:
+                        bit = next((x for x in its if x['id'] == b['id'] and x['date'] == day0), None)
+                        bl += biz_block(b, l, art_url(bit, l) if bit else '#')
+                    if blocks:
+                        head = (f'<div class="rail-h sec-head"><h1 class="sec-title">{e(SEC[l][s][0])}</h1><span class="meta">{e(nice_date(day0, l))}</span></div>'
+                                f'<p class="sec-desc">{e(BZ[l]["desc"])}</p><nav class="biz-jump" aria-label="{e(BZ[l]["jump"])}"><h2>{e(BZ[l]["jump"])}</h2><ol>{kp}</ol></nav>'
+                                f'<div class="biz-blocks">{bl}</div><p class="noadv">{e(BZ[l]["noadv"])}</p>')
+                        tops = [x for x in its if x['date'] == day0]
                 if s == 'kultur':
                     trl = [it for it in its if it['date'] == latest['date'] and it.get('yt') and it.get('trl')][:3] or [it for it in its if it['date'] == latest['date'] and it.get('yt') and not it.get('mv')][:3]
                     mvs = [it for it in its if it['date'] == latest['date'] and it.get('yt') and it.get('mv')][:3]
@@ -432,7 +519,8 @@ def build():
                     pb = (f'<div class="sec-page" style="--c:{SEC_COLOR[s]}"><div class="rail-h sec-head"><h1 class="sec-title">{e(SEC[l][s][0])} · {e(SX["arch"])}</h1><span class="meta">{e(SX["page"])} {n}</span></div>'
                           f'<div class="sec-list wide">{daylist(pit)}</div>{nav}</div>')
                     write(purl(n), page(l, act, f'{SEC[l][s][0]} – {SX["page"]} {n} | TWN – World News', f'{SEC[l][s][0]}: {u["desc_home"]}', purl(n), pb, None, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": f'{SEC[l][s][0]} {n}', "url": SITE + purl(n), "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
-            write(sec_url(s, l), page(l, act, f'{SEC[l][s][0]} | TWN – World News', f'{SEC[l][s][0]}: {u["desc_home"]}', sec_url(s, l), body, salts, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": SEC[l][s][0], "url": SITE + sec_url(s, l), "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
+            write(sec_url(s, l), page(l, act, f'{SEC[l][s][0]} | TWN – World News', (BZ[l]['desc'] if s == 'business' else f'{SEC[l][s][0]}: {u["desc_home"]}'), sec_url(s, l), body, salts, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": SEC[l][s][0], "url": SITE + sec_url(s, l), "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date'],
+                  ticker2=(boerse_ticker(BIZ[max(BIZ)], l) if s == 'business' and BIZ else '')))
             urls.append((sec_url(s, l), salts, latest['date']))
         # ---- articles
         for it in items_l:
@@ -447,7 +535,10 @@ def build():
                 trailer += (f'<section class="trailer"><h2>{e(u["vid"] if isv else u["trailer"])}: {ttl}</h2>'
                             f'<div class="yt" data-yt="{vid}"><button type="button" class="yt-play">{e(u["playv"] if isv else u["play"])}</button><span class="yt-note">{e(u["ytnote"])}</span></div>'
                             f'<p class="src">YouTube · {e(v.get("ch", ""))} · <a href="https://www.youtube.com/watch?v={vid}" rel="noopener nofollow" target="_blank">youtube.com</a></p></section>')
-            noadv = f'<p class="noadv">{e(NOADV[l])}</p>' if it['s'] == 'leben' else ''
+            noadv = f'<p class="noadv">{e(NOADV[l])}</p>' if it['s'] == 'leben' else f'<p class="noadv">{e(BZ[l]["noadv"])}</p>' if it.get('biz') else ''
+            if it.get('biz'):
+                _bz = it['biz']
+                paras = biz_asof(_bz, l) + biz_kpis(_bz, l) + paras + biz_explain(_bz, l) + biz_tables(_bz, l)
             facts = f'<aside class="facts"><h2>{e(u["facts"])}</h2><ul>{LI(T["facts"])}</ul></aside>' if T.get('facts') else ''
             rel = [x for x in items_l if x['s'] == it['s'] and x is not it][:3]
             relh = f'<section class="rail" style="--c:{SEC_COLOR[it["s"]]}"><div class="rail-h"><h2>{e(u["more"])}</h2><a href="{sec_url(it["s"], l)}">{e(SEC[l][it["s"]][0])} →</a></div><div class="cards">{"".join(card(x, l) for x in rel)}</div></section>' if rel else ''
