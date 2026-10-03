@@ -726,3 +726,4 @@ nav.sections.nv2 .nav-dd .dd a:hover{background:#d4161c;color:#fff}
 @media (max-width:380px){.bk-slogan{display:none}}
 .bk-h h2{white-space:nowrap}@media (max-width:640px){.bk-h h2{font-size:15px;padding:4px 8px 3px;gap:6px}.bk-h h2 .dot{width:7px;height:7px}.bk-slogan{font-size:9.5px;letter-spacing:.08em;gap:4px}.bk-h .meta{font-size:11px}}
 .bk-slogan{justify-content:flex-start;margin-left:6px}
+@media (max-width:640px){.bk-slogan{font-size:8.6px;letter-spacing:.04em;gap:3px;margin-left:2px;min-width:0}.bk-slogan i{width:3px;height:3px}.bk-h{gap:6px}}
