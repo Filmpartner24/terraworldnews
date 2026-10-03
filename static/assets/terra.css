@@ -713,3 +713,9 @@ nav.sections.nv2{border-top:0;border-bottom:0}@media (max-width:860px){.nv2 .nav
 nav.sections.nv2 .nav-dd .dd a[aria-current="page"]{background:none;color:#fff}
 nav.sections.nv2 .nav-dd .dd a:hover{background:#d4161c;color:#fff}
 @media (hover:none){nav.sections.nv2 .nav-dd .dd a:hover:not(:active){background:none}}
+/* Slogan */
+.slogan{display:flex;align-items:center;justify-content:center;gap:14px;margin:6px 0 2px;font-family:var(--label);font-weight:700;font-size:14px;letter-spacing:.42em;text-transform:uppercase;color:#0f2f7a}
+.slogan span{padding-left:.42em}
+.slogan i{display:block;width:7px;height:7px;border-radius:50%;background:#d4161c}
+@media (max-width:640px){.slogan{font-size:11.5px;gap:10px;letter-spacing:.32em;margin-top:4px}.slogan i{width:6px;height:6px}}
+.slogan-f{display:block;margin:6px 0 10px;font-family:var(--label);font-weight:700;font-size:12px;letter-spacing:.3em;color:#0f2f7a}
