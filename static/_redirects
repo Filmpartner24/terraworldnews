@@ -1,7 +1,7 @@
-/kultura/ /razvlechenia/ 301
-/kultura /razvlechenia/ 301
-/de/kultur/ /de/entertainment/ 301
-/de/kultur /de/entertainment/ 301
+/kultura/ /filmi/ 301
+/kultura /filmi/ 301
+/de/kultur/ /de/film/ 301
+/de/kultur /de/film/ 301
 /izkustven-intelekt/ /tehnologii/ 301
 /izkustven-intelekt /tehnologii/ 301
 /de/ki/ /de/technologie/ 301
@@ -21,3 +21,9 @@
 /en/usa/ /en/world/ 301
 /en/usa /en/world/ 301
 /en/business/page-* /en/economy/page-:splat 301
+/razvlechenia/* /filmi/ 301
+/razvlechenia /filmi/ 301
+/de/entertainment/* /de/film/ 301
+/de/entertainment /de/film/ 301
+/en/entertainment/* /en/film/ 301
+/en/entertainment /en/film/ 301

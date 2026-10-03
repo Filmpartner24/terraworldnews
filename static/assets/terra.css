@@ -439,3 +439,25 @@ table.biz-t tbody tr:nth-child(even){background:rgba(10,125,90,.05)}
 .gr-yt::before{background:radial-gradient(ellipse at center,rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 60%)}
 .gr-yt .yt-play{border-radius:999px;padding:11px 20px;box-shadow:0 6px 20px rgba(0,0,0,.5)}
 .gr-yt .yt-note{position:absolute!important;left:10px;right:10px;bottom:6px;font-size:10px;text-align:right;opacity:.75;max-width:none;text-shadow:0 1px 3px #000}
+/* ---- Film (rot/gold) und Musik (grün/pink) im Games-Layout */
+.gp-film{--gx:#e11d48;--gy:#fbbf24}
+.gp-film .gp-head{background:linear-gradient(100deg,#120607 0%,#3a0b12 60%,#6b0f1f 100%)}
+.gp-film .gp-title{text-shadow:0 0 18px rgba(225,29,72,.7)}
+.gp-film .gp-date,.gp-film .gr-meta,.gp-film .gs .kick{color:#fecaca}
+.gp-film .gp-panel{background:#120607}
+.gp-film .gr{border-bottom-color:#3a1a1f}
+.gp-film .gr-score{background:linear-gradient(90deg,#e11d48,#9f1239)}
+.gp-musik{--gx:#10b981;--gy:#f472b6}
+.gp-musik .gp-head{background:linear-gradient(100deg,#04120d 0%,#063826 60%,#0b5a3d 100%)}
+.gp-musik .gp-title{text-shadow:0 0 18px rgba(16,185,129,.7)}
+.gp-musik .gp-date,.gp-musik .gr-meta,.gp-musik .gs .kick{color:#a7f3d0}
+.gp-musik .gp-panel{background:#04120d}
+.gp-musik .gr{border-bottom-color:#12382a}
+.gp-musik .gr-score{background:linear-gradient(90deg,#10b981,#047857)}
+.gr-cover{position:absolute!important;left:12px;bottom:12px;width:34%;max-width:200px;aspect-ratio:1/1;object-fit:cover;border-radius:4px;box-shadow:0 8px 24px rgba(0,0,0,.6);border:2px solid rgba(255,255,255,.85)}
+.gr-yt.on .gr-cover{display:none}
+.gr-single{margin:0 0 8px;color:#e5e7eb;font-size:15px}
+.gr-single b{color:var(--gy)}
+.gr-cover{height:auto!important;width:40%;max-width:220px;left:14px;bottom:14px;top:auto}
+.gp-musik .gr-yt{justify-content:center;align-items:flex-end;padding-right:6%}
+.gp-musik .gr-yt .yt-play{margin-left:auto}
