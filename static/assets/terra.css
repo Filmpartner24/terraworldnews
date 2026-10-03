@@ -732,3 +732,31 @@ nav.sections.nv2 .nav-dd .dd a:hover{background:#d4161c;color:#fff}
 .gp-slogan i{display:block;width:7px;height:7px;border-radius:50%;background:#ff2a30;box-shadow:0 0 6px rgba(255,42,48,.7)}
 @media (max-width:640px){.gp-slogan{font-size:9.5px;letter-spacing:.12em;gap:6px}.gp-slogan i{width:5px;height:5px}}
 @media (max-width:640px){.gp-head{flex-wrap:wrap;align-items:flex-start}.gp-head .gp-slogan{flex-basis:100%;align-self:auto;font-size:10.5px;letter-spacing:.2em}}
+/* Welt: Königsblau/Silber */
+.gp-welt{--gx:#3b82f6;--gy:#e2e8f0}
+.gp-welt .gp-head{background:linear-gradient(100deg,#050b24 0%,#132a7a 55%,#2563eb 100%)}
+.gp-welt .gp-title{text-shadow:0 0 18px rgba(59,130,246,.8)}
+.gp-welt .gr-meta,.gp-welt .gs .kick,.gp-welt .ga-panel .kick{color:#bfdbfe}
+.gp-welt .gp-panel{background:#050b24}.gp-welt .gr{border-bottom-color:#18244a}
+.gp-welt .gr-badge{background:#3b82f6;color:#fff}
+/* Europa: EU-Blau/Gold */
+.gp-europa{--gx:#ffcc00;--gy:#ffcc00}
+.gp-europa .gp-head{background:linear-gradient(100deg,#000f33 0%,#002a80 55%,#003399 100%)}
+.gp-europa .gp-title{text-shadow:0 0 18px rgba(255,204,0,.55)}
+.gp-europa .gr-meta,.gp-europa .gs .kick,.gp-europa .ga-panel .kick{color:#fde68a}
+.gp-europa .gp-panel{background:#000f33}.gp-europa .gr{border-bottom-color:#0d2357}
+.gp-europa .gr-badge{background:#ffcc00;color:#001a4d}.gp-europa .gr-more{color:#001a4d}
+/* Deutschland: Schwarz-Rot-Gold */
+.gp-deutschland{--gx:#dd0000;--gy:#ffce00}
+.gp-deutschland .gp-head{background:linear-gradient(100deg,#0a0a0a 0%,#1a1a1a 40%,#7f1010 72%,#b07a00 100%)}
+.gp-deutschland .gp-title{text-shadow:0 0 18px rgba(221,0,0,.6)}
+.gp-deutschland .gr-meta,.gp-deutschland .gs .kick,.gp-deutschland .ga-panel .kick{color:#fde68a}
+.gp-deutschland .gp-panel{background:#0d0d0d}.gp-deutschland .gr{border-bottom-color:#2a2a2a}
+.gp-deutschland .gr-badge{background:#dd0000;color:#fff}.gp-deutschland .gr-more{color:#111}
+/* Bulgarien: Weiß-Grün-Rot */
+.gp-bulgarien{--gx:#00966e;--gy:#ffffff}
+.gp-bulgarien .gp-head{background:linear-gradient(100deg,#04241b 0%,#00664b 50%,#00966e 70%,#a3141c 100%)}
+.gp-bulgarien .gp-title{text-shadow:0 0 18px rgba(0,150,110,.8)}
+.gp-bulgarien .gr-meta,.gp-bulgarien .gs .kick,.gp-bulgarien .ga-panel .kick{color:#bbf7d0}
+.gp-bulgarien .gp-panel{background:#04201a}.gp-bulgarien .gr{border-bottom-color:#0f3a2e}
+.gp-bulgarien .gr-badge{background:#d62612;color:#fff}.gp-bulgarien .gr-more{background:#fff;color:#04241b}

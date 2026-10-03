@@ -22,7 +22,7 @@ def pre(l): return PREFIX.get(l, f'/{l}/')
 LOCALE = {'bg': 'bg_BG', 'de': 'de_DE', 'en': 'en_GB'}
 
 SECTIONS = ['welt', 'europa', 'deutschland', 'bulgarien', 'leben', 'ki', 'wirtschaft', 'energie', 'business', 'klima', 'ai', 'film', 'musik', 'games', 'sport']
-MEDIA = ('games', 'film', 'musik', 'sport', 'ai', 'ki', 'wirtschaft', 'energie', 'leben', 'klima')   # Rubriken mit eigenem Medien-Layout (Reviews/Trailer + News)
+MEDIA = ('games', 'film', 'musik', 'sport', 'ai', 'ki', 'wirtschaft', 'energie', 'leben', 'klima', 'welt', 'europa', 'deutschland', 'bulgarien')   # Rubriken mit eigenem Medien-Layout (Reviews/Trailer + News)
 SUBS = {'sport': ['fussball', 'boxen', 'mma']}
 SLOGAN = {'bg': ['НОВИНИ', 'ФАКТИ', 'КОНТЕКСТ'], 'de': ['NACHRICHTEN', 'FAKTEN', 'KONTEXT'], 'en': ['NEWS', 'FACTS', 'CONTEXT']}
 NAV_GROUPS = [  # Menü-Gruppen (Desktop: Trennstriche, Mobil: Überschriften im aufgeklappten Menü)
@@ -363,7 +363,20 @@ def boerse_ticker(d, l):
             f'<div class="tk-track"><div class="tk-move"><div class="tk-set">{one}</div><div class="tk-set" aria-hidden="true">{one}</div></div></div>'
             f'<button class="tk-pause" type="button" aria-pressed="false" aria-label="{_pz}" title="{_pz}"><span aria-hidden="true"></span></button></div>')
 
-MPU = {'klima': {'bg': dict(rev='Климат във видео', news='Новини за климата', badge='ВИДЕО', more='Към статията →', rel='Дата', vid='Видео', older='Предишни дни', playb='▶ Пусни видеото'),
+MPU = {
+       'welt': {'bg': dict(rev='Светът във видео', news='Новини от света', badge='ВИДЕО', more='Към статията →', rel='Дата', vid='Видео', older='Предишни дни', playb='▶ Пусни видеото'),
+              'de': dict(rev='Welt im Video', news='Welt-News', badge='VIDEO', more='Zum Artikel →', rel='Datum', vid='Video', older='Vortage', playb='▶ Video abspielen'),
+              'en': dict(rev='World on video', news='World news', badge='VIDEO', more='Read more →', rel='Date', vid='Video', older='Previous days', playb='▶ Play video')},
+       'europa': {'bg': dict(rev='Европа във видео', news='Новини от Европа', badge='ВИДЕО', more='Към статията →', rel='Дата', vid='Видео', older='Предишни дни', playb='▶ Пусни видеото'),
+              'de': dict(rev='Europa im Video', news='Europa-News', badge='VIDEO', more='Zum Artikel →', rel='Datum', vid='Video', older='Vortage', playb='▶ Video abspielen'),
+              'en': dict(rev='Europe on video', news='Europe news', badge='VIDEO', more='Read more →', rel='Date', vid='Video', older='Previous days', playb='▶ Play video')},
+       'deutschland': {'bg': dict(rev='Германия във видео', news='Новини от Германия', badge='ВИДЕО', more='Към статията →', rel='Дата', vid='Видео', older='Предишни дни', playb='▶ Пусни видеото'),
+              'de': dict(rev='Deutschland im Video', news='Deutschland-News', badge='VIDEO', more='Zum Artikel →', rel='Datum', vid='Video', older='Vortage', playb='▶ Video abspielen'),
+              'en': dict(rev='Germany on video', news='Germany news', badge='VIDEO', more='Read more →', rel='Date', vid='Video', older='Previous days', playb='▶ Play video')},
+       'bulgarien': {'bg': dict(rev='България във видео', news='Новини от България', badge='ВИДЕО', more='Към статията →', rel='Дата', vid='Видео', older='Предишни дни', playb='▶ Пусни видеото'),
+              'de': dict(rev='Bulgarien im Video', news='Bulgarien-News', badge='VIDEO', more='Zum Artikel →', rel='Datum', vid='Video', older='Vortage', playb='▶ Video abspielen'),
+              'en': dict(rev='Bulgaria on video', news='Bulgaria news', badge='VIDEO', more='Read more →', rel='Date', vid='Video', older='Previous days', playb='▶ Play video')},
+       'klima': {'bg': dict(rev='Климат във видео', news='Новини за климата', badge='ВИДЕО', more='Към статията →', rel='Дата', vid='Видео', older='Предишни дни', playb='▶ Пусни видеото'),
                 'de': dict(rev='Klima im Video', news='Klima-News', badge='VIDEO', more='Zum Artikel →', rel='Datum', vid='Video', older='Vortage', playb='▶ Video abspielen'),
                 'en': dict(rev='Climate on video', news='Climate news', badge='VIDEO', more='Read more →', rel='Date', vid='Video', older='Previous days', playb='▶ Play video')},
        'leben': {'bg': dict(rev='Живот във видео', news='Живот и ежедневие', badge='ВИДЕО', more='Към статията →', rel='Дата', vid='Видео', older='Предишни дни', playb='▶ Пусни видеото'),
@@ -421,7 +434,7 @@ def games_page(l, its, day0, others, SX, kind='games', title=None):
     if kind in ('ai', 'ki'):  # KI / Technologie: 3 Video-Artikel oben, 3 News unten (bevorzugt "mn"), Rest unter „Frühere“
         revs = [it for it in today if it.get('yt')][:4]
         news = ([it for it in today if it.get('mn') and it not in revs] + [it for it in today if not it.get('mn') and it not in revs])[:3]
-    elif kind in ('wirtschaft', 'energie', 'leben', 'klima'):  # Artikel aus den 77: mit Video oben, alle übrigen des Tages als News darunter
+    elif kind in ('wirtschaft', 'energie', 'leben', 'klima', 'welt', 'europa', 'deutschland', 'bulgarien'):  # Artikel aus den 77: mit Video oben, alle übrigen des Tages als News darunter
         revs = [it for it in today if it.get('yt')][:3]
         news = [it for it in today if it not in revs]
     elif kind == 'games':
@@ -715,7 +728,7 @@ ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "/#org", "name": "TERRA W
 
 TICKER = {}
 GTRL = {'bg': 'Трейлъри към ревютата', 'de': 'Trailer zu den Reviews', 'en': 'Review trailers'}
-KEEP_DAYS = {'klima': 5, 'leben': 5, 'wirtschaft': 5, 'energie': 5, 'ki': 5, 'ai': 5, 'games': 5, 'film': 5, 'musik': 5, 'sport': 5}   # Rubrikseite zeigt nur die letzten N Ausgabetage
+KEEP_DAYS = {'welt': 3, 'europa': 3, 'deutschland': 3, 'bulgarien': 3, 'klima': 5, 'leben': 5, 'wirtschaft': 5, 'energie': 5, 'ki': 5, 'ai': 5, 'games': 5, 'film': 5, 'musik': 5, 'sport': 5}   # Rubrikseite zeigt nur die letzten N Ausgabetage
 ALL_L = {'bg': 'Всички', 'de': 'Alle', 'en': 'All'}
 WXT = {'bg': 'Времето: MET Norway (CC BY 4.0)', 'de': 'Wetterdaten: MET Norway (CC BY 4.0)', 'en': 'Weather data: MET Norway (CC BY 4.0)'}
 BIZ = {}   # Datum -> Business-Datei
