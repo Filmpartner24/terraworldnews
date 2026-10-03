@@ -624,3 +624,21 @@ nav.sections .nav-items a[aria-current="page"]{box-shadow:inset 0 -4px 0 #ff2a30
 .gp-ki .gr{border-bottom-color:#16243f}
 .gp-ki .gr-score{background:linear-gradient(90deg,#3b82f6,#1d4ed8)}
 .gp-ki .gr-badge{background:#84cc16;color:#0b1a05}
+/* Wirtschaft: Games-Layout in Anthrazit/Gold */
+.gp-wirtschaft{--gx:#d4a017;--gy:#e5e7eb}
+.gp-wirtschaft .gp-head{background:linear-gradient(100deg,#0b0f17 0%,#1f2937 55%,#6b4f16 100%)}
+.gp-wirtschaft .gp-title{text-shadow:0 0 18px rgba(212,160,23,.7)}
+.gp-wirtschaft .gp-date,.gp-wirtschaft .gr-meta,.gp-wirtschaft .gs .kick,.gp-wirtschaft .ga-panel .kick{color:#fde68a}
+.gp-wirtschaft .gp-panel{background:#0b0f17}
+.gp-wirtschaft .gr{border-bottom-color:#232a36}
+.gp-wirtschaft .gr-badge{background:#d4a017;color:#111}
+.gp-wirtschaft .gr-more{background:#d4a017;color:#111}
+/* Energie: Games-Layout in Dunkelgrün/Gelb */
+.gp-energie{--gx:#facc15;--gy:#22c55e}
+.gp-energie .gp-head{background:linear-gradient(100deg,#04140c 0%,#0b3b24 55%,#7a5b05 100%)}
+.gp-energie .gp-title{text-shadow:0 0 18px rgba(250,204,21,.7)}
+.gp-energie .gp-date,.gp-energie .gr-meta,.gp-energie .gs .kick,.gp-energie .ga-panel .kick{color:#fef08a}
+.gp-energie .gp-panel{background:#04140c}
+.gp-energie .gr{border-bottom-color:#123222}
+.gp-energie .gr-badge{background:#facc15;color:#111}
+.gp-energie .gr-more{background:#22c55e;color:#04140c}
