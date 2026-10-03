@@ -384,3 +384,14 @@ table.biz-t tbody tr:nth-child(even){background:rgba(10,125,90,.05)}
 .wxcredit a{color:var(--muted);text-decoration:underline;text-underline-offset:2px}
 @media (max-width:820px){.edition{grid-template-columns:auto 1fr auto;justify-items:stretch}.edition > :first-child{justify-self:start!important}.edition > .mid{justify-self:center!important;text-align:center}.edition > :last-child{justify-self:end!important}}
 @media (max-width:480px){.ed-clock,.ed-wx,.edition .mid{font-size:11.5px;letter-spacing:.03em}.edition{gap:6px}}
+/* ---- Menü: Unterrubriken (Sport) */
+.nav-dd{position:relative;display:inline-flex}
+.nav-dd .dd{display:none;position:absolute;top:100%;left:50%;transform:translateX(-50%);z-index:30;background:var(--paper);border:1px solid var(--ink);box-shadow:0 6px 18px rgba(0,0,0,.12);padding:6px 0;min-width:150px;flex-direction:column}
+.nav-dd .dd a{display:block;padding:7px 16px;border:0;white-space:nowrap}
+.nav-dd .dd a:hover,.nav-dd .dd a[aria-current="page"]{background:#f3f3f3;color:var(--signal)}
+.nav-dd:hover .dd,.nav-dd:focus-within .dd{display:flex}
+@media (hover:none){.nav-dd .dd{display:none!important}}
+.subnav{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 4px}
+.subnav a{font-family:var(--label);font-size:14px;letter-spacing:.06em;text-transform:uppercase;padding:6px 14px;border:1px solid var(--ink);border-radius:999px}
+.subnav a[aria-current="page"],.subnav a:hover{background:var(--ink);color:var(--paper)}
+@media (min-width:900px){nav.sections{gap:4px 15px;letter-spacing:.05em;font-size:14.5px}}
