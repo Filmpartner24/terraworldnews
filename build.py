@@ -22,7 +22,7 @@ def pre(l): return PREFIX.get(l, f'/{l}/')
 LOCALE = {'bg': 'bg_BG', 'de': 'de_DE', 'en': 'en_GB'}
 
 SECTIONS = ['welt', 'europa', 'deutschland', 'bulgarien', 'leben', 'ki', 'wirtschaft', 'energie', 'business', 'ai', 'film', 'musik', 'games', 'sport']
-MEDIA = ('games', 'film', 'musik', 'sport', 'ai', 'ki', 'wirtschaft', 'energie')   # Rubriken mit eigenem Medien-Layout (Reviews/Trailer + News)
+MEDIA = ('games', 'film', 'musik', 'sport', 'ai', 'ki', 'wirtschaft', 'energie', 'leben')   # Rubriken mit eigenem Medien-Layout (Reviews/Trailer + News)
 SUBS = {'sport': ['fussball', 'boxen', 'mma']}   # Unterrubriken (Feld "sub" im Item)
 SUB = {'bg': {'fussball': ('Футбол', 'futbol'), 'boxen': ('Бокс', 'boks'), 'mma': ('ММА', 'mma')},
        'de': {'fussball': ('Fußball', 'fussball'), 'boxen': ('Boxen', 'boxen'), 'mma': ('MMA', 'mma')},
@@ -349,7 +349,10 @@ def boerse_ticker(d, l):
             f'<div class="tk-track"><div class="tk-move"><div class="tk-set">{one}</div><div class="tk-set" aria-hidden="true">{one}</div></div></div>'
             f'<button class="tk-pause" type="button" aria-pressed="false" aria-label="{_pz}" title="{_pz}"><span aria-hidden="true"></span></button></div>')
 
-MPU = {'wirtschaft': {'bg': dict(rev='Икономика във видео', news='Новини от икономиката', badge='ВИДЕО', more='Към статията →', rel='Дата', vid='Видео', older='Предишни дни', playb='▶ Пусни видеото'),
+MPU = {'leben': {'bg': dict(rev='Живот във видео', news='Живот и ежедневие', badge='ВИДЕО', more='Към статията →', rel='Дата', vid='Видео', older='Предишни дни', playb='▶ Пусни видеото'),
+                'de': dict(rev='Leben im Video', news='Leben & Alltag', badge='VIDEO', more='Zum Artikel →', rel='Datum', vid='Video', older='Vortage', playb='▶ Video abspielen'),
+                'en': dict(rev='Life on video', news='Everyday life', badge='VIDEO', more='Read more →', rel='Date', vid='Video', older='Previous days', playb='▶ Play video')},
+       'wirtschaft': {'bg': dict(rev='Икономика във видео', news='Новини от икономиката', badge='ВИДЕО', more='Към статията →', rel='Дата', vid='Видео', older='Предишни дни', playb='▶ Пусни видеото'),
                      'de': dict(rev='Wirtschaft im Video', news='Wirtschafts-News', badge='VIDEO', more='Zum Artikel →', rel='Datum', vid='Video', older='Vortage', playb='▶ Video abspielen'),
                      'en': dict(rev='Economy on video', news='Economy news', badge='VIDEO', more='Read more →', rel='Date', vid='Video', older='Previous days', playb='▶ Play video')},
        'energie': {'bg': dict(rev='Енергетика във видео', news='Новини от енергетиката', badge='ВИДЕО', more='Към статията →', rel='Дата', vid='Видео', older='Предишни дни', playb='▶ Пусни видеото'),
@@ -399,7 +402,7 @@ def games_page(l, its, day0, others, SX, kind='games', title=None):
     if kind in ('ai', 'ki'):  # KI / Technologie: 3 Video-Artikel oben, 3 News unten (bevorzugt "mn"), Rest unter „Frühere“
         revs = [it for it in today if it.get('yt')][:4]
         news = ([it for it in today if it.get('mn') and it not in revs] + [it for it in today if not it.get('mn') and it not in revs])[:3]
-    elif kind in ('wirtschaft', 'energie'):  # Artikel aus den 77: mit Video oben, alle übrigen des Tages als News darunter
+    elif kind in ('wirtschaft', 'energie', 'leben'):  # Artikel aus den 77: mit Video oben, alle übrigen des Tages als News darunter
         revs = [it for it in today if it.get('yt')][:3]
         news = [it for it in today if it not in revs]
     elif kind == 'games':
@@ -693,7 +696,7 @@ ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "/#org", "name": "TERRA W
 
 TICKER = {}
 GTRL = {'bg': 'Трейлъри към ревютата', 'de': 'Trailer zu den Reviews', 'en': 'Review trailers'}
-KEEP_DAYS = {'wirtschaft': 5, 'energie': 5, 'ki': 5, 'ai': 5, 'games': 5, 'film': 5, 'musik': 5, 'sport': 5}   # Rubrikseite zeigt nur die letzten N Ausgabetage
+KEEP_DAYS = {'leben': 5, 'wirtschaft': 5, 'energie': 5, 'ki': 5, 'ai': 5, 'games': 5, 'film': 5, 'musik': 5, 'sport': 5}   # Rubrikseite zeigt nur die letzten N Ausgabetage
 ALL_L = {'bg': 'Всички', 'de': 'Alle', 'en': 'All'}
 WXT = {'bg': 'Времето: MET Norway (CC BY 4.0)', 'de': 'Wetterdaten: MET Norway (CC BY 4.0)', 'en': 'Weather data: MET Norway (CC BY 4.0)'}
 BIZ = {}   # Datum -> Business-Datei
@@ -721,9 +724,9 @@ SEC_DESC = {'klima': {'bg': 'Най-красивите места на план�
             'leben': {'bg': 'Какво движи живота ти: пари, жилище, работа, пътувания, дигитална сигурност и климат – разбираемо обяснени. Плюс всеки ден най-красивата природа на света във видео.',
                       'de': 'Was dein Leben bewegt: Geld, Wohnen, Arbeit, Reisen, digitale Sicherheit und Klima – verständlich erklärt. Dazu täglich die schönste Natur der Welt im Video.',
                       'en': "What moves your life: money, housing, work, travel, digital safety and climate – clearly explained. Plus the world's most beautiful nature on video every day."}}
-NOADV = {'bg': 'Тази статия има информационен характер и не представлява правна, данъчна или финансова консултация. Данните са към посочената дата.',
-         'de': 'Dieser Beitrag dient der Information und ist keine Rechts-, Steuer- oder Finanzberatung. Angaben mit dem genannten Datenstand.',
-         'en': 'This article is for information only and is not legal, tax or financial advice. Figures as of the date stated.'}
+NOADV = {'bg': 'Тази статия има информационен характер и не представлява правна, данъчна, финансова или медицинска консултация. Данните са към посочената дата.',
+         'de': 'Dieser Beitrag dient der Information und ist keine Rechts-, Steuer-, Finanz- oder medizinische Beratung. Angaben mit dem genannten Datenstand.',
+         'en': 'This article is for information only and is not legal, tax, financial or medical advice. Figures as of the date stated.'}
 DOC_CHUNK = 400
 STOP = {'de': set('der die das den dem des ein eine einen einem einer eines und oder aber in im ins an am auf aus bei mit nach von vom zu zum zur für über unter vor wie als auch es er sie wir ihr ist sind war wird werden wurde hat haben nicht noch nur so dass sich bis um durch gegen'.split()),
         'en': set('the a an and or but in on at of for to from by with as is are was were be been has have had it its this that these those not no will would can could after over into about than'.split()),

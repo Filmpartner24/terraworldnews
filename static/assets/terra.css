@@ -642,3 +642,11 @@ nav.sections .nav-items a[aria-current="page"]{box-shadow:inset 0 -4px 0 #ff2a30
 .gp-energie .gr{border-bottom-color:#123222}
 .gp-energie .gr-badge{background:#facc15;color:#111}
 .gp-energie .gr-more{background:#22c55e;color:#04140c}
+/* Leben & Alltag: Games-Layout in Petrol/Pfirsich */
+.gp-leben{--gx:#14b8a6;--gy:#fdba74}
+.gp-leben .gp-head{background:linear-gradient(100deg,#04161a 0%,#0b3b3f 55%,#7c3f1d 100%)}
+.gp-leben .gp-title{text-shadow:0 0 18px rgba(20,184,166,.7)}
+.gp-leben .gp-date,.gp-leben .gr-meta,.gp-leben .gs .kick,.gp-leben .ga-panel .kick{color:#fed7aa}
+.gp-leben .gp-panel{background:#04161a}
+.gp-leben .gr{border-bottom-color:#12333a}
+.gp-leben .gr-badge{background:#14b8a6;color:#04161a}
