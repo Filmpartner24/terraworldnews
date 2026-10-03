@@ -22,7 +22,7 @@ def pre(l): return PREFIX.get(l, f'/{l}/')
 LOCALE = {'bg': 'bg_BG', 'de': 'de_DE', 'en': 'en_GB'}
 
 SECTIONS = ['welt', 'europa', 'deutschland', 'bulgarien', 'leben', 'ki', 'wirtschaft', 'energie', 'business', 'ai', 'film', 'musik', 'games', 'sport']
-MEDIA = ('games', 'film', 'musik', 'sport', 'ai')   # Rubriken mit eigenem Medien-Layout (Reviews/Trailer + News)
+MEDIA = ('games', 'film', 'musik', 'sport', 'ai', 'ki')   # Rubriken mit eigenem Medien-Layout (Reviews/Trailer + News)
 SUBS = {'sport': ['fussball', 'boxen', 'mma']}   # Unterrubriken (Feld "sub" im Item)
 SUB = {'bg': {'fussball': ('Футбол', 'futbol'), 'boxen': ('Бокс', 'boks'), 'mma': ('ММА', 'mma')},
        'de': {'fussball': ('Fußball', 'fussball'), 'boxen': ('Boxen', 'boxen'), 'mma': ('MMA', 'mma')},
@@ -349,7 +349,10 @@ def boerse_ticker(d, l):
             f'<div class="tk-track"><div class="tk-move"><div class="tk-set">{one}</div><div class="tk-set" aria-hidden="true">{one}</div></div></div>'
             f'<button class="tk-pause" type="button" aria-pressed="false" aria-label="{_pz}" title="{_pz}"><span aria-hidden="true"></span></button></div>')
 
-MPU = {'ai': {'bg': dict(rev='Видео на деня', news='Новини за ИИ', badge='ИИ', more='Към статията →', rel='Дата', vid='Видео', older='Предишни', playb='▶ Пусни видеото'),
+MPU = {'ki': {'bg': dict(rev='Технологии във видео', news='Новини', badge='TECH', more='Към статията →', rel='Дата', vid='Видео', older='Още новини', playb='▶ Пусни видеото'),
+             'de': dict(rev='Tech-Videos des Tages', news='Tech-News', badge='TECH', more='Zum Artikel →', rel='Datum', vid='Video', older='Weitere Meldungen', playb='▶ Video abspielen'),
+             'en': dict(rev="Today's tech videos", news='Tech news', badge='TECH', more='Read more →', rel='Date', vid='Video', older='More stories', playb='▶ Play video')},
+       'ai': {'bg': dict(rev='Видео на деня', news='Новини за ИИ', badge='ИИ', more='Към статията →', rel='Дата', vid='Видео', older='Предишни', playb='▶ Пусни видеото'),
              'de': dict(rev='KI-Videos des Tages', news='KI-News', badge='KI', more='Zum Artikel →', rel='Datum', vid='Video', older='Frühere Beiträge', playb='▶ Video abspielen'),
              'en': dict(rev="Today's AI videos", news='AI news', badge='AI', more='Read more →', rel='Date', vid='Video', older='Earlier stories', playb='▶ Play video')},
        'sport': {'bg': dict(rev='Акценти на деня', badge='СПОРТ', more='Към статията →', rel='Дата', vid='Видео', older='Предишни', playb='▶ Пусни видеото'),
@@ -387,7 +390,7 @@ def games_page(l, its, day0, others, SX, kind='games', title=None):
         return (f'<article class="gs"><a href="{art_url(it, l)}"><div class="gs-img"{cover_style(it)}>' + ('<span class="rt-play" aria-hidden="true">▶</span>' if it.get('yt') else '') +
                 f'</div>{kick(it, l)}<h3>{e(it[l]["t"])}</h3></a></article>')
     today = [it for it in its if it['date'] == day0]
-    if kind == 'ai':  # KI: 3 Video-Artikel oben, 3 News unten (bevorzugt "mn"), Rest unter „Frühere“
+    if kind in ('ai', 'ki'):  # KI / Technologie: 3 Video-Artikel oben, 3 News unten (bevorzugt "mn"), Rest unter „Frühere“
         revs = [it for it in today if it.get('yt')][:4]
         news = ([it for it in today if it.get('mn') and it not in revs] + [it for it in today if not it.get('mn') and it not in revs])[:3]
     elif kind == 'games':
@@ -681,7 +684,7 @@ ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "/#org", "name": "TERRA W
 
 TICKER = {}
 GTRL = {'bg': 'Трейлъри към ревютата', 'de': 'Trailer zu den Reviews', 'en': 'Review trailers'}
-KEEP_DAYS = {'ai': 5, 'games': 5, 'film': 5, 'musik': 5, 'sport': 5}   # Rubrikseite zeigt nur die letzten N Ausgabetage
+KEEP_DAYS = {'ki': 5, 'ai': 5, 'games': 5, 'film': 5, 'musik': 5, 'sport': 5}   # Rubrikseite zeigt nur die letzten N Ausgabetage
 ALL_L = {'bg': 'Всички', 'de': 'Alle', 'en': 'All'}
 WXT = {'bg': 'Времето: MET Norway (CC BY 4.0)', 'de': 'Wetterdaten: MET Norway (CC BY 4.0)', 'en': 'Weather data: MET Norway (CC BY 4.0)'}
 BIZ = {}   # Datum -> Business-Datei

@@ -615,3 +615,12 @@ nav.sections .nav-items a[aria-current="page"]{box-shadow:inset 0 -4px 0 #ff2a30
 .gp-ai .gp-panel{background:#050b1a}
 .gp-ai .gr{border-bottom-color:#16263f}
 .gp-ai .gr-score{background:linear-gradient(90deg,#06b6d4,#7c3aed)}
+/* Technologie: Games-Layout in Blau/Limette */
+.gp-ki{--gx:#3b82f6;--gy:#84cc16}
+.gp-ki .gp-head{background:linear-gradient(100deg,#060d1c 0%,#0f2a5c 55%,#1d4ed8 100%)}
+.gp-ki .gp-title{text-shadow:0 0 18px rgba(59,130,246,.8)}
+.gp-ki .gp-date,.gp-ki .gr-meta,.gp-ki .gs .kick,.gp-ki .ga-panel .kick{color:#bfdbfe}
+.gp-ki .gp-panel{background:#060d1c}
+.gp-ki .gr{border-bottom-color:#16243f}
+.gp-ki .gr-score{background:linear-gradient(90deg,#3b82f6,#1d4ed8)}
+.gp-ki .gr-badge{background:#84cc16;color:#0b1a05}
