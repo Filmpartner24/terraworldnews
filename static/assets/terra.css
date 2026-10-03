@@ -684,3 +684,15 @@ nav.sections.nv2.stuck{box-shadow:0 6px 18px rgba(4,14,40,.35)}
 @media (min-width:861px) and (max-width:1200px){.nv2 a{padding:0 4px}.nv2 .ng{padding:0 2px}.nv2 .nav-items a[aria-current="page"]::after{left:4px;right:4px}}
 @media (min-width:1201px) and (max-width:1400px){.nv2 .nv-logo,.nv2 .nv-search{flex-basis:58px}.nv2 .nv-logo b{display:none}}
 nav.sections.nv2{border-top:0;border-bottom:0}@media (max-width:860px){.nv2 .nav-items{border-bottom:0;margin-top:0}}
+/* Mobil-Menü v3: schlicht, eine Spalte, größere Punkte */
+@media (max-width:860px){
+ .nv2 .nav-items{padding:4px 0 12px}
+ .nv2 .ng{display:block;padding:0;border-top:1px solid rgba(255,255,255,.18);margin-top:6px;padding-top:6px}
+ .nv2 .ng-h{display:none}
+ .nv2 .nv-home{padding:15px 20px!important;font-size:18px;border-bottom:0}
+ .nv2 .ng>a,.nv2 .ng>.nav-dd>a{padding:14px 20px;font-size:18px;letter-spacing:.06em;border:0!important}
+ .nv2 .nav-items a[aria-current="page"]::after{left:0;right:auto;top:10px;bottom:10px;width:4px;height:auto;border-radius:0 3px 3px 0}
+ .nv2 .nav-dd .dd{display:block!important;background:none;padding:0 0 6px}
+ .nv2 .nav-dd .dd a{justify-content:flex-start;padding:11px 20px 11px 40px;font-size:16px;border:0;color:rgba(255,255,255,.85)}
+ .nv2 .nav-dd .dd a[aria-current="page"]::after{left:20px;width:4px;top:9px;bottom:9px}
+}
