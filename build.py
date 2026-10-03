@@ -233,6 +233,9 @@ def lic_url(lic):
     return ''
 
 def credit(im, l, link=False):
+    if im.get('cr'):  # z. B. Standbild aus offiziellem Trailer
+        t = im['cr'].get(l) or im['cr'].get('de', '')
+        return (e(t) + (f' · <a href="{e(im["page"])}" rel="noopener nofollow" target="_blank">YouTube</a>' if link and im.get('page') else '')) if link else e(t)
     if im.get('own'):  # eigene Grafik der Redaktion (Rubrik Business)
         return e({'bg': 'Графика: TERRA WORLD NEWS (собствена графика по данните от източниците)', 'de': 'Grafik: TERRA WORLD NEWS (eigene Darstellung nach den genannten Quellen)'}.get(l, 'Graphic: TERRA WORLD NEWS (own graphic based on the sources listed)'))
     who = (im['art'] + ' / ') if im.get('art') else ''
@@ -333,6 +336,41 @@ def boerse_ticker(d, l):
     return (f'<div class="ticker boerse" role="region" aria-label="{BZ[l]["boerse"]}"><span class="k">{BZ[l]["boerse"]}</span>'
             f'<div class="tk-track"><div class="tk-move"><div class="tk-set">{one}</div><div class="tk-set" aria-hidden="true">{one}</div></div></div>'
             f'<button class="tk-pause" type="button" aria-pressed="false" aria-label="{_pz}" title="{_pz}"><span aria-hidden="true"></span></button></div>')
+
+GPU = {'bg': dict(rev='Ревюта на деня', news='Новини', older='Предишни ревюта', more='Към ревюто →', badge='РЕВЮ', pf='Платформи', rel='Излиза', dev='Студио'),
+       'de': dict(rev='Reviews des Tages', news='News', older='Frühere Reviews', more='Zum Review →', badge='REVIEW', pf='Plattformen', rel='Release', dev='Studio'),
+       'en': dict(rev="Today's reviews", news='News', older='Earlier reviews', more='Read the review →', badge='REVIEW', pf='Platforms', rel='Release', dev='Studio')}
+def games_page(l, its, day0, others, SX):
+    u = UI[l]; g = GPU[l]
+    def cover_style(it):
+        im = it.get('img')
+        return f' style="background-image:url({im["f"]})"' if im else ''
+    def review(it):
+        v = it['yt'] if isinstance(it['yt'], dict) else it['yt'][0]
+        rv = it.get('rv', {})
+        meta = ' · '.join(x for x in [rv.get('pf'), (g['rel'] + ' ' + rv['rel']) if rv.get('rel') else '', rv.get('dev')] if x)
+        sc = rv.get('score', {}).get(l) if isinstance(rv.get('score'), dict) else rv.get('score')
+        im = it.get('img')
+        cr = f'<p class="gr-cr">{credit(im, l, True)}</p>' if im else ''
+        return (f'<article class="gr"><div class="gr-media"><div class="yt gr-yt" data-yt="{e(v["id"])}"{cover_style(it)}><span class="gr-badge">{g["badge"]}</span>'
+                f'<button type="button" class="yt-play">{e(u["play"])}</button><span class="yt-note">{e(u["ytnote"])}</span></div>{cr}</div>'
+                f'<div class="gr-txt">' + (f'<div class="gr-score">{e(sc)}</div>' if sc else '') +
+                f'<a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a>' + (f'<p class="gr-meta">{e(meta)}</p>' if meta else '') +
+                f'<p class="gr-dek">{e(it[l]["d"])}</p><p class="gr-yt-src">Trailer: YouTube · {e(v.get("ch", ""))}</p><a class="gr-more" href="{art_url(it, l)}">{e(g["more"])}</a></div></article>')
+    def small(it):
+        return (f'<article class="gs"><a href="{art_url(it, l)}"><div class="gs-img"{cover_style(it)}>' + ('<span class="rt-play" aria-hidden="true">▶</span>' if it.get('yt') else '') +
+                f'</div>{kick(it, l)}<h3>{e(it[l]["t"])}</h3></a></article>')
+    today = [it for it in its if it['date'] == day0]
+    revs = [it for it in today if it.get('yt')]
+    news = [it for it in today if not it.get('yt')]
+    older = [it for it in its if it['date'] != day0]
+    html = f'<div class="gp"><div class="gp-head"><h1 class="gp-title">{e(SEC[l]["games"][0])}</h1><span class="gp-date">{e(nice_date(day0, l))}</span></div>'
+    html += '<div class="gp-main"><div class="gp-panel">'
+    if revs: html += f'<h2 class="gp-h">▶ {e(g["rev"])}</h2>' + ''.join(review(it) for it in revs)
+    if news: html += f'<h2 class="gp-h">{e(g["news"])}</h2><div class="gs-grid">' + ''.join(small(it) for it in news) + '</div>'
+    if older: html += f'<h2 class="gp-h">{e(g["older"])}</h2><div class="gs-grid">' + ''.join(small(it) for it in older) + '</div>'
+    html += f'</div><aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{others}</aside></div></div>'
+    return html
 
 ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "/#org", "name": "TERRA WORLD NEWS", "alternateName": ["Terra World News", "TWN", "TWN – World News", "TWN World News"], "description": "Terra World News (TWN) is an independent online news portal publishing daily news from around the world in Bulgarian, German and English.", "foundingDate": "2026", "url": SITE + "/",
        "logo": {"@type": "ImageObject", "url": SITE + "/assets/logo.png", "width": 600, "height": 600},
@@ -510,16 +548,6 @@ def build():
                                 f'<p class="sec-desc">{e(BZ[l]["desc"])}</p><nav class="biz-jump" aria-label="{e(BZ[l]["jump"])}"><h2>{e(BZ[l]["jump"])}</h2><ol>{kp}</ol></nav>'
                                 f'<div class="biz-blocks">{bl}</div><p class="noadv">{e(BZ[l]["noadv"])}</p>')
                         tops = [x for x in its if x['date'] == day0]
-                if s == 'games':  # Trailer der Spiele-Reviews direkt auf der Rubrikseite abspielbar
-                    gtr = [it for it in its if it['date'] == day0 and it.get('yt')][:3]
-                    if gtr:
-                        cells = ''
-                        for it in gtr:
-                            v = it['yt'] if isinstance(it['yt'], dict) else it['yt'][0]
-                            cells += (f'<article class="gtrl"><div class="yt" data-yt="{e(v["id"])}"><button type="button" class="yt-play">{e(u["play"])}</button><span class="yt-note">{e(u["ytnote"])}</span></div>'
-                                      f'<a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a><p class="src">YouTube · {e(v.get("ch", ""))}</p></article>')
-                        gblk = f'<section class="trl-day"><h2 class="trl-h">▶ {e(GTRL[l])}</h2><div class="gtrl-grid">{cells}</div></section>'
-                        head = head.replace('<section class="sec-top">', gblk + '<section class="sec-top">', 1)
                 if s == 'kultur':
                     trl = [it for it in its if it['date'] == latest['date'] and it.get('yt') and it.get('trl')][:3] or [it for it in its if it['date'] == latest['date'] and it.get('yt') and not it.get('mv')][:3]
                     mvs = [it for it in its if it['date'] == latest['date'] and it.get('yt') and it.get('mv')][:3]
@@ -542,6 +570,9 @@ def build():
                 more = f'<p class="sec-more"><a href="{purl(2)}">{e(SX["older"])} →</a></p>' if pages else ''
                 body = (f'<div class="sec-page" style="--c:{SEC_COLOR[s]}">{head}{extra}<div class="sec-main"><div class="sec-list"><h2 class="list-h">{e(SX["latest"])}</h2>{daylist(front)}{more}</div>'
                         f'<aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{others}</aside></div></div>')
+                if s == 'games':
+                    body = games_page(l, its, day0, others, SX)
+                    pages = []
                 for n, pit in enumerate(pages, start=2):
                     nav = f'<nav class="pager"><a href="{purl(n - 1)}">{e(SX["prev"])}</a><span>{e(SX["page"])} {n} / {len(pages) + 1}</span>' + (f'<a href="{purl(n + 1)}">{e(SX["next"])}</a>' if n <= len(pages) else '<span></span>') + '</nav>'
                     pb = (f'<div class="sec-page" style="--c:{SEC_COLOR[s]}"><div class="rail-h sec-head"><h1 class="sec-title">{e(SEC[l][s][0])} · {e(SX["arch"])}</h1><span class="meta">{e(SX["page"])} {n}</span></div>'
