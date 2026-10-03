@@ -388,7 +388,7 @@ def games_page(l, its, day0, others, SX, kind='games', title=None):
                 f'</div>{kick(it, l)}<h3>{e(it[l]["t"])}</h3></a></article>')
     today = [it for it in its if it['date'] == day0]
     if kind == 'ai':  # KI: 3 Video-Artikel oben, 3 News unten (bevorzugt "mn"), Rest unter „Frühere“
-        revs = [it for it in today if it.get('yt')][:3]
+        revs = [it for it in today if it.get('yt')][:4]
         news = ([it for it in today if it.get('mn') and it not in revs] + [it for it in today if not it.get('mn') and it not in revs])[:3]
     elif kind == 'games':
         revs = [it for it in today if it.get('yt')]
