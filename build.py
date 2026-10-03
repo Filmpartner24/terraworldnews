@@ -179,7 +179,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
 <meta property="og:type" content="{og_type}"><meta property="og:site_name" content="TWN – World News"><meta name="application-name" content="TWN"><meta name="apple-mobile-web-app-title" content="TWN"><link rel="manifest" href="/manifest.webmanifest"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{SITE}{canon}"><meta property="og:image" content="{SITE}{og_img or '/assets/og-image.jpg'}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="{675 if og_img else 630}"><meta property="og:locale" content="{LOCALE.get(l, l)}">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}"><meta name="twitter:image" content="{SITE}{og_img or '/assets/og-image.jpg'}">
 {extra_head}{ldj}
-<link rel="preload" as="image" href="/assets/terra-masthead4-800.webp" imagesrcset="/assets/terra-masthead4-800.webp 800w, /assets/terra-masthead4-1600.webp 1600w" imagesizes="(max-width: 700px) 86vw, 620px" type="image/webp">
+<link rel="preload" as="image" href="/assets/terra-masthead5-800.webp" imagesrcset="/assets/terra-masthead5-800.webp 800w, /assets/terra-masthead5-1600.webp 1600w" imagesizes="(max-width: 700px) 86vw, 620px" type="image/webp">
 <link rel="stylesheet" href="/assets/fonts.css?v={ASSET_V['fonts.css']}">
 <link rel="stylesheet" href="/assets/terra.css?v={ASSET_V['terra.css']}">
 </head>
@@ -191,7 +191,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
     <nav class="langs" aria-label="{e(u['lang'])}">{langbar}</nav></div>
   </div>
   <header class="mast">
-    <p class="brand"><a href="{pre(l)}"><img class="mast-logo" src="/assets/terra-masthead4-800.webp" srcset="/assets/terra-masthead4-800.webp 800w, /assets/terra-masthead4-1600.webp 1600w" sizes="(max-width: 700px) 86vw, 620px" width="800" height="209" alt="TERRA WORLD NEWS" fetchpriority="high"></a></p>
+    <p class="brand"><a href="{pre(l)}"><img class="mast-logo" src="/assets/terra-masthead5-800.webp" srcset="/assets/terra-masthead5-800.webp 800w, /assets/terra-masthead5-1600.webp 1600w" sizes="(max-width: 700px) 86vw, 620px" width="800" height="209" alt="TERRA WORLD NEWS" fetchpriority="high"></a></p>
     <div class="edition"><span class="ed-l" aria-hidden="true"></span><span class="mid">{e(nice_date(date, l)) if date else ''}</span><span class="ed-l" aria-hidden="true"></span></div>
   </header>
   <nav class="sections" aria-label="{e(u['home'])}">{nav}</nav>
