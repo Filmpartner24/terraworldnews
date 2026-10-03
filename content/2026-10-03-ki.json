@@ -1,0 +1,419 @@
+{
+ "date": "2026-10-03",
+ "items": [
+  {
+   "id": "anthropic-claude-sonnet-5-5",
+   "s": "ai",
+   "time": "21:00",
+   "kick": {
+    "bg": "Нов модел",
+    "de": "Neues Modell",
+    "en": "New model"
+   },
+   "yt": {
+    "id": "s5nkj-L2vAw",
+    "ch": "Claude",
+    "kind": "video",
+    "t": {
+     "bg": "Claude Sonnet 5.5",
+     "de": "Claude Sonnet 5.5",
+     "en": "Introducing Claude Sonnet 5.5"
+    }
+   },
+   "src": [
+    {
+     "n": "Anthropic",
+     "u": "https://www.anthropic.com/claude-sonnet-5-5"
+    },
+    {
+     "n": "SiliconANGLE",
+     "u": "https://siliconangle.com/2026/09/28/anthropic-debuts-claude-sonnet-5-5-running-30-faster-than-the-previous-generation-ai-model/"
+    },
+    {
+     "n": "9to5Mac",
+     "u": "https://9to5mac.com/2026/09/28/anthropic-upgrades-claude-with-new-sonnet-5-5-model-details-here/"
+    }
+   ],
+   "de": {
+    "t": "Anthropic stellt Claude Sonnet 5.5 vor: schneller, zum gleichen Preis",
+    "d": "Das neue Mittelklassemodell soll laut Anthropic gut 30 Prozent schneller arbeiten als Sonnet 5 und pro Aufgabe bis zu 30 Prozent günstiger sein. Die Listenpreise bleiben unverändert.",
+    "body": [
+     "Anthropic hat am 28. September 2026 Claude Sonnet 5.5 veröffentlicht. Das Modell löst Sonnet 5 ab und ist laut Unternehmen in den Claude-Apps, auf der eigenen Entwicklerplattform sowie über Amazon Web Services, Google Cloud und Microsoft Azure verfügbar. Es erscheint knapp eine Woche nach Claude Opus 5.5, das Anthropic am 22. September vorgestellt hatte.",
+     "Nach Angaben von Anthropic arbeitet Sonnet 5.5 mehr als 30 Prozent schneller als der Vorgänger und kostet pro Aufgabe bis zu 30 Prozent weniger, weil es für dieselbe Arbeit weniger Tokens benötigt. Die Preise bleiben bei 2 US-Dollar pro Million Eingabe- und 10 US-Dollar pro Million Ausgabe-Tokens. Im Programmier-Benchmark Terminal-Bench 4.0 nennt das Unternehmen 70,6 Prozent, im Computer-Use-Test OSWorld 2.1 80,1 Prozent. Zudem sei es das erste Sonnet-Modell, das das Spiel Pokémon Rot allein anhand von Screenshots durchgespielt habe.",
+     "Als Einsatzgebiete nennt Anthropic klar umrissene Alltagsaufgaben wie das Beheben von Programmfehlern sowie das Erstellen von Dokumenten, Präsentationen und Tabellen. Der Kundenservice-Anbieter Zendesk berichtet von 20 Prozent schneller bearbeiteten Tickets in Tests. Ein Update des kleinsten Modells Haiku hat Anthropic laut SiliconANGLE für die kommenden Wochen angekündigt."
+    ]
+   },
+   "bg": {
+    "t": "Anthropic представи Claude Sonnet 5.5: по-бърз, на същата цена",
+    "d": "Според Anthropic новият модел от среден клас работи с над 30% по-бързо от Sonnet 5 и е до 30% по-евтин на задача. Цените в ценоразписа остават непроменени.",
+    "body": [
+     "Anthropic пусна Claude Sonnet 5.5 на 28 септември 2026 г. Моделът заменя Sonnet 5 и по данни на компанията е достъпен в приложенията на Claude, в собствената ѝ платформа за разработчици, както и чрез Amazon Web Services, Google Cloud и Microsoft Azure. Той излиза почти седмица след Claude Opus 5.5, представен от Anthropic на 22 септември.",
+     "Според Anthropic Sonnet 5.5 работи с над 30% по-бързо от предшественика си и струва до 30% по-малко на задача, защото използва по-малко токени за същата работа. Цените остават 2 долара за милион входни и 10 долара за милион изходни токена. В теста за програмиране Terminal-Bench 4.0 компанията посочва 70,6%, а в теста за работа с компютър OSWorld 2.1 – 80,1%. Освен това това е първият модел Sonnet, който е преминал играта Pokémon Red само по екранни снимки.",
+     "Като области на приложение Anthropic посочва ясно очертани ежедневни задачи като отстраняване на грешки в програми и създаване на документи, презентации и таблици. Доставчикът на клиентско обслужване Zendesk съобщава за 20% по-бързо обработени заявки при тестове. Според SiliconANGLE Anthropic е обявила обновяване на най-малкия модел Haiku през следващите седмици."
+    ]
+   },
+   "en": {
+    "t": "Anthropic unveils Claude Sonnet 5.5: faster, at the same price",
+    "d": "According to Anthropic, the new mid-range model runs more than 30 percent faster than Sonnet 5 and costs up to 30 percent less per task. List prices are unchanged.",
+    "body": [
+     "Anthropic released Claude Sonnet 5.5 on 28 September 2026. The model replaces Sonnet 5 and, according to the company, is available in the Claude apps, on its own developer platform and via Amazon Web Services, Google Cloud and Microsoft Azure. It comes almost a week after Claude Opus 5.5, which Anthropic unveiled on 22 September.",
+     "According to Anthropic, Sonnet 5.5 runs more than 30 percent faster than its predecessor and costs up to 30 percent less per task because it needs fewer tokens for the same work. Prices remain at $2 per million input tokens and $10 per million output tokens. The company cites 70.6 percent on the Terminal-Bench 4.0 coding benchmark and 80.1 percent on the OSWorld 2.1 computer-use test. It says it is also the first Sonnet model to complete the game Pokémon Red from screenshots alone.",
+     "Anthropic names well-defined everyday tasks as use cases, such as fixing software bugs and creating documents, presentations and spreadsheets. Customer-service provider Zendesk reports tickets handled 20 percent faster in tests. According to SiliconANGLE, Anthropic has announced an update to its smallest model, Haiku, in the coming weeks."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-10-03/anthropic-claude-sonnet-5-5-video.webp",
+    "w": 1200,
+    "h": 675,
+    "page": "https://www.youtube.com/watch?v=s5nkj-L2vAw",
+    "cr": {
+     "de": "Standbild aus dem offiziellen Video · © Anthropic",
+     "bg": "Кадър от официалното видео · © Anthropic",
+     "en": "Still from the official video · © Anthropic"
+    },
+    "alt": {
+     "de": "Claude Sonnet 5.5: Standbild aus dem offiziellen Video",
+     "bg": "Claude Sonnet 5.5: кадър от официалното видео",
+     "en": "Claude Sonnet 5.5: still from the official video"
+    }
+   }
+  },
+  {
+   "id": "boston-dynamics-atlas-neue-hand",
+   "s": "ai",
+   "time": "21:00",
+   "kick": {
+    "bg": "Роботи",
+    "de": "Roboter",
+    "en": "Robots"
+   },
+   "yt": {
+    "id": "4whgw2gLBS8",
+    "ch": "Boston Dynamics",
+    "kind": "video",
+    "t": {
+     "bg": "Нови ръце за Atlas",
+     "de": "Neue Hände für Atlas",
+     "en": "New Hands for Atlas"
+    }
+   },
+   "src": [
+    {
+     "n": "The Robot Report",
+     "u": "https://www.therobotreport.com/boston-dynamics-drops-pinkie-on-new-humanoid-hand/"
+    },
+    {
+     "n": "Notebookcheck",
+     "u": "https://www.notebookcheck.net/Boston-Dynamics-Atlas-robot-gets-new-hands.1413778.0.html"
+    },
+    {
+     "n": "Aju Press",
+     "u": "https://www.ajupress.com/view/20261002102642532"
+    }
+   ],
+   "de": {
+    "t": "Boston Dynamics gibt Atlas eine neue Hand – mit vier statt fünf Fingern",
+    "d": "Der humanoide Roboter erhält eine Hand mit 13 Freiheitsgraden statt bisher sieben. Auf einen kleinen Finger verzichtet das Unternehmen bewusst – zugunsten einfacherer Technik.",
+    "body": [
+     "Boston Dynamics hat Ende September eine neu entwickelte Hand für seinen humanoiden Roboter Atlas vorgestellt. Sie besteht aus einem Daumen und drei weiteren Fingern und bietet 13 Freiheitsgrade: vier im Daumen und je drei in den übrigen Fingern. Die Vorgängerversion kam auf sieben. Laut Berichten ist die neue Hand etwas größer und kräftiger als eine durchschnittliche menschliche Hand.",
+     "Auf einen kleinen Finger verzichtet das Team bewusst. Ingenieur Dylan Thrush begründet dies laut The Robot Report damit, dass die zusätzliche Geschicklichkeit die höhere Komplexität nicht wert sei. Die Gelenke werden direkt angetrieben; die Konstruktion ist nach Unternehmensangaben auf Massenfertigung und eine möglichst genaue Simulation für das Training per Reinforcement Learning ausgelegt. Im Video setzt Atlas unter anderem Bohrer-Bits ein und zieht kleine Muttern an.",
+     "Die Hand zielt auf Industrieeinsätze, etwa das Halten von Werkzeugen wie Bohrmaschinen, Schleifgeräten oder Nagelpistolen mit Abzug. Kurz zuvor hatte Boston Dynamics am Hyundai-Werk Metaplant America im US-Bundesstaat Georgia ein Anwendungszentrum eröffnet, in dem Atlas für Fabrikaufgaben trainiert wird. Laut der südkoreanischen Aju Press ist der Einsatz von 25.000 Robotern in Werken von Hyundai und Kia geplant."
+    ]
+   },
+   "bg": {
+    "t": "Boston Dynamics даде на Atlas нова ръка – с четири вместо пет пръста",
+    "d": "Хуманоидният робот получава ръка с 13 степени на свобода вместо досегашните седем. Компанията съзнателно се отказва от кутре – в полза на по-проста техника.",
+    "body": [
+     "В края на септември Boston Dynamics представи нова ръка за хуманоидния си робот Atlas. Тя се състои от палец и още три пръста и има 13 степени на свобода: четири в палеца и по три в останалите пръсти. Предишната версия имаше седем. Според публикации новата ръка е малко по-голяма и по-силна от средната човешка ръка.",
+     "Екипът съзнателно се отказва от кутре. Според The Robot Report инженерът Дилън Тръш обяснява, че допълнителната сръчност не си струва по-голямата сложност. Ставите се задвижват директно; по данни на компанията конструкцията е създадена за масово производство и за възможно най-точна симулация при обучение с подсилване (reinforcement learning). Във видеото Atlas поставя накрайници на бормашина и затяга малки гайки.",
+     "Ръката е предназначена за промишлена употреба, например за държане на инструменти като бормашини, шлайфмашини или пистолети за пирони със спусък. Малко преди това Boston Dynamics откри център за приложения в завода на Hyundai Metaplant America в щата Джорджия, където Atlas се обучава за фабрични задачи. Според южнокорейската Aju Press се планира внедряване на 25 000 робота в заводите на Hyundai и Kia."
+    ]
+   },
+   "en": {
+    "t": "Boston Dynamics gives Atlas a new hand – with four fingers instead of five",
+    "d": "The humanoid robot gets a hand with 13 degrees of freedom instead of seven. The company deliberately drops the little finger in favour of simpler engineering.",
+    "body": [
+     "At the end of September, Boston Dynamics unveiled a newly developed hand for its humanoid robot Atlas. It consists of a thumb and three other fingers and offers 13 degrees of freedom: four in the thumb and three in each of the other fingers. The previous version had seven. According to reports, the new hand is slightly larger and stronger than an average human hand.",
+     "The team deliberately left out a little finger. According to The Robot Report, engineer Dylan Thrush says the extra dexterity is not worth the added complexity. The joints are directly driven; according to the company, the design is built for mass production and for the most accurate possible simulation for reinforcement-learning training. In the video, Atlas inserts drill bits and tightens small nuts, among other things.",
+     "The hand targets industrial work, such as holding tools like drills, grinders or trigger-operated nail guns. Shortly before, Boston Dynamics opened an application centre at Hyundai's Metaplant America plant in the US state of Georgia, where Atlas is trained for factory tasks. According to South Korea's Aju Press, 25,000 robots are planned for Hyundai and Kia plants."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-10-03/boston-dynamics-atlas-neue-hand-video.webp",
+    "w": 1200,
+    "h": 675,
+    "page": "https://www.youtube.com/watch?v=4whgw2gLBS8",
+    "cr": {
+     "de": "Standbild aus dem offiziellen Video · © Boston Dynamics",
+     "bg": "Кадър от официалното видео · © Boston Dynamics",
+     "en": "Still from the official video · © Boston Dynamics"
+    },
+    "alt": {
+     "de": "Atlas: Standbild aus dem offiziellen Video",
+     "bg": "Atlas: кадър от официалното видео",
+     "en": "Atlas: still from the official video"
+    }
+   }
+  },
+  {
+   "id": "runway-praxis-1-robotik",
+   "s": "ai",
+   "time": "21:00",
+   "kick": {
+    "bg": "Стартъп",
+    "de": "Start-up",
+    "en": "Start-up"
+   },
+   "yt": {
+    "id": "sXiLq_3TaAI",
+    "ch": "Runway",
+    "kind": "video",
+    "t": {
+     "bg": "Praxis-1 от Runway",
+     "de": "Praxis-1 von Runway",
+     "en": "Introducing Praxis-1 | Runway"
+    }
+   },
+   "src": [
+    {
+     "n": "Runway Research",
+     "u": "https://runway.com/research/introducing-praxis-1"
+    },
+    {
+     "n": "Robotics & Automation News",
+     "u": "https://roboticsandautomationnews.com/2026/10/01/runway-moves-into-robotics-with-open-weight-praxis-1-ai-model/105402/"
+    }
+   ],
+   "de": {
+    "t": "KI-Start-up Runway steigt in die Robotik ein: Praxis-1 lernt aus Webvideos",
+    "d": "Der KI-Videospezialist Runway stellt mit Praxis-1 ein Modell zur Robotersteuerung vor. Es soll Wissen aus gewöhnlichen Internetvideos auf Roboter übertragen; offene Gewichte sind angekündigt.",
+    "body": [
+     "Runway, bislang vor allem für KI-Videogeneratoren bekannt, hat Ende September Praxis-1 vorgestellt. Das Start-up bezeichnet es als sein erstes „World Action Model“: ein Modell, das auf großflächigem Video-Vortraining aufbaut und daraus Steuerbefehle für Roboter ableitet. Laut Runway baut es auf früheren Arbeiten des Unternehmens wie Solaris und GWM Worlds 2 auf.",
+     "Kernthese des Unternehmens: Für das Vortraining seien gewöhnliche Webvideos ähnlich wertvoll wie aufwendig per Fernsteuerung aufgezeichnete Roboteraufnahmen. In einem Vergleich erreichte ein auf Webvideos vortrainiertes Modell nach dem Feintuning laut Runway einen Platzierungsfehler von 16,1 Zentimetern, eines mit Teleoperationsdaten 16,0 Zentimeter – ein Unterschied, den das Unternehmen als statistisch nicht signifikant einstuft. Zudem sagten Simulationen im eigenen Weltmodell reale Ergebnisse mit einer Korrelation von 0,95 voraus.",
+     "Erprobt wurde Praxis-1 mit Partnern auf unterschiedlichen Plattformen: zweiarmige Manipulation bei Noble Machines, der Roboterarm RO1 von Standard Bots und eine mobile Plattform von Ultra. Die Modellgewichte sollen „in den kommenden Monaten“ öffentlich freigegeben werden; bis dahin bietet Runway einen frühen Zugang an."
+    ]
+   },
+   "bg": {
+    "t": "ИИ стартъпът Runway навлиза в роботиката: Praxis-1 се учи от уеб видеа",
+    "d": "Специалистът по ИИ видео Runway представи Praxis-1 – модел за управление на роботи. Той трябва да пренася знания от обикновени интернет видеа към роботи; обявени са отворени тегла.",
+    "body": [
+     "Runway, известен досега най-вече с ИИ генератори на видео, представи Praxis-1 в края на септември. Стартъпът го нарича свой първи „World Action Model“: модел, който се основава на мащабно предварително обучение върху видео и извлича от него команди за управление на роботи. Според Runway той надгражда по-ранни разработки на компанията като Solaris и GWM Worlds 2.",
+     "Основната теза на компанията: за предварителното обучение обикновените уеб видеа са почти толкова ценни, колкото скъпите записи на роботи с дистанционно управление. При сравнение модел, обучен предварително върху уеб видеа, след допълнително обучение постига според Runway грешка при поставяне от 16,1 сантиметра, а модел с данни от дистанционно управление – 16,0 сантиметра. Компанията определя разликата като статистически незначима. Освен това симулациите в собствения ѝ модел на света предсказват реалните резултати с корелация 0,95.",
+     "Praxis-1 е изпитан с партньори на различни платформи: работа с две ръце при Noble Machines, роботизираната ръка RO1 на Standard Bots и мобилна платформа на Ultra. Теглата на модела трябва да бъдат публикувани „през следващите месеци“; дотогава Runway предлага ранен достъп."
+    ]
+   },
+   "en": {
+    "t": "AI start-up Runway moves into robotics: Praxis-1 learns from web videos",
+    "d": "AI video specialist Runway unveils Praxis-1, a model for controlling robots. It is meant to transfer knowledge from ordinary internet videos to robots; open weights have been announced.",
+    "body": [
+     "Runway, best known so far for AI video generators, unveiled Praxis-1 at the end of September. The start-up calls it its first \"World Action Model\": a model built on large-scale video pre-training that derives control commands for robots from it. According to Runway, it builds on the company's earlier work such as Solaris and GWM Worlds 2.",
+     "The company's core thesis: for pre-training, ordinary web videos are about as valuable as costly teleoperated robot recordings. In a comparison, a model pre-trained on web videos reached a placement error of 16.1 centimetres after fine-tuning, according to Runway, while one trained on teleoperation data reached 16.0 centimetres – a difference the company classifies as not statistically significant. Simulations in its own world model also predicted real-world results with a correlation of 0.95.",
+     "Praxis-1 was tested with partners on different platforms: two-armed manipulation at Noble Machines, the RO1 robot arm from Standard Bots and a mobile platform from Ultra. The model weights are to be released publicly \"in the coming months\"; until then Runway offers early access."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-10-03/runway-praxis-1-robotik-video.webp",
+    "w": 1200,
+    "h": 675,
+    "page": "https://www.youtube.com/watch?v=sXiLq_3TaAI",
+    "cr": {
+     "de": "Standbild aus dem offiziellen Video · © Runway",
+     "bg": "Кадър от официалното видео · © Runway",
+     "en": "Still from the official video · © Runway"
+    },
+    "alt": {
+     "de": "Praxis-1: Standbild aus dem offiziellen Video",
+     "bg": "Praxis-1: кадър от официалното видео",
+     "en": "Praxis-1: still from the official video"
+    }
+   }
+  },
+  {
+   "id": "meta-muse-gadgets-open-source-hardware",
+   "s": "ai",
+   "mn": true,
+   "time": "21:00",
+   "kick": {
+    "bg": "Meta",
+    "de": "Meta",
+    "en": "Meta"
+   },
+   "src": [
+    {
+     "n": "TechCrunch",
+     "u": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/"
+    },
+    {
+     "n": "Engadget",
+     "u": "https://www.engadget.com/2276312/meta-muse-gadgets-open-source-smart-home-link/"
+    }
+   ],
+   "de": {
+    "t": "Meta öffnet KI-Agenten Muse für Bastler: Open-Source-Kit für eigene Geräte",
+    "d": "Mit „Muse Gadgets“ stellt Meta quelloffene Firmware und ein Linux-SDK bereit, damit Entwickler eigene Hardware an den KI-Agenten Muse anbinden. Dazu verteilt der Konzern 5000 Home-Link-Dongles.",
+    "body": [
+     "Meta hat am 2. Oktober ein Open-Source-Projekt namens „Muse Gadgets“ vorgestellt. Entwickler sollen damit eigene Geräte bauen können, die mit Muse verbunden sind, dem persönlichen KI-Agenten des Konzerns. Laut TechCrunch erledigt Muse Aufgaben wie Reisebuchungen, das Ausfüllen von Formularen oder Einkäufe für seine Nutzer. Meta stellt dafür quelloffene Firmware und ein Software-Entwicklungskit (SDK) für Linux bereit.",
+     "Als Beispiele schlägt Meta nach Angaben von Engadget E-Ink-Displays, HDMI-Sticks für Fernseher und Touchscreen-Zubehör ähnlich dem „Muse Charm“ vor, den Konzernchef Mark Zuckerberg auf der Connect-Konferenz präsentiert hatte. Laut TechCrunch eignen sich auch Bastelplattformen wie Raspberry Pi oder ESP32-Boards, um Muse mit Displays, Knöpfen oder Sensoren zu verbinden.",
+     "Angekündigt hat das Projekt Nat Friedman, Produktchef von Metas Superintelligence Labs. Gleichzeitig stellte er „Muse Home Link“ vor, einen per USB-C betriebenen Dongle, über den Muse Smart-Home-Geräte wie Lautsprecher und Fernseher steuern kann. Laut TechCrunch wurden 5000 Exemplare gefertigt; sie werden kostenlos an Muse-Abonnenten verteilt, solange der Vorrat reicht."
+    ]
+   },
+   "bg": {
+    "t": "Meta отваря ИИ агента Muse за ентусиасти: комплект с отворен код за собствени устройства",
+    "d": "С „Muse Gadgets“ Meta предоставя фърмуер с отворен код и SDK за Linux, за да могат разработчиците да свързват собствен хардуер с ИИ агента Muse. Компанията раздава и 5000 устройства Home Link.",
+    "body": [
+     "На 2 октомври Meta представи проект с отворен код, наречен „Muse Gadgets“. С него разработчиците могат да създават собствени устройства, свързани с Muse – личния ИИ агент на компанията. Според TechCrunch Muse изпълнява задачи като резервации за пътувания, попълване на формуляри или пазаруване за потребителите си. За целта Meta предоставя фърмуер с отворен код и комплект за разработка на софтуер (SDK) за Linux.",
+     "Като примери Meta предлага според Engadget дисплеи с електронно мастило, HDMI стикове за телевизори и аксесоари със сензорен екран, подобни на „Muse Charm“, който главният изпълнителен директор Марк Зукърбърг представи на конференцията Connect. Според TechCrunch за свързване на Muse с дисплеи, бутони или сензори са подходящи и платформи като Raspberry Pi или платки ESP32.",
+     "Проектът е обявен от Нат Фридман, продуктов директор на Superintelligence Labs на Meta. Едновременно с това той представи „Muse Home Link“ – захранвано през USB-C устройство, чрез което Muse може да управлява устройства в умния дом като колони и телевизори. Според TechCrunch са произведени 5000 бройки; те се раздават безплатно на абонатите на Muse до изчерпване на количествата."
+    ]
+   },
+   "en": {
+    "t": "Meta opens its AI agent Muse to makers: open-source kit for custom devices",
+    "d": "With \"Muse Gadgets\", Meta is releasing open-source firmware and a Linux SDK so developers can connect their own hardware to its AI agent Muse. It is also giving away 5,000 Home Link dongles.",
+    "body": [
+     "On 2 October Meta unveiled an open-source project called \"Muse Gadgets\". It lets developers build their own devices connected to Muse, the company's personal AI agent. According to TechCrunch, Muse handles tasks such as booking travel, filling out forms or shopping for its users. Meta is providing open-source firmware and a software development kit (SDK) for Linux.",
+     "As examples, Meta suggests e-ink displays, HDMI sticks for TVs and touchscreen accessories similar to the \"Muse Charm\" that CEO Mark Zuckerberg presented at the Connect conference, according to Engadget. According to TechCrunch, maker platforms such as Raspberry Pi or ESP32 boards can also be used to connect Muse to displays, buttons or sensors.",
+     "The project was announced by Nat Friedman, head of product at Meta Superintelligence Labs. At the same time he introduced \"Muse Home Link\", a USB-C-powered dongle through which Muse can control smart-home devices such as speakers and TVs. According to TechCrunch, 5,000 units were made; they are being given free to Muse subscribers while stocks last."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-10-03/meta-muse-gadgets-open-source-hardware.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Anurag R Dubey",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mark-Zuckerberg-2019.jpg",
+    "alt": {
+     "bg": "Главният изпълнителен директор на Meta Марк Зукърбърг (архив)",
+     "de": "Meta-Chef Mark Zuckerberg (Archivbild)",
+     "en": "Meta CEO Mark Zuckerberg (Archive image)"
+    }
+   }
+  },
+  {
+   "id": "stability-ai-sean-parker-musik-neuausrichtung",
+   "s": "ai",
+   "mn": true,
+   "time": "21:00",
+   "kick": {
+    "bg": "Стартъп",
+    "de": "Start-up",
+    "en": "Start-up"
+   },
+   "src": [
+    {
+     "n": "TechCrunch",
+     "u": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/"
+    },
+    {
+     "n": "Music Business Worldwide",
+     "u": "https://www.musicbusinessworldwide.com/universal-sony-warner-join-76m-funding-round-in-stability-ai/"
+    }
+   ],
+   "de": {
+    "t": "Sean Parker baut Stability AI zum KI-Werkzeugmacher für die Musikbranche um",
+    "d": "Der Napster-Mitgründer will das einst für Stable Diffusion bekannte KI-Start-up zur ersten Adresse für Musikprofis machen – mit Universal, Sony und Warner als Investoren.",
+    "body": [
+     "Stability AI, bekannt geworden mit dem Bildgenerator Stable Diffusion, richtet sich neu auf Musik aus. Das berichtete TechCrunch am 2. Oktober. Treibende Kraft ist demnach Napster-Mitgründer Sean Parker, der vor zwei Jahren an einer Rettungsfinanzierung über 80 Millionen Dollar beteiligt war und nun mit Konzernchef Prem Akkaraju am Umbau arbeitet. Parker zufolge soll Stability zum wichtigsten KI-Werkzeugmacher für Musikprofis werden.",
+     "Grundlage ist eine Finanzierungsrunde aus dem August: Wie Music Business Worldwide berichtete, sammelte Stability AI 76 Millionen Dollar in einer Series-B-Runde ein, angeführt von Universal Music Group, Sony Music Group, Warner Music Group und Electronic Arts. Laut TechCrunch haben die drei großen Labels ihre Kataloge außerdem für das Training der KI-Modelle lizenziert.",
+     "Stability hat laut TechCrunch drei neue Audiomodelle und eine KI-Software zur Musikbearbeitung veröffentlicht. Künftig sollen Nutzer Melodien auch vorsummen oder Schlagzeugmuster per Beatboxing eingeben können. Mit Blick auf Napster sagte Parker laut TechCrunch, diesmal halte er sich an die Regeln."
+    ]
+   },
+   "bg": {
+    "t": "Шон Паркър превръща Stability AI в производител на ИИ инструменти за музиката",
+    "d": "Съоснователят на Napster иска стартъпа, известен със Stable Diffusion, да стане първият адрес за музикални професионалисти – с Universal, Sony и Warner като инвеститори.",
+    "body": [
+     "Stability AI, станала известна с генератора на изображения Stable Diffusion, се преориентира към музиката. Това съобщи TechCrunch на 2 октомври. Двигател на промяната е съоснователят на Napster Шон Паркър, който преди две години участва в спасително финансиране от 80 милиона долара и сега работи по преструктурирането заедно с главния изпълнителен директор Прем Акараджу. Според Паркър Stability трябва да стане водещият производител на ИИ инструменти за музикални професионалисти.",
+     "Основа е рунд на финансиране от август: както съобщи Music Business Worldwide, Stability AI е набрала 76 милиона долара в рунд Series B, воден от Universal Music Group, Sony Music Group, Warner Music Group и Electronic Arts. Според TechCrunch трите големи лейбъла са лицензирали и каталозите си за обучение на ИИ моделите.",
+     "Според TechCrunch Stability е пуснала три нови аудио модела и ИИ софтуер за обработка на музика. В бъдеще потребителите ще могат да тананикат мелодии или да въвеждат ритъм на барабани чрез бийтбокс. По повод Napster Паркър казва според TechCrunch, че този път спазва правилата."
+    ]
+   },
+   "en": {
+    "t": "Sean Parker is rebuilding Stability AI as an AI toolmaker for the music industry",
+    "d": "The Napster co-founder wants the start-up once known for Stable Diffusion to become the go-to address for music professionals – with Universal, Sony and Warner as investors.",
+    "body": [
+     "Stability AI, which became known for the image generator Stable Diffusion, is refocusing on music, TechCrunch reported on 2 October. The driving force is Napster co-founder Sean Parker, who took part in an $80 million rescue financing two years ago and is now working on the overhaul with CEO Prem Akkaraju. According to Parker, Stability is to become the leading AI toolmaker for music professionals.",
+     "The basis is a funding round from August: as Music Business Worldwide reported, Stability AI raised $76 million in a Series B round led by Universal Music Group, Sony Music Group, Warner Music Group and Electronic Arts. According to TechCrunch, the three major labels have also licensed their catalogues for training the AI models.",
+     "According to TechCrunch, Stability has released three new audio models and AI software for music editing. In future, users are to be able to hum melodies or enter drum patterns by beatboxing. Referring to Napster, Parker said this time he is playing by the rules, according to TechCrunch."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-10-03/stability-ai-sean-parker-musik-neuausrichtung.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "JD Lasica from Pleasanton, CA, US",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sean_Parker_(6256555049).jpg",
+    "alt": {
+     "bg": "Шон Паркър на Web 2.0 Summit (архив)",
+     "de": "Sean Parker beim Web 2.0 Summit (Archivbild)",
+     "en": "Sean Parker at the Web 2.0 Summit (Archive image)"
+    }
+   }
+  },
+  {
+   "id": "fieldai-roboter-gehirn-700-millionen-10-milliarden",
+   "s": "ai",
+   "mn": true,
+   "time": "21:00",
+   "kick": {
+    "bg": "Роботика",
+    "de": "Robotik",
+    "en": "Robotics"
+   },
+   "src": [
+    {
+     "n": "SiliconANGLE",
+     "u": "https://siliconangle.com/2026/10/02/robotics-ai-developer-fieldai-reportedly-raising-700m-in-funding/"
+    },
+    {
+     "n": "The Next Web",
+     "u": "https://thenextweb.com/news/fieldai-10b-europe-robot-brains"
+    },
+    {
+     "n": "Benzinga",
+     "u": "https://www.benzinga.com/markets/tech/26/10/62150844/fieldai-700-million-10-billion-valuation-physical-ai"
+    }
+   ],
+   "de": {
+    "t": "Robotik-Start-up FieldAI soll 700 Millionen Dollar bei 10 Milliarden Bewertung einsammeln",
+    "d": "Das kalifornische Unternehmen entwickelt ein universelles „Gehirn“ für Humanoide, Roboterhunde und Drohnen. Laut Business Insider ist ein Term Sheet bereits unterzeichnet.",
+    "body": [
+     "Das Robotik-Start-up FieldAI steht laut einem Bericht von Business Insider vor einer Finanzierungsrunde über 700 Millionen Dollar bei einer Bewertung von 10 Milliarden Dollar. Darüber berichteten am 2. Oktober unter anderem SiliconANGLE und The Next Web. Demnach ist ein unverbindliches Term Sheet unterzeichnet, abgeschlossen ist die Runde aber noch nicht. Vor gut einem Jahr war FieldAI laut Benzinga noch mit rund 2 Milliarden Dollar bewertet worden.",
+     "Das 2023 gegründete Unternehmen aus Kalifornien baut keine eigene Hardware, sondern KI-Software für humanoide Roboter, Roboterhunde, Drohnen und Industriefahrzeuge. Nach Angaben von SiliconANGLE kommen die Modelle ohne Karte, GPS oder Internetverbindung aus. Im März 2026 ging FieldAI eine Partnerschaft mit Boston Dynamics für deren Roboterhund Spot ein.",
+     "Umsatz und Kundenverträge von FieldAI summieren sich laut den Berichten auf mehr als 135 Millionen Dollar bei über 30 Kunden, etwa aus Bauwesen und Energie. Zu den bisherigen Geldgebern zählen laut Benzinga unter anderem Nvidias Wagniskapitalarm NVentures, Intel Capital, Bezos Expeditions und Khosla Ventures. Geführt wird das Unternehmen von Ali Agha."
+    ]
+   },
+   "bg": {
+    "t": "Стартъпът за роботика FieldAI набира 700 млн. долара при оценка от 10 млрд.",
+    "d": "Калифорнийската компания разработва универсален „мозък“ за хуманоиди, роботи кучета и дронове. Според Business Insider вече е подписан предварителен договор (term sheet).",
+    "body": [
+     "Според публикация на Business Insider стартъпът за роботика FieldAI е пред рунд на финансиране от 700 милиона долара при оценка от 10 милиарда долара. За това на 2 октомври съобщиха и SiliconANGLE и The Next Web. Подписан е необвързващ term sheet, но рундът все още не е приключил. Преди малко повече от година FieldAI е била оценена на около 2 милиарда долара, според Benzinga.",
+     "Основаната през 2023 г. калифорнийска компания не произвежда собствен хардуер, а ИИ софтуер за хуманоидни роботи, роботи кучета, дронове и индустриални машини. Според SiliconANGLE моделите работят без карта, GPS или интернет връзка. През март 2026 г. FieldAI сключи партньорство с Boston Dynamics за робота куче Spot.",
+     "Според публикациите приходите и договорите на FieldAI надхвърлят 135 милиона долара при над 30 клиенти, например от строителството и енергетиката. Сред досегашните инвеститори според Benzinga са фондът за рисков капитал на Nvidia NVentures, Intel Capital, Bezos Expeditions и Khosla Ventures. Компанията се ръководи от Али Ага."
+    ]
+   },
+   "en": {
+    "t": "Robotics start-up FieldAI reportedly raising $700 million at $10 billion valuation",
+    "d": "The Californian company develops a universal \"brain\" for humanoids, robot dogs and drones. According to Business Insider, a term sheet has already been signed.",
+    "body": [
+     "Robotics start-up FieldAI is set for a $700 million funding round at a $10 billion valuation, according to a Business Insider report covered on 2 October by SiliconANGLE and The Next Web, among others. A non-binding term sheet has been signed, but the round has not yet closed. A little more than a year ago, FieldAI was valued at around $2 billion, according to Benzinga.",
+     "Founded in 2023, the Californian company does not build its own hardware but AI software for humanoid robots, robot dogs, drones and industrial vehicles. According to SiliconANGLE, its models work without a map, GPS or internet connection. In March 2026 FieldAI entered a partnership with Boston Dynamics for its robot dog Spot.",
+     "FieldAI's revenue and customer contracts total more than $135 million across more than 30 customers, for example in construction and energy, according to the reports. Existing backers include Nvidia's venture arm NVentures, Intel Capital, Bezos Expeditions and Khosla Ventures, according to Benzinga. The company is led by Ali Agha."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-10-03/fieldai-roboter-gehirn-700-millionen-10-milliarden.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Jonte",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Spot_by_Boston_Dynamics.jpg",
+    "alt": {
+     "bg": "Роботът куче Spot на Boston Dynamics (символна снимка)",
+     "de": "Roboterhund Spot von Boston Dynamics (Symbolbild)",
+     "en": "Boston Dynamics' Spot robot dog (Symbolic image)"
+    }
+   }
+  }
+ ]
+}

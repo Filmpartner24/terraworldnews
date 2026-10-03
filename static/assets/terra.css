@@ -607,3 +607,11 @@ nav.sections .nav-items .nav-dd:hover > a{background:none}
 nav.sections .nav-items a[aria-current="page"]{box-shadow:inset 0 -4px 0 #ff2a30}
 }
 @media (hover:none){nav.sections a:hover:not(:active){background:none}nav.sections a[aria-current="page"]:hover:not(:active){box-shadow:inset 0 -3px 0 #ff2a30}}
+/* KI: Games-Layout in Cyan/Violett */
+.gp-ai{--gx:#06b6d4;--gy:#a78bfa}
+.gp-ai .gp-head{background:linear-gradient(100deg,#050b1a 0%,#0b2545 50%,#3b1d7a 100%)}
+.gp-ai .gp-title{text-shadow:0 0 18px rgba(6,182,212,.75)}
+.gp-ai .gp-date,.gp-ai .gr-meta,.gp-ai .gs .kick,.gp-ai .ga-panel .kick{color:#a5f3fc}
+.gp-ai .gp-panel{background:#050b1a}
+.gp-ai .gr{border-bottom-color:#16263f}
+.gp-ai .gr-score{background:linear-gradient(90deg,#06b6d4,#7c3aed)}
