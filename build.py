@@ -565,27 +565,38 @@ def fb_league_page(k, l, today, others):
 # ---- Boxen: Verbände WBC/WBA/IBF/WBO (Daten: content/boxing/*.json, redaktionell recherchiert)
 BX = {}; BX_IMG = {}
 BX_ORDER = ['wbc', 'wba', 'ibf', 'wbo']
+MM_ORDER = ['ufc', 'pfl', 'one', 'oktagon']
+BX_SPORT = {'boxen': BX_ORDER, 'mma': MM_ORDER}
+MMU = {'bg': dict(orgs='Организации', champs='Шампиони', champ='Шампион', res='Последни главни мачове', open='Към организацията →'),
+       'de': dict(orgs='Organisationen', champs='Champions', champ='Champion', res='Letzte Hauptkämpfe', open='Zur Organisation →'),
+       'en': dict(orgs='Promotions', champs='Champions', champ='Champion', res='Recent main events', open='Go to promotion →')}
+def bxu(l, sp):
+    d = dict(BXU[l])
+    if sp == 'mma': d.update(MMU[l]); d['side'] = MMU[l]['orgs']
+    return d
 BXU = {'bg': dict(orgs='Световни боксови организации', champs='Световни шампиони', div='Категория', champ='Шампион', up='Предстоящи мачове', res='Последни мачове за титли', news='Новини', asof='Към', vac='вакантна', open='Към организацията →', next='Следващ мач', side='Организации', src='Източници'),
        'de': dict(orgs='Weltverbände', champs='Weltmeister', div='Gewichtsklasse', champ='Champion', up='Anstehende Kämpfe', res='Letzte Titelkämpfe', news='News', asof='Stand', vac='vakant', open='Zum Verband →', next='Nächster Kampf', side='Verbände', src='Quellen'),
        'en': dict(orgs='World sanctioning bodies', champs='World champions', div='Division', champ='Champion', up='Upcoming fights', res='Recent title fights', news='News', asof='As of', vac='vacant', open='Go to organisation →', next='Next fight', side='Organisations', src='Sources')}
 
 def bx_load():
     BX.clear(); BX_IMG.clear()
-    d = os.path.join(HERE, 'content', 'boxing')
-    for k in BX_ORDER:
+    for dn, order in (('boxing', BX_ORDER), ('mma', MM_ORDER)):
+      d = os.path.join(HERE, 'content', dn)
+      for k in order:
         fp = os.path.join(d, f'{k}.json')
-        if os.path.exists(fp): BX[k] = json.load(open(fp, encoding='utf-8'))
-    ip = os.path.join(d, '_images.json')
-    if os.path.exists(ip):
+        if os.path.exists(fp):
+            BX[k] = json.load(open(fp, encoding='utf-8')); BX[k].setdefault('sp', 'mma' if dn == 'mma' else 'boxen')
+      ip = os.path.join(d, '_images.json')
+      if os.path.exists(ip):
         for it in json.load(open(ip, encoding='utf-8')).get('items', []):
             if os.path.exists(os.path.join(HERE, 'static', it['img']['f'].lstrip('/'))): BX_IMG[it['id']] = it['img']
 
-def bx_url(k, l): return f"{sub_url('sport', 'boxen', l)}{k}/"
+def bx_url(k, l): return f"{sub_url('sport', BX[k].get('sp', 'boxen') if k in BX else 'boxen', l)}{k}/"
 def bx_d(s): return '.'.join(reversed(s.split('-'))) if re.match(r'^\d{4}-\d{2}-\d{2}$', s or '') else e(s or '')
 def bx_t(x, l): return (x.get(l) or x.get('en') or x.get('de') or '') if isinstance(x, dict) else (x or '')
 
 def bx_card(k, l, today):
-    o = BX[k]; f = BXU[l]; im = BX_IMG.get(k)
+    o = BX[k]; f = bxu(l, o.get('sp')); im = BX_IMG.get(k)
     st = f' style="background-image:url({im["f"]})"' if im else ''
     up = sorted([x for x in o.get('upcoming', []) if x.get('date', '') >= today], key=lambda x: x['date'])
     nx = f'<p class="gr-meta">{e(f["next"])}: {bx_d(up[0]["date"])} · {e(up[0]["f1"])} – {e(up[0]["f2"])}</p>' if up else ''
@@ -600,9 +611,9 @@ def bx_news_grid(items, l):
         return f'<article class="gs"><a href="{art_url(x, l)}"><div class="gs-img"{st}>{pl}</div>{kick(x, l)}<h3>{e(x[l]["t"])}</h3></a></article>'
     return f'<div class="gs-grid">{"".join(small(x) for x in items)}</div>' if items else ''
 
-def bx_overview(l, today, news, others):
-    f = BXU[l]; title = f'{SEC[l]["sport"][0]} · {SUB[l]["boxen"][0]}'
-    cards = ''.join(bx_card(k, l, today) for k in BX_ORDER if k in BX)
+def bx_overview(l, today, news, others, sp='boxen'):
+    f = bxu(l, sp); title = f'{SEC[l]["sport"][0]} · {SUB[l][sp][0]}'
+    cards = ''.join(bx_card(k, l, today) for k in BX_SPORT[sp] if k in BX)
     fj = [x for x in news if x.get('fj')]
     rest = [x for x in news if not x.get('fj')]
     fjh = ''
@@ -628,7 +639,7 @@ def bx_fight_rows(xs, l, res=False):
     return out
 
 def bx_org_page(k, l, today, news, others):
-    o = BX[k]; f = BXU[l]; im = BX_IMG.get(k)
+    o = BX[k]; f = bxu(l, o.get('sp')); im = BX_IMG.get(k)
     rows = ''
     for c in o.get('champions', []):
         nm = e(c['name']) if c.get('name') else f'<i class="bx-vac">{e(f["vac"])}</i>'
@@ -641,7 +652,7 @@ def bx_org_page(k, l, today, news, others):
     hero = (f'<div class="ga-media"><div class="fb-hero" style="background-image:url({im["f"]})"><span class="gr-badge">{e(f["asof"])} {bx_d(o.get("asof", ""))}</span></div>'
             f'<p class="gr-cr">{e(im.get("alt", {}).get(l, ""))} · {credit(im, l, True)}</p></div>') if im else ''
     srcs = ''.join(f'<li><a href="{e(s["u"])}" rel="noopener nofollow" target="_blank">{e(s["n"])}</a></li>' for s in o.get('src', []))
-    side = ''.join(f'<li><a href="{bx_url(x, l)}"{" aria-current=page" if x == k else ""}>{e(bx_t(BX[x]["name"], l))} <small>{e(bx_t(BX[x]["full"], l))}</small></a></li>' for x in BX_ORDER if x in BX)
+    side = ''.join(f'<li><a href="{bx_url(x, l)}"{" aria-current=page" if x == k else ""}>{e(bx_t(BX[x]["name"], l))} <small>{e(bx_t(BX[x]["full"], l))}</small></a></li>' for x in BX_SPORT[o.get('sp', 'boxen')] if x in BX)
     return (f'<div class="gp gp-sport fb-page"><div class="gp-head"><h1 class="gp-title">{e(bx_t(o["name"], l))}</h1><span class="fb-season">{e(bx_t(o["full"], l))}</span></div>'
             f'<div class="gp-main"><div class="gp-panel">{hero}'
             + (f'<h2 class="gp-h">{e(f["up"])}</h2>{bx_fight_rows(up, l)}' if up else '')
@@ -886,15 +897,15 @@ def build():
                             write(fu, page(l, act, ft, f'{FB[fk]["name"][l]} {FB[fk]["season"]}: {FBU[l]["table"]}, {FBU[l]["next"]}, {FBU[l]["done"]}', fu, tabs(k) + fb_league_page(fk, l, latest['date'], _others(s)), falts,
                                            {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": FB[fk]["name"][l], "url": SITE + fu, "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
                             urls.append((fu, falts, latest['date']))
-                    elif s == 'sport' and k == 'boxen' and BX:
+                    elif s == 'sport' and k in BX_SPORT and any(x in BX for x in BX_SPORT[k]):
                         bn = sorted(sits, key=lambda x: (x['date'], x['time']), reverse=True)
-                        sb = tabs(k) + bx_overview(l, latest['date'], bn, _others(s))
-                        for bk in BX_ORDER:
+                        sb = tabs(k) + bx_overview(l, latest['date'], bn, _others(s), k)
+                        for bk in BX_SPORT[k]:
                             if bk not in BX: continue
                             bu = bx_url(bk, l); bt = f'{bx_t(BX[bk]["name"], l)} – {bx_t(BX[bk]["full"], l)} | TWN – World News'
                             balts = {x: bx_url(bk, x) for x in act}
                             bnews = [x for x in bn if bk in (x.get('org') or [])][:6]
-                            write(bu, page(l, act, bt, f'{bx_t(BX[bk]["full"], l)}: {BXU[l]["champs"]}, {BXU[l]["up"]}, {BXU[l]["res"]}', bu, tabs(k) + bx_org_page(bk, l, latest['date'], bnews, _others(s)), balts,
+                            write(bu, page(l, act, bt, f'{bx_t(BX[bk]["full"], l)}: {bxu(l, k)["champs"]}, {bxu(l, k)["up"]}, {bxu(l, k)["res"]}', bu, tabs(k) + bx_org_page(bk, l, latest['date'], bnews, _others(s)), balts,
                                            {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": bx_t(BX[bk]["full"], l), "url": SITE + bu, "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
                             urls.append((bu, balts, latest['date']))
                     elif s in MEDIA:

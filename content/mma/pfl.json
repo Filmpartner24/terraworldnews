@@ -1,0 +1,355 @@
+{
+ "key": "pfl",
+ "sp": "mma",
+ "name": {
+  "bg": "PFL",
+  "de": "PFL",
+  "en": "PFL"
+ },
+ "full": {
+  "bg": "Professional Fighters League",
+  "de": "Professional Fighters League",
+  "en": "Professional Fighters League"
+ },
+ "asof": "2026-10-03",
+ "champions": [
+  {
+   "div": {
+    "bg": "Тежка категория",
+    "de": "Schwergewicht",
+    "en": "Heavyweight"
+   },
+   "limit": "bis 120,2 kg (265 lb)",
+   "name": "Vadim Nemkov",
+   "country": "Russland"
+  },
+  {
+   "div": {
+    "bg": "Полутежка категория",
+    "de": "Halbschwergewicht",
+    "en": "Light Heavyweight"
+   },
+   "limit": "bis 93,0 kg (205 lb)",
+   "name": "Corey Anderson",
+   "country": "USA"
+  },
+  {
+   "div": {
+    "bg": "Средна категория",
+    "de": "Mittelgewicht",
+    "en": "Middleweight"
+   },
+   "limit": "bis 83,9 kg (185 lb)",
+   "name": "Costello van Steenis",
+   "country": "Spanien"
+  },
+  {
+   "div": {
+    "bg": "Средна категория",
+    "de": "Mittelgewicht",
+    "en": "Middleweight"
+   },
+   "limit": "bis 83,9 kg (185 lb)",
+   "name": "Johnny Eblen",
+   "country": "USA",
+   "note": {
+    "bg": "Временен шампион (от 18 юли 2026)",
+    "de": "Interims-Champion (seit 18. Juli 2026)",
+    "en": "Interim champion (since July 18, 2026)"
+   }
+  },
+  {
+   "div": {
+    "bg": "Полусредна категория",
+    "de": "Weltergewicht",
+    "en": "Welterweight"
+   },
+   "limit": "bis 77,1 kg (170 lb)",
+   "name": "Thad Jean",
+   "country": "USA"
+  },
+  {
+   "div": {
+    "bg": "Лека категория",
+    "de": "Leichtgewicht",
+    "en": "Lightweight"
+   },
+   "limit": "bis 70,3 kg (155 lb)",
+   "name": "Usman Nurmagomedov",
+   "country": "Russland",
+   "note": {
+    "bg": "Договорът му изтече след защитата на 31 юли 2026; бъдещето му е открито",
+    "de": "Vertrag lief nach der Titelverteidigung am 31. Juli 2026 aus; Zukunft offen",
+    "en": "Contract ended after his July 31, 2026 title defence; future open"
+   }
+  },
+  {
+   "div": {
+    "bg": "Перо категория",
+    "de": "Federgewicht",
+    "en": "Featherweight"
+   },
+   "limit": "bis 65,8 kg (145 lb)",
+   "name": "Razhabali Shaydullaev",
+   "country": "Kirgisistan",
+   "note": {
+    "bg": "Първи шампион на PFL в категорията (10 септември 2026, Super RIZIN 5); също шампион на RIZIN; някои медии го водят като таджикистанец",
+    "de": "Erster PFL-Champion der Gewichtsklasse (10. September 2026, Super RIZIN 5); zugleich RIZIN-Champion; Schreibweise auch „Shaidulloev“; einige Medien nennen Tadschikistan als Herkunft",
+    "en": "Inaugural PFL champion in the division (Sept. 10, 2026, Super RIZIN 5); also RIZIN champion; some outlets list Tajikistan"
+   }
+  },
+  {
+   "div": {
+    "bg": "Петел категория",
+    "de": "Bantamgewicht",
+    "en": "Bantamweight"
+   },
+   "limit": "bis 61,2 kg (135 lb)",
+   "name": "vakant",
+   "country": "–",
+   "note": {
+    "bg": "Първата титла ще се оспорва между Тейлър Лапилюс и Мич Маки в Лион (дата предстои)",
+    "de": "Erster Titel wird zwischen Taylor Lapilus und Mitch McKee in Lyon vergeben (Termin offen)",
+    "en": "Inaugural title to be decided between Taylor Lapilus and Mitch McKee in Lyon (date TBA)"
+   }
+  },
+  {
+   "div": {
+    "bg": "Перо категория (жени)",
+    "de": "Federgewicht (Frauen)",
+    "en": "Women's Featherweight"
+   },
+   "limit": "bis 65,8 kg (145 lb)",
+   "name": "Cris Cyborg",
+   "country": "Brasilien",
+   "note": {
+    "bg": "Защити титлата на 22 август 2026; остави бъдещето си открито; не е в класацията на pflmma.com",
+    "de": "Verteidigte den Titel am 22. August 2026, ließ ihre Zukunft offen; auf der Rankings-Seite von pflmma.com nicht aufgeführt",
+    "en": "Defended the title on Aug. 22, 2026 and left her future open; not listed on pflmma.com rankings page"
+   }
+  },
+  {
+   "div": {
+    "bg": "Муха категория (жени)",
+    "de": "Fliegengewicht (Frauen)",
+    "en": "Women's Flyweight"
+   },
+   "limit": "bis 56,7 kg (125 lb)",
+   "name": "vakant",
+   "country": "–",
+   "note": {
+    "bg": "Първата титла: Лиз Кармуш срещу Джена Бишъп на 16 октомври в Чикаго",
+    "de": "Erster Titel: Liz Carmouche gegen Jena Bishop am 16. Oktober in Chicago",
+    "en": "Inaugural title: Liz Carmouche vs. Jena Bishop on Oct. 16 in Chicago"
+   }
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-16",
+   "place": "Chicago, USA",
+   "f1": "Liz Carmouche",
+   "f2": "Jena Bishop",
+   "div": {
+    "bg": "Муха категория (жени)",
+    "de": "Fliegengewicht (Frauen)",
+    "en": "Women's Flyweight"
+   },
+   "title": {
+    "bg": "PFL Chicago – главен двубой, мач за първата титла",
+    "de": "PFL Chicago – Hauptkampf, Kampf um den ersten Titel",
+    "en": "PFL Chicago – main event, inaugural title fight"
+   },
+   "note": "Wintrust Arena; Rückkampf"
+  },
+  {
+   "date": "2026-10-16",
+   "place": "Chicago, USA",
+   "f1": "Timur Khizriev",
+   "f2": "Gabriel Braga",
+   "div": {
+    "bg": "Перо категория",
+    "de": "Federgewicht",
+    "en": "Featherweight"
+   },
+   "title": {
+    "bg": "PFL Chicago – съглавен двубой",
+    "de": "PFL Chicago – Co-Hauptkampf",
+    "en": "PFL Chicago – co-main event"
+   },
+   "note": "Rückkampf; Khizriev ungeschlagen (18-0)"
+  },
+  {
+   "date": "2026-11-14",
+   "place": "Dubai, Vereinigte Arabische Emirate",
+   "f1": "Vadim Nemkov",
+   "f2": "Sergei Bilostenniy",
+   "div": {
+    "bg": "Тежка категория",
+    "de": "Schwergewicht",
+    "en": "Heavyweight"
+   },
+   "title": {
+    "bg": "PFL Dubai – главен двубой, мач за титлата",
+    "de": "PFL Dubai – Hauptkampf, Titelkampf",
+    "en": "PFL Dubai – main event, title fight"
+   },
+   "note": "Coca-Cola Arena"
+  }
+ ],
+ "results": [
+  {
+   "date": "2026-09-10",
+   "place": "Japan",
+   "f1": "Razhabali Shaydullaev",
+   "f2": "AJ McKee",
+   "res": {
+    "bg": "единодушно съдийско решение (30-27, 30-27, 30-27)",
+    "de": "einstimmige Punktentscheidung (30-27, 30-27, 30-27)",
+    "en": "unanimous decision (30-27, 30-27, 30-27)"
+   },
+   "div": {
+    "bg": "Перо категория",
+    "de": "Federgewicht",
+    "en": "Featherweight"
+   },
+   "title": {
+    "bg": "Super RIZIN 5 – мач за титлите на RIZIN и PFL",
+    "de": "Super RIZIN 5 – Titelkampf um RIZIN- und PFL-Gürtel",
+    "en": "Super RIZIN 5 – RIZIN and PFL title fight"
+   },
+   "note": "Ort laut PFL Tokio, laut Uncrowned Osaka"
+  },
+  {
+   "date": "2026-08-22",
+   "place": "Tampa, USA",
+   "f1": "Cris Cyborg",
+   "f2": "Ketlen Vieira",
+   "res": {
+    "bg": "единодушно съдийско решение (49-46, 49-46, 48-47)",
+    "de": "einstimmige Punktentscheidung (49-46, 49-46, 48-47)",
+    "en": "unanimous decision (49-46, 49-46, 48-47)"
+   },
+   "div": {
+    "bg": "Перо категория (жени)",
+    "de": "Federgewicht (Frauen)",
+    "en": "Women's Featherweight"
+   },
+   "title": {
+    "bg": "PFL Tampa – главен двубой, защита на титлата",
+    "de": "PFL Tampa – Hauptkampf, Titelverteidigung",
+    "en": "PFL Tampa – main event, title defence"
+   }
+  },
+  {
+   "date": "2026-07-31",
+   "place": "New York, USA",
+   "f1": "Usman Nurmagomedov",
+   "f2": "Archie Colgan",
+   "res": {
+    "bg": "TKO, 1-ви рунд (3:42)",
+    "de": "TKO, 1. Runde (3:42)",
+    "en": "TKO, round 1 (3:42)"
+   },
+   "div": {
+    "bg": "Лека категория",
+    "de": "Leichtgewicht",
+    "en": "Lightweight"
+   },
+   "title": {
+    "bg": "PFL New York – главен двубой, защита на титлата",
+    "de": "PFL New York – Hauptkampf, Titelverteidigung",
+    "en": "PFL New York – main event, title defence"
+   },
+   "note": "UBS Arena; MMA Weekly datiert auf 1. August"
+  },
+  {
+   "date": "2026-07-25",
+   "place": "Washington, D.C., USA",
+   "f1": "Thad Jean",
+   "f2": "Ernesto Rodriguez",
+   "res": {
+    "bg": "TKO, 3-ти рунд",
+    "de": "TKO, 3. Runde",
+    "en": "TKO, round 3"
+   },
+   "div": {
+    "bg": "Полусредна категория",
+    "de": "Weltergewicht",
+    "en": "Welterweight"
+   },
+   "title": {
+    "bg": "PFL Washington – главен двубой, мач за вакантната титла",
+    "de": "PFL Washington – Hauptkampf, Titelkampf um den vakanten Gürtel",
+    "en": "PFL Washington – main event, vacant title fight"
+   }
+  },
+  {
+   "date": "2026-07-18",
+   "place": "Austin, USA",
+   "f1": "Johnny Eblen",
+   "f2": "Impa Kasanganay",
+   "res": {
+    "bg": "KO (удари), 3-ти рунд (2:39)",
+    "de": "KO (Schläge), 3. Runde (2:39)",
+    "en": "KO (punches), round 3 (2:39)"
+   },
+   "div": {
+    "bg": "Средна категория",
+    "de": "Mittelgewicht",
+    "en": "Middleweight"
+   },
+   "title": {
+    "bg": "PFL Austin – главен двубой, временна титла",
+    "de": "PFL Austin – Hauptkampf, Interimstitel",
+    "en": "PFL Austin – main event, interim title"
+   }
+  }
+ ],
+ "src": [
+  {
+   "n": "PFL – Rankings",
+   "u": "https://pflmma.com/rankings"
+  },
+  {
+   "n": "PFL – Startseite/Events",
+   "u": "https://pflmma.com/"
+  },
+  {
+   "n": "PFL – Chicago-Card (23.09.2026)",
+   "u": "https://pflmma.com/news/full-card-finalized-for-pfl-chicago-on-october-16-at-wintrust-arena"
+  },
+  {
+   "n": "PFL – Dubai: Nemkov vs. Bilostenniy",
+   "u": "https://pflmma.com/news/heavyweight-gold-on-the-line-as-vadim-nemkov-defends-his-pfl-world-title-against-sergei-bilostenniy-at-pfl-dubai"
+  },
+  {
+   "n": "PFL – Lyon: Lapilus vs. McKee",
+   "u": "https://pflmma.com/news/history-on-the-line-in-lyon-as-taylor-lapilus-and-mitch-mckee-battle-for-inaugural-pfl-bantamweight-world-title"
+  },
+  {
+   "n": "PFL – Ergebnisse Tampa",
+   "u": "https://pflmma.com/news/complete-pfl-tampa-presented-by-visit-st-peteclearwater-results-and-photos"
+  },
+  {
+   "n": "PFL – Ergebnisse Austin",
+   "u": "https://pflmma.com/news/complete-pfl-austin-results"
+  },
+  {
+   "n": "PFL – Super RIZIN 5",
+   "u": "https://pflmma.com/news/rizin-and-pfl-make-mma-history-with-featherweight-double-title-fight-at-super-rizin5"
+  },
+  {
+   "n": "Uncrowned/Yahoo Sports – Super RIZIN 5",
+   "u": "https://ca.sports.yahoo.com/news/super-rizin-5-results-razhabali-shaydullaev-overwhelms-aj-mckee-to-defend-rizin-title-claim-pfl-gold-010000720.html"
+  },
+  {
+   "n": "MMA Junkie/Yahoo Sports – PFL Washington",
+   "u": "https://uk.sports.yahoo.com/news/pfl-washington-results-thad-jean-043332033.html"
+  },
+  {
+   "n": "Yahoo Sports – PFL New York",
+   "u": "https://sports.yahoo.com/mma/live/pfl-new-york-results-usman-nurmagomedov-obliterates-archie-colgan-on-last-fight-of-deal-dakota-ditcheva-wins-her-return-180016393.html"
+  }
+ ]
+}

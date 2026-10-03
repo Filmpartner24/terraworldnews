@@ -1,0 +1,400 @@
+{
+ "key": "oktagon",
+ "sp": "mma",
+ "name": {
+  "bg": "OKTAGON MMA",
+  "de": "OKTAGON MMA",
+  "en": "OKTAGON MMA"
+ },
+ "full": {
+  "bg": "OKTAGON MMA",
+  "de": "OKTAGON MMA",
+  "en": "OKTAGON MMA"
+ },
+ "asof": "2026-10-03",
+ "champions": [
+  {
+   "div": {
+    "bg": "Тежка категория",
+    "de": "Schwergewicht",
+    "en": "Heavyweight"
+   },
+   "limit": "bis 120,2 kg (265 lb)",
+   "name": "Will Fleury",
+   "country": "Irland"
+  },
+  {
+   "div": {
+    "bg": "Полутежка категория",
+    "de": "Halbschwergewicht",
+    "en": "Light Heavyweight"
+   },
+   "limit": "bis 93 kg (205 lb)",
+   "name": "Makhmud Muradov",
+   "country": "Usbekistan",
+   "note": {
+    "bg": "Също временен шампион в средна категория",
+    "de": "auch Interims-Champion im Mittelgewicht",
+    "en": "Also interim middleweight champion"
+   }
+  },
+  {
+   "div": {
+    "bg": "Средна категория",
+    "de": "Mittelgewicht",
+    "en": "Middleweight"
+   },
+   "limit": "bis 83,9 kg (185 lb)",
+   "name": "Krzysztof Jotko",
+   "country": "Polen",
+   "note": {
+    "bg": "Временен шампион: Махмуд Мурадов",
+    "de": "Interims-Champion: Makhmud Muradov",
+    "en": "Interim champion: Makhmud Muradov"
+   }
+  },
+  {
+   "div": {
+    "bg": "Полусредна категория",
+    "de": "Weltergewicht",
+    "en": "Welterweight"
+   },
+   "limit": "bis 77,1 kg (170 lb)",
+   "name": "vakant",
+   "country": "",
+   "note": {
+    "bg": "Вакантна – Гоголадзе срещу Клинкхамер за титлата на 31.10.",
+    "de": "vakant – Gogoladze vs. Klinkhammer um den Titel am 31.10.",
+    "en": "Vacant – Gogoladze vs. Klinkhammer for the title on 31 Oct"
+   }
+  },
+  {
+   "div": {
+    "bg": "Лека категория",
+    "de": "Leichtgewicht",
+    "en": "Lightweight"
+   },
+   "limit": "bis 70,3 kg (155 lb)",
+   "name": "Mateusz Legierski",
+   "country": "Polen"
+  },
+  {
+   "div": {
+    "bg": "Перо категория",
+    "de": "Federgewicht",
+    "en": "Featherweight"
+   },
+   "limit": "bis 65,8 kg (145 lb)",
+   "name": "vakant",
+   "country": "",
+   "note": {
+    "bg": "Вакантна – Мохамед Мачаев не направи кантар преди OKTAGON 91",
+    "de": "vakant – Mochamed Machaev verpasste vor OKTAGON 91 das Gewicht",
+    "en": "Vacant – Mochamed Machaev missed weight before OKTAGON 91"
+   }
+  },
+  {
+   "div": {
+    "bg": "Петел категория",
+    "de": "Bantamgewicht",
+    "en": "Bantamweight"
+   },
+   "limit": "bis 61,2 kg (135 lb)",
+   "name": "Igor Severino",
+   "country": "Brasilien"
+  },
+  {
+   "div": {
+    "bg": "Муха категория",
+    "de": "Fliegengewicht",
+    "en": "Flyweight"
+   },
+   "limit": "bis 56,7 kg (125 lb)",
+   "name": "Zhalgas Zhumagulov",
+   "country": "Kasachstan"
+  },
+  {
+   "div": {
+    "bg": "Петел категория (жени)",
+    "de": "Bantamgewicht (Frauen)",
+    "en": "Women's Bantamweight"
+   },
+   "limit": "bis 61,2 kg (135 lb)",
+   "name": "Lucia Szabová",
+   "country": "Slowakei",
+   "note": {
+    "bg": "Защити титлата на 01.08.2026; страницата с ранглисти не показва шампион",
+    "de": "Titel am 01.08.2026 verteidigt; Ranking-Seite zeigt keinen Champion",
+    "en": "Defended the title on 1 Aug 2026; rankings page shows no champion"
+   }
+  },
+  {
+   "div": {
+    "bg": "Муха категория (жени)",
+    "de": "Fliegengewicht (Frauen)",
+    "en": "Women's Flyweight"
+   },
+   "limit": "bis 56,7 kg (125 lb)",
+   "name": "Lucia Szabová",
+   "country": "Slowakei",
+   "note": {
+    "bg": "Според профила ѝ в oktagonmma.com; страницата с ранглисти показва „TBD“",
+    "de": "laut Kämpferprofil auf oktagonmma.com; Ranking-Seite zeigt „TBD“",
+    "en": "Per her oktagonmma.com profile; rankings page shows 'TBD'"
+   }
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-17",
+   "place": "Mattoni Arena, Karlovy Vary, Tschechien",
+   "f1": "Patrik Kincl",
+   "f2": "Dominik Humburger",
+   "div": {
+    "bg": "Средна категория",
+    "de": "Mittelgewicht",
+    "en": "Middleweight"
+   },
+   "title": {
+    "bg": "OKTAGON 95 – главен мач",
+    "de": "OKTAGON 95 – Hauptkampf",
+    "en": "OKTAGON 95 – main event"
+   },
+   "note": "Kein Titelkampf; Sieger soll Anwärter auf den Mittelgewichtstitel werden."
+  },
+  {
+   "date": "2026-10-31",
+   "place": "SAP Garden, München, Deutschland",
+   "f1": "Amiran Gogoladze",
+   "f2": "Felix Klinkhammer",
+   "div": {
+    "bg": "Полусредна категория",
+    "de": "Weltergewicht",
+    "en": "Welterweight"
+   },
+   "title": {
+    "bg": "OKTAGON 96 – главен мач, мач за титлата",
+    "de": "OKTAGON 96 – Hauptkampf, Titelkampf",
+    "en": "OKTAGON 96 – main event, title fight"
+   }
+  },
+  {
+   "date": "2026-11-07",
+   "place": "ZAG Arena, Hannover, Deutschland",
+   "f1": "Igor Severino",
+   "f2": "Max Holzer",
+   "div": {
+    "bg": "Петел категория",
+    "de": "Bantamgewicht",
+    "en": "Bantamweight"
+   },
+   "title": {
+    "bg": "OKTAGON 97 – главен мач, мач за титлата",
+    "de": "OKTAGON 97 – Hauptkampf, Titelkampf",
+    "en": "OKTAGON 97 – main event, title fight"
+   }
+  },
+  {
+   "date": "2026-11-21",
+   "place": "WERK Arena, Třinec, Tschechien",
+   "f1": "Mateusz Legierski",
+   "f2": "Ivan Buchinger",
+   "div": {
+    "bg": "Лека категория",
+    "de": "Leichtgewicht",
+    "en": "Lightweight"
+   },
+   "title": {
+    "bg": "OKTAGON 98 – главен мач, мач за титлата",
+    "de": "OKTAGON 98 – Hauptkampf, Titelkampf",
+    "en": "OKTAGON 98 – main event, title fight"
+   },
+   "note": "Titelstatus nur aus Legierskis Kämpferprofil (Buchinger als Nr. 1 der Rangliste); Eventseite nennt keinen Titel."
+  },
+  {
+   "date": "2026-12-29",
+   "place": "O2 Arena, Prag, Tschechien",
+   "f1": "Krzysztof Jotko",
+   "f2": "Makhmud Muradov",
+   "div": {
+    "bg": "Средна категория",
+    "de": "Mittelgewicht",
+    "en": "Middleweight"
+   },
+   "title": {
+    "bg": "OKTAGON 100 – обединителен мач за титлата",
+    "de": "OKTAGON 100 – Titelvereinigung",
+    "en": "OKTAGON 100 – title unification"
+   }
+  }
+ ],
+ "results": [
+  {
+   "date": "2026-09-26",
+   "place": "Deutsche Bank Park, Frankfurt am Main, Deutschland",
+   "f1": "David Kozma",
+   "f2": "Christian Eckerlin",
+   "res": {
+    "bg": "Събмишън (задушаване отзад), 1-ви рунд (4:58)",
+    "de": "Submission (Rear-Naked Choke), 1. Runde (4:58)",
+    "en": "Submission (rear-naked choke), round 1 (4:58)"
+   },
+   "div": {
+    "bg": "Полусредна категория",
+    "de": "Weltergewicht",
+    "en": "Welterweight"
+   },
+   "title": {
+    "bg": "OKTAGON 94 – главен мач",
+    "de": "OKTAGON 94 – Hauptkampf",
+    "en": "OKTAGON 94 – main event"
+   }
+  },
+  {
+   "date": "2026-08-01",
+   "place": "Štvanice, Prag, Tschechien",
+   "f1": "Lucia Szabová",
+   "f2": "Lucie Pudilová",
+   "res": {
+    "bg": "Единодушно съдийско решение",
+    "de": "einstimmige Punktentscheidung",
+    "en": "Unanimous decision"
+   },
+   "div": {
+    "bg": "Петел категория (жени)",
+    "de": "Bantamgewicht (Frauen)",
+    "en": "Women's Bantamweight"
+   },
+   "title": {
+    "bg": "OKTAGON 92 – главен мач, мач за титлата",
+    "de": "OKTAGON 92 – Hauptkampf, Titelkampf",
+    "en": "OKTAGON 92 – main event, title fight"
+   }
+  },
+  {
+   "date": "2026-08-01",
+   "place": "Štvanice, Prag, Tschechien",
+   "f1": "Makhmud Muradov",
+   "f2": "Will Fleury",
+   "res": {
+    "bg": "TKO (удари), 2-ри рунд (0:19)",
+    "de": "TKO (Schläge), 2. Runde (0:19)",
+    "en": "TKO (punches), round 2 (0:19)"
+   },
+   "div": {
+    "bg": "Полутежка категория",
+    "de": "Halbschwergewicht",
+    "en": "Light Heavyweight"
+   },
+   "title": {
+    "bg": "OKTAGON 92 – мач за титлата (нов шампион)",
+    "de": "OKTAGON 92 – Titelkampf (neuer Champion)",
+    "en": "OKTAGON 92 – title fight (new champion)"
+   }
+  },
+  {
+   "date": "2026-07-11",
+   "place": "Lanxess Arena, Köln, Deutschland",
+   "f1": "Krzysztof Jotko",
+   "f2": "Kerim Engizek",
+   "res": {
+    "bg": "Единодушно съдийско решение (48:46 ×3)",
+    "de": "einstimmige Punktentscheidung (3× 48:46)",
+    "en": "Unanimous decision (48-46 x3)"
+   },
+   "div": {
+    "bg": "Средна категория",
+    "de": "Mittelgewicht",
+    "en": "Middleweight"
+   },
+   "title": {
+    "bg": "OKTAGON 91 – главен мач, мач за титлата",
+    "de": "OKTAGON 91 – Hauptkampf, Titelkampf",
+    "en": "OKTAGON 91 – main event, title fight"
+   }
+  },
+  {
+   "date": "2026-07-11",
+   "place": "Lanxess Arena, Köln, Deutschland",
+   "f1": "Mochamed Machaev",
+   "f2": "Gjoni Palokaj",
+   "res": {
+    "bg": "TKO (удари), 1-ви рунд (2:34)",
+    "de": "TKO (Schläge), 1. Runde (2:34)",
+    "en": "TKO (punches), round 1 (2:34)"
+   },
+   "div": {
+    "bg": "Перо категория",
+    "de": "Federgewicht",
+    "en": "Featherweight"
+   },
+   "title": {
+    "bg": "OKTAGON 91 – титлата остава вакантна (Мачаев не направи кантар)",
+    "de": "OKTAGON 91 – Titel bleibt vakant (Machaev über dem Limit)",
+    "en": "OKTAGON 91 – title stays vacant (Machaev missed weight)"
+   }
+  }
+ ],
+ "src": [
+  {
+   "n": "OKTAGON MMA – Rankings (Stand 30.09.2026)",
+   "u": "https://oktagonmma.com/en/rankings/"
+  },
+  {
+   "n": "OKTAGON MMA – Events",
+   "u": "https://oktagonmma.com/en/events/"
+  },
+  {
+   "n": "OKTAGON – Profil Makhmud Muradov",
+   "u": "https://oktagonmma.com/en/fighters/makhmud-muradov/"
+  },
+  {
+   "n": "OKTAGON – Profil Krzysztof Jotko",
+   "u": "https://oktagonmma.com/en/fighters/krzysztof-jotko/"
+  },
+  {
+   "n": "OKTAGON – Profil Lucia Szabová",
+   "u": "https://oktagonmma.com/en/fighters/lucia-szabova/"
+  },
+  {
+   "n": "OKTAGON – Profil Mateusz Legierski",
+   "u": "https://oktagonmma.com/en/fighters/mateusz-legierski/"
+  },
+  {
+   "n": "OKTAGON – Profil Igor Severino",
+   "u": "https://oktagonmma.com/en/fighters/igor-severino/"
+  },
+  {
+   "n": "OKTAGON 96 München",
+   "u": "https://oktagonmma.com/en/events/oktagon-96-munich/"
+  },
+  {
+   "n": "OKTAGON 95 Karlovy Vary",
+   "u": "https://oktagonmma.com/en/events/oktagon-95-karlovy-vary/"
+  },
+  {
+   "n": "OKTAGON 92 Prag",
+   "u": "https://oktagonmma.com/en/events/oktagon-92-prague/"
+  },
+  {
+   "n": "Sherdog – OKTAGON 92",
+   "u": "https://www.sherdog.com/events/Oktagon-MMA-Oktagon-92-Szabova-vs-Pudilova-111479"
+  },
+  {
+   "n": "Cageside Press – OKTAGON 92",
+   "u": "https://cagesidepress.com/2026/08/01/oktagon-92-szabova-vs-pudilova-full-results/"
+  },
+  {
+   "n": "Combat Press – OKTAGON 91",
+   "u": "https://combatpress.com/2026/07/oktagon-91-jotko-vs-engizek-results-and-video/"
+  },
+  {
+   "n": "Combat Press – OKTAGON 94",
+   "u": "https://combatpress.com/2026/09/oktagon-94-kozma-submits-eckerlin-vemola-tkos-vosgrone/"
+  },
+  {
+   "n": "Refresher – Muradov vs. Jotko bei OKTAGON 100 (26.09.2026)",
+   "u": "https://refresher.cz/211790-Muradov-vyzve-Jotka-v-O2-arene-OKTAGON-miri-take-do-Rakouska-a-na-stadion-pro-60-tisic-divaku"
+  }
+ ]
+}
