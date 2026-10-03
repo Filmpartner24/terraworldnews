@@ -709,3 +709,7 @@ nav.sections.nv2{border-top:0;border-bottom:0}@media (max-width:860px){.nv2 .nav
 .nv2 .nav-items a:hover::after,.nv2 .nav-items a:active::after,.nv2 .nav-items a:focus::after{background:#ff2a30}
 @media (max-width:860px){.nv2 .nav-items a:active,.nv2 .nav-items a:focus{background:rgba(212,22,28,.35)}}
 .nv2 .nav-dd .dd a:active,.nv2 .nav-dd .dd a:focus{background:#d4161c;color:#fff}
+/* Aktiver Sport-Unterpunkt: kein heller Hintergrund (alte Regel überschreiben) */
+nav.sections.nv2 .nav-dd .dd a[aria-current="page"]{background:none;color:#fff}
+nav.sections.nv2 .nav-dd .dd a:hover{background:#d4161c;color:#fff}
+@media (hover:none){nav.sections.nv2 .nav-dd .dd a:hover:not(:active){background:none}}
