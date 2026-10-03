@@ -596,13 +596,23 @@ def bx_card(k, l, today):
 def bx_news_grid(items, l):
     def small(x):
         st = f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else ''
-        return f'<article class="gs"><a href="{art_url(x, l)}"><div class="gs-img"{st}></div>{kick(x, l)}<h3>{e(x[l]["t"])}</h3></a></article>'
+        pl = '<span class="rt-play" aria-hidden="true">▶</span>' if x.get('yt') else ''
+        return f'<article class="gs"><a href="{art_url(x, l)}"><div class="gs-img"{st}>{pl}</div>{kick(x, l)}<h3>{e(x[l]["t"])}</h3></a></article>'
     return f'<div class="gs-grid">{"".join(small(x) for x in items)}</div>' if items else ''
 
 def bx_overview(l, today, news, others):
     f = BXU[l]; title = f'{SEC[l]["sport"][0]} · {SUB[l]["boxen"][0]}'
     cards = ''.join(bx_card(k, l, today) for k in BX_ORDER if k in BX)
-    nh = f'<h2 class="gp-h">{e(f["news"])}</h2>{bx_news_grid(news[:9], l)}' if news else ''
+    fj = [x for x in news if x.get('fj')]
+    rest = [x for x in news if not x.get('fj')]
+    fjh = ''
+    if fj:
+        import datetime as _d
+        dd = (_d.date(2026, 12, 11) - _d.date.fromisoformat(today)).days
+        cd = {'bg': f'още {dd} дни', 'de': f'noch {dd} Tage', 'en': f'{dd} days to go'}[l] if dd > 0 else ''
+        fjh = (f'<section class="bx-fj"><h2 class="gp-h">Fury vs. Joshua <span class="fb-rdd">{e({"bg": "11.12.2026 · Кардиф", "de": "11.12.2026 · Cardiff", "en": "11 Dec 2026 · Cardiff"}[l])}</span>'
+               + (f' <span class="bx-cd">{e(cd)}</span>' if cd else '') + f'</h2>{bx_news_grid(fj[:6], l)}</section>')
+    nh = fjh + (f'<h2 class="gp-h">{e(f["news"])}</h2>{bx_news_grid(rest[:9], l)}' if rest else '')
     return (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(title)}</h1><span class="gp-date">{e(nice_date(today, l))}</span></div>'
             f'<div class="gp-main"><div class="gp-panel"><h2 class="gp-h">{e(f["orgs"])}</h2><div class="fb-grid bx-grid">{cards}</div>{nh}</div>'
             f'<aside class="sec-side"><h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
