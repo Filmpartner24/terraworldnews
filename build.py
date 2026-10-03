@@ -213,7 +213,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
     <p class="brand"><a href="{pre(l)}"><img class="mast-logo" src="/assets/terra-masthead5-800.webp" srcset="/assets/terra-masthead5-800.webp 800w, /assets/terra-masthead5-1600.webp 1600w" sizes="(max-width: 700px) 86vw, 620px" width="800" height="209" alt="TERRA WORLD NEWS" fetchpriority="high"></a></p>
     <div class="edition"><span class="ed-clock" id="edclock"><span class="ed-city">{e(u['clocks'][0][0])}</span> <b data-tz="Europe/Berlin">--:--</b></span><span class="mid">{e(nice_date(date, l)) if date else ''}</span><span class="ed-wx" id="edwx" title="{e(WXT[l])}"></span></div>
   </header>
-  <nav class="sections" aria-label="{e(u['home'])}">{nav}</nav>
+  <nav class="sections" id="mainnav" aria-label="{e(u['home'])}"><button type="button" class="nav-tg" aria-expanded="false" aria-controls="navitems"><span class="hb" aria-hidden="true"><i></i><i></i><i></i></span><span class="nav-tl">{ {'bg': 'Меню', 'de': 'Menü', 'en': 'Menu'}.get(l, 'Menu') }</span><span class="nav-cur">{e(next((SEC[l][s][0] for s in SECTIONS if canon.startswith(sec_url(s, l))), ''))}</span></button><div class="nav-items" id="navitems">{nav}</div></nav>
   {tick}{ticker2}
   <main id="main">
 {body}
