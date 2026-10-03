@@ -434,13 +434,14 @@ def media_article(it, l, paras, facts, noadv, rel, side, SX):
 
 # ---- Fußball: Ligen, Tabellen, Spieltage, Pokale (Daten: content/football/*.json, openfootball CC0 + Redaktion)
 FB = {}
-FB_ORDER = ['premier-league', 'bundesliga', 'la-liga', 'ligue-1', 'serie-a']
+FB_ORDER = ['premier-league', 'bundesliga', 'la-liga', 'ligue-1', 'serie-a', 'parva-liga']
+def fb_order(l): return (['parva-liga'] + [k for k in FB_ORDER if k != 'parva-liga']) if l == 'bg' else FB_ORDER
 FBU = {'bg': dict(season='Сезон', table='Класиране', next='Предстоящ кръг', done='Изиграни кръгове', md='{n}. кръг', cups='Купи', pos='#', team='Отбор', p='М', w='П', d='Р', l='З', g='Голове', gd='ГР', pts='Т',
-                  leagues='Лиги', leader='Лидер', lead_pts='т.', ko='Начален час: българско време', noft='–', src='Данни', open='Към лигата →', upcoming='Предстои', pens='дузпи', aet='след продълж.', tbd='Предстои жребий', nomatch='Все още няма мачове.'),
+                  leagues='Лиги', leader='Лидер', lead_pts='т.', ko='Начален час: българско време', noft='–', pp='отложен', src='Данни', open='Към лигата →', upcoming='Предстои', pens='дузпи', aet='след продълж.', tbd='Предстои жребий', nomatch='Все още няма мачове.'),
        'de': dict(season='Saison', table='Tabelle', next='Nächster Spieltag', done='Abgeschlossene Spieltage', md='{n}. Spieltag', cups='Pokale', pos='Pl.', team='Verein', p='Sp', w='S', d='U', l='N', g='Tore', gd='Diff', pts='Pkt',
-                  leagues='Ligen', leader='Tabellenführer', lead_pts='Pkt.', ko='Anstoßzeiten: deutsche Zeit', noft='–', src='Daten', open='Zur Liga →', upcoming='Anstehend', pens='i.E.', aet='n.V.', tbd='Auslosung steht aus', nomatch='Noch keine Spiele.'),
+                  leagues='Ligen', leader='Tabellenführer', lead_pts='Pkt.', ko='Anstoßzeiten: deutsche Zeit', noft='–', pp='verlegt', src='Daten', open='Zur Liga →', upcoming='Anstehend', pens='i.E.', aet='n.V.', tbd='Auslosung steht aus', nomatch='Noch keine Spiele.'),
        'en': dict(season='Season', table='Table', next='Next matchday', done='Completed matchdays', md='Matchday {n}', cups='Cups', pos='#', team='Club', p='P', w='W', d='D', l='L', g='Goals', gd='GD', pts='Pts',
-                  leagues='Leagues', leader='Leader', lead_pts='pts', ko='Kick-off times: Central European Time', noft='–', src='Data', open='Go to league →', upcoming='Upcoming', pens='pens', aet='a.e.t.', tbd='Draw pending', nomatch='No matches yet.')}
+                  leagues='Leagues', leader='Leader', lead_pts='pts', ko='Kick-off times: Central European Time', noft='–', pp='postponed', src='Data', open='Go to league →', upcoming='Upcoming', pens='pens', aet='a.e.t.', tbd='Draw pending', nomatch='No matches yet.')}
 FB_IMG = {}   # key -> img dict (Commons), aus content/football/_images.json
 
 def fb_load():
@@ -489,8 +490,8 @@ def fb_rounds(lg):
 
 def fb_state(lg, today):
     rs = fb_rounds(lg)
-    done = [r for r, ms in rs.items() if all(m.get('ft') is not None for m in ms)]
-    nxt = next((r for r, ms in rs.items() if any(m.get('ft') is None for m in ms)), None)
+    done = [r for r, ms in rs.items() if all(m.get('ft') is not None or m.get('status') == 'postponed' for m in ms) and any(m.get('ft') is not None for m in ms)]
+    nxt = next((r for r, ms in rs.items() if any(m.get('ft') is None and m.get('status') != 'postponed' for m in ms)), None)
     return rs, done, nxt
 
 def fb_note(n, l):
@@ -500,7 +501,7 @@ def fb_note(n, l):
 def fb_match_row(m, lg, l, cup=False):
     a, b = (m.get('t1') or m.get('team1')), (m.get('t2') or m.get('team2'))
     ft = m.get('ft')
-    sc = f'<b class="fb-sc">{ft[0]}:{ft[1]}</b>' if ft is not None else f'<span class="fb-sc fb-open">{e(FBU[l]["noft"])}</span>'
+    sc = f'<b class="fb-sc">{ft[0]}:{ft[1]}</b>' if ft is not None else (f'<span class="fb-sc fb-open fb-pp">{e(FBU[l]["pp"])}</span>' if m.get('status') == 'postponed' else f'<span class="fb-sc fb-open">{e(FBU[l]["noft"])}</span>')
     when = fb_dt(m, lg, l) if not cup else ('.'.join(reversed(m['date'].split('-'))) if re.match(r'^\d{4}-\d{2}-\d{2}$', m.get('date', '')) else e(m.get('date', '')))
     note = f' <span class="fb-note">{e(fb_note(m.get("note"), l))}</span>' if m.get('note') else ''
     return f'<tr><td class="fb-when">{when}</td><td class="fb-t1">{e(a)}</td><td class="fb-scc">{sc}</td><td class="fb-t2">{e(b)}{note}</td></tr>'
@@ -520,7 +521,7 @@ def fb_league_card(k, l, today):
 def fb_overview(l, today, news_html, others):
     f = FBU[l]; title = f'{SEC[l]["sport"][0]} · {SUB[l]["fussball"][0]}'
     seasons = sorted({FB[k]['season'] for k in FB})
-    cards = ''.join(fb_league_card(k, l, today) for k in FB_ORDER if k in FB)
+    cards = ''.join(fb_league_card(k, l, today) for k in fb_order(l) if k in FB)
     return (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(title)}</h1><span class="gp-date">{e(f["season"])} {e(" / ".join(seasons))}</span></div>'
             f'<div class="gp-main"><div class="gp-panel"><h2 class="gp-h">{e(f["leagues"])}</h2><div class="fb-grid">{cards}</div>{news_html}</div>'
             f'<aside class="sec-side"><h2 class="list-h">{e(UI[l]["more"] if False else {"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
@@ -552,7 +553,7 @@ def fb_league_page(k, l, today, others):
     im = FB_IMG.get(k)
     hero = (f'<div class="ga-media"><div class="fb-hero" style="background-image:url({im["f"]})"><span class="gr-badge">{e(f["season"])} {e(lg["season"])}</span></div>'
             f'<p class="gr-cr">{e(im.get("alt", {}).get(l, ""))} · {credit(im, l, True)}</p></div>') if im else ''
-    others_l = ''.join(f'<li><a href="{fb_url(x, l)}"{" aria-current=page" if x == k else ""}>{e(FB[x]["name"][l])}</a></li>' for x in FB_ORDER if x in FB)
+    others_l = ''.join(f'<li><a href="{fb_url(x, l)}"{" aria-current=page" if x == k else ""}>{e(FB[x]["name"][l])}</a></li>' for x in fb_order(l) if x in FB)
     return (f'<div class="gp gp-sport fb-page"><div class="gp-head"><h1 class="gp-title">{e(lg["name"][l])}</h1><span class="fb-season">{e(f["season"])} {e(lg["season"])}</span></div>'
             f'<div class="gp-main"><div class="gp-panel">{hero}<h2 class="gp-h">{e(f["table"])}</h2>{table}{nx}'
             + (f'<h2 class="gp-h">{e(f["cups"])}</h2>{cups}' if cups else '') +
