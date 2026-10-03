@@ -484,3 +484,13 @@ table.biz-t tbody tr:nth-child(even){background:rgba(10,125,90,.05)}
 .ga-back a{font-family:var(--label);font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--gy)}
 @media (max-width:560px){.ga-panel{padding:16px 14px 22px}.ga-body{font-size:17px}}
 .ga .gp-head a.ga-sec{font-weight:700}
+/* ---- Sport (Orange/Blau) im Medien-Layout */
+.gp-sport{--gx:#f97316;--gy:#38bdf8}
+.gp-sport .gp-head{background:linear-gradient(100deg,#07111f 0%,#0c2a4a 55%,#7a2e06 100%)}
+.gp-sport .gp-title{text-shadow:0 0 18px rgba(249,115,22,.7)}
+.gp-sport .gp-date,.gp-sport .gr-meta,.gp-sport .gs .kick,.gp-sport .ga-panel .kick{color:#fed7aa}
+.gp-sport .gp-panel{background:#07111f}
+.gp-sport .gr{border-bottom-color:#1c2f48}
+.gp-sport .gr-score{background:linear-gradient(90deg,#f97316,#c2410c)}
+.gp-empty{color:#cbd5e1;font-family:var(--label);font-size:15px;padding:30px 0 10px}
+.subnav + .gp{margin-top:6px}
