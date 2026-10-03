@@ -64,8 +64,13 @@ document.addEventListener('click',function(ev){if(n.classList.contains('open')&&
 
 /* Mobil-Menü als eigenes Fenster: unter der Leiste fixiert, innen scrollbar, Seite dahinter gesperrt */
 (function(){var n=document.getElementById('mainnav');if(!n)return;var b=n.querySelector('.nav-tg'),it=document.getElementById('navitems'),bar=n.querySelector('.nv-bar');if(!b||!it||!bar)return;
-function place(){if(!n.classList.contains('open')||innerWidth>860){it.style.top=it.style.left=it.style.width=it.style.maxHeight='';document.documentElement.classList.remove('nav-lock');return;}
-var r=bar.getBoundingClientRect();it.style.top=r.bottom+'px';it.style.left=r.left+'px';it.style.width=r.width+'px';it.style.maxHeight=(innerHeight-r.bottom)+'px';document.documentElement.classList.add('nav-lock');}
+var ly=null,bs=document.body.style;
+function lock(){if(ly!==null)return;ly=scrollY;bs.position='fixed';bs.top=(-ly)+'px';bs.left='0';bs.right='0';bs.width='100%';document.documentElement.classList.add('nav-lock');}
+function unlock(){if(ly===null)return;bs.position=bs.top=bs.left=bs.right=bs.width='';document.documentElement.classList.remove('nav-lock');var y=ly;ly=null;scrollTo(0,y);}
+function place(){if(!n.classList.contains('open')||innerWidth>860){it.style.top=it.style.left=it.style.width=it.style.maxHeight='';unlock();return;}
+lock();var r=bar.getBoundingClientRect();it.style.top=r.bottom+'px';it.style.left=r.left+'px';it.style.width=r.width+'px';it.style.maxHeight=(innerHeight-r.bottom)+'px';}
+document.addEventListener('touchmove',function(ev){if(ly!==null&&!it.contains(ev.target))ev.preventDefault();},{passive:false});
+document.addEventListener('wheel',function(ev){if(ly!==null&&!it.contains(ev.target))ev.preventDefault();},{passive:false});
 b.addEventListener('click',function(){if(n.classList.contains('open')&&innerWidth<=860){var t=n.getBoundingClientRect().top;if(t>0)scrollTo(0,scrollY+t+2);}setTimeout(place,30);});document.addEventListener('click',function(){setTimeout(place,0);});
 addEventListener('resize',place);addEventListener('orientationchange',place);
 document.addEventListener('keydown',function(ev){if(ev.key==='Escape')setTimeout(place,0);});})();
