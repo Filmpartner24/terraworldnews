@@ -1,65 +1,230 @@
 {
  "date": "2026-10-02",
- "views": 7,
- "visits": 6,
+ "views": 80,
+ "visits": 13,
  "countries": [
   {
    "k": "US",
-   "views": 7,
+   "views": 8,
+   "visits": 7
+  },
+  {
+   "k": "DE",
+   "views": 72,
    "visits": 6
   }
  ],
  "referers": [
   {
    "k": "(direkt)",
-   "views": 6,
-   "visits": 6
+   "views": 13,
+   "visits": 13
+  },
+  {
+   "k": "www.terraworldnews.com",
+   "views": 61,
+   "visits": 0
   },
   {
    "k": "terraworldnews.com",
-   "views": 1,
+   "views": 6,
    "visits": 0
   }
  ],
  "paths": [
   {
    "k": "/",
-   "views": 5,
-   "visits": 5
+   "views": 12,
+   "visits": 7
   },
   {
    "k": "/de/",
-   "views": 1,
+   "views": 8,
+   "visits": 4
+  },
+  {
+   "k": "/de/welt/",
+   "views": 7,
+   "visits": 0
+  },
+  {
+   "k": "/de/bulgarien/",
+   "views": 5,
+   "visits": 0
+  },
+  {
+   "k": "/razvlechenia/",
+   "views": 4,
+   "visits": 0
+  },
+  {
+   "k": "/de/deutschland/",
+   "views": 3,
+   "visits": 0
+  },
+  {
+   "k": "/de/wirtschaft/",
+   "views": 3,
+   "visits": 0
+  },
+  {
+   "k": "/de/klima/",
+   "views": 3,
+   "visits": 0
+  },
+  {
+   "k": "/de/technologie/",
+   "views": 3,
+   "visits": 0
+  },
+  {
+   "k": "/germania/",
+   "views": 3,
+   "visits": 0
+  },
+  {
+   "k": "/de/entertainment/",
+   "views": 2,
+   "visits": 0
+  },
+  {
+   "k": "/de/leben-alltag/",
+   "views": 2,
+   "visits": 0
+  },
+  {
+   "k": "/de/nachrichten/2026/10/02/film-skapa-mariya-statulova-sofia-documental",
+   "views": 2,
+   "visits": 0
+  },
+  {
+   "k": "/de/nachrichten/2026/10/02/bg-fon-der-layen-mickoski-dialog-balgaria",
+   "views": 2,
+   "visits": 0
+  },
+  {
+   "k": "/zhivot/",
+   "views": 2,
    "visits": 0
   },
   {
    "k": "/en/",
+   "views": 2,
+   "visits": 2
+  },
+  {
+   "k": "/de/nachrichten/2026/10/02/musik-drake-habibti-fomo-deluxe-streaming",
    "views": 1,
-   "visits": 1
+   "visits": 0
+  },
+  {
+   "k": "/de/nachrichten/2026/10/02/wirtschaft-usa-arbeitsmarkt-september-29000-jobs",
+   "views": 1,
+   "visits": 0
+  },
+  {
+   "k": "/de/nachrichten/2026/10/01/us-fiscal-year-starts-pocket-rescission-gao",
+   "views": 1,
+   "visits": 0
+  },
+  {
+   "k": "/novini/2026/10/02/welt-g7-oelreserven-100-mio-barrel",
+   "views": 1,
+   "visits": 0
+  },
+  {
+   "k": "/novini/2026/10/02/bg-fon-der-layen-mickoski-dialog-balgaria",
+   "views": 1,
+   "visits": 0
+  },
+  {
+   "k": "/novini/2026/10/02/wirtschaft-usa-arbeitsmarkt-september-29000-jobs",
+   "views": 1,
+   "visits": 0
+  },
+  {
+   "k": "/novini/2026/10/02/film-verity-hathaway-johnson-kinostart",
+   "views": 1,
+   "visits": 0
+  },
+  {
+   "k": "/balgaria/",
+   "views": 1,
+   "visits": 0
+  },
+  {
+   "k": "/novini/2026/10/02/film-corpus-delicti-juli-zeh-kinostart",
+   "views": 1,
+   "visits": 0
+  },
+  {
+   "k": "/de/nachrichten/2026/10/02/film-oscar-pakistan-hanging-by-a-wire",
+   "views": 1,
+   "visits": 0
+  },
+  {
+   "k": "/novini/2026/10/02/film-digger-cruise-kinostart-flop-prognose",
+   "views": 1,
+   "visits": 0
+  },
+  {
+   "k": "/en/everyday-life/",
+   "views": 1,
+   "visits": 0
+  },
+  {
+   "k": "/de/nachrichten/2026/10/02/musik-quavo-qromelife-pharrell",
+   "views": 1,
+   "visits": 0
+  },
+  {
+   "k": "/de/nachrichten/2026/10/01/iran-usa-otgovor",
+   "views": 1,
+   "visits": 0
+  },
+  {
+   "k": "/svyat/",
+   "views": 1,
+   "visits": 0
+  },
+  {
+   "k": "/novini/2026/10/02/europa-eurozone-inflation-september-3-8",
+   "views": 1,
+   "visits": 0
+  },
+  {
+   "k": "/de/nachrichten/2026/10/02/welt-g7-oelreserven-100-mio-barrel",
+   "views": 1,
+   "visits": 0
   }
  ],
  "devices": [
   {
    "k": "desktop",
-   "views": 5,
-   "visits": 4
+   "views": 69,
+   "visits": 7
   },
   {
    "k": "mobile",
-   "views": 2,
-   "visits": 2
+   "views": 11,
+   "visits": 6
   }
  ],
  "hosts": [
   {
-   "k": "terraworldnews.com",
-   "views": 5,
-   "visits": 4
+   "k": "www.terraworldnews.com",
+   "views": 66,
+   "visits": 5
   },
   {
-   "k": "www.terraworldnews.com",
-   "views": 2,
-   "visits": 2
+   "k": "terraworldnews.com",
+   "views": 13,
+   "visits": 7
+  },
+  {
+   "k": "terraworldnews.pages.dev",
+   "views": 1,
+   "visits": 1
   }
  ],
  "hours": [
@@ -82,12 +247,27 @@
    "k": "12",
    "views": 2,
    "visits": 1
+  },
+  {
+   "k": "19",
+   "views": 4,
+   "visits": 4
+  },
+  {
+   "k": "20",
+   "views": 66,
+   "visits": 1
+  },
+  {
+   "k": "21",
+   "views": 3,
+   "visits": 2
   }
  ],
  "lang_views": {
-  "bg": 5,
-  "de": 1,
-  "en": 1
+  "bg": 30,
+  "de": 47,
+  "en": 3
  },
- "fetched": "2026-10-02T19:33+02:00"
+ "fetched": "2026-10-03T05:00+02:00"
 }
