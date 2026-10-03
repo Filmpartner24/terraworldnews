@@ -200,7 +200,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
 {body}
   </main>
   <footer>
-    <div><a href="{pre(l)}" class="brand-s"><img src="/assets/twn-logo-480.webp" srcset="/assets/twn-logo-480.webp 480w, /assets/twn-logo-960.webp 960w" sizes="240px" width="480" height="148" alt="TWN – TERRA WORLD NEWS" loading="lazy"></a>{e(u['foot'])}<br>{e(u['publisher'])}</div>
+    <div><a href="{pre(l)}" class="brand-s"><img src="/assets/twn-logo2-480.webp" srcset="/assets/twn-logo2-480.webp 480w, /assets/twn-logo2-960.webp 960w" sizes="240px" width="480" height="133" alt="TWN – TERRA WORLD NEWS" loading="lazy"></a>{e(u['foot'])}<br>{e(u['publisher'])}</div>
     <nav><a href="{legal_url('about', l)}">{e(u['about'])}</a><a href="{legal_url('imprint', l)}">{e(u['imprint'])}</a><a href="{legal_url('privacy', l)}">{e(u['privacy'])}</a><a href="{legal_url('principles', l)}">{e(u['principles'])}</a><a href="{pre(l)}rss.xml">{e(u['rss'])}</a></nav>
   </footer>
 </div>
