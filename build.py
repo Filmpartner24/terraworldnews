@@ -393,6 +393,41 @@ def games_page(l, its, day0, others, SX, kind='games'):
     html += f'</div><aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{others}</aside></div></div>'
     return html
 
+def media_article(it, l, paras, facts, noadv, rel, side, SX):
+    """Artikel-/Review-Seite für Games, Film und Musik im Layout der Rubrikseite."""
+    u = UI[l]; kind = it['s']; g = dict(GPU[l]); g.update(MPU.get(kind, {}).get(l, {}))
+    T = it[l]; rv = it.get('rv', {}); im = it.get('img')
+    sc = rv.get('score', {}).get(l) if isinstance(rv.get('score'), dict) else rv.get('score')
+    meta = ' · '.join(x for x in [rv.get('pf'), (g['rel'] + ' ' + rv['rel']) if rv.get('rel') else '', ((g['devl'] + ' ' + rv['dev']) if g.get('devl') else rv['dev']) if rv.get('dev') else ''] if x)
+    bg = f' style="background-image:url({im["f"]})"' if im else ''
+    cvl = {'bg': 'Обложка', 'de': 'Albumcover', 'en': 'Album cover'}[l]
+    cr = (f'<p class="gr-cr">{credit(im, l, True)}' + (f' · {cvl} {e(it["cover"].get("cr", ""))}' if it.get('cover') else '') + '</p>') if im else ''
+    if it.get('yt'):
+        v = it['yt'] if isinstance(it['yt'], dict) else it['yt'][0]
+        cov = f'<img class="gr-cover" src="{e(it["cover"]["f"])}" alt="{e(it["cover"].get("alt", {}).get(l, ""))}" width="600" height="600">' if it.get('cover') else ''
+        badge = f'<span class="gr-badge">{g["badge"]}</span>' if rv else ''
+        media = (f'<div class="ga-media"><div class="yt gr-yt" data-yt="{e(v["id"])}"{bg}>{badge}{cov}<button type="button" class="yt-play">{e(g.get("playb") or u["play"])}</button>'
+                 f'<span class="yt-note">{e(u["ytnote"])}</span></div>{cr}<p class="gr-yt-src">{e(g["vid"])}: YouTube · {e(v.get("ch", ""))} · <a href="https://www.youtube.com/watch?v={e(v["id"])}" rel="noopener nofollow" target="_blank">youtube.com</a></p></div>')
+    elif im:
+        alt = im.get('alt', {}).get(l, '')
+        media = f'<div class="ga-media"><img class="ga-img" src="{im["f"]}" width="{im["w"]}" height="{im["h"]}" alt="{e(alt)}">{cr if im.get("cr") else ""}' + ('' if im.get('cr') else f'<p class="gr-cr">{e(alt)} · {credit(im, l, True)}</p>') + '</div>'
+    else:
+        media = ''
+    def small(x):
+        st = f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else ''
+        return (f'<article class="gs"><a href="{art_url(x, l)}"><div class="gs-img"{st}>' + ('<span class="rt-play" aria-hidden="true">▶</span>' if x.get('yt') else '') +
+                f'</div>{kick(x, l)}<h3>{e(x[l]["t"])}</h3></a></article>')
+    single = f'<p class="gr-single">{e(g["single"])}: <b>{e(rv["single"])}</b></p>' if rv.get('single') else ''
+    html = (f'<div class="gp gp-{kind} ga"><div class="gp-head"><a class="gp-title ga-sec" href="{sec_url(kind, l)}">{e(SEC[l][kind][0])}</a><span class="gp-date">{e(nice_date(it["date"], l))}</span></div>'
+            f'<div class="gp-main"><article class="gp-panel ga-panel">{kick(it, l)}' + (f'<div class="gr-score">{e(sc)}</div>' if sc else '') +
+            f'<h1 class="ga-h1">{e(T["t"])}</h1>' + (f'<p class="gr-meta">{e(meta)}</p>' if meta else '') + f'<p class="ga-dek">{e(T["d"])}</p>'
+            f'<div class="byline meta ga-by"><span>{e(u["by"])}</span><time datetime="{iso(it)}">{PUBL[l]}: {short_date(it["date"], l)}, {it["time"]}{(" " + u["hour"]) if u["hour"] else ""}</time><span>{u["read"].format(m=read_min(it, l))}</span></div>'
+            f'{media}{single}<div class="body ga-body">{paras}</div>{facts}{noadv}<div class="sources ga-src"><h2>{e(u["src"])}</h2><ul>{LI(it["src"])}</ul></div>'
+            + (f'<h2 class="gp-h">{e(u["more"])}</h2><div class="gs-grid">{"".join(small(x) for x in rel)}</div>' if rel else '') +
+            f'<p class="ga-back"><a href="{sec_url(kind, l)}">← {e(SEC[l][kind][0])}</a></p></article>'
+            f'<aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{side}</aside></div></div>')
+    return html
+
 ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "/#org", "name": "TERRA WORLD NEWS", "alternateName": ["Terra World News", "TWN", "TWN – World News", "TWN World News"], "description": "Terra World News (TWN) is an independent online news portal publishing daily news from around the world in Bulgarian, German and English.", "foundingDate": "2026", "url": SITE + "/",
        "logo": {"@type": "ImageObject", "url": SITE + "/assets/logo.png", "width": 600, "height": 600},
        "parentOrganization": {"@type": "Organization", "name": "FILMPARTNER 24 EOOD", "legalName": "„ФИЛМПАРТНЕР 24“ ЕООД", "url": "https://filmpartner24.com/", "vatID": "BG208477411"},
@@ -615,6 +650,7 @@ def build():
                   ticker2=(boerse_ticker(BIZ[max(BIZ)], l) if s == 'business' and BIZ else '')))
             urls.append((sec_url(s, l), salts, latest['date']))
         # ---- articles
+        MSIDE = {}
         for it in items_l:
             T = it[l]
             _b = T.get('body') or [T['d']]
@@ -637,6 +673,11 @@ def build():
             body = (f'<article class="article"><a class="back" href="{sec_url(it["s"], l)}">← {e(SEC[l][it["s"]][0])}</a>{kick(it, l)}<h1>{e(T["t"])}</h1><p class="dek">{e(T["d"])}</p>'
                     f'<div class="byline meta"><span>{e(u["by"])}</span><time datetime="{iso(it)}">{PUBL[l]}: {short_date(it["date"], l)}, {it["time"]}{(" " + u["hour"]) if u["hour"] else ""}</time><span>{u["read"].format(m=read_min(it, l))}</span></div>'
                     f'{plate(it, l, cap=True, eager=True)}<div class="body">{paras}</div>{trailer}{facts}{noadv}<div class="sources"><h2>{e(u["src"])}</h2><ul>{LI(it["src"])}</ul></div></article>{relh}')
+            if it['s'] in MEDIA:  # Games/Film/Musik: Artikel im dunklen Medien-Layout mit Seitenleiste
+                if it['s'] not in MSIDE:
+                    MSIDE[it['s']] = ''.join(f'<div class="side-sec" style="--c:{SEC_COLOR[s2]}"><h3><a href="{sec_url(s2, l)}">{e(SEC[l][s2][0])}</a></h3><ul>{"".join(mini(x) for x in sorted([x for x in items_l if x["s"] == s2], key=lambda x: (x["date"], x["time"]), reverse=True)[:3])}</ul></div>'
+                                             for s2 in SECTIONS if s2 != it['s'] and any(x['s'] == s2 for x in items_l))
+                body = media_article(it, l, paras, facts, noadv, [x for x in items_l if x['s'] == it['s'] and x is not it and x['date'] >= it['date']][:3] or rel, MSIDE[it['s']], SX)
             aalts = {x: art_url(it, x) for x in act if x in it}
             ld = {"@context": "https://schema.org", "@graph": [ORG, {"@type": "NewsArticle", "@id": SITE + art_url(it, l) + "#article", "mainEntityOfPage": SITE + art_url(it, l), "headline": T['t'][:110], "description": T['d'],
                   "datePublished": iso(it), "dateModified": iso(it), "inLanguage": l, "articleSection": SEC[l][it['s']][0], "isAccessibleForFree": True,

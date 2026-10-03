@@ -461,3 +461,26 @@ table.biz-t tbody tr:nth-child(even){background:rgba(10,125,90,.05)}
 .gr-cover{height:auto!important;width:40%;max-width:220px;left:14px;bottom:14px;top:auto}
 .gp-musik .gr-yt{justify-content:center;align-items:flex-end;padding-right:6%}
 .gp-musik .gr-yt .yt-play{margin-left:auto}
+/* ---- Artikel-/Review-Seiten Games/Film/Musik */
+.ga .gp-head a.ga-sec{color:#fff;text-decoration:none}
+.ga-panel{padding:22px 26px 28px}
+.ga-panel .kick{color:#c4b5fd;margin-bottom:10px}
+.gp-film .ga-panel .kick{color:#fecaca}.gp-musik .ga-panel .kick{color:#a7f3d0}
+.ga-h1{font-family:var(--head);font-size:clamp(28px,3.6vw,44px);line-height:1.08;color:#fff;margin:6px 0 10px}
+.ga-dek{font-family:var(--head);font-size:clamp(17px,1.7vw,21px);color:#d6d3e6;margin:0 0 12px}
+.ga-by{color:#a29fbd;border-color:#2a2445!important;margin-bottom:16px}
+.ga-by span,.ga-by time{color:#a29fbd}
+.ga-media{margin:6px 0 18px}
+.ga-img{display:block;width:100%;height:auto;border-radius:6px}
+.ga-body{color:#e9e7f5;font-size:18px;line-height:1.65}
+.ga-body p{margin:0 0 16px;max-width:72ch}
+.ga .facts{color:#e9e7f5;border-color:#fff}
+.ga .facts h2{color:#fff}
+.ga .noadv{background:#1e1a33;color:#e9e7f5;border-left-color:var(--gx)}
+.ga-src{border-top-color:var(--gx);color:#a29fbd}
+.ga-src h2{color:#fff}
+.ga-src a{color:var(--gy)}
+.ga-back{margin:22px 0 0}
+.ga-back a{font-family:var(--label);font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--gy)}
+@media (max-width:560px){.ga-panel{padding:16px 14px 22px}.ga-body{font-size:17px}}
+.ga .gp-head a.ga-sec{font-weight:700}
