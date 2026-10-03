@@ -24,3 +24,6 @@ Stil: neutral, eigene Worte, kurze Sätze, Fachbegriffe kurz erklären (z. B. �
  "notes": "für die Redaktion: was wo gefunden, was nicht bestätigt"
 }
 Zahlen immer als JSON-Zahlen mit Punkt als Dezimaltrenner (Formatierung macht die Seite).
+
+## Bilder (eigene Infografiken)
+Nach dem Schreiben der Datei: `python3 tools/biz_images.py <YYYY-MM-DD>` – zeichnet je Block eine eigene 1200x675-Grafik aus den Daten (static/assets/news/<datum>/biz-<id>.webp) und setzt "img" (own: true) in die Datei. Die Seite zeigt dazu „Grafik: TERRA WORLD NEWS (eigene Darstellung)“. Keine Fremd- oder KI-Bilder. Bilddateien mit committen (git add static/assets/news/<datum>/biz-*).

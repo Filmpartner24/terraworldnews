@@ -75,6 +75,7 @@ def load():
         its = []
         for b in d.get('blocks', []):
             it = {'id': b['id'], 'date': d['date'], 's': 'business', 'time': b.get('time') or d.get('time', '07:00'), 'src': b.get('src', []), 'biz': b}
+            if b.get('img') and os.path.exists(os.path.join(HERE, 'static', b['img']['f'].lstrip('/'))): it['img'] = b['img']
             for _l in ('bg', 'de', 'en'):
                 if _l in b: it[_l] = {k: b[_l][k] for k in ('t', 'd', 'body') if k in b[_l]}
             its.append(it)
@@ -224,6 +225,8 @@ def lic_url(lic):
     return ''
 
 def credit(im, l, link=False):
+    if im.get('own'):  # eigene Grafik der Redaktion (Rubrik Business)
+        return e({'bg': 'Графика: TERRA WORLD NEWS (собствена графика по данните от източниците)', 'de': 'Grafik: TERRA WORLD NEWS (eigene Darstellung nach den genannten Quellen)'}.get(l, 'Graphic: TERRA WORLD NEWS (own graphic based on the sources listed)'))
     who = (im['art'] + ' / ') if im.get('art') else ''
     lab = {'bg': 'Снимка', 'de': 'Foto'}.get(l, 'Photo')
     txt = f'{lab}: {who}Wikimedia Commons, {im["lic"]}'
@@ -309,9 +312,9 @@ def biz_asof(b, l):
 def biz_src(b, l):
     xs = [f'<a href="{e(x["u"])}" rel="noopener nofollow" target="_blank">{e(x["n"])}</a>' for x in b.get('src', []) if isinstance(x, dict) and x.get('u')]
     return f'<p class="src">{UI[l]["src"]}: {" · ".join(xs)}</p>' if xs else ''
-def biz_block(b, l, au):
+def biz_block(b, l, au, fig=''):
     body = ''.join(f'<p>{e(x)}</p>' for x in b[l].get('body', []))
-    return (f'<section class="biz-block" id="{e(b["id"])}"><h2><a href="{au}">{e(b[l]["t"])}</a></h2>{biz_asof(b, l)}<p class="dek">{e(b[l]["d"])}</p>{biz_kpis(b, l)}'
+    return (f'<section class="biz-block" id="{e(b["id"])}"><h2><a href="{au}">{e(b[l]["t"])}</a></h2>{biz_asof(b, l)}<p class="dek">{e(b[l]["d"])}</p>{fig}{biz_kpis(b, l)}'
             f'<div class="body">{body}</div>{biz_explain(b, l)}{biz_tables(b, l)}{biz_src(b, l)}<p class="sec-more"><a href="{au}">{e(BZ[l]["full"])}</a></p></section>')
 def boerse_ticker(d, l):
     if not d: return ''
@@ -486,7 +489,7 @@ def build():
                     bl = ''
                     for b in blocks:
                         bit = next((x for x in its if x['id'] == b['id'] and x['date'] == day0), None)
-                        bl += biz_block(b, l, art_url(bit, l) if bit else '#')
+                        bl += biz_block(b, l, art_url(bit, l) if bit else '#', (f'<a href="{art_url(bit, l)}" class="biz-fig">' + plate(bit, l) + '</a>') if bit and bit.get('img') else '')
                     if blocks:
                         head = (f'<div class="rail-h sec-head"><h1 class="sec-title">{e(SEC[l][s][0])}</h1><span class="meta">{e(nice_date(day0, l))}</span></div>'
                                 f'<p class="sec-desc">{e(BZ[l]["desc"])}</p><nav class="biz-jump" aria-label="{e(BZ[l]["jump"])}"><h2>{e(BZ[l]["jump"])}</h2><ol>{kp}</ol></nav>'

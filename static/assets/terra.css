@@ -373,3 +373,4 @@ table.biz-t tbody tr:nth-child(even){background:rgba(10,125,90,.05)}
 .biz-block .body p{margin:0 0 10px;max-width:75ch}
 .biz-block .src a{color:var(--muted);text-decoration:underline;text-underline-offset:2px}
 @media (max-width:700px){.bq{font-size:15px}.kpis{grid-template-columns:repeat(2,1fr)}.kpi .kv{font-size:21px}table.biz-t{font-size:14px}}
+.biz-fig{display:block;margin:14px 0 0;max-width:820px}
