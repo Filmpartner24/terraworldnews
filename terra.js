@@ -55,3 +55,9 @@ document.querySelectorAll('.langs a[hreflang]').forEach(function(a){
 (function(){var n=document.getElementById('mainnav');if(!n)return;var b=n.querySelector('.nav-tg');if(!b)return;
 b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');});
 document.addEventListener('keydown',function(ev){if(ev.key==='Escape'&&n.classList.contains('open')){n.classList.remove('open');b.setAttribute('aria-expanded','false');b.focus();}});})();
+
+/* Menü v2: kompakte Sticky-Leiste + aktive Rubrik in der Wisch-Leiste sichtbar */
+(function(){var n=document.getElementById('mainnav'),s=document.getElementById('nv-sentinel');if(!n)return;
+if(s&&'IntersectionObserver' in window){new IntersectionObserver(function(e){n.classList.toggle('stuck',!e[0].isIntersecting);},{threshold:0}).observe(s);}
+var w=n.querySelector('.nv-swipe a[aria-current="page"]');if(w&&w.parentNode){var p=w.parentNode;p.scrollLeft=Math.max(0,w.offsetLeft-p.clientWidth/2+w.clientWidth/2);}
+document.addEventListener('click',function(ev){if(n.classList.contains('open')&&!n.contains(ev.target)){n.classList.remove('open');var b=n.querySelector('.nav-tg');if(b)b.setAttribute('aria-expanded','false');}});})();

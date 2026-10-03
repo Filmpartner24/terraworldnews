@@ -23,7 +23,13 @@ LOCALE = {'bg': 'bg_BG', 'de': 'de_DE', 'en': 'en_GB'}
 
 SECTIONS = ['welt', 'europa', 'deutschland', 'bulgarien', 'leben', 'ki', 'wirtschaft', 'energie', 'business', 'klima', 'ai', 'film', 'musik', 'games', 'sport']
 MEDIA = ('games', 'film', 'musik', 'sport', 'ai', 'ki', 'wirtschaft', 'energie', 'leben', 'klima')   # Rubriken mit eigenem Medien-Layout (Reviews/Trailer + News)
-SUBS = {'sport': ['fussball', 'boxen', 'mma']}   # Unterrubriken (Feld "sub" im Item)
+SUBS = {'sport': ['fussball', 'boxen', 'mma']}
+NAV_GROUPS = [  # Menü-Gruppen (Desktop: Trennstriche, Mobil: Überschriften im aufgeklappten Menü)
+    ('news', {'bg': 'Новини', 'de': 'Nachrichten', 'en': 'News'}, ['welt', 'europa', 'deutschland', 'bulgarien']),
+    ('life', {'bg': 'Живот', 'de': 'Leben', 'en': 'Life'}, ['leben']),
+    ('know', {'bg': 'Икономика и знание', 'de': 'Wirtschaft & Wissen', 'en': 'Economy & Knowledge'}, ['ki', 'wirtschaft', 'energie', 'business', 'klima', 'ai']),
+    ('ent', {'bg': 'Развлечения', 'de': 'Unterhaltung', 'en': 'Entertainment'}, ['film', 'musik', 'games']),
+    ('sport', {'bg': 'Спорт', 'de': 'Sport', 'en': 'Sport'}, ['sport'])]   # Unterrubriken (Feld "sub" im Item)
 SUB = {'bg': {'fussball': ('Футбол', 'futbol'), 'boxen': ('Бокс', 'boks'), 'mma': ('ММА', 'mma')},
        'de': {'fussball': ('Fußball', 'fussball'), 'boxen': ('Boxen', 'boxen'), 'mma': ('MMA', 'mma')},
        'en': {'fussball': ('Football', 'football'), 'boxen': ('Boxing', 'boxing'), 'mma': ('MMA', 'mma')}}
@@ -173,7 +179,13 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
         if s not in SUBS: return a
         dd = ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if canon == sub_url(s, k, l) else ""}>{e(SUB[l][k][0])}</a>' for k in SUBS[s])
         return f'<span class="nav-dd">{a}<span class="dd">{dd}</span></span>'
-    nav = f'<a href="{pre(l)}"{CUR_P if canon == pre(l) else ""}>{e(u["home"])}</a>' + ''.join(_navi(s) for s in SECTIONS)
+    _home_svg = '<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M3 11.2 12 4l9 7.2" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.5 10v9.5h4.6v-5.6h3.8v5.6h4.6V10" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round"/></svg>'
+    nav = f'<a class="nv-home" href="{pre(l)}"{CUR_P if canon == pre(l) else ""}>{_home_svg}<span>{e(u["home"])}</span></a>'
+    for _g, _gl, _gs in NAV_GROUPS:
+        _in = ''.join(_navi(s) for s in _gs if s in SECTIONS)
+        if _in: nav += f'<div class="ng ng-{_g}"><span class="ng-h">{e(_gl[l])}</span>{_in}</div>'
+    _cur = next((s for s in SECTIONS if canon.startswith(sec_url(s, l))), None)
+    swipe = ''.join(f'<a href="{sec_home(s, l)}"{CUR_P if s == _cur else ""}>{e(SEC[l][s][0])}</a>' for s in SECTIONS)
     tick = ''
     ticker = ticker or TICKER.get(l)
     if ticker:
@@ -214,7 +226,8 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
     <p class="brand"><a href="{pre(l)}"><img class="mast-logo" src="/assets/terra-masthead5-800.webp" srcset="/assets/terra-masthead5-800.webp 800w, /assets/terra-masthead5-1600.webp 1600w" sizes="(max-width: 700px) 86vw, 620px" width="800" height="209" alt="TERRA WORLD NEWS" fetchpriority="high"></a></p>
     <div class="edition"><span class="ed-clock" id="edclock"><span class="ed-city">{e(u['clocks'][0][0])}</span> <b data-tz="Europe/Berlin">--:--</b></span><span class="mid">{e(nice_date(date, l)) if date else ''}</span><span class="ed-wx" id="edwx" title="{e(WXT[l])}"></span></div>
   </header>
-  <nav class="sections" id="mainnav" aria-label="{e(u['home'])}"><button type="button" class="nav-tg" aria-expanded="false" aria-controls="navitems"><span class="hb" aria-hidden="true"><i></i><i></i><i></i></span><span class="nav-tl">{ {'bg': 'Меню', 'de': 'Menü', 'en': 'Menu'}.get(l, 'Menu') }</span><span class="nav-cur">{e(next((SEC[l][s][0] for s in SECTIONS if canon.startswith(sec_url(s, l))), ''))}</span></button><div class="nav-items" id="navitems">{nav}</div></nav>
+  <div id="nv-sentinel" aria-hidden="true"></div>
+  <nav class="sections nv2" id="mainnav" aria-label="{e(u['home'])}"><div class="nv-bar"><a class="nv-logo" href="{pre(l)}" aria-label="TWN – World News"><img src="/assets/icon-96.png?v=2" width="30" height="30" alt=""><b>TWN</b></a><button type="button" class="nav-tg" aria-expanded="false" aria-controls="navitems"><span class="hb" aria-hidden="true"><i></i><i></i><i></i></span><span class="nav-tl">{ {'bg': 'Меню', 'de': 'Menü', 'en': 'Menu'}.get(l, 'Menu') }</span></button><div class="nav-items" id="navitems">{nav}</div><a class="nv-search" href="{search_url(l)}" aria-label="{e(SUI[l]['title'])}"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg></a></div><div class="nv-swipe" aria-label="{e(u['home'])}">{swipe}</div></nav>
   {tick}{ticker2}
   <main id="main">
 {body}
