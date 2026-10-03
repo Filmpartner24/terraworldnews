@@ -559,3 +559,13 @@ table.fb-m td{padding:7px 8px;border-bottom:1px solid #1c2f48}
 .bx-fj{background:linear-gradient(100deg,rgba(249,115,22,.14),rgba(56,189,248,.08));border:1px solid #7a2e06;border-radius:6px;padding:4px 16px 16px;margin:18px 0}
 .bx-cd{display:inline-block;background:var(--gx);color:#fff;font-family:var(--label);font-size:13px;padding:3px 10px;border-radius:999px;vertical-align:4px;margin-left:6px}
 .nat-day{border-top-color:#2f8a4a}.nat-day .trl-h{color:#2f8a4a}
+/* Menüleiste in den Farben von Logo und LIVE-Ticker: Blau, Rot, Weiß */
+nav.sections{background:#0f2f7a;color:#fff;border:0;border-top:4px solid #d4161c;border-bottom:0;padding:10px 14px;margin-top:2px}
+nav.sections a{color:#fff;border-bottom:3px solid transparent;padding-block:3px}
+nav.sections a:hover{color:#fff;border-bottom-color:rgba(255,255,255,.55)}
+nav.sections a[aria-current="page"]{color:#fff;border-bottom-color:#ff2a30}
+nav.sections .nav-dd .dd{background:#0f2f7a;border:0;border-top:3px solid #d4161c;box-shadow:0 8px 20px rgba(0,0,0,.25)}
+nav.sections .nav-dd .dd a{color:#fff;border:0}
+nav.sections .nav-dd .dd a:hover,nav.sections .nav-dd .dd a[aria-current="page"]{background:#d4161c;color:#fff}
+nav.sections + .ticker,nav.sections ~ .ticker{margin-top:6px}
+.subnav a[aria-current="page"],.subnav a:hover{background:#0f2f7a;border-color:#0f2f7a;color:#fff}
