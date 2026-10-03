@@ -494,3 +494,49 @@ table.biz-t tbody tr:nth-child(even){background:rgba(10,125,90,.05)}
 .gp-sport .gr-score{background:linear-gradient(90deg,#f97316,#c2410c)}
 .gp-empty{color:#cbd5e1;font-family:var(--label);font-size:15px;padding:30px 0 10px}
 .subnav + .gp{margin-top:6px}
+/* ---- Fußball: Ligen, Tabellen, Spieltage */
+.fb-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-bottom:10px}
+.fb-card a{display:block;color:inherit;text-decoration:none;background:#0d1b2e;border:1px solid #1c2f48;border-radius:6px;overflow:hidden;height:100%}
+.fb-card a:hover{border-color:var(--gx)}
+.fb-img{position:relative;aspect-ratio:16/10;background:#0c2a4a center/cover no-repeat}
+.fb-img::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(7,17,31,.9) 0%,rgba(7,17,31,0) 60%)}
+.fb-img .gr-badge{z-index:2}
+.fb-name{position:absolute;left:14px;bottom:10px;z-index:2;font-family:var(--head);font-weight:700;font-size:26px;color:#fff;text-transform:uppercase;letter-spacing:.03em;text-shadow:0 2px 10px rgba(0,0,0,.6)}
+.fb-card-txt{padding:12px 14px 16px}
+.fb-lead{margin:0 0 6px;color:#e5e7eb;font-size:15px}
+.fb-lead b{color:#fff}
+.fb-card .gr-more{margin-top:6px;font-size:13px;padding:6px 12px}
+.fb-season{font-family:var(--head);font-weight:700;font-size:clamp(18px,2.2vw,26px);color:#fff;background:var(--gx);padding:6px 14px;border-radius:4px;letter-spacing:.04em;box-shadow:0 0 18px rgba(249,115,22,.5)}
+.fb-hero{position:relative;aspect-ratio:21/9;background:#0c2a4a center/cover no-repeat;border-radius:6px}
+table.fb-t,table.fb-m{width:100%;border-collapse:collapse;color:#e5e7eb;font-variant-numeric:tabular-nums;font-size:15px}
+table.fb-t th,table.fb-t td{padding:7px 8px;border-bottom:1px solid #1c2f48;text-align:left}
+table.fb-t thead th{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#93c5fd;border-bottom:2px solid var(--gx);font-weight:500}
+table.fb-t tbody th{font-weight:600;color:#fff}
+table.fb-t .n{text-align:right;white-space:nowrap}
+table.fb-t tr.fb-top td:first-child{color:var(--gy);font-weight:700}
+table.fb-t .fb-pts{font-weight:700;color:#fff}
+table.fb-t tbody tr:nth-child(even){background:rgba(56,189,248,.05)}
+table.fb-m td{padding:7px 8px;border-bottom:1px solid #1c2f48}
+.fb-when{color:#93c5fd;font-family:var(--label);font-size:13px;white-space:nowrap;width:1%}
+.fb-t1{text-align:right;width:40%}
+.fb-t2{width:40%}
+.fb-scc{text-align:center;width:1%;white-space:nowrap}
+.fb-sc{display:inline-block;min-width:46px;text-align:center;background:#16263d;color:#fff;border-radius:3px;padding:2px 8px;font-family:var(--head);font-size:16px}
+.fb-open{color:#93c5fd}
+.fb-note{font-size:12px;color:#fdba74;margin-left:4px}
+.fb-ko{font-size:12.5px;color:#93a4b8;margin:6px 0 12px}
+.fb-ko a{color:#93c5fd}
+.fb-md{border:1px solid #1c2f48;border-radius:5px;margin:0 0 10px;background:#0a1626}
+.fb-md summary{cursor:pointer;padding:10px 14px;font-family:var(--head);font-weight:700;font-size:17px;color:#fff;list-style:none}
+.fb-md summary::-webkit-details-marker{display:none}
+.fb-md summary::before{content:"▸ ";color:var(--gx)}
+.fb-md[open] summary::before{content:"▾ "}
+.fb-md .tbl-wrap{margin:0 0 6px;padding:0 8px}
+.fb-md .fb-ko{padding:0 14px}
+.fb-rd{margin:10px 14px 6px;color:#fdba74;font-family:var(--label);font-size:14px;letter-spacing:.04em;text-transform:uppercase}
+.fb-rdd{color:#93a4b8;text-transform:none;font-size:12.5px;margin-left:6px}
+.fb-ll{list-style:none;margin:0 0 18px;padding:0;display:grid;gap:6px}
+.fb-ll a{font-family:var(--head);font-weight:700;font-size:17px}
+.fb-ll a[aria-current]{color:var(--signal)}
+@media (max-width:980px){.fb-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.fb-grid{grid-template-columns:1fr}table.fb-t{font-size:13.5px}table.fb-t th,table.fb-t td{padding:6px 5px}.fb-t1,.fb-t2{font-size:14px}.fb-when{font-size:11.5px}}

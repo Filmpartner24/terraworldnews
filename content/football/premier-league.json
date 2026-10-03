@@ -1,0 +1,3512 @@
+{
+ "key": "premier-league",
+ "code": "en.1",
+ "season": "2026/27",
+ "name": {
+  "bg": "Висша лига",
+  "de": "Premier League",
+  "en": "Premier League"
+ },
+ "tz": "Europe/London",
+ "matches": [
+  {
+   "r": 1,
+   "date": "2026-08-21",
+   "time": "20:00",
+   "t1": "Arsenal FC",
+   "t2": "Coventry City FC",
+   "ft": [
+    3,
+    0
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-22",
+   "time": "12:30",
+   "t1": "Hull City AFC",
+   "t2": "Manchester United FC",
+   "ft": [
+    2,
+    0
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-22",
+   "time": "15:00",
+   "t1": "Ipswich Town FC",
+   "t2": "Sunderland AFC",
+   "ft": [
+    2,
+    1
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-22",
+   "time": "15:00",
+   "t1": "Nottingham Forest FC",
+   "t2": "Leeds United FC",
+   "ft": [
+    0,
+    1
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-22",
+   "time": "15:00",
+   "t1": "Everton FC",
+   "t2": "Crystal Palace FC",
+   "ft": [
+    2,
+    0
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-22",
+   "time": "17:30",
+   "t1": "Brentford FC",
+   "t2": "Tottenham Hotspur FC",
+   "ft": [
+    3,
+    0
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-23",
+   "time": "14:00",
+   "t1": "Manchester City FC",
+   "t2": "AFC Bournemouth",
+   "ft": [
+    2,
+    1
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-23",
+   "time": "14:00",
+   "t1": "Brighton & Hove Albion FC",
+   "t2": "Aston Villa FC",
+   "ft": [
+    4,
+    0
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-23",
+   "time": "16:30",
+   "t1": "Newcastle United FC",
+   "t2": "Liverpool FC",
+   "ft": [
+    2,
+    2
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-24",
+   "time": "20:00",
+   "t1": "Fulham FC",
+   "t2": "Chelsea FC",
+   "ft": [
+    2,
+    3
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-08-28",
+   "time": "20:00",
+   "t1": "Crystal Palace FC",
+   "t2": "Manchester City FC",
+   "ft": [
+    1,
+    4
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-08-29",
+   "time": "12:30",
+   "t1": "Liverpool FC",
+   "t2": "Nottingham Forest FC",
+   "ft": [
+    2,
+    2
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-08-29",
+   "time": "15:00",
+   "t1": "AFC Bournemouth",
+   "t2": "Everton FC",
+   "ft": [
+    1,
+    1
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-08-29",
+   "time": "15:00",
+   "t1": "Coventry City FC",
+   "t2": "Hull City AFC",
+   "ft": [
+    0,
+    1
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-08-29",
+   "time": "17:30",
+   "t1": "Tottenham Hotspur FC",
+   "t2": "Newcastle United FC",
+   "ft": [
+    0,
+    2
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-08-30",
+   "time": "14:00",
+   "t1": "Sunderland AFC",
+   "t2": "Fulham FC",
+   "ft": [
+    1,
+    0
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-08-30",
+   "time": "14:00",
+   "t1": "Chelsea FC",
+   "t2": "Brighton & Hove Albion FC",
+   "ft": [
+    4,
+    3
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-08-30",
+   "time": "14:00",
+   "t1": "Leeds United FC",
+   "t2": "Brentford FC",
+   "ft": [
+    1,
+    1
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-08-30",
+   "time": "16:30",
+   "t1": "Manchester United FC",
+   "t2": "Ipswich Town FC",
+   "ft": [
+    5,
+    2
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-08-31",
+   "time": "20:00",
+   "t1": "Aston Villa FC",
+   "t2": "Arsenal FC",
+   "ft": [
+    0,
+    1
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-09-04",
+   "time": "20:00",
+   "t1": "Ipswich Town FC",
+   "t2": "Liverpool FC",
+   "ft": [
+    0,
+    2
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-09-05",
+   "time": "12:30",
+   "t1": "Newcastle United FC",
+   "t2": "AFC Bournemouth",
+   "ft": [
+    2,
+    2
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-09-05",
+   "time": "15:00",
+   "t1": "Nottingham Forest FC",
+   "t2": "Tottenham Hotspur FC",
+   "ft": [
+    0,
+    0
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-09-05",
+   "time": "15:00",
+   "t1": "Manchester City FC",
+   "t2": "Coventry City FC",
+   "ft": [
+    1,
+    0
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-09-05",
+   "time": "15:00",
+   "t1": "Brighton & Hove Albion FC",
+   "t2": "Leeds United FC",
+   "ft": [
+    1,
+    1
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-09-05",
+   "time": "15:00",
+   "t1": "Brentford FC",
+   "t2": "Sunderland AFC",
+   "ft": [
+    1,
+    1
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-09-05",
+   "time": "15:00",
+   "t1": "Fulham FC",
+   "t2": "Crystal Palace FC",
+   "ft": [
+    2,
+    3
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-09-05",
+   "time": "17:30",
+   "t1": "Hull City AFC",
+   "t2": "Aston Villa FC",
+   "ft": [
+    0,
+    0
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-09-06",
+   "time": "14:00",
+   "t1": "Everton FC",
+   "t2": "Manchester United FC",
+   "ft": [
+    2,
+    2
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-09-06",
+   "time": "16:30",
+   "t1": "Arsenal FC",
+   "t2": "Chelsea FC",
+   "ft": [
+    2,
+    1
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-12",
+   "time": "15:00",
+   "t1": "Crystal Palace FC",
+   "t2": "Ipswich Town FC",
+   "ft": [
+    2,
+    3
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-12",
+   "time": "15:00",
+   "t1": "Liverpool FC",
+   "t2": "Fulham FC",
+   "ft": [
+    0,
+    0
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-12",
+   "time": "15:00",
+   "t1": "Aston Villa FC",
+   "t2": "Nottingham Forest FC",
+   "ft": [
+    1,
+    2
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-12",
+   "time": "15:00",
+   "t1": "AFC Bournemouth",
+   "t2": "Brentford FC",
+   "ft": [
+    2,
+    2
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-12",
+   "time": "15:00",
+   "t1": "Chelsea FC",
+   "t2": "Hull City AFC",
+   "ft": [
+    2,
+    2
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-12",
+   "time": "17:30",
+   "t1": "Tottenham Hotspur FC",
+   "t2": "Everton FC",
+   "ft": [
+    0,
+    0
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-12",
+   "time": "20:00",
+   "t1": "Sunderland AFC",
+   "t2": "Arsenal FC",
+   "ft": [
+    0,
+    2
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-13",
+   "time": "14:00",
+   "t1": "Coventry City FC",
+   "t2": "Brighton & Hove Albion FC",
+   "ft": [
+    0,
+    5
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-13",
+   "time": "16:30",
+   "t1": "Manchester United FC",
+   "t2": "Manchester City FC",
+   "ft": [
+    0,
+    1
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-14",
+   "time": "20:00",
+   "t1": "Leeds United FC",
+   "t2": "Newcastle United FC",
+   "ft": [
+    4,
+    1
+   ]
+  },
+  {
+   "r": 5,
+   "date": "2026-09-18",
+   "time": "20:00",
+   "t1": "Brentford FC",
+   "t2": "Chelsea FC",
+   "ft": [
+    3,
+    0
+   ]
+  },
+  {
+   "r": 5,
+   "date": "2026-09-19",
+   "time": "12:30",
+   "t1": "Tottenham Hotspur FC",
+   "t2": "Aston Villa FC",
+   "ft": [
+    2,
+    3
+   ]
+  },
+  {
+   "r": 5,
+   "date": "2026-09-19",
+   "time": "15:00",
+   "t1": "Everton FC",
+   "t2": "Ipswich Town FC",
+   "ft": [
+    1,
+    0
+   ]
+  },
+  {
+   "r": 5,
+   "date": "2026-09-19",
+   "time": "15:00",
+   "t1": "Brighton & Hove Albion FC",
+   "t2": "Arsenal FC",
+   "ft": [
+    3,
+    0
+   ]
+  },
+  {
+   "r": 5,
+   "date": "2026-09-19",
+   "time": "15:00",
+   "t1": "Newcastle United FC",
+   "t2": "Hull City AFC",
+   "ft": [
+    2,
+    1
+   ]
+  },
+  {
+   "r": 5,
+   "date": "2026-09-19",
+   "time": "17:30",
+   "t1": "Nottingham Forest FC",
+   "t2": "Coventry City FC",
+   "ft": [
+    0,
+    1
+   ]
+  },
+  {
+   "r": 5,
+   "date": "2026-09-20",
+   "time": "14:00",
+   "t1": "AFC Bournemouth",
+   "t2": "Liverpool FC",
+   "ft": [
+    0,
+    1
+   ]
+  },
+  {
+   "r": 5,
+   "date": "2026-09-20",
+   "time": "14:00",
+   "t1": "Leeds United FC",
+   "t2": "Crystal Palace FC",
+   "ft": [
+    0,
+    0
+   ]
+  },
+  {
+   "r": 5,
+   "date": "2026-09-20",
+   "time": "14:00",
+   "t1": "Manchester City FC",
+   "t2": "Sunderland AFC",
+   "ft": [
+    5,
+    3
+   ]
+  },
+  {
+   "r": 5,
+   "date": "2026-09-20",
+   "time": "16:30",
+   "t1": "Fulham FC",
+   "t2": "Manchester United FC",
+   "ft": [
+    1,
+    1
+   ]
+  },
+  {
+   "r": 6,
+   "date": "2026-10-10",
+   "time": "12:30",
+   "t1": "Arsenal FC",
+   "t2": "Leeds United FC",
+   "ft": null
+  },
+  {
+   "r": 6,
+   "date": "2026-10-10",
+   "time": "15:00",
+   "t1": "Sunderland AFC",
+   "t2": "Brighton & Hove Albion FC",
+   "ft": null
+  },
+  {
+   "r": 6,
+   "date": "2026-10-10",
+   "time": "15:00",
+   "t1": "Chelsea FC",
+   "t2": "AFC Bournemouth",
+   "ft": null
+  },
+  {
+   "r": 6,
+   "date": "2026-10-10",
+   "time": "15:00",
+   "t1": "Ipswich Town FC",
+   "t2": "Fulham FC",
+   "ft": null
+  },
+  {
+   "r": 6,
+   "date": "2026-10-10",
+   "time": "15:00",
+   "t1": "Aston Villa FC",
+   "t2": "Brentford FC",
+   "ft": null
+  },
+  {
+   "r": 6,
+   "date": "2026-10-10",
+   "time": "17:30",
+   "t1": "Manchester United FC",
+   "t2": "Tottenham Hotspur FC",
+   "ft": null
+  },
+  {
+   "r": 6,
+   "date": "2026-10-11",
+   "time": "14:00",
+   "t1": "Hull City AFC",
+   "t2": "Everton FC",
+   "ft": null
+  },
+  {
+   "r": 6,
+   "date": "2026-10-11",
+   "time": "14:00",
+   "t1": "Crystal Palace FC",
+   "t2": "Nottingham Forest FC",
+   "ft": null
+  },
+  {
+   "r": 6,
+   "date": "2026-10-11",
+   "time": "16:30",
+   "t1": "Liverpool FC",
+   "t2": "Manchester City FC",
+   "ft": null
+  },
+  {
+   "r": 6,
+   "date": "2026-10-12",
+   "time": "20:00",
+   "t1": "Coventry City FC",
+   "t2": "Newcastle United FC",
+   "ft": null
+  },
+  {
+   "r": 7,
+   "date": "2026-10-17",
+   "time": "12:30",
+   "t1": "Everton FC",
+   "t2": "Chelsea FC",
+   "ft": null
+  },
+  {
+   "r": 7,
+   "date": "2026-10-17",
+   "time": "15:00",
+   "t1": "Fulham FC",
+   "t2": "Hull City AFC",
+   "ft": null
+  },
+  {
+   "r": 7,
+   "date": "2026-10-17",
+   "time": "15:00",
+   "t1": "Manchester City FC",
+   "t2": "Ipswich Town FC",
+   "ft": null
+  },
+  {
+   "r": 7,
+   "date": "2026-10-17",
+   "time": "15:00",
+   "t1": "Brentford FC",
+   "t2": "Liverpool FC",
+   "ft": null
+  },
+  {
+   "r": 7,
+   "date": "2026-10-17",
+   "time": "17:30",
+   "t1": "Newcastle United FC",
+   "t2": "Aston Villa FC",
+   "ft": null
+  },
+  {
+   "r": 7,
+   "date": "2026-10-18",
+   "time": "14:00",
+   "t1": "AFC Bournemouth",
+   "t2": "Sunderland AFC",
+   "ft": null
+  },
+  {
+   "r": 7,
+   "date": "2026-10-18",
+   "time": "14:00",
+   "t1": "Leeds United FC",
+   "t2": "Manchester United FC",
+   "ft": null
+  },
+  {
+   "r": 7,
+   "date": "2026-10-18",
+   "time": "14:00",
+   "t1": "Brighton & Hove Albion FC",
+   "t2": "Crystal Palace FC",
+   "ft": null
+  },
+  {
+   "r": 7,
+   "date": "2026-10-18",
+   "time": "16:30",
+   "t1": "Nottingham Forest FC",
+   "t2": "Arsenal FC",
+   "ft": null
+  },
+  {
+   "r": 7,
+   "date": "2026-10-19",
+   "time": "20:00",
+   "t1": "Tottenham Hotspur FC",
+   "t2": "Coventry City FC",
+   "ft": null
+  },
+  {
+   "r": 8,
+   "date": "2026-10-23",
+   "time": "20:00",
+   "t1": "Ipswich Town FC",
+   "t2": "Nottingham Forest FC",
+   "ft": null
+  },
+  {
+   "r": 8,
+   "date": "2026-10-24",
+   "time": "12:30",
+   "t1": "Aston Villa FC",
+   "t2": "Manchester City FC",
+   "ft": null
+  },
+  {
+   "r": 8,
+   "date": "2026-10-24",
+   "time": "15:00",
+   "t1": "Arsenal FC",
+   "t2": "Everton FC",
+   "ft": null
+  },
+  {
+   "r": 8,
+   "date": "2026-10-24",
+   "time": "15:00",
+   "t1": "Coventry City FC",
+   "t2": "Fulham FC",
+   "ft": null
+  },
+  {
+   "r": 8,
+   "date": "2026-10-24",
+   "time": "17:30",
+   "t1": "Chelsea FC",
+   "t2": "Tottenham Hotspur FC",
+   "ft": null
+  },
+  {
+   "r": 8,
+   "date": "2026-10-25",
+   "time": "14:00",
+   "t1": "Liverpool FC",
+   "t2": "Brighton & Hove Albion FC",
+   "ft": null
+  },
+  {
+   "r": 8,
+   "date": "2026-10-25",
+   "time": "14:00",
+   "t1": "Crystal Palace FC",
+   "t2": "Newcastle United FC",
+   "ft": null
+  },
+  {
+   "r": 8,
+   "date": "2026-10-25",
+   "time": "14:00",
+   "t1": "Manchester United FC",
+   "t2": "AFC Bournemouth",
+   "ft": null
+  },
+  {
+   "r": 8,
+   "date": "2026-10-25",
+   "time": "14:00",
+   "t1": "Hull City AFC",
+   "t2": "Brentford FC",
+   "ft": null
+  },
+  {
+   "r": 8,
+   "date": "2026-10-25",
+   "time": "16:30",
+   "t1": "Sunderland AFC",
+   "t2": "Leeds United FC",
+   "ft": null
+  },
+  {
+   "r": 9,
+   "date": "2026-10-31",
+   "time": "12:30",
+   "t1": "Chelsea FC",
+   "t2": "Manchester United FC",
+   "ft": null
+  },
+  {
+   "r": 9,
+   "date": "2026-10-31",
+   "time": "15:00",
+   "t1": "Manchester City FC",
+   "t2": "Brighton & Hove Albion FC",
+   "ft": null
+  },
+  {
+   "r": 9,
+   "date": "2026-10-31",
+   "time": "15:00",
+   "t1": "AFC Bournemouth",
+   "t2": "Leeds United FC",
+   "ft": null
+  },
+  {
+   "r": 9,
+   "date": "2026-10-31",
+   "time": "15:00",
+   "t1": "Coventry City FC",
+   "t2": "Sunderland AFC",
+   "ft": null
+  },
+  {
+   "r": 9,
+   "date": "2026-10-31",
+   "time": "15:00",
+   "t1": "Hull City AFC",
+   "t2": "Ipswich Town FC",
+   "ft": null
+  },
+  {
+   "r": 9,
+   "date": "2026-10-31",
+   "time": "15:00",
+   "t1": "Brentford FC",
+   "t2": "Nottingham Forest FC",
+   "ft": null
+  },
+  {
+   "r": 9,
+   "date": "2026-10-31",
+   "time": "17:30",
+   "t1": "Tottenham Hotspur FC",
+   "t2": "Crystal Palace FC",
+   "ft": null
+  },
+  {
+   "r": 9,
+   "date": "2026-10-31",
+   "time": "20:00",
+   "t1": "Aston Villa FC",
+   "t2": "Fulham FC",
+   "ft": null
+  },
+  {
+   "r": 9,
+   "date": "2026-11-01",
+   "time": "16:30",
+   "t1": "Liverpool FC",
+   "t2": "Arsenal FC",
+   "ft": null
+  },
+  {
+   "r": 9,
+   "date": "2026-11-02",
+   "time": "20:00",
+   "t1": "Newcastle United FC",
+   "t2": "Everton FC",
+   "ft": null
+  },
+  {
+   "r": 10,
+   "date": "2026-11-07",
+   "time": "15:00",
+   "t1": "Arsenal FC",
+   "t2": "Hull City AFC",
+   "ft": null
+  },
+  {
+   "r": 10,
+   "date": "2026-11-07",
+   "time": "15:00",
+   "t1": "Nottingham Forest FC",
+   "t2": "Manchester City FC",
+   "ft": null
+  },
+  {
+   "r": 10,
+   "date": "2026-11-07",
+   "time": "15:00",
+   "t1": "Leeds United FC",
+   "t2": "Tottenham Hotspur FC",
+   "ft": null
+  },
+  {
+   "r": 10,
+   "date": "2026-11-07",
+   "time": "15:00",
+   "t1": "Fulham FC",
+   "t2": "Newcastle United FC",
+   "ft": null
+  },
+  {
+   "r": 10,
+   "date": "2026-11-07",
+   "time": "15:00",
+   "t1": "Everton FC",
+   "t2": "Coventry City FC",
+   "ft": null
+  },
+  {
+   "r": 10,
+   "date": "2026-11-07",
+   "time": "15:00",
+   "t1": "Crystal Palace FC",
+   "t2": "Liverpool FC",
+   "ft": null
+  },
+  {
+   "r": 10,
+   "date": "2026-11-07",
+   "time": "15:00",
+   "t1": "Sunderland AFC",
+   "t2": "Chelsea FC",
+   "ft": null
+  },
+  {
+   "r": 10,
+   "date": "2026-11-07",
+   "time": "15:00",
+   "t1": "Ipswich Town FC",
+   "t2": "AFC Bournemouth",
+   "ft": null
+  },
+  {
+   "r": 10,
+   "date": "2026-11-07",
+   "time": "15:00",
+   "t1": "Brighton & Hove Albion FC",
+   "t2": "Brentford FC",
+   "ft": null
+  },
+  {
+   "r": 10,
+   "date": "2026-11-07",
+   "time": "15:00",
+   "t1": "Manchester United FC",
+   "t2": "Aston Villa FC",
+   "ft": null
+  },
+  {
+   "r": 11,
+   "date": "2026-11-21",
+   "time": "15:00",
+   "t1": "Chelsea FC",
+   "t2": "Leeds United FC",
+   "ft": null
+  },
+  {
+   "r": 11,
+   "date": "2026-11-21",
+   "time": "15:00",
+   "t1": "Manchester City FC",
+   "t2": "Fulham FC",
+   "ft": null
+  },
+  {
+   "r": 11,
+   "date": "2026-11-21",
+   "time": "15:00",
+   "t1": "Aston Villa FC",
+   "t2": "Sunderland AFC",
+   "ft": null
+  },
+  {
+   "r": 11,
+   "date": "2026-11-21",
+   "time": "15:00",
+   "t1": "Liverpool FC",
+   "t2": "Manchester United FC",
+   "ft": null
+  },
+  {
+   "r": 11,
+   "date": "2026-11-21",
+   "time": "15:00",
+   "t1": "Hull City AFC",
+   "t2": "Brighton & Hove Albion FC",
+   "ft": null
+  },
+  {
+   "r": 11,
+   "date": "2026-11-21",
+   "time": "15:00",
+   "t1": "AFC Bournemouth",
+   "t2": "Nottingham Forest FC",
+   "ft": null
+  },
+  {
+   "r": 11,
+   "date": "2026-11-21",
+   "time": "15:00",
+   "t1": "Tottenham Hotspur FC",
+   "t2": "Ipswich Town FC",
+   "ft": null
+  },
+  {
+   "r": 11,
+   "date": "2026-11-21",
+   "time": "15:00",
+   "t1": "Brentford FC",
+   "t2": "Everton FC",
+   "ft": null
+  },
+  {
+   "r": 11,
+   "date": "2026-11-21",
+   "time": "15:00",
+   "t1": "Coventry City FC",
+   "t2": "Crystal Palace FC",
+   "ft": null
+  },
+  {
+   "r": 11,
+   "date": "2026-11-21",
+   "time": "15:00",
+   "t1": "Newcastle United FC",
+   "t2": "Arsenal FC",
+   "ft": null
+  },
+  {
+   "r": 12,
+   "date": "2026-11-28",
+   "time": "15:00",
+   "t1": "Leeds United FC",
+   "t2": "Coventry City FC",
+   "ft": null
+  },
+  {
+   "r": 12,
+   "date": "2026-11-28",
+   "time": "15:00",
+   "t1": "Ipswich Town FC",
+   "t2": "Aston Villa FC",
+   "ft": null
+  },
+  {
+   "r": 12,
+   "date": "2026-11-28",
+   "time": "15:00",
+   "t1": "Arsenal FC",
+   "t2": "Manchester City FC",
+   "ft": null
+  },
+  {
+   "r": 12,
+   "date": "2026-11-28",
+   "time": "15:00",
+   "t1": "Manchester United FC",
+   "t2": "Brentford FC",
+   "ft": null
+  },
+  {
+   "r": 12,
+   "date": "2026-11-28",
+   "time": "15:00",
+   "t1": "Everton FC",
+   "t2": "Liverpool FC",
+   "ft": null
+  },
+  {
+   "r": 12,
+   "date": "2026-11-28",
+   "time": "15:00",
+   "t1": "Fulham FC",
+   "t2": "AFC Bournemouth",
+   "ft": null
+  },
+  {
+   "r": 12,
+   "date": "2026-11-28",
+   "time": "15:00",
+   "t1": "Nottingham Forest FC",
+   "t2": "Chelsea FC",
+   "ft": null
+  },
+  {
+   "r": 12,
+   "date": "2026-11-28",
+   "time": "15:00",
+   "t1": "Brighton & Hove Albion FC",
+   "t2": "Newcastle United FC",
+   "ft": null
+  },
+  {
+   "r": 12,
+   "date": "2026-11-28",
+   "time": "15:00",
+   "t1": "Sunderland AFC",
+   "t2": "Tottenham Hotspur FC",
+   "ft": null
+  },
+  {
+   "r": 12,
+   "date": "2026-11-28",
+   "time": "15:00",
+   "t1": "Crystal Palace FC",
+   "t2": "Hull City AFC",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-12-02",
+   "time": "20:00",
+   "t1": "Tottenham Hotspur FC",
+   "t2": "Fulham FC",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-12-02",
+   "time": "20:00",
+   "t1": "Liverpool FC",
+   "t2": "Sunderland AFC",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-12-02",
+   "time": "20:00",
+   "t1": "Hull City AFC",
+   "t2": "Nottingham Forest FC",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-12-02",
+   "time": "20:00",
+   "t1": "Chelsea FC",
+   "t2": "Crystal Palace FC",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-12-02",
+   "time": "20:00",
+   "t1": "Aston Villa FC",
+   "t2": "Everton FC",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-12-02",
+   "time": "20:00",
+   "t1": "Brentford FC",
+   "t2": "Arsenal FC",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-12-02",
+   "time": "20:00",
+   "t1": "Coventry City FC",
+   "t2": "Ipswich Town FC",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-12-02",
+   "time": "20:00",
+   "t1": "Manchester City FC",
+   "t2": "Leeds United FC",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-12-02",
+   "time": "20:00",
+   "t1": "Newcastle United FC",
+   "t2": "Manchester United FC",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-12-02",
+   "time": "20:00",
+   "t1": "AFC Bournemouth",
+   "t2": "Brighton & Hove Albion FC",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-12-05",
+   "time": "15:00",
+   "t1": "Tottenham Hotspur FC",
+   "t2": "Arsenal FC",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-12-05",
+   "time": "15:00",
+   "t1": "Manchester United FC",
+   "t2": "Coventry City FC",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-12-05",
+   "time": "15:00",
+   "t1": "Leeds United FC",
+   "t2": "Ipswich Town FC",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-12-05",
+   "time": "15:00",
+   "t1": "Newcastle United FC",
+   "t2": "Sunderland AFC",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-12-05",
+   "time": "15:00",
+   "t1": "Chelsea FC",
+   "t2": "Liverpool FC",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-12-05",
+   "time": "15:00",
+   "t1": "Brentford FC",
+   "t2": "Manchester City FC",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-12-05",
+   "time": "15:00",
+   "t1": "AFC Bournemouth",
+   "t2": "Hull City AFC",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-12-05",
+   "time": "15:00",
+   "t1": "Aston Villa FC",
+   "t2": "Crystal Palace FC",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-12-05",
+   "time": "15:00",
+   "t1": "Nottingham Forest FC",
+   "t2": "Brighton & Hove Albion FC",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-12-05",
+   "time": "15:00",
+   "t1": "Everton FC",
+   "t2": "Fulham FC",
+   "ft": null
+  },
+  {
+   "r": 15,
+   "date": "2026-12-12",
+   "time": "15:00",
+   "t1": "Sunderland AFC",
+   "t2": "Nottingham Forest FC",
+   "ft": null
+  },
+  {
+   "r": 15,
+   "date": "2026-12-12",
+   "time": "15:00",
+   "t1": "Crystal Palace FC",
+   "t2": "Manchester United FC",
+   "ft": null
+  },
+  {
+   "r": 15,
+   "date": "2026-12-12",
+   "time": "15:00",
+   "t1": "Hull City AFC",
+   "t2": "Tottenham Hotspur FC",
+   "ft": null
+  },
+  {
+   "r": 15,
+   "date": "2026-12-12",
+   "time": "15:00",
+   "t1": "Brighton & Hove Albion FC",
+   "t2": "Everton FC",
+   "ft": null
+  },
+  {
+   "r": 15,
+   "date": "2026-12-12",
+   "time": "15:00",
+   "t1": "Ipswich Town FC",
+   "t2": "Newcastle United FC",
+   "ft": null
+  },
+  {
+   "r": 15,
+   "date": "2026-12-12",
+   "time": "15:00",
+   "t1": "Coventry City FC",
+   "t2": "Aston Villa FC",
+   "ft": null
+  },
+  {
+   "r": 15,
+   "date": "2026-12-12",
+   "time": "15:00",
+   "t1": "Arsenal FC",
+   "t2": "AFC Bournemouth",
+   "ft": null
+  },
+  {
+   "r": 15,
+   "date": "2026-12-12",
+   "time": "15:00",
+   "t1": "Manchester City FC",
+   "t2": "Chelsea FC",
+   "ft": null
+  },
+  {
+   "r": 15,
+   "date": "2026-12-12",
+   "time": "15:00",
+   "t1": "Liverpool FC",
+   "t2": "Leeds United FC",
+   "ft": null
+  },
+  {
+   "r": 15,
+   "date": "2026-12-12",
+   "time": "15:00",
+   "t1": "Fulham FC",
+   "t2": "Brentford FC",
+   "ft": null
+  },
+  {
+   "r": 16,
+   "date": "2026-12-19",
+   "time": "15:00",
+   "t1": "Leeds United FC",
+   "t2": "Fulham FC",
+   "ft": null
+  },
+  {
+   "r": 16,
+   "date": "2026-12-19",
+   "time": "15:00",
+   "t1": "Brighton & Hove Albion FC",
+   "t2": "Ipswich Town FC",
+   "ft": null
+  },
+  {
+   "r": 16,
+   "date": "2026-12-19",
+   "time": "15:00",
+   "t1": "Nottingham Forest FC",
+   "t2": "Everton FC",
+   "ft": null
+  },
+  {
+   "r": 16,
+   "date": "2026-12-19",
+   "time": "15:00",
+   "t1": "Brentford FC",
+   "t2": "Newcastle United FC",
+   "ft": null
+  },
+  {
+   "r": 16,
+   "date": "2026-12-19",
+   "time": "15:00",
+   "t1": "Manchester City FC",
+   "t2": "Hull City AFC",
+   "ft": null
+  },
+  {
+   "r": 16,
+   "date": "2026-12-19",
+   "time": "15:00",
+   "t1": "Sunderland AFC",
+   "t2": "Crystal Palace FC",
+   "ft": null
+  },
+  {
+   "r": 16,
+   "date": "2026-12-19",
+   "time": "15:00",
+   "t1": "AFC Bournemouth",
+   "t2": "Coventry City FC",
+   "ft": null
+  },
+  {
+   "r": 16,
+   "date": "2026-12-19",
+   "time": "15:00",
+   "t1": "Arsenal FC",
+   "t2": "Manchester United FC",
+   "ft": null
+  },
+  {
+   "r": 16,
+   "date": "2026-12-19",
+   "time": "15:00",
+   "t1": "Liverpool FC",
+   "t2": "Tottenham Hotspur FC",
+   "ft": null
+  },
+  {
+   "r": 16,
+   "date": "2026-12-19",
+   "time": "15:00",
+   "t1": "Chelsea FC",
+   "t2": "Aston Villa FC",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2026-12-26",
+   "time": "12:30",
+   "t1": "Aston Villa FC",
+   "t2": "Leeds United FC",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2026-12-26",
+   "time": "15:00",
+   "t1": "Everton FC",
+   "t2": "Sunderland AFC",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2026-12-26",
+   "time": "15:00",
+   "t1": "Fulham FC",
+   "t2": "Brighton & Hove Albion FC",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2026-12-26",
+   "time": "15:00",
+   "t1": "Tottenham Hotspur FC",
+   "t2": "AFC Bournemouth",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2026-12-26",
+   "time": "15:00",
+   "t1": "Ipswich Town FC",
+   "t2": "Brentford FC",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2026-12-26",
+   "time": "17:30",
+   "t1": "Hull City AFC",
+   "t2": "Liverpool FC",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2026-12-26",
+   "time": "20:00",
+   "t1": "Newcastle United FC",
+   "t2": "Manchester City FC",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2026-12-27",
+   "time": "14:00",
+   "t1": "Coventry City FC",
+   "t2": "Chelsea FC",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2026-12-27",
+   "time": "16:30",
+   "t1": "Manchester United FC",
+   "t2": "Nottingham Forest FC",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2026-12-27",
+   "time": "19:00",
+   "t1": "Crystal Palace FC",
+   "t2": "Arsenal FC",
+   "ft": null
+  },
+  {
+   "r": 18,
+   "date": "2026-12-29",
+   "time": "19:30",
+   "t1": "Hull City AFC",
+   "t2": "Leeds United FC",
+   "ft": null
+  },
+  {
+   "r": 18,
+   "date": "2026-12-29",
+   "time": "19:30",
+   "t1": "Tottenham Hotspur FC",
+   "t2": "Brighton & Hove Albion FC",
+   "ft": null
+  },
+  {
+   "r": 18,
+   "date": "2026-12-29",
+   "time": "20:15",
+   "t1": "Everton FC",
+   "t2": "Manchester City FC",
+   "ft": null
+  },
+  {
+   "r": 18,
+   "date": "2026-12-30",
+   "time": "19:30",
+   "t1": "Fulham FC",
+   "t2": "Arsenal FC",
+   "ft": null
+  },
+  {
+   "r": 18,
+   "date": "2026-12-30",
+   "time": "19:30",
+   "t1": "Coventry City FC",
+   "t2": "Brentford FC",
+   "ft": null
+  },
+  {
+   "r": 18,
+   "date": "2026-12-30",
+   "time": "19:30",
+   "t1": "Newcastle United FC",
+   "t2": "Nottingham Forest FC",
+   "ft": null
+  },
+  {
+   "r": 18,
+   "date": "2026-12-30",
+   "time": "19:30",
+   "t1": "Manchester United FC",
+   "t2": "Sunderland AFC",
+   "ft": null
+  },
+  {
+   "r": 18,
+   "date": "2026-12-30",
+   "time": "19:30",
+   "t1": "Crystal Palace FC",
+   "t2": "AFC Bournemouth",
+   "ft": null
+  },
+  {
+   "r": 18,
+   "date": "2026-12-30",
+   "time": "20:15",
+   "t1": "Aston Villa FC",
+   "t2": "Liverpool FC",
+   "ft": null
+  },
+  {
+   "r": 18,
+   "date": "2026-12-30",
+   "time": "20:15",
+   "t1": "Ipswich Town FC",
+   "t2": "Chelsea FC",
+   "ft": null
+  },
+  {
+   "r": 19,
+   "date": "2027-01-01",
+   "time": "20:00",
+   "t1": "Leeds United FC",
+   "t2": "Everton FC",
+   "ft": null
+  },
+  {
+   "r": 19,
+   "date": "2027-01-02",
+   "time": "12:30",
+   "t1": "Brighton & Hove Albion FC",
+   "t2": "Manchester United FC",
+   "ft": null
+  },
+  {
+   "r": 19,
+   "date": "2027-01-02",
+   "time": "15:00",
+   "t1": "Brentford FC",
+   "t2": "Crystal Palace FC",
+   "ft": null
+  },
+  {
+   "r": 19,
+   "date": "2027-01-02",
+   "time": "15:00",
+   "t1": "Arsenal FC",
+   "t2": "Ipswich Town FC",
+   "ft": null
+  },
+  {
+   "r": 19,
+   "date": "2027-01-02",
+   "time": "15:00",
+   "t1": "Sunderland AFC",
+   "t2": "Hull City AFC",
+   "ft": null
+  },
+  {
+   "r": 19,
+   "date": "2027-01-02",
+   "time": "15:00",
+   "t1": "Liverpool FC",
+   "t2": "Coventry City FC",
+   "ft": null
+  },
+  {
+   "r": 19,
+   "date": "2027-01-02",
+   "time": "15:00",
+   "t1": "Nottingham Forest FC",
+   "t2": "Fulham FC",
+   "ft": null
+  },
+  {
+   "r": 19,
+   "date": "2027-01-02",
+   "time": "17:30",
+   "t1": "AFC Bournemouth",
+   "t2": "Aston Villa FC",
+   "ft": null
+  },
+  {
+   "r": 19,
+   "date": "2027-01-03",
+   "time": "14:00",
+   "t1": "Chelsea FC",
+   "t2": "Newcastle United FC",
+   "ft": null
+  },
+  {
+   "r": 19,
+   "date": "2027-01-03",
+   "time": "16:30",
+   "t1": "Manchester City FC",
+   "t2": "Tottenham Hotspur FC",
+   "ft": null
+  },
+  {
+   "r": 20,
+   "date": "2027-01-05",
+   "time": "19:30",
+   "t1": "Arsenal FC",
+   "t2": "Brentford FC",
+   "ft": null
+  },
+  {
+   "r": 20,
+   "date": "2027-01-05",
+   "time": "19:30",
+   "t1": "Brighton & Hove Albion FC",
+   "t2": "AFC Bournemouth",
+   "ft": null
+  },
+  {
+   "r": 20,
+   "date": "2027-01-05",
+   "time": "19:30",
+   "t1": "Nottingham Forest FC",
+   "t2": "Hull City AFC",
+   "ft": null
+  },
+  {
+   "r": 20,
+   "date": "2027-01-05",
+   "time": "19:30",
+   "t1": "Everton FC",
+   "t2": "Aston Villa FC",
+   "ft": null
+  },
+  {
+   "r": 20,
+   "date": "2027-01-05",
+   "time": "20:15",
+   "t1": "Sunderland AFC",
+   "t2": "Liverpool FC",
+   "ft": null
+  },
+  {
+   "r": 20,
+   "date": "2027-01-06",
+   "time": "19:30",
+   "t1": "Fulham FC",
+   "t2": "Tottenham Hotspur FC",
+   "ft": null
+  },
+  {
+   "r": 20,
+   "date": "2027-01-06",
+   "time": "19:30",
+   "t1": "Crystal Palace FC",
+   "t2": "Chelsea FC",
+   "ft": null
+  },
+  {
+   "r": 20,
+   "date": "2027-01-06",
+   "time": "19:30",
+   "t1": "Ipswich Town FC",
+   "t2": "Coventry City FC",
+   "ft": null
+  },
+  {
+   "r": 20,
+   "date": "2027-01-06",
+   "time": "20:15",
+   "t1": "Leeds United FC",
+   "t2": "Manchester City FC",
+   "ft": null
+  },
+  {
+   "r": 20,
+   "date": "2027-01-07",
+   "time": "20:00",
+   "t1": "Manchester United FC",
+   "t2": "Newcastle United FC",
+   "ft": null
+  },
+  {
+   "r": 21,
+   "date": "2027-01-16",
+   "time": "15:00",
+   "t1": "AFC Bournemouth",
+   "t2": "Ipswich Town FC",
+   "ft": null
+  },
+  {
+   "r": 21,
+   "date": "2027-01-16",
+   "time": "15:00",
+   "t1": "Manchester City FC",
+   "t2": "Nottingham Forest FC",
+   "ft": null
+  },
+  {
+   "r": 21,
+   "date": "2027-01-16",
+   "time": "15:00",
+   "t1": "Chelsea FC",
+   "t2": "Sunderland AFC",
+   "ft": null
+  },
+  {
+   "r": 21,
+   "date": "2027-01-16",
+   "time": "15:00",
+   "t1": "Brentford FC",
+   "t2": "Brighton & Hove Albion FC",
+   "ft": null
+  },
+  {
+   "r": 21,
+   "date": "2027-01-16",
+   "time": "15:00",
+   "t1": "Aston Villa FC",
+   "t2": "Manchester United FC",
+   "ft": null
+  },
+  {
+   "r": 21,
+   "date": "2027-01-16",
+   "time": "15:00",
+   "t1": "Tottenham Hotspur FC",
+   "t2": "Leeds United FC",
+   "ft": null
+  },
+  {
+   "r": 21,
+   "date": "2027-01-16",
+   "time": "15:00",
+   "t1": "Coventry City FC",
+   "t2": "Everton FC",
+   "ft": null
+  },
+  {
+   "r": 21,
+   "date": "2027-01-16",
+   "time": "15:00",
+   "t1": "Liverpool FC",
+   "t2": "Crystal Palace FC",
+   "ft": null
+  },
+  {
+   "r": 21,
+   "date": "2027-01-16",
+   "time": "15:00",
+   "t1": "Hull City AFC",
+   "t2": "Arsenal FC",
+   "ft": null
+  },
+  {
+   "r": 21,
+   "date": "2027-01-16",
+   "time": "15:00",
+   "t1": "Newcastle United FC",
+   "t2": "Fulham FC",
+   "ft": null
+  },
+  {
+   "r": 22,
+   "date": "2027-01-23",
+   "time": "15:00",
+   "t1": "Ipswich Town FC",
+   "t2": "Hull City AFC",
+   "ft": null
+  },
+  {
+   "r": 22,
+   "date": "2027-01-23",
+   "time": "15:00",
+   "t1": "Everton FC",
+   "t2": "Brentford FC",
+   "ft": null
+  },
+  {
+   "r": 22,
+   "date": "2027-01-23",
+   "time": "15:00",
+   "t1": "Sunderland AFC",
+   "t2": "Coventry City FC",
+   "ft": null
+  },
+  {
+   "r": 22,
+   "date": "2027-01-23",
+   "time": "15:00",
+   "t1": "Nottingham Forest FC",
+   "t2": "AFC Bournemouth",
+   "ft": null
+  },
+  {
+   "r": 22,
+   "date": "2027-01-23",
+   "time": "15:00",
+   "t1": "Arsenal FC",
+   "t2": "Newcastle United FC",
+   "ft": null
+  },
+  {
+   "r": 22,
+   "date": "2027-01-23",
+   "time": "15:00",
+   "t1": "Leeds United FC",
+   "t2": "Chelsea FC",
+   "ft": null
+  },
+  {
+   "r": 22,
+   "date": "2027-01-23",
+   "time": "15:00",
+   "t1": "Fulham FC",
+   "t2": "Aston Villa FC",
+   "ft": null
+  },
+  {
+   "r": 22,
+   "date": "2027-01-23",
+   "time": "15:00",
+   "t1": "Manchester United FC",
+   "t2": "Liverpool FC",
+   "ft": null
+  },
+  {
+   "r": 22,
+   "date": "2027-01-23",
+   "time": "15:00",
+   "t1": "Brighton & Hove Albion FC",
+   "t2": "Manchester City FC",
+   "ft": null
+  },
+  {
+   "r": 22,
+   "date": "2027-01-23",
+   "time": "15:00",
+   "t1": "Crystal Palace FC",
+   "t2": "Tottenham Hotspur FC",
+   "ft": null
+  },
+  {
+   "r": 23,
+   "date": "2027-01-30",
+   "time": "15:00",
+   "t1": "Tottenham Hotspur FC",
+   "t2": "Sunderland AFC",
+   "ft": null
+  },
+  {
+   "r": 23,
+   "date": "2027-01-30",
+   "time": "15:00",
+   "t1": "Brentford FC",
+   "t2": "Manchester United FC",
+   "ft": null
+  },
+  {
+   "r": 23,
+   "date": "2027-01-30",
+   "time": "15:00",
+   "t1": "Newcastle United FC",
+   "t2": "Brighton & Hove Albion FC",
+   "ft": null
+  },
+  {
+   "r": 23,
+   "date": "2027-01-30",
+   "time": "15:00",
+   "t1": "Hull City AFC",
+   "t2": "Crystal Palace FC",
+   "ft": null
+  },
+  {
+   "r": 23,
+   "date": "2027-01-30",
+   "time": "15:00",
+   "t1": "Coventry City FC",
+   "t2": "Leeds United FC",
+   "ft": null
+  },
+  {
+   "r": 23,
+   "date": "2027-01-30",
+   "time": "15:00",
+   "t1": "AFC Bournemouth",
+   "t2": "Fulham FC",
+   "ft": null
+  },
+  {
+   "r": 23,
+   "date": "2027-01-30",
+   "time": "15:00",
+   "t1": "Chelsea FC",
+   "t2": "Nottingham Forest FC",
+   "ft": null
+  },
+  {
+   "r": 23,
+   "date": "2027-01-30",
+   "time": "15:00",
+   "t1": "Liverpool FC",
+   "t2": "Everton FC",
+   "ft": null
+  },
+  {
+   "r": 23,
+   "date": "2027-01-30",
+   "time": "15:00",
+   "t1": "Manchester City FC",
+   "t2": "Arsenal FC",
+   "ft": null
+  },
+  {
+   "r": 23,
+   "date": "2027-01-30",
+   "time": "15:00",
+   "t1": "Aston Villa FC",
+   "t2": "Ipswich Town FC",
+   "ft": null
+  },
+  {
+   "r": 24,
+   "date": "2027-02-06",
+   "time": "15:00",
+   "t1": "Arsenal FC",
+   "t2": "Liverpool FC",
+   "ft": null
+  },
+  {
+   "r": 24,
+   "date": "2027-02-06",
+   "time": "15:00",
+   "t1": "Brighton & Hove Albion FC",
+   "t2": "Hull City AFC",
+   "ft": null
+  },
+  {
+   "r": 24,
+   "date": "2027-02-06",
+   "time": "15:00",
+   "t1": "Sunderland AFC",
+   "t2": "Aston Villa FC",
+   "ft": null
+  },
+  {
+   "r": 24,
+   "date": "2027-02-06",
+   "time": "15:00",
+   "t1": "Crystal Palace FC",
+   "t2": "Coventry City FC",
+   "ft": null
+  },
+  {
+   "r": 24,
+   "date": "2027-02-06",
+   "time": "15:00",
+   "t1": "Ipswich Town FC",
+   "t2": "Tottenham Hotspur FC",
+   "ft": null
+  },
+  {
+   "r": 24,
+   "date": "2027-02-06",
+   "time": "15:00",
+   "t1": "Everton FC",
+   "t2": "Newcastle United FC",
+   "ft": null
+  },
+  {
+   "r": 24,
+   "date": "2027-02-06",
+   "time": "15:00",
+   "t1": "Fulham FC",
+   "t2": "Manchester City FC",
+   "ft": null
+  },
+  {
+   "r": 24,
+   "date": "2027-02-06",
+   "time": "15:00",
+   "t1": "Leeds United FC",
+   "t2": "AFC Bournemouth",
+   "ft": null
+  },
+  {
+   "r": 24,
+   "date": "2027-02-06",
+   "time": "15:00",
+   "t1": "Manchester United FC",
+   "t2": "Chelsea FC",
+   "ft": null
+  },
+  {
+   "r": 24,
+   "date": "2027-02-06",
+   "time": "15:00",
+   "t1": "Nottingham Forest FC",
+   "t2": "Brentford FC",
+   "ft": null
+  },
+  {
+   "r": 25,
+   "date": "2027-02-10",
+   "time": "20:00",
+   "t1": "Everton FC",
+   "t2": "Leeds United FC",
+   "ft": null
+  },
+  {
+   "r": 25,
+   "date": "2027-02-10",
+   "time": "20:00",
+   "t1": "Coventry City FC",
+   "t2": "Liverpool FC",
+   "ft": null
+  },
+  {
+   "r": 25,
+   "date": "2027-02-10",
+   "time": "20:00",
+   "t1": "Hull City AFC",
+   "t2": "Sunderland AFC",
+   "ft": null
+  },
+  {
+   "r": 25,
+   "date": "2027-02-10",
+   "time": "20:00",
+   "t1": "Aston Villa FC",
+   "t2": "AFC Bournemouth",
+   "ft": null
+  },
+  {
+   "r": 25,
+   "date": "2027-02-10",
+   "time": "20:00",
+   "t1": "Crystal Palace FC",
+   "t2": "Brentford FC",
+   "ft": null
+  },
+  {
+   "r": 25,
+   "date": "2027-02-10",
+   "time": "20:00",
+   "t1": "Newcastle United FC",
+   "t2": "Chelsea FC",
+   "ft": null
+  },
+  {
+   "r": 25,
+   "date": "2027-02-10",
+   "time": "20:00",
+   "t1": "Fulham FC",
+   "t2": "Nottingham Forest FC",
+   "ft": null
+  },
+  {
+   "r": 25,
+   "date": "2027-02-10",
+   "time": "20:00",
+   "t1": "Tottenham Hotspur FC",
+   "t2": "Manchester City FC",
+   "ft": null
+  },
+  {
+   "r": 25,
+   "date": "2027-02-10",
+   "time": "20:00",
+   "t1": "Manchester United FC",
+   "t2": "Brighton & Hove Albion FC",
+   "ft": null
+  },
+  {
+   "r": 25,
+   "date": "2027-02-10",
+   "time": "20:00",
+   "t1": "Ipswich Town FC",
+   "t2": "Arsenal FC",
+   "ft": null
+  },
+  {
+   "r": 26,
+   "date": "2027-02-20",
+   "time": "15:00",
+   "t1": "Manchester City FC",
+   "t2": "Newcastle United FC",
+   "ft": null
+  },
+  {
+   "r": 26,
+   "date": "2027-02-20",
+   "time": "15:00",
+   "t1": "AFC Bournemouth",
+   "t2": "Crystal Palace FC",
+   "ft": null
+  },
+  {
+   "r": 26,
+   "date": "2027-02-20",
+   "time": "15:00",
+   "t1": "Brentford FC",
+   "t2": "Coventry City FC",
+   "ft": null
+  },
+  {
+   "r": 26,
+   "date": "2027-02-20",
+   "time": "15:00",
+   "t1": "Chelsea FC",
+   "t2": "Ipswich Town FC",
+   "ft": null
+  },
+  {
+   "r": 26,
+   "date": "2027-02-20",
+   "time": "15:00",
+   "t1": "Liverpool FC",
+   "t2": "Hull City AFC",
+   "ft": null
+  },
+  {
+   "r": 26,
+   "date": "2027-02-20",
+   "time": "15:00",
+   "t1": "Arsenal FC",
+   "t2": "Fulham FC",
+   "ft": null
+  },
+  {
+   "r": 26,
+   "date": "2027-02-20",
+   "time": "15:00",
+   "t1": "Nottingham Forest FC",
+   "t2": "Manchester United FC",
+   "ft": null
+  },
+  {
+   "r": 26,
+   "date": "2027-02-20",
+   "time": "15:00",
+   "t1": "Brighton & Hove Albion FC",
+   "t2": "Tottenham Hotspur FC",
+   "ft": null
+  },
+  {
+   "r": 26,
+   "date": "2027-02-20",
+   "time": "15:00",
+   "t1": "Sunderland AFC",
+   "t2": "Everton FC",
+   "ft": null
+  },
+  {
+   "r": 26,
+   "date": "2027-02-20",
+   "time": "15:00",
+   "t1": "Leeds United FC",
+   "t2": "Aston Villa FC",
+   "ft": null
+  },
+  {
+   "r": 27,
+   "date": "2027-02-27",
+   "time": "15:00",
+   "t1": "Crystal Palace FC",
+   "t2": "Sunderland AFC",
+   "ft": null
+  },
+  {
+   "r": 27,
+   "date": "2027-02-27",
+   "time": "15:00",
+   "t1": "Manchester United FC",
+   "t2": "Arsenal FC",
+   "ft": null
+  },
+  {
+   "r": 27,
+   "date": "2027-02-27",
+   "time": "15:00",
+   "t1": "Ipswich Town FC",
+   "t2": "Brighton & Hove Albion FC",
+   "ft": null
+  },
+  {
+   "r": 27,
+   "date": "2027-02-27",
+   "time": "15:00",
+   "t1": "Coventry City FC",
+   "t2": "AFC Bournemouth",
+   "ft": null
+  },
+  {
+   "r": 27,
+   "date": "2027-02-27",
+   "time": "15:00",
+   "t1": "Everton FC",
+   "t2": "Nottingham Forest FC",
+   "ft": null
+  },
+  {
+   "r": 27,
+   "date": "2027-02-27",
+   "time": "15:00",
+   "t1": "Fulham FC",
+   "t2": "Leeds United FC",
+   "ft": null
+  },
+  {
+   "r": 27,
+   "date": "2027-02-27",
+   "time": "15:00",
+   "t1": "Aston Villa FC",
+   "t2": "Chelsea FC",
+   "ft": null
+  },
+  {
+   "r": 27,
+   "date": "2027-02-27",
+   "time": "15:00",
+   "t1": "Tottenham Hotspur FC",
+   "t2": "Liverpool FC",
+   "ft": null
+  },
+  {
+   "r": 27,
+   "date": "2027-02-27",
+   "time": "15:00",
+   "t1": "Newcastle United FC",
+   "t2": "Brentford FC",
+   "ft": null
+  },
+  {
+   "r": 27,
+   "date": "2027-02-27",
+   "time": "15:00",
+   "t1": "Hull City AFC",
+   "t2": "Manchester City FC",
+   "ft": null
+  },
+  {
+   "r": 28,
+   "date": "2027-03-03",
+   "time": "20:00",
+   "t1": "Nottingham Forest FC",
+   "t2": "Newcastle United FC",
+   "ft": null
+  },
+  {
+   "r": 28,
+   "date": "2027-03-03",
+   "time": "20:00",
+   "t1": "AFC Bournemouth",
+   "t2": "Tottenham Hotspur FC",
+   "ft": null
+  },
+  {
+   "r": 28,
+   "date": "2027-03-03",
+   "time": "20:00",
+   "t1": "Manchester City FC",
+   "t2": "Everton FC",
+   "ft": null
+  },
+  {
+   "r": 28,
+   "date": "2027-03-03",
+   "time": "20:00",
+   "t1": "Arsenal FC",
+   "t2": "Crystal Palace FC",
+   "ft": null
+  },
+  {
+   "r": 28,
+   "date": "2027-03-03",
+   "time": "20:00",
+   "t1": "Leeds United FC",
+   "t2": "Hull City AFC",
+   "ft": null
+  },
+  {
+   "r": 28,
+   "date": "2027-03-03",
+   "time": "20:00",
+   "t1": "Sunderland AFC",
+   "t2": "Manchester United FC",
+   "ft": null
+  },
+  {
+   "r": 28,
+   "date": "2027-03-03",
+   "time": "20:00",
+   "t1": "Liverpool FC",
+   "t2": "Aston Villa FC",
+   "ft": null
+  },
+  {
+   "r": 28,
+   "date": "2027-03-03",
+   "time": "20:00",
+   "t1": "Brighton & Hove Albion FC",
+   "t2": "Fulham FC",
+   "ft": null
+  },
+  {
+   "r": 28,
+   "date": "2027-03-03",
+   "time": "20:00",
+   "t1": "Brentford FC",
+   "t2": "Ipswich Town FC",
+   "ft": null
+  },
+  {
+   "r": 28,
+   "date": "2027-03-03",
+   "time": "20:00",
+   "t1": "Chelsea FC",
+   "t2": "Coventry City FC",
+   "ft": null
+  },
+  {
+   "r": 29,
+   "date": "2027-03-13",
+   "time": "15:00",
+   "t1": "Leeds United FC",
+   "t2": "Brighton & Hove Albion FC",
+   "ft": null
+  },
+  {
+   "r": 29,
+   "date": "2027-03-13",
+   "time": "15:00",
+   "t1": "Tottenham Hotspur FC",
+   "t2": "Nottingham Forest FC",
+   "ft": null
+  },
+  {
+   "r": 29,
+   "date": "2027-03-13",
+   "time": "15:00",
+   "t1": "Crystal Palace FC",
+   "t2": "Fulham FC",
+   "ft": null
+  },
+  {
+   "r": 29,
+   "date": "2027-03-13",
+   "time": "15:00",
+   "t1": "Liverpool FC",
+   "t2": "Ipswich Town FC",
+   "ft": null
+  },
+  {
+   "r": 29,
+   "date": "2027-03-13",
+   "time": "15:00",
+   "t1": "Coventry City FC",
+   "t2": "Manchester City FC",
+   "ft": null
+  },
+  {
+   "r": 29,
+   "date": "2027-03-13",
+   "time": "15:00",
+   "t1": "AFC Bournemouth",
+   "t2": "Newcastle United FC",
+   "ft": null
+  },
+  {
+   "r": 29,
+   "date": "2027-03-13",
+   "time": "15:00",
+   "t1": "Chelsea FC",
+   "t2": "Arsenal FC",
+   "ft": null
+  },
+  {
+   "r": 29,
+   "date": "2027-03-13",
+   "time": "15:00",
+   "t1": "Aston Villa FC",
+   "t2": "Hull City AFC",
+   "ft": null
+  },
+  {
+   "r": 29,
+   "date": "2027-03-13",
+   "time": "15:00",
+   "t1": "Manchester United FC",
+   "t2": "Everton FC",
+   "ft": null
+  },
+  {
+   "r": 29,
+   "date": "2027-03-13",
+   "time": "15:00",
+   "t1": "Sunderland AFC",
+   "t2": "Brentford FC",
+   "ft": null
+  },
+  {
+   "r": 30,
+   "date": "2027-03-20",
+   "time": "15:00",
+   "t1": "Brentford FC",
+   "t2": "AFC Bournemouth",
+   "ft": null
+  },
+  {
+   "r": 30,
+   "date": "2027-03-20",
+   "time": "15:00",
+   "t1": "Brighton & Hove Albion FC",
+   "t2": "Coventry City FC",
+   "ft": null
+  },
+  {
+   "r": 30,
+   "date": "2027-03-20",
+   "time": "15:00",
+   "t1": "Manchester City FC",
+   "t2": "Manchester United FC",
+   "ft": null
+  },
+  {
+   "r": 30,
+   "date": "2027-03-20",
+   "time": "15:00",
+   "t1": "Ipswich Town FC",
+   "t2": "Crystal Palace FC",
+   "ft": null
+  },
+  {
+   "r": 30,
+   "date": "2027-03-20",
+   "time": "15:00",
+   "t1": "Arsenal FC",
+   "t2": "Sunderland AFC",
+   "ft": null
+  },
+  {
+   "r": 30,
+   "date": "2027-03-20",
+   "time": "15:00",
+   "t1": "Fulham FC",
+   "t2": "Liverpool FC",
+   "ft": null
+  },
+  {
+   "r": 30,
+   "date": "2027-03-20",
+   "time": "15:00",
+   "t1": "Hull City AFC",
+   "t2": "Chelsea FC",
+   "ft": null
+  },
+  {
+   "r": 30,
+   "date": "2027-03-20",
+   "time": "15:00",
+   "t1": "Nottingham Forest FC",
+   "t2": "Aston Villa FC",
+   "ft": null
+  },
+  {
+   "r": 30,
+   "date": "2027-03-20",
+   "time": "15:00",
+   "t1": "Everton FC",
+   "t2": "Tottenham Hotspur FC",
+   "ft": null
+  },
+  {
+   "r": 30,
+   "date": "2027-03-20",
+   "time": "15:00",
+   "t1": "Newcastle United FC",
+   "t2": "Leeds United FC",
+   "ft": null
+  },
+  {
+   "r": 31,
+   "date": "2027-04-10",
+   "time": "15:00",
+   "t1": "Sunderland AFC",
+   "t2": "Ipswich Town FC",
+   "ft": null
+  },
+  {
+   "r": 31,
+   "date": "2027-04-10",
+   "time": "15:00",
+   "t1": "Leeds United FC",
+   "t2": "Nottingham Forest FC",
+   "ft": null
+  },
+  {
+   "r": 31,
+   "date": "2027-04-10",
+   "time": "15:00",
+   "t1": "Manchester United FC",
+   "t2": "Hull City AFC",
+   "ft": null
+  },
+  {
+   "r": 31,
+   "date": "2027-04-10",
+   "time": "15:00",
+   "t1": "Chelsea FC",
+   "t2": "Fulham FC",
+   "ft": null
+  },
+  {
+   "r": 31,
+   "date": "2027-04-10",
+   "time": "15:00",
+   "t1": "Liverpool FC",
+   "t2": "Newcastle United FC",
+   "ft": null
+  },
+  {
+   "r": 31,
+   "date": "2027-04-10",
+   "time": "15:00",
+   "t1": "Coventry City FC",
+   "t2": "Arsenal FC",
+   "ft": null
+  },
+  {
+   "r": 31,
+   "date": "2027-04-10",
+   "time": "15:00",
+   "t1": "AFC Bournemouth",
+   "t2": "Manchester City FC",
+   "ft": null
+  },
+  {
+   "r": 31,
+   "date": "2027-04-10",
+   "time": "15:00",
+   "t1": "Crystal Palace FC",
+   "t2": "Everton FC",
+   "ft": null
+  },
+  {
+   "r": 31,
+   "date": "2027-04-10",
+   "time": "15:00",
+   "t1": "Tottenham Hotspur FC",
+   "t2": "Brentford FC",
+   "ft": null
+  },
+  {
+   "r": 31,
+   "date": "2027-04-10",
+   "time": "15:00",
+   "t1": "Aston Villa FC",
+   "t2": "Brighton & Hove Albion FC",
+   "ft": null
+  },
+  {
+   "r": 32,
+   "date": "2027-04-17",
+   "time": "15:00",
+   "t1": "Brighton & Hove Albion FC",
+   "t2": "Chelsea FC",
+   "ft": null
+  },
+  {
+   "r": 32,
+   "date": "2027-04-17",
+   "time": "15:00",
+   "t1": "Fulham FC",
+   "t2": "Sunderland AFC",
+   "ft": null
+  },
+  {
+   "r": 32,
+   "date": "2027-04-17",
+   "time": "15:00",
+   "t1": "Brentford FC",
+   "t2": "Leeds United FC",
+   "ft": null
+  },
+  {
+   "r": 32,
+   "date": "2027-04-17",
+   "time": "15:00",
+   "t1": "Nottingham Forest FC",
+   "t2": "Liverpool FC",
+   "ft": null
+  },
+  {
+   "r": 32,
+   "date": "2027-04-17",
+   "time": "15:00",
+   "t1": "Hull City AFC",
+   "t2": "Coventry City FC",
+   "ft": null
+  },
+  {
+   "r": 32,
+   "date": "2027-04-17",
+   "time": "15:00",
+   "t1": "Arsenal FC",
+   "t2": "Aston Villa FC",
+   "ft": null
+  },
+  {
+   "r": 32,
+   "date": "2027-04-17",
+   "time": "15:00",
+   "t1": "Ipswich Town FC",
+   "t2": "Manchester United FC",
+   "ft": null
+  },
+  {
+   "r": 32,
+   "date": "2027-04-17",
+   "time": "15:00",
+   "t1": "Manchester City FC",
+   "t2": "Crystal Palace FC",
+   "ft": null
+  },
+  {
+   "r": 32,
+   "date": "2027-04-17",
+   "time": "15:00",
+   "t1": "Newcastle United FC",
+   "t2": "Tottenham Hotspur FC",
+   "ft": null
+  },
+  {
+   "r": 32,
+   "date": "2027-04-17",
+   "time": "15:00",
+   "t1": "Everton FC",
+   "t2": "AFC Bournemouth",
+   "ft": null
+  },
+  {
+   "r": 33,
+   "date": "2027-04-24",
+   "time": "15:00",
+   "t1": "Chelsea FC",
+   "t2": "Manchester City FC",
+   "ft": null
+  },
+  {
+   "r": 33,
+   "date": "2027-04-24",
+   "time": "15:00",
+   "t1": "AFC Bournemouth",
+   "t2": "Arsenal FC",
+   "ft": null
+  },
+  {
+   "r": 33,
+   "date": "2027-04-24",
+   "time": "15:00",
+   "t1": "Tottenham Hotspur FC",
+   "t2": "Hull City AFC",
+   "ft": null
+  },
+  {
+   "r": 33,
+   "date": "2027-04-24",
+   "time": "15:00",
+   "t1": "Manchester United FC",
+   "t2": "Crystal Palace FC",
+   "ft": null
+  },
+  {
+   "r": 33,
+   "date": "2027-04-24",
+   "time": "15:00",
+   "t1": "Everton FC",
+   "t2": "Brighton & Hove Albion FC",
+   "ft": null
+  },
+  {
+   "r": 33,
+   "date": "2027-04-24",
+   "time": "15:00",
+   "t1": "Nottingham Forest FC",
+   "t2": "Sunderland AFC",
+   "ft": null
+  },
+  {
+   "r": 33,
+   "date": "2027-04-24",
+   "time": "15:00",
+   "t1": "Newcastle United FC",
+   "t2": "Ipswich Town FC",
+   "ft": null
+  },
+  {
+   "r": 33,
+   "date": "2027-04-24",
+   "time": "15:00",
+   "t1": "Aston Villa FC",
+   "t2": "Coventry City FC",
+   "ft": null
+  },
+  {
+   "r": 33,
+   "date": "2027-04-24",
+   "time": "15:00",
+   "t1": "Brentford FC",
+   "t2": "Fulham FC",
+   "ft": null
+  },
+  {
+   "r": 33,
+   "date": "2027-04-24",
+   "time": "15:00",
+   "t1": "Leeds United FC",
+   "t2": "Liverpool FC",
+   "ft": null
+  },
+  {
+   "r": 34,
+   "date": "2027-05-01",
+   "time": "15:00",
+   "t1": "Sunderland AFC",
+   "t2": "Newcastle United FC",
+   "ft": null
+  },
+  {
+   "r": 34,
+   "date": "2027-05-01",
+   "time": "15:00",
+   "t1": "Brighton & Hove Albion FC",
+   "t2": "Nottingham Forest FC",
+   "ft": null
+  },
+  {
+   "r": 34,
+   "date": "2027-05-01",
+   "time": "15:00",
+   "t1": "Coventry City FC",
+   "t2": "Manchester United FC",
+   "ft": null
+  },
+  {
+   "r": 34,
+   "date": "2027-05-01",
+   "time": "15:00",
+   "t1": "Hull City AFC",
+   "t2": "AFC Bournemouth",
+   "ft": null
+  },
+  {
+   "r": 34,
+   "date": "2027-05-01",
+   "time": "15:00",
+   "t1": "Manchester City FC",
+   "t2": "Brentford FC",
+   "ft": null
+  },
+  {
+   "r": 34,
+   "date": "2027-05-01",
+   "time": "15:00",
+   "t1": "Fulham FC",
+   "t2": "Everton FC",
+   "ft": null
+  },
+  {
+   "r": 34,
+   "date": "2027-05-01",
+   "time": "15:00",
+   "t1": "Liverpool FC",
+   "t2": "Chelsea FC",
+   "ft": null
+  },
+  {
+   "r": 34,
+   "date": "2027-05-01",
+   "time": "15:00",
+   "t1": "Arsenal FC",
+   "t2": "Tottenham Hotspur FC",
+   "ft": null
+  },
+  {
+   "r": 34,
+   "date": "2027-05-01",
+   "time": "15:00",
+   "t1": "Crystal Palace FC",
+   "t2": "Aston Villa FC",
+   "ft": null
+  },
+  {
+   "r": 34,
+   "date": "2027-05-01",
+   "time": "15:00",
+   "t1": "Ipswich Town FC",
+   "t2": "Leeds United FC",
+   "ft": null
+  },
+  {
+   "r": 35,
+   "date": "2027-05-08",
+   "time": "15:00",
+   "t1": "Manchester City FC",
+   "t2": "Liverpool FC",
+   "ft": null
+  },
+  {
+   "r": 35,
+   "date": "2027-05-08",
+   "time": "15:00",
+   "t1": "Leeds United FC",
+   "t2": "Arsenal FC",
+   "ft": null
+  },
+  {
+   "r": 35,
+   "date": "2027-05-08",
+   "time": "15:00",
+   "t1": "Fulham FC",
+   "t2": "Ipswich Town FC",
+   "ft": null
+  },
+  {
+   "r": 35,
+   "date": "2027-05-08",
+   "time": "15:00",
+   "t1": "Nottingham Forest FC",
+   "t2": "Crystal Palace FC",
+   "ft": null
+  },
+  {
+   "r": 35,
+   "date": "2027-05-08",
+   "time": "15:00",
+   "t1": "Brentford FC",
+   "t2": "Aston Villa FC",
+   "ft": null
+  },
+  {
+   "r": 35,
+   "date": "2027-05-08",
+   "time": "15:00",
+   "t1": "Newcastle United FC",
+   "t2": "Coventry City FC",
+   "ft": null
+  },
+  {
+   "r": 35,
+   "date": "2027-05-08",
+   "time": "15:00",
+   "t1": "Brighton & Hove Albion FC",
+   "t2": "Sunderland AFC",
+   "ft": null
+  },
+  {
+   "r": 35,
+   "date": "2027-05-08",
+   "time": "15:00",
+   "t1": "Tottenham Hotspur FC",
+   "t2": "Chelsea FC",
+   "ft": null
+  },
+  {
+   "r": 35,
+   "date": "2027-05-08",
+   "time": "15:00",
+   "t1": "Everton FC",
+   "t2": "Hull City AFC",
+   "ft": null
+  },
+  {
+   "r": 35,
+   "date": "2027-05-08",
+   "time": "15:00",
+   "t1": "AFC Bournemouth",
+   "t2": "Manchester United FC",
+   "ft": null
+  },
+  {
+   "r": 36,
+   "date": "2027-05-15",
+   "time": "15:00",
+   "t1": "Hull City AFC",
+   "t2": "Fulham FC",
+   "ft": null
+  },
+  {
+   "r": 36,
+   "date": "2027-05-15",
+   "time": "15:00",
+   "t1": "Manchester United FC",
+   "t2": "Leeds United FC",
+   "ft": null
+  },
+  {
+   "r": 36,
+   "date": "2027-05-15",
+   "time": "15:00",
+   "t1": "Crystal Palace FC",
+   "t2": "Brighton & Hove Albion FC",
+   "ft": null
+  },
+  {
+   "r": 36,
+   "date": "2027-05-15",
+   "time": "15:00",
+   "t1": "Aston Villa FC",
+   "t2": "Newcastle United FC",
+   "ft": null
+  },
+  {
+   "r": 36,
+   "date": "2027-05-15",
+   "time": "15:00",
+   "t1": "Chelsea FC",
+   "t2": "Everton FC",
+   "ft": null
+  },
+  {
+   "r": 36,
+   "date": "2027-05-15",
+   "time": "15:00",
+   "t1": "Coventry City FC",
+   "t2": "Tottenham Hotspur FC",
+   "ft": null
+  },
+  {
+   "r": 36,
+   "date": "2027-05-15",
+   "time": "15:00",
+   "t1": "Sunderland AFC",
+   "t2": "AFC Bournemouth",
+   "ft": null
+  },
+  {
+   "r": 36,
+   "date": "2027-05-15",
+   "time": "15:00",
+   "t1": "Liverpool FC",
+   "t2": "Brentford FC",
+   "ft": null
+  },
+  {
+   "r": 36,
+   "date": "2027-05-15",
+   "time": "15:00",
+   "t1": "Ipswich Town FC",
+   "t2": "Manchester City FC",
+   "ft": null
+  },
+  {
+   "r": 36,
+   "date": "2027-05-15",
+   "time": "15:00",
+   "t1": "Arsenal FC",
+   "t2": "Nottingham Forest FC",
+   "ft": null
+  },
+  {
+   "r": 37,
+   "date": "2027-05-23",
+   "time": "15:00",
+   "t1": "Brentford FC",
+   "t2": "Hull City AFC",
+   "ft": null
+  },
+  {
+   "r": 37,
+   "date": "2027-05-23",
+   "time": "15:00",
+   "t1": "Newcastle United FC",
+   "t2": "Crystal Palace FC",
+   "ft": null
+  },
+  {
+   "r": 37,
+   "date": "2027-05-23",
+   "time": "15:00",
+   "t1": "Tottenham Hotspur FC",
+   "t2": "Manchester United FC",
+   "ft": null
+  },
+  {
+   "r": 37,
+   "date": "2027-05-23",
+   "time": "15:00",
+   "t1": "Leeds United FC",
+   "t2": "Sunderland AFC",
+   "ft": null
+  },
+  {
+   "r": 37,
+   "date": "2027-05-23",
+   "time": "15:00",
+   "t1": "Brighton & Hove Albion FC",
+   "t2": "Liverpool FC",
+   "ft": null
+  },
+  {
+   "r": 37,
+   "date": "2027-05-23",
+   "time": "15:00",
+   "t1": "Nottingham Forest FC",
+   "t2": "Ipswich Town FC",
+   "ft": null
+  },
+  {
+   "r": 37,
+   "date": "2027-05-23",
+   "time": "15:00",
+   "t1": "AFC Bournemouth",
+   "t2": "Chelsea FC",
+   "ft": null
+  },
+  {
+   "r": 37,
+   "date": "2027-05-23",
+   "time": "15:00",
+   "t1": "Fulham FC",
+   "t2": "Coventry City FC",
+   "ft": null
+  },
+  {
+   "r": 37,
+   "date": "2027-05-23",
+   "time": "15:00",
+   "t1": "Everton FC",
+   "t2": "Arsenal FC",
+   "ft": null
+  },
+  {
+   "r": 37,
+   "date": "2027-05-23",
+   "time": "15:00",
+   "t1": "Manchester City FC",
+   "t2": "Aston Villa FC",
+   "ft": null
+  },
+  {
+   "r": 38,
+   "date": "2027-05-30",
+   "time": "16:00",
+   "t1": "Ipswich Town FC",
+   "t2": "Everton FC",
+   "ft": null
+  },
+  {
+   "r": 38,
+   "date": "2027-05-30",
+   "time": "16:00",
+   "t1": "Arsenal FC",
+   "t2": "Brighton & Hove Albion FC",
+   "ft": null
+  },
+  {
+   "r": 38,
+   "date": "2027-05-30",
+   "time": "16:00",
+   "t1": "Liverpool FC",
+   "t2": "AFC Bournemouth",
+   "ft": null
+  },
+  {
+   "r": 38,
+   "date": "2027-05-30",
+   "time": "16:00",
+   "t1": "Coventry City FC",
+   "t2": "Nottingham Forest FC",
+   "ft": null
+  },
+  {
+   "r": 38,
+   "date": "2027-05-30",
+   "time": "16:00",
+   "t1": "Aston Villa FC",
+   "t2": "Tottenham Hotspur FC",
+   "ft": null
+  },
+  {
+   "r": 38,
+   "date": "2027-05-30",
+   "time": "16:00",
+   "t1": "Hull City AFC",
+   "t2": "Newcastle United FC",
+   "ft": null
+  },
+  {
+   "r": 38,
+   "date": "2027-05-30",
+   "time": "16:00",
+   "t1": "Manchester United FC",
+   "t2": "Fulham FC",
+   "ft": null
+  },
+  {
+   "r": 38,
+   "date": "2027-05-30",
+   "time": "16:00",
+   "t1": "Sunderland AFC",
+   "t2": "Manchester City FC",
+   "ft": null
+  },
+  {
+   "r": 38,
+   "date": "2027-05-30",
+   "time": "16:00",
+   "t1": "Chelsea FC",
+   "t2": "Brentford FC",
+   "ft": null
+  },
+  {
+   "r": 38,
+   "date": "2027-05-30",
+   "time": "16:00",
+   "t1": "Crystal Palace FC",
+   "t2": "Leeds United FC",
+   "ft": null
+  }
+ ],
+ "cups": [
+  {
+   "key": "fa-cup",
+   "name": {
+    "bg": "ФА Къп",
+    "de": "FA Cup",
+    "en": "FA Cup"
+   },
+   "rounds": [
+    {
+     "name": {
+      "bg": "Квалификации",
+      "de": "Qualifikation",
+      "en": "Qualifying rounds"
+     },
+     "date": "ab 2026-08-07",
+     "matches": []
+    },
+    {
+     "name": {
+      "bg": "Първи кръг",
+      "de": "1. Hauptrunde",
+      "en": "First round proper"
+     },
+     "date": "2026-11-07",
+     "matches": []
+    },
+    {
+     "name": {
+      "bg": "Трети кръг (влизат клубовете от Премиър лийг)",
+      "de": "3. Hauptrunde (Einstieg Premier League)",
+      "en": "Third round (Premier League clubs enter)"
+     },
+     "date": "2027-01-09",
+     "matches": []
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_FA_Cup"
+   ]
+  },
+  {
+   "key": "efl-cup",
+   "name": {
+    "bg": "Карабао Къп (Купа на лигата)",
+    "de": "EFL Cup (Carabao Cup)",
+    "en": "EFL Cup (Carabao Cup)"
+   },
+   "rounds": [
+    {
+     "name": {
+      "bg": "Трети кръг",
+      "de": "3. Runde",
+      "en": "Third round"
+     },
+     "date": "2026-09-08/2026-09-17",
+     "matches": [
+      {
+       "date": "2026-09-08",
+       "team1": "AFC Bournemouth",
+       "team2": "Lincoln City",
+       "ft": [
+        4,
+        0
+       ]
+      },
+      {
+       "date": "2026-09-08",
+       "team1": "Crystal Palace FC",
+       "team2": "Middlesbrough",
+       "ft": [
+        3,
+        0
+       ]
+      },
+      {
+       "date": "2026-09-08",
+       "team1": "Leyton Orient",
+       "team2": "Bradford City",
+       "ft": [
+        1,
+        3
+       ]
+      },
+      {
+       "date": "2026-09-08",
+       "team1": "Sunderland AFC",
+       "team2": "Hull City AFC",
+       "ft": [
+        1,
+        0
+       ]
+      },
+      {
+       "date": "2026-09-08",
+       "team1": "Millwall",
+       "team2": "Newcastle United FC",
+       "ft": [
+        0,
+        1
+       ]
+      },
+      {
+       "date": "2026-09-09",
+       "team1": "Chelsea FC",
+       "team2": "Leeds United FC",
+       "ft": [
+        6,
+        3
+       ]
+      },
+      {
+       "date": "2026-09-15",
+       "team1": "Peterborough United",
+       "team2": "Barnsley",
+       "ft": [
+        3,
+        3
+       ],
+       "note": "i.E. 7:6"
+      },
+      {
+       "date": "2026-09-15",
+       "team1": "West Ham United",
+       "team2": "Fulham FC",
+       "ft": [
+        2,
+        3
+       ]
+      },
+      {
+       "date": "2026-09-15",
+       "team1": "Ipswich Town FC",
+       "team2": "Arsenal FC",
+       "ft": [
+        2,
+        4
+       ]
+      },
+      {
+       "date": "2026-09-15",
+       "team1": "Liverpool FC",
+       "team2": "Tottenham Hotspur FC",
+       "ft": [
+        3,
+        1
+       ]
+      },
+      {
+       "date": "2026-09-15",
+       "team1": "Reading",
+       "team2": "Brentford FC",
+       "ft": [
+        1,
+        2
+       ]
+      },
+      {
+       "date": "2026-09-16",
+       "team1": "Everton FC",
+       "team2": "Wolverhampton Wanderers",
+       "ft": [
+        1,
+        0
+       ]
+      },
+      {
+       "date": "2026-09-16",
+       "team1": "Fleetwood Town",
+       "team2": "Sheffield United",
+       "ft": [
+        1,
+        0
+       ]
+      },
+      {
+       "date": "2026-09-16",
+       "team1": "Coventry City FC",
+       "team2": "Aston Villa FC",
+       "ft": [
+        1,
+        3
+       ]
+      },
+      {
+       "date": "2026-09-16",
+       "team1": "Manchester United FC",
+       "team2": "Brighton & Hove Albion FC",
+       "ft": [
+        2,
+        3
+       ]
+      },
+      {
+       "date": "2026-09-17",
+       "team1": "Manchester City FC",
+       "team2": "Norwich City",
+       "ft": [
+        5,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "name": {
+      "bg": "Четвърти кръг",
+      "de": "4. Runde",
+      "en": "Fourth round"
+     },
+     "date": "Woche ab 2026-10-26",
+     "matches": [
+      {
+       "date": "2026-10-26",
+       "team1": "Fleetwood Town",
+       "team2": "Arsenal FC",
+       "ft": null
+      },
+      {
+       "date": "2026-10-26",
+       "team1": "Manchester City FC",
+       "team2": "Brighton & Hove Albion FC",
+       "ft": null
+      },
+      {
+       "date": "2026-10-26",
+       "team1": "Everton FC",
+       "team2": "Newcastle United FC",
+       "ft": null
+      },
+      {
+       "date": "2026-10-26",
+       "team1": "Sunderland AFC",
+       "team2": "Brentford FC",
+       "ft": null
+      },
+      {
+       "date": "2026-10-26",
+       "team1": "Liverpool FC",
+       "team2": "Chelsea FC",
+       "ft": null
+      },
+      {
+       "date": "2026-10-26",
+       "team1": "Bradford City",
+       "team2": "Peterborough United",
+       "ft": null
+      },
+      {
+       "date": "2026-10-26",
+       "team1": "Fulham FC",
+       "team2": "Crystal Palace FC",
+       "ft": null
+      },
+      {
+       "date": "2026-10-26",
+       "team1": "AFC Bournemouth",
+       "team2": "Aston Villa FC",
+       "ft": null
+      }
+     ]
+    }
+   ],
+   "src": [
+    "https://www.si.com/soccer/2026-27-carabao-cup-fourth-round-draw-all-fixtures",
+    "https://fanbanter.co.uk/2026-27-carabao-cup-fourth-round-draw-live-and-in-full-with-highlights-from-third-round/",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Cup"
+   ]
+  },
+  {
+   "key": "community-shield",
+   "name": {
+    "bg": "Къмюнити Шийлд",
+    "de": "Community Shield",
+    "en": "Community Shield"
+   },
+   "rounds": [
+    {
+     "name": {
+      "bg": "Финал (Кардиф)",
+      "de": "Finale (Cardiff)",
+      "en": "Final (Cardiff)"
+     },
+     "date": "2026-08-16",
+     "matches": [
+      {
+       "date": "2026-08-16",
+       "team1": "Arsenal FC",
+       "team2": "Manchester City FC",
+       "ft": [
+        3,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "src": [
+    "https://www.thefa.com/news/2026/aug/16/fa-community-shield-2026-report-16082026",
+    "https://www.espn.com/soccer/report/_/gameId/401875219"
+   ]
+  }
+ ],
+ "src": [
+  {
+   "n": "openfootball (CC0)",
+   "u": "https://github.com/openfootball/football.json/tree/master/2026-27"
+  }
+ ]
+}

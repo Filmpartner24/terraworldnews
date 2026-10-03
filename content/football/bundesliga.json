@@ -1,0 +1,2997 @@
+{
+ "key": "bundesliga",
+ "code": "de.1",
+ "season": "2026/27",
+ "name": {
+  "bg": "Бундеслига",
+  "de": "Bundesliga",
+  "en": "Bundesliga"
+ },
+ "tz": "Europe/Berlin",
+ "matches": [
+  {
+   "r": 1,
+   "date": "2026-08-28",
+   "time": "20:30",
+   "t1": "FC Bayern München",
+   "t2": "VfB Stuttgart",
+   "ft": [
+    5,
+    1
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-29",
+   "time": "15:30",
+   "t1": "RB Leipzig",
+   "t2": "Borussia Mönchengladbach",
+   "ft": [
+    3,
+    0
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-29",
+   "time": "15:30",
+   "t1": "1. FSV Mainz 05",
+   "t2": "SC Paderborn 07",
+   "ft": [
+    0,
+    0
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-29",
+   "time": "15:30",
+   "t1": "1. FC Union Berlin",
+   "t2": "Eintracht Frankfurt",
+   "ft": [
+    3,
+    3
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-29",
+   "time": "15:30",
+   "t1": "SV 07 Elversberg",
+   "t2": "Bayer 04 Leverkusen",
+   "ft": [
+    3,
+    2
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-29",
+   "time": "15:30",
+   "t1": "1. FC Köln",
+   "t2": "TSG 1899 Hoffenheim",
+   "ft": [
+    3,
+    2
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-29",
+   "time": "18:30",
+   "t1": "Borussia Dortmund",
+   "t2": "Hamburger SV",
+   "ft": [
+    2,
+    0
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-30",
+   "time": "15:30",
+   "t1": "SC Freiburg",
+   "t2": "SV Werder Bremen",
+   "ft": [
+    4,
+    1
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-30",
+   "time": "17:30",
+   "t1": "FC Augsburg",
+   "t2": "FC Schalke 04",
+   "ft": [
+    3,
+    0
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-09-04",
+   "time": "20:30",
+   "t1": "VfB Stuttgart",
+   "t2": "1. FC Köln",
+   "ft": [
+    4,
+    1
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-09-05",
+   "time": "15:30",
+   "t1": "SV Werder Bremen",
+   "t2": "RB Leipzig",
+   "ft": [
+    3,
+    1
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-09-05",
+   "time": "15:30",
+   "t1": "TSG 1899 Hoffenheim",
+   "t2": "Borussia Dortmund",
+   "ft": [
+    2,
+    3
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-09-05",
+   "time": "15:30",
+   "t1": "Bayer 04 Leverkusen",
+   "t2": "1. FC Union Berlin",
+   "ft": [
+    4,
+    0
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-09-05",
+   "time": "15:30",
+   "t1": "Borussia Mönchengladbach",
+   "t2": "SV 07 Elversberg",
+   "ft": [
+    3,
+    4
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-09-05",
+   "time": "15:30",
+   "t1": "SC Paderborn 07",
+   "t2": "SC Freiburg",
+   "ft": [
+    0,
+    1
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-09-05",
+   "time": "18:30",
+   "t1": "FC Schalke 04",
+   "t2": "FC Bayern München",
+   "ft": [
+    0,
+    0
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-09-06",
+   "time": "15:30",
+   "t1": "Hamburger SV",
+   "t2": "1. FSV Mainz 05",
+   "ft": [
+    0,
+    5
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-09-06",
+   "time": "17:30",
+   "t1": "Eintracht Frankfurt",
+   "t2": "FC Augsburg",
+   "ft": [
+    1,
+    4
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-09-11",
+   "time": "20:30",
+   "t1": "1. FC Union Berlin",
+   "t2": "FC Schalke 04",
+   "ft": [
+    1,
+    3
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-09-12",
+   "time": "15:30",
+   "t1": "TSG 1899 Hoffenheim",
+   "t2": "VfB Stuttgart",
+   "ft": [
+    2,
+    1
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-09-12",
+   "time": "15:30",
+   "t1": "Borussia Dortmund",
+   "t2": "SC Paderborn 07",
+   "ft": [
+    3,
+    0
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-09-12",
+   "time": "15:30",
+   "t1": "FC Augsburg",
+   "t2": "Bayer 04 Leverkusen",
+   "ft": [
+    2,
+    2
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-09-12",
+   "time": "15:30",
+   "t1": "1. FSV Mainz 05",
+   "t2": "Eintracht Frankfurt",
+   "ft": [
+    1,
+    3
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-09-12",
+   "time": "15:30",
+   "t1": "SC Freiburg",
+   "t2": "Borussia Mönchengladbach",
+   "ft": [
+    5,
+    0
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-09-12",
+   "time": "18:30",
+   "t1": "1. FC Köln",
+   "t2": "SV Werder Bremen",
+   "ft": [
+    1,
+    1
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-09-13",
+   "time": "15:30",
+   "t1": "RB Leipzig",
+   "t2": "Hamburger SV",
+   "ft": [
+    5,
+    0
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-09-13",
+   "time": "17:30",
+   "t1": "SV 07 Elversberg",
+   "t2": "FC Bayern München",
+   "ft": [
+    1,
+    2
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-18",
+   "time": "20:30",
+   "t1": "FC Bayern München",
+   "t2": "1. FC Union Berlin",
+   "ft": [
+    7,
+    0
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-19",
+   "time": "15:30",
+   "t1": "Hamburger SV",
+   "t2": "1. FC Köln",
+   "ft": [
+    2,
+    1
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-19",
+   "time": "15:30",
+   "t1": "Borussia Mönchengladbach",
+   "t2": "1. FSV Mainz 05",
+   "ft": [
+    3,
+    4
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-19",
+   "time": "15:30",
+   "t1": "SV Werder Bremen",
+   "t2": "FC Augsburg",
+   "ft": [
+    3,
+    2
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-19",
+   "time": "15:30",
+   "t1": "Eintracht Frankfurt",
+   "t2": "SC Freiburg",
+   "ft": [
+    2,
+    2
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-19",
+   "time": "18:30",
+   "t1": "VfB Stuttgart",
+   "t2": "Borussia Dortmund",
+   "ft": [
+    0,
+    1
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-20",
+   "time": "15:30",
+   "t1": "Bayer 04 Leverkusen",
+   "t2": "RB Leipzig",
+   "ft": [
+    2,
+    0
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-20",
+   "time": "17:30",
+   "t1": "FC Schalke 04",
+   "t2": "SV 07 Elversberg",
+   "ft": [
+    0,
+    0
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-20",
+   "time": "19:30",
+   "t1": "SC Paderborn 07",
+   "t2": "TSG 1899 Hoffenheim",
+   "ft": [
+    3,
+    1
+   ]
+  },
+  {
+   "r": 5,
+   "date": "2026-10-09",
+   "time": "20:30",
+   "t1": "Borussia Dortmund",
+   "t2": "SV Werder Bremen",
+   "ft": null
+  },
+  {
+   "r": 5,
+   "date": "2026-10-10",
+   "time": "15:30",
+   "t1": "1. FSV Mainz 05",
+   "t2": "Bayer 04 Leverkusen",
+   "ft": null
+  },
+  {
+   "r": 5,
+   "date": "2026-10-10",
+   "time": "15:30",
+   "t1": "SC Paderborn 07",
+   "t2": "VfB Stuttgart",
+   "ft": null
+  },
+  {
+   "r": 5,
+   "date": "2026-10-10",
+   "time": "15:30",
+   "t1": "1. FC Union Berlin",
+   "t2": "SV 07 Elversberg",
+   "ft": null
+  },
+  {
+   "r": 5,
+   "date": "2026-10-10",
+   "time": "15:30",
+   "t1": "TSG 1899 Hoffenheim",
+   "t2": "Hamburger SV",
+   "ft": null
+  },
+  {
+   "r": 5,
+   "date": "2026-10-10",
+   "time": "15:30",
+   "t1": "FC Augsburg",
+   "t2": "FC Bayern München",
+   "ft": null
+  },
+  {
+   "r": 5,
+   "date": "2026-10-10",
+   "time": "18:30",
+   "t1": "RB Leipzig",
+   "t2": "Eintracht Frankfurt",
+   "ft": null
+  },
+  {
+   "r": 5,
+   "date": "2026-10-11",
+   "time": "15:30",
+   "t1": "1. FC Köln",
+   "t2": "Borussia Mönchengladbach",
+   "ft": null
+  },
+  {
+   "r": 5,
+   "date": "2026-10-11",
+   "time": "17:30",
+   "t1": "SC Freiburg",
+   "t2": "FC Schalke 04",
+   "ft": null
+  },
+  {
+   "r": 6,
+   "date": "2026-10-16",
+   "time": "20:30",
+   "t1": "Eintracht Frankfurt",
+   "t2": "1. FC Köln",
+   "ft": null
+  },
+  {
+   "r": 6,
+   "date": "2026-10-17",
+   "time": "15:30",
+   "t1": "1. FC Union Berlin",
+   "t2": "Borussia Dortmund",
+   "ft": null
+  },
+  {
+   "r": 6,
+   "date": "2026-10-17",
+   "time": "15:30",
+   "t1": "Hamburger SV",
+   "t2": "VfB Stuttgart",
+   "ft": null
+  },
+  {
+   "r": 6,
+   "date": "2026-10-17",
+   "time": "15:30",
+   "t1": "SV Werder Bremen",
+   "t2": "SC Paderborn 07",
+   "ft": null
+  },
+  {
+   "r": 6,
+   "date": "2026-10-17",
+   "time": "15:30",
+   "t1": "SV 07 Elversberg",
+   "t2": "FC Augsburg",
+   "ft": null
+  },
+  {
+   "r": 6,
+   "date": "2026-10-17",
+   "time": "15:30",
+   "t1": "FC Schalke 04",
+   "t2": "1. FSV Mainz 05",
+   "ft": null
+  },
+  {
+   "r": 6,
+   "date": "2026-10-17",
+   "time": "18:30",
+   "t1": "FC Bayern München",
+   "t2": "RB Leipzig",
+   "ft": null
+  },
+  {
+   "r": 6,
+   "date": "2026-10-18",
+   "time": "15:30",
+   "t1": "Bayer 04 Leverkusen",
+   "t2": "SC Freiburg",
+   "ft": null
+  },
+  {
+   "r": 6,
+   "date": "2026-10-18",
+   "time": "17:30",
+   "t1": "Borussia Mönchengladbach",
+   "t2": "TSG 1899 Hoffenheim",
+   "ft": null
+  },
+  {
+   "r": 7,
+   "date": "2026-10-23",
+   "time": "20:30",
+   "t1": "VfB Stuttgart",
+   "t2": "Borussia Mönchengladbach",
+   "ft": null
+  },
+  {
+   "r": 7,
+   "date": "2026-10-24",
+   "time": "15:30",
+   "t1": "1. FSV Mainz 05",
+   "t2": "SV Werder Bremen",
+   "ft": null
+  },
+  {
+   "r": 7,
+   "date": "2026-10-24",
+   "time": "15:30",
+   "t1": "1. FC Köln",
+   "t2": "FC Schalke 04",
+   "ft": null
+  },
+  {
+   "r": 7,
+   "date": "2026-10-24",
+   "time": "15:30",
+   "t1": "RB Leipzig",
+   "t2": "SV 07 Elversberg",
+   "ft": null
+  },
+  {
+   "r": 7,
+   "date": "2026-10-24",
+   "time": "15:30",
+   "t1": "SC Paderborn 07",
+   "t2": "Hamburger SV",
+   "ft": null
+  },
+  {
+   "r": 7,
+   "date": "2026-10-24",
+   "time": "15:30",
+   "t1": "FC Augsburg",
+   "t2": "1. FC Union Berlin",
+   "ft": null
+  },
+  {
+   "r": 7,
+   "date": "2026-10-24",
+   "time": "18:30",
+   "t1": "Borussia Dortmund",
+   "t2": "Eintracht Frankfurt",
+   "ft": null
+  },
+  {
+   "r": 7,
+   "date": "2026-10-25",
+   "time": "15:30",
+   "t1": "TSG 1899 Hoffenheim",
+   "t2": "Bayer 04 Leverkusen",
+   "ft": null
+  },
+  {
+   "r": 7,
+   "date": "2026-10-25",
+   "time": "17:30",
+   "t1": "SC Freiburg",
+   "t2": "FC Bayern München",
+   "ft": null
+  },
+  {
+   "r": 8,
+   "date": "2026-10-30",
+   "time": "20:30",
+   "t1": "SV 07 Elversberg",
+   "t2": "1. FSV Mainz 05",
+   "ft": null
+  },
+  {
+   "r": 8,
+   "date": "2026-10-31",
+   "time": "15:30",
+   "t1": "Borussia Mönchengladbach",
+   "t2": "SC Paderborn 07",
+   "ft": null
+  },
+  {
+   "r": 8,
+   "date": "2026-10-31",
+   "time": "15:30",
+   "t1": "FC Schalke 04",
+   "t2": "RB Leipzig",
+   "ft": null
+  },
+  {
+   "r": 8,
+   "date": "2026-10-31",
+   "time": "15:30",
+   "t1": "FC Augsburg",
+   "t2": "SC Freiburg",
+   "ft": null
+  },
+  {
+   "r": 8,
+   "date": "2026-10-31",
+   "time": "15:30",
+   "t1": "SV Werder Bremen",
+   "t2": "TSG 1899 Hoffenheim",
+   "ft": null
+  },
+  {
+   "r": 8,
+   "date": "2026-10-31",
+   "time": "15:30",
+   "t1": "Bayer 04 Leverkusen",
+   "t2": "VfB Stuttgart",
+   "ft": null
+  },
+  {
+   "r": 8,
+   "date": "2026-10-31",
+   "time": "18:30",
+   "t1": "FC Bayern München",
+   "t2": "Borussia Dortmund",
+   "ft": null
+  },
+  {
+   "r": 8,
+   "date": "2026-11-01",
+   "time": "15:30",
+   "t1": "1. FC Union Berlin",
+   "t2": "1. FC Köln",
+   "ft": null
+  },
+  {
+   "r": 8,
+   "date": "2026-11-01",
+   "time": "17:30",
+   "t1": "Eintracht Frankfurt",
+   "t2": "Hamburger SV",
+   "ft": null
+  },
+  {
+   "r": 9,
+   "date": "2026-11-06",
+   "time": "20:30",
+   "t1": "Hamburger SV",
+   "t2": "Borussia Mönchengladbach",
+   "ft": null
+  },
+  {
+   "r": 9,
+   "date": "2026-11-07",
+   "time": "15:30",
+   "t1": "RB Leipzig",
+   "t2": "FC Augsburg",
+   "ft": null
+  },
+  {
+   "r": 9,
+   "date": "2026-11-07",
+   "time": "15:30",
+   "t1": "Borussia Dortmund",
+   "t2": "SV 07 Elversberg",
+   "ft": null
+  },
+  {
+   "r": 9,
+   "date": "2026-11-07",
+   "time": "15:30",
+   "t1": "1. FSV Mainz 05",
+   "t2": "FC Bayern München",
+   "ft": null
+  },
+  {
+   "r": 9,
+   "date": "2026-11-07",
+   "time": "15:30",
+   "t1": "SC Paderborn 07",
+   "t2": "Eintracht Frankfurt",
+   "ft": null
+  },
+  {
+   "r": 9,
+   "date": "2026-11-07",
+   "time": "18:30",
+   "t1": "VfB Stuttgart",
+   "t2": "SV Werder Bremen",
+   "ft": null
+  },
+  {
+   "r": 9,
+   "date": "2026-11-08",
+   "time": "15:30",
+   "t1": "1. FC Köln",
+   "t2": "Bayer 04 Leverkusen",
+   "ft": null
+  },
+  {
+   "r": 9,
+   "date": "2026-11-08",
+   "time": "17:30",
+   "t1": "SC Freiburg",
+   "t2": "1. FC Union Berlin",
+   "ft": null
+  },
+  {
+   "r": 9,
+   "date": "2026-11-08",
+   "time": "19:30",
+   "t1": "TSG 1899 Hoffenheim",
+   "t2": "FC Schalke 04",
+   "ft": null
+  },
+  {
+   "r": 10,
+   "date": "2026-11-20",
+   "time": "20:30",
+   "t1": "FC Bayern München",
+   "t2": "1. FC Köln",
+   "ft": null
+  },
+  {
+   "r": 10,
+   "date": "2026-11-21",
+   "time": "15:30",
+   "t1": "Bayer 04 Leverkusen",
+   "t2": "SC Paderborn 07",
+   "ft": null
+  },
+  {
+   "r": 10,
+   "date": "2026-11-21",
+   "time": "15:30",
+   "t1": "1. FC Union Berlin",
+   "t2": "RB Leipzig",
+   "ft": null
+  },
+  {
+   "r": 10,
+   "date": "2026-11-21",
+   "time": "15:30",
+   "t1": "SV 07 Elversberg",
+   "t2": "SC Freiburg",
+   "ft": null
+  },
+  {
+   "r": 10,
+   "date": "2026-11-21",
+   "time": "15:30",
+   "t1": "Borussia Mönchengladbach",
+   "t2": "Borussia Dortmund",
+   "ft": null
+  },
+  {
+   "r": 10,
+   "date": "2026-11-21",
+   "time": "15:30",
+   "t1": "Eintracht Frankfurt",
+   "t2": "TSG 1899 Hoffenheim",
+   "ft": null
+  },
+  {
+   "r": 10,
+   "date": "2026-11-21",
+   "time": "18:30",
+   "t1": "FC Schalke 04",
+   "t2": "VfB Stuttgart",
+   "ft": null
+  },
+  {
+   "r": 10,
+   "date": "2026-11-22",
+   "time": "15:30",
+   "t1": "FC Augsburg",
+   "t2": "1. FSV Mainz 05",
+   "ft": null
+  },
+  {
+   "r": 10,
+   "date": "2026-11-22",
+   "time": "17:30",
+   "t1": "SV Werder Bremen",
+   "t2": "Hamburger SV",
+   "ft": null
+  },
+  {
+   "r": 11,
+   "date": "2026-11-27",
+   "time": "20:30",
+   "t1": "SV Werder Bremen",
+   "t2": "Borussia Mönchengladbach",
+   "ft": null
+  },
+  {
+   "r": 11,
+   "date": "2026-11-28",
+   "time": "15:30",
+   "t1": "1. FC Köln",
+   "t2": "SV 07 Elversberg",
+   "ft": null
+  },
+  {
+   "r": 11,
+   "date": "2026-11-28",
+   "time": "15:30",
+   "t1": "1. FSV Mainz 05",
+   "t2": "1. FC Union Berlin",
+   "ft": null
+  },
+  {
+   "r": 11,
+   "date": "2026-11-28",
+   "time": "15:30",
+   "t1": "SC Paderborn 07",
+   "t2": "FC Schalke 04",
+   "ft": null
+  },
+  {
+   "r": 11,
+   "date": "2026-11-28",
+   "time": "15:30",
+   "t1": "Hamburger SV",
+   "t2": "FC Bayern München",
+   "ft": null
+  },
+  {
+   "r": 11,
+   "date": "2026-11-28",
+   "time": "18:30",
+   "t1": "VfB Stuttgart",
+   "t2": "Eintracht Frankfurt",
+   "ft": null
+  },
+  {
+   "r": 11,
+   "date": "2026-11-29",
+   "time": "15:30",
+   "t1": "SC Freiburg",
+   "t2": "RB Leipzig",
+   "ft": null
+  },
+  {
+   "r": 11,
+   "date": "2026-11-29",
+   "time": "17:30",
+   "t1": "TSG 1899 Hoffenheim",
+   "t2": "FC Augsburg",
+   "ft": null
+  },
+  {
+   "r": 11,
+   "date": "2026-11-29",
+   "time": "19:30",
+   "t1": "Borussia Dortmund",
+   "t2": "Bayer 04 Leverkusen",
+   "ft": null
+  },
+  {
+   "r": 12,
+   "date": "2026-12-05",
+   "time": "",
+   "t1": "1. FC Union Berlin",
+   "t2": "Hamburger SV",
+   "ft": null
+  },
+  {
+   "r": 12,
+   "date": "2026-12-05",
+   "time": "",
+   "t1": "FC Schalke 04",
+   "t2": "Borussia Dortmund",
+   "ft": null
+  },
+  {
+   "r": 12,
+   "date": "2026-12-05",
+   "time": "",
+   "t1": "Bayer 04 Leverkusen",
+   "t2": "Borussia Mönchengladbach",
+   "ft": null
+  },
+  {
+   "r": 12,
+   "date": "2026-12-05",
+   "time": "",
+   "t1": "Eintracht Frankfurt",
+   "t2": "SV Werder Bremen",
+   "ft": null
+  },
+  {
+   "r": 12,
+   "date": "2026-12-05",
+   "time": "",
+   "t1": "RB Leipzig",
+   "t2": "1. FSV Mainz 05",
+   "ft": null
+  },
+  {
+   "r": 12,
+   "date": "2026-12-05",
+   "time": "",
+   "t1": "SV 07 Elversberg",
+   "t2": "VfB Stuttgart",
+   "ft": null
+  },
+  {
+   "r": 12,
+   "date": "2026-12-05",
+   "time": "",
+   "t1": "SC Freiburg",
+   "t2": "TSG 1899 Hoffenheim",
+   "ft": null
+  },
+  {
+   "r": 12,
+   "date": "2026-12-05",
+   "time": "",
+   "t1": "FC Bayern München",
+   "t2": "SC Paderborn 07",
+   "ft": null
+  },
+  {
+   "r": 12,
+   "date": "2026-12-05",
+   "time": "",
+   "t1": "FC Augsburg",
+   "t2": "1. FC Köln",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-12-12",
+   "time": "",
+   "t1": "SC Paderborn 07",
+   "t2": "SV 07 Elversberg",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-12-12",
+   "time": "",
+   "t1": "SV Werder Bremen",
+   "t2": "Bayer 04 Leverkusen",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-12-12",
+   "time": "",
+   "t1": "VfB Stuttgart",
+   "t2": "1. FC Union Berlin",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-12-12",
+   "time": "",
+   "t1": "Borussia Dortmund",
+   "t2": "FC Augsburg",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-12-12",
+   "time": "",
+   "t1": "Hamburger SV",
+   "t2": "FC Schalke 04",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-12-12",
+   "time": "",
+   "t1": "1. FSV Mainz 05",
+   "t2": "SC Freiburg",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-12-12",
+   "time": "",
+   "t1": "1. FC Köln",
+   "t2": "RB Leipzig",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-12-12",
+   "time": "",
+   "t1": "TSG 1899 Hoffenheim",
+   "t2": "FC Bayern München",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-12-12",
+   "time": "",
+   "t1": "Borussia Mönchengladbach",
+   "t2": "Eintracht Frankfurt",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-12-19",
+   "time": "",
+   "t1": "FC Schalke 04",
+   "t2": "Borussia Mönchengladbach",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-12-19",
+   "time": "",
+   "t1": "FC Bayern München",
+   "t2": "SV Werder Bremen",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-12-19",
+   "time": "",
+   "t1": "SV 07 Elversberg",
+   "t2": "Hamburger SV",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-12-19",
+   "time": "",
+   "t1": "Bayer 04 Leverkusen",
+   "t2": "Eintracht Frankfurt",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-12-19",
+   "time": "",
+   "t1": "SC Freiburg",
+   "t2": "VfB Stuttgart",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-12-19",
+   "time": "",
+   "t1": "RB Leipzig",
+   "t2": "Borussia Dortmund",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-12-19",
+   "time": "",
+   "t1": "1. FSV Mainz 05",
+   "t2": "1. FC Köln",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-12-19",
+   "time": "",
+   "t1": "1. FC Union Berlin",
+   "t2": "TSG 1899 Hoffenheim",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-12-19",
+   "time": "",
+   "t1": "FC Augsburg",
+   "t2": "SC Paderborn 07",
+   "ft": null
+  },
+  {
+   "r": 15,
+   "date": "2027-01-09",
+   "time": "",
+   "t1": "VfB Stuttgart",
+   "t2": "FC Augsburg",
+   "ft": null
+  },
+  {
+   "r": 15,
+   "date": "2027-01-09",
+   "time": "",
+   "t1": "Hamburger SV",
+   "t2": "Bayer 04 Leverkusen",
+   "ft": null
+  },
+  {
+   "r": 15,
+   "date": "2027-01-09",
+   "time": "",
+   "t1": "1. FC Köln",
+   "t2": "SC Freiburg",
+   "ft": null
+  },
+  {
+   "r": 15,
+   "date": "2027-01-09",
+   "time": "",
+   "t1": "Eintracht Frankfurt",
+   "t2": "FC Schalke 04",
+   "ft": null
+  },
+  {
+   "r": 15,
+   "date": "2027-01-09",
+   "time": "",
+   "t1": "TSG 1899 Hoffenheim",
+   "t2": "SV 07 Elversberg",
+   "ft": null
+  },
+  {
+   "r": 15,
+   "date": "2027-01-09",
+   "time": "",
+   "t1": "Borussia Mönchengladbach",
+   "t2": "FC Bayern München",
+   "ft": null
+  },
+  {
+   "r": 15,
+   "date": "2027-01-09",
+   "time": "",
+   "t1": "Borussia Dortmund",
+   "t2": "1. FSV Mainz 05",
+   "ft": null
+  },
+  {
+   "r": 15,
+   "date": "2027-01-09",
+   "time": "",
+   "t1": "SV Werder Bremen",
+   "t2": "1. FC Union Berlin",
+   "ft": null
+  },
+  {
+   "r": 15,
+   "date": "2027-01-09",
+   "time": "",
+   "t1": "SC Paderborn 07",
+   "t2": "RB Leipzig",
+   "ft": null
+  },
+  {
+   "r": 16,
+   "date": "2027-01-13",
+   "time": "",
+   "t1": "1. FSV Mainz 05",
+   "t2": "TSG 1899 Hoffenheim",
+   "ft": null
+  },
+  {
+   "r": 16,
+   "date": "2027-01-13",
+   "time": "",
+   "t1": "SC Freiburg",
+   "t2": "Hamburger SV",
+   "ft": null
+  },
+  {
+   "r": 16,
+   "date": "2027-01-13",
+   "time": "",
+   "t1": "FC Schalke 04",
+   "t2": "SV Werder Bremen",
+   "ft": null
+  },
+  {
+   "r": 16,
+   "date": "2027-01-13",
+   "time": "",
+   "t1": "RB Leipzig",
+   "t2": "VfB Stuttgart",
+   "ft": null
+  },
+  {
+   "r": 16,
+   "date": "2027-01-13",
+   "time": "",
+   "t1": "1. FC Union Berlin",
+   "t2": "SC Paderborn 07",
+   "ft": null
+  },
+  {
+   "r": 16,
+   "date": "2027-01-13",
+   "time": "",
+   "t1": "FC Bayern München",
+   "t2": "Bayer 04 Leverkusen",
+   "ft": null
+  },
+  {
+   "r": 16,
+   "date": "2027-01-13",
+   "time": "",
+   "t1": "FC Augsburg",
+   "t2": "Borussia Mönchengladbach",
+   "ft": null
+  },
+  {
+   "r": 16,
+   "date": "2027-01-13",
+   "time": "",
+   "t1": "SV 07 Elversberg",
+   "t2": "Eintracht Frankfurt",
+   "ft": null
+  },
+  {
+   "r": 16,
+   "date": "2027-01-13",
+   "time": "",
+   "t1": "1. FC Köln",
+   "t2": "Borussia Dortmund",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2027-01-16",
+   "time": "",
+   "t1": "SV Werder Bremen",
+   "t2": "SV 07 Elversberg",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2027-01-16",
+   "time": "",
+   "t1": "Eintracht Frankfurt",
+   "t2": "FC Bayern München",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2027-01-16",
+   "time": "",
+   "t1": "SC Paderborn 07",
+   "t2": "1. FC Köln",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2027-01-16",
+   "time": "",
+   "t1": "TSG 1899 Hoffenheim",
+   "t2": "RB Leipzig",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2027-01-16",
+   "time": "",
+   "t1": "Bayer 04 Leverkusen",
+   "t2": "FC Schalke 04",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2027-01-16",
+   "time": "",
+   "t1": "VfB Stuttgart",
+   "t2": "1. FSV Mainz 05",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2027-01-16",
+   "time": "",
+   "t1": "Hamburger SV",
+   "t2": "FC Augsburg",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2027-01-16",
+   "time": "",
+   "t1": "Borussia Mönchengladbach",
+   "t2": "1. FC Union Berlin",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2027-01-16",
+   "time": "",
+   "t1": "Borussia Dortmund",
+   "t2": "SC Freiburg",
+   "ft": null
+  },
+  {
+   "r": 18,
+   "date": "2027-01-23",
+   "time": "",
+   "t1": "SV Werder Bremen",
+   "t2": "SC Freiburg",
+   "ft": null
+  },
+  {
+   "r": 18,
+   "date": "2027-01-23",
+   "time": "",
+   "t1": "Hamburger SV",
+   "t2": "Borussia Dortmund",
+   "ft": null
+  },
+  {
+   "r": 18,
+   "date": "2027-01-23",
+   "time": "",
+   "t1": "SC Paderborn 07",
+   "t2": "1. FSV Mainz 05",
+   "ft": null
+  },
+  {
+   "r": 18,
+   "date": "2027-01-23",
+   "time": "",
+   "t1": "FC Schalke 04",
+   "t2": "FC Augsburg",
+   "ft": null
+  },
+  {
+   "r": 18,
+   "date": "2027-01-23",
+   "time": "",
+   "t1": "TSG 1899 Hoffenheim",
+   "t2": "1. FC Köln",
+   "ft": null
+  },
+  {
+   "r": 18,
+   "date": "2027-01-23",
+   "time": "",
+   "t1": "VfB Stuttgart",
+   "t2": "FC Bayern München",
+   "ft": null
+  },
+  {
+   "r": 18,
+   "date": "2027-01-23",
+   "time": "",
+   "t1": "Borussia Mönchengladbach",
+   "t2": "RB Leipzig",
+   "ft": null
+  },
+  {
+   "r": 18,
+   "date": "2027-01-23",
+   "time": "",
+   "t1": "Eintracht Frankfurt",
+   "t2": "1. FC Union Berlin",
+   "ft": null
+  },
+  {
+   "r": 18,
+   "date": "2027-01-23",
+   "time": "",
+   "t1": "Bayer 04 Leverkusen",
+   "t2": "SV 07 Elversberg",
+   "ft": null
+  },
+  {
+   "r": 19,
+   "date": "2027-01-30",
+   "time": "",
+   "t1": "SV 07 Elversberg",
+   "t2": "Borussia Mönchengladbach",
+   "ft": null
+  },
+  {
+   "r": 19,
+   "date": "2027-01-30",
+   "time": "",
+   "t1": "FC Augsburg",
+   "t2": "Eintracht Frankfurt",
+   "ft": null
+  },
+  {
+   "r": 19,
+   "date": "2027-01-30",
+   "time": "",
+   "t1": "1. FSV Mainz 05",
+   "t2": "Hamburger SV",
+   "ft": null
+  },
+  {
+   "r": 19,
+   "date": "2027-01-30",
+   "time": "",
+   "t1": "RB Leipzig",
+   "t2": "SV Werder Bremen",
+   "ft": null
+  },
+  {
+   "r": 19,
+   "date": "2027-01-30",
+   "time": "",
+   "t1": "1. FC Köln",
+   "t2": "VfB Stuttgart",
+   "ft": null
+  },
+  {
+   "r": 19,
+   "date": "2027-01-30",
+   "time": "",
+   "t1": "1. FC Union Berlin",
+   "t2": "Bayer 04 Leverkusen",
+   "ft": null
+  },
+  {
+   "r": 19,
+   "date": "2027-01-30",
+   "time": "",
+   "t1": "SC Freiburg",
+   "t2": "SC Paderborn 07",
+   "ft": null
+  },
+  {
+   "r": 19,
+   "date": "2027-01-30",
+   "time": "",
+   "t1": "Borussia Dortmund",
+   "t2": "TSG 1899 Hoffenheim",
+   "ft": null
+  },
+  {
+   "r": 19,
+   "date": "2027-01-30",
+   "time": "",
+   "t1": "FC Bayern München",
+   "t2": "FC Schalke 04",
+   "ft": null
+  },
+  {
+   "r": 20,
+   "date": "2027-02-06",
+   "time": "",
+   "t1": "Eintracht Frankfurt",
+   "t2": "1. FSV Mainz 05",
+   "ft": null
+  },
+  {
+   "r": 20,
+   "date": "2027-02-06",
+   "time": "",
+   "t1": "Borussia Mönchengladbach",
+   "t2": "SC Freiburg",
+   "ft": null
+  },
+  {
+   "r": 20,
+   "date": "2027-02-06",
+   "time": "",
+   "t1": "FC Schalke 04",
+   "t2": "1. FC Union Berlin",
+   "ft": null
+  },
+  {
+   "r": 20,
+   "date": "2027-02-06",
+   "time": "",
+   "t1": "Hamburger SV",
+   "t2": "RB Leipzig",
+   "ft": null
+  },
+  {
+   "r": 20,
+   "date": "2027-02-06",
+   "time": "",
+   "t1": "Bayer 04 Leverkusen",
+   "t2": "FC Augsburg",
+   "ft": null
+  },
+  {
+   "r": 20,
+   "date": "2027-02-06",
+   "time": "",
+   "t1": "SV Werder Bremen",
+   "t2": "1. FC Köln",
+   "ft": null
+  },
+  {
+   "r": 20,
+   "date": "2027-02-06",
+   "time": "",
+   "t1": "VfB Stuttgart",
+   "t2": "TSG 1899 Hoffenheim",
+   "ft": null
+  },
+  {
+   "r": 20,
+   "date": "2027-02-06",
+   "time": "",
+   "t1": "FC Bayern München",
+   "t2": "SV 07 Elversberg",
+   "ft": null
+  },
+  {
+   "r": 20,
+   "date": "2027-02-06",
+   "time": "",
+   "t1": "SC Paderborn 07",
+   "t2": "Borussia Dortmund",
+   "ft": null
+  },
+  {
+   "r": 21,
+   "date": "2027-02-13",
+   "time": "",
+   "t1": "1. FC Köln",
+   "t2": "Hamburger SV",
+   "ft": null
+  },
+  {
+   "r": 21,
+   "date": "2027-02-13",
+   "time": "",
+   "t1": "1. FSV Mainz 05",
+   "t2": "Borussia Mönchengladbach",
+   "ft": null
+  },
+  {
+   "r": 21,
+   "date": "2027-02-13",
+   "time": "",
+   "t1": "1. FC Union Berlin",
+   "t2": "FC Bayern München",
+   "ft": null
+  },
+  {
+   "r": 21,
+   "date": "2027-02-13",
+   "time": "",
+   "t1": "SV 07 Elversberg",
+   "t2": "FC Schalke 04",
+   "ft": null
+  },
+  {
+   "r": 21,
+   "date": "2027-02-13",
+   "time": "",
+   "t1": "Borussia Dortmund",
+   "t2": "VfB Stuttgart",
+   "ft": null
+  },
+  {
+   "r": 21,
+   "date": "2027-02-13",
+   "time": "",
+   "t1": "TSG 1899 Hoffenheim",
+   "t2": "SC Paderborn 07",
+   "ft": null
+  },
+  {
+   "r": 21,
+   "date": "2027-02-13",
+   "time": "",
+   "t1": "SC Freiburg",
+   "t2": "Eintracht Frankfurt",
+   "ft": null
+  },
+  {
+   "r": 21,
+   "date": "2027-02-13",
+   "time": "",
+   "t1": "FC Augsburg",
+   "t2": "SV Werder Bremen",
+   "ft": null
+  },
+  {
+   "r": 21,
+   "date": "2027-02-13",
+   "time": "",
+   "t1": "RB Leipzig",
+   "t2": "Bayer 04 Leverkusen",
+   "ft": null
+  },
+  {
+   "r": 22,
+   "date": "2027-02-20",
+   "time": "",
+   "t1": "FC Schalke 04",
+   "t2": "SC Freiburg",
+   "ft": null
+  },
+  {
+   "r": 22,
+   "date": "2027-02-20",
+   "time": "",
+   "t1": "VfB Stuttgart",
+   "t2": "SC Paderborn 07",
+   "ft": null
+  },
+  {
+   "r": 22,
+   "date": "2027-02-20",
+   "time": "",
+   "t1": "Borussia Mönchengladbach",
+   "t2": "1. FC Köln",
+   "ft": null
+  },
+  {
+   "r": 22,
+   "date": "2027-02-20",
+   "time": "",
+   "t1": "SV Werder Bremen",
+   "t2": "Borussia Dortmund",
+   "ft": null
+  },
+  {
+   "r": 22,
+   "date": "2027-02-20",
+   "time": "",
+   "t1": "Hamburger SV",
+   "t2": "TSG 1899 Hoffenheim",
+   "ft": null
+  },
+  {
+   "r": 22,
+   "date": "2027-02-20",
+   "time": "",
+   "t1": "Bayer 04 Leverkusen",
+   "t2": "1. FSV Mainz 05",
+   "ft": null
+  },
+  {
+   "r": 22,
+   "date": "2027-02-20",
+   "time": "",
+   "t1": "Eintracht Frankfurt",
+   "t2": "RB Leipzig",
+   "ft": null
+  },
+  {
+   "r": 22,
+   "date": "2027-02-20",
+   "time": "",
+   "t1": "FC Bayern München",
+   "t2": "FC Augsburg",
+   "ft": null
+  },
+  {
+   "r": 22,
+   "date": "2027-02-20",
+   "time": "",
+   "t1": "SV 07 Elversberg",
+   "t2": "1. FC Union Berlin",
+   "ft": null
+  },
+  {
+   "r": 23,
+   "date": "2027-02-27",
+   "time": "",
+   "t1": "VfB Stuttgart",
+   "t2": "Hamburger SV",
+   "ft": null
+  },
+  {
+   "r": 23,
+   "date": "2027-02-27",
+   "time": "",
+   "t1": "1. FC Köln",
+   "t2": "Eintracht Frankfurt",
+   "ft": null
+  },
+  {
+   "r": 23,
+   "date": "2027-02-27",
+   "time": "",
+   "t1": "SC Freiburg",
+   "t2": "Bayer 04 Leverkusen",
+   "ft": null
+  },
+  {
+   "r": 23,
+   "date": "2027-02-27",
+   "time": "",
+   "t1": "FC Augsburg",
+   "t2": "SV 07 Elversberg",
+   "ft": null
+  },
+  {
+   "r": 23,
+   "date": "2027-02-27",
+   "time": "",
+   "t1": "1. FSV Mainz 05",
+   "t2": "FC Schalke 04",
+   "ft": null
+  },
+  {
+   "r": 23,
+   "date": "2027-02-27",
+   "time": "",
+   "t1": "TSG 1899 Hoffenheim",
+   "t2": "Borussia Mönchengladbach",
+   "ft": null
+  },
+  {
+   "r": 23,
+   "date": "2027-02-27",
+   "time": "",
+   "t1": "SC Paderborn 07",
+   "t2": "SV Werder Bremen",
+   "ft": null
+  },
+  {
+   "r": 23,
+   "date": "2027-02-27",
+   "time": "",
+   "t1": "RB Leipzig",
+   "t2": "FC Bayern München",
+   "ft": null
+  },
+  {
+   "r": 23,
+   "date": "2027-02-27",
+   "time": "",
+   "t1": "Borussia Dortmund",
+   "t2": "1. FC Union Berlin",
+   "ft": null
+  },
+  {
+   "r": 24,
+   "date": "2027-03-03",
+   "time": "",
+   "t1": "Eintracht Frankfurt",
+   "t2": "Borussia Dortmund",
+   "ft": null
+  },
+  {
+   "r": 24,
+   "date": "2027-03-03",
+   "time": "",
+   "t1": "FC Schalke 04",
+   "t2": "1. FC Köln",
+   "ft": null
+  },
+  {
+   "r": 24,
+   "date": "2027-03-03",
+   "time": "",
+   "t1": "Bayer 04 Leverkusen",
+   "t2": "TSG 1899 Hoffenheim",
+   "ft": null
+  },
+  {
+   "r": 24,
+   "date": "2027-03-03",
+   "time": "",
+   "t1": "FC Bayern München",
+   "t2": "SC Freiburg",
+   "ft": null
+  },
+  {
+   "r": 24,
+   "date": "2027-03-03",
+   "time": "",
+   "t1": "SV Werder Bremen",
+   "t2": "1. FSV Mainz 05",
+   "ft": null
+  },
+  {
+   "r": 24,
+   "date": "2027-03-03",
+   "time": "",
+   "t1": "1. FC Union Berlin",
+   "t2": "FC Augsburg",
+   "ft": null
+  },
+  {
+   "r": 24,
+   "date": "2027-03-03",
+   "time": "",
+   "t1": "SV 07 Elversberg",
+   "t2": "RB Leipzig",
+   "ft": null
+  },
+  {
+   "r": 24,
+   "date": "2027-03-03",
+   "time": "",
+   "t1": "Borussia Mönchengladbach",
+   "t2": "VfB Stuttgart",
+   "ft": null
+  },
+  {
+   "r": 24,
+   "date": "2027-03-03",
+   "time": "",
+   "t1": "Hamburger SV",
+   "t2": "SC Paderborn 07",
+   "ft": null
+  },
+  {
+   "r": 25,
+   "date": "2027-03-06",
+   "time": "",
+   "t1": "Borussia Dortmund",
+   "t2": "FC Bayern München",
+   "ft": null
+  },
+  {
+   "r": 25,
+   "date": "2027-03-06",
+   "time": "",
+   "t1": "SC Freiburg",
+   "t2": "FC Augsburg",
+   "ft": null
+  },
+  {
+   "r": 25,
+   "date": "2027-03-06",
+   "time": "",
+   "t1": "1. FSV Mainz 05",
+   "t2": "SV 07 Elversberg",
+   "ft": null
+  },
+  {
+   "r": 25,
+   "date": "2027-03-06",
+   "time": "",
+   "t1": "Hamburger SV",
+   "t2": "Eintracht Frankfurt",
+   "ft": null
+  },
+  {
+   "r": 25,
+   "date": "2027-03-06",
+   "time": "",
+   "t1": "VfB Stuttgart",
+   "t2": "Bayer 04 Leverkusen",
+   "ft": null
+  },
+  {
+   "r": 25,
+   "date": "2027-03-06",
+   "time": "",
+   "t1": "RB Leipzig",
+   "t2": "FC Schalke 04",
+   "ft": null
+  },
+  {
+   "r": 25,
+   "date": "2027-03-06",
+   "time": "",
+   "t1": "SC Paderborn 07",
+   "t2": "Borussia Mönchengladbach",
+   "ft": null
+  },
+  {
+   "r": 25,
+   "date": "2027-03-06",
+   "time": "",
+   "t1": "1. FC Köln",
+   "t2": "1. FC Union Berlin",
+   "ft": null
+  },
+  {
+   "r": 25,
+   "date": "2027-03-06",
+   "time": "",
+   "t1": "TSG 1899 Hoffenheim",
+   "t2": "SV Werder Bremen",
+   "ft": null
+  },
+  {
+   "r": 26,
+   "date": "2027-03-13",
+   "time": "",
+   "t1": "1. FC Union Berlin",
+   "t2": "SC Freiburg",
+   "ft": null
+  },
+  {
+   "r": 26,
+   "date": "2027-03-13",
+   "time": "",
+   "t1": "SV 07 Elversberg",
+   "t2": "Borussia Dortmund",
+   "ft": null
+  },
+  {
+   "r": 26,
+   "date": "2027-03-13",
+   "time": "",
+   "t1": "Eintracht Frankfurt",
+   "t2": "SC Paderborn 07",
+   "ft": null
+  },
+  {
+   "r": 26,
+   "date": "2027-03-13",
+   "time": "",
+   "t1": "FC Augsburg",
+   "t2": "RB Leipzig",
+   "ft": null
+  },
+  {
+   "r": 26,
+   "date": "2027-03-13",
+   "time": "",
+   "t1": "Borussia Mönchengladbach",
+   "t2": "Hamburger SV",
+   "ft": null
+  },
+  {
+   "r": 26,
+   "date": "2027-03-13",
+   "time": "",
+   "t1": "SV Werder Bremen",
+   "t2": "VfB Stuttgart",
+   "ft": null
+  },
+  {
+   "r": 26,
+   "date": "2027-03-13",
+   "time": "",
+   "t1": "FC Schalke 04",
+   "t2": "TSG 1899 Hoffenheim",
+   "ft": null
+  },
+  {
+   "r": 26,
+   "date": "2027-03-13",
+   "time": "",
+   "t1": "FC Bayern München",
+   "t2": "1. FSV Mainz 05",
+   "ft": null
+  },
+  {
+   "r": 26,
+   "date": "2027-03-13",
+   "time": "",
+   "t1": "Bayer 04 Leverkusen",
+   "t2": "1. FC Köln",
+   "ft": null
+  },
+  {
+   "r": 27,
+   "date": "2027-03-20",
+   "time": "",
+   "t1": "1. FC Köln",
+   "t2": "FC Bayern München",
+   "ft": null
+  },
+  {
+   "r": 27,
+   "date": "2027-03-20",
+   "time": "",
+   "t1": "TSG 1899 Hoffenheim",
+   "t2": "Eintracht Frankfurt",
+   "ft": null
+  },
+  {
+   "r": 27,
+   "date": "2027-03-20",
+   "time": "",
+   "t1": "Borussia Dortmund",
+   "t2": "Borussia Mönchengladbach",
+   "ft": null
+  },
+  {
+   "r": 27,
+   "date": "2027-03-20",
+   "time": "",
+   "t1": "1. FSV Mainz 05",
+   "t2": "FC Augsburg",
+   "ft": null
+  },
+  {
+   "r": 27,
+   "date": "2027-03-20",
+   "time": "",
+   "t1": "VfB Stuttgart",
+   "t2": "FC Schalke 04",
+   "ft": null
+  },
+  {
+   "r": 27,
+   "date": "2027-03-20",
+   "time": "",
+   "t1": "RB Leipzig",
+   "t2": "1. FC Union Berlin",
+   "ft": null
+  },
+  {
+   "r": 27,
+   "date": "2027-03-20",
+   "time": "",
+   "t1": "SC Freiburg",
+   "t2": "SV 07 Elversberg",
+   "ft": null
+  },
+  {
+   "r": 27,
+   "date": "2027-03-20",
+   "time": "",
+   "t1": "Hamburger SV",
+   "t2": "SV Werder Bremen",
+   "ft": null
+  },
+  {
+   "r": 27,
+   "date": "2027-03-20",
+   "time": "",
+   "t1": "SC Paderborn 07",
+   "t2": "Bayer 04 Leverkusen",
+   "ft": null
+  },
+  {
+   "r": 28,
+   "date": "2027-04-03",
+   "time": "",
+   "t1": "RB Leipzig",
+   "t2": "SC Freiburg",
+   "ft": null
+  },
+  {
+   "r": 28,
+   "date": "2027-04-03",
+   "time": "",
+   "t1": "SV 07 Elversberg",
+   "t2": "1. FC Köln",
+   "ft": null
+  },
+  {
+   "r": 28,
+   "date": "2027-04-03",
+   "time": "",
+   "t1": "FC Bayern München",
+   "t2": "Hamburger SV",
+   "ft": null
+  },
+  {
+   "r": 28,
+   "date": "2027-04-03",
+   "time": "",
+   "t1": "FC Augsburg",
+   "t2": "TSG 1899 Hoffenheim",
+   "ft": null
+  },
+  {
+   "r": 28,
+   "date": "2027-04-03",
+   "time": "",
+   "t1": "Borussia Mönchengladbach",
+   "t2": "SV Werder Bremen",
+   "ft": null
+  },
+  {
+   "r": 28,
+   "date": "2027-04-03",
+   "time": "",
+   "t1": "Eintracht Frankfurt",
+   "t2": "VfB Stuttgart",
+   "ft": null
+  },
+  {
+   "r": 28,
+   "date": "2027-04-03",
+   "time": "",
+   "t1": "1. FC Union Berlin",
+   "t2": "1. FSV Mainz 05",
+   "ft": null
+  },
+  {
+   "r": 28,
+   "date": "2027-04-03",
+   "time": "",
+   "t1": "Bayer 04 Leverkusen",
+   "t2": "Borussia Dortmund",
+   "ft": null
+  },
+  {
+   "r": 28,
+   "date": "2027-04-03",
+   "time": "",
+   "t1": "FC Schalke 04",
+   "t2": "SC Paderborn 07",
+   "ft": null
+  },
+  {
+   "r": 29,
+   "date": "2027-04-10",
+   "time": "",
+   "t1": "VfB Stuttgart",
+   "t2": "SV 07 Elversberg",
+   "ft": null
+  },
+  {
+   "r": 29,
+   "date": "2027-04-10",
+   "time": "",
+   "t1": "SC Paderborn 07",
+   "t2": "FC Bayern München",
+   "ft": null
+  },
+  {
+   "r": 29,
+   "date": "2027-04-10",
+   "time": "",
+   "t1": "TSG 1899 Hoffenheim",
+   "t2": "SC Freiburg",
+   "ft": null
+  },
+  {
+   "r": 29,
+   "date": "2027-04-10",
+   "time": "",
+   "t1": "1. FSV Mainz 05",
+   "t2": "RB Leipzig",
+   "ft": null
+  },
+  {
+   "r": 29,
+   "date": "2027-04-10",
+   "time": "",
+   "t1": "SV Werder Bremen",
+   "t2": "Eintracht Frankfurt",
+   "ft": null
+  },
+  {
+   "r": 29,
+   "date": "2027-04-10",
+   "time": "",
+   "t1": "Borussia Dortmund",
+   "t2": "FC Schalke 04",
+   "ft": null
+  },
+  {
+   "r": 29,
+   "date": "2027-04-10",
+   "time": "",
+   "t1": "Hamburger SV",
+   "t2": "1. FC Union Berlin",
+   "ft": null
+  },
+  {
+   "r": 29,
+   "date": "2027-04-10",
+   "time": "",
+   "t1": "Borussia Mönchengladbach",
+   "t2": "Bayer 04 Leverkusen",
+   "ft": null
+  },
+  {
+   "r": 29,
+   "date": "2027-04-10",
+   "time": "",
+   "t1": "1. FC Köln",
+   "t2": "FC Augsburg",
+   "ft": null
+  },
+  {
+   "r": 30,
+   "date": "2027-04-17",
+   "time": "",
+   "t1": "Bayer 04 Leverkusen",
+   "t2": "SV Werder Bremen",
+   "ft": null
+  },
+  {
+   "r": 30,
+   "date": "2027-04-17",
+   "time": "",
+   "t1": "Eintracht Frankfurt",
+   "t2": "Borussia Mönchengladbach",
+   "ft": null
+  },
+  {
+   "r": 30,
+   "date": "2027-04-17",
+   "time": "",
+   "t1": "1. FC Union Berlin",
+   "t2": "VfB Stuttgart",
+   "ft": null
+  },
+  {
+   "r": 30,
+   "date": "2027-04-17",
+   "time": "",
+   "t1": "FC Bayern München",
+   "t2": "TSG 1899 Hoffenheim",
+   "ft": null
+  },
+  {
+   "r": 30,
+   "date": "2027-04-17",
+   "time": "",
+   "t1": "FC Schalke 04",
+   "t2": "Hamburger SV",
+   "ft": null
+  },
+  {
+   "r": 30,
+   "date": "2027-04-17",
+   "time": "",
+   "t1": "SV 07 Elversberg",
+   "t2": "SC Paderborn 07",
+   "ft": null
+  },
+  {
+   "r": 30,
+   "date": "2027-04-17",
+   "time": "",
+   "t1": "FC Augsburg",
+   "t2": "Borussia Dortmund",
+   "ft": null
+  },
+  {
+   "r": 30,
+   "date": "2027-04-17",
+   "time": "",
+   "t1": "SC Freiburg",
+   "t2": "1. FSV Mainz 05",
+   "ft": null
+  },
+  {
+   "r": 30,
+   "date": "2027-04-17",
+   "time": "",
+   "t1": "RB Leipzig",
+   "t2": "1. FC Köln",
+   "ft": null
+  },
+  {
+   "r": 31,
+   "date": "2027-04-24",
+   "time": "",
+   "t1": "SV Werder Bremen",
+   "t2": "FC Bayern München",
+   "ft": null
+  },
+  {
+   "r": 31,
+   "date": "2027-04-24",
+   "time": "",
+   "t1": "1. FC Köln",
+   "t2": "1. FSV Mainz 05",
+   "ft": null
+  },
+  {
+   "r": 31,
+   "date": "2027-04-24",
+   "time": "",
+   "t1": "Hamburger SV",
+   "t2": "SV 07 Elversberg",
+   "ft": null
+  },
+  {
+   "r": 31,
+   "date": "2027-04-24",
+   "time": "",
+   "t1": "Borussia Dortmund",
+   "t2": "RB Leipzig",
+   "ft": null
+  },
+  {
+   "r": 31,
+   "date": "2027-04-24",
+   "time": "",
+   "t1": "TSG 1899 Hoffenheim",
+   "t2": "1. FC Union Berlin",
+   "ft": null
+  },
+  {
+   "r": 31,
+   "date": "2027-04-24",
+   "time": "",
+   "t1": "SC Paderborn 07",
+   "t2": "FC Augsburg",
+   "ft": null
+  },
+  {
+   "r": 31,
+   "date": "2027-04-24",
+   "time": "",
+   "t1": "VfB Stuttgart",
+   "t2": "SC Freiburg",
+   "ft": null
+  },
+  {
+   "r": 31,
+   "date": "2027-04-24",
+   "time": "",
+   "t1": "Borussia Mönchengladbach",
+   "t2": "FC Schalke 04",
+   "ft": null
+  },
+  {
+   "r": 31,
+   "date": "2027-04-24",
+   "time": "",
+   "t1": "Eintracht Frankfurt",
+   "t2": "Bayer 04 Leverkusen",
+   "ft": null
+  },
+  {
+   "r": 32,
+   "date": "2027-05-08",
+   "time": "",
+   "t1": "FC Schalke 04",
+   "t2": "Eintracht Frankfurt",
+   "ft": null
+  },
+  {
+   "r": 32,
+   "date": "2027-05-08",
+   "time": "",
+   "t1": "RB Leipzig",
+   "t2": "SC Paderborn 07",
+   "ft": null
+  },
+  {
+   "r": 32,
+   "date": "2027-05-08",
+   "time": "",
+   "t1": "SC Freiburg",
+   "t2": "1. FC Köln",
+   "ft": null
+  },
+  {
+   "r": 32,
+   "date": "2027-05-08",
+   "time": "",
+   "t1": "1. FSV Mainz 05",
+   "t2": "Borussia Dortmund",
+   "ft": null
+  },
+  {
+   "r": 32,
+   "date": "2027-05-08",
+   "time": "",
+   "t1": "FC Augsburg",
+   "t2": "VfB Stuttgart",
+   "ft": null
+  },
+  {
+   "r": 32,
+   "date": "2027-05-08",
+   "time": "",
+   "t1": "1. FC Union Berlin",
+   "t2": "SV Werder Bremen",
+   "ft": null
+  },
+  {
+   "r": 32,
+   "date": "2027-05-08",
+   "time": "",
+   "t1": "SV 07 Elversberg",
+   "t2": "TSG 1899 Hoffenheim",
+   "ft": null
+  },
+  {
+   "r": 32,
+   "date": "2027-05-08",
+   "time": "",
+   "t1": "Bayer 04 Leverkusen",
+   "t2": "Hamburger SV",
+   "ft": null
+  },
+  {
+   "r": 32,
+   "date": "2027-05-08",
+   "time": "",
+   "t1": "FC Bayern München",
+   "t2": "Borussia Mönchengladbach",
+   "ft": null
+  },
+  {
+   "r": 33,
+   "date": "2027-05-15",
+   "time": "",
+   "t1": "Eintracht Frankfurt",
+   "t2": "SV 07 Elversberg",
+   "ft": null
+  },
+  {
+   "r": 33,
+   "date": "2027-05-15",
+   "time": "",
+   "t1": "SC Paderborn 07",
+   "t2": "1. FC Union Berlin",
+   "ft": null
+  },
+  {
+   "r": 33,
+   "date": "2027-05-15",
+   "time": "",
+   "t1": "VfB Stuttgart",
+   "t2": "RB Leipzig",
+   "ft": null
+  },
+  {
+   "r": 33,
+   "date": "2027-05-15",
+   "time": "",
+   "t1": "Borussia Dortmund",
+   "t2": "1. FC Köln",
+   "ft": null
+  },
+  {
+   "r": 33,
+   "date": "2027-05-15",
+   "time": "",
+   "t1": "Hamburger SV",
+   "t2": "SC Freiburg",
+   "ft": null
+  },
+  {
+   "r": 33,
+   "date": "2027-05-15",
+   "time": "",
+   "t1": "Bayer 04 Leverkusen",
+   "t2": "FC Bayern München",
+   "ft": null
+  },
+  {
+   "r": 33,
+   "date": "2027-05-15",
+   "time": "",
+   "t1": "SV Werder Bremen",
+   "t2": "FC Schalke 04",
+   "ft": null
+  },
+  {
+   "r": 33,
+   "date": "2027-05-15",
+   "time": "",
+   "t1": "Borussia Mönchengladbach",
+   "t2": "FC Augsburg",
+   "ft": null
+  },
+  {
+   "r": 33,
+   "date": "2027-05-15",
+   "time": "",
+   "t1": "TSG 1899 Hoffenheim",
+   "t2": "1. FSV Mainz 05",
+   "ft": null
+  },
+  {
+   "r": 34,
+   "date": "2027-05-22",
+   "time": "15:30",
+   "t1": "RB Leipzig",
+   "t2": "TSG 1899 Hoffenheim",
+   "ft": null
+  },
+  {
+   "r": 34,
+   "date": "2027-05-22",
+   "time": "15:30",
+   "t1": "1. FC Union Berlin",
+   "t2": "Borussia Mönchengladbach",
+   "ft": null
+  },
+  {
+   "r": 34,
+   "date": "2027-05-22",
+   "time": "15:30",
+   "t1": "1. FSV Mainz 05",
+   "t2": "VfB Stuttgart",
+   "ft": null
+  },
+  {
+   "r": 34,
+   "date": "2027-05-22",
+   "time": "15:30",
+   "t1": "FC Schalke 04",
+   "t2": "Bayer 04 Leverkusen",
+   "ft": null
+  },
+  {
+   "r": 34,
+   "date": "2027-05-22",
+   "time": "15:30",
+   "t1": "SV 07 Elversberg",
+   "t2": "SV Werder Bremen",
+   "ft": null
+  },
+  {
+   "r": 34,
+   "date": "2027-05-22",
+   "time": "15:30",
+   "t1": "FC Bayern München",
+   "t2": "Eintracht Frankfurt",
+   "ft": null
+  },
+  {
+   "r": 34,
+   "date": "2027-05-22",
+   "time": "15:30",
+   "t1": "FC Augsburg",
+   "t2": "Hamburger SV",
+   "ft": null
+  },
+  {
+   "r": 34,
+   "date": "2027-05-22",
+   "time": "15:30",
+   "t1": "SC Freiburg",
+   "t2": "Borussia Dortmund",
+   "ft": null
+  },
+  {
+   "r": 34,
+   "date": "2027-05-22",
+   "time": "15:30",
+   "t1": "1. FC Köln",
+   "t2": "SC Paderborn 07",
+   "ft": null
+  }
+ ],
+ "cups": [
+  {
+   "key": "dfb-pokal",
+   "name": {
+    "bg": "Купа на Германия (DFB-Pokal)",
+    "de": "DFB-Pokal",
+    "en": "DFB-Pokal"
+   },
+   "rounds": [
+    {
+     "name": {
+      "bg": "Първи кръг",
+      "de": "1. Runde",
+      "en": "First round"
+     },
+     "date": "2026-08-21/2026-09-02",
+     "matches": [
+      {
+       "date": "2026-08-21",
+       "team1": "SC St. Tönis",
+       "team2": "Eintracht Frankfurt",
+       "ft": [
+        0,
+        11
+       ]
+      },
+      {
+       "date": "2026-08-21",
+       "team1": "SC Preußen Münster",
+       "team2": "Karlsruher SC",
+       "ft": [
+        1,
+        2
+       ]
+      },
+      {
+       "date": "2026-08-21",
+       "team1": "SV Waldhof Mannheim",
+       "team2": "1. FC Kaiserslautern",
+       "ft": [
+        0,
+        1
+       ],
+       "note": "n.V."
+      },
+      {
+       "date": "2026-08-21",
+       "team1": "FC Hansa Rostock",
+       "team2": "VfB Stuttgart",
+       "ft": [
+        0,
+        4
+       ]
+      },
+      {
+       "date": "2026-08-22",
+       "team1": "SV Wehen Wiesbaden",
+       "team2": "Bayer 04 Leverkusen",
+       "ft": [
+        0,
+        4
+       ]
+      },
+      {
+       "date": "2026-08-22",
+       "team1": "FC Energie Cottbus",
+       "team2": "FC Augsburg",
+       "ft": [
+        0,
+        2
+       ]
+      },
+      {
+       "date": "2026-08-22",
+       "team1": "FC Erzgebirge Aue",
+       "team2": "TSG 1899 Hoffenheim",
+       "ft": [
+        0,
+        4
+       ]
+      },
+      {
+       "date": "2026-08-22",
+       "team1": "SV Hemelingen",
+       "team2": "Hannover 96",
+       "ft": [
+        1,
+        9
+       ]
+      },
+      {
+       "date": "2026-08-22",
+       "team1": "1. FC Saarbrücken",
+       "team2": "Hertha BSC",
+       "ft": [
+        1,
+        1
+       ],
+       "note": "n.V., i.E. 2:4"
+      },
+      {
+       "date": "2026-08-22",
+       "team1": "FC Viktoria Köln",
+       "team2": "1. FC Nürnberg",
+       "ft": [
+        1,
+        1
+       ],
+       "note": "n.V., i.E. 4:5"
+      },
+      {
+       "date": "2026-08-22",
+       "team1": "MSV Duisburg",
+       "team2": "SV 07 Elversberg",
+       "ft": [
+        1,
+        3
+       ]
+      },
+      {
+       "date": "2026-08-22",
+       "team1": "Lüneburger SK Hansa",
+       "team2": "SV Werder Bremen",
+       "ft": [
+        0,
+        3
+       ]
+      },
+      {
+       "date": "2026-08-22",
+       "team1": "Eintracht Trier",
+       "team2": "RB Leipzig",
+       "ft": [
+        0,
+        6
+       ]
+      },
+      {
+       "date": "2026-08-22",
+       "team1": "SG Sonnenhof Großaspach",
+       "team2": "Arminia Bielefeld",
+       "ft": null,
+       "note": "Großaspach weiter i.E."
+      },
+      {
+       "date": "2026-08-22",
+       "team1": "TSV 1860 München",
+       "team2": "Holstein Kiel",
+       "ft": [
+        0,
+        2
+       ]
+      },
+      {
+       "date": "2026-08-23",
+       "team1": "SSV Jeddeloh II",
+       "team2": "1. FC Heidenheim",
+       "ft": [
+        5,
+        2
+       ]
+      },
+      {
+       "date": "2026-08-23",
+       "team1": "SpVgg Greuther Fürth",
+       "team2": "VfL Bochum",
+       "ft": [
+        1,
+        2
+       ]
+      },
+      {
+       "date": "2026-08-23",
+       "team1": "Eintracht Braunschweig",
+       "team2": "1. FC Union Berlin",
+       "ft": [
+        2,
+        4
+       ]
+      },
+      {
+       "date": "2026-08-23",
+       "team1": "TSV Schott Mainz",
+       "team2": "Borussia Mönchengladbach",
+       "ft": [
+        0,
+        5
+       ]
+      },
+      {
+       "date": "2026-08-23",
+       "team1": "VfB Krieschow",
+       "team2": "1. FSV Mainz 05",
+       "ft": [
+        0,
+        9
+       ]
+      },
+      {
+       "date": "2026-08-23",
+       "team1": "FC Carl Zeiss Jena",
+       "team2": "SV Darmstadt 98",
+       "ft": [
+        1,
+        2
+       ]
+      },
+      {
+       "date": "2026-08-23",
+       "team1": "Bahlinger SC",
+       "team2": "1. FC Magdeburg",
+       "ft": [
+        0,
+        4
+       ]
+      },
+      {
+       "date": "2026-08-23",
+       "team1": "Westfalia Rhynern",
+       "team2": "Dynamo Dresden",
+       "ft": [
+        0,
+        6
+       ]
+      },
+      {
+       "date": "2026-08-23",
+       "team1": "Fortuna Düsseldorf",
+       "team2": "SC Freiburg",
+       "ft": [
+        1,
+        5
+       ]
+      },
+      {
+       "date": "2026-08-23",
+       "team1": "Rot-Weiss Essen",
+       "team2": "FC St. Pauli",
+       "ft": [
+        2,
+        0
+       ]
+      },
+      {
+       "date": "2026-08-23",
+       "team1": "1. FC Phönix Lübeck",
+       "team2": "SC Paderborn 07",
+       "ft": [
+        2,
+        4
+       ]
+      },
+      {
+       "date": "2026-08-24",
+       "team1": "SC Verl",
+       "team2": "Hamburger SV",
+       "ft": [
+        0,
+        3
+       ]
+      },
+      {
+       "date": "2026-08-24",
+       "team1": "VSG Altglienicke",
+       "team2": "VfL Wolfsburg",
+       "ft": null,
+       "note": "Wolfsburg weiter i.E."
+      },
+      {
+       "date": "2026-08-24",
+       "team1": "Würzburger Kickers",
+       "team2": "1. FC Köln",
+       "ft": [
+        1,
+        2
+       ]
+      },
+      {
+       "date": "2026-08-24",
+       "team1": "Hallescher FC",
+       "team2": "FC Schalke 04",
+       "ft": [
+        2,
+        5
+       ],
+       "note": "n.V."
+      },
+      {
+       "date": "2026-09-01",
+       "team1": "HEBC Hamburg",
+       "team2": "Borussia Dortmund",
+       "ft": [
+        0,
+        5
+       ]
+      },
+      {
+       "date": "2026-09-02",
+       "team1": "VfL Osnabrück",
+       "team2": "FC Bayern München",
+       "ft": [
+        1,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "name": {
+      "bg": "Втори кръг",
+      "de": "2. Runde",
+      "en": "Second round"
+     },
+     "date": "2026-10-27/2026-10-28",
+     "matches": [
+      {
+       "date": "2026-10-27/28",
+       "team1": "SG Sonnenhof Großaspach",
+       "team2": "FC Augsburg",
+       "ft": null
+      },
+      {
+       "date": "2026-10-27/28",
+       "team1": "SSV Jeddeloh II",
+       "team2": "Hertha BSC",
+       "ft": null
+      },
+      {
+       "date": "2026-10-27/28",
+       "team1": "Rot-Weiss Essen",
+       "team2": "RB Leipzig",
+       "ft": null
+      },
+      {
+       "date": "2026-10-27/28",
+       "team1": "1. FC Köln",
+       "team2": "1. FC Union Berlin",
+       "ft": null
+      },
+      {
+       "date": "2026-10-27/28",
+       "team1": "Dynamo Dresden",
+       "team2": "FC Schalke 04",
+       "ft": null
+      },
+      {
+       "date": "2026-10-27/28",
+       "team1": "Borussia Dortmund",
+       "team2": "SV Werder Bremen",
+       "ft": null
+      },
+      {
+       "date": "2026-10-27/28",
+       "team1": "VfL Bochum",
+       "team2": "1. FSV Mainz 05",
+       "ft": null
+      },
+      {
+       "date": "2026-10-27/28",
+       "team1": "Hamburger SV",
+       "team2": "Eintracht Frankfurt",
+       "ft": null
+      },
+      {
+       "date": "2026-10-27/28",
+       "team1": "Borussia Mönchengladbach",
+       "team2": "Karlsruher SC",
+       "ft": null
+      },
+      {
+       "date": "2026-10-27/28",
+       "team1": "Holstein Kiel",
+       "team2": "TSG 1899 Hoffenheim",
+       "ft": null
+      },
+      {
+       "date": "2026-10-27/28",
+       "team1": "Bayer 04 Leverkusen",
+       "team2": "1. FC Nürnberg",
+       "ft": null
+      },
+      {
+       "date": "2026-10-27/28",
+       "team1": "Hannover 96",
+       "team2": "1. FC Kaiserslautern",
+       "ft": null
+      },
+      {
+       "date": "2026-10-27/28",
+       "team1": "SC Paderborn 07",
+       "team2": "VfB Stuttgart",
+       "ft": null
+      },
+      {
+       "date": "2026-10-27/28",
+       "team1": "SC Freiburg",
+       "team2": "VfL Wolfsburg",
+       "ft": null
+      },
+      {
+       "date": "2026-10-27/28",
+       "team1": "SV 07 Elversberg",
+       "team2": "SV Darmstadt 98",
+       "ft": null
+      },
+      {
+       "date": "2026-10-27/28",
+       "team1": "FC Bayern München",
+       "team2": "1. FC Magdeburg",
+       "ft": null
+      }
+     ]
+    }
+   ],
+   "src": [
+    "https://www.news.de/sport/859796865/dfb-pokal-2026-27-ergebnisse-spiele-paarungen-termine-spielplan-1-runde-2-runde-achtelfinale-viertelfinale-halbfinale-finale/2/",
+    "https://www.dfb.de/news/pech-vom-punkt-viktoria-koeln-und-saarbruecken-verpassen-ueberraschung",
+    "https://www.sport1.de/news/fussball/dfb-pokal/2026/09/dfb-pokal-auslosung-2-runde-live-im-free-tv-livestream-wer-zieht-bayern-und-bvb",
+    "https://www.kicker.de/saarbruecken-gegen-hertha-2026-dfb-pokal-5204710/spielbericht"
+   ]
+  }
+ ],
+ "src": [
+  {
+   "n": "openfootball (CC0)",
+   "u": "https://github.com/openfootball/football.json/tree/master/2026-27"
+  }
+ ]
+}

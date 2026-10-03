@@ -2,7 +2,7 @@
 """TERRA WORLD NEWS – static site generator.
 Usage: python3 build.py   → writes ./out
 Content: content/YYYY-MM-DD.json (one file per daily edition)."""
-import json, os, glob, shutil, html, datetime
+import json, os, glob, shutil, html, datetime, re
 from email.utils import format_datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -432,6 +432,135 @@ def media_article(it, l, paras, facts, noadv, rel, side, SX):
             f'<aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{side}</aside></div></div>')
     return html
 
+# ---- Fußball: Ligen, Tabellen, Spieltage, Pokale (Daten: content/football/*.json, openfootball CC0 + Redaktion)
+FB = {}
+FB_ORDER = ['premier-league', 'bundesliga', 'la-liga', 'ligue-1', 'serie-a']
+FBU = {'bg': dict(season='Сезон', table='Класиране', next='Предстоящ кръг', done='Изиграни кръгове', md='{n}. кръг', cups='Купи', pos='#', team='Отбор', p='М', w='П', d='Р', l='З', g='Голове', gd='ГР', pts='Т',
+                  leagues='Лиги', leader='Лидер', lead_pts='т.', ko='Начален час: българско време', noft='–', src='Данни', open='Към лигата →', upcoming='Предстои', pens='дузпи', aet='след продълж.', tbd='Предстои жребий', nomatch='Все още няма мачове.'),
+       'de': dict(season='Saison', table='Tabelle', next='Nächster Spieltag', done='Abgeschlossene Spieltage', md='{n}. Spieltag', cups='Pokale', pos='Pl.', team='Verein', p='Sp', w='S', d='U', l='N', g='Tore', gd='Diff', pts='Pkt',
+                  leagues='Ligen', leader='Tabellenführer', lead_pts='Pkt.', ko='Anstoßzeiten: deutsche Zeit', noft='–', src='Daten', open='Zur Liga →', upcoming='Anstehend', pens='i.E.', aet='n.V.', tbd='Auslosung steht aus', nomatch='Noch keine Spiele.'),
+       'en': dict(season='Season', table='Table', next='Next matchday', done='Completed matchdays', md='Matchday {n}', cups='Cups', pos='#', team='Club', p='P', w='W', d='D', l='L', g='Goals', gd='GD', pts='Pts',
+                  leagues='Leagues', leader='Leader', lead_pts='pts', ko='Kick-off times: Central European Time', noft='–', src='Data', open='Go to league →', upcoming='Upcoming', pens='pens', aet='a.e.t.', tbd='Draw pending', nomatch='No matches yet.')}
+FB_IMG = {}   # key -> img dict (Commons), aus content/football/_images.json
+
+def fb_load():
+    FB.clear(); FB_IMG.clear()
+    d = os.path.join(HERE, 'content', 'football')
+    for k in FB_ORDER:
+        fp = os.path.join(d, f'{k}.json')
+        if os.path.exists(fp): FB[k] = json.load(open(fp, encoding='utf-8'))
+    ip = os.path.join(d, '_images.json')
+    if os.path.exists(ip):
+        for it in json.load(open(ip, encoding='utf-8')).get('items', []):
+            im = it['img']
+            if os.path.exists(os.path.join(HERE, 'static', im['f'].lstrip('/'))): FB_IMG[it['id']] = im
+
+def fb_url(k, l): return f"{sub_url('sport', 'fussball', l)}{k}/"
+
+def fb_table(lg):
+    t = {}
+    for m in lg['matches']:
+        for x in (m['t1'], m['t2']): t.setdefault(x, [0, 0, 0, 0, 0, 0, 0])  # Sp S U N T GT Pkt
+        if m.get('ft') is None: continue
+        a, b = m['ft']
+        for team, gf, ga in ((m['t1'], a, b), (m['t2'], b, a)):
+            r = t[team]; r[0] += 1; r[4] += gf; r[5] += ga
+            if gf > ga: r[1] += 1; r[6] += 3
+            elif gf == ga: r[2] += 1; r[6] += 1
+            else: r[3] += 1
+    return sorted(t.items(), key=lambda kv: (-kv[1][6], -(kv[1][4] - kv[1][5]), -kv[1][4], kv[0]))
+
+def fb_dt(m, lg, l):
+    import datetime as _d
+    from zoneinfo import ZoneInfo
+    try:
+        h, mi = (m.get('time') or '00:00').split(':')[:2]
+        dt = _d.datetime.fromisoformat(m['date']).replace(hour=int(h), minute=int(mi), tzinfo=ZoneInfo(lg.get('tz', 'Europe/Berlin')))
+        loc = dt.astimezone(ZoneInfo('Europe/Sofia' if l == 'bg' else 'Europe/Berlin'))
+        wd = WEEKDAYS[l][loc.weekday()][:2 if l != 'en' else 3].capitalize()
+        return f'{wd} {loc.day:02d}.{loc.month:02d}.' + (f' {loc.hour:02d}:{loc.minute:02d}' if m.get('time') else '')
+    except Exception:
+        return '.'.join(reversed(m['date'].split('-')))
+
+def fb_rounds(lg):
+    rs = {}
+    for m in lg['matches']: rs.setdefault(m['r'], []).append(m)
+    return dict(sorted(rs.items()))
+
+def fb_state(lg, today):
+    rs = fb_rounds(lg)
+    done = [r for r, ms in rs.items() if all(m.get('ft') is not None for m in ms)]
+    nxt = next((r for r, ms in rs.items() if any(m.get('ft') is None for m in ms)), None)
+    return rs, done, nxt
+
+def fb_note(n, l):
+    if not n: return ''
+    return n.replace('n.V.', FBU[l]['aet']).replace('i.E.', FBU[l]['pens'])
+
+def fb_match_row(m, lg, l, cup=False):
+    a, b = (m.get('t1') or m.get('team1')), (m.get('t2') or m.get('team2'))
+    ft = m.get('ft')
+    sc = f'<b class="fb-sc">{ft[0]}:{ft[1]}</b>' if ft is not None else f'<span class="fb-sc fb-open">{e(FBU[l]["noft"])}</span>'
+    when = fb_dt(m, lg, l) if not cup else ('.'.join(reversed(m['date'].split('-'))) if re.match(r'^\d{4}-\d{2}-\d{2}$', m.get('date', '')) else e(m.get('date', '')))
+    note = f' <span class="fb-note">{e(fb_note(m.get("note"), l))}</span>' if m.get('note') else ''
+    return f'<tr><td class="fb-when">{when}</td><td class="fb-t1">{e(a)}</td><td class="fb-scc">{sc}</td><td class="fb-t2">{e(b)}{note}</td></tr>'
+
+def fb_league_card(k, l, today):
+    lg = FB[k]; f = FBU[l]
+    tab = fb_table(lg); rs, done, nxt = fb_state(lg, today)
+    lead = tab[0] if tab and tab[0][1][0] else None
+    im = FB_IMG.get(k)
+    st = f' style="background-image:url({im["f"]})"' if im else ''
+    return (f'<article class="fb-card"><a href="{fb_url(k, l)}"><div class="fb-img"{st}><span class="gr-badge">{e(f["season"])} {e(lg["season"])}</span>'
+            f'<span class="fb-name">{e(lg["name"][l])}</span></div>'
+            f'<div class="fb-card-txt">' + (f'<p class="fb-lead">{e(f["leader"])}: <b>{e(lead[0])}</b> · {lead[1][6]} {e(f["lead_pts"])}</p>' if lead else '') +
+            (f'<p class="gr-meta">{e(f["md"].format(n=done[-1]))} ✓' + (f' · {e(f["next"])}: {e(f["md"].format(n=nxt))}' if nxt else '') + '</p>' if done else '') +
+            f'<span class="gr-more">{e(f["open"])}</span></div></a></article>')
+
+def fb_overview(l, today, news_html, others):
+    f = FBU[l]; title = f'{SEC[l]["sport"][0]} · {SUB[l]["fussball"][0]}'
+    seasons = sorted({FB[k]['season'] for k in FB})
+    cards = ''.join(fb_league_card(k, l, today) for k in FB_ORDER if k in FB)
+    return (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(title)}</h1><span class="gp-date">{e(f["season"])} {e(" / ".join(seasons))}</span></div>'
+            f'<div class="gp-main"><div class="gp-panel"><h2 class="gp-h">{e(f["leagues"])}</h2><div class="fb-grid">{cards}</div>{news_html}</div>'
+            f'<aside class="sec-side"><h2 class="list-h">{e(UI[l]["more"] if False else {"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
+
+def fb_league_page(k, l, today, others):
+    lg = FB[k]; f = FBU[l]
+    tab = fb_table(lg); rs, done, nxt = fb_state(lg, today)
+    rows = ''.join(f'<tr{" class=fb-top" if i < 4 else ""}><td class="n">{i + 1}</td><th scope="row">{e(t)}</th><td class="n">{r[0]}</td><td class="n">{r[1]}</td><td class="n">{r[2]}</td><td class="n">{r[3]}</td><td class="n">{r[4]}:{r[5]}</td><td class="n">{"+" if r[4] - r[5] > 0 else ""}{r[4] - r[5]}</td><td class="n fb-pts">{r[6]}</td></tr>'
+                   for i, (t, r) in enumerate(tab))
+    table = (f'<div class="tbl-wrap"><table class="fb-t"><thead><tr><th class="n">{f["pos"]}</th><th>{f["team"]}</th><th class="n">{f["p"]}</th><th class="n">{f["w"]}</th><th class="n">{f["d"]}</th><th class="n">{f["l"]}</th><th class="n">{f["g"]}</th><th class="n">{f["gd"]}</th><th class="n">{f["pts"]}</th></tr></thead><tbody>{rows}</tbody></table></div>')
+    nx = ''
+    if nxt:
+        nx = (f'<h2 class="gp-h">{e(f["next"])}: {e(f["md"].format(n=nxt))}</h2><div class="tbl-wrap"><table class="fb-m"><tbody>' +
+              ''.join(fb_match_row(m, lg, l) for m in sorted(rs[nxt], key=lambda m: (m['date'], m.get('time', '')))) + f'</tbody></table></div><p class="fb-ko">{e(f["ko"])}</p>')
+    dn = ''
+    for i, r in enumerate(reversed(done)):
+        dn += (f'<details class="fb-md"{" open" if i == 0 else ""}><summary>{e(f["md"].format(n=r))}</summary><div class="tbl-wrap"><table class="fb-m"><tbody>' +
+               ''.join(fb_match_row(m, lg, l) for m in sorted(rs[r], key=lambda m: (m['date'], m.get('time', '')))) + '</tbody></table></div></details>')
+    cups = ''
+    for c in lg.get('cups', []):
+        body = ''
+        for rd in c.get('rounds', []):
+            ms = rd.get('matches', [])
+            dt = rd.get('date', '')
+            body += (f'<h4 class="fb-rd">{e(rd["name"].get(l, rd["name"].get("en", "")))}' + (f' <span class="fb-rdd">{e(dt)}</span>' if dt else '') + '</h4>' +
+                     ((f'<div class="tbl-wrap"><table class="fb-m"><tbody>' + ''.join(fb_match_row(m, lg, l, cup=True) for m in ms) + '</tbody></table></div>') if ms else f'<p class="fb-ko">{e(f["nomatch"])}</p>'))
+        csrc = ' · '.join(f'<a href="{e(x)}" rel="noopener nofollow" target="_blank">{e(re.sub(r"^https?://(www\\.)?", "", x).split("/")[0])}</a>' for x in c.get('src', [])[:6])
+        cups += f'<details class="fb-md fb-cup"><summary>{e(c["name"].get(l, c["name"].get("en", "")))}</summary>{body}' + (f'<p class="fb-ko">{e(f["src"])}: {csrc}</p>' if csrc else '') + '</details>'
+    im = FB_IMG.get(k)
+    hero = (f'<div class="ga-media"><div class="fb-hero" style="background-image:url({im["f"]})"><span class="gr-badge">{e(f["season"])} {e(lg["season"])}</span></div>'
+            f'<p class="gr-cr">{e(im.get("alt", {}).get(l, ""))} · {credit(im, l, True)}</p></div>') if im else ''
+    others_l = ''.join(f'<li><a href="{fb_url(x, l)}"{" aria-current=page" if x == k else ""}>{e(FB[x]["name"][l])}</a></li>' for x in FB_ORDER if x in FB)
+    return (f'<div class="gp gp-sport fb-page"><div class="gp-head"><h1 class="gp-title">{e(lg["name"][l])}</h1><span class="fb-season">{e(f["season"])} {e(lg["season"])}</span></div>'
+            f'<div class="gp-main"><div class="gp-panel">{hero}<h2 class="gp-h">{e(f["table"])}</h2>{table}{nx}'
+            + (f'<h2 class="gp-h">{e(f["cups"])}</h2>{cups}' if cups else '') +
+            (f'<h2 class="gp-h">{e(f["done"])}</h2>{dn}' if dn else '') +
+            f'<p class="fb-ko">{e(f["src"])}: <a href="{e(lg["src"][0]["u"])}" rel="noopener nofollow" target="_blank">{e(lg["src"][0]["n"])}</a></p></div>'
+            f'<aside class="sec-side"><h2 class="list-h">{e(f["leagues"])}</h2><ul class="fb-ll">{others_l}</ul>'
+            f'<h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
+
 ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "/#org", "name": "TERRA WORLD NEWS", "alternateName": ["Terra World News", "TWN", "TWN – World News", "TWN World News"], "description": "Terra World News (TWN) is an independent online news portal publishing daily news from around the world in Bulgarian, German and English.", "foundingDate": "2026", "url": SITE + "/",
        "logo": {"@type": "ImageObject", "url": SITE + "/assets/logo.png", "width": 600, "height": 600},
        "parentOrganization": {"@type": "Organization", "name": "FILMPARTNER 24 EOOD", "legalName": "„ФИЛМПАРТНЕР 24“ ЕООД", "url": "https://filmpartner24.com/", "vatID": "BG208477411"},
@@ -486,6 +615,7 @@ def search_url(l): return f"{pre(l)}{SEARCH_SLUG[l]}.html"
 
 def build():
     eds = load()
+    fb_load()
     act = active_langs(eds)
     ORG['knowsLanguage'] = act
     if os.path.exists(OUT): shutil.rmtree(OUT)
@@ -654,7 +784,18 @@ def build():
                 for k in SUBS[s]:
                     sits = [it for it in its if it.get('sub') == k]
                     su = sub_url(s, k, l); title = f'{SEC[l][s][0]} · {SUB[l][k][0]}'
-                    if s in MEDIA:
+                    if s == 'sport' and k == 'fussball' and FB:
+                        nh = games_page(l, sits, sits[0]['date'], '', SX, s) if sits else ''
+                        nh = nh.split('<div class="gp-panel">', 1)[1].split('</div><aside', 1)[0] if nh else ''
+                        sb = tabs(k) + fb_overview(l, latest['date'], nh, _others(s))
+                        for fk in FB_ORDER:
+                            if fk not in FB: continue
+                            fu = fb_url(fk, l); ft = f'{FB[fk]["name"][l]} {FB[fk]["season"]} | TWN – World News'
+                            falts = {x: fb_url(fk, x) for x in act}
+                            write(fu, page(l, act, ft, f'{FB[fk]["name"][l]} {FB[fk]["season"]}: {FBU[l]["table"]}, {FBU[l]["next"]}, {FBU[l]["done"]}', fu, tabs(k) + fb_league_page(fk, l, latest['date'], _others(s)), falts,
+                                           {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": FB[fk]["name"][l], "url": SITE + fu, "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
+                            urls.append((fu, falts, latest['date']))
+                    elif s in MEDIA:
                         sb = tabs(k) + games_page(l, sits, sits[0]['date'] if sits else latest['date'], _others(s), SX, s, title=title)
                     else:
                         sb = (f'{tabs(k)}<div class="sec-page" style="--c:{SEC_COLOR[s]}"><div class="rail-h sec-head"><h1 class="sec-title">{e(title)}</h1><span class="meta">{len(sits)} {u["items"]}</span></div>'
