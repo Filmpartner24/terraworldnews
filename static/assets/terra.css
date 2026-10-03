@@ -702,3 +702,4 @@ nav.sections.nv2{border-top:0;border-bottom:0}@media (max-width:860px){.nv2 .nav
  html.nav-lock,html.nav-lock body{overflow:hidden}
 }
 .nv2.stuck .nv-bar{min-height:48px}@media (max-width:860px){.nv2.stuck .nv-bar{min-height:50px}}
+@media (max-width:860px){.nv2 .nav-items a::after,.nv2 .nav-items a:hover::after,.nv2 .nav-items a:active::after,.nv2 .nav-dd .dd a[aria-current="page"]::after{background:#ff2a30!important}}
