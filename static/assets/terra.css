@@ -570,3 +570,8 @@ nav.sections .nav-dd .dd a:hover,nav.sections .nav-dd .dd a[aria-current="page"]
 nav.sections + .ticker,nav.sections ~ .ticker{margin-top:6px}
 .subnav a[aria-current="page"],.subnav a:hover{background:#0f2f7a;border-color:#0f2f7a;color:#fff}
 nav.sections{border-bottom:4px solid #d4161c}
+/* Menüpunkte wie im Sport-Untermenü: rot hinterlegt bei Auswahl/Hover */
+nav.sections{gap:4px 2px;padding:6px 10px}
+nav.sections a,nav.sections a:hover,nav.sections a[aria-current="page"]{border-bottom:0;padding:6px 8px}
+nav.sections a:hover,nav.sections a[aria-current="page"],nav.sections .nav-dd:hover > a{background:#d4161c;color:#fff}
+nav.sections .nav-dd .dd a{padding:7px 16px}
