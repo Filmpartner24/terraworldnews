@@ -696,3 +696,9 @@ nav.sections.nv2{border-top:0;border-bottom:0}@media (max-width:860px){.nv2 .nav
  .nv2 .nav-dd .dd a{justify-content:flex-start;padding:11px 20px 11px 40px;font-size:16px;border:0;color:rgba(255,255,255,.85)}
  .nv2 .nav-dd .dd a[aria-current="page"]::after{left:20px;width:4px;top:9px;bottom:9px}
 }
+/* Mobil-Menü: eigenes scrollbares Fenster */
+@media (max-width:860px){
+ .nv2.open .nav-items{position:fixed;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;margin:0;z-index:80}
+ html.nav-lock,html.nav-lock body{overflow:hidden}
+}
+.nv2.stuck .nv-bar{min-height:48px}@media (max-width:860px){.nv2.stuck .nv-bar{min-height:50px}}

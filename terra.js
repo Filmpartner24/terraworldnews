@@ -61,3 +61,11 @@ document.addEventListener('keydown',function(ev){if(ev.key==='Escape'&&n.classLi
 if(s&&'IntersectionObserver' in window){new IntersectionObserver(function(e){n.classList.toggle('stuck',!e[0].isIntersecting);},{threshold:0}).observe(s);}
 var w=n.querySelector('.nv-swipe a[aria-current="page"]');if(w&&w.parentNode){var p=w.parentNode;p.scrollLeft=Math.max(0,w.offsetLeft-p.clientWidth/2+w.clientWidth/2);}
 document.addEventListener('click',function(ev){if(n.classList.contains('open')&&!n.contains(ev.target)){n.classList.remove('open');var b=n.querySelector('.nav-tg');if(b)b.setAttribute('aria-expanded','false');}});})();
+
+/* Mobil-Menü als eigenes Fenster: unter der Leiste fixiert, innen scrollbar, Seite dahinter gesperrt */
+(function(){var n=document.getElementById('mainnav');if(!n)return;var b=n.querySelector('.nav-tg'),it=document.getElementById('navitems'),bar=n.querySelector('.nv-bar');if(!b||!it||!bar)return;
+function place(){if(!n.classList.contains('open')||innerWidth>860){it.style.top=it.style.left=it.style.width=it.style.maxHeight='';document.documentElement.classList.remove('nav-lock');return;}
+var r=bar.getBoundingClientRect();it.style.top=r.bottom+'px';it.style.left=r.left+'px';it.style.width=r.width+'px';it.style.maxHeight=(innerHeight-r.bottom)+'px';document.documentElement.classList.add('nav-lock');}
+b.addEventListener('click',function(){if(n.classList.contains('open')&&innerWidth<=860){var t=n.getBoundingClientRect().top;if(t>0)scrollTo(0,scrollY+t+2);}setTimeout(place,30);});document.addEventListener('click',function(){setTimeout(place,0);});
+addEventListener('resize',place);addEventListener('orientationchange',place);
+document.addEventListener('keydown',function(ev){if(ev.key==='Escape')setTimeout(place,0);});})();
