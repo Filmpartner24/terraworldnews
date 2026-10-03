@@ -719,3 +719,9 @@ nav.sections.nv2 .nav-dd .dd a:hover{background:#d4161c;color:#fff}
 .slogan i{display:block;width:7px;height:7px;border-radius:50%;background:#d4161c}
 @media (max-width:640px){.slogan{font-size:11.5px;gap:10px;letter-spacing:.32em;margin-top:4px}.slogan i{width:6px;height:6px}}
 .slogan-f{display:block;margin:6px 0 10px;font-family:var(--label);font-weight:700;font-size:12px;letter-spacing:.3em;color:#0f2f7a}
+/* Slogan im Breaking-News-Kopf */
+.bk-slogan{flex:1;display:flex;align-items:center;justify-content:center;gap:12px;margin:0;font-family:var(--label);font-weight:700;font-size:15px;letter-spacing:.35em;color:#0f2f7a;white-space:nowrap}
+.bk-slogan i{display:block;width:7px;height:7px;border-radius:50%;background:#d4161c}
+@media (max-width:640px){.bk-h{flex-wrap:nowrap;gap:8px}.bk-h h2{font-size:17px;padding:4px 10px 3px}.bk-slogan{font-size:10px;letter-spacing:.14em;gap:5px}.bk-slogan i{width:4px;height:4px}.bk-h .meta{font-size:12px;white-space:nowrap}}
+@media (max-width:380px){.bk-slogan{display:none}}
+.bk-h h2{white-space:nowrap}@media (max-width:640px){.bk-h h2{font-size:15px;padding:4px 8px 3px;gap:6px}.bk-h h2 .dot{width:7px;height:7px}.bk-slogan{font-size:9.5px;letter-spacing:.08em;gap:4px}.bk-h .meta{font-size:11px}}

@@ -815,6 +815,7 @@ def build():
         if cur:
             last = cur[0]['time']
             bkh = (f'<section class="breaking" aria-label="{e(u["brk"])}"><div class="bk-h"><h2><i class="dot" aria-hidden="true"></i>{e(u["brk"])}</h2>'
+                   f'<p class="bk-slogan" aria-label="News. Facts. Context.">NEWS<i aria-hidden="true"></i>FACTS<i aria-hidden="true"></i>CONTEXT</p>'
                    f'<span class="meta">{u["brkup"]} {last}{(" " + u["hour"]) if u["hour"] else ""}</span></div>'
                    f'<div class="cards">{"".join(card(it, l) for it in cur)}</div></section>')
         body = bkh + (f'<section class="lead"><div class="lead-main"><a href="{art_url(lead, l)}">{plate(lead, l, eager=True)}</a>{kick(lead, l, e(u["lead"]) + " · ")}'
