@@ -562,6 +562,86 @@ def fb_league_page(k, l, today, others):
             f'<aside class="sec-side"><h2 class="list-h">{e(f["leagues"])}</h2><ul class="fb-ll">{others_l}</ul>'
             f'<h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
 
+# ---- Boxen: Verbände WBC/WBA/IBF/WBO (Daten: content/boxing/*.json, redaktionell recherchiert)
+BX = {}; BX_IMG = {}
+BX_ORDER = ['wbc', 'wba', 'ibf', 'wbo']
+BXU = {'bg': dict(orgs='Световни боксови организации', champs='Световни шампиони', div='Категория', champ='Шампион', up='Предстоящи мачове', res='Последни мачове за титли', news='Новини', asof='Към', vac='вакантна', open='Към организацията →', next='Следващ мач', side='Организации', src='Източници'),
+       'de': dict(orgs='Weltverbände', champs='Weltmeister', div='Gewichtsklasse', champ='Champion', up='Anstehende Kämpfe', res='Letzte Titelkämpfe', news='News', asof='Stand', vac='vakant', open='Zum Verband →', next='Nächster Kampf', side='Verbände', src='Quellen'),
+       'en': dict(orgs='World sanctioning bodies', champs='World champions', div='Division', champ='Champion', up='Upcoming fights', res='Recent title fights', news='News', asof='As of', vac='vacant', open='Go to organisation →', next='Next fight', side='Organisations', src='Sources')}
+
+def bx_load():
+    BX.clear(); BX_IMG.clear()
+    d = os.path.join(HERE, 'content', 'boxing')
+    for k in BX_ORDER:
+        fp = os.path.join(d, f'{k}.json')
+        if os.path.exists(fp): BX[k] = json.load(open(fp, encoding='utf-8'))
+    ip = os.path.join(d, '_images.json')
+    if os.path.exists(ip):
+        for it in json.load(open(ip, encoding='utf-8')).get('items', []):
+            if os.path.exists(os.path.join(HERE, 'static', it['img']['f'].lstrip('/'))): BX_IMG[it['id']] = it['img']
+
+def bx_url(k, l): return f"{sub_url('sport', 'boxen', l)}{k}/"
+def bx_d(s): return '.'.join(reversed(s.split('-'))) if re.match(r'^\d{4}-\d{2}-\d{2}$', s or '') else e(s or '')
+def bx_t(x, l): return (x.get(l) or x.get('en') or x.get('de') or '') if isinstance(x, dict) else (x or '')
+
+def bx_card(k, l, today):
+    o = BX[k]; f = BXU[l]; im = BX_IMG.get(k)
+    st = f' style="background-image:url({im["f"]})"' if im else ''
+    up = sorted([x for x in o.get('upcoming', []) if x.get('date', '') >= today], key=lambda x: x['date'])
+    nx = f'<p class="gr-meta">{e(f["next"])}: {bx_d(up[0]["date"])} · {e(up[0]["f1"])} – {e(up[0]["f2"])}</p>' if up else ''
+    n = sum(1 for c in o.get('champions', []) if c.get('name'))
+    return (f'<article class="fb-card"><a href="{bx_url(k, l)}"><div class="fb-img"{st}><span class="gr-badge">{e(f["asof"])} {bx_d(o.get("asof", ""))}</span><span class="fb-name">{e(bx_t(o["name"], l))}</span></div>'
+            f'<div class="fb-card-txt"><p class="fb-lead"><b>{e(bx_t(o["full"], l))}</b> · {n} {e(f["champs"])}</p>{nx}<span class="gr-more">{e(f["open"])}</span></div></a></article>')
+
+def bx_news_grid(items, l):
+    def small(x):
+        st = f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else ''
+        return f'<article class="gs"><a href="{art_url(x, l)}"><div class="gs-img"{st}></div>{kick(x, l)}<h3>{e(x[l]["t"])}</h3></a></article>'
+    return f'<div class="gs-grid">{"".join(small(x) for x in items)}</div>' if items else ''
+
+def bx_overview(l, today, news, others):
+    f = BXU[l]; title = f'{SEC[l]["sport"][0]} · {SUB[l]["boxen"][0]}'
+    cards = ''.join(bx_card(k, l, today) for k in BX_ORDER if k in BX)
+    nh = f'<h2 class="gp-h">{e(f["news"])}</h2>{bx_news_grid(news[:9], l)}' if news else ''
+    return (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(title)}</h1><span class="gp-date">{e(nice_date(today, l))}</span></div>'
+            f'<div class="gp-main"><div class="gp-panel"><h2 class="gp-h">{e(f["orgs"])}</h2><div class="fb-grid bx-grid">{cards}</div>{nh}</div>'
+            f'<aside class="sec-side"><h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
+
+def bx_fight_rows(xs, l, res=False):
+    out = ''
+    for x in xs:
+        mid = f'<span class="bx-res">{e(bx_t(x.get("res"), l))}</span>' if res else '<span class="bx-vs">vs.</span>'
+        sub = ' · '.join(y for y in [bx_t(x.get('div'), l), bx_t(x.get('title'), l), x.get('place', '')] if y)
+        nt = f'<div class="bx-note">{e(x["note"])}</div>' if x.get('note') and l == 'de' else ''
+        out += (f'<div class="bx-fight"><div class="bx-date">{bx_d(x.get("date"))}</div><div class="bx-main"><div class="bx-names"><b>{e(x["f1"])}</b> {mid} <b>{e(x["f2"])}</b></div>'
+                f'<div class="bx-sub">{e(sub)}</div>{nt}</div></div>')
+    return out
+
+def bx_org_page(k, l, today, news, others):
+    o = BX[k]; f = BXU[l]; im = BX_IMG.get(k)
+    rows = ''
+    for c in o.get('champions', []):
+        nm = e(c['name']) if c.get('name') else f'<i class="bx-vac">{e(f["vac"])}</i>'
+        extra = ' · '.join(y for y in [c.get('country', '') if l == 'de' else '', bx_t(c.get('note'), l)] if y)
+        lim = f'<div class="bx-lim">{e(c.get("limit", ""))}</div>' if l == 'de' and c.get('limit') else ''
+        rows += f'<tr><th scope="row">{e(bx_t(c["div"], l))}{lim}</th><td><b class="bx-champ">{nm}</b>' + (f'<div class="bx-lim">{e(extra)}</div>' if extra else '') + '</td></tr>'
+    table = f'<div class="tbl-wrap"><table class="fb-t bx-t"><thead><tr><th>{e(f["div"])}</th><th>{e(f["champ"])}</th></tr></thead><tbody>{rows}</tbody></table></div>'
+    up = sorted([x for x in o.get('upcoming', []) if x.get('date', '') >= today], key=lambda x: x['date'])
+    rs = sorted(o.get('results', []), key=lambda x: x.get('date', ''), reverse=True)
+    hero = (f'<div class="ga-media"><div class="fb-hero" style="background-image:url({im["f"]})"><span class="gr-badge">{e(f["asof"])} {bx_d(o.get("asof", ""))}</span></div>'
+            f'<p class="gr-cr">{e(im.get("alt", {}).get(l, ""))} · {credit(im, l, True)}</p></div>') if im else ''
+    srcs = ''.join(f'<li><a href="{e(s["u"])}" rel="noopener nofollow" target="_blank">{e(s["n"])}</a></li>' for s in o.get('src', []))
+    side = ''.join(f'<li><a href="{bx_url(x, l)}"{" aria-current=page" if x == k else ""}>{e(bx_t(BX[x]["name"], l))} <small>{e(bx_t(BX[x]["full"], l))}</small></a></li>' for x in BX_ORDER if x in BX)
+    return (f'<div class="gp gp-sport fb-page"><div class="gp-head"><h1 class="gp-title">{e(bx_t(o["name"], l))}</h1><span class="fb-season">{e(bx_t(o["full"], l))}</span></div>'
+            f'<div class="gp-main"><div class="gp-panel">{hero}'
+            + (f'<h2 class="gp-h">{e(f["up"])}</h2>{bx_fight_rows(up, l)}' if up else '')
+            + (f'<h2 class="gp-h">{e(f["news"])}</h2>{bx_news_grid(news, l)}' if news else '')
+            + f'<h2 class="gp-h">{e(f["champs"])} <span class="fb-rdd">{e(f["asof"])} {bx_d(o.get("asof", ""))}</span></h2>{table}'
+            + (f'<h2 class="gp-h">{e(f["res"])}</h2>{bx_fight_rows(rs, l, True)}' if rs else '')
+            + f'<div class="sources ga-src"><h2>{e(f["src"])}</h2><ul>{srcs}</ul></div></div>'
+            f'<aside class="sec-side"><h2 class="list-h">{e(f["side"])}</h2><ul class="fb-ll">{side}</ul>'
+            f'<h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
+
 ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "/#org", "name": "TERRA WORLD NEWS", "alternateName": ["Terra World News", "TWN", "TWN – World News", "TWN World News"], "description": "Terra World News (TWN) is an independent online news portal publishing daily news from around the world in Bulgarian, German and English.", "foundingDate": "2026", "url": SITE + "/",
        "logo": {"@type": "ImageObject", "url": SITE + "/assets/logo.png", "width": 600, "height": 600},
        "parentOrganization": {"@type": "Organization", "name": "FILMPARTNER 24 EOOD", "legalName": "„ФИЛМПАРТНЕР 24“ ЕООД", "url": "https://filmpartner24.com/", "vatID": "BG208477411"},
@@ -616,7 +696,7 @@ def search_url(l): return f"{pre(l)}{SEARCH_SLUG[l]}.html"
 
 def build():
     eds = load()
-    fb_load()
+    fb_load(); bx_load()
     act = active_langs(eds)
     ORG['knowsLanguage'] = act
     if os.path.exists(OUT): shutil.rmtree(OUT)
@@ -796,6 +876,17 @@ def build():
                             write(fu, page(l, act, ft, f'{FB[fk]["name"][l]} {FB[fk]["season"]}: {FBU[l]["table"]}, {FBU[l]["next"]}, {FBU[l]["done"]}', fu, tabs(k) + fb_league_page(fk, l, latest['date'], _others(s)), falts,
                                            {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": FB[fk]["name"][l], "url": SITE + fu, "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
                             urls.append((fu, falts, latest['date']))
+                    elif s == 'sport' and k == 'boxen' and BX:
+                        bn = sorted(sits, key=lambda x: (x['date'], x['time']), reverse=True)
+                        sb = tabs(k) + bx_overview(l, latest['date'], bn, _others(s))
+                        for bk in BX_ORDER:
+                            if bk not in BX: continue
+                            bu = bx_url(bk, l); bt = f'{bx_t(BX[bk]["name"], l)} – {bx_t(BX[bk]["full"], l)} | TWN – World News'
+                            balts = {x: bx_url(bk, x) for x in act}
+                            bnews = [x for x in bn if bk in (x.get('org') or [])][:6]
+                            write(bu, page(l, act, bt, f'{bx_t(BX[bk]["full"], l)}: {BXU[l]["champs"]}, {BXU[l]["up"]}, {BXU[l]["res"]}', bu, tabs(k) + bx_org_page(bk, l, latest['date'], bnews, _others(s)), balts,
+                                           {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": bx_t(BX[bk]["full"], l), "url": SITE + bu, "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
+                            urls.append((bu, balts, latest['date']))
                     elif s in MEDIA:
                         sb = tabs(k) + games_page(l, sits, sits[0]['date'] if sits else latest['date'], _others(s), SX, s, title=title)
                     else:

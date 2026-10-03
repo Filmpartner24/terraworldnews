@@ -1,0 +1,373 @@
+{
+ "key": "wbo",
+ "name": {
+  "bg": "WBO",
+  "de": "WBO",
+  "en": "WBO"
+ },
+ "full": {
+  "bg": "Световна боксова организация",
+  "de": "World Boxing Organization",
+  "en": "World Boxing Organization"
+ },
+ "asof": "2026-10-03",
+ "champions": [
+  {
+   "div": {
+    "bg": "Тежка категория",
+    "de": "Schwergewicht",
+    "en": "Heavyweight"
+   },
+   "limit": "über 90,7 kg (200 lb)",
+   "name": "Daniel Dubois",
+   "country": "Großbritannien"
+  },
+  {
+   "div": {
+    "bg": "Първа тежка категория",
+    "de": "Cruisergewicht",
+    "en": "Cruiserweight"
+   },
+   "limit": "bis 90,7 kg (200 lb)",
+   "name": "David Benavidez",
+   "country": "USA"
+  },
+  {
+   "div": {
+    "bg": "Полутежка категория",
+    "de": "Halbschwergewicht",
+    "en": "Light Heavyweight"
+   },
+   "limit": "bis 79,4 kg (175 lb)",
+   "name": "Dmitry Bivol",
+   "country": "Russland",
+   "note": {
+    "bg": "Временен шампион: Калъм Смит (Великобритания)",
+    "de": "Interims-Champion: Callum Smith (Großbritannien)",
+    "en": "Interim champion: Callum Smith (UK)"
+   }
+  },
+  {
+   "div": {
+    "bg": "Супер средна категория",
+    "de": "Supermittelgewicht",
+    "en": "Super Middleweight"
+   },
+   "limit": "bis 76,2 kg (168 lb)",
+   "name": "",
+   "country": "",
+   "note": {
+    "bg": "вакантна (Хамза Шираз се отказа от титлата през септември 2026; WBO нареди Жанибек Алимханули – Якоб Банк)",
+    "de": "vakant (Hamzah Sheeraz legte den Titel im September 2026 nieder; WBO ordnete Janibek Alimkhanuly vs. Jacob Bank an)",
+    "en": "vacant (Hamzah Sheeraz vacated in September 2026; WBO ordered Janibek Alimkhanuly vs. Jacob Bank)"
+   }
+  },
+  {
+   "div": {
+    "bg": "Средна категория",
+    "de": "Mittelgewicht",
+    "en": "Middleweight"
+   },
+   "limit": "bis 72,6 kg (160 lb)",
+   "name": "Denzel Bentley",
+   "country": "Großbritannien",
+   "note": {
+    "bg": "от временен повишен в редовен шампион; по медийни данни от 1.10.2026 ще се откаже от титлата (неофициално)",
+    "de": "vom Interims- zum regulären Champion aufgewertet; laut Medienberichten vom 1.10.2026 will er den Titel niederlegen (noch nicht offiziell)",
+    "en": "elevated from interim; reported on 1 Oct 2026 to be vacating (not yet official)"
+   }
+  },
+  {
+   "div": {
+    "bg": "Супер полусредна категория",
+    "de": "Halbmittelgewicht",
+    "en": "Super Welterweight"
+   },
+   "limit": "bis 69,9 kg (154 lb)",
+   "name": "Jaron Ennis",
+   "country": "USA"
+  },
+  {
+   "div": {
+    "bg": "Полусредна категория",
+    "de": "Weltergewicht",
+    "en": "Welterweight"
+   },
+   "limit": "bis 66,7 kg (147 lb)",
+   "name": "Devin Haney",
+   "country": "USA"
+  },
+  {
+   "div": {
+    "bg": "Супер лека категория",
+    "de": "Halbweltergewicht",
+    "en": "Super Lightweight"
+   },
+   "limit": "bis 63,5 kg (140 lb)",
+   "name": "Shakur Stevenson",
+   "country": "USA"
+  },
+  {
+   "div": {
+    "bg": "Лека категория",
+    "de": "Leichtgewicht",
+    "en": "Lightweight"
+   },
+   "limit": "bis 61,2 kg (135 lb)",
+   "name": "Abdullah Mason",
+   "country": "USA"
+  },
+  {
+   "div": {
+    "bg": "Супер перо категория",
+    "de": "Superfedergewicht",
+    "en": "Super Featherweight"
+   },
+   "limit": "bis 59,0 kg (130 lb)",
+   "name": "Emanuel Navarrete",
+   "country": "Mexiko"
+  },
+  {
+   "div": {
+    "bg": "Перо категория",
+    "de": "Federgewicht",
+    "en": "Featherweight"
+   },
+   "limit": "bis 57,2 kg (126 lb)",
+   "name": "Rafael Espinoza",
+   "country": "Mexiko"
+  },
+  {
+   "div": {
+    "bg": "Супер петел категория",
+    "de": "Superbantamgewicht",
+    "en": "Super Bantamweight"
+   },
+   "limit": "bis 55,3 kg (122 lb)",
+   "name": "Naoya Inoue",
+   "country": "Japan"
+  },
+  {
+   "div": {
+    "bg": "Петел категория",
+    "de": "Bantamgewicht",
+    "en": "Bantamweight"
+   },
+   "limit": "bis 53,5 kg (118 lb)",
+   "name": "Christian Medina",
+   "country": "Mexiko"
+  },
+  {
+   "div": {
+    "bg": "Супер муха категория",
+    "de": "Superfliegengewicht",
+    "en": "Super Flyweight"
+   },
+   "limit": "bis 52,2 kg (115 lb)",
+   "name": "Kenshiro Teraji",
+   "country": "Japan"
+  },
+  {
+   "div": {
+    "bg": "Муха категория",
+    "de": "Fliegengewicht",
+    "en": "Flyweight"
+   },
+   "limit": "bis 50,8 kg (112 lb)",
+   "name": "Anthony Olascuaga",
+   "country": "USA"
+  },
+  {
+   "div": {
+    "bg": "Лека муха категория",
+    "de": "Halbfliegengewicht",
+    "en": "Light Flyweight"
+   },
+   "limit": "bis 49,0 kg (108 lb)",
+   "name": "Rene Santiago",
+   "country": "Puerto Rico"
+  },
+  {
+   "div": {
+    "bg": "Минимална категория",
+    "de": "Strohgewicht",
+    "en": "Minimumweight"
+   },
+   "limit": "bis 47,6 kg (105 lb)",
+   "name": "Oscar Collazo",
+   "country": "USA (Puerto Rico)",
+   "note": {
+    "bg": "Временен шампион: Рюсей Мацумото (Япония)",
+    "de": "Interims-Champion: Ryusei Matsumoto (Japan)",
+    "en": "Interim champion: Ryusei Matsumoto (Japan)"
+   }
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-17",
+   "place": "London, Großbritannien",
+   "f1": "Daniel Dubois",
+   "f2": "Fabio Wardley",
+   "div": {
+    "bg": "Тежка категория",
+    "de": "Schwergewicht",
+    "en": "Heavyweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBO",
+    "de": "WBO-WM",
+    "en": "WBO world title"
+   },
+   "note": "Rückkampf; The O2"
+  },
+  {
+   "date": "2026-10-24",
+   "place": "San Antonio, USA",
+   "f1": "Emanuel Navarrete",
+   "f2": "O'Shaquie Foster",
+   "div": {
+    "bg": "Супер перо категория",
+    "de": "Superfedergewicht",
+    "en": "Super Featherweight"
+   },
+   "title": {
+    "bg": "Обединение WBO, IBF и WBC",
+    "de": "WBO-, IBF- und WBC-WM (Vereinigung)",
+    "en": "WBO, IBF and WBC unification"
+   },
+   "note": "Frost Bank Center"
+  }
+ ],
+ "results": [
+  {
+   "date": "2026-09-27",
+   "place": "Tokio, Japan",
+   "f1": "Ryusei Matsumoto",
+   "f2": "Russell Acosta Silveira",
+   "res": {
+    "bg": "единодушно решение на съдиите",
+    "de": "einstimmig nach Punkten",
+    "en": "unanimous decision"
+   },
+   "div": {
+    "bg": "Минимална категория",
+    "de": "Strohgewicht",
+    "en": "Minimumweight"
+   },
+   "title": {
+    "bg": "Временна титла на WBO",
+    "de": "WBO-Interims-WM",
+    "en": "WBO interim title"
+   },
+   "note": "vakanter Interimstitel"
+  },
+  {
+   "date": "2026-07-25",
+   "place": "Dschidda, Saudi-Arabien",
+   "f1": "Hamzah Sheeraz",
+   "f2": "Simon Zachenhuber",
+   "res": {
+    "bg": "мажоритарно решение",
+    "de": "Mehrheitsentscheidung nach Punkten",
+    "en": "majority decision"
+   },
+   "div": {
+    "bg": "Супер средна категория",
+    "de": "Supermittelgewicht",
+    "en": "Super Middleweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBO",
+    "de": "WBO-WM",
+    "en": "WBO world title"
+   },
+   "note": "114-114, 116-112, 115-113"
+  },
+  {
+   "date": "2026-07-20",
+   "place": "Tokio, Japan",
+   "f1": "Kenshiro Teraji",
+   "f2": "Israel Gonzalez",
+   "res": {
+    "bg": "единодушно решение на съдиите",
+    "de": "einstimmig nach Punkten",
+    "en": "unanimous decision"
+   },
+   "div": {
+    "bg": "Супер муха категория",
+    "de": "Superfliegengewicht",
+    "en": "Super Flyweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBO",
+    "de": "WBO-WM",
+    "en": "WBO world title"
+   },
+   "note": "vakanter Titel; 117-109, 116-110, 115-111"
+  },
+  {
+   "date": "2026-07-04",
+   "place": "Cleveland, USA",
+   "f1": "Abdullah Mason",
+   "f2": "Albert Bell",
+   "res": {
+    "bg": "TKO 12. рунд",
+    "de": "TKO 12. Runde",
+    "en": "TKO round 12"
+   },
+   "div": {
+    "bg": "Лека категория",
+    "de": "Leichtgewicht",
+    "en": "Lightweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBO",
+    "de": "WBO-WM",
+    "en": "WBO world title"
+   }
+  }
+ ],
+ "src": [
+  {
+   "n": "WBO – Male Champions",
+   "u": "https://wboboxing.com/male-champions/"
+  },
+  {
+   "n": "Al Jazeera – Dubois stops Wardley",
+   "u": "https://www.aljazeera.com/sports/2026/5/10/dubois-stops-wardley-in-11th-round-to-take-wbo-heavyweight-boxing-title"
+  },
+  {
+   "n": "The Ring – Dubois-Wardley rematch Oct. 17",
+   "u": "https://www.ringmagazine.com/news/dubois-wardley-rematch-announced-for-oct-17-at-o2-arena-in-london-1vLDkdWVCJsP1gJDDs1v8E"
+  },
+  {
+   "n": "Sports Illustrated – Sheeraz vacates WBO title",
+   "u": "https://www.si.com/fannation/boxing/hamzah-sheeraz-vacates-wbo-title-amid-janibek-alimkhanuly-fight-negotiations"
+  },
+  {
+   "n": "Fightnews – WBO title activity at middle & super middle",
+   "u": "https://fightnews.com/wbo-title-activity-at-middle-super-middle/196761"
+  },
+  {
+   "n": "The Ring – Bentley joins Zuffa, will vacate",
+   "u": "https://ringmagazine.com/news/W8MgLgHCPxvHOyCaVxGyv"
+  },
+  {
+   "n": "ESPN – Mason TKOs Bell",
+   "u": "https://www.espn.com/boxing/story/_/id/49274013/mason-retains-wbo-title-dramatic-12th-round-tko-bell"
+  },
+  {
+   "n": "Fightnews – Teraji wins vacant WBO 115lb belt",
+   "u": "https://fightnews.com/full-report-teraji-defeats-gonzalez-wins-wbo-vacant-115lb-belt/192442"
+  },
+  {
+   "n": "The Ring – Sheeraz majority win over Zachenhuber",
+   "u": "https://www.ringmagazine.com/news/sheeraz-unimpressive-in-majority-points-win-over-zachenhuber-5sGst7Om61PcQfhIbvbP4n"
+  },
+  {
+   "n": "Top Rank – Navarrete vs Foster Oct. 24",
+   "u": "https://toprank.com/news/emanuel-navarrete-oshaquie-foster-unification-showdown-set-for-oct-24-at-frost-bank-center-in-san-antonio-live-on-dazn"
+  }
+ ]
+}

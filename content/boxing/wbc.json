@@ -1,0 +1,529 @@
+{
+ "key": "wbc",
+ "name": {
+  "bg": "WBC",
+  "de": "WBC",
+  "en": "WBC"
+ },
+ "full": {
+  "bg": "Световен боксов съвет",
+  "de": "World Boxing Council",
+  "en": "World Boxing Council"
+ },
+ "asof": "2026-10-03",
+ "champions": [
+  {
+   "div": {
+    "bg": "Тежка категория",
+    "de": "Schwergewicht",
+    "en": "Heavyweight"
+   },
+   "limit": "über 101,6 kg (224 lb) – beim WBC oberhalb des Bridgergewichts",
+   "name": "Agit Kabayel",
+   "country": "Deutschland",
+   "note": {
+    "bg": "Повишен в редовен шампион през юни 2026 след отказа на Усик от титлата",
+    "de": "Im Juni 2026 nach Titelniederlegung von Usyk zum regulären Champion erhoben",
+    "en": "Elevated to full champion in June 2026 after Usyk vacated"
+   }
+  },
+  {
+   "div": {
+    "bg": "Крайцер категория",
+    "de": "Cruisergewicht",
+    "en": "Cruiserweight"
+   },
+   "limit": "bis 90,7 kg (200 lb)",
+   "name": "Michał Cieślak",
+   "country": "Polen",
+   "note": {
+    "bg": "Повишен от временен шампион през септември 2026; Ноел Микаелян е лишен от титлата",
+    "de": "Im September 2026 vom Interims-Champion befördert; Noel Mikaelian wurde der Titel aberkannt",
+    "en": "Elevated from interim champion in September 2026; Noel Mikaelian stripped"
+   }
+  },
+  {
+   "div": {
+    "bg": "Полутежка категория",
+    "de": "Halbschwergewicht",
+    "en": "Light Heavyweight"
+   },
+   "limit": "bis 79,4 kg (175 lb)",
+   "name": "David Benavidez",
+   "country": "USA",
+   "note": {
+    "bg": "Държи и титлата на WBA (супершампион) в крайцер категория",
+    "de": "Hält zusätzlich den WBA-Super-Titel im Cruisergewicht",
+    "en": "Also holds WBA super title at cruiserweight"
+   }
+  },
+  {
+   "div": {
+    "bg": "Втора средна категория",
+    "de": "Supermittelgewicht",
+    "en": "Super Middleweight"
+   },
+   "limit": "bis 76,2 kg (168 lb)",
+   "name": "Christian Mbilli",
+   "country": "Kanada"
+  },
+  {
+   "div": {
+    "bg": "Средна категория",
+    "de": "Mittelgewicht",
+    "en": "Middleweight"
+   },
+   "limit": "bis 72,6 kg (160 lb)",
+   "name": "Carlos Adames",
+   "country": "Dominikanische Republik"
+  },
+  {
+   "div": {
+    "bg": "Първа средна категория",
+    "de": "Halbmittelgewicht",
+    "en": "Super Welterweight"
+   },
+   "limit": "bis 69,9 kg (154 lb)",
+   "name": "Sebastian Fundora",
+   "country": "USA"
+  },
+  {
+   "div": {
+    "bg": "Полусредна категория",
+    "de": "Weltergewicht",
+    "en": "Welterweight"
+   },
+   "limit": "bis 66,7 kg (147 lb)",
+   "name": "Ryan Garcia",
+   "country": "USA"
+  },
+  {
+   "div": {
+    "bg": "Първа полусредна категория",
+    "de": "Halbweltergewicht",
+    "en": "Super Lightweight"
+   },
+   "limit": "bis 63,5 kg (140 lb)",
+   "name": "Dalton Smith",
+   "country": "Großbritannien",
+   "note": {
+    "bg": "Временен шампион: Исак Крус (Мексико)",
+    "de": "Interims-Champion: Isaac Cruz (Mexiko)",
+    "en": "Interim champion: Isaac Cruz (Mexico)"
+   }
+  },
+  {
+   "div": {
+    "bg": "Лека категория",
+    "de": "Leichtgewicht",
+    "en": "Lightweight"
+   },
+   "limit": "bis 61,2 kg (135 lb)",
+   "name": "William Zepeda",
+   "country": "Mexiko"
+  },
+  {
+   "div": {
+    "bg": "Втора перо категория",
+    "de": "Superfedergewicht",
+    "en": "Super Featherweight"
+   },
+   "limit": "bis 59,0 kg (130 lb)",
+   "name": "O'Shaquie Foster",
+   "country": "USA"
+  },
+  {
+   "div": {
+    "bg": "Перо категория",
+    "de": "Federgewicht",
+    "en": "Featherweight"
+   },
+   "limit": "bis 57,2 kg (126 lb)",
+   "name": "Bruce Carrington",
+   "country": "USA"
+  },
+  {
+   "div": {
+    "bg": "Втора петел категория",
+    "de": "Superbantamgewicht",
+    "en": "Super Bantamweight"
+   },
+   "limit": "bis 55,3 kg (122 lb)",
+   "name": "Naoya Inoue",
+   "country": "Japan"
+  },
+  {
+   "div": {
+    "bg": "Петел категория",
+    "de": "Bantamgewicht",
+    "en": "Bantamweight"
+   },
+   "limit": "bis 53,5 kg (118 lb)",
+   "name": "Takuma Inoue",
+   "country": "Japan"
+  },
+  {
+   "div": {
+    "bg": "Втора муха категория",
+    "de": "Superfliegengewicht",
+    "en": "Super Flyweight"
+   },
+   "limit": "bis 52,2 kg (115 lb)",
+   "name": "Ricardo Malajika",
+   "country": "Südafrika",
+   "note": {
+    "bg": "Спечели вакантната титла на 27.09.2026",
+    "de": "Gewann den vakanten Titel am 27.09.2026",
+    "en": "Won the vacant title on 27 Sept 2026"
+   }
+  },
+  {
+   "div": {
+    "bg": "Муха категория",
+    "de": "Fliegengewicht",
+    "en": "Flyweight"
+   },
+   "limit": "bis 50,8 kg (112 lb)",
+   "name": "Ricardo Sandoval",
+   "country": "USA",
+   "note": {
+    "bg": "Държи и титлата на WBA",
+    "de": "Hält auch den WBA-Titel",
+    "en": "Also holds the WBA title"
+   }
+  },
+  {
+   "div": {
+    "bg": "Първа муха категория",
+    "de": "Halbfliegengewicht",
+    "en": "Light Flyweight"
+   },
+   "limit": "bis 49,0 kg (108 lb)",
+   "name": "Shokichi Iwata",
+   "country": "Japan"
+  },
+  {
+   "div": {
+    "bg": "Сламена категория",
+    "de": "Strohgewicht",
+    "en": "Minimumweight"
+   },
+   "limit": "bis 47,6 kg (105 lb)",
+   "name": "Siyakholwa Kuse",
+   "country": "Südafrika"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-10",
+   "place": "Chicago, USA",
+   "f1": "Ricardo Sandoval",
+   "f2": "Sergio Mendoza",
+   "div": {
+    "bg": "Муха категория",
+    "de": "Fliegengewicht",
+    "en": "Flyweight"
+   },
+   "title": {
+    "bg": "Световни титли на WBC и WBA",
+    "de": "WBC- und WBA-WM",
+    "en": "WBC and WBA world titles"
+   },
+   "note": "Mendoza ersetzt den verletzten Oscar Collazo"
+  },
+  {
+   "date": "2026-10-17",
+   "place": "Las Vegas, USA",
+   "f1": "Sebastian Fundora",
+   "f2": "Ermal Hadribeaj",
+   "div": {
+    "bg": "Първа средна категория",
+    "de": "Halbmittelgewicht",
+    "en": "Super Welterweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBC",
+    "de": "WBC-WM",
+    "en": "WBC world title"
+   },
+   "note": "Pflichtverteidigung"
+  },
+  {
+   "date": "2026-10-24",
+   "place": "San Antonio, USA",
+   "f1": "Emanuel Navarrete",
+   "f2": "O'Shaquie Foster",
+   "div": {
+    "bg": "Втора перо категория",
+    "de": "Superfedergewicht",
+    "en": "Super Featherweight"
+   },
+   "title": {
+    "bg": "Обединителен мач (вкл. WBC)",
+    "de": "Vereinigungskampf (u. a. WBC-WM)",
+    "en": "Unification (incl. WBC title)"
+   }
+  },
+  {
+   "date": "2026-10-24",
+   "place": "Sheffield, Großbritannien",
+   "f1": "Dalton Smith",
+   "f2": "Alberto Puello",
+   "div": {
+    "bg": "Първа полусредна категория",
+    "de": "Halbweltergewicht",
+    "en": "Super Lightweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBC",
+    "de": "WBC-WM",
+    "en": "WBC world title"
+   }
+  },
+  {
+   "date": "2026-10-31",
+   "place": "Riad, Saudi-Arabien",
+   "f1": "Christian Mbilli",
+   "f2": "Saúl „Canelo“ Álvarez",
+   "div": {
+    "bg": "Втора средна категория",
+    "de": "Supermittelgewicht",
+    "en": "Super Middleweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBC",
+    "de": "WBC-WM",
+    "en": "WBC world title"
+   },
+   "note": "vom 12.09. verschoben"
+  },
+  {
+   "date": "2026-11-07",
+   "place": "Manchester, Großbritannien",
+   "f1": "Joshua Buatsi",
+   "f2": "Willy Hutchinson",
+   "div": {
+    "bg": "Полутежка категория",
+    "de": "Halbschwergewicht",
+    "en": "Light Heavyweight"
+   },
+   "title": {
+    "bg": "Временна титла на WBC",
+    "de": "WBC-Interims-WM",
+    "en": "WBC interim title"
+   },
+   "note": "Rückkampf"
+  }
+ ],
+ "results": [
+  {
+   "date": "2026-09-27",
+   "place": "Tokio, Japan",
+   "f1": "Takuma Inoue",
+   "f2": "Tenshin Nasukawa",
+   "res": {
+    "bg": "единодушно съдийско решение (116-111, 116-111, 114-113)",
+    "de": "einstimmig nach Punkten (116-111, 116-111, 114-113)",
+    "en": "unanimous decision (116-111, 116-111, 114-113)"
+   },
+   "div": {
+    "bg": "Петел категория",
+    "de": "Bantamgewicht",
+    "en": "Bantamweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBC",
+    "de": "WBC-WM",
+    "en": "WBC world title"
+   }
+  },
+  {
+   "date": "2026-09-27",
+   "place": "Tokio, Japan",
+   "f1": "Ricardo Malajika",
+   "f2": "Tomoya Tsuboi",
+   "res": {
+    "bg": "разделено съдийско решение",
+    "de": "geteilte Punktentscheidung",
+    "en": "split decision"
+   },
+   "div": {
+    "bg": "Втора муха категория",
+    "de": "Superfliegengewicht",
+    "en": "Super Flyweight"
+   },
+   "title": {
+    "bg": "Вакантна световна титла на WBC",
+    "de": "vakante WBC-WM",
+    "en": "vacant WBC world title"
+   }
+  },
+  {
+   "date": "2026-09-19",
+   "place": "San Diego, USA",
+   "f1": "Isaac Cruz",
+   "f2": "Nestor Bravo",
+   "res": {
+    "bg": "нокаут в 6-и рунд",
+    "de": "KO 6. Runde",
+    "en": "KO round 6"
+   },
+   "div": {
+    "bg": "Първа полусредна категория",
+    "de": "Halbweltergewicht",
+    "en": "Super Lightweight"
+   },
+   "title": {
+    "bg": "Временна титла на WBC",
+    "de": "WBC-Interims-WM",
+    "en": "WBC interim title"
+   }
+  },
+  {
+   "date": "2026-09-12",
+   "place": "Las Vegas, USA",
+   "f1": "Ryan Garcia",
+   "f2": "Conor Benn",
+   "res": {
+    "bg": "технически нокаут във 2-ри рунд",
+    "de": "TKO 2. Runde",
+    "en": "TKO round 2"
+   },
+   "div": {
+    "bg": "Полусредна категория",
+    "de": "Weltergewicht",
+    "en": "Welterweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBC",
+    "de": "WBC-WM",
+    "en": "WBC world title"
+   }
+  },
+  {
+   "date": "2026-08-01",
+   "place": "Las Vegas, USA",
+   "f1": "William Zepeda",
+   "f2": "Lamont Roach",
+   "res": {
+    "bg": "единодушно съдийско решение",
+    "de": "einstimmig nach Punkten",
+    "en": "unanimous decision"
+   },
+   "div": {
+    "bg": "Лека категория",
+    "de": "Leichtgewicht",
+    "en": "Lightweight"
+   },
+   "title": {
+    "bg": "Вакантна световна титла на WBC",
+    "de": "vakante WBC-WM",
+    "en": "vacant WBC world title"
+   }
+  },
+  {
+   "date": "2026-07-20",
+   "place": "Tokio, Japan",
+   "f1": "Shokichi Iwata",
+   "f2": "Erik Badillo",
+   "res": {
+    "bg": "технически нокаут в 11-и рунд",
+    "de": "TKO 11. Runde",
+    "en": "TKO round 11"
+   },
+   "div": {
+    "bg": "Първа муха категория",
+    "de": "Halbfliegengewicht",
+    "en": "Light Flyweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBC",
+    "de": "WBC-WM",
+    "en": "WBC world title"
+   }
+  },
+  {
+   "date": "2026-07-04",
+   "place": "Cleveland, USA",
+   "f1": "Bruce Carrington",
+   "f2": "Rene Palacios",
+   "res": {
+    "bg": "единодушно съдийско решение (118-110, 117-111, 116-112)",
+    "de": "einstimmig nach Punkten (118-110, 117-111, 116-112)",
+    "en": "unanimous decision (118-110, 117-111, 116-112)"
+   },
+   "div": {
+    "bg": "Перо категория",
+    "de": "Federgewicht",
+    "en": "Featherweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBC",
+    "de": "WBC-WM",
+    "en": "WBC world title"
+   }
+  }
+ ],
+ "src": [
+  {
+   "n": "WBC – Ratings/Champions",
+   "u": "https://wbcboxing.com/en/ratings/"
+  },
+  {
+   "n": "WBC – Status der Cruisergewichts-Division (Sept. 2026)",
+   "u": "https://wbcboxing.com/en/status-of-the-wbc-cruiserweight-division-september-2026"
+  },
+  {
+   "n": "WBC – Iwata vs. Badillo",
+   "u": "https://wbcboxing.com/en/shokichi-iwata-overcomes-knockdown-to-retain-wbc-world-light-flyweight-title-against-gritty-mexican-challenger-erik-badillo"
+  },
+  {
+   "n": "Sky Sports – Usyks Titel",
+   "u": "https://www.skysports.com/boxing/news/13559207/heavyweight-boxing-what-will-happen-to-oleksandr-usyks-world-titles-and-will-moses-itauma-take-over-the-division"
+  },
+  {
+   "n": "BoxingScene – WBC entzieht Mikaelian den Titel",
+   "u": "https://www.boxingscene.com/articles/wbc-strips-mikaelian-makes-cieslak-new-champion-and-paves-way-to-benavidez-opetaia-title-fight"
+  },
+  {
+   "n": "Business Day – Malajika gewinnt WBC-Titel",
+   "u": "https://www.businessday.co.za/sport/2026-09-27-ricardo-malajika-wins-wbc-crown-by-split-decision-in-tokyo/"
+  },
+  {
+   "n": "Fightnews – Takuma Inoue vs. Nasukawa",
+   "u": "https://fightnews.com/takuma-inoue-beats-nasukawa-again-keeps-wbc-118lb-belt/197172"
+  },
+  {
+   "n": "Yahoo Sports – Cruz vs. Bravo",
+   "u": "https://sports.yahoo.com/articles/pitbull-cruz-stops-nestor-bravo-050802882.html"
+  },
+  {
+   "n": "BoxingNews24 – Garcia vs. Benn",
+   "u": "https://www.boxingnews24.com/2026/09/ryan-garcia-vs-conor-benn-live-results-and-fight-updates/"
+  },
+  {
+   "n": "ESPN – Zepeda vs. Roach",
+   "u": "https://www.espn.com/boxing/story/_/id/49510257/zepeda-overwhelms-roach-capture-vacant-wbc-lightweight-title"
+  },
+  {
+   "n": "Boxing247 – Carrington vs. Palacios",
+   "u": "https://www.boxing247.com/boxing-news/bruce-carrington-outboxes-rene-palacios-to-retain-wbc-featherweight-title/307773"
+  },
+  {
+   "n": "The Ring – Canelo vs. Mbilli am 31.10.",
+   "u": "https://www.ringmagazine.com/news/canelo-mbilli-confirmed-for-oct-31-in-riyadh-4NEG3LjQHK5kY0ITM7CZAc"
+  },
+  {
+   "n": "PBC – Fight Night 17.10.2026",
+   "u": "https://www.premierboxingchampions.com/fight-night-october-17-2026"
+  },
+  {
+   "n": "ESPN – Navarrete vs. Foster",
+   "u": "https://www.espn.com/boxing/story/_/id/49805941/navarrete-foster-junior-lightweight-unification-clash-oct-24"
+  },
+  {
+   "n": "Yahoo Sports – Boxkalender 2026",
+   "u": "https://sports.yahoo.com/articles/boxing-schedule-results-2026-171339070.html"
+  }
+ ]
+}

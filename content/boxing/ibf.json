@@ -1,0 +1,394 @@
+{
+ "key": "ibf",
+ "name": {
+  "bg": "IBF",
+  "de": "IBF",
+  "en": "IBF"
+ },
+ "full": {
+  "bg": "Международна боксова федерация",
+  "de": "International Boxing Federation",
+  "en": "International Boxing Federation"
+ },
+ "asof": "2026-10-03",
+ "champions": [
+  {
+   "div": {
+    "bg": "Тежка категория",
+    "de": "Schwergewicht",
+    "en": "Heavyweight"
+   },
+   "limit": "über 90,7 kg (200 lb)",
+   "name": "Filip Hrgovic",
+   "country": "Kroatien"
+  },
+  {
+   "div": {
+    "bg": "Първа тежка категория",
+    "de": "Cruisergewicht",
+    "en": "Cruiserweight"
+   },
+   "limit": "bis 90,7 kg (200 lb)",
+   "name": "",
+   "country": "",
+   "note": {
+    "bg": "вакантна (Джай Опетая е лишен от титлата)",
+    "de": "vakant (Jai Opetaia wurde der Titel aberkannt)",
+    "en": "vacant (Jai Opetaia stripped)"
+   }
+  },
+  {
+   "div": {
+    "bg": "Полутежка категория",
+    "de": "Halbschwergewicht",
+    "en": "Light Heavyweight"
+   },
+   "limit": "bis 79,4 kg (175 lb)",
+   "name": "Dmitry Bivol",
+   "country": "Russland"
+  },
+  {
+   "div": {
+    "bg": "Супер средна категория",
+    "de": "Supermittelgewicht",
+    "en": "Super Middleweight"
+   },
+   "limit": "bis 76,2 kg (168 lb)",
+   "name": "Osleys Iglesias",
+   "country": "Kuba"
+  },
+  {
+   "div": {
+    "bg": "Средна категория",
+    "de": "Mittelgewicht",
+    "en": "Middleweight"
+   },
+   "limit": "bis 72,6 kg (160 lb)",
+   "name": "Aaron McKenna",
+   "country": "Irland"
+  },
+  {
+   "div": {
+    "bg": "Супер полусредна категория",
+    "de": "Halbmittelgewicht",
+    "en": "Super Welterweight"
+   },
+   "limit": "bis 69,9 kg (154 lb)",
+   "name": "Josh Kelly",
+   "country": "Großbritannien"
+  },
+  {
+   "div": {
+    "bg": "Полусредна категория",
+    "de": "Weltergewicht",
+    "en": "Welterweight"
+   },
+   "limit": "bis 66,7 kg (147 lb)",
+   "name": "Liam Paro",
+   "country": "Australien"
+  },
+  {
+   "div": {
+    "bg": "Супер лека категория",
+    "de": "Halbweltergewicht",
+    "en": "Super Lightweight"
+   },
+   "limit": "bis 63,5 kg (140 lb)",
+   "name": "",
+   "country": "",
+   "note": {
+    "bg": "вакантна",
+    "de": "vakant",
+    "en": "vacant"
+   }
+  },
+  {
+   "div": {
+    "bg": "Лека категория",
+    "de": "Leichtgewicht",
+    "en": "Lightweight"
+   },
+   "limit": "bis 61,2 kg (135 lb)",
+   "name": "",
+   "country": "",
+   "note": {
+    "bg": "вакантна (Реймънд Мураталя се отказа от титлата през септември 2026; IBF нареди Анди Крус – Артур Субханкулов)",
+    "de": "vakant (Raymond Muratalla legte den Titel im September 2026 nieder; IBF ordnete Andy Cruz vs. Artur Subkhankulov an)",
+    "en": "vacant (Raymond Muratalla vacated in September 2026; IBF ordered Andy Cruz vs. Artur Subkhankulov)"
+   }
+  },
+  {
+   "div": {
+    "bg": "Супер перо категория",
+    "de": "Superfedergewicht",
+    "en": "Super Featherweight"
+   },
+   "limit": "bis 59,0 kg (130 lb)",
+   "name": "Emanuel Navarrete",
+   "country": "Mexiko"
+  },
+  {
+   "div": {
+    "bg": "Перо категория",
+    "de": "Federgewicht",
+    "en": "Featherweight"
+   },
+   "limit": "bis 57,2 kg (126 lb)",
+   "name": "Angelo Leo",
+   "country": "USA"
+  },
+  {
+   "div": {
+    "bg": "Супер петел категория",
+    "de": "Superbantamgewicht",
+    "en": "Super Bantamweight"
+   },
+   "limit": "bis 55,3 kg (122 lb)",
+   "name": "Naoya Inoue",
+   "country": "Japan",
+   "note": {
+    "bg": "Временен шампион: Сам Гудман (Австралия)",
+    "de": "Interims-Champion: Sam Goodman (Australien)",
+    "en": "Interim champion: Sam Goodman (Australia)"
+   }
+  },
+  {
+   "div": {
+    "bg": "Петел категория",
+    "de": "Bantamgewicht",
+    "en": "Bantamweight"
+   },
+   "limit": "bis 53,5 kg (118 lb)",
+   "name": "José Salas Reyes",
+   "country": "Mexiko"
+  },
+  {
+   "div": {
+    "bg": "Супер муха категория",
+    "de": "Superfliegengewicht",
+    "en": "Super Flyweight"
+   },
+   "limit": "bis 52,2 kg (115 lb)",
+   "name": "Andrew Moloney",
+   "country": "Australien"
+  },
+  {
+   "div": {
+    "bg": "Муха категория",
+    "de": "Fliegengewicht",
+    "en": "Flyweight"
+   },
+   "limit": "bis 50,8 kg (112 lb)",
+   "name": "Masamichi Yabuki",
+   "country": "Japan"
+  },
+  {
+   "div": {
+    "bg": "Лека муха категория",
+    "de": "Halbfliegengewicht",
+    "en": "Light Flyweight"
+   },
+   "limit": "bis 49,0 kg (108 lb)",
+   "name": "Thanongsak Simsri",
+   "country": "Thailand"
+  },
+  {
+   "div": {
+    "bg": "Минимална категория",
+    "de": "Strohgewicht",
+    "en": "Minimumweight"
+   },
+   "limit": "bis 47,6 kg (105 lb)",
+   "name": "Pedro Taduran",
+   "country": "Philippinen"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-24",
+   "place": "San Antonio, USA",
+   "f1": "Emanuel Navarrete",
+   "f2": "O'Shaquie Foster",
+   "div": {
+    "bg": "Супер перо категория",
+    "de": "Superfedergewicht",
+    "en": "Super Featherweight"
+   },
+   "title": {
+    "bg": "Обединение IBF, WBO и WBC",
+    "de": "IBF-, WBO- und WBC-WM (Vereinigung)",
+    "en": "IBF, WBO and WBC unification"
+   },
+   "note": "Frost Bank Center"
+  }
+ ],
+ "results": [
+  {
+   "date": "2026-09-27",
+   "place": "Tokio, Japan",
+   "f1": "Sam Goodman",
+   "f2": "Ryosuke Nishida",
+   "res": {
+    "bg": "единодушно решение на съдиите",
+    "de": "einstimmig nach Punkten",
+    "en": "unanimous decision"
+   },
+   "div": {
+    "bg": "Супер петел категория",
+    "de": "Superbantamgewicht",
+    "en": "Super Bantamweight"
+   },
+   "title": {
+    "bg": "Временна титла на IBF",
+    "de": "IBF-Interims-WM",
+    "en": "IBF interim title"
+   },
+   "note": "vakanter Interimstitel; 116-109, 115-110, 114-111"
+  },
+  {
+   "date": "2026-09-26",
+   "place": "Fuji, Japan",
+   "f1": "Thanongsak Simsri",
+   "f2": "Mark Vicelles",
+   "res": {
+    "bg": "TKO 2. рунд",
+    "de": "TKO 2. Runde",
+    "en": "TKO round 2"
+   },
+   "div": {
+    "bg": "Лека муха категория",
+    "de": "Halbfliegengewicht",
+    "en": "Light Flyweight"
+   },
+   "title": {
+    "bg": "Световна титла на IBF",
+    "de": "IBF-WM",
+    "en": "IBF world title"
+   }
+  },
+  {
+   "date": "2026-08-29",
+   "place": "London, Großbritannien",
+   "f1": "Filip Hrgovic",
+   "f2": "Moses Itauma",
+   "res": {
+    "bg": "TKO 9. рунд",
+    "de": "TKO 9. Runde",
+    "en": "TKO round 9"
+   },
+   "div": {
+    "bg": "Тежка категория",
+    "de": "Schwergewicht",
+    "en": "Heavyweight"
+   },
+   "title": {
+    "bg": "Световна титла на IBF",
+    "de": "IBF-WM",
+    "en": "IBF world title"
+   },
+   "note": "vakanter Titel (von Oleksandr Usyk niedergelegt); The O2"
+  },
+  {
+   "date": "2026-08-08",
+   "place": "Dublin, Irland",
+   "f1": "Aaron McKenna",
+   "f2": "Etinosa Oliha",
+   "res": {
+    "bg": "единодушно решение на съдиите",
+    "de": "einstimmig nach Punkten",
+    "en": "unanimous decision"
+   },
+   "div": {
+    "bg": "Средна категория",
+    "de": "Mittelgewicht",
+    "en": "Middleweight"
+   },
+   "title": {
+    "bg": "Световна титла на IBF",
+    "de": "IBF-WM",
+    "en": "IBF world title"
+   },
+   "note": "vakanter Titel; 118-110, 117-111, 116-112"
+  },
+  {
+   "date": "2026-08-01",
+   "place": "Las Vegas, USA",
+   "f1": "Raymond Muratalla",
+   "f2": "Robson Conceicao",
+   "res": {
+    "bg": "единодушно решение на съдиите",
+    "de": "einstimmig nach Punkten",
+    "en": "unanimous decision"
+   },
+   "div": {
+    "bg": "Лека категория",
+    "de": "Leichtgewicht",
+    "en": "Lightweight"
+   },
+   "title": {
+    "bg": "Световна титла на IBF",
+    "de": "IBF-WM",
+    "en": "IBF world title"
+   }
+  },
+  {
+   "date": "2026-07-25",
+   "place": "Dschidda, Saudi-Arabien",
+   "f1": "Josh Kelly",
+   "f2": "Caoimhin Agyarko",
+   "res": {
+    "bg": "единодушно решение на съдиите",
+    "de": "einstimmig nach Punkten",
+    "en": "unanimous decision"
+   },
+   "div": {
+    "bg": "Супер полусредна категория",
+    "de": "Halbmittelgewicht",
+    "en": "Super Welterweight"
+   },
+   "title": {
+    "bg": "Световна титла на IBF",
+    "de": "IBF-WM",
+    "en": "IBF world title"
+   }
+  }
+ ],
+ "src": [
+  {
+   "n": "IBF – Champions",
+   "u": "https://www.ibf-usba-boxing.com/champions/"
+  },
+  {
+   "n": "Al Jazeera – Hrgovic wins IBF title",
+   "u": "https://www.aljazeera.com/sports/2026/8/30/hrgovic-wins-ibf-world-heavyweight-boxing-title-as-itauma-hospitalised"
+  },
+  {
+   "n": "Sky Sports – McKenna beats Oliha",
+   "u": "https://www.skysports.com/boxing/news/12183/13571057/aaron-mckenna-wins-dream-homecoming-bout-against-etinosa-oliha-to-become-ibf-middleweight-world-champion-in-dublin"
+  },
+  {
+   "n": "The Ring – Kelly edges Agyarko",
+   "u": "https://www.ringmagazine.com/news/bloodied-kelly-edges-agyarko-by-unanimous-decision-retains-ibf-belt-2YM3fyu48hFhEpt4OTKD61"
+  },
+  {
+   "n": "Yahoo Sports – Muratalla vacates, IBF orders Cruz vs Subkhankulov",
+   "u": "https://sports.yahoo.com/articles/raymond-muratalla-vacates-title-ibf-233520811.html"
+  },
+  {
+   "n": "The Ring – Simsri stops Vicelles",
+   "u": "https://www.ringmagazine.com/news/simsri-stops-vicelles-in-2nd-to-retain-ibf-108-pound-world-title-5Kn4IM3CXofaX3TikEKugQ"
+  },
+  {
+   "n": "The Ring – Goodman beats Nishida",
+   "u": "https://www.ringmagazine.com/news/inoue-retains-title-in-nasukawa-rematch-goodman-beats-nishida-6NEh5BJgZU7BgwakRINGyh"
+  },
+  {
+   "n": "The Ring – IBF strips Opetaia",
+   "u": "https://www.ringmagazine.com/news/ibf-strips-jai-opetaia-of-its-cruiserweight-title-18ECOwrhD9aB5k5mhkxGkh"
+  },
+  {
+   "n": "Top Rank – Navarrete vs Foster Oct. 24",
+   "u": "https://toprank.com/news/emanuel-navarrete-oshaquie-foster-unification-showdown-set-for-oct-24-at-frost-bank-center-in-san-antonio-live-on-dazn"
+  }
+ ]
+}

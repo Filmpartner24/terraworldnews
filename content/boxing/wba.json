@@ -1,0 +1,419 @@
+{
+ "key": "wba",
+ "name": {
+  "bg": "WBA",
+  "de": "WBA",
+  "en": "WBA"
+ },
+ "full": {
+  "bg": "Световна боксова асоциация",
+  "de": "World Boxing Association",
+  "en": "World Boxing Association"
+ },
+ "asof": "2026-10-03",
+ "champions": [
+  {
+   "div": {
+    "bg": "Тежка категория",
+    "de": "Schwergewicht",
+    "en": "Heavyweight"
+   },
+   "limit": "über 90,7 kg (200 lb)",
+   "name": "Murat Gassiev",
+   "country": "Russland",
+   "note": {
+    "bg": "Световен шампион; Усик се отказа от титлата през 2026",
+    "de": "Weltmeister (World); Usyk legte den Titel 2026 nieder",
+    "en": "World champion; Usyk vacated in 2026"
+   }
+  },
+  {
+   "div": {
+    "bg": "Крайцер категория",
+    "de": "Cruisergewicht",
+    "en": "Cruiserweight"
+   },
+   "limit": "bis 90,7 kg (200 lb)",
+   "name": "David Benavidez",
+   "country": "USA",
+   "note": {
+    "bg": "Супершампион; световен шампион: Джай Опетая (Австралия)",
+    "de": "Super-Champion; Weltmeister (World): Jai Opetaia (Australien)",
+    "en": "Super champion; World champion: Jai Opetaia (Australia)"
+   }
+  },
+  {
+   "div": {
+    "bg": "Полутежка категория",
+    "de": "Halbschwergewicht",
+    "en": "Light Heavyweight"
+   },
+   "limit": "bis 79,4 kg (175 lb)",
+   "name": "Dmitry Bivol",
+   "country": "Russland",
+   "note": {
+    "bg": "Супершампион; временен шампион: Алберт Рамирес (Венецуела)",
+    "de": "Super-Champion; Interims-Champion: Albert Ramírez (Venezuela)",
+    "en": "Super champion; interim champion: Albert Ramírez (Venezuela)"
+   }
+  },
+  {
+   "div": {
+    "bg": "Втора средна категория",
+    "de": "Supermittelgewicht",
+    "en": "Super Middleweight"
+   },
+   "limit": "bis 76,2 kg (168 lb)",
+   "name": "Jaime Munguía",
+   "country": "Mexiko"
+  },
+  {
+   "div": {
+    "bg": "Средна категория",
+    "de": "Mittelgewicht",
+    "en": "Middleweight"
+   },
+   "limit": "bis 72,6 kg (160 lb)",
+   "name": "Erislandy Lara",
+   "country": "USA"
+  },
+  {
+   "div": {
+    "bg": "Първа средна категория",
+    "de": "Halbmittelgewicht",
+    "en": "Super Welterweight"
+   },
+   "limit": "bis 69,9 kg (154 lb)",
+   "name": "Jaron Ennis",
+   "country": "USA"
+  },
+  {
+   "div": {
+    "bg": "Полусредна категория",
+    "de": "Weltergewicht",
+    "en": "Welterweight"
+   },
+   "limit": "bis 66,7 kg (147 lb)",
+   "name": "Teofimo López",
+   "country": "USA",
+   "note": {
+    "bg": "Супершампион; световен шампион: Джак Катерал (Великобритания)",
+    "de": "Super-Champion; Weltmeister (World): Jack Catterall (Großbritannien)",
+    "en": "Super champion; World champion: Jack Catterall (Great Britain)"
+   }
+  },
+  {
+   "div": {
+    "bg": "Първа полусредна категория",
+    "de": "Halbweltergewicht",
+    "en": "Super Lightweight"
+   },
+   "limit": "bis 63,5 kg (140 lb)",
+   "name": "Gary Antuanne Russell",
+   "country": "USA"
+  },
+  {
+   "div": {
+    "bg": "Лека категория",
+    "de": "Leichtgewicht",
+    "en": "Lightweight"
+   },
+   "limit": "bis 61,2 kg (135 lb)",
+   "name": "",
+   "country": "",
+   "note": {
+    "bg": "вакантна (Шофийлд – Бахди на 10.10.2026)",
+    "de": "vakant (Schofield vs. Bahdi am 10.10.2026)",
+    "en": "vacant (Schofield vs. Bahdi on 10 Oct 2026)"
+   }
+  },
+  {
+   "div": {
+    "bg": "Втора перо категория",
+    "de": "Superfedergewicht",
+    "en": "Super Featherweight"
+   },
+   "limit": "bis 59,0 kg (130 lb)",
+   "name": "Anthony Cacace",
+   "country": "Irland",
+   "note": {
+    "bg": "Супершампион; световен шампион: Елнур Самедов (Русия)",
+    "de": "Super-Champion; Weltmeister (World): Elnur Samedov (Russland)",
+    "en": "Super champion; World champion: Elnur Samedov (Russia)"
+   }
+  },
+  {
+   "div": {
+    "bg": "Перо категория",
+    "de": "Federgewicht",
+    "en": "Featherweight"
+   },
+   "limit": "bis 57,2 kg (126 lb)",
+   "name": "Brandon Figueroa",
+   "country": "USA"
+  },
+  {
+   "div": {
+    "bg": "Втора петел категория",
+    "de": "Superbantamgewicht",
+    "en": "Super Bantamweight"
+   },
+   "limit": "bis 55,3 kg (122 lb)",
+   "name": "Naoya Inoue",
+   "country": "Japan",
+   "note": {
+    "bg": "Супершампион; временен шампион: Гари Антонио Ръсел (САЩ)",
+    "de": "Super-Champion; Interims-Champion: Gary Antonio Russell (USA)",
+    "en": "Super champion; interim champion: Gary Antonio Russell (USA)"
+   }
+  },
+  {
+   "div": {
+    "bg": "Петел категория",
+    "de": "Bantamgewicht",
+    "en": "Bantamweight"
+   },
+   "limit": "bis 53,5 kg (118 lb)",
+   "name": "Jesse Rodríguez",
+   "country": "USA",
+   "note": {
+    "bg": "Супершампион; световен шампион: Рику Масуда (Япония)",
+    "de": "Super-Champion; Weltmeister (World): Riku Masuda (Japan)",
+    "en": "Super champion; World champion: Riku Masuda (Japan)"
+   }
+  },
+  {
+   "div": {
+    "bg": "Втора муха категория",
+    "de": "Superfliegengewicht",
+    "en": "Super Flyweight"
+   },
+   "limit": "bis 52,2 kg (115 lb)",
+   "name": "David Jiménez",
+   "country": "Costa Rica"
+  },
+  {
+   "div": {
+    "bg": "Муха категория",
+    "de": "Fliegengewicht",
+    "en": "Flyweight"
+   },
+   "limit": "bis 50,8 kg (112 lb)",
+   "name": "Ricardo Sandoval",
+   "country": "USA",
+   "note": {
+    "bg": "Държи и титлата на WBC; временен шампион: Абрахам Перес (САЩ)",
+    "de": "Hält auch den WBC-Titel; Interims-Champion: Abraham Pérez (USA)",
+    "en": "Also holds WBC title; interim champion: Abraham Pérez (USA)"
+   }
+  },
+  {
+   "div": {
+    "bg": "Първа муха категория",
+    "de": "Halbfliegengewicht",
+    "en": "Light Flyweight"
+   },
+   "limit": "bis 49,0 kg (108 lb)",
+   "name": "René Santiago",
+   "country": "Puerto Rico",
+   "note": {
+    "bg": "Обединен шампион (WBA/WBO); световен шампион: Дайя Кира (Япония)",
+    "de": "Vereinigter Champion (WBA/WBO); Weltmeister (World): Daiya Kira (Japan)",
+    "en": "Unified champion (WBA/WBO); World champion: Daiya Kira (Japan)"
+   }
+  },
+  {
+   "div": {
+    "bg": "Сламена категория",
+    "de": "Strohgewicht",
+    "en": "Minimumweight"
+   },
+   "limit": "bis 47,6 kg (105 lb)",
+   "name": "Oscar Collazo",
+   "country": "Puerto Rico",
+   "note": {
+    "bg": "Супершампион; световен шампион: Такеши Ишии (Япония)",
+    "de": "Super-Champion; Weltmeister (World): Takeshi Ishii (Japan)",
+    "en": "Super champion; World champion: Takeshi Ishii (Japan)"
+   }
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-10",
+   "place": "Chicago, USA",
+   "f1": "Floyd Schofield",
+   "f2": "Lucas Bahdi",
+   "div": {
+    "bg": "Лека категория",
+    "de": "Leichtgewicht",
+    "en": "Lightweight"
+   },
+   "title": {
+    "bg": "Вакантна световна титла на WBA",
+    "de": "vakante WBA-WM",
+    "en": "vacant WBA world title"
+   }
+  },
+  {
+   "date": "2026-10-10",
+   "place": "Chicago, USA",
+   "f1": "Ricardo Sandoval",
+   "f2": "Sergio Mendoza",
+   "div": {
+    "bg": "Муха категория",
+    "de": "Fliegengewicht",
+    "en": "Flyweight"
+   },
+   "title": {
+    "bg": "Световни титли на WBA и WBC",
+    "de": "WBA- und WBC-WM",
+    "en": "WBA and WBC world titles"
+   },
+   "note": "Mendoza ersetzt den verletzten Oscar Collazo"
+  },
+  {
+   "date": "2026-10-17",
+   "place": "Las Vegas, USA",
+   "f1": "Brandon Figueroa",
+   "f2": "Tomoki Kameda",
+   "div": {
+    "bg": "Перо категория",
+    "de": "Federgewicht",
+    "en": "Featherweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBA",
+    "de": "WBA-WM",
+    "en": "WBA world title"
+   }
+  },
+  {
+   "date": "2026-12-19",
+   "place": "Belfast, Großbritannien",
+   "f1": "Anthony Cacace",
+   "f2": "Nick Ball",
+   "div": {
+    "bg": "Втора перо категория",
+    "de": "Superfedergewicht",
+    "en": "Super Featherweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBA",
+    "de": "WBA-WM",
+    "en": "WBA world title"
+   }
+  }
+ ],
+ "results": [
+  {
+   "date": "2026-09-12",
+   "place": "Las Vegas, USA",
+   "f1": "Jai Opetaia",
+   "f2": "Noel Mikaelian",
+   "res": {
+    "bg": "технически нокаут в 9-и рунд",
+    "de": "TKO 9. Runde",
+    "en": "TKO round 9"
+   },
+   "div": {
+    "bg": "Крайцер категория",
+    "de": "Cruisergewicht",
+    "en": "Cruiserweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBA (редовна)",
+    "de": "WBA-WM (World/regulär)",
+    "en": "WBA world (regular) title"
+   }
+  },
+  {
+   "date": "2026-08-22",
+   "place": "Las Vegas, USA",
+   "f1": "Teofimo López",
+   "f2": "Rolando Romero",
+   "res": {
+    "bg": "мнозинско съдийско решение (116-112, 115-113, 114-114)",
+    "de": "Mehrheitsentscheidung nach Punkten (116-112, 115-113, 114-114)",
+    "en": "majority decision (116-112, 115-113, 114-114)"
+   },
+   "div": {
+    "bg": "Полусредна категория",
+    "de": "Weltergewicht",
+    "en": "Welterweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBA",
+    "de": "WBA-WM",
+    "en": "WBA world title"
+   }
+  },
+  {
+   "date": "2026-07-11",
+   "place": "Moskau, Russland",
+   "f1": "Murat Gassiev",
+   "f2": "Peter Kadiru",
+   "res": {
+    "bg": "технически нокаут в 6-и рунд",
+    "de": "TKO 6. Runde",
+    "en": "TKO round 6"
+   },
+   "div": {
+    "bg": "Тежка категория",
+    "de": "Schwergewicht",
+    "en": "Heavyweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBA",
+    "de": "WBA-WM",
+    "en": "WBA world title"
+   }
+  }
+ ],
+ "src": [
+  {
+   "n": "WBA – Ranking September 2026",
+   "u": "https://www.wbaboxing.com/wba-ranking"
+  },
+  {
+   "n": "WBA – Gassiev vs. Kadiru",
+   "u": "https://www.wbaboxing.com/boxing-news/murat-gassiev-crushes-peter-kadiru-to-retain-wba-heavyweight-world-title"
+  },
+  {
+   "n": "Washington Post/AP – Gassiev vs. Kadiru",
+   "u": "https://www.washingtonpost.com/sports/boxing-mma/2026/07/11/murat-gassiev-peter-kadiru-wba-heavyweight/382b41f0-7d72-11f1-b194-f872dd4ec5aa_story.html"
+  },
+  {
+   "n": "Forbes – Romero vs. López",
+   "u": "https://www.forbes.com/sites/brianmazique/2026/08/22/rolly-romero-vs-teofimo-lopez-live-results-scorecard-and-highlights/"
+  },
+  {
+   "n": "The Ring – Catterall/López",
+   "u": "https://www.ringmagazine.com/news/lopez-s-title-performance-fails-to-win-over-catterall-2hdeeGPVeVlbDejsqRxKBH"
+  },
+  {
+   "n": "Yahoo Sports – Opetaia vs. Mikaelian",
+   "u": "https://sports.yahoo.com/articles/jai-opetaia-stops-noel-mikaelian-030337045.html"
+  },
+  {
+   "n": "Boxing News – Opetaia vs. Mikaelian",
+   "u": "https://boxingnewsonline.net/news/jai-opetaia-vs-noel-mikaelian-live/"
+  },
+  {
+   "n": "The Ring – Cacace vs. Ball",
+   "u": "https://www.ringmagazine.com/news/christmas-will-come-early-for-nick-ball-against-cacace-7C0fBOcnHTpidn1BqQmqoC"
+  },
+  {
+   "n": "PBC – Fight Night 17.10.2026",
+   "u": "https://www.premierboxingchampions.com/fight-night-october-17-2026"
+  },
+  {
+   "n": "BoxingScene – Schofield vs. Bahdi, Sandoval in Chicago",
+   "u": "https://www.boxingscene.com/articles/floyd-schofield-lucas-bahdi-oscar-collazo-ricardo-sandoval-to-chicago-on-october-10"
+  },
+  {
+   "n": "BoxingNews24 – Gassiev und der Fury-Joshua-Plan",
+   "u": "https://www.boxingnews24.com/2026/09/murat-gassiev-fights-fury-joshua-title-plan/"
+  }
+ ]
+}

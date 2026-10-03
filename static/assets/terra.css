@@ -541,3 +541,18 @@ table.fb-m td{padding:7px 8px;border-bottom:1px solid #1c2f48}
 @media (max-width:980px){.fb-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:560px){.fb-grid{grid-template-columns:1fr}table.fb-t{font-size:13.5px}table.fb-t th,table.fb-t td{padding:6px 5px}.fb-t1,.fb-t2{font-size:14px}.fb-when{font-size:11.5px}}
 .fb-pp{font-size:12px;color:#fdba74}
+/* ---- Boxen */
+.bx-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.bx-fight{display:flex;gap:14px;padding:12px 0;border-bottom:1px solid #1c2f48;align-items:flex-start}
+.bx-date{flex:none;min-width:86px;font-family:var(--head);font-weight:700;color:var(--gy);font-size:16px}
+.bx-names{font-family:var(--head);font-size:clamp(17px,1.8vw,21px);color:#fff;line-height:1.25}
+.bx-vs{color:var(--gx);font-weight:700;margin:0 6px}
+.bx-res{display:inline-block;background:var(--gx);color:#fff;font-family:var(--label);font-size:12.5px;padding:2px 8px;border-radius:3px;margin:0 6px;vertical-align:2px}
+.bx-sub{color:#93c5fd;font-size:13.5px;margin-top:3px}
+.bx-note{color:#fdba74;font-size:12.5px;margin-top:3px}
+.bx-t tbody th{width:38%}
+.bx-champ{font-family:var(--head);font-size:17px;color:#fff}
+.bx-lim{font-size:12px;color:#93a4b8;font-weight:400;margin-top:2px}
+.bx-vac{color:#fdba74;font-style:normal}
+.fb-ll small{display:block;font-family:var(--body);font-weight:400;font-size:12px;color:var(--muted)}
+@media (max-width:560px){.bx-grid{grid-template-columns:1fr}.bx-fight{flex-direction:column;gap:4px}}
