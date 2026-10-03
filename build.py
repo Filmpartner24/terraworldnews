@@ -135,6 +135,8 @@ def art_url(it, l):
 
 def sec_url(s, l): return f"{pre(l)}{SEC[l][s][1]}/"
 def sub_url(s, k, l): return f"{sec_url(s, l)}{SUB[l][k][1]}/"
+def sec_home(s, l, sub=None):  # Rubriken mit Unterrubriken (Sport) haben keine eigene Übersichtsseite → erste/zugehörige Unterrubrik
+    return sub_url(s, sub if sub in SUBS.get(s, []) else SUBS[s][0], l) if s in SUBS else sec_url(s, l)
 def legal_url(k, l): return f"{pre(l)}{LEGAL_SLUG[l][k]}.html"
 def iso(it): return f"{it['date']}T{it['time']}:00{TZ}"
 def read_min(it, l):
@@ -166,7 +168,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
 
     clocks = ''.join(f'<span>{e(n)} <b data-tz="{tz}">--:--</b></span>' for n, tz in u['clocks'])
     def _navi(s):
-        a = f'<a href="{sec_url(s, l)}"{CUR_P if canon == sec_url(s, l) or (s in SUBS and canon.startswith(sec_url(s, l))) else ""}>{e(SEC[l][s][0])}</a>'
+        a = f'<a href="{sec_home(s, l)}"{CUR_P if canon == sec_url(s, l) or (s in SUBS and canon.startswith(sec_url(s, l))) else ""}>{e(SEC[l][s][0])}</a>'
         if s not in SUBS: return a
         dd = ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if canon == sub_url(s, k, l) else ""}>{e(SUB[l][k][0])}</a>' for k in SUBS[s])
         return f'<span class="nav-dd">{a}<span class="dd">{dd}</span></span>'
@@ -422,13 +424,13 @@ def media_article(it, l, paras, facts, noadv, rel, side, SX):
         return (f'<article class="gs"><a href="{art_url(x, l)}"><div class="gs-img"{st}>' + ('<span class="rt-play" aria-hidden="true">▶</span>' if x.get('yt') else '') +
                 f'</div>{kick(x, l)}<h3>{e(x[l]["t"])}</h3></a></article>')
     single = f'<p class="gr-single">{e(g["single"])}: <b>{e(rv["single"])}</b></p>' if rv.get('single') else ''
-    html = (f'<div class="gp gp-{kind} ga"><div class="gp-head"><a class="gp-title ga-sec" href="{sec_url(kind, l)}">{e(SEC[l][kind][0])}</a><span class="gp-date">{e(nice_date(it["date"], l))}</span></div>'
+    html = (f'<div class="gp gp-{kind} ga"><div class="gp-head"><a class="gp-title ga-sec" href="{sec_home(kind, l, it.get('sub'))}">{e(SEC[l][kind][0])}</a><span class="gp-date">{e(nice_date(it["date"], l))}</span></div>'
             f'<div class="gp-main"><article class="gp-panel ga-panel">{kick(it, l)}' + (f'<div class="gr-score">{e(sc)}</div>' if sc else '') +
             f'<h1 class="ga-h1">{e(T["t"])}</h1>' + (f'<p class="gr-meta">{e(meta)}</p>' if meta else '') + f'<p class="ga-dek">{e(T["d"])}</p>'
             f'<div class="byline meta ga-by"><span>{e(u["by"])}</span><time datetime="{iso(it)}">{PUBL[l]}: {short_date(it["date"], l)}, {it["time"]}{(" " + u["hour"]) if u["hour"] else ""}</time><span>{u["read"].format(m=read_min(it, l))}</span></div>'
             f'{media}{single}<div class="body ga-body">{paras}</div>{facts}{noadv}<div class="sources ga-src"><h2>{e(u["src"])}</h2><ul>{LI(it["src"])}</ul></div>'
             + (f'<h2 class="gp-h">{e(u["more"])}</h2><div class="gs-grid">{"".join(small(x) for x in rel)}</div>' if rel else '') +
-            f'<p class="ga-back"><a href="{sec_url(kind, l)}">← {e(SEC[l][kind][0])}</a></p></article>'
+            f'<p class="ga-back"><a href="{sec_home(kind, l, it.get('sub'))}">← {e(SEC[l][kind][0])}</a></p></article>'
             f'<aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{side}</aside></div></div>')
     return html
 
@@ -764,7 +766,7 @@ def build():
         for s in order:
             its = [it for it in rest if it['s'] == s]
             if its:
-                rails += f'<section class="rail" style="--c:{SEC_COLOR[s]}"><div class="rail-h"><h2>{e(SEC[l][s][0])}</h2><a href="{sec_url(s, l)}">{e(u["all"])}</a></div><div class="cards">{"".join(card(it, l) for it in its[:4])}</div></section>'
+                rails += f'<section class="rail" style="--c:{SEC_COLOR[s]}"><div class="rail-h"><h2>{e(SEC[l][s][0])}</h2><a href="{sec_home(s, l)}">{e(u["all"])}</a></div><div class="cards">{"".join(card(it, l) for it in its[:4])}</div></section>'
         cur = [it for it in today if it.get('live')]
         if l == 'bg': cur = sorted(cur, key=lambda x: x['s'] != 'bulgarien')
         cur = cur[:8]
@@ -816,7 +818,7 @@ def build():
                 for s2 in SECTIONS:
                     if s2 == s: continue
                     ox = sorted([it for it in items_l if it['s'] == s2], key=lambda x: (x['date'], x['time']), reverse=True)[:3]
-                    if ox: o += f'<div class="side-sec" style="--c:{SEC_COLOR[s2]}"><h3><a href="{sec_url(s2, l)}">{e(SEC[l][s2][0])}</a></h3><ul>{"".join(mini(it) for it in ox)}</ul></div>'
+                    if ox: o += f'<div class="side-sec" style="--c:{SEC_COLOR[s2]}"><h3><a href="{sec_home(s2, l)}">{e(SEC[l][s2][0])}</a></h3><ul>{"".join(mini(it) for it in ox)}</ul></div>'
                 return o
             if not its and s in MEDIA:
                 body = games_page(l, [], latest['date'], _others(s), SX, s)
@@ -865,7 +867,7 @@ def build():
                 for s2 in SECTIONS:
                     if s2 == s: continue
                     o = sorted([it for it in items_l if it['s'] == s2], key=lambda x: (x['date'], x['time']), reverse=True)[:3]
-                    if o: others += f'<div class="side-sec" style="--c:{SEC_COLOR[s2]}"><h3><a href="{sec_url(s2, l)}">{e(SEC[l][s2][0])}</a></h3><ul>{"".join(mini(it) for it in o)}</ul></div>'
+                    if o: others += f'<div class="side-sec" style="--c:{SEC_COLOR[s2]}"><h3><a href="{sec_home(s2, l)}">{e(SEC[l][s2][0])}</a></h3><ul>{"".join(mini(it) for it in o)}</ul></div>'
                 pages = [older[i:i + PER] for i in range(0, len(older), PER)]
                 def purl(n): return sec_url(s, l) + (f'{"stranitsa" if l == "bg" else "seite" if l == "de" else "page"}-{n}/' if n > 1 else '')
                 more = f'<p class="sec-more"><a href="{purl(2)}">{e(SX["older"])} →</a></p>' if pages else ''
@@ -880,9 +882,8 @@ def build():
                           f'<div class="sec-list wide">{daylist(pit)}</div>{nav}</div>')
                     write(purl(n), page(l, act, f'{SEC[l][s][0]} – {SX["page"]} {n} | TWN – World News', f'{SEC[l][s][0]}: {u["desc_home"]}', purl(n), pb, None, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": f'{SEC[l][s][0]} {n}', "url": SITE + purl(n), "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
             if s in SUBS:
-                tabs = lambda cur: (f'<nav class="subnav" aria-label="{e(SEC[l][s][0])}"><a href="{sec_url(s, l)}"{CUR_P if cur is None else ""}>{e(ALL_L[l])}</a>'
+                tabs = lambda cur: (f'<nav class="subnav" aria-label="{e(SEC[l][s][0])}">'
                                     + ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if cur == k else ""}>{e(SUB[l][k][0])}</a>' for k in SUBS[s]) + '</nav>')
-                body = body.replace('<div class="sec-page"', tabs(None) + '<div class="sec-page"', 1) if '<div class="sec-page"' in body else tabs(None) + body
                 for k in SUBS[s]:
                     sits = [it for it in its if it.get('sub') == k]
                     su = sub_url(s, k, l); title = f'{SEC[l][s][0]} · {SUB[l][k][0]}'
@@ -916,6 +917,10 @@ def build():
                     subalts = {x: sub_url(s, k, x) for x in act}
                     write(su, page(l, act, f'{title} | TWN – World News', f'{title}: {u["desc_home"]}', su, sb, subalts, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": title, "url": SITE + su, "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
                     urls.append((su, subalts, latest['date']))
+            if s in SUBS:  # keine eigene Übersichtsseite: Weiterleitung auf die erste Unterrubrik (zusätzlich 301 in _redirects)
+                _h = sec_home(s, l)
+                write(sec_url(s, l), f'<!doctype html><html lang="{l}"><head><meta charset="utf-8"><meta name="robots" content="noindex"><link rel="canonical" href="{SITE}{_h}"><meta http-equiv="refresh" content="0; url={_h}"><title>{e(SEC[l][s][0])}</title></head><body><a href="{_h}">{e(SEC[l][s][0])}</a></body></html>')
+                continue
             write(sec_url(s, l), page(l, act, f'{SEC[l][s][0]} | TWN – World News', (BZ[l]['desc'] if s == 'business' else f'{SEC[l][s][0]}: {u["desc_home"]}'), sec_url(s, l), body, salts, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": SEC[l][s][0], "url": SITE + sec_url(s, l), "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date'],
                   ticker2=(boerse_ticker(BIZ[max(BIZ)], l) if s == 'business' and BIZ else '')))
             urls.append((sec_url(s, l), salts, latest['date']))
@@ -939,13 +944,13 @@ def build():
                 paras = biz_asof(_bz, l) + biz_kpis(_bz, l) + paras + biz_explain(_bz, l) + biz_tables(_bz, l)
             facts = f'<aside class="facts"><h2>{e(u["facts"])}</h2><ul>{LI(T["facts"])}</ul></aside>' if T.get('facts') else ''
             rel = [x for x in items_l if x['s'] == it['s'] and x is not it][:3]
-            relh = f'<section class="rail" style="--c:{SEC_COLOR[it["s"]]}"><div class="rail-h"><h2>{e(u["more"])}</h2><a href="{sec_url(it["s"], l)}">{e(SEC[l][it["s"]][0])} →</a></div><div class="cards">{"".join(card(x, l) for x in rel)}</div></section>' if rel else ''
-            body = (f'<article class="article"><a class="back" href="{sec_url(it["s"], l)}">← {e(SEC[l][it["s"]][0])}</a>{kick(it, l)}<h1>{e(T["t"])}</h1><p class="dek">{e(T["d"])}</p>'
+            relh = f'<section class="rail" style="--c:{SEC_COLOR[it["s"]]}"><div class="rail-h"><h2>{e(u["more"])}</h2><a href="{sec_home(it["s"], l, it.get('sub'))}">{e(SEC[l][it["s"]][0])} →</a></div><div class="cards">{"".join(card(x, l) for x in rel)}</div></section>' if rel else ''
+            body = (f'<article class="article"><a class="back" href="{sec_home(it["s"], l, it.get('sub'))}">← {e(SEC[l][it["s"]][0])}</a>{kick(it, l)}<h1>{e(T["t"])}</h1><p class="dek">{e(T["d"])}</p>'
                     f'<div class="byline meta"><span>{e(u["by"])}</span><time datetime="{iso(it)}">{PUBL[l]}: {short_date(it["date"], l)}, {it["time"]}{(" " + u["hour"]) if u["hour"] else ""}</time><span>{u["read"].format(m=read_min(it, l))}</span></div>'
                     f'{plate(it, l, cap=True, eager=True)}<div class="body">{paras}</div>{trailer}{facts}{noadv}<div class="sources"><h2>{e(u["src"])}</h2><ul>{LI(it["src"])}</ul></div></article>{relh}')
             if it['s'] in MEDIA:  # Games/Film/Musik: Artikel im dunklen Medien-Layout mit Seitenleiste
                 if it['s'] not in MSIDE:
-                    MSIDE[it['s']] = ''.join(f'<div class="side-sec" style="--c:{SEC_COLOR[s2]}"><h3><a href="{sec_url(s2, l)}">{e(SEC[l][s2][0])}</a></h3><ul>{"".join(mini(x) for x in sorted([x for x in items_l if x["s"] == s2], key=lambda x: (x["date"], x["time"]), reverse=True)[:3])}</ul></div>'
+                    MSIDE[it['s']] = ''.join(f'<div class="side-sec" style="--c:{SEC_COLOR[s2]}"><h3><a href="{sec_home(s2, l)}">{e(SEC[l][s2][0])}</a></h3><ul>{"".join(mini(x) for x in sorted([x for x in items_l if x["s"] == s2], key=lambda x: (x["date"], x["time"]), reverse=True)[:3])}</ul></div>'
                                              for s2 in SECTIONS if s2 != it['s'] and any(x['s'] == s2 for x in items_l))
                 body = media_article(it, l, paras, facts, noadv, [x for x in items_l if x['s'] == it['s'] and x is not it and x['date'] >= it['date']][:3] or rel, MSIDE[it['s']], SX)
             aalts = {x: art_url(it, x) for x in act if x in it}
@@ -953,7 +958,7 @@ def build():
                   "datePublished": iso(it), "dateModified": iso(it), "inLanguage": l, "articleSection": SEC[l][it['s']][0], "isAccessibleForFree": True,
                   "image": [SITE + (it["img"]["f"] if it.get("img") else "/assets/og-image.jpg")], "author": {"@type": "Organization", "name": u['by'], "url": SITE + legal_url('principles', l)}, "publisher": {"@id": SITE + "/#org"},
                   "citation": CIT(it['src'])},
-                  {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": u['home'], "item": SITE + pre(l)}, {"@type": "ListItem", "position": 2, "name": SEC[l][it['s']][0], "item": SITE + sec_url(it['s'], l)}, {"@type": "ListItem", "position": 3, "name": T['t']}]}]}
+                  {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": u['home'], "item": SITE + pre(l)}, {"@type": "ListItem", "position": 2, "name": SEC[l][it['s']][0], "item": SITE + sec_home(it['s'], l, it.get('sub'))}, {"@type": "ListItem", "position": 3, "name": T['t']}]}]}
             extra = f'<meta property="article:published_time" content="{iso(it)}"><meta property="article:section" content="{e(SEC[l][it["s"]][0])}">'
             _html = page(l, act, f'{T["t"]} | TWN', T['d'], art_url(it, l), body, aalts, ld, og_type='article', issue=latest.get('issue', 1), date=it['date'], extra_head=extra, og_img=(it['img']['f'] if it.get('img') else None))
             if it['date'] >= STATIC_FROM: write(art_url(it, l), _html)
