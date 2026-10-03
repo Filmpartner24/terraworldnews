@@ -727,3 +727,8 @@ nav.sections.nv2 .nav-dd .dd a:hover{background:#d4161c;color:#fff}
 .bk-h h2{white-space:nowrap}@media (max-width:640px){.bk-h h2{font-size:15px;padding:4px 8px 3px;gap:6px}.bk-h h2 .dot{width:7px;height:7px}.bk-slogan{font-size:9.5px;letter-spacing:.08em;gap:4px}.bk-h .meta{font-size:11px}}
 .bk-slogan{justify-content:flex-start;margin-left:6px}
 @media (max-width:640px){.bk-slogan{font-size:8.6px;letter-spacing:.04em;gap:3px;margin-left:2px;min-width:0}.bk-slogan i{width:3px;height:3px}.bk-h{gap:6px}}
+/* Slogan rechts im Rubrik-Kopf (Games-Layout) */
+.gp-slogan{display:flex;align-items:center;gap:12px;font-family:var(--label);font-weight:700;font-size:14px;letter-spacing:.3em;color:#fff;text-shadow:0 1px 4px rgba(0,0,0,.5);white-space:nowrap;align-self:flex-end}
+.gp-slogan i{display:block;width:7px;height:7px;border-radius:50%;background:#ff2a30;box-shadow:0 0 6px rgba(255,42,48,.7)}
+@media (max-width:640px){.gp-slogan{font-size:9.5px;letter-spacing:.12em;gap:6px}.gp-slogan i{width:5px;height:5px}}
+@media (max-width:640px){.gp-head{flex-wrap:wrap;align-items:flex-start}.gp-head .gp-slogan{flex-basis:100%;align-self:auto;font-size:10.5px;letter-spacing:.2em}}

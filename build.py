@@ -393,6 +393,8 @@ MPU = {'klima': {'bg': dict(rev='Климат във видео', news='Нови
 GPU = {'bg': dict(rev='Ревюта на деня', news='Новини', older='Предишни ревюта', more='Към ревюто →', badge='РЕВЮ', pf='Платформи', rel='Излиза', dev='Студио', vid='Трейлър', single='Сингъл'),
        'de': dict(rev='Reviews des Tages', news='News', older='Frühere Reviews', more='Zum Review →', badge='REVIEW', pf='Plattformen', rel='Release', dev='Studio', vid='Trailer', single='Single'),
        'en': dict(rev="Today's reviews", news='News', older='Earlier reviews', more='Read the review →', badge='REVIEW', pf='Platforms', rel='Release', dev='Studio', vid='Trailer', single='Single')}
+def gp_slogan(l):  # Slogan rechts im Rubrik-Kopf (statt Datum)
+    return '<span class="gp-slogan" aria-label="' + '. '.join(SLOGAN[l]) + '.">' + '<i aria-hidden="true"></i>'.join(SLOGAN[l]) + '</span>'
 def games_page(l, its, day0, others, SX, kind='games', title=None):
     u = UI[l]; g = dict(GPU[l]); g.update(MPU.get(kind, {}).get(l, {}))
     def cover_style(it):
@@ -429,7 +431,7 @@ def games_page(l, its, day0, others, SX, kind='games', title=None):
         revs = [it for it in today if it.get('rv') and it.get('yt')]
         news = [it for it in today if it.get('mn') and it not in revs]
     older = [it for it in its if it not in revs and it not in news]
-    html = f'<div class="gp gp-{kind}"><div class="gp-head"><h1 class="gp-title">{e(title or SEC[l][kind][0])}</h1><span class="gp-date">{e(nice_date(day0, l))}</span></div>'
+    html = f'<div class="gp gp-{kind}"><div class="gp-head"><h1 class="gp-title">{e(title or SEC[l][kind][0])}</h1>{gp_slogan(l)}</div>'
     html += '<div class="gp-main"><div class="gp-panel">'
     if not its: html += f'<p class="gp-empty">{e(u["empty"])}</p>'
     if revs: html += f'<h2 class="gp-h">▶ {e(g["rev"])}</h2>' + ''.join(review(it) for it in revs)
@@ -463,7 +465,7 @@ def media_article(it, l, paras, facts, noadv, rel, side, SX):
         return (f'<article class="gs"><a href="{art_url(x, l)}"><div class="gs-img"{st}>' + ('<span class="rt-play" aria-hidden="true">▶</span>' if x.get('yt') else '') +
                 f'</div>{kick(x, l)}<h3>{e(x[l]["t"])}</h3></a></article>')
     single = f'<p class="gr-single">{e(g["single"])}: <b>{e(rv["single"])}</b></p>' if rv.get('single') else ''
-    html = (f'<div class="gp gp-{kind} ga"><div class="gp-head"><a class="gp-title ga-sec" href="{sec_home(kind, l, it.get('sub'))}">{e(SEC[l][kind][0])}</a><span class="gp-date">{e(nice_date(it["date"], l))}</span></div>'
+    html = (f'<div class="gp gp-{kind} ga"><div class="gp-head"><a class="gp-title ga-sec" href="{sec_home(kind, l, it.get('sub'))}">{e(SEC[l][kind][0])}</a>{gp_slogan(l)}</div>'
             f'<div class="gp-main"><article class="gp-panel ga-panel">{kick(it, l)}' + (f'<div class="gr-score">{e(sc)}</div>' if sc else '') +
             f'<h1 class="ga-h1">{e(T["t"])}</h1>' + (f'<p class="gr-meta">{e(meta)}</p>' if meta else '') + f'<p class="ga-dek">{e(T["d"])}</p>'
             f'<div class="byline meta ga-by"><span>{e(u["by"])}</span><time datetime="{iso(it)}">{PUBL[l]}: {short_date(it["date"], l)}, {it["time"]}{(" " + u["hour"]) if u["hour"] else ""}</time><span>{u["read"].format(m=read_min(it, l))}</span></div>'
@@ -665,7 +667,7 @@ def bx_overview(l, today, news, others, sp='boxen'):
         fjh = (f'<section class="bx-fj"><h2 class="gp-h">Fury vs. Joshua <span class="fb-rdd">{e({"bg": "11.12.2026 · Кардиф", "de": "11.12.2026 · Cardiff", "en": "11 Dec 2026 · Cardiff"}[l])}</span>'
                + (f' <span class="bx-cd">{e(cd)}</span>' if cd else '') + f'</h2>{bx_news_grid(fj[:6], l)}</section>')
     nh = fjh + (f'<h2 class="gp-h">{e(f["news"])}</h2>{bx_news_grid(rest[:9], l)}' if rest else '')
-    return (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(title)}</h1><span class="gp-date">{e(nice_date(today, l))}</span></div>'
+    return (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(title)}</h1>{gp_slogan(l)}</div>'
             f'<div class="gp-main"><div class="gp-panel"><h2 class="gp-h">{e(f["orgs"])}</h2><div class="fb-grid bx-grid">{cards}</div>{nh}</div>'
             f'<aside class="sec-side"><h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
 
