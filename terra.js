@@ -3,6 +3,14 @@
   var loc={bg:'bg-BG',de:'de-DE'}[lang]||lang;
   function clocks(){document.querySelectorAll('[data-tz]').forEach(function(b){try{b.textContent=new Intl.DateTimeFormat(loc,{hour:'2-digit',minute:'2-digit',timeZone:b.dataset.tz}).format(new Date())}catch(e){}})}
   clocks();setInterval(clocks,20000);
+  /* Datumsleiste: Hauptstadt des Besucherlandes + Ortszeit, Temperatur am Standort (Daten: /api/wx, MET Norway) */
+  (function(){var ec=document.getElementById('edclock'),ew=document.getElementById('edwx');if(!ec||!window.fetch)return;
+    fetch('/api/wx?l='+lang,{credentials:'omit'}).then(function(r){return r.ok?r.json():null}).then(function(d){if(!d)return;
+      if(d.cap&&d.tz){try{new Intl.DateTimeFormat(loc,{timeZone:d.tz});ec.querySelector('.ed-city').textContent=d.cap;ec.querySelector('b').dataset.tz=d.tz;clocks()}catch(e){}}
+      if(ew&&typeof d.t==='number'){var s=d.sym||'',n=/_night/.test(s);
+        var ic=/thunder/.test(s)?'⛈':/snow/.test(s)?'❄':/sleet/.test(s)?'🌨':/rain/.test(s)?'🌧':/fog/.test(s)?'🌫':/^cloudy/.test(s)?'☁':/partlycloudy/.test(s)?'⛅':/fair/.test(s)?(n?'☾':'🌤'):/clearsky/.test(s)?(n?'☾':'☀'):'';
+        ew.innerHTML='<span class="wi" aria-hidden="true">'+ic+'</span>'+(d.t>0?'':d.t<0?'−':'')+Math.abs(d.t)+' °C';}
+    }).catch(function(){});})();
   document.querySelectorAll('.ticker .tk-move').forEach(function(tk){var tb=tk.closest('.ticker'),pb=tb.querySelector('.tk-pause');
     var setDur=function(){var w=tk.firstElementChild.getBoundingClientRect().width;tk.style.setProperty('--dur',Math.max(20,w/70)+'s')};
     setDur();window.addEventListener('resize',setDur);

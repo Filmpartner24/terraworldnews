@@ -374,3 +374,13 @@ table.biz-t tbody tr:nth-child(even){background:rgba(10,125,90,.05)}
 .biz-block .src a{color:var(--muted);text-decoration:underline;text-underline-offset:2px}
 @media (max-width:700px){.bq{font-size:15px}.kpis{grid-template-columns:repeat(2,1fr)}.kpi .kv{font-size:21px}table.biz-t{font-size:14px}}
 .biz-fig{display:block;margin:14px 0 0;max-width:820px}
+/* ---- Datumsleiste: Ortszeit links, Temperatur rechts (Uhren oben entfernt) */
+.top{justify-content:flex-end}
+.ed-clock,.ed-wx{font-family:var(--label);font-size:13.5px;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap}
+.ed-clock b{font-weight:700;font-variant-numeric:tabular-nums;margin-left:4px}
+.ed-wx{font-variant-numeric:tabular-nums}
+.ed-wx .wi{margin-right:5px;text-transform:none}
+.wxcredit{font-size:11.5px}
+.wxcredit a{color:var(--muted);text-decoration:underline;text-underline-offset:2px}
+@media (max-width:820px){.edition{grid-template-columns:auto 1fr auto;justify-items:stretch}.edition > :first-child{justify-self:start!important}.edition > .mid{justify-self:center!important;text-align:center}.edition > :last-child{justify-self:end!important}}
+@media (max-width:480px){.ed-clock,.ed-wx,.edition .mid{font-size:11.5px;letter-spacing:.03em}.edition{gap:6px}}

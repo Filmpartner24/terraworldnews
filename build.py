@@ -186,13 +186,12 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
 <body>
 <div class="wrap">
   <div class="top">
-    <div class="clocks" aria-label="{e(u['clocks'][0][0])}">{clocks}</div>
     <div class="top-r"><form class="sbox" action="{search_url(l)}" method="get" role="search"><input type="search" name="q" placeholder="{e(SUI[l]['ph'])}" aria-label="{e(SUI[l]['title'])}"><button type="submit" aria-label="{e(SUI[l]['btn'])}"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button></form>
     <nav class="langs" aria-label="{e(u['lang'])}">{langbar}</nav></div>
   </div>
   <header class="mast">
     <p class="brand"><a href="{pre(l)}"><img class="mast-logo" src="/assets/terra-masthead5-800.webp" srcset="/assets/terra-masthead5-800.webp 800w, /assets/terra-masthead5-1600.webp 1600w" sizes="(max-width: 700px) 86vw, 620px" width="800" height="209" alt="TERRA WORLD NEWS" fetchpriority="high"></a></p>
-    <div class="edition"><span class="ed-l" aria-hidden="true"></span><span class="mid">{e(nice_date(date, l)) if date else ''}</span><span class="ed-l" aria-hidden="true"></span></div>
+    <div class="edition"><span class="ed-clock" id="edclock"><span class="ed-city">{e(u['clocks'][0][0])}</span> <b data-tz="Europe/Berlin">--:--</b></span><span class="mid">{e(nice_date(date, l)) if date else ''}</span><span class="ed-wx" id="edwx" title="{e(WXT[l])}"></span></div>
   </header>
   <nav class="sections" aria-label="{e(u['home'])}">{nav}</nav>
   {tick}{ticker2}
@@ -200,7 +199,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
 {body}
   </main>
   <footer>
-    <div><a href="{pre(l)}" class="brand-s"><img src="/assets/twn-logo2-480.webp" srcset="/assets/twn-logo2-480.webp 480w, /assets/twn-logo2-960.webp 960w" sizes="240px" width="480" height="133" alt="TWN – TERRA WORLD NEWS" loading="lazy"></a>{e(u['foot'])}<br>{e(u['publisher'])}</div>
+    <div><a href="{pre(l)}" class="brand-s"><img src="/assets/twn-logo2-480.webp" srcset="/assets/twn-logo2-480.webp 480w, /assets/twn-logo2-960.webp 960w" sizes="240px" width="480" height="133" alt="TWN – TERRA WORLD NEWS" loading="lazy"></a>{e(u['foot'])}<br>{e(u['publisher'])}<br><span class="wxcredit">{e(WXT[l])} · <a href="https://api.met.no/" rel="noopener nofollow" target="_blank">api.met.no</a></span></div>
     <nav><a href="{legal_url('about', l)}">{e(u['about'])}</a><a href="{legal_url('imprint', l)}">{e(u['imprint'])}</a><a href="{legal_url('privacy', l)}">{e(u['privacy'])}</a><a href="{legal_url('principles', l)}">{e(u['principles'])}</a><a href="{pre(l)}rss.xml">{e(u['rss'])}</a></nav>
   </footer>
 </div>
@@ -334,6 +333,7 @@ ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "/#org", "name": "TERRA W
        "email": "media@filmpartner24.com", "areaServed": "Worldwide", "knowsLanguage": ["bg", "de", "en"]}
 
 TICKER = {}
+WXT = {'bg': 'Времето: MET Norway (CC BY 4.0)', 'de': 'Wetterdaten: MET Norway (CC BY 4.0)', 'en': 'Weather data: MET Norway (CC BY 4.0)'}
 BIZ = {}   # Datum -> Business-Datei
 ARCH = {}            # Artikel älter als STATIC_DAYS: gebündelt in /_arch/<l>/<datum>/<bucket>.json, ausgeliefert von functions/
 STATIC_DAYS = 14     # so viele Tage liegen Artikel als einzelne HTML-Dateien vor
