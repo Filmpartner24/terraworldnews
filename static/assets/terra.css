@@ -650,3 +650,13 @@ nav.sections .nav-items a[aria-current="page"]{box-shadow:inset 0 -4px 0 #ff2a30
 .gp-leben .gp-panel{background:#04161a}
 .gp-leben .gr{border-bottom-color:#12333a}
 .gp-leben .gr-badge{background:#14b8a6;color:#04161a}
+/* Klima: Games-Layout in Warming-Stripes-Farben (Blau → Rot) */
+.gp-klima{--gx:#38bdf8;--gy:#f87171}
+.gp-klima .gp-head{background:linear-gradient(100deg,#08306b 0%,#2171b5 40%,#fcbba1 62%,#cb181d 82%,#67000d 100%)}
+.gp-klima .gp-title{text-shadow:0 0 18px rgba(8,48,107,.9)}
+.gp-klima .gp-date{color:#fff;text-shadow:0 1px 4px rgba(0,0,0,.6)}
+.gp-klima .gr-meta,.gp-klima .gs .kick,.gp-klima .ga-panel .kick{color:#bae6fd}
+.gp-klima .gp-panel{background:#061a33}
+.gp-klima .gr{border-bottom-color:#14304f}
+.gp-klima .gr-badge{background:#cb181d;color:#fff}
+.gp-klima .gr-more{background:#38bdf8;color:#061a33}
