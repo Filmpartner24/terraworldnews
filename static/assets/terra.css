@@ -395,3 +395,9 @@ table.biz-t tbody tr:nth-child(even){background:rgba(10,125,90,.05)}
 .subnav a{font-family:var(--label);font-size:14px;letter-spacing:.06em;text-transform:uppercase;padding:6px 14px;border:1px solid var(--ink);border-radius:999px}
 .subnav a[aria-current="page"],.subnav a:hover{background:var(--ink);color:var(--paper)}
 @media (min-width:900px){nav.sections{gap:4px 15px;letter-spacing:.05em;font-size:14.5px}}
+/* ---- Games: Trailer der Reviews */
+.gtrl-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.gtrl h3{font-family:var(--head);font-size:19px;line-height:1.2;margin:8px 0 2px}
+.gtrl .yt-play{font-size:15px;padding:10px 16px}
+.gtrl .yt-note{font-size:11px}
+@media (max-width:820px){.gtrl-grid{grid-template-columns:1fr}}

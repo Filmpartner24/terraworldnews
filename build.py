@@ -342,6 +342,7 @@ ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "/#org", "name": "TERRA W
        "email": "media@filmpartner24.com", "areaServed": "Worldwide", "knowsLanguage": ["bg", "de", "en"]}
 
 TICKER = {}
+GTRL = {'bg': 'Трейлъри към ревютата', 'de': 'Trailer zu den Reviews', 'en': 'Review trailers'}
 KEEP_DAYS = {'games': 5}   # Rubrikseite zeigt nur die letzten N Ausgabetage
 ALL_L = {'bg': 'Всички', 'de': 'Alle', 'en': 'All'}
 WXT = {'bg': 'Времето: MET Norway (CC BY 4.0)', 'de': 'Wetterdaten: MET Norway (CC BY 4.0)', 'en': 'Weather data: MET Norway (CC BY 4.0)'}
@@ -509,6 +510,16 @@ def build():
                                 f'<p class="sec-desc">{e(BZ[l]["desc"])}</p><nav class="biz-jump" aria-label="{e(BZ[l]["jump"])}"><h2>{e(BZ[l]["jump"])}</h2><ol>{kp}</ol></nav>'
                                 f'<div class="biz-blocks">{bl}</div><p class="noadv">{e(BZ[l]["noadv"])}</p>')
                         tops = [x for x in its if x['date'] == day0]
+                if s == 'games':  # Trailer der Spiele-Reviews direkt auf der Rubrikseite abspielbar
+                    gtr = [it for it in its if it['date'] == day0 and it.get('yt')][:3]
+                    if gtr:
+                        cells = ''
+                        for it in gtr:
+                            v = it['yt'] if isinstance(it['yt'], dict) else it['yt'][0]
+                            cells += (f'<article class="gtrl"><div class="yt" data-yt="{e(v["id"])}"><button type="button" class="yt-play">{e(u["play"])}</button><span class="yt-note">{e(u["ytnote"])}</span></div>'
+                                      f'<a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a><p class="src">YouTube · {e(v.get("ch", ""))}</p></article>')
+                        gblk = f'<section class="trl-day"><h2 class="trl-h">▶ {e(GTRL[l])}</h2><div class="gtrl-grid">{cells}</div></section>'
+                        head = head.replace('<section class="sec-top">', gblk + '<section class="sec-top">', 1)
                 if s == 'kultur':
                     trl = [it for it in its if it['date'] == latest['date'] and it.get('yt') and it.get('trl')][:3] or [it for it in its if it['date'] == latest['date'] and it.get('yt') and not it.get('mv')][:3]
                     mvs = [it for it in its if it['date'] == latest['date'] and it.get('yt') and it.get('mv')][:3]
