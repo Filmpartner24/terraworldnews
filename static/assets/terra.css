@@ -840,3 +840,10 @@ a.ex-more{text-decoration:none}
 .nl-dfb td.nl-comp{min-width:230px;width:32%;line-height:1.35}
 @media(max-width:700px){.nl-dfb td.nl-comp{min-width:140px}}
 .nl-day{margin:1.1rem 0 .5rem;font-size:.95rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:#e85d04;border-bottom:1px solid rgba(255,255,255,.12);padding-bottom:.3rem}
+.gp-auto{--gx:#d4af37;--gy:#e5e7eb}
+.gp-auto .gp-head{background:linear-gradient(100deg,#0b0b0d 0%,#1f1d1a 55%,#4a3b12 100%)}
+.gp-auto .gp-title{text-shadow:0 0 18px rgba(212,175,55,.6)}
+.gp-auto .gp-date,.gp-auto .gr-meta,.gp-auto .gs .kick{color:#f5e6b8}
+.gp-auto .gp-panel{background:#0d0d0f}
+.gp-auto .gr{border-bottom-color:#2a2620}
+.gp-auto .ga-panel .kick{color:#f5e6b8}

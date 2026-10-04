@@ -21,25 +21,28 @@ PREFIX = {'bg': '/'}  # Bulgarian is the main edition at the root
 def pre(l): return PREFIX.get(l, f'/{l}/')
 LOCALE = {'bg': 'bg_BG', 'de': 'de_DE', 'en': 'en_GB'}
 
-SECTIONS = ['welt', 'europa', 'deutschland', 'bulgarien', 'leben', 'ki', 'wirtschaft', 'energie', 'business', 'klima', 'ai', 'film', 'musik', 'games', 'sport']
-MEDIA = ('games', 'film', 'musik', 'sport', 'ai', 'ki', 'wirtschaft', 'energie', 'leben', 'klima', 'welt', 'europa', 'deutschland', 'bulgarien')   # Rubriken mit eigenem Medien-Layout (Reviews/Trailer + News)
+SECTIONS = ['welt', 'europa', 'deutschland', 'bulgarien', 'leben', 'ki', 'wirtschaft', 'energie', 'business', 'auto', 'klima', 'ai', 'film', 'musik', 'games', 'sport']
+MEDIA = ('games', 'auto', 'film', 'musik', 'sport', 'ai', 'ki', 'wirtschaft', 'energie', 'leben', 'klima', 'welt', 'europa', 'deutschland', 'bulgarien')   # Rubriken mit eigenem Medien-Layout (Reviews/Trailer + News)
 SUBS = {'sport': ['fussball', 'laenderspiele', 'boxen', 'mma']}
 SLOGAN = {'bg': ['НОВИНИ', 'ФАКТИ', 'КОНТЕКСТ'], 'de': ['NACHRICHTEN', 'FAKTEN', 'KONTEXT'], 'en': ['NEWS', 'FACTS', 'CONTEXT']}
 NAV_GROUPS = [  # Menü-Gruppen (Desktop: Trennstriche, Mobil: Überschriften im aufgeklappten Menü)
     ('news', {'bg': 'Новини', 'de': 'Nachrichten', 'en': 'News'}, ['welt', 'europa', 'deutschland', 'bulgarien']),
     ('life', {'bg': 'Живот', 'de': 'Leben', 'en': 'Life'}, ['leben']),
-    ('know', {'bg': 'Икономика и знание', 'de': 'Wirtschaft & Wissen', 'en': 'Economy & Knowledge'}, ['ki', 'wirtschaft', 'energie', 'business', 'klima', 'ai']),
+    ('know', {'bg': 'Икономика и знание', 'de': 'Wirtschaft & Wissen', 'en': 'Economy & Knowledge'}, ['ki', 'wirtschaft', 'energie', 'business', 'auto', 'klima', 'ai']),
     ('ent', {'bg': 'Развлечения', 'de': 'Unterhaltung', 'en': 'Entertainment'}, ['film', 'musik', 'games']),
     ('sport', {'bg': 'Спорт', 'de': 'Sport', 'en': 'Sport'}, ['sport'])]   # Unterrubriken (Feld "sub" im Item)
 SUB = {'bg': {'fussball': ('Футбол', 'futbol'), 'laenderspiele': ('Национални отбори', 'natsionalni-otbori'), 'boxen': ('Бокс', 'boks'), 'mma': ('ММА', 'mma')},
        'de': {'fussball': ('Fußball', 'fussball'), 'laenderspiele': ('Länderspiele', 'laenderspiele'), 'boxen': ('Boxen', 'boxen'), 'mma': ('MMA', 'mma')},
        'en': {'fussball': ('Football', 'football'), 'laenderspiele': ('Internationals', 'internationals'), 'boxen': ('Boxing', 'boxing'), 'mma': ('MMA', 'mma')}}
 SEC = {
- 'bg': {'welt': ('Свят', 'svyat'), 'europa': ('Европа', 'evropa'), 'deutschland': ('Германия', 'germania'), 'bulgarien': ('България', 'balgaria'), 'ki': ('Технологии', 'tehnologii'), 'wirtschaft': ('Икономика', 'ikonomika'), 'business': ('Бизнес', 'biznes'), 'klima': ('Климат', 'klimat'), 'ai': ('ИИ', 'izkustven-intelekt'), 'energie': ('Енергия', 'energia'), 'kultur': ('Развлечения', 'razvlechenia'), 'games': ('Игри', 'igri'), 'film': ('Филми', 'filmi'), 'musik': ('Музика', 'muzika'), 'sport': ('Спорт', 'sport'), 'leben': ('Живот и ежедневие', 'zhivot')},
- 'de': {'welt': ('Welt', 'welt'), 'europa': ('Europa', 'europa'), 'deutschland': ('Deutschland', 'deutschland'), 'bulgarien': ('Bulgarien', 'bulgarien'), 'ki': ('Technologie', 'technologie'), 'wirtschaft': ('Wirtschaft', 'wirtschaft'), 'business': ('Business', 'business'), 'klima': ('Klima', 'klima'), 'ai': ('KI', 'ki'), 'energie': ('Energie', 'energie'), 'kultur': ('Entertainment', 'entertainment'), 'leben': ('Leben & Alltag', 'leben-alltag'), 'games': ('Games', 'games'), 'sport': ('Sport', 'sport'), 'film': ('Film', 'film'), 'musik': ('Musik', 'musik')},
- 'en': {'welt': ('World', 'world'), 'europa': ('Europe', 'europe'), 'deutschland': ('Germany', 'germany'), 'bulgarien': ('Bulgaria', 'bulgaria'), 'ki': ('Technology', 'technology'), 'wirtschaft': ('Economy', 'economy'), 'business': ('Business', 'business'), 'klima': ('Climate', 'climate'), 'ai': ('AI', 'ai'), 'energie': ('Energy', 'energy'), 'kultur': ('Entertainment', 'entertainment'), 'leben': ('Everyday Life', 'everyday-life'), 'games': ('Games', 'games'), 'sport': ('Sport', 'sport'), 'film': ('Film', 'film'), 'musik': ('Music', 'music')},
+ 'bg': {'welt': ('Свят', 'svyat'), 'europa': ('Европа', 'evropa'), 'deutschland': ('Германия', 'germania'), 'bulgarien': ('България', 'balgaria'), 'ki': ('Технологии', 'tehnologii'), 'wirtschaft': ('Икономика', 'ikonomika'), 'business': ('Бизнес', 'biznes'), 'auto': ('Авто', 'avto'), 'klima': ('Климат', 'klimat'), 'ai': ('ИИ', 'izkustven-intelekt'), 'energie': ('Енергия', 'energia'), 'kultur': ('Развлечения', 'razvlechenia'), 'games': ('Игри', 'igri'), 'film': ('Филми', 'filmi'), 'musik': ('Музика', 'muzika'), 'sport': ('Спорт', 'sport'), 'leben': ('Живот и ежедневие', 'zhivot')},
+ 'de': {'welt': ('Welt', 'welt'), 'europa': ('Europa', 'europa'), 'deutschland': ('Deutschland', 'deutschland'), 'bulgarien': ('Bulgarien', 'bulgarien'), 'ki': ('Technologie', 'technologie'), 'wirtschaft': ('Wirtschaft', 'wirtschaft'), 'business': ('Business', 'business'), 'auto': ('Auto', 'auto'), 'klima': ('Klima', 'klima'), 'ai': ('KI', 'ki'), 'energie': ('Energie', 'energie'), 'kultur': ('Entertainment', 'entertainment'), 'leben': ('Leben & Alltag', 'leben-alltag'), 'games': ('Games', 'games'), 'sport': ('Sport', 'sport'), 'film': ('Film', 'film'), 'musik': ('Musik', 'musik')},
+ 'en': {'welt': ('World', 'world'), 'europa': ('Europe', 'europe'), 'deutschland': ('Germany', 'germany'), 'bulgarien': ('Bulgaria', 'bulgaria'), 'ki': ('Technology', 'technology'), 'wirtschaft': ('Economy', 'economy'), 'business': ('Business', 'business'), 'auto': ('Cars', 'cars'), 'klima': ('Climate', 'climate'), 'ai': ('AI', 'ai'), 'energie': ('Energy', 'energy'), 'kultur': ('Entertainment', 'entertainment'), 'leben': ('Everyday Life', 'everyday-life'), 'games': ('Games', 'games'), 'sport': ('Sport', 'sport'), 'film': ('Film', 'film'), 'musik': ('Music', 'music')},
 }
 SEO_DESC = {
+ 'auto': {'de': 'Auto-News: neue Modelle und Weltpremieren, Luxusautos, Automessen, Interviews und Branchennachrichten – mit Videos der Hersteller.',
+          'bg': 'Авто новини: нови модели и световни премиери, луксозни автомобили, автомобилни изложения, интервюта и новини от бранша – с видео.',
+          'en': 'Car news: new models and world premieres, luxury cars, motor shows, interviews and industry news – with manufacturer videos.'},
  'welt': {'de': 'Aktuelle Weltnachrichten von heute: Politik, Konflikte, Wahlen und Krisen weltweit – inklusive USA. Täglich geprüft, mit Quellen und Videos.',
           'bg': 'Актуални световни новини днес: политика, конфликти, избори и кризи по света, включително САЩ. Всеки ден проверени, с източници и видео.',
           'en': "Today's world news: politics, conflicts, elections and crises around the globe, including the US. Fact-checked daily, with sources and videos."},
@@ -100,7 +103,7 @@ def sec_desc(s, l, fallback):
     d = SEO_DESC.get(s)
     return d[l] if d else fallback
 
-SEC_COLOR = {'welt': 'var(--cobalt)', 'europa': '#5b3fc4', 'deutschland': 'var(--muted)', 'bulgarien': 'var(--teal)', 'usa': '#b23a48', 'ki': '#0f7c9c', 'wirtschaft': 'var(--sand)', 'business': '#0a7d5a', 'klima': '#2f8a4a', 'ai': '#06b6d4', 'energie': '#d97706', 'kultur': 'var(--signal)', 'games': '#7b2cbf', 'film': '#d62839', 'musik': '#0e9f6e', 'sport': '#e85d04', 'leben': '#c26a00'}
+SEC_COLOR = {'welt': 'var(--cobalt)', 'europa': '#5b3fc4', 'deutschland': 'var(--muted)', 'bulgarien': 'var(--teal)', 'usa': '#b23a48', 'ki': '#0f7c9c', 'wirtschaft': 'var(--sand)', 'business': '#0a7d5a', 'auto': '#b8860b', 'klima': '#2f8a4a', 'ai': '#06b6d4', 'energie': '#d97706', 'kultur': 'var(--signal)', 'games': '#7b2cbf', 'film': '#d62839', 'musik': '#0e9f6e', 'sport': '#e85d04', 'leben': '#c26a00'}
 NEWS_DIR = {'bg': 'novini', 'de': 'nachrichten', 'en': 'news'}
 WEEKDAYS = {'bg': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък', 'събота', 'неделя'], 'de': ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag'], 'en': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']}
 MONTHS = {'bg': ['януари', 'февруари', 'март', 'април', 'май', 'юни', 'юли', 'август', 'септември', 'октомври', 'ноември', 'декември'], 'de': ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'], 'en': ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']}
@@ -352,7 +355,7 @@ def crumbs(l, items):
     lst = [(UI[l]['home'], pre(l))] + items
     return {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": SITE + u} for i, (n, u) in enumerate(lst)]}
 
-PRIO_NAV = ['welt', 'deutschland', 'bulgarien', 'sport', 'games', 'europa', 'ai', 'ki', 'wirtschaft', 'energie', 'business', 'klima', 'leben', 'film', 'musik']
+PRIO_NAV = ['welt', 'deutschland', 'bulgarien', 'sport', 'games', 'europa', 'ai', 'ki', 'wirtschaft', 'energie', 'business', 'auto', 'klima', 'leben', 'film', 'musik']
 def site_nav(l):
     return {"@type": "ItemList", "name": "Navigation", "itemListElement": [{"@type": "SiteNavigationElement", "position": i + 1, "name": SEC[l][x][0], "url": SITE + sec_home(x, l)} for i, x in enumerate([x for x in PRIO_NAV if x in SEC[l]])]}
 
@@ -507,6 +510,9 @@ MPU = {
        'film': {'bg': dict(rev='Трейлъри на деня', badge='ТРЕЙЛЪР', more='Към статията →', rel='Премиера', devl='Режисьор:', vid='Трейлър', older='Предишни трейлъри'),
                'de': dict(rev='Trailer des Tages', badge='TRAILER', more='Zum Artikel →', rel='Kinostart', devl='Regie:', vid='Trailer', older='Frühere Trailer'),
                'en': dict(rev="Today's trailers", badge='TRAILER', more='Read more →', rel='Release', devl='Director:', vid='Trailer', older='Earlier trailers')},
+       'auto': {'bg': dict(playb='▶ Пусни видеото', rev='Автомобили във видео', news='Авто новини', badge='АВТО', more='Към статията →', rel='Премиера', vid='Видео', older='Предишни статии'),
+                'de': dict(playb='▶ Video abspielen', rev='Autos im Video', news='Auto-News', badge='AUTO', more='Zum Artikel →', rel='Premiere', vid='Video', older='Frühere Beiträge'),
+                'en': dict(playb='▶ Play video', rev='Cars on video', news='Car news', badge='CARS', more='Read more →', rel='Premiere', vid='Video', older='Earlier stories')},
        'musik': {'bg': dict(playb='▶ Пусни видеото', rev='Албуми на деня', badge='АЛБУМ', more='Към ревюто →', rel='Излиза', vid='Видео към сингъла', older='Предишни албуми', single='Сингъл'),
                 'de': dict(playb='▶ Video abspielen', rev='Album-Reviews des Tages', badge='ALBUM', more='Zum Review →', rel='Release', vid='Video zur Single', older='Frühere Alben', single='Single'),
                 'en': dict(playb='▶ Play video', rev="Today's album reviews", badge='ALBUM', more='Read the review →', rel='Release', vid='Single video', older='Earlier albums', single='Single')}}
@@ -544,7 +550,7 @@ def games_page(l, its, day0, others, SX, kind='games', title=None):
     elif kind in ('wirtschaft', 'energie', 'leben', 'klima', 'welt', 'europa', 'deutschland', 'bulgarien'):  # Artikel aus den 77: mit Video oben, alle übrigen des Tages als News darunter
         revs = [it for it in today if it.get('yt')][:3]
         news = [it for it in today if it not in revs]
-    elif kind == 'games':
+    elif kind in ('games', 'auto'):
         revs = [it for it in today if it.get('yt')]
         news = [it for it in today if not it.get('yt')]
     else:  # Film/Musik: Reviews = Items mit rv, News = Items mit "mn"; alte Entertainment-Meldungen laufen unter „Frühere“
@@ -978,7 +984,7 @@ ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "/#org", "name": "TERRA W
 
 TICKER = {}
 GTRL = {'bg': 'Трейлъри към ревютата', 'de': 'Trailer zu den Reviews', 'en': 'Review trailers'}
-KEEP_DAYS = {'welt': 3, 'europa': 3, 'deutschland': 3, 'bulgarien': 3, 'klima': 5, 'leben': 5, 'wirtschaft': 5, 'energie': 5, 'ki': 5, 'ai': 5, 'games': 5, 'film': 5, 'musik': 5, 'sport': 5}   # Rubrikseite zeigt nur die letzten N Ausgabetage
+KEEP_DAYS = {'welt': 3, 'europa': 3, 'deutschland': 3, 'bulgarien': 3, 'klima': 5, 'leben': 5, 'wirtschaft': 5, 'energie': 5, 'ki': 5, 'ai': 5, 'games': 5, 'film': 5, 'musik': 5, 'sport': 5, 'auto': 7}   # Rubrikseite zeigt nur die letzten N Ausgabetage
 ALL_L = {'bg': 'Всички', 'de': 'Alle', 'en': 'All'}
 WXT = {'bg': 'Времето: MET Norway (CC BY 4.0)', 'de': 'Wetterdaten: MET Norway (CC BY 4.0)', 'en': 'Weather data: MET Norway (CC BY 4.0)'}
 BIZ = {}   # Datum -> Business-Datei
@@ -999,7 +1005,7 @@ SUI = {
             hint='Suchen Sie nach Namen, Ländern, Ereignissen oder einem Datum (z. B. 2. Oktober oder 02.10.2026). Alle Wörter müssen im Artikel vorkommen.', found='{n} Treffer', none='Keine Artikel gefunden. Versuchen Sie ein anderes Wort oder einen größeren Zeitraum.', loading='Suche läuft …', more='Weitere Treffer'),
  'en': dict(title='Search', ph='Name, country, event or date …', btn='Search', all='All sections', any='Any time', d1='Today', d7='Last 7 days', d30='Last 30 days',
             hint='Search for names, countries, events or a date (e.g. 2 October or 02.10.2026). All words must appear in the article.', found='{n} results', none='No articles found. Try another word or a wider time range.', loading='Searching …', more='More results')}
-SEC_CODE = {k: chr(97 + i) for i, k in enumerate(['welt', 'europa', 'deutschland', 'bulgarien', 'usa', 'ki', 'wirtschaft', 'klima', 'kultur', 'leben', 'business', 'games', 'film', 'musik', 'sport', 'energie', 'ai'])}
+SEC_CODE = {k: chr(97 + i) for i, k in enumerate(['welt', 'europa', 'deutschland', 'bulgarien', 'usa', 'ki', 'wirtschaft', 'klima', 'kultur', 'leben', 'business', 'games', 'film', 'musik', 'sport', 'energie', 'ai', 'auto'])}
 SEC_DESC = {'klima': {'bg': 'Климатът на Земята: затопляне, екстремно време и природни бедствия, свързани с климатичните промени – всеки ден, с видео.',
                      'de': 'Das Klima unserer Erde: Erwärmung, Extremwetter und Naturkatastrophen im Klimawandel – täglich, mit Video.',
                      'en': "Our planet's climate: warming, extreme weather and climate-driven disasters – daily, with video."},
@@ -1066,7 +1072,7 @@ def build():
                 return f'<a class="rt rt-v" href="{art_url(it, l)}" tabindex="-1">{play}<span class="rt-l">{e(u["vid"])}</span></a>'
             return f'<a class="rt rt-x" href="{art_url(it, l)}" tabindex="-1" aria-hidden="true" style="--c:{SEC_COLOR[it["s"]]}"></a>'
         ranked = ''.join(f'<div class="rank"><span class="n">{i + 1}</span>{rthumb(it)}<a href="{art_url(it, l)}">{kick(it, l)}<h3>{e(it[l]["t"])}</h3></a></div>' for i, it in enumerate([x for x in rest if x['s'] != 'business'][:5]))  # Business-Berichte nie unter „Neueste Meldungen“
-        order = ['bulgarien', 'deutschland', 'welt', 'europa', 'wirtschaft', 'business', 'klima', 'ki', 'ai', 'energie', 'film', 'musik', 'sport', 'games'] if l == 'bg' else ['welt', 'europa', 'deutschland', 'bulgarien', 'wirtschaft', 'business', 'klima', 'ki', 'ai', 'energie', 'film', 'musik', 'sport', 'games'] if l == 'en' else ['deutschland', 'bulgarien', 'welt', 'europa', 'wirtschaft', 'business', 'klima', 'ki', 'ai', 'energie', 'film', 'musik', 'sport', 'games']
+        order = ['bulgarien', 'deutschland', 'welt', 'europa', 'wirtschaft', 'business', 'auto', 'klima', 'ki', 'ai', 'energie', 'film', 'musik', 'sport', 'games'] if l == 'bg' else ['welt', 'europa', 'deutschland', 'bulgarien', 'wirtschaft', 'business', 'auto', 'klima', 'ki', 'ai', 'energie', 'film', 'musik', 'sport', 'games'] if l == 'en' else ['deutschland', 'bulgarien', 'welt', 'europa', 'wirtschaft', 'business', 'auto', 'klima', 'ki', 'ai', 'energie', 'film', 'musik', 'sport', 'games']
         lv = sorted([it for it in items_l if it['s'] == 'leben'], key=lambda x: (x['date'], x['time']), reverse=True)[:4]
         def mrail(s2, lst, desc=''):  # Mix: farbiger Rubrik-Kopf wie im Games-Layout, Karten hell darunter
             return (f'<section class="rail mrail" style="--c:{SEC_COLOR[s2]}"><div class="gp gp-{s2} mr-head"><div class="gp-head"><h2 class="gp-title"><a href="{sec_home(s2, l)}">{e(SEC[l][s2][0])}</a></h2>'
