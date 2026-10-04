@@ -826,3 +826,6 @@ nav.sections.nv2 .nav-dd .dd a:hover{background:#d4161c;color:#fff}
 .ex-txt h3 a:hover{text-decoration:underline}
 a.ex-more{text-decoration:none}
 .ex-cr a{color:#cfd6ee;text-decoration:underline;text-underline-offset:2px}
+.gp-h .sp-all{float:right;font-size:.8rem;font-weight:700;color:var(--c,#e85d04);text-decoration:none;text-transform:none;letter-spacing:0}
+.sp-grid{grid-template-columns:repeat(3,1fr)}
+@media(max-width:700px){.sp-grid{grid-template-columns:1fr}}

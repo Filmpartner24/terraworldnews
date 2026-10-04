@@ -202,7 +202,7 @@ def art_url(it, l):
 def sec_url(s, l): return f"{pre(l)}{SEC[l][s][1]}/"
 def sub_url(s, k, l): return f"{sec_url(s, l)}{SUB[l][k][1]}/"
 def sec_home(s, l, sub=None):  # Rubriken mit Unterrubriken (Sport) haben keine eigene Übersichtsseite → erste/zugehörige Unterrubrik
-    return sub_url(s, sub if sub in SUBS.get(s, []) else SUBS[s][0], l) if s in SUBS else sec_url(s, l)
+    return sub_url(s, sub, l) if s in SUBS and sub in SUBS[s] else sec_url(s, l)   # Sport: eigene Übersichtsseite (seit 04.10.2026)
 def legal_url(k, l): return f"{pre(l)}{LEGAL_SLUG[l][k]}.html"
 def iso(it): return f"{it['date']}T{it['time']}:00{TZ}"
 def read_min(it, l):
@@ -764,6 +764,27 @@ def bx_card(k, l, today):
     return (f'<article class="fb-card"><a href="{bx_url(k, l)}"><div class="fb-img"{st}><span class="gr-badge">{e(f["asof"])} {bx_d(o.get("asof", ""))}</span><span class="fb-name">{e(bx_t(o["name"], l))}</span></div>'
             f'<div class="fb-card-txt"><p class="fb-lead"><b>{e(bx_t(o["full"], l))}</b> · {n} {e(f["champs"])}</p>{nx}<span class="gr-more">{e(f["open"])}</span></div></a></article>')
 
+SP_ALL = {'bg': 'Всички', 'de': 'Übersicht', 'en': 'Overview'}
+SP_LIMIT = {'fussball': 6, 'boxen': 3, 'mma': 3}   # Nedys Vorgabe: 12 Sport-News am Tag (6 Fußball, 3 Boxen, 3 MMA)
+SP_U = {'bg': dict(subs='Рубрики', open='Отвори →', n='новини днес', news={'fussball': 'Футболни новини', 'boxen': 'Бокс новини', 'mma': 'ММА новини'}, all='Всички →'),
+        'de': dict(subs='Rubriken', open='Öffnen →', n='News heute', news={'fussball': 'Fußball-News', 'boxen': 'Box-News', 'mma': 'MMA-News'}, all='Alle →'),
+        'en': dict(subs='Sections', open='Open →', n='stories today', news={'fussball': 'Football news', 'boxen': 'Boxing news', 'mma': 'MMA news'}, all='All →')}
+
+def sport_overview(l, its, s, others):
+    f = SP_U[l]; cards = ''; news = ''
+    for k in SUBS[s]:
+        xs = sorted([x for x in its if x.get('sub') == k], key=lambda x: (x['date'], x['time']), reverse=True)
+        top = xs[:SP_LIMIT.get(k, 6)]
+        im = next((x['img'] for x in top if x.get('img')), None)
+        st = f' style="background-image:url({im["f"]})"' if im else ''
+        nt = sum(1 for x in xs if xs and x['date'] == xs[0]['date'])
+        cards += (f'<article class="fb-card"><a href="{sub_url(s, k, l)}"><div class="fb-img"{st}><span class="fb-name">{e(SUB[l][k][0])}</span></div>'
+                  f'<div class="fb-card-txt"><p class="fb-lead"><b>{min(nt, SP_LIMIT.get(k, 6))}</b> {e(f["n"])}</p><span class="gr-more">{e(f["open"])}</span></div></a></article>')
+        if top: news += f'<h2 class="gp-h">{e(f["news"][k])} <a class="sp-all" href="{sub_url(s, k, l)}">{e(f["all"])}</a></h2>{bx_news_grid(top, l)}'
+    return (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(SEC[l][s][0])}</h1>{gp_slogan(l)}</div>'
+            f'<div class="gp-main"><div class="gp-panel"><h2 class="gp-h">{e(f["subs"])}</h2><div class="fb-grid sp-grid">{cards}</div>{news}</div>'
+            f'<aside class="sec-side"><h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
+
 def bx_news_grid(items, l):
     def small(x):
         st = f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else ''
@@ -1072,7 +1093,7 @@ def build():
                           f'<div class="sec-list wide">{daylist(pit)}</div>{nav}</div>')
                     write(purl(n), page(l, act, f'{SEC[l][s][0]} – {SX["page"]} {n} | TWN – World News', f'{SEC[l][s][0]}: {u["desc_home"]}', purl(n), pb, None, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": f'{SEC[l][s][0]} {n}', "url": SITE + purl(n), "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
             if s in SUBS:
-                tabs = lambda cur: (f'<nav class="subnav" aria-label="{e(SEC[l][s][0])}">'
+                tabs = lambda cur: (f'<nav class="subnav" aria-label="{e(SEC[l][s][0])}"><a href="{sec_url(s, l)}"{CUR_P if cur is None else ""}>{e(SP_ALL[l])}</a>'
                                     + ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if cur == k else ""}>{e(SUB[l][k][0])}</a>' for k in SUBS[s]) + '</nav>')
                 for k in SUBS[s]:
                     sits = [it for it in its if it.get('sub') == k]
@@ -1108,9 +1129,12 @@ def build():
                     subalts = {x: sub_url(s, k, x) for x in act}
                     write(su, page(l, act, f'{title} | TWN – World News', (SUB_DESC[k][l] if k in SUB_DESC else f'{title}: {u["desc_home"]}'), su, sb, subalts, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": title, "url": SITE + su, "inLanguage": l}, crumbs(l, [(SEC[l][s][0], sec_home(s, l)), (SUB[l][k][0], su)] if su != sec_home(s, l) else [(SEC[l][s][0], su)])]}, issue=latest.get('issue', 1), date=latest['date']))
                     urls.append((su, subalts, latest['date']))
-            if s in SUBS:  # keine eigene Übersichtsseite: Weiterleitung auf die erste Unterrubrik (zusätzlich 301 in _redirects)
-                _h = sec_home(s, l)
-                write(sec_url(s, l), f'<!doctype html><html lang="{l}"><head><meta charset="utf-8"><meta name="robots" content="noindex"><link rel="canonical" href="{SITE}{_h}"><meta http-equiv="refresh" content="0; url={_h}"><title>{e(SEC[l][s][0])}</title></head><body><a href="{_h}">{e(SEC[l][s][0])}</a></body></html>')
+            if s in SUBS:  # Übersichtsseite: Karten zu den Unterrubriken + die Tages-News aller Unterrubriken
+                _su = sec_url(s, l)
+                write(_su, page(l, act, f'{SEC[l][s][0]} · {" · ".join(SUB[l][k][0] for k in SUBS[s])} | TWN – World News', sec_desc(s, l, f'{SEC[l][s][0]}: {u["desc_home"]}'), _su,
+                                tabs(None) + sport_overview(l, its, s, _others(s)), salts,
+                                {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": SEC[l][s][0], "url": SITE + _su, "inLanguage": l}, crumbs(l, [(SEC[l][s][0], _su)])]}, issue=latest.get('issue', 1), date=latest['date']))
+                urls.append((_su, salts, latest['date']))
                 continue
             write(sec_url(s, l), page(l, act, f'{SEC[l][s][0]} | TWN – World News', (BZ[l]['desc'] if s == 'business' else sec_desc(s, l, f'{SEC[l][s][0]}: {u["desc_home"]}')), sec_url(s, l), body, salts, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": SEC[l][s][0], "url": SITE + sec_url(s, l), "inLanguage": l}, crumbs(l, [(SEC[l][s][0], sec_url(s, l))])]}, issue=latest.get('issue', 1), date=latest['date'],
                   ticker2=(boerse_ticker(BIZ[max(BIZ)], l) if s == 'business' and BIZ else '')))
