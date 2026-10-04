@@ -1,3 +1,4 @@
+import { SEC } from './sec.js';
 // Ältere Artikel (älter als 14 Tage) liegen nicht als einzelne Dateien vor, sondern gebündelt in
 // /_arch/<sprache>/<datum>/<bucket>.json. Diese Funktion liefert sie unter ihrer normalen Adresse aus.
 const BUCKETS = 8;
@@ -17,5 +18,5 @@ export async function onRequest(ctx) {
   if (!r.ok) return res;
   const html = (await r.json())[slug];
   if (!html) return res;
-  return new Response(html, { status: 200, headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'public, max-age=3600', 'x-twn-archive': '1' } });
+  return new Response(html, { status: 200, headers: { ...SEC, 'content-type': 'text/html; charset=utf-8', 'cache-control': 'public, max-age=3600', 'x-twn-archive': '1' } });
 }
