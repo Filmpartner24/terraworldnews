@@ -274,6 +274,17 @@ def credit(im, l, link=False):
     lic_h = f'<a href="{lu}" rel="noopener nofollow license" target="_blank">{e(im["lic"])}</a>' if lu else e(im['lic'])
     return (f'{lab}: <a href="{e(im["page"])}" rel="noopener nofollow" target="_blank">{e(who + "Wikimedia Commons")}</a>, {lic_h} ({mod})')
 
+_CAPTAG = [
+    (('symbolbild', 'символна', 'symbolic', 'symbol image', 'illustrative'), {'bg': 'Символна снимка', 'de': 'Symbolbild', 'en': 'Symbolic image'}),
+    (('archiv', 'архив', 'archive', 'file photo'), {'bg': 'Архивна снимка', 'de': 'Archivbild', 'en': 'Archive image'}),
+]
+def cap_pre(alt, l):
+    """Bildunterschrift: keine Themen-Erklärung, nur Kennzeichnung Symbol-/Archivbild (rechtlich relevant) + Quelle."""
+    a = (alt or '').lower()
+    for keys, lab in _CAPTAG:
+        if any(k in a for k in keys): return e(lab.get(l, lab['en'])) + ' · '
+    return ''
+
 def plate(it, l, label=None, cap=False, eager=False):
     im = it.get('img')
     if im:
@@ -281,7 +292,7 @@ def plate(it, l, label=None, cap=False, eager=False):
         lz = '' if eager else ' loading="lazy" decoding="async"'
         tag = f'<img src="{im["f"]}" width="{im["w"]}" height="{im["h"]}" alt="{e(alt)}"{lz}>'
         if cap:
-            return f'<figure class="photo-fig"><div class="plate photo">{tag}</div><figcaption>{e(alt)} · {credit(im, l, True)}</figcaption></figure>'
+            return f'<figure class="photo-fig"><div class="plate photo">{tag}</div><figcaption>{cap_pre(alt, l)}{credit(im, l, True)}</figcaption></figure>'
         return f'<div class="plate photo">{tag}<span class="credit">{credit(im, l)}</span></div>'
     return f'<div class="plate" style="--c:{SEC_COLOR[it["s"]]}"><canvas data-seed="{it["id"]}" aria-hidden="true"></canvas><span class="lbl">{e(label or SEC[l][it["s"]][0])}</span></div>'
 
@@ -475,7 +486,7 @@ def media_article(it, l, paras, facts, noadv, rel, side, SX):
                  f'<span class="yt-note">{e(u["ytnote"])}</span></div>{cr}<p class="gr-yt-src">{e(g["vid"])}: YouTube · {e(v.get("ch", ""))} · <a href="https://www.youtube.com/watch?v={e(v["id"])}" rel="noopener nofollow" target="_blank">youtube.com</a></p></div>')
     elif im:
         alt = im.get('alt', {}).get(l, '')
-        media = f'<div class="ga-media"><img class="ga-img" src="{im["f"]}" width="{im["w"]}" height="{im["h"]}" alt="{e(alt)}">{cr if im.get("cr") else ""}' + ('' if im.get('cr') else f'<p class="gr-cr">{e(alt)} · {credit(im, l, True)}</p>') + '</div>'
+        media = f'<div class="ga-media"><img class="ga-img" src="{im["f"]}" width="{im["w"]}" height="{im["h"]}" alt="{e(alt)}">{cr if im.get("cr") else ""}' + ('' if im.get('cr') else f'<p class="gr-cr">{cap_pre(alt, l)}{credit(im, l, True)}</p>') + '</div>'
     else:
         media = ''
     def small(x):
@@ -613,7 +624,7 @@ def fb_league_page(k, l, today, others):
         cups += f'<details class="fb-md fb-cup"><summary>{e(c["name"].get(l, c["name"].get("en", "")))}</summary>{body}' + (f'<p class="fb-ko">{e(f["src"])}: {csrc}</p>' if csrc else '') + '</details>'
     im = FB_IMG.get(k)
     hero = (f'<div class="ga-media"><div class="fb-hero" style="background-image:url({im["f"]})"><span class="gr-badge">{e(f["season"])} {e(lg["season"])}</span></div>'
-            f'<p class="gr-cr">{e(im.get("alt", {}).get(l, ""))} · {credit(im, l, True)}</p></div>') if im else ''
+            f'<p class="gr-cr">{cap_pre(im.get("alt", {}).get(l, ""), l)}{credit(im, l, True)}</p></div>') if im else ''
     others_l = ''.join(f'<li><a href="{fb_url(x, l)}"{" aria-current=page" if x == k else ""}>{e(FB[x]["name"][l])}</a></li>' for x in fb_order(l) if x in FB)
     return (f'<div class="gp gp-sport fb-page"><div class="gp-head"><h1 class="gp-title">{e(lg["name"][l])}</h1><span class="fb-season">{e(f["season"])} {e(lg["season"])}</span></div>'
             f'<div class="gp-main"><div class="gp-panel">{hero}<h2 class="gp-h">{e(f["table"])}</h2>{table}{nx}'
@@ -711,7 +722,7 @@ def bx_org_page(k, l, today, news, others):
     up = sorted([x for x in o.get('upcoming', []) if x.get('date', '') >= today], key=lambda x: x['date'])
     rs = sorted(o.get('results', []), key=lambda x: x.get('date', ''), reverse=True)
     hero = (f'<div class="ga-media"><div class="fb-hero" style="background-image:url({im["f"]})"><span class="gr-badge">{e(f["asof"])} {bx_d(o.get("asof", ""))}</span></div>'
-            f'<p class="gr-cr">{e(im.get("alt", {}).get(l, ""))} · {credit(im, l, True)}</p></div>') if im else ''
+            f'<p class="gr-cr">{cap_pre(im.get("alt", {}).get(l, ""), l)}{credit(im, l, True)}</p></div>') if im else ''
     srcs = ''.join(f'<li><a href="{e(s["u"])}" rel="noopener nofollow" target="_blank">{e(s["n"])}</a></li>' for s in o.get('src', []))
     side = ''.join(f'<li><a href="{bx_url(x, l)}"{" aria-current=page" if x == k else ""}>{e(bx_t(BX[x]["name"], l))} <small>{e(bx_t(BX[x]["full"], l))}</small></a></li>' for x in BX_SPORT[o.get('sp', 'boxen')] if x in BX)
     return (f'<div class="gp gp-sport fb-page"><div class="gp-head"><h1 class="gp-title">{e(bx_t(o["name"], l))}</h1><span class="fb-season">{e(bx_t(o["full"], l))}</span></div>'
