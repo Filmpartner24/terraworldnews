@@ -921,8 +921,14 @@ def build():
                         bit = next((x for x in its if x['id'] == b['id'] and x['date'] == day0), None)
                         bl += biz_block(b, l, art_url(bit, l) if bit else '#', (f'<a href="{art_url(bit, l)}" class="biz-fig">' + plate(bit, l) + '</a>') if bit and bit.get('img') else '')
                     if blocks:
-                        head = (f'<div class="rail-h sec-head"><h1 class="sec-title">{e(SEC[l][s][0])}</h1><span class="meta">{e(nice_date(day0, l))}</span></div>'
-                                f'<p class="sec-desc">{e(BZ[l]["desc"])}</p><nav class="biz-jump" aria-label="{e(BZ[l]["jump"])}"><h2>{e(BZ[l]["jump"])}</h2><ol>{kp}</ol></nav>'
+                        def _tile(b):
+                            k = (b.get('kpi') or [None])[0]
+                            kv = (f'<span class="bt-l">{e(L(k["l"], l))}</span><b class="bt-v">{fnum(k["v"], k.get("dec", 2), l)} <small>{e(L(k.get("u", ""), l))}</small></b>'
+                                  + (fchg(k["chg"], 2, l) if k.get("chg") is not None else '')) if k else ''
+                            return f'<a class="bz-tile" href="#{e(b["id"])}">{kv}<span class="bt-t">{e(b[l]["t"])}</span></a>'
+                        head = (f'<div class="gp gp-business bz-top"><div class="gp-head"><h1 class="gp-title">{e(SEC[l][s][0])}</h1>{gp_slogan(l)}</div>'
+                                f'<div class="gp-panel bz-panel"><p class="bz-desc">{e(BZ[l]["desc"])} <span class="bz-date">{e(BZ[l]["asof"])}: {e(nice_date(day0, l))}</span></p>'
+                                f'<h2 class="gp-h">{e(BZ[l]["overview"])}</h2><nav class="bz-tiles" aria-label="{e(BZ[l]["jump"])}">{"".join(_tile(b) for b in blocks)}</nav></div></div>'
                                 f'<div class="biz-blocks">{bl}</div><p class="noadv">{e(BZ[l]["noadv"])}</p>')
                         tops = [x for x in its if x['date'] == day0]
                 if s == 'leben':  # Natur: oben "Die schönste Natur der Welt" (mit Video), darunter Klima-Themen

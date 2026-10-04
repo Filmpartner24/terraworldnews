@@ -777,3 +777,24 @@ nav.sections.nv2 .nav-dd .dd a:hover{background:#d4161c;color:#fff}
 .vb-panel{background:#050b24;border-radius:0 0 6px 6px;padding:22px 24px 10px}
 .vb-panel .gs h3{color:#fff}
 @media (max-width:640px){.mrail .mr-head .gp-title{font-size:21px}.mrail .mr-head .gp-head{padding:10px 14px;flex-wrap:nowrap}.gp-home .gp-title{font-size:22px}.vb-panel{padding:14px}}
+/* Business: Mix – Games-Kopf, dunkles Markt-Band, farbige Block-Köpfe */
+.bz-top{margin:6px 0 26px}
+.gp-business .gp-title{text-shadow:0 0 18px rgba(16,185,129,.6)}
+.bz-panel{background:#03140e;border-radius:0 0 6px 6px;padding:18px 24px 22px}
+.bz-desc{color:#d1fae5;margin:0 0 14px;font-size:16px;line-height:1.5}
+.bz-date{display:inline-block;margin-left:6px;font-family:var(--label);font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:#6ee7b7}
+.bz-panel .gp-h{color:#fff;border-left-color:#10b981}
+.bz-tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.bz-tile{display:flex;flex-direction:column;gap:3px;padding:14px 16px;background:#062a1e;border:1px solid #0f4733;border-top:3px solid #10b981;border-radius:5px;color:#ecfdf5;text-decoration:none;min-width:0;transition:background .15s,transform .15s}
+.bz-tile:hover{background:#0a3a2a;transform:translateY(-2px)}
+.bz-tile .bt-l{font-family:var(--label);font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:#6ee7b7}
+.bz-tile .bt-v{font-family:var(--head);font-size:26px;line-height:1.1;color:#fff}
+.bz-tile .bt-v small{font-size:13px;color:#a7f3d0;font-family:var(--label)}
+.bz-tile .bt-t{margin-top:6px;font-size:14px;line-height:1.35;color:#d1fae5}
+.bz-tile .chg,.bz-tile [class*="chg"]{font-weight:700}
+.biz-block>h2{background:linear-gradient(100deg,#03140e 0%,#064e3b 60%,#0a7d5a 100%);border-radius:5px;padding:12px 18px;margin:0 0 8px;border-bottom:3px solid #10b981}
+.biz-block>h2 a{color:#fff;text-decoration:none}
+.biz-block{border-top:0!important}
+@media (max-width:860px){.bz-tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.bz-tiles{grid-template-columns:1fr}.bz-panel{padding:14px}.bz-tile .bt-v{font-size:22px}.biz-block>h2{font-size:20px;padding:10px 14px}}
+.biz-block{scroll-margin-top:72px}
