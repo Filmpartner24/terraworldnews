@@ -760,3 +760,20 @@ nav.sections.nv2 .nav-dd .dd a:hover{background:#d4161c;color:#fff}
 .gp-bulgarien .gr-meta,.gp-bulgarien .gs .kick,.gp-bulgarien .ga-panel .kick{color:#bbf7d0}
 .gp-bulgarien .gp-panel{background:#04201a}.gp-bulgarien .gr{border-bottom-color:#0f3a2e}
 .gp-bulgarien .gr-badge{background:#d62612;color:#fff}.gp-bulgarien .gr-more{background:#fff;color:#04241b}
+/* Startseite: Mix aus klassischem Aufbau und Games-Layout */
+.mrail{border-top:0;padding-top:0}
+.mrail .mr-head{margin:0 0 16px}
+.mrail .mr-head .gp-head{padding:12px 20px;border-radius:6px;align-items:center;border-bottom-width:3px}
+.mrail .mr-head .gp-title{font-size:26px;margin:0}
+.mrail .mr-head .gp-title a{color:#fff;text-decoration:none}
+.mrail .mr-all{font-family:var(--label);font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:rgba(255,255,255,.14);padding:7px 12px;border-radius:3px;white-space:nowrap}
+.mrail .mr-all:hover{background:#d4161c}
+.mrail>.rail-h{display:none}
+.gp-business{--gx:#10b981;--gy:#d1fae5}
+.gp-business .gp-head{background:linear-gradient(100deg,#03140e 0%,#064e3b 55%,#0a7d5a 100%)}
+.gp-home{--gx:#d4161c;--gy:#fff;margin:28px 0 30px}
+.gp-home .gp-head{background:linear-gradient(100deg,#050b24 0%,#0f2f7a 60%,#7a0d12 100%)}
+.gp-home .gp-title{font-size:30px;text-shadow:0 0 18px rgba(212,22,28,.6)}
+.vb-panel{background:#050b24;border-radius:0 0 6px 6px;padding:22px 24px 10px}
+.vb-panel .gs h3{color:#fff}
+@media (max-width:640px){.mrail .mr-head .gp-title{font-size:21px}.mrail .mr-head .gp-head{padding:10px 14px;flex-wrap:nowrap}.gp-home .gp-title{font-size:22px}.vb-panel{padding:14px}}

@@ -818,12 +818,27 @@ def build():
         ranked = ''.join(f'<div class="rank"><span class="n">{i + 1}</span>{rthumb(it)}<a href="{art_url(it, l)}">{kick(it, l)}<h3>{e(it[l]["t"])}</h3></a></div>' for i, it in enumerate([x for x in rest if x['s'] != 'business'][:5]))  # Business-Berichte nie unter „Neueste Meldungen“
         order = ['bulgarien', 'deutschland', 'welt', 'europa', 'wirtschaft', 'business', 'klima', 'ki', 'ai', 'energie', 'film', 'musik', 'sport', 'games'] if l == 'bg' else ['welt', 'europa', 'deutschland', 'bulgarien', 'wirtschaft', 'business', 'klima', 'ki', 'ai', 'energie', 'film', 'musik', 'sport', 'games'] if l == 'en' else ['deutschland', 'bulgarien', 'welt', 'europa', 'wirtschaft', 'business', 'klima', 'ki', 'ai', 'energie', 'film', 'musik', 'sport', 'games']
         lv = sorted([it for it in items_l if it['s'] == 'leben'], key=lambda x: (x['date'], x['time']), reverse=True)[:4]
-        rails = (f'<section class="rail rail-leben" style="--c:{SEC_COLOR["leben"]}"><div class="rail-h"><h2>{e(SEC[l]["leben"][0])}</h2><a href="{sec_url("leben", l)}">{e(u["all"])}</a></div>'
-                 f'<p class="sec-desc">{e(SEC_DESC["leben"][l])}</p><div class="cards">{"".join(card(it, l) for it in lv)}</div></section>') if lv else ''
+        def mrail(s2, lst, desc=''):  # Mix: farbiger Rubrik-Kopf wie im Games-Layout, Karten hell darunter
+            return (f'<section class="rail mrail" style="--c:{SEC_COLOR[s2]}"><div class="gp gp-{s2} mr-head"><div class="gp-head"><h2 class="gp-title"><a href="{sec_home(s2, l)}">{e(SEC[l][s2][0])}</a></h2>'
+                    f'<a class="mr-all" href="{sec_home(s2, l)}">{e(u["all"])}</a></div></div>' + (f'<p class="sec-desc">{e(desc)}</p>' if desc else '') +
+                    f'<div class="cards">{"".join(card(it, l) for it in lst)}</div></section>')
+        rails = mrail('leben', lv, SEC_DESC['leben'][l]) if lv else ''
         for s in order:
             its = [it for it in rest if it['s'] == s]
             if its:
-                rails += f'<section class="rail" style="--c:{SEC_COLOR[s]}"><div class="rail-h"><h2>{e(SEC[l][s][0])}</h2><a href="{sec_home(s, l)}">{e(u["all"])}</a></div><div class="cards">{"".join(card(it, l) for it in its[:4])}</div></section>'
+                rails += mrail(s, its[:4])
+        _vids = [it for it in sorted(items_l, key=lambda x: (x['date'], x['time']), reverse=True) if it.get('yt') and it['s'] != 'business' and it['date'] >= (rest[-1]['date'] if rest else latest['date'])][:24]
+        _seen, vsel = set(), []
+        for it in _vids:  # höchstens 2 Videos pro Rubrik, damit das Band gemischt bleibt
+            if sum(1 for x in vsel if x['s'] == it['s']) < 2: vsel.append(it)
+            if len(vsel) == 6: break
+        def vtile(it):
+            st = f' style="background-image:url({it["img"]["f"]})"' if it.get('img') else ''
+            return (f'<article class="gs"><a href="{art_url(it, l)}"><div class="gs-img"{st}><span class="rt-play" aria-hidden="true">▶</span></div>'
+                    f'{kick(it, l)}<h3>{e(it[l]["t"])}</h3></a></article>')
+        VBT = {'bg': 'Видео на деня', 'de': 'Videos des Tages', 'en': 'Videos of the day'}
+        vband = (f'<section class="vband gp gp-home"><div class="gp-head"><h2 class="gp-title">▶ {e(VBT[l])}</h2>{gp_slogan(l)}</div>'
+                 f'<div class="gp-panel vb-panel"><div class="gs-grid">{"".join(vtile(it) for it in vsel)}</div></div></section>') if len(vsel) >= 3 else ''
         cur = [it for it in today if it.get('live')]
         if l == 'bg': cur = sorted(cur, key=lambda x: x['s'] != 'bulgarien')
         cur = cur[:8]
@@ -836,7 +851,7 @@ def build():
                    f'<div class="cards">{"".join(card(it, l) for it in cur)}</div></section>')
         body = bkh + (f'<section class="lead"><div class="lead-main"><a href="{art_url(lead, l)}">{plate(lead, l, eager=True)}</a>{kick(lead, l, e(u["lead"]) + " · ")}'
                 f'<a href="{art_url(lead, l)}"><h1>{e(lead[l]["t"])}</h1></a><p class="dek">{e(lead[l]["d"])}</p><span class="src">{u["src"]}: {e(SNAMES(lead["src"]))}</span></div>'
-                f'<div class="ranked"><h2 class="rh">{e(u["most"])}</h2>{ranked}</div></section>{rails}')
+                f'<div class="ranked"><h2 class="rh">{e(u["most"])}</h2>{ranked}</div></section>{vband}{rails}')
         alts = {x: pre(x) for x in act}
         ld = {"@context": "https://schema.org", "@graph": [ORG, {"@type": "WebSite", "@id": SITE + "/#website", "url": SITE + "/", "name": "TWN World News", "alternateName": ["TWN", "Terra World News", "TERRA WORLD NEWS"], "publisher": {"@id": SITE + "/#org"}, "inLanguage": act},
               {"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": SITE + art_url(it, l)} for i, it in enumerate([lead] + rest)]}]}
