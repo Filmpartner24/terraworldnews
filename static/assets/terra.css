@@ -632,7 +632,7 @@ nav.sections.nv2.stuck{box-shadow:0 6px 18px rgba(4,14,40,.35)}
 .nv2 .nv-home span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .nv2 .nv-logo,.nv2 .nv-search{flex:0 0 92px;display:flex;align-items:center;gap:7px;padding:0 10px}
 .nv2 .nv-logo{visibility:hidden;font-family:var(--head);font-size:18px;letter-spacing:.04em}
-.nv2 .nv-logo img{width:30px;height:30px;border-radius:50%;background:#fff}
+.nv2 .nv-logo img{width:32px;height:32px;object-fit:contain;filter:drop-shadow(0 1px 1px rgba(0,0,0,.35))}
 .nv2.stuck .nv-logo{visibility:visible}
 .nv2 .nv-search{justify-content:flex-end}
 .nv2 .nv-search:hover{background:#d4161c}
