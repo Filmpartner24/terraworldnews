@@ -392,7 +392,7 @@ def ex_block(it, l):
 def kick(it, l, prefix=''):
     if it.get('live'): prefix = f'<b class="brk">{e(UI[l]["brk"])}</b>' + prefix
     if it.get('ex'): prefix = f'<b class="exk">{e(EXL[l])}</b>' + prefix
-    return f'<div class="kick" style="--c:{SEC_COLOR[it["s"]]}"><i></i>{prefix}{e(SEC[l][it["s"]][0])} · <time class="meta" datetime="{iso(it)}">{num_date(it["date"])}, {it["time"]}{(" " + UI[l]["hour"]) if UI[l]["hour"] else ""}</time></div>'
+    return f'<div class="kick" style="--c:{SEC_COLOR[it["s"]]}"><i></i>{prefix}{e((it.get('kl') or {}).get(l) or SEC[l][it["s"]][0])} · <time class="meta" datetime="{iso(it)}">{num_date(it["date"])}, {it["time"]}{(" " + UI[l]["hour"]) if UI[l]["hour"] else ""}</time></div>'
 
 def card(it, l):
     T = it[l]
@@ -944,7 +944,8 @@ def build():
         vband = (f'<section class="vband gp gp-home"><div class="gp-head"><h2 class="gp-title">▶ {e(VBT[l])}</h2>{gp_slogan(l)}</div>'
                  f'<div class="gp-panel vb-panel"><div class="gs-grid">{"".join(vtile(it) for it in vsel)}</div></div></section>') if len(vsel) >= 3 else ''
         cur = [it for it in today if it.get('live')]
-        if l == 'bg': cur = sorted(cur, key=lambda x: x['s'] != 'bulgarien')
+        if any(x.get('pos') for x in cur): cur = sorted(cur, key=lambda x: x.get('pos', 99))  # feste Reihenfolge der Breaking-Plätze (seit 04.10.2026)
+        elif l == 'bg': cur = sorted(cur, key=lambda x: x['s'] != 'bulgarien')
         cur = cur[:8]
         bkh = ''
         if cur:
