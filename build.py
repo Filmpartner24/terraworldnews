@@ -705,12 +705,21 @@ def fb_league_card(k, l, today):
             (f'<p class="gr-meta">{e(f["md"].format(n=done[-1]))} ✓' + (f' · {e(f["next"])}: {e(f["md"].format(n=nxt))}' if nxt else '') + '</p>' if done else '') +
             f'<span class="gr-more">{e(f["open"])}</span></div></a></article>')
 
+LIVEU = {'bg': dict(h='На живо', today='Мачове днес', src='Данни на живо: API-Football', ht='Полувреме', ft='Край', ns='', pen='дузпа', og='автогол'),
+         'de': dict(h='Live', today='Spiele heute', src='Live-Daten: API-Football', ht='Halbzeit', ft='Ende', ns='', pen='Elfmeter', og='Eigentor'),
+         'en': dict(h='Live', today="Today's matches", src='Live data: API-Football', ht='Half-time', ft='Full-time', ns='', pen='pen', og='og')}
+def live_box(l, kind):  # Live-Spielstände: wird per terra.js aus /api/live gefüllt, bleibt ohne Spiele ausgeblendet
+    u = LIVEU[l]
+    ntm = {v[1]: (k if l == 'de' else v[0]) for k, v in NT.items()} if l != 'en' else {}
+    return (f'<section class="live-box" data-live="{kind}" data-l="{l}" data-tx="{e(json.dumps(u, ensure_ascii=False))}" data-nt="{e(json.dumps(ntm, ensure_ascii=False))}" hidden>'
+            f'<h2 class="gp-h"><span class="live-dot"></span> {e(u["h"])} · {e(u["today"])}</h2><div class="live-list"></div><p class="fb-ko live-src">{e(u["src"])}</p></section>')
+
 def fb_overview(l, today, news_html, others):
     f = FBU[l]; title = f'{SEC[l]["sport"][0]} · {SUB[l]["fussball"][0]}'
     seasons = sorted({FB[k]['season'] for k in FB})
     cards = ''.join(fb_league_card(k, l, today) for k in fb_order(l) if k in FB)
     return (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(title)}</h1><span class="gp-date">{e(f["season"])} {e(" / ".join(seasons))}</span></div>'
-            f'<div class="gp-main"><div class="gp-panel"><h2 class="gp-h">{e(f["leagues"])}</h2><div class="fb-grid">{cards}</div>{grid_cr([(FB[k]["name"][l], FB_IMG.get(k)) for k in fb_order(l) if k in FB], l)}{news_html}</div>'
+            f'<div class="gp-main"><div class="gp-panel">{live_box(l, "club")}<h2 class="gp-h">{e(f["leagues"])}</h2><div class="fb-grid">{cards}</div>{grid_cr([(FB[k]["name"][l], FB_IMG.get(k)) for k in fb_order(l) if k in FB], l)}{news_html}</div>'
             f'<aside class="sec-side"><h2 class="list-h">{e(UI[l]["more"] if False else {"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
 
 def fb_league_page(k, l, today, others):
@@ -810,7 +819,7 @@ def nl_overview(l, today, news, hls, others):
     srcs = ' · '.join(f'<a href="{e(x["u"])}" rel="noopener nofollow" target="_blank">{e(x["n"])}</a>' for x in NL.get('src', []))
     html = (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(title)}</h1><span class="gp-date">{e(u["name"])} {e(NL.get("season", ""))}</span></div>'
             f'<div class="gp-main"><div class="gp-panel">')
-    html += f'<h2 class="gp-h">{e(u["ger"])}</h2>{nl_dfb_rows(l)}'
+    html += live_box(l, 'nat') + f'<h2 class="gp-h">{e(u["ger"])}</h2>{nl_dfb_rows(l)}'
     if a2: html += f'<h2 class="gp-h">{e(u["name"])} · {e(nl_gname(a2, l))}</h2>{nl_table(nl_lg(a2, l), l, nt("Deutschland", l))}'
     if news: html += f'<h2 class="gp-h">{e(u["news"])}</h2>{bx_news_grid(news, l)}'
     if hls:  # Spielzusammenfassungen nach Spieltag-Datum (Feld "mdate", sonst Veröffentlichungsdatum), neueste zuerst
