@@ -169,7 +169,8 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
             alts += f'<link rel="alternate" hreflang="{al}" href="{SITE}{url}">'
         if 'bg' in alternates: alts += f'<link rel="alternate" hreflang="x-default" href="{SITE}{alternates["bg"]}">'
     langbar = ''
-    for code, name in LANGS:
+    _lb_order = {'de': 0, 'en': 1, 'bg': 2}  # Sprachleiste: DE / EN / BG (seit 2026-10-04)
+    for code, name in sorted(LANGS, key=lambda x: _lb_order.get(x[0], 99)):
         if code in act:
             target = (alternates or {}).get(code, pre(code))
             langbar += f'<a href="{target}" hreflang="{code}" lang="{code}" title="{e(name)}"{CUR_T if code == l else ""}>{code.upper()}</a>'
