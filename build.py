@@ -307,6 +307,10 @@ BZ = {'bg': dict(boerse='БОРСА', asof='Данни', explain='Какво о�
       'en': dict(boerse='MARKETS', asof='Data as of', explain='What does this mean for me?', overview='Markets at a glance', jump='On this page', full='Full article →', nodata='–', desc='Stock markets, electricity and investment – daily with figures and tables, clearly explained: Wall Street, Frankfurt, Sofia, the IBEX power exchange and regional investment.', noadv='For information only, not investment advice. Prices as of the time stated, not real-time quotes.')}
 def L(x, l):
     return x.get(l) or x.get('de') or next(iter(x.values()), '') if isinstance(x, dict) else ('' if x is None else str(x))
+UNITS = {'Pkt.': {'bg': 'пункта', 'en': 'pts'}, 'Mio. EUR': {'bg': 'млн. евро', 'en': 'EUR m'}, 'Mrd. EUR': {'bg': 'млрд. евро', 'en': 'EUR bn'},
+         'Mio.': {'bg': 'млн.', 'en': 'm'}, 'Mrd.': {'bg': 'млрд.', 'en': 'bn'}}
+def LU(x, l):  # Einheit in der Seitensprache (Daten oft mit deutscher Einheit)
+    v = L(x, l); return UNITS.get(v, {}).get(l, v)
 def fnum(v, dec, l):
     if v is None: return '–'
     t = f'{abs(v):,.{dec}f}'
@@ -322,7 +326,7 @@ def biz_kpis(b, l):
     out = ''
     for k in b.get('kpi', []):
         ch = fchg(k['chg'], 2, l) if k.get('chg') is not None else ''
-        out += f'<div class="kpi"><span class="kl">{e(L(k["l"], l))}</span><b class="kv">{fnum(k["v"], k.get("dec", 2), l)}</b><span class="ku">{e(L(k.get("u", ""), l))}</span>{ch}</div>'
+        out += f'<div class="kpi"><span class="kl">{e(L(k["l"], l))}</span><b class="kv">{fnum(k["v"], k.get("dec", 2), l)}</b><span class="ku">{e(LU(k.get("u", ""), l))}</span>{ch}</div>'
     return f'<div class="kpis">{out}</div>' if out else ''
 def biz_tables(b, l):
     out = ''
@@ -357,7 +361,7 @@ def boerse_ticker(d, l):
     if not d: return ''
     xs = [t for b in d.get('blocks', []) for t in b.get('ticker', [])]
     if not xs: return ''
-    one = ''.join(f'<span class="bq"><b>{e(L(t["n"], l))}</b> {fnum(t["v"], t.get("dec", 2), l)}{(" " + e(L(t["u"], l))) if t.get("u") else ""} {fchg(t.get("chg"), 2, l)}</span><span class="sep" aria-hidden="true"></span>' for t in xs)
+    one = ''.join(f'<span class="bq"><b>{e(L(t["n"], l))}</b> {fnum(t["v"], t.get("dec", 2), l)}{(" " + e(LU(t["u"], l))) if t.get("u") else ""} {fchg(t.get("chg"), 2, l)}</span><span class="sep" aria-hidden="true"></span>' for t in xs)
     _pz = {'bg': 'Пауза', 'de': 'Pause', 'en': 'Pause'}.get(l, 'Pause')
     return (f'<div class="ticker boerse" role="region" aria-label="{BZ[l]["boerse"]}"><span class="k">{BZ[l]["boerse"]}</span>'
             f'<div class="tk-track"><div class="tk-move"><div class="tk-set">{one}</div><div class="tk-set" aria-hidden="true">{one}</div></div></div>'
@@ -923,7 +927,7 @@ def build():
                     if blocks:
                         def _tile(b):
                             k = (b.get('kpi') or [None])[0]
-                            kv = (f'<span class="bt-l">{e(L(k["l"], l))}</span><b class="bt-v">{fnum(k["v"], k.get("dec", 2), l)} <small>{e(L(k.get("u", ""), l))}</small></b>'
+                            kv = (f'<span class="bt-l">{e(L(k["l"], l))}</span><b class="bt-v">{fnum(k["v"], k.get("dec", 2), l)} <small>{e(LU(k.get("u", ""), l))}</small></b>'
                                   + (fchg(k["chg"], 2, l) if k.get("chg") is not None else '')) if k else ''
                             return f'<a class="bz-tile" href="#{e(b["id"])}">{kv}<span class="bt-t">{e(b[l]["t"])}</span></a>'
                         head = (f'<div class="gp gp-business bz-top"><div class="gp-head"><h1 class="gp-title">{e(SEC[l][s][0])}</h1>{gp_slogan(l)}</div>'
