@@ -815,3 +815,8 @@ nav.sections.nv2 .nav-dd .dd a:hover{background:#d4161c;color:#fff}
 .ex-cr{display:block;margin-top:12px;color:#9aa3c0;font-size:12.5px}
 .kick b.exk{background:#d4161c;color:#fff;padding:1px 6px;border-radius:2px;margin-right:6px;font-weight:700;text-transform:uppercase;letter-spacing:.05em}
 @media (max-width:860px){.ex-card{grid-template-columns:1fr;gap:16px}.ex-txt h3{font-size:22px}.ex-play{width:64px;height:64px;font-size:26px}.ex-panel{padding:16px 14px 20px}}
+
+.ov-line{margin:0 0 6px;color:#d4161c;font-family:var(--label);font-weight:700;font-size:15px;letter-spacing:.08em;text-transform:uppercase}
+.sub-h{margin:6px 0 12px;font-family:var(--head);font-size:21px;line-height:1.25;opacity:.92}
+.ex-txt .ov-line{color:#ff4d52}
+.ex-txt .sub-h{color:#fff;font-size:18px;margin:0 0 12px}

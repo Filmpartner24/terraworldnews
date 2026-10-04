@@ -381,7 +381,7 @@ def ex_block(it, l):
     return (f'<section class="exband gp gp-home gp-ex" aria-label="{e(EXL[l])}"><div class="gp-head"><h2 class="gp-title">★ {e(EXL[l])}</h2>{gp_slogan(l)}</div>'
             f'<div class="gp-panel vb-panel ex-panel"><a class="ex-card" href="{art_url(it, l)}"><div class="ex-img"{st}><span class="ex-play" aria-hidden="true">▶</span>'
             f'<span class="ex-badge">{e(EXL[l])}{(" · " + e(kind)) if kind else ""}</span></div>'
-            f'<div class="ex-txt"><h3>{e(T["t"])}</h3><p>{e(T["d"])}</p><span class="ex-more">{e(EXB[l])}</span>'
+            f'<div class="ex-txt">{(f'<p class="ov-line">{e(T["ov"])}</p>' if T.get("ov") else "")}<h3>{e(T["t"])}</h3>{(f'<p class="sub-h">{e(T["st"])}</p>' if T.get("st") else "")}<p>{e(T["d"])}</p><span class="ex-more">{e(EXB[l])}</span>'
             f'<span class="ex-cr">{vl}: {e(ch)}</span></div></a></div></section>')
 
 def kick(it, l, prefix=''):
@@ -579,7 +579,7 @@ def media_article(it, l, paras, facts, noadv, rel, side, SX):
     single = f'<p class="gr-single">{e(g["single"])}: <b>{e(rv["single"])}</b></p>' if rv.get('single') else ''
     html = (f'<div class="gp gp-{kind} ga"><div class="gp-head"><a class="gp-title ga-sec" href="{sec_home(kind, l, it.get('sub'))}">{e(SEC[l][kind][0])}</a>{gp_slogan(l)}</div>'
             f'<div class="gp-main"><article class="gp-panel ga-panel">{kick(it, l)}' + (f'<div class="gr-score">{e(sc)}</div>' if sc else '') +
-            f'<h1 class="ga-h1">{e(T["t"])}</h1>' + (f'<p class="gr-meta">{e(meta)}</p>' if meta else '') + f'<p class="ga-dek">{e(T["d"])}</p>'
+            f'{(f'<p class="ov-line">{e(T["ov"])}</p>' if T.get("ov") else "")}<h1 class="ga-h1">{e(T["t"])}</h1>{(f'<p class="sub-h">{e(T["st"])}</p>' if T.get("st") else "")}' + (f'<p class="gr-meta">{e(meta)}</p>' if meta else '') + f'<p class="ga-dek">{e(T["d"])}</p>'
             f'<div class="byline meta ga-by"><span>{e(u["by"])}</span><time datetime="{iso(it)}">{PUBL[l]}: {short_date(it["date"], l)}, {it["time"]}{(" " + u["hour"]) if u["hour"] else ""}</time><span>{u["read"].format(m=read_min(it, l))}</span></div>'
             f'{media}{single}<div class="body ga-body">{paras}</div>{facts}{noadv}<div class="sources ga-src"><h2>{e(u["src"])}</h2><ul>{LI(it["src"])}</ul></div>'
             + (f'<h2 class="gp-h">{e(u["more"])}</h2><div class="gs-grid">{"".join(small(x) for x in rel)}</div>' if rel else '') +
@@ -1129,7 +1129,7 @@ def build():
             facts = f'<aside class="facts"><h2>{e(u["facts"])}</h2><ul>{LI(T["facts"])}</ul></aside>' if T.get('facts') else ''
             rel = [x for x in items_l if x['s'] == it['s'] and x is not it][:3]
             relh = f'<section class="rail" style="--c:{SEC_COLOR[it["s"]]}"><div class="rail-h"><h2>{e(u["more"])}</h2><a href="{sec_home(it["s"], l, it.get('sub'))}">{e(SEC[l][it["s"]][0])} →</a></div><div class="cards">{"".join(card(x, l) for x in rel)}</div></section>' if rel else ''
-            body = (f'<article class="article"><a class="back" href="{sec_home(it["s"], l, it.get('sub'))}">← {e(SEC[l][it["s"]][0])}</a>{kick(it, l)}<h1>{e(T["t"])}</h1><p class="dek">{e(T["d"])}</p>'
+            body = (f'<article class="article"><a class="back" href="{sec_home(it["s"], l, it.get('sub'))}">← {e(SEC[l][it["s"]][0])}</a>{kick(it, l)}{(f'<p class="ov-line">{e(T["ov"])}</p>' if T.get("ov") else "")}<h1>{e(T["t"])}</h1>{(f'<p class="sub-h">{e(T["st"])}</p>' if T.get("st") else "")}<p class="dek">{e(T["d"])}</p>'
                     f'<div class="byline meta"><span>{e(u["by"])}</span><time datetime="{iso(it)}">{PUBL[l]}: {short_date(it["date"], l)}, {it["time"]}{(" " + u["hour"]) if u["hour"] else ""}</time><span>{u["read"].format(m=read_min(it, l))}</span></div>'
                     f'{plate(it, l, cap=True, eager=True)}<div class="body">{paras}</div>{trailer}{facts}{noadv}<div class="sources"><h2>{e(u["src"])}</h2><ul>{LI(it["src"])}</ul></div></article>{relh}')
             if it['s'] in MEDIA:  # Games/Film/Musik: Artikel im dunklen Medien-Layout mit Seitenleiste
