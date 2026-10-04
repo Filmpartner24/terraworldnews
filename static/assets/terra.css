@@ -800,3 +800,18 @@ nav.sections.nv2 .nav-dd .dd a:hover{background:#d4161c;color:#fff}
 @media (max-width:860px){.bz-tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:520px){.bz-tiles{grid-template-columns:1fr}.bz-panel{padding:14px}.bz-tile .bt-v{font-size:22px}.biz-block>h2{font-size:20px;padding:10px 14px}}
 .biz-block{scroll-margin-top:72px}
+
+/* Exklusiv-Block (Startseite, unter Breaking News) */
+.gp-ex .gp-head{background:linear-gradient(100deg,#050b24 0%,#0f2f7a 55%,#d4161c 100%)}
+.ex-panel{padding:22px 24px 24px}
+.ex-card{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:26px;align-items:center;color:#fff;text-decoration:none}
+.ex-img{position:relative;aspect-ratio:16/9;background:#1e1a33 center/cover no-repeat;border-radius:6px;box-shadow:0 10px 30px rgba(0,0,0,.45)}
+.ex-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:84px;height:84px;border-radius:50%;background:rgba(212,22,28,.92);color:#fff;display:flex;align-items:center;justify-content:center;font-size:34px;padding-left:6px;box-shadow:0 6px 24px rgba(0,0,0,.5);transition:transform .2s}
+.ex-card:hover .ex-play{transform:translate(-50%,-50%) scale(1.08)}
+.ex-badge{position:absolute;left:12px;top:12px;background:#d4161c;color:#fff;font-family:var(--label);font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;padding:5px 10px;border-radius:3px}
+.ex-txt h3{font-family:var(--head);font-size:28px;line-height:1.15;margin:0 0 12px;color:#fff}
+.ex-txt p{color:#d6dbea;font-size:16px;line-height:1.5;margin:0 0 16px}
+.ex-more{display:inline-block;background:#d4161c;color:#fff;font-family:var(--label);font-weight:700;letter-spacing:.04em;text-transform:uppercase;font-size:14px;padding:10px 16px;border-radius:4px}
+.ex-cr{display:block;margin-top:12px;color:#9aa3c0;font-size:12.5px}
+.kick b.exk{background:#d4161c;color:#fff;padding:1px 6px;border-radius:2px;margin-right:6px;font-weight:700;text-transform:uppercase;letter-spacing:.05em}
+@media (max-width:860px){.ex-card{grid-template-columns:1fr;gap:16px}.ex-txt h3{font-size:22px}.ex-play{width:64px;height:64px;font-size:26px}.ex-panel{padding:16px 14px 20px}}

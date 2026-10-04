@@ -370,8 +370,23 @@ def num_date(d):
     y, m, dd = d.split('-')
     return f'{dd}.{m}.{y}'
 
+EXL = {'bg': 'Ексклузивно', 'de': 'Exklusiv', 'en': 'Exclusive'}
+EXB = {'bg': '▶ Гледай видеото и прочети статията', 'de': '▶ Video ansehen & Artikel lesen', 'en': '▶ Watch the video & read the article'}
+def ex_block(it, l):
+    T = it[l]; im = it.get('img')
+    st = f' style="background-image:url({im["f"]})"' if im else ''
+    kind = (it.get('exk') or {}).get(l, '')
+    ch = (it.get('yt') or {}).get('ch', '')
+    vl = {'bg': 'Видео', 'de': 'Video', 'en': 'Video'}[l]
+    return (f'<section class="exband gp gp-home gp-ex" aria-label="{e(EXL[l])}"><div class="gp-head"><h2 class="gp-title">★ {e(EXL[l])}</h2>{gp_slogan(l)}</div>'
+            f'<div class="gp-panel vb-panel ex-panel"><a class="ex-card" href="{art_url(it, l)}"><div class="ex-img"{st}><span class="ex-play" aria-hidden="true">▶</span>'
+            f'<span class="ex-badge">{e(EXL[l])}{(" · " + e(kind)) if kind else ""}</span></div>'
+            f'<div class="ex-txt"><h3>{e(T["t"])}</h3><p>{e(T["d"])}</p><span class="ex-more">{e(EXB[l])}</span>'
+            f'<span class="ex-cr">{vl}: {e(ch)}</span></div></a></div></section>')
+
 def kick(it, l, prefix=''):
     if it.get('live'): prefix = f'<b class="brk">{e(UI[l]["brk"])}</b>' + prefix
+    if it.get('ex'): prefix = f'<b class="exk">{e(EXL[l])}</b>' + prefix
     return f'<div class="kick" style="--c:{SEC_COLOR[it["s"]]}"><i></i>{prefix}{e(SEC[l][it["s"]][0])} · <time class="meta" datetime="{iso(it)}">{num_date(it["date"])}, {it["time"]}{(" " + UI[l]["hour"]) if UI[l]["hour"] else ""}</time></div>'
 
 def card(it, l):
@@ -911,7 +926,7 @@ def build():
             its = [it for it in rest if it['s'] == s]
             if its:
                 rails += mrail(s, its[:4])
-        _vids = [it for it in sorted(items_l, key=lambda x: (x['date'], x['time']), reverse=True) if it.get('yt') and it['s'] != 'business' and it['date'] >= (rest[-1]['date'] if rest else latest['date'])][:24]
+        _vids = [it for it in sorted(items_l, key=lambda x: (x['date'], x['time']), reverse=True) if it.get('yt') and not it.get('ex') and it['s'] != 'business' and it['date'] >= (rest[-1]['date'] if rest else latest['date'])][:24]
         _seen, vsel = set(), []
         for it in _vids:  # höchstens 2 Videos pro Rubrik, damit das Band gemischt bleibt
             if sum(1 for x in vsel if x['s'] == it['s']) < 2: vsel.append(it)
@@ -933,7 +948,9 @@ def build():
                    f'<p class="bk-slogan" aria-label="{". ".join(SLOGAN[l])}.">{"<i aria-hidden=\"true\"></i>".join(SLOGAN[l])}</p>'
                    f'<span class="meta">{u["brkup"]} {last}{(" " + u["hour"]) if u["hour"] else ""}</span></div>'
                    f'<div class="cards">{"".join(card(it, l) for it in cur)}</div></section>')
-        body = bkh + (f'<section class="lead"><div class="lead-main"><a href="{art_url(lead, l)}">{plate(lead, l, eager=True)}</a>{kick(lead, l, e(u["lead"]) + " · ")}'
+        _exl = sorted([it for it in items_l if it.get('ex') and it['date'] >= (datetime.date.fromisoformat(latest['date']) - datetime.timedelta(days=7)).isoformat()], key=lambda x: (x['date'], x['time']), reverse=True)
+        exh = ex_block(_exl[0], l) if _exl else ''
+        body = bkh + exh + (f'<section class="lead"><div class="lead-main"><a href="{art_url(lead, l)}">{plate(lead, l, eager=True)}</a>{kick(lead, l, e(u["lead"]) + " · ")}'
                 f'<a href="{art_url(lead, l)}"><h1>{e(lead[l]["t"])}</h1></a><p class="dek">{e(lead[l]["d"])}</p><span class="src">{u["src"]}: {e(SNAMES(lead["src"]))}</span></div>'
                 f'<div class="ranked"><h2 class="rh">{e(u["most"])}</h2>{ranked}</div></section>{vband}{rails}')
         alts = {x: pre(x) for x in act}
