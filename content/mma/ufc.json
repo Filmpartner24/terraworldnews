@@ -11,7 +11,7 @@
   "de": "Ultimate Fighting Championship",
   "en": "Ultimate Fighting Championship"
  },
- "asof": "2026-10-03",
+ "asof": "2026-10-04",
  "champions": [
   {
    "div": {
@@ -115,12 +115,12 @@
     "en": "Women's Flyweight"
    },
    "limit": "bis 56,7 kg (125 lb)",
-   "name": "vakant",
-   "country": "–",
+   "name": "Natália Silva",
+   "country": "Brasilien",
    "note": {
-    "bg": "Валентина Шевченко се отказа от титлата поради контузия (септември 2026); Наталия Силва и Уан Цун се бият за пояса на UFC 332 на 3 октомври",
-    "de": "Valentina Shevchenko legte den Titel im September 2026 verletzungsbedingt nieder; Natalia Silva und Wang Cong kämpfen bei UFC 332 am 3. Oktober um den Gürtel (ufc.com führt Shevchenko noch als Champion)",
-    "en": "Valentina Shevchenko vacated in September 2026 due to injury; Natalia Silva and Wang Cong fight for the belt at UFC 332 on Oct. 3"
+    "bg": "Спечели вакантната титла на 3 октомври 2026 г. (UFC 332) срещу Уан Цун",
+    "de": "Gewann den vakanten Titel am 3. Oktober 2026 (UFC 332) gegen Wang Cong",
+    "en": "Won the vacant title on October 3, 2026 (UFC 332) against Wang Cong"
    }
   },
   {
@@ -135,23 +135,6 @@
   }
  ],
  "upcoming": [
-  {
-   "date": "2026-10-03",
-   "place": "Salt Lake City, USA",
-   "f1": "Natalia Silva",
-   "f2": "Wang Cong",
-   "div": {
-    "bg": "Муха категория (жени)",
-    "de": "Fliegengewicht (Frauen)",
-    "en": "Women's Flyweight"
-   },
-   "title": {
-    "bg": "UFC 332 – главен двубой, мач за вакантната титла",
-    "de": "UFC 332 – Hauptkampf, Titelkampf um den vakanten Gürtel",
-    "en": "UFC 332 – main event, vacant title fight"
-   },
-   "note": "Delta Center; beide machten beim offiziellen Wiegen am 2. Oktober das Limit"
-  },
   {
    "date": "2026-10-24",
    "place": "Abu Dhabi, Vereinigte Arabische Emirate",
@@ -219,9 +202,64 @@
     "en": "UFC 334 – co-main event, title fight"
    },
    "note": "Madison Square Garden"
+  },
+  {
+   "date": "2026-12-12",
+   "place": "Las Vegas, USA",
+   "f1": "Charles Oliveira",
+   "f2": "Diego Lopes",
+   "div": {
+    "bg": "Лека категория",
+    "de": "Leichtgewicht",
+    "en": "Lightweight"
+   },
+   "title": {
+    "bg": "UFC 335 – главен двубой, титла BMF",
+    "de": "UFC 335 – Hauptkampf, BMF-Titel",
+    "en": "UFC 335 – Main event, BMF title"
+   },
+   "note": "T-Mobile Arena; Oliveira verteidigt den BMF-Gürtel, Lopes debütiert im Leichtgewicht"
+  },
+  {
+   "date": "2026-12-12",
+   "place": "Las Vegas, USA",
+   "f1": "Alex Pereira",
+   "f2": "Sergei Pavlovich",
+   "div": {
+    "bg": "Тежка категория",
+    "de": "Schwergewicht",
+    "en": "Heavyweight"
+   },
+   "title": {
+    "bg": "UFC 335 – съглавен двубой (5 рунда)",
+    "de": "UFC 335 – Co-Hauptkampf (5 Runden)",
+    "en": "UFC 335 – Co-main event (5 rounds)"
+   },
+   "note": "T-Mobile Arena; kein Titelkampf"
   }
  ],
  "results": [
+  {
+   "date": "2026-10-03",
+   "place": "Salt Lake City, USA",
+   "f1": "Natália Silva",
+   "f2": "Wang Cong",
+   "res": {
+    "bg": "единодушно съдийско решение (48-47, 48-47, 49-46)",
+    "de": "einstimmige Punktentscheidung (48-47, 48-47, 49-46)",
+    "en": "unanimous decision (48-47, 48-47, 49-46)"
+   },
+   "div": {
+    "bg": "Муха категория (жени)",
+    "de": "Fliegengewicht (Frauen)",
+    "en": "Women's Flyweight"
+   },
+   "title": {
+    "bg": "UFC 332 – главен двубой, мач за вакантната титла",
+    "de": "UFC 332 – Hauptkampf, Titelkampf um den vakanten Gürtel",
+    "en": "UFC 332 – Main event, vacant title fight"
+   }
+  },
   {
    "date": "2026-09-26",
    "place": "Las Vegas, USA",
@@ -380,6 +418,18 @@
   {
    "n": "UFC – Viewer's Guide UFC 332",
    "u": "https://www.ufc.com/news/viewers-guide-ufc-332-silva-vs-wang-paramount-cbs"
+  },
+  {
+   "n": "Cageside Press – UFC 332: Silva vs. Wang (03.10.2026)",
+   "u": "https://cagesidepress.com/2026/10/03/ufc-332-natalia-silva-takes-early-lead-fends-off-wang-cong-to-claim-flyweight-gold/"
+  },
+  {
+   "n": "Cageside Press – UFC 335 (03.10.2026)",
+   "u": "https://cagesidepress.com/2026/10/03/charles-oliveira-vs-diego-lopes-bmf-title-fight-tops-ufc-335/"
+  },
+  {
+   "n": "theScore – UFC 335",
+   "u": "https://www.thescore.com/mma/news/3614702/oliveira-lopes-pereira-pavlovich-set-for-ufc-335"
   }
  ]
 }
