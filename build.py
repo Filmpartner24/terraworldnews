@@ -303,7 +303,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
   </main>
   <footer>
     <div><a href="{pre(l)}" class="brand-s"><img src="/assets/twn-logo2-480.webp" srcset="/assets/twn-logo2-480.webp 480w, /assets/twn-logo2-960.webp 960w" sizes="240px" width="480" height="133" alt="TWN – TERRA WORLD NEWS" loading="lazy"></a>{e(u['foot'])}<br>{e(u['publisher'])}<br><span class="wxcredit">{e(WXT[l])} · <a href="https://api.met.no/" rel="noopener nofollow" target="_blank">api.met.no</a></span></div>
-    <nav><a href="{legal_url('about', l)}">{e(u['about'])}</a><a href="{legal_url('imprint', l)}">{e(u['imprint'])}</a><a href="{legal_url('privacy', l)}">{e(u['privacy'])}</a><a href="{legal_url('principles', l)}">{e(u['principles'])}</a><a href="{pre(l)}rss.xml">{e(u['rss'])}</a></nav>
+    <nav><a href="{legal_url('about', l)}">{e(u['about'])}</a><a href="{legal_url('imprint', l)}">{e(u['imprint'])}</a><a href="{legal_url('privacy', l)}">{e(u['privacy'])}</a><a href="{legal_url('principles', l)}">{e(u['principles'])}</a><a href="{pre(l)}rss.xml">{e(u['rss'])}</a><a class="g-pref" href="https://google.com/preferences/source?q=terraworldnews.com" rel="noopener" target="_blank">{e(GPREF[l])}</a></nav>
   </footer>
 </div>
 <script src="/assets/terra.js?v={ASSET_V['terra.js']}" defer></script>
@@ -714,12 +714,66 @@ def live_box(l, kind):  # Live-Spielstände: wird per terra.js aus /api/live gef
     return (f'<section class="live-box" data-live="{kind}" data-l="{l}" data-tx="{e(json.dumps(u, ensure_ascii=False))}" data-nt="{e(json.dumps(ntm, ensure_ascii=False))}" hidden>'
             f'<h2 class="gp-h"><span class="live-dot"></span> {e(u["h"])} · {e(u["today"])}</h2><div class="live-list"></div><p class="fb-ko live-src">{e(u["src"])}</p></section>')
 
+# ---- Fußball heute im TV (Daten: content/tv/YYYY-MM-DD.json, täglich redaktionell recherchiert)
+TVU = {'bg': dict(h='Футбол по телевизията днес', lnk='⚽ Футбол по ТВ днес', ch='Канал', src='Източници', note='Без гаранция – часове и канали според телевизиите; възможни са промени.'),
+       'de': dict(h='Fußball heute im TV', lnk='⚽ Fußball heute im TV', ch='Sender', src='Quellen', note='Ohne Gewähr – Zeiten und Sender laut Programmangaben der Sender; Änderungen möglich.'),
+       'en': dict(h='Football on TV today', lnk='⚽ Football on TV today', ch='Channel', src='Sources', note='No guarantee – times and channels as announced by the broadcasters; subject to change.')}
+def tv_today():
+    try:
+        import zoneinfo; return datetime.datetime.now(zoneinfo.ZoneInfo('Europe/Berlin')).date().isoformat()
+    except Exception: return (datetime.datetime.utcnow() + datetime.timedelta(hours=1)).date().isoformat()
+def tv_load(d=None):
+    fp = os.path.join(HERE, 'content', 'tv', f'{d or tv_today()}.json')
+    return json.load(open(fp, encoding='utf-8')) if os.path.exists(fp) else None
+def tv_rows(l):
+    tv = tv_load()
+    if not tv: return []
+    out = []
+    for x in sorted(tv.get('items', []), key=lambda x: x.get('time', '')):
+        if l == 'en': ch = '; '.join(f'{c}: {", ".join(x[c.lower()])}' for c in ('DE', 'BG') if x.get(c.lower()))
+        else: ch = ', '.join(x.get(l, []))
+        if ch: out.append((x.get('time', ''), bx_t(x.get('comp', ''), l), bx_t(x.get('m', ''), l), ch))
+    return out
+def tv_block(l):
+    rows = tv_rows(l)
+    if not rows: return ''
+    u = TVU[l]; tv = tv_load()
+    srcs = ' · '.join(f'<a href="{e(x["u"])}" rel="noopener nofollow" target="_blank">{e(x["n"])}</a>' for x in tv.get('src', []))
+    tr = ''.join(f'<tr><td class="fb-when">{e(t)}</td><td class="tv-m"><b>{e(m)}</b><span class="tv-c">{e(c)}</span></td><td class="fb-note tv-ch">{e(ch)}</td></tr>' for t, c, m, ch in rows)
+    return (f'<section class="tv-box" id="tv"><h2 class="gp-h">📺 {e(u["h"])} · {short_date(tv["date"], l)}</h2><div class="tbl-wrap"><table class="fb-m tv-t"><tbody>{tr}</tbody></table></div>'
+            f'<p class="fb-ko">{e(u["note"])}' + (f' {e(u["src"])}: {srcs}' if srcs else '') + '</p></section>')
+
+# ---- Service-Leiste (Startseite): Wetter + EZB-Kurse, per terra.js aus /api/svc
+SVCU = {'bg': dict(wx='Времето', fx='Курс на еврото', cr='Времето: MET Norway (CC BY 4.0) · Курсове: ЕЦБ, референтни курсове от', cities={'sofia': 'София', 'plovdiv': 'Пловдив', 'varna': 'Варна', 'burgas': 'Бургас', 'berlin': 'Берлин', 'muenchen': 'Мюнхен', 'frankfurt': 'Франкфурт', 'hamburg': 'Хамбург'}, order=['sofia', 'plovdiv', 'varna', 'burgas', 'berlin', 'muenchen', 'frankfurt', 'hamburg']),
+        'de': dict(wx='Wetter', fx='Euro-Kurse', cr='Wetter: MET Norway (CC BY 4.0) · Kurse: EZB-Referenzkurse vom', cities={'sofia': 'Sofia', 'plovdiv': 'Plowdiw', 'varna': 'Warna', 'burgas': 'Burgas', 'berlin': 'Berlin', 'muenchen': 'München', 'frankfurt': 'Frankfurt', 'hamburg': 'Hamburg'}, order=['berlin', 'muenchen', 'frankfurt', 'hamburg', 'sofia', 'plovdiv', 'varna', 'burgas']),
+        'en': dict(wx='Weather', fx='Euro rates', cr='Weather: MET Norway (CC BY 4.0) · Rates: ECB euro reference rates of', cities={'sofia': 'Sofia', 'plovdiv': 'Plovdiv', 'varna': 'Varna', 'burgas': 'Burgas', 'berlin': 'Berlin', 'muenchen': 'Munich', 'frankfurt': 'Frankfurt', 'hamburg': 'Hamburg'}, order=['berlin', 'muenchen', 'frankfurt', 'hamburg', 'sofia', 'plovdiv', 'varna', 'burgas'])}
+MRU = {'bg': 'Най-четени', 'de': 'Meistgelesen', 'en': 'Most read'}
+def svc_strip(l):
+    u = SVCU[l]
+    tv = f'<a class="svc-tv" href="{sub_url("sport", "fussball", l)}#tv">{e(TVU[l]["lnk"])} →</a>' if tv_rows(l) else ''
+    return (f'<section class="svc" id="svc" data-tx="{e(json.dumps(u, ensure_ascii=False))}" hidden><div class="svc-row"><span class="svc-l">{e(u["wx"])}</span><span class="svc-wx"></span></div>'
+            f'<div class="svc-row"><span class="svc-l">{e(u["fx"])}</span><span class="svc-fx"></span>{tv}</div><p class="svc-cr"></p></section>')
+
+# ---- Meistgelesen (Cloudflare Web Analytics, analytics/YYYY-MM-DD.json; Artikelaufrufe aller Sprachen der letzten 3 Tage)
+def most_read(items_l, l, latest_date, n=5):
+    views = {}
+    for fp in sorted(glob.glob(os.path.join(HERE, 'analytics', '20*.json')))[-3:]:
+        try: d = json.load(open(fp, encoding='utf-8'))
+        except Exception: continue
+        for p in d.get('paths', []):
+            m = re.search(r'/(\d{4})/(\d{2})/(\d{2})/([^/]+?)(?:\.html)?/?$', p.get('k', ''))
+            if m: k = (f'{m[1]}-{m[2]}-{m[3]}', m[4]); views[k] = views.get(k, 0) + p.get('views', 0)
+    lim = (datetime.date.fromisoformat(latest_date) - datetime.timedelta(days=4)).isoformat()
+    idx = {(it['date'], it['id']): it for it in items_l if it['date'] >= lim and it['s'] != 'business'}
+    top = sorted([(v, idx[k]) for k, v in views.items() if k in idx and v > 0], key=lambda x: (-x[0], x[1]['date'], x[1]['time']))
+    return [it for v, it in top[:n]] if len(top) >= 3 else []
+
 def fb_overview(l, today, news_html, others):
     f = FBU[l]; title = f'{SEC[l]["sport"][0]} · {SUB[l]["fussball"][0]}'
     seasons = sorted({FB[k]['season'] for k in FB})
     cards = ''.join(fb_league_card(k, l, today) for k in fb_order(l) if k in FB)
     return (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(title)}</h1><span class="gp-date">{e(f["season"])} {e(" / ".join(seasons))}</span></div>'
-            f'<div class="gp-main"><div class="gp-panel">{live_box(l, "club")}<h2 class="gp-h">{e(f["leagues"])}</h2><div class="fb-grid">{cards}</div>{grid_cr([(FB[k]["name"][l], FB_IMG.get(k)) for k in fb_order(l) if k in FB], l)}{news_html}</div>'
+            f'<div class="gp-main"><div class="gp-panel">{live_box(l, "club")}{tv_block(l)}<h2 class="gp-h">{e(f["leagues"])}</h2><div class="fb-grid">{cards}</div>{grid_cr([(FB[k]["name"][l], FB_IMG.get(k)) for k in fb_order(l) if k in FB], l)}{news_html}</div>'
             f'<aside class="sec-side"><h2 class="list-h">{e(UI[l]["more"] if False else {"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
 
 def fb_league_page(k, l, today, others):
@@ -847,7 +901,7 @@ def nl_overview(l, today, news, hls, others):
     srcs = ' · '.join(f'<a href="{e(x["u"])}" rel="noopener nofollow" target="_blank">{e(x["n"])}</a>' for x in NL.get('src', []))
     html = (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(title)}</h1><span class="gp-date">{e(u["name"])} {e(NL.get("season", ""))}</span></div>'
             f'<div class="gp-main"><div class="gp-panel">')
-    html += live_box(l, 'nat') + f'<h2 class="gp-h">{e(u["ger"])}</h2>{nl_dfb_rows(l)}'
+    html += live_box(l, 'nat') + tv_block(l) + f'<h2 class="gp-h">{e(u["ger"])}</h2>{nl_dfb_rows(l)}'
     if a2: html += f'<h2 class="gp-h">{e(u["name"])} · {e(nl_gname(a2, l))}</h2>{nl_table(nl_lg(a2, l), l, nt("Deutschland", l))}'
     html += nl_window(l, today, True) + nl_window(l, today, False)   # Nedys Vorgabe: Ergebnisse und nächste Spiele ALLER Gruppen
     if news: html += f'<h2 class="gp-h">{e(u["news"])}</h2>{bx_news_grid(news, l)}'
@@ -957,7 +1011,7 @@ def sport_overview(l, its, s, others):
                   f'<div class="fb-card-txt"><p class="fb-lead"><b>{min(nt, SP_LIMIT.get(k, 6))}</b> {e(f["n"])}</p><span class="gr-more">{e(f["open"])}</span></div></a></article>')
         if top: news += f'<h2 class="gp-h">{e(f["news"][k])} <a class="sp-all" href="{sub_url(s, k, l)}">{e(f["all"])}</a></h2>{bx_news_grid(top, l)}'
     return (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(SEC[l][s][0])}</h1>{gp_slogan(l)}</div>'
-            f'<div class="gp-main"><div class="gp-panel"><h2 class="gp-h">{e(f["subs"])}</h2><div class="fb-grid sp-grid">{cards}</div>{grid_cr([(SUB[l][k][0], SP_IMG.get(k)) for k in SUBS[s]], l)}{news}</div>'
+            f'<div class="gp-main"><div class="gp-panel">{tv_block(l) if s == "sport" else ""}<h2 class="gp-h">{e(f["subs"])}</h2><div class="fb-grid sp-grid">{cards}</div>{grid_cr([(SUB[l][k][0], SP_IMG.get(k)) for k in SUBS[s]], l)}{news}</div>'
             f'<aside class="sec-side"><h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
 
 def bx_news_grid(items, l):
@@ -1030,6 +1084,7 @@ TICKER = {}
 GTRL = {'bg': 'Трейлъри към ревютата', 'de': 'Trailer zu den Reviews', 'en': 'Review trailers'}
 KEEP_DAYS = {'welt': 3, 'europa': 3, 'deutschland': 3, 'bulgarien': 3, 'klima': 5, 'leben': 5, 'wirtschaft': 5, 'energie': 5, 'ki': 5, 'ai': 5, 'games': 5, 'film': 5, 'musik': 5, 'sport': 5, 'auto': 7}   # Rubrikseite zeigt nur die letzten N Ausgabetage
 ALL_L = {'bg': 'Всички', 'de': 'Alle', 'en': 'All'}
+GPREF = {'bg': 'Добавете TWN като предпочитан източник в Google', 'de': 'TWN in Google als bevorzugte Quelle', 'en': 'Add TWN as a preferred source on Google'}
 WXT = {'bg': 'Времето: MET Norway (CC BY 4.0)', 'de': 'Wetterdaten: MET Norway (CC BY 4.0)', 'en': 'Weather data: MET Norway (CC BY 4.0)'}
 BIZ = {}   # Datum -> Business-Datei
 ARCH = {}            # Artikel älter als STATIC_DAYS: gebündelt in /_arch/<l>/<datum>/<bucket>.json, ausgeliefert von functions/
@@ -1152,9 +1207,10 @@ def build():
                    f'<div class="cards">{"".join(card(it, l) for it in cur)}</div></section>')
         _exl = sorted([it for it in items_l if it.get('ex') and it['date'] >= (datetime.date.fromisoformat(latest['date']) - datetime.timedelta(days=7)).isoformat()], key=lambda x: (x['date'], x['time']), reverse=True)
         exh = ex_block(_exl[0], l) if _exl else ''
-        body = bkh + exh + (f'<section class="lead"><div class="lead-main"><a href="{art_url(lead, l)}">{plate(lead, l, eager=True)}</a>{kick(lead, l, e(u["lead"]) + " · ")}'
+        popular = ''.join(f'<div class="rank"><span class="n">{i + 1}</span>{rthumb(it)}<a href="{art_url(it, l)}">{kick(it, l)}<h3>{e(it[l]["t"])}</h3></a></div>' for i, it in enumerate(most_read(items_l, l, latest['date'])))
+        body = bkh + exh + svc_strip(l) + (f'<section class="lead"><div class="lead-main"><a href="{art_url(lead, l)}">{plate(lead, l, eager=True)}</a>{kick(lead, l, e(u["lead"]) + " · ")}'
                 f'<a href="{art_url(lead, l)}"><h1>{e(lead[l]["t"])}</h1></a><p class="dek">{e(lead[l]["d"])}</p><span class="src">{u["src"]}: {e(SNAMES(lead["src"]))}</span></div>'
-                f'<div class="ranked"><h2 class="rh">{e(u["most"])}</h2>{ranked}</div></section>{vband}{rails}')
+                + (f'<div class="ranked rk-tabs"><input type="radio" name="rk" id="rk1" checked><input type="radio" name="rk" id="rk2"><h2 class="rh rk-h"><label for="rk1">{e(u["most"])}</label><label for="rk2">{e(MRU[l])}</label></h2><div class="rk-p rk-p1">{ranked}</div><div class="rk-p rk-p2">{popular}</div></div>' if popular else f'<div class="ranked"><h2 class="rh">{e(u["most"])}</h2>{ranked}</div>') + f'</section>{vband}{rails}')
         alts = {x: pre(x) for x in act}
         ld = {"@context": "https://schema.org", "@graph": [ORG, {"@type": "WebSite", "@id": SITE + "/#website", "url": SITE + "/", "name": "TWN World News", "alternateName": ["TWN", "Terra World News", "TERRA WORLD NEWS"], "publisher": {"@id": SITE + "/#org"}, "inLanguage": act},
               {"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": SITE + art_url(it, l)} for i, it in enumerate([lead] + rest)]}, site_nav(l)]}

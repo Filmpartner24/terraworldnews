@@ -11,6 +11,22 @@
         var ic=/thunder/.test(s)?'⛈':/snow/.test(s)?'❄':/sleet/.test(s)?'🌨':/rain/.test(s)?'🌧':/fog/.test(s)?'🌫':/^cloudy/.test(s)?'☁':/partlycloudy/.test(s)?'⛅':/fair/.test(s)?(n?'☾':'🌤'):/clearsky/.test(s)?(n?'☾':'☀'):'';
         ew.innerHTML='<span class="wi" aria-hidden="true">'+ic+'</span>'+(d.t>0?'':d.t<0?'−':'')+Math.abs(d.t)+' °C';}
     }).catch(function(){});})();
+  /* Service-Leiste der Startseite: Wetter in BG/DE-Städten + EZB-Euro-Kurse (Daten: /api/svc) */
+  (function(){var sv=document.getElementById('svc');if(!sv||!window.fetch)return;var tx;try{tx=JSON.parse(sv.dataset.tx)}catch(e){return}
+    function ic(s){var n=/_night/.test(s);return /thunder/.test(s)?'⛈':/snow/.test(s)?'❄':/sleet/.test(s)?'🌨':/rain/.test(s)?'🌧':/fog/.test(s)?'🌫':/^cloudy/.test(s)?'☁':/partlycloudy/.test(s)?'⛅':/fair/.test(s)?(n?'☾':'🌤'):/clearsky/.test(s)?(n?'☾':'☀'):''}
+    function nf(v,d){try{return new Intl.NumberFormat(loc,{minimumFractionDigits:d,maximumFractionDigits:d}).format(v)}catch(e){return v.toFixed(d)}}
+    fetch('/api/svc',{credentials:'omit'}).then(function(r){return r.ok?r.json():null}).then(function(d){if(!d)return;var ok=false;
+      var by={};(d.wx||[]).forEach(function(w){by[w.c]=w});
+      var wh=tx.order.filter(function(c){return by[c]&&typeof by[c].t==='number'}).map(function(c){var w=by[c];return '<span>'+tx.cities[c]+' <b><span aria-hidden="true">'+ic(w.sym||'')+'</span> '+(w.t<0?'−':'')+Math.abs(w.t)+'°</b></span>'}).join(' · ');
+      if(wh){sv.querySelector('.svc-wx').innerHTML=wh;ok=true}else{sv.querySelector('.svc-wx').parentNode.hidden=true}
+      var cr='';
+      if(d.fx&&d.fx.rates){var r=d.fx.rates,ks=['USD','GBP','CHF','TRY','RON','PLN','JPY'].filter(function(k){return r[k]});
+        sv.querySelector('.svc-fx').innerHTML='1 € = '+ks.map(function(k){return '<span><b>'+nf(r[k],k==='JPY'?1:(r[k]>=10?2:4))+'</b> '+k+'</span>'}).join(' · ');ok=true;
+        var p=d.fx.date.split('-');cr=' '+p[2]+'.'+p[1]+'.'+p[0];}
+      else{sv.querySelector('.svc-fx').textContent=''}
+      sv.querySelector('.svc-cr').textContent=cr?tx.cr+cr:tx.cr.split(' · ')[0];
+      if(ok)sv.hidden=false;
+    }).catch(function(){});})();
   /* Laufbänder: feste Lesegeschwindigkeit (Pixel pro Sekunde), unabhängig von Gerät und Textlänge.
      Breite erst messen, wenn Schriften und Layout fertig sind; bei Änderung Animation sauber neu starten (iOS). */
   document.querySelectorAll('.ticker .tk-move').forEach(function(tk){var tb=tk.closest('.ticker'),pb=tb.querySelector('.tk-pause'),last=0;

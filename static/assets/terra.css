@@ -872,3 +872,33 @@ a.ex-more{text-decoration:none}
 .nl-grow a{color:inherit;text-decoration:none}
 .nl-gh{margin:1.6rem 0 .6rem;font-family:var(--head);font-size:1.15rem;text-transform:uppercase;letter-spacing:.03em;color:#fff}
 .nl-gh a{color:inherit;text-decoration:none;border-bottom:2px solid #e85d04}
+/* Neueste / Meistgelesen (Reiter, ohne JS) */
+.rk-tabs{position:relative}
+.rk-tabs>input{position:absolute;opacity:0;pointer-events:none}
+.ranked h2.rk-h{display:flex;gap:18px;flex-wrap:wrap;align-items:baseline}
+.rk-h label{cursor:pointer;opacity:.38;transition:opacity .15s}
+#rk1:checked~.rk-h label[for=rk1],#rk2:checked~.rk-h label[for=rk2]{opacity:1}
+#rk1:focus-visible~.rk-h label[for=rk1],#rk2:focus-visible~.rk-h label[for=rk2]{outline:2px solid #d4161c;outline-offset:3px}
+.rk-p2{display:none}
+#rk2:checked~.rk-p1{display:none}
+#rk2:checked~.rk-p2{display:grid}
+.rk-p{gap:0;align-content:start}
+.rk-p1{display:grid}
+@media (min-width:821px){.ranked h2.rk-h{font-size:26px}}
+/* Service-Leiste */
+.svc{margin:0 0 18px;padding:10px 14px;border:1px solid var(--rule);border-left:4px solid #d4161c;background:#fafafa;font-size:14px;line-height:1.5}
+.svc-row{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline}
+.svc-row+.svc-row{margin-top:4px}
+.svc-l{font-family:var(--head);font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:#d4161c;min-width:7.5em}
+.svc-wx span,.svc-fx span{white-space:nowrap}
+.svc-wx b,.svc-fx b{font-weight:700}
+.svc-tv{margin-left:auto;font-weight:700;color:#d4161c;text-decoration:none;white-space:nowrap}
+.svc-tv:hover{text-decoration:underline}
+.svc-cr{margin:6px 0 0;font-size:11px;color:var(--muted)}
+@media (max-width:600px){.svc-l{min-width:0;width:100%}.svc-tv{margin-left:0}}
+/* Fußball heute im TV */
+.tv-box{margin:0 0 1.4rem}
+.tv-t .tv-m b{display:block}
+.tv-t .tv-c{font-size:.75rem;opacity:.7}
+.tv-t td.tv-ch{white-space:normal;min-width:160px}
+footer a.g-pref{font-weight:700}
