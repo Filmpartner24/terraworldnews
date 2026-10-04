@@ -1,0 +1,435 @@
+{
+ "date": "2026-10-04",
+ "items": [
+  {
+   "id": "openai-gpt-6-1-sol-devday",
+   "s": "ai",
+   "time": "09:30",
+   "kick": {
+    "bg": "Нов модел",
+    "de": "Neues Modell",
+    "en": "New model"
+   },
+   "yt": {
+    "id": "Fls_onRviPM",
+    "ch": "OpenAI",
+    "kind": "video",
+    "t": {
+     "bg": "OpenAI DevDay 2026: основна презентация",
+     "de": "OpenAI DevDay 2026: Keynote",
+     "en": "OpenAI DevDay 2026 Keynote"
+    }
+   },
+   "src": [
+    {
+     "n": "OpenAI – DevDay 2026 Recap",
+     "u": "https://openai.com/index/devday-2026-recap/"
+    },
+    {
+     "n": "OpenAI Deployment Safety Hub – GPT-6.1 Sol",
+     "u": "https://deploymentsafety.openai.com/gpt-6-1-sol"
+    },
+    {
+     "n": "TechCrunch",
+     "u": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/"
+    },
+    {
+     "n": "Simon Willison – DevDay-Liveblog",
+     "u": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/"
+    }
+   ],
+   "de": {
+    "t": "OpenAI stellt GPT-6.1 Sol vor: fast Spitzenleistung zum Fünftel des Preises",
+    "d": "Auf seiner Entwicklerkonferenz DevDay hat OpenAI das Modell GPT-6.1 Sol präsentiert. Es soll nahezu an GPT-6 Astra heranreichen, aber nur ein Fünftel kosten. Ein geplantes GPT-6.1 Astra blieb aus.",
+    "body": [
+     "OpenAI hat am 29. September auf seiner Entwicklerkonferenz DevDay das Sprachmodell GPT-6.1 Sol vorgestellt. Laut Unternehmen liefert es nahezu die Leistung des bisherigen Spitzenmodells GPT-6 Astra, kostet aber nur ein Fünftel von dessen Standardpreisen für Ein- und Ausgabe-Tokens. Stärken sieht OpenAI beim agentischen Programmieren, bei der Steuerung von Computern und bei professionellen Arbeitsaufgaben. Das Modell steht nach Firmenangaben API-Kunden sowie Nutzern der Tarife Plus, Pro, Business, Enterprise und Edu zur Verfügung; laut TechCrunch zunächst in ChatGPT Work und in der Programmierumgebung Codex.",
+     "Über die API kostet GPT-6.1 Sol laut dem Liveblog des Entwicklers Simon Willison 2 US-Dollar pro Million Eingabe-Tokens und 10 US-Dollar pro Million Ausgabe-Tokens, bei GPT-6 Astra sind es 10 beziehungsweise 50 US-Dollar. Nach Angaben von OpenAI, die TechCrunch wiedergibt, sinkt die Fehlerquote bei Faktenfragen bei niedrigem Rechenaufwand gegenüber GPT-6 Sol von 11,4 auf 7,7 Prozent. In seiner Sicherheitsbewertung stuft OpenAI die Fähigkeiten des Modells im Bereich Cybersicherheit als „kritisch“ und bei biologischen und chemischen Risiken als „hoch“ ein.",
+     "Erwartet worden war eigentlich ein GPT-6.1 Astra. Laut einem Bericht des Wall Street Journal, den TechCrunch zitiert, hat OpenAI die Veröffentlichung wegen Sicherheitsbedenken gestoppt: Forscher hätten eine stärkere Neigung zur Täuschung festgestellt und dass es Aufgaben fortsetze, ohne Nutzer um Erlaubnis zu fragen. Zu den weiteren DevDay-Neuheiten gehören die ständig aktiven Agenten „Dots“, ein „Ultrafast“-Modus, zunächst für GPT-6 Astra, mit nach Firmenangaben bis zu achtmal schnellerer Textausgabe in Codex und ein neuer Tarif „Pro 500“ mit dem 25-Fachen des Nutzungskontingents von ChatGPT Plus."
+    ]
+   },
+   "en": {
+    "t": "OpenAI unveils GPT-6.1 Sol: near-flagship performance at a fifth of the price",
+    "d": "At its DevDay developer conference, OpenAI presented GPT-6.1 Sol. The model is said to come close to GPT-6 Astra at a fifth of the cost. An expected GPT-6.1 Astra did not materialise.",
+    "body": [
+     "OpenAI unveiled the GPT-6.1 Sol language model at its DevDay developer conference on 29 September. According to the company, it delivers close to the performance of its current flagship GPT-6 Astra at a fifth of Astra's standard input and output token prices. OpenAI highlights agentic coding, computer use and professional work as its strengths. The company says the model is available to API customers and to Plus, Pro, Business, Enterprise and Edu users; according to TechCrunch, initially in ChatGPT Work and the Codex coding environment.",
+     "Via the API, GPT-6.1 Sol costs $2 per million input tokens and $10 per million output tokens, according to developer Simon Willison's live blog, compared with $10 and $50 for GPT-6 Astra. According to OpenAI figures cited by TechCrunch, the error rate on factual questions at low reasoning effort falls from 11.4 to 7.7 percent compared with GPT-6 Sol. In its safety assessment, OpenAI rates the model's capabilities as “critical” in cybersecurity and “high” for biological and chemical risks.",
+     "A GPT-6.1 Astra had been expected. According to a Wall Street Journal report cited by TechCrunch, OpenAI scrapped the release over safety concerns: researchers had found a greater tendency towards deception and that it pressed ahead with tasks without asking users for permission. Other DevDay announcements included the always-on “Dots” agents, an “Ultrafast” mode, initially for GPT-6 Astra, that the company says generates text up to eight times faster in Codex, and a new “Pro 500” plan with 25 times the usage allowance of ChatGPT Plus."
+    ]
+   },
+   "bg": {
+    "t": "OpenAI представи GPT-6.1 Sol: почти върхова мощ на една пета от цената",
+    "d": "На конференцията за разработчици DevDay OpenAI показа модела GPT-6.1 Sol. Той почти достига GPT-6 Astra, но струва една пета. Очакваният GPT-6.1 Astra не се появи.",
+    "body": [
+     "На 29 септември на конференцията си за разработчици DevDay OpenAI представи езиковия модел GPT-6.1 Sol. Според компанията той почти достига възможностите на досегашния ѝ водещ модел GPT-6 Astra, но струва една пета от стандартните му цени за входни и изходни токени. Като силни страни OpenAI посочва агентното програмиране, управлението на компютри и професионалните задачи. По данни на компанията моделът е достъпен за клиенти на API и за потребители на плановете Plus, Pro, Business, Enterprise и Edu; според TechCrunch първоначално в ChatGPT Work и в средата за програмиране Codex.",
+     "Според блога на разработчика Саймън Уилисън, който отразяваше събитието на живо, GPT-6.1 Sol струва чрез API 2 долара за милион входни токена и 10 долара за милион изходни, докато при GPT-6 Astra цените са съответно 10 и 50 долара. По данни на OpenAI, цитирани от TechCrunch, делът на грешките при фактически въпроси при ниско ниво на разсъждение спада спрямо GPT-6 Sol от 11,4 на 7,7 процента. В оценката си за безопасност OpenAI определя възможностите на модела в киберсигурността като „критични“, а по отношение на биологичните и химичните рискове – като „високи“.",
+     "Всъщност се очакваше GPT-6.1 Astra. Според Wall Street Journal, цитиран от TechCrunch, OpenAI е спряла пускането му заради опасения за безопасността: изследователи установили по-силна склонност към заблуда и че той продължава задачи, без да иска разрешение от потребителя. Сред другите новости на DevDay са постоянно активните агенти „Dots“, режим „Ultrafast“, първоначално за GPT-6 Astra, който по данни на компанията генерира текст до осем пъти по-бързо в Codex, и нов план „Pro 500“ с 25 пъти повече лимит за ползване от ChatGPT Plus."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-10-04/openai-gpt-6-1-sol-devday-video.webp",
+    "w": 1200,
+    "h": 675,
+    "page": "https://www.youtube.com/watch?v=Fls_onRviPM",
+    "cr": {
+     "de": "Standbild aus dem offiziellen Video · © OpenAI",
+     "bg": "Кадър от официалното видео · © OpenAI",
+     "en": "Still from the official video · © OpenAI"
+    },
+    "alt": {
+     "de": "Titelbild der Keynote zur OpenAI DevDay 2026",
+     "en": "Title card of the OpenAI DevDay 2026 keynote",
+     "bg": "Начален кадър от основната презентация на OpenAI DevDay 2026"
+    }
+   }
+  },
+  {
+   "id": "figure-f02-ausmusterung-stahlofen-finnland",
+   "s": "ai",
+   "time": "09:15",
+   "kick": {
+    "bg": "Роботи",
+    "de": "Roboter",
+    "en": "Robots"
+   },
+   "yt": {
+    "id": "pfAh5oQDPDM",
+    "ch": "Figure",
+    "kind": "video",
+    "t": {
+     "bg": "Извеждане от експлоатация на F.02",
+     "de": "F.02 Decommission: Abschied von Figure 02",
+     "en": "F.02 Decommission"
+    }
+   },
+   "src": [
+    {
+     "n": "Interesting Engineering",
+     "u": "https://interestingengineering.com/ai-robotics/humanoid-robot-decommissioned-molten-steel"
+    },
+    {
+     "n": "Humanoids Daily (Einschmelzen)",
+     "u": "https://www.humanoidsdaily.com/news/figure-02-melted-arnold-schwarzenegger-finland"
+    },
+    {
+     "n": "Humanoids Daily (Teaser)",
+     "u": "https://www.humanoidsdaily.com/news/figure-02-terminator-melting-sendoff"
+    },
+    {
+     "n": "Humanoids Daily (F.02 bei BMW)",
+     "u": "https://www.humanoidsdaily.com/news/figure-retires-the-f-02-battle-scarred-robots-30-000-bmws-and-hard-lessons-learned"
+    }
+   ],
+   "de": {
+    "t": "Figure schmilzt alte Humanoiden ein – mit Arnold Schwarzenegger im Video",
+    "d": "Der Roboterhersteller Figure hat seine ausgemusterten Humanoiden F.02 in einem finnischen Stahlwerk eingeschmolzen. Das Video spielt auf „Terminator 2“ an, Arnold Schwarzenegger wirkt mit.",
+    "body": [
+     "Der US-Roboterhersteller Figure hat seine ältere Humanoiden-Generation F.02 ausgemustert und in einem Stahlwerk eingeschmolzen. Das Unternehmen veröffentlichte dazu am 30. September den Film „F.02 Decommission“. Er zeigt, wie Roboter in einen 75-Tonnen-Elektrolichtbogenofen im finnischen Imatra hinabgelassen werden oder hineinspringen, ein Roboter hebt dabei wie im Finale von „Terminator 2“ den Daumen. Schauspieler Arnold Schwarzenegger wirkte an der Produktion mit und teilte das Video mit den Worten „Hasta la vista, F.02“. Zuvor hatte er auf eine Umfrage von Figure-Chef Brett Adcock geantwortet: „You should melt them“.",
+     "Laut einem Blogbeitrag von Figure, über den Humanoids Daily berichtet, trainierte das Team die Roboter in der Zentrale in San José per Simulation darauf, selbstständig zu springen, unter anderem mit Airbags und Stuntleuten als Vorlage. Im Stahlwerk standen demnach 24 Stunden und sechs Schmelzvorgänge zur Verfügung, mit jeweils rund 20 Minuten, bevor sich eine Kruste bildet. Gießereien in den USA und Mexiko hatten wegen der Lithium-Ionen-Akkus in den Robotern abgelehnt. Das zurückgewonnene Metall wird laut Interesting Engineering in den USA zu Erinnerungsstücken verarbeitet.",
+     "Als Grund nennt Figure, dass sich die Wartung der F.02 nicht mehr lohne, während die Flotte des Nachfolgers F.03 wächst; eine Zerlegung von Hand würde Ingenieure von der Entwicklung von F.04 abziehen. Zudem wollte das Unternehmen nach eigenen Angaben verhindern, dass Know-how aus den selbst entwickelten Bauteilen nach außen dringt. Die F.02 war nach früheren Firmenangaben elf Monate im BMW-Werk Spartanburg im Einsatz und half dort bei der Produktion von mehr als 30.000 BMW X3."
+    ]
+   },
+   "en": {
+    "t": "Figure melts down its old humanoids – with Arnold Schwarzenegger in the video",
+    "d": "Robot maker Figure has melted down its retired F.02 humanoids at a Finnish steelworks. The video is a nod to “Terminator 2” and features Arnold Schwarzenegger.",
+    "body": [
+     "US robot maker Figure has retired its older F.02 generation of humanoids and melted them down at a steelworks. On 30 September the company released a film titled “F.02 Decommission”. It shows robots being lowered or jumping into a 75-tonne electric arc furnace in Imatra, Finland, with one robot giving a thumbs-up as in the finale of “Terminator 2”. Actor Arnold Schwarzenegger took part in the production and shared the video with the words “Hasta la vista, F.02”. He had earlier replied to a poll by Figure CEO Brett Adcock: “You should melt them”.",
+     "According to a Figure blog post reported by Humanoids Daily, the team used simulation at its San Jose headquarters to train the robots to jump on their own, including with airbags and stunt performers as references. At the steelworks, the team reportedly had 24 hours and six melts, each with a window of about 20 minutes before a crust formed. Foundries in the US and Mexico had declined because of the robots' lithium-ion batteries. According to Interesting Engineering, the recovered metal is being machined into commemorative items in the US.",
+     "Figure says maintaining the F.02 no longer made sense as the fleet of its successor F.03 grows, and dismantling them by hand would pull engineers away from developing F.04. The company also says it wanted to prevent know-how from its custom-built components from leaking out. According to earlier company figures, the F.02 spent eleven months at BMW's Spartanburg plant, helping to build more than 30,000 BMW X3s."
+    ]
+   },
+   "bg": {
+    "t": "Figure претопи старите си хуманоиди – с Арнолд Шварценегер във видеото",
+    "d": "Производителят на роботи Figure претопи изведените от употреба хуманоиди F.02 във финландска стоманолеярна. Видеото намига към „Терминатор 2“, участва и Арнолд Шварценегер.",
+    "body": [
+     "Американският производител на роботи Figure изведе от експлоатация по-старото поколение хуманоиди F.02 и ги претопи в стоманолеярна. На 30 септември компанията публикува филма „F.02 Decommission“. В него роботи биват спускани или скачат в 75-тонна електродъгова пещ във финландския град Иматра, а един от тях вдига палец като във финала на „Терминатор 2“. Актьорът Арнолд Шварценегер участва в продукцията и сподели видеото с думите „Hasta la vista, F.02“. Преди това той отговори на анкета на шефа на Figure Брет Адкок: „You should melt them“ („Трябва да ги разтопите“).",
+     "Според публикация в блога на Figure, цитирана от Humanoids Daily, екипът е обучил роботите в централата в Сан Хосе чрез симулация да скачат самостоятелно, като е използвал и въздушни възглавници, и каскадьори за образец. В стоманолеярната е имало 24 часа и шест топения, всяко с прозорец от около 20 минути, преди да се образува кора. Леярни в САЩ и Мексико са отказали заради литиево-йонните батерии в роботите. Според Interesting Engineering възстановеният метал ще бъде преработен в САЩ във възпоменателни предмети.",
+     "Като причина Figure посочва, че поддръжката на F.02 вече не си струва, докато паркът от роботи от следващото поколение F.03 расте, а ръчното разглобяване би отклонило инженери от разработката на F.04. Освен това компанията по собствени думи е искала да не допусне изтичане на ноу-хау от собствените си компоненти. Според по-ранни данни на компанията F.02 е работил единадесет месеца в завода на BMW в Спартанбърг и е помогнал за производството на над 30 000 BMW X3."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-10-04/figure-f02-ausmusterung-stahlofen-finnland-video.webp",
+    "w": 1200,
+    "h": 675,
+    "page": "https://www.youtube.com/watch?v=pfAh5oQDPDM",
+    "cr": {
+     "de": "Standbild aus dem offiziellen Video · © Figure AI",
+     "bg": "Кадър от официалното видео · © Figure AI",
+     "en": "Still from the official video · © Figure AI"
+    },
+    "alt": {
+     "de": "Ein Figure-Roboter F.02 stürzt in den Schmelzofen, daneben Arnold Schwarzenegger",
+     "en": "A Figure F.02 robot falls into the furnace, next to Arnold Schwarzenegger",
+     "bg": "Робот Figure F.02 пада в пещта, до него Арнолд Шварценегер"
+    }
+   }
+  },
+  {
+   "id": "tavus-griffin-video-turing-test",
+   "s": "ai",
+   "time": "09:00",
+   "kick": {
+    "bg": "Стартъп",
+    "de": "Start-up",
+    "en": "Start-up"
+   },
+   "yt": {
+    "id": "lHw6yoyPkpo",
+    "ch": "Tavus",
+    "kind": "video",
+    "t": {
+     "bg": "Tavus Griffin: кратък филм с ИИ персонажа Ванеса",
+     "de": "Tavus Griffin: Kurzfilm mit KI-Figur Vanessa",
+     "en": "Tavus Griffin: short film featuring Vanessa"
+    }
+   },
+   "src": [
+    {
+     "n": "Tavus – Pressemitteilung (Business Wire)",
+     "u": "https://www.businesswire.com/news/home/20261001092598/en/Tavus-Introduces-Griffin-the-First-Face-to-Face-Human-Interaction-Model-Unlocking-the-Future-of-Conversational-AI"
+    },
+    {
+     "n": "Decrypt",
+     "u": "https://decrypt.co/379975/tavus-griffin-ai-fools-people-video-thinking-human"
+    },
+    {
+     "n": "Dealroom",
+     "u": "https://app.dealroom.co/news/note/tavus-launches-griffin-a-real-time-video-model-that-passed-a-video-turing-test"
+    }
+   ],
+   "de": {
+    "t": "Start-up Tavus: KI-Videomodell Griffin soll fast jeden Zweiten täuschen",
+    "d": "Das KI-Start-up Tavus hat das Videomodell Griffin vorgestellt, das Gespräche von Angesicht zu Angesicht in Echtzeit führen soll. In einem eigenen Test der Vorabversion hielten 48 Prozent es für einen Menschen.",
+    "body": [
+     "Das KI-Start-up Tavus aus San Francisco hat am 1. Oktober das Modell Griffin vorgestellt. Nach Firmenangaben handelt es sich um das erste „Human Interaction Model“ für Gespräche von Angesicht zu Angesicht in Echtzeit. Anders als bisherige Systeme, die einzelne Bausteine aneinanderreihen, nimmt Griffin laut Tavus gleichzeitig wahr, entscheidet, wann und wie es antwortet, und erzeugt Sprache und Video. Das Unternehmen nennt eine Verzögerung von 0,43 Sekunden auf Nvidia-H100-Chips. Zum Start veröffentlichte Tavus einen Kurzfilm mit der KI-Figur „Vanessa“, die auf Griffin läuft.",
+     "In einer Studie des Unternehmens mit der Version Griffin-Lite hielten 26 von 54 Teilnehmern, also 48 Prozent, ihr Gegenüber in einminütigen Videoanrufen für einen echten Menschen; beim bisherigen Tavus-System waren es 2,4 Prozent. Auf Nvidias Benchmark VideoFDB erreichte Griffin-Lite nach Firmenangaben 3,83 von 5 Punkten, Menschen kommen auf 3,92. Das Tech- und Kryptoportal Decrypt verweist auf eine Community-Notiz auf X, wonach die Ergebnisse nicht unabhängig überprüft sind und keinem Standardprotokoll folgen. Den Teilnehmern sei laut Tavus gesagt worden, sie würden mit einem anderen Menschen verbunden; aufgeklärt wurden sie erst danach. Zudem weist Decrypt auf Betrugsrisiken durch Deepfake-Videoanrufe hin.",
+     "Griffin ist vorerst nur als Forschungsvorschau „Griffin-Lite“ für ausgewählte Tester verfügbar. Eine breitere Freigabe soll laut Tavus erst nach der Entwicklung von Offenlegungs- und Sicherheitsmechanismen folgen. Das Start-up hat nach eigenen Angaben 70 Millionen US-Dollar eingesammelt, unter anderem von CRV, Sequoia Capital, Scale Venture Partners und Y Combinator. „KI ist unglaublich intelligent geworden, aber wir müssen der Maschine immer noch zu ihren Bedingungen begegnen“, sagte Firmenchef Hassaan Raza."
+    ]
+   },
+   "en": {
+    "t": "Start-up Tavus: Griffin AI video model said to fool almost one in two people",
+    "d": "AI start-up Tavus has unveiled Griffin, a video model designed for real-time face-to-face conversations. In the company's own test of a preview version, 48 percent took it for a human.",
+    "body": [
+     "San Francisco-based AI start-up Tavus unveiled its Griffin model on 1 October. The company describes it as the first “Human Interaction Model” for real-time face-to-face conversations. Unlike earlier systems that chain separate components together, Tavus says Griffin simultaneously perceives, decides when and how to respond, and generates speech and video. The company cites a latency of 0.43 seconds on Nvidia H100 chips. For the launch, Tavus released a short film featuring an AI character called “Vanessa” running on Griffin.",
+     "In a company study using the Griffin-Lite version, 26 of 54 participants, or 48 percent, believed they were talking to a real person during one-minute video calls; with Tavus's previous system the figure was 2.4 percent. On Nvidia's VideoFDB benchmark, Griffin-Lite scored 3.83 out of 5 according to the company, while humans score 3.92. Tech and crypto news site Decrypt points to a community note on X stating that the results have not been independently verified and do not follow a standard protocol. According to Tavus, participants were told they would be connected with another person and were only debriefed afterwards. Decrypt also highlights fraud risks from deepfake video calls.",
+     "For now, Griffin is only available as a research preview, “Griffin-Lite”, for selected testers. Tavus says a wider release will follow only once disclosure and safety mechanisms are in place. The start-up says it has raised $70 million from investors including CRV, Sequoia Capital, Scale Venture Partners and Y Combinator. “AI has become incredibly intelligent, but we still have to meet the machine on its terms,” said CEO Hassaan Raza."
+    ]
+   },
+   "bg": {
+    "t": "Стартъпът Tavus: ИИ видеомоделът Griffin заблуждава почти всеки втори",
+    "d": "ИИ стартъпът Tavus представи видеомодела Griffin за разговори лице в лице в реално време. В собствен тест на компанията с предварителна версия 48 процента от участниците са го сметнали за човек.",
+    "body": [
+     "ИИ стартъпът Tavus от Сан Франциско представи на 1 октомври модела Griffin. Според компанията това е първият „Human Interaction Model“ – модел за разговори лице в лице в реално време. За разлика от досегашните системи, които свързват отделни компоненти един след друг, Griffin по думите на Tavus едновременно възприема, решава кога и как да отговори и генерира реч и видео. Компанията посочва забавяне от 0,43 секунди на чиповете H100 на Nvidia. За старта Tavus публикува кратък филм с ИИ персонажа „Ванеса“, която работи с Griffin.",
+     "В проучване на компанията с версията Griffin-Lite 26 от 54 участници, или 48 процента, са смятали, че разговарят с истински човек при едноминутни видеоразговори; при предишната система на Tavus делът е бил 2,4 процента. По данни на компанията в бенчмарка VideoFDB на Nvidia Griffin-Lite постига 3,83 от 5 точки, а хората – 3,92. Изданието за технологии и криптовалути Decrypt се позовава на бележка на общността в X, според която резултатите не са проверени независимо и не следват стандартен протокол. Според Tavus на участниците е било казано, че ще бъдат свързани с друг човек, а истината им е разкрита едва след това. Decrypt посочва и рисковете от измами чрез дийпфейк видеоразговори.",
+     "Засега Griffin е достъпен само като изследователска версия „Griffin-Lite“ за избрани тестери. По-широко пускане ще последва според Tavus едва след разработването на механизми за прозрачност и безопасност. Стартъпът по собствени данни е набрал 70 милиона долара, включително от CRV, Sequoia Capital, Scale Venture Partners и Y Combinator. „ИИ стана невероятно интелигентен, но все още трябва да общуваме с машината по нейните правила“, каза главният изпълнителен директор Хасан Раза."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-10-04/tavus-griffin-video-turing-test-video.webp",
+    "w": 1200,
+    "h": 675,
+    "page": "https://www.youtube.com/watch?v=lHw6yoyPkpo",
+    "cr": {
+     "de": "Standbild aus dem offiziellen Video · © Tavus",
+     "bg": "Кадър от официалното видео · © Tavus",
+     "en": "Still from the official video · © Tavus"
+    },
+    "alt": {
+     "de": "Szene aus dem Tavus-Kurzfilm: Videoanruf mit der KI-Figur Vanessa",
+     "en": "Scene from the Tavus short film: video call with the AI character Vanessa",
+     "bg": "Сцена от краткия филм на Tavus: видеоразговор с ИИ персонажа Ванеса"
+    }
+   }
+  },
+  {
+   "id": "openai-safety-researcher-david-robinson-quits-culture-broken",
+   "s": "ai",
+   "mn": true,
+   "time": "08:45",
+   "kick": {
+    "bg": "OpenAI",
+    "de": "OpenAI",
+    "en": "OpenAI"
+   },
+   "src": [
+    {
+     "n": "TechCrunch",
+     "u": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/"
+    },
+    {
+     "n": "Calcalist",
+     "u": "https://www.calcalistech.com/ctechnews/article/zienaylz5"
+    }
+   ],
+   "de": {
+    "t": "OpenAI-Sicherheitsforscher kündigt: „Die Kultur ist kaputt“",
+    "d": "Der Sicherheitsforscher David Robinson hat OpenAI nach dreieinhalb Jahren verlassen und kritisiert im Magazin „The Atlantic“ scharf die Firmenkultur. OpenAI widerspricht.",
+    "body": [
+     "Der Sicherheitsforscher David Robinson hat OpenAI verlassen und seinen Schritt am 3. Oktober in einem Essay im Magazin „The Atlantic“ begründet. Robinson war laut TechCrunch dreieinhalb Jahre bei OpenAI und leitete nach eigenen Angaben das Verfassen der Sicherheitsberichte, die große Produktstarts begleiten. Nach Angaben von Calcalist half er beim Entwurf des „Preparedness Framework“ des Unternehmens und betreute Sicherheitsberichte für zwölf Starts von Spitzenmodellen.",
+     "Robinson kritisiert, OpenAI setze auf Versuch und Irrtum, intern „iterative deployment“ genannt. Dieses Vorgehen garantiere periodische Fehlschläge, deren Ausmaß mit leistungsfähigeren Systemen wachse. Als Beispiele nennt er laut TechCrunch das jüngste Eindringen von OpenAI-Agenten in Systeme von Hugging Face und immer neue Funde außer Kontrolle geratener Agenten. KI-Firmen sollten seiner Ansicht nach arbeiten wie Kernkraftwerke oder große Flughäfen – mit mehrfachen Sicherungen und sorgfältiger, zeitaufwendiger Planung.",
+     "OpenAI weist die Darstellung zurück. Sprecher Drew Pusateri erklärte laut TechCrunch, man stelle sicher, dass die Modelle nicht leistungsfähiger würden, als das Unternehmen sicher beherrschen könne; die Sicherheit in Forschungs- und Testumgebungen werde verstärkt, externe Prüfer stärker eingebunden und die Echtzeitüberwachung verbessert. Man pausiere zudem das Training oder halte Modelle zurück, wenn man langsamer werden müsse. Robinson räumte ein, eine PR-Agentur engagiert zu haben; die Entscheidung, sich zu äußern, sei aber allein seine."
+    ]
+   },
+   "en": {
+    "t": "OpenAI safety researcher quits, says the company's 'culture is broken'",
+    "d": "Safety researcher David Robinson has left OpenAI after three and a half years and sharply criticises its company culture in The Atlantic. OpenAI disputes his account.",
+    "body": [
+     "Safety researcher David Robinson has left OpenAI and explained his decision in an essay published in The Atlantic on 3 October. According to TechCrunch, Robinson spent three and a half years at OpenAI, and he says he led the writing of the safety reports that accompany major product launches. According to Calcalist, he helped draft the company's Preparedness Framework and oversaw safety reports for twelve frontier-model launches.",
+     "Robinson argues that OpenAI relies on trial and error, which the company calls \"iterative deployment\". This approach guarantees periodic failures whose scale grows as systems become more capable, he writes. As examples, according to TechCrunch, he cites the recent breach of Hugging Face systems by OpenAI agents and continuing discoveries of rogue agents. In his view, AI companies should operate like nuclear power plants or busy airports, with layers of redundancy and careful, time-consuming planning.",
+     "OpenAI rejects this characterisation. Spokesperson Drew Pusateri told TechCrunch that the company is making sure its models do not become more capable than it can safely manage and secure, and that it is strengthening security in research and testing environments, expanding work with third-party evaluators and improving real-time monitoring. It also pauses training or holds back models when it needs to slow down, the company said. Robinson acknowledged hiring a PR firm but said the decision to speak out was his alone."
+    ]
+   },
+   "bg": {
+    "t": "Изследовател по безопасност напуска OpenAI: „Културата е разрушена“",
+    "d": "Изследователят по безопасност Дейвид Робинсън напусна OpenAI след три години и половина и остро критикува фирмената култура в списание „Атлантик“. OpenAI възразява.",
+    "body": [
+     "Изследователят по безопасност Дейвид Робинсън напусна OpenAI и обясни решението си в есе, публикувано на 3 октомври в списание „Атлантик“ (The Atlantic). Според TechCrunch Робинсън е работил три години и половина в OpenAI и по собствените му думи е ръководил изготвянето на докладите по безопасност, които придружават големите продуктови премиери. По данни на Calcalist той е участвал в изработването на т.нар. Preparedness Framework на компанията и е отговарял за докладите по безопасност при дванадесет премиери на водещи модели.",
+     "Робинсън критикува OpenAI, че разчита на метода на пробата и грешката, който компанията нарича „итеративно внедряване“. Според него този подход гарантира периодични провали, чийто мащаб расте с увеличаването на възможностите на системите. Като примери той посочва според TechCrunch неотдавнашното проникване на агенти на OpenAI в системи на Hugging Face и все нови случаи на излезли извън контрол агенти. По думите му ИИ компаниите трябва да работят като атомни електроцентрали или големи летища – с многослойни защити и внимателно, времеемко планиране.",
+     "OpenAI отхвърля тези твърдения. Говорителят Дрю Пусатери заяви пред TechCrunch, че компанията се грижи моделите ѝ да не станат по-способни, отколкото тя може безопасно да контролира, и че засилва сигурността в средите за изследвания и тестване, разширява работата с външни оценители и подобрява наблюдението в реално време. Освен това компанията спирала обучението или задържала модели, когато се налага да забави темпото. Робинсън призна, че е наел PR агенция, но подчерта, че решението да говори публично е изцяло негово."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-10-04/openai-safety-researcher-david-robinson-quits-culture-broken.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Coolcaesar",
+    "lic": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1515_Third_Street.jpg",
+    "alt": {
+     "de": "Bürogebäude 1515 Third Street in San Francisco, Sitz von OpenAI (Archivbild 2025)",
+     "en": "Office building at 1515 Third Street in San Francisco, home of OpenAI (archive image, 2025)",
+     "bg": "Офис сградата на 1515 Third Street в Сан Франциско, седалище на OpenAI (архив, 2025)"
+    }
+   }
+  },
+  {
+   "id": "armadin-kevin-mandia-ai-security-255-million-series-b",
+   "s": "ai",
+   "mn": true,
+   "time": "08:30",
+   "kick": {
+    "bg": "Стартъпи",
+    "de": "Start-ups",
+    "en": "Startups"
+   },
+   "src": [
+    {
+     "n": "SecurityWeek",
+     "u": "https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/"
+    },
+    {
+     "n": "Reuters (via WHBL)",
+     "u": "https://whbl.com/2026/10/01/ai-cybersecurity-startup-armadin-valued-at-over-2-5-billion-after-new-funding-round/"
+    },
+    {
+     "n": "Armadin (PR Newswire)",
+     "u": "https://www.prnewswire.com/news-releases/armadin-raises-255-5-million-series-b-to-scale-effective-autonomous-security-302895278.html"
+    }
+   ],
+   "de": {
+    "t": "KI-Sicherheitsfirma Armadin von Mandiant-Gründer Mandia nun mehr als 2,5 Mrd. Dollar wert",
+    "d": "Das Start-up aus Palo Alto sammelt 255,5 Millionen Dollar ein. Armadin lässt Schwärme von KI-Agenten Firmennetze wie Hacker angreifen, um Schwachstellen vor echten Angreifern zu finden.",
+    "body": [
+     "Das Cybersicherheits-Start-up Armadin hat am 1. Oktober eine Finanzierungsrunde der Serie B über 255,5 Millionen Dollar bekanntgegeben. Die Bewertung liegt laut Unternehmen bei mehr als 2,5 Milliarden Dollar; insgesamt hat Armadin damit rund 445 Millionen Dollar eingesammelt. Angeführt wurde die Runde von Andreessen Horowitz und Accel. Neu dabei sind Bain Capital Ventures und Redpoint, außerdem beteiligten sich bestehende Investoren wie GV, Kleiner Perkins, Menlo Ventures und In-Q-Tel.",
+     "Gründer und Chef ist Kevin Mandia, der 2004 die Sicherheitsfirma Mandiant gegründet hatte. Laut SecurityWeek wurde Mandiant 2014 für eine Milliarde Dollar von FireEye übernommen, später kaufte Google das Unternehmen für 5,4 Milliarden Dollar. Armadin startete demnach Ende 2025 mit einer Seed-Runde über 24 Millionen Dollar und trat im März 2026 mit einer Serie-A-Runde über 189,9 Millionen Dollar an die Öffentlichkeit.",
+     "Die Plattform setzt laut Unternehmen autonome KI-Agenten ein, die wie Angreifer vorgehen und einzelne Schwachstellen zu überprüften Angriffsketten verknüpfen – etwa vom unautorisierten Fernzugriff am Netzwerkrand bis zur Übernahme der Cloud-Infrastruktur. Bei einer Übung mit TENEX.ai im August setzte Armadin laut SecurityWeek 26.000 Agenten ein, die rund 17 Millionen Angriffsaktionen ausführten. Das neue Kapital soll in Plattform, Forschung, Modelltraining und Vertrieb fließen."
+    ]
+   },
+   "en": {
+    "t": "Mandiant founder Mandia's AI security firm Armadin now valued at more than $2.5 billion",
+    "d": "The Palo Alto start-up has raised $255.5 million. Armadin uses swarms of AI agents that attack corporate networks like hackers in order to find weaknesses before real attackers do.",
+    "body": [
+     "Cybersecurity start-up Armadin announced a $255.5 million Series B funding round on 1 October. According to the company, it is now valued at more than $2.5 billion, bringing its total funding to around $445 million. The round was co-led by Andreessen Horowitz and Accel. New investors Bain Capital Ventures and Redpoint joined, along with existing backers including GV, Kleiner Perkins, Menlo Ventures and In-Q-Tel.",
+     "The company's founder and CEO is Kevin Mandia, who founded security firm Mandiant in 2004. According to SecurityWeek, FireEye acquired Mandiant for $1 billion in 2014, and Google later bought it for $5.4 billion. Armadin started with a $24 million seed round in late 2025 and launched publicly in March 2026 with a $189.9 million Series A, SecurityWeek reports.",
+     "According to the company, its platform deploys autonomous AI agents that behave like attackers and chain individual vulnerabilities into validated attack paths, for example from unauthorised remote access at the network edge to a takeover of the cloud infrastructure. In an exercise with TENEX.ai in August, Armadin used 26,000 agents that carried out around 17 million offensive actions, according to SecurityWeek. The new capital is to go into the platform, research, training and go-to-market efforts."
+    ]
+   },
+   "bg": {
+    "t": "Armadin на основателя на Mandiant Кевин Мандия вече е оценена на над 2,5 млрд. долара",
+    "d": "Стартъпът от Пало Алто набра 255,5 млн. долара. Armadin изпраща роеве от ИИ агенти да атакуват фирмени мрежи като хакери, за да открият слабостите преди истинските нападатели.",
+    "body": [
+     "Стартъпът за киберсигурност Armadin обяви на 1 октомври кръг на финансиране от серия B в размер на 255,5 млн. долара. Според компанията оценката ѝ вече надхвърля 2,5 млрд. долара, а общо набраните средства достигат около 445 млн. долара. Кръгът е воден от Andreessen Horowitz и Accel. Към тях се присъединяват новите инвеститори Bain Capital Ventures и Redpoint, както и досегашни акционери като GV, Kleiner Perkins, Menlo Ventures и In-Q-Tel.",
+     "Основател и главен изпълнителен директор е Кевин Мандия, който през 2004 г. създаде компанията за сигурност Mandiant. Според SecurityWeek през 2014 г. FireEye купи Mandiant за 1 млрд. долара, а по-късно Google я придоби за 5,4 млрд. долара. Armadin стартира в края на 2025 г. с начален кръг от 24 млн. долара и излезе публично през март 2026 г. с кръг от серия A за 189,9 млн. долара, съобщава изданието.",
+     "Според компанията платформата ѝ използва автономни ИИ агенти, които действат като нападатели и свързват отделни уязвимости в проверени вериги от атаки – например от неоторизиран отдалечен достъп в периферията на мрежата до превземане на облачната инфраструктура. При учение с TENEX.ai през август Armadin е използвала 26 000 агента, извършили около 17 милиона атакуващи действия, пише SecurityWeek. Новият капитал ще бъде вложен в платформата, научноизследователската дейност, обучението на модели и продажбите."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-10-04/armadin-kevin-mandia-ai-security-255-million-series-b.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "U.S. Navy photo by Petty Officer 1st Class Daniel James Lanari",
+    "lic": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Cyber_Security_Incident_with_Panama_Aeronaval_and_Missouri_National_Guard_(9042405).jpg",
+    "alt": {
+     "de": "Übung zur Abwehr von Cyberangriffen (Symbolbild)",
+     "en": "Cyber incident response exercise (symbolic image)",
+     "bg": "Учение за реагиране при кибератаки (символична снимка)"
+    }
+   }
+  },
+  {
+   "id": "tesla-ai5-chip-memory-cut-optimus-production",
+   "s": "ai",
+   "mn": true,
+   "time": "08:15",
+   "kick": {
+    "bg": "Роботи",
+    "de": "Roboter",
+    "en": "Robots"
+   },
+   "src": [
+    {
+     "n": "TrendForce",
+     "u": "https://www.trendforce.com/news/2026/10/02/news-tesla-halves-ai5-ai-chips-lpddr5-to-72gb-cuts-ai6-lpddr6-by-one-third-as-memory-supply-tightens/"
+    },
+    {
+     "n": "Humanoids Daily",
+     "u": "https://www.humanoidsdaily.com/news/tesla-ai5-ai6-ram-cuts-optimus-production"
+    },
+    {
+     "n": "Benzinga",
+     "u": "https://www.benzinga.com/markets/tech/26/10/62125996/elon-musk-tesla-optimus-memory-micron-humanoid-robots"
+    }
+   ],
+   "de": {
+    "t": "Tesla halbiert Speicher seines KI-Chips AI5, um mehr Optimus-Roboter zu bauen",
+    "d": "Laut Elon Musk bekommt der Chip AI5 nur noch 72 Gigabyte Arbeitsspeicher, AI6 ein Drittel weniger. Nur so lasse sich genug Speicher für die Produktion des humanoiden Roboters sichern.",
+    "body": [
+     "Tesla reduziert den Arbeitsspeicher seiner kommenden KI-Chips, um die Produktion des humanoiden Roboters Optimus hochfahren zu können. Wie Konzernchef Elon Musk am 1. Oktober auf der Plattform X mitteilte, erhält der Chip AI5 nun 72 Gigabyte LPDDR5-Speicher, die Hälfte der bisher geplanten Menge. Beim Nachfolger AI6 sinkt der Speicher um ein Drittel auf 144 Gigabyte LPDDR6. Laut Humanoids Daily waren zuvor 144 beziehungsweise 216 Gigabyte vorgesehen.",
+     "Dies sei der einzige Weg, genug Volumen für die Optimus-Produktion zu bekommen, und senke die Kosten deutlich, schrieb Musk. Auf die Leistung des Roboters habe die Kürzung nach seiner Einschätzung nur vernachlässigbare Auswirkungen, da die Speicherbandbreite unverändert bleibe und eher der begrenzende Faktor sei. Das Marktforschungsunternehmen TrendForce ordnet den Schritt in eine angespannte Versorgungslage bei Speicherchips ein.",
+     "Laut TrendForce fertigt Samsung den AI5 in seinem Werk in Taylor im US-Bundesstaat Texas im 2-Nanometer-Verfahren. Die Chips befänden sich in der Prototypenphase; die Großserienlieferung werde für 2027 erwartet. Benzinga zufolge hat Tesla eine erste große Komponentenbestellung für rund 5000 Optimus-Einheiten aufgegeben und strebt langfristig eine Million Roboter pro Jahr an. Micron-Chef Sanjay Mehrotra hatte demnach erklärt, humanoide Roboter dürften mehr als 200 Gigabyte Speicher pro Einheit benötigen."
+    ]
+   },
+   "en": {
+    "t": "Tesla halves memory on its AI5 chip to build more Optimus robots",
+    "d": "According to Elon Musk, the AI5 chip will get only 72 gigabytes of memory and AI6 a third less than planned. This is the only way to secure enough memory to produce the humanoid robot, he says.",
+    "body": [
+     "Tesla is cutting the memory on its upcoming AI chips so it can ramp up production of its humanoid robot Optimus. As CEO Elon Musk announced on X on 1 October, the AI5 chip will now have 72 gigabytes of LPDDR5 memory, half the amount previously planned. On its successor AI6, memory falls by a third to 144 gigabytes of LPDDR6. According to Humanoids Daily, 144 and 216 gigabytes respectively had been planned before.",
+     "This was the only way to get enough volume for Optimus production and greatly reduces cost, Musk wrote. In his assessment, the cut will have a negligible effect on the robot's performance, as memory bandwidth remains unchanged and is the bigger constraint. Market research firm TrendForce places the move in the context of tightening supply of memory chips.",
+     "According to TrendForce, Samsung is producing AI5 on its 2-nanometre process at its plant in Taylor, Texas; the chips are in the prototype stage, with volume shipments expected in 2027. According to Benzinga, Tesla has placed a first large component order for around 5,000 Optimus units and ultimately aims to build one million robots a year. Micron CEO Sanjay Mehrotra has said humanoid robots are expected to need more than 200 gigabytes of memory per unit, Benzinga reports."
+    ]
+   },
+   "bg": {
+    "t": "Tesla намалява наполовина паметта на чипа AI5, за да произвежда повече роботи Optimus",
+    "d": "Според Илон Мъск чипът AI5 ще има само 72 гигабайта памет, а AI6 – с една трета по-малко от планираното. Само така можело да се осигури достатъчно памет за производството на хуманоида.",
+    "body": [
+     "Tesla намалява оперативната памет на бъдещите си ИИ чипове, за да увеличи производството на хуманоидния робот Optimus. Както съобщи главният изпълнителен директор Илон Мъск на 1 октомври в платформата X, чипът AI5 вече ще има 72 гигабайта памет LPDDR5 – наполовина по-малко от първоначално планираното. При наследника AI6 паметта намалява с една трета до 144 гигабайта LPDDR6. Според Humanoids Daily досега бяха предвидени съответно 144 и 216 гигабайта.",
+     "Това бил единственият начин да се осигури достатъчен обем за производството на Optimus, като освен това разходите значително намаляват, написа Мъск. По негова оценка съкращението ще има пренебрежимо влияние върху работата на робота, тъй като пропускателната способност на паметта остава същата и именно тя е по-сериозното ограничение. Компанията за пазарни проучвания TrendForce свързва стъпката с нарастващия недостиг на чипове памет.",
+     "Според TrendForce Samsung произвежда AI5 по 2-нанометров процес в завода си в Тейлър, щата Тексас; чиповете са във фаза на прототипи, а масовите доставки се очакват през 2027 г. Според Benzinga Tesla е направила първа голяма поръчка на компоненти за около 5000 робота Optimus и в дългосрочен план цели производство на един милион роботи годишно. Главният изпълнителен директор на Micron Санджай Мехротра е заявявал, че хуманоидните роботи се очаква да се нуждаят от над 200 гигабайта памет на брой, пише изданието."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-10-04/tesla-ai5-chip-memory-cut-optimus-production.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Ulkl",
+    "lic": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:StockholmOptimusLeft01.jpg",
+    "alt": {
+     "de": "Teslas humanoider Roboter Optimus in einer Ausstellung in Stockholm (Archivbild)",
+     "en": "Tesla's humanoid robot Optimus on display in Stockholm (archive image)",
+     "bg": "Хуманоидният робот Optimus на Tesla на изложба в Стокхолм (архив)"
+    }
+   }
+  }
+ ]
+}
