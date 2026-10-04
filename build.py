@@ -1080,6 +1080,7 @@ def build():
                     if s == 'sport' and k == 'fussball' and FB:
                         nh = games_page(l, sits, sits[0]['date'], '', SX, s) if sits else ''
                         nh = nh.split('<div class="gp-panel">', 1)[1].split('</div><aside', 1)[0] if nh else ''
+                        for _o, _n in (('Предишни', 'Футболни новини'), ('Frühere Beiträge', 'Fußball-News'), ('Earlier stories', 'Football news')): nh = nh.replace(f'>{_o}<', f'>{_n}<')
                         sb = tabs(k) + fb_overview(l, latest['date'], nh, _others(s))
                         for fk in FB_ORDER:
                             if fk not in FB: continue
