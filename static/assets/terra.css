@@ -829,3 +829,4 @@ a.ex-more{text-decoration:none}
 .gp-h .sp-all{float:right;font-size:.8rem;font-weight:700;color:var(--c,#e85d04);text-decoration:none;text-transform:none;letter-spacing:0}
 .sp-grid{grid-template-columns:repeat(3,1fr)}
 @media(max-width:700px){.sp-grid{grid-template-columns:1fr}}
+.grid-cr{margin:.4rem 0 1rem;font-size:.7rem;opacity:.75;line-height:1.4}

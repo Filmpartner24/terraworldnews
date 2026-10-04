@@ -683,7 +683,7 @@ def fb_overview(l, today, news_html, others):
     seasons = sorted({FB[k]['season'] for k in FB})
     cards = ''.join(fb_league_card(k, l, today) for k in fb_order(l) if k in FB)
     return (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(title)}</h1><span class="gp-date">{e(f["season"])} {e(" / ".join(seasons))}</span></div>'
-            f'<div class="gp-main"><div class="gp-panel"><h2 class="gp-h">{e(f["leagues"])}</h2><div class="fb-grid">{cards}</div>{news_html}</div>'
+            f'<div class="gp-main"><div class="gp-panel"><h2 class="gp-h">{e(f["leagues"])}</h2><div class="fb-grid">{cards}</div>{grid_cr([(FB[k]["name"][l], FB_IMG.get(k)) for k in fb_order(l) if k in FB], l)}{news_html}</div>'
             f'<aside class="sec-side"><h2 class="list-h">{e(UI[l]["more"] if False else {"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
 
 def fb_league_page(k, l, today, others):
@@ -752,6 +752,11 @@ def bx_load():
             if os.path.exists(os.path.join(HERE, 'static', it['img']['f'].lstrip('/'))): BX_IMG[it['id']] = it['img']
 
 def bx_url(k, l): return f"{sub_url('sport', BX[k].get('sp', 'boxen') if k in BX else 'boxen', l)}{k}/"
+def grid_cr(pairs, l):  # Bildnachweise für Karten-Raster (Rubrik-/Liga-/Verbandskarten) – rechtlich vollständig
+    xs = [(n, im) for n, im in pairs if im]
+    if not xs: return ''
+    lab = {'bg': 'Снимки', 'de': 'Bilder', 'en': 'Images'}[l]
+    return f'<p class="gr-cr grid-cr">{lab}: ' + ' | '.join(f'{e(n)}: {credit(im, l, True)}' for n, im in xs) + '</p>'
 def bx_d(s): return '.'.join(reversed(s.split('-'))) if re.match(r'^\d{4}-\d{2}-\d{2}$', s or '') else e(s or '')
 def bx_t(x, l): return (x.get(l) or x.get('en') or x.get('de') or '') if isinstance(x, dict) else (x or '')
 
@@ -770,19 +775,28 @@ SP_U = {'bg': dict(subs='Рубрики', open='Отвори →', n='новин
         'de': dict(subs='Rubriken', open='Öffnen →', n='News heute', news={'fussball': 'Fußball-News', 'boxen': 'Box-News', 'mma': 'MMA-News'}, all='Alle →'),
         'en': dict(subs='Sections', open='Open →', n='stories today', news={'fussball': 'Football news', 'boxen': 'Boxing news', 'mma': 'MMA news'}, all='All →')}
 
+SP_IMG = {}
+def load_sp_img():
+    ip = os.path.join(HERE, 'content', 'sport', '_images.json')
+    if os.path.exists(ip):
+        for it in json.load(open(ip, encoding='utf-8')).get('items', []):
+            im = it.get('img')
+            if im and os.path.exists(os.path.join(HERE, 'static', im['f'].lstrip('/'))): SP_IMG[it['id']] = im
+
 def sport_overview(l, its, s, others):
+    if not SP_IMG: load_sp_img()
     f = SP_U[l]; cards = ''; news = ''
     for k in SUBS[s]:
         xs = sorted([x for x in its if x.get('sub') == k], key=lambda x: (x['date'], x['time']), reverse=True)
         top = xs[:SP_LIMIT.get(k, 6)]
-        im = next((x['img'] for x in top if x.get('img')), None)
+        im = SP_IMG.get(k) or next((x['img'] for x in top if x.get('img')), None)   # feste Rubrikbilder (content/sport/_images.json)
         st = f' style="background-image:url({im["f"]})"' if im else ''
         nt = sum(1 for x in xs if xs and x['date'] == xs[0]['date'])
         cards += (f'<article class="fb-card"><a href="{sub_url(s, k, l)}"><div class="fb-img"{st}><span class="fb-name">{e(SUB[l][k][0])}</span></div>'
                   f'<div class="fb-card-txt"><p class="fb-lead"><b>{min(nt, SP_LIMIT.get(k, 6))}</b> {e(f["n"])}</p><span class="gr-more">{e(f["open"])}</span></div></a></article>')
         if top: news += f'<h2 class="gp-h">{e(f["news"][k])} <a class="sp-all" href="{sub_url(s, k, l)}">{e(f["all"])}</a></h2>{bx_news_grid(top, l)}'
     return (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(SEC[l][s][0])}</h1>{gp_slogan(l)}</div>'
-            f'<div class="gp-main"><div class="gp-panel"><h2 class="gp-h">{e(f["subs"])}</h2><div class="fb-grid sp-grid">{cards}</div>{news}</div>'
+            f'<div class="gp-main"><div class="gp-panel"><h2 class="gp-h">{e(f["subs"])}</h2><div class="fb-grid sp-grid">{cards}</div>{grid_cr([(SUB[l][k][0], SP_IMG.get(k)) for k in SUBS[s]], l)}{news}</div>'
             f'<aside class="sec-side"><h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
 
 def bx_news_grid(items, l):
@@ -806,7 +820,7 @@ def bx_overview(l, today, news, others, sp='boxen'):
                + (f' <span class="bx-cd">{e(cd)}</span>' if cd else '') + f'</h2>{bx_news_grid(fj[:6], l)}</section>')
     nh = fjh + (f'<h2 class="gp-h">{e(f["news"])}</h2>{bx_news_grid(rest[:9], l)}' if rest else '')
     return (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(title)}</h1>{gp_slogan(l)}</div>'
-            f'<div class="gp-main"><div class="gp-panel"><h2 class="gp-h">{e(f["orgs"])}</h2><div class="fb-grid bx-grid">{cards}</div>{nh}</div>'
+            f'<div class="gp-main"><div class="gp-panel"><h2 class="gp-h">{e(f["orgs"])}</h2><div class="fb-grid bx-grid">{cards}</div>{grid_cr([(bx_t(BX[k]["name"], l), BX_IMG.get(k)) for k in BX_SPORT[sp] if k in BX], l)}{nh}</div>'
             f'<aside class="sec-side"><h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
 
 def bx_fight_rows(xs, l, res=False):
