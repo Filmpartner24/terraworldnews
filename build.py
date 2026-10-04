@@ -226,7 +226,7 @@ ASSET_V['search.js']=_hl.md5(open(os.path.join(os.path.dirname(os.path.abspath(_
 ASSET_V['terra.js']=_hl.md5(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'terra.js'),'rb').read()).hexdigest()[:8]
 
 OG_HOME_T = 'TERRA WORLD NEWS | NEWS. FACTS. CONTEXT.'   # Social-Vorschau der Startseiten (WhatsApp, Facebook, X): immer Englisch (Nedys Vorgabe 04.10.2026)
-OG_HOME_D = 'World news from Europe, Germany, Bulgaria and beyond – fact-checked every day, with sources and videos. In English, German and Bulgarian.'
+OG_HOME_D = 'News from the World, Germany, Bulgaria and Europe – sport, games, cars, film and music. Fact-checked every day, with sources and videos. In English, German and Bulgarian.'
 def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='website', issue=1, date=None, ticker=None, extra_head='', og_img=None, ticker2=''):
     u = UI[l]
     alts = ''
