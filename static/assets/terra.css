@@ -839,3 +839,4 @@ a.ex-more{text-decoration:none}
 @media(max-width:600px){.sp-grid{grid-template-columns:1fr}}
 .nl-dfb td.nl-comp{min-width:230px;width:32%;line-height:1.35}
 @media(max-width:700px){.nl-dfb td.nl-comp{min-width:140px}}
+.nl-day{margin:1.1rem 0 .5rem;font-size:.95rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:#e85d04;border-bottom:1px solid rgba(255,255,255,.12);padding-bottom:.3rem}

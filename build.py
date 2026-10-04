@@ -789,7 +789,12 @@ def nl_overview(l, today, news, hls, others):
     html += f'<h2 class="gp-h">{e(u["ger"])}</h2>{nl_dfb_rows(l)}'
     if a2: html += f'<h2 class="gp-h">{e(u["name"])} · {e(nl_gname(a2, l))}</h2>{nl_table(nl_lg(a2, l), l, nt("Deutschland", l))}'
     if news: html += f'<h2 class="gp-h">{e(u["news"])}</h2>{bx_news_grid(news, l)}'
-    if hls: html += f'<h2 class="gp-h">▶ {e(u["hl"])}</h2>{bx_news_grid(hls, l)}'
+    if hls:  # Spielzusammenfassungen nach Spieltag-Datum (Feld "mdate", sonst Veröffentlichungsdatum), neueste zuerst
+        html += f'<h2 class="gp-h">▶ {e(u["hl"])}</h2>'
+        _by = {}
+        for x in sorted(hls, key=lambda x: (x.get('mdate') or x['date'], x['time']), reverse=True): _by.setdefault(x.get('mdate') or x['date'], []).append(x)
+        for dd, xs in _by.items():
+            html += f'<h3 class="nl-day">{e(WEEKDAYS[l][datetime.date.fromisoformat(dd).weekday()].capitalize())}, {short_date(dd, l)}</h3>{bx_news_grid(xs, l)}'
     if cards: html += (f'<h2 class="gp-h">{e(u["name"])} · {e(u["groups"])}</h2><div class="fb-grid">{cards}</div>'
                        + grid_cr([(f'{u["name"]} {x.upper()}', NL_IMG.get("liga-" + x)) for x in ("a", "b")], l))
     if NL.get('format'): html += f'<p class="fb-ko"><b>{e(u["fmt"])}:</b> {e(NL["format"].get(l) or NL["format"].get("en", ""))}</p>'
