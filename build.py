@@ -550,11 +550,27 @@ def games_page(l, its, day0, others, SX, kind='games', title=None):
     else:  # Film/Musik: Reviews = Items mit rv, News = Items mit "mn"; alte Entertainment-Meldungen laufen unter „Frühere“
         revs = [it for it in today if it.get('rv') and it.get('yt')]
         news = [it for it in today if it.get('mn') and it not in revs]
-    older = [it for it in its if it not in revs and it not in news]
+    fests = []
+    if kind == 'musik':  # Festivals (Di + Fr je 3 Artikel mit Video, Feld "fest"): eigener Block, neueste zuerst, letzte 7 Tage
+        import datetime as _dfe
+        _cut = (_dfe.date.fromisoformat(day0) - _dfe.timedelta(days=7)).isoformat()
+        fests = sorted([it for it in its if it.get('fest') and it['date'] >= _cut], key=lambda x: (x['date'], x['time']), reverse=True)[:6]
+        revs = [it for it in revs if it not in fests]; news = [it for it in news if it not in fests]
+    def fest_card(it):
+        v = it['yt'] if isinstance(it['yt'], dict) else it['yt'][0]
+        im = it.get('img'); cr = f'<p class="gr-cr">{credit(im, l, True)}</p>' if im else ''
+        fl = {'bg': 'ФЕСТИВАЛ', 'de': 'FESTIVAL', 'en': 'FESTIVAL'}[l]
+        kd = (it.get('fk') or {}).get(l, '')
+        return (f'<article class="gr"><div class="gr-media"><div class="yt gr-yt" data-yt="{e(v["id"])}"{cover_style(it)}><span class="gr-badge">{fl}</span>'
+                f'<button type="button" class="yt-play">{e(g.get("playb") or u["play"])}</button><span class="yt-note">{e(u["ytnote"])}</span></div>{cr}</div>'
+                f'<div class="gr-txt"><a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a>' + (f'<p class="gr-meta">{e(kd)}</p>' if kd else '') +
+                f'<p class="gr-dek">{e(it[l]["d"])}</p><p class="gr-yt-src">{e({"bg": "Видео", "de": "Video", "en": "Video"}[l])}: YouTube · {ch_html(v.get("ch", ""))}</p><a class="gr-more" href="{art_url(it, l)}">{e(g["more"] if kind != "musik" else {"bg": "Към статията →", "de": "Zum Artikel →", "en": "Read more →"}[l])}</a></div></article>')
+    older = [it for it in its if it not in revs and it not in news and it not in fests]
     html = f'<div class="gp gp-{kind}"><div class="gp-head"><h1 class="gp-title">{e(title or SEC[l][kind][0])}</h1>{gp_slogan(l)}</div>'
     html += '<div class="gp-main"><div class="gp-panel">'
     if not its: html += f'<p class="gp-empty">{e(u["empty"])}</p>'
     if revs: html += f'<h2 class="gp-h">▶ {e(g["rev"])}</h2>' + ''.join(review(it) for it in revs)
+    if fests: html += f'<h2 class="gp-h">▶ {e({"bg": "Музикални фестивали", "de": "Musikfestivals", "en": "Music festivals"}[l])}</h2>' + ''.join(fest_card(it) for it in fests)
     if news: html += f'<h2 class="gp-h">{e(g["news"])}</h2><div class="gs-grid">' + ''.join(small(it) for it in news) + '</div>'
     if older: html += f'<h2 class="gp-h">{e(g["older"])}</h2><div class="gs-grid">' + ''.join(small(it) for it in older) + '</div>'
     html += f'</div><aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{others}</aside></div></div>'
@@ -574,7 +590,7 @@ def media_article(it, l, paras, facts, noadv, rel, side, SX):
         cov = f'<img class="gr-cover" src="{e(it["cover"]["f"])}" alt="{e(it["cover"].get("alt", {}).get(l, ""))}" width="600" height="600">' if it.get('cover') else ''
         badge = f'<span class="gr-badge">{g["badge"]}</span>' if rv else ''
         media = (f'<div class="ga-media"><div class="yt gr-yt" data-yt="{e(v["id"])}"{bg}>{badge}{cov}<button type="button" class="yt-play">{e(g.get("playb") or u["play"])}</button>'
-                 f'<span class="yt-note">{e(u["ytnote"])}</span></div>{cr}<p class="gr-yt-src">{e(g["vid"])}: YouTube · {ch_html(v.get("ch", ""))} · <a href="https://www.youtube.com/watch?v={e(v["id"])}" rel="noopener nofollow" target="_blank">youtube.com</a></p></div>')
+                 f'<span class="yt-note">{e(u["ytnote"])}</span></div>{cr}<p class="gr-yt-src">{e({"bg": "Видео", "de": "Video", "en": "Video"}[l] if it.get("fest") else g["vid"])}: YouTube · {ch_html(v.get("ch", ""))} · <a href="https://www.youtube.com/watch?v={e(v["id"])}" rel="noopener nofollow" target="_blank">youtube.com</a></p></div>')
     elif im:
         alt = im.get('alt', {}).get(l, '')
         media = f'<div class="ga-media"><img class="ga-img" src="{im["f"]}" width="{im["w"]}" height="{im["h"]}" alt="{e(alt)}">{cr if im.get("cr") else ""}' + ('' if im.get('cr') else f'<p class="gr-cr">{cap_pre(alt, l)}{credit(im, l, True)}</p>') + '</div>'
