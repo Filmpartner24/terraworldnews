@@ -830,3 +830,12 @@ a.ex-more{text-decoration:none}
 .sp-grid{grid-template-columns:repeat(3,1fr)}
 @media(max-width:700px){.sp-grid{grid-template-columns:1fr}}
 .grid-cr{margin:.4rem 0 1rem;font-size:.7rem;opacity:.75;line-height:1.4}
+.nl-mini{list-style:none;margin:0 0 .5rem;padding:0;font-size:.85rem}
+.nl-mini li{display:flex;justify-content:space-between;gap:.5rem;padding:.12rem 0;border-bottom:1px solid rgba(255,255,255,.08)}
+.nl-mini li b{color:#fff}
+.nl-dfb .nl-comp{font-size:.75rem;opacity:.75;white-space:normal}
+.sp-grid{grid-template-columns:repeat(4,1fr)}
+@media(max-width:1100px){.sp-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.sp-grid{grid-template-columns:1fr}}
+.nl-dfb td.nl-comp{min-width:230px;width:32%;line-height:1.35}
+@media(max-width:700px){.nl-dfb td.nl-comp{min-width:140px}}

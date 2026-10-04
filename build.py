@@ -23,7 +23,7 @@ LOCALE = {'bg': 'bg_BG', 'de': 'de_DE', 'en': 'en_GB'}
 
 SECTIONS = ['welt', 'europa', 'deutschland', 'bulgarien', 'leben', 'ki', 'wirtschaft', 'energie', 'business', 'klima', 'ai', 'film', 'musik', 'games', 'sport']
 MEDIA = ('games', 'film', 'musik', 'sport', 'ai', 'ki', 'wirtschaft', 'energie', 'leben', 'klima', 'welt', 'europa', 'deutschland', 'bulgarien')   # Rubriken mit eigenem Medien-Layout (Reviews/Trailer + News)
-SUBS = {'sport': ['fussball', 'boxen', 'mma']}
+SUBS = {'sport': ['fussball', 'laenderspiele', 'boxen', 'mma']}
 SLOGAN = {'bg': ['НОВИНИ', 'ФАКТИ', 'КОНТЕКСТ'], 'de': ['NACHRICHTEN', 'FAKTEN', 'KONTEXT'], 'en': ['NEWS', 'FACTS', 'CONTEXT']}
 NAV_GROUPS = [  # Menü-Gruppen (Desktop: Trennstriche, Mobil: Überschriften im aufgeklappten Menü)
     ('news', {'bg': 'Новини', 'de': 'Nachrichten', 'en': 'News'}, ['welt', 'europa', 'deutschland', 'bulgarien']),
@@ -31,9 +31,9 @@ NAV_GROUPS = [  # Menü-Gruppen (Desktop: Trennstriche, Mobil: Überschriften im
     ('know', {'bg': 'Икономика и знание', 'de': 'Wirtschaft & Wissen', 'en': 'Economy & Knowledge'}, ['ki', 'wirtschaft', 'energie', 'business', 'klima', 'ai']),
     ('ent', {'bg': 'Развлечения', 'de': 'Unterhaltung', 'en': 'Entertainment'}, ['film', 'musik', 'games']),
     ('sport', {'bg': 'Спорт', 'de': 'Sport', 'en': 'Sport'}, ['sport'])]   # Unterrubriken (Feld "sub" im Item)
-SUB = {'bg': {'fussball': ('Футбол', 'futbol'), 'boxen': ('Бокс', 'boks'), 'mma': ('ММА', 'mma')},
-       'de': {'fussball': ('Fußball', 'fussball'), 'boxen': ('Boxen', 'boxen'), 'mma': ('MMA', 'mma')},
-       'en': {'fussball': ('Football', 'football'), 'boxen': ('Boxing', 'boxing'), 'mma': ('MMA', 'mma')}}
+SUB = {'bg': {'fussball': ('Футбол', 'futbol'), 'laenderspiele': ('Национални отбори', 'natsionalni-otbori'), 'boxen': ('Бокс', 'boks'), 'mma': ('ММА', 'mma')},
+       'de': {'fussball': ('Fußball', 'fussball'), 'laenderspiele': ('Länderspiele', 'laenderspiele'), 'boxen': ('Boxen', 'boxen'), 'mma': ('MMA', 'mma')},
+       'en': {'fussball': ('Football', 'football'), 'laenderspiele': ('Internationals', 'internationals'), 'boxen': ('Boxing', 'boxing'), 'mma': ('MMA', 'mma')}}
 SEC = {
  'bg': {'welt': ('Свят', 'svyat'), 'europa': ('Европа', 'evropa'), 'deutschland': ('Германия', 'germania'), 'bulgarien': ('България', 'balgaria'), 'ki': ('Технологии', 'tehnologii'), 'wirtschaft': ('Икономика', 'ikonomika'), 'business': ('Бизнес', 'biznes'), 'klima': ('Климат', 'klimat'), 'ai': ('ИИ', 'izkustven-intelekt'), 'energie': ('Енергия', 'energia'), 'kultur': ('Развлечения', 'razvlechenia'), 'games': ('Игри', 'igri'), 'film': ('Филми', 'filmi'), 'musik': ('Музика', 'muzika'), 'sport': ('Спорт', 'sport'), 'leben': ('Живот и ежедневие', 'zhivot')},
  'de': {'welt': ('Welt', 'welt'), 'europa': ('Europa', 'europa'), 'deutschland': ('Deutschland', 'deutschland'), 'bulgarien': ('Bulgarien', 'bulgarien'), 'ki': ('Technologie', 'technologie'), 'wirtschaft': ('Wirtschaft', 'wirtschaft'), 'business': ('Business', 'business'), 'klima': ('Klima', 'klima'), 'ai': ('KI', 'ki'), 'energie': ('Energie', 'energie'), 'kultur': ('Entertainment', 'entertainment'), 'leben': ('Leben & Alltag', 'leben-alltag'), 'games': ('Games', 'games'), 'sport': ('Sport', 'sport'), 'film': ('Film', 'film'), 'musik': ('Musik', 'musik')},
@@ -83,6 +83,9 @@ SEO_DESC = {
  'kultur': {'de': 'Kultur und Entertainment: Konzerte, Festivals, Preisverleihungen und Kino.', 'bg': 'Култура и развлечения: концерти, фестивали, награди и кино.', 'en': 'Culture and entertainment: concerts, festivals, awards and cinema.'},
 }
 SUB_DESC = {
+ 'laenderspiele': {'de': 'Länderspiele: Nations-League-Tabellen, alle Spiele der deutschen Nationalmannschaft, DFB-News und Spielzusammenfassungen im Video.',
+                   'bg': 'Национални отбори: класирания в Лигата на нациите, всички мачове на Германия, новини и видео обобщения на мачовете.',
+                   'en': 'Internationals: Nations League tables, every Germany fixture, national team news and match highlights on video.'},
  'fussball': {'de': 'Fußball: Tabellen, Spieltage und Ergebnisse aus Bundesliga, Premier League, La Liga, Serie A, Ligue 1 und der bulgarischen Parva Liga.',
               'bg': 'Футбол: класирания, кръгове и резултати от Първа лига, Бундеслигата, Висшата лига, Ла Лига, Серия А и Лига 1.',
               'en': 'Football: tables, fixtures and results from the Premier League, Bundesliga, La Liga, Serie A, Ligue 1 and Bulgaria\'s Parva Liga.'},
@@ -722,6 +725,93 @@ def fb_league_page(k, l, today, others):
             f'<aside class="sec-side"><h2 class="list-h">{e(f["leagues"])}</h2><ul class="fb-ll">{others_l}</ul>'
             f'<h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
 
+# ---- Länderspiele: Nations League (Daten: content/nations-league/<saison>.json, UEFA-Daten redaktionell geprüft)
+NL = {}
+NT = {'Deutschland': ('Германия', 'Germany'), 'Niederlande': ('Нидерландия', 'Netherlands'), 'Griechenland': ('Гърция', 'Greece'), 'Serbien': ('Сърбия', 'Serbia'),
+      'Frankreich': ('Франция', 'France'), 'Belgien': ('Белгия', 'Belgium'), 'Italien': ('Италия', 'Italy'), 'Türkei': ('Турция', 'Türkiye'),
+      'Spanien': ('Испания', 'Spain'), 'England': ('Англия', 'England'), 'Kroatien': ('Хърватия', 'Croatia'), 'Tschechien': ('Чехия', 'Czechia'),
+      'Portugal': ('Португалия', 'Portugal'), 'Dänemark': ('Дания', 'Denmark'), 'Norwegen': ('Норвегия', 'Norway'), 'Wales': ('Уелс', 'Wales'),
+      'Schweiz': ('Швейцария', 'Switzerland'), 'Slowenien': ('Словения', 'Slovenia'), 'Schottland': ('Шотландия', 'Scotland'), 'Nordmazedonien': ('Северна Македония', 'North Macedonia'),
+      'Nordirland': ('Северна Ирландия', 'Northern Ireland'), 'Ukraine': ('Украйна', 'Ukraine'), 'Ungarn': ('Унгария', 'Hungary'), 'Georgien': ('Грузия', 'Georgia'),
+      'Österreich': ('Австрия', 'Austria'), 'Kosovo': ('Косово', 'Kosovo'), 'Irland': ('Ирландия', 'Republic of Ireland'), 'Israel': ('Израел', 'Israel'),
+      'Schweden': ('Швеция', 'Sweden'), 'Bosnien und Herzegowina': ('Босна и Херцеговина', 'Bosnia and Herzegovina'), 'Polen': ('Полша', 'Poland'), 'Rumänien': ('Румъния', 'Romania'),
+      'Bulgarien': ('България', 'Bulgaria')}
+def nt(n, l): return n if l == 'de' or n not in NT else NT[n][0 if l == 'bg' else 1]
+NLU = {'bg': dict(name='Лига на нациите', grp='Лига {L} · Група {n}', ger='Германия: всички мачове', news='Новини за националния отбор на Германия', hl='Обобщения на мачовете от Лигата на нациите', groups='Групи', open='Към групата →', comp={'nl': 'Лига на нациите', 'fr': 'Приятелски', 'q': 'Квалификации'}, h='домакин', a='гост', venue='Стадион', fmt='Формат'),
+       'de': dict(name='Nations League', grp='Liga {L} · Gruppe {n}', ger='Deutschland: alle Spiele', news='News zur Nationalmannschaft', hl='Nations League: Spielzusammenfassungen', groups='Gruppen', open='Zur Gruppe →', comp={'nl': 'Nations League', 'fr': 'Freundschaftsspiel', 'q': 'Qualifikation'}, h='Heim', a='Auswärts', venue='Spielort', fmt='Modus'),
+       'en': dict(name='Nations League', grp='League {L} · Group {n}', ger='Germany: all fixtures', news='Germany national team news', hl='Nations League: match highlights', groups='Groups', open='Go to group →', comp={'nl': 'Nations League', 'fr': 'Friendly', 'q': 'Qualifier'}, h='home', a='away', venue='Venue', fmt='Format')}
+NL_IMG = {}
+def nl_load():
+    NL.clear(); NL_IMG.clear()
+    d = os.path.join(HERE, 'content', 'nations-league')
+    fs = sorted(glob.glob(os.path.join(d, '20*.json')))
+    if fs: NL.update(json.load(open(fs[-1], encoding='utf-8')))
+    ip = os.path.join(d, '_images.json')
+    if os.path.exists(ip):
+        for it in json.load(open(ip, encoding='utf-8')).get('items', []):
+            im = it['img']
+            if os.path.exists(os.path.join(HERE, 'static', im['f'].lstrip('/'))): NL_IMG[it['id']] = im
+def nl_lg(g, l):  # Gruppe im Format der Fußball-Ligen (für fb_table/fb_state/fb_match_row), Teamnamen lokalisiert
+    return {'tz': NL.get('tz', 'Europe/Berlin'), 'matches': [dict(m, t1=nt(m['t1'], l), t2=nt(m['t2'], l)) for m in g['matches']]}
+def nl_gname(g, l): return NLU[l]['grp'].format(L=g['g'][0], n=g['g'][1:])
+def nl_url(g, l): return f"{sub_url('sport', 'laenderspiele', l)}{g['g'].lower()}/"
+def nl_table(lg, l, hl=None):
+    f = FBU[l]; tab = fb_table(lg)
+    rows = ''.join(f'<tr{" class=fb-top" if i < 2 else ""}{" style=font-weight:700" if hl and t == hl else ""}><td class="n">{i + 1}</td><th scope="row">{e(t)}</th><td class="n">{r[0]}</td><td class="n">{r[1]}</td><td class="n">{r[2]}</td><td class="n">{r[3]}</td><td class="n">{r[4]}:{r[5]}</td><td class="n">{"+" if r[4] - r[5] > 0 else ""}{r[4] - r[5]}</td><td class="n fb-pts">{r[6]}</td></tr>' for i, (t, r) in enumerate(tab))
+    return (f'<div class="tbl-wrap"><table class="fb-t"><thead><tr><th class="n">{f["pos"]}</th><th>{ {"bg": "Отбор", "de": "Team", "en": "Team"}[l] }</th><th class="n">{f["p"]}</th><th class="n">{f["w"]}</th><th class="n">{f["d"]}</th><th class="n">{f["l"]}</th><th class="n">{f["g"]}</th><th class="n">{f["gd"]}</th><th class="n">{f["pts"]}</th></tr></thead><tbody>{rows}</tbody></table></div>')
+def nl_card(g, l, today):
+    f = FBU[l]; lg = nl_lg(g, l); tab = fb_table(lg); rs, done, nxt = fb_state(lg, today)
+    im = NL_IMG.get('liga-' + g['g'][0].lower())
+    st = f' style="background-image:url({im["f"]})"' if im else ''
+    mini = ''.join(f'<li><span>{i + 1}. {e(t)}</span><b>{r[6]}</b></li>' for i, (t, r) in enumerate(tab))
+    return (f'<article class="fb-card"><a href="{nl_url(g, l)}"><div class="fb-img"{st}><span class="gr-badge">{e(NLU[l]["name"])} {e(NL.get("season", ""))}</span><span class="fb-name">{e(nl_gname(g, l))}</span></div>'
+            f'<div class="fb-card-txt"><ul class="nl-mini">{mini}</ul>' + (f'<p class="gr-meta">{e(f["md"].format(n=done[-1]))} ✓' + (f' · {e(f["next"])}: {e(f["md"].format(n=nxt))}' if nxt else '') + '</p>' if done else '') +
+            f'<span class="gr-more">{e(NLU[l]["open"])}</span></div></a></article>')
+def nl_dfb_rows(l):
+    u = NLU[l]; out = ''
+    lg = {'tz': NL.get('tz', 'Europe/Berlin')}
+    for m in sorted(NL.get('dfb', []), key=lambda x: (x['date'], x.get('time', ''))):
+        ger = nt('Deutschland', l); opp = nt(m['opp'], l)
+        t1, t2 = (ger, opp) if m.get('ha') == 'h' else (opp, ger)
+        ft = m.get('ft'); sc = None if ft is None else (ft if m.get('ha') == 'h' else [ft[1], ft[0]])
+        row = fb_match_row({'date': m['date'], 'time': m.get('time'), 't1': t1, 't2': t2, 'ft': sc}, lg, l)
+        row = row.replace('</tr>', f'<td class="fb-note nl-comp">{e(u["comp"].get(m.get("comp"), m.get("comp", "")))} · {e(m.get("venue", ""))}</td></tr>')
+        out += row
+    return f'<div class="tbl-wrap"><table class="fb-m nl-dfb"><tbody>{out}</tbody></table></div><p class="fb-ko">{e(FBU[l]["ko"])}</p>' if out else ''
+def nl_overview(l, today, news, hls, others):
+    u = NLU[l]; f = FBU[l]; title = f'{SEC[l]["sport"][0]} · {SUB[l]["laenderspiele"][0]}'
+    gs = NL.get('groups', [])
+    a2 = next((g for g in gs if any('Deutschland' in (m['t1'], m['t2']) for m in g['matches'])), None)
+    cards = ''.join(nl_card(g, l, today) for g in gs)
+    srcs = ' · '.join(f'<a href="{e(x["u"])}" rel="noopener nofollow" target="_blank">{e(x["n"])}</a>' for x in NL.get('src', []))
+    html = (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(title)}</h1><span class="gp-date">{e(u["name"])} {e(NL.get("season", ""))}</span></div>'
+            f'<div class="gp-main"><div class="gp-panel">')
+    html += f'<h2 class="gp-h">{e(u["ger"])}</h2>{nl_dfb_rows(l)}'
+    if a2: html += f'<h2 class="gp-h">{e(u["name"])} · {e(nl_gname(a2, l))}</h2>{nl_table(nl_lg(a2, l), l, nt("Deutschland", l))}'
+    if news: html += f'<h2 class="gp-h">{e(u["news"])}</h2>{bx_news_grid(news, l)}'
+    if hls: html += f'<h2 class="gp-h">▶ {e(u["hl"])}</h2>{bx_news_grid(hls, l)}'
+    if cards: html += (f'<h2 class="gp-h">{e(u["name"])} · {e(u["groups"])}</h2><div class="fb-grid">{cards}</div>'
+                       + grid_cr([(f'{u["name"]} {x.upper()}', NL_IMG.get("liga-" + x)) for x in ("a", "b")], l))
+    if NL.get('format'): html += f'<p class="fb-ko"><b>{e(u["fmt"])}:</b> {e(NL["format"].get(l) or NL["format"].get("en", ""))}</p>'
+    html += (f'<p class="fb-ko">{e(f["src"])}: {srcs}</p></div>'
+             f'<aside class="sec-side"><h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
+    return html
+def nl_group_page(g, l, today, others):
+    u = NLU[l]; f = FBU[l]; lg = nl_lg(g, l); rs, done, nxt = fb_state(lg, today)
+    im = NL_IMG.get('liga-' + g['g'][0].lower())
+    hero = (f'<div class="ga-media"><div class="fb-hero" style="background-image:url({im["f"]})"><span class="gr-badge">{e(u["name"])} {e(NL.get("season", ""))}</span></div>'
+            f'<p class="gr-cr">{cap_pre(im.get("alt", {}).get(l, ""), l)}{credit(im, l, True)}</p></div>') if im else ''
+    md = ''
+    for r, ms in rs.items():
+        md += (f'<h2 class="gp-h">{e(f["md"].format(n=r))}</h2><div class="tbl-wrap"><table class="fb-m"><tbody>' +
+               ''.join(fb_match_row(m, lg, l).replace('</tr>', f'<td class="fb-note">{e(m.get("city", ""))}</td></tr>') for m in sorted(ms, key=lambda m: (m['date'], m.get('time', '')))) + '</tbody></table></div>')
+    side = ''.join(f'<li><a href="{nl_url(x, l)}"{" aria-current=page" if x is g else ""}>{e(nl_gname(x, l))}</a></li>' for x in NL.get('groups', []))
+    srcs = ' · '.join(f'<a href="{e(x["u"])}" rel="noopener nofollow" target="_blank">{e(x["n"])}</a>' for x in NL.get('src', []))
+    return (f'<div class="gp gp-sport fb-page"><div class="gp-head"><h1 class="gp-title">{e(u["name"])} · {e(nl_gname(g, l))}</h1><span class="fb-season">{e(f["season"])} {e(NL.get("season", ""))}</span></div>'
+            f'<div class="gp-main"><div class="gp-panel">{hero}<h2 class="gp-h">{e(f["table"])}</h2>{nl_table(lg, l)}{md}<p class="fb-ko">{e(f["ko"])}</p><p class="fb-ko">{e(f["src"])}: {srcs}</p></div>'
+            f'<aside class="sec-side"><h2 class="list-h">{e(u["groups"])}</h2><ul class="fb-ll">{side}</ul>'
+            f'<h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
+
 # ---- Boxen: Verbände WBC/WBA/IBF/WBO (Daten: content/boxing/*.json, redaktionell recherchiert)
 BX = {}; BX_IMG = {}
 BX_ORDER = ['wbc', 'wba', 'ibf', 'wbo']
@@ -770,10 +860,10 @@ def bx_card(k, l, today):
             f'<div class="fb-card-txt"><p class="fb-lead"><b>{e(bx_t(o["full"], l))}</b> · {n} {e(f["champs"])}</p>{nx}<span class="gr-more">{e(f["open"])}</span></div></a></article>')
 
 SP_ALL = {'bg': 'Всички', 'de': 'Übersicht', 'en': 'Overview'}
-SP_LIMIT = {'fussball': 6, 'boxen': 3, 'mma': 3}   # Nedys Vorgabe: 12 Sport-News am Tag (6 Fußball, 3 Boxen, 3 MMA)
-SP_U = {'bg': dict(subs='Рубрики', open='Отвори →', n='новини днес', news={'fussball': 'Футболни новини', 'boxen': 'Бокс новини', 'mma': 'ММА новини'}, all='Всички →'),
-        'de': dict(subs='Rubriken', open='Öffnen →', n='News heute', news={'fussball': 'Fußball-News', 'boxen': 'Box-News', 'mma': 'MMA-News'}, all='Alle →'),
-        'en': dict(subs='Sections', open='Open →', n='stories today', news={'fussball': 'Football news', 'boxen': 'Boxing news', 'mma': 'MMA news'}, all='All →')}
+SP_LIMIT = {'fussball': 6, 'laenderspiele': 6, 'boxen': 3, 'mma': 3}   # Nedys Vorgabe: 12 Sport-News am Tag (6 Fußball, 3 Boxen, 3 MMA)
+SP_U = {'bg': dict(subs='Рубрики', open='Отвори →', n='новини днес', news={'fussball': 'Футболни новини', 'laenderspiele': 'Национални отбори', 'boxen': 'Бокс новини', 'mma': 'ММА новини'}, all='Всички →'),
+        'de': dict(subs='Rubriken', open='Öffnen →', n='News heute', news={'fussball': 'Fußball-News', 'laenderspiele': 'Länderspiel-News', 'boxen': 'Box-News', 'mma': 'MMA-News'}, all='Alle →'),
+        'en': dict(subs='Sections', open='Open →', n='stories today', news={'fussball': 'Football news', 'laenderspiele': 'Internationals news', 'boxen': 'Boxing news', 'mma': 'MMA news'}, all='All →')}
 
 SP_IMG = {}
 def load_sp_img():
@@ -915,7 +1005,7 @@ def search_url(l): return f"{pre(l)}{SEARCH_SLUG[l]}.html"
 
 def build():
     eds = load()
-    fb_load(); bx_load()
+    fb_load(); bx_load(); nl_load()
     act = active_langs(eds)
     ORG['knowsLanguage'] = act
     if os.path.exists(OUT): shutil.rmtree(OUT)
@@ -1124,6 +1214,17 @@ def build():
                             write(fu, page(l, act, ft, f'{FB[fk]["name"][l]} {FB[fk]["season"]}: {FBU[l]["table"]}, {FBU[l]["next"]}, {FBU[l]["done"]}', fu, tabs(k) + fb_league_page(fk, l, latest['date'], _others(s)), falts,
                                            {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": FB[fk]["name"][l], "url": SITE + fu, "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
                             urls.append((fu, falts, latest['date']))
+                    elif s == 'sport' and k == 'laenderspiele' and NL:
+                        _ln = sorted(sits, key=lambda x: (x['date'], x['time']), reverse=True)
+                        _hl = [x for x in _ln if x.get('hl')]
+                        _nw = [x for x in _ln if not x.get('hl')][:6]
+                        sb = tabs(k) + nl_overview(l, latest['date'], _nw, _hl, _others(s))
+                        for g in NL.get('groups', []):
+                            gu = nl_url(g, l); gt = f'{NLU[l]["name"]} {NL.get("season", "")} · {nl_gname(g, l)} | TWN – World News'
+                            galts = {x: nl_url(g, x) for x in act}
+                            write(gu, page(l, act, gt, f'{NLU[l]["name"]} {nl_gname(g, l)}: {FBU[l]["table"]}, {FBU[l]["next"]}', gu, tabs(k) + nl_group_page(g, l, latest['date'], _others(s)), galts,
+                                           {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": f'{NLU[l]["name"]} {nl_gname(g, l)}', "url": SITE + gu, "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
+                            urls.append((gu, galts, latest['date']))
                     elif s == 'sport' and k in BX_SPORT and any(x in BX for x in BX_SPORT[k]):
                         bn = sorted(sits, key=lambda x: (x['date'], x['time']), reverse=True)
                         sb = tabs(k) + bx_overview(l, latest['date'], bn, _others(s), k)

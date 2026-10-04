@@ -1,5 +1,68 @@
-{"items": [
- {"id": "fussball", "img": {"f": "/assets/sport/fussball.webp", "w": 1200, "h": 675, "art": "Krzysztof Popławski", "lic": "CC BY 4.0", "page": "https://commons.wikimedia.org/wiki/File:Mecz_pi%C5%82karski_Wis%C5%82a_Krak%C3%B3w_-_Zag%C5%82%C4%99bie_Sosnwoiec,_28_pa%C5%BAdziernika_2022,_Po%C5%BCegnanie_Stadionu_Ludowego,_KP.jpg", "alt": {"de": "Fußballstadion bei Flutlicht (Symbolbild)", "bg": "Футболен стадион на прожектори (символна снимка)", "en": "Football stadium under floodlights (Symbolic image)"}}},
- {"id": "boxen", "img": {"f": "/assets/sport/boxen.webp", "w": 1200, "h": 675, "art": "Des Colhoun", "lic": "CC BY-SA 2.0", "page": "https://commons.wikimedia.org/wiki/File:Scottish_Elite_Boxing_Finals_2015_(geograph_4407113).jpg", "alt": {"de": "Boxring in einer Halle (Symbolbild)", "bg": "Боксов ринг в зала (символна снимка)", "en": "Boxing ring in an arena (Symbolic image)"}}},
- {"id": "mma", "img": {"f": "/assets/sport/mma.webp", "w": 1200, "h": 675, "art": "Haribhagirath", "lic": "CC0", "page": "https://commons.wikimedia.org/wiki/File:BRAVE_Darius-7.jpg", "alt": {"de": "MMA-Käfig in einer Arena (Symbolbild)", "bg": "ММА клетка в зала (символна снимка)", "en": "MMA cage in an arena (Symbolic image)"}}}
-]}
+{
+ "items": [
+  {
+   "id": "fussball",
+   "img": {
+    "f": "/assets/sport/fussball.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Krzysztof Popławski",
+    "lic": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mecz_pi%C5%82karski_Wis%C5%82a_Krak%C3%B3w_-_Zag%C5%82%C4%99bie_Sosnwoiec,_28_pa%C5%BAdziernika_2022,_Po%C5%BCegnanie_Stadionu_Ludowego,_KP.jpg",
+    "alt": {
+     "de": "Fußballstadion bei Flutlicht (Symbolbild)",
+     "bg": "Футболен стадион на прожектори (символна снимка)",
+     "en": "Football stadium under floodlights (Symbolic image)"
+    }
+   }
+  },
+  {
+   "id": "boxen",
+   "img": {
+    "f": "/assets/sport/boxen.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Des Colhoun",
+    "lic": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Scottish_Elite_Boxing_Finals_2015_(geograph_4407113).jpg",
+    "alt": {
+     "de": "Boxring in einer Halle (Symbolbild)",
+     "bg": "Боксов ринг в зала (символна снимка)",
+     "en": "Boxing ring in an arena (Symbolic image)"
+    }
+   }
+  },
+  {
+   "id": "mma",
+   "img": {
+    "f": "/assets/sport/mma.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Haribhagirath",
+    "lic": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:BRAVE_Darius-7.jpg",
+    "alt": {
+     "de": "MMA-Käfig in einer Arena (Symbolbild)",
+     "bg": "ММА клетка в зала (символна снимка)",
+     "en": "MMA cage in an arena (Symbolic image)"
+    }
+   }
+  },
+  {
+   "id": "laenderspiele",
+   "img": {
+    "f": "/assets/sport/laenderspiele.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Tobi 87",
+    "lic": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Berliner_Olympiastadion_night.jpg",
+    "alt": {
+     "de": "Olympiastadion Berlin bei Nacht (Symbolbild)",
+     "bg": "Олимпийският стадион в Берлин нощем (символна снимка)",
+     "en": "Olympiastadion Berlin at night (Symbolic image)"
+    }
+   }
+  }
+ ]
+}
