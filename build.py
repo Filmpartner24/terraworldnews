@@ -39,6 +39,64 @@ SEC = {
  'de': {'welt': ('Welt', 'welt'), 'europa': ('Europa', 'europa'), 'deutschland': ('Deutschland', 'deutschland'), 'bulgarien': ('Bulgarien', 'bulgarien'), 'ki': ('Technologie', 'technologie'), 'wirtschaft': ('Wirtschaft', 'wirtschaft'), 'business': ('Business', 'business'), 'klima': ('Klima', 'klima'), 'ai': ('KI', 'ki'), 'energie': ('Energie', 'energie'), 'kultur': ('Entertainment', 'entertainment'), 'leben': ('Leben & Alltag', 'leben-alltag'), 'games': ('Games', 'games'), 'sport': ('Sport', 'sport'), 'film': ('Film', 'film'), 'musik': ('Musik', 'musik')},
  'en': {'welt': ('World', 'world'), 'europa': ('Europe', 'europe'), 'deutschland': ('Germany', 'germany'), 'bulgarien': ('Bulgaria', 'bulgaria'), 'ki': ('Technology', 'technology'), 'wirtschaft': ('Economy', 'economy'), 'business': ('Business', 'business'), 'klima': ('Climate', 'climate'), 'ai': ('AI', 'ai'), 'energie': ('Energy', 'energy'), 'kultur': ('Entertainment', 'entertainment'), 'leben': ('Everyday Life', 'everyday-life'), 'games': ('Games', 'games'), 'sport': ('Sport', 'sport'), 'film': ('Film', 'film'), 'musik': ('Music', 'music')},
 }
+SEO_DESC = {
+ 'welt': {'de': 'Aktuelle Weltnachrichten von heute: Politik, Konflikte, Wahlen und Krisen weltweit – inklusive USA. Täglich geprüft, mit Quellen und Videos.',
+          'bg': 'Актуални световни новини днес: политика, конфликти, избори и кризи по света, включително САЩ. Всеки ден проверени, с източници и видео.',
+          'en': "Today's world news: politics, conflicts, elections and crises around the globe, including the US. Fact-checked daily, with sources and videos."},
+ 'europa': {'de': 'Nachrichten aus Europa und der EU: Brüssel, Regierungen, Wahlen und Entscheidungen, die den Alltag betreffen. Täglich geprüft, mit Quellen.',
+            'bg': 'Новини от Европа и ЕС: Брюксел, правителства, избори и решения, които засягат ежедневието. Всеки ден проверени, с източници.',
+            'en': 'News from Europe and the EU: Brussels, governments, elections and decisions that affect everyday life. Fact-checked daily, with sources.'},
+ 'deutschland': {'de': 'Nachrichten aus Deutschland: Bundesregierung, Parteien wie CDU/CSU, AfD, SPD, Grüne und Linke, Wirtschaft und Gesellschaft. Täglich geprüft.',
+                 'bg': 'Новини от Германия: федералното правителство, партиите ХДС/ХСС, АзГ (AfD), ГСДП, Зелените и Левицата, икономика и общество.',
+                 'en': 'News from Germany: the federal government, parties such as CDU/CSU, AfD, SPD, Greens and Left, economy and society. Fact-checked daily.'},
+ 'bulgarien': {'de': 'Nachrichten aus Bulgarien: Regierung, Parteien, Wirtschaft, Justiz und Gesellschaft – auf Basis von BTA, BNT und weiteren Quellen. Täglich geprüft.',
+               'bg': 'Новини от България: правителство, партии, икономика, правосъдие и общество – по данни на БТА, БНТ и други източници. Всеки ден проверени.',
+               'en': 'News from Bulgaria: government, parties, economy, justice and society – based on BTA, BNT and other sources. Fact-checked daily.'},
+ 'ki': {'de': 'Technologie-News: Wissenschaft, Autos und Mobilität, Quanten- und Biotechnologie, Raumfahrt, Chips und Innovationen – mit Videos.',
+        'bg': 'Новини за технологии: наука, автомобили и мобилност, квантови и биотехнологии, космос, чипове и иновации – с видео.',
+        'en': 'Technology news: science, cars and mobility, quantum and biotech, space, chips and innovation – with videos.'},
+ 'ai': {'de': 'KI-News: ChatGPT, Claude, Gemini und neue Modelle, KI-Start-ups, Roboter und Anwendungen – täglich mit Videos und Quellen.',
+        'bg': 'Новини за ИИ: ChatGPT, Claude, Gemini и нови модели, стартъпи, роботи и приложения – всеки ден с видео и източници.',
+        'en': 'AI news: ChatGPT, Claude, Gemini and new models, AI start-ups, robots and applications – daily with videos and sources.'},
+ 'wirtschaft': {'de': 'Wirtschaftsnachrichten: Konjunktur, Unternehmen, Preise, Arbeitsmarkt und Handel in Deutschland, Bulgarien und weltweit.',
+                'bg': 'Икономически новини: конюнктура, компании, цени, пазар на труда и търговия в България, Германия и света.',
+                'en': 'Economy news: growth, companies, prices, jobs and trade in Germany, Bulgaria and worldwide.'},
+ 'business': None,
+ 'energie': {'de': 'Energie-News: Wind, Solar, Wasserkraft, Kernenergie, Gas, Stromnetze und Strompreise – mit Fokus auf Bulgarien, Deutschland und Europa.',
+             'bg': 'Новини за енергетика: вятър, слънце, ВЕЦ, ядрена енергия, газ, мрежи и цени на тока – с фокус върху България, Германия и Европа.',
+             'en': 'Energy news: wind, solar, hydro, nuclear, gas, power grids and electricity prices – focused on Bulgaria, Germany and Europe.'},
+ 'klima': {'de': 'Klima-News: Erderwärmung, Temperaturrekorde, Unwetter und Naturkatastrophen sowie Klimapolitik – auf Basis wissenschaftlicher Quellen.',
+           'bg': 'Новини за климата: затопляне, температурни рекорди, бедствия и климатична политика – по научни източници.',
+           'en': 'Climate news: global warming, temperature records, extreme weather, disasters and climate policy – based on scientific sources.'},
+ 'leben': {'de': 'Leben & Alltag: Gesundheit, Lebenshaltungskosten in Deutschland und Bulgarien, Preisvergleiche, Mieten, Immobilien und die schönsten Orte der Welt.',
+           'bg': 'Живот и ежедневие: здраве, разходи за живот в България и Германия, сравнения на цени, наеми, имоти и най-красивите места по света.',
+           'en': 'Everyday life: health, cost of living in Germany and Bulgaria, price comparisons, rents, property and the most beautiful places on earth.'},
+ 'film': {'de': 'Film-News: neue Kinostarts, offizielle Trailer, Streaming und Hollywood – täglich drei Trailer und aktuelle Meldungen.',
+          'bg': 'Новини за филми: нови премиери, официални трейлъри, стрийминг и Холивуд – всеки ден три трейлъра и актуални новини.',
+          'en': 'Film news: new releases, official trailers, streaming and Hollywood – three trailers and fresh news every day.'},
+ 'musik': {'de': 'Musik-News: neue Alben im Test, Singles und Videos, Tourdaten und Konzerte weltweit – täglich aktualisiert.',
+           'bg': 'Музикални новини: нови албуми, сингли и видеоклипове, турнета и концерти по света – всеки ден.',
+           'en': 'Music news: new album reviews, singles and videos, tour dates and concerts worldwide – updated daily.'},
+ 'games': {'de': 'Games-News und Tests: neue Spiele, Trailer, Updates zu GTA 6, Minecraft, PlayStation, Xbox, Nintendo und PC – täglich mit Wertungen.',
+           'bg': 'Новини и ревюта на игри: нови заглавия, трейлъри, новости за GTA 6, Minecraft, PlayStation, Xbox, Nintendo и PC – всеки ден.',
+           'en': 'Games news and reviews: new releases, trailers, updates on GTA 6, Minecraft, PlayStation, Xbox, Nintendo and PC – daily, with scores.'},
+ 'kultur': {'de': 'Kultur und Entertainment: Konzerte, Festivals, Preisverleihungen und Kino.', 'bg': 'Култура и развлечения: концерти, фестивали, награди и кино.', 'en': 'Culture and entertainment: concerts, festivals, awards and cinema.'},
+}
+SUB_DESC = {
+ 'fussball': {'de': 'Fußball: Tabellen, Spieltage und Ergebnisse aus Bundesliga, Premier League, La Liga, Serie A, Ligue 1 und der bulgarischen Parva Liga.',
+              'bg': 'Футбол: класирания, кръгове и резултати от Първа лига, Бундеслигата, Висшата лига, Ла Лига, Серия А и Лига 1.',
+              'en': 'Football: tables, fixtures and results from the Premier League, Bundesliga, La Liga, Serie A, Ligue 1 and Bulgaria\'s Parva Liga.'},
+ 'boxen': {'de': 'Boxen: Weltmeister und Kämpfe von WBC, WBA, IBF und WBO, Fury vs. Joshua und aktuelle Box-News.',
+           'bg': 'Бокс: световни шампиони и мачове на WBC, WBA, IBF и WBO, Фюри срещу Джошуа и актуални новини.',
+           'en': 'Boxing: champions and fights across WBC, WBA, IBF and WBO, Fury vs. Joshua and the latest boxing news.'},
+ 'mma': {'de': 'MMA: UFC, PFL, ONE Championship und OKTAGON – Champions, kommende Kämpfe, Ergebnisse und News.',
+         'bg': 'ММА: UFC, PFL, ONE Championship и OKTAGON – шампиони, предстоящи мачове, резултати и новини.',
+         'en': 'MMA: UFC, PFL, ONE Championship and OKTAGON – champions, upcoming fights, results and news.'},
+}
+def sec_desc(s, l, fallback):
+    d = SEO_DESC.get(s)
+    return d[l] if d else fallback
+
 SEC_COLOR = {'welt': 'var(--cobalt)', 'europa': '#5b3fc4', 'deutschland': 'var(--muted)', 'bulgarien': 'var(--teal)', 'usa': '#b23a48', 'ki': '#0f7c9c', 'wirtschaft': 'var(--sand)', 'business': '#0a7d5a', 'klima': '#2f8a4a', 'ai': '#06b6d4', 'energie': '#d97706', 'kultur': 'var(--signal)', 'games': '#7b2cbf', 'film': '#d62839', 'musik': '#0e9f6e', 'sport': '#e85d04', 'leben': '#c26a00'}
 NEWS_DIR = {'bg': 'novini', 'de': 'nachrichten', 'en': 'news'}
 WEEKDAYS = {'bg': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък', 'събота', 'неделя'], 'de': ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag'], 'en': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']}
@@ -285,6 +343,15 @@ def cap_pre(alt, l):
     for keys, lab in _CAPTAG:
         if any(k in a for k in keys): return e(lab.get(l, lab['en'])) + ' · '
     return ''
+
+def crumbs(l, items):
+    """BreadcrumbList für Google: [(name, url), ...] ab Startseite."""
+    lst = [(UI[l]['home'], pre(l))] + items
+    return {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": SITE + u} for i, (n, u) in enumerate(lst)]}
+
+PRIO_NAV = ['welt', 'deutschland', 'bulgarien', 'sport', 'games', 'europa', 'ai', 'ki', 'wirtschaft', 'energie', 'business', 'klima', 'leben', 'film', 'musik']
+def site_nav(l):
+    return {"@type": "ItemList", "name": "Navigation", "itemListElement": [{"@type": "SiteNavigationElement", "position": i + 1, "name": SEC[l][x][0], "url": SITE + sec_home(x, l)} for i, x in enumerate([x for x in PRIO_NAV if x in SEC[l]])]}
 
 def plate(it, l, label=None, cap=False, eager=False):
     im = it.get('img')
@@ -871,7 +938,7 @@ def build():
                 f'<div class="ranked"><h2 class="rh">{e(u["most"])}</h2>{ranked}</div></section>{vband}{rails}')
         alts = {x: pre(x) for x in act}
         ld = {"@context": "https://schema.org", "@graph": [ORG, {"@type": "WebSite", "@id": SITE + "/#website", "url": SITE + "/", "name": "TWN World News", "alternateName": ["TWN", "Terra World News", "TERRA WORLD NEWS"], "publisher": {"@id": SITE + "/#org"}, "inLanguage": act},
-              {"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": SITE + art_url(it, l)} for i, it in enumerate([lead] + rest)]}]}
+              {"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": SITE + art_url(it, l)} for i, it in enumerate([lead] + rest)]}, site_nav(l)]}
         write(pre(l), page(l, act, u['title_home'], u['desc_home'], pre(l), body, alts, ld, issue=latest.get('issue', 1), date=latest['date'], ticker=ticker))
         urls.append((pre(l), alts, latest['date']))
         # ---- sections (Ressortseite: Aufmacher + Top-Teaser, Tagesblöcke der letzten 7 Tage, Seitenleiste, Archivseiten)
@@ -1015,13 +1082,13 @@ def build():
                         sb = (f'{tabs(k)}<div class="sec-page" style="--c:{SEC_COLOR[s]}"><div class="rail-h sec-head"><h1 class="sec-title">{e(title)}</h1><span class="meta">{len(sits)} {u["items"]}</span></div>'
                               + (f'<div class="sec-list wide">{daylist(sits[:120])}</div>' if sits else f'<p class="note">{e(u["empty"])}</p>') + '</div>')
                     subalts = {x: sub_url(s, k, x) for x in act}
-                    write(su, page(l, act, f'{title} | TWN – World News', f'{title}: {u["desc_home"]}', su, sb, subalts, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": title, "url": SITE + su, "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
+                    write(su, page(l, act, f'{title} | TWN – World News', (SUB_DESC[k][l] if k in SUB_DESC else f'{title}: {u["desc_home"]}'), su, sb, subalts, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": title, "url": SITE + su, "inLanguage": l}, crumbs(l, [(SEC[l][s][0], sec_home(s, l)), (SUB[l][k][0], su)] if su != sec_home(s, l) else [(SEC[l][s][0], su)])]}, issue=latest.get('issue', 1), date=latest['date']))
                     urls.append((su, subalts, latest['date']))
             if s in SUBS:  # keine eigene Übersichtsseite: Weiterleitung auf die erste Unterrubrik (zusätzlich 301 in _redirects)
                 _h = sec_home(s, l)
                 write(sec_url(s, l), f'<!doctype html><html lang="{l}"><head><meta charset="utf-8"><meta name="robots" content="noindex"><link rel="canonical" href="{SITE}{_h}"><meta http-equiv="refresh" content="0; url={_h}"><title>{e(SEC[l][s][0])}</title></head><body><a href="{_h}">{e(SEC[l][s][0])}</a></body></html>')
                 continue
-            write(sec_url(s, l), page(l, act, f'{SEC[l][s][0]} | TWN – World News', (BZ[l]['desc'] if s == 'business' else f'{SEC[l][s][0]}: {u["desc_home"]}'), sec_url(s, l), body, salts, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": SEC[l][s][0], "url": SITE + sec_url(s, l), "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date'],
+            write(sec_url(s, l), page(l, act, f'{SEC[l][s][0]} | TWN – World News', (BZ[l]['desc'] if s == 'business' else sec_desc(s, l, f'{SEC[l][s][0]}: {u["desc_home"]}')), sec_url(s, l), body, salts, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": SEC[l][s][0], "url": SITE + sec_url(s, l), "inLanguage": l}, crumbs(l, [(SEC[l][s][0], sec_url(s, l))])]}, issue=latest.get('issue', 1), date=latest['date'],
                   ticker2=(boerse_ticker(BIZ[max(BIZ)], l) if s == 'business' and BIZ else '')))
             urls.append((sec_url(s, l), salts, latest['date']))
         # ---- articles
