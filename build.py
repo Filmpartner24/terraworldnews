@@ -370,6 +370,11 @@ def num_date(d):
     y, m, dd = d.split('-')
     return f'{dd}.{m}.{y}'
 
+CH_LINK = {'filmpartner24': 'https://filmpartner24.com/'}
+def ch_html(ch):
+    u = CH_LINK.get((ch or '').lower().replace(' ', ''))
+    return f'<a href="{u}" target="_blank" rel="noopener">{e(ch)}</a>' if u else e(ch)
+
 EXL = {'bg': 'Ексклузивно', 'de': 'Exklusiv', 'en': 'Exclusive'}
 EXB = {'bg': '▶ Гледай видеото и прочети статията', 'de': '▶ Video ansehen & Artikel lesen', 'en': '▶ Watch the video & read the article'}
 def ex_block(it, l):
@@ -379,10 +384,10 @@ def ex_block(it, l):
     ch = (it.get('yt') or {}).get('ch', '')
     vl = {'bg': 'Видео', 'de': 'Video', 'en': 'Video'}[l]
     return (f'<section class="exband gp gp-home gp-ex" aria-label="{e(EXL[l])}"><div class="gp-head"><h2 class="gp-title">★ {e(EXL[l])}</h2>{gp_slogan(l)}</div>'
-            f'<div class="gp-panel vb-panel ex-panel"><a class="ex-card" href="{art_url(it, l)}"><div class="ex-img"{st}><span class="ex-play" aria-hidden="true">▶</span>'
-            f'<span class="ex-badge">{e(EXL[l])}{(" · " + e(kind)) if kind else ""}</span></div>'
-            f'<div class="ex-txt">{(f'<p class="ov-line">{e(T["ov"])}</p>' if T.get("ov") else "")}<h3>{e(T["t"])}</h3>{(f'<p class="sub-h">{e(T["st"])}</p>' if T.get("st") else "")}<p>{e(T["d"])}</p><span class="ex-more">{e(EXB[l])}</span>'
-            f'<span class="ex-cr">{vl}: {e(ch)}</span></div></a></div></section>')
+            f'<div class="gp-panel vb-panel ex-panel"><div class="ex-card"><a class="ex-img" href="{art_url(it, l)}"{st}><span class="ex-play" aria-hidden="true">▶</span>'
+            f'<span class="ex-badge">{e(EXL[l])}{(" · " + e(kind)) if kind else ""}</span></a>'
+            f'<div class="ex-txt">{(f'<p class="ov-line">{e(T["ov"])}</p>' if T.get("ov") else "")}<h3><a href="{art_url(it, l)}">{e(T["t"])}</a></h3>{(f'<p class="sub-h">{e(T["st"])}</p>' if T.get("st") else "")}<p>{e(T["d"])}</p><a class="ex-more" href="{art_url(it, l)}">{e(EXB[l])}</a>'
+            f'<span class="ex-cr">{vl}: {ch_html(ch)}</span></div></div></div></section>')
 
 def kick(it, l, prefix=''):
     if it.get('live'): prefix = f'<b class="brk">{e(UI[l]["brk"])}</b>' + prefix
@@ -566,7 +571,7 @@ def media_article(it, l, paras, facts, noadv, rel, side, SX):
         cov = f'<img class="gr-cover" src="{e(it["cover"]["f"])}" alt="{e(it["cover"].get("alt", {}).get(l, ""))}" width="600" height="600">' if it.get('cover') else ''
         badge = f'<span class="gr-badge">{g["badge"]}</span>' if rv else ''
         media = (f'<div class="ga-media"><div class="yt gr-yt" data-yt="{e(v["id"])}"{bg}>{badge}{cov}<button type="button" class="yt-play">{e(g.get("playb") or u["play"])}</button>'
-                 f'<span class="yt-note">{e(u["ytnote"])}</span></div>{cr}<p class="gr-yt-src">{e(g["vid"])}: YouTube · {e(v.get("ch", ""))} · <a href="https://www.youtube.com/watch?v={e(v["id"])}" rel="noopener nofollow" target="_blank">youtube.com</a></p></div>')
+                 f'<span class="yt-note">{e(u["ytnote"])}</span></div>{cr}<p class="gr-yt-src">{e(g["vid"])}: YouTube · {ch_html(v.get("ch", ""))} · <a href="https://www.youtube.com/watch?v={e(v["id"])}" rel="noopener nofollow" target="_blank">youtube.com</a></p></div>')
     elif im:
         alt = im.get('alt', {}).get(l, '')
         media = f'<div class="ga-media"><img class="ga-img" src="{im["f"]}" width="{im["w"]}" height="{im["h"]}" alt="{e(alt)}">{cr if im.get("cr") else ""}' + ('' if im.get('cr') else f'<p class="gr-cr">{cap_pre(alt, l)}{credit(im, l, True)}</p>') + '</div>'
@@ -1121,7 +1126,7 @@ def build():
                 isv = v.get('kind') == 'video' or it.get('brk') or it.get('mv')
                 trailer += (f'<section class="trailer"><h2>{e(u["vid"] if isv else u["trailer"])}: {ttl}</h2>'
                             f'<div class="yt" data-yt="{vid}"><button type="button" class="yt-play">{e(u["playv"] if isv else u["play"])}</button><span class="yt-note">{e(u["ytnote"])}</span></div>'
-                            f'<p class="src">YouTube · {e(v.get("ch", ""))} · <a href="https://www.youtube.com/watch?v={vid}" rel="noopener nofollow" target="_blank">youtube.com</a></p></section>')
+                            f'<p class="src">YouTube · {ch_html(v.get("ch", ""))} · <a href="https://www.youtube.com/watch?v={vid}" rel="noopener nofollow" target="_blank">youtube.com</a></p></section>')
             noadv = f'<p class="noadv">{e(NOADV[l])}</p>' if it['s'] == 'leben' and not it.get('_kl') else f'<p class="noadv">{e(BZ[l]["noadv"])}</p>' if it.get('biz') else ''
             if it.get('biz'):
                 _bz = it['biz']

@@ -820,3 +820,9 @@ nav.sections.nv2 .nav-dd .dd a:hover{background:#d4161c;color:#fff}
 .sub-h{margin:6px 0 12px;font-family:var(--head);font-size:21px;line-height:1.25;opacity:.92}
 .ex-txt .ov-line{color:#ff4d52}
 .ex-txt .sub-h{color:#fff;font-size:18px;margin:0 0 12px}
+
+.ex-img{display:block}
+.ex-txt h3 a{color:#fff;text-decoration:none}
+.ex-txt h3 a:hover{text-decoration:underline}
+a.ex-more{text-decoration:none}
+.ex-cr a{color:#cfd6ee;text-decoration:underline;text-underline-offset:2px}
