@@ -43,7 +43,7 @@ def render(data):
 
 def main():
     done = fail = 0
-    for f in sorted(glob.glob(os.path.join(HERE, 'content', '*.json'))) + glob.glob(os.path.join(HERE, 'content', 'football', '_images.json')) + glob.glob(os.path.join(HERE, 'content', 'boxing', '_images.json')) + glob.glob(os.path.join(HERE, 'content', 'mma', '_images.json')):
+    for f in sorted(glob.glob(os.path.join(HERE, 'content', '*.json'))) + glob.glob(os.path.join(HERE, 'content', 'football', '_images.json')) + glob.glob(os.path.join(HERE, 'content', 'boxing', '_images.json')) + glob.glob(os.path.join(HERE, 'content', 'mma', '_images.json')) + glob.glob(os.path.join(HERE, 'content', 'sport', '_images.json')):
         for it in json.load(open(f, encoding='utf-8')).get('items', []):
             img = it.get('img') or {}
             page, rel = img.get('page', ''), img.get('f', '')
