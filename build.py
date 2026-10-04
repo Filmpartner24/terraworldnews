@@ -1494,9 +1494,11 @@ def build():
     newest = max(d['date'] for d in eds)
     recent = [it for it in allitems if (datetime.date.fromisoformat(newest) - datetime.date.fromisoformat(it['date'])).days <= 1]
     ns = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n'
-    for it in recent:
+    _nn = 0
+    for it in sorted(recent, key=lambda x: (x['date'], x['time']), reverse=True):   # neueste zuerst, max. 1000 URLs (Google-News-Sitemap-Grenze)
         for l in act:
-            if l in it:
+            if l in it and _nn < 1000:
+                _nn += 1
                 ns += f'  <url><loc>{SITE}{art_url(it, l)}</loc><news:news><news:publication><news:name>TWN World News</news:name><news:language>{l}</news:language></news:publication><news:publication_date>{iso(it)}</news:publication_date><news:title>{e(it[l]["t"])}</news:title></news:news></url>\n'
     ns += '</urlset>\n'
     open(os.path.join(OUT, 'news-sitemap.xml'), 'w', encoding='utf-8').write(ns)
