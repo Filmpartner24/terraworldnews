@@ -225,6 +225,8 @@ ASSET_V={n:_hl.md5(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
 ASSET_V['search.js']=_hl.md5(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'search.js'),'rb').read()).hexdigest()[:8]
 ASSET_V['terra.js']=_hl.md5(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'terra.js'),'rb').read()).hexdigest()[:8]
 
+OG_HOME_T = 'TERRA WORLD NEWS | NEWS. FACTS. CONTEXT.'   # Social-Vorschau der Startseiten (WhatsApp, Facebook, X): immer Englisch (Nedys Vorgabe 04.10.2026)
+OG_HOME_D = 'World news from Europe, Germany, Bulgaria and beyond – fact-checked every day, with sources and videos. In English, German and Bulgarian.'
 def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='website', issue=1, date=None, ticker=None, extra_head='', og_img=None, ticker2=''):
     u = UI[l]
     alts = ''
@@ -276,8 +278,8 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
 <link rel="alternate" type="application/rss+xml" title="TWN – World News ({l.upper()})" href="{SITE}{pre(l)}rss.xml">
 <meta name="theme-color" content="#ffffff"><meta name="color-scheme" content="light only">
 <link rel="icon" href="/favicon.ico?v=10" sizes="16x16 32x32 48x48"><link rel="icon" type="image/png" sizes="96x96" href="/assets/icon-96.png?v=10"><link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png?v=10"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=10">
-<meta property="og:type" content="{og_type}"><meta property="og:site_name" content="TWN – World News"><meta name="application-name" content="TWN"><meta name="apple-mobile-web-app-title" content="TWN"><link rel="manifest" href="/manifest.webmanifest"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{SITE}{canon}"><meta property="og:image" content="{SITE}{og_img or '/assets/og-image.jpg'}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="{675 if og_img else 630}"><meta property="og:locale" content="{LOCALE.get(l, l)}">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}"><meta name="twitter:image" content="{SITE}{og_img or '/assets/og-image.jpg'}">
+<meta property="og:type" content="{og_type}"><meta property="og:site_name" content="TERRA WORLD NEWS"><meta name="application-name" content="TWN"><meta name="apple-mobile-web-app-title" content="TWN"><link rel="manifest" href="/manifest.webmanifest"><meta property="og:title" content="{e(OG_HOME_T if canon == pre(l) else title)}"><meta property="og:description" content="{e(OG_HOME_D if canon == pre(l) else desc)}"><meta property="og:url" content="{SITE}{canon}"><meta property="og:image" content="{SITE}{og_img or '/assets/og-image-v2.jpg'}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="{675 if og_img else 630}"><meta property="og:locale" content="{LOCALE.get(l, l)}">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(OG_HOME_T if canon == pre(l) else title)}"><meta name="twitter:description" content="{e(OG_HOME_D if canon == pre(l) else desc)}"><meta name="twitter:image" content="{SITE}{og_img or '/assets/og-image-v2.jpg'}">
 {extra_head}{ldj}
 <link rel="preload" as="image" href="/assets/terra-masthead5-800.webp" imagesrcset="/assets/terra-masthead5-800.webp 800w, /assets/terra-masthead5-1600.webp 1600w" imagesizes="(max-width: 700px) 86vw, 620px" type="image/webp">
 <link rel="stylesheet" href="/assets/fonts.css?v={ASSET_V['fonts.css']}">
@@ -1313,7 +1315,7 @@ def build():
             aalts = {x: art_url(it, x) for x in act if x in it}
             ld = {"@context": "https://schema.org", "@graph": [ORG, {"@type": "NewsArticle", "@id": SITE + art_url(it, l) + "#article", "mainEntityOfPage": SITE + art_url(it, l), "headline": T['t'][:110], "description": T['d'],
                   "datePublished": iso(it), "dateModified": iso(it), "inLanguage": l, "articleSection": SEC[l][it['s']][0], "isAccessibleForFree": True,
-                  "image": [SITE + (it["img"]["f"] if it.get("img") else "/assets/og-image.jpg")], "author": {"@type": "Organization", "name": u['by'], "url": SITE + legal_url('principles', l)}, "publisher": {"@id": SITE + "/#org"},
+                  "image": [SITE + (it["img"]["f"] if it.get("img") else "/assets/og-image-v2.jpg")], "author": {"@type": "Organization", "name": u['by'], "url": SITE + legal_url('principles', l)}, "publisher": {"@id": SITE + "/#org"},
                   "citation": CIT(it['src'])},
                   {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": u['home'], "item": SITE + pre(l)}, {"@type": "ListItem", "position": 2, "name": SEC[l][it['s']][0], "item": SITE + sec_home(it['s'], l, it.get('sub'))}, {"@type": "ListItem", "position": 3, "name": T['t']}]}]}
             extra = f'<meta property="article:published_time" content="{iso(it)}"><meta property="article:section" content="{e(SEC[l][it["s"]][0])}">'
