@@ -227,7 +227,7 @@ class Doc(BaseDocTemplate):
         c.saveState()
         c.setFillColor(NAVY); c.rect(0, H - 24 * mm, W, 24 * mm, stroke=0, fill=1)
         c.setFillColor(RED); c.rect(0, H - 25.2 * mm, W, 1.2 * mm, stroke=0, fill=1)
-        logo = os.path.join(HERE, 'static', 'assets', 'icon-192.png')
+        logo = os.path.join(HERE, 'tools', 'report-icon.png')
         if os.path.exists(logo): c.drawImage(logo, 15 * mm, H - 20.5 * mm, 17 * mm, 17 * mm, mask='auto')
         c.setFillColor(colors.white); c.setFont(FONTB, 15); c.drawString(36 * mm, H - 12 * mm, 'TERRA WORLD NEWS')
         c.setFont(FONT, 9); c.drawString(36 * mm, H - 17.5 * mm, 'Besucherbericht · terraworldnews.com')
