@@ -12,3 +12,4 @@ Abgrenzung: „Wirtschaft“ = Unternehmen, Märkte, Wirtschaftspolitik. „Lebe
 Themen mit aktuellem Anlass bevorzugen (neue Gesetze, Fristen, Preise, Saison). Immer DE- und BG-Bezug, länderspezifische Angaben klar markieren.
 
 ## Erledigt (Datum – Titel – Status)
+- 2026-10-05 – Deutschland oder Bulgarien: Was kostet der Alltag wirklich? – Entwurf
