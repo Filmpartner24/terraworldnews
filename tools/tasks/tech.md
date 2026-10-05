@@ -1,0 +1,20 @@
+TERRA WORLD NEWS (terraworldnews.com) – tägliches Update der Rubrik TECHNOLOGIE-VIDEOS (Rubrik „Technologie“: BG /tehnologii/, DE /de/technologie/, EN /en/technology/). Chefredakteur: Nedy John Cross (Bericht auf Deutsch). Arbeite selbstständig, ohne Rückfragen.
+
+0. SETUP: Repo Filmpartner24/terraworldnews (privat, Branch main) mit add_repo (access push) anhängen, nach /home/claude/terra klonen bzw. git pull. Skill „terra-daily-edition“ laden, falls vorhanden (Stil, Quellen, Fotos, „АзГ (AfD)“). Datum/Uhrzeit Europe/Berlin bestimmen. Muster für Format und Ton: content/2026-10-04-tech.json und die neueste content/*-tech.json. Alle content/*-tech.json der letzten 7 Tage (und für Überschneidungen content/<heute>*.json) lesen – nichts doppeln, nur echte neue Entwicklungen.
+
+1. INHALT: 6 Meldungen pro Tag in content/<YYYY-MM-DD>-tech.json ({"date","items":[…]}; existiert die Datei, anhängen), s="ki" (wird als „Technologie“ angezeigt):
+   a) 3 Video-Meldungen zu Wissenschaft mit praktischem Nutzen, Raumfahrt, Quantentechnik, Biotechnologie/Medizintechnik, Mobilität/Fahrzeuge, Energie- und Materialinnovationen, Chips, Telekom – mit offiziellem Video der Institution/des Unternehmens (ESA, NASA, DLR, Fraunhofer, Max-Planck, CERN, Universitäten, Hersteller) als yt {"id","ch","kind":"video"}.
+   b) 3 News ohne Video mit "mn": true (Studien mit Journal und Datum, Behörden, Unternehmen).
+   NICHT: KI-Modelle, KI-Start-ups, humanoide Roboter (die gehören in die Rubrik KI) und nichts, was die Tagesausgabe heute schon in s="ki" hat. Quellen: offizielle Institutionen/Unternehmen, Fachjournale (DOI), Reuters, AP, heise, Ars Technica, The Verge, Spektrum, New Scientist.
+
+VIDEOS: Video-ID nur aus tatsächlich gesehener URL, nie raten; jede ID per WebFetch https://noembed.com/embed?url=https://www.youtube.com/watch?v=<ID> prüfen (author_name = offizieller Kanal, Titel passt zum Thema und ist aktuell); in Deutschland abspielbar; keine Fan-/Re-Upload-Kanäle. Schlägt die Prüfung fehl, Video weglassen bzw. andere Meldung wählen.
+BILDER: Für Meldungen ohne Video ein Wikimedia-Commons-Foto (CC BY/BY-SA/CC0/PD) über candidates/<YYYY-MM-DD>-tech/requests.json ([{"id","q":["konkret","breiter Fallback"]}]) → push → ~3 Min. warten → git pull → Kontaktbögen ansehen → img {"f":"/assets/news/<Datum>/<id>.webp","w":1200,"h":675,"art","lic","page","alt":{bg,de,en}} mit Symbol-/Archivbild-Kennzeichnung im alt; nur eindeutig identifizierte Personen. Für Video-Meldungen wie im Muster ein Standbild aus dem offiziellen Video mit „©“-Nachweis (img.cr, page = Video-URL), falls kein passendes Commons-Bild existiert. Keine KI-Bilder, keine Agenturfotos. Danach candidates/<Datum>-tech löschen.
+Je Meldung bg/de/en: t ≤90, d ≤220, body = JSON-LISTE mit 2–3 Absätzen (nie ein String); Bulgarisch und Englisch inhaltsgleich zum Deutschen. src [{n,u}] nur tatsächlich gesehene, datierte Quellen; eigene Worte, Zitate nur wörtlich belegt mit Sprecher; Gerüchte nur klar gekennzeichnet mit seriöser Quelle, sonst weglassen. time = Veröffentlichungszeit (HH:MM Berlin).
+
+2. FAKTENCHECK: ein unabhängiger Faktenprüfer-Subagent prüft jede Zahl, jeden Namen, jedes Datum, jede Wertung und jedes Video gegen die Quellen; Korrekturen übernehmen, Unbestätigtes streichen (ggf. ersetzen).
+
+3. VERÖFFENTLICHEN: Python-Prüfung (JSON gültig, jedes body eine Liste, img.f beginnt mit "/", Längen t/d eingehalten). cd /home/claude/terra && PYTHONHASHSEED=1 python3 build.py fehlerfrei; out/de/technologie/index.html stichprobenartig prüfen. git add content static/assets/news candidates; commit „Technologie <Datum>“ mit den Attributionszeilen der Sitzung; git pull --rebase; git push. Nach ~4 Min. prüfen, dass der Action-Lauf erfolgreich war und die Fotos unter static/assets/news/<Datum>/ angekommen sind.
+
+4. BERICHT (SendUserMessage via ToolSearch laden, und als finale Antwort), kurz auf Deutsch: die Schlagzeilen (welche mit Video/Kanal), was weggelassen wurde und warum.
+
+REGELN: Nur content/, static/assets/news/ und candidates/ ändern; Design nicht anfassen. Keine Logins, Konten, Zahlungen. Nur eigene Arbeitsdateien löschen.

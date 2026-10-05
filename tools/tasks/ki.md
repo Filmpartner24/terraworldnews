@@ -1,0 +1,20 @@
+TERRA WORLD NEWS (terraworldnews.com) – tägliches Update der Rubrik KI (BG „ИИ“ /izkustven-intelekt/, DE /de/ki/, EN /en/ai/). Chefredakteur: Nedy John Cross (Bericht auf Deutsch). Arbeite selbstständig, ohne Rückfragen.
+
+0. SETUP: Repo Filmpartner24/terraworldnews (privat, Branch main) mit add_repo (access push) anhängen, nach /home/claude/terra klonen bzw. git pull. Skill „terra-daily-edition“ laden, falls vorhanden (Stil, Quellen, Fotos, „АзГ (AfD)“). Datum/Uhrzeit Europe/Berlin bestimmen. Muster für Format und Ton: content/2026-10-04-ki.json und die neueste content/*-ki.json. Alle content/*-ki.json der letzten 7 Tage (und für Überschneidungen content/<heute>*.json) lesen – nichts doppeln, nur echte neue Entwicklungen.
+
+1. INHALT: 6 Meldungen pro Tag in content/<YYYY-MM-DD>-ki.json ({"date","items":[…]}; existiert die Datei, anhängen), s="ai", "kick" wie im Muster:
+   a) 3 Video-Meldungen: neue KI-Modelle, KI-Produkte, Roboter/Humanoide, KI-Forschung – jeweils mit offiziellem Video des Unternehmens/der Institution (OpenAI, Anthropic, Google/DeepMind, Meta, Microsoft, NVIDIA, Mistral, xAI, Figure, Boston Dynamics, Tesla, Universitäten) als yt {"id","ch","kind":"video"}.
+   b) 3 News ohne Video mit "mn": true (Finanzierungen, Regulierung wie EU AI Act, Personalien, Sicherheit, Chips, Rechenzentren).
+   Quellen: offizielle Firmenblogs/Pressemitteilungen, Reuters, AP, The Verge, TechCrunch, Ars Technica, heise, Wired, Bloomberg, FT.
+
+VIDEOS: Video-ID nur aus tatsächlich gesehener URL, nie raten; jede ID per WebFetch https://noembed.com/embed?url=https://www.youtube.com/watch?v=<ID> prüfen (author_name = offizieller Kanal, Titel passt zum Thema und ist aktuell); in Deutschland abspielbar; keine Fan-/Re-Upload-Kanäle. Schlägt die Prüfung fehl, Video weglassen bzw. andere Meldung wählen.
+BILDER: Für Meldungen ohne Video ein Wikimedia-Commons-Foto (CC BY/BY-SA/CC0/PD) über candidates/<YYYY-MM-DD>-ki/requests.json ([{"id","q":["konkret","breiter Fallback"]}]) → push → ~3 Min. warten → git pull → Kontaktbögen ansehen → img {"f":"/assets/news/<Datum>/<id>.webp","w":1200,"h":675,"art","lic","page","alt":{bg,de,en}} mit Symbol-/Archivbild-Kennzeichnung im alt; nur eindeutig identifizierte Personen. Für Video-Meldungen wie im Muster ein Standbild aus dem offiziellen Video mit „©“-Nachweis (img.cr, page = Video-URL), falls kein passendes Commons-Bild existiert. Keine KI-Bilder, keine Agenturfotos. Danach candidates/<Datum>-ki löschen.
+Je Meldung bg/de/en: t ≤90, d ≤220, body = JSON-LISTE mit 2–3 Absätzen (nie ein String); Bulgarisch und Englisch inhaltsgleich zum Deutschen. src [{n,u}] nur tatsächlich gesehene, datierte Quellen; eigene Worte, Zitate nur wörtlich belegt mit Sprecher; Gerüchte nur klar gekennzeichnet mit seriöser Quelle, sonst weglassen. time = Veröffentlichungszeit (HH:MM Berlin).
+
+2. FAKTENCHECK: ein unabhängiger Faktenprüfer-Subagent prüft jede Zahl, jeden Namen, jedes Datum, jede Wertung und jedes Video gegen die Quellen; Korrekturen übernehmen, Unbestätigtes streichen (ggf. ersetzen).
+
+3. VERÖFFENTLICHEN: Python-Prüfung (JSON gültig, jedes body eine Liste, img.f beginnt mit "/", Längen t/d eingehalten). cd /home/claude/terra && PYTHONHASHSEED=1 python3 build.py fehlerfrei; out/de/ki/index.html stichprobenartig prüfen. git add content static/assets/news candidates; commit „KI <Datum>“ mit den Attributionszeilen der Sitzung; git pull --rebase; git push. Nach ~4 Min. prüfen, dass der Action-Lauf erfolgreich war und die Fotos unter static/assets/news/<Datum>/ angekommen sind.
+
+4. BERICHT (SendUserMessage via ToolSearch laden, und als finale Antwort), kurz auf Deutsch: die Schlagzeilen (welche mit Video/Kanal), was weggelassen wurde und warum.
+
+REGELN: Nur content/, static/assets/news/ und candidates/ ändern; Design nicht anfassen. Keine Logins, Konten, Zahlungen. Nur eigene Arbeitsdateien löschen.
