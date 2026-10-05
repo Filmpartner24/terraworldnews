@@ -102,7 +102,10 @@
      "time": "20:45",
      "t1": "Frankreich",
      "t2": "Belgien",
-     "ft": null,
+     "ft": [
+      4,
+      1
+     ],
      "city": "Saint-Denis"
     },
     {
@@ -111,7 +114,10 @@
      "time": "20:45",
      "t1": "Italien",
      "t2": "Türkei",
-     "ft": null,
+     "ft": [
+      3,
+      1
+     ],
      "city": "Bologna"
     },
     {
@@ -769,7 +775,10 @@
      "time": "20:45",
      "t1": "Ukraine",
      "t2": "Ungarn",
-     "ft": null,
+     "ft": [
+      1,
+      2
+     ],
      "city": "Trnava"
     },
     {
@@ -778,7 +787,10 @@
      "time": "20:45",
      "t1": "Nordirland",
      "t2": "Georgien",
-     "ft": null,
+     "ft": [
+      0,
+      0
+     ],
      "city": "Belfast"
     },
     {
@@ -1037,7 +1049,10 @@
      "time": "20:45",
      "t1": "Rumänien",
      "t2": "Schweden",
-     "ft": null,
+     "ft": [
+      0,
+      1
+     ],
      "city": "Bukarest"
     },
     {
@@ -1046,7 +1061,10 @@
      "time": "20:45",
      "t1": "Bosnien und Herzegowina",
      "t2": "Polen",
-     "ft": null,
+     "ft": [
+      1,
+      0
+     ],
      "city": "Zenica"
     },
     {
