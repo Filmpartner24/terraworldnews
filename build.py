@@ -715,16 +715,28 @@ def live_box(l, kind):  # Live-Spielstände: wird per terra.js aus /api/live gef
             f'<h2 class="gp-h"><span class="live-dot"></span> {e(u["h"])} · {e(u["today"])}</h2><div class="live-list"></div><p class="fb-ko live-src">{e(u["src"])}</p></section>')
 
 # ---- Fußball heute im TV (Daten: content/tv/YYYY-MM-DD.json, täglich redaktionell recherchiert)
-TVU = {'bg': dict(h='Футбол по телевизията днес', lnk='⚽ Футбол по ТВ днес', ch='Канал', src='Източници', note='Без гаранция – часове и канали според телевизиите; възможни са промени.'),
-       'de': dict(h='Fußball heute im TV', lnk='⚽ Fußball heute im TV', ch='Sender', src='Quellen', note='Ohne Gewähr – Zeiten und Sender laut Programmangaben der Sender; Änderungen möglich.'),
-       'en': dict(h='Football on TV today', lnk='⚽ Football on TV today', ch='Channel', src='Sources', note='No guarantee – times and channels as announced by the broadcasters; subject to change.')}
+TVU = {'bg': dict(h='Футбол по телевизията днес', h2='Футбол по телевизията – резултати', lnk='⚽ Футбол по ТВ днес', ch='Канал', src='Източници', note='Без гаранция – часове и канали според телевизиите; възможни са промени.'),
+       'de': dict(h='Fußball heute im TV', h2='Fußball im TV – Ergebnisse', lnk='⚽ Fußball heute im TV', ch='Sender', src='Quellen', note='Ohne Gewähr – Zeiten und Sender laut Programmangaben der Sender; Änderungen möglich.'),
+       'en': dict(h='Football on TV today', h2='Football on TV – results', lnk='⚽ Football on TV today', ch='Channel', src='Sources', note='No guarantee – times and channels as announced by the broadcasters; subject to change.')}
 def tv_today():
     try:
         import zoneinfo; return datetime.datetime.now(zoneinfo.ZoneInfo('Europe/Berlin')).date().isoformat()
     except Exception: return (datetime.datetime.utcnow() + datetime.timedelta(hours=1)).date().isoformat()
-def tv_load(d=None):
-    fp = os.path.join(HERE, 'content', 'tv', f'{d or tv_today()}.json')
-    return json.load(open(fp, encoding='utf-8')) if os.path.exists(fp) else None
+def tv_load(d=None):  # Datei des Tages; fehlt sie (z. B. nach Mitternacht), die des Vortags – dann mit Ergebnissen
+    t = d or tv_today()
+    for dd in (t, (datetime.date.fromisoformat(t) - datetime.timedelta(days=1)).isoformat()):
+        fp = os.path.join(HERE, 'content', 'tv', f'{dd}.json')
+        if os.path.exists(fp): return json.load(open(fp, encoding='utf-8'))
+    return None
+def tv_ft(x, date):  # Ergebnis: aus der TV-Datei ("ft") oder automatisch aus den Nations-League-Daten
+    if x.get('ft'): return x['ft']
+    m = x.get('m', {}); md = m.get('de', '') if isinstance(m, dict) else m
+    if ' – ' not in md: return None
+    a, b = [y.strip() for y in md.split(' – ', 1)]
+    for g in NL.get('groups', []):
+        for mm in g['matches']:
+            if mm['date'] == date and mm['t1'] == a and mm['t2'] == b and mm.get('ft') is not None: return mm['ft']
+    return None
 def tv_rows(l):
     tv = tv_load()
     if not tv: return []
@@ -732,15 +744,16 @@ def tv_rows(l):
     for x in sorted(tv.get('items', []), key=lambda x: x.get('time', '')):
         if l == 'en': ch = '; '.join(f'{c}: {", ".join(x[c.lower()])}' for c in ('DE', 'BG') if x.get(c.lower()))
         else: ch = ', '.join(x.get(l, []))
-        if ch: out.append((x.get('time', ''), bx_t(x.get('comp', ''), l), bx_t(x.get('m', ''), l), ch))
+        if ch: out.append((x.get('time', ''), bx_t(x.get('comp', ''), l), bx_t(x.get('m', ''), l), ch, tv_ft(x, tv['date'])))
     return out
 def tv_block(l):
     rows = tv_rows(l)
     if not rows: return ''
     u = TVU[l]; tv = tv_load()
     srcs = ' · '.join(f'<a href="{e(x["u"])}" rel="noopener nofollow" target="_blank">{e(x["n"])}</a>' for x in tv.get('src', []))
-    tr = ''.join(f'<tr><td class="fb-when">{e(t)}</td><td class="tv-m"><b>{e(m)}</b><span class="tv-c">{e(c)}</span></td><td class="fb-note tv-ch">{e(ch)}</td></tr>' for t, c, m, ch in rows)
-    return (f'<section class="tv-box" id="tv"><h2 class="gp-h">📺 {e(u["h"])} · {short_date(tv["date"], l)}</h2><div class="tbl-wrap"><table class="fb-m tv-t"><tbody>{tr}</tbody></table></div>'
+    tr = ''.join(f'<tr><td class="fb-when">{e(t)}</td><td class="tv-m"><b>{e(m)}</b><span class="tv-c">{e(c)}</span></td><td class="fb-scc">' + (f'<b class="fb-sc">{ft[0]}:{ft[1]}</b>' if ft else f'<span class="fb-sc fb-open">{e(FBU[l]["noft"])}</span>') + f'</td><td class="fb-note tv-ch">{e(ch)}</td></tr>' for t, c, m, ch, ft in rows)
+    hh = u['h'] if tv['date'] == tv_today() else u['h2']
+    return (f'<section class="tv-box" id="tv"><h2 class="gp-h">📺 {e(hh)} · {short_date(tv["date"], l)}</h2><div class="tbl-wrap"><table class="fb-m tv-t"><tbody>{tr}</tbody></table></div>'
             f'<p class="fb-ko">{e(u["note"])}' + (f' {e(u["src"])}: {srcs}' if srcs else '') + '</p></section>')
 
 # ---- Service-Leiste (Startseite): Wetter + EZB-Kurse, per terra.js aus /api/svc
@@ -750,7 +763,8 @@ SVCU = {'bg': dict(wx='Времето', fx='Курс на еврото', cr='В�
 MRU = {'bg': 'Най-четени', 'de': 'Meistgelesen', 'en': 'Most read'}
 def svc_strip(l):
     u = SVCU[l]
-    tv = f'<a class="svc-tv" href="{sub_url("sport", "fussball", l)}#tv">{e(TVU[l]["lnk"])} →</a>' if tv_rows(l) else ''
+    _tv = tv_load()
+    tv = f'<a class="svc-tv" href="{sub_url("sport", "fussball", l)}#tv">{e(TVU[l]["lnk"])} →</a>' if tv_rows(l) and _tv and _tv['date'] == tv_today() else ''
     return (f'<section class="svc" id="svc" data-tx="{e(json.dumps(u, ensure_ascii=False))}" hidden><div class="svc-row"><span class="svc-l">{e(u["wx"])}</span><span class="svc-wx"></span></div>'
             f'<div class="svc-row"><span class="svc-l">{e(u["fx"])}</span><span class="svc-fx"></span>{tv}</div><p class="svc-cr"></p></section>')
 
