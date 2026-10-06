@@ -791,7 +791,7 @@ def fb_overview(l, today, news_html, others):
     seasons = sorted({FB[k]['season'] for k in FB})
     cards = ''.join(fb_league_card(k, l, today) for k in fb_order(l) if k in FB)
     return (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(title)}</h1><span class="gp-date">{e(f["season"])} {e(" / ".join(seasons))}</span></div>'
-            f'<div class="gp-main"><div class="gp-panel">{live_box(l, "club")}{tv_block(l)}<h2 class="gp-h">{e(f["leagues"])}</h2><div class="fb-grid">{cards}</div>{grid_cr([(FB[k]["name"][l], FB_IMG.get(k)) for k in fb_order(l) if k in FB], l)}{news_html}</div>'
+            f'<div class="gp-main"><div class="gp-panel">{live_box(l, "club")}<h2 class="gp-h">{e(f["leagues"])}</h2><div class="fb-grid">{cards}</div>{grid_cr([(FB[k]["name"][l], FB_IMG.get(k)) for k in fb_order(l) if k in FB], l)}{news_html}{tv_block(l)}</div>'
             f'<aside class="sec-side"><h2 class="list-h">{e(UI[l]["more"] if False else {"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
 
 def fb_league_page(k, l, today, others):
@@ -919,7 +919,7 @@ def nl_overview(l, today, news, hls, others):
     srcs = ' · '.join(f'<a href="{e(x["u"])}" rel="noopener nofollow" target="_blank">{e(x["n"])}</a>' for x in NL.get('src', []))
     html = (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(title)}</h1><span class="gp-date">{e(u["name"])} {e(NL.get("season", ""))}</span></div>'
             f'<div class="gp-main"><div class="gp-panel">')
-    html += live_box(l, 'nat') + tv_block(l) + f'<h2 class="gp-h">{e(u["ger"])}</h2>{nl_dfb_rows(l)}'
+    html += live_box(l, 'nat') + f'<h2 class="gp-h">{e(u["ger"])}</h2>{nl_dfb_rows(l)}'
     if a2: html += f'<h2 class="gp-h">{e(u["name"])} · {e(nl_gname(a2, l))}</h2>{nl_table(nl_lg(a2, l), l, nt("Deutschland", l))}'
     html += nl_window(l, today, True) + nl_window(l, today, False)   # Nedys Vorgabe: Ergebnisse und nächste Spiele ALLER Gruppen
     if news: html += f'<h2 class="gp-h">{e(u["news"])}</h2>{bx_news_grid(news, l)}'
@@ -935,6 +935,7 @@ def nl_overview(l, today, news, hls, others):
             html += f'<h3 class="nl-gh"><a href="{nl_url(g, l)}">{e(nl_gname(g, l))}</a></h3>' + nl_group_block(g, l, nt('Deutschland', l) if g is a2 else None)
     if cards: html += (f'<h2 class="gp-h">{e(u["name"])} · {e(u["groups"])}</h2><div class="fb-grid">{cards}</div>'
                        + grid_cr([(f'{u["name"]} {x.upper()}', NL_IMG.get("liga-" + x)) for x in ("a", "b")], l))
+    html += tv_block(l)   # TV-Liste ganz unten (Nedys Vorgabe 06.10.2026: News und Fakten zuerst)
     if NL.get('format'): html += f'<p class="fb-ko"><b>{e(u["fmt"])}:</b> {e(NL["format"].get(l) or NL["format"].get("en", ""))}</p>'
     html += (f'<p class="fb-ko">{e(f["src"])}: {srcs}</p></div>'
              f'<aside class="sec-side"><h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
@@ -1029,7 +1030,7 @@ def sport_overview(l, its, s, others):
                   f'<div class="fb-card-txt"><p class="fb-lead"><b>{min(nt, SP_LIMIT.get(k, 6))}</b> {e(f["n"])}</p><span class="gr-more">{e(f["open"])}</span></div></a></article>')
         if top: news += f'<h2 class="gp-h">{e(f["news"][k])} <a class="sp-all" href="{sub_url(s, k, l)}">{e(f["all"])}</a></h2>{bx_news_grid(top, l)}'
     return (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(SEC[l][s][0])}</h1>{gp_slogan(l)}</div>'
-            f'<div class="gp-main"><div class="gp-panel">{tv_block(l) if s == "sport" else ""}<h2 class="gp-h">{e(f["subs"])}</h2><div class="fb-grid sp-grid">{cards}</div>{grid_cr([(SUB[l][k][0], SP_IMG.get(k)) for k in SUBS[s]], l)}{news}</div>'
+            f'<div class="gp-main"><div class="gp-panel"><h2 class="gp-h">{e(f["subs"])}</h2><div class="fb-grid sp-grid">{cards}</div>{grid_cr([(SUB[l][k][0], SP_IMG.get(k)) for k in SUBS[s]], l)}{news}</div>'
             f'<aside class="sec-side"><h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
 
 def bx_news_grid(items, l):
