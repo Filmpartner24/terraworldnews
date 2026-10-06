@@ -1230,7 +1230,7 @@ def build():
                    f'<p class="bk-slogan" aria-label="{". ".join(SLOGAN[l])}.">{"<i aria-hidden=\"true\"></i>".join(SLOGAN[l])}</p>'
                    f'<span class="meta">{u["brkup"]} {last}{(" " + u["hour"]) if u["hour"] else ""}</span></div>'
                    f'<div class="cards">{"".join(card(it, l) for it in cur)}</div></section>')
-        _exl = sorted([it for it in items_l if it.get('ex') and it['date'] >= (datetime.date.fromisoformat(latest['date']) - datetime.timedelta(days=7)).isoformat()], key=lambda x: (x['date'], x['time']), reverse=True)
+        _exl = sorted([it for it in items_l if it.get('ex') and not it.get('nohome') and it['date'] >= (datetime.date.fromisoformat(latest['date']) - datetime.timedelta(days=7)).isoformat()], key=lambda x: (x['date'], x['time']), reverse=True)
         exh = ex_block(_exl[0], l) if _exl else ''
         popular = ''.join(f'<div class="rank"><span class="n">{i + 1}</span>{rthumb(it)}<a href="{art_url(it, l)}">{kick(it, l)}<h3>{e(it[l]["t"])}</h3></a></div>' for i, it in enumerate(most_read(items_l, l, latest['date'])))
         body = bkh + exh + svc_strip(l) + (f'<section class="lead"><div class="lead-main"><a href="{art_url(lead, l)}">{plate(lead, l, eager=True)}</a>{kick(lead, l, e(u["lead"]) + " · ")}'
