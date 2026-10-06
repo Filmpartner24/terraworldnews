@@ -2,7 +2,7 @@ TERRA WORLD NEWS (terraworldnews.com) – tägliches Update der Rubrik KI (BG �
 
 0. SETUP: Repo Filmpartner24/terraworldnews (privat, Branch main) mit add_repo (access push) anhängen, nach /home/claude/terra klonen bzw. git pull. Skill „terra-daily-edition“ laden, falls vorhanden (Stil, Quellen, Fotos, „АзГ (AfD)“). Datum/Uhrzeit Europe/Berlin bestimmen. Muster für Format und Ton: content/2026-10-04-ki.json und die neueste content/*-ki.json. Alle content/*-ki.json der letzten 7 Tage (und für Überschneidungen content/<heute>*.json) lesen – nichts doppeln, nur echte neue Entwicklungen.
 
-1. INHALT: 6 Meldungen pro Tag in content/<YYYY-MM-DD>-ki.json ({"date","items":[…]}; existiert die Datei, anhängen), s="ai", "kick" wie im Muster:
+1. INHALT: 6 Meldungen pro Tag in content/<YYYY-MM-DD>-ki.json ({"date","items":[…]}; existiert die Datei, anhängen), s="ai", optional "kl": {bg,de,en} als Label (z. B. „Neues Modell“):
    a) 3 Video-Meldungen: neue KI-Modelle, KI-Produkte, Roboter/Humanoide, KI-Forschung – jeweils mit offiziellem Video des Unternehmens/der Institution (OpenAI, Anthropic, Google/DeepMind, Meta, Microsoft, NVIDIA, Mistral, xAI, Figure, Boston Dynamics, Tesla, Universitäten) als yt {"id","ch","kind":"video"}.
    b) 3 News ohne Video mit "mn": true (Finanzierungen, Regulierung wie EU AI Act, Personalien, Sicherheit, Chips, Rechenzentren).
    Quellen: offizielle Firmenblogs/Pressemitteilungen, Reuters, AP, The Verge, TechCrunch, Ars Technica, heise, Wired, Bloomberg, FT.

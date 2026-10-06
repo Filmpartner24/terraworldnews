@@ -9,5 +9,5 @@ Datei content/boxing/<org>.json (org = wbc | wba | ibf | wbo):
  "results":[ {"date":"YYYY-MM-DD","place":"…","f1":"Sieger","f2":"Verlierer","res":{"bg","de","en"} (z. B. "KO 5. Runde", "einstimmig nach Punkten", "Remis"),"div":{…},"title":{…}} ],  // Titelkämpfe der letzten ~3 Monate, neueste zuerst
  "src":[{"n":"…","u":"URL"}]}
 News-Items (je Verband 1 aktuelle Meldung von heute/gestern bzw. wenigen Tagen, falls nichts Neueres): Liste in drafts/box/news-<org>.json:
-[{"id":"latin-slug","s":"sport","sub":"boxen","org":["wbc"],"mn":true,"src":[{n,u}],"bg":{"t"≤90,"d"≤220,"body":[2–3 Absätze]},"de":{…},"en":{…},"photo_q":["Wikimedia-Commons-Suchbegriff (Boxer-Name)","Fallback"]}]
+[{"id":"latin-slug","s":"sport","sub":"boxen","org":["wbc"],"mn":true,"src":[{n,u}],"bg":{"t"≤90,"d"≤220,"body":[2–3 Absätze]},"de":{…},"en":{…}}]
 Regeln: nur belegte Angaben aus tatsächlich gesehenen Quellen (offizielle Verbandsseiten wbcboxing.com, wbaboxing.com, ibf-usba-boxing.com, wboboxing.com, ESPN, BoxRec-Zitate in Medien, The Ring, BoxingScene, Sky Sports, DAZN, BBC, Reuters, AP). Bei widersprüchlichen Angaben die offizielle Verbandsseite vorziehen und in notes vermerken. Namen in lateinischer Schrift. Gültiges JSON.

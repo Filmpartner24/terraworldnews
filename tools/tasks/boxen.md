@@ -1,0 +1,20 @@
+TERRA WORLD NEWS (terraworldnews.com) – tägliche Aktualisierung BOXEN (Sport → Boxen: Verbände WBC, WBA, IBF, WBO + Sonderblock „Fury vs. Joshua“ + Canelo Álvarez). Chefredakteur: Nedy John Cross (Bericht auf Deutsch). Arbeite selbstständig, ohne Rückfragen.
+
+0. SETUP: Repo Filmpartner24/terraworldnews (privat, main) mit add_repo (access push) anhängen, nach /home/claude/terra klonen bzw. git pull. Datenformat: tools/BOXING.md – content/boxing/<org>.json mit asof, champions (17 Gewichtsklassen, schwerste zuerst), upcoming, results, src. News-Muster: content/2026-10-03-boxen.json (s:"sport", sub:"boxen", org:[…], mn:true; Fury-Joshua-News zusätzlich "fj": true; Videos als yt {"id","ch","kind":"video"}).
+
+1. DATEN AKTUALISIEREN je Verband: neue Titelkämpfe (Ergebnisse) in results (neueste zuerst; älter als ~3 Monate entfernen), neu angesetzte Titelkämpfe in upcoming (vergangene entfernen), Champion-Wechsel in champions; asof auf heutiges Datum. Quellen: wbcboxing.com, wbaboxing.com, ibf-usba-boxing.com, wboboxing.com, ESPN, The Ring, BoxingScene, Sky Sports, DAZN, BBC, Reuters, AP. WebSearch mode "extended" + WebFetch. Nur Belegtes.
+
+2. NEWS pro Tag in content/<Datum>-boxen.json (anhängen):
+   a) 3 News zum Kampf TYSON FURY vs. ANTHONY JOSHUA (11.12.2026, Principality Stadium Cardiff, Netflix) mit "fj": true – täglich das Neueste (Training, Trainer, Aussagen, Tickets, Undercard, Quoten, Pressekonferenzen, Weigh-in, Kampfabend); drei unterschiedliche Themen, keine Wiederholung früherer Fury-Joshua-News. Bis einschließlich 12.12.2026 (am 12.12. Kampfbericht mit Ergebnis).
+   b) 2 News zu SAÚL „CANELO“ ÁLVAREZ (Kampf gegen Christian Mbilli um den WBC-Titel im Supermittelgewicht am 31.10.2026 in Riad, DAZN) – Vorbereitung, Aussagen, Stand der Ansetzung; nach dem Kampf Bericht/Ergebnis und Folgen (nächster Gegner, Pläne). org:["wbc"]. Keine Wiederholung früherer Canelo-News (vorher content/*-boxen.json und content/*-breaking.json der letzten 3 Tage lesen); gibt es keinen neuen belegten Stand, weniger und im Bericht sagen.
+   c) 3 allgemeine Boxen-News von heute/gestern (Titelkämpfe, Titelwechsel, Ansetzungen; org-Liste der betroffenen Verbände).
+   VIDEO: Möglichst JEDE Fury-Joshua- und Canelo-News (und wenn möglich auch allgemeine News) mit offiziellem Video: nur offizielle Kanäle (Matchroom Boxing, Queensberry Promotions, Ring Magazine, Sky Sports Boxing/News, DAZN Boxing, Netflix, talkSPORT, BBC Sport, TNT Sports, Top Rank, Riyadh Season, WBC). Videos müssen in Deutschland abspielbar sein (Nedys Vorgabe 04.10.2026): bevorzugt Promoter-/Verbandskanäle (Matchroom, Queensberry, Top Rank, Ring Magazine, WBC), DAZN Boxing, Netflix; bei TNT Sports oder Sky Sports nur Interviews/Pressekonferenzen, keine Kampf-Highlights (dort häufig geogesperrt). Video-ID nur aus tatsächlich gesehener URL/Einbettung; Kanal + Titel per WebFetch https://noembed.com/embed?url=https://www.youtube.com/watch?v=ID bestätigen; Video muss zum Thema passen und aktuell sein.
+   Jede News: bg/de/en mit t ≤90, d ≤220, body Liste 2–3 Absätze; Unbestätigtes als „laut …“; keine Fakten aus Allgemeinwissen ohne Quelle. Fotos nur Wikimedia Commons (CC BY/BY-SA/CC0/PD) über candidates/<Datum>-boxen/requests.json → Kontaktbogen ansehen → img mit art/lic/page und Kennzeichnung Archivbild/Symbolbild; candidates danach löschen.
+
+3. FAKTENCHECK: unabhängiger Faktenprüfer-Subagent prüft alle Änderungen, alle News und alle Videos; Korrekturen übernehmen.
+
+4. VERÖFFENTLICHEN: PYTHONHASHSEED=1 python3 build.py fehlerfrei; out/de/sport/boxen/index.html prüfen (Fury-vs-Joshua-Block, Video-Symbole). Commit „Boxen <Datum>“ (mit Attributionszeilen der Sitzung), git pull --rebase, push.
+
+5. BERICHT (SendUserMessage via ToolSearch laden, und als finale Antwort), kurz auf Deutsch: neue Titelkämpfe/Weltmeister, die News (welche mit Video), offene Punkte. Benachrichtigung nur bei Problemen.
+
+REGELN: Nur content/, candidates/, drafts/ ändern; Design nicht anfassen. Keine Logins, Konten, Zahlungen.
