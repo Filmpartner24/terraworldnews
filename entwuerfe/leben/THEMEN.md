@@ -13,3 +13,4 @@ Themen mit aktuellem Anlass bevorzugen (neue Gesetze, Fristen, Preise, Saison). 
 
 ## Erledigt (Datum – Titel – Status)
 - 2026-10-05 – Deutschland oder Bulgarien: Was kostet der Alltag wirklich? – Entwurf
+- 2026-10-06 – Was kostet deine Wohnung wirklich? Miete, Nebenkosten und Strom in DE und BG – Entwurf
