@@ -201,6 +201,10 @@ def short_date(date, l):
     dt = datetime.date.fromisoformat(date)
     return f'{dt.day} {MONTHS[l][dt.month - 1]} {dt.year}' if l in ('bg', 'en') else f'{dt.day}. {MONTHS[l][dt.month - 1]} {dt.year}'
 
+def also_secs(it):  # zusätzliche Rubriken eines Artikels: Feld "also" oder Label Deutschland–Bulgarien (Nedys Vorgabe 06.10.2026)
+    a = list(it.get('also') or [])
+    if ((it.get('kl') or {}).get('de') == 'Deutschland–Bulgarien') and 'bulgarien' not in a and it.get('s') != 'bulgarien': a.append('bulgarien')
+    return a
 def art_url(it, l):
     y, m, d = it['date'].split('-')
     return f"{pre(l)}{NEWS_DIR[l]}/{y}/{m}/{d}/{it['id']}.html"
@@ -1254,7 +1258,7 @@ def build():
             return f'<li><a href="{art_url(it, l)}"><span class="mi">{th}</span><span>{e(it[l]["t"])}</span></a></li>'
         PER = 60
         for s in SECTIONS:
-            its = sorted([it for it in items_l if it['s'] == s], key=lambda x: (x['date'], x['time']), reverse=True)
+            its = sorted([it for it in items_l if it['s'] == s or s in also_secs(it)], key=lambda x: (x['date'], x['time']), reverse=True)   # Doppel-Rubrik (z. B. Deutschland–Bulgarien auch unter Bulgarien), Startseite zeigt nur die Hauptrubrik
             if s in KEEP_DAYS:  # z. B. Games: nur die letzten 5 Ausgabetage auf der Rubrikseite (Artikel bleiben über Suche/Archiv erreichbar)
                 _keep = sorted({it['date'] for it in its}, reverse=True)[:KEEP_DAYS[s]]
                 its = [it for it in its if it['date'] in _keep]
