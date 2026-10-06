@@ -5,6 +5,9 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: photos-${{ github.ref }}
+  cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -28,7 +31,10 @@ jobs:
           git config user.name "terra-bot"
           git config user.email "media@filmpartner24.com"
           git add -A
-          git diff --cached --quiet || (git commit -m "Update edition and photos" && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "Update edition and photos"
+          for i in 1 2 3 4 5; do git push && exit 0; sleep $((i*5)); git pull --rebase -q || exit 1; done
+          exit 1
       - name: Build site (for sitemap)
         run: PYTHONHASHSEED=1 python3 build.py
       - name: Notify search engines via IndexNow (after Cloudflare deploy)

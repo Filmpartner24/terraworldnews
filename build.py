@@ -1033,7 +1033,7 @@ def sport_overview(l, its, s, others):
         st = f' style="background-image:url({im["f"]})"' if im else ''
         nt = sum(1 for x in xs if xs and x['date'] == xs[0]['date'])
         cards += (f'<article class="fb-card"><a href="{sub_url(s, k, l)}"><div class="fb-img"{st}><span class="fb-name">{e(SUB[l][k][0])}</span></div>'
-                  f'<div class="fb-card-txt"><p class="fb-lead"><b>{min(nt, SP_LIMIT.get(k, 6))}</b> {e(f["n"])}</p><span class="gr-more">{e(f["open"])}</span></div></a></article>')
+                  f'<div class="fb-card-txt"><p class="fb-lead"><b>{nt}</b> {e(f["n"])}</p><span class="gr-more">{e(f["open"])}</span></div></a></article>')
         if top: news += f'<h2 class="gp-h">{e(f["news"][k])} <a class="sp-all" href="{sub_url(s, k, l)}">{e(f["all"])}</a></h2>{bx_news_grid(top, l)}'
     return (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(SEC[l][s][0])}</h1>{gp_slogan(l)}</div>'
             f'<div class="gp-main"><div class="gp-panel"><h2 class="gp-h">{e(f["subs"])}</h2><div class="fb-grid sp-grid">{cards}</div>{grid_cr([(SUB[l][k][0], SP_IMG.get(k)) for k in SUBS[s]], l)}{news}</div>'
