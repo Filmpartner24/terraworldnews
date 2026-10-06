@@ -258,7 +258,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
         _in = ''.join(_navi(s) for s in _gs if s in SECTIONS)
         if _in: nav += f'<div class="ng ng-{_g}"><span class="ng-h">{e(_gl[l])}</span>{_in}</div>'
     _cur = next((s for s in SECTIONS if canon.startswith(sec_url(s, l))), None)
-    swipe = ''.join(f'<a href="{sec_home(s, l)}"{CUR_P if s == _cur else ""}>{e(SEC[l][s][0])}</a>' for s in SECTIONS)
+    swipe = f'<a class="sw-home" href="{pre(l)}" aria-label="{e(u["home"])}" title="{e(u["home"])}"{CUR_P if canon == pre(l) else ""}>{_home_svg}</a>' + ''.join(f'<a href="{sec_home(s, l)}"{CUR_P if s == _cur else ""}>{e(SEC[l][s][0])}</a>' for s in SECTIONS)
     tick = ''
     ticker = ticker or TICKER.get(l)
     if ticker:

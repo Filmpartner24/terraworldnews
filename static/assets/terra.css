@@ -679,6 +679,8 @@ nav.sections.nv2.stuck{box-shadow:0 6px 18px rgba(4,14,40,.35)}
  .nv2 .nv-swipe a{flex:0 0 auto;padding:10px 11px;font-size:13.5px;scroll-snap-align:start}
  .nv2 .nv-swipe a[aria-current="page"]{box-shadow:inset 0 -3px 0 #ff2a30}
  .nv2 .nv-swipe a:active{background:#d4161c}
+ .nv2 .nv-swipe a.sw-home{display:flex;align-items:center;padding:8px 12px;border-right:1px solid rgba(255,255,255,.18)}
+ .nv2 .nv-swipe a.sw-home svg{width:19px;height:19px}
  .nv2.open .nv-swipe{display:none}
 }
 @media (hover:none){.nv2 .nav-items a:hover:not(:active){background:none}}
