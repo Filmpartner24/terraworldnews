@@ -376,7 +376,10 @@
      "time": "20:45",
      "t1": "Kroatien",
      "t2": "Spanien",
-     "ft": null,
+     "ft": [
+      1,
+      2
+     ],
      "city": "Split"
     },
     {
@@ -385,7 +388,10 @@
      "time": "20:45",
      "t1": "England",
      "t2": "Tschechien",
-     "ft": null,
+     "ft": [
+      3,
+      0
+     ],
      "city": "London"
     },
     {
@@ -644,7 +650,10 @@
      "time": "20:45",
      "t1": "Schweiz",
      "t2": "Nordmazedonien",
-     "ft": null,
+     "ft": [
+      3,
+      0
+     ],
      "city": "Luzern"
     },
     {
@@ -653,7 +662,10 @@
      "time": "20:45",
      "t1": "Schottland",
      "t2": "Slowenien",
-     "ft": null,
+     "ft": [
+      1,
+      2
+     ],
      "city": "Glasgow"
     },
     {
