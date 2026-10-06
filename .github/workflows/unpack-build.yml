@@ -36,6 +36,9 @@ jobs:
           for i in 1 2 3 4 5; do git push && exit 0; sleep $((i*5)); git pull --rebase -q || exit 1; done
           exit 1
       - name: Build site (for sitemap)
+        if: ${{ !contains(github.event.head_commit.message, '[CF-Pages-Skip]') }}
         run: PYTHONHASHSEED=1 python3 build.py
-      - name: Notify search engines via IndexNow (after Cloudflare deploy)
-        run: sleep 240 && python3 tools/indexnow.py
+      - name: Notify search engines via IndexNow
+        # kein Warten mehr auf Cloudflare (sparte 4 Minuten Actions-Zeit pro Lauf); Suchmaschinen holen die Seiten ohnehin zeitversetzt ab
+        if: ${{ !contains(github.event.head_commit.message, '[CF-Pages-Skip]') }}
+        run: python3 tools/indexnow.py
