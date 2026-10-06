@@ -902,3 +902,7 @@ a.ex-more{text-decoration:none}
 .tv-t .tv-c{font-size:.75rem;opacity:.7}
 .tv-t td.tv-ch{white-space:normal;min-width:160px}
 footer a.g-pref{font-weight:700}
+/* Eigene Artikel: Zwischenüberschriften und Listen im Fließtext */
+.body h2.bh{font-family:var(--head);font-size:22px;line-height:1.25;margin:1.6em 0 .5em}
+.body ul.bl{margin:.4em 0 1.2em 1.2em;padding:0}
+.body ul.bl li{margin:.35em 0;line-height:1.55}

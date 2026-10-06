@@ -1412,7 +1412,8 @@ def build():
             T = it[l]
             _b = T.get('body') or [T['d']]
             if isinstance(_b, str): _b = [p.strip() for p in _b.replace('\r', '').split('\n') if p.strip()]  # Schutz: Text als ein Block
-            paras = ''.join(f'<p>{e(p)}</p>' for p in _b)
+            paras = ''.join((f'<h2 class="bh">{e(p[3:])}</h2>' if p.startswith('## ') else f'<li>{e(p[2:])}</li>' if p.startswith('• ') else f'<p>{e(p)}</p>') for p in _b).replace('</li><li>', '</li>\n<li>')   # eigene Artikel: Zwischenüberschriften (## ) und Aufzählungen (• )
+            paras = re.sub(r'((?:<li>.*?</li>\n?)+)', r'<ul class="bl">\1</ul>', paras)
             trailer = ''
             for v in ([it['yt']] if isinstance(it.get('yt'), dict) else it.get('yt') or []):
                 vid = e(v['id']); ttl = e(v.get('t', {}).get(l) or T['t'])
