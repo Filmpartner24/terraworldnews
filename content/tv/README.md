@@ -13,4 +13,4 @@ Eine Datei pro Tag: `content/tv/YYYY-MM-DD.json` (wird von der Aufgabe „TWN Fu
 
 - `de`: Sender in Deutschland, `bg`: Sender in Bulgarien (leer lassen, wenn unbekannt – nie raten).
 - Die DE-Seite zeigt nur Spiele mit deutschen Sendern, die BG-Seite nur mit bulgarischen, EN zeigt beide.
-- Angezeigt wird die Datei des aktuellen Tages (Berliner Zeit) auf Sport, Fußball, Länderspiele; die Startseite verlinkt darauf.
+- Angezeigt wird die Datei des aktuellen Tages (Berliner Zeit) am Ende der Seiten Fußball und Länderspiele (nach Mitternacht die des Vortags mit Ergebnissen); die Startseite verlinkt darauf.
