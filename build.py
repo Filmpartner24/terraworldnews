@@ -286,8 +286,8 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(OG_HOME_T if canon == pre(l) else title)}"><meta name="twitter:description" content="{e(OG_HOME_D if canon == pre(l) else desc)}"><meta name="twitter:image" content="{SITE}{og_img or '/assets/og-image-v4.jpg'}">
 {extra_head}{ldj}
 <link rel="preload" as="image" href="/assets/terra-masthead5-800.webp" imagesrcset="/assets/terra-masthead5-800.webp 800w, /assets/terra-masthead5-1600.webp 1600w" imagesizes="(max-width: 700px) 86vw, 620px" type="image/webp">
-<link rel="stylesheet" href="/assets/fonts.css?v={ASSET_V['fonts.css']}">
-<link rel="stylesheet" href="/assets/terra.css?v={ASSET_V['terra.css']}">
+<link rel="stylesheet" href="/assets/fonts.{ASSET_V['fonts.css']}.css">
+<link rel="stylesheet" href="/assets/terra.{ASSET_V['terra.css']}.css">
 </head>
 <body>
 <div class="wrap">
@@ -310,7 +310,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
     <nav><a href="{legal_url('about', l)}">{e(u['about'])}</a><a href="{legal_url('imprint', l)}">{e(u['imprint'])}</a><a href="{legal_url('privacy', l)}">{e(u['privacy'])}</a><a href="{legal_url('principles', l)}">{e(u['principles'])}</a><a href="{pre(l)}rss.xml">{e(u['rss'])}</a><a class="g-pref" href="https://google.com/preferences/source?q=terraworldnews.com" rel="noopener" target="_blank">{e(GPREF[l])}</a></nav>
   </footer>
 </div>
-<script src="/assets/terra.js?v={ASSET_V['terra.js']}" defer></script>
+<script src="/assets/terra.{ASSET_V['terra.js']}.js" defer></script>
 </body>
 </html>'''
 
@@ -1200,6 +1200,10 @@ def build():
     shutil.copytree(os.path.join(HERE, 'static'), OUT)
     shutil.copy(os.path.join(HERE, 'terra.js'), os.path.join(OUT, 'assets', 'terra.js'))
     shutil.copy(os.path.join(HERE, 'search.js'), os.path.join(OUT, 'assets', 'search.js'))
+    # Versionierte Dateinamen (seit 07.10.2026): der Cloudflare-Cache ignoriert ?v= – neuer Name = garantiert frische Datei
+    for _n in ('fonts.css', 'terra.css', 'terra.js', 'search.js'):
+        _b, _x = _n.rsplit('.', 1)
+        shutil.copy(os.path.join(OUT, 'assets', _n), os.path.join(OUT, 'assets', f'{_b}.{ASSET_V[_n]}.{_x}'))
     allitems = [it for d in eds for it in d['items']]
     latest = eds[-1]
     global STATIC_FROM
@@ -1523,7 +1527,7 @@ def build():
                  f'<div class="sfil"><select name="s" aria-label="{e(su["all"])}"><option value="">{e(su["all"])}</option>{opts}</select>'
                  f'<select name="p" aria-label="{e(su["any"])}"><option value="">{e(su["any"])}</option><option value="1">{e(su["d1"])}</option><option value="7">{e(su["d7"])}</option><option value="30">{e(su["d30"])}</option></select></div>'
                  f'<p class="shint">{e(su["hint"])}</p></form><p class="sstat" aria-live="polite"></p><ol class="sres"></ol><button class="smore" type="button" hidden>{e(su["more"])}</button></section>'
-                 f'<script src="/assets/search.js?v={ASSET_V["search.js"]}" defer></script>')
+                 f'<script src="/assets/search.{ASSET_V["search.js"]}.js" defer></script>')
         salts2 = {x: search_url(x) for x in act}
         write(search_url(l), page(l, act, f'{su["title"]} | TWN – World News', f'{su["title"]} – TWN – World News (Terra World News)', search_url(l), sbody, salts2, issue=latest.get('issue', 1), date=latest['date'],
               extra_head='<meta name="robots" content="noindex,follow">'))
