@@ -387,6 +387,43 @@ def ch_html(ch):
     u = CH_LINK.get((ch or '').lower().replace(' ', ''))
     return f'<a href="{u}" target="_blank" rel="noopener">{e(ch)}</a>' if u else e(ch)
 
+BK_SLOTS = ['08:00', '11:00', '13:00', '15:30', '18:30', '21:00']
+BKT = {'bg': dict(nxt='Следваща актуализация', tm='утре', live='НА ЖИВО', upd='Актуализация'),
+       'de': dict(nxt='Nächstes Update', tm='morgen', live='LIVE', upd='Update'),
+       'en': dict(nxt='Next update', tm='tomorrow', live='LIVE', upd='Update')}
+def bk_block(cur, l, last):
+    """Breaking News auf der Startseite (seit 07.10.2026): roter Kopf mit Update-Zeitleiste,
+    dunkles Panel mit Aufmacher (Platz 1), Seitenliste (2–4) und Kachelreihe (5–8)."""
+    u = UI[l]; B = BKT[l]; hr = (' ' + u['hour']) if u['hour'] else ''
+    def lab(it):
+        return f'<span class="bk2-k" style="--c:{SEC_COLOR[it["s"]]}">{e((it.get("kl") or {}).get(l) or SEC[l][it["s"]][0])}</span>'
+    def img(it, eager=False):
+        im = it.get('img')
+        if not im: return plate(it, l)
+        alt = im.get('alt', {}).get(l, '')
+        lz = '' if eager else ' loading="lazy" decoding="async"'
+        pl = '<span class="rt-play" aria-hidden="true">▶</span>' if it.get('yt') else ''
+        return f'<div class="bk2-img"><img src="{im["f"]}" width="{im["w"]}" height="{im["h"]}" alt="{e(alt)}"{lz}>{pl}</div>'
+    def cr(it):
+        im = it.get('img'); return f'<span class="bk2-cr">{credit(im, l)}</span>' if im else ''
+    h = cur[0]; T = h[l]
+    _below = not h.get('img') or h['img'].get('own')  # eigene Titelgrafik enthält schon Text → Text unter das Bild
+    hero = (f'<article class="bk2-hero{" bk2-below" if _below else ""}"><a href="{art_url(h, l)}">{img(h, True)}<div class="bk2-ov">{"" if _below else '<b class="bk2-n">1</b>'}'
+            f'<div class="bk2-meta">{'<b class="bk2-n">1</b>' if _below else ""}{lab(h)}<time datetime="{iso(h)}">{h["time"]}{hr}</time></div><h3>{e(T["t"])}</h3><p>{e(T["d"])}</p></div></a>{cr(h)}</article>')
+    side = ''.join(f'<li><a href="{art_url(it, l)}">{img(it)}<div><div class="bk2-meta"><b class="bk2-n">{n}</b>{lab(it)}</div><h3>{e(it[l]["t"])}</h3></div></a>{cr(it)}</li>'
+                   for n, it in enumerate(cur[1:4], 2))
+    row = ''.join(f'<li><a href="{art_url(it, l)}">{img(it)}<div class="bk2-meta"><b class="bk2-n">{n}</b>{lab(it)}</div><h3>{e(it[l]["t"])}</h3></a>{cr(it)}</li>'
+                  for n, it in enumerate(cur[4:8], 5))
+    slots = ''.join(f'<li class="{"now" if t == last else ("done" if t < last else "up")}">{t}</li>' for t in BK_SLOTS)
+    nx = next((t for t in BK_SLOTS if t > last), None)
+    nxt = f'{B["nxt"]}: <b>{nx}{hr}</b>' if nx else f'{B["nxt"]}: <b>{B["tm"]} {BK_SLOTS[0]}{hr}</b>'
+    return (f'<section class="breaking bk2" aria-label="{e(u["brk"])}"><div class="bk2-head"><h2><span class="bk2-live"><i class="dot" aria-hidden="true"></i>{B["live"]}</span>{e(u["brk"])}</h2>'
+            f'<p class="bk-slogan" aria-label="{". ".join(SLOGAN[l])}.">{"<i aria-hidden=\"true\"></i>".join(SLOGAN[l])}</p>'
+            f'<span class="bk2-upd">{B["upd"]} <b>{last}{hr}</b></span></div>'
+            f'<div class="bk2-bar"><ol class="bk2-slots" aria-hidden="true">{slots}</ol><span class="bk2-nx">{nxt}</span></div>'
+            f'<div class="bk2-body"><div class="bk2-top">{hero}<ol class="bk2-side">{side}</ol></div>'
+            + (f'<ol class="bk2-row">{row}</ol>' if row else '') + '</div></section>')
+
 EXL = {'bg': 'Ексклузивно', 'de': 'Exklusiv', 'en': 'Exclusive'}
 EXB = {'bg': '▶ Гледай видеото и прочети статията', 'de': '▶ Video ansehen & Artikel lesen', 'en': '▶ Watch the video & read the article'}
 def ex_block(it, l):
@@ -1226,10 +1263,7 @@ def build():
         bkh = ''
         if cur:
             last = cur[0]['time']
-            bkh = (f'<section class="breaking" aria-label="{e(u["brk"])}"><div class="bk-h"><h2><i class="dot" aria-hidden="true"></i>{e(u["brk"])}</h2>'
-                   f'<p class="bk-slogan" aria-label="{". ".join(SLOGAN[l])}.">{"<i aria-hidden=\"true\"></i>".join(SLOGAN[l])}</p>'
-                   f'<span class="meta">{u["brkup"]} {last}{(" " + u["hour"]) if u["hour"] else ""}</span></div>'
-                   f'<div class="cards">{"".join(card(it, l) for it in cur)}</div></section>')
+            bkh = bk_block(cur, l, last)
         _exl = sorted([it for it in items_l if it.get('ex') and not it.get('nohome') and it['date'] >= (datetime.date.fromisoformat(latest['date']) - datetime.timedelta(days=7)).isoformat()], key=lambda x: (x['date'], x['time']), reverse=True)
         exh = ex_block(_exl[0], l) if _exl else ''
         popular = ''.join(f'<div class="rank"><span class="n">{i + 1}</span>{rthumb(it)}<a href="{art_url(it, l)}">{kick(it, l)}<h3>{e(it[l]["t"])}</h3></a></div>' for i, it in enumerate(most_read(items_l, l, latest['date'])))
