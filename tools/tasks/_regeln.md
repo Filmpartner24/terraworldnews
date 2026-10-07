@@ -23,6 +23,7 @@ Videos nur einbetten (yt-Feld), nie herunterladen. In Deutschland abspielbar: Sp
 Andere gesperrte Datenquellen (z. B. match.uefa.com, standings.uefa.com) ebenfalls über die Brücke holen (`<URL> <dateiname>.json`).
 
 ## 4. BILDER (rechtssicher)
+- JEDE Meldung braucht ein img – auch Meldungen mit Video (das Bild dient als Video-Titelbild). Vor dem Push mit Python prüfen: kein Item ohne img, und jede Datei static<img.f> existiert (Commons-Fotos kommen erst nach dem Action-Lauf – dann nach git pull nachprüfen; fehlt eines, Titelgrafik einsetzen).
 - Nur Wikimedia Commons (CC BY / BY-SA / CC0 / PD / OGL) über candidates/<ordner>/requests.json → Kontaktbogen ansehen → img {"f":"/assets/news/<Datum>/<id>.webp","w":1200,"h":675,"art","lic","page","alt":{bg,de,en}} (Pfad IMMER mit führendem „/“; art bei CC BY/BY-SA nie leer), Symbol-/Archivbild im alt kennzeichnen.
 - NIEMALS: YouTube-Vorschaubilder, Video-Standbilder, Film-Stills, Plakate, Album-/Spiel-Cover, Agentur-/Pressefotos, KI-Bilder – auch nicht mit „©“-Vermerk (ein ©-Vermerk ist keine Lizenz).
 - Gibt es kein passendes Commons-Bild: eigene Titelgrafik erzeugen – python3 -c "import sys; sys.path.insert(0,'tools'); import title_card; title_card.make('static/assets/news/<Datum>/<id>-tg.webp','<RUBRIK>','<deutscher Titel>','<Farbe>')" und img {"f":"/assets/news/<Datum>/<id>-tg.webp","w":1200,"h":675,"own":true,"alt":{bg,de,en}}. Ergebnisgrafiken (Sport) wie bisher mit own:true.
