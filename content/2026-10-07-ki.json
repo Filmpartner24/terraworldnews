@@ -116,6 +116,17 @@
      "The design is modular: the full multimodal version has 740 million parameters, a text-only version 270 million. According to Google, the quantised text variant needs about 191 MB of RAM on a Pixel 11 Pro and the complete model about 567 MB. The context window is 8,192 tokens, and the 768-dimensional vectors can be truncated to 512, 256 or 128 dimensions using Matryoshka representation learning. On the MTEB Code benchmark, the score rose from 68.76 for the predecessor to 78.68.",
      "The model can be tried in demos in the Google AI Edge Gallery app, such as Instant Media Search and Video Moments Finder, and in the Google AI Edge Foresight app. According to The Next Web, EmbeddingGemma 2 supports more than 100 languages, though quality varies between them. Because data does not have to leave the device, Google is pitching it mainly on privacy, lower latency and offline use."
     ]
+   },
+   "img": {
+    "f": "/assets/news/2026-10-07/google-embeddinggemma-2-multimodal-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Eigene Titelgrafik der Redaktion: Google veröffentlicht EmbeddingGemma 2: offenes Modell für Text, Bild, Video und Audio",
+     "en": "Own newsroom title graphic: Google releases EmbeddingGemma 2, an open model for text, images, video and audio",
+     "bg": "Собствена графика на редакцията: Google пусна EmbeddingGemma 2 – отворен модел за текст, изображения, видео и аудио"
+    }
    }
   },
   {
@@ -233,6 +244,17 @@
      "In Google Docs, Claude reads documents, edits text in place and proposes changes as suggestion cards. In Sheets, it writes formulas, builds pivot tables and charts, cleans data using Python and adds new tabs. In Slides, it creates slides that match a deck's existing layouts and themes and flags overlapping elements or readability problems. By default the 'Ask before edits' mode is on, so every change has to be approved; alternatively, 'Accept all edits' applies suggestions automatically.",
      "Enterprise customers keep their existing controls, including the Compliance API, customer-managed encryption keys (CMEK) and audit export via OpenTelemetry. According to Runtime Wire, Claude's edits appear in the Google files' version history while the conversation itself stays in the user's browser and is not visible to collaborators. Anthropic did not publish usage or customer figures. The move stands out because Google offers its own AI assistant, Gemini, inside Workspace, putting Claude in direct competition on Google's home turf."
     ]
+   },
+   "img": {
+    "f": "/assets/news/2026-10-07/claude-google-workspace-docs-sheets-slides-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Eigene Titelgrafik der Redaktion: Anthropic bringt Claude direkt in Google Docs, Sheets und Slides",
+     "en": "Own newsroom title graphic: Anthropic brings Claude directly into Google Docs, Sheets and Slides",
+     "bg": "Собствена графика на редакцията: Anthropic вгражда Claude директно в Google Docs, Sheets и Slides"
+    }
    }
   },
   {
@@ -354,6 +376,17 @@
      "Rather than a plain chat window, Hark Pro uses a graphical interface with a customisable home screen, 'Action Buttons' and panels. According to Gizmodo, the design is led by former Apple designer Abidur Chowdhury, who unveiled the iPhone Air. For tasks on websites, the assistant relies on Hark's own 'Handoff' technology, for example to pay bills, make bookings or cancel subscriptions. Login credentials are stored in an encrypted vault. Hark promises that users keep ownership of their data and that it will not be sold to advertisers.",
      "The market for such agents is getting crowded quickly: TechCrunch cites Muse, Instinct and Dots as examples of competing efforts. Hark's ambitions go beyond the app, however: the company is developing an AI device due in 2027. It has not yet given details. Speaking to TechCrunch, Chowdhury described it only as a product unlike anything that has existed before and pointed to many people's unease about wearable cameras. The app launch is also a test of how much access to email, calendars and payment methods users are willing to hand to an AI agent."
     ]
+   },
+   "img": {
+    "f": "/assets/news/2026-10-07/hark-pro-ki-assistent-adcock-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Eigene Titelgrafik der Redaktion: Hark Pro: Figure-Gründer Adcock startet proaktiven KI-Assistenten",
+     "en": "Own newsroom title graphic: Hark Pro: Figure founder Adcock launches a proactive AI assistant",
+     "bg": "Собствена графика на редакцията: Hark Pro: основателят на Figure Адкок пуска проактивен ИИ асистент"
+    }
    }
   }
  ]
