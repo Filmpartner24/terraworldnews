@@ -992,3 +992,13 @@ footer a.g-pref{font-weight:700}
 .bk2-below .bk2-meta{margin-top:0}
 .bk2-below h3{text-shadow:none}
 @media (max-width:640px){.bk2-below .bk2-img{aspect-ratio:16/9}}
+
+/* ---- Rubrik MODE (07.10.2026): Schwarz / Magenta / Rosé ---- */
+.gp-mode{--gx:#ec4899;--gy:#fce7f3}
+.gp-mode .gp-head{background:linear-gradient(100deg,#0c0609 0%,#2a0f1f 55%,#7a1446 100%)}
+.gp-mode .gp-title{text-shadow:0 0 18px rgba(236,72,153,.6);letter-spacing:.12em}
+.gp-mode .gp-date,.gp-mode .gr-meta,.gp-mode .gs .kick,.gp-mode .ga-panel .kick{color:#fbcfe8}
+.gp-mode .gp-panel{background:#0e080b}
+.gp-mode .gr{border-bottom-color:#2b1520}
+.gp-mode .gr-badge{background:#c2185b}
+.gp-mode .gr-more{color:#f9a8d4}
