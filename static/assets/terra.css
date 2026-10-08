@@ -1054,3 +1054,15 @@ footer a.g-pref{font-weight:700}
 @media (min-width:861px) and (max-width:1000px){.nv2 .nav-items a{font-size:11px;padding:0 2px}.nv2 .ng{padding:0 1px}.nv2 .nv-logo{flex-basis:40px;padding:0 4px}}
 @media (min-width:1201px) and (max-width:1320px){.nv2 .nav-items a{font-size:13px;padding:0 4px}.nv2 .ng{padding:0 1px}}
 .wow-yt[style]{background-size:cover;background-position:center}.wow-yt[style]::before{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.65),rgba(0,0,0,.05) 55%)}.wow-yt .gr-badge,.wow-yt .yt-play,.wow-yt .yt-note{z-index:1}
+/* Formel 1 + Tennis */
+.f1-nat,.f1-loc,.f1-after{font-weight:400;color:#9ca3af;font-size:.8em;letter-spacing:0;text-transform:none}
+.fb-t tr[data-hl] th{color:#ffd166}
+.f1-next{background:linear-gradient(90deg,#3a0b0b,#7f1d1d 60%,#e10600);border-radius:6px;padding:16px 18px;margin:12px 0 6px;color:#fff}
+.f1-next h3{font-family:var(--head);font-size:26px;margin:8px 0 4px}.f1-next p{margin:2px 0;color:#f3f4f6}.f1-when{font-weight:700;font-size:17px}
+.f1-cal tr.f1-nx{background:rgba(225,6,0,.18)}.f1-up{color:#9ca3af;font-style:italic}
+.tn-two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media (max-width:980px){.tn-two{grid-template-columns:1fr}}
+.tn-up{color:#22c55e}.tn-dn{color:#ef4444}.tn-eq{color:#6b7280}
+.tn-ev,.tn-ours{list-style:none;padding:0;margin:8px 0 14px;display:flex;flex-wrap:wrap;gap:8px 18px;color:#e5e7eb}
+.tn-ev li{background:#0d1b2e;border:1px solid #1c2f48;border-radius:6px;padding:8px 12px}.tn-ev small,.tn-ours small{color:#9ca3af}
+.tn-ev .gr-badge{position:static;margin-right:6px}

@@ -23,7 +23,7 @@ LOCALE = {'bg': 'bg_BG', 'de': 'de_DE', 'en': 'en_GB'}
 
 SECTIONS = ['welt', 'europa', 'deutschland', 'bulgarien', 'leben', 'mode', 'ki', 'wirtschaft', 'energie', 'business', 'auto', 'klima', 'ai', 'film', 'musik', 'games', 'sport']
 MEDIA = ('games', 'mode', 'auto', 'film', 'musik', 'sport', 'ai', 'ki', 'wirtschaft', 'energie', 'leben', 'klima', 'welt', 'europa', 'deutschland', 'bulgarien')   # Rubriken mit eigenem Medien-Layout (Reviews/Trailer + News)
-SUBS = {'sport': ['fussball', 'laenderspiele', 'handball', 'boxen', 'mma', 'extremsport']}   # Handball + Extremsport seit 08.10.2026
+SUBS = {'sport': ['fussball', 'laenderspiele', 'formel1', 'tennis', 'handball', 'boxen', 'mma', 'extremsport']}   # Formel 1 + Tennis seit 09.10.2026   # Handball + Extremsport seit 08.10.2026
 LSUBS = {'leben': ['liebe', 'guinness'], 'deutschland': ['berlin', 'oberfranken'], 'ki': ['raumfahrt']}
 MOVE_SUBS = {'deutschland', 'ki'}   # seit 08.10.2026: Berlin/Oberfranken nur auf der Unterseite, nicht mehr auf der Rubrikseite Deutschland
 SUB_KEEP = 30   # Unterseiten dieser Rubriken zeigen die letzten 30 Ausgabetage   # „leichte“ Unterrubriken (seit 08.10.2026): Rubrikseite bleibt, Unterseite zusätzlich (Feld "sub")
@@ -34,9 +34,9 @@ NAV_GROUPS = [  # Menü-Gruppen (Desktop: Trennstriche, Mobil: Überschriften im
     ('know', {'bg': 'Икономика и знание', 'de': 'Wirtschaft & Wissen', 'en': 'Economy & Knowledge'}, ['ki', 'wirtschaft', 'energie', 'business', 'auto', 'klima', 'ai']),
     ('ent', {'bg': 'Развлечения', 'de': 'Unterhaltung', 'en': 'Entertainment'}, ['film', 'musik', 'games']),
     ('sport', {'bg': 'Спорт', 'de': 'Sport', 'en': 'Sport'}, ['sport'])]   # WOW am 09.10.2026 wieder entfernt (Guinness → Leben & Alltag)   # Unterrubriken (Feld "sub" im Item)
-SUB = {'bg': {'fussball': ('Футбол', 'futbol'), 'laenderspiele': ('Национални отбори', 'natsionalni-otbori'), 'boxen': ('Бокс', 'boks'), 'mma': ('ММА', 'mma'), 'liebe': ('Любов и връзки', 'lyubov-i-vrazki'), 'berlin': ('Берлин', 'berlin'), 'oberfranken': ('Горна Франкония', 'gorna-frankonia'), 'guinness': ('Рекорди на Гинес', 'rekordi-gines'), 'raumfahrt': ('Космос', 'kosmos'), 'handball': ('Хандбал', 'handbal'), 'extremsport': ('Екстремни спортове', 'ekstremni-sportove')},
-       'de': {'fussball': ('Fußball', 'fussball'), 'laenderspiele': ('Länderspiele', 'laenderspiele'), 'boxen': ('Boxen', 'boxen'), 'mma': ('MMA', 'mma'), 'liebe': ('Liebe & Beziehung', 'liebe-beziehung'), 'berlin': ('Berlin', 'berlin'), 'oberfranken': ('Oberfranken', 'oberfranken'), 'guinness': ('Guinness Records', 'guinness-records'), 'raumfahrt': ('Raumfahrt', 'raumfahrt'), 'handball': ('Handball', 'handball'), 'extremsport': ('Extremsport', 'extremsport')},
-       'en': {'fussball': ('Football', 'football'), 'laenderspiele': ('Internationals', 'internationals'), 'boxen': ('Boxing', 'boxing'), 'mma': ('MMA', 'mma'), 'liebe': ('Love & Relationships', 'love-relationships'), 'berlin': ('Berlin', 'berlin'), 'oberfranken': ('Upper Franconia', 'upper-franconia'), 'guinness': ('Guinness World Records', 'guinness-world-records'), 'raumfahrt': ('Space', 'space'), 'handball': ('Handball', 'handball'), 'extremsport': ('Extreme sports', 'extreme-sports')}}
+SUB = {'bg': {'fussball': ('Футбол', 'futbol'), 'laenderspiele': ('Национални отбори', 'natsionalni-otbori'), 'boxen': ('Бокс', 'boks'), 'mma': ('ММА', 'mma'), 'liebe': ('Любов и връзки', 'lyubov-i-vrazki'), 'berlin': ('Берлин', 'berlin'), 'oberfranken': ('Горна Франкония', 'gorna-frankonia'), 'guinness': ('Рекорди на Гинес', 'rekordi-gines'), 'raumfahrt': ('Космос', 'kosmos'), 'formel1': ('Формула 1', 'formula-1'), 'tennis': ('Тенис', 'tenis'), 'handball': ('Хандбал', 'handbal'), 'extremsport': ('Екстремни спортове', 'ekstremni-sportove')},
+       'de': {'fussball': ('Fußball', 'fussball'), 'laenderspiele': ('Länderspiele', 'laenderspiele'), 'boxen': ('Boxen', 'boxen'), 'mma': ('MMA', 'mma'), 'liebe': ('Liebe & Beziehung', 'liebe-beziehung'), 'berlin': ('Berlin', 'berlin'), 'oberfranken': ('Oberfranken', 'oberfranken'), 'guinness': ('Guinness Records', 'guinness-records'), 'raumfahrt': ('Raumfahrt', 'raumfahrt'), 'formel1': ('Formel 1', 'formel-1'), 'tennis': ('Tennis', 'tennis'), 'handball': ('Handball', 'handball'), 'extremsport': ('Extremsport', 'extremsport')},
+       'en': {'fussball': ('Football', 'football'), 'laenderspiele': ('Internationals', 'internationals'), 'boxen': ('Boxing', 'boxing'), 'mma': ('MMA', 'mma'), 'liebe': ('Love & Relationships', 'love-relationships'), 'berlin': ('Berlin', 'berlin'), 'oberfranken': ('Upper Franconia', 'upper-franconia'), 'guinness': ('Guinness World Records', 'guinness-world-records'), 'raumfahrt': ('Space', 'space'), 'formel1': ('Formula 1', 'formula-1'), 'tennis': ('Tennis', 'tennis'), 'handball': ('Handball', 'handball'), 'extremsport': ('Extreme sports', 'extreme-sports')}}
 SEC = {
  'bg': {'welt': ('Свят', 'svyat'), 'europa': ('Европа', 'evropa'), 'deutschland': ('Германия', 'germania'), 'bulgarien': ('България', 'balgaria'), 'ki': ('Технологии', 'tehnologii'), 'wirtschaft': ('Икономика', 'ikonomika'), 'business': ('Бизнес', 'biznes'), 'auto': ('Авто', 'avto'), 'klima': ('Климат', 'klimat'), 'ai': ('ИИ', 'izkustven-intelekt'), 'energie': ('Енергия', 'energia'), 'kultur': ('Развлечения', 'razvlechenia'), 'games': ('Игри', 'igri'), 'film': ('Филми', 'filmi'), 'musik': ('Музика', 'muzika'), 'mode': ('Мода', 'moda'), 'sport': ('Спорт', 'sport'), 'leben': ('Живот и ежедневие', 'zhivot'), 'wow': ('WOW', 'wow')},
  'de': {'welt': ('Welt', 'welt'), 'europa': ('Europa', 'europa'), 'deutschland': ('Deutschland', 'deutschland'), 'bulgarien': ('Bulgarien', 'bulgarien'), 'ki': ('Technologie', 'technologie'), 'wirtschaft': ('Wirtschaft', 'wirtschaft'), 'business': ('Business', 'business'), 'auto': ('Auto', 'auto'), 'klima': ('Klima', 'klima'), 'ai': ('KI', 'ki'), 'energie': ('Energie', 'energie'), 'kultur': ('Entertainment', 'entertainment'), 'leben': ('Leben & Alltag', 'leben-alltag'), 'games': ('Games', 'games'), 'sport': ('Sport', 'sport'), 'film': ('Film', 'film'), 'musik': ('Musik', 'musik'), 'mode': ('Mode', 'mode'), 'wow': ('WOW', 'wow')},
@@ -92,6 +92,12 @@ SEO_DESC = {
  'kultur': {'de': 'Kultur und Entertainment: Konzerte, Festivals, Preisverleihungen und Kino.', 'bg': 'Култура и развлечения: концерти, фестивали, награди и кино.', 'en': 'Culture and entertainment: concerts, festivals, awards and cinema.'},
 }
 SUB_DESC = {
+ 'formel1': {'de': 'Formel 1: Fahrer- und Konstrukteurs-WM, Rennkalender mit allen Siegern, nächster Grand Prix, News und offizielle Videos – nach jedem Rennen aktualisiert.',
+             'bg': 'Формула 1: класиране при пилотите и конструкторите, календар с всички победители, следващо Гран при, новини и официални видеа – обновява се след всяко състезание.',
+             'en': 'Formula 1: drivers’ and constructors’ standings, race calendar with every winner, next Grand Prix, news and official videos – updated after every race.'},
+ 'tennis': {'de': 'Tennis: ATP- und WTA-Weltrangliste, laufende Turniere, Deutsche und Bulgaren im Ranking, News und offizielle Videos – täglich aktualisiert.',
+            'bg': 'Тенис: световна ранглиста на ATP и WTA, текущи турнири, българи и германци в ранглистата, новини и официални видеа – обновява се всеки ден.',
+            'en': 'Tennis: ATP and WTA rankings, current tournaments, Germans and Bulgarians in the rankings, news and official videos – updated daily.'},
  'raumfahrt': {'de': 'Raumfahrt: Missionen von NASA, ESA und DLR, Raketenstarts, Satelliten, Raumsonden, Teleskope und die ISS – mit offiziellen Videos.',
                'bg': 'Космос: мисии на NASA, ESA и DLR, изстрелвания на ракети, спътници, космически сонди, телескопи и МКС – с официални видеа.',
                'en': 'Space: NASA, ESA and DLR missions, rocket launches, satellites, probes, telescopes and the ISS – with official videos.'},
@@ -898,6 +904,73 @@ def wow_page(l, its, others, title='WOW', desc=None, kind='wow'):
             f'<div class="gp-main"><div class="gp-panel"><p class="sec-desc">{e(desc or SEC_DESC["wow"][l])}</p><div class="wow-grid">{tiles}</div>{grid_cr(crs, l)}</div>'
             f'<aside class="sec-side"><h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
 
+# ---- Formel 1 + Tennis (seit 09.10.2026): Daten content/f1/<Saison>.json und content/tennis/rankings.json (Importer in tools/)
+F1U = {'bg': dict(drv='Класиране при пилотите', tm='Класиране при конструкторите', cal='Календар', nxt='Следващо състезание', pos='#', name='Пилот', team='Отбор', wins='Поб.', pts='Т.', rd='Кр.', gp='Гран при', date='Дата', win='Победител', up='предстои', after='след {n} състезания', season='Сезон', src='Данни', tz='българско време'),
+       'de': dict(drv='Fahrer-WM', tm='Konstrukteurs-WM', cal='Rennkalender', nxt='Nächstes Rennen', pos='Pl.', name='Fahrer', team='Team', wins='Siege', pts='Pkt', rd='Rd.', gp='Grand Prix', date='Datum', win='Sieger', up='anstehend', after='nach {n} Rennen', season='Saison', src='Daten', tz='deutsche Zeit'),
+       'en': dict(drv='Drivers’ championship', tm='Constructors’ championship', cal='Race calendar', nxt='Next race', pos='#', name='Driver', team='Team', wins='Wins', pts='Pts', rd='Rd', gp='Grand Prix', date='Date', win='Winner', up='upcoming', after='after {n} races', season='Season', src='Data', tz='German time')}
+F1NAT = {'German': ('DE', 'GER'), 'British': ('GB', 'GBR'), 'Italian': ('IT', 'ITA'), 'Dutch': ('NL', 'NED'), 'Spanish': ('ES', 'ESP'), 'Monegasque': ('MC', 'MON'), 'Australian': ('AU', 'AUS'), 'French': ('FR', 'FRA'), 'Canadian': ('CA', 'CAN'),
+         'Mexican': ('MX', 'MEX'), 'Japanese': ('JP', 'JPN'), 'Thai': ('TH', 'THA'), 'Finnish': ('FI', 'FIN'), 'Brazilian': ('BR', 'BRA'), 'Argentine': ('AR', 'ARG'), 'New Zealander': ('NZ', 'NZL'), 'American': ('US', 'USA'), 'Chinese': ('CN', 'CHN'), 'Danish': ('DK', 'DEN')}
+def _f1_load():
+    fs = sorted(glob.glob(os.path.join(HERE, 'content', 'f1', '*.json')))
+    return json.load(open(fs[-1], encoding='utf-8')) if fs else None
+def _utc_local(date, time, l):
+    import datetime as _d
+    from zoneinfo import ZoneInfo
+    try:
+        h, m = (time or '12:00').split(':')[:2]
+        dt = _d.datetime.fromisoformat(date).replace(hour=int(h), minute=int(m), tzinfo=ZoneInfo('UTC')).astimezone(ZoneInfo('Europe/Sofia' if l == 'bg' else 'Europe/Berlin'))
+        return f'{WEEKDAYS[l][dt.weekday()][:2 if l != "en" else 3].capitalize()} {dt.day:02d}.{dt.month:02d}.' + (f' {dt.hour:02d}:{dt.minute:02d}' if time else '')
+    except Exception: return date
+def f1_page(l, today, news_html, others):
+    F = _f1_load(); f = F1U[l]
+    if not F: return ''
+    im = SP_IMG.get('formel1')
+    hero = (f'<div class="ga-media"><div class="fb-hero" style="background-image:url({im["f"]})"><span class="gr-badge">{e(f["season"])} {e(F["season"])}</span></div>'
+            f'<p class="gr-cr">{cap_pre(im.get("alt", {}).get(l, ""), l)}{credit(im, l, True)}</p></div>') if im else ''
+    drows = ''.join(f'<tr{" class=fb-top" if x["pos"] <= 3 else ""}{" data-hl=1" if x["nat"] == "German" else ""}><td class="n">{x["pos"]}</td><th scope="row">{e(x["name"])} <small class="f1-nat">{e(F1NAT.get(x["nat"], ("", x["nat"][:3].upper()))[1])}</small></th><td>{e(x["team"])}</td><td class="n">{x["wins"]}</td><td class="n fb-pts">{x["pts"]:g}</td></tr>' for x in F['drivers'])
+    trows = ''.join(f'<tr{" class=fb-top" if x["pos"] <= 3 else ""}><td class="n">{x["pos"]}</td><th scope="row">{e(x["name"])}</th><td class="n">{x["wins"]}</td><td class="n fb-pts">{x["pts"]:g}</td></tr>' for x in F['teams'])
+    nxt = next((r for r in F['races'] if not r.get('winner') and r['date'] >= today), None)
+    nx = (f'<div class="f1-next"><span class="gr-badge">{e(f["nxt"])}</span><h3>{e(nxt["name"])}</h3><p>{e(nxt["circuit"])} · {e(nxt["locality"])}, {e(nxt["country"])}</p>'
+          f'<p class="f1-when">{e(_utc_local(nxt["date"], nxt["time"], l))} <small>({e(f["tz"])})</small></p></div>') if nxt else ''
+    crow = ''.join(f'<tr{" class=f1-nx" if r is nxt else ""}><td class="n">{r["round"]}</td><th scope="row">{e(r["name"])}<small class="f1-loc"> · {e(r["locality"])}</small></th><td class="fb-when">{e(_utc_local(r["date"], r["time"], l))}</td>'
+                   f'<td>{(e(r["winner"]) + " <small>(" + e(r["winner_team"]) + ")</small>") if r.get("winner") else "<span class=f1-up>" + e(f["up"]) + "</span>"}</td></tr>' for r in F['races'])
+    src = ' · '.join(f'<a href="{e(x["u"])}" target="_blank" rel="noopener">{e(x["n"])}</a>' for x in F.get('src', []))
+    return (f'<div class="gp gp-sport fb-page f1-page"><div class="gp-head"><h1 class="gp-title">{e(SUB[l]["formel1"][0])}</h1><span class="fb-season">{e(f["season"])} {e(F["season"])}</span></div>'
+            f'<div class="gp-main"><div class="gp-panel">{hero}{nx}<h2 class="gp-h">{e(f["drv"])} <small class="f1-after">{e(f["after"].format(n=F["round"]))}</small></h2>'
+            f'<div class="tbl-wrap"><table class="fb-t f1-t"><thead><tr><th class="n">{f["pos"]}</th><th>{f["name"]}</th><th>{f["team"]}</th><th class="n">{f["wins"]}</th><th class="n">{f["pts"]}</th></tr></thead><tbody>{drows}</tbody></table></div>'
+            f'<h2 class="gp-h">{e(f["tm"])}</h2><div class="tbl-wrap"><table class="fb-t f1-t"><thead><tr><th class="n">{f["pos"]}</th><th>{f["team"]}</th><th class="n">{f["wins"]}</th><th class="n">{f["pts"]}</th></tr></thead><tbody>{trows}</tbody></table></div>'
+            f'<h2 class="gp-h">{e(f["cal"])} {e(F["season"])}</h2><div class="tbl-wrap"><table class="fb-t f1-cal"><thead><tr><th class="n">{f["rd"]}</th><th>{f["gp"]}</th><th>{f["date"]}</th><th>{f["win"]}</th></tr></thead><tbody>{crow}</tbody></table></div>'
+            f'<p class="fb-ko">{e(f["src"])}: {src}</p>{news_html}</div>'
+            f'<aside class="sec-side"><h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
+
+TNU = {'bg': dict(atp='ATP ранглиста (мъже)', wta='WTA ранглиста (жени)', ev='Текущи турнири', ours='Българи и германци в ранглистата', r='#', name='Играч', cc='Държава', pts='Точки', tr='±', asof='Към', top='Топ 20', src='Данни'),
+       'de': dict(atp='ATP-Weltrangliste (Herren)', wta='WTA-Weltrangliste (Damen)', ev='Laufende Turniere', ours='Deutsche und Bulgaren im Ranking', r='Pl.', name='Spieler/in', cc='Land', pts='Punkte', tr='±', asof='Stand', top='Top 20', src='Daten'),
+       'en': dict(atp='ATP rankings (men)', wta='WTA rankings (women)', ev='Current tournaments', ours='Germans and Bulgarians in the rankings', r='#', name='Player', cc='Country', pts='Points', tr='±', asof='As of', top='Top 20', src='Data')}
+def tennis_page(l, today, news_html, others):
+    fp = os.path.join(HERE, 'content', 'tennis', 'rankings.json')
+    if not os.path.exists(fp): return ''
+    T = json.load(open(fp, encoding='utf-8')); f = TNU[l]
+    im = SP_IMG.get('tennis')
+    hero = (f'<div class="ga-media"><div class="fb-hero" style="background-image:url({im["f"]})"></div><p class="gr-cr">{cap_pre(im.get("alt", {}).get(l, ""), l)}{credit(im, l, True)}</p></div>') if im else ''
+    def trend(x):
+        if not x.get('prev') or x['prev'] == x['r']: return '<span class="tn-eq">–</span>'
+        d = x['prev'] - x['r']; return f'<span class="{"tn-up" if d > 0 else "tn-dn"}">{"▲" if d > 0 else "▼"}{abs(d)}</span>'
+    def table(tour):
+        R = T[tour]
+        rows = ''.join(f'<tr{" class=fb-top" if x["r"] <= 3 else ""}{" data-hl=1" if x["cc"] in ("GER", "BUL") else ""}><td class="n">{x["r"]}</td><th scope="row">{e(x["name"])}</th><td>{e(x["cc"])}</td><td class="n">{trend(x)}</td><td class="n fb-pts">{x["pts"]:,}</td></tr>'.replace(',', '.' if l != 'en' else ',') for x in R['ranks'][:20])
+        return (f'<h2 class="gp-h">{e(f[tour])} <small class="f1-after">{e(f["asof"])}: {e(nice_date(R["date"], l)) if R.get("date") else ""}</small></h2>'
+                f'<div class="tbl-wrap"><table class="fb-t tn-t"><thead><tr><th class="n">{f["r"]}</th><th>{f["name"]}</th><th>{f["cc"]}</th><th class="n">{f["tr"]}</th><th class="n">{f["pts"]}</th></tr></thead><tbody>{rows}</tbody></table></div>')
+    ours = [(t.upper(), x) for t in ('atp', 'wta') for x in T[t]['ranks'] if x['cc'] in ('GER', 'BUL')]
+    ol = ''.join(f'<li><b>{x["r"]}.</b> {e(x["name"])} <small>({e(x["cc"])}, {tt})</small></li>' for tt, x in ours[:16])
+    evs = [x for x in T.get('events', []) if x.get('end', '') >= today]
+    el = ''.join(f'<li><span class="gr-badge">{e(x["tour"])}</span> <b>{e(x["name"])}</b> <small>{num_date(x["start"])} – {num_date(x["end"])}</small></li>' for x in evs)
+    src = ' · '.join(f'<a href="{e(x["u"])}" target="_blank" rel="noopener">{e(x["n"])}</a>' for x in T.get('src', []))
+    return (f'<div class="gp gp-sport fb-page tn-page"><div class="gp-head"><h1 class="gp-title">{e(SUB[l]["tennis"][0])}</h1>{gp_slogan(l)}</div>'
+            f'<div class="gp-main"><div class="gp-panel">{hero}' + (f'<h2 class="gp-h">{e(f["ev"])}</h2><ul class="tn-ev">{el}</ul>' if el else '') +
+            f'<div class="tn-two">{table("atp")}{table("wta")}</div>' + (f'<h2 class="gp-h">{e(f["ours"])}</h2><ul class="tn-ours">{ol}</ul>' if ol else '') +
+            f'<p class="fb-ko">{e(f["src"])}: {src}</p>{news_html}</div>'
+            f'<aside class="sec-side"><h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
+
 def fb_league_card(k, l, today):
     lg = FB[k]; f = FBU[l]
     tab = fb_table(lg); rs, done, nxt = fb_state(lg, today)
@@ -1207,9 +1280,9 @@ def bx_card(k, l, today):
 
 SP_ALL = {'bg': 'Всички', 'de': 'Übersicht', 'en': 'Overview'}
 SP_LIMIT = {'fussball': 6, 'laenderspiele': 6, 'boxen': 3, 'mma': 3}   # Nedys Vorgabe: 12 Sport-News am Tag (6 Fußball, 3 Boxen, 3 MMA)
-SP_U = {'bg': dict(subs='Рубрики', open='Отвори →', n='новини днес', news={'fussball': 'Футболни новини', 'laenderspiele': 'Национални отбори', 'boxen': 'Бокс новини', 'mma': 'ММА новини', 'handball': 'Хандбал новини', 'extremsport': 'Екстремни спортове'}, all='Всички →'),
-        'de': dict(subs='Rubriken', open='Öffnen →', n='News heute', news={'fussball': 'Fußball-News', 'laenderspiele': 'Länderspiel-News', 'boxen': 'Box-News', 'mma': 'MMA-News', 'handball': 'Handball-News', 'extremsport': 'Extremsport im Video'}, all='Alle →'),
-        'en': dict(subs='Sections', open='Open →', n='stories today', news={'fussball': 'Football news', 'laenderspiele': 'Internationals news', 'boxen': 'Boxing news', 'mma': 'MMA news', 'handball': 'Handball news', 'extremsport': 'Extreme sports on video'}, all='All →')}
+SP_U = {'bg': dict(subs='Рубрики', open='Отвори →', n='новини днес', news={'fussball': 'Футболни новини', 'laenderspiele': 'Национални отбори', 'boxen': 'Бокс новини', 'mma': 'ММА новини', 'handball': 'Хандбал новини', 'formel1': 'Формула 1 новини', 'tennis': 'Тенис новини', 'extremsport': 'Екстремни спортове'}, all='Всички →'),
+        'de': dict(subs='Rubriken', open='Öffnen →', n='News heute', news={'fussball': 'Fußball-News', 'laenderspiele': 'Länderspiel-News', 'boxen': 'Box-News', 'mma': 'MMA-News', 'handball': 'Handball-News', 'formel1': 'Formel-1-News', 'tennis': 'Tennis-News', 'extremsport': 'Extremsport im Video'}, all='Alle →'),
+        'en': dict(subs='Sections', open='Open →', n='stories today', news={'fussball': 'Football news', 'laenderspiele': 'Internationals news', 'boxen': 'Boxing news', 'mma': 'MMA news', 'handball': 'Handball news', 'formel1': 'Formula 1 news', 'tennis': 'Tennis news', 'extremsport': 'Extreme sports on video'}, all='All →')}
 
 SP_IMG = {}
 def load_sp_img():
@@ -1590,6 +1663,10 @@ def build():
                             write(bu, page(l, act, bt, f'{bx_t(BX[bk]["full"], l)}: {bxu(l, k)["champs"]}, {bxu(l, k)["up"]}, {bxu(l, k)["res"]}', bu, tabs(k) + bx_org_page(bk, l, latest['date'], bnews, _others(s)), balts,
                                            {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": bx_t(BX[bk]["full"], l), "url": SITE + bu, "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
                             urls.append((bu, balts, latest['date']))
+                    elif s == 'sport' and k in ('formel1', 'tennis'):   # Formel 1 / Tennis: Tabellen + News/Videos (Aufbau wie Fußball)
+                        nh = games_page(l, sits, sits[0]['date'], '', SX, s, title=SUB[l][k][0]) if sits else ''
+                        nh = nh.split('<div class="gp-panel">', 1)[1].split('</div><aside', 1)[0] if nh else ''
+                        sb = tabs(k) + (f1_page if k == 'formel1' else tennis_page)(l, latest['date'], nh, _others(s))
                     elif s == 'sport' and k == 'extremsport':   # Extremsport: Video-Wand wie WOW
                         sb = tabs(k) + wow_page(l, sits, _others(s), title=SUB[l][k][0], desc=SUB_DESC[k][l], kind='sport')
                     elif s == 'sport' and k == 'handball' and 'handball-bundesliga' in FB:   # Handball-Bundesliga: Tabelle/Spieltage wie Fußball

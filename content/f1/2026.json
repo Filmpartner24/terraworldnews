@@ -1,0 +1,510 @@
+{
+ "season": "2026",
+ "round": 16,
+ "updated": "2026-10-08",
+ "drivers": [
+  {
+   "pos": 1,
+   "name": "Andrea Kimi Antonelli",
+   "nat": "Italian",
+   "team": "Mercedes",
+   "pts": 320.0,
+   "wins": 8
+  },
+  {
+   "pos": 2,
+   "name": "George Russell",
+   "nat": "British",
+   "team": "Mercedes",
+   "pts": 236.0,
+   "wins": 3
+  },
+  {
+   "pos": 3,
+   "name": "Lewis Hamilton",
+   "nat": "British",
+   "team": "Ferrari",
+   "pts": 214.0,
+   "wins": 1
+  },
+  {
+   "pos": 4,
+   "name": "Charles Leclerc",
+   "nat": "Monegasque",
+   "team": "Ferrari",
+   "pts": 191.0,
+   "wins": 1
+  },
+  {
+   "pos": 5,
+   "name": "Lando Norris",
+   "nat": "British",
+   "team": "McLaren",
+   "pts": 188.0,
+   "wins": 2
+  },
+  {
+   "pos": 6,
+   "name": "Max Verstappen",
+   "nat": "Dutch",
+   "team": "Red Bull",
+   "pts": 188.0,
+   "wins": 1
+  },
+  {
+   "pos": 7,
+   "name": "Oscar Piastri",
+   "nat": "Australian",
+   "team": "McLaren",
+   "pts": 128.0,
+   "wins": 0
+  },
+  {
+   "pos": 8,
+   "name": "Isack Hadjar",
+   "nat": "French",
+   "team": "Red Bull",
+   "pts": 96.0,
+   "wins": 0
+  },
+  {
+   "pos": 9,
+   "name": "Liam Lawson",
+   "nat": "New Zealander",
+   "team": "RB F1 Team",
+   "pts": 65.0,
+   "wins": 0
+  },
+  {
+   "pos": 10,
+   "name": "Pierre Gasly",
+   "nat": "French",
+   "team": "Alpine F1 Team",
+   "pts": 41.0,
+   "wins": 0
+  },
+  {
+   "pos": 11,
+   "name": "Arvid Lindblad",
+   "nat": "British",
+   "team": "RB F1 Team",
+   "pts": 38.0,
+   "wins": 0
+  },
+  {
+   "pos": 12,
+   "name": "Franco Colapinto",
+   "nat": "Argentine",
+   "team": "Alpine F1 Team",
+   "pts": 27.0,
+   "wins": 0
+  },
+  {
+   "pos": 13,
+   "name": "Oliver Bearman",
+   "nat": "British",
+   "team": "Haas F1 Team",
+   "pts": 20.0,
+   "wins": 0
+  },
+  {
+   "pos": 14,
+   "name": "Gabriel Bortoleto",
+   "nat": "Brazilian",
+   "team": "Audi",
+   "pts": 10.0,
+   "wins": 0
+  },
+  {
+   "pos": 15,
+   "name": "Nico Hülkenberg",
+   "nat": "German",
+   "team": "Audi",
+   "pts": 7.0,
+   "wins": 0
+  },
+  {
+   "pos": 16,
+   "name": "Esteban Ocon",
+   "nat": "French",
+   "team": "Haas F1 Team",
+   "pts": 7.0,
+   "wins": 0
+  },
+  {
+   "pos": 17,
+   "name": "Fernando Alonso",
+   "nat": "Spanish",
+   "team": "Aston Martin",
+   "pts": 7.0,
+   "wins": 0
+  },
+  {
+   "pos": 18,
+   "name": "Carlos Sainz",
+   "nat": "Spanish",
+   "team": "Williams",
+   "pts": 7.0,
+   "wins": 0
+  },
+  {
+   "pos": 19,
+   "name": "Alexander Albon",
+   "nat": "Thai",
+   "team": "Williams",
+   "pts": 5.0,
+   "wins": 0
+  },
+  {
+   "pos": 20,
+   "name": "Yuki Tsunoda",
+   "nat": "Japanese",
+   "team": "RB F1 Team",
+   "pts": 1.0,
+   "wins": 0
+  },
+  {
+   "pos": 21,
+   "name": "Lance Stroll",
+   "nat": "Canadian",
+   "team": "Aston Martin",
+   "pts": 0.0,
+   "wins": 0
+  },
+  {
+   "pos": 22,
+   "name": "Valtteri Bottas",
+   "nat": "Finnish",
+   "team": "Cadillac F1 Team",
+   "pts": 0.0,
+   "wins": 0
+  },
+  {
+   "pos": 23,
+   "name": "Sergio Pérez",
+   "nat": "Mexican",
+   "team": "Cadillac F1 Team",
+   "pts": 0.0,
+   "wins": 0
+  }
+ ],
+ "teams": [
+  {
+   "pos": 1,
+   "name": "Mercedes",
+   "pts": 556.0,
+   "wins": 11
+  },
+  {
+   "pos": 2,
+   "name": "Ferrari",
+   "pts": 405.0,
+   "wins": 2
+  },
+  {
+   "pos": 3,
+   "name": "McLaren",
+   "pts": 316.0,
+   "wins": 2
+  },
+  {
+   "pos": 4,
+   "name": "Red Bull",
+   "pts": 298.0,
+   "wins": 1
+  },
+  {
+   "pos": 5,
+   "name": "RB F1 Team",
+   "pts": 90.0,
+   "wins": 0
+  },
+  {
+   "pos": 6,
+   "name": "Alpine F1 Team",
+   "pts": 68.0,
+   "wins": 0
+  },
+  {
+   "pos": 7,
+   "name": "Haas F1 Team",
+   "pts": 27.0,
+   "wins": 0
+  },
+  {
+   "pos": 8,
+   "name": "Audi",
+   "pts": 17.0,
+   "wins": 0
+  },
+  {
+   "pos": 9,
+   "name": "Williams",
+   "pts": 12.0,
+   "wins": 0
+  },
+  {
+   "pos": 10,
+   "name": "Aston Martin",
+   "pts": 7.0,
+   "wins": 0
+  },
+  {
+   "pos": 11,
+   "name": "Cadillac F1 Team",
+   "pts": 0.0,
+   "wins": 0
+  }
+ ],
+ "races": [
+  {
+   "round": 1,
+   "name": "Australian Grand Prix",
+   "circuit": "Albert Park Grand Prix Circuit",
+   "locality": "Melbourne",
+   "country": "Australia",
+   "date": "2026-03-08",
+   "time": "04:00",
+   "winner": "George Russell",
+   "winner_team": "Mercedes"
+  },
+  {
+   "round": 2,
+   "name": "Chinese Grand Prix",
+   "circuit": "Shanghai International Circuit",
+   "locality": "Shanghai",
+   "country": "China",
+   "date": "2026-03-15",
+   "time": "07:00",
+   "winner": "Andrea Kimi Antonelli",
+   "winner_team": "Mercedes"
+  },
+  {
+   "round": 3,
+   "name": "Japanese Grand Prix",
+   "circuit": "Suzuka Circuit",
+   "locality": "Suzuka",
+   "country": "Japan",
+   "date": "2026-03-29",
+   "time": "05:00",
+   "winner": "Andrea Kimi Antonelli",
+   "winner_team": "Mercedes"
+  },
+  {
+   "round": 4,
+   "name": "Miami Grand Prix",
+   "circuit": "Miami International Autodrome",
+   "locality": "Miami",
+   "country": "USA",
+   "date": "2026-05-03",
+   "time": "20:00",
+   "winner": "Andrea Kimi Antonelli",
+   "winner_team": "Mercedes"
+  },
+  {
+   "round": 5,
+   "name": "Canadian Grand Prix",
+   "circuit": "Circuit Gilles Villeneuve",
+   "locality": "Montreal",
+   "country": "Canada",
+   "date": "2026-05-24",
+   "time": "20:00",
+   "winner": "Andrea Kimi Antonelli",
+   "winner_team": "Mercedes"
+  },
+  {
+   "round": 6,
+   "name": "Monaco Grand Prix",
+   "circuit": "Circuit de Monaco",
+   "locality": "Monte Carlo",
+   "country": "Monaco",
+   "date": "2026-06-07",
+   "time": "13:00",
+   "winner": "Andrea Kimi Antonelli",
+   "winner_team": "Mercedes"
+  },
+  {
+   "round": 7,
+   "name": "Barcelona Grand Prix",
+   "circuit": "Circuit de Barcelona-Catalunya",
+   "locality": "Barcelona",
+   "country": "Spain",
+   "date": "2026-06-14",
+   "time": "13:00",
+   "winner": "Lewis Hamilton",
+   "winner_team": "Ferrari"
+  },
+  {
+   "round": 8,
+   "name": "Austrian Grand Prix",
+   "circuit": "Red Bull Ring",
+   "locality": "Spielberg",
+   "country": "Austria",
+   "date": "2026-06-28",
+   "time": "13:00",
+   "winner": "George Russell",
+   "winner_team": "Mercedes"
+  },
+  {
+   "round": 9,
+   "name": "British Grand Prix",
+   "circuit": "Silverstone Circuit",
+   "locality": "Silverstone",
+   "country": "UK",
+   "date": "2026-07-05",
+   "time": "14:00",
+   "winner": "Charles Leclerc",
+   "winner_team": "Ferrari"
+  },
+  {
+   "round": 10,
+   "name": "Belgian Grand Prix",
+   "circuit": "Circuit de Spa-Francorchamps",
+   "locality": "Spa",
+   "country": "Belgium",
+   "date": "2026-07-19",
+   "time": "13:00",
+   "winner": "Andrea Kimi Antonelli",
+   "winner_team": "Mercedes"
+  },
+  {
+   "round": 11,
+   "name": "Hungarian Grand Prix",
+   "circuit": "Hungaroring",
+   "locality": "Budapest",
+   "country": "Hungary",
+   "date": "2026-07-26",
+   "time": "13:00",
+   "winner": "Lando Norris",
+   "winner_team": "McLaren"
+  },
+  {
+   "round": 12,
+   "name": "Dutch Grand Prix",
+   "circuit": "Circuit Park Zandvoort",
+   "locality": "Zandvoort",
+   "country": "Netherlands",
+   "date": "2026-08-23",
+   "time": "13:00",
+   "winner": "Lando Norris",
+   "winner_team": "McLaren"
+  },
+  {
+   "round": 13,
+   "name": "Italian Grand Prix",
+   "circuit": "Autodromo Nazionale di Monza",
+   "locality": "Monza",
+   "country": "Italy",
+   "date": "2026-09-06",
+   "time": "13:00",
+   "winner": "Andrea Kimi Antonelli",
+   "winner_team": "Mercedes"
+  },
+  {
+   "round": 14,
+   "name": "Spanish Grand Prix",
+   "circuit": "Madring",
+   "locality": "Madrid",
+   "country": "Spain",
+   "date": "2026-09-13",
+   "time": "13:00",
+   "winner": "Andrea Kimi Antonelli",
+   "winner_team": "Mercedes"
+  },
+  {
+   "round": 15,
+   "name": "Azerbaijan Grand Prix",
+   "circuit": "Baku City Circuit",
+   "locality": "Baku",
+   "country": "Azerbaijan",
+   "date": "2026-09-26",
+   "time": "11:00",
+   "winner": "George Russell",
+   "winner_team": "Mercedes"
+  },
+  {
+   "round": 16,
+   "name": "Bahrain Grand Prix in Malaysia",
+   "circuit": "Sepang International Circuit",
+   "locality": "Kuala Lumpur",
+   "country": "Malaysia",
+   "date": "2026-10-04",
+   "time": "07:00",
+   "winner": "Max Verstappen",
+   "winner_team": "Red Bull"
+  },
+  {
+   "round": 17,
+   "name": "Singapore Grand Prix",
+   "circuit": "Marina Bay Street Circuit",
+   "locality": "Marina Bay",
+   "country": "Singapore",
+   "date": "2026-10-11",
+   "time": "12:00"
+  },
+  {
+   "round": 18,
+   "name": "United States Grand Prix",
+   "circuit": "Circuit of the Americas",
+   "locality": "Austin",
+   "country": "USA",
+   "date": "2026-10-25",
+   "time": "20:00"
+  },
+  {
+   "round": 19,
+   "name": "Mexico City Grand Prix",
+   "circuit": "Autódromo Hermanos Rodríguez",
+   "locality": "Mexico City",
+   "country": "Mexico",
+   "date": "2026-11-01",
+   "time": "20:00"
+  },
+  {
+   "round": 20,
+   "name": "Brazilian Grand Prix",
+   "circuit": "Autódromo José Carlos Pace",
+   "locality": "São Paulo",
+   "country": "Brazil",
+   "date": "2026-11-08",
+   "time": "17:00"
+  },
+  {
+   "round": 21,
+   "name": "Las Vegas Grand Prix",
+   "circuit": "Las Vegas Strip Street Circuit",
+   "locality": "Las Vegas",
+   "country": "USA",
+   "date": "2026-11-22",
+   "time": "04:00"
+  },
+  {
+   "round": 22,
+   "name": "Qatar Grand Prix",
+   "circuit": "Lusail International Circuit",
+   "locality": "Lusail",
+   "country": "Qatar",
+   "date": "2026-11-29",
+   "time": "16:00"
+  },
+  {
+   "round": 23,
+   "name": "Abu Dhabi Grand Prix",
+   "circuit": "Yas Marina Circuit",
+   "locality": "Abu Dhabi",
+   "country": "UAE",
+   "date": "2026-12-06",
+   "time": "13:00"
+  }
+ ],
+ "src": [
+  {
+   "n": "Jolpica-F1 (Ergast-Nachfolger)",
+   "u": "https://github.com/jolpica/jolpica-f1"
+  },
+  {
+   "n": "Formula 1 – offizielle Wertung",
+   "u": "https://www.formula1.com/en/results"
+  }
+ ]
+}
