@@ -1025,3 +1025,7 @@ footer a.g-pref{font-weight:700}
 .tr-sec .dt-top.dt-ph{border-bottom:3px solid #c2185b}
 .tr-sec .dt-name{font-size:23px}
 .tr-asof{font-family:var(--body,inherit);font-size:13px;font-weight:400;letter-spacing:0;text-transform:none;color:#9ca3af;margin-left:10px}
+.tr-sec .dt-top.dt-ph::after{background:linear-gradient(0deg,rgba(7,17,31,.9) 0%,rgba(7,17,31,.1) 50%,rgba(7,17,31,0) 100%)}
+.tr-card .gr-more{background:#c2185b;color:#fff;border:0;opacity:1}
+.tr-card a:hover{border-color:#f06292}
+.tr-sec .dt-top.dt-ph{background-size:cover;background-position:center 30%}
