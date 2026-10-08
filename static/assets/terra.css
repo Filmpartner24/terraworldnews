@@ -1029,3 +1029,21 @@ footer a.g-pref{font-weight:700}
 .tr-card .gr-more{background:#c2185b;color:#fff;border:0;opacity:1}
 .tr-card a:hover{border-color:#f06292}
 .tr-sec .dt-top.dt-ph{background-size:cover;background-position:center 30%}
+/* WOW – reine Video-Wand */
+.gp-wow .gp-head{background:linear-gradient(90deg,#1a0010,#ff2d55 55%,#ff9500)}
+.wow-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.wow-t h3{font-family:var(--head);font-size:18px;line-height:1.25;color:#fff;margin:10px 0 4px}
+.wow-t a{text-decoration:none}.wow-t a:hover h3{color:#ff9ab0}
+.wow-yt{position:relative;aspect-ratio:16/9;border-radius:6px;overflow:hidden;background:#111 center/cover no-repeat}
+.wow-yt .yt-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:64px;height:64px;border-radius:50%;font-size:24px;padding:0;background:#ff2d55;color:#fff;border:0}
+.wow-yt .yt-note{position:absolute;left:8px;right:8px;bottom:6px;font-size:10.5px;color:#e5e7eb;text-shadow:0 1px 3px #000}
+.wow-m{font-size:12.5px;color:#9ca3af;margin:0}
+@media (max-width:980px){.wow-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.wow-grid{grid-template-columns:1fr}}
+.wow-yt{background:radial-gradient(circle at 30% 20%,#3a0a1e 0%,#140812 55%,#05040a 100%)}
+.wow-t[data-wc="nat"] .wow-yt{background:radial-gradient(circle at 30% 20%,#0b3a2a 0%,#081a14 55%,#04080a 100%)}
+.wow-t[data-wc="space"] .wow-yt{background:radial-gradient(circle at 70% 30%,#1b2a6b 0%,#0a0f2a 55%,#020308 100%)}
+.wow-yt .gr-badge{position:absolute;left:10px;top:10px}
+.gp-wow.gp-sport .gp-head{background:linear-gradient(90deg,#0b1a2e,#e85d04 70%,#f59e0b)}
+.gp-wow.gp-sport .wow-yt{background:radial-gradient(circle at 30% 20%,#4a1f05 0%,#140c08 55%,#05040a 100%)}
+.gp-wow.gp-sport .wow-yt .yt-play{background:#e85d04}

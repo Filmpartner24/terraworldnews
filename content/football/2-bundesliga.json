@@ -1,0 +1,2378 @@
+{
+ "key": "2-bundesliga",
+ "code": "de.2",
+ "season": "2026-27",
+ "name": {
+  "bg": "2. Бундеслига",
+  "de": "2. Bundesliga",
+  "en": "2. Bundesliga"
+ },
+ "tz": "Europe/Berlin",
+ "matches": [
+  {
+   "r": 1,
+   "date": "2026-08-07",
+   "time": "20:30",
+   "t1": "VfL Bochum",
+   "t2": "Hertha BSC",
+   "ft": [
+    0,
+    1
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-08",
+   "time": "13:00",
+   "t1": "1. FC Heidenheim 1846",
+   "t2": "VfL Osnabrück",
+   "ft": [
+    4,
+    3
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-08",
+   "time": "13:00",
+   "t1": "SV Darmstadt 98",
+   "t2": "Holstein Kiel",
+   "ft": [
+    2,
+    2
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-08",
+   "time": "13:00",
+   "t1": "Karlsruher SC",
+   "t2": "DSC Arminia Bielefeld",
+   "ft": [
+    2,
+    1
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-08",
+   "time": "13:00",
+   "t1": "1. FC Magdeburg",
+   "t2": "Eintracht Braunschweig",
+   "ft": [
+    1,
+    6
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-08",
+   "time": "20:30",
+   "t1": "VfL Wolfsburg",
+   "t2": "1. FC Kaiserslautern",
+   "ft": [
+    0,
+    0
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-09",
+   "time": "13:30",
+   "t1": "FC St. Pauli",
+   "t2": "SpVgg Greuther Fürth",
+   "ft": [
+    1,
+    1
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-09",
+   "time": "13:30",
+   "t1": "1. FC Nürnberg",
+   "t2": "Dynamo Dresden",
+   "ft": [
+    3,
+    0
+   ]
+  },
+  {
+   "r": 1,
+   "date": "2026-08-09",
+   "time": "13:30",
+   "t1": "Energie Cottbus",
+   "t2": "Hannover 96",
+   "ft": [
+    3,
+    1
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-08-14",
+   "time": "18:30",
+   "t1": "Holstein Kiel",
+   "t2": "FC St. Pauli",
+   "ft": [
+    2,
+    2
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-08-14",
+   "time": "18:30",
+   "t1": "Eintracht Braunschweig",
+   "t2": "VfL Bochum",
+   "ft": [
+    0,
+    1
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-08-15",
+   "time": "13:00",
+   "t1": "Hertha BSC",
+   "t2": "1. FC Heidenheim 1846",
+   "ft": [
+    4,
+    1
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-08-15",
+   "time": "13:00",
+   "t1": "SpVgg Greuther Fürth",
+   "t2": "1. FC Nürnberg",
+   "ft": [
+    2,
+    4
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-08-15",
+   "time": "13:00",
+   "t1": "VfL Osnabrück",
+   "t2": "1. FC Magdeburg",
+   "ft": [
+    0,
+    3
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-08-15",
+   "time": "20:30",
+   "t1": "1. FC Kaiserslautern",
+   "t2": "Karlsruher SC",
+   "ft": [
+    0,
+    0
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-08-16",
+   "time": "13:30",
+   "t1": "Hannover 96",
+   "t2": "VfL Wolfsburg",
+   "ft": [
+    0,
+    1
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-08-16",
+   "time": "13:30",
+   "t1": "Dynamo Dresden",
+   "t2": "SV Darmstadt 98",
+   "ft": [
+    1,
+    0
+   ]
+  },
+  {
+   "r": 2,
+   "date": "2026-08-16",
+   "time": "13:30",
+   "t1": "DSC Arminia Bielefeld",
+   "t2": "Energie Cottbus",
+   "ft": [
+    3,
+    0
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-08-28",
+   "time": "18:30",
+   "t1": "VfL Bochum",
+   "t2": "VfL Osnabrück",
+   "ft": [
+    0,
+    1
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-08-28",
+   "time": "18:30",
+   "t1": "Eintracht Braunschweig",
+   "t2": "Hertha BSC",
+   "ft": [
+    3,
+    5
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-08-29",
+   "time": "13:00",
+   "t1": "1. FC Heidenheim 1846",
+   "t2": "Dynamo Dresden",
+   "ft": [
+    5,
+    3
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-08-29",
+   "time": "13:00",
+   "t1": "Karlsruher SC",
+   "t2": "VfL Wolfsburg",
+   "ft": [
+    2,
+    5
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-08-29",
+   "time": "13:00",
+   "t1": "Energie Cottbus",
+   "t2": "SpVgg Greuther Fürth",
+   "ft": [
+    3,
+    4
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-08-29",
+   "time": "20:30",
+   "t1": "1. FC Nürnberg",
+   "t2": "DSC Arminia Bielefeld",
+   "ft": [
+    4,
+    1
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-08-30",
+   "time": "13:30",
+   "t1": "FC St. Pauli",
+   "t2": "1. FC Kaiserslautern",
+   "ft": [
+    1,
+    2
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-08-30",
+   "time": "13:30",
+   "t1": "SV Darmstadt 98",
+   "t2": "Hannover 96",
+   "ft": [
+    0,
+    1
+   ]
+  },
+  {
+   "r": 3,
+   "date": "2026-08-30",
+   "time": "13:30",
+   "t1": "1. FC Magdeburg",
+   "t2": "Holstein Kiel",
+   "ft": [
+    2,
+    0
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-04",
+   "time": "18:30",
+   "t1": "Hannover 96",
+   "t2": "Karlsruher SC",
+   "ft": [
+    2,
+    2
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-04",
+   "time": "18:30",
+   "t1": "DSC Arminia Bielefeld",
+   "t2": "FC St. Pauli",
+   "ft": [
+    2,
+    2
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-05",
+   "time": "13:00",
+   "t1": "VfL Wolfsburg",
+   "t2": "Energie Cottbus",
+   "ft": [
+    4,
+    4
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-05",
+   "time": "13:00",
+   "t1": "1. FC Kaiserslautern",
+   "t2": "SV Darmstadt 98",
+   "ft": [
+    3,
+    0
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-05",
+   "time": "13:00",
+   "t1": "Holstein Kiel",
+   "t2": "1. FC Nürnberg",
+   "ft": [
+    2,
+    2
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-05",
+   "time": "20:30",
+   "t1": "Dynamo Dresden",
+   "t2": "VfL Bochum",
+   "ft": [
+    1,
+    2
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-06",
+   "time": "13:30",
+   "t1": "Hertha BSC",
+   "t2": "1. FC Magdeburg",
+   "ft": [
+    2,
+    1
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-06",
+   "time": "13:30",
+   "t1": "SpVgg Greuther Fürth",
+   "t2": "1. FC Heidenheim 1846",
+   "ft": [
+    0,
+    1
+   ]
+  },
+  {
+   "r": 4,
+   "date": "2026-09-06",
+   "time": "13:30",
+   "t1": "VfL Osnabrück",
+   "t2": "Eintracht Braunschweig",
+   "ft": [
+    3,
+    1
+   ]
+  },
+  {
+   "r": 5,
+   "date": "2026-09-11",
+   "time": "18:30",
+   "t1": "SV Darmstadt 98",
+   "t2": "DSC Arminia Bielefeld",
+   "ft": [
+    2,
+    1
+   ]
+  },
+  {
+   "r": 5,
+   "date": "2026-09-11",
+   "time": "18:30",
+   "t1": "1. FC Nürnberg",
+   "t2": "Hannover 96",
+   "ft": [
+    2,
+    1
+   ]
+  },
+  {
+   "r": 5,
+   "date": "2026-09-12",
+   "time": "13:00",
+   "t1": "VfL Bochum",
+   "t2": "SpVgg Greuther Fürth",
+   "ft": [
+    1,
+    1
+   ]
+  },
+  {
+   "r": 5,
+   "date": "2026-09-12",
+   "time": "13:00",
+   "t1": "1. FC Magdeburg",
+   "t2": "1. FC Kaiserslautern",
+   "ft": [
+    3,
+    0
+   ]
+  },
+  {
+   "r": 5,
+   "date": "2026-09-12",
+   "time": "13:00",
+   "t1": "Eintracht Braunschweig",
+   "t2": "Dynamo Dresden",
+   "ft": [
+    2,
+    2
+   ]
+  },
+  {
+   "r": 5,
+   "date": "2026-09-12",
+   "time": "20:30",
+   "t1": "FC St. Pauli",
+   "t2": "VfL Wolfsburg",
+   "ft": [
+    1,
+    0
+   ]
+  },
+  {
+   "r": 5,
+   "date": "2026-09-13",
+   "time": "13:30",
+   "t1": "1. FC Heidenheim 1846",
+   "t2": "Holstein Kiel",
+   "ft": [
+    1,
+    0
+   ]
+  },
+  {
+   "r": 5,
+   "date": "2026-09-13",
+   "time": "13:30",
+   "t1": "Karlsruher SC",
+   "t2": "Energie Cottbus",
+   "ft": [
+    0,
+    3
+   ]
+  },
+  {
+   "r": 5,
+   "date": "2026-09-13",
+   "time": "13:30",
+   "t1": "VfL Osnabrück",
+   "t2": "Hertha BSC",
+   "ft": [
+    1,
+    3
+   ]
+  },
+  {
+   "r": 6,
+   "date": "2026-09-18",
+   "time": "18:30",
+   "t1": "VfL Wolfsburg",
+   "t2": "SV Darmstadt 98",
+   "ft": [
+    5,
+    1
+   ]
+  },
+  {
+   "r": 6,
+   "date": "2026-09-18",
+   "time": "18:30",
+   "t1": "SpVgg Greuther Fürth",
+   "t2": "1. FC Magdeburg",
+   "ft": [
+    1,
+    1
+   ]
+  },
+  {
+   "r": 6,
+   "date": "2026-09-19",
+   "time": "13:00",
+   "t1": "1. FC Kaiserslautern",
+   "t2": "Eintracht Braunschweig",
+   "ft": [
+    1,
+    0
+   ]
+  },
+  {
+   "r": 6,
+   "date": "2026-09-19",
+   "time": "13:00",
+   "t1": "Karlsruher SC",
+   "t2": "1. FC Nürnberg",
+   "ft": [
+    0,
+    1
+   ]
+  },
+  {
+   "r": 6,
+   "date": "2026-09-19",
+   "time": "13:00",
+   "t1": "Holstein Kiel",
+   "t2": "VfL Osnabrück",
+   "ft": [
+    1,
+    1
+   ]
+  },
+  {
+   "r": 6,
+   "date": "2026-09-19",
+   "time": "20:30",
+   "t1": "Dynamo Dresden",
+   "t2": "Hertha BSC",
+   "ft": [
+    1,
+    2
+   ]
+  },
+  {
+   "r": 6,
+   "date": "2026-09-20",
+   "time": "13:30",
+   "t1": "Hannover 96",
+   "t2": "VfL Bochum",
+   "ft": [
+    2,
+    1
+   ]
+  },
+  {
+   "r": 6,
+   "date": "2026-09-20",
+   "time": "13:30",
+   "t1": "DSC Arminia Bielefeld",
+   "t2": "1. FC Heidenheim 1846",
+   "ft": [
+    2,
+    2
+   ]
+  },
+  {
+   "r": 6,
+   "date": "2026-09-20",
+   "time": "13:30",
+   "t1": "Energie Cottbus",
+   "t2": "FC St. Pauli",
+   "ft": [
+    1,
+    1
+   ]
+  },
+  {
+   "r": 7,
+   "date": "2026-10-09",
+   "time": "18:30",
+   "t1": "1. FC Heidenheim 1846",
+   "t2": "1. FC Kaiserslautern"
+  },
+  {
+   "r": 7,
+   "date": "2026-10-09",
+   "time": "18:30",
+   "t1": "Eintracht Braunschweig",
+   "t2": "Holstein Kiel"
+  },
+  {
+   "r": 7,
+   "date": "2026-10-10",
+   "time": "13:00",
+   "t1": "SV Darmstadt 98",
+   "t2": "Energie Cottbus"
+  },
+  {
+   "r": 7,
+   "date": "2026-10-10",
+   "time": "13:00",
+   "t1": "1. FC Magdeburg",
+   "t2": "Hannover 96"
+  },
+  {
+   "r": 7,
+   "date": "2026-10-10",
+   "time": "13:00",
+   "t1": "VfL Osnabrück",
+   "t2": "Dynamo Dresden"
+  },
+  {
+   "r": 7,
+   "date": "2026-10-10",
+   "time": "20:30",
+   "t1": "1. FC Nürnberg",
+   "t2": "VfL Wolfsburg"
+  },
+  {
+   "r": 7,
+   "date": "2026-10-11",
+   "time": "13:30",
+   "t1": "FC St. Pauli",
+   "t2": "Karlsruher SC"
+  },
+  {
+   "r": 7,
+   "date": "2026-10-11",
+   "time": "13:30",
+   "t1": "Hertha BSC",
+   "t2": "SpVgg Greuther Fürth"
+  },
+  {
+   "r": 7,
+   "date": "2026-10-11",
+   "time": "13:30",
+   "t1": "VfL Bochum",
+   "t2": "DSC Arminia Bielefeld"
+  },
+  {
+   "r": 8,
+   "date": "2026-10-16",
+   "time": "18:30",
+   "t1": "Holstein Kiel",
+   "t2": "Hertha BSC"
+  },
+  {
+   "r": 8,
+   "date": "2026-10-16",
+   "time": "18:30",
+   "t1": "Energie Cottbus",
+   "t2": "1. FC Nürnberg"
+  },
+  {
+   "r": 8,
+   "date": "2026-10-17",
+   "time": "13:00",
+   "t1": "VfL Wolfsburg",
+   "t2": "1. FC Heidenheim 1846"
+  },
+  {
+   "r": 8,
+   "date": "2026-10-17",
+   "time": "13:00",
+   "t1": "1. FC Kaiserslautern",
+   "t2": "VfL Bochum"
+  },
+  {
+   "r": 8,
+   "date": "2026-10-17",
+   "time": "13:00",
+   "t1": "SpVgg Greuther Fürth",
+   "t2": "Eintracht Braunschweig"
+  },
+  {
+   "r": 8,
+   "date": "2026-10-17",
+   "time": "20:30",
+   "t1": "Hannover 96",
+   "t2": "FC St. Pauli"
+  },
+  {
+   "r": 8,
+   "date": "2026-10-18",
+   "time": "13:30",
+   "t1": "Karlsruher SC",
+   "t2": "SV Darmstadt 98"
+  },
+  {
+   "r": 8,
+   "date": "2026-10-18",
+   "time": "13:30",
+   "t1": "Dynamo Dresden",
+   "t2": "1. FC Magdeburg"
+  },
+  {
+   "r": 8,
+   "date": "2026-10-18",
+   "time": "13:30",
+   "t1": "DSC Arminia Bielefeld",
+   "t2": "VfL Osnabrück"
+  },
+  {
+   "r": 9,
+   "date": "2026-10-23",
+   "time": "18:30",
+   "t1": "SV Darmstadt 98",
+   "t2": "FC St. Pauli"
+  },
+  {
+   "r": 9,
+   "date": "2026-10-23",
+   "time": "18:30",
+   "t1": "VfL Bochum",
+   "t2": "VfL Wolfsburg"
+  },
+  {
+   "r": 9,
+   "date": "2026-10-24",
+   "time": "13:00",
+   "t1": "1. FC Heidenheim 1846",
+   "t2": "Energie Cottbus"
+  },
+  {
+   "r": 9,
+   "date": "2026-10-24",
+   "time": "13:00",
+   "t1": "Hertha BSC",
+   "t2": "DSC Arminia Bielefeld"
+  },
+  {
+   "r": 9,
+   "date": "2026-10-24",
+   "time": "13:00",
+   "t1": "1. FC Magdeburg",
+   "t2": "Karlsruher SC"
+  },
+  {
+   "r": 9,
+   "date": "2026-10-24",
+   "time": "20:30",
+   "t1": "1. FC Nürnberg",
+   "t2": "1. FC Kaiserslautern"
+  },
+  {
+   "r": 9,
+   "date": "2026-10-25",
+   "time": "13:30",
+   "t1": "Holstein Kiel",
+   "t2": "Dynamo Dresden"
+  },
+  {
+   "r": 9,
+   "date": "2026-10-25",
+   "time": "13:30",
+   "t1": "Eintracht Braunschweig",
+   "t2": "Hannover 96"
+  },
+  {
+   "r": 9,
+   "date": "2026-10-25",
+   "time": "13:30",
+   "t1": "VfL Osnabrück",
+   "t2": "SpVgg Greuther Fürth"
+  },
+  {
+   "r": 10,
+   "date": "2026-10-30",
+   "time": "18:30",
+   "t1": "DSC Arminia Bielefeld",
+   "t2": "Eintracht Braunschweig"
+  },
+  {
+   "r": 10,
+   "date": "2026-10-30",
+   "time": "18:30",
+   "t1": "Energie Cottbus",
+   "t2": "VfL Bochum"
+  },
+  {
+   "r": 10,
+   "date": "2026-10-31",
+   "time": "13:00",
+   "t1": "VfL Wolfsburg",
+   "t2": "VfL Osnabrück"
+  },
+  {
+   "r": 10,
+   "date": "2026-10-31",
+   "time": "13:00",
+   "t1": "SV Darmstadt 98",
+   "t2": "1. FC Magdeburg"
+  },
+  {
+   "r": 10,
+   "date": "2026-10-31",
+   "time": "13:00",
+   "t1": "1. FC Kaiserslautern",
+   "t2": "Hertha BSC"
+  },
+  {
+   "r": 10,
+   "date": "2026-10-31",
+   "time": "20:30",
+   "t1": "Karlsruher SC",
+   "t2": "1. FC Heidenheim 1846"
+  },
+  {
+   "r": 10,
+   "date": "2026-11-01",
+   "time": "13:30",
+   "t1": "FC St. Pauli",
+   "t2": "1. FC Nürnberg"
+  },
+  {
+   "r": 10,
+   "date": "2026-11-01",
+   "time": "13:30",
+   "t1": "Hannover 96",
+   "t2": "Dynamo Dresden"
+  },
+  {
+   "r": 10,
+   "date": "2026-11-01",
+   "time": "13:30",
+   "t1": "SpVgg Greuther Fürth",
+   "t2": "Holstein Kiel"
+  },
+  {
+   "r": 11,
+   "date": "2026-11-06",
+   "time": "18:30",
+   "t1": "Dynamo Dresden",
+   "t2": "SpVgg Greuther Fürth"
+  },
+  {
+   "r": 11,
+   "date": "2026-11-06",
+   "time": "18:30",
+   "t1": "Eintracht Braunschweig",
+   "t2": "Energie Cottbus"
+  },
+  {
+   "r": 11,
+   "date": "2026-11-07",
+   "time": "13:00",
+   "t1": "1. FC Nürnberg",
+   "t2": "SV Darmstadt 98"
+  },
+  {
+   "r": 11,
+   "date": "2026-11-07",
+   "time": "13:00",
+   "t1": "Holstein Kiel",
+   "t2": "DSC Arminia Bielefeld"
+  },
+  {
+   "r": 11,
+   "date": "2026-11-07",
+   "time": "13:00",
+   "t1": "VfL Osnabrück",
+   "t2": "1. FC Kaiserslautern"
+  },
+  {
+   "r": 11,
+   "date": "2026-11-07",
+   "time": "20:30",
+   "t1": "Hertha BSC",
+   "t2": "VfL Wolfsburg"
+  },
+  {
+   "r": 11,
+   "date": "2026-11-08",
+   "time": "13:30",
+   "t1": "1. FC Heidenheim 1846",
+   "t2": "Hannover 96"
+  },
+  {
+   "r": 11,
+   "date": "2026-11-08",
+   "time": "13:30",
+   "t1": "VfL Bochum",
+   "t2": "Karlsruher SC"
+  },
+  {
+   "r": 11,
+   "date": "2026-11-08",
+   "time": "13:30",
+   "t1": "1. FC Magdeburg",
+   "t2": "FC St. Pauli"
+  },
+  {
+   "r": 12,
+   "date": "2026-11-20",
+   "time": "18:30",
+   "t1": "SV Darmstadt 98",
+   "t2": "1. FC Heidenheim 1846"
+  },
+  {
+   "r": 12,
+   "date": "2026-11-20",
+   "time": "18:30",
+   "t1": "DSC Arminia Bielefeld",
+   "t2": "1. FC Magdeburg"
+  },
+  {
+   "r": 12,
+   "date": "2026-11-21",
+   "time": "13:00",
+   "t1": "VfL Wolfsburg",
+   "t2": "Holstein Kiel"
+  },
+  {
+   "r": 12,
+   "date": "2026-11-21",
+   "time": "13:00",
+   "t1": "Hannover 96",
+   "t2": "SpVgg Greuther Fürth"
+  },
+  {
+   "r": 12,
+   "date": "2026-11-21",
+   "time": "13:00",
+   "t1": "1. FC Nürnberg",
+   "t2": "Eintracht Braunschweig"
+  },
+  {
+   "r": 12,
+   "date": "2026-11-21",
+   "time": "20:30",
+   "t1": "FC St. Pauli",
+   "t2": "VfL Bochum"
+  },
+  {
+   "r": 12,
+   "date": "2026-11-22",
+   "time": "13:30",
+   "t1": "1. FC Kaiserslautern",
+   "t2": "Dynamo Dresden"
+  },
+  {
+   "r": 12,
+   "date": "2026-11-22",
+   "time": "13:30",
+   "t1": "Karlsruher SC",
+   "t2": "VfL Osnabrück"
+  },
+  {
+   "r": 12,
+   "date": "2026-11-22",
+   "time": "13:30",
+   "t1": "Energie Cottbus",
+   "t2": "Hertha BSC"
+  },
+  {
+   "r": 13,
+   "date": "2026-11-27",
+   "time": "18:30",
+   "t1": "1. FC Heidenheim 1846",
+   "t2": "1. FC Nürnberg"
+  },
+  {
+   "r": 13,
+   "date": "2026-11-27",
+   "time": "18:30",
+   "t1": "VfL Bochum",
+   "t2": "SV Darmstadt 98"
+  },
+  {
+   "r": 13,
+   "date": "2026-11-28",
+   "time": "13:00",
+   "t1": "Hertha BSC",
+   "t2": "Karlsruher SC"
+  },
+  {
+   "r": 13,
+   "date": "2026-11-28",
+   "time": "13:00",
+   "t1": "Dynamo Dresden",
+   "t2": "FC St. Pauli"
+  },
+  {
+   "r": 13,
+   "date": "2026-11-28",
+   "time": "13:00",
+   "t1": "Holstein Kiel",
+   "t2": "1. FC Kaiserslautern"
+  },
+  {
+   "r": 13,
+   "date": "2026-11-28",
+   "time": "20:30",
+   "t1": "VfL Osnabrück",
+   "t2": "Hannover 96"
+  },
+  {
+   "r": 13,
+   "date": "2026-11-29",
+   "time": "13:30",
+   "t1": "1. FC Magdeburg",
+   "t2": "Energie Cottbus"
+  },
+  {
+   "r": 13,
+   "date": "2026-11-29",
+   "time": "13:30",
+   "t1": "Eintracht Braunschweig",
+   "t2": "VfL Wolfsburg"
+  },
+  {
+   "r": 13,
+   "date": "2026-11-29",
+   "time": "13:30",
+   "t1": "SpVgg Greuther Fürth",
+   "t2": "DSC Arminia Bielefeld"
+  },
+  {
+   "r": 14,
+   "date": "2026-12-06",
+   "time": "13:30",
+   "t1": "VfL Wolfsburg",
+   "t2": "1. FC Magdeburg"
+  },
+  {
+   "r": 14,
+   "date": "2026-12-06",
+   "time": "13:30",
+   "t1": "FC St. Pauli",
+   "t2": "1. FC Heidenheim 1846"
+  },
+  {
+   "r": 14,
+   "date": "2026-12-06",
+   "time": "13:30",
+   "t1": "Hannover 96",
+   "t2": "Hertha BSC"
+  },
+  {
+   "r": 14,
+   "date": "2026-12-06",
+   "time": "13:30",
+   "t1": "SV Darmstadt 98",
+   "t2": "Eintracht Braunschweig"
+  },
+  {
+   "r": 14,
+   "date": "2026-12-06",
+   "time": "13:30",
+   "t1": "1. FC Kaiserslautern",
+   "t2": "SpVgg Greuther Fürth"
+  },
+  {
+   "r": 14,
+   "date": "2026-12-06",
+   "time": "13:30",
+   "t1": "1. FC Nürnberg",
+   "t2": "VfL Bochum"
+  },
+  {
+   "r": 14,
+   "date": "2026-12-06",
+   "time": "13:30",
+   "t1": "Karlsruher SC",
+   "t2": "Holstein Kiel"
+  },
+  {
+   "r": 14,
+   "date": "2026-12-06",
+   "time": "13:30",
+   "t1": "DSC Arminia Bielefeld",
+   "t2": "Dynamo Dresden"
+  },
+  {
+   "r": 14,
+   "date": "2026-12-06",
+   "time": "13:30",
+   "t1": "Energie Cottbus",
+   "t2": "VfL Osnabrück"
+  },
+  {
+   "r": 15,
+   "date": "2026-12-13",
+   "time": "13:30",
+   "t1": "Hertha BSC",
+   "t2": "SV Darmstadt 98"
+  },
+  {
+   "r": 15,
+   "date": "2026-12-13",
+   "time": "13:30",
+   "t1": "VfL Bochum",
+   "t2": "1. FC Heidenheim 1846"
+  },
+  {
+   "r": 15,
+   "date": "2026-12-13",
+   "time": "13:30",
+   "t1": "Dynamo Dresden",
+   "t2": "Energie Cottbus"
+  },
+  {
+   "r": 15,
+   "date": "2026-12-13",
+   "time": "13:30",
+   "t1": "Holstein Kiel",
+   "t2": "Hannover 96"
+  },
+  {
+   "r": 15,
+   "date": "2026-12-13",
+   "time": "13:30",
+   "t1": "DSC Arminia Bielefeld",
+   "t2": "1. FC Kaiserslautern"
+  },
+  {
+   "r": 15,
+   "date": "2026-12-13",
+   "time": "13:30",
+   "t1": "1. FC Magdeburg",
+   "t2": "1. FC Nürnberg"
+  },
+  {
+   "r": 15,
+   "date": "2026-12-13",
+   "time": "13:30",
+   "t1": "Eintracht Braunschweig",
+   "t2": "Karlsruher SC"
+  },
+  {
+   "r": 15,
+   "date": "2026-12-13",
+   "time": "13:30",
+   "t1": "SpVgg Greuther Fürth",
+   "t2": "VfL Wolfsburg"
+  },
+  {
+   "r": 15,
+   "date": "2026-12-13",
+   "time": "13:30",
+   "t1": "VfL Osnabrück",
+   "t2": "FC St. Pauli"
+  },
+  {
+   "r": 16,
+   "date": "2026-12-20",
+   "time": "13:30",
+   "t1": "VfL Wolfsburg",
+   "t2": "DSC Arminia Bielefeld"
+  },
+  {
+   "r": 16,
+   "date": "2026-12-20",
+   "time": "13:30",
+   "t1": "FC St. Pauli",
+   "t2": "Hertha BSC"
+  },
+  {
+   "r": 16,
+   "date": "2026-12-20",
+   "time": "13:30",
+   "t1": "1. FC Heidenheim 1846",
+   "t2": "Eintracht Braunschweig"
+  },
+  {
+   "r": 16,
+   "date": "2026-12-20",
+   "time": "13:30",
+   "t1": "Hannover 96",
+   "t2": "1. FC Kaiserslautern"
+  },
+  {
+   "r": 16,
+   "date": "2026-12-20",
+   "time": "13:30",
+   "t1": "SV Darmstadt 98",
+   "t2": "SpVgg Greuther Fürth"
+  },
+  {
+   "r": 16,
+   "date": "2026-12-20",
+   "time": "13:30",
+   "t1": "1. FC Nürnberg",
+   "t2": "VfL Osnabrück"
+  },
+  {
+   "r": 16,
+   "date": "2026-12-20",
+   "time": "13:30",
+   "t1": "VfL Bochum",
+   "t2": "1. FC Magdeburg"
+  },
+  {
+   "r": 16,
+   "date": "2026-12-20",
+   "time": "13:30",
+   "t1": "Karlsruher SC",
+   "t2": "Dynamo Dresden"
+  },
+  {
+   "r": 16,
+   "date": "2026-12-20",
+   "time": "13:30",
+   "t1": "Energie Cottbus",
+   "t2": "Holstein Kiel"
+  },
+  {
+   "r": 17,
+   "date": "2027-01-17",
+   "time": "13:30",
+   "t1": "1. FC Kaiserslautern",
+   "t2": "Energie Cottbus"
+  },
+  {
+   "r": 17,
+   "date": "2027-01-17",
+   "time": "13:30",
+   "t1": "Hertha BSC",
+   "t2": "1. FC Nürnberg"
+  },
+  {
+   "r": 17,
+   "date": "2027-01-17",
+   "time": "13:30",
+   "t1": "Dynamo Dresden",
+   "t2": "VfL Wolfsburg"
+  },
+  {
+   "r": 17,
+   "date": "2027-01-17",
+   "time": "13:30",
+   "t1": "Holstein Kiel",
+   "t2": "VfL Bochum"
+  },
+  {
+   "r": 17,
+   "date": "2027-01-17",
+   "time": "13:30",
+   "t1": "DSC Arminia Bielefeld",
+   "t2": "Hannover 96"
+  },
+  {
+   "r": 17,
+   "date": "2027-01-17",
+   "time": "13:30",
+   "t1": "1. FC Magdeburg",
+   "t2": "1. FC Heidenheim 1846"
+  },
+  {
+   "r": 17,
+   "date": "2027-01-17",
+   "time": "13:30",
+   "t1": "Eintracht Braunschweig",
+   "t2": "FC St. Pauli"
+  },
+  {
+   "r": 17,
+   "date": "2027-01-17",
+   "time": "13:30",
+   "t1": "SpVgg Greuther Fürth",
+   "t2": "Karlsruher SC"
+  },
+  {
+   "r": 17,
+   "date": "2027-01-17",
+   "time": "13:30",
+   "t1": "VfL Osnabrück",
+   "t2": "SV Darmstadt 98"
+  },
+  {
+   "r": 18,
+   "date": "2027-01-24",
+   "time": "13:30",
+   "t1": "Hannover 96",
+   "t2": "Energie Cottbus"
+  },
+  {
+   "r": 18,
+   "date": "2027-01-24",
+   "time": "13:30",
+   "t1": "1. FC Kaiserslautern",
+   "t2": "VfL Wolfsburg"
+  },
+  {
+   "r": 18,
+   "date": "2027-01-24",
+   "time": "13:30",
+   "t1": "Hertha BSC",
+   "t2": "VfL Bochum"
+  },
+  {
+   "r": 18,
+   "date": "2027-01-24",
+   "time": "13:30",
+   "t1": "Dynamo Dresden",
+   "t2": "1. FC Nürnberg"
+  },
+  {
+   "r": 18,
+   "date": "2027-01-24",
+   "time": "13:30",
+   "t1": "Holstein Kiel",
+   "t2": "SV Darmstadt 98"
+  },
+  {
+   "r": 18,
+   "date": "2027-01-24",
+   "time": "13:30",
+   "t1": "DSC Arminia Bielefeld",
+   "t2": "Karlsruher SC"
+  },
+  {
+   "r": 18,
+   "date": "2027-01-24",
+   "time": "13:30",
+   "t1": "Eintracht Braunschweig",
+   "t2": "1. FC Magdeburg"
+  },
+  {
+   "r": 18,
+   "date": "2027-01-24",
+   "time": "13:30",
+   "t1": "SpVgg Greuther Fürth",
+   "t2": "FC St. Pauli"
+  },
+  {
+   "r": 18,
+   "date": "2027-01-24",
+   "time": "13:30",
+   "t1": "VfL Osnabrück",
+   "t2": "1. FC Heidenheim 1846"
+  },
+  {
+   "r": 19,
+   "date": "2027-01-31",
+   "time": "13:30",
+   "t1": "VfL Wolfsburg",
+   "t2": "Hannover 96"
+  },
+  {
+   "r": 19,
+   "date": "2027-01-31",
+   "time": "13:30",
+   "t1": "FC St. Pauli",
+   "t2": "Holstein Kiel"
+  },
+  {
+   "r": 19,
+   "date": "2027-01-31",
+   "time": "13:30",
+   "t1": "1. FC Heidenheim 1846",
+   "t2": "Hertha BSC"
+  },
+  {
+   "r": 19,
+   "date": "2027-01-31",
+   "time": "13:30",
+   "t1": "SV Darmstadt 98",
+   "t2": "Dynamo Dresden"
+  },
+  {
+   "r": 19,
+   "date": "2027-01-31",
+   "time": "13:30",
+   "t1": "1. FC Nürnberg",
+   "t2": "SpVgg Greuther Fürth"
+  },
+  {
+   "r": 19,
+   "date": "2027-01-31",
+   "time": "13:30",
+   "t1": "VfL Bochum",
+   "t2": "Eintracht Braunschweig"
+  },
+  {
+   "r": 19,
+   "date": "2027-01-31",
+   "time": "13:30",
+   "t1": "Karlsruher SC",
+   "t2": "1. FC Kaiserslautern"
+  },
+  {
+   "r": 19,
+   "date": "2027-01-31",
+   "time": "13:30",
+   "t1": "1. FC Magdeburg",
+   "t2": "VfL Osnabrück"
+  },
+  {
+   "r": 19,
+   "date": "2027-01-31",
+   "time": "13:30",
+   "t1": "Energie Cottbus",
+   "t2": "DSC Arminia Bielefeld"
+  },
+  {
+   "r": 20,
+   "date": "2027-02-07",
+   "time": "13:30",
+   "t1": "VfL Wolfsburg",
+   "t2": "Karlsruher SC"
+  },
+  {
+   "r": 20,
+   "date": "2027-02-07",
+   "time": "13:30",
+   "t1": "Hannover 96",
+   "t2": "SV Darmstadt 98"
+  },
+  {
+   "r": 20,
+   "date": "2027-02-07",
+   "time": "13:30",
+   "t1": "1. FC Kaiserslautern",
+   "t2": "FC St. Pauli"
+  },
+  {
+   "r": 20,
+   "date": "2027-02-07",
+   "time": "13:30",
+   "t1": "Hertha BSC",
+   "t2": "Eintracht Braunschweig"
+  },
+  {
+   "r": 20,
+   "date": "2027-02-07",
+   "time": "13:30",
+   "t1": "Dynamo Dresden",
+   "t2": "1. FC Heidenheim 1846"
+  },
+  {
+   "r": 20,
+   "date": "2027-02-07",
+   "time": "13:30",
+   "t1": "Holstein Kiel",
+   "t2": "1. FC Magdeburg"
+  },
+  {
+   "r": 20,
+   "date": "2027-02-07",
+   "time": "13:30",
+   "t1": "DSC Arminia Bielefeld",
+   "t2": "1. FC Nürnberg"
+  },
+  {
+   "r": 20,
+   "date": "2027-02-07",
+   "time": "13:30",
+   "t1": "SpVgg Greuther Fürth",
+   "t2": "Energie Cottbus"
+  },
+  {
+   "r": 20,
+   "date": "2027-02-07",
+   "time": "13:30",
+   "t1": "VfL Osnabrück",
+   "t2": "VfL Bochum"
+  },
+  {
+   "r": 21,
+   "date": "2027-02-14",
+   "time": "13:30",
+   "t1": "FC St. Pauli",
+   "t2": "DSC Arminia Bielefeld"
+  },
+  {
+   "r": 21,
+   "date": "2027-02-14",
+   "time": "13:30",
+   "t1": "1. FC Heidenheim 1846",
+   "t2": "SpVgg Greuther Fürth"
+  },
+  {
+   "r": 21,
+   "date": "2027-02-14",
+   "time": "13:30",
+   "t1": "SV Darmstadt 98",
+   "t2": "1. FC Kaiserslautern"
+  },
+  {
+   "r": 21,
+   "date": "2027-02-14",
+   "time": "13:30",
+   "t1": "1. FC Nürnberg",
+   "t2": "Holstein Kiel"
+  },
+  {
+   "r": 21,
+   "date": "2027-02-14",
+   "time": "13:30",
+   "t1": "VfL Bochum",
+   "t2": "Dynamo Dresden"
+  },
+  {
+   "r": 21,
+   "date": "2027-02-14",
+   "time": "13:30",
+   "t1": "Karlsruher SC",
+   "t2": "Hannover 96"
+  },
+  {
+   "r": 21,
+   "date": "2027-02-14",
+   "time": "13:30",
+   "t1": "1. FC Magdeburg",
+   "t2": "Hertha BSC"
+  },
+  {
+   "r": 21,
+   "date": "2027-02-14",
+   "time": "13:30",
+   "t1": "Eintracht Braunschweig",
+   "t2": "VfL Osnabrück"
+  },
+  {
+   "r": 21,
+   "date": "2027-02-14",
+   "time": "13:30",
+   "t1": "Energie Cottbus",
+   "t2": "VfL Wolfsburg"
+  },
+  {
+   "r": 22,
+   "date": "2027-02-21",
+   "time": "13:30",
+   "t1": "VfL Wolfsburg",
+   "t2": "FC St. Pauli"
+  },
+  {
+   "r": 22,
+   "date": "2027-02-21",
+   "time": "13:30",
+   "t1": "Hannover 96",
+   "t2": "1. FC Nürnberg"
+  },
+  {
+   "r": 22,
+   "date": "2027-02-21",
+   "time": "13:30",
+   "t1": "1. FC Kaiserslautern",
+   "t2": "1. FC Magdeburg"
+  },
+  {
+   "r": 22,
+   "date": "2027-02-21",
+   "time": "13:30",
+   "t1": "Hertha BSC",
+   "t2": "VfL Osnabrück"
+  },
+  {
+   "r": 22,
+   "date": "2027-02-21",
+   "time": "13:30",
+   "t1": "Dynamo Dresden",
+   "t2": "Eintracht Braunschweig"
+  },
+  {
+   "r": 22,
+   "date": "2027-02-21",
+   "time": "13:30",
+   "t1": "Holstein Kiel",
+   "t2": "1. FC Heidenheim 1846"
+  },
+  {
+   "r": 22,
+   "date": "2027-02-21",
+   "time": "13:30",
+   "t1": "DSC Arminia Bielefeld",
+   "t2": "SV Darmstadt 98"
+  },
+  {
+   "r": 22,
+   "date": "2027-02-21",
+   "time": "13:30",
+   "t1": "SpVgg Greuther Fürth",
+   "t2": "VfL Bochum"
+  },
+  {
+   "r": 22,
+   "date": "2027-02-21",
+   "time": "13:30",
+   "t1": "Energie Cottbus",
+   "t2": "Karlsruher SC"
+  },
+  {
+   "r": 23,
+   "date": "2027-02-28",
+   "time": "13:30",
+   "t1": "FC St. Pauli",
+   "t2": "Energie Cottbus"
+  },
+  {
+   "r": 23,
+   "date": "2027-02-28",
+   "time": "13:30",
+   "t1": "1. FC Heidenheim 1846",
+   "t2": "DSC Arminia Bielefeld"
+  },
+  {
+   "r": 23,
+   "date": "2027-02-28",
+   "time": "13:30",
+   "t1": "SV Darmstadt 98",
+   "t2": "VfL Wolfsburg"
+  },
+  {
+   "r": 23,
+   "date": "2027-02-28",
+   "time": "13:30",
+   "t1": "Hertha BSC",
+   "t2": "Dynamo Dresden"
+  },
+  {
+   "r": 23,
+   "date": "2027-02-28",
+   "time": "13:30",
+   "t1": "1. FC Nürnberg",
+   "t2": "Karlsruher SC"
+  },
+  {
+   "r": 23,
+   "date": "2027-02-28",
+   "time": "13:30",
+   "t1": "VfL Bochum",
+   "t2": "Hannover 96"
+  },
+  {
+   "r": 23,
+   "date": "2027-02-28",
+   "time": "13:30",
+   "t1": "1. FC Magdeburg",
+   "t2": "SpVgg Greuther Fürth"
+  },
+  {
+   "r": 23,
+   "date": "2027-02-28",
+   "time": "13:30",
+   "t1": "Eintracht Braunschweig",
+   "t2": "1. FC Kaiserslautern"
+  },
+  {
+   "r": 23,
+   "date": "2027-02-28",
+   "time": "13:30",
+   "t1": "VfL Osnabrück",
+   "t2": "Holstein Kiel"
+  },
+  {
+   "r": 24,
+   "date": "2027-03-03",
+   "time": "18:30",
+   "t1": "VfL Wolfsburg",
+   "t2": "1. FC Nürnberg"
+  },
+  {
+   "r": 24,
+   "date": "2027-03-03",
+   "time": "18:30",
+   "t1": "Hannover 96",
+   "t2": "1. FC Magdeburg"
+  },
+  {
+   "r": 24,
+   "date": "2027-03-03",
+   "time": "18:30",
+   "t1": "1. FC Kaiserslautern",
+   "t2": "1. FC Heidenheim 1846"
+  },
+  {
+   "r": 24,
+   "date": "2027-03-03",
+   "time": "18:30",
+   "t1": "Karlsruher SC",
+   "t2": "FC St. Pauli"
+  },
+  {
+   "r": 24,
+   "date": "2027-03-03",
+   "time": "18:30",
+   "t1": "Dynamo Dresden",
+   "t2": "VfL Osnabrück"
+  },
+  {
+   "r": 24,
+   "date": "2027-03-03",
+   "time": "18:30",
+   "t1": "Holstein Kiel",
+   "t2": "Eintracht Braunschweig"
+  },
+  {
+   "r": 24,
+   "date": "2027-03-03",
+   "time": "18:30",
+   "t1": "DSC Arminia Bielefeld",
+   "t2": "VfL Bochum"
+  },
+  {
+   "r": 24,
+   "date": "2027-03-03",
+   "time": "18:30",
+   "t1": "SpVgg Greuther Fürth",
+   "t2": "Hertha BSC"
+  },
+  {
+   "r": 24,
+   "date": "2027-03-03",
+   "time": "18:30",
+   "t1": "Energie Cottbus",
+   "t2": "SV Darmstadt 98"
+  },
+  {
+   "r": 25,
+   "date": "2027-03-07",
+   "time": "13:30",
+   "t1": "FC St. Pauli",
+   "t2": "Hannover 96"
+  },
+  {
+   "r": 25,
+   "date": "2027-03-07",
+   "time": "13:30",
+   "t1": "1. FC Heidenheim 1846",
+   "t2": "VfL Wolfsburg"
+  },
+  {
+   "r": 25,
+   "date": "2027-03-07",
+   "time": "13:30",
+   "t1": "SV Darmstadt 98",
+   "t2": "Karlsruher SC"
+  },
+  {
+   "r": 25,
+   "date": "2027-03-07",
+   "time": "13:30",
+   "t1": "Hertha BSC",
+   "t2": "Holstein Kiel"
+  },
+  {
+   "r": 25,
+   "date": "2027-03-07",
+   "time": "13:30",
+   "t1": "1. FC Nürnberg",
+   "t2": "Energie Cottbus"
+  },
+  {
+   "r": 25,
+   "date": "2027-03-07",
+   "time": "13:30",
+   "t1": "VfL Bochum",
+   "t2": "1. FC Kaiserslautern"
+  },
+  {
+   "r": 25,
+   "date": "2027-03-07",
+   "time": "13:30",
+   "t1": "1. FC Magdeburg",
+   "t2": "Dynamo Dresden"
+  },
+  {
+   "r": 25,
+   "date": "2027-03-07",
+   "time": "13:30",
+   "t1": "Eintracht Braunschweig",
+   "t2": "SpVgg Greuther Fürth"
+  },
+  {
+   "r": 25,
+   "date": "2027-03-07",
+   "time": "13:30",
+   "t1": "VfL Osnabrück",
+   "t2": "DSC Arminia Bielefeld"
+  },
+  {
+   "r": 26,
+   "date": "2027-03-14",
+   "time": "13:30",
+   "t1": "VfL Wolfsburg",
+   "t2": "VfL Bochum"
+  },
+  {
+   "r": 26,
+   "date": "2027-03-14",
+   "time": "13:30",
+   "t1": "FC St. Pauli",
+   "t2": "SV Darmstadt 98"
+  },
+  {
+   "r": 26,
+   "date": "2027-03-14",
+   "time": "13:30",
+   "t1": "Hannover 96",
+   "t2": "Eintracht Braunschweig"
+  },
+  {
+   "r": 26,
+   "date": "2027-03-14",
+   "time": "13:30",
+   "t1": "1. FC Kaiserslautern",
+   "t2": "1. FC Nürnberg"
+  },
+  {
+   "r": 26,
+   "date": "2027-03-14",
+   "time": "13:30",
+   "t1": "Karlsruher SC",
+   "t2": "1. FC Magdeburg"
+  },
+  {
+   "r": 26,
+   "date": "2027-03-14",
+   "time": "13:30",
+   "t1": "Dynamo Dresden",
+   "t2": "Holstein Kiel"
+  },
+  {
+   "r": 26,
+   "date": "2027-03-14",
+   "time": "13:30",
+   "t1": "DSC Arminia Bielefeld",
+   "t2": "Hertha BSC"
+  },
+  {
+   "r": 26,
+   "date": "2027-03-14",
+   "time": "13:30",
+   "t1": "SpVgg Greuther Fürth",
+   "t2": "VfL Osnabrück"
+  },
+  {
+   "r": 26,
+   "date": "2027-03-14",
+   "time": "13:30",
+   "t1": "Energie Cottbus",
+   "t2": "1. FC Heidenheim 1846"
+  },
+  {
+   "r": 27,
+   "date": "2027-03-21",
+   "time": "13:30",
+   "t1": "1. FC Heidenheim 1846",
+   "t2": "Karlsruher SC"
+  },
+  {
+   "r": 27,
+   "date": "2027-03-21",
+   "time": "13:30",
+   "t1": "Hertha BSC",
+   "t2": "1. FC Kaiserslautern"
+  },
+  {
+   "r": 27,
+   "date": "2027-03-21",
+   "time": "13:30",
+   "t1": "1. FC Nürnberg",
+   "t2": "FC St. Pauli"
+  },
+  {
+   "r": 27,
+   "date": "2027-03-21",
+   "time": "13:30",
+   "t1": "VfL Bochum",
+   "t2": "Energie Cottbus"
+  },
+  {
+   "r": 27,
+   "date": "2027-03-21",
+   "time": "13:30",
+   "t1": "Dynamo Dresden",
+   "t2": "Hannover 96"
+  },
+  {
+   "r": 27,
+   "date": "2027-03-21",
+   "time": "13:30",
+   "t1": "Holstein Kiel",
+   "t2": "SpVgg Greuther Fürth"
+  },
+  {
+   "r": 27,
+   "date": "2027-03-21",
+   "time": "13:30",
+   "t1": "1. FC Magdeburg",
+   "t2": "SV Darmstadt 98"
+  },
+  {
+   "r": 27,
+   "date": "2027-03-21",
+   "time": "13:30",
+   "t1": "Eintracht Braunschweig",
+   "t2": "DSC Arminia Bielefeld"
+  },
+  {
+   "r": 27,
+   "date": "2027-03-21",
+   "time": "13:30",
+   "t1": "VfL Osnabrück",
+   "t2": "VfL Wolfsburg"
+  },
+  {
+   "r": 28,
+   "date": "2027-04-04",
+   "time": "13:30",
+   "t1": "VfL Wolfsburg",
+   "t2": "Hertha BSC"
+  },
+  {
+   "r": 28,
+   "date": "2027-04-04",
+   "time": "13:30",
+   "t1": "FC St. Pauli",
+   "t2": "1. FC Magdeburg"
+  },
+  {
+   "r": 28,
+   "date": "2027-04-04",
+   "time": "13:30",
+   "t1": "Hannover 96",
+   "t2": "1. FC Heidenheim 1846"
+  },
+  {
+   "r": 28,
+   "date": "2027-04-04",
+   "time": "13:30",
+   "t1": "SV Darmstadt 98",
+   "t2": "1. FC Nürnberg"
+  },
+  {
+   "r": 28,
+   "date": "2027-04-04",
+   "time": "13:30",
+   "t1": "1. FC Kaiserslautern",
+   "t2": "VfL Osnabrück"
+  },
+  {
+   "r": 28,
+   "date": "2027-04-04",
+   "time": "13:30",
+   "t1": "Karlsruher SC",
+   "t2": "VfL Bochum"
+  },
+  {
+   "r": 28,
+   "date": "2027-04-04",
+   "time": "13:30",
+   "t1": "DSC Arminia Bielefeld",
+   "t2": "Holstein Kiel"
+  },
+  {
+   "r": 28,
+   "date": "2027-04-04",
+   "time": "13:30",
+   "t1": "SpVgg Greuther Fürth",
+   "t2": "Dynamo Dresden"
+  },
+  {
+   "r": 28,
+   "date": "2027-04-04",
+   "time": "13:30",
+   "t1": "Energie Cottbus",
+   "t2": "Eintracht Braunschweig"
+  },
+  {
+   "r": 29,
+   "date": "2027-04-11",
+   "time": "13:30",
+   "t1": "1. FC Heidenheim 1846",
+   "t2": "SV Darmstadt 98"
+  },
+  {
+   "r": 29,
+   "date": "2027-04-11",
+   "time": "13:30",
+   "t1": "Hertha BSC",
+   "t2": "Energie Cottbus"
+  },
+  {
+   "r": 29,
+   "date": "2027-04-11",
+   "time": "13:30",
+   "t1": "VfL Bochum",
+   "t2": "FC St. Pauli"
+  },
+  {
+   "r": 29,
+   "date": "2027-04-11",
+   "time": "13:30",
+   "t1": "Dynamo Dresden",
+   "t2": "1. FC Kaiserslautern"
+  },
+  {
+   "r": 29,
+   "date": "2027-04-11",
+   "time": "13:30",
+   "t1": "Holstein Kiel",
+   "t2": "VfL Wolfsburg"
+  },
+  {
+   "r": 29,
+   "date": "2027-04-11",
+   "time": "13:30",
+   "t1": "1. FC Magdeburg",
+   "t2": "DSC Arminia Bielefeld"
+  },
+  {
+   "r": 29,
+   "date": "2027-04-11",
+   "time": "13:30",
+   "t1": "Eintracht Braunschweig",
+   "t2": "1. FC Nürnberg"
+  },
+  {
+   "r": 29,
+   "date": "2027-04-11",
+   "time": "13:30",
+   "t1": "SpVgg Greuther Fürth",
+   "t2": "Hannover 96"
+  },
+  {
+   "r": 29,
+   "date": "2027-04-11",
+   "time": "13:30",
+   "t1": "VfL Osnabrück",
+   "t2": "Karlsruher SC"
+  },
+  {
+   "r": 30,
+   "date": "2027-04-18",
+   "time": "13:30",
+   "t1": "VfL Wolfsburg",
+   "t2": "Eintracht Braunschweig"
+  },
+  {
+   "r": 30,
+   "date": "2027-04-18",
+   "time": "13:30",
+   "t1": "FC St. Pauli",
+   "t2": "Dynamo Dresden"
+  },
+  {
+   "r": 30,
+   "date": "2027-04-18",
+   "time": "13:30",
+   "t1": "Hannover 96",
+   "t2": "VfL Osnabrück"
+  },
+  {
+   "r": 30,
+   "date": "2027-04-18",
+   "time": "13:30",
+   "t1": "SV Darmstadt 98",
+   "t2": "VfL Bochum"
+  },
+  {
+   "r": 30,
+   "date": "2027-04-18",
+   "time": "13:30",
+   "t1": "1. FC Kaiserslautern",
+   "t2": "Holstein Kiel"
+  },
+  {
+   "r": 30,
+   "date": "2027-04-18",
+   "time": "13:30",
+   "t1": "1. FC Nürnberg",
+   "t2": "1. FC Heidenheim 1846"
+  },
+  {
+   "r": 30,
+   "date": "2027-04-18",
+   "time": "13:30",
+   "t1": "Karlsruher SC",
+   "t2": "Hertha BSC"
+  },
+  {
+   "r": 30,
+   "date": "2027-04-18",
+   "time": "13:30",
+   "t1": "DSC Arminia Bielefeld",
+   "t2": "SpVgg Greuther Fürth"
+  },
+  {
+   "r": 30,
+   "date": "2027-04-18",
+   "time": "13:30",
+   "t1": "Energie Cottbus",
+   "t2": "1. FC Magdeburg"
+  },
+  {
+   "r": 31,
+   "date": "2027-04-25",
+   "time": "13:30",
+   "t1": "1. FC Heidenheim 1846",
+   "t2": "FC St. Pauli"
+  },
+  {
+   "r": 31,
+   "date": "2027-04-25",
+   "time": "13:30",
+   "t1": "Hertha BSC",
+   "t2": "Hannover 96"
+  },
+  {
+   "r": 31,
+   "date": "2027-04-25",
+   "time": "13:30",
+   "t1": "VfL Bochum",
+   "t2": "1. FC Nürnberg"
+  },
+  {
+   "r": 31,
+   "date": "2027-04-25",
+   "time": "13:30",
+   "t1": "Dynamo Dresden",
+   "t2": "DSC Arminia Bielefeld"
+  },
+  {
+   "r": 31,
+   "date": "2027-04-25",
+   "time": "13:30",
+   "t1": "Holstein Kiel",
+   "t2": "Karlsruher SC"
+  },
+  {
+   "r": 31,
+   "date": "2027-04-25",
+   "time": "13:30",
+   "t1": "1. FC Magdeburg",
+   "t2": "VfL Wolfsburg"
+  },
+  {
+   "r": 31,
+   "date": "2027-04-25",
+   "time": "13:30",
+   "t1": "Eintracht Braunschweig",
+   "t2": "SV Darmstadt 98"
+  },
+  {
+   "r": 31,
+   "date": "2027-04-25",
+   "time": "13:30",
+   "t1": "SpVgg Greuther Fürth",
+   "t2": "1. FC Kaiserslautern"
+  },
+  {
+   "r": 31,
+   "date": "2027-04-25",
+   "time": "13:30",
+   "t1": "VfL Osnabrück",
+   "t2": "Energie Cottbus"
+  },
+  {
+   "r": 32,
+   "date": "2027-05-09",
+   "time": "13:30",
+   "t1": "VfL Wolfsburg",
+   "t2": "SpVgg Greuther Fürth"
+  },
+  {
+   "r": 32,
+   "date": "2027-05-09",
+   "time": "13:30",
+   "t1": "FC St. Pauli",
+   "t2": "VfL Osnabrück"
+  },
+  {
+   "r": 32,
+   "date": "2027-05-09",
+   "time": "13:30",
+   "t1": "1. FC Heidenheim 1846",
+   "t2": "VfL Bochum"
+  },
+  {
+   "r": 32,
+   "date": "2027-05-09",
+   "time": "13:30",
+   "t1": "Hannover 96",
+   "t2": "Holstein Kiel"
+  },
+  {
+   "r": 32,
+   "date": "2027-05-09",
+   "time": "13:30",
+   "t1": "SV Darmstadt 98",
+   "t2": "Hertha BSC"
+  },
+  {
+   "r": 32,
+   "date": "2027-05-09",
+   "time": "13:30",
+   "t1": "1. FC Kaiserslautern",
+   "t2": "DSC Arminia Bielefeld"
+  },
+  {
+   "r": 32,
+   "date": "2027-05-09",
+   "time": "13:30",
+   "t1": "1. FC Nürnberg",
+   "t2": "1. FC Magdeburg"
+  },
+  {
+   "r": 32,
+   "date": "2027-05-09",
+   "time": "13:30",
+   "t1": "Karlsruher SC",
+   "t2": "Eintracht Braunschweig"
+  },
+  {
+   "r": 32,
+   "date": "2027-05-09",
+   "time": "13:30",
+   "t1": "Energie Cottbus",
+   "t2": "Dynamo Dresden"
+  },
+  {
+   "r": 33,
+   "date": "2027-05-16",
+   "time": "13:30",
+   "t1": "1. FC Kaiserslautern",
+   "t2": "Hannover 96"
+  },
+  {
+   "r": 33,
+   "date": "2027-05-16",
+   "time": "13:30",
+   "t1": "Hertha BSC",
+   "t2": "FC St. Pauli"
+  },
+  {
+   "r": 33,
+   "date": "2027-05-16",
+   "time": "13:30",
+   "t1": "Dynamo Dresden",
+   "t2": "Karlsruher SC"
+  },
+  {
+   "r": 33,
+   "date": "2027-05-16",
+   "time": "13:30",
+   "t1": "Holstein Kiel",
+   "t2": "Energie Cottbus"
+  },
+  {
+   "r": 33,
+   "date": "2027-05-16",
+   "time": "13:30",
+   "t1": "DSC Arminia Bielefeld",
+   "t2": "VfL Wolfsburg"
+  },
+  {
+   "r": 33,
+   "date": "2027-05-16",
+   "time": "13:30",
+   "t1": "1. FC Magdeburg",
+   "t2": "VfL Bochum"
+  },
+  {
+   "r": 33,
+   "date": "2027-05-16",
+   "time": "13:30",
+   "t1": "Eintracht Braunschweig",
+   "t2": "1. FC Heidenheim 1846"
+  },
+  {
+   "r": 33,
+   "date": "2027-05-16",
+   "time": "13:30",
+   "t1": "SpVgg Greuther Fürth",
+   "t2": "SV Darmstadt 98"
+  },
+  {
+   "r": 33,
+   "date": "2027-05-16",
+   "time": "13:30",
+   "t1": "VfL Osnabrück",
+   "t2": "1. FC Nürnberg"
+  },
+  {
+   "r": 34,
+   "date": "2027-05-23",
+   "time": "15:30",
+   "t1": "VfL Wolfsburg",
+   "t2": "Dynamo Dresden"
+  },
+  {
+   "r": 34,
+   "date": "2027-05-23",
+   "time": "15:30",
+   "t1": "FC St. Pauli",
+   "t2": "Eintracht Braunschweig"
+  },
+  {
+   "r": 34,
+   "date": "2027-05-23",
+   "time": "15:30",
+   "t1": "1. FC Heidenheim 1846",
+   "t2": "1. FC Magdeburg"
+  },
+  {
+   "r": 34,
+   "date": "2027-05-23",
+   "time": "15:30",
+   "t1": "Hannover 96",
+   "t2": "DSC Arminia Bielefeld"
+  },
+  {
+   "r": 34,
+   "date": "2027-05-23",
+   "time": "15:30",
+   "t1": "SV Darmstadt 98",
+   "t2": "VfL Osnabrück"
+  },
+  {
+   "r": 34,
+   "date": "2027-05-23",
+   "time": "15:30",
+   "t1": "1. FC Nürnberg",
+   "t2": "Hertha BSC"
+  },
+  {
+   "r": 34,
+   "date": "2027-05-23",
+   "time": "15:30",
+   "t1": "VfL Bochum",
+   "t2": "Holstein Kiel"
+  },
+  {
+   "r": 34,
+   "date": "2027-05-23",
+   "time": "15:30",
+   "t1": "Karlsruher SC",
+   "t2": "SpVgg Greuther Fürth"
+  },
+  {
+   "r": 34,
+   "date": "2027-05-23",
+   "time": "15:30",
+   "t1": "Energie Cottbus",
+   "t2": "1. FC Kaiserslautern"
+  }
+ ],
+ "cups": [],
+ "src": [
+  {
+   "n": "OpenLigaDB",
+   "u": "https://www.openligadb.de/"
+  }
+ ]
+}

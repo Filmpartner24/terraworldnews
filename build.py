@@ -21,9 +21,9 @@ PREFIX = {'bg': '/'}  # Bulgarian is the main edition at the root
 def pre(l): return PREFIX.get(l, f'/{l}/')
 LOCALE = {'bg': 'bg_BG', 'de': 'de_DE', 'en': 'en_GB'}
 
-SECTIONS = ['welt', 'europa', 'deutschland', 'bulgarien', 'leben', 'mode', 'ki', 'wirtschaft', 'energie', 'business', 'auto', 'klima', 'ai', 'film', 'musik', 'games', 'sport']
+SECTIONS = ['welt', 'europa', 'deutschland', 'bulgarien', 'leben', 'mode', 'ki', 'wirtschaft', 'energie', 'business', 'auto', 'klima', 'ai', 'film', 'musik', 'games', 'sport', 'wow']
 MEDIA = ('games', 'mode', 'auto', 'film', 'musik', 'sport', 'ai', 'ki', 'wirtschaft', 'energie', 'leben', 'klima', 'welt', 'europa', 'deutschland', 'bulgarien')   # Rubriken mit eigenem Medien-Layout (Reviews/Trailer + News)
-SUBS = {'sport': ['fussball', 'laenderspiele', 'boxen', 'mma']}
+SUBS = {'sport': ['fussball', 'laenderspiele', 'handball', 'boxen', 'mma', 'extremsport']}   # Handball + Extremsport seit 08.10.2026
 LSUBS = {'leben': ['liebe'], 'deutschland': ['berlin', 'oberfranken']}
 MOVE_SUBS = {'deutschland'}   # seit 08.10.2026: Berlin/Oberfranken nur auf der Unterseite, nicht mehr auf der Rubrikseite Deutschland
 SUB_KEEP = 30   # Unterseiten dieser Rubriken zeigen die letzten 30 Ausgabetage   # „leichte“ Unterrubriken (seit 08.10.2026): Rubrikseite bleibt, Unterseite zusätzlich (Feld "sub")
@@ -33,14 +33,15 @@ NAV_GROUPS = [  # Menü-Gruppen (Desktop: Trennstriche, Mobil: Überschriften im
     ('life', {'bg': 'Живот', 'de': 'Leben', 'en': 'Life'}, ['leben', 'mode']),
     ('know', {'bg': 'Икономика и знание', 'de': 'Wirtschaft & Wissen', 'en': 'Economy & Knowledge'}, ['ki', 'wirtschaft', 'energie', 'business', 'auto', 'klima', 'ai']),
     ('ent', {'bg': 'Развлечения', 'de': 'Unterhaltung', 'en': 'Entertainment'}, ['film', 'musik', 'games']),
-    ('sport', {'bg': 'Спорт', 'de': 'Sport', 'en': 'Sport'}, ['sport'])]   # Unterrubriken (Feld "sub" im Item)
-SUB = {'bg': {'fussball': ('Футбол', 'futbol'), 'laenderspiele': ('Национални отбори', 'natsionalni-otbori'), 'boxen': ('Бокс', 'boks'), 'mma': ('ММА', 'mma'), 'liebe': ('Любов и връзки', 'lyubov-i-vrazki'), 'berlin': ('Берлин', 'berlin'), 'oberfranken': ('Горна Франкония', 'gorna-frankonia')},
-       'de': {'fussball': ('Fußball', 'fussball'), 'laenderspiele': ('Länderspiele', 'laenderspiele'), 'boxen': ('Boxen', 'boxen'), 'mma': ('MMA', 'mma'), 'liebe': ('Liebe & Beziehung', 'liebe-beziehung'), 'berlin': ('Berlin', 'berlin'), 'oberfranken': ('Oberfranken', 'oberfranken')},
-       'en': {'fussball': ('Football', 'football'), 'laenderspiele': ('Internationals', 'internationals'), 'boxen': ('Boxing', 'boxing'), 'mma': ('MMA', 'mma'), 'liebe': ('Love & Relationships', 'love-relationships'), 'berlin': ('Berlin', 'berlin'), 'oberfranken': ('Upper Franconia', 'upper-franconia')}}
+    ('sport', {'bg': 'Спорт', 'de': 'Sport', 'en': 'Sport'}, ['sport']),
+    ('wow', {'bg': 'WOW', 'de': 'WOW', 'en': 'WOW'}, ['wow'])]   # WOW: nur Videos (seit 08.10.2026), ganz hinten   # Unterrubriken (Feld "sub" im Item)
+SUB = {'bg': {'fussball': ('Футбол', 'futbol'), 'laenderspiele': ('Национални отбори', 'natsionalni-otbori'), 'boxen': ('Бокс', 'boks'), 'mma': ('ММА', 'mma'), 'liebe': ('Любов и връзки', 'lyubov-i-vrazki'), 'berlin': ('Берлин', 'berlin'), 'oberfranken': ('Горна Франкония', 'gorna-frankonia'), 'handball': ('Хандбал', 'handbal'), 'extremsport': ('Екстремни спортове', 'ekstremni-sportove')},
+       'de': {'fussball': ('Fußball', 'fussball'), 'laenderspiele': ('Länderspiele', 'laenderspiele'), 'boxen': ('Boxen', 'boxen'), 'mma': ('MMA', 'mma'), 'liebe': ('Liebe & Beziehung', 'liebe-beziehung'), 'berlin': ('Berlin', 'berlin'), 'oberfranken': ('Oberfranken', 'oberfranken'), 'handball': ('Handball', 'handball'), 'extremsport': ('Extremsport', 'extremsport')},
+       'en': {'fussball': ('Football', 'football'), 'laenderspiele': ('Internationals', 'internationals'), 'boxen': ('Boxing', 'boxing'), 'mma': ('MMA', 'mma'), 'liebe': ('Love & Relationships', 'love-relationships'), 'berlin': ('Berlin', 'berlin'), 'oberfranken': ('Upper Franconia', 'upper-franconia'), 'handball': ('Handball', 'handball'), 'extremsport': ('Extreme sports', 'extreme-sports')}}
 SEC = {
- 'bg': {'welt': ('Свят', 'svyat'), 'europa': ('Европа', 'evropa'), 'deutschland': ('Германия', 'germania'), 'bulgarien': ('България', 'balgaria'), 'ki': ('Технологии', 'tehnologii'), 'wirtschaft': ('Икономика', 'ikonomika'), 'business': ('Бизнес', 'biznes'), 'auto': ('Авто', 'avto'), 'klima': ('Климат', 'klimat'), 'ai': ('ИИ', 'izkustven-intelekt'), 'energie': ('Енергия', 'energia'), 'kultur': ('Развлечения', 'razvlechenia'), 'games': ('Игри', 'igri'), 'film': ('Филми', 'filmi'), 'musik': ('Музика', 'muzika'), 'mode': ('Мода', 'moda'), 'sport': ('Спорт', 'sport'), 'leben': ('Живот и ежедневие', 'zhivot')},
- 'de': {'welt': ('Welt', 'welt'), 'europa': ('Europa', 'europa'), 'deutschland': ('Deutschland', 'deutschland'), 'bulgarien': ('Bulgarien', 'bulgarien'), 'ki': ('Technologie', 'technologie'), 'wirtschaft': ('Wirtschaft', 'wirtschaft'), 'business': ('Business', 'business'), 'auto': ('Auto', 'auto'), 'klima': ('Klima', 'klima'), 'ai': ('KI', 'ki'), 'energie': ('Energie', 'energie'), 'kultur': ('Entertainment', 'entertainment'), 'leben': ('Leben & Alltag', 'leben-alltag'), 'games': ('Games', 'games'), 'sport': ('Sport', 'sport'), 'film': ('Film', 'film'), 'musik': ('Musik', 'musik'), 'mode': ('Mode', 'mode')},
- 'en': {'welt': ('World', 'world'), 'europa': ('Europe', 'europe'), 'deutschland': ('Germany', 'germany'), 'bulgarien': ('Bulgaria', 'bulgaria'), 'ki': ('Technology', 'technology'), 'wirtschaft': ('Economy', 'economy'), 'business': ('Business', 'business'), 'auto': ('Cars', 'cars'), 'klima': ('Climate', 'climate'), 'ai': ('AI', 'ai'), 'energie': ('Energy', 'energy'), 'kultur': ('Entertainment', 'entertainment'), 'leben': ('Everyday Life', 'everyday-life'), 'games': ('Games', 'games'), 'sport': ('Sport', 'sport'), 'film': ('Film', 'film'), 'musik': ('Music', 'music'), 'mode': ('Fashion', 'fashion')},
+ 'bg': {'welt': ('Свят', 'svyat'), 'europa': ('Европа', 'evropa'), 'deutschland': ('Германия', 'germania'), 'bulgarien': ('България', 'balgaria'), 'ki': ('Технологии', 'tehnologii'), 'wirtschaft': ('Икономика', 'ikonomika'), 'business': ('Бизнес', 'biznes'), 'auto': ('Авто', 'avto'), 'klima': ('Климат', 'klimat'), 'ai': ('ИИ', 'izkustven-intelekt'), 'energie': ('Енергия', 'energia'), 'kultur': ('Развлечения', 'razvlechenia'), 'games': ('Игри', 'igri'), 'film': ('Филми', 'filmi'), 'musik': ('Музика', 'muzika'), 'mode': ('Мода', 'moda'), 'sport': ('Спорт', 'sport'), 'leben': ('Живот и ежедневие', 'zhivot'), 'wow': ('WOW', 'wow')},
+ 'de': {'welt': ('Welt', 'welt'), 'europa': ('Europa', 'europa'), 'deutschland': ('Deutschland', 'deutschland'), 'bulgarien': ('Bulgarien', 'bulgarien'), 'ki': ('Technologie', 'technologie'), 'wirtschaft': ('Wirtschaft', 'wirtschaft'), 'business': ('Business', 'business'), 'auto': ('Auto', 'auto'), 'klima': ('Klima', 'klima'), 'ai': ('KI', 'ki'), 'energie': ('Energie', 'energie'), 'kultur': ('Entertainment', 'entertainment'), 'leben': ('Leben & Alltag', 'leben-alltag'), 'games': ('Games', 'games'), 'sport': ('Sport', 'sport'), 'film': ('Film', 'film'), 'musik': ('Musik', 'musik'), 'mode': ('Mode', 'mode'), 'wow': ('WOW', 'wow')},
+ 'en': {'welt': ('World', 'world'), 'europa': ('Europe', 'europe'), 'deutschland': ('Germany', 'germany'), 'bulgarien': ('Bulgaria', 'bulgaria'), 'ki': ('Technology', 'technology'), 'wirtschaft': ('Economy', 'economy'), 'business': ('Business', 'business'), 'auto': ('Cars', 'cars'), 'klima': ('Climate', 'climate'), 'ai': ('AI', 'ai'), 'energie': ('Energy', 'energy'), 'kultur': ('Entertainment', 'entertainment'), 'leben': ('Everyday Life', 'everyday-life'), 'games': ('Games', 'games'), 'sport': ('Sport', 'sport'), 'film': ('Film', 'film'), 'musik': ('Music', 'music'), 'mode': ('Fashion', 'fashion'), 'wow': ('WOW', 'wow')},
 }
 SEO_DESC = {
  'mode': {'de': 'Mode-News: Fashion Weeks, Designer und Modehäuser, Trends, Kollektionen, nachhaltige Mode und die Modebranche – täglich, mit Videos.',
@@ -92,6 +93,12 @@ SEO_DESC = {
  'kultur': {'de': 'Kultur und Entertainment: Konzerte, Festivals, Preisverleihungen und Kino.', 'bg': 'Култура и развлечения: концерти, фестивали, награди и кино.', 'en': 'Culture and entertainment: concerts, festivals, awards and cinema.'},
 }
 SUB_DESC = {
+ 'handball': {'de': 'Handball-Bundesliga: Tabelle, Spieltage und Ergebnisse der Saison mit THW Kiel, SC Magdeburg, Füchse Berlin, SG Flensburg-Handewitt und Co. – täglich aktualisiert.',
+              'bg': 'Хандбал Бундеслига: класиране, кръгове и резултати от сезона с THW Kiel, SC Magdeburg, Füchse Berlin, SG Flensburg-Handewitt и др. – обновява се всеки ден.',
+              'en': 'Handball Bundesliga: table, matchdays and results of the season with THW Kiel, SC Magdeburg, Füchse Berlin, SG Flensburg-Handewitt and more – updated daily.'},
+ 'extremsport': {'de': 'Extremsport im Video: Base-Jumps, Big-Wave-Surfen, Freeride, Klettern und extreme Weltrekorde – von offiziellen Kanälen wie Red Bull und GoPro.',
+                 'bg': 'Екстремни спортове във видео: бейс скокове, сърф на гигантски вълни, фрийрайд, катерене и екстремни световни рекорди – от официални канали като Red Bull и GoPro.',
+                 'en': 'Extreme sports on video: BASE jumps, big-wave surfing, freeride, climbing and extreme world records – from official channels such as Red Bull and GoPro.'},
  'berlin': {'de': 'Berlin-News: Senat und Abgeordnetenhaus, Verkehr, Wohnen, Kultur, Polizei und Breaking News aus der Hauptstadt – täglich mit Quellen.',
             'bg': 'Новини от Берлин: Сенат и парламент, транспорт, жилища, култура, полиция и извънредни новини от германската столица – всеки ден с източници.',
             'en': 'Berlin news: Senate and House of Representatives, transport, housing, culture, police and breaking news from the German capital – daily, with sources.'},
@@ -118,7 +125,7 @@ def sec_desc(s, l, fallback):
     d = SEO_DESC.get(s)
     return d[l] if d else fallback
 
-SEC_COLOR = {'welt': 'var(--cobalt)', 'europa': '#5b3fc4', 'deutschland': 'var(--muted)', 'bulgarien': 'var(--teal)', 'usa': '#b23a48', 'ki': '#0f7c9c', 'wirtschaft': 'var(--sand)', 'business': '#0a7d5a', 'auto': '#b8860b', 'klima': '#2f8a4a', 'ai': '#06b6d4', 'energie': '#d97706', 'kultur': 'var(--signal)', 'games': '#7b2cbf', 'film': '#d62839', 'musik': '#0e9f6e', 'mode': '#c2185b', 'sport': '#e85d04', 'leben': '#c26a00'}
+SEC_COLOR = {'welt': 'var(--cobalt)', 'europa': '#5b3fc4', 'deutschland': 'var(--muted)', 'bulgarien': 'var(--teal)', 'usa': '#b23a48', 'ki': '#0f7c9c', 'wirtschaft': 'var(--sand)', 'business': '#0a7d5a', 'auto': '#b8860b', 'klima': '#2f8a4a', 'ai': '#06b6d4', 'energie': '#d97706', 'kultur': 'var(--signal)', 'games': '#7b2cbf', 'film': '#d62839', 'musik': '#0e9f6e', 'mode': '#c2185b', 'sport': '#e85d04', 'leben': '#c26a00', 'wow': '#ff2d55'}
 NEWS_DIR = {'bg': 'novini', 'de': 'nachrichten', 'en': 'news'}
 WEEKDAYS = {'bg': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък', 'събота', 'неделя'], 'de': ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag'], 'en': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']}
 MONTHS = {'bg': ['януари', 'февруари', 'март', 'април', 'май', 'юни', 'юли', 'август', 'септември', 'октомври', 'ноември', 'декември'], 'de': ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'], 'en': ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']}
@@ -391,7 +398,7 @@ def crumbs(l, items):
     lst = [(UI[l]['home'], pre(l))] + items
     return {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": SITE + u} for i, (n, u) in enumerate(lst)]}
 
-PRIO_NAV = ['welt', 'deutschland', 'bulgarien', 'sport', 'games', 'europa', 'ai', 'ki', 'wirtschaft', 'energie', 'business', 'auto', 'klima', 'leben', 'film', 'musik', 'mode']
+PRIO_NAV = ['welt', 'deutschland', 'bulgarien', 'sport', 'games', 'europa', 'ai', 'ki', 'wirtschaft', 'energie', 'business', 'auto', 'klima', 'leben', 'film', 'musik', 'mode', 'wow']
 def site_nav(l):
     return {"@type": "ItemList", "name": "Navigation", "itemListElement": [{"@type": "SiteNavigationElement", "position": i + 1, "name": SEC[l][x][0], "url": SITE + sec_home(x, l)} for i, x in enumerate([x for x in PRIO_NAV if x in SEC[l]])]}
 
@@ -701,7 +708,7 @@ def media_article(it, l, paras, facts, noadv, rel, side, SX):
 
 # ---- Fußball: Ligen, Tabellen, Spieltage, Pokale (Daten: content/football/*.json, openfootball CC0 + Redaktion)
 FB = {}
-FB_ORDER = ['premier-league', 'bundesliga', 'la-liga', 'ligue-1', 'serie-a', 'parva-liga']
+FB_ORDER = ['premier-league', 'bundesliga', '2-bundesliga', 'la-liga', 'ligue-1', 'serie-a', 'parva-liga']
 def fb_order(l): return (['parva-liga'] + [k for k in FB_ORDER if k != 'parva-liga']) if l == 'bg' else FB_ORDER
 FBU = {'bg': dict(season='Сезон', table='Класиране', next='Предстоящ кръг', done='Изиграни кръгове', md='{n}. кръг', cups='Купи', pos='#', team='Отбор', p='М', w='П', d='Р', l='З', g='Голове', gd='ГР', pts='Т',
                   leagues='Лиги', leader='Лидер', lead_pts='т.', ko='Начален час: българско време', noft='–', pp='отложен', src='Данни', open='Към лигата →', upcoming='Предстои', pens='дузпи', aet='след продълж.', tbd='Предстои жребий', nomatch='Все още няма мачове.'),
@@ -722,8 +729,10 @@ def fb_load():
         for it in json.load(open(ip, encoding='utf-8')).get('items', []):
             im = it['img']
             if os.path.exists(os.path.join(HERE, 'static', im['f'].lstrip('/'))): FB_IMG[it['id']] = im
+    hp = os.path.join(HERE, 'content', 'handball', 'handball-bundesliga.json')   # Handball-Bundesliga (seit 08.10.2026) – gleiche Logik wie Fußball, eigene Unterrubrik
+    if os.path.exists(hp): FB['handball-bundesliga'] = json.load(open(hp, encoding='utf-8'))
 
-def fb_url(k, l): return f"{sub_url('sport', 'fussball', l)}{k}/"
+def fb_url(k, l): return sub_url('sport', 'handball', l) if (FB.get(k) or {}).get('sport') == 'handball' else f"{sub_url('sport', 'fussball', l)}{k}/"
 
 def fb_table(lg):
     t = {}
@@ -733,7 +742,7 @@ def fb_table(lg):
         a, b = m['ft']
         for team, gf, ga in ((m['t1'], a, b), (m['t2'], b, a)):
             r = t[team]; r[0] += 1; r[4] += gf; r[5] += ga
-            if gf > ga: r[1] += 1; r[6] += 3
+            if gf > ga: r[1] += 1; r[6] += lg.get('pw', 3)   # Handball: 2 Punkte pro Sieg
             elif gf == ga: r[2] += 1; r[6] += 1
             else: r[3] += 1
     return sorted(t.items(), key=lambda kv: (-kv[1][6], -(kv[1][4] - kv[1][5]), -kv[1][4], kv[0]))
@@ -862,6 +871,27 @@ def trend_block(l):
     out += f'<p class="dt-note">{e(U["src"])}: ' + ' · '.join(f'<a href="{e(x["u"])}" target="_blank" rel="noopener">{e(x["n"])}</a>' for x in srcs) + '</p></section>'
     return out
 
+WOWU = {'bg': dict(rec='Рекорди', nat='Природа и животни', space='Космос', all='Всички', src='Видео'),
+        'de': dict(rec='Rekorde', nat='Natur & Tiere', space='Raumfahrt', all='Alle', src='Video'),
+        'en': dict(rec='Records', nat='Nature & animals', space='Space', all='All', src='Video')}
+def wow_page(l, its, others, title='WOW', desc=None, kind='wow'):
+    """WOW: reine Video-Wand – Kachel = Video (Klick lädt YouTube), kurzer Titel, Kanal, Datum."""
+    u = UI[l]; W = WOWU[l]
+    vids = [it for it in its if it.get('yt')][:36]
+    tiles = ''
+    for it in vids:
+        v = it['yt'] if isinstance(it['yt'], dict) else it['yt'][0]
+        st = ''   # keine Titelgrafik als Cover – reines Video-Kachel-Design
+        cat = it.get('wc', '')
+        tiles += (f'<article class="wow-t" data-wc="{e(cat)}"><div class="yt wow-yt" data-yt="{e(v["id"])}"{st}>'
+                  + (f'<span class="gr-badge">{e(W.get(cat, ""))}</span>' if cat in ('rec', 'nat', 'space') else '') +
+                  f'<button type="button" class="yt-play">▶</button><span class="yt-note">{e(u["ytnote"])}</span></div>'
+                  f'<a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a><p class="wow-m">{e(W["src"])}: YouTube · {e(v.get("ch", ""))} · {num_date(it["date"])}</p></article>')
+    if not tiles: tiles = f'<p class="note">{e(u["empty"])}</p>'
+    return (f'<div class="gp gp-wow gp-{kind}"><div class="gp-head"><h1 class="gp-title">{e(title)}</h1>{gp_slogan(l)}</div>'
+            f'<div class="gp-main"><div class="gp-panel"><p class="sec-desc">{e(desc or SEC_DESC["wow"][l])}</p><div class="wow-grid">{tiles}</div></div>'
+            f'<aside class="sec-side"><h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
+
 def fb_league_card(k, l, today):
     lg = FB[k]; f = FBU[l]
     tab = fb_table(lg); rs, done, nxt = fb_state(lg, today)
@@ -987,6 +1017,7 @@ def fb_league_page(k, l, today, others):
     hero = (f'<div class="ga-media"><div class="fb-hero" style="background-image:url({im["f"]})"><span class="gr-badge">{e(f["season"])} {e(lg["season"])}</span></div>'
             f'<p class="gr-cr">{cap_pre(im.get("alt", {}).get(l, ""), l)}{credit(im, l, True)}</p></div>') if im else ''
     others_l = ''.join(f'<li><a href="{fb_url(x, l)}"{" aria-current=page" if x == k else ""}>{e(FB[x]["name"][l])}</a></li>' for x in fb_order(l) if x in FB)
+    if lg.get('sport') == 'handball': others_l = f'<li><a href="{fb_url(k, l)}" aria-current=page>{e(lg["name"][l])}</a></li>'
     return (f'<div class="gp gp-sport fb-page"><div class="gp-head"><h1 class="gp-title">{e(lg["name"][l])}</h1><span class="fb-season">{e(f["season"])} {e(lg["season"])}</span></div>'
             f'<div class="gp-main"><div class="gp-panel">{hero}<h2 class="gp-h">{e(f["table"])}</h2>{table}{nx}'
             + (f'<h2 class="gp-h">{e(f["cups"])}</h2>{cups}' if cups else '') +
@@ -1170,9 +1201,9 @@ def bx_card(k, l, today):
 
 SP_ALL = {'bg': 'Всички', 'de': 'Übersicht', 'en': 'Overview'}
 SP_LIMIT = {'fussball': 6, 'laenderspiele': 6, 'boxen': 3, 'mma': 3}   # Nedys Vorgabe: 12 Sport-News am Tag (6 Fußball, 3 Boxen, 3 MMA)
-SP_U = {'bg': dict(subs='Рубрики', open='Отвори →', n='новини днес', news={'fussball': 'Футболни новини', 'laenderspiele': 'Национални отбори', 'boxen': 'Бокс новини', 'mma': 'ММА новини'}, all='Всички →'),
-        'de': dict(subs='Rubriken', open='Öffnen →', n='News heute', news={'fussball': 'Fußball-News', 'laenderspiele': 'Länderspiel-News', 'boxen': 'Box-News', 'mma': 'MMA-News'}, all='Alle →'),
-        'en': dict(subs='Sections', open='Open →', n='stories today', news={'fussball': 'Football news', 'laenderspiele': 'Internationals news', 'boxen': 'Boxing news', 'mma': 'MMA news'}, all='All →')}
+SP_U = {'bg': dict(subs='Рубрики', open='Отвори →', n='новини днес', news={'fussball': 'Футболни новини', 'laenderspiele': 'Национални отбори', 'boxen': 'Бокс новини', 'mma': 'ММА новини', 'handball': 'Хандбал новини', 'extremsport': 'Екстремни спортове'}, all='Всички →'),
+        'de': dict(subs='Rubriken', open='Öffnen →', n='News heute', news={'fussball': 'Fußball-News', 'laenderspiele': 'Länderspiel-News', 'boxen': 'Box-News', 'mma': 'MMA-News', 'handball': 'Handball-News', 'extremsport': 'Extremsport im Video'}, all='Alle →'),
+        'en': dict(subs='Sections', open='Open →', n='stories today', news={'fussball': 'Football news', 'laenderspiele': 'Internationals news', 'boxen': 'Boxing news', 'mma': 'MMA news', 'handball': 'Handball news', 'extremsport': 'Extreme sports on video'}, all='All →')}
 
 SP_IMG = {}
 def load_sp_img():
@@ -1266,7 +1297,7 @@ ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "/#org", "name": "TERRA W
 
 TICKER = {}
 GTRL = {'bg': 'Трейлъри към ревютата', 'de': 'Trailer zu den Reviews', 'en': 'Review trailers'}
-KEEP_DAYS = {'welt': 3, 'europa': 3, 'deutschland': 3, 'bulgarien': 3, 'klima': 5, 'leben': 5, 'wirtschaft': 5, 'energie': 5, 'ki': 5, 'ai': 5, 'games': 5, 'film': 5, 'musik': 5, 'sport': 5, 'auto': 7, 'mode': 5}   # Rubrikseite zeigt nur die letzten N Ausgabetage
+KEEP_DAYS = {'welt': 3, 'europa': 3, 'deutschland': 3, 'bulgarien': 3, 'klima': 5, 'leben': 5, 'wirtschaft': 5, 'energie': 5, 'ki': 5, 'ai': 5, 'games': 5, 'film': 5, 'musik': 5, 'sport': 5, 'auto': 7, 'mode': 5, 'wow': 21}   # Rubrikseite zeigt nur die letzten N Ausgabetage
 ALL_L = {'bg': 'Всички', 'de': 'Alle', 'en': 'All'}
 GPREF = {'bg': 'Добавете TWN като предпочитан източник в Google', 'de': 'TWN in Google als bevorzugte Quelle', 'en': 'Add TWN as a preferred source on Google'}
 WXT = {'bg': 'Времето: MET Norway (CC BY 4.0)', 'de': 'Wetterdaten: MET Norway (CC BY 4.0)', 'en': 'Weather data: MET Norway (CC BY 4.0)'}
@@ -1288,8 +1319,11 @@ SUI = {
             hint='Suchen Sie nach Namen, Ländern, Ereignissen oder einem Datum (z. B. 2. Oktober oder 02.10.2026). Alle Wörter müssen im Artikel vorkommen.', found='{n} Treffer', none='Keine Artikel gefunden. Versuchen Sie ein anderes Wort oder einen größeren Zeitraum.', loading='Suche läuft …', more='Weitere Treffer'),
  'en': dict(title='Search', ph='Name, country, event or date …', btn='Search', all='All sections', any='Any time', d1='Today', d7='Last 7 days', d30='Last 30 days',
             hint='Search for names, countries, events or a date (e.g. 2 October or 02.10.2026). All words must appear in the article.', found='{n} results', none='No articles found. Try another word or a wider time range.', loading='Searching …', more='More results')}
-SEC_CODE = {k: chr(97 + i) for i, k in enumerate(['welt', 'europa', 'deutschland', 'bulgarien', 'usa', 'ki', 'wirtschaft', 'klima', 'kultur', 'leben', 'business', 'games', 'film', 'musik', 'sport', 'energie', 'ai', 'auto', 'mode'])}
-SEC_DESC = {'klima': {'bg': 'Климатът на Земята: затопляне, екстремно време и природни бедствия, свързани с климатичните промени – всеки ден, с видео.',
+SEC_CODE = {k: chr(97 + i) for i, k in enumerate(['welt', 'europa', 'deutschland', 'bulgarien', 'usa', 'ki', 'wirtschaft', 'klima', 'kultur', 'leben', 'business', 'games', 'film', 'musik', 'sport', 'energie', 'ai', 'auto', 'mode', 'wow'])}
+SEC_DESC = {'wow': {'de': 'WOW – nur Videos: Weltrekorde, spektakuläre Natur und Tiere, Raumfahrt – von offiziellen Kanälen wie Guinness World Records, BBC Earth, National Geographic, NASA und ESA.',
+         'bg': 'WOW – само видеа: световни рекорди, впечатляваща природа и животни, космос – от официални канали като Guinness World Records, BBC Earth, National Geographic, NASA и ESA.',
+         'en': 'WOW – videos only: world records, spectacular nature and wildlife, space – from official channels such as Guinness World Records, BBC Earth, National Geographic, NASA and ESA.'},
+ 'klima': {'bg': 'Климатът на Земята: затопляне, екстремно време и природни бедствия, свързани с климатичните промени – всеки ден, с видео.',
                      'de': 'Das Klima unserer Erde: Erwärmung, Extremwetter und Naturkatastrophen im Klimawandel – täglich, mit Video.',
                      'en': "Our planet's climate: warming, extreme weather and climate-driven disasters – daily, with video."},
             'leben': {'bg': 'Какво движи живота ти: пари, жилище, работа, пътувания, дигитална сигурност и климат – разбираемо обяснени. Плюс всеки ден най-красивата природа на света във видео.',
@@ -1509,6 +1543,7 @@ def build():
                     pb = (f'<div class="sec-page" style="--c:{SEC_COLOR[s]}"><div class="rail-h sec-head"><h1 class="sec-title">{e(SEC[l][s][0])} · {e(SX["arch"])}</h1><span class="meta">{e(SX["page"])} {n}</span></div>'
                           f'<div class="sec-list wide">{daylist(pit)}</div>{nav}</div>')
                     write(purl(n), page(l, act, f'{SEC[l][s][0]} – {SX["page"]} {n} | TWN – World News', f'{SEC[l][s][0]}: {u["desc_home"]}', purl(n), pb, None, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": f'{SEC[l][s][0]} {n}', "url": SITE + purl(n), "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
+            if s == 'wow': body = wow_page(l, its, _others(s))   # WOW: reine Video-Wand
             if s in SUBS:
                 tabs = lambda cur: (f'<nav class="subnav" aria-label="{e(SEC[l][s][0])}"><a href="{sec_url(s, l)}"{CUR_P if cur is None else ""}>{e(SP_ALL[l])}</a>'
                                     + ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if cur == k else ""}>{e(SUB[l][k][0])}</a>' for k in SUBS[s]) + '</nav>')
@@ -1549,6 +1584,12 @@ def build():
                             write(bu, page(l, act, bt, f'{bx_t(BX[bk]["full"], l)}: {bxu(l, k)["champs"]}, {bxu(l, k)["up"]}, {bxu(l, k)["res"]}', bu, tabs(k) + bx_org_page(bk, l, latest['date'], bnews, _others(s)), balts,
                                            {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": bx_t(BX[bk]["full"], l), "url": SITE + bu, "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
                             urls.append((bu, balts, latest['date']))
+                    elif s == 'sport' and k == 'extremsport':   # Extremsport: Video-Wand wie WOW
+                        sb = tabs(k) + wow_page(l, sits, _others(s), title=SUB[l][k][0], desc=SUB_DESC[k][l], kind='sport')
+                    elif s == 'sport' and k == 'handball' and 'handball-bundesliga' in FB:   # Handball-Bundesliga: Tabelle/Spieltage wie Fußball
+                        HBK = {'bg': 'Начален час: българско време', 'de': 'Anwurfzeiten: deutsche Zeit', 'en': 'Throw-off times: German time'}
+                        sb = tabs(k) + fb_league_page('handball-bundesliga', l, latest['date'], _others(s)).replace(e(FBU[l]['ko']), e(HBK[l]))
+                        if sits: sb += games_page(l, sits, sits[0]['date'], '', SX, s, title=SUB[l][k][0])
                     elif s in MEDIA:
                         sb = tabs(k) + games_page(l, sits, sits[0]['date'] if sits else latest['date'], _others(s), SX, s, title=title)
                     else:
