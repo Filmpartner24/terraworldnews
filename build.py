@@ -833,6 +833,35 @@ def dating_block(l):
             f'<a href="{DATING_SRC["bg"]}" target="_blank" rel="noopener">Similarweb BG</a></p></section>')
     return out
 
+# ---- Mode: Block „Im Trend“ (seit 08.10.2026, Nedys Vorgabe) – Daten in content/mode/_trends.json, wöchentlich von der Mode-Aufgabe aktualisiert
+TRU = {'bg': dict(h='На мода', asof='Към', src='Източници', more='Източник ↗'),
+       'de': dict(h='Im Trend', asof='Stand', src='Quellen', more='Zur Quelle ↗'),
+       'en': dict(h='Trending now', asof='As of', src='Sources', more='Source ↗')}
+def trend_block(l):
+    ip = os.path.join(HERE, 'content', 'mode', '_trends.json')
+    if not os.path.exists(ip): return ''
+    T = json.load(open(ip, encoding='utf-8')); U = TRU[l]
+    _ip = os.path.join(HERE, 'content', 'mode', '_images.json')
+    IMG = {x['id']: x['img'] for x in json.load(open(_ip, encoding='utf-8')).get('items', [])} if os.path.exists(_ip) else {}
+    out = f'<section class="dt-sec tr-sec"><h2 class="gp-h">✦ {e(U["h"])} <span class="tr-asof">{e(U["asof"])}: {e(nice_date(T["updated"], l))}</span></h2>'
+    crs, srcs = [], []
+    for g in T.get('groups', []):
+        cards = ''
+        for it in g['items']:
+            im = IMG.get(it['id']); im = im if im and os.path.exists(os.path.join(HERE, 'static', im['f'].lstrip('/'))) else None
+            if im: crs.append((it['name'][l], im))
+            for sx in it.get('src', []):
+                if sx not in srcs: srcs.append(sx)
+            st = f' style="background-image:url({im["f"]})" role="img" aria-label="{e(im["alt"][l])}"' if im else ''
+            u = it['src'][0]['u'] if it.get('src') else '#'
+            cards += (f'<article class="dt-card tr-card"><a href="{u}" target="_blank" rel="noopener">'
+                      f'<div class="dt-top{" dt-ph" if im else ""}"{st}><span class="dt-rank">{e(g["t"][l])}</span><span class="dt-name">{e(it["name"][l])}</span></div>'
+                      f'<div class="dt-txt"><p>{e(it["txt"][l])}</p><span class="gr-more">{e(U["more"])}</span></div></a></article>')
+        out += f'<h3 class="dt-h">{e(g["t"][l])}</h3><div class="fb-grid dt-grid">{cards}</div>'
+    out += grid_cr(crs, l)
+    out += f'<p class="dt-note">{e(U["src"])}: ' + ' · '.join(f'<a href="{e(x["u"])}" target="_blank" rel="noopener">{e(x["n"])}</a>' for x in srcs) + '</p></section>'
+    return out
+
 def fb_league_card(k, l, today):
     lg = FB[k]; f = FBU[l]
     tab = fb_table(lg); rs, done, nxt = fb_state(lg, today)
@@ -1473,6 +1502,7 @@ def build():
                         f'<aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{others}</aside></div></div>')
                 if s in MEDIA:
                     body = games_page(l, [x for x in its if not (s in MOVE_SUBS and x.get('sub') in LSUBS.get(s, ()))] or its, day0, others, SX, s)
+                    if s == 'mode': body = body.replace('<div class="gp-panel">', '<div class="gp-panel">' + trend_block(l), 1)   # „Im Trend“ oben auf der Mode-Seite
                     pages = []
                 for n, pit in enumerate(pages, start=2):
                     nav = f'<nav class="pager"><a href="{purl(n - 1)}">{e(SX["prev"])}</a><span>{e(SX["page"])} {n} / {len(pages) + 1}</span>' + (f'<a href="{purl(n + 1)}">{e(SX["next"])}</a>' if n <= len(pages) else '<span></span>') + '</nav>'
