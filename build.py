@@ -708,7 +708,7 @@ def media_article(it, l, paras, facts, noadv, rel, side, SX):
 
 # ---- Fußball: Ligen, Tabellen, Spieltage, Pokale (Daten: content/football/*.json, openfootball CC0 + Redaktion)
 FB = {}
-FB_ORDER = ['premier-league', 'bundesliga', '2-bundesliga', 'la-liga', 'ligue-1', 'serie-a', 'parva-liga']
+FB_ORDER = ['bundesliga', '2-bundesliga', 'premier-league', 'la-liga', 'ligue-1', 'serie-a', 'parva-liga']
 def fb_order(l): return (['parva-liga'] + [k for k in FB_ORDER if k != 'parva-liga']) if l == 'bg' else FB_ORDER
 FBU = {'bg': dict(season='Сезон', table='Класиране', next='Предстоящ кръг', done='Изиграни кръгове', md='{n}. кръг', cups='Купи', pos='#', team='Отбор', p='М', w='П', d='Р', l='З', g='Голове', gd='ГР', pts='Т',
                   leagues='Лиги', leader='Лидер', lead_pts='т.', ko='Начален час: българско време', noft='–', pp='отложен', src='Данни', open='Към лигата →', upcoming='Предстои', pens='дузпи', aet='след продълж.', tbd='Предстои жребий', nomatch='Все още няма мачове.'),

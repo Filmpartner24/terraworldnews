@@ -6,7 +6,7 @@ Usage: python3 tools/openligadb_import.py bridge/<aufgabe>/files/bl2_matches.jso
 Vorhandene Ergebnisse bleiben erhalten, wenn die Quelle (noch) keines hat."""
 import json, os, sys, argparse
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ap = argparse.ArgumentParser(); ap.add_argument('src'); ap.add_argument('--season', default='2026-27'); a = ap.parse_args()
+ap = argparse.ArgumentParser(); ap.add_argument('src'); ap.add_argument('--season', default='2026/27'); a = ap.parse_args()
 src = json.load(open(a.src, encoding='utf-8'))
 fp = os.path.join(HERE, 'content', 'football', '2-bundesliga.json')
 old = json.load(open(fp, encoding='utf-8')) if os.path.exists(fp) else {}
