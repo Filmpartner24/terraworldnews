@@ -146,6 +146,17 @@ def kultur_to(it):
     t = ' '.join([it.get('de', {}).get('t', ''), it.get('de', {}).get('d', '')]).lower()
     return 'film' if any(w in t for w in FILM_W) else 'musik'
 
+_BER_RE = re.compile(r'^(de-|deutschland-|breaking-)?berlin-|^de-(neukoelln|kreuzberg|friedrichshain|lichtenberg|marzahn|spandau|mitte|moabit|wedding|pankow|reinickendorf|tempelhof|treptow|koepenick|charlottenburg|steglitz|zehlendorf|weissensee|schoeneberg)-')
+_BER_T = re.compile(r'^(Berlin|Berliner|Neukölln|Kreuzberg|Friedrichshain|Lichtenberg|Marzahn|Spandau|Moabit|Wedding|Pankow|Reinickendorf|Tempelhof|Treptow|Köpenick|Charlottenburg|Steglitz|Zehlendorf|Weißensee|Schöneberg|Hellersdorf|Biesdorf)\b')
+def berlin_sub(it):
+    """Berlin-Themen (Hauptstadt-Lokales, Landespolitik, Polizei) → Unterrubrik Berlin. Bundespolitik „in Berlin“ bleibt Deutschland."""
+    sub = it.get('sub')
+    if isinstance(sub, str) and sub.lower() == 'berlin': it['sub'] = 'berlin'; return
+    if sub: return
+    kl = ((it.get('kl') or {}).get('de') or '')
+    t = ((it.get('de') or {}).get('t') or '')
+    if kl == 'Berlin' or _BER_RE.match(it.get('id', '')) or _BER_T.match(t): it['sub'] = 'berlin'
+
 def load():
     eds, brk = [], []
     for f in sorted(glob.glob(os.path.join(HERE, 'content', '*.json'))):
@@ -154,7 +165,8 @@ def load():
             it['date'] = d['date']
             if it.get('s') == 'usa': it['s'] = 'welt'
             if it.get('s') == 'klima' and it.get('nat'): it['s'] = 'leben'; it['_kl'] = True  # Naturorte laufen unter Leben & Alltag, Klima hat wieder eigene Rubrik  # Klima/Natur läuft unter Leben & Alltag (seit 03.10.2026)  # USA-Meldungen laufen unter Welt
-            if it.get('s') == 'kultur': it['s'] = kultur_to(it)  # Entertainment aufgeteilt in Film und Musik
+            if it.get('s') == 'kultur': it['s'] = kultur_to(it)
+            if it.get('s') == 'deutschland': berlin_sub(it)   # Berlin-Meldungen automatisch in die Unterrubrik Berlin (seit 08.10.2026)  # Entertainment aufgeteilt in Film und Musik
             if it.get('img') and not it['img']['f'].startswith('/'): it['img']['f'] = '/' + it['img']['f']  # Pfad immer absolut
             if it.get('img') and not os.path.exists(os.path.join(HERE, 'static', it['img']['f'].lstrip('/'))):
                 it.pop('img')  # Foto noch nicht geladen (kommt mit dem nächsten Action-Lauf) -> Platzhalter statt grauer Fläche
