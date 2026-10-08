@@ -1017,3 +1017,7 @@ footer a.g-pref{font-weight:700}
 .dt-txt .gr-more{align-self:flex-start;font-size:13px;padding:6px 12px}
 .dt-note{font-size:12.5px;color:#9ca3af;line-height:1.5;margin:6px 0 0}
 .dt-note a{color:#cbd5e1}
+.dt-top.dt-ph{position:relative;aspect-ratio:16/9;display:flex;flex-direction:column;justify-content:space-between;background-size:cover;background-position:center}
+.dt-top.dt-ph::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(7,17,31,.92) 0%,rgba(7,17,31,.15) 55%,rgba(7,17,31,.35) 100%)}
+.dt-top.dt-ph>*{position:relative;z-index:1}.dt-top.dt-ph .dt-rank{align-self:flex-start}
+.dt-de .dt-top.dt-ph{border-bottom:3px solid #e11d48}.dt-bg .dt-top.dt-ph{border-bottom:3px solid #0f766e}

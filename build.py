@@ -811,15 +811,24 @@ DATU = {'bg': dict(h='Сайтове за запознанства', de='Гер�
         'en': dict(h='Dating portals', de='Germany', bg='Bulgaria', go='Visit website ↗', rank='Rank',
                    note='Selection: the three most visited dating websites in each country according to Similarweb (category “Dating and Relationships”, September 2026), excluding adult platforms. No advertising, no endorsement, no commission. App-only use is not covered by the ranking.',
                    src='Source')}
+def _dating_img():
+    ip = os.path.join(HERE, 'content', 'dating', '_images.json')
+    if not os.path.exists(ip): return {}
+    return {x['id']: x['img'] for x in json.load(open(ip, encoding='utf-8')).get('items', []) if os.path.exists(os.path.join(HERE, 'static', x['img']['f'].lstrip('/')))}
 def dating_block(l):
+    DI = _dating_img(); crs = []
     U = DATU[l]; out = f'<section class="dt-sec"><h2 class="gp-h">♥ {e(U["h"])}</h2>'
     for c in ('de', 'bg'):
         cards = ''
         for i, (cc, name, url, txt) in enumerate([x for x in DATING if x[0] == c], start=1):
+            _k = name.split('.')[0]; _im = DI.get(_k)
+            if _im: crs.append((name, _im))
+            _st = f' style="background-image:url({_im["f"]})" role="img" aria-label="{e(_im["alt"][l])}"' if _im else ''
             cards += (f'<article class="dt-card dt-{c}"><a href="{url}" target="_blank" rel="nofollow noopener noreferrer">'
-                      f'<div class="dt-top"><span class="dt-rank">{e(U["rank"])} {i}</span><span class="dt-name">{e(name)}</span></div>'
+                      f'<div class="dt-top{" dt-ph" if _im else ""}"{_st}><span class="dt-rank">{e(U["rank"])} {i}</span><span class="dt-name">{e(name)}</span></div>'
                       f'<div class="dt-txt"><p>{e(txt[l])}</p><span class="gr-more">{e(U["go"])}</span></div></a></article>')
         out += f'<h3 class="dt-h">{e(U[c])}</h3><div class="fb-grid dt-grid">{cards}</div>'
+    out += grid_cr(crs, l)
     out += (f'<p class="dt-note">{e(U["note"])} {e(U["src"])}: <a href="{DATING_SRC["de"]}" target="_blank" rel="noopener">Similarweb DE</a> · '
             f'<a href="{DATING_SRC["bg"]}" target="_blank" rel="noopener">Similarweb BG</a></p></section>')
     return out
