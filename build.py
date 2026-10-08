@@ -24,7 +24,9 @@ LOCALE = {'bg': 'bg_BG', 'de': 'de_DE', 'en': 'en_GB'}
 SECTIONS = ['welt', 'europa', 'deutschland', 'bulgarien', 'leben', 'mode', 'ki', 'wirtschaft', 'energie', 'business', 'auto', 'klima', 'ai', 'film', 'musik', 'games', 'sport']
 MEDIA = ('games', 'mode', 'auto', 'film', 'musik', 'sport', 'ai', 'ki', 'wirtschaft', 'energie', 'leben', 'klima', 'welt', 'europa', 'deutschland', 'bulgarien')   # Rubriken mit eigenem Medien-Layout (Reviews/Trailer + News)
 SUBS = {'sport': ['fussball', 'laenderspiele', 'boxen', 'mma']}
-LSUBS = {'leben': ['liebe']}   # „leichte“ Unterrubriken (seit 08.10.2026): Rubrikseite bleibt, Unterseite zusätzlich (Feld "sub")
+LSUBS = {'leben': ['liebe'], 'deutschland': ['berlin', 'oberfranken']}
+MOVE_SUBS = {'deutschland'}   # seit 08.10.2026: Berlin/Oberfranken nur auf der Unterseite, nicht mehr auf der Rubrikseite Deutschland
+SUB_KEEP = 30   # Unterseiten dieser Rubriken zeigen die letzten 30 Ausgabetage   # „leichte“ Unterrubriken (seit 08.10.2026): Rubrikseite bleibt, Unterseite zusätzlich (Feld "sub")
 SLOGAN = {'bg': ['НОВИНИ', 'ФАКТИ', 'КОНТЕКСТ'], 'de': ['NACHRICHTEN', 'FAKTEN', 'KONTEXT'], 'en': ['NEWS', 'FACTS', 'CONTEXT']}
 NAV_GROUPS = [  # Menü-Gruppen (Desktop: Trennstriche, Mobil: Überschriften im aufgeklappten Menü)
     ('news', {'bg': 'Новини', 'de': 'Nachrichten', 'en': 'News'}, ['welt', 'europa', 'deutschland', 'bulgarien']),
@@ -32,9 +34,9 @@ NAV_GROUPS = [  # Menü-Gruppen (Desktop: Trennstriche, Mobil: Überschriften im
     ('know', {'bg': 'Икономика и знание', 'de': 'Wirtschaft & Wissen', 'en': 'Economy & Knowledge'}, ['ki', 'wirtschaft', 'energie', 'business', 'auto', 'klima', 'ai']),
     ('ent', {'bg': 'Развлечения', 'de': 'Unterhaltung', 'en': 'Entertainment'}, ['film', 'musik', 'games']),
     ('sport', {'bg': 'Спорт', 'de': 'Sport', 'en': 'Sport'}, ['sport'])]   # Unterrubriken (Feld "sub" im Item)
-SUB = {'bg': {'fussball': ('Футбол', 'futbol'), 'laenderspiele': ('Национални отбори', 'natsionalni-otbori'), 'boxen': ('Бокс', 'boks'), 'mma': ('ММА', 'mma'), 'liebe': ('Любов и връзки', 'lyubov-i-vrazki')},
-       'de': {'fussball': ('Fußball', 'fussball'), 'laenderspiele': ('Länderspiele', 'laenderspiele'), 'boxen': ('Boxen', 'boxen'), 'mma': ('MMA', 'mma'), 'liebe': ('Liebe & Beziehung', 'liebe-beziehung')},
-       'en': {'fussball': ('Football', 'football'), 'laenderspiele': ('Internationals', 'internationals'), 'boxen': ('Boxing', 'boxing'), 'mma': ('MMA', 'mma'), 'liebe': ('Love & Relationships', 'love-relationships')}}
+SUB = {'bg': {'fussball': ('Футбол', 'futbol'), 'laenderspiele': ('Национални отбори', 'natsionalni-otbori'), 'boxen': ('Бокс', 'boks'), 'mma': ('ММА', 'mma'), 'liebe': ('Любов и връзки', 'lyubov-i-vrazki'), 'berlin': ('Берлин', 'berlin'), 'oberfranken': ('Горна Франкония', 'gorna-frankonia')},
+       'de': {'fussball': ('Fußball', 'fussball'), 'laenderspiele': ('Länderspiele', 'laenderspiele'), 'boxen': ('Boxen', 'boxen'), 'mma': ('MMA', 'mma'), 'liebe': ('Liebe & Beziehung', 'liebe-beziehung'), 'berlin': ('Berlin', 'berlin'), 'oberfranken': ('Oberfranken', 'oberfranken')},
+       'en': {'fussball': ('Football', 'football'), 'laenderspiele': ('Internationals', 'internationals'), 'boxen': ('Boxing', 'boxing'), 'mma': ('MMA', 'mma'), 'liebe': ('Love & Relationships', 'love-relationships'), 'berlin': ('Berlin', 'berlin'), 'oberfranken': ('Upper Franconia', 'upper-franconia')}}
 SEC = {
  'bg': {'welt': ('Свят', 'svyat'), 'europa': ('Европа', 'evropa'), 'deutschland': ('Германия', 'germania'), 'bulgarien': ('България', 'balgaria'), 'ki': ('Технологии', 'tehnologii'), 'wirtschaft': ('Икономика', 'ikonomika'), 'business': ('Бизнес', 'biznes'), 'auto': ('Авто', 'avto'), 'klima': ('Климат', 'klimat'), 'ai': ('ИИ', 'izkustven-intelekt'), 'energie': ('Енергия', 'energia'), 'kultur': ('Развлечения', 'razvlechenia'), 'games': ('Игри', 'igri'), 'film': ('Филми', 'filmi'), 'musik': ('Музика', 'muzika'), 'mode': ('Мода', 'moda'), 'sport': ('Спорт', 'sport'), 'leben': ('Живот и ежедневие', 'zhivot')},
  'de': {'welt': ('Welt', 'welt'), 'europa': ('Europa', 'europa'), 'deutschland': ('Deutschland', 'deutschland'), 'bulgarien': ('Bulgarien', 'bulgarien'), 'ki': ('Technologie', 'technologie'), 'wirtschaft': ('Wirtschaft', 'wirtschaft'), 'business': ('Business', 'business'), 'auto': ('Auto', 'auto'), 'klima': ('Klima', 'klima'), 'ai': ('KI', 'ki'), 'energie': ('Energie', 'energie'), 'kultur': ('Entertainment', 'entertainment'), 'leben': ('Leben & Alltag', 'leben-alltag'), 'games': ('Games', 'games'), 'sport': ('Sport', 'sport'), 'film': ('Film', 'film'), 'musik': ('Musik', 'musik'), 'mode': ('Mode', 'mode')},
@@ -90,6 +92,12 @@ SEO_DESC = {
  'kultur': {'de': 'Kultur und Entertainment: Konzerte, Festivals, Preisverleihungen und Kino.', 'bg': 'Култура и развлечения: концерти, фестивали, награди и кино.', 'en': 'Culture and entertainment: concerts, festivals, awards and cinema.'},
 }
 SUB_DESC = {
+ 'berlin': {'de': 'Berlin-News: Senat und Abgeordnetenhaus, Verkehr, Wohnen, Kultur, Polizei und Breaking News aus der Hauptstadt – täglich mit Quellen.',
+            'bg': 'Новини от Берлин: Сенат и парламент, транспорт, жилища, култура, полиция и извънредни новини от германската столица – всеки ден с източници.',
+            'en': 'Berlin news: Senate and House of Representatives, transport, housing, culture, police and breaking news from the German capital – daily, with sources.'},
+ 'oberfranken': {'de': 'Oberfranken-News: Bayreuth und die Richard-Wagner-Festspiele, Bamberg, Coburg, Hof und Kulmbach – Kultur, Tourismus und Region, mit Quellen.',
+                 'bg': 'Новини от Горна Франкония: Байройт и фестивалът на Рихард Вагнер, Бамберг, Кобург, Хоф и Кулмбах – култура, туризъм и регион, с източници.',
+                 'en': 'Upper Franconia news: Bayreuth and the Richard Wagner Festival, Bamberg, Coburg, Hof and Kulmbach – culture, tourism and the region, with sources.'},
  'liebe': {'de': 'Liebe & Beziehung: Partnersuche, Online-Dating, Studien zu Beziehungen, Familie und Zusammenleben, Schutz vor Love-Scamming – sachlich und mit Quellen.',
            'bg': 'Любов и връзки: търсене на партньор, онлайн запознанства, изследвания за връзките, семейство и съжителство, защита от любовни измами – обективно и с източници.',
            'en': 'Love & relationships: finding a partner, online dating, research on relationships, family and living together, protection from romance scams – factual and sourced.'},
@@ -1392,7 +1400,7 @@ def build():
                 body = (f'<div class="sec-page" style="--c:{SEC_COLOR[s]}">{head}{extra}<div class="sec-main"><div class="sec-list"><h2 class="list-h">{e(SX["latest"])}</h2>{daylist(front)}{more}</div>'
                         f'<aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{others}</aside></div></div>')
                 if s in MEDIA:
-                    body = games_page(l, its, day0, others, SX, s)
+                    body = games_page(l, [x for x in its if not (s in MOVE_SUBS and x.get('sub') in LSUBS.get(s, ()))] or its, day0, others, SX, s)
                     pages = []
                 for n, pit in enumerate(pages, start=2):
                     nav = f'<nav class="pager"><a href="{purl(n - 1)}">{e(SX["prev"])}</a><span>{e(SX["page"])} {n} / {len(pages) + 1}</span>' + (f'<a href="{purl(n + 1)}">{e(SX["next"])}</a>' if n <= len(pages) else '<span></span>') + '</nav>'
@@ -1459,10 +1467,21 @@ def build():
                                      + ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if cur == k else ""}>{e(SUB[l][k][0])}</a>' for k in LSUBS[s]) + '</nav>')
                 body = ltabs(None) + body
                 for k in LSUBS[s]:
-                    sits = sorted([it for it in its if it.get('sub') == k], key=lambda x: (x['date'], x['time']), reverse=True)
+                    _pool = its
+                    if s in MOVE_SUBS:  # Unterseite: eigene, längere Liste (30 Ausgabetage)
+                        _all = [it for it in items_l if (it['s'] == s or s in also_secs(it)) and it.get('sub') == k]
+                        _kd = sorted({it['date'] for it in _all}, reverse=True)[:SUB_KEEP]
+                        _pool = [it for it in _all if it['date'] in _kd]
+                    sits = sorted([it for it in _pool if it.get('sub') == k], key=lambda x: (x['date'], x['time']), reverse=True)
                     su = sub_url(s, k, l); title = f'{SEC[l][s][0]} · {SUB[l][k][0]}'
                     sb = ltabs(k) + (games_page(l, sits, sits[0]['date'], _others(s), SX, s, title=SUB[l][k][0]) if sits else
                                      f'<div class="sec-page" style="--c:{SEC_COLOR[s]}"><div class="rail-h sec-head"><h1 class="sec-title">{e(title)}</h1></div><p class="note">{e(u["empty"])}</p></div>')
+                    if s in MOVE_SUBS:  # Überschriften auf der Unterseite: „Berlin im Video“ statt „Deutschland im Video“
+                        _sn = SUB[l][k][0]
+                        for _o, _n in {'bg': (('Германия във видео', f'{_sn} във видео'), ('Новини от Германия', f'Новини от {_sn}')),
+                                       'de': (('Deutschland im Video', f'{_sn} im Video'), ('Deutschland-News', f'{_sn}-News')),
+                                       'en': (('Germany on video', f'{_sn} on video'), ('Germany news', f'{_sn} news'))}[l]:
+                            sb = sb.replace(f'>{_o}<', f'>{_n}<').replace(f'▶ {_o}<', f'▶ {_n}<')
                     subalts = {x: sub_url(s, k, x) for x in act}
                     write(su, page(l, act, f'{title} | TWN – World News', (SUB_DESC[k][l] if k in SUB_DESC else f'{title}: {u["desc_home"]}'), su, sb, subalts, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": title, "url": SITE + su, "inLanguage": l}, crumbs(l, [(SEC[l][s][0], sec_url(s, l)), (SUB[l][k][0], su)])]}, issue=latest.get('issue', 1), date=latest['date']))
                     urls.append((su, subalts, latest['date']))
