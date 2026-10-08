@@ -773,6 +773,57 @@ def fb_match_row(m, lg, l, cup=False):
     note = f' <span class="fb-note">{e(fb_note(m.get("note"), l))}</span>' if m.get('note') else ''
     return f'<tr><td class="fb-when">{when}</td><td class="fb-t1">{e(a)}</td><td class="fb-scc">{sc}</td><td class="fb-t2">{e(b)}{note}</td></tr>'
 
+# ---- Liebe & Beziehung: Kennenlern-Portale (seit 08.10.2026, Nedys Vorgabe) – Auswahl nach Similarweb-Ranking, keine Werbung/Provision
+DATING_SRC = {'de': 'https://www.similarweb.com/top-websites/germany/community-and-society/romance-and-relationships/',
+              'bg': 'https://www.similarweb.com/top-websites/bulgaria/community-and-society/romance-and-relationships/'}
+DATING = [
+ ('de', 'finya.de', 'https://www.finya.de/',
+  {'de': 'Singlebörse aus Deutschland, seit über 20 Jahren am Markt. Nach eigenen Angaben komplett kostenlos, finanziert über Werbung; mit Suchfunktion und Partnervorschlägen.',
+   'bg': 'Германски сайт за запознанства, на пазара от над 20 години. По собствени данни изцяло безплатен, финансира се от реклама; с търсене и предложения за партньори.',
+   'en': 'German singles site, running for more than 20 years. According to the operator completely free, funded by advertising; with search and partner suggestions.'}),
+ ('de', 'lablue.de', 'https://www.lablue.de/',
+  {'de': 'Kostenlose Partnersuche mit nach eigenen Angaben über 500.000 Singles. Kontaktaufnahme per Chat oder Mail ohne Abo; optional werbefreie Plus-Mitgliedschaft.',
+   'bg': 'Безплатно търсене на партньор с над 500 000 профила по данни на сайта. Контакт чрез чат или имейл без абонамент; по желание платено членство без реклами.',
+   'en': 'Free partner search with more than 500,000 singles, according to the site. Contact via chat or mail without a subscription; optional ad-free Plus membership.'}),
+ ('de', 'lebensfreunde.de', 'https://www.lebensfreunde.de/',
+  {'de': 'Gemeinschaft für Menschen ab 50: Partnersuche, Freundschaften, Reisepartner und Live-Treffen. Nach eigenen Angaben über 300.000 Mitglieder in Deutschland.',
+   'bg': 'Общност за хора над 50 г.: търсене на партньор, приятелства, спътници за пътуване и срещи на живо. По данни на сайта над 300 000 членове в Германия.',
+   'en': 'Community for people over 50: partner search, friendships, travel companions and live meet-ups. More than 300,000 members in Germany, according to the site.'}),
+ ('bg', 'elmaz.com', 'https://elmaz.com/',
+  {'de': 'Bulgarisches Kennenlern-Portal mit Profilen, Suche und Chat. Laut Similarweb die meistbesuchte Dating-Website in Bulgarien.',
+   'bg': 'Български сайт за запознанства с профили, търсене и чат. Според Similarweb – най-посещаваният сайт за запознанства в България.',
+   'en': 'Bulgarian dating portal with profiles, search and chat. According to Similarweb the most visited dating website in Bulgaria.'}),
+ ('bg', 'zapoznalnik.com', 'https://zapoznalnik.com/',
+  {'de': 'Bulgarische Plattform für ernsthafte Bekanntschaften. Nach eigenen Angaben rund 175.000 Nutzer; Registrierung und alle Funktionen außer Profil-Werbung kostenlos.',
+   'bg': 'Български сайт за сериозни запознанства. По собствени данни около 175 000 потребители; регистрацията и всички функции без промотирането са безплатни.',
+   'en': 'Bulgarian platform for serious relationships. Around 175,000 users according to the site; registration and all features except profile promotion are free.'}),
+ ('bg', 'badoo.com', 'https://badoo.com/',
+  {'de': 'Internationales Dating-Netzwerk, 2006 in London gegründet und heute Teil von Bumble Inc. Als Website und App verfügbar, auch in Bulgarien stark genutzt.',
+   'bg': 'Международна мрежа за запознанства, основана през 2006 г. в Лондон, днес част от Bumble Inc. Достъпна като сайт и приложение, широко използвана и в България.',
+   'en': 'International dating network founded in London in 2006, now part of Bumble Inc. Available as website and app, also widely used in Bulgaria.'}),
+]
+DATU = {'bg': dict(h='Сайтове за запознанства', de='Германия', bg='България', go='Към сайта ↗', rank='Място',
+                   note='Подбор: трите най-посещавани сайта за запознанства в съответната държава според Similarweb (категория „Запознанства и връзки“, септември 2026 г.), без еротични платформи. Без реклама, без препоръка и без комисиона. Мобилните приложения не са включени в класацията.',
+                   src='Източник'),
+        'de': dict(h='Kennenlern-Portale', de='Deutschland', bg='Bulgarien', go='Zur Website ↗', rank='Platz',
+                   note='Auswahl: die drei meistbesuchten Dating-Websites im jeweiligen Land laut Similarweb (Kategorie „Dating and Relationships“, September 2026), ohne Erotik-Plattformen. Keine Werbung, keine Empfehlung, keine Provision. Reine App-Nutzung ist im Ranking nicht erfasst.',
+                   src='Quelle'),
+        'en': dict(h='Dating portals', de='Germany', bg='Bulgaria', go='Visit website ↗', rank='Rank',
+                   note='Selection: the three most visited dating websites in each country according to Similarweb (category “Dating and Relationships”, September 2026), excluding adult platforms. No advertising, no endorsement, no commission. App-only use is not covered by the ranking.',
+                   src='Source')}
+def dating_block(l):
+    U = DATU[l]; out = f'<section class="dt-sec"><h2 class="gp-h">♥ {e(U["h"])}</h2>'
+    for c in ('de', 'bg'):
+        cards = ''
+        for i, (cc, name, url, txt) in enumerate([x for x in DATING if x[0] == c], start=1):
+            cards += (f'<article class="dt-card dt-{c}"><a href="{url}" target="_blank" rel="nofollow noopener noreferrer">'
+                      f'<div class="dt-top"><span class="dt-rank">{e(U["rank"])} {i}</span><span class="dt-name">{e(name)}</span></div>'
+                      f'<div class="dt-txt"><p>{e(txt[l])}</p><span class="gr-more">{e(U["go"])}</span></div></a></article>')
+        out += f'<h3 class="dt-h">{e(U[c])}</h3><div class="fb-grid dt-grid">{cards}</div>'
+    out += (f'<p class="dt-note">{e(U["note"])} {e(U["src"])}: <a href="{DATING_SRC["de"]}" target="_blank" rel="noopener">Similarweb DE</a> · '
+            f'<a href="{DATING_SRC["bg"]}" target="_blank" rel="noopener">Similarweb BG</a></p></section>')
+    return out
+
 def fb_league_card(k, l, today):
     lg = FB[k]; f = FBU[l]
     tab = fb_table(lg); rs, done, nxt = fb_state(lg, today)
@@ -1488,6 +1539,8 @@ def build():
                     su = sub_url(s, k, l); title = f'{SEC[l][s][0]} · {SUB[l][k][0]}'
                     sb = ltabs(k) + (games_page(l, sits, sits[0]['date'], _others(s), SX, s, title=SUB[l][k][0]) if sits else
                                      f'<div class="sec-page" style="--c:{SEC_COLOR[s]}"><div class="rail-h sec-head"><h1 class="sec-title">{e(title)}</h1></div><p class="note">{e(u["empty"])}</p></div>')
+                    if k == 'liebe' and '<div class="gp-panel">' in sb:  # Kennenlern-Portale oben auf „Liebe & Beziehung“
+                        sb = sb.replace('<div class="gp-panel">', '<div class="gp-panel">' + dating_block(l), 1)
                     if s in MOVE_SUBS:  # Überschriften auf der Unterseite: „Berlin im Video“ statt „Deutschland im Video“
                         _sn = SUB[l][k][0]
                         for _o, _n in {'bg': (('Германия във видео', f'{_sn} във видео'), ('Новини от Германия', f'Новини от {_sn}')),

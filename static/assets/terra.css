@@ -1002,3 +1002,18 @@ footer a.g-pref{font-weight:700}
 .gp-mode .gr{border-bottom-color:#2b1520}
 .gp-mode .gr-badge{background:#c2185b}
 .gp-mode .gr-more{color:#f9a8d4}
+
+/* Liebe & Beziehung: Kennenlern-Portale */
+.dt-sec{margin-bottom:26px}
+.dt-h{font-family:var(--head);font-size:18px;letter-spacing:.06em;text-transform:uppercase;color:#fff;margin:14px 0 10px}
+.dt-card a{display:flex;flex-direction:column;color:inherit;text-decoration:none;background:#0d1b2e;border:1px solid #1c2f48;border-radius:6px;overflow:hidden;height:100%}
+.dt-card a:hover{border-color:#e11d48}
+.dt-top{padding:16px 14px 14px;background:linear-gradient(135deg,#7f1d1d,#be123c 60%,#e11d48)}
+.dt-bg .dt-top{background:linear-gradient(135deg,#064e3b,#0f766e 55%,#be123c)}
+.dt-rank{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;background:rgba(0,0,0,.35);color:#fff;padding:3px 8px;border-radius:3px}
+.dt-name{display:block;margin-top:10px;font-family:var(--head);font-weight:700;font-size:26px;color:#fff;overflow-wrap:anywhere}
+.dt-txt{padding:12px 14px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
+.dt-txt p{margin:0;color:#d1d5db;font-size:14.5px;line-height:1.5;flex:1}
+.dt-txt .gr-more{align-self:flex-start;font-size:13px;padding:6px 12px}
+.dt-note{font-size:12.5px;color:#9ca3af;line-height:1.5;margin:6px 0 0}
+.dt-note a{color:#cbd5e1}
