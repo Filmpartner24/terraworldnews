@@ -1047,3 +1047,9 @@ footer a.g-pref{font-weight:700}
 .gp-wow.gp-sport .gp-head{background:linear-gradient(90deg,#0b1a2e,#e85d04 70%,#f59e0b)}
 .gp-wow.gp-sport .wow-yt{background:radial-gradient(circle at 30% 20%,#4a1f05 0%,#140c08 55%,#05040a 100%)}
 .gp-wow.gp-sport .wow-yt .yt-play{background:#e85d04}
+/* Suche schmal (09.10.2026): rote Fläche nur um die Lupe, darf SPORT nicht verdecken */
+@media (min-width:861px){.nv2 .nv-search{flex:0 0 46px;justify-content:center;padding:0;position:relative;z-index:2}.nv2 .nv-logo{flex-basis:56px}.nv2 .nav-items{min-width:0;flex:1 1 auto}}
+@media (min-width:1201px) and (max-width:1500px){.nv2 a{padding:0 6px}.nv2 .nav-items a[aria-current="page"]::after{left:6px;right:6px}.nv2 .ng{padding:0 2px}}
+@media (min-width:861px) and (max-width:1200px){.nv2 .nav-items a{font-size:12.5px;padding:0 3px;letter-spacing:0}.nv2 .nv-home{padding:0 6px}}
+@media (min-width:861px) and (max-width:1000px){.nv2 .nav-items a{font-size:11px;padding:0 2px}.nv2 .ng{padding:0 1px}.nv2 .nv-logo{flex-basis:40px;padding:0 4px}}
+@media (min-width:1201px) and (max-width:1320px){.nv2 .nav-items a{font-size:13px;padding:0 4px}.nv2 .ng{padding:0 1px}}
