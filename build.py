@@ -24,6 +24,7 @@ LOCALE = {'bg': 'bg_BG', 'de': 'de_DE', 'en': 'en_GB'}
 SECTIONS = ['welt', 'europa', 'deutschland', 'bulgarien', 'leben', 'mode', 'ki', 'wirtschaft', 'energie', 'business', 'auto', 'klima', 'ai', 'film', 'musik', 'games', 'sport']
 MEDIA = ('games', 'mode', 'auto', 'film', 'musik', 'sport', 'ai', 'ki', 'wirtschaft', 'energie', 'leben', 'klima', 'welt', 'europa', 'deutschland', 'bulgarien')   # Rubriken mit eigenem Medien-Layout (Reviews/Trailer + News)
 SUBS = {'sport': ['fussball', 'laenderspiele', 'boxen', 'mma']}
+LSUBS = {'leben': ['liebe']}   # „leichte“ Unterrubriken (seit 08.10.2026): Rubrikseite bleibt, Unterseite zusätzlich (Feld "sub")
 SLOGAN = {'bg': ['НОВИНИ', 'ФАКТИ', 'КОНТЕКСТ'], 'de': ['NACHRICHTEN', 'FAKTEN', 'KONTEXT'], 'en': ['NEWS', 'FACTS', 'CONTEXT']}
 NAV_GROUPS = [  # Menü-Gruppen (Desktop: Trennstriche, Mobil: Überschriften im aufgeklappten Menü)
     ('news', {'bg': 'Новини', 'de': 'Nachrichten', 'en': 'News'}, ['welt', 'europa', 'deutschland', 'bulgarien']),
@@ -31,9 +32,9 @@ NAV_GROUPS = [  # Menü-Gruppen (Desktop: Trennstriche, Mobil: Überschriften im
     ('know', {'bg': 'Икономика и знание', 'de': 'Wirtschaft & Wissen', 'en': 'Economy & Knowledge'}, ['ki', 'wirtschaft', 'energie', 'business', 'auto', 'klima', 'ai']),
     ('ent', {'bg': 'Развлечения', 'de': 'Unterhaltung', 'en': 'Entertainment'}, ['film', 'musik', 'games']),
     ('sport', {'bg': 'Спорт', 'de': 'Sport', 'en': 'Sport'}, ['sport'])]   # Unterrubriken (Feld "sub" im Item)
-SUB = {'bg': {'fussball': ('Футбол', 'futbol'), 'laenderspiele': ('Национални отбори', 'natsionalni-otbori'), 'boxen': ('Бокс', 'boks'), 'mma': ('ММА', 'mma')},
-       'de': {'fussball': ('Fußball', 'fussball'), 'laenderspiele': ('Länderspiele', 'laenderspiele'), 'boxen': ('Boxen', 'boxen'), 'mma': ('MMA', 'mma')},
-       'en': {'fussball': ('Football', 'football'), 'laenderspiele': ('Internationals', 'internationals'), 'boxen': ('Boxing', 'boxing'), 'mma': ('MMA', 'mma')}}
+SUB = {'bg': {'fussball': ('Футбол', 'futbol'), 'laenderspiele': ('Национални отбори', 'natsionalni-otbori'), 'boxen': ('Бокс', 'boks'), 'mma': ('ММА', 'mma'), 'liebe': ('Любов и връзки', 'lyubov-i-vrazki')},
+       'de': {'fussball': ('Fußball', 'fussball'), 'laenderspiele': ('Länderspiele', 'laenderspiele'), 'boxen': ('Boxen', 'boxen'), 'mma': ('MMA', 'mma'), 'liebe': ('Liebe & Beziehung', 'liebe-beziehung')},
+       'en': {'fussball': ('Football', 'football'), 'laenderspiele': ('Internationals', 'internationals'), 'boxen': ('Boxing', 'boxing'), 'mma': ('MMA', 'mma'), 'liebe': ('Love & Relationships', 'love-relationships')}}
 SEC = {
  'bg': {'welt': ('Свят', 'svyat'), 'europa': ('Европа', 'evropa'), 'deutschland': ('Германия', 'germania'), 'bulgarien': ('България', 'balgaria'), 'ki': ('Технологии', 'tehnologii'), 'wirtschaft': ('Икономика', 'ikonomika'), 'business': ('Бизнес', 'biznes'), 'auto': ('Авто', 'avto'), 'klima': ('Климат', 'klimat'), 'ai': ('ИИ', 'izkustven-intelekt'), 'energie': ('Енергия', 'energia'), 'kultur': ('Развлечения', 'razvlechenia'), 'games': ('Игри', 'igri'), 'film': ('Филми', 'filmi'), 'musik': ('Музика', 'muzika'), 'mode': ('Мода', 'moda'), 'sport': ('Спорт', 'sport'), 'leben': ('Живот и ежедневие', 'zhivot')},
  'de': {'welt': ('Welt', 'welt'), 'europa': ('Europa', 'europa'), 'deutschland': ('Deutschland', 'deutschland'), 'bulgarien': ('Bulgarien', 'bulgarien'), 'ki': ('Technologie', 'technologie'), 'wirtschaft': ('Wirtschaft', 'wirtschaft'), 'business': ('Business', 'business'), 'auto': ('Auto', 'auto'), 'klima': ('Klima', 'klima'), 'ai': ('KI', 'ki'), 'energie': ('Energie', 'energie'), 'kultur': ('Entertainment', 'entertainment'), 'leben': ('Leben & Alltag', 'leben-alltag'), 'games': ('Games', 'games'), 'sport': ('Sport', 'sport'), 'film': ('Film', 'film'), 'musik': ('Musik', 'musik'), 'mode': ('Mode', 'mode')},
@@ -89,6 +90,9 @@ SEO_DESC = {
  'kultur': {'de': 'Kultur und Entertainment: Konzerte, Festivals, Preisverleihungen und Kino.', 'bg': 'Култура и развлечения: концерти, фестивали, награди и кино.', 'en': 'Culture and entertainment: concerts, festivals, awards and cinema.'},
 }
 SUB_DESC = {
+ 'liebe': {'de': 'Liebe & Beziehung: Partnersuche, Online-Dating, Studien zu Beziehungen, Familie und Zusammenleben, Schutz vor Love-Scamming – sachlich und mit Quellen.',
+           'bg': 'Любов и връзки: търсене на партньор, онлайн запознанства, изследвания за връзките, семейство и съжителство, защита от любовни измами – обективно и с източници.',
+           'en': 'Love & relationships: finding a partner, online dating, research on relationships, family and living together, protection from romance scams – factual and sourced.'},
  'laenderspiele': {'de': 'Länderspiele: Nations-League-Tabellen, alle Spiele der deutschen Nationalmannschaft, DFB-News und Spielzusammenfassungen im Video.',
                    'bg': 'Национални отбори: класирания в Лигата на нациите, всички мачове на Германия, новини и видео обобщения на мачовете.',
                    'en': 'Internationals: Nations League tables, every Germany fixture, national team news and match highlights on video.'},
@@ -215,7 +219,7 @@ def art_url(it, l):
 def sec_url(s, l): return f"{pre(l)}{SEC[l][s][1]}/"
 def sub_url(s, k, l): return f"{sec_url(s, l)}{SUB[l][k][1]}/"
 def sec_home(s, l, sub=None):  # Rubriken mit Unterrubriken (Sport) haben keine eigene Übersichtsseite → erste/zugehörige Unterrubrik
-    return sub_url(s, sub, l) if s in SUBS and sub in SUBS[s] else sec_url(s, l)   # Sport: eigene Übersichtsseite (seit 04.10.2026)
+    return sub_url(s, sub, l) if (s in SUBS and sub in SUBS[s]) or (s in LSUBS and sub in LSUBS[s]) else sec_url(s, l)   # Sport: eigene Übersichtsseite (seit 04.10.2026)
 def legal_url(k, l): return f"{pre(l)}{LEGAL_SLUG[l][k]}.html"
 def iso(it): return f"{it['date']}T{it['time']}:00{TZ}"
 def read_min(it, l):
@@ -252,6 +256,9 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
     clocks = ''.join(f'<span>{e(n)} <b data-tz="{tz}">--:--</b></span>' for n, tz in u['clocks'])
     def _navi(s):
         a = f'<a href="{sec_home(s, l)}"{CUR_P if canon == sec_url(s, l) or (s in SUBS and canon.startswith(sec_url(s, l))) else ""}>{e(SEC[l][s][0])}</a>'
+        if s in LSUBS:
+            dd = ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if canon == sub_url(s, k, l) else ""}>{e(SUB[l][k][0])}</a>' for k in LSUBS[s])
+            return f'<span class="nav-dd">{a}<span class="dd">{dd}</span></span>'
         if s not in SUBS: return a
         dd = ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if canon == sub_url(s, k, l) else ""}>{e(SUB[l][k][0])}</a>' for k in SUBS[s])
         return f'<span class="nav-dd">{a}<span class="dd">{dd}</span></span>'
@@ -1447,6 +1454,18 @@ def build():
                                 {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": SEC[l][s][0], "url": SITE + _su, "inLanguage": l}, crumbs(l, [(SEC[l][s][0], _su)])]}, issue=latest.get('issue', 1), date=latest['date']))
                 urls.append((_su, salts, latest['date']))
                 continue
+            if s in LSUBS:  # leichte Unterrubriken: Reiter über der Rubrikseite + eigene Unterseite
+                ltabs = lambda cur: (f'<nav class="subnav" aria-label="{e(SEC[l][s][0])}"><a href="{sec_url(s, l)}"{CUR_P if cur is None else ""}>{e(SP_ALL[l])}</a>'
+                                     + ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if cur == k else ""}>{e(SUB[l][k][0])}</a>' for k in LSUBS[s]) + '</nav>')
+                body = ltabs(None) + body
+                for k in LSUBS[s]:
+                    sits = sorted([it for it in its if it.get('sub') == k], key=lambda x: (x['date'], x['time']), reverse=True)
+                    su = sub_url(s, k, l); title = f'{SEC[l][s][0]} · {SUB[l][k][0]}'
+                    sb = ltabs(k) + (games_page(l, sits, sits[0]['date'], _others(s), SX, s, title=SUB[l][k][0]) if sits else
+                                     f'<div class="sec-page" style="--c:{SEC_COLOR[s]}"><div class="rail-h sec-head"><h1 class="sec-title">{e(title)}</h1></div><p class="note">{e(u["empty"])}</p></div>')
+                    subalts = {x: sub_url(s, k, x) for x in act}
+                    write(su, page(l, act, f'{title} | TWN – World News', (SUB_DESC[k][l] if k in SUB_DESC else f'{title}: {u["desc_home"]}'), su, sb, subalts, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": title, "url": SITE + su, "inLanguage": l}, crumbs(l, [(SEC[l][s][0], sec_url(s, l)), (SUB[l][k][0], su)])]}, issue=latest.get('issue', 1), date=latest['date']))
+                    urls.append((su, subalts, latest['date']))
             write(sec_url(s, l), page(l, act, f'{SEC[l][s][0]} | TWN – World News', (BZ[l]['desc'] if s == 'business' else sec_desc(s, l, f'{SEC[l][s][0]}: {u["desc_home"]}')), sec_url(s, l), body, salts, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": SEC[l][s][0], "url": SITE + sec_url(s, l), "inLanguage": l}, crumbs(l, [(SEC[l][s][0], sec_url(s, l))])]}, issue=latest.get('issue', 1), date=latest['date'],
                   ticker2=(boerse_ticker(BIZ[max(BIZ)], l) if s == 'business' and BIZ else '')))
             urls.append((sec_url(s, l), salts, latest['date']))
