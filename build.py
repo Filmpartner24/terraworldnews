@@ -853,10 +853,10 @@ def trend_block(l):
             for sx in it.get('src', []):
                 if sx not in srcs: srcs.append(sx)
             st = f' style="background-image:url({im["f"]})" role="img" aria-label="{e(im["alt"][l])}"' if im else ''
-            u = it['src'][0]['u'] if it.get('src') else '#'
-            cards += (f'<article class="dt-card tr-card"><a href="{u}" target="_blank" rel="noopener">'
+            u = it.get('link') or (it['src'][0]['u'] if it.get('src') else '#')
+            cards += (f'<article class="dt-card tr-card"><a href="{u}" target="_blank" rel="{"nofollow noopener noreferrer" if it.get("link") else "noopener"}">'
                       f'<div class="dt-top{" dt-ph" if im else ""}"{st}><span class="dt-rank">{e(g["t"][l])}</span><span class="dt-name">{e(it["name"][l])}</span></div>'
-                      f'<div class="dt-txt"><p>{e(it["txt"][l])}</p><span class="gr-more">{e(U["more"])}</span></div></a></article>')
+                      f'<div class="dt-txt"><p>{e(it["txt"][l])}</p><span class="gr-more">{e((it.get("linkt") or {}).get(l) or U["more"])}</span></div></a></article>')
         out += f'<h3 class="dt-h">{e(g["t"][l])}</h3><div class="fb-grid dt-grid">{cards}</div>'
     out += grid_cr(crs, l)
     out += f'<p class="dt-note">{e(U["src"])}: ' + ' · '.join(f'<a href="{e(x["u"])}" target="_blank" rel="noopener">{e(x["n"])}</a>' for x in srcs) + '</p></section>'
