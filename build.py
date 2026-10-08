@@ -21,10 +21,10 @@ PREFIX = {'bg': '/'}  # Bulgarian is the main edition at the root
 def pre(l): return PREFIX.get(l, f'/{l}/')
 LOCALE = {'bg': 'bg_BG', 'de': 'de_DE', 'en': 'en_GB'}
 
-SECTIONS = ['welt', 'europa', 'deutschland', 'bulgarien', 'leben', 'mode', 'ki', 'wirtschaft', 'energie', 'business', 'auto', 'klima', 'ai', 'film', 'musik', 'games', 'sport', 'wow']
+SECTIONS = ['welt', 'europa', 'deutschland', 'bulgarien', 'leben', 'mode', 'ki', 'wirtschaft', 'energie', 'business', 'auto', 'klima', 'ai', 'film', 'musik', 'games', 'sport']
 MEDIA = ('games', 'mode', 'auto', 'film', 'musik', 'sport', 'ai', 'ki', 'wirtschaft', 'energie', 'leben', 'klima', 'welt', 'europa', 'deutschland', 'bulgarien')   # Rubriken mit eigenem Medien-Layout (Reviews/Trailer + News)
 SUBS = {'sport': ['fussball', 'laenderspiele', 'handball', 'boxen', 'mma', 'extremsport']}   # Handball + Extremsport seit 08.10.2026
-LSUBS = {'leben': ['liebe'], 'deutschland': ['berlin', 'oberfranken']}
+LSUBS = {'leben': ['liebe', 'guinness'], 'deutschland': ['berlin', 'oberfranken']}
 MOVE_SUBS = {'deutschland'}   # seit 08.10.2026: Berlin/Oberfranken nur auf der Unterseite, nicht mehr auf der Rubrikseite Deutschland
 SUB_KEEP = 30   # Unterseiten dieser Rubriken zeigen die letzten 30 Ausgabetage   # „leichte“ Unterrubriken (seit 08.10.2026): Rubrikseite bleibt, Unterseite zusätzlich (Feld "sub")
 SLOGAN = {'bg': ['НОВИНИ', 'ФАКТИ', 'КОНТЕКСТ'], 'de': ['NACHRICHTEN', 'FAKTEN', 'KONTEXT'], 'en': ['NEWS', 'FACTS', 'CONTEXT']}
@@ -33,11 +33,10 @@ NAV_GROUPS = [  # Menü-Gruppen (Desktop: Trennstriche, Mobil: Überschriften im
     ('life', {'bg': 'Живот', 'de': 'Leben', 'en': 'Life'}, ['leben', 'mode']),
     ('know', {'bg': 'Икономика и знание', 'de': 'Wirtschaft & Wissen', 'en': 'Economy & Knowledge'}, ['ki', 'wirtschaft', 'energie', 'business', 'auto', 'klima', 'ai']),
     ('ent', {'bg': 'Развлечения', 'de': 'Unterhaltung', 'en': 'Entertainment'}, ['film', 'musik', 'games']),
-    ('sport', {'bg': 'Спорт', 'de': 'Sport', 'en': 'Sport'}, ['sport']),
-    ('wow', {'bg': 'WOW', 'de': 'WOW', 'en': 'WOW'}, ['wow'])]   # WOW: nur Videos (seit 08.10.2026), ganz hinten   # Unterrubriken (Feld "sub" im Item)
-SUB = {'bg': {'fussball': ('Футбол', 'futbol'), 'laenderspiele': ('Национални отбори', 'natsionalni-otbori'), 'boxen': ('Бокс', 'boks'), 'mma': ('ММА', 'mma'), 'liebe': ('Любов и връзки', 'lyubov-i-vrazki'), 'berlin': ('Берлин', 'berlin'), 'oberfranken': ('Горна Франкония', 'gorna-frankonia'), 'handball': ('Хандбал', 'handbal'), 'extremsport': ('Екстремни спортове', 'ekstremni-sportove')},
-       'de': {'fussball': ('Fußball', 'fussball'), 'laenderspiele': ('Länderspiele', 'laenderspiele'), 'boxen': ('Boxen', 'boxen'), 'mma': ('MMA', 'mma'), 'liebe': ('Liebe & Beziehung', 'liebe-beziehung'), 'berlin': ('Berlin', 'berlin'), 'oberfranken': ('Oberfranken', 'oberfranken'), 'handball': ('Handball', 'handball'), 'extremsport': ('Extremsport', 'extremsport')},
-       'en': {'fussball': ('Football', 'football'), 'laenderspiele': ('Internationals', 'internationals'), 'boxen': ('Boxing', 'boxing'), 'mma': ('MMA', 'mma'), 'liebe': ('Love & Relationships', 'love-relationships'), 'berlin': ('Berlin', 'berlin'), 'oberfranken': ('Upper Franconia', 'upper-franconia'), 'handball': ('Handball', 'handball'), 'extremsport': ('Extreme sports', 'extreme-sports')}}
+    ('sport', {'bg': 'Спорт', 'de': 'Sport', 'en': 'Sport'}, ['sport'])]   # WOW am 09.10.2026 wieder entfernt (Guinness → Leben & Alltag)   # Unterrubriken (Feld "sub" im Item)
+SUB = {'bg': {'fussball': ('Футбол', 'futbol'), 'laenderspiele': ('Национални отбори', 'natsionalni-otbori'), 'boxen': ('Бокс', 'boks'), 'mma': ('ММА', 'mma'), 'liebe': ('Любов и връзки', 'lyubov-i-vrazki'), 'berlin': ('Берлин', 'berlin'), 'oberfranken': ('Горна Франкония', 'gorna-frankonia'), 'guinness': ('Рекорди на Гинес', 'rekordi-gines'), 'handball': ('Хандбал', 'handbal'), 'extremsport': ('Екстремни спортове', 'ekstremni-sportove')},
+       'de': {'fussball': ('Fußball', 'fussball'), 'laenderspiele': ('Länderspiele', 'laenderspiele'), 'boxen': ('Boxen', 'boxen'), 'mma': ('MMA', 'mma'), 'liebe': ('Liebe & Beziehung', 'liebe-beziehung'), 'berlin': ('Berlin', 'berlin'), 'oberfranken': ('Oberfranken', 'oberfranken'), 'guinness': ('Guinness Records', 'guinness-records'), 'handball': ('Handball', 'handball'), 'extremsport': ('Extremsport', 'extremsport')},
+       'en': {'fussball': ('Football', 'football'), 'laenderspiele': ('Internationals', 'internationals'), 'boxen': ('Boxing', 'boxing'), 'mma': ('MMA', 'mma'), 'liebe': ('Love & Relationships', 'love-relationships'), 'berlin': ('Berlin', 'berlin'), 'oberfranken': ('Upper Franconia', 'upper-franconia'), 'guinness': ('Guinness World Records', 'guinness-world-records'), 'handball': ('Handball', 'handball'), 'extremsport': ('Extreme sports', 'extreme-sports')}}
 SEC = {
  'bg': {'welt': ('Свят', 'svyat'), 'europa': ('Европа', 'evropa'), 'deutschland': ('Германия', 'germania'), 'bulgarien': ('България', 'balgaria'), 'ki': ('Технологии', 'tehnologii'), 'wirtschaft': ('Икономика', 'ikonomika'), 'business': ('Бизнес', 'biznes'), 'auto': ('Авто', 'avto'), 'klima': ('Климат', 'klimat'), 'ai': ('ИИ', 'izkustven-intelekt'), 'energie': ('Енергия', 'energia'), 'kultur': ('Развлечения', 'razvlechenia'), 'games': ('Игри', 'igri'), 'film': ('Филми', 'filmi'), 'musik': ('Музика', 'muzika'), 'mode': ('Мода', 'moda'), 'sport': ('Спорт', 'sport'), 'leben': ('Живот и ежедневие', 'zhivot'), 'wow': ('WOW', 'wow')},
  'de': {'welt': ('Welt', 'welt'), 'europa': ('Europa', 'europa'), 'deutschland': ('Deutschland', 'deutschland'), 'bulgarien': ('Bulgarien', 'bulgarien'), 'ki': ('Technologie', 'technologie'), 'wirtschaft': ('Wirtschaft', 'wirtschaft'), 'business': ('Business', 'business'), 'auto': ('Auto', 'auto'), 'klima': ('Klima', 'klima'), 'ai': ('KI', 'ki'), 'energie': ('Energie', 'energie'), 'kultur': ('Entertainment', 'entertainment'), 'leben': ('Leben & Alltag', 'leben-alltag'), 'games': ('Games', 'games'), 'sport': ('Sport', 'sport'), 'film': ('Film', 'film'), 'musik': ('Musik', 'musik'), 'mode': ('Mode', 'mode'), 'wow': ('WOW', 'wow')},
@@ -93,6 +92,9 @@ SEO_DESC = {
  'kultur': {'de': 'Kultur und Entertainment: Konzerte, Festivals, Preisverleihungen und Kino.', 'bg': 'Култура и развлечения: концерти, фестивали, награди и кино.', 'en': 'Culture and entertainment: concerts, festivals, awards and cinema.'},
 }
 SUB_DESC = {
+ 'guinness': {'de': 'Guinness World Records im Video: die verrücktesten, größten und schnellsten Weltrekorde – jeden Tag ein neues Video vom offiziellen Kanal.',
+              'bg': 'Рекордите на Гинес във видео: най-невероятните, най-големите и най-бързите световни рекорди – всеки ден ново видео от официалния канал.',
+              'en': 'Guinness World Records on video: the wildest, biggest and fastest world records – a new video from the official channel every day.'},
  'handball': {'de': 'Handball-Bundesliga: Tabelle, Spieltage und Ergebnisse der Saison mit THW Kiel, SC Magdeburg, Füchse Berlin, SG Flensburg-Handewitt und Co. – täglich aktualisiert.',
               'bg': 'Хандбал Бундеслига: класиране, кръгове и резултати от сезона с THW Kiel, SC Magdeburg, Füchse Berlin, SG Flensburg-Handewitt и др. – обновява се всеки ден.',
               'en': 'Handball Bundesliga: table, matchdays and results of the season with THW Kiel, SC Magdeburg, Füchse Berlin, SG Flensburg-Handewitt and more – updated daily.'},
@@ -1617,7 +1619,7 @@ def build():
                         _pool = [it for it in _all if it['date'] in _kd]
                     sits = sorted([it for it in _pool if it.get('sub') == k], key=lambda x: (x['date'], x['time']), reverse=True)
                     su = sub_url(s, k, l); title = f'{SEC[l][s][0]} · {SUB[l][k][0]}'
-                    sb = ltabs(k) + (games_page(l, sits, sits[0]['date'], _others(s), SX, s, title=SUB[l][k][0]) if sits else
+                    sb = ltabs(k) + (wow_page(l, sits, _others(s), title=SUB[l][k][0], desc=SUB_DESC[k][l], kind='guinness') if k == 'guinness' else games_page(l, sits, sits[0]['date'], _others(s), SX, s, title=SUB[l][k][0]) if sits else
                                      f'<div class="sec-page" style="--c:{SEC_COLOR[s]}"><div class="rail-h sec-head"><h1 class="sec-title">{e(title)}</h1></div><p class="note">{e(u["empty"])}</p></div>')
                     if k == 'liebe' and '<div class="gp-panel">' in sb:  # Kennenlern-Portale oben auf „Liebe & Beziehung“
                         sb = sb.replace('<div class="gp-panel">', '<div class="gp-panel">' + dating_block(l), 1)
