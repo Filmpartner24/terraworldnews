@@ -880,10 +880,11 @@ def wow_page(l, its, others, title='WOW', desc=None, kind='wow'):
     """WOW: reine Video-Wand – Kachel = Video (Klick lädt YouTube), kurzer Titel, Kanal, Datum."""
     u = UI[l]; W = WOWU[l]
     vids = [it for it in its if it.get('yt')][:36]
-    tiles = ''
+    tiles = ''; crs = []
     for it in vids:
         v = it['yt'] if isinstance(it['yt'], dict) else it['yt'][0]
-        st = ''   # keine Titelgrafik als Cover – reines Video-Kachel-Design
+        im = it.get('img'); st = f' style="background-image:url({im["f"]})"' if im and not im.get('own') else ''
+        if st: crs.append((it[l]['t'], im))   # nur Commons-Fotos als Vorschaubild (keine Titelgrafik, keine YouTube-Thumbnails)
         cat = it.get('wc', '')
         tiles += (f'<article class="wow-t" data-wc="{e(cat)}"><div class="yt wow-yt" data-yt="{e(v["id"])}"{st}>'
                   + (f'<span class="gr-badge">{e(W.get(cat, ""))}</span>' if cat in ('rec', 'nat', 'space') else '') +
@@ -891,7 +892,7 @@ def wow_page(l, its, others, title='WOW', desc=None, kind='wow'):
                   f'<a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a><p class="wow-m">{e(W["src"])}: YouTube · {e(v.get("ch", ""))} · {num_date(it["date"])}</p></article>')
     if not tiles: tiles = f'<p class="note">{e(u["empty"])}</p>'
     return (f'<div class="gp gp-wow gp-{kind}"><div class="gp-head"><h1 class="gp-title">{e(title)}</h1>{gp_slogan(l)}</div>'
-            f'<div class="gp-main"><div class="gp-panel"><p class="sec-desc">{e(desc or SEC_DESC["wow"][l])}</p><div class="wow-grid">{tiles}</div></div>'
+            f'<div class="gp-main"><div class="gp-panel"><p class="sec-desc">{e(desc or SEC_DESC["wow"][l])}</p><div class="wow-grid">{tiles}</div>{grid_cr(crs, l)}</div>'
             f'<aside class="sec-side"><h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
 
 def fb_league_card(k, l, today):
