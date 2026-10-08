@@ -33,7 +33,7 @@ Andere gesperrte Datenquellen (z. B. match.uefa.com, standings.uefa.com) ebenfal
 - Pressekodex: Unschuldsvermutung, keine identifizierenden Details von Verdächtigen/Opfern, Verletzungen/Erkrankungen (auch bei Sportlern) nur nach offizieller Mitteilung von Person/Team/Verband, sachlich, ohne medizinische Spekulation.
 - time = Veröffentlichungszeit (HH:MM Berlin), NIE in der Zukunft.
 - Nichts wiederholen, was in den letzten Tagen schon auf der Seite steht: vor dem Schreiben die relevanten content/*.json lesen (mindestens content/<heute>*.json und content/<gestern>*.json, dazu die eigenen Rubrikdateien der letzten 7 Tage).
-- RAUMFAHRT (Nedy 09.10.2026): nie unter Technologie (s="ki") oder KI (s="ai"). Raumfahrt-Meldungen (Raketen, Satelliten, Sonden, Teleskope, ISS, NASA/ESA/SpaceX) laufen unter Welt: s="welt" mit "kl":{"de":"Raumfahrt","bg":"Космос","en":"Space"}.
+- RAUMFAHRT (Nedy 09.10.2026): nie als normale Technologie- oder KI-Meldung. Raumfahrt-Meldungen (Raketen, Satelliten, Sonden, Teleskope, ISS, NASA/ESA/SpaceX) gehören in den Unterpunkt Technologie → Raumfahrt: s="ki", "sub":"raumfahrt", "kl":{"de":"Raumfahrt","bg":"Космос","en":"Space"} (erscheinen nur dort, nicht auf der Technologie-Hauptseite).
 - Abgrenzung: Autos (Modelle, Marken, Verkaufszahlen) → Auto-Aufgabe; Tagesausgabe/Technologie nur aus Technik-Sicht (Batterie, autonomes Fahren, Laden). KI-Modelle/KI-Firmen → s="ai" (KI); Technik/Wissenschaft → s="ki" (Technologie). Börsen-/IBEX-Tagesberichte → Business. Trailer/Album-Reviews → Film/Musik-Aufgaben.
 
 ## 6. Veröffentlichen
