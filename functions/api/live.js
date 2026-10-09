@@ -69,7 +69,8 @@ async function handball(ctx, hdr) {
   const m = list.map(g => ({ id: g.id, ts: g.timestamp, st: (g.status || {}).short, min: null, ext: null, lg: (g.league || {}).id, ln: (g.league || {}).name,
     lc: (g.country || {}).name, h: ((g.teams || {}).home || {}).name, a: ((g.teams || {}).away || {}).name,
     gh: (g.scores || {}).home, ga: (g.scores || {}).away, ev: [] })).sort((x, y) => x.ts - y.ts);
-  return new Response(JSON.stringify({ ok: true, day, live: anyLive, m }), { headers: hdr });
+  const apierr = j.errors && Object.keys(j.errors).length ? Object.keys(j.errors).join(',') : '';
+  return new Response(JSON.stringify({ ok: !apierr, apierr, total: j.results || 0, day, live: anyLive, m }), { headers: hdr });
 }
 
 export async function onRequest(ctx) {
@@ -88,7 +89,8 @@ export async function onRequest(ctx) {
       list = list.map(f => byId.get(f.fixture.id) || f);
     }
     const m = list.map(f => slim(f)).sort((x, y) => (x.ts - y.ts) || (x.lg - y.lg));
-    return new Response(JSON.stringify({ ok: true, day, live: anyLive, club: CLUB, nat: NAT, m }), { headers: hdr });
+    const apierr = today.errors && Object.keys(today.errors).length ? Object.keys(today.errors).join(',') : '';
+    return new Response(JSON.stringify({ ok: !apierr, apierr, total: today.results || 0, day, live: anyLive, club: CLUB, nat: NAT, m }), { headers: hdr });
   } catch (e) {
     return new Response(JSON.stringify({ ok: false, reason: 'error', m: [] }), { headers: hdr });
   }
