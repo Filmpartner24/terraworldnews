@@ -20,7 +20,14 @@ async function cached(ctx, path, ttl, base = API, ks = '') {
   const cache = caches.default;
   const hit = await cache.match(key);
   if (hit) return hit.json();
-  const r = await fetch(base + path, { headers: { 'x-apisports-key': ctx.env.APISPORTS_KEY } });
+  // Schlüssel: direkt bei API-Sports (APISPORTS_KEY) oder über RapidAPI (RAPIDAPI_KEY) – gleiche Daten, andere Adresse
+  let url = base + path, headers = { 'x-apisports-key': ctx.env.APISPORTS_KEY };
+  if (!ctx.env.APISPORTS_KEY && ctx.env.RAPIDAPI_KEY) {
+    const host = base === API ? 'api-football-v1.p.rapidapi.com' : 'api-handball.p.rapidapi.com';
+    url = 'https://' + host + (base === API ? '/v3' : '') + path;
+    headers = { 'x-rapidapi-key': ctx.env.RAPIDAPI_KEY, 'x-rapidapi-host': host };
+  }
+  const r = await fetch(url, { headers });
   if (!r.ok) throw new Error('api ' + r.status);
   const j = await r.json();
   ctx.waitUntil(cache.put(key, new Response(JSON.stringify(j), { headers: { 'content-type': 'application/json', 'cache-control': `public, max-age=${ttl}` } })));
@@ -66,7 +73,7 @@ async function handball(ctx, hdr) {
 
 export async function onRequest(ctx) {
   const hdr = { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'public, max-age=30', 'x-robots-tag': 'noindex', 'access-control-allow-origin': '*' };
-  if (!ctx.env.APISPORTS_KEY) return new Response(JSON.stringify({ ok: false, reason: 'nokey', m: [] }), { headers: hdr });
+  if (!ctx.env.APISPORTS_KEY && !ctx.env.RAPIDAPI_KEY) return new Response(JSON.stringify({ ok: false, reason: 'nokey', m: [] }), { headers: hdr });
   try {
     if (new URL(ctx.request.url).searchParams.get('sport') === 'handball') return await handball(ctx, hdr);
     const day = berlinDate();
