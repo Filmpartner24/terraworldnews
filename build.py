@@ -566,7 +566,11 @@ def boerse_ticker(d, l):
     if not xs: return ''
     one = ''.join(f'<span class="bq"><b>{e(L(t["n"], l))}</b> {fnum(t["v"], t.get("dec", 2), l)}{(" " + e(LU(t["u"], l))) if t.get("u") else ""} {fchg(t.get("chg"), 2, l)}</span><span class="sep" aria-hidden="true"></span>' for t in xs)
     _pz = {'bg': 'Пауза', 'de': 'Pause', 'en': 'Pause'}.get(l, 'Pause')
-    return (f'<div class="ticker boerse" role="region" aria-label="{BZ[l]["boerse"]}"><span class="k">{BZ[l]["boerse"]}</span>'
+    _lv = {'bg': ('▶ Курсове на живо', 'Курсове на живо: TradingView. При зареждане данни (напр. IP адрес) се предават на TradingView.'),
+           'de': ('▶ Live-Kurse', 'Live-Kurse: TradingView. Beim Laden werden Daten (z. B. IP-Adresse) an TradingView übertragen.'),
+           'en': ('▶ Live prices', 'Live prices: TradingView. Loading sends data (e.g. your IP address) to TradingView.')}[l]
+    return (f'<div class="ticker boerse" role="region" aria-label="{BZ[l]["boerse"]}" data-tv="{"de_DE" if l == "de" else "en"}"><span class="k">{BZ[l]["boerse"]}</span>'
+            f'<button class="tv-go" type="button" title="{e(_lv[1])}">{_lv[0]}</button>'
             f'<div class="tk-track"><div class="tk-move"><div class="tk-set">{one}</div><div class="tk-set" aria-hidden="true">{one}</div></div></div>'
             f'<button class="tk-pause" type="button" aria-pressed="false" aria-label="{_pz}" title="{_pz}"><span aria-hidden="true"></span></button></div>')
 

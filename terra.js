@@ -106,3 +106,13 @@ h+='<div class="lv-m'+(on?' is-live':'')+'"><div class="lv-row"><span class="lv-
 list.innerHTML=h;box.hidden=false;return d.live}
 function load(){fetch('/api/live',{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){var live=render(d);clearTimeout(timer);timer=setTimeout(load,live?60000:300000)}).catch(function(){clearTimeout(timer);timer=setTimeout(load,300000)})}
 load();document.addEventListener('visibilitychange',function(){if(!document.hidden){clearTimeout(timer);load()}})})();
+/* Börse: Live-Kursband (TradingView) – lädt erst nach Klick (Datenschutz), Entscheidung wird gemerkt (seit 09.10.2026) */
+(function(){var b=document.querySelector('.ticker.boerse');if(!b)return;var go=b.querySelector('.tv-go');
+function ok(){try{return localStorage.getItem('twn_tv')==='1'}catch(e){return false}}
+function load(){try{localStorage.setItem('twn_tv','1')}catch(e){}
+var tr=b.querySelector('.tk-track'),pz=b.querySelector('.tk-pause');if(pz)pz.remove();if(go)go.remove();
+var w=document.createElement('div');w.className='tradingview-widget-container tv-band';var i=document.createElement('div');i.className='tradingview-widget-container__widget';w.appendChild(i);
+var sc=document.createElement('script');sc.src='https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js';sc.async=true;
+sc.textContent=JSON.stringify({symbols:[{proName:'XETR:DAX',title:'DAX'},{proName:'FOREXCOM:SPXUSD',title:'S&P 500'},{proName:'FOREXCOM:NSXUSD',title:'Nasdaq 100'},{proName:'FOREXCOM:DJI',title:'Dow Jones'},{proName:'FX_IDC:EURUSD',title:'EUR/USD'},{proName:'OANDA:XAUUSD',title:'Gold'},{proName:'TVC:UKOIL',title:'Brent'},{proName:'BITSTAMP:BTCUSD',title:'Bitcoin'}],showSymbolLogo:true,isTransparent:true,displayMode:'adaptive',colorTheme:'dark',locale:b.getAttribute('data-tv')||'en'});
+w.appendChild(sc);tr.innerHTML='';tr.appendChild(w);b.classList.add('tv-on')}
+if(go)go.addEventListener('click',load);if(ok())load()})();

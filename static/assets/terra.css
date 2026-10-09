@@ -1066,3 +1066,9 @@ footer a.g-pref{font-weight:700}
 .tn-ev,.tn-ours{list-style:none;padding:0;margin:8px 0 14px;display:flex;flex-wrap:wrap;gap:8px 18px;color:#e5e7eb}
 .tn-ev li{background:#0d1b2e;border:1px solid #1c2f48;border-radius:6px;padding:8px 12px}.tn-ev small,.tn-ours small{color:#9ca3af}
 .tn-ev .gr-badge{position:static;margin-right:6px}
+/* Börse Live (TradingView) */
+.ticker.boerse .tv-go{flex:none;border:0;background:#3fd19b;color:#062a1f;font-family:var(--label);font-weight:700;font-size:13px;letter-spacing:.04em;padding:0 12px;cursor:pointer;white-space:nowrap}
+.ticker.boerse .tv-go:hover{background:#6ee7b7}
+.ticker.boerse.tv-on .tk-track{overflow:hidden}
+.ticker.boerse .tv-band{width:100%;height:46px;overflow:hidden}
+.ticker.boerse .tv-band iframe{height:46px!important}
