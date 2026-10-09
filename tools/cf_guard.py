@@ -38,6 +38,7 @@ else:
         bad = [r for r in rows if r['dimensions']['action'] in ('block', 'managed_challenge', 'challenge', 'jschallenge')
                and any(b in (r['dimensions'].get('userAgent') or '').lower() for b in bots)]
         out['blocked_search_bots_24h'] = sum(r['count'] for r in bad)
+        out['last_block_utc'] = max((r['dimensions'].get('datetime') or '' for r in bad), default='')
         out['blocked_detail'] = [{k: r['dimensions'][k] for k in ('action', 'source', 'description', 'clientRequestPath', 'clientAsn')} | {'count': r['count']} for r in bad[:10]]
         if bad: out['ok'] = False; out['problems'].append(f"{out['blocked_search_bots_24h']} Suchmaschinen-Anfragen in 24 h blockiert (Regel: {bad[0]['dimensions'].get('description') or bad[0]['dimensions'].get('source')})")
         if 'source' not in out: out['problems'].append('Sicherheitsereignisse nicht lesbar (Berechtigung)'); out['ok'] = False
