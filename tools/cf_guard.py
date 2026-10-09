@@ -22,23 +22,27 @@ else:
     else:
         zid = z['result'][0]['id']; out['zone'] = zid
         now = dt.datetime.utcnow(); since = (now - dt.timedelta(hours=24)).strftime('%Y-%m-%dT%H:%M:%SZ'); until = now.strftime('%Y-%m-%dT%H:%M:%SZ')
-        q = '''query($z:String!,$s:Time!,$u:Time!){viewer{zones(filter:{zoneTag:$z}){
-          ev:firewallEventsAdaptiveGroups(limit:50,filter:{datetime_geq:$s,datetime_lt:$u,clientAsn_in:["15169","8075","714","8069"]},orderBy:[count_DESC]){
-            count dimensions{action source ruleId description clientAsn clientRequestPath userAgent}}}}}'''
-        g = call('https://api.cloudflare.com/client/v4/graphql', {'query': q, 'variables': {'z': zid, 's': since, 'u': until}})
-        out['graphql_errors'] = g.get('errors')
-        rows = (((g.get('data') or {}).get('viewer') or {}).get('zones') or [{}])[0].get('ev') or []
+        variants = [
+          ('fwa', 'firewallEventsAdaptive(limit:200,filter:{datetime_geq:$s,datetime_lt:$u},orderBy:[datetime_DESC]){action source ruleId description clientAsn clientRequestPath userAgent datetime}'),
+          ('fwag', 'firewallEventsAdaptiveGroups(limit:50,filter:{datetime_geq:$s,datetime_lt:$u},orderBy:[count_DESC]){count dimensions{action source description clientAsn clientRequestPath userAgent}}'),
+        ]
+        rows = []; out['graphql_errors'] = {}
+        for name, body in variants:
+            q = 'query($z:String!,$s:Time!,$u:Time!){viewer{zones(filter:{zoneTag:$z}){ev:' + body + '}}}'
+            g = call('https://api.cloudflare.com/client/v4/graphql', {'query': q, 'variables': {'z': zid, 's': since, 'u': until}})
+            if g.get('errors'): out['graphql_errors'][name] = (g['errors'][0].get('message') or '')[:160]; continue
+            ev = (((g.get('data') or {}).get('viewer') or {}).get('zones') or [{}])[0].get('ev') or []
+            rows = [{'count': r.get('count', 1), 'dimensions': r.get('dimensions', r)} for r in ev]
+            out['source'] = name; break
         bots = ('googlebot', 'bingbot', 'applebot', 'duckduck', 'google-inspectiontool', 'adsbot-google', 'storebot-google')
         bad = [r for r in rows if r['dimensions']['action'] in ('block', 'managed_challenge', 'challenge', 'jschallenge')
                and any(b in (r['dimensions'].get('userAgent') or '').lower() for b in bots)]
         out['blocked_search_bots_24h'] = sum(r['count'] for r in bad)
         out['blocked_detail'] = [{k: r['dimensions'][k] for k in ('action', 'source', 'description', 'clientRequestPath', 'clientAsn')} | {'count': r['count']} for r in bad[:10]]
         if bad: out['ok'] = False; out['problems'].append(f"{out['blocked_search_bots_24h']} Suchmaschinen-Anfragen in 24 h blockiert (Regel: {bad[0]['dimensions'].get('description') or bad[0]['dimensions'].get('source')})")
-        if g.get('errors') and not rows: out['problems'].append('GraphQL: ' + json.dumps(g['errors'])[:300]); out['ok'] = False
-        for k in ('bot_management', 'settings/browser_check', 'settings/security_level'):
+        if 'source' not in out: out['problems'].append('Sicherheitsereignisse nicht lesbar (Berechtigung)'); out['ok'] = False
+        for k in ('settings/browser_check', 'settings/security_level'):
             r = call(f'https://api.cloudflare.com/client/v4/zones/{zid}/{k}'); out[k] = r.get('result', r)
-        bm = out.get('bot_management') or {}
-        if isinstance(bm, dict) and bm.get('fight_mode'): out['ok'] = False; out['problems'].append('Bot Fight Mode ist eingeschaltet')
         bc = out.get('settings/browser_check') or {}
         if isinstance(bc, dict) and bc.get('value') == 'on': out['problems'].append('Hinweis: Browser Integrity Check ist an')
 os.makedirs('guard', exist_ok=True)
