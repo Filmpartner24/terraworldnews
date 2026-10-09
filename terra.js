@@ -120,3 +120,16 @@ var sc=document.createElement('script');sc.src='https://s3.tradingview.com/exter
 sc.textContent=JSON.stringify({symbols:[{proName:'XETR:DAX',title:'DAX'},{proName:'FOREXCOM:SPXUSD',title:'S&P 500'},{proName:'FOREXCOM:NSXUSD',title:'Nasdaq 100'},{proName:'FOREXCOM:DJI',title:'Dow Jones'},{proName:'FX_IDC:EURUSD',title:'EUR/USD'},{proName:'OANDA:XAUUSD',title:'Gold'},{proName:'TVC:UKOIL',title:'Brent'},{proName:'BITSTAMP:BTCUSD',title:'Bitcoin'}],showSymbolLogo:true,isTransparent:true,displayMode:'adaptive',colorTheme:'dark',locale:b.getAttribute('data-tv')||'en'});
 w.appendChild(sc);tr.innerHTML='';tr.appendChild(w);b.classList.add('tv-on')}
 if(go)go.addEventListener('click',load);if(ok())load()})();
+/* Sport: zweites Laufband „⚽ LIVE“ mit den heutigen Fußballspielen (seit 09.10.2026) */
+(function(){var b=document.querySelector('.ticker.fbt');if(!b||!window.fetch)return;var sets=b.querySelectorAll('.tk-set'),L=b.getAttribute('data-l'),t=null,
+LV={'1H':1,'HT':1,'2H':1,'ET':1,'BT':1,'P':1,'SUSP':1,'INT':1,'LIVE':1},FT={'FT':1,'AET':1,'PEN':1};
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function hm(ts){return new Date(ts*1000).toLocaleTimeString(L==='bg'?'bg-BG':L==='de'?'de-DE':'en-GB',{hour:'2-digit',minute:'2-digit',timeZone:L==='bg'?'Europe/Sofia':'Europe/Berlin'})}
+function draw(d){if(!d||!d.ok||!d.m||!d.m.length){b.hidden=true;return false}
+var ms=d.m.slice().sort(function(x,y){var r=function(m){return LV[m.st]?0:FT[m.st]?1:2};return r(x)-r(y)||x.ts-y.ts});
+var h=ms.map(function(m){var on=LV[m.st],fin=FT[m.st],sc=(on||fin)?esc(m.gh)+':'+esc(m.ga):'–:–',
+st=on?(m.st==='HT'?esc(b.getAttribute('data-ht')):esc(m.min)+(m.ext?'+'+esc(m.ext):'')+'′'):fin?esc(b.getAttribute('data-ft')):hm(m.ts);
+return '<span class="fq'+(on?' on':'')+'"><b class="fl">'+esc(m.ln)+'</b> '+esc(m.h)+' <span class="fs">'+sc+'</span> '+esc(m.a)+' <i class="fm">'+st+'</i></span><span class="sep" aria-hidden="true"></span>'}).join('');
+sets[0].innerHTML=h;sets[1].innerHTML=h;b.hidden=false;return d.live}
+function load(){fetch('/api/live',{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){var live=draw(d);clearTimeout(t);t=setTimeout(load,live?60000:300000)}).catch(function(){clearTimeout(t);t=setTimeout(load,300000)})}
+load();document.addEventListener('visibilitychange',function(){if(!document.hidden){clearTimeout(t);load()}})})();

@@ -276,8 +276,18 @@ ASSET_V['terra.js']=_hl.md5(open(os.path.join(os.path.dirname(os.path.abspath(__
 
 OG_HOME_T = 'TERRA WORLD NEWS | NEWS. FACTS. CONTEXT.'   # Social-Vorschau der Startseiten (WhatsApp, Facebook, X): immer Englisch (Nedys Vorgabe 04.10.2026)
 OG_HOME_D = 'News from the World, Germany, Bulgaria and Europe – sport, innovation, games, film and music. Fact-checked every day, with sources and videos. In English, German and Bulgarian.'
+FBT = {'bg': dict(k='⚽ НА ЖИВО', a='Футбол на живо', ht='Полувреме', ft='Край', p='Пауза'),
+       'de': dict(k='⚽ LIVE', a='Fußball live', ht='Halbzeit', ft='Ende', p='Pause'),
+       'en': dict(k='⚽ LIVE', a='Football live', ht='Half-time', ft='FT', p='Pause')}
+def fb_ticker(l):  # zweites Laufband auf allen Sport-Seiten: heutige Fußballspiele live (gefüllt per terra.js aus /api/live, ohne Spiele ausgeblendet)
+    t = FBT[l]
+    return (f'<div class="ticker fbt" role="region" aria-label="{e(t["a"])}" data-l="{l}" data-ht="{e(t["ht"])}" data-ft="{e(t["ft"])}" hidden><span class="k"><i class="dot" aria-hidden="true"></i>{e(t["k"])}</span>'
+            f'<div class="tk-track"><div class="tk-move"><div class="tk-set"></div><div class="tk-set" aria-hidden="true"></div></div></div>'
+            f'<button class="tk-pause" type="button" aria-pressed="false" aria-label="{t["p"]}" title="{t["p"]}"><span aria-hidden="true"></span></button></div>')
+
 def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='website', issue=1, date=None, ticker=None, extra_head='', og_img=None, ticker2=''):
     u = UI[l]
+    if not ticker2 and canon.startswith(sec_url('sport', l)): ticker2 = fb_ticker(l)
     alts = ''
     if alternates:
         for al, url in alternates.items():
