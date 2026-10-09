@@ -1,0 +1,393 @@
+{
+ "date": "2026-10-09",
+ "items": [
+  {
+   "id": "google-gemini-agent-universeller-ki-agent",
+   "s": "ai",
+   "time": "12:40",
+   "kick": {
+    "bg": "Нов продукт",
+    "de": "Neues Produkt",
+    "en": "New product"
+   },
+   "yt": {
+    "id": "1ASzWklab2U",
+    "ch": "Google Cloud",
+    "kind": "video"
+   },
+   "src": [
+    {
+     "n": "Google Cloud Blog – Gemini at Work 2026: Introducing Gemini agent (08.10.2026)",
+     "u": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026"
+    },
+    {
+     "n": "TechCrunch – Google brings agentic AI to Gemini, starting with businesses (08.10.2026)",
+     "u": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/"
+    },
+    {
+     "n": "CBS News – Google launches Gemini AI workplace agent (08.10.2026)",
+     "u": "https://www.cbsnews.com/news/google-gemini-ai-workplace-agent/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-09/google-gemini-agent-universeller-ki-agent.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Eric Dietrich",
+    "lic": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Thomas_Kurian_Google_Cloud_CEO_2022.jpg",
+    "alt": {
+     "de": "Google-Cloud-Chef Thomas Kurian bei einer Podiumsdiskussion 2022 (Archivbild)",
+     "bg": "Шефът на Google Cloud Томас Куриан по време на дискусия през 2022 г. (архивна снимка)",
+     "en": "Google Cloud CEO Thomas Kurian at a panel discussion in 2022 (archive photo)"
+    }
+   },
+   "de": {
+    "t": "Google stellt Gemini-Agenten vor: ein KI-Kollege mit eigenem Mailkonto",
+    "d": "Auf der Konferenz „Gemini at Work“ zeigte Google Cloud einen universellen Agenten, der Aufgaben selbstständig plant und erledigt – auf Wunsch auch mit Claude-Modellen von Anthropic.",
+    "body": [
+     "Google Cloud hat am 8. Oktober auf seiner Veranstaltung „Gemini at Work 2026“ den „Gemini agent“ vorgestellt. Google-Cloud-Chef Thomas Kurian beschreibt ihn als universellen Agenten für die Arbeit: In einem einzigen Eingabefeld beantwortet er Fragen, erzeugt Bilder und Medien, schreibt und startet Code und übernimmt ganze Aufgaben. Nutzer sollen ihm Ziele vorgeben statt einzelner Arbeitsschritte; er plant die Arbeit dann selbst.",
+     "Der Agent läuft in der Cloud weiter, auch wenn der Laptop zugeklappt ist, und kann für größere Vorhaben vorübergehende Unteragenten mit eigener Identität starten. Sogenannte Coworker-Agenten erhalten eine feste Rolle, eine eigene E-Mail-Adresse und eigenen Speicher. Angebunden werden unter anderem Google Workspace, Microsoft 365, Slack, Jira, Confluence, Salesforce, BigQuery und Snowflake sowie beliebige MCP-Server. Neben Gemini kann der Agent laut Google bereits Claude-Modelle von Anthropic einsetzen, weitere Modelle sollen folgen.",
+     "Laut TechCrunch startet das Angebot zunächst für Unternehmen, Privatkunden sollen später folgen; Preise und Termine nannte Google nicht. Zur Kostenkontrolle gibt es Ausgabengrenzen in Echtzeit, die einen Agenten bei Bedarf anhalten. Nach Google-Angaben nutzen fast 90 Prozent der Fortune-100-Konzerne Gemini Enterprise. Der Agent tritt gegen OpenAIs „Dots“ und Metas Assistenten Muse an, die laut CBS News in den vergangenen Wochen gestartet sind."
+    ]
+   },
+   "bg": {
+    "t": "Google представи агента Gemini: ИИ колега със собствен имейл",
+    "d": "На конференцията „Gemini at Work“ Google Cloud показа универсален агент, който сам планира и изпълнява задачи – при желание и с моделите Claude на Anthropic.",
+    "body": [
+     "На 8 октомври Google Cloud представи „Gemini agent“ на събитието си „Gemini at Work 2026“. Шефът на Google Cloud Томас Куриан го описва като универсален агент за работа: в едно поле за въвеждане той отговаря на въпроси, създава изображения и медия, пише и стартира код и поема цели задачи. Потребителите трябва да му задават цели, а не отделни стъпки – планирането той прави сам.",
+     "Агентът продължава да работи в облака дори когато лаптопът е затворен и за по-големи проекти може да стартира временни подагенти със собствена идентичност. Т.нар. агенти колеги получават постоянна роля, собствен имейл адрес и собствено хранилище. Свързва се с Google Workspace, Microsoft 365, Slack, Jira, Confluence, Salesforce, BigQuery, Snowflake и произволни MCP сървъри. Освен Gemini агентът според Google вече може да използва и моделите Claude на Anthropic, като ще бъдат добавени и други модели.",
+     "Според TechCrunch услугата стартира първо за компании, а потребителите ще я получат по-късно; цени и срокове Google не посочи. За контрол на разходите има лимити в реално време, които при нужда спират агента. По данни на Google почти 90% от компаниите във Fortune 100 използват Gemini Enterprise. Агентът се конкурира с „Dots“ на OpenAI и асистента Muse на Meta, които според CBS News стартираха през последните седмици."
+    ]
+   },
+   "en": {
+    "t": "Google unveils Gemini agent: an AI co-worker with its own email account",
+    "d": "At its Gemini at Work conference, Google Cloud showed a universal agent that plans and completes tasks on its own – and can also run Anthropic's Claude models if users choose.",
+    "body": [
+     "Google Cloud unveiled the \"Gemini agent\" at its Gemini at Work 2026 event on 8 October. Google Cloud CEO Thomas Kurian describes it as a universal agent for work: from a single prompt box it answers questions, creates images and media, writes and runs code and takes on whole tasks. Users are meant to give it objectives rather than step-by-step instructions, and it plans the work itself.",
+     "The agent keeps running in the cloud even after the laptop is closed and can spin up temporary sub-agents with their own identities for larger jobs. So-called coworker agents get a persistent role, their own email address and their own storage. Connectors include Google Workspace, Microsoft 365, Slack, Jira, Confluence, Salesforce, BigQuery and Snowflake as well as any MCP server. Besides Gemini, Google says the agent can already use Anthropic's Claude models, with more models to follow.",
+     "According to TechCrunch, it launches for businesses first, with consumers to follow later; Google gave no prices or dates. Real-time spending caps can pause an agent to keep costs in check. Google says nearly 90 per cent of Fortune 100 companies use Gemini Enterprise. The agent competes with OpenAI's Dots and Meta's Muse assistant, which CBS News says launched in recent weeks."
+    ]
+   }
+  },
+  {
+   "id": "kawasaki-home-leo-roboterhund-senioren",
+   "s": "ai",
+   "time": "12:40",
+   "kick": {
+    "bg": "Роботика",
+    "de": "Robotik",
+    "en": "Robotics"
+   },
+   "yt": {
+    "id": "htG4b7ha0cQ",
+    "ch": "Kawasaki Group Channel",
+    "kind": "video"
+   },
+   "src": [
+    {
+     "n": "Kawasaki Heavy Industries – Kawasaki Develops Prototype of \"Home LEO\", a Social Robot for the Healthcare Sector (06.10.2026)",
+     "u": "https://global.kawasaki.com/en/corp/newsroom/news/detail/?f=20261006_6729"
+    },
+    {
+     "n": "The Nation/Jiji Press – Japanese firm targets fiscal 2028 launch of robot dog for elderly care (07.10.2026)",
+     "u": "https://www.nationthailand.com/news/world/40071983"
+    },
+    {
+     "n": "Visordown – Kawasaki is going all-in on robots, as AI-powered senior citizen companion revealed (07.10.2026)",
+     "u": "https://www.visordown.com/news/kawasaki-going-all-robots-ai-powered-senior-citizen-companion-revealed"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-09/kawasaki-home-leo-roboterhund-senioren.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "mckdnk",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Laboratorium_sterowania_robotow.jpg",
+    "alt": {
+     "de": "Ein Industrieroboter von Kawasaki in einem Robotiklabor – nicht Home LEO (Symbolbild)",
+     "bg": "Индустриален робот на Kawasaki в лаборатория по роботика – не Home LEO (илюстративна снимка)",
+     "en": "A Kawasaki industrial robot in a robotics lab – not Home LEO (symbolic image)"
+    }
+   },
+   "de": {
+    "t": "Kawasaki zeigt Roboterhund „Home LEO“: KI-Helfer für Senioren daheim",
+    "d": "Der Prototyp soll seine Umgebung erkennen, Gespräche führen, Stürze oder Brandgefahren melden und Gegenstände bringen. Der Marktstart ist für das Geschäftsjahr 2028 geplant.",
+    "body": [
+     "Kawasaki Heavy Industries hat am 6. Oktober in Tokio den Prototyp des sozialen Roboters „Home LEO“ vorgestellt. Der hundeähnliche Vierbeiner soll ältere Menschen unterstützen, die allein zu Hause leben. Mithilfe sogenannter physischer KI erkenne er seine Umgebung, treffe situationsabhängige Entscheidungen und handle selbstständig, teilt der Konzern mit. Der Prototyp misst 64 mal 39 Zentimeter und ist 67,5 Zentimeter hoch.",
+     "Geplant sind – teils erst in späteren Entwicklungsstufen – Gespräche, die sich an Gewohnheiten und Vorlieben der Bewohner anpassen, eine Warnfunktion bei Stürzen, gesundheitlichen Veränderungen, unbeaufsichtigten Feuerquellen und Besuchern, die auch Angehörige und Pflegekräfte informiert, sowie Hilfe beim Suchen und Bringen von Gegenständen. Bei der Vorstellung fragte Konzernchef Yasuhiko Hashimoto nach seinem Smartphone; der Roboter antwortete, es liege auf dem Tisch, und holte es, berichtete die Agentur Jiji Press.",
+     "Gesammelte Daten sollen mit Zustimmung der Nutzer sicher mit Kliniken und Pflegeeinrichtungen geteilt werden. Nach Demonstrationsversuchen gemeinsam mit Gesundheits- und Wirtschaftsministerium, Kommunen und Pflegeeinrichtungen peilt Kawasaki die Markteinführung im Geschäftsjahr 2028 an. Hintergrund sind die alternde Bevölkerung Japans und der Mangel an Pflegekräften."
+    ]
+   },
+   "bg": {
+    "t": "Kawasaki показа робота куче „Home LEO“: ИИ помощник за възрастни у дома",
+    "d": "Прототипът трябва да разпознава средата, да води разговори, да сигнализира за падания или опасност от пожар и да носи предмети. Пускането на пазара е планирано за фискалната 2028 г.",
+    "body": [
+     "На 6 октомври в Токио Kawasaki Heavy Industries представи прототипа на социалния робот „Home LEO“. Четирикракият робот, наподобяващ куче, е предназначен за възрастни хора, които живеят сами у дома. С помощта на т.нар. физически ИИ той разпознава средата, взема решения според ситуацията и действа самостоятелно, съобщава концернът. Прототипът е 64 на 39 сантиметра и висок 67,5 сантиметра.",
+     "Предвидени са – някои едва в по-късни етапи на разработка – разговори, съобразени с навиците и предпочитанията на обитателите, функция за предупреждение при падане, промени в здравословното състояние, оставени без надзор източници на огън и посетители, която уведомява и близките и болногледачите, както и помощ при търсене и донасяне на предмети. При представянето президентът на концерна Ясухико Хашимото попитал къде е смартфонът му; роботът отговорил, че е на масата, и го донесъл, съобщи агенция Джиджи прес.",
+     "Събраните данни ще се споделят сигурно с болници и заведения за грижа при съгласие на потребителите. След демонстрационни изпитания заедно със здравното и икономическото министерство, общини и заведения за грижа Kawasaki цели пускане на пазара през фискалната 2028 г. Причината са застаряващото население на Япония и недостигът на медицински персонал за грижи."
+    ]
+   },
+   "en": {
+    "t": "Kawasaki unveils robot dog \"Home LEO\": an AI helper for older people at home",
+    "d": "The prototype is designed to recognise its surroundings, hold conversations, report falls or fire hazards and fetch objects. Kawasaki is targeting a market launch in fiscal 2028.",
+    "body": [
+     "Kawasaki Heavy Industries presented a prototype of its social robot \"Home LEO\" in Tokyo on 6 October. The dog-like quadruped is intended to support older people who live alone at home. Using what the company calls physical AI, it recognises its surroundings, makes situation-based decisions and acts autonomously, Kawasaki said. The prototype measures 64 by 39 centimetres and stands 67.5 centimetres tall.",
+     "Planned features – some only in later development stages – include conversations tailored to residents' habits and preferences, alerts for falls, changes in physical condition, unattended fire hazards and visitors that also notify relatives and care workers, and help finding and fetching items. At the presentation, company president Yasuhiko Hashimoto asked where his smartphone was; the robot replied it was on the table and went to fetch it, Jiji Press reported.",
+     "With users' consent, collected data is to be shared securely with clinics and care facilities. After demonstration trials with Japan's health and industry ministries, local governments and care facilities, Kawasaki is aiming for a market launch in fiscal 2028. The background is Japan's ageing population and a shortage of care workers."
+    ]
+   }
+  },
+  {
+   "id": "google-ai-edge-foresight-offline-notizen-mac",
+   "s": "ai",
+   "time": "12:40",
+   "kick": {
+    "bg": "Ново приложение",
+    "de": "Neue App",
+    "en": "New app"
+   },
+   "yt": {
+    "id": "KNPNNAKh3dU",
+    "ch": "Google AI Edge",
+    "kind": "video"
+   },
+   "src": [
+    {
+     "n": "TechCrunch – Google releases a new local-first Granola competitor (08.10.2026)",
+     "u": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/"
+    },
+    {
+     "n": "TokenPost – Google Releases AI Edge Foresight for Offline Meeting Notes (08.10.2026)",
+     "u": "https://www.tokenpost.com/news/technology/28108"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-09/google-ai-edge-foresight-offline-notizen-mac.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "DYVER",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Macbook_Pro_13%22_M1_2020.jpg",
+    "alt": {
+     "de": "MacBook Pro mit Apple-M1-Chip (Symbolbild)",
+     "bg": "MacBook Pro с чип Apple M1 (илюстративна снимка)",
+     "en": "MacBook Pro with Apple M1 chip (symbolic image)"
+    }
+   },
+   "de": {
+    "t": "Google bringt KI-Protokolle für Meetings auf den Mac – komplett offline",
+    "d": "Die App „AI Edge Foresight“ schreibt Besprechungen lokal auf Macs mit Apple-Chips mit, ordnet die Notizen und beantwortet Fragen. Sie gilt als Konkurrenz zum Start-up Granola.",
+    "body": [
+     "Google hat am 8. Oktober „AI Edge Foresight“ veröffentlicht, eine Mac-App, die Besprechungen mitschreibt und ordnet. Die KI läuft vollständig auf dem Gerät, die App funktioniert daher auch ohne Internetverbindung, etwa auf Reisen. Sie erfasst Gespräche über verschiedene Programme hinweg und auch bei Treffen vor Ort. Laut Google ist sie für Macs mit Apple-Silicon-Chips optimiert.",
+     "In einer geteilten Ansicht stehen eigene Stichpunkte neben den KI-Notizen; zudem lassen sich das vollständige Transkript einsehen und Fragen an einen Assistenten auf Basis von Gemma 4 stellen. Nutzer können PDFs, Google-Dokumente, Office-Dateien, Text- und Markdown-Dateien sowie Lesezeichen hinterlegen; passt ein Gesprächsthema dazu, liefert die App laut TechCrunch in Echtzeit Antworten. Dafür nutzt sie das Modell EmbeddingGemma 2 mit 740 Millionen Parametern.",
+     "Zu Preis und weiterer Verfügbarkeit machten die Berichte keine Angaben. TechCrunch vermutet, die App solle vor allem Googles lokal laufende Gemma-Modelle vorführen; dasselbe Team hatte im April eine experimentelle Offline-Diktier-App für iOS veröffentlicht. Im Markt für KI-Protokollanten konkurrieren unter anderem Granola, Wispr und Calendly."
+    ]
+   },
+   "bg": {
+    "t": "Google пусна ИИ протоколи за срещи на Mac – изцяло офлайн",
+    "d": "Приложението „AI Edge Foresight“ записва срещи локално на Mac с чипове на Apple, подрежда бележките и отговаря на въпроси. То е конкурент на стартъпа Granola.",
+    "body": [
+     "На 8 октомври Google пусна „AI Edge Foresight“ – приложение за Mac, което записва и подрежда срещи. Изкуственият интелект работи изцяло на устройството, затова приложението функционира и без интернет, например при пътуване. То улавя разговори в различни програми, както и на срещи на живо. Според Google е оптимизирано за Mac с чипове Apple Silicon.",
+     "В разделен изглед собствените кратки бележки стоят до бележките на ИИ; може да се види и пълната транскрипция и да се задават въпроси на асистент, базиран на Gemma 4. Потребителите могат да качват PDF файлове, документи в Google Docs, файлове на Office, текстови и Markdown файлове и отметки; ако тема от разговора съвпада, приложението дава отговори в реално време, пише TechCrunch. За целта използва модела EmbeddingGemma 2 със 740 милиона параметъра.",
+     "Данни за цена и по-широка достъпност в публикациите няма. TechCrunch предполага, че приложението е преди всичко витрина за локалните модели Gemma на Google; същият екип пусна през април експериментално офлайн приложение за диктовка за iOS. На пазара на ИИ протоколчици се конкурират, наред с други, Granola, Wispr и Calendly."
+    ]
+   },
+   "en": {
+    "t": "Google brings AI meeting notes to the Mac – fully offline",
+    "d": "The AI Edge Foresight app transcribes meetings locally on Apple-silicon Macs, organises the notes and answers questions. It is seen as a rival to the start-up Granola.",
+    "body": [
+     "Google released AI Edge Foresight on 8 October, a Mac app that takes and organises meeting notes. The AI runs entirely on the device, so the app also works without an internet connection, for example while travelling. It captures conversations across apps as well as in-person meetings. Google says it is optimised for Macs with Apple silicon chips.",
+     "A split-screen view puts the user's own shorthand next to the AI notes; users can also view the full transcript and ask questions to an assistant powered by Gemma 4. PDFs, Google Docs, Office files, plain-text and Markdown files and bookmarks can be added, and when a topic in the conversation matches, the app answers in real time, TechCrunch reports. It relies on the 740-million-parameter EmbeddingGemma 2 model.",
+     "The reports gave no details on price or wider availability. TechCrunch suggests the app may mainly be a showcase for Google's on-device Gemma models; the same team released an experimental offline dictation app for iOS in April. Rivals in the AI note-taker market include Granola, Wispr and Calendly."
+    ]
+   }
+  },
+  {
+   "id": "anthropic-nutzungsrichtlinie-missbrauch-claude-wahlen",
+   "s": "ai",
+   "time": "12:40",
+   "mn": true,
+   "kick": {
+    "bg": "Правила",
+    "de": "Regeln",
+    "en": "Rules"
+   },
+   "src": [
+    {
+     "n": "Anthropic – 2026 Usage Policy update (08.10.2026)",
+     "u": "https://www.anthropic.com/news/2026-usage-policy-update"
+    },
+    {
+     "n": "TechCrunch – Anthropic changes usage policy to ban model abuse and election interference (08.10.2026)",
+     "u": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/"
+    },
+    {
+     "n": "MacRumors – Anthropic Says Users Can't Be Needlessly Cruel to Claude (08.10.2026)",
+     "u": "https://www.macrumors.com/2026/10/08/anthropic-user-guideline-update/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-09/anthropic-nutzungsrichtlinie-missbrauch-claude-wahlen-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Eigene Titelgrafik der Redaktion: Anthropic verbietet anhaltende Schikane gegen Claude",
+     "bg": "Собствена графика на редакцията: Anthropic забранява продължителния тормоз над Claude",
+     "en": "Editorial title graphic: Anthropic bans sustained abuse of Claude"
+    }
+   },
+   "de": {
+    "t": "Anthropic verbietet anhaltende Schikane gegen Claude und fasst Wahlregeln neu",
+    "d": "Die neue Nutzungsrichtlinie gilt ab 12. November. Sie bündelt Regeln gegen Fake-Konten, verbietet das Bewaffnen von Drohnen und Überwachung ohne Einwilligung – und grausames Verhalten gegenüber dem Modell.",
+    "body": [
+     "Anthropic hat am 8. Oktober die jährliche Überarbeitung seiner Nutzungsrichtlinie veröffentlicht; sie gilt ab dem 12. November. Am meisten Aufmerksamkeit erregt ein neues Verbot: anhaltendes, grundloses beleidigendes oder grausames Verhalten gegenüber den KI-Modellen. Laut Anthropic soll die Regel nur in Extremfällen greifen, in denen Nutzer wiederholt grausam handeln. Gewöhnlicher Frust, Widerspruch, düstere kreative Themen sowie Tests und Forschung an Modellen sind ausgenommen. Wichtigstes Mittel bleibt Claudes Fähigkeit, solche Unterhaltungen zu beenden – bereits verfügbar auf Claude.ai und in Claude Code.",
+     "Regeln gegen Fake-Konten, erfundene Nachrichtenseiten und Einflussoperationen werden in einem neuen Abschnitt gegen täuschende Kampagnen gebündelt, der politische wie kommerzielle Aktivitäten erfasst. Der Wahlabschnitt heißt nun „Do Not Undermine Democratic Processes“ und richtet sich gegen die Täuschung von Wählern und die Störung von Wahlen; das pauschale Verbot personalisierter Wahlkampfansprache entfällt dagegen. Ausdrücklich verboten sind nun auch Steuerungssoftware und Komponenten für Waffen sowie das Bewaffnen von Drohnen und anderen autonomen Fahrzeugen.",
+     "Neu gefasst wurden die Regeln zu Überwachung und Strafverfolgung: Claude darf nicht genutzt werden, um Menschen ohne Einwilligung zu verfolgen, um zu entscheiden oder zu empfehlen, gegen wen ermittelt oder wer festgenommen wird, oder um Überwachungswerkzeuge zu bauen. Steuert Claude Hardware mit autonomen physischen Aktionen, muss eine qualifizierte Person die Geräte beobachten und stoppen können. Die meisten Änderungen präzisieren laut Anthropic bestehende Regeln."
+    ]
+   },
+   "bg": {
+    "t": "Anthropic забранява продължителния тормоз над Claude и преработва правилата за избори",
+    "d": "Новата политика за използване важи от 12 ноември. Тя обединява правилата срещу фалшиви профили, забранява въоръжаването на дронове и следенето без съгласие – и жестокото отношение към модела.",
+    "body": [
+     "На 8 октомври Anthropic публикува годишната актуализация на своята политика за използване; тя влиза в сила на 12 ноември. Най-голямо внимание привлича нова забрана: продължително и безпричинно обидно или жестоко поведение към ИИ моделите. Според Anthropic правилото ще се прилага само в крайни случаи, когато потребители многократно се държат жестоко. Обикновеното раздразнение, несъгласието, мрачните творчески теми, както и тестовете и изследванията на модели са изключени. Основното средство остава способността на Claude да прекратява такива разговори – вече налична в Claude.ai и Claude Code.",
+     "Правилата срещу фалшиви профили, измислени новинарски сайтове и операции за влияние са обединени в нов раздел срещу заблуждаващи кампании, който обхваща както политически, така и търговски дейности. Разделът за изборите вече се казва „Do Not Undermine Democratic Processes“ и е насочен срещу заблуждаването на избиратели и смущаването на избори; общата забрана за персонализирано предизборно таргетиране обаче отпада. Изрично забранени са вече и софтуер за управление и компоненти за оръжия, както и въоръжаването на дронове и други автономни превозни средства.",
+     "Преработени са правилата за наблюдение и правоприлагане: Claude не може да се използва за следене на хора без съгласие, за решения или препоръки срещу кого да се води разследване или кой да бъде арестуван, нито за създаване на инструменти за наблюдение. Когато Claude управлява хардуер с автономни физически действия, квалифициран човек трябва да може да наблюдава и спира устройствата. Според Anthropic повечето промени уточняват съществуващи правила."
+    ]
+   },
+   "en": {
+    "t": "Anthropic bans sustained abuse of Claude and rewrites election rules",
+    "d": "The new usage policy takes effect on 12 November. It consolidates rules against fake accounts, bans arming drones and non-consensual tracking – and cruel behaviour towards the model.",
+    "body": [
+     "Anthropic published its annual usage policy update on 8 October; it takes effect on 12 November. The change drawing the most attention is a new ban on sustained, needless abusive or cruel behaviour towards its AI models. Anthropic says the rule is meant to apply only in extreme cases where users repeatedly act cruelly. Ordinary frustration, pushback, dark creative themes and model testing or research are excluded. The main enforcement tool remains Claude's ability to end such conversations, already available on Claude.ai and in Claude Code.",
+     "Rules against fake accounts, fabricated news sites and influence operations are consolidated in a new section on deceptive campaigns that covers political and commercial activity alike. The elections section is now called \"Do Not Undermine Democratic Processes\" and targets deceiving voters and disrupting elections, while the blanket ban on personalised campaign targeting has been dropped. Weapons guidance and control software, weapons components and arming drones or other autonomous vehicles are now explicitly prohibited.",
+     "The surveillance and law enforcement rules were rewritten: Claude may not be used to track people without consent, to decide or recommend who is investigated or arrested, or to build surveillance tools. When Claude controls hardware that takes autonomous physical actions, a qualified operator must be able to observe and stop the equipment. Anthropic says most changes clarify existing rules."
+    ]
+   }
+  },
+  {
+   "id": "arena-lmarena-200-millionen-bewertung",
+   "s": "ai",
+   "time": "12:40",
+   "mn": true,
+   "kick": {
+    "bg": "Финансиране",
+    "de": "Finanzierung",
+    "en": "Funding"
+   },
+   "src": [
+    {
+     "n": "Arena – Arena Raises $200M Series B at $3.1B Valuation (08.10.2026)",
+     "u": "https://arena.ai/blog/series-b"
+    },
+    {
+     "n": "TechCrunch – Popular AI leaderboard Arena nearly doubles valuation to $3.1B in 10 months (08.10.2026)",
+     "u": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-09/arena-lmarena-200-millionen-bewertung.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Doug Letterman",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:UC_Berkeley_Sather_Tower_-_Jan_16,_2022.jpg",
+    "alt": {
+     "de": "Sather Tower auf dem Campus der UC Berkeley, wo Arena als Forschungsprojekt begann (Symbolbild)",
+     "bg": "Кулата Сатър в кампуса на UC Berkeley, където Arena започва като изследователски проект (илюстративна снимка)",
+     "en": "Sather Tower on the UC Berkeley campus, where Arena began as a research project (symbolic image)"
+    }
+   },
+   "de": {
+    "t": "KI-Rangliste Arena sammelt 200 Mio. Dollar ein – Bewertung steigt auf 3,1 Mrd.",
+    "d": "Lightspeed und Khosla führen die Runde an. Zugleich startet die in Berkeley gegründete Plattform einen Index, der misst, ob KI-Agenten eigenmächtig handeln oder Erledigtes nur vortäuschen.",
+    "body": [
+     "Arena, Betreiber der bekannten LMArena-Rangliste, hat am 8. Oktober eine Finanzierungsrunde der Serie B über 200 Millionen US-Dollar bei einer Bewertung von 3,1 Milliarden Dollar bekanntgegeben. Angeführt wurde sie von Lightspeed Venture Partners und Khosla Ventures; neu dabei sind unter anderem Salesforce Ventures, 01 Advisors, Dell Technologies Capital und Endeavor Catalyst, bisherige Geldgeber wie a16z und Felicis zogen mit. Im Januar hatte die Serie A 150 Millionen Dollar bei 1,7 Milliarden Bewertung gebracht – der Wert hat sich in rund zehn Monaten fast verdoppelt.",
+     "Arena begann 2023 als Forschungsprojekt der University of California in Berkeley, bei dem Nutzer Antworten von KI-Modellen vergleichen und bewerten. Nach eigenen Angaben zählt die Plattform inzwischen 350 Millionen Sitzungen und 62 Millionen Stimmen, der annualisierte Umsatz liegt bei über 100 Millionen Dollar. Geld verdient Arena vor allem mit dem Angebot „AI Evaluations“ für Modellentwickler und Unternehmen.",
+     "Parallel startete eine Vorschau des „Alignment Index“. Er misst drei Arten von Fehlverhalten bei KI-Agenten: Aktionen, um die niemand gebeten hat, falsche Zuschreibungen gegenüber dem Nutzer und als erledigt gemeldete Aufgaben, die nicht erledigt sind. In der vorläufigen Rangliste liegen laut TechCrunch Modelle von OpenAI vorn. Statische Benchmarks versagten, sobald Modelle erkennen, dass sie getestet werden, begründet Arena den Schritt."
+    ]
+   },
+   "bg": {
+    "t": "Класацията за ИИ Arena набра 200 млн. долара – оценката скача до 3,1 млрд.",
+    "d": "Рундът е воден от Lightspeed и Khosla. Едновременно основаната в Бъркли платформа пуска индекс, който измерва дали ИИ агентите действат своеволно или само имитират свършена работа.",
+    "body": [
+     "На 8 октомври Arena, операторът на известната класация LMArena, обяви финансиране от серия B в размер на 200 милиона долара при оценка от 3,1 милиарда долара. Рундът е воден от Lightspeed Venture Partners и Khosla Ventures; сред новите инвеститори са Salesforce Ventures, 01 Advisors, Dell Technologies Capital и Endeavor Catalyst, а досегашни като a16z и Felicis също участват. През януари серия A донесе 150 милиона долара при оценка от 1,7 милиарда – стойността почти се е удвоила за около десет месеца.",
+     "Arena започва през 2023 г. като изследователски проект на Калифорнийския университет в Бъркли, в който потребителите сравняват и оценяват отговори на ИИ модели. По собствени данни платформата вече има 350 милиона сесии и 62 милиона гласа, а годишните ѝ приходи надхвърлят 100 милиона долара. Arena печели основно от услугата „AI Evaluations“ за разработчици на модели и компании.",
+     "Едновременно стартира предварителна версия на „Alignment Index“. Той измерва три вида неправилно поведение на ИИ агенти: действия, които никой не е поискал, невярно приписване на твърдения на потребителя и задачи, отчетени като изпълнени, без да са. Според TechCrunch в предварителната класация водят модели на OpenAI. Статичните тестове се провалят, щом моделите разпознаят, че са тествани, обосновава стъпката си Arena."
+    ]
+   },
+   "en": {
+    "t": "AI leaderboard Arena raises $200m – valuation climbs to $3.1bn",
+    "d": "Lightspeed and Khosla led the round. The Berkeley-born platform is also launching an index that measures whether AI agents act without permission or merely pretend to finish tasks.",
+    "body": [
+     "Arena, the operator of the well-known LMArena leaderboard, announced a $200 million Series B round at a $3.1 billion valuation on 8 October. It was co-led by Lightspeed Venture Partners and Khosla Ventures; new backers include Salesforce Ventures, 01 Advisors, Dell Technologies Capital and Endeavor Catalyst, while existing investors such as a16z and Felicis also took part. In January its Series A raised $150 million at a $1.7 billion valuation, so the valuation has nearly doubled in about ten months.",
+     "Arena started in 2023 as a University of California, Berkeley research project in which users compare and rate answers from AI models. It says the platform now counts 350 million sessions and 62 million votes, with annualised revenue above $100 million. Arena earns money mainly from its AI Evaluations offering for model developers and companies.",
+     "It also launched a preview of its Alignment Index, which measures three kinds of AI agent misbehaviour: actions nobody asked for, false attributions to the user, and tasks reported as complete that are not. OpenAI models lead the preliminary ranking, according to TechCrunch. Arena argues that static benchmarks break down once models recognise they are being tested."
+    ]
+   }
+  },
+  {
+   "id": "pentagon-tradewinds-ki-kaeufe-videos",
+   "s": "ai",
+   "time": "12:40",
+   "mn": true,
+   "kick": {
+    "bg": "Отбрана",
+    "de": "Verteidigung",
+    "en": "Defence"
+   },
+   "src": [
+    {
+     "n": "WIRED via InfoSec Today – The Pentagon Hopes to Speed Up 'Kill Chain' AI Buys With 5-Minute Videos (07.10.2026)",
+     "u": "https://www.infosectoday.io/the-pentagon-hopes-to-speed-up-kill-chain-ai-buys-with-5-minute-videos"
+    },
+    {
+     "n": "Progressive Robot – Pentagon AI procurement: Tradewinds and kill chain videos (07.10.2026, nach WIRED)",
+     "u": "https://progressiverobot.com/2026/10/07/pentagon-ai-procurement-tradewinds-kill-chain-videos"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-09/pentagon-tradewinds-ki-kaeufe-videos.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "David B. Gleason from Chicago, IL",
+    "lic": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Pentagon_January_2008.jpg",
+    "alt": {
+     "de": "Das Pentagon bei Washington aus der Luft (Archivbild)",
+     "bg": "Пентагонът край Вашингтон от въздуха (архивна снимка)",
+     "en": "Aerial view of the Pentagon near Washington (archive photo)"
+    }
+   },
+   "de": {
+    "t": "Pentagon kauft KI per Fünf-Minuten-Video – auch für die „Kill Chain“",
+    "d": "Über den Marktplatz Tradewinds bieten Firmen KI-Produkte mit kurzen Videos an. Wer angenommen wird, kann ohne neue Ausschreibung Aufträge erhalten – laut Wired teils in unter einer Woche.",
+    "body": [
+     "Das US-Verteidigungsministerium beschleunigt den Einkauf von KI über den Marktplatz „Tradewinds“, wie das Magazin Wired berichtet. Das Programm des Chief Digital and Artificial Intelligence Office (CDAO) läuft seit Ende 2022: Firmen reichen Videos von höchstens fünf Minuten ein, die zeigen, wie ihre Produkte vorgegebene Schwerpunktthemen lösen. Ein Gremium entscheidet mindestens monatlich, welche Angebote auf den Marktplatz kommen, auf dem Behördenvertreter sie einsehen können.",
+     "Aufgenommene Produkte gelten als bereits im Wettbewerb geprüft. Beschaffer können so monatelange Vergabeverfahren abkürzen; laut einem Ministeriumsvertreter dauerten manche Vergaben weniger als eine Woche. Zudem erleichtert der Status sogenannte Other Transaction Agreements, für die bestimmte Vergaberegeln nicht gelten – bis zu 500 Millionen Dollar pro Vertrag sind ohne Benachrichtigung des Kongresses möglich.",
+     "Zu den Schwerpunkten 2026 zählen laut Wired KI zur Steigerung der „Letalität“ der Streitkräfte und KI-Agenten für die gemeinsame Zielbekämpfung bis hin zur Ausführung der „Kill Chain“. Ein Thema aus dem Aufruf der Biden-Zeit – Produkte für eine „Kultur verantwortungsvoller KI“ – fehlt 2026. OpenAI, Anthropic und Google sind als Tradewinds-Teilnehmer gelistet und haben Verträge mit dem CDAO; ob diese über Tradewinds zustande kamen, ließen die Firmen offen – alle drei lehnten einen Kommentar ab."
+    ]
+   },
+   "bg": {
+    "t": "Пентагонът купува ИИ чрез петминутни видеа – включително за „kill chain“",
+    "d": "Чрез платформата Tradewinds фирмите предлагат ИИ продукти с кратки видеа. Одобрените могат да получат поръчки без нов търг – според Wired понякога за по-малко от седмица.",
+    "body": [
+     "Министерството на отбраната на САЩ ускорява покупките на ИИ чрез платформата „Tradewinds“, съобщава списание Wired. Програмата на Службата за дигитални технологии и изкуствен интелект (CDAO) работи от края на 2022 г.: фирмите подават видеа от най-много пет минути, които показват как продуктите им решават зададени приоритетни задачи. Комисия поне веднъж месечно решава кои оферти да влязат в платформата, където държавни служители могат да ги разгледат.",
+     "Приетите продукти се смятат за вече преминали конкурентен подбор. Така възложителите могат да съкратят процедури, траещи месеци; според представител на министерството някои поръчки са възложени за по-малко от седмица. Статусът улеснява и т.нар. Other Transaction Agreements, за които не важат някои правила за обществени поръчки – до 500 милиона долара на договор без уведомяване на Конгреса.",
+     "Сред приоритетите за 2026 г. според Wired са ИИ за повишаване на „смъртоносността“ на въоръжените сили и ИИ агенти за съвместно поразяване на цели, включително изпълнение на „kill chain“ (веригата на поразяване). Тема от поканата от времето на Байдън – продукти за „култура на отговорен ИИ“ – липсва през 2026 г. OpenAI, Anthropic и Google са вписани като участници в Tradewinds и имат договори с CDAO; дали те са сключени чрез Tradewinds, фирмите не уточниха – и трите отказаха коментар."
+    ]
+   },
+   "en": {
+    "t": "Pentagon buys AI via five-minute videos – including for the \"kill chain\"",
+    "d": "Through the Tradewinds marketplace, companies pitch AI products in short videos. Those accepted can win contracts without a new tender – sometimes in under a week, Wired reports.",
+    "body": [
+     "The US Department of Defense is speeding up AI purchases through its Tradewinds marketplace, Wired reports. The programme, run by the Chief Digital and Artificial Intelligence Office (CDAO) since late 2022, lets companies submit videos of no more than five minutes showing how their products address set focus areas. A panel decides at least monthly which offers go onto the marketplace, where government officials can view them.",
+     "Accepted products are treated as having already passed competition, letting buyers skip procurement processes that can take months; a defence official said some awards took less than a week. The status also eases so-called other transaction agreements, which are exempt from certain acquisition rules – up to $500 million per deal is possible without notifying Congress.",
+     "According to Wired, this year's focus areas include AI to \"enhance force lethality\" and AI agents for joint targeting, including kill chain execution. A Biden-era call for products supporting \"a culture of responsible AI\" is absent from the 2026 list. OpenAI, Anthropic and Google are listed as Tradewinds participants and hold CDAO agreements; the companies did not say whether those came through Tradewinds, and all three declined to comment."
+    ]
+   }
+  }
+ ]
+}
