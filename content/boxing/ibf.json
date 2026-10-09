@@ -10,7 +10,7 @@
   "de": "International Boxing Federation",
   "en": "International Boxing Federation"
  },
- "asof": "2026-10-08",
+ "asof": "2026-10-09",
  "champions": [
   {
    "div": {
@@ -205,23 +205,6 @@
  ],
  "upcoming": [
   {
-   "date": "2026-10-08",
-   "place": "Québec, Kanada",
-   "f1": "Osleys Iglesias",
-   "f2": "Oliver Zaren",
-   "div": {
-    "bg": "Супер средна категория",
-    "de": "Supermittelgewicht",
-    "en": "Super Middleweight"
-   },
-   "title": {
-    "bg": "Световна титла на IBF",
-    "de": "IBF-WM",
-    "en": "IBF world title"
-   },
-   "note": "Capitole de Québec; erste Titelverteidigung"
-  },
-  {
    "date": "2026-10-24",
    "place": "San Antonio, USA",
    "f1": "Emanuel Navarrete",
@@ -274,6 +257,28 @@
   }
  ],
  "results": [
+  {
+   "date": "2026-10-08",
+   "place": "Québec, Kanada",
+   "f1": "Osleys Iglesias",
+   "f2": "Oliver Zaren",
+   "res": {
+    "bg": "TKO 7-и рунд (кърпа от ъгъла)",
+    "de": "TKO 7. Runde (Aufgabe aus der Ecke)",
+    "en": "TKO round 7 (corner retirement)"
+   },
+   "div": {
+    "bg": "Супер средна категория",
+    "de": "Supermittelgewicht",
+    "en": "Super Middleweight"
+   },
+   "title": {
+    "bg": "Световна титла на IBF",
+    "de": "IBF-WM",
+    "en": "IBF world title"
+   },
+   "note": "Capitole de Québec; erste Titelverteidigung"
+  },
   {
    "date": "2026-09-27",
    "place": "Tokio, Japan",
@@ -456,6 +461,10 @@
   {
    "n": "Boxing News, 09.09.2026 (Karte 31.10. Riad)",
    "u": "https://boxingnewsonline.net/news/canelo-stablemate-added-to-mbilli-card/"
+  },
+  {
+   "n": "Boxing News 24 – Iglesias stoppt Zaren, 08.10.2026",
+   "u": "https://www.boxingnews24.com/2026/10/osleys-iglesias-batters-oliver-zaren-into-seventh-round-stoppage/"
   }
  ]
 }
