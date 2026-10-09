@@ -31,6 +31,7 @@ async function cached(ctx, path, ttl, base = API, ks = '') {
   const r = await fetch(url, { headers });
   if (!r.ok) throw new Error('api ' + r.status);
   const j = await r.json();
+  if (j.errors && Object.keys(j.errors).length) return j;   // Fehler (z. B. rateLimit) nie zwischenspeichern
   ctx.waitUntil(cache.put(key, new Response(JSON.stringify(j), { headers: { 'content-type': 'application/json', 'cache-control': `public, max-age=${ttl}` } })));
   return j;
 }
