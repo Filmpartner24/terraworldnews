@@ -1,3 +1,4 @@
+// Schlüssel APISPORTS_KEY in Cloudflare hinterlegt am 09.10.2026 (Pro bis 09.11.2026)
 // Live-Spielstände (Fußball) für die Seiten Sport → Fußball und Sport → Länderspiele.
 // Datenquelle: API-Football (api-sports.io). Der Schlüssel liegt als Cloudflare-Secret APISPORTS_KEY vor, nie im Repo.
 // Abrufe werden serverseitig gecacht (Tagesspielplan 10 Min., Live-Daten 60 s), damit alle Besucher dieselbe Antwort
