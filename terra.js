@@ -99,11 +99,15 @@ function hm(ts){var d=new Date(ts*1000);return d.toLocaleTimeString(box.getAttri
 function stat(m){if(LV[m.st])return m.st==='HT'?'<b class="lv-on">'+esc(tx.ht)+'</b>':'<b class="lv-on">'+esc(m.min)+(m.ext?'+'+esc(m.ext):'')+'′</b>';if(FT[m.st])return '<span class="lv-ft">'+esc(tx.ft)+'</span>';return '<span class="lv-ko">'+hm(m.ts)+'</span>'}
 function evs(m){var o='';(m.ev||[]).forEach(function(e){if(e.ty==='sub')return;var ic=e.ty==='yc'?'<i class="lv-yc"></i>':e.ty==='rc'?'<i class="lv-rc"></i>':e.ty==='mp'?'✕':'⚽';
 o+='<li class="lv-'+e.side+'">'+ic+' '+esc(e.m)+(e.x?'+'+esc(e.x):'')+'′ '+esc(e.p)+(e.ty==='pen'?' ('+esc(tx.pen)+')':e.ty==='og'?' ('+esc(tx.og)+')':'')+'</li>'});return o?'<ul class="lv-ev">'+o+'</ul>':''}
-function render(d){var ok=d&&d.ok&&d.m;if(!ok){box.hidden=true;return}var ids=kind==='nat'?d.nat:kind==='hb'?null:d.club,ms=d.m.filter(function(m){return !ids||ids.indexOf(m.lg)>=0});
+function render(d){try{rows(d)}catch(e){}var ok=d&&d.ok&&d.m;if(!ok){box.hidden=true;return}var ids=kind==='nat'?d.nat:kind==='hb'?null:box.getAttribute('data-lg')?[+box.getAttribute('data-lg')]:d.club,ms=d.m.filter(function(m){return !ids||ids.indexOf(m.lg)>=0});
 if(!ms.length){box.hidden=true;return}var g={},order=[];ms.forEach(function(m){var k=m.ln;if(!g[k]){g[k]=[];order.push(k)}g[k].push(m)});
 var h='';order.forEach(function(k){h+='<div class="lv-lg"><h3>'+esc(k)+'</h3>';g[k].forEach(function(m){var on=LV[m.st];
 h+='<div class="lv-m'+(on?' is-live':'')+'"><div class="lv-row"><span class="lv-st">'+stat(m)+'</span><span class="lv-t lv-th">'+esc(nm(m.h))+'</span><span class="lv-sc">'+(m.gh==null?'–':esc(m.gh))+' : '+(m.ga==null?'–':esc(m.ga))+'</span><span class="lv-t">'+esc(nm(m.a))+'</span></div>'+evs(m)+'</div>'});h+='</div>'});
 list.innerHTML=h;box.hidden=false;return d.live}
+function nz(x){return String(x||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\b(fc|sv|sc|vfb|vfl|tsg|tsv|ssv|ac|as|us|cf|ud|cd|rc|ss|afc|1|04|05|07|1899|1846|1909|de|of|the)\b/g,' ').replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim()}
+function same(x,y){x=nz(x);y=nz(y);if(!x||!y)return false;if(x===y||x.indexOf(y)>=0||y.indexOf(x)>=0)return true;var a=x.split(' '),b=y.split(' ');return a.some(function(w){return w.length>3&&b.indexOf(w)>=0})}
+function rows(d){if(!d||!d.ok||!d.m)return;document.querySelectorAll('tr[data-day="'+d.day+'"]').forEach(function(tr){var m=d.m.filter(function(m){return same(m.h,tr.getAttribute('data-a'))&&same(m.a,tr.getAttribute('data-b'))})[0];if(!m||m.st==='NS'||m.gh==null)return;
+var c=tr.querySelector('.fb-scc');if(!c)return;var on=LV[m.st];c.innerHTML='<b class="fb-sc'+(on?' fb-live':'')+'">'+esc(m.gh)+':'+esc(m.ga)+'</b>'+(on?'<span class="fb-min">'+(m.st==='HT'?esc(tx.ht):esc(m.min)+(m.ext?'+'+esc(m.ext):'')+'′')+'</span>':'')})}
 function load(){fetch(URL,{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){var live=render(d);clearTimeout(timer);timer=setTimeout(load,live?60000:300000)}).catch(function(){clearTimeout(timer);timer=setTimeout(load,300000)})}
 load();document.addEventListener('visibilitychange',function(){if(!document.hidden){clearTimeout(timer);load()}})})();
 /* Börse: Live-Kursband (TradingView) – lädt erst nach Klick (Datenschutz), Entscheidung wird gemerkt (seit 09.10.2026) */

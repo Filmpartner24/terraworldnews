@@ -795,7 +795,8 @@ def fb_match_row(m, lg, l, cup=False):
     sc = f'<b class="fb-sc">{ft[0]}:{ft[1]}</b>' if ft is not None else (f'<span class="fb-sc fb-open fb-pp">{e(FBU[l]["pp"])}</span>' if m.get('status') == 'postponed' else f'<span class="fb-sc fb-open">{e(FBU[l]["noft"])}</span>')
     when = fb_dt(m, lg, l) if not cup else ('.'.join(reversed(m['date'].split('-'))) if re.match(r'^\d{4}-\d{2}-\d{2}$', m.get('date', '')) else e(m.get('date', '')))
     note = f' <span class="fb-note">{e(fb_note(m.get("note"), l))}</span>' if m.get('note') else ''
-    return f'<tr><td class="fb-when">{when}</td><td class="fb-t1">{e(a)}</td><td class="fb-scc">{sc}</td><td class="fb-t2">{e(b)}{note}</td></tr>'
+    lv = f' data-day="{e(m["date"])}" data-a="{e(a)}" data-b="{e(b)}"' if ft is None and re.match(r'^\d{4}-\d{2}-\d{2}$', m.get('date', '')) else ''
+    return f'<tr{lv}><td class="fb-when">{when}</td><td class="fb-t1">{e(a)}</td><td class="fb-scc">{sc}</td><td class="fb-t2">{e(b)}{note}</td></tr>'
 
 # ---- Liebe & Beziehung: Kennenlern-Portale (seit 08.10.2026, Nedys Vorgabe) – Auswahl nach Similarweb-Ranking, keine Werbung/Provision
 DATING_SRC = {'de': 'https://www.similarweb.com/top-websites/germany/community-and-society/romance-and-relationships/',
@@ -990,11 +991,11 @@ def fb_league_card(k, l, today):
 LIVEU = {'bg': dict(h='На живо', today='Мачове днес', src='Данни на живо: API-Football', ht='Полувреме', ft='Край', ns='', pen='дузпа', og='автогол'),
          'de': dict(h='Live', today='Spiele heute', src='Live-Daten: API-Football', ht='Halbzeit', ft='Ende', ns='', pen='Elfmeter', og='Eigentor'),
          'en': dict(h='Live', today="Today's matches", src='Live data: API-Football', ht='Half-time', ft='Full-time', ns='', pen='pen', og='og')}
-def live_box(l, kind):  # Live-Spielstände: wird per terra.js aus /api/live gefüllt, bleibt ohne Spiele ausgeblendet
+def live_box(l, kind, lg=None):  # Live-Spielstände: wird per terra.js aus /api/live gefüllt, bleibt ohne Spiele ausgeblendet
     u = dict(LIVEU[l])
     if kind == 'hb': u['src'] = u['src'].replace('API-Football', 'API-Handball')
     ntm = {v[1]: (k if l == 'de' else v[0]) for k, v in NT.items()} if l != 'en' else {}
-    return (f'<section class="live-box" data-live="{kind}" data-l="{l}" data-tx="{e(json.dumps(u, ensure_ascii=False))}" data-nt="{e(json.dumps(ntm, ensure_ascii=False))}" hidden>'
+    return (f'<section class="live-box" data-live="{kind}"{f' data-lg="{lg}"' if lg else ''} data-l="{l}" data-tx="{e(json.dumps(u, ensure_ascii=False))}" data-nt="{e(json.dumps(ntm, ensure_ascii=False))}" hidden>'
             f'<h2 class="gp-h"><span class="live-dot"></span> {e(u["h"])} · {e(u["today"])}</h2><div class="live-list"></div><p class="fb-ko live-src">{e(u["src"])}</p></section>')
 
 # ---- Fußball heute im TV (Daten: content/tv/YYYY-MM-DD.json, täglich redaktionell recherchiert)
@@ -1073,6 +1074,7 @@ def fb_overview(l, today, news_html, others):
             f'<div class="gp-main"><div class="gp-panel">{live_box(l, "club")}<h2 class="gp-h">{e(f["leagues"])}</h2><div class="fb-grid">{cards}</div>{grid_cr([(FB[k]["name"][l], FB_IMG.get(k)) for k in fb_order(l) if k in FB], l)}{news_html}{tv_block(l)}</div>'
             f'<aside class="sec-side"><h2 class="list-h">{e(UI[l]["more"] if False else {"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
 
+FB_API = {'bundesliga': 78, '2-bundesliga': 79, 'premier-league': 39, 'la-liga': 140, 'serie-a': 135, 'ligue-1': 61, 'parva-liga': 172}   # API-Football-Liga-IDs für den Live-Block
 def fb_league_page(k, l, today, others):
     lg = FB[k]; f = FBU[l]
     tab = fb_table(lg); rs, done, nxt = fb_state(lg, today)
@@ -1103,7 +1105,7 @@ def fb_league_page(k, l, today, others):
     others_l = ''.join(f'<li><a href="{fb_url(x, l)}"{" aria-current=page" if x == k else ""}>{e(FB[x]["name"][l])}</a></li>' for x in fb_order(l) if x in FB)
     if lg.get('sport') == 'handball': others_l = f'<li><a href="{fb_url(k, l)}" aria-current=page>{e(lg["name"][l])}</a></li>'
     return (f'<div class="gp gp-sport fb-page"><div class="gp-head"><h1 class="gp-title">{e(lg["name"][l])}</h1><span class="fb-season">{e(f["season"])} {e(lg["season"])}</span></div>'
-            f'<div class="gp-main"><div class="gp-panel">{hero}<h2 class="gp-h">{e(f["table"])}</h2>{table}{nx}'
+            f'<div class="gp-main"><div class="gp-panel">{hero}{live_box(l, "club", FB_API[k]) if k in FB_API else ""}<h2 class="gp-h">{e(f["table"])}</h2>{table}{nx}'
             + (f'<h2 class="gp-h">{e(f["cups"])}</h2>{cups}' if cups else '') +
             (f'<h2 class="gp-h">{e(f["done"])}</h2>{dn}' if dn else '') +
             f'<p class="fb-ko">{e(f["src"])}: <a href="{e(lg["src"][0]["u"])}" rel="noopener nofollow" target="_blank">{e(lg["src"][0]["n"])}</a></p></div>'
