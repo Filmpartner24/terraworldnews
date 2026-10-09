@@ -1,1 +1,42 @@
-{"ok": false, "problems": ["wird neu geprüft"]}
+{
+ "checked": "2026-10-09T14:54Z",
+ "ok": false,
+ "problems": [
+  "GraphQL: [{\"message\": \"zone 'd4427ba31402632effc6d451e532be51' does not have access to the path. Refer to this page for more details about access controls: https://developers.cloudflare.com/analytics/graphql-api/errors/\", \"path\": [\"viewer\", \"zones\", \"0\", \"ev\"], \"extensions\": {\"code\": \"authz\", \"timestamp\": \"2"
+ ],
+ "zone": "d4427ba31402632effc6d451e532be51",
+ "graphql_errors": [
+  {
+   "message": "zone 'd4427ba31402632effc6d451e532be51' does not have access to the path. Refer to this page for more details about access controls: https://developers.cloudflare.com/analytics/graphql-api/errors/",
+   "path": [
+    "viewer",
+    "zones",
+    "0",
+    "ev"
+   ],
+   "extensions": {
+    "code": "authz",
+    "timestamp": "2026-10-09T14:54:19.591176957Z",
+    "ray_id": "a47e384af8fcd694-AMS"
+   }
+  }
+ ],
+ "blocked_search_bots_24h": 0,
+ "blocked_detail": [],
+ "bot_management": {
+  "http": 403,
+  "body": "{\"success\":false,\"errors\":[{\"code\":10000,\"message\":\"Authentication error\",\"documentation_url\":\"https://developers.cloudflare.com/api/resources/bot_management/methods/get\"}],\"messages\":[],\"result\":null}\n"
+ },
+ "settings/browser_check": {
+  "id": "browser_check",
+  "value": "off",
+  "modified_on": "2026-10-09T09:34:09.463116Z",
+  "editable": true
+ },
+ "settings/security_level": {
+  "id": "security_level",
+  "value": "medium",
+  "modified_on": null,
+  "editable": true
+ }
+}
