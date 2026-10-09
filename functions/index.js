@@ -2,7 +2,7 @@
 // Bulgarien -> bleibt auf "/", DE/AT/CH/LI -> /de/, alle anderen -> /en/.
 // Suchmaschinen-Bots werden nie umgeleitet; eine selbst gewählte Sprache (Cookie twn_lang) hat Vorrang.
 const DE = new Set(['DE', 'AT', 'CH', 'LI']);
-const BOT = /bot|crawl|spider|slurp|bingpreview|mediapartners|facebookexternalhit|embedly|whatsapp|telegram|discord|skype|preview|lighthouse|headless|curl|wget|python|feed|rss/i;
+const BOT = /bot|crawl|spider|google|inspectiontool|bing|yandex|duckduck|applebot|baidu|petal|slurp|bingpreview|mediapartners|facebookexternalhit|embedly|whatsapp|telegram|discord|skype|preview|lighthouse|headless|curl|wget|python|feed|rss/i;
 
 export async function onRequest(ctx) {
   const req = ctx.request;
