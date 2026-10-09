@@ -1074,3 +1074,14 @@ footer a.g-pref{font-weight:700}
 .ticker.boerse .tv-band iframe{height:46px!important}
 .fb-sc.fb-live{background:#d4161c!important;color:#fff!important;animation:tkdot 1.6s ease-in-out infinite}
 .fb-min{display:block;font-family:var(--label);font-size:11px;font-weight:700;color:#ff6b6f;text-align:center;margin-top:2px}
+/* Sport: Fußball-Live-Laufband */
+.ticker.fbt{background:#0b2566;margin-top:0}
+.ticker.fbt .k{background:#e85d04;font-family:var(--head);display:flex;align-items:center;gap:8px}
+.ticker.fbt .tk-pause{background:#081b4d}
+.ticker.fbt .sep{background:#e85d04}
+.ticker.fbt .fq{color:#fff;font-family:var(--head);font-size:16px;font-weight:700;white-space:nowrap}
+.ticker.fbt .fl{font-family:var(--label);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#9fb3e6;margin-right:4px}
+.ticker.fbt .fs{display:inline-block;min-width:38px;text-align:center;background:#16357f;border-radius:3px;padding:1px 6px;margin:0 4px}
+.ticker.fbt .fq.on .fs{background:#d4161c}
+.ticker.fbt .fm{font-style:normal;font-family:var(--body);font-size:13px;color:#ffcf3a;margin-left:4px}
+.ticker.fbt .fq.on .fm{color:#ff8a8d}
