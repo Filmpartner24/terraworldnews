@@ -1,21 +1,24 @@
 """Tägliche Google-Wache (nur lesen): blockiert Cloudflare Suchmaschinen (Google, Bing, Apple, DuckDuckGo)?
 Schreibt guard/latest.json. Problem -> "ok": false (die Morgenkontrolle meldet es per Push)."""
 import json, os, urllib.request, urllib.error, datetime as dt
-T = os.environ.get('CF_ZONE_TOKEN', '')
+import re
+T = os.environ.get('CF_ZONE_TOKEN', '').strip()
+m = re.search(r'[A-Za-z0-9_-]{30,}', T.split('Bearer')[-1]) if T else None
+T = m.group(0) if m else T
 H = {'Authorization': f'Bearer {T}', 'Content-Type': 'application/json'}
 def call(url, data=None):
     try:
         req = urllib.request.Request(url, data=json.dumps(data).encode() if data is not None else None, headers=H)
         with urllib.request.urlopen(req, timeout=60) as r: return json.load(r)
     except urllib.error.HTTPError as e: return {'http': e.code, 'body': e.read().decode()[:400]}
-    except Exception as e: return {'err': str(e)}
+    except Exception as e: return {'err': type(e).__name__}
 out = {'checked': dt.datetime.utcnow().strftime('%Y-%m-%dT%H:%MZ'), 'ok': True, 'problems': []}
 if not T:
     out.update(ok=False, problems=['Kein CF_ZONE_TOKEN hinterlegt'])
 else:
     z = call('https://api.cloudflare.com/client/v4/zones?name=terraworldnews.com')
     if not z.get('result'):
-        out.update(ok=False, problems=['Zone nicht lesbar: ' + json.dumps(z)[:300]])
+        out.update(ok=False, problems=['Zone nicht lesbar (Schlüssel ungültig oder ohne Rechte)'])
     else:
         zid = z['result'][0]['id']; out['zone'] = zid
         now = dt.datetime.utcnow(); since = (now - dt.timedelta(hours=24)).strftime('%Y-%m-%dT%H:%M:%SZ'); until = now.strftime('%Y-%m-%dT%H:%M:%SZ')
