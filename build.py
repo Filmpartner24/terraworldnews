@@ -991,7 +991,8 @@ LIVEU = {'bg': dict(h='На живо', today='Мачове днес', src='Да�
          'de': dict(h='Live', today='Spiele heute', src='Live-Daten: API-Football', ht='Halbzeit', ft='Ende', ns='', pen='Elfmeter', og='Eigentor'),
          'en': dict(h='Live', today="Today's matches", src='Live data: API-Football', ht='Half-time', ft='Full-time', ns='', pen='pen', og='og')}
 def live_box(l, kind):  # Live-Spielstände: wird per terra.js aus /api/live gefüllt, bleibt ohne Spiele ausgeblendet
-    u = LIVEU[l]
+    u = dict(LIVEU[l])
+    if kind == 'hb': u['src'] = u['src'].replace('API-Football', 'API-Handball')
     ntm = {v[1]: (k if l == 'de' else v[0]) for k, v in NT.items()} if l != 'en' else {}
     return (f'<section class="live-box" data-live="{kind}" data-l="{l}" data-tx="{e(json.dumps(u, ensure_ascii=False))}" data-nt="{e(json.dumps(ntm, ensure_ascii=False))}" hidden>'
             f'<h2 class="gp-h"><span class="live-dot"></span> {e(u["h"])} · {e(u["today"])}</h2><div class="live-list"></div><p class="fb-ko live-src">{e(u["src"])}</p></section>')
@@ -1676,6 +1677,7 @@ def build():
                     elif s == 'sport' and k == 'handball' and 'handball-bundesliga' in FB:   # Handball-Bundesliga: Tabelle/Spieltage wie Fußball
                         HBK = {'bg': 'Начален час: българско време', 'de': 'Anwurfzeiten: deutsche Zeit', 'en': 'Throw-off times: German time'}
                         sb = tabs(k) + fb_league_page('handball-bundesliga', l, latest['date'], _others(s)).replace(e(FBU[l]['ko']), e(HBK[l]))
+                        sb = sb.replace('<div class="gp-panel">', '<div class="gp-panel">' + live_box(l, 'hb'), 1)
                         if sits: sb += games_page(l, sits, sits[0]['date'], '', SX, s, title=SUB[l][k][0])
                     elif s in MEDIA:
                         sb = tabs(k) + games_page(l, sits, sits[0]['date'] if sits else latest['date'], _others(s), SX, s, title=title)

@@ -15,12 +15,12 @@ function berlinDate() {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Berlin', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
 }
 
-async function cached(ctx, path, ttl) {
-  const key = new Request('https://terraworldnews.com/__live' + path);
+async function cached(ctx, path, ttl, base = API, ks = '') {
+  const key = new Request('https://terraworldnews.com/__live' + (base === API ? '' : '/hb') + ks + path);
   const cache = caches.default;
   const hit = await cache.match(key);
   if (hit) return hit.json();
-  const r = await fetch(API + path, { headers: { 'x-apisports-key': ctx.env.APISPORTS_KEY } });
+  const r = await fetch(base + path, { headers: { 'x-apisports-key': ctx.env.APISPORTS_KEY } });
   if (!r.ok) throw new Error('api ' + r.status);
   const j = await r.json();
   ctx.waitUntil(cache.put(key, new Response(JSON.stringify(j), { headers: { 'content-type': 'application/json', 'cache-control': `public, max-age=${ttl}` } })));
@@ -44,10 +44,31 @@ function slim(f, ev) {
   return out;
 }
 
+
+// ---- Handball (API-Handball, gleicher API-Sports-Schlüssel; eigenes Kontingent: kostenlos 100 Abrufe/Tag)
+// Sparsam: Tagesplan alle 30 Min., während laufender Spiele alle 5 Min. – Abrufe nur, wenn Besucher die Seite öffnen.
+const HB = 'https://v1.handball.api-sports.io';
+const HB_LIVE = new Set(['1H', '2H', 'HT', 'ET', 'BT', 'PT', 'LIVE']);
+async function handball(ctx, hdr) {
+  const day = berlinDate();
+  let j = await cached(ctx, `/games?date=${day}&timezone=Europe/Berlin`, 1800, HB);
+  const now = Date.now() / 1000;
+  const want = g => { const c = ((g.country || {}).name || ''), n = ((g.league || {}).name || '');
+    return (c === 'Germany' && /Bundesliga|DHB/i.test(n)) || /EHF Champions League|EHF European League|World Championship|European Championship/i.test(n); };
+  let list = (j.response || []).filter(want);
+  const anyLive = list.some(g => HB_LIVE.has((g.status || {}).short) || ((g.status || {}).short === 'NS' && g.timestamp <= now && g.timestamp > now - 3 * 3600));
+  if (anyLive) { j = await cached(ctx, `/games?date=${day}&timezone=Europe/Berlin`, 300, HB, '/live'); list = (j.response || []).filter(want); }
+  const m = list.map(g => ({ id: g.id, ts: g.timestamp, st: (g.status || {}).short, min: null, ext: null, lg: (g.league || {}).id, ln: (g.league || {}).name,
+    lc: (g.country || {}).name, h: ((g.teams || {}).home || {}).name, a: ((g.teams || {}).away || {}).name,
+    gh: (g.scores || {}).home, ga: (g.scores || {}).away, ev: [] })).sort((x, y) => x.ts - y.ts);
+  return new Response(JSON.stringify({ ok: true, day, live: anyLive, m }), { headers: hdr });
+}
+
 export async function onRequest(ctx) {
   const hdr = { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'public, max-age=30', 'x-robots-tag': 'noindex', 'access-control-allow-origin': '*' };
   if (!ctx.env.APISPORTS_KEY) return new Response(JSON.stringify({ ok: false, reason: 'nokey', m: [] }), { headers: hdr });
   try {
+    if (new URL(ctx.request.url).searchParams.get('sport') === 'handball') return await handball(ctx, hdr);
     const day = berlinDate();
     const today = await cached(ctx, `/fixtures?date=${day}&timezone=Europe/Berlin`, 600);
     let list = (today.response || []).filter(f => ALL.has((f.league || {}).id));
