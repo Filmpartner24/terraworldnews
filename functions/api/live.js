@@ -77,6 +77,15 @@ async function handball(ctx, hdr) {
 export async function onRequest(ctx) {
   const hdr = { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'public, max-age=30', 'x-robots-tag': 'noindex', 'access-control-allow-origin': '*' };
   if (!ctx.env.APISPORTS_KEY && !ctx.env.RAPIDAPI_KEY) return new Response(JSON.stringify({ ok: false, reason: 'nokey', m: [] }), { headers: hdr });
+  if (new URL(ctx.request.url).searchParams.get('diag') === '1') {   // Diagnose ohne Schlüsselinhalt
+    try {
+      const r = await fetch(API + '/status', { headers: { 'x-apisports-key': ctx.env.APISPORTS_KEY || '' } });
+      const t = await r.text(); let j = {}; try { j = JSON.parse(t); } catch (e) {}
+      const h = {}; for (const [k, v] of r.headers) if (/ratelimit|requests|server|cf-ray|content-type/i.test(k)) h[k] = v;
+      const sub = ((j.response || {}).subscription) || {}, req = ((j.response || {}).requests) || {};
+      return new Response(JSON.stringify({ http: r.status, errors: j.errors, plan: sub.plan, active: sub.active, end: sub.end, req, keylen: (ctx.env.APISPORTS_KEY || '').length, headers: h, body: j.response ? undefined : t.slice(0, 300) }), { headers: hdr });
+    } catch (e) { return new Response(JSON.stringify({ diagerr: String(e) }), { headers: hdr }); }
+  }
   try {
     if (new URL(ctx.request.url).searchParams.get('sport') === 'handball') return await handball(ctx, hdr);
     const day = berlinDate();
