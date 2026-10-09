@@ -1,0 +1,43 @@
+"""Tägliche Google-Wache (nur lesen): blockiert Cloudflare Suchmaschinen (Google, Bing, Apple, DuckDuckGo)?
+Schreibt guard/latest.json. Problem -> "ok": false (die Morgenkontrolle meldet es per Push)."""
+import json, os, urllib.request, urllib.error, datetime as dt
+T = os.environ.get('CF_ZONE_TOKEN', '')
+H = {'Authorization': f'Bearer {T}', 'Content-Type': 'application/json'}
+def call(url, data=None):
+    try:
+        req = urllib.request.Request(url, data=json.dumps(data).encode() if data is not None else None, headers=H)
+        with urllib.request.urlopen(req, timeout=60) as r: return json.load(r)
+    except urllib.error.HTTPError as e: return {'http': e.code, 'body': e.read().decode()[:400]}
+    except Exception as e: return {'err': str(e)}
+out = {'checked': dt.datetime.utcnow().strftime('%Y-%m-%dT%H:%MZ'), 'ok': True, 'problems': []}
+if not T:
+    out.update(ok=False, problems=['Kein CF_ZONE_TOKEN hinterlegt'])
+else:
+    z = call('https://api.cloudflare.com/client/v4/zones?name=terraworldnews.com')
+    if not z.get('result'):
+        out.update(ok=False, problems=['Zone nicht lesbar: ' + json.dumps(z)[:300]])
+    else:
+        zid = z['result'][0]['id']; out['zone'] = zid
+        now = dt.datetime.utcnow(); since = (now - dt.timedelta(hours=24)).strftime('%Y-%m-%dT%H:%M:%SZ'); until = now.strftime('%Y-%m-%dT%H:%M:%SZ')
+        q = '''query($z:String!,$s:Time!,$u:Time!){viewer{zones(filter:{zoneTag:$z}){
+          ev:firewallEventsAdaptiveGroups(limit:50,filter:{datetime_geq:$s,datetime_lt:$u,clientAsn_in:["15169","8075","714","8069"]},orderBy:[count_DESC]){
+            count dimensions{action source ruleId description clientAsn clientRequestPath userAgent}}}}}'''
+        g = call('https://api.cloudflare.com/client/v4/graphql', {'query': q, 'variables': {'z': zid, 's': since, 'u': until}})
+        out['graphql_errors'] = g.get('errors')
+        rows = (((g.get('data') or {}).get('viewer') or {}).get('zones') or [{}])[0].get('ev') or []
+        bots = ('googlebot', 'bingbot', 'applebot', 'duckduck', 'google-inspectiontool', 'adsbot-google', 'storebot-google')
+        bad = [r for r in rows if r['dimensions']['action'] in ('block', 'managed_challenge', 'challenge', 'jschallenge')
+               and any(b in (r['dimensions'].get('userAgent') or '').lower() for b in bots)]
+        out['blocked_search_bots_24h'] = sum(r['count'] for r in bad)
+        out['blocked_detail'] = [{k: r['dimensions'][k] for k in ('action', 'source', 'description', 'clientRequestPath', 'clientAsn')} | {'count': r['count']} for r in bad[:10]]
+        if bad: out['ok'] = False; out['problems'].append(f"{out['blocked_search_bots_24h']} Suchmaschinen-Anfragen in 24 h blockiert (Regel: {bad[0]['dimensions'].get('description') or bad[0]['dimensions'].get('source')})")
+        if g.get('errors') and not rows: out['problems'].append('GraphQL: ' + json.dumps(g['errors'])[:300]); out['ok'] = False
+        for k in ('bot_management', 'settings/browser_check', 'settings/security_level'):
+            r = call(f'https://api.cloudflare.com/client/v4/zones/{zid}/{k}'); out[k] = r.get('result', r)
+        bm = out.get('bot_management') or {}
+        if isinstance(bm, dict) and bm.get('fight_mode'): out['ok'] = False; out['problems'].append('Bot Fight Mode ist eingeschaltet')
+        bc = out.get('settings/browser_check') or {}
+        if isinstance(bc, dict) and bc.get('value') == 'on': out['problems'].append('Hinweis: Browser Integrity Check ist an')
+os.makedirs('guard', exist_ok=True)
+json.dump(out, open('guard/latest.json', 'w'), indent=1, ensure_ascii=False)
+print(json.dumps(out, ensure_ascii=False)[:2500])
