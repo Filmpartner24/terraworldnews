@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-09T14:55Z",
+ "checked": "2026-10-09T14:56Z",
  "ok": false,
  "problems": [
   "13 Suchmaschinen-Anfragen in 24 h blockiert (Regel: Block AI training crawlers - BOBA-199)"
@@ -8,6 +8,7 @@
  "graphql_errors": {},
  "source": "fwa",
  "blocked_search_bots_24h": 13,
+ "last_block_utc": "2026-10-09T13:55:09Z",
  "blocked_detail": [
   {
    "action": "block",
