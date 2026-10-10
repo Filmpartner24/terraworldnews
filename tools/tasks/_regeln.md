@@ -5,7 +5,7 @@ Diese Regeln gelten für jede Aufgabe und gehen bei Widersprüchen der jeweilige
 ## 1. Aktuelle Eckdaten
 - Tagesausgabe: genau 80 Meldungen (Deutschland 12 inkl. 2–3 Berlin und 1 Deutschland–Bulgarien, Bulgarien 11, Welt 15, Europa 8, Technologie [s="ki"] 8, Wirtschaft 6, Energie 3, Klima 3, Leben & Alltag 9, Kultur 5). Alle anderen Aufgaben kommen ZUSÄTZLICH.
 - Breaking: 6 Updates täglich (08:00, 11:00, 13:00, 15:30, 18:30, 21:00), je 8 Meldungen.
-- Games: 2 Meldungen pro Tag (1 mit Video, 1 News).
+- Games: 6 Meldungen pro Tag (3 Reviews mit Video „Die neusten Spiele – Reviews“ + 3 Game-News; Nedy 10.10.2026).
 - Nur Männerfußball – kein Frauenfußball. Bulgarisch: AfD immer „АзГ (AfD)“.
 
 ## 2. TAGESSPERRE (gegen doppelte Läufe)

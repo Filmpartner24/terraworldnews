@@ -636,6 +636,9 @@ MPU = {
        'mode': {'bg': dict(playb='▶ Пусни видеото', rev='Мода във видео', news='Модни новини', badge='МОДА', more='Към статията →', rel='Дата', vid='Видео', older='Предишни статии'),
                 'de': dict(playb='▶ Video abspielen', rev='Mode im Video', news='Mode-News', badge='MODE', more='Zum Artikel →', rel='Datum', vid='Video', older='Frühere Beiträge'),
                 'en': dict(playb='▶ Play video', rev='Fashion on video', news='Fashion news', badge='FASHION', more='Read more →', rel='Date', vid='Video', older='Earlier stories')},
+       'games': {'bg': dict(rev='Най-новите игри – ревюта', news='Гейм новини', older='Предишни ревюта и новини'),
+                'de': dict(rev='Die neusten Spiele – Reviews', news='Game-News', older='Frühere Reviews & News'),
+                'en': dict(rev='The latest games – reviews', news='Game news', older='Earlier reviews & news')},
        'musik': {'bg': dict(playb='▶ Пусни видеото', rev='Албуми на деня', badge='АЛБУМ', more='Към ревюто →', rel='Излиза', vid='Видео към сингъла', older='Предишни албуми', single='Сингъл'),
                 'de': dict(playb='▶ Video abspielen', rev='Album-Reviews des Tages', badge='ALBUM', more='Zum Review →', rel='Release', vid='Video zur Single', older='Frühere Alben', single='Single'),
                 'en': dict(playb='▶ Play video', rev="Today's album reviews", badge='ALBUM', more='Read the review →', rel='Release', vid='Single video', older='Earlier albums', single='Single')}}
