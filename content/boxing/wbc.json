@@ -10,7 +10,7 @@
   "de": "World Boxing Council",
   "en": "World Boxing Council"
  },
- "asof": "2026-10-09",
+ "asof": "2026-10-10",
  "champions": [
   {
    "div": {
@@ -49,12 +49,12 @@
     "en": "Light Heavyweight"
    },
    "limit": "bis 79,4 kg (175 lb)",
-   "name": "David Benavidez",
-   "country": "USA",
+   "name": "",
+   "country": "",
    "note": {
-    "bg": "Държи и титлите на WBA (супершампион) и WBO в крайцер категория",
-    "de": "Hält zusätzlich den WBA-Super- und den WBO-Titel im Cruisergewicht",
-    "en": "Also holds WBA super and WBO titles at cruiserweight"
+    "bg": "вакантна – Дейвид Бенавидес остава в крайцер категория; Джошуа Буатси срещу Уили Хътчинсън на 7.11.2026 за вакантната титла",
+    "de": "vakant – David Benavidez bleibt im Cruisergewicht; Joshua Buatsi vs. Willy Hutchinson am 7.11.2026 um den vakanten Titel",
+    "en": "vacant – David Benavidez stays at cruiserweight; Joshua Buatsi vs Willy Hutchinson on 7 Nov 2026 for the vacant title"
    }
   },
   {
@@ -308,11 +308,11 @@
     "en": "Light Heavyweight"
    },
    "title": {
-    "bg": "Временна титла на WBC",
-    "de": "WBC-Interims-WM",
-    "en": "WBC interim title"
+    "bg": "Вакантна титла на WBC",
+    "de": "WBC-WM (vakant)",
+    "en": "Vacant WBC title"
    },
-   "note": "Rückkampf"
+   "note": "Rückkampf; zuvor als Interims-WM angekündigt"
   },
   {
    "date": "2026-11-28",
@@ -330,6 +330,23 @@
     "en": "WBC world title"
    },
    "note": "Merkur Spiel-Arena; erste Titelverteidigung"
+  },
+  {
+   "date": "2026-12-05",
+   "place": "Ort noch offen",
+   "f1": "Michał Cieślak",
+   "f2": "David Benavidez",
+   "div": {
+    "bg": "Крайцер категория",
+    "de": "Cruisergewicht",
+    "en": "Cruiserweight"
+   },
+   "title": {
+    "bg": "Титла на WBC",
+    "de": "WBC-WM",
+    "en": "WBC title"
+   },
+   "note": "Datum laut Boxing News; vom WBC bestätigt, Ort noch nicht bekannt"
   }
  ],
  "results": [
@@ -528,6 +545,14 @@
   {
    "n": "WBC – Adames vs. Nursultanov angeordnet",
    "u": "https://wbcboxing.com/en/wbc-orders-middleweight-championship-fight-carlos-adames-vs-meiirim-nursultanov/"
+  },
+  {
+   "n": "WBC – Status Cruiser- und Halbschwergewicht (Okt. 2026)",
+   "u": "https://wbcboxing.com/en/wbc-cruiser-and-light-heavyweight-divisions-status-october-2026/"
+  },
+  {
+   "n": "Boxing News – Usyk/Wilder, Benavidez vs. Cieślak 5.12. (09.10.2026)",
+   "u": "https://boxingnewsonline.net/news/usyk-wilder-talks-off-with-new-potential/"
   }
  ]
 }
