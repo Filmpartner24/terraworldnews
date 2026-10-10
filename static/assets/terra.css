@@ -1085,3 +1085,27 @@ footer a.g-pref{font-weight:700}
 .ticker.fbt .fq.on .fs{background:#d4161c}
 .ticker.fbt .fm{font-style:normal;font-family:var(--body);font-size:13px;color:#ffcf3a;margin-left:4px}
 .ticker.fbt .fq.on .fm{color:#ff8a8d}
+
+/* ---- Review-Kasten (Games): Wertungs-Plakette, Stärken/Schwächen, Fazit */
+.rv-ring{--p:0;--rc:#22c55e;flex:0 0 auto;width:92px;height:92px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(closest-side,#0d0b1a 79%,transparent 80% 100%),conic-gradient(var(--rc) calc(var(--p)*1%),#2a2445 0);color:#fff;text-align:center}
+.rv-ring b{font-family:var(--head);font-size:34px;line-height:1}
+.rv-ring small{font-family:var(--label);font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:#c4b5fd;margin-top:3px;max-width:70px;line-height:1.1}
+.rv-ov{position:absolute!important;top:10px;right:10px;width:70px;height:70px;box-shadow:0 4px 14px rgba(0,0,0,.55)}
+.rv-ov b{font-size:26px}.rv-ov small{font-size:8px}
+.rv-mini{list-style:none;margin:0 0 12px;padding:0;font-size:14.5px;color:#d6d3e6}
+.rv-mini li{padding-left:22px;position:relative;margin:3px 0}
+.rv-mini li::before{position:absolute;left:2px;font-weight:700}
+.rv-mini .p::before{content:"+";color:#22c55e}.rv-mini .c::before{content:"–";color:#f97316}
+.rv-box{margin:22px 0;padding:18px 20px;background:#151129;border:1px solid #2a2445;border-left:5px solid var(--gx);border-radius:6px;color:#e9e7f5}
+.rv-top{display:flex;gap:18px;align-items:center}
+.rv-head h2{font-family:var(--head);font-size:22px;text-transform:uppercase;letter-spacing:.04em;margin:0 0 6px;color:#fff}
+.rv-sc{margin:0 0 8px;font-family:var(--label);font-size:15px;color:#fff}.rv-sc span{color:#c4b5fd}
+.rv-info{display:flex;flex-wrap:wrap;gap:6px 18px;margin:0;font-size:13.5px}
+.rv-info div{display:flex;gap:6px}.rv-info dt{color:#8f89ad}.rv-info dd{margin:0;color:#e9e7f5}
+.rv-pc{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}
+.rv-pc h3,.rv-fz h3{font-family:var(--label);font-size:14px;letter-spacing:.08em;text-transform:uppercase;margin:0 0 8px}
+.rv-pro h3{color:#22c55e}.rv-con h3{color:#f97316}
+.rv-pc ul{margin:0;padding-left:18px;font-size:15px;line-height:1.45}.rv-pc li{margin:3px 0}
+.rv-fz{margin-top:16px;padding-top:14px;border-top:1px solid #2a2445}.rv-fz h3{color:var(--gy)}.rv-fz p{margin:0;font-size:16px;line-height:1.5}
+.rv-note{margin:12px 0 0;font-size:12px;color:#8f89ad}
+@media (max-width:560px){.rv-pc{grid-template-columns:1fr}.rv-top{align-items:flex-start}.rv-ring{width:76px;height:76px}.rv-ring b{font-size:28px}}

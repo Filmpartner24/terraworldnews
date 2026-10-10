@@ -645,6 +645,29 @@ MPU = {
 GPU = {'bg': dict(rev='Ревюта на деня', news='Новини', older='Предишни ревюта', more='Към ревюто →', badge='РЕВЮ', pf='Платформи', rel='Излиза', dev='Студио', vid='Трейлър', single='Сингъл'),
        'de': dict(rev='Reviews des Tages', news='News', older='Frühere Reviews', more='Zum Review →', badge='REVIEW', pf='Plattformen', rel='Release', dev='Studio', vid='Trailer', single='Single'),
        'en': dict(rev="Today's reviews", news='News', older='Earlier reviews', more='Read the review →', badge='REVIEW', pf='Platforms', rel='Release', dev='Studio', vid='Trailer', single='Single')}
+RVU = {'bg': dict(box='Оценка на критиката', avg='Среден рейтинг', pro='Плюсове', con='Минуси', fz='Обобщение', scores='Оценки', pf='Платформи', dev='Студио', rel='Излиза', note='Обобщение на публикуваните ревюта – с източници по-долу.'),
+       'de': dict(box='Wertung der Kritik', avg='Kritiker-Schnitt', pro='Stärken', con='Schwächen', fz='Fazit der Kritik', scores='Wertungen', pf='Plattformen', dev='Studio', rel='Release', note='Zusammenfassung veröffentlichter Tests – Quellen unten.'),
+       'en': dict(box="Critics' rating", avg='Critic average', pro='Pros', con='Cons', fz="Critics' verdict", scores='Scores', pf='Platforms', dev='Studio', rel='Release', note='Summary of published reviews – sources below.')}
+def rv_ring(rv, cls=''):  # runde Wertungs-Plakette (0–100) aus rv.num, Farbe nach Höhe
+    n = rv.get('num')
+    if not isinstance(n, (int, float)): return ''
+    n = max(0, min(100, int(round(n)))); c = '#22c55e' if n >= 80 else '#eab308' if n >= 65 else '#f97316'
+    return (f'<div class="rv-ring{cls}" style="--p:{n};--rc:{c}" role="img" aria-label="{e(rv.get("agg", ""))} {n}/100"><b>{n}</b>'
+            + (f'<small>{e(rv.get("agg", ""))}</small>' if rv.get('agg') else '') + '</div>')
+def rv_list(rv, k, l, n=None):
+    xs = (rv.get(k) or {}).get(l) or []
+    return xs[:n] if n else xs
+def rv_box(it, l):  # Review-Kasten im Artikel: Plakette, Einzelwertungen, Stärken/Schwächen, Fazit, Infos
+    rv = it.get('rv') or {}
+    if not (rv.get('num') or rv.get('pro') or rv.get('con') or rv.get('fz')): return ''
+    R = RVU[l]; sc = rv.get('score', {}).get(l) if isinstance(rv.get('score'), dict) else rv.get('score')
+    info = ''.join(f'<div><dt>{e(a)}</dt><dd>{e(b)}</dd></div>' for a, b in ((R['pf'], rv.get('pf')), (R['dev'], rv.get('dev')), (R['rel'], rv.get('rel'))) if b)
+    pros = ''.join(f'<li>{e(x)}</li>' for x in rv_list(rv, 'pro', l)); cons = ''.join(f'<li>{e(x)}</li>' for x in rv_list(rv, 'con', l))
+    fz = (rv.get('fz') or {}).get(l, '')
+    return (f'<section class="rv-box" aria-label="{e(R["box"])}"><div class="rv-top">{rv_ring(rv)}<div class="rv-head"><h2>{e(R["box"])}</h2>'
+            + (f'<p class="rv-sc"><span>{e(R["scores"])}:</span> {e(sc)}</p>' if sc else '') + (f'<dl class="rv-info">{info}</dl>' if info else '') + '</div></div>'
+            + ((f'<div class="rv-pc"><div class="rv-pro"><h3>+ {e(R["pro"])}</h3><ul>{pros}</ul></div>' if pros else '<div class="rv-pc">') + (f'<div class="rv-con"><h3>– {e(R["con"])}</h3><ul>{cons}</ul></div>' if cons else '') + '</div>' if (pros or cons) else '')
+            + (f'<div class="rv-fz"><h3>{e(R["fz"])}</h3><p>{e(fz)}</p></div>' if fz else '') + f'<p class="rv-note">{e(R["note"])}</p></section>')
 def gp_slogan(l):  # Slogan rechts im Rubrik-Kopf (statt Datum)
     return '<span class="gp-slogan" aria-label="' + '. '.join(SLOGAN[l]) + '.">' + '<i aria-hidden="true"></i>'.join(SLOGAN[l]) + '</span>'
 def games_page(l, its, day0, others, SX, kind='games', title=None):
@@ -661,11 +684,12 @@ def games_page(l, its, day0, others, SX, kind='games', title=None):
         cvl = {'bg': 'Обложка', 'de': 'Albumcover', 'en': 'Album cover'}[l]
         cr = (f'<p class="gr-cr">{credit(im, l, True)}' + (f' · {cvl} {e(it["cover"].get("cr", ""))}' if it.get('cover') else '') + '</p>') if im else ''
         cov = f'<img class="gr-cover" src="{e(it["cover"]["f"])}" alt="{e(it["cover"].get("alt", {}).get(l, ""))}" width="600" height="600" loading="lazy">' if it.get('cover') else ''
-        return (f'<article class="gr"><div class="gr-media"><div class="yt gr-yt" data-yt="{e(v["id"])}"{cover_style(it)}><span class="gr-badge">{g["badge"]}</span>{cov}'
+        pc = ''.join(f'<li class="p">{e(x)}</li>' for x in rv_list(rv, 'pro', l, 2)) + ''.join(f'<li class="c">{e(x)}</li>' for x in rv_list(rv, 'con', l, 2))
+        return (f'<article class="gr"><div class="gr-media"><div class="yt gr-yt" data-yt="{e(v["id"])}"{cover_style(it)}><span class="gr-badge">{g["badge"]}</span>{rv_ring(rv, " rv-ov")}{cov}'
                 f'<button type="button" class="yt-play">{e(g.get("playb") or u["play"])}</button><span class="yt-note">{e(u["ytnote"])}</span></div>{cr}</div>'
                 f'<div class="gr-txt">' + (f'<div class="gr-score">{e(sc)}</div>' if sc else '') +
                 f'<a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a>' + (f'<p class="gr-meta">{e(meta)}</p>' if meta else '') +
-                f'<p class="gr-dek">{e(it[l]["d"])}</p>' + (f'<p class="gr-single">{e(g["single"])}: <b>{e(rv["single"])}</b></p>' if rv.get('single') else '') + f'<p class="gr-yt-src">{e(g["vid"])}: YouTube · {e(v.get("ch", ""))}</p><a class="gr-more" href="{art_url(it, l)}">{e(g["more"])}</a></div></article>')
+                f'<p class="gr-dek">{e(it[l]["d"])}</p>' + (f'<ul class="rv-mini">{pc}</ul>' if pc else '') + (f'<p class="gr-single">{e(g["single"])}: <b>{e(rv["single"])}</b></p>' if rv.get('single') else '') + f'<p class="gr-yt-src">{e(g["vid"])}: YouTube · {e(v.get("ch", ""))}</p><a class="gr-more" href="{art_url(it, l)}">{e(g["more"])}</a></div></article>')
     def small(it):
         return (f'<article class="gs"><a href="{art_url(it, l)}"><div class="gs-img"{cover_style(it)}>' + ('<span class="rt-play" aria-hidden="true">▶</span>' if it.get('yt') else '') +
                 f'</div>{kick(it, l)}<h3>{e(it[l]["t"])}</h3></a></article>')
@@ -737,7 +761,7 @@ def media_article(it, l, paras, facts, noadv, rel, side, SX):
             f'<div class="gp-main"><article class="gp-panel ga-panel">{kick(it, l)}' + (f'<div class="gr-score">{e(sc)}</div>' if sc else '') +
             f'{(f'<p class="ov-line">{e(T["ov"])}</p>' if T.get("ov") else "")}<h1 class="ga-h1">{e(T["t"])}</h1>{(f'<p class="sub-h">{e(T["st"])}</p>' if T.get("st") else "")}' + (f'<p class="gr-meta">{e(meta)}</p>' if meta else '') + f'<p class="ga-dek">{e(T["d"])}</p>'
             f'<div class="byline meta ga-by"><span>{e(byline(it, l))}</span><time datetime="{iso(it)}">{PUBL[l]}: {short_date(it["date"], l)}, {it["time"]}{(" " + u["hour"]) if u["hour"] else ""}</time><span>{u["read"].format(m=read_min(it, l))}</span></div>'
-            f'{media}{single}<div class="body ga-body">{paras}</div>{facts}{noadv}<div class="sources ga-src"><h2>{e(u["src"])}</h2><ul>{LI(it["src"])}</ul></div>'
+            f'{media}{single}{rv_box(it, l)}<div class="body ga-body">{paras}</div>{facts}{noadv}<div class="sources ga-src"><h2>{e(u["src"])}</h2><ul>{LI(it["src"])}</ul></div>'
             + (f'<h2 class="gp-h">{e(u["more"])}</h2><div class="gs-grid">{"".join(small(x) for x in rel)}</div>' if rel else '') +
             f'<p class="ga-back"><a href="{sec_home(kind, l, it.get('sub'))}">← {e(SEC[l][kind][0])}</a></p></article>'
             f'<aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{side}</aside></div></div>')
