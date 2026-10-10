@@ -1,13 +1,13 @@
 {
- "checked": "2026-10-09T14:56Z",
+ "checked": "2026-10-10T05:28Z",
  "ok": false,
  "problems": [
-  "13 Suchmaschinen-Anfragen in 24 h blockiert (Regel: Block AI training crawlers - BOBA-199)"
+  "3 Suchmaschinen-Anfragen in 24 h blockiert (Regel: Block AI training crawlers - BOBA-199)"
  ],
  "zone": "d4427ba31402632effc6d451e532be51",
  "graphql_errors": {},
  "source": "fwa",
- "blocked_search_bots_24h": 13,
+ "blocked_search_bots_24h": 3,
  "last_block_utc": "2026-10-09T13:55:09Z",
  "blocked_detail": [
   {
@@ -31,62 +31,6 @@
    "source": "firewallManaged",
    "description": "Block AI training crawlers - BOBA-199",
    "clientRequestPath": "/de/",
-   "clientAsn": "15169",
-   "count": 1
-  },
-  {
-   "action": "block",
-   "source": "firewallManaged",
-   "description": "Block AI training crawlers - BOBA-199",
-   "clientRequestPath": "/en/",
-   "clientAsn": "15169",
-   "count": 1
-  },
-  {
-   "action": "block",
-   "source": "firewallManaged",
-   "description": "Block AI training crawlers - BOBA-199",
-   "clientRequestPath": "/en/about.html",
-   "clientAsn": "15169",
-   "count": 1
-  },
-  {
-   "action": "block",
-   "source": "firewallManaged",
-   "description": "Block AI training crawlers - BOBA-199",
-   "clientRequestPath": "/za-nas.html",
-   "clientAsn": "15169",
-   "count": 1
-  },
-  {
-   "action": "block",
-   "source": "firewallManaged",
-   "description": "Block AI training crawlers - BOBA-199",
-   "clientRequestPath": "/de/ueber-uns.html",
-   "clientAsn": "15169",
-   "count": 1
-  },
-  {
-   "action": "block",
-   "source": "firewallManaged",
-   "description": "Block AI training crawlers - BOBA-199",
-   "clientRequestPath": "/news-sitemap.xml",
-   "clientAsn": "15169",
-   "count": 1
-  },
-  {
-   "action": "block",
-   "source": "firewallManaged",
-   "description": "Block AI training crawlers - BOBA-199",
-   "clientRequestPath": "/sitemap.xml",
-   "clientAsn": "15169",
-   "count": 1
-  },
-  {
-   "action": "block",
-   "source": "firewallManaged",
-   "description": "Block AI training crawlers - BOBA-199",
-   "clientRequestPath": "/en/",
    "clientAsn": "15169",
    "count": 1
   }
