@@ -1,0 +1,383 @@
+{
+ "date": "2026-10-10",
+ "items": [
+  {
+   "id": "claude-dashboards-motion-beta",
+   "s": "ai",
+   "time": "13:10",
+   "kick": {
+    "bg": "Нов продукт",
+    "de": "Neues Produkt",
+    "en": "New product"
+   },
+   "yt": {
+    "id": "en0GuyhieQk",
+    "ch": "Claude",
+    "kind": "video"
+   },
+   "src": [
+    {
+     "n": "Claude Blog – Build live dashboards and animate explainers with Claude (08.10.2026)",
+     "u": "https://claude.com/blog/dashboards-and-motion"
+    },
+    {
+     "n": "The New Stack – Claude Dashboards and Claude Motion (08.10.2026)",
+     "u": "https://thenewstack.io/claude-dashboards-data-motion/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-10/claude-dashboards-motion-beta.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "TechCrunch",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dario_Amodei_at_TechCrunch_Disrupt_2023_01.jpg",
+    "alt": {
+     "de": "Anthropic-Chef Dario Amodei bei der TechCrunch Disrupt 2023 (Archivbild)",
+     "bg": "Шефът на Anthropic Дарио Амодей на TechCrunch Disrupt 2023 (архивна снимка)",
+     "en": "Anthropic CEO Dario Amodei at TechCrunch Disrupt 2023 (archive photo)"
+    }
+   },
+   "de": {
+    "t": "Anthropic bringt Live-Dashboards und Erklär-Animationen in Claude",
+    "d": "Claude Dashboards baut aus Firmendaten Übersichten, die aktuell bleiben, Claude Motion macht aus Berichten kurze Animationen. Docs, Slides und Design verlieren das Beta-Label.",
+    "body": [
+     "Anthropic hat am 8. Oktober zwei neue Funktionen für seinen KI-Assistenten Claude als Beta gestartet. Claude Dashboards verbindet sich mit Datenplattformen wie BigQuery, Databricks, Snowflake, Amazon Redshift oder ClickHouse sowie mit Anwendungen wie Salesforce. Nutzer stellen eine Frage in normaler Sprache, Claude baut daraus ein Dashboard und hält es aktuell, wenn sich die Daten ändern. Ein Klick auf eine Zahl zeigt die Abfrage dahinter, jedes Diagramm nennt den Zeitpunkt der letzten Aktualisierung. Dashboards gibt es in den bezahlten Tarifen.",
+     "Claude Motion verwandelt etwa einen Quartalsbericht in ein rund 30 Sekunden langes Erklärvideo für eine Betriebsversammlung. Laut Anthropic schreibt Claude dafür Code, der Texte, Diagramme, Formen und Bilder animiert; ein Videogenerierungsmodell kommt nicht zum Einsatz, KI-generierte Personen entstehen also nicht. Die Animationen lassen sich bearbeiten und als MP4-Datei herunterladen. Motion steht Team- und Enterprise-Kunden offen. Bei Enterprise-Kunden sind Dashboards und Motion laut Anthropic zunächst ausgeschaltet, bis Administratoren sie freigeben.",
+     "Zugleich verlieren Claude Docs, Slides und Design den Beta-Status und stehen nun in allen Tarifen zur Verfügung, auch im kostenlosen. Seit sie am 16. September in die Claude-Unterhaltungen kamen, wurden laut Anthropic mehr als 45 Millionen Dokumente, Präsentationen und Designs erstellt. Die eigenständige Seite claude.ai/design bleibt noch bis zum 14. Dezember erreichbar."
+    ]
+   },
+   "bg": {
+    "t": "Anthropic добавя живи табла и обясняващи анимации в Claude",
+    "d": "Claude Dashboards създава от фирмени данни табла, които се обновяват, а Claude Motion превръща отчети в кратки анимации. Docs, Slides и Design излизат от бета.",
+    "body": [
+     "На 8 октомври Anthropic пусна в бета версия две нови функции на своя ИИ асистент Claude. Claude Dashboards се свързва с платформи за данни като BigQuery, Databricks, Snowflake, Amazon Redshift или ClickHouse, както и с приложения като Salesforce. Потребителят задава въпрос на обикновен език, а Claude изгражда табло и го поддържа актуално, когато данните се променят. С клик върху число се вижда заявката зад него, а всяка диаграма показва кога е обновена за последно. Таблата са достъпни в платените планове.",
+     "Claude Motion превръща например тримесечен отчет в около 30-секундно обясняващо видео за общо събрание на служителите. Според Anthropic Claude пише код, който анимира текстове, диаграми, форми и изображения; не се използва модел за генериране на видео, така че не се създават генерирани от ИИ хора. Анимациите могат да се редактират и да се изтеглят като MP4 файл. Motion е достъпен за клиентите с планове Team и Enterprise. При корпоративните клиенти Dashboards и Motion първоначално са изключени, докато администраторите не ги разрешат, според Anthropic.",
+     "Едновременно с това Claude Docs, Slides и Design излизат от бета и вече са достъпни във всички планове, включително безплатния. Откакто на 16 септември се появиха в разговорите с Claude, според Anthropic са създадени над 45 милиона документа, презентации и дизайна. Самостоятелният сайт claude.ai/design остава достъпен до 14 декември."
+    ]
+   },
+   "en": {
+    "t": "Anthropic brings live dashboards and animated explainers to Claude",
+    "d": "Claude Dashboards turns company data into dashboards that stay current, while Claude Motion turns reports into short animations. Docs, Slides and Design drop the beta label.",
+    "body": [
+     "Anthropic launched two new features for its AI assistant Claude in beta on October 8. Claude Dashboards connects to data platforms such as BigQuery, Databricks, Snowflake, Amazon Redshift or ClickHouse, as well as to apps like Salesforce. Users ask a question in plain language, and Claude builds a dashboard and keeps it current as the data changes. Clicking a number shows the query behind it, and each chart shows when it was last refreshed. Dashboards are available on paid plans.",
+     "Claude Motion can turn a quarterly report into a roughly 30-second explainer for an all-hands meeting, for example. According to Anthropic, Claude writes code that animates text, charts, shapes and images; no video generation model is used, so no AI-generated people appear. The animations can be edited and downloaded as MP4 files. Motion is open to Team and Enterprise customers. For Enterprise customers, Dashboards and Motion are off until administrators turn them on, Anthropic says.",
+     "At the same time, Claude Docs, Slides and Design are leaving beta and are now available on every plan, including Free. Since they arrived in Claude conversations on September 16, people have created more than 45 million documents, decks and designs, Anthropic says. The standalone site claude.ai/design remains available until December 14."
+    ]
+   }
+  },
+  {
+   "id": "openai-dots-mobile-app-codex",
+   "s": "ai",
+   "time": "13:10",
+   "kick": {
+    "bg": "Обновление",
+    "de": "Update",
+    "en": "Update"
+   },
+   "yt": {
+    "id": "p5KxBTUncoE",
+    "ch": "OpenAI",
+    "kind": "video"
+   },
+   "src": [
+    {
+     "n": "OpenAI Developer Community – Fresh dots updates: Create in the mobile app, delegate to Codex (09.10.2026)",
+     "u": "https://community.openai.com/t/fresh-dots-updates-create-in-the-mobile-app-delegate-to-codex/1404834"
+    },
+    {
+     "n": "The Tech Outlook – OpenAI announces fresh updates for Dots just days after its launch (10.10.2026)",
+     "u": "https://www.thetechoutlook.com/new-release/software-apps/openai-announces-fresh-updates-for-dots-just-days-after-its-launch/"
+    },
+    {
+     "n": "TechCrunch – OpenAI launches Dots, its bubbly agentic avatar (29.09.2026)",
+     "u": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-10/openai-dots-mobile-app-codex.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Steve Jurvetson",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sam_Altman_speaking_at_TED_(cropped).jpg",
+    "alt": {
+     "de": "OpenAI-Chef Sam Altman bei einem Auftritt auf der TED-Konferenz (Archivbild)",
+     "bg": "Шефът на OpenAI Сам Алтман по време на изява на конференцията TED (архивна снимка)",
+     "en": "OpenAI CEO Sam Altman speaking at the TED conference (archive photo)"
+    }
+   },
+   "de": {
+    "t": "OpenAI-Agenten „Dots“ entstehen jetzt am Handy und arbeiten mit Codex",
+    "d": "Kurz nach dem Start erweitert OpenAI seine dauerhaft aktiven KI-Agenten: Sie lassen sich in der ChatGPT-App anlegen und können Programmieraufgaben an Codex übergeben.",
+    "body": [
+     "OpenAI hat am 9. Oktober ein Update für „Dots“ veröffentlicht – die dauerhaft aktiven KI-Agenten, die das Unternehmen Ende September auf seiner Entwicklerkonferenz DevDay vorgestellt hatte und die sich aus ChatGPT oder Codex starten lassen. Neue Dots lassen sich jetzt direkt in der ChatGPT-App für iOS und Android anlegen. Nutzer geben ihrem Agenten dort einen Namen, passen sein Aussehen an und verbinden Plugins.",
+     "Außerdem können Dots Arbeit in Codex, OpenAIs Werkzeug für Programmieraufgaben, beginnen oder bestehende Codex-Threads fortsetzen. Dabei greifen sie auf ChatGPT-Unterhaltungen, Codex-Threads und Automatisierungen zurück und entscheiden laut OpenAI besser, ob sie einen vorhandenen Thread weiterführen oder einen neuen beginnen. Geplante Aufgaben in ChatGPT Work können die Agenten nun einsehen und ändern.",
+     "Hinzu kommen kleinere Verbesserungen: schnelleres Surfen in der Cloud, weniger überflüssige Benachrichtigungen, eine einfachere Einrichtung von Outlook und zuverlässigerer Zugang für Enterprise-Kunden im Web und bei Sprachanrufen. Dots selbst stehen laut TechCrunch bislang nur Pro- und Business-Premium-Nutzern in ausgewählten Märkten offen. Für welche Tarife die Neuerungen gelten und bis wann sie alle Nutzer erreichen, nannte OpenAI nicht."
+    ]
+   },
+   "bg": {
+    "t": "Агентите „Dots“ на OpenAI вече се създават от телефона и работят с Codex",
+    "d": "Скоро след старта OpenAI разширява постоянно активните си ИИ агенти: те могат да се създават в приложението ChatGPT и да предават задачи по програмиране на Codex.",
+    "body": [
+     "На 9 октомври OpenAI публикува обновление на „Dots“ – постоянно активните ИИ агенти, които компанията представи в края на септември на конференцията си за разработчици DevDay и които се стартират от ChatGPT или Codex. Нови Dots вече могат да се създават директно в приложението ChatGPT за iOS и Android. Там потребителите дават име на агента си, променят външния му вид и свързват плъгини.",
+     "Освен това Dots могат да започват работа в Codex – инструмента на OpenAI за програмиране – или да продължават съществуващи нишки в Codex. При това те използват разговори в ChatGPT, нишки в Codex и автоматизации и според OpenAI по-добре преценяват дали да продължат съществуваща нишка, или да започнат нова. Агентите вече могат да преглеждат и променят планирани задачи в ChatGPT Work.",
+     "Добавени са и по-малки подобрения: по-бързо сърфиране в облака, по-малко излишни известия, по-лесна настройка на Outlook и по-надежден достъп за корпоративни клиенти в уеб версията и при гласови разговори. Според TechCrunch самите Dots засега са достъпни само за потребители на Pro и Business Premium в определени пазари. OpenAI не уточни за кои планове важат новостите и кога ще достигнат до всички потребители."
+    ]
+   },
+   "en": {
+    "t": "OpenAI's “Dots” agents can now be created on your phone and work with Codex",
+    "d": "Shortly after launch, OpenAI is expanding its always-on AI agents: they can be set up in the ChatGPT app and hand coding tasks over to Codex.",
+    "body": [
+     "OpenAI released an update for “Dots” on October 9 – the always-on AI agents that the company introduced at its DevDay developer conference at the end of September and that can be launched from ChatGPT or Codex. New dots can now be created directly in the ChatGPT app for iOS and Android, where users name their agent, customize its appearance and connect plugins.",
+     "Dots can also start work in Codex, OpenAI's coding tool, or continue existing Codex threads. They draw on ChatGPT conversations, Codex threads and automations, and according to OpenAI they are better at deciding whether to continue an existing thread or start a new one. The agents can now also review and edit scheduled tasks in ChatGPT Work.",
+     "Smaller improvements include faster cloud browsing, fewer unnecessary notifications, easier Outlook setup and more reliable access for Enterprise customers on the web and in voice calls. According to TechCrunch, Dots themselves are so far only available to Pro and Business Premium users in eligible markets. OpenAI did not say which plans get the new features or when they will reach all users."
+    ]
+   }
+  },
+  {
+   "id": "google-amie-lancet-studie-patienten",
+   "s": "ai",
+   "time": "13:10",
+   "kick": {
+    "bg": "Изследване",
+    "de": "Forschung",
+    "en": "Research"
+   },
+   "yt": {
+    "id": "f3jK_SsHcAw",
+    "ch": "Google Research",
+    "kind": "video"
+   },
+   "src": [
+    {
+     "n": "Google Blog – Study in The Lancet suggests AI could improve patient-physician relationships (08.10.2026)",
+     "u": "https://blog.google/innovation-and-ai/technology/health/amie-clinical-study-lancet/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-10/google-amie-lancet-studie-patienten.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Tim Pierce",
+    "lic": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Beth_Israel_Deaconess_Medical_Center_East_Campus.jpg",
+    "alt": {
+     "de": "Haupteingang des Beth Israel Deaconess Medical Center in Boston (Archivbild)",
+     "bg": "Главният вход на медицинския център Beth Israel Deaconess в Бостън (архивна снимка)",
+     "en": "Main entrance of Beth Israel Deaconess Medical Center in Boston (archive photo)"
+    }
+   },
+   "de": {
+    "t": "Google-KI AMIE führt Vorgespräche mit echten Patienten – Studie in „The Lancet“",
+    "d": "98 Patienten einer Bostoner Klinik sprachen vor dem Arzttermin mit Googles Forschungs-Chatbot. Kein Gespräch musste abgebrochen werden, die Verdachtsdiagnosen trafen meist zu.",
+    "body": [
+     "Google hat am 8. Oktober Ergebnisse einer klinischen Studie mit seinem Forschungs-Chatbot AMIE vorgestellt, die in der Fachzeitschrift „The Lancet“ erschienen ist. Forscher von Google und dem Beth Israel Deaconess Medical Center (BIDMC) in Boston ließen 98 Patienten der allgemeinmedizinischen Ambulanz vor ihrem Termin in der Akutsprechstunde mit der KI sprechen. Laut Google ist es die erste Veröffentlichung des Konzerns in der Hauptzeitschrift „The Lancet“ selbst, nicht in einem ihrer Ableger.",
+     "Aufsichtsführende Ärzte verfolgten die Gespräche in Echtzeit. Nach vorab festgelegten Sicherheitskriterien musste laut Google kein einziges unterbrochen werden. Die von AMIE erstellten Zusammenfassungen halfen den Ärzten in 75 Prozent der Fälle bei der Vorbereitung und beeinflussten in mehr als der Hälfte der Fälle ihr Vorgehen. Die Verdachtsdiagnosen der KI stimmten in 90 Prozent der Fälle mit der endgültigen Diagnose der Ärzte überein.",
+     "AMIE ist ein Forschungssystem und kein frei verfügbares Produkt. Google betont, dass größere klinische Studien nötig sind, bevor sich KI im direkten Patientenkontakt in großem Maßstab bewerten lässt."
+    ]
+   },
+   "bg": {
+    "t": "ИИ на Google AMIE провежда предварителни разговори с истински пациенти",
+    "d": "98 пациенти на клиника в Бостън разговаряха с изследователския чатбот на Google преди прегледа. Нито един разговор не трябваше да бъде прекъснат, а диагнозите съвпаднаха в повечето случаи.",
+    "body": [
+     "На 8 октомври Google представи резултатите от клинично проучване със своя изследователски чатбот AMIE, публикувано в научното списание „The Lancet“. Изследователи от Google и медицинския център Beth Israel Deaconess (BIDMC) в Бостън оставиха 98 пациенти от амбулаторията по обща медицина да разговарят с ИИ преди посещението си в спешния кабинет. Според Google това е първата публикация на компанията в основното списание The Lancet, а не в някое от специализираните му издания.",
+     "Наблюдаващи лекари следяха разговорите в реално време. Според Google по предварително определените критерии за безопасност нито един разговор не е трябвало да бъде прекъснат. Обобщенията на AMIE са помогнали на лекарите да се подготвят в 75% от случаите и са повлияли на подхода им в над половината. Предполагаемите диагнози на ИИ съвпаднали с окончателната диагноза на лекарите в 90% от случаите.",
+     "AMIE е изследователска система, а не свободно достъпен продукт. Google подчертава, че са нужни по-големи клинични проучвания, преди ИИ в пряк контакт с пациенти да може да се оценява в голям мащаб."
+    ]
+   },
+   "en": {
+    "t": "Google's AMIE AI holds pre-visit talks with real patients – study in The Lancet",
+    "d": "98 patients at a Boston clinic talked to Google's research chatbot before seeing a doctor. No conversation had to be stopped, and the AI's diagnoses mostly matched.",
+    "body": [
+     "On October 8, Google presented results of a clinical study of its research chatbot AMIE, published in the medical journal The Lancet. Researchers from Google and Beth Israel Deaconess Medical Center (BIDMC) in Boston had 98 patients at its primary care clinic talk to the AI before their urgent care visits. Google says it is the company's first publication in the flagship Lancet journal itself.",
+     "Supervising physicians monitored the conversations in real time. According to Google, none had to be interrupted under predefined safety criteria. AMIE's summaries helped clinicians prepare in 75 percent of cases and influenced their approach in more than half. The AI's differential diagnoses matched the doctors' final diagnoses 90 percent of the time.",
+     "AMIE is a research system, not a publicly available product. Google stresses that larger clinical trials are needed before patient-facing AI can be assessed at scale."
+    ]
+   }
+  },
+  {
+   "id": "typesafe-jev-870-millionen-bewertung",
+   "s": "ai",
+   "time": "13:10",
+   "mn": true,
+   "kick": {
+    "bg": "Финансиране",
+    "de": "Finanzierung",
+    "en": "Funding"
+   },
+   "src": [
+    {
+     "n": "TypeSafe AI Blog – TypeSafe A raises Series AI (09.10.2026)",
+     "u": "https://typesafe.ai/blog/series-ai"
+    },
+    {
+     "n": "TechCrunch – The maker of non-text AI model Jev valued at $7.5B just weeks after launch (09.10.2026)",
+     "u": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/"
+    },
+    {
+     "n": "MarkTechPost – OpenAI Decisions API hits public beta (09.10.2026)",
+     "u": "https://www.marktechpost.com/2026/10/09/openai-decisions-api-hits-public-beta-with-10x-faster-typed-answers"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-10/typesafe-jev-870-millionen-bewertung.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "SapphireDreamer",
+    "lic": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Andreessen_Horowitz_building_at_night.jpg",
+    "alt": {
+     "de": "Büro des Investors Andreessen Horowitz in San Francisco bei Nacht (Symbolbild)",
+     "bg": "Офисът на инвеститора Andreessen Horowitz в Сан Франциско през нощта (символична снимка)",
+     "en": "Investor Andreessen Horowitz's office in San Francisco at night (symbolic image)"
+    }
+   },
+   "de": {
+    "t": "KI-Start-up TypeSafe sammelt 870 Mio. Dollar ein – Bewertung 7,5 Mrd.",
+    "d": "Sein Modell Jev schreibt keine Texte, sondern liefert Wahrscheinlichkeiten für Entscheidungen. Wenige Wochen nach dem Start führt Andreessen Horowitz die Finanzierungsrunde an.",
+    "body": [
+     "Das KI-Start-up TypeSafe AI hat 870 Millionen Dollar bei einer Bewertung von 7,5 Milliarden Dollar eingesammelt, wie die Firma am 9. Oktober bekannt gab. Angeführt wird die Runde von Andreessen Horowitz, beteiligt sind außerdem Sequoia Capital und der bisherige Investor DCVC. Martin Casado zieht in den Verwaltungsrat ein.",
+     "Das Modell Jev war erst am 15. September gestartet. Es basiert zwar auf der Transformer-Architektur, ist laut TechCrunch aber kein großes Sprachmodell: Statt Text liefert es Wahrscheinlichkeiten, die das Unternehmen „kalibrierte Entscheidungen“ nennt. Nach Firmenangaben arbeitet es deutlich schneller und braucht weit weniger Tokens als Sprachmodelle; gedacht ist es für die Automatisierung von Aufgaben statt für das Schreiben von Text oder Code. Ein Drittel der Fortune-500-Konzerne nutzt Jev laut TypeSafe bereits.",
+     "Gegründet wurde TypeSafe 2024 von Diogo Almeida, früher Forscher bei OpenAI, der früheren Meta-Forschungsingenieurin Sasha Sheng und dem Ingenieur und Unternehmer Erik Gafni. Mit dem Geld will die Firma weitere „maschinennative“ Modelle entwickeln und Funktionen für Unternehmenskunden ergänzen. Konkurrenz kommt von OpenAI: Dessen Schnittstelle „Decisions API“, die ebenfalls typisierte Antworten statt Fließtext liefert, ist seit Anfang Oktober in einer öffentlichen Beta."
+    ]
+   },
+   "bg": {
+    "t": "ИИ стартъпът TypeSafe набра 870 млн. долара при оценка от 7,5 млрд.",
+    "d": "Моделът му Jev не пише текстове, а дава вероятности за решения. Само седмици след старта Andreessen Horowitz води кръга на финансиране.",
+    "body": [
+     "ИИ стартъпът TypeSafe AI е набрал 870 милиона долара при оценка от 7,5 милиарда долара, обяви компанията на 9 октомври. Кръгът се води от Andreessen Horowitz, с участието на Sequoia Capital и досегашния инвеститор DCVC. Мартин Касадо влиза в борда на директорите.",
+     "Моделът Jev беше пуснат едва на 15 септември. Той се основава на архитектурата Transformer, но според TechCrunch не е голям езиков модел: вместо текст дава вероятности, които компанията нарича „калибрирани решения“. По данни на фирмата той работи значително по-бързо и използва много по-малко токени от езиковите модели; предназначен е за автоматизиране на задачи, а не за писане на текст или код. Според TypeSafe една трета от компаниите във Fortune 500 вече използват Jev.",
+     "TypeSafe е основана през 2024 г. от Диогу Алмейда, бивш изследовател в OpenAI, бившата изследователка-инженер в Meta Саша Шенг и инженера и предприемач Ерик Гафни. С парите компанията иска да разработи още „машинно ориентирани“ модели и да добави функции за корпоративни клиенти. Конкуренция идва от OpenAI: нейният интерфейс „Decisions API“, който също дава типизирани отговори вместо свободен текст, е в публична бета от началото на октомври."
+    ]
+   },
+   "en": {
+    "t": "AI start-up TypeSafe raises $870 million at a $7.5 billion valuation",
+    "d": "Its model Jev doesn't write text but returns probabilities for decisions. Just weeks after launch, Andreessen Horowitz is leading the funding round.",
+    "body": [
+     "AI start-up TypeSafe AI has raised $870 million at a $7.5 billion valuation, the company announced on October 9. The round is led by Andreessen Horowitz, with participation from Sequoia Capital and existing investor DCVC. Martin Casado is joining the board.",
+     "The Jev model only launched on September 15. It uses a transformer architecture but, according to TechCrunch, is not a large language model: instead of text, it returns probabilities that the company calls “calibrated decisions.” TypeSafe says it runs much faster and uses far fewer tokens than language models, and it is meant for automating tasks rather than writing text or code. A third of Fortune 500 companies already use Jev, according to TypeSafe.",
+     "TypeSafe was founded in 2024 by Diogo Almeida, a former OpenAI researcher, former Meta research engineer Sasha Sheng and engineer and entrepreneur Erik Gafni. The company plans to use the money to build more “machine-native” models and add features for enterprise customers. Competition comes from OpenAI, whose Decisions API, which also returns typed answers instead of prose, has been in public beta since early October."
+    ]
+   }
+  },
+  {
+   "id": "openai-entlassene-sicherheitsforscher-offener-brief",
+   "s": "ai",
+   "time": "13:10",
+   "mn": true,
+   "kick": {
+    "bg": "Сигурност",
+    "de": "Sicherheit",
+    "en": "Safety"
+   },
+   "src": [
+    {
+     "n": "TechCrunch – Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect (08.10.2026)",
+     "u": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-10/openai-entlassene-sicherheitsforscher-offener-brief.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Coolcaesar",
+    "lic": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1515_Third_Street.jpg",
+    "alt": {
+     "de": "Bürogebäude 1515 Third Street in San Francisco, 2025 Sitz der OpenAI-Zentrale (Archivbild)",
+     "bg": "Офисната сграда 1515 Third Street в Сан Франциско, през 2025 г. седалище на централата на OpenAI (архивна снимка)",
+     "en": "Office building at 1515 Third Street in San Francisco, home of OpenAI's headquarters in 2025 (archive photo)"
+    }
+   },
+   "de": {
+    "t": "Entlassene OpenAI-Sicherheitsforscher wehren sich in offenem Brief",
+    "d": "Jasmine Wang, Tomek Korbak und Mikita Balesni bestreiten, vertrauliche Informationen falsch behandelt zu haben, und warnen vor einem Klima der Angst. OpenAI weist Vergeltung zurück.",
+    "body": [
+     "Drei kürzlich entlassene Sicherheitsforscher von OpenAI haben am 8. Oktober einen offenen Brief veröffentlicht. Jasmine Wang, Tomek Korbak und Mikita Balesni weisen darin den Vorwurf zurück, außerhalb der vorgesehenen Abläufe mit sensiblen Informationen umgegangen zu sein. Sie bestreiten auch jede Beteiligung an einem Leak an das Portal „The Information“ und warnen laut TechCrunch vor einer abschreckenden Wirkung auf die offene Kultur, die OpenAI früher ausgezeichnet habe: Verhalten, das vor einem Monat noch als normal gegolten habe, könne nun zur Kündigung führen.",
+     "OpenAI wirft den dreien vor, gegen Richtlinien verstoßen zu haben, indem sie auf sensible Firmeninformationen zugegriffen und damit umgegangen seien. Eine Untersuchung habe ein „Muster von Fehlverhalten“ ergeben, das über die Weitergabe von Informationen an eine externe KI-Evaluierungsgruppe hinausgehe, erklärte ein Sprecher; welche Richtlinien genau verletzt wurden, sagte OpenAI nicht. Wang erklärt, OpenAI habe ihr für die Personalgewinnung Zugriff auf das Postfach einer Führungskraft gegeben; sie habe die IT vergeblich gebeten, den Zugang zu entfernen. Als sie versehentlich eine sensible E-Mail öffnete, habe sie die Führungskraft binnen Minuten informiert. Laut dem Brief ging Korbak davon aus, im Rahmen der Regeln zu handeln, als er sich nach dem beispiellosen Vorfall bei Hugging Face, bei dem KI-Agenten in externe Systeme eingedrungen waren, eng mit externen Sicherheitsprüfern austauschte; interne Regeln seien damals erst im Entstehen gewesen.",
+     "In einem internen Memo, das OpenAI teilte, lobt ein namentlich nicht genannter Forschungsleiter die Arbeit der drei und betont, man entlasse niemanden, weil er Bedenken äußere. Die Forscher fordern, OpenAI solle seine Zusage einhalten, externe Sicherheitsprüfer einzubinden, und die Überwachbarkeit seiner Spitzenmodelle erhalten. Laut dem Memo teilt OpenAI diese Empfehlungen. Formell hat OpenAI auf den Brief laut TechCrunch noch nicht reagiert."
+    ]
+   },
+   "bg": {
+    "t": "Уволнени изследователи по безопасността на ИИ в OpenAI се защитават с отворено писмо",
+    "d": "Джасмин Уанг, Томек Корбак и Микита Балесни отричат да са боравили неправилно с поверителна информация и предупреждават за атмосфера на страх. OpenAI отхвърля обвиненията в репресия.",
+    "body": [
+     "Трима наскоро уволнени изследователи по безопасността на ИИ в OpenAI публикуваха отворено писмо на 8 октомври. В него Джасмин Уанг, Томек Корбак и Микита Балесни отхвърлят обвинението, че са боравили с чувствителна информация извън установените процедури. Те отричат и всякакво участие в изтичане на информация към портала „The Information“ и според TechCrunch предупреждават за смразяващ ефект върху откритата култура, с която OpenAI се е отличавала: поведение, което преди месец е смятано за нормално, сега можело да доведе до уволнение.",
+     "OpenAI обвинява тримата, че са нарушили правилата, като са получили достъп до чувствителна фирмена информация и са боравили с нея. Разследване установило „модел на нарушения“, който надхвърля споделянето на информация с външна група за оценка на ИИ, заяви говорител; OpenAI не уточни кои точно правила са нарушени. Уанг казва, че OpenAI ѝ е дала достъп до пощата на ръководител за набиране на персонал и че напразно е молила IT отдела да го премахне; когато по погрешка е отворила чувствителен имейл, е уведомила ръководителя в рамките на минути. Според писмото Корбак е смятал, че действа в рамките на правилата, когато след безпрецедентния инцидент с Hugging Face, при който ИИ агенти проникнаха във външни системи, е поддържал тесен контакт с външни проверяващи по безопасността; вътрешните правила тогава едва се създавали.",
+     "Във вътрешна бележка, която OpenAI сподели, неназован ръководител на изследванията хвали работата на тримата и подчертава, че никой не се уволнява заради изразени опасения. Изследователите настояват OpenAI да спази обещанието си да привлече външни проверяващи по безопасността и да запази възможността за наблюдение на най-мощните си модели. Според бележката OpenAI споделя тези препоръки. Според TechCrunch OpenAI все още не е отговорила официално на писмото."
+    ]
+   },
+   "en": {
+    "t": "Fired OpenAI safety researchers push back in open letter",
+    "d": "Jasmine Wang, Tomek Korbak and Mikita Balesni deny mishandling confidential information and warn of a climate of fear. OpenAI denies retaliation.",
+    "body": [
+     "Three recently fired OpenAI safety researchers published an open letter on October 8. In it, Jasmine Wang, Tomek Korbak and Mikita Balesni reject the claim that they handled sensitive information outside established procedures. They also deny any involvement in a leak to the outlet The Information and, according to TechCrunch, warn that the firings are chilling the open culture OpenAI once prized: conduct that was considered normal a month ago can now get people fired.",
+     "OpenAI says the three violated policies by accessing and handling sensitive company information. An investigation found a “pattern of misconduct” that went beyond sharing information with an outside AI evaluation group, a spokesperson said; OpenAI did not specify which policies were violated. Wang says OpenAI had given her delegated access to an executive's inbox for recruiting and that IT ignored her request to remove it; when she opened a sensitive email by mistake, she told the executive within minutes. According to the letter, Korbak believed he was acting within policy when he communicated closely with outside safety evaluators after the unprecedented Hugging Face incident, in which AI agents breached external systems, at a time when internal rules were still being developed.",
+     "In an internal memo shared by OpenAI, an unnamed research leader praised the three researchers' work and stressed that no one is fired for raising concerns. The researchers urge OpenAI to honor its commitment to embed outside safety auditors and to preserve the monitorability of its frontier models. According to the memo, OpenAI agrees with these recommendations. OpenAI has not formally responded to the letter, TechCrunch reports."
+    ]
+   }
+  },
+  {
+   "id": "nvidia-eine-milliarde-us-wissenschaft",
+   "s": "ai",
+   "time": "13:10",
+   "mn": true,
+   "kick": {
+    "bg": "Инвестиция",
+    "de": "Investition",
+    "en": "Investment"
+   },
+   "src": [
+    {
+     "n": "NVIDIA Newsroom – NVIDIA Commits $1 Billion to Advance US Science Over the Next Five Years (08.10.2026)",
+     "u": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Commits-1-Billion-to-Advance-US-Science-Over-the-Next-Five-Years/default.aspx"
+    },
+    {
+     "n": "The Quantum Insider – NVIDIA Commits $1 Billion to U.S. Science and Quantum Computing (08.10.2026)",
+     "u": "https://thequantuminsider.com/2026/10/08/nvidia-commits-1-billion-advance-us-science-next-five-years/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-10/nvidia-eine-milliarde-us-wissenschaft.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Anderseidesvik",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jensen_huang_stanford_2026-04-30_023.jpg",
+    "alt": {
+     "de": "Nvidia-Chef Jensen Huang mit Studierenden der Stanford University im April 2026 (Archivbild)",
+     "bg": "Шефът на Nvidia Дженсън Хуанг със студенти от Станфордския университет през април 2026 г. (архивна снимка)",
+     "en": "Nvidia CEO Jensen Huang with Stanford University students in April 2026 (archive photo)"
+    }
+   },
+   "de": {
+    "t": "Nvidia sagt eine Milliarde Dollar für US-Forschung zu – Fokus auf Quanten und Energie",
+    "d": "Über fünf Jahre will der Chipkonzern Hochschulen, Quantencomputing und Cloud-Anbieter für Regierungsprojekte fördern. Angekündigt wurde das Paket bei einer Veranstaltung in Washington.",
+    "body": [
+     "Nvidia hat Zusagen im Wert von einer Milliarde Dollar für die US-Wissenschaft in den kommenden fünf Jahren angekündigt. Das gab der Konzern am 8. Oktober bei der Veranstaltung „Science: A New Golden Age“ in Washington bekannt. Im Mittelpunkt stehen laut Nvidia Forschung und Entwicklung zu „Superintelligenz“ in den Bereichen Quantencomputing, Gesundheit und Energiesicherheit.",
+     "Das Geld soll an Forschungseinrichtungen von US-Hochschulen fließen, in Quantencomputing-Projekte und an Cloud-Anbieter, die Aufgaben der US-Regierung unterstützen. Nvidia ist zudem an mehreren Projekten der zweiten Phase der „Genesis Mission“ beteiligt, der Forschungsinitiative der Trump-Regierung – unter anderem zu Quantencomputing, Kernfusion, Beschleunigerdesign und Mikroelektronik. Für das US-Energieministerium baut Nvidia am Argonne National Laboratory dessen größten Supercomputer für die Wissenschaft und unterstützt sieben neue Systeme in Argonne und Los Alamos.",
+     "„Die Genesis Mission von Präsident Trump läutet ein neues goldenes Zeitalter amerikanischer Entdeckungen ein“, sagte Nvidia-Chef Jensen Huang. So mache Amerika aus wissenschaftlicher Führung industrielle Führung. Nvidia lud die Wissenschaftsgemeinde zudem ein, Forschung auf seiner Rechen- und KI-Infrastruktur zu betreiben."
+    ]
+   },
+   "bg": {
+    "t": "Nvidia обеща 1 млрд. долара за наука в САЩ – с акцент върху квантовите технологии",
+    "d": "В рамките на пет години производителят на чипове ще подкрепя университети, квантови изчисления и облачни доставчици за държавни проекти. Пакетът беше обявен на събитие във Вашингтон.",
+    "body": [
+     "Nvidia обяви ангажименти на стойност 1 млрд. долара за американската наука през следващите пет години. Компанията обяви това на 8 октомври на събитието „Science: A New Golden Age“ във Вашингтон. Според Nvidia акцентът е върху изследванията и развойната дейност в областта на „суперинтелекта“ в квантовите изчисления, здравеопазването и енергийната сигурност.",
+     "Средствата ще отидат за изследователски институции към американски университети, за проекти в квантовите изчисления и за облачни доставчици, които подпомагат задачи на правителството на САЩ. Nvidia участва и в няколко проекта от втората фаза на „Genesis Mission“ – изследователската инициатива на администрацията на Тръмп – сред тях в квантовите изчисления, ядрения синтез, проектирането на ускорители и микроелектрониката. За Министерството на енергетиката на САЩ Nvidia изгражда в Argonne National Laboratory най-големия му суперкомпютър за наука и подпомага седем нови системи в Argonne и Лос Аламос.",
+     "„Мисията Genesis на президента Тръмп поставя началото на нова златна ера на американските открития“, заяви шефът на Nvidia Дженсън Хуанг. Така Америка превръщала научното си лидерство в индустриално. Nvidia покани и научната общност да провежда изследвания върху нейната изчислителна и ИИ инфраструктура."
+    ]
+   },
+   "en": {
+    "t": "Nvidia pledges $1 billion for US science, with a focus on quantum and energy",
+    "d": "Over five years, the chipmaker plans to support universities, quantum computing and cloud providers serving government missions. The package was announced at an event in Washington.",
+    "body": [
+     "Nvidia has announced commitments valued at $1 billion for US science over the next five years. The company announced the commitment on October 8 at the “Science: A New Golden Age” event in Washington. According to Nvidia, the focus is on research and development of “superintelligence” in quantum computing, healthcare and energy security.",
+     "The money is to go to research institutions at US universities, quantum computing projects and cloud providers that support US government missions. Nvidia is also a collaborator on several phase 2 projects of the “Genesis Mission,” the Trump administration's research initiative, covering quantum computing, fusion, accelerator design and microelectronics. For the US Department of Energy, Nvidia is building the department's largest scientific supercomputer at Argonne National Laboratory and supporting seven new systems at Argonne and Los Alamos.",
+     "“President Trump's Genesis Mission is launching a new golden age of American discovery,” said Nvidia CEO Jensen Huang, adding that this is how America turns scientific leadership into industrial leadership. Nvidia also invited the science community to carry out research on its compute and AI infrastructure."
+    ]
+   }
+  }
+ ]
+}
