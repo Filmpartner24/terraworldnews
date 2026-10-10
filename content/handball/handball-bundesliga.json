@@ -727,7 +727,11 @@
    "t1": "TSV Hannover-Burgdorf",
    "t2": "SG Flensburg-Handewitt",
    "date": "2026-10-09",
-   "time": "19:00"
+   "time": "19:00",
+   "ft": [
+    32,
+    39
+   ]
   },
   {
    "r": 8,
@@ -901,55 +905,64 @@
    "r": 11,
    "t1": "SG Flensburg-Handewitt",
    "t2": "HBW Balingen-Weilstetten",
-   "date": "2026-10-29"
+   "date": "2026-10-29",
+   "time": "19:00"
   },
   {
    "r": 11,
    "t1": "Frisch Auf Göppingen",
    "t2": "VfL Gummersbach",
-   "date": "2026-10-29"
+   "date": "2026-10-29",
+   "time": "19:00"
   },
   {
    "r": 11,
    "t1": "SG BBM Bietigheim",
    "t2": "HC Erlangen",
-   "date": "2026-10-30"
+   "date": "2026-10-30",
+   "time": "19:00"
   },
   {
    "r": 11,
    "t1": "HSV Hamburg",
    "t2": "Rhein-Neckar-Löwen",
-   "date": "2026-10-30"
+   "date": "2026-10-30",
+   "time": "20:00"
   },
   {
    "r": 11,
    "t1": "TSV Hannover-Burgdorf",
    "t2": "Bergischer HC",
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "time": "19:00"
   },
   {
    "r": 11,
    "t1": "THW Kiel",
    "t2": "TVB 1898 Stuttgart",
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "time": "19:00"
   },
   {
    "r": 11,
    "t1": "TBV Lemgo",
    "t2": "SC Magdeburg",
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "time": "20:00"
   },
   {
    "r": 11,
    "t1": "HSG Wetzlar",
    "t2": "MT Melsungen",
-   "date": "2026-11-01"
+   "date": "2026-11-01",
+   "time": "15:00"
   },
   {
    "r": 11,
    "t1": "ThSV Eisenach",
    "t2": "Füchse Berlin",
-   "date": "2026-11-01"
+   "date": "2026-11-01",
+   "time": "16:30"
   },
   {
    "r": 16,
