@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?user=amazonwebservices"/>
+ <id>yt:channel:d6MoB9NC6uYN2grvUNT-Zg</id>
+ <yt:channelId>d6MoB9NC6uYN2grvUNT-Zg</yt:channelId>
+ <title>Amazon Web Services</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg"/>
+ <author>
+  <name>Amazon Web Services</name>
+  <uri>https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg</uri>
+ </author>
+ <published>2009-04-08T23:44:20+00:00</published>
+ <entry>
+  <id>yt:video:rJa3qKFBeNQ</id>
+  <yt:videoId>rJa3qKFBeNQ</yt:videoId>
+  <yt:channelId>UCd6MoB9NC6uYN2grvUNT-Zg</yt:channelId>
+  <title>How do I use SMTP to send emails through Amazon SES?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=rJa3qKFBeNQ"/>
+  <author>
+   <name>Amazon Web Services</name>
+   <uri>https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg</uri>
+  </author>
+  <published>2026-10-08T18:00:07+00:00</published>
+  <updated>2026-10-08T18:00:08+00:00</updated>
+  <media:group>
+   <media:title>How do I use SMTP to send emails through Amazon SES?</media:title>
+   <media:content url="https://www.youtube.com/v/rJa3qKFBeNQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/rJa3qKFBeNQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Want to send email through Amazon SES using SMTP? Olatunji shows how to find your SMTP endpoint and ports, create SMTP credentials, test the connection, and send a test email with a simple Python script.
+
+0:00 Introduction
+
+0:20 Find the SMTP endpoint and ports
+
+1:08 Create SMTP credentials
+
+1:50 Choose STARTTLS or TLS Wrapper
+
+2:06 Port 25 limits on Amazon EC2
+
+2:27 Test the SMTP connection
+
+3:03 Send a test email with Python
+
+4:05 Closing
+
+For more information, see the Knowledge Center article:
+https://repost.aws/knowledge-center/ses-set-up-connect-smtp
+
+This video is part of the AWS Knowledge Center series: trusted, expert-reviewed answers to common questions across AWS services.
+
+Subscribe to AWS: https://go.aws/subscribe
+
+Create a free AWS account: https://go.aws/signup 
+Try AWS for free: https://go.aws/free 
+Connect with an expert: https://go.aws/contact
+Explore more: https://go.aws/more
+
+Next steps:
+Explore on AWS in Analyst Research:  https://go.aws/reports
+Discover, deploy, and manage software that runs on AWS: https://go.aws/marketplace
+Join the AWS Partner Network: https://go.aws/partners 
+Learn more on how Amazon builds and operates software: https://go.aws/library 
+
+Do you have technical AWS questions? 
+Ask the community of experts on AWS re:Post: https://go.aws/3lPaoPb
+
+Why AWS?
+Amazon Web Services is the world’s most comprehensive and broadly adopted cloud, enabling customers to build anything they can imagine. We offer the greatest choice of innovative cloud capabilities and expertise, on the most extensive global infrastructure with industry-leading security, reliability, and performance.
+
+#AWS #AmazonWebServices #CloudComputing</media:description>
+   <media:community>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="1357"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:4wcNbPJTo8k</id>
+  <yt:videoId>4wcNbPJTo8k</yt:videoId>
+  <yt:channelId>UCd6MoB9NC6uYN2grvUNT-Zg</yt:channelId>
+  <title>Can agents run research and robots?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=4wcNbPJTo8k"/>
+  <author>
+   <name>Amazon Web Services</name>
+   <uri>https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg</uri>
+  </author>
+  <published>2026-10-08T07:22:19+00:00</published>
+  <updated>2026-10-08T08:16:36+00:00</updated>
+  <media:group>
+   <media:title>Can agents run research and robots?</media:title>
+   <media:content url="https://www.youtube.com/v/4wcNbPJTo8k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/4wcNbPJTo8k/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Can AI agents do more than answer questions? In this October 7th episode of GenerAIly Speaking, hosts Jay Busch and Bharathi Srinivasan put that to the test with two demos.
+First, Madhu Samhitha Vangara and Tejas Kashinath build a research agent from scratch with Amazon Bedrock AgentCore. It searches the web, arXiv, Hacker News, and GitHub, remembers who you are, and reports back as a noir detective, a sports announcer, or a Greek bard. Afterward, we talk about where research agents could go next, from agents that read research to agents that run experiments on their own, like Andrej Karpathy's autoresearch project.
+Next, Kiowa Jackson and Cole Harrison show how a humanoid robot policy is trained and evaluated on AWS. Using the AWS Physical AI Toolchain, they follow NVIDIA GR00T from fine-tuning in Amazon SageMaker to testing in NVIDIA Isaac Lab Arena, with a success gate it has to pass before it's registered. Along the way, we discuss robot-use agents, the idea from MIT professor Phillip Isola's recent essay that a general AI agent could use a robot as a tool.
+
+Get started with Amazon Bedrock AgentCore https://aws.amazon.com/bedrock/agentcore/getting-started/
+
+Try the AgentCore getting started workshop https://catalog.workshops.aws/agentcore-getting-started/en-US
+
+Explore the Arena workflow in the AWS Physical AI Toolchain https://github.com/aws-samples/sample-aws-physical-ai-toolchain/tree/development/isaac-lab-arena-on-aws
+
+Tune in to watch GenerAIly Speaking every other Wednesday on Twitch, or right here on YouTube!
+
+#AWS #AmazonWebServices #GenerativeAI</media:description>
+   <media:community>
+    <media:starRating count="29" average="5.00" min="1" max="5"/>
+    <media:statistics views="2698"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:dP6VXSU6yOI</id>
+  <yt:videoId>dP6VXSU6yOI</yt:videoId>
+  <yt:channelId>UCd6MoB9NC6uYN2grvUNT-Zg</yt:channelId>
+  <title>Lost Glacier: Scaling regenerative agriculture with AWS AI | Amazon Web Services</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=dP6VXSU6yOI"/>
+  <author>
+   <name>Amazon Web Services</name>
+   <uri>https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg</uri>
+  </author>
+  <published>2026-10-07T21:03:06+00:00</published>
+  <updated>2026-10-07T21:03:06+00:00</updated>
+  <media:group>
+   <media:title>Lost Glacier: Scaling regenerative agriculture with AWS AI | Amazon Web Services</media:title>
+   <media:content url="https://www.youtube.com/v/dP6VXSU6yOI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/dP6VXSU6yOI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Lost Glacier is working to fix agriculture by giving farmers the digital tools they need to leave the land better than when they started. The organization focuses on regenerative agriculture, helping farmers capture and verify the sustainable practices they use every day. 
+
+Using AWS, Lost Glacier built a platform that fits seamlessly into farmers' lives. Farmers can snap a photo, leave a voice note, or log their activities from a smartphone. That data is geolocated, uploaded online or offline, and processed to verify carbon farming practices. The platform uses AI to predict changes in soil organic carbon over time, a key indicator of soil health and productivity. 
+
+Through the AWS Social Entrepreneur Accelerator, Lost Glacier gained access to cloud resources, tools, and expert guidance that transformed what was possible for their team. The program helped them understand and apply AWS technology to build a scalable solution now being tested across living labs in the EU. 
+
+Lost Glacier: https://go.aws/4he9Las
+AWS Skilling and Social Impact Blog: https://go.aws/4xAVlra
+AWS Impact: https://go.aws/4yJED9U
+
+Subscribe to AWS: https://go.aws/subscribe
+
+Create a free AWS account: https://go.aws/signup 
+Try AWS for free: https://go.aws/free 
+Connect with an expert: https://go.aws/contact
+Explore more: https://go.aws/more
+
+Next steps:
+Explore on AWS in Analyst Research:  https://go.aws/reports
+Discover, deploy, and manage software that runs on AWS: https://go.aws/marketplace
+Join the AWS Partner Network: https://go.aws/partners 
+Learn more on how Amazon builds and operates software: https://go.aws/library 
+
+Do you have technical AWS questions? 
+Ask the community of experts on AWS re:Post: https://go.aws/3lPaoPb
+
+Why AWS?
+Amazon Web Services is the world’s most comprehensive and broadly adopted cloud, enabling customers to build anything they can imagine. We offer the greatest choice of innovative cloud capabilities and expertise, on the most extensive global infrastructure with industry-leading security, reliability, and performance.
+
+#AWS #AmazonWebServices #CloudComputing #AWSImpact #AIforGood #ClimateTech</media:description>
+   <media:community>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="1476"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:pz8_Hda21GY</id>
+  <yt:videoId>pz8_Hda21GY</yt:videoId>
+  <yt:channelId>UCd6MoB9NC6uYN2grvUNT-Zg</yt:channelId>
+  <title>Think Quick | Teaser</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/pz8_Hda21GY"/>
+  <author>
+   <name>Amazon Web Services</name>
+   <uri>https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg</uri>
+  </author>
+  <published>2026-10-07T15:06:09+00:00</published>
+  <updated>2026-10-07T15:07:02+00:00</updated>
+  <media:group>
+   <media:title>Think Quick | Teaser</media:title>
+   <media:content url="https://www.youtube.com/v/pz8_Hda21GY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/pz8_Hda21GY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Five marketing interns were given a challenge most seasoned marketers would sweat, a tight deadline, and only one tool to figure it out. No brief. We filmed everything.  
+
+Download Amazon Quick: https://go.aws/quick-download
+Learn more: https://go.aws/thinkquick</media:description>
+   <media:community>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="495"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:oBP3606FZVM</id>
+  <yt:videoId>oBP3606FZVM</yt:videoId>
+  <yt:channelId>UCd6MoB9NC6uYN2grvUNT-Zg</yt:channelId>
+  <title>Think Quick | Teaser</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=oBP3606FZVM"/>
+  <author>
+   <name>Amazon Web Services</name>
+   <uri>https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg</uri>
+  </author>
+  <published>2026-10-07T14:59:41+00:00</published>
+  <updated>2026-10-07T14:59:42+00:00</updated>
+  <media:group>
+   <media:title>Think Quick | Teaser</media:title>
+   <media:content url="https://www.youtube.com/v/oBP3606FZVM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/oBP3606FZVM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Five marketing interns were given a challenge most seasoned marketers would sweat, a tight deadline, and only one tool to figure it out. No brief. We filmed everything.  
+
+Download Amazon Quick: https://go.aws/quick-download
+Learn more: https://go.aws/thinkquick
+
+Why AWS?
+Amazon Web Services is the world’s most comprehensive and broadly adopted cloud, enabling customers to build anything they can imagine. We offer the greatest choice of innovative cloud capabilities and expertise, on the most extensive global infrastructure with industry-leading security, reliability, and performance.
+
+#AmazonQuick #AWS #AmazonWebServices #CloudComputing</media:description>
+   <media:community>
+    <media:starRating count="27" average="5.00" min="1" max="5"/>
+    <media:statistics views="3295"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:X2LkopQ33ug</id>
+  <yt:videoId>X2LkopQ33ug</yt:videoId>
+  <yt:channelId>UCd6MoB9NC6uYN2grvUNT-Zg</yt:channelId>
+  <title>Amazon Connect Customer - Omnichannel Customer Experience | Amazon Web Services</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=X2LkopQ33ug"/>
+  <author>
+   <name>Amazon Web Services</name>
+   <uri>https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg</uri>
+  </author>
+  <published>2026-10-06T19:02:36+00:00</published>
+  <updated>2026-10-07T19:13:02+00:00</updated>
+  <media:group>
+   <media:title>Amazon Connect Customer - Omnichannel Customer Experience | Amazon Web Services</media:title>
+   <media:content url="https://www.youtube.com/v/X2LkopQ33ug?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/X2LkopQ33ug/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Support customers on any channel and resolve their issue in one continuous conversation.
+
+With Amazon Connect Customer, customers reach you by voice or digital channels such as chat, SMS, email, video, WhatsApp for Business, Apple Messages for Business, and more and never re-explain who they are or where they left off. AI agents resolve the request on their own and bring in a person for the moments that need them. No starting over.
+
+See how it works:
+• One conversation across every channel - context always carries over
+• End-to-end self-service
+• Patented Live Sync - customers see what the AI is doing in real time
+• Proactive outreach before frustration sets in
+
+Learn more about the Omnichannel Customer Experience: https://go.aws/4zdDEip
+
+Subscribe to AWS: https://go.aws/subscribe
+
+Create a free AWS account: https://go.aws/signup 
+Try AWS for free: https://go.aws/free 
+Connect with an expert: https://go.aws/contact
+Explore more: https://go.aws/more
+
+Next steps:
+Explore on AWS in Analyst Research:  https://go.aws/reports
+Discover, deploy, and manage software that runs on AWS: https://go.aws/marketplace
+Join the AWS Partner Network: https://go.aws/partners 
+Learn more on how Amazon builds and operates software: https://go.aws/library 
+
+Do you have technical AWS questions? 
+Ask the community of experts on AWS re:Post: https://go.aws/3lPaoPb
+
+Why AWS?
+Amazon Web Services is the world’s most comprehensive and broadly adopted cloud, enabling customers to build anything they can imagine. We offer the greatest choice of innovative cloud capabilities and expertise, on the most extensive global infrastructure with industry-leading security, reliability, and performance.
+
+#AWS #AmazonWebServices #CloudComputing #CustomerExperience #AmazonConnectCustomer</media:description>
+   <media:community>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="1894"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:URV5hiGHUE4</id>
+  <yt:videoId>URV5hiGHUE4</yt:videoId>
+  <yt:channelId>UCd6MoB9NC6uYN2grvUNT-Zg</yt:channelId>
+  <title>How do I troubleshoot PostgreSQL performance problems on Amazon RDS or Aurora?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=URV5hiGHUE4"/>
+  <author>
+   <name>Amazon Web Services</name>
+   <uri>https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg</uri>
+  </author>
+  <published>2026-10-06T18:00:22+00:00</published>
+  <updated>2026-10-06T18:00:22+00:00</updated>
+  <media:group>
+   <media:title>How do I troubleshoot PostgreSQL performance problems on Amazon RDS or Aurora?</media:title>
+   <media:content url="https://www.youtube.com/v/URV5hiGHUE4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/URV5hiGHUE4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Is your RDS for PostgreSQL or Aurora PostgreSQL instance running slowly? Dale shows how to pinpoint the cause with CloudWatch, Enhanced Monitoring, and Database Insights, then find and fix problem queries, idle connections, dead tuples, and lock waits.
+
+0:00 Introduction
+
+0:34 Check CPU utilization
+
+1:04 Check memory and swap usage
+
+1:23 Check network throughput
+
+1:41 Check I/O performance
+
+2:17 Enhanced Monitoring and Database Insights
+
+2:50 Find long-running queries
+
+3:17 Manage idle connections
+
+3:50 Dead tuples, autovacuum, and locks
+
+4:21 Scale up the instance class
+
+4:39 Closing
+
+For more information, see the Knowledge Center article:
+https://repost.aws/knowledge-center/rds-aurora-postgresql-performance-issues
+
+This video is part of the AWS Knowledge Center series: trusted, expert-reviewed answers to common questions across AWS services.
+
+Subscribe to AWS: https://go.aws/subscribe
+
+Create a free AWS account: https://go.aws/signup 
+Try AWS for free: https://go.aws/free 
+Connect with an expert: https://go.aws/contact
+Explore more: https://go.aws/more
+
+Next steps:
+Explore on AWS in Analyst Research:  https://go.aws/reports
+Discover, deploy, and manage software that runs on AWS: https://go.aws/marketplace
+Join the AWS Partner Network: https://go.aws/partners 
+Learn more on how Amazon builds and operates software: https://go.aws/library 
+
+Do you have technical AWS questions? 
+Ask the community of experts on AWS re:Post: https://go.aws/3lPaoPb
+
+Why AWS?
+Amazon Web Services is the world’s most comprehensive and broadly adopted cloud, enabling customers to build anything they can imagine. We offer the greatest choice of innovative cloud capabilities and expertise, on the most extensive global infrastructure with industry-leading security, reliability, and performance.
+
+#AWS #AmazonWebServices #CloudComputing</media:description>
+   <media:community>
+    <media:starRating count="7" average="5.00" min="1" max="5"/>
+    <media:statistics views="1378"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Gl-LRKvLZvQ</id>
+  <yt:videoId>Gl-LRKvLZvQ</yt:videoId>
+  <yt:channelId>UCd6MoB9NC6uYN2grvUNT-Zg</yt:channelId>
+  <title>How to add a recovery email to your AWS Builder ID</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/Gl-LRKvLZvQ"/>
+  <author>
+   <name>Amazon Web Services</name>
+   <uri>https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg</uri>
+  </author>
+  <published>2026-10-06T16:15:08+00:00</published>
+  <updated>2026-10-07T14:25:47+00:00</updated>
+  <media:group>
+   <media:title>How to add a recovery email to your AWS Builder ID</media:title>
+   <media:content url="https://www.youtube.com/v/Gl-LRKvLZvQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/Gl-LRKvLZvQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A recovery email gives you another verified way to reach your AWS Builder ID — useful if you ever change the email tied to your account. :book: Learn more: https://docs.aws.amazon.com/signin/latest/userguide/edit-details-builder-id.html#recovery-email-builder-id
+
+Subscribe to AWS: https://go.aws/subscribe
+
+Create a free AWS account: https://go.aws/signup 
+Try AWS for free: https://go.aws/free 
+Connect with an expert: https://go.aws/contact
+Explore more: https://go.aws/more
+
+Next steps:
+Explore on AWS in Analyst Research:  https://go.aws/reports
+Discover, deploy, and manage software that runs on AWS: https://go.aws/marketplace
+Join the AWS Partner Network: https://go.aws/partners 
+Learn more on how Amazon builds and operates software: https://go.aws/library 
+
+Do you have technical AWS questions? 
+Ask the community of experts on AWS re:Post: https://go.aws/3lPaoPb
+
+Why AWS?
+Amazon Web Services is the world’s most comprehensive and broadly adopted cloud, enabling customers to build anything they can imagine. We offer the greatest choice of innovative cloud capabilities and expertise, on the most extensive global infrastructure with industry-leading security, reliability, and performance.
+
+#AWS #AmazonWebServices #CloudComputing</media:description>
+   <media:community>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="854"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:0M2VXqp1HkU</id>
+  <yt:videoId>0M2VXqp1HkU</yt:videoId>
+  <yt:channelId>UCd6MoB9NC6uYN2grvUNT-Zg</yt:channelId>
+  <title>Same Code, New Chip, Who Dis?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=0M2VXqp1HkU"/>
+  <author>
+   <name>Amazon Web Services</name>
+   <uri>https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg</uri>
+  </author>
+  <published>2026-10-02T20:11:49+00:00</published>
+  <updated>2026-10-02T22:00:13+00:00</updated>
+  <media:group>
+   <media:title>Same Code, New Chip, Who Dis?</media:title>
+   <media:content url="https://www.youtube.com/v/0M2VXqp1HkU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/0M2VXqp1HkU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Every company today runs on technology — whether it sells shoes, streams shows, or ships packages. Northwind Importer and Exporter is our stand-in for the company in your audience. Its CEO has handed the engineering team four demands, and the entire show is the story of Northwind answering them, one demo at a time.</media:description>
+   <media:community>
+    <media:starRating count="15" average="5.00" min="1" max="5"/>
+    <media:statistics views="3406"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:hg30GtLXY-Y</id>
+  <yt:videoId>hg30GtLXY-Y</yt:videoId>
+  <yt:channelId>UCd6MoB9NC6uYN2grvUNT-Zg</yt:channelId>
+  <title>GenerAIly Speaking: Let's Talk Tokenomics | Amazon Web Services</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=hg30GtLXY-Y"/>
+  <author>
+   <name>Amazon Web Services</name>
+   <uri>https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg</uri>
+  </author>
+  <published>2026-10-02T18:53:20+00:00</published>
+  <updated>2026-10-07T07:52:39+00:00</updated>
+  <media:group>
+   <media:title>GenerAIly Speaking: Let's Talk Tokenomics | Amazon Web Services</media:title>
+   <media:content url="https://www.youtube.com/v/hg30GtLXY-Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/hg30GtLXY-Y/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Everyone's spinning up AI, but how do you actually see what you're spending and tie it back to real business value? In this clip from the premiere episode of GenerAIly Speaking, we walk through three native AWS tools (AWS Cost Explorer, Cost and Usage Report 2.0 with IAM principal data, and Amazon CloudWatch) to give you full visibility into your Amazon Bedrock token consumption, cost attribution, and usage. You'll learn how to see who's spending what, set budgets and alarms to catch runaway spend, and start making smarter, more efficient AI model choices.
+
+Tune into GenerAIly Speaking to keep up with all things AI, every other Wednesday on Twitch or right here on YouTube.
+
+Subscribe to AWS: https://go.aws/subscribe
+
+Create a free AWS account: https://go.aws/signup 
+Try AWS for free: https://go.aws/free 
+Connect with an expert: https://go.aws/contact
+Explore more: https://go.aws/more
+
+Why AWS?
+Amazon Web Services is the world’s most comprehensive and broadly adopted cloud, enabling customers to build anything they can imagine. We offer the greatest choice of innovative cloud capabilities and expertise, on the most extensive global infrastructure with industry-leading security, reliability, and performance.
+
+#AWS #AmazonWebServices #CloudComputing</media:description>
+   <media:community>
+    <media:starRating count="94" average="5.00" min="1" max="5"/>
+    <media:statistics views="374225"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:NtJuFSOcZfk</id>
+  <yt:videoId>NtJuFSOcZfk</yt:videoId>
+  <yt:channelId>UCd6MoB9NC6uYN2grvUNT-Zg</yt:channelId>
+  <title>GenerAIly Speaking: So, what exactly is a Token? | Amazon Web Services</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=NtJuFSOcZfk"/>
+  <author>
+   <name>Amazon Web Services</name>
+   <uri>https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg</uri>
+  </author>
+  <published>2026-10-02T18:53:03+00:00</published>
+  <updated>2026-10-07T07:48:51+00:00</updated>
+  <media:group>
+   <media:title>GenerAIly Speaking: So, what exactly is a Token? | Amazon Web Services</media:title>
+   <media:content url="https://www.youtube.com/v/NtJuFSOcZfk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/NtJuFSOcZfk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>So what even is a token? Well, in this clip from the premiere episode of GenerAIly Speaking, we crack open the transformer and explain what a token actually is, how tokenization chops your prompt into mathematical chunks the model can process, and why those tokens are the real engine (and cost driver) behind every LLM and agentic workflow. A fun, beginner-friendly deep dive into what's happening under the hood.
+
+Tune in to watch GenerAIly Speaking and keep up with all things AI, every other Wednesday on Twitch or right here on YouTube.
+
+Subscribe to AWS: https://go.aws/subscribe
+
+Create a free AWS account: https://go.aws/signup 
+Try AWS for free: https://go.aws/free 
+Connect with an expert: https://go.aws/contact
+Explore more: https://go.aws/more
+
+Why AWS?
+Amazon Web Services is the world’s most comprehensive and broadly adopted cloud, enabling customers to build anything they can imagine. We offer the greatest choice of innovative cloud capabilities and expertise, on the most extensive global infrastructure with industry-leading security, reliability, and performance.
+
+#AWS #AmazonWebServices #CloudComputing</media:description>
+   <media:community>
+    <media:starRating count="87" average="5.00" min="1" max="5"/>
+    <media:statistics views="438717"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:bBSkzwU3TtA</id>
+  <yt:videoId>bBSkzwU3TtA</yt:videoId>
+  <yt:channelId>UCd6MoB9NC6uYN2grvUNT-Zg</yt:channelId>
+  <title>Think you could make a Next Gen Stat for the NFL?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=bBSkzwU3TtA"/>
+  <author>
+   <name>Amazon Web Services</name>
+   <uri>https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg</uri>
+  </author>
+  <published>2026-10-02T08:06:46+00:00</published>
+  <updated>2026-10-07T07:51:29+00:00</updated>
+  <media:group>
+   <media:title>Think you could make a Next Gen Stat for the NFL?</media:title>
+   <media:content url="https://www.youtube.com/v/bBSkzwU3TtA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/bBSkzwU3TtA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>We are talking to the NFL about their international games and Next Gen Stats. Come in and join us!</media:description>
+   <media:community>
+    <media:starRating count="8" average="5.00" min="1" max="5"/>
+    <media:statistics views="2055"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:fLVH6KuUsDk</id>
+  <yt:videoId>fLVH6KuUsDk</yt:videoId>
+  <yt:channelId>UCd6MoB9NC6uYN2grvUNT-Zg</yt:channelId>
+  <title>AWS: AI Answered — What does it take to run AI in production? | Amazon Web Services</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/fLVH6KuUsDk"/>
+  <author>
+   <name>Amazon Web Services</name>
+   <uri>https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg</uri>
+  </author>
+  <published>2026-10-01T20:51:36+00:00</published>
+  <updated>2026-10-04T23:37:21+00:00</updated>
+  <media:group>
+   <media:title>AWS: AI Answered — What does it take to run AI in production? | Amazon Web Services</media:title>
+   <media:content url="https://www.youtube.com/v/fLVH6KuUsDk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/fLVH6KuUsDk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What does it take to run AI in production? — Moving AI from a pilot to a production workload takes two changes at once: adopting the technology and changing the operating model that delivers it. 
+
+In this episode, Matt Wood, VP and Chief AI and Technology Officer at AWS, explains why top-down change management fails for AI, how to choose models without locking yourself in, and why the cost of a fixed level of intelligence keeps falling. 
+
+Subscribe to AWS: https://go.aws/subscribe
+
+#AWS #AmazonWebServices #CloudComputing #AI #AIStrategy #GenerativeAI #EnterpriseAI</media:description>
+   <media:community>
+    <media:starRating count="20" average="5.00" min="1" max="5"/>
+    <media:statistics views="2585"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Kmellvolllk</id>
+  <yt:videoId>Kmellvolllk</yt:videoId>
+  <yt:channelId>UCd6MoB9NC6uYN2grvUNT-Zg</yt:channelId>
+  <title>AWS: AI Answered — What does it take to run AI in production? | Amazon Web Services</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Kmellvolllk"/>
+  <author>
+   <name>Amazon Web Services</name>
+   <uri>https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg</uri>
+  </author>
+  <published>2026-10-01T20:50:35+00:00</published>
+  <updated>2026-10-05T23:59:28+00:00</updated>
+  <media:group>
+   <media:title>AWS: AI Answered — What does it take to run AI in production? | Amazon Web Services</media:title>
+   <media:content url="https://www.youtube.com/v/Kmellvolllk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/Kmellvolllk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What does it take to run AI in production? — Moving AI from a pilot to a production workload takes two changes at once: adopting the technology and changing the operating model that delivers it. 
+
+In this episode, Matt Wood, VP and Chief AI and Technology Officer at AWS, explains why top-down change management fails for AI, how to choose models without locking yourself in, and why the cost of a fixed level of intelligence keeps falling. 
+
+• 00:00 Introduction
+• 01:39 What does it take to run AI in production?
+• 06:58 Are AI benchmarks reliable for choosing a model?
+• 11:31 How do you avoid AI model lock-in?
+• 18:09 Do AI costs spiral out of control in production?
+• 27:16 What do you need besides a model to run AI in production?
+• 29:30 What data and governance do enterprises need for production AI?
+• 32:51 How do you measure ROI on AI projects?
+• 34:15 What should a CTO tell their team about AI this week?
+• 36:57 Closing
+
+Subscribe to AWS: https://go.aws/subscribe
+
+Create a free AWS account: https://go.aws/signup 
+Try AWS for free: https://go.aws/free 
+Connect with an expert: https://go.aws/contact
+Explore more: https://go.aws/more
+
+Next steps:
+Explore on AWS in Analyst Research:  https://go.aws/reports
+Discover, deploy, and manage software that runs on AWS: https://go.aws/marketplace
+Join the AWS Partner Network: https://go.aws/partners 
+Learn more on how Amazon builds and operates software: https://go.aws/library 
+
+Do you have technical AWS questions? 
+Ask the community of experts on AWS re:Post: https://go.aws/3lPaoPb
+
+Why AWS?
+Amazon Web Services is the world’s most comprehensive and broadly adopted cloud, enabling customers to build anything they can imagine. We offer the greatest choice of innovative cloud capabilities and expertise, on the most extensive global infrastructure with industry-leading security, reliability, and performance.
+
+#AWS #AmazonWebServices #CloudComputing #AI #AIStrategy #GenerativeAI #EnterpriseAI</media:description>
+   <media:community>
+    <media:starRating count="20" average="5.00" min="1" max="5"/>
+    <media:statistics views="2075"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:9VxXZ4ZvKsU</id>
+  <yt:videoId>9VxXZ4ZvKsU</yt:videoId>
+  <yt:channelId>UCd6MoB9NC6uYN2grvUNT-Zg</yt:channelId>
+  <title>Why is my OpenSearch Service cluster in a red or yellow status?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=9VxXZ4ZvKsU"/>
+  <author>
+   <name>Amazon Web Services</name>
+   <uri>https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg</uri>
+  </author>
+  <published>2026-10-01T18:00:30+00:00</published>
+  <updated>2026-10-04T23:41:50+00:00</updated>
+  <media:group>
+   <media:title>Why is my OpenSearch Service cluster in a red or yellow status?</media:title>
+   <media:content url="https://www.youtube.com/v/9VxXZ4ZvKsU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/9VxXZ4ZvKsU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Is your OpenSearch Service cluster stuck in a red or yellow status? Masha shows how to find unassigned shards, check the key metrics, and fix the most common causes: too few nodes, low storage, high JVM memory pressure, and node failures.
+
+0:00 Introduction
+
+0:14 Red vs. yellow cluster status
+
+0:50 Identify unassigned shards
+
+1:29 Check metrics and affected indexes
+
+2:01 Delete and restore red indexes
+
+2:16 Not enough nodes
+
+2:55 Storage space issues
+
+3:39 High JVM memory pressure
+
+4:06 Node failures
+
+4:27 Frequent yellow status
+
+4:44 Closing
+
+For more information, see the Knowledge Center article:
+https://repost.aws/knowledge-center/opensearch-red-yellow-status
+
+This video is part of the AWS Knowledge Center series: trusted, expert-reviewed answers to common questions across AWS services.
+
+Subscribe to AWS: https://go.aws/subscribe
+
+Create a free AWS account: https://go.aws/signup 
+Try AWS for free: https://go.aws/free 
+Connect with an expert: https://go.aws/contact
+Explore more: https://go.aws/more
+
+Next steps:
+Explore on AWS in Analyst Research:  https://go.aws/reports
+Discover, deploy, and manage software that runs on AWS: https://go.aws/marketplace
+Join the AWS Partner Network: https://go.aws/partners 
+Learn more on how Amazon builds and operates software: https://go.aws/library 
+
+Do you have technical AWS questions? 
+Ask the community of experts on AWS re:Post: https://go.aws/3lPaoPb
+
+Why AWS?
+Amazon Web Services is the world’s most comprehensive and broadly adopted cloud, enabling customers to build anything they can imagine. We offer the greatest choice of innovative cloud capabilities and expertise, on the most extensive global infrastructure with industry-leading security, reliability, and performance.
+
+#AWS #AmazonWebServices #CloudComputing</media:description>
+   <media:community>
+    <media:starRating count="10" average="5.00" min="1" max="5"/>
+    <media:statistics views="1502"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
