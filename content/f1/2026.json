@@ -8,7 +8,7 @@
    "name": "Andrea Kimi Antonelli",
    "nat": "Italian",
    "team": "Mercedes",
-   "pts": 325.0,
+   "pts": 340.0,
    "wins": 8
   },
   {
@@ -16,7 +16,7 @@
    "name": "George Russell",
    "nat": "British",
    "team": "Mercedes",
-   "pts": 236.0,
+   "pts": 238.0,
    "wins": 3
   },
   {
@@ -24,23 +24,23 @@
    "name": "Lewis Hamilton",
    "nat": "British",
    "team": "Ferrari",
-   "pts": 221.0,
+   "pts": 229.0,
    "wins": 1
   },
   {
    "pos": 4,
-   "name": "Charles Leclerc",
-   "nat": "Monegasque",
-   "team": "Ferrari",
-   "pts": 197.0,
-   "wins": 1
-  },
-  {
-   "pos": 5,
    "name": "Max Verstappen",
    "nat": "Dutch",
    "team": "Red Bull",
-   "pts": 196.0,
+   "pts": 221.0,
+   "wins": 2
+  },
+  {
+   "pos": 5,
+   "name": "Charles Leclerc",
+   "nat": "Monegasque",
+   "team": "Ferrari",
+   "pts": 215.0,
    "wins": 1
   },
   {
@@ -48,7 +48,7 @@
    "name": "Lando Norris",
    "nat": "British",
    "team": "McLaren",
-   "pts": 189.0,
+   "pts": 201.0,
    "wins": 2
   },
   {
@@ -56,7 +56,7 @@
    "name": "Oscar Piastri",
    "nat": "Australian",
    "team": "McLaren",
-   "pts": 128.0,
+   "pts": 138.0,
    "wins": 0
   },
   {
@@ -64,7 +64,7 @@
    "name": "Isack Hadjar",
    "nat": "French",
    "team": "Red Bull",
-   "pts": 96.0,
+   "pts": 97.0,
    "wins": 0
   },
   {
@@ -72,7 +72,7 @@
    "name": "Liam Lawson",
    "nat": "New Zealander",
    "team": "RB F1 Team",
-   "pts": 69.0,
+   "pts": 75.0,
    "wins": 0
   },
   {
@@ -109,18 +109,18 @@
   },
   {
    "pos": 14,
-   "name": "Gabriel Bortoleto",
-   "nat": "Brazilian",
+   "name": "Nico Hülkenberg",
+   "nat": "German",
    "team": "Audi",
-   "pts": 10.0,
+   "pts": 13.0,
    "wins": 0
   },
   {
    "pos": 15,
-   "name": "Nico Hülkenberg",
-   "nat": "German",
+   "name": "Gabriel Bortoleto",
+   "nat": "Brazilian",
    "team": "Audi",
-   "pts": 9.0,
+   "pts": 10.0,
    "wins": 0
   },
   {
@@ -192,31 +192,31 @@
   {
    "pos": 1,
    "name": "Mercedes",
-   "pts": 561.0,
+   "pts": 578.0,
    "wins": 11
   },
   {
    "pos": 2,
    "name": "Ferrari",
-   "pts": 418.0,
+   "pts": 444.0,
    "wins": 2
   },
   {
    "pos": 3,
    "name": "McLaren",
-   "pts": 317.0,
+   "pts": 339.0,
    "wins": 2
   },
   {
    "pos": 4,
    "name": "Red Bull",
-   "pts": 306.0,
-   "wins": 1
+   "pts": 332.0,
+   "wins": 2
   },
   {
    "pos": 5,
    "name": "RB F1 Team",
-   "pts": 94.0,
+   "pts": 100.0,
    "wins": 0
   },
   {
@@ -234,7 +234,7 @@
   {
    "pos": 8,
    "name": "Audi",
-   "pts": 19.0,
+   "pts": 23.0,
    "wins": 0
   },
   {
@@ -440,7 +440,9 @@
    "locality": "Marina Bay",
    "country": "Singapore",
    "date": "2026-10-11",
-   "time": "12:00"
+   "time": "12:00",
+   "winner": "Max Verstappen",
+   "winner_team": "Red Bull"
   },
   {
    "round": 18,
