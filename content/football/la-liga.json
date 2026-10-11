@@ -785,7 +785,8 @@
    "time": "14:00",
    "t1": "Rayo Vallecano de Madrid",
    "t2": "Athletic Club",
-   "ft": null
+   "ft": null,
+   "status": "postponed"
   },
   {
    "r": 8,
@@ -793,7 +794,10 @@
    "time": "16:15",
    "t1": "Deportivo Alavés",
    "t2": "Club Atlético de Madrid",
-   "ft": null
+   "ft": [
+    1,
+    2
+   ]
   },
   {
    "r": 8,
@@ -801,7 +805,10 @@
    "time": "18:30",
    "t1": "FC Barcelona",
    "t2": "Getafe CF",
-   "ft": null
+   "ft": [
+    3,
+    0
+   ]
   },
   {
    "r": 8,
@@ -809,7 +816,10 @@
    "time": "21:00",
    "t1": "Real Madrid CF",
    "t2": "Villarreal CF",
-   "ft": null
+   "ft": [
+    1,
+    0
+   ]
   },
   {
    "r": 8,
@@ -3287,97 +3297,97 @@
      "date": "2026-10-27/2026-10-29",
      "matches": [
       {
-       "date": "",
+       "date": "2026-10-29",
        "team1": "Atlético Calatayud",
        "team2": "CA Osasuna",
        "ft": null
       },
       {
-       "date": "",
+       "date": "2026-10-29",
        "team1": "Lebrijana",
        "team2": "Getafe CF",
        "ft": null
       },
       {
-       "date": "",
+       "date": "2026-10-28",
        "team1": "Anaitasuna",
        "team2": "Deportivo Alavés",
        "ft": null
       },
       {
-       "date": "",
+       "date": "2026-10-29",
        "team1": "Auriense",
        "team2": "RC Deportivo La Coruña",
        "ft": null
       },
       {
-       "date": "",
+       "date": "2026-10-29",
        "team1": "Ribadesella",
        "team2": "Real Racing Club de Santander",
        "ft": null
       },
       {
-       "date": "",
+       "date": "2026-10-27",
        "team1": "Sporting de Alcázar",
        "team2": "Málaga CF",
        "ft": null
       },
       {
-       "date": "",
+       "date": "2026-10-28",
        "team1": "UE Tavernes",
        "team2": "Valencia CF",
        "ft": null
       },
       {
-       "date": "",
+       "date": "2026-10-27",
        "team1": "Pinatar",
        "team2": "Elche CF",
        "ft": null
       },
       {
-       "date": "",
+       "date": "2026-10-29",
        "team1": "Güímar / Sporting Hortaleza",
        "team2": "Sevilla FC",
        "ft": null
       },
       {
-       "date": "",
+       "date": "2026-10-29",
        "team1": "Prat / San Rafael",
        "team2": "Athletic Club",
        "ft": null
       },
       {
-       "date": "",
+       "date": "2026-10-27",
        "team1": "Manacor",
        "team2": "Villarreal CF",
        "ft": null
       },
       {
-       "date": "",
+       "date": "2026-10-28",
        "team1": "Tarancón",
        "team2": "Levante UD",
        "ft": null
       },
       {
-       "date": "",
+       "date": "2026-10-28",
        "team1": "Salamanca UDS",
        "team2": "RC Celta de Vigo",
        "ft": null
       },
       {
-       "date": "",
+       "date": "2026-10-27",
        "team1": "Sestao River",
        "team2": "RCD Espanyol de Barcelona",
        "ft": null
       },
       {
-       "date": "",
+       "date": "2026-10-28",
        "team1": "Navalcarnero",
        "team2": "Real Betis Balompié",
        "ft": null
       },
       {
-       "date": "",
+       "date": "2026-10-27",
        "team1": "Recreativo de Huelva",
        "team2": "Rayo Vallecano de Madrid",
        "ft": null
@@ -3398,7 +3408,8 @@
     "https://en.wikipedia.org/wiki/2026%E2%80%9327_Copa_del_Rey",
     "https://www.sportaragon.com/articulo/futbol-aragon/sorteo-copa-rey-grupos-equipos-rivales-fecha/20261002081416160402.html",
     "https://www.infobae.com/espana/agencias/2026/10/05/emparejamientos-de-la-primera-ronda-de-la-copa-del-rey/",
-    "https://dondeverfutbolhoy.com/noticias/asi-queda-sorteo-copa-rey-todos-partidos-enfrentamientos-primera/"
+    "https://dondeverfutbolhoy.com/noticias/asi-queda-sorteo-copa-rey-todos-partidos-enfrentamientos-primera/",
+    "https://www.infobae.com/espana/agencias/2026/10/07/la-primera-ronda-de-la-copa-del-rey-ya-tiene-sus-horarios-para-el-27-28-y-29-octubre/"
    ]
   },
   {

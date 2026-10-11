@@ -782,7 +782,10 @@
    "time": "15:00",
    "t1": "Botev Vratsa",
    "t2": "Spartak Varna",
-   "ft": null
+   "ft": [
+    0,
+    1
+   ]
   },
   {
    "r": 11,
@@ -790,7 +793,10 @@
    "time": "17:30",
    "t1": "Lokomotiv Sofia",
    "t2": "Lokomotiv Plovdiv",
-   "ft": null
+   "ft": [
+    1,
+    1
+   ]
   },
   {
    "r": 11,
@@ -798,7 +804,10 @@
    "time": "20:00",
    "t1": "Botev Plovdiv",
    "t2": "Slavia Sofia",
-   "ft": null
+   "ft": [
+    1,
+    0
+   ]
   },
   {
    "r": 11,
@@ -886,6 +895,118 @@
    "time": "19:30",
    "t1": "Arda Kardzhali",
    "t2": "Levski Sofia",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-10-30",
+   "time": "17:00",
+   "t1": "CSKA 1948",
+   "t2": "Spartak Varna",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-10-30",
+   "time": "19:30",
+   "t1": "CSKA Sofia",
+   "t2": "Slavia Sofia",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-10-31",
+   "time": "12:30",
+   "t1": "Lokomotiv Sofia",
+   "t2": "Botev Plovdiv",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-10-31",
+   "time": "15:00",
+   "t1": "Lokomotiv Plovdiv",
+   "t2": "Ludogorets Razgrad",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-10-31",
+   "time": "17:30",
+   "t1": "Dunav Ruse",
+   "t2": "Levski Sofia",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-11-02",
+   "time": "17:00",
+   "t1": "Cherno More Varna",
+   "t2": "Botev Vratsa",
+   "ft": null
+  },
+  {
+   "r": 14,
+   "date": "2026-11-02",
+   "time": "19:30",
+   "t1": "Arda Kardzhali",
+   "t2": "Septemvri Sofia",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-11-06",
+   "time": "17:00",
+   "t1": "Septemvri Sofia",
+   "t2": "Lokomotiv Sofia",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-11-06",
+   "time": "19:15",
+   "t1": "Botev Plovdiv",
+   "t2": "Dunav Ruse",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-11-07",
+   "time": "13:30",
+   "t1": "Botev Vratsa",
+   "t2": "Lokomotiv Plovdiv",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-11-07",
+   "time": "16:00",
+   "t1": "Slavia Sofia",
+   "t2": "Cherno More Varna",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-11-07",
+   "time": "18:30",
+   "t1": "Ludogorets Razgrad",
+   "t2": "CSKA 1948",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-11-08",
+   "time": "14:00",
+   "t1": "Spartak Varna",
+   "t2": "Arda Kardzhali",
+   "ft": null
+  },
+  {
+   "r": 13,
+   "date": "2026-11-08",
+   "time": "17:00",
+   "t1": "Levski Sofia",
+   "t2": "CSKA Sofia",
    "ft": null
   }
  ],
@@ -1264,6 +1385,22 @@
   {
    "n": "Sportal.bg – Levski–Ludogorets am 3. Dezember",
    "u": "https://sportal.bg/news-2026100812531044502"
+  },
+  {
+   "n": "Duma.bg – БФС: програма за три кръга (XII–XIV)",
+   "u": "https://duma.bg/bfs-opovesti-programa-za-tri-kraga-levski-tsska-e-na-8-noemvri-n326066"
+  },
+  {
+   "n": "BTA – Lokomotiv Sofia – Lokomotiv Plovdiv",
+   "u": "https://www.bta.bg/bg/news/sport/1222032-lokomotiv-sofiya-i-lokomotiv-plovdiv-ne-se-pobediha-v-mach-ot-parva-liga"
+  },
+  {
+   "n": "BTA – Botev Plovdiv – Slavia",
+   "u": "https://www.bta.bg/bg/news/sport/1222078-botev-plovdiv-specheli-domakinstvoto-si-na-slaviya-v-efbet-liga"
+  },
+  {
+   "n": "Fakti – Botev Vratsa – Spartak Varna",
+   "u": "https://fakti.bg/sport/1088599-spartak-varna-pobedi-botev-vraca-s-gol-na-hanne"
   }
  ]
 }

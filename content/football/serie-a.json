@@ -565,7 +565,10 @@
    "time": "15:00",
    "t1": "Genoa CFC",
    "t2": "ACF Fiorentina",
-   "ft": null
+   "ft": [
+    2,
+    1
+   ]
   },
   {
    "r": 6,
@@ -573,7 +576,10 @@
    "time": "18:00",
    "t1": "FC Internazionale Milano",
    "t2": "Parma Calcio 1913",
-   "ft": null
+   "ft": [
+    3,
+    0
+   ]
   },
   {
    "r": 6,
@@ -581,7 +587,10 @@
    "time": "20:45",
    "t1": "SSC Napoli",
    "t2": "Frosinone Calcio",
-   "ft": null
+   "ft": [
+    3,
+    0
+   ]
   },
   {
    "r": 6,
@@ -3411,11 +3420,14 @@
        ]
       },
       {
-       "date": "2026-09",
+       "date": "2026-09-02",
        "team1": "US Sassuolo Calcio",
        "team2": "Frosinone Calcio",
-       "ft": null,
-       "note": "Sassuolo weiter i.E."
+       "ft": [
+        1,
+        1
+       ],
+       "note": "i.E. 4:3"
       },
       {
        "date": "2026-09",
@@ -3508,7 +3520,8 @@
    "src": [
     "https://www.sportmediaset.mediaset.it/calcio/coppa-italia/coppa-italia-2026-27-risultati-calendario-tabellone_115556786-202602k.shtml",
     "https://www.calcioweb.eu/coppa-italia/coppa-italia-2026-27-tutti-i-risultati-dei-trentaduesimi-le-qualificate-ai-sedicesimi/10729468/",
-    "https://www.calcioefinanza.it/2026/08/18/tabellone-coppa-italia-2026-2027-trentaduesimi-sedicesimi/"
+    "https://www.calcioefinanza.it/2026/08/18/tabellone-coppa-italia-2026-2027-trentaduesimi-sedicesimi/",
+    "https://www.corrieredellosport.it/news/calcio/coppa-italia/2026/09/02-150968373/il_sassuolo_batte_il_frosinone_ai_rigori_e_si_regala_la_juve_agli_ottavi_di_coppa_italia"
    ]
   }
  ],
