@@ -10,7 +10,7 @@
   "de": "World Boxing Association",
   "en": "World Boxing Association"
  },
- "asof": "2026-10-10",
+ "asof": "2026-10-11",
  "champions": [
   {
    "div": {
@@ -119,12 +119,12 @@
     "en": "Lightweight"
    },
    "limit": "bis 61,2 kg (135 lb)",
-   "name": "",
-   "country": "",
+   "name": "Floyd Schofield",
+   "country": "USA",
    "note": {
-    "bg": "вакантна (Шофийлд – Бахди на 10.10.2026)",
-    "de": "vakant (Schofield vs. Bahdi am 10.10.2026)",
-    "en": "vacant (Schofield vs. Bahdi on 10 Oct 2026)"
+    "bg": "Спечели вакантната титла на 10.10.2026 срещу Лукас Бахди; Джервонта Дейвис е „шампион в почивка“",
+    "de": "Gewann den vakanten Titel am 10.10.2026 gegen Lucas Bahdi; Gervonta Davis ist „Champion in Recess“",
+    "en": "Won the vacant title on 10 Oct 2026 against Lucas Bahdi; Gervonta Davis is 'champion in recess'"
    }
   },
   {
@@ -199,12 +199,12 @@
     "en": "Flyweight"
    },
    "limit": "bis 50,8 kg (112 lb)",
-   "name": "Ricardo Sandoval",
-   "country": "USA",
+   "name": "Sergio Mendoza",
+   "country": "Mexiko",
    "note": {
-    "bg": "Държи и титлата на WBC; временен шампион: Абрахам Перес (САЩ)",
-    "de": "Hält auch den WBC-Titel; Interims-Champion: Abraham Pérez (USA)",
-    "en": "Also holds WBC title; interim champion: Abraham Pérez (USA)"
+    "bg": "Държи и титлата на WBC (от 10.10.2026); временен шампион: Абрахам Перес (САЩ)",
+    "de": "Hält auch den WBC-Titel (seit 10.10.2026); Interims-Champion: Abraham Pérez (USA)",
+    "en": "Also holds WBC title (since 10 Oct 2026); interim champion: Abraham Pérez (USA)"
    }
   },
   {
@@ -239,39 +239,6 @@
   }
  ],
  "upcoming": [
-  {
-   "date": "2026-10-10",
-   "place": "Chicago, USA",
-   "f1": "Floyd Schofield",
-   "f2": "Lucas Bahdi",
-   "div": {
-    "bg": "Лека категория",
-    "de": "Leichtgewicht",
-    "en": "Lightweight"
-   },
-   "title": {
-    "bg": "Вакантна световна титла на WBA",
-    "de": "vakante WBA-WM",
-    "en": "vacant WBA world title"
-   }
-  },
-  {
-   "date": "2026-10-10",
-   "place": "Chicago, USA",
-   "f1": "Ricardo Sandoval",
-   "f2": "Sergio Mendoza",
-   "div": {
-    "bg": "Муха категория",
-    "de": "Fliegengewicht",
-    "en": "Flyweight"
-   },
-   "title": {
-    "bg": "Световни титли на WBA и WBC",
-    "de": "WBA- und WBC-WM",
-    "en": "WBA and WBC world titles"
-   },
-   "note": "Mendoza ersetzt den verletzten Oscar Collazo"
-  },
   {
    "date": "2026-10-17",
    "place": "Las Vegas, USA",
@@ -340,6 +307,48 @@
   }
  ],
  "results": [
+  {
+   "date": "2026-10-10",
+   "place": "Chicago, USA",
+   "f1": "Sergio Mendoza",
+   "f2": "Ricardo Sandoval",
+   "res": {
+    "bg": "технически нокаут в 5-и рунд (1:40)",
+    "de": "TKO 5. Runde (1:40)",
+    "en": "TKO round 5 (1:40)"
+   },
+   "div": {
+    "bg": "Муха категория",
+    "de": "Fliegengewicht",
+    "en": "Flyweight"
+   },
+   "title": {
+    "bg": "Световни титли на WBC и WBA",
+    "de": "WBC- und WBA-WM",
+    "en": "WBC and WBA world titles"
+   }
+  },
+  {
+   "date": "2026-10-10",
+   "place": "Chicago, USA",
+   "f1": "Floyd Schofield",
+   "f2": "Lucas Bahdi",
+   "res": {
+    "bg": "единодушно съдийско решение (116-110, 119-108, 115-111)",
+    "de": "einstimmig nach Punkten (116-110, 119-108, 115-111)",
+    "en": "unanimous decision (116-110, 119-108, 115-111)"
+   },
+   "div": {
+    "bg": "Лека категория",
+    "de": "Leichtgewicht",
+    "en": "Lightweight"
+   },
+   "title": {
+    "bg": "Вакантна световна титла на WBA",
+    "de": "vakante WBA-WM",
+    "en": "vacant WBA world title"
+   }
+  },
   {
    "date": "2026-09-12",
    "place": "Las Vegas, USA",
@@ -464,6 +473,22 @@
   {
    "n": "Boxing News – WBA hat Munguía vs. Zon nicht genehmigt (09.10.2026)",
    "u": "https://boxingnewsonline.net/news/canelo-mbilli-chief-support-in-doubt/"
+  },
+  {
+   "n": "Boxing 24/7, 10.10.2026 – Mendoza stoppt Sandoval",
+   "u": "https://www.boxing247.com/boxing-result/sergio-mendoza-ends-ricardo-sandovals-reign-in-five/310458"
+  },
+  {
+   "n": "NY Fights, 11.10.2026 – Neue Champions in Chicago",
+   "u": "https://nyfights.com/boxing/new-champions-chicago-scholfield-mendoza/"
+  },
+  {
+   "n": "Boxing News 24, 10.10.2026 – Schofield gewinnt WBA-Titel",
+   "u": "https://www.boxingnews24.com/2026/10/floyd-schofield-beats-lucas-bahdi-to-claim-wba-title/"
+  },
+  {
+   "n": "WBA – Davis „Champion in Recess“",
+   "u": "https://www.wbaboxing.com/boxing-news/gervonta-davis-named-champion-in-recess-schofield-and-bahdi-to-fight-for-vacant-title"
   }
  ]
 }

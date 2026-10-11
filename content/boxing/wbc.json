@@ -10,7 +10,7 @@
   "de": "World Boxing Council",
   "en": "World Boxing Council"
  },
- "asof": "2026-10-10",
+ "asof": "2026-10-11",
  "champions": [
   {
    "div": {
@@ -184,12 +184,12 @@
     "en": "Flyweight"
    },
    "limit": "bis 50,8 kg (112 lb)",
-   "name": "Ricardo Sandoval",
-   "country": "USA",
+   "name": "Sergio Mendoza",
+   "country": "Mexiko",
    "note": {
-    "bg": "Държи и титлата на WBA",
-    "de": "Hält auch den WBA-Titel",
-    "en": "Also holds the WBA title"
+    "bg": "Държи и титлата на WBA; спечели титлите на 10.10.2026 срещу Рикардо Сандовал",
+    "de": "Hält auch den WBA-Titel; gewann die Titel am 10.10.2026 gegen Ricardo Sandoval",
+    "en": "Also holds the WBA title; won the belts against Ricardo Sandoval on 10 Oct 2026"
    }
   },
   {
@@ -214,23 +214,6 @@
   }
  ],
  "upcoming": [
-  {
-   "date": "2026-10-10",
-   "place": "Chicago, USA",
-   "f1": "Ricardo Sandoval",
-   "f2": "Sergio Mendoza",
-   "div": {
-    "bg": "Муха категория",
-    "de": "Fliegengewicht",
-    "en": "Flyweight"
-   },
-   "title": {
-    "bg": "Световни титли на WBC и WBA",
-    "de": "WBC- und WBA-WM",
-    "en": "WBC and WBA world titles"
-   },
-   "note": "Mendoza ersetzt den verletzten Oscar Collazo"
-  },
   {
    "date": "2026-10-17",
    "place": "Las Vegas, USA",
@@ -350,6 +333,27 @@
   }
  ],
  "results": [
+  {
+   "date": "2026-10-10",
+   "place": "Chicago, USA",
+   "f1": "Sergio Mendoza",
+   "f2": "Ricardo Sandoval",
+   "res": {
+    "bg": "технически нокаут в 5-и рунд (1:40)",
+    "de": "TKO 5. Runde (1:40)",
+    "en": "TKO round 5 (1:40)"
+   },
+   "div": {
+    "bg": "Муха категория",
+    "de": "Fliegengewicht",
+    "en": "Flyweight"
+   },
+   "title": {
+    "bg": "Световни титли на WBC и WBA",
+    "de": "WBC- und WBA-WM",
+    "en": "WBC and WBA world titles"
+   }
+  },
   {
    "date": "2026-09-27",
    "place": "Tokio, Japan",
@@ -553,6 +557,14 @@
   {
    "n": "Boxing News – Usyk/Wilder, Benavidez vs. Cieślak 5.12. (09.10.2026)",
    "u": "https://boxingnewsonline.net/news/usyk-wilder-talks-off-with-new-potential/"
+  },
+  {
+   "n": "Boxing 24/7, 10.10.2026 – Mendoza stoppt Sandoval",
+   "u": "https://www.boxing247.com/boxing-result/sergio-mendoza-ends-ricardo-sandovals-reign-in-five/310458"
+  },
+  {
+   "n": "NY Fights, 11.10.2026 – Neue Champions in Chicago",
+   "u": "https://nyfights.com/boxing/new-champions-chicago-scholfield-mendoza/"
   }
  ]
 }
