@@ -11,7 +11,7 @@
   "de": "Ultimate Fighting Championship",
   "en": "Ultimate Fighting Championship"
  },
- "asof": "2026-10-10",
+ "asof": "2026-10-11",
  "champions": [
   {
    "div": {
@@ -135,23 +135,6 @@
   }
  ],
  "upcoming": [
-  {
-   "date": "2026-10-10",
-   "place": "Meta APEX, Las Vegas, USA",
-   "f1": "Brendan Allen",
-   "f2": "Christian Leroy Duncan",
-   "div": {
-    "bg": "Средна категория",
-    "de": "Mittelgewicht",
-    "en": "Middleweight"
-   },
-   "title": {
-    "bg": "UFC Fight Night (Vegas 122) – главен двубой",
-    "de": "UFC Fight Night (Vegas 122) – Hauptkampf",
-    "en": "UFC Fight Night (Vegas 122) – main event"
-   },
-   "note": "Kein Titelkampf; Allen Nr. 4, Duncan Nr. 10 der Mittelgewichtsrangliste (ufc.com)"
-  },
   {
    "date": "2026-10-17",
    "place": "Rogers Place, Edmonton, Kanada",
@@ -321,6 +304,27 @@
   }
  ],
  "results": [
+  {
+   "date": "2026-10-10",
+   "place": "Meta Apex, Las Vegas, USA",
+   "f1": "Brendan Allen",
+   "f2": "Christian Leroy Duncan",
+   "res": {
+    "bg": "Събмишън (задушаване отзад), 5. рунд (2:46)",
+    "de": "Submission (Rear-Naked Choke), 5. Runde (2:46)",
+    "en": "Submission (rear-naked choke), round 5 (2:46)"
+   },
+   "div": {
+    "bg": "Средна категория",
+    "de": "Mittelgewicht",
+    "en": "Middleweight"
+   },
+   "title": {
+    "bg": "UFC Vegas 122 – главна среща",
+    "de": "UFC Vegas 122 – Hauptkampf",
+    "en": "UFC Vegas 122 – main event"
+   }
+  },
   {
    "date": "2026-10-03",
    "place": "Salt Lake City, USA",
@@ -540,6 +544,10 @@
   {
    "n": "bet365 News, 29.09.2026 – UFC Qatar",
    "u": "https://news.bet365.com/en-gb/article/ufc-qatar-jiri-prochazka-vs-navajo-stirling-fight-date-venue-ring-walk-time-undercard-tale-of-the-tape-and-more/2026092913460348753"
+  },
+  {
+   "n": "Sherdog – UFC Vegas 122 Ergebnisse (10.10.2026)",
+   "u": "https://www.sherdog.com/news/news/UFC-Vegas-122-Allen-vs-Duncan-playbyplay-results-round-scoring-203155"
   }
  ]
 }
