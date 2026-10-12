@@ -1,0 +1,412 @@
+{
+ "date": "2026-10-12",
+ "items": [
+  {
+   "id": "google-synthid-detector-fuer-alle",
+   "s": "ai",
+   "time": "12:46",
+   "kick": {
+    "de": "KI-Erkennung",
+    "bg": "Разпознаване на ИИ",
+    "en": "AI detection"
+   },
+   "yt": {
+    "id": "9btDaOcfIMY",
+    "ch": "Google DeepMind",
+    "kind": "video",
+    "t": {
+     "de": "Google DeepMind erklärt SynthID",
+     "bg": "Google DeepMind обяснява SynthID",
+     "en": "Google DeepMind explains SynthID"
+    }
+   },
+   "src": [
+    {
+     "n": "Google (The Keyword) – Pushmeet Kohli: We're making it easier to identify AI-generated content globally (07.10.2026)",
+     "u": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/"
+    },
+    {
+     "n": "Crypto Briefing – Google opens its SynthID detector to everyone, adds partner watermarks (07.10.2026)",
+     "u": "https://cryptobriefing.com/google-synthid-detector-globally-available/"
+    },
+    {
+     "n": "Google DeepMind – SynthID: A tool for watermarking and identifying AI-generated content (YouTube)",
+     "u": "https://www.youtube.com/watch?v=9btDaOcfIMY"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-12/google-synthid-detector-fuer-alle.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Jernej Furman from Slovenia",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Homepage_of_GOOGLE_DEEPMIND_Website_magnified_on_logo_with_magnifying_glass_(53147449198).jpg",
+    "alt": {
+     "de": "Webseite von Google DeepMind unter der Lupe (Symbolbild)",
+     "bg": "Уебсайтът на Google DeepMind под лупа (символична снимка)",
+     "en": "Google DeepMind website under a magnifying glass (symbolic image)"
+    }
+   },
+   "de": {
+    "t": "Echt oder KI? Google öffnet seinen SynthID-Detektor für alle",
+    "d": "Jeder kann nun prüfen, ob ein Bild, Video oder eine Audiodatei mit KI von Google oder Partnern wie OpenAI und Nvidia erzeugt wurde. Das Werkzeug ist weltweit auf Englisch verfügbar.",
+    "body": [
+     "Google macht seinen SynthID-Detektor für die breite Öffentlichkeit zugänglich. Seit dem 7. Oktober kann jeder weltweit – vorerst auf Englisch – prüfen, ob ein Bild, ein Video oder eine Audiodatei mit KI von Google oder einem Partnerunternehmen erstellt wurde. Bislang stand eine frühe Version nur Medienschaffenden zur Verfügung. Angekündigt hat den Schritt Pushmeet Kohli, Vizepräsident für Wissenschaft und strategische Initiativen bei Google DeepMind.",
+     "SynthID versieht KI-Inhalte seit 2023 mit einem unsichtbaren Wasserzeichen, das im Bild, im Video oder in der Tonspur selbst steckt. Nach Googles Angaben wurden damit bereits mehr als 180 Milliarden Bilder und Videos sowie Audiomaterial im Umfang von 240.000 Jahren markiert. Der Detektor erkennt auch die Wasserzeichen von Partnern wie OpenAI, Nvidia und Kakao; Apple soll bald folgen. Die bereits in Suche, Gemini-App und Chrome eingebaute Prüfung verarbeitet laut Google regelmäßig mehr als eine Million Anfragen täglich.",
+     "Eine Grenze bleibt: Der Detektor findet nur Inhalte, die ein SynthID-Wasserzeichen tragen. KI-Material aus Systemen, die das Verfahren nicht nutzen, erkennt er nicht – ein negatives Ergebnis ist also kein Beweis dafür, dass ein Inhalt von Menschen stammt."
+    ]
+   },
+   "bg": {
+    "t": "Истинско или ИИ? Google отваря детектора си SynthID за всички",
+    "d": "Всеки вече може да провери дали снимка, видео или аудиофайл са създадени с ИИ на Google или на партньори като OpenAI и Nvidia. Инструментът е достъпен по целия свят на английски.",
+    "body": [
+     "Google прави детектора си SynthID достъпен за широката публика. От 7 октомври всеки по света – засега на английски език – може да провери дали снимка, видео или аудиофайл са създадени с ИИ на Google или на партньорска компания. Досега ранна версия беше достъпна само за медийни професионалисти. Стъпката беше обявена от Пушмийт Коли, вицепрезидент по наука и стратегически инициативи в Google DeepMind.",
+     "От 2023 г. SynthID поставя върху съдържание, създадено с ИИ, невидим воден знак, вграден в самото изображение, видео или звук. По данни на Google досега с него са маркирани над 180 милиарда изображения и видеоклипа, както и аудиоматериал с обща продължителност 240 000 години. Детекторът разпознава и водните знаци на партньори като OpenAI, Nvidia и Kakao, а Apple предстои да се присъедини. Вградената проверка в търсачката, приложението Gemini и Chrome обработва редовно над един милион заявки дневно, според Google.",
+     "Остава едно ограничение: детекторът открива само съдържание със воден знак SynthID. Материали от системи, които не използват технологията, той не разпознава – отрицателният резултат следователно не доказва, че съдържанието е създадено от човек."
+    ]
+   },
+   "en": {
+    "t": "Real or AI? Google opens its SynthID detector to everyone",
+    "d": "Anyone can now check whether an image, video or audio file was made with AI from Google or partners such as OpenAI and Nvidia. The tool is available worldwide in English.",
+    "body": [
+     "Google is opening its SynthID detector to the general public. Since 7 October, anyone worldwide – in English for now – can check whether an image, video or audio file was created with AI from Google or one of its partners. Until now, an early version was available only to media professionals. The move was announced by Pushmeet Kohli, vice president of science and strategic initiatives at Google DeepMind.",
+     "Since 2023, SynthID has given AI content an invisible watermark embedded in the image, video or audio itself. According to Google, more than 180 billion images and videos and 240,000 years' worth of audio have been marked so far. The detector also recognises watermarks from partners such as OpenAI, Nvidia and Kakao, with Apple to follow soon. The checks already built into Search, the Gemini app and Chrome regularly handle more than one million requests a day, Google says.",
+     "One limit remains: the detector only finds content that carries a SynthID watermark. It cannot flag AI material from systems that do not use the technology, so a negative result is no proof that content was made by a human."
+    ]
+   }
+  },
+  {
+   "id": "xpeng-iron-paris-europa-2027",
+   "s": "ai",
+   "time": "12:46",
+   "kick": {
+    "de": "Roboter",
+    "bg": "Роботи",
+    "en": "Robots"
+   },
+   "yt": {
+    "id": "tb2bVZ0mf1M",
+    "ch": "XPENG",
+    "kind": "video",
+    "t": {
+     "de": "XPENG: Der nächste Meilenstein des KI-Fahrassistenten – Paris",
+     "bg": "XPENG: Следващият етап на ИИ асистента за шофиране – Париж",
+     "en": "XPENG: The next milestone of NGP – Paris"
+    }
+   },
+   "src": [
+    {
+     "n": "Humanoids Daily – XPENG Targets H2 2027 European Rollout for IRON Humanoid Robot (12.10.2026)",
+     "u": "https://www.humanoidsdaily.com/news/xpeng-iron-europe-rollout-h2-2027"
+    },
+    {
+     "n": "EV (eletric-vehicles.com) – XPeng Sets Second-Half 2027 European Rollout for IRON Humanoid Robot (11.10.2026)",
+     "u": "https://eletric-vehicles.com/xpeng/xpeng-sets-second-half-2027-european-rollout-for-iron-humanoid-robot/"
+    },
+    {
+     "n": "XPENG GURU – XPENG at the Paris Motor Show 2026 (Oktober 2026)",
+     "u": "https://xpeng.guru/news/xpeng-paris-motor-show-2026/"
+    },
+    {
+     "n": "XPENG – THE NEXT MILESTONE OF NGP: PARIS (YouTube, Oktober 2026)",
+     "u": "https://www.youtube.com/watch?v=tb2bVZ0mf1M"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-12/xpeng-iron-paris-europa-2027-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: XPENG will seinen humanoiden Roboter IRON 2027 nach Europa bringen",
+     "bg": "Заглавна графика: XPENG иска да пусне хуманоидния си робот IRON в Европа през 2027 г.",
+     "en": "Title graphic: XPENG plans to bring its humanoid robot IRON to Europe in 2027"
+    }
+   },
+   "de": {
+    "t": "XPENG will Roboter IRON in der zweiten Jahreshälfte 2027 in Europa einsetzen",
+    "d": "Firmenchef He Xiaopeng nannte in Paris erstmals einen Zeitplan für Europa. Zum Autosalon zeigt der chinesische Konzern zudem seinen KI-Fahrassistenten bei Testfahrten in der Stadt.",
+    "body": [
+     "Der chinesische Elektroauto- und Robotikkonzern XPENG hat erstmals einen Zeitplan für seinen humanoiden Roboter IRON in Europa genannt. Gründer und Chef He Xiaopeng stellte ihn am Sonntag bei einer Veranstaltung in Paris vor, am Vorabend des Pariser Autosalons: Die Massenproduktion soll Ende 2026 beginnen, Auslieferungen sind für das erste Halbjahr 2027 geplant, die Einführung in Europa für das zweite Halbjahr 2027. Preise, erste Länder und das Vertriebsmodell nannte XPENG nicht.",
+     "Eingesetzt werden soll IRON zunächst in XPENG-Verkaufsräumen und auf Firmengeländen – für Führungen, Hilfe beim Einkauf und begleitete Patrouillen. Industrie- und Haushaltsanwendungen sollen später folgen. Nach Angaben des Fachportals EV hat die Serienversion 76 Freiheitsgrade im Körper und 21 in jeder Hand und rechnet mit drei hauseigenen Turing-Chips. Im September hatte XPENG die Fertigungslinien in Betrieb genommen; mehr als 80 Prozent der Kernprozesse seien automatisiert.",
+     "Auf dem Autosalon (12. bis 18. Oktober) können Besucher außerdem als Beifahrer im SUV L03 den KI-Fahrassistenten NGP im Pariser Straßenverkehr erleben – im offiziellen „Autonomous Lab“, an dem als einziger weiterer Autohersteller Tesla teilnimmt. In Europa ist NGP für Kunden noch nicht verfügbar; XPENG strebt eine weltweite Einführung 2027 an und passt das System in seinem Entwicklungszentrum in München an."
+    ]
+   },
+   "bg": {
+    "t": "XPENG ще пусне хуманоидния робот IRON в Европа през втората половина на 2027 г.",
+    "d": "Шефът на компанията Хъ Сяопън за първи път обяви в Париж график за Европа. На автосалона китайският концерн показва и своя ИИ асистент за шофиране при тестови пътувания в града.",
+    "body": [
+     "Китайският производител на електромобили и роботи XPENG за първи път обяви график за хуманоидния си робот IRON в Европа. Основателят и шеф Хъ Сяопън го представи в неделя на събитие в Париж, в навечерието на Парижкия автосалон: масовото производство трябва да започне в края на 2026 г., доставките са планирани за първата половина на 2027 г., а пускането в Европа – за втората половина на 2027 г. XPENG не съобщи цени, първите страни, нито модела на продажби.",
+     "Първоначално IRON ще работи в шоурумите и на територията на XPENG – за екскурзии, помощ при пазаруване и придружаване на патрули. Приложенията в индустрията и домакинствата ще последват по-късно. Според специализирания портал EV серийната версия има 76 степени на свобода в тялото и по 21 във всяка ръка и работи с три собствени чипа Turing. През септември XPENG пусна производствените линии; над 80% от основните процеси са автоматизирани.",
+     "На автосалона (12–18 октомври) посетителите могат като пътници в SUV модела L03 да изпробват ИИ асистента за шофиране NGP в парижкия трафик – в официалната „Autonomous Lab“, в която единственият друг участващ автопроизводител е Tesla. В Европа NGP все още не е достъпен за клиенти; XPENG се стреми към глобално въвеждане през 2027 г. и адаптира системата в центъра си за разработки в Мюнхен."
+    ]
+   },
+   "en": {
+    "t": "XPENG plans to roll out its humanoid robot IRON in Europe from the second half of 2027",
+    "d": "CEO He Xiaopeng gave a European timetable for the first time in Paris. At the motor show, the Chinese group is also demonstrating its AI driver assistant on test rides in the city.",
+    "body": [
+     "Chinese electric-car and robotics group XPENG has for the first time given a timetable for its humanoid robot IRON in Europe. Founder and CEO He Xiaopeng presented it on Sunday at an event in Paris on the eve of the Paris Motor Show: mass production is to start in late 2026, deliveries are planned for the first half of 2027 and the European rollout for the second half of 2027. XPENG did not give prices, the first countries or a sales model.",
+     "IRON will initially be used in XPENG showrooms and on company sites – for guided tours, shopping assistance and accompanying patrols. Industrial and household uses are to follow later. According to the trade site EV, the production version has 76 degrees of freedom in the body and 21 in each hand and runs on three in-house Turing chips. XPENG commissioned the production lines in September, saying more than 80 percent of core processes are automated.",
+     "At the motor show (12 to 18 October), visitors can also ride as passengers in the L03 SUV to experience the NGP AI driver assistant in Paris traffic – in the official Autonomous Lab, where Tesla is the only other carmaker taking part. NGP is not yet available to customers in Europe; XPENG is aiming for a global rollout in 2027 and is adapting the system at its development centre in Munich."
+    ]
+   }
+  },
+  {
+   "id": "ubtech-faw-volkswagen-humanoide-logistik",
+   "s": "ai",
+   "time": "12:46",
+   "kick": {
+    "de": "Roboter",
+    "bg": "Роботи",
+    "en": "Robots"
+   },
+   "yt": {
+    "id": "0I3c8ed2dvA",
+    "ch": "UBTECH Robotics",
+    "kind": "video",
+    "t": {
+     "de": "UBTECH: Walker S Lite prüft Autos bei FAW-Volkswagen in Qingdao",
+     "bg": "UBTECH: Walker S Lite проверява автомобили във FAW-Volkswagen в Циндао",
+     "en": "UBTECH: Walker S Lite inspects cars at FAW-Volkswagen in Qingdao"
+    }
+   },
+   "src": [
+    {
+     "n": "Humanoids Daily – UBTECH and FAW-Volkswagen Expand Humanoid Robot Partnership Into Factory Logistics (08.10.2026)",
+     "u": "https://www.humanoidsdaily.com/news/ubtech-faw-volkswagen-humanoid-robots-logistics"
+    },
+    {
+     "n": "Interesting Engineering – UBTECH and Volkswagen to test humanoid robots (09.10.2026)",
+     "u": "https://interestingengineering.com/ai-robotics/ubtech-volkswagen-test-humanoid-robots"
+    },
+    {
+     "n": "UBTECH Robotics – Walker S Lite: Car Assembly Status Inspection in FAW-Volkswagen Qingdao Branch (YouTube)",
+     "u": "https://www.youtube.com/watch?v=0I3c8ed2dvA"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-12/ubtech-faw-volkswagen-humanoide-logistik.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "N509FZ",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gate_208_of_FAW-Volkswagen_Automotive_(20250922095044).jpg",
+    "alt": {
+     "de": "Werkstor von FAW-Volkswagen in China (Archivbild)",
+     "bg": "Портал на завод на FAW-Volkswagen в Китай (архивна снимка)",
+     "en": "Factory gate of FAW-Volkswagen in China (archive photo)"
+    }
+   },
+   "de": {
+    "t": "Humanoide Roboter in der Autofabrik: UBTECH und FAW-Volkswagen testen Logistik",
+    "d": "Der chinesische Roboterhersteller und das VW-Gemeinschaftsunternehmen wollen KI-Roboter für den Materialtransport im Werk entwickeln. Modell, Stückzahl und Zeitplan sind noch offen.",
+    "body": [
+     "Der chinesische Roboterhersteller UBTECH und FAW-Volkswagen, das Gemeinschaftsunternehmen von Volkswagen und dem Staatskonzern FAW in China, weiten ihre Zusammenarbeit aus. Laut einer Mitteilung von UBTECH vom 8. Oktober wollen beide Anwendungen für humanoide Roboter in der Werkslogistik entwickeln und testen sowie Demonstrationsstandorte in der Produktion aufbauen. Hintergrund ist der Wunsch der Autobauer nach flexiblerer Fertigung für individueller ausgestattete Fahrzeuge.",
+     "Die Partner arbeiten seit Juli 2024 zusammen. Damals öffnete FAW-Volkswagen im Werk Qingdao Produktionslinien für den humanoiden Industrieroboter Walker S, der unter anderem Schrauben anzog, Bauteile montierte und Teile transportierte. Später übte dort das Modell Walker S Lite Qualitätskontrollen an fertigen Fahrzeugen – das Video zeigt diesen früheren Einsatz.",
+     "Welches Robotermodell für die Logistik vorgesehen ist, in welchen Werken getestet wird, wie viele Roboter geplant sind und wann sie regulär arbeiten sollen, ließen die Unternehmen offen. UBTECH baut seine Kapazitäten derweil aus: Eine neue Fabrik im südchinesischen Liuzhou mit 14.000 Quadratmetern läuft seit dem 12. September und kann nach Angaben der Regionalregierung alle zehn Minuten einen Roboter fertigen."
+    ]
+   },
+   "bg": {
+    "t": "Хуманоидни роботи в автозавода: UBTECH и FAW-Volkswagen тестват логистика",
+    "d": "Китайският производител на роботи и съвместното предприятие на VW искат да разработят ИИ роботи за вътрешнозаводски транспорт. Модел, брой и график все още не са ясни.",
+    "body": [
+     "Китайският производител на роботи UBTECH и FAW-Volkswagen – съвместното предприятие на Volkswagen и държавния концерн FAW в Китай – разширяват сътрудничеството си. Според съобщение на UBTECH от 8 октомври двете компании ще разработват и тестват приложения на хуманоидни роботи в заводската логистика и ще изградят демонстрационни площадки в производството. Причината е стремежът на автопроизводителите към по-гъвкаво производство на по-индивидуално оборудвани автомобили.",
+     "Партньорите работят заедно от юли 2024 г. Тогава FAW-Volkswagen отвори производствени линии в завода в Циндао за хуманоидния индустриален робот Walker S, който затягаше болтове, монтираше компоненти и пренасяше части. По-късно моделът Walker S Lite се обучаваше там в контрол на качеството на готови автомобили – видеото показва тази по-ранна употреба.",
+     "Компаниите не уточниха кой модел робот е предвиден за логистиката, в кои заводи ще се тества, колко робота са планирани и кога ще започнат редовна работа. Междувременно UBTECH разширява капацитета си: нов завод от 14 000 кв. м в южнокитайския град Лиуджоу работи от 12 септември и според регионалното правителство може да произвежда по един робот на всеки десет минути."
+    ]
+   },
+   "en": {
+    "t": "Humanoid robots in the car plant: UBTECH and FAW-Volkswagen to test logistics",
+    "d": "The Chinese robot maker and the VW joint venture want to develop AI robots for moving materials inside factories. Model, numbers and timetable are still open.",
+    "body": [
+     "Chinese robot maker UBTECH and FAW-Volkswagen, the joint venture between Volkswagen and state-owned FAW in China, are expanding their cooperation. According to a UBTECH statement on 8 October, the two will develop and test humanoid robot applications for factory logistics and set up demonstration sites in production. The background is carmakers' push for more flexible manufacturing of more individually specified vehicles.",
+     "The partners have worked together since July 2024, when FAW-Volkswagen opened production lines at its Qingdao plant to the humanoid industrial robot Walker S, which tightened bolts, installed components and moved parts. Later, the Walker S Lite model trained there on quality checks of finished cars – the video shows this earlier deployment.",
+     "The companies did not say which robot model is planned for logistics, at which plants testing will take place, how many robots are planned or when they will work routinely. UBTECH is meanwhile expanding capacity: a new 14,000-square-metre factory in Liuzhou in southern China has been running since 12 September and, according to the regional government, can build one robot every ten minutes."
+    ]
+   }
+  },
+  {
+   "id": "openai-false-front-einflussoperationen",
+   "s": "ai",
+   "time": "12:46",
+   "mn": true,
+   "kick": {
+    "de": "Desinformation",
+    "bg": "Дезинформация",
+    "en": "Disinformation"
+   },
+   "src": [
+    {
+     "n": "OpenAI – Disrupting AI-enabled “false front” operations (08.10.2026)",
+     "u": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/"
+    },
+    {
+     "n": "Unite.AI – OpenAI bans two covert influence operations using false fronts (Oktober 2026)",
+     "u": "https://unite.ai/openai-bans-two-covert-influence-operations-using-false-fronts"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-12/openai-false-front-einflussoperationen.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Jernej Furman from Slovenia",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:OpenAI_logo_with_magnifying_glass_(52916339167).jpg",
+    "alt": {
+     "de": "OpenAI-Logo unter der Lupe (Symbolbild)",
+     "bg": "Логото на OpenAI под лупа (символична снимка)",
+     "en": "OpenAI logo under a magnifying glass (symbolic image)"
+    }
+   },
+   "de": {
+    "t": "Scheinfirmen und erfundene Journalisten: OpenAI sperrt Netzwerke aus Russland und Iran",
+    "d": "Eine russische Operation täuschte Lateinamerika mit einem falschen Forschungsinstitut, eine iranische schmuggelte rund 100 Artikel in echte Medien. OpenAI stuft den russischen Fall so hoch ein wie keinen zuvor.",
+    "body": [
+     "OpenAI hat zwei verdeckte Einflussoperationen aus Russland und Iran gesperrt, die ChatGPT neben klassischen Methoden für sogenannte Scheinfronten nutzten. Das geht aus einem am 8. Oktober veröffentlichten Bericht hervor. Es handle sich um zwei von 30 verdeckten Operationen, die das Unternehmen in etwa zweieinhalb Jahren aufgedeckt habe. KI könne solchen Operationen „größere Reichweite, Effizienz, sprachliche Gewandtheit und redaktionelle Fähigkeiten“ verleihen, schreibt OpenAI.",
+     "Die russische Operation mit dem Namen „Dark Clark“ zielte auf Lateinamerika: Über ein angebliches Forschungsinstitut und eine erfundene Person namens „Mia Clark“ wurden unter anderem gefälschte Behördenschreiben an Schulen in Peru und Ecuador sowie gefälschte Audioaufnahmen verbreitet, etwa um der Ukraine zu schaden. Lateinamerikanische Mitarbeiter wussten laut OpenAI offenbar nichts von der russischen Steuerung. Offene Recherchen bringen einige der Fälschungen mit „Politology“ in Verbindung, die als Nachfolgeorganisation der Wagner-Gruppe gilt. Auf der „Breakout Scale“, mit der OpenAI die Reichweite solcher Kampagnen bewertet, landet der Fall als erste von OpenAI gestoppte Operation in Kategorie 5 der sechsstufigen Skala.",
+     "Die iranische Operation „Bogus Bylines“ arbeitete mit sieben erfundenen westlichen Journalisten. Von Juli 2025 bis Oktober 2026 erschienen fast 100 ihrer Artikel zum Konflikt zwischen den USA und Iran in rund einem Dutzend Medien. OpenAI hält einen Auftragsdienst für wahrscheinlich, konnte den Auftraggeber aber nicht ermitteln. Die Konten nutzten VPN-Verbindungen."
+    ]
+   },
+   "bg": {
+    "t": "Фиктивни фирми и измислени журналисти: OpenAI блокира мрежи от Русия и Иран",
+    "d": "Руска операция заблуждаваше Латинска Америка с фалшив изследователски институт, иранска пробута около 100 статии в истински медии. OpenAI оценява руския случай по-високо от всички досега.",
+    "body": [
+     "OpenAI блокира две тайни операции за влияние от Русия и Иран, които наред с класическите методи използваха ChatGPT за т.нар. фалшиви фасади. Това става ясно от доклад, публикуван на 8 октомври. Те са две от 30-те тайни операции, разкрити от компанията за около две години и половина. ИИ може да даде на такива операции „по-голям мащаб, ефективност, езикова гладкост и редакторски умения“, пише OpenAI.",
+     "Руската операция „Dark Clark“ беше насочена към Латинска Америка: чрез уж изследователски институт и измислена личност на име „Мия Кларк“ бяха разпространявани фалшиви писма от институции до училища в Перу и Еквадор, както и фалшиви аудиозаписи – например с цел да се навреди на Украйна. Според OpenAI латиноамериканските служители явно не са знаели за руското управление. Независими разследвания свързват част от фалшификатите с „Politology“, смятана за наследник на групата „Вагнер“. По скалата „Breakout Scale“, с която OpenAI оценява обхвата на подобни кампании, случаят е първата спряна от OpenAI операция в категория 5 от шестстепенната скала.",
+     "Иранската операция „Bogus Bylines“ работеше със седем измислени западни журналисти. От юли 2025 г. до октомври 2026 г. почти 100 техни статии за конфликта между САЩ и Иран излязоха в около дузина медии. OpenAI смята, че вероятно става дума за платена услуга, но не успя да установи поръчителя. Профилите са използвали VPN връзки."
+    ]
+   },
+   "en": {
+    "t": "Front groups and fake journalists: OpenAI bans networks from Russia and Iran",
+    "d": "A Russian operation targeted Latin America with a fake research institute, an Iranian one slipped about 100 articles into real media. OpenAI rates the Russian case higher than any before.",
+    "body": [
+     "OpenAI has banned two covert influence operations from Russia and Iran that used ChatGPT alongside traditional methods to run so-called false fronts, according to a report published on 8 October. They are two of the 30 covert operations the company says it has exposed in roughly two and a half years. AI can give such operations “greater scale, efficiency, linguistic fluency, and editorial ability,” OpenAI writes.",
+     "The Russian operation, dubbed “Dark Clark,” targeted Latin America: through a supposed research institute and an invented persona named “Mia Clark,” it spread fake official letters to schools in Peru and Ecuador as well as fake audio recordings, for example to damage Ukraine. According to OpenAI, Latin American staff were apparently unaware of the Russian control. Open-source researchers link some of the fakes to “Politology,” which is regarded as a successor to the Wagner Group. On the Breakout Scale that OpenAI uses to rate the reach of such campaigns, it is the first operation OpenAI has disrupted to reach Category 5 on the six-point scale.",
+     "The Iranian operation, “Bogus Bylines,” used seven invented Western journalists. Between July 2025 and October 2026, almost 100 of their articles on the US-Iran conflict appeared in about a dozen outlets. OpenAI believes it was likely a commercial for-hire service but could not identify the client. The accounts used VPN connections."
+    ]
+   }
+  },
+  {
+   "id": "amazon-decart-uebernahmegespraeche",
+   "s": "ai",
+   "time": "12:46",
+   "mn": true,
+   "kick": {
+    "de": "Übernahme",
+    "bg": "Придобиване",
+    "en": "Acquisition"
+   },
+   "src": [
+    {
+     "n": "Reuters via 93.3 The Drive – Amazon in talks to buy AI startup Decart for around $7 billion, WSJ reports (11.10.2026)",
+     "u": "https://www.933thedrive.com/2026/10/11/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-wsj-reports/"
+    },
+    {
+     "n": "Financial News – Amazon in Decart acquisition talks valuing AI startup at $7bn (12.10.2026)",
+     "u": "https://www.financial-news.co.uk/amazon-in-decart-acquisition-talks-valuing-ai-startup-at-7bn/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-12/amazon-decart-uebernahmegespraeche.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Tony Webster from Minneapolis, Minnesota, United States",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:AWS_-_Amazon_Web_Services_Office_in_Houston,_Texas_(46600198075).jpg",
+    "alt": {
+     "de": "Büro von Amazon Web Services in Houston, Texas (Archivbild)",
+     "bg": "Офис на Amazon Web Services в Хюстън, Тексас (архивна снимка)",
+     "en": "Amazon Web Services office in Houston, Texas (archive photo)"
+    }
+   },
+   "de": {
+    "t": "Bericht: Amazon verhandelt über Kauf des KI-Start-ups Decart für rund 7 Milliarden Dollar",
+    "d": "Das von israelischen Gründern aufgebaute Start-up entwickelt Software für KI auf verschiedenen Chips und bearbeitet Live-Videos in Echtzeit. Im Sommer hatte bereits Anthropic Interesse gezeigt – und abgewunken.",
+    "body": [
+     "Amazon verhandelt laut einem Bericht des „Wall Street Journal“ vom Sonntag über die Übernahme des KI-Start-ups Decart. Der Kaufpreis könnte bei rund 7 Milliarden Dollar liegen, berichtete die Zeitung unter Berufung auf informierte Personen. Eine Einigung könnte demnach bald kommen, sofern die Gespräche nicht scheitern oder ein anderer Bieter auftaucht. Die Nachrichtenagentur Reuters konnte den Bericht zunächst nicht bestätigen; Amazon und Decart äußerten sich nicht.",
+     "Decart wurde 2023 von Dean Leitersdorf, Orian Leitersdorf und Moshe Shalev gegründet. Das Unternehmen entwickelt Software, mit der KI-Anwendungen auf verschiedenen Chiparten effizienter laufen – interessant für Amazons Cloud-Sparte AWS, die mit eigenen Trainium-Chips gegen Nvidia antritt. Bekannt ist Decart zudem für das Modell Lucy, das Live-Videos in Echtzeit bearbeitet, und für Oasis, das simulierte Umgebungen zum Training von Robotern und autonomen Fahrzeugen erzeugt.",
+     "Im Mai hatte Decart 300 Millionen Dollar in einer von Radical Ventures angeführten Runde eingesammelt, an der sich auch Nvidia beteiligte; die Bewertung lag laut PitchBook bei fast 4 Milliarden Dollar. Im August hatte laut Bloomberg bereits Anthropic eine Übernahme für rund 6 Milliarden Dollar geprüft, den Plan aber im September nach eingehender Prüfung aufgegeben."
+    ]
+   },
+   "bg": {
+    "t": "Доклад: Amazon преговаря за покупката на ИИ стартъпа Decart за около 7 млрд. долара",
+    "d": "Стартъпът на израелски основатели разработва софтуер за ИИ върху различни чипове и обработва видео на живо в реално време. През лятото интерес прояви и Anthropic – но се отказа.",
+    "body": [
+     "Amazon преговаря за придобиването на ИИ стартъпа Decart, съобщи в неделя в. „Уолстрийт джърнъл“. Цената може да е около 7 млрд. долара, пише вестникът, позовавайки се на запознати източници. Според него сделка може да бъде сключена скоро, ако преговорите не се провалят и не се появи друг кандидат. Агенция Ройтерс не успя веднага да потвърди информацията; Amazon и Decart не коментираха.",
+     "Decart е основана през 2023 г. от Дийн Лайтерсдорф, Ориан Лайтерсдорф и Моше Шалев. Компанията разработва софтуер, с който ИИ приложенията работят по-ефективно на различни видове чипове – това е интересно за облачното звено на Amazon AWS, което се конкурира с Nvidia със собствените си чипове Trainium. Decart е известна и с модела Lucy, който обработва видео на живо в реално време, и с Oasis, който създава симулирани среди за обучение на роботи и автономни превозни средства.",
+     "През май Decart набра 300 млн. долара в рунд, воден от Radical Ventures, в който участва и Nvidia; според PitchBook оценката беше близо 4 млрд. долара. Според Bloomberg през август Anthropic вече е обмисляла придобиване за около 6 млрд. долара, но се е отказала от плана през септември след задълбочена проверка."
+    ]
+   },
+   "en": {
+    "t": "Report: Amazon in talks to buy AI start-up Decart for around $7 billion",
+    "d": "The start-up built by Israeli founders develops software for running AI on different chips and edits live video in real time. Anthropic had already shown interest in the summer – and walked away.",
+    "body": [
+     "Amazon is in talks to acquire AI start-up Decart, The Wall Street Journal reported on Sunday. The price could be around $7 billion, the paper said, citing people familiar with the matter. A deal could come soon unless the talks collapse or another bidder emerges. Reuters could not immediately verify the report; Amazon and Decart did not comment.",
+     "Decart was founded in 2023 by Dean Leitersdorf, Orian Leitersdorf and Moshe Shalev. The company develops software that makes AI workloads run more efficiently on different types of chips – of interest to Amazon's cloud unit AWS, which competes with Nvidia using its own Trainium chips. Decart is also known for its Lucy model, which edits live video in real time, and Oasis, which generates simulated environments for training robots and self-driving vehicles.",
+     "In May, Decart raised $300 million in a round led by Radical Ventures that Nvidia also joined; PitchBook put the valuation at nearly $4 billion. According to Bloomberg, Anthropic had already explored a takeover for around $6 billion in August but dropped the plan in September after due diligence."
+    ]
+   }
+  },
+  {
+   "id": "anthropic-cyber-mission-infrastruktur",
+   "s": "ai",
+   "time": "12:46",
+   "mn": true,
+   "kick": {
+    "de": "Cybersicherheit",
+    "bg": "Киберсигурност",
+    "en": "Cybersecurity"
+   },
+   "src": [
+    {
+     "n": "SiliconANGLE – Anthropic launches critical infrastructure program and free OSS Scanner for open source (08.10.2026)",
+     "u": "https://siliconangle.com/2026/10/08/anthropic-launches-critical-infrastructure-program-and-free-oss-scanner-for-open-source/"
+    },
+    {
+     "n": "The Next Web – Anthropic signs CrowdStrike, Hitachi and 9 more to defend power and water (09.10.2026)",
+     "u": "https://thenextweb.com/news/anthropic-cyber-mission-critical-infrastructure-oss-scanner"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-12/anthropic-cyber-mission-infrastruktur.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Novoklimov",
+    "lic": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Switchyard_of_electric_substation_750kV.png",
+    "alt": {
+     "de": "Schaltanlage eines 750-kV-Umspannwerks (Symbolbild)",
+     "bg": "Разпределителна уредба на 750-kV подстанция (символична снимка)",
+     "en": "Switchyard of a 750 kV electrical substation (symbolic image)"
+    }
+   },
+   "de": {
+    "t": "Anthropic stellt Schutzprogramm für Strom- und Wassernetze vor – mit elf Partnern",
+    "d": "Sicherheitsfirmen, die kritische Infrastruktur schützen, sollen Zugang zu Anthropics stärksten KI-Modellen und Ingenieuren erhalten. Dazu kommt ein kostenloser Sicherheitsscanner für Open-Source-Software.",
+    "body": [
+     "Anthropic hat am 8. Oktober die „Anthropic Cyber Mission“ gestartet. Erster Teil ist ein Programm zum Schutz kritischer Infrastruktur: Sicherheitsfirmen, die Stromnetze, Wasserversorger und Verkehrsnetze absichern, erhalten Zugang zu Anthropics fortschrittlichsten Claude-Modellen, Ingenieuren vor Ort und Bedrohungsanalysen. Im Fokus steht Betriebstechnik wie Steuerungen in Werken, Umspannwerken und Wasseranlagen. Zu den elf Gründungspartnern gehören Accenture, Booz Allen Hamilton, CrowdStrike, Deloitte, Dragos, Hitachi, Insane Cyber, Nozomi Networks, Palo Alto Networks, PwC und Rockwell Automation. Geschäftliche Bedingungen nannte Anthropic nicht.",
+     "Zweiter Baustein ist der kostenlose „OSS Scanner“, der Open-Source-Projekte auf Antrag regelmäßig mit Anthropics stärksten Modellen auf Schwachstellen untersucht. Die Berichte gehen ohne vorherige Prüfung durch Menschen an die Entwickler und können Fehler enthalten. In einem Test vor dem Start prüften Penetrationstester 97 als kritisch oder hoch eingestufte Funde aus 48 Projekten; 85 erfüllten die Kriterien für eine Meldung. Über sechs Monate fanden die Modelle mehr als 29.000 mögliche Schwachstellen in verbreiteter Software, rund 6.000 davon prüften Mitarbeiter von Hand.",
+     "Anthropic räumt ein, dass kritische Infrastruktur auf viele Arten schwer zu verteidigen sei, die KI nicht lösen könne. Schwachstellen zu finden sei leichter denn je, sie zu prüfen und zu beheben bleibe aber schwierig. Das Unternehmen erwartet nach eigener Prognose, dass KI in zwei Jahren die Verteidiger begünstigen werde. Kurzfristig müsse das aber nicht gelten."
+    ]
+   },
+   "bg": {
+    "t": "Anthropic представи програма за защита на електрически и водни мрежи – с 11 партньори",
+    "d": "Компаниите за сигурност, които защитават критичната инфраструктура, ще получат достъп до най-мощните ИИ модели и инженери на Anthropic. Добавя се и безплатен скенер за сигурност на софтуер с отворен код.",
+    "body": [
+     "На 8 октомври Anthropic стартира „Anthropic Cyber Mission“. Първата част е програма за защита на критичната инфраструктура: компании за сигурност, които пазят електропреносни мрежи, водоснабдяването и транспортните мрежи, получават достъп до най-напредналите модели Claude, инженери на място и анализи на заплахите. Фокусът е върху оперативните технологии като системите за управление в заводи, подстанции и водни съоръжения. Сред 11-те основатели партньори са Accenture, Booz Allen Hamilton, CrowdStrike, Deloitte, Dragos, Hitachi, Insane Cyber, Nozomi Networks, Palo Alto Networks, PwC и Rockwell Automation. Anthropic не съобщи търговски условия.",
+     "Вторият елемент е безплатният „OSS Scanner“, който при заявка редовно проверява проекти с отворен код за уязвимости с най-мощните модели на Anthropic. Докладите стигат до разработчиците без предварителна проверка от хора и може да съдържат грешки. В тест преди старта пентестери прегледаха 97 находки с критична или висока степен от 48 проекта; 85 отговаряха на критериите за докладване. За шест месеца моделите откриха над 29 000 възможни уязвимости в широко използван софтуер, около 6000 от тях служители провериха ръчно.",
+     "Anthropic признава, че критичната инфраструктура е трудна за защита по много начини, които ИИ не може да реши. Откриването на уязвимости никога не е било по-лесно, но проверката и отстраняването им остават трудни. Според собствената си прогноза компанията очаква след две години ИИ да облагодетелства защитниците. В краткосрочен план обаче това може да не е така."
+    ]
+   },
+   "en": {
+    "t": "Anthropic unveils programme to protect power and water networks – with 11 partners",
+    "d": "Critical infrastructure defenders are to get access to Anthropic's most capable AI models and engineers. A free security scanner for open-source software comes on top.",
+    "body": [
+     "Anthropic launched the “Anthropic Cyber Mission” on 8 October. The first part is a programme to protect critical infrastructure: security firms that guard power grids, water utilities and transport networks get access to Anthropic's most advanced Claude models, on-site engineers and threat research. The focus is on operational technology such as control systems in plants, substations and water facilities. The eleven founding partners include Accenture, Booz Allen Hamilton, CrowdStrike, Deloitte, Dragos, Hitachi, Insane Cyber, Nozomi Networks, Palo Alto Networks, PwC and Rockwell Automation. Anthropic did not disclose commercial terms.",
+     "The second element is the free “OSS Scanner,” which, on request, regularly scans open-source projects for vulnerabilities using Anthropic's strongest models. Reports go to maintainers without prior human review and may contain errors. In pre-launch testing, penetration testers checked 97 critical and high-severity findings from 48 projects; 85 met the bar for disclosure. Over six months, the models flagged more than 29,000 candidate vulnerabilities in widely used software, about 6,000 of which staff reviewed by hand.",
+     "Anthropic concedes that critical infrastructure is hard to defend in many ways that AI cannot fix. Finding vulnerabilities has never been easier, it says, but verifying and fixing them remains hard. The company forecasts that in two years AI will favour defenders – though in the near term that may not be true."
+    ]
+   }
+  }
+ ]
+}
