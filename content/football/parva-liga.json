@@ -815,7 +815,10 @@
    "time": "15:00",
    "t1": "Septemvri Sofia",
    "t2": "Dunav Ruse",
-   "ft": null
+   "ft": [
+    2,
+    3
+   ]
   },
   {
    "r": 11,
@@ -823,7 +826,10 @@
    "time": "17:30",
    "t1": "Cherno More Varna",
    "t2": "Levski Sofia",
-   "ft": null
+   "ft": [
+    0,
+    2
+   ]
   },
   {
    "r": 11,
@@ -831,7 +837,10 @@
    "time": "20:00",
    "t1": "CSKA 1948",
    "t2": "CSKA Sofia",
-   "ft": null
+   "ft": [
+    2,
+    3
+   ]
   },
   {
    "r": 11,
@@ -1401,6 +1410,18 @@
   {
    "n": "Fakti – Botev Vratsa – Spartak Varna",
    "u": "https://fakti.bg/sport/1088599-spartak-varna-pobedi-botev-vraca-s-gol-na-hanne"
+  },
+  {
+   "n": "BTA – Cherno More – Levski, Septemvri – Dunav (11.10.2026)",
+   "u": "https://www.bta.bg/bg/news/sport/1222353-levski-pobedi-cherno-more-vav-varna"
+  },
+  {
+   "n": "Fakti – CSKA 1948 – CSKA 2:3 (11.10.2026)",
+   "u": "https://fakti.bg/sport/1089016-cska-pobedi-cska-1948-s-gol-v-90-ata-minuta-3-2"
+  },
+  {
+   "n": "Novini247 – Septemvri – Dunav (11.10.2026)",
+   "u": "https://novini247.com/novini/sreshti-ot-11-iya-krag-na-efbet-liga-septemvri-sofiya_11286600.html"
   }
  ]
 }
