@@ -1,0 +1,375 @@
+{
+ "date": "2026-10-13",
+ "items": [
+  {
+   "id": "eth-autobike-selbstfahrendes-leihrad",
+   "s": "ki",
+   "mn": true,
+   "time": "14:00",
+   "yt": {
+    "id": "iipwVT6o1L4",
+    "ch": "ETH Zürich",
+    "kind": "video",
+    "t": {
+     "de": "Autonomous Bike: ETH Students Rethink Bike Sharing",
+     "bg": "Autonomous Bike: ETH Students Rethink Bike Sharing",
+     "en": "Autonomous Bike: ETH Students Rethink Bike Sharing"
+    }
+   },
+   "src": [
+    {
+     "n": "ETH Zürich – Autonomous bike: ETH students redefine bike-sharing (6.10.2026)",
+     "u": "https://ethz.ch/en/news-and-events/eth-news/news/2026/10/autonomous-bike-eth-students-redefine-bike-sharing.html"
+    },
+    {
+     "n": "SRF – Mobilität der Zukunft: Wenn das Velo selbst nach Hause findet (16.7.2026)",
+     "u": "https://www.srf.ch/radio-srf-1/mobilitaet-der-zukunft-wenn-das-velo-selbst-nach-hause-findet"
+    },
+    {
+     "n": "AutoBike – Projektseite der ETH-Studierenden",
+     "u": "https://autobike.ethz.ch/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-13/eth-autobike-selbstfahrendes-leihrad.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Tiia Monto",
+    "lic": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:PubliBike.jpg",
+    "alt": {
+     "de": "Symbolbild: ein gewöhnliches PubliBike-Leihrad in Sion – nicht das AutoBike",
+     "bg": "Символна снимка: обикновен велосипед под наем PubliBike в Сион – не AutoBike",
+     "en": "Symbolic image: a regular PubliBike rental bike in Sion – not the AutoBike"
+    }
+   },
+   "de": {
+    "t": "Leihrad fährt allein zur Station: ETH-Studierende bauen ein selbstfahrendes Velo",
+    "d": "Zehn Maschinenbau-Studierende der ETH Zürich haben einen Leihrad-Prototyp gebaut, der nach der Fahrt selbstständig zur Station fahren soll – mit Lidar, Kamera und ausklappbaren Stützrädern.",
+    "body": [
+     "Studierende des Maschinenbaus an der ETH Zürich haben in einem einjährigen Bachelor-Projekt ein autonomes Fahrrad gebaut, wie die Hochschule am 6. Oktober berichtete. Grundlage des „AutoBike“ ist ein gewöhnliches Leihrad des Schweizer Anbieters PubliBike. Betreut wurde das zehnköpfige Team vom Autonomous Systems Lab um Robotik-Professor Roland Siegwart.",
+     "Ein Lidar-Sensor und eine Stereokamera an der Front erfassen die Umgebung. Die Software erstellt daraus eine Karte mit Hindernissen und plant den Weg, Antriebe im Oberrohr lenken und bremsen das Rad. Damit es ohne Fahrer nicht umkippt, klappen hinten zwei Stützräder aus. Autonom fährt das Rad laut Schweizer Radio SRF höchstens 5 km/h.",
+     "Die Idee dahinter: Bikesharing-Anbieter müssen ihre Räder bislang aufwendig umverteilen. Das AutoBike soll nach dem Abstellen selbst dorthin fahren, wo es gebraucht wird. Ob und wann es auf öffentliche Straßen darf, ist laut SRF noch offen – das Team strebt einen Pilotversuch in einem Testgebiet an."
+    ]
+   },
+   "bg": {
+    "t": "Велосипед под наем се връща сам: студенти от ETH Цюрих създадоха автономно колело",
+    "d": "Десет студенти по машинно инженерство от ETH Цюрих създадоха прототип на велосипед под наем, който след возене трябва сам да стига до станцията – с лидар, камера и сгъваеми опорни колелца.",
+    "body": [
+     "Студенти по машинно инженерство от ETH Цюрих са създали автономен велосипед в рамките на едногодишен бакалавърски проект, съобщи университетът на 6 октомври. В основата на AutoBike е обикновен велосипед под наем на швейцарската компания PubliBike. Десетчленният екип е работил под ръководството на Лабораторията за автономни системи на професора по роботика Роланд Зигварт.",
+     "Лидарен сензор и стереокамера отпред следят околната среда. Софтуерът изгражда от данните карта с препятствията и планира маршрута, а задвижвания в горната тръба на рамката управляват и спират колелото. За да не падне без колоездач, отзад се разгъват две опорни колелца. Според швейцарското радио SRF в автономен режим велосипедът се движи с не повече от 5 км/ч.",
+     "Идеята е следната: операторите на системи за споделени велосипеди досега трябва трудоемко да преразпределят колелата си. AutoBike би трябвало след паркиране сам да отиде там, където е нужен. Дали и кога ще бъде допуснат по обществените пътища, засега е неясно според SRF – екипът се стреми към пилотен тест в изпитателна зона."
+    ]
+   },
+   "en": {
+    "t": "Rental bike rides itself back: ETH students build a self-driving bicycle",
+    "d": "Ten mechanical engineering students at ETH Zurich have built a rental bike prototype meant to ride to the station on its own after use – with lidar, a camera and fold-out support wheels.",
+    "body": [
+     "Mechanical engineering students at ETH Zurich have built an autonomous bicycle as part of a one-year bachelor's project, the university reported on 6 October. The AutoBike is based on a regular rental bike from Swiss provider PubliBike. The ten-member team was supervised by the Autonomous Systems Lab of robotics professor Roland Siegwart.",
+     "A lidar sensor and a stereo camera at the front scan the surroundings. The software turns this into a map of obstacles and plans the route, while actuators in the top tube steer and brake the bike. Two support wheels fold out at the back so it does not tip over without a rider. According to Swiss broadcaster SRF, the bike travels at no more than 5 km/h in autonomous mode.",
+     "The idea: bike-sharing operators currently have to redistribute their bikes at great effort. The AutoBike is meant to ride itself to where it is needed once it has been parked. Whether and when it will be allowed on public roads is still open, SRF reports – the team is aiming for a pilot in a test area."
+    ]
+   }
+  },
+  {
+   "id": "northwestern-supramolekulare-faeden-neuronen",
+   "s": "ki",
+   "mn": true,
+   "time": "14:00",
+   "yt": {
+    "id": "c4qwAwLyuBI",
+    "ch": "Northwestern University",
+    "kind": "video",
+    "t": {
+     "de": "Supramolecular polymers supercharge neuron growth",
+     "bg": "Supramolecular polymers supercharge neuron growth",
+     "en": "Supramolecular polymers supercharge neuron growth"
+    }
+   },
+   "src": [
+    {
+     "n": "Northwestern Now – Researchers unlock new level of precision in supramolecular materials (1.10.2026)",
+     "u": "https://news.northwestern.edu/stories/2026/10/researchers-unlock-new-level-of-precision-in-supramolecular-materials"
+    },
+    {
+     "n": "Science – Precise length and charge segmentation of billion-dalton supramolecular polymers (1.10.2026)",
+     "u": "https://www.science.org/doi/10.1126/science.aeg5583"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-13/northwestern-supramolekulare-faeden-neuronen.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "ZEISS Microscopy from Germany",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rat_primary_cortical_neuron_culture,_deconvolved_z-stack_overlay_(30614937102).jpg",
+    "alt": {
+     "de": "Symbolbild: Nervenzellen in Kultur unter dem Mikroskop (Archivbild, nicht aus der Studie)",
+     "bg": "Символна снимка: нервни клетки в култура под микроскоп (архивна снимка, не от изследването)",
+     "en": "Symbolic image: cultured nerve cells under the microscope (archive image, not from the study)"
+    }
+   },
+   "de": {
+    "t": "Molekülfäden in Rekordgröße lassen Nervenzellen im Labor stärker wachsen",
+    "d": "Forschende der Northwestern University bauen Milliarden Dalton schwere Molekülfäden mit exakt gesetzten Ladungsabschnitten. Nervenzellen bildeten damit mehr Verästelungen und Synapsen.",
+    "body": [
+     "Ein Team um den Materialforscher Samuel Stupp von der Northwestern University (USA) hat im Fachjournal Science eine neue Art supramolekularer Polymere vorgestellt (DOI 10.1126/science.aeg5583, 1. Oktober). Die Fäden setzen sich selbst aus kleinen Bausteinen zusammen, werden länger als der Durchmesser einer Zelle und erreichen eine Masse von Milliarden Dalton – rund hundertmal so viel wie sehr große herkömmliche Polymere oder die größten bekannten Proteine.",
+     "Der Trick: Gehen die Bausteine aus, klappen flexible Abschnitte an den Fadenenden um und stoppen das Wachstum. Gibt man neue Moleküle hinzu, wächst der Faden weiter. So lassen sich Abschnitte mit unterschiedlicher elektrischer Ladung gezielt hintereinandersetzen. Ein kurzer positiv geladener Abschnitt verankert den Faden an der negativ geladenen Oberfläche von Nervenzellen.",
+     "In Zellkulturen zeigten behandelte Nervenzellen bei Stimulation nach sieben Tagen etwa viermal so viel Kalziumaktivität wie unbehandelte und bildeten nach 14 Tagen mehr Synapsen – ohne zusätzliche biologische Signalstoffe. Die Forschenden sehen darin einen Ansatz für bioaktive Materialien in der regenerativen Medizin. Die Ergebnisse stammen bislang aus Laborversuchen."
+    ]
+   },
+   "bg": {
+    "t": "Молекулни нишки с рекорден размер стимулират растежа на нервни клетки в лаборатория",
+    "d": "Учени от Northwestern University създават молекулни нишки с маса милиарди далтона и точно разположени заредени участъци. С тях нервните клетки образуват повече разклонения и синапси.",
+    "body": [
+     "Екип на материаловеда Самюъл Ступ от Northwestern University (САЩ) представи в научното списание Science нов вид супрамолекулни полимери (DOI 10.1126/science.aeg5583, 1 октомври). Нишките се сглобяват сами от малки градивни елементи, стават по-дълги от диаметъра на клетка и достигат маса от милиарди далтона – около сто пъти повече от много големите конвенционални полимери или най-големите известни протеини.",
+     "Хитростта е следната: когато градивните елементи свършат, гъвкави участъци в краищата на нишката се прегъват и спират растежа. При добавяне на нови молекули нишката продължава да расте. Така участъци с различен електрически заряд могат да бъдат подредени целенасочено един след друг. Къс положително зареден участък закрепва нишката към отрицателно заредената повърхност на нервните клетки.",
+     "В клетъчни култури третираните нервни клетки показват при стимулация след седем дни около четири пъти по-висока калциева активност от нетретираните, а след 14 дни образуват повече синапси – без допълнителни биологични сигнални вещества. Изследователите виждат в това подход за биоактивни материали в регенеративната медицина. Резултатите засега са от лабораторни опити."
+    ]
+   },
+   "en": {
+    "t": "Record-size molecular threads boost nerve cell growth in the lab",
+    "d": "Northwestern University researchers build molecular threads weighing billions of daltons with precisely placed charged segments. Nerve cells formed more branches and synapses with them.",
+    "body": [
+     "A team led by materials scientist Samuel Stupp at Northwestern University (USA) has presented a new type of supramolecular polymer in the journal Science (DOI 10.1126/science.aeg5583, 1 October). The threads assemble themselves from small building blocks, grow longer than a cell's diameter and reach a mass of billions of daltons – about a hundred times more than very large conventional polymers or the largest known proteins.",
+     "The trick: when the building blocks run out, flexible segments at the thread ends fold over and stop the growth. Adding new molecules lets the thread keep growing. This makes it possible to place segments with different electrical charges one after another. A short positively charged segment anchors the thread to the negatively charged surface of nerve cells.",
+     "In cell cultures, treated nerve cells showed, when stimulated, about four times more calcium activity than untreated ones after seven days and formed more synapses after 14 days – without added biological signalling molecules. The researchers see this as an approach for bioactive materials in regenerative medicine. The results so far come from lab experiments."
+    ]
+   }
+  },
+  {
+   "id": "epfl-bakterien-kollisionen-schwarm",
+   "s": "ki",
+   "mn": true,
+   "time": "14:00",
+   "yt": {
+    "id": "-FPip07qhC4",
+    "ch": "EPFL",
+    "kind": "video",
+    "t": {
+     "de": "Bacteria use collisions to navigate crowded environments",
+     "bg": "Bacteria use collisions to navigate crowded environments",
+     "en": "Bacteria use collisions to navigate crowded environments"
+    }
+   },
+   "src": [
+    {
+     "n": "EPFL – Bacteria use collisions to navigate crowded environments (12.10.2026)",
+     "u": "https://actu.epfl.ch/news/bacteria-use-collisions-to-navigate-crowded-enviro/"
+    },
+    {
+     "n": "Nature Microbiology – Bacteria regulate collective behavior by mechanosensing cell-cell collisions (6.10.2026)",
+     "u": "https://doi.org/10.1038/s41564-026-02505-1"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-13/epfl-bakterien-kollisionen-schwarm.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Benoit-Joseph Laventie",
+    "lic": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lung_cells_infection_by_Pseudomonas_aeruginosa.tif",
+    "alt": {
+     "de": "Archivbild: Pseudomonas-aeruginosa-Bakterien (gelb) an Lungenzellen unter dem Mikroskop – nicht aus der EPFL-Studie",
+     "bg": "Архивна снимка: бактерии Pseudomonas aeruginosa (в жълто) върху белодробни клетки под микроскоп – не от изследването на EPFL",
+     "en": "Archive image: Pseudomonas aeruginosa bacteria (yellow) on lung cells under the microscope – not from the EPFL study"
+    }
+   },
+   "de": {
+    "t": "Rückwärtsgang nach dem Zusammenstoß: So bahnen sich Bakterien den Weg durchs Gedränge",
+    "d": "EPFL-Forschende zeigen: Der Erreger Pseudomonas aeruginosa spürt Zusammenstöße mit Artgenossen und kehrt binnen Sekunden um. Das hält die Kolonie beweglich und hilft ihr, sich auszubreiten.",
+    "body": [
+     "Forschende der ETH Lausanne (EPFL) um Alexandre Persat haben herausgefunden, dass das Bakterium Pseudomonas aeruginosa spürt, wenn es mit Artgenossen zusammenstößt, und daraufhin binnen Sekunden die Richtung umkehrt. Die Studie erschien am 6. Oktober im Fachjournal Nature Microbiology (DOI 10.1038/s41564-026-02505-1), beteiligt war auch die University of California San Diego.",
+     "Im Gedränge sorgt das häufige Umkehren dafür, dass die Zellen ungeordnet und beweglich bleiben. Am Rand einer Kolonie richten sie sich dagegen aus und wandern gemeinsam ins Freie. In einem winzigen Labyrinth erkundeten normale Bakterien im Schnitt 92 Prozent der Fläche, 20 Prozent erreichten den Ausgang. Eine Mutante, die stets vorwärts fährt, blieb in dichten Haufen stecken – nur ein Prozent fand binnen vier Stunden hinaus.",
+     "Die Ordnung im Bakterienschwarm ist demnach ein aktiv gesteuerter Zustand und nicht bloß eine Folge physikalischer Kräfte. Laut EPFL könnte der Mechanismus dem Erreger helfen, sich bei Infektionen im Gewebe auszubreiten und Biofilme zu bilden."
+    ]
+   },
+   "bg": {
+    "t": "Заден ход след сблъсък: така бактериите си проправят път в навалицата",
+    "d": "Учени от EPFL показват, че причинителят Pseudomonas aeruginosa усеща сблъсъци със себеподобни и обръща посоката за секунди. Това поддържа колонията подвижна и ѝ помага да се разпространява.",
+    "body": [
+     "Изследователи от Федералната политехника в Лозана (EPFL) с ръководител Александър Перса установиха, че бактерията Pseudomonas aeruginosa усеща, когато се сблъска със себеподобни, и в рамките на секунди обръща посоката си. Изследването е публикувано на 6 октомври в научното списание Nature Microbiology (DOI 10.1038/s41564-026-02505-1), участва и Калифорнийският университет в Сан Диего.",
+     "В навалицата честото обръщане поддържа клетките неподредени и подвижни. В края на колонията обаче те се подреждат и заедно се придвижват към свободното пространство. В миниатюрен лабиринт нормалните бактерии са изследвали средно 92 процента от площта, а 20 процента са стигнали до изхода. Мутант, който винаги се движи напред, остава заклещен в плътни купчини – само един процент е намерил изхода за четири часа.",
+     "Според това подредеността в бактериалния рояк е активно регулирано състояние, а не просто следствие от физически сили. По данни на EPFL механизмът може да помага на причинителя да се разпространява в тъканите при инфекции и да образува биофилми."
+    ]
+   },
+   "en": {
+    "t": "Reverse gear after a collision: how bacteria find their way through crowds",
+    "d": "EPFL researchers show that the pathogen Pseudomonas aeruginosa senses collisions with its neighbours and reverses within seconds. This keeps the colony mobile and helps it spread.",
+    "body": [
+     "Researchers at EPFL led by Alexandre Persat have found that the bacterium Pseudomonas aeruginosa senses when it bumps into its neighbours and reverses direction within seconds. The study was published on 6 October in the journal Nature Microbiology (DOI 10.1038/s41564-026-02505-1), with contributors from the University of California San Diego.",
+     "In crowded spots, the frequent reversals keep the cells disordered and mobile. At the edge of a colony, however, they align and move out into open space together. In a tiny maze, normal bacteria explored 92 percent of the area on average and 20 percent reached the exit. A mutant that always moves forward got stuck in dense clusters – only one percent made it out within four hours.",
+     "Order in the bacterial swarm is therefore an actively regulated state rather than just a result of physical forces. According to EPFL, the mechanism may help the pathogen spread through tissue during infections and form biofilms."
+    ]
+   }
+  },
+  {
+   "id": "jhu-millirobots-medikamente-herz",
+   "s": "ki",
+   "mn": true,
+   "time": "14:00",
+   "src": [
+    {
+     "n": "Johns Hopkins University via EurekAlert – Tiny robots speed medicine through body to the heart (12.10.2026)",
+     "u": "https://www.eurekalert.org/news-releases/1147238"
+    },
+    {
+     "n": "Advanced Materials Technologies – Wireless Modular Millirobots With Magnetic Actuation for Targeted Cardiac Drug Delivery",
+     "u": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/admt.71353"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-13/jhu-millirobots-medikamente-herz.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Tingtingou",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:East_Gate_of_Johns_Hopkins_University_Homewood_Campus_(2016,_Dec).jpg",
+    "alt": {
+     "de": "Archivbild: Osteingang des Homewood-Campus der Johns Hopkins University in Baltimore",
+     "bg": "Архивна снимка: източният вход на кампуса Хоумуд на университета Джонс Хопкинс в Балтимор",
+     "en": "Archive image: east gate of Johns Hopkins University's Homewood campus in Baltimore"
+    }
+   },
+   "de": {
+    "t": "Roboter so lang wie ein Reiskorn sollen Antibiotika direkt ins Herz bringen",
+    "d": "Johns-Hopkins-Ingenieure steuern Mini-Roboter per Magnetfeld zu infiziertem Herzgewebe. In Herzmodellen und an Schweineherzgewebe klappte das bereits – auch gegen simulierten Blutfluss.",
+    "body": [
+     "Ingenieure der Johns Hopkins University in Baltimore haben Mini-Roboter entwickelt, die Medikamente gezielt zu infiziertem Herzgewebe bringen sollen. Die „Millirobots“ sind etwa so dick wie eine Bleistiftspitze und so lang wie ein Reiskorn. Sie haben weder Batterie noch Motor, sondern werden von außen mit einem Elektromagnet-System gesteuert, das einem MRT-Gerät ähnelt. Die Studie um den Medizinrobotiker Axel Krieger erschien im Fachjournal Advanced Materials Technologies (DOI 10.1002/admt.71353), die Universität stellte sie am 12. Oktober vor.",
+     "Die Roboter arbeiten im Duo: Ein „Nadelmodul“ hakt sich am infizierten Gewebe fest und dient als Andockstation, ein „Medikamentenmodul“ koppelt dort an und gibt langsam Antibiotika ab. In Herzmodellen und an echtem Herzgewebe vom Schwein bewegten sich die Roboter gleichmäßig und autonom, auch gegen simulierten Blutfluss.",
+     "Ziel ist eine Alternative bei Endokarditis, einer Infektion des Herzens, an der in den USA jährlich rund 50.000 Menschen erkranken. Die übliche Antibiotika-Infusion dauert meist vier bis sechs Wochen. Erstautor Anuruddha Bhattacharjee sagte: „Wenn alles gut funktioniert, kommt man von vier bis sechs Wochen Behandlung auf einen Tag oder weniger.“ Als Nächstes sind Tests in Herzmodellen geplant, die das Schlagen des Herzens nachahmen."
+    ]
+   },
+   "bg": {
+    "t": "Роботи с дължина на оризово зърно трябва да доставят антибиотици директно в сърцето",
+    "d": "Инженери от университета Джонс Хопкинс насочват мини роботи с магнитно поле към инфектирана сърдечна тъкан. В модели на сърце и в свинска сърдечна тъкан това вече успя – дори срещу симулиран кръвоток.",
+    "body": [
+     "Инженери от университета Джонс Хопкинс в Балтимор са разработили мини роботи, които да доставят лекарства точно до инфектирана сърдечна тъкан. Т. нар. милироботи са дебели колкото върха на молив и дълги колкото оризово зърно. Те нямат нито батерия, нито мотор, а се управляват отвън с електромагнитна система, подобна на ЯМР апарат. Изследването на екипа на специалиста по медицинска роботика Аксел Кригер е публикувано в списанието Advanced Materials Technologies (DOI 10.1002/admt.71353), а университетът го представи на 12 октомври.",
+     "Роботите работят по двойки: „иглен модул“ се закача за инфектираната тъкан и служи като докинг станция, а „медикаментозен модул“ се скачва с него и бавно освобождава антибиотици. В модели на сърце и в истинска свинска сърдечна тъкан роботите се движат равномерно и автономно, дори срещу симулиран кръвоток.",
+     "Целта е алтернатива при ендокардит – инфекция на сърцето, от която в САЩ годишно се разболяват около 50 000 души. Обичайното лечение с антибиотици през вената обикновено трае от четири до шест седмици. Първият автор Анурудха Бхатачарджи заяви: „Ако всичко работи добре, от четири до шест седмици лечение се стига до един ден или по-малко.“ Следващата стъпка са тестове в модели на сърце, които имитират сърдечния ритъм."
+    ]
+   },
+   "en": {
+    "t": "Robots the length of a grain of rice could deliver antibiotics straight to the heart",
+    "d": "Johns Hopkins engineers steer tiny robots to infected heart tissue with magnetic fields. It has already worked in heart models and on pig heart tissue – even against simulated blood flow.",
+    "body": [
+     "Engineers at Johns Hopkins University in Baltimore have developed tiny robots designed to deliver drugs directly to infected heart tissue. The millirobots are about as wide as a pencil tip and as long as a grain of rice. They have no battery or motor and are steered from outside by an electromagnetic coil system similar to an MRI machine. The study led by medical roboticist Axel Krieger appeared in the journal Advanced Materials Technologies (DOI 10.1002/admt.71353); the university presented it on 12 October.",
+     "The robots work in pairs: a needle module latches onto the infected tissue and acts as a docking station, and a drug module docks with it and slowly releases antibiotics. In heart models and on real pig heart tissue, the robots moved smoothly and autonomously, even against simulated blood flow.",
+     "The aim is an alternative treatment for endocarditis, a heart infection that affects about 50,000 people in the US each year. Standard IV antibiotic treatment usually takes four to six weeks. First author Anuruddha Bhattacharjee said: “If everything works well, you go from four to six weeks of treatment to one day or less.” Next, the team plans tests in heart models that mimic a beating heart."
+    ]
+   }
+  },
+  {
+   "id": "northwestern-glassteng-brille-sensoren",
+   "s": "ki",
+   "mn": true,
+   "time": "14:00",
+   "src": [
+    {
+     "n": "Northwestern Engineering – Blink-powered glasses could keep an eye on health (12.10.2026)",
+     "u": "https://www.mccormick.northwestern.edu/news/articles/2026/10/blink-powered-glasses-could-keep-an-eye-on-health/"
+    },
+    {
+     "n": "arXiv – GlassTENG: Self-Powered Triboelectric Nanogenerator based Sensing of Pulse, Jaw, and Upper Facial Activity from Everyday Glasses",
+     "u": "https://arxiv.org/abs/2607.06509"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-13/northwestern-glassteng-brille-sensoren.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Jacek Halicki",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2023_Okulary_korekcyjne.jpg",
+    "alt": {
+     "de": "Symbolbild: zwei gewöhnliche Korrekturbrillen – nicht die GlassTENG-Brille",
+     "bg": "Символна снимка: два обикновени диоптрични очила – не очилата GlassTENG",
+     "en": "Symbolic image: two ordinary pairs of prescription glasses – not the GlassTENG glasses"
+    }
+   },
+   "de": {
+    "t": "Brille als Gesundheitssensor: Sensoren erfassen Blinzeln, Kauen und Puls ohne Batterie",
+    "d": "Drei flexible Sensoren im Brillengestell erzeugen bei Gesichtsbewegungen selbst Strom. In einem Test erkannte das System der Northwestern University sechs Tätigkeiten mit 93,8 Prozent Genauigkeit.",
+    "body": [
+     "Forschende der Northwestern University (USA) haben eine Alltagsbrille in einen Gesundheitssensor verwandelt. Das System „GlassTENG“ nutzt drei flexible triboelektrische Nanogeneratoren: Sie erzeugen eine Spannung, wenn sich Materialschichten durch Bewegungen berühren und wieder trennen – ähnlich wie bei statischer Aufladung. Ein Sensor am Nasensteg erfasst Puls, Blinzeln und Augenbrauen, einer an der Schläfe Kieferbewegungen, einer am Ohr Kauen und Zähnepressen.",
+     "In einer Studie mit 20 Teilnehmenden erkannte das System per maschinellem Lernen sechs Tätigkeiten – Blinzeln, Augenbrauenheben, Zähnepressen, Zähneklopfen, Essen und Sprechen – mit einer Gesamtgenauigkeit von 93,8 Prozent. Alle drei Sensoren zusammen benötigen nur 4,1 Mikrowatt. Die Daten gehen derzeit per Bluetooth an Smartphone oder Tablet, langfristig soll die Auswertung direkt auf der Brille laufen.",
+     "„Das menschliche Gesicht ist eine Goldgrube für Gesundheitsdaten, und das macht die Alltagsbrille zum perfekten Wearable“, sagte Projektleiterin Nivedita Arora. Die Arbeit wird am 15. Oktober auf der Konferenz UbiComp/ISWC 2026 vorgestellt (DOI 10.1145/3830727.3834817)."
+    ]
+   },
+   "bg": {
+    "t": "Очила като здравен сензор: сензори отчитат мигане, дъвчене и пулс без батерия",
+    "d": "Три гъвкави сензора в рамката на очилата сами произвеждат ток при движения на лицето. При тест системата на Northwestern University разпознава шест дейности с точност 93,8 процента.",
+    "body": [
+     "Учени от Northwestern University (САЩ) превърнаха обикновени очила в здравен сензор. Системата GlassTENG използва три гъвкави трибоелектрични наногенератора: те създават напрежение, когато слоеве от материал се допират и разделят при движение – подобно на статичното електричество. Сензор на носа отчита пулса, мигането и веждите, друг на слепоочието – движенията на челюстта, а трети до ухото – дъвченето и стискането на зъбите.",
+     "В проучване с 20 участници системата разпознава с машинно обучение шест дейности – мигане, повдигане на вежди, стискане на зъби, потракване със зъби, хранене и говорене – с обща точност 93,8 процента. Трите сензора заедно консумират само 4,1 микровата. Засега данните се предават по Bluetooth към смартфон или таблет, а в бъдеще анализът трябва да се извършва директно в очилата.",
+     "„Човешкото лице е златна мина за здравни данни, което прави обикновените очила идеалното носимо устройство“, каза ръководителката на проекта Ниведита Арора. Работата ще бъде представена на 15 октомври на конференцията UbiComp/ISWC 2026 (DOI 10.1145/3830727.3834817)."
+    ]
+   },
+   "en": {
+    "t": "Glasses as a health sensor: sensors capture blinking, chewing and pulse without a battery",
+    "d": "Three flexible sensors in a glasses frame generate their own power from facial movements. In a test, the Northwestern University system recognised six activities with 93.8 percent accuracy.",
+    "body": [
+     "Researchers at Northwestern University (USA) have turned everyday glasses into a health sensor. The GlassTENG system uses three flexible triboelectric nanogenerators, which produce a voltage when layers of material touch and separate as the wearer moves – similar to static electricity. A sensor at the nose bridge picks up pulse, blinks and eyebrow movements, one at the temple tracks jaw movement, and one near the ear detects chewing and clenching.",
+     "In a study with 20 participants, the system used machine learning to recognise six activities – blinking, raising eyebrows, clenching and tapping the teeth, eating and talking – with an overall accuracy of 93.8 percent. All three sensors together use just 4.1 microwatts. The data currently goes to a smartphone or tablet via Bluetooth; in the long run, the analysis is meant to run on the glasses themselves.",
+     "“The human face is a goldmine for health data, making everyday glasses the perfect wearable,” said project lead Nivedita Arora. The work will be presented on 15 October at the UbiComp/ISWC 2026 conference (DOI 10.1145/3830727.3834817)."
+    ]
+   }
+  },
+  {
+   "id": "fraunhofer-imm-dieselreformer-schiffe",
+   "s": "ki",
+   "mn": true,
+   "time": "14:00",
+   "src": [
+    {
+     "n": "Fraunhofer IMM via idw – Fraunhofer IMM zeigt Dieselreformer für die maritime Stromversorgung (12.10.2026)",
+     "u": "https://idw-online.de/de/news878952"
+    },
+    {
+     "n": "Interesting Engineering – New 25 kW diesel reactor converts fuel into hydrogen for ships at sea (12.10.2026)",
+     "u": "https://interestingengineering.com/energy/worlds-largest-diesel-hydrogen-reactor-powers-ships"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-13/fraunhofer-imm-dieselreformer-schiffe.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "NASA Armstrong Flight Research Center / NASA",
+    "lic": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Fuel_Cell_for_Bus_(EC95-42937-5).jpg",
+    "alt": {
+     "de": "Archivbild: Brennstoffzellen-Anlage für einen Bus aus den 1990er-Jahren – nicht der Reformer des Fraunhofer IMM",
+     "bg": "Архивна снимка: горивноклетъчна система за автобус от 90-те години – не реформерът на Fraunhofer IMM",
+     "en": "Archive image: a 1990s fuel cell system for a bus – not the Fraunhofer IMM reformer"
+    }
+   },
+   "de": {
+    "t": "Wasserstoff aus Diesel: Fraunhofer IMM zeigt Reformer für Brennstoffzellen auf Schiffen",
+    "d": "Ein Reformer aus Mainz gewinnt an Bord aus Diesel ein wasserstoffhaltiges Gas für eine 25-Kilowatt-Brennstoffzelle – ganz ohne eigene Wasserstofftanks. Zu sehen ist er ab 20. Oktober in Hamburg.",
+    "body": [
+     "Das Fraunhofer-Institut für Mikrotechnik und Mikrosysteme IMM in Mainz hat einen Dieselreformer für Brennstoffzellen in Schiffen entwickelt. Er wandelt den mitgeführten Kraftstoff direkt am Einsatzort in ein wasserstoffhaltiges Gas um, das nach weiterer Aufbereitung eine Brennstoffzelle versorgt. Das Gesamtsystem entsteht im Projekt DIMARIT, das vom Zentralen Innovationsprogramm Mittelstand (ZIM) gefördert wird, und hat eine elektrische Leistung von 25 Kilowatt – laut Institut das größte seiner Art.",
+     "Der Vorteil: Wasserstoff muss nicht separat in Tanks bevorratet werden, was auf Schiffen wegen des knappen Bauraums zählt. Das IMM untersucht zudem, ob sich auch synthetisch hergestellte Dieselkraftstoffe nutzen lassen. Interessant ist die Technik auch für den Verteidigungsbereich: Im Vergleich zu Dieselgeneratoren mit Motor hat sie weniger große bewegte Bauteile und kann Geräusch- und Wärmesignatur verringern – etwa bei der Stromversorgung von Kommando- und Überwachungsfahrzeugen oder Feldlagern.",
+     "Vorgestellt wird der Reformer auf der Hydrogen Technology World Expo vom 20. bis 22. Oktober in Hamburg. Dort zeigt das Institut außerdem einen Methanolreformer sowie Verfahren zur Wasserstoffgewinnung aus Ammoniak und zur Methanisierung von Kohlendioxid."
+    ]
+   },
+   "bg": {
+    "t": "Водород от дизел: Fraunhofer IMM показва реформер за горивни клетки на кораби",
+    "d": "Реформер от Майнц получава на борда от дизел газ с водород за горивна клетка от 25 киловата – без отделни резервоари за водород. Ще бъде показан от 20 октомври в Хамбург.",
+    "body": [
+     "Институтът „Фраунхофер“ за микротехника и микросистеми IMM в Майнц е разработил дизелов реформер за горивни клетки на кораби. Той превръща превозваното гориво направо на място в газ, съдържащ водород, който след допълнителна обработка захранва горивна клетка. Цялата система се създава по проекта DIMARIT, финансиран от германската Централна програма за иновации в малкия и средния бизнес (ZIM), и има електрическа мощност 25 киловата – според института най-голямата от този вид.",
+     "Предимството е, че водородът не трябва да се съхранява в отделни резервоари, което е важно на корабите заради ограниченото пространство. IMM проучва и дали могат да се използват синтетично произведени дизелови горива. Технологията е интересна и за отбраната: в сравнение с дизеловите генератори с двигател тя има по-малко големи движещи се части и може да намали шумовата и топлинната следа – например при захранването на командни и наблюдателни машини или полеви лагери.",
+     "Реформерът ще бъде представен на изложението Hydrogen Technology World Expo от 20 до 22 октомври в Хамбург. Там институтът ще покаже и метанолов реформер, както и технологии за получаване на водород от амоняк и за метанизация на въглероден диоксид."
+    ]
+   },
+   "en": {
+    "t": "Hydrogen from diesel: Fraunhofer IMM shows reformer for fuel cells on ships",
+    "d": "A reformer from Mainz turns diesel on board into a hydrogen-rich gas for a 25-kilowatt fuel cell – with no separate hydrogen tanks. It will be on show in Hamburg from 20 October.",
+    "body": [
+     "The Fraunhofer Institute for Microengineering and Microsystems IMM in Mainz has developed a diesel reformer for fuel cells on ships. It converts the fuel carried on board into a hydrogen-containing gas right where it is needed, which after further processing feeds a fuel cell. The complete system is being developed in the DIMARIT project, funded by Germany's Central Innovation Programme for SMEs (ZIM), and has an electrical output of 25 kilowatts – the largest of its kind, according to the institute.",
+     "The advantage: hydrogen does not have to be stored separately in tanks, which matters on ships where space is tight. IMM is also investigating whether synthetic diesel fuels can be used. The technology is also of interest for defence: compared with engine-driven diesel generators, it has fewer large moving parts and can reduce noise and heat signatures – for example when powering command and surveillance vehicles or field camps.",
+     "The reformer will be presented at the Hydrogen Technology World Expo in Hamburg from 20 to 22 October. The institute will also show a methanol reformer and technologies for producing hydrogen from ammonia and for methanating carbon dioxide."
+    ]
+   }
+  }
+ ]
+}
