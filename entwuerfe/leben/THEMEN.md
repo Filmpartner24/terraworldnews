@@ -18,3 +18,4 @@ Themen mit aktuellem Anlass bevorzugen (neue Gesetze, Fristen, Preise, Saison). 
 - 2026-10-08 – Mindestlohn 2027: Was sich für Beschäftigte in Deutschland und Bulgarien ändert – Entwurf
 - 2026-10-09 – Neue Fluggastrechte ab Oktober 2027: Was sich ändert – und was jetzt gilt – Entwurf
 - 2026-10-12 – Windows 10: Sicherheitsupdates laufen bis Oktober 2027 – was du jetzt prüfen solltest – Entwurf
+- 2026-10-13 – Kfz-Versicherung: Bis 30. November wechseln – und was Bulgariens Bonus-Malus ändert – Entwurf
