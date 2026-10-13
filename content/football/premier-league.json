@@ -664,7 +664,10 @@
    "time": "20:00",
    "t1": "Coventry City FC",
    "t2": "Newcastle United FC",
-   "ft": null
+   "ft": [
+    4,
+    1
+   ]
   },
   {
    "r": 7,
@@ -3536,6 +3539,10 @@
   {
    "n": "openfootball (CC0)",
    "u": "https://github.com/openfootball/football.json/tree/master/2026-27"
+  },
+  {
+   "n": "ESPN – Coventry 4-1 Newcastle (12.10.2026)",
+   "u": "https://www.espn.com/soccer/report/_/gameId/401879267"
   }
  ]
 }
