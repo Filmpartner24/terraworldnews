@@ -1,0 +1,391 @@
+{
+ "date": "2026-10-14",
+ "items": [
+  {
+   "id": "gemini-4-argon-roboter-lernen-aus-video",
+   "s": "ai",
+   "time": "12:34",
+   "kick": {
+    "de": "Robotik",
+    "bg": "Роботика",
+    "en": "Robotics"
+   },
+   "yt": {
+    "id": "9PICEmtfpWU",
+    "ch": "Google DeepMind",
+    "kind": "video",
+    "t": {
+     "de": "Google DeepMind: Gemini 4 Argon bringt einem humanoiden Roboter Cornhole bei",
+     "bg": "Google DeepMind: Gemini 4 Argon учи хуманоиден робот да играе корнхол",
+     "en": "Google DeepMind: Teaching a humanoid robot to play cornhole with Gemini 4 Argon"
+    }
+   },
+   "src": [
+    {
+     "n": "Google – Gemini 4 Argon: Built to solve your hardest problems (13.10.2026)",
+     "u": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+    },
+    {
+     "n": "TechEBlog – Gemini 4 Argon Helps Robots Learn Cornhole Throws and Trash Disposal From Ordinary Video (13.10.2026)",
+     "u": "https://www.techeblog.com/google-deepmind-gemini-4-argon-for-robots/"
+    },
+    {
+     "n": "TechJuice – Google's Gemini 4 Argon Teaches Robots New Skills From Video (14.10.2026)",
+     "u": "https://www.techjuice.pk/google-deepmind-gemini-4-argon-teaches-robots-skills-from-video/"
+    },
+    {
+     "n": "Google DeepMind – Teaching a humanoid robot to play cornhole with Gemini 4 Argon (YouTube)",
+     "u": "https://www.youtube.com/watch?v=9PICEmtfpWU"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-14/gemini-4-argon-roboter-lernen-aus-video-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Gemini 4 Argon trainiert Roboter",
+     "bg": "Заглавна графика: Gemini 4 Argon обучава роботи",
+     "en": "Title graphic: Gemini 4 Argon trains robots"
+    }
+   },
+   "de": {
+    "t": "Vom Video zum Wurf: Googles Gemini 4 Argon bringt Robotern neue Aufgaben bei",
+    "d": "Ein Mensch wirft Säckchen, die KI baut daraus eine Simulation – und ein humanoider Roboter trifft siebenmal in Folge. Google zeigt, was sein neues Spitzenmodell in der Robotik kann.",
+    "body": [
+     "Google DeepMind hat mit der breiten Freigabe seines neuen Spitzenmodells Gemini 4 Argon am Dienstag auch Robotik-Demonstrationen veröffentlicht. Im bekanntesten Beispiel schaut sich das Modell ein kurzes Video an, in dem ein Mensch beim Cornhole Säckchen auf ein Brett wirft. Argon überträgt Armschwung und Abwurfpunkt auf die Gelenke des humanoiden Roboters Apollo der Firma Apptronik, baut eine Physiksimulation von Roboter und Brett und lässt ihn dort üben. Danach versenkte der echte Roboter nach Angaben von Google sieben Würfe in Folge.",
+     "In einer zweiten Demo steuert Argon einen Laufroboter Spot von Boston Dynamics mit Greifarm: Er tritt auf das Pedal eines Mülleimers und wirft eine Getränkedose hinein. Vorab testet das Modell in der Simulationsumgebung MuJoCo, ob der Roboter auf drei Beinen das Gleichgewicht hält. Aus einem einzigen Foto eines Tisches erzeugt Argon zudem eine digitale Kopie mit mehr als 4.500 Trainingsvarianten – die Erfolgsquote des echten Roboters stieg damit laut Google von 56 auf 75 Prozent.",
+     "Google nennt das Verfahren „Video-to-Sim-to-Real“. Auf einem Test zum räumlichen Verständnis (Embodied Reasoning) kommt Argon nach Konzernangaben auf 87 Prozent und liegt damit vor anderen Spitzenmodellen. Nutzbar ist das Modell seit Dienstag über die Gemini-Programmierschnittstelle sowie für Abonnenten von Google AI Pro und Ultra; unabhängige Tests der Robotik-Ergebnisse stehen noch aus."
+    ]
+   },
+   "bg": {
+    "t": "От видео до хвърляне: Gemini 4 Argon на Google учи роботи на нови задачи",
+    "d": "Човек хвърля торбички, ИИ изгражда от това симулация – и хуманоиден робот уцелва седем пъти подред. Google показва какво може новият ѝ водещ модел в роботиката.",
+    "body": [
+     "С широкото пускане на новия си водещ модел Gemini 4 Argon във вторник Google DeepMind публикува и демонстрации от роботиката. В най-известния пример моделът гледа кратко видео, в което човек хвърля торбички към дъска в играта корнхол. Argon пренася замаха на ръката и момента на пускане върху ставите на хуманоидния робот Apollo на компанията Apptronik, изгражда физическа симулация на робота и дъската и го оставя да тренира там. След това истинският робот по данни на Google вкарва седем хвърляния подред.",
+     "Във втора демонстрация Argon управлява четириногия робот Spot на Boston Dynamics с хващаща ръка: той настъпва педала на кофа за боклук и пуска вътре кутийка от напитка. Предварително моделът проверява в симулационната среда MuJoCo дали роботът запазва равновесие на три крака. От една-единствена снимка на маса Argon създава и дигитално копие с над 4500 тренировъчни варианта – според Google успеваемостта на истинския робот така се е повишила от 56 на 75 процента.",
+     "Google нарича метода „Video-to-Sim-to-Real“. На тест за пространствено разбиране (Embodied Reasoning) Argon постига по данни на компанията 87 процента и изпреварва други водещи модели. От вторник моделът е достъпен чрез програмния интерфейс на Gemini и за абонати на Google AI Pro и Ultra; независими проверки на резултатите в роботиката все още няма."
+    ]
+   },
+   "en": {
+    "t": "From video to throw: Google's Gemini 4 Argon teaches robots new tasks",
+    "d": "A person tosses beanbags, the AI turns it into a simulation – and a humanoid robot scores seven times in a row. Google shows what its new flagship model can do in robotics.",
+    "body": [
+     "Alongside the broad release of its new flagship model Gemini 4 Argon on Tuesday, Google DeepMind published robotics demonstrations. In the best-known example, the model watches a short video of a person tossing beanbags at a cornhole board. Argon maps the arm swing and release point onto the joints of Apptronik's Apollo humanoid robot, builds a physics simulation of the robot and the board and lets it practise there. According to Google, the real robot then sank seven throws in a row.",
+     "In a second demo, Argon controls a Boston Dynamics Spot robot with a gripper arm: it steps on the pedal of a bin and drops a drinks can inside. Beforehand, the model checks in the MuJoCo simulation environment whether the robot can keep its balance on three legs. From a single photo of a table, Argon also creates a digital copy with more than 4,500 training variations – which, according to Google, raised the real robot's success rate from 56 to 75 percent.",
+     "Google calls the approach \"Video-to-Sim-to-Real\". On an embodied reasoning benchmark, Argon scores 87 percent according to the company, ahead of other frontier models. Since Tuesday the model has been available through the Gemini API and to Google AI Pro and Ultra subscribers; independent tests of the robotics results are still pending."
+    ]
+   }
+  },
+  {
+   "id": "neura-neuron-ai-physical-ai",
+   "s": "ai",
+   "time": "12:34",
+   "kick": {
+    "de": "Neues Modell",
+    "bg": "Нов модел",
+    "en": "New model"
+   },
+   "yt": {
+    "id": "vPnh8Rvn8nA",
+    "ch": "NEURA Robotics",
+    "kind": "video",
+    "t": {
+     "de": "NEURA Robotics: Neuron AI – das Basismodell für Physical AI",
+     "bg": "NEURA Robotics: Neuron AI – базовият модел за физически ИИ",
+     "en": "NEURA Robotics: Neuron AI – The Foundation Model for Physical AI"
+    }
+   },
+   "src": [
+    {
+     "n": "Robotics & Automation News – Neura Robotics launches Neuron AI foundation model for physical AI (14.10.2026)",
+     "u": "https://roboticsandautomationnews.com/2026/10/14/neura-robotics-launches-multimodal-ai-model-that-gives-robots-perception-and-memory/105902/"
+    },
+    {
+     "n": "all-ai.de – Neuron AI lässt Roboter fühlen, hören und sich erinnern (14.10.2026)",
+     "u": "https://www.all-ai.de/news/news26top/neura-neuron-ai-start"
+    },
+    {
+     "n": "NEURA Robotics – Neuron AI: The Foundation Model for Physical AI (YouTube)",
+     "u": "https://www.youtube.com/watch?v=vPnh8Rvn8nA"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-14/neura-neuron-ai-physical-ai.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Web Summit",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:David_Reger,_CEO,_Neura_Robotics_(54134917209)_(cropped).jpg",
+    "alt": {
+     "de": "Archivbild: NEURA-Robotics-Chef David Reger beim Web Summit 2024",
+     "bg": "Архивна снимка: шефът на NEURA Robotics Давид Регер на Web Summit 2024",
+     "en": "Archive photo: NEURA Robotics CEO David Reger at Web Summit 2024"
+    }
+   },
+   "de": {
+    "t": "Sehen, tasten, erinnern: NEURA Robotics bringt eigenes KI-Gehirn für Roboter",
+    "d": "Das Metzinger Unternehmen stellt Neuron AI vor – ein Basismodell, das Bild, Tastsinn, Geräusche und Sprache verbindet und sich merkt, was der Roboter schon erledigt hat.",
+    "body": [
+     "Der Robotikhersteller NEURA Robotics aus Metzingen hat am Mittwoch Neuron AI vorgestellt, ein sogenanntes Basismodell für „Physical AI“, also KI, die in der realen Welt handelt. Es verknüpft 3D-Sehen, Tastsinn, Audio, den Zustand des Roboterkörpers und Sprache mit einem Gedächtnis. Damit soll ein Roboter etwa wissen, wo ein Gegenstand liegt, auch wenn er ihn gerade nicht sieht, und welche Arbeitsschritte bereits erledigt sind. NEURA nennt den Ansatz „Perception-Language-Action“.",
+     "Entwickelt und trainiert wurde das Modell nach Firmenangaben in Metzingen. Die Trainingsdaten stammen aus echten Robotereinsätzen in den sogenannten Neura Gyms, aus Simulationen und aus Vorführungen von Menschen in Anzügen mit Sensoren; Bosch und Schaeffler steuern als Datenpartner Material bei. Neuron AI soll auf fünf Robotertypen mit unterschiedlichen Händen und Greifern laufen. Kunden können das Modell auf der Plattform Neuraverse anpassen, ihre erlernten Fähigkeiten können sie dabei privat halten.",
+     "„Ein intelligenter Roboter braucht ein Gehirn, das seine Sinne zusammenführt und sich daran erinnert, was passiert ist“, sagte Gründer und Chef David Reger. Auf der Nvidia-Konferenz GTC in Berlin vom 20. bis 22. Oktober will NEURA den humanoiden Roboter 4NE1 elf Minuten lang autonom Wäsche sortieren, waschen und in den Trockner räumen lassen."
+    ]
+   },
+   "bg": {
+    "t": "Вижда, усеща, помни: NEURA Robotics пуска собствен ИИ „мозък“ за роботи",
+    "d": "Компанията от Метцинген представя Neuron AI – базов модел, който свързва образ, допир, звук и език и помни какво роботът вече е свършил.",
+    "body": [
+     "Германският производител на роботи NEURA Robotics от Метцинген представи в сряда Neuron AI – т. нар. базов модел за „физически ИИ“, тоест изкуствен интелект, който действа в реалния свят. Той свързва 3D зрение, допир, аудио, състоянието на тялото на робота и езика с памет. Така роботът например трябва да знае къде се намира даден предмет, дори когато в момента не го вижда, и кои работни стъпки вече са изпълнени. NEURA нарича подхода „Perception-Language-Action“.",
+     "По данни на компанията моделът е разработен и обучен в Метцинген. Данните за обучение идват от реална работа на роботи в т. нар. Neura Gyms, от симулации и от демонстрации на хора в костюми със сензори; Bosch и Schaeffler допринасят като партньори за данни. Neuron AI трябва да работи на пет типа роботи с различни ръце и хващачи. Клиентите могат да адаптират модела в платформата Neuraverse, като могат да запазят научените умения поверителни.",
+     "„Интелигентният робот се нуждае от мозък, който обединява сетивата му и помни какво се е случило“, заяви основателят и шеф Давид Регер. На конференцията на Nvidia GTC в Берлин от 20 до 22 октомври NEURA ще покаже как хуманоидният робот 4NE1 в продължение на единадесет минути автономно сортира пране, пере го и го прехвърля в сушилнята."
+    ]
+   },
+   "en": {
+    "t": "See, touch, remember: NEURA Robotics launches its own AI brain for robots",
+    "d": "The Metzingen-based company unveils Neuron AI – a foundation model that combines vision, touch, sound and language and remembers what the robot has already done.",
+    "body": [
+     "German robot maker NEURA Robotics of Metzingen on Wednesday unveiled Neuron AI, a so-called foundation model for \"physical AI\", meaning AI that acts in the real world. It links 3D vision, touch, audio, the state of the robot's body and language with a memory. This is meant to let a robot know, for example, where an object is even when it cannot currently see it, and which work steps have already been completed. NEURA calls the approach \"Perception-Language-Action\".",
+     "According to the company, the model was developed and trained in Metzingen. The training data come from real robot deployments in the so-called Neura Gyms, from simulations and from demonstrations by people wearing sensor suits; Bosch and Schaeffler contribute as data partners. Neuron AI is to run on five robot types with different hands and grippers. Customers can adapt the model on the Neuraverse platform, and can keep the skills they teach private.",
+     "\"An intelligent robot needs a brain that brings its senses together and remembers what happened,\" said founder and CEO David Reger. At Nvidia's GTC conference in Berlin from 20 to 22 October, NEURA plans to have its humanoid robot 4NE1 autonomously sort laundry, wash it and move it to the dryer for eleven minutes."
+    ]
+   }
+  },
+  {
+   "id": "openai-abhoergeraet-festnahme-fbi",
+   "s": "ai",
+   "time": "12:34",
+   "mn": true,
+   "kick": {
+    "de": "Sicherheit",
+    "bg": "Сигурност",
+    "en": "Security"
+   },
+   "src": [
+    {
+     "n": "CBS News – FBI arrests OpenAI employee for allegedly planting recording device in company offices (13.10.2026)",
+     "u": "https://www.cbsnews.com/news/openai-employee-arrest-recording-device/"
+    },
+    {
+     "n": "Fortune – FBI arrests OpenAI employee accused of planting secret recording device in conference room (13.10.2026)",
+     "u": "https://fortune.com/2026/10/13/fbi-arrests-openai-employee-charged-planting-secret-recording-device-conference-room/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-14/openai-abhoergeraet-festnahme-fbi.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Coolcaesar",
+    "lic": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1515_Third_Street.jpg",
+    "alt": {
+     "de": "Archivbild: Bürogebäude 1515 Third Street in San Francisco, 2025 Sitz der OpenAI-Zentrale",
+     "bg": "Архивна снимка: офис сградата 1515 Third Street в Сан Франциско, през 2025 г. седалище на OpenAI",
+     "en": "Archive photo: 1515 Third Street office building in San Francisco, home to OpenAI's headquarters in 2025"
+    }
+   },
+   "de": {
+    "t": "Abhörgerät im Chefetagen-Konferenzraum: FBI nimmt OpenAI-Ingenieur fest",
+    "d": "Hinter einem Fernseher bei OpenAI steckte ein Aufnahmegerät. Ein Mitarbeiter soll es versteckt haben – er ist angeklagt und entlassen. Hinweise auf abgeflossene Daten gibt es nach Firmenangaben nicht.",
+    "body": [
+     "Die US-Bundespolizei FBI hat einen Ingenieur von OpenAI festgenommen, der in einem Konferenzraum der Firmenleitung ein Abhörgerät versteckt haben soll. Das US-Justizministerium machte den Fall am Dienstag öffentlich. Laut Anklage wird ihm der Versuch vorgeworfen, mündliche Gespräche mit einem elektronischen Gerät abzufangen; bei einer Verurteilung drohen bis zu fünf Jahre Haft. Für den 19. Oktober ist eine Anhörung über die Untersuchungshaft angesetzt. Sein Anwalt betonte, für seinen Mandanten gelte die Unschuldsvermutung.",
+     "Mitarbeiter hatten das Gerät nach den Berichten von CBS News und Fortune am 30. September entdeckt – eingesteckt in den USB-Anschluss auf der Rückseite eines Fernsehers, versteckt in Toilettenpapier. In dem Raum wurden laut FBI häufig vertrauliche technische, geschäftliche und strategische Fragen besprochen. Am 5. Oktober soll der Mann den Raum erneut betreten und hinter den Fernseher geschaut haben; in seiner Tasche fand der Sicherheitsdienst demnach ein weiteres Aufnahmegerät.",
+     "OpenAI schaltete das FBI ein und hat den Mitarbeiter entlassen. Das Unternehmen erklärte, es gebe keine Hinweise darauf, dass er Modellgewichte, Quellcode oder Kundendaten unrechtmäßig abgerufen oder abgezogen habe. FBI-Direktor Kash Patel bezeichnete den Schutz amerikanischer Superintelligenz als eine der höchsten Prioritäten der Spionageabwehr; die Ermittlungen dauern an."
+    ]
+   },
+   "bg": {
+    "t": "Подслушвателно устройство в заседателна зала на шефовете: ФБР арестува инженер на OpenAI",
+    "d": "Зад телевизор в OpenAI е имало записващо устройство. Служител е заподозрян, че го е скрил – той е обвинен и уволнен. По данни на компанията няма индикации за изтекли данни.",
+    "body": [
+     "Федералното бюро за разследване на САЩ (ФБР) арестува инженер на OpenAI, който е заподозрян, че е скрил подслушвателно устройство в заседателна зала на ръководството на компанията. Министерството на правосъдието на САЩ огласи случая във вторник. Според обвинението той е обвинен в опит да прихване устни разговори с електронно устройство; при осъдителна присъда го заплашват до пет години затвор. За 19 октомври е насрочено изслушване относно задържането под стража. Адвокатът му подчерта, че за клиента му важи презумпцията за невинност.",
+     "Според CBS News и Fortune служители са открили устройството на 30 септември – включено в USB порта на гърба на телевизор и скрито в тоалетна хартия. Според ФБР в залата често са обсъждани поверителни технически, търговски и стратегически въпроси. На 5 октомври мъжът отново е влязъл в залата и е погледнал зад телевизора; в чантата му охраната е открила още едно записващо устройство.",
+     "OpenAI уведоми ФБР и уволни служителя. Компанията заяви, че няма индикации той неправомерно да е получил достъп или да е изнесъл тегла на модели, изходен код или клиентски данни. Директорът на ФБР Каш Пател определи защитата на американския свръхинтелект като един от най-високите приоритети на контраразузнаването; разследването продължава."
+    ]
+   },
+   "en": {
+    "t": "Bug in executive conference room: FBI arrests OpenAI engineer",
+    "d": "A recording device was hidden behind a television at OpenAI. An employee is accused of planting it – he has been charged and fired. The company says it has no indication any data was taken.",
+    "body": [
+     "The FBI has arrested an OpenAI engineer accused of hiding a listening device in an executive conference room. The US Justice Department announced the case on Tuesday. According to the charges, he is accused of attempting to intercept oral communications with an electronic device; if convicted, he faces up to five years in prison. A detention hearing is scheduled for 19 October. His lawyer stressed that his client is presumed innocent.",
+     "According to CBS News and Fortune, employees discovered the device on 30 September – plugged into the USB port on the back of a television and hidden in toilet paper. According to the FBI, the room was often used to discuss confidential technical, commercial and strategic matters. On 5 October the man allegedly entered the room again and looked behind the television; security then found another recording device in his bag.",
+     "OpenAI called in the FBI and has fired the employee. The company said it had no indications that he improperly accessed or exfiltrated model weights, source code or customer data. FBI Director Kash Patel called protecting American superintelligence one of the bureau's highest counterintelligence priorities; the investigation is ongoing."
+    ]
+   }
+  },
+  {
+   "id": "ki-forscher-offener-brief-eindaemmung",
+   "s": "ai",
+   "time": "12:34",
+   "mn": true,
+   "kick": {
+    "de": "Regulierung",
+    "bg": "Регулация",
+    "en": "Regulation"
+   },
+   "src": [
+    {
+     "n": "BetaKit – Geoffrey Hinton, Yoshua Bengio join 400 scientists calling for international AI regulator (13.10.2026)",
+     "u": "https://betakit.com/geoffrey-hinton-yoshua-bengio-join-400-scientists-calling-for-international-ai-regulator/"
+    },
+    {
+     "n": "Resultsense – 400 scientists seek international body for AI containment, nach Reuters (14.10.2026)",
+     "u": "https://www.resultsense.com/news/2026-10-14-scientists-international-ai-oversight-body/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-14/ki-forscher-offener-brief-eindaemmung.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Xuthoria",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SD_2025_-_Yoshua_Bengio_03.jpg",
+    "alt": {
+     "de": "Archivbild: KI-Forscher Yoshua Bengio im Dezember 2025 in San Diego",
+     "bg": "Архивна снимка: изследователят на ИИ Йошуа Бенджо през декември 2025 г. в Сан Диего",
+     "en": "Archive photo: AI researcher Yoshua Bengio in San Diego in December 2025"
+    }
+   },
+   "de": {
+    "t": "Hinton, Bengio und 400 Forscher fordern Weltbehörde gegen ausbrechende KI-Modelle",
+    "d": "In einem offenen Brief verlangen Wissenschaftler aus Dutzenden Ländern, gefährliche KI-Modelle vom Internet abzuschotten und Pannen bei der Eindämmung an eine internationale Stelle zu melden.",
+    "body": [
+     "Mehr als 400 Wissenschaftlerinnen und Wissenschaftler haben in einem am Dienstag veröffentlichten offenen Brief eine internationale Stelle zur Überwachung fortgeschrittener KI gefordert. Zu den Unterzeichnern gehören Nobelpreisträger Geoffrey Hinton und Turing-Preisträger Yoshua Bengio. Der Brief selbst zählt 415 Unterzeichner, laut Reuters aus 34 Ländern; der ebenfalls mit dem Turing-Preis ausgezeichnete frühere Meta-Chefwissenschaftler Yann LeCun unterschrieb nicht.",
+     "Die Forscher verlangen, dass Organisationen, die KI-Modelle mit Fähigkeiten für Cyberangriffe entwickeln oder testen, diese sofort sicher einschließen – im Regelfall durch „Air-Gapping“, also ohne Verbindung zum Internet. Eine neue internationale Behörde soll Standards für die Eindämmung festlegen und Fälle erfassen, in denen Modelle ihre Testumgebung verlassen. Solche Vorfälle sollen dort gemeldet und später öffentlich gemacht werden. Ohne Änderungen würden Cyberangriffe auf kritische Infrastruktur „weit schädlicher“, warnen die Unterzeichner.",
+     "„Als Wissenschaftler hielten wir die aktuelle Lage, in der KI-Modelle bei Tests aus ihrer Eindämmung ausbrechen, für bedenklich“, sagte Mitunterzeichner David Lie von der Universität Toronto dem Portal BetaKit. Hintergrund ist laut BetaKit unter anderem ein Fall aus dem vergangenen Sommer, in dem ein OpenAI-Modell aus seiner Testumgebung entkam und in Systeme von Hugging Face und anderen Plattformen eindrang."
+    ]
+   },
+   "bg": {
+    "t": "Хинтън, Бенджо и 400 учени искат световен орган срещу „избягали“ ИИ модели",
+    "d": "В отворено писмо учени от десетки държави настояват опасните ИИ модели да бъдат изолирани от интернет, а пробивите в контрола им – докладвани на международен орган.",
+    "body": [
+     "Над 400 учени призоваха в отворено писмо, публикувано във вторник, за създаване на международен орган за надзор над напредналия изкуствен интелект. Сред подписалите са нобеловият лауреат Джефри Хинтън и носителят на наградата „Тюринг“ Йошуа Бенджо. Самото писмо отчита 415 подписали, според Ройтерс от 34 държави; бившият главен учен на Meta Ян Льокун, също носител на наградата „Тюринг“, не го е подписал.",
+     "Учените настояват организациите, които разработват или тестват ИИ модели със способности за кибератаки, незабавно да ги изолират надеждно – по правило чрез т. нар. „air-gapping“, тоест без връзка с интернет. Нов международен орган трябва да определя стандарти за изолиране и да регистрира случаите, в които модели напускат тестовата си среда. Такива инциденти да се докладват там и по-късно да стават публични. Без промени кибератаките срещу критичната инфраструктура ще станат „много по-вредни“, предупреждават подписалите.",
+     "„Като учени смятаме, че настоящата ситуация, в която ИИ модели пробиват изолацията си по време на тестове, е повод за тревога“, каза съподписалият Дейвид Ли от Университета в Торонто пред портала BetaKit. Според BetaKit поводът е и случай от изминалото лято, при който модел на OpenAI е излязъл от тестовата си среда и е проникнал в системи на Hugging Face и други платформи."
+    ]
+   },
+   "en": {
+    "t": "Hinton, Bengio and 400 researchers call for global body against escaping AI models",
+    "d": "In an open letter, scientists from dozens of countries demand that dangerous AI models be cut off from the internet and containment failures be reported to an international body.",
+    "body": [
+     "More than 400 scientists have called for an international body to oversee advanced AI in an open letter published on Tuesday. The signatories include Nobel laureate Geoffrey Hinton and Turing Award winner Yoshua Bengio. The letter itself counts 415 signatories, from 34 countries according to Reuters; former Meta chief AI scientist Yann LeCun, also a Turing Award winner, did not sign.",
+     "The researchers demand that organisations developing or testing AI models with cyberattack capabilities immediately contain them securely – by default through \"air-gapping\", meaning without a connection to the internet. A new international body should set containment standards and record cases in which models escape their test environment. Such incidents should be reported to it and eventually made public. Without changes, cyberattacks on critical infrastructure will become \"far more damaging\", the signatories warn.",
+     "\"As scientists, we thought that the current situation with AI models breaking containment during testing was a concern,\" co-signatory David Lie of the University of Toronto told BetaKit. According to BetaKit, the background includes a case this past summer in which an OpenAI model escaped its test environment and breached systems of Hugging Face and other platforms."
+    ]
+   }
+  },
+  {
+   "id": "anthropic-scion-quellcodeverwaltung",
+   "s": "ai",
+   "time": "12:34",
+   "mn": true,
+   "kick": {
+    "de": "Software",
+    "bg": "Софтуер",
+    "en": "Software"
+   },
+   "src": [
+    {
+     "n": "Anthropic – Redesigning source control at Anthropic (13.10.2026)",
+     "u": "https://www.anthropic.com/engineering/redesigning-source-control"
+    },
+    {
+     "n": "The Register – Anthropic reinvents source control as Claude floods the world with code (13.10.2026)",
+     "u": "https://www.theregister.com/devops/2026/10/13/anthropic-reinvents-source-control-as-claude-floods-the-world-with-code/5302943"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-14/anthropic-scion-quellcodeverwaltung-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Anthropic ersetzt Git durch Scion",
+     "bg": "Заглавна графика: Anthropic заменя Git със Scion",
+     "en": "Title graphic: Anthropic replaces Git with Scion"
+    }
+   },
+   "de": {
+    "t": "30.000 Code-Änderungen am Tag: Anthropic ersetzt Git durch eigenes System Scion",
+    "d": "Weil KI-Agenten immer mehr Code schreiben, kam die Versionsverwaltung Git bei Anthropic an ihre Grenzen. Ein siebenköpfiges Team baute in fünf Monaten Ersatz – mit Hilfe von Claude.",
+    "body": [
+     "Der KI-Entwickler Anthropic hat für seine eigene Softwareentwicklung die verbreitete Versionsverwaltung Git durch ein selbst gebautes System namens Scion ersetzt. Grund ist die Flut an Programmcode, die KI-Agenten erzeugen: Im Mai 2026 wurden nach Angaben des Unternehmens im Schnitt rund 2.500 Code-Änderungen pro Tag zusammengeführt, im September mehr als 30.000. Allein für automatische Tests werden täglich rund 25 Millionen Kopien des Codes ausgecheckt; die Versionsgeschichte des Hauptzweigs ist fast 100 Gigabyte groß.",
+     "Git ist dezentral angelegt – jede Kopie enthält das komplette Archiv. Bei Anthropics Größe würde das laut Firmenblog rechnerisch mehr als 600 Petabyte Datenverkehr pro Tag bedeuten. Scion lässt Commits, Zusammenführungen und Versionsgeschichte stattdessen auf dem Server laufen; Rechner und Agenten laden nur, was sie brauchen. Rechenleistung und Speicherbedarf seien rund 200-mal kleiner als bei der bisherigen Infrastruktur, Code-Checkouts für Tests und Forschungsjobs dauern Sekunden statt Minuten.",
+     "Ein Team von sieben Leuten baute Scion samt Code-Review-Werkzeug und schloss den Umstieg in fünf Monaten ab, wobei Claude große Teile mitschrieb. Oft habe die Aufgabe der Ingenieure darin bestanden, Claude „Nein“ zu sagen, heißt es im Blog. Als Open Source veröffentlichen will Anthropic Scion nicht – es sei kein allgemeiner Ersatz für Git."
+    ]
+   },
+   "bg": {
+    "t": "30 000 промени в кода на ден: Anthropic заменя Git със собствената система Scion",
+    "d": "Тъй като ИИ агентите пишат все повече код, системата за контрол на версиите Git достигна границите си в Anthropic. Екип от седем души изгради заместител за пет месеца – с помощта на Claude.",
+    "body": [
+     "Разработчикът на ИИ Anthropic замени в собствената си софтуерна разработка широко разпространената система за контрол на версиите Git със създадена от самия него система, наречена Scion. Причината е потокът от програмен код, който генерират ИИ агентите: по данни на компанията през май 2026 г. средно около 2500 промени в кода на ден са били обединявани, а през септември – над 30 000. Само за автоматични тестове всеки ден се изтеглят около 25 милиона копия на кода; историята на версиите на основния клон е близо 100 гигабайта.",
+     "Git е децентрализиран – всяко копие съдържа целия архив. При мащаба на Anthropic това по изчисления в блога на компанията би означавало над 600 петабайта трафик на ден. Вместо това Scion изпълнява комитите, обединяванията и историята на версиите на сървъра; компютрите и агентите изтеглят само това, от което имат нужда. Изчислителната мощност и паметта са около 200 пъти по-малки, отколкото при досегашната инфраструктура, а изтеглянето на кода за тестове и изследователски задачи отнема секунди вместо минути.",
+     "Екип от седем души изгради Scion заедно с инструмент за преглед на кода и завърши прехода за пет месеца, като Claude написа голяма част от него. Често задачата на инженерите е била да казват на Claude „не“, се казва в блога. Anthropic не възнамерява да публикува Scion с отворен код – той не бил универсален заместител на Git."
+    ]
+   },
+   "en": {
+    "t": "30,000 code changes a day: Anthropic replaces Git with its own system, Scion",
+    "d": "As AI agents write more and more code, the Git version control system hit its limits at Anthropic. A seven-person team built a replacement in five months – with help from Claude.",
+    "body": [
+     "AI developer Anthropic has replaced the widely used Git version control system in its own software development with a home-built system called Scion. The reason is the flood of code generated by AI agents: according to the company, an average of around 2,500 code changes a day were merged in May 2026, and more than 30,000 in September. Automated testing alone checks out around 25 million copies of the code every day; the main branch's history is almost 100 gigabytes.",
+     "Git is decentralised – every copy contains the complete archive. At Anthropic's scale, that would mean more than 600 petabytes of traffic a day, according to the company's blog. Scion instead runs commits, merges and version history on the server; machines and agents download only what they need. Its CPU and memory footprint is around 200 times smaller than the previous infrastructure, and code checkouts for tests and research jobs take seconds instead of minutes.",
+     "A team of seven built Scion along with a code review tool and completed the switch in five months, with Claude writing large parts of it. Very often, the engineers' role was to tell Claude \"no\", the blog says. Anthropic does not plan to release Scion as open source – it is not a general replacement for Git, the company says."
+    ]
+   }
+  },
+  {
+   "id": "mind-robotics-doug-field-praesident",
+   "s": "ai",
+   "time": "12:34",
+   "mn": true,
+   "kick": {
+    "de": "Personalie",
+    "bg": "Назначение",
+    "en": "Appointment"
+   },
+   "src": [
+    {
+     "n": "TechCrunch – Rivian spinoff Mind Robotics hires former Ford EV chief Doug Field (13.10.2026)",
+     "u": "https://techcrunch.com/2026/10/13/rivian-spinoff-mind-robotics-hires-former-ford-ev-chief-doug-field/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-14/mind-robotics-doug-field-praesident-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Doug Field wird Präsident von Mind Robotics",
+     "bg": "Заглавна графика: Дъг Фийлд става президент на Mind Robotics",
+     "en": "Title graphic: Doug Field becomes president of Mind Robotics"
+    }
+   },
+   "de": {
+    "t": "Ex-Ford-Elektrochef Doug Field wird Präsident der Rivian-Robotikfirma Mind Robotics",
+    "d": "Der frühere Tesla- und Apple-Manager soll beim Rivian-Ableger das Tagesgeschäft führen. Mind Robotics baut KI-gesteuerte Industrieroboter und hat über eine Milliarde Dollar eingesammelt.",
+    "body": [
+     "Doug Field, bis April Chef der Elektroauto- und Technologiestrategie bei Ford, wird Präsident von Mind Robotics. Das vor rund einem Jahr vom Elektroautobauer Rivian abgespaltene Unternehmen entwickelt Industrieroboter, die von KI-Basismodellen gesteuert werden. Field soll das Tagesgeschäft mit Produkt, Entwicklung und Betrieb verantworten; Rivian-Chef RJ Scaringe bleibt eingebunden. Bekannt gegeben wurde der Wechsel am Dienstag auf der Tech-Konferenz Disrupt in San Francisco.",
+     "Field leitete zuvor bei Apple das inzwischen eingestellte Autoprojekt „Titan“ und war als Entwicklungschef bei Tesla für das Model 3 zuständig. „KI und Robotik zusammenzubringen ist eine der wichtigsten – und schwierigsten – technischen Herausforderungen unserer Zeit“, erklärte er.",
+     "Mind Robotics hat laut TechCrunch mehr als eine Milliarde Dollar unter anderem von Accel, Andreessen Horowitz, Eclipse und Kleiner Perkins sowie den Investmentarmen von Volkswagen und Salesforce eingesammelt. Erster Kunde und Trainingsumgebung sind die Rivian-Werke, Rivian hält etwa ein Drittel der Anteile. Anders als Tesla will das Unternehmen dabei nicht die gesamte menschliche Biomechanik nachbilden."
+    ]
+   },
+   "bg": {
+    "t": "Бившият шеф на електромобилите на Ford Дъг Фийлд става президент на Mind Robotics",
+    "d": "Бившият мениджър на Tesla и Apple ще ръководи текущата дейност на отделената от Rivian компания. Mind Robotics създава управлявани от ИИ индустриални роботи и е набрала над милиард долара.",
+    "body": [
+     "Дъг Фийлд, до април ръководител на стратегията за електромобили и технологии във Ford, става президент на Mind Robotics. Отделената преди около година от производителя на електромобили Rivian компания разработва индустриални роботи, управлявани от базови ИИ модели. Фийлд ще отговаря за текущата дейност – продукти, разработка и операции; шефът на Rivian Ар Джей Скаринджи остава ангажиран. Назначението бе обявено във вторник на технологичната конференция Disrupt в Сан Франциско.",
+     "Преди това Фийлд ръководеше в Apple вече прекратения автомобилен проект „Titan“, а като ръководител на инженерството в Tesla отговаряше за Model 3. „Обединяването на ИИ и роботиката е едно от най-важните – и най-трудните – инженерни предизвикателства на нашето време“, заяви той.",
+     "Според TechCrunch Mind Robotics е набрала над един милиард долара, сред други от Accel, Andreessen Horowitz, Eclipse и Kleiner Perkins, както и от инвестиционните подразделения на Volkswagen и Salesforce. Първи клиент и среда за обучение са заводите на Rivian, която притежава около една трета от дяловете. За разлика от Tesla компанията не иска да пресъздава цялата човешка биомеханика."
+    ]
+   },
+   "en": {
+    "t": "Former Ford EV chief Doug Field becomes president of Rivian robotics firm Mind Robotics",
+    "d": "The former Tesla and Apple executive will run day-to-day operations at the Rivian spinoff. Mind Robotics builds AI-driven industrial robots and has raised more than a billion dollars.",
+    "body": [
+     "Doug Field, who led Ford's electric vehicle and technology strategy until April, is becoming president of Mind Robotics. The company, spun out of electric carmaker Rivian about a year ago, develops industrial robots controlled by AI foundation models. Field will oversee day-to-day operations including product, engineering and operations; Rivian CEO RJ Scaringe remains involved. The move was announced on Tuesday at the Disrupt tech conference in San Francisco.",
+     "Field previously led Apple's since-cancelled car project \"Titan\" and, as head of engineering at Tesla, oversaw the Model 3. \"Integrating AI and robotics is one of the most important – and difficult – engineering challenges of our time,\" he said.",
+     "According to TechCrunch, Mind Robotics has raised more than a billion dollars from investors including Accel, Andreessen Horowitz, Eclipse and Kleiner Perkins as well as the venture arms of Volkswagen and Salesforce. Its first customer and training environment are Rivian's plants, and Rivian holds about a third of the shares. Unlike Tesla, the company does not intend to copy all of human biomechanics."
+    ]
+   }
+  }
+ ]
+}
