@@ -38,7 +38,24 @@ jobs:
       - name: Build site (for sitemap)
         if: ${{ !contains(github.event.head_commit.message, '[CF-Pages-Skip]') }}
         run: PYTHONHASHSEED=1 python3 build.py
+      - name: Restore Bing submission log
+        if: ${{ !contains(github.event.head_commit.message, '[CF-Pages-Skip]') }}
+        continue-on-error: true
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/.cache/twn/bing-submitted.txt
+          key: bing-submitted-${{ github.run_id }}
+          restore-keys: bing-submitted-
       - name: Notify search engines via IndexNow
         # kein Warten mehr auf Cloudflare (sparte 4 Minuten Actions-Zeit pro Lauf); Suchmaschinen holen die Seiten ohnehin zeitversetzt ab
         if: ${{ !contains(github.event.head_commit.message, '[CF-Pages-Skip]') }}
+        env:
+          BING_API_KEY: ${{ secrets.BING_API_KEY }}
         run: python3 tools/indexnow.py
+      - name: Save Bing submission log
+        if: ${{ always() && !contains(github.event.head_commit.message, '[CF-Pages-Skip]') }}
+        continue-on-error: true
+        uses: actions/cache/save@v4
+        with:
+          path: ~/.cache/twn/bing-submitted.txt
+          key: bing-submitted-${{ github.run_id }}
