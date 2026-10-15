@@ -23,7 +23,7 @@ LOCALE = {'bg': 'bg_BG', 'de': 'de_DE', 'en': 'en_GB'}
 
 SECTIONS = ['welt', 'europa', 'deutschland', 'bulgarien', 'leben', 'mode', 'ki', 'wirtschaft', 'energie', 'business', 'auto', 'klima', 'ai', 'film', 'musik', 'games', 'sport']
 MEDIA = ('games', 'mode', 'auto', 'film', 'musik', 'sport', 'ai', 'ki', 'wirtschaft', 'energie', 'leben', 'klima', 'welt', 'europa', 'deutschland', 'bulgarien')   # Rubriken mit eigenem Medien-Layout (Reviews/Trailer + News)
-SUBS = {'sport': ['fussball', 'laenderspiele', 'formel1', 'tennis', 'handball', 'boxen', 'mma', 'extremsport']}   # Formel 1 + Tennis seit 09.10.2026   # Handball + Extremsport seit 08.10.2026
+SUBS = {'sport': ['fussball', 'championsleague', 'europaleague', 'laenderspiele', 'formel1', 'tennis', 'handball', 'boxen', 'mma', 'extremsport']}   # Formel 1 + Tennis seit 09.10.2026   # Handball + Extremsport seit 08.10.2026
 LSUBS = {'mode': ['imtrend', 'designer', 'dessous'], 'leben': ['liebe', 'guinness'], 'deutschland': ['berlin', 'oberfranken'], 'ki': ['raumfahrt']}
 MOVE_SUBS = {'deutschland', 'ki'}   # seit 08.10.2026: Berlin/Oberfranken nur auf der Unterseite, nicht mehr auf der Rubrikseite Deutschland
 SUB_KEEP = 30   # Unterseiten dieser Rubriken zeigen die letzten 30 Ausgabetage   # „leichte“ Unterrubriken (seit 08.10.2026): Rubrikseite bleibt, Unterseite zusätzlich (Feld "sub")
@@ -34,9 +34,9 @@ NAV_GROUPS = [  # Menü-Gruppen (Desktop: Trennstriche, Mobil: Überschriften im
     ('know', {'bg': 'Икономика и знание', 'de': 'Wirtschaft & Wissen', 'en': 'Economy & Knowledge'}, ['ki', 'wirtschaft', 'energie', 'business', 'auto', 'klima', 'ai']),
     ('ent', {'bg': 'Развлечения', 'de': 'Unterhaltung', 'en': 'Entertainment'}, ['film', 'musik', 'games']),
     ('sport', {'bg': 'Спорт', 'de': 'Sport', 'en': 'Sport'}, ['sport'])]   # WOW am 09.10.2026 wieder entfernt (Guinness → Leben & Alltag)   # Unterrubriken (Feld "sub" im Item)
-SUB = {'bg': {'fussball': ('Футбол', 'futbol'), 'laenderspiele': ('Национални отбори', 'natsionalni-otbori'), 'boxen': ('Бокс', 'boks'), 'mma': ('ММА', 'mma'), 'liebe': ('Любов и връзки', 'lyubov-i-vrazki'), 'berlin': ('Берлин', 'berlin'), 'oberfranken': ('Горна Франкония', 'gorna-frankonia'), 'guinness': ('Рекорди на Гинес', 'rekordi-gines'), 'raumfahrt': ('Космос', 'kosmos'), 'formel1': ('Формула 1', 'formula-1'), 'tennis': ('Тенис', 'tenis'), 'handball': ('Хандбал', 'handbal'), 'extremsport': ('Екстремни спортове', 'ekstremni-sportove'), 'imtrend': ('На мода', 'na-moda'), 'designer': ('Дизайнери', 'dizayneri'), 'dessous': ('Бельо', 'belyo')},
-       'de': {'fussball': ('Fußball', 'fussball'), 'laenderspiele': ('Länderspiele', 'laenderspiele'), 'boxen': ('Boxen', 'boxen'), 'mma': ('MMA', 'mma'), 'liebe': ('Liebe & Beziehung', 'liebe-beziehung'), 'berlin': ('Berlin', 'berlin'), 'oberfranken': ('Oberfranken', 'oberfranken'), 'guinness': ('Guinness Records', 'guinness-records'), 'raumfahrt': ('Raumfahrt', 'raumfahrt'), 'formel1': ('Formel 1', 'formel-1'), 'tennis': ('Tennis', 'tennis'), 'handball': ('Handball', 'handball'), 'extremsport': ('Extremsport', 'extremsport'), 'imtrend': ('Im Trend', 'im-trend'), 'designer': ('Designer', 'designer'), 'dessous': ('Dessous', 'dessous')},
-       'en': {'fussball': ('Football', 'football'), 'laenderspiele': ('Internationals', 'internationals'), 'boxen': ('Boxing', 'boxing'), 'mma': ('MMA', 'mma'), 'liebe': ('Love & Relationships', 'love-relationships'), 'berlin': ('Berlin', 'berlin'), 'oberfranken': ('Upper Franconia', 'upper-franconia'), 'guinness': ('Guinness World Records', 'guinness-world-records'), 'raumfahrt': ('Space', 'space'), 'formel1': ('Formula 1', 'formula-1'), 'tennis': ('Tennis', 'tennis'), 'handball': ('Handball', 'handball'), 'extremsport': ('Extreme sports', 'extreme-sports'), 'imtrend': ('Trending', 'trending'), 'designer': ('Designers', 'designers'), 'dessous': ('Lingerie', 'lingerie')}}
+SUB = {'bg': {'fussball': ('Футбол', 'futbol'), 'championsleague': ('Шампионска лига', 'shampionska-liga'), 'europaleague': ('Лига Европа', 'liga-evropa'), 'laenderspiele': ('Национални отбори', 'natsionalni-otbori'), 'boxen': ('Бокс', 'boks'), 'mma': ('ММА', 'mma'), 'liebe': ('Любов и връзки', 'lyubov-i-vrazki'), 'berlin': ('Берлин', 'berlin'), 'oberfranken': ('Горна Франкония', 'gorna-frankonia'), 'guinness': ('Рекорди на Гинес', 'rekordi-gines'), 'raumfahrt': ('Космос', 'kosmos'), 'formel1': ('Формула 1', 'formula-1'), 'tennis': ('Тенис', 'tenis'), 'handball': ('Хандбал', 'handbal'), 'extremsport': ('Екстремни спортове', 'ekstremni-sportove'), 'imtrend': ('На мода', 'na-moda'), 'designer': ('Дизайнери', 'dizayneri'), 'dessous': ('Бельо', 'belyo')},
+       'de': {'fussball': ('Fußball', 'fussball'), 'championsleague': ('Champions League', 'champions-league'), 'europaleague': ('Europa League', 'europa-league'), 'laenderspiele': ('Länderspiele', 'laenderspiele'), 'boxen': ('Boxen', 'boxen'), 'mma': ('MMA', 'mma'), 'liebe': ('Liebe & Beziehung', 'liebe-beziehung'), 'berlin': ('Berlin', 'berlin'), 'oberfranken': ('Oberfranken', 'oberfranken'), 'guinness': ('Guinness Records', 'guinness-records'), 'raumfahrt': ('Raumfahrt', 'raumfahrt'), 'formel1': ('Formel 1', 'formel-1'), 'tennis': ('Tennis', 'tennis'), 'handball': ('Handball', 'handball'), 'extremsport': ('Extremsport', 'extremsport'), 'imtrend': ('Im Trend', 'im-trend'), 'designer': ('Designer', 'designer'), 'dessous': ('Dessous', 'dessous')},
+       'en': {'fussball': ('Football', 'football'), 'championsleague': ('Champions League', 'champions-league'), 'europaleague': ('Europa League', 'europa-league'), 'laenderspiele': ('Internationals', 'internationals'), 'boxen': ('Boxing', 'boxing'), 'mma': ('MMA', 'mma'), 'liebe': ('Love & Relationships', 'love-relationships'), 'berlin': ('Berlin', 'berlin'), 'oberfranken': ('Upper Franconia', 'upper-franconia'), 'guinness': ('Guinness World Records', 'guinness-world-records'), 'raumfahrt': ('Space', 'space'), 'formel1': ('Formula 1', 'formula-1'), 'tennis': ('Tennis', 'tennis'), 'handball': ('Handball', 'handball'), 'extremsport': ('Extreme sports', 'extreme-sports'), 'imtrend': ('Trending', 'trending'), 'designer': ('Designers', 'designers'), 'dessous': ('Lingerie', 'lingerie')}}
 SEC = {
  'bg': {'welt': ('Свят', 'svyat'), 'europa': ('Европа', 'evropa'), 'deutschland': ('Германия', 'germania'), 'bulgarien': ('България', 'balgaria'), 'ki': ('Технологии', 'tehnologii'), 'wirtschaft': ('Икономика', 'ikonomika'), 'business': ('Бизнес', 'biznes'), 'auto': ('Авто', 'avto'), 'klima': ('Климат', 'klimat'), 'ai': ('ИИ', 'izkustven-intelekt'), 'energie': ('Енергия', 'energia'), 'kultur': ('Развлечения', 'razvlechenia'), 'games': ('Игри', 'igri'), 'film': ('Филми', 'filmi'), 'musik': ('Музика', 'muzika'), 'mode': ('Мода', 'moda'), 'sport': ('Спорт', 'sport'), 'leben': ('Живот и ежедневие', 'zhivot'), 'wow': ('WOW', 'wow')},
  'de': {'welt': ('Welt', 'welt'), 'europa': ('Europa', 'europa'), 'deutschland': ('Deutschland', 'deutschland'), 'bulgarien': ('Bulgarien', 'bulgarien'), 'ki': ('Technologie', 'technologie'), 'wirtschaft': ('Wirtschaft', 'wirtschaft'), 'business': ('Business', 'business'), 'auto': ('Auto', 'auto'), 'klima': ('Klima', 'klima'), 'ai': ('KI', 'ki'), 'energie': ('Energie', 'energie'), 'kultur': ('Entertainment', 'entertainment'), 'leben': ('Leben & Alltag', 'leben-alltag'), 'games': ('Games', 'games'), 'sport': ('Sport', 'sport'), 'film': ('Film', 'film'), 'musik': ('Musik', 'musik'), 'mode': ('Mode', 'mode'), 'wow': ('WOW', 'wow')},
@@ -131,6 +131,12 @@ SUB_DESC = {
  'laenderspiele': {'de': 'Länderspiele: Nations-League-Tabellen, alle Spiele der deutschen Nationalmannschaft, DFB-News und Spielzusammenfassungen im Video.',
                    'bg': 'Национални отбори: класирания в Лигата на нациите, всички мачове на Германия, новини и видео обобщения на мачовете.',
                    'en': 'Internationals: Nations League tables, every Germany fixture, national team news and match highlights on video.'},
+ 'championsleague': {'de': 'Champions League: Tabelle der Ligaphase, alle Spieltage und Ergebnisse, Qualifikation und K.-o.-Runden, Live-Spielstände und News – nach offiziellen UEFA-Daten.',
+                     'bg': 'Шампионска лига: класиране в основната фаза, всички кръгове и резултати, квалификации и елиминации, резултати на живо и новини – по официални данни на УЕФА.',
+                     'en': 'Champions League: league phase table, every matchday and result, qualifying and knockout rounds, live scores and news – based on official UEFA data.'},
+ 'europaleague': {'de': 'Europa League: Tabelle der Ligaphase, alle Spieltage und Ergebnisse, Qualifikation und K.-o.-Runden, Live-Spielstände und News – nach offiziellen UEFA-Daten.',
+                  'bg': 'Лига Европа: класиране в основната фаза, всички кръгове и резултати, квалификации и елиминации, резултати на живо и новини – по официални данни на УЕФА.',
+                  'en': 'Europa League: league phase table, every matchday and result, qualifying and knockout rounds, live scores and news – based on official UEFA data.'},
  'fussball': {'de': 'Fußball: Tabellen, Spieltage und Ergebnisse aus Bundesliga, Premier League, La Liga, Serie A, Ligue 1 und der bulgarischen Parva Liga.',
               'bg': 'Футбол: класирания, кръгове и резултати от Първа лига, Бундеслигата, Висшата лига, Ла Лига, Серия А и Лига 1.',
               'en': 'Football: tables, fixtures and results from the Premier League, Bundesliga, La Liga, Serie A, Ligue 1 and Bulgaria\'s Parva Liga.'},
@@ -777,6 +783,10 @@ FBU = {'bg': dict(season='Сезон', table='Класиране', next='Пре�
                   leagues='Ligen', leader='Tabellenführer', lead_pts='Pkt.', ko='Anstoßzeiten: deutsche Zeit', noft='–', pp='verlegt', src='Daten', open='Zur Liga →', upcoming='Anstehend', pens='i.E.', aet='n.V.', tbd='Auslosung steht aus', nomatch='Noch keine Spiele.'),
        'en': dict(season='Season', table='Table', next='Next matchday', done='Completed matchdays', md='Matchday {n}', cups='Cups', pos='#', team='Club', p='P', w='W', d='D', l='L', g='Goals', gd='GD', pts='Pts',
                   leagues='Leagues', leader='Leader', lead_pts='pts', ko='Kick-off times: Central European Time', noft='–', pp='postponed', src='Data', open='Go to league →', upcoming='Upcoming', pens='pens', aet='a.e.t.', tbd='Draw pending', nomatch='No matches yet.')}
+UEFA_SUB = {'champions-league': 'championsleague', 'europa-league': 'europaleague'}   # Datenschlüssel -> Unterrubrik
+UEFAU = {'bg': dict(zones='Места 1–8: директно в осминафиналите · 9–24: плейофи · 25–36: отпадат', ko='Квалификации и елиминации', asof='Данни към', agg='Общ резултат', adv='продължава'),
+         'de': dict(zones='Plätze 1–8: direkt im Achtelfinale · 9–24: K.-o.-Play-offs · 25–36: ausgeschieden', ko='Qualifikation und K.-o.-Runden', asof='Datenstand', agg='Gesamt', adv='weiter'),
+         'en': dict(zones='Places 1–8: straight into the round of 16 · 9–24: knockout play-offs · 25–36: eliminated', ko='Qualifying and knockout rounds', asof='Data as of', agg='Aggregate', adv='through')}
 FB_IMG = {}   # key -> img dict (Commons), aus content/football/_images.json
 
 def fb_load():
@@ -790,10 +800,15 @@ def fb_load():
         for it in json.load(open(ip, encoding='utf-8')).get('items', []):
             im = it['img']
             if os.path.exists(os.path.join(HERE, 'static', im['f'].lstrip('/'))): FB_IMG[it['id']] = im
+    for k in UEFA_SUB:   # Champions League / Europa League (seit 15.10.2026): eigene Unterrubriken unter Sport, Daten aus tools/uefa_import.py
+        fp = os.path.join(d, f'{k}.json')
+        if os.path.exists(fp): FB[k] = json.load(open(fp, encoding='utf-8'))
     hp = os.path.join(HERE, 'content', 'handball', 'handball-bundesliga.json')   # Handball-Bundesliga (seit 08.10.2026) – gleiche Logik wie Fußball, eigene Unterrubrik
     if os.path.exists(hp): FB['handball-bundesliga'] = json.load(open(hp, encoding='utf-8'))
 
-def fb_url(k, l): return sub_url('sport', 'handball', l) if (FB.get(k) or {}).get('sport') == 'handball' else f"{sub_url('sport', 'fussball', l)}{k}/"
+def fb_url(k, l):
+    if k in UEFA_SUB: return sub_url('sport', UEFA_SUB[k], l)
+    return sub_url('sport', 'handball', l) if (FB.get(k) or {}).get('sport') == 'handball' else f"{sub_url('sport', 'fussball', l)}{k}/"
 
 def fb_table(lg):
     t = {}
@@ -833,7 +848,8 @@ def fb_state(lg, today):
 
 def fb_note(n, l):
     if not n: return ''
-    return n.replace('n.V.', FBU[l]['aet']).replace('i.E.', FBU[l]['pens'])
+    n = n.replace('n.V.', FBU[l]['aet']).replace('i.E.', FBU[l]['pens'])
+    return n.replace('Gesamt', UEFAU[l]['agg']).replace('weiter:', UEFAU[l]['adv'] + ':') if l != 'de' else n
 
 def fb_match_row(m, lg, l, cup=False):
     a, b = (m.get('t1') or m.get('team1')), (m.get('t2') or m.get('team2'))
@@ -1120,13 +1136,17 @@ def fb_overview(l, today, news_html, others):
             f'<div class="gp-main"><div class="gp-panel">{live_box(l, "club")}<h2 class="gp-h">{e(f["leagues"])}</h2><div class="fb-grid">{cards}</div>{grid_cr([(FB[k]["name"][l], FB_IMG.get(k)) for k in fb_order(l) if k in FB], l)}{news_html}{tv_block(l)}</div>'
             f'<aside class="sec-side"><h2 class="list-h">{e(UI[l]["more"] if False else {"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
 
-FB_API = {'bundesliga': 78, '2-bundesliga': 79, 'premier-league': 39, 'la-liga': 140, 'serie-a': 135, 'ligue-1': 61, 'parva-liga': 172}   # API-Football-Liga-IDs für den Live-Block
+FB_API = {'champions-league': 2, 'europa-league': 3, 'bundesliga': 78, '2-bundesliga': 79, 'premier-league': 39, 'la-liga': 140, 'serie-a': 135, 'ligue-1': 61, 'parva-liga': 172}   # API-Football-Liga-IDs für den Live-Block
 def fb_league_page(k, l, today, others):
     lg = FB[k]; f = FBU[l]
     tab = fb_table(lg); rs, done, nxt = fb_state(lg, today)
-    rows = ''.join(f'<tr{" class=fb-top" if i < 4 else ""}><td class="n">{i + 1}</td><th scope="row">{e(t)}</th><td class="n">{r[0]}</td><td class="n">{r[1]}</td><td class="n">{r[2]}</td><td class="n">{r[3]}</td><td class="n">{r[4]}:{r[5]}</td><td class="n">{"+" if r[4] - r[5] > 0 else ""}{r[4] - r[5]}</td><td class="n fb-pts">{r[6]}</td></tr>'
+    if lg.get('table'):   # UEFA: offizielle Tabelle (inkl. Tiebreaker) statt eigener Berechnung
+        tab = [(x['team'], [x['p'], x['w'], x['d'], x['l'], x['gf'], x['ga'], x['pts']]) for x in lg['table']]
+    uz = lambda i: (' class=fb-top' if i < 8 else ' class=fb-po' if i < 24 else ' class=fb-out') if lg.get('uefa') else (' class=fb-top' if i < 4 else '')
+    rows = ''.join(f'<tr{uz(i)}><td class="n">{i + 1}</td><th scope="row">{e(t)}</th><td class="n">{r[0]}</td><td class="n">{r[1]}</td><td class="n">{r[2]}</td><td class="n">{r[3]}</td><td class="n">{r[4]}:{r[5]}</td><td class="n">{"+" if r[4] - r[5] > 0 else ""}{r[4] - r[5]}</td><td class="n fb-pts">{r[6]}</td></tr>'
                    for i, (t, r) in enumerate(tab))
-    table = (f'<div class="tbl-wrap"><table class="fb-t"><thead><tr><th class="n">{f["pos"]}</th><th>{f["team"]}</th><th class="n">{f["p"]}</th><th class="n">{f["w"]}</th><th class="n">{f["d"]}</th><th class="n">{f["l"]}</th><th class="n">{f["g"]}</th><th class="n">{f["gd"]}</th><th class="n">{f["pts"]}</th></tr></thead><tbody>{rows}</tbody></table></div>')
+    if lg.get('uefa'): rows = rows.replace('<tr class=fb-po>', '<tr class="fb-po">').replace('<tr class=fb-out>', '<tr class="fb-out">')
+    table = (f'<div class="tbl-wrap"><table class="fb-t{" fb-uefa" if lg.get("uefa") else ""}"><thead><tr><th class="n">{f["pos"]}</th><th>{f["team"]}</th><th class="n">{f["p"]}</th><th class="n">{f["w"]}</th><th class="n">{f["d"]}</th><th class="n">{f["l"]}</th><th class="n">{f["g"]}</th><th class="n">{f["gd"]}</th><th class="n">{f["pts"]}</th></tr></thead><tbody>{rows}</tbody></table></div>')
     nx = ''
     if nxt:
         nx = (f'<h2 class="gp-h">{e(f["next"])}: {e(f["md"].format(n=nxt))}</h2><div class="tbl-wrap"><table class="fb-m"><tbody>' +
@@ -1148,13 +1168,14 @@ def fb_league_page(k, l, today, others):
     im = FB_IMG.get(k)
     hero = (f'<div class="ga-media"><div class="fb-hero" style="background-image:url({im["f"]})"><span class="gr-badge">{e(f["season"])} {e(lg["season"])}</span></div>'
             f'<p class="gr-cr">{cap_pre(im.get("alt", {}).get(l, ""), l)}{credit(im, l, True)}</p></div>') if im else ''
-    others_l = ''.join(f'<li><a href="{fb_url(x, l)}"{" aria-current=page" if x == k else ""}>{e(FB[x]["name"][l])}</a></li>' for x in fb_order(l) if x in FB)
+    others_l = ''.join(f'<li><a href="{fb_url(x, l)}"{" aria-current=page" if x == k else ""}>{e(FB[x]["name"][l])}</a></li>' for x in ([y for y in UEFA_SUB if y in FB] if lg.get('uefa') else []) + fb_order(l) if x in FB)
     if lg.get('sport') == 'handball': others_l = f'<li><a href="{fb_url(k, l)}" aria-current=page>{e(lg["name"][l])}</a></li>'
     return (f'<div class="gp gp-sport fb-page"><div class="gp-head"><h1 class="gp-title">{e(lg["name"][l])}</h1><span class="fb-season">{e(f["season"])} {e(lg["season"])}</span></div>'
             f'<div class="gp-main"><div class="gp-panel">{hero}{live_box(l, "club", FB_API[k]) if k in FB_API else ""}<h2 class="gp-h">{e(f["table"])}</h2>{table}{nx}'
-            + (f'<h2 class="gp-h">{e(f["cups"])}</h2>{cups}' if cups else '') +
+            + (f'<p class="fb-ko fb-zones">{e(UEFAU[l]["zones"])}</p>' if lg.get('uefa') else '')
+            + (f'<h2 class="gp-h">{e(UEFAU[l]["ko"] if lg.get("uefa") else f["cups"])}</h2>{cups}' if cups else '') +
             (f'<h2 class="gp-h">{e(f["done"])}</h2>{dn}' if dn else '') +
-            f'<p class="fb-ko">{e(f["src"])}: <a href="{e(lg["src"][0]["u"])}" rel="noopener nofollow" target="_blank">{e(lg["src"][0]["n"])}</a></p></div>'
+            f'<p class="fb-ko">{e(f["src"])}: <a href="{e(lg["src"][0]["u"])}" rel="noopener nofollow" target="_blank">{e(lg["src"][0]["n"])}</a>' + (f' · {e(UEFAU[l]["asof"])} {num_date(lg["asof"])}' if lg.get('asof') else '') + '</p></div>'
             f'<aside class="sec-side"><h2 class="list-h">{e(f["leagues"])}</h2><ul class="fb-ll">{others_l}</ul>'
             f'<h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
 
@@ -1333,9 +1354,9 @@ def bx_card(k, l, today):
 
 SP_ALL = {'bg': 'Всички', 'de': 'Übersicht', 'en': 'Overview'}
 SP_LIMIT = {'fussball': 6, 'laenderspiele': 6, 'boxen': 3, 'mma': 3}   # Nedys Vorgabe: 12 Sport-News am Tag (6 Fußball, 3 Boxen, 3 MMA)
-SP_U = {'bg': dict(subs='Рубрики', open='Отвори →', n='новини днес', news={'fussball': 'Футболни новини', 'laenderspiele': 'Национални отбори', 'boxen': 'Бокс новини', 'mma': 'ММА новини', 'handball': 'Хандбал новини', 'formel1': 'Формула 1 новини', 'tennis': 'Тенис новини', 'extremsport': 'Екстремни спортове'}, all='Всички →'),
-        'de': dict(subs='Rubriken', open='Öffnen →', n='News heute', news={'fussball': 'Fußball-News', 'laenderspiele': 'Länderspiel-News', 'boxen': 'Box-News', 'mma': 'MMA-News', 'handball': 'Handball-News', 'formel1': 'Formel-1-News', 'tennis': 'Tennis-News', 'extremsport': 'Extremsport im Video'}, all='Alle →'),
-        'en': dict(subs='Sections', open='Open →', n='stories today', news={'fussball': 'Football news', 'laenderspiele': 'Internationals news', 'boxen': 'Boxing news', 'mma': 'MMA news', 'handball': 'Handball news', 'formel1': 'Formula 1 news', 'tennis': 'Tennis news', 'extremsport': 'Extreme sports on video'}, all='All →')}
+SP_U = {'bg': dict(subs='Рубрики', open='Отвори →', n='новини днес', news={'fussball': 'Футболни новини', 'championsleague': 'Шампионска лига – новини', 'europaleague': 'Лига Европа – новини', 'laenderspiele': 'Национални отбори', 'boxen': 'Бокс новини', 'mma': 'ММА новини', 'handball': 'Хандбал новини', 'formel1': 'Формула 1 новини', 'tennis': 'Тенис новини', 'extremsport': 'Екстремни спортове'}, all='Всички →'),
+        'de': dict(subs='Rubriken', open='Öffnen →', n='News heute', news={'fussball': 'Fußball-News', 'championsleague': 'Champions-League-News', 'europaleague': 'Europa-League-News', 'laenderspiele': 'Länderspiel-News', 'boxen': 'Box-News', 'mma': 'MMA-News', 'handball': 'Handball-News', 'formel1': 'Formel-1-News', 'tennis': 'Tennis-News', 'extremsport': 'Extremsport im Video'}, all='Alle →'),
+        'en': dict(subs='Sections', open='Open →', n='stories today', news={'fussball': 'Football news', 'championsleague': 'Champions League news', 'europaleague': 'Europa League news', 'laenderspiele': 'Internationals news', 'boxen': 'Boxing news', 'mma': 'MMA news', 'handball': 'Handball news', 'formel1': 'Formula 1 news', 'tennis': 'Tennis news', 'extremsport': 'Extreme sports on video'}, all='All →')}
 
 SP_IMG = {}
 def load_sp_img():
@@ -1349,14 +1370,14 @@ def sport_overview(l, its, s, others):
     if not SP_IMG: load_sp_img()
     f = SP_U[l]; cards = ''; news = ''
     for k in SUBS[s]:
-        xs = sorted([x for x in its if x.get('sub') == k], key=lambda x: (x['date'], x['time']), reverse=True)
+        xs = sorted([x for x in its if x.get('sub') == k or (k in UEFA_SUB.values() and x.get('uc') == k)], key=lambda x: (x['date'], x['time']), reverse=True)
         top = xs[:SP_LIMIT.get(k, 6)]
         im = SP_IMG.get(k) or next((x['img'] for x in top if x.get('img')), None)   # feste Rubrikbilder (content/sport/_images.json)
         st = f' style="background-image:url({im["f"]})"' if im else ''
         nt = sum(1 for x in xs if xs and x['date'] == xs[0]['date'])
         cards += (f'<article class="fb-card"><a href="{sub_url(s, k, l)}"><div class="fb-img"{st}><span class="fb-name">{e(SUB[l][k][0])}</span></div>'
                   f'<div class="fb-card-txt"><p class="fb-lead"><b>{nt}</b> {e(f["n"])}</p><span class="gr-more">{e(f["open"])}</span></div></a></article>')
-        if top: news += f'<h2 class="gp-h">{e(f["news"][k])} <a class="sp-all" href="{sub_url(s, k, l)}">{e(f["all"])}</a></h2>{bx_news_grid(top, l)}'
+        if top and not (k in UEFA_SUB.values() and not any(x.get('sub') == k for x in top)): news += f'<h2 class="gp-h">{e(f["news"][k])} <a class="sp-all" href="{sub_url(s, k, l)}">{e(f["all"])}</a></h2>{bx_news_grid(top, l)}'
     return (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(SEC[l][s][0])}</h1>{gp_slogan(l)}</div>'
             f'<div class="gp-main"><div class="gp-panel"><h2 class="gp-h">{e(f["subs"])}</h2><div class="fb-grid sp-grid">{cards}</div>{grid_cr([(SUB[l][k][0], SP_IMG.get(k)) for k in SUBS[s]], l)}{news}</div>'
             f'<aside class="sec-side"><h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
@@ -1722,6 +1743,11 @@ def build():
                         sb = tabs(k) + (f1_page if k == 'formel1' else tennis_page)(l, latest['date'], nh, _others(s))
                     elif s == 'sport' and k == 'extremsport':   # Extremsport: Video-Wand wie WOW
                         sb = tabs(k) + wow_page(l, sits, _others(s), title=SUB[l][k][0], desc=SUB_DESC[k][l], kind='sport')
+                    elif s == 'sport' and k in UEFA_SUB.values() and any(UEFA_SUB.get(x) == k for x in FB):   # Champions League / Europa League (seit 15.10.2026)
+                        uk = next(x for x in FB if UEFA_SUB.get(x) == k)
+                        sb = tabs(k) + fb_league_page(uk, l, latest['date'], _others(s))
+                        un = sorted([x for x in its if x.get('sub') == k or x.get('uc') == k], key=lambda x: (x['date'], x['time']), reverse=True)
+                        if un: sb += games_page(l, un, un[0]['date'], '', SX, s, title={'bg': 'Новини', 'de': 'News', 'en': 'News'}[l] + ' · ' + SUB[l][k][0])
                     elif s == 'sport' and k == 'handball' and 'handball-bundesliga' in FB:   # Handball-Bundesliga: Tabelle/Spieltage wie Fußball
                         HBK = {'bg': 'Начален час: българско време', 'de': 'Anwurfzeiten: deutsche Zeit', 'en': 'Throw-off times: German time'}
                         sb = tabs(k) + fb_league_page('handball-bundesliga', l, latest['date'], _others(s)).replace(e(FBU[l]['ko']), e(HBK[l]))

@@ -516,6 +516,8 @@ table.fb-t thead th{font-family:var(--mono);font-size:11px;letter-spacing:.06em;
 table.fb-t tbody th{font-weight:600;color:#fff}
 table.fb-t .n{text-align:right;white-space:nowrap}
 table.fb-t tr.fb-top td:first-child{color:var(--gy);font-weight:700}
+table.fb-uefa tr.fb-top td:first-child{box-shadow:inset 3px 0 0 #22c55e}table.fb-uefa tr.fb-po td:first-child{box-shadow:inset 3px 0 0 #38bdf8;color:#93c5fd;font-weight:700}table.fb-uefa tr.fb-out{opacity:.72}
+.fb-zones{margin-top:6px}
 table.fb-t .fb-pts{font-weight:700;color:#fff}
 table.fb-t tbody tr:nth-child(even){background:rgba(56,189,248,.05)}
 table.fb-m td{padding:7px 8px;border-bottom:1px solid #1c2f48}
