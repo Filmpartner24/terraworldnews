@@ -1,0 +1,35 @@
+name: Football tables after full-time
+# Nedys Vorgabe (15.10.2026): Tabellen unmittelbar nach den Spielen aktualisieren.
+# Läuft zu den typischen Abpfiff-Zeiten (Zeiten in UTC; deckt Sommer- und Winterzeit ab) und committet nur, wenn sich Daten geändert haben.
+on:
+  schedule:
+    - cron: '5,35 18-22 * * 2,3,4'    # Di–Do: Champions/Europa/Conference League, DFB-Pokal, englische Wochen
+    - cron: '5,35 19-22 * * 1,5'      # Mo + Fr: Abendspiele
+    - cron: '5,35 13-22 * * 0,6'      # Sa + So: Spiele ab mittags
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: scores
+  cancel-in-progress: false
+jobs:
+  scores:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Fetch results and rebuild league data
+        run: python3 tools/update_scores.py
+      - name: Check build
+        run: PYTHONHASHSEED=1 python3 build.py > /dev/null
+      - name: Commit
+        run: |
+          git config user.name "terra-bot"
+          git config user.email "media@filmpartner24.com"
+          git add content/football
+          git diff --cached --quiet && { echo "keine neuen Ergebnisse"; exit 0; }
+          git commit -m "Tabellen nach Abpfiff aktualisiert"
+          for i in 1 2 3 4 5; do git push && exit 0; sleep $((i*5)); git pull --rebase -q || exit 1; done
+          exit 1
