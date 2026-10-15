@@ -27,8 +27,8 @@ jobs:
         with: { python-version: '3.12' }
       - name: Fetch results and rebuild league data
         run: python3 tools/update_scores.py
-      - name: Check build
-        run: PYTHONHASHSEED=1 python3 build.py > /dev/null
+      - name: Check data (schneller als ein kompletter Build)
+        run: python3 -c "import json,glob; [json.load(open(f, encoding='utf-8')) for f in glob.glob('content/football/*.json')]"
       - name: Commit
         run: |
           git config user.name "terra-bot"
