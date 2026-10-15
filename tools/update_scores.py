@@ -22,7 +22,11 @@ def season_years():
 
 def uefa(sy):
     d = tempfile.mkdtemp(prefix='uefa_')
+    t = datetime.date.today(); fr, to = (t - datetime.timedelta(days=2)).isoformat(), (t + datetime.timedelta(days=1)).isoformat()
     for cid in ('1', '14', '2019'):
+        # frische Daten der letzten Tage zuerst (die ungefilterte Gesamtliste wird vom UEFA-CDN teils länger zwischengespeichert)
+        fresh = get(f'https://match.uefa.com/v5/matches?competitionId={cid}&seasonYear={sy}&fromDate={fr}&toDate={to}&order=ASC&offset=0&limit=100')
+        json.dump(fresh, open(os.path.join(d, f'm_{cid}_-1.json'), 'w'))
         off = 0
         while off <= 600:
             j = get(f'https://match.uefa.com/v5/matches?competitionId={cid}&seasonYear={sy}&order=ASC&offset={off}&limit=100')
