@@ -51,7 +51,8 @@ def main():
         season = (re.search(r'(\d{4}/\d{2})', src.get('name', '')) or [None, a.season.replace('-', '/')])[1]
         out = {'key': key, 'code': code, 'season': season, 'name': name, 'tz': tz, 'matches': ms,
                'cups': cups.get(code, old.get('cups', [])),
-               'src': [{'n': 'openfootball (CC0)', 'u': f'https://github.com/openfootball/football.json/tree/master/{a.season}'}]}
+               'src': [{'n': 'openfootball (CC0)', 'u': f'https://github.com/openfootball/football.json/tree/master/{a.season}'}]
+                      + [x for x in old.get('src', []) if 'openfootball' not in x.get('n', '')]}   # redaktionelle Quellen (Nachträge) bleiben erhalten
         json.dump(out, open(fp, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
         print(key, season, len(ms), 'Spiele,', sum(1 for m in ms if m['ft'] is not None), 'mit Ergebnis')
 
