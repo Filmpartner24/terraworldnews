@@ -100,7 +100,8 @@ export async function onRequest(ctx) {
     }
     const m = list.map(f => slim(f)).sort((x, y) => (x.ts - y.ts) || (x.lg - y.lg));
     const apierr = today.errors && Object.keys(today.errors).length ? Object.keys(today.errors).join(',') : '';
-    return new Response(JSON.stringify({ ok: !apierr, apierr, total: today.results || 0, day, live: anyLive, club: CLUB, nat: NAT, m }), { headers: hdr });
+    const apimsg = apierr ? JSON.stringify(today.errors).slice(0, 300) : undefined;   // Fehlertext der API (ohne Schlüssel) zur Diagnose
+    return new Response(JSON.stringify({ ok: !apierr, apierr, apimsg, total: today.results || 0, day, live: anyLive, club: CLUB, nat: NAT, m }), { headers: hdr });
   } catch (e) {
     return new Response(JSON.stringify({ ok: false, reason: 'error', m: [] }), { headers: hdr });
   }
