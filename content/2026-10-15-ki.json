@@ -1,0 +1,420 @@
+{
+ "date": "2026-10-15",
+ "items": [
+  {
+   "id": "fish-audio-drama-3-sprachmodell",
+   "s": "ai",
+   "time": "12:38",
+   "kick": {
+    "de": "Neues Modell",
+    "bg": "Нов модел",
+    "en": "New model"
+   },
+   "yt": {
+    "id": "L5IjgBBuCpg",
+    "ch": "Fish Audio",
+    "kind": "video",
+    "t": {
+     "de": "Fish Audio: Drama 3 ist da",
+     "bg": "Fish Audio: Drama 3 е тук",
+     "en": "Fish Audio: Drama 3 is here"
+    }
+   },
+   "src": [
+    {
+     "n": "Fish Audio – Fish Audio Drama 3 (13.10.2026)",
+     "u": "https://fish.audio/blog/fish-audio-drama-3/"
+    },
+    {
+     "n": "AlphaSignal – Fish Audio's Drama 3 Lets Developers Direct AI Voices Like a Film Script (14.10.2026)",
+     "u": "https://alphasignal.ai/news/fish-audio-s-drama-3-lets-developers-direct-ai-voices-like-a-film-script"
+    },
+    {
+     "n": "Fish Audio – Fish Audio Drama 3 is Here (YouTube, 13.10.2026)",
+     "u": "https://www.youtube.com/watch?v=L5IjgBBuCpg"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-15/fish-audio-drama-3-sprachmodell-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Fish Audio stellt Sprachmodell Drama 3 vor",
+     "bg": "Заглавна графика: Fish Audio представя гласовия модел Drama 3",
+     "en": "Title graphic: Fish Audio unveils voice model Drama 3"
+    }
+   },
+   "de": {
+    "t": "Fish Audio stellt Drama 3 vor: KI-Stimmen folgen Regieanweisungen",
+    "d": "Das offene Sprachmodell beherrscht 83 Sprachen und setzt Anweisungen in eckigen Klammern um. Kleinere Firmen dürfen es kostenlos kommerziell nutzen.",
+    "body": [
+     "Das KI-Start-up Fish Audio hat am Dienstag sein neues Sprachsynthese-Modell Drama 3 veröffentlicht. Wer einen Text vertonen lässt, schreibt Regieanweisungen in eckigen Klammern direkt dazu; einzelne Wörter lassen sich zusätzlich mit Markierungen etwa für eine Betonung versehen. Das Modell spricht 83 Sprachen, die Anweisungen können in jeder Sprache formuliert werden. Firmenchefin Rissa Cao nennt Drama 3 das bisher ausdrucksstärkste und am besten steuerbare Modell des Unternehmens.",
+     "Technisch ist Drama 3 ein sogenanntes Mixture-of-Experts-Modell mit 35 Milliarden Parametern, von denen pro Token rund drei Milliarden aktiv sind; Grundlage ist das Sprachmodell Qwen3.5-35B-A3B von Alibaba. In einem Aussprachetest von Artificial Analysis erreicht es nach Firmenangaben 93,2 Prozent – der Vorgänger S2.1 Pro kam auf 88,1 Prozent. Auf einem einzelnen Nvidia-H200-Chip erzeugt das Modell laut Fish Audio 271 Audio-Frames pro Sekunde, deutlich mehr als S2.",
+     "Die Gewichte stehen auf Hugging Face unter einer eigenen Community-Lizenz bereit: frei für Forschung und nicht-kommerzielle Zwecke sowie für Firmen mit weniger als 500.000 Dollar Jahresumsatz. Größere Firmen und alle, die Drama 3 als Sprach-, Klon- oder Inferenzdienst anbieten, brauchen eine Lizenz. Stimmen realer Personen dürfen ohne deren Zustimmung nicht geklont werden; im Vorstellungsvideo spricht nach Angaben von Fish Audio eine geklonte Stimme des Komikers „Uncle Roger“ – mit dessen Erlaubnis. Nutzbar ist Drama 3 auch über Website, Apps und Programmierschnittstelle."
+    ]
+   },
+   "bg": {
+    "t": "Fish Audio представя Drama 3: ИИ гласове следват режисьорски указания",
+    "d": "Отвореният гласов модел владее 83 езика и изпълнява указания в квадратни скоби. По-малките фирми могат да го ползват търговски безплатно.",
+    "body": [
+     "ИИ стартъпът Fish Audio пусна във вторник новия си модел за синтез на реч Drama 3. Който озвучава текст, пише режисьорски указания в квадратни скоби директно до него; отделни думи могат да бъдат допълнително маркирани, например за ударение. Моделът говори 83 езика, а указанията могат да бъдат написани на всеки език. Изпълнителният директор Риса Цао нарича Drama 3 най-изразителния и най-добре управляем модел на компанията досега.",
+     "Технически Drama 3 е модел тип Mixture-of-Experts с 35 милиарда параметъра, от които около три милиарда са активни за всеки токен; основа е езиковият модел Qwen3.5-35B-A3B на Alibaba. В тест за произношение на Artificial Analysis той постига според компанията 93,2% – предшественикът S2.1 Pro имаше 88,1%. На един чип Nvidia H200 моделът генерира по данни на Fish Audio 271 аудиокадъра в секунда, значително повече от S2.",
+     "Тежестите са достъпни в Hugging Face под собствен лиценз на общността: свободни за изследвания и нетърговски цели, както и за фирми с годишен оборот под 500 000 долара. По-големите фирми и всички, които предлагат Drama 3 като услуга за синтез на реч, клониране или изчисления, се нуждаят от лиценз. Гласове на реални хора не бива да се клонират без тяхно съгласие; във видеото за представянето според Fish Audio говори клониран глас на комика „Uncle Roger“ – с негово разрешение. Drama 3 е достъпен и чрез уебсайта, приложенията и програмния интерфейс."
+    ]
+   },
+   "en": {
+    "t": "Fish Audio unveils Drama 3: AI voices that take stage directions",
+    "d": "The open voice model covers 83 languages and follows directions written in square brackets. Smaller companies may use it commercially for free.",
+    "body": [
+     "AI start-up Fish Audio released its new text-to-speech model Drama 3 on Tuesday. Users write stage directions in square brackets right next to the text, and individual words can additionally be tagged, for example for emphasis. The model speaks 83 languages, and directions can be written in any language. Chief executive Rissa Cao calls Drama 3 the company's most emotive and controllable model yet.",
+     "Technically, Drama 3 is a mixture-of-experts model with 35 billion parameters, of which about three billion are active per token; it is built on Alibaba's Qwen3.5-35B-A3B language model. On a pronunciation test by Artificial Analysis it scores 93.2 per cent according to the company, compared with 88.1 per cent for its predecessor S2.1 Pro. On a single Nvidia H200 chip, the model generates 271 audio frames per second, Fish Audio says – considerably more than S2.",
+     "The weights are available on Hugging Face under the company's own community licence: free for research and non-commercial use and for companies with less than 500,000 dollars in annual revenue. Larger companies, and anyone offering Drama 3 as a speech, voice-cloning or inference service, need a licence. Real people's voices may not be cloned without their consent; according to Fish Audio, the launch video features a cloned voice of comedian \"Uncle Roger\" – used with his permission. Drama 3 is also available via the website, apps and API."
+    ]
+   }
+  },
+  {
+   "id": "abb-robotics-ki-trainer-ciif",
+   "s": "ai",
+   "time": "12:38",
+   "kick": {
+    "de": "Robotik",
+    "bg": "Роботика",
+    "en": "Robotics"
+   },
+   "yt": {
+    "id": "Z2wwVk0qVp0",
+    "ch": "ABB Robotics",
+    "kind": "video",
+    "t": {
+     "de": "ABB Robotics: OmniCore EyeMotion mit AI Robot Trainer",
+     "bg": "ABB Robotics: OmniCore EyeMotion с AI Robot Trainer",
+     "en": "ABB Robotics: OmniCore EyeMotion powered by AI Robot Trainer"
+    }
+   },
+   "src": [
+    {
+     "n": "ABB – ABB Robotics enables anyone to train, deploy and optimize AI-powered robotics applications (Oktober 2026)",
+     "u": "https://www.abb.com/global/en/news/139391/prsrl-abb-robotics-enables-anyone-to-train-deploy-and-optimize-ai-powered-robotics-applications"
+    },
+    {
+     "n": "ABB – ABB Robotics introduces two new high-performance robots for precision manufacturing (Oktober 2026)",
+     "u": "https://www.abb.com/global/en/news/139390/prsrl-abb-robotics-introduces-two-new-high-performance-robots-for-precision-manufacturing"
+    },
+    {
+     "n": "Robotics 24/7 – CIIF 2026: ABB Robotics introduces two new robots and expands OmniCore EyeMotion with AI Robot Trainer (14.10.2026)",
+     "u": "https://www.robotics247.com/article/ciif-2026-abb-robotics-introduces-two-new-robots-for-precision-manufacturing-and-expands-omnicore-eyemotion-with-ai-robot-trainer"
+    },
+    {
+     "n": "ABB Robotics – OmniCore EyeMotion Powered by AI Robot Trainer (YouTube, 11.10.2026)",
+     "u": "https://www.youtube.com/watch?v=Z2wwVk0qVp0"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-15/abb-robotics-ki-trainer-ciif.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Clemenspool",
+    "lic": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Reinraum_BBS_Automation_Blaichach.jpg",
+    "alt": {
+     "de": "Symbolbild: Techniker an einem ABB-Industrieroboter im Reinraum in Blaichach",
+     "bg": "Символна снимка: техник при индустриален робот на ABB в чисто помещение в Блайхах",
+     "en": "Symbol image: a technician working on an ABB industrial robot in a cleanroom in Blaichach"
+    }
+   },
+   "de": {
+    "t": "Roboter lernen sehen ohne KI-Experten: ABB bringt „AI Robot Trainer“",
+    "d": "Auf der Industriemesse CIIF in Shanghai zeigt ABB eine Software, mit der Integratoren Bildverarbeitung für Roboter selbst trainieren – und zwei neue Industrieroboter.",
+    "body": [
+     "Der Technologiekonzern ABB stellt auf der China International Industry Fair (CIIF) in Shanghai, die noch bis Freitag läuft, eine Erweiterung seiner KI-Bildverarbeitung OmniCore EyeMotion vor. Der „AI Robot Trainer“ soll Systemintegratoren ohne KI-Fachwissen in die Lage versetzen, Kameraanwendungen für Roboter selbst zu trainieren, einzusetzen und laufend zu verbessern. Bilder aus der Fabrikhalle werden dabei mit synthetischen Daten kombiniert; ein geführter Ablauf und ein KI-Chatbot leiten durch die einzelnen Schritte.",
+     "Die Software arbeitet nach ABB-Angaben mit Kameras und Sensoren beliebiger Hersteller und ist für Aufgaben wie Greifen aus der Kiste, Qualitätsprüfung, Sortieren und Montage gedacht. Die Inbetriebnahme soll sich um bis zu 90 Prozent verkürzen, die Taktzeit zusammen mit automatischer kollisionsfreier Bahnplanung um bis zu 50 Prozent. „Physische KI verändert grundlegend, was Roboter können, wo sie arbeiten und welchen Wert sie schaffen“, sagte Robotik-Chef Marc Segura.",
+     "Parallel präsentiert ABB die Industrieroboter IRB 1700 und IRB 1700ID mit 6 bis 12 Kilogramm Traglast. Sie sollen bis zu 20 Prozent kürzere Taktzeiten als vergleichbare Modelle erreichen, bis zu 15 Prozent weniger Strom verbrauchen als der Vorgänger IRB 1600 und nur halb so viel Platz brauchen. Preise und einen Marktstart für den AI Robot Trainer nannte ABB nicht."
+    ]
+   },
+   "bg": {
+    "t": "Роботи се учат да виждат без ИИ експерти: ABB пуска „AI Robot Trainer“",
+    "d": "На индустриалното изложение CIIF в Шанхай ABB показва софтуер, с който интеграторите сами обучават машинно зрение за роботи – и два нови индустриални робота.",
+    "body": [
+     "Технологичният концерн ABB представя на China International Industry Fair (CIIF) в Шанхай, което продължава до петък, разширение на своята система за машинно зрение с ИИ OmniCore EyeMotion. „AI Robot Trainer“ трябва да позволи на системните интегратори без опит в ИИ сами да обучават, внедряват и непрекъснато подобряват приложения с камери за роботи. Снимки от производствения цех се комбинират със синтетични данни; ръководен процес и ИИ чатбот водят през отделните стъпки.",
+     "Според ABB софтуерът работи с камери и сензори от всякакви производители и е предназначен за задачи като вземане на детайли от контейнер, контрол на качеството, сортиране и монтаж. Пускането в експлоатация трябва да се съкрати с до 90%, а цикълът – с до 50% в комбинация с автоматично планиране на траектории без сблъсъци. „Физическият ИИ променя из основи какво могат роботите, къде работят и каква стойност създават“, каза шефът на роботиката Марк Сегура.",
+     "Успоредно с това ABB представя индустриалните роботи IRB 1700 и IRB 1700ID с товароносимост от 6 до 12 килограма. Те трябва да постигат до 20% по-кратки цикли от сравними модели, да консумират до 15% по-малко ток от предшественика IRB 1600 и да заемат наполовина по-малко място. Цени и дата за пускане на пазара на AI Robot Trainer ABB не посочи."
+    ]
+   },
+   "en": {
+    "t": "Robots learn to see without AI experts: ABB launches \"AI Robot Trainer\"",
+    "d": "At the CIIF industry fair in Shanghai, ABB is showing software that lets integrators train robot vision themselves – plus two new industrial robots.",
+    "body": [
+     "Technology group ABB is presenting an extension of its AI vision system OmniCore EyeMotion at the China International Industry Fair (CIIF) in Shanghai, which runs until Friday. The \"AI Robot Trainer\" is designed to let system integrators without AI expertise train, deploy and continuously improve camera applications for robots themselves. Images from the factory floor are combined with synthetic data, and a guided workflow and an AI chatbot walk users through each step.",
+     "According to ABB, the software works with cameras and sensors from any manufacturer and is intended for tasks such as bin picking, quality inspection, sorting and assembly. Commissioning time is said to drop by up to 90 per cent, and cycle time by up to 50 per cent when combined with automatic collision-free path planning. \"Physical AI fundamentally changes what robots can do, where they can operate and the value they can create,\" said ABB Robotics president Marc Segura.",
+     "Alongside it, ABB is presenting the IRB 1700 and IRB 1700ID industrial robots with payloads of 6 to 12 kilograms. They are said to achieve cycle times up to 20 per cent shorter than comparable models, use up to 15 per cent less power than their predecessor, the IRB 1600, and need half its footprint. ABB gave no prices or launch date for the AI Robot Trainer."
+    ]
+   }
+  },
+  {
+   "id": "deep-robotics-dr02-verkehr-hangzhou",
+   "s": "ai",
+   "time": "12:38",
+   "kick": {
+    "de": "Robotik",
+    "bg": "Роботика",
+    "en": "Robotics"
+   },
+   "yt": {
+    "id": "_14HvDleHYM",
+    "ch": "DEEP Robotics",
+    "kind": "video",
+    "t": {
+     "de": "DEEP Robotics: Der „neue Verkehrspolizist“",
+     "bg": "DEEP Robotics: „Новият пътен полицай“",
+     "en": "DEEP Robotics: The \"New Traffic Officer\""
+    }
+   },
+   "src": [
+    {
+     "n": "DEEP Robotics – Humanoid Robot Debuts in Xihu District, Exploring New Approaches to Smart Transportation (08.10.2026)",
+     "u": "https://www.financialcontent.com/article/accwirecq-2026-10-8-deep-robotics-humanoid-robot-debuts-in-xihu-district-exploring-new-approaches-to-smart-transportation"
+    },
+    {
+     "n": "TechRepublic – China Tests Humanoid Robots to Direct Traffic in Heavy Rain (09.10.2026)",
+     "u": "https://www.techrepublic.com/article/news-china-deep-robotics-humanoid-robots-traffic-control-apac/"
+    },
+    {
+     "n": "Interesting Engineering – Humanoid robots help manage traffic, spot violations and guide tourists (13.10.2026)",
+     "u": "https://interestingengineering.com/ai-robotics/humanoid-robots-manage-traffic"
+    },
+    {
+     "n": "DEEP Robotics – The \"New Traffic Officer\" (YouTube, 06.10.2026)",
+     "u": "https://www.youtube.com/watch?v=_14HvDleHYM"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-15/deep-robotics-dr02-verkehr-hangzhou-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Humanoide Roboter regeln den Verkehr in Hangzhou",
+     "bg": "Заглавна графика: хуманоидни роботи регулират движението в Ханджоу",
+     "en": "Title graphic: humanoid robots direct traffic in Hangzhou"
+    }
+   },
+   "de": {
+    "t": "Roboter als Verkehrshelfer: Humanoide regeln im Regen den Verkehr in Hangzhou",
+    "d": "Der chinesische Hersteller DEEP Robotics testet seinen Roboter DR02 an Kreuzungen und im Feuchtgebiet Xixi – er mahnt Radfahrer ohne Helm und hilft Touristen weiter.",
+    "body": [
+     "Im Stadtbezirk Xihu der ostchinesischen Metropole Hangzhou haben humanoide Roboter Anfang Oktober testweise Verkehrsdienst geleistet. Der Hersteller DEEP Robotics schickte eine nicht näher bezifferte Zahl seiner Modelle DR02 an Kreuzungen der Zheda Road und West Wenyi Road, an Ein- und Ausgänge von Ausflugsgebieten und in den Nationalen Feuchtgebietspark Xixi. Die Roboter gaben Handzeichen, wichen Fußgängern und Fahrzeugen selbstständig aus und arbeiteten auch bei Dauerregen.",
+     "Mit Kameras, Tiefensensoren und Lidar erkennen die rund 1,75 Meter großen Roboter nach Firmenangaben E-Bike-Fahrer ohne Helm, überladene Räder oder Fußgänger und Fahrzeuge jenseits der Haltelinie – und weisen per Sprachansage darauf hin, statt Bußgelder zu verhängen. Touristen beantworten sie Fragen zu Wegen und Verkehrsregeln in mehreren Sprachen. Das Gehäuse ist nach Schutzklasse IP66 gegen Staub und Strahlwasser geschützt.",
+     "Ein Mitarbeiter vor Ort sagte laut DEEP Robotics, weil viele wiederkehrende Hinweisaufgaben an den Roboter gingen, bleibe mehr Zeit für die Unfallaufnahme. Das Unternehmen spricht von einem Praxistest; Ergebnisse zu Erkennungsgenauigkeit, Einsatzdauer oder Verkehrsfluss hat es nicht veröffentlicht."
+    ]
+   },
+   "bg": {
+    "t": "Роботи регулировчици: хуманоиди управляват движението в дъжда в Ханджоу",
+    "d": "Китайският производител DEEP Robotics тества робота DR02 на кръстовища и във влажната зона Сиси – той напомня на колоездачи без каска и помага на туристи.",
+    "body": [
+     "В район Сиху на източнокитайския мегаполис Ханджоу хуманоидни роботи са поели в началото на октомври пробно пътна служба. Производителят DEEP Robotics изпрати неуточнен брой от моделите си DR02 на кръстовища на Zheda Road и West Wenyi Road, на входовете и изходите на туристически зони и в Националния парк за влажни зони Сиси. Роботите даваха знаци с ръце, сами заобикаляха пешеходци и превозни средства и работеха и при продължителен дъжд.",
+     "С камери, сензори за дълбочина и лидар роботите с ръст около 1,75 метра разпознават по данни на компанията водачи на електрически велосипеди без каска, претоварени велосипеди или пешеходци и превозни средства зад стоп линията – и предупреждават с гласово съобщение, вместо да налагат глоби. На туристи отговарят на въпроси за маршрути и правила за движение на няколко езика. Корпусът е защитен от прах и водни струи по клас IP66.",
+     "Служител на място е казал според DEEP Robotics, че тъй като много повтарящи се задачи с напомняния се поемат от робота, остава повече време за обработка на произшествия. Компанията говори за практически тест; резултати за точността на разпознаване, времето на работа или трафика тя не е публикувала."
+    ]
+   },
+   "en": {
+    "t": "Robots on point duty: humanoids direct traffic in the rain in Hangzhou",
+    "d": "Chinese maker DEEP Robotics is testing its DR02 robot at junctions and in Xixi wetland park – it warns cyclists without helmets and helps tourists.",
+    "body": [
+     "In the Xihu district of the eastern Chinese city of Hangzhou, humanoid robots took on traffic duty on a trial basis in early October. Manufacturer DEEP Robotics sent an undisclosed number of its DR02 models to junctions on Zheda Road and West Wenyi Road, to entrances and exits of scenic areas and to Xixi National Wetland Park. The robots gave hand signals, avoided pedestrians and vehicles on their own and kept working through persistent rain.",
+     "Using cameras, depth sensors and lidar, the roughly 1.75-metre-tall robots detect e-bike riders without helmets, overloaded bikes, and pedestrians or vehicles beyond the stop line, according to the company – and issue spoken reminders rather than fines. They answer tourists' questions about routes and traffic rules in several languages. The body is rated IP66 against dust and water jets.",
+     "An on-site staff member said, according to DEEP Robotics, that handing many repetitive advisory tasks to the robot leaves more time for dealing with accidents. The company describes the deployment as a field test and has not published results on detection accuracy, uptime or traffic flow."
+    ]
+   }
+  },
+  {
+   "id": "openai-acht-bundesstaaten-klage",
+   "s": "ai",
+   "time": "12:38",
+   "mn": true,
+   "kick": {
+    "de": "Regulierung",
+    "bg": "Регулация",
+    "en": "Regulation"
+   },
+   "src": [
+    {
+     "n": "SRN News / Reuters – Eight US states sue OpenAI, claiming ChatGPT harms young users (14.10.2026)",
+     "u": "https://srnnews.com/eight-us-states-sue-openai-claiming-chatgpt-harms-children/"
+    },
+    {
+     "n": "The Eastern Herald – Eight States Sue OpenAI, Saying ChatGPT Was Rushed Despite Harm to Kids (15.10.2026)",
+     "u": "https://easternherald.com/2026/10/15/eight-states-sue-openai-chatgpt-children-consumer-protection/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-15/openai-acht-bundesstaaten-klage.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "WilliamJHendrixKS",
+    "lic": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kris_Kobach_official_portrait,_2024.jpg",
+    "alt": {
+     "de": "Archivbild: Kansas' Generalstaatsanwalt Kris Kobach, offizielles Porträt von 2024",
+     "bg": "Архивна снимка: главният прокурор на Канзас Крис Кобах, официален портрет от 2024 г.",
+     "en": "Archive photo: Kansas Attorney General Kris Kobach, official portrait from 2024"
+    }
+   },
+   "de": {
+    "t": "Acht US-Bundesstaaten verklagen OpenAI wegen Risiken von ChatGPT für Jugendliche",
+    "d": "Iowa, Kansas, Arizona und fünf weitere Staaten werfen dem Konzern vor, über die Sicherheit des Chatbots getäuscht zu haben. OpenAI verweist auf seinen Altersschutz.",
+    "body": [
+     "Die Generalstaatsanwälte von Arizona, Arkansas, Idaho, Iowa, Kansas, Montana, Nebraska und West Virginia haben am Mittwoch jeweils vor Gerichten ihrer Bundesstaaten Klage gegen OpenAI eingereicht. Sie werfen dem Unternehmen vor, ChatGPT so gestaltet zu haben, dass der Chatbot Nutzern nach dem Mund rede, Wahnvorstellungen bestärke und auch Jugendliche zu gefährlichem Verhalten ermutige. Damit verstoße OpenAI gegen Verbraucherschutzgesetze und gefährde die öffentliche Gesundheit.",
+     "Die Staaten fordern gerichtlich angeordnete Änderungen an ChatGPT, Geldstrafen und Schadenersatz – und ein Verbot, KI-Modelle zu entwickeln, die sich selbst verbessern können, solange OpenAI nicht sicherstellt, dass sie menschlichen Werten folgen. Iowas Generalstaatsanwältin Brenna Bird sagte, OpenAI habe als Erster auf dem Markt sein wollen. Ihr Kollege Kris Kobach aus Kansas betonte, Staaten schlössen sich für eine Klage gewöhnlich nur zusammen, wenn es „wirklich, wirklich wichtig“ sei.",
+     "Ein OpenAI-Sprecher erklärte, das Unternehmen habe branchenführende altersspezifische Schutzfunktionen in sein Produkt eingebaut, die vielen anderen KI-Produkten fehlten. Florida hatte im Juni als erster Bundesstaat eine ähnliche Klage eingereicht; zudem ist OpenAI mit zahlreichen privaten Klagen konfrontiert. Über die Vorwürfe haben die Gerichte noch nicht entschieden."
+    ]
+   },
+   "bg": {
+    "t": "Осем щата в САЩ съдят OpenAI заради рисковете на ChatGPT за младежи",
+    "d": "Айова, Канзас, Аризона и още пет щата обвиняват компанията, че е заблуждавала за безопасността на чатбота. OpenAI посочва защитата си за възрастта.",
+    "body": [
+     "Главните прокурори на Аризона, Арканзас, Айдахо, Айова, Канзас, Монтана, Небраска и Западна Вирджиния подадоха в сряда искове срещу OpenAI, всеки пред съдилищата на своя щат. Те обвиняват компанията, че е проектирала ChatGPT така, че чатботът да угажда на потребителите, да подсилва заблуди и да насърчава и младежи към опасно поведение. С това OpenAI нарушавала законите за защита на потребителите и застрашавала общественото здраве.",
+     "Щатите искат съдебно разпоредени промени в ChatGPT, глоби и обезщетения – и забрана за разработване на ИИ модели, които могат сами да се подобряват, докато OpenAI не гарантира, че те следват човешките ценности. Главният прокурор на Айова Брена Бърд заяви, че OpenAI е искала да бъде първа на пазара. Колегата ѝ Крис Кобах от Канзас подчерта, че щатите обикновено се обединяват за иск само когато е „наистина, наистина важно“.",
+     "Говорител на OpenAI заяви, че компанията е вградила в продукта си водещи в бранша защитни функции според възрастта, каквито много други ИИ продукти нямат. Флорида заведе подобен иск като първи щат през юни; освен това OpenAI е изправена пред множество частни искове. Съдилищата все още не са се произнесли по обвиненията."
+    ]
+   },
+   "en": {
+    "t": "Eight US states sue OpenAI over risks ChatGPT poses to young people",
+    "d": "Iowa, Kansas, Arizona and five other states accuse the company of misleading users about the chatbot's safety. OpenAI points to its age protections.",
+    "body": [
+     "The attorneys general of Arizona, Arkansas, Idaho, Iowa, Kansas, Montana, Nebraska and West Virginia each filed suit against OpenAI in their states' courts on Wednesday. They accuse the company of designing ChatGPT to tell users what they want to hear, reinforce delusions and encourage dangerous behaviour, including among teenagers. In doing so, they argue, OpenAI violated consumer protection laws and endangered public health.",
+     "The states are seeking court-ordered changes to ChatGPT, penalties and damages – as well as a ban on developing AI models that can improve themselves unless OpenAI can ensure they are aligned with human values. Iowa Attorney General Brenna Bird said OpenAI had wanted to be first to market. Her Kansas counterpart Kris Kobach stressed that states do not usually join together to announce a lawsuit \"unless it's really, really important\".",
+     "An OpenAI spokesperson said the company has \"built industry-leading age-specific protections into our product that many other AI products lack\". Florida filed the first such state lawsuit in June, and OpenAI also faces numerous private lawsuits. The courts have not yet ruled on the allegations."
+    ]
+   }
+  },
+  {
+   "id": "xbow-chrome-exploit-gpt-56-sol",
+   "s": "ai",
+   "time": "12:38",
+   "mn": true,
+   "kick": {
+    "de": "Sicherheit",
+    "bg": "Сигурност",
+    "en": "Security"
+   },
+   "src": [
+    {
+     "n": "XBOW – XBOW Built a Chrome Full-Chain Exploit Affecting a Billion Users in Six Days (13.10.2026)",
+     "u": "https://xbow.com/blog/xbow-built-a-chrome-full-chain-exploit"
+    },
+    {
+     "n": "RuntimeWire – XBOW earns Google's $250,000 bounty with a six-day Chrome exploit (13.10.2026)",
+     "u": "https://runtimewire.com/article/xbow-six-day-chrome-exploit-google-bounty"
+    },
+    {
+     "n": "explainx.ai – XBOW Chrome full-chain exploit, $250,000 bounty, GPT-5.6 Sol (13.10.2026)",
+     "u": "https://explainx.ai/blog/xbow-chrome-full-chain-exploit-250000-bounty-gpt-5-6-sol-2026"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-15/xbow-chrome-exploit-gpt-56-sol-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: KI-gestützter Angriff auf Chrome bringt 250.000 Dollar Prämie",
+     "bg": "Заглавна графика: атака срещу Chrome с помощта на ИИ носи награда от 250 000 долара",
+     "en": "Title graphic: AI-assisted Chrome exploit earns 250,000-dollar bounty"
+    }
+   },
+   "de": {
+    "t": "Sechs Tage mit GPT-5.6 Sol: Firma knackt Chrome und erhält 250.000 Dollar von Google",
+    "d": "Das Sicherheits-Start-up XBOW hat mit KI-Agenten eine Angriffskette gegen Chrome unter Windows gebaut. Google hat alle drei Lücken inzwischen geschlossen.",
+    "body": [
+     "Das Sicherheitsunternehmen XBOW hat am Dienstag öffentlich gemacht, dass es mithilfe von KI eine vollständige Angriffskette gegen Googles Browser Chrome unter Windows gebaut hat. Schon der Aufruf einer präparierten Webseite hätte genügt, um Code außerhalb der Sandbox des Browsers auszuführen. Die Kette verband drei Fehler – in der JavaScript-Engine V8, im Decoder für animierte WebP-Bilder und im Absturzmelder Crashpad. Google zahlte über sein Prämienprogramm 250.000 Dollar; alle drei Lücken sind laut XBOW geschlossen.",
+     "Gebaut wurde die Kette vom 2. bis 7. August, während das Team in Las Vegas bei den Hackerkonferenzen Black Hat und DEF CON war. Eingesetzt wurde das öffentlich verfügbare Modell GPT-5.6 Sol von OpenAI samt Vorgängern, die Rechenkosten lagen bei rund 40.000 Dollar. Vier Forscher legten die Strategie fest, wählten aus, wo die KI-Agenten suchten, und prüften die Ergebnisse; die Agenten durchsuchten den Chrome-Quellcode, testeten Ideen und schrieben erste Entwürfe der Angriffe.",
+     "XBOW schätzt, dass vor den Korrekturen rund eine Milliarde Nutzer betroffen waren, und erwartet, dass KI-Agenten jeden der drei Fehler binnen eines Jahres allein finden könnten. Eine eigene Stellungnahme von Google lag nicht vor. Nutzer sollten Chrome aktuell halten und den Browser nach Updates neu starten."
+    ]
+   },
+   "bg": {
+    "t": "Шест дни с GPT-5.6 Sol: фирма пробива Chrome и получава 250 000 долара от Google",
+    "d": "Стартъпът за сигурност XBOW създаде с ИИ агенти верига от атаки срещу Chrome под Windows. Google вече е затворила и трите пробива.",
+    "body": [
+     "Компанията за киберсигурност XBOW обяви във вторник, че с помощта на ИИ е създала пълна верига от атаки срещу браузъра Chrome на Google под Windows. Достатъчно би било само отварянето на подготвена уебстраница, за да се изпълни код извън пясъчника на браузъра. Веригата свързва три грешки – в JavaScript машината V8, в декодера за анимирани WebP изображения и в модула за доклади при сривове Crashpad. Google плати чрез програмата си за награди 250 000 долара; според XBOW и трите пробива са затворени.",
+     "Веригата е изградена от 2 до 7 август, докато екипът е бил в Лас Вегас за хакерските конференции Black Hat и DEF CON. Използван е публично достъпният модел GPT-5.6 Sol на OpenAI и предшествениците му, а изчислителните разходи са около 40 000 долара. Четирима изследователи определяли стратегията, избирали къде да търсят ИИ агентите и проверявали резултатите; агентите претърсвали изходния код на Chrome, тествали идеи и писали първи чернови на атаките.",
+     "XBOW смята, че преди поправките са били засегнати около един милиард потребители, и очаква ИИ агентите да могат сами да открият всяка от трите грешки в рамките на година. Собствено становище на Google нямаше. Потребителите трябва да поддържат Chrome актуален и да рестартират браузъра след обновления."
+    ]
+   },
+   "en": {
+    "t": "Six days with GPT-5.6 Sol: firm cracks Chrome and earns 250,000 dollars from Google",
+    "d": "Security start-up XBOW used AI agents to build an attack chain against Chrome on Windows. Google has since fixed all three flaws.",
+    "body": [
+     "Security company XBOW disclosed on Tuesday that it used AI to build a full attack chain against Google's Chrome browser on Windows. Simply opening a booby-trapped web page would have been enough to run code outside the browser's sandbox. The chain linked three bugs – in the V8 JavaScript engine, the decoder for animated WebP images and the Crashpad crash reporter. Google paid 250,000 dollars through its reward programme; according to XBOW, all three flaws have been fixed.",
+     "The chain was built from 2 to 7 August while the team was in Las Vegas for the Black Hat and DEF CON hacker conferences. It used OpenAI's publicly available GPT-5.6 Sol model and its predecessors, with compute costs of around 40,000 dollars. Four researchers set the strategy, chose where the AI agents searched and checked their results; the agents combed through Chrome's source code, tested ideas and wrote early drafts of the exploits.",
+     "XBOW estimates that around one billion users were exposed before the fixes and expects AI agents to be able to find each of the three bugs on their own within a year. Google's own statement was not available. Users should keep Chrome up to date and restart the browser after updates."
+    ]
+   }
+  },
+  {
+   "id": "anthropic-singapur-buero-abkommen",
+   "s": "ai",
+   "time": "12:38",
+   "mn": true,
+   "kick": {
+    "de": "Politik",
+    "bg": "Политика",
+    "en": "Policy"
+   },
+   "src": [
+    {
+     "n": "Anthropic – Anthropic opens Singapore office and signs MOU with the Government of Singapore (14.10.2026)",
+     "u": "https://www.anthropic.com/news/singapore-office-opening"
+    },
+    {
+     "n": "Fortune – At Singapore launch, Anthropic defends its oversight of how customers use its model (15.10.2026)",
+     "u": "https://fortune.com/2026/10/15/anthropic-dual-use-ai-defends-oversight-singapore/"
+    },
+    {
+     "n": "Google DeepMind – Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection (14.10.2026)",
+     "u": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-15/anthropic-singapur-buero-abkommen.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Ministry of Communications and Information, Singapore",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Josephine_Teo_at_AsiaTech_X_Artificial_Intelligence_(ATxAI),_Capella_Singapore,_31_May_2024.jpg",
+    "alt": {
+     "de": "Archivbild: Singapurs Digitalministerin Josephine Teo im Mai 2024 auf der Konferenz ATxAI",
+     "bg": "Архивна снимка: министърката на дигиталното развитие на Сингапур Жозефин Тео през май 2024 г. на конференцията ATxAI",
+     "en": "Archive photo: Singapore's digital development minister Josephine Teo at the ATxAI conference in May 2024"
+    }
+   },
+   "de": {
+    "t": "Anthropic eröffnet Büro in Singapur und vereinbart KI-Sicherheitskooperation",
+    "d": "Der Claude-Entwickler will mit dem Stadtstaat bei Modelltests und KI-Sicherheit zusammenarbeiten. Gemessen an der Bevölkerung nutzt kaum ein Land Claude so stark.",
+    "body": [
+     "Anthropic hat am Mittwoch in Singapur sein fünftes Büro im asiatisch-pazifischen Raum eröffnet und mit dem Ministerium für digitale Entwicklung und Information eine Absichtserklärung unterzeichnet. Unterschrieben haben Staatssekretär Chng Kai Fong und Anthropic-Mitgründer Ben Mann am Rande der Singapore International Cyber Week, im Beisein von Ministerin Josephine Teo. Vereinbart ist eine Zusammenarbeit bei KI-Sicherheit, der Bewertung von Modellen, Teststandards und dem Umgang mit Vorfällen sowie bei der Unterstützung von Mittelständlern bei der KI-Einführung und beim Aufbau von KI-Kompetenz unter Beamten.",
+     "Singapur liegt laut Anthropics Wirtschaftsindex bei der Nutzung von Claude.ai im Verhältnis zur Bevölkerung auf Platz zwei von 121 Ländern. Mehr als 1.500 Ingenieure der Behörde GovTech nutzen Claude Code, zu den Kunden zählen auch die Bank DBS, der Staatsfonds GIC und der Fahrdienst Grab. Mann verteidigte laut „Fortune“, dass Anthropic die Nutzung seiner stärksten Modelle weiter überwacht, und verwies auf deren doppelten Verwendungszweck: Bei offen veröffentlichten Modellgewichten gebe es keine Schutzmechanismen, die einer Veröffentlichung der Gewichte wirklich standhielten.",
+     "Auch Google DeepMind stellte auf der Cyber Week ein Projekt mit Singapurs Regierung vor: ein kleines, auf lokale Betrugsmaschen trainiertes Gemma-Modell, das direkt auf dem Smartphone verdächtige Nachrichten erkennen soll. Betrug macht nach Angaben der Partner mehr als die Hälfte der in Singapur gemeldeten Straftaten aus; die Schäden summieren sich seit 2019 auf über vier Milliarden Singapur-Dollar."
+    ]
+   },
+   "bg": {
+    "t": "Anthropic открива офис в Сингапур и договаря сътрудничество за сигурност на ИИ",
+    "d": "Създателят на Claude ще работи с града държава по тестване на модели и сигурност на ИИ. Спрямо населението едва ли друга страна използва Claude толкова много.",
+    "body": [
+     "Anthropic откри в сряда в Сингапур петия си офис в Азиатско-Тихоокеанския регион и подписа с Министерството на дигиталното развитие и информацията меморандум за разбирателство. Подписаха постоянният секретар Чнг Кай Фонг и съоснователят на Anthropic Бен Ман в кулоарите на Singapore International Cyber Week в присъствието на министърката Жозефин Тео. Договорено е сътрудничество по сигурността на ИИ, оценката на модели, стандартите за тестване и реакцията при инциденти, както и по подкрепа за малките и средните предприятия при въвеждането на ИИ и по изграждане на ИИ компетентност сред държавните служители.",
+     "Според икономическия индекс на Anthropic Сингапур е на второ място от 121 държави по използване на Claude.ai спрямо населението. Над 1500 инженери от агенцията GovTech използват Claude Code, сред клиентите са и банката DBS, държавният фонд GIC и услугата за превоз Grab. Според „Fortune“ Ман защити това, че Anthropic продължава да наблюдава използването на най-мощните си модели, и посочи двойното им предназначение: при публично пуснати тегла на модели няма защитни механизми, които наистина да издържат на публикуването на теглата.",
+     "Google DeepMind също представи на Cyber Week проект с правителството на Сингапур: малък модел Gemma, обучен на местни измамни схеми, който да разпознава подозрителни съобщения директно на смартфона. Според партньорите измамите са над половината от регистрираните престъпления в Сингапур; щетите от 2019 г. насам надхвърлят четири милиарда сингапурски долара."
+    ]
+   },
+   "en": {
+    "t": "Anthropic opens Singapore office and agrees AI safety cooperation",
+    "d": "The Claude developer will work with the city-state on model testing and AI safety. Relative to its population, hardly any country uses Claude as heavily.",
+    "body": [
+     "Anthropic opened its fifth Asia-Pacific office in Singapore on Wednesday and signed a memorandum of understanding with the Ministry of Digital Development and Information. Permanent Secretary Chng Kai Fong and Anthropic co-founder Ben Mann signed it on the sidelines of Singapore International Cyber Week, witnessed by Minister Josephine Teo. The agreement covers cooperation on AI safety, model evaluation, testing standards and incident response, as well as helping small and medium-sized businesses adopt AI and building AI capability among public officers.",
+     "According to Anthropic's Economic Index, Singapore ranks second of 121 countries for Claude.ai usage relative to population. More than 1,500 engineers at the GovTech agency use Claude Code, and customers also include bank DBS, sovereign fund GIC and ride-hailing firm Grab. According to Fortune, Mann defended Anthropic's continued oversight of how its most powerful models are used, citing their dual-use nature: \"It's a technical fact that when you release open-weight models, there are no safeguards that are actually resilient to being open-weight.\"",
+     "Google DeepMind also presented a project with Singapore's government at Cyber Week: a small Gemma model trained on local scam patterns that is meant to detect suspicious messages directly on smartphones. According to the partners, scams account for more than half of the crimes reported in Singapore, with losses exceeding four billion Singapore dollars since 2019."
+    ]
+   }
+  }
+ ]
+}
