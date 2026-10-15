@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""TERRA WORLD NEWS – Champions League / Europa League (seit 15.10.2026, Nedys Vorgabe).
+"""TERRA WORLD NEWS – Champions League / Europa League / Conference League (seit 15.10.2026, Nedys Vorgabe).
 Quelle: offizielle UEFA-Daten (match.uefa.com / standings.uefa.com), aus dem Container nur über die Download-Brücke erreichbar.
-Brücke (bridge/ucl/requests.txt), je Wettbewerb c (1 = Champions League, 14 = Europa League):
-  https://match.uefa.com/v5/matches?competitionId=<c>&seasonYear=2027&order=ASC&offset=<0|100|200|300>&limit=100 m_<c>_<offset>.json
+Brücke (bridge/ucl/requests.txt), je Wettbewerb c (1 = Champions League, 14 = Europa League, 2019 = Conference League):
+  https://match.uefa.com/v5/matches?competitionId=<c>&seasonYear=2027&order=ASC&offset=<0|100|200|300|400>&limit=100 m_<c>_<offset>.json
   https://standings.uefa.com/v1/standings?competitionId=<c>&seasonYear=2027 st_<c>.json
 Usage: python3 -I tools/uefa_import.py bridge/ucl/files [--season-year 2027]
 Schreibt content/football/champions-league.json und europa-league.json im Format der Liga-Dateien
@@ -14,7 +14,9 @@ HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 COMPS = [  # key, competitionId, API-Football-ID (Live), Name
     ('champions-league', '1', {'bg': 'Шампионска лига', 'de': 'Champions League', 'en': 'Champions League'}),
     ('europa-league', '14', {'bg': 'Лига Европа', 'de': 'Europa League', 'en': 'Europa League'}),
+    ('conference-league', '2019', {'bg': 'Лига на конференциите', 'de': 'Conference League', 'en': 'Conference League'}),   # seit 15.10.2026
 ]
+UEFA_PATH = {'1': 'uefachampionsleague', '14': 'uefaeuropaleague', '2019': 'uefaconferenceleague'}
 ROUNDS = {  # UEFA-Rundenname -> Anzeige (Reihenfolge = Reihenfolge auf der Seite)
     'First qualifying round': {'bg': 'Първи квалификационен кръг', 'de': '1. Qualifikationsrunde', 'en': 'First qualifying round'},
     'Second qualifying round': {'bg': 'Втори квалификационен кръг', 'de': '2. Qualifikationsrunde', 'en': 'Second qualifying round'},
@@ -95,7 +97,7 @@ def main():
         if quali: cups.append({'key': 'quali', 'name': {'bg': 'Квалификации', 'de': 'Qualifikation', 'en': 'Qualifying'}, 'rounds': quali})
         out = {'key': key, 'code': f'uefa.{cid}', 'season': season, 'name': name, 'tz': 'Europe/Berlin', 'uefa': True,
                'matches': league, 'table': table, 'cups': cups,
-               'src': [{'n': 'UEFA', 'u': f'https://www.uefa.com/{"uefachampionsleague" if cid == "1" else "uefaeuropaleague"}/'}],
+               'src': [{'n': 'UEFA', 'u': f'https://www.uefa.com/{UEFA_PATH[cid]}/'}],
                'asof': datetime.datetime.now(BERLIN).date().isoformat()}
         fp = os.path.join(HERE, 'content', 'football', f'{key}.json')
         json.dump(out, open(fp, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)

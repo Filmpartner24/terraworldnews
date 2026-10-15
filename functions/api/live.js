@@ -7,7 +7,7 @@
 
 const API = 'https://v3.football.api-sports.io';
 // Liga-IDs bei API-Football: Vereinsfußball (Fußball-Seite) und Nationalteams (Länderspiele-Seite)
-const CLUB = [78, 79, 81, 39, 140, 135, 61, 172, 2, 3];     // BL, 2. BL, DFB-Pokal, PL, La Liga, Serie A, Ligue 1, Parwa Liga, CL, EL
+const CLUB = [78, 79, 81, 39, 140, 135, 61, 172, 2, 3, 848];     // BL, 2. BL, DFB-Pokal, PL, La Liga, Serie A, Ligue 1, Parwa Liga, CL, EL, Conference League
 const NAT = [5, 10, 32, 960, 4, 1];                        // Nations League, Freundschaftsspiele, WM-Quali Europa, EM-Quali, EM, WM
 const ALL = new Set([...CLUB, ...NAT]);
 const LIVE = new Set(['1H', 'HT', '2H', 'ET', 'BT', 'P', 'SUSP', 'INT', 'LIVE']);
