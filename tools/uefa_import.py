@@ -85,6 +85,23 @@ def main():
             for it in sorted((grp or {}).get('items', []), key=lambda i: i['rank']):
                 table.append({'pos': it['rank'], 'team': team(it['team']), 'p': it['played'], 'w': it['won'], 'd': it['drawn'], 'l': it['lost'],
                               'gf': it['goalsFor'], 'ga': it['goalsAgainst'], 'pts': it['points']})
+        # Abgleich: Die UEFA-Tabelle kommt teils verzögert (CDN-Cache). Passt sie nicht zu den Ergebnissen, Tabelle selbst berechnen
+        # (Reihenfolge nach UEFA-Regeln der Ligaphase: Punkte, Tordifferenz, Tore, Auswärtstore, Siege, Auswärtssiege).
+        calc = {}
+        for m in league:
+            for x in (m['t1'], m['t2']): calc.setdefault(x, {'team': x, 'p': 0, 'w': 0, 'd': 0, 'l': 0, 'gf': 0, 'ga': 0, 'pts': 0, 'agf': 0, 'aw': 0})
+            if m['ft'] is None: continue
+            a, b = m['ft']
+            for t, gf, ga, away in ((m['t1'], a, b, False), (m['t2'], b, a, True)):
+                r = calc[t]; r['p'] += 1; r['gf'] += gf; r['ga'] += ga
+                if away: r['agf'] += gf
+                if gf > ga: r['w'] += 1; r['pts'] += 3; r['aw'] += 1 if away else 0
+                elif gf == ga: r['d'] += 1; r['pts'] += 1
+                else: r['l'] += 1
+        if table and any((calc.get(x['team']) or {}).get('p') != x['p'] or calc[x['team']]['gf'] != x['gf'] or calc[x['team']]['ga'] != x['ga'] for x in table):
+            print(key, 'UEFA-Tabelle noch nicht aktuell – Tabelle aus den Ergebnissen berechnet')
+            srt = sorted(calc.values(), key=lambda r: (-r['pts'], -(r['gf'] - r['ga']), -r['gf'], -r['agf'], -r['w'], -r['aw'], r['team']))
+            table = [{'pos': i + 1, **{k: r[k] for k in ('team', 'p', 'w', 'd', 'l', 'gf', 'ga', 'pts')}} for i, r in enumerate(srt)]
         rounds = []
         for rn, lab in ROUNDS.items():
             if rn in ko:
