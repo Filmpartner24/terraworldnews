@@ -1111,3 +1111,5 @@ footer a.g-pref{font-weight:700}
 .rv-fz{margin-top:16px;padding-top:14px;border-top:1px solid #2a2445}.rv-fz h3{color:var(--gy)}.rv-fz p{margin:0;font-size:16px;line-height:1.5}
 .rv-note{margin:12px 0 0;font-size:12px;color:#8f89ad}
 @media (max-width:560px){.rv-pc{grid-template-columns:1fr}.rv-top{align-items:flex-start}.rv-ring{width:76px;height:76px}.rv-ring b{font-size:28px}}
+
+.lv-empty{margin:6px 0 2px;color:#93c5fd;font-size:14px}
