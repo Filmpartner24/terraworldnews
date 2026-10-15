@@ -299,7 +299,10 @@
   {
    "date": "2026-10-15",
    "time": "21:00",
-   "ft": null,
+   "ft": [
+    4,
+    1
+   ],
    "r": 2,
    "t1": "SL Benfica",
    "t2": "Celtic FC"
@@ -307,7 +310,10 @@
   {
    "date": "2026-10-15",
    "time": "21:00",
-   "ft": null,
+   "ft": [
+    0,
+    1
+   ],
    "r": 2,
    "t1": "Olympique de Marseille",
    "t2": "Olympiacos FC"
@@ -315,7 +321,10 @@
   {
    "date": "2026-10-15",
    "time": "21:00",
-   "ft": null,
+   "ft": [
+    2,
+    1
+   ],
    "r": 2,
    "t1": "Ferencvárosi TC",
    "t2": "FC Viktoria Plzeň"
@@ -323,7 +332,10 @@
   {
    "date": "2026-10-15",
    "time": "21:00",
-   "ft": null,
+   "ft": [
+    1,
+    0
+   ],
    "r": 2,
    "t1": "GNK Dinamo",
    "t2": "RSC Anderlecht"
@@ -331,7 +343,10 @@
   {
    "date": "2026-10-15",
    "time": "21:00",
-   "ft": null,
+   "ft": [
+    2,
+    1
+   ],
    "r": 2,
    "t1": "Stade Rennais FC",
    "t2": "OFI Crete FC"
@@ -339,7 +354,10 @@
   {
    "date": "2026-10-15",
    "time": "21:00",
-   "ft": null,
+   "ft": [
+    3,
+    0
+   ],
    "r": 2,
    "t1": "AFC Bournemouth",
    "t2": "SK Sturm Graz"
@@ -347,7 +365,10 @@
   {
    "date": "2026-10-15",
    "time": "21:00",
-   "ft": null,
+   "ft": [
+    3,
+    1
+   ],
    "r": 2,
    "t1": "Jagiellonia Białystok",
    "t2": "FC Ararat-Armenia"
@@ -355,7 +376,10 @@
   {
    "date": "2026-10-15",
    "time": "21:00",
-   "ft": null,
+   "ft": [
+    1,
+    2
+   ],
    "r": 2,
    "t1": "Real Club Celta",
    "t2": "Juventus"
@@ -363,7 +387,10 @@
   {
    "date": "2026-10-15",
    "time": "21:00",
-   "ft": null,
+   "ft": [
+    2,
+    3
+   ],
    "r": 2,
    "t1": "TSG 1899 Hoffenheim",
    "t2": "Beşiktaş JK"
@@ -371,7 +398,10 @@
   {
    "date": "2026-10-15",
    "time": "21:00",
-   "ft": null,
+   "ft": [
+    1,
+    1
+   ],
    "r": 2,
    "t1": "N.E.C. Nijmegen",
    "t2": "PFC Levski Sofia"
@@ -1244,6 +1274,17 @@
  "table": [
   {
    "pos": 1,
+   "team": "Juventus",
+   "p": 2,
+   "w": 2,
+   "d": 0,
+   "l": 0,
+   "gf": 7,
+   "ga": 1,
+   "pts": 6
+  },
+  {
+   "pos": 2,
    "team": "Bayer 04 Leverkusen",
    "p": 2,
    "w": 2,
@@ -1254,18 +1295,40 @@
    "pts": 6
   },
   {
-   "pos": 2,
+   "pos": 3,
    "team": "SL Benfica",
    "p": 2,
    "w": 2,
    "d": 0,
    "l": 0,
-   "gf": 5,
-   "ga": 0,
+   "gf": 6,
+   "ga": 1,
    "pts": 6
   },
   {
-   "pos": 3,
+   "pos": 4,
+   "team": "Beşiktaş JK",
+   "p": 2,
+   "w": 2,
+   "d": 0,
+   "l": 0,
+   "gf": 7,
+   "ga": 3,
+   "pts": 6
+  },
+  {
+   "pos": 5,
+   "team": "AFC Bournemouth",
+   "p": 2,
+   "w": 2,
+   "d": 0,
+   "l": 0,
+   "gf": 5,
+   "ga": 1,
+   "pts": 6
+  },
+  {
+   "pos": 6,
    "team": "Omonia FC",
    "p": 2,
    "w": 2,
@@ -1276,18 +1339,18 @@
    "pts": 6
   },
   {
-   "pos": 4,
-   "team": "OFI Crete FC",
+   "pos": 7,
+   "team": "Ferencvárosi TC",
    "p": 2,
    "w": 2,
    "d": 0,
    "l": 0,
-   "gf": 3,
-   "ga": 0,
+   "gf": 5,
+   "ga": 2,
    "pts": 6
   },
   {
-   "pos": 5,
+   "pos": 8,
    "team": "Olympique Lyonnais",
    "p": 2,
    "w": 2,
@@ -1298,18 +1361,7 @@
    "pts": 6
   },
   {
-   "pos": 6,
-   "team": "AFC Bournemouth",
-   "p": 2,
-   "w": 2,
-   "d": 0,
-   "l": 0,
-   "gf": 3,
-   "ga": 1,
-   "pts": 6
-  },
-  {
-   "pos": 6,
+   "pos": 9,
    "team": "Sunderland AFC",
    "p": 2,
    "w": 2,
@@ -1320,7 +1372,7 @@
    "pts": 6
   },
   {
-   "pos": 8,
+   "pos": 10,
    "team": "Olympiacos FC",
    "p": 2,
    "w": 2,
@@ -1331,7 +1383,7 @@
    "pts": 6
   },
   {
-   "pos": 9,
+   "pos": 11,
    "team": "AC Sparta Praha",
    "p": 2,
    "w": 1,
@@ -1342,7 +1394,7 @@
    "pts": 4
   },
   {
-   "pos": 10,
+   "pos": 12,
    "team": "R. Union Saint-Gilloise",
    "p": 2,
    "w": 1,
@@ -1353,37 +1405,15 @@
    "pts": 4
   },
   {
-   "pos": 11,
-   "team": "Beşiktaş JK",
-   "p": 2,
-   "w": 1,
-   "d": 1,
-   "l": 0,
-   "gf": 4,
-   "ga": 1,
-   "pts": 4
-  },
-  {
-   "pos": 12,
-   "team": "Ferencvárosi TC",
-   "p": 2,
-   "w": 1,
-   "d": 1,
-   "l": 0,
-   "gf": 3,
-   "ga": 1,
-   "pts": 4
-  },
-  {
    "pos": 13,
-   "team": "Juventus",
+   "team": "Stade Rennais FC",
    "p": 2,
    "w": 1,
-   "d": 0,
-   "l": 1,
-   "gf": 5,
+   "d": 1,
+   "l": 0,
+   "gf": 2,
    "ga": 1,
-   "pts": 3
+   "pts": 4
   },
   {
    "pos": 14,
@@ -1409,6 +1439,28 @@
   },
   {
    "pos": 16,
+   "team": "Jagiellonia Białystok",
+   "p": 2,
+   "w": 1,
+   "d": 0,
+   "l": 1,
+   "gf": 4,
+   "ga": 3,
+   "pts": 3
+  },
+  {
+   "pos": 17,
+   "team": "OFI Crete FC",
+   "p": 2,
+   "w": 1,
+   "d": 0,
+   "l": 1,
+   "gf": 3,
+   "ga": 2,
+   "pts": 3
+  },
+  {
+   "pos": 18,
    "team": "SCU Torreense",
    "p": 2,
    "w": 1,
@@ -1419,18 +1471,7 @@
    "pts": 3
   },
   {
-   "pos": 17,
-   "team": "Jagiellonia Białystok",
-   "p": 2,
-   "w": 1,
-   "d": 0,
-   "l": 1,
-   "gf": 3,
-   "ga": 3,
-   "pts": 3
-  },
-  {
-   "pos": 18,
+   "pos": 19,
    "team": "AZ Alkmaar",
    "p": 2,
    "w": 1,
@@ -1441,29 +1482,7 @@
    "pts": 3
   },
   {
-   "pos": 19,
-   "team": "PFC Levski Sofia",
-   "p": 2,
-   "w": 1,
-   "d": 0,
-   "l": 1,
-   "gf": 1,
-   "ga": 1,
-   "pts": 3
-  },
-  {
    "pos": 20,
-   "team": "Real Club Celta",
-   "p": 2,
-   "w": 1,
-   "d": 0,
-   "l": 1,
-   "gf": 1,
-   "ga": 1,
-   "pts": 3
-  },
-  {
-   "pos": 21,
    "team": "FC Salzburg",
    "p": 2,
    "w": 1,
@@ -1474,7 +1493,7 @@
    "pts": 3
   },
   {
-   "pos": 22,
+   "pos": 21,
    "team": "GNK Dinamo",
    "p": 2,
    "w": 0,
@@ -1485,7 +1504,7 @@
    "pts": 2
   },
   {
-   "pos": 23,
+   "pos": 22,
    "team": "Lillestrøm SK",
    "p": 2,
    "w": 0,
@@ -1496,7 +1515,7 @@
    "pts": 1
   },
   {
-   "pos": 23,
+   "pos": 22,
    "team": "Real Sociedad de Fútbol",
    "p": 2,
    "w": 0,
@@ -1507,8 +1526,19 @@
    "pts": 1
   },
   {
-   "pos": 25,
+   "pos": 24,
    "team": "Hapoel Beer-Sheva FC",
+   "p": 2,
+   "w": 0,
+   "d": 1,
+   "l": 1,
+   "gf": 1,
+   "ga": 2,
+   "pts": 1
+  },
+  {
+   "pos": 24,
+   "team": "PFC Levski Sofia",
    "p": 2,
    "w": 0,
    "d": 1,
@@ -1530,40 +1560,7 @@
   },
   {
    "pos": 27,
-   "team": "Stade Rennais FC",
-   "p": 2,
-   "w": 0,
-   "d": 1,
-   "l": 1,
-   "gf": 0,
-   "ga": 1,
-   "pts": 1
-  },
-  {
-   "pos": 27,
    "team": "SK Sturm Graz",
-   "p": 2,
-   "w": 0,
-   "d": 1,
-   "l": 1,
-   "gf": 0,
-   "ga": 1,
-   "pts": 1
-  },
-  {
-   "pos": 29,
-   "team": "TSG 1899 Hoffenheim",
-   "p": 2,
-   "w": 0,
-   "d": 1,
-   "l": 1,
-   "gf": 0,
-   "ga": 2,
-   "pts": 1
-  },
-  {
-   "pos": 30,
-   "team": "FC Viktoria Plzeň",
    "p": 2,
    "w": 0,
    "d": 1,
@@ -1573,18 +1570,40 @@
    "pts": 1
   },
   {
-   "pos": 31,
-   "team": "FC Ararat-Armenia",
+   "pos": 28,
+   "team": "N.E.C. Nijmegen",
+   "p": 2,
+   "w": 0,
+   "d": 1,
+   "l": 1,
+   "gf": 1,
+   "ga": 6,
+   "pts": 1
+  },
+  {
+   "pos": 29,
+   "team": "Real Club Celta",
+   "p": 2,
+   "w": 0,
+   "d": 0,
+   "l": 2,
+   "gf": 1,
+   "ga": 3,
+   "pts": 0
+  },
+  {
+   "pos": 30,
+   "team": "TSG 1899 Hoffenheim",
    "p": 2,
    "w": 0,
    "d": 0,
    "l": 2,
    "gf": 2,
-   "ga": 6,
+   "ga": 5,
    "pts": 0
   },
   {
-   "pos": 32,
+   "pos": 31,
    "team": "Olympique de Marseille",
    "p": 2,
    "w": 0,
@@ -1595,18 +1614,40 @@
    "pts": 0
   },
   {
+   "pos": 31,
+   "team": "FC Viktoria Plzeň",
+   "p": 2,
+   "w": 0,
+   "d": 0,
+   "l": 2,
+   "gf": 1,
+   "ga": 5,
+   "pts": 0
+  },
+  {
+   "pos": 33,
+   "team": "FC Ararat-Armenia",
+   "p": 2,
+   "w": 0,
+   "d": 0,
+   "l": 2,
+   "gf": 2,
+   "ga": 7,
+   "pts": 0
+  },
+  {
    "pos": 33,
    "team": "Celtic FC",
    "p": 2,
    "w": 0,
    "d": 0,
    "l": 2,
-   "gf": 1,
-   "ga": 6,
+   "gf": 2,
+   "ga": 7,
    "pts": 0
   },
   {
-   "pos": 34,
+   "pos": 35,
    "team": "NK Celje",
    "p": 2,
    "w": 0,
@@ -1614,17 +1655,6 @@
    "l": 2,
    "gf": 0,
    "ga": 5,
-   "pts": 0
-  },
-  {
-   "pos": 35,
-   "team": "N.E.C. Nijmegen",
-   "p": 2,
-   "w": 0,
-   "d": 0,
-   "l": 2,
-   "gf": 0,
-   "ga": 6,
    "pts": 0
   },
   {
