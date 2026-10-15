@@ -1,11 +1,16 @@
 name: Football tables after full-time
 # Nedys Vorgabe (15.10.2026): Tabellen unmittelbar nach den Spielen aktualisieren.
-# Läuft zu den typischen Abpfiff-Zeiten (Zeiten in UTC; deckt Sommer- und Winterzeit ab) und committet nur, wenn sich Daten geändert haben.
+# Läuft nur zu den typischen Abpfiff-Zeiten (~25 Läufe pro Woche) und committet nur, wenn sich Daten geändert haben.
 on:
-  schedule:
-    - cron: '5,35 18-22 * * 2,3,4'    # Di–Do: Champions/Europa/Conference League, DFB-Pokal, englische Wochen
-    - cron: '5,35 19-22 * * 1,5'      # Mo + Fr: Abendspiele
-    - cron: '5,35 13-22 * * 0,6'      # Sa + So: Spiele ab mittags
+  schedule:   # sparsam (Nedy 15.10.2026): nur kurz nach den typischen Abpfiffzeiten; Zeiten in UTC (= MEZ − 1 h, im Sommer bis zu 1 h später)
+    - cron: '50 19 * * 2,3,4'         # Di–Do 20:50 MEZ: Europapokal 18:45-Spiele
+    - cron: '5 22 * * 2,3,4'          # Di–Do 23:05 MEZ: Europapokal/Pokal 21:00-Spiele
+    - cron: '35 21 * * 1,5'           # Mo + Fr 22:35 MEZ: Abendspiele
+    - cron: '30 16 * * 6,0'           # Sa + So 17:30 MEZ: 15:30-Spiele
+    - cron: '30 19 * * 6'             # Sa 20:30 MEZ: Topspiel 18:30
+    - cron: '30 18 * * 0'             # So 19:30 MEZ: 17:30-Spiele
+    - cron: '15 22 * * 6,0'           # Sa + So 23:15 MEZ: späte Spiele in England/Spanien/Italien/Frankreich
+    - cron: '5 6 * * *'               # täglich 07:05 MEZ: Nachträge (openfootball trägt Ergebnisse oft erst nachts ein)
   workflow_dispatch:
 permissions:
   contents: write
