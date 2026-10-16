@@ -1,0 +1,402 @@
+{
+ "date": "2026-10-16",
+ "items": [
+  {
+   "id": "nvidia-nemotron-3-5-super-vl",
+   "s": "ai",
+   "time": "12:26",
+   "kick": {
+    "de": "Neues Modell",
+    "bg": "Нов модел",
+    "en": "New model"
+   },
+   "yt": {
+    "id": "hfUUT7gZz-0",
+    "ch": "NVIDIA Developer",
+    "kind": "video",
+    "t": {
+     "de": "NVIDIA stellt Nemotron 3.5 Super VL vor",
+     "bg": "NVIDIA представя Nemotron 3.5 Super VL",
+     "en": "Introducing NVIDIA Nemotron 3.5 Super VL"
+    }
+   },
+   "src": [
+    {
+     "n": "NVIDIA Technical Blog – NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning (15.10.2026)",
+     "u": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/"
+    },
+    {
+     "n": "MarkTechPost – NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model (15.10.2026)",
+     "u": "https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/"
+    },
+    {
+     "n": "NVIDIA – Introducing NVIDIA Nemotron 3.5 Super VL (YouTube)",
+     "u": "https://www.youtube.com/watch?v=hfUUT7gZz-0"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-16/nvidia-nemotron-3-5-super-vl.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Coolcaesar",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:NVIDIA_Headquarters.jpg",
+    "alt": {
+     "de": "Archivbild: Nvidia-Zentrale in Santa Clara, Kalifornien (2018)",
+     "bg": "Архивна снимка: централата на Nvidia в Санта Клара, Калифорния (2018)",
+     "en": "Archive photo: Nvidia headquarters in Santa Clara, California (2018)"
+    }
+   },
+   "de": {
+    "t": "Nvidia öffnet Nemotron 3.5 Super VL: Agenten-Modell versteht Bilder, Dokumente und Videos",
+    "d": "Das offene Modell hat 120 Milliarden Parameter, von denen pro Token nur rund 12 Milliarden arbeiten. Nvidia verspricht bis zu fünfmal mehr Durchsatz auf einer einzigen GPU.",
+    "body": [
+     "Nvidia hat am Donnerstag Nemotron 3.5 Super VL veröffentlicht, ein offenes multimodales Modell für KI-Agenten. Es verarbeitet Text, Bilder, Dokumente und Videos und soll schlussfolgern, Anweisungen befolgen und Werkzeuge bedienen. Als Mixture-of-Experts-Modell hat es 120 Milliarden Parameter, pro Token sind rund 12 Milliarden aktiv. Laut dem Fachportal MarkTechPost fasst das Kontextfenster bis zu eine Million Token; Videos nimmt das Modell als MP4-Clips von bis zu zwei Minuten an.",
+     "Nvidia nennt bis zu fünfmal höheren Agenten-Durchsatz auf einer einzelnen GPU als bei offenen Modellen derselben Größenklasse. Im Diagramm-Test CharXiv kommt das Modell nach Konzernangaben auf 80,8 Prozent, der kleinere Vorgänger Nemotron 3 Nano Omni auf 63 Prozent. Es handelt sich um Herstellerangaben; unabhängige Vergleiche stehen noch aus.",
+     "Die Gewichte stehen auf Hugging Face und ModelScope bereit, dazu Trainingsrezepte, Datensätze und Trainingsumgebungen für bestärkendes Lernen. Die komprimierte NVFP4-Fassung läuft laut MarkTechPost etwa auf einem einzelnen DGX Spark oder einer H200-Karte. Nutzbar ist das Modell auch über OpenRouter sowie die Cloud-Dienste von Amazon, Google, Microsoft und Oracle."
+    ]
+   },
+   "bg": {
+    "t": "Nvidia отвори Nemotron 3.5 Super VL: модел за агенти разбира снимки, документи и видео",
+    "d": "Отвореният модел има 120 милиарда параметъра, от които за всеки токен работят само около 12 милиарда. Nvidia обещава до пет пъти по-висока производителност на един GPU.",
+    "body": [
+     "Nvidia пусна в четвъртък Nemotron 3.5 Super VL – отворен мултимодален модел за ИИ агенти. Той обработва текст, изображения, документи и видео и трябва да разсъждава, да следва инструкции и да работи с инструменти. Като модел тип Mixture-of-Experts той има 120 милиарда параметъра, като за всеки токен са активни около 12 милиарда. Според специализирания портал MarkTechPost контекстният прозорец побира до един милион токена; видео моделът приема като MP4 клипове с дължина до две минути.",
+     "Nvidia посочва до пет пъти по-висока производителност на агентите на един GPU в сравнение с отворени модели от същия клас. В теста за диаграми CharXiv моделът постига по данни на компанията 80,8%, а по-малкият предшественик Nemotron 3 Nano Omni – 63%. Това са данни на производителя; независими сравнения все още липсват.",
+     "Тегловните коефициенти са достъпни в Hugging Face и ModelScope, заедно с рецепти за обучение, набори от данни и среди за обучение с подкрепление. Компресираната версия NVFP4 работи според MarkTechPost например на един DGX Spark или на една карта H200. Моделът може да се ползва и чрез OpenRouter, както и чрез облачните услуги на Amazon, Google, Microsoft и Oracle."
+    ]
+   },
+   "en": {
+    "t": "Nvidia opens Nemotron 3.5 Super VL: agent model understands images, documents and video",
+    "d": "The open model has 120 billion parameters, of which only around 12 billion are active per token. Nvidia promises up to five times more throughput on a single GPU.",
+    "body": [
+     "Nvidia on Thursday released Nemotron 3.5 Super VL, an open multimodal model for AI agents. It processes text, images, documents and video and is designed to reason, follow instructions and use tools. As a mixture-of-experts model it has 120 billion parameters, with around 12 billion active per token. According to the specialist site MarkTechPost, the context window holds up to one million tokens; the model accepts video as MP4 clips of up to two minutes.",
+     "Nvidia cites up to five times higher agent throughput on a single GPU than open models of the same size class. On the CharXiv chart test, the model scores 80.8 per cent according to the company, compared with 63 per cent for the smaller predecessor Nemotron 3 Nano Omni. These are the manufacturer's own figures; independent comparisons are still pending.",
+     "The weights are available on Hugging Face and ModelScope, along with training recipes, datasets and reinforcement-learning environments. According to MarkTechPost, the compressed NVFP4 version runs on, for example, a single DGX Spark or one H200 card. The model is also available via OpenRouter and the cloud services of Amazon, Google, Microsoft and Oracle."
+    ]
+   }
+  },
+  {
+   "id": "rhoda-ai-roboter-tastsinn",
+   "s": "ai",
+   "time": "12:26",
+   "kick": {
+    "de": "Robotik",
+    "bg": "Роботика",
+    "en": "Robotics"
+   },
+   "yt": {
+    "id": "aFPxURCVf84",
+    "ch": "Rhoda AI",
+    "kind": "video",
+    "t": {
+     "de": "Rhoda AI: Roboter bekommen Tastsinn",
+     "bg": "Rhoda AI: роботи получават усет за допир",
+     "en": "Giving Robots a Sense of Touch"
+    }
+   },
+   "src": [
+    {
+     "n": "Humanoids Daily – Rhoda Blindfolds Its Robot—and Lets Touch Guide the Search (15.10.2026)",
+     "u": "https://www.humanoidsdaily.com/news/rhoda-ai-touch-sensor-blindfolded-robot"
+    },
+    {
+     "n": "Rhoda AI – Giving Robots a Sense of Touch (YouTube)",
+     "u": "https://www.youtube.com/watch?v=aFPxURCVf84"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-16/rhoda-ai-roboter-tastsinn.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "XELA Robotics",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:USkin_Sensor_Integration.png",
+    "alt": {
+     "de": "Symbolbild: Roboterhand mit Tastsensoren (uSkin von XELA Robotics) – nicht das System von Rhoda AI",
+     "bg": "Символна снимка: роботизирана ръка с тактилни сензори (uSkin на XELA Robotics) – не системата на Rhoda AI",
+     "en": "Symbolic image: robot hand with tactile sensors (uSkin by XELA Robotics) – not Rhoda AI's system"
+    }
+   },
+   "de": {
+    "t": "Roboter mit verbundenen Augen: Rhoda AI lässt seinen Greifarm nach Gefühl suchen",
+    "d": "Das kalifornische Start-up kombiniert einen neuen Tastsensor mit seinem Video-KI-Modell. Ohne Kamerabild fand der Roboter in einer Kiste die gesuchten Bälle.",
+    "body": [
+     "Das Robotik-Start-up Rhoda AI aus Palo Alto hat einem Roboter Tastsinn beigebracht. In einem am 13. Oktober vorgestellten Versuch waren Kopf- und Handgelenkkameras abgedeckt; der Roboter musste in einer Kiste die Bälle mit strukturierter Oberfläche allein durch Berührung finden. Nach Firmenangaben holte er alle drei strukturierten Bälle heraus – darunter zwei, die er im Training nie gesehen hatte und die sich in Größe, Härte und Muster unterschieden.",
+     "Technisch erweitert Rhoda sein „Direct Video-Action“-Modell: Es sagt nicht mehr nur künftige Kamerabilder voraus, sondern auch künftige Tastsignale. Ein zweites Modell übersetzt diese Vorhersagen in Bewegungen, frische Sensordaten fließen laufend ein. Der Sensor misst laut Rhoda Kräfte von wenigen Millinewton bis über 40 Newton und erfasst Vibrationen mit rund 500 Hertz – selbst die Berührung einer Feder registrierte er.",
+     "Das Video zeigt auch Fehlgriffe und ein erneutes Abtasten der Kiste, Teile laufen stark beschleunigt. Eine Erfolgsquote über viele Durchgänge nennt die Firma nicht. Rhoda AI war im März mit 1,7 Milliarden Dollar bewertet worden."
+    ]
+   },
+   "bg": {
+    "t": "Робот със завързани очи: Rhoda AI кара хващача си да търси чрез допир",
+    "d": "Калифорнийският стартъп съчетава нов сензор за допир със своя видео ИИ модел. Без картина от камерите роботът намери търсените топки в кутия.",
+    "body": [
+     "Роботизираният стартъп Rhoda AI от Пало Алто научи робот да усеща допир. В опит, представен на 13 октомври, камерите на главата и китката бяха покрити; роботът трябваше да открие в кутия топките с релефна повърхност само чрез допир. По данни на компанията той извади и трите релефни топки – включително две, които никога не е виждал при обучението и които се различаваха по размер, твърдост и шарка.",
+     "Технически Rhoda разширява своя модел „Direct Video-Action“: той вече предсказва не само бъдещи кадри от камерите, но и бъдещи тактилни сигнали. Втори модел превръща тези прогнози в движения, а нови данни от сензора постъпват непрекъснато. Според Rhoda сензорът измерва сили от няколко милинютона до над 40 нютона и улавя вибрации с честота около 500 херца – регистрира дори докосване с перо.",
+     "Видеото показва и грешни хващания и повторно опипване на кутията, а части от него са силно ускорени. Процент на успех при много опити компанията не посочва. През март Rhoda AI беше оценена на 1,7 милиарда долара."
+    ]
+   },
+   "en": {
+    "t": "Robot with a blindfold: Rhoda AI lets its gripper search by touch",
+    "d": "The Californian start-up combines a new tactile sensor with its video AI model. Without any camera image, the robot found the balls it was looking for in a box.",
+    "body": [
+     "Palo Alto robotics start-up Rhoda AI has taught a robot a sense of touch. In an experiment presented on 13 October, the head and wrist cameras were covered; the robot had to find the balls with a textured surface in a box by touch alone. According to the company, it retrieved all three textured balls – including two it had never seen in training, which differed in size, firmness and pattern.",
+     "Technically, Rhoda is extending its \"Direct Video-Action\" model: it now predicts not only future camera images but also future tactile signals. A second model translates these predictions into movements, with fresh sensor data fed in continuously. According to Rhoda, the sensor measures forces from a few millinewtons to more than 40 newtons and picks up vibrations at around 500 hertz – it even registered the touch of a feather.",
+     "The video also shows wrong grabs and a renewed search of the box, and parts are heavily sped up. The company gives no success rate across many trials. Rhoda AI was valued at 1.7 billion dollars in March."
+    ]
+   }
+  },
+  {
+   "id": "boston-dynamics-atlas-bauzeit",
+   "s": "ai",
+   "time": "12:26",
+   "kick": {
+    "de": "Robotik",
+    "bg": "Роботика",
+    "en": "Robotics"
+   },
+   "yt": {
+    "id": "dP_i7hRvGpE",
+    "ch": "Boston Dynamics",
+    "kind": "video",
+    "t": {
+     "de": "Fertigen, montieren, reparieren: So baut Boston Dynamics Atlas",
+     "bg": "Производство, монтаж, ремонт: как Boston Dynamics сглобява Atlas",
+     "en": "Machine, Assemble, Repair: How We Build Atlas"
+    }
+   },
+   "src": [
+    {
+     "n": "Humanoids Daily – Boston Dynamics Says Atlas Takes a Day to Build—and Wants to Cut That to an Hour (14.10.2026)",
+     "u": "https://www.humanoidsdaily.com/news/boston-dynamics-atlas-prototype-shop-build-time"
+    },
+    {
+     "n": "Boston Dynamics – Machine, Assemble, Repair: How We Build Atlas (YouTube)",
+     "u": "https://www.youtube.com/watch?v=dP_i7hRvGpE"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-16/boston-dynamics-atlas-bauzeit.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Damian B Oh",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Boston_Dynamics_Atlas_(4).jpg",
+    "alt": {
+     "de": "Archivbild: Humanoider Roboter Atlas von Boston Dynamics im Hyundai Motorstudio Goyang",
+     "bg": "Архивна снимка: хуманоидният робот Atlas на Boston Dynamics в Hyundai Motorstudio Goyang",
+     "en": "Archive photo: Boston Dynamics humanoid robot Atlas at Hyundai Motorstudio Goyang"
+    }
+   },
+   "de": {
+    "t": "Ein Tag pro Roboter: Boston Dynamics will Atlas bald in einer Stunde bauen",
+    "d": "Ein neues Video zeigt die Prototypenwerkstatt des Robotikherstellers. Fertigung, Montage und Reparatur liegen dort Tür an Tür, Ideen sollen binnen einer Woche umgesetzt sein.",
+    "body": [
+     "Boston Dynamics hat in einem knapp sechsminütigen Film Einblick in die Werkstatt gegeben, in der sein humanoider Roboter Atlas entsteht. Laut Katie Conner, Senior Technical Program Manager, dauert der Bau eines Atlas derzeit etwa einen Tag. Im kommenden Jahr soll es rund eine Stunde sein, in späteren Jahren nur noch Minuten.",
+     "In der Prototypenabteilung liegen Zerspanung, Montage, Tests und Reparatur unter einem Dach. Präzisionsteile wie Zahnräder fertigt die Firma selbst, weil enge Toleranzen gefragt sind. Ingenieure besprechen Änderungen direkt in der Werkstatt; Teile werden laut Video am selben oder am nächsten Tag montiert, eine Idee vom Montag kann bis Ende der Woche umgesetzt sein.",
+     "Der Film dient zugleich der Personalsuche. Wie viele Roboter Boston Dynamics tatsächlich ausliefert, verrät er nicht – Bauzeit und Stückzahl sind zwei verschiedene Größen. Konkurrent Figure hatte im Juli den 1.000. Roboter vom Typ Figure 03 gemeldet."
+    ]
+   },
+   "bg": {
+    "t": "Един ден на робот: Boston Dynamics иска скоро да сглобява Atlas за един час",
+    "d": "Ново видео показва работилницата за прототипи на производителя на роботи. Производство, монтаж и ремонт са там врата до врата, а идеите трябва да се реализират до седмица.",
+    "body": [
+     "Boston Dynamics показа в близо шестминутен филм работилницата, в която се създава хуманоидният ѝ робот Atlas. По думите на старшия технически програмен мениджър Кейти Конър сглобяването на един Atlas в момента отнема около ден. Догодина това трябва да става за около час, а в следващите години – само за минути.",
+     "В отдела за прототипи механичната обработка, монтажът, тестовете и ремонтът са под един покрив. Прецизни части като зъбни колела компанията произвежда сама, защото се изискват тесни допуски. Инженерите обсъждат промените направо в работилницата; според видеото частите се монтират в същия или на следващия ден, а идея от понеделник може да бъде реализирана до края на седмицата.",
+     "Филмът служи и за набиране на персонал. Колко робота Boston Dynamics реално доставя, той не разкрива – времето за сглобяване и броят бройки са две различни величини. Конкурентът Figure съобщи през юли за 1000-ния си робот от типа Figure 03."
+    ]
+   },
+   "en": {
+    "t": "One day per robot: Boston Dynamics wants to build Atlas in an hour soon",
+    "d": "A new video shows the robot maker's prototype workshop. Machining, assembly and repair sit side by side there, and ideas are meant to be implemented within a week.",
+    "body": [
+     "Boston Dynamics has offered a look inside the workshop where its humanoid robot Atlas is made in a film just under six minutes long. According to senior technical programme manager Katie Conner, building one Atlas currently takes about a day. Next year it is meant to take around an hour, and in later years just minutes.",
+     "In the prototype department, machining, assembly, testing and repair are under one roof. The company makes precision parts such as gears itself because tight tolerances are required. Engineers discuss changes directly in the workshop; according to the video, parts are assembled the same or the next day, and an idea from Monday can be implemented by the end of the week.",
+     "The film also serves as a recruitment pitch. It does not reveal how many robots Boston Dynamics actually delivers – build time and output are two different measures. Rival Figure reported its 1,000th Figure 03 robot in July."
+    ]
+   }
+  },
+  {
+   "id": "microsoft-mai-base-2-vortraining",
+   "s": "ai",
+   "time": "12:26",
+   "kick": {
+    "de": "Neues Modell",
+    "bg": "Нов модел",
+    "en": "New model"
+   },
+   "mn": true,
+   "src": [
+    {
+     "n": "TokenPost – Microsoft Completes Pretraining of 2.8 Trillion-Parameter MAI-Base-2 (15.10.2026)",
+     "u": "https://www.tokenpost.com/news/technology/32886"
+    },
+    {
+     "n": "GIGAZINE – Microsoft announces completion of pre-training for MAI-Base-2 (16.10.2026)",
+     "u": "https://gigazine.net/gsc_news/en/20261016-microsoft-mai-base-2/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-16/microsoft-mai-base-2-vortraining.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Christopher Wilson",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mustafa_Suleyman_photo.jpg",
+    "alt": {
+     "de": "Archivbild: Mustafa Suleyman, der 2024 die Leitung von Microsoft AI übernahm",
+     "bg": "Архивна снимка: Мустафа Сюлейман, който пое ръководството на Microsoft AI през 2024 г.",
+     "en": "Archive photo: Mustafa Suleyman, who took charge of Microsoft AI in 2024"
+    }
+   },
+   "de": {
+    "t": "Microsoft trainiert Riesenmodell MAI-Base-2: 2,8 Billionen Parameter in 38 Tagen",
+    "d": "Microsofts KI-Sparte hat das Vortraining ihres bislang größten eigenen Modells abgeschlossen. Es soll deutlich effizienter rechnen als DeepSeek – frei veröffentlicht wird es nicht.",
+    "body": [
+     "Microsoft AI hat das Vortraining von MAI-Base-2 abgeschlossen, wie die KI-Sparte des Konzerns am Donnerstag mitteilte. Das Mixture-of-Experts-Modell hat 2,8 Billionen Parameter, davon sind 80 Milliarden aktiv. Trainiert wurde es 38 Tage lang im August und September auf 16.000 Nvidia-Chips vom Typ GB200 mit 50 Billionen Token, 18 Prozent davon Bild-Text-Daten. Der Wissensstand reicht bis März 2026.",
+     "Nach eigenen Berechnungen arbeitet MAI-Base-2 in vier Tests 4,2- bis 12,3-mal so recheneffizient wie das Basismodell DeepSeek-V4-Pro. Andere Vergleichsmodelle konnte Microsoft nur in nachtrainierten Fassungen messen, was die Ergebnisse verzerren kann. Laut Microsoft entstand das Modell nicht durch Destillation fremder Modelle.",
+     "Derzeit läuft das Nachtraining. Die Gewichte will Microsoft nicht frei veröffentlichen, sondern vertrauenswürdigen Partnern über seine Plattform Foundry lizenzieren; Namen und Termine nannte der Konzern nicht. Der Vorgänger MAI-Base-1 mit einer Billion Parametern war die Grundlage für MAI-Thinking-1 aus dem Juni. An MAI-Base-3 wird bereits gearbeitet."
+    ]
+   },
+   "bg": {
+    "t": "Microsoft обучи гигантския модел MAI-Base-2: 2,8 трилиона параметъра за 38 дни",
+    "d": "ИИ подразделението на Microsoft завърши предварителното обучение на най-големия си собствен модел досега. Той трябва да е много по-ефективен от DeepSeek, но няма да бъде публикуван свободно.",
+    "body": [
+     "Microsoft AI завърши предварителното обучение на MAI-Base-2, съобщи в четвъртък ИИ подразделението на концерна. Моделът тип Mixture-of-Experts има 2,8 трилиона параметъра, от които 80 милиарда са активни. Той е обучаван 38 дни през август и септември на 16 000 чипа Nvidia GB200 с 50 трилиона токена, 18% от които са данни с изображения и текст. Знанията му стигат до март 2026 г.",
+     "По собствени изчисления MAI-Base-2 е в четири теста между 4,2 и 12,3 пъти по-ефективен по отношение на изчисленията от базовия модел DeepSeek-V4-Pro. Други модели за сравнение Microsoft е могла да измери само в дообучени версии, което може да изкриви резултатите. Според Microsoft моделът не е създаден чрез дестилация на чужди модели.",
+     "В момента тече дообучението. Microsoft няма да публикува тегловните коефициенти свободно, а ще ги лицензира на доверени партньори чрез платформата си Foundry; имена и срокове концернът не посочи. Предшественикът MAI-Base-1 с един трилион параметъра беше основа за MAI-Thinking-1 от юни. Работата по MAI-Base-3 вече е започнала."
+    ]
+   },
+   "en": {
+    "t": "Microsoft trains giant model MAI-Base-2: 2.8 trillion parameters in 38 days",
+    "d": "Microsoft's AI division has completed pre-training of its largest in-house model to date. It is said to compute far more efficiently than DeepSeek – but will not be released openly.",
+    "body": [
+     "Microsoft AI has completed pre-training of MAI-Base-2, the group's AI division announced on Thursday. The mixture-of-experts model has 2.8 trillion parameters, 80 billion of them active. It was trained for 38 days in August and September on 16,000 Nvidia GB200 chips using 50 trillion tokens, 18 per cent of them image-text data. Its knowledge runs to March 2026.",
+     "By Microsoft's own calculations, MAI-Base-2 is 4.2 to 12.3 times as compute-efficient as the DeepSeek-V4-Pro base model across four tests. Microsoft could only measure other comparison models in their post-trained versions, which may skew the results. According to Microsoft, the model was not created by distilling other companies' models.",
+     "Post-training is now under way. Microsoft does not plan to release the weights openly but to license them to trusted partners via its Foundry platform; the company named no partners or dates. The predecessor MAI-Base-1, with one trillion parameters, was the basis for MAI-Thinking-1 in June. Work on MAI-Base-3 has already begun."
+    ]
+   }
+  },
+  {
+   "id": "anthropic-quartalsumsatz-16-8-milliarden",
+   "s": "ai",
+   "time": "12:26",
+   "kick": {
+    "de": "Finanzen",
+    "bg": "Финанси",
+    "en": "Finance"
+   },
+   "mn": true,
+   "src": [
+    {
+     "n": "SiliconANGLE – Ahead of IPO, Anthropic reveals its revenue grew 45% sequentially to $16.8B in Q3 (14.10.2026)",
+     "u": "https://siliconangle.com/2026/10/14/ahead-of-ipo-anthropic-reveals-its-revenue-grow-45-sequentially-to-16-8b-in-q3/"
+    },
+    {
+     "n": "Investing.com via Yahoo Finance – Anthropic tells investors Q3 revenue jumped, FT reports (14.10.2026)",
+     "u": "https://finance.yahoo.com/technology/ai/articles/anthropic-tells-investors-q3-revenue-030140226.html"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-16/anthropic-quartalsumsatz-16-8-milliarden.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "TechCrunch",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dario_Amodei_at_TechCrunch_Disrupt_2023_01.jpg",
+    "alt": {
+     "de": "Archivbild: Anthropic-Chef Dario Amodei bei TechCrunch Disrupt 2023",
+     "bg": "Архивна снимка: шефът на Anthropic Дарио Амодей на TechCrunch Disrupt 2023",
+     "en": "Archive photo: Anthropic CEO Dario Amodei at TechCrunch Disrupt 2023"
+    }
+   },
+   "de": {
+    "t": "Bericht: Anthropic steigert Quartalsumsatz auf 16,8 Milliarden Dollar",
+    "d": "Laut „Financial Times“ wuchs der Claude-Entwickler im dritten Quartal um rund 45 Prozent und war bereinigt profitabel. Der Börsengang könnte im November folgen.",
+    "body": [
+     "Anthropic hat im dritten Quartal 2026 nach einem Bericht der „Financial Times“ 16,8 Milliarden Dollar umgesetzt. Die Zahlen nannte das Unternehmen demnach bei einem Treffen mit möglichen Investoren. Gegenüber dem Vorquartal mit 11,6 Milliarden Dollar entspricht das einem Plus von rund 45 Prozent; im ersten Quartal waren es laut „Wall Street Journal“ 4,8 Milliarden Dollar.",
+     "Auf bereinigter Basis war der Claude-Entwickler dem Bericht zufolge profitabel und erzielte einen positiven Cashflow. Für jeden Dollar, den er für Rechenleistung ausgab, nahm er demnach rund 1,70 Dollar ein. Das Wachstum fiel allerdings langsamer aus als zu Jahresbeginn. Wie Umsatz und Gewinn genau abgegrenzt sind, geht aus den Berichten nicht hervor.",
+     "Anthropic bereitet einen Börsengang vor, der laut Medienberichten im November stattfinden könnte. Im Mai war das Unternehmen in einer Finanzierungsrunde über 65 Milliarden Dollar mit 965 Milliarden Dollar bewertet worden."
+    ]
+   },
+   "bg": {
+    "t": "Доклад: Anthropic увеличава тримесечните си приходи до 16,8 млрд. долара",
+    "d": "Според „Файненшъл Таймс“ разработчикът на Claude е нараснал с около 45% през третото тримесечие и е бил печеливш на коригирана база. Борсовото листване може да последва през ноември.",
+    "body": [
+     "Според доклад на „Файненшъл Таймс“ Anthropic е реализирала приходи от 16,8 милиарда долара през третото тримесечие на 2026 г. Компанията е представила цифрите на среща с потенциални инвеститори. Спрямо предходното тримесечие с 11,6 милиарда долара това е ръст от около 45%; през първото тримесечие приходите са били 4,8 милиарда долара според „Уолстрийт Джърнъл“.",
+     "Според доклада разработчикът на Claude е бил печеливш на коригирана база и е имал положителен паричен поток. За всеки долар, похарчен за изчислителна мощ, той е получавал около 1,70 долара приходи. Ръстът обаче е по-бавен, отколкото в началото на годината. Как точно са определени приходите и печалбата, от докладите не става ясно.",
+     "Anthropic подготвя първично публично предлагане, което според медийни съобщения може да се състои през ноември. През май компанията беше оценена на 965 милиарда долара при рунд за финансиране от 65 милиарда долара."
+    ]
+   },
+   "en": {
+    "t": "Report: Anthropic lifts quarterly revenue to 16.8 billion dollars",
+    "d": "According to the Financial Times, the Claude developer grew by around 45 per cent in the third quarter and was profitable on an adjusted basis. An IPO could follow in November.",
+    "body": [
+     "Anthropic generated revenue of 16.8 billion dollars in the third quarter of 2026, according to a report in the Financial Times. The company reportedly presented the figures at a meeting with prospective investors. Compared with the previous quarter's 11.6 billion dollars, that is an increase of around 45 per cent; in the first quarter revenue was 4.8 billion dollars, according to the Wall Street Journal.",
+     "According to the report, the Claude developer was profitable on an adjusted basis and generated positive cash flow. For every dollar it spent on computing power, it took in around 1.70 dollars in revenue. Growth was slower than at the start of the year, however. The reports do not make clear exactly how revenue and profit are defined.",
+     "Anthropic is preparing a stock market listing that, according to media reports, could take place in November. In May the company was valued at 965 billion dollars in a 65-billion-dollar funding round."
+    ]
+   }
+  },
+  {
+   "id": "taiwan-texas-industriepark-ki-zulieferer",
+   "s": "ai",
+   "time": "12:26",
+   "kick": {
+    "de": "Chips",
+    "bg": "Чипове",
+    "en": "Chips"
+   },
+   "mn": true,
+   "src": [
+    {
+     "n": "BigGo Finance – Taiwan Builds AI Supply Chain Hub in US, First Texas Park to Cost Up to $4 Billion (16.10.2026)",
+     "u": "https://finance.biggo.com/news/a3a3cc9f-1a46-4ab2-9cfe-b0b42769d6a6"
+    },
+    {
+     "n": "Crypto Briefing – Taiwan plans up to $4 billion Texas industrial park for Nvidia suppliers (15.10.2026)",
+     "u": "https://cryptobriefing.com/taiwan-texas-industrial-parks-nvidia-suppliers/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-16/taiwan-texas-industriepark-ki-zulieferer.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "經濟部 (Wirtschaftsministerium Taiwan)",
+    "lic": "Attribution",
+    "page": "https://commons.wikimedia.org/wiki/File:%E9%BE%94%E6%98%8E%E9%91%AB%E9%83%A8%E9%95%B7.jpg",
+    "alt": {
+     "de": "Archivbild: Taiwans Wirtschaftsminister Kung Ming-hsin, offizielles Porträt",
+     "bg": "Архивна снимка: министърът на икономиката на Тайван Кун Мин-син, официален портрет",
+     "en": "Archive photo: Taiwan's Economic Affairs Minister Kung Ming-hsin, official portrait"
+    }
+   },
+   "de": {
+    "t": "Taiwan will bis zu 4 Milliarden Dollar in Texas-Industriepark für KI-Zulieferer stecken",
+    "d": "Kleinere taiwanische Zulieferer von Nvidia, TSMC und Foxconn sollen in den USA gemeinsam produzieren. Der Park in Texas wäre der erste von mehreren.",
+    "body": [
+     "Taiwan plant in den USA Industrieparks für kleinere Zulieferer der KI-Hardware-Branche. Der erste soll in Texas entstehen und bis zu 4 Milliarden Dollar kosten, wie Wirtschaftsminister Kung Ming-hsin der Agentur Bloomberg sagte. Weitere Parks sollen jeweils 2 bis 4 Milliarden Dollar kosten.",
+     "Zielgruppe sind kleine und mittlere Firmen, die Nvidia, TSMC und Foxconn beliefern, sich eine eigene Fabrik in den USA aber kaum leisten können. Das Kapital soll laut Berichten der taiwanische Elektronik-Branchenverband TEEMA aufbringen; die Regierung will mit Kreditgarantien sowie bei Visa und Grundstücken helfen. Den Standort in Texas hat das Ministerium noch nicht offiziell bestätigt.",
+     "Der Plan gehört zu Taiwans Zusagen aus dem Handelsabkommen mit der Regierung von US-Präsident Donald Trump: Taipeh hatte Kreditgarantien von bis zu 250 Milliarden Dollar für Halbleiter-Investitionen in den USA versprochen. TSMC werde in Taiwan selbst aber weiterhin deutlich mehr Fabriken bauen, sagte Kung."
+    ]
+   },
+   "bg": {
+    "t": "Тайван иска да вложи до 4 млрд. долара в индустриален парк в Тексас за доставчици на ИИ",
+    "d": "По-малки тайвански доставчици на Nvidia, TSMC и Foxconn трябва да произвеждат заедно в САЩ. Паркът в Тексас ще е първият от няколко.",
+    "body": [
+     "Тайван планира индустриални паркове в САЩ за по-малки доставчици в сектора на хардуера за ИИ. Първият трябва да бъде изграден в Тексас и да струва до 4 милиарда долара, заяви министърът на икономиката Кун Мин-син пред агенция Bloomberg. Всеки следващ парк ще струва между 2 и 4 милиарда долара.",
+     "Целева група са малки и средни фирми, които доставят на Nvidia, TSMC и Foxconn, но трудно могат да си позволят собствен завод в САЩ. Според съобщенията капиталът ще бъде осигурен от тайванския браншов съюз на електрониката TEEMA; правителството ще помага с кредитни гаранции, както и с визи и терени. Министерството все още не е потвърдило официално мястото в Тексас.",
+     "Планът е част от ангажиментите на Тайван по търговското споразумение с администрацията на американския президент Доналд Тръмп: Тайпе обеща кредитни гаранции до 250 милиарда долара за инвестиции в полупроводници в САЩ. Въпреки това TSMC ще продължи да строи значително повече заводи в самия Тайван, каза Кун."
+    ]
+   },
+   "en": {
+    "t": "Taiwan plans to put up to 4 billion dollars into Texas industrial park for AI suppliers",
+    "d": "Smaller Taiwanese suppliers to Nvidia, TSMC and Foxconn are to produce together in the US. The Texas park would be the first of several.",
+    "body": [
+     "Taiwan is planning industrial parks in the United States for smaller suppliers to the AI hardware industry. The first is to be built in Texas and cost up to 4 billion dollars, Economic Affairs Minister Kung Ming-hsin told Bloomberg. Further parks are expected to cost 2 to 4 billion dollars each.",
+     "The target group is small and medium-sized firms that supply Nvidia, TSMC and Foxconn but can hardly afford their own factory in the US. According to reports, the capital is to be raised by the Taiwanese electronics industry association TEEMA; the government plans to help with credit guarantees as well as visas and land. The ministry has not yet officially confirmed the Texas site.",
+     "The plan forms part of Taiwan's commitments under the trade agreement with US President Donald Trump's administration: Taipei had pledged credit guarantees of up to 250 billion dollars for semiconductor investment in the US. TSMC will nonetheless continue to build far more plants in Taiwan itself, Kung said."
+    ]
+   }
+  }
+ ]
+}
