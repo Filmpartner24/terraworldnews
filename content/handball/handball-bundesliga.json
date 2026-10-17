@@ -818,7 +818,11 @@
    "t1": "ThSV Eisenach",
    "t2": "VfL Gummersbach",
    "date": "2026-10-16",
-   "time": "20:00"
+   "time": "20:00",
+   "ft": [
+    28,
+    28
+   ]
   },
   {
    "r": 9,
@@ -989,6 +993,64 @@
    "time": "16:30"
   },
   {
+   "r": 12,
+   "t1": "Füchse Berlin",
+   "t2": "THW Kiel",
+   "date": "2026-11-14",
+   "time": "15:55"
+  },
+  {
+   "r": 12,
+   "t1": "HC Erlangen",
+   "t2": "HSV Hamburg",
+   "date": "2026-11-14"
+  },
+  {
+   "r": 12,
+   "t1": "HBW Balingen-Weilstetten",
+   "t2": "HSG Wetzlar",
+   "date": "2026-11-14"
+  },
+  {
+   "r": 12,
+   "t1": "Rhein-Neckar-Löwen",
+   "t2": "TBV Lemgo",
+   "date": "2026-11-14"
+  },
+  {
+   "r": 12,
+   "t1": "Bergischer HC",
+   "t2": "ThSV Eisenach",
+   "date": "2026-11-14",
+   "time": "20:00"
+  },
+  {
+   "r": 12,
+   "t1": "SC Magdeburg",
+   "t2": "SG Flensburg-Handewitt",
+   "date": "2026-11-15",
+   "time": "15:00"
+  },
+  {
+   "r": 12,
+   "t1": "MT Melsungen",
+   "t2": "SG BBM Bietigheim",
+   "date": "2026-11-15",
+   "time": "16:30"
+  },
+  {
+   "r": 12,
+   "t1": "VfL Gummersbach",
+   "t2": "TSV Hannover-Burgdorf",
+   "date": "2026-11-15"
+  },
+  {
+   "r": 12,
+   "t1": "TVB 1898 Stuttgart",
+   "t2": "Frisch Auf Göppingen",
+   "date": "2026-12-03"
+  },
+  {
    "r": 16,
    "t1": "SC Magdeburg",
    "t2": "THW Kiel",
@@ -1013,6 +1075,10 @@
   {
    "n": "Sportschau",
    "u": "https://www.sportschau.de/live-und-ergebnisse/handball/deutschland-hbl/tabelle"
+  },
+  {
+   "n": "Sportschau – Eisenach erkämpft Remis gegen Gummersbach (16.10.2026)",
+   "u": "https://www.sportschau.de/regional/mdr/eisenach-erkaempft-remis-gegen-gummersbach,hbl-thsv-eisenach-gummersbach-100.html"
   }
  ]
 }
