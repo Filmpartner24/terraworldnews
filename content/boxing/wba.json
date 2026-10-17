@@ -10,7 +10,7 @@
   "de": "World Boxing Association",
   "en": "World Boxing Association"
  },
- "asof": "2026-10-16",
+ "asof": "2026-10-17",
  "champions": [
   {
    "div": {
@@ -149,8 +149,13 @@
     "en": "Featherweight"
    },
    "limit": "bis 57,2 kg (126 lb)",
-   "name": "Brandon Figueroa",
-   "country": "USA"
+   "name": "",
+   "country": "",
+   "note": {
+    "de": "vakant – Brandon Figueroa am 16.10.2026 wegen Übergewichts aberkannt; nur Tomoki Kameda kann den Titel am 17.10. gewinnen",
+    "bg": "вакантна – титлата на Брандън Фигероа е отнета на 16.10.2026 заради наднормено тегло; само Томоки Камеда може да я спечели на 17.10.",
+    "en": "vacant – Brandon Figueroa stripped on 16 Oct 2026 for missing weight; only Tomoki Kameda can win the title on 17 Oct"
+   }
   },
   {
    "div": {
@@ -253,7 +258,8 @@
     "bg": "Световна титла на WBA",
     "de": "WBA-WM",
     "en": "WBA world title"
-   }
+   },
+   "note": "Figueroa verpasste das Gewicht und verlor den Titel; nur Kameda kann ihn gewinnen"
   },
   {
    "date": "2026-10-31",
@@ -505,6 +511,10 @@
   {
    "n": "FightNews, 15.10.2026",
    "u": "https://fightnews.com/teiken-announces-world-title-tripleheader-2/198432"
+  },
+  {
+   "n": "The Ring, 16.10.2026 – Figueroa verliert WBA-Titel auf der Waage",
+   "u": "https://www.ringmagazine.com/news/figueroa-misses-weight-by-1-4-pounds-stripped-of-wba-title-4EWUObNFsu0xL6sbZinnB9"
   }
  ]
 }
