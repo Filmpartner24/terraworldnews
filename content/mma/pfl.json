@@ -11,7 +11,7 @@
   "de": "Professional Fighters League",
   "en": "Professional Fighters League"
  },
- "asof": "2026-10-16",
+ "asof": "2026-10-17",
  "champions": [
   {
    "div": {
@@ -135,50 +135,16 @@
     "en": "Women's Flyweight"
    },
    "limit": "bis 56,7 kg (125 lb)",
-   "name": "vakant",
-   "country": "–",
+   "name": "Jena Bishop",
+   "country": "USA",
    "note": {
-    "bg": "Първата титла: Лиз Кармуш срещу Джена Бишъп на 16 октомври в Чикаго",
-    "de": "Erster Titel: Liz Carmouche gegen Jena Bishop am 16. Oktober in Chicago",
-    "en": "Inaugural title: Liz Carmouche vs. Jena Bishop on Oct. 16 in Chicago"
+    "bg": "Първа шампионка: победи Лиз Кармуш на 16 октомври 2026 в Чикаго",
+    "de": "Erste Titelträgerin: besiegte Liz Carmouche am 16. Oktober 2026 in Chicago",
+    "en": "Inaugural champion: beat Liz Carmouche on Oct. 16, 2026 in Chicago"
    }
   }
  ],
  "upcoming": [
-  {
-   "date": "2026-10-16",
-   "place": "Chicago, USA",
-   "f1": "Liz Carmouche",
-   "f2": "Jena Bishop",
-   "div": {
-    "bg": "Муха категория (жени)",
-    "de": "Fliegengewicht (Frauen)",
-    "en": "Women's Flyweight"
-   },
-   "title": {
-    "bg": "PFL Chicago – главен двубой, мач за първата титла",
-    "de": "PFL Chicago – Hauptkampf, Kampf um den ersten Titel",
-    "en": "PFL Chicago – main event, inaugural title fight"
-   },
-   "note": "Wintrust Arena; Rückkampf"
-  },
-  {
-   "date": "2026-10-16",
-   "place": "Chicago, USA",
-   "f1": "Timur Khizriev",
-   "f2": "Gabriel Braga",
-   "div": {
-    "bg": "Перо категория",
-    "de": "Federgewicht",
-    "en": "Featherweight"
-   },
-   "title": {
-    "bg": "PFL Chicago – съглавен двубой",
-    "de": "PFL Chicago – Co-Hauptkampf",
-    "en": "PFL Chicago – co-main event"
-   },
-   "note": "Rückkampf; Khizriev ungeschlagen (18-0)"
-  },
   {
    "date": "2026-11-14",
    "place": "Dubai, Vereinigte Arabische Emirate",
@@ -215,6 +181,48 @@
   }
  ],
  "results": [
+  {
+   "date": "2026-10-16",
+   "place": "Chicago, USA",
+   "f1": "Jena Bishop",
+   "f2": "Liz Carmouche",
+   "res": {
+    "bg": "единодушно съдийско решение (48-47, 48-47, 48-47)",
+    "de": "einstimmige Punktentscheidung (48-47, 48-47, 48-47)",
+    "en": "unanimous decision (48-47, 48-47, 48-47)"
+   },
+   "div": {
+    "bg": "Муха категория (жени)",
+    "de": "Fliegengewicht (Frauen)",
+    "en": "Women's Flyweight"
+   },
+   "title": {
+    "bg": "PFL Чикаго – главен двубой, първа титла",
+    "de": "PFL Chicago – Hauptkampf, erster Titel",
+    "en": "PFL Chicago – main event, inaugural title"
+   }
+  },
+  {
+   "date": "2026-10-16",
+   "place": "Chicago, USA",
+   "f1": "Timur Khizriev",
+   "f2": "Gabriel Braga",
+   "res": {
+    "bg": "разделно съдийско решение (29-28, 28-29, 29-28)",
+    "de": "geteilte Punktentscheidung (29-28, 28-29, 29-28)",
+    "en": "split decision (29-28, 28-29, 29-28)"
+   },
+   "div": {
+    "bg": "Перо категория",
+    "de": "Federgewicht",
+    "en": "Featherweight"
+   },
+   "title": {
+    "bg": "PFL Чикаго – съглавен двубой",
+    "de": "PFL Chicago – Co-Hauptkampf",
+    "en": "PFL Chicago – co-main event"
+   }
+  },
   {
    "date": "2026-10-10",
    "place": "Casablanca, Marokko",
@@ -396,6 +404,14 @@
   {
    "n": "Sherdog – PFL Africa 3 (10.10.2026)",
    "u": "https://www.sherdog.com/events/Professional-Fighters-League-PFL-Africa-3-2026-Playoffs-113283"
+  },
+  {
+   "n": "MMA Junkie (via Yahoo Sports), 17.10.2026",
+   "u": "https://sports.yahoo.com/articles/pfl-chicago-results-jena-bishop-053115679.html"
+  },
+  {
+   "n": "Cageside Press, 17.10.2026",
+   "u": "https://cagesidepress.com/2026/10/17/jena-bishop-survives-near-finish-battles-back-to-upset-liz-carmouche-claim-gold-at-pfl-chicago/"
   }
  ]
 }
