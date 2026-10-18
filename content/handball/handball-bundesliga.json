@@ -829,14 +829,22 @@
    "t1": "SG BBM Bietigheim",
    "t2": "HSV Hamburg",
    "date": "2026-10-17",
-   "time": "19:00"
+   "time": "19:00",
+   "ft": [
+    30,
+    35
+   ]
   },
   {
    "r": 9,
    "t1": "MT Melsungen",
    "t2": "Bergischer HC",
    "date": "2026-10-17",
-   "time": "20:00"
+   "time": "20:00",
+   "ft": [
+    33,
+    26
+   ]
   },
   {
    "r": 9,
@@ -994,13 +1002,6 @@
   },
   {
    "r": 12,
-   "t1": "Füchse Berlin",
-   "t2": "THW Kiel",
-   "date": "2026-11-14",
-   "time": "15:55"
-  },
-  {
-   "r": 12,
    "t1": "HC Erlangen",
    "t2": "HSV Hamburg",
    "date": "2026-11-14"
@@ -1019,10 +1020,23 @@
   },
   {
    "r": 12,
+   "t1": "Füchse Berlin",
+   "t2": "THW Kiel",
+   "date": "2026-11-14",
+   "time": "15:55"
+  },
+  {
+   "r": 12,
    "t1": "Bergischer HC",
    "t2": "ThSV Eisenach",
    "date": "2026-11-14",
    "time": "20:00"
+  },
+  {
+   "r": 12,
+   "t1": "VfL Gummersbach",
+   "t2": "TSV Hannover-Burgdorf",
+   "date": "2026-11-15"
   },
   {
    "r": 12,
@@ -1037,12 +1051,6 @@
    "t2": "SG BBM Bietigheim",
    "date": "2026-11-15",
    "time": "16:30"
-  },
-  {
-   "r": 12,
-   "t1": "VfL Gummersbach",
-   "t2": "TSV Hannover-Burgdorf",
-   "date": "2026-11-15"
   },
   {
    "r": 12,
