@@ -11,7 +11,7 @@
   "de": "OKTAGON MMA",
   "en": "OKTAGON MMA"
  },
- "asof": "2026-10-17",
+ "asof": "2026-10-18",
  "champions": [
   {
    "div": {
@@ -146,23 +146,6 @@
  ],
  "upcoming": [
   {
-   "date": "2026-10-17",
-   "place": "Mattoni Arena, Karlovy Vary, Tschechien",
-   "f1": "Daniel Škvor",
-   "f2": "Tomasz Narkun",
-   "div": {
-    "bg": "Полутежка категория",
-    "de": "Halbschwergewicht",
-    "en": "Light Heavyweight"
-   },
-   "title": {
-    "bg": "OKTAGON 95 – главен мач",
-    "de": "OKTAGON 95 – Hauptkampf",
-    "en": "OKTAGON 95 – main event"
-   },
-   "note": "Neuer Hauptkampf: Kincl vs. Humburger abgesagt, Humburger verfehlte das Gewicht (85,0 kg)."
-  },
-  {
    "date": "2026-10-31",
    "place": "SAP Garden, München, Deutschland",
    "f1": "Amiran Gogoladze",
@@ -230,6 +213,27 @@
   }
  ],
  "results": [
+  {
+   "date": "2026-10-17",
+   "place": "Karlovy Vary, Tschechien",
+   "f1": "Tomasz Narkun",
+   "f2": "Daniel Škvor",
+   "res": {
+    "bg": "Събмишън (задушаване отзад), 1-ви рунд (2:29)",
+    "de": "Submission (Rear-Naked Choke), 1. Runde (2:29)",
+    "en": "Submission (rear-naked choke), round 1 (2:29)"
+   },
+   "div": {
+    "bg": "Полутежка категория",
+    "de": "Halbschwergewicht",
+    "en": "Light Heavyweight"
+   },
+   "title": {
+    "bg": "OKTAGON 95 – главен мач",
+    "de": "OKTAGON 95 – Hauptkampf",
+    "en": "OKTAGON 95 – main event"
+   }
+  },
   {
    "date": "2026-09-26",
    "place": "Deutsche Bank Park, Frankfurt am Main, Deutschland",
@@ -358,6 +362,10 @@
   {
    "n": "Sportnet (SME), 16.10.2026",
    "u": "https://sportnet.sme.sk/spravy/mma-zapas-kincl-humburger-zruseny-oktagon-95-2026"
+  },
+  {
+   "n": "OKTAGON MMA – Ergebnisse OKTAGON 95 (17.10.2026)",
+   "u": "https://oktagonmma.com/cs/blog/vysledky-oktagonu-95-narkun-uskrtil-skvora-juracek-se-vratil-ve-velkem-stylu/"
   }
  ]
 }

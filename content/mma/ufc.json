@@ -11,7 +11,7 @@
   "de": "Ultimate Fighting Championship",
   "en": "Ultimate Fighting Championship"
  },
- "asof": "2026-10-17",
+ "asof": "2026-10-18",
  "champions": [
   {
    "div": {
@@ -135,22 +135,6 @@
   }
  ],
  "upcoming": [
-  {
-   "date": "2026-10-17",
-   "place": "Rogers Place, Edmonton, Kanada",
-   "f1": "Joaquin Buckley",
-   "f2": "Mike Malott",
-   "div": {
-    "bg": "Полусредна категория",
-    "de": "Weltergewicht",
-    "en": "Welterweight"
-   },
-   "title": {
-    "bg": "UFC Fight Night (Edmonton) – главен двубой",
-    "de": "UFC Fight Night (Edmonton) – Hauptkampf",
-    "en": "UFC Fight Night (Edmonton) – main event"
-   }
-  },
   {
    "date": "2026-10-24",
    "place": "Abu Dhabi, Vereinigte Arabische Emirate",
@@ -304,6 +288,27 @@
   }
  ],
  "results": [
+  {
+   "date": "2026-10-17",
+   "place": "Rogers Place, Edmonton, Kanada",
+   "f1": "Mike Malott",
+   "f2": "Joaquin Buckley",
+   "res": {
+    "bg": "Нокаут (коляно и удар), 2. рунд (2:32)",
+    "de": "KO (Kniestoß und Schlag), 2. Runde (2:32)",
+    "en": "KO (knee and punch), round 2 (2:32)"
+   },
+   "div": {
+    "bg": "Полусредна категория",
+    "de": "Weltergewicht",
+    "en": "Welterweight"
+   },
+   "title": {
+    "bg": "UFC Fight Night (Едмънтън) – главен двубой",
+    "de": "UFC Fight Night (Edmonton) – Hauptkampf",
+    "en": "UFC Fight Night (Edmonton) – main event"
+   }
+  },
   {
    "date": "2026-10-10",
    "place": "Meta Apex, Las Vegas, USA",
@@ -527,6 +532,10 @@
   {
    "n": "Sherdog – UFC Vegas 122 Ergebnisse (10.10.2026)",
    "u": "https://www.sherdog.com/news/news/UFC-Vegas-122-Allen-vs-Duncan-playbyplay-results-round-scoring-203155"
+  },
+  {
+   "n": "MMA Junkie (via Yahoo Sports) – UFC Edmonton Ergebnisse (18.10.2026)",
+   "u": "https://sports.yahoo.com/articles/ufc-edmonton-results-mike-malott-030813656.html"
   }
  ]
 }
