@@ -10,7 +10,7 @@
   "de": "World Boxing Council",
   "en": "World Boxing Council"
  },
- "asof": "2026-10-17",
+ "asof": "2026-10-18",
  "champions": [
   {
    "div": {
@@ -215,23 +215,6 @@
  ],
  "upcoming": [
   {
-   "date": "2026-10-17",
-   "place": "Las Vegas, USA",
-   "f1": "Sebastian Fundora",
-   "f2": "Ermal Hadribeaj",
-   "div": {
-    "bg": "Първа средна категория",
-    "de": "Halbmittelgewicht",
-    "en": "Super Welterweight"
-   },
-   "title": {
-    "bg": "Световна титла на WBC",
-    "de": "WBC-WM",
-    "en": "WBC world title"
-   },
-   "note": "Pflichtverteidigung"
-  },
-  {
    "date": "2026-10-24",
    "place": "San Antonio, USA",
    "f1": "Emanuel Navarrete",
@@ -333,6 +316,27 @@
   }
  ],
  "results": [
+  {
+   "date": "2026-10-17",
+   "place": "Las Vegas, USA",
+   "f1": "Sebastian Fundora",
+   "f2": "Ermal Hadribeaj",
+   "res": {
+    "bg": "нокаут в 12-ия рунд",
+    "de": "KO 12. Runde",
+    "en": "KO round 12"
+   },
+   "div": {
+    "bg": "Първа средна категория",
+    "de": "Halbmittelgewicht",
+    "en": "Super Welterweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBC",
+    "de": "WBC-WM",
+    "en": "WBC world title"
+   }
+  },
   {
    "date": "2026-10-10",
    "place": "Chicago, USA",
@@ -573,6 +577,10 @@
   {
    "n": "FIGHTMAG, 16.10.2026 – Wiegen Fundora vs. Hadribeaj",
    "u": "https://www.fightmag.com/fundora-and-hadribeaj-make-weight-for-wbc-154-pound-title/"
+  },
+  {
+   "n": "The Sporting Tribune via Yahoo Sports, 18.10.2026 – Fundora k.o. in Runde 12",
+   "u": "https://sports.yahoo.com/articles/fundora-knocks-hadribeaj-final-seconds-053045996.html"
   }
  ]
 }

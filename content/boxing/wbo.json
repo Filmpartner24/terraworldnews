@@ -10,7 +10,7 @@
   "de": "World Boxing Organization",
   "en": "World Boxing Organization"
  },
- "asof": "2026-10-17",
+ "asof": "2026-10-18",
  "champions": [
   {
    "div": {
@@ -205,23 +205,6 @@
  ],
  "upcoming": [
   {
-   "date": "2026-10-17",
-   "place": "London, Großbritannien",
-   "f1": "Daniel Dubois",
-   "f2": "Fabio Wardley",
-   "div": {
-    "bg": "Тежка категория",
-    "de": "Schwergewicht",
-    "en": "Heavyweight"
-   },
-   "title": {
-    "bg": "Световна титла на WBO",
-    "de": "WBO-WM",
-    "en": "WBO world title"
-   },
-   "note": "Rückkampf; The O2"
-  },
-  {
    "date": "2026-10-24",
    "place": "San Antonio, USA",
    "f1": "Emanuel Navarrete",
@@ -306,6 +289,27 @@
   }
  ],
  "results": [
+  {
+   "date": "2026-10-17",
+   "place": "London (The O2), Großbritannien",
+   "f1": "Daniel Dubois",
+   "f2": "Fabio Wardley",
+   "res": {
+    "bg": "технически нокаут във 2-рия рунд (2:21, кърпа от ъгъла)",
+    "de": "TKO 2. Runde (2:21, Handtuch aus der Ecke)",
+    "en": "TKO round 2 (2:21, towel thrown in)"
+   },
+   "div": {
+    "bg": "Тежка категория",
+    "de": "Schwergewicht",
+    "en": "Heavyweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBO",
+    "de": "WBO-WM",
+    "en": "WBO world title"
+   }
+  },
   {
    "date": "2026-09-27",
    "place": "Tokio, Japan",
@@ -457,6 +461,14 @@
   {
    "n": "Boxing News, 16.10.2026 – Wiegen Dubois vs. Wardley",
    "u": "https://boxingnewsonline.net/news/dubois-vs-wardley-weigh-in-results/"
+  },
+  {
+   "n": "Sky Sports, 17.10.2026 – Dubois stoppt Wardley",
+   "u": "https://www.skysports.com/boxing/news/13600415/daniel-dubois-smashes-through-fabio-wardley-to-win-wbo-heavyweight-world-championship-rematch-in-the-second-round"
+  },
+  {
+   "n": "The Ring, 17.10.2026 – Live-Bericht Dubois vs. Wardley",
+   "u": "https://www.ringmagazine.com/news/daniel-dubois-dominates-fabio-wardley-in-rematch-live-reaction-53p5sk3Tp0Ff1i59MgjBPQ"
   }
  ]
 }
