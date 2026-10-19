@@ -22,3 +22,4 @@ Themen mit aktuellem Anlass bevorzugen (neue Gesetze, Fristen, Preise, Saison). 
 - 2026-10-14 – Heizsaison: Ab 2027 müssen Heizzähler aus der Ferne ablesbar sein – in DE und BG – Entwurf
 - 2026-10-15 – Resturlaub: Was zum Jahresende in Deutschland und Bulgarien wirklich verfällt – Entwurf
 - 2026-10-16 – Mit dem Auto nach Bulgarien: Vignette 30 % teurer, ab 15. November gilt die Reifenregel – Entwurf
+- 2026-10-19 – Ausweis aufs Handy: Was die EU-Wallet ab Januar kann – und wo Bulgarien steht – Entwurf
