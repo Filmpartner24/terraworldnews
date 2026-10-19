@@ -1250,15 +1250,21 @@
        "date": "2026-10-18",
        "team1": "Spartak Plovdiv",
        "team2": "Arda Kardzhali",
-       "ft": null,
-       "note": "15:00"
+       "ft": [
+        1,
+        2
+       ],
+       "note": ""
       },
       {
        "date": "2026-10-18",
        "team1": "Fratria",
        "team2": "Botev Vratsa",
-       "ft": null,
-       "note": "15:00"
+       "ft": [
+        1,
+        2
+       ],
+       "note": ""
       },
       {
        "date": "2026-10-16",
@@ -1324,15 +1330,21 @@
        "date": "2026-10-18",
        "team1": "Chernomorets Burgas",
        "team2": "Botev Plovdiv",
-       "ft": null,
-       "note": "12:00"
+       "ft": [
+        0,
+        4
+       ],
+       "note": ""
       },
       {
        "date": "2026-10-18",
        "team1": "Spartak Pleven",
        "team2": "Levski Sofia",
-       "ft": null,
-       "note": "18:00"
+       "ft": [
+        0,
+        2
+       ],
+       "note": ""
       },
       {
        "date": "2026-10-17",
@@ -1348,8 +1360,11 @@
        "date": "2026-10-18",
        "team1": "Nesebar",
        "team2": "CSKA Sofia",
-       "ft": null,
-       "note": "15:00"
+       "ft": [
+        0,
+        2
+       ],
+       "note": ""
       },
       {
        "date": "2026-10-17",
@@ -1390,7 +1405,9 @@
     "https://fakti.bg/sport/1090908-lokomotiv-plovdiv-ne-dopusna-iznenada-v-gabrovo-i-se-klasira-za-1-8-finalite-za-kupata",
     "https://fakti.bg/sport/1091155-rezultati-ot-dneshnite-machove-v-turnira-za-kupata-na-balgaria",
     "https://www.segabg.com/category-sport/kupa-na-bulgariya-116-finali-rezultati-i-programa-video-reportazhi-1",
-    "https://fakti.bg/sport/1091232-pet-sblasaka-ot-kupata-na-balgaria-dnes"
+    "https://fakti.bg/sport/1091232-pet-sblasaka-ot-kupata-na-balgaria-dnes",
+    "https://www.bta.bg/bg/news/sport/1227307-tsska-specheli-trudno-v-nesebar-s-dva-gola-v-kraya-arda-i-botev-vratsa-sashto-p",
+    "https://mediamall.info/news/kupata-na-balgariya-levski-i-botev-s-ubeditelni-pobedi-cska-se-izmachi-v-nesebar-78861news.html"
    ]
   }
  ],

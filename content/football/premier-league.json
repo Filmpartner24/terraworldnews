@@ -730,7 +730,10 @@
    "time": "14:00",
    "t1": "AFC Bournemouth",
    "t2": "Sunderland AFC",
-   "ft": null
+   "ft": [
+    2,
+    0
+   ]
   },
   {
    "r": 7,
@@ -738,7 +741,10 @@
    "time": "14:00",
    "t1": "Leeds United FC",
    "t2": "Manchester United FC",
-   "ft": null
+   "ft": [
+    1,
+    1
+   ]
   },
   {
    "r": 7,
@@ -746,7 +752,10 @@
    "time": "14:00",
    "t1": "Brighton & Hove Albion FC",
    "t2": "Crystal Palace FC",
-   "ft": null
+   "ft": [
+    5,
+    0
+   ]
   },
   {
    "r": 7,
@@ -754,7 +763,10 @@
    "time": "16:30",
    "t1": "Nottingham Forest FC",
    "t2": "Arsenal FC",
-   "ft": null
+   "ft": [
+    0,
+    1
+   ]
   },
   {
    "r": 7,
@@ -3558,6 +3570,14 @@
   {
    "n": "ESPN – Coventry 4-1 Newcastle (12.10.2026)",
    "u": "https://www.espn.com/soccer/report/_/gameId/401879267"
+  },
+  {
+   "n": "Sky Sports – Nottingham Forest 0-1 Arsenal (18.10.2026)",
+   "u": "https://www.skysports.com/football/nottingham-forest-vs-arsenal/report/559512"
+  },
+  {
+   "n": "Sky Sports – Brighton 5-0 Crystal Palace (18.10.2026)",
+   "u": "https://www.skysports.com/football/brighton-and-hove-albion-vs-crystal-palace/report/559506"
   }
  ]
 }

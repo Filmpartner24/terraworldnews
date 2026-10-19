@@ -719,7 +719,10 @@
    "time": "12:30",
    "t1": "Udinese Calcio",
    "t2": "US Lecce",
-   "ft": null
+   "ft": [
+    0,
+    3
+   ]
   },
   {
    "r": 7,
@@ -727,7 +730,10 @@
    "time": "15:00",
    "t1": "ACF Fiorentina",
    "t2": "Como 1907",
-   "ft": null
+   "ft": [
+    1,
+    3
+   ]
   },
   {
    "r": 7,
@@ -735,7 +741,10 @@
    "time": "18:00",
    "t1": "AC Milan",
    "t2": "Atalanta BC",
-   "ft": null
+   "ft": [
+    3,
+    2
+   ]
   },
   {
    "r": 7,
@@ -743,7 +752,10 @@
    "time": "20:45",
    "t1": "Juventus FC",
    "t2": "SS Lazio",
-   "ft": null
+   "ft": [
+    0,
+    3
+   ]
   },
   {
    "r": 7,
@@ -3574,6 +3586,14 @@
   {
    "n": "Lega Serie A – Frosinone 4:2 Sassuolo",
    "u": "https://www.legaseriea.it/serie-a/news/frosinone-sassuolo-2026-2027-4-2-cronaca-risultato-gol"
+  },
+  {
+   "n": "ANSA – Juventus–Lazio 0-3 (18.10.2026)",
+   "u": "https://www.ansa.it/sito/notizie/sport/2026/10/18/serie-a-la-juve-crolla-la-lazio-vola-ed-e-in-testa-con-linter_fbbef75c-2606-4c53-a729-a23a275d3dd6.html"
+  },
+  {
+   "n": "Toro News – Classifica Serie A (18.10.2026)",
+   "u": "https://www.toronews.net/campionato/serie-a-la-classifica-il-lecce-espugna-udine-e-sale-a-9-punti-ludinese/"
   }
  ]
 }

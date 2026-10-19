@@ -653,7 +653,10 @@
    "time": "15:00",
    "t1": "Angers SCO",
    "t2": "Olympique de Marseille",
-   "ft": null
+   "ft": [
+    2,
+    5
+   ]
   },
   {
    "r": 7,
@@ -661,7 +664,10 @@
    "time": "17:15",
    "t1": "FC Lorient",
    "t2": "AS Monaco FC",
-   "ft": null
+   "ft": [
+    1,
+    0
+   ]
   },
   {
    "r": 7,
@@ -669,7 +675,10 @@
    "time": "17:15",
    "t1": "Paris FC",
    "t2": "Stade Rennais FC 1901",
-   "ft": null
+   "ft": [
+    4,
+    3
+   ]
   },
   {
    "r": 7,
@@ -677,7 +686,10 @@
    "time": "17:15",
    "t1": "Le Havre AC",
    "t2": "AJ Auxerre",
-   "ft": null
+   "ft": [
+    1,
+    3
+   ]
   },
   {
    "r": 7,
@@ -685,7 +697,10 @@
    "time": "20:45",
    "t1": "Olympique Lyonnais",
    "t2": "OGC Nice",
-   "ft": null
+   "ft": [
+    2,
+    1
+   ]
   },
   {
    "r": 8,
@@ -2692,6 +2707,14 @@
   {
    "n": "t-online – Le Mans 0:3 Toulouse (Liveticker)",
    "u": "https://www.t-online.de/sport/live-ticker/fussball/french-ligue-1/sdc_fm-58196/le-mans-toulouse-french-ligue-1-im-liveticker.html"
+  },
+  {
+   "n": "Maxifoot – Résultats Ligue 1 (18.10.2026)",
+   "u": "https://www.maxifoot.fr/resultat-ligue-1-france.htm"
+  },
+  {
+   "n": "matchendirect – Résultats 18.10.2026",
+   "u": "https://www.matchendirect.fr/resultat-foot-18-10-2026/"
   }
  ]
 }
