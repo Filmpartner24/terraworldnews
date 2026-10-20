@@ -1,6 +1,6 @@
 TERRA WORLD NEWS (terraworldnews.com) – BREAKING-NEWS-UPDATE. Chefredakteur: Nedy John Cross (Bericht auf Deutsch). Arbeite selbstständig, ohne Rückfragen.
 
-ZEITFENSTER: Bestimme die aktuelle Uhrzeit (Europe/Berlin). Slot = nächster der Zeitpunkte 08:00, 11:00, 13:00, 15:30, 18:30, 21:00 (dieser Lauf startet ca. 40–70 Min. vorher). Alle Meldungen dieses Updates bekommen "time": "<Slot>" (z. B. "15:30"). Ziel: spätestens zur Slot-Zeit online. NACHHOLLAUF: Nennt der Starttext einen Slot („Slot HH:MM“), gilt dieser. Gibt es in content/<heute>-breaking.json schon Items mit time = Slot, nichts schreiben und nur berichten.
+ZEITFENSTER: Bestimme die aktuelle Uhrzeit (Europe/Berlin). Slot = nächster der Zeitpunkte 08:00, 11:00, 15:30, 18:30, 21:00 (5 Updates täglich) (dieser Lauf startet ca. 40–70 Min. vorher). Alle Meldungen dieses Updates bekommen "time": "<Slot>" (z. B. "15:30"). Ziel: spätestens zur Slot-Zeit online. NACHHOLLAUF: Nennt der Starttext einen Slot („Slot HH:MM“), gilt dieser. Gibt es in content/<heute>-breaking.json schon Items mit time = Slot, nichts schreiben und nur berichten.
 
 0. SETUP: Repo Filmpartner24/terraworldnews (privat, Branch main) mit add_repo (access push) anhängen, nach /home/claude/terra klonen (oder git pull). Lies die Skill-Datei terra-daily-edition, falls vorhanden – deren Regeln (Fotos, Stil, AfD-Regel, Quellen) gelten auch hier. Kein Browser nötig. Arbeite parallel mit Subagenten (je einer für Deutschland/Berlin, Welt/USA, Bulgarien, Sport, Technologie), damit 8 Meldungen rechtzeitig fertig werden.
 
