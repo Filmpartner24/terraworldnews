@@ -1,0 +1,388 @@
+{
+ "date": "2026-10-20",
+ "items": [
+  {
+   "id": "meta-prometheus-supercluster-ohio",
+   "s": "ai",
+   "time": "12:30",
+   "kl": {
+    "de": "Rechenzentrum",
+    "bg": "Център за данни",
+    "en": "Data centre"
+   },
+   "yt": {
+    "id": "lvieN3sJTUk",
+    "ch": "Open Compute Project",
+    "kind": "video",
+    "t": {
+     "de": "Vom Beton zum Code: KI-Infrastruktur im Gigawatt-Maßstab",
+     "bg": "От бетона до кода: ИИ инфраструктура в гигаватов мащаб",
+     "en": "Concrete to Code: Engineering AI Infrastructure at Gigawatt Scale"
+    }
+   },
+   "src": [
+    {
+     "n": "Engineering at Meta – Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster (19.10.2026)",
+     "u": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/"
+    },
+    {
+     "n": "Open Compute Project – Concrete to Code: Engineering AI Infrastructure at Gigawatt Scale (YouTube)",
+     "u": "https://www.youtube.com/watch?v=lvieN3sJTUk"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-20/meta-prometheus-supercluster-ohio.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Gary Halvorson, Oregon State Archives",
+    "lic": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Facebook,_Highway_126,_Prineville_-_DPLA_-_fd9c0cae95b43c5864c55d3eef1bf5a6.jpg",
+    "alt": {
+     "de": "Archivbild: Rechenzentrum von Facebook (heute Meta) bei Prineville im US-Bundesstaat Oregon – nicht Prometheus",
+     "bg": "Архивна снимка: център за данни на Facebook (днес Meta) край Принвил, щата Орегон – не Prometheus",
+     "en": "Archive image: Facebook (now Meta) data centre near Prineville, Oregon – not Prometheus"
+    }
+   },
+   "de": {
+    "t": "Eine Million GPUs als Ziel: Meta gewährt Einblick in seinen KI-Supercluster Prometheus",
+    "d": "Meta beschreibt ausführlich seinen Gigawatt-Supercluster Prometheus in Ohio. Die erste Ausbaustufe ist fertig und trainierte die Muse-Modelle – am Ende sollen rund eine Million GPUs zusammenarbeiten.",
+    "body": [
+     "Meta hat am Montag in seinem Engineering-Blog ausführlich beschrieben, wie der KI-Supercluster Prometheus in New Albany im US-Bundesstaat Ohio aufgebaut ist. Nach Angaben des Konzerns ist die erste Ausbaustufe abgeschlossen und wurde bereits genutzt, um die Muse-Modelle zu trainieren, darunter das Spitzenmodell Muse Wonder. Im Endausbau sollen rund eine Million verteilte GPUs im Gleichtakt rechnen.",
+     "Schon jetzt laufen dort Hunderttausende GPUs in klassischen, KI-optimierten und schnell errichteten Gebäuden. Meta setzt auf Nvidia-Systeme vom Typ GB200 NVL72 und GB300 NVL72, künftig auch Vera Rubin NVL72 mit mehr als 170 Kilowatt pro Rack. Ein Ethernet-Netz verbindet bis zu 20.736 GPUs je Gebäude, Verbindungen zwischen den Standorten reichen von 2 bis über 100 Kilometer.",
+     "Eine zentrale Herausforderung war die Zuverlässigkeit: Mitte 2025 zählte Meta zeitweise fast 1.000 Unterbrechungen pro 8.000 GPUs und Tag, die Rate sei seither um 99 Prozent gesunken. Beim Vortraining von Muse Wonder lag die tatsächlich nutzbare Rechenzeit laut Meta bei über 85 Prozent. Als nächster Großstandort ist Hyperion in Louisiana geplant. Ein Video auf dem Kanal des Open Compute Project, auf das Meta in seinem Beitrag verweist, beleuchtet den Bau von KI-Infrastruktur dieser Größenordnung."
+    ]
+   },
+   "bg": {
+    "t": "Цел – един милион GPU: Meta показва отвътре ИИ суперклъстера си Prometheus",
+    "d": "Meta описва подробно гигаватовия си суперклъстер Prometheus в Охайо. Първият етап е готов и е обучил моделите Muse – накрая около един милион GPU трябва да работят заедно.",
+    "body": [
+     "Meta описа подробно в понеделник в инженерния си блог как е изграден ИИ суперклъстерът Prometheus в Ню Олбани, щата Охайо. По данни на компанията първият етап е завършен и вече е използван за обучението на моделите Muse, сред които водещият модел Muse Wonder. При пълно изграждане около един милион разпределени GPU трябва да изчисляват синхронно.",
+     "Още сега там работят стотици хиляди GPU в класически, оптимизирани за ИИ и бързо издигнати сгради. Meta използва системи на Nvidia от типа GB200 NVL72 и GB300 NVL72, а в бъдеще и Vera Rubin NVL72 с над 170 киловата на шкаф. Ethernet мрежа свързва до 20 736 GPU във всяка сграда, а връзките между обектите са на разстояние от 2 до над 100 километра.",
+     "Едно от основните предизвикателства е надеждността: в средата на 2025 г. Meta е отчитала на моменти близо 1000 прекъсвания на 8000 GPU на ден, а оттогава честотата им е намаляла с 99 процента. При предварителното обучение на Muse Wonder реално използваемото изчислително време е било над 85 процента, според Meta. Следващият голям обект е Hyperion в Луизиана. Видео в канала на Open Compute Project, към което Meta препраща в публикацията, разглежда изграждането на ИИ инфраструктура в такъв мащаб."
+    ]
+   },
+   "en": {
+    "t": "Aiming for a million GPUs: Meta offers a look inside its Prometheus AI supercluster",
+    "d": "Meta has described its gigawatt-scale Prometheus supercluster in Ohio in detail. Phase one is complete and trained the Muse models – eventually around a million GPUs are to work together.",
+    "body": [
+     "Meta on Monday published a detailed account on its engineering blog of how its Prometheus AI supercluster in New Albany, Ohio, is built. According to the company, the first phase is complete and has already been used to train the Muse models, including the flagship Muse Wonder. At full scale, around one million distributed GPUs are to compute in lockstep.",
+     "Hundreds of thousands of GPUs are already running there in traditional, AI-optimised and rapidly deployed buildings. Meta relies on Nvidia GB200 NVL72 and GB300 NVL72 systems, and in future also Vera Rubin NVL72 with more than 170 kilowatts per rack. An Ethernet network links up to 20,736 GPUs per building, while connections between sites span from 2 to more than 100 kilometres.",
+     "A key challenge was reliability: in mid-2025 Meta at times recorded almost 1,000 interruptions per 8,000 GPUs per day, a rate it says has since fallen by 99 per cent. In pre-training Muse Wonder, the share of usable compute time was above 85 per cent, according to Meta. Hyperion in Louisiana is planned as the next large site. A video on the Open Compute Project channel, referenced by Meta in its post, looks at building AI infrastructure at this scale."
+    ]
+   }
+  },
+  {
+   "id": "saint-gobain-microsoft-discovery-zement",
+   "s": "ai",
+   "time": "12:30",
+   "kl": {
+    "de": "Forschung",
+    "bg": "Изследване",
+    "en": "Research"
+   },
+   "yt": {
+    "id": "i8IZfeuQypc",
+    "ch": "Microsoft",
+    "kind": "video",
+    "t": {
+     "de": "Wie agentengestützte Forschung der Bauindustrie helfen kann, ihren CO₂-Fußabdruck zu senken",
+     "bg": "Как изследванията с ИИ агенти могат да помогнат на строителството да намали въглеродния си отпечатък",
+     "en": "How agentic discovery can help the construction industry reduce its carbon footprint"
+    }
+   },
+   "src": [
+    {
+     "n": "WindowsForum – Saint-Gobain Tests Microsoft Discovery AI for Lower-Carbon Cement Additives (20.10.2026)",
+     "u": "https://windowsforum.com/news/saint-gobain-tests-microsoft-discovery-ai-for-lower-carbon-cement-additives.449202/"
+    },
+    {
+     "n": "Microsoft – How agentic discovery can help the construction industry reduce its carbon footprint (YouTube)",
+     "u": "https://www.youtube.com/watch?v=i8IZfeuQypc"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-20/saint-gobain-microsoft-discovery-zement-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Saint-Gobain testet Microsoft Discovery für klimafreundlicheren Zement",
+     "bg": "Заглавна графика: Saint-Gobain тества Microsoft Discovery за по-екологичен цимент",
+     "en": "Title graphic: Saint-Gobain tests Microsoft Discovery for lower-carbon cement"
+    }
+   },
+   "de": {
+    "t": "KI-Agenten für klimafreundlicheren Zement: Saint-Gobain testet Microsoft Discovery",
+    "d": "Der Baustoffkonzern Saint-Gobain sucht mit Microsofts Forschungsplattform Discovery nach neuen Zusatzstoffen für Zement. Erste Molekül-Kandidaten sind im Labor – Messergebnisse gibt es noch nicht.",
+    "body": [
+     "Microsoft hat am Dienstag vorgestellt, wie der französische Baustoffkonzern Saint-Gobain die KI-Plattform Microsoft Discovery in der Materialforschung einsetzt. Dabei werten Teams aus KI-Agenten, angeleitet von Fachleuten, Wissensbestände aus und entwickeln Hypothesen. Ziel sind neue Zusatzstoffe, mit denen sich bei der Zementherstellung weniger Klinker verwenden lässt – Zement verursacht laut Microsoft rund sieben Prozent der weltweiten CO₂-Emissionen.",
+     "Für das Projekt wertete das System 62.000 Patente und 44.000 Fachartikel-Zusammenfassungen aus. Der Aufbau dieser Wissensbasis dauerte nach Angaben von Saint-Gobain nur wenige Stunden statt rund eines Jahres, die Phase der Hypothesenbildung etwa sechs Wochen. Saint-Gobain nutzte die Plattform bereits im März 2026 als einer der ersten Kunden in einer eingeschränkten Vorabversion.",
+     "Die vorgeschlagenen Moleküle werden derzeit im Labor getestet; Messdaten oder belegte CO₂-Einsparungen wurden noch nicht veröffentlicht. Ein Video auf dem offiziellen Microsoft-Kanal stellt das Projekt vor."
+    ]
+   },
+   "bg": {
+    "t": "ИИ агенти за по-екологичен цимент: Saint-Gobain тества Microsoft Discovery",
+    "d": "Производителят на строителни материали Saint-Gobain търси с платформата Microsoft Discovery нови добавки за цимент. Първите кандидат-молекули са в лабораторията – резултати от измервания още няма.",
+    "body": [
+     "Microsoft представи във вторник как френският производител на строителни материали Saint-Gobain използва ИИ платформата Microsoft Discovery в изследванията на материали. В нея екипи от ИИ агенти, ръководени от специалисти, анализират натрупаните знания и формулират хипотези. Целта са нови добавки, с които при производството на цимент да се използва по-малко клинкер – според Microsoft циментът причинява около седем процента от световните емисии на CO₂.",
+     "За проекта системата е анализирала 62 000 патента и 44 000 резюмета на научни статии. По данни на Saint-Gobain изграждането на тази база знания е отнело само няколко часа вместо около година, а етапът на формулиране на хипотези – около шест седмици. Saint-Gobain използва платформата още през март 2026 г. като един от първите клиенти в ограничена предварителна версия.",
+     "Предложените молекули в момента се тестват в лаборатория; данни от измервания или доказани съкращения на CO₂ все още не са публикувани. Видео в официалния канал на Microsoft представя проекта."
+    ]
+   },
+   "en": {
+    "t": "AI agents for greener cement: Saint-Gobain tests Microsoft Discovery",
+    "d": "Building materials group Saint-Gobain is using Microsoft’s Discovery research platform to look for new cement additives. The first candidate molecules are in the lab – there are no measured results yet.",
+    "body": [
+     "Microsoft on Tuesday showcased how French building materials group Saint-Gobain is using the Microsoft Discovery AI platform in materials research. Teams of AI agents, guided by experts, analyse existing knowledge and generate hypotheses. The goal is new additives that allow less clinker to be used in cement production – according to Microsoft, cement accounts for around seven per cent of global CO₂ emissions.",
+     "For the project, the system analysed 62,000 patents and 44,000 abstracts of scientific papers. According to Saint-Gobain, building this knowledge base took only a few hours instead of about a year, and the hypothesis stage around six weeks. Saint-Gobain was already using the platform in March 2026 as one of the first customers of a limited private release.",
+     "The proposed molecules are currently being tested in the lab; no measurement data or proven CO₂ savings have been published yet. A video on Microsoft’s official channel presents the project."
+    ]
+   }
+  },
+  {
+   "id": "flux-3-max-video-fal-black-forest-labs",
+   "s": "ai",
+   "time": "12:30",
+   "kl": {
+    "de": "Neues Modell",
+    "bg": "Нов модел",
+    "en": "New model"
+   },
+   "yt": {
+    "id": "6E1UU1BUabI",
+    "ch": "fal",
+    "kind": "video",
+    "t": {
+     "de": "FLUX 3 Max: Benchmarks und Kurzfilm mit Black Forest Labs",
+     "bg": "FLUX 3 Max: бенчмаркове и късометражен филм с Black Forest Labs",
+     "en": "FLUX 3 Max! Benchmarks and Short Film x Black Forest Labs"
+    }
+   },
+   "src": [
+    {
+     "n": "PR Newswire via Yahoo Finance – fal Launches FLUX 3 Max (19.10.2026)",
+     "u": "https://finance.yahoo.com/technology/ai/articles/fal-launches-flux-3-max-194600494.html"
+    },
+    {
+     "n": "Unite.AI – Fal Debuts FLUX 3 Max Video Model Post-Trained With Black Forest Labs (19.10.2026)",
+     "u": "https://www.unite.ai/fal-debuts-flux-3-max-video-model-post-trained-with-black-forest-labs/"
+    },
+    {
+     "n": "fal – FLUX 3 Max! Benchmarks and Short Film x Black Forest Labs (YouTube)",
+     "u": "https://www.youtube.com/watch?v=6E1UU1BUabI"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-20/flux-3-max-video-fal-black-forest-labs.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Benoît Prieur",
+    "lic": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Studio_vid%C3%A9o_et_son_fond_vert_-_%C3%89ditions_ENI_(mars_2023).JPG",
+    "alt": {
+     "de": "Symbolbild: Videostudio mit Greenscreen",
+     "bg": "Илюстративна снимка: видеостудио със зелен екран",
+     "en": "Symbolic image: video studio with a green screen"
+    }
+   },
+   "de": {
+    "t": "Zehn Sekunden Video in rund elf Sekunden: fal und Black Forest Labs bringen FLUX 3 Max",
+    "d": "Die KI-Plattform fal hat mit dem Freiburger Start-up Black Forest Labs das Videomodell FLUX 3 Max veröffentlicht. Es soll mit den besten Modellen mithalten, aber deutlich schneller rechnen.",
+    "body": [
+     "Der KI-Anbieter fal hat am Montag FLUX 3 Max vorgestellt, ein Modell zur Erzeugung von Videos aus Text oder Standbildern. Grundlage ist das Basismodell FLUX 3 des Freiburger Start-ups Black Forest Labs. Das Forschungsteam von fal hat es gemeinsam mit den Entwicklern nachtrainiert, unter anderem mit bestärkendem Lernen, und auf schnellere Berechnung getrimmt.",
+     "Nach eigenen Messungen von fal entsteht ein zehnsekündiges Video in 10,95 Sekunden; das Konkurrenzmodell Seedance 2.5 brauche 277,8 Sekunden, das ursprüngliche FLUX 3 gut 126 Sekunden. Auf der Produktseite nennt fal allerdings 12,45 Sekunden. In vorläufigen Nutzer-Vergleichstests von Artificial Analysis kam FLUX 3 Max auf 1.139 Elo-Punkte und liegt damit in der Spitzengruppe der Bild-zu-Video-Modelle.",
+     "Zum Start kostet eine Sekunde Video in 720p 0,0425 US-Dollar, 75 Prozent weniger als der Listenpreis von 0,17 Dollar; der Rabatt gilt laut fal bis zum 7. November. Black-Forest-Labs-Chef Robin Rombach erklärte, FLUX 3 sei als Grundlage gebaut worden, auf der andere aufbauen können. fal zeigt das Modell in einem Video auf seinem offiziellen Kanal."
+    ]
+   },
+   "bg": {
+    "t": "Десет секунди видео за около единадесет секунди: fal и Black Forest Labs пускат FLUX 3 Max",
+    "d": "ИИ платформата fal пусна заедно с германския стартъп Black Forest Labs от Фрайбург видеомодела FLUX 3 Max. Той трябва да е наравно с най-добрите модели, но да работи значително по-бързо.",
+    "body": [
+     "ИИ доставчикът fal представи в понеделник FLUX 3 Max – модел за създаване на видео от текст или неподвижни изображения. Основа е базовият модел FLUX 3 на стартъпа Black Forest Labs от Фрайбург. Изследователският екип на fal го е дообучил заедно с разработчиците, включително чрез обучение с подкрепление, и го е оптимизирал за по-бързи изчисления.",
+     "Според собствени измервания на fal десетсекундно видео се генерира за 10,95 секунди; конкурентният модел Seedance 2.5 се нуждае от 277,8 секунди, а оригиналният FLUX 3 – от малко над 126 секунди. На продуктовата страница fal обаче посочва 12,45 секунди. В предварителни сравнителни тестове с потребители на Artificial Analysis FLUX 3 Max получава 1139 точки Elo и се нарежда сред водещите модели за видео от изображение.",
+     "При старта една секунда видео в 720p струва 0,0425 щатски долара – със 75 процента по-малко от каталожната цена от 0,17 долара; отстъпката важи до 7 ноември, съобщава fal. Шефът на Black Forest Labs Робин Ромбах заяви, че FLUX 3 е създаден като основа, върху която други да надграждат. fal показва модела във видео в официалния си канал."
+    ]
+   },
+   "en": {
+    "t": "Ten seconds of video in about eleven seconds: fal and Black Forest Labs launch FLUX 3 Max",
+    "d": "AI platform fal has released the video model FLUX 3 Max together with Freiburg-based start-up Black Forest Labs. It is meant to match the best models while running considerably faster.",
+    "body": [
+     "AI provider fal on Monday unveiled FLUX 3 Max, a model for generating video from text or still images. It is based on the FLUX 3 foundation model from Freiburg-based start-up Black Forest Labs. fal’s research team post-trained it together with the developers, including with reinforcement learning, and optimised it for faster inference.",
+     "According to fal’s own measurements, a ten-second video is generated in 10.95 seconds; the rival model Seedance 2.5 needs 277.8 seconds and the original FLUX 3 just over 126 seconds. On its product page, however, fal states 12.45 seconds. In preliminary user preference tests by Artificial Analysis, FLUX 3 Max scored 1,139 Elo points, placing it among the top image-to-video models.",
+     "At launch, one second of 720p video costs 0.0425 US dollars, 75 per cent below the list price of 0.17 dollars; fal says the discount runs until 7 November. Black Forest Labs CEO Robin Rombach said FLUX 3 was built as a foundation for others to build on. fal presents the model in a video on its official channel."
+    ]
+   }
+  },
+  {
+   "id": "anthropic-kanada-verlage-klage",
+   "s": "ai",
+   "time": "12:30",
+   "mn": true,
+   "kl": {
+    "de": "Recht",
+    "bg": "Право",
+    "en": "Law"
+   },
+   "src": [
+    {
+     "n": "The Canadian Press via battlefordsNOW – News publishers launch copyright suit against AI company Anthropic in Ontario (19.10.2026)",
+     "u": "https://battlefordsnow.com/2026/10/19/news-publishers-launch-copyright-suit-against-ai-company-anthropic-in-ontario/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-20/anthropic-kanada-verlage-klage.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Charles Hoffman",
+    "lic": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Osgoode_Hall,_Toronto.jpg",
+    "alt": {
+     "de": "Symbolbild: Osgoode Hall in Toronto, Sitz von Gerichten der Provinz Ontario",
+     "bg": "Илюстративна снимка: Осгуд Хол в Торонто, седалище на съдилища в провинция Онтарио",
+     "en": "Symbolic image: Osgoode Hall in Toronto, home to courts of the province of Ontario"
+    }
+   },
+   "de": {
+    "t": "Urheberrecht: Kanadas große Zeitungsverlage verklagen Anthropic",
+    "d": "Postmedia, Torstar, The Globe and Mail und The Canadian Press werfen dem Claude-Entwickler vor, ihre Inhalte ohne Erlaubnis für KI-Modelle genutzt zu haben. Die Vorwürfe sind nicht bewiesen.",
+    "body": [
+     "Ein Bündnis kanadischer Nachrichtenverlage, darunter die größten Zeitungen des Landes, hat das KI-Unternehmen Anthropic vor einem Gericht in der Provinz Ontario verklagt. Zu den Klägern gehören Postmedia, Torstar, The Globe and Mail und die Nachrichtenagentur The Canadian Press. Die Klage wurde bereits am 6. Oktober eingereicht; zuerst hatte das Portal Cartt.ca darüber berichtet.",
+     "Die Verlage werfen dem Entwickler der Claude-Modelle Urheberrechtsverletzungen, ungerechtfertigte Bereicherung, Verstöße gegen die Nutzungsbedingungen ihrer Websites und die Umgehung technischer Schutzmaßnahmen vor. Laut Klageschrift kopiert Anthropic Texte aus dem Internet und von den Seiten der Verlage, um seine Modelle zu trainieren, und greift auch fortlaufend bei Nutzeranfragen darauf zu – ohne Zustimmung oder Lizenz.",
+     "Anthropic äußerte sich auf Anfrage zunächst nicht. Die Vorwürfe sind vor Gericht nicht bewiesen. Dieselben Verlage hatten 2024 gemeinsam mit dem Sender CBC/Radio-Canada bereits OpenAI verklagt; jenes Verfahren ist noch nicht abgeschlossen."
+    ]
+   },
+   "bg": {
+    "t": "Авторско право: големите канадски вестникарски издатели съдят Anthropic",
+    "d": "Postmedia, Torstar, The Globe and Mail и The Canadian Press обвиняват разработчика на Claude, че е използвал съдържанието им за ИИ модели без разрешение. Обвиненията не са доказани.",
+    "body": [
+     "Съюз на канадски издатели на новини, сред които най-големите вестници в страната, заведе дело срещу ИИ компанията Anthropic пред съд в провинция Онтарио. Сред ищците са Postmedia, Torstar, The Globe and Mail и информационната агенция The Canadian Press. Искът е подаден още на 6 октомври; първи за него съобщи порталът Cartt.ca.",
+     "Издателите обвиняват разработчика на моделите Claude в нарушаване на авторски права, неоснователно обогатяване, нарушаване на условията за ползване на техните сайтове и заобикаляне на технически мерки за защита. Според исковата молба Anthropic копира текстове от интернет и от сайтовете на издателите, за да обучава моделите си, и продължава да ги използва при запитвания на потребители – без съгласие или лиценз.",
+     "Anthropic първоначално не отговори на запитване. Обвиненията не са доказани в съда. Същите издатели заедно с обществената медия CBC/Radio-Canada заведоха дело срещу OpenAI още през 2024 г.; то все още не е приключило."
+    ]
+   },
+   "en": {
+    "t": "Copyright: Canada’s major newspaper publishers sue Anthropic",
+    "d": "Postmedia, Torstar, The Globe and Mail and The Canadian Press accuse the Claude developer of using their content for AI models without permission. The allegations are unproven.",
+    "body": [
+     "A coalition of news publishers that includes Canada’s largest newspapers has sued AI company Anthropic in a court in the province of Ontario. The plaintiffs include Postmedia, Torstar, The Globe and Mail and the news agency The Canadian Press. The claim was filed on 6 October; news site Cartt.ca first reported it.",
+     "The publishers accuse the developer of the Claude models of copyright infringement, unjust enrichment, breaching the terms of service of their websites and circumventing technological protection measures. According to the statement of claim, Anthropic copies text from the internet and from the publishers’ sites to train its models and also keeps accessing it in response to user prompts – without consent or a licence.",
+     "Anthropic did not initially respond to a request for comment. The allegations have not been proven in court. The same publishers, together with broadcaster CBC/Radio-Canada, sued OpenAI in 2024; that case has not yet been resolved."
+    ]
+   }
+  },
+  {
+   "id": "openai-finanzierungsrunde-boersengang-anthropic",
+   "s": "ai",
+   "time": "12:30",
+   "mn": true,
+   "kl": {
+    "de": "Finanzierung",
+    "bg": "Финансиране",
+    "en": "Funding"
+   },
+   "src": [
+    {
+     "n": "Reuters via The Star – Exclusive: OpenAI seeks to accelerate fundraising ahead of Anthropic IPO, sources say (20.10.2026)",
+     "u": "https://www.thestar.com.my/tech/tech-news/2026/10/20/exclusive-openai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-sources-say"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-20/openai-finanzierungsrunde-boersengang-anthropic.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Coolcaesar",
+    "lic": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1515_Third_Street.jpg",
+    "alt": {
+     "de": "Archivbild: Bürogebäude 1515 Third Street in San Francisco, damals Sitz von OpenAI (Aufnahme Juni 2025)",
+     "bg": "Архивна снимка: офис сградата на 1515 Third Street в Сан Франциско, тогава седалище на OpenAI (юни 2025 г.)",
+     "en": "Archive image: the office building at 1515 Third Street in San Francisco, then home of OpenAI (June 2025)"
+    }
+   },
+   "de": {
+    "t": "Wettlauf ums Kapital: OpenAI will vor Anthropics Börsengang Milliarden einsammeln",
+    "d": "OpenAI drückt laut Reuters bei einer neuen Finanzierungsrunde aufs Tempo – noch vor dem für Mitte November erwarteten Börsendebüt von Anthropic. Die Bewertung könnte über 1,4 Billionen Dollar liegen.",
+    "body": [
+     "OpenAI wirbt nach einem Bericht der Nachrichtenagentur Reuters um Zusagen von Investoren, bevor der Rivale Anthropic voraussichtlich Mitte November an die Börse geht. Die Runde über rund 30 Milliarden US-Dollar könnte OpenAI mit mehr als 1,4 Billionen Dollar bewerten, berichtete Reuters unter Berufung auf mit der Sache vertraute Personen. SoftBank, der Investor MGX aus Abu Dhabi und weitere bisherige Geldgeber seien im Gespräch.",
+     "Manche Investoren sehen darin den Versuch, Kapital zu binden, das sonst in Anthropics Börsengang fließen könnte. Laut einer Quelle liegt OpenAIs auf das Jahr hochgerechneter Umsatz bei 50 Milliarden Dollar, bis Jahresende würden 70 Milliarden erwartet. Im März war OpenAI nach einer Runde über 122 Milliarden Dollar mit 852 Milliarden bewertet worden.",
+     "Hinzu kommt ein Streit über die Bilanzierung: OpenAI wirft Anthropic vor, Umsätze aufzublähen, indem es den Bruttowert von Verträgen über Cloud-Partner verbucht; Anthropic erklärt, etablierten Rechnungslegungsregeln zu folgen. OpenAI und SoftBank lehnten einen Kommentar ab, Anthropic und MGX antworteten Reuters zunächst nicht."
+    ]
+   },
+   "bg": {
+    "t": "Надпревара за капитал: OpenAI иска да събере милиарди преди борсовия дебют на Anthropic",
+    "d": "OpenAI ускорява нов кръг на финансиране, съобщава Reuters – още преди очаквания в средата на ноември борсов дебют на Anthropic. Оценката може да надхвърли 1,4 трилиона долара.",
+    "body": [
+     "OpenAI търси ангажименти от инвеститори, преди съперникът Anthropic да излезе на борсата, вероятно в средата на ноември, съобщава агенция Reuters. Кръгът от около 30 милиарда щатски долара може да оцени OpenAI на над 1,4 трилиона долара, позовавайки се на запознати източници, пише Reuters. В преговори са SoftBank, инвеститорът MGX от Абу Даби и други досегашни финансиращи.",
+     "Някои инвеститори виждат в това опит да се привлече капитал, който иначе би отишъл към борсовото предлагане на Anthropic. Според един източник приходите на OpenAI на годишна база са 50 милиарда долара, а до края на годината се очакват 70 милиарда. През март OpenAI беше оценена на 852 милиарда долара след кръг от 122 милиарда.",
+     "Към това се добавя и спор за счетоводството: OpenAI обвинява Anthropic, че надува приходите си, като отчита брутната стойност на договори чрез облачни партньори; Anthropic заявява, че следва утвърдени счетоводни правила. OpenAI и SoftBank отказаха коментар, а Anthropic и MGX не отговориха веднага на Reuters."
+    ]
+   },
+   "en": {
+    "t": "Race for capital: OpenAI seeks billions before Anthropic’s stock market debut",
+    "d": "OpenAI is speeding up a new funding round, Reuters reports – ahead of Anthropic’s stock market debut, expected in mid-November. The valuation could exceed 1.4 trillion dollars.",
+    "body": [
+     "OpenAI is seeking investor commitments before rival Anthropic’s expected stock market listing in mid-November, according to a report by the Reuters news agency. The round of around 30 billion US dollars could value OpenAI at more than 1.4 trillion dollars, Reuters reported, citing people familiar with the matter. SoftBank, Abu Dhabi investor MGX and other existing backers are said to be in talks.",
+     "Some investors see the move as an attempt to lock up capital that might otherwise flow into Anthropic’s IPO. According to one source, OpenAI’s annualised revenue stands at 50 billion dollars, with 70 billion expected by the end of the year. In March, OpenAI was valued at 852 billion dollars after a 122-billion-dollar round.",
+     "There is also a dispute over accounting: OpenAI accuses Anthropic of inflating revenue by booking the gross value of contracts sold through cloud partners; Anthropic says it follows established accounting practices. OpenAI and SoftBank declined to comment, while Anthropic and MGX did not immediately respond to Reuters."
+    ]
+   }
+  },
+  {
+   "id": "whatsapp-versteckte-ki-anweisungen",
+   "s": "ai",
+   "time": "12:30",
+   "mn": true,
+   "kl": {
+    "de": "Datenschutz",
+    "bg": "Защита на данните",
+    "en": "Privacy"
+   },
+   "src": [
+    {
+     "n": "Notebookcheck – WhatsApp help pages told its AI not to mention privacy regulators (20.10.2026)",
+     "u": "https://www.notebookcheck.net/WhatsApp-help-pages-told-its-AI-not-to-mention-privacy-regulators.1428920.0.html"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-20/whatsapp-versteckte-ki-anweisungen.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Yuri Samoilov",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Whatsapp_app_icon_on_smartphone_screen_(perspective_render)_(49897226177).jpg",
+    "alt": {
+     "de": "Symbolbild: WhatsApp-Symbol auf einem Smartphone-Bildschirm",
+     "bg": "Илюстративна снимка: иконата на WhatsApp на екран на смартфон",
+     "en": "Symbolic image: WhatsApp icon on a smartphone screen"
+    }
+   },
+   "de": {
+    "t": "Versteckte KI-Regeln: WhatsApp-Hilfeseiten verboten Chatbot Verweis auf Datenschützer",
+    "d": "Auf rund 80 WhatsApp-Hilfeseiten standen unsichtbare Anweisungen für einen KI-Chatbot – etwa, Nutzern keine Datenschutzbehörde zu empfehlen. WhatsApp spricht von einem inzwischen behobenen Fehler.",
+    "body": [
+     "Auf etwa 80 Hilfeseiten von WhatsApp waren 102 für normale Leser unsichtbare Anweisungsblöcke für einen KI-Chatbot hinterlegt. Entdeckt hat sie Dan Saltman vom Datenschutzunternehmen Redact, der alle 545 vom WhatsApp-Hilfecenter verlinkten Seiten gelesen und archiviert hat.",
+     "Auf der Seite zur Löschung des Kontos wurde der Bot demnach angewiesen, nicht zu empfehlen, sich an eine Datenschutzbehörde oder eine andere Aufsichtsbehörde zu wenden. Ein weiterer Block, der greifen sollte, wenn Nutzer Anwälte, Gerichte oder Klagen erwähnen, untersagte es, Datenschutzvorschriften zu nennen oder auszulegen.",
+     "Ein WhatsApp-Sprecher sagte dem Magazin Wired, es handle sich um Anweisungen an den Chatbot, nicht direkt an Nutzer; die Sichtbarkeit gehe auf einen inzwischen behobenen Fehler zurück. Bis zum 18. Oktober waren die Blöcke entfernt. Ob der Chatbot die Anweisungen tatsächlich befolgte, hat Redact nicht getestet; geprüft wurden nur die englischsprachigen Seiten."
+    ]
+   },
+   "bg": {
+    "t": "Скрити ИИ правила: помощни страници на WhatsApp забраняваха на чатбот да сочи регулатори",
+    "d": "На около 80 помощни страници на WhatsApp е имало невидими инструкции за ИИ чатбот – например да не препоръчва на потребителите органи за защита на данните. WhatsApp говори за вече отстранена грешка.",
+    "body": [
+     "На около 80 помощни страници на WhatsApp е имало 102 невидими за обикновените читатели блока с инструкции за ИИ чатбот. Откри ги Дан Солтман от компанията за защита на личните данни Redact, който е прочел и архивирал всички 545 страници, към които води помощният център на WhatsApp.",
+     "На страницата за изтриване на профил ботът е бил инструктиран да не препоръчва обръщане към орган за защита на данните или друг надзорен орган. Друг блок, който е трябвало да се задейства, когато потребители споменат адвокати, съдилища или дела, е забранявал да се цитират или тълкуват правила за защита на личните данни.",
+     "Говорител на WhatsApp заяви пред списание Wired, че това са инструкции към чатбота, а не директно към потребителите; видимостта им се дължала на вече отстранена грешка. До 18 октомври блоковете са били премахнати. Redact не е проверявала дали чатботът действително е следвал инструкциите; проверени са само страниците на английски език."
+    ]
+   },
+   "en": {
+    "t": "Hidden AI rules: WhatsApp help pages told chatbot not to point users to regulators",
+    "d": "Around 80 WhatsApp help pages contained invisible instructions for an AI chatbot – such as not recommending a data protection authority to users. WhatsApp blames a bug that has since been fixed.",
+    "body": [
+     "About 80 WhatsApp help pages contained 102 blocks of instructions for an AI chatbot that were invisible to ordinary readers. They were discovered by Dan Saltman of privacy company Redact, who read and archived all 545 pages linked from WhatsApp’s help centre.",
+     "On the account deletion page, the bot was reportedly instructed not to recommend contacting a data protection authority or any other supervisory authority. Another block, meant to apply when users mentioned lawyers, courts or legal action, told it not to cite or interpret data protection regulations.",
+     "A WhatsApp spokesperson told Wired magazine these were instructions to the chatbot, not directly to users, and that their visibility was due to a bug that has since been fixed. By 18 October the blocks had been removed. Redact did not test whether the chatbot actually followed the instructions and checked only the English-language pages."
+    ]
+   }
+  }
+ ]
+}
