@@ -1233,8 +1233,11 @@
        "date": "2026-10-19",
        "team1": "Etar Veliko Tarnovo",
        "team2": "Spartak Varna",
-       "ft": null,
-       "note": "19:00"
+       "ft": [
+        2,
+        4
+       ],
+       "note": ""
       },
       {
        "date": "2026-10-17",
@@ -1380,10 +1383,22 @@
        "date": "2026-10-19",
        "team1": "Dobrudzha Dobrich",
        "team2": "Montana",
-       "ft": null,
-       "note": "18:00"
+       "ft": [
+        2,
+        1
+       ],
+       "note": ""
       }
      ]
+    },
+    {
+     "name": {
+      "bg": "1/8-финали",
+      "de": "Achtelfinale",
+      "en": "Round of 16"
+     },
+     "date": "2026-12-11/2026-12-14",
+     "matches": []
     }
    ],
    "src": [
@@ -1407,7 +1422,10 @@
     "https://www.segabg.com/category-sport/kupa-na-bulgariya-116-finali-rezultati-i-programa-video-reportazhi-1",
     "https://fakti.bg/sport/1091232-pet-sblasaka-ot-kupata-na-balgaria-dnes",
     "https://www.bta.bg/bg/news/sport/1227307-tsska-specheli-trudno-v-nesebar-s-dva-gola-v-kraya-arda-i-botev-vratsa-sashto-p",
-    "https://mediamall.info/news/kupata-na-balgariya-levski-i-botev-s-ubeditelni-pobedi-cska-se-izmachi-v-nesebar-78861news.html"
+    "https://mediamall.info/news/kupata-na-balgariya-levski-i-botev-s-ubeditelni-pobedi-cska-se-izmachi-v-nesebar-78861news.html",
+    "https://www.bta.bg/bg/news/sport/1228196-spartak-varna-eliminira-etar-sled-chetiri-gola-prez-vtoroto-poluvreme-i-prodal",
+    "https://www.bta.bg/bg/news/sport/1228173-dobrudzha-otstrani-montana-v-sreshta-ot-1-16-finalite-za-kupata-na-balgariya",
+    "https://sportal.bg/news-2026101909451095530"
    ]
   }
  ],
