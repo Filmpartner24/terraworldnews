@@ -508,7 +508,10 @@
   {
    "date": "2026-10-21",
    "time": "18:45",
-   "ft": null,
+   "ft": [
+    2,
+    4
+   ],
    "r": 3,
    "t1": "LOSC Lille",
    "t2": "Galatasaray A.Ş."
@@ -516,7 +519,10 @@
   {
    "date": "2026-10-21",
    "time": "18:45",
-   "ft": null,
+   "ft": [
+    4,
+    1
+   ],
    "r": 3,
    "t1": "Como 1907",
    "t2": "Manchester United"
@@ -1356,6 +1362,17 @@
   },
   {
    "pos": 6,
+   "team": "Como 1907",
+   "p": 3,
+   "w": 2,
+   "d": 0,
+   "l": 1,
+   "gf": 10,
+   "ga": 5,
+   "pts": 6
+  },
+  {
+   "pos": 7,
    "team": "Manchester City",
    "p": 3,
    "w": 2,
@@ -1366,7 +1383,7 @@
    "pts": 6
   },
   {
-   "pos": 7,
+   "pos": 8,
    "team": "Sporting Clube de Portugal",
    "p": 2,
    "w": 2,
@@ -1377,7 +1394,7 @@
    "pts": 6
   },
   {
-   "pos": 8,
+   "pos": 9,
    "team": "Arsenal FC",
    "p": 2,
    "w": 2,
@@ -1388,7 +1405,7 @@
    "pts": 6
   },
   {
-   "pos": 9,
+   "pos": 10,
    "team": "Real Madrid C.F.",
    "p": 2,
    "w": 2,
@@ -1399,7 +1416,7 @@
    "pts": 6
   },
   {
-   "pos": 10,
+   "pos": 11,
    "team": "Real Betis Balompié",
    "p": 2,
    "w": 2,
@@ -1410,7 +1427,7 @@
    "pts": 6
   },
   {
-   "pos": 11,
+   "pos": 12,
    "team": "Borussia Dortmund",
    "p": 3,
    "w": 2,
@@ -1421,7 +1438,7 @@
    "pts": 6
   },
   {
-   "pos": 12,
+   "pos": 13,
    "team": "FC Bayern München",
    "p": 2,
    "w": 1,
@@ -1432,7 +1449,7 @@
    "pts": 4
   },
   {
-   "pos": 13,
+   "pos": 14,
    "team": "AS Roma",
    "p": 3,
    "w": 1,
@@ -1443,7 +1460,7 @@
    "pts": 4
   },
   {
-   "pos": 14,
+   "pos": 15,
    "team": "FC Shakhtar Donetsk",
    "p": 2,
    "w": 1,
@@ -1454,7 +1471,7 @@
    "pts": 4
   },
   {
-   "pos": 15,
+   "pos": 16,
    "team": "Atlético de Madrid",
    "p": 3,
    "w": 1,
@@ -1465,7 +1482,7 @@
    "pts": 4
   },
   {
-   "pos": 16,
+   "pos": 17,
    "team": "PSV Eindhoven",
    "p": 3,
    "w": 1,
@@ -1476,29 +1493,7 @@
    "pts": 4
   },
   {
-   "pos": 17,
-   "team": "Como 1907",
-   "p": 2,
-   "w": 1,
-   "d": 0,
-   "l": 1,
-   "gf": 6,
-   "ga": 4,
-   "pts": 3
-  },
-  {
    "pos": 18,
-   "team": "Manchester United",
-   "p": 2,
-   "w": 1,
-   "d": 0,
-   "l": 1,
-   "gf": 4,
-   "ga": 2,
-   "pts": 3
-  },
-  {
-   "pos": 19,
    "team": "Villarreal CF",
    "p": 3,
    "w": 1,
@@ -1509,13 +1504,24 @@
    "pts": 3
   },
   {
-   "pos": 20,
+   "pos": 19,
    "team": "Club Brugge KV",
    "p": 2,
    "w": 1,
    "d": 0,
    "l": 1,
    "gf": 6,
+   "ga": 6,
+   "pts": 3
+  },
+  {
+   "pos": 20,
+   "team": "Manchester United",
+   "p": 3,
+   "w": 1,
+   "d": 0,
+   "l": 2,
+   "gf": 5,
    "ga": 6,
    "pts": 3
   },
@@ -1554,6 +1560,17 @@
   },
   {
    "pos": 24,
+   "team": "Galatasaray A.Ş.",
+   "p": 3,
+   "w": 1,
+   "d": 0,
+   "l": 2,
+   "gf": 6,
+   "ga": 9,
+   "pts": 3
+  },
+  {
+   "pos": 25,
    "team": "Feyenoord",
    "p": 2,
    "w": 1,
@@ -1564,7 +1581,7 @@
    "pts": 3
   },
   {
-   "pos": 25,
+   "pos": 26,
    "team": "Sabah FC",
    "p": 3,
    "w": 1,
@@ -1575,7 +1592,7 @@
    "pts": 3
   },
   {
-   "pos": 26,
+   "pos": 27,
    "team": "FK Bodø/Glimt",
    "p": 3,
    "w": 1,
@@ -1586,7 +1603,7 @@
    "pts": 3
   },
   {
-   "pos": 27,
+   "pos": 28,
    "team": "AEK Athens FC",
    "p": 3,
    "w": 1,
@@ -1597,7 +1614,7 @@
    "pts": 3
   },
   {
-   "pos": 28,
+   "pos": 29,
    "team": "Fenerbahçe SK",
    "p": 3,
    "w": 0,
@@ -1608,7 +1625,7 @@
    "pts": 2
   },
   {
-   "pos": 29,
+   "pos": 30,
    "team": "Viking FK",
    "p": 2,
    "w": 0,
@@ -1619,7 +1636,7 @@
    "pts": 1
   },
   {
-   "pos": 30,
+   "pos": 31,
    "team": "SK Slavia Praha",
    "p": 3,
    "w": 0,
@@ -1630,7 +1647,7 @@
    "pts": 1
   },
   {
-   "pos": 31,
+   "pos": 32,
    "team": "FC Internazionale Milano",
    "p": 2,
    "w": 0,
@@ -1641,7 +1658,7 @@
    "pts": 0
   },
   {
-   "pos": 32,
+   "pos": 33,
    "team": "LASK",
    "p": 2,
    "w": 0,
@@ -1652,7 +1669,7 @@
    "pts": 0
   },
   {
-   "pos": 33,
+   "pos": 34,
    "team": "FC Porto",
    "p": 3,
    "w": 0,
@@ -1663,25 +1680,14 @@
    "pts": 0
   },
   {
-   "pos": 34,
-   "team": "LOSC Lille",
-   "p": 2,
-   "w": 0,
-   "d": 0,
-   "l": 2,
-   "gf": 2,
-   "ga": 6,
-   "pts": 0
-  },
-  {
    "pos": 35,
-   "team": "Galatasaray A.Ş.",
-   "p": 2,
+   "team": "LOSC Lille",
+   "p": 3,
    "w": 0,
    "d": 0,
-   "l": 2,
-   "gf": 2,
-   "ga": 7,
+   "l": 3,
+   "gf": 4,
+   "ga": 10,
    "pts": 0
   },
   {
