@@ -1,0 +1,606 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Powering the AI Revolution: The Future of Data Centers with Ben Lee | Penn Engineering</title>
+    <meta charset="UTF-8">
+    <!-- force IE out of compatability mode for any version -->
+    <meta http-equiv="X-UA-Compatible" content="IE=11; IE=EDGE"/>
+    <!-- force mobile view 100% -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Inventing the Future">
+    <meta name="author" content="Penn Engineering">
+    <meta name="keywords" content="Penn Engineering">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta property="og:title" content="Powering the AI Revolution: The Future of Data Centers with Ben Lee">
+    <meta property="og:description" content="As artificial intelligence expands, so does its demand for electricity, water and computing infrastructure. Penn Engineering’s Ben Lee explores how chip design, data center operations and advances in computer architecture could make AI more efficient and reduce its environmental footprint.">
+    <meta property="og:image" content="https://www.engineering.upenn.edu/wp-content/uploads/2026/10/P1190237.jpg">
+    <meta property="og:url" content="https://www.engineering.upenn.edu/stories/powering-the-ai-revolution-the-future-of-data-centers-with-ben-lee/">
+    <meta property="og:site_name" content="Penn Engineering">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link href="https://www.engineering.upenn.edu/wp-content/themes/penn-seas/src/img/favicon.ico" rel="shortcut icon"/>
+    <link rel="pingback" href="https://www.engineering.upenn.edu/xmlrpc.php">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-TSCJ3F2P"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'GTM-TSCJ3F2P');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TSCJ3F2P');</script>
+    <!-- End Google Tag Manager -->
+        <meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.engineering.upenn.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.engineering.upenn.edu%2Fstories%2Fpowering-the-ai-revolution-the-future-of-data-centers-with-ben-lee%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.engineering.upenn.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.engineering.upenn.edu%2Fstories%2Fpowering-the-ai-revolution-the-future-of-data-centers-with-ben-lee%2F&#038;format=xml" />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='simple-banner-style-css' href='https://www.engineering.upenn.edu/wp-content/plugins/simple-banner/simple-banner.css?ver=3.3.3' media='all' />
+<link rel='stylesheet' id='swipercss-css' href='//cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css' media='all' />
+<link rel='stylesheet' id='animate-css' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.1/animate.min.css' media='all' />
+<link rel='stylesheet' id='fancyboxcss-css' href='https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0.0/dist/fancybox.css?ver=4.0.0' media='all' />
+<link rel='stylesheet' id='app-css-css' href='https://www.engineering.upenn.edu/wp-content/themes/penn-seas/dist/css/main-Bs5surgF.css?ver=5269' media='all' />
+<link rel='stylesheet' id='slb_core-css' href='https://www.engineering.upenn.edu/wp-content/plugins/simple-lightbox/client/css/app.css?ver=2.9.5' media='all' />
+<link rel='stylesheet' id='child-styles-css' href='https://www.engineering.upenn.edu/wp-content/themes/penn-seas-home/style.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='mast-listing-padding-fix-css' href='https://www.engineering.upenn.edu/wp-content/themes/penn-seas/src/css/listing-padding-fix.css?ver=1792527290' media='all' />
+<script id="jquery-core-js" src="https://www.engineering.upenn.edu/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="simple-banner-script-js-before">
+const simpleBannerScriptParams = {"pro_version_enabled":"","debug_mode":"","id":19525,"version":"3.3.3","banner_params":[{"hide_simple_banner":"yes","simple_banner_prepend_element":"","simple_banner_position":"","header_margin":"","header_padding":"","wp_body_open_enabled":"","wp_body_open":true,"simple_banner_z_index":"","disabled_on_current_page":false,"disabled_pages_array":[],"is_current_page_a_post":true,"disabled_on_posts":"","simple_banner_disabled_page_paths":"","simple_banner_font_size":"","simple_banner_color":"#63c7ff","simple_banner_text_color":"#fffffff","simple_banner_link_color":"#db2929","simple_banner_close_color":"#db2929","simple_banner_text":"<strong>Commencement 2026:<\/strong><br \/>For information regarding Penn Engineering\u2019s Undergraduate, Master\u2019s and Doctoral Commencement Ceremonies,<br \/>or the Open House on Monday, May 18, please visit the School\u2019s <a href=\"https:\/\/events.seas.upenn.edu\/commencement\/\">Commencement Website<\/a>.","simple_banner_custom_css":"","simple_banner_scrolling_custom_css":"","simple_banner_text_custom_css":"","simple_banner_button_css":"","site_custom_css":"","keep_site_custom_css":"","site_custom_js":"","keep_site_custom_js":"","close_button_enabled":"on","close_button_expiration":"","close_button_cookie_set":false,"current_date":{"date":"2026-10-21 11:27:43.528739","timezone_type":3,"timezone":"UTC"},"start_date":{"date":"2026-10-21 11:27:43.528744","timezone_type":3,"timezone":"UTC"},"end_date":{"date":"2026-10-21 11:27:43.528747","timezone_type":3,"timezone":"UTC"},"simple_banner_start_after_date":"","simple_banner_remove_after_date":"","simple_banner_insert_inside_element":""}]}
+//# sourceURL=simple-banner-script-js-before
+</script>
+<script id="simple-banner-script-js" src="https://www.engineering.upenn.edu/wp-content/plugins/simple-banner/simple-banner.js?ver=3.3.3"></script>
+<link rel="https://api.w.org/" href="https://www.engineering.upenn.edu/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.engineering.upenn.edu/wp-json/wp/v2/posts/19525" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.engineering.upenn.edu/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.3" />
+<link rel="canonical" href="https://www.engineering.upenn.edu/stories/powering-the-ai-revolution-the-future-of-data-centers-with-ben-lee/" />
+<link rel='shortlink' href='https://www.engineering.upenn.edu/?p=19525' />
+<style id="simple-banner-hide" type="text/css">.simple-banner{display:none;}</style><style id="simple-banner-background-color" type="text/css">.simple-banner{background:#63c7ff;}</style><style id="simple-banner-text-color" type="text/css">.simple-banner .simple-banner-text{color:#fffffff;}</style><style id="simple-banner-link-color" type="text/css">.simple-banner .simple-banner-text a{color:#db2929;}</style><style id="simple-banner-z-index" type="text/css">.simple-banner{z-index: 99999;}</style><style id="simple-banner-close-color" type="text/css">.simple-banner .simple-banner-button{color:#db2929;}</style><style id="simple-banner-site-custom-css-dummy" type="text/css"></style><script id="simple-banner-site-custom-js-dummy" type="text/javascript"></script><link rel="icon" href="https://www.engineering.upenn.edu/wp-content/uploads/2025/11/cropped-cropped-penn-engineering-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.engineering.upenn.edu/wp-content/uploads/2025/11/cropped-cropped-penn-engineering-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.engineering.upenn.edu/wp-content/uploads/2025/11/cropped-cropped-penn-engineering-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.engineering.upenn.edu/wp-content/uploads/2025/11/cropped-cropped-penn-engineering-favicon-270x270.png" />
+<style id="wp-custom-css">
+
+@media (min-width: 992px) {
+    .split-content.cutout-style .col-lg-4:first-child .body-copy {
+        padding-left: 40px;
+        padding-right: 32px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+</style>
+</head>
+
+<body class="wp-singular post-template-default single single-post postid-19525 single-format-standard wp-theme-penn-seas wp-child-theme-penn-seas-home">
+        <!-- Google Tag Manager -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSCJ3F2P" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager -->
+    
+    <header role="banner" class="site-header navigation-off">
+        <!-- Mobile Header -->
+        <div class="mobile-wrapper d-block d-lg-none">
+            <div class="mobile-wrapper container d-flex ">
+                <div class="row align-items-center no-gutters">
+                    <div class="col branding">
+                        <a href="https://www.engineering.upenn.edu" title="Penn Engineering">
+                                                            <img src="https://www.engineering.upenn.edu/wp-content/uploads/2024/12/logo_blue@4x-1.png" alt="Penn Engineering" class="logo"/>
+                                                    </a>
+                    </div>
+                    <div class="col-auto text-right">
+                        <a href="#" class="expand btn btn-red-red nav-toggle">Menu<i></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="expand-menu flex-column justify-content-start">
+            <div class="search">
+                <div class="container pt-35 pb-35">
+                    <div class="row">
+                        <div class="col-12">
+                            <script async src="https://cse.google.com/cse.js?cx=013858703957139678513:03bertgvh3k">
+                            </script>
+                            <div class="gcse-search"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+
+            <div class="nav-background bg-white pt-40 d-lg-none">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <nav class="primary-navigation">
+                                <ul id="menu-main-navigation" class="menu"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1079" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1079 nav-link"><a title="About" href="https://www.engineering.upenn.edu/about/" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-1079"><i class="fas fa-plus"></i>About</a>
+<div  id="menu-dropdown-1079">
+<div class="container"><div class="row align-items-center"><div class="col-4 d-none d-lg-block"><img src="https://www.engineering.upenn.edu/wp-content/uploads/2024/12/20231102_SUCAR_0028-1.jpg"></div><div class="col-6 pt-lg-35 pb-lg-20"><ul class ="submenu" role="menu">	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1080" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1080 nav-link"><a title="A Statement from Dean Vijay Kumar" href="https://www.engineering.upenn.edu/about/dean-statement/" class="dropdown-item"><i class="fas fa-plus"></i>A Statement from Dean Vijay Kumar</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-3294" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3294 nav-link"><a title="Mission, Vision and Values" href="https://www.engineering.upenn.edu/mission-vision-and-values/" class="dropdown-item"><i class="fas fa-plus"></i>Mission, Vision and Values</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1086" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1086 nav-link"><a title="History &amp; Heritage" href="https://history.seas.upenn.edu/" class="dropdown-item"><i class="fas fa-plus"></i>History &#038; Heritage</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1083" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1083 nav-link"><a title="School Leadership" href="https://www.engineering.upenn.edu/about/school-leadership/" class="dropdown-item"><i class="fas fa-plus"></i>School Leadership</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1081" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1081 nav-link"><a title="Advisory Boards" href="https://www.engineering.upenn.edu/about/advisory-boards/" class="dropdown-item"><i class="fas fa-plus"></i>Advisory Boards</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1082" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1082 nav-link"><a title="Administrative Offices" href="https://www.engineering.upenn.edu/about/administrative-offices/" class="dropdown-item"><i class="fas fa-plus"></i>Administrative Offices</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2721" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2721 nav-link"><a title="Communications &amp; Resources" href="https://www.engineering.upenn.edu/communications-and-resources/" class="dropdown-item"><i class="fas fa-plus"></i>Communications &#038; Resources</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-17422" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17422 nav-link"><a title="Fast Facts" href="https://www.engineering.upenn.edu/fast-facts/" class="dropdown-item"><i class="fas fa-plus"></i>Fast Facts</a></li>
+</ul></div>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1087" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1087 nav-link"><a title="Admissions" href="https://www.engineering.upenn.edu/admissions/" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-1087"><i class="fas fa-plus"></i>Admissions</a>
+<div  id="menu-dropdown-1087">
+<div class="container"><div class="row align-items-center"><div class="col-4 d-none d-lg-block"><img src="https://www.engineering.upenn.edu/wp-content/uploads/2025/02/towne-building.jpg"></div><div class="col-6 pt-lg-35 pb-lg-20"><ul class ="submenu" role="menu">	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1088" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1088 nav-link"><a title="Visit Penn Engineering" href="https://www.engineering.upenn.edu/admissions/visit-penn-engineering/" class="dropdown-item"><i class="fas fa-plus"></i>Visit Penn Engineering</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-17939" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17939 nav-link"><a title="Undergraduate" href="https://www.engineering.upenn.edu/admissions/undergraduate-admissions/" class="dropdown-item"><i class="fas fa-plus"></i>Undergraduate</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1110" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1110 nav-link"><a title="Graduate" href="https://gradadm.seas.upenn.edu/masters/" class="dropdown-item"><i class="fas fa-plus"></i>Graduate</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1111" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1111 nav-link"><a title="Doctorate" href="https://gradadm.seas.upenn.edu/doctoral/" class="dropdown-item"><i class="fas fa-plus"></i>Doctorate</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1112" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1112 nav-link"><a title="Online Education" href="https://online.seas.upenn.edu/" class="dropdown-item"><i class="fas fa-plus"></i>Online Education</a></li>
+</ul></div>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1090" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1090 nav-link"><a title="Academics" href="https://www.engineering.upenn.edu/academics/" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-1090"><i class="fas fa-plus"></i>Academics</a>
+<div  id="menu-dropdown-1090">
+<div class="container"><div class="row align-items-center"><div class="col-4 d-none d-lg-block"><img src="https://www.engineering.upenn.edu/wp-content/uploads/2024/12/admissions-hero.jpg"></div><div class="col-6 pt-lg-35 pb-lg-20"><ul class ="submenu" role="menu">	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1091" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1091 nav-link"><a title="Programs" href="https://www.engineering.upenn.edu/academics/programs/" class="dropdown-item"><i class="fas fa-plus"></i>Programs</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1313" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1313 nav-link"><a title="Undergraduate" href="https://academics.seas.upenn.edu/ugrad/" class="dropdown-item"><i class="fas fa-plus"></i>Undergraduate</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1314" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1314 nav-link"><a title="Graduate" href="https://grad.seas.upenn.edu/" class="dropdown-item"><i class="fas fa-plus"></i>Graduate</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1761" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1761 nav-link"><a title="Departments" href="https://www.engineering.upenn.edu/academics/departments/" class="dropdown-item"><i class="fas fa-plus"></i>Departments</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1317" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1317 nav-link"><a title="Lifelong Learning" href="https://online.seas.upenn.edu/lifelong-learning/" class="dropdown-item"><i class="fas fa-plus"></i>Lifelong Learning</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1316" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1316 nav-link"><a title="Entrepreneurship" href="https://eent.seas.upenn.edu/" class="dropdown-item"><i class="fas fa-plus"></i>Entrepreneurship</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1312" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1312 nav-link"><a title="Online Education" href="https://online.seas.upenn.edu/" class="dropdown-item"><i class="fas fa-plus"></i>Online Education</a></li>
+</ul></div>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1097" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1097 nav-link"><a title="Engagement" href="https://www.engineering.upenn.edu/engagement/" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-1097"><i class="fas fa-plus"></i>Engagement</a>
+<div  id="menu-dropdown-1097">
+<div class="container"><div class="row align-items-center"><div class="col-4 d-none d-lg-block"><img src="https://www.engineering.upenn.edu/wp-content/uploads/2024/12/hey-day-picnic-040X-2.jpg"></div><div class="col-6 pt-lg-35 pb-lg-20"><ul class ="submenu" role="menu">	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1270" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1270 nav-link"><a title="Student Life" href="https://www.engineering.upenn.edu/engagement/student-life/" class="dropdown-item"><i class="fas fa-plus"></i>Student Life</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1078" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1078 nav-link"><a title="Community &#038; Outreach" href="https://www.engineering.upenn.edu/engagement/community-outreach/" class="dropdown-item"><i class="fas fa-plus"></i>Community &#038; Outreach</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1272 nav-link"><a title="Global Opportunities" href="https://www.engineering.upenn.edu/engagement/global-opportunities/" class="dropdown-item"><i class="fas fa-plus"></i>Global Opportunities</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1282" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1282 nav-link"><a title="Career Development" href="https://www.engineering.upenn.edu/engagement/student-career-development/" class="dropdown-item"><i class="fas fa-plus"></i>Career Development</a></li>
+</ul></div>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1328" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1328 nav-link"><a title="Faculty &amp; Research" href="https://www.engineering.upenn.edu/faculty-and-research/" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-1328"><i class="fas fa-plus"></i>Faculty &#038; Research</a>
+<div  id="menu-dropdown-1328">
+<div class="container"><div class="row align-items-center"><div class="col-4 d-none d-lg-block"><img src="https://www.engineering.upenn.edu/wp-content/uploads/2025/01/cdc-OZcQIhidMTw-unsplash-3.jpg"></div><div class="col-6 pt-lg-35 pb-lg-20"><ul class ="submenu" role="menu">	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1099" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1099 nav-link"><a title="Faculty Directory" href="https://directory.seas.upenn.edu/" class="dropdown-item"><i class="fas fa-plus"></i>Faculty Directory</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2431" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2431 nav-link"><a title="Faculty Awards" href="https://news.seas.upenn.edu/faculty-awards/" class="dropdown-item"><i class="fas fa-plus"></i>Faculty Awards</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1100" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1100 nav-link"><a title="Signature Initiatives" href="https://research.seas.upenn.edu/initiatives/" class="dropdown-item"><i class="fas fa-plus"></i>Signature Initiatives</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1101" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1101 nav-link"><a title="Centers &amp; Institutes" href="https://research.seas.upenn.edu/centers-institutes/" class="dropdown-item"><i class="fas fa-plus"></i>Centers &#038; Institutes</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1102" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1102 nav-link"><a title="Undergraduate Research" href="https://academics.seas.upenn.edu/ugrad/research/" class="dropdown-item"><i class="fas fa-plus"></i>Undergraduate Research</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-16773" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16773 nav-link"><a title="Corporate Engagement" href="https://research.seas.upenn.edu/corporate-engagement/" class="dropdown-item"><i class="fas fa-plus"></i>Corporate Engagement</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1695" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1695 nav-link"><a title="Endowed Professorships" href="https://www.engineering.upenn.edu/endowed-professorships/" class="dropdown-item"><i class="fas fa-plus"></i>Endowed Professorships</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1732" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732 nav-link"><a title="Energy and the Environment" href="https://www.engineering.upenn.edu/energy-and-the-environment/" class="dropdown-item"><i class="fas fa-plus"></i>Energy and the Environment</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-11739" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11739 nav-link"><a title="Open Faculty Positions" href="https://facultyjobs.upenn.edu/#school-engineering-and-applied-science" class="dropdown-item"><i class="fas fa-plus"></i>Open Faculty Positions</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-15511" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15511 nav-link"><a title="NAE Members" href="https://www.engineering.upenn.edu/nae-members/" class="dropdown-item"><i class="fas fa-plus"></i>NAE Members</a></li>
+</ul></div>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-15965" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-15965 nav-link"><a title="Strategic Plan" href="https://www.engineering.upenn.edu/about/strategic-plan/" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-15965"><i class="fas fa-plus"></i>Strategic Plan</a>
+<div  id="menu-dropdown-15965">
+<div class="container"><div class="row align-items-center"><div class="col-4 d-none d-lg-block"><img src="https://www.engineering.upenn.edu/wp-content/uploads/2025/12/Strat-Plan-crop.png"></div><div class="col-6 pt-lg-35 pb-lg-20"><ul class ="submenu" role="menu">	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-15968" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15968 nav-link"><a title="Big Ideas" href="https://www.engineering.upenn.edu/big-ideas/" class="dropdown-item"><i class="fas fa-plus"></i>Big Ideas</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-15967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15967 nav-link"><a title="Progress Updates" href="https://www.engineering.upenn.edu/penn-engineering-2030-strategic-plan-progress/" class="dropdown-item"><i class="fas fa-plus"></i>Progress Updates</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-16097" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16097 nav-link"><a title="Strategic Plan" href="https://www.engineering.upenn.edu/about/strategic-plan/" class="dropdown-item"><i class="fas fa-plus"></i>Strategic Plan</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-16206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16206 nav-link"><a title="Futures Fund" href="https://www.engineering.upenn.edu/futures-fund/" class="dropdown-item"><i class="fas fa-plus"></i>Futures Fund</a></li>
+</ul></div>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1104 nav-link"><a title="News &amp; Events" href="https://www.engineering.upenn.edu/news/" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-1104"><i class="fas fa-plus"></i>News &#038; Events</a>
+<div  id="menu-dropdown-1104">
+<div class="container"><div class="row align-items-center"><div class="col-4 d-none d-lg-block"><img src="https://www.engineering.upenn.edu/wp-content/uploads/2025/02/furness-library-p-101264-master-v1-026x.jpg"></div><div class="col-6 pt-lg-35 pb-lg-20"><ul class ="submenu" role="menu">	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1105" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1105 nav-link"><a title="Engineering News" href="https://news.seas.upenn.edu/newsroom/" class="dropdown-item"><i class="fas fa-plus"></i>Engineering News</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1106" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1106 nav-link"><a title="Engineering Stories" href="https://www.engineering.upenn.edu/stories/" class="dropdown-item"><i class="fas fa-plus"></i>Engineering Stories</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1107" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1107 nav-link"><a title="Events" href="https://events.engineering.upenn.edu/" class="dropdown-item"><i class="fas fa-plus"></i>Events</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-18122" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18122 nav-link"><a title="Event Space" href="https://events.engineering.upenn.edu/resources/" class="dropdown-item"><i class="fas fa-plus"></i>Event Space</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1108" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1108 nav-link"><a title="Penn Engineering Magazine" href="https://magazine.seas.upenn.edu/" class="dropdown-item"><i class="fas fa-plus"></i>Penn Engineering Magazine</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2469" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2469 nav-link"><a title="Newsletter" href="https://news.seas.upenn.edu/twpe-newsletter/" class="dropdown-item"><i class="fas fa-plus"></i>Newsletter</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1109" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1109 nav-link"><a title="Identity Kit" href="https://news.seas.upenn.edu/identity-kit/" class="dropdown-item"><i class="fas fa-plus"></i>Identity Kit</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-17980" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17980 nav-link"><a title="Podcast" href="https://news.seas.upenn.edu/innovation-and-impact-podcast/" class="dropdown-item"><i class="fas fa-plus"></i>Podcast</a></li>
+</ul></div>
+</li>
+</ul>                            </nav>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <nav class="utility-menu">
+                                <ul id="menu-utility-menu" class="menu"><li id="menu-item-2463" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2463"><a href="https://ai.seas.upenn.edu/">AI at Penn</a></li>
+<li id="menu-item-1267" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1267"><a href="https://dar.seas.upenn.edu/">Alumni</a></li>
+<li id="menu-item-17881" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17881"><a href="https://academics.seas.upenn.edu/">Current Students</a></li>
+<li id="menu-item-1762" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1762"><a href="https://www.engineering.upenn.edu/academics/departments/">Departments</a></li>
+<li id="menu-item-1269" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1269"><a href="https://giving.aws.cloud.upenn.edu/fund?program=ENG">Make a Gift</a></li>
+</ul>                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Desktop Header -->
+        <div class="desktop-wrapper bg-white d-none d-lg-block">
+            <div class="container">
+                <div class="row align-items-center no-gutters">
+                    <div class="col-2 branding">
+                        <a href="https://www.engineering.upenn.edu" title="Penn Engineering">
+                                                        <img src="https://www.engineering.upenn.edu/wp-content/uploads/2024/12/logo_blue@4x-1.png" alt="Penn Engineering" class="logo"/>
+                                                    </a>
+                    </div>
+                    <div class="col">
+                        <nav class="utility-menu">
+                            <ul id="menu-utility-menu-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2463"><a href="https://ai.seas.upenn.edu/">AI at Penn</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1267"><a href="https://dar.seas.upenn.edu/">Alumni</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17881"><a href="https://academics.seas.upenn.edu/">Current Students</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1762"><a href="https://www.engineering.upenn.edu/academics/departments/">Departments</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1269"><a href="https://giving.aws.cloud.upenn.edu/fund?program=ENG">Make a Gift</a></li>
+</ul>                        </nav>
+                    </div>
+                    <div class="col-auto">
+                        <div class="search-button">
+                            <a href="#" class="search-toggle expand">
+                                Search <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="primary-menu-wrapper d-none d-lg-block pt-20 pb-20">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <nav class="primary-menu">
+                                <ul id="menu-main-navigation-1" class="menu"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1079 nav-link"><a title="About" href="https://www.engineering.upenn.edu/about/" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-1079"><i class="fas fa-plus"></i>About</a>
+<div  id="menu-dropdown-1079">
+<div class="container"><div class="row align-items-center"><div class="col-4 d-none d-lg-block"><img src="https://www.engineering.upenn.edu/wp-content/uploads/2024/12/20231102_SUCAR_0028-1.jpg"></div><div class="col-6 pt-lg-35 pb-lg-20"><ul class ="submenu" role="menu">	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1080 nav-link"><a title="A Statement from Dean Vijay Kumar" href="https://www.engineering.upenn.edu/about/dean-statement/" class="dropdown-item"><i class="fas fa-plus"></i>A Statement from Dean Vijay Kumar</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3294 nav-link"><a title="Mission, Vision and Values" href="https://www.engineering.upenn.edu/mission-vision-and-values/" class="dropdown-item"><i class="fas fa-plus"></i>Mission, Vision and Values</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1086 nav-link"><a title="History &amp; Heritage" href="https://history.seas.upenn.edu/" class="dropdown-item"><i class="fas fa-plus"></i>History &#038; Heritage</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1083 nav-link"><a title="School Leadership" href="https://www.engineering.upenn.edu/about/school-leadership/" class="dropdown-item"><i class="fas fa-plus"></i>School Leadership</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1081 nav-link"><a title="Advisory Boards" href="https://www.engineering.upenn.edu/about/advisory-boards/" class="dropdown-item"><i class="fas fa-plus"></i>Advisory Boards</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1082 nav-link"><a title="Administrative Offices" href="https://www.engineering.upenn.edu/about/administrative-offices/" class="dropdown-item"><i class="fas fa-plus"></i>Administrative Offices</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2721 nav-link"><a title="Communications &amp; Resources" href="https://www.engineering.upenn.edu/communications-and-resources/" class="dropdown-item"><i class="fas fa-plus"></i>Communications &#038; Resources</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17422 nav-link"><a title="Fast Facts" href="https://www.engineering.upenn.edu/fast-facts/" class="dropdown-item"><i class="fas fa-plus"></i>Fast Facts</a></li>
+</ul></div>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1087 nav-link"><a title="Admissions" href="https://www.engineering.upenn.edu/admissions/" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-1087"><i class="fas fa-plus"></i>Admissions</a>
+<div  id="menu-dropdown-1087">
+<div class="container"><div class="row align-items-center"><div class="col-4 d-none d-lg-block"><img src="https://www.engineering.upenn.edu/wp-content/uploads/2025/02/towne-building.jpg"></div><div class="col-6 pt-lg-35 pb-lg-20"><ul class ="submenu" role="menu">	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1088 nav-link"><a title="Visit Penn Engineering" href="https://www.engineering.upenn.edu/admissions/visit-penn-engineering/" class="dropdown-item"><i class="fas fa-plus"></i>Visit Penn Engineering</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17939 nav-link"><a title="Undergraduate" href="https://www.engineering.upenn.edu/admissions/undergraduate-admissions/" class="dropdown-item"><i class="fas fa-plus"></i>Undergraduate</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1110 nav-link"><a title="Graduate" href="https://gradadm.seas.upenn.edu/masters/" class="dropdown-item"><i class="fas fa-plus"></i>Graduate</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1111 nav-link"><a title="Doctorate" href="https://gradadm.seas.upenn.edu/doctoral/" class="dropdown-item"><i class="fas fa-plus"></i>Doctorate</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1112 nav-link"><a title="Online Education" href="https://online.seas.upenn.edu/" class="dropdown-item"><i class="fas fa-plus"></i>Online Education</a></li>
+</ul></div>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1090 nav-link"><a title="Academics" href="https://www.engineering.upenn.edu/academics/" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-1090"><i class="fas fa-plus"></i>Academics</a>
+<div  id="menu-dropdown-1090">
+<div class="container"><div class="row align-items-center"><div class="col-4 d-none d-lg-block"><img src="https://www.engineering.upenn.edu/wp-content/uploads/2024/12/admissions-hero.jpg"></div><div class="col-6 pt-lg-35 pb-lg-20"><ul class ="submenu" role="menu">	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1091 nav-link"><a title="Programs" href="https://www.engineering.upenn.edu/academics/programs/" class="dropdown-item"><i class="fas fa-plus"></i>Programs</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1313 nav-link"><a title="Undergraduate" href="https://academics.seas.upenn.edu/ugrad/" class="dropdown-item"><i class="fas fa-plus"></i>Undergraduate</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1314 nav-link"><a title="Graduate" href="https://grad.seas.upenn.edu/" class="dropdown-item"><i class="fas fa-plus"></i>Graduate</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1761 nav-link"><a title="Departments" href="https://www.engineering.upenn.edu/academics/departments/" class="dropdown-item"><i class="fas fa-plus"></i>Departments</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1317 nav-link"><a title="Lifelong Learning" href="https://online.seas.upenn.edu/lifelong-learning/" class="dropdown-item"><i class="fas fa-plus"></i>Lifelong Learning</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1316 nav-link"><a title="Entrepreneurship" href="https://eent.seas.upenn.edu/" class="dropdown-item"><i class="fas fa-plus"></i>Entrepreneurship</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1312 nav-link"><a title="Online Education" href="https://online.seas.upenn.edu/" class="dropdown-item"><i class="fas fa-plus"></i>Online Education</a></li>
+</ul></div>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1097 nav-link"><a title="Engagement" href="https://www.engineering.upenn.edu/engagement/" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-1097"><i class="fas fa-plus"></i>Engagement</a>
+<div  id="menu-dropdown-1097">
+<div class="container"><div class="row align-items-center"><div class="col-4 d-none d-lg-block"><img src="https://www.engineering.upenn.edu/wp-content/uploads/2024/12/hey-day-picnic-040X-2.jpg"></div><div class="col-6 pt-lg-35 pb-lg-20"><ul class ="submenu" role="menu">	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1270 nav-link"><a title="Student Life" href="https://www.engineering.upenn.edu/engagement/student-life/" class="dropdown-item"><i class="fas fa-plus"></i>Student Life</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1078 nav-link"><a title="Community &#038; Outreach" href="https://www.engineering.upenn.edu/engagement/community-outreach/" class="dropdown-item"><i class="fas fa-plus"></i>Community &#038; Outreach</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1272 nav-link"><a title="Global Opportunities" href="https://www.engineering.upenn.edu/engagement/global-opportunities/" class="dropdown-item"><i class="fas fa-plus"></i>Global Opportunities</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1282 nav-link"><a title="Career Development" href="https://www.engineering.upenn.edu/engagement/student-career-development/" class="dropdown-item"><i class="fas fa-plus"></i>Career Development</a></li>
+</ul></div>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1328 nav-link"><a title="Faculty &amp; Research" href="https://www.engineering.upenn.edu/faculty-and-research/" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-1328"><i class="fas fa-plus"></i>Faculty &#038; Research</a>
+<div  id="menu-dropdown-1328">
+<div class="container"><div class="row align-items-center"><div class="col-4 d-none d-lg-block"><img src="https://www.engineering.upenn.edu/wp-content/uploads/2025/01/cdc-OZcQIhidMTw-unsplash-3.jpg"></div><div class="col-6 pt-lg-35 pb-lg-20"><ul class ="submenu" role="menu">	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1099 nav-link"><a title="Faculty Directory" href="https://directory.seas.upenn.edu/" class="dropdown-item"><i class="fas fa-plus"></i>Faculty Directory</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2431 nav-link"><a title="Faculty Awards" href="https://news.seas.upenn.edu/faculty-awards/" class="dropdown-item"><i class="fas fa-plus"></i>Faculty Awards</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1100 nav-link"><a title="Signature Initiatives" href="https://research.seas.upenn.edu/initiatives/" class="dropdown-item"><i class="fas fa-plus"></i>Signature Initiatives</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1101 nav-link"><a title="Centers &amp; Institutes" href="https://research.seas.upenn.edu/centers-institutes/" class="dropdown-item"><i class="fas fa-plus"></i>Centers &#038; Institutes</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1102 nav-link"><a title="Undergraduate Research" href="https://academics.seas.upenn.edu/ugrad/research/" class="dropdown-item"><i class="fas fa-plus"></i>Undergraduate Research</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16773 nav-link"><a title="Corporate Engagement" href="https://research.seas.upenn.edu/corporate-engagement/" class="dropdown-item"><i class="fas fa-plus"></i>Corporate Engagement</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1695 nav-link"><a title="Endowed Professorships" href="https://www.engineering.upenn.edu/endowed-professorships/" class="dropdown-item"><i class="fas fa-plus"></i>Endowed Professorships</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732 nav-link"><a title="Energy and the Environment" href="https://www.engineering.upenn.edu/energy-and-the-environment/" class="dropdown-item"><i class="fas fa-plus"></i>Energy and the Environment</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11739 nav-link"><a title="Open Faculty Positions" href="https://facultyjobs.upenn.edu/#school-engineering-and-applied-science" class="dropdown-item"><i class="fas fa-plus"></i>Open Faculty Positions</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15511 nav-link"><a title="NAE Members" href="https://www.engineering.upenn.edu/nae-members/" class="dropdown-item"><i class="fas fa-plus"></i>NAE Members</a></li>
+</ul></div>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-15965 nav-link"><a title="Strategic Plan" href="https://www.engineering.upenn.edu/about/strategic-plan/" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-15965"><i class="fas fa-plus"></i>Strategic Plan</a>
+<div  id="menu-dropdown-15965">
+<div class="container"><div class="row align-items-center"><div class="col-4 d-none d-lg-block"><img src="https://www.engineering.upenn.edu/wp-content/uploads/2025/12/Strat-Plan-crop.png"></div><div class="col-6 pt-lg-35 pb-lg-20"><ul class ="submenu" role="menu">	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15968 nav-link"><a title="Big Ideas" href="https://www.engineering.upenn.edu/big-ideas/" class="dropdown-item"><i class="fas fa-plus"></i>Big Ideas</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15967 nav-link"><a title="Progress Updates" href="https://www.engineering.upenn.edu/penn-engineering-2030-strategic-plan-progress/" class="dropdown-item"><i class="fas fa-plus"></i>Progress Updates</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16097 nav-link"><a title="Strategic Plan" href="https://www.engineering.upenn.edu/about/strategic-plan/" class="dropdown-item"><i class="fas fa-plus"></i>Strategic Plan</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16206 nav-link"><a title="Futures Fund" href="https://www.engineering.upenn.edu/futures-fund/" class="dropdown-item"><i class="fas fa-plus"></i>Futures Fund</a></li>
+</ul></div>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1104 nav-link"><a title="News &amp; Events" href="https://www.engineering.upenn.edu/news/" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link" id="menu-item-dropdown-1104"><i class="fas fa-plus"></i>News &#038; Events</a>
+<div  id="menu-dropdown-1104">
+<div class="container"><div class="row align-items-center"><div class="col-4 d-none d-lg-block"><img src="https://www.engineering.upenn.edu/wp-content/uploads/2025/02/furness-library-p-101264-master-v1-026x.jpg"></div><div class="col-6 pt-lg-35 pb-lg-20"><ul class ="submenu" role="menu">	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1105 nav-link"><a title="Engineering News" href="https://news.seas.upenn.edu/newsroom/" class="dropdown-item"><i class="fas fa-plus"></i>Engineering News</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1106 nav-link"><a title="Engineering Stories" href="https://www.engineering.upenn.edu/stories/" class="dropdown-item"><i class="fas fa-plus"></i>Engineering Stories</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1107 nav-link"><a title="Events" href="https://events.engineering.upenn.edu/" class="dropdown-item"><i class="fas fa-plus"></i>Events</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18122 nav-link"><a title="Event Space" href="https://events.engineering.upenn.edu/resources/" class="dropdown-item"><i class="fas fa-plus"></i>Event Space</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1108 nav-link"><a title="Penn Engineering Magazine" href="https://magazine.seas.upenn.edu/" class="dropdown-item"><i class="fas fa-plus"></i>Penn Engineering Magazine</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2469 nav-link"><a title="Newsletter" href="https://news.seas.upenn.edu/twpe-newsletter/" class="dropdown-item"><i class="fas fa-plus"></i>Newsletter</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1109 nav-link"><a title="Identity Kit" href="https://news.seas.upenn.edu/identity-kit/" class="dropdown-item"><i class="fas fa-plus"></i>Identity Kit</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17980 nav-link"><a title="Podcast" href="https://news.seas.upenn.edu/innovation-and-impact-podcast/" class="dropdown-item"><i class="fas fa-plus"></i>Podcast</a></li>
+</ul></div>
+</li>
+</ul>                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+        <main id="maincontent">
+        <!-- Site container -->
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <nav class="breadcrumb "><div class="breadcrumb-inner"><a class="breadcrumb-item" href="https://www.engineering.upenn.edu">Home</a><a class="breadcrumb-item" href="https://www.engineering.upenn.edu/stories/">Stories</a></div></nav>        </div>
+    </div>
+</div>
+
+    <article class="container">
+        <div class="row align-items-center pt-50 pb-50 border-bottom">
+            <div class="col-12 col-lg-5">
+                            <div class="featured-image mb-20">
+                    <img src="https://www.engineering.upenn.edu/wp-content/uploads/2026/10/P1190237-1024x683.jpg" alt="Lorem impsum dolor">
+                                    </div>
+                        </div>
+
+            <div class="col-12 col-lg-7">
+                <h1 class="h3">Powering the AI Revolution: The Future of Data Centers with Ben Lee</h1>
+                <p class="mt-15 post-categories"><a href="https://www.engineering.upenn.edu/stories/category/ai/" class="text-red fw-bold">AI</a>, <a href="https://www.engineering.upenn.edu/stories/category/faculty/" class="text-red fw-bold">Faculty</a>, <a href="https://www.engineering.upenn.edu/stories/category/in-the-news/" class="text-red fw-bold">In the News</a> / October 20, 2026</p>
+            </div>
+        </div>
+
+        <div class="row pt-40 pb-40 border-bottom">
+            <div class="col-12 col-lg-3">
+                <span class="h5 d-block mb-15">Share:</span>
+
+                <div class="share d-flex">
+    <a target="_blank"
+        href="mailto:?subject=Powering the AI Revolution: The Future of Data Centers with Ben Lee&body=As artificial intelligence expands, so does its demand for electricity, water and computing infrastructure. Penn Engineering’s Ben Lee explores how ...%0D%0A%0D%0AContinue Reading: https://www.engineering.upenn.edu/stories/powering-the-ai-revolution-the-future-of-data-centers-with-ben-lee/">
+        <i class="icon email"></i>
+    </a>
+    
+    <a target="_blank" class="twitter"
+        href="https://twitter.com/intent/tweet?url=https://www.engineering.upenn.edu/stories/powering-the-ai-revolution-the-future-of-data-centers-with-ben-lee/&text=Powering the AI Revolution: The Future of Data Centers with Ben Lee">
+        <i class="icon twitter"></i>
+    </a>
+
+    <a target="_blank" class="linkedin"
+        href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.engineering.upenn.edu%2Fstories%2Fpowering-the-ai-revolution-the-future-of-data-centers-with-ben-lee%2F">
+        <i class="icon linkedin"></i>
+    </a>
+
+    <a target="_blank"
+        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.engineering.upenn.edu%2Fstories%2Fpowering-the-ai-revolution-the-future-of-data-centers-with-ben-lee%2F">
+        <i class="icon facebook"></i>
+    </a>
+    </div>
+            </div>
+
+            <div class="col-12 col-lg-2 mt-25 mt-lg-0">
+                <span class="h5">Author:</span>
+
+                                <div class="authors mt-15">
+                                            <a href="https://www.engineering.upenn.edu/stories/author/mkpappas/" class="text-red fw-bold">Melissa Pappas</a>
+                                    </div>
+                            </div>
+        </div>
+
+        <div class="content row pt-40 pb-40">
+            <div class="col-12 col-lg-8 offset-lg-2">
+                <p><span style="font-weight: 400;">The <a href="https://urldefense.com/v3/__https://youtu.be/p5q6OG647w4?si=ivGWFFHJWkOv2lry__;!!IBzWLUs!QhI8iNizWgR-k4tcBhSdiebTwQdDNqcLnwqZgapSdfYfd-Qg6P4xsvnUaeaQQHPCPhQuUWrDvI-W3s-Cpd8wutDFZlzS6TjvXJ0mXg$">latest episode</a> of Penn Engineering’s </span><i><span style="font-weight: 400;">Innovation &amp; Impact</span></i><span style="font-weight: 400;"> podcast features <a href="https://directory.engineering.upenn.edu/benjamin-c-lee/">Benjamin Lee</a>, Professor in Electrical and Systems Engineering and in Computer and Information Science. Lee’s research explores computer architecture, microprocessors, memory systems and data centers, with a focus on energy efficiency and environmental sustainability.</span></p>
+<p><span style="font-weight: 400;">In this episode, host <a href="https://directory.seas.upenn.edu/vijay-kumar/">Vijay Kumar</a>, Nemirovsky Family Dean of Penn Engineering and Professor in Mechanical Engineering and Applied Mechanics, speaks with Lee to examine the growing physical and environmental costs of artificial intelligence, from the electricity and water required to run data centers to the hardware that powers increasingly complex AI models. The conversation explores how advances in chip design, computing architectures and data center operations could make AI more efficient, as well as the challenges of keeping resource consumption in check as demand accelerates.</span></p>
+<p><span style="font-weight: 400;">Lee also discusses the relationship between computing infrastructure and energy systems, the trade-offs involved in reducing carbon emissions and why engineering research will be essential to scaling AI more sustainably. As AI capabilities continue to expand, he considers how incremental advances across chips, data centers and electricity generation could significantly improve efficiency over time.</span></p>
+<p><span style="font-weight: 400;"><a href="https://urldefense.com/v3/__https://youtu.be/p5q6OG647w4?si=ivGWFFHJWkOv2lry__;!!IBzWLUs!QhI8iNizWgR-k4tcBhSdiebTwQdDNqcLnwqZgapSdfYfd-Qg6P4xsvnUaeaQQHPCPhQuUWrDvI-W3s-Cpd8wutDFZlzS6TjvXJ0mXg$">Listen</a> to a cross-disciplinary conversation about AI, computer engineering and the future of sustainable computing.</span></p>
+<p><span style="font-weight: 400;">Subscribe to Penn Engineering’s </span><i><span style="font-weight: 400;">Innovation &amp; Impact</span></i><span style="font-weight: 400;"> podcast on <a href="https://podcasts.apple.com/us/podcast/responsible-innovation/id1710434666?i=1000672366469">Apple Music</a>, <a href="https://open.spotify.com/show/5CbLMERH3ELb8ji7bnJlCk">Spotify</a> or your favorite listening platforms, or find all the episodes on our <a href="https://www.youtube.com/playlist?list=PLbZb2TRlTXcIyd6R1Wg5Ty55SnNR8Y18N">Penn Engineering YouTube channel</a>.</span></p>
+
+                                <div class="mt-40">
+                    <h5 class="mb-15">Story Tags</h5>
+                    <p class="post-tags"><a href="https://www.engineering.upenn.edu/stories/tag/cis/" class="text-red fw-bold">CIS</a>, <a href="https://www.engineering.upenn.edu/stories/tag/ese/" class="text-red fw-bold">ESE</a></p>
+                </div>
+                            </div>
+        </div>
+
+        <div class="row pt-60 pb-60">
+            <div class="col-12 mb-40">
+                <h4>Read More</h4>
+            </div>
+
+            <div class="col-12 col-lg-4">
+                                <div class="post-nav prev">
+                    <a href="https://www.engineering.upenn.edu/stories/lorena-grundy-named-aiche-35-under-35-award-recipient/" title="Lorena Grundy Named AIChE 35 Under 35 Award Recipient" class="h6"><div class="icon"></div> Lorena Grundy Named AIChE 35 Under 35 Award Recipient</a>
+                </div>
+                            </div>
+
+            <div class="col-12 col-lg-4 offset-lg-4 text-align-right">
+                            </div>
+        </div>
+    </article>
+</main> <!-- # end site container -->
+
+<footer class="site-footer">
+    <section class="top">        
+        <div class="container ">
+            <div class="row">
+                <div class="col-12 col-lg justify-content-center d-flex d-lg-none pt-40 pb-35">
+                    <a href="#" class="back-to-top d-flex align-items-center g-10">Back to top <i></i></a>
+                </div>
+                <div class="col-12 col-lg-3 mb-20 mb-md-40 mb-lg-0 pt-30 pr-lg-50 text-center text-lg-start d-flex flex-column g-20 branding">
+                                        <div class="logo pt-lg-0 pb-40 pb-lg-10">
+                        <a href="https://www.engineering.upenn.edu" class="text-center text-lg-start" title="Penn Engineering">
+                            <img src="https://www.engineering.upenn.edu/wp-content/uploads/2024/12/logo_white@4x-1.png" alt="Penn Engineering" />
+                        </a>
+                    </div>
+                                        <div class="footer-content d-flex flex-column g-20">
+                                                    <p class="address">220 South 33rd Street </br>107 Towne Building<br />
+                            Philadelphia, PA 19104-6391</p>
+                            
+                                                    <p class="phone"><a href="tel:215-898-7246">215-898-7246</a></p>
+                                                                            <p class="copyright">2026 Penn Engineering</p>
+                            
+                                                    <p class="university-text">University of Pennsylvania</p>
+                                            </div>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <nav class="footer-navigation menu">
+                        <ul id="menu-footer-menu-1" class="menu"><li id="menu-item-257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-257"><a href="https://www.engineering.upenn.edu/about/">About</a></li>
+<li id="menu-item-259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-259"><a href="https://www.engineering.upenn.edu/admissions/">Admissions</a></li>
+<li id="menu-item-258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-258"><a href="https://www.engineering.upenn.edu/academics/">Academics</a></li>
+<li id="menu-item-263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-263"><a href="https://www.engineering.upenn.edu/engagement/">Engagement</a></li>
+<li id="menu-item-262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262"><a href="https://www.engineering.upenn.edu/news/">News</a></li>
+<li id="menu-item-2194" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2194"><a href="https://dar.seas.upenn.edu/">Alumni</a></li>
+<li id="menu-item-19008" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19008"><a href="https://www.engineering.upenn.edu/stories">Stories</a></li>
+</ul>                    </nav>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <ul id="menu-footer-menu-2" class="menu"><li id="menu-item-2200" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2200"><a href="mailto:info@engineering.upenn.edu">Contact Us</a></li>
+<li id="menu-item-18240" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18240"><a href="mailto:hwojcik@engineering.upenn.edu">Media Inquiries</a></li>
+<li id="menu-item-2196" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2196"><a href="https://accessibility.web-resources.upenn.edu/get-help">Report accessibility issues and get help</a></li>
+<li id="menu-item-2197" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2197"><a href="https://www.upenn.edu/about/disclaimer">Disclaimer</a></li>
+<li id="menu-item-2198" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2198"><a href="https://www.publicsafety.upenn.edu/contact/">Emergency Services</a></li>
+</ul>                </div>
+                <div class="col-12 col-lg-4 offset-lg-1 d-none d-lg-block">
+                    
+<img class="d-none mobile-department-image" src="https://www.engineering.upenn.edu/wp-content/uploads/2025/03/wireless-comm-teaser.jpg" alt="Unlocking the Next Generation of Wireless" class="img-fluid" />
+<div class="card gradient ">
+    <a class="full-img-link" href="https://blog.seas.upenn.edu/to-6g-and-beyond-penn-engineers-unlock-the-next-generation-of-wireless-communications/" target="">
+                <div class="image-background">
+            <img src="https://www.engineering.upenn.edu/wp-content/uploads/2025/03/wireless-comm-teaser.jpg" alt="Unlocking the Next Generation of Wireless" class="img-fluid" />
+        </div>
+                
+        <div class="card-body">
+                            <h3 class="card-title">
+                                            Unlocking the Next Generation of Wireless                                    </h3>
+                                        <div class="card-text text-white">Penn Engineers have developed an adjustable filter that can successfully prevent interference, even in higher-frequency bands.</div>
+                        
+                    </div>
+    </a>
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="bottom pt-30 pb-30">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-10">
+                                            <div class="social d-flex align-items-center flex-wrap g-20 justify-content-start  mt-30 mt-lg-0 mb-70 mb-lg-0">
+                                                    <p class="social-media-title d-block">Connect with us</p>
+                                                                            <a href="https://www.instagram.com/pennengineering/" target="_blank" title="Instagram"><span><svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="32" height="32" fill="#011F5B" stroke="white"/>
+<path d="M20.9 7.69995H12.1C9.6699 7.69995 7.69995 9.6699 7.69995 12.1V20.9C7.69995 23.33 9.6699 25.3 12.1 25.3H20.9C23.33 25.3 25.3 23.33 25.3 20.9V12.1C25.3 9.6699 23.33 7.69995 20.9 7.69995Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20.02 15.9458C20.1286 16.6782 20.0035 17.4262 19.6625 18.0833C19.3215 18.7405 18.782 19.2735 18.1206 19.6063C17.4593 19.9392 16.7098 20.0551 15.9788 19.9374C15.2479 19.8198 14.5726 19.4747 14.0491 18.9512C13.5255 18.4276 13.1804 17.7523 13.0628 17.0214C12.9452 16.2904 13.061 15.5409 13.3939 14.8796C13.7268 14.2182 14.2597 13.6787 14.9169 13.3377C15.574 12.9967 16.322 12.8716 17.0544 12.9802C17.8014 13.091 18.4931 13.4391 19.0271 13.9731C19.5611 14.5071 19.9092 15.1988 20.02 15.9458Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21.3398 11.6602H21.3478" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</span></a>
+                                                    <a href="https://www.linkedin.com/school/penn-engineering/" target="_blank" title="LinkedIn"><span><svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="32" height="32" fill="#011F5B" stroke="white"/>
+<path d="M20.7494 13.2927C22.2327 13.2927 23.6552 13.882 24.704 14.9308C25.7528 15.9796 26.3421 17.4021 26.3421 18.8854V25.4102H22.6136V18.8854C22.6136 18.391 22.4172 17.9168 22.0676 17.5672C21.718 17.2176 21.2438 17.0212 20.7494 17.0212C20.255 17.0212 19.7808 17.2176 19.4312 17.5672C19.0816 17.9168 18.8852 18.391 18.8852 18.8854V25.4102H15.1567V18.8854C15.1567 17.4021 15.746 15.9796 16.7948 14.9308C17.8436 13.882 19.2661 13.2927 20.7494 13.2927Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M11.4284 14.2249H7.69995V25.4102H11.4284V14.2249Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.56417 11.4284C10.5938 11.4284 11.4284 10.5938 11.4284 9.56417C11.4284 8.53459 10.5938 7.69995 9.56417 7.69995C8.53459 7.69995 7.69995 8.53459 7.69995 9.56417C7.69995 10.5938 8.53459 11.4284 9.56417 11.4284Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</span></a>
+                                                    <a href="https://www.youtube.com/user/pennengineering" target="_blank" title="YouTube"><span><svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="32" height="32" fill="#011F5B" stroke="white"/>
+<path d="M27.2294 11.1177C27.1157 10.6632 26.884 10.2467 26.5578 9.91041C26.2315 9.5741 25.8224 9.32983 25.3715 9.20228C23.7243 8.80005 17.1353 8.80005 17.1353 8.80005C17.1353 8.80005 10.5464 8.80005 8.89912 9.24059C8.44828 9.36814 8.03908 9.61241 7.71286 9.94872C7.38664 10.285 7.15495 10.7015 7.04119 11.156C6.73972 12.8277 6.59225 14.5235 6.60065 16.2222C6.5899 17.9337 6.73737 19.6424 7.04119 21.3267C7.16661 21.7671 7.40349 22.1677 7.72895 22.4898C8.05441 22.8119 8.45745 23.0447 8.89912 23.1655C10.5464 23.606 17.1353 23.606 17.1353 23.606C17.1353 23.606 23.7243 23.606 25.3715 23.1655C25.8224 23.038 26.2315 22.7937 26.5578 22.4574C26.884 22.1211 27.1157 21.7046 27.2294 21.2501C27.5286 19.591 27.676 17.9081 27.67 16.2222C27.6807 14.5108 27.5333 12.802 27.2294 11.1177Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.9805 19.3537L20.4872 16.222L14.9805 13.0903V19.3537Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</span></a>
+                                                    <a href="https://www.facebook.com/PennEngineering" target="_blank" title="Facebook"><span><svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="32" height="32" fill="#011F5B" stroke="white"/>
+<path d="M20.9 6.6001H18.2C17.0065 6.6001 15.8619 7.12161 15.018 8.04992C14.1741 8.97822 13.7 10.2373 13.7 11.5501V14.5201H11V18.4801H13.7V26.4001H17.3V18.4801H20L20.9 14.5201H17.3V11.5501C17.3 11.2875 17.3948 11.0357 17.5636 10.8501C17.7324 10.6644 17.9613 10.5601 18.2 10.5601H20.9V6.6001Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</span></a>
+                                                    <a href="https://www.tiktok.com/@penngineering" target="_blank" title="TikTok"><span><svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="32" height="32" fill="#011F5B" stroke="white"/>
+<path d="M21.82,9.78c-.76-.82-1.22-1.9-1.22-3.07h-.96M21.81,9.8c.69.75,1.63,1.29,2.7,1.51.33.07.68.1,1.04.1v3.36c-1.85,0-3.57-.56-4.97-1.5v6.84c0,3.42-2.95,6.19-6.57,6.19-1.89,0-3.61-.76-4.81-1.98-1.09-1.11-1.76-2.59-1.76-4.21,0-3.37,2.86-6.11,6.41-6.18M21.82,9.78s-.04-.02-.06-.03M11.58,21.75c-.36-.46-.57-1.03-.57-1.65,0-1.56,1.35-2.83,3-2.83.31,0,.61.05.89.13v-3.44c-.29-.04-.58-.06-.89-.06-.05,0-.48.03-.53.03M19.64,6.71h-2.61v13.5c-.06,1.51-1.39,2.73-3,2.73-1,0-1.89-.47-2.44-1.18" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</span></a>
+                                                    <a href="https://x.com/PennEngineers" target="_blank" title="X"><span><svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="32" height="32" fill="#011F5B" stroke="white"/>
+<path d="M21.0343 24.0016L9.85472 9.62823C9.79579 9.55235 9.75935 9.46146 9.74952 9.36589C9.73969 9.27032 9.75688 9.17391 9.79913 9.08763C9.84138 9.00135 9.907 8.92865 9.98851 8.87781C10.07 8.82698 10.1642 8.80003 10.2603 8.80005H12.382C12.4601 8.80017 12.5372 8.81811 12.6073 8.8525C12.6774 8.8869 12.7388 8.93685 12.7867 8.99854L23.9663 23.3719C24.0252 23.4477 24.0616 23.5386 24.0714 23.6342C24.0813 23.7298 24.0641 23.8262 24.0218 23.9125C23.9796 23.9987 23.914 24.0714 23.8325 24.1223C23.7509 24.1731 23.6568 24.2001 23.5607 24.2H21.4389C21.3608 24.1999 21.2838 24.182 21.2137 24.1476C21.1435 24.1132 21.0822 24.0633 21.0343 24.0016Z" stroke="white"/>
+<path d="M23.7548 8.80005L10.0659 24.2" stroke="white" stroke-linecap="round"/>
+</svg>
+</span></a>
+                                                    <a href="https://bsky.app/profile/pennengineering.bsky.social" target="_blank" title="Bluesky"><span><svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="32" height="32" fill="#011F5B" stroke="white"/>
+<path d="M10.69,8.89c2.35,1.58,4.87,4.79,5.8,6.51.93-1.72,3.45-4.93,5.8-6.51,1.69-1.14,4.44-2.02,4.44.79,0,.56-.36,4.71-.57,5.39-.73,2.34-3.39,2.94-5.76,2.58,4.14.63,5.19,2.73,2.92,4.82-4.32,3.98-6.21-1-6.69-2.27-.14-.37-.12-.38-.26,0-.48,1.27-2.37,6.25-6.69,2.27-2.27-2.09-1.22-4.19,2.92-4.82-2.37.36-5.03-.24-5.76-2.58-.21-.67-.57-4.83-.57-5.39,0-2.81,2.74-1.93,4.44-.79h-.02Z" stroke="white" stroke-miterlimit="10"/>
+</svg>
+</span></a>
+                                                </div>
+                                    </div>
+
+                <div class="col-12 col-lg justify-content-end d-none d-lg-block">
+                    <a href="#" class="back-to-top d-flex align-items-center g-10">Back to top <i></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container d-block d-lg-none">
+            <div class="row">
+                <div class="col-12">
+                    
+<img class="d-none mobile-department-image" src="https://www.engineering.upenn.edu/wp-content/uploads/2025/03/wireless-comm-teaser.jpg" alt="Unlocking the Next Generation of Wireless" class="img-fluid" />
+<div class="card gradient ">
+    <a class="full-img-link" href="https://www.youtube.com/playlist?list=PLbZb2TRlTXcIyd6R1Wg5Ty55SnNR8Y18N" target="">
+                <div class="image-background">
+            <img src="https://www.engineering.upenn.edu/wp-content/uploads/2025/03/podcast-BTS.jpeg" alt="Did You Know?" class="img-fluid" />
+        </div>
+                
+        <div class="card-body">
+                            <h3 class="card-title">
+                                            Did You Know?                                    </h3>
+                                        <div class="card-text text-white">In 2023, Penn Engineering launched a podcast called Innovation & Impact, sharing insights from leading experts on science, technology and medicine.</div>
+                                        <div class="cta-title arrow white">Read More</div>
+            
+                    </div>
+    </a>
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/penn-seas-home/*","/wp-content/themes/penn-seas/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<div class="simple-banner simple-banner-text" style="display:none !important"></div><script id="app-js-js-module" src="https://www.engineering.upenn.edu/wp-content/themes/penn-seas/dist/assets/main-DRlHlghX.js?ver=6179" type="module"></script>
+<script id="swiperjs-js" src="//cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script id="fancyboxjs-js" src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0.0/dist/fancybox.umd.js?ver=4.0.0"></script>
+<script id="mast-vertical-filter-mobile-fix-js" src="https://www.engineering.upenn.edu/wp-content/themes/penn-seas/src/js/vertical-filter-mobile-fix.js?ver=1792527290"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.engineering.upenn.edu/wp-includes/js/wp-emoji-release.min.js?ver=7.1.3"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://www.engineering.upenn.edu/wp-includes/js/wp-emoji-loader.min.js
+</script>
+<script type="text/javascript" id="slb_context">/* <![CDATA[ */if ( !!window.jQuery ) {(function($){$(document).ready(function(){if ( !!window.SLB ) { {$.extend(SLB, {"context":["public","user_guest"]});} }})})(jQuery);}/* ]]> */</script>
+</body>
+</html>
