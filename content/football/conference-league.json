@@ -321,7 +321,10 @@
   {
    "date": "2026-10-22",
    "time": "21:00",
-   "ft": null,
+   "ft": [
+    2,
+    0
+   ],
    "r": 2,
    "t1": "SC Braga",
    "t2": "KAA Gent"
@@ -329,7 +332,10 @@
   {
    "date": "2026-10-22",
    "time": "21:00",
-   "ft": null,
+   "ft": [
+    2,
+    0
+   ],
    "r": 2,
    "t1": "AFC Ajax",
    "t2": "Atalanta BC"
@@ -337,7 +343,10 @@
   {
    "date": "2026-10-22",
    "time": "21:00",
-   "ft": null,
+   "ft": [
+    3,
+    0
+   ],
    "r": 2,
    "t1": "AS Monaco",
    "t2": "SC Freiburg"
@@ -345,7 +354,10 @@
   {
    "date": "2026-10-22",
    "time": "21:00",
-   "ft": null,
+   "ft": [
+    0,
+    1
+   ],
    "r": 2,
    "t1": "FC Midtjylland",
    "t2": "K. Sint-Truidense VV"
@@ -353,7 +365,10 @@
   {
    "date": "2026-10-22",
    "time": "21:00",
-   "ft": null,
+   "ft": [
+    1,
+    4
+   ],
    "r": 2,
    "t1": "Lincoln Red Imps FC",
    "t2": "FC Twente"
@@ -361,7 +376,10 @@
   {
    "date": "2026-10-22",
    "time": "21:00",
-   "ft": null,
+   "ft": [
+    2,
+    0
+   ],
    "r": 2,
    "t1": "FK Borac",
    "t2": "KuPS Kuopio"
@@ -369,7 +387,10 @@
   {
    "date": "2026-10-22",
    "time": "21:00",
-   "ft": null,
+   "ft": [
+    1,
+    1
+   ],
    "r": 2,
    "t1": "AGF Aarhus",
    "t2": "KF Egnatia"
@@ -377,7 +398,10 @@
   {
    "date": "2026-10-22",
    "time": "21:00",
-   "ft": null,
+   "ft": [
+    0,
+    1
+   ],
    "r": 2,
    "t1": "FC Thun",
    "t2": "HNK Hajduk Split"
@@ -994,7 +1018,7 @@
    "pts": 6
   },
   {
-   "pos": 4,
+   "pos": 3,
    "team": "Trabzonspor A.Ş.",
    "p": 2,
    "w": 2,
@@ -1006,6 +1030,50 @@
   },
   {
    "pos": 5,
+   "team": "FC Twente",
+   "p": 2,
+   "w": 2,
+   "d": 0,
+   "l": 0,
+   "gf": 5,
+   "ga": 1,
+   "pts": 6
+  },
+  {
+   "pos": 6,
+   "team": "AS Monaco",
+   "p": 2,
+   "w": 2,
+   "d": 0,
+   "l": 0,
+   "gf": 5,
+   "ga": 1,
+   "pts": 6
+  },
+  {
+   "pos": 7,
+   "team": "K. Sint-Truidense VV",
+   "p": 2,
+   "w": 2,
+   "d": 0,
+   "l": 0,
+   "gf": 3,
+   "ga": 0,
+   "pts": 6
+  },
+  {
+   "pos": 8,
+   "team": "HNK Hajduk Split",
+   "p": 2,
+   "w": 2,
+   "d": 0,
+   "l": 0,
+   "gf": 3,
+   "ga": 1,
+   "pts": 6
+  },
+  {
+   "pos": 9,
    "team": "Brighton & Hove Albion",
    "p": 2,
    "w": 1,
@@ -1016,7 +1084,7 @@
    "pts": 4
   },
   {
-   "pos": 6,
+   "pos": 10,
    "team": "F.C. Copenhagen",
    "p": 2,
    "w": 1,
@@ -1027,7 +1095,7 @@
    "pts": 4
   },
   {
-   "pos": 7,
+   "pos": 11,
    "team": "Universitatea Craiova",
    "p": 2,
    "w": 1,
@@ -1038,7 +1106,7 @@
    "pts": 4
   },
   {
-   "pos": 8,
+   "pos": 12,
    "team": "Mjällby AIF",
    "p": 2,
    "w": 1,
@@ -1049,84 +1117,73 @@
    "pts": 4
   },
   {
-   "pos": 9,
-   "team": "Atalanta BC",
-   "p": 1,
+   "pos": 13,
+   "team": "AFC Ajax",
+   "p": 2,
    "w": 1,
    "d": 0,
-   "l": 0,
-   "gf": 3,
-   "ga": 1,
-   "pts": 3
-  },
-  {
-   "pos": 10,
-   "team": "K. Sint-Truidense VV",
-   "p": 1,
-   "w": 1,
-   "d": 0,
-   "l": 0,
-   "gf": 2,
-   "ga": 0,
-   "pts": 3
-  },
-  {
-   "pos": 11,
-   "team": "SC Freiburg",
-   "p": 1,
-   "w": 1,
-   "d": 0,
-   "l": 0,
+   "l": 1,
    "gf": 3,
    "ga": 2,
    "pts": 3
   },
   {
-   "pos": 12,
-   "team": "AS Monaco",
-   "p": 1,
-   "w": 1,
-   "d": 0,
-   "l": 0,
-   "gf": 2,
-   "ga": 1,
-   "pts": 3
-  },
-  {
    "pos": 13,
-   "team": "HNK Hajduk Split",
-   "p": 1,
+   "team": "FK Borac",
+   "p": 2,
    "w": 1,
    "d": 0,
-   "l": 0,
-   "gf": 2,
-   "ga": 1,
-   "pts": 3
-  },
-  {
-   "pos": 14,
-   "team": "FC Twente",
-   "p": 1,
-   "w": 1,
-   "d": 0,
-   "l": 0,
-   "gf": 1,
-   "ga": 0,
+   "l": 1,
+   "gf": 3,
+   "ga": 2,
    "pts": 3
   },
   {
    "pos": 15,
-   "team": "KAA Gent",
-   "p": 1,
+   "team": "Atalanta BC",
+   "p": 2,
    "w": 1,
    "d": 0,
-   "l": 0,
-   "gf": 1,
-   "ga": 0,
+   "l": 1,
+   "gf": 3,
+   "ga": 3,
    "pts": 3
   },
   {
    "pos": 16,
+   "team": "SC Braga",
+   "p": 2,
+   "w": 1,
+   "d": 0,
+   "l": 1,
+   "gf": 2,
+   "ga": 3,
+   "pts": 3
+  },
+  {
+   "pos": 17,
+   "team": "KAA Gent",
+   "p": 2,
+   "w": 1,
+   "d": 0,
+   "l": 1,
+   "gf": 1,
+   "ga": 2,
+   "pts": 3
+  },
+  {
+   "pos": 18,
+   "team": "SC Freiburg",
+   "p": 2,
+   "w": 1,
+   "d": 0,
+   "l": 1,
+   "gf": 3,
+   "ga": 5,
+   "pts": 3
+  },
+  {
+   "pos": 19,
    "team": "FC Nordsjælland",
    "p": 2,
    "w": 0,
@@ -1137,7 +1194,18 @@
    "pts": 2
   },
   {
-   "pos": 17,
+   "pos": 20,
+   "team": "KF Egnatia",
+   "p": 2,
+   "w": 0,
+   "d": 2,
+   "l": 0,
+   "gf": 2,
+   "ga": 2,
+   "pts": 2
+  },
+  {
+   "pos": 20,
    "team": "Riga FC",
    "p": 2,
    "w": 0,
@@ -1148,29 +1216,7 @@
    "pts": 2
   },
   {
-   "pos": 18,
-   "team": "FC Midtjylland",
-   "p": 1,
-   "w": 0,
-   "d": 1,
-   "l": 0,
-   "gf": 1,
-   "ga": 1,
-   "pts": 1
-  },
-  {
-   "pos": 19,
-   "team": "KF Egnatia",
-   "p": 1,
-   "w": 0,
-   "d": 1,
-   "l": 0,
-   "gf": 1,
-   "ga": 1,
-   "pts": 1
-  },
-  {
-   "pos": 20,
+   "pos": 22,
    "team": "FK Crvena Zvezda",
    "p": 2,
    "w": 0,
@@ -1181,7 +1227,7 @@
    "pts": 1
   },
   {
-   "pos": 21,
+   "pos": 23,
    "team": "PFC CSKA Sofia",
    "p": 2,
    "w": 0,
@@ -1192,7 +1238,7 @@
    "pts": 1
   },
   {
-   "pos": 22,
+   "pos": 24,
    "team": "FK Jablonec",
    "p": 2,
    "w": 0,
@@ -1203,7 +1249,29 @@
    "pts": 1
   },
   {
-   "pos": 23,
+   "pos": 25,
+   "team": "FC Midtjylland",
+   "p": 2,
+   "w": 0,
+   "d": 1,
+   "l": 1,
+   "gf": 1,
+   "ga": 2,
+   "pts": 1
+  },
+  {
+   "pos": 26,
+   "team": "AGF Aarhus",
+   "p": 2,
+   "w": 0,
+   "d": 1,
+   "l": 1,
+   "gf": 1,
+   "ga": 2,
+   "pts": 1
+  },
+  {
+   "pos": 27,
    "team": "Pafos FC",
    "p": 2,
    "w": 0,
@@ -1214,18 +1282,7 @@
    "pts": 1
   },
   {
-   "pos": 24,
-   "team": "FC Iberia 1999 Tbilisi",
-   "p": 2,
-   "w": 0,
-   "d": 1,
-   "l": 1,
-   "gf": 1,
-   "ga": 3,
-   "pts": 1
-  },
-  {
-   "pos": 25,
+   "pos": 28,
    "team": "Heart of Midlothian FC",
    "p": 2,
    "w": 0,
@@ -1236,7 +1293,18 @@
    "pts": 1
   },
   {
-   "pos": 26,
+   "pos": 28,
+   "team": "FC Iberia 1999 Tbilisi",
+   "p": 2,
+   "w": 0,
+   "d": 1,
+   "l": 1,
+   "gf": 1,
+   "ga": 3,
+   "pts": 1
+  },
+  {
+   "pos": 30,
    "team": "Getafe CF",
    "p": 2,
    "w": 0,
@@ -1247,7 +1315,7 @@
    "pts": 1
   },
   {
-   "pos": 27,
+   "pos": 31,
    "team": "FC Kairat Almaty",
    "p": 2,
    "w": 0,
@@ -1258,80 +1326,36 @@
    "pts": 1
   },
   {
-   "pos": 28,
-   "team": "AFC Ajax",
-   "p": 1,
-   "w": 0,
-   "d": 0,
-   "l": 1,
-   "gf": 1,
-   "ga": 2,
-   "pts": 0
-  },
-  {
-   "pos": 29,
-   "team": "FK Borac",
-   "p": 1,
-   "w": 0,
-   "d": 0,
-   "l": 1,
-   "gf": 1,
-   "ga": 2,
-   "pts": 0
-  },
-  {
-   "pos": 30,
-   "team": "Lincoln Red Imps FC",
-   "p": 1,
-   "w": 0,
-   "d": 0,
-   "l": 1,
-   "gf": 1,
-   "ga": 2,
-   "pts": 0
-  },
-  {
-   "pos": 31,
-   "team": "AGF Aarhus",
-   "p": 1,
-   "w": 0,
-   "d": 0,
-   "l": 1,
-   "gf": 0,
-   "ga": 1,
-   "pts": 0
-  },
-  {
    "pos": 32,
    "team": "FC Thun",
-   "p": 1,
+   "p": 2,
    "w": 0,
    "d": 0,
-   "l": 1,
+   "l": 2,
    "gf": 0,
-   "ga": 1,
+   "ga": 2,
    "pts": 0
   },
   {
    "pos": 33,
-   "team": "KuPS Kuopio",
-   "p": 1,
+   "team": "Lincoln Red Imps FC",
+   "p": 2,
    "w": 0,
    "d": 0,
-   "l": 1,
+   "l": 2,
    "gf": 2,
-   "ga": 4,
+   "ga": 6,
    "pts": 0
   },
   {
    "pos": 34,
-   "team": "SC Braga",
-   "p": 1,
+   "team": "KuPS Kuopio",
+   "p": 2,
    "w": 0,
    "d": 0,
-   "l": 1,
-   "gf": 0,
-   "ga": 3,
+   "l": 2,
+   "gf": 2,
+   "ga": 6,
    "pts": 0
   },
   {
@@ -4253,5 +4277,5 @@
    "u": "https://www.uefa.com/uefaconferenceleague/"
   }
  ],
- "asof": "2026-10-22"
+ "asof": "2026-10-23"
 }
