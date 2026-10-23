@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A"/>
+ <id>yt:channel:P7jMXSY2xbc3KCAE0MHQ-A</id>
+ <yt:channelId>P7jMXSY2xbc3KCAE0MHQ-A</yt:channelId>
+ <title>Google DeepMind</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A"/>
+ <author>
+  <name>Google DeepMind</name>
+  <uri>https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A</uri>
+ </author>
+ <published>2016-01-21T15:34:28+00:00</published>
+ <entry>
+  <id>yt:video:LVEfFyijQ2c</id>
+  <yt:videoId>LVEfFyijQ2c</yt:videoId>
+  <yt:channelId>UCP7jMXSY2xbc3KCAE0MHQ-A</yt:channelId>
+  <title>Applying Gemini 4 for large-scale codebase maintenance in Chromium</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=LVEfFyijQ2c"/>
+  <author>
+   <name>Google DeepMind</name>
+   <uri>https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A</uri>
+  </author>
+  <published>2026-10-13T16:38:17+00:00</published>
+  <updated>2026-10-18T00:50:05+00:00</updated>
+  <media:group>
+   <media:title>Applying Gemini 4 for large-scale codebase maintenance in Chromium</media:title>
+   <media:content url="https://www.youtube.com/v/LVEfFyijQ2c?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/LVEfFyijQ2c/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The Chromium codebase is millions of lines long and decades old. In the past, working with it has meant navigating decades of tangled features, where touching one component can unexpectedly affect another. Erik Chen, an engineer at Google, is using Gemini 4 Argon to ‘untangle’ the architecture. The model’s coding capabilities mean that multiple agents can work independently to refactor the codebase (all verified by Chromium's test suites and code reviews from engineers). With Gemini 4 Argon maintaining the codebase, Erik and his team can focus their attention on the future of Chromium.
+
+Learn more about Gemini 4 Argon: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/
+
+___
+
+Subscribe to our channel https://www.youtube.com/@googledeepmind 
+Find us on X https://x.com/GoogleDeepMind
+Follow us on Instagram https://instagram.com/googledeepmind 
+Add us on Linkedin https://www.linkedin.com/company/deepmind/</media:description>
+   <media:community>
+    <media:starRating count="955" average="5.00" min="1" max="5"/>
+    <media:statistics views="1904210"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ftkic7Tdpcg</id>
+  <yt:videoId>ftkic7Tdpcg</yt:videoId>
+  <yt:channelId>UCP7jMXSY2xbc3KCAE0MHQ-A</yt:channelId>
+  <title>Using Gemini 4 Argon to protect against Cyber attackers</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ftkic7Tdpcg"/>
+  <author>
+   <name>Google DeepMind</name>
+   <uri>https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A</uri>
+  </author>
+  <published>2026-10-13T16:38:14+00:00</published>
+  <updated>2026-10-18T01:00:51+00:00</updated>
+  <media:group>
+   <media:title>Using Gemini 4 Argon to protect against Cyber attackers</media:title>
+   <media:content url="https://www.youtube.com/v/ftkic7Tdpcg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/ftkic7Tdpcg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In shadow A/B testing on real-world systems, Wiz security researchers put Gemini 4 Argon to the test against complex cyber threats. Using its advanced reasoning and long-horizon capabilities, Gemini 4 Argon found over two times more vulnerabilities than baseline models and successfully uncovered critical risks—such as identifying a file download bypass and master key in healthcare software. By handling tireless, multi-step threat analysis and remediation, Gemini 4 gives defenders the crucial advantage needed to outpace attackers and protect sensitive data faster than ever before. 
+
+Learn more about Gemini 4 Argon: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/
+
+___
+
+Subscribe to our channel https://www.youtube.com/@googledeepmind 
+Find us on X https://x.com/GoogleDeepMind
+Follow us on Instagram https://instagram.com/googledeepmind 
+Add us on Linkedin https://www.linkedin.com/company/deepmind/</media:description>
+   <media:community>
+    <media:starRating count="327" average="5.00" min="1" max="5"/>
+    <media:statistics views="334561"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:9PICEmtfpWU</id>
+  <yt:videoId>9PICEmtfpWU</yt:videoId>
+  <yt:channelId>UCP7jMXSY2xbc3KCAE0MHQ-A</yt:channelId>
+  <title>Teaching a humanoid robot to play cornhole with Gemini 4 Argon</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=9PICEmtfpWU"/>
+  <author>
+   <name>Google DeepMind</name>
+   <uri>https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A</uri>
+  </author>
+  <published>2026-10-13T15:58:20+00:00</published>
+  <updated>2026-10-18T00:42:28+00:00</updated>
+  <media:group>
+   <media:title>Teaching a humanoid robot to play cornhole with Gemini 4 Argon</media:title>
+   <media:content url="https://www.youtube.com/v/9PICEmtfpWU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/9PICEmtfpWU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In an internal test, Google DeepMind robotics researchers instructed Gemini 4 Argon to watch a video of a human playing cornhole. Using its video understanding and advanced reasoning capabilities, Gemini 4 built a virtual simulation in MuJoCo and accurately calculated the physics and whole-body control required for Apptronik’s Apollo 2 humanoid to sink seven consecutive shots in the real world. This Video-to-Sim-to-Real pipeline compresses weeks of manual modeling into a few hours, transforming ordinary videos into an infinite training ground for physical AI.
+
+Learn more about Gemini 4 Argon: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/
+
+___
+
+Subscribe to our channel https://www.youtube.com/@googledeepmind 
+Find us on X https://x.com/GoogleDeepMind
+Follow us on Instagram https://instagram.com/googledeepmind 
+Add us on Linkedin https://www.linkedin.com/company/deepmind/</media:description>
+   <media:community>
+    <media:starRating count="5182" average="5.00" min="1" max="5"/>
+    <media:statistics views="2147226"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:9jQA7IgPhBE</id>
+  <yt:videoId>9jQA7IgPhBE</yt:videoId>
+  <yt:channelId>UCP7jMXSY2xbc3KCAE0MHQ-A</yt:channelId>
+  <title>Untangling 500-page chemistry patents with Gemini 4</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=9jQA7IgPhBE"/>
+  <author>
+   <name>Google DeepMind</name>
+   <uri>https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A</uri>
+  </author>
+  <published>2026-10-13T15:58:17+00:00</published>
+  <updated>2026-10-18T00:49:34+00:00</updated>
+  <media:group>
+   <media:title>Untangling 500-page chemistry patents with Gemini 4</media:title>
+   <media:content url="https://www.youtube.com/v/9jQA7IgPhBE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/9jQA7IgPhBE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Auditing chemistry literature usually means weeks of manual, error-prone reading, where a molecule’s structure can sit 50 pages away from its experimental readout. At Isomorphic Labs, researchers Brian Bender and Santosh Adhikari are using Gemini 4 Argon’s multimodal capabilities to help tackle this early research bottleneck. The model synthesizes dense papers and extracts patent data into structured reports in an afternoon instead of a month, helping teams uncover connected insights faster.
+
+Learn more about Gemini 4 Argon: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/
+
+___
+
+Subscribe to our channel https://www.youtube.com/@googledeepmind 
+Find us on X https://x.com/GoogleDeepMind
+Follow us on Instagram https://instagram.com/googledeepmind 
+Add us on Linkedin https://www.linkedin.com/company/deepmind/</media:description>
+   <media:community>
+    <media:starRating count="1035" average="5.00" min="1" max="5"/>
+    <media:statistics views="100341"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:HIUzrxQxTtw</id>
+  <yt:videoId>HIUzrxQxTtw</yt:videoId>
+  <yt:channelId>UCP7jMXSY2xbc3KCAE0MHQ-A</yt:channelId>
+  <title>From deepfakes to DNA: the science of watermarking AI</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=HIUzrxQxTtw"/>
+  <author>
+   <name>Google DeepMind</name>
+   <uri>https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A</uri>
+  </author>
+  <published>2026-10-01T16:37:46+00:00</published>
+  <updated>2026-10-12T23:02:06+00:00</updated>
+  <media:group>
+   <media:title>From deepfakes to DNA: the science of watermarking AI</media:title>
+   <media:content url="https://www.youtube.com/v/HIUzrxQxTtw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/HIUzrxQxTtw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>How do you know if what you're seeing is real? Professor Hannah Fry sits down with Pushmeet Kohli (VP of Science) and Jeremy Ratcliffe (Research Scientist) to break down SynthID, the watermarking technology expanding from text, images, and video straight into biology. Learn how invisible, mathematical watermarks help trace AI provenance, protect against misuse, and safeguard protein sequence design without impacting biological function. 
+
+Timecodes: 
+00:00 Introduction 
+00:34 What is a watermark?
+04:35 SynthID
+15:16 Images and video 
+19:28 SynthID Bio
+28:00 Future of resilience 
+
+Learn more about SynthID Bio: https://deepmind.google/blog/introducing-synthid-bio/ 
+
+___
+
+Subscribe to our channel https://www.youtube.com/@googledeepmind 
+Find us on X https://x.com/GoogleDeepMind
+Follow us on Instagram https://instagram.com/googledeepmind 
+Add us on Linkedin https://www.linkedin.com/company/deepmind/</media:description>
+   <media:community>
+    <media:starRating count="529" average="5.00" min="1" max="5"/>
+    <media:statistics views="194054"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:FL6mI_Br-mc</id>
+  <yt:videoId>FL6mI_Br-mc</yt:videoId>
+  <yt:channelId>UCP7jMXSY2xbc3KCAE0MHQ-A</yt:channelId>
+  <title>Create your own voices with Gemini 3.8 text-to-speech</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=FL6mI_Br-mc"/>
+  <author>
+   <name>Google DeepMind</name>
+   <uri>https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A</uri>
+  </author>
+  <published>2026-09-23T15:23:38+00:00</published>
+  <updated>2026-10-07T17:20:07+00:00</updated>
+  <media:group>
+   <media:title>Create your own voices with Gemini 3.8 text-to-speech</media:title>
+   <media:content url="https://www.youtube.com/v/FL6mI_Br-mc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/FL6mI_Br-mc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Design entirely new vocal personas from scratch for gaming, immersive audiobooks, or dual-speaker podcasts using natural language prompts - directing every performance line by line with nuanced acting cues, pacing, back channeling, and dialect shifts. 
+
+Or, recreate consistent adult vocal profiles from just a 30-second audio sample of your voice or a voice you have the rights to use, backed by built-in consent verification, SynthID watermarking, and C2PA credentials to protect both developers and their vocal talent. 
+
+Learn more and start using the our latest Gemini Audio models today: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/
+
+___
+
+Subscribe to our channel https://www.youtube.com/@googledeepmind 
+Find us on X https://x.com/GoogleDeepMind
+Follow us on Instagram https://instagram.com/googledeepmind 
+Add us on Linkedin https://www.linkedin.com/company/deepmind/</media:description>
+   <media:community>
+    <media:starRating count="1719" average="5.00" min="1" max="5"/>
+    <media:statistics views="6050424"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:O_EWbnkjXdk</id>
+  <yt:videoId>O_EWbnkjXdk</yt:videoId>
+  <yt:channelId>UCP7jMXSY2xbc3KCAE0MHQ-A</yt:channelId>
+  <title>How AI is transforming weather prediction</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=O_EWbnkjXdk"/>
+  <author>
+   <name>Google DeepMind</name>
+   <uri>https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A</uri>
+  </author>
+  <published>2026-09-09T16:10:39+00:00</published>
+  <updated>2026-10-01T14:15:25+00:00</updated>
+  <media:group>
+   <media:title>How AI is transforming weather prediction</media:title>
+   <media:content url="https://www.youtube.com/v/O_EWbnkjXdk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/O_EWbnkjXdk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Can artificial intelligence solve one of science’s most chaotic physics puzzles? In this episode, Professor Hannah Fry sits down with Peter Battaglia, Senior Director of Research at Google DeepMind, to explore how machine learning is transforming global weather forecasting. From providing critical early warnings for Category 5 storms like Hurricane Melissa to predicting renewable energy supply and agricultural impacts, learn how models like WeatherNext 3 are building upon decades of numerical physics to reshape our understanding of the atmosphere.
+
+Learn more about WeatherNext 3, our most advanced global weather AI model yet: https://www.youtube.com/watch?v=_6jZlnRsXXQ
+
+Timestamps: 
+00:00 Introduction 
+00:38 Hurricane Melissa
+11:50 Why weather forecasting is hard
+14:13 Traditional models vs AI models 
+21:55 Probabilistic forecasting 
+26:00 WeatherNext 3 
+33:00 Future outlook 
+43:44 Hannah's reflections 
+
+___
+
+Subscribe to our channel https://www.youtube.com/@googledeepmind 
+Find us on X https://x.com/GoogleDeepMind
+Follow us on Instagram https://instagram.com/googledeepmind 
+Add us on Linkedin https://www.linkedin.com/company/deepmind/</media:description>
+   <media:community>
+    <media:starRating count="823" average="5.00" min="1" max="5"/>
+    <media:statistics views="240708"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ya04CpsRJH0</id>
+  <yt:videoId>ya04CpsRJH0</yt:videoId>
+  <yt:channelId>UCP7jMXSY2xbc3KCAE0MHQ-A</yt:channelId>
+  <title>AlphaGenome Atlas: Using AI to find disease causing variants 🧬</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/ya04CpsRJH0"/>
+  <author>
+   <name>Google DeepMind</name>
+   <uri>https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A</uri>
+  </author>
+  <published>2026-09-08T14:02:28+00:00</published>
+  <updated>2026-10-05T15:13:42+00:00</updated>
+  <media:group>
+   <media:title>AlphaGenome Atlas: Using AI to find disease causing variants 🧬</media:title>
+   <media:content url="https://www.youtube.com/v/ya04CpsRJH0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/ya04CpsRJH0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>How do you find a single typo in a person's DNA that causes a rare disease? It is like finding a needle in a 9-billion-piece haystack.
+
+Enter AlphaGenome Atlas: a new AI-powered database charting the molecular impact of every possible genetic variant.
+
+Scientists are already using it to look into unsolved rare diseases, map rare mutations linked to complex traits, and more.
+
+🔗 Find out how by tapping the link → https://goo.gle/4ihF2LZ</media:description>
+   <media:community>
+    <media:starRating count="236" average="5.00" min="1" max="5"/>
+    <media:statistics views="7517"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:U0aToL5C-bQ</id>
+  <yt:videoId>U0aToL5C-bQ</yt:videoId>
+  <yt:channelId>UCP7jMXSY2xbc3KCAE0MHQ-A</yt:channelId>
+  <title>AlphaGenome Atlas: Understanding the human genome</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=U0aToL5C-bQ"/>
+  <author>
+   <name>Google DeepMind</name>
+   <uri>https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A</uri>
+  </author>
+  <published>2026-09-08T13:58:27+00:00</published>
+  <updated>2026-10-07T17:19:56+00:00</updated>
+  <media:group>
+   <media:title>AlphaGenome Atlas: Understanding the human genome</media:title>
+   <media:content url="https://www.youtube.com/v/U0aToL5C-bQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/U0aToL5C-bQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>We’ve used AlphaGenome to predict the molecular impact of every possible single-letter change in the human genome. All nine billion of them.
+
+AlphaGenome Atlas is a 1PB dataset containing every single possible nucleotide variant alongside an AlphaGenome Variant Impact (AVI) score. This score helps researchers instantly understand the potential impact of any given variation.
+
+AlphaGenome Atlas is available to researchers around the world, with coding and non-coding variations available. 
+
+Learn more: https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome
+
+Disclaimer: The information provided by AlphaGenome Atlas is not intended to be a substitute for professional medical advice, diagnosis, or treatment, and does not constitute medical or other professional advice. AlphaGenome has not been validated for, and is not approved for, any clinical use.
+
+___
+
+Subscribe to our channel https://www.youtube.com/@googledeepmind 
+Find us on X https://x.com/GoogleDeepMind
+Follow us on Instagram https://instagram.com/googledeepmind 
+Add us on Linkedin https://www.linkedin.com/company/deepmind/</media:description>
+   <media:community>
+    <media:starRating count="3853" average="5.00" min="1" max="5"/>
+    <media:statistics views="4927694"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:_6jZlnRsXXQ</id>
+  <yt:videoId>_6jZlnRsXXQ</yt:videoId>
+  <yt:channelId>UCP7jMXSY2xbc3KCAE0MHQ-A</yt:channelId>
+  <title>WeatherNext 3: More accurate, timely, and local weather forecasts</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=_6jZlnRsXXQ"/>
+  <author>
+   <name>Google DeepMind</name>
+   <uri>https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A</uri>
+  </author>
+  <published>2026-09-03T14:58:32+00:00</published>
+  <updated>2026-10-04T12:15:32+00:00</updated>
+  <media:group>
+   <media:title>WeatherNext 3: More accurate, timely, and local weather forecasts</media:title>
+   <media:content url="https://www.youtube.com/v/_6jZlnRsXXQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/_6jZlnRsXXQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Predicting the weather is one of the oldest, most complex challenges we face. Traditional numerical weather prediction models are powerful, but they can be slow to run and costly at a global scale. WeatherNext 3 takes a different approach. Built on a fundamentally different architecture, WeatherNext 3 learns directly from real-world observations, including live satellite feeds and ground-level weather station data.
+
+What makes WeatherNext 3 different?
+
+- Hourly refresh: While traditional models typically refresh every six hours, WN3 produces a fresh forecast every single hour.
+- Hyper-Local resolution: Native 5km resolution for temperature and humidity, enabling better detail for coastal regions, mountains, and urban areas.
+- Actionable data: Includes variables like 100m wind speeds for wind energy management and detailed cloud/radiation metrics for solar energy planning.
+- Global reach: Delivering high-resolution insights everywhere.
+
+You can now use WeatherNext 3 through Google Search, Gemini, Google Maps and more. 
+
+Learn more: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/
+Read the full paper: https://storage.googleapis.com/deepmind-media/papers/weathernext_3.pdf
+
+Disclaimer: For official weather forecasts, severe weather warnings, and public safety advisories, please refer to your local meteorological agency or national weather service.
+
+___
+
+Subscribe to our channel https://www.youtube.com/@googledeepmind 
+Find us on X https://x.com/GoogleDeepMind
+Follow us on Instagram https://instagram.com/googledeepmind 
+Add us on Linkedin https://www.linkedin.com/company/deepmind/</media:description>
+   <media:community>
+    <media:starRating count="5768" average="5.00" min="1" max="5"/>
+    <media:statistics views="393717"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:tBjgCj_dGZM</id>
+  <yt:videoId>tBjgCj_dGZM</yt:videoId>
+  <yt:channelId>UCP7jMXSY2xbc3KCAE0MHQ-A</yt:channelId>
+  <title>The mathematics of AI uncertainty</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=tBjgCj_dGZM"/>
+  <author>
+   <name>Google DeepMind</name>
+   <uri>https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A</uri>
+  </author>
+  <published>2026-08-26T15:45:28+00:00</published>
+  <updated>2026-10-06T13:42:25+00:00</updated>
+  <media:group>
+   <media:title>The mathematics of AI uncertainty</media:title>
+   <media:content url="https://www.youtube.com/v/tBjgCj_dGZM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/tBjgCj_dGZM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Long before the current wave of large language models, one academic researcher was trying to give machines a sense of their own limitations. Zoubin Ghahramani has spent the last 30 years pioneering a type of intelligence built on the mathematics of uncertainty. Today, as a professor at Cambridge and VP of research at Google DeepMind, Zoubin finds himself at the heart of an interesting debate: will improving machine uncertainty be one of the missing pieces to ever improving AI? 
+
+Timecodes:
+00:00 Introduction 
+01:06 The role of uncertainty 
+07:45 Correctness vs confidence 
+09:40 Historical perspectives
+16:10 Bayesian thinking in AI 
+26:30 Uncertainty in the real world 
+36:42 Future research and AGI 
+___
+
+Subscribe to our channel https://www.youtube.com/@googledeepmind 
+Find us on X https://x.com/GoogleDeepMind
+Follow us on Instagram https://instagram.com/googledeepmind 
+Add us on Linkedin https://www.linkedin.com/company/deepmind/</media:description>
+   <media:community>
+    <media:starRating count="2663" average="5.00" min="1" max="5"/>
+    <media:statistics views="398500"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:zlveLhFb64M</id>
+  <yt:videoId>zlveLhFb64M</yt:videoId>
+  <yt:channelId>UCP7jMXSY2xbc3KCAE0MHQ-A</yt:channelId>
+  <title>Talking to Apollo about Gemini Robotics 2 🤖</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/zlveLhFb64M"/>
+  <author>
+   <name>Google DeepMind</name>
+   <uri>https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A</uri>
+  </author>
+  <published>2026-08-07T14:47:11+00:00</published>
+  <updated>2026-10-05T07:51:03+00:00</updated>
+  <media:group>
+   <media:title>Talking to Apollo about Gemini Robotics 2 🤖</media:title>
+   <media:content url="https://www.youtube.com/v/zlveLhFb64M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/zlveLhFb64M/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="586" average="5.00" min="1" max="5"/>
+    <media:statistics views="15815"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:OEmEfobzodE</id>
+  <yt:videoId>OEmEfobzodE</yt:videoId>
+  <yt:channelId>UCP7jMXSY2xbc3KCAE0MHQ-A</yt:channelId>
+  <title>This is Gemini Robotics 2 🤖</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/OEmEfobzodE"/>
+  <author>
+   <name>Google DeepMind</name>
+   <uri>https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A</uri>
+  </author>
+  <published>2026-07-31T16:10:59+00:00</published>
+  <updated>2026-10-01T02:18:00+00:00</updated>
+  <media:group>
+   <media:title>This is Gemini Robotics 2 🤖</media:title>
+   <media:content url="https://www.youtube.com/v/OEmEfobzodE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/OEmEfobzodE/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="602" average="5.00" min="1" max="5"/>
+    <media:statistics views="13938"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:fo9WirRIaVs</id>
+  <yt:videoId>fo9WirRIaVs</yt:videoId>
+  <yt:channelId>UCP7jMXSY2xbc3KCAE0MHQ-A</yt:channelId>
+  <title>Robots working together with Gemini Robotics 2</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=fo9WirRIaVs"/>
+  <author>
+   <name>Google DeepMind</name>
+   <uri>https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A</uri>
+  </author>
+  <published>2026-07-30T14:58:16+00:00</published>
+  <updated>2026-10-19T10:57:28+00:00</updated>
+  <media:group>
+   <media:title>Robots working together with Gemini Robotics 2</media:title>
+   <media:content url="https://www.youtube.com/v/fo9WirRIaVs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/fo9WirRIaVs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Introducing multi-robot collaboration. This enables different types of robots to communicate and work together to solve complex workflows a single robot could not do alone.
+
+Learn more about Gemini Robotics 2: https://deepmind.google/gemini-robotics 
+
+
+___
+
+Subscribe to our channel https://www.youtube.com/@googledeepmind
+Find us on X https://twitter.com/GoogleDeepMind
+Follow us on Instagram https://instagram.com/googledeepmind
+Add us on Linkedin https://www.linkedin.com/company/deepmind/</media:description>
+   <media:community>
+    <media:starRating count="466" average="5.00" min="1" max="5"/>
+    <media:statistics views="16384"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:nBftSI5mmHA</id>
+  <yt:videoId>nBftSI5mmHA</yt:videoId>
+  <yt:channelId>UCP7jMXSY2xbc3KCAE0MHQ-A</yt:channelId>
+  <title>Tasks that require whole-body control with Gemini Robotics 2</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=nBftSI5mmHA"/>
+  <author>
+   <name>Google DeepMind</name>
+   <uri>https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A</uri>
+  </author>
+  <published>2026-07-30T14:58:12+00:00</published>
+  <updated>2026-10-05T01:22:44+00:00</updated>
+  <media:group>
+   <media:title>Tasks that require whole-body control with Gemini Robotics 2</media:title>
+   <media:content url="https://www.youtube.com/v/nBftSI5mmHA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/nBftSI5mmHA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The world is built for human movements; it requires us to reach, bend, and balance in tight, cluttered spaces. While our previous models controlled the humanoid’s upper-body to achieve table-top tasks, Gemini Robotics 2 expands physical AI into whole-body motions. 
+
+Learn more about Gemini for Robotics 2: https://deepmind.google/gemini-robotics 
+
+
+___
+
+Subscribe to our channel https://www.youtube.com/@googledeepmind
+Find us on X https://twitter.com/GoogleDeepMind
+Follow us on Instagram https://instagram.com/googledeepmind
+Add us on Linkedin https://www.linkedin.com/company/deepmind/</media:description>
+   <media:community>
+    <media:starRating count="489" average="5.00" min="1" max="5"/>
+    <media:statistics views="19615"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
