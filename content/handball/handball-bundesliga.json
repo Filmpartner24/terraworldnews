@@ -895,7 +895,11 @@
    "t1": "TVB 1898 Stuttgart",
    "t2": "SG BBM Bietigheim",
    "date": "2026-10-22",
-   "time": "19:00"
+   "time": "19:00",
+   "ft": [
+    39,
+    29
+   ]
   },
   {
    "r": 10,
@@ -1018,6 +1022,19 @@
   },
   {
    "r": 12,
+   "t1": "Rhein-Neckar-Löwen",
+   "t2": "TBV Lemgo",
+   "date": "2026-11-14"
+  },
+  {
+   "r": 12,
+   "t1": "Füchse Berlin",
+   "t2": "THW Kiel",
+   "date": "2026-11-14",
+   "time": "15:55"
+  },
+  {
+   "r": 12,
    "t1": "HC Erlangen",
    "t2": "HSV Hamburg",
    "date": "2026-11-14",
@@ -1029,19 +1046,6 @@
    "t2": "HSG Wetzlar",
    "date": "2026-11-14",
    "time": "19:00"
-  },
-  {
-   "r": 12,
-   "t1": "Rhein-Neckar-Löwen",
-   "t2": "TBV Lemgo",
-   "date": "2026-11-14"
-  },
-  {
-   "r": 12,
-   "t1": "Füchse Berlin",
-   "t2": "THW Kiel",
-   "date": "2026-11-14",
-   "time": "15:55"
   },
   {
    "r": 12,
@@ -1075,6 +1079,66 @@
    "t1": "TVB 1898 Stuttgart",
    "t2": "Frisch Auf Göppingen",
    "date": "2026-12-03"
+  },
+  {
+   "r": 13,
+   "t1": "TSV Hannover-Burgdorf",
+   "t2": "TVB 1898 Stuttgart",
+   "date": "2026-11-20"
+  },
+  {
+   "r": 13,
+   "t1": "HC Erlangen",
+   "t2": "HBW Balingen-Weilstetten",
+   "date": "2026-11-20",
+   "time": "20:00"
+  },
+  {
+   "r": 13,
+   "t1": "SG BBM Bietigheim",
+   "t2": "Bergischer HC",
+   "date": "2026-11-21"
+  },
+  {
+   "r": 13,
+   "t1": "ThSV Eisenach",
+   "t2": "MT Melsungen",
+   "date": "2026-11-21",
+   "time": "19:00"
+  },
+  {
+   "r": 13,
+   "t1": "TBV Lemgo",
+   "t2": "VfL Gummersbach",
+   "date": "2026-11-21",
+   "time": "20:00"
+  },
+  {
+   "r": 13,
+   "t1": "HSV Hamburg",
+   "t2": "SC Magdeburg",
+   "date": "2026-11-22"
+  },
+  {
+   "r": 13,
+   "t1": "Frisch Auf Göppingen",
+   "t2": "Füchse Berlin",
+   "date": "2026-11-22",
+   "time": "15:00"
+  },
+  {
+   "r": 13,
+   "t1": "SG Flensburg-Handewitt",
+   "t2": "Rhein-Neckar-Löwen",
+   "date": "2026-11-22",
+   "time": "16:30"
+  },
+  {
+   "r": 13,
+   "t1": "THW Kiel",
+   "t2": "HSG Wetzlar",
+   "date": "2026-11-22",
+   "time": "18:00"
   },
   {
    "r": 16,
@@ -1113,6 +1177,10 @@
   {
    "n": "hessenschau – Spiele HBW Balingen-Weilstetten",
    "u": "https://www.hessenschau.de/sport/ergebnisse-tabellen/handball-1bl100~team_id-1100.html"
+  },
+  {
+   "n": "hessenschau.de – THW Kiel Spielplan 2026/27",
+   "u": "https://www.hessenschau.de/sport/ergebnisse-tabellen/handball-1bl100~team_id-297.html"
   }
  ]
 }
