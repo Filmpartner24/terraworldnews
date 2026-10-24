@@ -133,3 +133,6 @@ return '<span class="fq'+(on?' on':'')+'"><b class="fl">'+esc(m.ln)+'</b> '+esc(
 sets[0].innerHTML=h;sets[1].innerHTML=h;b.hidden=false;return d.live}
 function load(){fetch('/api/live',{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){var live=draw(d);clearTimeout(t);t=setTimeout(load,live?60000:300000)}).catch(function(){clearTimeout(t);t=setTimeout(load,300000)})}
 load();document.addEventListener('visibilitychange',function(){if(!document.hidden){clearTimeout(t);load()}})})();
+
+/* Musik-Wochenplan: auf dem Handy den heutigen Tag in den sichtbaren Bereich schieben */
+(function(){var d=document.querySelector('.mp-days .mp-d.on');if(d&&d.parentNode.scrollWidth>d.parentNode.clientWidth){d.parentNode.scrollLeft=Math.max(0,d.offsetLeft-d.parentNode.offsetLeft-8)}})();

@@ -24,7 +24,7 @@ LOCALE = {'bg': 'bg_BG', 'de': 'de_DE', 'en': 'en_GB'}
 SECTIONS = ['welt', 'europa', 'deutschland', 'bulgarien', 'leben', 'mode', 'ki', 'wirtschaft', 'energie', 'business', 'auto', 'klima', 'ai', 'film', 'musik', 'games', 'sport']
 MEDIA = ('games', 'mode', 'auto', 'film', 'musik', 'sport', 'ai', 'ki', 'wirtschaft', 'energie', 'leben', 'klima', 'welt', 'europa', 'deutschland', 'bulgarien')   # Rubriken mit eigenem Medien-Layout (Reviews/Trailer + News)
 SUBS = {'sport': ['fussball', 'championsleague', 'europaleague', 'conferenceleague', 'laenderspiele', 'formel1', 'tennis', 'handball', 'boxen', 'mma', 'extremsport']}   # Formel 1 + Tennis seit 09.10.2026   # Handball + Extremsport seit 08.10.2026
-LSUBS = {'mode': ['imtrend', 'designer', 'dessous'], 'leben': ['liebe', 'guinness'], 'deutschland': ['berlin', 'oberfranken'], 'ki': ['raumfahrt']}
+LSUBS = {'musik': ['rockmetal', 'poprnb', 'electronic', 'filmclassic', 'folkroots'], 'mode': ['imtrend', 'designer', 'dessous'], 'leben': ['liebe', 'guinness'], 'deutschland': ['berlin', 'oberfranken'], 'ki': ['raumfahrt']}
 MOVE_SUBS = {'deutschland', 'ki'}   # seit 08.10.2026: Berlin/Oberfranken nur auf der Unterseite, nicht mehr auf der Rubrikseite Deutschland
 SUB_KEEP = 30   # Unterseiten dieser Rubriken zeigen die letzten 30 Ausgabetage   # „leichte“ Unterrubriken (seit 08.10.2026): Rubrikseite bleibt, Unterseite zusätzlich (Feld "sub")
 SLOGAN = {'bg': ['НОВИНИ', 'ФАКТИ', 'КОНТЕКСТ'], 'de': ['NACHRICHTEN', 'FAKTEN', 'KONTEXT'], 'en': ['NEWS', 'FACTS', 'CONTEXT']}
@@ -34,9 +34,9 @@ NAV_GROUPS = [  # Menü-Gruppen (Desktop: Trennstriche, Mobil: Überschriften im
     ('know', {'bg': 'Икономика и знание', 'de': 'Wirtschaft & Wissen', 'en': 'Economy & Knowledge'}, ['ki', 'wirtschaft', 'energie', 'business', 'auto', 'klima', 'ai']),
     ('ent', {'bg': 'Развлечения', 'de': 'Unterhaltung', 'en': 'Entertainment'}, ['film', 'musik', 'games']),
     ('sport', {'bg': 'Спорт', 'de': 'Sport', 'en': 'Sport'}, ['sport'])]   # WOW am 09.10.2026 wieder entfernt (Guinness → Leben & Alltag)   # Unterrubriken (Feld "sub" im Item)
-SUB = {'bg': {'fussball': ('Футбол', 'futbol'), 'championsleague': ('Шампионска лига', 'shampionska-liga'), 'europaleague': ('Лига Европа', 'liga-evropa'), 'conferenceleague': ('Лига на конференциите', 'liga-na-konferentsiite'), 'laenderspiele': ('Национални отбори', 'natsionalni-otbori'), 'boxen': ('Бокс', 'boks'), 'mma': ('ММА', 'mma'), 'liebe': ('Любов и връзки', 'lyubov-i-vrazki'), 'berlin': ('Берлин', 'berlin'), 'oberfranken': ('Горна Франкония', 'gorna-frankonia'), 'guinness': ('Рекорди на Гинес', 'rekordi-gines'), 'raumfahrt': ('Космос', 'kosmos'), 'formel1': ('Формула 1', 'formula-1'), 'tennis': ('Тенис', 'tenis'), 'handball': ('Хандбал', 'handbal'), 'extremsport': ('Екстремни спортове', 'ekstremni-sportove'), 'imtrend': ('На мода', 'na-moda'), 'designer': ('Дизайнери', 'dizayneri'), 'dessous': ('Бельо', 'belyo')},
-       'de': {'fussball': ('Fußball', 'fussball'), 'championsleague': ('Champions League', 'champions-league'), 'europaleague': ('Europa League', 'europa-league'), 'conferenceleague': ('Conference League', 'conference-league'), 'laenderspiele': ('Länderspiele', 'laenderspiele'), 'boxen': ('Boxen', 'boxen'), 'mma': ('MMA', 'mma'), 'liebe': ('Liebe & Beziehung', 'liebe-beziehung'), 'berlin': ('Berlin', 'berlin'), 'oberfranken': ('Oberfranken', 'oberfranken'), 'guinness': ('Guinness Records', 'guinness-records'), 'raumfahrt': ('Raumfahrt', 'raumfahrt'), 'formel1': ('Formel 1', 'formel-1'), 'tennis': ('Tennis', 'tennis'), 'handball': ('Handball', 'handball'), 'extremsport': ('Extremsport', 'extremsport'), 'imtrend': ('Im Trend', 'im-trend'), 'designer': ('Designer', 'designer'), 'dessous': ('Dessous', 'dessous')},
-       'en': {'fussball': ('Football', 'football'), 'championsleague': ('Champions League', 'champions-league'), 'europaleague': ('Europa League', 'europa-league'), 'conferenceleague': ('Conference League', 'conference-league'), 'laenderspiele': ('Internationals', 'internationals'), 'boxen': ('Boxing', 'boxing'), 'mma': ('MMA', 'mma'), 'liebe': ('Love & Relationships', 'love-relationships'), 'berlin': ('Berlin', 'berlin'), 'oberfranken': ('Upper Franconia', 'upper-franconia'), 'guinness': ('Guinness World Records', 'guinness-world-records'), 'raumfahrt': ('Space', 'space'), 'formel1': ('Formula 1', 'formula-1'), 'tennis': ('Tennis', 'tennis'), 'handball': ('Handball', 'handball'), 'extremsport': ('Extreme sports', 'extreme-sports'), 'imtrend': ('Trending', 'trending'), 'designer': ('Designers', 'designers'), 'dessous': ('Lingerie', 'lingerie')}}
+SUB = {'bg': {'rockmetal': ('Рок и метъл', 'rok-i-metal'), 'poprnb': ('Поп и R&B', 'pop-i-rnb'), 'electronic': ('Електронна', 'elektronna'), 'filmclassic': ('Филмова и класическа', 'filmova-i-klasicheska'), 'folkroots': ('Фолк и корени', 'folk'), 'fussball': ('Футбол', 'futbol'), 'championsleague': ('Шампионска лига', 'shampionska-liga'), 'europaleague': ('Лига Европа', 'liga-evropa'), 'conferenceleague': ('Лига на конференциите', 'liga-na-konferentsiite'), 'laenderspiele': ('Национални отбори', 'natsionalni-otbori'), 'boxen': ('Бокс', 'boks'), 'mma': ('ММА', 'mma'), 'liebe': ('Любов и връзки', 'lyubov-i-vrazki'), 'berlin': ('Берлин', 'berlin'), 'oberfranken': ('Горна Франкония', 'gorna-frankonia'), 'guinness': ('Рекорди на Гинес', 'rekordi-gines'), 'raumfahrt': ('Космос', 'kosmos'), 'formel1': ('Формула 1', 'formula-1'), 'tennis': ('Тенис', 'tenis'), 'handball': ('Хандбал', 'handbal'), 'extremsport': ('Екстремни спортове', 'ekstremni-sportove'), 'imtrend': ('На мода', 'na-moda'), 'designer': ('Дизайнери', 'dizayneri'), 'dessous': ('Бельо', 'belyo')},
+       'de': {'rockmetal': ('Rock & Metal', 'rock-metal'), 'poprnb': ('Pop & R&B', 'pop-rnb'), 'electronic': ('Electronic', 'electronic'), 'filmclassic': ('Film & Klassik', 'film-klassik'), 'folkroots': ('Folk & Roots', 'folk-roots'), 'fussball': ('Fußball', 'fussball'), 'championsleague': ('Champions League', 'champions-league'), 'europaleague': ('Europa League', 'europa-league'), 'conferenceleague': ('Conference League', 'conference-league'), 'laenderspiele': ('Länderspiele', 'laenderspiele'), 'boxen': ('Boxen', 'boxen'), 'mma': ('MMA', 'mma'), 'liebe': ('Liebe & Beziehung', 'liebe-beziehung'), 'berlin': ('Berlin', 'berlin'), 'oberfranken': ('Oberfranken', 'oberfranken'), 'guinness': ('Guinness Records', 'guinness-records'), 'raumfahrt': ('Raumfahrt', 'raumfahrt'), 'formel1': ('Formel 1', 'formel-1'), 'tennis': ('Tennis', 'tennis'), 'handball': ('Handball', 'handball'), 'extremsport': ('Extremsport', 'extremsport'), 'imtrend': ('Im Trend', 'im-trend'), 'designer': ('Designer', 'designer'), 'dessous': ('Dessous', 'dessous')},
+       'en': {'rockmetal': ('Rock & Metal', 'rock-metal'), 'poprnb': ('Pop & R&B', 'pop-rnb'), 'electronic': ('Electronic', 'electronic'), 'filmclassic': ('Film & Classical', 'film-classical'), 'folkroots': ('Folk & Roots', 'folk-roots'), 'fussball': ('Football', 'football'), 'championsleague': ('Champions League', 'champions-league'), 'europaleague': ('Europa League', 'europa-league'), 'conferenceleague': ('Conference League', 'conference-league'), 'laenderspiele': ('Internationals', 'internationals'), 'boxen': ('Boxing', 'boxing'), 'mma': ('MMA', 'mma'), 'liebe': ('Love & Relationships', 'love-relationships'), 'berlin': ('Berlin', 'berlin'), 'oberfranken': ('Upper Franconia', 'upper-franconia'), 'guinness': ('Guinness World Records', 'guinness-world-records'), 'raumfahrt': ('Space', 'space'), 'formel1': ('Formula 1', 'formula-1'), 'tennis': ('Tennis', 'tennis'), 'handball': ('Handball', 'handball'), 'extremsport': ('Extreme sports', 'extreme-sports'), 'imtrend': ('Trending', 'trending'), 'designer': ('Designers', 'designers'), 'dessous': ('Lingerie', 'lingerie')}}
 SEC = {
  'bg': {'welt': ('Свят', 'svyat'), 'europa': ('Европа', 'evropa'), 'deutschland': ('Германия', 'germania'), 'bulgarien': ('България', 'balgaria'), 'ki': ('Технологии', 'tehnologii'), 'wirtschaft': ('Икономика', 'ikonomika'), 'business': ('Бизнес', 'biznes'), 'auto': ('Авто', 'avto'), 'klima': ('Климат', 'klimat'), 'ai': ('ИИ', 'izkustven-intelekt'), 'energie': ('Енергия', 'energia'), 'kultur': ('Развлечения', 'razvlechenia'), 'games': ('Игри', 'igri'), 'film': ('Филми', 'filmi'), 'musik': ('Музика', 'muzika'), 'mode': ('Мода', 'moda'), 'sport': ('Спорт', 'sport'), 'leben': ('Живот и ежедневие', 'zhivot'), 'wow': ('WOW', 'wow')},
  'de': {'welt': ('Welt', 'welt'), 'europa': ('Europa', 'europa'), 'deutschland': ('Deutschland', 'deutschland'), 'bulgarien': ('Bulgarien', 'bulgarien'), 'ki': ('Technologie', 'technologie'), 'wirtschaft': ('Wirtschaft', 'wirtschaft'), 'business': ('Business', 'business'), 'auto': ('Auto', 'auto'), 'klima': ('Klima', 'klima'), 'ai': ('KI', 'ki'), 'energie': ('Energie', 'energie'), 'kultur': ('Entertainment', 'entertainment'), 'leben': ('Leben & Alltag', 'leben-alltag'), 'games': ('Games', 'games'), 'sport': ('Sport', 'sport'), 'film': ('Film', 'film'), 'musik': ('Musik', 'musik'), 'mode': ('Mode', 'mode'), 'wow': ('WOW', 'wow')},
@@ -92,6 +92,21 @@ SEO_DESC = {
  'kultur': {'de': 'Kultur und Entertainment: Konzerte, Festivals, Preisverleihungen und Kino.', 'bg': 'Култура и развлечения: концерти, фестивали, награди и кино.', 'en': 'Culture and entertainment: concerts, festivals, awards and cinema.'},
 }
 SUB_DESC = {
+ 'rockmetal': {'de': 'Rock & Metal: Rock, Hard Rock, Metal und Punk – Album-Reviews, Musikvideos, Tourdaten und Festivals. Kanal des Tages jeden Montag.',
+               'bg': 'Рок и метъл: рок, хард рок, метъл и пънк – ревюта на албуми, видеоклипове, турнета и фестивали. Канал на деня всеки понеделник.',
+               'en': 'Rock & Metal: rock, hard rock, metal and punk – album reviews, music videos, tour dates and festivals. Channel of the day every Monday.'},
+ 'poprnb': {'de': 'Pop & R&B: Pop, R&B, Soul und Hip-Hop – neue Alben, Charts, Musikvideos und Tourneen. Kanal des Tages jeden Dienstag.',
+            'bg': 'Поп и R&B: поп, R&B, соул и хип-хоп – нови албуми, класации, видеоклипове и турнета. Канал на деня всеки вторник.',
+            'en': 'Pop & R&B: pop, R&B, soul and hip-hop – new albums, charts, music videos and tours. Channel of the day every Tuesday.'},
+ 'electronic': {'de': 'Electronic: Dance, Trance, Techno und Electro – Releases, DJ-News, Clubs und Festivals. Kanal des Tages jeden Mittwoch.',
+                'bg': 'Електронна: денс, транс, техно и електро – нови издания, DJ новини, клубове и фестивали. Канал на деня всяка сряда.',
+                'en': 'Electronic: dance, trance, techno and electro – releases, DJ news, clubs and festivals. Channel of the day every Wednesday.'},
+ 'filmclassic': {'de': 'Film & Klassik: Filmmusik, Scores, Soundtracks und Klassik – mit der Rubrik „Aus dem Studio“. Kanal des Tages jeden Donnerstag.',
+                 'bg': 'Филмова и класическа: филмова музика, саундтракове и класика – с рубриката „От студиото“. Канал на деня всеки четвъртък.',
+                 'en': 'Film & Classical: film music, scores, soundtracks and classical – with the column “From the studio”. Channel of the day every Thursday.'},
+ 'folkroots': {'de': 'Folk & Roots: Folk, Country, Weltmusik und Balkan – mit der Rubrik „Balkan Sound“ aus Bulgarien und Südosteuropa. Kanal des Tages jeden Freitag.',
+               'bg': 'Фолк и корени: фолк, кънтри, световна музика и Балканите – с рубриката „Балкански звук“ от България и Югоизточна Европа. Канал на деня всеки петък.',
+               'en': 'Folk & Roots: folk, country, world music and the Balkans – with the column “Balkan Sound” from Bulgaria and South-East Europe. Channel of the day every Friday.'},
  'imtrend': {'de': 'Im Trend: Party-Looks, Schmuck, extreme Mode, Frisuren, Interior Design, Uhren, Brillen und Kopfschmuck – täglich mit Videos.',
              'bg': 'На мода: визии за парти, бижута, екстремна мода, прически, интериорен дизайн, часовници, очила и украшения за глава – всеки ден с видео.',
              'en': 'Trending: party looks, jewellery, extreme fashion, hairstyles, interior design, watches, eyewear and headpieces – daily, with videos.'},
@@ -184,6 +199,23 @@ def kultur_to(it):
 
 _BER_RE = re.compile(r'^(de-|deutschland-|breaking-)?berlin-|^de-(neukoelln|kreuzberg|friedrichshain|lichtenberg|marzahn|spandau|mitte|moabit|wedding|pankow|reinickendorf|tempelhof|treptow|koepenick|charlottenburg|steglitz|zehlendorf|weissensee|schoeneberg)-')
 _BER_T = re.compile(r'^(Berlin|Berliner|Neukölln|Kreuzberg|Friedrichshain|Lichtenberg|Marzahn|Spandau|Moabit|Wedding|Pankow|Reinickendorf|Tempelhof|Treptow|Köpenick|Charlottenburg|Steglitz|Zehlendorf|Weißensee|Schöneberg|Hellersdorf|Biesdorf)\b')
+MUSIC_KW = {   # Musik-Kanäle: Schlagwörter (frühester Treffer in Genre/Titel entscheidet)
+ 'rockmetal': ['symphonic metal', 'metal', 'rock', 'punk', 'doom', 'stoner', 'grunge', 'hardcore', 'wacken', 'iron maiden', 'ministry', 'alice cooper', 'toto', 'sabbath', 'iommi', 'queens of the stone age', 'chemical romance', 'pretty reckless', 'smashing pumpkins', 'kings of leon', 'rammstein', 'ac/dc', 'scorpions', 'metallica', 'blink-182', 'toten hosen'],
+ 'poprnb': ['pop', 'r&b', 'rnb', 'soul', 'hip-hop', 'hip hop', 'rap', 'rapper', 'deutschrap', 'schlager', 'charts', 'singer-songwriter', 'eurovision', 'esc', 'helene fischer', 'andrea berg', 'gabalier', 'sting', 'sting 3', 'james blunt', 'leslie clio', 'winehouse', 'tate mcrae', 'taylor swift'],
+ 'electronic': ['electronic', 'elektronisch', 'electro', 'techno', 'trance', 'house', 'dance', 'edm', 'hardtekk', 'drum and bass', 'drum & bass', 'kraftwerk', 'dj', 'rave'],
+ 'filmclassic': ['soundtrack', 'filmmusik', 'score', 'klassik', 'classical', 'neoklassik', 'orchester', 'orchestra', 'oper', 'opera', 'symphon', 'philharmon', 'komponist'],
+ 'folkroots': ['neofolk', 'folk', 'country', 'roots', 'balkan', 'volksmusik', 'weltmusik', 'world music', 'bluegrass', 'americana', 'chalga', 'чалга'],
+}
+MUSIC_STRICT = {'rap', 'pop', 'dj', 'esc', 'oper', 'rave', 'house', 'dance', 'score', 'toto', 'soul', 'edm', 'folk', 'roots', 'electro', 'charts'}
+def music_sub(it):
+    rv = it.get('rv') or {}
+    for txt in (str(rv.get('pf') or ''), ' '.join(str((it.get('de') or {}).get(k, '')) for k in ('t', 'd'))):
+        t = txt.lower(); best = None
+        for k, kws in MUSIC_KW.items():
+            for w in kws:
+                m = re.search(r'(?<![a-zäöüß])' + re.escape(w) + (r'(?![a-zäöüß])' if w in MUSIC_STRICT else ''), t)
+                if m and (best is None or m.start() < best[0]): best = (m.start(), k)
+        if best: it['sub'] = best[1]; return
 def berlin_sub(it):
     """Berlin-Themen (Hauptstadt-Lokales, Landespolitik, Polizei) → Unterrubrik Berlin. Bundespolitik „in Berlin“ bleibt Deutschland."""
     sub = it.get('sub')
@@ -194,6 +226,7 @@ def berlin_sub(it):
     if kl == 'Berlin' or _BER_RE.match(it.get('id', '')) or _BER_T.match(t): it['sub'] = 'berlin'
 
 def load():
+    load_musik()
     eds, brk = [], []
     for f in sorted(glob.glob(os.path.join(HERE, 'content', '*.json'))):
         d = json.load(open(f, encoding='utf-8'))
@@ -202,6 +235,7 @@ def load():
             if it.get('s') == 'usa': it['s'] = 'welt'
             if it.get('s') == 'klima' and it.get('nat'): it['s'] = 'leben'; it['_kl'] = True  # Naturorte laufen unter Leben & Alltag, Klima hat wieder eigene Rubrik  # Klima/Natur läuft unter Leben & Alltag (seit 03.10.2026)  # USA-Meldungen laufen unter Welt
             if it.get('s') == 'kultur': it['s'] = kultur_to(it)
+            if it.get('s') == 'musik' and not it.get('sub') and it.get('rub') not in ('rueckblick', 'longread'): music_sub(it)   # Musik-Kanal (Genre) automatisch, falls nicht gesetzt (seit 24.10.2026)
             if it.get('s') == 'deutschland': berlin_sub(it)   # Berlin-Meldungen automatisch in die Unterrubrik Berlin (seit 08.10.2026)  # Entertainment aufgeteilt in Film und Musik
             if it.get('img') and not it['img']['f'].startswith('/'): it['img']['f'] = '/' + it['img']['f']  # Pfad immer absolut
             if it.get('img') and not os.path.exists(os.path.join(HERE, 'static', it['img']['f'].lstrip('/'))):
@@ -679,6 +713,97 @@ def rv_box(it, l):  # Review-Kasten im Artikel: Plakette, Einzelwertungen, Stär
             + (f'<div class="rv-fz"><h3>{e(R["fz"])}</h3><p>{e(fz)}</p></div>' if fz else '') + f'<p class="rv-note">{e(R["note"])}</p></section>')
 def gp_slogan(l):  # Slogan rechts im Rubrik-Kopf (statt Datum)
     return '<span class="gp-slogan" aria-label="' + '. '.join(SLOGAN[l]) + '.">' + '<i aria-hidden="true"></i>'.join(SLOGAN[l]) + '</span>'
+# ---- Musik-Sparte (seit 24.10.2026): Wochenplan der Kanäle, Rubriken, Songs der Woche, Tour-Radar, Release-Kalender
+MUSIK = {}   # content/musik/releases.json, content/musik/songs.json
+def load_musik():
+    for n in ('releases', 'songs'):
+        fp = os.path.join(HERE, 'content', 'musik', n + '.json')
+        if os.path.exists(fp): MUSIK[n] = json.load(open(fp, encoding='utf-8'))
+MPLAN = ['rockmetal', 'poprnb', 'electronic', 'filmclassic', 'folkroots', 'rueckblick', 'longread']   # Mo … So
+RUB = {   # eigene Rubriken der Musik-Sparte (Feld "rub" im Item)
+ 'rueckblick': {'bg': ('Седмицата в музиката', 'Най-важното от седмицата във всички жанрове – всяка събота.'),
+                'de': ('Wochenrückblick', 'Das Wichtigste der Woche aus allen Genres – jeden Samstag.'),
+                'en': ('Week in review', 'The most important stories of the week across all genres – every Saturday.')},
+ 'longread': {'bg': ('Long Read', 'Интервюта, портрети и анализи на албуми – всяка неделя.'),
+              'de': ('Long Read', 'Interviews, Porträts und Album-Einordnungen – jeden Sonntag.'),
+              'en': ('Long read', 'Interviews, profiles and album deep dives – every Sunday.')},
+ 'studio': {'bg': ('От студиото', 'Композиторът Неди Джон Крос за филмовата музика: как работи един саундтрак.'),
+            'de': ('Aus dem Studio', 'Komponist Nedy John Cross über Filmmusik: wie ein Score funktioniert.'),
+            'en': ('From the studio', 'Composer Nedy John Cross on film music: how a score works.')},
+ 'buehne': {'bg': ('Някога на сцената', 'Спомени от турнетата през 90-те и срещи с големите имена на рока.'),
+            'de': ('Damals auf der Bühne', 'Erinnerungen an Touren der 90er und Begegnungen mit den Großen des Rock.'),
+            'en': ('Back on stage', 'Memories of 1990s tours and encounters with the greats of rock.')},
+ 'balkan': {'bg': ('Балкански звук', 'Музика от България и Югоизточна Европа – от фолк до метъл.'),
+            'de': ('Balkan Sound', 'Musik aus Bulgarien und Südosteuropa – von Folk bis Metal.'),
+            'en': ('Balkan Sound', 'Music from Bulgaria and South-East Europe – from folk to metal.')},
+}
+MZU = {'bg': dict(plan='Седмичен план', today='днес', days=['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Нд'], chan='Каналите', chn='{n} статии за 7 дни', rub='Само в TWN', newest='Последно:', songs='3 песни на седмицата', week='Седмица', tours='Тур-радар', rel='Календар на изданията', relnote='Според обявите на изпълнители и лейбъли към {d}; възможни са промени.', live='на живо', reissue='преиздание', single='сингъл', ep='EP', box='бокс сет', src='Източници', open='Към канала →', review='Към ревюто →'),
+       'de': dict(plan='Wochenplan', today='heute', days=['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'], chan='Die Kanäle', chn='{n} Beiträge in 7 Tagen', rub='Nur bei TWN', newest='Zuletzt:', songs='3 Songs der Woche', week='Woche', tours='Tour-Radar', rel='Release-Kalender', relnote='Nach Ankündigungen von Künstlern und Labels, Stand {d}; Änderungen möglich.', live='Live', reissue='Neuauflage', single='Single', ep='EP', box='Box-Set', src='Quellen', open='Zum Kanal →', review='Zum Review →'),
+       'en': dict(plan='Weekly plan', today='today', days=['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'], chan='The channels', chn='{n} stories in 7 days', rub='Only on TWN', newest='Latest:', songs='3 songs of the week', week='Week', tours='Tour radar', rel='Release calendar', relnote='Based on artist and label announcements as of {d}; subject to change.', live='live', reissue='reissue', single='single', ep='EP', box='box set', src='Sources', open='Go to channel →', review='Read the review →')}
+def mplan_name(k, l): return SUB[l][k][0] if k in SUB[l] else RUB[k][l][0]
+def mplan_url(k, l): return sub_url('musik', k, l) if k in SUB[l] else None
+def musik_extras(l, its, day0):
+    """Liefert (oben, mitte) für die Musik-Seite: Wochenplan + Kanäle oben; Rubriken, Songs der Woche, Tour-Radar und Release-Kalender in der Mitte."""
+    import datetime as _dm
+    Z = MZU[l]; d0 = _dm.date.fromisoformat(day0); wd = d0.weekday()
+    pills = ''
+    for i, k in enumerate(MPLAN):
+        u_ = mplan_url(k, l); nm = e(mplan_name(k, l)); cur = ' on' if i == wd else ''
+        inner = f'<b>{e(Z["days"][i])}</b><span>{nm}</span>' + (f'<i>{e(Z["today"])}</i>' if i == wd else '')
+        pills += (f'<a class="mp-d{cur}" href="{u_}">{inner}</a>' if u_ else f'<div class="mp-d{cur}">{inner}</div>')
+    top = f'<section class="mp-plan" aria-label="{e(Z["plan"])}"><h2 class="gp-h">{e(Z["plan"])}</h2><div class="mp-days">{pills}</div></section>'
+    cut7 = (d0 - _dm.timedelta(days=6)).isoformat()
+    cards = ''
+    for k in LSUBS['musik']:
+        n = sum(1 for x in its if x.get('sub') == k and x['date'] >= cut7)
+        last = next((x for x in sorted(its, key=lambda x: (x['date'], x['time']), reverse=True) if x.get('sub') == k), None)
+        cards += (f'<a class="mc mc-{k}" href="{sub_url("musik", k, l)}"><span class="mc-n">{e(SUB[l][k][0])}</span><span class="mc-c">{e(Z["chn"].format(n=n))}</span>'
+                  + (f'<span class="mc-l">{e(last[l]["t"])}</span>' if last else '') + f'<span class="mc-go">{e(Z["open"])}</span></a>')
+    top += f'<section class="mp-chan"><h2 class="gp-h">{e(Z["chan"])}</h2><div class="mc-grid">{cards}</div></section>'
+    mid = ''
+    # Songs der Woche (content/musik/songs.json: neueste Woche, die day0 nicht überschreitet)
+    wk = [w for w in (MUSIK.get('songs') or {}).get('weeks', []) if w['from'] <= day0]
+    if wk:
+        w = max(wk, key=lambda x: x['from'])
+        sg = ''
+        for x in w['songs'][:3]:
+            ref = next((it for it in its if it['id'] == x.get('ref')), None)
+            bgimg = f' style="background-image:url({ref["img"]["f"]})"' if ref and ref.get('img') else ''
+            sg += (f'<article class="sow"><div class="yt gr-yt sow-yt" data-yt="{e(x["yt"]["id"])}"{bgimg}><span class="gr-badge">{e(SUB[l].get(x.get("g"), ("",))[0])}</span>'
+                   f'<button type="button" class="yt-play">{e(UI[l]["playv"])}</button><span class="yt-note">{e(UI[l]["ytnote"])}</span></div>'
+                   f'<h3>{e(x["artist"])} – „{e(x["title"])}“</h3><p>{e(L(x.get("note", {}), l))}</p><p class="gr-yt-src">YouTube · {ch_html(x["yt"].get("ch", ""))}</p>'
+                   + (f'<a class="gr-more" href="{art_url(ref, l)}">{e(Z["review"])}</a>' if ref else '') + '</article>')
+        mid += f'<section class="mp-sow"><h2 class="gp-h">♫ {e(Z["songs"])} <small>{e(Z["week"])} {short_date(w["from"], l)} – {short_date(w["to"], l)}</small></h2><div class="sow-grid">{sg}</div></section>'
+    # eigene Rubriken
+    rt = ''
+    for k, v in RUB.items():
+        last = next((x for x in sorted(its, key=lambda x: (x['date'], x['time']), reverse=True) if x.get('rub') == k), None)
+        rt += (f'<div class="mr"><h3>{e(v[l][0])}</h3><p>{e(v[l][1])}</p>'
+               + (f'<a href="{art_url(last, l)}"><span>{e(Z["newest"])}</span> {e(last[l]["t"])}</a>' if last else '') + '</div>')
+    mid += f'<section class="mp-rub"><h2 class="gp-h">★ {e(Z["rub"])}</h2><div class="mr-grid">{rt}</div></section>'
+    # Tour-Radar: Tour-Meldungen der letzten 14 Tage
+    cut14 = (d0 - _dm.timedelta(days=13)).isoformat()
+    tw = re.compile(r'tour|konzert|open.air|arena|live', re.I)
+    tours = [x for x in sorted(its, key=lambda x: (x['date'], x['time']), reverse=True) if x['date'] >= cut14 and not x.get('rv') and not x.get('fest') and (x.get('tour') or tw.search(x['id']))][:8]
+    if tours:
+        tl = ''.join(f'<li><a href="{art_url(x, l)}"><span class="tr-g">{e(SUB[l][x["sub"]][0]) if x.get("sub") else "♫"}</span><b>{e(x[l]["t"])}</b><time datetime="{x["date"]}">{num_date(x["date"])}</time></a></li>' for x in tours)
+        mid += f'<section class="mp-tour"><h2 class="gp-h">◎ {e(Z["tours"])}</h2><ul class="tr-list">{tl}</ul></section>'
+    # Release-Kalender: kommende Release-Freitage (max. 2)
+    R = MUSIK.get('releases') or {}
+    up = sorted({r['date'] for r in R.get('releases', []) if r['date'] >= day0})[:2]
+    if up:
+        rk = ''
+        for dd in up:
+            rows = ''
+            for r in [r for r in R['releases'] if r['date'] == dd]:
+                tp = Z.get(r.get('type', ''), '') if r.get('type') else ''
+                rows += (f'<li><span class="rl-g rl-{e(r.get("g", ""))}">{e(SUB[l].get(r.get("g"), ("",))[0])}</span><b>{e(r["artist"])}</b> – <i>{e(r["title"])}</i>'
+                         + (f' <small>({e(tp)})</small>' if tp else '') + '</li>')
+            rk += f'<div class="rl-day"><h3>{e(Z["days"][_dm.date.fromisoformat(dd).weekday()])}, {short_date(dd, l)}</h3><ul>{rows}</ul></div>'
+        srcs = ''.join(f'<li><a href="{e(x["u"])}" rel="noopener nofollow" target="_blank">{e(x["n"])}</a></li>' for x in R.get('src', []))
+        mid += (f'<section class="mp-rel"><h2 class="gp-h">▤ {e(Z["rel"])}</h2><div class="rl-grid">{rk}</div><p class="rl-note">{e(Z["relnote"].format(d=short_date(R.get("asof", day0), l)))}</p>'
+                + (f'<details class="rl-src"><summary>{e(Z["src"])}</summary><ul>{srcs}</ul></details>' if srcs else '') + '</section>')
+    return top, mid
 def games_page(l, its, day0, others, SX, kind='games', title=None):
     u = UI[l]; g = dict(GPU[l]); g.update(MPU.get(kind, {}).get(l, {}))
     def cover_style(it):
@@ -744,7 +869,10 @@ def games_page(l, its, day0, others, SX, kind='games', title=None):
                     f'<div class="gr-txt"><a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a><p class="gr-meta">{e(it["time"])}{(" " + u["hour"]) if u["hour"] else ""}</p>'
                     f'<p class="gr-dek">{e(it[l]["d"])}</p><a class="gr-more" href="{art_url(it, l)}">{e(g["more"])}</a></div></article>')
         html += f'<h2 class="gp-h"><b class="brk">{e(u["brk"])}</b></h2>' + ''.join(brk_card(it) for it in brk_top)
+    _mx = musik_extras(l, its, day0) if kind == 'musik' and title is None else ('', '')
+    html += _mx[0]
     if revs: html += f'<h2 class="gp-h">▶ {e(g["rev"])}</h2>' + ''.join(review(it) for it in revs)
+    html += _mx[1]
     if fests: html += f'<h2 class="gp-h">▶ {e(({"bg": "Филмови фестивали", "de": "Filmfestivals", "en": "Film festivals"} if kind == "film" else {"bg": "Музикални фестивали", "de": "Musikfestivals", "en": "Music festivals"})[l])}</h2>' + ''.join(fest_card(it) for it in fests)
     if news: html += f'<h2 class="gp-h">{e(g["news"])}</h2><div class="gs-grid">' + ''.join(small(it) for it in news) + '</div>'
     if older: html += f'<h2 class="gp-h">{e(g["older"])}</h2><div class="gs-grid">' + ''.join(small(it) for it in older) + '</div>'

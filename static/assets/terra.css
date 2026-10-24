@@ -1113,3 +1113,63 @@ footer a.g-pref{font-weight:700}
 @media (max-width:560px){.rv-pc{grid-template-columns:1fr}.rv-top{align-items:flex-start}.rv-ring{width:76px;height:76px}.rv-ring b{font-size:28px}}
 
 .lv-empty{margin:6px 0 2px;color:#93c5fd;font-size:14px}
+/* ---- Musik-Sparte: Wochenplan, Kanäle, Songs der Woche, Rubriken, Tour-Radar, Release-Kalender (24.10.2026) */
+.mp-days{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px}
+.mp-d{display:flex;flex-direction:column;gap:3px;padding:10px 10px 12px;background:#0a2219;border:1px solid #12382a;border-radius:6px;color:#d1fae5;text-decoration:none;min-width:0}
+.mp-d b{font-family:var(--head);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#6ee7b7}
+.mp-d span{font-family:var(--head);font-weight:700;font-size:15px;line-height:1.15;color:#fff}
+.mp-d i{font-style:normal;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#04120d;background:#10b981;align-self:flex-start;padding:1px 6px;border-radius:3px;margin-top:2px}
+.mp-d.on{background:linear-gradient(160deg,#0b5a3d,#063826);border-color:#10b981;box-shadow:0 0 0 1px #10b981 inset}
+a.mp-d:hover{border-color:#10b981}
+.mc-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.mc{position:relative;display:flex;flex-direction:column;gap:6px;min-height:150px;padding:14px;border-radius:6px;color:#fff;text-decoration:none;overflow:hidden;background:#0a2219}
+.mc::before{content:"";position:absolute;inset:0;opacity:.9;z-index:0}
+.mc>*{position:relative;z-index:1}
+.mc-rockmetal::before{background:linear-gradient(150deg,#3a0b0b,#111 70%)}
+.mc-poprnb::before{background:linear-gradient(150deg,#5b1140,#1a0a2e 75%)}
+.mc-electronic::before{background:linear-gradient(150deg,#0b3a5b,#0a0f2e 75%)}
+.mc-filmclassic::before{background:linear-gradient(150deg,#4a3a10,#171208 75%)}
+.mc-folkroots::before{background:linear-gradient(150deg,#1f4a1a,#0c1708 75%)}
+.mc-n{font-family:var(--head);font-weight:700;font-size:21px;line-height:1.05;text-transform:uppercase;letter-spacing:.02em}
+.mc-c{font-size:12px;color:#a7f3d0}
+.mc-l{font-size:13px;line-height:1.3;color:#e5e7eb;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.mc-go{margin-top:auto;font-size:12px;font-weight:700;color:#6ee7b7}
+.mc:hover .mc-go{text-decoration:underline}
+.gp-h small{font-family:var(--body);font-size:13px;text-transform:none;letter-spacing:0;color:#a7f3d0;margin-left:8px;font-weight:400}
+.sow-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.sow h3{font-family:var(--head);font-size:18px;line-height:1.2;color:#fff;margin:10px 0 4px}
+.sow p{font-size:14px;line-height:1.45;color:#d1d5db;margin:0 0 6px}
+.sow-yt{aspect-ratio:16/9;background:#0a2219 center/cover no-repeat}
+.mr-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.mr{padding:14px;border:1px solid #12382a;border-top:3px solid #f472b6;border-radius:6px;background:#071a13}
+.mr h3{font-family:var(--head);font-size:17px;text-transform:uppercase;letter-spacing:.03em;color:#fff;margin:0 0 6px}
+.mr p{font-size:13px;line-height:1.4;color:#cbd5e1;margin:0 0 8px}
+.mr a{display:block;font-size:13px;line-height:1.35;color:#fff;text-decoration:none;font-weight:700}
+.mr a span{color:#f472b6;font-weight:400;margin-right:4px}
+.mr a:hover{text-decoration:underline}
+.tr-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 22px}
+.tr-list li{border-bottom:1px solid #12382a}
+.tr-list a{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:baseline;padding:10px 0;color:#fff;text-decoration:none}
+.tr-list b{font-size:14px;line-height:1.3;font-weight:700}
+.tr-list a:hover b{text-decoration:underline}
+.tr-list time{font-size:12px;color:#a7f3d0;white-space:nowrap}
+.tr-g,.rl-g{font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:#04120d;background:#6ee7b7;padding:2px 6px;border-radius:3px;white-space:nowrap}
+.rl-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.rl-day h3{font-family:var(--head);font-size:18px;text-transform:uppercase;color:#6ee7b7;margin:0 0 8px}
+.rl-day ul{list-style:none;margin:0;padding:0}
+.rl-day li{display:flex;flex-wrap:wrap;gap:6px;align-items:baseline;padding:7px 0;border-bottom:1px solid #12382a;font-size:14px;color:#e5e7eb}
+.rl-day li b{color:#fff}
+.rl-day li small{color:#94a3b8}
+.rl-rockmetal{background:#fca5a5}.rl-poprnb{background:#f9a8d4}.rl-electronic{background:#7dd3fc}.rl-filmclassic{background:#fcd34d}.rl-folkroots{background:#86efac}
+.rl-note{font-size:12px;color:#94a3b8;margin:10px 0 4px}
+.rl-src{font-size:12px;color:#94a3b8}
+.rl-src summary{cursor:pointer}
+.rl-src a{color:#a7f3d0}
+@media (max-width:1100px){.mc-grid,.mr-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:760px){
+.mp-days{grid-template-columns:repeat(7,minmax(92px,1fr));overflow-x:auto;padding-bottom:4px}
+.mc-grid,.mr-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.sow-grid,.tr-list,.rl-grid{grid-template-columns:1fr}
+.mc{min-height:120px}.mc-n{font-size:18px}
+}
+@media (max-width:420px){.mr-grid{grid-template-columns:1fr}.mc-l{display:none}.mc{min-height:92px;padding:12px}.mc-n{font-size:16px}}
