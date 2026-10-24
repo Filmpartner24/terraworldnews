@@ -1582,6 +1582,13 @@ def build():
         cur = [it for it in today if it.get('live')]
         if any(x.get('pos') for x in cur): cur = sorted(cur, key=lambda x: x.get('pos', 99))  # feste Reihenfolge der Breaking-Plätze (seit 04.10.2026)
         elif l == 'bg': cur = sorted(cur, key=lambda x: x['s'] != 'bulgarien')
+        if cur and len(cur) < 8:  # Eilmeldung zwischen den Slots (Nedy 24.10.2026): Block mit den Meldungen des vorigen Updates auffüllen
+            _ids = {x['id'] for x in cur}
+            _prev = sorted([it for it in today if it.get('brk') and not it.get('live') and it['id'] not in _ids],
+                           key=lambda x: (x['time'], -x.get('pos', 99)), reverse=True)
+            for _t in sorted({x['time'] for x in _prev}, reverse=True):
+                cur += sorted([x for x in _prev if x['time'] == _t], key=lambda x: x.get('pos', 99))[:8 - len(cur)]
+                if len(cur) >= 8: break
         cur = cur[:8]
         bkh = ''
         if cur:
