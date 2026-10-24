@@ -734,6 +734,16 @@ def games_page(l, its, day0, others, SX, kind='games', title=None):
     html = f'<div class="gp gp-{kind}"><div class="gp-head"><h1 class="gp-title">{e(title or SEC[l][kind][0])}</h1>{gp_slogan(l)}</div>'
     html += '<div class="gp-main"><div class="gp-panel">'
     if not its: html += f'<p class="gp-empty">{e(u["empty"])}</p>'
+    # Breaking News des Tages dieser Rubrik ganz oben (Nedy 24.10.2026: Eilmeldung Binew auch oben unter BULGARIEN)
+    brk_top = [it for it in today if it.get('live') and not it.get('yt')] if kind in ('welt', 'europa', 'deutschland', 'bulgarien') else []
+    if brk_top:
+        news = [it for it in news if it not in brk_top]; older = [it for it in older if it not in brk_top]
+        def brk_card(it):
+            im = it.get('img'); cr = f'<p class="gr-cr">{credit(im, l, True)}</p>' if im else ''
+            return (f'<article class="gr"><div class="gr-media"><a href="{art_url(it, l)}"><div class="gs-img"{cover_style(it)}></div></a>{cr}</div>'
+                    f'<div class="gr-txt"><a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a><p class="gr-meta">{e(it["time"])}{(" " + u["hour"]) if u["hour"] else ""}</p>'
+                    f'<p class="gr-dek">{e(it[l]["d"])}</p><a class="gr-more" href="{art_url(it, l)}">{e(g["more"])}</a></div></article>')
+        html += f'<h2 class="gp-h"><b class="brk">{e(u["brk"])}</b></h2>' + ''.join(brk_card(it) for it in brk_top)
     if revs: html += f'<h2 class="gp-h">▶ {e(g["rev"])}</h2>' + ''.join(review(it) for it in revs)
     if fests: html += f'<h2 class="gp-h">▶ {e(({"bg": "Филмови фестивали", "de": "Filmfestivals", "en": "Film festivals"} if kind == "film" else {"bg": "Музикални фестивали", "de": "Musikfestivals", "en": "Music festivals"})[l])}</h2>' + ''.join(fest_card(it) for it in fests)
     if news: html += f'<h2 class="gp-h">{e(g["news"])}</h2><div class="gs-grid">' + ''.join(small(it) for it in news) + '</div>'
