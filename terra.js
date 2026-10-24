@@ -1,3 +1,17 @@
+/* Bulgarischsprachige Besucher, die über Google o. Ä. auf einer EN-/DE-Seite landen, zur bulgarischen Fassung derselben Seite leiten
+   (Nedy 24.10.2026). Nicht bei selbst gewählter Sprache (Cookie twn_lang), nicht bei Navigation innerhalb der Seite, nie für Bots. */
+(function(){try{
+  var l=document.documentElement.lang;if(!l||l==='bg')return;
+  if(/(?:^|;\s*)twn_lang=/.test(document.cookie))return;
+  if(navigator.webdriver||/bot|crawl|spider|google|bing|yandex|lighthouse|headless|preview/i.test(navigator.userAgent))return;
+  if(document.referrer&&document.referrer.indexOf(location.origin)===0)return;
+  var nl=((navigator.languages&&navigator.languages[0])||navigator.language||'').toLowerCase();
+  if(nl.indexOf('bg')!==0)return;
+  var a=document.querySelector('link[rel="alternate"][hreflang="bg"]');if(!a)return;
+  var u=new URL(a.getAttribute('href'),location.href);if(u.origin!==location.origin||u.pathname===location.pathname)return;
+  document.cookie='twn_lang=bg;path=/;max-age=31536000;SameSite=Lax;Secure'; /* verhindert Schleife mit der Länder-Umleitung der Startseite */
+  location.replace(u.pathname+u.search+location.hash);
+}catch(e){}})();
 (function(){
   var lang=document.documentElement.lang||'bg';
   var loc={bg:'bg-BG',de:'de-DE'}[lang]||lang;
