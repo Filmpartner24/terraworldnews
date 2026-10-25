@@ -10,7 +10,7 @@
   "de": "World Boxing Organization",
   "en": "World Boxing Organization"
  },
- "asof": "2026-10-24",
+ "asof": "2026-10-25",
  "champions": [
   {
    "div": {
@@ -124,8 +124,8 @@
     "en": "Super Featherweight"
    },
    "limit": "bis 59,0 kg (130 lb)",
-   "name": "Emanuel Navarrete",
-   "country": "Mexiko"
+   "name": "O'Shaquie Foster",
+   "country": "USA"
   },
   {
    "div": {
@@ -204,23 +204,6 @@
   }
  ],
  "upcoming": [
-  {
-   "date": "2026-10-24",
-   "place": "San Antonio, USA",
-   "f1": "Emanuel Navarrete",
-   "f2": "O'Shaquie Foster",
-   "div": {
-    "bg": "Супер перо категория",
-    "de": "Superfedergewicht",
-    "en": "Super Featherweight"
-   },
-   "title": {
-    "bg": "Обединение WBO, IBF и WBC",
-    "de": "WBO-, IBF- und WBC-WM (Vereinigung)",
-    "en": "WBO, IBF and WBC unification"
-   },
-   "note": "Frost Bank Center"
-  },
   {
    "date": "2026-10-31",
    "place": "Riad, Saudi-Arabien",
@@ -306,6 +289,27 @@
   }
  ],
  "results": [
+  {
+   "date": "2026-10-24",
+   "place": "Frost Bank Center, San Antonio, USA",
+   "f1": "O'Shaquie Foster",
+   "f2": "Emanuel Navarrete",
+   "res": {
+    "bg": "единодушно решение (118-108, 118-108, 115-111), два нокдауна в 12-и рунд",
+    "de": "einstimmig nach Punkten (118-108, 118-108, 115-111), zwei Niederschläge in Runde 12",
+    "en": "unanimous decision (118-108, 118-108, 115-111), two knockdowns in round 12"
+   },
+   "div": {
+    "bg": "Супер перо категория",
+    "de": "Superfedergewicht",
+    "en": "Super Featherweight"
+   },
+   "title": {
+    "bg": "Обединителен мач (WBC, WBO, IBF)",
+    "de": "Vereinigungskampf (WBC, WBO, IBF)",
+    "en": "Unification (WBC, WBO, IBF)"
+   }
+  },
   {
    "date": "2026-10-17",
    "place": "London (The O2), Großbritannien",
@@ -476,6 +480,14 @@
   {
    "n": "Boxing Wire, 23.10.2026",
    "u": "https://boxingwire.com/article/wbo-denies-denzel-bentley-appeal-yoenli-hernandez-next?amp=&amp="
+  },
+  {
+   "n": "Top Rank, 25.10.2026",
+   "u": "https://toprank.com/news/oshaquie-foster-unifies-world-titles-with-victory-over-emanuel-navarrete"
+  },
+  {
+   "n": "Sky Sports, 25.10.2026",
+   "u": "https://www.skysports.com/boxing/news/13603457/oshaquie-foster-drops-emanuel-navarrete-twice-to-unify-three-world-titles-in-texas-undisputed-thats-my-dream"
   }
  ]
 }

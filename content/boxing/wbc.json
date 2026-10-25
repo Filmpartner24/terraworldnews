@@ -10,7 +10,7 @@
   "de": "World Boxing Council",
   "en": "World Boxing Council"
  },
- "asof": "2026-10-24",
+ "asof": "2026-10-25",
  "champions": [
   {
    "div": {
@@ -215,38 +215,6 @@
  ],
  "upcoming": [
   {
-   "date": "2026-10-24",
-   "place": "San Antonio, USA",
-   "f1": "Emanuel Navarrete",
-   "f2": "O'Shaquie Foster",
-   "div": {
-    "bg": "Втора перо категория",
-    "de": "Superfedergewicht",
-    "en": "Super Featherweight"
-   },
-   "title": {
-    "bg": "Обединителен мач (вкл. WBC)",
-    "de": "Vereinigungskampf (u. a. WBC-WM)",
-    "en": "Unification (incl. WBC title)"
-   }
-  },
-  {
-   "date": "2026-10-24",
-   "place": "Sheffield, Großbritannien",
-   "f1": "Dalton Smith",
-   "f2": "Alberto Puello",
-   "div": {
-    "bg": "Първа полусредна категория",
-    "de": "Halbweltergewicht",
-    "en": "Super Lightweight"
-   },
-   "title": {
-    "bg": "Световна титла на WBC",
-    "de": "WBC-WM",
-    "en": "WBC world title"
-   }
-  },
-  {
    "date": "2026-10-31",
    "place": "Riad, Saudi-Arabien",
    "f1": "Christian Mbilli",
@@ -316,6 +284,48 @@
   }
  ],
  "results": [
+  {
+   "date": "2026-10-24",
+   "place": "Frost Bank Center, San Antonio, USA",
+   "f1": "O'Shaquie Foster",
+   "f2": "Emanuel Navarrete",
+   "res": {
+    "bg": "единодушно решение (118-108, 118-108, 115-111), два нокдауна в 12-и рунд",
+    "de": "einstimmig nach Punkten (118-108, 118-108, 115-111), zwei Niederschläge in Runde 12",
+    "en": "unanimous decision (118-108, 118-108, 115-111), two knockdowns in round 12"
+   },
+   "div": {
+    "bg": "Втора перо категория",
+    "de": "Superfedergewicht",
+    "en": "Super Featherweight"
+   },
+   "title": {
+    "bg": "Обединителен мач (WBC, WBO, IBF)",
+    "de": "Vereinigungskampf (WBC, WBO, IBF)",
+    "en": "Unification (WBC, WBO, IBF)"
+   }
+  },
+  {
+   "date": "2026-10-24",
+   "place": "Utilita Arena, Sheffield, Großbritannien",
+   "f1": "Dalton Smith",
+   "f2": "Alberto Puello",
+   "res": {
+    "bg": "разделено решение (115-113, 115-113, 112-116)",
+    "de": "geteilte Punktentscheidung (115-113, 115-113, 112-116)",
+    "en": "split decision (115-113, 115-113, 112-116)"
+   },
+   "div": {
+    "bg": "Първа полусредна категория",
+    "de": "Halbweltergewicht",
+    "en": "Super Lightweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBC",
+    "de": "WBC-WM",
+    "en": "WBC world title"
+   }
+  },
   {
    "date": "2026-10-17",
    "place": "Las Vegas, USA",
@@ -568,6 +578,22 @@
   {
    "n": "MiddleEasy, 22.10.2026: Benavidez–Cieslak Unification Confirmed For Glendale",
    "u": "https://middleeasy.com/boxing/benavidez-cieslak-glendale-dazn-prime-video-december5/"
+  },
+  {
+   "n": "Top Rank, 25.10.2026",
+   "u": "https://toprank.com/news/oshaquie-foster-unifies-world-titles-with-victory-over-emanuel-navarrete"
+  },
+  {
+   "n": "Sky Sports, 25.10.2026",
+   "u": "https://www.skysports.com/boxing/news/13603457/oshaquie-foster-drops-emanuel-navarrete-twice-to-unify-three-world-titles-in-texas-undisputed-thats-my-dream"
+  },
+  {
+   "n": "BBC Sport via Yahoo Sports, 24.10.2026",
+   "u": "https://sports.yahoo.com/articles/smith-retains-title-split-decision-214417221.html"
+  },
+  {
+   "n": "Yorkshire Post, 24.10.2026",
+   "u": "https://www.yorkshirepost.co.uk/sport/dalton-smith-alberto-puello-utilita-arena-sheffield-9307838"
   }
  ]
 }
