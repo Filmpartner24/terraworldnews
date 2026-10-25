@@ -11,7 +11,7 @@
   "de": "Ultimate Fighting Championship",
   "en": "Ultimate Fighting Championship"
  },
- "asof": "2026-10-24",
+ "asof": "2026-10-25",
  "champions": [
   {
    "div": {
@@ -136,40 +136,6 @@
  ],
  "upcoming": [
   {
-   "date": "2026-10-24",
-   "place": "Abu Dhabi, Vereinigte Arabische Emirate",
-   "f1": "Alexander Volkanovski",
-   "f2": "Movsar Evloev",
-   "div": {
-    "bg": "Перо категория",
-    "de": "Federgewicht",
-    "en": "Featherweight"
-   },
-   "title": {
-    "bg": "UFC 333 – главен двубой, мач за титлата",
-    "de": "UFC 333 – Hauptkampf, Titelkampf",
-    "en": "UFC 333 – main event, title fight"
-   },
-   "note": "Etihad Arena"
-  },
-  {
-   "date": "2026-10-24",
-   "place": "Abu Dhabi, Vereinigte Arabische Emirate",
-   "f1": "Petr Yan",
-   "f2": "Merab Dvalishvili",
-   "div": {
-    "bg": "Петел категория",
-    "de": "Bantamgewicht",
-    "en": "Bantamweight"
-   },
-   "title": {
-    "bg": "UFC 333 – съглавен двубой, мач за титлата",
-    "de": "UFC 333 – Co-Hauptkampf, Titelkampf",
-    "en": "UFC 333 – co-main event, title fight"
-   },
-   "note": "Etihad Arena"
-  },
-  {
    "date": "2026-10-31",
    "place": "Meta APEX, Las Vegas, USA",
    "f1": "Renato Moicano",
@@ -285,9 +251,84 @@
     "en": "UFC 335 – Co-main event (5 rounds)"
    },
    "note": "T-Mobile Arena; kein Titelkampf"
+  },
+  {
+   "date": "2027-01-30",
+   "place": "Scotiabank Arena, Toronto, Kanada",
+   "f1": "Joshua Van",
+   "f2": "Manel Kape",
+   "div": {
+    "bg": "Муха категория",
+    "de": "Fliegengewicht",
+    "en": "Flyweight"
+   },
+   "title": {
+    "bg": "UFC 336 – мач за титлата",
+    "de": "UFC 336 – Titelkampf",
+    "en": "UFC 336 – title fight"
+   }
+  },
+  {
+   "date": "2027-01-30",
+   "place": "Scotiabank Arena, Toronto, Kanada",
+   "f1": "Carlos Prates",
+   "f2": "Michael Morales",
+   "div": {
+    "bg": "Полусредна категория",
+    "de": "Weltergewicht",
+    "en": "Welterweight"
+   },
+   "title": {
+    "bg": "UFC 336 – мач за временната титла",
+    "de": "UFC 336 – Kampf um den Interimstitel",
+    "en": "UFC 336 – interim title fight"
+   },
+   "note": "Laut Dana White; Champion Islam Makhachev will erst nach dem Ramadan kämpfen"
   }
  ],
  "results": [
+  {
+   "date": "2026-10-24",
+   "place": "Etihad Arena, Abu Dhabi, Vereinigte Arabische Emirate",
+   "f1": "Alexander Volkanovski",
+   "f2": "Movsar Evloev",
+   "res": {
+    "bg": "Технически нокаут (удари в партера), 2. рунд (4:54)",
+    "de": "TKO (Ground and Pound), 2. Runde (4:54)",
+    "en": "TKO (ground and pound), round 2 (4:54)"
+   },
+   "div": {
+    "bg": "Перо категория",
+    "de": "Federgewicht",
+    "en": "Featherweight"
+   },
+   "title": {
+    "bg": "UFC 333 – главен двубой, мач за титлата",
+    "de": "UFC 333 – Hauptkampf, Titelkampf",
+    "en": "UFC 333 – main event, title fight"
+   }
+  },
+  {
+   "date": "2026-10-24",
+   "place": "Etihad Arena, Abu Dhabi, Vereinigte Arabische Emirate",
+   "f1": "Petr Yan",
+   "f2": "Merab Dvalishvili",
+   "res": {
+    "bg": "Единодушно съдийско решение (3 × 48:47)",
+    "de": "einstimmige Punktentscheidung (3 × 48:47)",
+    "en": "unanimous decision (48-47 ×3)"
+   },
+   "div": {
+    "bg": "Категория петел",
+    "de": "Bantamgewicht",
+    "en": "Bantamweight"
+   },
+   "title": {
+    "bg": "UFC 333 – съглавен двубой, мач за титлата",
+    "de": "UFC 333 – Co-Hauptkampf, Titelkampf",
+    "en": "UFC 333 – co-main event, title fight"
+   }
+  },
   {
    "date": "2026-10-17",
    "place": "Rogers Place, Edmonton, Kanada",
@@ -536,6 +577,18 @@
   {
    "n": "MMA Junkie (via Yahoo Sports) – UFC Edmonton Ergebnisse (18.10.2026)",
    "u": "https://sports.yahoo.com/articles/ufc-edmonton-results-mike-malott-030813656.html"
+  },
+  {
+   "n": "theScore – UFC 333 results (24.10.2026)",
+   "u": "https://www.thescore.com/mma/news/3628920/ufc-333-volkanovski-vs-evloev-results-analysis"
+  },
+  {
+   "n": "Sherdog – Dana White blasts Islam Makhachev's inactivity (25.10.2026)",
+   "u": "https://www.sherdog.com/news/news/Dana-White-blasts-Islam-Makhachevs-inactivity-after-UFC-title-delay-203340"
+  },
+  {
+   "n": "F4W – Kavanagh calls for Joshua Van title fight (24.10.2026)",
+   "u": "https://www.f4wonline.com/news/ufc/ufc-333-flyweight-scores-impressive-knockout-calls-joshua-van-title-fight/"
   }
  ]
 }
