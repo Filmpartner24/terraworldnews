@@ -796,7 +796,10 @@
    "time": "12:30",
    "t1": "Aston Villa FC",
    "t2": "Manchester City FC",
-   "ft": null
+   "ft": [
+    2,
+    1
+   ]
   },
   {
    "r": 8,
@@ -804,7 +807,10 @@
    "time": "15:00",
    "t1": "Arsenal FC",
    "t2": "Everton FC",
-   "ft": null
+   "ft": [
+    2,
+    0
+   ]
   },
   {
    "r": 8,
@@ -812,7 +818,10 @@
    "time": "15:00",
    "t1": "Coventry City FC",
    "t2": "Fulham FC",
-   "ft": null
+   "ft": [
+    0,
+    1
+   ]
   },
   {
    "r": 8,
@@ -820,7 +829,10 @@
    "time": "17:30",
    "t1": "Chelsea FC",
    "t2": "Tottenham Hotspur FC",
-   "ft": null
+   "ft": [
+    0,
+    2
+   ]
   },
   {
    "r": 8,
@@ -3588,6 +3600,10 @@
   {
    "n": "Sky Sports – Ipswich 1-1 Nottingham Forest (23.10.2026)",
    "u": "https://www.skysports.com/football/ipswich-town-vs-nottingham-forest/8459007743001179232"
+  },
+  {
+   "n": "ESPN – Premier League recap (24.10.2026)",
+   "u": "https://www.espn.com/soccer/story/_/id/50220422/premier-league-live-updates-aston-villa-manchester-city-arsenal-everton-chelsea-tottenham-hotspur"
   }
  ]
 }

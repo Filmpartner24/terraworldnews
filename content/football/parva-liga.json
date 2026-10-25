@@ -870,7 +870,10 @@
    "time": "14:00",
    "t1": "Dunav Ruse",
    "t2": "Spartak Varna",
-   "ft": null
+   "ft": [
+    2,
+    0
+   ]
   },
   {
    "r": 12,
@@ -878,7 +881,10 @@
    "time": "16:30",
    "t1": "Lokomotiv Sofia",
    "t2": "Botev Vratsa",
-   "ft": null
+   "ft": [
+    1,
+    1
+   ]
   },
   {
    "r": 12,
@@ -1505,6 +1511,14 @@
   {
    "n": "BTA – ЦСКА 1948 – Ботев (Пловдив) 4:0 (23.10.2026)",
    "u": "https://www.bta.bg/bg/news/sport/1231537-tsska-1948-postigna-ubeditelen-uspeh-sreshtu-botev-plovdiv-v-sreshta-ot-efbet-"
+  },
+  {
+   "n": "Focus – Дунав – Спартак Варна 2:0 (24.10.2026)",
+   "u": "https://www.focus-news.net/sport/3044960.html"
+  },
+  {
+   "n": "BTA – Локомотив София – Ботев Враца 1:1 (24.10.2026)",
+   "u": "https://www.bta.bg/bg/news/sport/1231886-lokomotiv-sofiya-i-botev-vratsa-zavarshiha-naravno"
   }
  ]
 }

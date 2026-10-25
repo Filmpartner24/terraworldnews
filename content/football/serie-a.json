@@ -796,7 +796,10 @@
    "time": "15:00",
    "t1": "Cagliari Calcio",
    "t2": "Bologna FC 1909",
-   "ft": null
+   "ft": [
+    0,
+    2
+   ]
   },
   {
    "r": 8,
@@ -804,7 +807,10 @@
    "time": "15:00",
    "t1": "Como 1907",
    "t2": "US Sassuolo Calcio",
-   "ft": null
+   "ft": [
+    2,
+    0
+   ]
   },
   {
    "r": 8,
@@ -812,7 +818,10 @@
    "time": "18:00",
    "t1": "SSC Napoli",
    "t2": "AS Roma",
-   "ft": null
+   "ft": [
+    3,
+    3
+   ]
   },
   {
    "r": 8,
@@ -820,7 +829,10 @@
    "time": "20:45",
    "t1": "SS Lazio",
    "t2": "Parma Calcio 1913",
-   "ft": null
+   "ft": [
+    2,
+    1
+   ]
   },
   {
    "r": 8,
@@ -3607,6 +3619,10 @@
   {
    "n": "Virgilio Sport – Torino-Monza 3-2 (23.10.2026)",
    "u": "https://sport.virgilio.it/dirette/live/serie-a/23-10-2026/torino-monza/2638200/"
+  },
+  {
+   "n": "OA Sport – Serie A, 8ª giornata (24.10.2026)",
+   "u": "https://www.oasport.it/2026/10/calcio-pari-show-tra-napoli-e-roma-nellottavo-turno-di-serie-a-vittorie-di-lazio-e-como/amp/"
   }
  ]
 }
