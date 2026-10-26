@@ -3,8 +3,9 @@
 Rechtlich sicher: eigene Grafik (Schallplatte, Equalizer, Künstler + Song), nie YouTube-Vorschaubilder/Cover.
 
 Aufruf:  python3 tools/video_card.py content/<datum>-popfolk.json [weitere content/*.json ...]
-Für jedes Item mit s="musik", "yt" und eigener Titelgrafik (img.own, Dateiname mit "-tg"):
-  1. Gibt es in content/musik/popfolk-stars.json ein freies Commons-Foto eines beteiligten Künstlers,
+Für jedes Item mit s="musik", "yt" und eigener Titelgrafik (img.own, Dateiname mit "-tg") ODER einem Foto, das in den
+7 Tagen davor schon bei einer anderen Musik-Meldung verwendet wurde (keine doppelten Fotos – Nedy 26.10.2026):
+  1. Gibt es in content/musik/popfolk-stars.json ein freies, noch nicht verwendetes Commons-Foto eines beteiligten Künstlers,
      wird dieses als img gesetzt (f=/assets/news/<datum>/<id>.webp + page/art/lic; die Action lädt und schneidet es zu).
   2. Sonst wird static/assets/news/<datum>/<id>-vc.webp erzeugt und als img (own:true) eingetragen.
 Die alte -tg-Grafik wird gelöscht. Mehrfaches Ausführen ist unschädlich.
@@ -73,6 +74,16 @@ def make(path, artist, song, kicker, seed=''):
     dr = ImageDraw.Draw(im)
     k = kicker.upper(); kw = dr.textlength(k, font=_f(30))
     dr.rounded_rectangle([60, 52, 60 + kw + 36, 104], radius=26, fill=(255, 255, 255, 235)); dr.text((78, 56), k, font=_f(30), fill=b)
+    if not song and dr.textlength(artist, font=_f(56)) > 680:  # Schlagzeile statt Künstler/Song: umbrechen (max. 3 Zeilen)
+        import textwrap
+        for s in (50, 44, 40):
+            lines = textwrap.wrap(artist, width=int(680 / (s * 0.55)))
+            if len(lines) <= 3: break
+        lines = lines[:3]; y = H - 90 - len(lines) * int(s * 1.2)
+        for ln in lines:
+            dr.text((60, y), _short(dr, ln, 700, s), font=_f(s), fill=(255, 255, 255)); y += int(s * 1.2)
+        dr.text((62, H - 48), 'TERRA WORLD NEWS · TWN MUSIC', font=_f(22), fill=(255, 255, 255, 170))
+        os.makedirs(os.path.dirname(path), exist_ok=True); im.convert('RGB').save(path, 'WEBP', quality=88); return
     s = _fit(dr, artist, 680, (80, 72, 64, 56, 48, 42)); art = _short(dr, artist, 680, s)
     dr.text((60, H - 228), art, font=_f(s), fill=(255, 255, 255))
     if song:
@@ -95,44 +106,74 @@ def _stars():
     return json.load(open(p))['stars'] if os.path.exists(p) else []
 
 
-def process(path):
-    d = json.load(open(path)); date = d.get('date') or os.path.basename(path)[:10]; stars = _stars(); n = 0
-    for it in d.get('items', []):
+def _card(it, date):
+    artist, song = split_title(it['de']['t'])
+    if it['id'].startswith('review') or it.get('rv'): kind = 'Album'
+    elif not song: kind = 'News'
+    else: kind = 'Live' if it.get('vk') == 'live' else 'Video'
+    if not song: artist = it['de']['t']
+    style = LAND_STYLE.get(it.get('land')) if it.get('sub') == 'popfolk' else None
+    kicker = f'{kind} · {style or GENRE.get(it.get("sub"), "Music")}'
+    f = f'/assets/news/{date}/{it["id"]}-vc.webp'
+    make(os.path.join(HERE, 'static', f.lstrip('/')), artist, song, kicker, it['id'])
+    ta = {L: split_title(it[L]['t']) for L in ('de', 'bg', 'en')}
+    it['img'] = {'f': f, 'w': 1200, 'h': 675, 'own': True,
+                 'alt': {'de': f'Grafik: {ta["de"][0]} {ta["de"][1]}'.strip(), 'bg': f'Графика: {ta["bg"][0]}'.strip(), 'en': f'Graphic: {ta["en"][0]}'.strip()}}
+
+
+def _star(it, date, st):
+    nm = st['name']; f = f'/assets/news/{date}/{it["id"]}.webp'
+    it['img'] = {'f': f, 'w': 1200, 'h': 675, 'art': st['art'], 'lic': st['lic'],
+                 'page': st['page'], 'alt': {'de': f'{nm} (Archivbild)', 'bg': f'{nm} (архивна снимка)', 'en': f'{nm} (archive photo)'}}
+    src = os.path.join(HERE, 'static', st['f'].lstrip('/')); dest = os.path.join(HERE, 'static', f.lstrip('/'))
+    if os.path.exists(src) and not os.path.exists(dest):  # sofort lokal zuschneiden – keine schwarze Kachel bis zum Action-Lauf
+        sys.path.insert(0, os.path.join(HERE, 'tools')); from fetch_images import render
+        os.makedirs(os.path.dirname(dest), exist_ok=True)
+        render(open(src, 'rb').read()).save(dest, 'WEBP', quality=80, method=6)
+
+
+def run(targets=None):
+    """Alle content/*.json chronologisch durchgehen. Ein Foto (Commons-Seite) darf bei Musik-Meldungen innerhalb von
+    WINDOW Tagen nur EINMAL vorkommen (Nedy 26.10.2026: „nicht dieselben Fotos, sonst denken die Zuschauer, es sind
+    dieselben Videos“). Video-Items mit doppeltem Foto oder alter -tg-Grafik bekommen ein noch freies Starfoto oder
+    die Musikvideo-Grafik. Geändert werden nur Dateien in targets (None = alle)."""
+    import glob, datetime as dt
+    WINDOW = 7
+    files = sorted(glob.glob(os.path.join(HERE, 'content', '*.json')))
+    tg = None if targets is None else {os.path.abspath(t) for t in targets}
+    data, rows = {}, []
+    for p in files:
+        try: d = json.load(open(p))
+        except Exception: continue
+        if not isinstance(d, dict) or not isinstance(d.get('items'), list): continue
+        date = d.get('date') or os.path.basename(p)[:10]
+        try: day = dt.date.fromisoformat(date[:10])
+        except Exception: continue
+        data[p] = d
+        for k, it in enumerate(d['items']):
+            if isinstance(it, dict) and it.get('s') == 'musik': rows.append((date, it.get('time') or '', p, k, day, it))
+    rows.sort(key=lambda r: r[:4])
+    stars = _stars(); used = {}; changed = set()
+    dup = lambda page, day: bool(page) and page in used and (day - used[page]).days <= WINDOW
+    for date, _, p, _, day, it in rows:
         im = it.get('img') or {}
-        if it.get('s') != 'musik' or not it.get('yt') or not im.get('own') or '-tg' not in im.get('f', ''): continue
-        artist, song = split_title(it['de']['t'])
-        old = os.path.join(HERE, 'static', im['f'].lstrip('/'))
-        st = next((s for s in stars if re.search(r'(?<!\w)' + re.escape(s['name'].lower()) + r'(?!\w)', artist.lower())), None)
-        if st:
-            nm = st['name']
-            f = f'/assets/news/{date}/{it["id"]}.webp'
-            it['img'] = {'f': f, 'w': 1200, 'h': 675, 'art': st['art'], 'lic': st['lic'],
-                         'page': st['page'], 'alt': {'de': f'{nm} (Archivbild)', 'bg': f'{nm} (архивна снимка)', 'en': f'{nm} (archive photo)'}}
-            src = os.path.join(HERE, 'static', st['f'].lstrip('/')); dest = os.path.join(HERE, 'static', f.lstrip('/'))
-            if os.path.exists(src) and not os.path.exists(dest):  # sofort lokal zuschneiden – keine schwarze Kachel bis zum Action-Lauf
-                sys.path.insert(0, os.path.join(HERE, 'tools')); from fetch_images import render
-                os.makedirs(os.path.dirname(dest), exist_ok=True)
-                render(open(src, 'rb').read()).save(dest, 'WEBP', quality=80, method=6)
-        else:
-            if it['id'].startswith('review') or it.get('rv'): kind = 'Album'
-            else: kind = 'Live' if it.get('vk') == 'live' else 'Video'
-            style = LAND_STYLE.get(it.get('land')) if it.get('sub') == 'popfolk' else None
-            kicker = f'{kind} · {style or GENRE.get(it.get("sub"), "Music")}'
-            f = f'/assets/news/{date}/{it["id"]}-vc.webp'
-            make(os.path.join(HERE, 'static', f.lstrip('/')), artist, song, kicker, it['id'])
-            ta = {L: split_title(it[L]['t']) for L in ('de', 'bg', 'en')}
-            it['img'] = {'f': f, 'w': 1200, 'h': 675, 'own': True,
-                         'alt': {'de': f'Grafik: {ta["de"][0]} {ta["de"][1]}'.strip(), 'bg': f'Графика: {ta["bg"][0]}'.strip(), 'en': f'Graphic: {ta["en"][0]}'.strip()}}
-        if os.path.exists(old): os.remove(old)
-        n += 1; print('  ', it['id'], '->', 'Starfoto ' + st['name'] if st else it['img']['f'])
-    if n: json.dump(d, open(path, 'w'), ensure_ascii=False, indent=1)
-    return n
+        if it.get('yt') and (tg is None or os.path.abspath(p) in tg):
+            old_tg = im.get('own') and '-tg' in im.get('f', '')
+            if old_tg or dup(im.get('page'), day):
+                artist, _ = split_title(it['de']['t'])
+                st = next((s for s in stars if re.search(r'(?<!\w)' + re.escape(s['name'].lower()) + r'(?!\w)', artist.lower())
+                           and not dup(s['page'], day)), None)
+                if st: _star(it, date, st)
+                else: _card(it, date)
+                if old_tg:
+                    old = os.path.join(HERE, 'static', im['f'].lstrip('/'))
+                    if os.path.exists(old): os.remove(old)
+                changed.add(p); print('  ', os.path.basename(p), it['id'], '->', 'Starfoto ' + st['name'] if st else it['img']['f'])
+        pg = (it.get('img') or {}).get('page')
+        if pg: used[pg] = day
+    for p in changed: json.dump(data[p], open(p, 'w'), ensure_ascii=False, indent=1)
+    return len(changed)
 
 
 if __name__ == '__main__':
-    import glob
-    paths = sys.argv[1:] or sorted(glob.glob(os.path.join(HERE, 'content', '*.json')))  # ohne Argument: alle (so läuft es in der Action)
-    for p in paths:
-        try: n = process(p)
-        except Exception as ex: print('skip', p, ex); continue
-        if n: print(p, n)
+    run(sys.argv[1:] or None)  # ohne Argument: alle content/*.json (so läuft es in der Action)
