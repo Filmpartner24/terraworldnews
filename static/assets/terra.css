@@ -1297,3 +1297,6 @@ a.rl-g:hover{filter:brightness(1.1)}
 .pf-teaser .pf-h{margin-top:4px}
 @media (max-width:1100px){.pf-chips{grid-template-columns:repeat(4,minmax(0,1fr))}.pf-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.pf-vids{grid-template-columns:1fr 1fr}.pf-vids .pf-vid:first-child{grid-column:span 2}}
 @media (max-width:640px){.pf-hero{min-height:200px;padding:20px 16px}.pf-chips{grid-template-columns:repeat(2,minmax(0,1fr))}.pf-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.pf-vids{grid-template-columns:1fr}.pf-vids .pf-vid:first-child{grid-column:auto}.pf-big{grid-column:span 2}}
+.gr-noyt{aspect-ratio:16/9;position:relative;border-radius:6px}
+.gx-teaser .pf-card a{background:#14042e;border-color:#3b1466}
+.gx-teaser .pf-flag{color:#22e4ff}

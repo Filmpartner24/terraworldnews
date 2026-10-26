@@ -865,7 +865,7 @@ def musik_extras(l, its, day0, genre=None):
             rows = ''.join(f'<li><span class="rl-g">{e(short_date(r["date"], l))}</span><b>{e(r["artist"])}</b> – <i>{e(r["title"])}</i>' + (f' <small>({e(Z.get(r["type"], ""))})</small>' if r.get('type') else '') + '</li>' for r in sorted(rr, key=lambda r: r['date']))
             mid += f'<section class="mp-rel"><h2 class="gp-h">▤ {e(Z["rel"])} · {e(SUB[l][genre][0])}</h2><div class="rl-day"><ul>{rows}</ul></div><p class="rl-note">{e(Z["relnote"].format(d=short_date(R.get("asof", day0), l)))}</p></section>'
         return top, mid
-    mid = popfolk_teaser(l, MUSIK.get('all') or [])
+    mid = popfolk_teaser(l, MUSIK.get('all') or []) + genre_teaser(l, MUSIK.get('all') or [])
     # Songs der Woche (content/musik/songs.json: neueste Woche, die day0 nicht überschreitet)
     wk = [w for w in (MUSIK.get('songs') or {}).get('weeks', []) if w['from'] <= day0]
     if wk:
@@ -938,6 +938,7 @@ def popfolk_page(l, its, day0, others, SX):
     used = set()
     vids = [x for x in its if x.get('yt')][:3]; used |= {x['id'] for x in vids}
     boul = [x for x in its if x.get('pfk') == 'boulevard' and x['id'] not in used][:6]; used |= {x['id'] for x in boul}
+    albs = [x for x in its if (x.get('pfk') == 'review' or x.get('gk') == 'review') and x['id'] not in used][:3]; used |= {x['id'] for x in albs}
     # Hero
     chips = ''.join(f'<a class="pf-chip" href="#pf-{c}"><b>{fl}</b><span>{e(n[li])}</span><i>{e(s[li])}</i></a>' for c, fl, n, s in PF_LANDS)
     html = (f'<div class="gp gp-musik gp-popfolk"><div class="pf-hero"><p class="pf-kick">TWN MUSIC</p><h1 class="pf-title">{e(SUB[l]["popfolk"][0])}</h1>'
@@ -954,6 +955,7 @@ def popfolk_page(l, its, day0, others, SX):
                    f'<button type="button" class="yt-play">{e(P["play"])}</button><span class="yt-note">{e(u["ytnote"])}</span></div>{cr}'
                    f'<div class="pf-txt">{flag(it)}<a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a><p>{e(it[l]["d"])}</p><p class="gr-yt-src">YouTube · {ch_html(v.get("ch", ""))}</p></div></article>')
         html += f'<h2 class="pf-h">▶ {e(P["vids"])}</h2><div class="pf-vids">{vc}</div>'
+    if albs: html += f'<h2 class="pf-h">◉ {e({"bg": "Нови албуми", "de": "Neue Alben", "en": "New albums"}[l])}</h2><div class="pf-grid pf-boul">' + ''.join(card(x, True) for x in albs) + '</div>'
     if boul: html += f'<h2 class="pf-h pf-h-b">✦ {e(P["boul"])}</h2><div class="pf-grid pf-boul">' + ''.join(card(x, i < 2) for i, x in enumerate(boul)) + '</div>'
     # Stars (content/musik/popfolk-stars.json)
     stars = (MUSIK.get('popfolk-stars') or {}).get('stars') or []
@@ -976,6 +978,14 @@ def popfolk_page(l, its, day0, others, SX):
     html += musik_grid(l, 'popfolk')
     html += f'</div><aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{others}</aside></div></div>'
     return html
+def genre_teaser(l, its):
+    """Block „Neu in den Genres“ auf der Musik-Startseite: die neuesten Beiträge der Genre-Aufgaben (Feld "gk")."""
+    gx = sorted([x for x in its if x.get('gk') and not x.get('pfk')], key=lambda x: (x['date'], x['time']), reverse=True)[:8]
+    if not gx: return ''
+    lab = {'video': ('Video', 'Видео', 'Video'), 'review': ('Review', 'Ревю', 'Review'), 'news': ('News', 'Новини', 'News')}
+    cards = ''.join(f'<article class="pf-card gx-card"><a href="{art_url(x, l)}"><div class="pf-img"' + (f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else '') + '>'
+                    + ('<span class="pf-play" aria-hidden="true">▶</span>' if x.get('yt') else '') + f'</div><div class="pf-txt"><span class="pf-flag">{e(SUB[l][x["sub"]][0]) if x.get("sub") in SUB[l] else ""} · {e(lab.get(x["gk"], ("", "", ""))[_LI[l]])}</span><h3>{e(x[l]["t"])}</h3></div></a></article>' for x in gx)
+    return f'<section class="gx-teaser"><h2 class="gp-h">♫ {e({"bg": "Ново в жанровете", "de": "Neu in den Genres", "en": "New in the genres"}[l])}</h2><div class="pf-grid">{cards}</div></section>'
 def popfolk_teaser(l, its):
     """Block „Pop-Folk“ auf der Musik-Startseite: die 4 neuesten Pop-Folk-Meldungen."""
     pf = sorted([x for x in its if x.get('pfk')], key=lambda x: (x['date'], x['time']), reverse=True)[:4]
@@ -991,6 +1001,14 @@ def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None):
         im = it.get('img')
         return f' style="background-image:url({im["f"]})"' if im else ''
     def review(it):
+        if not it.get('yt'):   # Review ohne Video (z. B. kein offizielles Single-Video): Foto statt Player
+            rv = it.get('rv', {}); im = it.get('img')
+            sc = rv.get('score', {}).get(l) if isinstance(rv.get('score'), dict) else rv.get('score')
+            meta = ' · '.join(x for x in [rv.get('pf'), (g['rel'] + ' ' + rv['rel']) if rv.get('rel') else ''] if x)
+            cr = f'<p class="gr-cr">{credit(im, l, True)}</p>' if im else ''
+            return (f'<article class="gr"><div class="gr-media"><a href="{art_url(it, l)}"><div class="gs-img gr-noyt"{cover_style(it)}><span class="gr-badge">{g["badge"]}</span></div></a>{cr}</div>'
+                    f'<div class="gr-txt">' + (f'<div class="gr-score">{e(sc)}</div>' if sc else '') + f'<a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a>' + (f'<p class="gr-meta">{e(meta)}</p>' if meta else '')
+                    + f'<p class="gr-dek">{e(it[l]["d"])}</p><a class="gr-more" href="{art_url(it, l)}">{e(g["more"])}</a></div></article>')
         v = it['yt'] if isinstance(it['yt'], dict) else it['yt'][0]
         rv = it.get('rv', {})
         meta = ' · '.join(x for x in [rv.get('pf'), (g['rel'] + ' ' + rv['rel']) if rv.get('rel') else '', ((g['devl'] + ' ' + rv['dev']) if g.get('devl') else rv['dev']) if rv.get('dev') else ''] if x)
@@ -1021,6 +1039,12 @@ def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None):
     else:  # Film/Musik: Reviews = Items mit rv, News = Items mit "mn"; alte Entertainment-Meldungen laufen unter „Frühere“
         revs = [it for it in today if it.get('rv') and it.get('yt')]
         news = [it for it in today if it.get('mn') and it not in revs]
+    mvids = []
+    if kind == 'musik' and mgenre:   # Genre-Seite (Nedy 26.10.2026): 3 Musikvideos, 3 Album-Reviews, Konzerte & News – jeweils die neuesten der letzten 30 Tage
+        _srt = sorted(its, key=lambda x: (x['date'], x['time']), reverse=True)
+        mvids = [x for x in _srt if x.get('gk') == 'video' and x.get('yt')][:3]
+        revs = [x for x in _srt if x.get('rv') and x not in mvids][:3]
+        news = [x for x in _srt if x not in mvids and x not in revs and (x.get('mn') or x.get('gk'))][:6]
     fests = []
     if kind in ('musik', 'film'):  # Festivals (Musik Di + Fr, Film Mi + Sa, je 3 Artikel mit Video, Feld "fest"): eigener Block, neueste zuerst, letzte 7 Tage
         import datetime as _dfe
@@ -1036,7 +1060,7 @@ def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None):
                 f'<button type="button" class="yt-play">{e(g.get("playb") or u["play"])}</button><span class="yt-note">{e(u["ytnote"])}</span></div>{cr}</div>'
                 f'<div class="gr-txt"><a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a>' + (f'<p class="gr-meta">{e(kd)}</p>' if kd else '') +
                 f'<p class="gr-dek">{e(it[l]["d"])}</p><p class="gr-yt-src">{e({"bg": "Видео", "de": "Video", "en": "Video"}[l])}: YouTube · {ch_html(v.get("ch", ""))}</p><a class="gr-more" href="{art_url(it, l)}">{e({"bg": "Към статията →", "de": "Zum Artikel →", "en": "Read more →"}[l])}</a></div></article>')
-    older = [it for it in its if it not in revs and it not in news and it not in fests]
+    older = [it for it in its if it not in revs and it not in news and it not in fests and it not in mvids]
     html = f'<div class="gp gp-{kind}"><div class="gp-head"><h1 class="gp-title">{e(title or SEC[l][kind][0])}</h1>{gp_slogan(l)}</div>'
     html += '<div class="gp-main"><div class="gp-panel">'
     if not its and not (kind == 'musik' and mgenre): html += f'<p class="gp-empty">{e(u["empty"])}</p>'
@@ -1052,10 +1076,19 @@ def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None):
         html += f'<h2 class="gp-h"><b class="brk">{e(u["brk"])}</b></h2>' + ''.join(brk_card(it) for it in brk_top)
     _mx = musik_extras(l, its, day0, mgenre) if kind == 'musik' and (title is None or mgenre) else ('', '')
     html += _mx[0]
-    if revs: html += f'<h2 class="gp-h">▶ {e(g["rev"])}</h2>' + ''.join(review(it) for it in revs)
+    if mvids:
+        def mv_card(it):
+            v = it['yt'] if isinstance(it['yt'], dict) else it['yt'][0]
+            im = it.get('img'); cr = f'<p class="gr-cr">{credit(im, l, True)}</p>' if im else ''
+            return (f'<article class="gr"><div class="gr-media"><div class="yt gr-yt" data-yt="{e(v["id"])}"{cover_style(it)}><span class="gr-badge">VIDEO</span>'
+                    f'<button type="button" class="yt-play">{e(g.get("playb") or u["play"])}</button><span class="yt-note">{e(u["ytnote"])}</span></div>{cr}</div>'
+                    f'<div class="gr-txt"><a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a><p class="gr-dek">{e(it[l]["d"])}</p>'
+                    f'<p class="gr-yt-src">YouTube · {ch_html(v.get("ch", ""))}</p><a class="gr-more" href="{art_url(it, l)}">{e({"bg": "Към статията →", "de": "Zum Artikel →", "en": "Read more →"}[l])}</a></div></article>')
+        html += f'<h2 class="gp-h">▶ {e({"bg": "Музикални видеоклипове", "de": "Musikvideos", "en": "Music videos"}[l])}</h2>' + ''.join(mv_card(it) for it in mvids)
+    if revs: html += f'<h2 class="gp-h">▶ {e(({"bg": "Ревюта на албуми", "de": "Album-Reviews", "en": "Album reviews"}[l]) if mgenre else g["rev"])}</h2>' + ''.join(review(it) for it in revs)
     html += _mx[1]
     if fests: html += f'<h2 class="gp-h">▶ {e(({"bg": "Филмови фестивали", "de": "Filmfestivals", "en": "Film festivals"} if kind == "film" else {"bg": "Музикални фестивали", "de": "Musikfestivals", "en": "Music festivals"})[l])}</h2>' + ''.join(fest_card(it) for it in fests)
-    if news: html += f'<h2 class="gp-h">{e(g["news"])}</h2><div class="gs-grid">' + ''.join(small(it) for it in news) + '</div>'
+    if news: html += f'<h2 class="gp-h">{e(({"bg": "Концерти и новини", "de": "Konzerte & News", "en": "Concerts & news"}[l]) if mgenre else g["news"])}</h2><div class="gs-grid">' + ''.join(small(it) for it in news) + '</div>'
     if older: html += f'<h2 class="gp-h">{e(g["older"])}</h2><div class="gs-grid">' + ''.join(small(it) for it in older) + '</div>'
     html += f'</div><aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{others}</aside></div></div>'
     return html
@@ -2027,7 +2060,7 @@ def build():
                 body = (f'<div class="sec-page" style="--c:{SEC_COLOR[s]}">{head}{extra}<div class="sec-main"><div class="sec-list"><h2 class="list-h">{e(SX["latest"])}</h2>{daylist(front)}{more}</div>'
                         f'<aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{others}</aside></div></div>')
                 if s in MEDIA:
-                    body = games_page(l, [x for x in its if not (s in MOVE_SUBS and x.get('sub') in LSUBS.get(s, ())) and not (s == 'musik' and x.get('pfk'))] or its, day0, others, SX, s)   # Pop-Folk-Meldungen (eigene Aufgabe) nur als Block auf der Musik-Seite
+                    body = games_page(l, [x for x in its if not (s in MOVE_SUBS and x.get('sub') in LSUBS.get(s, ())) and not (s == 'musik' and (x.get('pfk') or x.get('gk')))] or its, day0, others, SX, s)   # Pop-Folk-Meldungen (eigene Aufgabe) nur als Block auf der Musik-Seite
                     if s == 'mode': body = body.replace('<div class="gp-panel">', '<div class="gp-panel">' + trend_block(l), 1)   # „Im Trend“ oben auf der Mode-Seite
                     pages = []
                 for n, pit in enumerate(pages, start=2):
