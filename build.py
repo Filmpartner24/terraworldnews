@@ -936,7 +936,9 @@ def popfolk_page(l, its, day0, others, SX):
         return (f'<article class="pf-card{" pf-big" if big else ""}"><a href="{art_url(it, l)}"><div class="pf-img"{bg(it)}>' + ('<span class="pf-play" aria-hidden="true">▶</span>' if it.get('yt') else '') +
                 f'</div><div class="pf-txt">{flag(it)}<h3>{e(it[l]["t"])}</h3>' + (f'<p>{e(it[l]["d"])}</p>' if big else '') + '</div></a></article>')
     used = set()
-    vids = [x for x in its if x.get('yt')][:3]; used |= {x['id'] for x in vids}
+    _yv = [x for x in its if x.get('yt')]
+    vids = ([x for x in _yv if not x.get('hit')] + [x for x in _yv if x.get('hit')])[:3]; used |= {x['id'] for x in vids}   # neue Clips zuerst, Hits danach
+    wall = [x for x in _yv if x['id'] not in used][:12]; used |= {x['id'] for x in wall}   # Video-Wall: weitere Clips (u. a. Pop-Folk-Hits)
     boul = [x for x in its if x.get('pfk') == 'boulevard' and x['id'] not in used][:6]; used |= {x['id'] for x in boul}
     albs = [x for x in its if (x.get('pfk') == 'review' or x.get('gk') == 'review') and x['id'] not in used][:3]; used |= {x['id'] for x in albs}
     # Hero
@@ -955,6 +957,14 @@ def popfolk_page(l, its, day0, others, SX):
                    f'<button type="button" class="yt-play">{e(P["play"])}</button><span class="yt-note">{e(u["ytnote"])}</span></div>{cr}'
                    f'<div class="pf-txt">{flag(it)}<a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a><p>{e(it[l]["d"])}</p><p class="gr-yt-src">YouTube · {ch_html(v.get("ch", ""))}</p></div></article>')
         html += f'<h2 class="pf-h">▶ {e(P["vids"])}</h2><div class="pf-vids">{vc}</div>'
+    if wall:
+        wc = ''
+        for it in wall:
+            v = it['yt'] if isinstance(it['yt'], dict) else it['yt'][0]
+            wc += (f'<article class="pf-vid pf-wv"><div class="yt gr-yt" data-yt="{e(v["id"])}"{bg(it)}><span class="gr-badge">{e(P["live"] if it.get("vk") == "live" else P["mv"])}</span>'
+                   f'<button type="button" class="yt-play">{e(P["play"])}</button><span class="yt-note">{e(u["ytnote"])}</span></div>'
+                   f'<div class="pf-txt">{flag(it)}<a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a><p class="gr-yt-src">YouTube · {ch_html(v.get("ch", ""))}</p></div></article>')
+        html += f'<h2 class="pf-h">♫ {e({"bg": "Попфолк хитове във видео", "de": "Pop-Folk-Hits im Video", "en": "Pop-folk hits on video"}[l])}</h2><div class="pf-wall">{wc}</div>'
     if albs: html += f'<h2 class="pf-h">◉ {e({"bg": "Нови албуми", "de": "Neue Alben", "en": "New albums"}[l])}</h2><div class="pf-grid pf-boul">' + ''.join(card(x, True) for x in albs) + '</div>'
     if boul: html += f'<h2 class="pf-h pf-h-b">✦ {e(P["boul"])}</h2><div class="pf-grid pf-boul">' + ''.join(card(x, i < 2) for i, x in enumerate(boul)) + '</div>'
     # Stars (content/musik/popfolk-stars.json)

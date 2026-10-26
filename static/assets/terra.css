@@ -1301,3 +1301,7 @@ a.rl-g:hover{filter:brightness(1.1)}
 .gx-teaser .pf-card a{background:#14042e;border-color:#3b1466}
 .gx-teaser .pf-flag{color:#22e4ff}
 .pf-card .pf-img{aspect-ratio:16/10}
+.pf-wall{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.pf-wv h3{font-size:16px}
+@media (max-width:900px){.pf-wall{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.pf-wall{grid-template-columns:1fr}}
