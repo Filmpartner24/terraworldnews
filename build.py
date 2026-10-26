@@ -165,11 +165,11 @@ SUB_DESC = {
          'bg': 'ММА: UFC, PFL, ONE Championship и OKTAGON – шампиони, предстоящи мачове, резултати и новини.',
          'en': 'MMA: UFC, PFL, ONE Championship and OKTAGON – champions, upcoming fights, results and news.'},
 }
-# ---- TWN MUSIC (seit 26.10.2026, Nedy): 21 Genre-Kategorien in 3 Reihen zu je 7. Feld "sub" = Hauptgenre, optional "subs" = weitere Genres.
+# ---- TWN MUSIC (seit 26.10.2026, Nedy): 20 Genre-Kategorien in 3 Reihen (7/7/6; Jazz & Blues zusammengelegt 26.10.2026). Feld "sub" = Hauptgenre, optional "subs" = weitere Genres.
 MROWS = [   # Reihenfolge nach Nedy 26.10.2026: Rock zuerst, Deutschrock & Pop neben Schlager unten
  ({'de': 'Rock & Pop', 'bg': 'Рок и поп', 'en': 'Rock & pop'}, ['rock', 'metal', 'indie', 'pop', 'hiphop', 'rnbsoul', 'punk']),
  ({'de': 'Electronic & International', 'bg': 'Електронна и международна', 'en': 'Electronic & international'}, ['electronic', 'dance', 'latin', 'reggae', 'country', 'folk', 'world']),
- ({'de': 'Deutsch, Balkan & Klassik', 'bg': 'Немска, балканска и класическа', 'en': 'German, Balkan & classical'}, ['schlager', 'deutschpop', 'popfolk', 'jazz', 'blues', 'klassik', 'filmmusik']),
+ ({'de': 'Deutsch, Balkan & Klassik', 'bg': 'Немска, балканска и класическа', 'en': 'German, Balkan & classical'}, ['schlager', 'deutschpop', 'popfolk', 'jazz', 'klassik', 'filmmusik']),
 ]
 MGEN = [k for _r in MROWS for k in _r[1]]
 MROW = {k: i for i, _r in enumerate(MROWS) for k in _r[1]}
@@ -204,10 +204,8 @@ _MG = {  # key: (DE, BG, EN, slug DE, slug BG, slug EN, Beschreibung DE, BG, EN)
           'Folk: Singer-Songwriter, Folk-Rock, Neofolk und traditionelle Volksmusik aus aller Welt.', 'Фолк: автори-изпълнители, фолк рок, неофолк и традиционна народна музика от цял свят.', 'Folk: singer-songwriters, folk rock, neofolk and traditional music from around the world.'),
  'schlager': ('Schlager', 'Шлагер', 'Schlager', 'schlager', 'shlager', 'schlager',
               'Schlager: deutschsprachiger Schlager und Schlager-Pop – Alben, Charts, TV-Shows, Künstlerporträts und Tourneen.', 'Шлагер: немскоезичен шлагер и шлагер поп – албуми, класации, телевизионни шоута, портрети и турнета.', 'Schlager: German-language schlager and schlager pop – albums, charts, TV shows, profiles and tours.'),
- 'jazz': ('Jazz', 'Джаз', 'Jazz', 'jazz', 'dzhaz', 'jazz',
-          'Jazz: neue Alben, Festivals, Porträts und Konzerte – vom Big Band Sound bis zum modernen Jazz.', 'Джаз: нови албуми, фестивали, портрети и концерти – от биг бенд до модерен джаз.', 'Jazz: new albums, festivals, profiles and concerts – from big band to modern jazz.'),
- 'blues': ('Blues', 'Блус', 'Blues', 'blues', 'blus', 'blues',
-           'Blues: Blues-Rock, Delta- und Chicago-Blues – neue Alben, Legenden und Konzerte.', 'Блус: блус рок, делта и чикагски блус – нови албуми, легенди и концерти.', 'Blues: blues rock, Delta and Chicago blues – new albums, legends and concerts.'),
+ 'jazz': ('Jazz & Blues', 'Джаз и блус', 'Jazz & blues', 'jazz-blues', 'dzhaz-i-blus', 'jazz-blues',
+          'Jazz & Blues: neue Alben, Festivals, Porträts und Konzerte – vom Big Band Sound und modernen Jazz bis zu Blues-Rock, Delta- und Chicago-Blues.', 'Джаз и блус: нови албуми, фестивали, портрети и концерти – от биг бенд и модерен джаз до блус рок, делта и чикагски блус.', 'Jazz & blues: new albums, festivals, profiles and concerts – from big band and modern jazz to blues rock, Delta and Chicago blues.'),
  'klassik': ('Klassik', 'Класическа', 'Classical', 'klassik', 'klasicheska', 'classical',
              'Klassik: Orchester, Oper, Solisten und Neoklassik – Aufnahmen, Konzerte und Festivals.', 'Класическа музика: оркестри, опера, солисти и неокласика – записи, концерти и фестивали.', 'Classical: orchestras, opera, soloists and neo-classical – recordings, concerts and festivals.'),
  'filmmusik': ('Filmmusik', 'Филмова музика', 'Film music', 'filmmusik', 'filmova-muzika', 'film-music',
@@ -261,14 +259,13 @@ def kultur_to(it):
 
 _BER_RE = re.compile(r'^(de-|deutschland-|breaking-)?berlin-|^de-(neukoelln|kreuzberg|friedrichshain|lichtenberg|marzahn|spandau|mitte|moabit|wedding|pankow|reinickendorf|tempelhof|treptow|koepenick|charlottenburg|steglitz|zehlendorf|weissensee|schoeneberg)-')
 _BER_T = re.compile(r'^(Berlin|Berliner|Neukölln|Kreuzberg|Friedrichshain|Lichtenberg|Marzahn|Spandau|Moabit|Wedding|Pankow|Reinickendorf|Tempelhof|Treptow|Köpenick|Charlottenburg|Steglitz|Zehlendorf|Weißensee|Schöneberg|Hellersdorf|Biesdorf)\b')
-MUSIC_KW = {   # Musik-Genres (21, seit 26.10.2026): Schlagwörter – frühester Treffer in Genre-Angabe (rv.pf) bzw. Titel/Teaser entscheidet
+MUSIC_KW = {   # Musik-Genres (20, seit 26.10.2026; Jazz & Blues zusammen): Schlagwörter – frühester Treffer in Genre-Angabe (rv.pf) bzw. Titel/Teaser entscheidet
  'popfolk': ['pop-folk', 'popfolk', 'chalga', 'чалга', 'turbo-folk', 'turbofolk', 'manele', 'laiko', 'laïko', 'попфолк', 'azis', 'preslava', 'преслава', 'andrea (bulgarische', 'galena', 'payner', 'пайнер'],
  'schlager': ['schlager', 'helene fischer', 'andrea berg', 'gabalier', 'silbereisen', 'roland kaiser', 'beatrice egli', 'vanessa mai', 'kerstin ott', 'semino rossi', 'howard carpendale', 'ben zucker', 'giovanni zarrella', 'wolfgang petry', 'nicole', 'matthias reim'],
  'deutschpop': ['deutschrock', 'deutsch-rock', 'grönemeyer', 'westernhagen', 'udo lindenberg', 'kraftklub', 'provinz', 'pohlmann', 'alexander eder', 'no angels', 'söhne mannheims', 'blackout problems', 'jennifer rostock', 'deutschpop', 'deutsch-pop', 'deutschsprachiger pop', 'philipp poisel', 'mark forster', 'max giesinger', 'tim bendzko', 'lea', 'leslie clio', 'johannes oerding', 'nina chuba', 'wincent weiss', 'clueso', 'silbermond', 'revolverheld', 'sarah connor', 'lina', 'soffie', 'tokio hotel', 'bosse', 'peter maffay', 'wanda', 'betterov', 'annenmaykantereit'],
  'filmmusik': ['filmmusik', 'soundtrack', 'film score', 'score', 'filmkomponist', 'hans zimmer', 'john williams', 'hildur', 'ludwig göransson', 'howard shore', 'stranger things'],
  'klassik': ['bocelli', 'igor levit', 'andré rieu', 'andre rieu', 'max richter', 'geigerin', 'klassik', 'classical', 'neoklassik', 'neo-classical', 'orchester', 'orchestra', 'oper', 'opera', 'symphon', 'philharmon', 'pianist', 'dirigent', 'deutsche grammophon', 'geiger', 'cellist'],
- 'jazz': ['jazz', 'big band', 'bebop', 'swing'],
- 'blues': ['blues', 'bluesrock', 'blues-rock'],
+ 'jazz': ['jazz', 'big band', 'bebop', 'swing', 'blues', 'bluesrock', 'blues-rock', 'beth hart', 'joe bonamassa'],   # Jazz & Blues zusammengelegt (Nedy 26.10.2026)
  'reggae': ['reggae', 'dancehall', 'dub', 'ska', 'bob marley'],
  'latin': ['latin', 'reggaeton', 'salsa', 'bachata', 'cumbia', 'bad bunny', 'karol g', 'daddy yankee', 'shakira', 'j balvin', 'rosalía', 'rosalia'],
  'country': ['country', 'americana', 'bluegrass', 'nashville', 'honky tonk', 'zach bryan', 'morgan wallen', 'luke combs', 'dolly parton', 'kacey musgraves', 'miranda lambert', 'truck stop'],
@@ -316,8 +313,11 @@ def load():
             if it.get('s') == 'usa': it['s'] = 'welt'
             if it.get('s') == 'klima' and it.get('nat'): it['s'] = 'leben'; it['_kl'] = True  # Naturorte laufen unter Leben & Alltag, Klima hat wieder eigene Rubrik  # Klima/Natur läuft unter Leben & Alltag (seit 03.10.2026)  # USA-Meldungen laufen unter Welt
             if it.get('s') == 'kultur': it['s'] = kultur_to(it)
-            if it.get('s') == 'musik' and it.get('sub') in MOLD: music_sub(it, MOLD[it['sub']])   # alte Kanäle (bis 25.10.2026) → eines der 21 Genres
-            if it.get('s') == 'musik' and not it.get('sub') and it.get('rub') != 'rueckblick': music_sub(it)   # Genre automatisch, falls nicht gesetzt (seit 24.10.2026, 21 Genres seit 26.10.2026)
+            if it.get('s') == 'musik':   # Blues seit 26.10.2026 mit Jazz zusammengelegt (Nedy) → "jazz" (Jazz & Blues)
+                if it.get('sub') == 'blues': it['sub'] = 'jazz'
+                if it.get('subs'): it['subs'] = list(dict.fromkeys('jazz' if x == 'blues' else x for x in it['subs']))
+            if it.get('s') == 'musik' and it.get('sub') in MOLD: music_sub(it, MOLD[it['sub']])   # alte Kanäle (bis 25.10.2026) → eines der 20 Genres
+            if it.get('s') == 'musik' and not it.get('sub') and it.get('rub') != 'rueckblick': music_sub(it)   # Genre automatisch, falls nicht gesetzt (seit 24.10.2026, 20 Genres seit 26.10.2026)
             if it.get('s') == 'deutschland': berlin_sub(it)   # Berlin-Meldungen automatisch in die Unterrubrik Berlin (seit 08.10.2026)  # Entertainment aufgeteilt in Film und Musik
             if it.get('img') and not it['img']['f'].startswith('/'): it['img']['f'] = '/' + it['img']['f']  # Pfad immer absolut
             if it.get('img') and not os.path.exists(os.path.join(HERE, 'static', it['img']['f'].lstrip('/'))):
@@ -827,7 +827,7 @@ MZU = {'bg': dict(plan='Седмичен план', today='днес', days=['П�
 def mplan_name(k, l): return SUB[l][k][0] if k in SUB[l] else RUB[k][l][0]
 def mplan_url(k, l): return sub_url('musik', k, l) if k in SUB[l] else None
 def musik_grid(l, cur=None):
-    """TWN MUSIC: 21 Genres in 3 Reihen zu je 7 (Nedy 26.10.2026). Zähler = Beiträge der letzten 30 Ausgabetage."""
+    """TWN MUSIC: 20 Genres in 3 Reihen (7/7/6, Nedy 26.10.2026). Zähler = Beiträge der letzten 30 Ausgabetage."""
     Z = MZU[l]; pool = MUSIK.get('all') or []
     rows = ''
     for i, (lab, keys) in enumerate(MROWS):
