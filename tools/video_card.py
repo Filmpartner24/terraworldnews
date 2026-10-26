@@ -8,12 +8,13 @@ Für jedes Item mit s="musik", "yt" und eigener Titelgrafik (img.own, Dateiname 
      wird dieses als img gesetzt (f=/assets/news/<datum>/<id>.webp + page/art/lic; die Action lädt und schneidet es zu).
   2. Sonst wird static/assets/news/<datum>/<id>-vc.webp erzeugt und als img (own:true) eingetragen.
 Die alte -tg-Grafik wird gelöscht. Mehrfaches Ausführen ist unschädlich.
+Läuft zusätzlich automatisch in der GitHub-Action (ohne Argument = alle content/*.json), damit keine Musik-Videokachel dunkel bleibt.
 Als Modul: make(path, artist, song, kicker, seed)."""
 import sys, os, re, json, math, random, hashlib
 from PIL import Image, ImageDraw, ImageFont
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BOLD = '/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf'
+BOLD = os.path.join(HERE, 'tools', 'fonts', 'Poppins-Bold.ttf')  # SIL OFL 1.1, siehe tools/fonts/OFL-Poppins.txt
 W, H = 1200, 675
 PALETTES = [('#ff2d95', '#5b2bd6'), ('#ff7a18', '#c2185b'), ('#00c2a8', '#3a1c71'), ('#f5b700', '#d7263d'),
             ('#2d9cff', '#7b2cbf'), ('#ff4d6d', '#3d1a78'), ('#12c2e9', '#c471ed'), ('#f64f59', '#5f2c82')]
@@ -104,8 +105,14 @@ def process(path):
         st = next((s for s in stars if re.search(r'(?<!\w)' + re.escape(s['name'].lower()) + r'(?!\w)', artist.lower())), None)
         if st:
             nm = st['name']
-            it['img'] = {'f': f'/assets/news/{date}/{it["id"]}.webp', 'w': 1200, 'h': 675, 'art': st['art'], 'lic': st['lic'],
+            f = f'/assets/news/{date}/{it["id"]}.webp'
+            it['img'] = {'f': f, 'w': 1200, 'h': 675, 'art': st['art'], 'lic': st['lic'],
                          'page': st['page'], 'alt': {'de': f'{nm} (Archivbild)', 'bg': f'{nm} (архивна снимка)', 'en': f'{nm} (archive photo)'}}
+            src = os.path.join(HERE, 'static', st['f'].lstrip('/')); dest = os.path.join(HERE, 'static', f.lstrip('/'))
+            if os.path.exists(src) and not os.path.exists(dest):  # sofort lokal zuschneiden – keine schwarze Kachel bis zum Action-Lauf
+                sys.path.insert(0, os.path.join(HERE, 'tools')); from fetch_images import render
+                os.makedirs(os.path.dirname(dest), exist_ok=True)
+                render(open(src, 'rb').read()).save(dest, 'WEBP', quality=80, method=6)
         else:
             if it['id'].startswith('review') or it.get('rv'): kind = 'Album'
             else: kind = 'Live' if it.get('vk') == 'live' else 'Video'
@@ -123,5 +130,9 @@ def process(path):
 
 
 if __name__ == '__main__':
-    for p in sys.argv[1:]:
-        print(p, process(p))
+    import glob
+    paths = sys.argv[1:] or sorted(glob.glob(os.path.join(HERE, 'content', '*.json')))  # ohne Argument: alle (so läuft es in der Action)
+    for p in paths:
+        try: n = process(p)
+        except Exception as ex: print('skip', p, ex); continue
+        if n: print(p, n)

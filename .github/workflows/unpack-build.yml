@@ -25,6 +25,8 @@ jobs:
         run: python3 tools/fetch_urls.py
       - name: Photo candidates from Wikimedia Commons
         run: python3 tools/commons_candidates.py
+      - name: Music video cards (Nedy 26.10.2026)
+        run: python3 tools/video_card.py
       - run: python3 tools/fetch_images.py
       - name: Commit
         run: |
