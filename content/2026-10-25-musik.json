@@ -4,7 +4,7 @@
   {
    "id": "review-soffie-kein-streit-den-man-nicht-loesen-kann",
    "s": "musik",
-   "sub": "poprnb",
+   "sub": "deutschpop",
    "time": "16:32",
    "src": [
     {
@@ -74,12 +74,15 @@
      "bg": "Архивна снимка: Soffie по време на фестивално участие през 2024 г.",
      "en": "Archive photo: Soffie performing at a festival in 2024"
     }
-   }
+   },
+   "subs": [
+    "pop"
+   ]
   },
   {
    "id": "review-forbidden-forbidden",
    "s": "musik",
-   "sub": "rockmetal",
+   "sub": "metal",
    "time": "16:32",
    "src": [
     {
@@ -152,7 +155,7 @@
   {
    "id": "review-hildur-gudnadottir-this-will-be-us",
    "s": "musik",
-   "sub": "filmclassic",
+   "sub": "klassik",
    "time": "16:32",
    "src": [
     {
@@ -222,12 +225,15 @@
      "bg": "Архивна снимка: Хилдур Гуднадотир през 2007 г. на фестивала Faster Than Sound в Съфолк",
      "en": "Archive photo: Hildur Guðnadóttir at the Faster Than Sound festival in Suffolk in 2007"
     }
-   }
+   },
+   "subs": [
+    "filmmusik"
+   ]
   },
   {
    "id": "news-dominic-fike-tour-2027",
    "s": "musik",
-   "sub": "poprnb",
+   "sub": "pop",
    "time": "16:32",
    "mn": true,
    "tour": true,
@@ -280,12 +286,15 @@
      "bg": "Архивна снимка: Доминик Файк на фестивала Shaky Knees през 2021 г.",
      "en": "Archive photo: Dominic Fike at the Shaky Knees festival in 2021"
     }
-   }
+   },
+   "subs": [
+    "indie"
+   ]
   },
   {
    "id": "news-robert-smith-fan-champion-award",
    "s": "musik",
-   "sub": "rockmetal",
+   "sub": "indie",
    "time": "16:32",
    "mn": true,
    "src": [
@@ -333,7 +342,10 @@
      "bg": "Архивна снимка: Робърт Смит с The Cure на фестивала Роскилде през 2012 г.",
      "en": "Archive photo: Robert Smith with The Cure at Roskilde Festival in 2012"
     }
-   }
+   },
+   "subs": [
+    "rock"
+   ]
   },
   {
    "id": "news-daft-punk-lego-alive-2007",
@@ -386,12 +398,15 @@
      "bg": "Архивна снимка: Daft Punk със сцената пирамида на фестивала Summercase през 2006 г. в Барселона",
      "en": "Archive photo: Daft Punk with their pyramid stage at the Summercase festival in Barcelona in 2006"
     }
-   }
+   },
+   "subs": [
+    "dance"
+   ]
   },
   {
    "id": "longread-raye-mercury-prize-2026",
    "s": "musik",
-   "sub": "poprnb",
+   "sub": "pop",
    "time": "16:32",
    "mn": true,
    "rub": "longread",
@@ -471,7 +486,11 @@
      "bg": "Архивна снимка: Рей на фестивала Boardmasters през 2023 г.",
      "en": "Archive photo: Raye at the Boardmasters festival in 2023"
     }
-   }
+   },
+   "subs": [
+    "rnbsoul",
+    "jazz"
+   ]
   }
  ]
 }

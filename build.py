@@ -165,6 +165,68 @@ SUB_DESC = {
          'bg': 'ММА: UFC, PFL, ONE Championship и OKTAGON – шампиони, предстоящи мачове, резултати и новини.',
          'en': 'MMA: UFC, PFL, ONE Championship and OKTAGON – champions, upcoming fights, results and news.'},
 }
+# ---- TWN MUSIC (seit 26.10.2026, Nedy): 21 Genre-Kategorien in 3 Reihen zu je 7. Feld "sub" = Hauptgenre, optional "subs" = weitere Genres.
+MROWS = [
+ ({'de': 'Modern & Mainstream', 'bg': 'Модерна и мейнстрийм', 'en': 'Modern & mainstream'}, ['pop', 'deutschpop', 'rock', 'metal', 'hiphop', 'rnbsoul', 'indie']),
+ ({'de': 'Electronic & International', 'bg': 'Електронна и международна', 'en': 'Electronic & international'}, ['electronic', 'dance', 'latin', 'reggae', 'popfolk', 'country', 'folk']),
+ ({'de': 'Tradition & Kultur', 'bg': 'Традиция и култура', 'en': 'Tradition & culture'}, ['schlager', 'jazz', 'blues', 'klassik', 'filmmusik', 'world', 'punk']),
+]
+MGEN = [k for _r in MROWS for k in _r[1]]
+MROW = {k: i for i, _r in enumerate(MROWS) for k in _r[1]}
+_MG = {  # key: (DE, BG, EN, slug DE, slug BG, slug EN, Beschreibung DE, BG, EN)
+ 'pop': ('Pop', 'Поп', 'Pop', 'pop', 'pop', 'pop',
+         'Internationaler Pop: neue Alben und Singles, Musikvideos, Chart-News und Tourneen der großen Popstars.', 'Международен поп: нови албуми и сингли, видеоклипове, новини от класациите и турнета на големите поп звезди.', 'International pop: new albums and singles, music videos, chart news and tours by the big pop stars.'),
+ 'deutschpop': ('Deutsch-Pop', 'Немски поп', 'German pop', 'deutsch-pop', 'nemski-pop', 'german-pop',
+                'Deutsch-Pop: deutschsprachige Popmusik und Singer-Songwriter – Alben, Charts, Videos und Tourneen in Deutschland, Österreich und der Schweiz.', 'Немски поп: поп музика на немски език и автори-изпълнители – албуми, класации, видеоклипове и турнета в Германия, Австрия и Швейцария.', 'German pop: German-language pop and singer-songwriters – albums, charts, videos and tours in Germany, Austria and Switzerland.'),
+ 'rock': ('Rock', 'Рок', 'Rock', 'rock', 'rok', 'rock',
+          'Rock: Classic Rock, Hard Rock und Stadionrock – Album-Reviews, Musikvideos, Tourdaten und Festivals.', 'Рок: класически рок, хард рок и стадионен рок – ревюта на албуми, видеоклипове, турнета и фестивали.', 'Rock: classic rock, hard rock and stadium rock – album reviews, music videos, tour dates and festivals.'),
+ 'metal': ('Metal', 'Метъл', 'Metal', 'metal', 'metal', 'metal',
+           'Metal: Heavy, Thrash, Death, Black, Power und Symphonic Metal – Reviews, Videos, Tourdaten und Festivals.', 'Метъл: хеви, траш, дет, блек, пауър и симфоничен метъл – ревюта, видеоклипове, турнета и фестивали.', 'Metal: heavy, thrash, death, black, power and symphonic metal – reviews, videos, tour dates and festivals.'),
+ 'hiphop': ('Hip-Hop', 'Хип-хоп', 'Hip-hop', 'hip-hop', 'hip-hop', 'hip-hop',
+            'Hip-Hop: Rap aus den USA, Deutschrap und internationale Szenen – neue Alben, Videos, Charts und Tourneen.', 'Хип-хоп: рап от САЩ, немски рап и международни сцени – нови албуми, видеоклипове, класации и турнета.', 'Hip-hop: US rap, German rap and international scenes – new albums, videos, charts and tours.'),
+ 'rnbsoul': ('R&B & Soul', 'R&B и соул', 'R&B & Soul', 'rnb-soul', 'rnb-i-soul', 'rnb-soul',
+             'R&B & Soul: zeitgenössischer R&B, Soul und Neo-Soul – Alben, Videos und Konzerte.', 'R&B и соул: съвременен R&B, соул и неосоул – албуми, видеоклипове и концерти.', 'R&B & Soul: contemporary R&B, soul and neo-soul – albums, videos and concerts.'),
+ 'indie': ('Indie & Alternative', 'Инди и алтернатива', 'Indie & Alternative', 'indie-alternative', 'indi-i-alternativa', 'indie-alternative',
+           'Indie & Alternative: Indie-Rock, Indie-Pop, Alternative, Post-Punk und Shoegaze – mit Schwerpunkt auf neuen Bands.', 'Инди и алтернатива: инди рок, инди поп, алтернатива, пост-пънк и шугейз – с акцент върху новите групи.', 'Indie & Alternative: indie rock, indie pop, alternative, post-punk and shoegaze – with a focus on new bands.'),
+ 'electronic': ('Electronic', 'Електронна', 'Electronic', 'electronic', 'elektronna', 'electronic',
+                'Electronic: Techno, Electro, Ambient und elektronische Pioniere – Releases, Live-Shows und Clubkultur.', 'Електронна: техно, електро, амбиент и пионери на електронната музика – нови издания, концерти и клубна култура.', 'Electronic: techno, electro, ambient and electronic pioneers – releases, live shows and club culture.'),
+ 'dance': ('Dance & EDM', 'Денс и EDM', 'Dance & EDM', 'dance-edm', 'dens-i-edm', 'dance-edm',
+           'Dance & EDM: House, Trance, Drum & Bass, EDM und Hardtekk – DJ-News, Festivals und neue Tracks.', 'Денс и EDM: хаус, транс, дръм енд бейс, EDM и хардтек – DJ новини, фестивали и нови парчета.', 'Dance & EDM: house, trance, drum & bass, EDM and hardtekk – DJ news, festivals and new tracks.'),
+ 'latin': ('Latin', 'Латино', 'Latin', 'latin', 'latino', 'latin',
+           'Latin: Reggaeton, Latin Pop, Salsa und Bachata – Stars, Alben, Videos und Tourneen.', 'Латино: регетон, латино поп, салса и бачата – звезди, албуми, видеоклипове и турнета.', 'Latin: reggaeton, Latin pop, salsa and bachata – stars, albums, videos and tours.'),
+ 'reggae': ('Reggae', 'Реге', 'Reggae', 'reggae', 'rege', 'reggae',
+            'Reggae: Roots, Dancehall und Dub – neue Releases, Konzerte und Festivals.', 'Реге: рутс, денсхол и дъб – нови издания, концерти и фестивали.', 'Reggae: roots, dancehall and dub – new releases, concerts and festivals.'),
+ 'popfolk': ('Pop-Folk', 'Попфолк', 'Pop-folk', 'pop-folk', 'popfolk', 'pop-folk',
+             'Pop-Folk: bulgarische Chalga, serbischer Turbo-Folk, rumänische Manele und griechischer Laïkó – Stars, Videos, Konzerte und Charts.', 'Попфолк: българска чалга, сръбски турбофолк, румънски манеле и гръцко лайко – звезди, видеоклипове, концерти и класации.', 'Pop-folk: Bulgarian chalga, Serbian turbo-folk, Romanian manele and Greek laïko – stars, videos, concerts and charts.'),
+ 'country': ('Country', 'Кънтри', 'Country', 'country', 'kantri', 'country',
+             'Country: Nashville, Americana und Country-Pop – Alben, Videos, Tourneen und Awards.', 'Кънтри: Нешвил, американа и кънтри поп – албуми, видеоклипове, турнета и награди.', 'Country: Nashville, Americana and country pop – albums, videos, tours and awards.'),
+ 'folk': ('Folk', 'Фолк', 'Folk', 'folk', 'folk', 'folk',
+          'Folk: Singer-Songwriter, Folk-Rock, Neofolk und traditionelle Volksmusik aus aller Welt.', 'Фолк: автори-изпълнители, фолк рок, неофолк и традиционна народна музика от цял свят.', 'Folk: singer-songwriters, folk rock, neofolk and traditional music from around the world.'),
+ 'schlager': ('Schlager', 'Шлагер', 'Schlager', 'schlager', 'shlager', 'schlager',
+              'Schlager: deutschsprachiger Schlager und Schlager-Pop – Alben, Charts, TV-Shows, Künstlerporträts und Tourneen.', 'Шлагер: немскоезичен шлагер и шлагер поп – албуми, класации, телевизионни шоута, портрети и турнета.', 'Schlager: German-language schlager and schlager pop – albums, charts, TV shows, profiles and tours.'),
+ 'jazz': ('Jazz', 'Джаз', 'Jazz', 'jazz', 'dzhaz', 'jazz',
+          'Jazz: neue Alben, Festivals, Porträts und Konzerte – vom Big Band Sound bis zum modernen Jazz.', 'Джаз: нови албуми, фестивали, портрети и концерти – от биг бенд до модерен джаз.', 'Jazz: new albums, festivals, profiles and concerts – from big band to modern jazz.'),
+ 'blues': ('Blues', 'Блус', 'Blues', 'blues', 'blus', 'blues',
+           'Blues: Blues-Rock, Delta- und Chicago-Blues – neue Alben, Legenden und Konzerte.', 'Блус: блус рок, делта и чикагски блус – нови албуми, легенди и концерти.', 'Blues: blues rock, Delta and Chicago blues – new albums, legends and concerts.'),
+ 'klassik': ('Klassik', 'Класическа', 'Classical', 'klassik', 'klasicheska', 'classical',
+             'Klassik: Orchester, Oper, Solisten und Neoklassik – Aufnahmen, Konzerte und Festivals.', 'Класическа музика: оркестри, опера, солисти и неокласика – записи, концерти и фестивали.', 'Classical: orchestras, opera, soloists and neo-classical – recordings, concerts and festivals.'),
+ 'filmmusik': ('Filmmusik', 'Филмова музика', 'Film music', 'filmmusik', 'filmova-muzika', 'film-music',
+               'Filmmusik: Scores, Soundtracks und Komponisten aus Kino, Serien und Games – mit der Rubrik „Aus dem Studio“.', 'Филмова музика: саундтракове и композитори от кино, сериали и игри – с рубриката „От студиото“.', 'Film music: scores, soundtracks and composers from film, TV and games – with the column “From the studio”.'),
+ 'world': ('World Music', 'Световна музика', 'World music', 'world-music', 'svetovna-muzika', 'world-music',
+           'World Music: Musik aus Afrika, Asien, dem Nahen Osten und dem Balkan – Alben, Festivals und Porträts.', 'Световна музика: музика от Африка, Азия, Близкия изток и Балканите – албуми, фестивали и портрети.', 'World music: music from Africa, Asia, the Middle East and the Balkans – albums, festivals and profiles.'),
+ 'punk': ('Punk', 'Пънк', 'Punk', 'punk', 'pank', 'punk',
+          'Punk: Punkrock, Hardcore und Pop-Punk – neue Platten, Tourneen und Festivals.', 'Пънк: пънк рок, хардкор и поп пънк – нови албуми, турнета и фестивали.', 'Punk: punk rock, hardcore and pop punk – new records, tours and festivals.'),
+}
+for _k, _v in _MG.items():
+    SUB['de'][_k] = (_v[0], _v[3]); SUB['bg'][_k] = (_v[1], _v[4]); SUB['en'][_k] = (_v[2], _v[5])
+    SUB_DESC[_k] = {'de': _v[6], 'bg': _v[7], 'en': _v[8]}
+LSUBS['musik'] = MGEN
+MOLD = {'rockmetal': ['metal', 'rock', 'punk', 'indie'], 'poprnb': ['pop', 'deutschpop', 'hiphop', 'rnbsoul', 'schlager'], 'electronic': ['electronic', 'dance'],
+        'filmclassic': ['filmmusik', 'klassik'], 'folkroots': ['popfolk', 'folk', 'country', 'world', 'latin', 'reggae']}   # alte Kanäle (24.–25.10.2026) → neue Genres
+def m_genres(it):
+    """Alle Genres einer Musik-Meldung: Hauptgenre ("sub") + weitere ("subs")."""
+    g = [it['sub']] if it.get('sub') in MROW else []
+    return g + [x for x in (it.get('subs') or []) if x in MROW and x not in g]
 def sec_desc(s, l, fallback):
     d = SEO_DESC.get(s)
     return d[l] if d else fallback
@@ -199,23 +261,42 @@ def kultur_to(it):
 
 _BER_RE = re.compile(r'^(de-|deutschland-|breaking-)?berlin-|^de-(neukoelln|kreuzberg|friedrichshain|lichtenberg|marzahn|spandau|mitte|moabit|wedding|pankow|reinickendorf|tempelhof|treptow|koepenick|charlottenburg|steglitz|zehlendorf|weissensee|schoeneberg)-')
 _BER_T = re.compile(r'^(Berlin|Berliner|Neukölln|Kreuzberg|Friedrichshain|Lichtenberg|Marzahn|Spandau|Moabit|Wedding|Pankow|Reinickendorf|Tempelhof|Treptow|Köpenick|Charlottenburg|Steglitz|Zehlendorf|Weißensee|Schöneberg|Hellersdorf|Biesdorf)\b')
-MUSIC_KW = {   # Musik-Kanäle: Schlagwörter (frühester Treffer in Genre/Titel entscheidet)
- 'rockmetal': ['symphonic metal', 'metal', 'rock', 'punk', 'doom', 'stoner', 'grunge', 'hardcore', 'wacken', 'iron maiden', 'ministry', 'alice cooper', 'toto', 'sabbath', 'iommi', 'queens of the stone age', 'chemical romance', 'pretty reckless', 'smashing pumpkins', 'kings of leon', 'rammstein', 'ac/dc', 'scorpions', 'metallica', 'blink-182', 'toten hosen'],
- 'poprnb': ['pop', 'r&b', 'rnb', 'soul', 'hip-hop', 'hip hop', 'rap', 'rapper', 'deutschrap', 'schlager', 'charts', 'singer-songwriter', 'eurovision', 'esc', 'helene fischer', 'andrea berg', 'gabalier', 'sting', 'sting 3', 'james blunt', 'leslie clio', 'winehouse', 'tate mcrae', 'taylor swift'],
- 'electronic': ['electronic', 'elektronisch', 'electro', 'techno', 'trance', 'house', 'dance', 'edm', 'hardtekk', 'drum and bass', 'drum & bass', 'kraftwerk', 'dj', 'rave'],
- 'filmclassic': ['soundtrack', 'filmmusik', 'score', 'klassik', 'classical', 'neoklassik', 'orchester', 'orchestra', 'oper', 'opera', 'symphon', 'philharmon', 'komponist'],
- 'folkroots': ['neofolk', 'folk', 'country', 'roots', 'balkan', 'volksmusik', 'weltmusik', 'world music', 'bluegrass', 'americana', 'chalga', 'чалга'],
+MUSIC_KW = {   # Musik-Genres (21, seit 26.10.2026): Schlagwörter – frühester Treffer in Genre-Angabe (rv.pf) bzw. Titel/Teaser entscheidet
+ 'popfolk': ['pop-folk', 'popfolk', 'chalga', 'чалга', 'turbo-folk', 'turbofolk', 'manele', 'laiko', 'laïko', 'попфолк', 'azis', 'preslava', 'преслава', 'andrea (bulgarische', 'galena', 'payner', 'пайнер'],
+ 'schlager': ['schlager', 'helene fischer', 'andrea berg', 'gabalier', 'silbereisen', 'roland kaiser', 'beatrice egli', 'vanessa mai', 'kerstin ott', 'semino rossi', 'howard carpendale', 'ben zucker', 'giovanni zarrella', 'wolfgang petry', 'nicole', 'matthias reim'],
+ 'deutschpop': ['alexander eder', 'no angels', 'söhne mannheims', 'blackout problems', 'jennifer rostock', 'deutschpop', 'deutsch-pop', 'deutschsprachiger pop', 'philipp poisel', 'mark forster', 'max giesinger', 'tim bendzko', 'lea', 'leslie clio', 'johannes oerding', 'nina chuba', 'wincent weiss', 'clueso', 'silbermond', 'revolverheld', 'sarah connor', 'lina', 'soffie', 'tokio hotel', 'bosse', 'peter maffay', 'wanda', 'betterov', 'annenmaykantereit'],
+ 'filmmusik': ['filmmusik', 'soundtrack', 'film score', 'score', 'filmkomponist', 'hans zimmer', 'john williams', 'hildur', 'ludwig göransson', 'howard shore', 'stranger things'],
+ 'klassik': ['bocelli', 'igor levit', 'andré rieu', 'andre rieu', 'max richter', 'geigerin', 'klassik', 'classical', 'neoklassik', 'neo-classical', 'orchester', 'orchestra', 'oper', 'opera', 'symphon', 'philharmon', 'pianist', 'dirigent', 'deutsche grammophon', 'geiger', 'cellist'],
+ 'jazz': ['jazz', 'big band', 'bebop', 'swing'],
+ 'blues': ['blues', 'bluesrock', 'blues-rock'],
+ 'reggae': ['reggae', 'dancehall', 'dub', 'ska', 'bob marley'],
+ 'latin': ['latin', 'reggaeton', 'salsa', 'bachata', 'cumbia', 'bad bunny', 'karol g', 'daddy yankee', 'shakira', 'j balvin', 'rosalía', 'rosalia'],
+ 'country': ['country', 'americana', 'bluegrass', 'nashville', 'honky tonk', 'zach bryan', 'morgan wallen', 'luke combs', 'dolly parton', 'kacey musgraves', 'miranda lambert', 'truck stop'],
+ 'world': ['weltmusik', 'world music', 'afrobeat', 'afrobeats', 'balkan', 'flamenco', 'fado', 'k-pop', 'kpop', 'ateez', 'bts', 'orchestra baobab'],
+ 'folk': ['paul simon', 'liedermacher', 'reinhard mey', 'jack johnson', 'neofolk', 'folk', 'singer-songwriter', 'volksmusik', 'roots', 'bob dylan'],
+ 'metal': ['eisbrecher', 'trivium', 'boundaries', 'igorrr', 'neue deutsche härte', 'symphonic metal', 'metalcore', 'metal', 'thrash', 'death', 'black metal', 'doom', 'djent', 'wacken', 'iron maiden', 'ministry', 'sabbath', 'iommi', 'metallica', 'slayer', 'megadeth', 'rammstein', 'nightwish', 'sabaton', 'tarja', 'apocalyptica', 'mastodon', 'gojira', 'hatebreed', 'motörhead', 'judas priest', 'enslaved'],
+ 'punk': ['punk', 'hardcore', 'pop-punk', 'blink-182', 'green day', 'toten hosen', 'ärzte', 'feine sahne', 'social distortion', 'offspring'],
+ 'indie': ['blossoms', 'placebo', 'interpol', 'chvrches', 'two door cinema club', 'ben folds', 'my morning jacket', 'lake street dive', 'phoebe bridgers', 'johnny marr', 'indie', 'alternative', 'shoegaze', 'post-punk', 'britpop', 'grunge', 'emo', 'fontaines d.c.', 'arctic monkeys', 'smashing pumpkins', 'chemical romance', 'radiohead', 'editors', 'wolf alice', 'the cure'],
+ 'rock': ['staind', 'beatles', 'muse', 'royal blood', 'greta van fleet', 'def leppard', 'palaye royale', 'foreigner', 'danko jones', 'rush', 'skillet', 'a perfect circle', 'king’s x', "king's x", 'jayler', 'deep purple', 'hurricane', 'southside', 'rock am ring', 'rock', 'hard rock', 'stoner', 'alice cooper', 'toto', 'ac/dc', 'scorpions', 'queens of the stone age', 'kings of leon', 'pretty reckless', 'bon jovi', 'nickelback', 'slash', 'foo fighters', 'u2', 'oasis', 'rolling stones', 'queen', 'guns n', 'pink floyd', 'sting', 'rod stewart', 'bryan adams'],
+ 'hiphop': ['2hollis', 'stereo mc', 'hip-hop', 'hip hop', 'rap', 'rapper', 'rapperin', 'deutschrap', 'trap', 'drill', 'grime', 'kendrick', 'drake', 'eminem', 'travis scott', 'a$ap', 'capital bra', 'ufo361', 'rin', 'ski aggu', 'kontra k', 'haftbefehl', 'ikkimel', 'clipse', 'doechii'],
+ 'rnbsoul': ['craig david', 'r&b', 'rnb', 'soul', 'neo-soul', 'funk', 'gospel', 'john legend', 'sza', 'the weeknd', 'leon bridges', 'kiwanuka', 'chaka khan', 'erykah badu', 'anderson .paak'],
+ 'dance': ['purple disco machine', 'street parade', 'glücksgefühle', 'dance', 'edm', 'house', 'trance', 'drum and bass', 'drum & bass', 'hardtekk', 'hardstyle', 'rave', 'david guetta', 'calvin harris', 'tiësto', 'pendulum', 'fred again'],
+ 'electronic': ['electronic', 'elektronisch', 'electro', 'techno', 'ambient', 'synth', 'kraftwerk', 'daft punk', 'jean-michel jarre', 'yello', 'dj'],
+ 'pop': ['britney', 'remi wolf', 'sienna spiro', 'carly rae jepsen', 'michael jackson', 'mico', 'donauinselfest', 'rayes', 'pop', 'charts', 'eurovision', 'esc', 'taylor swift', 'tate mcrae', 'zara larsson', 'olivia rodrigo', 'sabrina carpenter', 'dua lipa', 'harry styles', 'ed sheeran', 'adele', 'raye', 'james blunt', 'winehouse', 'billie eilish', 'lady gaga', 'miley cyrus', 'mariah carey', 'sombr', 'sam fender', 'mercury prize'],
 }
-MUSIC_STRICT = {'rap', 'pop', 'dj', 'esc', 'oper', 'rave', 'house', 'dance', 'score', 'toto', 'soul', 'edm', 'folk', 'roots', 'electro', 'charts'}
-def music_sub(it):
+MUSIC_STRICT = {'rap', 'pop', 'dj', 'esc', 'oper', 'rave', 'house', 'dance', 'score', 'toto', 'soul', 'edm', 'folk', 'roots', 'electro', 'charts', 'trap', 'drill', 'emo', 'dub', 'ska', 'funk', 'swing', 'death', 'rin', 'lea', 'lina', 'emo', 'bts', 'u2', 'queen', 'slash', 'sting', 'nicole', 'bosse', 'wanda', 'soffie', 'oasis', 'synth', 'rock', 'metal', 'punk', 'jazz', 'blues', 'latin', 'world music', 'opera', 'oper', 'trance', 'techno', 'klassik', 'muse', 'rush', 'mico', 'hurricane', 'southside', 'foreigner'}
+def music_sub(it, allowed=None):
+    """Hauptgenre per Schlagwort setzen (nur, wenn "sub" fehlt oder ein alter Kanal ist). allowed = erlaubte Genres (alter Kanal)."""
     rv = it.get('rv') or {}
-    for txt in (str(rv.get('pf') or ''), ' '.join(str((it.get('de') or {}).get(k, '')) for k in ('t', 'd'))):
+    for txt in (str(rv.get('pf') or ''), ' '.join(str((it.get('de') or {}).get(k, '')) for k in ('t', 'd')), ' '.join(str(p) for p in ((it.get('de') or {}).get('body') or [])[:1])):
         t = txt.lower(); best = None
         for k, kws in MUSIC_KW.items():
+            if allowed and k not in allowed: continue
             for w in kws:
                 m = re.search(r'(?<![a-zäöüß])' + re.escape(w) + (r'(?![a-zäöüß])' if w in MUSIC_STRICT else ''), t)
-                if m and (best is None or m.start() < best[0]): best = (m.start(), k)
+                if m and (best is None or (m.start(), -len(w)) < best[0]): best = ((m.start(), -len(w)), k)
         if best: it['sub'] = best[1]; return
+    if allowed: it['sub'] = allowed[0]
 def berlin_sub(it):
     """Berlin-Themen (Hauptstadt-Lokales, Landespolitik, Polizei) → Unterrubrik Berlin. Bundespolitik „in Berlin“ bleibt Deutschland."""
     sub = it.get('sub')
@@ -235,7 +316,8 @@ def load():
             if it.get('s') == 'usa': it['s'] = 'welt'
             if it.get('s') == 'klima' and it.get('nat'): it['s'] = 'leben'; it['_kl'] = True  # Naturorte laufen unter Leben & Alltag, Klima hat wieder eigene Rubrik  # Klima/Natur läuft unter Leben & Alltag (seit 03.10.2026)  # USA-Meldungen laufen unter Welt
             if it.get('s') == 'kultur': it['s'] = kultur_to(it)
-            if it.get('s') == 'musik' and not it.get('sub') and it.get('rub') not in ('rueckblick', 'longread'): music_sub(it)   # Musik-Kanal (Genre) automatisch, falls nicht gesetzt (seit 24.10.2026)
+            if it.get('s') == 'musik' and it.get('sub') in MOLD: music_sub(it, MOLD[it['sub']])   # alte Kanäle (bis 25.10.2026) → eines der 21 Genres
+            if it.get('s') == 'musik' and not it.get('sub') and it.get('rub') != 'rueckblick': music_sub(it)   # Genre automatisch, falls nicht gesetzt (seit 24.10.2026, 21 Genres seit 26.10.2026)
             if it.get('s') == 'deutschland': berlin_sub(it)   # Berlin-Meldungen automatisch in die Unterrubrik Berlin (seit 08.10.2026)  # Entertainment aufgeteilt in Film und Musik
             if it.get('img') and not it['img']['f'].startswith('/'): it['img']['f'] = '/' + it['img']['f']  # Pfad immer absolut
             if it.get('img') and not os.path.exists(os.path.join(HERE, 'static', it['img']['f'].lstrip('/'))):
@@ -358,7 +440,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
         a = f'<a href="{sec_home(s, l)}"{CUR_P if canon == sec_url(s, l) or (s in SUBS and canon.startswith(sec_url(s, l))) else ""}>{e(SEC[l][s][0])}</a>'
         if s in LSUBS:
             dd = ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if canon == sub_url(s, k, l) else ""}>{e(SUB[l][k][0])}</a>' for k in LSUBS[s])
-            return f'<span class="nav-dd">{a}<span class="dd">{dd}</span></span>'
+            return f'<span class="nav-dd{" dd-wide" if len(LSUBS[s]) > 8 else ""}">{a}<span class="dd">{dd}</span></span>'
         if s not in SUBS: return a
         dd = ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if canon == sub_url(s, k, l) else ""}>{e(SUB[l][k][0])}</a>' for k in SUBS[s])
         return f'<span class="nav-dd">{a}<span class="dd">{dd}</span></span>'
@@ -737,29 +819,49 @@ RUB = {   # eigene Rubriken der Musik-Sparte (Feld "rub" im Item)
             'de': ('Balkan Sound', 'Musik aus Bulgarien und Südosteuropa – von Folk bis Metal.'),
             'en': ('Balkan Sound', 'Music from Bulgaria and South-East Europe – from folk to metal.')},
 }
-MZU = {'bg': dict(plan='Седмичен план', today='днес', days=['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Нд'], chan='Каналите', chn='{n} статии за 7 дни', rub='Само в TWN', newest='Последно:', songs='3 песни на седмицата', week='Седмица', tours='Тур-радар', rel='Календар на изданията', relnote='Според обявите на изпълнители и лейбъли към {d}; възможни са промени.', live='на живо', reissue='преиздание', single='сингъл', ep='EP', box='бокс сет', src='Източници', open='Към канала →', review='Към ревюто →'),
-       'de': dict(plan='Wochenplan', today='heute', days=['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'], chan='Die Kanäle', chn='{n} Beiträge in 7 Tagen', rub='Nur bei TWN', newest='Zuletzt:', songs='3 Songs der Woche', week='Woche', tours='Tour-Radar', rel='Release-Kalender', relnote='Nach Ankündigungen von Künstlern und Labels, Stand {d}; Änderungen möglich.', live='Live', reissue='Neuauflage', single='Single', ep='EP', box='Box-Set', src='Quellen', open='Zum Kanal →', review='Zum Review →'),
-       'en': dict(plan='Weekly plan', today='today', days=['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'], chan='The channels', chn='{n} stories in 7 days', rub='Only on TWN', newest='Latest:', songs='3 songs of the week', week='Week', tours='Tour radar', rel='Release calendar', relnote='Based on artist and label announcements as of {d}; subject to change.', live='live', reissue='reissue', single='single', ep='EP', box='box set', src='Sources', open='Go to channel →', review='Read the review →')}
+MZU = {'bg': dict(plan='Седмичен план', today='днес', days=['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Нд'], chan='Каналите', chn='{n} статии за 7 дни', rub='Само в TWN', newest='Последно:', songs='3 песни на седмицата', week='Седмица', tours='Тур-радар', rel='Календар на изданията', relnote='Според обявите на изпълнители и лейбъли към {d}; възможни са промени.', live='на живо', reissue='преиздание', single='сингъл', ep='EP', box='бокс сет', src='Източници', open='Към канала →', review='Към ревюто →', genres='Жанрове', mgsub='Новини · Класации · Турнета · Нови издания', allg='Всички жанрове', gempty='В категория „{g}“ скоро ще се появят първите материали на редакцията.', glatest='Най-новото от музиката'),
+       'de': dict(plan='Wochenplan', today='heute', days=['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'], chan='Die Kanäle', chn='{n} Beiträge in 7 Tagen', rub='Nur bei TWN', newest='Zuletzt:', songs='3 Songs der Woche', week='Woche', tours='Tour-Radar', rel='Release-Kalender', relnote='Nach Ankündigungen von Künstlern und Labels, Stand {d}; Änderungen möglich.', live='Live', reissue='Neuauflage', single='Single', ep='EP', box='Box-Set', src='Quellen', open='Zum Kanal →', review='Zum Review →', genres='Genres', mgsub='News · Charts · Tourdaten · Releases', allg='Alle Genres', gempty='In der Kategorie „{g}“ erscheinen in Kürze die ersten Beiträge der Redaktion.', glatest='Neueste Musik-Meldungen'),
+       'en': dict(plan='Weekly plan', today='today', days=['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'], chan='The channels', chn='{n} stories in 7 days', rub='Only on TWN', newest='Latest:', songs='3 songs of the week', week='Week', tours='Tour radar', rel='Release calendar', relnote='Based on artist and label announcements as of {d}; subject to change.', live='live', reissue='reissue', single='single', ep='EP', box='box set', src='Sources', open='Go to channel →', review='Read the review →', genres='Genres', mgsub='News · Charts · Tours · Releases', allg='All genres', gempty='The first stories in the “{g}” category will appear here soon.', glatest='Latest music news')}
 def mplan_name(k, l): return SUB[l][k][0] if k in SUB[l] else RUB[k][l][0]
 def mplan_url(k, l): return sub_url('musik', k, l) if k in SUB[l] else None
-def musik_extras(l, its, day0):
-    """Liefert (oben, mitte) für die Musik-Seite: Wochenplan + Kanäle oben; Rubriken, Songs der Woche, Tour-Radar und Release-Kalender in der Mitte."""
+def musik_grid(l, cur=None):
+    """TWN MUSIC: 21 Genres in 3 Reihen zu je 7 (Nedy 26.10.2026). Zähler = Beiträge der letzten 30 Ausgabetage."""
+    Z = MZU[l]; pool = MUSIK.get('all') or []
+    rows = ''
+    for i, (lab, keys) in enumerate(MROWS):
+        tiles = ''
+        for k in keys:
+            n = sum(1 for x in pool if k in m_genres(x))
+            tiles += (f'<a class="mg{" on" if k == cur else ""}{" mg-0" if not n else ""}" href="{sub_url("musik", k, l)}"' + (' aria-current="page"' if k == cur else '') +
+                      f'><b>{e(SUB[l][k][0])}</b>' + (f'<span>{n}</span>' if n else '') + '</a>')
+        rows += f'<div class="mg-row mg-r{i + 1}"><h3>{i + 1:02d} — {e(lab[l])}</h3><div class="mg-tiles">{tiles}</div></div>'
+    allc = ' on' if cur is None else ''
+    return (f'<section class="mg-wrap" aria-label="{e(Z["genres"])}"><div class="mg-head"><p class="mg-kick">TERRA WORLD NEWS</p><p class="mg-brand">MUSIC</p>'
+            f'<p class="mg-sub">{e(Z["mgsub"])}</p><a class="mg-all{allc}" href="{sec_url("musik", l)}">{e(Z["allg"])}</a></div>{rows}</section>')
+def musik_extras(l, its, day0, genre=None):
+    """Liefert (oben, mitte) für die Musik-Seite: Genre-Raster oben; Songs der Woche, Rubriken, Tour-Radar und Release-Kalender in der Mitte.
+    Auf Genre-Seiten (genre=…) nur Raster, Tour-Radar und Release-Kalender dieses Genres."""
     import datetime as _dm
-    Z = MZU[l]; d0 = _dm.date.fromisoformat(day0); wd = d0.weekday()
-    pills = ''
-    for i, k in enumerate(MPLAN):
-        u_ = mplan_url(k, l); nm = e(mplan_name(k, l)); cur = ' on' if i == wd else ''
-        inner = f'<b>{e(Z["days"][i])}</b><span>{nm}</span>' + (f'<i>{e(Z["today"])}</i>' if i == wd else '')
-        pills += (f'<a class="mp-d{cur}" href="{u_}">{inner}</a>' if u_ else f'<div class="mp-d{cur}">{inner}</div>')
-    top = f'<section class="mp-plan" aria-label="{e(Z["plan"])}"><h2 class="gp-h">{e(Z["plan"])}</h2><div class="mp-days">{pills}</div></section>'
-    cut7 = (d0 - _dm.timedelta(days=6)).isoformat()
-    cards = ''
-    for k in LSUBS['musik']:
-        n = sum(1 for x in its if x.get('sub') == k and x['date'] >= cut7)
-        last = next((x for x in sorted(its, key=lambda x: (x['date'], x['time']), reverse=True) if x.get('sub') == k), None)
-        cards += (f'<a class="mc mc-{k}" href="{sub_url("musik", k, l)}"><span class="mc-n">{e(SUB[l][k][0])}</span><span class="mc-c">{e(Z["chn"].format(n=n))}</span>'
-                  + (f'<span class="mc-l">{e(last[l]["t"])}</span>' if last else '') + f'<span class="mc-go">{e(Z["open"])}</span></a>')
-    top += f'<section class="mp-chan"><h2 class="gp-h">{e(Z["chan"])}</h2><div class="mc-grid">{cards}</div></section>'
+    Z = MZU[l]; d0 = _dm.date.fromisoformat(day0)
+    top = musik_grid(l, genre)
+    if genre:
+        mid = ''
+        if not any(genre in m_genres(x) for x in its):   # noch keine Meldung in diesem Genre: Hinweis + neueste Musik-Meldungen aller Genres
+            nw = sorted(MUSIK.get('all') or [], key=lambda x: (x['date'], x['time']), reverse=True)[:6]
+            mid += f'<p class="mg-empty">{e(Z["gempty"].format(g=SUB[l][genre][0]))}</p>'
+            if nw: mid += f'<h2 class="gp-h">{e(Z["glatest"])}</h2><div class="gs-grid">' + ''.join(
+                f'<article class="gs"><a href="{art_url(x, l)}"><div class="gs-img"' + (f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else '') + f'></div>{kick(x, l)}<h3>{e(x[l]["t"])}</h3></a></article>' for x in nw) + '</div>'
+        tw = re.compile(r'tour|konzert|open.air|arena|live', re.I)
+        tours = [x for x in sorted(MUSIK.get('all') or [], key=lambda x: (x['date'], x['time']), reverse=True) if genre in m_genres(x) and not x.get('rv') and not x.get('fest') and (x.get('tour') or tw.search(x['id']))][:8]
+        if tours:
+            tl = ''.join(f'<li><a href="{art_url(x, l)}"><span class="tr-g">{e(SUB[l][x["sub"]][0])}</span><b>{e(x[l]["t"])}</b><time datetime="{x["date"]}">{num_date(x["date"])}</time></a></li>' for x in tours)
+            mid += f'<section class="mp-tour"><h2 class="gp-h">◎ {e(Z["tours"])} · {e(SUB[l][genre][0])}</h2><ul class="tr-list">{tl}</ul></section>'
+        R = MUSIK.get('releases') or {}
+        rr = [r for r in R.get('releases', []) if r['date'] >= day0 and (r.get('g') == genre or genre in (r.get('gs') or []))]
+        if rr:
+            rows = ''.join(f'<li><span class="rl-g">{e(short_date(r["date"], l))}</span><b>{e(r["artist"])}</b> – <i>{e(r["title"])}</i>' + (f' <small>({e(Z.get(r["type"], ""))})</small>' if r.get('type') else '') + '</li>' for r in sorted(rr, key=lambda r: r['date']))
+            mid += f'<section class="mp-rel"><h2 class="gp-h">▤ {e(Z["rel"])} · {e(SUB[l][genre][0])}</h2><div class="rl-day"><ul>{rows}</ul></div><p class="rl-note">{e(Z["relnote"].format(d=short_date(R.get("asof", day0), l)))}</p></section>'
+        return top, mid
     mid = ''
     # Songs der Woche (content/musik/songs.json: neueste Woche, die day0 nicht überschreitet)
     wk = [w for w in (MUSIK.get('songs') or {}).get('weeks', []) if w['from'] <= day0]
@@ -797,14 +899,14 @@ def musik_extras(l, its, day0):
             rows = ''
             for r in [r for r in R['releases'] if r['date'] == dd]:
                 tp = Z.get(r.get('type', ''), '') if r.get('type') else ''
-                rows += (f'<li><span class="rl-g rl-{e(r.get("g", ""))}">{e(SUB[l].get(r.get("g"), ("",))[0])}</span><b>{e(r["artist"])}</b> – <i>{e(r["title"])}</i>'
+                rows += (f'<li><a class="rl-g rl-r{MROW.get(r.get("g"), 0) + 1}" href="{sub_url("musik", r["g"], l) if r.get("g") in MROW else sec_url("musik", l)}">{e(SUB[l].get(r.get("g"), ("",))[0])}</a><b>{e(r["artist"])}</b> – <i>{e(r["title"])}</i>'
                          + (f' <small>({e(tp)})</small>' if tp else '') + '</li>')
             rk += f'<div class="rl-day"><h3>{e(Z["days"][_dm.date.fromisoformat(dd).weekday()])}, {short_date(dd, l)}</h3><ul>{rows}</ul></div>'
         srcs = ''.join(f'<li><a href="{e(x["u"])}" rel="noopener nofollow" target="_blank">{e(x["n"])}</a></li>' for x in R.get('src', []))
         mid += (f'<section class="mp-rel"><h2 class="gp-h">▤ {e(Z["rel"])}</h2><div class="rl-grid">{rk}</div><p class="rl-note">{e(Z["relnote"].format(d=short_date(R.get("asof", day0), l)))}</p>'
                 + (f'<details class="rl-src"><summary>{e(Z["src"])}</summary><ul>{srcs}</ul></details>' if srcs else '') + '</section>')
     return top, mid
-def games_page(l, its, day0, others, SX, kind='games', title=None):
+def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None):
     u = UI[l]; g = dict(GPU[l]); g.update(MPU.get(kind, {}).get(l, {}))
     def cover_style(it):
         im = it.get('img')
@@ -858,7 +960,7 @@ def games_page(l, its, day0, others, SX, kind='games', title=None):
     older = [it for it in its if it not in revs and it not in news and it not in fests]
     html = f'<div class="gp gp-{kind}"><div class="gp-head"><h1 class="gp-title">{e(title or SEC[l][kind][0])}</h1>{gp_slogan(l)}</div>'
     html += '<div class="gp-main"><div class="gp-panel">'
-    if not its: html += f'<p class="gp-empty">{e(u["empty"])}</p>'
+    if not its and not (kind == 'musik' and mgenre): html += f'<p class="gp-empty">{e(u["empty"])}</p>'
     # Breaking News des Tages dieser Rubrik ganz oben (Nedy 24.10.2026: Eilmeldung Binew auch oben unter BULGARIEN)
     brk_top = [it for it in today if it.get('live') and not it.get('yt')] if kind in ('welt', 'europa', 'deutschland', 'bulgarien') else []
     if brk_top:
@@ -869,7 +971,7 @@ def games_page(l, its, day0, others, SX, kind='games', title=None):
                     f'<div class="gr-txt"><a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a><p class="gr-meta">{e(it["time"])}{(" " + u["hour"]) if u["hour"] else ""}</p>'
                     f'<p class="gr-dek">{e(it[l]["d"])}</p><a class="gr-more" href="{art_url(it, l)}">{e(g["more"])}</a></div></article>')
         html += f'<h2 class="gp-h"><b class="brk">{e(u["brk"])}</b></h2>' + ''.join(brk_card(it) for it in brk_top)
-    _mx = musik_extras(l, its, day0) if kind == 'musik' and title is None else ('', '')
+    _mx = musik_extras(l, its, day0, mgenre) if kind == 'musik' and (title is None or mgenre) else ('', '')
     html += _mx[0]
     if revs: html += f'<h2 class="gp-h">▶ {e(g["rev"])}</h2>' + ''.join(review(it) for it in revs)
     html += _mx[1]
@@ -1768,6 +1870,9 @@ def build():
         PER = 60
         for s in SECTIONS:
             its = sorted([it for it in items_l if it['s'] == s or s in also_secs(it)], key=lambda x: (x['date'], x['time']), reverse=True)   # Doppel-Rubrik (z. B. Deutschland–Bulgarien auch unter Bulgarien), Startseite zeigt nur die Hauptrubrik
+            if s == 'musik':  # TWN MUSIC: Genre-Seiten zeigen die letzten 30 Ausgabetage (Zähler, Tour-Radar, Genre-Listen)
+                _kd = sorted({it['date'] for it in its}, reverse=True)[:SUB_KEEP]
+                MUSIK['all'] = [it for it in its if it['date'] in _kd]
             if s in KEEP_DAYS:  # z. B. Games: nur die letzten 5 Ausgabetage auf der Rubrikseite (Artikel bleiben über Suche/Archiv erreichbar)
                 _keep = sorted({it['date'] for it in its}, reverse=True)[:KEEP_DAYS[s]]
                 its = [it for it in its if it['date'] in _keep]
@@ -1926,16 +2031,17 @@ def build():
             if s in LSUBS:  # leichte Unterrubriken: Reiter über der Rubrikseite + eigene Unterseite
                 ltabs = lambda cur: (f'<nav class="subnav" aria-label="{e(SEC[l][s][0])}"><a href="{sec_url(s, l)}"{CUR_P if cur is None else ""}>{e(SP_ALL[l])}</a>'
                                      + ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if cur == k else ""}>{e(SUB[l][k][0])}</a>' for k in LSUBS[s]) + '</nav>')
-                body = ltabs(None) + body
+                if s != 'musik': body = ltabs(None) + body   # Musik: Genre-Raster statt Reiter (seit 26.10.2026)
                 for k in LSUBS[s]:
                     _pool = its
                     if s in MOVE_SUBS:  # Unterseite: eigene, längere Liste (30 Ausgabetage)
                         _all = [it for it in items_l if (it['s'] == s or s in also_secs(it)) and it.get('sub') == k]
                         _kd = sorted({it['date'] for it in _all}, reverse=True)[:SUB_KEEP]
                         _pool = [it for it in _all if it['date'] in _kd]
-                    sits = sorted([it for it in _pool if it.get('sub') == k], key=lambda x: (x['date'], x['time']), reverse=True)
+                    if s == 'musik': _pool = MUSIK.get('all') or its
+                    sits = sorted([it for it in _pool if (k in m_genres(it) if s == 'musik' else it.get('sub') == k)], key=lambda x: (x['date'], x['time']), reverse=True)
                     su = sub_url(s, k, l); title = f'{SEC[l][s][0]} · {SUB[l][k][0]}'
-                    sb = ltabs(k) + (wow_page(l, sits, _others(s), title=SUB[l][k][0], desc=SUB_DESC[k][l], kind='guinness') if k == 'guinness' else games_page(l, sits, sits[0]['date'], _others(s), SX, s, title=SUB[l][k][0]) if sits else
+                    sb = games_page(l, sits, sits[0]['date'] if sits else day0, _others(s), SX, s, title=SUB[l][k][0], mgenre=k) if s == 'musik' else ltabs(k) + (wow_page(l, sits, _others(s), title=SUB[l][k][0], desc=SUB_DESC[k][l], kind='guinness') if k == 'guinness' else games_page(l, sits, sits[0]['date'], _others(s), SX, s, title=SUB[l][k][0]) if sits else
                                      f'<div class="sec-page" style="--c:{SEC_COLOR[s]}"><div class="rail-h sec-head"><h1 class="sec-title">{e(title)}</h1></div><p class="note">{e(u["empty"])}</p></div>')
                     if k == 'liebe' and '<div class="gp-panel">' in sb:  # Kennenlern-Portale oben auf „Liebe & Beziehung“
                         sb = sb.replace('<div class="gp-panel">', '<div class="gp-panel">' + dating_block(l), 1)

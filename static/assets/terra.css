@@ -1173,3 +1173,31 @@ a.mp-d:hover{border-color:#10b981}
 .mc{min-height:120px}.mc-n{font-size:18px}
 }
 @media (max-width:420px){.mr-grid{grid-template-columns:1fr}.mc-l{display:none}.mc{min-height:92px;padding:12px}.mc-n{font-size:16px}}
+/* ---- TWN MUSIC: 21 Genres in 3 Reihen (26.10.2026) */
+.mg-wrap{background:linear-gradient(160deg,#06281d,#04140e 70%);border:1px solid #12382a;border-radius:10px;padding:20px 20px 16px;margin:0 0 26px}
+.mg-head{display:grid;grid-template-columns:1fr auto;align-items:end;gap:2px 16px;margin-bottom:6px}
+.mg-kick{grid-column:1;margin:0;font-family:var(--label);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6ee7b7}
+.mg-brand{grid-column:1;margin:0;font-family:var(--head);font-weight:800;font-size:44px;line-height:1;letter-spacing:.02em;color:#fff}
+.mg-sub{grid-column:1;margin:4px 0 0;font-family:var(--label);font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#a7f3d0}
+.mg-all{grid-column:2;grid-row:1/4;align-self:center;padding:8px 14px;border:1px solid #10b981;border-radius:6px;color:#d1fae5;text-decoration:none;font-size:13px;font-weight:700;white-space:nowrap}
+.mg-all.on,.mg-all:hover{background:#0e9f6e;color:#fff}
+.mg-row{border-top:1px solid #12382a;padding-top:12px;margin-top:12px}
+.mg-row h3{margin:0 0 8px;font-family:var(--label);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:#6ee7b7;font-weight:600}
+.mg-tiles{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px}
+.mg{position:relative;display:flex;align-items:center;justify-content:center;min-height:58px;padding:10px 6px;background:#0b2a20;border:1px solid #14402f;border-radius:6px;color:#fff;text-decoration:none;text-align:center}
+.mg b{font-family:var(--label);font-size:12.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;line-height:1.2}
+.mg span{position:absolute;top:4px;right:6px;font-size:10.5px;color:#6ee7b7;font-weight:600}
+.mg:hover{border-color:#10b981;background:#0e3a2b}
+.mg.on{background:#0e9f6e;border-color:#34d399}
+.mg.on span{color:#ecfdf5}
+.mg-0{opacity:.62}
+.rl-g{text-decoration:none}
+a.rl-g:hover{filter:brightness(1.1)}
+.rl-r1{background:#f9a8d4}.rl-r2{background:#7dd3fc}.rl-r3{background:#fcd34d}
+@media (max-width:1100px){.mg-tiles{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (max-width:760px){.mg-wrap{padding:16px 12px 12px}.mg-brand{font-size:34px}.mg-head{grid-template-columns:1fr}.mg-all{grid-column:1;grid-row:auto;justify-self:start;margin-top:8px}
+.mg-tiles{grid-template-columns:repeat(3,minmax(0,1fr))}.mg{min-height:50px}.mg b{font-size:11.5px}}
+.nav-dd.dd-wide:hover .dd,.nav-dd.dd-wide:focus-within .dd,.nv2 .nav-dd.dd-wide:hover .dd,.nv2 .nav-dd.dd-wide:focus-within .dd{display:grid;grid-template-columns:repeat(3,minmax(150px,1fr));min-width:480px}
+@media (hover:none){.nav-dd.dd-wide .dd{display:none!important}}
+.nav-dd.dd-wide .dd{left:auto;right:0;transform:none}
+.mg-empty{margin:0 0 22px;padding:14px 16px;border-left:3px solid #10b981;background:#0b2a20;color:#d1fae5;font-size:15px}
