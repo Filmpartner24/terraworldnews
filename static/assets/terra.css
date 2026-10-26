@@ -1201,3 +1201,49 @@ a.rl-g:hover{filter:brightness(1.1)}
 @media (hover:none){.nav-dd.dd-wide .dd{display:none!important}}
 .nav-dd.dd-wide .dd{left:auto;right:0;transform:none}
 .mg-empty{margin:0 0 22px;padding:14px 16px;border-left:3px solid #10b981;background:#0b2a20;color:#d1fae5;font-size:15px}
+/* ---- TWN MUSIC Neon-Pop (Nedy 26.10.2026): Pink / Cyan / Gelb auf Nacht-Violett, Collage aus Konzert- und Studiofotos im Kopf */
+.gp-musik{--gx:#ff2fb4;--gy:#22e4ff;--mp:#ff2fb4;--mc:#22e4ff;--my:#ffe14d;--mv:#a855f7}
+.gp-musik .gp-head{position:relative;overflow:hidden;min-height:190px;align-items:flex-end;background:#12022b url(/assets/musik/collage.webp) center/cover no-repeat;border-bottom:4px solid transparent;border-image:linear-gradient(90deg,#ff2fb4,#a855f7,#22e4ff,#ffe14d) 1}
+.gp-musik .gp-head::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(18,2,43,.92) 0%,rgba(18,2,43,.55) 38%,rgba(18,2,43,.15) 70%,rgba(18,2,43,.35) 100%),linear-gradient(0deg,rgba(18,2,43,.75),transparent 55%);z-index:0}
+.gp-musik .gp-head>*{position:relative;z-index:1}
+.gp-musik .gp-title{color:#fff;text-shadow:0 0 4px #fff,0 0 14px #ff2fb4,0 0 32px #ff2fb4,4px 4px 0 #22e4ff;letter-spacing:.06em}
+.gp-musik .gp-panel{background:radial-gradient(900px 420px at 0% 0%,rgba(255,47,180,.16),transparent 60%),radial-gradient(900px 420px at 100% 30%,rgba(34,228,255,.12),transparent 60%),#0d0322}
+.gp-musik .gp-date,.gp-musik .gr-meta,.gp-musik .gs .kick,.gp-musik .ga-panel .kick{color:#f9a8d4}
+.gp-musik .gr{border-bottom-color:#3b1466}
+.gp-musik .gr-score{background:linear-gradient(90deg,#ff2fb4,#a855f7);color:#fff}
+.gp-musik .gp-h{border-left-color:#ff2fb4}
+.gp-musik .gr-badge{background:#ffe14d;color:#1a0433}
+.gp-musik .gr-more{background:linear-gradient(90deg,#ff2fb4,#a855f7);color:#fff}
+.mg-wrap{position:relative;background:linear-gradient(135deg,#1a0540 0%,#0d0322 55%,#08182e 100%);border:0;border-radius:12px;box-shadow:0 0 0 1px #3b1466,0 0 30px rgba(255,47,180,.18)}
+.mg-wrap::before{content:"";position:absolute;inset:0;border-radius:12px;padding:2px;background:linear-gradient(120deg,#ff2fb4,#a855f7,#22e4ff,#ffe14d);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none}
+.mg-kick{color:#22e4ff}
+.mg-brand{background:linear-gradient(90deg,#ff2fb4 0%,#ffe14d 50%,#22e4ff 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 12px rgba(255,47,180,.45));font-style:italic}
+.mg-sub{color:#f9a8d4}
+.mg-all{border-color:#ff2fb4;color:#ffe4f4}
+.mg-all.on,.mg-all:hover{background:linear-gradient(90deg,#ff2fb4,#a855f7);border-color:transparent;color:#fff}
+.mg-row{border-top-color:#3b1466}
+.mg-r1{--rc:#ff2fb4}.mg-r2{--rc:#22e4ff}.mg-r3{--rc:#ffe14d}
+.mg-row h3{color:var(--rc)}
+.mg{background:rgba(255,255,255,.04);border:1px solid color-mix(in srgb,var(--rc) 45%,transparent);transition:transform .12s,box-shadow .12s,background .12s}
+.mg span{color:var(--rc)}
+.mg:hover{background:color-mix(in srgb,var(--rc) 16%,transparent);border-color:var(--rc);box-shadow:0 0 14px color-mix(in srgb,var(--rc) 60%,transparent);transform:translateY(-2px)}
+.mg.on{background:var(--rc);border-color:var(--rc);box-shadow:0 0 18px var(--rc)}
+.mg.on b,.mg.on span{color:#1a0433}
+.mg-0{opacity:.5}
+.mg-empty{border-left-color:#ff2fb4;background:#1a0540;color:#ffe4f4}
+.mg-cr{margin:12px 0 0;font-size:11px;line-height:1.4;color:#a78bfa}
+.mg-cr a{color:#c4b5fd}
+.tr-g,.rl-g{background:#ff2fb4;color:#fff}
+.rl-r1{background:#ff2fb4;color:#fff}.rl-r2{background:#22e4ff;color:#1a0433}.rl-r3{background:#ffe14d;color:#1a0433}
+.tr-list li,.rl-day li{border-bottom-color:#3b1466}
+.tr-list time,.gp-h small{color:#f9a8d4}
+.rl-day h3{color:#22e4ff}
+.mr{border-color:#3b1466;border-top-color:#ffe14d;background:#14042e}
+.mr a span{color:#ffe14d}
+.sow-yt{background-color:#1a0540}
+.gp-musik .yt-play{background:#ff2fb4}
+@media (max-width:760px){.gp-musik .gp-head{min-height:140px}}
+.gp-musik.ga .gp-head,.gp-musik.mr-head .gp-head{min-height:0;background:linear-gradient(100deg,#12022b 0%,#3b0a6b 55%,#a3157a 100%)}
+.gp-musik.ga .gp-head::before,.gp-musik.mr-head .gp-head::before{display:none}
+.mg{padding:16px 8px 10px}
+.mg{padding:20px 8px 10px}.mg.on{opacity:1}

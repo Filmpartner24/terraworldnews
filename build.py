@@ -166,18 +166,18 @@ SUB_DESC = {
          'en': 'MMA: UFC, PFL, ONE Championship and OKTAGON – champions, upcoming fights, results and news.'},
 }
 # ---- TWN MUSIC (seit 26.10.2026, Nedy): 21 Genre-Kategorien in 3 Reihen zu je 7. Feld "sub" = Hauptgenre, optional "subs" = weitere Genres.
-MROWS = [
- ({'de': 'Modern & Mainstream', 'bg': 'Модерна и мейнстрийм', 'en': 'Modern & mainstream'}, ['pop', 'deutschpop', 'rock', 'metal', 'hiphop', 'rnbsoul', 'indie']),
- ({'de': 'Electronic & International', 'bg': 'Електронна и международна', 'en': 'Electronic & international'}, ['electronic', 'dance', 'latin', 'reggae', 'popfolk', 'country', 'folk']),
- ({'de': 'Tradition & Kultur', 'bg': 'Традиция и култура', 'en': 'Tradition & culture'}, ['schlager', 'jazz', 'blues', 'klassik', 'filmmusik', 'world', 'punk']),
+MROWS = [   # Reihenfolge nach Nedy 26.10.2026: Rock zuerst, Deutschrock & Pop neben Schlager unten
+ ({'de': 'Rock & Pop', 'bg': 'Рок и поп', 'en': 'Rock & pop'}, ['rock', 'metal', 'indie', 'pop', 'hiphop', 'rnbsoul', 'punk']),
+ ({'de': 'Electronic & International', 'bg': 'Електронна и международна', 'en': 'Electronic & international'}, ['electronic', 'dance', 'latin', 'reggae', 'country', 'folk', 'world']),
+ ({'de': 'Deutsch, Balkan & Klassik', 'bg': 'Немска, балканска и класическа', 'en': 'German, Balkan & classical'}, ['schlager', 'deutschpop', 'popfolk', 'jazz', 'blues', 'klassik', 'filmmusik']),
 ]
 MGEN = [k for _r in MROWS for k in _r[1]]
 MROW = {k: i for i, _r in enumerate(MROWS) for k in _r[1]}
 _MG = {  # key: (DE, BG, EN, slug DE, slug BG, slug EN, Beschreibung DE, BG, EN)
  'pop': ('Pop', 'Поп', 'Pop', 'pop', 'pop', 'pop',
          'Internationaler Pop: neue Alben und Singles, Musikvideos, Chart-News und Tourneen der großen Popstars.', 'Международен поп: нови албуми и сингли, видеоклипове, новини от класациите и турнета на големите поп звезди.', 'International pop: new albums and singles, music videos, chart news and tours by the big pop stars.'),
- 'deutschpop': ('Deutsch-Pop', 'Немски поп', 'German pop', 'deutsch-pop', 'nemski-pop', 'german-pop',
-                'Deutsch-Pop: deutschsprachige Popmusik und Singer-Songwriter – Alben, Charts, Videos und Tourneen in Deutschland, Österreich und der Schweiz.', 'Немски поп: поп музика на немски език и автори-изпълнители – албуми, класации, видеоклипове и турнета в Германия, Австрия и Швейцария.', 'German pop: German-language pop and singer-songwriters – albums, charts, videos and tours in Germany, Austria and Switzerland.'),
+ 'deutschpop': ('Deutschrock & Pop', 'Немски рок и поп', 'German rock & pop', 'deutschrock-pop', 'nemski-rok-i-pop', 'german-rock-pop',
+                'Deutschrock & Pop: deutschsprachiger Rock, Pop und Singer-Songwriter – Alben, Charts, Videos und Tourneen in Deutschland, Österreich und der Schweiz.', 'Немски рок и поп: рок и поп на немски език и автори-изпълнители – албуми, класации, видеоклипове и турнета в Германия, Австрия и Швейцария.', 'German rock & pop: German-language rock, pop and singer-songwriters – albums, charts, videos and tours in Germany, Austria and Switzerland.'),
  'rock': ('Rock', 'Рок', 'Rock', 'rock', 'rok', 'rock',
           'Rock: Classic Rock, Hard Rock und Stadionrock – Album-Reviews, Musikvideos, Tourdaten und Festivals.', 'Рок: класически рок, хард рок и стадионен рок – ревюта на албуми, видеоклипове, турнета и фестивали.', 'Rock: classic rock, hard rock and stadium rock – album reviews, music videos, tour dates and festivals.'),
  'metal': ('Metal', 'Метъл', 'Metal', 'metal', 'metal', 'metal',
@@ -231,7 +231,7 @@ def sec_desc(s, l, fallback):
     d = SEO_DESC.get(s)
     return d[l] if d else fallback
 
-SEC_COLOR = {'welt': 'var(--cobalt)', 'europa': '#5b3fc4', 'deutschland': 'var(--muted)', 'bulgarien': 'var(--teal)', 'usa': '#b23a48', 'ki': '#0f7c9c', 'wirtschaft': 'var(--sand)', 'business': '#0a7d5a', 'auto': '#b8860b', 'klima': '#2f8a4a', 'ai': '#06b6d4', 'energie': '#d97706', 'kultur': 'var(--signal)', 'games': '#7b2cbf', 'film': '#d62839', 'musik': '#0e9f6e', 'mode': '#c2185b', 'sport': '#e85d04', 'leben': '#c26a00', 'wow': '#ff2d55'}
+SEC_COLOR = {'welt': 'var(--cobalt)', 'europa': '#5b3fc4', 'deutschland': 'var(--muted)', 'bulgarien': 'var(--teal)', 'usa': '#b23a48', 'ki': '#0f7c9c', 'wirtschaft': 'var(--sand)', 'business': '#0a7d5a', 'auto': '#b8860b', 'klima': '#2f8a4a', 'ai': '#06b6d4', 'energie': '#d97706', 'kultur': 'var(--signal)', 'games': '#7b2cbf', 'film': '#d62839', 'musik': '#ff2fb4', 'mode': '#c2185b', 'sport': '#e85d04', 'leben': '#c26a00', 'wow': '#ff2d55'}
 NEWS_DIR = {'bg': 'novini', 'de': 'nachrichten', 'en': 'news'}
 WEEKDAYS = {'bg': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък', 'събота', 'неделя'], 'de': ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag'], 'en': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']}
 MONTHS = {'bg': ['януари', 'февруари', 'март', 'април', 'май', 'юни', 'юли', 'август', 'септември', 'октомври', 'ноември', 'декември'], 'de': ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'], 'en': ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']}
@@ -264,7 +264,7 @@ _BER_T = re.compile(r'^(Berlin|Berliner|Neukölln|Kreuzberg|Friedrichshain|Licht
 MUSIC_KW = {   # Musik-Genres (21, seit 26.10.2026): Schlagwörter – frühester Treffer in Genre-Angabe (rv.pf) bzw. Titel/Teaser entscheidet
  'popfolk': ['pop-folk', 'popfolk', 'chalga', 'чалга', 'turbo-folk', 'turbofolk', 'manele', 'laiko', 'laïko', 'попфолк', 'azis', 'preslava', 'преслава', 'andrea (bulgarische', 'galena', 'payner', 'пайнер'],
  'schlager': ['schlager', 'helene fischer', 'andrea berg', 'gabalier', 'silbereisen', 'roland kaiser', 'beatrice egli', 'vanessa mai', 'kerstin ott', 'semino rossi', 'howard carpendale', 'ben zucker', 'giovanni zarrella', 'wolfgang petry', 'nicole', 'matthias reim'],
- 'deutschpop': ['alexander eder', 'no angels', 'söhne mannheims', 'blackout problems', 'jennifer rostock', 'deutschpop', 'deutsch-pop', 'deutschsprachiger pop', 'philipp poisel', 'mark forster', 'max giesinger', 'tim bendzko', 'lea', 'leslie clio', 'johannes oerding', 'nina chuba', 'wincent weiss', 'clueso', 'silbermond', 'revolverheld', 'sarah connor', 'lina', 'soffie', 'tokio hotel', 'bosse', 'peter maffay', 'wanda', 'betterov', 'annenmaykantereit'],
+ 'deutschpop': ['deutschrock', 'deutsch-rock', 'grönemeyer', 'westernhagen', 'udo lindenberg', 'kraftklub', 'provinz', 'pohlmann', 'alexander eder', 'no angels', 'söhne mannheims', 'blackout problems', 'jennifer rostock', 'deutschpop', 'deutsch-pop', 'deutschsprachiger pop', 'philipp poisel', 'mark forster', 'max giesinger', 'tim bendzko', 'lea', 'leslie clio', 'johannes oerding', 'nina chuba', 'wincent weiss', 'clueso', 'silbermond', 'revolverheld', 'sarah connor', 'lina', 'soffie', 'tokio hotel', 'bosse', 'peter maffay', 'wanda', 'betterov', 'annenmaykantereit'],
  'filmmusik': ['filmmusik', 'soundtrack', 'film score', 'score', 'filmkomponist', 'hans zimmer', 'john williams', 'hildur', 'ludwig göransson', 'howard shore', 'stranger things'],
  'klassik': ['bocelli', 'igor levit', 'andré rieu', 'andre rieu', 'max richter', 'geigerin', 'klassik', 'classical', 'neoklassik', 'neo-classical', 'orchester', 'orchestra', 'oper', 'opera', 'symphon', 'philharmon', 'pianist', 'dirigent', 'deutsche grammophon', 'geiger', 'cellist'],
  'jazz': ['jazz', 'big band', 'bebop', 'swing'],
@@ -798,7 +798,7 @@ def gp_slogan(l):  # Slogan rechts im Rubrik-Kopf (statt Datum)
 # ---- Musik-Sparte (seit 24.10.2026): Wochenplan der Kanäle, Rubriken, Songs der Woche, Tour-Radar, Release-Kalender
 MUSIK = {}   # content/musik/releases.json, content/musik/songs.json
 def load_musik():
-    for n in ('releases', 'songs'):
+    for n in ('releases', 'songs', 'collage'):
         fp = os.path.join(HERE, 'content', 'musik', n + '.json')
         if os.path.exists(fp): MUSIK[n] = json.load(open(fp, encoding='utf-8'))
 MPLAN = ['rockmetal', 'poprnb', 'electronic', 'filmclassic', 'folkroots', 'rueckblick', 'longread']   # Mo … So
@@ -836,8 +836,11 @@ def musik_grid(l, cur=None):
                       f'><b>{e(SUB[l][k][0])}</b>' + (f'<span>{n}</span>' if n else '') + '</a>')
         rows += f'<div class="mg-row mg-r{i + 1}"><h3>{i + 1:02d} — {e(lab[l])}</h3><div class="mg-tiles">{tiles}</div></div>'
     allc = ' on' if cur is None else ''
+    C = (MUSIK.get('collage') or {}).get('photos') or []
+    crl = ({'bg': 'Колаж в заглавието', 'de': 'Collage im Kopf', 'en': 'Header collage'}[l] + ': ' + ' · '.join(f'<a href="{e(x["page"])}" rel="noopener nofollow" target="_blank">{e(x["art"])}</a> ({e(x["lic"])})' for x in C)
+           + {'bg': ' – Wikimedia Commons, изрязани и оцветени; колажът е под лиценз CC BY-SA 4.0', 'de': ' – Wikimedia Commons, zugeschnitten und eingefärbt; Collage unter CC BY-SA 4.0', 'en': ' – Wikimedia Commons, cropped and recoloured; collage licensed CC BY-SA 4.0'}[l]) if C else ''
     return (f'<section class="mg-wrap" aria-label="{e(Z["genres"])}"><div class="mg-head"><p class="mg-kick">TERRA WORLD NEWS</p><p class="mg-brand">MUSIC</p>'
-            f'<p class="mg-sub">{e(Z["mgsub"])}</p><a class="mg-all{allc}" href="{sec_url("musik", l)}">{e(Z["allg"])}</a></div>{rows}</section>')
+            f'<p class="mg-sub">{e(Z["mgsub"])}</p><a class="mg-all{allc}" href="{sec_url("musik", l)}">{e(Z["allg"])}</a></div>{rows}' + (f'<p class="mg-cr">{crl}</p>' if crl else '') + '</section>')
 def musik_extras(l, its, day0, genre=None):
     """Liefert (oben, mitte) für die Musik-Seite: Genre-Raster oben; Songs der Woche, Rubriken, Tour-Radar und Release-Kalender in der Mitte.
     Auf Genre-Seiten (genre=…) nur Raster, Tour-Radar und Release-Kalender dieses Genres."""
