@@ -798,7 +798,7 @@ def gp_slogan(l):  # Slogan rechts im Rubrik-Kopf (statt Datum)
 # ---- Musik-Sparte (seit 24.10.2026): Wochenplan der Kanäle, Rubriken, Songs der Woche, Tour-Radar, Release-Kalender
 MUSIK = {}   # content/musik/releases.json, content/musik/songs.json
 def load_musik():
-    for n in ('releases', 'songs', 'collage'):
+    for n in ('releases', 'songs', 'collage', 'popfolk-stars'):
         fp = os.path.join(HERE, 'content', 'musik', n + '.json')
         if os.path.exists(fp): MUSIK[n] = json.load(open(fp, encoding='utf-8'))
 MPLAN = ['rockmetal', 'poprnb', 'electronic', 'filmclassic', 'folkroots', 'rueckblick', 'longread']   # Mo … So
@@ -865,7 +865,7 @@ def musik_extras(l, its, day0, genre=None):
             rows = ''.join(f'<li><span class="rl-g">{e(short_date(r["date"], l))}</span><b>{e(r["artist"])}</b> – <i>{e(r["title"])}</i>' + (f' <small>({e(Z.get(r["type"], ""))})</small>' if r.get('type') else '') + '</li>' for r in sorted(rr, key=lambda r: r['date']))
             mid += f'<section class="mp-rel"><h2 class="gp-h">▤ {e(Z["rel"])} · {e(SUB[l][genre][0])}</h2><div class="rl-day"><ul>{rows}</ul></div><p class="rl-note">{e(Z["relnote"].format(d=short_date(R.get("asof", day0), l)))}</p></section>'
         return top, mid
-    mid = ''
+    mid = popfolk_teaser(l, MUSIK.get('all') or [])
     # Songs der Woche (content/musik/songs.json: neueste Woche, die day0 nicht überschreitet)
     wk = [w for w in (MUSIK.get('songs') or {}).get('weeks', []) if w['from'] <= day0]
     if wk:
@@ -909,6 +909,82 @@ def musik_extras(l, its, day0, genre=None):
         mid += (f'<section class="mp-rel"><h2 class="gp-h">▤ {e(Z["rel"])}</h2><div class="rl-grid">{rk}</div><p class="rl-note">{e(Z["relnote"].format(d=short_date(R.get("asof", day0), l)))}</p>'
                 + (f'<details class="rl-src"><summary>{e(Z["src"])}</summary><ul>{srcs}</ul></details>' if srcs else '') + '</section>')
     return top, mid
+# ---- POP-FOLK (Nedy 26.10.2026): eigene, üppige Genre-Seite mit 7 Ländern, Videos, Boulevard und Stars. Items aus content/<datum>-popfolk.json (Feld "pfk": "video" | "news" | "boulevard", "land").
+PF_LANDS = [  # (Code, Flagge, Land DE/BG/EN, Stil DE/BG/EN)
+ ('bg', '🇧🇬', ('Bulgarien', 'България', 'Bulgaria'), ('Chalga', 'Чалга', 'Chalga')),
+ ('rs', '🇷🇸', ('Serbien', 'Сърбия', 'Serbia'), ('Turbo-Folk', 'Турбофолк', 'Turbo-folk')),
+ ('ro', '🇷🇴', ('Rumänien', 'Румъния', 'Romania'), ('Manele', 'Манеле', 'Manele')),
+ ('gr', '🇬🇷', ('Griechenland', 'Гърция', 'Greece'), ('Modern Laïko & Skiladiko', 'Модерно лайко и скиладико', 'Modern laïko & skyladiko')),
+ ('tr', '🇹🇷', ('Türkei', 'Турция', 'Turkey'), ('Arabesk-Pop', 'Арабеск поп', 'Arabesque pop')),
+ ('al', '🇦🇱🇽🇰', ('Albanien & Kosovo', 'Албания и Косово', 'Albania & Kosovo'), ('Tallava', 'Талава', 'Tallava')),
+ ('ba', '🇧🇦', ('Bosnien und Herzegowina', 'Босна и Херцеговина', 'Bosnia and Herzegovina'), ('Turbo-Folk & Sevdah-Fusion', 'Турбофолк и севдах фюжън', 'Turbo-folk & sevdah fusion')),
+]
+_LI = {'de': 0, 'bg': 1, 'en': 2}
+PFU = {'de': dict(tag='Chalga · Turbo-Folk · Manele · Laïko · Arabesk · Tallava · Sevdah', vids='Videos des Tages', boul='Boulevard', stars='Die Stars', lands='Sieben Länder, ein Sound', news='Pop-Folk-News', more='Weitere Meldungen', nolands='Hier erscheinen in Kürze Meldungen aus {x}.', mv='Musikvideo', live='Live', play='▶ Video abspielen', read='Weiterlesen →', star_cr='Fotos: Wikimedia Commons, zugeschnitten; die Collage im Kopf der Seite ist aus diesen Fotos zusammengesetzt und eingefärbt (CC BY-SA 4.0).'),
+       'bg': dict(tag='Чалга · Турбофолк · Манеле · Лайко · Арабеск · Талава · Севдах', vids='Видеата на деня', boul='Клюки', stars='Звездите', lands='Седем държави, един звук', news='Новини от попфолка', more='Още новини', nolands='Скоро тук ще се появят новини от {x}.', mv='Видеоклип', live='На живо', play='▶ Пусни видеото', read='Прочети →', star_cr='Снимки: Wikimedia Commons, изрязани; колажът в горната част на страницата е съставен от тези снимки и оцветен (CC BY-SA 4.0).'),
+       'en': dict(tag='Chalga · Turbo-folk · Manele · Laïko · Arabesque · Tallava · Sevdah', vids='Videos of the day', boul='Gossip', stars='The stars', lands='Seven countries, one sound', news='Pop-folk news', more='More stories', nolands='Stories from {x} will appear here soon.', mv='Music video', live='Live', play='▶ Play video', read='Read more →', star_cr='Photos: Wikimedia Commons, cropped; the header collage is assembled from these photos and recoloured (CC BY-SA 4.0).')}
+def pf_land(it):
+    return next((x for x in PF_LANDS if x[0] == it.get('land')), None)
+def popfolk_page(l, its, day0, others, SX):
+    """Pop-Folk-Genre-Seite: Hero, Länder-Chips, 3 Videos, Boulevard, Stars, Länder-Blöcke, News, Genre-Raster."""
+    P = PFU[l]; li = _LI[l]; u = UI[l]
+    its = sorted(its, key=lambda x: (x['date'], x['time']), reverse=True)
+    def bg(it): return f' style="background-image:url({it["img"]["f"]})"' if it.get('img') else ''
+    def flag(it):
+        x = pf_land(it); return f'<span class="pf-flag" title="{e(x[2][li])}">{x[1]} {e(x[3][li])}</span>' if x else ''
+    def card(it, big=False):
+        return (f'<article class="pf-card{" pf-big" if big else ""}"><a href="{art_url(it, l)}"><div class="pf-img"{bg(it)}>' + ('<span class="pf-play" aria-hidden="true">▶</span>' if it.get('yt') else '') +
+                f'</div><div class="pf-txt">{flag(it)}<h3>{e(it[l]["t"])}</h3>' + (f'<p>{e(it[l]["d"])}</p>' if big else '') + '</div></a></article>')
+    used = set()
+    vids = [x for x in its if x.get('yt')][:3]; used |= {x['id'] for x in vids}
+    boul = [x for x in its if x.get('pfk') == 'boulevard' and x['id'] not in used][:6]; used |= {x['id'] for x in boul}
+    # Hero
+    chips = ''.join(f'<a class="pf-chip" href="#pf-{c}"><b>{fl}</b><span>{e(n[li])}</span><i>{e(s[li])}</i></a>' for c, fl, n, s in PF_LANDS)
+    html = (f'<div class="gp gp-musik gp-popfolk"><div class="pf-hero"><p class="pf-kick">TWN MUSIC</p><h1 class="pf-title">{e(SUB[l]["popfolk"][0])}</h1>'
+            f'<p class="pf-tag">{e(P["tag"])}</p></div><div class="gp-main"><div class="gp-panel">'
+            f'<nav class="pf-chips" aria-label="{e(P["lands"])}">{chips}</nav>')
+    # Videos des Tages
+    if vids:
+        vc = ''
+        for it in vids:
+            v = it['yt'] if isinstance(it['yt'], dict) else it['yt'][0]
+            im = it.get('img'); cr = f'<p class="gr-cr">{credit(im, l, True)}</p>' if im else ''
+            kind = P['live'] if it.get('vk') == 'live' else P['mv']
+            vc += (f'<article class="pf-vid"><div class="yt gr-yt" data-yt="{e(v["id"])}"{bg(it)}><span class="gr-badge">{e(kind)}</span>'
+                   f'<button type="button" class="yt-play">{e(P["play"])}</button><span class="yt-note">{e(u["ytnote"])}</span></div>{cr}'
+                   f'<div class="pf-txt">{flag(it)}<a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a><p>{e(it[l]["d"])}</p><p class="gr-yt-src">YouTube · {ch_html(v.get("ch", ""))}</p></div></article>')
+        html += f'<h2 class="pf-h">▶ {e(P["vids"])}</h2><div class="pf-vids">{vc}</div>'
+    if boul: html += f'<h2 class="pf-h pf-h-b">✦ {e(P["boul"])}</h2><div class="pf-grid pf-boul">' + ''.join(card(x, i < 2) for i, x in enumerate(boul)) + '</div>'
+    # Stars (content/musik/popfolk-stars.json)
+    stars = (MUSIK.get('popfolk-stars') or {}).get('stars') or []
+    if stars:
+        sc = ''
+        for s in stars:
+            x = next((y for y in PF_LANDS if y[0] == s.get('land')), None)
+            sc += (f'<figure class="pf-star"><div class="pf-star-img" style="background-image:url({e(s["f"])})"></div><figcaption><b>{e(s["name"])}</b>'
+                   + (f'<span>{x[1]} {e(x[3][li])}</span>' if x else '') + f'<small><a href="{e(s["page"])}" rel="noopener nofollow" target="_blank">{e(s["art"])}</a>, {e(s["lic"])}</small></figcaption></figure>')
+        html += f'<h2 class="pf-h">★ {e(P["stars"])}</h2><div class="pf-stars">{sc}</div><p class="mg-cr">{e(P["star_cr"])}</p>'
+    # Länder-Blöcke
+    html += f'<h2 class="pf-h">{e(P["lands"])}</h2>'
+    for c, fl, n, s in PF_LANDS:
+        li_its = [x for x in its if x.get('land') == c and x['id'] not in used][:4]
+        used |= {x['id'] for x in li_its}
+        body = ('<div class="pf-grid">' + ''.join(card(x) for x in li_its) + '</div>') if li_its else f'<p class="pf-none">{e(P["nolands"].format(x=n[li]))}</p>'
+        html += f'<section class="pf-land" id="pf-{c}"><h3 class="pf-lh"><b>{fl}</b> {e(n[li])} <i>{e(s[li])}</i></h3>{body}</section>'
+    rest = [x for x in its if x['id'] not in used][:12]
+    if rest: html += f'<h2 class="pf-h">{e(P["more"])}</h2><div class="pf-grid">' + ''.join(card(x) for x in rest) + '</div>'
+    html += musik_grid(l, 'popfolk')
+    html += f'</div><aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{others}</aside></div></div>'
+    return html
+def popfolk_teaser(l, its):
+    """Block „Pop-Folk“ auf der Musik-Startseite: die 4 neuesten Pop-Folk-Meldungen."""
+    pf = sorted([x for x in its if x.get('pfk')], key=lambda x: (x['date'], x['time']), reverse=True)[:4]
+    if not pf: return ''
+    P = PFU[l]
+    cards = ''.join(f'<article class="pf-card"><a href="{art_url(x, l)}"><div class="pf-img"' + (f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else '') + '>'
+                    + ('<span class="pf-play" aria-hidden="true">▶</span>' if x.get('yt') else '') + f'</div><div class="pf-txt"><h3>{e(x[l]["t"])}</h3></div></a></article>' for x in pf)
+    return (f'<section class="pf-teaser"><h2 class="pf-h"><a href="{sub_url("musik", "popfolk", l)}">♛ {e(SUB[l]["popfolk"][0])}</a> <small>{e(P["tag"])}</small></h2>'
+            f'<div class="pf-grid">{cards}</div></section>')
 def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None):
     u = UI[l]; g = dict(GPU[l]); g.update(MPU.get(kind, {}).get(l, {}))
     def cover_style(it):
@@ -1951,7 +2027,7 @@ def build():
                 body = (f'<div class="sec-page" style="--c:{SEC_COLOR[s]}">{head}{extra}<div class="sec-main"><div class="sec-list"><h2 class="list-h">{e(SX["latest"])}</h2>{daylist(front)}{more}</div>'
                         f'<aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{others}</aside></div></div>')
                 if s in MEDIA:
-                    body = games_page(l, [x for x in its if not (s in MOVE_SUBS and x.get('sub') in LSUBS.get(s, ()))] or its, day0, others, SX, s)
+                    body = games_page(l, [x for x in its if not (s in MOVE_SUBS and x.get('sub') in LSUBS.get(s, ())) and not (s == 'musik' and x.get('pfk'))] or its, day0, others, SX, s)   # Pop-Folk-Meldungen (eigene Aufgabe) nur als Block auf der Musik-Seite
                     if s == 'mode': body = body.replace('<div class="gp-panel">', '<div class="gp-panel">' + trend_block(l), 1)   # „Im Trend“ oben auf der Mode-Seite
                     pages = []
                 for n, pit in enumerate(pages, start=2):
@@ -2044,7 +2120,7 @@ def build():
                     if s == 'musik': _pool = MUSIK.get('all') or its
                     sits = sorted([it for it in _pool if (k in m_genres(it) if s == 'musik' else it.get('sub') == k)], key=lambda x: (x['date'], x['time']), reverse=True)
                     su = sub_url(s, k, l); title = f'{SEC[l][s][0]} · {SUB[l][k][0]}'
-                    sb = games_page(l, sits, sits[0]['date'] if sits else day0, _others(s), SX, s, title=SUB[l][k][0], mgenre=k) if s == 'musik' else ltabs(k) + (wow_page(l, sits, _others(s), title=SUB[l][k][0], desc=SUB_DESC[k][l], kind='guinness') if k == 'guinness' else games_page(l, sits, sits[0]['date'], _others(s), SX, s, title=SUB[l][k][0]) if sits else
+                    sb = (popfolk_page(l, sits, day0, _others(s), SX) if k == 'popfolk' else games_page(l, sits, sits[0]['date'] if sits else day0, _others(s), SX, s, title=SUB[l][k][0], mgenre=k)) if s == 'musik' else ltabs(k) + (wow_page(l, sits, _others(s), title=SUB[l][k][0], desc=SUB_DESC[k][l], kind='guinness') if k == 'guinness' else games_page(l, sits, sits[0]['date'], _others(s), SX, s, title=SUB[l][k][0]) if sits else
                                      f'<div class="sec-page" style="--c:{SEC_COLOR[s]}"><div class="rail-h sec-head"><h1 class="sec-title">{e(title)}</h1></div><p class="note">{e(u["empty"])}</p></div>')
                     if k == 'liebe' and '<div class="gp-panel">' in sb:  # Kennenlern-Portale oben auf „Liebe & Beziehung“
                         sb = sb.replace('<div class="gp-panel">', '<div class="gp-panel">' + dating_block(l), 1)

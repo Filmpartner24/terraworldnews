@@ -1247,3 +1247,53 @@ a.rl-g:hover{filter:brightness(1.1)}
 .gp-musik.ga .gp-head::before,.gp-musik.mr-head .gp-head::before{display:none}
 .mg{padding:16px 8px 10px}
 .mg{padding:20px 8px 10px}.mg.on{opacity:1}
+/* ---- POP-FOLK (Nedy 26.10.2026): Glamour – Schwarz, Magenta, Gold */
+.gp-popfolk{--gold:linear-gradient(90deg,#f7d774,#ffefa8 35%,#c8932a 70%,#f7d774);--pm:#ff1f8f}
+.pf-hero{position:relative;overflow:hidden;min-height:260px;padding:28px 28px 22px;border-radius:6px 6px 0 0;display:flex;flex-direction:column;justify-content:flex-end;
+ background:#0a0006 url(/assets/musik/popfolk-hero.webp) center/cover no-repeat;border-bottom:4px solid transparent;border-image:var(--gold) 1}
+.pf-hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,0,6,.92) 0%,rgba(10,0,6,.55) 45%,rgba(120,0,60,.25) 100%),linear-gradient(0deg,rgba(10,0,6,.85),transparent 60%)}
+.pf-hero::after{content:"";position:absolute;inset:0;background-image:radial-gradient(circle,rgba(255,239,168,.9) 0 1.2px,transparent 1.6px),radial-gradient(circle,rgba(255,31,143,.8) 0 1px,transparent 1.4px);background-size:38px 38px,57px 57px;background-position:0 0,19px 23px;opacity:.35;mix-blend-mode:screen}
+.pf-hero>*{position:relative;z-index:1}
+.pf-kick{margin:0;font-family:var(--label);font-size:12px;letter-spacing:.18em;color:#ffefa8;text-transform:uppercase}
+.pf-title{margin:4px 0 6px;font-family:var(--head);font-weight:800;font-style:italic;font-size:clamp(48px,8vw,92px);line-height:.95;text-transform:uppercase;letter-spacing:.02em;
+ background:var(--gold);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 14px rgba(255,31,143,.75)) drop-shadow(0 2px 0 #7a0040)}
+.pf-tag{margin:0;font-family:var(--label);font-size:14px;letter-spacing:.08em;color:#ffd1ea}
+.gp-popfolk .gp-panel{background:radial-gradient(700px 380px at 0% 0%,rgba(255,31,143,.22),transparent 60%),radial-gradient(700px 380px at 100% 40%,rgba(247,215,116,.12),transparent 60%),#0a0006}
+.pf-chips{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px;margin:4px 0 22px}
+.pf-chip{display:flex;flex-direction:column;align-items:center;gap:2px;padding:10px 6px;border-radius:999px 999px 14px 14px;background:linear-gradient(180deg,#2a0016,#120009);border:1px solid #5c1038;color:#fff;text-decoration:none;text-align:center}
+.pf-chip b{font-size:24px;line-height:1}.pf-chip span{font-family:var(--label);font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:.04em}.pf-chip i{font-style:normal;font-size:11px;color:#f7d774}
+.pf-chip:hover{border-color:#f7d774;box-shadow:0 0 16px rgba(255,31,143,.55);transform:translateY(-2px)}
+.pf-h{font-family:var(--head);font-size:26px;text-transform:uppercase;letter-spacing:.03em;color:#fff;margin:26px 0 12px;padding-left:12px;border-left:5px solid #ff1f8f}
+.pf-h a{color:#fff;text-decoration:none}.pf-h small{font-family:var(--body);font-size:13px;text-transform:none;letter-spacing:0;color:#f7d774;margin-left:8px;font-weight:400}
+.pf-h-b{background:var(--gold);-webkit-background-clip:text;background-clip:text;color:transparent;border-left-color:#f7d774}
+.pf-vids{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:16px}
+.pf-vid .gr-yt{aspect-ratio:16/9;border-radius:8px;box-shadow:0 0 0 2px #ff1f8f,0 10px 30px rgba(255,31,143,.3)}
+.pf-vid .gr-badge{background:var(--gold);color:#3a0020}
+.pf-vid .yt-play{background:#ff1f8f}
+.pf-vid h3{font-family:var(--head);font-size:20px;line-height:1.15;color:#fff;margin:6px 0 4px}.pf-vid p{font-size:14px;line-height:1.45;color:#f3d6e6;margin:0 0 6px}
+.pf-vid a{text-decoration:none}
+.pf-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.pf-card a{display:block;color:#fff;text-decoration:none;height:100%;background:#16000c;border:1px solid #3d0a24;border-radius:8px;overflow:hidden;transition:transform .12s,box-shadow .12s}
+.pf-card a:hover{transform:translateY(-3px);box-shadow:0 0 0 1px #ff1f8f,0 10px 26px rgba(255,31,143,.35)}
+.pf-img{position:relative;aspect-ratio:4/5;background:#2a0016 center/cover no-repeat}
+.pf-img::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(10,0,6,.85),transparent 55%)}
+.pf-play{position:absolute;z-index:1;top:10px;right:10px;width:34px;height:34px;border-radius:50%;background:#ff1f8f;color:#fff;display:flex;align-items:center;justify-content:center;font-size:14px}
+.pf-txt{padding:10px 12px 12px}
+.pf-card h3{font-family:var(--head);font-size:17px;line-height:1.2;margin:4px 0 0}
+.pf-card p{font-size:13.5px;line-height:1.4;color:#f3d6e6;margin:6px 0 0}
+.pf-big{grid-column:span 2}.pf-big .pf-img{aspect-ratio:16/10}.pf-big h3{font-size:22px}
+.pf-flag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#f7d774}
+.pf-stars{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(150px,1fr);gap:12px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory}
+.pf-star{margin:0;scroll-snap-align:start;background:#16000c;border-radius:10px;overflow:hidden;border:1px solid #3d0a24}
+.pf-star-img{aspect-ratio:3/4;background:#2a0016 center 20%/cover no-repeat;box-shadow:inset 0 -60px 50px -20px rgba(10,0,6,.9)}
+.pf-star figcaption{padding:8px 10px 10px;display:flex;flex-direction:column;gap:2px}
+.pf-star b{font-family:var(--head);font-size:17px;color:#fff}.pf-star span{font-size:12px;color:#f7d774}
+.pf-star small{font-size:10px;color:#a37b92}.pf-star small a{color:#c99ab5}
+.pf-land{margin:0 0 18px;scroll-margin-top:90px}
+.pf-lh{font-family:var(--head);font-size:21px;color:#fff;margin:18px 0 10px;text-transform:uppercase;letter-spacing:.02em}
+.pf-lh b{font-size:24px}.pf-lh i{font-style:normal;font-size:14px;text-transform:none;color:#f7d774;margin-left:6px}
+.pf-none{color:#c99ab5;font-size:14px;margin:0 0 6px}
+.pf-teaser{margin:24px 0;padding:14px 16px 18px;border-radius:10px;background:linear-gradient(135deg,#2a0016,#0a0006 60%);box-shadow:0 0 0 1px #5c1038}
+.pf-teaser .pf-h{margin-top:4px}
+@media (max-width:1100px){.pf-chips{grid-template-columns:repeat(4,minmax(0,1fr))}.pf-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.pf-vids{grid-template-columns:1fr 1fr}.pf-vids .pf-vid:first-child{grid-column:span 2}}
+@media (max-width:640px){.pf-hero{min-height:200px;padding:20px 16px}.pf-chips{grid-template-columns:repeat(2,minmax(0,1fr))}.pf-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.pf-vids{grid-template-columns:1fr}.pf-vids .pf-vid:first-child{grid-column:auto}.pf-big{grid-column:span 2}}

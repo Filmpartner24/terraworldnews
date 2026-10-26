@@ -6,6 +6,7 @@ Diese Regeln gelten für jede Aufgabe und gehen bei Widersprüchen der jeweilige
 - Tagesausgabe: genau 80 Meldungen (Deutschland 12 inkl. 2–3 Berlin und 1 Deutschland–Bulgarien, Bulgarien 11, Welt 15, Europa 8, Technologie [s="ki"] 8, Wirtschaft 6, Energie 3, Klima 3, Leben & Alltag 9, Kultur 5). Alle anderen Aufgaben kommen ZUSÄTZLICH.
 - Breaking: 5 Updates täglich (08:00, 11:00, 15:30, 18:30, 21:00), je 8 Meldungen.
 - Musik: 8 Meldungen pro Tag (3 Reviews + 5 News) in 21 Genre-Kategorien („sub“/„subs“, siehe musik.md; Nedy 26.10.2026).
+- Pop-Folk: 9 Meldungen pro Tag (3 Videos, 4 News, 2 Boulevard) aus 7 Ländern, eigene Aufgabe tools/tasks/popfolk.md, Datei content/<Datum>-popfolk.json (Nedy 26.10.2026).
 - Games: 6 Meldungen pro Tag (3 Reviews mit Video „Die neusten Spiele – Reviews“ + 3 Game-News; Nedy 10.10.2026).
 - Nur Männerfußball – kein Frauenfußball. Bulgarisch: AfD immer „АзГ (AfD)“.
 
