@@ -993,7 +993,8 @@ def popfolk_page(l, its, day0, others, SX):
     if rest: html += f'<h2 class="pf-h">{e(P["more"])}</h2><div class="pf-grid">' + ''.join(card(x) for x in rest) + '</div>'
     popfolk_page.rest = [_rall[12:][i:i + MPER] for i in range(0, len(_rall) - 12, MPER)] if len(_rall) > 12 else []
     html += mpager(l, 1, len(popfolk_page.rest) + 1, lambda m: mpage_url('popfolk', m, l))
-    html += musik_grid(l, 'popfolk')
+    html = html.replace('<!--PFTOP-->', mpager(l, 1, len(popfolk_page.rest) + 1, lambda m: mpage_url('popfolk', m, l), top=True), 1)
+    html += musik_grid(l, 'popfolk') + '<!--PFTOP-->'
     html += f'</div><aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{others}</aside></div></div>'
     return html
 def genre_teaser(l, its):
@@ -1014,7 +1015,7 @@ def popfolk_teaser(l, its):
     return (f'<section class="pf-teaser"><h2 class="pf-h"><a href="{sub_url("musik", "popfolk", l)}">♛ {e(SUB[l]["popfolk"][0])}</a> <small>{e(P["tag"])}</small></h2>'
             f'<div class="pf-grid">{cards}</div></section>')
 MPER = 30   # Musik-Genre-Seiten: 30 Beiträge pro Seite, Blättern mit Seitenzahlen (Nedy 26.10.2026)
-def mpager(l, n, total, url):
+def mpager(l, n, total, url, top=False):
     """Nummerierte Seitenleiste (1 2 3 … n) für die Musik-Genre-Seiten."""
     if total < 2: return ''
     lab = {'bg': 'Страници', 'de': 'Seiten', 'en': 'Pages'}[l]
@@ -1026,6 +1027,9 @@ def mpager(l, n, total, url):
         prev = k
     pv = f'<a class="mpg-nav" href="{url(n - 1)}" aria-label="←">←</a>' if n > 1 else ''
     nx = f'<a class="mpg-nav" href="{url(n + 1)}" aria-label="→">→</a>' if n < total else ''
+    if top:   # zusätzlich oben unter dem Genre-Raster (Desktop: ohne langes Scrollen sichtbar)
+        al = {'bg': 'Архив – страници:', 'de': 'Archiv – Seiten:', 'en': 'Archive – pages:'}[l]
+        return f'<nav class="mpg mpg-top" aria-label="{lab}"><b class="mpg-lab">{al}</b>{pv}{out}{nx}</nav>'
     return f'<nav class="mpg" aria-label="{lab}">{pv}{out}{nx}</nav>'
 def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None, mpage_url=None):
     u = UI[l]; g = dict(GPU[l]); g.update(MPU.get(kind, {}).get(l, {}))
@@ -1093,11 +1097,12 @@ def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None, 
                 f'<div class="gr-txt"><a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a>' + (f'<p class="gr-meta">{e(kd)}</p>' if kd else '') +
                 f'<p class="gr-dek">{e(it[l]["d"])}</p><p class="gr-yt-src">{e({"bg": "Видео", "de": "Video", "en": "Video"}[l])}: YouTube · {ch_html(v.get("ch", ""))}</p><a class="gr-more" href="{art_url(it, l)}">{e({"bg": "Към статията →", "de": "Zum Artikel →", "en": "Read more →"}[l])}</a></div></article>')
     older = [it for it in its if it not in revs and it not in news and it not in fests and it not in mvids]
-    mnav = ''
+    mnav = _mtop = ''
     if kind == 'musik' and mgenre and mpage_url:   # Genre-Seite: Seite 1 = die ersten 30 früheren Beiträge, Rest auf Seite 2, 3 … (games_page.rest)
         _ch = [older[i:i + MPER] for i in range(0, len(older), MPER)] or [[]]
         older = _ch[0]; games_page.rest = _ch[1:]
         mnav = mpager(l, 1, len(_ch), mpage_url)
+        _mtop = mpager(l, 1, len(_ch), mpage_url, top=True)
     html = f'<div class="gp gp-{kind}"><div class="gp-head"><h1 class="gp-title">{e(title or SEC[l][kind][0])}</h1>{gp_slogan(l)}</div>'
     html += '<div class="gp-main"><div class="gp-panel">'
     if not its and not (kind == 'musik' and mgenre): html += f'<p class="gp-empty">{e(u["empty"])}</p>'
@@ -1112,7 +1117,7 @@ def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None, 
                     f'<p class="gr-dek">{e(it[l]["d"])}</p><a class="gr-more" href="{art_url(it, l)}">{e(g["more"])}</a></div></article>')
         html += f'<h2 class="gp-h"><b class="brk">{e(u["brk"])}</b></h2>' + ''.join(brk_card(it) for it in brk_top)
     _mx = musik_extras(l, its, day0, mgenre) if kind == 'musik' and (title is None or mgenre) else ('', '')
-    html += _mx[0]
+    html += _mx[0] + _mtop
     if mvids:
         def mv_card(it):
             v = it['yt'] if isinstance(it['yt'], dict) else it['yt'][0]
@@ -2212,7 +2217,7 @@ def build():
                             _pu = mpage_url(k, _n, l); _pl = {'bg': 'Страница', 'de': 'Seite', 'en': 'Page'}[l]
                             _cards = ''.join(f'<article class="gs"><a href="{art_url(x, l)}"><div class="gs-img"' + (f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else '') + '>' + ('<span class="rt-play" aria-hidden="true">▶</span>' if x.get('yt') else '') + f'</div>{kick(x, l)}<h3>{e(x[l]["t"])}</h3></a></article>' for x in _chunk)
                             _pb = (f'<div class="gp gp-musik"><div class="gp-head"><h1 class="gp-title">{e(SUB[l][k][0])} – {_pl} {_n}</h1>{gp_slogan(l)}</div><div class="gp-main"><div class="gp-panel">'
-                                   + musik_grid(l, k) + f'<h2 class="gp-h">{e({"bg": "Видеа и статии от архива", "de": "Videos und Artikel aus dem Archiv", "en": "Videos and stories from the archive"}[l])} · {_pl} {_n} / {_tot}</h2>'
+                                   + musik_grid(l, k) + mpager(l, _n, _tot, lambda m, _k=k: mpage_url(_k, m, l), top=True) + f'<h2 class="gp-h">{e({"bg": "Видеа и статии от архива", "de": "Videos und Artikel aus dem Archiv", "en": "Videos and stories from the archive"}[l])} · {_pl} {_n} / {_tot}</h2>'
                                    + f'<div class="gs-grid">{_cards}</div>' + mpager(l, _n, _tot, lambda m, _k=k: mpage_url(_k, m, l))
                                    + f'</div><aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{_others(s)}</aside></div></div>')
                             _pal = {x: mpage_url(k, _n, x) for x in act}
