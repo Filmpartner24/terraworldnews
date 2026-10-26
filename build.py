@@ -174,8 +174,8 @@ MROWS = [   # Reihenfolge nach Nedy 26.10.2026: Rock zuerst, Deutschrock & Pop n
 MGEN = [k for _r in MROWS for k in _r[1]]
 MROW = {k: i for i, _r in enumerate(MROWS) for k in _r[1]}
 _MG = {  # key: (DE, BG, EN, slug DE, slug BG, slug EN, Beschreibung DE, BG, EN)
- 'pop': ('Pop', 'Поп', 'Pop', 'pop', 'pop', 'pop',
-         'Internationaler Pop: neue Alben und Singles, Musikvideos, Chart-News und Tourneen der großen Popstars.', 'Международен поп: нови албуми и сингли, видеоклипове, новини от класациите и турнета на големите поп звезди.', 'International pop: new albums and singles, music videos, chart news and tours by the big pop stars.'),
+ 'pop': ('Pop & K-Pop', 'Поп и K-поп', 'Pop & K-pop', 'pop-k-pop', 'pop-i-k-pop', 'pop-k-pop',
+         'Pop & K-Pop: internationaler Pop und K-Pop – neue Alben und Singles, Musikvideos, Chart-News und Tourneen der großen Popstars und Idol-Gruppen.', 'Поп и K-поп: международен поп и K-поп – нови албуми и сингли, видеоклипове, новини от класациите и турнета на големите поп звезди и айдъл групи.', 'Pop & K-pop: international pop and K-pop – new albums and singles, music videos, chart news and tours by the big pop stars and idol groups.'),
  'deutschpop': ('Deutschrock & Pop', 'Немски рок и поп', 'German rock & pop', 'deutschrock-pop', 'nemski-rok-i-pop', 'german-rock-pop',
                 'Deutschrock & Pop: deutschsprachiger Rock, Pop und Singer-Songwriter – Alben, Charts, Videos und Tourneen in Deutschland, Österreich und der Schweiz.', 'Немски рок и поп: рок и поп на немски език и автори-изпълнители – албуми, класации, видеоклипове и турнета в Германия, Австрия и Швейцария.', 'German rock & pop: German-language rock, pop and singer-songwriters – albums, charts, videos and tours in Germany, Austria and Switzerland.'),
  'rock': ('Rock', 'Рок', 'Rock', 'rock', 'rok', 'rock',
@@ -194,8 +194,8 @@ _MG = {  # key: (DE, BG, EN, slug DE, slug BG, slug EN, Beschreibung DE, BG, EN)
            'Dance & EDM: House, Trance, Drum & Bass, EDM und Hardtekk – DJ-News, Festivals und neue Tracks.', 'Денс и EDM: хаус, транс, дръм енд бейс, EDM и хардтек – DJ новини, фестивали и нови парчета.', 'Dance & EDM: house, trance, drum & bass, EDM and hardtekk – DJ news, festivals and new tracks.'),
  'latin': ('Latin', 'Латино', 'Latin', 'latin', 'latino', 'latin',
            'Latin: Reggaeton, Latin Pop, Salsa und Bachata – Stars, Alben, Videos und Tourneen.', 'Латино: регетон, латино поп, салса и бачата – звезди, албуми, видеоклипове и турнета.', 'Latin: reggaeton, Latin pop, salsa and bachata – stars, albums, videos and tours.'),
- 'reggae': ('Reggae', 'Реге', 'Reggae', 'reggae', 'rege', 'reggae',
-            'Reggae: Roots, Dancehall und Dub – neue Releases, Konzerte und Festivals.', 'Реге: рутс, денсхол и дъб – нови издания, концерти и фестивали.', 'Reggae: roots, dancehall and dub – new releases, concerts and festivals.'),
+ 'reggae': ('Afrobeats & Reggae', 'Афробийтс и реге', 'Afrobeats & reggae', 'afrobeats-reggae', 'afrobiyts-i-rege', 'afrobeats-reggae',
+            'Afrobeats & Reggae: Afrobeats, Amapiano, Roots, Dancehall und Dub – neue Releases, Stars, Konzerte und Festivals.', 'Афробийтс и реге: афробийтс, амапиано, рутс, денсхол и дъб – нови издания, звезди, концерти и фестивали.', 'Afrobeats & reggae: Afrobeats, amapiano, roots, dancehall and dub – new releases, stars, concerts and festivals.'),
  'popfolk': ('Pop-Folk', 'Попфолк', 'Pop-folk', 'pop-folk', 'popfolk', 'pop-folk',
              'Pop-Folk: bulgarische Chalga, serbischer Turbo-Folk, rumänische Manele und griechischer Laïkó – Stars, Videos, Konzerte und Charts.', 'Попфолк: българска чалга, сръбски турбофолк, румънски манеле и гръцко лайко – звезди, видеоклипове, концерти и класации.', 'Pop-folk: Bulgarian chalga, Serbian turbo-folk, Romanian manele and Greek laïko – stars, videos, concerts and charts.'),
  'country': ('Country', 'Кънтри', 'Country', 'country', 'kantri', 'country',
@@ -268,10 +268,10 @@ MUSIC_KW = {   # Musik-Genres (21, seit 26.10.2026; Jazz & Blues zusammen, Soul 
  'filmmusik': ['filmmusik', 'soundtrack', 'film score', 'score', 'filmkomponist', 'hans zimmer', 'john williams', 'hildur', 'ludwig göransson', 'howard shore', 'stranger things'],
  'klassik': ['bocelli', 'igor levit', 'andré rieu', 'andre rieu', 'max richter', 'geigerin', 'klassik', 'classical', 'neoklassik', 'neo-classical', 'orchester', 'orchestra', 'oper', 'opera', 'symphon', 'philharmon', 'pianist', 'dirigent', 'deutsche grammophon', 'geiger', 'cellist'],
  'jazz': ['jazz', 'big band', 'bebop', 'swing', 'blues', 'bluesrock', 'blues-rock', 'beth hart', 'joe bonamassa'],   # Jazz & Blues zusammengelegt (Nedy 26.10.2026)
- 'reggae': ['reggae', 'dancehall', 'dub', 'ska', 'bob marley'],
+ 'reggae': ['afrobeats', 'afrobeat', 'afro-pop', 'afropop', 'amapiano', 'burna boy', 'wizkid', 'davido', 'tems', 'rema', 'ayra starr', 'tyla', 'asake', 'reggae', 'dancehall', 'dub', 'ska', 'bob marley'],   # Afrobeats & Reggae (Nedy 26.10.2026)
  'latin': ['latin', 'reggaeton', 'salsa', 'bachata', 'cumbia', 'bad bunny', 'karol g', 'daddy yankee', 'shakira', 'j balvin', 'rosalía', 'rosalia'],
  'country': ['country', 'americana', 'bluegrass', 'nashville', 'honky tonk', 'zach bryan', 'morgan wallen', 'luke combs', 'dolly parton', 'kacey musgraves', 'miranda lambert', 'truck stop'],
- 'world': ['weltmusik', 'world music', 'afrobeat', 'afrobeats', 'balkan', 'flamenco', 'fado', 'k-pop', 'kpop', 'ateez', 'bts', 'orchestra baobab'],
+ 'world': ['weltmusik', 'world music', 'balkan', 'flamenco', 'fado', 'orchestra baobab'],   # K-Pop → Pop & K-Pop, Afrobeats → Afrobeats & Reggae (26.10.2026)
  'folk': ['paul simon', 'liedermacher', 'reinhard mey', 'jack johnson', 'neofolk', 'folk', 'singer-songwriter', 'volksmusik', 'roots', 'bob dylan'],
  'metal': ['eisbrecher', 'trivium', 'boundaries', 'igorrr', 'neue deutsche härte', 'symphonic metal', 'metalcore', 'metal', 'thrash', 'death', 'black metal', 'doom', 'djent', 'wacken', 'iron maiden', 'ministry', 'sabbath', 'iommi', 'metallica', 'slayer', 'megadeth', 'rammstein', 'nightwish', 'sabaton', 'tarja', 'apocalyptica', 'mastodon', 'gojira', 'hatebreed', 'motörhead', 'judas priest', 'enslaved'],
  'punk': ['punk', 'hardcore', 'pop-punk', 'blink-182', 'green day', 'toten hosen', 'ärzte', 'feine sahne', 'social distortion', 'offspring'],
@@ -282,9 +282,9 @@ MUSIC_KW = {   # Musik-Genres (21, seit 26.10.2026; Jazz & Blues zusammen, Soul 
  'rnbsoul': ['craig david', 'r&b', 'rnb', 'soul', 'gospel', 'john legend', 'sza', 'the weeknd', 'anderson .paak'],
  'dance': ['purple disco machine', 'street parade', 'glücksgefühle', 'dance', 'edm', 'house', 'trance', 'drum and bass', 'drum & bass', 'hardtekk', 'hardstyle', 'rave', 'david guetta', 'calvin harris', 'tiësto', 'pendulum', 'fred again'],
  'electronic': ['electronic', 'elektronisch', 'electro', 'techno', 'ambient', 'synth', 'kraftwerk', 'daft punk', 'jean-michel jarre', 'yello', 'dj'],
- 'pop': ['britney', 'remi wolf', 'sienna spiro', 'carly rae jepsen', 'michael jackson', 'mico', 'donauinselfest', 'rayes', 'pop', 'charts', 'eurovision', 'esc', 'taylor swift', 'tate mcrae', 'zara larsson', 'olivia rodrigo', 'sabrina carpenter', 'dua lipa', 'harry styles', 'ed sheeran', 'adele', 'raye', 'james blunt', 'winehouse', 'billie eilish', 'lady gaga', 'miley cyrus', 'mariah carey', 'sombr', 'sam fender', 'mercury prize'],
+ 'pop': ['k-pop', 'kpop', 'ateez', 'bts', 'blackpink', 'stray kids', 'newjeans', 'aespa', 'le sserafim', 'enhypen', 'txt', 'jungkook', 'jimin', 'rosé', 'britney', 'remi wolf', 'sienna spiro', 'carly rae jepsen', 'michael jackson', 'mico', 'donauinselfest', 'rayes', 'pop', 'charts', 'eurovision', 'esc', 'taylor swift', 'tate mcrae', 'zara larsson', 'olivia rodrigo', 'sabrina carpenter', 'dua lipa', 'harry styles', 'ed sheeran', 'adele', 'raye', 'james blunt', 'winehouse', 'billie eilish', 'lady gaga', 'miley cyrus', 'mariah carey', 'sombr', 'sam fender', 'mercury prize'],
 }
-MUSIC_STRICT = {'rap', 'pop', 'dj', 'esc', 'oper', 'rave', 'house', 'dance', 'score', 'toto', 'soul', 'edm', 'folk', 'roots', 'electro', 'charts', 'trap', 'drill', 'emo', 'dub', 'ska', 'funk', 'swing', 'death', 'rin', 'lea', 'lina', 'emo', 'bts', 'u2', 'queen', 'slash', 'sting', 'nicole', 'bosse', 'wanda', 'soffie', 'oasis', 'synth', 'rock', 'metal', 'punk', 'jazz', 'blues', 'latin', 'world music', 'opera', 'oper', 'trance', 'techno', 'klassik', 'muse', 'rush', 'mico', 'hurricane', 'southside', 'foreigner'}
+MUSIC_STRICT = {'tems', 'rema', 'tyla', 'txt', 'asake', 'rosé', 'rap', 'pop', 'dj', 'esc', 'oper', 'rave', 'house', 'dance', 'score', 'toto', 'soul', 'edm', 'folk', 'roots', 'electro', 'charts', 'trap', 'drill', 'emo', 'dub', 'ska', 'funk', 'swing', 'death', 'rin', 'lea', 'lina', 'emo', 'bts', 'u2', 'queen', 'slash', 'sting', 'nicole', 'bosse', 'wanda', 'soffie', 'oasis', 'synth', 'rock', 'metal', 'punk', 'jazz', 'blues', 'latin', 'world music', 'opera', 'oper', 'trance', 'techno', 'klassik', 'muse', 'rush', 'mico', 'hurricane', 'southside', 'foreigner'}
 def music_sub(it, allowed=None):
     """Hauptgenre per Schlagwort setzen (nur, wenn "sub" fehlt oder ein alter Kanal ist). allowed = erlaubte Genres (alter Kanal)."""
     rv = it.get('rv') or {}
