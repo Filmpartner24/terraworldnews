@@ -348,6 +348,8 @@ def load():
     # Breaking-News-Updates (content/YYYY-MM-DD-breaking.json) gehören zur Ausgabe desselben Tages
     for b in brk:
         ed = next((x for x in eds if x['date'] == b['date']), None)
+        if ed is None and not any(it.get('brk') for it in b['items']):   # Zusatz-Dateien (Genres, Pop-Folk …) vor der Tagesausgabe: an die letzte Ausgabe hängen, damit Startseite + Breaking-Block bleiben (26.10.2026)
+            ed = next((x for x in reversed(eds) if x['date'] < b['date']), None)
         if ed is None:
             ed = {'date': b['date'], 'issue': (eds[-1].get('issue', 0) + 1) if eds else 1, 'items': []}
             eds.append(ed); eds.sort(key=lambda x: x['date'])
