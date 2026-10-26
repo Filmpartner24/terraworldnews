@@ -395,6 +395,7 @@ def art_url(it, l):
 
 def sec_url(s, l): return f"{pre(l)}{SEC[l][s][1]}/"
 def sub_url(s, k, l): return f"{sec_url(s, l)}{SUB[l][k][1]}/"
+def mpage_url(k, n, l): return sub_url('musik', k, l) + (f'{"stranitsa" if l == "bg" else "seite" if l == "de" else "page"}-{n}/' if n > 1 else '')   # Musik-Genre: Seite n
 def sec_home(s, l, sub=None):  # Rubriken mit Unterrubriken (Sport) haben keine eigene Übersichtsseite → erste/zugehörige Unterrubrik
     return sub_url(s, sub, l) if (s in SUBS and sub in SUBS[s]) or (s in LSUBS and sub in LSUBS[s]) else sec_url(s, l)   # Sport: eigene Übersichtsseite (seit 04.10.2026)
 def legal_url(k, l): return f"{pre(l)}{LEGAL_SLUG[l][k]}.html"
@@ -988,8 +989,10 @@ def popfolk_page(l, its, day0, others, SX):
         used |= {x['id'] for x in li_its}
         body = ('<div class="pf-grid">' + ''.join(card(x) for x in li_its) + '</div>') if li_its else f'<p class="pf-none">{e(P["nolands"].format(x=n[li]))}</p>'
         html += f'<section class="pf-land" id="pf-{c}"><h3 class="pf-lh"><b>{fl}</b> {e(n[li])} <i>{e(s[li])}</i></h3>{body}</section>'
-    rest = [x for x in its if x['id'] not in used][:12]
+    _rall = [x for x in its if x['id'] not in used]; rest = _rall[:12]   # weitere Seiten: alle älteren Pop-Folk-Beiträge (Nedy 26.10.2026)
     if rest: html += f'<h2 class="pf-h">{e(P["more"])}</h2><div class="pf-grid">' + ''.join(card(x) for x in rest) + '</div>'
+    popfolk_page.rest = [_rall[12:][i:i + MPER] for i in range(0, len(_rall) - 12, MPER)] if len(_rall) > 12 else []
+    html += mpager(l, 1, len(popfolk_page.rest) + 1, lambda m: mpage_url('popfolk', m, l))
     html += musik_grid(l, 'popfolk')
     html += f'</div><aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{others}</aside></div></div>'
     return html
@@ -1010,7 +1013,21 @@ def popfolk_teaser(l, its):
                     + ('<span class="pf-play" aria-hidden="true">▶</span>' if x.get('yt') else '') + f'</div><div class="pf-txt"><h3>{e(x[l]["t"])}</h3></div></a></article>' for x in pf)
     return (f'<section class="pf-teaser"><h2 class="pf-h"><a href="{sub_url("musik", "popfolk", l)}">♛ {e(SUB[l]["popfolk"][0])}</a> <small>{e(P["tag"])}</small></h2>'
             f'<div class="pf-grid">{cards}</div></section>')
-def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None):
+MPER = 30   # Musik-Genre-Seiten: 30 Beiträge pro Seite, Blättern mit Seitenzahlen (Nedy 26.10.2026)
+def mpager(l, n, total, url):
+    """Nummerierte Seitenleiste (1 2 3 … n) für die Musik-Genre-Seiten."""
+    if total < 2: return ''
+    lab = {'bg': 'Страници', 'de': 'Seiten', 'en': 'Pages'}[l]
+    show = sorted({1, total} | set(range(max(1, n - 2), min(total, n + 2) + 1)))
+    out, prev = '', 0
+    for k in show:
+        if k - prev > 1: out += '<span class="mpg-gap">…</span>'
+        out += f'<span class="on" aria-current="page">{k}</span>' if k == n else f'<a href="{url(k)}">{k}</a>'
+        prev = k
+    pv = f'<a class="mpg-nav" href="{url(n - 1)}" aria-label="←">←</a>' if n > 1 else ''
+    nx = f'<a class="mpg-nav" href="{url(n + 1)}" aria-label="→">→</a>' if n < total else ''
+    return f'<nav class="mpg" aria-label="{lab}">{pv}{out}{nx}</nav>'
+def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None, mpage_url=None):
     u = UI[l]; g = dict(GPU[l]); g.update(MPU.get(kind, {}).get(l, {}))
     def cover_style(it):
         im = it.get('img')
@@ -1076,6 +1093,11 @@ def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None):
                 f'<div class="gr-txt"><a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a>' + (f'<p class="gr-meta">{e(kd)}</p>' if kd else '') +
                 f'<p class="gr-dek">{e(it[l]["d"])}</p><p class="gr-yt-src">{e({"bg": "Видео", "de": "Video", "en": "Video"}[l])}: YouTube · {ch_html(v.get("ch", ""))}</p><a class="gr-more" href="{art_url(it, l)}">{e({"bg": "Към статията →", "de": "Zum Artikel →", "en": "Read more →"}[l])}</a></div></article>')
     older = [it for it in its if it not in revs and it not in news and it not in fests and it not in mvids]
+    mnav = ''
+    if kind == 'musik' and mgenre and mpage_url:   # Genre-Seite: Seite 1 = die ersten 30 früheren Beiträge, Rest auf Seite 2, 3 … (games_page.rest)
+        _ch = [older[i:i + MPER] for i in range(0, len(older), MPER)] or [[]]
+        older = _ch[0]; games_page.rest = _ch[1:]
+        mnav = mpager(l, 1, len(_ch), mpage_url)
     html = f'<div class="gp gp-{kind}"><div class="gp-head"><h1 class="gp-title">{e(title or SEC[l][kind][0])}</h1>{gp_slogan(l)}</div>'
     html += '<div class="gp-main"><div class="gp-panel">'
     if not its and not (kind == 'musik' and mgenre): html += f'<p class="gp-empty">{e(u["empty"])}</p>'
@@ -1105,6 +1127,7 @@ def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None):
     if fests: html += f'<h2 class="gp-h">▶ {e(({"bg": "Филмови фестивали", "de": "Filmfestivals", "en": "Film festivals"} if kind == "film" else {"bg": "Музикални фестивали", "de": "Musikfestivals", "en": "Music festivals"})[l])}</h2>' + ''.join(fest_card(it) for it in fests)
     if news: html += f'<h2 class="gp-h">{e(({"bg": "Концерти и новини", "de": "Konzerte & News", "en": "Concerts & news"}[l]) if mgenre else g["news"])}</h2><div class="gs-grid">' + ''.join(small(it) for it in news) + '</div>'
     if older: html += f'<h2 class="gp-h">{e(g["older"])}</h2><div class="gs-grid">' + ''.join(small(it) for it in older) + '</div>'
+    html += mnav
     html += f'</div><aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{others}</aside></div></div>'
     return html
 
@@ -2000,6 +2023,7 @@ def build():
             if s == 'musik':  # TWN MUSIC: Genre-Seiten zeigen die letzten 30 Ausgabetage (Zähler, Tour-Radar, Genre-Listen)
                 _kd = sorted({it['date'] for it in its}, reverse=True)[:SUB_KEEP]
                 MUSIK['all'] = [it for it in its if it['date'] in _kd]
+                MUSIK['hist'] = list(its)   # Genre-Seiten: komplette Sammlung, nichts fällt heraus (Nedy 26.10.2026)
             if s in KEEP_DAYS:  # z. B. Games: nur die letzten 5 Ausgabetage auf der Rubrikseite (Artikel bleiben über Suche/Archiv erreichbar)
                 _keep = sorted({it['date'] for it in its}, reverse=True)[:KEEP_DAYS[s]]
                 its = [it for it in its if it['date'] in _keep]
@@ -2165,10 +2189,11 @@ def build():
                         _all = [it for it in items_l if (it['s'] == s or s in also_secs(it)) and it.get('sub') == k]
                         _kd = sorted({it['date'] for it in _all}, reverse=True)[:SUB_KEEP]
                         _pool = [it for it in _all if it['date'] in _kd]
-                    if s == 'musik': _pool = MUSIK.get('all') or its
+                    if s == 'musik': _pool = MUSIK.get('hist') or its
                     sits = sorted([it for it in _pool if (k in m_genres(it) if s == 'musik' else it.get('sub') == k)], key=lambda x: (x['date'], x['time']), reverse=True)
                     su = sub_url(s, k, l); title = f'{SEC[l][s][0]} · {SUB[l][k][0]}'
-                    sb = (popfolk_page(l, sits, day0, _others(s), SX) if k == 'popfolk' else games_page(l, sits, sits[0]['date'] if sits else day0, _others(s), SX, s, title=SUB[l][k][0], mgenre=k)) if s == 'musik' else ltabs(k) + (wow_page(l, sits, _others(s), title=SUB[l][k][0], desc=SUB_DESC[k][l], kind='guinness') if k == 'guinness' else games_page(l, sits, sits[0]['date'], _others(s), SX, s, title=SUB[l][k][0]) if sits else
+                    games_page.rest = []; popfolk_page.rest = []
+                    sb = (popfolk_page(l, sits, day0, _others(s), SX) if k == 'popfolk' else games_page(l, sits, sits[0]['date'] if sits else day0, _others(s), SX, s, title=SUB[l][k][0], mgenre=k, mpage_url=(lambda n, _k=k: mpage_url(_k, n, l)))) if s == 'musik' else ltabs(k) + (wow_page(l, sits, _others(s), title=SUB[l][k][0], desc=SUB_DESC[k][l], kind='guinness') if k == 'guinness' else games_page(l, sits, sits[0]['date'], _others(s), SX, s, title=SUB[l][k][0]) if sits else
                                      f'<div class="sec-page" style="--c:{SEC_COLOR[s]}"><div class="rail-h sec-head"><h1 class="sec-title">{e(title)}</h1></div><p class="note">{e(u["empty"])}</p></div>')
                     if k == 'liebe' and '<div class="gp-panel">' in sb:  # Kennenlern-Portale oben auf „Liebe & Beziehung“
                         sb = sb.replace('<div class="gp-panel">', '<div class="gp-panel">' + dating_block(l), 1)
@@ -2181,6 +2206,18 @@ def build():
                     subalts = {x: sub_url(s, k, x) for x in act}
                     write(su, page(l, act, f'{title} | TWN – World News', (SUB_DESC[k][l] if k in SUB_DESC else f'{title}: {u["desc_home"]}'), su, sb, subalts, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": title, "url": SITE + su, "inLanguage": l}, crumbs(l, [(SEC[l][s][0], sec_url(s, l)), (SUB[l][k][0], su)])]}, issue=latest.get('issue', 1), date=latest['date']))
                     urls.append((su, subalts, latest['date']))
+                    if s == 'musik':   # Seite 2, 3 …: ältere Videos und Artikel des Genres – die Sammlung wächst, nichts wird gelöscht (Nedy 26.10.2026)
+                        _rest = popfolk_page.rest if k == 'popfolk' else games_page.rest; _tot = len(_rest) + 1
+                        for _n, _chunk in enumerate(_rest, start=2):
+                            _pu = mpage_url(k, _n, l); _pl = {'bg': 'Страница', 'de': 'Seite', 'en': 'Page'}[l]
+                            _cards = ''.join(f'<article class="gs"><a href="{art_url(x, l)}"><div class="gs-img"' + (f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else '') + '>' + ('<span class="rt-play" aria-hidden="true">▶</span>' if x.get('yt') else '') + f'</div>{kick(x, l)}<h3>{e(x[l]["t"])}</h3></a></article>' for x in _chunk)
+                            _pb = (f'<div class="gp gp-musik"><div class="gp-head"><h1 class="gp-title">{e(SUB[l][k][0])} – {_pl} {_n}</h1>{gp_slogan(l)}</div><div class="gp-main"><div class="gp-panel">'
+                                   + musik_grid(l, k) + f'<h2 class="gp-h">{e({"bg": "Видеа и статии от архива", "de": "Videos und Artikel aus dem Archiv", "en": "Videos and stories from the archive"}[l])} · {_pl} {_n} / {_tot}</h2>'
+                                   + f'<div class="gs-grid">{_cards}</div>' + mpager(l, _n, _tot, lambda m, _k=k: mpage_url(_k, m, l))
+                                   + f'</div><aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{_others(s)}</aside></div></div>')
+                            _pal = {x: mpage_url(k, _n, x) for x in act}
+                            write(_pu, page(l, act, f'{title} – {_pl} {_n} | TWN – World News', (SUB_DESC[k][l] if k in SUB_DESC else title), _pu, _pb, _pal, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": f'{title} – {_pl} {_n}', "url": SITE + _pu, "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
+                            urls.append((_pu, _pal, latest['date']))
             write(sec_url(s, l), page(l, act, f'{SEC[l][s][0]} | TWN – World News', (BZ[l]['desc'] if s == 'business' else sec_desc(s, l, f'{SEC[l][s][0]}: {u["desc_home"]}')), sec_url(s, l), body, salts, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": SEC[l][s][0], "url": SITE + sec_url(s, l), "inLanguage": l}, crumbs(l, [(SEC[l][s][0], sec_url(s, l))])]}, issue=latest.get('issue', 1), date=latest['date'],
                   ticker2=(boerse_ticker(BIZ[max(BIZ)], l) if s == 'business' and BIZ else '')))
             urls.append((sec_url(s, l), salts, latest['date']))

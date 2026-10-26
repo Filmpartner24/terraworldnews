@@ -31,3 +31,5 @@ Je Meldung bg/de/en: t ≤90, d ≤220, body = JSON-LISTE mit 2–3 Absätzen (n
 4. BERICHT (SendUserMessage via ToolSearch laden, und als finale Antwort), kurz auf Deutsch: die Schlagzeilen (welche mit Video/Kanal), was weggelassen wurde und warum.
 
 REGELN: Nur content/, static/assets/news/ und candidates/ ändern; Design nicht anfassen. Keine Logins, Konten, Zahlungen. Nur eigene Arbeitsdateien löschen.
+
+ARCHIV DER GENRE-SEITEN (Nedy 26.10.2026): Genre-Seiten löschen nichts mehr – alle Musik-Beiträge (Videos und Artikel) bleiben in ihrem Genre; ab ca. 30 früheren Beiträgen blättern Leser über nummerierte Seiten (…/seite-2/, /stranitsa-2/, /page-2/). Deshalb jede Meldung sorgfältig mit "sub"/"subs" einordnen.
