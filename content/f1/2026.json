@@ -1,22 +1,22 @@
 {
  "season": "2026",
- "round": 17,
- "updated": "2026-10-25",
+ "round": 18,
+ "updated": "2026-10-26",
  "drivers": [
   {
    "pos": 1,
    "name": "Andrea Kimi Antonelli",
    "nat": "Italian",
    "team": "Mercedes",
-   "pts": 340.0,
-   "wins": 8
+   "pts": 365.0,
+   "wins": 9
   },
   {
    "pos": 2,
    "name": "George Russell",
    "nat": "British",
    "team": "Mercedes",
-   "pts": 238.0,
+   "pts": 242.0,
    "wins": 3
   },
   {
@@ -24,7 +24,7 @@
    "name": "Lewis Hamilton",
    "nat": "British",
    "team": "Ferrari",
-   "pts": 229.0,
+   "pts": 241.0,
    "wins": 1
   },
   {
@@ -32,7 +32,7 @@
    "name": "Max Verstappen",
    "nat": "Dutch",
    "team": "Red Bull",
-   "pts": 221.0,
+   "pts": 236.0,
    "wins": 2
   },
   {
@@ -40,7 +40,7 @@
    "name": "Charles Leclerc",
    "nat": "Monegasque",
    "team": "Ferrari",
-   "pts": 215.0,
+   "pts": 233.0,
    "wins": 1
   },
   {
@@ -48,7 +48,7 @@
    "name": "Lando Norris",
    "nat": "British",
    "team": "McLaren",
-   "pts": 201.0,
+   "pts": 211.0,
    "wins": 2
   },
   {
@@ -56,7 +56,7 @@
    "name": "Oscar Piastri",
    "nat": "Australian",
    "team": "McLaren",
-   "pts": 138.0,
+   "pts": 144.0,
    "wins": 0
   },
   {
@@ -64,7 +64,7 @@
    "name": "Isack Hadjar",
    "nat": "French",
    "team": "Red Bull",
-   "pts": 97.0,
+   "pts": 105.0,
    "wins": 0
   },
   {
@@ -72,7 +72,7 @@
    "name": "Liam Lawson",
    "nat": "New Zealander",
    "team": "RB F1 Team",
-   "pts": 75.0,
+   "pts": 77.0,
    "wins": 0
   },
   {
@@ -80,7 +80,7 @@
    "name": "Pierre Gasly",
    "nat": "French",
    "team": "Alpine F1 Team",
-   "pts": 41.0,
+   "pts": 42.0,
    "wins": 0
   },
   {
@@ -192,37 +192,37 @@
   {
    "pos": 1,
    "name": "Mercedes",
-   "pts": 578.0,
-   "wins": 11
+   "pts": 607.0,
+   "wins": 12
   },
   {
    "pos": 2,
    "name": "Ferrari",
-   "pts": 444.0,
+   "pts": 474.0,
    "wins": 2
   },
   {
    "pos": 3,
-   "name": "McLaren",
-   "pts": 339.0,
+   "name": "Red Bull",
+   "pts": 355.0,
    "wins": 2
   },
   {
    "pos": 4,
-   "name": "Red Bull",
-   "pts": 332.0,
+   "name": "McLaren",
+   "pts": 355.0,
    "wins": 2
   },
   {
    "pos": 5,
    "name": "RB F1 Team",
-   "pts": 100.0,
+   "pts": 102.0,
    "wins": 0
   },
   {
    "pos": 6,
    "name": "Alpine F1 Team",
-   "pts": 68.0,
+   "pts": 69.0,
    "wins": 0
   },
   {
@@ -451,7 +451,9 @@
    "locality": "Austin",
    "country": "USA",
    "date": "2026-10-25",
-   "time": "20:00"
+   "time": "20:00",
+   "winner": "Andrea Kimi Antonelli",
+   "winner_team": "Mercedes"
   },
   {
    "round": 19,
