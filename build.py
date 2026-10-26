@@ -165,11 +165,11 @@ SUB_DESC = {
          'bg': 'ММА: UFC, PFL, ONE Championship и OKTAGON – шампиони, предстоящи мачове, резултати и новини.',
          'en': 'MMA: UFC, PFL, ONE Championship and OKTAGON – champions, upcoming fights, results and news.'},
 }
-# ---- TWN MUSIC (seit 26.10.2026, Nedy): 20 Genre-Kategorien in 3 Reihen (7/7/6; Jazz & Blues zusammengelegt 26.10.2026). Feld "sub" = Hauptgenre, optional "subs" = weitere Genres.
+# ---- TWN MUSIC (seit 26.10.2026, Nedy): 21 Genre-Kategorien in 3 Reihen zu je 7 (Jazz & Blues zusammengelegt, Soul & Funk neu – 26.10.2026). Feld "sub" = Hauptgenre, optional "subs" = weitere Genres.
 MROWS = [   # Reihenfolge nach Nedy 26.10.2026: Rock zuerst, Deutschrock & Pop neben Schlager unten
  ({'de': 'Rock & Pop', 'bg': 'Рок и поп', 'en': 'Rock & pop'}, ['rock', 'metal', 'indie', 'pop', 'hiphop', 'rnbsoul', 'punk']),
  ({'de': 'Electronic & International', 'bg': 'Електронна и международна', 'en': 'Electronic & international'}, ['electronic', 'dance', 'latin', 'reggae', 'country', 'folk', 'world']),
- ({'de': 'Deutsch, Balkan & Klassik', 'bg': 'Немска, балканска и класическа', 'en': 'German, Balkan & classical'}, ['schlager', 'deutschpop', 'popfolk', 'jazz', 'klassik', 'filmmusik']),
+ ({'de': 'Deutsch, Balkan & Klassik', 'bg': 'Немска, балканска и класическа', 'en': 'German, Balkan & classical'}, ['schlager', 'deutschpop', 'popfolk', 'jazz', 'soulfunk', 'klassik', 'filmmusik']),
 ]
 MGEN = [k for _r in MROWS for k in _r[1]]
 MROW = {k: i for i, _r in enumerate(MROWS) for k in _r[1]}
@@ -206,6 +206,8 @@ _MG = {  # key: (DE, BG, EN, slug DE, slug BG, slug EN, Beschreibung DE, BG, EN)
               'Schlager: deutschsprachiger Schlager und Schlager-Pop – Alben, Charts, TV-Shows, Künstlerporträts und Tourneen.', 'Шлагер: немскоезичен шлагер и шлагер поп – албуми, класации, телевизионни шоута, портрети и турнета.', 'Schlager: German-language schlager and schlager pop – albums, charts, TV shows, profiles and tours.'),
  'jazz': ('Jazz & Blues', 'Джаз и блус', 'Jazz & blues', 'jazz-blues', 'dzhaz-i-blus', 'jazz-blues',
           'Jazz & Blues: neue Alben, Festivals, Porträts und Konzerte – vom Big Band Sound und modernen Jazz bis zu Blues-Rock, Delta- und Chicago-Blues.', 'Джаз и блус: нови албуми, фестивали, портрети и концерти – от биг бенд и модерен джаз до блус рок, делта и чикагски блус.', 'Jazz & blues: new albums, festivals, profiles and concerts – from big band and modern jazz to blues rock, Delta and Chicago blues.'),
+ 'soulfunk': ('Soul & Funk', 'Соул и фънк', 'Soul & funk', 'soul-funk', 'soul-i-fank', 'soul-funk',
+              'Soul & Funk: Motown, Classic Soul, Funk und Neo-Soul – neue Alben, Legenden, Konzerte und Tourneen.', 'Соул и фънк: Мотаун, класически соул, фънк и нео соул – нови албуми, легенди, концерти и турнета.', 'Soul & funk: Motown, classic soul, funk and neo-soul – new albums, legends, concerts and tours.'),
  'klassik': ('Klassik', 'Класическа', 'Classical', 'klassik', 'klasicheska', 'classical',
              'Klassik: Orchester, Oper, Solisten und Neoklassik – Aufnahmen, Konzerte und Festivals.', 'Класическа музика: оркестри, опера, солисти и неокласика – записи, концерти и фестивали.', 'Classical: orchestras, opera, soloists and neo-classical – recordings, concerts and festivals.'),
  'filmmusik': ('Filmmusik', 'Филмова музика', 'Film music', 'filmmusik', 'filmova-muzika', 'film-music',
@@ -259,7 +261,7 @@ def kultur_to(it):
 
 _BER_RE = re.compile(r'^(de-|deutschland-|breaking-)?berlin-|^de-(neukoelln|kreuzberg|friedrichshain|lichtenberg|marzahn|spandau|mitte|moabit|wedding|pankow|reinickendorf|tempelhof|treptow|koepenick|charlottenburg|steglitz|zehlendorf|weissensee|schoeneberg)-')
 _BER_T = re.compile(r'^(Berlin|Berliner|Neukölln|Kreuzberg|Friedrichshain|Lichtenberg|Marzahn|Spandau|Moabit|Wedding|Pankow|Reinickendorf|Tempelhof|Treptow|Köpenick|Charlottenburg|Steglitz|Zehlendorf|Weißensee|Schöneberg|Hellersdorf|Biesdorf)\b')
-MUSIC_KW = {   # Musik-Genres (20, seit 26.10.2026; Jazz & Blues zusammen): Schlagwörter – frühester Treffer in Genre-Angabe (rv.pf) bzw. Titel/Teaser entscheidet
+MUSIC_KW = {   # Musik-Genres (21, seit 26.10.2026; Jazz & Blues zusammen, Soul & Funk neu): Schlagwörter – frühester Treffer in Genre-Angabe (rv.pf) bzw. Titel/Teaser entscheidet
  'popfolk': ['pop-folk', 'popfolk', 'chalga', 'чалга', 'turbo-folk', 'turbofolk', 'manele', 'laiko', 'laïko', 'попфолк', 'azis', 'preslava', 'преслава', 'andrea (bulgarische', 'galena', 'payner', 'пайнер'],
  'schlager': ['schlager', 'helene fischer', 'andrea berg', 'gabalier', 'silbereisen', 'roland kaiser', 'beatrice egli', 'vanessa mai', 'kerstin ott', 'semino rossi', 'howard carpendale', 'ben zucker', 'giovanni zarrella', 'wolfgang petry', 'nicole', 'matthias reim'],
  'deutschpop': ['deutschrock', 'deutsch-rock', 'grönemeyer', 'westernhagen', 'udo lindenberg', 'kraftklub', 'provinz', 'pohlmann', 'alexander eder', 'no angels', 'söhne mannheims', 'blackout problems', 'jennifer rostock', 'deutschpop', 'deutsch-pop', 'deutschsprachiger pop', 'philipp poisel', 'mark forster', 'max giesinger', 'tim bendzko', 'lea', 'leslie clio', 'johannes oerding', 'nina chuba', 'wincent weiss', 'clueso', 'silbermond', 'revolverheld', 'sarah connor', 'lina', 'soffie', 'tokio hotel', 'bosse', 'peter maffay', 'wanda', 'betterov', 'annenmaykantereit'],
@@ -276,7 +278,8 @@ MUSIC_KW = {   # Musik-Genres (20, seit 26.10.2026; Jazz & Blues zusammen): Schl
  'indie': ['blossoms', 'placebo', 'interpol', 'chvrches', 'two door cinema club', 'ben folds', 'my morning jacket', 'lake street dive', 'phoebe bridgers', 'johnny marr', 'indie', 'alternative', 'shoegaze', 'post-punk', 'britpop', 'grunge', 'emo', 'fontaines d.c.', 'arctic monkeys', 'smashing pumpkins', 'chemical romance', 'radiohead', 'editors', 'wolf alice', 'the cure'],
  'rock': ['staind', 'beatles', 'muse', 'royal blood', 'greta van fleet', 'def leppard', 'palaye royale', 'foreigner', 'danko jones', 'rush', 'skillet', 'a perfect circle', 'king’s x', "king's x", 'jayler', 'deep purple', 'hurricane', 'southside', 'rock am ring', 'rock', 'hard rock', 'stoner', 'alice cooper', 'toto', 'ac/dc', 'scorpions', 'queens of the stone age', 'kings of leon', 'pretty reckless', 'bon jovi', 'nickelback', 'slash', 'foo fighters', 'u2', 'oasis', 'rolling stones', 'queen', 'guns n', 'pink floyd', 'sting', 'rod stewart', 'bryan adams'],
  'hiphop': ['2hollis', 'stereo mc', 'hip-hop', 'hip hop', 'rap', 'rapper', 'rapperin', 'deutschrap', 'trap', 'drill', 'grime', 'kendrick', 'drake', 'eminem', 'travis scott', 'a$ap', 'capital bra', 'ufo361', 'rin', 'ski aggu', 'kontra k', 'haftbefehl', 'ikkimel', 'clipse', 'doechii'],
- 'rnbsoul': ['craig david', 'r&b', 'rnb', 'soul', 'neo-soul', 'funk', 'gospel', 'john legend', 'sza', 'the weeknd', 'leon bridges', 'kiwanuka', 'chaka khan', 'erykah badu', 'anderson .paak'],
+ 'soulfunk': ['soul & funk', 'funk', 'motown', 'neo-soul', 'northern soul', 'james brown', 'aretha franklin', 'stevie wonder', 'marvin gaye', 'funkadelic', 'george clinton', 'earth, wind & fire', 'kool & the gang', 'chaka khan', 'leon bridges', 'kiwanuka', 'erykah badu', 'vulfpeck', 'jamiroquai', 'cory wong', 'nile rodgers'],   # Soul & Funk (Nedy 26.10.2026)
+ 'rnbsoul': ['craig david', 'r&b', 'rnb', 'soul', 'gospel', 'john legend', 'sza', 'the weeknd', 'anderson .paak'],
  'dance': ['purple disco machine', 'street parade', 'glücksgefühle', 'dance', 'edm', 'house', 'trance', 'drum and bass', 'drum & bass', 'hardtekk', 'hardstyle', 'rave', 'david guetta', 'calvin harris', 'tiësto', 'pendulum', 'fred again'],
  'electronic': ['electronic', 'elektronisch', 'electro', 'techno', 'ambient', 'synth', 'kraftwerk', 'daft punk', 'jean-michel jarre', 'yello', 'dj'],
  'pop': ['britney', 'remi wolf', 'sienna spiro', 'carly rae jepsen', 'michael jackson', 'mico', 'donauinselfest', 'rayes', 'pop', 'charts', 'eurovision', 'esc', 'taylor swift', 'tate mcrae', 'zara larsson', 'olivia rodrigo', 'sabrina carpenter', 'dua lipa', 'harry styles', 'ed sheeran', 'adele', 'raye', 'james blunt', 'winehouse', 'billie eilish', 'lady gaga', 'miley cyrus', 'mariah carey', 'sombr', 'sam fender', 'mercury prize'],
@@ -316,8 +319,8 @@ def load():
             if it.get('s') == 'musik':   # Blues seit 26.10.2026 mit Jazz zusammengelegt (Nedy) → "jazz" (Jazz & Blues)
                 if it.get('sub') == 'blues': it['sub'] = 'jazz'
                 if it.get('subs'): it['subs'] = list(dict.fromkeys('jazz' if x == 'blues' else x for x in it['subs']))
-            if it.get('s') == 'musik' and it.get('sub') in MOLD: music_sub(it, MOLD[it['sub']])   # alte Kanäle (bis 25.10.2026) → eines der 20 Genres
-            if it.get('s') == 'musik' and not it.get('sub') and it.get('rub') != 'rueckblick': music_sub(it)   # Genre automatisch, falls nicht gesetzt (seit 24.10.2026, 20 Genres seit 26.10.2026)
+            if it.get('s') == 'musik' and it.get('sub') in MOLD: music_sub(it, MOLD[it['sub']])   # alte Kanäle (bis 25.10.2026) → eines der 21 Genres
+            if it.get('s') == 'musik' and not it.get('sub') and it.get('rub') != 'rueckblick': music_sub(it)   # Genre automatisch, falls nicht gesetzt (seit 24.10.2026, 21 Genres seit 26.10.2026)
             if it.get('s') == 'deutschland': berlin_sub(it)   # Berlin-Meldungen automatisch in die Unterrubrik Berlin (seit 08.10.2026)  # Entertainment aufgeteilt in Film und Musik
             if it.get('img') and not it['img']['f'].startswith('/'): it['img']['f'] = '/' + it['img']['f']  # Pfad immer absolut
             if it.get('img') and not os.path.exists(os.path.join(HERE, 'static', it['img']['f'].lstrip('/'))):
@@ -827,7 +830,7 @@ MZU = {'bg': dict(plan='Седмичен план', today='днес', days=['П�
 def mplan_name(k, l): return SUB[l][k][0] if k in SUB[l] else RUB[k][l][0]
 def mplan_url(k, l): return sub_url('musik', k, l) if k in SUB[l] else None
 def musik_grid(l, cur=None):
-    """TWN MUSIC: 20 Genres in 3 Reihen (7/7/6, Nedy 26.10.2026). Zähler = Beiträge der letzten 30 Ausgabetage."""
+    """TWN MUSIC: 21 Genres in 3 Reihen zu je 7 (Nedy 26.10.2026). Zähler = Beiträge der letzten 30 Ausgabetage."""
     Z = MZU[l]; pool = MUSIK.get('all') or []
     rows = ''
     for i, (lab, keys) in enumerate(MROWS):
