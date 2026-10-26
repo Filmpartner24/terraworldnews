@@ -27,3 +27,4 @@ Themen mit aktuellem Anlass bevorzugen (neue Gesetze, Fristen, Preise, Saison). 
 - 2026-10-21 – Wohngeld und Heizhilfe: Deutschland plant Kürzungen, in Bulgarien endet die Frist – Entwurf
 - 2026-10-22 – Zeitumstellung: Nachtschicht dauert eine Stunde länger – was dir in DE und BG zusteht – Entwurf
 - 2026-10-23 – Skisaison 2026/27: Was Liftpässe in Bayern und Bulgarien kosten – und wo Frühbuchen spart – Entwurf
+- 2026-10-26 – Black Friday: So erkennst du Fake-Shops – und so hilft dir der neue Widerrufsbutton – Entwurf
