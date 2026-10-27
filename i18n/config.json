@@ -5,8 +5,8 @@
  ],
  "start": "2026-10-27",
  "model": "claude-sonnet-5-5",
- "workers": 6,
+ "workers": 8,
  "max_items_per_run": 200,
- "max_seconds": 420,
+ "max_seconds": 480,
  "static_days": 14
 }
