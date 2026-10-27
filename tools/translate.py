@@ -62,7 +62,31 @@ REVIEW = """You are the final copy editor of TERRA WORLD NEWS for {lang}. You re
 - lost hedges ("mutmaßlich", "offenbar", "nach Angaben") – presumption of innocence must be kept;
 - literal translations of idioms, unnatural wording, spelling, target-language conventions (scores "2-1", Spanish "170.600 millones", Turkish capitalisation of weekdays/months per TDK, established spellings of foreign names);
 - headline "t" ≤ 90 characters, teaser "d" ≤ 220 characters, same number of body paragraphs.
-Change only what is needed: leave correct sentences exactly as they are. Every change must keep the meaning identical to the German – never change logical relations (time vs. cause: "als" = when/while, not because; "und" vs. "aber"), tense, modality or who said what. If unsure, do not change. Output ONLY JSON: {{"issues": ["short description", …], "severe": true|false, "fixed": {{"L": {{…}}, "x": {{…}}}}}} – "fixed" is the complete corrected version with exactly the same keys as the draft (repeat it unchanged if there is nothing to fix); "severe" is true if the draft contained a factual or legal error."""
+Change only what is needed: leave correct sentences exactly as they are. Every change must keep the meaning identical to the German – never change logical relations (time vs. cause: "als" = when/while, not because; "und" vs. "aber"), tense, modality or who said what. If unsure, do not change. Output ONLY JSON: {{"issues": ["short description", …], "severe": true|false, "edits": [{{"old": "exact text from the draft", "new": "replacement"}}, …]}} – each "old" must be copied character for character from the draft and be long enough to occur only once (a few words to a sentence); "edits" is [] if nothing needs fixing; "severe" is true if the draft contained a factual or legal error."""
+
+
+def apply_edits(draft, edits):
+    """Korrekturen des Korrektors als Ersetzungen anwenden (spart Ausgabe-Tokens gegenüber einer Komplettfassung).
+    Gibt (neue Fassung, Zahl angewandter, Zahl nicht anwendbarer Korrekturen) zurück."""
+    new = json.loads(json.dumps(draft))
+    slots = []   # (Behälter, Schlüssel) aller Texte
+    for part in ('L', 'x'):
+        for k, v in (new.get(part) or {}).items():
+            if isinstance(v, str):
+                slots.append((new[part], k))
+            elif isinstance(v, list):
+                slots += [(v, i) for i, x in enumerate(v) if isinstance(x, str)]
+    ok = bad = 0
+    for ed in edits or []:
+        o, n = (ed or {}).get('old'), (ed or {}).get('new')
+        if not isinstance(o, str) or not isinstance(n, str) or not o:
+            bad += 1; continue
+        hits = [(b, k) for b, k in slots if o in b[k]]
+        if len(hits) != 1 or hits[0][0][hits[0][1]].count(o) != 1:
+            bad += 1; continue
+        b, k = hits[0]
+        b[k] = b[k].replace(o, n); ok += 1
+    return new, ok, bad
 
 
 def _shape(langs):
@@ -194,20 +218,23 @@ def translate(it, langs):
                               f'\n\n{LANG_NAME[l]} draft:\n' + json.dumps({k: out[k] for k in ('L', 'x') if k in out}, ensure_ascii=False))
                 for k, v in u.items():
                     if isinstance(v, int): usage[k] = usage.get(k, 0) + v
-                fixed = rev.get('fixed') if isinstance(rev, dict) else None
-                rev_issues = [str(x)[:200] for x in (rev.get('issues') or [])][:8] if isinstance(rev, dict) else []
-                if fixed and isinstance(fixed.get('L'), dict):
-                    if out.get('x') and not fixed.get('x'):
-                        fixed['x'] = out['x']   # Korrektor hat nur den Text zurückgegeben
-                    for k in out.get('L', {}):
-                        fixed['L'].setdefault(k, out['L'][k])
-                    errs3 = check(src, fixed)
-                    if len(errs3) <= len(errs):
-                        out, errs = fixed, errs3
-                    else:
-                        print(f'  ! Korrektur {it["id"]}/{l} verworfen: {errs3}')
-                if rev.get('severe') and not fixed:
-                    errs.append('Korrektor: ' + '; '.join(rev.get('issues', [])[:3]))
+                rev = rev if isinstance(rev, dict) else {}
+                rev_issues = [str(x)[:200] for x in (rev.get('issues') or [])][:8]
+                draft = {k: out[k] for k in ('L', 'x') if k in out}
+                fixed, n_ok, n_bad = apply_edits(draft, rev.get('edits'))
+                errs3 = check(src, fixed) if n_ok else errs
+                if n_ok and len(errs3) <= len(errs):
+                    out, errs = fixed, errs3
+                elif n_ok:
+                    print(f'  ! Korrektur {it["id"]}/{l} verworfen: {errs3}')
+                    rev_issues = []
+                    if rev.get('severe'):
+                        errs.append('Korrektor: schwerer Fehler, Korrektur nicht prüfbar')
+                if n_bad:
+                    print(f'  ! {it["id"]}/{l}: {n_bad} Korrektur(en) nicht anwendbar')
+                    if rev.get('severe'):
+                        errs.append('Korrektor: schwerer Fehler, Korrektur nicht anwendbar')
+                        rev_issues = []
             except RuntimeError as e:
                 print(f'  ! Korrektor {it["id"]}/{l}: {e}')
         rec = {'h': lang_extra.src_hash(it), 'L': out.get('L', {}), 'at': datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%MZ')}
@@ -221,9 +248,37 @@ def translate(it, langs):
     return result, usage
 
 
+def _status(fatal, force):
+    """Zustand für Kontrollaufgaben (nur bei Änderung schreiben, sonst entstünde bei jedem Lauf ein Commit)."""
+    st = {'ok': fatal is None, 'error': re.sub(r',?"request_id":"[^"]*"', '', fatal)[:300] if fatal else None}
+    sp = os.path.join(HERE, 'translations', 'status.json')
+    old = json.load(open(sp, encoding='utf-8')) if os.path.exists(sp) else None
+    if old != st and (force or old is not None):
+        os.makedirs(os.path.dirname(sp), exist_ok=True)
+        json.dump(st, open(sp, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+
+
+PRICE = CFG.get('price_per_mtok', {'input_tokens': 2.0, 'cache_creation_input_tokens': 2.5, 'cache_read_input_tokens': 0.1, 'output_tokens': 10.0})
+
+
+def cost(tok):
+    return sum(tok.get(k, 0) * v for k, v in PRICE.items()) / 1e6
+
+
+def usage_file():
+    return os.path.join(HERE, 'translations', 'usage', datetime.datetime.utcnow().strftime('%Y-%m') + '.json')
+
+
 def main():
     if not os.environ.get('ANTHROPIC_API_KEY'):
         print('translate: kein ANTHROPIC_API_KEY – übersprungen'); return
+    # Monatsbudget (Nedy 27.10.2026: unter dem API-Guthaben von 200 $ bleiben)
+    uf = usage_file()
+    month = json.load(open(uf, encoding='utf-8')) if os.path.exists(uf) else {'usd': 0.0, 'tokens': {}, 'items': 0}
+    budget = float(CFG.get('monthly_budget_usd', 190))
+    if month['usd'] >= budget:
+        print(f'translate: Monatsbudget erreicht ({month["usd"]:.2f} $ von {budget:.0f} $) – keine Übersetzungen bis Monatsende')
+        _status(f'Monatsbudget erreicht ({month["usd"]:.2f} $ von {budget:.0f} $)', True); return
     langs, start = CFG['langs'], CFG['start']
     todo = []
     store = {}
@@ -273,6 +328,9 @@ def main():
                 if rec.get('flag'):
                     flagged.append({'id': it['id'], 'date': date, 'lang': l, 'why': rec['flag']})
             done += 1
+            if month['usd'] + cost(tot) >= budget:
+                fatal = f'Monatsbudget erreicht ({month["usd"] + cost(tot):.2f} $ von {budget:.0f} $)'
+                print('translate: ' + fatal); ex.shutdown(cancel_futures=True); break
             if time.time() - T0 > CFG.get('max_seconds', 600):
                 print('translate: Zeitlimit erreicht – Rest beim nächsten Lauf'); ex.shutdown(cancel_futures=True); break
     for fp, data in store.items():
@@ -289,13 +347,13 @@ def main():
     if allf or os.path.exists(os.path.join(HERE, 'translations', 'flagged.json')):
         os.makedirs(os.path.join(HERE, 'translations'), exist_ok=True)
         json.dump(sorted(allf, key=lambda x: (x['date'], x['id'], x['lang'])), open(os.path.join(HERE, 'translations', 'flagged.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-    # Zustand für Kontrollaufgaben (nur bei Änderung schreiben, sonst entstünde bei jedem Lauf ein Commit)
-    st = {'ok': fatal is None, 'error': re.sub(r',?"request_id":"[^"]*"', '', fatal)[:300] if fatal else None}
-    sp = os.path.join(HERE, 'translations', 'status.json')
-    old = json.load(open(sp, encoding='utf-8')) if os.path.exists(sp) else None
-    if old != st and (todo or old is not None):
-        os.makedirs(os.path.dirname(sp), exist_ok=True)
-        json.dump(st, open(sp, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    if tot:
+        for k, v in tot.items(): month['tokens'][k] = month['tokens'].get(k, 0) + v
+        month['usd'] = round(month['usd'] + cost(tot), 4); month['items'] = month.get('items', 0) + done
+        os.makedirs(os.path.dirname(uf), exist_ok=True)
+        json.dump(month, open(uf, 'w', encoding='utf-8'), indent=1)
+        print(f'translate: Monat bisher {month["usd"]:.2f} $ (Budget {budget:.0f} $)')
+    _status(fatal, bool(todo))
     print(f'translate: {done} übersetzt, {len(flagged)} markiert, Tokens {tot}')
 
 
