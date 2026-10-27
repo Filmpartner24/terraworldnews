@@ -53,3 +53,8 @@ Andere gesperrte Datenquellen (z. B. match.uefa.com, standings.uefa.com) ebenfal
 ## 7. Benachrichtigung (Nedys Wunsch: nur Berichte per E-Mail, sonst nur bei Problemen)
 - Bei Problemen (Lauf konnte nicht veröffentlichen, Action rot, deutlich weniger als die Soll-Anzahl, Daten-/Videoprüfung unmöglich, Tagessperre unklar): am Ende PushNotification (status "proactive") mit <routine_summary>Problem in einem Satz + was fehlt</routine_summary>.
 - Läuft alles normal: KEINE PushNotification (Ausnahmen: Besucher-Tages-/Wochenbericht immer; Leben & Alltag: Hinweis „Entwurf wartet auf Freigabe“).
+
+## 8. Türkisch und Spanisch (seit 27.10.2026, Nedy)
+- Die tr/es-Fassungen entstehen AUTOMATISCH in der GitHub Action (tools/translate.py, Anthropic-API) aus dem DEUTSCHEN Text jeder Meldung und liegen in translations/<tr|es>/<Datum>.json. Aufgaben schreiben weiterhin nur bg/de/en – deshalb den deutschen Text besonders sorgfältig formulieren (Zitate, „mutmaßlich“, Zuordnungen).
+- translations/ und i18n/ nie von Hand ändern. Wird ein deutscher Text später korrigiert, wird die Übersetzung automatisch erneuert.
+- translations/flagged.json = Übersetzungen, die die automatische Prüfung (Zahlen, Zitate, Absätze, Längen) nicht bestanden haben und deshalb NICHT veröffentlicht sind. translations/status.json "ok": false = API nicht nutzbar (Guthaben/Limit/Schlüssel) → im Bericht als Problem melden.

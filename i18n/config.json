@@ -1,0 +1,12 @@
+{
+ "langs": [
+  "tr",
+  "es"
+ ],
+ "start": "2026-10-27",
+ "model": "claude-sonnet-5-5",
+ "workers": 6,
+ "max_items_per_run": 200,
+ "max_seconds": 420,
+ "static_days": 3
+}

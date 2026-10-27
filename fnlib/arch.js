@@ -11,7 +11,7 @@ export async function onRequest(ctx) {
   const res = await ctx.next();
   if (res.status !== 404) return res;
   const url = new URL(ctx.request.url);
-  const m = url.pathname.match(/^\/(?:(de|en)\/)?(?:novini|nachrichten|news)\/(\d{4})\/(\d{2})\/(\d{2})\/([a-z0-9-]+)\.html$/);
+  const m = url.pathname.match(/^\/(?:(de|en|tr|es)\/)?(?:novini|nachrichten|news|haberler|noticias)\/(\d{4})\/(\d{2})\/(\d{2})\/([a-z0-9-]+)\.html$/);
   if (!m) return res;
   const lang = m[1] || 'bg', day = `${m[2]}-${m[3]}-${m[4]}`, slug = m[5];
   const r = await ctx.env.ASSETS.fetch(new URL(`/_arch/${lang}/${day}/${bucket(slug)}.json`, url.origin));

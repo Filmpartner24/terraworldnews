@@ -1,0 +1,2724 @@
+[
+ {
+  "path": [
+   "LOCALE"
+  ],
+  "tr": "tr_TR",
+  "es": "es_ES"
+ },
+ {
+  "path": [
+   "SLOGAN"
+  ],
+  "tr": [
+   "HABERLER",
+   "GERÇEKLER",
+   "BAĞLAM"
+  ],
+  "es": [
+   "NOTICIAS",
+   "HECHOS",
+   "CONTEXTO"
+  ]
+ },
+ {
+  "path": [
+   "NAV_GROUPS",
+   0,
+   1
+  ],
+  "tr": "Haberler",
+  "es": "Noticias"
+ },
+ {
+  "path": [
+   "NAV_GROUPS",
+   1,
+   1
+  ],
+  "tr": "Yaşam",
+  "es": "Vida"
+ },
+ {
+  "path": [
+   "NAV_GROUPS",
+   2,
+   1
+  ],
+  "tr": "Ekonomi & Bilgi",
+  "es": "Economía y conocimiento"
+ },
+ {
+  "path": [
+   "NAV_GROUPS",
+   3,
+   1
+  ],
+  "tr": "Eğlence",
+  "es": "Entretenimiento"
+ },
+ {
+  "path": [
+   "NAV_GROUPS",
+   4,
+   1
+  ],
+  "tr": "Spor",
+  "es": "Deportes"
+ },
+ {
+  "path": [
+   "SUB"
+  ],
+  "tr": {
+   "rockmetal": [
+    "Rock & Metal",
+    "rock-metal"
+   ],
+   "poprnb": [
+    "Pop & R&B",
+    "pop-rnb"
+   ],
+   "electronic": [
+    "Elektronik",
+    "elektronik"
+   ],
+   "filmclassic": [
+    "Film & Klasik",
+    "film-klasik"
+   ],
+   "folkroots": [
+    "Folk & Kökler",
+    "folk-kokler"
+   ],
+   "fussball": [
+    "Futbol",
+    "futbol"
+   ],
+   "championsleague": [
+    "Champions League",
+    "champions-league"
+   ],
+   "europaleague": [
+    "Europa League",
+    "europa-league"
+   ],
+   "conferenceleague": [
+    "Conference League",
+    "conference-league"
+   ],
+   "laenderspiele": [
+    "Milli maçlar",
+    "milli-maclar"
+   ],
+   "boxen": [
+    "Boks",
+    "boks"
+   ],
+   "mma": [
+    "MMA",
+    "mma"
+   ],
+   "liebe": [
+    "Aşk & İlişkiler",
+    "ask-iliskiler"
+   ],
+   "berlin": [
+    "Berlin",
+    "berlin"
+   ],
+   "oberfranken": [
+    "Yukarı Frankonya",
+    "yukari-frankonya"
+   ],
+   "guinness": [
+    "Guinness Dünya Rekorları",
+    "guinness-dunya-rekorlari"
+   ],
+   "raumfahrt": [
+    "Uzay",
+    "uzay"
+   ],
+   "formel1": [
+    "Formula 1",
+    "formula-1"
+   ],
+   "tennis": [
+    "Tenis",
+    "tenis"
+   ],
+   "handball": [
+    "Hentbol",
+    "hentbol"
+   ],
+   "extremsport": [
+    "Ekstrem sporlar",
+    "ekstrem-sporlar"
+   ],
+   "imtrend": [
+    "Trendler",
+    "trendler"
+   ],
+   "designer": [
+    "Tasarımcılar",
+    "tasarimcilar"
+   ],
+   "dessous": [
+    "İç giyim",
+    "ic-giyim"
+   ],
+   "pop": [
+    "Pop & K-pop",
+    "pop-k-pop"
+   ],
+   "deutschpop": [
+    "Alman rock & pop",
+    "alman-rock-pop"
+   ],
+   "rock": [
+    "Rock",
+    "rock"
+   ],
+   "metal": [
+    "Metal",
+    "metal"
+   ],
+   "hiphop": [
+    "Hip-hop",
+    "hip-hop"
+   ],
+   "rnbsoul": [
+    "R&B & Soul",
+    "rnb-soul"
+   ],
+   "indie": [
+    "Indie & Alternatif",
+    "indie-alternatif"
+   ],
+   "dance": [
+    "Dance & EDM",
+    "dance-edm"
+   ],
+   "latin": [
+    "Latin",
+    "latin"
+   ],
+   "reggae": [
+    "Afrobeats & reggae",
+    "afrobeats-reggae"
+   ],
+   "popfolk": [
+    "Pop-folk",
+    "pop-folk"
+   ],
+   "country": [
+    "Country",
+    "country"
+   ],
+   "folk": [
+    "Folk",
+    "folk"
+   ],
+   "schlager": [
+    "Schlager",
+    "schlager"
+   ],
+   "jazz": [
+    "Caz & blues",
+    "caz-blues"
+   ],
+   "soulfunk": [
+    "Soul & funk",
+    "soul-funk"
+   ],
+   "klassik": [
+    "Klasik müzik",
+    "klasik-muzik"
+   ],
+   "filmmusik": [
+    "Film müziği",
+    "film-muzigi"
+   ],
+   "world": [
+    "Dünya müziği",
+    "dunya-muzigi"
+   ],
+   "punk": [
+    "Punk",
+    "punk"
+   ]
+  },
+  "es": {
+   "rockmetal": [
+    "Rock & Metal",
+    "rock-metal"
+   ],
+   "poprnb": [
+    "Pop & R&B",
+    "pop-rnb"
+   ],
+   "electronic": [
+    "Electrónica",
+    "electronica"
+   ],
+   "filmclassic": [
+    "Cine & Clásica",
+    "cine-clasica"
+   ],
+   "folkroots": [
+    "Folk & Raíces",
+    "folk-raices"
+   ],
+   "fussball": [
+    "Fútbol",
+    "futbol"
+   ],
+   "championsleague": [
+    "Champions League",
+    "champions-league"
+   ],
+   "europaleague": [
+    "Europa League",
+    "europa-league"
+   ],
+   "conferenceleague": [
+    "Conference League",
+    "conference-league"
+   ],
+   "laenderspiele": [
+    "Selecciones",
+    "selecciones"
+   ],
+   "boxen": [
+    "Boxeo",
+    "boxeo"
+   ],
+   "mma": [
+    "MMA",
+    "mma"
+   ],
+   "liebe": [
+    "Amor & Pareja",
+    "amor-pareja"
+   ],
+   "berlin": [
+    "Berlín",
+    "berlin"
+   ],
+   "oberfranken": [
+    "Alta Franconia",
+    "alta-franconia"
+   ],
+   "guinness": [
+    "Récords Guinness",
+    "records-guinness"
+   ],
+   "raumfahrt": [
+    "Espacio",
+    "espacio"
+   ],
+   "formel1": [
+    "Fórmula 1",
+    "formula-1"
+   ],
+   "tennis": [
+    "Tenis",
+    "tenis"
+   ],
+   "handball": [
+    "Balonmano",
+    "balonmano"
+   ],
+   "extremsport": [
+    "Deportes extremos",
+    "deportes-extremos"
+   ],
+   "imtrend": [
+    "Tendencias",
+    "tendencias"
+   ],
+   "designer": [
+    "Diseñadores",
+    "disenadores"
+   ],
+   "dessous": [
+    "Lencería",
+    "lenceria"
+   ],
+   "pop": [
+    "Pop & K-pop",
+    "pop-k-pop"
+   ],
+   "deutschpop": [
+    "Rock & pop alemán",
+    "rock-pop-aleman"
+   ],
+   "rock": [
+    "Rock",
+    "rock"
+   ],
+   "metal": [
+    "Metal",
+    "metal"
+   ],
+   "hiphop": [
+    "Hip-hop",
+    "hip-hop"
+   ],
+   "rnbsoul": [
+    "R&B & Soul",
+    "rnb-soul"
+   ],
+   "indie": [
+    "Indie & Alternativo",
+    "indie-alternativo"
+   ],
+   "dance": [
+    "Dance & EDM",
+    "dance-edm"
+   ],
+   "latin": [
+    "Música latina",
+    "musica-latina"
+   ],
+   "reggae": [
+    "Afrobeats & reggae",
+    "afrobeats-reggae"
+   ],
+   "popfolk": [
+    "Pop-folk",
+    "pop-folk"
+   ],
+   "country": [
+    "Country",
+    "country"
+   ],
+   "folk": [
+    "Folk",
+    "folk"
+   ],
+   "schlager": [
+    "Schlager",
+    "schlager"
+   ],
+   "jazz": [
+    "Jazz & blues",
+    "jazz-blues"
+   ],
+   "soulfunk": [
+    "Soul & funk",
+    "soul-funk"
+   ],
+   "klassik": [
+    "Clásica",
+    "clasica"
+   ],
+   "filmmusik": [
+    "Bandas sonoras",
+    "bandas-sonoras"
+   ],
+   "world": [
+    "Músicas del mundo",
+    "musicas-del-mundo"
+   ],
+   "punk": [
+    "Punk",
+    "punk"
+   ]
+  }
+ },
+ {
+  "path": [
+   "SEC"
+  ],
+  "tr": {
+   "welt": [
+    "Dünya",
+    "dunya"
+   ],
+   "europa": [
+    "Avrupa",
+    "avrupa"
+   ],
+   "deutschland": [
+    "Almanya",
+    "almanya"
+   ],
+   "bulgarien": [
+    "Bulgaristan",
+    "bulgaristan"
+   ],
+   "ki": [
+    "Teknoloji",
+    "teknoloji"
+   ],
+   "wirtschaft": [
+    "Ekonomi",
+    "ekonomi"
+   ],
+   "business": [
+    "İş dünyası",
+    "is-dunyasi"
+   ],
+   "auto": [
+    "Otomobil",
+    "otomobil"
+   ],
+   "klima": [
+    "İklim",
+    "iklim"
+   ],
+   "ai": [
+    "Yapay zekâ",
+    "yapay-zeka"
+   ],
+   "energie": [
+    "Enerji",
+    "enerji"
+   ],
+   "kultur": [
+    "Eğlence",
+    "eglence"
+   ],
+   "leben": [
+    "Yaşam",
+    "yasam"
+   ],
+   "games": [
+    "Oyunlar",
+    "oyunlar"
+   ],
+   "sport": [
+    "Spor",
+    "spor"
+   ],
+   "film": [
+    "Sinema",
+    "sinema"
+   ],
+   "musik": [
+    "Müzik",
+    "muzik"
+   ],
+   "mode": [
+    "Moda",
+    "moda"
+   ],
+   "wow": [
+    "WOW",
+    "wow"
+   ]
+  },
+  "es": {
+   "welt": [
+    "Mundo",
+    "mundo"
+   ],
+   "europa": [
+    "Europa",
+    "europa"
+   ],
+   "deutschland": [
+    "Alemania",
+    "alemania"
+   ],
+   "bulgarien": [
+    "Bulgaria",
+    "bulgaria"
+   ],
+   "ki": [
+    "Tecnología",
+    "tecnologia"
+   ],
+   "wirtschaft": [
+    "Economía",
+    "economia"
+   ],
+   "business": [
+    "Empresas",
+    "empresas"
+   ],
+   "auto": [
+    "Motor",
+    "motor"
+   ],
+   "klima": [
+    "Clima",
+    "clima"
+   ],
+   "ai": [
+    "IA",
+    "ia"
+   ],
+   "energie": [
+    "Energía",
+    "energia"
+   ],
+   "kultur": [
+    "Entretenimiento",
+    "entretenimiento"
+   ],
+   "leben": [
+    "Vida cotidiana",
+    "vida-cotidiana"
+   ],
+   "games": [
+    "Videojuegos",
+    "videojuegos"
+   ],
+   "sport": [
+    "Deportes",
+    "deportes"
+   ],
+   "film": [
+    "Cine",
+    "cine"
+   ],
+   "musik": [
+    "Música",
+    "musica"
+   ],
+   "mode": [
+    "Moda",
+    "moda"
+   ],
+   "wow": [
+    "WOW",
+    "wow"
+   ]
+  }
+ },
+ {
+  "path": [
+   "SEO_DESC",
+   "mode"
+  ],
+  "tr": "Moda haberleri: moda haftaları, tasarımcılar ve moda evleri, trendler, koleksiyonlar, sürdürülebilir moda ve moda sektörü – her gün, videolarla.",
+  "es": "Noticias de moda: semanas de la moda, diseñadores y casas de moda, tendencias, colecciones, moda sostenible y la industria – a diario, con vídeos."
+ },
+ {
+  "path": [
+   "SEO_DESC",
+   "auto"
+  ],
+  "tr": "Otomobil haberleri: yeni modeller ve dünya prömiyerleri, lüks otomobiller, fuarlar, röportajlar ve sektör haberleri – üretici videolarıyla.",
+  "es": "Noticias del motor: nuevos modelos y estrenos mundiales, coches de lujo, salones, entrevistas y noticias del sector – con vídeos de los fabricantes."
+ },
+ {
+  "path": [
+   "SEO_DESC",
+   "welt"
+  ],
+  "tr": "Bugünün dünya haberleri: ABD dahil dünyanın dört bir yanından siyaset, çatışmalar, seçimler ve krizler. Her gün doğrulanır, kaynak ve videolarla.",
+  "es": "Noticias internacionales de hoy: política, conflictos, elecciones y crisis en todo el mundo, incluido EE. UU. Verificadas a diario, con fuentes y vídeos."
+ },
+ {
+  "path": [
+   "SEO_DESC",
+   "europa"
+  ],
+  "tr": "Avrupa ve AB'den haberler: Brüksel, hükümetler, seçimler ve gündelik hayatı etkileyen kararlar. Her gün doğrulanır, kaynaklarla.",
+  "es": "Noticias de Europa y la UE: Bruselas, gobiernos, elecciones y decisiones que afectan a la vida diaria. Verificadas a diario, con fuentes."
+ },
+ {
+  "path": [
+   "SEO_DESC",
+   "deutschland"
+  ],
+  "tr": "Almanya'dan haberler: federal hükümet, CDU/CSU, AfD, SPD, Yeşiller ve Sol Parti gibi partiler, ekonomi ve toplum. Her gün doğrulanır.",
+  "es": "Noticias de Alemania: el Gobierno federal, partidos como CDU/CSU, AfD, SPD, Verdes y La Izquierda, economía y sociedad. Verificadas a diario."
+ },
+ {
+  "path": [
+   "SEO_DESC",
+   "bulgarien"
+  ],
+  "tr": "Bulgaristan'dan haberler: hükümet, partiler, ekonomi, yargı ve toplum – BTA, BNT ve diğer kaynaklara dayanarak. Her gün doğrulanır.",
+  "es": "Noticias de Bulgaria: Gobierno, partidos, economía, justicia y sociedad – a partir de BTA, BNT y otras fuentes. Verificadas a diario."
+ },
+ {
+  "path": [
+   "SEO_DESC",
+   "ki"
+  ],
+  "tr": "Teknoloji haberleri: bilim, otomobil ve mobilite, kuantum ve biyoteknoloji, uzay, çipler ve inovasyon – videolarla.",
+  "es": "Noticias de tecnología: ciencia, coches y movilidad, cuántica y biotecnología, espacio, chips e innovación – con vídeos."
+ },
+ {
+  "path": [
+   "SEO_DESC",
+   "ai"
+  ],
+  "tr": "Yapay zekâ haberleri: ChatGPT, Claude, Gemini ve yeni modeller, yapay zekâ girişimleri, robotlar ve uygulamalar – her gün video ve kaynaklarla.",
+  "es": "Noticias de IA: ChatGPT, Claude, Gemini y nuevos modelos, startups de IA, robots y aplicaciones – a diario, con vídeos y fuentes."
+ },
+ {
+  "path": [
+   "SEO_DESC",
+   "wirtschaft"
+  ],
+  "tr": "Ekonomi haberleri: Almanya, Bulgaristan ve dünyada büyüme, şirketler, fiyatlar, istihdam ve ticaret.",
+  "es": "Noticias de economía: coyuntura, empresas, precios, empleo y comercio en Alemania, Bulgaria y el mundo."
+ },
+ {
+  "path": [
+   "SEO_DESC",
+   "energie"
+  ],
+  "tr": "Enerji haberleri: rüzgâr, güneş, hidroelektrik, nükleer, doğalgaz, elektrik şebekeleri ve elektrik fiyatları – Bulgaristan, Almanya ve Avrupa odaklı.",
+  "es": "Noticias de energía: eólica, solar, hidráulica, nuclear, gas, redes eléctricas y precios de la luz – con foco en Bulgaria, Alemania y Europa."
+ },
+ {
+  "path": [
+   "SEO_DESC",
+   "klima"
+  ],
+  "tr": "İklim haberleri: küresel ısınma, sıcaklık rekorları, aşırı hava olayları, doğal afetler ve iklim politikası – bilimsel kaynaklara dayanarak.",
+  "es": "Noticias del clima: calentamiento global, récords de temperatura, fenómenos extremos, catástrofes naturales y política climática – con fuentes científicas."
+ },
+ {
+  "path": [
+   "SEO_DESC",
+   "leben"
+  ],
+  "tr": "Yaşam: sağlık, Almanya ve Bulgaristan'da yaşam maliyeti, fiyat karşılaştırmaları, kiralar, konut ve dünyanın en güzel yerleri.",
+  "es": "Vida cotidiana: salud, coste de la vida en Alemania y Bulgaria, comparativas de precios, alquileres, vivienda y los lugares más bellos del mundo."
+ },
+ {
+  "path": [
+   "SEO_DESC",
+   "film"
+  ],
+  "tr": "Sinema haberleri: vizyona girenler, resmi fragmanlar, dijital platformlar ve Hollywood – her gün üç fragman ve güncel haberler.",
+  "es": "Noticias de cine: estrenos, tráilers oficiales, streaming y Hollywood – tres tráilers y noticias frescas cada día."
+ },
+ {
+  "path": [
+   "SEO_DESC",
+   "musik"
+  ],
+  "tr": "Müzik haberleri: yeni albüm incelemeleri, single'lar ve klipler, turne tarihleri ve dünya genelinde konserler – her gün güncellenir.",
+  "es": "Noticias de música: críticas de nuevos discos, sencillos y videoclips, fechas de giras y conciertos en todo el mundo – actualizadas a diario."
+ },
+ {
+  "path": [
+   "SEO_DESC",
+   "games"
+  ],
+  "tr": "Oyun haberleri ve incelemeleri: yeni oyunlar, fragmanlar, GTA 6, Minecraft, PlayStation, Xbox, Nintendo ve PC güncellemeleri – her gün puanlarla.",
+  "es": "Noticias y análisis de videojuegos: lanzamientos, tráilers, novedades de GTA 6, Minecraft, PlayStation, Xbox, Nintendo y PC – a diario, con notas."
+ },
+ {
+  "path": [
+   "SEO_DESC",
+   "kultur"
+  ],
+  "tr": "Kültür ve eğlence: konserler, festivaller, ödül törenleri ve sinema.",
+  "es": "Cultura y entretenimiento: conciertos, festivales, premios y cine."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "rockmetal"
+  ],
+  "tr": "Rock & Metal: rock, hard rock, metal ve punk – albüm incelemeleri, klipler, turne tarihleri ve festivaller. Her pazartesi günün kanalı.",
+  "es": "Rock & Metal: rock, hard rock, metal y punk – críticas de discos, videoclips, fechas de giras y festivales. Canal del día cada lunes."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "poprnb"
+  ],
+  "tr": "Pop & R&B: pop, R&B, soul ve hip-hop – yeni albümler, listeler, klipler ve turneler. Her salı günün kanalı.",
+  "es": "Pop & R&B: pop, R&B, soul y hip-hop – nuevos discos, listas, videoclips y giras. Canal del día cada martes."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "electronic"
+  ],
+  "tr": "Elektronik: techno, electro, ambient ve elektronik müziğin öncüleri – yeni çıkanlar, canlı performanslar ve kulüp kültürü.",
+  "es": "Electrónica: techno, electro, ambient y pioneros de la electrónica – lanzamientos, directos y cultura de club."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "filmclassic"
+  ],
+  "tr": "Film & Klasik: film müziği, besteler, soundtrack'ler ve klasik müzik – “Stüdyodan” köşesiyle. Her perşembe günün kanalı.",
+  "es": "Cine & Clásica: música de cine, partituras, bandas sonoras y clásica – con la sección “Desde el estudio”. Canal del día cada jueves."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "folkroots"
+  ],
+  "tr": "Folk & Kökler: folk, country, dünya müziği ve Balkanlar – Bulgaristan ve Güneydoğu Avrupa'dan “Balkan Sound” köşesiyle. Her cuma günün kanalı.",
+  "es": "Folk & Raíces: folk, country, músicas del mundo y los Balcanes – con la sección “Balkan Sound” desde Bulgaria y el sudeste de Europa. Canal del día cada viernes."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "imtrend"
+  ],
+  "tr": "Trendler: parti kombinleri, takı, uç moda, saç modelleri, iç mimari, saatler, gözlükler ve başlıklar – her gün videolarla.",
+  "es": "Tendencias: looks de fiesta, joyería, moda extrema, peinados, interiorismo, relojes, gafas y tocados – a diario, con vídeos."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "designer"
+  ],
+  "tr": "Tasarımcılar: moda evleri, koleksiyonlar, markalar ve podyum – moda haftaları ve defileler her gün videoda.",
+  "es": "Diseñadores: casas de moda, colecciones, firmas y pasarela – semanas de la moda y desfiles a diario en vídeo."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "dessous"
+  ],
+  "tr": "İç giyim: iç giyim koleksiyonları, markalar, burlesk sahnesi ve defileler – tarzıyla moda gazeteciliği.",
+  "es": "Lencería: colecciones de lencería, marcas, escena burlesque y desfiles – periodismo de moda con estilo."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "formel1"
+  ],
+  "tr": "Formula 1: pilotlar ve takımlar klasmanı, tüm kazananlarla yarış takvimi, sıradaki Grand Prix, haberler ve resmi videolar – her yarıştan sonra güncellenir.",
+  "es": "Fórmula 1: clasificación de pilotos y constructores, calendario con todos los ganadores, próximo Gran Premio, noticias y vídeos oficiales – actualizado tras cada carrera."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "tennis"
+  ],
+  "tr": "Tenis: ATP ve WTA dünya sıralaması, devam eden turnuvalar, sıralamadaki Alman ve Bulgar oyuncular, haberler ve resmi videolar – her gün güncellenir.",
+  "es": "Tenis: rankings ATP y WTA, torneos en curso, alemanes y búlgaros en la clasificación, noticias y vídeos oficiales – actualizado a diario."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "raumfahrt"
+  ],
+  "tr": "Uzay: NASA, ESA ve DLR görevleri, roket fırlatmaları, uydular, uzay sondaları, teleskoplar ve ISS – resmi videolarla.",
+  "es": "Espacio: misiones de la NASA, la ESA y el DLR, lanzamientos de cohetes, satélites, sondas, telescopios y la ISS – con vídeos oficiales."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "guinness"
+  ],
+  "tr": "Guinness Dünya Rekorları videoda: en çılgın, en büyük ve en hızlı dünya rekorları – her gün resmi kanaldan yeni bir video.",
+  "es": "Récords Guinness en vídeo: los récords mundiales más locos, grandes y rápidos – cada día un nuevo vídeo del canal oficial."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "handball"
+  ],
+  "tr": "Hentbol Bundesliga: THW Kiel, SC Magdeburg, Füchse Berlin, SG Flensburg-Handewitt ve diğerleriyle sezonun puan durumu, haftaları ve sonuçları – her gün güncellenir.",
+  "es": "Bundesliga de balonmano: clasificación, jornadas y resultados de la temporada con THW Kiel, SC Magdeburg, Füchse Berlin, SG Flensburg-Handewitt y más – actualizado a diario."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "extremsport"
+  ],
+  "tr": "Ekstrem sporlar videoda: BASE atlayışları, dev dalga sörfü, freeride, tırmanış ve ekstrem dünya rekorları – Red Bull ve GoPro gibi resmi kanallardan.",
+  "es": "Deportes extremos en vídeo: saltos BASE, surf de olas gigantes, freeride, escalada y récords extremos – de canales oficiales como Red Bull y GoPro."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "berlin"
+  ],
+  "tr": "Berlin haberleri: Senato ve eyalet meclisi, ulaşım, konut, kültür, polis ve Alman başkentinden son dakika haberleri – her gün kaynaklarla.",
+  "es": "Noticias de Berlín: Senado y Parlamento regional, transporte, vivienda, cultura, policía y última hora desde la capital alemana – a diario, con fuentes."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "oberfranken"
+  ],
+  "tr": "Yukarı Frankonya haberleri: Bayreuth ve Richard Wagner Festivali, Bamberg, Coburg, Hof ve Kulmbach – kültür, turizm ve bölge, kaynaklarla.",
+  "es": "Noticias de Alta Franconia: Bayreuth y el Festival Richard Wagner, Bamberg, Coburgo, Hof y Kulmbach – cultura, turismo y región, con fuentes."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "liebe"
+  ],
+  "tr": "Aşk & İlişkiler: partner arayışı, online flört, ilişkiler, aile ve birlikte yaşam üzerine araştırmalar, aşk dolandırıcılığına karşı korunma – nesnel ve kaynaklı.",
+  "es": "Amor & Pareja: búsqueda de pareja, citas online, estudios sobre relaciones, familia y convivencia, protección contra estafas románticas – con rigor y fuentes."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "laenderspiele"
+  ],
+  "tr": "Milli maçlar: Uluslar Ligi puan tabloları, Almanya milli takımının tüm maçları, milli takım haberleri ve maç özetleri videoda.",
+  "es": "Selecciones: clasificaciones de la Nations League, todos los partidos de Alemania, noticias de la selección y resúmenes en vídeo."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "championsleague"
+  ],
+  "tr": "Champions League: lig aşaması puan tablosu, tüm haftalar ve sonuçlar, eleme ve nakavt turları, canlı skorlar ve haberler – resmi UEFA verilerine göre.",
+  "es": "Champions League: clasificación de la fase liga, todas las jornadas y resultados, rondas previas y eliminatorias, marcadores en directo y noticias – con datos oficiales de la UEFA."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "europaleague"
+  ],
+  "tr": "Europa League: lig aşaması puan tablosu, tüm haftalar ve sonuçlar, eleme ve nakavt turları, canlı skorlar ve haberler – resmi UEFA verilerine göre.",
+  "es": "Europa League: clasificación de la fase liga, todas las jornadas y resultados, rondas previas y eliminatorias, marcadores en directo y noticias – con datos oficiales de la UEFA."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "conferenceleague"
+  ],
+  "tr": "Conference League: lig aşaması puan tablosu, tüm haftalar ve sonuçlar, eleme ve nakavt turları, canlı skorlar ve haberler – resmi UEFA verilerine göre.",
+  "es": "Conference League: clasificación de la fase liga, todas las jornadas y resultados, rondas previas y eliminatorias, marcadores en directo y noticias – con datos oficiales de la UEFA."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "fussball"
+  ],
+  "tr": "Futbol: Bundesliga, Premier League, La Liga, Serie A, Ligue 1 ve Bulgaristan Parva Liga'dan puan durumları, fikstürler ve sonuçlar.",
+  "es": "Fútbol: clasificaciones, jornadas y resultados de la Bundesliga, Premier League, LaLiga, Serie A, Ligue 1 y la Parva Liga búlgara."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "boxen"
+  ],
+  "tr": "Boks: WBC, WBA, IBF ve WBO dünya şampiyonları ve maçları, Fury - Joshua ve güncel boks haberleri.",
+  "es": "Boxeo: campeones y combates del CMB, AMB, FIB y OMB, Fury vs. Joshua y la actualidad del boxeo."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "mma"
+  ],
+  "tr": "MMA: UFC, PFL, ONE Championship ve OKTAGON – şampiyonlar, yaklaşan maçlar, sonuçlar ve haberler.",
+  "es": "MMA: UFC, PFL, ONE Championship y OKTAGON – campeones, próximos combates, resultados y noticias."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "pop"
+  ],
+  "tr": "Pop & K-pop: uluslararası pop ve K-pop – yeni albüm ve single'lar, klipler, liste haberleri ve büyük pop yıldızlarıyla idol gruplarının turneleri.",
+  "es": "Pop & K-pop: pop internacional y K-pop – nuevos discos y sencillos, videoclips, noticias de listas y giras de las grandes estrellas del pop y grupos de ídolos."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "deutschpop"
+  ],
+  "tr": "Alman rock & pop: Almanca rock, pop ve şarkıcı-söz yazarları – Almanya, Avusturya ve İsviçre'de albümler, listeler, klipler ve turneler.",
+  "es": "Rock & pop alemán: rock, pop y cantautores en alemán – discos, listas, vídeos y giras en Alemania, Austria y Suiza."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "rock"
+  ],
+  "tr": "Rock: klasik rock, hard rock ve stadyum rock'ı – albüm incelemeleri, klipler, turne tarihleri ve festivaller.",
+  "es": "Rock: rock clásico, hard rock y rock de estadio – críticas de discos, videoclips, fechas de giras y festivales."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "metal"
+  ],
+  "tr": "Metal: heavy, thrash, death, black, power ve senfonik metal – incelemeler, videolar, turne tarihleri ve festivaller.",
+  "es": "Metal: heavy, thrash, death, black, power y metal sinfónico – críticas, vídeos, fechas de giras y festivales."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "hiphop"
+  ],
+  "tr": "Hip-hop: ABD rap'i, Alman rap'i ve uluslararası sahneler – yeni albümler, klipler, listeler ve turneler.",
+  "es": "Hip-hop: rap estadounidense, rap alemán y escenas internacionales – nuevos discos, vídeos, listas y giras."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "rnbsoul"
+  ],
+  "tr": "R&B & Soul: çağdaş R&B, soul ve neo-soul – albümler, klipler ve konserler.",
+  "es": "R&B & Soul: R&B contemporáneo, soul y neo-soul – discos, vídeos y conciertos."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "indie"
+  ],
+  "tr": "Indie & Alternatif: indie rock, indie pop, alternatif, post-punk ve shoegaze – yeni gruplara odaklanarak.",
+  "es": "Indie & Alternativo: indie rock, indie pop, alternativo, post-punk y shoegaze – con especial atención a nuevas bandas."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "dance"
+  ],
+  "tr": "Dance & EDM: house, trance, drum & bass, EDM ve hardtekk – DJ haberleri, festivaller ve yeni parçalar.",
+  "es": "Dance & EDM: house, trance, drum & bass, EDM y hardtekk – noticias de DJ, festivales y nuevos temas."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "latin"
+  ],
+  "tr": "Latin: reggaeton, Latin pop, salsa ve bachata – yıldızlar, albümler, klipler ve turneler.",
+  "es": "Música latina: reguetón, pop latino, salsa y bachata – estrellas, discos, vídeos y giras."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "reggae"
+  ],
+  "tr": "Afrobeats & reggae: Afrobeats, amapiano, roots, dancehall ve dub – yeni çıkanlar, yıldızlar, konserler ve festivaller.",
+  "es": "Afrobeats & reggae: afrobeats, amapiano, roots, dancehall y dub – lanzamientos, estrellas, conciertos y festivales."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "popfolk"
+  ],
+  "tr": "Pop-folk: Bulgar çalga, Sırp turbo-folk, Romen manele ve Yunan laïko – yıldızlar, klipler, konserler ve listeler.",
+  "es": "Pop-folk: chalga búlgara, turbo-folk serbio, manele rumano y laïko griego – estrellas, vídeos, conciertos y listas."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "country"
+  ],
+  "tr": "Country: Nashville, Americana ve country pop – albümler, klipler, turneler ve ödüller.",
+  "es": "Country: Nashville, americana y country pop – discos, vídeos, giras y premios."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "folk"
+  ],
+  "tr": "Folk: şarkıcı-söz yazarları, folk rock, neofolk ve dünyanın dört bir yanından geleneksel müzik.",
+  "es": "Folk: cantautores, folk rock, neofolk y música tradicional de todo el mundo."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "schlager"
+  ],
+  "tr": "Schlager: Almanca schlager ve schlager pop – albümler, listeler, TV programları, portreler ve turneler.",
+  "es": "Schlager: schlager y schlager pop en alemán – discos, listas, programas de televisión, perfiles y giras."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "jazz"
+  ],
+  "tr": "Caz & blues: yeni albümler, festivaller, portreler ve konserler – big band ve modern cazdan blues rock'a, Delta ve Chicago blues'a.",
+  "es": "Jazz & blues: nuevos discos, festivales, perfiles y conciertos – del big band y el jazz moderno al blues rock, el blues del Delta y el de Chicago."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "soulfunk"
+  ],
+  "tr": "Soul & funk: Motown, klasik soul, funk ve neo-soul – yeni albümler, efsaneler, konserler ve turneler.",
+  "es": "Soul & funk: Motown, soul clásico, funk y neo-soul – nuevos discos, leyendas, conciertos y giras."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "klassik"
+  ],
+  "tr": "Klasik müzik: orkestralar, opera, solistler ve neoklasik – kayıtlar, konserler ve festivaller.",
+  "es": "Clásica: orquestas, ópera, solistas y neoclásica – grabaciones, conciertos y festivales."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "filmmusik"
+  ],
+  "tr": "Film müziği: sinema, dizi ve oyunlardan besteler, soundtrack'ler ve besteciler – “Stüdyodan” köşesiyle.",
+  "es": "Bandas sonoras: partituras, bandas sonoras y compositores de cine, series y videojuegos – con la sección “Desde el estudio”."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "world"
+  ],
+  "tr": "Dünya müziği: Afrika, Asya, Orta Doğu ve Balkanlar'dan müzik – albümler, festivaller ve portreler.",
+  "es": "Músicas del mundo: música de África, Asia, Oriente Próximo y los Balcanes – discos, festivales y perfiles."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "punk"
+  ],
+  "tr": "Punk: punk rock, hardcore ve pop punk – yeni plaklar, turneler ve festivaller.",
+  "es": "Punk: punk rock, hardcore y pop punk – nuevos discos, giras y festivales."
+ },
+ {
+  "path": [
+   "MROWS",
+   0,
+   0
+  ],
+  "tr": "Rock & pop",
+  "es": "Rock & pop"
+ },
+ {
+  "path": [
+   "MROWS",
+   1,
+   0
+  ],
+  "tr": "Elektronik & uluslararası",
+  "es": "Electrónica & internacional"
+ },
+ {
+  "path": [
+   "MROWS",
+   2,
+   0
+  ],
+  "tr": "Alman, Balkan & klasik",
+  "es": "Alemana, balcánica & clásica"
+ },
+ {
+  "path": [
+   "NEWS_DIR"
+  ],
+  "tr": "haberler",
+  "es": "noticias"
+ },
+ {
+  "path": [
+   "WEEKDAYS"
+  ],
+  "tr": [
+   "Pazartesi",
+   "Salı",
+   "Çarşamba",
+   "Perşembe",
+   "Cuma",
+   "Cumartesi",
+   "Pazar"
+  ],
+  "es": [
+   "lunes",
+   "martes",
+   "miércoles",
+   "jueves",
+   "viernes",
+   "sábado",
+   "domingo"
+  ]
+ },
+ {
+  "path": [
+   "MONTHS"
+  ],
+  "tr": [
+   "Ocak",
+   "Şubat",
+   "Mart",
+   "Nisan",
+   "Mayıs",
+   "Haziran",
+   "Temmuz",
+   "Ağustos",
+   "Eylül",
+   "Ekim",
+   "Kasım",
+   "Aralık"
+  ],
+  "es": [
+   "enero",
+   "febrero",
+   "marzo",
+   "abril",
+   "mayo",
+   "junio",
+   "julio",
+   "agosto",
+   "septiembre",
+   "octubre",
+   "noviembre",
+   "diciembre"
+  ]
+ },
+ {
+  "path": [
+   "UI"
+  ],
+  "tr": {
+   "home": "Ana sayfa",
+   "tagline": "Dünyadan haberler",
+   "ed": "Sayı {n}",
+   "places": "",
+   "clocks": [
+    [
+     "Berlin",
+     "Europe/Berlin"
+    ],
+    [
+     "Sofya",
+     "Europe/Sofia"
+    ],
+    [
+     "Londra",
+     "Europe/London"
+    ],
+    [
+     "New York",
+     "America/New_York"
+    ],
+    [
+     "Pekin",
+     "Asia/Shanghai"
+    ]
+   ],
+   "brk": "Son dakika",
+   "brkup": "Güncelleme",
+   "vid": "Video",
+   "playv": "▶ Videoyu oynat",
+   "trl": "Günün fragmanları",
+   "nat": "Dünyanın en güzel doğası",
+   "mvd": "Günün klipleri",
+   "tours": "Turneler & konserler",
+   "lead": "Manşet",
+   "most": "Son haberler",
+   "all": "Tüm haberler →",
+   "src": "Kaynaklar",
+   "by": "TWN haber merkezi",
+   "read": "{m} dk okuma",
+   "hour": "",
+   "items": "haber",
+   "facts": "Öne çıkanlar",
+   "more": "Bu bölümden daha fazlası",
+   "trailer": "Fragman",
+   "play": "▶ Fragmanı oynat",
+   "ytnote": "Video oynatıldığında YouTube'dan (Google) yüklenir.",
+   "empty": "Bu bölümde yakında haber merkezimizin haberleri yer alacak.",
+   "foot": "Terra World News (TWN) – dünyadan haberler sunan bağımsız haber portalı · Sofya & Berlin haber merkezleri",
+   "about": "Hakkımızda",
+   "publisher": "Yayıncı: FILMPARTNER 24 EOOD",
+   "imprint": "Künye",
+   "privacy": "Gizlilik",
+   "principles": "Yayın ilkeleri",
+   "rss": "RSS",
+   "back": "Ana sayfaya dön",
+   "desc_home": "HABERLER. GERÇEKLER. BAĞLAM. – TWN – World News (Terra World News): dünyadan, Avrupa, Almanya, Bulgaristan ve ABD'den haberler. Her gün, doğrulanmış ve kaynaklı.",
+   "title_home": "TWN – Terra World News | HABERLER. GERÇEKLER. BAĞLAM.",
+   "live": "CANLI",
+   "lang": "Dil"
+  },
+  "es": {
+   "home": "Portada",
+   "tagline": "Noticias de todo el mundo",
+   "ed": "Número {n}",
+   "places": "",
+   "clocks": [
+    [
+     "Berlín",
+     "Europe/Berlin"
+    ],
+    [
+     "Sofía",
+     "Europe/Sofia"
+    ],
+    [
+     "Londres",
+     "Europe/London"
+    ],
+    [
+     "Nueva York",
+     "America/New_York"
+    ],
+    [
+     "Pekín",
+     "Asia/Shanghai"
+    ]
+   ],
+   "brk": "Última hora",
+   "brkup": "Actualización",
+   "vid": "Vídeo",
+   "playv": "▶ Reproducir vídeo",
+   "trl": "Tráilers del día",
+   "nat": "La naturaleza más bella del mundo",
+   "mvd": "Videoclips del día",
+   "tours": "Giras y conciertos",
+   "lead": "Noticia principal",
+   "most": "Últimas noticias",
+   "all": "Todas las noticias →",
+   "src": "Fuentes",
+   "by": "Redacción de TWN",
+   "read": "{m} min de lectura",
+   "hour": "",
+   "items": "noticias",
+   "facts": "Claves",
+   "more": "Más de esta sección",
+   "trailer": "Tráiler",
+   "play": "▶ Reproducir tráiler",
+   "ytnote": "Al reproducir el vídeo, se carga desde YouTube (Google).",
+   "empty": "Las noticias de nuestra redacción aparecerán pronto en esta sección.",
+   "foot": "Terra World News (TWN) – portal de noticias independiente con noticias de todo el mundo · Redacciones en Sofía y Berlín",
+   "about": "Quiénes somos",
+   "publisher": "Editor: FILMPARTNER 24 EOOD",
+   "imprint": "Aviso legal",
+   "privacy": "Privacidad",
+   "principles": "Principios editoriales",
+   "rss": "RSS",
+   "back": "Volver a la portada",
+   "desc_home": "NOTICIAS. HECHOS. CONTEXTO. – TWN – World News (Terra World News): noticias de todo el mundo, de Europa, Alemania, Bulgaria y EE. UU. A diario, verificadas y con fuentes.",
+   "title_home": "TWN – Terra World News | NOTICIAS. HECHOS. CONTEXTO.",
+   "live": "EN VIVO",
+   "lang": "Idioma"
+  }
+ },
+ {
+  "path": [
+   "LEGAL_SLUG"
+  ],
+  "tr": {
+   "about": "hakkimizda",
+   "imprint": "kunye",
+   "privacy": "gizlilik",
+   "principles": "yayin-ilkeleri"
+  },
+  "es": {
+   "about": "quienes-somos",
+   "imprint": "aviso-legal",
+   "privacy": "privacidad",
+   "principles": "principios-editoriales"
+  }
+ },
+ {
+  "path": [
+   "FBT"
+  ],
+  "tr": {
+   "k": "⚽ CANLI",
+   "a": "Canlı futbol",
+   "ht": "Devre arası",
+   "ft": "MS",
+   "p": "Ara"
+  },
+  "es": {
+   "k": "⚽ EN VIVO",
+   "a": "Fútbol en directo",
+   "ht": "Descanso",
+   "ft": "Final",
+   "p": "Pausa"
+  }
+ },
+ {
+  "path": [
+   "PUBL"
+  ],
+  "tr": "Yayımlanma",
+  "es": "Publicado"
+ },
+ {
+  "path": [
+   "BKT"
+  ],
+  "tr": {
+   "nxt": "Sonraki güncelleme",
+   "tm": "yarın",
+   "live": "CANLI",
+   "upd": "Güncelleme"
+  },
+  "es": {
+   "nxt": "Próxima actualización",
+   "tm": "mañana",
+   "live": "EN VIVO",
+   "upd": "Actualización"
+  }
+ },
+ {
+  "path": [
+   "EXL"
+  ],
+  "tr": "Özel",
+  "es": "Exclusiva"
+ },
+ {
+  "path": [
+   "EXB"
+  ],
+  "tr": "▶ Videoyu izle & haberi oku",
+  "es": "▶ Ver el vídeo y leer el artículo"
+ },
+ {
+  "path": [
+   "BYP"
+  ],
+  "tr": "Yazan: {n}",
+  "es": "Por {n}"
+ },
+ {
+  "path": [
+   "BZ"
+  ],
+  "tr": {
+   "boerse": "PİYASALAR",
+   "asof": "Veri tarihi",
+   "explain": "Bu benim için ne anlama geliyor?",
+   "overview": "Bir bakışta piyasalar",
+   "jump": "Bu sayfada",
+   "full": "Haberin tamamı →",
+   "nodata": "–",
+   "desc": "Borsa, elektrik ve yatırımlar – her gün rakam ve tablolarla, anlaşılır biçimde: Wall Street, Frankfurt, Sofya, IBEX elektrik borsası ve bölgesel yatırımlar.",
+   "noadv": "Yalnızca bilgilendirme amaçlıdır, yatırım tavsiyesi değildir. Fiyatlar belirtilen tarih itibarıyladır, anlık değildir."
+  },
+  "es": {
+   "boerse": "MERCADOS",
+   "asof": "Datos a",
+   "explain": "¿Qué significa esto para mí?",
+   "overview": "Los mercados de un vistazo",
+   "jump": "En esta página",
+   "full": "Artículo completo →",
+   "nodata": "–",
+   "desc": "Bolsa, electricidad e inversiones – a diario con cifras y tablas, explicado con claridad: Wall Street, Fráncfort, Sofía, el mercado eléctrico IBEX e inversión regional.",
+   "noadv": "Solo con fines informativos, no constituye asesoramiento de inversión. Cotizaciones a la fecha indicada, no en tiempo real."
+  }
+ },
+ {
+  "path": [
+   "UNITS",
+   "Pkt."
+  ],
+  "tr": "puan",
+  "es": "ptos."
+ },
+ {
+  "path": [
+   "UNITS",
+   "Mio. EUR"
+  ],
+  "tr": "milyon EUR",
+  "es": "mill. EUR"
+ },
+ {
+  "path": [
+   "UNITS",
+   "Mrd. EUR"
+  ],
+  "tr": "milyar EUR",
+  "es": "mil mill. EUR"
+ },
+ {
+  "path": [
+   "UNITS",
+   "Mio."
+  ],
+  "tr": "milyon",
+  "es": "mill."
+ },
+ {
+  "path": [
+   "UNITS",
+   "Mrd."
+  ],
+  "tr": "milyar",
+  "es": "mil mill."
+ },
+ {
+  "path": [
+   "MPU",
+   "welt"
+  ],
+  "tr": {
+   "more": "Habere git →",
+   "rel": "Tarih",
+   "vid": "Video",
+   "older": "Önceki günler",
+   "playb": "▶ Videoyu oynat",
+   "badge": "VİDEO",
+   "rev": "Videoda dünya",
+   "news": "Dünya haberleri"
+  },
+  "es": {
+   "more": "Leer más →",
+   "rel": "Fecha",
+   "vid": "Vídeo",
+   "older": "Días anteriores",
+   "playb": "▶ Reproducir vídeo",
+   "badge": "VÍDEO",
+   "rev": "El mundo en vídeo",
+   "news": "Noticias internacionales"
+  }
+ },
+ {
+  "path": [
+   "MPU",
+   "europa"
+  ],
+  "tr": {
+   "more": "Habere git →",
+   "rel": "Tarih",
+   "vid": "Video",
+   "older": "Önceki günler",
+   "playb": "▶ Videoyu oynat",
+   "badge": "VİDEO",
+   "rev": "Videoda Avrupa",
+   "news": "Avrupa haberleri"
+  },
+  "es": {
+   "more": "Leer más →",
+   "rel": "Fecha",
+   "vid": "Vídeo",
+   "older": "Días anteriores",
+   "playb": "▶ Reproducir vídeo",
+   "badge": "VÍDEO",
+   "rev": "Europa en vídeo",
+   "news": "Noticias de Europa"
+  }
+ },
+ {
+  "path": [
+   "MPU",
+   "deutschland"
+  ],
+  "tr": {
+   "more": "Habere git →",
+   "rel": "Tarih",
+   "vid": "Video",
+   "older": "Önceki günler",
+   "playb": "▶ Videoyu oynat",
+   "badge": "VİDEO",
+   "rev": "Videoda Almanya",
+   "news": "Almanya haberleri"
+  },
+  "es": {
+   "more": "Leer más →",
+   "rel": "Fecha",
+   "vid": "Vídeo",
+   "older": "Días anteriores",
+   "playb": "▶ Reproducir vídeo",
+   "badge": "VÍDEO",
+   "rev": "Alemania en vídeo",
+   "news": "Noticias de Alemania"
+  }
+ },
+ {
+  "path": [
+   "MPU",
+   "bulgarien"
+  ],
+  "tr": {
+   "more": "Habere git →",
+   "rel": "Tarih",
+   "vid": "Video",
+   "older": "Önceki günler",
+   "playb": "▶ Videoyu oynat",
+   "badge": "VİDEO",
+   "rev": "Videoda Bulgaristan",
+   "news": "Bulgaristan haberleri"
+  },
+  "es": {
+   "more": "Leer más →",
+   "rel": "Fecha",
+   "vid": "Vídeo",
+   "older": "Días anteriores",
+   "playb": "▶ Reproducir vídeo",
+   "badge": "VÍDEO",
+   "rev": "Bulgaria en vídeo",
+   "news": "Noticias de Bulgaria"
+  }
+ },
+ {
+  "path": [
+   "MPU",
+   "klima"
+  ],
+  "tr": {
+   "more": "Habere git →",
+   "rel": "Tarih",
+   "vid": "Video",
+   "older": "Önceki günler",
+   "playb": "▶ Videoyu oynat",
+   "badge": "VİDEO",
+   "rev": "Videoda iklim",
+   "news": "İklim haberleri"
+  },
+  "es": {
+   "more": "Leer más →",
+   "rel": "Fecha",
+   "vid": "Vídeo",
+   "older": "Días anteriores",
+   "playb": "▶ Reproducir vídeo",
+   "badge": "VÍDEO",
+   "rev": "El clima en vídeo",
+   "news": "Noticias del clima"
+  }
+ },
+ {
+  "path": [
+   "MPU",
+   "leben"
+  ],
+  "tr": {
+   "more": "Habere git →",
+   "rel": "Tarih",
+   "vid": "Video",
+   "older": "Önceki günler",
+   "playb": "▶ Videoyu oynat",
+   "badge": "VİDEO",
+   "rev": "Videoda yaşam",
+   "news": "Yaşam"
+  },
+  "es": {
+   "more": "Leer más →",
+   "rel": "Fecha",
+   "vid": "Vídeo",
+   "older": "Días anteriores",
+   "playb": "▶ Reproducir vídeo",
+   "badge": "VÍDEO",
+   "rev": "La vida en vídeo",
+   "news": "Vida cotidiana"
+  }
+ },
+ {
+  "path": [
+   "MPU",
+   "wirtschaft"
+  ],
+  "tr": {
+   "more": "Habere git →",
+   "rel": "Tarih",
+   "vid": "Video",
+   "older": "Önceki günler",
+   "playb": "▶ Videoyu oynat",
+   "badge": "VİDEO",
+   "rev": "Videoda ekonomi",
+   "news": "Ekonomi haberleri"
+  },
+  "es": {
+   "more": "Leer más →",
+   "rel": "Fecha",
+   "vid": "Vídeo",
+   "older": "Días anteriores",
+   "playb": "▶ Reproducir vídeo",
+   "badge": "VÍDEO",
+   "rev": "La economía en vídeo",
+   "news": "Noticias de economía"
+  }
+ },
+ {
+  "path": [
+   "MPU",
+   "energie"
+  ],
+  "tr": {
+   "more": "Habere git →",
+   "rel": "Tarih",
+   "vid": "Video",
+   "older": "Önceki günler",
+   "playb": "▶ Videoyu oynat",
+   "badge": "VİDEO",
+   "rev": "Videoda enerji",
+   "news": "Enerji haberleri"
+  },
+  "es": {
+   "more": "Leer más →",
+   "rel": "Fecha",
+   "vid": "Vídeo",
+   "older": "Días anteriores",
+   "playb": "▶ Reproducir vídeo",
+   "badge": "VÍDEO",
+   "rev": "La energía en vídeo",
+   "news": "Noticias de energía"
+  }
+ },
+ {
+  "path": [
+   "MPU",
+   "ki"
+  ],
+  "tr": {
+   "more": "Habere git →",
+   "rel": "Tarih",
+   "vid": "Video",
+   "older": "Diğer haberler",
+   "playb": "▶ Videoyu oynat",
+   "badge": "TEKNOLOJİ",
+   "rev": "Günün teknoloji videoları",
+   "news": "Teknoloji haberleri"
+  },
+  "es": {
+   "more": "Leer más →",
+   "rel": "Fecha",
+   "vid": "Vídeo",
+   "older": "Más noticias",
+   "playb": "▶ Reproducir vídeo",
+   "badge": "TECNOLOGÍA",
+   "rev": "Vídeos de tecnología del día",
+   "news": "Noticias de tecnología"
+  }
+ },
+ {
+  "path": [
+   "MPU",
+   "ai"
+  ],
+  "tr": {
+   "more": "Habere git →",
+   "rel": "Tarih",
+   "vid": "Video",
+   "older": "Önceki haberler",
+   "playb": "▶ Videoyu oynat",
+   "badge": "YAPAY ZEKÂ",
+   "rev": "Günün yapay zekâ videoları",
+   "news": "Yapay zekâ haberleri"
+  },
+  "es": {
+   "more": "Leer más →",
+   "rel": "Fecha",
+   "vid": "Vídeo",
+   "older": "Noticias anteriores",
+   "playb": "▶ Reproducir vídeo",
+   "badge": "IA",
+   "rev": "Vídeos de IA del día",
+   "news": "Noticias de IA"
+  }
+ },
+ {
+  "path": [
+   "MPU",
+   "sport"
+  ],
+  "tr": {
+   "rev": "Günün özetleri",
+   "badge": "SPOR",
+   "more": "Habere git →",
+   "rel": "Tarih",
+   "vid": "Video",
+   "older": "Önceki haberler",
+   "playb": "▶ Videoyu oynat"
+  },
+  "es": {
+   "rev": "Lo mejor del día",
+   "badge": "DEPORTES",
+   "more": "Leer más →",
+   "rel": "Fecha",
+   "vid": "Vídeo",
+   "older": "Noticias anteriores",
+   "playb": "▶ Reproducir vídeo"
+  }
+ },
+ {
+  "path": [
+   "MPU",
+   "film"
+  ],
+  "tr": {
+   "rev": "Günün fragmanları",
+   "badge": "FRAGMAN",
+   "more": "Habere git →",
+   "rel": "Vizyon",
+   "devl": "Yönetmen:",
+   "vid": "Fragman",
+   "older": "Önceki fragmanlar"
+  },
+  "es": {
+   "rev": "Tráilers del día",
+   "badge": "TRÁILER",
+   "more": "Leer más →",
+   "rel": "Estreno",
+   "devl": "Dirección:",
+   "vid": "Tráiler",
+   "older": "Tráilers anteriores"
+  }
+ },
+ {
+  "path": [
+   "MPU",
+   "auto"
+  ],
+  "tr": {
+   "playb": "▶ Videoyu oynat",
+   "rev": "Videoda otomobiller",
+   "news": "Otomobil haberleri",
+   "badge": "OTOMOBİL",
+   "more": "Habere git →",
+   "rel": "Prömiyer",
+   "vid": "Video",
+   "older": "Önceki haberler"
+  },
+  "es": {
+   "playb": "▶ Reproducir vídeo",
+   "rev": "Coches en vídeo",
+   "news": "Noticias del motor",
+   "badge": "MOTOR",
+   "more": "Leer más →",
+   "rel": "Estreno",
+   "vid": "Vídeo",
+   "older": "Noticias anteriores"
+  }
+ },
+ {
+  "path": [
+   "MPU",
+   "mode"
+  ],
+  "tr": {
+   "playb": "▶ Videoyu oynat",
+   "rev": "Videoda moda",
+   "news": "Moda haberleri",
+   "badge": "MODA",
+   "more": "Habere git →",
+   "rel": "Tarih",
+   "vid": "Video",
+   "older": "Önceki haberler"
+  },
+  "es": {
+   "playb": "▶ Reproducir vídeo",
+   "rev": "La moda en vídeo",
+   "news": "Noticias de moda",
+   "badge": "MODA",
+   "more": "Leer más →",
+   "rel": "Fecha",
+   "vid": "Vídeo",
+   "older": "Noticias anteriores"
+  }
+ },
+ {
+  "path": [
+   "MPU",
+   "games"
+  ],
+  "tr": {
+   "rev": "En yeni oyunlar – incelemeler",
+   "news": "Oyun haberleri",
+   "older": "Önceki incelemeler & haberler"
+  },
+  "es": {
+   "rev": "Los últimos videojuegos – análisis",
+   "news": "Noticias de videojuegos",
+   "older": "Análisis y noticias anteriores"
+  }
+ },
+ {
+  "path": [
+   "MPU",
+   "musik"
+  ],
+  "tr": {
+   "playb": "▶ Videoyu oynat",
+   "rev": "Günün albüm incelemeleri",
+   "badge": "ALBÜM",
+   "more": "İncelemeyi oku →",
+   "rel": "Çıkış",
+   "vid": "Single klibi",
+   "older": "Önceki albümler",
+   "single": "Single"
+  },
+  "es": {
+   "playb": "▶ Reproducir vídeo",
+   "rev": "Críticas de discos del día",
+   "badge": "DISCO",
+   "more": "Leer la crítica →",
+   "rel": "Lanzamiento",
+   "vid": "Vídeo del sencillo",
+   "older": "Discos anteriores",
+   "single": "Sencillo"
+  }
+ },
+ {
+  "path": [
+   "GPU"
+  ],
+  "tr": {
+   "rev": "Günün incelemeleri",
+   "news": "Haberler",
+   "older": "Önceki incelemeler",
+   "more": "İncelemeyi oku →",
+   "badge": "İNCELEME",
+   "pf": "Platformlar",
+   "rel": "Çıkış",
+   "dev": "Stüdyo",
+   "vid": "Fragman",
+   "single": "Single"
+  },
+  "es": {
+   "rev": "Análisis del día",
+   "news": "Noticias",
+   "older": "Análisis anteriores",
+   "more": "Leer el análisis →",
+   "badge": "ANÁLISIS",
+   "pf": "Plataformas",
+   "rel": "Lanzamiento",
+   "dev": "Estudio",
+   "vid": "Tráiler",
+   "single": "Sencillo"
+  }
+ },
+ {
+  "path": [
+   "RVU"
+  ],
+  "tr": {
+   "box": "Eleştirmen puanı",
+   "avg": "Eleştirmen ortalaması",
+   "pro": "Artılar",
+   "con": "Eksiler",
+   "fz": "Eleştirmenlerin kararı",
+   "scores": "Puanlar",
+   "pf": "Platformlar",
+   "dev": "Stüdyo",
+   "rel": "Çıkış",
+   "note": "Yayımlanmış incelemelerin özeti – kaynaklar aşağıda."
+  },
+  "es": {
+   "box": "Valoración de la crítica",
+   "avg": "Media de la crítica",
+   "pro": "Lo mejor",
+   "con": "Lo peor",
+   "fz": "Veredicto de la crítica",
+   "scores": "Notas",
+   "pf": "Plataformas",
+   "dev": "Estudio",
+   "rel": "Lanzamiento",
+   "note": "Resumen de análisis publicados – fuentes abajo."
+  }
+ },
+ {
+  "path": [
+   "RUB",
+   "rueckblick"
+  ],
+  "tr": [
+   "Haftanın özeti",
+   "Tüm türlerden haftanın en önemli haberleri – her cumartesi."
+  ],
+  "es": [
+   "Resumen semanal",
+   "Lo más importante de la semana en todos los géneros – cada sábado."
+  ]
+ },
+ {
+  "path": [
+   "RUB",
+   "longread"
+  ],
+  "tr": [
+   "Uzun okuma",
+   "Röportajlar, portreler ve albüm değerlendirmeleri – her pazar."
+  ],
+  "es": [
+   "Lectura larga",
+   "Entrevistas, perfiles y análisis a fondo de discos – cada domingo."
+  ]
+ },
+ {
+  "path": [
+   "RUB",
+   "studio"
+  ],
+  "tr": [
+   "Stüdyodan",
+   "Besteci Nedy John Cross film müziğini anlatıyor: bir film müziği nasıl işler."
+  ],
+  "es": [
+   "Desde el estudio",
+   "El compositor Nedy John Cross habla de música de cine: cómo funciona una banda sonora."
+  ]
+ },
+ {
+  "path": [
+   "RUB",
+   "buehne"
+  ],
+  "tr": [
+   "Bir zamanlar sahnede",
+   "90'ların turnelerinden anılar ve rock'ın büyükleriyle karşılaşmalar."
+  ],
+  "es": [
+   "Aquellos escenarios",
+   "Recuerdos de giras de los años 90 y encuentros con los grandes del rock."
+  ]
+ },
+ {
+  "path": [
+   "RUB",
+   "balkan"
+  ],
+  "tr": [
+   "Balkan Sound",
+   "Bulgaristan ve Güneydoğu Avrupa'dan müzik – folk'tan metal'e."
+  ],
+  "es": [
+   "Balkan Sound",
+   "Música de Bulgaria y el sudeste de Europa – del folk al metal."
+  ]
+ },
+ {
+  "path": [
+   "MZU"
+  ],
+  "tr": {
+   "plan": "Haftalık plan",
+   "today": "bugün",
+   "days": [
+    "Pzt",
+    "Sal",
+    "Çar",
+    "Per",
+    "Cum",
+    "Cmt",
+    "Paz"
+   ],
+   "chan": "Kanallar",
+   "chn": "7 günde {n} haber",
+   "rub": "Yalnızca TWN'de",
+   "newest": "Son:",
+   "songs": "Haftanın 3 şarkısı",
+   "week": "Hafta",
+   "tours": "Turne radarı",
+   "rel": "Çıkış takvimi",
+   "relnote": "Sanatçı ve plak şirketi duyurularına göre, {d} itibarıyla; değişiklik olabilir.",
+   "live": "canlı",
+   "reissue": "yeniden baskı",
+   "single": "single",
+   "ep": "EP",
+   "box": "kutu seti",
+   "src": "Kaynaklar",
+   "open": "Kanala git →",
+   "review": "İncelemeyi oku →",
+   "genres": "Türler",
+   "mgsub": "Haberler · Listeler · Turneler · Yeni çıkanlar",
+   "allg": "Tüm türler",
+   "gempty": "“{g}” kategorisindeki ilk haberler yakında burada yer alacak.",
+   "glatest": "Son müzik haberleri"
+  },
+  "es": {
+   "plan": "Plan semanal",
+   "today": "hoy",
+   "days": [
+    "lun",
+    "mar",
+    "mié",
+    "jue",
+    "vie",
+    "sáb",
+    "dom"
+   ],
+   "chan": "Los canales",
+   "chn": "{n} noticias en 7 días",
+   "rub": "Solo en TWN",
+   "newest": "Lo último:",
+   "songs": "3 canciones de la semana",
+   "week": "Semana",
+   "tours": "Radar de giras",
+   "rel": "Calendario de lanzamientos",
+   "relnote": "Según anuncios de artistas y sellos a {d}; sujeto a cambios.",
+   "live": "en directo",
+   "reissue": "reedición",
+   "single": "sencillo",
+   "ep": "EP",
+   "box": "caja recopilatoria",
+   "src": "Fuentes",
+   "open": "Ir al canal →",
+   "review": "Leer la crítica →",
+   "genres": "Géneros",
+   "mgsub": "Noticias · Listas · Giras · Lanzamientos",
+   "allg": "Todos los géneros",
+   "gempty": "Las primeras noticias de la categoría “{g}” aparecerán aquí pronto.",
+   "glatest": "Últimas noticias de música"
+  }
+ },
+ {
+  "path": [
+   "PFU"
+  ],
+  "tr": {
+   "tag": "Çalga · Turbo-folk · Manele · Laïko · Arabesk · Tallava · Sevdah",
+   "vids": "Günün videoları",
+   "boul": "Magazin",
+   "stars": "Yıldızlar",
+   "lands": "Yedi ülke, tek ses",
+   "news": "Pop-folk haberleri",
+   "more": "Diğer haberler",
+   "nolands": "{x} ile ilgili haberler yakında burada yer alacak.",
+   "mv": "Klip",
+   "live": "Canlı",
+   "play": "▶ Videoyu oynat",
+   "read": "Devamını oku →",
+   "star_cr": "Fotoğraflar: Wikimedia Commons, kırpılmış; sayfa başlığındaki kolaj bu fotoğraflardan oluşturulup renklendirilmiştir (CC BY-SA 4.0)."
+  },
+  "es": {
+   "tag": "Chalga · Turbo-folk · Manele · Laïko · Arabesk · Tallava · Sevdah",
+   "vids": "Vídeos del día",
+   "boul": "Corazón",
+   "stars": "Las estrellas",
+   "lands": "Siete países, un sonido",
+   "news": "Noticias de pop-folk",
+   "more": "Más noticias",
+   "nolands": "Pronto aparecerán aquí noticias de {x}.",
+   "mv": "Videoclip",
+   "live": "En directo",
+   "play": "▶ Reproducir vídeo",
+   "read": "Seguir leyendo →",
+   "star_cr": "Fotos: Wikimedia Commons, recortadas; el collage de la cabecera está compuesto con estas fotos y coloreado (CC BY-SA 4.0)."
+  }
+ },
+ {
+  "path": [
+   "FBU"
+  ],
+  "tr": {
+   "season": "Sezon",
+   "table": "Puan durumu",
+   "next": "Sıradaki hafta",
+   "done": "Tamamlanan haftalar",
+   "md": "{n}. hafta",
+   "cups": "Kupalar",
+   "pos": "#",
+   "team": "Kulüp",
+   "p": "O",
+   "w": "G",
+   "d": "B",
+   "l": "M",
+   "g": "Goller",
+   "gd": "AV",
+   "pts": "P",
+   "leagues": "Ligler",
+   "leader": "Lider",
+   "lead_pts": "puan",
+   "ko": "Başlama saatleri: Orta Avrupa saati",
+   "noft": "–",
+   "pp": "ertelendi",
+   "src": "Veriler",
+   "open": "Lige git →",
+   "upcoming": "Yaklaşan",
+   "pens": "pen.",
+   "aet": "uzt.",
+   "tbd": "Kura bekleniyor",
+   "nomatch": "Henüz maç yok."
+  },
+  "es": {
+   "season": "Temporada",
+   "table": "Clasificación",
+   "next": "Próxima jornada",
+   "done": "Jornadas disputadas",
+   "md": "Jornada {n}",
+   "cups": "Copas",
+   "pos": "#",
+   "team": "Club",
+   "p": "PJ",
+   "w": "G",
+   "d": "E",
+   "l": "P",
+   "g": "Goles",
+   "gd": "DG",
+   "pts": "Pts",
+   "leagues": "Ligas",
+   "leader": "Líder",
+   "lead_pts": "pts",
+   "ko": "Horarios: hora de Europa Central",
+   "noft": "–",
+   "pp": "aplazado",
+   "src": "Datos",
+   "open": "Ir a la liga →",
+   "upcoming": "Próximos",
+   "pens": "pen.",
+   "aet": "pró.",
+   "tbd": "Sorteo pendiente",
+   "nomatch": "Aún no hay partidos."
+  }
+ },
+ {
+  "path": [
+   "UEFAU"
+  ],
+  "tr": {
+   "zones": "1–8. sıralar: doğrudan son 16 turu · 9–24: play-off turu · 25–36: elendi",
+   "ko": "Eleme ve nakavt turları",
+   "asof": "Veri tarihi",
+   "agg": "Toplam",
+   "adv": "tur atladı"
+  },
+  "es": {
+   "zones": "Puestos 1–8: directos a octavos de final · 9–24: playoffs de eliminatoria · 25–36: eliminados",
+   "ko": "Rondas previas y eliminatorias",
+   "asof": "Datos a",
+   "agg": "Global",
+   "adv": "pasa"
+  }
+ },
+ {
+  "path": [
+   "DATING",
+   0,
+   3
+  ],
+  "tr": "Almanya merkezli, 20 yılı aşkın süredir faaliyette olan bir arkadaşlık sitesi. İşletmecisine göre tamamen ücretsiz, reklamla finanse ediliyor; arama ve eş önerileri sunuyor.",
+  "es": "Web alemana de solteros con más de 20 años de trayectoria. Según el operador, totalmente gratuita y financiada con publicidad; con buscador y sugerencias de pareja."
+ },
+ {
+  "path": [
+   "DATING",
+   1,
+   3
+  ],
+  "tr": "Siteye göre 500.000'den fazla bekârın bulunduğu ücretsiz eş arama platformu. Abonelik olmadan sohbet veya mesajla iletişim; isteğe bağlı reklamsız Plus üyelik.",
+  "es": "Búsqueda de pareja gratuita con más de 500.000 solteros, según la web. Contacto por chat o correo sin suscripción; membresía Plus opcional sin anuncios."
+ },
+ {
+  "path": [
+   "DATING",
+   2,
+   3
+  ],
+  "tr": "50 yaş üstü için topluluk: eş arama, arkadaşlık, seyahat arkadaşı ve yüz yüze buluşmalar. Siteye göre Almanya'da 300.000'den fazla üye.",
+  "es": "Comunidad para mayores de 50: búsqueda de pareja, amistades, compañeros de viaje y encuentros presenciales. Más de 300.000 miembros en Alemania, según la web."
+ },
+ {
+  "path": [
+   "DATING",
+   3,
+   3
+  ],
+  "tr": "Profil, arama ve sohbet özellikli Bulgar tanışma portalı. Similarweb'e göre Bulgaristan'ın en çok ziyaret edilen flört sitesi.",
+  "es": "Portal búlgaro de citas con perfiles, buscador y chat. Según Similarweb, la web de citas más visitada de Bulgaria."
+ },
+ {
+  "path": [
+   "DATING",
+   4,
+   3
+  ],
+  "tr": "Ciddi ilişkiler için Bulgar platformu. Siteye göre yaklaşık 175.000 kullanıcı; kayıt ve profil tanıtımı dışındaki tüm özellikler ücretsiz.",
+  "es": "Plataforma búlgara para relaciones serias. Unos 175.000 usuarios, según la web; el registro y todas las funciones salvo la promoción del perfil son gratuitos."
+ },
+ {
+  "path": [
+   "DATING",
+   5,
+   3
+  ],
+  "tr": "2006'da Londra'da kurulan, bugün Bumble Inc. bünyesindeki uluslararası flört ağı. Web sitesi ve uygulama olarak kullanılabiliyor, Bulgaristan'da da yaygın.",
+  "es": "Red internacional de citas fundada en Londres en 2006, hoy parte de Bumble Inc. Disponible como web y aplicación, también muy usada en Bulgaria."
+ },
+ {
+  "path": [
+   "DATU"
+  ],
+  "tr": {
+   "h": "Tanışma siteleri",
+   "de": "Almanya",
+   "bg": "Bulgaristan",
+   "go": "Siteyi ziyaret et ↗",
+   "rank": "Sıra",
+   "note": "Seçim: Similarweb'e göre her ülkede en çok ziyaret edilen üç flört sitesi (“Dating and Relationships” kategorisi, Eylül 2026), yetişkin platformları hariç. Reklam, tavsiye veya komisyon yoktur. Yalnızca uygulama üzerinden kullanım sıralamaya dahil değildir.",
+   "src": "Kaynak"
+  },
+  "es": {
+   "h": "Webs de citas",
+   "de": "Alemania",
+   "bg": "Bulgaria",
+   "go": "Visitar la web ↗",
+   "rank": "Puesto",
+   "note": "Selección: las tres webs de citas más visitadas de cada país según Similarweb (categoría “Dating and Relationships”, septiembre de 2026), sin plataformas para adultos. Sin publicidad, sin recomendación, sin comisión. El uso exclusivo mediante app no se refleja en la clasificación.",
+   "src": "Fuente"
+  }
+ },
+ {
+  "path": [
+   "TRU"
+  ],
+  "tr": {
+   "h": "Şu an trend",
+   "asof": "Tarih",
+   "src": "Kaynaklar",
+   "more": "Kaynak ↗"
+  },
+  "es": {
+   "h": "Tendencias ahora",
+   "asof": "A fecha de",
+   "src": "Fuentes",
+   "more": "Fuente ↗"
+  }
+ },
+ {
+  "path": [
+   "WOWU"
+  ],
+  "tr": {
+   "rec": "Rekorlar",
+   "nat": "Doğa & hayvanlar",
+   "space": "Uzay",
+   "all": "Tümü",
+   "src": "Video"
+  },
+  "es": {
+   "rec": "Récords",
+   "nat": "Naturaleza y animales",
+   "space": "Espacio",
+   "all": "Todo",
+   "src": "Vídeo"
+  }
+ },
+ {
+  "path": [
+   "F1U"
+  ],
+  "tr": {
+   "drv": "Pilotlar şampiyonası",
+   "tm": "Takımlar şampiyonası",
+   "cal": "Yarış takvimi",
+   "nxt": "Sıradaki yarış",
+   "pos": "#",
+   "name": "Pilot",
+   "team": "Takım",
+   "wins": "Galibiyet",
+   "pts": "P",
+   "rd": "Yrş",
+   "gp": "Grand Prix",
+   "date": "Tarih",
+   "win": "Kazanan",
+   "up": "yaklaşan",
+   "after": "{n} yarış sonunda",
+   "season": "Sezon",
+   "src": "Veriler",
+   "tz": "Almanya saati"
+  },
+  "es": {
+   "drv": "Mundial de pilotos",
+   "tm": "Mundial de constructores",
+   "cal": "Calendario",
+   "nxt": "Próxima carrera",
+   "pos": "#",
+   "name": "Piloto",
+   "team": "Equipo",
+   "wins": "Victorias",
+   "pts": "Pts",
+   "rd": "Ron.",
+   "gp": "Gran Premio",
+   "date": "Fecha",
+   "win": "Ganador",
+   "up": "próxima",
+   "after": "tras {n} carreras",
+   "season": "Temporada",
+   "src": "Datos",
+   "tz": "hora alemana"
+  }
+ },
+ {
+  "path": [
+   "TNU"
+  ],
+  "tr": {
+   "atp": "ATP dünya sıralaması (erkekler)",
+   "wta": "WTA dünya sıralaması (kadınlar)",
+   "ev": "Devam eden turnuvalar",
+   "ours": "Sıralamadaki Alman ve Bulgar oyuncular",
+   "r": "#",
+   "name": "Oyuncu",
+   "cc": "Ülke",
+   "pts": "Puan",
+   "tr": "±",
+   "asof": "Tarih",
+   "top": "İlk 20",
+   "src": "Veriler"
+  },
+  "es": {
+   "atp": "Ranking ATP (masculino)",
+   "wta": "Ranking WTA (femenino)",
+   "ev": "Torneos en curso",
+   "ours": "Alemanes y búlgaros en el ranking",
+   "r": "#",
+   "name": "Jugador/a",
+   "cc": "País",
+   "pts": "Puntos",
+   "tr": "±",
+   "asof": "A fecha de",
+   "top": "Top 20",
+   "src": "Datos"
+  }
+ },
+ {
+  "path": [
+   "LIVEU"
+  ],
+  "tr": {
+   "h": "Canlı",
+   "today": "Bugünün maçları",
+   "src": "Canlı veriler: API-Football",
+   "ht": "Devre arası",
+   "ft": "Maç sonu",
+   "ns": "",
+   "pen": "pen.",
+   "og": "k.k."
+  },
+  "es": {
+   "h": "En directo",
+   "today": "Partidos de hoy",
+   "src": "Datos en directo: API-Football",
+   "ht": "Descanso",
+   "ft": "Final",
+   "ns": "",
+   "pen": "pen.",
+   "og": "p.p."
+  }
+ },
+ {
+  "path": [
+   "TVU"
+  ],
+  "tr": {
+   "h": "Bugün televizyonda futbol",
+   "h2": "Televizyonda futbol – sonuçlar",
+   "lnk": "⚽ Bugün televizyonda futbol",
+   "ch": "Kanal",
+   "src": "Kaynaklar",
+   "note": "Garanti edilmez – saatler ve kanallar yayıncıların duyurularına göredir; değişiklik olabilir."
+  },
+  "es": {
+   "h": "Fútbol hoy en televisión",
+   "h2": "Fútbol en televisión – resultados",
+   "lnk": "⚽ Fútbol hoy en televisión",
+   "ch": "Canal",
+   "src": "Fuentes",
+   "note": "Sin garantía – horarios y canales según la programación anunciada por las cadenas; sujeto a cambios."
+  }
+ },
+ {
+  "path": [
+   "SVCU"
+  ],
+  "tr": {
+   "wx": "Hava durumu",
+   "fx": "Euro kurları",
+   "cr": "Hava durumu: MET Norway (CC BY 4.0) · Kurlar: AMB euro referans kurları, tarih:",
+   "cities": {
+    "sofia": "Sofya",
+    "plovdiv": "Filibe",
+    "varna": "Varna",
+    "burgas": "Burgaz",
+    "berlin": "Berlin",
+    "muenchen": "Münih",
+    "frankfurt": "Frankfurt",
+    "hamburg": "Hamburg"
+   },
+   "order": [
+    "berlin",
+    "muenchen",
+    "frankfurt",
+    "hamburg",
+    "sofia",
+    "plovdiv",
+    "varna",
+    "burgas"
+   ]
+  },
+  "es": {
+   "wx": "El tiempo",
+   "fx": "Cambio del euro",
+   "cr": "Tiempo: MET Norway (CC BY 4.0) · Cambios: tipos de referencia del euro del BCE del",
+   "cities": {
+    "sofia": "Sofía",
+    "plovdiv": "Plovdiv",
+    "varna": "Varna",
+    "burgas": "Burgas",
+    "berlin": "Berlín",
+    "muenchen": "Múnich",
+    "frankfurt": "Fráncfort",
+    "hamburg": "Hamburgo"
+   },
+   "order": [
+    "berlin",
+    "muenchen",
+    "frankfurt",
+    "hamburg",
+    "sofia",
+    "plovdiv",
+    "varna",
+    "burgas"
+   ]
+  }
+ },
+ {
+  "path": [
+   "MRU"
+  ],
+  "tr": "En çok okunanlar",
+  "es": "Lo más leído"
+ },
+ {
+  "path": [
+   "NLU"
+  ],
+  "tr": {
+   "name": "Uluslar Ligi",
+   "grp": "Lig {L} · Grup {n}",
+   "ger": "Almanya: tüm maçlar",
+   "news": "Almanya milli takımı haberleri",
+   "hl": "Uluslar Ligi: maç özetleri",
+   "groups": "Gruplar",
+   "open": "Gruba git →",
+   "comp": {
+    "nl": "Uluslar Ligi",
+    "fr": "Hazırlık maçı",
+    "q": "Eleme"
+   },
+   "h": "iç saha",
+   "a": "deplasman",
+   "venue": "Stadyum",
+   "fmt": "Format",
+   "res": "Son sonuçlar – tüm gruplar",
+   "up": "Sıradaki maçlar – tüm gruplar",
+   "allg": "Tüm gruplar: puan durumu, sonuçlar ve fikstür",
+   "grs": "Sonuçlar",
+   "fix": "Yaklaşan maçlar"
+  },
+  "es": {
+   "name": "Nations League",
+   "grp": "Liga {L} · Grupo {n}",
+   "ger": "Alemania: todos los partidos",
+   "news": "Noticias de la selección alemana",
+   "hl": "Nations League: resúmenes",
+   "groups": "Grupos",
+   "open": "Ir al grupo →",
+   "comp": {
+    "nl": "Nations League",
+    "fr": "Amistoso",
+    "q": "Clasificación"
+   },
+   "h": "local",
+   "a": "visitante",
+   "venue": "Estadio",
+   "fmt": "Formato",
+   "res": "Últimos resultados – todos los grupos",
+   "up": "Próximos partidos – todos los grupos",
+   "allg": "Todos los grupos: clasificaciones, resultados y calendario",
+   "grs": "Resultados",
+   "fix": "Próximos partidos"
+  }
+ },
+ {
+  "path": [
+   "MMU"
+  ],
+  "tr": {
+   "orgs": "Organizasyonlar",
+   "champs": "Şampiyonlar",
+   "champ": "Şampiyon",
+   "res": "Son ana maçlar",
+   "open": "Organizasyona git →"
+  },
+  "es": {
+   "orgs": "Promotoras",
+   "champs": "Campeones",
+   "champ": "Campeón",
+   "res": "Últimos combates estelares",
+   "open": "Ir a la promotora →"
+  }
+ },
+ {
+  "path": [
+   "BXU"
+  ],
+  "tr": {
+   "orgs": "Dünya federasyonları",
+   "champs": "Dünya şampiyonları",
+   "div": "Sıklet",
+   "champ": "Şampiyon",
+   "up": "Yaklaşan maçlar",
+   "res": "Son unvan maçları",
+   "news": "Haberler",
+   "asof": "Tarih",
+   "vac": "boş",
+   "open": "Federasyona git →",
+   "next": "Sıradaki maç",
+   "side": "Federasyonlar",
+   "src": "Kaynaklar"
+  },
+  "es": {
+   "orgs": "Organismos mundiales",
+   "champs": "Campeones del mundo",
+   "div": "Categoría",
+   "champ": "Campeón",
+   "up": "Próximos combates",
+   "res": "Últimos combates por el título",
+   "news": "Noticias",
+   "asof": "A fecha de",
+   "vac": "vacante",
+   "open": "Ir al organismo →",
+   "next": "Próximo combate",
+   "side": "Organismos",
+   "src": "Fuentes"
+  }
+ },
+ {
+  "path": [
+   "SP_ALL"
+  ],
+  "tr": "Genel bakış",
+  "es": "Resumen"
+ },
+ {
+  "path": [
+   "SP_U"
+  ],
+  "tr": {
+   "subs": "Bölümler",
+   "open": "Aç →",
+   "n": "bugünkü haber",
+   "news": {
+    "fussball": "Futbol haberleri",
+    "championsleague": "Champions League haberleri",
+    "europaleague": "Europa League haberleri",
+    "conferenceleague": "Conference League haberleri",
+    "laenderspiele": "Milli maç haberleri",
+    "boxen": "Boks haberleri",
+    "mma": "MMA haberleri",
+    "handball": "Hentbol haberleri",
+    "formel1": "Formula 1 haberleri",
+    "tennis": "Tenis haberleri",
+    "extremsport": "Videoda ekstrem sporlar"
+   },
+   "all": "Tümü →"
+  },
+  "es": {
+   "subs": "Secciones",
+   "open": "Abrir →",
+   "n": "noticias hoy",
+   "news": {
+    "fussball": "Noticias de fútbol",
+    "championsleague": "Noticias de la Champions League",
+    "europaleague": "Noticias de la Europa League",
+    "conferenceleague": "Noticias de la Conference League",
+    "laenderspiele": "Noticias de selecciones",
+    "boxen": "Noticias de boxeo",
+    "mma": "Noticias de MMA",
+    "handball": "Noticias de balonmano",
+    "formel1": "Noticias de Fórmula 1",
+    "tennis": "Noticias de tenis",
+    "extremsport": "Deportes extremos en vídeo"
+   },
+   "all": "Todo →"
+  }
+ },
+ {
+  "path": [
+   "GTRL"
+  ],
+  "tr": "İnceleme fragmanları",
+  "es": "Tráilers de los análisis"
+ },
+ {
+  "path": [
+   "ALL_L"
+  ],
+  "tr": "Tümü",
+  "es": "Todo"
+ },
+ {
+  "path": [
+   "GPREF"
+  ],
+  "tr": "TWN'yi Google'da tercih edilen kaynak olarak ekleyin",
+  "es": "Añade TWN como fuente preferida en Google"
+ },
+ {
+  "path": [
+   "WXT"
+  ],
+  "tr": "Hava durumu verileri: MET Norway (CC BY 4.0)",
+  "es": "Datos meteorológicos: MET Norway (CC BY 4.0)"
+ },
+ {
+  "path": [
+   "SEARCH_SLUG"
+  ],
+  "tr": "arama",
+  "es": "buscar"
+ },
+ {
+  "path": [
+   "SUI"
+  ],
+  "tr": {
+   "title": "Arama",
+   "ph": "İsim, ülke, olay veya tarih …",
+   "btn": "Ara",
+   "all": "Tüm bölümler",
+   "any": "Tüm zamanlar",
+   "d1": "Bugün",
+   "d7": "Son 7 gün",
+   "d30": "Son 30 gün",
+   "hint": "İsim, ülke, olay veya tarih arayın (ör. 2 Ekim veya 02.10.2026). Tüm kelimeler haberde geçmelidir.",
+   "found": "{n} sonuç",
+   "none": "Haber bulunamadı. Başka bir kelime veya daha geniş bir zaman aralığı deneyin.",
+   "loading": "Aranıyor …",
+   "more": "Daha fazla sonuç"
+  },
+  "es": {
+   "title": "Buscar",
+   "ph": "Nombre, país, acontecimiento o fecha …",
+   "btn": "Buscar",
+   "all": "Todas las secciones",
+   "any": "Cualquier fecha",
+   "d1": "Hoy",
+   "d7": "Últimos 7 días",
+   "d30": "Últimos 30 días",
+   "hint": "Busca nombres, países, acontecimientos o una fecha (p. ej., 2 de octubre o 02.10.2026). Todas las palabras deben aparecer en el artículo.",
+   "found": "{n} resultados",
+   "none": "No se han encontrado artículos. Prueba con otra palabra o un periodo más amplio.",
+   "loading": "Buscando …",
+   "more": "Más resultados"
+  }
+ },
+ {
+  "path": [
+   "SEC_DESC",
+   "wow"
+  ],
+  "tr": "WOW – yalnızca videolar: dünya rekorları, muhteşem doğa ve vahşi yaşam, uzay – Guinness World Records, BBC Earth, National Geographic, NASA ve ESA gibi resmi kanallardan.",
+  "es": "WOW – solo vídeos: récords mundiales, naturaleza y fauna espectaculares, espacio – de canales oficiales como Guinness World Records, BBC Earth, National Geographic, NASA y ESA."
+ },
+ {
+  "path": [
+   "SEC_DESC",
+   "klima"
+  ],
+  "tr": "Dünyamızın iklimi: ısınma, aşırı hava olayları ve iklim değişikliğinin tetiklediği afetler – her gün, videoyla.",
+  "es": "El clima de nuestro planeta: calentamiento, fenómenos extremos y catástrofes ligadas al cambio climático – a diario, con vídeo."
+ },
+ {
+  "path": [
+   "SEC_DESC",
+   "leben"
+  ],
+  "tr": "Hayatınızı etkileyenler: para, konut, iş, seyahat, dijital güvenlik ve iklim – anlaşılır biçimde. Üstelik her gün videoda dünyanın en güzel doğası.",
+  "es": "Lo que mueve tu vida: dinero, vivienda, trabajo, viajes, seguridad digital y clima – explicado con claridad. Y cada día, la naturaleza más bella del mundo en vídeo."
+ },
+ {
+  "path": [
+   "NOADV"
+  ],
+  "tr": "Bu içerik yalnızca bilgilendirme amaçlıdır; hukuki, vergisel, mali veya tıbbi tavsiye değildir. Veriler belirtilen tarih itibarıyladır.",
+  "es": "Este artículo tiene fines exclusivamente informativos y no constituye asesoramiento jurídico, fiscal, financiero ni médico. Datos a la fecha indicada."
+ },
+ {
+  "path": [
+   "STOP"
+  ],
+  "tr": "{'ve', 'bir', 'bu', 'da', 'de', 'ile', 'için', 'olarak', 'gibi', 'daha', 'çok', 'en', 'ama', 'ancak', 'veya', 'ya', 'şu', 'o', 'ki', 'mi', 'ne', 'her', 'kadar', 'sonra', 'önce', 'göre', 'üzerine', 'olan', 'olduğu', 'oldu', 'ise', 'değil', 'var', 'yok', 'diye', 'hem', 'ilk', 'yeni', 'tüm', 'bütün', 'bazı', 'karşı', 'arasında', 'tarafından'}",
+  "es": "{'el', 'la', 'los', 'las', 'un', 'una', 'unos', 'unas', 'de', 'del', 'al', 'y', 'o', 'en', 'a', 'por', 'para', 'con', 'sin', 'que', 'se', 'su', 'sus', 'es', 'son', 'fue', 'ha', 'han', 'como', 'más', 'pero', 'lo', 'le', 'les', 'sobre', 'tras', 'entre', 'desde', 'hasta', 'este', 'esta', 'estos', 'estas', 'ese', 'esa', 'no', 'ya', 'muy', 'ser', 'también'}"
+ }
+]

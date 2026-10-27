@@ -12,6 +12,8 @@ TZ = '+02:00'  # editorial times are Berlin time (CEST); adjust for winter time
 e = html.escape
 CUR_T = ' aria-current="true"'
 CUR_P = ' aria-current="page"'
+import lang_extra
+from lang_extra import lx as LX, JSON as json   # Türkisch/Spanisch: Inline-Tabellen + Daten-JSONs ergänzen (27.10.2026)
 
 # All planned languages (order = language bar). Only languages with content are built.
 LANGS = [('bg', 'Български'), ('de', 'Deutsch'), ('en', 'English'), ('es', 'Español'), ('pt', 'Português'), ('fr', 'Français'),
@@ -329,6 +331,7 @@ def load():
                 _b = it.get(_l, {}).get('body') if isinstance(it.get(_l), dict) else None
                 if isinstance(_b, str):  # Text als ein Block geliefert -> in Absätze teilen
                     it[_l]['body'] = [p.strip() for p in _b.replace('\r', '').split('\n') if p.strip()]
+            lang_extra.merge(it, d['date'])   # Türkisch/Spanisch aus translations/ (seit 27.10.2026)
         if os.path.basename(f)[10:11] == '-':   # YYYY-MM-DD-<zusatz>.json: Breaking News, Leben & Alltag …
             for it in d['items']:
                 it.pop('lead', None)
@@ -379,11 +382,14 @@ def nice_date(date, l):
     dt = datetime.date.fromisoformat(date)
     if l == 'bg': return f'{WEEKDAYS[l][dt.weekday()].capitalize()}, {dt.day} {MONTHS[l][dt.month - 1]} {dt.year}'
     if l == 'en': return f'{WEEKDAYS[l][dt.weekday()]}, {dt.day} {MONTHS[l][dt.month - 1]} {dt.year}'
+    if l == 'tr': return f'{dt.day} {MONTHS[l][dt.month - 1]} {dt.year}, {WEEKDAYS[l][dt.weekday()]}'
+    if l == 'es': return f'{WEEKDAYS[l][dt.weekday()]}, {dt.day} de {MONTHS[l][dt.month - 1]} de {dt.year}'
     return f'{WEEKDAYS[l][dt.weekday()]}, {dt.day}. {MONTHS[l][dt.month - 1]} {dt.year}'
 
 def short_date(date, l):
     dt = datetime.date.fromisoformat(date)
-    return f'{dt.day} {MONTHS[l][dt.month - 1]} {dt.year}' if l in ('bg', 'en') else f'{dt.day}. {MONTHS[l][dt.month - 1]} {dt.year}'
+    if l == 'es': return f'{dt.day} de {MONTHS[l][dt.month - 1]} de {dt.year}'
+    return f'{dt.day} {MONTHS[l][dt.month - 1]} {dt.year}' if l in ('bg', 'en', 'tr') else f'{dt.day}. {MONTHS[l][dt.month - 1]} {dt.year}'
 
 def also_secs(it):  # zusätzliche Rubriken eines Artikels: Feld "also" oder Label Deutschland–Bulgarien (Nedys Vorgabe 06.10.2026)
     a = list(it.get('also') or [])
@@ -435,7 +441,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
         xd = alternates.get('en') or alternates.get('bg')
         if xd: alts += f'<link rel="alternate" hreflang="x-default" href="{SITE}{xd}">'
     langbar = ''
-    _lb_order = {'de': 0, 'en': 1, 'bg': 2}  # Sprachleiste: DE / EN / BG (seit 2026-10-04)
+    _lb_order = LX({'de': 0, 'en': 1, 'bg': 2})  # Sprachleiste: DE / EN / BG (seit 2026-10-04)
     for code, name in sorted(LANGS, key=lambda x: _lb_order.get(x[0], 99)):
         if code in act:
             target = (alternates or {}).get(code, pre(code))
@@ -462,7 +468,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
     if ticker:
         _ti = ''.join(f'<a href="{x["u"]}">{("<b class=" + chr(34) + "tbk" + chr(34) + ">" + e(u["brk"]) + "</b>") if x.get("b") else ""}<span class="tm">{x["time"]}</span>{e(x["t"])}</a><span class="sep" aria-hidden="true"></span>' for x in ticker[:15])
         _ti2 = _ti.replace('<a ', '<a tabindex="-1" ')
-        _pz = {'bg': 'Пауза', 'de': 'Pause', 'en': 'Pause'}.get(l, 'Pause')
+        _pz = LX({'bg': 'Пауза', 'de': 'Pause', 'en': 'Pause'}).get(l, 'Pause')
         tick = (f'<div class="ticker" role="region" aria-label="{u["live"]}"><span class="k"><i class="dot" aria-hidden="true"></i>{u["live"]}</span>'
                 f'<div class="tk-track"><div class="tk-move" id="tick"><div class="tk-set">{_ti}</div><div class="tk-set" aria-hidden="true">{_ti2}</div></div></div>'
                 f'<button class="tk-pause" type="button" aria-pressed="false" aria-label="{_pz}" title="{_pz}"><span aria-hidden="true"></span></button></div>')
@@ -498,7 +504,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
     <div class="edition"><span class="ed-clock" id="edclock"><span class="ed-city">{e(u['clocks'][0][0])}</span> <b data-tz="Europe/Berlin">--:--</b></span><span class="mid">{e(nice_date(date, l)) if date else ''}</span><span class="ed-wx" id="edwx" title="{e(WXT[l])}"></span></div>
   </header>
   <div id="nv-sentinel" aria-hidden="true"></div>
-  <nav class="sections nv2" id="mainnav" aria-label="{e(u['home'])}"><div class="nv-bar"><a class="nv-logo" href="{pre(l)}" aria-label="TWN – World News"><img src="/assets/nav-w2.png" width="40" height="30" alt=""></a><button type="button" class="nav-tg" aria-expanded="false" aria-controls="navitems"><span class="hb" aria-hidden="true"><i></i><i></i><i></i></span><span class="nav-tl">{ {'bg': 'Меню', 'de': 'Menü', 'en': 'Menu'}.get(l, 'Menu') }</span></button><div class="nav-items" id="navitems">{nav}</div><a class="nv-search" href="{search_url(l)}" aria-label="{e(SUI[l]['title'])}"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg></a></div><div class="nv-swipe" aria-label="{e(u['home'])}">{swipe}</div></nav>
+  <nav class="sections nv2" id="mainnav" aria-label="{e(u['home'])}"><div class="nv-bar"><a class="nv-logo" href="{pre(l)}" aria-label="TWN – World News"><img src="/assets/nav-w2.png" width="40" height="30" alt=""></a><button type="button" class="nav-tg" aria-expanded="false" aria-controls="navitems"><span class="hb" aria-hidden="true"><i></i><i></i><i></i></span><span class="nav-tl">{ LX({'bg': 'Меню', 'de': 'Menü', 'en': 'Menu'}).get(l, 'Menu') }</span></button><div class="nav-items" id="navitems">{nav}</div><a class="nv-search" href="{search_url(l)}" aria-label="{e(SUI[l]['title'])}"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg></a></div><div class="nv-swipe" aria-label="{e(u['home'])}">{swipe}</div></nav>
   {tick}{ticker2}
   <main id="main">
 {body}
@@ -533,13 +539,13 @@ def credit(im, l, link=False):
         t = im['cr'].get(l) or im['cr'].get('de', '')
         return (e(t) + (f' · <a href="{e(im["page"])}" rel="noopener nofollow" target="_blank">YouTube</a>' if link and im.get('page') else '')) if link else e(t)
     if im.get('own'):  # eigene Grafik der Redaktion (Rubrik Business)
-        return e({'bg': 'Графика: TERRA WORLD NEWS (собствена графика по данните от източниците)', 'de': 'Grafik: TERRA WORLD NEWS (eigene Darstellung nach den genannten Quellen)'}.get(l, 'Graphic: TERRA WORLD NEWS (own graphic based on the sources listed)'))
+        return e({'bg': 'Графика: TERRA WORLD NEWS (собствена графика по данните от източниците)', 'de': 'Grafik: TERRA WORLD NEWS (eigene Darstellung nach den genannten Quellen)', 'tr': 'Grafik: TERRA WORLD NEWS (belirtilen kaynaklara dayalı kendi grafiğimiz)', 'es': 'Gráfico: TERRA WORLD NEWS (elaboración propia a partir de las fuentes citadas)'}.get(l, 'Graphic: TERRA WORLD NEWS (own graphic based on the sources listed)'))
     who = (im['art'] + ' / ') if im.get('art') else ''
-    lab = {'bg': 'Снимка', 'de': 'Foto'}.get(l, 'Photo')
+    lab = {'bg': 'Снимка', 'de': 'Foto', 'tr': 'Fotoğraf', 'es': 'Foto'}.get(l, 'Photo')
     txt = f'{lab}: {who}Wikimedia Commons, {im["lic"]}'
     if not link: return e(txt)
     lu = lic_url(im.get('lic'))
-    mod = {'bg': 'изрязана и мащабирана', 'de': 'zugeschnitten und skaliert', 'en': 'cropped and resized'}.get(l, 'cropped and resized')
+    mod = LX({'bg': 'изрязана и мащабирана', 'de': 'zugeschnitten und skaliert', 'en': 'cropped and resized'}).get(l, 'cropped and resized')
     lic_h = f'<a href="{lu}" rel="noopener nofollow license" target="_blank">{e(im["lic"])}</a>' if lu else e(im['lic'])
     return (f'{lab}: <a href="{e(im["page"])}" rel="noopener nofollow" target="_blank">{e(who + "Wikimedia Commons")}</a>, {lic_h} ({mod})')
 
@@ -629,7 +635,7 @@ def ex_block(it, l):
     st = f' style="background-image:url({im["f"]})"' if im else ''
     kind = (it.get('exk') or {}).get(l, '')
     ch = (it.get('yt') or {}).get('ch', '')
-    vl = {'bg': 'Видео', 'de': 'Video', 'en': 'Video'}[l]
+    vl = LX({'bg': 'Видео', 'de': 'Video', 'en': 'Video'})[l]
     return (f'<section class="exband gp gp-home gp-ex" aria-label="{e(EXL[l])}"><div class="gp-head"><h2 class="gp-title">★ {e(EXL[l])}</h2>{gp_slogan(l)}</div>'
             f'<div class="gp-panel vb-panel ex-panel"><div class="ex-card"><a class="ex-img" href="{art_url(it, l)}"{st}><span class="ex-play" aria-hidden="true">▶</span>'
             f'<span class="ex-badge">{e(EXL[l])}{(" · " + e(kind)) if kind else ""}</span></a>'
@@ -667,7 +673,7 @@ def LU(x, l):  # Einheit in der Seitensprache (Daten oft mit deutscher Einheit)
 def fnum(v, dec, l):
     if v is None: return '–'
     t = f'{abs(v):,.{dec}f}'
-    if l == 'de': t = t.replace(',', 'X').replace('.', ',').replace('X', '.')
+    if l in ('de', 'tr', 'es'): t = t.replace(',', 'X').replace('.', ',').replace('X', '.')
     elif l == 'bg': t = t.replace(',', ' ').replace('.', ',')
     return ('−' if v < 0 else '') + t
 def fchg(v, dec, l):
@@ -715,10 +721,10 @@ def boerse_ticker(d, l):
     xs = [t for b in d.get('blocks', []) for t in b.get('ticker', [])]
     if not xs: return ''
     one = ''.join(f'<span class="bq"><b>{e(L(t["n"], l))}</b> {fnum(t["v"], t.get("dec", 2), l)}{(" " + e(LU(t["u"], l))) if t.get("u") else ""} {fchg(t.get("chg"), 2, l)}</span><span class="sep" aria-hidden="true"></span>' for t in xs)
-    _pz = {'bg': 'Пауза', 'de': 'Pause', 'en': 'Pause'}.get(l, 'Pause')
-    _lv = {'bg': ('▶ Курсове на живо', 'Курсове на живо: TradingView. При зареждане данни (напр. IP адрес) се предават на TradingView.'),
+    _pz = LX({'bg': 'Пауза', 'de': 'Pause', 'en': 'Pause'}).get(l, 'Pause')
+    _lv = LX({'bg': ('▶ Курсове на живо', 'Курсове на живо: TradingView. При зареждане данни (напр. IP адрес) се предават на TradingView.'),
            'de': ('▶ Live-Kurse', 'Live-Kurse: TradingView. Beim Laden werden Daten (z. B. IP-Adresse) an TradingView übertragen.'),
-           'en': ('▶ Live prices', 'Live prices: TradingView. Loading sends data (e.g. your IP address) to TradingView.')}[l]
+           'en': ('▶ Live prices', 'Live prices: TradingView. Loading sends data (e.g. your IP address) to TradingView.')})[l]
     return (f'<div class="ticker boerse" role="region" aria-label="{BZ[l]["boerse"]}" data-tv="{"de_DE" if l == "de" else "en"}"><span class="k">{BZ[l]["boerse"]}</span>'
             f'<button class="tv-go" type="button" title="{e(_lv[1])}">{_lv[0]}</button>'
             f'<div class="tk-track"><div class="tk-move"><div class="tk-set">{one}</div><div class="tk-set" aria-hidden="true">{one}</div></div></div>'
@@ -843,8 +849,8 @@ def musik_grid(l, cur=None):
         rows += f'<div class="mg-row mg-r{i + 1}"><h3>{i + 1:02d} — {e(lab[l])}</h3><div class="mg-tiles">{tiles}</div></div>'
     allc = ' on' if cur is None else ''
     C = (MUSIK.get('collage') or {}).get('photos') or []
-    crl = ({'bg': 'Колаж в заглавието', 'de': 'Collage im Kopf', 'en': 'Header collage'}[l] + ': ' + ' · '.join(f'<a href="{e(x["page"])}" rel="noopener nofollow" target="_blank">{e(x["art"])}</a> ({e(x["lic"])})' for x in C)
-           + {'bg': ' – Wikimedia Commons, изрязани и оцветени; колажът е под лиценз CC BY-SA 4.0', 'de': ' – Wikimedia Commons, zugeschnitten und eingefärbt; Collage unter CC BY-SA 4.0', 'en': ' – Wikimedia Commons, cropped and recoloured; collage licensed CC BY-SA 4.0'}[l]) if C else ''
+    crl = (LX({'bg': 'Колаж в заглавието', 'de': 'Collage im Kopf', 'en': 'Header collage'})[l] + ': ' + ' · '.join(f'<a href="{e(x["page"])}" rel="noopener nofollow" target="_blank">{e(x["art"])}</a> ({e(x["lic"])})' for x in C)
+           + LX({'bg': ' – Wikimedia Commons, изрязани и оцветени; колажът е под лиценз CC BY-SA 4.0', 'de': ' – Wikimedia Commons, zugeschnitten und eingefärbt; Collage unter CC BY-SA 4.0', 'en': ' – Wikimedia Commons, cropped and recoloured; collage licensed CC BY-SA 4.0'})[l]) if C else ''
     return (f'<section class="mg-wrap" aria-label="{e(Z["genres"])}"><div class="mg-head"><p class="mg-kick">TERRA WORLD NEWS</p><p class="mg-brand">MUSIC</p>'
             f'<p class="mg-sub">{e(Z["mgsub"])}</p><a class="mg-all{allc}" href="{sec_url("musik", l)}">{e(Z["allg"])}</a></div>{rows}' + (f'<p class="mg-cr">{crl}</p>' if crl else '') + '</section>')
 def musik_extras(l, its, day0, genre=None):
@@ -970,8 +976,8 @@ def popfolk_page(l, its, day0, others, SX):
             wc += (f'<article class="pf-vid pf-wv"><div class="yt gr-yt" data-yt="{e(v["id"])}"{bg(it)}><span class="gr-badge">{e(P["live"] if it.get("vk") == "live" else P["mv"])}</span>'
                    f'<button type="button" class="yt-play">{e(P["play"])}</button><span class="yt-note">{e(u["ytnote"])}</span></div>'
                    f'<div class="pf-txt">{flag(it)}<a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a><p class="gr-yt-src">YouTube · {ch_html(v.get("ch", ""))}</p></div></article>')
-        html += f'<h2 class="pf-h">♫ {e({"bg": "Попфолк хитове във видео", "de": "Pop-Folk-Hits im Video", "en": "Pop-folk hits on video"}[l])}</h2><div class="pf-wall">{wc}</div>'
-    if albs: html += f'<h2 class="pf-h">◉ {e({"bg": "Нови албуми", "de": "Neue Alben", "en": "New albums"}[l])}</h2><div class="pf-grid pf-boul">' + ''.join(card(x, True) for x in albs) + '</div>'
+        html += f'<h2 class="pf-h">♫ {e(LX({"bg": "Попфолк хитове във видео", "de": "Pop-Folk-Hits im Video", "en": "Pop-folk hits on video"})[l])}</h2><div class="pf-wall">{wc}</div>'
+    if albs: html += f'<h2 class="pf-h">◉ {e(LX({"bg": "Нови албуми", "de": "Neue Alben", "en": "New albums"})[l])}</h2><div class="pf-grid pf-boul">' + ''.join(card(x, True) for x in albs) + '</div>'
     if boul: html += f'<h2 class="pf-h pf-h-b">✦ {e(P["boul"])}</h2><div class="pf-grid pf-boul">' + ''.join(card(x, i < 2) for i, x in enumerate(boul)) + '</div>'
     # Stars (content/musik/popfolk-stars.json)
     stars = (MUSIK.get('popfolk-stars') or {}).get('stars') or []
@@ -999,12 +1005,12 @@ def popfolk_page(l, its, day0, others, SX):
     return html
 def genre_teaser(l, its):
     """Block „Neu in den Genres“ auf der Musik-Startseite: die neuesten Beiträge der Genre-Aufgaben (Feld "gk")."""
-    gx = sorted([x for x in its if x.get('gk') and not x.get('pfk')], key=lambda x: (x['date'], x['time']), reverse=True)[:8]
+    gx = sorted([x for x in its if l in x and x.get('gk') and not x.get('pfk')], key=lambda x: (x['date'], x['time']), reverse=True)[:8]
     if not gx: return ''
     lab = {'video': ('Video', 'Видео', 'Video'), 'review': ('Review', 'Ревю', 'Review'), 'news': ('News', 'Новини', 'News')}
     cards = ''.join(f'<article class="pf-card gx-card"><a href="{art_url(x, l)}"><div class="pf-img"' + (f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else '') + '>'
                     + ('<span class="pf-play" aria-hidden="true">▶</span>' if x.get('yt') else '') + f'</div><div class="pf-txt"><span class="pf-flag">{e(SUB[l][x["sub"]][0]) if x.get("sub") in SUB[l] else ""} · {e(lab.get(x["gk"], ("", "", ""))[_LI[l]])}</span><h3>{e(x[l]["t"])}</h3></div></a></article>' for x in gx)
-    return f'<section class="gx-teaser"><h2 class="gp-h">♫ {e({"bg": "Ново в жанровете", "de": "Neu in den Genres", "en": "New in the genres"}[l])}</h2><div class="pf-grid">{cards}</div></section>'
+    return f'<section class="gx-teaser"><h2 class="gp-h">♫ {e(LX({"bg": "Ново в жанровете", "de": "Neu in den Genres", "en": "New in the genres"})[l])}</h2><div class="pf-grid">{cards}</div></section>'
 def popfolk_teaser(l, its):
     """Block „Pop-Folk“ auf der Musik-Startseite: die 4 neuesten Pop-Folk-Meldungen."""
     pf = sorted([x for x in its if x.get('pfk')], key=lambda x: (x['date'], x['time']), reverse=True)[:4]
@@ -1018,7 +1024,7 @@ MPER = 30   # Musik-Genre-Seiten: 30 Beiträge pro Seite, Blättern mit Seitenza
 def mpager(l, n, total, url, top=False):
     """Nummerierte Seitenleiste (1 2 3 … n) für die Musik-Genre-Seiten."""
     if total < 2: return ''
-    lab = {'bg': 'Страници', 'de': 'Seiten', 'en': 'Pages'}[l]
+    lab = LX({'bg': 'Страници', 'de': 'Seiten', 'en': 'Pages'})[l]
     show = sorted({1, total} | set(range(max(1, n - 2), min(total, n + 2) + 1)))
     out, prev = '', 0
     for k in show:
@@ -1028,7 +1034,7 @@ def mpager(l, n, total, url, top=False):
     pv = f'<a class="mpg-nav" href="{url(n - 1)}" aria-label="←">←</a>' if n > 1 else ''
     nx = f'<a class="mpg-nav" href="{url(n + 1)}" aria-label="→">→</a>' if n < total else ''
     if top:   # zusätzlich oben unter dem Genre-Raster (Desktop: ohne langes Scrollen sichtbar)
-        al = {'bg': 'Архив – страници:', 'de': 'Archiv – Seiten:', 'en': 'Archive – pages:'}[l]
+        al = LX({'bg': 'Архив – страници:', 'de': 'Archiv – Seiten:', 'en': 'Archive – pages:'})[l]
         return f'<nav class="mpg mpg-top" aria-label="{lab}"><b class="mpg-lab">{al}</b>{pv}{out}{nx}</nav>'
     return f'<nav class="mpg" aria-label="{lab}">{pv}{out}{nx}</nav>'
 def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None, mpage_url=None):
@@ -1050,7 +1056,7 @@ def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None, 
         meta = ' · '.join(x for x in [rv.get('pf'), (g['rel'] + ' ' + rv['rel']) if rv.get('rel') else '', ((g['devl'] + ' ' + rv['dev']) if g.get('devl') else rv['dev']) if rv.get('dev') else ''] if x)
         sc = rv.get('score', {}).get(l) if isinstance(rv.get('score'), dict) else rv.get('score')
         im = it.get('img')
-        cvl = {'bg': 'Обложка', 'de': 'Albumcover', 'en': 'Album cover'}[l]
+        cvl = LX({'bg': 'Обложка', 'de': 'Albumcover', 'en': 'Album cover'})[l]
         cr = (f'<p class="gr-cr">{credit(im, l, True)}' + (f' · {cvl} {e(it["cover"].get("cr", ""))}' if it.get('cover') else '') + '</p>') if im else ''
         cov = f'<img class="gr-cover" src="{e(it["cover"]["f"])}" alt="{e(it["cover"].get("alt", {}).get(l, ""))}" width="600" height="600" loading="lazy">' if it.get('cover') else ''
         pc = ''.join(f'<li class="p">{e(x)}</li>' for x in rv_list(rv, 'pro', l, 2)) + ''.join(f'<li class="c">{e(x)}</li>' for x in rv_list(rv, 'con', l, 2))
@@ -1090,12 +1096,12 @@ def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None, 
     def fest_card(it):
         v = it['yt'] if isinstance(it['yt'], dict) else it['yt'][0]
         im = it.get('img'); cr = f'<p class="gr-cr">{credit(im, l, True)}</p>' if im else ''
-        fl = {'bg': 'ФЕСТИВАЛ', 'de': 'FESTIVAL', 'en': 'FESTIVAL'}[l]
+        fl = LX({'bg': 'ФЕСТИВАЛ', 'de': 'FESTIVAL', 'en': 'FESTIVAL'})[l]
         kd = (it.get('fk') or {}).get(l, '')
         return (f'<article class="gr"><div class="gr-media"><div class="yt gr-yt" data-yt="{e(v["id"])}"{cover_style(it)}><span class="gr-badge">{fl}</span>'
                 f'<button type="button" class="yt-play">{e(g.get("playb") or u["play"])}</button><span class="yt-note">{e(u["ytnote"])}</span></div>{cr}</div>'
                 f'<div class="gr-txt"><a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a>' + (f'<p class="gr-meta">{e(kd)}</p>' if kd else '') +
-                f'<p class="gr-dek">{e(it[l]["d"])}</p><p class="gr-yt-src">{e({"bg": "Видео", "de": "Video", "en": "Video"}[l])}: YouTube · {ch_html(v.get("ch", ""))}</p><a class="gr-more" href="{art_url(it, l)}">{e({"bg": "Към статията →", "de": "Zum Artikel →", "en": "Read more →"}[l])}</a></div></article>')
+                f'<p class="gr-dek">{e(it[l]["d"])}</p><p class="gr-yt-src">{e(LX({"bg": "Видео", "de": "Video", "en": "Video"})[l])}: YouTube · {ch_html(v.get("ch", ""))}</p><a class="gr-more" href="{art_url(it, l)}">{e(LX({"bg": "Към статията →", "de": "Zum Artikel →", "en": "Read more →"})[l])}</a></div></article>')
     older = [it for it in its if it not in revs and it not in news and it not in fests and it not in mvids]
     mnav = _mtop = ''
     if kind == 'musik' and mgenre and mpage_url:   # Genre-Seite: Seite 1 = die ersten 30 früheren Beiträge, Rest auf Seite 2, 3 … (games_page.rest)
@@ -1125,12 +1131,12 @@ def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None, 
             return (f'<article class="gr"><div class="gr-media"><div class="yt gr-yt" data-yt="{e(v["id"])}"{cover_style(it)}><span class="gr-badge">VIDEO</span>'
                     f'<button type="button" class="yt-play">{e(g.get("playb") or u["play"])}</button><span class="yt-note">{e(u["ytnote"])}</span></div>{cr}</div>'
                     f'<div class="gr-txt"><a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a><p class="gr-dek">{e(it[l]["d"])}</p>'
-                    f'<p class="gr-yt-src">YouTube · {ch_html(v.get("ch", ""))}</p><a class="gr-more" href="{art_url(it, l)}">{e({"bg": "Към статията →", "de": "Zum Artikel →", "en": "Read more →"}[l])}</a></div></article>')
-        html += f'<h2 class="gp-h">▶ {e({"bg": "Музикални видеоклипове", "de": "Musikvideos", "en": "Music videos"}[l])}</h2>' + ''.join(mv_card(it) for it in mvids)
-    if revs: html += f'<h2 class="gp-h">▶ {e(({"bg": "Ревюта на албуми", "de": "Album-Reviews", "en": "Album reviews"}[l]) if mgenre else g["rev"])}</h2>' + ''.join(review(it) for it in revs)
+                    f'<p class="gr-yt-src">YouTube · {ch_html(v.get("ch", ""))}</p><a class="gr-more" href="{art_url(it, l)}">{e(LX({"bg": "Към статията →", "de": "Zum Artikel →", "en": "Read more →"})[l])}</a></div></article>')
+        html += f'<h2 class="gp-h">▶ {e(LX({"bg": "Музикални видеоклипове", "de": "Musikvideos", "en": "Music videos"})[l])}</h2>' + ''.join(mv_card(it) for it in mvids)
+    if revs: html += f'<h2 class="gp-h">▶ {e((LX({"bg": "Ревюта на албуми", "de": "Album-Reviews", "en": "Album reviews"})[l]) if mgenre else g["rev"])}</h2>' + ''.join(review(it) for it in revs)
     html += _mx[1]
-    if fests: html += f'<h2 class="gp-h">▶ {e(({"bg": "Филмови фестивали", "de": "Filmfestivals", "en": "Film festivals"} if kind == "film" else {"bg": "Музикални фестивали", "de": "Musikfestivals", "en": "Music festivals"})[l])}</h2>' + ''.join(fest_card(it) for it in fests)
-    if news: html += f'<h2 class="gp-h">{e(({"bg": "Концерти и новини", "de": "Konzerte & News", "en": "Concerts & news"}[l]) if mgenre else g["news"])}</h2><div class="gs-grid">' + ''.join(small(it) for it in news) + '</div>'
+    if fests: html += f'<h2 class="gp-h">▶ {e((LX({"bg": "Филмови фестивали", "de": "Filmfestivals", "en": "Film festivals"}) if kind == "film" else LX({"bg": "Музикални фестивали", "de": "Musikfestivals", "en": "Music festivals"}))[l])}</h2>' + ''.join(fest_card(it) for it in fests)
+    if news: html += f'<h2 class="gp-h">{e((LX({"bg": "Концерти и новини", "de": "Konzerte & News", "en": "Concerts & news"})[l]) if mgenre else g["news"])}</h2><div class="gs-grid">' + ''.join(small(it) for it in news) + '</div>'
     if older: html += f'<h2 class="gp-h">{e(g["older"])}</h2><div class="gs-grid">' + ''.join(small(it) for it in older) + '</div>'
     html += mnav
     html += f'</div><aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{others}</aside></div></div>'
@@ -1143,14 +1149,14 @@ def media_article(it, l, paras, facts, noadv, rel, side, SX):
     sc = rv.get('score', {}).get(l) if isinstance(rv.get('score'), dict) else rv.get('score')
     meta = ' · '.join(x for x in [rv.get('pf'), (g['rel'] + ' ' + rv['rel']) if rv.get('rel') else '', ((g['devl'] + ' ' + rv['dev']) if g.get('devl') else rv['dev']) if rv.get('dev') else ''] if x)
     bg = f' style="background-image:url({im["f"]})"' if im else ''
-    cvl = {'bg': 'Обложка', 'de': 'Albumcover', 'en': 'Album cover'}[l]
+    cvl = LX({'bg': 'Обложка', 'de': 'Albumcover', 'en': 'Album cover'})[l]
     cr = (f'<p class="gr-cr">{credit(im, l, True)}' + (f' · {cvl} {e(it["cover"].get("cr", ""))}' if it.get('cover') else '') + '</p>') if im else ''
     if it.get('yt'):
         v = it['yt'] if isinstance(it['yt'], dict) else it['yt'][0]
         cov = f'<img class="gr-cover" src="{e(it["cover"]["f"])}" alt="{e(it["cover"].get("alt", {}).get(l, ""))}" width="600" height="600">' if it.get('cover') else ''
         badge = f'<span class="gr-badge">{g["badge"]}</span>' if rv else ''
         media = (f'<div class="ga-media"><div class="yt gr-yt" data-yt="{e(v["id"])}"{bg}>{badge}{cov}<button type="button" class="yt-play">{e(g.get("playb") or u["play"])}</button>'
-                 f'<span class="yt-note">{e(u["ytnote"])}</span></div>{cr}<p class="gr-yt-src">{e({"bg": "Видео", "de": "Video", "en": "Video"}[l] if it.get("fest") else g["vid"])}: YouTube · {ch_html(v.get("ch", ""))} · <a href="https://www.youtube.com/watch?v={e(v["id"])}" rel="noopener nofollow" target="_blank">youtube.com</a></p></div>')
+                 f'<span class="yt-note">{e(u["ytnote"])}</span></div>{cr}<p class="gr-yt-src">{e(LX({"bg": "Видео", "de": "Video", "en": "Video"})[l] if it.get("fest") else g["vid"])}: YouTube · {ch_html(v.get("ch", ""))} · <a href="https://www.youtube.com/watch?v={e(v["id"])}" rel="noopener nofollow" target="_blank">youtube.com</a></p></div>')
     elif im:
         alt = im.get('alt', {}).get(l, '')
         media = f'<div class="ga-media"><img class="ga-img" src="{im["f"]}" width="{im["w"]}" height="{im["h"]}" alt="{e(alt)}">{cr if im.get("cr") else ""}' + ('' if im.get('cr') else f'<p class="gr-cr">{cap_pre(alt, l)}{credit(im, l, True)}</p>') + '</div>'
@@ -1367,7 +1373,7 @@ def wow_page(l, its, others, title='WOW', desc=None, kind='wow'):
     if not tiles: tiles = f'<p class="note">{e(u["empty"])}</p>'
     return (f'<div class="gp gp-wow gp-{kind}"><div class="gp-head"><h1 class="gp-title">{e(title)}</h1>{gp_slogan(l)}</div>'
             f'<div class="gp-main"><div class="gp-panel"><p class="sec-desc">{e(desc or SEC_DESC["wow"][l])}</p><div class="wow-grid">{tiles}</div>{grid_cr(crs, l)}</div>'
-            f'<aside class="sec-side"><h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
+            f'<aside class="sec-side"><h2 class="list-h">{e(LX({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"})[l])}</h2>{others}</aside></div></div>')
 
 # ---- Formel 1 + Tennis (seit 09.10.2026): Daten content/f1/<Saison>.json und content/tennis/rankings.json (Importer in tools/)
 F1U = {'bg': dict(drv='Класиране при пилотите', tm='Класиране при конструкторите', cal='Календар', nxt='Следващо състезание', pos='#', name='Пилот', team='Отбор', wins='Поб.', pts='Т.', rd='Кр.', gp='Гран при', date='Дата', win='Победител', up='предстои', after='след {n} състезания', season='Сезон', src='Данни', tz='българско време'),
@@ -1406,7 +1412,7 @@ def f1_page(l, today, news_html, others):
             f'<h2 class="gp-h">{e(f["tm"])}</h2><div class="tbl-wrap"><table class="fb-t f1-t"><thead><tr><th class="n">{f["pos"]}</th><th>{f["team"]}</th><th class="n">{f["wins"]}</th><th class="n">{f["pts"]}</th></tr></thead><tbody>{trows}</tbody></table></div>'
             f'<h2 class="gp-h">{e(f["cal"])} {e(F["season"])}</h2><div class="tbl-wrap"><table class="fb-t f1-cal"><thead><tr><th class="n">{f["rd"]}</th><th>{f["gp"]}</th><th>{f["date"]}</th><th>{f["win"]}</th></tr></thead><tbody>{crow}</tbody></table></div>'
             f'<p class="fb-ko">{e(f["src"])}: {src}</p>{news_html}</div>'
-            f'<aside class="sec-side"><h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
+            f'<aside class="sec-side"><h2 class="list-h">{e(LX({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"})[l])}</h2>{others}</aside></div></div>')
 
 TNU = {'bg': dict(atp='ATP ранглиста (мъже)', wta='WTA ранглиста (жени)', ev='Текущи турнири', ours='Българи и германци в ранглистата', r='#', name='Играч', cc='Държава', pts='Точки', tr='±', asof='Към', top='Топ 20', src='Данни'),
        'de': dict(atp='ATP-Weltrangliste (Herren)', wta='WTA-Weltrangliste (Damen)', ev='Laufende Turniere', ours='Deutsche und Bulgaren im Ranking', r='Pl.', name='Spieler/in', cc='Land', pts='Punkte', tr='±', asof='Stand', top='Top 20', src='Daten'),
@@ -1434,7 +1440,7 @@ def tennis_page(l, today, news_html, others):
             f'<div class="gp-main"><div class="gp-panel">{hero}' + (f'<h2 class="gp-h">{e(f["ev"])}</h2><ul class="tn-ev">{el}</ul>' if el else '') +
             f'<div class="tn-two">{table("atp")}{table("wta")}</div>' + (f'<h2 class="gp-h">{e(f["ours"])}</h2><ul class="tn-ours">{ol}</ul>' if ol else '') +
             f'<p class="fb-ko">{e(f["src"])}: {src}</p>{news_html}</div>'
-            f'<aside class="sec-side"><h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
+            f'<aside class="sec-side"><h2 class="list-h">{e(LX({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"})[l])}</h2>{others}</aside></div></div>')
 
 def fb_league_card(k, l, today):
     lg = FB[k]; f = FBU[l]
@@ -1454,7 +1460,7 @@ LIVEU = {'bg': dict(h='На живо', today='Мачове днес', src='Да�
 def live_box(l, kind, lg=None, empty=''):  # Live-Spielstände: wird per terra.js aus /api/live gefüllt, bleibt ohne Spiele ausgeblendet
     u = dict(LIVEU[l])
     if kind == 'hb': u['src'] = u['src'].replace('API-Football', 'API-Handball')
-    ntm = {v[1]: (k if l == 'de' else v[0]) for k, v in NT.items()} if l != 'en' else {}
+    ntm = {v[1]: (k if l == 'de' else v[0]) for k, v in NT.items()} if l in ('bg', 'de') else {}
     return (f'<section class="live-box" data-live="{kind}"{f' data-lg="{lg}"' if lg else ''} data-l="{l}"{f' data-empty="{e(empty)}"' if empty else ''} data-tx="{e(json.dumps(u, ensure_ascii=False))}" data-nt="{e(json.dumps(ntm, ensure_ascii=False))}" hidden>'
             f'<h2 class="gp-h"><span class="live-dot"></span> {e(u["h"])} · {e(u["today"])}</h2><div class="live-list"></div><p class="fb-ko live-src">{e(u["src"])}</p></section>')
 
@@ -1532,15 +1538,15 @@ def fb_overview(l, today, news_html, others):
     cards = ''.join(fb_league_card(k, l, today) for k in fb_order(l) if k in FB)
     return (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(title)}</h1><span class="gp-date">{e(f["season"])} {e(" / ".join(seasons))}</span></div>'
             f'<div class="gp-main"><div class="gp-panel">{live_box(l, "club")}<h2 class="gp-h">{e(f["leagues"])}</h2><div class="fb-grid">{cards}</div>{grid_cr([(FB[k]["name"][l], FB_IMG.get(k)) for k in fb_order(l) if k in FB], l)}{news_html}{tv_block(l)}</div>'
-            f'<aside class="sec-side"><h2 class="list-h">{e(UI[l]["more"] if False else {"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
+            f'<aside class="sec-side"><h2 class="list-h">{e(UI[l]["more"] if False else LX({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"})[l])}</h2>{others}</aside></div></div>')
 
 def uefa_empty(lg, l, today):   # CL/EL: Live-Block immer sichtbar – ohne Spiele heute Hinweis auf den nächsten Spieltag
     nx = sorted((m for m in lg['matches'] if m.get('ft') is None and m['date'] >= today), key=lambda m: (m['date'], m.get('time', '')))
-    base = {'bg': 'Днес няма мачове.', 'de': 'Heute keine Spiele.', 'en': 'No matches today.'}[l]
+    base = LX({'bg': 'Днес няма мачове.', 'de': 'Heute keine Spiele.', 'en': 'No matches today.'})[l]
     if not nx: return base
     if nx[0]['date'] == today:
-        return {'bg': 'Днес: {md}, начало {t} ч. – резултатите на живо се появяват тук.', 'de': 'Heute: {md}, Anstoß {t} Uhr – die Live-Stände erscheinen hier.', 'en': 'Today: {md}, kick-off {t} – live scores will appear here.'}[l].format(md=FBU[l]['md'].format(n=nx[0]['r']), t=fb_dt(nx[0], lg, l).split(' ')[-1])
-    return base + ' ' + {'bg': 'Следващ мач', 'de': 'Nächster Anstoß', 'en': 'Next kick-off'}[l] + ': ' + fb_dt(nx[0], lg, l) + ' · ' + FBU[l]['md'].format(n=nx[0]['r'])
+        return LX({'bg': 'Днес: {md}, начало {t} ч. – резултатите на живо се появяват тук.', 'de': 'Heute: {md}, Anstoß {t} Uhr – die Live-Stände erscheinen hier.', 'en': 'Today: {md}, kick-off {t} – live scores will appear here.'})[l].format(md=FBU[l]['md'].format(n=nx[0]['r']), t=fb_dt(nx[0], lg, l).split(' ')[-1])
+    return base + ' ' + LX({'bg': 'Следващ мач', 'de': 'Nächster Anstoß', 'en': 'Next kick-off'})[l] + ': ' + fb_dt(nx[0], lg, l) + ' · ' + FBU[l]['md'].format(n=nx[0]['r'])
 FB_API = {'champions-league': 2, 'europa-league': 3, 'conference-league': 848, 'bundesliga': 78, '2-bundesliga': 79, 'premier-league': 39, 'la-liga': 140, 'serie-a': 135, 'ligue-1': 61, 'parva-liga': 172}   # API-Football-Liga-IDs für den Live-Block
 def fb_league_page(k, l, today, others):
     lg = FB[k]; f = FBU[l]
@@ -1582,7 +1588,7 @@ def fb_league_page(k, l, today, others):
             (f'<h2 class="gp-h">{e(f["done"])}</h2>{dn}' if dn else '') +
             f'<p class="fb-ko">{e(f["src"])}: <a href="{e(lg["src"][0]["u"])}" rel="noopener nofollow" target="_blank">{e(lg["src"][0]["n"])}</a>' + (f' · {e(UEFAU[l]["asof"])} {num_date(lg["asof"])}' if lg.get('asof') else '') + '</p></div>'
             f'<aside class="sec-side"><h2 class="list-h">{e(f["leagues"])}</h2><ul class="fb-ll">{others_l}</ul>'
-            f'<h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
+            f'<h2 class="list-h">{e(LX({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"})[l])}</h2>{others}</aside></div></div>')
 
 # ---- Länderspiele: Nations League (Daten: content/nations-league/<saison>.json, UEFA-Daten redaktionell geprüft)
 NL = {}
@@ -1617,7 +1623,7 @@ def nl_url(g, l): return f"{sub_url('sport', 'laenderspiele', l)}{g['g'].lower()
 def nl_table(lg, l, hl=None):
     f = FBU[l]; tab = fb_table(lg)
     rows = ''.join(f'<tr{" class=fb-top" if i < 2 else ""}{" style=font-weight:700" if hl and t == hl else ""}><td class="n">{i + 1}</td><th scope="row">{e(t)}</th><td class="n">{r[0]}</td><td class="n">{r[1]}</td><td class="n">{r[2]}</td><td class="n">{r[3]}</td><td class="n">{r[4]}:{r[5]}</td><td class="n">{"+" if r[4] - r[5] > 0 else ""}{r[4] - r[5]}</td><td class="n fb-pts">{r[6]}</td></tr>' for i, (t, r) in enumerate(tab))
-    return (f'<div class="tbl-wrap"><table class="fb-t"><thead><tr><th class="n">{f["pos"]}</th><th>{ {"bg": "Отбор", "de": "Team", "en": "Team"}[l] }</th><th class="n">{f["p"]}</th><th class="n">{f["w"]}</th><th class="n">{f["d"]}</th><th class="n">{f["l"]}</th><th class="n">{f["g"]}</th><th class="n">{f["gd"]}</th><th class="n">{f["pts"]}</th></tr></thead><tbody>{rows}</tbody></table></div>')
+    return (f'<div class="tbl-wrap"><table class="fb-t"><thead><tr><th class="n">{f["pos"]}</th><th>{ LX({"bg": "Отбор", "de": "Team", "en": "Team"})[l] }</th><th class="n">{f["p"]}</th><th class="n">{f["w"]}</th><th class="n">{f["d"]}</th><th class="n">{f["l"]}</th><th class="n">{f["g"]}</th><th class="n">{f["gd"]}</th><th class="n">{f["pts"]}</th></tr></thead><tbody>{rows}</tbody></table></div>')
 def nl_card(g, l, today):
     f = FBU[l]; lg = nl_lg(g, l); tab = fb_table(lg); rs, done, nxt = fb_state(lg, today)
     im = NL_IMG.get('liga-' + g['g'][0].lower())
@@ -1692,7 +1698,7 @@ def nl_overview(l, today, news, hls, others):
     html += tv_block(l)   # TV-Liste ganz unten (Nedys Vorgabe 06.10.2026: News und Fakten zuerst)
     if NL.get('format'): html += f'<p class="fb-ko"><b>{e(u["fmt"])}:</b> {e(NL["format"].get(l) or NL["format"].get("en", ""))}</p>'
     html += (f'<p class="fb-ko">{e(f["src"])}: {srcs}</p></div>'
-             f'<aside class="sec-side"><h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
+             f'<aside class="sec-side"><h2 class="list-h">{e(LX({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"})[l])}</h2>{others}</aside></div></div>')
     return html
 def nl_group_page(g, l, today, others):
     u = NLU[l]; f = FBU[l]; lg = nl_lg(g, l); rs, done, nxt = fb_state(lg, today)
@@ -1708,7 +1714,7 @@ def nl_group_page(g, l, today, others):
     return (f'<div class="gp gp-sport fb-page"><div class="gp-head"><h1 class="gp-title">{e(u["name"])} · {e(nl_gname(g, l))}</h1><span class="fb-season">{e(f["season"])} {e(NL.get("season", ""))}</span></div>'
             f'<div class="gp-main"><div class="gp-panel">{hero}<h2 class="gp-h">{e(f["table"])}</h2>{nl_table(lg, l)}{md}<p class="fb-ko">{e(f["ko"])}</p><p class="fb-ko">{e(f["src"])}: {srcs}</p></div>'
             f'<aside class="sec-side"><h2 class="list-h">{e(u["groups"])}</h2><ul class="fb-ll">{side}</ul>'
-            f'<h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
+            f'<h2 class="list-h">{e(LX({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"})[l])}</h2>{others}</aside></div></div>')
 
 # ---- Boxen: Verbände WBC/WBA/IBF/WBO (Daten: content/boxing/*.json, redaktionell recherchiert)
 BX = {}; BX_IMG = {}
@@ -1743,7 +1749,7 @@ def bx_url(k, l): return f"{sub_url('sport', BX[k].get('sp', 'boxen') if k in BX
 def grid_cr(pairs, l):  # Bildnachweise für Karten-Raster (Rubrik-/Liga-/Verbandskarten) – rechtlich vollständig
     xs = [(n, im) for n, im in pairs if im]
     if not xs: return ''
-    lab = {'bg': 'Снимки', 'de': 'Bilder', 'en': 'Images'}[l]
+    lab = LX({'bg': 'Снимки', 'de': 'Bilder', 'en': 'Images'})[l]
     return f'<p class="gr-cr grid-cr">{lab}: ' + ' | '.join(f'{e(n)}: {credit(im, l, True)}' for n, im in xs) + '</p>'
 def bx_d(s): return '.'.join(reversed(s.split('-'))) if re.match(r'^\d{4}-\d{2}-\d{2}$', s or '') else e(s or '')
 def bx_t(x, l): return (x.get(l) or x.get('en') or x.get('de') or '') if isinstance(x, dict) else (x or '')
@@ -1785,7 +1791,7 @@ def sport_overview(l, its, s, others):
         if top and not (k in UEFA_SUB.values() and not any(x.get('sub') == k for x in top)): news += f'<h2 class="gp-h">{e(f["news"][k])} <a class="sp-all" href="{sub_url(s, k, l)}">{e(f["all"])}</a></h2>{bx_news_grid(top, l)}'
     return (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(SEC[l][s][0])}</h1>{gp_slogan(l)}</div>'
             f'<div class="gp-main"><div class="gp-panel"><h2 class="gp-h">{e(f["subs"])}</h2><div class="fb-grid sp-grid">{cards}</div>{grid_cr([(SUB[l][k][0], SP_IMG.get(k)) for k in SUBS[s]], l)}{news}</div>'
-            f'<aside class="sec-side"><h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
+            f'<aside class="sec-side"><h2 class="list-h">{e(LX({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"})[l])}</h2>{others}</aside></div></div>')
 
 def bx_news_grid(items, l):
     def small(x):
@@ -1803,13 +1809,13 @@ def bx_overview(l, today, news, others, sp='boxen'):
     if fj:
         import datetime as _d
         dd = (_d.date(2026, 12, 11) - _d.date.fromisoformat(today)).days
-        cd = {'bg': f'още {dd} дни', 'de': f'noch {dd} Tage', 'en': f'{dd} days to go'}[l] if dd > 0 else ''
-        fjh = (f'<section class="bx-fj"><h2 class="gp-h">Fury vs. Joshua <span class="fb-rdd">{e({"bg": "11.12.2026 · Кардиф", "de": "11.12.2026 · Cardiff", "en": "11 Dec 2026 · Cardiff"}[l])}</span>'
+        cd = LX({'bg': f'още {dd} дни', 'de': f'noch {dd} Tage', 'en': f'{dd} days to go'})[l] if dd > 0 else ''
+        fjh = (f'<section class="bx-fj"><h2 class="gp-h">Fury vs. Joshua <span class="fb-rdd">{e(LX({"bg": "11.12.2026 · Кардиф", "de": "11.12.2026 · Cardiff", "en": "11 Dec 2026 · Cardiff"})[l])}</span>'
                + (f' <span class="bx-cd">{e(cd)}</span>' if cd else '') + f'</h2>{bx_news_grid(fj[:6], l)}</section>')
     nh = fjh + (f'<h2 class="gp-h">{e(f["news"])}</h2>{bx_news_grid(rest[:9], l)}' if rest else '')
     return (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(title)}</h1>{gp_slogan(l)}</div>'
             f'<div class="gp-main"><div class="gp-panel"><h2 class="gp-h">{e(f["orgs"])}</h2><div class="fb-grid bx-grid">{cards}</div>{grid_cr([(bx_t(BX[k]["name"], l), BX_IMG.get(k)) for k in BX_SPORT[sp] if k in BX], l)}{nh}</div>'
-            f'<aside class="sec-side"><h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
+            f'<aside class="sec-side"><h2 class="list-h">{e(LX({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"})[l])}</h2>{others}</aside></div></div>')
 
 def bx_fight_rows(xs, l, res=False):
     out = ''
@@ -1844,14 +1850,14 @@ def bx_org_page(k, l, today, news, others):
             + (f'<h2 class="gp-h">{e(f["res"])}</h2>{bx_fight_rows(rs, l, True)}' if rs else '')
             + f'<div class="sources ga-src"><h2>{e(f["src"])}</h2><ul>{srcs}</ul></div></div>'
             f'<aside class="sec-side"><h2 class="list-h">{e(f["side"])}</h2><ul class="fb-ll">{side}</ul>'
-            f'<h2 class="list-h">{e({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"}[l])}</h2>{others}</aside></div></div>')
+            f'<h2 class="list-h">{e(LX({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"})[l])}</h2>{others}</aside></div></div>')
 
 ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "/#org", "name": "TERRA WORLD NEWS", "slogan": "NEWS. FACTS. CONTEXT.", "alternateName": ["Terra World News", "TWN", "TWN – World News", "TWN World News"], "description": "Terra World News (TWN) is an independent online news portal publishing daily news from around the world in Bulgarian, German and English.", "foundingDate": "2026", "url": SITE + "/",
        "logo": {"@type": "ImageObject", "url": SITE + "/assets/logo.png", "width": 600, "height": 600},
        "parentOrganization": {"@type": "Organization", "name": "FILMPARTNER 24 EOOD", "legalName": "„ФИЛМПАРТНЕР 24“ ЕООД", "url": "https://filmpartner24.com/", "vatID": "BG208477411"},
        "founder": {"@type": "Person", "name": "Nedy John Cross", "url": "https://nedyjcross.com/"},
        "publishingPrinciples": SITE + "/redaktsionni-printsipi.html", "correctionsPolicy": SITE + "/redaktsionni-printsipi.html#korekcii",
-       "email": "media@filmpartner24.com", "areaServed": "Worldwide", "knowsLanguage": ["bg", "de", "en"]}
+       "email": "media@filmpartner24.com", "areaServed": "Worldwide", "knowsLanguage": ["bg", "de", "en", "tr", "es"]}
 
 TICKER = {}
 GTRL = {'bg': 'Трейлъри към ревютата', 'de': 'Trailer zu den Reviews', 'en': 'Review trailers'}
@@ -1923,6 +1929,7 @@ def build():
     global STATIC_FROM
     import datetime as _dt
     STATIC_FROM = (_dt.date.fromisoformat(latest['date']) - _dt.timedelta(days=STATIC_DAYS - 1)).isoformat()
+    STATIC_FROM_X = (_dt.date.fromisoformat(latest['date']) - _dt.timedelta(days=lang_extra.static_days(STATIC_DAYS) - 1)).isoformat()   # Türkisch/Spanisch: kürzer statisch (Dateigrenze Cloudflare)
     ARCH.clear()
     urls = []  # (url, alternates, lastmod)
     def write(path, content):
@@ -1971,7 +1978,7 @@ def build():
             st = f' style="background-image:url({it["img"]["f"]})"' if it.get('img') else ''
             return (f'<article class="gs"><a href="{art_url(it, l)}"><div class="gs-img"{st}><span class="rt-play" aria-hidden="true">▶</span></div>'
                     f'{kick(it, l)}<h3>{e(it[l]["t"])}</h3></a></article>')
-        VBT = {'bg': 'Видео на деня', 'de': 'Videos des Tages', 'en': 'Videos of the day'}
+        VBT = LX({'bg': 'Видео на деня', 'de': 'Videos des Tages', 'en': 'Videos of the day'})
         vband = (f'<section class="vband gp gp-home"><div class="gp-head"><h2 class="gp-title">▶ {e(VBT[l])}</h2>{gp_slogan(l)}</div>'
                  f'<div class="gp-panel vb-panel"><div class="gs-grid">{"".join(vtile(it) for it in vsel)}</div></div></section>') if len(vsel) >= 3 else ''
         cur = [it for it in today if it.get('live')]
@@ -2001,9 +2008,9 @@ def build():
         write(pre(l), page(l, act, u['title_home'], u['desc_home'], pre(l), body, alts, ld, issue=latest.get('issue', 1), date=latest['date'], ticker=ticker))
         urls.append((pre(l), alts, latest['date']))
         # ---- sections (Ressortseite: Aufmacher + Top-Teaser, Tagesblöcke der letzten 7 Tage, Seitenleiste, Archivseiten)
-        SX = {'bg': dict(latest='Последни новини', other='Други рубрики', older='По-стари новини', page='Страница', prev='← По-нови', next='По-стари →', arch='Архив'),
+        SX = LX({'bg': dict(latest='Последни новини', other='Други рубрики', older='По-стари новини', page='Страница', prev='← По-нови', next='По-стари →', arch='Архив'),
               'de': dict(latest='Alle Meldungen', other='Aus anderen Ressorts', older='Ältere Meldungen', page='Seite', prev='← Neuere', next='Ältere →', arch='Archiv'),
-              'en': dict(latest='All stories', other='From other sections', older='Older stories', page='Page', prev='← Newer', next='Older →', arch='Archive')}[l]
+              'en': dict(latest='All stories', other='From other sections', older='Older stories', page='Page', prev='← Newer', next='Older →', arch='Archive')})[l]
         def row(it):
             T = it[l]
             return (f'<article class="row"><a class="row-img" href="{art_url(it, l)}" tabindex="-1">{plate(it, l)}</a>'
@@ -2163,9 +2170,9 @@ def build():
                         uk = next(x for x in FB if UEFA_SUB.get(x) == k)
                         sb = tabs(k) + fb_league_page(uk, l, latest['date'], _others(s))
                         un = sorted([x for x in its if x.get('sub') == k or x.get('uc') == k], key=lambda x: (x['date'], x['time']), reverse=True)
-                        if un: sb += games_page(l, un, un[0]['date'], '', SX, s, title={'bg': 'Новини', 'de': 'News', 'en': 'News'}[l] + ' · ' + SUB[l][k][0])
+                        if un: sb += games_page(l, un, un[0]['date'], '', SX, s, title=LX({'bg': 'Новини', 'de': 'News', 'en': 'News'})[l] + ' · ' + SUB[l][k][0])
                     elif s == 'sport' and k == 'handball' and 'handball-bundesliga' in FB:   # Handball-Bundesliga: Tabelle/Spieltage wie Fußball
-                        HBK = {'bg': 'Начален час: българско време', 'de': 'Anwurfzeiten: deutsche Zeit', 'en': 'Throw-off times: German time'}
+                        HBK = LX({'bg': 'Начален час: българско време', 'de': 'Anwurfzeiten: deutsche Zeit', 'en': 'Throw-off times: German time'})
                         sb = tabs(k) + fb_league_page('handball-bundesliga', l, latest['date'], _others(s)).replace(e(FBU[l]['ko']), e(HBK[l]))
                         sb = sb.replace('<div class="gp-panel">', '<div class="gp-panel">' + live_box(l, 'hb'), 1)
                         if sits: sb += games_page(l, sits, sits[0]['date'], '', SX, s, title=SUB[l][k][0])
@@ -2204,9 +2211,9 @@ def build():
                         sb = sb.replace('<div class="gp-panel">', '<div class="gp-panel">' + dating_block(l), 1)
                     if s in MOVE_SUBS:  # Überschriften auf der Unterseite: „Berlin im Video“ statt „Deutschland im Video“
                         _sn = SUB[l][k][0]
-                        for _o, _n in {'bg': (('Германия във видео', f'{_sn} във видео'), ('Новини от Германия', f'Новини от {_sn}')),
+                        for _o, _n in LX({'bg': (('Германия във видео', f'{_sn} във видео'), ('Новини от Германия', f'Новини от {_sn}')),
                                        'de': (('Deutschland im Video', f'{_sn} im Video'), ('Deutschland-News', f'{_sn}-News')),
-                                       'en': (('Germany on video', f'{_sn} on video'), ('Germany news', f'{_sn} news'))}[l]:
+                                       'en': (('Germany on video', f'{_sn} on video'), ('Germany news', f'{_sn} news'))})[l]:
                             sb = sb.replace(f'>{_o}<', f'>{_n}<').replace(f'▶ {_o}<', f'▶ {_n}<')
                     subalts = {x: sub_url(s, k, x) for x in act}
                     write(su, page(l, act, f'{title} | TWN – World News', (SUB_DESC[k][l] if k in SUB_DESC else f'{title}: {u["desc_home"]}'), su, sb, subalts, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": title, "url": SITE + su, "inLanguage": l}, crumbs(l, [(SEC[l][s][0], sec_url(s, l)), (SUB[l][k][0], su)])]}, issue=latest.get('issue', 1), date=latest['date']))
@@ -2214,10 +2221,10 @@ def build():
                     if s == 'musik':   # Seite 2, 3 …: ältere Videos und Artikel des Genres – die Sammlung wächst, nichts wird gelöscht (Nedy 26.10.2026)
                         _rest = popfolk_page.rest if k == 'popfolk' else games_page.rest; _tot = len(_rest) + 1
                         for _n, _chunk in enumerate(_rest, start=2):
-                            _pu = mpage_url(k, _n, l); _pl = {'bg': 'Страница', 'de': 'Seite', 'en': 'Page'}[l]
+                            _pu = mpage_url(k, _n, l); _pl = LX({'bg': 'Страница', 'de': 'Seite', 'en': 'Page'})[l]
                             _cards = ''.join(f'<article class="gs"><a href="{art_url(x, l)}"><div class="gs-img"' + (f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else '') + '>' + ('<span class="rt-play" aria-hidden="true">▶</span>' if x.get('yt') else '') + f'</div>{kick(x, l)}<h3>{e(x[l]["t"])}</h3></a></article>' for x in _chunk)
                             _pb = (f'<div class="gp gp-musik"><div class="gp-head"><h1 class="gp-title">{e(SUB[l][k][0])} – {_pl} {_n}</h1>{gp_slogan(l)}</div><div class="gp-main"><div class="gp-panel">'
-                                   + musik_grid(l, k) + mpager(l, _n, _tot, lambda m, _k=k: mpage_url(_k, m, l), top=True) + f'<h2 class="gp-h">{e({"bg": "Видеа и статии от архива", "de": "Videos und Artikel aus dem Archiv", "en": "Videos and stories from the archive"}[l])} · {_pl} {_n} / {_tot}</h2>'
+                                   + musik_grid(l, k) + mpager(l, _n, _tot, lambda m, _k=k: mpage_url(_k, m, l), top=True) + f'<h2 class="gp-h">{e(LX({"bg": "Видеа и статии от архива", "de": "Videos und Artikel aus dem Archiv", "en": "Videos and stories from the archive"})[l])} · {_pl} {_n} / {_tot}</h2>'
                                    + f'<div class="gs-grid">{_cards}</div>' + mpager(l, _n, _tot, lambda m, _k=k: mpage_url(_k, m, l))
                                    + f'</div><aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{_others(s)}</aside></div></div>')
                             _pal = {x: mpage_url(k, _n, x) for x in act}
@@ -2264,7 +2271,7 @@ def build():
                   {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": u['home'], "item": SITE + pre(l)}, {"@type": "ListItem", "position": 2, "name": SEC[l][it['s']][0], "item": SITE + sec_home(it['s'], l, it.get('sub'))}, {"@type": "ListItem", "position": 3, "name": T['t']}]}]}
             extra = f'<meta property="article:published_time" content="{iso(it)}"><meta property="article:section" content="{e(SEC[l][it["s"]][0])}">'
             _html = page(l, act, f'{T["t"]} | TWN', T['d'], art_url(it, l), body, aalts, ld, og_type='article', issue=latest.get('issue', 1), date=it['date'], extra_head=extra, og_img=(it['img']['f'] if it.get('img') else None))
-            if it['date'] >= STATIC_FROM: write(art_url(it, l), _html)
+            if it['date'] >= (STATIC_FROM_X if l in lang_extra.EXTRA else STATIC_FROM): write(art_url(it, l), _html)
             else: ARCH.setdefault((l, it['date'], arch_bucket(it['id'])), {})[it['id']] = _html
             urls.append((art_url(it, l), aalts, it['date']))
         # ---- legal
@@ -2348,9 +2355,11 @@ def build():
                 ns += f'  <url><loc>{SITE}{art_url(it, l)}</loc><news:news><news:publication><news:name>TWN World News</news:name><news:language>{l}</news:language></news:publication><news:publication_date>{iso(it)}</news:publication_date><news:title>{e(it[l]["t"])}</news:title></news:news></url>\n'
     ns += '</urlset>\n'
     open(os.path.join(OUT, 'news-sitemap.xml'), 'w', encoding='utf-8').write(ns)
-    open(os.path.join(OUT, 'robots.txt'), 'w').write(f'User-agent: *\nAllow: /\nDisallow: /_arch/\nDisallow: /search/\nDisallow: /de/search/\nDisallow: /en/search/\n\nSitemap: {SITE}/sitemap.xml\nSitemap: {SITE}/news-sitemap.xml\n')
+    open(os.path.join(OUT, 'robots.txt'), 'w').write('User-agent: *\nAllow: /\nDisallow: /_arch/\nDisallow: /search/\n' + ''.join(f'Disallow: {pre(x)}search/\n' for x in act if x != 'bg') + f'\nSitemap: {SITE}/sitemap.xml\nSitemap: {SITE}/news-sitemap.xml\n')
     n = sum(1 for _ in glob.glob(OUT + '/**/*', recursive=True) if os.path.isfile(_))
     print(f'built {len(urls)} pages, {n} files, languages: {act}')
+
+lang_extra.apply(globals())   # Türkisch + Spanisch: Tabellen ergänzen (seit 27.10.2026, Nedy)
 
 if __name__ == '__main__':
     build()

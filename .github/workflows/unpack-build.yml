@@ -28,6 +28,12 @@ jobs:
       - name: Music video cards (Nedy 26.10.2026)
         run: python3 tools/video_card.py
       - run: python3 tools/fetch_images.py
+      - name: Translate new items into Turkish and Spanish (Nedy 27.10.2026)
+        continue-on-error: true
+        timeout-minutes: 10
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 tools/translate.py
       - name: Commit
         run: |
           git config user.name "terra-bot"
