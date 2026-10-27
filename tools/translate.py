@@ -77,8 +77,12 @@ def apply_edits(draft, edits):
             elif isinstance(v, list):
                 slots += [(v, i) for i, x in enumerate(v) if isinstance(x, str)]
     ok = bad = 0
-    for ed in edits or []:
-        o, n = (ed or {}).get('old'), (ed or {}).get('new')
+    if not isinstance(edits, list):
+        edits = []
+    for ed in edits:
+        if not isinstance(ed, dict):
+            bad += 1; continue
+        o, n = ed.get('old'), ed.get('new')
         if not isinstance(o, str) or not isinstance(n, str) or not o:
             bad += 1; continue
         hits = [(b, k) for b, k in slots if o in b[k]]
@@ -219,7 +223,8 @@ def translate(it, langs):
                 for k, v in u.items():
                     if isinstance(v, int): usage[k] = usage.get(k, 0) + v
                 rev = rev if isinstance(rev, dict) else {}
-                rev_issues = [str(x)[:200] for x in (rev.get('issues') or [])][:8]
+                iss = rev.get('issues') if isinstance(rev.get('issues'), list) else ([rev['issues']] if rev.get('issues') else [])
+                rev_issues = [str(x)[:200] for x in iss][:8]
                 draft = {k: out[k] for k in ('L', 'x') if k in out}
                 fixed, n_ok, n_bad = apply_edits(draft, rev.get('edits'))
                 errs3 = check(src, fixed) if n_ok else errs
@@ -232,9 +237,10 @@ def translate(it, langs):
                         errs.append('Korrektor: schwerer Fehler, Korrektur nicht prüfbar')
                 if n_bad:
                     print(f'  ! {it["id"]}/{l}: {n_bad} Korrektur(en) nicht anwendbar')
-                    if rev.get('severe'):
-                        errs.append('Korrektor: schwerer Fehler, Korrektur nicht anwendbar')
-                        rev_issues = []
+                if rev.get('severe') and (n_bad or not n_ok):
+                    errs.append('Korrektor: schwerer Fehler, Korrektur nicht (vollständig) anwendbar')
+                if not n_ok:
+                    rev_issues = []
             except RuntimeError as e:
                 print(f'  ! Korrektor {it["id"]}/{l}: {e}')
         rec = {'h': lang_extra.src_hash(it), 'L': out.get('L', {}), 'at': datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%MZ')}
@@ -317,10 +323,10 @@ def main():
             date, it = futs[fu]
             try:
                 res, u = fu.result()
-            except RuntimeError as e:
-                print(f'  ! {it["id"]}: {e}'); continue
             except SystemExit as e:   # Guthaben/Limit erreicht oder Schlüssel ungültig: Bisheriges speichern, Rest später
                 fatal = str(e); print(f'translate: {e}'); ex.shutdown(cancel_futures=True); break
+            except Exception as e:   # einzelne Meldung fehlerhaft – Lauf nicht abbrechen
+                print(f'  ! {it["id"]}: {type(e).__name__}: {e}'); continue
             for k, v in u.items(): tot[k] = tot.get(k, 0) + v
             for l, rec in res.items():
                 fp = os.path.join(HERE, 'translations', l, f'{date}.json')
@@ -339,7 +345,7 @@ def main():
             json.dump(data, open(fp, 'w', encoding='utf-8'), ensure_ascii=False, indent=1, sort_keys=True)
     # Liste aller markierten (nicht veröffentlichten) Übersetzungen
     allf = []
-    for fp in glob.glob(os.path.join(HERE, 'translations', '*', '*.json')):
+    for fp in [f for x in CFG['langs'] for f in glob.glob(os.path.join(HERE, 'translations', x, '*.json'))]:   # nur Sprachordner (nicht usage/)
         l = fp.split(os.sep)[-2]
         for k, rec in json.load(open(fp, encoding='utf-8')).get('items', {}).items():
             if rec.get('flag'):
