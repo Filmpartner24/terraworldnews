@@ -141,8 +141,18 @@ def _fill(it, l):
                 b[l] = copy.deepcopy(b['en'])
 
 
+def _publish():
+    try:
+        return bool(json.load(open(os.path.join(HERE, 'i18n', 'config.json'), encoding='utf-8')).get('publish', True))
+    except (FileNotFoundError, ValueError):
+        return True
+
+
+PUBLISH = _publish()   # false = tr/es werden weiter übersetzt, aber nicht auf der Seite gebaut
+
+
 def merge(it, date):
-    if not isinstance(it.get('de'), dict):
+    if not PUBLISH or not isinstance(it.get('de'), dict):
         return
     h = None
     for l in EXTRA:

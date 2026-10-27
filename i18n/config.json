@@ -8,5 +8,6 @@
  "workers": 8,
  "max_items_per_run": 200,
  "max_seconds": 480,
- "static_days": 14
+ "static_days": 14,
+ "publish": false
 }
