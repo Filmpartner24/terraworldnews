@@ -62,7 +62,7 @@ REVIEW = """You are the final copy editor of TERRA WORLD NEWS for {lang}. You re
 - lost hedges ("mutmaßlich", "offenbar", "nach Angaben") – presumption of innocence must be kept;
 - literal translations of idioms, unnatural wording, spelling, target-language conventions (scores "2-1", Spanish "170.600 millones", Turkish capitalisation of weekdays/months per TDK, established spellings of foreign names);
 - headline "t" ≤ 90 characters, teaser "d" ≤ 220 characters, same number of body paragraphs.
-Change only what is needed. Output ONLY JSON: {{"issues": ["short description", …], "severe": true|false, "fixed": {{"L": {{…}}, "x": {{…}}}}}} – "fixed" is the complete corrected version with exactly the same keys as the draft (repeat it unchanged if there is nothing to fix); "severe" is true if the draft contained a factual or legal error."""
+Change only what is needed: leave correct sentences exactly as they are. Every change must keep the meaning identical to the German – never change logical relations (time vs. cause: "als" = when/while, not because; "und" vs. "aber"), tense, modality or who said what. If unsure, do not change. Output ONLY JSON: {{"issues": ["short description", …], "severe": true|false, "fixed": {{"L": {{…}}, "x": {{…}}}}}} – "fixed" is the complete corrected version with exactly the same keys as the draft (repeat it unchanged if there is nothing to fix); "severe" is true if the draft contained a factual or legal error."""
 
 
 def _shape(langs):
