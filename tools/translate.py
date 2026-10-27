@@ -91,10 +91,17 @@ def apply_edits(draft, edits):
         if not isinstance(o, str) or not isinstance(n, str) or not o:
             bad += 1; continue
         hits = [(b, k) for b, k in slots if o in b[k]]
-        if len(hits) != 1 or hits[0][0][hits[0][1]].count(o) != 1:
-            bad += 1; continue
-        b, k = hits[0]
-        b[k] = b[k].replace(o, n); ok += 1
+        if len(hits) == 1 and hits[0][0][hits[0][1]].count(o) == 1:
+            b, k = hits[0]
+            b[k] = b[k].replace(o, n); ok += 1; continue
+        # unscharf: Anführungszeichen, Apostrophe und Leerraum dürfen abweichen
+        pat = re.compile(''.join('[«»“”"„\'’‘‹›]' if c in '«»“”"„\'’‘‹›' else (r'\s+' if c.isspace() else re.escape(c)) for c in o.strip()))
+        hits = [(b, k) for b, k in slots if len(pat.findall(b[k])) == 1]
+        if len(hits) == 1:
+            b, k = hits[0]
+            b[k] = pat.sub(lambda m: n, b[k]); ok += 1
+        else:
+            bad += 1
     return new, ok, bad
 
 
@@ -248,6 +255,9 @@ def translate(it, langs):
     system = SYSTEM.format(langs=' and '.join(LANG_NAME[l] for l in langs), shape=_shape(langs))
     ctx = f"Section: {it.get('s', '')}. English reference version (for meaning only; translate from German): " + json.dumps({k: it.get('en', {}).get(k) for k in ('t', 'd')}, ensure_ascii=False)
     user = ctx + '\n\nGerman original:\n' + json.dumps(src, ensure_ascii=False)
+    ks = konj_sentences(src['L'])
+    if ks:
+        user += '\n\nWatch out – these German sentences are INDIRECT SPEECH (Konjunktiv): in every language keep the attribution (said/according to/conditional), never state them as fact:\n- ' + '\n- '.join(ks)
     usage = {}
     res, u = call(system, user)
     for k, v in u.items():
@@ -269,7 +279,7 @@ def translate(it, langs):
                     out, errs = out2, errs2
             except RuntimeError as e:
                 errs.append(str(e))
-        rev_issues = []
+        rev_issues, rev_dbg = [], None
         if out.get('L') and not any(x.startswith('Schlüssel') for x in errs):   # Zweitprüfung durch einen „Korrektor“
             try:
                 hints = ''
@@ -288,6 +298,7 @@ def translate(it, langs):
                 rev_issues = [str(x)[:200] for x in iss][:8]
                 draft = {k: out[k] for k in ('L', 'x') if k in out}
                 fixed, n_ok, n_bad = apply_edits(draft, rev.get('edits'))
+                rev_dbg = [len(iss), n_ok, n_bad]
                 errs3 = check(src, fixed, l) if n_ok else errs
                 if n_ok and len(errs3) <= len(errs):
                     out, errs = fixed, errs3
@@ -320,6 +331,8 @@ def translate(it, langs):
         rec = {'h': lang_extra.src_hash(it), 'L': out.get('L', {}), 'at': datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%MZ')}
         if out.get('x'):
             rec['x'] = out['x']
+        if rev_dbg:
+            rec['rev_dbg'] = rev_dbg   # Korrektor: gemeldete Probleme / angewandte / nicht anwendbare Korrekturen
         if rev_issues:
             rec['rev'] = rev_issues   # was der Korrektor verbessert hat (Nachvollziehbarkeit)
         if errs:
