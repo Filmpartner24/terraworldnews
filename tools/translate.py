@@ -542,9 +542,10 @@ def main():
     if only:
         todo = [t for t in todo if t[1]['id'] in only]
     tot, done, flagged, fatal = {}, 0, [], None
-    if CFG.get('batch') and not only:   # Sammelauftrag (50 % günstiger): alles außer Breaking News (Nedy 27.10.2026)
-        bt = [t for t in todo if not t[3]]
-        todo = [t for t in todo if t[3]]
+    if CFG.get('batch') and (not only or os.environ.get('TRANSLATE_FORCE_BATCH')):   # Sammelauftrag (50 % günstiger): alles außer Breaking News (Nedy 27.10.2026)
+        forced = bool(os.environ.get('TRANSLATE_FORCE_BATCH'))
+        bt = [t for t in todo if forced or not t[3]]
+        todo = [t for t in todo if t[3] and not forced]
         try:
             ub, nb_done, fatal = run_batch(bt, store, flagged, month['usd'], budget)
             for k, v in ub.items(): tot[k] = tot.get(k, 0) + v

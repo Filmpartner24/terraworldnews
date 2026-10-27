@@ -8,6 +8,7 @@ on:
       effort_r: { description: 'Effort Korrektor', default: 'low' }
       out: { description: 'Ausgabeordner', default: 'probe/a' }
       langs: { description: 'Sprachen', default: 'tr,es,it' }
+      batch: { description: 'Sammelauftrag erzwingen (1 = ja)', default: '' }
 permissions:
   contents: write
 concurrency:
@@ -30,6 +31,7 @@ jobs:
           TRANSLATE_EFFORT_R: ${{ inputs.effort_r }}
           TRANSLATE_OUT: ${{ inputs.out }}
           TRANSLATE_LANGS: ${{ inputs.langs }}
+          TRANSLATE_FORCE_BATCH: ${{ inputs.batch }}
         run: TRANSLATE_IDS=$(tr '\n' ',' < i18n/probe_ids.txt) python3 tools/translate.py
       - name: Commit
         run: |
