@@ -453,7 +453,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
         xd = alternates.get('en') or alternates.get('bg')
         if xd: alts += f'<link rel="alternate" hreflang="x-default" href="{SITE}{xd}">'
     langbar = ''
-    _lb_order = LX({'de': 0, 'en': 1, 'bg': 2})  # Sprachleiste: DE / EN / BG (seit 2026-10-04)
+    _lb_order = {'de': 0, 'en': 1, 'bg': 2, 'es': 3, 'tr': 4, 'it': 5}  # Sprachleiste: DE / EN / BG / ES / TR (Nedy 27.10.2026)
     for code, name in sorted(LANGS, key=lambda x: _lb_order.get(x[0], 99)):
         if code in act:
             target = (alternates or {}).get(code, pre(code))
