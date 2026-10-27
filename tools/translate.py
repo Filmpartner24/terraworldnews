@@ -67,6 +67,9 @@ REVIEW = """You are the final copy editor of TERRA WORLD NEWS for {lang}. You re
 Change only what is needed: leave correct sentences exactly as they are. Every change must keep the meaning identical to the German – never change logical relations (time vs. cause: "als" = when/while, not because; "und" vs. "aber"), tense, modality or who said what. If unsure, do not change. Output ONLY JSON: {{"issues": ["short description", …], "severe": true|false, "edits": [{{"old": "exact text from the draft", "new": "replacement"}}, …]}} – each "old" must be copied character for character from the draft and be long enough to occur only once (a few words to a sentence); "edits" is [] if nothing needs fixing; "severe" is true if the draft contained a factual or legal error."""
 
 
+SHORTEN = """Shorten this {lang} news text to at most {n} characters. Keep its meaning, every hedge/attribution ("al parecer", "según", "iddiaya göre" …), names and numbers; cut only less important words. The German original ("de") is for reference. Output ONLY JSON: {{"text": "…"}}"""
+
+
 def apply_edits(draft, edits):
     """Korrekturen des Korrektors als Ersetzungen anwenden (spart Ausgabe-Tokens gegenüber einer Komplettfassung).
     Gibt (neue Fassung, Zahl angewandter, Zahl nicht anwendbarer Korrekturen) zurück."""
@@ -272,6 +275,19 @@ def translate(it, langs):
                     rev_issues = []
             except RuntimeError as e:
                 print(f'  ! Korrektor {it["id"]}/{l}: {e}')
+        for k, lim in (('t', 90), ('d', 220)):   # zu lange Titel/Teaser gezielt kürzen statt die Meldung zurückzuhalten
+            txt = (out.get('L') or {}).get(k)
+            if isinstance(txt, str) and len(txt) > lim:
+                try:
+                    r, u = call(SHORTEN.format(lang=LANG_NAME[l], n=lim - 5), json.dumps({'de': src['L'].get(k, ''), 'text': txt}, ensure_ascii=False), 't')
+                    for kk, v in u.items():
+                        if isinstance(v, int): usage[kk] = usage.get(kk, 0) + v
+                    short = r.get('text') if isinstance(r, dict) else None
+                    if isinstance(short, str) and 0 < len(short) <= lim:
+                        out['L'][k] = short
+                        errs = check(src, out, l)
+                except RuntimeError as e:
+                    print(f'  ! Kürzen {it["id"]}/{l}: {e}')
         rec = {'h': lang_extra.src_hash(it), 'L': out.get('L', {}), 'at': datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%MZ')}
         if out.get('x'):
             rec['x'] = out['x']
