@@ -2204,7 +2204,7 @@ def build():
                     _old = [x for x in sorted([x for x in its_all if x.get('sub') == k or (k in UEFA_SUB.values() and x.get('uc') == k)], key=lambda x: (x['date'], x['time']), reverse=True) if x['id'] not in _shown]
                     _sch = [_old[i:i + MPER] for i in range(0, len(_old), MPER)]
                     if _sch:
-                        _tot = len(_sch) + 1; _pl = {'bg': 'Страница', 'de': 'Seite', 'en': 'Page'}[l]
+                        _tot = len(_sch) + 1; _pl = LX({'bg': 'Страница', 'de': 'Seite', 'en': 'Page'})[l]
                         _nav1 = mpager(l, 1, _tot, lambda m, _k=k: spage_url(s, _k, m, l))
                         _anc = next((x for x in ('</div><aside class="sec-side">', '</div>\n<aside class="sec-side">') if x in sb), None)
                         sb = sb.replace(_anc, _nav1 + _anc, 1) if _anc else sb + _nav1
@@ -2254,19 +2254,11 @@ def build():
                     if k != 'guinness':   # Seite 2, 3 …: ältere Videos und Artikel – die Sammlung wächst, nichts wird gelöscht (Musik 26.10., alle Unterrubriken 27.10.2026)
                         _rest = popfolk_page.rest if k == 'popfolk' else games_page.rest; _tot = len(_rest) + 1
                         for _n, _chunk in enumerate(_rest, start=2):
-<<<<<<< HEAD
-                            _pu = mpage_url(k, _n, l); _pl = LX({'bg': 'Страница', 'de': 'Seite', 'en': 'Page'})[l]
-                            _cards = ''.join(f'<article class="gs"><a href="{art_url(x, l)}"><div class="gs-img"' + (f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else '') + '>' + ('<span class="rt-play" aria-hidden="true">▶</span>' if x.get('yt') else '') + f'</div>{kick(x, l)}<h3>{e(x[l]["t"])}</h3></a></article>' for x in _chunk)
-                            _pb = (f'<div class="gp gp-musik"><div class="gp-head"><h1 class="gp-title">{e(SUB[l][k][0])} – {_pl} {_n}</h1>{gp_slogan(l)}</div><div class="gp-main"><div class="gp-panel">'
-                                   + musik_grid(l, k) + mpager(l, _n, _tot, lambda m, _k=k: mpage_url(_k, m, l), top=True) + f'<h2 class="gp-h">{e(LX({"bg": "Видеа и статии от архива", "de": "Videos und Artikel aus dem Archiv", "en": "Videos and stories from the archive"})[l])} · {_pl} {_n} / {_tot}</h2>'
-                                   + f'<div class="gs-grid">{_cards}</div>' + mpager(l, _n, _tot, lambda m, _k=k: mpage_url(_k, m, l))
-=======
-                            _pu = spage_url(s, k, _n, l); _pl = {'bg': 'Страница', 'de': 'Seite', 'en': 'Page'}[l]
+                            _pu = spage_url(s, k, _n, l); _pl = LX({'bg': 'Страница', 'de': 'Seite', 'en': 'Page'})[l]
                             _cards = ''.join(f'<article class="gs"><a href="{art_url(x, l)}"><div class="gs-img"' + (f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else '') + '>' + ('<span class="rt-play" aria-hidden="true">▶</span>' if x.get('yt') else '') + f'</div>{kick(x, l)}<h3>{e(x[l]["t"])}</h3></a></article>' for x in _chunk)
                             _pb = (('' if s == 'musik' else ltabs(k)) + f'<div class="gp gp-{s}"><div class="gp-head"><h1 class="gp-title">{e(SUB[l][k][0])} – {_pl} {_n}</h1>{gp_slogan(l)}</div><div class="gp-main"><div class="gp-panel">'
-                                   + (musik_grid(l, k) if s == 'musik' else '') + mpager(l, _n, _tot, lambda m, _k=k: spage_url(s, _k, m, l), top=True) + f'<h2 class="gp-h">{e({"bg": "Видеа и статии от архива", "de": "Videos und Artikel aus dem Archiv", "en": "Videos and stories from the archive"}[l])} · {_pl} {_n} / {_tot}</h2>'
+                                   + (musik_grid(l, k) if s == 'musik' else '') + mpager(l, _n, _tot, lambda m, _k=k: spage_url(s, _k, m, l), top=True) + f'<h2 class="gp-h">{e(LX({"bg": "Видеа и статии от архива", "de": "Videos und Artikel aus dem Archiv", "en": "Videos and stories from the archive"})[l])} · {_pl} {_n} / {_tot}</h2>'
                                    + f'<div class="gs-grid">{_cards}</div>' + mpager(l, _n, _tot, lambda m, _k=k: spage_url(s, _k, m, l))
->>>>>>> origin/main
                                    + f'</div><aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{_others(s)}</aside></div></div>')
                             _pal = {x: spage_url(s, k, _n, x) for x in act}
                             write(_pu, page(l, act, f'{title} – {_pl} {_n} | TWN – World News', (SUB_DESC[k][l] if k in SUB_DESC else title), _pu, _pb, _pal, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": f'{title} – {_pl} {_n}', "url": SITE + _pu, "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
@@ -2280,7 +2272,7 @@ def build():
             if s in MEDIA:   # Archiv jeder Rubrik: Seite 2, 3 … mit Seitenzahlen – die Sammlung wächst, nichts wird gelöscht (Nedy 27.10.2026)
                 _rest = _main_rest; _tot = len(_rest) + 1
                 for _n, _chunk in enumerate(_rest, start=2):
-                    _pu = spage_url(s, None, _n, l); _pl = {'bg': 'Страница', 'de': 'Seite', 'en': 'Page'}[l]
+                    _pu = spage_url(s, None, _n, l); _pl = LX({'bg': 'Страница', 'de': 'Seite', 'en': 'Page'})[l]
                     _cards = ''.join(f'<article class="gs"><a href="{art_url(x, l)}"><div class="gs-img"' + (f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else '') + '>' + ('<span class="rt-play" aria-hidden="true">▶</span>' if x.get('yt') else '') + f'</div>{kick(x, l)}<h3>{e(x[l]["t"])}</h3></a></article>' for x in _chunk)
                     _pb = ((ltabs(None) if s in LSUBS and s != 'musik' else '') + f'<div class="gp gp-{s}"><div class="gp-head"><h1 class="gp-title">{e(SEC[l][s][0])} – {_pl} {_n}</h1>{gp_slogan(l)}</div><div class="gp-main"><div class="gp-panel">'
                            + (musik_grid(l) if s == 'musik' else '') + mpager(l, _n, _tot, lambda m: spage_url(s, None, m, l), top=True) + f'<div class="gs-grid">{_cards}</div>' + mpager(l, _n, _tot, lambda m: spage_url(s, None, m, l))

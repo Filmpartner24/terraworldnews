@@ -25,6 +25,17 @@ def _conv(new, ref):
     return new
 
 
+def _deepfill(new, ref):
+    """Schlüssel, die build.py inzwischen neu hat (z. B. eine neue Rubrik), aus Englisch ergänzen."""
+    if isinstance(new, dict) and isinstance(ref, dict):
+        for k, v in ref.items():
+            if k not in new:
+                new[k] = copy.deepcopy(v)
+            else:
+                new[k] = _deepfill(new[k], v)
+    return new
+
+
 def _get(g, path):
     x = g[path[0]]
     for k in path[1:]:
@@ -65,7 +76,7 @@ def apply(g):
         ref = box.get('en', box.get('de'))
         for l in EXTRA:
             if ent.get(l) is not None and l not in box:
-                box[l] = _conv(ent[l], ref)
+                box[l] = _deepfill(_conv(ent[l], ref), ref)
     for n, v in list(g.items()):
         if n.startswith('__') or callable(v) or type(v).__name__ == 'module':
             continue
