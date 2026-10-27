@@ -4,7 +4,7 @@ TAGESSPERRE: Enthält content/<heute>-liebe.json schon ≥ 3 Items, nichts hinzu
 
 AUFTRAG: genau 3 neue Artikel. Themen, im Wechsel und möglichst verschieden (pro Tag nicht zweimal dieselbe Themengruppe):
 1. Liebe & Beziehung: neue Studien und Umfragen (Paarbeziehung, Treue, Eifersucht, Zusammenleben, Heirat/Scheidung, Statistikämter Destatis/NSI/Eurostat).
-2. Sexualität: seriöse Studien und Gesundheitsthemen (Kinsey Institute, BIÖG/liebesleben.de, WHO, Universitäten, Fachjournale), Aufklärung, Verhütung, sexuelle Gesundheit – sachlich, nie explizit oder anzüglich.
+2. (seit 27.10.2026 NICHT mehr hier: Sexualität hat eine eigene Unterrubrik „Sexualität“ – siehe TEIL B unten. Liebe & Beziehung bleibt redaktionell getrennt: Partnerschaft, Familie, Zusammenleben, Dating.)
 3. Bekanntschaften & Dating: Dating-Apps und -Portale (Match Group/Tinder, Bumble, Hinge, Parship, Lovoo, elmaz.com …), Trends (Offline-Dating, Speed-Dating, KI im Dating), staatliche Initiativen, Marktzahlen.
 4. Erfahrungen mit Bekanntschaften: nur belegte, veröffentlichte Erfahrungsberichte und Reportagen aus seriösen Medien oder Umfragen (keine erfundenen Stimmen, keine Leserbriefe ohne Quelle), dazu Love-Scamming-Fälle mit Polizeiwarnungen und Schutztipps.
 5. Skandale: Beziehungs- und Dating-Skandale von öffentlichem Interesse (Prominente nur, wenn sie selbst öffentlich darüber sprechen oder seriöse Medien berichten; Betrugsfälle, Gerichtsurteile, Plattform-Skandale, Datenlecks bei Dating-Apps).
@@ -27,3 +27,5 @@ Mindestens 1 Artikel pro Woche mit Bulgarien-Bezug und 1 mit Deutschland-Bezug. 
 7. BERICHT kurz auf Deutsch: die 3 Schlagzeilen mit Themengruppe, was weggelassen wurde. PushNotification nur bei Problemen (_regeln.md Nr. 7).
 
 REGELN: Nur content/, candidates/, bridge/ und static/assets/news/ ändern; Design und build.py nicht anfassen; keine Logins, Konten, Zahlungen. Rechtlich unangreifbar: immer Quellen, eigene Formulierungen, Videos nur eingebettet.
+
+TEIL B – SEXUALITÄT (Nedy 27.10.2026, ZUSÄTZLICH in jedem Lauf): Nach dem Veröffentlichen der 3 Liebe-&-Beziehung-Artikel die Arbeitsanweisung tools/tasks/sexualitaet.md lesen und befolgen (3 weitere Artikel in content/<heute>-sexualitaet.json mit s="leben", sub="sexualitaet"; eigene Tagessperre dort). Der Bericht nennt beide Teile.
