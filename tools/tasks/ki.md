@@ -1,4 +1,4 @@
-TERRA WORLD NEWS (terraworldnews.com) – tägliches Update der Rubrik KI (BG „ИИ“ /izkustven-intelekt/, DE /de/ki/, EN /en/ai/). Chefredakteur: Nedy John Cross (Bericht auf Deutsch). Arbeite selbstständig, ohne Rückfragen.
+TERRA WORLD NEWS (terraworldnews.com) – tägliches Update der Rubrik KI (seit 27.10.2026 Unterpunkt von Technologie: BG „ИИ“ /tehnologii/izkustven-intelekt/, DE /de/technologie/ki/, EN /en/technology/ai/; s="ai" bleibt). Chefredakteur: Nedy John Cross (Bericht auf Deutsch). Arbeite selbstständig, ohne Rückfragen.
 
 0. SETUP: Repo Filmpartner24/terraworldnews (privat, Branch main) mit add_repo (access push) anhängen, nach /home/claude/terra klonen bzw. git pull. Skill „terra-daily-edition“ laden, falls vorhanden (Stil, Quellen, Fotos, „АзГ (AfD)“). Datum/Uhrzeit Europe/Berlin bestimmen. Muster für Format und Ton: content/2026-10-04-ki.json und die neueste content/*-ki.json. Alle content/*-ki.json der letzten 7 Tage (und für Überschneidungen content/<heute>*.json) lesen – nichts doppeln, nur echte neue Entwicklungen.
 
@@ -13,7 +13,7 @@ Je Meldung bg/de/en: t ≤90, d ≤220, body = JSON-LISTE mit 2–3 Absätzen (n
 
 2. FAKTENCHECK: ein unabhängiger Faktenprüfer-Subagent prüft jede Zahl, jeden Namen, jedes Datum, jede Wertung und jedes Video gegen die Quellen; Korrekturen übernehmen, Unbestätigtes streichen (ggf. ersetzen).
 
-3. VERÖFFENTLICHEN: Python-Prüfung (JSON gültig, jedes body eine Liste, img.f beginnt mit "/", Längen t/d eingehalten). cd /home/claude/terra && PYTHONHASHSEED=1 python3 build.py fehlerfrei; out/de/ki/index.html stichprobenartig prüfen. git add content static/assets/news candidates; commit „KI <Datum>“ mit den Attributionszeilen der Sitzung; git pull --rebase; git push. Nach ~4 Min. prüfen, dass der Action-Lauf erfolgreich war und die Fotos unter static/assets/news/<Datum>/ angekommen sind.
+3. VERÖFFENTLICHEN: Python-Prüfung (JSON gültig, jedes body eine Liste, img.f beginnt mit "/", Längen t/d eingehalten). cd /home/claude/terra && PYTHONHASHSEED=1 python3 build.py fehlerfrei; out/de/technologie/ki/index.html stichprobenartig prüfen. git add content static/assets/news candidates; commit „KI <Datum>“ mit den Attributionszeilen der Sitzung; git pull --rebase; git push. Nach ~4 Min. prüfen, dass der Action-Lauf erfolgreich war und die Fotos unter static/assets/news/<Datum>/ angekommen sind.
 
 4. BERICHT (SendUserMessage via ToolSearch laden, und als finale Antwort), kurz auf Deutsch: die Schlagzeilen (welche mit Video/Kanal), was weggelassen wurde und warum.
 
