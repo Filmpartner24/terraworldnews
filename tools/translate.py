@@ -197,9 +197,15 @@ def translate(it, langs):
                 fixed = rev.get('fixed') if isinstance(rev, dict) else None
                 rev_issues = [str(x)[:200] for x in (rev.get('issues') or [])][:8] if isinstance(rev, dict) else []
                 if fixed and isinstance(fixed.get('L'), dict):
+                    if out.get('x') and not fixed.get('x'):
+                        fixed['x'] = out['x']   # Korrektor hat nur den Text zurückgegeben
+                    for k in out.get('L', {}):
+                        fixed['L'].setdefault(k, out['L'][k])
                     errs3 = check(src, fixed)
                     if len(errs3) <= len(errs):
                         out, errs = fixed, errs3
+                    else:
+                        print(f'  ! Korrektur {it["id"]}/{l} verworfen: {errs3}')
                 if rev.get('severe') and not fixed:
                     errs.append('Korrektor: ' + '; '.join(rev.get('issues', [])[:3]))
             except RuntimeError as e:
