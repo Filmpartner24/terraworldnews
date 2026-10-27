@@ -212,6 +212,9 @@ def main():
             if need:
                 todo.append((d['date'], it, need))
     todo.sort(key=lambda x: (x[0], x[1].get('time', '')), reverse=True)   # neueste zuerst
+    only = {x for x in os.environ.get('TRANSLATE_IDS', '').split(',') if x}   # Probelauf: nur diese Meldungen
+    if only:
+        todo = [t for t in todo if t[1]['id'] in only]
     todo = todo[:CFG.get('max_items_per_run', 200)]
     print(f'translate: {len(todo)} Meldungen offen')
     tot, done, flagged, fatal = {}, 0, [], None
