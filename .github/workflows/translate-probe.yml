@@ -1,0 +1,41 @@
+name: Translate probe (Kostentest, nur von Hand)
+on:
+  workflow_dispatch:
+    inputs:
+      model_t: { description: 'Modell Übersetzung', default: 'claude-haiku-5-5' }
+      model_r: { description: 'Modell Korrektor', default: 'claude-sonnet-5-5' }
+      effort_t: { description: 'Effort Übersetzung', default: 'low' }
+      effort_r: { description: 'Effort Korrektor', default: 'low' }
+      out: { description: 'Ausgabeordner', default: 'probe/a' }
+      langs: { description: 'Sprachen', default: 'tr,es,it' }
+permissions:
+  contents: write
+concurrency:
+  group: translate-probe
+  cancel-in-progress: false
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Probe
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TRANSLATE_MODEL_T: ${{ inputs.model_t }}
+          TRANSLATE_MODEL_R: ${{ inputs.model_r }}
+          TRANSLATE_EFFORT_T: ${{ inputs.effort_t }}
+          TRANSLATE_EFFORT_R: ${{ inputs.effort_r }}
+          TRANSLATE_OUT: ${{ inputs.out }}
+          TRANSLATE_LANGS: ${{ inputs.langs }}
+        run: TRANSLATE_IDS=$(tr '\n' ',' < i18n/probe_ids.txt) python3 tools/translate.py
+      - name: Commit
+        run: |
+          git config user.name "terra-bot"
+          git config user.email "media@filmpartner24.com"
+          git add -A "${{ inputs.out }}"
+          git diff --cached --quiet && exit 0
+          git commit -m "Übersetzungs-Kostentest ${{ inputs.out }} [CF-Pages-Skip]"
+          for i in 1 2 3 4 5; do git push && exit 0; sleep $((i*5)); git pull --rebase -q || exit 1; done

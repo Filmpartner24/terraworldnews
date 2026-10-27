@@ -33,6 +33,7 @@ CFG = json.load(open(os.path.join(HERE, 'i18n', 'config.json'), encoding='utf-8'
 LANG_NAME = {'tr': 'Turkish', 'es': 'Spanish', 'it': 'Italian'}
 API = 'https://api.anthropic.com/v1/messages'
 T0 = time.time()
+OUTD = os.environ.get('TRANSLATE_OUT', 'translations')   # Probeläufe schreiben in einen eigenen Ordner
 
 SYSTEM = """You are a senior news translator for TERRA WORLD NEWS (TWN), a German–Bulgarian news website. You translate finished, fact-checked German news items into {langs}.
 
@@ -155,10 +156,21 @@ def check(src, out):
     return errs
 
 
-def call(system, user):
-    body = {'model': CFG['model'], 'max_tokens': 8000,
+MODELS = {'t': os.environ.get('TRANSLATE_MODEL_T') or CFG.get('model_translate') or CFG['model'],
+          'r': os.environ.get('TRANSLATE_MODEL_R') or CFG.get('model_review') or CFG['model']}
+EFFORT = {'t': os.environ.get('TRANSLATE_EFFORT_T') or CFG.get('effort_translate'),
+          'r': os.environ.get('TRANSLATE_EFFORT_R') or CFG.get('effort_review')}
+PRICES = CFG.get('prices', {   # $ je 1 Mio. Tokens: Eingabe, Cache-Schreiben, Cache-Lesen, Ausgabe (inkl. Denk-Tokens)
+    'claude-sonnet-5-5': [2.0, 2.5, 0.1, 10.0], 'claude-haiku-5-5': [0.1, 0.125, 0.01, 0.5]})
+
+
+def call(system, user, kind='t'):
+    model = MODELS[kind]
+    body = {'model': model, 'max_tokens': 16000,
             'system': [{'type': 'text', 'text': system, 'cache_control': {'type': 'ephemeral'}}],
             'messages': [{'role': 'user', 'content': user}]}
+    if EFFORT[kind]:
+        body['output_config'] = {'effort': EFFORT[kind]}   # weniger „Nachdenken“ = deutlich weniger Ausgabe-Tokens
     req = urllib.request.Request(API, data=json.dumps(body).encode(), headers={
         'x-api-key': os.environ['ANTHROPIC_API_KEY'], 'anthropic-version': '2023-06-01', 'content-type': 'application/json'})
     for attempt in range(4):
@@ -167,7 +179,11 @@ def call(system, user):
                 d = json.load(r)
             txt = ''.join(c.get('text', '') for c in d.get('content', []) if c.get('type') == 'text').strip()
             txt = re.sub(r'^```(?:json)?\s*|\s*```$', '', txt)
-            return json.loads(txt[txt.index('{'):txt.rindex('}') + 1]), d.get('usage', {})
+            u = {k: v for k, v in d.get('usage', {}).items() if isinstance(v, int)}
+            pr = PRICES.get(model, [2.0, 2.5, 0.1, 10.0])
+            u['usd_micro'] = round(u.get('input_tokens', 0) * pr[0] + u.get('cache_creation_input_tokens', 0) * pr[1] +
+                                   u.get('cache_read_input_tokens', 0) * pr[2] + u.get('output_tokens', 0) * pr[3])
+            return json.loads(txt[txt.index('{'):txt.rindex('}') + 1]), u
         except urllib.error.HTTPError as e:
             msg = e.read().decode(errors='replace')[:300]
             if e.code in (429, 500, 502, 503, 529) and attempt < 3:
@@ -219,7 +235,7 @@ def translate(it, langs):
         if out.get('L') and not any(x.startswith('Schlüssel') for x in errs):   # Zweitprüfung durch einen „Korrektor“
             try:
                 rev, u = call(REVIEW.format(lang=LANG_NAME[l]), 'German original:\n' + json.dumps(src, ensure_ascii=False) +
-                              f'\n\n{LANG_NAME[l]} draft:\n' + json.dumps({k: out[k] for k in ('L', 'x') if k in out}, ensure_ascii=False))
+                              f'\n\n{LANG_NAME[l]} draft:\n' + json.dumps({k: out[k] for k in ('L', 'x') if k in out}, ensure_ascii=False), 'r')
                 for k, v in u.items():
                     if isinstance(v, int): usage[k] = usage.get(k, 0) + v
                 rev = rev if isinstance(rev, dict) else {}
@@ -257,7 +273,7 @@ def translate(it, langs):
 def _status(fatal, force):
     """Zustand für Kontrollaufgaben (nur bei Änderung schreiben, sonst entstünde bei jedem Lauf ein Commit)."""
     st = {'ok': fatal is None, 'error': re.sub(r',?"request_id":"[^"]*"', '', fatal)[:300] if fatal else None}
-    sp = os.path.join(HERE, 'translations', 'status.json')
+    sp = os.path.join(HERE, OUTD, 'status.json')
     old = json.load(open(sp, encoding='utf-8')) if os.path.exists(sp) else None
     if old != st and (force or old is not None):
         os.makedirs(os.path.dirname(sp), exist_ok=True)
@@ -268,11 +284,13 @@ PRICE = CFG.get('price_per_mtok', {'input_tokens': 2.0, 'cache_creation_input_to
 
 
 def cost(tok):
+    if 'usd_micro' in tok:
+        return tok['usd_micro'] / 1e6
     return sum(tok.get(k, 0) * v for k, v in PRICE.items()) / 1e6
 
 
 def usage_file():
-    return os.path.join(HERE, 'translations', 'usage', datetime.datetime.utcnow().strftime('%Y-%m') + '.json')
+    return os.path.join(HERE, OUTD, 'usage', datetime.datetime.utcnow().strftime('%Y-%m') + '.json')
 
 
 def main():
@@ -285,7 +303,7 @@ def main():
     if month['usd'] >= budget:
         print(f'translate: Monatsbudget erreicht ({month["usd"]:.2f} $ von {budget:.0f} $) – keine Übersetzungen bis Monatsende')
         _status(f'Monatsbudget erreicht ({month["usd"]:.2f} $ von {budget:.0f} $)', True); return
-    langs, start = CFG['langs'], CFG['start']
+    langs, start = (os.environ.get('TRANSLATE_LANGS') or ','.join(CFG['langs'])).split(','), CFG['start']
     todo = []
     store = {}
     for f in sorted(glob.glob(os.path.join(HERE, 'content', '*.json'))):
@@ -302,7 +320,7 @@ def main():
             h = lang_extra.src_hash(it)
             need = []
             for l in langs:
-                fp = os.path.join(HERE, 'translations', l, f'{d["date"]}.json')
+                fp = os.path.join(HERE, OUTD, l, f'{d["date"]}.json')
                 if fp not in store:
                     store[fp] = json.load(open(fp, encoding='utf-8')) if os.path.exists(fp) else {'date': d['date'], 'items': {}}
                 old = store[fp]['items'].get(it['id'])
@@ -329,7 +347,7 @@ def main():
                 print(f'  ! {it["id"]}: {type(e).__name__}: {e}'); continue
             for k, v in u.items(): tot[k] = tot.get(k, 0) + v
             for l, rec in res.items():
-                fp = os.path.join(HERE, 'translations', l, f'{date}.json')
+                fp = os.path.join(HERE, OUTD, l, f'{date}.json')
                 store[fp]['items'][it['id']] = rec
                 if rec.get('flag'):
                     flagged.append({'id': it['id'], 'date': date, 'lang': l, 'why': rec['flag']})
@@ -345,14 +363,14 @@ def main():
             json.dump(data, open(fp, 'w', encoding='utf-8'), ensure_ascii=False, indent=1, sort_keys=True)
     # Liste aller markierten (nicht veröffentlichten) Übersetzungen
     allf = []
-    for fp in [f for x in CFG['langs'] for f in glob.glob(os.path.join(HERE, 'translations', x, '*.json'))]:   # nur Sprachordner (nicht usage/)
+    for fp in [f for x in ('tr', 'es', 'it') for f in glob.glob(os.path.join(HERE, OUTD, x, '*.json'))]:   # nur Sprachordner (nicht usage/)
         l = fp.split(os.sep)[-2]
         for k, rec in json.load(open(fp, encoding='utf-8')).get('items', {}).items():
             if rec.get('flag'):
                 allf.append({'date': os.path.basename(fp)[:10], 'lang': l, 'id': k, 'why': rec['flag']})
-    if allf or os.path.exists(os.path.join(HERE, 'translations', 'flagged.json')):
-        os.makedirs(os.path.join(HERE, 'translations'), exist_ok=True)
-        json.dump(sorted(allf, key=lambda x: (x['date'], x['id'], x['lang'])), open(os.path.join(HERE, 'translations', 'flagged.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    if allf or os.path.exists(os.path.join(HERE, OUTD, 'flagged.json')):
+        os.makedirs(os.path.join(HERE, OUTD), exist_ok=True)
+        json.dump(sorted(allf, key=lambda x: (x['date'], x['id'], x['lang'])), open(os.path.join(HERE, OUTD, 'flagged.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     if tot:
         for k, v in tot.items(): month['tokens'][k] = month['tokens'].get(k, 0) + v
         month['usd'] = round(month['usd'] + cost(tot), 4); month['items'] = month.get('items', 0) + done
