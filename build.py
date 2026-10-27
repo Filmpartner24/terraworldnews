@@ -1925,8 +1925,12 @@ def snorm(t):
 def stoks(t, l):
     import re as _r
     return [w for w in _r.findall(r'[^\W_]+', snorm(t)) if len(w) >= 2 and w not in STOP.get(l, ())]
+SHARDS = 128   # Suchindex: feste Zahl von Teilen pro Sprache und Jahr (seit 27.10.2026; vorher je Wortanfang ~1.400 Dateien – Cloudflare-Grenze 20.000 Dateien)
 def shard_key(w):
-    return w[:2].encode('utf-8').hex()
+    h = 2166136261
+    for b in w[:2].encode('utf-8'):
+        h = ((h ^ b) * 16777619) & 0xFFFFFFFF
+    return f'b{h % SHARDS}'
 def search_url(l): return f"{pre(l)}{SEARCH_SLUG[l]}.html"
 
 def build():

@@ -8,7 +8,8 @@
   function norm(t) { return (t || '').toLowerCase().normalize('NFD').replace(/ß/g, 'ss').replace(/[̀-ͯ]/g, ''); }
   function toks(t) { return (norm(t).match(/[\p{L}\p{N}]+/gu) || []).filter(function (w) { return w.length >= 2 && !STOP[w]; }); }
   function esc(t) { return t.replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
-  function key(w) { return Array.from(new TextEncoder().encode(w.slice(0, 2))).map(function (b) { return b.toString(16).padStart(2, '0'); }).join(''); }
+  // Teil des Index: FNV-1a über die ersten 2 Zeichen, 128 Teile (muss zu shard_key in build.py passen)
+  function key(w) { var h = 2166136261; new TextEncoder().encode(w.slice(0, 2)).forEach(function (b) { h = Math.imul(h ^ b, 16777619) >>> 0; }); return 'b' + (h % 128); }
   function getJ(u) { return fetch(u).then(function (r) { return r.ok ? r.json() : null; }); }
   function meta() { return META ? Promise.resolve(META) : getJ(base + 'meta.json').then(function (m) { META = m; (m.stop || []).forEach(function (w) { STOP[w] = 1; }); return m; }); }
   function shard(k) { if (!SH[k]) SH[k] = getJ(base + 't/' + k + '.json').then(function (j) { return j || {}; }); return SH[k]; }
