@@ -9,7 +9,7 @@ export async function onRequest(ctx) {
   const url = new URL(req.url);
   if (url.pathname !== '/' || (req.method !== 'GET' && req.method !== 'HEAD')) return ctx.next();
   if (BOT.test(req.headers.get('user-agent') || '')) return ctx.next();
-  const m = (req.headers.get('cookie') || '').match(/(?:^|;\s*)twn_lang=(bg|de|en|tr|es)\b/);
+  const m = (req.headers.get('cookie') || '').match(/(?:^|;\s*)twn_lang=(bg|de|en|tr|es|it)\b/);
   let lang = m ? m[1] : null;
   if (!lang) {
     const c = ((req.cf && req.cf.country) || '').toUpperCase();

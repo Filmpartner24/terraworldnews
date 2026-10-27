@@ -4,7 +4,8 @@
    "LOCALE"
   ],
   "tr": "tr_TR",
-  "es": "es_ES"
+  "es": "es_ES",
+  "it": "it_IT"
  },
  {
   "path": [
@@ -19,6 +20,11 @@
    "NOTICIAS",
    "HECHOS",
    "CONTEXTO"
+  ],
+  "it": [
+   "NOTIZIE",
+   "FATTI",
+   "CONTESTO"
   ]
  },
  {
@@ -28,7 +34,8 @@
    1
   ],
   "tr": "Haberler",
-  "es": "Noticias"
+  "es": "Noticias",
+  "it": "Notizie"
  },
  {
   "path": [
@@ -37,7 +44,8 @@
    1
   ],
   "tr": "Yaşam",
-  "es": "Vida"
+  "es": "Vida",
+  "it": "Vita"
  },
  {
   "path": [
@@ -46,7 +54,8 @@
    1
   ],
   "tr": "Ekonomi & Bilgi",
-  "es": "Economía y conocimiento"
+  "es": "Economía y conocimiento",
+  "it": "Economia e conoscenza"
  },
  {
   "path": [
@@ -55,7 +64,8 @@
    1
   ],
   "tr": "Eğlence",
-  "es": "Entretenimiento"
+  "es": "Entretenimiento",
+  "it": "Spettacoli"
  },
  {
   "path": [
@@ -64,7 +74,8 @@
    1
   ],
   "tr": "Spor",
-  "es": "Deportes"
+  "es": "Deportes",
+  "it": "Sport"
  },
  {
   "path": [
@@ -425,6 +436,184 @@
     "Punk",
     "punk"
    ]
+  },
+  "it": {
+   "rockmetal": [
+    "Rock & Metal",
+    "rock-metal"
+   ],
+   "poprnb": [
+    "Pop & R&B",
+    "pop-rnb"
+   ],
+   "electronic": [
+    "Elettronica",
+    "elettronica"
+   ],
+   "filmclassic": [
+    "Cinema & Classica",
+    "cinema-classica"
+   ],
+   "folkroots": [
+    "Folk & Radici",
+    "folk-radici"
+   ],
+   "fussball": [
+    "Calcio",
+    "calcio"
+   ],
+   "championsleague": [
+    "Champions League",
+    "champions-league"
+   ],
+   "europaleague": [
+    "Europa League",
+    "europa-league"
+   ],
+   "conferenceleague": [
+    "Conference League",
+    "conference-league"
+   ],
+   "laenderspiele": [
+    "Nazionali",
+    "nazionali"
+   ],
+   "boxen": [
+    "Pugilato",
+    "pugilato"
+   ],
+   "mma": [
+    "MMA",
+    "mma"
+   ],
+   "liebe": [
+    "Amore & Coppia",
+    "amore-coppia"
+   ],
+   "berlin": [
+    "Berlino",
+    "berlino"
+   ],
+   "oberfranken": [
+    "Alta Franconia",
+    "alta-franconia"
+   ],
+   "guinness": [
+    "Guinness dei primati",
+    "guinness-dei-primati"
+   ],
+   "raumfahrt": [
+    "Spazio",
+    "spazio"
+   ],
+   "formel1": [
+    "Formula 1",
+    "formula-1"
+   ],
+   "tennis": [
+    "Tennis",
+    "tennis"
+   ],
+   "handball": [
+    "Pallamano",
+    "pallamano"
+   ],
+   "extremsport": [
+    "Sport estremi",
+    "sport-estremi"
+   ],
+   "imtrend": [
+    "Tendenze",
+    "tendenze"
+   ],
+   "designer": [
+    "Stilisti",
+    "stilisti"
+   ],
+   "dessous": [
+    "Lingerie",
+    "lingerie"
+   ],
+   "pop": [
+    "Pop & K-pop",
+    "pop-k-pop"
+   ],
+   "deutschpop": [
+    "Rock & pop tedesco",
+    "rock-pop-tedesco"
+   ],
+   "rock": [
+    "Rock",
+    "rock"
+   ],
+   "metal": [
+    "Metal",
+    "metal"
+   ],
+   "hiphop": [
+    "Hip-hop",
+    "hip-hop"
+   ],
+   "rnbsoul": [
+    "R&B & Soul",
+    "rnb-soul"
+   ],
+   "indie": [
+    "Indie & Alternative",
+    "indie-alternative"
+   ],
+   "dance": [
+    "Dance & EDM",
+    "dance-edm"
+   ],
+   "latin": [
+    "Musica latina",
+    "musica-latina"
+   ],
+   "reggae": [
+    "Afrobeats & reggae",
+    "afrobeats-reggae"
+   ],
+   "popfolk": [
+    "Pop-folk",
+    "pop-folk"
+   ],
+   "country": [
+    "Country",
+    "country"
+   ],
+   "folk": [
+    "Folk",
+    "folk"
+   ],
+   "schlager": [
+    "Schlager",
+    "schlager"
+   ],
+   "jazz": [
+    "Jazz & blues",
+    "jazz-blues"
+   ],
+   "soulfunk": [
+    "Soul & funk",
+    "soul-funk"
+   ],
+   "klassik": [
+    "Classica",
+    "classica"
+   ],
+   "filmmusik": [
+    "Colonne sonore",
+    "colonne-sonore"
+   ],
+   "world": [
+    "World music",
+    "world-music"
+   ],
+   "punk": [
+    "Punk",
+    "punk"
+   ]
   }
  },
  {
@@ -586,6 +775,84 @@
     "WOW",
     "wow"
    ]
+  },
+  "it": {
+   "welt": [
+    "Mondo",
+    "mondo"
+   ],
+   "europa": [
+    "Europa",
+    "europa"
+   ],
+   "deutschland": [
+    "Germania",
+    "germania"
+   ],
+   "bulgarien": [
+    "Bulgaria",
+    "bulgaria"
+   ],
+   "ki": [
+    "Tecnologia",
+    "tecnologia"
+   ],
+   "wirtschaft": [
+    "Economia",
+    "economia"
+   ],
+   "business": [
+    "Aziende",
+    "aziende"
+   ],
+   "auto": [
+    "Motori",
+    "motori"
+   ],
+   "klima": [
+    "Clima",
+    "clima"
+   ],
+   "ai": [
+    "IA",
+    "ia"
+   ],
+   "energie": [
+    "Energia",
+    "energia"
+   ],
+   "kultur": [
+    "Spettacoli",
+    "spettacoli"
+   ],
+   "leben": [
+    "Vita quotidiana",
+    "vita-quotidiana"
+   ],
+   "games": [
+    "Videogiochi",
+    "videogiochi"
+   ],
+   "sport": [
+    "Sport",
+    "sport"
+   ],
+   "film": [
+    "Cinema",
+    "cinema"
+   ],
+   "musik": [
+    "Musica",
+    "musica"
+   ],
+   "mode": [
+    "Moda",
+    "moda"
+   ],
+   "wow": [
+    "WOW",
+    "wow"
+   ]
   }
  },
  {
@@ -594,7 +861,8 @@
    "mode"
   ],
   "tr": "Moda haberleri: moda haftaları, tasarımcılar ve moda evleri, trendler, koleksiyonlar, sürdürülebilir moda ve moda sektörü – her gün, videolarla.",
-  "es": "Noticias de moda: semanas de la moda, diseñadores y casas de moda, tendencias, colecciones, moda sostenible y la industria – a diario, con vídeos."
+  "es": "Noticias de moda: semanas de la moda, diseñadores y casas de moda, tendencias, colecciones, moda sostenible y la industria – a diario, con vídeos.",
+  "it": "Notizie di moda: settimane della moda, stilisti e maison, tendenze, collezioni, moda sostenibile e industria della moda – ogni giorno, con video."
  },
  {
   "path": [
@@ -602,7 +870,8 @@
    "auto"
   ],
   "tr": "Otomobil haberleri: yeni modeller ve dünya prömiyerleri, lüks otomobiller, fuarlar, röportajlar ve sektör haberleri – üretici videolarıyla.",
-  "es": "Noticias del motor: nuevos modelos y estrenos mundiales, coches de lujo, salones, entrevistas y noticias del sector – con vídeos de los fabricantes."
+  "es": "Noticias del motor: nuevos modelos y estrenos mundiales, coches de lujo, salones, entrevistas y noticias del sector – con vídeos de los fabricantes.",
+  "it": "Notizie di motori: nuovi modelli e anteprime mondiali, auto di lusso, saloni, interviste e notizie dal settore – con i video dei costruttori."
  },
  {
   "path": [
@@ -610,7 +879,8 @@
    "welt"
   ],
   "tr": "Bugünün dünya haberleri: ABD dahil dünyanın dört bir yanından siyaset, çatışmalar, seçimler ve krizler. Her gün doğrulanır, kaynak ve videolarla.",
-  "es": "Noticias internacionales de hoy: política, conflictos, elecciones y crisis en todo el mundo, incluido EE. UU. Verificadas a diario, con fuentes y vídeos."
+  "es": "Noticias internacionales de hoy: política, conflictos, elecciones y crisis en todo el mundo, incluido EE. UU. Verificadas a diario, con fuentes y vídeos.",
+  "it": "Le notizie dal mondo di oggi: politica, conflitti, elezioni e crisi in tutto il pianeta, Stati Uniti compresi. Verificate ogni giorno, con fonti e video."
  },
  {
   "path": [
@@ -618,7 +888,8 @@
    "europa"
   ],
   "tr": "Avrupa ve AB'den haberler: Brüksel, hükümetler, seçimler ve gündelik hayatı etkileyen kararlar. Her gün doğrulanır, kaynaklarla.",
-  "es": "Noticias de Europa y la UE: Bruselas, gobiernos, elecciones y decisiones que afectan a la vida diaria. Verificadas a diario, con fuentes."
+  "es": "Noticias de Europa y la UE: Bruselas, gobiernos, elecciones y decisiones que afectan a la vida diaria. Verificadas a diario, con fuentes.",
+  "it": "Notizie dall’Europa e dall’UE: Bruxelles, governi, elezioni e decisioni che incidono sulla vita quotidiana. Verificate ogni giorno, con fonti."
  },
  {
   "path": [
@@ -626,7 +897,8 @@
    "deutschland"
   ],
   "tr": "Almanya'dan haberler: federal hükümet, CDU/CSU, AfD, SPD, Yeşiller ve Sol Parti gibi partiler, ekonomi ve toplum. Her gün doğrulanır.",
-  "es": "Noticias de Alemania: el Gobierno federal, partidos como CDU/CSU, AfD, SPD, Verdes y La Izquierda, economía y sociedad. Verificadas a diario."
+  "es": "Noticias de Alemania: el Gobierno federal, partidos como CDU/CSU, AfD, SPD, Verdes y La Izquierda, economía y sociedad. Verificadas a diario.",
+  "it": "Notizie dalla Germania: il governo federale, partiti come CDU/CSU, AfD, SPD, Verdi e Linke, economia e società. Verificate ogni giorno."
  },
  {
   "path": [
@@ -634,7 +906,8 @@
    "bulgarien"
   ],
   "tr": "Bulgaristan'dan haberler: hükümet, partiler, ekonomi, yargı ve toplum – BTA, BNT ve diğer kaynaklara dayanarak. Her gün doğrulanır.",
-  "es": "Noticias de Bulgaria: Gobierno, partidos, economía, justicia y sociedad – a partir de BTA, BNT y otras fuentes. Verificadas a diario."
+  "es": "Noticias de Bulgaria: Gobierno, partidos, economía, justicia y sociedad – a partir de BTA, BNT y otras fuentes. Verificadas a diario.",
+  "it": "Notizie dalla Bulgaria: governo, partiti, economia, giustizia e società – sulla base di BTA, BNT e altre fonti. Verificate ogni giorno."
  },
  {
   "path": [
@@ -642,7 +915,8 @@
    "ki"
   ],
   "tr": "Teknoloji haberleri: bilim, otomobil ve mobilite, kuantum ve biyoteknoloji, uzay, çipler ve inovasyon – videolarla.",
-  "es": "Noticias de tecnología: ciencia, coches y movilidad, cuántica y biotecnología, espacio, chips e innovación – con vídeos."
+  "es": "Noticias de tecnología: ciencia, coches y movilidad, cuántica y biotecnología, espacio, chips e innovación – con vídeos.",
+  "it": "Notizie di tecnologia: scienza, auto e mobilità, quantistica e biotecnologie, spazio, chip e innovazione – con video."
  },
  {
   "path": [
@@ -650,7 +924,8 @@
    "ai"
   ],
   "tr": "Yapay zekâ haberleri: ChatGPT, Claude, Gemini ve yeni modeller, yapay zekâ girişimleri, robotlar ve uygulamalar – her gün video ve kaynaklarla.",
-  "es": "Noticias de IA: ChatGPT, Claude, Gemini y nuevos modelos, startups de IA, robots y aplicaciones – a diario, con vídeos y fuentes."
+  "es": "Noticias de IA: ChatGPT, Claude, Gemini y nuevos modelos, startups de IA, robots y aplicaciones – a diario, con vídeos y fuentes.",
+  "it": "Notizie sull’IA: ChatGPT, Claude, Gemini e nuovi modelli, start-up dell’IA, robot e applicazioni – ogni giorno, con video e fonti."
  },
  {
   "path": [
@@ -658,7 +933,8 @@
    "wirtschaft"
   ],
   "tr": "Ekonomi haberleri: Almanya, Bulgaristan ve dünyada büyüme, şirketler, fiyatlar, istihdam ve ticaret.",
-  "es": "Noticias de economía: coyuntura, empresas, precios, empleo y comercio en Alemania, Bulgaria y el mundo."
+  "es": "Noticias de economía: coyuntura, empresas, precios, empleo y comercio en Alemania, Bulgaria y el mundo.",
+  "it": "Notizie di economia: congiuntura, aziende, prezzi, lavoro e commercio in Germania, in Bulgaria e nel mondo."
  },
  {
   "path": [
@@ -666,7 +942,8 @@
    "energie"
   ],
   "tr": "Enerji haberleri: rüzgâr, güneş, hidroelektrik, nükleer, doğalgaz, elektrik şebekeleri ve elektrik fiyatları – Bulgaristan, Almanya ve Avrupa odaklı.",
-  "es": "Noticias de energía: eólica, solar, hidráulica, nuclear, gas, redes eléctricas y precios de la luz – con foco en Bulgaria, Alemania y Europa."
+  "es": "Noticias de energía: eólica, solar, hidráulica, nuclear, gas, redes eléctricas y precios de la luz – con foco en Bulgaria, Alemania y Europa.",
+  "it": "Notizie sull’energia: eolico, solare, idroelettrico, nucleare, gas, reti elettriche e prezzi dell’elettricità – con focus su Bulgaria, Germania ed Europa."
  },
  {
   "path": [
@@ -674,7 +951,8 @@
    "klima"
   ],
   "tr": "İklim haberleri: küresel ısınma, sıcaklık rekorları, aşırı hava olayları, doğal afetler ve iklim politikası – bilimsel kaynaklara dayanarak.",
-  "es": "Noticias del clima: calentamiento global, récords de temperatura, fenómenos extremos, catástrofes naturales y política climática – con fuentes científicas."
+  "es": "Noticias del clima: calentamiento global, récords de temperatura, fenómenos extremos, catástrofes naturales y política climática – con fuentes científicas.",
+  "it": "Notizie sul clima: riscaldamento globale, record di temperatura, eventi meteorologici estremi, catastrofi e politica climatica – sulla base di fonti scientifiche."
  },
  {
   "path": [
@@ -682,7 +960,8 @@
    "leben"
   ],
   "tr": "Yaşam: sağlık, Almanya ve Bulgaristan'da yaşam maliyeti, fiyat karşılaştırmaları, kiralar, konut ve dünyanın en güzel yerleri.",
-  "es": "Vida cotidiana: salud, coste de la vida en Alemania y Bulgaria, comparativas de precios, alquileres, vivienda y los lugares más bellos del mundo."
+  "es": "Vida cotidiana: salud, coste de la vida en Alemania y Bulgaria, comparativas de precios, alquileres, vivienda y los lugares más bellos del mundo.",
+  "it": "Vita quotidiana: salute, costo della vita in Germania e in Bulgaria, confronti di prezzi, affitti, immobili e i luoghi più belli della Terra."
  },
  {
   "path": [
@@ -690,7 +969,8 @@
    "film"
   ],
   "tr": "Sinema haberleri: vizyona girenler, resmi fragmanlar, dijital platformlar ve Hollywood – her gün üç fragman ve güncel haberler.",
-  "es": "Noticias de cine: estrenos, tráilers oficiales, streaming y Hollywood – tres tráilers y noticias frescas cada día."
+  "es": "Noticias de cine: estrenos, tráilers oficiales, streaming y Hollywood – tres tráilers y noticias frescas cada día.",
+  "it": "Notizie di cinema: nuove uscite, trailer ufficiali, streaming e Hollywood – tre trailer e notizie fresche ogni giorno."
  },
  {
   "path": [
@@ -698,7 +978,8 @@
    "musik"
   ],
   "tr": "Müzik haberleri: yeni albüm incelemeleri, single'lar ve klipler, turne tarihleri ve dünya genelinde konserler – her gün güncellenir.",
-  "es": "Noticias de música: críticas de nuevos discos, sencillos y videoclips, fechas de giras y conciertos en todo el mundo – actualizadas a diario."
+  "es": "Noticias de música: críticas de nuevos discos, sencillos y videoclips, fechas de giras y conciertos en todo el mundo – actualizadas a diario.",
+  "it": "Notizie di musica: recensioni dei nuovi album, singoli e videoclip, date dei tour e concerti in tutto il mondo – aggiornate ogni giorno."
  },
  {
   "path": [
@@ -706,7 +987,8 @@
    "games"
   ],
   "tr": "Oyun haberleri ve incelemeleri: yeni oyunlar, fragmanlar, GTA 6, Minecraft, PlayStation, Xbox, Nintendo ve PC güncellemeleri – her gün puanlarla.",
-  "es": "Noticias y análisis de videojuegos: lanzamientos, tráilers, novedades de GTA 6, Minecraft, PlayStation, Xbox, Nintendo y PC – a diario, con notas."
+  "es": "Noticias y análisis de videojuegos: lanzamientos, tráilers, novedades de GTA 6, Minecraft, PlayStation, Xbox, Nintendo y PC – a diario, con notas.",
+  "it": "Notizie e recensioni di videogiochi: nuove uscite, trailer, aggiornamenti su GTA 6, Minecraft, PlayStation, Xbox, Nintendo e PC – ogni giorno, con voti."
  },
  {
   "path": [
@@ -714,7 +996,8 @@
    "kultur"
   ],
   "tr": "Kültür ve eğlence: konserler, festivaller, ödül törenleri ve sinema.",
-  "es": "Cultura y entretenimiento: conciertos, festivales, premios y cine."
+  "es": "Cultura y entretenimiento: conciertos, festivales, premios y cine.",
+  "it": "Cultura e spettacoli: concerti, festival, premi e cinema."
  },
  {
   "path": [
@@ -722,7 +1005,8 @@
    "rockmetal"
   ],
   "tr": "Rock & Metal: rock, hard rock, metal ve punk – albüm incelemeleri, klipler, turne tarihleri ve festivaller. Her pazartesi günün kanalı.",
-  "es": "Rock & Metal: rock, hard rock, metal y punk – críticas de discos, videoclips, fechas de giras y festivales. Canal del día cada lunes."
+  "es": "Rock & Metal: rock, hard rock, metal y punk – críticas de discos, videoclips, fechas de giras y festivales. Canal del día cada lunes.",
+  "it": "Rock & Metal: rock, hard rock, metal e punk – recensioni di album, videoclip, date dei tour e festival. Canale del giorno ogni lunedì."
  },
  {
   "path": [
@@ -730,7 +1014,8 @@
    "poprnb"
   ],
   "tr": "Pop & R&B: pop, R&B, soul ve hip-hop – yeni albümler, listeler, klipler ve turneler. Her salı günün kanalı.",
-  "es": "Pop & R&B: pop, R&B, soul y hip-hop – nuevos discos, listas, videoclips y giras. Canal del día cada martes."
+  "es": "Pop & R&B: pop, R&B, soul y hip-hop – nuevos discos, listas, videoclips y giras. Canal del día cada martes.",
+  "it": "Pop & R&B: pop, R&B, soul e hip-hop – nuovi album, classifiche, videoclip e tour. Canale del giorno ogni martedì."
  },
  {
   "path": [
@@ -738,7 +1023,8 @@
    "electronic"
   ],
   "tr": "Elektronik: techno, electro, ambient ve elektronik müziğin öncüleri – yeni çıkanlar, canlı performanslar ve kulüp kültürü.",
-  "es": "Electrónica: techno, electro, ambient y pioneros de la electrónica – lanzamientos, directos y cultura de club."
+  "es": "Electrónica: techno, electro, ambient y pioneros de la electrónica – lanzamientos, directos y cultura de club.",
+  "it": "Elettronica: techno, electro, ambient e pionieri dell’elettronica – uscite, live e cultura dei club."
  },
  {
   "path": [
@@ -746,7 +1032,8 @@
    "filmclassic"
   ],
   "tr": "Film & Klasik: film müziği, besteler, soundtrack'ler ve klasik müzik – “Stüdyodan” köşesiyle. Her perşembe günün kanalı.",
-  "es": "Cine & Clásica: música de cine, partituras, bandas sonoras y clásica – con la sección “Desde el estudio”. Canal del día cada jueves."
+  "es": "Cine & Clásica: música de cine, partituras, bandas sonoras y clásica – con la sección “Desde el estudio”. Canal del día cada jueves.",
+  "it": "Cinema & Classica: musica da film, partiture, colonne sonore e classica – con la rubrica “Dallo studio”. Canale del giorno ogni giovedì."
  },
  {
   "path": [
@@ -754,7 +1041,8 @@
    "folkroots"
   ],
   "tr": "Folk & Kökler: folk, country, dünya müziği ve Balkanlar – Bulgaristan ve Güneydoğu Avrupa'dan “Balkan Sound” köşesiyle. Her cuma günün kanalı.",
-  "es": "Folk & Raíces: folk, country, músicas del mundo y los Balcanes – con la sección “Balkan Sound” desde Bulgaria y el sudeste de Europa. Canal del día cada viernes."
+  "es": "Folk & Raíces: folk, country, músicas del mundo y los Balcanes – con la sección “Balkan Sound” desde Bulgaria y el sudeste de Europa. Canal del día cada viernes.",
+  "it": "Folk & Radici: folk, country, world music e Balcani – con la rubrica “Balkan Sound” dalla Bulgaria e dall’Europa sudorientale. Canale del giorno ogni venerdì."
  },
  {
   "path": [
@@ -762,7 +1050,8 @@
    "imtrend"
   ],
   "tr": "Trendler: parti kombinleri, takı, uç moda, saç modelleri, iç mimari, saatler, gözlükler ve başlıklar – her gün videolarla.",
-  "es": "Tendencias: looks de fiesta, joyería, moda extrema, peinados, interiorismo, relojes, gafas y tocados – a diario, con vídeos."
+  "es": "Tendencias: looks de fiesta, joyería, moda extrema, peinados, interiorismo, relojes, gafas y tocados – a diario, con vídeos.",
+  "it": "Tendenze: look da festa, gioielli, moda estrema, acconciature, interior design, orologi, occhiali e copricapi – ogni giorno, con video."
  },
  {
   "path": [
@@ -770,7 +1059,8 @@
    "designer"
   ],
   "tr": "Tasarımcılar: moda evleri, koleksiyonlar, markalar ve podyum – moda haftaları ve defileler her gün videoda.",
-  "es": "Diseñadores: casas de moda, colecciones, firmas y pasarela – semanas de la moda y desfiles a diario en vídeo."
+  "es": "Diseñadores: casas de moda, colecciones, firmas y pasarela – semanas de la moda y desfiles a diario en vídeo.",
+  "it": "Stilisti: maison, collezioni, marchi e passerelle – settimane della moda e sfilate ogni giorno in video."
  },
  {
   "path": [
@@ -778,7 +1068,8 @@
    "dessous"
   ],
   "tr": "İç giyim: iç giyim koleksiyonları, markalar, burlesk sahnesi ve defileler – tarzıyla moda gazeteciliği.",
-  "es": "Lencería: colecciones de lencería, marcas, escena burlesque y desfiles – periodismo de moda con estilo."
+  "es": "Lencería: colecciones de lencería, marcas, escena burlesque y desfiles – periodismo de moda con estilo.",
+  "it": "Lingerie: collezioni di lingerie, marchi, palcoscenico burlesque e sfilate – giornalismo di moda con stile."
  },
  {
   "path": [
@@ -786,7 +1077,8 @@
    "formel1"
   ],
   "tr": "Formula 1: pilotlar ve takımlar klasmanı, tüm kazananlarla yarış takvimi, sıradaki Grand Prix, haberler ve resmi videolar – her yarıştan sonra güncellenir.",
-  "es": "Fórmula 1: clasificación de pilotos y constructores, calendario con todos los ganadores, próximo Gran Premio, noticias y vídeos oficiales – actualizado tras cada carrera."
+  "es": "Fórmula 1: clasificación de pilotos y constructores, calendario con todos los ganadores, próximo Gran Premio, noticias y vídeos oficiales – actualizado tras cada carrera.",
+  "it": "Formula 1: classifiche piloti e costruttori, calendario con tutti i vincitori, prossimo Gran Premio, notizie e video ufficiali – aggiornato dopo ogni gara."
  },
  {
   "path": [
@@ -794,7 +1086,8 @@
    "tennis"
   ],
   "tr": "Tenis: ATP ve WTA dünya sıralaması, devam eden turnuvalar, sıralamadaki Alman ve Bulgar oyuncular, haberler ve resmi videolar – her gün güncellenir.",
-  "es": "Tenis: rankings ATP y WTA, torneos en curso, alemanes y búlgaros en la clasificación, noticias y vídeos oficiales – actualizado a diario."
+  "es": "Tenis: rankings ATP y WTA, torneos en curso, alemanes y búlgaros en la clasificación, noticias y vídeos oficiales – actualizado a diario.",
+  "it": "Tennis: classifiche ATP e WTA, tornei in corso, tedeschi e bulgari in classifica, notizie e video ufficiali – aggiornato ogni giorno."
  },
  {
   "path": [
@@ -802,7 +1095,8 @@
    "raumfahrt"
   ],
   "tr": "Uzay: NASA, ESA ve DLR görevleri, roket fırlatmaları, uydular, uzay sondaları, teleskoplar ve ISS – resmi videolarla.",
-  "es": "Espacio: misiones de la NASA, la ESA y el DLR, lanzamientos de cohetes, satélites, sondas, telescopios y la ISS – con vídeos oficiales."
+  "es": "Espacio: misiones de la NASA, la ESA y el DLR, lanzamientos de cohetes, satélites, sondas, telescopios y la ISS – con vídeos oficiales.",
+  "it": "Spazio: missioni di NASA, ESA e DLR, lanci di razzi, satelliti, sonde, telescopi e ISS – con video ufficiali."
  },
  {
   "path": [
@@ -810,7 +1104,8 @@
    "guinness"
   ],
   "tr": "Guinness Dünya Rekorları videoda: en çılgın, en büyük ve en hızlı dünya rekorları – her gün resmi kanaldan yeni bir video.",
-  "es": "Récords Guinness en vídeo: los récords mundiales más locos, grandes y rápidos – cada día un nuevo vídeo del canal oficial."
+  "es": "Récords Guinness en vídeo: los récords mundiales más locos, grandes y rápidos – cada día un nuevo vídeo del canal oficial.",
+  "it": "Guinness dei primati in video: i record mondiali più folli, più grandi e più veloci – ogni giorno un nuovo video dal canale ufficiale."
  },
  {
   "path": [
@@ -818,7 +1113,8 @@
    "handball"
   ],
   "tr": "Hentbol Bundesliga: THW Kiel, SC Magdeburg, Füchse Berlin, SG Flensburg-Handewitt ve diğerleriyle sezonun puan durumu, haftaları ve sonuçları – her gün güncellenir.",
-  "es": "Bundesliga de balonmano: clasificación, jornadas y resultados de la temporada con THW Kiel, SC Magdeburg, Füchse Berlin, SG Flensburg-Handewitt y más – actualizado a diario."
+  "es": "Bundesliga de balonmano: clasificación, jornadas y resultados de la temporada con THW Kiel, SC Magdeburg, Füchse Berlin, SG Flensburg-Handewitt y más – actualizado a diario.",
+  "it": "Bundesliga di pallamano: classifica, giornate e risultati della stagione con THW Kiel, SC Magdeburg, Füchse Berlin, SG Flensburg-Handewitt e altre – aggiornato ogni giorno."
  },
  {
   "path": [
@@ -826,7 +1122,8 @@
    "extremsport"
   ],
   "tr": "Ekstrem sporlar videoda: BASE atlayışları, dev dalga sörfü, freeride, tırmanış ve ekstrem dünya rekorları – Red Bull ve GoPro gibi resmi kanallardan.",
-  "es": "Deportes extremos en vídeo: saltos BASE, surf de olas gigantes, freeride, escalada y récords extremos – de canales oficiales como Red Bull y GoPro."
+  "es": "Deportes extremos en vídeo: saltos BASE, surf de olas gigantes, freeride, escalada y récords extremos – de canales oficiales como Red Bull y GoPro.",
+  "it": "Sport estremi in video: salti BASE, surf su onde giganti, freeride, arrampicata e record estremi – dai canali ufficiali come Red Bull e GoPro."
  },
  {
   "path": [
@@ -834,7 +1131,8 @@
    "berlin"
   ],
   "tr": "Berlin haberleri: Senato ve eyalet meclisi, ulaşım, konut, kültür, polis ve Alman başkentinden son dakika haberleri – her gün kaynaklarla.",
-  "es": "Noticias de Berlín: Senado y Parlamento regional, transporte, vivienda, cultura, policía y última hora desde la capital alemana – a diario, con fuentes."
+  "es": "Noticias de Berlín: Senado y Parlamento regional, transporte, vivienda, cultura, policía y última hora desde la capital alemana – a diario, con fuentes.",
+  "it": "Notizie da Berlino: Senato e Camera dei deputati, trasporti, casa, cultura, polizia e ultim’ora dalla capitale tedesca – ogni giorno, con fonti."
  },
  {
   "path": [
@@ -842,7 +1140,8 @@
    "oberfranken"
   ],
   "tr": "Yukarı Frankonya haberleri: Bayreuth ve Richard Wagner Festivali, Bamberg, Coburg, Hof ve Kulmbach – kültür, turizm ve bölge, kaynaklarla.",
-  "es": "Noticias de Alta Franconia: Bayreuth y el Festival Richard Wagner, Bamberg, Coburgo, Hof y Kulmbach – cultura, turismo y región, con fuentes."
+  "es": "Noticias de Alta Franconia: Bayreuth y el Festival Richard Wagner, Bamberg, Coburgo, Hof y Kulmbach – cultura, turismo y región, con fuentes.",
+  "it": "Notizie dall’Alta Franconia: Bayreuth e il Festival di Richard Wagner, Bamberga, Coburgo, Hof e Kulmbach – cultura, turismo e territorio, con fonti."
  },
  {
   "path": [
@@ -850,7 +1149,8 @@
    "liebe"
   ],
   "tr": "Aşk & İlişkiler: partner arayışı, online flört, ilişkiler, aile ve birlikte yaşam üzerine araştırmalar, aşk dolandırıcılığına karşı korunma – nesnel ve kaynaklı.",
-  "es": "Amor & Pareja: búsqueda de pareja, citas online, estudios sobre relaciones, familia y convivencia, protección contra estafas románticas – con rigor y fuentes."
+  "es": "Amor & Pareja: búsqueda de pareja, citas online, estudios sobre relaciones, familia y convivencia, protección contra estafas románticas – con rigor y fuentes.",
+  "it": "Amore & Coppia: ricerca del partner, incontri online, studi sulle relazioni, famiglia e convivenza, tutela dalle truffe sentimentali – con rigore e fonti."
  },
  {
   "path": [
@@ -858,7 +1158,8 @@
    "laenderspiele"
   ],
   "tr": "Milli maçlar: Uluslar Ligi puan tabloları, Almanya milli takımının tüm maçları, milli takım haberleri ve maç özetleri videoda.",
-  "es": "Selecciones: clasificaciones de la Nations League, todos los partidos de Alemania, noticias de la selección y resúmenes en vídeo."
+  "es": "Selecciones: clasificaciones de la Nations League, todos los partidos de Alemania, noticias de la selección y resúmenes en vídeo.",
+  "it": "Nazionali: classifiche della Nations League, tutte le partite della Germania, notizie sulla nazionale e highlights in video."
  },
  {
   "path": [
@@ -866,7 +1167,8 @@
    "championsleague"
   ],
   "tr": "Champions League: lig aşaması puan tablosu, tüm haftalar ve sonuçlar, eleme ve nakavt turları, canlı skorlar ve haberler – resmi UEFA verilerine göre.",
-  "es": "Champions League: clasificación de la fase liga, todas las jornadas y resultados, rondas previas y eliminatorias, marcadores en directo y noticias – con datos oficiales de la UEFA."
+  "es": "Champions League: clasificación de la fase liga, todas las jornadas y resultados, rondas previas y eliminatorias, marcadores en directo y noticias – con datos oficiales de la UEFA.",
+  "it": "Champions League: classifica della fase campionato, tutte le giornate e i risultati, turni preliminari ed eliminazione diretta, risultati in diretta e notizie – sulla base dei dati ufficiali UEFA."
  },
  {
   "path": [
@@ -874,7 +1176,8 @@
    "europaleague"
   ],
   "tr": "Europa League: lig aşaması puan tablosu, tüm haftalar ve sonuçlar, eleme ve nakavt turları, canlı skorlar ve haberler – resmi UEFA verilerine göre.",
-  "es": "Europa League: clasificación de la fase liga, todas las jornadas y resultados, rondas previas y eliminatorias, marcadores en directo y noticias – con datos oficiales de la UEFA."
+  "es": "Europa League: clasificación de la fase liga, todas las jornadas y resultados, rondas previas y eliminatorias, marcadores en directo y noticias – con datos oficiales de la UEFA.",
+  "it": "Europa League: classifica della fase campionato, tutte le giornate e i risultati, turni preliminari ed eliminazione diretta, risultati in diretta e notizie – sulla base dei dati ufficiali UEFA."
  },
  {
   "path": [
@@ -882,7 +1185,8 @@
    "conferenceleague"
   ],
   "tr": "Conference League: lig aşaması puan tablosu, tüm haftalar ve sonuçlar, eleme ve nakavt turları, canlı skorlar ve haberler – resmi UEFA verilerine göre.",
-  "es": "Conference League: clasificación de la fase liga, todas las jornadas y resultados, rondas previas y eliminatorias, marcadores en directo y noticias – con datos oficiales de la UEFA."
+  "es": "Conference League: clasificación de la fase liga, todas las jornadas y resultados, rondas previas y eliminatorias, marcadores en directo y noticias – con datos oficiales de la UEFA.",
+  "it": "Conference League: classifica della fase campionato, tutte le giornate e i risultati, turni preliminari ed eliminazione diretta, risultati in diretta e notizie – sulla base dei dati ufficiali UEFA."
  },
  {
   "path": [
@@ -890,7 +1194,8 @@
    "fussball"
   ],
   "tr": "Futbol: Bundesliga, Premier League, La Liga, Serie A, Ligue 1 ve Bulgaristan Parva Liga'dan puan durumları, fikstürler ve sonuçlar.",
-  "es": "Fútbol: clasificaciones, jornadas y resultados de la Bundesliga, Premier League, LaLiga, Serie A, Ligue 1 y la Parva Liga búlgara."
+  "es": "Fútbol: clasificaciones, jornadas y resultados de la Bundesliga, Premier League, LaLiga, Serie A, Ligue 1 y la Parva Liga búlgara.",
+  "it": "Calcio: classifiche, calendari e risultati di Bundesliga, Premier League, LaLiga, Serie A, Ligue 1 e della Parva Liga bulgara."
  },
  {
   "path": [
@@ -898,7 +1203,8 @@
    "boxen"
   ],
   "tr": "Boks: WBC, WBA, IBF ve WBO dünya şampiyonları ve maçları, Fury - Joshua ve güncel boks haberleri.",
-  "es": "Boxeo: campeones y combates del CMB, AMB, FIB y OMB, Fury vs. Joshua y la actualidad del boxeo."
+  "es": "Boxeo: campeones y combates del CMB, AMB, FIB y OMB, Fury vs. Joshua y la actualidad del boxeo.",
+  "it": "Pugilato: campioni e incontri di WBC, WBA, IBF e WBO, Fury contro Joshua e le ultime notizie dal mondo della boxe."
  },
  {
   "path": [
@@ -906,7 +1212,8 @@
    "mma"
   ],
   "tr": "MMA: UFC, PFL, ONE Championship ve OKTAGON – şampiyonlar, yaklaşan maçlar, sonuçlar ve haberler.",
-  "es": "MMA: UFC, PFL, ONE Championship y OKTAGON – campeones, próximos combates, resultados y noticias."
+  "es": "MMA: UFC, PFL, ONE Championship y OKTAGON – campeones, próximos combates, resultados y noticias.",
+  "it": "MMA: UFC, PFL, ONE Championship e OKTAGON – campioni, prossimi incontri, risultati e notizie."
  },
  {
   "path": [
@@ -914,7 +1221,8 @@
    "pop"
   ],
   "tr": "Pop & K-pop: uluslararası pop ve K-pop – yeni albüm ve single'lar, klipler, liste haberleri ve büyük pop yıldızlarıyla idol gruplarının turneleri.",
-  "es": "Pop & K-pop: pop internacional y K-pop – nuevos discos y sencillos, videoclips, noticias de listas y giras de las grandes estrellas del pop y grupos de ídolos."
+  "es": "Pop & K-pop: pop internacional y K-pop – nuevos discos y sencillos, videoclips, noticias de listas y giras de las grandes estrellas del pop y grupos de ídolos.",
+  "it": "Pop & K-pop: pop internazionale e K-pop – nuovi album e singoli, videoclip, notizie dalle classifiche e tour delle grandi popstar e degli idol group."
  },
  {
   "path": [
@@ -922,7 +1230,8 @@
    "deutschpop"
   ],
   "tr": "Alman rock & pop: Almanca rock, pop ve şarkıcı-söz yazarları – Almanya, Avusturya ve İsviçre'de albümler, listeler, klipler ve turneler.",
-  "es": "Rock & pop alemán: rock, pop y cantautores en alemán – discos, listas, vídeos y giras en Alemania, Austria y Suiza."
+  "es": "Rock & pop alemán: rock, pop y cantautores en alemán – discos, listas, vídeos y giras en Alemania, Austria y Suiza.",
+  "it": "Rock & pop tedesco: rock, pop e cantautori in lingua tedesca – album, classifiche, video e tour in Germania, Austria e Svizzera."
  },
  {
   "path": [
@@ -930,7 +1239,8 @@
    "rock"
   ],
   "tr": "Rock: klasik rock, hard rock ve stadyum rock'ı – albüm incelemeleri, klipler, turne tarihleri ve festivaller.",
-  "es": "Rock: rock clásico, hard rock y rock de estadio – críticas de discos, videoclips, fechas de giras y festivales."
+  "es": "Rock: rock clásico, hard rock y rock de estadio – críticas de discos, videoclips, fechas de giras y festivales.",
+  "it": "Rock: classic rock, hard rock e stadium rock – recensioni di album, videoclip, date dei tour e festival."
  },
  {
   "path": [
@@ -938,7 +1248,8 @@
    "metal"
   ],
   "tr": "Metal: heavy, thrash, death, black, power ve senfonik metal – incelemeler, videolar, turne tarihleri ve festivaller.",
-  "es": "Metal: heavy, thrash, death, black, power y metal sinfónico – críticas, vídeos, fechas de giras y festivales."
+  "es": "Metal: heavy, thrash, death, black, power y metal sinfónico – críticas, vídeos, fechas de giras y festivales.",
+  "it": "Metal: heavy, thrash, death, black, power e symphonic metal – recensioni, video, date dei tour e festival."
  },
  {
   "path": [
@@ -946,7 +1257,8 @@
    "hiphop"
   ],
   "tr": "Hip-hop: ABD rap'i, Alman rap'i ve uluslararası sahneler – yeni albümler, klipler, listeler ve turneler.",
-  "es": "Hip-hop: rap estadounidense, rap alemán y escenas internacionales – nuevos discos, vídeos, listas y giras."
+  "es": "Hip-hop: rap estadounidense, rap alemán y escenas internacionales – nuevos discos, vídeos, listas y giras.",
+  "it": "Hip-hop: rap statunitense, rap tedesco e scene internazionali – nuovi album, video, classifiche e tour."
  },
  {
   "path": [
@@ -954,7 +1266,8 @@
    "rnbsoul"
   ],
   "tr": "R&B & Soul: çağdaş R&B, soul ve neo-soul – albümler, klipler ve konserler.",
-  "es": "R&B & Soul: R&B contemporáneo, soul y neo-soul – discos, vídeos y conciertos."
+  "es": "R&B & Soul: R&B contemporáneo, soul y neo-soul – discos, vídeos y conciertos.",
+  "it": "R&B & Soul: R&B contemporaneo, soul e neo-soul – album, video e concerti."
  },
  {
   "path": [
@@ -962,7 +1275,8 @@
    "indie"
   ],
   "tr": "Indie & Alternatif: indie rock, indie pop, alternatif, post-punk ve shoegaze – yeni gruplara odaklanarak.",
-  "es": "Indie & Alternativo: indie rock, indie pop, alternativo, post-punk y shoegaze – con especial atención a nuevas bandas."
+  "es": "Indie & Alternativo: indie rock, indie pop, alternativo, post-punk y shoegaze – con especial atención a nuevas bandas.",
+  "it": "Indie & Alternative: indie rock, indie pop, alternative, post-punk e shoegaze – con particolare attenzione alle nuove band."
  },
  {
   "path": [
@@ -970,7 +1284,8 @@
    "dance"
   ],
   "tr": "Dance & EDM: house, trance, drum & bass, EDM ve hardtekk – DJ haberleri, festivaller ve yeni parçalar.",
-  "es": "Dance & EDM: house, trance, drum & bass, EDM y hardtekk – noticias de DJ, festivales y nuevos temas."
+  "es": "Dance & EDM: house, trance, drum & bass, EDM y hardtekk – noticias de DJ, festivales y nuevos temas.",
+  "it": "Dance & EDM: house, trance, drum & bass, EDM e hardtekk – notizie sui DJ, festival e nuove tracce."
  },
  {
   "path": [
@@ -978,7 +1293,8 @@
    "latin"
   ],
   "tr": "Latin: reggaeton, Latin pop, salsa ve bachata – yıldızlar, albümler, klipler ve turneler.",
-  "es": "Música latina: reguetón, pop latino, salsa y bachata – estrellas, discos, vídeos y giras."
+  "es": "Música latina: reguetón, pop latino, salsa y bachata – estrellas, discos, vídeos y giras.",
+  "it": "Musica latina: reggaeton, pop latino, salsa e bachata – star, album, video e tour."
  },
  {
   "path": [
@@ -986,7 +1302,8 @@
    "reggae"
   ],
   "tr": "Afrobeats & reggae: Afrobeats, amapiano, roots, dancehall ve dub – yeni çıkanlar, yıldızlar, konserler ve festivaller.",
-  "es": "Afrobeats & reggae: afrobeats, amapiano, roots, dancehall y dub – lanzamientos, estrellas, conciertos y festivales."
+  "es": "Afrobeats & reggae: afrobeats, amapiano, roots, dancehall y dub – lanzamientos, estrellas, conciertos y festivales.",
+  "it": "Afrobeats & reggae: afrobeats, amapiano, roots, dancehall e dub – nuove uscite, star, concerti e festival."
  },
  {
   "path": [
@@ -994,7 +1311,8 @@
    "popfolk"
   ],
   "tr": "Pop-folk: Bulgar çalga, Sırp turbo-folk, Romen manele ve Yunan laïko – yıldızlar, klipler, konserler ve listeler.",
-  "es": "Pop-folk: chalga búlgara, turbo-folk serbio, manele rumano y laïko griego – estrellas, vídeos, conciertos y listas."
+  "es": "Pop-folk: chalga búlgara, turbo-folk serbio, manele rumano y laïko griego – estrellas, vídeos, conciertos y listas.",
+  "it": "Pop-folk: chalga bulgara, turbo-folk serbo, manele romeno e laïko greco – star, video, concerti e classifiche."
  },
  {
   "path": [
@@ -1002,7 +1320,8 @@
    "country"
   ],
   "tr": "Country: Nashville, Americana ve country pop – albümler, klipler, turneler ve ödüller.",
-  "es": "Country: Nashville, americana y country pop – discos, vídeos, giras y premios."
+  "es": "Country: Nashville, americana y country pop – discos, vídeos, giras y premios.",
+  "it": "Country: Nashville, americana e country pop – album, video, tour e premi."
  },
  {
   "path": [
@@ -1010,7 +1329,8 @@
    "folk"
   ],
   "tr": "Folk: şarkıcı-söz yazarları, folk rock, neofolk ve dünyanın dört bir yanından geleneksel müzik.",
-  "es": "Folk: cantautores, folk rock, neofolk y música tradicional de todo el mundo."
+  "es": "Folk: cantautores, folk rock, neofolk y música tradicional de todo el mundo.",
+  "it": "Folk: cantautori, folk rock, neofolk e musica tradizionale da tutto il mondo."
  },
  {
   "path": [
@@ -1018,7 +1338,8 @@
    "schlager"
   ],
   "tr": "Schlager: Almanca schlager ve schlager pop – albümler, listeler, TV programları, portreler ve turneler.",
-  "es": "Schlager: schlager y schlager pop en alemán – discos, listas, programas de televisión, perfiles y giras."
+  "es": "Schlager: schlager y schlager pop en alemán – discos, listas, programas de televisión, perfiles y giras.",
+  "it": "Schlager: schlager e schlager pop in lingua tedesca – album, classifiche, programmi tv, ritratti e tour."
  },
  {
   "path": [
@@ -1026,7 +1347,8 @@
    "jazz"
   ],
   "tr": "Caz & blues: yeni albümler, festivaller, portreler ve konserler – big band ve modern cazdan blues rock'a, Delta ve Chicago blues'a.",
-  "es": "Jazz & blues: nuevos discos, festivales, perfiles y conciertos – del big band y el jazz moderno al blues rock, el blues del Delta y el de Chicago."
+  "es": "Jazz & blues: nuevos discos, festivales, perfiles y conciertos – del big band y el jazz moderno al blues rock, el blues del Delta y el de Chicago.",
+  "it": "Jazz & blues: nuovi album, festival, ritratti e concerti – dalla big band e dal jazz moderno al blues rock, al Delta blues e al Chicago blues."
  },
  {
   "path": [
@@ -1034,7 +1356,8 @@
    "soulfunk"
   ],
   "tr": "Soul & funk: Motown, klasik soul, funk ve neo-soul – yeni albümler, efsaneler, konserler ve turneler.",
-  "es": "Soul & funk: Motown, soul clásico, funk y neo-soul – nuevos discos, leyendas, conciertos y giras."
+  "es": "Soul & funk: Motown, soul clásico, funk y neo-soul – nuevos discos, leyendas, conciertos y giras.",
+  "it": "Soul & funk: Motown, soul classico, funk e neo-soul – nuovi album, leggende, concerti e tour."
  },
  {
   "path": [
@@ -1042,7 +1365,8 @@
    "klassik"
   ],
   "tr": "Klasik müzik: orkestralar, opera, solistler ve neoklasik – kayıtlar, konserler ve festivaller.",
-  "es": "Clásica: orquestas, ópera, solistas y neoclásica – grabaciones, conciertos y festivales."
+  "es": "Clásica: orquestas, ópera, solistas y neoclásica – grabaciones, conciertos y festivales.",
+  "it": "Classica: orchestre, opera, solisti e neoclassica – registrazioni, concerti e festival."
  },
  {
   "path": [
@@ -1050,7 +1374,8 @@
    "filmmusik"
   ],
   "tr": "Film müziği: sinema, dizi ve oyunlardan besteler, soundtrack'ler ve besteciler – “Stüdyodan” köşesiyle.",
-  "es": "Bandas sonoras: partituras, bandas sonoras y compositores de cine, series y videojuegos – con la sección “Desde el estudio”."
+  "es": "Bandas sonoras: partituras, bandas sonoras y compositores de cine, series y videojuegos – con la sección “Desde el estudio”.",
+  "it": "Colonne sonore: partiture, colonne sonore e compositori di cinema, serie tv e videogiochi – con la rubrica “Dallo studio”."
  },
  {
   "path": [
@@ -1058,7 +1383,8 @@
    "world"
   ],
   "tr": "Dünya müziği: Afrika, Asya, Orta Doğu ve Balkanlar'dan müzik – albümler, festivaller ve portreler.",
-  "es": "Músicas del mundo: música de África, Asia, Oriente Próximo y los Balcanes – discos, festivales y perfiles."
+  "es": "Músicas del mundo: música de África, Asia, Oriente Próximo y los Balcanes – discos, festivales y perfiles.",
+  "it": "World music: musica dall’Africa, dall’Asia, dal Medio Oriente e dai Balcani – album, festival e ritratti."
  },
  {
   "path": [
@@ -1066,7 +1392,8 @@
    "punk"
   ],
   "tr": "Punk: punk rock, hardcore ve pop punk – yeni plaklar, turneler ve festivaller.",
-  "es": "Punk: punk rock, hardcore y pop punk – nuevos discos, giras y festivales."
+  "es": "Punk: punk rock, hardcore y pop punk – nuevos discos, giras y festivales.",
+  "it": "Punk: punk rock, hardcore e pop punk – nuovi dischi, tour e festival."
  },
  {
   "path": [
@@ -1075,7 +1402,8 @@
    0
   ],
   "tr": "Rock & pop",
-  "es": "Rock & pop"
+  "es": "Rock & pop",
+  "it": "Rock & pop"
  },
  {
   "path": [
@@ -1084,7 +1412,8 @@
    0
   ],
   "tr": "Elektronik & uluslararası",
-  "es": "Electrónica & internacional"
+  "es": "Electrónica & internacional",
+  "it": "Elettronica & internazionale"
  },
  {
   "path": [
@@ -1093,14 +1422,16 @@
    0
   ],
   "tr": "Alman, Balkan & klasik",
-  "es": "Alemana, balcánica & clásica"
+  "es": "Alemana, balcánica & clásica",
+  "it": "Tedesca, balcanica & classica"
  },
  {
   "path": [
    "NEWS_DIR"
   ],
   "tr": "haberler",
-  "es": "noticias"
+  "es": "noticias",
+  "it": "notizie"
  },
  {
   "path": [
@@ -1123,6 +1454,15 @@
    "viernes",
    "sábado",
    "domingo"
+  ],
+  "it": [
+   "lunedì",
+   "martedì",
+   "mercoledì",
+   "giovedì",
+   "venerdì",
+   "sabato",
+   "domenica"
   ]
  },
  {
@@ -1156,6 +1496,20 @@
    "octubre",
    "noviembre",
    "diciembre"
+  ],
+  "it": [
+   "gennaio",
+   "febbraio",
+   "marzo",
+   "aprile",
+   "maggio",
+   "giugno",
+   "luglio",
+   "agosto",
+   "settembre",
+   "ottobre",
+   "novembre",
+   "dicembre"
   ]
  },
  {
@@ -1285,6 +1639,68 @@
    "title_home": "TWN – Terra World News | NOTICIAS. HECHOS. CONTEXTO.",
    "live": "EN VIVO",
    "lang": "Idioma"
+  },
+  "it": {
+   "home": "Home",
+   "tagline": "Notizie da tutto il mondo",
+   "ed": "Numero {n}",
+   "places": "",
+   "clocks": [
+    [
+     "Berlino",
+     "Europe/Berlin"
+    ],
+    [
+     "Sofia",
+     "Europe/Sofia"
+    ],
+    [
+     "Londra",
+     "Europe/London"
+    ],
+    [
+     "New York",
+     "America/New_York"
+    ],
+    [
+     "Pechino",
+     "Asia/Shanghai"
+    ]
+   ],
+   "brk": "Ultim'ora",
+   "brkup": "Aggiornamento",
+   "vid": "Video",
+   "playv": "▶ Guarda il video",
+   "trl": "I trailer del giorno",
+   "nat": "La natura più bella del mondo",
+   "mvd": "I videoclip del giorno",
+   "tours": "Tour e concerti",
+   "lead": "Notizia principale",
+   "most": "Ultime notizie",
+   "all": "Tutte le notizie →",
+   "src": "Fonti",
+   "by": "Redazione TWN",
+   "read": "Lettura: {m} min",
+   "hour": "",
+   "items": "notizie",
+   "facts": "I punti chiave",
+   "more": "Altro da questa sezione",
+   "trailer": "Trailer",
+   "play": "▶ Guarda il trailer",
+   "ytnote": "La riproduzione carica il video da YouTube (Google).",
+   "empty": "Le notizie della nostra redazione appariranno presto in questa sezione.",
+   "foot": "Terra World News (TWN) – portale di informazione indipendente con notizie da tutto il mondo · Redazioni a Sofia e Berlino",
+   "about": "Chi siamo",
+   "publisher": "Editore: FILMPARTNER 24 EOOD",
+   "imprint": "Note legali",
+   "privacy": "Privacy",
+   "principles": "Principi editoriali",
+   "rss": "RSS",
+   "back": "Torna alla home",
+   "desc_home": "NOTIZIE. FATTI. CONTESTO. – TWN – World News (Terra World News): notizie da tutto il mondo, dall’Europa, dalla Germania, dalla Bulgaria e dagli Stati Uniti. Ogni giorno, verificate e con fonti.",
+   "title_home": "TWN – Terra World News | NOTIZIE. FATTI. CONTESTO.",
+   "live": "IN DIRETTA",
+   "lang": "Lingua"
   }
  },
  {
@@ -1302,6 +1718,12 @@
    "imprint": "aviso-legal",
    "privacy": "privacidad",
    "principles": "principios-editoriales"
+  },
+  "it": {
+   "about": "chi-siamo",
+   "imprint": "note-legali",
+   "privacy": "privacy",
+   "principles": "principi-editoriali"
   }
  },
  {
@@ -1321,6 +1743,13 @@
    "ht": "Descanso",
    "ft": "Final",
    "p": "Pausa"
+  },
+  "it": {
+   "k": "⚽ IN DIRETTA",
+   "a": "Calcio in diretta",
+   "ht": "Intervallo",
+   "ft": "Finale",
+   "p": "Pausa"
   }
  },
  {
@@ -1328,7 +1757,8 @@
    "PUBL"
   ],
   "tr": "Yayımlanma",
-  "es": "Publicado"
+  "es": "Publicado",
+  "it": "Pubblicato"
  },
  {
   "path": [
@@ -1345,6 +1775,12 @@
    "tm": "mañana",
    "live": "EN VIVO",
    "upd": "Actualización"
+  },
+  "it": {
+   "nxt": "Prossimo aggiornamento",
+   "tm": "domani",
+   "live": "IN DIRETTA",
+   "upd": "Aggiornamento"
   }
  },
  {
@@ -1352,21 +1788,24 @@
    "EXL"
   ],
   "tr": "Özel",
-  "es": "Exclusiva"
+  "es": "Exclusiva",
+  "it": "Esclusiva"
  },
  {
   "path": [
    "EXB"
   ],
   "tr": "▶ Videoyu izle & haberi oku",
-  "es": "▶ Ver el vídeo y leer el artículo"
+  "es": "▶ Ver el vídeo y leer el artículo",
+  "it": "▶ Guarda il video e leggi l’articolo"
  },
  {
   "path": [
    "BYP"
   ],
   "tr": "Yazan: {n}",
-  "es": "Por {n}"
+  "es": "Por {n}",
+  "it": "Di {n}"
  },
  {
   "path": [
@@ -1393,6 +1832,17 @@
    "nodata": "–",
    "desc": "Bolsa, electricidad e inversiones – a diario con cifras y tablas, explicado con claridad: Wall Street, Fráncfort, Sofía, el mercado eléctrico IBEX e inversión regional.",
    "noadv": "Solo con fines informativos, no constituye asesoramiento de inversión. Cotizaciones a la fecha indicada, no en tiempo real."
+  },
+  "it": {
+   "boerse": "MERCATI",
+   "asof": "Dati al",
+   "explain": "Cosa significa per me?",
+   "overview": "I mercati in sintesi",
+   "jump": "In questa pagina",
+   "full": "Articolo completo →",
+   "nodata": "–",
+   "desc": "Borsa, elettricità e investimenti – ogni giorno con cifre e tabelle, spiegati con chiarezza: Wall Street, Francoforte, Sofia, la borsa elettrica IBEX e gli investimenti nella regione.",
+   "noadv": "Solo a scopo informativo, non costituisce consulenza finanziaria. Quotazioni all’ora indicata, non in tempo reale."
   }
  },
  {
@@ -1401,7 +1851,8 @@
    "Pkt."
   ],
   "tr": "puan",
-  "es": "ptos."
+  "es": "ptos.",
+  "it": "pt."
  },
  {
   "path": [
@@ -1409,7 +1860,8 @@
    "Mio. EUR"
   ],
   "tr": "milyon EUR",
-  "es": "mill. EUR"
+  "es": "mill. EUR",
+  "it": "mln EUR"
  },
  {
   "path": [
@@ -1417,7 +1869,8 @@
    "Mrd. EUR"
   ],
   "tr": "milyar EUR",
-  "es": "mil mill. EUR"
+  "es": "mil mill. EUR",
+  "it": "mld EUR"
  },
  {
   "path": [
@@ -1425,7 +1878,8 @@
    "Mio."
   ],
   "tr": "milyon",
-  "es": "mill."
+  "es": "mill.",
+  "it": "mln"
  },
  {
   "path": [
@@ -1433,7 +1887,8 @@
    "Mrd."
   ],
   "tr": "milyar",
-  "es": "mil mill."
+  "es": "mil mill.",
+  "it": "mld"
  },
  {
   "path": [
@@ -1459,6 +1914,16 @@
    "badge": "VÍDEO",
    "rev": "El mundo en vídeo",
    "news": "Noticias internacionales"
+  },
+  "it": {
+   "more": "Leggi tutto →",
+   "rel": "Data",
+   "vid": "Video",
+   "older": "Giorni precedenti",
+   "playb": "▶ Guarda il video",
+   "badge": "VIDEO",
+   "rev": "Il mondo in video",
+   "news": "Notizie dal mondo"
   }
  },
  {
@@ -1485,6 +1950,16 @@
    "badge": "VÍDEO",
    "rev": "Europa en vídeo",
    "news": "Noticias de Europa"
+  },
+  "it": {
+   "more": "Leggi tutto →",
+   "rel": "Data",
+   "vid": "Video",
+   "older": "Giorni precedenti",
+   "playb": "▶ Guarda il video",
+   "badge": "VIDEO",
+   "rev": "L’Europa in video",
+   "news": "Notizie dall’Europa"
   }
  },
  {
@@ -1511,6 +1986,16 @@
    "badge": "VÍDEO",
    "rev": "Alemania en vídeo",
    "news": "Noticias de Alemania"
+  },
+  "it": {
+   "more": "Leggi tutto →",
+   "rel": "Data",
+   "vid": "Video",
+   "older": "Giorni precedenti",
+   "playb": "▶ Guarda il video",
+   "badge": "VIDEO",
+   "rev": "La Germania in video",
+   "news": "Notizie dalla Germania"
   }
  },
  {
@@ -1537,6 +2022,16 @@
    "badge": "VÍDEO",
    "rev": "Bulgaria en vídeo",
    "news": "Noticias de Bulgaria"
+  },
+  "it": {
+   "more": "Leggi tutto →",
+   "rel": "Data",
+   "vid": "Video",
+   "older": "Giorni precedenti",
+   "playb": "▶ Guarda il video",
+   "badge": "VIDEO",
+   "rev": "La Bulgaria in video",
+   "news": "Notizie dalla Bulgaria"
   }
  },
  {
@@ -1563,6 +2058,16 @@
    "badge": "VÍDEO",
    "rev": "El clima en vídeo",
    "news": "Noticias del clima"
+  },
+  "it": {
+   "more": "Leggi tutto →",
+   "rel": "Data",
+   "vid": "Video",
+   "older": "Giorni precedenti",
+   "playb": "▶ Guarda il video",
+   "badge": "VIDEO",
+   "rev": "Il clima in video",
+   "news": "Notizie sul clima"
   }
  },
  {
@@ -1589,6 +2094,16 @@
    "badge": "VÍDEO",
    "rev": "La vida en vídeo",
    "news": "Vida cotidiana"
+  },
+  "it": {
+   "more": "Leggi tutto →",
+   "rel": "Data",
+   "vid": "Video",
+   "older": "Giorni precedenti",
+   "playb": "▶ Guarda il video",
+   "badge": "VIDEO",
+   "rev": "La vita in video",
+   "news": "Vita quotidiana"
   }
  },
  {
@@ -1615,6 +2130,16 @@
    "badge": "VÍDEO",
    "rev": "La economía en vídeo",
    "news": "Noticias de economía"
+  },
+  "it": {
+   "more": "Leggi tutto →",
+   "rel": "Data",
+   "vid": "Video",
+   "older": "Giorni precedenti",
+   "playb": "▶ Guarda il video",
+   "badge": "VIDEO",
+   "rev": "L’economia in video",
+   "news": "Notizie di economia"
   }
  },
  {
@@ -1641,6 +2166,16 @@
    "badge": "VÍDEO",
    "rev": "La energía en vídeo",
    "news": "Noticias de energía"
+  },
+  "it": {
+   "more": "Leggi tutto →",
+   "rel": "Data",
+   "vid": "Video",
+   "older": "Giorni precedenti",
+   "playb": "▶ Guarda il video",
+   "badge": "VIDEO",
+   "rev": "L’energia in video",
+   "news": "Notizie sull’energia"
   }
  },
  {
@@ -1667,6 +2202,16 @@
    "badge": "TECNOLOGÍA",
    "rev": "Vídeos de tecnología del día",
    "news": "Noticias de tecnología"
+  },
+  "it": {
+   "more": "Leggi tutto →",
+   "rel": "Data",
+   "vid": "Video",
+   "older": "Altre notizie",
+   "playb": "▶ Guarda il video",
+   "badge": "TECNOLOGIA",
+   "rev": "I video di tecnologia del giorno",
+   "news": "Notizie di tecnologia"
   }
  },
  {
@@ -1693,6 +2238,16 @@
    "badge": "IA",
    "rev": "Vídeos de IA del día",
    "news": "Noticias de IA"
+  },
+  "it": {
+   "more": "Leggi tutto →",
+   "rel": "Data",
+   "vid": "Video",
+   "older": "Notizie precedenti",
+   "playb": "▶ Guarda il video",
+   "badge": "IA",
+   "rev": "I video sull’IA del giorno",
+   "news": "Notizie sull’IA"
   }
  },
  {
@@ -1717,6 +2272,15 @@
    "vid": "Vídeo",
    "older": "Noticias anteriores",
    "playb": "▶ Reproducir vídeo"
+  },
+  "it": {
+   "rev": "Il meglio della giornata",
+   "badge": "SPORT",
+   "more": "Leggi tutto →",
+   "rel": "Data",
+   "vid": "Video",
+   "older": "Notizie precedenti",
+   "playb": "▶ Guarda il video"
   }
  },
  {
@@ -1741,6 +2305,15 @@
    "devl": "Dirección:",
    "vid": "Tráiler",
    "older": "Tráilers anteriores"
+  },
+  "it": {
+   "rev": "I trailer del giorno",
+   "badge": "TRAILER",
+   "more": "Leggi tutto →",
+   "rel": "Uscita",
+   "devl": "Regia:",
+   "vid": "Trailer",
+   "older": "Trailer precedenti"
   }
  },
  {
@@ -1767,6 +2340,16 @@
    "rel": "Estreno",
    "vid": "Vídeo",
    "older": "Noticias anteriores"
+  },
+  "it": {
+   "playb": "▶ Guarda il video",
+   "rev": "I motori in video",
+   "news": "Notizie di motori",
+   "badge": "MOTORI",
+   "more": "Leggi tutto →",
+   "rel": "Anteprima",
+   "vid": "Video",
+   "older": "Notizie precedenti"
   }
  },
  {
@@ -1793,6 +2376,16 @@
    "rel": "Fecha",
    "vid": "Vídeo",
    "older": "Noticias anteriores"
+  },
+  "it": {
+   "playb": "▶ Guarda il video",
+   "rev": "La moda in video",
+   "news": "Notizie di moda",
+   "badge": "MODA",
+   "more": "Leggi tutto →",
+   "rel": "Data",
+   "vid": "Video",
+   "older": "Notizie precedenti"
   }
  },
  {
@@ -1809,6 +2402,11 @@
    "rev": "Los últimos videojuegos – análisis",
    "news": "Noticias de videojuegos",
    "older": "Análisis y noticias anteriores"
+  },
+  "it": {
+   "rev": "Gli ultimi videogiochi – recensioni",
+   "news": "Notizie di videogiochi",
+   "older": "Recensioni e notizie precedenti"
   }
  },
  {
@@ -1835,6 +2433,16 @@
    "vid": "Vídeo del sencillo",
    "older": "Discos anteriores",
    "single": "Sencillo"
+  },
+  "it": {
+   "playb": "▶ Guarda il video",
+   "rev": "Le recensioni di album del giorno",
+   "badge": "ALBUM",
+   "more": "Leggi la recensione →",
+   "rel": "Uscita",
+   "vid": "Video del singolo",
+   "older": "Album precedenti",
+   "single": "Singolo"
   }
  },
  {
@@ -1864,6 +2472,18 @@
    "dev": "Estudio",
    "vid": "Tráiler",
    "single": "Sencillo"
+  },
+  "it": {
+   "rev": "Le recensioni del giorno",
+   "news": "Notizie",
+   "older": "Recensioni precedenti",
+   "more": "Leggi la recensione →",
+   "badge": "RECENSIONE",
+   "pf": "Piattaforme",
+   "rel": "Uscita",
+   "dev": "Studio",
+   "vid": "Trailer",
+   "single": "Singolo"
   }
  },
  {
@@ -1893,6 +2513,18 @@
    "dev": "Estudio",
    "rel": "Lanzamiento",
    "note": "Resumen de análisis publicados – fuentes abajo."
+  },
+  "it": {
+   "box": "Il giudizio della critica",
+   "avg": "Media della critica",
+   "pro": "Pro",
+   "con": "Contro",
+   "fz": "Il verdetto della critica",
+   "scores": "Voti",
+   "pf": "Piattaforme",
+   "dev": "Studio",
+   "rel": "Uscita",
+   "note": "Sintesi delle recensioni pubblicate – fonti in basso."
   }
  },
  {
@@ -1907,6 +2539,10 @@
   "es": [
    "Resumen semanal",
    "Lo más importante de la semana en todos los géneros – cada sábado."
+  ],
+  "it": [
+   "La settimana in breve",
+   "Le notizie più importanti della settimana in tutti i generi – ogni sabato."
   ]
  },
  {
@@ -1921,6 +2557,10 @@
   "es": [
    "Lectura larga",
    "Entrevistas, perfiles y análisis a fondo de discos – cada domingo."
+  ],
+  "it": [
+   "Approfondimento",
+   "Interviste, ritratti e analisi approfondite di album – ogni domenica."
   ]
  },
  {
@@ -1935,6 +2575,10 @@
   "es": [
    "Desde el estudio",
    "El compositor Nedy John Cross habla de música de cine: cómo funciona una banda sonora."
+  ],
+  "it": [
+   "Dallo studio",
+   "Il compositore Nedy John Cross parla di musica da film: come funziona una colonna sonora."
   ]
  },
  {
@@ -1949,6 +2593,10 @@
   "es": [
    "Aquellos escenarios",
    "Recuerdos de giras de los años 90 y encuentros con los grandes del rock."
+  ],
+  "it": [
+   "Di nuovo sul palco",
+   "Ricordi dei tour degli anni Novanta e incontri con i grandi del rock."
   ]
  },
  {
@@ -1963,6 +2611,10 @@
   "es": [
    "Balkan Sound",
    "Música de Bulgaria y el sudeste de Europa – del folk al metal."
+  ],
+  "it": [
+   "Balkan Sound",
+   "Musica dalla Bulgaria e dall’Europa sudorientale – dal folk al metal."
   ]
  },
  {
@@ -2038,6 +2690,41 @@
    "allg": "Todos los géneros",
    "gempty": "Las primeras noticias de la categoría “{g}” aparecerán aquí pronto.",
    "glatest": "Últimas noticias de música"
+  },
+  "it": {
+   "plan": "Programma settimanale",
+   "today": "oggi",
+   "days": [
+    "lun",
+    "mar",
+    "mer",
+    "gio",
+    "ven",
+    "sab",
+    "dom"
+   ],
+   "chan": "I canali",
+   "chn": "{n} notizie in 7 giorni",
+   "rub": "Solo su TWN",
+   "newest": "Le ultime:",
+   "songs": "3 brani della settimana",
+   "week": "Settimana",
+   "tours": "Radar dei tour",
+   "rel": "Calendario delle uscite",
+   "relnote": "Sulla base degli annunci di artisti ed etichette al {d}; soggetto a modifiche.",
+   "live": "live",
+   "reissue": "ristampa",
+   "single": "singolo",
+   "ep": "EP",
+   "box": "cofanetto",
+   "src": "Fonti",
+   "open": "Vai al canale →",
+   "review": "Leggi la recensione →",
+   "genres": "Generi",
+   "mgsub": "Notizie · Classifiche · Tour · Uscite",
+   "allg": "Tutti i generi",
+   "gempty": "Le prime notizie della categoria “{g}” appariranno presto qui.",
+   "glatest": "Ultime notizie di musica"
   }
  },
  {
@@ -2073,6 +2760,21 @@
    "play": "▶ Reproducir vídeo",
    "read": "Seguir leyendo →",
    "star_cr": "Fotos: Wikimedia Commons, recortadas; el collage de la cabecera está compuesto con estas fotos y coloreado (CC BY-SA 4.0)."
+  },
+  "it": {
+   "tag": "Chalga · Turbo-folk · Manele · Laïko · Arabesk · Tallava · Sevdah",
+   "vids": "I video del giorno",
+   "boul": "Gossip",
+   "stars": "Le star",
+   "lands": "Sette Paesi, un solo sound",
+   "news": "Notizie di pop-folk",
+   "more": "Altre notizie",
+   "nolands": "Le notizie da {x} appariranno presto qui.",
+   "mv": "Videoclip",
+   "live": "Dal vivo",
+   "play": "▶ Guarda il video",
+   "read": "Leggi tutto →",
+   "star_cr": "Foto: Wikimedia Commons, ritagliate; il collage dell’intestazione è composto da queste foto e ricolorato (CC BY-SA 4.0)."
   }
  },
  {
@@ -2138,6 +2840,36 @@
    "aet": "pró.",
    "tbd": "Sorteo pendiente",
    "nomatch": "Aún no hay partidos."
+  },
+  "it": {
+   "season": "Stagione",
+   "table": "Classifica",
+   "next": "Prossima giornata",
+   "done": "Giornate disputate",
+   "md": "{n}ª giornata",
+   "cups": "Coppe",
+   "pos": "#",
+   "team": "Squadra",
+   "p": "G",
+   "w": "V",
+   "d": "N",
+   "l": "P",
+   "g": "Gol",
+   "gd": "DR",
+   "pts": "Pt",
+   "leagues": "Campionati",
+   "leader": "Capolista",
+   "lead_pts": "pt",
+   "ko": "Orari: ora dell’Europa centrale",
+   "noft": "–",
+   "pp": "rinviata",
+   "src": "Dati",
+   "open": "Vai al campionato →",
+   "upcoming": "Prossime partite",
+   "pens": "dcr",
+   "aet": "dts",
+   "tbd": "Sorteggio da effettuare",
+   "nomatch": "Ancora nessuna partita."
   }
  },
  {
@@ -2157,6 +2889,13 @@
    "asof": "Datos a",
    "agg": "Global",
    "adv": "pasa"
+  },
+  "it": {
+   "zones": "Posti 1–8: direttamente agli ottavi di finale · 9–24: spareggi · 25–36: eliminate",
+   "ko": "Turni preliminari ed eliminazione diretta",
+   "asof": "Dati al",
+   "agg": "Andata e ritorno",
+   "adv": "passa"
   }
  },
  {
@@ -2166,7 +2905,8 @@
    3
   ],
   "tr": "Almanya merkezli, 20 yılı aşkın süredir faaliyette olan bir arkadaşlık sitesi. İşletmecisine göre tamamen ücretsiz, reklamla finanse ediliyor; arama ve eş önerileri sunuyor.",
-  "es": "Web alemana de solteros con más de 20 años de trayectoria. Según el operador, totalmente gratuita y financiada con publicidad; con buscador y sugerencias de pareja."
+  "es": "Web alemana de solteros con más de 20 años de trayectoria. Según el operador, totalmente gratuita y financiada con publicidad; con buscador y sugerencias de pareja.",
+  "it": "Sito tedesco per single attivo da oltre 20 anni. Secondo il gestore completamente gratuito e finanziato dalla pubblicità; con ricerca e proposte di partner."
  },
  {
   "path": [
@@ -2175,7 +2915,8 @@
    3
   ],
   "tr": "Siteye göre 500.000'den fazla bekârın bulunduğu ücretsiz eş arama platformu. Abonelik olmadan sohbet veya mesajla iletişim; isteğe bağlı reklamsız Plus üyelik.",
-  "es": "Búsqueda de pareja gratuita con más de 500.000 solteros, según la web. Contacto por chat o correo sin suscripción; membresía Plus opcional sin anuncios."
+  "es": "Búsqueda de pareja gratuita con más de 500.000 solteros, según la web. Contacto por chat o correo sin suscripción; membresía Plus opcional sin anuncios.",
+  "it": "Ricerca del partner gratuita con oltre 500.000 single, secondo il sito. Contatto via chat o messaggio senza abbonamento; iscrizione Plus facoltativa senza pubblicità."
  },
  {
   "path": [
@@ -2184,7 +2925,8 @@
    3
   ],
   "tr": "50 yaş üstü için topluluk: eş arama, arkadaşlık, seyahat arkadaşı ve yüz yüze buluşmalar. Siteye göre Almanya'da 300.000'den fazla üye.",
-  "es": "Comunidad para mayores de 50: búsqueda de pareja, amistades, compañeros de viaje y encuentros presenciales. Más de 300.000 miembros en Alemania, según la web."
+  "es": "Comunidad para mayores de 50: búsqueda de pareja, amistades, compañeros de viaje y encuentros presenciales. Más de 300.000 miembros en Alemania, según la web.",
+  "it": "Community per gli over 50: ricerca del partner, amicizie, compagni di viaggio e incontri dal vivo. Oltre 300.000 iscritti in Germania, secondo il sito."
  },
  {
   "path": [
@@ -2193,7 +2935,8 @@
    3
   ],
   "tr": "Profil, arama ve sohbet özellikli Bulgar tanışma portalı. Similarweb'e göre Bulgaristan'ın en çok ziyaret edilen flört sitesi.",
-  "es": "Portal búlgaro de citas con perfiles, buscador y chat. Según Similarweb, la web de citas más visitada de Bulgaria."
+  "es": "Portal búlgaro de citas con perfiles, buscador y chat. Según Similarweb, la web de citas más visitada de Bulgaria.",
+  "it": "Portale bulgaro di incontri con profili, ricerca e chat. Secondo Similarweb il sito di incontri più visitato in Bulgaria."
  },
  {
   "path": [
@@ -2202,7 +2945,8 @@
    3
   ],
   "tr": "Ciddi ilişkiler için Bulgar platformu. Siteye göre yaklaşık 175.000 kullanıcı; kayıt ve profil tanıtımı dışındaki tüm özellikler ücretsiz.",
-  "es": "Plataforma búlgara para relaciones serias. Unos 175.000 usuarios, según la web; el registro y todas las funciones salvo la promoción del perfil son gratuitos."
+  "es": "Plataforma búlgara para relaciones serias. Unos 175.000 usuarios, según la web; el registro y todas las funciones salvo la promoción del perfil son gratuitos.",
+  "it": "Piattaforma bulgara per relazioni serie. Circa 175.000 utenti secondo il sito; registrazione e tutte le funzioni, tranne la promozione del profilo, sono gratuite."
  },
  {
   "path": [
@@ -2211,7 +2955,8 @@
    3
   ],
   "tr": "2006'da Londra'da kurulan, bugün Bumble Inc. bünyesindeki uluslararası flört ağı. Web sitesi ve uygulama olarak kullanılabiliyor, Bulgaristan'da da yaygın.",
-  "es": "Red internacional de citas fundada en Londres en 2006, hoy parte de Bumble Inc. Disponible como web y aplicación, también muy usada en Bulgaria."
+  "es": "Red internacional de citas fundada en Londres en 2006, hoy parte de Bumble Inc. Disponible como web y aplicación, también muy usada en Bulgaria.",
+  "it": "Rete internazionale di incontri fondata a Londra nel 2006, oggi parte di Bumble Inc. Disponibile come sito web e app, molto diffusa anche in Bulgaria."
  },
  {
   "path": [
@@ -2234,6 +2979,15 @@
    "rank": "Puesto",
    "note": "Selección: las tres webs de citas más visitadas de cada país según Similarweb (categoría “Dating and Relationships”, septiembre de 2026), sin plataformas para adultos. Sin publicidad, sin recomendación, sin comisión. El uso exclusivo mediante app no se refleja en la clasificación.",
    "src": "Fuente"
+  },
+  "it": {
+   "h": "Siti di incontri",
+   "de": "Germania",
+   "bg": "Bulgaria",
+   "go": "Visita il sito ↗",
+   "rank": "Posizione",
+   "note": "Selezione: i tre siti di incontri più visitati in ciascun Paese secondo Similarweb (categoria “Dating and Relationships”, settembre 2026), escluse le piattaforme per adulti. Nessuna pubblicità, nessuna raccomandazione, nessuna commissione. L’utilizzo esclusivamente tramite app non è considerato nella classifica.",
+   "src": "Fonte"
   }
  },
  {
@@ -2251,6 +3005,12 @@
    "asof": "A fecha de",
    "src": "Fuentes",
    "more": "Fuente ↗"
+  },
+  "it": {
+   "h": "Di tendenza ora",
+   "asof": "Aggiornato al",
+   "src": "Fonti",
+   "more": "Fonte ↗"
   }
  },
  {
@@ -2270,6 +3030,13 @@
    "space": "Espacio",
    "all": "Todo",
    "src": "Vídeo"
+  },
+  "it": {
+   "rec": "Record",
+   "nat": "Natura e animali",
+   "space": "Spazio",
+   "all": "Tutto",
+   "src": "Video"
   }
  },
  {
@@ -2315,6 +3082,26 @@
    "season": "Temporada",
    "src": "Datos",
    "tz": "hora alemana"
+  },
+  "it": {
+   "drv": "Classifica piloti",
+   "tm": "Classifica costruttori",
+   "cal": "Calendario",
+   "nxt": "Prossima gara",
+   "pos": "#",
+   "name": "Pilota",
+   "team": "Scuderia",
+   "wins": "Vittorie",
+   "pts": "Pt",
+   "rd": "Gara",
+   "gp": "Gran Premio",
+   "date": "Data",
+   "win": "Vincitore",
+   "up": "in programma",
+   "after": "dopo {n} gare",
+   "season": "Stagione",
+   "src": "Dati",
+   "tz": "ora tedesca"
   }
  },
  {
@@ -2348,6 +3135,20 @@
    "asof": "A fecha de",
    "top": "Top 20",
    "src": "Datos"
+  },
+  "it": {
+   "atp": "Classifica ATP (maschile)",
+   "wta": "Classifica WTA (femminile)",
+   "ev": "Tornei in corso",
+   "ours": "Tedeschi e bulgari in classifica",
+   "r": "#",
+   "name": "Giocatore/giocatrice",
+   "cc": "Paese",
+   "pts": "Punti",
+   "tr": "±",
+   "asof": "Aggiornato al",
+   "top": "Top 20",
+   "src": "Dati"
   }
  },
  {
@@ -2373,6 +3174,16 @@
    "ns": "",
    "pen": "pen.",
    "og": "p.p."
+  },
+  "it": {
+   "h": "In diretta",
+   "today": "Le partite di oggi",
+   "src": "Dati in diretta: API-Football",
+   "ht": "Intervallo",
+   "ft": "Finale",
+   "ns": "",
+   "pen": "rig.",
+   "og": "aut."
   }
  },
  {
@@ -2394,6 +3205,14 @@
    "ch": "Canal",
    "src": "Fuentes",
    "note": "Sin garantía – horarios y canales según la programación anunciada por las cadenas; sujeto a cambios."
+  },
+  "it": {
+   "h": "Il calcio in tv oggi",
+   "h2": "Il calcio in tv – risultati",
+   "lnk": "⚽ Il calcio in tv oggi",
+   "ch": "Canale",
+   "src": "Fonti",
+   "note": "Senza garanzia – orari e canali secondo quanto annunciato dalle emittenti; soggetti a modifiche."
   }
  },
  {
@@ -2449,6 +3268,31 @@
     "varna",
     "burgas"
    ]
+  },
+  "it": {
+   "wx": "Meteo",
+   "fx": "Cambi dell’euro",
+   "cr": "Meteo: MET Norway (CC BY 4.0) · Cambi: tassi di riferimento dell’euro della BCE del",
+   "cities": {
+    "sofia": "Sofia",
+    "plovdiv": "Plovdiv",
+    "varna": "Varna",
+    "burgas": "Burgas",
+    "berlin": "Berlino",
+    "muenchen": "Monaco di Baviera",
+    "frankfurt": "Francoforte",
+    "hamburg": "Amburgo"
+   },
+   "order": [
+    "berlin",
+    "muenchen",
+    "frankfurt",
+    "hamburg",
+    "sofia",
+    "plovdiv",
+    "varna",
+    "burgas"
+   ]
   }
  },
  {
@@ -2456,7 +3300,8 @@
    "MRU"
   ],
   "tr": "En çok okunanlar",
-  "es": "Lo más leído"
+  "es": "Lo más leído",
+  "it": "I più letti"
  },
  {
   "path": [
@@ -2507,6 +3352,29 @@
    "allg": "Todos los grupos: clasificaciones, resultados y calendario",
    "grs": "Resultados",
    "fix": "Próximos partidos"
+  },
+  "it": {
+   "name": "Nations League",
+   "grp": "Lega {L} · Gruppo {n}",
+   "ger": "Germania: tutte le partite",
+   "news": "Notizie sulla nazionale tedesca",
+   "hl": "Nations League: gli highlights",
+   "groups": "Gironi",
+   "open": "Vai al girone →",
+   "comp": {
+    "nl": "Nations League",
+    "fr": "Amichevole",
+    "q": "Qualificazioni"
+   },
+   "h": "in casa",
+   "a": "in trasferta",
+   "venue": "Stadio",
+   "fmt": "Formula",
+   "res": "Ultimi risultati – tutti i gironi",
+   "up": "Prossime partite – tutti i gironi",
+   "allg": "Tutti i gironi: classifiche, risultati e calendario",
+   "grs": "Risultati",
+   "fix": "Prossime partite"
   }
  },
  {
@@ -2526,6 +3394,13 @@
    "champ": "Campeón",
    "res": "Últimos combates estelares",
    "open": "Ir a la promotora →"
+  },
+  "it": {
+   "orgs": "Promotion",
+   "champs": "Campioni",
+   "champ": "Campione",
+   "res": "Ultimi main event",
+   "open": "Vai alla promotion →"
   }
  },
  {
@@ -2561,6 +3436,21 @@
    "next": "Próximo combate",
    "side": "Organismos",
    "src": "Fuentes"
+  },
+  "it": {
+   "orgs": "Sigle mondiali",
+   "champs": "Campioni del mondo",
+   "div": "Categoria",
+   "champ": "Campione",
+   "up": "Prossimi incontri",
+   "res": "Ultimi incontri per il titolo",
+   "news": "Notizie",
+   "asof": "Aggiornato al",
+   "vac": "vacante",
+   "open": "Vai alla sigla →",
+   "next": "Prossimo incontro",
+   "side": "Sigle",
+   "src": "Fonti"
   }
  },
  {
@@ -2568,7 +3458,8 @@
    "SP_ALL"
   ],
   "tr": "Genel bakış",
-  "es": "Resumen"
+  "es": "Resumen",
+  "it": "Panoramica"
  },
  {
   "path": [
@@ -2611,6 +3502,25 @@
     "extremsport": "Deportes extremos en vídeo"
    },
    "all": "Todo →"
+  },
+  "it": {
+   "subs": "Sezioni",
+   "open": "Apri →",
+   "n": "notizie oggi",
+   "news": {
+    "fussball": "Notizie di calcio",
+    "championsleague": "Notizie di Champions League",
+    "europaleague": "Notizie di Europa League",
+    "conferenceleague": "Notizie di Conference League",
+    "laenderspiele": "Notizie sulle nazionali",
+    "boxen": "Notizie di pugilato",
+    "mma": "Notizie di MMA",
+    "handball": "Notizie di pallamano",
+    "formel1": "Notizie di Formula 1",
+    "tennis": "Notizie di tennis",
+    "extremsport": "Sport estremi in video"
+   },
+   "all": "Tutto →"
   }
  },
  {
@@ -2618,35 +3528,40 @@
    "GTRL"
   ],
   "tr": "İnceleme fragmanları",
-  "es": "Tráilers de los análisis"
+  "es": "Tráilers de los análisis",
+  "it": "I trailer delle recensioni"
  },
  {
   "path": [
    "ALL_L"
   ],
   "tr": "Tümü",
-  "es": "Todo"
+  "es": "Todo",
+  "it": "Tutto"
  },
  {
   "path": [
    "GPREF"
   ],
   "tr": "TWN'yi Google'da tercih edilen kaynak olarak ekleyin",
-  "es": "Añade TWN como fuente preferida en Google"
+  "es": "Añade TWN como fuente preferida en Google",
+  "it": "Aggiungi TWN come fonte preferita su Google"
  },
  {
   "path": [
    "WXT"
   ],
   "tr": "Hava durumu verileri: MET Norway (CC BY 4.0)",
-  "es": "Datos meteorológicos: MET Norway (CC BY 4.0)"
+  "es": "Datos meteorológicos: MET Norway (CC BY 4.0)",
+  "it": "Dati meteo: MET Norway (CC BY 4.0)"
  },
  {
   "path": [
    "SEARCH_SLUG"
   ],
   "tr": "arama",
-  "es": "buscar"
+  "es": "buscar",
+  "it": "cerca"
  },
  {
   "path": [
@@ -2681,6 +3596,21 @@
    "none": "No se han encontrado artículos. Prueba con otra palabra o un periodo más amplio.",
    "loading": "Buscando …",
    "more": "Más resultados"
+  },
+  "it": {
+   "title": "Cerca",
+   "ph": "Nome, Paese, evento o data …",
+   "btn": "Cerca",
+   "all": "Tutte le sezioni",
+   "any": "Qualsiasi data",
+   "d1": "Oggi",
+   "d7": "Ultimi 7 giorni",
+   "d30": "Ultimi 30 giorni",
+   "hint": "Cerca nomi, Paesi, eventi o una data (ad es. 2 ottobre o 02.10.2026). Tutte le parole devono comparire nell’articolo.",
+   "found": "{n} risultati",
+   "none": "Nessun articolo trovato. Prova con un’altra parola o un periodo più ampio.",
+   "loading": "Ricerca in corso …",
+   "more": "Altri risultati"
   }
  },
  {
@@ -2689,7 +3619,8 @@
    "wow"
   ],
   "tr": "WOW – yalnızca videolar: dünya rekorları, muhteşem doğa ve vahşi yaşam, uzay – Guinness World Records, BBC Earth, National Geographic, NASA ve ESA gibi resmi kanallardan.",
-  "es": "WOW – solo vídeos: récords mundiales, naturaleza y fauna espectaculares, espacio – de canales oficiales como Guinness World Records, BBC Earth, National Geographic, NASA y ESA."
+  "es": "WOW – solo vídeos: récords mundiales, naturaleza y fauna espectaculares, espacio – de canales oficiales como Guinness World Records, BBC Earth, National Geographic, NASA y ESA.",
+  "it": "WOW – solo video: record mondiali, natura e fauna spettacolari, spazio – dai canali ufficiali come Guinness World Records, BBC Earth, National Geographic, NASA ed ESA."
  },
  {
   "path": [
@@ -2697,7 +3628,8 @@
    "klima"
   ],
   "tr": "Dünyamızın iklimi: ısınma, aşırı hava olayları ve iklim değişikliğinin tetiklediği afetler – her gün, videoyla.",
-  "es": "El clima de nuestro planeta: calentamiento, fenómenos extremos y catástrofes ligadas al cambio climático – a diario, con vídeo."
+  "es": "El clima de nuestro planeta: calentamiento, fenómenos extremos y catástrofes ligadas al cambio climático – a diario, con vídeo.",
+  "it": "Il clima del nostro pianeta: riscaldamento, eventi meteorologici estremi e catastrofi legate al clima – ogni giorno, con video."
  },
  {
   "path": [
@@ -2705,20 +3637,23 @@
    "leben"
   ],
   "tr": "Hayatınızı etkileyenler: para, konut, iş, seyahat, dijital güvenlik ve iklim – anlaşılır biçimde. Üstelik her gün videoda dünyanın en güzel doğası.",
-  "es": "Lo que mueve tu vida: dinero, vivienda, trabajo, viajes, seguridad digital y clima – explicado con claridad. Y cada día, la naturaleza más bella del mundo en vídeo."
+  "es": "Lo que mueve tu vida: dinero, vivienda, trabajo, viajes, seguridad digital y clima – explicado con claridad. Y cada día, la naturaleza más bella del mundo en vídeo.",
+  "it": "Ciò che conta nella tua vita: soldi, casa, lavoro, viaggi, sicurezza digitale e clima – spiegati con chiarezza. E ogni giorno la natura più bella del mondo in video."
  },
  {
   "path": [
    "NOADV"
   ],
   "tr": "Bu içerik yalnızca bilgilendirme amaçlıdır; hukuki, vergisel, mali veya tıbbi tavsiye değildir. Veriler belirtilen tarih itibarıyladır.",
-  "es": "Este artículo tiene fines exclusivamente informativos y no constituye asesoramiento jurídico, fiscal, financiero ni médico. Datos a la fecha indicada."
+  "es": "Este artículo tiene fines exclusivamente informativos y no constituye asesoramiento jurídico, fiscal, financiero ni médico. Datos a la fecha indicada.",
+  "it": "Questo articolo ha scopo puramente informativo e non costituisce consulenza legale, fiscale, finanziaria o medica. Dati aggiornati alla data indicata."
  },
  {
   "path": [
    "STOP"
   ],
   "tr": "{'ve', 'bir', 'bu', 'da', 'de', 'ile', 'için', 'olarak', 'gibi', 'daha', 'çok', 'en', 'ama', 'ancak', 'veya', 'ya', 'şu', 'o', 'ki', 'mi', 'ne', 'her', 'kadar', 'sonra', 'önce', 'göre', 'üzerine', 'olan', 'olduğu', 'oldu', 'ise', 'değil', 'var', 'yok', 'diye', 'hem', 'ilk', 'yeni', 'tüm', 'bütün', 'bazı', 'karşı', 'arasında', 'tarafından'}",
-  "es": "{'el', 'la', 'los', 'las', 'un', 'una', 'unos', 'unas', 'de', 'del', 'al', 'y', 'o', 'en', 'a', 'por', 'para', 'con', 'sin', 'que', 'se', 'su', 'sus', 'es', 'son', 'fue', 'ha', 'han', 'como', 'más', 'pero', 'lo', 'le', 'les', 'sobre', 'tras', 'entre', 'desde', 'hasta', 'este', 'esta', 'estos', 'estas', 'ese', 'esa', 'no', 'ya', 'muy', 'ser', 'también'}"
+  "es": "{'el', 'la', 'los', 'las', 'un', 'una', 'unos', 'unas', 'de', 'del', 'al', 'y', 'o', 'en', 'a', 'por', 'para', 'con', 'sin', 'que', 'se', 'su', 'sus', 'es', 'son', 'fue', 'ha', 'han', 'como', 'más', 'pero', 'lo', 'le', 'les', 'sobre', 'tras', 'entre', 'desde', 'hasta', 'este', 'esta', 'estos', 'estas', 'ese', 'esa', 'no', 'ya', 'muy', 'ser', 'también'}",
+  "it": "{'il', 'lo', 'la', 'i', 'gli', 'le', 'un', 'uno', 'una', 'di', 'del', 'della', 'dei', 'delle', 'degli', 'a', 'al', 'alla', 'ai', 'da', 'dal', 'dalla', 'in', 'nel', 'nella', 'nei', 'su', 'sul', 'sulla', 'con', 'per', 'tra', 'fra', 'e', 'ed', 'o', 'che', 'non', 'si', 'è', 'sono', 'ha', 'hanno', 'come', 'più', 'ma', 'anche', 'dopo', 'questo', 'questa', 'questi', 'queste', 'suo', 'sua', 'suoi', 'essere', 'già', 'molto'}"
  }
 ]

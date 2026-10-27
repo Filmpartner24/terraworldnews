@@ -392,12 +392,13 @@ def nice_date(date, l):
     if l == 'en': return f'{WEEKDAYS[l][dt.weekday()]}, {dt.day} {MONTHS[l][dt.month - 1]} {dt.year}'
     if l == 'tr': return f'{dt.day} {MONTHS[l][dt.month - 1]} {dt.year}, {WEEKDAYS[l][dt.weekday()]}'
     if l == 'es': return f'{WEEKDAYS[l][dt.weekday()]}, {dt.day} de {MONTHS[l][dt.month - 1]} de {dt.year}'
+    if l == 'it': return f'{WEEKDAYS[l][dt.weekday()]} {dt.day} {MONTHS[l][dt.month - 1]} {dt.year}'
     return f'{WEEKDAYS[l][dt.weekday()]}, {dt.day}. {MONTHS[l][dt.month - 1]} {dt.year}'
 
 def short_date(date, l):
     dt = datetime.date.fromisoformat(date)
     if l == 'es': return f'{dt.day} de {MONTHS[l][dt.month - 1]} de {dt.year}'
-    return f'{dt.day} {MONTHS[l][dt.month - 1]} {dt.year}' if l in ('bg', 'en', 'tr') else f'{dt.day}. {MONTHS[l][dt.month - 1]} {dt.year}'
+    return f'{dt.day} {MONTHS[l][dt.month - 1]} {dt.year}' if l in ('bg', 'en', 'tr', 'it') else f'{dt.day}. {MONTHS[l][dt.month - 1]} {dt.year}'
 
 def also_secs(it):  # zusätzliche Rubriken eines Artikels: Feld "also" oder Label Deutschland–Bulgarien (Nedys Vorgabe 06.10.2026)
     a = list(it.get('also') or [])
@@ -550,9 +551,9 @@ def credit(im, l, link=False):
         t = im['cr'].get(l) or im['cr'].get('de', '')
         return (e(t) + (f' · <a href="{e(im["page"])}" rel="noopener nofollow" target="_blank">YouTube</a>' if link and im.get('page') else '')) if link else e(t)
     if im.get('own'):  # eigene Grafik der Redaktion (Rubrik Business)
-        return e({'bg': 'Графика: TERRA WORLD NEWS (собствена графика по данните от източниците)', 'de': 'Grafik: TERRA WORLD NEWS (eigene Darstellung nach den genannten Quellen)', 'tr': 'Grafik: TERRA WORLD NEWS (belirtilen kaynaklara dayalı kendi grafiğimiz)', 'es': 'Gráfico: TERRA WORLD NEWS (elaboración propia a partir de las fuentes citadas)'}.get(l, 'Graphic: TERRA WORLD NEWS (own graphic based on the sources listed)'))
+        return e({'bg': 'Графика: TERRA WORLD NEWS (собствена графика по данните от източниците)', 'de': 'Grafik: TERRA WORLD NEWS (eigene Darstellung nach den genannten Quellen)', 'tr': 'Grafik: TERRA WORLD NEWS (belirtilen kaynaklara dayalı kendi grafiğimiz)', 'es': 'Gráfico: TERRA WORLD NEWS (elaboración propia a partir de las fuentes citadas)', 'it': 'Grafica: TERRA WORLD NEWS (elaborazione propria sulla base delle fonti citate)'}.get(l, 'Graphic: TERRA WORLD NEWS (own graphic based on the sources listed)'))
     who = (im['art'] + ' / ') if im.get('art') else ''
-    lab = {'bg': 'Снимка', 'de': 'Foto', 'tr': 'Fotoğraf', 'es': 'Foto'}.get(l, 'Photo')
+    lab = {'bg': 'Снимка', 'de': 'Foto', 'tr': 'Fotoğraf', 'es': 'Foto', 'it': 'Foto'}.get(l, 'Photo')
     txt = f'{lab}: {who}Wikimedia Commons, {im["lic"]}'
     if not link: return e(txt)
     lu = lic_url(im.get('lic'))
@@ -684,7 +685,7 @@ def LU(x, l):  # Einheit in der Seitensprache (Daten oft mit deutscher Einheit)
 def fnum(v, dec, l):
     if v is None: return '–'
     t = f'{abs(v):,.{dec}f}'
-    if l in ('de', 'tr', 'es'): t = t.replace(',', 'X').replace('.', ',').replace('X', '.')
+    if l in ('de', 'tr', 'es', 'it'): t = t.replace(',', 'X').replace('.', ',').replace('X', '.')
     elif l == 'bg': t = t.replace(',', ' ').replace('.', ',')
     return ('−' if v < 0 else '') + t
 def fchg(v, dec, l):
@@ -1875,7 +1876,7 @@ ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "/#org", "name": "TERRA W
        "parentOrganization": {"@type": "Organization", "name": "FILMPARTNER 24 EOOD", "legalName": "„ФИЛМПАРТНЕР 24“ ЕООД", "url": "https://filmpartner24.com/", "vatID": "BG208477411"},
        "founder": {"@type": "Person", "name": "Nedy John Cross", "url": "https://nedyjcross.com/"},
        "publishingPrinciples": SITE + "/redaktsionni-printsipi.html", "correctionsPolicy": SITE + "/redaktsionni-printsipi.html#korekcii",
-       "email": "media@filmpartner24.com", "areaServed": "Worldwide", "knowsLanguage": ["bg", "de", "en", "tr", "es"]}
+       "email": "media@filmpartner24.com", "areaServed": "Worldwide", "knowsLanguage": ["bg", "de", "en", "tr", "es", "it"]}
 
 TICKER = {}
 GTRL = {'bg': 'Трейлъри към ревютата', 'de': 'Trailer zu den Reviews', 'en': 'Review trailers'}
@@ -2412,8 +2413,17 @@ def build():
     open(os.path.join(OUT, 'robots.txt'), 'w').write('User-agent: *\nAllow: /\nDisallow: /_arch/\nDisallow: /search/\n' + ''.join(f'Disallow: {pre(x)}search/\n' for x in act if x != 'bg') + f'\nSitemap: {SITE}/sitemap.xml\nSitemap: {SITE}/news-sitemap.xml\n')
     n = sum(1 for _ in glob.glob(OUT + '/**/*', recursive=True) if os.path.isfile(_))
     print(f'built {len(urls)} pages, {n} files, languages: {act}')
+    return n
 
 lang_extra.apply(globals())   # Türkisch + Spanisch: Tabellen ergänzen (seit 27.10.2026, Nedy)
 
+FILE_LIMIT = 19500   # Cloudflare Pages: höchstens 20.000 Dateien je Veröffentlichung (Reserve 500)
+
 if __name__ == '__main__':
-    build()
+    n = build()
+    # Schutz (27.10.2026): Zusatzsprachen (tr/es/it) dürfen die Seite nie über die Dateigrenze bringen –
+    # erst kürzer statisch (ältere Artikel ins Archiv), notfalls ohne Zusatzsprachen bauen.
+    if n > FILE_LIMIT:
+        print(f'WARNUNG: {n} Dateien > {FILE_LIMIT} – Zusatzsprachen nur 1 Tag statisch'); lang_extra.STATIC_OVERRIDE = 1; n = build()
+    if n > FILE_LIMIT:
+        print(f'WARNUNG: {n} Dateien > {FILE_LIMIT} – Zusatzsprachen diesmal ausgelassen'); lang_extra.PUBLISH = False; n = build()

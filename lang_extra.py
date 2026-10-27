@@ -9,7 +9,7 @@
 import ast, copy, glob, hashlib, json, os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-EXTRA = ('tr', 'es')
+EXTRA = ('tr', 'es', 'it')   # Italienisch seit 27.10.2026 (zuerst nur übersetzt, Veröffentlichung über i18n/config.json → publish_langs)
 
 
 def _conv(new, ref):
@@ -97,6 +97,8 @@ def src_hash(it):
 
 def static_days(default):
     """Wie viele Tage tr/es-Artikel als Einzeldateien vorliegen (ältere: Archiv-Bündel, wie bei bg/de/en)."""
+    if STATIC_OVERRIDE is not None:
+        return STATIC_OVERRIDE
     try:
         return int(json.load(open(os.path.join(HERE, 'i18n', 'config.json'), encoding='utf-8')).get('static_days', default))
     except (FileNotFoundError, ValueError):
@@ -151,11 +153,25 @@ def _publish():
 PUBLISH = _publish()   # false = tr/es werden weiter übersetzt, aber nicht auf der Seite gebaut
 
 
+def _publish_langs():
+    try:
+        v = json.load(open(os.path.join(HERE, 'i18n', 'config.json'), encoding='utf-8')).get('publish_langs')
+    except (FileNotFoundError, ValueError):
+        v = None
+    return set(v) if v is not None else set(EXTRA)
+
+
+PUBLISH_LANGS = _publish_langs()   # welche Zusatzsprachen auf der Seite erscheinen (übersetzt werden alle aus config "langs")
+STATIC_OVERRIDE = None   # vom Dateigrenzen-Schutz in build.py gesetzt
+
+
 def merge(it, date):
     if not PUBLISH or not isinstance(it.get('de'), dict):
         return
     h = None
     for l in EXTRA:
+        if l not in PUBLISH_LANGS:
+            continue
         tr = _load(l, date).get(it['id'])
         if not tr or tr.get('flag'):
             continue   # keine oder markierte (nicht freigegebene) Übersetzung
