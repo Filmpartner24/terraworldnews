@@ -141,6 +141,28 @@ HEDGE_X = {   # Wörter, an denen eine Einschränkung/Zuordnung in der Übersetz
 }
 
 
+KONJ = re.compile(r'\b(sei|seien|habe|gebe|werde|müsse|solle|könne|dürfe|wolle|wisse|bestehe|liege|beruhe|komme|gehe|stehe|fehle|brauche|bleibe|handle|zeige|gelte|trage|sehe|halte|lasse|mache|bringe|finde|plane|arbeite|biete|erwarte|rechne|bedeute|treffe|führe|wäre|hätte|würde)\b')
+
+
+def konj_sentences(L):
+    """Sätze mit Konjunktiv (indirekte Rede) – müssen in der Übersetzung zugeordnet bleiben."""
+    out = []
+    for p in ([L.get('t', ''), L.get('d', '')] + (L.get('body') if isinstance(L.get('body'), list) else [])):
+        for snt in re.split(r'(?<=[.!?])\s+', p or ''):
+            if KONJ.search(snt) and '„' not in snt[:3]:
+                out.append(snt.strip())
+    return out[:12]
+
+
+def german_leftovers(it, out):
+    """Längere Wörter, die wörtlich aus dem Deutschen übernommen wurden, aber nicht in der englischen Fassung stehen
+    (Namen stehen auch im Englischen) – Hinweis auf vergessene Übersetzung."""
+    de = flat({k: v for k, v in it.get('de', {}).items() if isinstance(v, (str, list))})
+    en = flat({k: v for k, v in (it.get('en') or {}).items() if isinstance(v, (str, list))})
+    words = set(re.findall(r'[A-Za-zÄÖÜäöüß]{7,}', flat(out.get('L') or {})))
+    return sorted(w for w in words if w in de and w not in en and re.search(r'[a-zäöüß]', w))[:6]
+
+
 def check(src, out, lang=None):
     """Fehlerliste (leer = in Ordnung)."""
     errs = []
@@ -250,7 +272,14 @@ def translate(it, langs):
         rev_issues = []
         if out.get('L') and not any(x.startswith('Schlüssel') for x in errs):   # Zweitprüfung durch einen „Korrektor“
             try:
-                rev, u = call(REVIEW.format(lang=LANG_NAME[l]), 'German original:\n' + json.dumps(src, ensure_ascii=False) +
+                hints = ''
+                ks = konj_sentences(src['L'])
+                if ks:
+                    hints += '\n\nThese German sentences are INDIRECT SPEECH (Konjunktiv) – in the draft each must keep an explicit attribution or a conditional/reporting marker; fix every one that reads like a plain fact:\n- ' + '\n- '.join(ks)
+                lo = german_leftovers(it, out)
+                if lo:
+                    hints += '\n\nThese German words appear untranslated in the draft – translate them unless they are proper names: ' + ', '.join(lo)
+                rev, u = call(REVIEW.format(lang=LANG_NAME[l]), 'German original:\n' + json.dumps(src, ensure_ascii=False) + hints +
                               f'\n\n{LANG_NAME[l]} draft:\n' + json.dumps({k: out[k] for k in ('L', 'x') if k in out}, ensure_ascii=False), 'r')
                 for k, v in u.items():
                     if isinstance(v, int): usage[k] = usage.get(k, 0) + v
