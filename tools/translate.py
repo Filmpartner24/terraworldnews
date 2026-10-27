@@ -14,6 +14,7 @@ markiert ("flag") und NICHT veröffentlicht (Liste in translations/flagged.json)
 Ohne ANTHROPIC_API_KEY tut das Skript nichts.
 """
 import concurrent.futures as cf
+import hashlib
 import datetime
 import glob
 import json
@@ -209,26 +210,39 @@ PRICES = CFG.get('prices', {   # $ je 1 Mio. Tokens: Eingabe, Cache-Schreiben, C
     'claude-sonnet-5-5': [2.0, 2.5, 0.1, 10.0], 'claude-haiku-5-5': [0.1, 0.125, 0.01, 0.5]})
 
 
-def call(system, user, kind='t'):
-    model = MODELS[kind]
-    body = {'model': model, 'max_tokens': 16000,
+def build_body(system, user, kind):
+    body = {'model': MODELS[kind], 'max_tokens': 16000,
             'system': [{'type': 'text', 'text': system, 'cache_control': {'type': 'ephemeral'}}],
             'messages': [{'role': 'user', 'content': user}]}
     if EFFORT[kind]:
         body['output_config'] = {'effort': EFFORT[kind]}   # weniger „Nachdenken“ = deutlich weniger Ausgabe-Tokens
-    req = urllib.request.Request(API, data=json.dumps(body).encode(), headers={
+    return body
+
+
+def parse_msg(d, model, factor=1.0):
+    """Antwort (Message) → (JSON-Ergebnis, Verbrauch mit Kosten in Mikro-$). factor 0.5 = Batch-Rabatt."""
+    txt = ''.join(c.get('text', '') for c in d.get('content', []) if c.get('type') == 'text').strip()
+    txt = re.sub(r'^```(?:json)?\s*|\s*```$', '', txt)
+    u = {k: v for k, v in d.get('usage', {}).items() if isinstance(v, int)}
+    pr = PRICES.get(model, [2.0, 2.5, 0.1, 10.0])
+    u['usd_micro'] = round(factor * (u.get('input_tokens', 0) * pr[0] + u.get('cache_creation_input_tokens', 0) * pr[1] +
+                                     u.get('cache_read_input_tokens', 0) * pr[2] + u.get('output_tokens', 0) * pr[3]))
+    return json.loads(txt[txt.index('{'):txt.rindex('}') + 1]), u
+
+
+def api(method, url, data=None):
+    req = urllib.request.Request(url, data=json.dumps(data).encode() if data is not None else None, method=method, headers={
         'x-api-key': os.environ['ANTHROPIC_API_KEY'], 'anthropic-version': '2023-06-01', 'content-type': 'application/json'})
+    with urllib.request.urlopen(req, timeout=180) as r:
+        return r.read()
+
+
+def call(system, user, kind='t'):
+    body = build_body(system, user, kind)
     for attempt in range(4):
         try:
-            with urllib.request.urlopen(req, timeout=180) as r:
-                d = json.load(r)
-            txt = ''.join(c.get('text', '') for c in d.get('content', []) if c.get('type') == 'text').strip()
-            txt = re.sub(r'^```(?:json)?\s*|\s*```$', '', txt)
-            u = {k: v for k, v in d.get('usage', {}).items() if isinstance(v, int)}
-            pr = PRICES.get(model, [2.0, 2.5, 0.1, 10.0])
-            u['usd_micro'] = round(u.get('input_tokens', 0) * pr[0] + u.get('cache_creation_input_tokens', 0) * pr[1] +
-                                   u.get('cache_read_input_tokens', 0) * pr[2] + u.get('output_tokens', 0) * pr[3])
-            return json.loads(txt[txt.index('{'):txt.rindex('}') + 1]), u
+            d = json.loads(api('POST', API, body))
+            return parse_msg(d, body['model'])
         except urllib.error.HTTPError as e:
             msg = e.read().decode(errors='replace')[:300]
             if e.code in (429, 500, 502, 503, 529) and attempt < 3:
@@ -246,7 +260,33 @@ def call(system, user, kind='t'):
             raise RuntimeError(str(e))
 
 
-def translate(it, langs):
+class NeedBatch(Exception):
+    """Antwort liegt noch nicht vor – Anfrage(n) gehen in den nächsten Sammelauftrag."""
+    def __init__(self, reqs):
+        super().__init__(f'{len(reqs)} Anfrage(n) offen')
+        self.reqs = reqs
+
+
+class BatchCaller:
+    """Spielt die Übersetzung einer Meldung mit gespeicherten Batch-Antworten ab; fehlt eine Antwort, wird sie angefordert.
+    Der Ablauf ist bei gleichen Antworten immer gleich, deshalb geht er so Schritt für Schritt über mehrere Läufe voran."""
+    def __init__(self, cache):
+        self.cache, self.used = cache, set()
+
+    def __call__(self, system, user, kind='t'):
+        body = build_body(system, user, kind)
+        key = hashlib.sha1(json.dumps(body, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+        self.used.add(key)
+        hit = self.cache.get(key)
+        if hit is None:
+            raise NeedBatch([(key, body)])
+        if hit.get('err'):
+            raise RuntimeError(hit['err'])
+        return hit['res'], {}   # Kosten wurden schon beim Abholen gezählt
+
+
+def translate(it, langs, caller=None):
+    caller = caller or call
     src = {'L': {k: v for k, v in it['de'].items() if isinstance(v, (str, list)) and v}, 'x': lang_extra.extras(it)}
     if isinstance(src['L'].get('body'), str):
         src['L']['body'] = [p.strip() for p in src['L']['body'].replace('\r', '').split('\n') if p.strip()]
@@ -259,18 +299,20 @@ def translate(it, langs):
     if ks:
         user += '\n\nWatch out – these German sentences are INDIRECT SPEECH (Konjunktiv): in every language keep the attribution (said/according to/conditional), never state them as fact:\n- ' + '\n- '.join(ks)
     usage = {}
-    res, u = call(system, user)
+    res, u = caller(system, user)
     for k, v in u.items():
         if isinstance(v, int): usage[k] = usage.get(k, 0) + v
-    result = {}
-    for l in langs:
+    result, waiting = {}, []
+
+    def one(l):
+        nonlocal usage
         out = res.get(l) or {}
         errs = check(src, out, l)
         if errs:   # einmal gezielt nachbessern
             fix = user + f'\n\nYour previous {LANG_NAME[l]} translation had these problems: ' + '; '.join(errs) + \
                 '. Translate again for ' + LANG_NAME[l] + ' only, fixing them. Output {"' + l + '": {...}} only.'
             try:
-                res2, u = call(SYSTEM.format(langs=LANG_NAME[l], shape=_shape([l])), fix)
+                res2, u = caller(SYSTEM.format(langs=LANG_NAME[l], shape=_shape([l])), fix)
                 for k, v in u.items():
                     if isinstance(v, int): usage[k] = usage.get(k, 0) + v
                 out2 = res2.get(l) or {}
@@ -289,7 +331,7 @@ def translate(it, langs):
                 lo = german_leftovers(it, out)
                 if lo:
                     hints += '\n\nThese German words appear untranslated in the draft – translate them unless they are proper names: ' + ', '.join(lo)
-                rev, u = call(REVIEW.format(lang=LANG_NAME[l]), 'German original:\n' + json.dumps(src, ensure_ascii=False) + hints +
+                rev, u = caller(REVIEW.format(lang=LANG_NAME[l]), 'German original:\n' + json.dumps(src, ensure_ascii=False) + hints +
                               f'\n\n{LANG_NAME[l]} draft:\n' + json.dumps({k: out[k] for k in ('L', 'x') if k in out}, ensure_ascii=False), 'r')
                 for k, v in u.items():
                     if isinstance(v, int): usage[k] = usage.get(k, 0) + v
@@ -319,7 +361,7 @@ def translate(it, langs):
             txt = (out.get('L') or {}).get(k)
             if isinstance(txt, str) and len(txt) > lim:
                 try:
-                    r, u = call(SHORTEN.format(lang=LANG_NAME[l], n=lim - 5), json.dumps({'de': src['L'].get(k, ''), 'text': txt}, ensure_ascii=False), 't')
+                    r, u = caller(SHORTEN.format(lang=LANG_NAME[l], n=lim - 5), json.dumps({'de': src['L'].get(k, ''), 'text': txt}, ensure_ascii=False), 't')
                     for kk, v in u.items():
                         if isinstance(v, int): usage[kk] = usage.get(kk, 0) + v
                     short = r.get('text') if isinstance(r, dict) else None
@@ -338,6 +380,14 @@ def translate(it, langs):
         if errs:
             rec['flag'] = errs
         result[l] = rec
+
+    for l in langs:
+        try:
+            one(l)
+        except NeedBatch as nb:   # diese Sprache wartet noch auf eine Batch-Antwort, die andere kann weiterlaufen
+            waiting += nb.reqs
+    if waiting:
+        raise NeedBatch(waiting)
     return result, usage
 
 
@@ -362,6 +412,94 @@ def cost(tok):
 
 def usage_file():
     return os.path.join(HERE, OUTD, 'usage', datetime.datetime.utcnow().strftime('%Y-%m') + '.json')
+
+
+BATCH_API = 'https://api.anthropic.com/v1/messages/batches'
+
+
+def run_batch(items, store, flagged, spent, budget):
+    """Batch-Ablauf: fertige Sammelaufträge abholen, Meldungen mit den Antworten weiterführen, neue Anfragen sammeln und senden."""
+    sp = os.path.join(HERE, OUTD, 'batch', 'state.json')
+    st = json.load(open(sp, encoding='utf-8')) if os.path.exists(sp) else {}
+    st.setdefault('batches', []); st.setdefault('inflight', {}); st.setdefault('cache', {}); st.setdefault('tries', {})
+    before = json.dumps(st, sort_keys=True)
+    tot, done, fatal = {}, 0, None
+    now = datetime.datetime.utcnow()
+    # 1) fertige Sammelaufträge abholen
+    for bid in list(st['batches']):
+        try:
+            b = json.loads(api('GET', f'{BATCH_API}/{bid}'))
+        except urllib.error.HTTPError as e:
+            print(f'  ! Batch {bid}: HTTP {e.code}'); continue
+        if b.get('processing_status') != 'ended':
+            continue
+        lines = api('GET', b['results_url']).decode('utf-8').splitlines() if b.get('results_url') else []
+        for ln in lines:
+            if not ln.strip():
+                continue
+            r = json.loads(ln); key = r.get('custom_id'); res = r.get('result') or {}
+            st['inflight'].pop(key, None)
+            if res.get('type') == 'succeeded':
+                msg = res['message']
+                try:
+                    out, u = parse_msg(msg, msg.get('model', ''), 0.5)
+                    st['cache'][key] = {'res': out, 't': now.isoformat()}
+                except (ValueError, KeyError):
+                    u = parse_msg({'usage': msg.get('usage', {})} | {'content': [{'type': 'text', 'text': '{}'}]}, msg.get('model', ''), 0.5)[1]
+                    st['tries'][key] = st['tries'].get(key, 0) + 1
+                    if st['tries'][key] >= 2:
+                        st['cache'][key] = {'err': 'Antwort nicht lesbar', 't': now.isoformat()}
+                for k, v in u.items(): tot[k] = tot.get(k, 0) + v
+            else:   # errored / expired / canceled: noch einmal anfordern, nach 3 Versuchen aufgeben
+                st['tries'][key] = st['tries'].get(key, 0) + 1
+                if st['tries'][key] >= 3:
+                    st['cache'][key] = {'err': f'Batch: {res.get("type")}', 't': now.isoformat()}
+        for k in [k for k, v in st['inflight'].items() if v == bid]:
+            st['inflight'].pop(k)
+        st['batches'].remove(bid)
+    # 2) Meldungen mit den vorliegenden Antworten weiterführen
+    new, used_done = {}, set()
+    for date, it, need, _b in items:
+        bc = BatchCaller(st['cache'])
+        try:
+            res, _u = translate(it, need, bc)
+        except NeedBatch as nb:
+            for key, body in nb.reqs:
+                if key not in st['inflight']:
+                    new[key] = body
+            continue
+        except Exception as e:
+            print(f'  ! {it["id"]}: {type(e).__name__}: {e}'); continue
+        used_done |= bc.used
+        for l, rec in res.items():
+            store[os.path.join(HERE, OUTD, l, f'{date}.json')]['items'][it['id']] = rec
+            if rec.get('flag'):
+                flagged.append({'id': it['id'], 'date': date, 'lang': l, 'why': rec['flag']})
+        done += 1
+    for k in used_done:   # erledigt – Antworten nicht mehr nötig
+        st['cache'].pop(k, None); st['tries'].pop(k, None)
+    old = (now - datetime.timedelta(days=3)).isoformat()
+    for k in [k for k, v in st['cache'].items() if v.get('t', '') < old]:
+        st['cache'].pop(k)
+    # 3) neue Anfragen als Sammelauftrag senden
+    if new and spent + cost(tot) < budget:
+        reqs = [{'custom_id': k, 'params': b} for k, b in list(new.items())[:2000]]
+        try:
+            r = json.loads(api('POST', BATCH_API, {'requests': reqs}))
+            st['batches'].append(r['id'])
+            for q in reqs:
+                st['inflight'][q['custom_id']] = r['id']
+            print(f'translate: Sammelauftrag {r["id"]} mit {len(reqs)} Anfragen gesendet')
+        except urllib.error.HTTPError as e:
+            msg = e.read().decode(errors='replace')[:300]
+            print(f'  ! Sammelauftrag nicht gesendet: HTTP {e.code} {msg}')
+            if e.code in (400, 401, 403) and ('credit' in msg or 'billing' in msg or e.code in (401, 403)):
+                fatal = f'API nicht nutzbar ({e.code}): {msg}'
+    print(f'translate: Batch – {done} fertig, {len(new)} neue Anfragen, {len(st["inflight"])} in Arbeit, {len(st["batches"])} Aufträge offen')
+    if json.dumps(st, sort_keys=True) != before:
+        os.makedirs(os.path.dirname(sp), exist_ok=True)
+        json.dump(st, open(sp, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+    return tot, done, fatal
 
 
 def main():
@@ -398,16 +536,25 @@ def main():
                 if not old or old.get('h') != h:
                     need.append(l)
             if need:
-                todo.append((d['date'], it, need))
+                todo.append((d['date'], it, need, f.endswith('-breaking.json')))
     todo.sort(key=lambda x: (x[0], x[1].get('time', '')), reverse=True)   # neueste zuerst
     only = {x for x in os.environ.get('TRANSLATE_IDS', '').split(',') if x}   # Probelauf: nur diese Meldungen
     if only:
         todo = [t for t in todo if t[1]['id'] in only]
-    todo = todo[:CFG.get('max_items_per_run', 200)]
-    print(f'translate: {len(todo)} Meldungen offen')
     tot, done, flagged, fatal = {}, 0, [], None
+    if CFG.get('batch') and not only:   # Sammelauftrag (50 % günstiger): alles außer Breaking News (Nedy 27.10.2026)
+        bt = [t for t in todo if not t[3]]
+        todo = [t for t in todo if t[3]]
+        try:
+            ub, nb_done, fatal = run_batch(bt, store, flagged, month['usd'], budget)
+            for k, v in ub.items(): tot[k] = tot.get(k, 0) + v
+            done += nb_done
+        except Exception as e:
+            print(f'translate: Batch-Fehler {type(e).__name__}: {e}')
+    todo = todo[:CFG.get('max_items_per_run', 200)]
+    print(f'translate: {len(todo)} Meldungen sofort')
     with cf.ThreadPoolExecutor(CFG.get('workers', 6)) as ex:
-        futs = {ex.submit(translate, it, need): (date, it) for date, it, need in todo}
+        futs = {ex.submit(translate, it, need): (date, it) for date, it, need, _b in todo} if not fatal else {}
         for fu in cf.as_completed(futs):
             date, it = futs[fu]
             try:

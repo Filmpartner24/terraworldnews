@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths: ['content/**', 'i18n/**', 'tools/translate.py']
   workflow_dispatch:
+  schedule:
+    - cron: '37 4-22 * * *'   # stündlich Sammelaufträge (Batch) abholen, auch wenn nichts gepusht wird (sparsam mit Actions-Minuten)
 permissions:
   contents: write
 concurrency:
@@ -28,6 +30,8 @@ jobs:
           git config user.email "media@filmpartner24.com"
           git add translations
           git diff --cached --quiet && exit 0
-          git commit -m "Übersetzungen TR/ES"
+          # nur Batch-Verwaltung geändert → Cloudflare muss nicht neu bauen
+          if git diff --cached --name-only | grep -Eqv '^translations/(batch/|usage/|status\.json)'; then MSG="Übersetzungen TR/ES"; else MSG="Übersetzungen: Batch-Stand [CF-Pages-Skip]"; fi
+          git commit -m "$MSG"
           for i in 1 2 3 4 5; do git push && exit 0; sleep $((i*5)); git pull --rebase -q || exit 1; done
           exit 1
