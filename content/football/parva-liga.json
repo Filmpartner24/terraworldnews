@@ -892,7 +892,10 @@
    "time": "17:00",
    "t1": "Lokomotiv Plovdiv",
    "t2": "Slavia Sofia",
-   "ft": null
+   "ft": [
+    0,
+    0
+   ]
   },
   {
    "r": 12,
@@ -900,7 +903,10 @@
    "time": "19:30",
    "t1": "CSKA Sofia",
    "t2": "Ludogorets Razgrad",
-   "ft": null
+   "ft": [
+    2,
+    0
+   ]
   },
   {
    "r": 12,
@@ -1519,6 +1525,14 @@
   {
    "n": "BTA – Локомотив София – Ботев Враца 1:1 (24.10.2026)",
    "u": "https://www.bta.bg/bg/news/sport/1231886-lokomotiv-sofiya-i-botev-vratsa-zavarshiha-naravno"
+  },
+  {
+   "n": "Topsport.bg – ЦСКА – Лудогорец 2:0 (26.10.2026)",
+   "u": "https://topsport.bg/parva-liga/tsska-pobedi-ludogorets-s-2-0-v-mach-ot-parva-liga.html"
+  },
+  {
+   "n": "Евроком – Локомотив Пловдив – Славия 0:0 (26.10.2026)",
+   "u": "https://eurocom.bg/2026/10/26/lokomotiv-plovdiv-i-slaviya-zavarshiha-0-0"
   }
  ]
 }
