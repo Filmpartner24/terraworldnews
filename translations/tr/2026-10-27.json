@@ -40,6 +40,29 @@
     "img.alt": "Arşiv fotoğrafı: Arkane'in kurucusu Raphaël Colantonio, Gamelab 2017'de – stüdyodan 2017'de ayrılmıştı"
    }
   },
+  "arkansas-graphen-stromleitung-sensor": {
+   "L": {
+    "body": [
+     "Örneğin elektrik şebekelerini izleyen sensörlerin kendilerinin de enerjiye ihtiyacı var; bu enerji çoğunlukla değiştirilmesi gereken pillerden sağlanıyor. Fizikçi Paul Thibado liderliğindeki University of Arkansas'tan bir ekip, 60 hertzlik alternatif akım hatlarının manyetik alanından yararlanan bir enerji toplayıcı geliştirdi. “Graphene powerline energy harvester powers a batteryless sensor” başlıklı çalışma 20 Ekim'de Journal of Vacuum Science & Technology B dergisinde yayımlandı; çalışmada University of Michigan'dan araştırmacılar da yer aldı.",
+     "Sistemin çekirdeğinde, hattın manyetik alanından enerji alan grafenden bir indüksiyon bobini bulunuyor. Özel olarak geliştirilmiş bir devre alternatif akımı doğru akıma çeviriyor ve sensördeki kondansatörleri bununla şarj ediyor. “Bobin bu kondansatörlere yalnızca yavaş yavaş yük aktarıyor” diye açıklıyor Thibado. Thibado'nun tahminine göre sensör, enerji beslemesi olmadan sorunsuz biçimde 24 saat çalışmayı sürdürebilir, “muhtemelen bir hafta bile”.",
+     "Grubun hedefi, yerinde elde edilen nanovat düzeyindeki enerjiyle çalışan ve belki onlarca yıl dayanabilecek sensörler. Üniversitenin verdiği bilgiye göre bu, grafen güneş hücreli bir modelin ardından ekibin ikinci sensörü. NTS Innovations şirketi pazarlama için münhasır lisansa sahip; 60'tan fazla ilgilinin tekniği test etmek için talepte bulunduğu belirtildi."
+    ],
+    "d": "University of Arkansas'tan fizikçiler, grafen bobinle elektrik hatlarının manyetik alanından enerji topluyor. Araştırmacılara göre sensör, enerji beslemesi olmadan bir gün, hatta muhtemelen bir hafta çalışabilir.",
+    "t": "Hattın manyetik alanından elektrik: Grafen sensör pil olmadan çalışıyor"
+   },
+   "at": "2026-10-27T13:13Z",
+   "h": "efffa600ce78",
+   "rev": [
+    "Headline: 'elektrik' kept but 'Leitung' → 'hat'; acceptable. Teaser: 'wohl sogar eine Woche' rendered as 'muhtemelen bir hafta' – nuance of 'even' lost; fixed to 'hatta muhtemelen bir hafta'",
+    "Teaser: 'zapfen ... an' rendered as 'enerji topluyor'; acceptable, kept",
+    "Body 2: 'wahrscheinlich sogar eine Woche' – 'muhtemelen bir hafta bile' OK; 'problemlos' fine",
+    "Body 1: 'Ein Team um ... von der University of Arkansas' – word order 'Paul Thibado liderliğindeki University of Arkansas'tan bir ekip' acceptable",
+    "Body 3: 'möglicherweise Jahrzehnte halten' – 'belki onlarca yıl dayanabilecek' OK; 'mehr als 60 Interessenten hätten angefragt' – reported speech kept, but attribution to the company was implicit; mad"
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Yüksek gerilim hava hattı direkleri"
+   }
+  },
   "ballon-dor-kane-gewinnt-london-2026-10-27-b08": {
    "L": {
     "body": [
@@ -845,6 +868,28 @@
     "img.alt": "Sembolik fotoğraf: Bir evin duvarında elektrik sayacı"
    }
   },
+  "eth-recordanelles-rna-archiv": {
+   "L": {
+    "body": [
+     "Bir hücrenin gen aktivitesini ölçen kişi normalde yalnızca bir anlık görüntü görür. ETH Zürih'in Basel'deki Biyosistemler Bölümü'nden Randall Platt liderliğindeki bir ekip, insan hücrelerinin RNA moleküllerini birkaç gün boyunca arşivlemesini sağlayan bir yöntem geliştirdi; böylece hangi genlerin daha önce aktif olduğu sonradan yeniden oluşturulabiliyor. “Recordanelles for transcriptome-wide single-cell RNA recording in human cells” başlıklı çalışma 21 Ekim'de Nature Biotechnology dergisinde yayımlandı.",
+     "Sistem, biri stres granülleri olarak adlandırılan yapıların bir proteininden türetilmiş olmak üzere, üç optimize edilmiş proteinden oluşuyor. Bunların yapı planları plazmitler aracılığıyla hücrelere aktarılıyor; arşivi ardından hücrelerin kendisi oluşturuyor. Arşiv, RNA'yı mitokondrilerin çevresinde bir film halinde topluyor ve orada parçalayıcı enzimlerden koruyor. Böylece hücre başına birkaç bin RNA molekülü depolanabiliyor. Araştırmacılar hücre kültürlerinde, insan hücrelerinin bağışıklık sisteminin bir haberci maddesine nasıl tepki verdiğini gösterdi.",
+     "“Geleneksel yöntemle çok geç ölçüm yaparsanız, tepkinin gerçekleştiğini bile artık göremezsiniz” diyor ortak ilk yazar Marcos Manero Carranza. Araştırmacılar patent başvurusunda bulundu. Teknolojinin bir sonraki adımda hayvan ve kanser araştırmaları için geliştirilmesi planlanıyor – örneğin kemoterapiden sağ kurtulan tümör hücrelerini incelemek için."
+    ],
+    "d": "ETH Zürih araştırmacıları, insan hücrelerine RNA moleküllerini arşivlettiriyor. Böylece hücrenin nasıl tepki verdiği günler sonra da okunabiliyor – örneğin kanser araştırması için. Çalışma Nature Biotechnology'de.",
+    "t": "Hücreler için hafıza: ETH yöntemi, günler önce hangi genlerin aktif olduğunu gösteriyor"
+   },
+   "at": "2026-10-27T13:13Z",
+   "h": "04a4b14d44e4",
+   "rev": [
+    "Quote sentence in paragraph 3 was broken: 'diyen ... oldu' is ungrammatical and unnatural; rewritten as a standard attributed quote ('…' dedi/diyor)",
+    "'yapı planları' for 'Baupläne' (the genetic blueprints) reworded to 'şablonları (genetik talimatları)' for naturalness",
+    "Paragraph 2: 'daha sonra' was added to the cell archive sentence; simplified",
+    "Title and teaser lengths checked (within limits)"
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: ETH Zürih'in Basel'deki Biyosistemler Bölümü'nün (D-BSSE) binası"
+   }
+  },
   "eu-faelschungen-rekord-2025-kleidung": {
    "L": {
     "body": [
@@ -1371,6 +1416,45 @@
    ],
    "x": {
     "img.alt": "Knesset seçiminde oy kullanma (Arşiv fotoğrafı)"
+   }
+  },
+  "jpl-90-jahre-caltech": {
+   "L": {
+    "body": [
+     "Pasadena'daki Jet Propulsion Laboratory (JPL) 90 yaşına giriyor. 31 Ekim 1936'da Caltech doktora öğrencileri, araştırmacılar ve roket tutkunları Arroyo Seco'da roket motoru testlerine başladı; bu, laboratuvarın başlangıcı sayılıyor. JPL başlangıçta ABD Ordusu için çalışıyordu; 1958'de NASA'nın kurulmasından bu yana California Institute of Technology (Caltech), JPL'yi uzay ajansı için işletiyor. Caltech yıldönümü vesilesiyle ortaklığa ilişkin bir video, 26 Ekim'de de ayrıntılı bir geriye bakış yayımladı.",
+     "JPL'nin ürünleri arasında, 1958'de fırlatılan ilk ABD uydusu Explorer 1 (Geiger sayacı Dünya'nın radyasyon kuşaklarını keşfetti), başka bir gezegenin yakınından ilk geçiş olan Mariner 2 (Venüs, 1962), Voyager sondaları, ilk Mars gezgini Sojourner ve Mars helikopteri Ingenuity yer alıyor. Caltech'e göre Voyager 1'in 18 Kasım 2026'da Dünya'dan tam bir ışık günü uzaklıkta olması bekleniyor. Günümüzde cep telefonu kameralarında bulunan CMOS kamera çipi de JPL'nin Microdevices Laboratory'sinde geliştirildi.",
+     "Caltech, önümüzdeki yıllar için örneğin SunRISE'ı sayıyor: Altı küçük uydunun 2027'den itibaren birlikte birkaç kilometre genişliğinde bir radyo anteni oluşturması ve Güneş'i incelemesi planlanıyor. SkyFall kapsamında 2028'de üç helikopterin Mars üzerinde bırakılması ve yüzeyin altında buz aranması öngörülüyor. JPL Direktörü Dave Gallagher, JPL'nin çığır açan görevlerinin “evren anlayışımızı ve bu evrendeki yerimizi değiştirdiğini” söyledi."
+    ],
+    "d": "31 Ekim 1936'da Kaliforniya'daki Arroyo Seco'da öğrenciler ilk roket motorlarını test etti; Jet Propulsion Laboratory buradan doğdu. Caltech yıldönümünü bir videoyla anıyor.",
+    "t": "JPL 90 yaşında: Caltech videosu Voyager ve Mars gezginlerinin laboratuvarına bakıyor"
+   },
+   "at": "2026-10-27T13:13Z",
+   "h": "8277c7b54601",
+   "rev": [
+    "'nennt' was rendered as 'gösteriyor' (shows); 'sayıyor' (lists) is the natural and accurate wording."
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Kaliforniya'daki San Gabriel Dağları'nın eteğinde Jet Propulsion Laboratory'nin havadan görünümü",
+    "kl": "Uzay araştırmaları"
+   }
+  },
+  "kaist-neurochip-acetylcholin": {
+   "L": {
+    "body": [
+     "Korea Advanced Institute of Science and Technology (KAIST) araştırmacıları, ortak kurumlarla birlikte beyindeki değişiklikleri gerçek zamanlı izleyen, implante edilebilir bir nöroçip geliştirdi. Çip, nörotransmitter asetilkolini elektrokimyasal yöntemle ölçüyor, bir mikro LED aracılığıyla sinir hücrelerini ışıkla uyarabiliyor ve verileri Bluetooth ile gönderiyor. Çalışma 14 Ekim'de Device dergisinde (Cell Press) yayımlandı.",
+     "Ölçüm katmanı, gözenekli kitosanı gümüş ve platin nanotellerle birleştiriyor. Mini domuzlarda çip prefrontal kortekse yerleştirildi; Alzheimer ilacı donepezil verilmesinin ardından asetilkolin sinyali yükseldi, ardından yavaş yavaş başlangıç değerine döndü. Genetiği değiştirilmiş farelerde ışık uyarımı asetilkolin sinyallerini artırdı.",
+     "Çalışma, Alzheimer'a karşı tedavi edici bir etki ya da hafızada bir iyileşme göstermedi; KAIST'e göre insanlarda kullanılmadan önce başka incelemeler gerekiyor. Proje lideri, makine mühendisliği profesörü Kyung-In Jang, çalışmayı beyindeki değişiklikleri izleyen teknolojiler için bir temel olarak görüyor. Jang aynı zamanda kendi kurduğu start-up N-Side'ın CEO'su."
+    ],
+    "d": "Güney Kore'den kablosuz bir implant, beyindeki nörotransmitter asetilkolini ölçüyor ve sinir hücrelerini ışıkla uyarabiliyor. Mini domuzlarda ve farelerde test edildi; insanlarda denenmedi.",
+    "t": "Beyin çipi ilaç etkisini canlı izliyor: KAIST implantı asetilkolini ölçüyor"
+   },
+   "at": "2026-10-27T13:13Z",
+   "h": "ae4b1f0c64d7",
+   "rev": [
+    "Teaser'da 'test edildi; ... test edilmedi' tekrarı giderildi (üslup düzeltmesi). Anlam, sayı, tarih ve isim açısından hata bulunmadı."
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: KAIST kampüsü, Daejeon, Güney Kore"
    }
   },
   "kardashian-halloween-party-khloe": {
@@ -2393,6 +2477,26 @@
     "img.alt": "Paris'teki Parc des Princes, Paris Saint-Germain'in iç saha stadyumu (Arşiv fotoğrafı)"
    }
   },
+  "psi-gammaspektrometrie-helikopter": {
+   "L": {
+    "body": [
+     "Nükleer tesislerdeki kazaların ardından ya da kaybolan radyasyon kaynaklarında, radyoaktif kirliliğin haritasını çıkarmak için ölçüm cihazlı helikopterler bölge üzerinde uçuyor. İsviçre'deki Paul Scherrer Enstitüsü'nün (PSI) araştırmacıları bunun için yeni bir analiz yöntemi geliştirdi. Yöntem, radyoaktif maddeyi birkaç saniye içinde daha doğru tanımlıyor, miktarını ve konumunu daha kesin belirliyor. “Quantitative mobile gamma-ray spectrometry through Bayesian inference” başlıklı çalışma 26 Ekim'de Nature Communications'ta yayımlandı.",
+     "Görev zor: PSI'ye göre yerdeki bir kaynağın yaydığı yaklaşık 10.000 gama fotonundan yalnızca biri helikoptere ulaşıyor. Şimdiye kadar ölçülen spektrumdaki birden fazla enerji değerinin birleştirilmesi altın standart sayılıyordu; bu, istatistiği iyileştiriyor ancak daha kaba bir görüntü veriyor. Yeni yöntem, Bayes istatistiği yöntemleriyle binlerce olası çıkış spektrumunu ölçümle karşılaştırıyor. Simülasyon sorunu bölündüğü için tam bir simülasyon, saatler hatta günler yerine yalnızca birkaç mikrosaniye sürüyor.",
+     "Birinci yazar David Breitenmoser yöntemi, doktora çalışması kapsamında PSI'nin kalibrasyon laboratuvarında geliştirdi. “Her radyoaktif madde, gama ışınları sayesinde karakteristik bir parmak izine sahiptir” diyor. PSI, İsviçre'deki aeroradyometri ölçüm uçuşlarına katılıyor; 2025'te örneğin mayıs ve haziran aylarında Mühleberg ve Gösgen nükleer santrallerinin çevresinde uçuşlar yapıldı. PSI'ye göre yöntem acil durum müdahaleleri ve nükleer tesislerin izlenmesinin yanı sıra jeofizik ve nükleer malzeme kontrolü için de uygun."
+    ],
+    "d": "Paul Scherrer Enstitüsü'nün yeni analiz yöntemi, radyoaktif maddeleri havadan saniyeler içinde daha doğru tespit ediyor; miktarı ve konumu daha kesin belirliyor. Çalışma Nature Communications'ta yayımlandı.",
+    "t": "Havadan radyasyon ölçümü: PSI yöntemi helikopter ölçümlerini daha doğru hale getiriyor"
+   },
+   "at": "2026-10-27T13:13Z",
+   "h": "6064f597c8c7",
+   "rev": [
+    "TDK'ye göre belirli bir tarih bildirmeyen ay adları küçük harfle yazılır: 'Mayıs ve Haziran aylarında' → 'mayıs ve haziran aylarında'",
+    "Görsel alt yazısında 'Aare Nehri kıyısından havadan görünümü' ifadesi anlamca bozuktu (kıyıdan görünüm gibi okunuyordu); 'Aare Nehri kıyısındaki … havadan görünümü' olarak düzeltildi"
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Paul Scherrer Enstitüsü'nün Aargau Kantonu'nda Aare Nehri kıyısındaki havadan görünümü (Mayıs 2016)"
+   }
+  },
   "rb-leipzig-pokal-essen-ohne-nkunku-esteve-2026-10-27-b08": {
    "L": {
     "body": [
@@ -2692,6 +2796,26 @@
    ],
    "x": {
     "img.alt": "Kapak görseli: Halloween'de UFC: Moicano, ana maçta seri galip Tom Nolan ile karşılaşıyor"
+   }
+  },
+  "umich-darts-biofilm-implantat": {
+   "L": {
+    "body": [
+     "Kateter veya eklem protezi gibi implantlardaki enfeksiyonlar çoğunlukla biyofilmlerden kaynaklanıyor. Biyofilmler, yüzeylere yerleşen ve tedavisi zor olan bakteri tabakalarıdır. University of Michigan'dan bir ekip buna karşı DARTS (dynamically actuated reconfigurable topographical surface) adı verilen aktif bir yüzey geliştirdi. Çalışma, Advanced Functional Materials dergisinde yayımlandı; Michigan Engineering çalışmayı 27 Ekim'de kısa bir tanıtım videosuyla duyurdu.",
+     "Yüzey için önceden gerilmiş bir plastik film kaplanıyor ve fırında 130 derecede büzülmeye bırakılıyor. Bu sırada, araştırmacılara göre bakterileri delen, aralıkları 400 nanometrenin altında olan kırışıklıklar oluşuyor; yaklaşık iki mikrometrelik daha kaba kırışıklıklar ise bakteri üremesini durduramadı. Silikon bir bloğun içindeki metal spiral, elektrikle ısıtıldığında kasılıyor, yüzeyi sıkıştırıyor ve böylece yapışmış bakterileri koparıyor. Bu işlem kablosuz olarak yakın kızılötesi lazerle de tetiklenebiliyor; cihaz 200'den fazla çalışma döngüsü boyunca şeklini korudu.",
+     "Farelerde, Staphylococcus aureus mikrobuyla kolonize edilmiş cihazlar deri altına yerleştirildi. Müdahaleden hemen sonra 20 kez, ardından 1., 3. ve 5. günlerde de cihazlar etkinleştirildi; araştırmacılar yedi gün sonra belirgin ölçüde daha az bakteri ve çevre dokuda daha iyi bir tepki buldu. Çalışmanın eş yürütücüsü, kimya mühendisliği yardımcı doçenti Jouha Min, “Pasif kaplamalara güvenmek yerine yüzeyimiz gerektiğinde bakterileri fiziksel olarak uzaklaştırıyor” dedi. Teknik insanlar üzerinde henüz test edilmedi."
+    ],
+    "d": "Minik kırışıklıklar bakterileri deliyor, ısıtılan bir spiral yüzeyi sıkıştırarak biyofilmleri koparıyor. Farelerde belirgin ölçüde daha az mikrop bulundu. University of Michigan'ın bir videosu hareketi gösteriyor.",
+    "t": "Bakterileri silkeleyen implant: Michigan videosu nano kırışıklı yüzeyi gösteriyor"
+   },
+   "at": "2026-10-27T13:12Z",
+   "h": "427ecb91b4ac",
+   "rev": [
+    "Üçüncü paragrafta 'ardından' tekrarı ve 20 etkinleştirme ile 1., 3., 5. gün etkinleştirmelerinin ilişkisi bozuktu; cümle yeniden kuruldu.",
+    "'eş yöneticisi' yerine 'eş yürütücüsü' kullanıldı (Ko-Studienleiterin)."
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: University of Michigan North Campus'taki Engineering Research Building"
    }
   },
   "victorias-secret-fluegel-gigi-hadid-verteidigt-elsa-hosk": {
