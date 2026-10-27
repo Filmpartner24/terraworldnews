@@ -1,0 +1,33 @@
+name: Translate TR/ES
+# Eigener Ablauf (seit 27.10.2026), damit Fotos und Bau nicht auf die Übersetzung warten müssen.
+on:
+  push:
+    branches: [main]
+    paths: ['content/**', 'i18n/**', 'tools/translate.py']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: translate-trs
+  cancel-in-progress: false
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Translate new items into Turkish and Spanish
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 tools/translate.py
+      - name: Commit
+        run: |
+          git config user.name "terra-bot"
+          git config user.email "media@filmpartner24.com"
+          git add translations
+          git diff --cached --quiet && exit 0
+          git commit -m "Übersetzungen TR/ES"
+          for i in 1 2 3 4 5; do git push && exit 0; sleep $((i*5)); git pull --rebase -q || exit 1; done
+          exit 1
