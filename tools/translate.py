@@ -43,6 +43,9 @@ Absolute rules – accuracy and media law come first:
 4. Rumours, reports and claims stay attributed to their source ("laut …", "nach Angaben …", "soll …").
 5. Names of people, clubs, companies, parties and places: keep the original spelling (Turkish may add suffixes with an apostrophe, e.g. Merz'in). Use established exonyms only for countries and well-known cities (e.g. es "Alemania", "Berlín", "Múnich"; tr "Almanya", "Münih"). Party names: keep abbreviations (CDU, CSU, SPD, AfD, Grüne → Yeşiller/Los Verdes, Linke → Sol Parti/La Izquierda, BSW). Bulgarian party abbreviations: transliterate (GERB, DPS, PP-DB, Vazrazhdane).
 6. Numbers: same values; use target-language number format (thousands "1.000", decimals "2,5" in both Turkish and Spanish). Keep digits as digits. Dates and times written with digits in the original stay written with digits in the same order (e.g. 17.10.2026 stays 17.10.2026; 15:30 stays 15:30); weekday or month names stay names.
+7a. Reported speech: German indirect speech (Konjunktiv: "sei", "habe", "gebe es", "werde") and opinions/assessments of a person must NEVER become a plain statement of fact. Always keep the attribution in every such sentence (tr "…dedi/…söyledi/…belirtti/…olduğunu ifade etti", es "…dijo/…afirmó/…según X" or the Spanish conditional "habría/sería"). A partial quote must form a grammatically complete sentence.
+7b. Do not translate idioms word for word (e.g. "sein Licht nicht unter den Scheffel stellen", "through the roof"); use the equivalent idiom or plain meaning. Keep quoted idioms as faithful in meaning.
+7c. Target-language conventions: scores and results with a hyphen ("2-1", "0-0"); Spanish large numbers "170.600 millones"; Turkish weekdays and month names capitalised only with a concrete date (TDK rules), otherwise lower case, consistently. Names from Cyrillic, Hebrew, Arabic etc.: use the spelling established in that language's quality press (es: "Rumen Radev", "Isaac Herzog", "Kostadínov"; tr: "Rumen Radev", "İzak Herzog"), not the German transliteration. Ukrainian/Russian/Bulgarian names in Turkish: Latin transliteration as used by AA/BBC Türkçe.
 7. Style: neutral, precise news language as used by BBC Türkçe / Anadolu Ajansı (Turkish) and El País / EFE (Spanish). Headline style of the target language. No clickbait.
 8. Length limits: headline "t" at most 90 characters, teaser "d" at most 220 characters. Body: exactly the same number of paragraphs as the original, paragraph by paragraph.
 9. Small fields under "x" (labels, image captions, review pros/cons, fact boxes): translate briefly; keep "Archivbild/Symbolbild" as tr "Arşiv fotoğrafı/Sembolik fotoğraf", es "Foto de archivo/Imagen simbólica"; keep "©" credits, brand names and dates.
@@ -50,6 +53,16 @@ Absolute rules – accuracy and media law come first:
 Output ONLY a JSON object, no markdown, in exactly this shape:
 {{{shape}}}
 where each language object has exactly the same keys as the German "L" object (string → string, list → list of the same length) and "x" with exactly the same keys as the German "x" (omit "x" if the German has none)."""
+
+
+REVIEW = """You are the final copy editor of TERRA WORLD NEWS for {lang}. You receive a German news item and its {lang} translation draft. Compare them sentence by sentence and fix every problem:
+- meaning errors, reversals (e.g. "not a single" vs "a single"), omissions, additions, wrong numbers/dates/names/scores;
+- broken or ungrammatical sentences, especially around quotes;
+- German indirect speech or a person's opinion rendered as a plain fact without attribution (add "…dijo/según X/condicional" resp. "…dedi/söyledi/…olduğunu belirtti");
+- lost hedges ("mutmaßlich", "offenbar", "nach Angaben") – presumption of innocence must be kept;
+- literal translations of idioms, unnatural wording, spelling, target-language conventions (scores "2-1", Spanish "170.600 millones", Turkish capitalisation of weekdays/months per TDK, established spellings of foreign names);
+- headline "t" ≤ 90 characters, teaser "d" ≤ 220 characters, same number of body paragraphs.
+Change only what is needed. Output ONLY JSON: {{"issues": ["short description", …], "severe": true|false, "fixed": {{"L": {{…}}, "x": {{…}}}}}} – "fixed" is the complete corrected version with exactly the same keys as the draft (repeat it unchanged if there is nothing to fix); "severe" is true if the draft contained a factual or legal error."""
 
 
 def _shape(langs):
@@ -174,9 +187,28 @@ def translate(it, langs):
                     out, errs = out2, errs2
             except RuntimeError as e:
                 errs.append(str(e))
+        rev_issues = []
+        if out.get('L') and not any(x.startswith('Schlüssel') for x in errs):   # Zweitprüfung durch einen „Korrektor“
+            try:
+                rev, u = call(REVIEW.format(lang=LANG_NAME[l]), 'German original:\n' + json.dumps(src, ensure_ascii=False) +
+                              f'\n\n{LANG_NAME[l]} draft:\n' + json.dumps({k: out[k] for k in ('L', 'x') if k in out}, ensure_ascii=False))
+                for k, v in u.items():
+                    if isinstance(v, int): usage[k] = usage.get(k, 0) + v
+                fixed = rev.get('fixed') if isinstance(rev, dict) else None
+                rev_issues = [str(x)[:200] for x in (rev.get('issues') or [])][:8] if isinstance(rev, dict) else []
+                if fixed and isinstance(fixed.get('L'), dict):
+                    errs3 = check(src, fixed)
+                    if len(errs3) <= len(errs):
+                        out, errs = fixed, errs3
+                if rev.get('severe') and not fixed:
+                    errs.append('Korrektor: ' + '; '.join(rev.get('issues', [])[:3]))
+            except RuntimeError as e:
+                print(f'  ! Korrektor {it["id"]}/{l}: {e}')
         rec = {'h': lang_extra.src_hash(it), 'L': out.get('L', {}), 'at': datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%MZ')}
         if out.get('x'):
             rec['x'] = out['x']
+        if rev_issues:
+            rec['rev'] = rev_issues   # was der Korrektor verbessert hat (Nachvollziehbarkeit)
         if errs:
             rec['flag'] = errs
         result[l] = rec
