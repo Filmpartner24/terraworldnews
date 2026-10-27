@@ -1312,3 +1312,5 @@ a.rl-g:hover{filter:brightness(1.1)}
 
 /* Lupe in der Menüleiste entfernt (Nedy 27.10.2026) – die Suche steht oben rechts */
 .nv2 .nv-search{display:none!important}
+/* Menüleiste rechtsbündig wie der Breaking-News-Block (Nedy 27.10.2026): unsichtbarer Logo-Platzhalter links nur noch in der angehefteten Leiste */
+@media (min-width:861px){.nv2 .nv-logo{display:none}.nv2.stuck .nv-logo{display:flex}.nv2 .nav-items{justify-content:flex-end}}
