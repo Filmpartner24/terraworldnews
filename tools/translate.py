@@ -133,7 +133,7 @@ def n_quotes(text):
     return len(QUOTES.findall(text)) // 2
 
 
-HEDGE_DE = re.compile(r'\b(mutmaßlich\w*|offenbar|angeblich|soll(?:en|te|ten)?|laut|nach Angaben|Medienberichten zufolge)\b', re.I)
+HEDGE_DE = re.compile(r'\b(mutmaßlich\w*|offenbar|angeblich|laut|nach Angaben|zufolge)\b', re.I)
 HEDGE_X = {   # Wörter, an denen eine Einschränkung/Zuordnung in der Übersetzung erkennbar ist
     'tr': r"göre|iddia|şüpheli|görünüşe|olduğu|söyledi|belirtti|açıkladı|bildirdi|anlaşılan|muhtemel|ileri sürül|ifade|tahmin|dediğ",
     'es': r"presunt|al parecer|aparente|supuest|según|habría|sería|estaría|afirm|dijo|asegur|indic|informa",
