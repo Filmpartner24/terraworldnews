@@ -42,8 +42,9 @@ Absolute rules – accuracy and media law come first:
 2. Direct quotes: translate the quoted words faithfully, keep them as direct quotes with the same speaker. Same number of quotes as the original. Use the target language's quotation marks (Turkish: “…”, Spanish: «…» or “…”, Italian: «…» or “…”).
 3. Presumption of innocence (German Pressekodex): keep every hedge exactly – "mutmaßlich" → tr "iddiaya göre/şüpheli", es "presunto/presuntamente", it "presunto/presuntamente"; "Tatverdächtiger" → tr "şüpheli", es "sospechoso", it "sospettato/indagato" (only if officially under investigation); "nach Angaben von …" → attribution kept. Never turn a suspicion, accusation or claim into a fact. Never add identifying details.
 4. Rumours, reports and claims stay attributed to their source ("laut …", "nach Angaben …", "soll …").
-5. Names of people, clubs, companies, parties and places: keep the original spelling (Turkish may add suffixes with an apostrophe, e.g. Merz'in). Use established exonyms only for countries and well-known cities (e.g. es "Alemania", "Berlín", "Múnich"; tr "Almanya", "Münih"; it "Germania", "Berlino", "Monaco di Baviera"). Party names: keep abbreviations (CDU, CSU, SPD, AfD, Grüne → Yeşiller/Los Verdes/i Verdi, Linke → Sol Parti/La Izquierda/la Linke (Sinistra), BSW). Bulgarian party abbreviations: transliterate (GERB, DPS, PP-DB, Vazrazhdane).
+5. Names of people, clubs, companies, parties and places: keep the original spelling (Turkish may add suffixes with an apostrophe, e.g. Merz'in). Use established exonyms only for countries and well-known cities (e.g. es "Alemania", "Berlín", "Múnich"; tr "Almanya", "Münih"; it "Germania", "Berlino", "Monaco di Baviera"). Party names: keep abbreviations (CDU, CSU, SPD, AfD, Grüne → Yeşiller/Los Verdes/i Verdi, Linke → Sol Parti/La Izquierda/la Linke (Sinistra), BSW). Bulgarian party abbreviations: transliterate (GERB, DPS, PP-DB, Vazrazhdane). Names from Bulgarian/Russian/Ukrainian (Cyrillic): NEVER copy the German transliteration (-ow, -ew, -jew, j for й/я/ю, sch, tsch, sh for ж). Use the English-style Latin transliteration used by BTA/Reuters: ж→zh, ш→sh, щ→sht, ч→ch, ц→ts, ъ→a, й→y, ю→yu, я→ya, -ов→-ov, -ев→-ev; e.g. Kostadinow→Kostadinov, Gjurow→Gyurov, Jotowa→Yotova, Radew→Radev, Scheljaskow→Zhelyazkov, Peewski→Peevski, Wasraschdane→Vazrazhdane, Selenskyj→Zelenskyy (es "Zelenski", it "Zelensky"), Wolodymyr→Volodymyr.
 6. Numbers: same values; use target-language number format (thousands "1.000", decimals "2,5" in Turkish, Spanish and Italian). Keep digits as digits. Dates and times written with digits in the original stay written with digits in the same order (e.g. 17.10.2026 stays 17.10.2026; 15:30 stays 15:30); weekday or month names stay names.
+7d. Headline "t" and teaser "d": keep every hedge and attribution of the German headline/teaser in the same field ("offenbar", "mutmaßlich", "soll", "laut", "nach Angaben"); never drop or move a qualifier (e.g. "fährt offenbar gezielt in Gruppe" → the car apparently targeted the group, not "apparently drove into a group").
 7a. Reported speech: German indirect speech (Konjunktiv: "sei", "habe", "gebe es", "werde") and opinions/assessments of a person must NEVER become a plain statement of fact. Always keep the attribution in every such sentence (tr "…dedi/…söyledi/…belirtti/…olduğunu ifade etti", es "…dijo/…afirmó/…según X" or the Spanish conditional "habría/sería", it "…ha detto/…ha affermato/…secondo X" or the Italian conditional "sarebbe/avrebbe"). A partial quote must form a grammatically complete sentence.
 7b. Do not translate idioms word for word (e.g. "sein Licht nicht unter den Scheffel stellen", "through the roof"); use the equivalent idiom or plain meaning. Keep quoted idioms as faithful in meaning.
 7c. Target-language conventions: scores and results with a hyphen ("2-1", "0-0"); Spanish large numbers "170.600 millones"; Turkish weekdays and month names capitalised only with a concrete date (TDK rules), otherwise lower case, consistently. Names from Cyrillic, Hebrew, Arabic etc.: use the spelling established in that language's quality press (es: "Rumen Radev", "Isaac Herzog", "Kostadínov"; tr: "Rumen Radev", "İzak Herzog"), not the German transliteration. Ukrainian/Russian/Bulgarian names in Turkish: Latin transliteration as used by AA/BBC Türkçe.
@@ -129,7 +130,15 @@ def n_quotes(text):
     return len(QUOTES.findall(text)) // 2
 
 
-def check(src, out):
+HEDGE_DE = re.compile(r'\b(mutmaßlich\w*|offenbar|angeblich|soll(?:en|te|ten)?|laut|nach Angaben|Medienberichten zufolge)\b', re.I)
+HEDGE_X = {   # Wörter, an denen eine Einschränkung/Zuordnung in der Übersetzung erkennbar ist
+    'tr': r"göre|iddia|şüpheli|görünüşe|olduğu|söyledi|belirtti|açıkladı|bildirdi|anlaşılan|muhtemel|ileri sürül|ifade|tahmin|dediğ",
+    'es': r"presunt|al parecer|aparente|supuest|según|habría|sería|estaría|afirm|dijo|asegur|indic|informa",
+    'it': r"presunt|a quanto pare|apparente|secondo|sarebbe|avrebbe|sembr|ha detto|afferm|riferi|indica",
+}
+
+
+def check(src, out, lang=None):
     """Fehlerliste (leer = in Ordnung)."""
     errs = []
     L, x = src['L'], src.get('x') or {}
@@ -153,6 +162,10 @@ def check(src, out):
     qa, qb = n_quotes(flat(L)), n_quotes(flat(oL))
     if qa and qb < qa:
         errs.append(f'Zitate fehlen ({qb} statt {qa})')
+    if lang in HEDGE_X:   # Einschränkung in Titel/Teaser darf nicht verloren gehen
+        for k in ('t', 'd'):
+            if HEDGE_DE.search(L.get(k, '') or '') and not re.search(HEDGE_X[lang], oL.get(k, '') or '', re.I):
+                errs.append(f'Einschränkung/Zuordnung in "{k}" fehlt (Original: „{HEDGE_DE.search(L[k]).group(0)}“)')
     return errs
 
 
@@ -217,7 +230,7 @@ def translate(it, langs):
     result = {}
     for l in langs:
         out = res.get(l) or {}
-        errs = check(src, out)
+        errs = check(src, out, l)
         if errs:   # einmal gezielt nachbessern
             fix = user + f'\n\nYour previous {LANG_NAME[l]} translation had these problems: ' + '; '.join(errs) + \
                 '. Translate again for ' + LANG_NAME[l] + ' only, fixing them. Output {"' + l + '": {...}} only.'
@@ -226,7 +239,7 @@ def translate(it, langs):
                 for k, v in u.items():
                     if isinstance(v, int): usage[k] = usage.get(k, 0) + v
                 out2 = res2.get(l) or {}
-                errs2 = check(src, out2)
+                errs2 = check(src, out2, l)
                 if not errs2 or len(errs2) < len(errs):
                     out, errs = out2, errs2
             except RuntimeError as e:
@@ -243,7 +256,7 @@ def translate(it, langs):
                 rev_issues = [str(x)[:200] for x in iss][:8]
                 draft = {k: out[k] for k in ('L', 'x') if k in out}
                 fixed, n_ok, n_bad = apply_edits(draft, rev.get('edits'))
-                errs3 = check(src, fixed) if n_ok else errs
+                errs3 = check(src, fixed, l) if n_ok else errs
                 if n_ok and len(errs3) <= len(errs):
                     out, errs = fixed, errs3
                 elif n_ok:
