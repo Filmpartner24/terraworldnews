@@ -51,6 +51,32 @@
     "kl": "Berlín"
    }
   },
+  "anthropic-ki-exploit-ketten-2026-10-28-b15": {
+   "L": {
+    "body": [
+     "El Frontier Red Team de Anthropic ha descrito en un trabajo de investigación cinco cadenas de ataque que un modelo de IA interno, aún no publicado, habría creado en el laboratorio. Los sistemas afectados fueron Chrome en macOS, Safari, un teléfono Android bloqueado, Windows y servidores Linux. Según la empresa, bastaron instrucciones iniciales y poca intervención humana. Los ataques, según la empresa, no se habrían observado en el mundo real.",
+     "En el ataque a Chrome, el modelo encadenó cuatro vulnerabilidades, según Anthropic, de modo que con solo abrir una página manipulada se ejecutaba código fuera del sandbox del navegador. En total, Anthropic notificó a Google 62 vulnerabilidades de Chrome, todas clasificadas como críticas o altas; Chrome 156, del 20 de octubre, las corrige. En Linux, el modelo obtuvo derechos de root sin autenticación a través de un servicio Multipath TCP; en Windows se trató de un ataque de bloqueo (denegación de servicio, Denial of Service); en el teléfono Android copió datos por USB de un dispositivo bloqueado.",
+     "Según Anthropic, todos los fabricantes fueron informados con antelación y han publicado parches; Google y Apple mencionan en sus avisos de seguridad a investigadores de Anthropic con Claude. El portal especializado The Hacker News señala, sin embargo, que algunas entradas CVE citadas describen fallos distintos a los que indica Anthropic. Qué parte de cada cadena construyó el modelo por sí solo no puede verificarse desde fuera."
+    ],
+    "d": "Según Anthropic, un modelo Claude inédito desarrolló cinco cadenas de exploits funcionales. Todas las vulnerabilidades habrían sido notificadas con antelación y ya estarían corregidas.",
+    "t": "Anthropic: un modelo interno de IA crea ataques contra Chrome, Safari, Windows y Linux"
+   },
+   "at": "2026-10-28T14:07Z",
+   "h": "28c91fdc5895",
+   "rev": [
+    "Teaser: the Konjunktiv attribution of the German ('Alle Lücken seien ...') is kept, but the conditional 'habrían sido ... estarían' is acceptable; no change needed.",
+    "Body 1: 'Los ataques no habrían sido observados' is acceptable but without an explicit attribution the claim could read as the author's own; added attribution to the company.",
+    "'Multipath TCP' is a technical term/proper name; no change needed."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Logotipo de Anthropic (Imagen simbólica)"
+   }
+  },
   "anthropic-medikamente-mithril": {
    "L": {
     "body": [
@@ -219,6 +245,61 @@
    ],
    "x": {
     "img.alt": "Harry Kane calentando antes de un amistoso del Bayern en Salzburgo en enero de 2025 (Foto de archivo)"
+   }
+  },
+  "bayern-magdeburg-pokal-danks-kompany-2026-10-28-b15": {
+   "L": {
+    "body": [
+     "El FC Bayern disputa su partido de segunda ronda de la Copa de Alemania (DFB-Pokal) contra el 1. FC Magdeburgo el miércoles por la noche (20:45) sin su entrenador principal, Vincent Kompany. Según medios, el técnico de 40 años se desplomó el viernes durante un entrenamiento del U23 y, según el Abendzeitung, sigue ingresado en el hospital. La causa exacta sigue siendo, por tanto, poco clara y se prevén más pruebas. El director deportivo, Max Eberl, dijo, según Sky, que Kompany estará de baja algunas semanas.",
+     "El entrenador asistente Aaron Danks, que visitó a Kompany el lunes, lo sustituye en la banda. «Está de buen ánimo», dijo Danks; al parecer mejora de día en día, aunque no quiso hacer grandes pronósticos. Según el Abendzeitung, el club espera que Kompany regrese para el partido en casa contra el 1. FC Colonia el 20 de noviembre, tras el parón de selecciones. Hasta entonces, Danks debe dirigir al equipo también ante el Dortmund, en el campo del Atlético de Madrid y en Maguncia.",
+     "Según el Abendzeitung, ante el Magdeburgo faltan el portero Manuel Neuer y Jamal Musiala. Joshua Kimmich, que últimamente se ausentó por motivos personales, debería volver esta semana, según Danks. Según información de Sky, Aleksandar Pavlović vuelve a estar en la convocatoria."
+    ],
+    "d": "El entrenador del Bayern, Kompany, sigue en el hospital y se desconoce la causa de su colapso. Ante el Magdeburgo, de Segunda, el ayudante Danks estará hoy a las 20:45 en la banda.",
+    "t": "Copa sin Kompany: Danks dirige al Bayern ante el Magdeburgo; más pruebas para el jefe"
+   },
+   "at": "2026-10-28T14:07Z",
+   "h": "33f8b355fb24",
+   "rev": [
+    "Eberl: 'falle einige Wochen aus' is indirect speech; 'habría dicho' plus 'según Sky' is double hedging, and 'varias semanas' is fine, but the conditional makes it wrong, so use plain 'dijo' with attri",
+    "'Bis dahin soll Danks ... betreuen' was rendered as a conditional 'dirigiría'; it should convey 'está previsto que'",
+    "Kimmich: 'soll ... zurückkehren' rendered as plain fact 'volverá'; the hedge was lost",
+    "'Co-Trainer' / 'Cheftrainer': 'sin su entrenador' omits 'jefe' (minor, kept)",
+    "Pavlović: 'steht im Kader' rendered correctly"
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Allianz Arena de Múnich (Foto de archivo)"
+   }
+  },
+  "berlin-landgericht-urteil-betaeubung-vergewaltigung-2026-10-28-b15-upd": {
+   "L": {
+    "body": [
+     "El Tribunal Regional de Berlín condenó el miércoles a un hombre de 69 años a doce años de prisión y ordenó su posterior custodia de seguridad. La sala lo declaró culpable de violación en 22 casos, de lesiones graves y, en varios casos, de vulneración del ámbito personalísimo de la vida mediante grabaciones de imágenes. Los hechos ocurrieron entre 2016 y 2022. La sentencia aún no es firme.",
+     "Según los hechos probados, el hombre, que confesó, conocía a mujeres de entre 50 y 60 años a través de plataformas de citas y se hacía pasar, entre otras cosas, por agente de policía o piloto de las Fuerzas Armadas alemanas. En su vivienda de Lichtenberg les echaba un sedante en las bebidas, abusaba de las mujeres, casi inconscientes, y grababa los hechos. El presidente del tribunal dijo que el acusado había «buscado conscientemente a víctimas». Deberá pagar a algunas de las afectadas indemnizaciones por daños morales de decenas de miles de euros.",
+     "La Fiscalía había pedido 13 años de prisión y custodia de seguridad; la defensa, como máximo ocho años. El tribunal sigue considerando al hombre peligroso para la sociedad; un perito psiquiátrico no vio indicios de una capacidad de autocontrol reducida. En el juicio declararon 14 mujeres. Se sigue investigando por otros presuntos delitos contra 44 mujeres."
+    ],
+    "d": "El Tribunal Regional de Berlín condena a un hombre de 69 años, confeso, por violación en 22 casos. La sentencia no es firme y continúan las investigaciones sobre otras 44 mujeres.",
+    "t": "Drogó y violó a mujeres: doce años de cárcel y custodia de seguridad en Berlín"
+   },
+   "at": "2026-10-28T14:07Z",
+   "h": "83ca71dbf594",
+   "rev": [
+    "Headline and teaser: 'betäubt' rendered as 'drogó' (drugged) – acceptable, but 'Frauen' is a plain object so 'a mujeres' is fine; no change needed",
+    "Teaser: 'verurteilt' in present tense is fine for headline style",
+    "Quote: 'bewusst nach Opfern gesucht' rendered as 'conscientemente a víctimas' – 'buscado conscientemente a víctimas' reads awkwardly; improved wording while keeping attribution"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Tribunal Penal de Moabit en Berlín (Imagen simbólica)",
+    "kl": "Berlín"
    }
   },
   "berlin-landgericht-urteil-betaeubungs-vergewaltigungen-2026-10-28-b11": {
@@ -718,6 +799,32 @@
    "x": {
     "img.alt": "Imagen simbólica: entrada del edificio de Google en Pancras Square, en Londres, sede de Google DeepMind",
     "kl": "Nuevo modelo"
+   }
+  },
+  "delaware-co2-abscheidung-luft": {
+   "L": {
+    "body": [
+     "Las instalaciones que extraen dióxido de carbono directamente del aire ambiente (captura directa del aire, Direct Air Capture) se consideran una posibilidad para compensar emisiones difíciles de evitar, aunque hasta ahora requieren mucha energía. Un equipo en torno al ingeniero químico Yushan Yan, titular de la cátedra Henry Belin du Pont de la University of Delaware, emplea para ello la química de las baterías recargables. El estudio se ha publicado en la revista especializada Nature Energy; la universidad lo presentó el 27 de octubre.",
+     "Un electrodo de hidróxido de níquel absorbe CO₂ del aire en un lado del dispositivo y lo libera en el otro lado como flujo de gas purificado, impulsado con electricidad en lugar de calor y a temperatura ambiente. Cuando un electrodo se descarga, otro toma el relevo mientras el primero se recarga; así el proceso funciona sin interrupción. Según los investigadores, el método necesita menos de un megavatio-hora por tonelada de CO₂ y, por tanto, alrededor de un 50 por ciento menos de energía que los sistemas convencionales.",
+     "La empresa RepAir Carbon, una de las licenciatarias de la tecnología, operó una planta piloto en Israel durante más de medio año, más de 5.000 horas. En el ámbito especializado se considera objetivo para una captura asequible la cifra de 100 dólares por tonelada. «Esta tecnología pone esas cifras al alcance», afirma el primer autor, James Buchen. El CO₂ capturado puede almacenarse o reutilizarse, por ejemplo, en la industria de bebidas; el comunicado no indica los costes concretos de la instalación."
+    ],
+    "d": "Un equipo de la University of Delaware captura CO₂ con un electrodo de batería a temperatura ambiente. Una planta piloto en Israel funcionó más de 5.000 horas, según la universidad. El estudio salió en Nature Energy.",
+    "t": "CO₂ del aire con química de baterías: el método necesita cerca de la mitad de energía"
+   },
+   "at": "2026-10-28T14:07Z",
+   "h": "154a53ad0d5e",
+   "rev": [
+    "Direct Air Capture se había dejado sin traducir (Capture)",
+    "«megavatio hora» debe escribirse «megavatio-hora» o «megavatio hora»; se mantiene, pero se ajusta la forma estándar",
+    "«Una planta piloto ... funcionó más de 5.000 horas» en el teaser es correcto; sin cambios"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico de portada: CO₂ del aire con química de baterías"
    }
   },
   "deutsche-bank-drittes-rekordquartal-2026-10-28-b11": {
@@ -2038,6 +2145,32 @@
     "img.alt": "El estadio RheinEnergieStadion de Colonia (foto de archivo)"
    }
   },
+  "konsumklima-november-nim-gfk-2026-10-28-b15": {
+   "L": {
+    "body": [
+     "El ánimo de los consumidores en Alemania se ha deteriorado de nuevo ligeramente. El clima de consumo del Instituto de Nuremberg para las Decisiones de Mercado (NIM) y de GfK baja para noviembre a −30,8 puntos, tras −30,6 el mes anterior. Hace un año el valor era aún de −22,5 puntos. La base son unas 2.000 entrevistas a consumidores realizadas del 1 al 12 de octubre.",
+     "La expectativa de ingresos cayó 0,7 puntos, hasta −15,7. La propensión a comprar perdió algo más de un punto y se sitúa en −11,9 puntos. La propensión al ahorro descendió 4,3 puntos, hasta 17,2. La inflación se situó en septiembre en el 3,3 por ciento, su nivel más alto desde diciembre de 2023.",
+     "Los investigadores ven un rayo de esperanza en la expectativa económica: subió por sexta vez consecutiva hasta 2,1 puntos y, con ello, se sitúa por primera vez desde el comienzo de la guerra de Irán por encima de la línea de cero. «La esperanza de un repunte económico está ahí», dijo Rolf Bürkl, experto en consumo del NIM. Según él, la disposición a gastar más dinero todavía no acompaña. Según el comunicado, el descuento en combustible tampoco parece traer el alivio esperado."
+    ],
+    "d": "El ánimo de compra de los alemanes sigue sombrío: caen la expectativa de ingresos y la propensión a comprar. Según el NIM, el descuento en combustible tampoco supone un alivio apreciable.",
+    "t": "Clima de consumo cae a −30,8; expectativa positiva, primera vez desde guerra de Irán"
+   },
+   "at": "2026-10-28T14:07Z",
+   "h": "14228ab39ed4",
+   "rev": [
+    "Se perdió el matiz de «ziehe ... noch nicht mit» como discurso indirecto: ya está atribuido con «Según él», correcto.",
+    "Titular: supera 90 caracteres.",
+    "Teaser correcto."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Zona peatonal en Wesel (Imagen simbólica)"
+   }
+  },
   "kultur-beth-gibbons-abschiedskonzerte-2027-2026-10-28": {
    "L": {
     "body": [
@@ -2397,6 +2530,32 @@
     "img.alt": "Gráfico: TERRA WORLD NEWS"
    }
   },
+  "liverpool-chelsea-ligapokal-wirtz-palmer-2026-10-28-b15": {
+   "L": {
+    "body": [
+     "Florian Wirtz probablemente estará a disposición del Liverpool en los octavos de final de la Copa de la Liga inglesa contra el Chelsea, el miércoles por la noche (21.00 hora de Europa Central). El internacional alemán se lesionó el tobillo contra el Brighton. «Estoy bastante optimista de que estará disponible», dijo el entrenador Andoni Iraola, según el club. Sobre Victor Muñoz y Dominik Szoboszlai se mostró más cauto: «No estoy tan seguro».",
+     "Además, el Liverpool no cuenta con Jeremie Frimpong, que tiene un problema muscular, ni con los lesionados de larga duración Conor Bradley, Hugo Ekitike y Giovanni Leoni. Iraola anunció cambios en el once inicial: «Definitivamente habrá cambios». Ronald Araujo y Milos Kerkez se perderían los cuartos de final si ven otra tarjeta amarilla.",
+     "El Chelsea, dirigido por Xabi Alonso, no podrá contar con Cole Palmer, sancionado tras su tarjeta roja contra el Tottenham. El delantero João Pedro también es baja por una lesión en el muslo. Emmanuel Emegha podría debutar con el Chelsea tras recuperarse de sus problemas en el isquiotibial."
+    ],
+    "d": "El entrenador del Liverpool, Iraola, se muestra «bastante optimista» de que Florian Wirtz pueda jugar esta noche contra el Chelsea. Cole Palmer no estará por sanción; Emegha podría debutar.",
+    "t": "Duelazo de Copa de la Liga en Anfield: Wirtz vuelve y el Chelsea sin Palmer"
+   },
+   "at": "2026-10-28T14:07Z",
+   "h": "bb882ef38030",
+   "rev": [
+    "Headline: \"Kracher\" rendered as \"Clásico\", which is wrong because Liverpool-Chelsea in the League Cup round of 16 is not a \"clásico\"; changed to \"Duelazo\".",
+    "Headline/teaser: \"Wirtz vor Comeback\" is fine; the teaser \"optimista sobre que\" is ungrammatical, changed to \"optimista de que\".",
+    "Quote: \"optimista en que\" is ungrammatical, changed to \"optimista de que\"."
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Estadio de Anfield en Liverpool (Foto de archivo)"
+   }
+  },
   "lomachenko-suarez-februar-foster": {
    "L": {
     "body": [
@@ -2550,6 +2709,30 @@
    ],
    "x": {
     "img.alt": "Panorámica del estadio Volksparkstadion de Hamburgo (Foto de archivo)"
+   }
+  },
+  "lukoil-lizenz-grossbritannien-2026-10-28-b15": {
+   "L": {
+    "body": [
+     "La autoridad británica de sanciones OFSI, que depende del Ministerio de Finanzas en Londres, ha prorrogado cuatro meses su licencia para las filiales búlgaras del grupo petrolero ruso Lukoil. Ahora es válida hasta el 26 de febrero de 2027 y permite operar con Lukoil Bulgaria, Lukoil Neftochim Burgas, Lukoil Aviation Bulgaria y Lukoil Bunker Bulgaria. La autorización anterior habría expirado el 29 de octubre, según Dir.bg. La prórroga fue anunciada por el Ministerio de Economía de Bulgaria.",
+     "El viceprimer ministro y ministro de Economía, Alexander Pulev, habló, según la agencia de noticias BTA, de un resultado del «diálogo activo a nivel gubernamental» bajo el primer ministro Rumen Radev, así como de conversaciones con socios británicos y con la embajada en Sofía. Las aseguradoras británicas cubren más del 90 por ciento de los petroleros que transportan crudo, explicó Pulev. Según dijo, son de importancia esencial para el funcionamiento de la cadena de suministro.",
+     "Ya a mediados de octubre, Bulgaria había obtenido de la autoridad estadounidense de sanciones OFAC una prórroga de seis meses de la licencia general para las mismas cuatro empresas. Esta es válida hasta el 24 de abril de 2027."
+    ],
+    "d": "Reino Unido permite operar con las cuatro empresas búlgaras de Lukoil hasta el 26 de febrero de 2027. Es importante sobre todo para el seguro de los petroleros con destino a Burgas.",
+    "t": "Refinería de Burgas: Londres prorroga la licencia de Lukoil un día antes de expirar"
+   },
+   "at": "2026-10-28T14:07Z",
+   "h": "b0fb28186e13",
+   "rev": [
+    "Headline omits 'einen Tag vor Ablauf' (the extension came one day before expiry); added while staying within 90 characters"
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Refinería Neftochim, cerca de Burgas (foto de archivo)"
    }
   },
   "malaysia-ki-chips-klia-beschlagnahmt": {
@@ -2822,6 +3005,33 @@
    ],
    "x": {
     "img.alt": "Tienda de Primark en Boston (Imagen simbólica)"
+   }
+  },
+  "regensburg-explosion-wohnhaus-2026-10-28-b15": {
+   "L": {
+    "body": [
+     "En un edificio de viviendas de Ratisbona se produjo una explosión en la madrugada del miércoles, hacia las 4:00. Según la Jefatura de Policía del Alto Palatinado, el edificio ardía por completo inmediatamente después; los vecinos alertaron a los servicios de rescate. Cinco personas resultaron heridas y fueron trasladadas a hospitales. Un policía que recibió tratamiento por sospecha de intoxicación por humo ya pudo abandonar la clínica.",
+     "Dos vecinos figuran como desaparecidos y se cree que siguen en el edificio. La policía calificó su situación de «especialmente crítica». El edificio y dos casas vecinas corren riesgo de derrumbe y no se pudo acceder a ellos hasta el mediodía; la Agencia Federal de Auxilio Técnico está apuntalando las construcciones. Según los bomberos, que participaron con unos 100 efectivos, 27 vecinos de los tres edificios fueron alojados temporalmente en una posada.",
+     "Según la policía, la causa sigue sin estar clara. En un principio se sospechó una explosión de gas. Investigadores de incendios de la policía criminal de Ratisbona recogen pruebas con el apoyo de la Oficina de Policía Criminal del Estado. Cuatro viviendas resultaron afectadas directamente por la explosión; partes de la fachada salieron despedidas. La policía pide a los testigos que aporten datos, por ejemplo sobre ruidos sospechosos."
+    ],
+    "d": "Tras una detonación hacia las 4:00 arde un edificio de viviendas. Se cree que dos vecinos siguen dentro y tres edificios corren riesgo de derrumbe.",
+    "t": "Explosión en Ratisbona: edificio en llamas, dos vecinos desaparecidos y cinco heridos"
+   },
+   "at": "2026-10-28T14:07Z",
+   "h": "0a2f8c280960",
+   "rev": [
+    "Headline: 'edificio' in the title is fine; no change needed",
+    "Untranslated German terms left in parentheses (Polizeipräsidium Oberpfalz, Technisches Hilfswerk, Kriminalpolizei Regensburg, Landeskriminalamt) – removed",
+    "Landeskriminalamt rendered more naturally as 'Oficina de Policía Criminal de Baviera' is not in the source; kept generic 'del Estado' but without German term",
+    "'Aseguran pruebas' is a calque; 'recogen pruebas' is more natural"
+   ],
+   "rev_dbg": [
+    4,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Catedral de Ratisbona (Foto de archivo)"
    }
   },
   "rehlinger-lanz-linke-berlin-2026-10-28-b08": {
@@ -3134,6 +3344,32 @@
     "kl": "EE. UU."
    }
   },
+  "ucf-blut-im-all-iss": {
+   "L": {
+    "body": [
+     "Médicos de la University of Central Florida (UCF) investigan cómo los vuelos espaciales modifican la coagulación sanguínea. El foco está en los megacariocitos, grandes células de la médula ósea que liberan miles de plaquetas. En la serie «Research in 60 Seconds», el médico aeroespacial Hansjorg Schwertz explica el trabajo; la universidad presentó el reportaje el 26 de octubre y el vídeo se publicó al día siguiente.",
+     "El experimento forma parte del estudio MOON (Megakaryocytes Orbiting in Outer Space and Near Earth), financiado por la NASA, en el que también participan investigadores de la University of Utah. En mayo de 2026 viajaron células humanas a la Estación Espacial Internacional en una misión de suministro de SpaceX, donde los astronautas las cultivaron. Las células están marcadas con un colorante fluorescente, de modo que el equipo puede seguir su desarrollo a distancia. «Nuestro experimento fue el primero que cultivó megacariocitos en la Estación Espacial Internacional», afirma Schwertz.",
+     "Contexto: en los astronautas, la coagulación sanguínea y la regulación inmunitaria cambian en el espacio. Según Schwertz, entre las posibilidades más preocupantes figura un mayor riesgo de coágulos sanguíneos en misiones largas. La universidad aún no ha dado resultados; está previsto comparar las células cultivadas en órbita con muestras de sangre de la tripulación de antes y después del vuelo."
+    ],
+    "d": "Por primera vez se han cultivado megacariocitos, las células que producen plaquetas, en la ISS. Un vídeo de la University of Central Florida explica por qué esto es importante para las misiones largas.",
+    "t": "Coagulación en el espacio: vídeo de la UCF explica experimento con médula ósea en la ISS"
+   },
+   "at": "2026-10-28T14:07Z",
+   "h": "a1b87721db7a",
+   "rev": [
+    "Headline: \"experimento con médula ósea\" is imprecise; the German says experiment with bone marrow cells (Knochenmarkzellen)",
+    "Teaser: \"es importante\" refers to the video instead of the cultivation; should be \"eso es importante\" (warum das wichtig ist)"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: megacariocito en la médula ósea al microscopio",
+    "kl": "Astronáutica"
+   }
+  },
   "ufc-sydney-salkilld-saint-denis": {
    "L": {
     "body": [
@@ -3157,6 +3393,31 @@
    ],
    "x": {
     "img.alt": "Benoît Saint-Denis antes de un evento de la UFC en Miami en 2024 (Foto de archivo)"
+   }
+  },
+  "umich-helo-thrombektomie-lungenembolie": {
+   "L": {
+    "body": [
+     "En una embolia pulmonar, coágulos de sangre obstruyen las arterias pulmonares, una emergencia que pone en peligro la vida. En la University of Michigan se desarrolló un procedimiento para retirar esos coágulos a través de los vasos sanguíneos: el sistema de trombectomía Hēlo aspira el coágulo hacia un catéter, un elemento agitador lo estira y lo fragmenta, y después se aspira. En un principio, la técnica estaba pensada para el tratamiento del ictus. La universidad presentó el dispositivo el 26 de octubre, y Michigan Engineering publicó un breve vídeo al día siguiente.",
+     "Según el fabricante, el 12 de octubre la agencia estadounidense del medicamento FDA concedió dos autorizaciones denominadas 510(k): para el sistema de trombectomía y para «Hēlo Return», que filtra la sangre aspirada y se la devuelve al paciente. El catéter tiene, según estos datos, un grosor de 15 French y el embudo de captura de la punta, de 24 French. La decisión se basó en datos del estudio clínico ENGULF; según el fabricante, los datos sobre la pérdida de sangre se refieren a 40 pacientes a los que se les devolvió la sangre.",
+     "El sistema es comercializado por Endovascular Engineering (E2), una empresa derivada de la universidad fundada en 2020. Según la universidad, obtuvo 42 millones de dólares en una financiación de serie B y 80 millones de dólares en una de serie C. El procedimiento se desarrolló en el laboratorio del profesor de ingeniería Albert Shih, junto con neurocirujanos. «La autorización de la FDA del sistema de trombectomía Hēlo marca un avance transformador para los pacientes con embolia pulmonar», afirma Kelly Sexton, vicepresidenta asociada de la universidad para investigación, alianzas de innovación e impacto económico. La universidad y el neurocirujano Aditya Pandey tienen una participación financiera en E2."
+    ],
+    "d": "Un sistema de catéter desarrollado en la University of Michigan aspira coágulos de las arterias pulmonares y los fragmenta. La FDA ha autorizado el sistema Hēlo, y un vídeo lo muestra.",
+    "t": "Aspirar coágulos en lugar de operar: vídeo de Michigan muestra un dispositivo"
+   },
+   "at": "2026-10-28T14:07Z",
+   "h": "31c1ba1ee759",
+   "rev": [
+    "Teaser: German says the FDA approved the Hēlo system and a video shows it; the draft is faithful, no change needed",
+    "Minor: 'según esto' is awkward for 'demnach'"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Robert H. Lurie Engineering Center en el North Campus de la University of Michigan"
    }
   },
   "virtue-and-a-sledgehammer-test": {
@@ -3831,6 +4092,30 @@
    ],
    "x": {
     "img.alt": "Imagen de portada de TERRA WORLD NEWS: Moda"
+   }
+  },
+  "zyklon-arnab-indien-2026-10-28-b15": {
+   "L": {
+    "body": [
+     "El ciclón «Arnab» alcanzó en la madrugada del miércoles la costa del estado de Andhra Pradesh, en el sureste de India. Según el servicio meteorológico indio IMD, el centro del ciclón cruzó la costa entre aproximadamente las 2:00 y las 8:00 hora local, cerca de Narsapur, al suroeste de Yanam y Kakinada. La velocidad del viento al tocar tierra fue de 125 a 135 km/h, con ráfagas de hasta 150 km/h. Sobre tierra, la tormenta se debilitó hasta el mediodía y pasó a ser un ciclón «severo».",
+     "Según la fuerza de protección civil NDRF, murieron al menos tres personas. Dos de ellas fallecieron por cables eléctricos caídos; no se han comunicado las circunstancias de la tercera muerte. Previamente, más de 180.000 personas habían sido puestas a salvo en Andhra Pradesh y en el vecino estado de Odisha; en Odisha había más de 2.000 refugios de emergencia preparados.",
+     "Árboles caídos bloquearon carreteras y en muchos lugares se cortó el suministro eléctrico. Aeropuertos como el de Visakhapatnam suspendieron su actividad, se cancelaron conexiones ferroviarias y aéreas, y en 16 distritos de Odisha las escuelas permanecieron cerradas. En algunas zonas cayeron más de 250 milímetros de lluvia en 24 horas, y el servicio meteorológico advirtió de marejadas ciclónicas en zonas costeras bajas. Nepal y Sri Lanka también alertaron de temporales por los coletazos del ciclón."
+    ],
+    "d": "Con ráfagas de hasta 150 km/h, el ciclón tocó tierra en Andhra Pradesh. Cayeron postes eléctricos y se cancelaron vuelos y trenes. Al menos tres personas murieron.",
+    "t": "El ciclón «Arnab» golpea la costa este de India: tres muertos y 180.000 evacuados"
+   },
+   "at": "2026-10-28T14:07Z",
+   "h": "7e2c72c52668",
+   "rev": [
+    "Teaser: \"Strommasten knickten um\" was rendered with the wrong word order and without a definite article; made it more natural (\"Cayeron postes eléctricos\")."
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Costa cerca de Kakinada, Andhra Pradesh (Foto de archivo)"
    }
   }
  }

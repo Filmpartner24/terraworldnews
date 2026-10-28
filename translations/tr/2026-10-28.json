@@ -50,6 +50,32 @@
     "kl": "Berlin"
    }
   },
+  "anthropic-ki-exploit-ketten-2026-10-28-b15": {
+   "L": {
+    "body": [
+     "Anthropic'in Frontier Red Team ekibi, yayımlanmamış dahili bir yapay zekâ modelinin laboratuvar ortamında oluşturduğu iddia edilen beş saldırı zincirini bir araştırma yazısında anlattı. Saldırılardan etkilenenler macOS'ta Chrome, Safari, kilitli bir Android akıllı telefon, Windows ve Linux sunucularıydı. Şirketin verdiği bilgiye göre bunun için ilk talimatlar ve çok az insan müdahalesi yetti. Şirket, saldırıların gerçek ortamda gözlemlenmediğini belirtti.",
+     "Anthropic'e göre model, Chrome saldırısında dört güvenlik açığını birbirine bağladı; böylece hazırlanmış bir sayfanın açılması bile tarayıcı sanal ortamının (sandbox) dışında kod çalıştırdı. Anthropic'in bildirdiğine göre Google'a toplam 62 Chrome açığı iletildi, hepsi kritik veya yüksek olarak derecelendirildi; 20 Ekim tarihli Chrome 156 bunları kapatıyor. Linux'ta model, bir Multipath TCP hizmeti üzerinden oturum açmadan root yetkisi elde etti; Windows'ta bir çökertme saldırısı (hizmet reddi, Denial of Service) söz konusuydu; Android telefonda ise USB üzerinden kilitli bir cihazdan veri kopyaladı.",
+     "Anthropic'in verdiği bilgiye göre tüm üreticiler önceden bilgilendirildi ve yama yayımladı; Google ve Apple güvenlik duyurularında Claude ile çalışan Anthropic araştırmacılarını anıyor. Ancak uzmanlık sitesi The Hacker News, alıntılanan bazı CVE kayıtlarının Anthropic'ten farklı hataları tanımladığına dikkat çekiyor. Modelin her zincirin ne kadarını kendi başına kurduğu dışarıdan doğrulanamıyor."
+    ],
+    "d": "Anthropic'e göre yayımlanmamış bir Claude modeli işlevsel beş istismar zinciri geliştirdi. Şirket, tüm açıkların önceden bildirildiğini ve o zamandan beri kapatıldığını söyledi.",
+    "t": "Anthropic: Dahili yapay zekâ modeli Chrome, Safari, Windows, Linux'a saldırılar geliştirdi"
+   },
+   "at": "2026-10-28T14:07Z",
+   "h": "28c91fdc5895",
+   "rev": [
+    "Teaser: 'beş çalışan istismar zinciri' is awkward; 'çalışan' reads like 'employee' and is ambiguous",
+    "Body 1: 'Etkilenenler ... vardı' is unnatural for 'Betroffen waren'",
+    "Body 1: the German text says the attacks were not observed 'in freier Wildbahn'; the draft's 'gerçek ortamda' is acceptable, so no change"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Anthropic logosu (Sembolik fotoğraf)"
+   }
+  },
   "anthropic-medikamente-mithril": {
    "L": {
     "body": [
@@ -221,6 +247,59 @@
    ],
    "x": {
     "img.alt": "Harry Kane, Ocak 2025'te Bayern'in Salzburg'daki hazırlık maçı öncesinde ısınırken (Arşiv fotoğrafı)"
+   }
+  },
+  "bayern-magdeburg-pokal-danks-kompany-2026-10-28-b15": {
+   "L": {
+    "body": [
+     "FC Bayern, DFB Kupası ikinci tur maçında çarşamba akşamı (20.45) 1. FC Magdeburg ile baş teknik direktör Vincent Kompany olmadan karşılaşacak. Medya haberlerine göre 40 yaşındaki Kompany cuma günü U23 antrenmanında fenalaşarak yere yığıldı ve Abendzeitung'a göre hâlâ hastanede. Buna göre kesin neden henüz belli değil, ek tetkikler planlanıyor. Sky'a göre Spor direktörü Max Eberl, Kompany'nin birkaç hafta takımın başında olamayacağını söyledi.",
+     "Pazartesi günü Kompany'yi ziyaret eden yardımcı antrenör Aaron Danks, onun yerine kenarda olacak. Danks, “Morali iyi” dedi; Kompany'nin görünüşe göre günden güne daha iyi olduğunu, ancak büyük tahminlerde bulunmak istemediğini belirtti. Abendzeitung'un bildirdiğine göre kulüp, Kompany'nin milli ara sonrasında 20 Kasım'daki 1. FC Köln ile oynanacak iç saha maçında geri dönmesini umuyor. O zamana kadar takımı Dortmund karşısında, Atlético Madrid deplasmanında ve Mainz'da da Danks çalıştıracak.",
+     "Abendzeitung'a göre Magdeburg maçında kaleci Manuel Neuer ve Jamal Musiala eksik. Son dönemde kişisel nedenlerle takımda yer almayan Joshua Kimmich'in, Danks'e göre bu hafta içinde dönmesi bekleniyor. Sky'ın bilgilerine göre Aleksandar Pavlović yeniden kadroda."
+    ],
+    "d": "Bayern Teknik Direktörü Kompany hastanede kalıyor, fenalaşmasının nedeni belirsiz. İkinci lig ekibi Magdeburg karşısında bugün 20.45'te yardımcı antrenör Danks kenarda olacak.",
+    "t": "Kupada Kompany yok: Bayern'i Danks çalıştıracak, şefin testleri sürüyor"
+   },
+   "at": "2026-10-28T14:07Z",
+   "h": "33f8b355fb24",
+   "rev": [
+    "Typo 'ffenalaşmasının' in teaser",
+    "'sahalardan uzak kalacağını' – Eberl's statement: 'falle einige Wochen aus' ok, but sentence structure awkward; fixed grammar",
+    "'yere yığıldı' addition is acceptable; 'Sky'a göre' attribution placement awkward",
+    "Pavlović spelling kept; Danks'in -> Danks'ın pronunciation-based suffix"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Münih'teki Allianz Arena (Arşiv fotoğrafı)"
+   }
+  },
+  "berlin-landgericht-urteil-betaeubung-vergewaltigung-2026-10-28-b15-upd": {
+   "L": {
+    "body": [
+     "Berlin Eyalet Mahkemesi çarşamba günü 69 yaşındaki bir erkeği on iki yıl hapis cezasına çarptırdı ve ardından koruyucu gözetim uygulanmasına karar verdi. Heyet, sanığı 22 tecavüz vakasından, tehlikeli yaralamadan ve görüntü kaydı yoluyla birçok vakada özel yaşam alanının ihlalinden suçlu buldu. Suçlar 2016 ile 2022 arasında işlendi. Karar henüz kesinleşmedi.",
+     "Tespitlere göre suçunu itiraf eden adam, 50 ile 60 yaş arasındaki kadınlarla flört platformları üzerinden tanıştı ve bu sırada kendini başka şeylerin yanı sıra polis memuru ya da Alman Federal Ordusu pilotu olarak tanıttı. Lichtenberg'deki dairesinde içeceklerine sakinleştirici ilaç kattı, neredeyse bilinçsiz durumdaki kadınlara tecavüz etti ve suçları kayda aldı. Başkan hakim, sanığın “bilinçli olarak mağdur aradığını” söyledi. Bazı mağdurlara on binlerce euro manevi tazminat ödemek zorunda.",
+     "Savcılık 13 yıl hapis ve koruyucu gözetim talep etmişti, savunma ise en fazla sekiz yıl istemişti. Mahkeme, adamı toplum için tehlikeli görmeye devam ediyor; psikiyatri bilirkişisi, kendini kontrol yeteneğinin azaldığına dair herhangi bir belirti görmedi. Duruşmada 14 kadın ifade verdi. 44 kadının mağduriyetine yol açtığı iddia edilen başka suçlar nedeniyle soruşturma hâlâ sürüyor."
+    ],
+    "d": "Berlin Eyalet Mahkemesi, suçunu itiraf eden 69 yaşındaki sanığı 22 tecavüz vakasından mahkum etti. Karar kesinleşmedi, 44 kadınla ilgili soruşturma sürüyor.",
+    "t": "Kadınlar uyuşturulup tecavüze uğradı: Berlin'de on iki yıl hapis ve koruyucu gözetim"
+   },
+   "at": "2026-10-28T14:07Z",
+   "h": "83ca71dbf594",
+   "rev": [
+    "Teaser: 22 tecavüz vakası ve 44 kadın ifadesi kabul edilebilir; 'Tecavüze uğradı' başlıkta kesin ifade ama Almanca da aynı, değişiklik yok.",
+    "Gün adı 'Çarşamba' cümle ortasında büyük harfle yazılmış; TDK'ya göre küçük harf olmalı."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin'deki Moabit Ceza Mahkemesi (Sembolik fotoğraf)",
+    "kl": "Berlin"
    }
   },
   "berlin-landgericht-urteil-betaeubungs-vergewaltigungen-2026-10-28-b11": {
@@ -784,6 +863,32 @@
    "x": {
     "img.alt": "Sembolik fotoğraf: Google DeepMind'ın merkezi olan Google binasının Londra'daki Pancras Square'de bulunan girişi",
     "kl": "Yeni model"
+   }
+  },
+  "delaware-co2-abscheidung-luft": {
+   "L": {
+    "body": [
+     "Karbondioksiti doğrudan ortam havasından çeken tesisler (Direct Air Capture), kaçınılması zor emisyonları dengelemenin bir yolu olarak görülüyor; ancak bunlar şimdiye kadar çok enerji gerektiriyordu. University of Delaware'deki Henry Belin du Pont kürsüsünün sahibi kimya mühendisi Yushan Yan'ın ekibi bunun için şarj edilebilir pillerin kimyasından yararlanıyor. Çalışma Nature Energy dergisinde yayımlandı; üniversite çalışmayı 27 Ekim'de tanıttı.",
+     "Bir nikel hidroksit elektrodu, cihazın bir tarafında havadaki CO₂'yi alıyor ve diğer tarafta arıtılmış gaz akımı olarak geri veriyor; süreç ısıyla değil elektrikle ve oda sıcaklığında işliyor. Bir elektrot boşaldığında ikincisi devreye giriyor, ilki ise yeniden şarj ediliyor; böylece süreç kesintisiz sürüyor. Araştırmacıların verdiği bilgiye göre yöntem ton başına bir megawatt saatten az enerji gerektiriyor ve bu, geleneksel sistemlere kıyasla yaklaşık yüzde 50 daha az enerji anlamına geliyor.",
+     "Teknolojinin lisans sahiplerinden biri olan RepAir Carbon şirketi, İsrail'de bir pilot tesisi yarım yıldan uzun süre, 5.000 saatten fazla işletti. Uzmanlar arasında uygun maliyetli karbon yakalama için hedef değer ton başına 100 dolar olarak kabul ediliyor. “Bu teknoloji, bu rakamları erişilebilir kılıyor” diyor ilk yazar James Buchen. Yakalanan CO₂ depolanabilir ya da örneğin içecek endüstrisinde yeniden kullanılabilir; açıklamada tesisin somut maliyetleri belirtilmiyor."
+    ],
+    "d": "University of Delaware ekibi, oda sıcaklığında bir pil elektroduyla CO₂ yakalıyor. İsrail'deki pilot tesis üniversiteye göre 5.000 saatten fazla çalıştı. Çalışma Nature Energy'de yayımlandı.",
+    "t": "Havadan CO₂ yakalama: pil kimyasıyla yöntem yaklaşık yarı enerjiyle çalışıyor"
+   },
+   "at": "2026-10-28T14:07Z",
+   "h": "154a53ad0d5e",
+   "rev": [
+    "Quote attribution changed: the German says only the quote is Buchen's statement; the draft also attributes the storage/reuse claim to him",
+    "\"rückt ... in Reichweite\" rendered as \"erişilebililir kılıyor\" is acceptable; \"Direct Air Capture\" is a technical term in parentheses and acceptable",
+    "Headline: \"Verfahren braucht rund halb so viel Energie\" is fine, but \"yarı enerjiyle\" is ok"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Kapak görseli: Pil kimyasıyla havadan CO₂ yakalama"
    }
   },
   "deutsche-bank-drittes-rekordquartal-2026-10-28-b11": {
@@ -2143,6 +2248,32 @@
     "img.alt": "Köln'deki RheinEnergieStadion (Arşiv fotoğrafı)"
    }
   },
+  "konsumklima-november-nim-gfk-2026-10-28-b15": {
+   "L": {
+    "body": [
+     "Almanya'da tüketicilerin ruh hali yeniden hafifçe kötüleşti. Nürnberg Piyasa Kararları Enstitüsü (NIM) ile GfK'nın tüketici güven endeksi, Kasım için önceki aydaki eksi 30,6 puandan eksi 30,8 puana geriledi. Bir yıl önce değer eksi 22,5 puandı. Veriler, 1-12 Ekim tarihleri arasında yapılan yaklaşık 2.000 tüketici görüşmesine dayanıyor.",
+     "Gelir beklentisi 0,7 puan düşerek eksi 15,7 puana indi. Alım eğilimi bir puanı aşkın kayıp yaşayarak eksi 11,9 puana geriledi. Tasarruf eğilimi 4,3 puan azalarak 17,2 puana düştü. Enflasyon Eylül'de yüzde 3,3 ile Aralık 2023'ten bu yana en yüksek seviyede gerçekleşti.",
+     "Araştırmacılar, konjunktür beklentisinde olumlu bir işaret görüyor: Beklenti üst üste altıncı kez artarak 2,1 puana yükseldi ve böylece İran savaşının başlangıcından bu yana ilk kez sıfır çizgisinin üzerinde yer aldı. NIM tüketici uzmanı Rolf Bürkl, “Ekonomik toparlanma umudu var” dedi. Bürkl'e göre daha fazla harcama yapma isteği ise henüz buna eşlik etmiyor. Açıklamada, akaryakıt indiriminin de umulan rahatlamayı görünüşe göre sağlamadığı belirtildi."
+    ],
+    "d": "Alman tüketicilerin harcama isteği zayıf kalıyor: Gelir beklentisi ve alım eğilimi geriledi. NIM'e göre akaryakıt indirimi de hissedilir bir rahatlama getirmiyor.",
+    "t": "Tüketici güveni -30,8'e düştü; beklenti İran savaşından beri ilk kez pozitif"
+   },
+   "at": "2026-10-28T14:07Z",
+   "h": "14228ab39ed4",
+   "rev": [
+    "Untranslated German 'Nürnberg' in the institute name",
+    "'Almanlar'ın' is wrong apostrophe use for a common plural noun (TDK)",
+    "Headline 'Konjunktür beklentisi' should be rendered as natural Turkish 'ekonomik beklenti'"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Wesel'de yaya bölgesi (Sembolik fotoğraf)"
+   }
+  },
   "kultur-beth-gibbons-abschiedskonzerte-2027-2026-10-28": {
    "L": {
     "body": [
@@ -2557,6 +2688,34 @@
     "img.alt": "Grafik: TERRA WORLD NEWS"
    }
   },
+  "liverpool-chelsea-ligapokal-wirtz-palmer-2026-10-28-b15": {
+   "L": {
+    "body": [
+     "Florian Wirtz'in, İngiltere Lig Kupası son 16 turunda Chelsea ile oynanacak çarşamba akşamı maçında (21.00 MEZ) Liverpool'un emrinde olması bekleniyor. Alman milli futbolcu, Brighton maçında ayak bileğinden sakatlanmıştı. Teknik direktör Andoni Iraola, kulübün aktardığına göre \"Onun hazır olacağı konusunda oldukça iyimserim\" dedi. Victor Muñoz ve Dominik Szoboszlai konusunda ise daha temkinli konuştu: \"Pek emin değilim.\"",
+     "Liverpool'da ayrıca kas sorunu yaşayan Jeremie Frimpong ile uzun süreli sakat olan Conor Bradley, Hugo Ekitike ve Giovanni Leoni yok. Iraola, ilk 11'de değişiklik yapılacağını duyurdu: \"Kesinlikle değişiklikler olacak.\" Ronald Araujo ve Milos Kerkez, bir sarı kart daha görmeleri halinde çeyrek finalde cezalı olacak.",
+     "Chelsea, teknik direktör Xabi Alonso yönetiminde, Tottenham maçında gördüğü kırmızı kart nedeniyle cezalı olan Cole Palmer'sız oynayacak. Forvet João Pedro da uyluk sakatlığı nedeniyle forma giyemeyecek. Emmanuel Emegha, arka uyluk kasındaki sorunları atlatmasının ardından Chelsea'deki ilk maçına çıkabilir."
+    ],
+    "d": "Liverpool Teknik Direktörü Iraola, Florian Wirtz'in bu akşam Chelsea karşısında oynayabileceği konusunda \"oldukça iyimser\". Konuk takımda cezalı Cole Palmer yok, Emegha ilk maçına çıkabilir.",
+    "t": "Anfield'da Lig Kupası heyecanı: Wirtz dönüşe hazırlanıyor, Chelsea Palmer'sız"
+   },
+   "at": "2026-10-28T14:07Z",
+   "h": "bb882ef38030",
+   "rev": [
+    "Headline: \"Lig Kupası heyecanı\" and \"Palmer'sız\" are fine; no change needed",
+    "Teaser: \"oldukça iyimser\" lacks a reporting verb, so the quoted opinion is left without attribution; added \"olduğunu söyledi\"",
+    "Teaser: \"cezalı Cole Palmer yok\" is clumsy; reworded",
+    "Body: \"Teknik Direktör\" is wrongly capitalised mid-sentence; \"Chelsea'deki\" has the wrong suffix (should be \"Chelsea'deki\" per pronunciation, which is correct, so left unchanged)",
+    "Body: \"Alman milli futbolcu\" should be \"Alman milli futbolcu\" in the standard form, which is correct; left unchanged"
+   ],
+   "rev_dbg": [
+    5,
+    1,
+    1
+   ],
+   "x": {
+    "img.alt": "Liverpool'daki Anfield Stadyumu (Arşiv fotoğrafı)"
+   }
+  },
   "lomachenko-suarez-februar-foster": {
    "L": {
     "body": [
@@ -2721,6 +2880,32 @@
    ],
    "x": {
     "img.alt": "Hamburg'daki Volksparkstadion'un panoraması (Arşiv fotoğrafı)"
+   }
+  },
+  "lukoil-lizenz-grossbritannien-2026-10-28-b15": {
+   "L": {
+    "body": [
+     "Londra'da Maliye Bakanlığı'na bağlı İngiliz yaptırım kurumu OFSI, Rus petrol şirketi Lukoil'in Bulgaristan'daki iştirakleri için verdiği lisansı dört ay uzattı. Lisans artık 26 Şubat 2027'ye kadar geçerli ve Lukoil Bulgaria, Lukoil Neftochim Burgas, Lukoil Aviation Bulgaria ve Lukoil Bunker Bulgaria ile iş yapılmasına izin veriyor. Dir.bg'nin haberine göre mevcut izin 29 Ekim'de sona erecekti. Uzatmayı Bulgaristan Ekonomi Bakanlığı duyurdu.",
+     "Başbakan Yardımcısı ve Ekonomi Bakanı Alexander Pulev, BTA haber ajansının aktardığına göre, bunun Başbakan Rumen Radev önderliğindeki “hükümet düzeyinde aktif diyaloğun” ve İngiliz ortaklarla ve Sofya'daki büyükelçilikle yapılan görüşmelerin sonucu olduğunu söyledi. Pulev, ham petrol getiren tankerlerin yüzde 90'ından fazlasının İngiliz sigortacılar tarafından teminat altına alındığını belirtti. Pulev, bu sigortacıların tedarik zincirinin işleyişi açısından büyük önem taşıdığını ifade etti.",
+     "Bulgaristan, Ekim ortasında da ABD yaptırım kurumu OFAC'tan aynı dört şirket için genel lisansın altı ay uzatılması kararını almıştı. Bu lisans 24 Nisan 2027'ye kadar geçerli."
+    ],
+    "d": "Birleşik Krallık, Lukoil'in dört Bulgar şirketiyle 26 Şubat 2027'ye kadar iş yapılmasına izin veriyor. Bu, özellikle Burgas'a giden petrol tankerlerinin sigortası açısından önem taşıyor.",
+    "t": "Burgas rafinerisi: Londra Lukoil lisansını bitmesine bir gün kala Şubat'a kadar uzattı"
+   },
+   "at": "2026-10-28T14:07Z",
+   "h": "b0fb28186e13",
+   "rev": [
+    "Headline: 'Şubat'a uzattı' is ambiguous and the year is missing; the headline reads awkwardly",
+    "Teaser: 'iş yapılmasına izin veriyor' is fine, but the 'Büyük önem' wording is acceptable",
+    "Last paragraph: 'genel lisansın altı ay uzatılmasını almıştı' is an unnatural, ungrammatical construction"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Burgas yakınlarındaki Neftochim rafinerisi (Arşiv fotoğrafı)"
    }
   },
   "malaysia-ki-chips-klia-beschlagnahmt": {
@@ -3017,6 +3202,36 @@
    ],
    "x": {
     "img.alt": "Boston'daki Primark mağazası (Sembolik fotoğraf)"
+   }
+  },
+  "regensburg-explosion-wohnhaus-2026-10-28-b15": {
+   "L": {
+    "body": [
+     "Regensburg'da çarşamba günü sabaha karşı saat 4 civarında bir apartman binasında patlama meydana geldi. Yukarı Pfalz Emniyet Müdürlüğü'nün verdiği bilgiye göre bina patlamanın hemen ardından tamamen alevler içinde kaldı; çevre sakinleri kurtarma ekiplerini haberdar etti. Beş kişi yaralandı ve hastanelere kaldırıldı. Duman zehirlenmesi şüphesiyle tedavi edilen bir polis memuru hastaneden çoktan taburcu oldu.",
+     "İki sakin kayıp olarak görülüyor ve hâlâ binada olduğu sanılıyor. Polis, onların durumunu “son derece kritik” olarak nitelendirdi. Bina ile iki komşu bina çökme tehlikesi taşıyor ve öğlene kadar içeri girilemedi; Federal Teknik Yardım Teşkilatı (THW) yapıları destekliyor. Yaklaşık 100 görevliyle müdahale eden itfaiyeye göre, üç binanın 27 sakini geçici olarak bir pansiyonda barındırıldı.",
+     "Polis açıklamalarına göre patlamanın nedeni hâlâ belirsiz. Başlangıçta doğal gaz patlaması olduğundan şüphelenilmişti. Regensburg Suç Soruşturma Polisi'nin yangın uzmanları, Eyalet Suç Soruşturma Dairesi'nin desteğiyle iz ve delilleri topluyor. Dört daire doğrudan patlamadan etkilendi; cephenin bazı bölümleri koptu. Polis, tanıklardan örneğin şüpheli seslere ilişkin bilgi vermelerini istiyor."
+    ],
+    "d": "Saat 04:00 civarındaki bir patlamanın ardından bir apartman binası alev alev yanıyor. İki sakinin hâlâ binada olduğu sanılıyor, üç binada çökme tehlikesi var.",
+    "t": "Regensburg'da patlama: Apartman alev aldı, iki sakin kayıp, beş yaralı"
+   },
+   "at": "2026-10-28T14:07Z",
+   "h": "0a2f8c280960",
+   "rev": [
+    "Untranslated German words 'Kriminal' in Kriminal Polisi / Kriminal Dairesi should be Turkish (Kriminalpolizei = Cinayet? no: Kriminalpolizei = Suç Soruşturma/Kriminal Polis; use 'Kriminal Polis' → 'Su",
+    "'Oberpfalz' untranslated within Polizeipräsidium name; made 'Yukarı Pfalz' (Bavarian region Upper Palatinate)",
+    "Gasthaus rendered as 'pansiyon' is acceptable; 'Mehrfamilienhaus' fine",
+    "Teaser: 'Saat 04:00 civarındaki' fine; 'vermutet' fine",
+    "Katedral: Regensburger Dom correctly rendered; 'Regensburg Katedrali' fine",
+    "'Brandermittler' ok",
+    "Draft says 'doğal gaz patlaması' for Gasexplosion – acceptable"
+   ],
+   "rev_dbg": [
+    7,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Regensburg Katedrali (Arşiv fotoğrafı)"
    }
   },
   "rehlinger-lanz-linke-berlin-2026-10-28-b08": {
@@ -3349,6 +3564,33 @@
     "kl": "ABD"
    }
   },
+  "ucf-blut-im-all-iss": {
+   "L": {
+    "body": [
+     "University of Central Florida'dan (UCF) hekimler, uzay uçuşlarının kan pıhtılaşmasını nasıl değiştirdiğini inceliyor. Çalışmanın odağında megakaryositler var; bunlar kemik iliğinde bulunan ve binlerce trombosit salan büyük hücreler. Uzay hekimi Hansjorg Schwertz, “Research in 60 Seconds” serisinde çalışmayı anlatıyor; üniversite içeriği 26 Ekim'de tanıttı, video ertesi gün yayımlandı.",
+     "Deney, NASA tarafından finanse edilen ve University of Utah araştırmacılarının da katıldığı MOON (Megakaryocytes Orbiting in Outer Space and Near Earth) çalışmasının bir parçası. Mayıs 2026'da insan hücreleri, SpaceX'in bir ikmal görevi ile Uluslararası Uzay İstasyonu'na gönderildi; astronotlar hücreleri orada kültüre aldı. Hücreler floresan boyayla işaretlendi, böylece ekip gelişimlerini uzaktan takip edebiliyor. Schwertz, “Deneyimiz, Uluslararası Uzay İstasyonu'nda megakaryosit yetiştiren ilk deney oldu” diyor.",
+     "Arka plan: Astronotlarda uzayda kan pıhtılaşması ve bağışıklık düzenlemesi değişiyor. Schwertz'e göre ciddi olasılıklar arasında uzun görevlerde kan pıhtısı riskinin artması da var. Üniversite henüz sonuç açıklamadı; yörüngede yetiştirilen hücrelerin, mürettebatın uçuş öncesi ve sonrası kan örnekleriyle karşılaştırılması planlanıyor."
+    ],
+    "d": "ISS'te ilk kez trombosit üreten hücreler olan megakaryositler yetiştirildi. University of Central Florida'nın videosu, bunun uzun görevler için neden önemli olduğunu açıklıyor.",
+    "t": "Uzayda kan pıhtılaşması: UCF videosu ISS'teki kemik iliği hücresi deneyini anlatıyor"
+   },
+   "at": "2026-10-28T14:07Z",
+   "h": "a1b87721db7a",
+   "rev": [
+    "\"ernüchternden Möglichkeiten\" rendered as \"ürkütücü\" (frightening); the German means sobering, so \"düşündürücü\" fits better",
+    "\"Beitrag\" rendered as \"yazı\" (article), but it is a video contribution; changed to \"tanıtım/içerik\"",
+    "Teaser: \"erstmals\" attaches to growing megakaryocytes; the Turkish reads as if platelet-producing cells were first grown, which is acceptable, so no change"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Kemik iliğinde mikroskop altında megakaryosit",
+    "kl": "Uzay yolculuğu"
+   }
+  },
   "ufc-sydney-salkilld-saint-denis": {
    "L": {
     "body": [
@@ -3368,6 +3610,33 @@
    ],
    "x": {
     "img.alt": "Benoît Saint-Denis, 2024'te Miami'de bir UFC organizasyonu öncesinde (Arşiv fotoğrafı)"
+   }
+  },
+  "umich-helo-thrombektomie-lungenembolie": {
+   "L": {
+    "body": [
+     "Akciğer embolisinde kan pıhtıları akciğer atardamarlarını tıkar; bu yaşamı tehdit eden bir acil durumdur. University of Michigan'da bu tür pıhtıları kan damarları yoluyla çıkarmaya yönelik bir yöntem geliştirildi: Hēlo trombektomi sistemi pıhtıyı bir katetere çekiyor, bir karıştırıcı eleman pıhtıyı genişletip parçalıyor, ardından pıhtı emiliyor. Teknik aslen felç tedavisi için tasarlanmıştı. Üniversite cihazı 26 Ekim'de tanıttı, Michigan Engineering ertesi gün kısa bir video yayımladı.",
+     "Üreticinin 12 Ekim tarihli açıklamasına göre, ABD Gıda ve İlaç Dairesi (FDA) iki adet 510(k) onayı verdi: trombektomi sistemi için ve emilen kanı filtreleyip hastaya geri veren “Hēlo Return” için. Buna göre kateterin kalınlığı 15 French, uçtaki yakalama hunisinin kalınlığı ise 24 French. Kararın dayanağı ENGULF klinik çalışmasının verileriydi; kan kaybına ilişkin bilgiler, üreticiye göre kanın geri verildiği 40 hastayı kapsıyor.",
+     "Sistemi, üniversitenin 2020'de kurulan yan kuruluşu Endovascular Engineering (E2) pazarlıyor. Şirket, üniversiteye göre Seri B finansmanında 42 milyon dolar, Seri C finansmanında ise 80 milyon dolar topladı. Yöntem, mühendislik profesörü Albert Shih'in laboratuvarında beyin cerrahlarıyla birlikte geliştirildi. “Hēlo trombektomi sisteminin FDA onayı, akciğer embolisi hastaları için dönüştürücü bir ilerlemeyi simgeliyor” diyen Kelly Sexton, üniversitenin araştırma, inovasyon ortaklıkları ve ekonomik etkiden sorumlu başkan yardımcısı. Üniversite ve beyin cerrahı Aditya Pandey, E2'de mali paya sahip."
+    ],
+    "d": "University of Michigan'da geliştirilen kateter sistemi, akciğer atardamarlarındaki kan pıhtılarını emiyor ve bu sırada parçalıyor. FDA Hēlo sistemine onay verdi, bir video sistemi gösteriyor.",
+    "t": "Ameliyat yerine pıhtı emme: Michigan videosu akciğer embolisine karşı cihazı gösteriyor"
+   },
+   "at": "2026-10-28T14:07Z",
+   "h": "31c1ba1ee759",
+   "rev": [
+    "FDA rendered as 'İlaç ve Gıda Dairesi' – the German says 'Arzneimittelbehörde'; the established Turkish name is 'ABD Gıda ve İlaç Dairesi (FDA)'",
+    "German quotation marks „ “ used inside Turkish text",
+    "Quote sentence is awkward and 'başkan yardımcısı yardımcısı' is a wrong rendering of 'stellvertretende Vizepräsidentin'; the quote is restructured as 'dedi'",
+    "Teaser: 'bir video sistemi gösteriyor' is clumsy, but acceptable"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: University of Michigan North Campus'taki Robert H. Lurie Engineering Center"
    }
   },
   "virtue-and-a-sledgehammer-test": {
@@ -4117,6 +4386,34 @@
    ],
    "x": {
     "img.alt": "TERRA WORLD NEWS başlık görseli: Moda"
+   }
+  },
+  "zyklon-arnab-indien-2026-10-28-b15": {
+   "L": {
+    "body": [
+     "“Arnab” Siklonu, Çarşamba'ya karşı gece Hindistan'ın güneydoğusundaki Andhra Pradesh eyaletinin kıyısına ulaştı. Hindistan Meteoroloji Dairesi IMD'nin verdiği bilgilere göre fırtınanın merkezi yerel saatle yaklaşık 02:00 ile 08:00 arasında, Yanam ve Kakinada'nın güneybatısındaki Narsapur yakınlarında kıyıyı geçti. Rüzgârın hızı karaya ulaşırken saatte 125 ile 135 km, hamlelerde ise saatte 150 km'ye kadar çıktı. Fırtına kara üzerinde öğlene kadar zayıflayarak “şiddetli” bir siklona dönüştü.",
+     "Afet müdahale birimi NDRF'nin verdiği bilgiye göre en az üç kişi öldü. Bunlardan ikisi kopan elektrik hatları nedeniyle hayatını kaybetti, üçüncü ölümün koşulları açıklanmadı. Andhra Pradesh'te ve komşu Odisha eyaletinde daha önce 180.000'den fazla kişi güvenli yerlere götürülmüştü; Odisha'da 2.000'den fazla acil barınak hazır bekletiliyordu.",
+     "Devrilen ağaçlar yolları kapattı, birçok yerde elektrik kesildi. Visakhapatnam gibi havalimanları faaliyetlerini durdurdu, tren ve uçak seferleri iptal edildi, Odisha'nın 16 ilçesinde okullar kapalı kaldı. Bazı yerlerde 24 saat içinde 250 milimetreden fazla yağmur düştü; meteoroloji dairesi alçak kıyı bölgeleri için fırtına dalgası uyarısı yaptı. Nepal ve Sri Lanka da siklonun uzantıları nedeniyle olumsuz hava koşulları konusunda uyarıda bulundu."
+    ],
+    "d": "Siklon, saatte 150 km'ye varan hızlı rüzgârlarla Andhra Pradesh'te karaya ulaştı. Elektrik direkleri devrildi, uçuş ve tren seferleri iptal edildi. En az üç kişi hayatını kaybetti.",
+    "t": "“Arnab” Siklonu Hindistan'ın doğu kıyısını vurdu: 3 ölü, 180.000 kişi güvende"
+   },
+   "at": "2026-10-28T14:07Z",
+   "h": "7e2c72c52668",
+   "rev": [
+    "\"Çarşamba'ya bağlayan gece\" is unnatural; should be \"Çarşamba'ya karşı gece\" / \"Salı'yı Çarşamba'ya bağlayan gece\"",
+    "Headline: \"180.000 kişi güvende\" OK; teaser \"Kasırga\" differs from the Siklon term used elsewhere (Wirbelsturm) – harmonised",
+    "\"Fırtına ... şiddetli bir siklona dönüşerek zayıfladı\" is awkward; rephrased",
+    "\"siklonun etkisinin uzantıları nedeniyle\" is awkward for Ausläufer",
+    "\"Ausläufer\" warning wording: Nepal and Sri Lanka warned of storms due to the cyclone's outer ranges"
+   ],
+   "rev_dbg": [
+    5,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Kakinada kıyısı, Andhra Pradesh (Arşiv fotoğrafı)"
    }
   }
  }
