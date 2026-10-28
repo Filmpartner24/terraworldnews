@@ -49,6 +49,7 @@ Andere gesperrte Datenquellen (z. B. match.uefa.com, standings.uefa.com) ebenfal
 
 ## 6. Veröffentlichen
 - PYTHONHASHSEED=1 python3 build.py muss fehlerfrei laufen; git pull --rebase vor jedem push.
+- FOTOS LIVE PRÜFEN (Nedy 28.10.2026: „Bitte immer darauf achten, dass Fotos drin sind – sonst sehr unprofessionell!“): Commons-Fotos lädt erst die Action nach dem Push und committet sie als „Update edition and photos“. Nach dem eigenen Push ~3 Min. warten, git pull, prüfen, dass JEDE static<img.f> der eigenen Meldungen existiert, UND den Cloudflare-Status des neuesten Commits prüfen: `gh api repos/Filmpartner24/terraworldnews/commits/$(git rev-parse origin/main)/check-runs --jq '.check_runs[]|[.name,.conclusion]|@tsv'`. Ist „Cloudflare Pages“ dort failure, ist die Seite ohne Fotos live (Platzhalter-Kachel) → mit einer kleinen echten Korrektur an den eigenen Meldungen erneut pushen (ohne [CF-Pages-Skip]) und wieder prüfen, bis ein Commit mit den Fotos „success“ hat. Erst dann ist der Lauf fertig.
 - GitHub-Action prüfen per Bash: `gh run list -R Filmpartner24/terraworldnews -L 3` (nicht per WebFetch – Repo ist privat). Ist der letzte Lauf rot: 2 Min. warten, erneut prüfen; bleibt er rot, im Problem-Hinweis melden.
 - build.py, Design, Workflows nur ändern, wenn Nedy es in einem Gespräch ausdrücklich verlangt – geplante Aufgaben ändern keinen Code (fehlende Teamnamen u. Ä. im Bericht melden).
 
