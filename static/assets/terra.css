@@ -1317,7 +1317,7 @@ a.rl-g:hover{filter:brightness(1.1)}
 /* Menü: Rubrikname mit Unterpunkten ist nur Titel, erster Unterpunkt „Allgemein“ (Nedy 28.10.2026) */
 .nav-dd>a.nv-top{cursor:pointer;user-select:none;-webkit-user-select:none}
 @media (hover:none) and (min-width:861px){.nav-dd:focus-within .dd{display:flex!important}.nav-dd.dd-wide:focus-within .dd{display:grid!important}}
-@media (max-width:860px){.nv2 .nav-dd.dd-wide .dd{display:block!important;min-width:0;position:static;transform:none}.nav-dd>a.nv-top{cursor:default}}
+@media (max-width:860px){.nv2 .nav-dd.dd-wide .dd{display:block!important;min-width:0;position:static;transform:none}}
 
 /* ---- TWN GAMES (Nedy 28.10.2026): gleiches Neon-Design wie TWN MUSIC, Collage mit Gaming-Motiven */
 .gp-games{--gx:#ff2fb4;--gy:#22e4ff;--mp:#ff2fb4;--mc:#22e4ff;--my:#ffe14d;--mv:#a855f7}

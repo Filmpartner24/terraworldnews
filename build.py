@@ -650,8 +650,8 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
         _on = canon == sec_url(s, l) or (s in SUBS and canon.startswith(sec_url(s, l))) or any(canon.startswith(sec_url(x, l)) for x in NAV_DD_EXTRA.get(s, []))
         if s not in LSUBS and s not in SUBS:
             return f'<a href="{sec_home(s, l)}"{CUR_P if _on else ""}>{e(SEC[l][s][0])}</a>'
-        # Rubriken mit Unterpunkten: Rubrikname ist nur Menü-Titel (nicht anklickbar), erster Unterpunkt „Allgemein“ führt zur Rubrikseite (Nedy 28.10.2026)
-        a = f'<a class="nv-top" tabindex="0" role="button" aria-haspopup="true"{CUR_P if _on or canon.startswith(sec_url(s, l)) else ""}>{e(SEC[l][s][0])}</a>'
+        # Rubriken mit Unterpunkten: Rubrikname und erster Unterpunkt „Allgemein“ führen beide zur Rubrikseite (Nedy 28.10.2026)
+        a = f'<a class="nv-top" href="{sec_home(s, l)}" aria-haspopup="true"{CUR_P if _on or canon.startswith(sec_url(s, l)) else ""}>{e(SEC[l][s][0])}</a>'   # Rubrikname wieder anklickbar, zusätzlich „Allgemein“ (Nedy 28.10.2026)
         gen = f'<a class="dd-gen" href="{sec_home(s, l)}"{CUR_P if canon == sec_url(s, l) else ""}>{e(NAV_GEN.get(l, NAV_GEN["en"]))}</a>'
         if s in LSUBS:
             dd = gen + ''.join(f'<a href="{sec_url(x, l)}"{CUR_P if canon == sec_url(x, l) else ""}>{e(SEC[l][x][0])}</a>' for x in NAV_DD_EXTRA.get(s, [])) + ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if canon == sub_url(s, k, l) else ""}>{e(SUB[l][k][0])}</a>' for k in LSUBS[s])
