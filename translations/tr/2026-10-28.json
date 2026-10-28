@@ -1722,6 +1722,76 @@
     "img.alt": "Sembolik fotoğraf: Avrupa Parlamentosu'nun Brüksel'deki genel kurul salonu"
    }
   },
+  "ext-lillehammer-eiskanal-pov-2026-10-28": {
+   "L": {
+    "body": [
+     "Leon Felderer'in efsanevi Lillehammer pistinden 360 derece görüntüsü: saatte 86 mil'e (yaklaşık 138 km/s) varan hızla buzun hemen üzerinde."
+    ],
+    "d": "Leon Felderer'in efsanevi Lillehammer pistinden 360 derece görüntüsü: saatte 86 mil'e (yaklaşık 138 km/s) varan hızla buzun hemen üzerinde.",
+    "t": "Lillehammer'in buz kanalında saatte 138 kilometre hızla"
+   },
+   "at": "2026-10-28T17:19Z",
+   "h": "28fb998469aa",
+   "rev": [
+    "Headline 'saatte 138 km hızla' is awkward and 'Lillehammer buz pistinde' does not render 'durch den Eiskanal' well; reworded to be natural",
+    "'86 mil'e' is awkward; unit spelling made more natural ('86 mil/saat')"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    1
+   ],
+   "x": {
+    "img.alt": "Lillehammer'deki olimpiyat bobsley ve kızak pisti (Arşiv fotoğrafı)",
+    "kl": "Ekstrem spor"
+   }
+  },
+  "ext-parallel-iii-semenuk-2026-10-28": {
+   "L": {
+    "body": [
+     "Brandon Semenuk, Kade Edwards ve Hugo Frixtalon, Parallel serisinin üçüncü bölümünde iç içe geçen hatlarda tamamen senkronize sürüyor."
+    ],
+    "d": "Brandon Semenuk, Kade Edwards ve Hugo Frixtalon, Parallel serisinin üçüncü bölümünde iç içe geçen hatlarda tamamen senkronize sürüyor.",
+    "t": "Parallel III: Üç dağ bisikletçisi kusursuz bir uyum içinde"
+   },
+   "at": "2026-10-28T17:19Z",
+   "h": "ef8bdfb7216f",
+   "rev": [
+    "Image alt: \"Sembolik fotoğraf\" is wrongly capitalised inside the parentheses, and the German has a single Mountainbiker; this is fine, only the capitalisation needs fixing."
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Havada atlayış yapan dağ bisikletçisi (sembolik fotoğraf)",
+    "kl": "Ekstrem spor"
+   }
+  },
+  "ext-wingsuit-parcours-dubai-2026-10-28": {
+   "L": {
+    "body": [
+     "Wingsuit pilotları Dubai'de jetlerden, paramotorlardan, paraşütçülerden, mancınıklardan, gökdelenlerden ve dronelardan oluşan bir engel parkurunu aşıyor."
+    ],
+    "d": "Wingsuit pilotları Dubai'de jetlerden, paramotorlardan, paraşütçülerden, mancınıklardan, gökdelenlerden ve dronelardan oluşan bir engel parkurunu aşıyor.",
+    "t": "Dubai semalarında wingsuit parkuru"
+   },
+   "at": "2026-10-28T17:19Z",
+   "h": "042b6f16ac17",
+   "rev": [
+    "img.alt: German has plural 'Wingsuit-Flieger' (flyers), the Turkish draft has singular 'wingsuit pilotu'; fixed to plural"
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Dubai'deki Palm Adası üzerinde wingsuit pilotları (Arşiv fotoğrafı)",
+    "kl": "Ekstrem spor"
+   }
+  },
   "f1-rookies-mexiko-training-2026-10-28": {
    "L": {
     "body": [
@@ -2078,6 +2148,30 @@
    "x": {
     "img.alt": "Bir kafede ahşap masanın üzerinde iki kahve fincanı ve bir akıllı telefon (Sembolik fotoğraf)",
     "kl": "Aşk ve İlişki"
+   }
+  },
+  "gwr-ingenieurs-rekorde-2026-10-28": {
+   "L": {
+    "body": [
+     "Uzaktan kumandalı motorlar, otomobiller ve dronlar: Guinness World Records, teknoloji alanındaki en iyi rekorlardan bazılarını sunuyor."
+    ],
+    "d": "Uzaktan kumandalı motorlar, otomobiller ve dronlar: Guinness World Records, teknoloji alanındaki en iyi rekorlardan bazılarını sunuyor.",
+    "t": "Teknoloji rekorları: Motorlar, otomobiller, dronlar"
+   },
+   "at": "2026-10-28T17:19Z",
+   "h": "672e72979dcf",
+   "rev": [
+    "\"Guinness Records\" is a proper name/label and was changed to \"Guinness Rekorları\"; it should be kept in its established form",
+    "\"(Symbolbild)\" rendered as \"Sembolik fotoğraf\" with an unnatural capital letter; it should be \"sembolik fotoğraf\""
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    1
+   ],
+   "x": {
+    "img.alt": "Bir yarışta uzaktan kumandalı model otomobil (sembolik fotoğraf)",
+    "kl": "Guinness Rekorları"
    }
   },
   "haney-paro-chase-center-19-dezember": {
@@ -3381,23 +3475,20 @@
   "man-city-brighton-ligapokal-maresca-2026-10-28-b18": {
    "L": {
     "body": [
-     "Aston Villa deplasmanındaki 1-2'lik yenilginin ardından Premier Lig lideri Manchester City, çarşamba akşamı Lig Kupası'nda Brighton & Hove Albion ile karşılaşacak. Teknik direktör Enzo Maresca, kaleci Gerónimo Rulli'nin oynayacağını açıkladı. İtalyan teknik adam salı günü, Rulli'nin oynadığında iyi olduğunu ve yarın yine oynayacağını söyledi. Maresca, Birmingham'da devre arasında oyundan çıkarılan savunma oyuncusu Marc Guéhi'nin fiziksel olarak tamamen iyi durumda olduğunu belirtti.",
-     "Erling Haaland, Gianluigi Donnarumma, Rúben Dias, Joško Gvardiol ve Elliot Anderson yenilginin ardından üç gün izin aldı; kupada görev alıp almayacakları belli değil. Antoine Semenyo diz sakatlığı nedeniyle yok, Matheus Nunes da hâlâ sakat. City 21 puanla zirvede, Brighton 16 puanla üçüncü sırada.",
-     "Brighton'da Yankuba Minteh ve Mats Wieffer yeniden seçenekler arasında. Kaoru Mitoma ve Stefanos Tzimas forma giyemeyecek; Ferdi Kadıoğlu ve Chema Andrés ise Liverpool maçında yarı sakat halde oyundan çıkarılmak zorunda kalmıştı. İki takım cumartesi günü Premier Lig'de yeniden karşılaşacak."
+     "Aston Villa karşısında alınan 1-2'lik yenilginin ardından Premier Lig lideri Manchester City, çarşamba akşamı Lig Kupası'nda Brighton & Hove Albion ile karşılaşıyor. Teknik direktör Enzo Maresca, kaleci Gerónimo Rulli'nin oynayacağını açıkladı. İtalyan teknik adam salı günü, Rulli'nin oynadığında iyi olduğunu ve yarın yine oynayacağını söyledi. Maresca, Birmingham'da devre arasında oyundan çıkarılan defans oyuncusu Marc Guéhi'nin fiziksel olarak tamamen iyi durumda olduğunu belirtti.",
+     "Erling Haaland, Gianluigi Donnarumma, Rúben Dias, Joško Gvardiol ve Elliot Anderson yenilginin ardından üç gün izin verildi; kupada oynayıp oynamayacakları belli değil. Antoine Semenyo diz sakatlığı nedeniyle yok, Matheus Nunes da hâlâ sakat. City 21 puanla tabloda lider, Brighton 16 puanla üçüncü sırada.",
+     "Brighton'da Yankuba Minteh ve Mats Wieffer yeniden seçenekler arasında. Kaoru Mitoma ve Stefanos Tzimas yok; Ferdi Kadıoğlu ve Chema Andrés ise Liverpool maçında yarı sakat halde oyundan çıkarılmak zorunda kalmıştı. İki takım cumartesi günü Premier Lig'de yeniden karşılaşacak."
     ],
-    "d": "Manchester City bu akşam İngiltere Lig Kupası'nda Brighton'ı konuk ediyor. Yedek kaleci Rulli oynayacak, Semenyo sakat olduğu için yok. Brighton'da Mitoma forma giyemeyecek.",
-    "t": "Lig Kupası: Maresca, Brighton karşısında Rulli'ye güveniyor – Haaland ve diğerleri üç gün izinliydi"
+    "d": "Manchester City bu akşam İngiltere Lig Kupası'nda Brighton'ı konuk ediyor. Yedek kaleci Rulli oynayacak, Semenyo sakat. Brighton'da Mitoma yok.",
+    "t": "Lig Kupası'nda Brighton maçı: Maresca Rulli'ye güveniyor, Haaland'a üç gün izin verildi"
    },
-   "at": "2026-10-28T17:12Z",
-   "flag": [
-    "Titel zu lang (99 Zeichen)"
-   ],
-   "h": "5db15059f57f",
+   "at": "2026-10-28T17:19Z",
+   "h": "7c7bcf01fe67",
    "rev": [
-    "Headline keeps German 'Ligapokal' untranslated; should be 'Lig Kupası'",
-    "'averajda zirvede' is a mistranslation/addition; German says City leads the table with 21 points",
-    "'Semenyo sakat olduğu için yok' in the teaser is fine, but 'Maresca ... yarın yine oynayacağını' is kept as reported speech (OK)",
-    "Kadıoğlu/Andrés: 'sakatlanarak' is wrong; German says they had to be substituted while injured/hampered (angeschlagen) against Liverpool"
+    "Headline kept 'Ligapokal' untranslated; changed to Lig Kupası",
+    "Haaland 'izin yaptı' ambiguous; German says they were given three days off (bekamen)",
+    "Mitoma/Tzimas 'yok' lacks injury meaning (fallen aus) – acceptable; Kadıoğlu/Andrés were substituted off 'angeschlagen', not necessarily 'sakatlanarak'",
+    "Birmingham is a proper name, fine"
    ],
    "rev_dbg": [
     4,
@@ -3616,25 +3707,23 @@
   "nord-finanzminister-schuldenbremse-bremen-2026-10-28-b18": {
    "L": {
     "body": [
-     "Kuzey Almanya'daki beş eyaletin maliye bakanları Bremen'deki yıllık toplantılarında federal hükümetten borç freninin bir kez daha gevşetilmesini talep etti. Radio Bremen'in bildirdiğine göre eyaletlerin borçlanma payının gayrisafi yurt içi hasılanın yüzde 0,7'sinden yüzde 1'ine çıkarılması isteniyor; aksi takdirde yatırımların tehlikeye gireceği belirtildi.",
-     "Bremen Maliye Senatörü Björn Fecker (Yeşiller) şöyle dedi: “Zaman daralıyor.” Fecker, bir sonraki seçimden sonra federal düzeyde çoğunlukların değişebileceğine işaret etti; federal hükümetin özel fonu tükendikten sonra da yatırım yapılabilmesi gerektiğini söyledi. Aşağı Saksonya Maliye Bakanı Gerald Heere (Yeşiller) ise federal düzeydeki reformun şimdiye kadar gerçek bir sonuç getirmediğini belirterek eleştirdi.",
-     "Eyaletler ayrıca veraset vergisinde daha fazla adalet, vergi boşluklarının kapatılması ve kripto işlemlerinden elde edilen kazançların vergilendirilmesini talep ediyor. Fecker, Almanya'da Almanya'da “300 daire miras bırakıp günün sonunda tek kuruş veraset vergisi ödememenin” mümkün olduğunu söyledi; ancak işletmelerin faaliyetlerini sürdürebilmesi için değişikliklerin dikkatli yapılması gerektiğini belirtti."
+     "Beş kuzey Almanya eyaletinin maliye bakanları, Bremen'de düzenledikleri yıllık toplantıda federal hükümetten borç freninin daha da esnetilmesini talep etti. Radio Bremen'in aktardığına göre eyaletlerin borçlanma payının gayrisafi yurt içi hasılanın yüzde 0,7'sinden yüzde 1'ine çıkarılması isteniyor; aksi takdirde yatırımların tehlikeye gireceği belirtildi.",
+     "Bremen Maliye Senatörü Björn Fecker (Yeşiller) şunları söyledi: “Zaman elimizden kayıp gidiyor.” Fecker, bir sonraki seçimin ardından federal düzeyde çoğunlukların değişebileceğine işaret etti; federal hükümetin özel fonu tükendikten sonra da yatırım yapılabilmesi gerektiğini söyledi. Aşağı Saksonya Maliye Bakanı Gerald Heere (Yeşiller) ise federal düzeydeki reformun şimdiye kadar gerçek bir sonuç getirmediğini ifade ederek eleştirdi.",
+     "Eyaletler ayrıca veraset vergisinde daha fazla adalet, vergi boşluklarının kapatılması ve kripto işlemlerinden elde edilen kazançların vergilendirilmesini talep ediyor. Fecker, Almanya'da “300 daire miras bırakıp günün sonunda tek kuruş veraset vergisi ödememenin” mümkün olduğunu söyledi; ancak işletmelerin faaliyetlerini sürdürebilmesi için değişikliklerin dikkatli yapılması gerektiğini belirtti."
     ],
-    "d": "Bremen, Hamburg, Aşağı Saksonya, Schleswig-Holstein ve Mecklenburg-Vorpommern daha fazla borçlanma alanı ve daha adil bir veraset vergisi istiyor.",
-    "t": "Kuzey Almanya maliye bakanları borç freninin gevşetilmesini istiyor: “Zaman daralıyor”"
+    "d": "Bremen, Hamburg, Aşağı Saksonya, Schleswig-Holstein ve Mecklenburg-Vorpommern daha fazla borçlanma alanı ve daha adil bir veraset vergisi talep ediyor.",
+    "t": "Beş kuzey eyaleti maliye bakanı borç frenine daha fazla esneklik istiyor"
    },
-   "at": "2026-10-28T17:12Z",
-   "h": "e1e80fb1bd24",
+   "at": "2026-10-28T17:19Z",
+   "h": "f042fe4e2d91",
    "rev": [
-    "\"borç frenin\" is ungrammatical; the Turkish is \"borç freninin\" (headline and body)",
-    "\"Steuerschlupflöcher\" was rendered \"vergi açıkları\", which is wrong; it means tax loopholes (\"vergi boşlukları\")",
-    "Quote rendering: \"müden Cent\" is idiomatic and the quote was slightly broken by the grammar; the sentence is smoothed",
-    "The teaser dropped \"mehr Kreditspielraum\" nuance only slightly; it is acceptable and left unchanged",
-    "\"Mecklenburg-Vorpommern\" is a proper name and stays"
+    "Headline: 'Nord-Finanzminister' means finance ministers from the northern states; 'borç frenine daha fazla esneklik istiyor' is awkward, but the meaning is retained, so it is left as is.",
+    "'Steuerschlupflöcher' was rendered 'vergi açıkları' (tax deficits), which is a wrong term; it should be 'vergi boşlukları'.",
+    "Body paragraph 1: 'Beş kuzey Almanya eyaletinin' is fine, but the original says 'Länder', which can also be translated as 'eyalet'; no change is needed."
    ],
    "rev_dbg": [
-    5,
-    4,
+    3,
+    1,
     0
    ],
    "x": {
