@@ -914,7 +914,10 @@
    "time": "17:00",
    "t1": "Cherno More Varna",
    "t2": "Septemvri Sofia",
-   "ft": null
+   "ft": [
+    2,
+    0
+   ]
   },
   {
    "r": 12,
@@ -922,7 +925,10 @@
    "time": "19:30",
    "t1": "Arda Kardzhali",
    "t2": "Levski Sofia",
-   "ft": null
+   "ft": [
+    1,
+    1
+   ]
   },
   {
    "r": 14,
@@ -1537,6 +1543,14 @@
   {
    "n": "BTA – ЦСКА – Лудогорец 2:0, Локомотив Пд – Славия 0:0 (26.10.2026)",
    "u": "https://www.bta.bg/bg/news/sport/1233315-tsska-e-na-parvo-myasto-v-parva-liga-sled-uspeh-v-derbito-sreshtu-ludogorets"
+  },
+  {
+   "n": "BTA – Черно море – Септември 2:0 (27.10.2026)",
+   "u": "https://www.bta.bg/bg/news/sport/1234030-cherno-more-nadigra-septemvri-v-sreshta-ot-12-iya-krag-na-parva-liga"
+  },
+  {
+   "n": "BTA – Арда – Левски 1:1 (27.10.2026)",
+   "u": "https://www.bta.bg/bg/news/sport/1234112-arda-i-levski-zavarshiha-naravno"
   }
  ]
 }
