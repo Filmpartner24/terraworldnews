@@ -156,6 +156,34 @@
     "img.alt": "Hamburg’da adliye binası (Sembolik fotoğraf)"
    }
   },
+  "breuninger-onlineshop-elf-neue-laender-bulgarien": {
+   "L": {
+    "body": [
+     "Stuttgart merkezli moda ve yaşam tarzı şirketi Breuninger, online mağazasını Avrupa'da 11 ülkede daha hizmete açtı: Finlandiya, Estonya, Letonya, Litvanya, İrlanda, Bulgaristan, Slovenya, Slovakya, Hırvatistan, Portekiz ve Yunanistan. Bu ülkelerdeki müşteriler mağazanın İngilizce sürümünü kullanabiliyor; ürün yelpazesi mevcut Avrupa pazarlarındakine benziyor. Breuninger yılbaşında online olarak on ülkede yer alıyordu, ilkbaharda Danimarka, İsveç ve Romanya eklendi. TextilWirtschaft ve Retail-News'e göre pazar sayısı şimdi 24'e ulaştı.",
+     "“Aynı anda 11 yeni Avrupa ülkesinde faaliyete başlamakla büyük ve önemli bir adım atıyoruz” diyen Yönetim Kurulu Başkanı Holger Blecker oldu. Online iş, şirkette büyümenin ana itici gücü sayılıyor. Siparişler Stuttgart yakınlarındaki Sachsenheim'da bulunan mevcut lojistik merkezinden gönderiliyor, teslimatı DHL üstleniyor. TextilWirtschaft'a göre Breuninger yeni pazarlar için somut bir ciro hedefi açıklamadı.",
+     "1881'de Eduard Breuninger tarafından kurulan şirket, Almanya ve Lüksemburg'da 13 mağaza (Warenhaus) işletiyor ve yaklaşık 6.500 kişi istihdam ediyor; online mağaza ise 2008'den beri var. Şirket bilgilerine göre “Beyond” sadakat programının altı ülkede iki milyondan fazla üyesi bulunuyor. Retail-News'e göre Breuninger'in planlanan satışı şimdilik görünüşe göre başarısız oldu."
+    ],
+    "d": "Stuttgart merkezli moda evi Breuninger, online mağazasını Bulgaristan, Yunanistan ve Portekiz dahil 11 AB ülkesinde daha açtı. Böylece şirket 24 pazarda yer alıyor.",
+    "t": "Breuninger artık Bulgaristan'a da teslim ediyor: Online mağaza 11 ülkede daha açıldı"
+   },
+   "at": "2026-10-28T11:45Z",
+   "h": "a2ad52866b09",
+   "rev": [
+    "Headline: \"11 ülkede daha açıldı\" is fine but teaser says present tense \"açıyor\" while German says the shop has been opened (past/perfect context); fixed to past tense",
+    "Teaser: \"Böylece 24 pazarda yer alıyor\" – subject and attribution unclear; made explicit",
+    "Body 2: Blecker's statement and the claim that online business is considered a growth driver were fused into a quote attribution; the growth-driver claim is a general statement by the company, so it w",
+    "\"Warenhäuser\" rendered as \"mağaza\"; \"department stores\" is more accurate",
+    "Kaufhaus in img.alt rendered as \"mağaza\"; changed to \"mağazası\" with department-store wording"
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Stuttgart'taki Breuninger alışveriş merkezinde cam kubbe (Sembolik fotoğraf)"
+   }
+  },
   "bulgarien-cnn-gjurow-interview-jotowa-absage-2026-10-28": {
    "L": {
     "body": [
@@ -1162,6 +1190,36 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Avrupa Parlamentosu'nun Brüksel'deki genel kurul salonu"
+   }
+  },
+  "f1-wolff-russell-mexiko-2026-10-28": {
+   "L": {
+    "body": [
+     "ABD Grand Prix’sinde Mercedes pilotları arasında dünyalar kadar fark vardı: Kimi Antonelli sezonun dokuzuncu zaferini kutladı, George Russell ise beş saniyelik ceza aldıktan sonra yalnızca sekizinci oldu. Motorsport-Total’a göre İngiliz pilot yarışta turlarda ortalama yaklaşık saniyenin onda sekizi kadar takım arkadaşından yavaştı; Antonelli bu sezon hem sıralama turlarında hem de yarış düellosunda Russell’ı geride bırakıyor.",
+     "Takım patronu Toto Wolff nedeni öncelikle araçta arıyor. Formula1.com’a göre (çeviri) Wolff, W17’nin çalışma aralığının “çok zor” olduğunu söyledi ve devamında şöyle dedi: “Bu bizden kaynaklanıyor.” Araç doğru aralıktaysa Russell’ın hızlı olduğunu belirten Wolff şunları söyledi: “Aracı ona uyacak şekilde hazırlayabilirsek, kesinlikle hızlıdır.” Motorsport-Total’a göre Wolff ayrıca şunu vurguladı: “George, takımdaki hepimiz için bir şampiyondur ve her kategoride kazandı.”",
+     "Russell, dünya şampiyonasında 242 puanla ikinci sırada, ancak Lewis Hamilton’dan (241) yalnızca bir puan önde; onların ardından Max Verstappen (236) ve Charles Leclerc (233) geliyor. Antonelli 365 puanla lider; Motorsport-Total’a göre pazar günkü Mexico City yarışında rakiplerinin sonuçlarından bağımsız olarak şampiyonluk için dokuzuncu sıra yetiyor."
+    ],
+    "d": "Kimi Antonelli Meksika’da şampiyon olabilirken Mercedes, George Russell’ın sorunlarının nedenlerini arıyor. Takım patronu Toto Wolff sorumluluğun takımda olduğunu söylüyor.",
+    "t": "“Bu bizden kaynaklanıyor”: Wolff, Austin’de sekizinci olan Russell’ı savundu"
+   },
+   "at": "2026-10-28T11:45Z",
+   "h": "56014d964bea",
+   "rev": [
+    "Headline: \"Das liegt an uns\" means the responsibility lies with the team; \"Bu bizim sorunumuz\" (this is our problem) shifts the meaning. Same in the body quote.",
+    "\"Welten\" idiom rendered as \"dağlar kadar fark\", which is unnatural; \"dünyalar kadar fark\" is more natural.",
+    "Russell's rival Hamilton is wrongly called \"üçüncü sıradaki\" – the German does not state this; it is an addition.",
+    "Qualifying/race duel: \"yarışlarda\" loses the meaning of the head-to-head race duel (Rennduell).",
+    "Quote \"ist er absolut schnell\" is in the present tense and refers to Russell; \"hızlıdır\" is acceptable, but the indirect speech needs a clearer link.",
+    "\"Mexiko-Stadt\" should be rendered as \"Mexico City\" (fine), but \"neunter Platz\" requires \"dokuzuncu sıra\" with the sense \"at least ninth place\"; a plain \"dokuzuncu sıra yetiyor\" is acceptable."
+   ],
+   "rev_dbg": [
+    6,
+    6,
+    0
+   ],
+   "x": {
+    "img.alt": "George Russell, 2025 Japonya Grand Prix’sinde Mercedes ile (Arşiv fotoğrafı)",
+    "kl": "Formula 1"
    }
   },
   "fec-hackerangriff-midterms-2026-10-28-b08": {
@@ -2545,6 +2603,27 @@
     "img.alt": "Katharina von Schnurbein (Arşiv fotoğrafı)"
    }
   },
+  "skims-holiday-2026-kardashian-jenner-schwestern": {
+   "L": {
+    "body": [
+     "İç çamaşırı ve ev giyim markası Skims yılbaşı kampanyasını tanıttı; kurucu Kim Kardashian bu kez kameranın karşısında yalnız değil. Yanında kız kardeşleri Kourtney ve Khloé Kardashian ile Kendall ve Kylie Jenner de poz veriyor. ELLE'e göre fotoğrafları Nadia Lee Cohen çekti; dergi çekimleri nostaljik bir bayram çekimi olarak tanımlıyor.",
+     "İlgili koleksiyonun 29 Ekim'de çıkması planlanıyor. ELLE'in verdiği bilgiye göre koleksiyonda bayram temalı pijamalar, ev giyim setleri, iç çamaşırı ve triko ürünleri ile Fair Isle desenli pijamalar, battaniyeler ve ev terlikleri yer alıyor. Erkekler ve çocuklar için hediye fikirleri de yeni; bunlar arasında bebek tulumları ve evcil hayvanlar için kazaklar bulunuyor. Ayrıca on iki günlük bir advent takvimi de var. Skims, 25 Ekim'de ise eşofman takımları, tişörtler ve pijamalardan oluşan sınırlı sayıda bir çocuk koleksiyonu çıkarmıştı; Perez Hilton'ın haberine göre Kardashian bu koleksiyonu iki gün önce Instagram'da duyurmuştu.",
+     "Kampanyaya ilişkin bir açıklamada Kim Kardashian şöyle dedi: “The holidays have always been such a special time for our family.” Kardashian devamında şunları söyledi: “I can't wait for everyone to see what we have in store this year.”"
+    ],
+    "d": "Kim Kardashian, Skims'in yılbaşı kampanyası için dört kız kardeşini de kameranın karşısına çıkardı. Pijama, triko ve advent takvimi içeren koleksiyon 29 Ekim'de çıkacak.",
+    "t": "Beş kız kardeş, tek bayram: Skims, Kardashian-Jenner'larla yılbaşı kampanyasını tanıttı"
+   },
+   "at": "2026-10-28T11:45Z",
+   "h": "270b4959f610",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Kim Kardashian 2012'de bir etkinlikte (Arşiv fotoğrafı)"
+   }
+  },
   "street-fighter-5-php-sicherheitsluecke": {
    "L": {
     "body": [
@@ -2626,6 +2705,65 @@
    ],
    "x": {
     "img.alt": "Amanda Seyfried 2019'da bir film galasında (Arşiv fotoğrafı)"
+   }
+  },
+  "tn-wawrinka-karriereende-basel-2026-10-28": {
+   "L": {
+    "body": [
+     "Stan Wawrinka'nın profesyonel kariyeri sona erdi. 41 yaşındaki tenisçi, salı akşamı kendi seyircisi önündeki Basel turnuvasında dünya 21 numarası Çekyalı Jiří Lehečka'ya 5-7, 6-7 (2-7) yenildi. SRF'ye göre Wawrinka, ilk sette 3-2'lik skorda iki break fırsatını değerlendiremedi, ardından Lehečka 6-5'te servisini kırdı. İkinci sette her sayı için mücadele etti; tiebreak'i bir backhand hatası belirledi. Son sayı 23.02'de oynandı.",
+     "Wawrinka, SRF'ye göre gözleri yaşlı halde “Hüzünlüyüm ama gülümseyerek ayrılıyorum, çünkü çok sayıda olağanüstü şey yaşama imkânı buldum” dedi ve alkışlayan seyircinin önünde bir onur turu attı. Swiss Indoors, turnuvadan önce de onu bir törenle onurlandırmıştı.",
+     "SRF'ye göre Wawrinka yaklaşık 25 yıl içinde 985 maça çıktı ve 16 turnuva kazandı; bunların arasında üç Grand Slam unvanı var: 2014 Australian Open, 2015 French Open ve 2016 US Open. AFP'ye göre Roger Federer ile birlikte 2008 Pekin Olimpiyatları'nda çiftlerde altın madalya ve Davis Cup'ı kazandı. 19 Aralık'ta Cenevre'de “One last backhand” başlığıyla bir veda töreni planlanıyor; törene Federer ve Andy Murray'in de katılması bekleniyor. Lehečka son 16 turunda Daniel Altmaier ile karşılaşacak."
+    ],
+    "d": "Stan Wawrinka son profesyonel maçına çıktı. 41 yaşındaki İsviçreli, Swiss Indoors'un ilk turunda Jiří Lehečka'ya yenildi ve onur turu atarak veda etti.",
+    "t": "Gözyaşlarıyla veda: Wawrinka kariyerini Basel'de yenilgiyle noktaladı"
+   },
+   "at": "2026-10-28T11:45Z",
+   "h": "0bc6debf3c4c",
+   "rev": [
+    "Teaser: \"Ehrenrunde\" (onur turu) was rendered as \"seyircileri selamlayarak\", which loses the meaning",
+    "\"Kendi ülkesindeki turnuvada, Basel'de\" is clumsy for \"Heimturnier\"",
+    "\"Üzgünüm\" is a wrong rendering of \"traurig\" (\"hüzünlüyüm\" is closer)",
+    "\"Çok sayıda olağanüstü şey\" is slightly off; \"Federer ile\" is fine",
+    "\"Andy Murray'nin\" has the wrong suffix; it should be \"Murray'in\""
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Stan Wawrinka, 2024'te Basel'deki Swiss Indoors'ta (Arşiv fotoğrafı)",
+    "kl": "Tenis"
+   }
+  },
+  "tn-zverev-landaluce-wien-2026-10-28": {
+   "L": {
+    "body": [
+     "Alexander Zverev, Viyana'daki ATP 500 turnuvasında ilk tur yenilgisinden ucuz kurtuldu. Turnuvanın bir numaralı seribaşı Hamburglu raket, dünya 67 numarası 20 yaşındaki İspanyol davetiyeli oyuncu Martín Landaluce'yi 3:05 saatte 7:5, 3:6, 7:6 (13:11) yendi. Dramatik tiebreak'te her iki oyuncu da maç sayısını kaçırdı; ÖTV'ye göre Zverev ancak beşinci maç sayısını değerlendirdi. Zverev, “Onunla daha önce hiç oynamamıştım, bu yüzden beni nelerin beklediğini tam olarak bilmiyordum” dedi. “Ama çok müthiş bir tenis maçı sergiledi.” Tennis Now'a göre Zverev ayrıca şunu da kabul etti: “Gelişmem gerektiğini biliyorum” (çeviri).",
+     "Zverev, son 16 turunda çarşamba günkü Tallon Griekspoor – Brandon Nakashima maçının galibiyle karşılaşacak. ORF'ye göre çeyrek finale yükselirse gelecek pazartesi gününden itibaren dünya bir numarası olacak. Güncel dünya sıralamasında Jannik Sinner 10.450 puanla Zverev'in (9.750) önünde bulunuyor. Carlos Alcaraz da Karen Khachanov'a karşı iki sette kazandığı maçın ardından son 16 turuna yükseldi.",
+     "Grigor Dimitrov'un bir aydan uzun aradan sonraki ilk maçı ise ilk turda sona erdi. Davetiye (wildcard) ile ana tabloda yer alan 35 yaşındaki Bulgar oyuncu, dördüncü seribaşı İtalyan Flavio Cobolli'ye 2:15 saatte 4:6, 6:3, 3:6 yenildi. Cobolli şimdi İtalyan eşleşmesinde Matteo Berrettini ile karşılaşacak."
+    ],
+    "d": "Alexander Zverev, Viyana'da Martín Landaluce'yi üç saatten uzun süren maçta yenerek dünya bir numaralığına bir galibiyet uzaklıkta kaldı. Grigor Dimitrov, Flavio Cobolli'ye kaybetti.",
+    "t": "Viyana'da gerilim: Zverev, Landaluce'yi geçti – Dimitrov, Cobolli'ye yenildi"
+   },
+   "at": "2026-10-28T11:45Z",
+   "h": "98e2089de1a5",
+   "rev": [
+    "Untranslated 'wildcard' in body (first paragraph)",
+    "Untranslated 'Wildcard' in body (third paragraph)",
+    "'topgesetzt' rendered as 'Turnuvanın bir numaralı seribaşı' – awkward, simplified",
+    "Teaser: 'bir galibiyet uzaklıkta' ungrammatical",
+    "'Zverev, ... dedi' quote punctuation broken (comma after closing quote)",
+    "Alcaraz sentence lacks a verb ('son 16 turunda.')"
+   ],
+   "rev_dbg": [
+    6,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Erste Bank Open'ın oynandığı Viyana Stadthalle'si geceleyin (Sembolik fotoğraf)",
+    "kl": "Tenis"
    }
   },
   "trump-methan-regeln-texas-2026-10-28-b11": {
