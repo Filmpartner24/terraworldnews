@@ -1314,3 +1314,7 @@ a.rl-g:hover{filter:brightness(1.1)}
 .nv2 .nv-search{display:none!important}
 /* Menüleiste linksbündig wie der Breaking-News-Block (Nedy 27.10.2026): unsichtbarer Logo-Platzhalter links nur noch in der angehefteten Leiste */
 @media (min-width:861px){.nv2 .nv-logo{display:none}.nv2.stuck .nv-logo{display:flex}.nv2 .nav-items{justify-content:flex-start}}
+/* Menü: Rubrikname mit Unterpunkten ist nur Titel, erster Unterpunkt „Allgemein“ (Nedy 28.10.2026) */
+.nav-dd>a.nv-top{cursor:pointer;user-select:none;-webkit-user-select:none}
+@media (hover:none) and (min-width:861px){.nav-dd:focus-within .dd{display:flex!important}.nav-dd.dd-wide:focus-within .dd{display:grid!important}}
+@media (max-width:860px){.nv2 .nav-dd.dd-wide .dd{display:block!important;min-width:0;position:static;transform:none}.nav-dd>a.nv-top{cursor:default}}

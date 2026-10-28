@@ -459,14 +459,19 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
             target = (alternates or {}).get(code, pre(code))
             langbar += f'<a href="{target}" hreflang="{code}" lang="{code}" title="{e(name)}"{CUR_T if code == l else ""}>{code.upper()}</a>'
 
+    NAV_GEN = LX({'bg': 'Общо', 'de': 'Allgemein', 'en': 'General'})
     clocks = ''.join(f'<span>{e(n)} <b data-tz="{tz}">--:--</b></span>' for n, tz in u['clocks'])
     def _navi(s):
-        a = f'<a href="{sec_home(s, l)}"{CUR_P if canon == sec_url(s, l) or (s in SUBS and canon.startswith(sec_url(s, l))) or any(canon.startswith(sec_url(x, l)) for x in NAV_DD_EXTRA.get(s, [])) else ""}>{e(SEC[l][s][0])}</a>'
+        _on = canon == sec_url(s, l) or (s in SUBS and canon.startswith(sec_url(s, l))) or any(canon.startswith(sec_url(x, l)) for x in NAV_DD_EXTRA.get(s, []))
+        if s not in LSUBS and s not in SUBS:
+            return f'<a href="{sec_home(s, l)}"{CUR_P if _on else ""}>{e(SEC[l][s][0])}</a>'
+        # Rubriken mit Unterpunkten: Rubrikname ist nur Menü-Titel (nicht anklickbar), erster Unterpunkt „Allgemein“ führt zur Rubrikseite (Nedy 28.10.2026)
+        a = f'<a class="nv-top" tabindex="0" role="button" aria-haspopup="true"{CUR_P if _on or canon.startswith(sec_url(s, l)) else ""}>{e(SEC[l][s][0])}</a>'
+        gen = f'<a class="dd-gen" href="{sec_home(s, l)}"{CUR_P if canon == sec_url(s, l) else ""}>{e(NAV_GEN.get(l, NAV_GEN["en"]))}</a>'
         if s in LSUBS:
-            dd = ''.join(f'<a href="{sec_url(x, l)}"{CUR_P if canon == sec_url(x, l) else ""}>{e(SEC[l][x][0])}</a>' for x in NAV_DD_EXTRA.get(s, [])) + ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if canon == sub_url(s, k, l) else ""}>{e(SUB[l][k][0])}</a>' for k in LSUBS[s])
-            return f'<span class="nav-dd{" dd-wide" if len(LSUBS[s]) > 8 else ""}">{a}<span class="dd">{dd}</span></span>'
-        if s not in SUBS: return a
-        dd = ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if canon == sub_url(s, k, l) else ""}>{e(SUB[l][k][0])}</a>' for k in SUBS[s])
+            dd = gen + ''.join(f'<a href="{sec_url(x, l)}"{CUR_P if canon == sec_url(x, l) else ""}>{e(SEC[l][x][0])}</a>' for x in NAV_DD_EXTRA.get(s, [])) + ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if canon == sub_url(s, k, l) else ""}>{e(SUB[l][k][0])}</a>' for k in LSUBS[s])
+            return f'<span class="nav-dd{" dd-wide" if len(LSUBS[s]) + 1 > 8 else ""}">{a}<span class="dd">{dd}</span></span>'
+        dd = gen + ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if canon == sub_url(s, k, l) else ""}>{e(SUB[l][k][0])}</a>' for k in SUBS[s])
         return f'<span class="nav-dd">{a}<span class="dd">{dd}</span></span>'
     _home_svg = '<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M3 11.2 12 4l9 7.2" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.5 10v9.5h4.6v-5.6h3.8v5.6h4.6V10" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round"/></svg>'
     nav = f'<a class="nv-home" href="{pre(l)}"{CUR_P if canon == pre(l) else ""}>{_home_svg}<span>{e(u["home"])}</span></a>'
