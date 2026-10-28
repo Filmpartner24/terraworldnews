@@ -51,6 +51,54 @@
     "kl": "Berlín"
    }
   },
+  "anthropic-medikamente-mithril": {
+   "L": {
+    "body": [
+     "Anthropic amplía su negocio en la investigación de medicamentos. El desarrollador de Claude ha adquirido Mithril Medicine, una empresa con un solo empleado que desarrolla tratamientos para dos formas raras de distrofia muscular. Según Anthropic, el fundador, Cody Tranbarger, coordinó con ayuda de Claude contratos, logística y ensayos con once laboratorios externos, y llevó un candidato a fármaco de la idea a resultados prometedores en ratones en menos de 18 meses. Si los candidatos se mantienen, los estudios en humanos podrían comenzar, como pronto, a finales de 2028.",
+     "Al mismo tiempo, Anthropic publicó el 27 de octubre resultados intermedios con seis socios, entre ellos Bristol Myers Squibb, Generate Biomedicines y Enveda. Según datos de la empresa, en Enveda el tiempo para revisar la documentación de fabricación se redujo un 89 por ciento, de más de 25 horas a menos de tres; en una prueba, Claude encontró los once errores que habían detectado las personas y siete más. Divergence Labs generó con Claude, en aproximadamente un mes, unos 35.000 diseños de anticuerpos contra alergias.",
+     "Las cifras no han sido verificadas de forma independiente: se trata de casos seleccionados por los socios, sin un criterio de comparación común. Hasta ahora, ninguno de los proyectos ha dado lugar a un medicamento autorizado. Bristol Myers Squibb utiliza Claude para evaluar planes de estudios tempranos y sus perspectivas de éxito, y quiere ampliar la colaboración en 2027."
+    ],
+    "d": "Anthropic ha adquirido Mithril Medicine, empresa de una sola persona que desarrolla terapias contra enfermedades musculares raras. Además presenta resultados intermedios de seis colaboraciones farmacéuticas.",
+    "t": "IA en el laboratorio: Anthropic compra una biotecnológica unipersonal y muestra resultados"
+   },
+   "at": "2026-10-28T12:31Z",
+   "h": "0ec25b504217",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: el director de Anthropic, Dario Amodei, en TechCrunch Disrupt en 2023",
+    "kl": "Investigación"
+   }
+  },
+  "anybotics-anymal-x-auslieferung": {
+   "L": {
+    "body": [
+     "ANYbotics, con sede en Zúrich, entrega su robot de inspección ANYmal X a los primeros clientes. Así lo comunicó la empresa el 27 de octubre. Según la compañía, el robot de cuatro patas es el primer robot caminante construido para entornos con riesgo de explosión, como instalaciones petrolíferas, de gas y químicas; debería cumplir las normas de protección contra explosiones ATEX (Europa) e IECEx (internacional). Entre los primeros destinatarios figuran el grupo energético noruego Equinor y DSM-Firmenich. El vídeo de ANYbotics muestra el robot en funcionamiento.",
+     "Para que no se produzca ninguna chispa, los doce accionamientos de las patas y la batería van en carcasas antideflagrantes, y el ordenador y la tecnología de medición se alojan en cámaras selladas llenas de nitrógeno. A ello se suman cubiertas no metálicas, pies conductores para la puesta a tierra y una desconexión automática en caso de temperatura excesiva. Los sensores registran calor, imágenes, sonidos y gas. Según ANYbotics, el desarrollo duró cuatro años; desde 2023, BP, Shell, Petronas, Petrobras, BASF y SLB, entre otras, probaron el robot en un programa de acceso anticipado.",
+     "«Muchos expertos pensaban que un robot caminante nunca podría hacerse seguro para atmósferas explosivas», dijo el cofundador y director Péter Fankhauser. La empresa no indicó ningún precio. ANYbotics quiere mostrar públicamente el ANYmal X por primera vez en la feria energética ADIPEC, del 2 al 5 de noviembre en Abu Dabi."
+    ],
+    "d": "ANYbotics, de Zúrich, entrega su robot de inspección de cuatro patas ANYmal X, según la empresa el primer robot caminante para zonas con riesgo de explosión. Entre los primeros clientes figuran Equinor y DSM-Firmenich.",
+    "t": "Robot caminante para zonas explosivas: ANYbotics comienza a entregar el ANYmal X"
+   },
+   "at": "2026-10-28T12:31Z",
+   "h": "87b2116016b8",
+   "rev": [
+    "Teaser: 'entrega' loses the sense of the German 'liefert aus' (start of deliveries); the teaser is also grammatically weak",
+    "Teaser: 'Entre los primeros clientes:' is a stilted fragment"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: el robot de inspección ANYmal X en una plataforma marina",
+    "kl": "Robótica"
+   }
+  },
   "audemars-piguet-watch-keepers-cpo-plattform": {
    "L": {
     "body": [
@@ -98,6 +146,33 @@
     "img.alt": "Imagen simbólica (archivo): edificio de oficinas en el puerto de Bristol"
    }
   },
+  "axiom-lean-endliche-einfache-gruppen": {
+   "L": {
+    "body": [
+     "La clasificación de los grupos simples finitos se considera la demostración más larga de las matemáticas: unas 15.000 páginas en más de 500 artículos especializados de unos 100 matemáticos a lo largo de décadas. La start-up Axiom Math comunica ahora que ha trasladado toda la prueba al lenguaje del asistente de demostración Lean, en el que el ordenador comprueba cada paso lógico. Para ello, decenas de agentes de IA trabajaron en enjambres durante 24 días; el resultado fue de unos 43,1 millones de líneas de código Lean.",
+     "Según Axiom, los agentes detectaron 34 discrepancias relevantes con respecto a la literatura publicada; las importantes fueron examinadas por matemáticos humanos. Axiom se asesoró con los teóricos de grupos Richard Lyons y Ronald Solomon. Además, personas comprobaron si los enunciados formales expresan realmente el teorema pretendido. El término «teorema enorme» lo acuñó en su día el matemático Daniel Gorenstein.",
+     "Que se trate de la primera prueba completamente verificada por ordenador es, hasta ahora, una afirmación de la propia Axiom. Ante la pregunta de si alguien ajeno a la empresa ya había reconstruido y comprobado la prueba, la directora de la compañía, Carina Hong, respondió, según RuntimeWire: «Todavía no». Axiom, según Hong, publica los archivos de compilación para animar a grupos externos a hacerlo."
+    ],
+    "d": "La start-up Axiom afirma haber formalizado por completo en Lean la prueba de la clasificación de los grupos simples finitos con enjambres de agentes de IA. Aún no se ha reconstruido de forma independiente.",
+    "t": "15.000 páginas de matemáticas en 24 días: agentes de IA verifican el «teorema enorme»"
+   },
+   "at": "2026-10-28T12:31Z",
+   "h": "5d9b561d05dd",
+   "rev": [
+    "Indirect speech 'Axiom veröffentliche die Build-Dateien' was rendered with 'publicaría' (future-in-the-past) and 'según dijo'; this changes the tense and makes the claim look like the company's future",
+    "Teaser: 'Aún no se ha reconstruido de forma independiente' is stated as plain fact, but the German says 'Unabhängig nachgebaut ist das noch nicht'; it is acceptable and kept.",
+    "'Dutzende KI-Agenten' and 'Schwärmen' are fine."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico de portada: agentes de IA formalizan la prueba de la clasificación de los grupos simples finitos",
+    "kl": "Investigación"
+   }
+  },
   "basilia-schmuckmesse-basel-2027": {
    "L": {
     "body": [
@@ -123,6 +198,27 @@
    ],
    "x": {
     "img.alt": "Pabellón 2 de Messe Basel (Foto de archivo)"
+   }
+  },
+  "bayern-kane-dreesen-vertrag-2026-10-28": {
+   "L": {
+    "body": [
+     "El Bayern de Múnich avanza en la renovación del contrato del goleador Harry Kane. «Soy muy positivo al respecto», dijo el consejero delegado Jan-Christian Dreesen a «Sport Bild». «Hemos mantenido buenas conversaciones y ahora estamos en el trabajo de detalle». El contrato de Kane termina al final de la temporada. Los medios informan de una renovación prevista hasta 2029, pero no está confirmada oficialmente.",
+     "Kane recibió el lunes el Balón de Oro en Londres. El internacional inglés se incorporó en 2023 al club de Múnich procedente del Tottenham Hotspur por unos 95 millones de euros. «Para nosotros ha valido cada euro», dijo Dreesen. El club muniqués también quiere mantener a largo plazo a Michael Olise, cuyo contrato llega hasta 2029: «Nos interesa que Michael juegue con nosotros todo el tiempo posible».",
+     "Dreesen considera que el club está bien posicionado en lo financiero: «Tenemos el poder económico para permitirnos cualquier fichaje». Sin embargo, añadió: «Tener solo un gran nombre no te sirve de nada». El miércoles por la noche el Bayern juega la segunda ronda de la Copa contra el 1. FC Magdeburg y el sábado, en la Bundesliga, se enfrenta en el clásico al Borussia Dortmund."
+    ],
+    "d": "El consejero delegado del Bayern, Jan-Christian Dreesen, confía en renovar a Harry Kane, ganador del Balón de Oro. Según él, las conversaciones están muy avanzadas.",
+    "t": "Tras el Balón de Oro, el Bayern, «en el trabajo de detalle» de la renovación de Kane"
+   },
+   "at": "2026-10-28T12:31Z",
+   "h": "4ce96c800001",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Harry Kane calentando antes de un amistoso del Bayern en Salzburgo en enero de 2025 (Foto de archivo)"
    }
   },
   "berlin-landgericht-urteil-betaeubungs-vergewaltigungen-2026-10-28-b11": {
@@ -177,6 +273,33 @@
    ],
    "x": {
     "img.alt": "Edificio judicial en Hamburgo (Imagen simbólica)"
+   }
+  },
+  "bochum-mainz-pokal-aus-2026-10-28": {
+   "L": {
+    "body": [
+     "El VfL Bochum eliminó al primer equipo de la Bundesliga en la segunda ronda de la Copa alemana. El conjunto de Segunda División derrotó el martes por la noche al 1. FSV Mainz 05 por 2-0 (0-0) en el Ruhrstadion. Christian Rasmussen marcó nada más empezar la segunda parte, en el minuto 46, con un disparo que el mainzer Kaishu Sano desvió sin posibilidad de intervención para el portero Daniel Schwolow. El suplente Philipp Hofmann empujó a la red en el minuto 75, tras un contraataque, un centro de Jarne Steuckers y fijó el resultado final.",
+     "Para el Mainz es la cuarta eliminación consecutiva en la segunda ronda de la Copa. El equipo del entrenador Urs Fischer tuvo que prescindir del capitán Nadiem Amiri, que se perdió el partido por molestias en la rodilla. En la Bundesliga, el Mainz era hasta ahora el único equipo que había ganado todos sus partidos a domicilio. El Bochum, con Uwe Rösler como entrenador, solo había sumado dos puntos en su estadio esta temporada.",
+     "El director deportivo Nico Bungert se mostró contundente tras el partido: «Ha sido un fracaso total», dijo, según dpa. También Fischer estaba abatido: «Es difícil encontrar las palabras adecuadas para nuestro rendimiento». El Bochum está en los octavos de final, cuyo sorteo se celebrará el domingo."
+    ],
+    "d": "El Mainz 05 es el primer club de la Bundesliga eliminado en la segunda ronda de la Copa. Christian Rasmussen y el suplente Philipp Hofmann marcaron en el 2-0 del VfL Bochum.",
+    "t": "«Un fracaso total»: el Bochum de Segunda elimina al Mainz de la Copa alemana"
+   },
+   "at": "2026-10-28T12:31Z",
+   "h": "f7c9764f128f",
+   "rev": [
+    "Headline: 'Griff ins Klo' is a vulgar idiom; 'Un fracaso total' is too toned down, but acceptable. No change.",
+    "Awkward, ungrammatical sentence about Hofmann's goal: the comma-separated structure is confusing.",
+    "Rasmussen's goal: 'desvió de forma imposible' is unnatural; the meaning is that the deflection left the keeper helpless.",
+    "'nada más empezar la segunda parte' is fine."
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "El Ruhrstadion de Bochum, estadio local del VfL Bochum (Foto de archivo)"
    }
   },
   "breuninger-onlineshop-elf-neue-laender-bulgarien": {
@@ -527,6 +650,27 @@
    ],
    "x": {
     "img.alt": "Skyline de Riad por la noche (imagen simbólica)"
+   }
+  },
+  "chelsea-joao-pedro-ausfall-2026-10-28": {
+   "L": {
+    "body": [
+     "El Chelsea tendrá que prescindir de João Pedro en las próximas semanas. «Tiene una lesión en el muslo y estará de baja unas semanas. Veremos cuántas», dijo el entrenador Xabi Alonso el martes, antes del partido de la Copa de la Liga contra el Liverpool del miércoles por la noche (21:00 hora central europea). No quiso dar un pronóstico, pero afirmó que el delantero no estaría listo para los próximos partidos.",
+     "João Pedro ha marcado cinco goles en esta temporada de la Premier League; según la agencia PA, en los dos partidos de liga que se ha perdido hasta ahora, el Chelsea no marcó ningún gol. «Es un jugador clave. Lo echaremos de menos», dijo Alonso. Según él, en una situación así hay que «buscar soluciones, no excusas». Una opción es el fichaje Emegha, que vuelve a estar en forma: «Quizá mañana tenga la oportunidad de jugar».",
+     "También será baja Cole Palmer, sancionado tras su expulsión por doble amarilla en el partido de liga contra el Tottenham. «Hemos hablado. Sabe qué error cometió», dijo Alonso. En el Liverpool es baja Jeremie Frimpong por problemas musculares."
+    ],
+    "d": "El Chelsea estará varias semanas sin el delantero João Pedro. Antes de los octavos de final de la Copa de la Liga en Liverpool, el entrenador Xabi Alonso confirmó una lesión en el muslo.",
+    "t": "Chelsea, varias semanas sin João Pedro – Alonso: «Buscar soluciones, no excusas»"
+   },
+   "at": "2026-10-28T12:31Z",
+   "h": "fbcb469f8860",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Stamford Bridge en Londres, estadio del Chelsea, antes de un partido en enero de 2025 (Imagen simbólica)"
    }
   },
   "deepmind-genie-4-weltmodell": {
@@ -1377,6 +1521,31 @@
     "img.alt": "Gráfico de portada de TERRA WORLD NEWS: Moda"
    }
   },
+  "juventus-spalletti-de-rossi-genoa-2026-10-28": {
+   "L": {
+    "body": [
+     "La Juventus visita el miércoles a las 20:45 al Génova en la Serie A. Para el entrenador Luciano Spalletti es un reencuentro con el técnico del Génova, Daniele De Rossi, a quien entrenó en su día en la Roma. «Lo conozco bien, era mi brazo prolongado en el campo, transmitía esa voluntad y esa tenacidad a los demás», dijo Spalletti el martes. Según Spalletti, el Génova será un rival extremadamente difícil, tanto por el ambiente como por las soluciones tácticas; pero sobre todo, afirmó, el equipo tiene «la vena de De Rossi».",
+     "Spalletti justificó el cambio a un sistema 3-5-2 por la fase actual y la situación de los jugadores. Rechazó los informes según los cuales el equipo habría pedido ese sistema: «He oído que era una solución deseada por el grupo, pero no es cierto». En cuanto a la plantilla, hay una buena noticia: Sarr también vuelve a estar disponible. La Juventus ganó en su último partido, en Lecce.",
+     "En la lucha por el título, el Lazio se adelantó el martes con un 6-2 en Sassuolo y asumió por el momento en solitario el liderato. El Inter de Milán, su perseguidor, juega el miércoles a las 18:30 en casa del colista, el Venezia."
+    ],
+    "d": "La Juventus visita el miércoles por la noche al Génova de Daniele De Rossi, antiguo jugador de Spalletti en la Roma. El técnico juventino espera un rival extremadamente duro.",
+    "t": "Spalletti antes de visitar Génova: De Rossi era «mi brazo prolongado en el campo»"
+   },
+   "at": "2026-10-28T12:31Z",
+   "h": "99402b4491dc",
+   "rev": [
+    "\"verlängerter Arm\" rendered as \"brazo derecho\" (right-hand man), which changes the idiom's meaning; \"brazo prolongado\" is closer, and \"prolongación mía en el campo\" is natural",
+    "Headline and body quote repeat the same mistranslation"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Luciano Spalletti en junio de 2025, entonces todavía seleccionador de Italia (Foto de archivo)"
+   }
+  },
   "kein-quorum-sondersitzung-starlink-radew-2026-10-28-b11": {
    "L": {
     "body": [
@@ -2216,6 +2385,32 @@
    ],
    "x": {
     "img.alt": "Panorámica del estadio Volksparkstadion de Hamburgo (Foto de archivo)"
+   }
+  },
+  "malaysia-ki-chips-klia-beschlagnahmt": {
+   "L": {
+    "body": [
+     "La aduana de Malasia ha incautado 30 servidores con chips de IA avanzados porque iban a hacerse pasar por el país sin la autorización necesaria. El cargamento, valorado en unos 49,5 millones de ringgit (unos 12 millones de dólares), fue descubierto ya el 15 de octubre en un almacén de la zona franca del aeropuerto de Kuala Lumpur; la aduana dio a conocer el hallazgo el miércoles. Los servidores procedían de un país asiático no identificado, estaban declarados como componentes electrónicos y debían reenviarse a otro país asiático.",
+     "Las autoridades atribuyen el caso a una presunta red que utilizaría Malasia como país de tránsito. Según la aduana, es el quinto caso de este año; en conjunto se trata de mercancía por valor de más de 100 millones de ringgit. En junio ya se habían incautado 72 servidores de IA en el mismo aeropuerto. Hasta ahora no ha habido detenciones. La aduana no reveló el fabricante, el origen ni el destino de los chips, alegando las investigaciones en curso.",
+     "Malasia clasifica los chips de IA de alto rendimiento como bienes de doble uso que también podrían emplearse con fines militares. Desde el año pasado, la exportación y el tránsito de chips de IA estadounidenses de alto rendimiento requieren autorización, una medida introducida tras la presión de Washington, que quiere evitar que esos chips lleguen a China a través de terceros países."
+    ],
+    "d": "La aduana de Malasia ha incautado en el aeropuerto de Kuala Lumpur 30 servidores con chips de IA por unos 12 millones de dólares, el quinto caso este año atribuido a una presunta red de contrabando.",
+    "t": "Disfrazados de piezas electrónicas: Malasia incauta 30 servidores de IA en el aeropuerto"
+   },
+   "at": "2026-10-28T12:31Z",
+   "h": "8fcb242faf1d",
+   "rev": [
+    "Nonsensical wording: the servers were not 'introducidos en tránsito' but were to be moved through the country without the necessary permit",
+    "Wording 'con referencia a las investigaciones en curso' is unnatural; the customs office cited ongoing investigations as the reason"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: terminal del Aeropuerto Internacional de Kuala Lumpur (KLIA)",
+    "kl": "Chips"
    }
   },
   "mbilli-fehler-canelo-null-chance-porter": {

@@ -50,6 +50,58 @@
     "kl": "Berlin"
    }
   },
+  "anthropic-medikamente-mithril": {
+   "L": {
+    "body": [
+     "Anthropic, ilaç araştırmaları alanındaki faaliyetlerini genişletiyor. Claude'un geliştiricisi, kas distrofisinin iki nadir türü için tedaviler geliştiren ve yalnızca bir çalışanı bulunan Mithril Medicine'i satın aldı. Anthropic'e göre kurucu Cody Tranbarger, Claude'un yardımıyla sözleşmeleri, lojistiği ve on bir harici laboratuvarla yürütülen deneyleri koordine etti ve bir etken madde adayını 18 aydan kısa sürede fikir aşamasından farelerde umut verici sonuçlara taşıdı. Adaylar başarılı olursa, insanlar üzerindeki çalışmalar en erken 2028 sonunda başlayabilir.",
+     "Anthropic, 27 Ekim'de ayrıca Bristol Myers Squibb, Generate Biomedicines ve Enveda'nın da aralarında bulunduğu altı ortakla ara sonuçlar yayımladı. Şirket verilerine göre Enveda'da üretim belgelerinin incelenme süresi yüzde 89 azalarak 25 saatten fazlayken üç saatin altına indi; bir testte Claude, insanların bulduğu on bir hatanın tamamını ve yedi hatayı daha tespit etti. Divergence Labs, Claude ile yaklaşık bir ayda alerjilere karşı 35.000 civarında antikor tasarımı üretti.",
+     "Rakamlar bağımsız olarak doğrulanmış değil: Bunlar, ortaklar tarafından seçilmiş ve ortak bir karşılaştırma ölçütü bulunmayan örnek olaylar. Bu projelerden şimdiye kadar onaylanmış bir ilaç çıkmadı. Bristol Myers Squibb, erken aşama çalışma planlarını ve bunların başarı şansını değerlendirmek için Claude'u kullanıyor ve iş birliğini 2027'de genişletmek istiyor."
+    ],
+    "d": "Anthropic, nadir kas hastalıkları için tedaviler geliştiren tek kişilik şirket Mithril Medicine'i satın aldı. Claude'un geliştiricisi ayrıca altı ilaç ortaklığından ara sonuçlar sundu.",
+    "t": "Laboratuvarda yapay zekâ: Anthropic tek kişilik biyoteknoloji şirketini satın aldı"
+   },
+   "at": "2026-10-28T12:31Z",
+   "h": "0ec25b504217",
+   "rev": [
+    "Headline omits the 'Pharma-Ergebnisse' part of the German headline (not an error, left as is)",
+    "Teaser: 'altı ilaç ortaklığından' acceptable; 'Zugleich' fine",
+    "Body 2: 'Studien am Menschen' fine; 'ayrıca' placement fine",
+    "Body 2: 'mehr als 25 auf unter drei Stunden' was rendered as 'saatten fazla olan süreden', which is awkward and unnatural; fixed",
+    "Body 2: 'yaklaşık ... yaklaşık' repetition, fixed",
+    "Body 3: 'Studienplänen' rendered 'çalışma planları', changed to 'klinik çalışma planları' is not necessary; left"
+   ],
+   "rev_dbg": [
+    6,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Anthropic CEO'su Dario Amodei, 2023'te TechCrunch Disrupt'ta",
+    "kl": "Araştırma"
+   }
+  },
+  "anybotics-anymal-x-auslieferung": {
+   "L": {
+    "body": [
+     "Zürih merkezli ANYbotics, denetim robotu ANYmal X'i ilk müşterilere teslim ediyor. Şirket bunu 27 Ekim'de duyurdu. Şirket bilgilerine göre dört bacaklı robot, örneğin petrol, gaz ve kimya tesisleri gibi patlama riski taşıyan ortamlar için üretilmiş ilk yürüyen robot; robotun ATEX (Avrupa) ve IECEx (uluslararası) patlama korunumu standartlarını karşılaması öngörülüyor. İlk teslimat alanlar arasında Norveçli enerji şirketi Equinor ve DSM-Firmenich de bulunuyor. ANYbotics'in yayımladığı video, robotu iş başında gösteriyor.",
+     "Kıvılcım oluşmaması için on iki bacak motoru ve akü basınca dayanıklı gövdelerin içinde yer alıyor; bilgisayar ve ölçüm teknolojisi ise azotla doldurulmuş, sızdırmaz bölmelere yerleştirilmiş. Bunlara metal olmayan kaplamalar, topraklama için iletken ayaklar ve sıcaklık çok yükseldiğinde otomatik kapanma özelliği ekleniyor. Sensörler ısıyı, görüntüleri, sesleri ve gazı algılıyor. ANYbotics'e göre geliştirme süreci dört yıl sürdü; 2023'ten bu yana BP, Shell, Petronas, Petrobras, BASF ve SLB gibi şirketler robotu erken erişim programında test etti.",
+     "Kurucu ortak ve CEO Péter Fankhauser, “Birçok uzman, yürüyen bir robotun patlama riski taşıyan ortamlar için asla güvenli hale getirilemeyeceğini düşünüyordu” dedi. Şirket fiyat açıklamadı. ANYbotics, ANYmal X'i ilk kez 2-5 Kasım tarihlerinde Abu Dabi'de düzenlenecek ADIPEC enerji fuarında kamuoyuna göstermeyi planlıyor."
+    ],
+    "d": "Zürih merkezli ANYbotics, dört bacaklı denetim robotu ANYmal X'in teslimatına başladı. Şirkete göre robot, patlayıcı ortamlar için geliştirilen ilk yürüyen robot. İlk müşteriler arasında Equinor ve DSM-Firmenich var.",
+    "t": "Patlama riski taşıyan tesisler için yürüyen robot: ANYbotics ANYmal X teslimatına başladı"
+   },
+   "at": "2026-10-28T12:31Z",
+   "h": "87b2116016b8",
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Bir açık deniz tesisinde denetim robotu ANYmal X",
+    "kl": "Robotik"
+   }
+  },
   "audemars-piguet-watch-keepers-cpo-plattform": {
    "L": {
     "body": [
@@ -101,6 +153,28 @@
     "img.alt": "Sembolik fotoğraf (arşiv): Bristol limanındaki ofis binası"
    }
   },
+  "axiom-lean-endliche-einfache-gruppen": {
+   "L": {
+    "body": [
+     "Sonlu basit grupların sınıflandırması, matematiğin en uzun kanıtı olarak kabul ediliyor: yaklaşık 100 matematikçinin onlarca yıl boyunca yazdığı 500'den fazla makalede yaklaşık 15.000 sayfa. Axiom Math girişimi, bilgisayarın her mantıksal adımı denetlediği Lean kanıt doğrulayıcısının diline tüm kanıtı aktardığını duyurdu. Bunun için onlarca yapay zekâ ajanı sürüler hâlinde 24 gün çalıştı; ortaya yaklaşık 43,1 milyon satır Lean kodu çıktı.",
+     "Axiom'a göre ajanlar, yayımlanmış literatürde 34 kayda değer sapma buldu; bunlardan önemli olanları insan matematikçiler inceledi. Axiom, grup kuramcıları Richard Lyons ve Ronald Solomon'dan danışmanlık aldı. İnsanlar ayrıca biçimsel ifadelerin gerçekten kastedilen teoremi ifade edip etmediğini kontrol etti. “Devasa teorem” terimini bir zamanlar matematikçi Daniel Gorenstein ortaya atmıştı.",
+     "Bunun bilgisayarla tümüyle doğrulanmış ilk kanıt olduğu, şimdilik yalnızca Axiom'un kendi beyanı. Şirket dışında kimsenin kanıtı yeniden oluşturup denetleyip denetlemediği sorulduğunda, şirketin CEO'su Carina Hong, RuntimeWire'a göre “Henüz değil” yanıtını verdi. Hong'un aktardığına göre Axiom, dış grupları buna teşvik etmek için derleme dosyalarını yayımlıyor."
+    ],
+    "d": "Axiom girişimi, sonlu basit grupların sınıflandırma kanıtını yapay zekâ ajanı sürüleriyle Lean'de tümüyle biçimselleştirdiğini açıkladı. Kanıt henüz bağımsız olarak yeniden oluşturulmadı.",
+    "t": "24 günde 15.000 sayfa matematik: Yapay zekâ ajanları “devasa teoremi” denetledi"
+   },
+   "at": "2026-10-28T12:31Z",
+   "h": "5d9b561d05dd",
+   "rev_dbg": [
+    5,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Kapak görseli: Yapay zekâ ajanları sonlu basit grupların sınıflandırma kanıtını biçimselleştiriyor",
+    "kl": "Araştırma"
+   }
+  },
   "basilia-schmuckmesse-basel-2027": {
    "L": {
     "body": [
@@ -120,6 +194,33 @@
    ],
    "x": {
     "img.alt": "Messe Basel'in 2 numaralı salonu (Arşiv fotoğrafı)"
+   }
+  },
+  "bayern-kane-dreesen-vertrag-2026-10-28": {
+   "L": {
+    "body": [
+     "Bayern Münih, golcü Harry Kane ile sözleşme uzatma konusunda ilerleme kaydediyor. Yönetim kurulu başkanı Jan-Christian Dreesen, “Sport Bild”e verdiği demeçte “Bu konuda çok olumluyum” dedi. “İyi görüşmeler yaptık ve şu anda detay çalışmasındayız.” Kane'in sözleşmesi sezon sonunda bitiyor. Medya, sözleşmenin 2029'a kadar uzatılmasının planlandığını bildiriyor; ancak bu resmen doğrulanmış değil.",
+     "Kane, pazartesi günü Londra'da Ballon d'Or ödülüne layık görülmüştü. İngiltere milli takım oyuncusu, 2023'te yaklaşık 95 milyon euroya Tottenham Hotspur'dan Münih'e transfer olmuştu. Dreesen, “Bizim için her euroya değdi” dedi. Sözleşmesi 2029'a kadar süren Michael Olise'yi de Münih yönetimi uzun vadede kadroda tutmak istiyor. Dreesen: “Michael'ın bizimle mümkün olduğunca uzun süre oynamasını istiyoruz.”",
+     "Dreesen, kulübün finansal açıdan iyi durumda olduğunu söyledi: “Her transferi karşılayabilecek ekonomik güce sahibiz.” Ancak şunun da geçerli olduğunu belirtti: “Sadece büyük bir isme sahip olmak sana hiçbir işine yaramaz.” Bayern çarşamba akşamı Kupa'nın ikinci turunda 1. FC Magdeburg ile oynayacak, cumartesi günü Bundesliga'da Borussia Dortmund ile klasik karşılaşmaya çıkacak."
+    ],
+    "d": "Bayern Münih CEO'su Jan-Christian Dreesen, Ballon d'Or sahibi Harry Kane'in sözleşmesini uzatma konusunda umutlu. Dreesen'e göre görüşmeler epey ilerledi.",
+    "t": "Ballon d'Or sonrası Bayern, Kane'in sözleşme uzatmasında „detay çalışmasında“"
+   },
+   "at": "2026-10-28T12:31Z",
+   "h": "4ce96c800001",
+   "rev": [
+    "Quotation marks mixed („ “ and “ ”) – unified in the Dreesen quote and the Sport Bild reference",
+    "Olise sentence: 'belirtildi' removes attribution to Dreesen; the quote is Dreesen's statement",
+    "Teaser: 'çok ilerledi' lacks reported-speech marker; fixed to 'ilerlediğini söylüyor'",
+    "Awkward wording of 'Detailarbeit' and 'ilgimiz var' / 'sana' – small naturalness fixes"
+   ],
+   "rev_dbg": [
+    4,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Harry Kane, Ocak 2025'te Bayern'in Salzburg'daki hazırlık maçı öncesinde ısınırken (Arşiv fotoğrafı)"
    }
   },
   "berlin-landgericht-urteil-betaeubungs-vergewaltigungen-2026-10-28-b11": {
@@ -175,6 +276,32 @@
    ],
    "x": {
     "img.alt": "Hamburg’da adliye binası (Sembolik fotoğraf)"
+   }
+  },
+  "bochum-mainz-pokal-aus-2026-10-28": {
+   "L": {
+    "body": [
+     "VfL Bochum, Almanya Kupası ikinci turunda ilk Bundesliga takımını eledi. İkinci ligde mücadele eden Bochum, salı akşamı Ruhrstadion'da 1. FSV Mainz 05'i 2-0 (0-0) yendi. Christian Rasmussen, ikinci yarının başında 46. dakikada, Mainzlı Kaishu Sano'nun kaleci Daniel Schwolow'un yetişemeyeceği şekilde yön değiştirdiği bir şutla golü attı. Sonradan oyuna giren Philipp Hofmann ise 75. dakikada bir kontra atağın ardından Jarne Steuckers'in ortasını ağlara göndererek skoru belirledi.",
+     "Mainz için bu, ikinci turda üst üste dördüncü kupa vedası oldu. Teknik direktör Urs Fischer'in takımı, diz rahatsızlığı nedeniyle oynayamayan kaptan Nadiem Amiri olmadan sahaya çıktı. Mainz, Bundesliga'da bu zamana kadar tüm deplasman maçlarını kazanan tek takımdı. Teknik direktör Uwe Rösler yönetimindeki Bochum ise bu sezon kendi stadyumunda daha önce yalnızca iki puan almıştı.",
+     "Spor direktörü Nico Bungert maçın ardından net konuştu: dpa'nın aktardığına göre “Bu tam bir fiyaskoydu” dedi. Fischer de hayal kırıklığı yaşadı: “Performansımız için doğru kelimeleri bulmak zor.” Bochum, kurası pazar günü çekilecek olan son 16 turuna yükseldi."
+    ],
+    "d": "Mainz 05, Almanya Kupası ikinci turunda elenen ilk Bundesliga kulübü oldu. VfL Bochum'un 2-0'lık galibiyetinde Christian Rasmussen ve sonradan oyuna giren Philipp Hofmann gol attı.",
+    "t": "“Tam bir fiyasko”: İkinci ligdeki Bochum, Mainz'ı Almanya Kupası'ndan eledi"
+   },
+   "at": "2026-10-28T12:31Z",
+   "h": "f7c9764f128f",
+   "rev": [
+    "\"veda\" after \"kupa\" is ungrammatical (missing possessive: \"kupa vedası\"), and the sentence is awkward",
+    "Quote attribution order is clumsy: \"dedi, dpa'nın aktardığına göre\" should be reworded to natural Turkish",
+    "\"Mainz ... ilk Bundesliga kulübü oldu\" in teaser is fine; \"Kapitän ... kniebeschwerden\" 'diz sakatlığı' slightly changes 'Kniebeschwerden' (complaints, not injury)"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Bochum'daki Ruhrstadion, VfL Bochum'un iç saha stadyumu (Arşiv fotoğrafı)"
    }
   },
   "breuninger-onlineshop-elf-neue-laender-bulgarien": {
@@ -576,6 +703,33 @@
    ],
    "x": {
     "img.alt": "Akşam saatlerinde Riyad'ın silüeti (Sembolik fotoğraf)"
+   }
+  },
+  "chelsea-joao-pedro-ausfall-2026-10-28": {
+   "L": {
+    "body": [
+     "Chelsea önümüzdeki haftalarda João Pedro olmadan oynayacak. Teknik direktör Xabi Alonso, çarşamba akşamı (21:00 Orta Avrupa Saati) oynanacak Liverpool'daki Lig Kupası maçı öncesinde salı günü yaptığı açıklamada, “Uyluğunda bir sakatlık var ve birkaç hafta forma giyemeyecek. Bakalım kaç hafta olacak” dedi. Alonso bir tahminde bulunmak istemedi, ancak forvetin önümüzdeki maçlar için hazır olmadığını söyledi.",
+     "João Pedro bu Premier League sezonunda beş gol attı; PA haber ajansına göre, kaçırdığı iki lig maçında Chelsea gol atamadı. Alonso, “O kilit bir oyuncu. Onu özleyeceğiz” dedi. Alonso, böyle bir durumda “çözüm aramak gerektiğini, mazeret aramak değil” söyledi. Seçeneklerden biri yeniden formda olan yeni transfer Emegha: “Belki yarın oynama şansı bulur.”",
+     "Tottenham karşısındaki lig maçında ikinci sarı karttan atılan Cole Palmer da cezalı olduğu için forma giyemeyecek. Alonso, “Konuştuk. Nasıl bir hata yaptığının farkında” dedi. Liverpool'da ise Jeremie Frimpong kas sorunları nedeniyle takımda yok."
+    ],
+    "d": "Chelsea, golcü João Pedro'dan birkaç hafta yoksun kalacak. Teknik direktör Xabi Alonso, Lig Kupası son 16 turundaki Liverpool maçı öncesinde uyluk sakatlığını doğruladı.",
+    "t": "Chelsea haftalarca João Pedro'suz – Alonso: “Çözüm aramalı, mazeret değil”"
+   },
+   "at": "2026-10-28T12:31Z",
+   "h": "fbcb469f8860",
+   "rev": [
+    "Weekday/time order: German says the match is Wednesday evening, statement Tuesday; Turkish weekday 'Çarşamba' wrongly capitalised mid-sentence per TDK (days are lowercase unless starting a sentence)",
+    "Quote 'Lösungen suchen, keine Ausreden' – the draft's indirect rendering 'mazeret aramamak' alters the quote wording slightly; made closer to the original",
+    "Headline quote uses 'çözüm aramalı' which is fine; 'Liverpool'da' for Frimpong is fine",
+    "Palmer's card description clumsy: Gelb-Rote Karte = two yellows leading to dismissal, rendering was redundant/awkward"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Chelsea'nin iç saha stadı Londra'daki Stamford Bridge, Ocak 2025'te bir maç öncesinde (Sembolik fotoğraf)"
    }
   },
   "deepmind-genie-4-weltmodell": {
@@ -1471,6 +1625,31 @@
    ],
    "x": {
     "img.alt": "TERRA WORLD NEWS başlık görseli: Moda"
+   }
+  },
+  "juventus-spalletti-de-rossi-genoa-2026-10-28": {
+   "L": {
+    "body": [
+     "Juventus, çarşamba akşamı 20:45'te Serie A'da Cenova'nın konuğu olacak. Teknik direktör Luciano Spalletti için bu maç, bir dönem AS Roma'da çalıştırdığı Cenova teknik direktörü Daniele De Rossi ile yeniden karşılaşmak anlamına geliyor. Spalletti salı günü “Onu iyi tanıyorum, sahadaki uzantımdı; bu istekliliği ve inadı diğerlerine aktardı” dedi. Spalletti'ye göre Cenova, hem atmosfer hem de taktik çözümler nedeniyle son derece zor bir rakip olacak; ancak en önemlisi, takım “De Rossi'nin damarına” sahip.",
+     "Spalletti, 3-5-2 sistemine geçişi mevcut dönemle ve oyuncuların durumuyla gerekçelendirdi. Takımın bu sistemi istediği yönündeki haberleri yalanladı: “Bunun grubun istediği bir çözüm olduğunu duydum ama bu doğru değil.” Kadroda iyi bir haber var: Sarr da yeniden hazır. Juventus son olarak Lecce deplasmanında kazanmıştı.",
+     "Şampiyonluk yarışında Lazio salı günü Sassuolo deplasmanında 6-2 kazanarak liderliği şimdilik tek başına devraldı. Takipçi Inter ise çarşamba günü 18:30'da ligin son sırasındaki Venezia'nın konuğu olacak."
+    ],
+    "d": "Juventus çarşamba akşamı Cenova'ya konuk oluyor; rakip teknik direktör, Roma'da bir dönem Spalletti'nin oyuncusu olan Daniele De Rossi. Juve teknik direktörü Spalletti son derece zorlu bir rakip bekliyor.",
+    "t": "Spalletti'den Cenova deplasmanı öncesi: De Rossi “sahadaki uzantımdı”"
+   },
+   "at": "2026-10-28T12:31Z",
+   "h": "99402b4491dc",
+   "rev": [
+    "Quote marks in the headline used the typographic “ ” pair around a short quote; this is acceptable, but the teaser contains a meaning error: 'Spalletti son derece zorlu bir rakip bekliyor' lacks a sub",
+    "Teaser: 'rakip teknik direktör ... Spalletti'nin oyuncusu' is fine, but the last sentence needs to name Juve coach for clarity"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Luciano Spalletti, Haziran 2025'te, o dönemde hâlâ İtalya Milli Takımı teknik direktörüydü (Arşiv fotoğrafı)"
    }
   },
   "kein-quorum-sondersitzung-starlink-radew-2026-10-28-b11": {
@@ -2378,6 +2557,35 @@
    ],
    "x": {
     "img.alt": "Hamburg'daki Volksparkstadion'un panoraması (Arşiv fotoğrafı)"
+   }
+  },
+  "malaysia-ki-chips-klia-beschlagnahmt": {
+   "L": {
+    "body": [
+     "Malezya Gümrük İdaresi, gerekli izin olmadan ülke üzerinden geçirilmek istendiği için gelişmiş yapay zeka çipleri içeren 30 sunucuya el koydu. Yaklaşık 49,5 milyon ringgit (yaklaşık 12 milyon dolar) değerindeki yük, 15 Ekim'de Kuala Lumpur Havalimanı'ndaki serbest bölge deposunda bulundu; gümrük bulguyu çarşamba günü duyurdu. Sunucular adı açıklanmayan bir Asya ülkesinden geldi, elektronik bileşen olarak beyan edilmişti ve başka bir Asya ülkesine gönderilecekti.",
+     "Yetkililer olayı, Malezya'yı transit ülke olarak kullandığı iddia edilen bir ağa atfediyor. Gümrüğe göre bu, bu yılki beşinci olay; toplamda değeri 100 milyon ringgitten fazla olan mallar söz konusu. Haziranda aynı havalimanında 72 yapay zeka sunucusuna zaten el konulmuştu. Şimdiye kadar gözaltı yapılmadı. Gümrük, devam eden soruşturmalara atıfta bulunarak çiplerin üreticisini, kökenini ve gideceği yeri açıklamadı.",
+     "Malezya, yüksek performanslı yapay zeka çiplerini askeri amaçla da kullanılabilecek çift kullanımlı mallar olarak sınıflandırıyor. Geçen yıldan beri ABD'ye ait yüksek performanslı yapay zeka çiplerinin ihracatı ve transit geçişi için izin gerekiyor; bu düzenleme, bu tür çiplerin üçüncü ülkeler üzerinden Çin'e ulaşmasını önlemek isteyen Washington'ın baskısı üzerine getirildi."
+    ],
+    "d": "Malezya gümrüğü, Kuala Lumpur Havalimanı'nda yaklaşık 12 milyon dolar değerinde yapay zeka çipli 30 sunucuya el koydu. Bu, iddia edilen bir kaçakçı şebekesine atfedilen bu yılki beşinci olay oldu.",
+    "t": "Elektronik parça gibi gösterildi: Malezya havalimanında 30 yapay zeka sunucusuna el koydu"
+   },
+   "at": "2026-10-28T12:31Z",
+   "h": "8fcb242faf1d",
+   "rev": [
+    "Headline: \"Elektronik parça olarak gizlendi\" is unnatural and the object-less \"el koydu\" is misleading; reworded",
+    "Teaser: \"bu\" repeated, sentence awkward; the dash construction was lost",
+    "Body 1: \"weil\" (causal relation) was rendered as a participle and is not explicit; \"Elektronik\" should be translated as \"elektronik\" naturally",
+    "Body 2: \"Hersteller, Herkunft und Ziel\" fine; \"zusammen\" rendered OK",
+    "Body 3: \"US-Hochleistungs-KI-Chips\" translated as \"ABD yapımı\" (US-made), which is an unwarranted addition; \"Durchfuhr\" fine"
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Kuala Lumpur Uluslararası Havalimanı (KLIA) terminali",
+    "kl": "Çipler"
    }
   },
   "mbilli-fehler-canelo-null-chance-porter": {
