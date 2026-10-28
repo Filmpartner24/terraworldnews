@@ -10,7 +10,7 @@
   "de": "World Boxing Organization",
   "en": "World Boxing Organization"
  },
- "asof": "2026-10-27",
+ "asof": "2026-10-28",
  "champions": [
   {
    "div": {
@@ -105,7 +105,12 @@
    },
    "limit": "bis 63,5 kg (140 lb)",
    "name": "Shakur Stevenson",
-   "country": "USA"
+   "country": "USA",
+   "note": {
+    "bg": "WBO разпореди преговори за задължителна защита срещу Реймънд Мураталя (срок до 16.11.2026)",
+    "de": "WBO hat Verhandlungen über die Pflichtverteidigung gegen Raymond Muratalla angeordnet (Frist bis 16.11.2026)",
+    "en": "WBO ordered negotiations for a mandatory defence against Raymond Muratalla (deadline 16.11.2026)"
+   }
   },
   {
    "div": {
@@ -286,6 +291,23 @@
     "en": "WBO world title"
    },
    "note": "Pflichtverteidigung gegen den Interims-Champion; am 12.10.2026 von Matchroom offiziell angekündigt (laut Boxing News)"
+  },
+  {
+   "date": "2026-12-19",
+   "place": "Chase Center, San Francisco, USA",
+   "f1": "Devin Haney",
+   "f2": "Liam Paro",
+   "div": {
+    "bg": "Полусредна категория",
+    "de": "Weltergewicht",
+    "en": "Welterweight"
+   },
+   "title": {
+    "bg": "Обединителен мач WBO/IBF",
+    "de": "WBO-/IBF-Vereinigung",
+    "en": "WBO/IBF unification"
+   },
+   "note": "laut The Ring (Mike Coppinger), noch nicht offiziell angekündigt; DAZN"
   }
  ],
  "results": [
@@ -470,6 +492,14 @@
   {
    "n": "BoxingScene, 23.10.2026",
    "u": "https://www.boxingscene.com/articles/lorenzo-parra-out-rafael-espinoza-to-defend-title-against-late-sub-ricardo-blandon-on-undercard-of-canelo-mbilli"
+  },
+  {
+   "n": "Sports Illustrated, 27.10.2026 (Haney vs. Paro)",
+   "u": "https://www.si.com/fannation/boxing/date-and-location-announced-for-devin-haney-vs-liam-paro-fight"
+  },
+  {
+   "n": "FIGHTMAG, 27.10.2026 (WBO-Anordnung Stevenson vs. Muratalla)",
+   "u": "https://www.fightmag.com/wbo-orders-negotiations-for-stevenson-to-defend-140-pound-title-against-muratalla/"
   }
  ]
 }
