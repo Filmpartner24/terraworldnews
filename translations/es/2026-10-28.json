@@ -1662,6 +1662,30 @@
     "img.alt": "Parques eólicos en el desierto cerca de Guazhou, parte de la base eólica de Jiuquan en Gansu"
    }
   },
+  "juelich-quantengatter-rekord": {
+   "L": {
+    "body": [
+     "Los ordenadores cuánticos deben ejecutar sus pasos de cálculo con rapidez antes de que las perturbaciones destruyan los delicados estados cuánticos. Un equipo del Centro de Investigación de Jülich ha demostrado ahora, en qubits superconductores, puertas de un solo qubit con una duración de apenas 6,8 nanosegundos; en estos sistemas son habituales varias decenas de nanosegundos. En ese tiempo, la luz recorre unos dos metros. El trabajo se ha publicado en la revista especializada Nature Communications; el centro de investigación lo presentó el 23 de octubre.",
+     "Los pulsos rápidos tienen un inconveniente: pueden llevar el qubit, mediante las llamadas transiciones multifotónicas, a estados de energía superiores que no están previstos para el cálculo. El equipo desarrolló un método que suprime de forma selectiva esas transiciones. Su probabilidad se redujo más de veinte veces en comparación con el método estándar utilizado hasta ahora. La probabilidad de que el qubit abandone sin querer el espacio de cálculo durante una operación es inferior al 0,002 por ciento. Para dos operaciones básicas se midieron precisiones del 99,981 y del 99,989 por ciento.",
+     "Participaron el grupo experimental en torno a Rami Barends y el grupo teórico en torno a Felix Motzoi, del Instituto Peter Grünberg del centro de investigación. Los resultados surgieron en el proyecto conjunto QSolid, que trabaja en un ordenador cuántico alemán."
+    ],
+    "d": "Investigadores de Jülich ejecutan pasos de cálculo en qubits superconductores en 6,8 nanosegundos, con una precisión superior al 99,98 por ciento.",
+    "t": "Puertas cuánticas en 6,8 nanosegundos: el equipo de Jülich logra un récord de velocidad"
+   },
+   "at": "2026-10-28T13:35Z",
+   "h": "b3e21f870444",
+   "rev": [
+    "Spanish uses \"de Alemania\" for \"aus Deutschland\", which is slightly ambiguous; changed to \"alemán\" for naturalness."
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: montaje experimental para la investigación de ordenadores cuánticos en el Centro de Investigación de Jülich"
+   }
+  },
   "juventus-spalletti-de-rossi-genoa-2026-10-28": {
    "L": {
     "body": [
@@ -3537,6 +3561,34 @@
    ],
    "x": {
     "img.alt": "El primer ministro de Canadá, Mark Carney"
+   }
+  },
+  "wendelstein-7x-neue-kampagne": {
+   "L": {
+    "body": [
+     "En el Instituto Max Planck de Física del Plasma (IPP) de Greifswald vuelve a funcionar la instalación de fusión Wendelstein 7-X, el mayor estelarador del mundo. Tras ponerse en marcha la instalación entre abril y septiembre, ha comenzado una nueva campaña de experimentos en dos partes, informó la agencia Deutsche Presse-Agentur el 26 de octubre: la primera dura hasta el 10 de diciembre y la segunda, de febrero a finales de abril. Por lo general se experimenta tres días por semana; los datos se analizarán después de la campaña.",
+     "Para la campaña se presentaron más de 600 propuestas de experimentos y unas 250 recibieron alta prioridad. El foco está en el control del plasma, que alcanza varios millones de grados, y en la carga que soportan los materiales. Un nuevo récord es «no un objetivo declarado, pero sí posible», según el IPP. En mayo de 2025, la instalación alcanzó un valor récord para instalaciones de su tipo en el llamado producto triple.",
+     "Tras la campaña llegará una fase de mantenimiento más larga, hasta finales de abril de 2028; se esperan nuevos experimentos para septiembre de 2028. «En los próximos años ampliaremos y reforzaremos notablemente el calentamiento por microondas de Wendelstein 7-X», anunció el instituto. Para 2029 debería haberse instalado potencia de calentamiento suficiente; el objetivo es un plasma de aproximadamente media hora de duración. Wendelstein 7-X no es en sí una central eléctrica, sino que debe aportar fundamentos para futuras centrales de fusión; el Gobierno federal quiere ver la primera central de fusión comercial de Alemania en funcionamiento en la década de 2040."
+    ],
+    "d": "El mayor estelarador del mundo vuelve a funcionar: hasta el 10 de diciembre y desde febrero se experimentará en su mayoría tres días por semana. De más de 600 propuestas, unos 250 experimentos tienen prioridad.",
+    "t": "Fusión: Wendelstein 7-X, en Greifswald, inicia una nueva ronda de experimentos"
+   },
+   "at": "2026-10-28T13:35Z",
+   "h": "f40c73b8b7da",
+   "rev": [
+    "Indirect speech about a new record rendered in the conditional with an invented modality (\"no sería\"); the German says \"sei ... möglich\", so it should be reported speech",
+    "\"Deutsche Presse-Agentur\" left untranslated in the draft (it is a proper name, so it can stay, but the agency name is conventionally Deutsche Presse-Agentur, dpa)",
+    "\"casi siempre\" in the teaser is stronger than \"meist\"",
+    "\"se experimentará\" in the teaser changes the tense/modality (\"wird experimentiert\" is fine, but \"casi siempre\" should be \"en su mayoría\")",
+    "\"Wendelstein 7-X ist selbst kein Kraftwerk\" lost \"selbst\""
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: montaje de Wendelstein 7-X en la sala del toro en Greifswald (2011)"
    }
   },
   "windenergie-deutschland-europas-spitzenreiter-maya-pavllova": {
