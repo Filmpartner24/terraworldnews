@@ -1318,3 +1318,42 @@ a.rl-g:hover{filter:brightness(1.1)}
 .nav-dd>a.nv-top{cursor:pointer;user-select:none;-webkit-user-select:none}
 @media (hover:none) and (min-width:861px){.nav-dd:focus-within .dd{display:flex!important}.nav-dd.dd-wide:focus-within .dd{display:grid!important}}
 @media (max-width:860px){.nv2 .nav-dd.dd-wide .dd{display:block!important;min-width:0;position:static;transform:none}.nav-dd>a.nv-top{cursor:default}}
+
+/* ---- TWN GAMES (Nedy 28.10.2026): gleiches Neon-Design wie TWN MUSIC, Collage mit Gaming-Motiven */
+.gp-games{--gx:#ff2fb4;--gy:#22e4ff;--mp:#ff2fb4;--mc:#22e4ff;--my:#ffe14d;--mv:#a855f7}
+.gp-games .gp-head{position:relative;overflow:hidden;min-height:190px;align-items:flex-end;background:#12022b url(/assets/games/collage.webp) center/cover no-repeat;border-bottom:4px solid transparent;border-image:linear-gradient(90deg,#ff2fb4,#a855f7,#22e4ff,#ffe14d) 1}
+.gp-games .gp-head::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(18,2,43,.92) 0%,rgba(18,2,43,.55) 38%,rgba(18,2,43,.15) 70%,rgba(18,2,43,.35) 100%),linear-gradient(0deg,rgba(18,2,43,.75),transparent 55%);z-index:0}
+.gp-games .gp-head>*{position:relative;z-index:1}
+.gp-games .gp-title{color:#fff;text-shadow:0 0 4px #fff,0 0 14px #ff2fb4,0 0 32px #ff2fb4,4px 4px 0 #22e4ff;letter-spacing:.06em}
+.gp-games .gp-panel{background:radial-gradient(900px 420px at 0% 0%,rgba(255,47,180,.16),transparent 60%),radial-gradient(900px 420px at 100% 30%,rgba(34,228,255,.12),transparent 60%),#0d0322}
+.gp-games .gp-date,.gp-games .gr-meta,.gp-games .gs .kick,.gp-games .ga-panel .kick{color:#f9a8d4}
+.gp-games .gr{border-bottom-color:#3b1466}
+.gp-games .gr-score{background:linear-gradient(90deg,#ff2fb4,#a855f7);color:#fff}
+.gp-games .gp-h{border-left-color:#ff2fb4}
+.gp-games .gr-badge{background:#ffe14d;color:#1a0433}
+.gp-games .gr-more{background:linear-gradient(90deg,#ff2fb4,#a855f7);color:#fff}
+.gp-games .yt-play{background:#ff2fb4}
+@media (max-width:760px){.gp-games .gp-head{min-height:140px}}
+.gp-games.ga .gp-head,.gp-games.mr-head .gp-head{min-height:0;background:linear-gradient(100deg,#12022b 0%,#3b0a6b 55%,#a3157a 100%)}
+.gp-games.ga .gp-head::before,.gp-games.mr-head .gp-head::before{display:none}
+.gp-games .mg-cr{margin-top:10px}
+.gotw-c{display:flex;flex-wrap:wrap;gap:5px;margin:10px 0 0}
+.gotw h3 a{color:#fff;text-decoration:none}.gotw h3 a:hover{text-decoration:underline}
+.gotw .gs-img{position:relative;aspect-ratio:16/9;background:#1a0540 center/cover no-repeat}
+.rl-day li .rl-pf{color:#a5b4fc;font-size:12px}
+.rl-day li .rl-s{color:#22e4ff;text-decoration:none;font-size:12px}
+.rl-g.rl-r1,.rl-g.rl-r2,.rl-g.rl-r3{text-decoration:none}
+.ev-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.ev-list li{position:relative;padding:12px 14px 12px 16px;background:#14042e;border:1px solid #3b1466;border-left:4px solid #ffe14d;border-radius:8px;color:#e5e7eb;display:flex;flex-direction:column;gap:3px}
+.ev-list li.ev-esport{border-left-color:#22e4ff}.ev-list li.ev-award{border-left-color:#ff2fb4}.ev-list li.ev-showcase{border-left-color:#a855f7}
+.ev-list li.ev-live{box-shadow:0 0 0 1px #22e4ff,0 0 16px rgba(34,228,255,.35)}
+.ev-d{font-family:var(--head);font-weight:700;font-size:15px;color:#22e4ff;letter-spacing:.02em}
+.ev-k{font-family:var(--label);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#ffe14d}
+.ev-list b{font-family:var(--head);font-size:17px;line-height:1.2;color:#fff}
+.ev-p{font-size:12.5px;color:#c4b5fd}
+.ev-list p{margin:2px 0 0;font-size:13.5px;line-height:1.4;color:#d1d5db}
+.ev-s{font-size:11.5px;color:#f9a8d4;text-decoration:none;margin-top:2px}
+.ev-s:hover{text-decoration:underline}
+@media (max-width:760px){.ev-list{grid-template-columns:1fr}}
+.tr-g.tr-ev{background:#22e4ff;color:#1a0433}
+.tr-list b small{font-weight:400;color:#c4b5fd}

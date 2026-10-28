@@ -237,6 +237,109 @@ def m_genres(it):
     """Alle Genres einer Musik-Meldung: Hauptgenre ("sub") + weitere ("subs")."""
     g = [it['sub']] if it.get('sub') in MROW else []
     return g + [x for x in (it.get('subs') or []) if x in MROW and x not in g]
+# ---- TWN GAMES (Nedy 28.10.2026): 21 Kategorien in 3 Reihen zu je 7 wie TWN MUSIC. Feld "sub" = Hauptkategorie, "subs" = weitere (Genres + Plattformen als Filter).
+GROWS = [
+ ({'de': 'Action & Abenteuer', 'bg': 'Екшън и приключения', 'en': 'Action & adventure'}, ['g_action', 'g_adventure', 'g_openworld', 'g_rpg', 'g_shooter', 'g_horror', 'g_battleroyale']),
+ ({'de': 'Strategie & Simulation', 'bg': 'Стратегии и симулации', 'en': 'Strategy & simulation'}, ['g_strategy', 'g_builder', 'g_sim', 'g_sports', 'g_racing', 'g_sandbox', 'g_puzzle']),
+ ({'de': 'Plattformen & Gaming-Kultur', 'bg': 'Платформи и гейминг култура', 'en': 'Platforms & gaming culture'}, ['g_pc', 'g_ps', 'g_xbox', 'g_nintendo', 'g_mobile', 'g_esport', 'g_retro']),
+]
+GGEN = [k for _r in GROWS for k in _r[1]]
+GROW = {k: i for i, _r in enumerate(GROWS) for k in _r[1]}
+_GG = {  # key: (DE, BG, EN, slug DE, slug BG, slug EN, Beschreibung DE, BG, EN)
+ 'g_action': ('Action', 'Екшън', 'Action', 'action', 'ekshan', 'action',
+              'Action-Spiele: Hack & Slash, Soulslikes, Plattformer und Kampfspiele – Tests, Trailer und News.', 'Екшън игри: hack & slash, soulslike, платформъри и бойни игри – ревюта, трейлъри и новини.', 'Action games: hack and slash, soulslikes, platformers and fighting games – reviews, trailers and news.'),
+ 'g_adventure': ('Adventure', 'Приключенски', 'Adventure', 'adventure', 'priklyuchenski', 'adventure',
+                 'Adventures: Story-Spiele, Point & Click, Krimis und Erzählabenteuer – Tests, Trailer und News.', 'Приключенски игри: сюжетни игри, point & click, криминални истории – ревюта, трейлъри и новини.', 'Adventures: story games, point and click, mysteries and narrative adventures – reviews, trailers and news.'),
+ 'g_openworld': ('Open World', 'Отворен свят', 'Open world', 'open-world', 'otvoren-svyat', 'open-world',
+                 'Open World: riesige Spielwelten von GTA bis Zelda – Tests, Trailer, Release-Termine und News.', 'Отворен свят: огромни светове от GTA до Zelda – ревюта, трейлъри, дати и новини.', 'Open world: huge game worlds from GTA to Zelda – reviews, trailers, release dates and news.'),
+ 'g_rpg': ('RPG', 'RPG', 'RPG', 'rpg', 'rpg', 'rpg',
+           'Rollenspiele: Action-RPGs, JRPGs und klassische Rollenspiele – Tests, Trailer und News.', 'Ролеви игри: екшън RPG, JRPG и класически ролеви игри – ревюта, трейлъри и новини.', 'Role-playing games: action RPGs, JRPGs and classic RPGs – reviews, trailers and news.'),
+ 'g_shooter': ('Shooter & FPS', 'Шутъри и FPS', 'Shooters & FPS', 'shooter-fps', 'shutari-fps', 'shooter-fps',
+               'Shooter: Ego-Shooter, Third-Person- und Multiplayer-Shooter – Tests, Trailer, Updates und News.', 'Шутъри: от първо и трето лице и мултиплейър – ревюта, трейлъри, ъпдейти и новини.', 'Shooters: first-person, third-person and multiplayer shooters – reviews, trailers, updates and news.'),
+ 'g_horror': ('Survival & Horror', 'Оцеляване и ужаси', 'Survival & horror', 'survival-horror', 'otselyavane-i-uzhasi', 'survival-horror',
+              'Survival & Horror: Gruselspiele und Überlebenskämpfe – Tests, Trailer und News.', 'Оцеляване и ужаси: игри на ужаса и оцеляване – ревюта, трейлъри и новини.', 'Survival & horror: horror games and survival titles – reviews, trailers and news.'),
+ 'g_battleroyale': ('Battle Royale', 'Battle Royale', 'Battle royale', 'battle-royale', 'battle-royale', 'battle-royale',
+                    'Battle Royale: Fortnite, Apex Legends, Warzone und Co. – Seasons, Updates und News.', 'Battle Royale: Fortnite, Apex Legends, Warzone и други – сезони, ъпдейти и новини.', 'Battle royale: Fortnite, Apex Legends, Warzone and more – seasons, updates and news.'),
+ 'g_strategy': ('Strategie & RTS', 'Стратегии и RTS', 'Strategy & RTS', 'strategie-rts', 'strategii-rts', 'strategy-rts',
+                'Strategie: Echtzeit-, Runden- und Globalstrategie – Tests, Trailer und News.', 'Стратегии: в реално време, походови и глобални – ревюта, трейлъри и новини.', 'Strategy: real-time, turn-based and grand strategy – reviews, trailers and news.'),
+ 'g_builder': ('Aufbau & Städtebau', 'Строителство и градове', 'City builders', 'aufbau-staedtebau', 'stroitelstvo-i-gradove', 'city-builders',
+               'Aufbauspiele: Städtebau, Wirtschaft, Kolonien und Tycoons – Tests, Trailer und News.', 'Строителни игри: градове, икономика, колонии и тайкуни – ревюта, трейлъри и новини.', 'City builders: cities, economies, colonies and tycoon games – reviews, trailers and news.'),
+ 'g_sim': ('Simulation', 'Симулации', 'Simulation', 'simulation', 'simulatsii', 'simulation',
+           'Simulation: Flug-, Landwirtschafts-, Lebens- und Fahrsimulationen – Tests, Trailer und News.', 'Симулации: полети, ферми, живот и шофиране – ревюта, трейлъри и новини.', 'Simulation: flight, farming, life and driving sims – reviews, trailers and news.'),
+ 'g_sports': ('Sportspiele', 'Спортни игри', 'Sports games', 'sportspiele', 'sportni-igri', 'sports-games',
+              'Sportspiele: EA Sports FC, NBA 2K, Football Manager und Co. – Tests, Updates und News.', 'Спортни игри: EA Sports FC, NBA 2K, Football Manager и други – ревюта, ъпдейти и новини.', 'Sports games: EA Sports FC, NBA 2K, Football Manager and more – reviews, updates and news.'),
+ 'g_racing': ('Rennspiele', 'Състезателни игри', 'Racing', 'rennspiele', 'sastezatelni-igri', 'racing',
+              'Rennspiele: Forza, Gran Turismo, Mario Kart, F1 und Rallye – Tests, Trailer und News.', 'Състезателни игри: Forza, Gran Turismo, Mario Kart, F1 и рали – ревюта, трейлъри и новини.', 'Racing games: Forza, Gran Turismo, Mario Kart, F1 and rally – reviews, trailers and news.'),
+ 'g_sandbox': ('Sandbox & Kreativ', 'Sandbox и творчество', 'Sandbox & creative', 'sandbox-kreativ', 'sandbox-i-tvorchestvo', 'sandbox-creative',
+               'Sandbox & Kreativ: Minecraft, Roblox, Crafting und Bauspiele – Updates, Tests und News.', 'Sandbox и творчество: Minecraft, Roblox, крафтинг и строене – ъпдейти, ревюта и новини.', 'Sandbox & creative: Minecraft, Roblox, crafting and building games – updates, reviews and news.'),
+ 'g_puzzle': ('Puzzle & Indie', 'Пъзели и инди', 'Puzzle & indie', 'puzzle-indie', 'pazeli-i-indi', 'puzzle-indie',
+              'Puzzle & Indie: Knobelspiele, Roguelikes und besondere Spiele kleiner Studios – Tests und News.', 'Пъзели и инди: логически игри, roguelike и игри на малки студиа – ревюта и новини.', 'Puzzle & indie: puzzle games, roguelikes and standout games from small studios – reviews and news.'),
+ 'g_pc': ('PC Gaming', 'PC гейминг', 'PC gaming', 'pc-gaming', 'pc-geyming', 'pc-gaming',
+          'PC Gaming: neue PC-Spiele, Steam, Hardware und Technik – Tests, Trailer und News.', 'PC гейминг: нови игри за PC, Steam, хардуер и технологии – ревюта, трейлъри и новини.', 'PC gaming: new PC games, Steam, hardware and tech – reviews, trailers and news.'),
+ 'g_ps': ('PlayStation', 'PlayStation', 'PlayStation', 'playstation', 'playstation', 'playstation',
+          'PlayStation: PS5-Spiele, State of Play, PlayStation Plus und Sony-Studios – Tests, Trailer und News.', 'PlayStation: игри за PS5, State of Play, PlayStation Plus и студиата на Sony – ревюта, трейлъри и новини.', 'PlayStation: PS5 games, State of Play, PlayStation Plus and Sony studios – reviews, trailers and news.'),
+ 'g_xbox': ('Xbox', 'Xbox', 'Xbox', 'xbox', 'xbox', 'xbox',
+            'Xbox: Spiele für Xbox Series X|S, Game Pass und Microsoft-Studios – Tests, Trailer und News.', 'Xbox: игри за Xbox Series X|S, Game Pass и студиата на Microsoft – ревюта, трейлъри и новини.', 'Xbox: games for Xbox Series X|S, Game Pass and Microsoft studios – reviews, trailers and news.'),
+ 'g_nintendo': ('Nintendo', 'Nintendo', 'Nintendo', 'nintendo', 'nintendo', 'nintendo',
+                'Nintendo: Switch 2, Mario, Zelda, Pokémon und Nintendo Direct – Tests, Trailer und News.', 'Nintendo: Switch 2, Mario, Zelda, Pokémon и Nintendo Direct – ревюта, трейлъри и новини.', 'Nintendo: Switch 2, Mario, Zelda, Pokémon and Nintendo Direct – reviews, trailers and news.'),
+ 'g_mobile': ('Mobile Gaming', 'Мобилни игри', 'Mobile gaming', 'mobile-gaming', 'mobilni-igri', 'mobile-gaming',
+              'Mobile Gaming: Spiele für Smartphone und Tablet (iOS, Android) – Tests, Charts und News.', 'Мобилни игри: игри за смартфон и таблет (iOS, Android) – ревюта, класации и новини.', 'Mobile gaming: games for smartphones and tablets (iOS, Android) – reviews, charts and news.'),
+ 'g_esport': ('E-Sport', 'Е-спорт', 'Esports', 'e-sport', 'e-sport', 'esports',
+              'E-Sport: Counter-Strike 2, League of Legends, Valorant und Dota 2 – Turniere, Teams, Ergebnisse und Termine.', 'Е-спорт: Counter-Strike 2, League of Legends, Valorant и Dota 2 – турнири, отбори, резултати и дати.', 'Esports: Counter-Strike 2, League of Legends, Valorant and Dota 2 – tournaments, teams, results and dates.'),
+ 'g_retro': ('Retro & Klassiker', 'Ретро и класики', 'Retro & classics', 'retro-klassiker', 'retro-i-klasiki', 'retro-classics',
+             'Retro & Klassiker: Remaster, Remakes, Kultkonsolen und Gaming-Geschichte.', 'Ретро и класики: ремастъри, римейкове, култови конзоли и история на игрите.', 'Retro & classics: remasters, remakes, cult consoles and gaming history.'),
+}
+for _k, _v in _GG.items():
+    SUB['de'][_k] = (_v[0], _v[3]); SUB['bg'][_k] = (_v[1], _v[4]); SUB['en'][_k] = (_v[2], _v[5])
+    SUB_DESC[_k] = {'de': _v[6], 'bg': _v[7], 'en': _v[8]}
+LSUBS['games'] = GGEN
+GAME_KW = {   # Schlagwörter (Titel, Teaser, 1. Absatz, Plattform-Angabe rv.pf); früheste Fundstelle bestimmt die Hauptkategorie
+ 'g_battleroyale': ['battle royale', 'battle-royale', 'fortnite', 'apex legends', 'pubg', 'warzone'],
+ 'g_horror': ['survival-horror', 'survival horror', 'horror', 'resident evil', 'silent hill', 'zombie', 'dead space', 'grusel', 'until dawn', 'outlast', 'alan wake'],
+ 'g_shooter': ['ego-shooter', 'shooter', 'fps', 'call of duty', 'battlefield', 'halo', 'doom', 'counter-strike', 'valorant', 'destiny', 'borderlands', 'overwatch', 'rainbow six', 'marathon'],
+ 'g_openworld': ['open world', 'open-world', 'offene welt', 'offenen welt', 'gta', 'grand theft auto', 'red dead', 'assassin', 'witcher', 'cyberpunk', 'far cry', 'skyrim', 'ghost of'],
+ 'g_rpg': ['rollenspiel', 'rpg', 'jrpg', 'role-playing', 'final fantasy', 'dragon quest', 'elder scrolls', 'fallout', 'mass effect', 'persona', 'baldur', 'diablo', 'pokémon', 'pokemon', 'path of exile', 'metaphor', 'xenoblade', 'kingdom hearts', 'dragon age'],
+ 'g_adventure': ['adventure', 'abenteuer', 'point-and-click', 'point & click', 'telltale', 'krimi', 'mystery', 'detektiv', 'detective', 'erzählspiel', 'narrativ', 'zelda', 'uncharted'],
+ 'g_action': ['action', 'hack and slash', 'hack & slash', 'soulslike', 'souls-like', 'metroidvania', 'plattformer', 'platformer', 'jump & run', 'jump ’n’ run', 'kampfspiel', 'fighting game', 'beat ’em up', 'beat em up', 'god of war', 'devil may cry', 'monster hunter', 'sonic', 'mario', 'metroid', 'tekken', 'street fighter', 'mortal kombat'],
+ 'g_strategy': ['strategie', 'strategy', 'rts', 'echtzeit', '4x', 'civilization', 'total war', 'xcom', 'age of empires', 'starcraft', 'taktik', 'tactics', 'dawn of war', 'stronghold', 'company of heroes', 'europa universalis', 'crusader kings'],
+ 'g_builder': ['aufbau', 'städtebau', 'city builder', 'city-builder', 'cities: skylines', 'anno 1', 'anno 2', 'factorio', 'tycoon', 'tropico', 'kolonie', 'frostpunk'],
+ 'g_sim': ['simulation', 'simulator', 'flight simulator', 'landwirtschafts', 'farming', 'die sims', 'the sims', 'euro truck', 'football manager'],
+ 'g_sports': ['sportspiel', 'ea sports fc', 'ea fc', 'fc 2', 'fifa', 'nba 2k', 'madden', 'efootball', 'football manager', 'nhl 2', 'wwe 2k', 'golf', 'top spin', 'skate'],
+ 'g_racing': ['rennspiel', 'racing', 'forza', 'gran turismo', 'mario kart', 'need for speed', 'ea sports f1', 'f1 25', 'f1 26', 'wrc', 'rallye', 'rally', 'motogp'],
+ 'g_sandbox': ['sandbox', 'minecraft', 'roblox', 'crafting', 'terraria', 'lego', 'kreativmodus'],
+ 'g_puzzle': ['puzzle', 'knobel', 'rätsel', 'roguelike', 'roguelite', 'indie', 'cozy', 'layton'],
+ 'g_esport': ['e-sport', 'esport', 'esports', 'e-sports', 'iem kat', 'iem k', 'esl pro', 'blast premier', 'blast rivals', 'pgl major', 'cs2-major', 'cs2 major', 'lol-wm', 'worlds 2', 'the international', 'valorant champions', 'vct'],   # kein „Turnier“ allein (Fire Emblem!)
+ 'g_retro': ['retro', 'remaster', 'remastered', 'remake', 'klassiker', 'kultspiel', 'jubiläum', 'anniversary', 'snes', 'nes', 'sega', 'atari', 'game boy', 'n64', 'neuauflage'],
+ 'g_pc': ['pc', 'steam', 'windows', 'epic games store', 'gog', 'steam deck'],
+ 'g_ps': ['ps5', 'ps4', 'playstation', 'ps vr', 'state of play', 'sony interactive'],
+ 'g_xbox': ['xbox', 'game pass'],
+ 'g_nintendo': ['nintendo', 'switch', 'switch 2', 'mario', 'zelda', 'pokémon', 'pokemon', 'metroid', 'kirby', 'pikmin'],
+ 'g_mobile': ['ios', 'android', 'mobile', 'iphone', 'smartphone', 'mobilspiel', 'handyspiel', 'app store'],
+}
+GAME_STRICT = {'rts', 'rpg', 'fps', 'gta', 'pc', 'ios', 'nes', 'iem', 'esl', 'pgl', 'vct', '4x', 'gog', 'lego', 'golf', 'skate', 'doom', 'halo', 'sonic', 'mario', 'zelda', 'indie', 'cozy', 'action', 'retro', 'sega', 'atari', 'rally', 'wrc', 'sims', 'switch', 'mobile', 'steam', 'blast', 'krimi', 'skyrim', 'persona', 'diablo', 'fallout', 'marathon', 'destiny', 'mystery', 'puzzle', 'horror', 'zombie', 'tactics', 'strategy', 'racing', 'sandbox', 'esport', 'esports', 'remake', 'remaster', 'remastered', 'klassiker', 'simulator', 'simulation', 'adventure', 'abenteuer', 'shooter', 'metroid', 'kirby', 'pikmin', 'tekken', 'fifa', 'ea fc', 'fc 2', 'windows', 'android', 'iphone', 'n64', 'anno 1', 'anno 2', 'lego', 'turnier', 'tournament', 'taktik', 'echtzeit'}
+_GKRE = {k: [re.compile(r'(?<![a-zäöüß0-9])' + re.escape(w) + (r'(?![a-zäöüß0-9])' if w in GAME_STRICT else '')) for w in v] for k, v in GAME_KW.items()}
+def games_cats(it):
+    """Kategorien einer Games-Meldung per Schlagwort setzen: "sub" (Hauptkategorie, falls nicht gesetzt) und "subs" (alle Treffer inkl. Plattformen)."""
+    rv = it.get('rv') or {}
+    T = it.get('de') or {}
+    txt = ' '.join([str(T.get('t', '')), str(T.get('d', '')), ' '.join(str(p) for p in (T.get('body') or [])[:1])]).lower()
+    pf = str(rv.get('pf') or '').lower()
+    hits = {}
+    for k, rxs in _GKRE.items():
+        for rx in rxs:
+            m = rx.search(txt)
+            if m and (k not in hits or m.start() < hits[k]): hits[k] = m.start()
+            if GROW[k] == 2 and k != 'g_esport' and k != 'g_retro' and rx.search(pf): hits[k] = min(hits.get(k, 10 ** 6), 10 ** 5)
+    found = sorted(hits, key=lambda k: (hits[k], GGEN.index(k)))
+    if not it.get('sub') or it.get('sub') not in GROW:
+        main = next((k for k in found if GROW[k] < 2), None) or next((k for k in found), None)
+        if main: it['sub'] = main
+    extra = [k for k in found if k != it.get('sub')]
+    it['subs'] = list(dict.fromkeys([x for x in (it.get('subs') or []) if x in GROW] + extra))
+def g_genres(it):
+    """Alle Kategorien einer Games-Meldung: Hauptkategorie ("sub") + weitere ("subs")."""
+    g = [it['sub']] if it.get('sub') in GROW else []
+    return g + [x for x in (it.get('subs') or []) if x in GROW and x not in g]
 def sec_desc(s, l, fallback):
     d = SEO_DESC.get(s)
     return d[l] if d else fallback
@@ -317,7 +420,7 @@ def berlin_sub(it):
     if kl == 'Berlin' or _BER_RE.match(it.get('id', '')) or _BER_T.match(t): it['sub'] = 'berlin'
 
 def load():
-    load_musik()
+    load_musik(); load_games()
     eds, brk = [], []
     for f in sorted(glob.glob(os.path.join(HERE, 'content', '*.json'))):
         d = json.load(open(f, encoding='utf-8'))
@@ -331,6 +434,7 @@ def load():
                 if it.get('subs'): it['subs'] = list(dict.fromkeys('jazz' if x == 'blues' else x for x in it['subs']))
             if it.get('s') == 'musik' and it.get('sub') in MOLD: music_sub(it, MOLD[it['sub']])   # alte Kanäle (bis 25.10.2026) → eines der 21 Genres
             if it.get('s') == 'musik' and not it.get('sub') and it.get('rub') != 'rueckblick': music_sub(it)   # Genre automatisch, falls nicht gesetzt (seit 24.10.2026, 21 Genres seit 26.10.2026)
+            if it.get('s') == 'games': games_cats(it)   # TWN GAMES: 21 Kategorien automatisch (Nedy 28.10.2026)
             if it.get('s') == 'deutschland': berlin_sub(it)   # Berlin-Meldungen automatisch in die Unterrubrik Berlin (seit 08.10.2026)  # Entertainment aufgeteilt in Film und Musik
             if it.get('img') and not it['img']['f'].startswith('/'): it['img']['f'] = '/' + it['img']['f']  # Pfad immer absolut
             if it.get('img') and not os.path.exists(os.path.join(HERE, 'static', it['img']['f'].lstrip('/'))):
@@ -941,6 +1045,123 @@ def musik_extras(l, its, day0, genre=None):
         mid += (f'<section class="mp-rel"><h2 class="gp-h">▤ {e(Z["rel"])}</h2><div class="rl-grid">{rk}</div><p class="rl-note">{e(Z["relnote"].format(d=short_date(R.get("asof", day0), l)))}</p>'
                 + (f'<details class="rl-src"><summary>{e(Z["src"])}</summary><ul>{srcs}</ul></details>' if srcs else '') + '</section>')
     return top, mid
+# ---- TWN GAMES Seitenblöcke (Nedy 28.10.2026): Kategorie-Raster, 3 Games der Woche, Release-Kalender, E-Sport & Event-Radar, Messen & Events
+GAMES = {}   # content/games/releases.json, content/games/events.json, collage.json; 'all'/'hist' = Meldungen (im Bau gesetzt)
+def load_games():
+    for n in ('releases', 'events', 'collage'):
+        fp = os.path.join(HERE, 'content', 'games', n + '.json')
+        if os.path.exists(fp): GAMES[n] = json.load(open(fp, encoding='utf-8'))
+GZU = {'bg': dict(genres='Категории', gsub='Новини · Ревюта · Нови игри · Трейлъри · Е-спорт', allg='Всички категории', gempty='В категория „{g}“ скоро ще се появят първите материали на редакцията.', glatest='Най-новото от игрите',
+                  gotw='3 игри на седмицата', gotw_n='Най-висока оценка на критиката за последните 7 дни', rel='Календар на новите игри', relnote='Според обявите на издатели и платформи към {d}; възможни са промени.', radar='Е-спорт и събития – радар', ev='Гейминг изложения и събития', evnote='Дати според организаторите към {d}; възможни са промени.',
+                  kinds={'messe': 'Изложение', 'showcase': 'Шоукейс', 'esport': 'Е-спорт', 'award': 'Награди'}, src='Източници', review='Към ревюто →', remaster='ремастър', dlc='разширение', early='ранен достъп', vids='Трейлъри и ревюта', news='Новини', today='днес', days=['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Нд'], more='Още дати', relcat='Нови игри'),
+       'de': dict(genres='Kategorien', gsub='News · Reviews · Releases · Trailer · E-Sport', allg='Alle Kategorien', gempty='In der Kategorie „{g}“ erscheinen in Kürze die ersten Beiträge der Redaktion.', glatest='Neueste Games-Meldungen',
+                  gotw='3 Games der Woche', gotw_n='Höchster Kritiker-Schnitt der letzten 7 Tage', rel='Games-Release-Kalender', relnote='Nach Ankündigungen von Publishern und Plattformen, Stand {d}; Änderungen möglich.', radar='E-Sport & Event-Radar', ev='Gaming-Messen & Events', evnote='Termine laut Veranstaltern, Stand {d}; Änderungen möglich.',
+                  kinds={'messe': 'Messe', 'showcase': 'Showcase', 'esport': 'E-Sport', 'award': 'Awards'}, src='Quellen', review='Zum Review →', remaster='Remaster', dlc='Erweiterung', early='Early Access', vids='Trailer & Reviews', news='News', today='heute', days=['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'], more='Weitere Termine', relcat='Releases'),
+       'en': dict(genres='Categories', gsub='News · Reviews · Releases · Trailers · Esports', allg='All categories', gempty='The first stories in the “{g}” category will appear here soon.', glatest='Latest games news',
+                  gotw='3 games of the week', gotw_n='Highest critic average of the last 7 days', rel='Games release calendar', relnote='Based on publisher and platform announcements as of {d}; subject to change.', radar='Esports & event radar', ev='Gaming shows & events', evnote='Dates according to organisers as of {d}; subject to change.',
+                  kinds={'messe': 'Show', 'showcase': 'Showcase', 'esport': 'Esports', 'award': 'Awards'}, src='Sources', review='Read the review →', remaster='remaster', dlc='expansion', early='early access', vids='Trailers & reviews', news='News', today='today', days=['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'], more='More dates', relcat='Releases')}
+def games_grid(l, cur=None):
+    """TWN GAMES: 21 Kategorien in 3 Reihen zu je 7 (Nedy 28.10.2026). Zähler = alle Beiträge der Kategorie."""
+    Z = GZU[l]; pool = GAMES.get('hist') or []
+    rows = ''
+    for i, (lab, keys) in enumerate(GROWS):
+        tiles = ''
+        for k in keys:
+            n = sum(1 for x in pool if k in g_genres(x))
+            tiles += (f'<a class="mg{" on" if k == cur else ""}{" mg-0" if not n else ""}" href="{sub_url("games", k, l)}"' + (' aria-current="page"' if k == cur else '') +
+                      f'><b>{e(SUB[l][k][0])}</b>' + (f'<span>{n}</span>' if n else '') + '</a>')
+        rows += f'<div class="mg-row mg-r{i + 1}"><h3>{i + 1:02d} — {e(lab[l])}</h3><div class="mg-tiles">{tiles}</div></div>'
+    allc = ' on' if cur is None else ''
+    C = (GAMES.get('collage') or {}).get('photos') or []
+    crl = (LX({'bg': 'Колаж в заглавието', 'de': 'Collage im Kopf', 'en': 'Header collage'})[l] + ': ' + ' · '.join(f'<a href="{e(x["page"])}" rel="noopener nofollow" target="_blank">{e(x["art"])}</a> ({e(x["lic"])})' for x in C)
+           + LX({'bg': ' – Wikimedia Commons, изрязани и оцветени; колажът е под лиценз CC BY-SA 4.0', 'de': ' – Wikimedia Commons, zugeschnitten und eingefärbt; Collage unter CC BY-SA 4.0', 'en': ' – Wikimedia Commons, cropped and recoloured; collage licensed CC BY-SA 4.0'})[l]) if C else ''
+    return (f'<section class="mg-wrap gg-wrap" aria-label="{e(Z["genres"])}"><div class="mg-head"><p class="mg-kick">TERRA WORLD NEWS</p><p class="mg-brand">GAMES</p>'
+            f'<p class="mg-sub">{e(Z["gsub"])}</p><a class="mg-all{allc}" href="{sec_url("games", l)}">{e(Z["allg"])}</a></div>{rows}' + (f'<p class="mg-cr">{crl}</p>' if crl else '') + '</section>')
+def g_chip(k, l):
+    return f'<a class="rl-g rl-r{GROW.get(k, 0) + 1}" href="{sub_url("games", k, l)}">{e(SUB[l][k][0])}</a>' if k in GROW else ''
+def games_releases(l, day0, cat=None, ndays=None, nmax=None):
+    """Release-Kalender (content/games/releases.json): kommende Termine, nach Tag gruppiert."""
+    import datetime as _dg
+    Z = GZU[l]; R = GAMES.get('releases') or {}
+    rr = [r for r in R.get('releases', []) if r['date'] >= day0 and (cat is None or cat == r.get('g') or cat in (r.get('gs') or []) or cat in (r.get('p') or []) or (cat == 'g_retro' and r.get('type') == 'remaster'))]
+    if not rr: return ''
+    rr = sorted(rr, key=lambda r: (r['date'], r['title']))
+    if nmax: rr = rr[:nmax]
+    days = sorted({r['date'] for r in rr})
+    if ndays: days = days[:ndays]; rr = [r for r in rr if r['date'] in days]
+    rk = ''
+    for dd in days:
+        rows = ''
+        for r in [r for r in rr if r['date'] == dd]:
+            tp = Z.get(r.get('type') or '', '') if r.get('type') else ''
+            rows += (f'<li>{g_chip(r.get("g"), l)}<b>{e(r["title"])}</b>' + (f' <small>({e(tp)})</small>' if tp else '')
+                     + f' <small class="rl-pf">{e(r.get("pf", ""))}</small>' + (f' <a class="rl-s" href="{e(r["src"]["u"])}" rel="noopener nofollow" target="_blank" title="{e(r["src"]["n"])}">↗</a>' if r.get('src') else '') + '</li>')
+        rk += f'<div class="rl-day"><h3>{e(Z["days"][_dg.date.fromisoformat(dd).weekday()])}, {short_date(dd, l)}</h3><ul>{rows}</ul></div>'
+    srcs = ''.join(f'<li><a href="{e(x["u"])}" rel="noopener nofollow" target="_blank">{e(x["n"])}</a></li>' for x in R.get('src', []))
+    ttl = Z['rel'] + (f' · {SUB[l][cat][0]}' if cat else '')
+    return (f'<section class="mp-rel"><h2 class="gp-h">▤ {e(ttl)}</h2><div class="rl-grid">{rk}</div><p class="rl-note">{e(Z["relnote"].format(d=short_date(R.get("asof", day0), l)))}</p>'
+            + (f'<details class="rl-src"><summary>{e(Z["src"])}</summary><ul>{srcs}</ul></details>' if srcs else '') + '</section>')
+def games_events(l, day0, only=None, nmax=12, title=None):
+    """Messen, Showcases, Awards und E-Sport-Finals (content/games/events.json)."""
+    Z = GZU[l]; E = GAMES.get('events') or {}
+    ev = [x for x in E.get('events', []) if x['to'] >= day0 and (only is None or x.get('kind') in only)]
+    if not ev: return ''
+    ev = sorted(ev, key=lambda x: x['from'])[:nmax]
+    def rng(x):
+        return short_date(x['from'], l) + (f' – {short_date(x["to"], l)}' if x['to'] != x['from'] else '')
+    li = ''
+    for x in ev:
+        live = x['from'] <= day0 <= x['to']
+        pl = x.get('place') or {}
+        pl = pl.get(l) or pl.get('en', '') if isinstance(pl, dict) else pl
+        li += (f'<li class="ev-{e(x.get("kind", ""))}{" ev-live" if live else ""}"><span class="ev-d">{e(rng(x))}</span><span class="ev-k">{e(Z["kinds"].get(x.get("kind"), ""))}' + (f' · {e(x["game"])}' if x.get('game') else '') + '</span>'
+               f'<b>{e(x["name"])}</b><span class="ev-p">{e(pl)}</span><p>{e(L(x.get("d", {}), l))}</p>' + (f'<a class="ev-s" href="{e(x["src"]["u"])}" rel="noopener nofollow" target="_blank">{e(x["src"]["n"])} ↗</a>' if x.get('src') else '') + '</li>')
+    return (f'<section class="mp-ev"><h2 class="gp-h">◎ {e(title or Z["ev"])}</h2><ul class="ev-list">{li}</ul>'
+            f'<p class="rl-note">{e(Z["evnote"].format(d=short_date(E.get("asof", day0), l)))}</p></section>')
+def games_extras(l, its, day0, cat=None):
+    """Liefert (oben, mitte) für die Games-Seite: Kategorie-Raster oben; 3 Games der Woche, Release-Kalender, E-Sport & Event-Radar, Messen & Events in der Mitte.
+    Auf Kategorie-Seiten (cat=…) nur Raster, Kalender dieser Kategorie (E-Sport: Turniere)."""
+    import datetime as _dg
+    Z = GZU[l]; d0 = _dg.date.fromisoformat(day0)
+    top = games_grid(l, cat)
+    allg = sorted(GAMES.get('hist') or [], key=lambda x: (x['date'], x['time']), reverse=True)
+    if cat:
+        mid = ''
+        if not any(cat in g_genres(x) for x in its):
+            nw = allg[:6]
+            mid += f'<p class="mg-empty">{e(Z["gempty"].format(g=SUB[l][cat][0]))}</p>'
+            if nw: mid += f'<h2 class="gp-h">{e(Z["glatest"])}</h2><div class="gs-grid">' + ''.join(
+                f'<article class="gs"><a href="{art_url(x, l)}"><div class="gs-img"' + (f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else '') + f'></div>{kick(x, l)}<h3>{e(x[l]["t"])}</h3></a></article>' for x in nw if l in x) + '</div>'
+        if cat == 'g_esport': mid += games_events(l, day0, only=('esport',), nmax=12, title=Z['radar'])
+        else: mid += games_releases(l, day0, cat=cat, nmax=24)
+        return top, mid
+    mid = ''
+    # 3 Games der Woche: höchster Kritiker-Schnitt (rv.num) der letzten 7 Tage
+    cut7 = (d0 - _dg.timedelta(days=6)).isoformat()
+    best = sorted([x for x in allg if x['date'] >= cut7 and isinstance((x.get('rv') or {}).get('num'), (int, float)) and l in x], key=lambda x: (-x['rv']['num'], x['date']))[:3]
+    if len(best) == 3:
+        sg = ''
+        for i, x in enumerate(best):
+            v = (x['yt'] if isinstance(x['yt'], dict) else x['yt'][0]) if x.get('yt') else None
+            bgimg = f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else ''
+            head = (f'<div class="yt gr-yt sow-yt" data-yt="{e(v["id"])}"{bgimg}><span class="gr-badge">#{i + 1}</span>{rv_ring(x["rv"], " rv-ov")}<button type="button" class="yt-play">{e(UI[l]["playv"])}</button><span class="yt-note">{e(UI[l]["ytnote"])}</span></div>'
+                    if v else f'<a href="{art_url(x, l)}"><div class="sow-yt gs-img"{bgimg}><span class="gr-badge">#{i + 1}</span>{rv_ring(x["rv"], " rv-ov")}</div></a>')
+            cats = ''.join(g_chip(k, l) for k in g_genres(x)[:3])
+            sg += (f'<article class="sow gotw">{head}<div class="gotw-c">{cats}</div><h3><a href="{art_url(x, l)}">{e(x[l]["t"])}</a></h3><p>{e(x[l]["d"])}</p>'
+                   + (f'<p class="gr-yt-src">YouTube · {ch_html(v.get("ch", ""))}</p>' if v else '') + f'<a class="gr-more" href="{art_url(x, l)}">{e(Z["review"])}</a></article>')
+        mid += f'<section class="mp-sow"><h2 class="gp-h">★ {e(Z["gotw"])} <small>{e(Z["gotw_n"])}</small></h2><div class="sow-grid">{sg}</div></section>'
+    mid += games_releases(l, day0, ndays=8, nmax=18)
+    # E-Sport & Event-Radar: E-Sport-/Showcase-Meldungen der letzten 30 Tage + die nächsten Turniere
+    cut30 = (d0 - _dg.timedelta(days=29)).isoformat()
+    evw = re.compile(r'e-sport|esport|turnier|showcase|state of play|nintendo direct|game awards|gamescom|xbox games showcase|summer game fest|tokyo game show', re.I)
+    rad = [x for x in allg if x['date'] >= cut30 and l in x and ('g_esport' in g_genres(x) or evw.search(' '.join([x['de'].get('t', ''), x['de'].get('d', '')])))][:6]
+    nxt = sorted([x for x in (GAMES.get('events') or {}).get('events', []) if x['to'] >= day0 and x.get('kind') in ('esport', 'showcase', 'award')], key=lambda x: x['from'])[:6]
+    if rad or nxt:
+        tl = ''.join(f'<li><a href="{art_url(x, l)}"><span class="tr-g">{e(SUB[l][g_genres(x)[0]][0]) if g_genres(x) else "▶"}</span><b>{e(x[l]["t"])}</b><time datetime="{x["date"]}">{num_date(x["date"])}</time></a></li>' for x in rad)
+        tl += ''.join(f'<li><a href="{e(x["src"]["u"])}" rel="noopener nofollow" target="_blank"><span class="tr-g tr-ev">{e(Z["kinds"].get(x["kind"], ""))}</span><b>{e(x["name"])}' + (f' <small>· {e(x["game"])}</small>' if x.get('game') else '') + f'</b><time datetime="{x["from"]}">{num_date(x["from"])}</time></a></li>' for x in nxt)
+        mid += f'<section class="mp-tour"><h2 class="gp-h">◎ {e(Z["radar"])}</h2><ul class="tr-list">{tl}</ul></section>'
+    mid += games_events(l, day0, only=('messe', 'showcase', 'award'), nmax=10)
+    return top, mid
 # ---- POP-FOLK (Nedy 26.10.2026): eigene, üppige Genre-Seite mit 7 Ländern, Videos, Boulevard und Stars. Items aus content/<datum>-popfolk.json (Feld "pfk": "video" | "news" | "boulevard", "land").
 PF_LANDS = [  # (Code, Flagge, Land DE/BG/EN, Stil DE/BG/EN)
  ('bg', '🇧🇬', ('Bulgarien', 'България', 'Bulgaria'), ('Chalga', 'Чалга', 'Chalga')),
@@ -1111,6 +1332,10 @@ def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None, 
         mvids = [x for x in _srt if x.get('gk') == 'video' and x.get('yt')][:3]
         revs = [x for x in _srt if x.get('rv') and x not in mvids][:3]
         news = [x for x in _srt if x not in mvids and x not in revs and (x.get('mn') or x.get('gk'))][:6]
+    if kind == 'games' and mgenre:   # Games-Kategorie (Nedy 28.10.2026): neueste Trailer/Reviews, dann News – Rest im Archiv mit Seitenzahlen
+        _srt = sorted(its, key=lambda x: (x['date'], x['time']), reverse=True)
+        revs = [x for x in _srt if x.get('yt')][:4]
+        news = [x for x in _srt if x not in revs][:9]
     fests = []
     if kind in ('musik', 'film'):  # Festivals (Musik Di + Fr, Film Mi + Sa, je 3 Artikel mit Video, Feld "fest"): eigener Block, neueste zuerst, letzte 7 Tage
         import datetime as _dfe
@@ -1132,10 +1357,10 @@ def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None, 
         _ch = [older[i:i + MPER] for i in range(0, len(older), MPER)] or [[]]
         older = _ch[0]; games_page.rest = _ch[1:]
         mnav = mpager(l, 1, len(_ch), mpage_url)
-        if kind in ('musik', 'history'): _mtop = mpager(l, 1, len(_ch), mpage_url, top=True)
+        if kind in ('musik', 'history', 'games'): _mtop = mpager(l, 1, len(_ch), mpage_url, top=True)
     html = f'<div class="gp gp-{kind}"><div class="gp-head"><h1 class="gp-title">{e(title or SEC[l][kind][0])}</h1>{gp_slogan(l)}</div>'
     html += '<div class="gp-main"><div class="gp-panel">'
-    if not its and not (kind == 'musik' and mgenre): html += f'<p class="gp-empty">{e(u["empty"])}</p>'
+    if not its and not (kind in ('musik', 'games') and mgenre): html += f'<p class="gp-empty">{e(u["empty"])}</p>'
     # Breaking News des Tages dieser Rubrik ganz oben (Nedy 24.10.2026: Eilmeldung Binew auch oben unter BULGARIEN)
     brk_top = [it for it in today if it.get('live') and not it.get('yt')] if kind in ('welt', 'europa', 'deutschland', 'bulgarien') else []
     if brk_top:
@@ -1146,7 +1371,7 @@ def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None, 
                     f'<div class="gr-txt"><a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a><p class="gr-meta">{e(it["time"])}{(" " + u["hour"]) if u["hour"] else ""}</p>'
                     f'<p class="gr-dek">{e(it[l]["d"])}</p><a class="gr-more" href="{art_url(it, l)}">{e(g["more"])}</a></div></article>')
         html += f'<h2 class="gp-h"><b class="brk">{e(u["brk"])}</b></h2>' + ''.join(brk_card(it) for it in brk_top)
-    _mx = musik_extras(l, its, day0, mgenre) if kind == 'musik' and (title is None or mgenre) else ('', '')
+    _mx = musik_extras(l, its, day0, mgenre) if kind == 'musik' and (title is None or mgenre) else games_extras(l, its, day0, mgenre) if kind == 'games' and (title is None or mgenre) else ('', '')
     html += _mx[0] + _mtop
     if mvids:
         def mv_card(it):
@@ -1157,10 +1382,10 @@ def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None, 
                     f'<div class="gr-txt"><a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a><p class="gr-dek">{e(it[l]["d"])}</p>'
                     f'<p class="gr-yt-src">YouTube · {ch_html(v.get("ch", ""))}</p><a class="gr-more" href="{art_url(it, l)}">{e(LX({"bg": "Към статията →", "de": "Zum Artikel →", "en": "Read more →"})[l])}</a></div></article>')
         html += f'<h2 class="gp-h">▶ {e(LX({"bg": "Музикални видеоклипове", "de": "Musikvideos", "en": "Music videos"})[l])}</h2>' + ''.join(mv_card(it) for it in mvids)
-    if revs: html += f'<h2 class="gp-h">▶ {e((LX({"bg": "Ревюта на албуми", "de": "Album-Reviews", "en": "Album reviews"})[l]) if mgenre else g["rev"])}</h2>' + ''.join(review(it) for it in revs)
+    if revs: html += f'<h2 class="gp-h">▶ {e((LX({"bg": "Ревюта на албуми", "de": "Album-Reviews", "en": "Album reviews"})[l]) if mgenre and kind == "musik" else GZU[l]["vids"] if mgenre and kind == "games" else g["rev"])}</h2>' + ''.join(review(it) for it in revs)
     html += _mx[1]
     if fests: html += f'<h2 class="gp-h">▶ {e((LX({"bg": "Филмови фестивали", "de": "Filmfestivals", "en": "Film festivals"}) if kind == "film" else LX({"bg": "Музикални фестивали", "de": "Musikfestivals", "en": "Music festivals"}))[l])}</h2>' + ''.join(fest_card(it) for it in fests)
-    if news: html += f'<h2 class="gp-h">{e((LX({"bg": "Концерти и новини", "de": "Konzerte & News", "en": "Concerts & news"})[l]) if mgenre else g["news"])}</h2><div class="gs-grid">' + ''.join(small(it) for it in news) + '</div>'
+    if news: html += f'<h2 class="gp-h">{e((LX({"bg": "Концерти и новини", "de": "Konzerte & News", "en": "Concerts & news"})[l]) if mgenre and kind == "musik" else g["news"])}</h2><div class="gs-grid">' + ''.join(small(it) for it in news) + '</div>'
     if older: html += f'<h2 class="gp-h">{e(g["older"])}</h2><div class="gs-grid">' + ''.join(small(it) for it in older) + '</div>'
     html += mnav
     html += f'</div><aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{others}</aside></div></div>'
@@ -2064,6 +2289,7 @@ def build():
                 _kd = sorted({it['date'] for it in its}, reverse=True)[:SUB_KEEP]
                 MUSIK['all'] = [it for it in its if it['date'] in _kd]
                 MUSIK['hist'] = list(its)   # Genre-Seiten: komplette Sammlung, nichts fällt heraus (Nedy 26.10.2026)
+            if s == 'games': GAMES['hist'] = list(its)   # TWN GAMES: Kategorie-Zähler und -Seiten aus der kompletten Sammlung (Nedy 28.10.2026)
             its_all = list(its)   # komplette Sammlung (Seitenzahlen, Nedy 27.10.2026)
             _main_rest = []
             if s in KEEP_DAYS:  # z. B. Games: nur die letzten 5 Ausgabetage auf der Rubrikseite (Artikel bleiben über Suche/Archiv erreichbar)
@@ -2244,14 +2470,16 @@ def build():
                 ltabs = lambda cur: (f'<nav class="subnav" aria-label="{e(SEC[l][s][0])}"><a href="{sec_url(s, l)}"{CUR_P if cur is None else ""}>{e(SP_ALL[l])}</a>'
                                      + ''.join(f'<a href="{sec_url(x, l)}">{e(SEC[l][x][0])}</a>' for x in NAV_DD_EXTRA.get(s, []))
                                      + ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if cur == k else ""}>{e(SUB[l][k][0])}</a>' for k in LSUBS[s]) + '</nav>')
-                if s != 'musik': body = ltabs(None) + body   # Musik: Genre-Raster statt Reiter (seit 26.10.2026)
+                if s not in ('musik', 'games'): body = ltabs(None) + body   # Musik/Games: Kategorie-Raster statt Reiter (seit 26.10.2026)
                 for k in LSUBS[s]:
                     _pool = [it for it in items_l if (it['s'] == s or s in also_secs(it)) and it.get('sub') == k]   # komplette Sammlung, Seitenzahlen unten (Nedy 27.10.2026)
                     if s == 'musik': _pool = MUSIK.get('hist') or its
-                    sits = sorted([it for it in _pool if (k in m_genres(it) if s == 'musik' else it.get('sub') == k)], key=lambda x: (x['date'], x['time']), reverse=True)
+                    if s == 'games': _pool = GAMES.get('hist') or its
+                    sits = sorted([it for it in _pool if (k in m_genres(it) if s == 'musik' else k in g_genres(it) if s == 'games' else it.get('sub') == k)], key=lambda x: (x['date'], x['time']), reverse=True)
                     su = sub_url(s, k, l); title = f'{SEC[l][s][0]} · {SUB[l][k][0]}'
                     games_page.rest = []; popfolk_page.rest = []
-                    sb = (popfolk_page(l, sits, day0, _others(s), SX) if k == 'popfolk' else games_page(l, sits, sits[0]['date'] if sits else day0, _others(s), SX, s, title=SUB[l][k][0], mgenre=k, mpage_url=(lambda n, _k=k: mpage_url(_k, n, l)))) if s == 'musik' else ltabs(k) + (wow_page(l, sits, _others(s), title=SUB[l][k][0], desc=SUB_DESC[k][l], kind='guinness') if k == 'guinness' else games_page(l, sits, sits[0]['date'], _others(s), SX, s, title=SUB[l][k][0], mpage_url=(lambda n, _k=k: spage_url(s, _k, n, l))) if sits else
+                    if s == 'games': sb = games_page(l, sits, day0, _others(s), SX, s, title=SUB[l][k][0], mgenre=k, mpage_url=(lambda n, _k=k: spage_url('games', _k, n, l)))   # TWN GAMES-Kategorie (Nedy 28.10.2026)
+                    else: sb = (popfolk_page(l, sits, day0, _others(s), SX) if k == 'popfolk' else games_page(l, sits, sits[0]['date'] if sits else day0, _others(s), SX, s, title=SUB[l][k][0], mgenre=k, mpage_url=(lambda n, _k=k: mpage_url(_k, n, l)))) if s == 'musik' else ltabs(k) + (wow_page(l, sits, _others(s), title=SUB[l][k][0], desc=SUB_DESC[k][l], kind='guinness') if k == 'guinness' else games_page(l, sits, sits[0]['date'], _others(s), SX, s, title=SUB[l][k][0], mpage_url=(lambda n, _k=k: spage_url(s, _k, n, l))) if sits else
                                      f'<div class="sec-page" style="--c:{SEC_COLOR[s]}"><div class="rail-h sec-head"><h1 class="sec-title">{e(title)}</h1></div><p class="note">{e(u["empty"])}</p></div>')
                     if k == 'liebe' and '<div class="gp-panel">' in sb:  # Kennenlern-Portale oben auf „Liebe & Beziehung“
                         sb = sb.replace('<div class="gp-panel">', '<div class="gp-panel">' + dating_block(l), 1)
@@ -2269,8 +2497,8 @@ def build():
                         for _n, _chunk in enumerate(_rest, start=2):
                             _pu = spage_url(s, k, _n, l); _pl = LX({'bg': 'Страница', 'de': 'Seite', 'en': 'Page'})[l]
                             _cards = ''.join(f'<article class="gs"><a href="{art_url(x, l)}"><div class="gs-img"' + (f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else '') + '>' + ('<span class="rt-play" aria-hidden="true">▶</span>' if x.get('yt') else '') + f'</div>{kick(x, l)}<h3>{e(x[l]["t"])}</h3></a></article>' for x in _chunk)
-                            _pb = (('' if s == 'musik' else ltabs(k)) + f'<div class="gp gp-{s}"><div class="gp-head"><h1 class="gp-title">{e(SUB[l][k][0])} – {_pl} {_n}</h1>{gp_slogan(l)}</div><div class="gp-main"><div class="gp-panel">'
-                                   + (musik_grid(l, k) if s == 'musik' else '') + mpager(l, _n, _tot, lambda m, _k=k: spage_url(s, _k, m, l), top=True) + f'<h2 class="gp-h">{e(LX({"bg": "Видеа и статии от архива", "de": "Videos und Artikel aus dem Archiv", "en": "Videos and stories from the archive"})[l])} · {_pl} {_n} / {_tot}</h2>'
+                            _pb = (('' if s in ('musik', 'games') else ltabs(k)) + f'<div class="gp gp-{s}"><div class="gp-head"><h1 class="gp-title">{e(SUB[l][k][0])} – {_pl} {_n}</h1>{gp_slogan(l)}</div><div class="gp-main"><div class="gp-panel">'
+                                   + (musik_grid(l, k) if s == 'musik' else games_grid(l, k) if s == 'games' else '') + mpager(l, _n, _tot, lambda m, _k=k: spage_url(s, _k, m, l), top=True) + f'<h2 class="gp-h">{e(LX({"bg": "Видеа и статии от архива", "de": "Videos und Artikel aus dem Archiv", "en": "Videos and stories from the archive"})[l])} · {_pl} {_n} / {_tot}</h2>'
                                    + f'<div class="gs-grid">{_cards}</div>' + mpager(l, _n, _tot, lambda m, _k=k: spage_url(s, _k, m, l))
                                    + f'</div><aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{_others(s)}</aside></div></div>')
                             _pal = {x: spage_url(s, k, _n, x) for x in act}
@@ -2287,8 +2515,8 @@ def build():
                 for _n, _chunk in enumerate(_rest, start=2):
                     _pu = spage_url(s, None, _n, l); _pl = LX({'bg': 'Страница', 'de': 'Seite', 'en': 'Page'})[l]
                     _cards = ''.join(f'<article class="gs"><a href="{art_url(x, l)}"><div class="gs-img"' + (f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else '') + '>' + ('<span class="rt-play" aria-hidden="true">▶</span>' if x.get('yt') else '') + f'</div>{kick(x, l)}<h3>{e(x[l]["t"])}</h3></a></article>' for x in _chunk)
-                    _pb = ((ltabs(None) if s in LSUBS and s != 'musik' else '') + f'<div class="gp gp-{s}"><div class="gp-head"><h1 class="gp-title">{e(SEC[l][s][0])} – {_pl} {_n}</h1>{gp_slogan(l)}</div><div class="gp-main"><div class="gp-panel">'
-                           + (musik_grid(l) if s == 'musik' else '') + mpager(l, _n, _tot, lambda m: spage_url(s, None, m, l), top=True) + f'<div class="gs-grid">{_cards}</div>' + mpager(l, _n, _tot, lambda m: spage_url(s, None, m, l))
+                    _pb = ((ltabs(None) if s in LSUBS and s not in ('musik', 'games') else '') + f'<div class="gp gp-{s}"><div class="gp-head"><h1 class="gp-title">{e(SEC[l][s][0])} – {_pl} {_n}</h1>{gp_slogan(l)}</div><div class="gp-main"><div class="gp-panel">'
+                           + (musik_grid(l) if s == 'musik' else games_grid(l) if s == 'games' else '') + mpager(l, _n, _tot, lambda m: spage_url(s, None, m, l), top=True) + f'<div class="gs-grid">{_cards}</div>' + mpager(l, _n, _tot, lambda m: spage_url(s, None, m, l))
                            + f'</div><aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{_others(s)}</aside></div></div>')
                     _pal = {x: spage_url(s, None, _n, x) for x in act}
                     write(_pu, page(l, act, f'{SEC[l][s][0]} – {_pl} {_n} | TWN – World News', sec_desc(s, l, SEC[l][s][0]), _pu, _pb, _pal, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": f'{SEC[l][s][0]} – {_pl} {_n}', "url": SITE + _pu, "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))

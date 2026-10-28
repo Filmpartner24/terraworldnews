@@ -15,4 +15,16 @@ TERRA WORLD NEWS (terraworldnews.com) – tägliches Update der Rubrik GAMES (BG
 
 4. BERICHT (SendUserMessage via ToolSearch laden, und als finale Antwort), kurz auf Deutsch: die 6 Schlagzeilen (Reviews mit Video-Kanal, Wertung und Quelle; News), was weggelassen wurde und warum.
 
-REGELN: Nur content/, static/assets/news/ und candidates/ ändern; Design nicht anfassen. Keine Logins, Konten, Zahlungen. Nur eigene Arbeitsdateien löschen.
+5. TWN GAMES – 21 KATEGORIEN, RELEASE- UND EVENT-KALENDER (Nedy 28.10.2026, Seite im Design von TWN MUSIC)
+   a) KATEGORIEN: Jede neue Meldung bekommt "sub" = Hauptkategorie und "subs" = Liste weiterer Kategorien (Genres UND Plattformen als Filter – ein RPG für PS5 und PC also z. B. "sub":"g_rpg","subs":["g_openworld","g_ps","g_pc"]). Schlüssel:
+      Reihe 1 Action & Abenteuer: g_action, g_adventure, g_openworld, g_rpg, g_shooter (Shooter & FPS), g_horror (Survival & Horror), g_battleroyale
+      Reihe 2 Strategie & Simulation: g_strategy (Strategie & RTS), g_builder (Aufbau & Städtebau), g_sim (Simulation), g_sports (Sportspiele), g_racing (Rennspiele), g_sandbox (Sandbox & Kreativ), g_puzzle (Puzzle & Indie)
+      Reihe 3 Plattformen & Gaming-Kultur: g_pc, g_ps (PlayStation), g_xbox, g_nintendo, g_mobile, g_esport (E-Sport), g_retro (Retro & Klassiker: Remaster, Remakes, Gaming-Geschichte)
+      Fehlt "sub", ordnet build.py per Schlagwort automatisch zu – trotzdem immer selbst setzen (genauer). Plattformen nur, die laut Quelle tatsächlich unterstützt werden.
+   b) E-SPORT: Pro Woche mindestens 2 E-Sport-Meldungen (z. B. LoL Worlds, CS2-Majors, IEM/BLAST, Valorant) als Teil der 3 News, mit "sub":"g_esport" – möglichst mit offiziellem Video (Kanäle: LoL Esports, ESL Counter-Strike, BLAST Premier, VALORANT Champions Tour).
+   c) RELEASE-KALENDER content/games/releases.json ({"asof","releases":[{"date","title","pf","g","gs","p","type","src":{"n","u"}}],"src":[…]}): jeden MONTAG prüfen und pflegen – vergangene Einträge löschen, Verschiebungen korrigieren, neue fest datierte Releases der nächsten ~3 Monate ergänzen (nur mit konkretem Tagesdatum aus gesehener Quelle: Publisher/Plattform, VGC, GamesRadar, PC Gamer, Gematsu), "asof" aktualisieren. g/gs = Genre-Schlüssel, p = Plattform-Schlüssel, type = ""|"remaster"|"dlc"|"early".
+   d) EVENT-KALENDER content/games/events.json ({"asof","events":[{"from","to","name","place":{de,bg,en},"kind":"messe"|"showcase"|"esport"|"award","game","d":{de,bg,en},"src":{"n","u"}}]}): jeden MONTAG prüfen – neue offiziell datierte Showcases (State of Play, Nintendo Direct, Xbox Showcase), Messen und E-Sport-Finals ergänzen, abgelaufene löschen, "asof" aktualisieren.
+   e) „3 Games der Woche“ entstehen automatisch aus dem höchsten Kritiker-Schnitt (rv.num) der letzten 7 Tage – deshalb rv.num nur mit tatsächlich gesehenem OpenCritic-/Metacritic-Wert.
+   f) Kopf-Collage /assets/games/collage.webp mit Nachweisen in content/games/collage.json – nicht ändern.
+
+REGELN: Nur content/ (inkl. content/games/), static/assets/news/, candidates/ und bridge/ ändern; Design nicht anfassen. Keine Logins, Konten, Zahlungen. Nur eigene Arbeitsdateien löschen.
