@@ -16,4 +16,14 @@ Je Meldung bg/de/en: t ≤90, d ≤220, body = JSON-LISTE mit 2–3 Absätzen (n
 
 4. BERICHT (SendUserMessage via ToolSearch laden, und als finale Antwort), kurz auf Deutsch: die Schlagzeilen (welche mit Video/Kanal), was weggelassen wurde und warum.
 
-REGELN: Nur content/, static/assets/news/ und candidates/ ändern; Design nicht anfassen. Keine Logins, Konten, Zahlungen. Nur eigene Arbeitsdateien löschen.
+5. TWN FILM – 21 KATEGORIEN, KINO-RADAR, STREAMING-KALENDER (Nedy 28.10.2026, Seite im Design von TWN MUSIC)
+   a) KATEGORIEN: Jede neue Meldung bekommt "sub" = Hauptkategorie und "subs" = weitere Kategorien. Schlüssel:
+      Reihe 1 Kino & Entertainment: f_action, f_thriller (Thriller & Krimi), f_horror (Horror & Mystery), f_scifi (Science-Fiction), f_fantasy, f_comedy (Komödie), f_drama (Drama & Romanze)
+      Reihe 2 Filmkunst & Kultur: f_doku (Dokumentarfilm), f_short (Kurzfilm), f_anim (Animation & Anime), f_arthouse (Arthouse & Indie), f_history (Historienfilm), f_bio (Biografie), f_musical (Musikfilm & Musical)
+      Reihe 3 Filmwelt & Branche: f_europe (Europäischer Film), f_world (Weltkino), f_de (Deutscher Film), f_balkan (Balkan-Kino), f_series (Serien & TV), f_fest (Filmfestivals & Preise), f_industry (Filmindustrie: Box Office, Studios, Streamingdienste, Personalien)
+      Herkunft immer mit in "subs" (f_de/f_europe/f_world/f_balkan). Fehlt "sub", ordnet build.py per Schlagwort zu – trotzdem immer selbst setzen.
+   b) Möglichst jede Woche auch Balkan-Kino (bulgarische Filme, Sofia Film Fest, Golden Rose Varna) und Serien-News.
+   c) KINO-RADAR content/film/kinostarts.json ({"asof","starts":[{"date","title","orig","dir","country","g","gs","top","src":{"n","u"}}],"src":[…]}) und STREAMING-KALENDER content/film/streaming.json ({"asof","items":[{"date","title","kind":"film"|"serie","season","svc","g","gs","top","src"}],"src":[…]}): jeden MONTAG pflegen – Vergangenes löschen, Verschiebungen korrigieren, neue fest datierte Termine der nächsten ~3 Monate ergänzen (nur aus gesehenen Quellen: insidekino.com, kino.de, filmstarts.de, Verleiher; Streamingdienste, Serienjunkies, fernsehserien.de), "asof" aktualisieren. "Neu im Kino diese Woche" entsteht automatisch aus den Starts des aktuellen Donnerstags ("top": true zuerst).
+   d) Kopf-Collage /assets/film/collage.webp mit Nachweisen in content/film/collage.json – nicht ändern.
+
+REGELN: Nur content/ (inkl. content/film/), static/assets/news/, candidates/ und bridge/ ändern; Design nicht anfassen. Keine Logins, Konten, Zahlungen. Nur eigene Arbeitsdateien löschen.

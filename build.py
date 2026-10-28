@@ -340,6 +340,86 @@ def g_genres(it):
     """Alle Kategorien einer Games-Meldung: Hauptkategorie ("sub") + weitere ("subs")."""
     g = [it['sub']] if it.get('sub') in GROW else []
     return g + [x for x in (it.get('subs') or []) if x in GROW and x not in g]
+# ---- TWN FILM (Nedy 28.10.2026): 21 Kategorien in 3 Reihen zu je 7 wie TWN MUSIC/GAMES. Feld "sub" = Hauptkategorie, "subs" = weitere.
+FROWS = [
+ ({'de': 'Kino & Entertainment', 'bg': 'Кино и забавление', 'en': 'Cinema & entertainment'}, ['f_action', 'f_thriller', 'f_horror', 'f_scifi', 'f_fantasy', 'f_comedy', 'f_drama']),
+ ({'de': 'Filmkunst & Kultur', 'bg': 'Филмово изкуство и култура', 'en': 'Film art & culture'}, ['f_doku', 'f_short', 'f_anim', 'f_arthouse', 'f_history', 'f_bio', 'f_musical']),
+ ({'de': 'Filmwelt & Branche', 'bg': 'Филмовият свят и бранша', 'en': 'Film world & industry'}, ['f_europe', 'f_world', 'f_de', 'f_balkan', 'f_series', 'f_fest', 'f_industry']),
+]
+FGEN = [k for _r in FROWS for k in _r[1]]
+FROW = {k: i for i, _r in enumerate(FROWS) for k in _r[1]}
+_FG = {  # key: (DE, BG, EN, slug DE, slug BG, slug EN, Beschreibung DE, BG, EN)
+ 'f_action': ('Action', 'Екшън', 'Action', 'action', 'ekshan', 'action', 'Actionfilme: Blockbuster, Superhelden, Agenten und Martial Arts – Trailer, Kinostarts und News.', 'Екшън филми: блокбъстъри, супергерои, агенти и бойни изкуства – трейлъри, премиери и новини.', 'Action films: blockbusters, superheroes, spies and martial arts – trailers, releases and news.'),
+ 'f_thriller': ('Thriller & Krimi', 'Трилъри и криминални', 'Thriller & crime', 'thriller-krimi', 'trilari-i-kriminalni', 'thriller-crime', 'Thriller & Krimi: Spannung, Ermittler und Verschwörungen – Trailer, Kinostarts, Serien und News.', 'Трилъри и криминални: напрежение, разследвания и конспирации – трейлъри, премиери, сериали и новини.', 'Thriller & crime: suspense, detectives and conspiracies – trailers, releases, series and news.'),
+ 'f_horror': ('Horror & Mystery', 'Хорър и мистерия', 'Horror & mystery', 'horror-mystery', 'horar-i-misteriya', 'horror-mystery', 'Horror & Mystery: Grusel, Übernatürliches und Rätsel – Trailer, Kinostarts und News.', 'Хорър и мистерия: ужаси, свръхестествено и загадки – трейлъри, премиери и новини.', 'Horror & mystery: scares, the supernatural and puzzles – trailers, releases and news.'),
+ 'f_scifi': ('Science-Fiction', 'Научна фантастика', 'Science fiction', 'science-fiction', 'nauchna-fantastika', 'science-fiction', 'Science-Fiction: Zukunftsvisionen, Weltraum und KI auf der Leinwand – Trailer, Kinostarts und News.', 'Научна фантастика: бъдеще, космос и изкуствен интелект на екрана – трейлъри, премиери и новини.', 'Science fiction: visions of the future, space and AI on screen – trailers, releases and news.'),
+ 'f_fantasy': ('Fantasy', 'Фентъзи', 'Fantasy', 'fantasy', 'fentazi', 'fantasy', 'Fantasy: Magie, Mythen und Märchenwelten – Trailer, Kinostarts, Serien und News.', 'Фентъзи: магия, митове и приказни светове – трейлъри, премиери, сериали и новини.', 'Fantasy: magic, myths and fairy-tale worlds – trailers, releases, series and news.'),
+ 'f_comedy': ('Komödie', 'Комедия', 'Comedy', 'komoedie', 'komediya', 'comedy', 'Komödien: Lachen im Kino und im Stream – Trailer, Kinostarts und News.', 'Комедии: смях в киното и онлайн – трейлъри, премиери и новини.', 'Comedy: laughs in cinemas and on streaming – trailers, releases and news.'),
+ 'f_drama': ('Drama & Romanze', 'Драма и романтика', 'Drama & romance', 'drama-romanze', 'drama-i-romantika', 'drama-romance', 'Drama & Romanze: große Gefühle, Schicksale und Liebesgeschichten – Trailer, Kinostarts und News.', 'Драма и романтика: големи чувства, съдби и любовни истории – трейлъри, премиери и новини.', 'Drama & romance: big emotions, destinies and love stories – trailers, releases and news.'),
+ 'f_doku': ('Dokumentarfilm', 'Документално кино', 'Documentary', 'dokumentarfilm', 'dokumentalno-kino', 'documentary', 'Dokumentarfilme: Kino der Wirklichkeit – Festivals, Kinostarts, Doku-Serien und Porträts.', 'Документално кино: киното на действителността – фестивали, премиери, документални сериали и портрети.', 'Documentaries: cinema of reality – festivals, releases, docuseries and profiles.'),
+ 'f_short': ('Kurzfilm', 'Късометражно кино', 'Short film', 'kurzfilm', 'kasometrazhno-kino', 'short-film', 'Kurzfilm: Talente, Festivals und Preise der kurzen Form.', 'Късометражно кино: таланти, фестивали и награди.', 'Short film: talent, festivals and awards in the short form.'),
+ 'f_anim': ('Animation & Anime', 'Анимация и аниме', 'Animation & anime', 'animation-anime', 'animatsiya-i-anime', 'animation-anime', 'Animation & Anime: Pixar, Disney, Ghibli und Anime – Trailer, Kinostarts und News.', 'Анимация и аниме: Pixar, Disney, Ghibli и аниме – трейлъри, премиери и новини.', 'Animation & anime: Pixar, Disney, Ghibli and anime – trailers, releases and news.'),
+ 'f_arthouse': ('Arthouse & Indie', 'Артхаус и инди', 'Arthouse & indie', 'arthouse-indie', 'arthaus-i-indi', 'arthouse-indie', 'Arthouse & Indie: Autorenfilm, Independent und Festivalentdeckungen.', 'Артхаус и инди: авторско кино, независими продукции и фестивални открития.', 'Arthouse & indie: auteur cinema, independent film and festival discoveries.'),
+ 'f_history': ('Historienfilm', 'Исторически филми', 'Historical film', 'historienfilm', 'istoricheski-filmi', 'historical-film', 'Historienfilme: Epochen, Kriege und Geschichte auf der Leinwand und im Stream.', 'Исторически филми: епохи, войни и история на екрана.', 'Historical film: eras, wars and history on screen.'),
+ 'f_bio': ('Biografie', 'Биография', 'Biopic', 'biografie', 'biografiya', 'biopic', 'Biografien: Filme und Serien über reale Menschen – von Musikern bis Politikern.', 'Биографии: филми и сериали за реални личности – от музиканти до политици.', 'Biopics: films and series about real people – from musicians to politicians.'),
+ 'f_musical': ('Musikfilm & Musical', 'Музикален филм и мюзикъл', 'Music film & musical', 'musikfilm-musical', 'muzikalen-film-i-myuzikal', 'music-film-musical', 'Musikfilme & Musicals: Konzertfilme, Musikerporträts und Musicals.', 'Музикални филми и мюзикъли: концертни филми, портрети на музиканти и мюзикъли.', 'Music films & musicals: concert films, musician profiles and musicals.'),
+ 'f_europe': ('Europäischer Film', 'Европейско кино', 'European film', 'europaeischer-film', 'evropeysko-kino', 'european-film', 'Europäischer Film: Kino aus Frankreich, Italien, Skandinavien, Spanien und Osteuropa.', 'Европейско кино: филми от Франция, Италия, Скандинавия, Испания и Източна Европа.', 'European film: cinema from France, Italy, Scandinavia, Spain and Eastern Europe.'),
+ 'f_world': ('Weltkino', 'Световно кино', 'World cinema', 'weltkino', 'svetovno-kino', 'world-cinema', 'Weltkino: Filme aus Asien, Lateinamerika, Afrika und dem Nahen Osten.', 'Световно кино: филми от Азия, Латинска Америка, Африка и Близкия изток.', 'World cinema: films from Asia, Latin America, Africa and the Middle East.'),
+ 'f_de': ('Deutscher Film', 'Германско кино', 'German film', 'deutscher-film', 'germansko-kino', 'german-film', 'Deutscher Film: Kinostarts, Serien, Stars, Förderung und der Deutsche Filmpreis.', 'Германско кино: премиери, сериали, звезди и Германската филмова награда.', 'German film: releases, series, stars, funding and the German Film Award.'),
+ 'f_balkan': ('Balkan-Kino', 'Балканско кино', 'Balkan cinema', 'balkan-kino', 'balkansko-kino', 'balkan-cinema', 'Balkan-Kino: Filme und Festivals aus Bulgarien, Rumänien, Serbien, Griechenland und der Region.', 'Балканско кино: филми и фестивали от България, Румъния, Сърбия, Гърция и региона.', 'Balkan cinema: films and festivals from Bulgaria, Romania, Serbia, Greece and the region.'),
+ 'f_series': ('Serien & TV', 'Сериали и ТВ', 'Series & TV', 'serien-tv', 'seriali-i-tv', 'series-tv', 'Serien & TV: neue Staffeln, Streaming-Premieren bei Netflix, Prime Video, Disney+, Apple TV und in den Mediatheken.', 'Сериали и ТВ: нови сезони и стрийминг премиери в Netflix, Prime Video, Disney+ и Apple TV.', 'Series & TV: new seasons and streaming premieres on Netflix, Prime Video, Disney+, Apple TV and public broadcasters.'),
+ 'f_fest': ('Filmfestivals', 'Филмови фестивали', 'Film festivals', 'filmfestivals', 'filmovi-festivali', 'film-festivals', 'Filmfestivals & Preise: Berlinale, Cannes, Venedig, Sundance, Oscars – und das PLANET EARTH FILMFESTIVAL in Bayreuth.', 'Филмови фестивали и награди: Берлинале, Кан, Венеция, Сънданс, „Оскар“ – и PLANET EARTH FILMFESTIVAL в Байройт.', 'Film festivals & awards: Berlinale, Cannes, Venice, Sundance, the Oscars – and the PLANET EARTH FILMFESTIVAL in Bayreuth.'),
+ 'f_industry': ('Filmindustrie', 'Филмова индустрия', 'Film industry', 'filmindustrie', 'filmova-industriya', 'film-industry', 'Filmindustrie: Box Office, Studios, Streaming-Dienste, Deals und Personalien.', 'Филмова индустрия: боксофис, студиа, стрийминг услуги, сделки и назначения.', 'Film industry: box office, studios, streaming services, deals and appointments.'),
+}
+for _k, _v in _FG.items():
+    SUB['de'][_k] = (_v[0], _v[3]); SUB['bg'][_k] = (_v[1], _v[4]); SUB['en'][_k] = (_v[2], _v[5])
+    SUB_DESC[_k] = {'de': _v[6], 'bg': _v[7], 'en': _v[8]}
+LSUBS['film'] = FGEN
+FILM_KW = {
+ 'f_horror': ['horror', 'grusel', 'mystery', 'geister', 'dämon', 'exorzis', 'slasher', 'stephen king', 'zombie', 'vampir', 'werwolf', 'spuk', 'conjuring', 'final destination'],
+ 'f_scifi': ['science-fiction', 'sci-fi', 'science fiction', 'scifi', 'weltraum', 'dune', 'star wars', 'star trek', 'alien', 'außerirdisch', 'ki-thriller', 'roboter', 'dystop', 'godzilla', 'panem', 'blade runner', 'avatar', 'zeitreise'],
+ 'f_fantasy': ['fantasy', 'magie', 'zauber', 'märchen', 'harry potter', 'herr der ringe', 'ringe der macht', 'hexe', 'drachen', 'jumanji', 'narnia', 'wicked'],
+ 'f_action': ['action', 'marvel', 'avengers', 'superheld', 'superhelden', 'mission: impossible', 'james bond', '007', 'fast & furious', 'john wick', 'batman', 'superman', 'spider-man', 'spiderman', 'dc studios', 'kampfkunst', 'ghost rider'],
+ 'f_thriller': ['thriller', 'krimi', 'mord', 'ermittler', 'ermittlerin', 'serienkiller', 'heist', 'agenten', 'spionage', 'tatort', 'verschwörung', 'entführung'],
+ 'f_comedy': ['komödie', 'comedy', 'sitcom', 'satire', 'parodie', 'rom-com', 'tragikomödie'],
+ 'f_drama': ['drama', 'romanze', 'liebesfilm', 'romantik', 'melodram', 'liebesgeschichte', 'familiendrama'],
+ 'f_doku': ['dokumentarfilm', 'dokumentation', 'doku', 'dokuserie', 'doku-serie', 'documentary'],
+ 'f_short': ['kurzfilm', 'kurzfilme', 'short film', 'kurzfilmtage'],
+ 'f_anim': ['animation', 'animationsfilm', 'animiert', 'anime', 'pixar', 'dreamworks', 'ghibli', 'trickfilm', 'zeichentrick', 'illumination', 'animationsstudio'],
+ 'f_arthouse': ['arthouse', 'independent', 'indie', 'a24', 'autorenfilm', 'mubi', 'neon'],
+ 'f_history': ['historienfilm', 'historisch', 'historische', 'weltkrieg', 'mittelalter', 'antike', 'ddr', 'nationalsozialis', 'napoleon', 'römer', 'kaiserin'],
+ 'f_bio': ['biografie', 'biopic', 'biografisch', 'lebensgeschichte', 'wahre geschichte', 'wahren begebenheit', 'wahren geschichte'],
+ 'f_musical': ['musical', 'musikfilm', 'konzertfilm', 'liedermacher', 'sängerin', 'sänger', 'musiker'],
+ 'f_europe': ['europäisch', 'europäische', 'frankreich', 'französisch', 'italien', 'italienisch', 'spanien', 'spanisch', 'britisch', 'großbritannien', 'polen', 'polnisch', 'skandinav', 'dänisch', 'schwedisch', 'norweg', 'österreich', 'cannes', 'venedig', 'karlovy', 'locarno', 'san sebastián', 'europäischer filmpreis', 'cécile de france', 'studiocanal', 'pathé', 'gaumont'],
+ 'f_world': ['japan', 'japanisch', 'korea', 'koreanisch', 'indien', 'indisch', 'bollywood', 'china', 'chinesisch', 'iran', 'iranisch', 'mexiko', 'brasilien', 'afrika', 'türkisch', 'türkei', 'busan', 'weltkino', 'marrakesch'],
+ 'f_de': ['deutscher film', 'deutsche produktion', 'deutsche koproduktion', 'deutschen film', 'deutscher filmpreis', 'berlinale', 'constantin film', 'leonine', 'hofer filmtage', 'max ophüls', 'filmfest münchen', 'fatih akin', 'til schweiger', 'schweighöfer', "elyas m'barek", 'bully herbig', 'caroline link', 'tom tykwer', 'christian petzold', 'babylon berlin', 'ard', 'zdf', 'deutsche serie', 'deutsche originals', 'deutsche netflix'],
+ 'f_balkan': ['bulgar', 'serbi', 'kroati', 'bosni', 'rumän', 'griechen', 'griechisch', 'mazedon', 'albani', 'sarajevo', 'sofia film', 'golden rose', 'varna', 'thessaloniki', 'balkan'],
+ 'f_series': ['serie', 'staffel', 'miniserie', 'showrunner', 'episode', 'streaming-serie', 'netflix-serie'],
+ 'f_fest': ['festival', 'filmfest', 'filmfestspiele', 'berlinale', 'cannes', 'venedig', 'tiff', 'sundance', 'karlovy', 'locarno', 'oscar', 'oscars', 'golden globe', 'golden globes', 'academy awards', 'emmy', 'emmys', 'bafta', 'filmpreis', 'gotham awards', 'planet earth filmfestival', 'planet earth film festival'],
+ 'f_industry': ['box office', 'einspielergebnis', 'kinokasse', 'kinobranche', 'übernahme', 'fusion', 'streik', 'verleih', 'chefin', 'ceo', 'managerin', 'deal', 'abonnenten', 'entlassungen', 'studiochef', 'filmförderung', 'leitet künftig', 'paramount', 'warner bros. discovery'],
+}
+FILM_STRICT = {'ard', 'zdf', 'band', 'doku', 'indie', 'neon', 'a24', 'tiff', 'ceo', 'deal', 'mord', 'drama', 'action', 'anime', 'alien', 'dune', 'epos', 'ddr', 'serie', 'emmy', 'oscar', 'oscars', 'bafta', 'mubi', 'heist', 'krimi', 'magie', 'hexe', 'fusion', 'streik', 'japan', 'china', 'iran', 'indien', 'busan', 'cannes', 'varna', 'römer', '007', 'folgen', 'sänger', 'musiker', 'polen', 'afrika', 'mexiko', 'spuk', 'zauber', 'satire', 'comedy', 'musical', 'mystery', 'horror', 'fantasy', 'zombie', 'vampir', 'avatar', 'drachen', 'marvel', 'batman', 'superman', 'pixar', 'sitcom', 'verleih', 'thriller', 'festival', 'italien', 'spanien', 'episode', 'staffel', 'animation', 'independent', 'paramount'}
+_FKRE = {k: [re.compile(r'(?<![a-zäöüß0-9])' + re.escape(w) + (r'(?![a-zäöüß0-9])' if w in FILM_STRICT else '')) for w in v] for k, v in FILM_KW.items()}
+def film_cats(it):
+    """Kategorien einer Film-Meldung per Schlagwort setzen: "sub" (Hauptkategorie, falls nicht gesetzt) und "subs" (alle Treffer)."""
+    T = it.get('de') or {}
+    txt = ' '.join([str(T.get('t', '')), str(T.get('d', '')), ' '.join(str(p) for p in (T.get('body') or [])[:1]), str((it.get('fk') or {}).get('de', ''))]).lower()
+    hits = {}
+    for k, rxs in _FKRE.items():
+        for rx in rxs:
+            m = rx.search(txt)
+            if m and (k not in hits or m.start() < hits[k]): hits[k] = m.start()
+    if it.get('fest'): hits['f_fest'] = min(hits.get('f_fest', 0), 0)
+    if (it.get('rv') or {}).get('pf') in ('Serie', 'Streaming-Serie'): hits.setdefault('f_series', 10 ** 5)
+    found = sorted(hits, key=lambda k: (hits[k], FGEN.index(k)))
+    if not it.get('sub') or it.get('sub') not in FROW:
+        main = ('f_fest' if it.get('fest') else None) or next((k for k in found if FROW[k] < 2), None) or next((k for k in found), None)
+        if main: it['sub'] = main
+    it['subs'] = list(dict.fromkeys([x for x in (it.get('subs') or []) if x in FROW] + [k for k in found if k != it.get('sub')]))
+    if 'planet earth' in txt and ('filmfestival' in txt or 'film festival' in txt): it['pe'] = True
+def f_genres(it):
+    g = [it['sub']] if it.get('sub') in FROW else []
+    return g + [x for x in (it.get('subs') or []) if x in FROW and x not in g]
 def sec_desc(s, l, fallback):
     d = SEO_DESC.get(s)
     return d[l] if d else fallback
@@ -420,7 +500,7 @@ def berlin_sub(it):
     if kl == 'Berlin' or _BER_RE.match(it.get('id', '')) or _BER_T.match(t): it['sub'] = 'berlin'
 
 def load():
-    load_musik(); load_games()
+    load_musik(); load_games(); load_film()
     eds, brk = [], []
     for f in sorted(glob.glob(os.path.join(HERE, 'content', '*.json'))):
         d = json.load(open(f, encoding='utf-8'))
@@ -434,6 +514,7 @@ def load():
                 if it.get('subs'): it['subs'] = list(dict.fromkeys('jazz' if x == 'blues' else x for x in it['subs']))
             if it.get('s') == 'musik' and it.get('sub') in MOLD: music_sub(it, MOLD[it['sub']])   # alte Kanäle (bis 25.10.2026) → eines der 21 Genres
             if it.get('s') == 'musik' and not it.get('sub') and it.get('rub') != 'rueckblick': music_sub(it)   # Genre automatisch, falls nicht gesetzt (seit 24.10.2026, 21 Genres seit 26.10.2026)
+            if it.get('s') == 'film': film_cats(it)   # TWN FILM: 21 Kategorien automatisch (Nedy 28.10.2026)
             if it.get('s') == 'games': games_cats(it)   # TWN GAMES: 21 Kategorien automatisch (Nedy 28.10.2026)
             if it.get('s') == 'deutschland': berlin_sub(it)   # Berlin-Meldungen automatisch in die Unterrubrik Berlin (seit 08.10.2026)  # Entertainment aufgeteilt in Film und Musik
             if it.get('img') and not it['img']['f'].startswith('/'): it['img']['f'] = '/' + it['img']['f']  # Pfad immer absolut
@@ -1162,6 +1243,162 @@ def games_extras(l, its, day0, cat=None):
         mid += f'<section class="mp-tour"><h2 class="gp-h">◎ {e(Z["radar"])}</h2><ul class="tr-list">{tl}</ul></section>'
     mid += games_events(l, day0, only=('messe', 'showcase', 'award'), nmax=10)
     return top, mid
+# ---- TWN FILM Seitenblöcke (Nedy 28.10.2026): Kategorie-Raster, Neu im Kino, PLANET EARTH FILMFESTIVAL (Festival-Bühne), Festival-Kalender, Kino-Radar, Streaming-Kalender
+FILM = {}   # content/film/*.json; 'hist' = alle Film-Meldungen (im Bau gesetzt)
+def load_film():
+    for n in ('kinostarts', 'streaming', 'festivals', 'planet-earth', 'collage'):
+        fp = os.path.join(HERE, 'content', 'film', n + '.json')
+        if os.path.exists(fp): FILM[n] = json.load(open(fp, encoding='utf-8'))
+FZU = {'bg': dict(genres='Категории', fsub='Кино · Стрийминг · Трейлъри · Ревюта · Фестивали', allg='Всички категории', gempty='В категория „{g}“ скоро ще се появят първите материали на редакцията.', glatest='Най-новото от киното',
+                  week='Нови в киното тази седмица', week_n='Премиери в Германия', kino='Кино-радар', kino_n='Премиери в германските кина', kinonote='Според дистрибуторите към {d}; възможни са промени.', stream='Стрийминг календар', streamnote='Според стрийминг услугите към {d}; възможни са промени.',
+                  fcal='Календар на фестивалите и наградите', fcalnote='Дати според организаторите към {d}; възможни са промени.', kinds={'festival': 'Фестивал', 'award': 'Награди', 'kurzfilm': 'Късометражно', 'doku': 'Документално', 'animation': 'Анимация', 'own': 'TWN фестивал'},
+                  dir='Режисьор', src='Източници', toart='Към статията →', film='филм', serie='сериал', vids='Трейлъри и видеа', news='Новини', days=['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Нд'], top='Акцент',
+                  pe_kick='Нашият фестивал', pe_dates='19–24 юли 2027 · Reichshof, Байройт', pe_site='Към сайта на фестивала', pe_submit='Подай филм (FilmFreeway)', pe_cats='Награди', pe_news='Новини за фестивала', pe_more='Всичко за филмовите фестивали →', pe_count='още {n} дни', pe_live='Фестивалът тече', pe_none='Новините на TWN за PLANET EARTH FILMFESTIVAL ще се появят тук.', fvids='Видеа от фестивалите'),
+       'de': dict(genres='Kategorien', fsub='Kino · Streaming · Trailer · Reviews · Festivals', allg='Alle Kategorien', gempty='In der Kategorie „{g}“ erscheinen in Kürze die ersten Beiträge der Redaktion.', glatest='Neueste Film-Meldungen',
+                  week='Neu im Kino diese Woche', week_n='Bundesweite Kinostarts', kino='Kino-Radar', kino_n='Kommende Kinostarts in Deutschland', kinonote='Nach Angaben der Verleiher, Stand {d}; Änderungen möglich.', stream='Streaming-Kalender', streamnote='Nach Angaben der Streamingdienste, Stand {d}; Änderungen möglich.',
+                  fcal='Festival- & Preiskalender', fcalnote='Termine laut Veranstaltern, Stand {d}; Änderungen möglich.', kinds={'festival': 'Festival', 'award': 'Preise', 'kurzfilm': 'Kurzfilm', 'doku': 'Dokumentarfilm', 'animation': 'Animation', 'own': 'TWN-Festival'},
+                  dir='Regie', src='Quellen', toart='Zum Artikel →', film='Film', serie='Serie', vids='Trailer & Videos', news='News', days=['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'], top='Highlight',
+                  pe_kick='Unser Festival', pe_dates='19.–24. Juli 2027 · Reichshof Bayreuth', pe_site='Zur Festival-Website', pe_submit='Film einreichen (FilmFreeway)', pe_cats='Preise', pe_news='Neues vom Festival', pe_more='Alles zu Filmfestivals →', pe_count='noch {n} Tage', pe_live='Das Festival läuft', pe_none='Hier erscheinen die TWN-Berichte zum PLANET EARTH FILMFESTIVAL.', fvids='Videos von den Festivals'),
+       'en': dict(genres='Categories', fsub='Cinema · Streaming · Trailers · Reviews · Festivals', allg='All categories', gempty='The first stories in the “{g}” category will appear here soon.', glatest='Latest film news',
+                  week='New in cinemas this week', week_n='Nationwide releases in Germany', kino='Cinema radar', kino_n='Upcoming cinema releases in Germany', kinonote='According to distributors as of {d}; subject to change.', stream='Streaming calendar', streamnote='According to the streaming services as of {d}; subject to change.',
+                  fcal='Festival & awards calendar', fcalnote='Dates according to organisers as of {d}; subject to change.', kinds={'festival': 'Festival', 'award': 'Awards', 'kurzfilm': 'Short film', 'doku': 'Documentary', 'animation': 'Animation', 'own': 'TWN festival'},
+                  dir='Director', src='Sources', toart='Read more →', film='film', serie='series', vids='Trailers & videos', news='News', days=['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'], top='Highlight',
+                  pe_kick='Our festival', pe_dates='19–24 July 2027 · Reichshof Bayreuth', pe_site='Festival website', pe_submit='Submit a film (FilmFreeway)', pe_cats='Awards', pe_news='Festival news', pe_more='All about film festivals →', pe_count='{n} days to go', pe_live='The festival is on', pe_none='TWN coverage of the PLANET EARTH FILMFESTIVAL will appear here.', fvids='Festival videos')}
+def film_grid(l, cur=None):
+    """TWN FILM: 21 Kategorien in 3 Reihen zu je 7 (Nedy 28.10.2026). Zähler = alle Beiträge der Kategorie."""
+    Z = FZU[l]; pool = FILM.get('hist') or []
+    rows = ''
+    for i, (lab, keys) in enumerate(FROWS):
+        tiles = ''
+        for k in keys:
+            n = sum(1 for x in pool if k in f_genres(x))
+            tiles += (f'<a class="mg{" on" if k == cur else ""}{" mg-0" if not n else ""}{" mg-pe" if k == "f_fest" else ""}" href="{sub_url("film", k, l)}"' + (' aria-current="page"' if k == cur else '') +
+                      f'><b>{e(SUB[l][k][0])}</b>' + (f'<span>{n}</span>' if n else '') + '</a>')
+        rows += f'<div class="mg-row mg-r{i + 1}"><h3>{i + 1:02d} — {e(lab[l])}</h3><div class="mg-tiles">{tiles}</div></div>'
+    allc = ' on' if cur is None else ''
+    C = (FILM.get('collage') or {}).get('photos') or []
+    crl = (LX({'bg': 'Колаж в заглавието', 'de': 'Collage im Kopf', 'en': 'Header collage'})[l] + ': ' + ' · '.join(f'<a href="{e(x["page"])}" rel="noopener nofollow" target="_blank">{e(x["art"])}</a> ({e(x["lic"])})' for x in C)
+           + LX({'bg': ' – Wikimedia Commons, изрязани и оцветени; колажът е под лиценз CC BY-SA 4.0', 'de': ' – Wikimedia Commons, zugeschnitten und eingefärbt; Collage unter CC BY-SA 4.0', 'en': ' – Wikimedia Commons, cropped and recoloured; collage licensed CC BY-SA 4.0'})[l]) if C else ''
+    return (f'<section class="mg-wrap fg-wrap" aria-label="{e(Z["genres"])}"><div class="mg-head"><p class="mg-kick">TERRA WORLD NEWS</p><p class="mg-brand">FILM</p>'
+            f'<p class="mg-sub">{e(Z["fsub"])}</p><a class="mg-all{allc}" href="{sec_url("film", l)}">{e(Z["allg"])}</a></div>{rows}' + (f'<p class="mg-cr">{crl}</p>' if crl else '') + '</section>')
+def f_chip(k, l):
+    return f'<a class="rl-g rl-r{FROW.get(k, 0) + 1}" href="{sub_url("film", k, l)}">{e(SUB[l][k][0])}</a>' if k in FROW else ''
+def _f_match(title):
+    """TWN-Meldung zu einem Filmtitel (für Bild/Trailer-Link), neueste zuerst."""
+    t = re.sub(r'[„“"”:–-].*$', '', title).strip().lower() if len(title) > 40 else title.lower()
+    t = t.split(' – ')[0].strip()
+    if len(t) < 4: return None
+    for x in sorted(FILM.get('hist') or [], key=lambda x: (x['date'], x['time']), reverse=True):
+        if t in (x.get('de') or {}).get('t', '').lower(): return x
+    return None
+def film_kino(l, day0, cat=None, weeks=4, nmax=None):
+    import datetime as _df
+    Z = FZU[l]; K = FILM.get('kinostarts') or {}
+    rr = [r for r in K.get('starts', []) if r['date'] >= day0 and (cat is None or cat == r.get('g') or cat in (r.get('gs') or []))]
+    if not rr: return ''
+    days = sorted({r['date'] for r in rr})[:weeks]
+    rr = sorted([r for r in rr if r['date'] in days], key=lambda r: (r['date'], not r.get('top'), r['title']))
+    if nmax: rr = rr[:nmax]; days = sorted({r['date'] for r in rr})
+    rk = ''
+    for dd in days:
+        rows = ''
+        for r in [r for r in rr if r['date'] == dd]:
+            m = _f_match(r['title'])
+            ttl = f'<a href="{art_url(m, l)}">{e(r["title"])}</a>' if m and l in m else e(r['title'])
+            rows += (f'<li{" class=" + chr(34) + "fk-top" + chr(34) if r.get("top") else ""}>{f_chip(r.get("g"), l)}<b>{ttl}</b>' + (f' <small>({e(r["orig"])})</small>' if r.get('orig') else '')
+                     + f' <small class="rl-pf">{e(r.get("country", ""))}' + (f' · {e(Z["dir"])}: {e(r["dir"])}' if r.get('dir') else '') + '</small>'
+                     + (f' <a class="rl-s" href="{e(r["src"]["u"])}" rel="noopener nofollow" target="_blank" title="{e(r["src"]["n"])}">↗</a>' if r.get('src') else '') + '</li>')
+        rk += f'<div class="rl-day"><h3>{e(Z["days"][_df.date.fromisoformat(dd).weekday()])}, {short_date(dd, l)}</h3><ul>{rows}</ul></div>'
+    srcs = ''.join(f'<li><a href="{e(x["u"])}" rel="noopener nofollow" target="_blank">{e(x["n"])}</a></li>' for x in K.get('src', []))
+    return (f'<section class="mp-rel fk-rel"><h2 class="gp-h">◉ {e(Z["kino"] + (" · " + SUB[l][cat][0] if cat else ""))} <small>{e(Z["kino_n"])}</small></h2><div class="rl-grid">{rk}</div><p class="rl-note">{e(Z["kinonote"].format(d=short_date(K.get("asof", day0), l)))}</p>'
+            + (f'<details class="rl-src"><summary>{e(Z["src"])}</summary><ul>{srcs}</ul></details>' if srcs else '') + '</section>')
+def film_stream(l, day0, cat=None, nmax=14):
+    import datetime as _df
+    Z = FZU[l]; S = FILM.get('streaming') or {}
+    rr = [r for r in S.get('items', []) if r['date'] >= day0 and (cat is None or cat == r.get('g') or cat in (r.get('gs') or []) or (cat == 'f_series' and r.get('kind') == 'serie'))]
+    if not rr: return ''
+    rr = sorted(rr, key=lambda r: (r['date'], not r.get('top')))[:nmax]
+    li = ''
+    for r in rr:
+        kd = Z['serie'] if r.get('kind') == 'serie' else Z['film']
+        li += (f'<li><span class="st-d">{e(short_date(r["date"], l))}</span><span class="st-svc">{e(r.get("svc", ""))}</span>{f_chip(r.get("g"), l)}<b>{e(r["title"])}</b>'
+               f' <small>{e(kd)}' + (f' · {e(r["season"])}' if r.get('season') else '') + '</small>' + (f' <a class="rl-s" href="{e(r["src"]["u"])}" rel="noopener nofollow" target="_blank" title="{e(r["src"]["n"])}">↗</a>' if r.get('src') else '') + '</li>')
+    return (f'<section class="mp-st"><h2 class="gp-h">▶ {e(Z["stream"] + (" · " + SUB[l][cat][0] if cat else ""))}</h2><ul class="st-list">{li}</ul>'
+            f'<p class="rl-note">{e(Z["streamnote"].format(d=short_date(S.get("asof", day0), l)))}</p></section>')
+def film_fcal(l, day0, nmax=10, only=None):
+    Z = FZU[l]; F = FILM.get('festivals') or {}
+    ev = sorted([x for x in F.get('fests', []) if x['to'] >= day0 and (only is None or x.get('kind') in only)], key=lambda x: x['from'])[:nmax]
+    if not ev: return ''
+    def rng(x): return short_date(x['from'], l) + (f' – {short_date(x["to"], l)}' if x['to'] != x['from'] else '')
+    li = ''
+    for x in ev:
+        pl = (x.get('place') or {}); pl = pl.get(l) or pl.get('en', '') if isinstance(pl, dict) else pl
+        live = x['from'] <= day0 <= x['to']
+        li += (f'<li class="ev-{e(x.get("kind", ""))}{" ev-live" if live else ""}"><span class="ev-d">{e(rng(x))}</span><span class="ev-k">{e(Z["kinds"].get(x.get("kind"), ""))}</span>'
+               f'<b>{e(x["name"])}</b><span class="ev-p">{e(pl)}</span><p>{e(L(x.get("d", {}), l))}</p>' + (f'<a class="ev-s" href="{e(x["src"]["u"])}" rel="noopener nofollow" target="_blank">{e(x["src"]["n"])} ↗</a>' if x.get('src') else '') + '</li>')
+    return (f'<section class="mp-ev"><h2 class="gp-h">✦ {e(Z["fcal"])}</h2><ul class="ev-list">{li}</ul>'
+            f'<p class="rl-note">{e(Z["fcalnote"].format(d=short_date(F.get("asof", day0), l)))}</p></section>')
+def film_pe(l, day0, big=False):
+    """PLANET EARTH FILMFESTIVAL – eigene Marke (Nedy 28.10.2026), immer mit Transparenzhinweis."""
+    import datetime as _df
+    P = FILM.get('planet-earth') or {}
+    if not P: return ''
+    Z = FZU[l]
+    d0 = _df.date.fromisoformat(day0); a = _df.date.fromisoformat(P['from']); b = _df.date.fromisoformat(P['to'])
+    cd = Z['pe_live'] if a <= d0 <= b else (Z['pe_count'].format(n=(a - d0).days) if d0 < a else '')
+    pe_its = sorted([x for x in (FILM.get('hist') or []) if x.get('pe') and l in x], key=lambda x: (x['date'], x['time']), reverse=True)[:4 if big else 2]
+    news = ''.join(f'<li><a href="{art_url(x, l)}"><time datetime="{x["date"]}">{num_date(x["date"])}</time> {e(x[l]["t"])}</a></li>' for x in pe_its)
+    cats = ''.join(f'<li>{e(c)}</li>' for c in (P.get('cats') or {}).get(l, []))
+    return (f'<section class="pe{" pe-big" if big else ""}" aria-label="PLANET EARTH FILMFESTIVAL"><div class="pe-in">'
+            f'<p class="pe-kick">★ {e(Z["pe_kick"])} ★</p><p class="pe-brand"><span>PLANET EARTH</span><b>FILMFESTIVAL</b></p>'
+            f'<p class="pe-date">{e(Z["pe_dates"])}' + (f' <i>{e(cd)}</i>' if cd else '') + '</p>'
+            f'<p class="pe-about">{e(L(P.get("about", {}), l))}</p>'
+            f'<div class="pe-cta"><a class="pe-btn" href="{e(P["site"])}" rel="noopener" target="_blank">{e(Z["pe_site"])} ↗</a><a class="pe-btn pe-btn2" href="{e(P["submit"])}" rel="noopener" target="_blank">{e(Z["pe_submit"])} ↗</a></div>'
+            + (f'<div class="pe-cats"><h3>{e(Z["pe_cats"])} <small>({e(L(P.get("cats_note", {}), l))})</small></h3><ul>{cats}</ul></div>' if big and cats else '')
+            + f'<div class="pe-news"><h3>{e(Z["pe_news"])}</h3>' + (f'<ul>{news}</ul>' if news else f'<p>{e(Z["pe_none"])}</p>') + '</div>'
+            + ('' if big else f'<a class="pe-more" href="{sub_url("film", "f_fest", l)}">{e(Z["pe_more"])}</a>')
+            + f'<p class="pe-disc">{e(L(P.get("disclosure", {}), l))}</p></div></section>')
+def film_week(l, day0):
+    """Neu im Kino diese Woche: bis zu 3 Starts des aktuellen Kino-Donnerstags (Highlights zuerst)."""
+    import datetime as _df
+    Z = FZU[l]; K = FILM.get('kinostarts') or {}
+    d0 = _df.date.fromisoformat(day0)
+    wk = [r for r in K.get('starts', []) if abs((_df.date.fromisoformat(r['date']) - d0).days) <= 3]
+    if not wk: return ''
+    wk = sorted(wk, key=lambda r: (not r.get('top'), r['title']))[:3]
+    cards = ''
+    for r in wk:
+        m = _f_match(r['title'])
+        bgimg = f' style="background-image:url({m["img"]["f"]})"' if m and m.get('img') else ''
+        v = (m['yt'] if isinstance(m['yt'], dict) else m['yt'][0]) if m and m.get('yt') else None
+        head = (f'<div class="yt gr-yt sow-yt" data-yt="{e(v["id"])}"{bgimg}><span class="gr-badge">{e(short_date(r["date"], l))}</span><button type="button" class="yt-play">{e(UI[l]["play"])}</button><span class="yt-note">{e(UI[l]["ytnote"])}</span></div>'
+                if v else f'<div class="sow-yt gs-img{"" if bgimg else " fw-card"}"{bgimg}><span class="gr-badge">{e(short_date(r["date"], l))}</span>' + ('' if bgimg else f'<b class="fw-t">{e(r["title"])}</b>') + '</div>')
+        chips = ''.join(f_chip(k, l) for k in [r.get('g')] + (r.get('gs') or [])[:2])
+        cards += (f'<article class="sow gotw">{head}<div class="gotw-c">{chips}</div><h3>' + (f'<a href="{art_url(m, l)}">{e(r["title"])}</a>' if m and l in m else e(r['title'])) + '</h3>'
+                  + f'<p>{e(r.get("country", ""))}' + (f' · {e(Z["dir"])}: {e(r["dir"])}' if r.get('dir') else '') + '</p>'
+                  + (f'<a class="gr-more" href="{art_url(m, l)}">{e(Z["toart"])}</a>' if m and l in m else '') + '</article>')
+    return f'<section class="mp-sow"><h2 class="gp-h">★ {e(Z["week"])} <small>{e(Z["week_n"])}</small></h2><div class="sow-grid">{cards}</div></section>'
+def film_extras(l, its, day0, cat=None):
+    """(oben, mitte, nach Festivals) für die Film-Seite."""
+    Z = FZU[l]
+    top = film_grid(l, cat)
+    if cat:
+        mid = ''
+        if cat == 'f_fest': top += film_pe(l, day0, big=True)
+        if not any(cat in f_genres(x) for x in its):
+            nw = sorted(FILM.get('hist') or [], key=lambda x: (x['date'], x['time']), reverse=True)[:6]
+            mid += f'<p class="mg-empty">{e(Z["gempty"].format(g=SUB[l][cat][0]))}</p>'
+            if nw: mid += f'<h2 class="gp-h">{e(Z["glatest"])}</h2><div class="gs-grid">' + ''.join(
+                f'<article class="gs"><a href="{art_url(x, l)}"><div class="gs-img"' + (f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else '') + f'></div>{kick(x, l)}<h3>{e(x[l]["t"])}</h3></a></article>' for x in nw if l in x) + '</div>'
+        if cat == 'f_fest': mid += film_fcal(l, day0, nmax=40)
+        elif cat == 'f_series': mid += film_stream(l, day0, cat=cat, nmax=30)
+        elif cat == 'f_short': mid += film_fcal(l, day0, nmax=12, only=('kurzfilm',))
+        elif cat == 'f_industry': mid += film_fcal(l, day0, nmax=8, only=('award',))
+        else: mid += film_kino(l, day0, cat=cat, weeks=12, nmax=24) + film_stream(l, day0, cat=cat, nmax=12)
+        return top, mid, ''
+    mid = film_week(l, day0) + film_pe(l, day0)
+    after = film_fcal(l, day0, nmax=8) + film_kino(l, day0, weeks=4) + film_stream(l, day0, nmax=14)
+    return top, mid, after
 # ---- POP-FOLK (Nedy 26.10.2026): eigene, üppige Genre-Seite mit 7 Ländern, Videos, Boulevard und Stars. Items aus content/<datum>-popfolk.json (Feld "pfk": "video" | "news" | "boulevard", "land").
 PF_LANDS = [  # (Code, Flagge, Land DE/BG/EN, Stil DE/BG/EN)
  ('bg', '🇧🇬', ('Bulgarien', 'България', 'Bulgaria'), ('Chalga', 'Чалга', 'Chalga')),
@@ -1332,12 +1569,17 @@ def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None, 
         mvids = [x for x in _srt if x.get('gk') == 'video' and x.get('yt')][:3]
         revs = [x for x in _srt if x.get('rv') and x not in mvids][:3]
         news = [x for x in _srt if x not in mvids and x not in revs and (x.get('mn') or x.get('gk'))][:6]
+    if kind == 'film' and mgenre:   # Film-Kategorie (Nedy 28.10.2026): neueste Trailer/Videos, dann News – Rest im Archiv mit Seitenzahlen
+        _srt = sorted(its, key=lambda x: (x['date'], x['time']), reverse=True)
+        if mgenre == 'f_fest': _srt = [x for x in _srt if x.get('pe')] + [x for x in _srt if x.get('fest') and not x.get('pe')] + [x for x in _srt if not x.get('fest') and not x.get('pe')]   # Festival-Seite: eigenes Festival, dann Festival-Berichte
+        revs = [x for x in _srt if x.get('yt')][:4]
+        news = [x for x in _srt if x not in revs][:9]
     if kind == 'games' and mgenre:   # Games-Kategorie (Nedy 28.10.2026): neueste Trailer/Reviews, dann News – Rest im Archiv mit Seitenzahlen
         _srt = sorted(its, key=lambda x: (x['date'], x['time']), reverse=True)
         revs = [x for x in _srt if x.get('yt')][:4]
         news = [x for x in _srt if x not in revs][:9]
     fests = []
-    if kind in ('musik', 'film'):  # Festivals (Musik Di + Fr, Film Mi + Sa, je 3 Artikel mit Video, Feld "fest"): eigener Block, neueste zuerst, letzte 7 Tage
+    if kind in ('musik', 'film') and not (kind == 'film' and mgenre):  # Festivals (Musik Di + Fr, Film Mi + Sa, je 3 Artikel mit Video, Feld "fest"): eigener Block, neueste zuerst, letzte 7 Tage
         import datetime as _dfe
         _cut = (_dfe.date.fromisoformat(day0) - _dfe.timedelta(days=7)).isoformat()
         fests = sorted([it for it in its if it.get('fest') and it['date'] >= _cut], key=lambda x: (x['date'], x['time']), reverse=True)[:6]
@@ -1357,10 +1599,10 @@ def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None, 
         _ch = [older[i:i + MPER] for i in range(0, len(older), MPER)] or [[]]
         older = _ch[0]; games_page.rest = _ch[1:]
         mnav = mpager(l, 1, len(_ch), mpage_url)
-        if kind in ('musik', 'history', 'games'): _mtop = mpager(l, 1, len(_ch), mpage_url, top=True)
+        if kind in ('musik', 'history', 'games', 'film'): _mtop = mpager(l, 1, len(_ch), mpage_url, top=True)
     html = f'<div class="gp gp-{kind}"><div class="gp-head"><h1 class="gp-title">{e(title or SEC[l][kind][0])}</h1>{gp_slogan(l)}</div>'
     html += '<div class="gp-main"><div class="gp-panel">'
-    if not its and not (kind in ('musik', 'games') and mgenre): html += f'<p class="gp-empty">{e(u["empty"])}</p>'
+    if not its and not (kind in ('musik', 'games', 'film') and mgenre): html += f'<p class="gp-empty">{e(u["empty"])}</p>'
     # Breaking News des Tages dieser Rubrik ganz oben (Nedy 24.10.2026: Eilmeldung Binew auch oben unter BULGARIEN)
     brk_top = [it for it in today if it.get('live') and not it.get('yt')] if kind in ('welt', 'europa', 'deutschland', 'bulgarien') else []
     if brk_top:
@@ -1371,7 +1613,7 @@ def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None, 
                     f'<div class="gr-txt"><a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a><p class="gr-meta">{e(it["time"])}{(" " + u["hour"]) if u["hour"] else ""}</p>'
                     f'<p class="gr-dek">{e(it[l]["d"])}</p><a class="gr-more" href="{art_url(it, l)}">{e(g["more"])}</a></div></article>')
         html += f'<h2 class="gp-h"><b class="brk">{e(u["brk"])}</b></h2>' + ''.join(brk_card(it) for it in brk_top)
-    _mx = musik_extras(l, its, day0, mgenre) if kind == 'musik' and (title is None or mgenre) else games_extras(l, its, day0, mgenre) if kind == 'games' and (title is None or mgenre) else ('', '')
+    _mx = musik_extras(l, its, day0, mgenre) if kind == 'musik' and (title is None or mgenre) else games_extras(l, its, day0, mgenre) if kind == 'games' and (title is None or mgenre) else film_extras(l, its, day0, mgenre) if kind == 'film' and (title is None or mgenre) else ('', '')
     html += _mx[0] + _mtop
     if mvids:
         def mv_card(it):
@@ -1382,9 +1624,10 @@ def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None, 
                     f'<div class="gr-txt"><a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a><p class="gr-dek">{e(it[l]["d"])}</p>'
                     f'<p class="gr-yt-src">YouTube · {ch_html(v.get("ch", ""))}</p><a class="gr-more" href="{art_url(it, l)}">{e(LX({"bg": "Към статията →", "de": "Zum Artikel →", "en": "Read more →"})[l])}</a></div></article>')
         html += f'<h2 class="gp-h">▶ {e(LX({"bg": "Музикални видеоклипове", "de": "Musikvideos", "en": "Music videos"})[l])}</h2>' + ''.join(mv_card(it) for it in mvids)
-    if revs: html += f'<h2 class="gp-h">▶ {e((LX({"bg": "Ревюта на албуми", "de": "Album-Reviews", "en": "Album reviews"})[l]) if mgenre and kind == "musik" else GZU[l]["vids"] if mgenre and kind == "games" else g["rev"])}</h2>' + ''.join(review(it) for it in revs)
+    if revs: html += f'<h2 class="gp-h">▶ {e((LX({"bg": "Ревюта на албуми", "de": "Album-Reviews", "en": "Album reviews"})[l]) if mgenre and kind == "musik" else GZU[l]["vids"] if mgenre and kind == "games" else FZU[l]["vids"] if mgenre and kind == "film" else g["rev"])}</h2>' + ''.join(review(it) for it in revs)
     html += _mx[1]
     if fests: html += f'<h2 class="gp-h">▶ {e((LX({"bg": "Филмови фестивали", "de": "Filmfestivals", "en": "Film festivals"}) if kind == "film" else LX({"bg": "Музикални фестивали", "de": "Musikfestivals", "en": "Music festivals"}))[l])}</h2>' + ''.join(fest_card(it) for it in fests)
+    if len(_mx) > 2: html += _mx[2]   # Film: Festival-Kalender, Kino-Radar, Streaming-Kalender
     if news: html += f'<h2 class="gp-h">{e((LX({"bg": "Концерти и новини", "de": "Konzerte & News", "en": "Concerts & news"})[l]) if mgenre and kind == "musik" else g["news"])}</h2><div class="gs-grid">' + ''.join(small(it) for it in news) + '</div>'
     if older: html += f'<h2 class="gp-h">{e(g["older"])}</h2><div class="gs-grid">' + ''.join(small(it) for it in older) + '</div>'
     html += mnav
@@ -2289,7 +2532,8 @@ def build():
                 _kd = sorted({it['date'] for it in its}, reverse=True)[:SUB_KEEP]
                 MUSIK['all'] = [it for it in its if it['date'] in _kd]
                 MUSIK['hist'] = list(its)   # Genre-Seiten: komplette Sammlung, nichts fällt heraus (Nedy 26.10.2026)
-            if s == 'games': GAMES['hist'] = list(its)   # TWN GAMES: Kategorie-Zähler und -Seiten aus der kompletten Sammlung (Nedy 28.10.2026)
+            if s == 'games': GAMES['hist'] = list(its)
+            if s == 'film': FILM['hist'] = list(its)   # TWN FILM: Kategorie-Zähler und -Seiten aus der kompletten Sammlung (Nedy 28.10.2026)   # TWN GAMES: Kategorie-Zähler und -Seiten aus der kompletten Sammlung (Nedy 28.10.2026)
             its_all = list(its)   # komplette Sammlung (Seitenzahlen, Nedy 27.10.2026)
             _main_rest = []
             if s in KEEP_DAYS:  # z. B. Games: nur die letzten 5 Ausgabetage auf der Rubrikseite (Artikel bleiben über Suche/Archiv erreichbar)
@@ -2470,15 +2714,16 @@ def build():
                 ltabs = lambda cur: (f'<nav class="subnav" aria-label="{e(SEC[l][s][0])}"><a href="{sec_url(s, l)}"{CUR_P if cur is None else ""}>{e(SP_ALL[l])}</a>'
                                      + ''.join(f'<a href="{sec_url(x, l)}">{e(SEC[l][x][0])}</a>' for x in NAV_DD_EXTRA.get(s, []))
                                      + ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if cur == k else ""}>{e(SUB[l][k][0])}</a>' for k in LSUBS[s]) + '</nav>')
-                if s not in ('musik', 'games'): body = ltabs(None) + body   # Musik/Games: Kategorie-Raster statt Reiter (seit 26.10.2026)
+                if s not in ('musik', 'games', 'film'): body = ltabs(None) + body   # Musik/Games: Kategorie-Raster statt Reiter (seit 26.10.2026)
                 for k in LSUBS[s]:
                     _pool = [it for it in items_l if (it['s'] == s or s in also_secs(it)) and it.get('sub') == k]   # komplette Sammlung, Seitenzahlen unten (Nedy 27.10.2026)
                     if s == 'musik': _pool = MUSIK.get('hist') or its
                     if s == 'games': _pool = GAMES.get('hist') or its
-                    sits = sorted([it for it in _pool if (k in m_genres(it) if s == 'musik' else k in g_genres(it) if s == 'games' else it.get('sub') == k)], key=lambda x: (x['date'], x['time']), reverse=True)
+                    if s == 'film': _pool = FILM.get('hist') or its
+                    sits = sorted([it for it in _pool if (k in m_genres(it) if s == 'musik' else k in g_genres(it) if s == 'games' else k in f_genres(it) if s == 'film' else it.get('sub') == k)], key=lambda x: (x['date'], x['time']), reverse=True)
                     su = sub_url(s, k, l); title = f'{SEC[l][s][0]} · {SUB[l][k][0]}'
                     games_page.rest = []; popfolk_page.rest = []
-                    if s == 'games': sb = games_page(l, sits, day0, _others(s), SX, s, title=SUB[l][k][0], mgenre=k, mpage_url=(lambda n, _k=k: spage_url('games', _k, n, l)))   # TWN GAMES-Kategorie (Nedy 28.10.2026)
+                    if s in ('games', 'film'): sb = games_page(l, sits, day0, _others(s), SX, s, title=SUB[l][k][0], mgenre=k, mpage_url=(lambda n, _k=k, _s=s: spage_url(_s, _k, n, l)))   # TWN GAMES-Kategorie (Nedy 28.10.2026)
                     else: sb = (popfolk_page(l, sits, day0, _others(s), SX) if k == 'popfolk' else games_page(l, sits, sits[0]['date'] if sits else day0, _others(s), SX, s, title=SUB[l][k][0], mgenre=k, mpage_url=(lambda n, _k=k: mpage_url(_k, n, l)))) if s == 'musik' else ltabs(k) + (wow_page(l, sits, _others(s), title=SUB[l][k][0], desc=SUB_DESC[k][l], kind='guinness') if k == 'guinness' else games_page(l, sits, sits[0]['date'], _others(s), SX, s, title=SUB[l][k][0], mpage_url=(lambda n, _k=k: spage_url(s, _k, n, l))) if sits else
                                      f'<div class="sec-page" style="--c:{SEC_COLOR[s]}"><div class="rail-h sec-head"><h1 class="sec-title">{e(title)}</h1></div><p class="note">{e(u["empty"])}</p></div>')
                     if k == 'liebe' and '<div class="gp-panel">' in sb:  # Kennenlern-Portale oben auf „Liebe & Beziehung“
@@ -2497,8 +2742,8 @@ def build():
                         for _n, _chunk in enumerate(_rest, start=2):
                             _pu = spage_url(s, k, _n, l); _pl = LX({'bg': 'Страница', 'de': 'Seite', 'en': 'Page'})[l]
                             _cards = ''.join(f'<article class="gs"><a href="{art_url(x, l)}"><div class="gs-img"' + (f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else '') + '>' + ('<span class="rt-play" aria-hidden="true">▶</span>' if x.get('yt') else '') + f'</div>{kick(x, l)}<h3>{e(x[l]["t"])}</h3></a></article>' for x in _chunk)
-                            _pb = (('' if s in ('musik', 'games') else ltabs(k)) + f'<div class="gp gp-{s}"><div class="gp-head"><h1 class="gp-title">{e(SUB[l][k][0])} – {_pl} {_n}</h1>{gp_slogan(l)}</div><div class="gp-main"><div class="gp-panel">'
-                                   + (musik_grid(l, k) if s == 'musik' else games_grid(l, k) if s == 'games' else '') + mpager(l, _n, _tot, lambda m, _k=k: spage_url(s, _k, m, l), top=True) + f'<h2 class="gp-h">{e(LX({"bg": "Видеа и статии от архива", "de": "Videos und Artikel aus dem Archiv", "en": "Videos and stories from the archive"})[l])} · {_pl} {_n} / {_tot}</h2>'
+                            _pb = (('' if s in ('musik', 'games', 'film') else ltabs(k)) + f'<div class="gp gp-{s}"><div class="gp-head"><h1 class="gp-title">{e(SUB[l][k][0])} – {_pl} {_n}</h1>{gp_slogan(l)}</div><div class="gp-main"><div class="gp-panel">'
+                                   + (musik_grid(l, k) if s == 'musik' else games_grid(l, k) if s == 'games' else film_grid(l, k) if s == 'film' else '') + mpager(l, _n, _tot, lambda m, _k=k: spage_url(s, _k, m, l), top=True) + f'<h2 class="gp-h">{e(LX({"bg": "Видеа и статии от архива", "de": "Videos und Artikel aus dem Archiv", "en": "Videos and stories from the archive"})[l])} · {_pl} {_n} / {_tot}</h2>'
                                    + f'<div class="gs-grid">{_cards}</div>' + mpager(l, _n, _tot, lambda m, _k=k: spage_url(s, _k, m, l))
                                    + f'</div><aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{_others(s)}</aside></div></div>')
                             _pal = {x: spage_url(s, k, _n, x) for x in act}
@@ -2515,8 +2760,8 @@ def build():
                 for _n, _chunk in enumerate(_rest, start=2):
                     _pu = spage_url(s, None, _n, l); _pl = LX({'bg': 'Страница', 'de': 'Seite', 'en': 'Page'})[l]
                     _cards = ''.join(f'<article class="gs"><a href="{art_url(x, l)}"><div class="gs-img"' + (f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else '') + '>' + ('<span class="rt-play" aria-hidden="true">▶</span>' if x.get('yt') else '') + f'</div>{kick(x, l)}<h3>{e(x[l]["t"])}</h3></a></article>' for x in _chunk)
-                    _pb = ((ltabs(None) if s in LSUBS and s not in ('musik', 'games') else '') + f'<div class="gp gp-{s}"><div class="gp-head"><h1 class="gp-title">{e(SEC[l][s][0])} – {_pl} {_n}</h1>{gp_slogan(l)}</div><div class="gp-main"><div class="gp-panel">'
-                           + (musik_grid(l) if s == 'musik' else games_grid(l) if s == 'games' else '') + mpager(l, _n, _tot, lambda m: spage_url(s, None, m, l), top=True) + f'<div class="gs-grid">{_cards}</div>' + mpager(l, _n, _tot, lambda m: spage_url(s, None, m, l))
+                    _pb = ((ltabs(None) if s in LSUBS and s not in ('musik', 'games', 'film') else '') + f'<div class="gp gp-{s}"><div class="gp-head"><h1 class="gp-title">{e(SEC[l][s][0])} – {_pl} {_n}</h1>{gp_slogan(l)}</div><div class="gp-main"><div class="gp-panel">'
+                           + (musik_grid(l) if s == 'musik' else games_grid(l) if s == 'games' else film_grid(l) if s == 'film' else '') + mpager(l, _n, _tot, lambda m: spage_url(s, None, m, l), top=True) + f'<div class="gs-grid">{_cards}</div>' + mpager(l, _n, _tot, lambda m: spage_url(s, None, m, l))
                            + f'</div><aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{_others(s)}</aside></div></div>')
                     _pal = {x: spage_url(s, None, _n, x) for x in act}
                     write(_pu, page(l, act, f'{SEC[l][s][0]} – {_pl} {_n} | TWN – World News', sec_desc(s, l, SEC[l][s][0]), _pu, _pb, _pal, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": f'{SEC[l][s][0]} – {_pl} {_n}', "url": SITE + _pu, "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))

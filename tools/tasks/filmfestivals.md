@@ -20,4 +20,10 @@ TRANSPARENZ (Pressekodex, rechtliche Sicherheit): Das PLANET EARTH FILMFESTIVAL 
 
 7. BERICHT (SendUserMessage via ToolSearch laden, und als finale Antwort), kurz auf Deutsch: die 3 Schlagzeilen mit Festival, Video-Kanal, was weggelassen wurde und warum.
 
-REGELN: Nur content/ und candidates/ ändern; Design nicht anfassen; keine Logins, Konten, Zahlungen. Rechtlich unangreifbar: immer Quellen, eigene Formulierungen, Videos nur eingebettet, Bildunterschriften nur Kennzeichnung + Quelle/Lizenz.
+8. TWN FILM – FESTIVAL-BÜHNE (Nedy 28.10.2026): Die Kategorie „Filmfestivals“ (/de/film/filmfestivals/) ist der Festival-Schwerpunkt der Rubrik; oben steht die Marke PLANET EARTH FILMFESTIVAL (Daten in content/film/planet-earth.json), darunter Festival-Videos und der Festival- & Preiskalender (content/film/festivals.json).
+   a) Jedes Festival-Item bekommt "fest": true, "sub":"f_fest" und passende "subs" (z. B. f_europe, f_balkan, f_doku).
+   b) PLANET EARTH FILMFESTIVAL: Artikel darüber zusätzlich mit "pe": true (erscheinen dann im Block „Neues vom Festival“). Mindestens alle 14 Tage prüfen, ob es echte Neuigkeiten gibt (Einreichfristen, Programm, Jury, Gäste, Preisträger, Termine) – nur dann berichten, sachlich, mit Quelle und immer mit dem Transparenzhinweis. planet-earth.net ist aus der Cloud derzeit gesperrt (Proxy) – FilmFreeway oder Angaben der Festivalleitung nutzen und so kennzeichnen.
+   c) content/film/festivals.json jeden MITTWOCH pflegen: abgelaufene Termine löschen, offiziell bestätigte neue Termine ergänzen (Venedig, TIFF, San Sebastián, Sarajevo, Golden Rose Varna, Filmfest München, Moskau 2027 fehlen noch – erst eintragen, wenn offiziell), "asof" aktualisieren. kind: "festival" | "award" | "kurzfilm" | "doku" | "animation" | "own" (nur PLANET EARTH).
+   d) content/film/planet-earth.json nur nach Bestätigung durch Festivalleitung/offizielle Seite ändern (Termine, Einreichfristen, Preise).
+
+REGELN: Nur content/ (inkl. content/film/), static/assets/news/, candidates/ und bridge/ ändern; Design nicht anfassen; keine Logins, Konten, Zahlungen. Rechtlich unangreifbar: immer Quellen, eigene Formulierungen, Videos nur eingebettet, Bildunterschriften nur Kennzeichnung + Quelle/Lizenz.

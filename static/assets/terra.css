@@ -1357,3 +1357,84 @@ a.rl-g:hover{filter:brightness(1.1)}
 @media (max-width:760px){.ev-list{grid-template-columns:1fr}}
 .tr-g.tr-ev{background:#22e4ff;color:#1a0433}
 .tr-list b small{font-weight:400;color:#c4b5fd}
+/* ---- TWN FILM (Nedy 28.10.2026): Kino-Ästhetik – Anthrazit, Bordeaux/Magenta, Türkis, Champagnergold; Aufbau wie TWN MUSIC */
+.gp-film{--gx:#c8164f;--gy:#e3c27a;--fb:#c8164f;--ft:#2dd4bf;--fg:#e3c27a}
+.gp-film .gp-head{position:relative;overflow:hidden;min-height:190px;align-items:flex-end;background:#0b0a0d url(/assets/film/collage.webp) center/cover no-repeat;border-bottom:4px solid transparent;border-image:linear-gradient(90deg,#7f1d3a,#c8164f,#2dd4bf,#e3c27a) 1}
+.gp-film .gp-head::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(11,10,13,.94) 0%,rgba(11,10,13,.6) 38%,rgba(11,10,13,.2) 70%,rgba(11,10,13,.4) 100%),linear-gradient(0deg,rgba(11,10,13,.8),transparent 55%);z-index:0}
+.gp-film .gp-head>*{position:relative;z-index:1}
+.gp-film .gp-title{color:#f8ecd0;text-shadow:0 0 2px #fff7e0,0 0 16px rgba(227,194,122,.85),0 0 34px rgba(200,22,79,.55);letter-spacing:.08em;font-variant:small-caps}
+.gp-film .gp-panel{background:radial-gradient(900px 420px at 0% 0%,rgba(200,22,79,.14),transparent 60%),radial-gradient(900px 420px at 100% 30%,rgba(45,212,191,.08),transparent 60%),#100e12}
+.gp-film .gp-date,.gp-film .gr-meta,.gp-film .gs .kick,.gp-film .ga-panel .kick{color:#e9d3a0}
+.gp-film .gr{border-bottom-color:#2a2430}
+.gp-film .gr-score{background:linear-gradient(90deg,#7f1d3a,#c8164f);color:#fff}
+.gp-film .gp-h{border-left-color:#e3c27a}
+.gp-film .gr-badge{background:#e3c27a;color:#1a1208}
+.gp-film .gr-more{background:linear-gradient(90deg,#9f1239,#c8164f);color:#fff}
+.gp-film .yt-play{background:#c8164f}
+.gp-film .gp-h small,.gp-film .tr-list time{color:#e9d3a0}
+@media (max-width:760px){.gp-film .gp-head{min-height:140px}}
+.gp-film.ga .gp-head,.gp-film.mr-head .gp-head{min-height:0;background:linear-gradient(100deg,#0b0a0d 0%,#2a0f1a 55%,#7f1d3a 100%)}
+.gp-film.ga .gp-head::before,.gp-film.mr-head .gp-head::before{display:none}
+.fg-wrap{background:linear-gradient(135deg,#17141b 0%,#0e0c10 55%,#141019 100%);box-shadow:0 0 0 1px #2e2733,0 0 30px rgba(227,194,122,.12)}
+.fg-wrap::before{background:linear-gradient(120deg,#7f1d3a,#c8164f,#2dd4bf,#e3c27a)}
+.fg-wrap .mg-kick{color:#e3c27a}
+.fg-wrap .mg-brand{background:linear-gradient(90deg,#f4e3b5 0%,#e3c27a 45%,#b8862f 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 10px rgba(227,194,122,.35));font-style:normal;letter-spacing:.18em}
+.fg-wrap .mg-sub{color:#cbb98c}
+.fg-wrap .mg-all{border-color:#e3c27a;color:#f4e3b5}
+.fg-wrap .mg-all.on,.fg-wrap .mg-all:hover{background:linear-gradient(90deg,#b8862f,#e3c27a);border-color:transparent;color:#1a1208}
+.fg-wrap .mg-row{border-top-color:#2e2733}
+.fg-wrap .mg-r1{--rc:#e0457b}.fg-wrap .mg-r2{--rc:#2dd4bf}.fg-wrap .mg-r3{--rc:#e3c27a}
+.fg-wrap .mg.on b,.fg-wrap .mg.on span{color:#120d06}
+.fg-wrap .mg-pe{background:linear-gradient(160deg,rgba(227,194,122,.16),rgba(227,194,122,.04));border-color:#e3c27a}
+.fg-wrap .mg-cr{color:#a8a29e}.fg-wrap .mg-cr a{color:#d6c08c}
+.gp-film .rl-r1{background:#c8164f;color:#fff}.gp-film .rl-r2{background:#2dd4bf;color:#06201c}.gp-film .rl-r3{background:#e3c27a;color:#1a1208}
+.gp-film .tr-g,.gp-film .rl-g{text-decoration:none}
+.gp-film .tr-list li,.gp-film .rl-day li{border-bottom-color:#2a2430}
+.gp-film .rl-day h3{color:#e3c27a}
+.gp-film .rl-day li .rl-pf{color:#a8a29e}
+.gp-film .rl-day li .rl-s,.gp-film .st-list .rl-s{color:#2dd4bf}
+.gp-film .rl-day li b a{color:#fff;text-decoration:none}.gp-film .rl-day li b a:hover{text-decoration:underline}
+.gp-film .fk-top b{color:#f4e3b5}
+.gp-film .mg-empty{border-left-color:#e3c27a;background:#17141b;color:#f4e3b5}
+.gp-film .ev-list li{background:#17141b;border-color:#2e2733;border-left-color:#e3c27a}
+.gp-film .ev-list li.ev-award{border-left-color:#c8164f}.gp-film .ev-list li.ev-doku,.gp-film .ev-list li.ev-kurzfilm,.gp-film .ev-list li.ev-animation{border-left-color:#2dd4bf}
+.gp-film .ev-list li.ev-own{background:linear-gradient(135deg,#1c2a1f,#17141b);border-left-color:#4ade80;box-shadow:0 0 0 1px #e3c27a}
+.gp-film .ev-d{color:#e3c27a}.gp-film .ev-k{color:#2dd4bf}.gp-film .ev-p{color:#cbb98c}.gp-film .ev-s{color:#e0457b}
+.gp-film .gotw .gs-img{background-color:#17141b}
+.fw-card{display:flex;align-items:flex-end;padding:14px;background:linear-gradient(160deg,#2a0f1a,#100e12 70%)!important}
+.fw-t{font-family:var(--head);font-size:22px;line-height:1.15;color:#f4e3b5;text-shadow:0 2px 12px rgba(0,0,0,.6)}
+.st-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 22px}
+.st-list li{display:flex;flex-wrap:wrap;gap:6px;align-items:baseline;padding:8px 0;border-bottom:1px solid #2a2430;font-size:14px;color:#e5e7eb}
+.st-list li b{color:#fff}.st-list li small{color:#a8a29e}
+.st-d{font-family:var(--head);font-weight:700;color:#e3c27a;min-width:52px}
+.st-svc{font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;padding:2px 6px;border:1px solid #2dd4bf;border-radius:3px;color:#2dd4bf;white-space:nowrap}
+@media (max-width:760px){.st-list{grid-template-columns:1fr}}
+/* PLANET EARTH FILMFESTIVAL – eigene Marke */
+.pe{position:relative;margin:4px 0 30px;border-radius:14px;overflow:hidden;background:radial-gradient(700px 320px at 85% 10%,rgba(74,222,128,.22),transparent 60%),radial-gradient(800px 380px at 10% 100%,rgba(45,212,191,.18),transparent 60%),linear-gradient(140deg,#06140f 0%,#0b1f2a 55%,#0b0a0d 100%);box-shadow:0 0 0 1px #e3c27a,0 0 34px rgba(227,194,122,.18)}
+.pe::after{content:"";position:absolute;right:-90px;top:-90px;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#7dd3fc 0%,#2563eb 30%,#15803d 55%,#052e16 75%,transparent 76%);opacity:.38;pointer-events:none}
+.pe-in{position:relative;z-index:1;padding:24px 26px 18px}
+.pe-kick{margin:0;font-family:var(--label);font-size:11.5px;letter-spacing:.24em;text-transform:uppercase;color:#e3c27a}
+.pe-brand{margin:6px 0 2px;line-height:.95;font-family:var(--head)}
+.pe-brand span{display:block;font-size:44px;font-weight:800;letter-spacing:.06em;background:linear-gradient(90deg,#f4e3b5,#e3c27a 50%,#b8862f);-webkit-background-clip:text;background-clip:text;color:transparent}
+.pe-brand b{display:block;font-size:20px;letter-spacing:.42em;color:#bbf7d0;font-weight:700;margin-top:4px}
+.pe-date{margin:10px 0 0;font-family:var(--head);font-size:18px;color:#fff}
+.pe-date i{font-style:normal;font-size:12px;margin-left:8px;padding:3px 8px;border-radius:12px;background:#4ade80;color:#052e16;font-family:var(--label);letter-spacing:.06em;vertical-align:middle}
+.pe-about{margin:10px 0 0;max-width:720px;font-size:15px;line-height:1.55;color:#d1fae5}
+.pe-cta{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 4px}
+.pe-btn{display:inline-block;padding:10px 16px;border-radius:6px;background:linear-gradient(90deg,#b8862f,#e3c27a);color:#1a1208;font-weight:700;font-size:14px;text-decoration:none}
+.pe-btn2{background:none;border:1px solid #4ade80;color:#bbf7d0}
+.pe-btn:hover{filter:brightness(1.08)}
+.pe-cats{margin-top:16px}.pe-cats h3,.pe-news h3{margin:0 0 8px;font-family:var(--label);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#e3c27a}
+.pe-cats h3 small,.pe-news h3 small{font-weight:400;letter-spacing:0;text-transform:none;color:#94a3b8}
+.pe-cats ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.pe-cats li{font-size:12.5px;padding:4px 9px;border:1px solid rgba(227,194,122,.45);border-radius:14px;color:#f4e3b5}
+.pe-news{margin-top:16px}.pe-news ul{list-style:none;margin:0;padding:0}
+.pe-news li a{display:block;padding:6px 0;color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.08);font-size:14.5px}
+.pe-news li time{color:#4ade80;font-size:12px;margin-right:6px}
+.pe-news p{margin:0;color:#94a3b8;font-size:14px}
+.pe-more{display:inline-block;margin-top:12px;color:#e3c27a;font-weight:700;text-decoration:none}
+.pe-disc{margin:14px 0 0;font-size:11.5px;line-height:1.45;color:#94a3b8;border-top:1px solid rgba(255,255,255,.08);padding-top:10px}
+.pe-big .pe-in{padding:30px 30px 22px}.pe-big .pe-brand span{font-size:58px}.pe-big .pe-brand b{font-size:24px}
+@media (max-width:760px){.pe-in{padding:18px 16px 14px}.pe-brand span,.pe-big .pe-brand span{font-size:32px}.pe-brand b,.pe-big .pe-brand b{font-size:15px;letter-spacing:.3em}.pe::after{width:180px;height:180px;right:-60px;top:-60px}}
+.fg-wrap .mg-pe.on{background:#e3c27a;border-color:#e3c27a;box-shadow:0 0 18px #e3c27a}
+.fg-wrap .mg-pe.on b,.fg-wrap .mg-pe.on span{color:#120d06}
