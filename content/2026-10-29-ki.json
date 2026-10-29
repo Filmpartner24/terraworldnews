@@ -1,0 +1,396 @@
+{
+ "date": "2026-10-29",
+ "items": [
+  {
+   "id": "liquid-ai-lfm3-sechs-modelle",
+   "s": "ai",
+   "time": "12:41",
+   "kl": {
+    "de": "Neues Modell",
+    "bg": "Нов модел",
+    "en": "New model"
+   },
+   "yt": {
+    "id": "6XedR2Feb6k",
+    "ch": "Liquid AI",
+    "kind": "video",
+    "t": {
+     "de": "Introducing LFM3: Every Modality for Specialized Intelligence",
+     "bg": "Introducing LFM3: Every Modality for Specialized Intelligence",
+     "en": "Introducing LFM3: Every Modality for Specialized Intelligence"
+    }
+   },
+   "src": [
+    {
+     "n": "Unite.AI – Liquid AI LFM3: one shared backbone for text, vision, audio, omni and decision models (27.10.2026)",
+     "u": "https://www.unite.ai/?p=495428"
+    },
+    {
+     "n": "AI Weekly – Liquid AI opens six-model LFM3 family at 256K context (27.10.2026)",
+     "u": "https://aiweekly.co/alerts/liquid-ai-opens-six-model-lfm3-family-at-256k-context"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-29/liquid-ai-lfm3-sechs-modelle-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik von TERRA WORLD NEWS zu den neuen KI-Modellen LFM3 von Liquid AI",
+     "bg": "Заглавна графика на TERRA WORLD NEWS за новите ИИ модели LFM3 на Liquid AI",
+     "en": "TERRA WORLD NEWS title graphic on Liquid AI's new LFM3 models"
+    }
+   },
+   "de": {
+    "t": "KI fürs Handy: Liquid AI bringt sechs kleine offene Modelle der Reihe LFM3",
+    "d": "Text, Bild, Video, Sprache und Entscheidungen: Die neuen Modelle des US-Start-ups teilen sich ein gemeinsames Grundgerüst und sollen direkt auf Smartphones und Laptops laufen.",
+    "body": [
+     "Das US-Start-up Liquid AI hat am Dienstag LFM3 vorgestellt, die neue Generation seiner kompakten KI-Modelle. Die Familie umfasst sechs Modelle der Zwei-Milliarden-Parameter-Klasse: ein Textmodell, ein Modell für Bilder und Videos, ein Audiomodell, das zuhören und sprechen kann, ein „Omni“-Modell für alle Eingabearten sowie zwei sogenannte Entscheidungsmodelle, die statt freiem Text kalibrierte Antworten liefern. Alle sind aus demselben Basismodell abgeleitet. Das Video von Liquid AI stellt die Reihe vor.",
+     "Das Textmodell LFM3-1.7B verarbeitet laut Unternehmen bis zu 256.000 Token Kontext, beherrscht 16 Sprachen und braucht in komprimierter Form nur rund ein Gigabyte Arbeitsspeicher; das Audiomodell unterstützt 18 Sprachen. Die Gewichte sind offen bei Hugging Face verfügbar, und jedes Modell lässt sich laut Liquid AI auf einer einzigen Grafikkarte nachtrainieren. Als Partner zum Start nennt die Firma unter anderem AMD, Arm, Intel, Nvidia und Qualcomm.",
+     "Die Leistungsdaten stammen vom Hersteller selbst: So soll das Omni-Modell in mehreren Tests größere Modelle mit bis zu 10,7 Milliarden Parametern übertreffen. Unabhängige Vergleiche stehen noch aus. Für das Programmieren mit KI-Agenten und komplexe mehrstufige Denkaufgaben empfiehlt Liquid AI das Textmodell ausdrücklich nicht."
+    ]
+   },
+   "bg": {
+    "t": "ИИ за телефона: Liquid AI пуска шест малки отворени модела от серията LFM3",
+    "d": "Текст, изображения, видео, говор и решения: новите модели на американския стартъп споделят обща основа и трябва да работят директно на смартфони и лаптопи.",
+    "body": [
+     "Американският стартъп Liquid AI представи във вторник LFM3 – новото поколение на своите компактни ИИ модели. Семейството включва шест модела от класа с около два милиарда параметъра: текстов модел, модел за изображения и видео, аудиомодел, който може да слуша и да говори, „омни“ модел за всички видове входни данни и два т.нар. модела за решения, които вместо свободен текст дават калибрирани отговори. Всички са изградени върху един и същ базов модел. Видеото на Liquid AI представя серията.",
+     "Според компанията текстовият модел LFM3-1.7B обработва контекст до 256 000 токена, владее 16 езика и в компресиран вид се нуждае само от около един гигабайт работна памет; аудиомоделът поддържа 18 езика. Теглата са свободно достъпни в Hugging Face, а всеки модел може да бъде дообучен на една-единствена графична карта, твърди Liquid AI. Сред партньорите при старта фирмата посочва AMD, Arm, Intel, Nvidia и Qualcomm.",
+     "Данните за производителността са на самия производител: омни моделът трябва да превъзхожда в няколко теста по-големи модели с до 10,7 милиарда параметъра. Независими сравнения все още няма. Liquid AI изрично не препоръчва текстовия модел за програмиране с ИИ агенти и сложни многостъпкови задачи за разсъждение."
+    ]
+   },
+   "en": {
+    "t": "AI for your phone: Liquid AI releases six small open models in its LFM3 family",
+    "d": "Text, images, video, speech and decisions: the US start-up's new models share a common backbone and are designed to run directly on smartphones and laptops.",
+    "body": [
+     "US start-up Liquid AI on Tuesday unveiled LFM3, the new generation of its compact AI models. The family comprises six models in the two-billion-parameter class: a text model, a model for images and video, an audio model that can listen and speak, an \"omni\" model for every type of input and two so-called decision models that return calibrated answers instead of free text. All are derived from the same base model. Liquid AI's video introduces the lineup.",
+     "According to the company, the LFM3-1.7B text model handles up to 256,000 tokens of context, supports 16 languages and needs only about one gigabyte of memory in compressed form; the audio model supports 18 languages. The weights are openly available on Hugging Face, and Liquid AI says each model can be fine-tuned on a single GPU. Launch partners named by the company include AMD, Arm, Intel, Nvidia and Qualcomm.",
+     "The performance figures come from the developer itself: the omni model is said to beat larger models with up to 10.7 billion parameters in several tests. Independent comparisons are still pending. Liquid AI explicitly does not recommend the text model for agentic coding or complex multi-step reasoning tasks."
+    ]
+   }
+  },
+  {
+   "id": "reward-ai-om-1-menschliche-demos",
+   "s": "ai",
+   "time": "12:41",
+   "kl": {
+    "de": "Robotik",
+    "bg": "Роботика",
+    "en": "Robotics"
+   },
+   "yt": {
+    "id": "63wq-Qu-K8o",
+    "ch": "Reward AI",
+    "kind": "video",
+    "t": {
+     "de": "Reward AI OM-1 Model - Frontier Robot Intelligence Applied to Humanoids",
+     "bg": "Reward AI OM-1 Model - Frontier Robot Intelligence Applied to Humanoids",
+     "en": "Reward AI OM-1 Model - Frontier Robot Intelligence Applied to Humanoids"
+    }
+   },
+   "src": [
+    {
+     "n": "Humanoids Daily – Reward AI Shows OM-1 Handling Deliveries, Stairs and Household Chores (28.10.2026)",
+     "u": "https://www.humanoidsdaily.com/news/reward-ai-om1-delivery-stairs-household-demo"
+    },
+    {
+     "n": "DataNorth – Reward AI launches OM-1 (15.09.2026)",
+     "u": "https://datanorth.ai/news/reward-ai-launches-om-1"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-29/reward-ai-om-1-menschliche-demos.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "NatiSythen",
+    "lic": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:KIT_Armar_15.jpg",
+    "alt": {
+     "de": "Symbolbild: Roboterhand des KIT-Roboters ARMAR greift ein Objekt (Archivbild, kein Roboter von Reward AI)",
+     "bg": "Символна снимка: ръка на робота ARMAR на KIT хваща предмет (архивна снимка, не е робот на Reward AI)",
+     "en": "Symbolic image: the hand of KIT's ARMAR robot grasping an object (archive photo, not a Reward AI robot)"
+    }
+   },
+   "de": {
+    "t": "Gelernt nur vom Menschen: Reward AI zeigt Humanoiden beim Wischen und Paketeholen",
+    "d": "Ein neues Video des Start-ups zeigt das Robotermodell OM-1 bei Lieferungen, auf Treppen und im Haushalt. Trainiert wurde es nur mit Aufnahmen von Menschen mit einem Sensorhandschuh.",
+    "body": [
+     "Das Robotik-Start-up Reward AI hat am Dienstag ein neues Video seines Steuerungsmodells OM-1 veröffentlicht. Es zeigt einen humanoiden Roboter, der ein Paket von der Ladefläche eines Pick-ups holt, Pakete und Socken auf einer Treppe aufhebt, den Boden wischt und einen Kühlschrank öffnet. Laut Unternehmen arbeitet der Roboter dabei vollständig autonom, die Aufnahmen laufen in normaler Geschwindigkeit.",
+     "Besonders ist die Art des Trainings: OM-1 lernt ausschließlich aus Vorführungen von Menschen, die einen tragbaren Sensorhandschuh namens Omnibody Hand tragen. Er zeichnet Kamerabilder, Berührungsdruck, den Abstand der Finger kurz vor dem Greifen, den Weg der Hand und Kräfte auf. Ferngesteuerte Robotereinsätze oder Daten von Robotern nutzt das Team nach eigenen Angaben nicht. Eine neue Aufgabe soll der Roboter aus weniger als 30 Minuten menschlicher Vorführung lernen; das Modell soll auf Industriearmen ebenso laufen wie auf Humanoiden.",
+     "Reward AI hatte OM-1 Mitte September vorgestellt. Hinter dem Start-up stehen Forscher, die zuvor an den Projekten DexCap, HumanPlus und ALOHA gearbeitet haben. Erfolgsquoten, Modellgewichte oder eine unabhängige Prüfung gibt es bislang nicht; wie viele Versuche für die gezeigten Szenen nötig waren, ist nicht bekannt."
+    ]
+   },
+   "bg": {
+    "t": "Научен само от хора: Reward AI показва хуманоид, който мие пода и взема пратки",
+    "d": "Ново видео на стартъпа показва модела за роботи OM-1 при доставки, по стълби и в домакинството. Той е обучен само със записи на хора, носещи ръкавица със сензори.",
+    "body": [
+     "Стартъпът за роботика Reward AI публикува във вторник ново видео на своя модел за управление OM-1. В него хуманоиден робот взема пратка от каросерията на пикап, вдига пакети и чорапи по стълби, мие пода и отваря хладилник. Според компанията роботът работи напълно автономно, а кадрите са в нормална скорост.",
+     "Особеното е начинът на обучение: OM-1 се учи единствено от демонстрации на хора, които носят преносима ръкавица със сензори, наречена Omnibody Hand. Тя записва изображения от камера, натиск при допир, разстоянието между пръстите точно преди допир, траекторията на ръката и силите. По думите на екипа не се използват нито дистанционно управлявани роботи, нито данни от роботи. Роботът трябва да научава нова задача от по-малко от 30 минути човешка демонстрация, а моделът да работи както на индустриални ръце, така и на хуманоиди.",
+     "Reward AI представи OM-1 в средата на септември. Зад стартъпа стоят изследователи, които преди това са работили по проектите DexCap, HumanPlus и ALOHA. Досега няма публикувани проценти на успеваемост, тегла на модела или независима проверка; не е известно и колко опита са били нужни за показаните сцени."
+    ]
+   },
+   "en": {
+    "t": "Learned only from humans: Reward AI shows humanoid mopping and fetching parcels",
+    "d": "A new video from the start-up shows its OM-1 robot model on deliveries, on stairs and doing chores. It was trained only on recordings of people wearing a sensor glove.",
+    "body": [
+     "Robotics start-up Reward AI on Tuesday released a new video of its OM-1 control model. It shows a humanoid robot taking a parcel from the bed of a pickup truck, picking up packages and socks on a staircase, mopping the floor and opening a fridge. According to the company, the robot works fully autonomously and the footage runs at normal speed.",
+     "What sets it apart is the training: OM-1 learns solely from demonstrations by people wearing a wearable sensor glove called the Omnibody Hand. It records camera images, touch pressure, finger distance just before contact, the hand's path and forces. The team says it uses neither teleoperated robot sessions nor data from robots. The robot is said to learn a new task from less than 30 minutes of human demonstration, and the model is meant to run on industrial arms as well as humanoids.",
+     "Reward AI unveiled OM-1 in mid-September. The start-up is run by researchers who previously worked on the DexCap, HumanPlus and ALOHA projects. No success rates, model weights or independent evaluation have been published so far, and it is not known how many attempts the scenes shown required."
+    ]
+   }
+  },
+  {
+   "id": "rai-institute-athenazero-haende",
+   "s": "ai",
+   "time": "12:41",
+   "kl": {
+    "de": "Forschung",
+    "bg": "Наука",
+    "en": "Research"
+   },
+   "yt": {
+    "id": "pCJJjSxFRbA",
+    "ch": "RAI Institute",
+    "kind": "video",
+    "t": {
+     "de": "Hardware Spotlight: AthenaZero Tactile Sensing",
+     "bg": "Hardware Spotlight: AthenaZero Tactile Sensing",
+     "en": "Hardware Spotlight: AthenaZero Tactile Sensing"
+    }
+   },
+   "src": [
+    {
+     "n": "Humanoid Press – Humanoid Daily, Ausgabe 28.10.2026 (RAI Institute AthenaZero)",
+     "u": "https://humanoid.press/humanoid-daily/"
+    },
+    {
+     "n": "arXiv – ATHENAZERO: A low-inertia, bimanual robot for dynamic manipulation (RAI Institute, 2026)",
+     "u": "https://arxiv.org/pdf/2609.19194"
+    },
+    {
+     "n": "Galaxus – Throwing, catching, hitting: this robot plays baseball (13.10.2026)",
+     "u": "https://www.galaxus.ch/en/page/throwing-catching-hitting-this-robot-plays-baseball-44078"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-29/rai-institute-athenazero-haende.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "NearEMPTiness",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Robotic_Hand_at_Hannover_Messe_2016.JPG",
+    "alt": {
+     "de": "Symbolbild: Fünf-Finger-Roboterhand auf der Hannover Messe 2016 (Archivbild, nicht AthenaZero)",
+     "bg": "Символна снимка: петпръста роботизирана ръка на панаира в Хановер през 2016 г. (архивна снимка, не е AthenaZero)",
+     "en": "Symbolic image: five-finger robotic hand at Hannover Messe 2016 (archive photo, not AthenaZero)"
+    }
+   },
+   "de": {
+    "t": "Finger mit Tastsinn: RAI Institute zeigt Roboterhände, die Bälle fangen und werfen",
+    "d": "Ein neues Video des US-Forschungsinstituts erklärt die Tastsensoren des Zwei-Arm-Roboters AthenaZero. Seine seilgetriebenen Finger schließen sich in rund 80 Millisekunden.",
+    "body": [
+     "Das RAI Institute aus Cambridge im US-Bundesstaat Massachusetts hat ein neues Video zu seinem Forschungsroboter AthenaZero veröffentlicht. Im Mittelpunkt stehen die Tastsensoren der Hände: In jeder Handfläche sitzen acht, in jeder Fingerspitze drei druckempfindliche Sensoren, die 200-mal pro Sekunde messen. Laut dem Fachaufsatz des Teams erkennen sie, wo eine Berührung stattfindet, auf etwa drei Millimeter genau bei einer Kraftauflösung von rund 0,1 Newton.",
+     "Jede Hand hat drei Finger, die über dünne Seile aus der Kunstfaser Dyneema bewegt werden. Die Motoren sitzen nicht in der Hand, sondern im Rumpf; die Kraft läuft über 1,8 Meter lange Seilzüge. Das hält die Arme leicht und schnell: Die Finger schließen sich in rund 80 Millisekunden und umgreifen Gegenstände vom Ei bis zum Hammer.",
+     "AthenaZero ist ein feststehender Zwei-Arm-Roboter, kein laufender Humanoide. In Tests warf er einen Tennisball mit gut 30 Metern pro Sekunde und fing Baseballs mit bis zu etwa 18 Metern pro Sekunde – zuverlässig allerdings nur bis rund 13 Meter pro Sekunde. Daten zur Langzeit-Haltbarkeit der Seilzüge liegen noch nicht vor, ein Produkt ist nicht angekündigt."
+    ]
+   },
+   "bg": {
+    "t": "Пръсти с осезание: RAI Institute показва роботизирани ръце, които ловят и хвърлят топки",
+    "d": "Ново видео на американския изследователски институт обяснява сензорите за допир на двуръкия робот AthenaZero. Пръстите му, задвижвани с въжета, се свиват за около 80 милисекунди.",
+    "body": [
+     "RAI Institute от Кеймбридж в американския щат Масачузетс публикува ново видео за своя изследователски робот AthenaZero. В центъра са сензорите за допир в ръцете: във всяка длан има по осем, а във всеки връх на пръст – по три чувствителни на натиск сензора, които мерят 200 пъти в секунда. Според научната статия на екипа те определят мястото на допира с точност до около три милиметра при разделителна способност за сила от около 0,1 нютона.",
+     "Всяка ръка има три пръста, задвижвани с тънки въжета от синтетичното влакно Dyneema. Моторите не са в ръката, а в торса; силата се предава по въжета с дължина 1,8 метра. Така ръцете остават леки и бързи: пръстите се свиват за около 80 милисекунди и обхващат предмети от яйце до чук.",
+     "AthenaZero е неподвижен робот с две ръце, а не ходещ хуманоид. При тестове той хвърля тенис топка с малко над 30 метра в секунда и лови бейзболни топки със скорост до около 18 метра в секунда – надеждно обаче само до около 13 метра в секунда. Данни за дълготрайността на въжената система все още няма, продукт не е обявен."
+    ]
+   },
+   "en": {
+    "t": "Fingers that feel: RAI Institute shows robot hands that catch and throw balls",
+    "d": "A new video from the US research institute explains the touch sensors of the two-armed robot AthenaZero. Its tendon-driven fingers close in about 80 milliseconds.",
+    "body": [
+     "The RAI Institute in Cambridge, Massachusetts, has released a new video about its research robot AthenaZero. The focus is on the hands' touch sensors: each palm holds eight and each fingertip three pressure-sensitive sensors that take measurements 200 times per second. According to the team's paper, they locate a touch to within about three millimetres with a force resolution of around 0.1 newtons.",
+     "Each hand has three fingers moved by thin tendons made of the synthetic fibre Dyneema. The motors sit not in the hand but in the torso, with force transmitted through 1.8-metre cable drives. That keeps the arms light and fast: the fingers close in about 80 milliseconds and wrap around objects ranging from an egg to a hammer.",
+     "AthenaZero is a stationary two-armed robot, not a walking humanoid. In tests it threw a tennis ball at just over 30 metres per second and caught baseballs at up to about 18 metres per second, though reliably only up to around 13 metres per second. No data on the long-term durability of the cable drives is available yet, and no product has been announced."
+    ]
+   }
+  },
+  {
+   "id": "niederlande-25000-stellen-staatsdienst-ki",
+   "s": "ai",
+   "mn": true,
+   "time": "12:41",
+   "kl": {
+    "de": "Arbeit",
+    "bg": "Работа",
+    "en": "Jobs"
+   },
+   "src": [
+    {
+     "n": "Bloomberg via The Star – Dutch government plans to cut 25,000 jobs in AI-led overhaul (27.10.2026)",
+     "u": "https://www.thestar.com.my/tech/tech-news/2026/10/27/dutch-government-plans-to-cut-25000-jobs-in-ai-led-overhaul"
+    },
+    {
+     "n": "NL Times – Dutch gov't to cut 16% of its workforce; 25,000 civil servant jobs disappearing by 2035 (26.10.2026)",
+     "u": "https://nltimes.nl/node/92681"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-29/niederlande-25000-stellen-staatsdienst-ki.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "OMOOC",
+    "lic": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Eric_van_der_Burg,_2016.png",
+    "alt": {
+     "de": "Archivbild: der niederländische Politiker Eric van der Burg (VVD) im Jahr 2016",
+     "bg": "Архивна снимка: нидерландският политик Ерик ван дер Бург (VVD) през 2016 г.",
+     "en": "Archive photo: Dutch politician Eric van der Burg (VVD) in 2016"
+    }
+   },
+   "de": {
+    "t": "Niederlande streichen 25.000 Stellen im Staatsdienst – KI soll die Lücke füllen",
+    "d": "Bis 2035 soll die zentrale Verwaltung rund jede sechste Stelle verlieren und dann jährlich 3,5 Milliarden Euro sparen. Die Regierung setzt dabei auch auf breiteren KI-Einsatz.",
+    "body": [
+     "Die niederländische Regierung will bis 2035 rund 25.000 Vollzeitstellen in der zentralen Staatsverwaltung abbauen. Das kündigte Eric van der Burg (VVD), Staatssekretär für Königreichsbeziehungen und handlungsfähige Verwaltung, am Montag an. Bei derzeit etwa 160.000 Beschäftigten entspricht das ungefähr jeder sechsten Stelle. Die Einsparungen sollen bis 2027 auf 900 Millionen Euro pro Jahr steigen und ab 2035 auf 3,5 Milliarden Euro jährlich.",
+     "Polizei und Verteidigung sind laut Bloomberg ausgenommen. Am stärksten trifft es Ministerien, Aufsichtsbehörden und ausführende Ämter; einzelne Bereiche könnten bis zu 60 Prozent ihrer Stellen verlieren. Einen Einstellungsstopp gibt es nicht – frei werdende Stellen sollen einzeln geprüft werden. Zudem will das Kabinett weniger externe Kräfte einsetzen, Beratungsgremien streichen und jedes Jahr 500 überflüssige Vorschriften abschaffen. Man könne nicht so weitermachen wie bisher, sagte Van der Burg laut Bloomberg.",
+     "Künstliche Intelligenz soll helfen, mit weniger Personal auszukommen. Erste KI-Projekte laufen bereits in der Verwaltung; einen Plan für den breiteren Einsatz will die Regierung Anfang kommenden Jahres vorlegen. Dabei sollen möglichst niederländische und europäische Anbieter zum Zug kommen, um Abhängigkeiten von außereuropäischer Technik zu vermeiden. Die Zahl der Staatsbediensteten war seit 2018 um 41 Prozent auf einen Rekordwert gestiegen."
+    ]
+   },
+   "bg": {
+    "t": "Нидерландия съкращава 25 000 места в държавната администрация – ИИ да запълни празнината",
+    "d": "До 2035 г. централната администрация ще загуби около всяко шесто работно място и след това ще спестява по 3,5 млрд. евро годишно. Правителството залага и на по-широко използване на ИИ.",
+    "body": [
+     "Нидерландското правителство иска до 2035 г. да съкрати около 25 000 щатни места в централната държавна администрация. Това обяви в понеделник Ерик ван дер Бург (VVD), държавен секретар по отношенията в рамките на кралството и ефективното управление. При сегашните около 160 000 служители това е приблизително всяко шесто работно място. Спестяванията трябва да нараснат до 900 млн. евро годишно до 2027 г. и до 3,5 млрд. евро годишно от 2035 г.",
+     "Според Bloomberg полицията и отбраната са изключени. Най-силно ще бъдат засегнати министерствата, контролните органи и изпълнителните агенции; в отделни звена може да отпаднат до 60 процента от местата. Замразяване на назначенията няма – освободените места ще се преценяват поотделно. Кабинетът иска също да наема по-малко външни специалисти, да закрие консултативни органи и всяка година да премахва по 500 излишни разпоредби. Не може да се продължава както досега, каза Ван дер Бург според Bloomberg.",
+     "Изкуственият интелект трябва да помогне да се работи с по-малко персонал. В администрацията вече текат първи проекти с ИИ; план за по-широкото му използване правителството иска да представи в началото на следващата година. При това предимство трябва да получат нидерландски и европейски доставчици, за да се избегне зависимост от неевропейски технологии. Броят на държавните служители е нараснал от 2018 г. насам с 41 процента до рекордно ниво."
+    ]
+   },
+   "en": {
+    "t": "Netherlands to cut 25,000 civil service jobs – AI is meant to fill the gap",
+    "d": "By 2035 the central administration is set to lose about one in six jobs and then save €3.5 billion a year. The government is also counting on wider use of AI.",
+    "body": [
+     "The Dutch government plans to cut around 25,000 full-time jobs in the central civil service by 2035. Eric van der Burg (VVD), state secretary for Kingdom relations and effective government, announced the plan on Monday. With roughly 160,000 staff at present, that is about one job in six. Savings are to rise to €900 million a year by 2027 and to €3.5 billion a year from 2035.",
+     "Police and defence are exempt, according to Bloomberg. Ministries, inspectorates and implementing agencies will be hit hardest; some units could lose up to 60 percent of their posts. There will be no hiring freeze – each vacancy is to be assessed individually. The cabinet also wants to use fewer external contractors, scrap advisory bodies and abolish 500 unnecessary rules every year. The government cannot carry on as before, Van der Burg said, according to Bloomberg.",
+     "Artificial intelligence is meant to help the state cope with fewer staff. Initial AI projects are already running in the administration; the government plans to present a strategy for wider use early next year. Dutch and European suppliers are to be favoured where possible to avoid dependence on non-European technology. The number of civil servants had risen by 41 percent since 2018 to a record level."
+    ]
+   }
+  },
+  {
+   "id": "doj-nvidia-hugging-face-pruefung",
+   "s": "ai",
+   "mn": true,
+   "time": "12:41",
+   "kl": {
+    "de": "Wettbewerb",
+    "bg": "Конкуренция",
+    "en": "Antitrust"
+   },
+   "src": [
+    {
+     "n": "The Next Web – DOJ looks into Nvidia's $12.9B Hugging Face deal, Reuters reports (28.10.2026)",
+     "u": "https://thenextweb.com/news/doj-nvidia-hugging-face-deal-antitrust-inquiry"
+    },
+    {
+     "n": "PYMNTS/CPI – Nvidia's $12.9 Billion Hugging Face Deal Draws Justice Department Questions (28.10.2026)",
+     "u": "https://www.pymnts.com/cpi-posts/nvidias-12-9-billion-hugging-face-deal-draws-justice-department-questions/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-29/doj-nvidia-hugging-face-pruefung.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "APK",
+    "lic": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Robert_F._Kennedy_Department_of_Justice_Building.jpg",
+    "alt": {
+     "de": "Archivbild: Sitz des US-Justizministeriums, das Robert F. Kennedy Department of Justice Building in Washington",
+     "bg": "Архивна снимка: сградата на Министерството на правосъдието на САЩ (Robert F. Kennedy Department of Justice Building) във Вашингтон",
+     "en": "Archive photo: the Robert F. Kennedy Department of Justice Building, headquarters of the US Justice Department in Washington"
+    }
+   },
+   "de": {
+    "t": "US-Kartellwächter nehmen Nvidias Milliardenkauf von Hugging Face unter die Lupe",
+    "d": "Das Justizministerium will laut Reuters wissen, ob Nvidia mit der KI-Plattform einen zentralen Vertriebsweg für KI kontrollieren und Konkurrenten benachteiligen könnte.",
+    "body": [
+     "Das US-Justizministerium prüft nach einem Bericht der Nachrichtenagentur Reuters die geplante Übernahme der KI-Plattform Hugging Face durch Nvidia. Die Kartellwächter fragen demnach, ob der Chipkonzern mit dem Kauf einen grundlegenden Vertriebsweg für KI unter seine Kontrolle bringen und die Plattform gegen Wettbewerber einsetzen könnte. Reuters beruft sich auf zwei mit der Sache vertraute Personen.",
+     "Nvidia hatte Anfang September vereinbart, Hugging Face für rund 12,9 Milliarden Dollar zu kaufen. Auf der Plattform teilen Entwickler weltweit offene KI-Modelle und Datensätze. Nvidia hat zugesagt, sie offen zu halten; der Abschluss wird für die erste Hälfte 2027 erwartet. Das Ministerium wollte sich unter Verweis auf seine übliche Praxis nicht äußern, Nvidia lehnte einen Kommentar ab, Hugging Face antwortete nicht.",
+     "Die Fragen sind Teil einer schon länger laufenden Untersuchung zu Nvidia, die noch unter Präsident Joe Biden begonnen hatte. Sie betrifft Übernahmen, Beteiligungen und die Art, wie Nvidia Chips verkauft. Im September war berichtet worden, dass die Behörde auch den 20-Milliarden-Dollar-Deal mit dem Chip-Start-up Groq prüft: Nvidia hatte dessen Technik lizenziert und Spitzenmanager übernommen, statt die Firma zu kaufen. Auch in Frankreich läuft eine kartellrechtliche Untersuchung gegen Nvidia."
+    ]
+   },
+   "bg": {
+    "t": "Антимонополните власти в САЩ проверяват милиардната покупка на Hugging Face от Nvidia",
+    "d": "Според Reuters министерството на правосъдието иска да разбере дали чрез ИИ платформата Nvidia би могла да контролира ключов канал за разпространение на ИИ и да вреди на конкуренти.",
+    "body": [
+     "Министерството на правосъдието на САЩ проверява планираното придобиване на ИИ платформата Hugging Face от Nvidia, съобщи агенция Reuters. Според нея антимонополните власти питат дали с покупката производителят на чипове би поставил под свой контрол основен канал за разпространение на ИИ и дали би могъл да използва платформата срещу конкуренти. Reuters се позовава на двама души, запознати с въпроса.",
+     "В началото на септември Nvidia се договори да купи Hugging Face за около 12,9 млрд. долара. На платформата разработчици от цял свят споделят отворени ИИ модели и набори от данни. Nvidia обеща да я запази отворена; сделката се очаква да приключи през първата половина на 2027 г. Министерството отказа коментар, позовавайки се на обичайната си практика, Nvidia също отказа коментар, а Hugging Face не отговори.",
+     "Въпросите са част от по-дълго разследване срещу Nvidia, започнало още при президента Джо Байдън. То обхваща придобивания, дялови участия и начина, по който Nvidia продава чипове. През септември стана известно, че ведомството проверява и сделката за 20 млрд. долара със стартъпа за чипове Groq: Nvidia лицензира технологията му и привлече ръководни кадри, вместо да купи компанията. Антимонополно разследване срещу Nvidia тече и във Франция."
+    ]
+   },
+   "en": {
+    "t": "US antitrust enforcers scrutinise Nvidia's multibillion-dollar Hugging Face deal",
+    "d": "According to Reuters, the Justice Department wants to know whether the AI platform would let Nvidia control a key distribution point for AI and disadvantage rivals.",
+    "body": [
+     "The US Justice Department is examining Nvidia's planned acquisition of AI platform Hugging Face, Reuters news agency reported. Antitrust officials are asking whether the deal would let the chipmaker capture a fundamental distribution point for AI and whether it could use the platform against competitors. Reuters cited two people familiar with the matter.",
+     "Nvidia agreed in early September to buy Hugging Face for around $12.9 billion. Developers around the world share open AI models and datasets on the platform. Nvidia has pledged to keep it open; the deal is expected to close in the first half of 2027. The department declined to comment, citing its usual policy, Nvidia declined to comment and Hugging Face did not respond.",
+     "The questions are part of a longer-running investigation into Nvidia that began under President Joe Biden. It covers acquisitions, stakes in other companies and how Nvidia sells its chips. It was reported in September that the department is also examining the $20 billion deal with chip start-up Groq, in which Nvidia licensed the company's technology and hired its top executives instead of buying it. Nvidia also faces an antitrust investigation in France."
+    ]
+   }
+  },
+  {
+   "id": "microsoft-openai-10-milliarden-umsatz",
+   "s": "ai",
+   "mn": true,
+   "time": "12:41",
+   "kl": {
+    "de": "Geschäft",
+    "bg": "Бизнес",
+    "en": "Business"
+   },
+   "src": [
+    {
+     "n": "TechCrunch – Microsoft recorded $10 billion in revenue from OpenAI (28.10.2026)",
+     "u": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-29/microsoft-openai-10-milliarden-umsatz.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Coolcaesar",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Building92microsoft.jpg",
+    "alt": {
+     "de": "Archivbild: Gebäude 92 am Microsoft-Hauptsitz in Redmond (US-Bundesstaat Washington)",
+     "bg": "Архивна снимка: сграда 92 в централата на Microsoft в Редмънд (щата Вашингтон, САЩ)",
+     "en": "Archive photo: Building 92 at Microsoft's headquarters in Redmond, Washington"
+    }
+   },
+   "de": {
+    "t": "Zehn Milliarden Dollar in drei Monaten: So viel setzt Microsoft mit OpenAI um",
+    "d": "Fast elf Prozent des Quartalsumsatzes stammen aus Geschäften mit dem ChatGPT-Entwickler. Zugleich wachsen die offenen Forderungen – und Microsofts Anteil an OpenAI schrumpft.",
+    "body": [
+     "Microsoft hat in seinem Quartalsbericht beziffert, wie viel Umsatz der Konzern mit OpenAI macht: Von Juli bis September flossen aus den Geschäftsbeziehungen mit dem ChatGPT-Entwickler 10 Milliarden Dollar, einschließlich Zahlungen aus der Umsatzbeteiligung. Das geht aus einer am Mittwoch eingereichten Pflichtmitteilung an die US-Börsenaufsicht hervor, über die TechCrunch berichtete. Bei einem Gesamtumsatz von 92,3 Milliarden Dollar entspricht das fast elf Prozent.",
+     "Im gesamten Geschäftsjahr 2026 hatte Microsoft mit OpenAI 24,1 Milliarden Dollar umgesetzt; im aktuellen Tempo wären es rund 40 Milliarden Dollar im Jahr. Wie viel davon auf die Umsatzbeteiligung und wie viel auf Cloud-Dienste entfällt, schlüsselt der Bericht nicht auf. Die Forderungen gegenüber OpenAI – also Beträge, die OpenAI noch für frühere Geschäfte schuldet – stiegen bis Ende September auf 7,2 Milliarden Dollar, nach 6 Milliarden Ende Juni.",
+     "Zugleich sank Microsofts Beteiligung an OpenAI von rund 25 Prozent im Juni auf 24 Prozent im September; nach der Neuordnung von OpenAI im Oktober 2025 waren es etwa 27 Prozent gewesen. Einen Grund für die Verwässerung nannte Microsoft nicht. Nach einer Vereinbarung vom April 2026 teilt OpenAI seinen Umsatz noch bis 2030 mit Microsoft, allerdings bis zu einer Obergrenze, und darf auch mit konkurrierenden Cloud-Anbietern arbeiten. Beide Firmen werben zunehmend um dieselben Kunden."
+    ]
+   },
+   "bg": {
+    "t": "Десет милиарда долара за три месеца: толкова приходи има Microsoft от OpenAI",
+    "d": "Почти 11 процента от тримесечните приходи идват от сделки с разработчика на ChatGPT. В същото време вземанията растат, а делът на Microsoft в OpenAI намалява.",
+    "body": [
+     "Microsoft посочи в тримесечния си отчет колко приходи има концернът от OpenAI: от юли до септември от бизнес отношенията с разработчика на ChatGPT са постъпили 10 млрд. долара, включително плащания по споделянето на приходи. Това става ясно от подаден в сряда задължителен документ до американската комисия по ценните книжа, за който съобщи TechCrunch. При общи приходи от 92,3 млрд. долара това са почти 11 процента.",
+     "За цялата финансова 2026 г. приходите на Microsoft от OpenAI бяха 24,1 млрд. долара; при сегашното темпо биха достигнали около 40 млрд. долара годишно. Колко от тях идват от споделянето на приходи и колко от облачни услуги, отчетът не уточнява. Вземанията от OpenAI – суми, които OpenAI още дължи за минали сделки – са нараснали до 7,2 млрд. долара в края на септември спрямо 6 млрд. в края на юни.",
+     "Същевременно делът на Microsoft в OpenAI е намалял от около 25 процента през юни до 24 процента през септември; след преструктурирането на OpenAI през октомври 2025 г. той беше около 27 процента. Microsoft не посочи причина за разводняването. Според споразумение от април 2026 г. OpenAI ще споделя приходите си с Microsoft до 2030 г., но до определен таван, и може да работи и с конкурентни облачни доставчици. Двете компании все по-често се борят за едни и същи клиенти."
+    ]
+   },
+   "en": {
+    "t": "Ten billion dollars in three months: how much Microsoft makes from OpenAI",
+    "d": "Almost 11 percent of quarterly revenue comes from business with the ChatGPT maker. At the same time receivables are growing – and Microsoft's stake in OpenAI is shrinking.",
+    "body": [
+     "Microsoft has put a figure on how much revenue it earns from OpenAI: from July to September, its business with the ChatGPT maker brought in $10 billion, including revenue-sharing payments. That is according to a regulatory filing submitted to the US Securities and Exchange Commission on Wednesday, reported by TechCrunch. With total revenue of $92.3 billion, it amounts to almost 11 percent.",
+     "For the whole of fiscal 2026, Microsoft's revenue from OpenAI was $24.1 billion; at the current pace it would be around $40 billion a year. The filing does not say how much comes from revenue sharing and how much from cloud services. Receivables from OpenAI – amounts OpenAI still owes for past transactions – rose to $7.2 billion at the end of September from $6 billion at the end of June.",
+     "At the same time, Microsoft's stake in OpenAI fell from about 25 percent in June to 24 percent in September; after OpenAI's recapitalisation in October 2025 it had been around 27 percent. Microsoft did not give a reason for the dilution. Under an April 2026 agreement, OpenAI will keep sharing revenue with Microsoft until 2030, subject to a cap, and may also work with rival cloud providers. The two companies increasingly compete for the same customers."
+    ]
+   }
+  }
+ ]
+}
