@@ -1764,6 +1764,34 @@
     "img.alt": "Sembolik fotoğraf: Macar askerler bir helikopterin yakıtını dolduruyor"
    }
   },
+  "ext-kajak-eiswand-2026-10-29": {
+   "L": {
+    "body": [
+     "Kayakla buz duvarından inen bir şelaleden aşağı – Red Bull tarafından filme alınan, Arktik'te geçen aşırı bir macera."
+    ],
+    "d": "Kayakla buz duvarından inen bir şelaleden aşağı – Red Bull tarafından filme alınan, Arktik'te geçen aşırı bir macera.",
+    "t": "Kanoyla buz duvarından aşağı"
+   },
+   "at": "2026-10-29T18:19Z",
+   "flag": [
+    "Korrektor: schwerer Fehler, Korrektur nicht (vollständig) anwendbar"
+   ],
+   "h": "9a73f4a5c30b",
+   "rev": [
+    "Kajak was translated as \"kayak\" (ski) instead of \"kano\"/\"kayak\" (kayak boat). In Turkish \"kayak\" means skiing, so this is a meaning error, and the image alt text has the same problem.",
+    "\"Eiswand\" is better rendered as \"buz duvarı\", and \"Wasserfall aus einer Eiswand\" is better as \"buz duvarından dökülen şelale\"",
+    "\"Symbolbild\" capitalisation: \"Sembolik fotoğraf\" should be lowercase in parentheses"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    2
+   ],
+   "x": {
+    "img.alt": "Arktik'te bir buzul cephesinin önünde kanolar (sembolik fotoğraf)",
+    "kl": "Ekstrem spor"
+   }
+  },
   "ext-mtb-rennen-2026-10-29": {
    "L": {
     "body": [
@@ -1786,6 +1814,26 @@
    ],
    "x": {
     "img.alt": "Ormanda bir downhill yarışında dağ bisikletçileri (sembolik fotoğraf)",
+    "kl": "Ekstrem spor"
+   }
+  },
+  "ext-weitester-skisprung-2026-10-29": {
+   "L": {
+    "body": [
+     "Red Bull rekor uçuşu gösteriyor: şimdiye kadar düşmeden inilen en uzun kayakla atlayış."
+    ],
+    "d": "Red Bull rekor uçuşu gösteriyor: şimdiye kadar düşmeden inilen en uzun kayakla atlayış.",
+    "t": "Tüm zamanların en uzun kayakla atlayışı"
+   },
+   "at": "2026-10-29T18:19Z",
+   "h": "b62e05da87d2",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "1955'te Planica'da bir kayakla atlayıcı (Arşiv fotoğrafı)",
     "kl": "Ekstrem spor"
    }
   },
@@ -3898,6 +3946,62 @@
    ],
    "x": {
     "img.alt": "Everything But The Girl'den Ben Watt ve Tracey Thorn, Londra (Arşiv fotoğrafı 2022)"
+   }
+  },
+  "news-jazzfest-berlin-2026": {
+   "L": {
+    "body": [
+     "Jazzfest Berlin bugün, perşembe günü başlıyor. 63. festival, pazar günü, 1 Kasım'a kadar Berliner Festspiele binasında (Haus der Berliner Festspiele), ayrıca A-Trane, Quasimodo ve Kaiser-Wilhelm-Gedächtnis-Kirche'de sürecek; festivalin sanat yönetmeni Nadin Deventer. 25'ten fazla ülkeden 130'dan fazla müzisyenin yer aldığı 24 konser duyuruldu; bunların arasında dört dünya prömiyeri, iki Avrupa ve beş Almanya prömiyeri bulunuyor. Atölye çalışmaları ve konserlerden oluşan Community Week ise pazartesiden bu yana, diğer yerlerin yanı sıra Moabit'te de devam ediyor.",
+     "Europe Jazz Network'ün program tanıtımına göre festival, ABD'li saksofoncu Anthony Braxton'ın bu festival için özel olarak oluşturulan septetinin bir dünya prömiyeriyle açılıyor. Pazar günü kapanışta, 1966'da kurulan Alexander von Schlippenbach'ın Globe Unity Orchestra'sı George Lewis, Aki Takase ve Evan Parker ile birlikte kuruluşunun 60. yılını kutluyor. Programda ayrıca Immanuel Wilkins Quartet, Amir ElSaffar'ın New Quartet'i, İngiliz trompetçi Laura Jurd ve Tomeka Reid Quartet de yer alıyor. Biletler Berliner Festspiele aracılığıyla satılıyor; ağır engelli kişilerin (B işaretli kart) refakatçileri ücretsiz giriyor."
+    ],
+    "d": "25'ten fazla ülkeden 130'dan fazla müzisyen pazar gününe kadar sahne alıyor. Festivalin kapanışında Alexander von Schlippenbach'ın Globe Unity Orchestra'sı yıl dönümünü kutluyor.",
+    "t": "Berlin Caz Festivali başlıyor: 24 konser, dört dünya prömiyeri ve Globe Unity'nin 60. yılı"
+   },
+   "at": "2026-10-29T18:19Z",
+   "h": "5a1f8f7bc2f9",
+   "rev": [
+    "Weekday and month capitalisation: TDK writes \"1 Kasım Pazar\" with capitals, which is acceptable, but \"Pazar gününe\" is fine",
+    "Broken sentence: \"festivali, ... septeti ... açıyor\" has a wrong case (festivali accusative with a subject)",
+    "\"sanat yönetmeni Nadin Deventer\" is elliptical and ungrammatical",
+    "\"Gedächtnis\" is part of the proper name Kaiser-Wilhelm-Gedächtnis-Kirche; a Turkish form would be more natural but it is a proper name, so it stays",
+    "\"Jazzfest Berlin\" in the body lead is fine",
+    "\"Uraufführung\" rendered \"dünya prömiyeri\" is acceptable",
+    "\"Pazar\" capitalised before \"gününe\" is wrong per TDK: \"1 Kasım Pazar\" is acceptable, but \"Pazar gününe\" should be lowercase"
+   ],
+   "rev_dbg": [
+    7,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Berliner Festspiele binasının Schaperstraße'deki girişi (Arşiv fotoğrafı)"
+   }
+  },
+  "news-michael-wollny-winterreise-konzerte": {
+   "L": {
+    "body": [
+     "30 Ekim cuma günü ACT etiketiyle Michael Wollny'nin yeni solo albümü “eine winterreise” çıkıyor. Piyanist albümde Franz Schubert'in “Winterreise” şarkı döngüsünü yeniden yorumluyor: Schubert parçaları, yeni bestelenmiş ve serbestçe doğaçlanmış bölümlerle yan yana yer alıyor; bunlara Kate Bush, Björk ve Louis Cole'dan motifler de ekleniyor. Wollny kaydı, Yukarı Pfalz bölgesindeki Neumarkt'ta bulunan Reitstadel'de yaptı; ona göre salonun billur gibi akustiği kış temasına mükemmel uyuyor. Wollny, Jazzfuel'e göre, işin yalnızlıkla, ama aynı zamanda karşılık bulmuş ve hayal kırıklığına uğramış aşkla da ilgili olduğunu söyledi.",
+     "Thierry De Clemensat, Paris-Move'da albümü yayımlanmadan önce incelik ve bestecilik cesareti dolu bir müzik olarak överek Wollny'nin Schubert'ten bir müze parçası yapmadığını belirtti. Piyanist programı solo olarak 3 aralıkta Frankfurt Alte Oper'in Mozart Saal'ında, 19 şubat 2027'de Nürnberg Staatstheater'in opera binasında ve 20 şubat 2027'de Schwäbisch Hall'daki Hospitalkirche'de (JazzTime serisi) sunacak. Biletler Frankfurt'ta 30 ile 60 avro arasında, Nürnberg'de 55,75 avrodan, Schwäbisch Hall'da ise 35 avrodan başlıyor."
+    ],
+    "d": "Caz piyanisti Schubert'in şarkı döngüsünü solo olarak yeniden yorumluyor; Kate Bush ve Björk'ten motifler de var. Albüm cuma günü ACT'ten çıkıyor, canlı konserler aralıkta başlıyor.",
+    "t": "Michael Wollny: “eine winterreise” çıkıyor – Frankfurt ve Nürnberg'de solo konserler"
+   },
+   "at": "2026-10-29T18:19Z",
+   "h": "a493909048ec",
+   "rev": [
+    "Oberpfalz left untranslated; rendered as \"Yukarı Pfalz\"",
+    "\"erfüllte und enttäuschte Liebe\" rendered awkwardly (\"tamamlanmış\"); better \"karşılık bulmuş ve hayal kırıklığına uğramış aşk\"",
+    "Teaser: \"live ... ab Dezember\" fine; \"Aralık\" capitalization should be lowercase per TDK (\"aralık\" as month names are lowercase in Turkish)",
+    "Month names/weekday capitalization: \"30 Ekim Cuma günü\", \"3 Aralık\", \"19 Şubat\", \"20 Şubat\" should be lowercase per TDK",
+    "Wollny's quote in indirect speech reads clumsily; the reporting verb should include 'Jazzfuel'e göre' attribution – kept but smoothed"
+   ],
+   "rev_dbg": [
+    5,
+    7,
+    0
+   ],
+   "x": {
+    "img.alt": "Michael Wollny, Würzburger Hafensommer'de kuyruklu piyanonun başında (Arşiv fotoğrafı 2010)"
    }
   },
   "news-siegfried-staatsoper-muenchen-kratzer": {
