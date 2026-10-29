@@ -30,3 +30,4 @@ Themen mit aktuellem Anlass bevorzugen (neue Gesetze, Fristen, Preise, Saison). 
 - 2026-10-26 – Black Friday: So erkennst du Fake-Shops – und so hilft dir der neue Widerrufsbutton – Entwurf
 - 2026-10-27 – Bargeld-Limit ab Juli 2027: Was sich in Deutschland und Bulgarien beim Barzahlen ändert – Entwurf
 - 2026-10-28 – Schnee räumen: Wer vor dem Haus schippen muss – und was in DE und BG droht – Entwurf
+- 2026-10-29 – Weihnachtsgeld: Wer Anspruch hat – und was in Deutschland und Bulgarien davon bleibt – Entwurf
