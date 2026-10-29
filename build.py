@@ -2874,7 +2874,8 @@ def build():
     # ---- sitemaps
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
     for url, alts, lm in urls:
-        sm += f'  <url><loc>{SITE}{url}</loc><lastmod>{lm}</lastmod>' + ''.join(f'<xhtml:link rel="alternate" hreflang="{a}" href="{SITE}{h}"/>' for a, h in alts.items()) + '</url>\n'
+        _xd = alts.get('en') or alts.get('bg')   # x-default wie in den Seiten-Köpfen (Nedy 29.10.2026)
+        sm += f'  <url><loc>{SITE}{url}</loc><lastmod>{lm}</lastmod>' + ''.join(f'<xhtml:link rel="alternate" hreflang="{a}" href="{SITE}{h}"/>' for a, h in alts.items()) + (f'<xhtml:link rel="alternate" hreflang="x-default" href="{SITE}{_xd}"/>' if _xd else '') + '</url>\n'
     sm += '</urlset>\n'
     open(os.path.join(OUT, 'sitemap.xml'), 'w', encoding='utf-8').write(sm)
     newest = max(d['date'] for d in eds)
