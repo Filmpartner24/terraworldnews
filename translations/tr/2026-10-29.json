@@ -22,6 +22,33 @@
     "img.alt": "Leipzig/Halle Havalimanı apronu (Arşiv fotoğrafı)"
    }
   },
+  "adesanya-vertrag-unterschrieben-blood-in-the-sand": {
+   "L": {
+    "body": [
+     "Israel Adesanya, kendi sözlerine göre bir sonraki maçı için sözleşmeleri imzaladı. Eski orta sıklet şampiyonu, Demetrious Johnson'ın sunduğu “Precision Podcast”te “Sözleşmeyi dün imzaladık” dedi; Sherdog ve MixedMartialArts.com çarşamba günü bu açıklamayı aktardı. Adesanya bir rakip adı vermedi, ancak şunları söyledi: “Kumda kan olacak, ama o kan benim olmayacak.”",
+     "Sherdog'a göre Adesanya, 5 Aralık için Sharabutdin Magomedov ile anılıyor; bu tarihte Riyad'da bir UFC Fight Night düzenlenecek. UFC maçı şimdiye kadar resmen doğrulamadı.",
+     "Yeni Zelandalı sporcu son olarak art arda dört kez kaybetti: Sean Strickland, Dricus du Plessis, Nassourdine Imavov ve Mart 2026'da Seattle'da Joe Pyfer karşısında. Son galibiyeti, Nisan 2023'te UFC 287'de Alex Pereira'ya karşı aldığı nakavttı. Adesanya şimdi “Son üç yıl hiç eğlenceli değildi” dedi. MixedMartialArts.com'a göre Temmuz ayında, uzun yıllar sonra uzun süredir çalıştığı salonu City Kickboxing'den ayrılmıştı."
+    ],
+    "d": "Israel Adesanya, art arda dört yenilginin ardından bir sonraki UFC maçı için sözleşmeyi imzaladı. Medya haberlerine göre Aralık ayı başında Riyad'da Sharabutdin Magomedov ile dövüşeceği öne sürülüyor; teyit edilmedi.",
+    "t": "Adesanya imzaladı: “Kumda kan olacak ve bu ben olmayacağım”"
+   },
+   "at": "2026-10-29T07:39Z",
+   "h": "712b8cb50ef1",
+   "rev": [
+    "Quote \"bu ben olmayacağım\" is ungrammatical (should be \"bu ben olmayacağım\" -> \"o ben olmayacağım\"/\"kan dökülen ben olmayacağım\"); fixed in headline, body and img.alt",
+    "Headline: the \"– und\" structure and quote were rendered ungrammatically",
+    "\"Stammgym\" rendered as \"kendi salonu\"; \"seit vielen Jahren\" preserved, but \"Stammgym\" is better as \"uzun süredir devam ettiği salon\"",
+    "Teaser: \"soll ... gehen\" (reported) rendered as a definite future \"dövuşecek\"; added hedge"
+   ],
+   "rev_dbg": [
+    4,
+    4,
+    1
+   ],
+   "x": {
+    "img.alt": "Kapak görseli: Adesanya imzaladı: “Kumda kan olacak, ama o kan benim olmayacak”"
+   }
+  },
   "berlin-charite-warnstreik-abgeordnetenhaus-2026-10-29-b08": {
    "L": {
     "body": [
@@ -733,6 +760,32 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Klaus Holetschek (CSU), 2022’de Berlin’deki Hauptstadtkongress’te"
+   }
+  },
+  "ditcheva-freigabe-haende-titel-bishop": {
+   "L": {
+    "body": [
+     "Dakota Ditcheva, kendi sözlerine göre yeniden tamamen dövüşebilecek durumda. İngiliz dövüşçü, Sherdog'un perşembe günü aktardığına göre Ariel Helwani'ye verdiği röportajda “Durumum iyi, tamamen onay aldım” dedi. Ditcheva, temmuz ayında Denise Kielholtz'a karşı oybirliğiyle aldığı sayı galibiyetinde iki elini de kırmış ve iki elinden ameliyat edilmişti.",
+     "Ditcheva, iyileşme sürecinin hızlı geçtiğini söyledi: Antrenmanlara dönüşüyle ilgili olarak “Ameliyattan bu yana yaklaşık dokuz hafta geçti, bu gerçekten çok hızlı” dedi. Hedefi net: “Kemerimi geri istiyorum.”",
+     "PFL kadınlar sineklik sıklet unvanı şu anda, ekim ayı ortasında Chicago'da Liz Carmouche'u sayılarla yenerek kemeri kazanan Jena Bishop'ta bulunuyor. Ditcheva, Bishop'ı ağustos 2024'te ilk rauntta teknik nakavtla yenmişti. Rövanş maçı için henüz bir tarih belli değil."
+    ],
+    "d": "Dakota Ditcheva, iki elindeki kırıkların ardından yeniden onay aldı. Yenilgisiz İngiliz dövüşçü, PFL şampiyonu Jena Bishop'a karşı altın kemer için dövüşmek istiyor.",
+    "t": "İki elinden ameliyat olan Ditcheva sağlığına kavuştu, Bishop'ın kemerini istiyor"
+   },
+   "at": "2026-10-29T07:39Z",
+   "h": "f025ff4e6763",
+   "rev": [
+    "Turkish month names must be lowercase in running text per TDK: 'Temmuz ayında', 'Ekim ayı', 'Ağustos 2024' (German has 'im Juli', 'Mitte Oktober', 'im August 2024')",
+    "Headline says 'kemerini istiyor' but the German says he wants the title from Bishop; acceptable, no change needed",
+    "Missing hedge: 'sağlığına kavuştu' in headline is fine"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "2018'de bir PFL organizasyonunda kafes ve seyirciler (Sembolik fotoğraf)"
    }
   },
   "energie-bulgargaz-gaspreis-november-chiren-2026-10-29": {
@@ -1639,6 +1692,32 @@
    ],
    "x": {
     "img.alt": "Neustadt am Rübenberge şehir merkezi (Sembolik fotoğraf)"
+   }
+  },
+  "ufc-336-prates-trainer-morales-runde-drei": {
+   "L": {
+    "body": [
+     "Vale Top Team'in başkanı ve Carlos Prates'in 11 yaşından beri antrenörü olan Cristian Nogueira, maçın erken sona ereceğini düşünüyor. Nogueira, Sherdog'a yaptığı açıklamada Prates'in Michael Morales'i “ikinci raundun ortasıyla sonu arasında bir yerde” yeneceğini söyledi. İkili, 30 Ocak 2027'de Toronto'daki Scotiabank Arena'da düzenlenecek UFC 336'da welter siklet geçici unvanı için karşılaşacak. Prates'in rekoru 24-7, yenilgisiz Morales'in rekoru ise 19-0.",
+     "Maç eşleşmesi ekibi şaşırttı: Nogueira, “Önce Makhachev'le, sonra Morales'le dövüşeceğimizi düşünüyorduk” dedi. Nogueira'ya göre Morales “her şeyi riske attığı için kendini çok açık bırakma” eğiliminde. Nogueira, Makhachev'in Prates'i beş raunt boyunca inceleyebileceğini umması halinde hayal kırıklığına uğrayacağını belirterek şöyle dedi: “Bu maç üçüncü raunda ulaşmayacak.”",
+     "Prates'e Alex Pereira'dan destek geldi. Brezilyalı dövüşçü, “Connect Cast” podcast'inde Prates'i izlemeyi en sevdiği yurttaşı olarak niteledi: “Nakavtları severim, biliyor musun? Özellikle Prates'i, o adam işini biliyor, o adam o!” Prates dövüşürken yalnızca başka bir işi varsa izlemediğini söyledi."
+    ],
+    "d": "Carlos Prates'in antrenörü Cristian Nogueira, Michael Morales'e karşı geçici unvan maçında erken galibiyet öngörüyor. Alex Pereira da yurttaşı için övgü dolu sözler söyledi.",
+    "t": "UFC 336: Prates'in antrenörü Morales'in üçüncü raunda ulaşacağına inanmıyor"
+   },
+   "at": "2026-10-29T07:39Z",
+   "h": "20ab567612d4",
+   "rev": [
+    "Last sentence: German says Pereira does not watch only if otherwise occupied; the draft's \"mutlaka izlediğini\" is a rewording and loses the conditional structure (nur dann nicht ... wenn). Meaning is ",
+    "\"Makhachev... enttäuscht\": the German \"werde er enttäuscht\" refers to Makhachev, and the draft keeps it; fine.",
+    "\"Er ist der Mann!\" rendered as \"gerçekten çok iyi\" – a slight shift; made closer to the original."
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "UFC 336'ya ev sahipliği yapacak Toronto'daki Scotiabank Arena, 2022 yazında (Sembolik fotoğraf)"
    }
   },
   "welt-aethiopien-moyale-kaempfe-36000-fluechten-nach-kenia-2026-10-29": {
