@@ -2981,7 +2981,10 @@
        "date": "2026-10-28",
        "team1": "SSV Jeddeloh II",
        "team2": "Hertha BSC",
-       "ft": null
+       "ft": [
+        0,
+        2
+       ]
       },
       {
        "date": "2026-10-27",
@@ -3005,7 +3008,10 @@
        "date": "2026-10-28",
        "team1": "Dynamo Dresden",
        "team2": "FC Schalke 04",
-       "ft": null
+       "ft": [
+        2,
+        0
+       ]
       },
       {
        "date": "2026-10-27",
@@ -3047,31 +3053,47 @@
        "date": "2026-10-28",
        "team1": "Holstein Kiel",
        "team2": "TSG 1899 Hoffenheim",
-       "ft": null
+       "ft": [
+        1,
+        1
+       ],
+       "note": "n.V., i.E. 4:3"
       },
       {
        "date": "2026-10-28",
        "team1": "Bayer 04 Leverkusen",
        "team2": "1. FC Nürnberg",
-       "ft": null
+       "ft": [
+        5,
+        2
+       ]
       },
       {
        "date": "2026-10-28",
        "team1": "Hannover 96",
        "team2": "1. FC Kaiserslautern",
-       "ft": null
+       "ft": [
+        0,
+        2
+       ]
       },
       {
        "date": "2026-10-28",
        "team1": "SC Paderborn 07",
        "team2": "VfB Stuttgart",
-       "ft": null
+       "ft": [
+        0,
+        1
+       ]
       },
       {
        "date": "2026-10-28",
        "team1": "SC Freiburg",
        "team2": "VfL Wolfsburg",
-       "ft": null
+       "ft": [
+        3,
+        2
+       ]
       },
       {
        "date": "2026-10-27",
@@ -3086,7 +3108,10 @@
        "date": "2026-10-28",
        "team1": "FC Bayern München",
        "team2": "1. FC Magdeburg",
-       "ft": null
+       "ft": [
+        6,
+        1
+       ]
       }
      ]
     }
@@ -3100,7 +3125,9 @@
     "https://www.dfb.de/news/ueberraschung-in-grossaspach-leipzig-und-kiel-souveraen",
     "https://www.dfb.de/news/altglienicke-verpasst-ueberraschung-im-elfmeterschiessen",
     "https://www.t-online.de/sport/fussball/dfb-pokal/id_101500428/dfb-pokal-leipzig-wendet-blamage-ab-mainz-scheitert-an-bochum.html",
-    "https://presse-augsburg.de/dfb-pokal-bvb-besiegt-bremen-darmstadt-schlaegt-elversberg/1206992/"
+    "https://presse-augsburg.de/dfb-pokal-bvb-besiegt-bremen-darmstadt-schlaegt-elversberg/1206992/",
+    "https://www.flashscore.de/news/fu-ball-dfb-pokal-dfb-pokal-tracker-fullkrug-kehrt-nach-dortmund-zuruck-traditionsduell-in-hamburg/KzMVXqLh/",
+    "https://www.zdfheute.de/sport/fussball-dfb-pokal-holstein-kiel-tsg-hoffenheim-tore-ergebnis26-27-100.html"
    ]
   }
  ],
