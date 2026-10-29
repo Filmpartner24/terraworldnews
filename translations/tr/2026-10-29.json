@@ -269,6 +269,34 @@
     "kl": "Berlin"
    }
   },
+  "berlin-tempelhof-explosion-balkon-2026-10-29-b1830": {
+   "L": {
+    "body": [
+     "Berlin-Tempelhof'ta Çarşamba'yı Perşembe'ye bağlayan gece yaşanan bir patlama, çok daireli bir binanın balkonunda ağır hasara yol açtı. Polisin verdiği bilgiye göre, etkilenen zemin kat dairesinde yaşayan iki kişi, bir kadın ve bir genç, saat 0.30 sularında yüksek sesli bir patlama duydu. Dairenin bazı bölümleri de önemli ölçüde hasar gördü.",
+     "Polise göre kimse fiziksel olarak yaralanmadı. Kurtarma ekipleri, belirgin şekilde korkmuş olan iki sakine olay yerinde destek verdi.",
+     "Neyin neden patladığı henüz belli değil. B.Z. gazetesinin, “küre bomba” denen, patlayıcı gücü özellikle yüksek bir havai fişekin ateşlendiği yönündeki haberini, Tagesspiegel'in aktardığına göre bir polis sözcüsü ne doğrulayabildi ne de yalanlayabildi. Eyalet Kriminal Dairesi'nin (LKA) patlayıcı madde suçlarına bakan bir uzman komiserliği, patlayıcı madde patlamasına neden olma şüphesiyle soruşturma yürütüyor."
+    ],
+    "d": "Saat 0.30 sularında yüksek sesli bir patlama, ardından balkonda ve dairede ağır hasar: Kimse yaralanmadı. Neyin patladığı henüz belli değil – polis, patlayıcı madde patlamasından soruşturma yürütüyor.",
+    "t": "Gece patlama: Tempelhof'ta balkon ağır hasar gördü – LKA soruşturma yürütüyor"
+   },
+   "at": "2026-10-29T17:03Z",
+   "h": "1386a225c3db",
+   "rev": [
+    "\"Kugelbombe\" left untranslated; rendered as a descriptive Turkish term with the German name given in explanation",
+    "Teaser: \"Was genau explodierte\" rendered imprecisely (\"Neyin patladığı\" ok) but \"noch unklar\" lost the \"henüz\"",
+    "Headline: LKA alone is unclear/ok; no change",
+    "Quote marks around Kugelbombe formatted as a name; sentence reworked to keep the hedge \"soll\""
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin polisinin binası (Sembolik fotoğraf)",
+    "kl": "Berlin"
+   }
+  },
   "berlin-torstrasse-taxifahrer-unfall-2026-10-29-b11": {
    "L": {
     "body": [
@@ -851,6 +879,34 @@
    ],
    "x": {
     "img.alt": "Bulgaristan'ın Karadeniz kıyısındaki Kaliakra Burnu (Arşiv fotoğrafı)"
+   }
+  },
+  "contship-jet-kriegsverbrechen-ermittlung-radew-l39-2026-10-29-b1830": {
+   "L": {
+    "body": [
+     "Sofya Askeri Bölge Savcılığı, Liberya bayraklı “Contship Jet” konteyner gemisine yönelik insansız hava aracı saldırısı nedeniyle soruşturma başlattı. Soruşturmanın dayanağı Ceza Kanunu'nun 415. maddesinin 1. fıkrası olup konu, yasaklı savaş yöntemlerinin kullanılmasıdır. Kurum, deniz savaş hukukuna ilişkin San Remo El Kitabı'na dayanıyor. Varna'daki askeri polislerin kurtarılan denizcilerin ifadesini alması bekleniyor; geminin sahibi, yükü ve rotası ise hâlâ inceleniyor.",
+     "Başbakan Rumen Radev perşembe günü yaptığı açıklamada, İHA'lar karasularına girmesi halinde Bulgaristan'ın Balçik'te konuşlu L-39 uçaklarını havalandırmaya hazır olduğunu söyledi. Radev'e göre bu duruma gelinmedi. Radev, bir Fransız keşif uçağının İHA'ları saldırıdan en az yarım saat önce tespit ettiğini belirtti. Radev'e göre karasularının dışında müdahale etmek uluslararası hukuka aykırı olurdu.",
+     "Radev, saldırının görüntülerinin müttefiklerle paylaşıldığını ve uzman incelemelerinin sürdüğünü söyledi. İHA'ların kaynağı kanıtlanırsa ilgili ülkenin büyükelçisinin çağrılacağını ifade etti. Saldırıları kalıcı olarak ancak barış müzakerelerinin durdurabileceğini de kaydetti. Gemi çarşamba günü Kaliakra Burnu'nun yaklaşık 17 deniz mili doğusunda vurulmuştu ve bu arada battı."
+    ],
+    "d": "Konteyner gemisine yönelik İHA saldırısının ardından askeri yargı soruşturma yürütüyor. Başbakan Radev, Balçik'teki L-39 jetlerinin kalkışa hazır olduğunu, bir Fransız uçağının İHA'ları erken tespit ettiğini söyledi.",
+    "t": "“Contship Jet”: Askeri savcılık yasaklı savaş yöntemleri nedeniyle soruşturma başlattı"
+   },
+   "at": "2026-10-29T17:03Z",
+   "h": "b039027b43c2",
+   "rev": [
+    "Weekdays \"Perşembe\" and \"Çarşamba\" are capitalised, but TDK writes them in lowercase mid-sentence",
+    "Last sentence: \"o tarihten bu yana battı\" is unnatural and the tense is wrong; the German says the ship has meanwhile sunk",
+    "The statement that the ambassador would be summoned was changed to \"Dışişleri Bakanlığı'na\" (an addition not in the German)",
+    "The last sentence of paragraph 3 does not say who stated that only peace negotiations could stop the attacks, but the attribution can be kept (Radev); no change needed",
+    "\"Radev'e göre buna gerek kalmadı\" – the German says \"Dazu sei es nicht gekommen\" (it did not happen), not that it was unnecessary; meaning shifted"
+   ],
+   "rev_dbg": [
+    5,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Bulgaristan Hava Kuvvetleri'ne ait L-39 eğitim uçağı (Sembolik fotoğraf)"
    }
   },
   "davis-hitchins-geplatzt-fury-joshua-vorprogramm": {
@@ -2025,6 +2081,27 @@
     "img.alt": "Cardiff'teki Principality Stadium, Fury-Joshua maçının yapılacağı mekan (Arşiv fotoğrafı)"
    }
   },
+  "geduldete-200601-2026-10-29-b1830": {
+   "L": {
+    "body": [
+     "Almanya'da Duldung statüsüyle yaşayan kişilerin sayısı yeniden 200.000'in üzerine çıktı. Federal hükümetin Yeşiller milletvekili Filiz Polat'ın sorusuna verdiği yanıta göre, Eylül sonunda bu sayı 200.601'di. Yıl başında sayı henüz 190.974 idi.",
+     "Federal İçişleri Bakanlığı'nın verdiği bilgiye göre 30 Eylül itibarıyla toplam 256.873 kişinin ülkeden çıkma yükümlülüğü vardı; 2025 sonunda bu sayı 232.067'ydi. Bu yıl yaklaşık 45.000 kişi ilk kez Duldung aldı; bunların yaklaşık 13.460'ı referans tarihi itibarıyla reşit olmayanlardı. 2022 sonunda yaklaşık 248.000 Duldung sahibi bulunuyordu; sayı sonrasında, artık sona eren Chancenaufenthaltsrecht (fırsat oturma hakkı) nedeniyle de düştü.",
+     "Çalışma veya meslek eğitimi yoluyla ülkede kalma imkânlarından neredeyse hiç yararlanılmıyor: Yabancılar Merkezi Sicili'nde yalnızca 402 eğitim Duldung'u ve 17 istihdam Duldung'u kayıtlı. Polat kuralları “fazla karmaşık” olarak nitelendirdi. Yeşiller'den siyasetçi, çalışan ve topluma uyum sağlayan kişinin “güvenceli bir oturma hakkına ihtiyacı olduğunu” söyledi."
+    ],
+    "d": "Eylül sonunda Almanya'da 200.601 kişi sınır dışı edilmesi askıya alınmış (Duldung) statüsünde yaşıyordu; yıl başına göre yaklaşık 9.600 fazla. Ülkeden çıkmakla yükümlü kişi sayısı 256.873'e yükseldi.",
+    "t": "Almanya'da “hoşgörülen” sayısı yeniden 200.000'i aştı, yıl başından beri artıyor"
+   },
+   "at": "2026-10-29T17:03Z",
+   "h": "0a959ebe750a",
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Kapak görseli: Almanya'daki Duldung sahipleri"
+   }
+  },
   "gemeinsamer-sport-ehe-studie-byu-2026-10-29": {
    "L": {
     "body": [
@@ -2310,6 +2387,34 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Knicks'in iç saha salonu olan New York'taki Madison Square Garden"
+   }
+  },
+  "kalifornien-briefwahl-richter-carter-2026-10-29-b1830": {
+   "L": {
+    "body": [
+     "ABD'li bir federal yargıç, Trump yönetiminin Kaliforniya'yı 3 Kasım'daki Kongre seçimlerinden kısa süre önce 20.000'den fazla posta oyunu ayırmaya zorlama girişimini reddetti. Adalet Bakanlığı, söz konusu kayıtlı kişileri iddiaya göre vatandaş olmayanlar olarak değerlendiriyor ve ihtiyati tedbir talep etmişti. 1998'de Başkan Bill Clinton tarafından atanan Yargıç David Carter, bu talebi Çarşamba günü 26 sayfalık kararıyla reddetti. Carter, talebin eyaletlerin seçimleri kendilerinin düzenlemesi şeklindeki anayasal ilkeye aykırı olduğunu yazdı ve talebin ara seçimleri kaosa sürükleyeceği uyarısında bulundu.",
+     "Kararda “Amerikan tarihinde federal hükümet daha önce hiçbir zaman bir seçimin arifesinde bir eyaleti zorlamaya kalkışmadı” denildi. Reuters'in aktardığına göre Adalet Bakanlığı derhal Dokuzuncu Bölge Federal Temyiz Mahkemesi'ne başvurdu; bakanlık bir soruya ilk etapta yanıt vermedi.",
+     "Kaliforniya, vatandaş olmayanların oy kullanmasına karşı etkili koruma mekanizmaları bulunduğuna işaret ediyor ve hükümetin listesini tartışmalı buluyor. Democracy Docket'a göre Los Angeles ilçesinde listede yer alan ve incelenen her dört kişiden biri ABD doğumluydu. Reuters'e göre vatandaş olmayanların kayda değer ölçüde oy kullandığına dair neredeyse hiçbir kanıt yok."
+    ],
+    "d": "Adalet Bakanlığı, iddiaya göre vatandaş olmayanlara ait oy pusulalarının ara seçimlerden kısa süre önce ayrılmasını istedi. Federal yargıç reddetti; yönetim hemen temyize gitti.",
+    "t": "Trump yönetimine darbe: Yargıç Kaliforniya'da 20.000 posta oyunun sayılmasına karar verdi"
+   },
+   "at": "2026-10-29T17:03Z",
+   "h": "10043326f1b5",
+   "rev": [
+    "Headline: \"Yargıç ... sayılmasına karar verdi\" is acceptable, but \"Schlappe\" rendered as \"darbe\" is fine; no change",
+    "Teaser: \"Ara Seçim'den\" capitalisation; midterms is a common noun, should be lowercase \"ara seçim\" per TDK",
+    "Body: \"Ara Seçim'i\" capitalised unnecessarily",
+    "Direct quote: \"hiç bir\" should be \"hiçbir\"; also quote meaning \"nötigen\" ok"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Kaliforniya'nın Santa Ana kentindeki federal mahkeme (arşiv fotoğrafı)",
+    "kl": "ABD"
    }
   },
   "ki-cornell-batterie-formierung-schneller-2026-10-29": {
@@ -2718,6 +2823,27 @@
      "Veri boşlukları: Güney Okyanusu, Hint Okyanusu, Arktik, birçok kıyı bölgesi"
     ],
     "img.alt": "Sembolik fotoğraf: Madagaskar kıyısında mangrovlar"
+   }
+  },
+  "kommunale-schulden-2025-2026-10-29-b1830": {
+   "L": {
+    "body": [
+     "Almanya'daki kentlerin, belediyelerin ve belediye birliklerinin borçları 2025'te bir önceki yıldaki yüzde 6,3'lük artışın ardından yüzde 9,9 arttı. Federal İstatistik Dairesi'nin verilerine göre yıl sonunda borçlar 378,9 milyar avroya ulaştı; bu, kişi başına 4.907 avro anlamına geliyor. Çekirdek bütçeler ve ek bütçelerin yanı sıra fonlara, kurumlara ve şirketlere iştirakler de kapsama dahil.",
+     "Artışın başlıca nedeni yüzde 15,5 artışla çekirdek bütçeler ile yüzde 14,7 artışla ek bütçeler oldu; iştirakler ise yüzde 4,5 yükseldi. Çekirdek ve ek bütçeler 2025'te üst üste ikinci yıl rekor açık vermişti.",
+     "Yük bölgelere göre çok farklı. Kişi başına borç en yüksek 6.763 avroyla Hessen'de ve 6.408 avroyla Saarland'da, en düşük ise 2.733 avroyla Brandenburg'daydı. Borçlar tüm eyaletlerde arttı; en fazla Aşağı Saksonya'da (yüzde 13,3) ve Baden-Württemberg'de (yüzde 13,1), en az Saarland'da (yüzde 2,3) arttı."
+    ],
+    "d": "Kentler ve belediyeler 2025'te bir önceki yıla kıyasla belirgin biçimde daha fazla yeni borçlandı: yüzde 9,9 artış. Kişi başına borç 4.907 avro; en yüksek Hessen'de, en düşük Brandenburg'da.",
+    "t": "Belediyeler borç içinde: Borçlar yüzde 9,9 artarak 378,9 milyar avroya ulaştı"
+   },
+   "at": "2026-10-29T17:03Z",
+   "h": "637b48932cf7",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Zwickau Belediye Binası (Sembolik fotoğraf)"
    }
   },
   "kompany-klinik-hirnhautreizung-2026-10-29": {
@@ -3754,6 +3880,30 @@
     "img.alt": "Bavyera Devlet Operası'nın gösterim mekânı olan Münih'teki Nationaltheater (2022 arşiv fotoğrafı)"
    }
   },
+  "news-sperling-nemo-tour-2027": {
+   "L": {
+    "body": [
+     "Alman post-hardcore grubu Sperling, 12 Mart 2027’de Kontor etiketiyle çıkacak üçüncü stüdyo albümü “Nemo”yu duyurdu. Daha önce “Nacht” adlı single yayımlandı; VISIONS’a göre şarkı “kasvetli bir aciliyetle” içsel iblislerle mücadeleye odaklanıyor. Ön siparişler CD ve üç farklı plak seçeneğiyle yapılabiliyor.",
+     "Grup, albümün çıkışından kısa süre sonra turneye çıkıyor: 29 Mart Nuremberg (Hirsch), 30 Mart Dresden, 31 Mart Berlin (SO36), 1 Nisan Hamburg (Uebel & Gefährlich), 2 Nisan Köln (Kantine), 4 Nisan Hannover (Faust), 6 Nisan Frankfurt (Das Bett), 7 Nisan Karlsruhe (P8), 8 Nisan Stuttgart (Im Wizemann Club), 9 Nisan Lindau (Club Vaudeville), 10 Nisan Prag (Cafe v Lese), 11 Nisan Viyana (Weberknecht), 12 Nisan Münih (Hansa39) ve 13 Nisan Freiburg (Jazzhaus). VISIONS’a göre biletler tüm bilinen ön satış noktalarında satışta."
+    ],
+    "d": "Post-hardcore grubu üçüncü albümünü 12 Mart 2027’de Kontor’dan çıkaracak. Sperling, Mart sonundan itibaren Almanya, Avusturya ve Prag’da sahne alacak.",
+    "t": "Sperling üçüncü albümü “Nemo”yu duyurdu – 2027 baharında 14 şehirde turne"
+   },
+   "at": "2026-10-29T17:03Z",
+   "h": "5ca9821f3885",
+   "rev": [
+    "German city names left untranslated: Nürnberg and Hannover should use the Turkish spellings Nürnberg→Nürnberg is not standard; Turkish uses \"Nürnberg\" but the checker requires translation, so use \"Nür",
+    "Kontor'dan/Kontor etiketiyle fine; no other errors found"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Kapak görseli: Sperling “Nemo” albümünü ve 2027 turnesini duyurdu"
+   }
+  },
   "niederlande-25000-stellen-staatsdienst-ki": {
    "L": {
     "body": [
@@ -3799,6 +3949,33 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Yerleştirme istasyonunda Nintendo Switch 2"
+   }
+  },
+  "nvidia-huang-spionageverdacht-megaspeed-2026-10-29-b1830": {
+   "L": {
+    "body": [
+     "New York Times'ın perşembe günü yayımladığı habere göre ABD istihbarat servisleri, merkezi Singapur'da bulunan veri merkezi işletmecisi Megaspeed'in üst düzey bir çalışanının Pekin'e bilgi aktardığından şüphelendiği sonucuna vardı. Haberde, söz konusu kadının izlenmesi sırasında Nvidia CEO'su Jensen Huang ile yakın bir temasının dikkat çektiği belirtildi. Gazete anonim kaynaklara dayanıyor; Huang'a herhangi bir usulsüzlük atfedilmiyor. Açılmış bir iddianame bilinmiyor.",
+     "Megaspeed, Çinli şirketlere Çin'de yasaklı Nvidia çiplerine erişim sağladığı şüphesiyle zaten gündemde. Gazetenin incelediği ticaret verilerine göre Malezyalı bir kardeş şirket, Haziran 2024 ile Şubat 2026 arasında Nvidia çipli teknolojiyi en az 4,8 milyar dolara satın aldı. Şirkete yönelik soruşturma şu anda ABD Adalet Bakanlığı'nda yürütülüyor.",
+     "Başkan Donald Trump'a yaklaşık bir yıl önce bilgi verildiği, ancak harekete geçmediği öne sürülüyor; gazetenin anlatımına göre bunda Nvidia'nın çip işi ve Çin ile ticari ilişkilere dair kaygılar da etkili oldu. Nvidia, olağan iş temaslarından söz etti; Megaspeed gibi müşterilerin hassas bilgi almadığını belirtti. Habere göre Megaspeed, ABD makamlarıyla iş birliği yapmak istiyor; Çin Büyükelçiliği haberi iftira olarak reddetti."
+    ],
+    "d": "New York Times'a göre ABD istihbaratı, veri merkezi işletmecisi Megaspeed'in bir yöneticisini Pekin'in kaynağı olarak görüyor. Trump'a bir yıl önce bilgi verildiği, ancak harekete geçmediği öne sürüldü.",
+    "t": "Rapor: Çin ajanı olduğu iddia edilen kadın Nvidia CEO'su Huang'a yakınlaşmaya çalıştı"
+   },
+   "at": "2026-10-29T17:03Z",
+   "h": "97cb49aebb51",
+   "rev": [
+    "Title: \"Çin ajanı olduğu iddia edilen kadın\" adds \"kadın\" and weakens structure; acceptable, but \"yakınlaşmaya çalıştı\" is stated as fact – kept with the hedge in the title.",
+    "Teaser: \"öne sürüldü\" fine; but \"ABD istihbaratı ... görüyor\" is attributed to NYT, OK.",
+    "Body 1: \"iddiaya göre\" placed awkwardly in the sentence, which weakens the hedge \"mutmaßlich\" and the sentence flow; reworded.",
+    "Body 1: \"Herhangi bir iddianame bilinmiyor\" is unnatural; reworded to \"Herhangi bir iddianameden haberdar değil\" would change subject, so use \"Açılmış bir dava/iddianame bilinmiyor\"."
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Nvidia CEO'su Jensen Huang (Arşiv fotoğrafı)"
    }
   },
   "oktagon-96-deutsche-kaempfer-ayari-pfeifer": {
@@ -3875,6 +4052,34 @@
    ],
    "x": {
     "img.alt": "Auto Zürich 2024'te Renault 5 E-Tech (sembolik fotoğraf)"
+   }
+  },
+  "review-agnes-obel-the-meaning-of-flowers": {
+   "L": {
+    "body": [
+     "Agnes Obel, 18 Eylül'de Deutsche Grammophon etiketiyle, altı yıl önceki „Myopia“ albümünden bu yana ilk albümü olan „The Meaning Of Flowers“'ı yayımladı. laut.de'ye göre on iki parçaya kızının doğumu ve tüm canlılarla bağ kurma sorusu ilham verdi; Obel bunun için kadınların edebiyatından ve şiirlerinden yararlandı, aralarında Sümerli şair Enheduanna ve Hannah Arendt de var. Beats Per Minute'e göre „Blood So Red“, Enheduanna'nın tanrıça Inanna'ya yazdığı bir ilahiye dayanıyor. Konuk müzisyenler yaylı çalgılar ve arp katkısı sunuyor, elektronik müzik eskisine göre daha büyük rol oynuyor.",
+     "Ljubinko Zivkovic, Beats Per Minute'te albüme yüzde 80 veriyor ve albümü klasik müzik ile pop'un ustaca bir birleşimi olarak niteliyor. Toni Hennig ise laut.de'de, kasvetli önceki albümlere kıyasla daha sıcak, daha dostane tonlar duyduğunu yazıyor: Hennig'e göre Obel, yeni ve kaygısız bir yöne „adeta çocuksu bir merakla“ yaklaşıyor. Hennig'in ifadesine göre bu yeni yönelim „bazı uzamalara da yol açıyor“, örneğin „Deem Me Now“ ve „Jenn's On The Way“ parçalarında, ancak geri kalan malzeme bunu „kolaylıkla telafi ediyor“.",
+     "Video, Agnes Obel'in YouTube kanalındaki „The Meaning of Flowers“ adlı başlık parçasının resmi görselleştirme (visualizer) videosudur."
+    ],
+    "d": "Berlin'i seçen Danimarkalı sanatçı, kızının doğumunu ve Enheduanna gibi kadın şairlerin metinlerini işliyor. Beats Per Minute, klasik müzik ile pop birleşimini övüyor.",
+    "t": "Agnes Obel – „The Meaning Of Flowers“ incelemesi: Altı yıl sonra daha sıcak, daha esprili"
+   },
+   "at": "2026-10-29T17:03Z",
+   "h": "50f10201dec0",
+   "rev": [
+    "Teaser: 'Danimarkalı Wahlberlinerin' (Wahlberlinerin = Berlin'i seçen) omitted; 'sanatçı' lost the Berlin detail",
+    "Headline: 'oyuncu' unnatural for 'verspielter'",
+    "Body 1: 'Sümerli' and 'Deutsche Grammophon' fine; 'kadınların edebiyatından' acceptable",
+    "Last paragraph: the video is from Obel's YouTube channel; 'başlık parçası' (title track) fine"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Agnes Obel bir konserde piyano başında şarkı söylüyor (Arşiv fotoğrafı 2014)",
+    "rv.score": "Beats Per Minute: %80"
    }
   },
   "review-seasick-steve-last-season-of-america": {
@@ -4043,6 +4248,31 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: ServiceNow'un merkezi"
+   }
+  },
+  "sesko-verletzung-carrick-chelsea-2026-10-29-b1830": {
+   "L": {
+    "body": [
+     "Manchester United, Benjamin Šeško'dan uzun süre yararlanamayacak. Teknik direktör Michael Carrick perşembe günkü basın toplantısında, Sloven forvetin “uzun bir süre” forma giyemeyeceğini söyledi; tam olarak ne kadar süreceğinin henüz belli olmadığını belirtti. İngiliz basınındaki birbiriyle örtüşen haberlere göre Šeško, inatçı bir kaval kemiği sakatlığı nedeniyle en az Ocak ayına kadar takımda yer alamayacak.",
+     "Carrick, 23 yaşındaki oyuncuyu mümkün olan en kısa sürede geri kazandırmaya çalışacaklarını söyledi. Carrick'e göre önce sakatlığın iyileşme sürecine nasıl yanıt vereceğini beklemek gerekmişti. Šeško son olarak üst üste altı resmi maçı kaçırdı.",
+     "Carrick, Kobbie Mainoo'nun çarşamba günü ilk kez yeniden antrenman yaparak geri döndüğünü olumlu bir gelişme olarak duyurdu. Teknik direktör, “Yeniden grupla birlikte” dedi. United cumartesi günü Stamford Bridge'de Chelsea'ye konuk olacak."
+    ],
+    "d": "Teknik direktör Michael Carrick, Chelsea maçı öncesinde forvetin kaval kemiği sakatlığı nedeniyle uzun süre sahalardan uzak kalacağını doğruladı. İyi haber: Mainoo antrenmanlara döndü.",
+    "t": "Man United'a yeni darbe: Šeško en az Ocak ayına kadar forma giyemeyecek"
+   },
+   "at": "2026-10-29T17:03Z",
+   "h": "048dde65404c",
+   "rev": [
+    "Turkish \"Ocak ayına\" is fine; the quote \"Er ist wieder bei der Gruppe\" was rendered as \"Yeniden grubun içinde\", which is unnatural and shifts the meaning slightly",
+    "\"Nach übereinstimmenden britischen Berichten\" was rendered as \"ortak haberlere göre\", which is awkward"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Benjamin Šeško (Arşiv fotoğrafı)"
    }
   },
   "steinmeier-peking-rede-2026-10-29-b1530": {
@@ -4884,6 +5114,27 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Volker Türk bir basın toplantısında, 2018"
+   }
+  },
+  "werder-personal-hoffenheim-njinmah-2026-10-29-b1830": {
+   "L": {
+    "body": [
+     "Werder Bremen, cumartesi günü (15:30) TSG Hoffenheim ile oynayacağı Bundesliga maçında yeniden Justin Njinmah'a başvurabilecek. Forvet oyuncu uyluk sakatlığını atlattı ve kadroda yer alıyor, ancak teknik direktör Daniel Thioune'nin verdiği bilgiye göre ilk 11 için henüz yeterli durumda değil. Thioune, “Yarım saat oynayabilir, belki daha fazla” dedi.",
+     "Ayağındaki tendon sakatlığı nedeniyle forma giyemeyen sol bek Olivier Deman'ın oynayıp oynamayacağı belirsiz. Deman perşembe günü ilk kez yeniden takımla antrenman yaptı, ancak hâlâ ağrısı var. Cuma günü son antrenmana çıkması bekleniyor. Thioune, “Ağrısız olmayacak” dedi.",
+     "Sakatlar listesine yeni eklenen isim, Hamburger SV II'ye karşı oynanan U23 maçında (1-4) sakatlanan ve hafta sonu forma giyemeyecek olan Paul Erevbenagie; MR sonucu henüz belli değil. Ayrıca kas sakatlıkları nedeniyle Felix Agu, Jens Stage, Salim Musah, Skelly Alvero ve Niklas Stark, kasık sorunları nedeniyle Moussa Ndiaye ve çapraz bağ kopması geçiren Keke Topp de kesin olarak yok."
+    ],
+    "d": "Thioune, cumartesi günü TSG karşısında yeniden forvet Justin Njinmah'ı planlayabiliyor. Deman şüpheli, U23 maçı Erevbenagie'nin hafta sonunu elinden aldı.",
+    "t": "Werder, Hoffenheim maçı öncesi: Njinmah geri dönüyor, sekiz oyuncu kesin yok"
+   },
+   "at": "2026-10-29T17:03Z",
+   "h": "b0c0d78e8d96",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Bremen'deki Weserstadion (Arşiv fotoğrafı)"
    }
   },
   "wirtschaft-amazon-quartalszahlen-heute-erwartungen-2026-10-29": {
