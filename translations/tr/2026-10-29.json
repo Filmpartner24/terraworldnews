@@ -1082,6 +1082,33 @@
     "img.alt": "2018'de bir PFL organizasyonunda kafes ve seyirciler (Sembolik fotoğraf)"
    }
   },
+  "doj-nvidia-hugging-face-pruefung": {
+   "L": {
+    "body": [
+     "Reuters haber ajansının haberine göre ABD Adalet Bakanlığı, Nvidia'nın yapay zekâ platformu Hugging Face'i satın alma planını inceliyor. Habere göre rekabet denetçileri, çip şirketinin bu alımla yapay zekâ için temel bir dağıtım kanalını kontrolü altına alıp platformu rakiplere karşı kullanıp kullanamayacağını soruyor. Reuters, konuya yakın iki kişiye dayandığını belirtiyor.",
+     "Nvidia, eylül ayı başında Hugging Face'i yaklaşık 12,9 milyar dolara satın almayı kararlaştırmıştı. Platformda dünyanın dört bir yanındaki geliştiriciler açık yapay zekâ modellerini ve veri setlerini paylaşıyor. Nvidia bunları açık tutacağını taahhüt etti; işlemin 2027'nin ilk yarısında tamamlanması bekleniyor. Bakanlık, olağan uygulamasına atıfta bulunarak yorum yapmak istemedi, Nvidia yorum yapmayı reddetti, Hugging Face ise yanıt vermedi.",
+     "Sorular, Nvidia hakkında bir süredir yürütülen ve henüz Başkan Joe Biden döneminde başlayan soruşturmanın parçası. Soruşturma satın almaları, hisse alımlarını ve Nvidia'nın çipleri satış biçimini kapsıyor. Eylülde, kurumun çip girişimi Groq ile yapılan 20 milyar dolarlık anlaşmayı da incelediği bildirilmişti: Nvidia, şirketi satın almak yerine teknolojisinin lisansını almış ve üst düzey yöneticilerini bünyesine katmıştı. Fransa'da da Nvidia hakkında rekabet hukuku kapsamında bir soruşturma yürütülüyor."
+    ],
+    "d": "Reuters'a göre Adalet Bakanlığı, Nvidia'nın yapay zekâ platformu sayesinde yapay zekâ için merkezi bir dağıtım kanalını kontrol edip rakipleri dezavantajlı duruma düşürebilir mi diye öğrenmek istiyor.",
+    "t": "ABD'li rekabet denetçileri Nvidia'nın milyarlarca dolarlık Hugging Face alımını inceliyor"
+   },
+   "at": "2026-10-29T12:15Z",
+   "h": "c6deb2300386",
+   "rev": [
+    "Headline: 'Milliardenkauf' is a single purchase; 'ABD'li rekabet denetçileri' is acceptable, no change needed.",
+    "The teaser said 'dağıtım kanalını kontrol edip ... düşüremeyeceğini' which is grammatically awkward; simplified to keep the meaning.",
+    "The 'kontrol' flag is a false positive: the Turkish word 'kontrol' is correct."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: ABD Adalet Bakanlığı'nın merkezi, Washington'daki Robert F. Kennedy Department of Justice Building",
+    "kl": "Rekabet"
+   }
+  },
   "eftimow-drohnen-aus-osten-2026-10-29-b11": {
    "L": {
     "body": [
@@ -2497,6 +2524,34 @@
     "img.alt": "Leverkusen'deki BayArena (Arşiv fotoğrafı)"
    }
   },
+  "liquid-ai-lfm3-sechs-modelle": {
+   "L": {
+    "body": [
+     "ABD'li girişim Liquid AI, salı günü küçük boyutlu yapay zekâ modellerinin yeni neslini oluşturan LFM3'ü tanıttı. Seri, iki milyar parametre sınıfında altı modelden oluşuyor: bir metin modeli, görüntü ve videolar için bir model, dinleyip konuşabilen bir ses modeli, tüm girdi türleri için bir “Omni” modeli ve serbest metin yerine kalibre edilmiş yanıtlar veren iki sözde karar modeli. Hepsi aynı temel modelden türetildi. Liquid AI'ın videosu seriyi tanıtıyor.",
+     "Şirkete göre LFM3-1.7B metin modeli 256.000 token'a kadar bağlamı işliyor, 16 dili destekliyor ve sıkıştırılmış biçimde yalnızca yaklaşık bir gigabayt belleğe ihtiyaç duyuyor; ses modeli ise 18 dili destekliyor. Ağırlıklar Hugging Face'te açık olarak erişilebilir durumda ve Liquid AI'a göre her model tek bir ekran kartıyla yeniden eğitilebiliyor. Şirket, lansmanın ortakları arasında AMD, Arm, Intel, Nvidia ve Qualcomm'u sayıyor.",
+     "Performans verileri üreticinin kendisinden geliyor: Omni modelinin birçok testte 10,7 milyar parametreye kadar çıkan daha büyük modelleri geride bırakması bekleniyor; bu iddia üreticiye ait. Bağımsız karşılaştırmalar henüz yapılmadı. Liquid AI, yapay zekâ ajanlarıyla programlama ve karmaşık çok adımlı düşünme görevleri için metin modelini özellikle önermiyor."
+    ],
+    "d": "Metin, görüntü, video, ses ve kararlar: ABD'li girişimin yeni modelleri ortak bir temeli paylaşıyor ve doğrudan akıllı telefonlarda ve dizüstü bilgisayarlarda çalışmak üzere tasarlandı.",
+    "t": "Telefonlar için yapay zekâ: Liquid AI, LFM3 serisinin altı küçük açık modelini tanıttı"
+   },
+   "at": "2026-10-29T12:15Z",
+   "h": "7771aae9452e",
+   "rev": [
+    "Untranslated German word \"kompakt\" should be Turkish \"küçük boyutlu\"/\"kompakt\" is fine in Turkish, but \"Salı\" must be lowercase per TDK",
+    "Weekday \"Salı\" capitalised mid-sentence; TDK requires lowercase",
+    "\"Omni modelinin ... geride bıraktığı iddia ediliyor\" is weaker/different than \"soll ... übertreffen\"; acceptable, but the phrase \"daha büyük modelleri ... 10,7 milyar parametreye kadar\" is ambiguous",
+    "\"ausdrücklich nicht\" rendered ok"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "TERRA WORLD NEWS'in Liquid AI'ın yeni LFM3 yapay zekâ modellerine ilişkin kapak görseli",
+    "kl": "Yeni model"
+   }
+  },
   "liverpool-chelsea-ligapokal-elfmeterschiessen-fofana-2026-10-29-b08": {
    "L": {
     "body": [
@@ -2763,6 +2818,34 @@
     "img.alt": "Arşiv fotoğrafı: Friedrich Merz'in Japonya ziyareti sırasında"
    }
   },
+  "microsoft-openai-10-milliarden-umsatz": {
+   "L": {
+    "body": [
+     "Microsoft, çeyreklik raporunda şirketin OpenAI ile ne kadar ciro elde ettiğini açıkladı: Temmuz-Eylül döneminde ChatGPT'nin geliştiricisiyle olan iş ilişkilerinden, gelir paylaşımı ödemeleri de dahil olmak üzere 10 milyar dolar akti. Bu, TechCrunch'ın haber verdiği ve ABD borsa denetim kurumuna çarşamba günü sunulan zorunlu bildirimden anlaşılıyor. 92,3 milyar dolarlık toplam cirodaki karşılığı yüzde 11'e yakın bir orana denk geliyor.",
+     "Microsoft, 2026 mali yılının tamamında OpenAI ile 24,1 milyar dolarlık ciro elde etmişti; mevcut tempoyla yıllık yaklaşık 40 milyar dolar olurdu. Bunun ne kadarının gelir paylaşımından, ne kadarının bulut hizmetlerinden kaynaklandığını rapor ayrıntılandırmıyor. OpenAI'a yönelik alacaklar – yani OpenAI'ın önceki işler nedeniyle hâlâ borçlu olduğu tutarlar – Haziran sonundaki 6 milyar dolardan Eylül sonunda 7,2 milyar dolara yükseldi.",
+     "Aynı zamanda Microsoft'un OpenAI'daki payı Haziran'daki yaklaşık yüzde 25'ten Eylül'de yüzde 24'e düştü; OpenAI'ın Ekim 2025'teki yeniden yapılandırılmasının ardından bu oran yaklaşık yüzde 27 idi. Microsoft, bu seyrelmenin nedenini belirtmedi. Nisan 2026 tarihli bir anlaşmaya göre OpenAI, gelirini 2030'a kadar Microsoft ile paylaşmaya devam ediyor, ancak bu bir üst sınıra kadar geçerli ve OpenAI rakip bulut sağlayıcılarıyla da çalışabiliyor. Her iki şirket de giderek aynı müşterilere talip oluyor."
+    ],
+    "d": "Çeyreklik cironun yaklaşık yüzde 11'e yakın kısmı ChatGPT'nin geliştiricisiyle yapılan işlerden geliyor. Aynı zamanda ödenmemiş alacaklar artıyor – Microsoft'un OpenAI'daki payı ise azalıyor.",
+    "t": "Üç ayda 10 milyar dolar: Microsoft, OpenAI ile bu kadar ciro yapıyor"
+   },
+   "at": "2026-10-29T12:15Z",
+   "h": "51f6e8d571c4",
+   "rev": [
+    "Teaser: 'fast elf Prozent' (almost 11%) was rendered as 'yaklaşık yüzde 11', which loses 'fast'; body paragraph 1 has the same problem.",
+    "Paragraph 2: 'wären es ... Dollar im Jahr' is a hypothetical about a full year, but the draft says 'bu yılda ... olacaktı', which is awkward and shifts the tense/modality.",
+    "Headline: 'umsetzt' (present tense, 'turnover') became a question with 'cirosu ne kadar?', which is unnatural. It should be a statement.",
+    "Paragraph 1: 'flossen' became the awkward 'akış sağlandı'."
+   ],
+   "rev_dbg": [
+    4,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Microsoft'un Redmond'daki (ABD'nin Washington eyaleti) genel merkezinde 92 numaralı bina",
+    "kl": "İş dünyası"
+   }
+  },
   "modehandel-deutschland-kw43-herbstwetter-ifo": {
    "L": {
     "body": [
@@ -2902,6 +2985,28 @@
    ],
    "x": {
     "img.alt": "Başlık görseli: OKTAGON 96 Münih'te: Sekiz Alman dövüşçü – Ayari şampiyonluk peşinde"
+   }
+  },
+  "rai-institute-athenazero-haende": {
+   "L": {
+    "body": [
+     "ABD'nin Massachusetts eyaletindeki Cambridge kentinde bulunan RAI Institute, araştırma robotu AthenaZero ile ilgili yeni bir video yayımladı. Videonun odağında ellerdeki dokunma sensörleri var: Her avuç içinde sekiz, her parmak ucunda üç adet basınca duyarlı sensör bulunuyor ve bunlar saniyede 200 kez ölçüm yapıyor. Ekibin makalesine göre sensörler, temasın nerede gerçekleştiğini yaklaşık üç milimetre doğrulukla ve yaklaşık 0,1 Newton'luk kuvvet çözünürlüğüyle algılıyor.",
+     "Her elde, Dyneema adlı sentetik liften yapılmış ince halatlarla hareket ettirilen üç parmak bulunuyor. Motorlar elde değil gövdede yer alıyor; kuvvet 1,8 metre uzunluğundaki halat hatları üzerinden iletiliyor. Bu, kolları hafif ve hızlı tutuyor: Parmaklar yaklaşık 80 milisaniyede kapanıyor ve yumurtadan çekice kadar nesneleri kavrayabiliyor.",
+     "AthenaZero, yürüyen bir insansı robot değil, sabit duran çift kollu bir robot. Testlerde bir tenis topunu saniyede 30 metrenin biraz üzerinde bir hızla fırlattı ve saniyede yaklaşık 18 metreye varan hızdaki beyzbol toplarını yakaladı; ancak güvenilir yakalama yalnızca saniyede yaklaşık 13 metreye kadar mümkün oldu. Halat hatlarının uzun vadeli dayanıklılığına ilişkin veriler henüz yok, bir ürün de duyurulmadı."
+    ],
+    "d": "ABD'li araştırma enstitüsünün yeni videosu, çift kollu robot AthenaZero'nun dokunma sensörlerini anlatıyor. Halat tahrikli parmakları yaklaşık 80 milisaniyede kapanıyor.",
+    "t": "Dokunma duyulu parmaklar: RAI Institute top yakalayan ve atan robot elleri tanıttı"
+   },
+   "at": "2026-10-29T12:15Z",
+   "h": "639cb80cdb9a",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: 2016 Hannover Fuarı'nda beş parmaklı robot el (Arşiv fotoğrafı, AthenaZero değil)",
+    "kl": "Araştırma"
    }
   },
   "ryan-garcia-6-februar-mayweather-lopez": {

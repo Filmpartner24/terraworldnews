@@ -1012,6 +1012,28 @@
     "img.alt": "Jaula y público en un evento de la PFL en 2018 (Imagen simbólica)"
    }
   },
+  "doj-nvidia-hugging-face-pruefung": {
+   "L": {
+    "body": [
+     "El Departamento de Justicia de EE. UU. examina la adquisición prevista de la plataforma de IA Hugging Face por parte de Nvidia, según un informe de la agencia Reuters. Según este, las autoridades antimonopolio preguntan si la empresa de chips podría, con la compra, hacerse con el control de una vía de distribución fundamental de la IA y utilizar la plataforma contra sus competidores. Reuters se basa en dos personas familiarizadas con el asunto.",
+     "A principios de septiembre, Nvidia acordó comprar Hugging Face por unos 12.900 millones de dólares. En la plataforma, desarrolladores de todo el mundo comparten modelos de IA abiertos y conjuntos de datos. Nvidia se ha comprometido a mantenerlos abiertos; se espera que la operación se cierre en el primer semestre de 2027. El Departamento, alegando su práctica habitual, no quiso hacer declaraciones, Nvidia declinó comentar y Hugging Face no respondió.",
+     "Las preguntas forman parte de una investigación sobre Nvidia que lleva tiempo en marcha y que comenzó aún bajo el presidente Joe Biden. Afecta a adquisiciones, participaciones y a la forma en que Nvidia vende chips. En septiembre se informó de que la autoridad también examina el acuerdo de 20.000 millones de dólares con la start-up de chips Groq: Nvidia licenció su tecnología e incorporó a altos directivos en lugar de comprar la empresa. En Francia también hay abierta una investigación por competencia contra Nvidia."
+    ],
+    "d": "Según Reuters, el Departamento de Justicia quiere saber si Nvidia, con la plataforma de IA, podría controlar una vía de distribución clave de la IA y perjudicar a sus competidores.",
+    "t": "Las autoridades antimonopolio de EE. UU. examinan la compra de Hugging Face por Nvidia"
+   },
+   "at": "2026-10-29T12:15Z",
+   "h": "c6deb2300386",
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: sede del Departamento de Justicia de EE. UU., el Robert F. Kennedy Department of Justice Building en Washington",
+    "kl": "Competencia"
+   }
+  },
   "eftimow-drohnen-aus-osten-2026-10-29-b11": {
    "L": {
     "body": [
@@ -2362,6 +2384,33 @@
     "img.alt": "La BayArena de Leverkusen (Foto de archivo)"
    }
   },
+  "liquid-ai-lfm3-sechs-modelle": {
+   "L": {
+    "body": [
+     "La start-up estadounidense Liquid AI presentó el martes LFM3, la nueva generación de sus modelos de IA compactos. La familia incluye seis modelos de la clase de dos mil millones de parámetros: un modelo de texto, un modelo para imágenes y vídeos, un modelo de audio capaz de escuchar y hablar, un modelo «Omni» para todos los tipos de entrada y dos denominados modelos de decisión, que en lugar de texto libre ofrecen respuestas calibradas. Todos derivan del mismo modelo base. El vídeo de Liquid AI presenta la serie.",
+     "Según la empresa, el modelo de texto LFM3-1.7B procesa hasta 256.000 tokens de contexto, domina 16 idiomas y, en forma comprimida, solo necesita alrededor de un gigabyte de memoria; el modelo de audio admite 18 idiomas. Los pesos están disponibles abiertamente en Hugging Face y, según Liquid AI, cada modelo puede reentrenarse en una sola tarjeta gráfica. Como socios en el lanzamiento, la empresa menciona, entre otros, a AMD, Arm, Intel, Nvidia y Qualcomm.",
+     "Los datos de rendimiento proceden del propio fabricante: según este, el modelo Omni superaría en varias pruebas a modelos más grandes, de hasta 10.700 millones de parámetros. Aún no hay comparaciones independientes. Para programar con agentes de IA y para tareas complejas de razonamiento en varios pasos, Liquid AI desaconseja expresamente el modelo de texto."
+    ],
+    "d": "Texto, imagen, vídeo, voz y decisiones: los nuevos modelos de la start-up estadounidense comparten una base común y están pensados para funcionar directamente en smartphones y portátiles.",
+    "t": "IA para el móvil: Liquid AI lanza seis pequeños modelos abiertos de la serie LFM3"
+   },
+   "at": "2026-10-29T12:15Z",
+   "h": "7771aae9452e",
+   "rev": [
+    "Spanish convention: \"10,7 mil millones\" should be \"10.700 millones\"",
+    "\"no recomienda expresamente\" is ambiguous and weakens the German \"empfiehlt ausdrücklich nicht\"; the explicit advice against must be kept",
+    "\"mil millones\" for \"Milliarden\" in the middle of the sentence is fine, but \"dos mil millones\" is also fine"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico de portada de TERRA WORLD NEWS sobre los nuevos modelos de IA LFM3 de Liquid AI",
+    "kl": "Nuevo modelo"
+   }
+  },
   "liverpool-chelsea-ligapokal-elfmeterschiessen-fofana-2026-10-29-b08": {
    "L": {
     "body": [
@@ -2595,6 +2644,32 @@
     "img.alt": "Foto de archivo: Friedrich Merz durante su visita a Japón"
    }
   },
+  "microsoft-openai-10-milliarden-umsatz": {
+   "L": {
+    "body": [
+     "Microsoft ha cuantificado en su informe trimestral cuántos ingresos obtiene el grupo con OpenAI: de julio a septiembre, las relaciones comerciales con el desarrollador de ChatGPT aportaron 10.000 millones de dólares, incluidos los pagos de la participación en los ingresos. Así consta en una comunicación obligatoria presentada el miércoles ante el regulador bursátil estadounidense, de la que informó TechCrunch. Sobre unos ingresos totales de 92.300 millones de dólares, esto equivale a casi el once por ciento.",
+     "En todo el ejercicio 2026, Microsoft había facturado 24.100 millones de dólares con OpenAI; al ritmo actual serían unos 40.000 millones de dólares al año. El informe no desglosa cuánto corresponde a la participación en los ingresos y cuánto a servicios en la nube. Las cuentas por cobrar frente a OpenAI, es decir, los importes que OpenAI aún debe por operaciones anteriores, subieron a 7.200 millones de dólares a finales de septiembre, frente a los 6.000 millones de finales de junio.",
+     "Al mismo tiempo, la participación de Microsoft en OpenAI bajó de alrededor del 25 por ciento en junio al 24 por ciento en septiembre; tras la reestructuración de OpenAI en octubre de 2025 era de aproximadamente el 27 por ciento. Microsoft no dio ningún motivo para la dilución. Según un acuerdo de abril de 2026, OpenAI comparte sus ingresos con Microsoft todavía hasta 2030, aunque con un límite máximo, y puede trabajar también con proveedores de nube competidores. Ambas empresas compiten cada vez más por los mismos clientes."
+    ],
+    "d": "Casi el 11 por ciento de los ingresos trimestrales procede de negocios con el desarrollador de ChatGPT. Al mismo tiempo crecen las cuentas por cobrar, y la participación de Microsoft en OpenAI se reduce.",
+    "t": "10.000 millones de dólares en tres meses: lo que factura Microsoft con OpenAI"
+   },
+   "at": "2026-10-29T12:15Z",
+   "h": "51f6e8d571c4",
+   "rev": [
+    "'noch bis 2030' rendered as 'hasta 2030', losing 'noch' (still until 2030)",
+    "Headline length is fine; 'Nach einer Vereinbarung' rendered as 'Según un acuerdo' is acceptable"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: edificio 92 en la sede de Microsoft en Redmond (estado de Washington, EE. UU.)",
+    "kl": "Negocios"
+   }
+  },
   "modehandel-deutschland-kw43-herbstwetter-ifo": {
    "L": {
     "body": [
@@ -2729,6 +2804,28 @@
    ],
    "x": {
     "img.alt": "Gráfico del titular: OKTAGON 96 en Múnich: ocho luchadores alemanes; Ayari va a por el título"
+   }
+  },
+  "rai-institute-athenazero-haende": {
+   "L": {
+    "body": [
+     "El RAI Institute, con sede en Cambridge, en el estado estadounidense de Massachusetts, ha publicado un nuevo vídeo sobre su robot de investigación AthenaZero. El foco está en los sensores táctiles de las manos: en cada palma hay ocho y en cada yema tres sensores sensibles a la presión, que miden 200 veces por segundo. Según el artículo científico del equipo, detectan dónde se produce un contacto con una precisión de unos tres milímetros y una resolución de fuerza de aproximadamente 0,1 newton.",
+     "Cada mano tiene tres dedos que se mueven mediante finos cables de la fibra sintética Dyneema. Los motores no están en la mano, sino en el torso; la fuerza se transmite por cables de 1,8 metros de longitud. Eso mantiene los brazos ligeros y rápidos: los dedos se cierran en unos 80 milisegundos y sujetan objetos que van desde un huevo hasta un martillo.",
+     "AthenaZero es un robot fijo de dos brazos, no un humanoide que camina. En las pruebas lanzó una pelota de tenis a algo más de 30 metros por segundo y atrapó pelotas de béisbol de hasta unos 18 metros por segundo, aunque solo de forma fiable hasta unos 13 metros por segundo. Aún no hay datos sobre la durabilidad a largo plazo de los cables y no se ha anunciado ningún producto."
+    ],
+    "d": "Un nuevo vídeo del instituto de investigación estadounidense explica los sensores táctiles del robot de dos brazos AthenaZero. Sus dedos accionados por cables se cierran en unos 80 milisegundos.",
+    "t": "Dedos con tacto: el RAI Institute presenta manos robóticas que atrapan y lanzan pelotas"
+   },
+   "at": "2026-10-29T12:15Z",
+   "h": "639cb80cdb9a",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: mano robótica de cinco dedos en la Hannover Messe 2016 (Foto de archivo, no es AthenaZero)",
+    "kl": "Investigación"
    }
   },
   "ryan-garcia-6-februar-mayweather-lopez": {
