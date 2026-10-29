@@ -47,6 +47,32 @@
     "img.alt": "Gráfico de portada: Adesanya ha firmado: «Habrá sangre en la arena, y no será la mía»"
    }
   },
+  "alaska-dunleavy-ermittlung-peltola-2026-10-29-b1530": {
+   "L": {
+    "body": [
+     "A pocos días de las elecciones legislativas, el gobernador republicano de Alaska, Mike Dunleavy, ha ordenado una investigación contra el equipo de campaña de la candidata demócrata al Senado Mary Peltola. Lo informa la agencia AP; Dunleavy publicó la orden durante la noche en redes sociales. Según afirmó, el informe de The New York Times revela «nuevas pruebas inquietantes de un plan organizado para manipular las elecciones de Alaska mediante el reclutamiento de candidatos». Dijo que hacer que los votantes voten deliberadamente por otra persona afecta a «la integridad de nuestras elecciones». El informe de AP no precisa qué organismo llevará a cabo la investigación.",
+     "El trasfondo es la candidatura de Daniel J. Sullivan Jr., un maestro jubilado de Petersburg que tiene el mismo nombre que el actual senador republicano Dan Sullivan. Según The New York Times, el equipo de Peltola y un estratega demócrata habrían intentado incorporar candidatos a la carrera para dividir los votos de Sullivan. La autoridad electoral había calificado inicialmente la candidatura de engañosa, pero el Tribunal Supremo de Alaska la admitió. Sullivan Jr. niega todo contacto con el equipo de Peltola; según CBS, la campaña de ella afirmó que él no tiene nada que ver con ninguna de las dos campañas de Sullivan.",
+     "Peltola rechazó las acusaciones: «Es solo otra distracción», dijo en un acto en Soldotna. El presidente Donald Trump había dicho antes: «Creo que deberían ser procesados penalmente». El Departamento de Justicia ya ha presentado una demanda para impedir la certificación del resultado si el senador Sullivan pierde por la «confusión» de los votantes. Los demócratas niegan cualquier implicación. Se considera que la contienda podría decidir la mayoría en el Senado."
+    ],
+    "d": "Tras un informe sobre un segundo «Dan Sullivan» presuntamente reclutado, el gobernador republicano de Alaska hace investigar. Peltola habla de una «distracción»; Trump pide que sean procesados penalmente.",
+    "t": "Alaska: el gobernador Dunleavy ordena investigar la campaña de Peltola"
+   },
+   "at": "2026-10-29T14:44Z",
+   "h": "dea375e4fb59",
+   "rev": [
+    "Teaser: «Trump pide que sea procesada» narrows Trump's statement (\"sie sollten\" is plural, so not necessarily Peltola alone); changed to a neutral wording",
+    "Body: Trump's quote «deberían ser procesados penalmente» is fine, but the teaser is inconsistent with it",
+    "Teaser: «ordena investigar» repeats the verb of the headline; changed to «hace investigar» for correctness (lässt ermitteln)"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Mary Peltola y Mike Dunleavy (octubre de 2023)"
+   }
+  },
   "arum-malignaggi-fury-stoppt-joshua": {
    "L": {
     "body": [
@@ -154,6 +180,34 @@
    ],
    "x": {
     "img.alt": "La Cámara de Diputados de Berlín (foto de archivo)",
+    "kl": "Berlín"
+   }
+  },
+  "berlin-ferrum-schusswaffen-bilanz-2026-10-29-b1530": {
+   "L": {
+    "body": [
+     "La Policía de Berlín mantiene su unidad especial «Ferrum» contra la violencia con armas de fuego. La unidad, creada el 13 de noviembre de 2025 en la Oficina Estatal de Investigación Criminal, estaba prevista inicialmente solo para unos meses; ahora, según una portavoz policial, trabajará «hasta nuevo aviso», informa dpa. Cuenta con unos 110 agentes.",
+     "Hasta el 23 de octubre, «Ferrum» abrió más de 720 procedimientos de investigación, 483 de ellos con relación directa o indirecta con la criminalidad con armas de fuego. Casi 290 personas fueron detenidas, se dictaron 80 órdenes de detención y 51 sospechosos están en prisión preventiva. En más de 300 registros se incautaron 73 armas de fuego y unos 3.400 cartuchos; además, los investigadores controlaron 4.120 vehículos y 886 locales.",
+     "Uno de los focos son las extorsiones. En el primer semestre de 2026, la policía registró 585 delitos con uso de armas de fuego, entre ellos 261 disparos. En todo 2025 fueron 1.119 casos, un 68 por ciento más que en 2024."
+    ],
+    "d": "Desde noviembre de 2025 la unidad del LKA ha abierto más de 720 procedimientos y detenido a casi 290 personas. Seguirá activa debido a la persistente violencia con armas de fuego.",
+    "t": "Disparos en Berlín: la unidad especial «Ferrum» continúa; 73 armas de fuego incautadas"
+   },
+   "at": "2026-10-29T14:44Z",
+   "h": "2cb01192ea3b",
+   "rev": [
+    "\"registr\" flagged as untranslated: it is only part of the Spanish verb \"registró\", which is correct, so no change needed",
+    "\"armas reales\" is an unnatural rendering of \"scharfe Waffen\"; \"armas de fuego reales\" in the body is also awkward. Changed to \"armas de fuego\" and \"munición real\" where suitable",
+    "\"cartuchos de munición\" is redundant for \"Schuss Munition\"",
+    "\"Durchsuchungen\" translated as \"registros\" is acceptable (registros domiciliarios), but \"registros\" is clearer as \"registros\" with context; left unchanged"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: vehículo de la Policía de Berlín",
     "kl": "Berlín"
    }
   },
@@ -521,6 +575,28 @@
    ],
    "x": {
     "img.alt": "Imagen simbólica: Lyceum Theatre de Sheffield (Foto de archivo)"
+   }
+  },
+  "caltech-wiseman-jpl-vizedirektor": {
+   "L": {
+    "body": [
+     "El Instituto de Tecnología de California (Caltech) ha nombrado al astronauta de la NASA Reid Wiseman vicepresidente asociado y subdirector del Jet Propulsion Laboratory (JPL). Caltech gestiona el JPL en Pasadena para la NASA; el laboratorio está especializado en robótica y en la exploración del espacio profundo. Wiseman asumirá el cargo el 30 de noviembre de 2026. El nombramiento se anunció el 28 de octubre en el acto de Caltech «Brave New Space Age», donde también se mostró el mensaje en vídeo en el que Wiseman acepta el puesto.",
+     "Según Caltech, Wiseman será responsable, entre otras tareas, de la dirección estratégica y del desarrollo del funcionamiento del laboratorio, se encargará de la ejecución de las misiones del JPL y actuará como principal interlocutor del JPL para los programas de seguridad nacional. «Qué momento tan extraordinario de mi carrera para incorporarme a este equipo», dijo Wiseman, según el JPL.",
+     "El capitán retirado de la Marina de EE. UU. y antiguo piloto de pruebas pertenece desde 2009 al cuerpo de astronautas de la NASA y fue su astronauta jefe de diciembre de 2020 a noviembre de 2022. En 2014 vivió 165 días en la Estación Espacial Internacional. Como comandante de Artemis II voló alrededor de la Luna con Victor Glover, Christina Koch y Jeremy Hansen; según el JPL, la tripulación recorrió unos 1,1 millones de kilómetros y viajó más lejos que ningún ser humano antes."
+    ],
+    "d": "Reid Wiseman, comandante del vuelo lunar Artemis II, será desde el 30 de noviembre subdirector del laboratorio JPL de la NASA y vicepresidente asociado de Caltech. Un vídeo muestra su aceptación del cargo.",
+    "t": "Del viaje lunar al laboratorio: Reid Wiseman, de Artemis II, subdirector del JPL"
+   },
+   "at": "2026-10-29T14:44Z",
+   "h": "30b4e30efd4f",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: el astronauta de la NASA Reid Wiseman, retrato oficial de la tripulación de Artemis II",
+    "kl": "Astronáutica"
    }
   },
   "calvin-klein-teaser-unterwaesche-jude-bellingham": {
@@ -1514,6 +1590,175 @@
     "kl": "Fórmula 1"
    }
   },
+  "film-allen-trailer-netflix-ludo": {
+   "L": {
+    "body": [
+     "Netflix ha publicado el primer tráiler oficial de «Allen». Es la primera película de acción real producida en Australia por Ludo Studio, de Brisbane, el estudio que está detrás de la serie de animación «Bluey», un éxito mundial. T.J. Power interpreta a Petey, quien de niño perdió en Queensland a su mejor amigo: el extraterrestre Allen, que desapareció sin despedirse. Veinte años después, Allen regresa con un secreto que podría cambiar el mundo. Petey tiene que madurar para ayudar.",
+     "Dirigen Daley Pearson, autor de la historia, y Jeffrey Walker; el guion lo escribió Pearson junto con Sophie Miller. El reparto incluye además a Charlotte Nicdao, Josh Helman, Emily Barclay y Benedict Hardie. Se rodó en Brisbane y en la Gold Coast, con el apoyo de la agencia de fomento Screen Queensland. Pearson describe «Allen» como una película sobre el amor, la familia y los momentos de la infancia, pensada para que las familias la vean juntas.",
+     "«Allen» puede verse en todo el mundo en Netflix a partir del 12 de noviembre de 2026."
+    ],
+    "d": "Un hombre de Queensland se reencuentra 20 años después con su amigo extraterrestre de la infancia. La película familiar australiana se estrena en todo el mundo en Netflix el 12 de noviembre.",
+    "t": "«Allen»: tráiler de Netflix de la primera película de acción real del estudio de «Bluey»"
+   },
+   "at": "2026-10-29T14:44Z",
+   "h": "b4e83cbfc099",
+   "rev": [
+    "«producida en el país» es ambiguo; el original dice «vor Ort produzierte» (producida en el lugar, es decir, en Australia)",
+    "«exitosa serie de animación» pierde «weltweit erfolgreich» (de éxito mundial)"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico de portada de TWN sobre la película de Netflix «Allen»",
+    "rv.score": "Tráiler"
+   }
+  },
+  "film-behemoth-trailer-pascal-gilroy": {
+   "L": {
+    "body": [
+     "Searchlight Pictures ha publicado el tráiler completo de «Behemoth!». La película está escrita y dirigida por Tony Gilroy, creador de la serie de «Star Wars» «Andor». Pedro Pascal interpreta al virtuoso chelista Alex Serian, que regresa a Los Ángeles tras 20 años de gira y trabaja allí como músico de estudio en bandas sonoras. Cada vez que toca la introducción de otra película —ficticia—, los flashbacks muestran por qué se marchó en su día y qué lo hizo volver.",
+     "Junto a Pascal actúan, entre otros, Olivia Wilde, Will Arnett, Eva Victor, Hank Azaria y JoBeth Williams. La música es obra de nueve compositores que actúan como «The Behemoth! Collective», entre ellos Michael Giacchino, James Newton Howard y Alan Silvestri. La película celebró su estreno en octubre en el Festival de Cine de Nueva York.",
+     "En Estados Unidos, «Behemoth!» llega a los cines el 4 de diciembre de 2026. En Alemania, Walt Disney estrena la película con el título «Behemoth! Stücke eines Lebens» ya el 3 de diciembre; su duración es de 127 minutos."
+    ],
+    "d": "Searchlight presenta el tráiler completo del drama musical de Tony Gilroy. En Alemania, la película se estrena en cines el 3 de diciembre como «Behemoth! Stücke eines Lebens».",
+    "t": "«Behemoth!»: Pedro Pascal vuelve a Los Ángeles como chelista en el nuevo tráiler"
+   },
+   "at": "2026-10-29T14:44Z",
+   "h": "ece50dc76ae0",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Pedro Pascal, protagonista de «Behemoth!», en el festival South by Southwest en 2025",
+    "rv.score": "Tráiler"
+   }
+  },
+  "film-chicago-gold-hugo-getraeumte-abenteuer": {
+   "L": {
+    "body": [
+     "«La aventura soñada» («Das geträumte Abenteuer»), de Valeska Grisebach, ha ganado el Hugo de Oro a la mejor película en el 62.º Festival Internacional de Cine de Chicago. La búlgara Yana Radeva recibió además el Hugo de Plata a la mejor interpretación protagonista. El jurado afirmó que la película lleva el wéstern al extremo más oriental de Europa y describió a la protagonista como una mujer cuya fuerza silenciosa e independencia se convierten en un acto de resistencia en un mundo dominado por hombres.",
+     "La coproducción de Alemania, Francia, Bulgaria y Austria transcurre en la zona fronteriza entre Bulgaria, Grecia y Turquía y, según BTA, se rodó en el verano de 2024 en los alrededores de Svilengrad, exclusivamente con actores aficionados búlgaros. Tras «Western» (2017), es la segunda película de Grisebach en Bulgaria. En Cannes la película ganó el Premio del Jurado; Bulgaria la presenta a la carrera por el Óscar a la mejor película internacional.",
+     "Otros Hugos de Plata fueron para Marine Atlan y el reparto de «La Gradiva» (dirección y reparto) y para «Everytime», de Sandra Wollner (Premio del Jurado). El festival se celebró del 14 al 25 de octubre y exhibió 113 largometrajes y 57 cortometrajes de unos 60 países."
+    ],
+    "d": "La coproducción germano-búlgara de Valeska Grisebach es la mejor película del 62.º Festival de Cine de Chicago. La búlgara Yana Radeva gana el Hugo de Plata a la mejor interpretación protagonista.",
+    "t": "Hugo de Oro en Chicago para «La aventura soñada»; premio también para Yana Radeva"
+   },
+   "at": "2026-10-29T14:44Z",
+   "h": "f36342151c74",
+   "rev": [
+    "Film title left in German; the Spanish release title is 'La aventura soñada' (translated title needed, original may be kept in parentheses)",
+    "Same untranslated title in the image alt text",
+    "Jury statement is indirect speech; 'afirmó que ... lleva' is acceptable attribution, kept",
+    "'Bulgaria la presenta a la carrera' is unnatural; should be 'presenta a la carrera' only with 'para competir'"
+   ],
+   "rev_dbg": [
+    4,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Yana Radeva y Valeska Grisebach con el Premio del Jurado por «La aventura soñada» en Cannes 2026"
+   }
+  },
+  "film-molepeople-ben-wheatley-stanfield": {
+   "L": {
+    "body": [
+     "La película de terror «Molepeople» registra un doble cambio: el director británico Ben Wheatley («Kill List», «High-Rise», «Meg 2: La fosa») asume la dirección en lugar de Rob Savage («The Boogeyman»), que dejó el proyecto por conflictos de agenda. Al mismo tiempo, LaKeith Stanfield, presentado en octubre como protagonista, abandona la película; según las informaciones, no se indica el motivo de su salida.",
+     "En el filme, con guion de Nathan Elston, un hombre desciende a túneles abandonados bajo Nueva York y descubre allí una inquietante sociedad que vive bajo las calles. Lo producen Jason Blum, J.D. Lifshitz, Raphael Margules y James Harris para Blumhouse Atomic Monster y Paramount Primal; Paramount se encarga de la distribución mundial.",
+     "Se mantiene el estreno en cines de EE. UU. el 27 de agosto de 2027. Según Variety, citado por Dark Horizons, el rodaje comenzaría a finales de noviembre o principios de diciembre en Reino Unido."
+    ],
+    "d": "Rob Savage deja el proyecto de terror de Paramount y Blumhouse por conflictos de agenda, y el protagonista LaKeith Stanfield también se va. El estreno en EE. UU. se mantiene el 27 de agosto de 2027.",
+    "t": "«Molepeople»: Ben Wheatley asume la dirección y LaKeith Stanfield abandona el filme"
+   },
+   "at": "2026-10-29T14:44Z",
+   "h": "b63a82d97a09",
+   "rev": [
+    "Film title wrongly rendered: «Black Summer: Meg 2: La fosa» is incorrect; the German names «Meg 2: Die Tiefe», which in Spanish is «Meg 2: La fosa»",
+    "«Se mantiene el estreno... el 27 de agosto» is fine; no change needed"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: el director Ben Wheatley, que ahora dirige «Molepeople»"
+   }
+  },
+  "film-ramayana-finaler-trailer-kinostart": {
+   "L": {
+    "body": [
+     "Sony Pictures Germany ha publicado, poco antes del estreno, un nuevo tráiler de «Ramayana: Rise of a Legend». Nitesh Tiwari lleva al cine la antigua epopeya india sobre el príncipe Rama (Ranbir Kapoor), cuya esposa Sita (Sai Pallavi) es secuestrada por el rey demonio Ravana (Yash). El productor es Namit Malhotra y la música es de Hans Zimmer y A.R. Rahman. El proyecto está considerado la película india más cara.",
+     "Sony se encarga de la distribución internacional. Según el servicio especializado Sacnilk, citado por Outlook India, la película se proyectaría en todo el mundo en más de 59.000 pantallas, en casi 50 versiones lingüísticas y también en formato IMAX. La segunda parte está anunciada, por ahora, para la festividad de Diwali de 2027.",
+     "En Alemania, la primera parte se estrena en los cines el 5 de noviembre de 2026; Filmstarts indica una duración de tres horas y 15 minutos."
+    ],
+    "d": "La epopeya mitológica india con Ranbir Kapoor, Yash y Sai Pallavi se estrena el 5 de noviembre en Alemania. La primera parte dura tres horas y 15 minutos.",
+    "t": "«Ramayana»: Sony presenta un nuevo tráiler en alemán poco antes del estreno"
+   },
+   "at": "2026-10-29T14:44Z",
+   "h": "793612b67ebb",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Ranbir Kapoor (Rama) y Sai Pallavi (Sita) en septiembre de 2026 en un acto de «Ramayana»",
+    "rv.score": "Tráiler"
+   }
+  },
+  "film-smile-3-david-bruckner-regie": {
+   "L": {
+    "body": [
+     "Paramount hace oficial «Smile 3»: la dirección corre a cargo de David Bruckner, conocido por «The Ritual», «The Night House» y la nueva versión de «Hellraiser» de 2022. El guion lo escribe Nick Antosca («The Act», «Antlers») a partir de un esquema de Parker Finn. Lo adelantó Variety. Finn, que escribió y dirigió las dos primeras películas, continúa como productor junto con Temple Hill.",
+     "Finn dirigirá en cambio para Paramount un remake de la película de terror de culto «Possession», de 1981, con Callum Turner y Margaret Qualley; su estreno está previsto para junio de 2027. Para «Smile 3» no hay aún reparto ni fecha de estreno. Al igual que la secuela, la nueva entrega contará, según lo previsto, una historia independiente con nuevos protagonistas.",
+     "Según Variety, «Smile» (2022) recaudó 217 millones de dólares en todo el mundo, y «Smile 2» (2024), con un presupuesto de 28 millones de dólares, alcanzó los 139 millones. Juntas, ambas películas han recaudado más de 350 millones de dólares."
+    ],
+    "d": "Paramount ha puesto oficialmente en marcha la tercera entrega de la saga de terror. Su creador, Parker Finn, seguirá como productor y dirigirá en su lugar un remake de «Possession».",
+    "t": "«Smile 3» sigue adelante: David Bruckner, director de «Hellraiser», releva a Parker Finn"
+   },
+   "at": "2026-10-29T14:44Z",
+   "h": "85d319ad5dbd",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: el director David Bruckner, que dirigirá «Smile 3»"
+   }
+  },
+  "fiorentina-atalanta-curva-fiesole-2026-10-29-b1530": {
+   "L": {
+    "body": [
+     "Con el partido Fiorentina-Atalanta de Bérgamo (20:45) concluye el jueves por la noche la jornada de la Serie A; antes, a las 18:30, se enfrentan Frosinone y Lecce. La Fiorentina ha perdido los tres últimos partidos, el más reciente en el campo del Inter de Milán. El entrenador Paolo Vanoli no se pronunció públicamente el día anterior.",
+     "Los aficionados de la Curva Fiesole pidieron apoyo, pero al mismo tiempo advirtieron al equipo: «Cien años de historia merecen respeto, garra y gente que salga del campo sin aliento», señalaron en su comunicado. Según los aficionados, el estadio Artemio Franchi debería convertirse el jueves en «un infierno». A Vanoli le faltan en defensa Nikola Pongracic, lesionado en el muslo ante el Inter, y, previsiblemente, Luca Ranieri por problemas en el pie.",
+     "El Atalanta del entrenador Maurizio Sarri no pasó en su último partido de un 4-4 contra el Frosinone. Tras dos meses y medio de pausa, Kamaldeen Sulemana figura por primera vez esta temporada en la convocatoria; se había lesionado la rodilla el 8 de agosto en el amistoso ante el Schalke 04. También Giorgio Scalvini ha vuelto. No están, entre otros, Isak Hien, Franck Kessié, Gianluca Scamacca ni Giacomo Raspadori."
+    ],
+    "d": "Tras tres derrotas, la Fiorentina recibe esta noche (20:45) al Atalanta de Sarri. La Curva Fiesole advierte: cien años de historia del club merecen respeto.",
+    "t": "Tres derrotas seguidas: los ultras de la Fiorentina presionan al equipo antes del Atalanta"
+   },
+   "at": "2026-10-29T14:44Z",
+   "h": "8abd363f5aa9",
+   "rev": [
+    "\"voraussichtlich Luca Ranieri\" rendered as \"según lo previsto\", which is unnatural and could be misread; should be \"previsiblemente\"",
+    "\"Atalanta Bergamo\" left as in the German; in Spanish it is \"Atalanta de Bérgamo\"",
+    "\"Inter de Milán\" is acceptable; no change needed"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Stadio Artemio Franchi en Florencia"
+   }
+  },
   "fossil-signature-cs-1-swiss-made-case-study-houses": {
    "L": {
     "body": [
@@ -1585,6 +1830,27 @@
    ],
    "x": {
     "img.alt": "El Principality Stadium de Cardiff, sede del Fury-Joshua (Foto de archivo)"
+   }
+  },
+  "genoa-juventus-de-rossi-spalletti-2026-10-29": {
+   "L": {
+    "body": [
+     "La Juventus sigue inmersa en la crisis en la Serie A. El equipo de Luciano Spalletti perdió el miércoles por la noche 2-0 en el campo del Genoa. Kingsley Ehizibue marcó en el minuto 12 tras un centro de Tommaso Baldanzi, y en el minuto 28 el propio Baldanzi amplió la ventaja. Para el Genoa y su entrenador Daniele De Rossi, que jugó en su día a las órdenes de Spalletti en la AS Roma, fue la segunda victoria consecutiva.",
+     "La Juventus no tuvo buenas ocasiones hasta tarde: Pierre Kalulu falló desde muy cerca poco después del descanso y Teun Koopmeiners estrelló un tiro libre en el larguero en el tiempo añadido. Fue la tercera derrota en nueve partidos de liga; la Juventus suma 14 puntos.",
+     "«Tenemos que pedir perdón sobre todo a los aficionados por esta actuación», dijo Spalletti a DAZN. Aun así, se sigue viendo como el entrenador adecuado: «Creo que sigo siendo el hombre adecuado para levantar de nuevo a este grupo». El domingo la Juventus visita al Nápoles."
+    ],
+    "d": "La Juventus perdió 2-0 en el campo del Genoa en la Serie A. Ehizibue y Baldanzi marcaron en la primera media hora. El entrenador Luciano Spalletti pidió perdón a los aficionados después.",
+    "t": "De Rossi supera a su maestro Spalletti: Genoa vence 2-0 a la Juve y pide perdón"
+   },
+   "at": "2026-10-29T14:44Z",
+   "h": "734a21c10137",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "El Stadio Luigi Ferraris de Génova (Foto de archivo)"
    }
   },
   "google-gemini-4-carbon-cybersicherheit-2026-10-29-b08": {
@@ -2163,6 +2429,31 @@
     "img.alt": "Vincent Kompany en diciembre de 2023 (Foto de archivo)"
    }
   },
+  "kovac-bvb-bayern-klassiker-karetsas-2026-10-29-b1530": {
+   "L": {
+    "body": [
+     "El Borussia Dortmund afronta igualado a puntos con el líder, el FC Bayern, el gran partido de la Bundesliga del sábado (18:30) en Múnich. «Después de mucho tiempo tenemos la posibilidad de viajar a Múnich con los mismos puntos», dijo el entrenador del BVB, Niko Kovac, el jueves en rueda de prensa. «Eso hace la cosa más emocionante, pero no más fácil».",
+     "Kovac calificó al rival de «lo máximo, no solo en Alemania, sino en Europa». Según dijo, su equipo tiene que «jugar 90 minutos al más alto nivel». El entrenador añadió: «Sabemos que el listón está muy alto. Pero somos el BVB».",
+     "Está en el aire la participación del fichaje de verano Kosta Karetsas, que se lesionó un ligamento a mediados de octubre ante el Union Berlin. El griego entrenó parcialmente con el equipo el jueves. Tras el entrenamiento del viernes se decidirá «si está listo para Múnich o no», según Kovac. Afirmó que todos los jugadores que participaron en la victoria copera contra el Werder Bremen (3-2) están en forma."
+    ],
+    "d": "El Dortmund, segundo y con los mismos puntos, visita al líder Bayern. Si el fichaje Karetsas podrá jugar el sábado se decidirá solo tras el entrenamiento del viernes.",
+    "t": "«Pero somos el BVB»: Kovac viaja a Múnich igualado a puntos para el Clásico"
+   },
+   "at": "2026-10-29T14:44Z",
+   "h": "32240bfe0baa",
+   "rev": [
+    "«Pokalsieg gegen Werder Bremen» se tradujo como «ganaron la copa al Werder Bremen», lo que sugiere que ganaron el título; fue una victoria en la Copa (ronda), no necesariamente el título.",
+    "«Bandverletzung» (lesión de ligamentos) y la ubicación «ante el Union Berlin» son correctas; «Trauben hoch hängen» como «listón alto» es aceptable."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Niko Kovač"
+   }
+  },
   "kultur-desertfest-berlin-2027-bandwelle-2026-10-29": {
    "L": {
     "body": [
@@ -2289,6 +2580,27 @@
    ],
    "x": {
     "img.alt": "Foto de archivo: U2 en el Stadio Olimpico de Roma, 2010"
+   }
+  },
+  "lagarde-ruecktritt-klingbeil-ezb-2026-10-29-b1530": {
+   "L": {
+    "body": [
+     "La presidenta del BCE, Christine Lagarde, dejará su cargo el 7 de febrero de 2027, algo más de ocho meses antes del final ordinario de su mandato a finales de octubre de 2027. Así lo comunicó el Banco Central Europeo poco antes de su decisión sobre los tipos de interés. El presidente del Consejo Europeo, António Costa, anunció que iniciará el proceso de sucesión «hoy mismo».",
+     "El ministro federal de Finanzas, Lars Klingbeil (SPD), declaró: «Deliberaremos juntos en la zona del euro sobre la futura dirección del BCE y decidiremos pronto». Alemania, afirmó, «aportará su peso como mayor Estado de la zona del euro». Según dijo, mantiene un contacto estrecho al respecto con el canciller Friedrich Merz (CDU) y con homólogos europeos.",
+     "Según ZDFheute y dpa, los favoritos son el antiguo gobernador del banco central neerlandés Klaas Knot y el español Pablo Hernández de Cos, director del BPI. También suena el nombre del presidente del Bundesbank, Joachim Nagel. Sin embargo, se considera difícil imponer a un alemán, ya que una alemana, Ursula von der Leyen, ya dirige la Comisión Europea."
+    ],
+    "d": "La presidenta del BCE dejará el cargo el 7 de febrero. El ministro de Finanzas, Klingbeil, anunció que Alemania «aportará su peso como mayor Estado de la zona del euro».",
+    "t": "Lagarde se va antes de tiempo – Klingbeil: Alemania quiere opinar sobre la cúpula del BCE"
+   },
+   "at": "2026-10-29T14:44Z",
+   "h": "8c8cb3fec978",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: la presidenta del BCE, Christine Lagarde"
    }
   },
   "leben-demenz-zusaetzliches-schuljahr-studie-2026-10-29": {
@@ -2844,6 +3156,27 @@
     "kl": "Negocios"
    }
   },
+  "mit-soft-roboter-duenndarm": {
+   "L": {
+    "body": [
+     "El intestino delgado mide más de seis metros de largo y solo unos dos centímetros y medio de grosor, por lo que resulta de difícil acceso para los endoscopios convencionales. Un equipo en torno a Giovanni Traverso, profesor de Ingeniería Mecánica del Massachusetts Institute of Technology (MIT) y gastroenterólogo del Brigham and Women's Hospital, ha desarrollado para ello un robot blando en forma de tubo. El trabajo se publicó en la revista especializada «Science Robotics» (DOI 10.1126/scirobotics.adt2230) y el MIT lo presentó el 28 de octubre con un vídeo.",
+     "La locomoción está inspirada en las serpientes: cada elemento de propulsión tiene cuatro cámaras de aire que pueden inflarse en distintas combinaciones, de modo que el tubo se estira o se curva en cualquier dirección. Unos balones en la cabeza y en el extremo se inflan alternativamente y empujan el robot hacia delante. Unas envolturas con patrón de kirigami, una técnica de corte del papel, permanecen planas hasta que un balón las dilata; entonces se despliegan diminutas puntas que se agarran a la pared intestinal. A bordo hay una cámara, un cabezal pulverizador de medicamentos y pinzas para tomar muestras de tejido o extirpar pólipos.",
+     "En pruebas con animales, el robot recorrió, según el MIT, unos dos metros del intestino delgado; durante ellas se mostraron la cámara, el cabezal pulverizador y las pinzas. Todavía no se ha probado en personas. «Al ajustar la cantidad de aire en estas cámaras, se puede ajustar la dirección en la que se mueve el robot», explica Traverso. A continuación, el equipo quiere mejorar la navegación y probar otros usos en el intestino delgado."
+    ],
+    "d": "Ingenieros del MIT han construido un endoscopio robótico blando que se mueve por el intestino delgado, de difícil acceso, toma muestras de tejido y pulveriza medicamentos. Hasta ahora solo se ha probado en animales.",
+    "t": "Un robot repta como una serpiente por el intestino delgado: vídeo del MIT"
+   },
+   "at": "2026-10-29T14:44Z",
+   "h": "62d3f0a6c062",
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: edificio de la cúpula del Massachusetts Institute of Technology (MIT), visto desde Killian Court"
+   }
+  },
   "modehandel-deutschland-kw43-herbstwetter-ifo": {
    "L": {
     "body": [
@@ -3146,6 +3479,79 @@
     "img.alt": "Foto de archivo: sede de ServiceNow"
    }
   },
+  "steinmeier-peking-rede-2026-10-29-b1530": {
+   "L": {
+    "body": [
+     "El presidente federal alemán, Frank-Walter Steinmeier, instó a China, durante su visita de Estado, a fortalecer junto con otros el orden internacional basado en normas. El motivo del discurso en la Universidad de Pekín fue la concesión de una cátedra honoraria. «Se cierne la ausencia de reglas. En ello veo un gran peligro para todos nosotros», dijo Steinmeier, según dpa.",
+     "Se refirió a las dificultades de acceso al mercado chino para las empresas occidentales y a las exportaciones chinas subvencionadas por el Estado hacia Europa. «No nos preocupa que China ascienda. Pero sí observamos cómo asciende China», afirmó. Según dijo, Europa no quiere desvincularse de China, pero sí una competencia basada únicamente en reglas justas y uniformes.",
+     "En relación con la guerra de Ucrania, Steinmeier señaló que China es miembro permanente del Consejo de Seguridad de la ONU y que mantiene estrechas relaciones con Rusia: «Trabajemos, pues, juntos para que Rusia ponga fin a sus ataques». Como tareas comunes mencionó la protección del clima y el manejo de la inteligencia artificial."
+    ],
+    "d": "En su discurso en la Universidad de Pekín, el presidente federal pidió un comercio justo y rogó a China que influya en Rusia en la guerra de Ucrania.",
+    "t": "Steinmeier en Pekín: «Con el tamaño y el poder llega una gran responsabilidad»"
+   },
+   "at": "2026-10-29T14:44Z",
+   "h": "780cd003594f",
+   "rev": [
+    "Frase sobre Europa: «no quiere desvincularse de China, sino una competencia…» es gramaticalmente incorrecta y cambia la relación lógica (German: Europa quiere competencia, pero solo con reglas justas)",
+    "Cita «Amenaza la ausencia de reglas» poco natural; mejor «Se cierne el riesgo de una ausencia de reglas»."
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: el presidente federal Frank-Walter Steinmeier"
+   }
+  },
+  "stimmenkauf-warna-demerdschiew-2026-10-29-b1530": {
+   "L": {
+    "body": [
+     "La policía de Varna ha detenido a dos hombres de 27 años que presuntamente compraron votos en una aldea del municipio de Dolni Chiflik. Según BNT, habrían citado a la gente junto a su coche y recogido sus documentos de identidad a cambio de 50 euros cada uno. El aviso se recibió el miércoles.",
+     "Al registrar el vehículo, agentes de la policía económica encontraron 16 teléfonos móviles, un portátil, seis documentos de identidad y billetes de 50 euros. Se abrió una investigación contra los dos, que fueron retenidos hasta 24 horas. Para ambos rige la presunción de inocencia.",
+     "El ministro del Interior, Ivan Demerdzhiev, dijo el jueves tras una ceremonia de graduación de la Academia del Ministerio del Interior que en los últimos días llegan cada vez más indicios de compra de votos, sobre todo a favor de una de las dos candidaturas, que no nombró. Según dijo, la primera vuelta transcurrió con extrema tranquilidad. «Los votos no pueden buscarse ni recogerse de esta manera», afirmó, según News.bg. Añadió que, donde haya información, se actuará. En la segunda vuelta, el 1 de noviembre, se enfrentan Iliana Yotova y Andrey Gyurov."
+    ],
+    "d": "Dos hombres habrían comprado votos cerca de Varna a 50 euros por documento de identidad. El ministro del Interior, Demerdzhiev, dice que aumentan los indicios antes de la segunda vuelta.",
+    "t": "Compra de votos antes de la segunda vuelta: dos detenidos cerca de Varna"
+   },
+   "at": "2026-10-29T14:44Z",
+   "h": "bccce56c1f36",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico de portada: compra de votos antes de la segunda vuelta en Bulgaria"
+   }
+  },
+  "stmicroelectronics-q3-ki-rechenzentren-2026-10-29-b1530": {
+   "L": {
+    "body": [
+     "El fabricante europeo de semiconductores STMicroelectronics facturó 3.760 millones de dólares en el tercer trimestre, un 17,9 % más que un año antes. Según el comunicado del jueves, el beneficio operativo se duplicó hasta los 367 millones de dólares y el beneficio neto fue de 291 millones. El margen bruto subió 4,1 puntos porcentuales, hasta el 37,3 %. En el beneficio ajustado por acción (0,37 dólares), ST quedó según Investing.com ligeramente por debajo de las expectativas de los analistas.",
+     "Para el cuarto trimestre, la empresa prevé de media unos ingresos de 4.150 millones de dólares y un margen bruto del 39 %, y para el conjunto del año unos 14.500 millones. El consejero delegado, Jean-Marc Chery, cita como motores del crecimiento los centros de datos de IA y la comunicación con satélites en órbita terrestre baja. «La demanda sigue estando claramente por encima de la oferta», afirmó Chery.",
+     "Según la conferencia telefónica, ST facturará este año unos 1.300 millones de dólares con centros de datos de IA y en 2027 la cifra debería ser «claramente superior a dos mil millones». El directivo Rémy El-Ouazzane cree que el próximo año el crecimiento estará limitado más por la capacidad que por la demanda; la capacidad de fotónica de silicio debería cuadruplicarse."
+    ],
+    "d": "El fabricante europeo de chips eleva sus ingresos a 3.760 millones de dólares y prevé 4.150 millones para el cuarto trimestre. Su negocio de IA debería superar con claridad los 2.000 millones en 2027.",
+    "t": "Centros de datos de IA y satélites: STMicro crece un 18 % y la demanda supera la oferta"
+   },
+   "at": "2026-10-29T14:44Z",
+   "flag": [
+    "Zahlen fehlen oder weichen ab: 15, 76"
+   ],
+   "h": "63785e41666e",
+   "rev": [
+    "Quote «muy superior a dos mil millones» is not a faithful rendering of „deutlich über zwei Milliarden“; adjusted to «claramente por encima de los dos mil millones» (Spanish convention would also use 2"
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico de portada: resultados trimestrales de STMicroelectronics"
+   }
+  },
   "stygian-outer-gods-test": {
    "L": {
     "body": [
@@ -3252,6 +3658,32 @@
    "x": {
     "img.alt": "Elena Rybakina en el DC Open 2025 en Washington (Foto de archivo)",
     "kl": "Tenis"
+   }
+  },
+  "tum-quantentechnologie-closeup": {
+   "L": {
+    "body": [
+     "La Universidad Técnica de Múnich (TUM) publicó el 29 de octubre un nuevo episodio de su serie de vídeos «close-up». En él, la doctoranda Nina visita el Munich Center for Quantum Science and Technology (MCQST). Según la descripción del vídeo, los investigadores e investigadoras investigan allí los fundamentos de sistemas cuánticos complejos y sientan así las bases de la tecnología cuántica.",
+     "Según la TUM, el objetivo del clúster es impulsar la ciencia de la información cuántica: mediante el dominio específico del entrelazamiento, la construcción de sistemas cuánticos complejos de muchas partículas y su traslación a aplicaciones, desde simuladores y sensores cuánticos hasta nuevos materiales cuánticos.",
+     "El MCQST es un clúster de excelencia conjunto de la Ludwig-Maximilians-Universität (LMU) y la TUM; también son socios el Instituto Max Planck de Óptica Cuántica, el Instituto Walther Meißner y el Deutsches Museum. En mayo de 2025 el clúster fue prorrogado siete años en la Estrategia de Excelencia del Estado federal y los estados federados; la segunda fase de financiación de la Fundación Alemana de Investigación (DFG) está en marcha desde 2026. Según el Instituto Max Planck, entre los temas de investigación figuran la criptografía cuántica, los sensores cuánticos y las redes cuánticas."
+    ],
+    "d": "En un nuevo episodio de la serie «close-up», una doctoranda de la TU Múnich visita el clúster de excelencia cuántico MCQST, donde se sientan las bases de simuladores y sensores cuánticos y nuevos materiales.",
+    "t": "Cómo nace la tecnología cuántica: un vídeo de la TUM recorre el clúster MCQST de Múnich"
+   },
+   "at": "2026-10-29T14:44Z",
+   "h": "e8a2e44f09c8",
+   "rev": [
+    "Der Name „Max-Planck-Institut für Quantenoptik“ ist im Entwurf unübersetzt geblieben; im Spanischen ist „Instituto Max Planck de Óptica Cuántica“ üblich.",
+    "„Deutsches Museum“ wird im Spanischen üblicherweise als „Museo Alemán“ wiedergegeben.",
+    "„Wissenschaftlerinnen und Wissenschaftler“ wurde zu „los científicos“ verkürzt; das geschlechtergerechte „investigadoras e investigadores“ wäre präziser."
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: centro de investigación de la TU Múnich en Garching, vista desde el Institute for Advanced Study"
    }
   },
   "ufc-336-prates-trainer-morales-runde-drei": {
