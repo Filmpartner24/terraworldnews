@@ -617,6 +617,35 @@
     "rv.score": "Noisy Pixel 7,5/10 · Games Asylum 6/10"
    }
   },
+  "crowdstrike-vapor-panda-deepseek": {
+   "L": {
+    "body": [
+     "Un grupo de hackers atribuido a China ha empleado por primera vez agentes de IA en una campaña de espionaje mundial, según las observaciones de CrowdStrike. Así lo informó el jueves la empresa de seguridad estadounidense CrowdStrike. El grupo, al que CrowdStrike llama VAPOR PANDA, utilizó, según la empresa, el sistema de agentes ARTEX: un agente principal dirige agentes de planificación y de trabajo, que se encargan de todo, desde el primer acceso y el reconocimiento de equipos hasta la propagación en la red. Como modelo de lenguaje se empleó sobre todo el chino DeepSeek, complementado por un segundo modelo comercial que CrowdStrike no pudo determinar con certeza.",
+     "A partir del 17 de octubre, el grupo atacó en once días a más de 200 organizaciones en al menos 14 países, entre ellas ministerios de Asuntos Exteriores de América Latina, Europa, Asia y Oriente Medio, así como empresas estadounidenses de los sectores de semiconductores, defensa, farmacia, energía nuclear y finanzas. En nueve organizaciones, CrowdStrike confirmó que los atacantes habían penetrado y seguían avanzando, entre ellas proveedores de telecomunicaciones en EE. UU., Bélgica y Filipinas, así como un ministerio del Interior en Oriente Medio. En una sola intrusión, los agentes de planificación procesaron unos 1.400 millones de tokens de entrada.",
+     "Los atacantes aprovecharon, entre otras cosas, servicios mal protegidos y claves de acceso de antiguas filtraciones de datos que, al parecer, nunca se habían cambiado. CrowdStrike distingue la campaña de los ataques con ARTEX que Microsoft había notificado hace algo más de una semana con el nombre de Storm-0940."
+    ],
+    "d": "El grupo VAPOR PANDA dejó sus ataques en gran parte en manos de agentes de IA basados en DeepSeek, según CrowdStrike: en once días y en al menos 14 países. Nueve organizaciones fueron comprometidas de forma comprobada.",
+    "t": "Espionaje con agentes de IA: hackers vinculados a China atacaron más de 200 organizaciones"
+   },
+   "at": "2026-10-30T13:37Z",
+   "h": "0b0c67327651",
+   "rev": [
+    "Teaser: 'Nueve organizaciones fueron comprometidas' omits 'nachweislich' (confirmed)",
+    "Body 1: awkward 'según la observación de CrowdStrike' and 'utilizó según esto'",
+    "Body 1: 'actúan desde el primer acceso, pasando por…' is a clumsy rendering of 'vom ersten Zugang über … bis'",
+    "Body 2: 'ministerios de Exteriores' is unnatural; the usual term is 'ministerios de Asuntos Exteriores'",
+    "Body 3: 'Storm-0940' is correct, but 'hace algo más de una semana' is fine; 'ataques con ARTEX' is fine"
+   ],
+   "rev_dbg": [
+    5,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: edificio de oficinas de CrowdStrike en Sunnyvale, California (2024)",
+    "kl": "Seguridad"
+   }
+  },
   "curse-of-resthaven-test": {
    "L": {
     "body": [
@@ -1587,6 +1616,31 @@
    "x": {
     "img.alt": "Gráfico de portada de TERRA WORLD NEWS sobre GitHub Copilot Fusion y el informe Octoverse 2026",
     "kl": "Programación"
+   }
+  },
+  "gladbach-mohya-vertrag-2026-10-30": {
+   "L": {
+    "body": [
+     "El Borussia Mönchengladbach quiere ampliar de forma anticipada el contrato de la joven promesa ofensiva Wael Mohya más allá de 2028, según información de Sky Sport. El jugador de 17 años duplicaría para ello su sueldo hasta unos dos millones de euros al año. Hasta ahora, según Sky, su salario base ronda los 600.000 a 700.000 euros y, con bonus, algo más de un millón de euros.",
+     "El trasfondo es el interés de grandes clubes. Según el pódcast «Bayern Insider», el consejero deportivo del Bayern, Max Eberl, y el director deportivo, Christoph Freund, contactaron con el entorno del jugador y se informaron sobre los detalles del contrato. Sky también relaciona con Mohya al Leverkusen, el Dortmund y el Leipzig. No hay declaraciones oficiales de los clubes sobre estas informaciones.",
+     "El internacional alemán sub-21 ha participado en los nueve partidos oficiales de esta temporada. En la victoria en Stuttgart, la primera del Gladbach en la Bundesliga esta temporada, marcó un gol y dio una asistencia."
+    ],
+    "d": "Según Sky, el Borussia Mönchengladbach quiere vincular más tiempo a Wael Mohya, de 17 años, duplicándole el sueldo. Según informaciones, el FC Bayern habría tanteado el entorno del jugador.",
+    "t": "El Gladbach quiere retener a Mohya con el doble de sueldo; el Bayern habría preguntado"
+   },
+   "at": "2026-10-30T13:37Z",
+   "h": "44b0efcde9d7",
+   "rev": [
+    "Se perdió el matiz de «vorzeitig» (de forma anticipada) en el primer párrafo.",
+    "«Sportvorstand» se tradujo como «director deportivo» y «Sportdirektor» como «director técnico»; los cargos quedan mejor diferenciados con «consejero deportivo» y «director deportivo»."
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "El Borussia-Park de Mönchengladbach, imagen simbólica"
    }
   },
   "gta-6-south-park-justice-score": {
