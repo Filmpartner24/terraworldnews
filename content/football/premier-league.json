@@ -3526,7 +3526,10 @@
        "date": "2026-10-29",
        "team1": "Everton FC",
        "team2": "Newcastle United FC",
-       "ft": null
+       "ft": [
+        3,
+        1
+       ]
       },
       {
        "date": "2026-10-28",
@@ -3575,6 +3578,40 @@
        ]
       }
      ]
+    },
+    {
+     "name": {
+      "bg": "Четвъртфинали",
+      "de": "Viertelfinale",
+      "en": "Quarter-finals"
+     },
+     "date": "2026-12-14/2026-12-20",
+     "matches": [
+      {
+       "date": "2026-12-14/2026-12-20",
+       "team1": "Fleetwood Town",
+       "team2": "Everton FC",
+       "ft": null
+      },
+      {
+       "date": "2026-12-14/2026-12-20",
+       "team1": "Manchester City FC",
+       "team2": "Bradford City",
+       "ft": null
+      },
+      {
+       "date": "2026-12-14/2026-12-20",
+       "team1": "Crystal Palace FC",
+       "team2": "Sunderland AFC",
+       "ft": null
+      },
+      {
+       "date": "2026-12-14/2026-12-20",
+       "team1": "Liverpool FC",
+       "team2": "AFC Bournemouth",
+       "ft": null
+      }
+     ]
     }
    ],
    "src": [
@@ -3585,7 +3622,10 @@
     "https://www.liverpoolfc.com/news/liverpool-v-chelsea-carabao-cup-fixture-details-confirmed",
     "https://www.espn.com/soccer/story/_/id/50301787/arsenal-fleetwood-town-carabao-cup-4th-round-dowman-drone",
     "https://www.skysports.com/football/news/13604001/bradford-city-2-0-peterborough-macauley-gillesphey-and-adam-phillips-fire-bantams-into-carabao-cup-quarter-finals",
-    "https://dave.sport/news/carabao-cup-results-fourth-round/"
+    "https://dave.sport/news/carabao-cup-results-fourth-round/",
+    "https://www.skysports.com/football/news/13604028/everton-3-1-newcastle-toffees-see-off-visitors-to-set-up-carabao-cup-quarter-final-with-fleetwood-town",
+    "https://hayters.com/carabao-cup-quarter-final-draw-in-full-fleetwood-handed-another-home-tie/",
+    "https://www.themag.co.uk/2026/10/newcastle-united-or-everton-get-fleetwood-town-in-carabao-cup-quarter-final-draw/"
    ]
   },
   {
