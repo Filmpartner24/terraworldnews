@@ -2443,6 +2443,33 @@
     "img.alt": "Foto de archivo: edificio comercial de Mientus en Wilmersdorfer Straße, en Berlín-Charlottenburg (2019)"
    }
   },
+  "mistral-large-4-offene-gewichte": {
+   "L": {
+    "body": [
+     "La empresa francesa de inteligencia artificial Mistral AI publicó el jueves los pesos de su modelo de lenguaje Mistral Large 4 en la plataforma Hugging Face. El modelo tiene cerca de un billón de parámetros, de los cuales solo una parte está activa en cada tarea: según Mistral, unos 52.000 millones. Entiende texto e imágenes y genera texto y código de programación. A principios de octubre, Mistral había hecho accesible Large 4 en un primer momento solo a través de su interfaz de programación; en el vídeo de presentación, la empresa presenta el modelo con el apodo «Le Chonk».",
+     "Los archivos ocupan en conjunto unos 1,06 terabytes; según Mistral, una versión comprimida funciona con cuatro procesadores gráficos Nvidia de los tipos B200 o B300. Sus áreas principales son el desarrollo de software y la ciberseguridad. En la prueba Terminal-Bench 4.0, Large 4 alcanza, según el fabricante, un 41 por ciento y queda así por poco por delante del modelo chino GLM-5.3. En los próximos meses está previsto que lleguen versiones derivadas más pequeñas, entre ellas una para portátiles.",
+     "La licencia es una MIT modificada con una restricción importante: quien ofrezca el modelo como servicio a terceros necesita una licencia comercial independiente de Mistral. El vicepresidente de Ciencia, Pierre Stock, justificó la liberación ante The Next Web afirmando que la IA se convertirá en algo como la electricidad y que ninguna empresa debería depender de un proveedor que pueda cortar el acceso."
+    ],
+    "d": "La empresa francesa de IA publica los pesos de su mayor modelo. Las compañías pueden ejecutarlo en sus propios servidores, pero los proveedores de servicios de IA necesitan una licencia propia.",
+    "t": "Un billón de parámetros para descargar: Mistral libera su modelo estrella Large 4"
+   },
+   "at": "2026-10-30T12:14Z",
+   "h": "115235a1c37f",
+   "rev": [
+    "Indirect speech about Pierre Stock is correctly attributed (\"justificó ... afirmando que\"); no change needed",
+    "\"se convertirá en algo como la electricidad\" is a slightly loose rendering of \"KI wie Elektrizität werde\", but the meaning is preserved",
+    "Small versions: \"sollen folgen\" rendered as \"deberían llegar\", which weakens the plan slightly; \"se prevé que lleguen\" is closer"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: el director de Mistral AI, Arthur Mensch, durante una intervención en el escenario",
+    "kl": "Nuevo modelo"
+   }
+  },
   "munguia-espinoza-wm-kaempfe-riad": {
    "L": {
     "body": [

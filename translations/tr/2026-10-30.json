@@ -2574,6 +2574,34 @@
     "img.alt": "Arşiv fotoğrafı: Berlin-Charlottenburg'da Wilmersdorfer Straße üzerindeki Mientus mağaza binası (2019)"
    }
   },
+  "mistral-large-4-offene-gewichte": {
+   "L": {
+    "body": [
+     "Fransız yapay zekâ şirketi Mistral AI, perşembe günü dil modeli Mistral Large 4'ün ağırlıklarını Hugging Face platformunda yayımladı. Modelin yaklaşık bir trilyon parametresi var; her görevde bunların yalnızca bir kısmı etkin: Mistral'e göre yaklaşık 52 milyar. Model metin ve görselleri anlıyor, çıktı olarak metin ve program kodu veriyor. Mistral, Large 4'ü ekim başında önce yalnızca programlama arayüzü üzerinden erişime açmıştı; şirket tanıtım videosunda modeli “Le Chonk” lakabıyla sunuyor.",
+     "Dosyaların toplam boyutu yaklaşık 1,06 terabayt; Mistral'e göre sıkıştırılmış bir sürüm B200 veya B300 tipi dört Nvidia grafik işlemcisinde çalışıyor. Odak noktaları yazılım geliştirme ve siber güvenlik. Üreticinin verilerine göre Large 4, Terminal-Bench 4.0 testinde yüzde 41'e ulaşıyor ve böylece Çinli model GLM-5.3'ün az farkla önünde yer alıyor. Aralarında dizüstü bilgisayarlar için olanın da bulunduğu, daha küçük türev sürümlerin önümüzdeki aylarda gelmesi planlanıyor.",
+     "Lisans, önemli bir kısıtlama içeren değiştirilmiş bir MIT lisansı: Modeli üçüncü kişilere hizmet olarak sunanların Mistral'den ayrı bir ticari lisans alması gerekiyor. Bilimden Sorumlu Başkan Yardımcısı Pierre Stock, modelin açılmasını The Next Web'e yaptığı açıklamada, yapay zekânın elektrik gibi olacağını ve hiçbir şirketin erişimi kapatabilecek bir sağlayıcıya bağımlı olmaması gerektiğini söyleyerek gerekçelendirdi."
+    ],
+    "d": "Fransız yapay zekâ şirketi en büyük modelinin ağırlıklarını yayımladı. Şirketler modeli kendi sunucularında çalıştırabilir; ancak yapay zekâ hizmeti sunanların ayrı bir lisansa ihtiyacı var.",
+    "t": "Bir trilyon parametre indirilebilir: Mistral en iyi modeli Large 4'ü açtı"
+   },
+   "at": "2026-10-30T12:14Z",
+   "h": "115235a1c37f",
+   "rev": [
+    "Weekday \"Perşembe\" must be lower-case mid-sentence per TDK: \"perşembe\"",
+    "Month \"Ekim\" must be lower-case per TDK: \"ekim\"",
+    "\"Bilim Başkan Yardımcısı\" is ungrammatical; it should be \"Bilimden Sorumlu Başkan Yardımcısı\"",
+    "\"yüzde 41 puan alıyor\" is imprecise; the German says it reaches 41 percent"
+   ],
+   "rev_dbg": [
+    4,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Mistral AI CEO'su Arthur Mensch sahnede bir konuşma sırasında",
+    "kl": "Yeni model"
+   }
+  },
   "munguia-espinoza-wm-kaempfe-riad": {
    "L": {
     "body": [
