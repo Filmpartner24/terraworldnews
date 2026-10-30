@@ -1676,6 +1676,79 @@
     "img.alt": "Hill Dickinson Stadium, Liverpool (Arşiv fotoğrafı)"
    }
   },
+  "ext-extremste-kletterroute-2026-10-30": {
+   "L": {
+    "body": [
+     "Red Bull, dünyanın en zorlu rotası olarak duyurulan tırmanış rotasındaki bir denemeye eşlik ediyor."
+    ],
+    "d": "Red Bull, dünyanın en zorlu rotası olarak duyurulan tırmanış rotasındaki bir denemeye eşlik ediyor.",
+    "t": "Dünyanın en ekstrem tırmanış rotasındaki deneme"
+   },
+   "at": "2026-10-30T18:15Z",
+   "h": "894317c0e9a4",
+   "rev": [
+    "Headline: 'extremste' (en uç/en ekstrem) was rendered as 'en zorlu' (most difficult), which changes the meaning, and the hedge 'angekündigt wird' was lost.",
+    "Teaser and body: 'extremste' was rendered as 'en zorlu'; 'Kletterroute' was rendered as 'rota' (route) and 'tırmanış rotası' inconsistently, and the sentence is clumsy.",
+    "img.alt: 'Kletterer' means climber (tırmanışçı), not 'dağcı' (mountaineer); 'Sembolik fotoğraf' should be lowercase in parentheses, and the standard form is 'Sembol fotoğraf'."
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    2
+   ],
+   "x": {
+    "img.alt": "El Capitan'ın dik duvarında tırmanışçı (sembol fotoğraf)",
+    "kl": "Ekstrem spor"
+   }
+  },
+  "ext-kunstflug-doppeldecker-2026-10-30": {
+   "L": {
+    "body": [
+     "GoPro, İkinci Dünya Savaşı dönemine ait çift kanatlı bir uçakla yapılan akrobasi uçuşunu gösteriyor – görüntüler GoPro MAX2 ile çekildi."
+    ],
+    "d": "GoPro, İkinci Dünya Savaşı dönemine ait çift kanatlı bir uçakla yapılan akrobasi uçuşunu gösteriyor – görüntüler GoPro MAX2 ile çekildi.",
+    "t": "İkinci Dünya Savaşı dönemi çift kanatlı uçakla akrobasi uçuşu"
+   },
+   "at": "2026-10-30T18:15Z",
+   "h": "f5b982ae6fa4",
+   "rev": [
+    "Minor: 'Sembolik fotoğraf' capitalization inside parentheses should be lowercase"
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Bir hava gösterisinde akrobasi yapan Boeing-Stearman çift kanatlı uçağı (sembolik fotoğraf)",
+    "kl": "Ekstrem spor"
+   }
+  },
+  "ext-tower-bridge-durchflug-2026-10-30": {
+   "L": {
+    "body": [
+     "Red Bull bir dünya prömiyeri gerçekleştiriyor: Londra'nın ünlü Tower Bridge'inin tam ortasından geçen bir uçuş."
+    ],
+    "d": "Red Bull bir dünya prömiyeri gerçekleştiriyor: Londra'nın ünlü Tower Bridge'inin tam ortasından geçen bir uçuş.",
+    "t": "Dünya ilki: Tower Bridge'in içinden uçuş"
+   },
+   "at": "2026-10-30T18:15Z",
+   "h": "ec1a5d02948f",
+   "rev": [
+    "'Weltpremiere' (dünya prömiyeri) is about a flight; 'prömiyeri' is used for films and shows, so 'dünya ilki' is more natural in Turkish",
+    "'Abenddämmerung' means evening twilight; 'alacakaranlık' also covers dawn, so 'akşam alacakaranlığında' is more precise",
+    "Capitalisation of 'Sembolik fotoğraf' inside the parentheses is wrong; it should be lowercase"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    2
+   ],
+   "x": {
+    "img.alt": "Londra'daki Tower Bridge akşam alacakaranlığında (sembolik fotoğraf)",
+    "kl": "Ekstrem spor"
+   }
+  },
   "f1-antonelli-virus-mexiko-2026-10-30": {
    "L": {
     "body": [
@@ -2196,6 +2269,30 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Justice ikilisi 2013’te Moskova’daki Park Live festivalinde"
+   }
+  },
+  "gwr-resident-evil-sammlung-2026-10-30": {
+   "L": {
+    "body": [
+     "Guinness Dünya Rekorları, korku oyunu serisi “Resident Evil”in hayran ürünlerinden oluşan en büyük koleksiyonu gösteriyor."
+    ],
+    "d": "Guinness Dünya Rekorları, korku oyunu serisi “Resident Evil”in hayran ürünlerinden oluşan en büyük koleksiyonu gösteriyor.",
+    "t": "Rekor koleksiyon: “Resident Evil” ile ilgili her şey"
+   },
+   "at": "2026-10-30T18:15Z",
+   "h": "7f5e089c76bb",
+   "rev": [
+    "Turkish suffix after the quoted title: \"Resident Evil”in\" is incorrect; with a foreign name that is pronounced differently, an apostrophe is needed. Fixed as “Resident Evil”in → “Resident Evil”in seri",
+    "\"Sembolik fotoğraf\" capitalisation: it should be lowercase inside parentheses."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    1
+   ],
+   "x": {
+    "img.alt": "ABD'nin Rochester kentindeki The Strong müzesinde video oyunu sergisi (sembolik fotoğraf)",
+    "kl": "Guinness Rekorları"
    }
   },
   "harvard-solarflugzeug-batterien": {
