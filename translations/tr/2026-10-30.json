@@ -1637,6 +1637,27 @@
     "img.alt": "Floransa'daki Stadio Artemio Franchi (Arşiv fotoğrafı)"
    }
   },
+  "fraunhofer-idmt-24h-eeg": {
+   "L": {
+    "body": [
+     "Elektroensefalogram (EEG) şimdiye kadar çoğunlukla laboratuvarda veya klinikte, elektrot başlığı ve kablolarla elde ediliyor. Oldenburg'daki Fraunhofer Dijital Medya Teknolojileri Enstitüsü IDMT, beyin dalgası ölçümlerini günlük yaşama taşımak istiyor. Bir çalışmada, aralarında araştırma ekibi üyelerinin de bulunduğu on kişi, sekiz kanallı esnek elektrot bandı “trEEGrid”i, Gilching merkezli Brain Products firmasının miniatür yükselteciyle birlikte yaklaşık 24 saat boyunca taktı. Sonuçlar “Sensors” dergisinde yayımlandı (DOI 10.3390/s26165309); enstitü sonuçları 27 Ekim'de bir videoyla tanıttı.",
+     "Katılımcılar gündüz kısa işitme ve görme görevlerini yerine getirdi, gevşeme egzersizleri yaptı ve sudoku oynadı; geceleri uykuları evde kaydedildi. Enstitüye göre cilt ile elektrotlar arasındaki geçiş direnci birinci gün sekiz kanalın tamamında ortalama 140 kiloohmun altında, ikinci gün ise 100 kiloohmun altındaydı. Verilerde, birinin kolay mı yoksa zor bir sudoku mu çözdüğü ayırt edilebildi.",
+     "“Mevcut sensör çözümümüz EEG sinyallerini temel günlük yaşam durumlarında zaten yüksek temas kararlılığıyla kaydediyor” diyor Mobil Nöroteknolojiler grubunun yöneticisi Insa Wolf. Çalışma, uyku izleme sistemi geliştiren ve Federal Araştırma Bakanlığı tarafından desteklenen ISES projesinin bir parçası. Demonstratörler yalnızca araştırma amaçlı; CE sertifikalı tıbbi cihazlar değil ve teşhis için kullanılmıyor."
+    ],
+    "d": "Fraunhofer IDMT'nin bir çalışmasında yüzdeki esnek elektrot bandı ve kulak arkasındaki mini yükselteç, günlük görevler sırasında ve geceleri katılımcıların kendi yatağında yaklaşık 24 saat beyin dalgalarını kaydetti.",
+    "t": "7/24 beyin dalgaları: Fraunhofer videosu günlük yaşam için EEG bandını gösteriyor"
+   },
+   "at": "2026-10-30T13:49Z",
+   "h": "9880a9e0a189",
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: elektrotlu geleneksel EEG başlığı – Fraunhofer IDMT'nin bandı değil"
+   }
+  },
   "fury-netflix-doku-27-november": {
    "L": {
     "body": [
@@ -2831,6 +2852,34 @@
     "kl": "Yeni model"
    }
   },
+  "mit-origami-aluminium-tragwerke": {
+   "L": {
+    "body": [
+     "Massachusetts Institute of Technology (MIT) bünyesindeki Center for Bits and Atoms'tan bir ekip, origamiyi inşaata uyguluyor. Temelde, tekrarlanan temel birimlerden oluşan katlama desenleri olan Resch tesellasyonları yer alıyor. Katlanmış alüminyumdan, büyük ve kubbeli kabuklar oluşturacak biçimde birleştirilebilen modüller elde ediliyor. MIT'ye göre bu yapılar, yapısal origaminin bazı diğer biçimlerinden kat kat daha rijit ve malzemenin yaklaşık üçte ikisiyle yetiniyor; simülasyonlarda bazı diğer origami yöntemlerinin yaklaşık 3,5 katı rijitlik elde edildi.",
+     "Bir yazılım tasarımı çok sayıda küçük alt soruna ayırıyor ve her birimi tek tek hesaplıyor. “Her birim hücre farklı olsa bile bağlantı her yerde aynı”, diye açıklıyor ilk yazar Alfonso Parra Rubio. Profesyonel inşaat deneyimi olmayan bir ekip, bu yöntemle Boston Public Library'nin Deferrari Hall binasındaki atriyumda, yaklaşık yedi metre (23 fit) büyüklüğündeki katlanmış alüminyum heykel “Lexicon”u birkaç günde monte etti.",
+     "“Bu çalışma, metal katlamanın yapılarda kullanılmaya hazır bir yöntem olduğunu gösteriyor”, diyor merkezin direktörü ve kıdemli yazar Neil Gershenfeld. MIT'nin 27 Ekim'de tanıttığı çalışmaya Bologna, Innsbruck ve Tokyo üniversiteleri de katıldı."
+    ],
+    "d": "MIT araştırmacıları alüminyum levhaları origami deseniyle modüllere katlıyor; bu modüllerin daha az malzemeyle belirgin biçimde daha rijit olduğu belirtiliyor. Boston'da yaklaşık yedi metrelik bir heykel şimdiden asılı.",
+    "t": "Binalar için origami: MIT alüminyumu hafif ve taşıyıcı yapı elemanlarına katlıyor"
+   },
+   "at": "2026-10-30T13:49Z",
+   "h": "a3a7d82e76ac",
+   "rev": [
+    "Untranslated German word 'probleme' in 'alt probleme' (should be 'alt sorunlara')",
+    "'Deferrari Hall salonundaki atriyumda' changes the German: the atrium is in Deferrari Hall; 'salon' is redundant and misleading",
+    "'kat kat daha rijit' overstates 'um ein Vielfaches steifer' slightly but acceptable; kept",
+    "'Tokyo' should be the Turkish spelling 'Tokyo' → 'Tokyo' is fine; kept",
+    "Image alt: 'salonuna' adds 'salon' not in German"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı (Şubat 2025): Katlanmış heykelin asıldığı Boston Public Library'nin Deferrari Hall'a giriş"
+   }
+  },
   "munguia-espinoza-wm-kaempfe-riad": {
    "L": {
     "body": [
@@ -3209,6 +3258,34 @@
    "x": {
     "img.alt": "Alexander Zverev, 2023'te Monte-Carlo Masters'ta (Arşiv fotoğrafı)",
     "kl": "Tenis"
+   }
+  },
+  "toronto-huepfroboter-fusspolster": {
+   "L": {
+    "body": [
+     "University of Toronto'daki mühendisler, zıplayan robotları “Hopcopter”u yeni ve hareketli bir ayak yastığıyla donattı. Robot özünde, tek bir yaylı bacağın üzerinde duran bir quadrocopter drone; önceden gerilmiş lastik bantlar yer çekimine karşı etki ediyor. Örnek alınan, sürekli uçmayıp zıplayarak ve dinlenerek enerji tasarrufu yapan kuşlar. Çalışma “Advanced Intelligent Systems” dergisinde yayımlandı (DOI 10.1002/aisy.70580); üniversite çalışmayı 26 Ekim'de laboratuvarın bir videosuyla tanıttı.",
+     "Şimdiye kadar ayak, dik veya kaygan yüzeylerde kayıyor ve kuma batıyordu. Yeni yastık, ağırlığı kar ayakkabısı gibi daha geniş bir alana dağıtıyor, bir küresel mafsal sayesinde her yöne eğilebiliyor ve her zıplamadan sonra lastik bantlarla eski konumuna getiriliyor; kısa çiviler ise krampon gibi tutunuyor. “Kalkış hatasını yüzde 66'ya kadar azaltıyor, aynı zamanda verimliliği yüzde 64'e kadar artırıyorlar” diyor ilk yazar Jeeraphat (Owen) Kledkruemas. Farklı zeminler arasındaki performans dalgalanmasının yüzde 84 azaldığı belirtiliyor.",
+     "Profesör Pakpong Chirarattananon liderliğindeki ekip, bir sonraki adımda otonom navigasyon geliştirmek istiyor. Robotun doğal afetlerin ardından arama kurtarma çalışmalarında ya da boru hatları ve maden sahaları gibi uzak tesislerin denetiminde kullanılabileceği ifade edildi. “Bu iyileştirme, robotu laboratuvardan gerçek dünyaya çıkarmamıza olanak tanıyor” diyor Chirarattananon."
+    ],
+    "d": "University of Toronto'nun “Hopcopter”ı, yaylı tek bir bacak üzerinde duran bir drone. Ekibe göre kar ayakkabısı tarzı yeni ayak yastığı, robotun kum ve buzdaki performansını belirgin biçimde artırıyor.",
+    "t": "Uçmak yerine zıplamak: Toronto videosu kum ve buz için robot ayağı gösteriyor"
+   },
+   "at": "2026-10-30T13:49Z",
+   "h": "5aaebef6c5ba",
+   "rev": [
+    "Awkward/ungrammatical genitive: \"zıplayan robotları “Hopcopter”ı\" should be \"zıplayan robotu “Hopcopter”\"",
+    "Odd phrase \"Örnek alınan canlılar\" for \"Vorbild sind Vögel\"",
+    "Teaser: \"bir drone\" wording unnatural, \"“Hopcopter”ı\" case ending wrong",
+    "Quote: \"Sıçrama hatasını\" is fine, but the sentence is slightly off in wording; \"Absprungfehler\" = takeoff error (kalkış hatası)",
+    "Wrong sense: \"Leistungsschwankung ... sinke um 84 Prozent\" is Konjunktiv; attribution is present but could be clearer"
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: University of Toronto Mühendislik Fakültesi'nin Myhal Centre binası"
    }
   },
   "ufc-334-edwards-ersatz-harrison-nunes": {
