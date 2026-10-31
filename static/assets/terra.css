@@ -1806,3 +1806,14 @@ nav.sections.nv2::before{content:"";position:absolute;left:0;right:0;top:0;heigh
 .biz-card .bc-link{margin:auto 0 0}.biz-card .bc-link a{display:inline-block;margin-top:6px;padding:8px 14px;border-radius:8px;background:#0f2f7a;color:#fff;font-family:var(--label);font-size:13px;text-transform:uppercase;letter-spacing:.05em;text-decoration:none}
 @media (max-width:900px){.biz-blocks{grid-template-columns:1fr}}
 .biz-card .biz-fig img{object-position:top center}
+/* Gleich hohe Kästen – Maß ist der IPO-Kalender (Nedy 31.10.2026) */
+@media (min-width:1101px){
+ .bzh-row{align-items:stretch}
+ .bzh-top{height:auto}
+ .bzh-top .bzh-tim{flex:1 1 auto;aspect-ratio:auto;min-height:260px}
+ .bzh-top .bzh-tt{flex:none}
+ .bzh-mk{display:flex;flex-direction:column}
+ .bzh-mk .bzh-t{flex:1 1 auto;height:100%}
+ .bzh-mk .bzh-t tr{height:12.5%}
+ .bzh-mk .bzh-note{margin-top:12px}
+}
