@@ -738,7 +738,11 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
 </html>'''
 
 def SN(x): return x['n'] if isinstance(x, dict) else x
-def SNAMES(xs): return ', '.join(SN(x) for x in xs)
+def SNAMES(xs, n=3):   # Listen/Teaser: höchstens 3 Quellen, je max. 60 Zeichen (Nedy 31.10.2026 – „Quellen ewig lang“); vollständige Liste im Artikel
+    xs = list(xs or []); out = []
+    for x in xs[:n]:
+        t = SN(x); out.append(t if len(t) <= 60 else t[:57].rstrip(' ,–-') + '…')
+    return ', '.join(out) + (f' +{len(xs) - n}' if len(xs) > n else '')
 def LI(xs): return ''.join(('<li><a href="' + e(x['u']) + '" rel="noopener nofollow" target="_blank">' + e(x['n']) + '</a></li>') if isinstance(x, dict) and x.get('u') else ('<li>' + e(SN(x)) + '</li>') for x in xs)
 def CIT(xs): return [({"@type": "CreativeWork", "name": x['n'], "url": x['u']} if isinstance(x, dict) and x.get('u') else SN(x)) for x in xs]
 
@@ -929,12 +933,15 @@ def biz_explain(b, l):
 def biz_asof(b, l):
     return f'<p class="asof meta">{e(BZ[l]["asof"])}: {e(L(b.get("asof", ""), l))}</p>' if b.get('asof') else ''
 def biz_src(b, l):
-    xs = [f'<a href="{e(x["u"])}" rel="noopener nofollow" target="_blank">{e(x["n"])}</a>' for x in b.get('src', []) if isinstance(x, dict) and x.get('u')]
-    return f'<p class="src">{UI[l]["src"]}: {" · ".join(xs)}</p>' if xs else ''
+    xs = [f'<a href="{e(x["u"])}" rel="noopener nofollow" target="_blank">{e(x["n"] if len(x["n"]) <= 60 else x["n"][:57] + "…")}</a>' for x in b.get('src', []) if isinstance(x, dict) and x.get('u')]
+    more = f' · +{len(xs) - 4}' if len(xs) > 4 else ''   # Seite: höchstens 4 Quellen, alle im Artikel (Nedy 31.10.2026)
+    return f'<p class="src">{UI[l]["src"]}: {" · ".join(xs[:4])}{more}</p>' if xs else ''
 def biz_block(b, l, au, fig=''):
+    # Kompakte Karte (Nedy 31.10.2026): Grafik, Titel, Kennzahlen, Teaser – Tabellen und Text aufklappbar, vollständig im Artikel
     body = ''.join(f'<p>{e(x)}</p>' for x in b[l].get('body', []))
-    return (f'<section class="biz-block" id="{e(b["id"])}"><h2><a href="{au}">{e(b[l]["t"])}</a></h2>{biz_asof(b, l)}<p class="dek">{e(b[l]["d"])}</p>{fig}{biz_kpis(b, l)}'
-            f'<div class="body">{body}</div>{biz_explain(b, l)}{biz_tables(b, l)}{biz_src(b, l)}<p class="sec-more"><a href="{au}">{e(BZ[l]["full"])}</a></p></section>')
+    det = LX({'bg': 'Таблици и подробности', 'de': 'Tabellen & Details', 'en': 'Tables & details'}).get(l, 'Tables & details')
+    return (f'<section class="biz-block biz-card" id="{e(b["id"])}">{fig}<div class="bc-txt"><h2><a href="{au}">{e(b[l]["t"])}</a></h2>{biz_asof(b, l)}<p class="dek">{e(b[l]["d"])}</p>{biz_kpis(b, l)}'
+            f'<details class="bc-more"><summary>{e(det)}</summary><div class="body">{body}</div>{biz_explain(b, l)}{biz_tables(b, l)}</details>{biz_src(b, l)}<p class="bc-link"><a href="{au}">{e(BZ[l]["full"])}</a></p></div></section>')
 def boerse_ticker(d, l):
     if not d: return ''
     xs = [t for b in d.get('blocks', []) for t in b.get('ticker', [])]
@@ -3000,9 +3007,20 @@ def build():
                     if s2 == s: continue
                     o = sorted([it for it in items_l if it['s'] == s2], key=lambda x: (x['date'], x['time']), reverse=True)[:3]
                     if o: others += f'<div class="side-sec" style="--c:{SEC_COLOR[s2]}"><h3><a href="{sec_home(s2, l)}">{e(SEC[l][s2][0])}</a></h3><ul>{"".join(mini(it) for it in o)}</ul></div>'
-                pages = [older[i:i + PER] for i in range(0, len(older), PER)]
+                _per = PER
+                if s == 'business':   # Business (Nedy 31.10.2026): kurze erste Seite, danach Seitenzahlen statt endlos scrollen
+                    front, older, _per = rest[:8], rest[8:], 12
+                pages = [older[i:i + _per] for i in range(0, len(older), _per)]
                 def purl(n): return sec_url(s, l) + (f'{"stranitsa" if l == "bg" else "seite" if l == "de" else "page"}-{n}/' if n > 1 else '')
-                more = f'<p class="sec-more"><a href="{purl(2)}">{e(SX["older"])} →</a></p>' if pages else ''
+                def numpager(cur, tot):
+                    if tot < 2: return ''
+                    ks = sorted({1, tot, cur - 1, cur, cur + 1, 2, 3} & set(range(1, tot + 1))); h = ''; prev = 0
+                    for k in ks:
+                        if k - prev > 1: h += '<span class="pg-gap">…</span>'
+                        h += f'<span class="pg-cur">{k}</span>' if k == cur else f'<a href="{purl(k)}">{k}</a>'; prev = k
+                    return (f'<nav class="pager pager-num">' + (f'<a class="pg-pn" href="{purl(cur - 1)}">← {e(SX["prev"]).strip("←→ ")}</a>' if cur > 1 else '') + h
+                            + (f'<a class="pg-pn" href="{purl(cur + 1)}">{e(SX["next"]).strip("←→ ")} →</a>' if cur < tot else '') + '</nav>')
+                more = (numpager(1, len(pages) + 1) if s == 'business' else f'<p class="sec-more"><a href="{purl(2)}">{e(SX["older"])} →</a></p>') if pages else ''
                 body = (f'<div class="sec-page" style="--c:{SEC_COLOR[s]}">{head}{extra}<div class="sec-main"><div class="sec-list"><h2 class="list-h">{e(SX["latest"])}</h2>{daylist(front)}{more}</div>'
                         f'<aside class="sec-side"><h2 class="list-h">{e(SX["other"])}</h2>{others}</aside></div></div>')
                 if s in MEDIA:
@@ -3012,7 +3030,7 @@ def build():
                     if s == 'mode': body = body.replace('<div class="gp-panel">', '<div class="gp-panel">' + trend_block(l), 1)   # „Im Trend“ oben auf der Mode-Seite
                     pages = []
                 for n, pit in enumerate(pages, start=2):
-                    nav = f'<nav class="pager"><a href="{purl(n - 1)}">{e(SX["prev"])}</a><span>{e(SX["page"])} {n} / {len(pages) + 1}</span>' + (f'<a href="{purl(n + 1)}">{e(SX["next"])}</a>' if n <= len(pages) else '<span></span>') + '</nav>'
+                    nav = numpager(n, len(pages) + 1) if s == 'business' else f'<nav class="pager"><a href="{purl(n - 1)}">{e(SX["prev"])}</a><span>{e(SX["page"])} {n} / {len(pages) + 1}</span>' + (f'<a href="{purl(n + 1)}">{e(SX["next"])}</a>' if n <= len(pages) else '<span></span>') + '</nav>'
                     pb = (f'<div class="sec-page" style="--c:{SEC_COLOR[s]}"><div class="rail-h sec-head"><h1 class="sec-title">{e(SEC[l][s][0])} · {e(SX["arch"])}</h1><span class="meta">{e(SX["page"])} {n}</span></div>'
                           f'<div class="sec-list wide">{daylist(pit)}</div>{nav}</div>')
                     write(purl(n), page(l, act, f'{SEC[l][s][0]} – {SX["page"]} {n} | TWN – World News', f'{SEC[l][s][0]}: {u["desc_home"]}', purl(n), pb, None, {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": f'{SEC[l][s][0]} {n}', "url": SITE + purl(n), "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))

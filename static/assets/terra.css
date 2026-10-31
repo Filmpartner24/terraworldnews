@@ -1780,3 +1780,29 @@ nav.sections.nv2::before{content:"";position:absolute;left:0;right:0;top:0;heigh
 @media (min-width:861px) and (max-width:1100px){nav.sections.nv2{font-size:11px;letter-spacing:0}.nv2 .nav-items>a,.nv2 .ng>a,.nv2 .ng>.nav-dd>a.nv-top{padding:0 4px;margin:9px 0}.nv2 .ng{padding:0 1px}.nv2 .nv-logo,.nv2 .nv-search{flex-basis:34px;padding:0 4px}.nv2 .nv-home{padding:0 6px!important;margin:9px 0!important}}
 @media (min-width:861px) and (max-width:960px){nav.sections.nv2{font-size:10.2px}.nv2 .nav-items>a,.nv2 .ng>a,.nv2 .ng>.nav-dd>a.nv-top{padding:0 3px}.nv2 .ng::before{display:none}}
 @media (min-width:861px){.nv2 .chev{display:none}.nv2 .nav-items>a,.nv2 .ng>a,.nv2 .ng>.nav-dd>a.nv-top{padding:0 6px}}@media (min-width:861px) and (max-width:1100px){.nv2 .nav-items>a,.nv2 .ng>a,.nv2 .ng>.nav-dd>a.nv-top{padding:0 4px}}@media (min-width:861px) and (max-width:960px){.nv2 .nav-items>a,.nv2 .ng>a,.nv2 .ng>.nav-dd>a.nv-top{padding:0 3px}}
+/* Seitenzahlen (Business, Nedy 31.10.2026) */
+.pager-num{justify-content:center;flex-wrap:wrap;gap:8px}
+.pager-num a,.pager-num .pg-cur,.pager-num .pg-gap{min-width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center;padding:0 12px;border-radius:10px;font-size:17px}
+.pager-num a{border:2px solid #0f2f7a;color:#0f2f7a}
+.pager-num a:hover{background:#0f2f7a;color:#fff}
+.pager-num .pg-cur{background:#d4161c;color:#fff;font-weight:700}
+.pager-num .pg-gap{border:0;color:#64748b}
+.pager-num .pg-pn{padding:0 16px}
+/* Business-Detailberichte als kompakte Karten (Nedy 31.10.2026) */
+.biz-blocks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.biz-card{display:flex;flex-direction:column;margin:0!important;padding:0!important;border:1px solid #d5dbe6;border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 4px 14px rgba(10,20,50,.06)}
+.biz-card .biz-fig{display:block;max-height:210px;overflow:hidden}
+.biz-card .biz-fig img{width:100%;height:210px;object-fit:cover;display:block}
+.biz-card .biz-fig figcaption,.biz-card .biz-fig .cap{display:none}
+.biz-card .bc-txt{padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px;flex:1}
+.biz-card h2{margin:0;font-size:21px;line-height:1.15}.biz-card h2 a{color:inherit;text-decoration:none}
+.biz-card .dek{margin:0;font-size:14.5px;line-height:1.45;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.biz-card .asof{margin:0;font-size:12px}
+.biz-card .kpis{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:6px;margin:4px 0}
+.biz-card .kpi{padding:8px 10px}
+.biz-card .bc-more{margin-top:4px;border-top:1px solid #e5e9f0;padding-top:6px}
+.biz-card .bc-more summary{cursor:pointer;font-family:var(--label);font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:#0f2f7a}
+.biz-card .src{font-size:11.5px;line-height:1.4;color:#64748b;margin:4px 0 0}
+.biz-card .bc-link{margin:auto 0 0}.biz-card .bc-link a{display:inline-block;margin-top:6px;padding:8px 14px;border-radius:8px;background:#0f2f7a;color:#fff;font-family:var(--label);font-size:13px;text-transform:uppercase;letter-spacing:.05em;text-decoration:none}
+@media (max-width:900px){.biz-blocks{grid-template-columns:1fr}}
+.biz-card .biz-fig img{object-position:top center}
