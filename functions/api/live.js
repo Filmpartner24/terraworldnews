@@ -1,4 +1,5 @@
 // Schlüssel APISPORTS_KEY in Cloudflare hinterlegt am 09.10.2026 (Pro bis 09.11.2026)
+// 31.10.2026: Sperrschutz – Fehler werden 75 s zwischengespeichert, letzte gute Daten 6 Std. als Ersatz, Gesamtantwort 30 s je Rechenzentrum.
 // Live-Spielstände (Fußball) für die Seiten Sport → Fußball und Sport → Länderspiele.
 // Datenquelle: API-Football (api-sports.io). Der Schlüssel liegt als Cloudflare-Secret APISPORTS_KEY vor, nie im Repo.
 // Abrufe werden serverseitig gecacht (Tagesspielplan 10 Min., Live-Daten 60 s), damit alle Besucher dieselbe Antwort
@@ -17,10 +18,16 @@ function berlinDate() {
 }
 
 async function cached(ctx, path, ttl, base = API, ks = '') {
-  const key = new Request('https://terraworldnews.com/__live' + (base === API ? '' : '/hb') + ks + path);
+  // Schutz gegen Sperren (Nedy 31.10.2026: Live-Ergebnisse fehlten wegen „rateLimit“):
+  // 1) gute Antworten ttl Sekunden zwischenspeichern, 2) zusätzlich eine „letzte gute“ Kopie 6 Std. aufheben,
+  // 3) Fehler/Sperren 75 s zwischenspeichern, damit nicht jeder Besucher sofort erneut anfragt – solange die letzte gute Kopie ausliefern.
+  const k = 'https://terraworldnews.com/__live' + (base === API ? '' : '/hb') + ks + path;
+  const key = new Request(k), keyGood = new Request(k + '#good'), keyErr = new Request(k + '#err');
   const cache = caches.default;
   const hit = await cache.match(key);
   if (hit) return hit.json();
+  const stale = async (why) => { const g = await cache.match(keyGood); if (g) { const j = await g.json(); j.__stale = why; return j; } return null; };
+  if (await cache.match(keyErr)) { const s = await stale('cooldown'); if (s) return s; return { errors: { rateLimit: 'cooldown' }, response: [] }; }
   // Schlüssel: direkt bei API-Sports (APISPORTS_KEY) oder über RapidAPI (RAPIDAPI_KEY) – gleiche Daten, andere Adresse
   let url = base + path, headers = { 'x-apisports-key': ctx.env.APISPORTS_KEY };
   if (!ctx.env.APISPORTS_KEY && ctx.env.RAPIDAPI_KEY) {
@@ -28,11 +35,15 @@ async function cached(ctx, path, ttl, base = API, ks = '') {
     url = 'https://' + host + (base === API ? '/v3' : '') + path;
     headers = { 'x-rapidapi-key': ctx.env.RAPIDAPI_KEY, 'x-rapidapi-host': host };
   }
-  const r = await fetch(url, { headers });
-  if (!r.ok) throw new Error('api ' + r.status);
+  const markErr = () => ctx.waitUntil(cache.put(keyErr, new Response('1', { headers: { 'cache-control': 'public, max-age=75' } })));
+  let r;
+  try { r = await fetch(url, { headers }); } catch (e) { markErr(); const s = await stale('neterr'); if (s) return s; throw e; }
+  if (!r.ok) { markErr(); const s = await stale('http' + r.status); if (s) return s; throw new Error('api ' + r.status); }
   const j = await r.json();
-  if (j.errors && Object.keys(j.errors).length) return j;   // Fehler (z. B. rateLimit) nie zwischenspeichern
-  ctx.waitUntil(cache.put(key, new Response(JSON.stringify(j), { headers: { 'content-type': 'application/json', 'cache-control': `public, max-age=${ttl}` } })));
+  if (j.errors && Object.keys(j.errors).length) { markErr(); const s = await stale(Object.keys(j.errors).join(',')); return s || j; }
+  const body = JSON.stringify(j);
+  ctx.waitUntil(cache.put(key, new Response(body, { headers: { 'content-type': 'application/json', 'cache-control': `public, max-age=${ttl}` } })));
+  ctx.waitUntil(cache.put(keyGood, new Response(body, { headers: { 'content-type': 'application/json', 'cache-control': 'public, max-age=21600' } })));
   return j;
 }
 
@@ -86,8 +97,12 @@ export async function onRequest(ctx) {
       return new Response(JSON.stringify({ http: r.status, errors: j.errors, plan: sub.plan, active: sub.active, end: sub.end, req, keylen: (ctx.env.APISPORTS_KEY || '').length, headers: h, body: j.response ? undefined : t.slice(0, 300) }), { headers: hdr });
     } catch (e) { return new Response(JSON.stringify({ diagerr: String(e) }), { headers: hdr }); }
   }
+  const outKey = new Request('https://terraworldnews.com/__live/out' + (new URL(ctx.request.url).searchParams.get('sport') === 'handball' ? '/hb' : ''));
+  const outHit = await caches.default.match(outKey);
+  if (outHit) return new Response(await outHit.text(), { headers: hdr });   // eine gemeinsame Antwort je Rechenzentrum für 30 s
+  const keep = (res) => { const c = res.clone(); ctx.waitUntil(c.text().then(t => caches.default.put(outKey, new Response(t, { headers: { 'content-type': 'application/json', 'cache-control': 'public, max-age=30' } })))); return res; };
   try {
-    if (new URL(ctx.request.url).searchParams.get('sport') === 'handball') return await handball(ctx, hdr);
+    if (new URL(ctx.request.url).searchParams.get('sport') === 'handball') return keep(await handball(ctx, hdr));
     const day = berlinDate();
     const today = await cached(ctx, `/fixtures?date=${day}&timezone=Europe/Berlin`, 600);
     let list = (today.response || []).filter(f => ALL.has((f.league || {}).id));
@@ -101,7 +116,8 @@ export async function onRequest(ctx) {
     const m = list.map(f => slim(f)).sort((x, y) => (x.ts - y.ts) || (x.lg - y.lg));
     const apierr = today.errors && Object.keys(today.errors).length ? Object.keys(today.errors).join(',') : '';
     const apimsg = apierr ? JSON.stringify(today.errors).slice(0, 300) : undefined;   // Fehlertext der API (ohne Schlüssel) zur Diagnose
-    return new Response(JSON.stringify({ ok: !apierr, apierr, apimsg, total: today.results || 0, day, live: anyLive, club: CLUB, nat: NAT, m }), { headers: hdr });
+    const stale = today.__stale || undefined;
+    return keep(new Response(JSON.stringify({ ok: !apierr, apierr, apimsg, stale, total: today.results || 0, day, live: anyLive, club: CLUB, nat: NAT, m }), { headers: hdr }));
   } catch (e) {
     return new Response(JSON.stringify({ ok: false, reason: 'error', m: [] }), { headers: hdr });
   }
