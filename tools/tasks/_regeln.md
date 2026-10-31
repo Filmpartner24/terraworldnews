@@ -10,6 +10,7 @@ Diese Regeln gelten für jede Aufgabe und gehen bei Widersprüchen der jeweilige
 - Musik-Genres Rock, Metal, Indie & Alternative, Pop, Hip-Hop: je 9 Meldungen pro Tag (3 Musikvideos, 3 Album-Reviews, 3 Konzerte/News), Aufgabe tools/tasks/genres.md, Datei content/<Datum>-g-<genre>.json (Nedy 26.10.2026).
 - Leben & Alltag → Gesundheit: 3 Artikel + 1 Video pro Tag, eigene Aufgabe tools/tasks/gesundheit.md, Datei content/<Datum>-gesundheit.json, s="leben", sub="gesundheit" (Nedy 31.10.2026).
 - Musik → Music History: 2 historische Konzerte pro Tag mit Video NUR von offiziellen Kanälen (WDR Rockpalast, Künstler-/Label-Kanäle, Senderarchive), eigene Aufgabe tools/tasks/musikhistory.md, Datei content/<Datum>-musikhistory.json, s="musik", sub="mhistory" (Nedy 31.10.2026).
+- Leben & Alltag → Fitness & Bewegung: 3 Artikel + 1 Video „Trainer erklären“ pro Tag, eigene Aufgabe tools/tasks/fitness.md, Datei content/<Datum>-fitness.json, s="leben", sub="fitness", Feld "fk" = Themengruppe (Nedy 31.10.2026).
 - Games: 6 Meldungen pro Tag (3 Reviews mit Video „Die neusten Spiele – Reviews“ + 3 Game-News; Nedy 10.10.2026).
 - Nur Männerfußball – kein Frauenfußball. Bulgarisch: AfD immer „АзГ (AfD)“.
 

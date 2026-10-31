@@ -269,6 +269,10 @@
    "sexualitaet": [
     "Cinsellik",
     "sexuality"
+   ],
+   "fitness": [
+    "Fitness ve Hareket",
+    "fitness-hareket"
    ]
   },
   "es": {
@@ -459,6 +463,10 @@
    "sexualitaet": [
     "Sexualidad",
     "sexuality"
+   ],
+   "fitness": [
+    "Fitness y movimiento",
+    "fitness-movimiento"
    ]
   },
   "it": {
@@ -3728,5 +3736,34 @@
   ],
   "es": "Salud: medicina e investigación, prevención, nutrición y ejercicio, salud mental, sistemas sanitarios de Alemania y Bulgaria – cada día con vídeo, serio y con fuentes.",
   "tr": "Sağlık: tıp ve araştırma, önleme, beslenme ve egzersiz, ruh sağlığı, Almanya ve Bulgaristan'da sağlık sistemleri – her gün videolu, ciddi ve kaynaklı."
+ },
+ {
+  "path": [
+   "FITU"
+  ],
+  "es": {
+   "kick": "TWN · Fitness",
+   "title": "FITNESS <span>Y MOVIMIENTO</span>",
+   "sub": "Entrenamiento · Músculo · Conocer el cuerpo · Salud",
+   "series": "Los entrenadores explican",
+   "vid": "Fitness en vídeo",
+   "cr": "Collage"
+  },
+  "tr": {
+   "kick": "TWN · Fitness",
+   "title": "FITNESS <span>VE HAREKET</span>",
+   "sub": "Antrenman · Kas gelişimi · Vücut bilgisi · Sağlık",
+   "series": "Antrenörler anlatıyor",
+   "vid": "Videoda fitness",
+   "cr": "Kolaj"
+  }
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "fitness"
+  ],
+  "es": "Fitness y movimiento: fuerza y desarrollo muscular, conocimiento del cuerpo y anatomía, movilidad y espalda sana, nutrición y recuperación – con la serie de vídeos «Los entrenadores explican», con base científica.",
+  "tr": "Fitness ve Hareket: kuvvet antrenmanı ve kas gelişimi, vücut bilgisi ve anatomi, mobilite ve sağlıklı sırt, beslenme ve toparlanma – «Antrenörler anlatıyor» video serisiyle, bilimsel temelli."
  }
 ]
