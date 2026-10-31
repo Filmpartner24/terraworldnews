@@ -1100,8 +1100,9 @@ def fitness_block(l, its):
     strip = (f'<div class="fxb-strip" aria-hidden="true"><img src="{C["f"]}" alt="" width="{C.get("w", 1600)}" height="{C.get("h", 440)}"><img src="{C["f"]}" alt="" width="{C.get("w", 1600)}" height="{C.get("h", 440)}"></div>') if C.get('f') else ''
     tiles = ''
     for key, nm, ds, ic in FITCAT:
-        n = sum(1 for x in its if x.get('fk') == key)
-        first = next((x for x in its if x.get('fk') == key), None)
+        _in = lambda x: x.get('fk') == key or key in (x.get('fks') or [])   # "fks": zusätzliche Themengruppen (Nedy 31.10.2026: Videos auch in die Unterkategorien)
+        n = sum(1 for x in its if _in(x))
+        first = next((x for x in its if _in(x)), None)
         href = f' href="{art_url(first, l)}"' if first else ''
         tiles += f'<a class="fxt fxt-{key}"{href}><i>{ic}</i><b>{e(LX(nm)[l])}</b><span>{e(LX(ds)[l])}</span>' + (f'<em>{n}</em>' if n else '') + '</a>'
     cr = ''
@@ -1611,6 +1612,11 @@ def mpager(l, n, total, url, top=False):
     return f'<nav class="mpg" aria-label="{lab}">{pv}{out}{nx}</nav>'
 def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None, mpage_url=None):
     u = UI[l]; g = dict(GPU[l]); g.update(MPU.get(kind, {}).get(l, {}))
+    def thumb_ov(it):   # Nedy 31.10.2026: Profi-Thumbnail – Foto + Verlauf + Kicker + Schlagzeile direkt im Player (Fitness/Gesundheit)
+        if it.get('s') != 'leben' or it.get('sub') not in ('fitness', 'gesundheit'): return ''
+        k = it.get('kl') or {}; kt = k.get(l) or k.get('en') or k.get('de') or ''
+        pre = 'TWN FITNESS' if it.get('sub') == 'fitness' else LX({'bg': 'TWN ЗДРАВЕ', 'de': 'TWN GESUNDHEIT', 'en': 'TWN HEALTH', 'es': 'TWN SALUD', 'tr': 'TWN SAĞLIK'})[l]
+        return f'<span class="gr-thumb gr-thumb-{it.get("sub")}" aria-hidden="true"><em>{e(pre)}{(" · " + e(kt)) if kt else ""}</em><strong>{e(it[l]["t"])}</strong></span>'
     def cover_style(it):
         im = it.get('img')
         return f' style="background-image:url({im["f"]})"' if im else ''
@@ -1632,7 +1638,7 @@ def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None, 
         cr = (f'<p class="gr-cr">{credit(im, l, True)}' + (f' · {cvl} {e(it["cover"].get("cr", ""))}' if it.get('cover') else '') + '</p>') if im else ''
         cov = f'<img class="gr-cover" src="{e(it["cover"]["f"])}" alt="{e(it["cover"].get("alt", {}).get(l, ""))}" width="600" height="600" loading="lazy">' if it.get('cover') else ''
         pc = ''.join(f'<li class="p">{e(x)}</li>' for x in rv_list(rv, 'pro', l, 2)) + ''.join(f'<li class="c">{e(x)}</li>' for x in rv_list(rv, 'con', l, 2))
-        return (f'<article class="gr"><div class="gr-media"><div class="yt gr-yt" data-yt="{e(v["id"])}"{cover_style(it)}><span class="gr-badge">{g["badge"]}</span>{rv_ring(rv, " rv-ov")}{cov}'
+        return (f'<article class="gr"><div class="gr-media"><div class="yt gr-yt" data-yt="{e(v["id"])}"{cover_style(it)}><span class="gr-badge">{g["badge"]}</span>{rv_ring(rv, " rv-ov")}{cov}{thumb_ov(it)}'
                 f'<button type="button" class="yt-play">{e(g.get("playb") or u["play"])}</button><span class="yt-note">{e(u["ytnote"])}</span></div>{cr}</div>'
                 f'<div class="gr-txt">' + (f'<div class="gr-score">{e(sc)}</div>' if sc else '') +
                 f'<a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a>' + (f'<p class="gr-meta">{e(meta)}</p>' if meta else '') +
