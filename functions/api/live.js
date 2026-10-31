@@ -136,6 +136,13 @@ export async function onRequest(ctx) {
       return new Response(JSON.stringify({ http: r.status, errors: j.errors, plan: sub.plan, active: sub.active, end: sub.end, req, keylen: (ctx.env.APISPORTS_KEY || '').length, headers: h, body: j.response ? undefined : t.slice(0, 300) }), { headers: hdr });
     } catch (e) { return new Response(JSON.stringify({ diagerr: String(e) }), { headers: hdr }); }
   }
+  // Zentraler Abrufdienst (workers/live-fetcher, Nedy 31.10.2026): ist der KV-Speicher LIVE_KV verbunden und aktuell (< 3 Min.), nur daraus lesen
+  if (ctx.env.LIVE_KV && new URL(ctx.request.url).searchParams.get('sport') !== 'handball') {
+    try {
+      const v = await ctx.env.LIVE_KV.get('live:football', { cacheTtl: 30 });
+      if (v) { const d = JSON.parse(v); if (d.ok && Date.now() / 1000 - (d.updated || 0) < 180) return new Response(v, { headers: hdr }); }
+    } catch (e) {}
+  }
   const outKey = new Request('https://terraworldnews.com/__live/out' + (new URL(ctx.request.url).searchParams.get('sport') === 'handball' ? '/hb' : ''));
   const outHit = await caches.default.match(outKey);
   if (outHit) return new Response(await outHit.text(), { headers: hdr });   // eine gemeinsame Antwort je Rechenzentrum für 30 s

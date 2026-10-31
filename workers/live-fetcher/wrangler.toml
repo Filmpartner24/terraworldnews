@@ -1,0 +1,11 @@
+# TWN Live-Abrufdienst – Einrichtung siehe workers/live-fetcher/ANLEITUNG.md
+name = "twn-live-fetcher"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[triggers]
+crons = ["* * * * *"]
+
+[[kv_namespaces]]
+binding = "LIVE_KV"
+id = "HIER_KV_ID_EINTRAGEN"
