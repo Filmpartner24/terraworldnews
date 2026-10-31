@@ -497,6 +497,33 @@
     "img.alt": "Sembolik fotoğraf: Hong Kong'da bir Jimmy Choo mağazası"
    }
   },
+  "chariot-photonischer-chip-chara-teleskope": {
+   "L": {
+    "body": [
+     "Astronomlar, birden fazla teleskopu tek ve çok daha büyük bir cihaz gibi çalışacak şekilde birbirine bağlıyor. Bunun için şimdiye kadar karmaşık optik düzenekler gerekiyordu. İskoçya'daki Heriot-Watt Üniversitesi ile Potsdam'daki Leibniz Astrofizik Enstitüsü'nden araştırmacılar, yalnızca birkaç santimetrelik bir cam çipin bu görevi üstlenebildiğini gösterdi. İlk yazarı Dr. Aline Dinkelaker olan çalışma “Monthly Notices of the Royal Astronomical Society” dergisinde yayımlandı (DOI 10.1093/mnras/stag1745); Heriot-Watt çalışmayı 27 Ekim'de tanıttı.",
+     "Çipe, ultra kısa lazer darbeleriyle ışık ileten kanallar yazılmış. Çip, Kaliforniya'daki Mount Wilson'da bulunan altı teleskoplu CHARA teleskop dizisindeki CHARIOT cihazında, 2024 ve 2025'te 2,2 mikrometre civarında kızılötesi gözlemlerle test edildi. CHARIOT, önceki sisteme kıyasla daha sönük yıldızlardan gelen sinyalleri yakaladı; ancak ingenieur.de'ye göre parlak ve orta parlaklıktaki yıldızlarda öncül sistem JouFLU kimi durumlarda daha hassastı. Yeni tasarımları test etmek için çipler birkaç saat içinde değiştirilebiliyor.",
+     "“Bu, 15 yıldan uzun süre önce başlayan bir araştırma programı için önemli bir dönüm noktası”, diyor Heriot-Watt Üniversitesi'nden Profesör Robert Thomson. Çalışmaya Köln ve Potsdam üniversiteleri ile CHARA dizisini işleten Georgia State University de katıldı. Ekip, uzun vadede cihazın iki teleskoptan dört teleskoba genişletilip genişletilemeyeceğini inceliyor. Üniversite, uygulama alanlarını örneğin gezegen sistemlerinin nasıl oluştuğunun araştırılmasında görüyor."
+    ],
+    "d": "Birkaç santimetrelik bir cam çip, Kaliforniya'daki CHARA teleskop dizisinde ilk kez iki teleskopun ışığını birleştirdi. CHARIOT cihazı böylece öncülünün ulaşamadığı yıldızları da tespit etti.",
+    "t": "Pul büyüklüğündeki cam çip, teleskopları tek bir büyük cihaza dönüştürüyor"
+   },
+   "at": "2026-10-31T13:25Z",
+   "h": "505520f36bac",
+   "rev": [
+    "Headline: \"Briefmarke\" (stamp) is rendered as \"Pul\", which is acceptable, but \"Pul büyüklüğündeki\" is fine. The headline is OK.",
+    "\"Die Studie um Erstautorin\" was rendered as \"başında olduğunu\", an awkward construction; simplified.",
+    "\"Chips lassen sich ... austauschen\": the meaning is kept, but the sentence order was adjusted to be more natural."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Mount Wilson'daki CHARA dizisine ait teleskop ve ışık iletim hattı",
+    "kl": "Uzay"
+   }
+  },
   "claude-app-carplay-sprachmodus": {
    "L": {
     "body": [
@@ -1005,6 +1032,32 @@
    ],
    "x": {
     "img.alt": "Joti Chatzialexiou, 2018'de DFB yöneticisi olarak (Arşiv fotoğrafı)"
+   }
+  },
+  "eintracht-ilicevic-16-hsv-2026-10-31": {
+   "L": {
+    "body": [
+     "Eintracht Frankfurt'un genç oyuncusu Niko Ilicevic cumartesi günü 16. doğum gününü kutluyor ve bir gün sonra Bundesliga'da ilk maçına çıkabilir. Teknik direktör Adi Hütter, hücum oyuncusunu pazar günü (17:30) Hamburger SV ile oynanacak iç saha maçında kadroya alacağını açıkladı. Hütter, “Kutlama yapmaya vakti olmayacak, çünkü büyük olasılıkla kadroda da yer alacak” dedi.",
+     "Ilicevic oynarsa, 16 yıl ve bir günlük yaşıyla, Kasım 2020'de Borussia Dortmund formasıyla ilk maçına çıkan Youssoufa Moukoko ile birlikte Bundesliga tarihinin en genç oyuncusu olacak. Hütter, “Onu oyuna sokabileceğim bir durum ortaya çıkarsa, bunu yaparım” dedi, ancak şunu da ekledi: “Bu çocukla çok dikkatli davranmak benim ve bizim de görevimiz.”",
+     "Ilicevic bu sezon U19 takımında yedi maça çıktı, dört gol attı ve üç asist yaptı. Rakip, aile için ayrı bir anlam taşıyor: Amcası Ivo Ilicevic 2011-2016 arasında HSV'de oynadı."
+    ],
+    "d": "Niko Ilicevic bugün 16 yaşına giriyor ve pazar günü HSV karşısında Frankfurt kadrosunda yer alıyor. Oynarsa, Youssoufa Moukoko ile birlikte Bundesliga'nın en genç oyuncusu olacak.",
+    "t": "16. doğum gününde kadroda: Eintracht'ın genci Ilicevic, Moukoko rekoruna ortak olabilir"
+   },
+   "at": "2026-10-31T13:25Z",
+   "h": "39f2bdced158",
+   "rev": [
+    "Teaser: 'kadrosunda yer alıyor' stated as certain, but German says 'steht im Kader' as planned; acceptable. Teaser conditional present ('olacak' after 'Oynarsa') is fine.",
+    "Body paragraph 2: added attribution 'Hütter'in aktardığına göre' not in German – Hütter did not state the record claim; it is the narrator's conditional.",
+    "Teaser: Moukoko 'ile birlikte' — meaning kept."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Eintracht teknik direktörü Adi Hütter (Arşiv fotoğrafı)"
    }
   },
   "elevenlabs-sfx-v3-soundeffekte": {
