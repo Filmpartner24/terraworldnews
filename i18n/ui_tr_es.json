@@ -277,6 +277,18 @@
    "basketball": [
     "Basketbol",
     "basketbol"
+   ],
+   "debund": [
+    "Federal siyaset",
+    "federal-siyaset"
+   ],
+   "dewirtschaft": [
+    "Ekonomi ve istihdam",
+    "ekonomi-istihdam"
+   ],
+   "delaender": [
+    "Eyaletler ve şehirler",
+    "eyaletler-sehirler"
    ]
   },
   "es": {
@@ -475,6 +487,18 @@
    "basketball": [
     "Baloncesto",
     "baloncesto"
+   ],
+   "debund": [
+    "Política federal",
+    "politica-federal"
+   ],
+   "dewirtschaft": [
+    "Economía y empleo",
+    "economia-empleo"
+   ],
+   "delaender": [
+    "Estados y ciudades",
+    "estados-ciudades"
    ]
   },
   "it": {
@@ -3783,5 +3807,29 @@
   ],
   "tr": "Basketbol: NBA, EuroLeague, Almanya BBL ve FIBA – haberler, sonuçlar, öne çıkanlar ve analizler, her gün güncellenir.",
   "es": "Baloncesto: NBA, EuroLeague, la BBL alemana y FIBA: noticias, resultados, mejores jugadas y análisis, actualizados a diario."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "debund"
+  ],
+  "tr": "Almanya federal siyaseti: Federal Meclis, hükümet, partiler ve yasalar – her gün kaynaklarıyla.",
+  "es": "Política federal alemana: Bundestag, Gobierno, partidos y leyes, cada día con fuentes."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "dewirtschaft"
+  ],
+  "tr": "Almanya’da ekonomi ve istihdam: sanayi, iş piyasası, fiyatlar ve iflaslar – her gün kaynaklarıyla.",
+  "es": "Economía y empleo en Alemania: industria, mercado laboral, precios e insolvencias, cada día con fuentes."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "delaender"
+  ],
+  "tr": "Eyaletler ve şehirler: Hamburg’dan Bavyera’ya Almanya’nın eyalet ve büyük şehirlerinden haberler.",
+  "es": "Estados y ciudades: noticias de los estados federados y grandes ciudades alemanas, de Hamburgo a Baviera."
  }
 ]
