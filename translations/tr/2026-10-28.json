@@ -2573,6 +2573,35 @@
     1
    ]
   },
+  "invest-deutschland": {
+   "L": {
+    "body": [
+     "Çip sektörünün tedarikçisi Suss Microtec (MDAX, 50 orta ölçekli borsa şirketinin endeksi), Münih yakınlarındaki Garching'de üretimi sonlandırıyor ve üretimi en büyük tesisleri olan Zhubei (Tayvan) ile Sternenfels'e (Baden-Württemberg) kaydırıyor. Yaklaşık 70 çalışan etkileniyor, tek seferlik maliyet 6,2 milyon avro. Araştırma ve şirket merkezi Almanya'da kalıyor, Karlsruhe'de bir geliştirme ve uygulama merkezi kuruluyor. Suss aynı zamanda 2026 ciro tahminini 405-425 milyon avroya düşürdü (önceki tahmin 425-485 milyon avro); hisse zaman zaman yaklaşık yüzde 11 değer kaybetti (dpa-AFX, 27.10.).",
+     "Türingiya, Erfurt'taki eyalet veri merkezinin genişletilmesi ve modernizasyonu için yaklaşık 63 milyon avro yatırım yapıyor; harcama eyalet bütçesinden ve federal hükümetin altyapı özel fonundan karşılanıyor. Önce yeni bir bina inşa edilecek, teknik donanım mart 2029'dan itibaren taşınacak ve her şeyin 2030 sonuna kadar tamamlanması planlanıyor (Dijital Bakanlık'a dayanan Kommune21 haberi, 27.10.).",
+     "Porsche, dokuz ayın sonunda 25,28 milyar avro ciro (yüzde −5,9) ve 1,74 milyar avro faaliyet sonucu bildirdi; üçüncü çeyrekte içten yanmalı motor geliştirmesine daha fazla ağırlık vermeye geri dönüş yaklaşık 300 milyon avroya mal oldu. Yeni bir kesinti olmadı: 2035'e kadar yaklaşık 9.000 pozisyonun azaltılması (temmuzda kararlaştırıldı) yalnızca teyit edildi ve bu nedenle yeni olarak sayılmıyor. Beiersdorf herhangi bir istihdam azaltımı açıklamadı, organik ciro yüzde 1,3 geriledi. Infineon, Avusturya'daki Villach tesisine 1,1 milyar avro yatırım yapıyor.",
+     "Tablodaki toplam tutar 9,44 milyar avroya (yüzde +0,67), açıklanan ve rakamla belirtilen istihdam azaltımı ise 19.918 pozisyona yükseldi (kendi hesabımız). Siegen'de polise göre yaklaşık 3.500 kişi DEW çelik tesisinin üretime ara vermesini protesto etti; Swiss Steel orada yaklaşık 220 kişinin etkilendiğini belirtiyor. ifo ihracat beklentileri ekimde 12,2 puana yükselerek şubat 2022'den bu yana en iyi değere ulaştı."
+    ],
+    "d": "Çip ekipmanı üreticisi Suss Microtec, Garching'deki üretimi sonlandırıyor; yaklaşık 70 çalışan etkileniyor. Türingiya, Erfurt'taki eyalet veri merkezine yaklaşık 63 milyon avro yatırım yapıyor.",
+    "explain": "Garching'deki yaklaşık 70 etkilenen çalışanın başka bir tesise geçip geçemeyeceği belirsiz. Bu kez yeni yatırımlar ağırlıklı olarak şirketlerden değil, kamu kesiminden geldi.",
+    "t": "Suss Microtec üretimi Garching'den çekiyor – Türingiya eyalet veri merkezini genişletiyor"
+   },
+   "at": "2026-10-31T22:41Z",
+   "h": "c2aac067173f",
+   "rev": [
+    "\"Thüringen\" left untranslated in headline, teaser and body; Turkish name is Türingiya",
+    "Fourth paragraph first sentence is garbled: \"Tabellensumme\" and \"Abbau mit Zahl\" are mistranslated and the grammar is broken",
+    "\"Juli\" should be capitalised per the draft's own conventions; \"Temmuzda\" is written without an apostrophe, but month names are lowercase in TDK, so \"Temmuz'da\" needs the apostrophe only if a proper no",
+    "\"Ekim'de\" and \"Şubat 2022\": month names are lowercase in Turkish per TDK",
+    "\"Mart 2029'dan\" should be lowercase \"mart 2029'dan\" per TDK",
+    "The Porsche phrase \"dönüş\" is awkward, as the return to combustion-engine development is rendered unclearly",
+    "Teaser/headline: the Landesrechenzentrum is the state data centre; the teaser drops \"Landes-\""
+   ],
+   "rev_dbg": [
+    7,
+    8,
+    0
+   ]
+  },
   "israel-wahl-auszaehlung-2026-10-28-b18": {
    "L": {
     "body": [
