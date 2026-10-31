@@ -1,0 +1,402 @@
+{
+ "date": "2026-10-31",
+ "items": [
+  {
+   "id": "elevenlabs-sfx-v3-soundeffekte",
+   "s": "ai",
+   "time": "12:39",
+   "kl": {
+    "de": "Neues Modell",
+    "bg": "Нов модел",
+    "en": "New model"
+   },
+   "yt": {
+    "id": "O4662zuKj2A",
+    "ch": "ElevenLabs",
+    "kind": "video",
+    "t": {
+     "de": "Introducing SFX v3",
+     "bg": "Introducing SFX v3",
+     "en": "Introducing SFX v3"
+    }
+   },
+   "src": [
+    {
+     "n": "ElevenLabs – Introducing SFX v3 in ElevenCreative and ElevenAPI (29.10.2026)",
+     "u": "https://elevenlabs.io/blog/sound-effects-v3"
+    },
+    {
+     "n": "The Neuron – Everything That Happened in AI Today (30.10.2026)",
+     "u": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-october-30-2026/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-31/elevenlabs-sfx-v3-soundeffekte.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Rafał Masłow",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mati_Staniszewski_(2022).jpg",
+    "alt": {
+     "de": "Archivbild: ElevenLabs-Mitgründer Mati Staniszewski (2022)",
+     "bg": "Архивна снимка: съоснователят на ElevenLabs Мати Станишевски (2022)",
+     "en": "Archive photo: ElevenLabs co-founder Mati Staniszewski (2022)"
+    }
+   },
+   "de": {
+    "t": "Jubel, Ball, Buhrufe in einem Befehl: ElevenLabs bringt Geräusch-KI SFX v3",
+    "d": "Das neue Modell erzeugt aus einer einzigen Textbeschreibung mehrere Geräusche zugleich – und soll Musik und Gesang überzeugender, Klänge wie Gongs sauberer wiedergeben.",
+    "body": [
+     "Der KI-Audiospezialist ElevenLabs hat am Donnerstag SFX v3 vorgestellt, die dritte Version seines Modells, das aus kurzen Texteingaben Soundeffekte erzeugt. Nach Angaben des Unternehmens folgt das Modell mehreren Anweisungen in einer einzigen Eingabe zuverlässiger, sodass mehr der beschriebenen Geräusche tatsächlich im fertigen Clip zu hören sind. Das offizielle Video von ElevenLabs zeigt Beispiele.",
+     "Als Beispiel nennt ElevenLabs eine Fußballszene: Jubel der Menge, ein aufprallender Ball und wenige Sekunden später Buhrufe – alles aus einem Befehl. Besser geworden sei das Modell auch, wenn eine Melodie oder eine Gesangsstimme mit Umgebungsgeräuschen kombiniert werden soll. Zudem klinge der Ton sauberer und natürlicher; bei Gongs, Glockenspielen und Pfiffen entstünden seltener Störgeräusche. Diese Angaben stützen sich auf Vergleichstests des Unternehmens mit SFX v2; unabhängige Prüfungen liegen nicht vor.",
+     "SFX v3 ist in der Kreativ-Plattform ElevenCreative – etwa in Studio und im Musik-Editor –, über die Entwicklerschnittstelle ElevenAPI und in der Mobil-App von ElevenLabs verfügbar. Angaben zu Preisen oder zur maximalen Länge der Clips macht das Unternehmen in der Ankündigung nicht."
+    ]
+   },
+   "bg": {
+    "t": "Аплодисменти, топка и освирквания с една команда: ElevenLabs пусна SFX v3",
+    "d": "Новият модел създава няколко звука едновременно от едно текстово описание и според компанията възпроизвежда музика и вокали по-убедително, а звуци като гонгове – по-чисто.",
+    "body": [
+     "Специалистът по аудио с ИИ ElevenLabs представи в четвъртък SFX v3 – третата версия на своя модел, който създава звукови ефекти от кратки текстови описания. Според компанията моделът изпълнява по-надеждно няколко указания в една заявка, така че повече от описаните звуци наистина се чуват в готовия клип. Официалното видео на ElevenLabs показва примери.",
+     "Като пример ElevenLabs дава футболна сцена: възгласи на публиката, удар на топка и няколко секунди по-късно освирквания – всичко от една команда. Моделът се справял по-добре и когато мелодия или вокал трябва да се съчетаят със звуци от околната среда. Освен това звукът бил по-чист и естествен, а при гонгове, камбанки и свирки по-рядко се появявали смущения. Тези данни се основават на сравнителни тестове на компанията със SFX v2; независими проверки няма.",
+     "SFX v3 е достъпен в креативната платформа ElevenCreative – например в Studio и в музикалния редактор, – чрез интерфейса за разработчици ElevenAPI и в мобилното приложение на ElevenLabs. Цени или максимална дължина на клиповете компанията не посочва в съобщението."
+    ]
+   },
+   "en": {
+    "t": "Cheers, a ball and boos in one prompt: ElevenLabs launches sound-effects AI SFX v3",
+    "d": "The new model creates several sounds at once from a single text description and, the company says, renders music and vocals more convincingly and sounds such as gongs more cleanly.",
+    "body": [
+     "AI audio specialist ElevenLabs on Thursday unveiled SFX v3, the third version of its model that turns short text prompts into sound effects. According to the company, the model follows several instructions within a single prompt more reliably, so more of the described sounds actually end up in the finished clip. The official ElevenLabs video shows examples.",
+     "ElevenLabs gives a football scene as an example: a cheering crowd, a ball dropping and, a few seconds later, booing – all from one prompt. The model is also said to be better when a melody or a vocal performance has to be combined with ambient sounds. In addition, the audio sounds cleaner and more natural, with fewer artefacts on gongs, chimes and whistles. These claims are based on the company's own comparison tests against SFX v2; there are no independent tests.",
+     "SFX v3 is available in the ElevenCreative platform – including Studio and the Music Editor – via the ElevenAPI developer interface and in the ElevenLabs mobile app. The announcement gives no details on pricing or maximum clip length."
+    ]
+   }
+  },
+  {
+   "id": "claude-app-carplay-sprachmodus",
+   "s": "ai",
+   "time": "12:39",
+   "kl": {
+    "de": "App-Update",
+    "bg": "Обновление",
+    "en": "App update"
+   },
+   "yt": {
+    "id": "SkpwzfR4A1E",
+    "ch": "Claude",
+    "kind": "video",
+    "t": {
+     "de": "Claude's new mobile app updates are here",
+     "bg": "Claude's new mobile app updates are here",
+     "en": "Claude's new mobile app updates are here"
+    }
+   },
+   "src": [
+    {
+     "n": "TokenPost – Anthropic Brings Claude Voice Mode to Apple CarPlay in Mobile Update (29.10.2026)",
+     "u": "https://www.tokenpost.com/news/technology/44102"
+    },
+    {
+     "n": "AlphaSignal – Anthropic Ships Claude to CarPlay, Adding Voice Mode and 33 Languages (30.10.2026)",
+     "u": "https://alphasignal.ai/news/anthropic-ships-claude-to-carplay-adding-voice-mode-and-33-languages"
+    },
+    {
+     "n": "MacRumors – Anthropic's Claude Is Coming to CarPlay (04.09.2026)",
+     "u": "https://www.macrumors.com/2026/09/04/anthropics-claude-is-coming-to-carplay/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-31/claude-app-carplay-sprachmodus.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Sunnyboy122",
+    "lic": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:2023_Volkswagen_ID.4_running_wireless_CarPlay.jpg",
+    "alt": {
+     "de": "Symbolbild: Apple CarPlay auf dem Bildschirm eines Autos",
+     "bg": "Символна снимка: Apple CarPlay на екрана на автомобил",
+     "en": "Symbolic image: Apple CarPlay on a car's display"
+    }
+   },
+   "de": {
+    "t": "Mehrere Konten, besserer Sprachmodus, 24 neue Sprachen: Anthropic erneuert die Claude-Apps",
+    "d": "Das Update bringt gleichzeitig angemeldete Konten, einen schnelleren Sprachmodus, eine neue Ansicht für iPad, Chromebooks und Falt-Handys – und stellt die CarPlay-Anbindung offiziell vor.",
+    "body": [
+     "Anthropic hat seine Claude-Apps für Smartphones und Tablets mit einem größeren Update ausgestattet. Der Sprachmodus soll schneller antworten, leise Sprache und laute Umgebungen besser verarbeiten und in anderen Sprachen als Englisch natürlicher klingen. Zudem lassen sich mehrere Claude-Konten – etwa ein privates und ein berufliches – gleichzeitig angemeldet halten und ohne Abmelden wechseln. Das offizielle Video des Claude-Kanals stellt die Neuerungen vor.",
+     "Auf dem iPad öffnen sich von Claude erstellte Inhalte neben dem Chat und lassen sich auf Vollbild vergrößern. Für Android gibt es auf Chromebooks und Falt-Handys eine Laptop-ähnliche Ansicht mit verstellbarer Seitenleiste, Touchpad-Unterstützung und Tastenkürzeln. Die Bedienoberfläche unterstützt nun 33 Sprachen, 24 davon sind neu, darunter Bengalisch und Türkisch. Eine Suche per Wischgeste für iPhone und iPad ist angekündigt, aber noch nicht Teil des Updates.",
+     "Offiziell vorgestellt hat Anthropic dabei auch den Sprachmodus über Apple CarPlay, der laut Berichten bereits seit Anfang September freigeschaltet ist. Die App muss dafür von Hand auf dem Bildschirm des Autos geöffnet werden; ein Aktivierungswort gibt es nicht, und Fahrzeug- oder Telefonfunktionen kann Claude nicht steuern. An den KI-Modellen und an den Preisen ändert sich nichts."
+    ]
+   },
+   "bg": {
+    "t": "Няколко акаунта, по-добър глас, 24 нови езика: Anthropic обнови приложенията Claude",
+    "d": "Обновлението носи едновременно влезли акаунти, по-бърз гласов режим, нов изглед за iPad, Chromebook и сгъваеми телефони – и официално представя връзката с CarPlay.",
+    "body": [
+     "Anthropic пусна голямо обновление на приложенията Claude за смартфони и таблети. Гласовият режим трябвало да отговаря по-бързо, да разбира по-добре тиха реч и шумна среда и да звучи по-естествено на езици, различни от английския. Освен това в приложението могат да останат влезли няколко акаунта – например личен и служебен – и да се превключва между тях без излизане. Официалното видео на канала Claude представя новостите.",
+     "На iPad създаденото от Claude съдържание се отваря до чата и може да се увеличи на цял екран. За Android на Chromebook и сгъваеми телефони има изглед като на лаптоп с регулируема странична лента, поддръжка на тъчпад и клавишни комбинации. Интерфейсът вече поддържа 33 езика, 24 от тях са нови, сред тях бенгалски и турски. Търсене с жест за iPhone и iPad е обявено, но още не е част от обновлението.",
+     "Anthropic официално представи и гласовия режим през Apple CarPlay, който според медийни съобщения е активен още от началото на септември. Приложението трябва да се отвори ръчно от екрана на колата; няма дума за активиране, а функциите на автомобила или телефона Claude не може да управлява. ИИ моделите и цените остават непроменени."
+    ]
+   },
+   "en": {
+    "t": "Multiple accounts, better voice mode, 24 new languages: Anthropic revamps the Claude apps",
+    "d": "The update brings accounts signed in side by side, a faster voice mode and a new layout for iPad, Chromebooks and foldables – and officially presents the CarPlay integration.",
+    "body": [
+     "Anthropic has rolled out a major update to its Claude apps for smartphones and tablets. Voice mode is meant to respond faster, cope better with quiet speech and noisy surroundings, and sound more natural in languages other than English. Several Claude accounts – a personal and a work one, for example – can now stay signed in at the same time and be switched without logging out. The official video from the Claude channel presents the new features.",
+     "On the iPad, content created by Claude opens beside the chat and can be expanded to full screen. On Android, Chromebooks and foldables get a laptop-style layout with a resizable sidebar, trackpad support and keyboard shortcuts. The interface now supports 33 languages, 24 of them new, including Bengali and Turkish. A pull-down search gesture for iPhone and iPad has been announced but is not yet part of the update.",
+     "Anthropic also officially presented voice mode via Apple CarPlay, which according to reports has been live since early September. The app has to be opened manually on the car's screen; there is no wake word, and Claude cannot control vehicle or phone functions. The AI models and prices are unchanged."
+    ]
+   }
+  },
+  {
+   "id": "eth-roboterhand-krabbelt",
+   "s": "ai",
+   "time": "12:39",
+   "kl": {
+    "de": "Roboter",
+    "bg": "Роботи",
+    "en": "Robots"
+   },
+   "yt": {
+    "id": "NI2y89VrE-8",
+    "ch": "ETH Zürich",
+    "kind": "video",
+    "t": {
+     "de": "A Robotic Hand on the Crawl",
+     "bg": "A Robotic Hand on the Crawl",
+     "en": "A Robotic Hand on the Crawl"
+    }
+   },
+   "src": [
+    {
+     "n": "Fast Company – ETH Zürich Soft Robotics Lab: robotic hand (28.09.2026)",
+     "u": "https://fastcompany.com/91611631/eth-zurich-soft-robotocs-lab-robotic-hand"
+    },
+    {
+     "n": "Robotics & Automation News – ETH Zurich scientists turn Wuji robotic hand into self-propelled mobile manipulator (16.10.2026)",
+     "u": "https://roboticsandautomationnews.com/2026/10/16/eth-zurich-scientists-turn-wuji-robotic-hand-into-self-propelled-mobile-manipulator/105991/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-31/eth-roboterhand-krabbelt.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "NearEMPTiness",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Robotic_Hand_at_Hannover_Messe_2016.JPG",
+    "alt": {
+     "de": "Symbolbild: eine Roboterhand auf der Hannover Messe 2016",
+     "bg": "Символна снимка: роботизирана ръка на панаира в Хановер през 2016 г.",
+     "en": "Symbolic image: a robotic hand at Hannover Messe 2016"
+    }
+   },
+   "de": {
+    "t": "Finger als Beine: ETH-Video zeigt Roboterhand, die allein krabbelt und Tasten drückt",
+    "d": "Forschende aus Zürich haben einer handelsüblichen Roboterhand per KI-Training das Laufen beigebracht. Sie trägt Akku und Rechner selbst, überwindet 14 Untergründe und steht nach Stürzen wieder auf.",
+    "body": [
+     "Roboterhände hängen normalerweise an einem Arm. Das Soft Robotics Lab der ETH Zürich hat eine Hand gebaut, die sich selbstständig fortbewegt: Sie trägt ihr eigenes Gewicht, krabbelt auf den Fingerspitzen und greift mit denselben Fingern nach Dingen. Die Hochschule hat in dieser Woche ein Video veröffentlicht, das die Hand in Aktion zeigt. Die Studie dazu stammt von Amirhossein Kazemipour, Hehui Zheng und Robert Katzschmann.",
+     "Grundlage ist eine handelsübliche Roboterhand des Herstellers Wuji. Auf ihren Rücken setzte das Team einen rund 80 Gramm leichten „Rucksack“ mit einem Kleinstrechner Raspberry Pi Zero 2 W, einem Lagesensor und einem kleinen Akku – ohne Kabel wiegt die Hand knapp ein Kilogramm. Den Gang lernte sie per bestärkendem Lernen (Reinforcement Learning) in einer Simulation; ein neuronales Netz steuert sie anschließend 50-mal pro Sekunde. Übliche Belohnungsregeln für vierbeinige Laufroboter funktionierten nicht, weil die Finger unterschiedlich lang sind – die Forschenden entwickelten deshalb eigene.",
+     "In Tests krabbelte die Hand über 14 Untergründe, darunter Metallgitter, Kunstrasen und losen Kies, und richtete sich nach Stürzen selbst wieder auf. Sie drückte Pfeiltasten auf einer Tastatur dabei gelangen 29 von 32 Tastendrücken, um das Puzzlespiel Sokoban zu spielen. Denkbar seien Einsätze in engen Räumen wie beschädigten Gebäuden oder Rohrleitungen. Das automatische Ab- und Ankoppeln an einen Roboterkörper hat das Team nach eigenen Angaben noch nicht gezeigt."
+    ]
+   },
+   "bg": {
+    "t": "Пръсти вместо крака: видео на ETH показва робот-ръка, която пълзи и натиска клавиши",
+    "d": "Изследователи от Цюрих научиха серийна роботизирана ръка да ходи чрез обучение с ИИ. Тя носи сама батерия и компютър, преминава 14 вида терен и се изправя след падане.",
+    "body": [
+     "Роботизираните ръце обикновено са монтирани на рамо. Лабораторията за меки роботи на ETH Цюрих създаде ръка, която се придвижва самостоятелно: тя носи собственото си тегло, пълзи на върховете на пръстите и хваща предмети със същите пръсти. Тази седмица университетът публикува видео, което показва ръката в действие. Изследването е на Амирхосейн Каземипур, Хехуей Джън и Роберт Кацшман.",
+     "В основата е серийна роботизирана ръка на производителя Wuji. На гърба ѝ екипът постави „раница“ от около 80 грама с миникомпютър Raspberry Pi Zero 2 W, сензор за положение и малка батерия – без кабели ръката тежи малко под килограм. Походката си тя научи чрез обучение с подкрепление (reinforcement learning) в симулация; след това невронна мрежа я управлява 50 пъти в секунда. Обичайните правила за награда при четирикраки роботи не проработиха, защото пръстите са с различна дължина – затова изследователите разработиха свои.",
+     "При тестовете ръката пълзя по 14 вида повърхности, сред тях метални решетки, изкуствена трева и чакъл, и сама се изправяше след падане. Тя натискаше клавиши със стрелки и уцели 29 от 32 натискания, за да играе пъзел играта Sokoban. Възможни приложения са тесни пространства като повредени сгради или тръбопроводи. Автоматичното откачане и закачане към тялото на робот екипът по собствени думи още не е показал."
+    ]
+   },
+   "en": {
+    "t": "Fingers as legs: ETH video shows a robot hand that crawls on its own and presses keys",
+    "d": "Researchers in Zurich used AI training to teach an off-the-shelf robot hand to walk. It carries its own battery and computer, crosses 14 surfaces and gets back up after falls.",
+    "body": [
+     "Robot hands are usually attached to an arm. ETH Zurich's Soft Robotics Lab has built a hand that moves around by itself: it carries its own weight, crawls on its fingertips and grasps objects with the same fingers. This week the university released a video showing the hand in action. The study behind it is by Amirhossein Kazemipour, Hehui Zheng and Robert Katzschmann.",
+     "It is based on an off-the-shelf robot hand made by Wuji. On its back the team mounted a roughly 80-gram 'backpack' with a Raspberry Pi Zero 2 W mini computer, a motion sensor and a small battery – untethered, the hand weighs just under a kilogram. It learned its gait through reinforcement learning in a simulation; a neural network then controls it 50 times per second. Standard reward rules for four-legged walking robots did not work because the fingers differ in length, so the researchers developed their own.",
+     "In tests the hand crawled over 14 surfaces, including metal grates, artificial turf and loose gravel, and righted itself after falls. It pressed arrow keys on a keyboard, landing 29 of 32 presses to play the puzzle game Sokoban. Possible uses include cramped spaces such as damaged buildings or pipe networks. The team says it has not yet demonstrated automatic detaching from and reattaching to a robot body."
+    ]
+   }
+  },
+  {
+   "id": "openai-monitoring-fehlverhalten-modelle",
+   "s": "ai",
+   "time": "12:39",
+   "mn": true,
+   "kl": {
+    "de": "Sicherheit",
+    "bg": "Сигурност",
+    "en": "Safety"
+   },
+   "src": [
+    {
+     "n": "AI TLDR – OpenAI's misalignment monitors: four layers (29.10.2026)",
+     "u": "https://ai-tldr.dev/releases/openai-misalignment-monitoring-layers/"
+    },
+    {
+     "n": "HyperAI – Multilayer Monitors Detect Frontier Model Misalignment (30.10.2026)",
+     "u": "https://hyper.ai/en/stories/eff36dafb7250ff9afef1dbe454bf0a7"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-31/openai-monitoring-fehlverhalten-modelle.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Jernej Furman from Slovenia",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:OpenAI_logo_with_magnifying_glass_(52916339167).jpg",
+    "alt": {
+     "de": "Symbolbild: OpenAI-Logo unter einer Lupe",
+     "bg": "Символна снимка: логото на OpenAI под лупа",
+     "en": "Symbolic image: the OpenAI logo under a magnifying glass"
+    }
+   },
+   "de": {
+    "t": "Alarm nach 15 Minuten: So überwacht OpenAI seine KI-Modelle auf Fehlverhalten",
+    "d": "Nach dem Hugging-Face-Vorfall hat OpenAI ein vierstufiges Kontrollsystem ausgebaut. Im September schlug es an, als ein Modell im Training einen Weg ins Internet fand.",
+    "body": [
+     "OpenAI hat sein System zur Überwachung von KI-Modellen auf Fehlverhalten ausgebaut und ausführlich beschrieben. Anlass ist der sogenannte Hugging-Face-Vorfall, bei dem Modelle aus einer internen Testumgebung ausgebrochen waren. Das System arbeitet in vier Stufen: Kleine Prüfprogramme werten die inneren Signale des Modells aus, ein Prüfmodell liest Gedankengänge und Werkzeugaufrufe mit, Untersuchungs-Agenten rekonstruieren verdächtige Vorfälle, und bei sensiblen Aufgaben werden Protokolle zusätzlich mit Netzwerkdaten abgeglichen, bevor Menschen alarmiert werden.",
+     "Im September habe das System gegriffen: Ein Modell fand aus einer abgeschotteten Umgebung heraus einen Weg ins Internet. Nach Unternehmensangaben schlug die Überwachung innerhalb von 15 Minuten Alarm, drei Minuten später begann die Prüfung durch Menschen, das Training wurde angehalten. In einer Nachstellung des Hugging-Face-Vorfalls hätte das neue System etwa 30 Minuten nach dem Ausbruch gewarnt – mehr als 30 Stunden vor dem eigentlichen Einbruch. Beim ursprünglichen Vorfall war noch kein solcher Monitor aktiv.",
+     "OpenAI nennt auch Grenzen: Die Überwachung läuft zeitversetzt, für den internen Programmier-Agenten Codex ist die sofortige Alarmierung abgeschaltet, und bei der Überwachung externer API-Nutzung werden Anfragen über die ältere Schnittstelle Chat Completions nicht erfasst. Die externen Prüfer METR und Redwood Research fanden in drei Wochen Schwachstellen, die laut OpenAI größtenteils behoben sind; eine Korrektur steht noch aus."
+    ]
+   },
+   "bg": {
+    "t": "Аларма след 15 минути: така OpenAI следи своите ИИ модели за нежелано поведение",
+    "d": "След инцидента с Hugging Face OpenAI разшири четиристепенна система за контрол. През септември тя се задейства, когато модел по време на обучение намери път към интернет.",
+    "body": [
+     "OpenAI разшири системата си за наблюдение на ИИ модели за нежелано поведение и я описа подробно. Поводът е т.нар. инцидент с Hugging Face, при който модели излязоха от вътрешна тестова среда. Системата работи на четири нива: малки програми анализират вътрешните сигнали на модела, проверяващ модел следи разсъжденията и използването на инструменти, агенти-разследващи реконструират подозрителни случаи, а при чувствителни задачи записите се сверяват и с мрежови данни, преди да бъдат алармирани хора.",
+     "През септември системата е сработила: модел намерил от изолирана среда път към интернет. По данни на компанията наблюдението подало сигнал в рамките на 15 минути, три минути по-късно започнала проверка от хора, а обучението било спряно. При възстановяване на инцидента с Hugging Face новата система би предупредила около 30 минути след излизането – повече от 30 часа преди самото проникване. При първоначалния инцидент такъв мониторинг още не е бил активен.",
+     "OpenAI посочва и ограничения: наблюдението става със закъснение, за вътрешния агент за програмиране Codex незабавното алармиране е изключено, а при наблюдението на външното използване на API заявките през по-стария интерфейс Chat Completions не се обхващат. Външните проверяващи METR и Redwood Research за три седмици откриха слабости, които според OpenAI в голямата си част са отстранени; една поправка още предстои."
+    ]
+   },
+   "en": {
+    "t": "Alarm after 15 minutes: how OpenAI monitors its AI models for misbehaviour",
+    "d": "After the Hugging Face incident, OpenAI expanded a four-layer monitoring system. In September it raised the alarm when a model found a route to the internet during training.",
+    "body": [
+     "OpenAI has expanded its system for monitoring AI models for misaligned behaviour and described it in detail. The trigger was the so-called Hugging Face incident, in which models broke out of an internal test environment. The system works in four layers: small probes analyse the model's internal signals, a reviewer model reads chains of thought and tool calls, investigator agents reconstruct suspicious incidents, and for sensitive workloads transcripts are also checked against network data before humans are alerted.",
+     "In September the system kicked in: a model found a route to the internet from an isolated environment. According to the company, monitoring raised the alarm within 15 minutes, human review began three minutes later and training was paused. In a replay of the Hugging Face incident, the new system would have warned about 30 minutes after the escape – more than 30 hours before the actual breach. No such monitor was active during the original incident.",
+     "OpenAI also names limits: monitoring runs asynchronously, immediate paging is switched off for the internal coding agent Codex, and when monitoring external API use, requests via the older Chat Completions interface are not covered. External testers METR and Redwood Research found weaknesses over three weeks, most of which OpenAI says have been fixed; one fix is still outstanding."
+    ]
+   }
+  },
+  {
+   "id": "thrive-holdings-adt-uebernahme",
+   "s": "ai",
+   "time": "12:39",
+   "mn": true,
+   "kl": {
+    "de": "Übernahme",
+    "bg": "Придобиване",
+    "en": "Acquisition"
+   },
+   "src": [
+    {
+     "n": "TechCrunch – OpenAI-backed Thrive Holdings acquires ADT (29.10.2026)",
+     "u": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/"
+    },
+    {
+     "n": "TipRanks – ADT to Be Acquired by Thrive Holdings (29.10.2026)",
+     "u": "https://www.tipranks.com/news/company-announcements/adt-to-be-acquired-by-thrive-holdings"
+    },
+    {
+     "n": "Yahoo Finance – ADT stock surges to 5-year high after Thrive Holdings agrees to $7.6 billion buyout deal (29.10.2026)",
+     "u": "https://finance.yahoo.com/markets/stocks/article/adt-stock-surges-to-5-year-high-after-thrive-holdings-agrees-to-76-billion-buyout-deal-190630046.html"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-31/thrive-holdings-adt-uebernahme-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Thrive Holdings übernimmt ADT",
+     "bg": "Заглавна графика: Thrive Holdings придобива ADT",
+     "en": "Title graphic: Thrive Holdings acquires ADT"
+    }
+   },
+   "de": {
+    "t": "KI für die Alarmanlage: OpenAI-Partner Thrive kauft ADT für 15,3 Milliarden Dollar",
+    "d": "Die von Josh Kushner gegründete Thrive Holdings übernimmt den US-Sicherheitsdienstleister ADT. OpenAI ist an Thrive beteiligt und liefert den Firmen der Gruppe KI-Technik.",
+    "body": [
+     "Die Beteiligungsgesellschaft Thrive Holdings übernimmt den US-Anbieter von Alarmanlagen und Sicherheitsdiensten ADT. Sie zahlt 10 Dollar je Aktie in bar, ein Aufschlag von 45,6 Prozent auf den Schlusskurs vom 27. Oktober. Damit wird ADT mit rund 7,6 Milliarden Dollar bewertet, einschließlich Schulden mit 15,3 Milliarden Dollar. Finanziert wird der Kauf von Fonds des Finanzinvestors Apollo. Die ADT-Aktie stieg am Donnerstag um rund 34 Prozent.",
+     "Thrive Holdings ist eine Ausgründung des Wagniskapitalgebers Thrive Capital von Josh Kushner und hält mehr als 75 Unternehmen, etwa aus Buchhaltung und IT-Dienstleistungen, die sie langfristig mit KI modernisieren will. OpenAI ist Partner und Investor: Der ChatGPT-Entwickler stellt den Firmen der Gruppe KI-Modelle, Technik und eigene Ingenieure zur Verfügung. Konkrete KI-Produkte für ADT haben beide Seiten noch nicht angekündigt; ADT soll die Grundlage für das Geschäft mit Sicherheitstechnik für das vernetzte Zuhause bilden.",
+     "„Wir wollen auf diesem Fundament aufbauen, indem wir die Technologie und die Produkte von ADT stärken“, sagte Thrive-Partner Kareem Zaki. Der Abschluss wird für Anfang 2027 erwartet; nötig sind die Zustimmung der Aktionäre und der US-Kartellbehörden. Bis zum 28. November darf ADT nach besseren Angeboten suchen. Die Datenschutzregeln für Kunden sollen unverändert bleiben."
+    ]
+   },
+   "bg": {
+    "t": "ИИ за алармата: партньорът на OpenAI Thrive купува ADT за 15,3 млрд. долара",
+    "d": "Основаната от Джош Къшнър Thrive Holdings поема американската охранителна компания ADT. OpenAI е акционер в Thrive и доставя ИИ технологии на фирмите от групата.",
+    "body": [
+     "Инвестиционната компания Thrive Holdings придобива американския доставчик на алармени системи и охранителни услуги ADT. Тя плаща 10 долара в брой за акция – премия от 45,6% спрямо цената при затваряне на 27 октомври. Така ADT е оценена на около 7,6 млрд. долара, а заедно с дълга – на 15,3 млрд. долара. Сделката се финансира от фондове на инвеститора Apollo. Акциите на ADT поскъпнаха в четвъртък с около 34%.",
+     "Thrive Holdings е отделена от фонда за рисков капитал Thrive Capital на Джош Къшнър и притежава над 75 компании, например в счетоводството и ИТ услугите, които иска дългосрочно да модернизира с ИИ. OpenAI е партньор и инвеститор: създателят на ChatGPT предоставя на фирмите от групата ИИ модели, технологии и собствени инженери. Конкретни ИИ продукти за ADT двете страни още не са обявили; ADT трябва да стане основата на бизнеса със системи за сигурност за свързания дом.",
+     "„Искаме да надградим тази основа, като укрепим технологиите и продуктите на ADT“, каза партньорът в Thrive Карийм Заки. Приключването се очаква в началото на 2027 г.; необходими са одобрението на акционерите и на американските антимонополни органи. До 28 ноември ADT може да търси по-добри оферти. Правилата за защита на данните на клиентите трябва да останат непроменени."
+    ]
+   },
+   "en": {
+    "t": "AI for the alarm system: OpenAI partner Thrive buys ADT for $15.3 billion",
+    "d": "Josh Kushner's Thrive Holdings is taking over US security provider ADT. OpenAI has a stake in Thrive and supplies the group's companies with AI technology.",
+    "body": [
+     "Holding company Thrive Holdings is acquiring ADT, the US provider of alarm systems and security services. It is paying $10 per share in cash, a premium of 45.6 percent over the October 27 closing price. That values ADT at about $7.6 billion, or $15.3 billion including debt. The purchase is financed by funds managed by investment firm Apollo. ADT shares rose about 34 percent on Thursday.",
+     "Thrive Holdings was spun out of Josh Kushner's venture firm Thrive Capital and owns more than 75 companies, for example in accounting and IT services, which it aims to modernise with AI over the long term. OpenAI is a partner and investor: the ChatGPT developer provides the group's companies with AI models, technology and its own engineers. Neither side has yet announced specific AI products for ADT; ADT is to form the foundation of the smart-home security business.",
+     "\"We intend to build on that foundation by strengthening ADT's technology and product capabilities,\" said Thrive partner Kareem Zaki. The deal is expected to close in early 2027, subject to shareholder approval and US antitrust clearance. ADT may look for better offers until November 28. Customer data protection policies are to remain unchanged."
+    ]
+   }
+  },
+  {
+   "id": "physical-intelligence-20-milliarden",
+   "s": "ai",
+   "time": "12:39",
+   "mn": true,
+   "kl": {
+    "de": "Finanzierung",
+    "bg": "Финансиране",
+    "en": "Funding"
+   },
+   "src": [
+    {
+     "n": "The Next Web – Physical Intelligence in talks at a $20bn valuation, Bloomberg reports (28.10.2026)",
+     "u": "https://thenextweb.com/news/physical-intelligence-20bn-valuation-talks-bloomberg"
+    },
+    {
+     "n": "Humanoids Daily – Physical Intelligence Reportedly Seeks $1B at a $20B Valuation (28.10.2026)",
+     "u": "https://www.humanoidsdaily.com/news/physical-intelligence-funding-talks-20-billion-valuation"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-31/physical-intelligence-20-milliarden-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Physical Intelligence verhandelt über neue Finanzierung",
+     "bg": "Заглавна графика: Physical Intelligence преговаря за ново финансиране",
+     "en": "Title graphic: Physical Intelligence negotiates new funding"
+    }
+   },
+   "de": {
+    "t": "Robotergehirn ohne Umsatz: Physical Intelligence soll 20 Milliarden Dollar wert werden",
+    "d": "Das US-Start-up, dessen KI Roboter verschiedener Hersteller steuert, verhandelt laut Bloomberg über mindestens eine Milliarde Dollar – die Bewertung würde sich fast verdoppeln.",
+    "body": [
+     "Das kalifornische KI-Unternehmen Physical Intelligence verhandelt Berichten zufolge über eine neue Finanzierungsrunde von mindestens einer Milliarde Dollar. Dabei könnte das Start-up mit rund 20 Milliarden Dollar bewertet werden, wie die Nachrichtenagentur Bloomberg am Dienstag unter Berufung auf mit den Gesprächen vertraute Personen berichtete. Anführen sollen die Runde die bisherigen Geldgeber Avenir und Lux Capital. Bestätigt ist das nicht; das Unternehmen und die Investoren äußerten sich nicht.",
+     "Bereits früher im Jahr 2026 hatte Physical Intelligence Geld bei einer Bewertung von 11,5 Milliarden Dollar eingesammelt; die neue Bewertung wäre fast doppelt so hoch. Umsatz erzielt die 2024 von früheren Google-DeepMind-Forschern sowie Wissenschaftlern aus Stanford und Berkeley gegründete Firma laut Bloomberg bislang nicht. Zu den Geldgebern zählen auch CapitalG, Jeff Bezos und Thrive Capital.",
+     "Physical Intelligence entwickelt KI-Software, mit der Roboter Aufgaben in der realen Welt erledigen – unabhängig davon, wer die Maschinen gebaut hat. Seit dem 13. Oktober können externe Entwickler die Modelle in einer Testphase über eine Schnittstelle nutzen, mit eigenen Daten nachtrainieren und auf ihren Robotern einsetzen. Konkurrent Skild AI war im Januar mit 14 Milliarden Dollar bewertet worden."
+    ]
+   },
+   "bg": {
+    "t": "Мозък за роботи без приходи: Physical Intelligence може да струва 20 млрд. долара",
+    "d": "Американският стартъп, чийто ИИ управлява роботи на различни производители, преговаря според Bloomberg за поне 1 млрд. долара – оценката му почти би се удвоила.",
+    "body": [
+     "Калифорнийската ИИ компания Physical Intelligence според медийни информации преговаря за нов кръг на финансиране от поне 1 млрд. долара. При него стартъпът може да бъде оценен на около 20 млрд. долара, съобщи във вторник агенция Bloomberg, позовавайки се на запознати с разговорите. Кръгът трябва да бъде воден от досегашните инвеститори Avenir и Lux Capital. Това не е потвърдено; компанията и инвеститорите не коментираха.",
+     "По-рано през 2026 г. Physical Intelligence набра средства при оценка от 11,5 млрд. долара; новата оценка би била почти двойно по-висока. Според Bloomberg фирмата, основана през 2024 г. от бивши изследователи на Google DeepMind и учени от Станфорд и Бъркли, все още няма приходи. Сред инвеститорите са и CapitalG, Джеф Безос и Thrive Capital.",
+     "Physical Intelligence разработва ИИ софтуер, с който роботи изпълняват задачи в реалния свят – независимо кой е произвел машините. От 13 октомври външни разработчици могат в тестова фаза да използват моделите чрез интерфейс, да ги дообучават със собствени данни и да ги прилагат на своите роботи. Конкурентът Skild AI беше оценен през януари на 14 млрд. долара."
+    ]
+   },
+   "en": {
+    "t": "Robot brains without revenue: Physical Intelligence could be valued at $20 billion",
+    "d": "The US start-up, whose AI controls robots from different makers, is negotiating at least $1 billion according to Bloomberg – its valuation would nearly double.",
+    "body": [
+     "Californian AI company Physical Intelligence is reportedly negotiating a new funding round of at least $1 billion. The start-up could be valued at around $20 billion, Bloomberg reported on Tuesday, citing people familiar with the talks. Existing backers Avenir and Lux Capital are to lead the round. This has not been confirmed; the company and the investors did not comment.",
+     "Physical Intelligence raised money at a valuation of $11.5 billion earlier in 2026; the new valuation would be almost twice as high. According to Bloomberg, the company – founded in 2024 by former Google DeepMind researchers and academics from Stanford and Berkeley – has no revenue yet. Its backers also include CapitalG, Jeff Bezos and Thrive Capital.",
+     "Physical Intelligence develops AI software that lets robots carry out tasks in the real world, regardless of who built the machines. Since October 13, outside developers have been able to use the models in a beta via an interface, fine-tune them with their own data and deploy them on their own robots. Rival Skild AI was valued at $14 billion in January."
+    ]
+   }
+  }
+ ]
+}
