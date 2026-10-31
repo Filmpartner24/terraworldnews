@@ -273,6 +273,10 @@
    "fitness": [
     "Fitness ve Hareket",
     "fitness-hareket"
+   ],
+   "basketball": [
+    "Basketbol",
+    "basketbol"
    ]
   },
   "es": {
@@ -467,6 +471,10 @@
    "fitness": [
     "Fitness y movimiento",
     "fitness-movimiento"
+   ],
+   "basketball": [
+    "Baloncesto",
+    "baloncesto"
    ]
   },
   "it": {
@@ -3512,7 +3520,8 @@
     "handball": "Hentbol haberleri",
     "formel1": "Formula 1 haberleri",
     "tennis": "Tenis haberleri",
-    "extremsport": "Videoda ekstrem sporlar"
+    "extremsport": "Videoda ekstrem sporlar",
+    "basketball": "Basketbol haberleri"
    },
    "all": "Tümü →"
   },
@@ -3531,7 +3540,8 @@
     "handball": "Noticias de balonmano",
     "formel1": "Noticias de Fórmula 1",
     "tennis": "Noticias de tenis",
-    "extremsport": "Deportes extremos en vídeo"
+    "extremsport": "Deportes extremos en vídeo",
+    "basketball": "Noticias de baloncesto"
    },
    "all": "Todo →"
   },
@@ -3765,5 +3775,13 @@
   ],
   "es": "Fitness y movimiento: fuerza y desarrollo muscular, conocimiento del cuerpo y anatomía, movilidad y espalda sana, nutrición y recuperación – con la serie de vídeos «Los entrenadores explican», con base científica.",
   "tr": "Fitness ve Hareket: kuvvet antrenmanı ve kas gelişimi, vücut bilgisi ve anatomi, mobilite ve sağlıklı sırt, beslenme ve toparlanma – «Antrenörler anlatıyor» video serisiyle, bilimsel temelli."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "basketball"
+  ],
+  "tr": "Basketbol: NBA, EuroLeague, Almanya BBL ve FIBA – haberler, sonuçlar, öne çıkanlar ve analizler, her gün güncellenir.",
+  "es": "Baloncesto: NBA, EuroLeague, la BBL alemana y FIBA: noticias, resultados, mejores jugadas y análisis, actualizados a diario."
  }
 ]
