@@ -1515,3 +1515,28 @@ a.rl-g:hover{filter:brightness(1.1)}
 .gr-yt:has(.gr-thumb)::before{display:none}
 .gr-thumb{text-align:left;align-items:flex-start}
 @media (max-width:640px){.gr-thumb{padding:.7rem .8rem 1.9rem;gap:.3rem}.gr-thumb em{font-size:.6rem;padding:.2rem .45rem}.gr-thumb strong{font-size:.95rem;-webkit-line-clamp:2}.gr-yt:has(.gr-thumb) .yt-play{margin-bottom:30%;font-size:13px;padding:8px 14px}}
+/* Hub-Köpfe im Fitness-Design: Gesundheit (Türkis/Blau) und Leben & Alltag (Koralle/Bernstein) – Nedy 31.10.2026 */
+.hub-gesundheit{background:#05121a}
+.hub-gesundheit::before{background:linear-gradient(90deg,rgba(4,14,22,.94) 0%,rgba(4,14,22,.8) 36%,rgba(4,14,22,.25) 66%,rgba(4,14,22,.05) 100%),linear-gradient(0deg,rgba(45,212,191,.28),transparent 45%),radial-gradient(110% 90% at 88% 8%,rgba(56,189,248,.28),transparent 55%)}
+.hub-gesundheit::after{background:linear-gradient(120deg,#2dd4bf,#38bdf8,#a78bfa,#5eead4,#2dd4bf);background-size:300% 100%}
+.hub-gesundheit .fxb-kick{color:#5eead4}.hub-gesundheit .fxb-pulse{background:#2dd4bf}
+.hub-gesundheit .fxb-title{text-shadow:0 0 20px rgba(45,212,191,.45),0 4px 18px rgba(0,0,0,.7)}
+.hub-gesundheit .fxb-title span{background-image:linear-gradient(90deg,#5eead4,#38bdf8,#a78bfa)}
+.hub-gesundheit .fxb-sub{color:#ccfbf1}.hub-gesundheit .fxb-series{background:linear-gradient(90deg,#14b8a6,#3b82f6);color:#fff}
+.hubt-gesundheit .fxt{background:linear-gradient(160deg,#0a1e26,#061118);border-color:#164e5c}.hubt-gesundheit .fxt:hover{border-color:#2dd4bf}
+.hubt-gesundheit .fxt span{color:#99f6e4}.hubt-gesundheit .fxt em{color:#5eead4}
+.hubt-gesundheit .fxt-video{background:linear-gradient(160deg,#0c1a3a,#070f22);border-color:#1e3a8a}.hubt-gesundheit .fxt-video span{color:#93c5fd}
+.hubt-gesundheit .fxt-studie{background:linear-gradient(160deg,#1e1438,#0f0a1f);border-color:#5b21b6}.hubt-gesundheit .fxt-studie span{color:#c4b5fd}
+.hub-leben{background:#160a0c}
+.hub-leben::before{background:linear-gradient(90deg,rgba(20,8,10,.94) 0%,rgba(20,8,10,.8) 36%,rgba(20,8,10,.25) 66%,rgba(20,8,10,.05) 100%),linear-gradient(0deg,rgba(251,113,133,.25),transparent 45%),radial-gradient(110% 90% at 88% 8%,rgba(245,158,11,.28),transparent 55%)}
+.hub-leben::after{background:linear-gradient(120deg,#fb7185,#f59e0b,#2dd4bf,#f472b6,#fb7185);background-size:300% 100%}
+.hub-leben .fxb-kick{color:#fda4af}.hub-leben .fxb-pulse{background:#fb7185}
+.hub-leben .fxb-title{text-shadow:0 0 20px rgba(251,113,133,.4),0 4px 18px rgba(0,0,0,.7)}
+.hub-leben .fxb-title span{background-image:linear-gradient(90deg,#fb7185,#f59e0b,#facc15)}
+.hub-leben .fxb-sub{color:#ffe4e6}.hub-leben .fxb-series{background:linear-gradient(90deg,#f43f5e,#f59e0b);color:#fff}
+.hubt-leben .fxt{background:linear-gradient(160deg,#241014,#14080a);border-color:#5c1f2a}.hubt-leben .fxt:hover{border-color:#fb7185}
+.hubt-leben .fxt span{color:#fecdd3}.hubt-leben .fxt em{color:#fda4af}
+.hubt-leben .fxt-gesundheit{background:linear-gradient(160deg,#0a1e26,#061118);border-color:#164e5c}.hubt-leben .fxt-gesundheit span{color:#99f6e4}
+.hubt-leben .fxt-fitness{background:linear-gradient(160deg,#10200f,#0a140a);border-color:#24461c}.hubt-leben .fxt-fitness span{color:#bef264}
+.hubt-leben .fxt-guinness{background:linear-gradient(160deg,#2b2405,#141003);border-color:#a16207}.hubt-leben .fxt-guinness span{color:#fde047}
+.hubt-leben .fxt-exklusiv{background:linear-gradient(160deg,#2a1505,#160b03);border-color:#9a3412}.hubt-leben .fxt-exklusiv span{color:#fdba74}

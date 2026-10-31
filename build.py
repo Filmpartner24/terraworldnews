@@ -1111,6 +1111,67 @@ def fitness_block(l, its):
               + e(LX({'bg': ' – Wikimedia Commons, изрязани и оцветени; колажът е под лиценз CC BY-SA 4.0', 'de': ' – Wikimedia Commons, zugeschnitten und eingefärbt; Collage unter CC BY-SA 4.0', 'en': ' – Wikimedia Commons, cropped and recoloured; collage licensed CC BY-SA 4.0'})[l]) + '</p>')
     return (f'<section class="fxb">{strip}<div class="fxb-txt"><p class="fxb-kick"><span class="fxb-pulse"></span>{e(F["kick"])}</p><p class="fxb-title">{F["title"]}</p><p class="fxb-sub">{e(F["sub"])}</p>'
             f'<p class="fxb-series">▶ {e(F["series"])}</p></div></section>{cr}<div class="fxt-grid">{tiles}</div>')
+HUBU = {   # Leben & Alltag (Allgemein) und Gesundheit im Fitness-Design (Nedy 31.10.2026)
+ 'leben': {'bg': dict(kick='TWN · Живот и ежедневие', title='ЖИВОТ <span>И ЕЖЕДНЕВИЕ</span>', sub='Здраве · Фитнес · Любов · Пари · Природа', series='Ексклузивно от редакцията'),
+           'de': dict(kick='TWN · Leben & Alltag', title='LEBEN <span>& ALLTAG</span>', sub='Gesundheit · Fitness · Liebe · Geld · Natur', series='Exklusiv aus der Redaktion'),
+           'en': dict(kick='TWN · Everyday life', title='EVERYDAY <span>LIFE</span>', sub='Health · Fitness · Love · Money · Nature', series='Exclusive from the newsroom'),
+           'es': dict(kick='TWN · Vida cotidiana', title='VIDA <span>COTIDIANA</span>', sub='Salud · Fitness · Amor · Dinero · Naturaleza', series='Exclusivo de la redacción'),
+           'tr': dict(kick='TWN · Günlük yaşam', title='GÜNLÜK <span>YAŞAM</span>', sub='Sağlık · Fitness · Aşk · Para · Doğa', series='Editörlükten özel')},
+ 'gesundheit': {'bg': dict(kick='TWN · Здраве', title='<span>ЗДРАВЕ</span>', sub='Медицина · Изследвания · Профилактика · Психика', series='Изследване на деня'),
+           'de': dict(kick='TWN · Gesundheit', title='<span>GESUNDHEIT</span>', sub='Medizin · Forschung · Vorsorge · Psyche', series='Studie des Tages'),
+           'en': dict(kick='TWN · Health', title='<span>HEALTH</span>', sub='Medicine · Research · Prevention · Mind', series='Study of the day'),
+           'es': dict(kick='TWN · Salud', title='<span>SALUD</span>', sub='Medicina · Investigación · Prevención · Mente', series='Estudio del día'),
+           'tr': dict(kick='TWN · Sağlık', title='<span>SAĞLIK</span>', sub='Tıp · Araştırma · Önleme · Ruh sağlığı', series='Günün araştırması')}}
+GESCAT = [   # Themengruppen Gesundheit – Zuordnung über "gk" oder den deutschen Kicker
+ ('med', 'Medizin & Forschung', {'bg': 'Медицина и изследвания', 'de': 'Medizin & Forschung', 'en': 'Medicine & research', 'es': 'Medicina e investigación', 'tr': 'Tıp ve araştırma'}, {'bg': 'Нови изследвания, терапии, одобрения', 'de': 'Neue Studien, Therapien, Zulassungen', 'en': 'New studies, therapies, approvals', 'es': 'Nuevos estudios, terapias, aprobaciones', 'tr': 'Yeni araştırmalar, tedaviler, onaylar'}, '🔬'),
+ ('vor', 'Vorsorge & Lebensstil', {'bg': 'Профилактика и начин на живот', 'de': 'Vorsorge & Lebensstil', 'en': 'Prevention & lifestyle', 'es': 'Prevención y estilo de vida', 'tr': 'Önleme ve yaşam tarzı'}, {'bg': 'Хранене, сън, ваксини, скрининг', 'de': 'Ernährung, Schlaf, Impfungen, Früherkennung', 'en': 'Diet, sleep, vaccines, screening', 'es': 'Alimentación, sueño, vacunas, cribado', 'tr': 'Beslenme, uyku, aşılar, tarama'}, '🥦'),
+ ('psy', 'Psychische Gesundheit', {'bg': 'Психично здраве', 'de': 'Psychische Gesundheit', 'en': 'Mental health', 'es': 'Salud mental', 'tr': 'Ruh sağlığı'}, {'bg': 'Стрес, бърнаут, депресия, тревожност', 'de': 'Stress, Burnout, Depression, Angst', 'en': 'Stress, burnout, depression, anxiety', 'es': 'Estrés, burnout, depresión, ansiedad', 'tr': 'Stres, tükenmişlik, depresyon, kaygı'}, '🧠'),
+ ('sys', 'Gesundheitssystem', {'bg': 'Здравеопазване', 'de': 'Gesundheitssystem', 'en': 'Health system', 'es': 'Sistema sanitario', 'tr': 'Sağlık sistemi'}, {'bg': 'НЗОК, болници, лекарства, реформи', 'de': 'Krankenkassen, Kliniken, Medikamente, Reformen', 'en': 'Insurers, hospitals, medicines, reforms', 'es': 'Seguros, hospitales, medicamentos, reformas', 'tr': 'Sigorta, hastaneler, ilaçlar, reformlar'}, '🏥'),
+ ('video', None, {'bg': 'Здраве във видео', 'de': 'Gesundheit im Video', 'en': 'Health on video', 'es': 'Salud en vídeo', 'tr': 'Videoda sağlık'}, {'bg': 'Обяснения от клиники и институции', 'de': 'Erklärvideos von Kliniken und Behörden', 'en': 'Explainers from clinics and agencies', 'es': 'Explicaciones de clínicas e instituciones', 'tr': 'Klinik ve kurumlardan açıklamalar'}, '▶'),
+ ('studie', None, {'bg': 'Изследване на деня', 'de': 'Studie des Tages', 'en': 'Study of the day', 'es': 'Estudio del día', 'tr': 'Günün araştırması'}, {'bg': 'Ново рецензирано изследване – ясно обяснено', 'de': 'Neue begutachtete Studie – klar erklärt', 'en': 'A new peer-reviewed study, clearly explained', 'es': 'Un estudio revisado, explicado con claridad', 'tr': 'Hakemli yeni bir araştırma, açıkça anlatıldı'}, '📊'),
+]
+LEBCAT = [   # Kacheln auf „Leben & Alltag – Allgemein“: Unterrubriken + Exklusiv-Artikel
+ ('gesundheit', '🩺', {'bg': 'Медицина, профилактика, психично здраве', 'de': 'Medizin, Vorsorge, psychische Gesundheit', 'en': 'Medicine, prevention, mental health', 'es': 'Medicina, prevención, salud mental', 'tr': 'Tıp, önleme, ruh sağlığı'}),
+ ('fitness', '🏋', {'bg': 'Тренировки, мускули, движение', 'de': 'Training, Muskelaufbau, Bewegung', 'en': 'Training, muscle, movement', 'es': 'Entrenamiento, músculo, movimiento', 'tr': 'Antrenman, kas, hareket'}),
+ ('liebe', '❤', {'bg': 'Връзки, запознанства, истории', 'de': 'Beziehung, Kennenlernen, Erfahrungen', 'en': 'Relationships, dating, stories', 'es': 'Relaciones, citas, historias', 'tr': 'İlişkiler, tanışma, hikâyeler'}),
+ ('sexualitaet', '✦', {'bg': 'Знания и изследвания – с отговорност', 'de': 'Wissen und Forschung – verantwortungsvoll', 'en': 'Knowledge and research, responsibly', 'es': 'Conocimiento e investigación, con responsabilidad', 'tr': 'Bilgi ve araştırma, sorumlulukla'}),
+ ('guinness', '🏆', {'bg': 'Рекорди от цял свят във видео', 'de': 'Rekorde aus aller Welt im Video', 'en': 'Records from around the world on video', 'es': 'Récords de todo el mundo en vídeo', 'tr': 'Dünyadan rekorlar videoda'}),
+ ('exklusiv', '✍', {'bg': 'Собствени статии на нашите автори', 'de': 'Eigene Artikel unserer Autorinnen und Autoren', 'en': 'Original articles by our writers', 'es': 'Artículos propios de nuestros autores', 'tr': 'Yazarlarımızın özgün makaleleri'}),
+]
+def hub_block(l, kind, tiles):
+    """Kopf im Fitness-Design (laufende Collage, Neon-Rahmen, großer Schriftzug) + Themenkacheln – für Leben-Allgemein und Gesundheit."""
+    F = HUBU[kind][l] if l in HUBU[kind] else HUBU[kind]['en']
+    try: C = json.load(open(os.path.join(HERE, 'content', 'leben', f'{kind}-collage.json'), encoding='utf-8'))
+    except (FileNotFoundError, ValueError): C = {}
+    strip = (f'<div class="fxb-strip" aria-hidden="true"><img src="{C["f"]}" alt="" width="{C.get("w", 1920)}" height="{C.get("h", 440)}"><img src="{C["f"]}" alt="" width="{C.get("w", 1920)}" height="{C.get("h", 440)}"></div>') if C.get('f') else ''
+    cr = ''
+    if C.get('photos'):
+        cr = ('<p class="mg-cr fxb-cr">' + e(FITU[l]['cr']) + ': ' + ' · '.join(f'<a href="{e(x["page"])}" rel="noopener nofollow" target="_blank">{e(x["art"])}</a> ({e(x["lic"])})' for x in C['photos'])
+              + e(LX({'bg': ' – Wikimedia Commons, изрязани и оцветени; колажът е под лиценз CC BY-SA 4.0', 'de': ' – Wikimedia Commons, zugeschnitten und eingefärbt; Collage unter CC BY-SA 4.0', 'en': ' – Wikimedia Commons, cropped and recoloured; collage licensed CC BY-SA 4.0'})[l]) + '</p>')
+    return (f'<section class="fxb hub-{kind}">{strip}<div class="fxb-txt"><p class="fxb-kick"><span class="fxb-pulse"></span>{e(F["kick"])}</p><p class="fxb-title">{F["title"]}</p><p class="fxb-sub">{e(F["sub"])}</p>'
+            f'<p class="fxb-series">▶ {e(F["series"])}</p></div></section>{cr}<div class="fxt-grid hubt-{kind}">{tiles}</div>')
+def gesundheit_block(l, its):
+    tiles = ''
+    for key, kde, nm, ds, ic in GESCAT:
+        if key == 'video': _in = lambda x: bool(x.get('yt'))
+        elif key == 'studie': _in = lambda x: bool(x.get('studie'))
+        else: _in = lambda x, k=key, d=kde: x.get('gk') == k or (x.get('kl') or {}).get('de') == d or k in (x.get('gks') or [])
+        xs = [x for x in its if _in(x)]
+        href = f' href="{art_url(xs[0], l)}"' if xs else ''
+        tiles += f'<a class="fxt fxt-{key}"{href}><i>{ic}</i><b>{e(LX(nm)[l])}</b><span>{e(LX(ds)[l])}</span>' + (f'<em>{len(xs)}</em>' if xs else '') + '</a>'
+    return hub_block(l, 'gesundheit', tiles)
+def leben_block(l, its):
+    tiles = ''
+    for key, ic, ds in LEBCAT:
+        if key == 'exklusiv':
+            xs = [x for x in its if x.get('au')]
+            href = f' href="{art_url(xs[0], l)}"' if xs else ''
+            nm = LX({'bg': 'TWN Ексклузивно', 'de': 'TWN Exklusiv', 'en': 'TWN Exclusive', 'es': 'TWN Exclusivo', 'tr': 'TWN Özel'})[l]
+        else:
+            xs = [x for x in its if x.get('sub') == key]
+            href = f' href="{sub_url("leben", key, l)}"'; nm = SUB[l][key][0]
+        tiles += f'<a class="fxt fxt-{key}"{href}><i>{ic}</i><b>{e(nm)}</b><span>{e(LX(ds)[l])}</span>' + (f'<em>{len(xs)}</em>' if xs else '') + '</a>'
+    return hub_block(l, 'leben', tiles)
 def mh_items():
     return sorted([x for x in (MUSIK.get('all') or []) if x.get('sub') == 'mhistory'], key=lambda x: (x['date'], x['time']), reverse=True)
 def mh_credit(l):
@@ -2816,6 +2877,8 @@ def build():
                                      + ''.join(f'<a href="{sec_url(x, l)}">{e(SEC[l][x][0])}</a>' for x in NAV_DD_EXTRA.get(s, []))
                                      + ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if cur == k else ""}>{e(SUB[l][k][0])}</a>' for k in LSUBS[s]) + '</nav>')
                 if s not in ('musik', 'games', 'film'): body = ltabs(None) + body   # Musik/Games: Kategorie-Raster statt Reiter (seit 26.10.2026)
+                if s == 'leben' and '<div class="gp-panel">' in body:   # Leben & Alltag – Allgemein im Fitness-Design (Nedy 31.10.2026)
+                    body = body.replace('<div class="gp-panel">', '<div class="gp-panel">' + leben_block(l, [it for it in items_l if it['s'] == 'leben']), 1)
                 for k in LSUBS[s]:
                     _pool = [it for it in items_l if (it['s'] == s or s in also_secs(it)) and it.get('sub') == k]   # komplette Sammlung, Seitenzahlen unten (Nedy 27.10.2026)
                     if s == 'musik': _pool = MUSIK.get('hist') or its
@@ -2827,8 +2890,9 @@ def build():
                     if s in ('games', 'film'): sb = games_page(l, sits, day0, _others(s), SX, s, title=SUB[l][k][0], mgenre=k, mpage_url=(lambda n, _k=k, _s=s: spage_url(_s, _k, n, l)))   # TWN GAMES-Kategorie (Nedy 28.10.2026)
                     else: sb = (popfolk_page(l, sits, day0, _others(s), SX) if k == 'popfolk' else games_page(l, sits, sits[0]['date'] if sits else day0, _others(s), SX, s, title=SUB[l][k][0], mgenre=k, mpage_url=(lambda n, _k=k: mpage_url(_k, n, l)))) if s == 'musik' else ltabs(k) + (wow_page(l, sits, _others(s), title=SUB[l][k][0], desc=SUB_DESC[k][l], kind='guinness') if k == 'guinness' else games_page(l, sits, sits[0]['date'], _others(s), SX, s, title=SUB[l][k][0], mpage_url=(lambda n, _k=k: spage_url(s, _k, n, l))) if sits else
                                      f'<div class="sec-page" style="--c:{SEC_COLOR[s]}"><div class="rail-h sec-head"><h1 class="sec-title">{e(title)}</h1></div><p class="note">{e(u["empty"])}</p></div>')
-                    if k == 'fitness':   # Fitness & Bewegung (Nedy 31.10.2026): Eye-Catcher + Themenkacheln oben
-                        sb = sb.replace('<div class="gp-panel">', '<div class="gp-panel">' + fitness_block(l, sits), 1) if '<div class="gp-panel">' in sb else sb.replace('<p class="note">', fitness_block(l, sits) + '<p class="note">', 1)
+                    if k in ('fitness', 'gesundheit'):   # Fitness & Bewegung / Gesundheit (Nedy 31.10.2026): Eye-Catcher + Themenkacheln oben
+                        _hb = fitness_block(l, sits) if k == 'fitness' else gesundheit_block(l, sits)
+                        sb = sb.replace('<div class="gp-panel">', '<div class="gp-panel">' + _hb, 1) if '<div class="gp-panel">' in sb else sb.replace('<p class="note">', _hb + '<p class="note">', 1)
                     if k == 'liebe' and '<div class="gp-panel">' in sb:  # Kennenlern-Portale oben auf „Liebe & Beziehung“
                         sb = sb.replace('<div class="gp-panel">', '<div class="gp-panel">' + dating_block(l), 1)
                     if s in MOVE_SUBS:  # Überschriften auf der Unterseite: „Berlin im Video“ statt „Deutschland im Video“
