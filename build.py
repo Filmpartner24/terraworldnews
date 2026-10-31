@@ -2402,6 +2402,46 @@ SVCU = {'bg': dict(wx='Времето', fx='Курс на еврото', cr='В�
         'de': dict(wx='Wetter', fx='Euro-Kurse', cr='Wetter: MET Norway (CC BY 4.0) · Kurse: EZB-Referenzkurse vom', cities={'sofia': 'Sofia', 'plovdiv': 'Plowdiw', 'varna': 'Warna', 'burgas': 'Burgas', 'berlin': 'Berlin', 'muenchen': 'München', 'frankfurt': 'Frankfurt', 'hamburg': 'Hamburg'}, order=['berlin', 'muenchen', 'frankfurt', 'hamburg', 'sofia', 'plovdiv', 'varna', 'burgas']),
         'en': dict(wx='Weather', fx='Euro rates', cr='Weather: MET Norway (CC BY 4.0) · Rates: ECB euro reference rates of', cities={'sofia': 'Sofia', 'plovdiv': 'Plovdiv', 'varna': 'Varna', 'burgas': 'Burgas', 'berlin': 'Berlin', 'muenchen': 'Munich', 'frankfurt': 'Frankfurt', 'hamburg': 'Hamburg'}, order=['berlin', 'muenchen', 'frankfurt', 'hamburg', 'sofia', 'plovdiv', 'varna', 'burgas'])}
 MRU = {'bg': 'Най-четени', 'de': 'Meistgelesen', 'en': 'Most read'}
+# ---- Startseite v2 (Nedy 31.10.2026): Entdecken-Leiste, Service-Widgets, kompakte Rubrik-Blöcke
+HOMEU = {'bg': dict(disc='Открийте TWN', mk='Пазари', mka='Цени при затваряне', bl='Бундеслига', ipo='Следващо IPO', all='Всички →', g_news='Новини', g_know='Икономика и знание', g_life='Живот и стил', g_ent='Развлечения и спорт'),
+         'de': dict(disc='TWN entdecken', mk='Märkte', mka='Schlusskurse', bl='Bundesliga', ipo='Nächster Börsengang', all='Alle →', g_news='Nachrichten', g_know='Wirtschaft & Wissen', g_life='Leben & Stil', g_ent='Unterhaltung & Sport'),
+         'en': dict(disc='Discover TWN', mk='Markets', mka='Closing prices', bl='Bundesliga', ipo='Next IPO', all='All →', g_news='News', g_know='Economy & knowledge', g_life='Life & style', g_ent='Entertainment & sport'),
+         'es': dict(disc='Descubre TWN', mk='Mercados', mka='Precios de cierre', bl='Bundesliga', ipo='Próxima OPV', all='Todo →', g_news='Noticias', g_know='Economía y conocimiento', g_life='Vida y estilo', g_ent='Ocio y deporte'),
+         'tr': dict(disc='TWN’yi keşfet', mk='Piyasalar', mka='Kapanış fiyatları', bl='Bundesliga', ipo='Sıradaki halka arz', all='Tümü →', g_news='Haberler', g_know='Ekonomi ve bilgi', g_life='Yaşam ve stil', g_ent='Eğlence ve spor')}
+DISC = ['welt', 'europa', 'deutschland', 'bulgarien', 'wirtschaft', 'business', 'energie', 'ki', 'klima', 'auto', 'leben', 'mode', 'history', 'film', 'musik', 'games', 'sport']
+def _coll(s):
+    k = {'ki': 'ki'}.get(s, s)
+    fp = os.path.join(HERE, 'content', 'leben', f'{k}-collage.json')
+    try: return json.load(open(fp, encoding='utf-8')).get('f')
+    except (FileNotFoundError, ValueError): return None
+def disc_strip(l):
+    if not SP_IMG: load_sp_img()
+    H = HOMEU.get(l, HOMEU['en']); t = ''
+    for s in DISC:
+        if s not in SEC[l]: continue
+        im = _coll(s)
+        if not im and s == 'musik': im = (lambda d: d.get('f'))(json.load(open(os.path.join(HERE, 'content', 'musik', 'history-collage.json'), encoding='utf-8'))) if os.path.exists(os.path.join(HERE, 'content', 'musik', 'history-collage.json')) else None
+        if not im and s == 'sport' and SP_IMG.get('fussball'): im = SP_IMG['fussball']['f']
+        bg = f' style="--c:{SEC_COLOR.get(s, "#0f2f7a")};background-image:linear-gradient(180deg,rgba(5,10,25,.15),rgba(5,10,25,.88)),url({im})"' if im else f' style="--c:{SEC_COLOR.get(s, "#0f2f7a")};background-image:linear-gradient(135deg,#0b1430 0%,var(--c) 140%)"'
+        t += f'<a class="ds-t" href="{sec_home(s, l)}"{bg}><span>{e(SEC[l][s][0])}</span></a>'
+    return f'<section class="ds"><h2 class="ds-h">{e(H["disc"])}</h2><div class="ds-row">{t}</div></section>'
+def home_widgets(l):
+    H = HOMEU.get(l, HOMEU['en']); w = ''
+    if BIZ:
+        d = BIZ[max(BIZ)]; tk = {L(t['n'], 'de'): t for b in d.get('blocks', []) for t in b.get('ticker', [])}
+        rows = ''.join(f'<li><b>{e(n)}</b><span>{fnum(tk[n]["v"], tk[n].get("dec", 2), l)}</span>{fchg(tk[n].get("chg"), 2, l)}</li>' for n in ['DAX', 'Dow Jones', 'Nasdaq', 'SOFIX'] if n in tk)
+        if rows: w += f'<a class="hw hw-mk" href="{sec_home("business", l)}"><h3>📈 {e(H["mk"])}</h3><ul>{rows}</ul><p class="hw-n">{e(H["mka"])} · {num_date(d["date"])}</p></a>'
+    if 'bundesliga' in FB:
+        tab = fb_table(FB['bundesliga'])[:4]
+        rows = ''.join(f'<li><b>{i + 1}. {e(t)}</b><span>{r[6]}</span></li>' for i, (t, r) in enumerate(tab))
+        if rows: w += f'<a class="hw hw-bl" href="{fb_url("bundesliga", l)}"><h3>⚽ {e(H["bl"])}</h3><ul>{rows}</ul></a>'
+    try: IPO = json.load(open(os.path.join(HERE, 'content', 'business-extra', 'ipo.json'), encoding='utf-8'))
+    except (FileNotFoundError, ValueError): IPO = {}
+    nx = next((x for x in IPO.get('items', []) if x.get('status') != 'erfolgt'), None)
+    if nx:
+        nt = nx.get('note', {}); nt = nt.get(l) or nt.get('en', '') if isinstance(nt, dict) else nt
+        w += f'<a class="hw hw-ipo" href="{sec_home("business", l)}#bz-ipo"><h3>🔔 {e(H["ipo"])}</h3><p class="hw-big">{e(nx["name"])}</p><p class="hw-n">{e(nx.get("exchange", ""))} · {e(nx.get("date", ""))}</p><p class="hw-t">{e(nt)}</p></a>'
+    return f'<section class="hw-row">{w}</section>' if w else ''
 def svc_strip(l):
     u = SVCU[l]
     _tv = tv_load()
@@ -2935,15 +2975,28 @@ def build():
         ranked = ''.join(f'<div class="rank"><span class="n">{i + 1}</span>{rthumb(it)}<a href="{art_url(it, l)}">{kick(it, l)}<h3>{e(it[l]["t"])}</h3></a></div>' for i, it in enumerate([x for x in rest if x['s'] != 'business'][:5]))  # Business-Berichte nie unter „Neueste Meldungen“
         order = ['bulgarien', 'deutschland', 'welt', 'europa', 'wirtschaft', 'business', 'auto', 'klima', 'ki', 'ai', 'energie', 'film', 'musik', 'mode', 'sport', 'games'] if l == 'bg' else ['welt', 'europa', 'deutschland', 'bulgarien', 'wirtschaft', 'business', 'auto', 'klima', 'ki', 'ai', 'energie', 'film', 'musik', 'mode', 'sport', 'games'] if l == 'en' else ['deutschland', 'bulgarien', 'welt', 'europa', 'wirtschaft', 'business', 'auto', 'klima', 'ki', 'ai', 'energie', 'film', 'musik', 'mode', 'sport', 'games']
         lv = sorted([it for it in items_l if it['s'] == 'leben'], key=lambda x: (x['date'], x['time']), reverse=True)[:4]
+        def hrail(s2, lst):   # Startseite v2: dunkler Kopf in Rubrikfarbe, 1 großer + 3 kleine Beiträge, ohne Quellen
+            big, sm = lst[0], lst[1:4]
+            def th(it, cls):
+                im = it.get('img'); st = f' style="background-image:url({im["f"]})"' if im else ''
+                pl = '<span class="rt-play" aria-hidden="true">▶</span>' if it.get('yt') else ''
+                return f'<a class="{cls}" href="{art_url(it, l)}"><span class="hr-img"{st}>{pl}</span><span class="hr-tx"><span class="hr-tm">{e(it["time"])}</span><b>{e(it[l]["t"])}</b></span></a>'
+            return (f'<section class="hrail" style="--c:{SEC_COLOR[s2]}"><div class="hr-h"><h2><a href="{sec_home(s2, l)}">{e(SEC[l][s2][0])}</a></h2><a class="hr-all" href="{sec_home(s2, l)}">{e(HOMEU.get(l, HOMEU["en"])["all"])}</a></div>'
+                    f'<div class="hr-b">{th(big, "hr-big")}<div class="hr-sm">{"".join(th(x, "hr-s") for x in sm)}</div></div></section>')
         def mrail(s2, lst, desc=''):  # Mix: farbiger Rubrik-Kopf wie im Games-Layout, Karten hell darunter
             return (f'<section class="rail mrail" style="--c:{SEC_COLOR[s2]}"><div class="gp gp-{s2} mr-head"><div class="gp-head"><h2 class="gp-title"><a href="{sec_home(s2, l)}">{e(SEC[l][s2][0])}</a></h2>'
                     f'<a class="mr-all" href="{sec_home(s2, l)}">{e(u["all"])}</a></div></div>' + (f'<p class="sec-desc">{e(desc)}</p>' if desc else '') +
                     f'<div class="cards">{"".join(card(it, l) for it in lst)}</div></section>')
-        rails = mrail('leben', lv, SEC_DESC['leben'][l]) if lv else ''
-        for s in order:
-            its = [it for it in rest if it['s'] == s]
-            if its:
-                rails += mrail(s, its[:4])
+        _H = HOMEU.get(l, HOMEU['en'])
+        _grp = [('g_news', ['bulgarien', 'deutschland', 'welt', 'europa'] if l == 'bg' else ['welt', 'europa', 'deutschland', 'bulgarien']), ('g_know', ['wirtschaft', 'business', 'energie', 'ki', 'ai', 'klima', 'auto']), ('g_life', ['leben', 'mode']), ('g_ent', ['film', 'musik', 'games', 'sport'])]
+        rails = ''
+        for gk, gs in _grp:
+            gr = ''
+            for s in gs:
+                its = lv if s == 'leben' else [it for it in rest if it['s'] == s]
+                if s == 'leben' and len(its) < 4: its = sorted([it for it in items_l if it['s'] == 'leben'], key=lambda x: (x['date'], x['time']), reverse=True)[:4]
+                if len(its) >= 2: gr += hrail(s, its[:4])
+            if gr: rails += f'<h2 class="hgrp"><span>{e(_H[gk])}</span></h2><div class="hgrp-b">{gr}</div>'
         _vids = [it for it in sorted(items_l, key=lambda x: (x['date'], x['time']), reverse=True) if it.get('yt') and not it.get('ex') and it['s'] != 'business' and it['date'] >= (rest[-1]['date'] if rest else latest['date'])][:24]
         _seen, vsel = set(), []
         for it in _vids:  # höchstens 2 Videos pro Rubrik, damit das Band gemischt bleibt
@@ -2951,7 +3004,7 @@ def build():
             if len(vsel) == 6: break
         def vtile(it):
             st = f' style="background-image:url({it["img"]["f"]})"' if it.get('img') else ''
-            return (f'<article class="gs"><a href="{art_url(it, l)}"><div class="gs-img"{st}><span class="rt-play" aria-hidden="true">▶</span></div>'
+            return (f'<article class="gs vt"><a href="{art_url(it, l)}"><div class="gs-img"{st}><span class="rt-play" aria-hidden="true">▶</span><span class="vt-k">{e(SEC[l][it["s"]][0])}</span></div>'
                     f'{kick(it, l)}<h3>{e(it[l]["t"])}</h3></a></article>')
         VBT = LX({'bg': 'Видео на деня', 'de': 'Videos des Tages', 'en': 'Videos of the day'})
         vband = (f'<section class="vband gp gp-home"><div class="gp-head"><h2 class="gp-title">▶ {e(VBT[l])}</h2>{gp_slogan(l)}</div>'
@@ -2974,7 +3027,7 @@ def build():
         _exl = sorted([it for it in items_l if it.get('ex') and not it.get('nohome') and it['date'] >= (datetime.date.fromisoformat(latest['date']) - datetime.timedelta(days=7)).isoformat()], key=lambda x: (x['date'], x['time']), reverse=True)
         exh = ex_block(_exl[0], l) if _exl else ''
         popular = ''.join(f'<div class="rank"><span class="n">{i + 1}</span>{rthumb(it)}<a href="{art_url(it, l)}">{kick(it, l)}<h3>{e(it[l]["t"])}</h3></a></div>' for i, it in enumerate(most_read(items_l, l, latest['date'])))
-        body = bkh + exh + svc_strip(l) + (f'<section class="lead"><div class="lead-main"><a href="{art_url(lead, l)}">{plate(lead, l, eager=True)}</a>{kick(lead, l, e(u["lead"]) + " · ")}'
+        body = bkh + disc_strip(l) + exh + svc_strip(l) + home_widgets(l) + (f'<section class="lead"><div class="lead-main"><a href="{art_url(lead, l)}">{plate(lead, l, eager=True)}</a>{kick(lead, l, e(u["lead"]) + " · ")}'
                 f'<a href="{art_url(lead, l)}"><h1>{e(lead[l]["t"])}</h1></a><p class="dek">{e(lead[l]["d"])}</p><span class="src">{u["src"]}: {e(SNAMES(lead["src"]))}</span></div>'
                 + (f'<div class="ranked rk-tabs"><input type="radio" name="rk" id="rk1" checked><input type="radio" name="rk" id="rk2"><h2 class="rh rk-h"><label for="rk1">{e(u["most"])}</label><label for="rk2">{e(MRU[l])}</label></h2><div class="rk-p rk-p1">{ranked}</div><div class="rk-p rk-p2">{popular}</div></div>' if popular else f'<div class="ranked"><h2 class="rh">{e(u["most"])}</h2>{ranked}</div>') + f'</section>{vband}{rails}')
         alts = {x: home(x) for x in act}
