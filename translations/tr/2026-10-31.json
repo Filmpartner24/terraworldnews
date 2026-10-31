@@ -2805,6 +2805,27 @@
     "img.alt": "Bir Milano derbisinde San Siro (Arşiv fotoğrafı)"
    }
   },
+  "mit-oliver-quantencomputing-video": {
+   "L": {
+    "body": [
+     "Massachusetts Institute of Technology (MIT), “Curiosity Unbounded” söyleşi serisinin 19. bölümünü 28 Ekim'de video olarak da yayımladı. MIT Başkanı Sally Kornbluth, profesör ve kuantum mühendisi William D. Oliver'a kuantum bilgisayarlara yönelik beklentilerin hangi kısmının abartı, hangi kısmının gerçek olduğunu soruyor. Konuşmada kübitler ve süperpozisyon, kuantum donanımının neden bu kadar zor büyütüldüğü sorusu ile kuantum kimyası ve ilaç etken maddesi arayışı gibi uygulamalar ele alınıyor.",
+     "Oliver temel prensibi bir örnekle açıklıyor: Üç kübit sekiz durumu (2³) aynı anda temsil edebiliyor, klasik transistörlerden oluşan bir grup ise aynı anda yalnızca bir durumu temsil edebiliyor. Oliver'a göre ticari açıdan yararlı algoritmalar için “bir milyar veya bir trilyon işlem” gerekebilir. “Bugün aslında kuantum bilgisayarlarımız var. Sadece oldukça küçükler” diyen Oliver, gelişim aşamasını havacılıktaki Wright kardeşler dönemine benzetiyor.",
+     "Oliver, abartının nedensiz olduğunu düşünmüyor: “Abartının olmasının nedeni, kesinlikle gerçek bir vaadin bulunması.” Söyleşide aynı zamanda beklentiler karşılanmazsa yaşanabilecek bir “kuantum kışı” konusunda uyarılıyor. Ayrıca doğal atomlar ve süper iletken devrelerden oluşan yapay atomlar gibi farklı kübit türleri ile nitelikli iş gücünün yetiştirilmesi de konuşuluyor; Oliver'a göre kuantum alanındaki iş ilanları, ABD Kuantum Girişimi'nin 2016 civarında başlamasından bu yana “yüzlerce yüzde” arttı."
+    ],
+    "d": "Kuantum bilgisayarlar gerçekte ne kadar ilerledi? MIT'nin “Curiosity Unbounded” serisinin yeni bölümünde Başkan Sally Kornbluth, William D. Oliver ile vaatleri, sınırları ve nitelikli iş gücünü konuşuyor.",
+    "t": "Kuantum bilgisayarlar: MIT videosunda kuantum mühendisi William Oliver"
+   },
+   "at": "2026-10-31T13:38Z",
+   "h": "be5a0cfe1cda",
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Chalmers Üniversitesi'nin üç kübitli süper iletken kuantum işlemcisi – MIT'ye ait değil"
+   }
+  },
   "oktagon-96-wiegen-vier-fehlgewichte": {
    "L": {
     "body": [
@@ -2887,6 +2908,31 @@
    "x": {
     "img.alt": "Sembolik fotoğraf: Büyüteç altında OpenAI logosu",
     "kl": "Güvenlik"
+   }
+  },
+  "penn-quanten-skyrmionen-chip": {
+   "L": {
+    "body": [
+     "Kuantum ağlarının gelecekte bilgiyi dolanık ışık parçacıklarıyla iletmesi hedefleniyor; ancak dolanıklık bozulmalara karşı çok hassas. University of Pennsylvania Mühendislik Fakültesi'nden Prof. Liang Feng'in ekibi, “Nature Physics” dergisinde (DOI 10.1038/s41567-026-03487-x) farklı bir yol bildirdi: ışığın polarizasyonundaki girdap benzeri topolojik desenler olan skyrmionlar. Üniversite çalışmayı 30 Ekim'de tanıttı.",
+     "Çip, bir çift dolanık foton üretiyor ve bunlardan birine bir skyrmion deseni işliyor; araştırmacılar bu deseni daha sonra iki fotonun ortak kuantum durumuna aktardı. Deneyde desenin topolojik özelliği, bozulmalar dolanıklığı çoktan yok ettiğinde bile korundu; ancak daha da güçlü bozulmalarda çöktü. Kuantum diskordu (quantum discord) adı verilen bir başka kuantum korelasyonu biçimi de varlığını sürdürdü.",
+     "Feng, “Bu desenlerin dolanıklık olmadan da hayatta kalabileceğini gösterdik” dedi. Feng'e göre bu, çok daha güvenilir kuantum ağlarının temelini oluşturabilir. Çip, yaklaşık beş yıllık bir geliştirme çalışmasının ardından üniversitenin nanoteknoloji merkezinde üretildi; Güney Afrika ve Singapur'dan araştırmacılar da çalışmada yer aldı. Açıklamada somut ölçüm değerleri verilmiyor."
+    ],
+    "d": "University of Pennsylvania'nın bir çipi, dolanıklık yok edilse bile korunan bir desene sahip dolanık fotonlar üretiyor. Bu, daha güvenilir kuantum ağlarının önünü açabilir.",
+    "t": "Bozulmalara dayanan desen: Penn çipi ışık parçacıklarına dayanıklı “skyrmion”lar işliyor"
+   },
+   "at": "2026-10-31T13:38Z",
+   "h": "f66c795c015d",
+   "rev": [
+    "\"Quantendiskordanz\" was rendered as \"kuantum uyumsuzluğu\", which is not the established term for quantum discord; \"kuantum diskordu\" is used instead",
+    "The teaser says \"dolanıklık yok olduktan sonra bile korunan\", which is slightly imprecise and loses the German meaning (\"selbst dann erhalten bleibt, wenn die Verschränkung zerstört ist\")"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Kapak görseli: Çip üzerinde dayanıklı kuantum skyrmionları"
    }
   },
   "physical-intelligence-20-milliarden": {
@@ -3812,6 +3858,66 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: María Corina Machado Dünya Ekonomik Forumu'nda bir etkinlikte"
+   }
+  },
+  "westeuropa-osteuropa-lebensqualitaet-maya-pavllova": {
+   "L": {
+    "body": [
+     "On yıllar boyunca Batı Avrupa, yüksek yaşam standardının, ekonomik istikrarın ve mesleki fırsatların simgesi oldu. Doğu Avrupalı birçok insan için Batı'ya taşınmak, daha iyi maaşa, daha güvenli işe ve daha gelişmiş kamu hizmetlerine erişime giden bir yol.",
+     "Ancak bugün giderek daha fazla insan, daha yüksek gelirin mutlaka daha iyi bir yaşam anlamına gelip gelmediğini soruyor.",
+     "Sağlıklı yaşam arzusu, refah anlayışımızı değiştiriyor. Temiz hava, kaliteli gıda, doğaya yakınlık, boş zaman ve iç huzur giderek daha fazla önem kazanıyor. Böylece Batı ve Doğu Avrupa arasındaki karşılaştırma klasik ekonomik göstergelerin ötesine geçiyor ve çok daha kişisel bir konuyu öne çıkarıyor: gündelik yaşamın kalitesi.",
+     "## Daha yüksek gelirler, ama daha yüksek maliyetler de",
+     "Birçok Batı Avrupa ülkesinin başlıca avantajları arasında daha yüksek ücretler, güçlü çalışma standartları ve daha iyi örgütlenmiş kamu hizmetleri yer alıyor. Birçok ülkede daha fazla mesleki imkân ile işsizlik, hastalık ve emeklilik durumunda güvence sağlayan sosyal sistemler bulunuyor.",
+     "Ancak bu avantajlar çoğu zaman konut, ulaşım, hizmetler ve günlük ihtiyaçlar için yüksek maliyetlerle birlikte geliyor. Büyük şehirlerde gelirin önemli bir bölümü temel giderlere gidebiliyor; bu da seçme özgürlüğünü ve tasarruf imkânlarını kısıtlıyor.",
+     "Doğu Avrupa'nın birçok yerinde yaşam maliyetleri daha düşük olabilir, ancak bu çoğu zaman daha düşük gelirlerle birlikte görülüyor. Kendi konutu olan, uzaktan çalışan veya yurt dışından istikrarlı gelir elde eden kişiler için, Avrupa'nın en pahalı merkezlerinin dışında yaşamak farklı bir mali denge sunabilir.",
+     "Sonuçta yalnızca maaşın yüksekliği değil, satın alma gücü önemli: konut, yemek, faturalar ve diğer tüm yükümlülükler ödendikten sonra geriye kalan.",
+     "## Gıda kalitesi: gelenek, köken ve çeşitlilik",
+     "Beslenme, sağlığımızı ve günlük refahımızı doğrudan etkileyen etmenlerden biri. Avrupa genelinde kaliteli ürünlere ulaşmak için iyi imkânlar var, ancak beslenme alışkanlıkları ve tüketim davranışları belirgin biçimde farklılık gösterebiliyor.",
+     "Bazı Batı Avrupa ülkelerinde tüketiciler organik ürünler, uzman mağazalar ve çeşitli gıdalar arasında geniş bir seçime sahip. Aynı zamanda seri üretim ve yüksek oranda işlenmiş gıdaların yaygınlığı, sunulan ürünlerin bir kısmının bileşimi ve besin değeri konusunda sorular doğuruyor.",
+     "Doğu ve Güney Avrupa'nın birçok bölgesinde mevsimlik mutfak, yerel üretim ile taze meyve, sebze, balık, baklagil ve zeytinyağı kullanımı geleneği hâlâ sürüyor. Yunanistan'a ve bölgedeki diğer ülkelere özgü Akdeniz diyeti, kalp-damar sağlığının çeşitli göstergeleriyle bağlantısı nedeniyle iyi araştırılmış durumda.",
+     "Elbette geleneksel mutfak otomatik olarak sağlıklı beslenme anlamına gelmez; yüksek fiyat da kaliteyi garanti etmez. Önemli olan ürünlerin kökeni, üretim şekli, çeşitli bir menü ve gıdaların işlenme derecesi.",
+     "## Temiz hava ve doğaya yakınlık",
+     "Temiz havaya ve doğal alanlara erişim, yaşam kalitesinin önemli ama çoğu zaman hafife alınan bir parçası.",
+     "Büyük Batı Avrupa şehirleri çoğunlukla gelişmiş altyapı, toplu taşıma, parklar ve bisiklet yolları sunuyor. Buna rağmen yoğun yapılaşma, araç trafiği, gürültü ve yüksek konut maliyetleri bazen daha sakin bir çevrede yaşama imkânını sınırlıyor.",
+     "Doğu ve Güney Avrupa'da nüfus yoğunluğu düşük, dağları, ormanları, kıyıları ve köy topluluklarıyla birçok bölge var. Böyle bir çevre, açık havada daha fazla hareket, doğayla daha yakın temas ve gündelik hayatta farklı bir ritim sağlayabilir.",
+     "Yunanistan'ın bazı bölümleri de dahil olmak üzere Akdeniz bölgeleri, yılın büyük bölümünde ılıman iklimi, denize erişimi ve büyük şehirlerin temposuna alternatif arayan insanları çeken yeme-içme ve sosyal yaşam geleneklerini bir araya getiriyor.",
+     "Ancak bu, doğuda veya güneyde havanın her yerde daha temiz olduğu anlamına gelmiyor. Hava kirliliği, yeşil alan eksikliği, su kıtlığı ve yaz sıcakları Avrupa'nın farklı bölgelerinde gerçek sorunlar. Bu nedenle somut çevre, coğrafi sınıflandırmadan daha önemli.",
+     "## Stres ve modern yaşamın bedeli",
+     "Yüksek yaşam standardı her zaman daha az stres anlamına gelmez. İş hayatındaki rekabet, uzun işe gidiş-geliş süreleri, yüksek konut maliyetleri ve dolu bir takvim, gündelik yaşamı sürekli bir koşuşturmaya çevirebilir.",
+     "Ailelerinden uzakta yaşayanlar için buna farklı bir kültüre uyum, dil engeli ve yeni bir arkadaş çevresi kurma çabası da ekleniyor. İyi maddi koşullara rağmen yalnızlık ve yakın ilişkilerin eksikliği yaşam memnuniyetini olumsuz etkileyebiliyor.",
+     "Avrupa'nın diğer bölgelerinde daha yavaş bir tempo, aileye yakınlık ve aktif bir sosyal yaşam daha fazla duygusal destek verebilir. Bu çoğu zaman belirli Akdeniz topluluklarıyla ilişkilendiriliyor, ancak tüm insanların veya ülkelerin genel bir özelliği değil.",
+     "Aynı zamanda daha düşük gelirler, güvencesiz iş ve hizmetlere zor erişim de stres yaratıyor. Bu yüzden iç huzur yalnızca yaşam tarzına değil, aynı zamanda mali güvenceye, iyi bir sağlık sistemine ve kişinin kendi zamanını ihtiyaçlarına göre planlayabilmesine de bağlı.",
+     "## Sağlık hizmetleri ve sosyal güvenlik",
+     "Sağlık hizmetlerine erişim, refahın temel bir parçası. Birçok Batı Avrupa ülkesi tıbbi hizmetler, koruyucu sağlık ve sosyal destek için önemli kaynaklara sahip. Yine de uzman hekim randevusu bekleme süreleri, personel eksikliği ve bölgesel farklar bir sorun olmaya devam ediyor.",
+     "Doğu ve Güney Avrupa'da da iyi yetişmiş hekimler ve iyi klinikler var. Farklar çoğu zaman finansmanla, modern donanıma erişimle ve hizmetlerin büyük şehirler ile uzak bölgeler arasındaki dağılımıyla ilgili.",
+     "Eğitim, toplu taşıma ve kamu hizmetlerinde de benzer farklar var. Taşınmayı düşünen biri bu nedenle yalnızca gündelik yaşamın konforlarını değil, bir yerin hastalık, gelir kaybı veya başka öngörülemeyen olaylarda sunabileceği güvenceyi de değerlendirmeli.",
+     "## Her iki bölgenin avantajları birleştirilebilir mi?",
+     "Uzaktan çalışma ve uluslararası mesleki bağlantılar, yaşam yeri konusundaki klasik anlayışları değiştiriyor. Bazı insanlar bugün Batı Avrupalı müşteriler veya şirketler için çalışırken daha küçük bir şehirde ya da doğaya daha iyi erişimi olan bir bölgede yaşayabiliyor.",
+     "Bu model, daha geniş mesleki imkânları daha uygun fiyatlı konut, daha fazla kişisel alan ve farklı bir yaşam ritmiyle birleştirebilir. Ancak meslek, gelirin istikrarı, vergi ve sosyal sigorta kuralları ile yerel altyapının kalitesine bağlı.",
+     "Seçimin mutlaka bir Batı Avrupa metropolü ile Doğu Avrupa'daki küçük bir yer arasında yapılması gerekmiyor. Kıtanın her yerinde ekonomik fırsatların, doğanın ve sosyal yaşamın farklı bileşimlerini sunan şehirler, kıyı bölgeleri ve köy toplulukları var.",
+     "## Daha iyi bir yaşam aslında ne demek?",
+     "Batı Avrupa; gelir, çalışma standartları ve birçok kamu hizmeti açısından önemli avantajlar sunuyor. Doğu ve Güney Avrupa'da ise daha düşük maliyetlerin, doğanın, mevsimlik mutfağın ve sosyal bağların iş ile özel yaşam arasında farklı bir denge kurmaya olanak tanıyabildiği bölgeler var.",
+     "Hiçbir bölge herkes için geçerli bir çözüm sunmuyor. Yüksek gelir iç huzuru garanti etmez; güzel doğa da mali güvencenin veya tıbbi yardıma erişimin eksikliğini telafi edemez.",
+     "Belki de en önemli değişiklik, giderek daha fazla insanın yaşam kalitesini yalnızca maddi refahla değil, kendilerine ayırabildikleri zamanla, sağlıklarıyla ve yakınlarıyla ilişkileriyle de ölçmesi."
+    ],
+    "d": "Gelir ve güvenliğe karşı doğa, iyi gıda ve iç huzur: refah anlayışımız nasıl değişiyor?",
+    "t": "Batı ve Doğu Avrupa: Yüksek yaşam standardı daha iyi bir yaşamı garanti eder mi?"
+   },
+   "at": "2026-10-31T13:38Z",
+   "h": "0a98491a4a3a",
+   "rev": [
+    "Teaser: 'Einkommen und Sicherheit gegen Natur...' ve 'wie sich ... verändert' ifadesi korunmalı; taslak kabul edilebilir ama başlıkta 'Batı ve Doğu Avrupa' sırası Almanca 'West- gegen Osteuropa' ile u",
+    "Paragraf 1: 'ist ein Weg' ve 'sichererer Arbeit' doğru aktarılmış; bir sorun yok",
+    "Resim açıklaması: 'arnavut kaldırımlı' TDK'ya göre 'Arnavut kaldırımlı' yazılmalı (özel ad kökenli)"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "au": "Maya Pavllova",
+    "img.alt": "Sembolik fotoğraf: Bulgaristan'ın Plovdiv kentinin eski şehrinde Arnavut kaldırımlı sokak"
    }
   },
   "wirtschaft-bulgarien-banken-gewinn-september-2026-10-31": {
