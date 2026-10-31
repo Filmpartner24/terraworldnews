@@ -76,6 +76,35 @@
     "img.alt": "Arşiv fotoğrafı: Ubisoft Montreal stüdyosu, Le Plateau semtinde"
    }
   },
+  "berlin-polizist-messer-verletzt-2026-10-31-b15": {
+   "L": {
+    "body": [
+     "Prenzlauer Berg'de cumartesiye bağlayan gece, bir polis memuru müdahale sırasında bıçakla yaralandı. Berlin Polisi'nin verdiği bilgiye göre, polis memurları gece yarısından kısa süre sonra Landsberger Allee'de itfaiyeye bir hasta nakli sırasında destek verdi. 27 yaşındaki bir kadın hastaneye götürülecekti, ancak bunu birçok kez reddetti.",
+     "Polise göre memurlar kadını gözaltına almak istediğinde kadın bıçak çekti ve bir polis memuruna doğru birkaç kez saplama hareketi yaptı. Memur kolundan bıçaklandı, olay yerinde ilk müdahale yapıldı ve ardından hastanede ayakta tedavi edildi; görevini sonlandırdı. Kadın hastaneye götürüldü, bıçağa el konuldu.",
+     "Polis Müdürlüğü 1'in (Kuzey) bir uzman komiserliği, görevli memura direnme ve tehlikeli yaralama suçlamasıyla soruşturma yürütüyor. Şüpheli için masumiyet karinesi geçerlidir."
+    ],
+    "d": "Polise göre Landsberger Allee'deki bir müdahalede 27 yaşındaki bir kadın, bir polis memurunu kolundan bıçakla yaraladı. Kadın hastaneye kaldırıldı, bıçağa el konuldu.",
+    "t": "Prenzlauer Berg: Polis memuru operasyonda kolundan bıçakla yaralandı"
+   },
+   "at": "2026-10-31T14:57Z",
+   "h": "25087d946339",
+   "rev": [
+    "\"Beamte\" in the ambulance-transport sentence was rendered \"polis memurları\", which is fine; no change needed",
+    "\"Memur kolundan isabet aldı\" is unnatural; the officer was hit on the arm by the knife",
+    "\"Vollstreckungsbeamte\" is rendered as \"kamu görevlisi\", which is imprecise; the legal term is \"görevli memura direnme\"",
+    "\"Fachkommissariat\" and \"Polizeidirektion\" were rendered awkwardly; a small fix is enough",
+    "\"festnehmen\" translated as \"gözaltına almak\" is acceptable"
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Polis devriye aracı (arşiv)",
+    "kl": "Berlin"
+   }
+  },
   "berlin-protest-samstag-polizei-2026-10-31-b08": {
    "L": {
     "body": [
@@ -522,6 +551,32 @@
    "x": {
     "img.alt": "Arşiv fotoğrafı: Mount Wilson'daki CHARA dizisine ait teleskop ve ışık iletim hattı",
     "kl": "Uzay"
+   }
+  },
+  "chelsea-man-united-2026-10-31-b15": {
+   "L": {
+    "body": [
+     "Manchester United, Premier Lig'in öğle maçında deplasmanda Chelsea karşısında geriye düştü ve eksik kaldı. Morgan Rogers, 50. dakikada United savunmasını tek başına geçerek attığı aşırtma golle ev sahibini öne geçirdi. 64. dakikada Cole Palmer, penaltıyı gole çevirerek skoru 2-0 yaptı.",
+     "Penaltıdan önce video hakem incelemesi yapıldı: Kornerin ardından Lisandro Martínez, yüksek kaldırdığı koluyla Wesley Fofana'ya çarpmıştı. Hakem Peter Bankes başlangıçta oyunun devam etmesine izin verdi, görüntüleri izledikten sonra penaltı kararı verdi ve Arjantinli oyuncuya ikinci sarı kartı gösterdi. Yahoo Sports'un verdiği bilgiye göre, iki sarı kart arasında yalnızca 1 dakika 22 saniye vardı.",
+     "TNT yorumcusu Ally McCoist pozisyonu “kesinlikle kabul edilemez” diye niteledi. United teknik direktörü Michael Carrick ve Chelsea teknik direktörü Xabi Alonso için maç, öncesinde belirleyici olarak görülüyordu. Maçın final skoru haberin hazırlandığı sırada henüz belli değildi."
+    ],
+    "d": "Stamford Bridge'deki maçta United'lı Lisandro Martínez ikinci sarı kartla oyundan atıldı ve penaltıya neden oldu. Daha önce Morgan Rogers bireysel golle Chelsea'yi öne geçirmişti.",
+    "t": "VAR sonrası kırmızı: Martínez oyundan atıldı, Palmer penaltıdan 2-0 yaptı"
+   },
+   "at": "2026-10-31T14:57Z",
+   "h": "ae1b7ba2e761",
+   "rev": [
+    "Teaser: 'Gelb-Rot' (ikinci sarı kart, dolayısıyla kırmızı) belirtilmemişti; 'oyundan atıldı' ifadesi eksikti",
+    "'Kornerin ardından' yazımı: 'Kornerin' yerine 'Korner sonrasında' daha doğal",
+    "'Unitedlı' yazımı: kesme işareti eksik"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Londra'daki Stamford Bridge"
    }
   },
   "claude-app-carplay-sprachmodus": {
@@ -1629,6 +1684,34 @@
     "img.alt": "Arşiv fotoğrafı: Armando Iannucci, 2017'de Londra'da Chatham House'un düzenlediği bir konferansta"
    }
   },
+  "film-quasimodo-seele-von-paris-trailer-cassel": {
+   "L": {
+    "body": [
+     "Netflix, “Quasimodo, die Seele von Paris” (orijinal adı: “Quasimodo, l’âme de Paris”, uluslararası adı “The Hunchback, Soul of Paris”) filminin resmi fragmanını yayımladı. Fransız yapımı film, Victor Hugo’nun “Notre-Dame’ın Kamburu” romanından serbestçe esinleniyor. Yönetmen koltuğunda, Vincent Cassel ile daha önce “Public Enemy No. 1” (“Mesrine”) adlı gangster destanını çeken Jean-François Richet oturuyor; senaryoyu Éric Besnard ve Edgar Marie yazdı.",
+     "Cassel, Temmuz Devrimi’nin arifesinde ve bir kolera salgınının ortasında, 1830 yılının Paris’inde yaşayan kambur bir taş ustasını canlandırıyor. Polis onun peşine düşüyor, doktorlar ise vücudunda bir çare bulabileceklerine inanıyor. Aynı zamanda o, âşık olduğu bir dansçıyı korumaya çalışıyor. Cassel’in yanı sıra Karim Leklou güvenlik şefi, Benjamin Voisin doktor rollerinde oynuyor; ayrıca Daphné Patakia ve Noémie Lvovsky yer alıyor.",
+     "Film, 27 Kasım 2026’da dünya genelinde, Almanya ve Avusturya’da da Netflix’te gösterime girecek."
+    ],
+    "d": "Jean-François Richet, çan zilcisinin hikâyesini 1830 Paris’inde geçen kasvetli bir dönem draması olarak yeniden anlatıyor. Film 27 Kasım’da Netflix’te gösterime girecek; Almanya’da da izlenebilecek.",
+    "t": "“Quasimodo, Paris’in Ruhu” Netflix fragmanı: Vincent Cassel kovalanan adam olarak"
+   },
+   "at": "2026-10-31T14:57Z",
+   "h": "1b1544e103b4",
+   "rev": [
+    "Headline: \"Gejagten\" (hunted man) rendered as \"av konusu olarak\", which is unnatural and unclear; changed to \"kovalanan adam olarak\".",
+    "Teaser: \"auch in Deutschland\" is rendered as a vague \"izlenebilecek\"; made it \"Almanya'da da\" with the platform kept, which is acceptable, and the verb is aligned with \"startet\".",
+    "\"Heilmittel\" was translated as \"tedavi yöntemi\" (treatment method) instead of \"çare/şifa\" (cure); changed to \"çare\".",
+    "\"Glöckner\" in the teaser was translated as \"kambur\" (hunchback), whereas the German says \"Glöckner\" (bell-ringer); changed to \"çan zilcisi\"."
+   ],
+   "rev_dbg": [
+    4,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Quasimodo’yu canlandıran Vincent Cassel, 2025’te Toronto Film Festivali’nde",
+    "rv.score": "Fragman"
+   }
+  },
   "fruehere-fashionette-gmbh-insolvenz-offenbach": {
    "L": {
     "body": [
@@ -1680,6 +1763,35 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Frankfurt am Main'daki Zeil alışveriş caddesi"
+   }
+  },
+  "gen-z-proteste-beginnen-2026-10-31-b15": {
+   "L": {
+    "body": [
+     "“Gen Z regelt” girişiminin ülke çapındaki protestoları cumartesi öğleden sonra başladı. dpa'nın verdiği bilgiye göre Berlin'deki Brandenburg Kapısı'nda yapılan açılışta başlangıçta yüzlerce kişi toplandı; Tagesspiegel, kalabalığı saat 14'ü biraz geçe birkaç bin kişi olarak tahmin etti. 10.000 katılımcı için başvuru yapılmıştı. Organizatörlere göre ülke genelinde 160.000'den fazla kişi katılım sözü verdi, 30'dan fazla şehirde gösteri planlanıyor.",
+     "Girişim, diğer taleplerinin yanı sıra okullar için daha fazla para, artan yaşam maliyetlerine karşı önlemler ve daha fazla iklim koruması talep ediyor; zorunlu askerliğe ve devletin gözetim yetkilerinin genişletilmesine karşı çıkıyor. Köln'de gösteri, yoğun ilgi nedeniyle katedral çevresindeki alana taşındı. Organizatörler barışçıl protesto çağrısı yapıyor ve her türlü şiddeti reddediyor.",
+     "Berlin polisi, Halloween gecesi nedeniyle de yaklaşık 1500 ek görevliyle görev yapıyor. Polis, sürecin barışçıl geçmesini bekliyor. Öğleden sonranın erken saatlerine kadar olay veya gözaltı bildirilmedi."
+    ],
+    "d": "“Gen Z regelt” girişiminin ülke çapındaki gençlik protestoları sürüyor. Tagesspiegel'e göre Berlin'deki Brandenburg Kapısı'nda tahminen birkaç bin kişi vardı. İlk etapta herhangi bir olay bildirilmedi.",
+    "t": "Gen Z protestoları başladı: Brandenburg Kapısı'nda binlerce kişi"
+   },
+   "at": "2026-10-31T14:57Z",
+   "h": "b4ddd6db9502",
+   "rev": [
+    "Weekday \"Cumartesi\" wrongly capitalised mid-sentence (TDK: lowercase)",
+    "Broken sentence: \"Organizatörlere göre ... kişi katılacağını bildirdi\" (subject mismatch)",
+    "\"Halloween-Nacht\" rendered as \"Cadılar Bayramı gecesi\"; Halloween is the established term",
+    "\"Zwischenfälle\" in teaser rendered as \"olay\"; \"olay\" is ambiguous, use \"olay yaşandığı\"",
+    "\"Klimastreik\" caption: \"İklim Grevi\" is acceptable",
+    "\"Maßnahmen\"/\"mehr Klimaschutz\" fine"
+   ],
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Berlin'de gösteri (2019 İklim Grevi)"
    }
   },
   "gen-z-protesttag-bundesweit-2026-10-31-b11": {
@@ -1879,6 +1991,37 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Hermès'in Paris'teki Rue du Faubourg Saint-Honoré üzerindeki ana mağazası"
+   }
+  },
+  "iran-khamenei-vergeltung-ohne-grenzen-2026-10-31-b15": {
+   "L": {
+    "body": [
+     "İran’ın dini lideri Mojtaba Hamaney, ofisinin açıklamasına göre silahlı kuvvetlere her yeni saldırıya derhal ve etkili biçimde “coğrafi kısıtlama olmaksızın” karşılık verme talimatı verdi. Amacın “azami caydırıcılık” olduğu belirtildi. İran medyasına göre Hamaney ayrıca hedef listesinin ABD ve İsrail’e ait ulaşılabilir tüm tesisleri kapsayacak şekilde genişletilmesini emretti. Hamaney, Mart ayında görevi devralmasından bu yana kamuoyu önüne çıkmadı.",
+     "Uyarı, yoğun arabuluculuk çabalarının sürdüğü bir döneme denk geldi: Katarlı diplomatlar cuma günü Tahran’da kapsamlı görüşmeler yaptı, cumartesi günü için yeni görüşmeler planlandı. Görüşmelerde ABD Başkan Yardımcısı JD Vance’in bir mektubunun da gündeme geldiği belirtiliyor. Başkan Donald Trump yeni barış görüşmeleri talimatı verdiğini yalanladı. Haberlere göre Trump, ABD Merkez Kuvvetler Komutanı Amiral Brad Cooper’dan askeri seçenekler konusunda bilgi aldı.",
+     "Dışişleri Bakanı Abbas Araghchi X’te şunları yazdı: “Red lines are a thing of the past” (Kırmızı çizgiler geçmişte kaldı). Birçok İranlı milletvekili artık Nükleer Silahların Yayılmasının Önlenmesi Antlaşması’ndan çekilmesini talep ediyor; hükümet henüz buna yanıt vermedi. Savaş planı hakkında bilgilendirilen ABD’li senatör Chris Murphy planı “insane” (çılgınca) olarak nitelendirdi."
+    ],
+    "d": "İran’ın Dini Lideri, komutanlarla görüşmesinin ardından azami caydırıcılık çağrısı yaptı. Katarlı arabulucular ise ABD ara seçimlerine üç gün kala Tahran’da müzakereyi sürdürüyor.",
+    "t": "İran: Hamaney, yeni saldırıda “coğrafi sınır olmaksızın” karşılık verilmesini emretti"
+   },
+   "at": "2026-10-31T14:57Z",
+   "h": "632a3160db13",
+   "rev": [
+    "Headline: \"befiehlt Antwort\" vs. Turkish; fine. Teaser: \"fordert maximale Abschreckung\" rendered as \"çağrısı yaptı\" – acceptable.",
+    "\"Arabulucular ... müzakereyi sürdürüyor\" – fine.",
+    "Wording: \"Hamaney ... emretti\" for Iranian media report is attributed; ok.",
+    "Turkish \"Araghchi\" is a foreign-name spelling; German \"Araghtschi\" transliteration; Araghchi is the established spelling, ok.",
+    "\"Dini lider\" for \"oberster Führer\" is imprecise; Turkish convention is \"dini lider\"/\"Yüce Lider\"; changed to \"Yüce Lider\" for accuracy.",
+    "\"yeni görüşmeler planlandı\" vs German \"weitere\" – fine.",
+    "\"Birçok\" vs \"Mehrere\" – changed to \"Çok sayıda\"? left as is.",
+    "\"çekilinmesini\" is ungrammatical; fixed to \"çekilmesini\"."
+   ],
+   "rev_dbg": [
+    9,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Mojtaba Hamaney"
    }
   },
   "janelle-monae-phish-boy-wondaween-2026": {
@@ -2690,6 +2833,27 @@
     "img.alt": "Sembolik fotoğraf: Bir evde dijital elektrik sayacı"
    }
   },
+  "leverkusen-stuttgart-2026-10-31-b15": {
+   "L": {
+    "body": [
+     "Bayer Leverkusen, cumartesi günü saat 15:30'da BayArena'da VfB Stuttgart'ı konuk ediyor. Başlama düdüğünden kısa süre önce ilk 11'ler açıklandı.",
+     "Leverkusen kalede Flekken, ayrıca Quansah, Tapsoba, Medina, Vázquez, Fernández, García, Gutiérrez, Maza ve Moreira ile başlıyor; hücumda Schick oynuyor. Stuttgart ise Seimen, Jaquez, Chabot, Hendriks, Leweling, Prömel, Karazor, Führich, El Khannouss, Undav ve Demirović'i sahaya sürüyor.",
+     "Leverkusen, teknik direktör Sebastian Hoeneß'in takımıyla oynadığı son iki maçı kaybetti ve Bulinews'e göre şimdi rövanş almak istiyor."
+    ],
+    "d": "BayArena'daki maçın kadroları belli oldu: Stuttgart Undav ve Demirović'e güveniyor, Leverkusen Hoeneß'in takımına karşı yaşadığı iki yenilginin rövanşını almak istiyor.",
+    "t": "Leverkusen - Stuttgart: Hücumda Undav ve Demirović, Bayer'in başında Schick"
+   },
+   "at": "2026-10-31T14:57Z",
+   "h": "64480b016eee",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Leverkusen'deki BayArena"
+   }
+  },
   "lille-lens-giroud-derby-2026-10-31-b11": {
    "L": {
     "body": [
@@ -2709,6 +2873,27 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Olivier Giroud (2018)"
+   }
+  },
+  "linke-berlin-parteitag-2026-10-31-b15": {
+   "L": {
+    "body": [
+     "Berlin Sol Partisi, Lichtenberg'deki Dong-Xuan-Center'da düzenlenen olağanüstü kongresinde sabahtan beri SPD ve Yeşiller'le koalisyon müzakerelerine başlayıp başlamayacağını görüşüyor. Saat 14:00'e kadar henüz bir sonuç yoktu; net bir çoğunluk bekleniyor. Delegeler onay verirse, üçlü görüşmelerin dpa'nın verdiği bilgiye göre pazartesi günü başlaması öngörülüyor. SPD ve Yeşiller bir önceki hafta zaten onay vermişti.",
+     "Doğrudan seçilen milletvekili Vanessa Emde ile Sol Parti grubunun kendi anlatımına göre artık ortak bir çalışma zemini görmediği belirtiliyor. Berliner Zeitung'un verdiği bilgiye göre Emde, salonun önünde ön görüşme belgesini protesto etti. Göstericilerin eleştirisi özellikle planlanan koalisyonun Orta Doğu politikasına yöneliyor.",
+     "Baş aday Elif Eralp onay için destek istedi ve eleştirenlere şunu sordu: “Muhteşem ve çok çeşitli kentimizi gerçekten CDU'ya bırakmak mı istiyoruz?”"
+    ],
+    "d": "Berlin Sol Partisi, SPD ve Yeşiller'le koalisyon görüşmelerini ele alıyor. Milletvekili Vanessa Emde dışarıda protesto etti. Onay çıkarsa müzakereler pazartesi başlayacak.",
+    "t": "Berlin'de Sol Parti kongresi: Emde salon önünde Kırmızı-Yeşil-Kırmızı'yı protesto etti"
+   },
+   "at": "2026-10-31T14:57Z",
+   "h": "403d95765c29",
+   "rev_dbg": [
+    6,
+    6,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Elif Eralp (Die Linke) bir konuşma sırasında"
    }
   },
   "linke-parteitag-eralp-zustimmung-2026-10-31-b11": {
@@ -3261,6 +3446,31 @@
     "img.alt": "Veri merkezi (sembolik fotoğraf)"
    }
   },
+  "ruse-guterzug-ammoniumnitrat-entgleist-2026-10-31-b15": {
+   "L": {
+    "body": [
+     "Tuna kenti Ruse'de amonyum nitrat taşıyan bir yük treninin yedi vagonu raydan çıktı. Kaza, lokomotif ve vagon fabrikasının bulunduğu bölgede meydana geldi. Bölge emniyet müdürlüğü sözcüsü Daniela Maltçeva'nın verdiği bilgiye göre yükün bir kısmı dışarı döküldü.",
+     "Polis memurları iki noktada beyaz, taneli bir madde tespit etti; toplam miktar yaklaşık 20 kilogram. Maddeden ve çevredeki topraktan laboratuvar incelemeleri için örnekler alındı. Polisin bir ekibi olayı yerinde belgeledi.",
+     "Ruse'deki İkinci Bölge Polis Karakolu soruşturma başlattı. Raydan çıkmanın nedeni henüz belirsiz. Yaralı olup olmadığına ya da demiryolu trafiğine etkisine ilişkin başlangıçta bilgi verilmedi."
+    ],
+    "d": "Ruse'de lokomotif ve vagon fabrikasının yakınında amonyum nitrat taşıyan bir yük treninin yedi vagonu raydan çıktı. Polis, etrafa saçılmış yaklaşık 20 kilogram gübre buldu ve soruşturma başlattı.",
+    "t": "Ruse: Amonyum nitrat taşıyan yedi yük vagonu raydan çıktı – yükün bir kısmı etrafa saçıldı"
+   },
+   "at": "2026-10-31T14:57Z",
+   "h": "3192b53aa744",
+   "rev": [
+    "Spelling of the Bulgarian name: 'Malcheva' should be rendered in Turkish orthography as 'Maltçeva'",
+    "Polis memurları: 'Beamte' is fine; no other substantive errors found"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı/Sembolik fotoğraf: Ruse'de demiryolu tesisleri"
+   }
+  },
   "schweinepreis-proteste-2026-10-31-b08": {
    "L": {
     "body": [
@@ -3339,6 +3549,36 @@
    ],
    "x": {
     "img.alt": "Sofya Hayvanat Bahçesi'nin girişi (Arşiv fotoğrafı)"
+   }
+  },
+  "spacex-starlink-halloween-start-2026-10-31-b15": {
+   "L": {
+    "body": [
+     "SpaceX'in bir Falcon 9 roketi, Cuma'yı Cumartesi'ye bağlayan gece UTC 04:04'te Kaliforniya'daki Vandenberg Uzay Kuvvetleri Üssü'nden fırlatıldı. Roketin üst kademesi, fırlatmadan yaklaşık 62 dakika sonra bordaki 27 Starlink uydusunu yörüngeye bıraktı. B1093 numaralı birinci kademe 18. kez uçtu ve fırlatmadan yaklaşık sekiz buçuk dakika sonra “Of Course I Still Love You” adlı insansız platform gemisine indi.",
+     "Space.com'a göre bu, 2026'daki 118. Falcon 9 uçuşuydu; bunların yüzde 70'inden fazlası Starlink ağının genişletilmesi için yapıldı. Ağ artık 11.000'den fazla uydudan oluşuyor. Spaceflight Now'a göre bu, SpaceX'in Ekim ayındaki on birinci ve son yörünge fırlatmasıydı.",
+     "Fırlatma temposu son dönemde bir miktar düştü: SpaceX, Ekim ayı sonunda Temmuz 2025'ten bu yana ilk kez 365 gün içindeki yörünge fırlatması sayısında 150'nin altına indi; en yüksek sayı Aralık 2025'te 171 olmuştu. Spaceflight Now'a göre şirketin CEO'su Elon Musk, Starship'in “weekly at some point in the first half next year” uçmasını, yani 2027'nin ilk yarısında haftalık uçuş yapmasını bekliyor."
+    ],
+    "d": "SpaceX, Kaliforniya'da Ekim ayının son yörünge uçuşunu gerçekleştirdi. Birinci kademe Pasifik'teki bir gemiye indi; bu, kademenin şimdiden 18. göreviydi.",
+    "t": "Cadılar Bayramı'nda Falcon 9, 27 Starlink uydusunu taşıdı; kademe 18. kez uçtu"
+   },
+   "at": "2026-10-31T14:57Z",
+   "h": "0be68d0fba47",
+   "rev": [
+    "Headline: 'Booster' left untranslated; replaced with 'birinci kademe'",
+    "Teaser: 'es war bereits ihr 18. Einsatz' was shortened; the emphasis on 'bereits' was lost",
+    "'Cumartesiye karşı gece' is awkward; changed to 'Cuma'yı Cumartesi'ye bağlayan gece'",
+    "Drone ship 'insansız gemi' is imprecise; changed to 'insansız platform gemisi'",
+    "'mehr als 70 Prozent' rendered as 'yüzde 70'inden fazlası' – correct; 'Firmenchef' rendered as 'başkanı' – changed to 'CEO'su'",
+    "The German clarifies that the 'weekly' quote means the first half of 2027; this is kept"
+   ],
+   "rev_dbg": [
+    6,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Vandenberg'den bir Falcon 9 fırlatılıyor",
+    "kl": "Uzay"
    }
   },
   "steins-gate-reboot-test": {
