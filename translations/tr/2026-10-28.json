@@ -447,6 +447,34 @@
     "kl": "Berlin"
    }
   },
+  "bg-energie-aktien": {
+   "L": {
+    "body": [
+     "Sofya'daki Bulgaristan Borsası (BFB) salı günü yeniden güçlü bir yükseliş kaydetti. En önemli 15 hisseyi kapsayan ana endeks SOFIX, %1,67 artışla 1.714,60 puana çıktı. BTA'ya göre endeks böylece Ocak 2008'den bu yana ilk kez 1.700 puanın üzerine çıktı. Investor.bg'ye göre bu, üst üste sekizinci kazanç günüydü. Endeks 2025 sonundan bu yana (1.156,43 puan) yaklaşık %48 değer kazandı.",
+     "Tüm endeksler artıda kapandı: BGBX40 (en çok işlem gören 40 hisse) %1,20 artışla 268,57 puan, BGREIT (gayrimenkul fonları) %0,30, BGTR30 %0,27, beamX (küçük şirketler için büyüme piyasası) %0,72. Ana piyasada yaklaşık 1,5 milyon avroluk işlem yapıldı; toplam hacim 426 işlemde 1,67 milyon avro oldu (infostock.bg). En çok işlem gören hisse 183.178 avroyla Sopharma oldu; hisse %0,61 düşüşle 3,27 avroya geriledi.",
+     "Yükselişi çeken hisse, holding şirketi Eurohold Bulgaria (sigorta ve enerji – elektrik dağıtımı ve satışı) oldu. Hisse %9,47 artışla 2,08 avroya yükseldi; 39 işlemde 135.879 avroluk hacim gerçekleşti, son işlem saat 16:54'te yapıldı. Petrol (akaryakıt istasyonları) salı günü işlem görmedi; son fiyat 26 Ekim tarihli 0,360 avro oldu.",
+     "Enerji şirketlerinin salı günü yeni borsa duyurularına rastlamadık. Fibank (First Investment Bank) %2,11 düşüşle 4,64 avroya geriledi."
+    ],
+    "d": "Bulgaristan Borsası'nın ana endeksi %1,67 artışla 1.714,60 puana çıktı; üst üste sekizinci kazanç günü. Eurohold Bulgaria %9,47 artışla 2,08 avroya yükseldi. Toplam işlem hacmi yaklaşık 1,67 milyon avro oldu.",
+    "explain": "Endeks, 18 yılın en yüksek seviyesine yakın; ancak artışın büyük bölümü az sayıda hisseden ve düşük işlem hacminden geliyor. Fiyatlar hızla yön değiştirebilir. Yatırım tavsiyesi değildir.",
+    "t": "SOFIX 2008'den bu yana ilk kez 1.700 puanın üzerinde; Eurohold %9,5 yükseldi"
+   },
+   "at": "2026-10-31T22:25Z",
+   "flag": [
+    "Zahlen fehlen oder weichen ab: 10, 1156, 1700, 1714"
+   ],
+   "h": "f6bf0034d501",
+   "rev": [
+    "Teaser: 'Gesamtumsatz' is rendered correctly, but 'Eurohold Bulgaria ... 2,08 avroya yükseldi' is fine; no teaser error found.",
+    "Date '26.10' is better written in Turkish form '26 Ekim' for readability",
+    "'Zugpferd' rendered as 'Yükselişi çeken hisse' is acceptable; 'Fibank gab nach' = geriledi OK"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ]
+  },
   "block-prozess-zeit-aufnahmen-gericht-2026-10-28-b08": {
    "L": {
     "body": [
@@ -4907,6 +4935,21 @@
     ],
     "rv.score": "Metacritic 79 · Finger Guns 8/10 · Retcon 3,5/5"
    }
+  },
+  "wallstreet": {
+   "L": {
+    "body": [
+     "ABD borsaları Salı günü de yükseldi. Nasdaq Composite (çok sayıda teknoloji şirketi içeren endeks) %1,18 artışla 26.477,81 puana çıktı. S&P 500 (ABD'nin 500 büyük şirketi) %0,60 kazanarak 7.722,60'a ulaştı, Dow Jones ise %0,03 artışla 52.377,57 puanda neredeyse yerinde saydı (AP, Reuters). AP'ye göre S&P 500, bu ayın başındaki rekorunun yalnızca %1,2 altında bulunuyor.",
+     "Yükselişin itici gücü yine çip hisseleri oldu. Yarı iletken endeksi SOX %3,6 sıçradı. Broadcom %4 yükseldi: Bank of America, Citi ve Morgan Stanley bankaları ile yatırım şirketi Blackstone 63 milyar dolar sağlıyor. Bu kaynakla özel olarak kurulan bir şirket Broadcom çiplerini satın alıp Anthropic'e kiralayacak (Reuters). CoreWeave %7,9 yükseldi (AP). TheStreet'e göre Anthropic ayrıca 2029'a kadar hesaplama gücü karşılığında SpaceX'e 120,5 milyar dolara kadar ödeme yapmayı planlıyor.",
+     "Boeing %10,7 değer kaybetti. Uçak üreticisi, beklenenden yüksek zarar açıkladı – hisse başına 21 sent yerine 34 sent – ve bu yıl için hedeflediği 500 teslimatı tutturamayacak (Reuters). Xylem, tahminini düşürmesinin ardından %14,2 geriledi. UPS %5,8, Royal Caribbean güçlü bilançonun ardından %5,5 kazandı (Reuters). Visa, borsa kapanışından sonra beklentilerin biraz üzerinde kazanç açıkladı; ancak hisse kapanış sonrası işlemlerde yaklaşık %1,5 geriledi (Investing.com).",
+     "Petrol, İran çevresindeki diplomatik görüşmeler nedeniyle ucuzladı: Brent varil başına 113,88 dolardan (−%1,67), WTI 99,90 dolardan (−%1,83) kapandı. On yıllık ABD tahvil faizi yaklaşık %4,99 seviyesindeydi. Piyasa, Fed'in politika faizini Çarşamba günü %3,75-4 aralığında sabit bırakmasını bekliyor (Reuters). Çarşamba sabahı Kospi %5,6, Nikkei %1,3 artıda işlem gördü (AP)."
+    ],
+    "d": "Nasdaq %1,2, S&P 500 %0,6 yükseldi. Anthropic çipleri için 63 milyar dolarlık finansman yarı iletkenleri destekledi. Boeing bilançoyla çöktü. Fed bugün karar açıklıyor.",
+    "explain": "Teknoloji hisseleri, yapay zekâya para akışı sürdüğü için yükseliyor. Bugün Fed ile Microsoft ve Alphabet'in bilançoları belirleyici; bunlar piyasa havasını hızla değiştirebilir.",
+    "t": "Wall Street: Çip hisseleri %3,6 yükseldi, Boeing %10'dan fazla değer kaybetti"
+   },
+   "at": "2026-10-31T22:25Z",
+   "h": "b0720095d13f"
   },
   "wbo-stevenson-muratalla-verhandlungen-20-tage": {
    "L": {

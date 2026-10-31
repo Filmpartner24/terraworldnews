@@ -1259,6 +1259,32 @@
     "img.alt": "Anthony Joshua 2012 Olimpiyat altın madalyasıyla (Arşiv fotoğrafı)"
    }
   },
+  "deutsche-boerse": {
+   "L": {
+    "body": [
+     "Öncü endeks Dax (Almanya'nın borsaya kote 40 büyük şirketi) cuma günü %0,85 değer kaybederek 25.818,21 puana geriledi ve yeniden 26.000'in altına düştü. Buna rağmen hafta ve ekim ayının tamamı yaklaşık %2,5'er artışla sona erdi (dpa-AFX). MDax (orta ölçekli şirketler) %1,06 geriledi, Euro Stoxx 50 (avro bölgesinin büyük şirketleri) ise %1,22 düşüşle 6131,31 puana indi. Daha küçük şirketler ve teknoloji hisseleri daha fazla baskı altındaydı: SDax yaklaşık −%2,0, TecDax yaklaşık −%1,4 (finanzen.net, 17:57).",
+     "Baskı ABD'den geldi: Amazon ve Intel açıkladıkları rakamlar ve beklentilerle hayal kırıklığı yarattı, bu da teknoloji sektörünü etkiledi. Dax'ta en fazla değer kaybeden hisseler Siemens Energy (−%6,87) ve çip üreticisi Infineon (−%6,39) oldu. Petrol fiyatları, ABD'nin İran'a yeni bir askeri saldırı düzenleyebileceği endişesiyle nisandan bu yana en yüksek seviyeye çıktı (dpa-AFX).",
+     "Dax'ın en çok kazandıran hissesi %5,46 artışla 50,58 avroya yükselen Bayer oldu: Missouri'deki bir jüri, glifosat davasında şirket lehine karar verdi. MDax'ta Puma, üçüncü çeyrekte daha düşük zarar açıklamasının ardından %5,6 yükseldi. Evonik, BASF'nin devralma talebini reddetti ancak bilgi alışverişine hazır; iki hisse de hafif yükseldi (dpa-AFX).",
+     "Konjunktür verileri karışıktı. Almanya'da enflasyon ekimde %2,8'e geriledi (eylül: %3,3); bunun nedeni özellikle akaryakıt indirimiydi. Almanya'nın gayrisafi yurt içi hasılası üçüncü çeyrekte %0,2, avro bölgesinin ise %0,4 büyüdü (Destatis, dpa-AFX)."
+    ],
+    "d": "Dax 25.818,21 puandan (−%0,85) kapandı ve yeniden 26.000'in altına indi. Haftalık ve aylık bazda yaklaşık %2,5 artış var. Almanya'da enflasyon %2,8'e geriledi.",
+    "explain": "Zayıf geçen bir cuma günü pek bir şeyi değiştirmiyor: Alman hisseleri ekim ayının tamamında yükseldi. Düşen enflasyon, fiyatların şu anda daha yavaş arttığı anlamına geliyor; ancak bu henüz bir rahatlama işareti değil.",
+    "t": "Dax cuma günü %0,85 düştü, haftalık ve ekim ayı bazında %2,5 arttı; Bayer önde"
+   },
+   "at": "2026-10-31T22:25Z",
+   "h": "c0a17facaae0",
+   "rev": [
+    "Euro Stoxx 50 and MDax sentence: 'düşüşle' only attached to Euro Stoxx; acceptable but 'MDax %1,06' lacks verb – fixed",
+    "Dax description 'borsaya kote' is an unneeded addition but harmless; 'Tankrabatt' rendered as 'akaryakıt indirimi' is acceptable",
+    "Evonik 'bilgi alışverişine hazır' lacks 'is ready' form (fine); 'Dax'ın en çok kazandıran' fine",
+    "Weekly/monthly: 'aylık bazda' vs October – fine"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ]
+  },
   "deutschland-afd-weidel-gen-z-proteste-extremisten-warnung-2026-10-31": {
    "L": {
     "body": [

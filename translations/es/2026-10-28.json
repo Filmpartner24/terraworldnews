@@ -455,6 +455,30 @@
     "kl": "Berlín"
    }
   },
+  "bg-energie-aktien": {
+   "L": {
+    "body": [
+     "La Bolsa de Bulgaria (BFB) en Sofía volvió a subir con fuerza el martes. El SOFIX, el índice principal con las 15 acciones más importantes, subió un 1,67 % hasta 1714,60 puntos. Según BTA, superó así los 1700 puntos por primera vez desde enero de 2008. Según Investor.bg, fue la octava jornada consecutiva de ganancias. Desde finales de 2025 (1156,43 puntos) el índice ha ganado alrededor de un 48 %.",
+     "Todos los índices cerraron en positivo: BGBX40 (las 40 acciones más negociadas) +1,20 % hasta 268,57 puntos, BGREIT (fondos inmobiliarios) +0,30 %, BGTR30 +0,27 %, beamX (mercado de crecimiento para pequeñas empresas) +0,72 %. En el mercado principal se negociaron unos 1,5 millones de euros; en total, 1,67 millones de euros en 426 operaciones (infostock.bg). La más negociada fue Sopharma, con 183.178 euros; la acción cayó un 0,61 % hasta 3,27 euros.",
+     "El motor de la subida fue la holding Eurohold Bulgaria (seguros y energía: distribución y comercialización de electricidad). La acción subió un 9,47 % hasta 2,08 euros, con 39 operaciones por 135.879 euros; la última operación tuvo lugar a las 16:54. Petrol (gasolineras) no cotizó el martes; su última cotización fue de 0,360 euros el 26.10.",
+     "El martes no encontramos nuevos comunicados bursátiles de las empresas energéticas. Fibank (First Investment Bank) cedió un 2,11 % hasta 4,64 euros."
+    ],
+    "d": "El índice principal de la Bolsa de Bulgaria subió un 1,67 % hasta 1714,60 puntos, octava jornada seguida de ganancias. Eurohold Bulgaria ganó un 9,47 % hasta 2,08 euros. Volumen total: unos 1,67 millones de euros.",
+    "explain": "El índice está cerca de su nivel más alto en 18 años, pero buena parte de la subida procede de pocas acciones con poco volumen. Las cotizaciones pueden cambiar rápidamente. No es asesoramiento de inversión.",
+    "t": "El SOFIX supera los 1700 puntos por primera vez desde 2008; Eurohold sube un 9,5 %"
+   },
+   "at": "2026-10-31T22:25Z",
+   "h": "f6bf0034d501",
+   "rev": [
+    "Teaser uses the abbreviation \"1,67 M€\", which is unnatural in Spanish news style; replaced with \"1,67 millones de euros\" (still under 220 characters)",
+    "Teaser: the \"octava jornada seguida de ganancias\" clause was attached with a comma, which reads awkwardly; made it a clear apposition"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ]
+  },
   "block-prozess-zeit-aufnahmen-gericht-2026-10-28-b08": {
    "L": {
     "body": [
@@ -4591,6 +4615,32 @@
     ],
     "rv.score": "Metacritic 79 · Finger Guns 8/10 · Retcon 3,5/5"
    }
+  },
+  "wallstreet": {
+   "L": {
+    "body": [
+     "Las bolsas de EE. UU. volvieron a subir el martes. El Nasdaq Composite (índice con muchas empresas tecnológicas) avanzó un 1,18 % hasta los 26.477,81 puntos. El S&P 500 (las 500 grandes empresas estadounidenses) ganó un 0,60 % hasta 7.722,60, y el Dow Jones apenas se movió, con un +0,03 % hasta 52.377,57 (AP, Reuters). Según AP, el S&P 500 se sitúa solo un 1,2 % por debajo de su récord de principios de este mes.",
+     "Los valores de chips fueron de nuevo el motor. El índice de semiconductores SOX se disparó un 3,6 %. Broadcom subió un 4 %: los bancos Bank of America, Citi y Morgan Stanley, junto con el inversor financiero Blackstone, aportan 63.000 millones de dólares. Con ellos, una sociedad creada expresamente compra chips de Broadcom y los alquila a Anthropic (Reuters). CoreWeave subió un 7,9 % (AP). Según TheStreet, Anthropic pagará además hasta 120.500 millones de dólares a SpaceX de aquí a 2029 por capacidad de cálculo.",
+     "Boeing perdió un 10,7 %. El fabricante de aviones comunicó una pérdida mayor de la esperada –34 centavos por acción en lugar de 21– y no alcanzará el objetivo de 500 entregas este año (Reuters). Xylem cayó un 14,2 % tras rebajar su previsión. UPS ganó un 5,8 % y Royal Caribbean un 5,5 % tras presentar buenos resultados (Reuters). Visa obtuvo un beneficio algo mayor de lo esperado tras el cierre del mercado, pero sus acciones cedieron en torno a un 1,5 % fuera de horario (Investing.com).",
+     "El petróleo se abarató por las conversaciones diplomáticas en torno a Irán: el Brent cerró en 113,88 dólares por barril (−1,67 %) y el WTI en 99,90 dólares (−1,83 %). El rendimiento de los bonos estadounidenses a diez años se situó en torno al 4,99 %. El mercado espera que la Fed mantenga el tipo de interés de referencia entre el 3,75 y el 4 % el miércoles (Reuters). En la mañana del miércoles, el Kospi subía un 5,6 % y el Nikkei un 1,3 % (AP)."
+    ],
+    "d": "El Nasdaq subió un 1,2 % y el S&P 500 un 0,6 %. Una financiación de 63.000 millones de dólares para chips de Anthropic impulsó los semiconductores. Boeing cayó tras sus cuentas. Hoy decide la Fed.",
+    "explain": "Las tecnológicas suben porque sigue fluyendo mucho dinero hacia la inteligencia artificial. Hoy importan la Fed y los resultados de Microsoft y Alphabet, que pueden cambiar rápidamente el ánimo del mercado.",
+    "t": "Wall Street: los chips suben un 3,6 % y Boeing se hunde más de un 10 %"
+   },
+   "at": "2026-10-31T22:25Z",
+   "h": "b0720095d13f",
+   "rev": [
+    "Se perdió el matiz de «Dow Jones … fast auf der Stelle» en la estructura (menor: aceptable)",
+    "«Ihre 63 Mrd.» se redactó como hecho presente; correcto, sin cambio",
+    "«Anthropic … bis 2029 … an SpaceX» ordenado de forma ambigua: «hasta 2029» y «hasta 120.500 millones» seguidos; aclarado",
+    "«Visa verdiente» traducido como «ganó» con riesgo de confusión con subida bursátil; precisado a beneficio"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ]
   },
   "wbo-stevenson-muratalla-verhandlungen-20-tage": {
    "L": {

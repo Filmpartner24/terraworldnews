@@ -2566,6 +2566,34 @@
     "img.alt": "Hyundai ve Kia'nın Seul'deki merkezi (Arşiv fotoğrafı)"
    }
   },
+  "invest-deutschland": {
+   "L": {
+    "body": [
+     "Volkswagen, Zwickau'da (Saksonya) araç sökümünde kapasite artışını başlattı. 2027'de iki vardiyalı çalışmayla yaklaşık 4.100 aracın parçalarına ayrılması, 2030'a kadar ise yılda 15.000'e kadar araç sökülmesi planlanıyor. VW, tesisin dönüşümüne, teknolojiye ve yapay zeka uygulamalarına 90 milyon avroya kadar yatırım yapmak istiyor; Saksonya eyaleti projeyi 10,7 milyon avroya kadar destekliyor. Başlangıçta orada 100 kişi çalışıyor, daha sonra 1.000 kişiye kadar çıkacak (dpa-AFX, 28.10.).",
+     "Orta Franken bölgesindeki Dietenhofen'de Playmobil'in eski ana tesisi, 100 megavat kapasiteli bir veri merkezi kampüsüne dönüştürülecek. Şebeke işletmecisi N-ERGIE gerekli kapasiteyi taahhüt etti. Horst-Brandstätter-Group tutarı ve zaman planını açıklamadı. Haziran sonundaki kapanışta 350 kişi işini kaybetti (dpa-AFX, 28.10.). Ayrıca ABD'li GE Vernova, yüksek gerilim teknolojisi üreticisi Berlin merkezli Trench Group'u yaklaşık 9 milyar ABD doları karşılığında satın alıyor.",
+     "Mercedes-Benz, üretim dışındaki bölümler için Aralık'ta yeni bir ayrılma tazminatı (isteğe bağlı ayrılma) programı başlatıyor; şirket bir rakam açıklamadı. Marktheidenfeld'de ilçe başkanı, belediye başkanları ve IG Metall, Cummins'te (yaklaşık 350) ve Schneider Electric'te (Lahr ile birlikte yaklaşık 110) risk altındaki işleri kurtarmak istiyor; rakamlar IG Metall'e ait, Cummins ise yalnızca bir bilgilendirme ve danışma sürecini doğruladı.",
+     "Tablo toplamı 6,95 milyar avro, rakamla belirtilen işten çıkarma ise 320 pozisyon (kendi hesabımız; tablo kısaltıldığı için bir önceki günle karşılaştırma yapılamıyor). ifo istihdam barometresi Ekim'de 95,5 puana yükseldi (Eylül'de 95,1). Kasım için GfK tüketici güveni endeksi −30,8 puana geriledi."
+    ],
+    "d": "Volkswagen Zwickau'da araç geri dönüşümünü artırıyor. Playmobil'in eski Dietenhofen tesisi veri merkezine dönüşecek. ifo, planlanan işten çıkarmaların azaldığını bildirdi.",
+    "explain": "Zwickau'da eski araçların sökülmesi ve yeniden değerlendirilmesi çevresinde yeni istihdam oluşuyor. Şirketler genel olarak biraz daha az işten çıkarma planlıyor, ancak tüketiciler temkinli kalmayı sürdürüyor.",
+    "t": "VW Zwickau'da araç sökümünü başlattı: 90 milyon avroya kadar, sonra 1.000 kişilik istihdam"
+   },
+   "at": "2026-10-31T22:25Z",
+   "h": "1b54161a4945",
+   "rev": [
+    "Headline: 'Stellen' rendered as 'istihdam' and 'Auto-Demontage' as 'söküm tesisi' (a plant); the German says the dismantling operation was launched, not a facility",
+    "Teaser: 'Auto-Recycling hochfahren' rendered as 'artırıyor' is acceptable, but 'Das ifo meldet weniger geplanten Stellenabbau' is fine; 'Playmobil'in eski Dietenhofen tesisi' is acceptable",
+    "Body 2: 'Berliner Trench Group' rendered as 'Berlin merkezli' is acceptable; 'Zudem' sentence fine",
+    "Body 3: 'Abfindungsprogramm' rendered as 'kıdem tazminatı programı' is legally inaccurate (severance/buyout program, not statutory seniority pay)",
+    "Body 3: 'Landrat' rendered as 'ilçe başkanı' – acceptable; 'Bürgermeister' plural fine",
+    "Body 4: 'Abbau' rendered as 'işten çıkarma' acceptable"
+   ],
+   "rev_dbg": [
+    6,
+    2,
+    0
+   ]
+  },
   "jahr-der-ziege-vacheron-constantin-email-iwc-titan": {
    "L": {
     "body": [

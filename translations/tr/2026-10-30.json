@@ -355,6 +355,32 @@
     "kl": "Berlin"
    }
   },
+  "bg-energie-aktien": {
+   "L": {
+    "body": [
+     "Sofya'daki Bulgaristan Borsası (BFB) perşembe günü güçlü bir yükseliş kaydetti. En önemli hisselerin ana endeksi olan SOFIX, %6,06 (105 puan) artarak 1838,43 puana çıktı. Bu, üst üste onuncu kazanç günüydü (BTA'ya dayanan kendi hesabımız). BTA'ya göre endeks en son 8 Kasım 2007'de, o dönem 1860,97 puanla, şimdikinden daha yüksek seviyedeydi. Endeksin rekor kapanış seviyesi 1952,4 puan.",
+     "BGBX40 (en çok işlem gören 40 hisse) %4,59 artışla 283,93 puana, BGTR30 %2,05 artışla 1246,03 puana, BGREIT (gayrimenkul fonları) ise %0,50 artışla 246,72 puana yükseldi. Yalnızca beamX (küçük şirketler için büyüme piyasası) %0,32 gerileyerek 133,58 puana indi. Ana piyasada 4,78 milyon avroluk işlem hacmi gerçekleşti.",
+     "Yükselişin itici gücü, enerji holdingi Eurohold Bulgaria (Elektrohold ve Solars Energy'nin sahibi) oldu. Hisse, 110 işlemde ve 345.077 avro hacimle %22,94 artarak 2,68 avroya çıktı. BTA'ya göre hisse tek başına SOFIX'teki artışın 100'den fazla puanını sağladı. Eurohold, Frankfurt duyurusundan bir gün sonra, hem Sofya'da hem Frankfurt'ta eşzamanlı işlem görmek üzere BFB'nin EuroBridge segmentine geçiş için başvurdu.",
+     "Petrol (akaryakıt istasyonları) %32,67 artarak 0,398 avroya yükseldi. Son işlem 29.10. tarihinde saat 16:02'de, yalnızca 2868 avroluk günlük hacimle gerçekleşti (infostock.bg)."
+    ],
+    "d": "Bulgaristan Borsası'nın ana endeksi Kasım 2007'den bu yana en yüksek seviyede. Eurohold Bulgaria %22,94 artışla 2,68 avroya çıktı ve EuroBridge segmentine geçiş için başvurdu.",
+    "explain": "Endeks esas olarak tek bir hisse nedeniyle hareket ediyor ve Sofya'daki işlem hacimleri küçük; fiyatlar hızla yön değiştirebilir. Yatırım tavsiyesi değildir.",
+    "t": "SOFIX %6,06 sıçrayarak 1838 puana ulaştı; Eurohold neredeyse %23 yükseldi"
+   },
+   "at": "2026-10-31T22:25Z",
+   "h": "81baf850152e",
+   "rev": [
+    "Turkish weekday should not be capitalised but 'perşembe' is already lowercase – fine; 'Endeksin rekor kapanış seviyesi' ok",
+    "Petrol: German says last trade was on 29.10. – the draft keeps this; fine",
+    "'Laut BTA stand der Index zuletzt ... höher' rendered slightly awkwardly: 'daha yüksek seviyedeydi' is ambiguous",
+    "'Elektrohold' should be spelled 'Elektrohold' as in the original – fine"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ]
+  },
   "binance-hack-milliarden-2026-10-30-b08": {
    "L": {
     "body": [
@@ -2626,6 +2652,33 @@
     "kl": "Aşk ve İlişkiler"
    }
   },
+  "invest-deutschland": {
+   "L": {
+    "body": [
+     "Geldern (Kuzey Ren-Vestfalya): Unimicron Germany devre kartı fabrikasını kapatıyor. Yaklaşık 240 çalışan işini kaybedecek, üretim 2027'nin ilk yarısında sona erecek. Şirket nedenler olarak zararları ve zor pazar koşullarını gösteriyor. Bu, iflas değil, gönüllü tasfiye (Radio K.W., 29.10.). Ana şirket, kalan siparişler, kıdem tazminatları ve borçlar için 35 milyon avroya kadar kaynak ayırıyor (Evertiq, 29.10.).",
+     "Speyer (Renanya-Palatina): Mann+Hummel, fabrikanın 2028 sonuna kadar kapatılması kararında ısrar ediyor; nisan ayında duyurulan kapanıştan yaklaşık 600 kişi etkileniyor. Sosyal plan görüşmeleri sonuçsuz kaldı, şimdi bir uzlaştırma kurulunun karar vermesi öngörülüyor. IG Metall grev hazırlığı yapıyor (ad-hoc-news, 29.10.). Aşağı Saksonya'da McCain, Mehrum'daki patates kızartması fabrikası planlarını şimdilik sürdürmüyor; orada 650'ye kadar iş planlanmıştı (top agrar, 27.10.).",
+     "Karşı örnek: Beckhoff'un iştiraki olan makine üreticisi Schirmer (Verl), şirket tarihinin en büyük yatırımını yapıyor: 19.000 metrekarelik bir üretim salonu ve 4.200 metrekarelik bir ofis binası. Şirket bir tutar açıklamadı (Neue Westfälische, 29.10.).",
+     "Tablodaki toplam tutar 4,95 milyar avro, rakamla belirtilen işten çıkarma ise 560 kişi (kendi hesabımız; 19.10. tarihli Sanofi fabrikası bu dönemin dışında kalıyor). 29.10. tarihinde Almanya'ya ilişkin konjünktür verisi açıklanmadı. İşgücü piyasası, ekonomik performans (GSYH) ve enflasyon verileri bugün geliyor."
+    ],
+    "d": "Tayvanlı devre kartı üreticisi Aşağı Ren bölgesinden çekiliyor. Speyer'de 600 Mann+Hummel işi üzerindeki anlaşmazlık tırmanıyor. Verl'deki Schirmer yeni bir üretim salonu inşa ediyor.",
+    "explain": "Yine bir sanayi tesisi kapanıyor, çalışanlar yeni iş aramak zorunda. Bugün ülke genelinde işgücü piyasası ve fiyatların durumu ortaya çıkacak.",
+    "t": "Unimicron, Geldern'deki devre kartı fabrikasını kapatıyor – 240 kişi işini kaybediyor"
+   },
+   "at": "2026-10-31T22:25Z",
+   "h": "ffb09a3d3077",
+   "rev": [
+    "\"Rheinland-Pfalz\" left untranslated; the Turkish form is Rheinland-Pfalz → Renanya-Palatina",
+    "\"Halle\" (production/factory hall) rendered as \"salon\", which means a lounge or hall in the social sense; should be \"hol/üretim salonu\", so \"fabrika binası\" is clearer",
+    "\"Mann+Hummel ... betroffen sind rund 600 Stellen\" was changed into a clumsy sentence with \"karardan\"",
+    "\"Schirmer ... Eine Summe nannte er nicht\" fine",
+    "\"Konjunkturdaten\" is better rendered as \"ekonomik veri\" than \"konjünktür verisi\"; minor, left unchanged"
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ]
+  },
   "jake-paul-dubai-24-dezember": {
    "L": {
     "body": [
@@ -4792,6 +4845,31 @@
    "x": {
     "img.alt": "Arman Tsarukyan 2019'da (Arşiv fotoğrafı)"
    }
+  },
+  "wallstreet": {
+   "L": {
+    "body": [
+     "ABD borsaları perşembe günü düşüşle kapandı, ancak tablo karışıktı. S&P 500 (ABD'nin 500 büyük şirketi) %0,30 düşüşle 7.720,39 puana geriledi. Nasdaq Composite (çok sayıda teknoloji şirketini içeren endeks) %1,37 değer kaybederek 26.184,72'ye, Dow Jones %0,25 düşüşle 52.342,56'ya indi (AP, Reuters). Küçük şirketlerin endeksi Russell 2000 ise %1,01 yükselerek 2.859,22'ye çıktı. TheStreet'e göre S&P 500'deki yaklaşık 406 hisse yükseldi; endeksi aşağı çeken ağırlıklı olarak büyük teknoloji şirketleri oldu.",
+     "Alphabet (Google'ın ana şirketi) %12,64 düştü; bu, hissenin tüm zamanların en kötü günüydü (CNN). Yaklaşık 500 milyar dolarlık piyasa değeri silindi (CNN). Yatırımcılar, yapay zekâ (YZ) harcamalarının gelirlerden daha hızlı arttığından endişe ediyor. SOX çip endeksi %1,42 değer kaybetti. Yazılım şirketleri bilançolarının ardından sert düştü: ServiceNow %26,95, Fortinet %20,09. Caterpillar %9,25 değer kaybetti. Eli Lilly (+%6,63), Ford (+%12,4) ve Carvana (+%15,68) ise talep gördü. Microsoft, bulut hizmeti Azure %48 büyümesine rağmen ilk kazançlarını geri verdi.",
+     "ABD ekonomisi beklenenden hızlı büyüyor: Gayrisafi yurt içi hasıla (GSYH) üçüncü çeyrekte yıllık bazda %3,4 arttı; beklenti %3,1'di (Yahoo Finance). PCE endeksine göre (gıda ve enerji hariç) çekirdek enflasyon eylülde %3,1 oldu. On yıllık ABD devlet tahvillerinin getirisi %4,98'e geriledi. Brent petrol %0,38 ucuzlayarak varil başına 114,88 dolar oldu. Avrupa Merkez Bankası (AMB) mevduat faizini %2,5'te bıraktı. AMB Başkanı Christine Lagarde, Şubat 2027'de görevinden ayrılacak (AFP).",
+     "Borsa kapanışından sonra Amazon, dördüncü çeyrek satış tahmininin hayal kırıklığı yaratması nedeniyle yaklaşık %6,5 düştü (Reuters). Intel, zayıf görünüm nedeniyle yaklaşık %17 değer kaybetti (Capp Notes). Cuma sabahı Asya'da Güney Kore'nin Kospi endeksi %5,4, Japonya'nın Nikkei endeksi %2,6 geriledi (AP). Nasdaq-100 vadeli işlemleri %1,4 düşüşteydi (Reuters). Brent %2,5 artarak 117,80 dolara çıktı. Nedeni: Yemen'deki Husiler, Suudi enerji tesislerine saldırdıklarını iddia ediyor. Bu, bağımsız kaynaklarca doğrulanmadı."
+    ],
+    "d": "Alphabet, yapay zekâ harcamalarının yüksekliği endişesiyle %12,6 düştü. Nasdaq %1,4, S&P 500 ve Dow %0,3 değer kaybetti. Russell 2000'deki küçük şirketler %1 yükseldi. Kapanıştan sonra Amazon ve Intel düştü.",
+    "explain": "Yatırımcılar, devasa YZ harcamalarının karşılığını vereceğine artık koşulsuz inanmıyor. Bu durum, birçok tasarruf ve emeklilik fonunda büyük ağırlığı olan teknoloji hisselerini etkiliyor. Pahalı petrol enflasyonu yüksek tutuyor.",
+    "t": "Wall Street: Alphabet'in en kara günü, Nasdaq %1,4 düştü"
+   },
+   "at": "2026-10-31T22:25Z",
+   "h": "83835b655ef2",
+   "rev": [
+    "Wrong ordering/attribution: 'vor allem große Tech-Konzerne zogen den Index nach unten' is fine; 'Husiler' claim fine",
+    "ECB abbreviation: Turkish convention is AMB for Avrupa Merkez Bankası",
+    "'ECB Başkanı' should follow AMB"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ]
   },
   "welt-al-jazeera-30-jahre-umbau-2026-10-30": {
    "L": {
