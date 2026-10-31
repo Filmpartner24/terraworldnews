@@ -2897,7 +2897,7 @@ GPREF = {'bg': 'Добавете TWN като предпочитан източ�
 WXT = {'bg': 'Времето: MET Norway (CC BY 4.0)', 'de': 'Wetterdaten: MET Norway (CC BY 4.0)', 'en': 'Weather data: MET Norway (CC BY 4.0)'}
 BIZ = {}   # Datum -> Business-Datei
 ARCH = {}            # Artikel älter als STATIC_DAYS: gebündelt in /_arch/<l>/<datum>/<bucket>.json, ausgeliefert von functions/
-STATIC_DAYS = 14     # so viele Tage liegen Artikel als einzelne HTML-Dateien vor
+STATIC_DAYS = 10     # (Nedy 31.10.2026: 14 → 10, Platz für ES/TR unter der Cloudflare-Dateigrenze) so viele Tage liegen Artikel als einzelne HTML-Dateien vor
 ARCH_BUCKETS = 8
 STATIC_FROM = '0000-00-00'
 def arch_bucket(slug):
