@@ -1327,6 +1327,9 @@ def devirt(it, k):
     m = DEVKW.get(key, []) if sec == 'ki' else next((t[4] for t in KWHUB[sec][1] if t[0] == key), [])
     h = ' '.join(str((it.get(lg) or {}).get(f, '')) for lg in ('de', 'en') for f in ('t', 'd')).lower()
     return any(w in h for w in m)
+KWHUB['history'] = ({'bg': {'kick': 'TWN · История', 'title': '<span>ИСТОРИЯ</span>', 'sub': 'Минало · Личности · Повратни точки · Днес преди …', 'series': 'FilmPartner24 – History'}, 'de': {'kick': 'TWN · History', 'title': '<span>HISTORY</span>', 'sub': 'Geschichte · Persönlichkeiten · Wendepunkte · Heute vor …', 'series': 'FilmPartner24 – History'}, 'en': {'kick': 'TWN · History', 'title': '<span>HISTORY</span>', 'sub': 'The past · People · Turning points · On this day', 'series': 'FilmPartner24 – History'}, 'es': {'kick': 'TWN · Historia', 'title': '<span>HISTORIA</span>', 'sub': 'Pasado · Personajes · Momentos clave · Un día como hoy', 'series': 'FilmPartner24 – History'}, 'tr': {'kick': 'TWN · Tarih', 'title': '<span>TARİH</span>', 'sub': 'Geçmiş · Kişiler · Dönüm noktaları · Tarihte bugün', 'series': 'FilmPartner24 – History'}},
+ [('heute', '📅', {'bg': 'Днес преди … години', 'de': 'Heute vor … Jahren', 'en': 'On this day', 'es': 'Un día como hoy', 'tr': 'Tarihte bugün'}, {'bg': 'Годишнини и календар', 'de': 'Jahrestage und Kalenderblatt', 'en': 'Anniversaries and calendar', 'es': 'Aniversarios y efemérides', 'tr': 'Yıl dönümleri ve takvim'}, 'heute'), ('fp24', '🎬', {'bg': 'FilmPartner24 – History', 'de': 'FilmPartner24 – History', 'en': 'FilmPartner24 – History', 'es': 'FilmPartner24 – History', 'tr': 'FilmPartner24 – History'}, {'bg': 'Анимирани документални видеа', 'de': 'Animierte Doku-Videos', 'en': 'Animated documentary videos', 'es': 'Documentales animados', 'tr': 'Animasyonlu belgeseller'}, 'ex'), ('bulgarien', '🏰', {'bg': 'История на България', 'de': 'Bulgariens Geschichte', 'en': 'Bulgaria’s history', 'es': 'Historia de Bulgaria', 'tr': 'Bulgaristan tarihi'}, {'bg': 'Траки, царства, освобождение', 'de': 'Thraker, Zarenreiche, Befreiung', 'en': 'Thracians, empires, liberation', 'es': 'Tracios, imperios, liberación', 'tr': 'Trakyalılar, krallıklar, kurtuluş'}, ['bulgar', 'thrak', 'zaren', 'sofia', 'plowdiw', 'osman', 'aprilaufstand', 'schipka', '1878', '1876']), ('kriege', '⚔', {'bg': 'Световните войни', 'de': 'Weltkriege', 'en': 'World wars', 'es': 'Guerras mundiales', 'tr': 'Dünya savaşları'}, {'bg': '1914–1918 и 1939–1945', 'de': '1914–1918 und 1939–1945', 'en': '1914–1918 and 1939–1945', 'es': '1914–1918 y 1939–1945', 'tr': '1914–1918 ve 1939–1945'}, ['weltkrieg', '1939', '1940', '1941', '1942', '1943', '1944', '1945', '1914', '1918', 'wehrmacht', 'feldzug', 'blitzkrieg', 'erobert']), ('kalt', '🧱', {'bg': 'Студената война', 'de': 'Kalter Krieg & 20. Jh.', 'en': 'Cold War & 20th century', 'es': 'Guerra Fría y siglo XX', 'tr': 'Soğuk Savaş ve 20. yüzyıl'}, {'bg': 'Стената, Изтокът и Западът', 'de': 'Mauer, Ost und West', 'en': 'The Wall, East and West', 'es': 'El Muro, Este y Oeste', 'tr': 'Duvar, Doğu ve Batı'}, ['kalter krieg', 'kalten krieg', 'mauer', 'ddr', 'sowjet', 'checkpoint', '1961', '1989', '1990']), ('epochen', '🏛', {'bg': 'Античност и Средновековие', 'de': 'Antike & Mittelalter', 'en': 'Antiquity & Middle Ages', 'es': 'Antigüedad y Edad Media', 'tr': 'Antik çağ ve Orta Çağ'}, {'bg': 'Рим, империи, мирни договори', 'de': 'Rom, Reiche, Friedensschlüsse', 'en': 'Rome, empires, peace treaties', 'es': 'Roma, imperios, tratados', 'tr': 'Roma, imparatorluklar, barışlar'}, ['antike', 'römisch', 'rom ', 'mittelalter', 'frieden', '1648', 'reich', 'kaiser', 'renaissance', 'byzanz'])])
+HUBU['history'] = KWHUB['history'][0]
 def kw_block(l, kind, its):
     def txt(x):
         h = ''
@@ -1338,7 +1341,9 @@ def kw_block(l, kind, its):
         if isinstance(m, tuple) and m[0] == 'sub':   # Unterrubrik (z. B. Berlin) – Link auf deren Seite
             xs = [x for x in its if x.get('sub') == m[1]]
             tiles += _tile(l, key, ic, SUB[l][m[1]][0], ds, xs, sub_url(kind, m[1], l)); continue
-        if m == 'video': xs = [x for x in its if x.get('yt')]
+        if m == 'heute': xs = [x for x in its if ((x.get('kl') or {}).get('de') or '').startswith('Heute vor') or 'heute-vor' in x['id']]
+        elif m == 'ex': xs = [x for x in its if x.get('ex')]
+        elif m == 'video': xs = [x for x in its if x.get('yt')]
         elif m == 'au': xs = [x for x in its if x.get('au')]
         else: xs = [x for x in its if ((x.get('hk') == key or key in (x.get('hks') or [])) if (x.get('hk') or x.get('hks')) else any(w in txt(x) for w in m))]   # feste Zuordnung "hk" vor Stichwörtern (Nedy 31.10.2026)
         _dv = next((v for v, kk in DEVIRT.items() if kk == key and DEVSEC.get(v) == kind), None)
@@ -1943,7 +1948,8 @@ def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None, 
     u = UI[l]; g = dict(GPU[l]); g.update(MPU.get(kind, {}).get(l, {}))
     def thumb_ov(it):   # Nedy 31.10.2026: Profi-Thumbnail – Foto + Verlauf + Kicker + Schlagzeile direkt im Player (Fitness/Gesundheit)
         _s, _k = it.get('s'), it.get('sub')
-        if not ((_s == 'leben' and _k in ('fitness', 'gesundheit')) or _s in ('mode', 'ki', 'ai', 'wirtschaft', 'energie', 'auto', 'klima', 'welt', 'europa', 'deutschland', 'bulgarien')): return ''
+        if it.get('ex') or (it.get('img') or {}).get('own'): return ''   # eigene Titelbilder (z. B. FilmPartner24) haben schon Schrift
+        if not ((_s == 'leben' and _k in ('fitness', 'gesundheit')) or _s in ('history', 'mode', 'ki', 'ai', 'wirtschaft', 'energie', 'auto', 'klima', 'welt', 'europa', 'deutschland', 'bulgarien')): return ''
         k = it.get('kl') if isinstance(it.get('kl'), dict) else {}; kt = k.get(l) or k.get('en') or k.get('de') or ''
         if not kt and _k and _k in SUB.get(l, {}): kt = SUB[l][_k][0]
         if _s == 'leben': pre = 'TWN FITNESS' if _k == 'fitness' else LX({'bg': 'TWN ЗДРАВЕ', 'de': 'TWN GESUNDHEIT', 'en': 'TWN HEALTH', 'es': 'TWN SALUD', 'tr': 'TWN SAĞLIK'})[l]
@@ -3321,7 +3327,7 @@ def build():
                 urls.append((_su, salts, latest['date']))
                 continue
             if s in KWHUB and '<div class="gp-panel">' in body:   # Wirtschaft/Energie/Auto/Klima im Hub-Design (Nedy 31.10.2026)
-                body = body.replace('<div class="gp-panel">', '<div class="gp-panel">' + kw_block(l, s, [it for it in items_l if it['s'] == s]), 1)
+                body = body.replace('<div class="gp-panel">', '<div class="gp-panel">' + kw_block(l, s, [it for it in items_l if it['s'] == s or (s == 'history' and s in also_secs(it))]), 1)
             if s in LSUBS:  # leichte Unterrubriken: Reiter über der Rubrikseite + eigene Unterseite
                 ltabs = lambda cur: (f'<nav class="subnav" aria-label="{e(SEC[l][s][0])}"><a href="{sec_url(s, l)}"{CUR_P if cur is None else ""}>{e(SP_ALL[l])}</a>'
                                      + ''.join(f'<a href="{sec_url(x, l)}">{e(SEC[l][x][0])}</a>' for x in NAV_DD_EXTRA.get(s, []))

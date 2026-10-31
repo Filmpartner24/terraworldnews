@@ -1886,3 +1886,15 @@ nav.sections.nv2::before{content:"";position:absolute;left:0;right:0;top:0;heigh
  .vband .gs{flex:0 0 78%;scroll-snap-align:start}
 }
 @media (max-width:640px){.hw-row{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}.hw-row::-webkit-scrollbar{display:none}.hw{flex:0 0 82%;scroll-snap-align:start}}
+/* History im Hub-Design (Sepia/Gold) – Nedy 31.10.2026 */
+.hub-history{background:#140d06}
+.hub-history::before{background:linear-gradient(90deg,rgba(20,13,6,.95) 0%,rgba(20,13,6,.82) 38%,rgba(20,13,6,.25) 68%,rgba(20,13,6,.05) 100%),linear-gradient(0deg,rgba(180,120,50,.28),transparent 45%),radial-gradient(110% 90% at 88% 8%,rgba(212,175,55,.3),transparent 55%)}
+.hub-history::after{background:linear-gradient(120deg,#b45309,#d4af37,#f5deb3,#7c2d12,#b45309);background-size:300% 100%}
+.hub-history .fxb-kick{color:#f5deb3}.hub-history .fxb-pulse{background:#d4af37}
+.hub-history .fxb-title{font-family:Georgia,'Times New Roman',serif;letter-spacing:.08em;text-shadow:0 0 20px rgba(212,175,55,.4),0 4px 18px rgba(0,0,0,.7)}
+.hub-history .fxb-title span{background-image:linear-gradient(90deg,#f5deb3,#d4af37,#b45309)}
+.hub-history .fxb-sub{color:#fde9c7}.hub-history .fxb-series{background:linear-gradient(90deg,#b91c1c,#b45309);color:#fff}
+.hubt-history .fxt{background:linear-gradient(160deg,#241809,#140d06);border-color:#5c3d16}.hubt-history .fxt:hover{border-color:#d4af37}
+.hubt-history .fxt span{color:#f5deb3}.hubt-history .fxt em{color:#d4af37}
+.hubt-history .fxt-fp24{background:linear-gradient(160deg,#2a0d0d,#160606);border-color:#991b1b}.hubt-history .fxt-fp24 span{color:#fecaca}
+.gr-thumb-history em{background:linear-gradient(90deg,#f5deb3,#d4af37)}
