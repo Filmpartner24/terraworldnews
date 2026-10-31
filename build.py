@@ -227,18 +227,21 @@ _MG = {  # key: (DE, BG, EN, slug DE, slug BG, slug EN, Beschreibung DE, BG, EN)
                'Filmmusik: Scores, Soundtracks und Komponisten aus Kino, Serien und Games – mit der Rubrik „Aus dem Studio“.', 'Филмова музика: саундтракове и композитори от кино, сериали и игри – с рубриката „От студиото“.', 'Film music: scores, soundtracks and composers from film, TV and games – with the column “From the studio”.'),
  'world': ('World Music', 'Световна музика', 'World music', 'world-music', 'svetovna-muzika', 'world-music',
            'World Music: Musik aus Afrika, Asien, dem Nahen Osten und dem Balkan – Alben, Festivals und Porträts.', 'Световна музика: музика от Африка, Азия, Близкия изток и Балканите – албуми, фестивали и портрети.', 'World music: music from Africa, Asia, the Middle East and the Balkans – albums, festivals and profiles.'),
+ 'mhistory': ('Music History', 'Музикална история', 'Music History', 'music-history', 'muzikalna-istoriya', 'music-history',
+              'Music History: legendäre Konzerte aus Rock, Metal, Pop, Jazz und Soul – komplette Mitschnitte und Live-Momente von offiziellen Kanälen, mit Hintergrund, Besetzung und Setlist.', 'Музикална история: легендарни концерти от рок, метъл, поп, джаз и соул – пълни записи и моменти на живо от официални канали, с история, състав и сетлист.', 'Music History: legendary concerts from rock, metal, pop, jazz and soul – full recordings and live moments from official channels, with background, line-up and setlist.'),
  'punk': ('Punk', 'Пънк', 'Punk', 'punk', 'pank', 'punk',
           'Punk: Punkrock, Hardcore und Pop-Punk – neue Platten, Tourneen und Festivals.', 'Пънк: пънк рок, хардкор и поп пънк – нови албуми, турнета и фестивали.', 'Punk: punk rock, hardcore and pop punk – new records, tours and festivals.'),
 }
 for _k, _v in _MG.items():
     SUB['de'][_k] = (_v[0], _v[3]); SUB['bg'][_k] = (_v[1], _v[4]); SUB['en'][_k] = (_v[2], _v[5])
     SUB_DESC[_k] = {'de': _v[6], 'bg': _v[7], 'en': _v[8]}
-LSUBS['musik'] = MGEN
+MXTRA = ['mhistory']   # Music History (Nedy 31.10.2026): eigene Kategorie neben dem 3×7-Raster, 2 historische Konzerte täglich
+LSUBS['musik'] = MGEN + MXTRA
 MOLD = {'rockmetal': ['metal', 'rock', 'punk', 'indie'], 'poprnb': ['pop', 'deutschpop', 'hiphop', 'rnbsoul', 'schlager'], 'electronic': ['electronic', 'dance'],
         'filmclassic': ['filmmusik', 'klassik'], 'folkroots': ['popfolk', 'folk', 'country', 'world', 'latin', 'reggae']}   # alte Kanäle (24.–25.10.2026) → neue Genres
 def m_genres(it):
     """Alle Genres einer Musik-Meldung: Hauptgenre ("sub") + weitere ("subs")."""
-    g = [it['sub']] if it.get('sub') in MROW else []
+    g = [it['sub']] if it.get('sub') in MROW or it.get('sub') in MXTRA else []
     return g + [x for x in (it.get('subs') or []) if x in MROW and x not in g]
 # ---- TWN GAMES (Nedy 28.10.2026): 21 Kategorien in 3 Reihen zu je 7 wie TWN MUSIC. Feld "sub" = Hauptkategorie, "subs" = weitere (Genres + Plattformen als Filter).
 GROWS = [
@@ -1055,12 +1058,22 @@ def musik_grid(l, cur=None):
             tiles += (f'<a class="mg{" on" if k == cur else ""}{" mg-0" if not n else ""}" href="{sub_url("musik", k, l)}"' + (' aria-current="page"' if k == cur else '') +
                       f'><b>{e(SUB[l][k][0])}</b>' + (f'<span>{n}</span>' if n else '') + '</a>')
         rows += f'<div class="mg-row mg-r{i + 1}"><h3>{i + 1:02d} — {e(lab[l])}</h3><div class="mg-tiles">{tiles}</div></div>'
+    nh = sum(1 for x in pool if 'mhistory' in m_genres(x))   # Music History als breite Kachel unter dem Raster
+    rows += (f'<a class="mg-hist{" on" if cur == "mhistory" else ""}" href="{sub_url("musik", "mhistory", l)}"' + (' aria-current="page"' if cur == 'mhistory' else '') +
+             f'><b>◷ {e(SUB[l]["mhistory"][0])}</b><i>{e(LX({"bg": "Легендарни концерти", "de": "Legendäre Konzerte", "en": "Legendary concerts"})[l])}</i>' + (f'<span>{nh}</span>' if nh else '') + '</a>')
     allc = ' on' if cur is None else ''
     C = (MUSIK.get('collage') or {}).get('photos') or []
     crl = (LX({'bg': 'Колаж в заглавието', 'de': 'Collage im Kopf', 'en': 'Header collage'})[l] + ': ' + ' · '.join(f'<a href="{e(x["page"])}" rel="noopener nofollow" target="_blank">{e(x["art"])}</a> ({e(x["lic"])})' for x in C)
            + LX({'bg': ' – Wikimedia Commons, изрязани и оцветени; колажът е под лиценз CC BY-SA 4.0', 'de': ' – Wikimedia Commons, zugeschnitten und eingefärbt; Collage unter CC BY-SA 4.0', 'en': ' – Wikimedia Commons, cropped and recoloured; collage licensed CC BY-SA 4.0'})[l]) if C else ''
     return (f'<section class="mg-wrap" aria-label="{e(Z["genres"])}"><div class="mg-head"><p class="mg-kick">TERRA WORLD NEWS</p><p class="mg-brand">MUSIC</p>'
             f'<p class="mg-sub">{e(Z["mgsub"])}</p><a class="mg-all{allc}" href="{sec_url("musik", l)}">{e(Z["allg"])}</a></div>{rows}' + (f'<p class="mg-cr">{crl}</p>' if crl else '') + '</section>')
+def mhistory_teaser(l, pool):
+    """Music History (31.10.2026): die 4 neuesten historischen Konzerte als Band auf der Musik-Startseite."""
+    xs = sorted([x for x in pool if x.get('sub') == 'mhistory'], key=lambda x: (x['date'], x['time']), reverse=True)[:4]
+    if not xs: return ''
+    cards = ''.join(f'<article class="mh"><a href="{art_url(x, l)}"><div class="mh-img"' + (f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else '') + '>' + ('<span class="mh-play">▶</span>' if x.get('yt') else '') + f'</div><h3>{e(x[l]["t"])}</h3></a></article>' for x in xs)
+    return (f'<section class="mp-hist"><h2 class="gp-h">◷ {e(SUB[l]["mhistory"][0])} <a class="mh-all" href="{sub_url("musik", "mhistory", l)}">{e(LX({"bg": "Всички концерти →", "de": "Alle Konzerte →", "en": "All concerts →"})[l])}</a></h2>'
+            f'<div class="mh-grid">{cards}</div></section>')
 def musik_extras(l, its, day0, genre=None):
     """Liefert (oben, mitte) für die Musik-Seite: Genre-Raster oben; Songs der Woche, Rubriken, Tour-Radar und Release-Kalender in der Mitte.
     Auf Genre-Seiten (genre=…) nur Raster, Tour-Radar und Release-Kalender dieses Genres."""
@@ -1085,7 +1098,7 @@ def musik_extras(l, its, day0, genre=None):
             rows = ''.join(f'<li><span class="rl-g">{e(short_date(r["date"], l))}</span><b>{e(r["artist"])}</b> – <i>{e(r["title"])}</i>' + (f' <small>({e(Z.get(r["type"], ""))})</small>' if r.get('type') else '') + '</li>' for r in sorted(rr, key=lambda r: r['date']))
             mid += f'<section class="mp-rel"><h2 class="gp-h">▤ {e(Z["rel"])} · {e(SUB[l][genre][0])}</h2><div class="rl-day"><ul>{rows}</ul></div><p class="rl-note">{e(Z["relnote"].format(d=short_date(R.get("asof", day0), l)))}</p></section>'
         return top, mid
-    mid = popfolk_teaser(l, MUSIK.get('all') or []) + genre_teaser(l, MUSIK.get('all') or [])
+    mid = mhistory_teaser(l, MUSIK.get('all') or []) + popfolk_teaser(l, MUSIK.get('all') or []) + genre_teaser(l, MUSIK.get('all') or [])
     # Songs der Woche (content/musik/songs.json: neueste Woche, die day0 nicht überschreitet)
     wk = [w for w in (MUSIK.get('songs') or {}).get('weeks', []) if w['from'] <= day0]
     if wk:
