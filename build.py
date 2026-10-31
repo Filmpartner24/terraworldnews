@@ -1285,7 +1285,7 @@ def _bz_txt(x):
     for lg in ('de', 'en'):
         T = x.get(lg) or {}; h += ' ' + str(T.get('t', '')) + ' ' + str(T.get('d', ''))
     return h.lower()
-def business_hub(l, its, bd, pool):
+def business_hub(l, its, bd, pool, full=True):
     """Business & Investment (Nedy 31.10.2026): Hub-Kopf, 8 Kacheln, Top-Story | Märkte | IPO-Kalender, Zukunftsmärkte-Radar."""
     Z = BZH[l] if l in BZH else BZH['en']
     blocks = bd.get('blocks', []) if bd else []
@@ -1321,7 +1321,7 @@ def business_hub(l, its, bd, pool):
     tk = {L(t['n'], 'de'): t for b in blocks for t in b.get('ticker', [])}
     rows = ''.join(f'<tr><th scope="row">{e(n)}</th><td class="n">{fnum(tk[n]["v"], tk[n].get("dec", 2), l)}</td><td class="n">{fchg(tk[n].get("chg"), 2, l)}</td></tr>' for n in want if n in tk)
     mk = (f'<section class="bzh-box bzh-mk" id="bz-mk"><h2>📊 {e(Z["mk"])}</h2><p class="bzh-asof">{e(Z["mka"])} {e(nice_date(bd["date"], l))}</p>'
-          f'<table class="bzh-t"><tbody>{rows}</tbody></table><p class="bzh-note">{e(Z["mkn"])}</p><a class="bzh-more" href="#biz-all">{e(Z["all"])}</a></section>') if rows else ''
+          f'<table class="bzh-t"><tbody>{rows}</tbody></table><p class="bzh-note">{e(Z["mkn"])}</p>' + (f'<a class="bzh-more" href="#biz-all">{e(Z["all"])}</a>' if full else '') + '</section>') if rows else ''
     # IPO-Kalender
     li = ''
     for x in ipos[:4]:
@@ -2893,6 +2893,11 @@ def build():
                 return o
             if not its and s in MEDIA:
                 body = games_page(l, [], latest['date'], _others(s), SX, s)
+            elif not its and s == 'business' and BIZ:   # ES/TR (Nedy 31.10.2026): Business-Hub auch ohne übersetzte Detailberichte
+                _d0 = max(BIZ)
+                _pool = [x for x in items_l if x['s'] in ('business', 'wirtschaft', 'ki', 'ai', 'energie') and x['date'] >= (__import__('datetime').date.fromisoformat(_d0) - __import__('datetime').timedelta(days=30)).isoformat()]
+                _na = LX({'bg': BZ['bg']['noadv'], 'de': BZ['de']['noadv'], 'en': BZ['en']['noadv'], 'es': 'Información solo con fines informativos; no es asesoramiento de inversión. Precios de cierre, no en tiempo real.', 'tr': 'Bilgiler yalnızca bilgilendirme amaçlıdır, yatırım tavsiyesi değildir. Kapanış fiyatları, gerçek zamanlı değildir.'})[l]
+                body = f'<div class="sec-page" style="--c:{SEC_COLOR[s]}"><h1 class="sr-only">{e(SEC[l][s][0])}</h1>' + business_hub(l, [], BIZ[_d0], _pool, full=False) + f'<p class="noadv">{e(_na)}</p></div>'
             elif not its:
                 body = f'<section class="rail" style="--c:{SEC_COLOR[s]}"><div class="rail-h"><h1 class="sec-title">{e(SEC[l][s][0])}</h1></div>' + (f'<p class="sec-desc">{e(SEC_DESC[s][l])}</p>' if s in SEC_DESC else '') + f'<p class="note">{e(u["empty"])}</p></section>'
             else:
@@ -2930,6 +2935,10 @@ def build():
                                 f'<h2 class="gp-h">{e(BZ[l]["overview"])}</h2><nav class="bz-tiles" aria-label="{e(BZ[l]["jump"])}">{"".join(_tile(b) for b in blocks)}</nav></div></div>'
                                 f'<div class="biz-blocks">{bl}</div><p class="noadv">{e(BZ[l]["noadv"])}</p>')
                         tops = [x for x in its if x['date'] == day0]
+                    elif bd:   # ES/TR (Nedy 31.10.2026): Hub, Märkte, IPO-Kalender und Radar auch ohne übersetzte Detailberichte
+                        _pool = [x for x in items_l if x['s'] in ('business', 'wirtschaft', 'ki', 'ai', 'energie') and x['date'] >= (__import__('datetime').date.fromisoformat(day0) - __import__('datetime').timedelta(days=30)).isoformat()]
+                        _na = LX({'bg': BZ['bg']['noadv'], 'de': BZ['de']['noadv'], 'en': BZ['en']['noadv'], 'es': 'Información solo con fines informativos; no es asesoramiento de inversión. Precios de cierre, no en tiempo real.', 'tr': 'Bilgiler yalnızca bilgilendirme amaçlıdır, yatırım tavsiyesi değildir. Kapanış fiyatları, gerçek zamanlı değildir.'})[l]
+                        head = f'<h1 class="sr-only">{e(SEC[l][s][0])}</h1>' + business_hub(l, its, bd, _pool) + f'<p class="noadv">{e(_na)}</p>' + head.replace('<h1 class="sec-title">', '<h2 class="sec-title">', 1).replace('</h1><span class="meta">', '</h2><span class="meta">', 1)
                 if s == 'leben':  # Natur: oben "Die schönste Natur der Welt" (mit Video), darunter Klima-Themen
                     nat = sorted([it for it in its if it.get('nat')], key=lambda x: (x['date'], x['time']), reverse=True)[:6]
                     if nat: head = head.replace('<section class="sec-top">', f'<section class="trl-day nat-day"><h2 class="trl-h">▶ {e(u["nat"])}</h2><div class="cards">{"".join(card(it, l) for it in nat)}</div></section><section class="sec-top">', 1)
