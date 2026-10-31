@@ -21,6 +21,8 @@ LANGS = [('bg', 'Български'), ('de', 'Deutsch'), ('en', 'English'), ('e
          ('zh', '中文'), ('hi', 'हिन्दी'), ('ja', '日本語'), ('el', 'Ελληνικά'), ('sr', 'Српски')]
 PREFIX = {'bg': '/'}  # Bulgarian is the main edition at the root
 def pre(l): return PREFIX.get(l, f'/{l}/')
+# Startseite: "/" ist sprachneutral (Weiterleitung, x-default EN); bulgarische Startseite unter /bg/ (Nedy 31.10.2026)
+def home(l): return '/bg/' if l == 'bg' else pre(l)
 LOCALE = {'bg': 'bg_BG', 'de': 'de_DE', 'en': 'en_GB'}
 
 SECTIONS = ['welt', 'europa', 'deutschland', 'bulgarien', 'leben', 'mode', 'ki', 'wirtschaft', 'energie', 'business', 'auto', 'klima', 'ai', 'history', 'film', 'musik', 'games', 'sport']
@@ -650,7 +652,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
     _lb_order = {'de': 0, 'en': 1, 'bg': 2, 'es': 3, 'tr': 4, 'it': 5}  # Sprachleiste: DE / EN / BG / ES / TR (Nedy 27.10.2026)
     for code, name in sorted(LANGS, key=lambda x: _lb_order.get(x[0], 99)):
         if code in act:
-            target = (alternates or {}).get(code, pre(code))
+            target = (alternates or {}).get(code, home(code))
             langbar += f'<a href="{target}" hreflang="{code}" lang="{code}" title="{e(name)}"{CUR_T if code == l else ""}>{code.upper()}</a>'
 
     NAV_GEN = LX({'bg': 'Общо', 'de': 'Allgemein', 'en': 'General'})
@@ -668,12 +670,12 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
         dd = gen + ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if canon == sub_url(s, k, l) else ""}>{e(SUB[l][k][0])}</a>' for k in SUBS[s])
         return f'<span class="nav-dd">{a}<span class="dd">{dd}</span></span>'
     _home_svg = '<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M3 11.2 12 4l9 7.2" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.5 10v9.5h4.6v-5.6h3.8v5.6h4.6V10" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round"/></svg>'
-    nav = f'<a class="nv-home" href="{pre(l)}"{CUR_P if canon == pre(l) else ""}>{_home_svg}<span>{e(u["home"])}</span></a>'
+    nav = f'<a class="nv-home" href="{home(l)}"{CUR_P if canon == home(l) else ""}>{_home_svg}<span>{e(u["home"])}</span></a>'
     for _g, _gl, _gs in NAV_GROUPS:
         _in = ''.join(_navi(s) for s in _gs if s in SECTIONS)
         if _in: nav += f'<div class="ng ng-{_g}"><span class="ng-h">{e(_gl[l])}</span>{_in}</div>'
     _cur = next((s for s in SECTIONS if canon.startswith(sec_url(s, l))), None)
-    swipe = f'<a class="sw-home" href="{pre(l)}" aria-label="{e(u["home"])}" title="{e(u["home"])}"{CUR_P if canon == pre(l) else ""}>{_home_svg}</a>' + ''.join(f'<a href="{sec_home(s, l)}"{CUR_P if s == _cur else ""}>{e(SEC[l][s][0])}</a>' for s in SECTIONS if s not in NAV_HIDE)
+    swipe = f'<a class="sw-home" href="{home(l)}" aria-label="{e(u["home"])}" title="{e(u["home"])}"{CUR_P if canon == home(l) else ""}>{_home_svg}</a>' + ''.join(f'<a href="{sec_home(s, l)}"{CUR_P if s == _cur else ""}>{e(SEC[l][s][0])}</a>' for s in SECTIONS if s not in NAV_HIDE)
     tick = ''
     ticker = ticker or TICKER.get(l)
     if ticker:
@@ -697,8 +699,8 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
 <link rel="alternate" type="application/rss+xml" title="TWN – World News ({l.upper()})" href="{SITE}{pre(l)}rss.xml">
 <meta name="theme-color" content="#ffffff"><meta name="color-scheme" content="light only">
 <link rel="icon" href="/favicon.ico?v=10" sizes="16x16 32x32 48x48"><link rel="icon" type="image/png" sizes="96x96" href="/assets/icon-96.png?v=10"><link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png?v=10"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=10">
-<meta property="og:type" content="{og_type}"><meta property="og:site_name" content="TERRA WORLD NEWS"><meta name="application-name" content="TWN"><meta name="apple-mobile-web-app-title" content="TWN"><link rel="manifest" href="/manifest.webmanifest"><meta property="og:title" content="{e(OG_HOME_T if canon == pre(l) else title)}"><meta property="og:description" content="{e(OG_HOME_D if canon == pre(l) else desc)}"><meta property="og:url" content="{SITE}{canon}"><meta property="og:image" content="{SITE}{og_img or '/assets/og-image-v4.jpg'}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="{675 if og_img else 630}"><meta property="og:locale" content="{LOCALE.get(l, l)}">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(OG_HOME_T if canon == pre(l) else title)}"><meta name="twitter:description" content="{e(OG_HOME_D if canon == pre(l) else desc)}"><meta name="twitter:image" content="{SITE}{og_img or '/assets/og-image-v4.jpg'}">
+<meta property="og:type" content="{og_type}"><meta property="og:site_name" content="TERRA WORLD NEWS"><meta name="application-name" content="TWN"><meta name="apple-mobile-web-app-title" content="TWN"><link rel="manifest" href="/manifest.webmanifest"><meta property="og:title" content="{e(OG_HOME_T if canon == home(l) else title)}"><meta property="og:description" content="{e(OG_HOME_D if canon == home(l) else desc)}"><meta property="og:url" content="{SITE}{canon}"><meta property="og:image" content="{SITE}{og_img or '/assets/og-image-v4.jpg'}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="{675 if og_img else 630}"><meta property="og:locale" content="{LOCALE.get(l, l)}">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(OG_HOME_T if canon == home(l) else title)}"><meta name="twitter:description" content="{e(OG_HOME_D if canon == home(l) else desc)}"><meta name="twitter:image" content="{SITE}{og_img or '/assets/og-image-v4.jpg'}">
 {extra_head}{ldj}
 <link rel="preload" as="image" href="/assets/terra-masthead5-800.webp" imagesrcset="/assets/terra-masthead5-800.webp 800w, /assets/terra-masthead5-1600.webp 1600w" imagesizes="(max-width: 700px) 86vw, 620px" type="image/webp">
 <link rel="stylesheet" href="/assets/fonts.{ASSET_V['fonts.css']}.css">
@@ -711,17 +713,17 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
     <nav class="langs" aria-label="{e(u['lang'])}">{langbar}</nav></div>
   </div>
   <header class="mast">
-    <p class="brand"><a href="{pre(l)}"><img class="mast-logo" src="/assets/terra-masthead5-800.webp" srcset="/assets/terra-masthead5-800.webp 800w, /assets/terra-masthead5-1600.webp 1600w" sizes="(max-width: 700px) 86vw, 620px" width="800" height="209" alt="TERRA WORLD NEWS" fetchpriority="high"></a></p>
+    <p class="brand"><a href="{home(l)}"><img class="mast-logo" src="/assets/terra-masthead5-800.webp" srcset="/assets/terra-masthead5-800.webp 800w, /assets/terra-masthead5-1600.webp 1600w" sizes="(max-width: 700px) 86vw, 620px" width="800" height="209" alt="TERRA WORLD NEWS" fetchpriority="high"></a></p>
     <div class="edition"><span class="ed-clock" id="edclock"><span class="ed-city">{e(u['clocks'][0][0])}</span> <b data-tz="Europe/Berlin">--:--</b></span><span class="mid">{e(nice_date(date, l)) if date else ''}</span><span class="ed-wx" id="edwx" title="{e(WXT[l])}"></span></div>
   </header>
   <div id="nv-sentinel" aria-hidden="true"></div>
-  <nav class="sections nv2" id="mainnav" aria-label="{e(u['home'])}"><div class="nv-bar"><a class="nv-logo" href="{pre(l)}" aria-label="TWN – World News"><img src="/assets/nav-w2.png" width="40" height="30" alt=""></a><button type="button" class="nav-tg" aria-expanded="false" aria-controls="navitems"><span class="hb" aria-hidden="true"><i></i><i></i><i></i></span><span class="nav-tl">{ LX({'bg': 'Меню', 'de': 'Menü', 'en': 'Menu'}).get(l, 'Menu') }</span></button><div class="nav-items" id="navitems">{nav}</div><a class="nv-search" href="{search_url(l)}" aria-label="{e(SUI[l]['title'])}"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg></a></div><div class="nv-swipe" aria-label="{e(u['home'])}">{swipe}</div></nav>
+  <nav class="sections nv2" id="mainnav" aria-label="{e(u['home'])}"><div class="nv-bar"><a class="nv-logo" href="{home(l)}" aria-label="TWN – World News"><img src="/assets/nav-w2.png" width="40" height="30" alt=""></a><button type="button" class="nav-tg" aria-expanded="false" aria-controls="navitems"><span class="hb" aria-hidden="true"><i></i><i></i><i></i></span><span class="nav-tl">{ LX({'bg': 'Меню', 'de': 'Menü', 'en': 'Menu'}).get(l, 'Menu') }</span></button><div class="nav-items" id="navitems">{nav}</div><a class="nv-search" href="{search_url(l)}" aria-label="{e(SUI[l]['title'])}"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg></a></div><div class="nv-swipe" aria-label="{e(u['home'])}">{swipe}</div></nav>
   {tick}{ticker2}
   <main id="main">
 {body}
   </main>
   <footer>
-    <div><a href="{pre(l)}" class="brand-s"><img src="/assets/twn-logo2-480.webp" srcset="/assets/twn-logo2-480.webp 480w, /assets/twn-logo2-960.webp 960w" sizes="240px" width="480" height="133" alt="TWN – TERRA WORLD NEWS" loading="lazy"></a>{e(u['foot'])}<br>{e(u['publisher'])}<br><span class="wxcredit">{e(WXT[l])} · <a href="https://api.met.no/" rel="noopener nofollow" target="_blank">api.met.no</a></span></div>
+    <div><a href="{home(l)}" class="brand-s"><img src="/assets/twn-logo2-480.webp" srcset="/assets/twn-logo2-480.webp 480w, /assets/twn-logo2-960.webp 960w" sizes="240px" width="480" height="133" alt="TWN – TERRA WORLD NEWS" loading="lazy"></a>{e(u['foot'])}<br>{e(u['publisher'])}<br><span class="wxcredit">{e(WXT[l])} · <a href="https://api.met.no/" rel="noopener nofollow" target="_blank">api.met.no</a></span></div>
     <nav><a href="{legal_url('about', l)}">{e(u['about'])}</a><a href="{legal_url('imprint', l)}">{e(u['imprint'])}</a><a href="{legal_url('privacy', l)}">{e(u['privacy'])}</a><a href="{legal_url('principles', l)}">{e(u['principles'])}</a><a href="{pre(l)}rss.xml">{e(u['rss'])}</a><a class="g-pref" href="https://google.com/preferences/source?q=terraworldnews.com" rel="noopener" target="_blank">{e(GPREF[l])}</a></nav>
   </footer>
 </div>
@@ -2744,11 +2746,11 @@ def build():
         body = bkh + exh + svc_strip(l) + (f'<section class="lead"><div class="lead-main"><a href="{art_url(lead, l)}">{plate(lead, l, eager=True)}</a>{kick(lead, l, e(u["lead"]) + " · ")}'
                 f'<a href="{art_url(lead, l)}"><h1>{e(lead[l]["t"])}</h1></a><p class="dek">{e(lead[l]["d"])}</p><span class="src">{u["src"]}: {e(SNAMES(lead["src"]))}</span></div>'
                 + (f'<div class="ranked rk-tabs"><input type="radio" name="rk" id="rk1" checked><input type="radio" name="rk" id="rk2"><h2 class="rh rk-h"><label for="rk1">{e(u["most"])}</label><label for="rk2">{e(MRU[l])}</label></h2><div class="rk-p rk-p1">{ranked}</div><div class="rk-p rk-p2">{popular}</div></div>' if popular else f'<div class="ranked"><h2 class="rh">{e(u["most"])}</h2>{ranked}</div>') + f'</section>{vband}{rails}')
-        alts = {x: pre(x) for x in act}
+        alts = {x: home(x) for x in act}
         ld = {"@context": "https://schema.org", "@graph": [ORG, {"@type": "WebSite", "@id": SITE + "/#website", "url": SITE + "/", "name": "TERRA WORLD NEWS", "alternateName": ["Terra World News", "TWN", "TWN World News"], "publisher": {"@id": SITE + "/#org"}, "inLanguage": act},
               {"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": SITE + art_url(it, l)} for i, it in enumerate([lead] + rest)]}, site_nav(l)]}
-        write(pre(l), page(l, act, u['title_home'], u['desc_home'], pre(l), body, alts, ld, issue=latest.get('issue', 1), date=latest['date'], ticker=ticker))
-        urls.append((pre(l), alts, latest['date']))
+        write(home(l), page(l, act, u['title_home'], u['desc_home'], home(l), body, alts, ld, issue=latest.get('issue', 1), date=latest['date'], ticker=ticker))
+        urls.append((home(l), alts, latest['date']))
         # ---- sections (Ressortseite: Aufmacher + Top-Teaser, Tagesblöcke der letzten 7 Tage, Seitenleiste, Archivseiten)
         SX = LX({'bg': dict(latest='Последни новини', other='Други рубрики', older='По-стари новини', page='Страница', prev='← По-нови', next='По-стари →', arch='Архив'),
               'de': dict(latest='Alle Meldungen', other='Aus anderen Ressorts', older='Ältere Meldungen', page='Seite', prev='← Neuere', next='Ältere →', arch='Archiv'),
@@ -3056,7 +3058,7 @@ def build():
                   "datePublished": iso(it), "dateModified": iso(it), "inLanguage": l, "articleSection": SEC[l][it['s']][0], "isAccessibleForFree": True,
                   "image": [SITE + (it["img"]["f"] if it.get("img") else "/assets/og-image-v4.jpg")], "author": ({"@type": "Person", "name": au_name(it, l)} if it.get("au") else {"@type": "Organization", "name": u['by'], "url": SITE + legal_url('principles', l)}), "publisher": {"@id": SITE + "/#org"},
                   "citation": CIT(it['src'])},
-                  {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": u['home'], "item": SITE + pre(l)}, {"@type": "ListItem", "position": 2, "name": SEC[l][it['s']][0], "item": SITE + sec_home(it['s'], l, it.get('sub'))}, {"@type": "ListItem", "position": 3, "name": T['t']}]}]}
+                  {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": u['home'], "item": SITE + home(l)}, {"@type": "ListItem", "position": 2, "name": SEC[l][it['s']][0], "item": SITE + sec_home(it['s'], l, it.get('sub'))}, {"@type": "ListItem", "position": 3, "name": T['t']}]}]}
             extra = f'<meta property="article:published_time" content="{iso(it)}"><meta property="article:section" content="{e(SEC[l][it["s"]][0])}">'
             _html = page(l, act, f'{T["t"]} | TWN', T['d'], art_url(it, l), body, aalts, ld, og_type='article', issue=latest.get('issue', 1), date=it['date'], extra_head=extra, og_img=(it['img']['f'] if it.get('img') else None))
             if it['date'] >= (STATIC_FROM_X if l in lang_extra.EXTRA else STATIC_FROM): write(art_url(it, l), _html)
@@ -3113,14 +3115,21 @@ def build():
         for it in sorted(items_l, key=lambda x: (x['date'], x['time']), reverse=True)[:100]:
             dt = datetime.datetime.fromisoformat(iso(it))
             rss_items += f'<item><title>{e(it[l]["t"])}</title><link>{SITE}{art_url(it, l)}</link><guid>{SITE}{art_url(it, l)}</guid><pubDate>{format_datetime(dt)}</pubDate><category>{e(SEC[l][it["s"]][0])}</category><description>{e(it[l]["d"])}</description></item>'
-        write(pre(l) + 'rss.xml', f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>TWN – World News ({l.upper()})</title><link>{SITE}{pre(l)}</link><description>{e(u["desc_home"])}</description><language>{l}</language>{rss_items}</channel></rss>')
+        write(pre(l) + 'rss.xml', f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>TWN – World News ({l.upper()})</title><link>{SITE}{home(l)}</link><description>{e(u["desc_home"])}</description><language>{l}</language>{rss_items}</channel></rss>')
 
     # ---- 404 page (needed so that missing files return 404 and the archive function can step in)
     l0 = 'bg' if 'bg' in act else act[0]
     nf = ('<section class="search-page"><h1 class="sec-h">404</h1>'
           '<p>Страницата не е намерена. · Seite nicht gefunden. · Page not found.</p>'
-          f'<p><a href="/">TWN – Начало</a> · <a href="/de/">TWN – Start</a> · <a href="/en/">TWN – Home</a></p></section>')
+          f'<p><a href="/bg/">TWN – Начало</a> · <a href="/de/">TWN – Start</a> · <a href="/en/">TWN – Home</a></p></section>')
     open(os.path.join(OUT, '404.html'), 'w', encoding='utf-8').write(page(l0, act, '404 | TWN – World News', 'Page not found', '/404.html', nf, extra_head='<meta name="robots" content="noindex">'))
+    # ---- "/" sprachneutral: Besucher leitet functions/index.js weiter; diese Datei ist nur Rückfall (Nedy 31.10.2026: Google soll nicht Bulgarisch als Hauptseite zeigen)
+    _root_alts = ''.join(f'<link rel="alternate" hreflang="{x}" href="{SITE}{home(x)}">' for x in act) + f'<link rel="alternate" hreflang="x-default" href="{SITE}/en/">'
+    open(os.path.join(OUT, 'index.html'), 'w', encoding='utf-8').write(
+        '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+        '<title>TWN – Terra World News</title><meta name="robots" content="noindex, follow">'
+        f'<link rel="canonical" href="{SITE}/en/">{_root_alts}<meta http-equiv="refresh" content="0; url=/en/"></head>'
+        '<body><p><a href="/en/">English</a> · <a href="/de/">Deutsch</a> · <a href="/bg/">Български</a> · <a href="/es/">Español</a> · <a href="/tr/">Türkçe</a></p></body></html>')
     # ---- archive bundles for older articles
     for (al, ad, ab), pages in ARCH.items():
         fp = os.path.join(OUT, '_arch', al, ad, f'{ab}.json')
