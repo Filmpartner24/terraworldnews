@@ -1021,7 +1021,7 @@ def gp_slogan(l):  # Slogan rechts im Rubrik-Kopf (statt Datum)
 # ---- Musik-Sparte (seit 24.10.2026): Wochenplan der Kanäle, Rubriken, Songs der Woche, Tour-Radar, Release-Kalender
 MUSIK = {}   # content/musik/releases.json, content/musik/songs.json
 def load_musik():
-    for n in ('releases', 'songs', 'collage', 'popfolk-stars'):
+    for n in ('releases', 'songs', 'collage', 'popfolk-stars', 'history-collage'):
         fp = os.path.join(HERE, 'content', 'musik', n + '.json')
         if os.path.exists(fp): MUSIK[n] = json.load(open(fp, encoding='utf-8'))
 MPLAN = ['rockmetal', 'poprnb', 'electronic', 'filmclassic', 'folkroots', 'rueckblick', 'longread']   # Mo … So
@@ -1058,15 +1058,13 @@ def musik_grid(l, cur=None):
             tiles += (f'<a class="mg{" on" if k == cur else ""}{" mg-0" if not n else ""}" href="{sub_url("musik", k, l)}"' + (' aria-current="page"' if k == cur else '') +
                       f'><b>{e(SUB[l][k][0])}</b>' + (f'<span>{n}</span>' if n else '') + '</a>')
         rows += f'<div class="mg-row mg-r{i + 1}"><h3>{i + 1:02d} — {e(lab[l])}</h3><div class="mg-tiles">{tiles}</div></div>'
-    nh = sum(1 for x in pool if 'mhistory' in m_genres(x))   # Music History als breite Kachel unter dem Raster
-    rows += (f'<a class="mg-hist{" on" if cur == "mhistory" else ""}" href="{sub_url("musik", "mhistory", l)}"' + (' aria-current="page"' if cur == 'mhistory' else '') +
-             f'><b>◷ {e(SUB[l]["mhistory"][0])}</b><i>{e(LX({"bg": "Легендарни концерти", "de": "Legendäre Konzerte", "en": "Legendary concerts"})[l])}</i>' + (f'<span>{nh}</span>' if nh else '') + '</a>')
     allc = ' on' if cur is None else ''
     C = (MUSIK.get('collage') or {}).get('photos') or []
     crl = (LX({'bg': 'Колаж в заглавието', 'de': 'Collage im Kopf', 'en': 'Header collage'})[l] + ': ' + ' · '.join(f'<a href="{e(x["page"])}" rel="noopener nofollow" target="_blank">{e(x["art"])}</a> ({e(x["lic"])})' for x in C)
            + LX({'bg': ' – Wikimedia Commons, изрязани и оцветени; колажът е под лиценз CC BY-SA 4.0', 'de': ' – Wikimedia Commons, zugeschnitten und eingefärbt; Collage unter CC BY-SA 4.0', 'en': ' – Wikimedia Commons, cropped and recoloured; collage licensed CC BY-SA 4.0'})[l]) if C else ''
     return (f'<section class="mg-wrap" aria-label="{e(Z["genres"])}"><div class="mg-head"><p class="mg-kick">TERRA WORLD NEWS</p><p class="mg-brand">MUSIC</p>'
-            f'<p class="mg-sub">{e(Z["mgsub"])}</p><a class="mg-all{allc}" href="{sec_url("musik", l)}">{e(Z["allg"])}</a></div>{rows}' + (f'<p class="mg-cr">{crl}</p>' if crl else '') + '</section>')
+            f'<p class="mg-sub">{e(Z["mgsub"])}</p><a class="mg-all{allc}" href="{sec_url("musik", l)}">{e(Z["allg"])}</a></div>{rows}' + (f'<p class="mg-cr">{crl}</p>' if crl else '') + '</section>'
+            + (mh_banner(l) if cur != 'mhistory' else ''))
 def mhistory_teaser(l, pool):
     """Music History (31.10.2026): die 4 neuesten historischen Konzerte als Band auf der Musik-Startseite."""
     xs = sorted([x for x in pool if x.get('sub') == 'mhistory'], key=lambda x: (x['date'], x['time']), reverse=True)[:4]
@@ -1074,12 +1072,60 @@ def mhistory_teaser(l, pool):
     cards = ''.join(f'<article class="mh"><a href="{art_url(x, l)}"><div class="mh-img"' + (f' style="background-image:url({x["img"]["f"]})"' if x.get('img') else '') + '>' + ('<span class="mh-play">▶</span>' if x.get('yt') else '') + f'</div><h3>{e(x[l]["t"])}</h3></a></article>' for x in xs)
     return (f'<section class="mp-hist"><h2 class="gp-h">◷ {e(SUB[l]["mhistory"][0])} <a class="mh-all" href="{sub_url("musik", "mhistory", l)}">{e(LX({"bg": "Всички концерти →", "de": "Alle Konzerte →", "en": "All concerts →"})[l])}</a></h2>'
             f'<div class="mh-grid">{cards}</div></section>')
+MHU = {'bg': dict(kick='TWN · Архив на рока', sub='Легендарни концерти · Интервюта · Истории', cta='Към архива →', conc='Легендарни концерти', iv='Интервюта', art='Истории и статии',
+                  intro='Концертите, които написаха историята на рока и попа – пълни записи и моменти на живо от официални канали, с история, състав и сетлист. Всеки ден нови.', n='{n} концерта', vid='Видео', more='Към статията →', empty='Скоро тук.', cr='Колаж'),
+       'de': dict(kick='TWN · Das Rock-Archiv', sub='Legendäre Konzerte · Interviews · Geschichten', cta='Ins Archiv →', conc='Legendäre Konzerte', iv='Interviews', art='Geschichten & Hintergründe',
+                  intro='Die Konzerte, die Rock- und Popgeschichte geschrieben haben – Mitschnitte und Live-Momente von offiziellen Kanälen, mit Hintergrund, Besetzung und Setlist. Jeden Tag neu.', n='{n} Konzerte', vid='Video', more='Zum Artikel →', empty='Demnächst hier.', cr='Collage'),
+       'en': dict(kick='TWN · The rock archive', sub='Legendary concerts · Interviews · Stories', cta='Enter the archive →', conc='Legendary concerts', iv='Interviews', art='Stories & background',
+                  intro='The concerts that wrote rock and pop history – recordings and live moments from official channels, with background, line-up and setlist. New every day.', n='{n} concerts', vid='Video', more='Read more →', empty='Coming soon.', cr='Collage')}
+def mh_items():
+    return sorted([x for x in (MUSIK.get('all') or []) if x.get('sub') == 'mhistory'], key=lambda x: (x['date'], x['time']), reverse=True)
+def mh_credit(l):
+    C = (MUSIK.get('history-collage') or {}).get('photos') or []
+    if not C: return ''
+    return (MHU[l]['cr'] + ': ' + ' · '.join(f'<a href="{e(x["page"])}" rel="noopener nofollow" target="_blank">{e(x["art"])}</a> ({e(x["lic"])})' for x in C)
+            + LX({'bg': ' – Wikimedia Commons, изрязани и оцветени; колажът е под лиценз CC BY-SA 4.0', 'de': ' – Wikimedia Commons, zugeschnitten und eingefärbt; Collage unter CC BY-SA 4.0', 'en': ' – Wikimedia Commons, cropped and recoloured; collage licensed CC BY-SA 4.0'})[l])
+def mh_banner(l, hero=False):
+    """Music History (Nedy 31.10.2026): Eye-Catcher mit Collage – als Banner unter dem Genre-Raster bzw. als Kopf der eigenen Seite."""
+    H = MHU[l]; C = MUSIK.get('history-collage') or {}
+    bg = f' style="background-image:url({C["f"]})"' if C.get('f') else ''
+    n = len(mh_items())
+    inner = (f'<div class="mhb-txt"><p class="mhb-kick">{e(H["kick"])}</p><p class="mhb-title">MUSIC <span>HISTORY</span></p><p class="mhb-sub">{e(H["sub"])}</p>'
+             + (f'<p class="mhb-intro">{e(H["intro"])}</p>' if hero else f'<span class="mhb-cta">{e(H["cta"])}</span>') + (f'<span class="mhb-n">{e(H["n"].format(n=n))}</span>' if n and not hero else '') + '</div>')
+    if hero:
+        return f'<section class="mhb mhb-hero"{bg}>{inner}</section>' + (f'<p class="mg-cr mhb-cr">{mh_credit(l)}</p>' if C.get('photos') else '')
+    return f'<a class="mhb" href="{sub_url("musik", "mhistory", l)}"{bg}>{inner}</a>'
+def mh_page(l):
+    """Eigene Seite Music History: Collage-Kopf, Legendäre Konzerte (große Videokarten), Interviews, Geschichten."""
+    H = MHU[l]; xs = mh_items()
+    conc = [x for x in xs if x.get('yt') and x.get('mhk', 'konzert') == 'konzert']
+    ivs = [x for x in xs if x.get('mhk') == 'interview']
+    arts = [x for x in xs if x not in conc and x not in ivs]
+    def big(it):
+        v = it['yt'] if isinstance(it['yt'], dict) else it['yt'][0]
+        im = it.get('img'); st = f' style="background-image:url({im["f"]})"' if im else ''
+        cr = f'<p class="gr-cr">{credit(im, l, True)}</p>' if im else ''
+        fx = ''.join(f'<li>{e(f)}</li>' for f in (it[l].get('facts') or [])[:3])
+        return (f'<article class="mhc"><div class="mhc-media"><div class="yt gr-yt" data-yt="{e(v["id"])}"{st}><span class="gr-badge">MUSIC HISTORY</span>'
+                f'<button type="button" class="yt-play">{e(UI[l]["playv"])}</button><span class="yt-note">{e(UI[l]["ytnote"])}</span></div>{cr}</div>'
+                f'<div class="mhc-txt"><a href="{art_url(it, l)}"><h3>{e(it[l]["t"])}</h3></a><p class="gr-dek">{e(it[l]["d"])}</p>' + (f'<ul class="mhc-facts">{fx}</ul>' if fx else '') +
+                f'<p class="gr-yt-src">{e(H["vid"])}: YouTube · {ch_html(v.get("ch", ""))}</p><a class="gr-more" href="{art_url(it, l)}">{e(H["more"])}</a></div></article>')
+    def small(it):
+        st = f' style="background-image:url({it["img"]["f"]})"' if it.get('img') else ''
+        return (f'<article class="gs"><a href="{art_url(it, l)}"><div class="gs-img mh-img"{st}>' + ('<span class="mh-play">▶</span>' if it.get('yt') else '') + f'</div>{kick(it, l)}<h3>{e(it[l]["t"])}</h3></a></article>')
+    out = ''
+    out += f'<h2 class="gp-h mh-h">◷ {e(H["conc"])}</h2>' + (''.join(big(x) for x in conc) if conc else f'<p class="mg-empty">{e(H["empty"])}</p>')
+    if ivs: out += f'<h2 class="gp-h mh-h">🎙 {e(H["iv"])}</h2><div class="gs-grid">' + ''.join(small(x) for x in ivs) + '</div>'
+    if arts: out += f'<h2 class="gp-h mh-h">✎ {e(H["art"])}</h2><div class="gs-grid">' + ''.join(small(x) for x in arts) + '</div>'
+    return out
 def musik_extras(l, its, day0, genre=None):
     """Liefert (oben, mitte) für die Musik-Seite: Genre-Raster oben; Songs der Woche, Rubriken, Tour-Radar und Release-Kalender in der Mitte.
     Auf Genre-Seiten (genre=…) nur Raster, Tour-Radar und Release-Kalender dieses Genres."""
     import datetime as _dm
     Z = MZU[l]; d0 = _dm.date.fromisoformat(day0)
     top = musik_grid(l, genre)
+    if genre == 'mhistory':
+        return mh_banner(l, hero=True), mh_page(l)
     if genre:
         mid = ''
         if not any(genre in m_genres(x) for x in its):   # noch keine Meldung in diesem Genre: Hinweis + neueste Musik-Meldungen aller Genres
@@ -1098,7 +1144,7 @@ def musik_extras(l, its, day0, genre=None):
             rows = ''.join(f'<li><span class="rl-g">{e(short_date(r["date"], l))}</span><b>{e(r["artist"])}</b> – <i>{e(r["title"])}</i>' + (f' <small>({e(Z.get(r["type"], ""))})</small>' if r.get('type') else '') + '</li>' for r in sorted(rr, key=lambda r: r['date']))
             mid += f'<section class="mp-rel"><h2 class="gp-h">▤ {e(Z["rel"])} · {e(SUB[l][genre][0])}</h2><div class="rl-day"><ul>{rows}</ul></div><p class="rl-note">{e(Z["relnote"].format(d=short_date(R.get("asof", day0), l)))}</p></section>'
         return top, mid
-    mid = mhistory_teaser(l, MUSIK.get('all') or []) + popfolk_teaser(l, MUSIK.get('all') or []) + genre_teaser(l, MUSIK.get('all') or [])
+    mid = popfolk_teaser(l, MUSIK.get('all') or []) + genre_teaser(l, MUSIK.get('all') or [])
     # Songs der Woche (content/musik/songs.json: neueste Woche, die day0 nicht überschreitet)
     wk = [w for w in (MUSIK.get('songs') or {}).get('weeks', []) if w['from'] <= day0]
     if wk:
@@ -1630,6 +1676,7 @@ def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None, 
                     f'<p class="gr-dek">{e(it[l]["d"])}</p><a class="gr-more" href="{art_url(it, l)}">{e(g["more"])}</a></div></article>')
         html += f'<h2 class="gp-h"><b class="brk">{e(u["brk"])}</b></h2>' + ''.join(brk_card(it) for it in brk_top)
     _mx = musik_extras(l, its, day0, mgenre) if kind == 'musik' and (title is None or mgenre) else games_extras(l, its, day0, mgenre) if kind == 'games' and (title is None or mgenre) else film_extras(l, its, day0, mgenre) if kind == 'film' and (title is None or mgenre) else ('', '')
+    if kind == 'musik' and mgenre == 'mhistory': revs, news, mvids, older, mnav, _mtop = [], [], [], [], '', ''   # Music History: eigene Abschnitte (mh_page)
     html += _mx[0] + _mtop
     if mvids:
         def mv_card(it):
