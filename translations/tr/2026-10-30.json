@@ -4455,6 +4455,31 @@
     "img.alt": "Sembolik fotoğraf: Müzayedenin yapılacağı Cenevre'deki Mandarin Oriental Hotel"
    }
   },
+  "strom-ibex": {
+   "L": {
+    "body": [
+     "Bulgaristan elektrik borsası IBEX (BNEB), üreticilerin, tüccarların ve büyük tüketicilerin toptan elektrik alıp sattığı piyasadır. Gün öncesi piyasasında, ertesi günün her saati için fiyat bir gün önceki açık artırmada belirlenir. Cuma, 30 Ekim için günlük ortalama (Base) KDV hariç megavatsaat başına 302,20 euro düzeyinde. Bu, perşembe günkü 320,13 euroya göre %5,60 düşük.",
+     "Ucuzlayan esas olarak gündüz elektriği. Puant saatlerde (Peak, 08:00-20:00) megavatsaat ortalama 317,73 euro; bu, perşembe günkü 353,31 euroya göre %10,07 daha düşük. Diğer saatlerde (Off-Peak) fiyat 286,68 euro ile bir önceki günün neredeyse aynı düzeyinde (−%0,09). Gündüz ve gece elektriği arasındaki fark böylece megavatsaat başına 66,36 eurodan 31,05 euroya geriliyor (kendi hesabımız).",
+     "92.864,93 megavatsaat işlem görüyor; bu, perşembe günkü 98.490,70 MWh'den yaklaşık %5,7 az (kendi hesabımız). Puant saatlere 47.378,25 MWh, diğer saatlere 45.486,67 MWh düşüyor."
+    ],
+    "d": "30 Ekim için IBEX ortalama fiyatı KDV hariç megavatsaat başına 302,20 euro. Özellikle gündüz saatleri ucuzluyor (%10'un üzerinde), gece fiyatı neredeyse aynı kalıyor.",
+    "explain": "Elektriği borsa fiyatlarından satın alan firmalar cuma günü, özellikle gündüz, biraz daha az ödüyor. Haneler ise düzenleyici kurum KEVR'in belirlediği fiyatları ödüyor; bu nedenle faturaları doğrudan değişmiyor.",
+    "t": "Bulgaristan'da borsa elektriği Cuma günü %5,6 daha ucuz: 302,20 euro/MWh"
+   },
+   "at": "2026-10-31T21:36Z",
+   "h": "6b99a362d5bc",
+   "rev": [
+    "Capitalisation of weekdays: TDK writes weekdays in lowercase within a sentence (cuma, perşembe)",
+    "Awkward sentence: 'Cuma, 30 Ekim için günlük ortalama ... 302,20 euro' lacks a verb; 'liegt bei' is not rendered",
+    "'Off-Peak' hour wording: 'Diğer saatlerde ... önceki günün neredeyse aynı düzeyinde' is ungrammatical",
+    "'Perşembe fiyatından' and 'Perşembe günkü' should be lowercase and grammatical"
+   ],
+   "rev_dbg": [
+    4,
+    5,
+    0
+   ]
+  },
   "suri-the-seventh-note-test": {
    "L": {
     "body": [

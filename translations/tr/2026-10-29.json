@@ -4715,6 +4715,29 @@
     "img.alt": "Kapak görseli: STMicroelectronics'in çeyrek dönem rakamları"
    }
   },
+  "strom-ibex": {
+   "L": {
+    "body": [
+     "Bulgaristan elektrik borsası IBEX (BNEB), üreticilerin, tüccarların ve büyük tüketicilerin toptan elektrik alıp sattığı pazar yeridir. Gün öncesi piyasasında bir sonraki günün her saati için fiyat, bir gün önce yapılan müzayedede belirlenir. 29 Ekim Perşembe için günlük ortalama (Base) KDV hariç megavatsaat başına 320,13 euro. Bu, 305,56 euro olan çarşamba gününe göre %4,77 daha yüksek.",
+     "Günün farklı zaman dilimleri ters yönde seyrediyor. Puant saatlerde (Peak, 08:00-20:00) megavatsaat ortalama 353,31 euroya mal oluyor; bu, çarşambadaki 308,69 euronun %14,45 üzerinde. Diğer saatlerde (Off-Peak) fiyat %5,12 düşerek 286,95 euroya iniyor. Böylece gündüz ve gece elektriği arasındaki fark, bir gün önce yalnızca 6,25 euro iken yeniden megavatsaat başına 66,36 euroya çıkıyor (kendi hesabımız).",
+     "98.490,70 megavatsaat işlem görüyor; bu, çarşambadaki hacme (98.870,28; yaklaşık %0,4 daha az) neredeyse eşit. Puant saatlere 50.875,27 MWh, diğer saatlere 47.615,43 MWh düşüyor."
+    ],
+    "d": "29 Ekim için IBEX ortalama fiyatı KDV hariç megavatsaat başına 320,13 euro. Gündüz saatleri %14'ten fazla pahalılaşıyor, gece ve akşam saatleri yaklaşık %5 ucuzluyor.",
+    "explain": "Elektriği borsa fiyatlarından satın alan şirketler perşembe günü biraz daha fazla, gündüz saatlerinde ise belirgin ölçüde daha fazla ödeyecek. Hanehalkları, düzenleyici kurum KEVR'nin belirlediği fiyatları ödüyor; dolayısıyla faturaları doğrudan değişmiyor.",
+    "t": "Bulgaristan'da borsa elektriği perşembe günü %4,77 pahalı: 320,13 euro/MWh"
+   },
+   "at": "2026-10-31T21:36Z",
+   "h": "ea9aa214711f",
+   "rev": [
+    "Turkish: 'Perşembe' capitalised mid-sentence together with a date; per TDK, weekday names are capitalised only when they are part of a date, so this is acceptable. No change needed.",
+    "Fixed a slight wording issue: 'bir gün önceki yalnızca 6,25 euroluk farkın ardından' is clumsy, replaced with a clearer phrase."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ]
+  },
   "stygian-outer-gods-test": {
    "L": {
     "body": [

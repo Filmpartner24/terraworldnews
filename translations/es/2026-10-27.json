@@ -786,6 +786,32 @@
     "img.alt": "Gráfico de portada: Sin pelea por el título IBF en Riad"
    }
   },
+  "deutsche-boerse": {
+   "L": {
+    "body": [
+     "El índice de referencia DAX (las 40 mayores empresas cotizadas de Alemania) comenzó la semana con ganancias. Cerró en la negociación de Xetra en 25.410,84 puntos, un 0,91 % más. El MDax (empresas medianas) ganó un 1,38 %, el SDax (empresas más pequeñas) un 1,25 % y el TecDax (valores tecnológicos) un 0,80 %. El Euro Stoxx 50 (grandes empresas de la eurozona) avanzó un 0,79 % (dpa-AFX, finanzen.at/finanzen.net, Dow Jones).",
+     "El clima empresarial del Ifo (el ánimo en las empresas alemanas) dio impulso. Subió 0,3 puntos hasta 90,2, por sexta vez consecutiva y hasta su nivel más alto desde la primavera de 2023. Los analistas esperaban en promedio 90,1 puntos (finanzen.net). También trajo alivio Moody's: la agencia dejó sin cambios la calificación crediticia de Francia en Aa3. Las acciones vinculadas a la IA se recuperaron tras las pérdidas recientes (dpa-AFX, Dow Jones).",
+     "Los mayores ganadores del DAX fueron Hochtief (+3,92 %) y Siemens Energy (+3,77 %). Bayer subió un 3,59 % tras los datos de estudios sobre el fármaco contra el cáncer de próstata Nubeqa y la aprobación del anticoagulante asundexian en China. Infineon ganó un 3,14 %. Cayeron Symrise (−1,81 %), Deutsche Telekom (−1,46 %) y Beiersdorf (−1,24 %). Fuera del DAX, Fraport se disparó un 2,6 % tras sus cifras trimestrales (finanzen.net, Dow Jones).",
+     "Para el martes, el bróker IG situó el DAX, unas dos horas y media antes de la apertura, en 25.414 puntos, solo 3 puntos más (dpa-AFX). Por la mañana presentan resultados Porsche (07:30) y Beiersdorf (08:00). El miércoles decide la Fed y el jueves el BCE sobre los tipos de interés."
+    ],
+    "d": "El DAX cerró el lunes en 25.410,84 puntos (+0,91 %). El índice Ifo subió a 90,2 puntos. Para el martes se espera un DAX prácticamente sin cambios.",
+    "explain": "Un mejor ánimo en las empresas es una buena señal para la economía, pero todavía no un fuerte repunte. Para ahorradores y prestatarios son más importantes las decisiones sobre los tipos del miércoles y el jueves.",
+    "t": "El DAX sube un 0,9 % tras el mejor dato del Ifo desde 2023; lideran Bayer y Hochtief"
+   },
+   "at": "2026-10-31T21:36Z",
+   "h": "11b3e90121f7",
+   "rev": [
+    "Teaser: 'apenas sin cambios' is unnatural; should be 'prácticamente sin cambios'",
+    "Headline is 86 characters, within the limit; no change needed",
+    "Ifo: 'Subió 0,3 puntos hasta 90,2' is correct; no change",
+    "Body 4: Spanish word order of 'el bróker IG estimó el DAX ... en 25.414 puntos' is awkward; reworded for clarity with the same meaning"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ]
+  },
   "deutschland-afd-leak-bundesvorstand-2026-10-27": {
    "L": {
     "body": [
@@ -2021,6 +2047,26 @@
    "x": {
     "img.alt": "Tienda de Intimissimi en Ámsterdam (imagen simbólica)"
    }
+  },
+  "invest-bulgarien": {
+   "L": {
+    "body": [
+     "Desde el lunes por la mañana, la agencia BTA y los medios económicos no informaron de nuevas plantas, primeras piedras ni despidos con cifras concretas. Añadimos un gran contrato público: la agencia de carreteras API firmó el 6 de octubre el contrato para 2,7 km de la autopista Struma cerca de Simitli (provincia de Blagoevgrad). El tramo 3.1 debe sacar del pueblo el tráfico hacia Razlog y Bansko. Cuesta 107,9 millones de euros con IVA, unos 40 millones de euros por kilómetro. La obra la ejecutará una agrupación de seis empresas; para el diseño y la construcción se prevén 605 días (Sega, 24.10.; Fakti, 26.10.).",
+     "El Instituto de Seguridad Vial (IPB) habla del mayor precio por kilómetro de una autopista en la historia de Bulgaria y critica la adjudicación sin licitación abierta; exige detener y revisar el contrato. La API justifica la adjudicación directa por la conexión técnica con la parte ya construida del tramo; los informes no contienen una respuesta directa a las críticas por el precio (Fakti). Como contrato público, el proyecto, como otros contratos viales, no cuenta en la suma de la tabla. Esta se mantiene en 592,0 millones de euros y los nuevos empleos mencionados, en 3.171.",
+     "Comercio: la cadena rumana Contakt (accesorios para móviles, unas 240 tiendas) quiere abrir una oficina en Bulgaria en el primer semestre de 2027 y las primeras tiendas a finales de 2027; no indicó importe ni empleos (Money.bg, 26.10.). Adenda: los talleres militares de reparación Terem – Jan Krum (Targovishte) y Terem – Ivaylo (Veliko Tarnovo) se integran en la matriz Terem Holding; en Targovishte, los empleados llevan cuatro meses esperando su salario (Plovdiv24, citando a BNR, 23.10.).",
+     "Perspectivas: hoy el banco central BNB publica las estadísticas monetarias y de tipos de interés de septiembre; el jueves, el instituto de estadística NSI publica las encuestas de coyuntura de octubre. Ese mismo día, el Banco Central Europeo decide sobre los tipos de interés."
+    ],
+    "d": "Desde el lunes por la mañana no hubo nuevas plantas ni despidos con cifras. Adenda: la agencia de carreteras adjudicó 2,7 km de la autopista Struma por 107,9 millones de euros con IVA. Contakt llega en 2027.",
+    "explain": "No hubo nuevas fábricas. El caro tramo de autopista se paga con dinero público; es controvertido si el precio es adecuado.",
+    "t": "Autopista Struma: 2,7 km por 108 millones de euros; la rumana Contakt llega a Bulgaria"
+   },
+   "at": "2026-10-31T21:36Z",
+   "h": "4f0821abc45b",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ]
   },
   "israel-wahl-herzog-likud-app-vorwurf-2026-10-27-b11": {
    "L": {
@@ -3842,6 +3888,28 @@
    "x": {
     "img.alt": "El presidente federal Frank-Walter Steinmeier (Foto de archivo)"
    }
+  },
+  "strom-ibex": {
+   "L": {
+    "body": [
+     "La bolsa eléctrica búlgara IBEX (BNEB) es el mercado mayorista en el que productores, comercializadores y grandes consumidores negocian electricidad. En el mercado diario, el precio de cada hora del día siguiente se fija en una subasta el día anterior. Para el martes 27 de octubre, la media diaria (base) es de 254,58 euros por megavatio hora sin IVA, un 3,34 % menos que el lunes (263,39 euros).",
+     "En horas punta (de 8 a 20 horas), el megavatio hora cuesta de media 266,79 euros, solo un 0,29 % menos que los 267,57 euros del lunes. El precio baja de forma más clara en el resto de horas (fuera de punta): 242,36 euros, un 6,5 % menos que los 259,21 euros del día anterior. Así, la electricidad diurna es 24,43 euros por megavatio hora más cara que la nocturna; la diferencia aumenta.",
+     "Se negocian 95.941,08 megavatios hora, aproximadamente un 2,2 % más que el lunes (93.899,48). De ellos, 54.268,55 MWh corresponden a las horas punta y 41.672,53 MWh al resto. En horas punta el volumen es un 5,8 % superior al del lunes (51.287,95 MWh) y en el resto de horas un 2,2 % inferior (42.611,52 MWh; cálculo propio)."
+    ],
+    "d": "El precio medio del IBEX para el 27 de octubre es de 254,58 euros por megavatio hora sin IVA. Bajan sobre todo las horas de la noche y del atardecer (−6,5 %); el precio punta apenas varía.",
+    "explain": "Las empresas que compran electricidad a precios de bolsa pagan el martes de media algo más de un 3 % menos, pero durante el día casi lo mismo que el lunes. Los hogares pagan los precios fijados por el regulador KEVR, por lo que su factura no cambia directamente.",
+    "t": "Electricidad en bolsa en Bulgaria, un 3,34 % más barata el martes: 254,58 euros/MWh"
+   },
+   "at": "2026-10-31T21:36Z",
+   "h": "6aa52cd8c97f",
+   "rev": [
+    "Se podría revisar 'horas nocturnas y de tarde' frente a 'Nacht- und Abendstunden' (tarde ≠ noche); se corrige a 'de la noche y del atardecer'"
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ]
   },
   "sucker-punch-entlassungen": {
    "L": {

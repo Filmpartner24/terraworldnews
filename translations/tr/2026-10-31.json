@@ -2937,6 +2937,52 @@
     "img.alt": "Arşiv fotoğrafı: Hermès'in Paris'teki Rue du Faubourg Saint-Honoré üzerindeki ana mağazası"
    }
   },
+  "invest-bulgarien": {
+   "L": {
+    "body": [
+     "İş gücü piyasası dar kalmaya devam ediyor. Eurostat'a göre Bulgaristan'da işsizlik oranı eylülde ağustostaki %3,5'ten %3,4'e (103.000 kişi) geriledi. AB'de oran %6,2, euro bölgesinde %6,5 oldu (BTA, 30.10.). Eylül sonunda iş kurumlarında %5,43 oranında kayıtlı işsiz vardı; bu, 154.096 kişiye karşılık geliyor (İstihdam Ajansı, 16.10.).",
+     "Pleven: Fransız Malteries Soufflet grubu, 60.000 ton kapasiteli bir malt tesisine yaklaşık 70 milyon euro yatırım yapıyor. Tesis, eski Plevensko piwo bira fabrikasının arazisinde kuruluyor (Capital, 30.10.; Money.bg, 20.07.). İnşaat 2023'ten beri sürüyor. Burgaz ve Varna: Çevre Bakanı, “Karadeniz 2030” forumunda buradaki su şebekelerine 180 milyon euronun üzerinde kaynak aktarıldığını söyledi (dbr.bg, 30.10.).",
+     "Bulgaristan'ın brüt dış borcu ağustos sonunda 68,798 milyar euro oldu; bu, bir önceki yıla göre %25,3 artışa karşılık geliyor (merkez bankası BNB'nin ön verileri, Actualno'ya göre, 30.10.). Son günlerde büyük fabrikalarda yeni işten çıkarmalar bildirilmedi.",
+     "Tablo 21–30.10. tarihlerini kapsıyor. Rakamla belirtilen projelerin toplamı 293,49 milyon euro, belirtilen yeni istihdam ise 546 kişi (kendi hesabımız; su şebekeleri için ayrılan 180 milyon euro dahil değildir)."
+    ],
+    "d": "Eurostat'a göre eylülde işsizlik oranı %3,4 oldu; AB ortalaması olan %6,2'nin çok altında. Dış borç %25 arttı. Malteries Soufflet, Pleven'e yaklaşık 70 milyon euro yatırım yapıyor.",
+    "explain": "İşsizlik düşük olduğundan şirketler personel bulmakta zorlanıyor. Yeni fabrikalar iş getiriyor, ancak çoğu zaman yıllarca süren inşaatlarla kuruluyor.",
+    "t": "Bulgaristan'da işsizlik %3,4'e geriledi; Pleven'de 70 milyon euroluk malt tesisi"
+   },
+   "at": "2026-10-31T21:36Z",
+   "h": "eccfa212817d",
+   "rev": [
+    "Added 'İş ve İşçi Bulma Kurumu'na göre' is redundant and duplicates the source in parentheses; the German has 'Bei den Arbeitsämtern'",
+    "'yıllık' (annual) added to capacity though the German gives only '60.000 Tonnen Kapazität'",
+    "'Çevre Bakanı' should be the female minister; Turkish is gender-neutral, so no change needed",
+    "Water networks: 'aktarıldığını' acceptable"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ]
+  },
+  "invest-deutschland": {
+   "L": {
+    "body": [
+     "Itzehoe (Schleswig-Holstein): Yarı iletken üreticisi Vishay, Almanya'daki fabrikasına büyük bir yatırım yapacağını açıkladı. Şirket “yüksek üç haneli milyon avroluk bir tutardan” söz ederken, bir CDU milletvekili yaklaşık 1 milyar avro olduğunu belirtti. Federal hükümet ve eyalet projeyi yaklaşık 215 milyon avro ile destekliyor. 250'ye kadar yeni iş yaratılması öngörülüyor (dpa-AFX, 30.10.).",
+     "Türingiya: Eichsfeld ilçesinde yeni bir hastanenin inşaatı başladı; eyalet bunu yaklaşık 250 milyon avro ile destekliyor (Gotha-Aktuell, 30.10.). Steinhagen'de (Kuzey Ren-Vestfalya) Schaeffler, üretimin sona ermesinin ardından makineleri söküyor; 170 çalışan bir istihdam transfer şirketine geçiyor (Haller Kreisblatt, 30.10.).",
+     "Konjunktür verileri: Ekonomik performans (GSYH) üçüncü çeyrekte bir önceki çeyreğe göre yüzde 0,2 arttı (Destatis). Enflasyon ekimde, eylülde yüzde 3,3 iken yüzde 2,8'e geriledi; enerji bir yıl öncesine göre yüzde 12,2 daha pahalıydı. İşsiz sayısı 2,955 milyon oldu (oran yüzde 6,3) – eylüle göre 40.000 az, ancak bir yıl öncesine göre 44.000 fazla. Mevsimsel etkilerden arındırılmış olarak sayı 4.000 arttı (Federal İş Ajansı, 30.10.).",
+     "Tablodaki toplam 403 milyon avro, rakamla belirtilen kesinti ise 560 pozisyon (kendi hesabımız; Amazon'un 20.10.'daki 4,8 milyar avrosu bu döneme girmiyor, Vishay ise kesin tutar bulunmadığı için dahil değil)."
+    ],
+    "d": "Alman ekonomisi üçüncü çeyrekte yüzde 0,2 büyüdü. Enflasyon yüzde 2,8'e geriledi, 2,955 milyon kişi işsiz. Türingiya'da eyalet kaynaklarından 250 milyon avroluk hastane inşaatı başlıyor.",
+    "explain": "Ekonomi hafif büyüyor, fiyatlar daha yavaş artıyor. İşgücü piyasasında ise olağan sonbahar canlanması zayıf kalıyor.",
+    "t": "Vishay, Itzehoe çip fabrikasına yatırım yapıyor – 250'ye kadar yeni iş"
+   },
+   "at": "2026-10-31T21:36Z",
+   "h": "c75337397da8",
+   "rev_dbg": [
+    5,
+    0,
+    0
+   ]
+  },
   "iran-khamenei-vergeltung-ohne-grenzen-2026-10-31-b15": {
    "L": {
     "body": [
@@ -5535,6 +5581,30 @@
     ],
     "rv.score": "Nintendo Life 8/10 · RPG Site 9/10"
    }
+  },
+  "strom-ibex": {
+   "L": {
+    "body": [
+     "Bulgaristan elektrik borsası IBEX (BNEB), üreticilerin, tüccarların ve büyük tüketicilerin toptan elektrik alıp sattığı piyasadır. Gün öncesi piyasasında, ertesi günün her saati için fiyat bir gün önce yapılan açık artırmada belirlenir. 31 Ekim Cumartesi için günlük ortalama (Base) KDV hariç megavatsaat başına 280,88 avro. Bu, 302,20 avro olan cuma fiyatından %7,05 daha düşük.",
+     "Fiyatlar bu kez dengeli biçimde düşüyor. Puant saatlerde (Peak, 08:00-20:00) megavatsaat ortalama 295,04 avro; bu, cuma günkü 317,73 avronun %7,14 altında. Diğer saatlerde (Off-Peak) fiyat 266,72 avro; bir gün önceki 286,68 avronun %6,96 altında. Gündüz ve gece elektriği arasındaki fark megavatsaat başına 31,05 avrodan 28,32 avroya hafifçe geriliyor (kendi hesaplamamız).",
+     "82.433,43 megavatsaat işlem görüyor; bu, cuma günkü 92.864,93 MWh'den yaklaşık %11,2 az (kendi hesaplamamız). Puant saatlere 45.348,80 MWh, diğer saatlere 37.084,63 MWh düşüyor. Daha düşük fiyat ve daha az miktar cumartesiye denk geliyor; bunun nedenlerini verilerin kendisi belirtmiyor."
+    ],
+    "d": "31 Ekim için IBEX ortalama fiyatı KDV hariç megavatsaat başına 280,88 avro. Gündüz ve gece saatleri neredeyse aynı oranda (yaklaşık %7) ucuzluyor, işlem hacmi düşüyor.",
+    "explain": "Elektriği borsa fiyatlarıyla satın alan şirketler cumartesi günü cumaya göre yaklaşık %7 daha az ödüyor. Haneler ise düzenleyici kurum KEVR'in belirlediği fiyatları ödüyor; bu nedenle faturaları doğrudan değişmiyor.",
+    "t": "Bulgaristan'da borsa elektriği cumartesi %7,1 ucuzladı: MWh başına 280,88 avro"
+   },
+   "at": "2026-10-31T21:36Z",
+   "h": "4b1b853548b9",
+   "rev": [
+    "Turkish weekday capitalisation: 'Cumartesi' in the body is capitalised after a date, which is acceptable under TDK; no change needed.",
+    "'bunun nedenlerini veriler kendisi belirtmiyor' is awkward; changed to natural wording.",
+    "'Diğer saatlerde' sentence: 'bir önceki günkü' is awkward; changed to 'bir gün önceki'."
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ]
   },
   "suedkorea-ehen-august-geburten-2026-10-31": {
    "L": {

@@ -776,6 +776,32 @@
     "img.alt": "Kapak görseli: Riyad'da IBF unvan maçı yok"
    }
   },
+  "deutsche-boerse": {
+   "L": {
+    "body": [
+     "Ana endeks DAX (Almanya'nın en büyük 40 borsa şirketi) haftaya kazançla başladı. Xetra işlemlerinde 25.410,84 puandan, yüzde 0,91 artışla kapandı. MDax (orta ölçekli şirketler) yüzde 1,38, SDax (daha küçük şirketler) yüzde 1,25 ve TecDax (teknoloji hisseleri) yüzde 0,80 kazandı. Euro Stoxx 50 (avro bölgesinin büyük şirketleri) yüzde 0,79 yükseldi (dpa-AFX, finanzen.at/finanzen.net, Dow Jones).",
+     "Piyasalara destek, Ifo iş iklimi endeksinden (Alman şirketlerindeki ruh hali) geldi. Endeks 0,3 puan artarak 90,2 puana çıktı; bu, art arda altıncı artış ve 2023 ilkbaharından bu yana en yüksek seviye oldu. Analistler ortalama 90,1 puan bekliyordu (finanzen.net). Moody's da rahatlama sağladı: Kuruluş, Fransa'nın kredi notunu Aa3'te sabit tuttu. Yapay zekâ bağlantılı hisseler son kayıpların ardından toparlandı (dpa-AFX, Dow Jones).",
+     "DAX'ın en çok kazandıran hisseleri Hochtief (%3,92) ve Siemens Energy (%3,77) oldu. Bayer, prostat kanseri ilacı Nubeqa'ya ilişkin çalışma verilerinin ve kan sulandırıcı Asundexian'ın Çin'de onaylanmasının ardından yüzde 3,59 yükseldi. Infineon yüzde 3,14 kazandı. Symrise (−%1,81), Deutsche Telekom (−%1,46) ve Beiersdorf (−%1,24) ise düştü. DAX dışında Fraport, çeyreklik rakamların ardından yüzde 2,6 sıçradı (finanzen.net, Dow Jones).",
+     "Aracı kurum IG, salı günü açılışa yaklaşık iki buçuk saat kala DAX'ı 25.414 puan olarak fiyatladı; bu yalnızca 3 puan daha yüksek (dpa-AFX). Sabah saatlerinde Porsche (07:30) ve Beiersdorf (08:00) bilançolarını açıklayacak. Çarşamba günü Fed, perşembe günü ise Avrupa Merkez Bankası (ECB) faiz kararını açıklayacak."
+    ],
+    "d": "DAX Pazartesi günü 25.410,84 puandan (+%0,91) kapandı. Ifo endeksi 90,2 puana çıktı. DAX'ın salı günü pek değişmeden açılması bekleniyor.",
+    "explain": "Şirketlerdeki daha iyi ruh hali ekonomi için olumlu bir işarettir, ancak henüz güçlü bir yükseliş anlamına gelmez. Tasarruf sahipleri ve kredi kullananlar için çarşamba ve perşembe günkü faiz kararları daha önemlidir.",
+    "t": "DAX, 2023'ten bu yana en iyi Ifo verisinin ardından %0,9 yükseldi – Bayer ve Hochtief önde"
+   },
+   "at": "2026-10-31T21:36Z",
+   "h": "11b3e90121f7",
+   "rev": [
+    "Weekdays must be lowercase in Turkish per TDK (Çarşamba/Perşembe → çarşamba/perşembe)",
+    "ECB is normally written as AMB in Turkish (Avrupa Merkez Bankası)",
+    "Ifo rose for the sixth time in a row – 'altıncı artış' is fine, no change needed",
+    "Moody's: 'değiştirmedi' is acceptable but 'sabit tuttu' is more natural"
+   ],
+   "rev_dbg": [
+    4,
+    5,
+    0
+   ]
+  },
   "deutschland-afd-leak-bundesvorstand-2026-10-27": {
    "L": {
     "body": [
@@ -1971,6 +1997,33 @@
    "x": {
     "img.alt": "Amsterdam'da bir Intimissimi mağazası (sembolik fotoğraf)"
    }
+  },
+  "invest-bulgarien": {
+   "L": {
+    "body": [
+     "Pazartesi sabahından bu yana BTA haber ajansı ve ekonomi medyası somut rakamlar içeren yeni fabrika, temel atma ya da işten çıkarma bildirmedi. Büyük bir kamu ihalesini ek olarak aktarıyoruz: Karayolu ajansı API, 6 Ekim'de Struma Otoyolu'nun Simitli (Blagoevgrad bölgesi) yakınındaki 2,7 km'lik kesimi için sözleşmeyi imzaladı. 3.1 numaralı lotun, Razlog ve Bansko yönündeki trafiği yerleşim yerinin dışına çıkarması öngörülüyor. Maliyeti KDV dahil 107,9 milyon euro, kilometre başına yaklaşık 40 milyon euro. İnşaatı altı şirketten oluşan bir konsorsiyumun yapması planlanıyor; tasarım ve inşaat için 605 gün öngörülüyor (Sega, 24.10.; Fakti, 26.10.).",
+     "Yol Güvenliği Enstitüsü (IPB), Bulgaristan tarihinde bir otoyol için en yüksek kilometre fiyatından söz ediyor ve işin açık ihale yapılmadan doğrudan verilmesini eleştiriyor; sözleşmenin durdurulmasını ve incelenmesini talep ediyor. API, doğrudan verilmeyi, lotun halihazırda inşa edilmiş bölümüyle teknik bağlantıyla gerekçelendiriyor; haberlerde fiyat eleştirisine doğrudan bir yanıt yer almıyor (Fakti). Kamu ihalesi olduğu için proje, diğer yol sözleşmeleri gibi tablo toplamına dahil edilmiyor. Toplam 592,0 milyon euroda, belirtilen yeni istihdam ise 3.171'de kalıyor.",
+     "Ticaret: Romanyalı Contakt zinciri (cep telefonu aksesuarları, yaklaşık 240 mağaza) 2027'nin ilk yarısında Bulgaristan'da bir ofis, 2027 sonuna kadar da ilk mağazalarını açmak istiyor; tutar ve istihdam sayısı açıklamadı (Money.bg, 26.10.). Ek: Askeri onarım fabrikaları Terem – Han Krum (Targovişte) ve Terem – İvaylo (Veliko Tarnovo) ana şirket Terem Holding'in bünyesine katılıyor; Targovişte'de çalışanlar dört aydır maaşlarını bekliyor (Plovdiv24, BNR'ye atfen, 23.10.).",
+     "Beklentiler: Merkez Bankası BNB bugün eylül ayı para ve faiz istatistiklerini, istatistik kurumu NSI perşembe günü ekim ayı konjonktür anketlerini yayımlayacak. Aynı gün Avrupa Merkez Bankası faiz kararını açıklayacak."
+    ],
+    "d": "Pazartesi sabahından bu yana rakam içeren yeni fabrika ya da işten çıkarma haberi gelmedi. Ek: Karayolu ajansı Struma Otoyolu'nun 2,7 km'sini KDV dahil 107,9 milyon euroya verdi. Contakt 2027'de geliyor.",
+    "explain": "Yeni fabrika olmadı. Pahalı otoyol kesimi kamu parasıyla ödeniyor; fiyatın makul olup olmadığı tartışmalı.",
+    "t": "Struma Otoyolu: 2,7 km için 108 milyon euro – Romanya'nın Contakt'ı Bulgaristan'a geliyor"
+   },
+   "at": "2026-10-31T21:36Z",
+   "h": "4f0821abc45b",
+   "rev": [
+    "\"Vergabe ohne offene Ausschreibung\" ve \"Los\" ifadeleri ile ihale/verilme terimleri karışmış: 'ihalenin açık ihale yapılmadan verilmesi' mantıksal olarak bozuk",
+    "'Teaser' özetinde 'KDV dahil' brüt tutarı doğru ama 'Contakt 2027'de geliyor' Almanca ile uyumlu; sorun yok",
+    "'Los 3.1 soll ... holen' ifadesi: 'yerleşim yerinden çıkarması' belirsiz, 'yerleşim yerinin dışına taşıması' daha doğru",
+    "Terem fabrikalarının 'bünyesine katılıyor' ifadesi 'gehen auf' için kabul edilebilir; değişiklik yok",
+    "'doğrudan verilmeyi' kullanımı akıcı değil"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ]
   },
   "israel-wahl-herzog-likud-app-vorwurf-2026-10-27-b11": {
    "L": {
@@ -3828,6 +3881,30 @@
    "x": {
     "img.alt": "Federal Cumhurbaşkanı Frank-Walter Steinmeier (Arşiv fotoğrafı)"
    }
+  },
+  "strom-ibex": {
+   "L": {
+    "body": [
+     "Bulgaristan elektrik borsası IBEX (BNEB), üreticilerin, tüccarların ve büyük tüketicilerin elektrik alıp sattığı toptan satış piyasasıdır. Gün öncesi piyasasında ertesi günün her saati için fiyat, bir gün önce yapılan müzayedede belirlenir. Salı, 27 Ekim için günlük ortalama (baz) fiyat, KDV hariç megavatsaat başına 254,58 euro; bu, pazartesiye (263,39 euro) göre %3,34 daha düşük.",
+     "Pik saatlerde (saat 8-20 arası) megavatsaatin ortalama fiyatı 266,79 euro; bu, pazartesi günkü 267,57 euroya göre yalnızca %0,29 daha düşük. Fiyat, diğer saatlerde (pik dışı) daha belirgin düşüyor: 242,36 euro, bir önceki günün 259,21 euro seviyesinin %6,5 altında. Böylece gündüz elektriği megavatsaat başına gece elektriğinden 24,43 euro daha pahalı; aradaki fark büyüyor.",
+     "95.941,08 megavatsaat işlem görüyor; bu, pazartesiye (93.899,48) göre yaklaşık %2,2 fazla. Bunun 54.268,55 MWh'si pik saatlere, 41.672,53 MWh'si diğer saatlere ait. Pik saatlerde hacim pazartesiye (51.287,95 MWh) göre yaklaşık %5,8 yüksek, diğer saatlerde %2,2 düşük (42.611,52 MWh; kendi hesaplamamız)."
+    ],
+    "d": "27 Ekim için IBEX ortalama fiyatı KDV hariç megavatsaat başına 254,58 euro. Özellikle gece ve akşam saatleri ucuzluyor (−%6,5), pik fiyat neredeyse aynı kalıyor.",
+    "explain": "Elektriği borsa fiyatlarıyla satın alan şirketler salı günü ortalama %3'ten biraz fazla daha az ödüyor, ancak gündüz saatlerinde pazartesi günüyle neredeyse aynı tutarı ödüyor. Haneler, düzenleyici kurum KEVR'in belirlediği fiyatları ödüyor; bu nedenle faturaları doğrudan değişmiyor.",
+    "t": "Bulgaristan'da borsa elektriği salı günü %3,34 ucuzladı: 254,58 euro/MWh"
+   },
+   "at": "2026-10-31T21:36Z",
+   "h": "6aa52cd8c97f",
+   "rev": [
+    "Turkish case/grammar: 'pazartesiye neredeyse aynı tutarı' is ungrammatical; it should be 'pazartesi ile neredeyse aynı tutarı'",
+    "'iyi bir %3' is a literal rendering of 'gut 3 %'; should be 'yaklaşık %3'",
+    "Day names: 'Salı, 27 Ekim' is at the start of a sentence so the capital is fine; 'salı günü' mid-sentence is also fine"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ]
   },
   "sucker-punch-entlassungen": {
    "L": {
