@@ -1063,8 +1063,8 @@ def musik_grid(l, cur=None):
     crl = (LX({'bg': 'Колаж в заглавието', 'de': 'Collage im Kopf', 'en': 'Header collage'})[l] + ': ' + ' · '.join(f'<a href="{e(x["page"])}" rel="noopener nofollow" target="_blank">{e(x["art"])}</a> ({e(x["lic"])})' for x in C)
            + LX({'bg': ' – Wikimedia Commons, изрязани и оцветени; колажът е под лиценз CC BY-SA 4.0', 'de': ' – Wikimedia Commons, zugeschnitten und eingefärbt; Collage unter CC BY-SA 4.0', 'en': ' – Wikimedia Commons, cropped and recoloured; collage licensed CC BY-SA 4.0'})[l]) if C else ''
     return (f'<section class="mg-wrap" aria-label="{e(Z["genres"])}"><div class="mg-head"><p class="mg-kick">TERRA WORLD NEWS</p><p class="mg-brand">MUSIC</p>'
-            f'<p class="mg-sub">{e(Z["mgsub"])}</p><a class="mg-all{allc}" href="{sec_url("musik", l)}">{e(Z["allg"])}</a></div>{rows}' + (f'<p class="mg-cr">{crl}</p>' if crl else '') + '</section>'
-            + (mh_banner(l) if cur != 'mhistory' else ''))
+            f'<p class="mg-sub">{e(Z["mgsub"])}</p><a class="mg-all{allc}" href="{sec_url("musik", l)}">{e(Z["allg"])}</a></div>{rows}' + (mh_banner(l) if cur != 'mhistory' else '')
+            + (f'<p class="mg-cr">{crl}' + (f'<br>{mh_credit(l)}' if cur != 'mhistory' and mh_credit(l) else '') + '</p>' if crl else '') + '</section>')
 def mhistory_teaser(l, pool):
     """Music History (31.10.2026): die 4 neuesten historischen Konzerte als Band auf der Musik-Startseite."""
     xs = sorted([x for x in pool if x.get('sub') == 'mhistory'], key=lambda x: (x['date'], x['time']), reverse=True)[:4]
@@ -1086,15 +1086,15 @@ def mh_credit(l):
     return (MHU[l]['cr'] + ': ' + ' · '.join(f'<a href="{e(x["page"])}" rel="noopener nofollow" target="_blank">{e(x["art"])}</a> ({e(x["lic"])})' for x in C)
             + LX({'bg': ' – Wikimedia Commons, изрязани и оцветени; колажът е под лиценз CC BY-SA 4.0', 'de': ' – Wikimedia Commons, zugeschnitten und eingefärbt; Collage unter CC BY-SA 4.0', 'en': ' – Wikimedia Commons, cropped and recoloured; collage licensed CC BY-SA 4.0'})[l])
 def mh_banner(l, hero=False):
-    """Music History (Nedy 31.10.2026): Eye-Catcher mit Collage – als Banner unter dem Genre-Raster bzw. als Kopf der eigenen Seite."""
+    """Music History (Nedy 31.10.2026): Eye-Catcher – laufende Konzert-Collage über die ganze Breite, Neon-Rahmen, großer Schriftzug."""
     H = MHU[l]; C = MUSIK.get('history-collage') or {}
-    bg = f' style="background-image:url({C["f"]})"' if C.get('f') else ''
     n = len(mh_items())
-    inner = (f'<div class="mhb-txt"><p class="mhb-kick">{e(H["kick"])}</p><p class="mhb-title">MUSIC <span>HISTORY</span></p><p class="mhb-sub">{e(H["sub"])}</p>'
+    strip = (f'<div class="mhb-strip" aria-hidden="true"><img src="{C["f"]}" alt="" width="{C.get("w", 1600)}" height="{C.get("h", 440)}"><img src="{C["f"]}" alt="" width="{C.get("w", 1600)}" height="{C.get("h", 440)}"></div>') if C.get('f') else ''
+    inner = (f'<div class="mhb-txt"><p class="mhb-kick"><span class="mhb-dot"></span>{e(H["kick"])}</p><p class="mhb-title">MUSIC <span>HISTORY</span></p><p class="mhb-sub">{e(H["sub"])}</p>'
              + (f'<p class="mhb-intro">{e(H["intro"])}</p>' if hero else f'<span class="mhb-cta">{e(H["cta"])}</span>') + (f'<span class="mhb-n">{e(H["n"].format(n=n))}</span>' if n and not hero else '') + '</div>')
     if hero:
-        return f'<section class="mhb mhb-hero"{bg}>{inner}</section>' + (f'<p class="mg-cr mhb-cr">{mh_credit(l)}</p>' if C.get('photos') else '')
-    return f'<a class="mhb" href="{sub_url("musik", "mhistory", l)}"{bg}>{inner}</a>'
+        return f'<section class="mhb mhb-hero">{strip}{inner}</section>' + (f'<p class="mg-cr mhb-cr">{mh_credit(l)}</p>' if C.get('photos') else '')
+    return f'<a class="mhb" href="{sub_url("musik", "mhistory", l)}">{strip}{inner}</a>'
 def mh_page(l):
     """Eigene Seite Music History: Collage-Kopf, Legendäre Konzerte (große Videokarten), Interviews, Geschichten."""
     H = MHU[l]; xs = mh_items()
