@@ -1904,3 +1904,4 @@ nav.sections.nv2::before{content:"";position:absolute;left:0;right:0;top:0;heigh
  .nv2 .nav-dd .dd,.nv2 .nav-dd.ex .dd{display:none!important}
  .nv2 .nav-dd>a.nv-top{padding-right:14px!important}
 }
+@media (max-width:860px){nav.sections.nv2 .nav-dd .dd,nav.sections.nv2 .nav-dd.dd-wide .dd,nav.sections.nv2 .nav-dd.ex .dd,nav.sections.nv2 .nav-dd.dd-wide.ex .dd,nav.sections.nv2 .nav-dd:hover .dd,nav.sections.nv2 .nav-dd:focus-within .dd{display:none!important}}
