@@ -549,9 +549,14 @@ def load():
         d = json.load(open(f, encoding='utf-8'))
         its = []
         for b in d.get('blocks', []):
+            _tx = {'id': b['id'], 'de': b.get('de'), 'en': b.get('en')}   # ES/TR-Übersetzung des Berichts (translations/), sonst später EN-Fassung
+            try: lang_extra.merge(_tx, d['date'])
+            except Exception: pass
+            for _l in ('es', 'tr'):
+                if isinstance(_tx.get(_l), dict) and _tx[_l].get('t'): b[_l] = _tx[_l]
             it = {'id': b['id'], 'date': d['date'], 's': 'business', 'time': b.get('time') or d.get('time', '07:00'), 'src': b.get('src', []), 'biz': b}
             if b.get('img') and os.path.exists(os.path.join(HERE, 'static', b['img']['f'].lstrip('/'))): it['img'] = b['img']
-            for _l in ('bg', 'de', 'en'):
+            for _l in ('bg', 'de', 'en', 'es', 'tr'):
                 if _l in b: it[_l] = {k: b[_l][k] for k in ('t', 'd', 'body') if k in b[_l]}
             its.append(it)
         BIZ[d['date']] = d
@@ -886,9 +891,11 @@ def card(it, l):
 # ---- Business: Zahlen, Kennzahlen, Tabellen, Börsen-Laufband
 BZ = {'bg': dict(boerse='БОРСА', asof='Данни', explain='Какво означава това за мен?', overview='Пазарите накратко', jump='На тази страница', full='Цялата статия →', nodata='–', desc='Борси, ток и инвестиции – всеки ден с цифри и таблици, обяснени разбираемо: Уолстрийт, Франкфурт, София, енергийната борса IBEX и инвестиции по региони.', noadv='Информацията е само с информативна цел и не е инвестиционен съвет. Цените са към посочения момент; борсите в момента не се обновяват на живо.'),
       'de': dict(boerse='BÖRSE', asof='Datenstand', explain='Was bedeutet das für mich?', overview='Märkte auf einen Blick', jump='Auf dieser Seite', full='Ganzer Artikel →', nodata='–', desc='Börse, Strom und Investitionen – täglich mit Zahlen und Tabellen, verständlich erklärt: Wall Street, Frankfurt, Sofia, die Strombörse IBEX und Investitionen in den Regionen.', noadv='Die Angaben dienen nur der Information und sind keine Anlageberatung. Kurse mit dem genannten Datenstand, keine Echtzeitkurse.'),
+      'es': dict(boerse='BOLSA', asof='Datos a', explain='¿Qué significa esto para mí?', overview='Mercados de un vistazo', jump='En esta página', full='Artículo completo →', nodata='–', desc='Bolsa, electricidad e inversión: cada día con cifras y tablas explicadas con claridad: Wall Street, Fráncfort, Sofía, la bolsa eléctrica IBEX e inversiones por regiones.', noadv='Información solo con fines informativos; no es asesoramiento de inversión. Precios a la hora indicada, no en tiempo real.'),
+      'tr': dict(boerse='BORSA', asof='Veri tarihi', explain='Bu benim için ne anlama geliyor?', overview='Bir bakışta piyasalar', jump='Bu sayfada', full='Makalenin tamamı →', nodata='–', desc='Borsa, elektrik ve yatırım: Wall Street, Frankfurt, Sofya, IBEX elektrik borsası ve bölgesel yatırımlar her gün rakam ve tablolarla anlaşılır biçimde.', noadv='Bilgiler yalnızca bilgilendirme amaçlıdır, yatırım tavsiyesi değildir. Belirtilen saatteki fiyatlar, gerçek zamanlı değildir.'),
       'en': dict(boerse='MARKETS', asof='Data as of', explain='What does this mean for me?', overview='Markets at a glance', jump='On this page', full='Full article →', nodata='–', desc='Stock markets, electricity and investment – daily with figures and tables, clearly explained: Wall Street, Frankfurt, Sofia, the IBEX power exchange and regional investment.', noadv='For information only, not investment advice. Prices as of the time stated, not real-time quotes.')}
-def L(x, l):
-    return x.get(l) or x.get('de') or next(iter(x.values()), '') if isinstance(x, dict) else ('' if x is None else str(x))
+def L(x, l):   # ES/TR: Beschriftungen ohne eigene Fassung auf Englisch statt Deutsch
+    return x.get(l) or (x.get('en') if l in ('es', 'tr', 'it') else None) or x.get('de') or next(iter(x.values()), '') if isinstance(x, dict) else ('' if x is None else str(x))
 UNITS = {'Pkt.': {'bg': 'пункта', 'en': 'pts'}, 'Mio. EUR': {'bg': 'млн. евро', 'en': 'EUR m'}, 'Mrd. EUR': {'bg': 'млрд. евро', 'en': 'EUR bn'},
          'Mio.': {'bg': 'млн.', 'en': 'm'}, 'Mrd.': {'bg': 'млрд.', 'en': 'bn'}}
 def LU(x, l):  # Einheit in der Seitensprache (Daten oft mit deutscher Einheit)

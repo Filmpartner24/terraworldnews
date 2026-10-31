@@ -537,6 +537,29 @@ def main():
                     need.append(l)
             if need:
                 todo.append((d['date'], it, need, f.endswith('-breaking.json')))
+    # Business-Detailberichte (content/business/*.json) ebenfalls übersetzen – ES/TR wie EN (Nedy 31.10.2026)
+    for f in sorted(glob.glob(os.path.join(HERE, 'content', 'business', '*.json'))):
+        try:
+            d = json.load(open(f, encoding='utf-8'))
+        except ValueError:
+            continue
+        if d.get('date', '') < start:
+            continue
+        for b in d.get('blocks', []):
+            if not isinstance(b.get('de'), dict) or not b['de'].get('t'):
+                continue
+            it = {'id': b['id'], 's': 'business', 'time': d.get('time', ''), 'de': b['de'], 'en': b.get('en') or {}}
+            h = lang_extra.src_hash(it)
+            need = []
+            for l in langs:
+                fp = os.path.join(HERE, OUTD, l, f'{d["date"]}.json')
+                if fp not in store:
+                    store[fp] = json.load(open(fp, encoding='utf-8')) if os.path.exists(fp) else {'date': d['date'], 'items': {}}
+                old = store[fp]['items'].get(it['id'])
+                if not old or old.get('h') != h:
+                    need.append(l)
+            if need:
+                todo.append((d['date'], it, need, False))
     todo.sort(key=lambda x: (x[0], x[1].get('time', '')), reverse=True)   # neueste zuerst
     only = {x for x in os.environ.get('TRANSLATE_IDS', '').split(',') if x}   # Probelauf: nur diese Meldungen
     if only:
