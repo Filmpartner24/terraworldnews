@@ -1118,7 +1118,7 @@ HUBU = {   # Leben & Alltag (Allgemein) und Gesundheit im Fitness-Design (Nedy 3
            'es': dict(kick='TWN · Vida cotidiana', title='VIDA <span>COTIDIANA</span>', sub='Salud · Fitness · Amor · Dinero · Naturaleza', series='Exclusivo de la redacción'),
            'tr': dict(kick='TWN · Günlük yaşam', title='GÜNLÜK <span>YAŞAM</span>', sub='Sağlık · Fitness · Aşk · Para · Doğa', series='Editörlükten özel')},
  'gesundheit': {'bg': dict(kick='TWN · Здраве', title='<span>ЗДРАВЕ</span>', sub='Медицина · Изследвания · Профилактика · Психика', series='Изследване на деня'),
-           'de': dict(kick='TWN · Gesundheit', title='<span>GESUNDHEIT</span>', sub='Medizin · Forschung · Vorsorge · Psyche', series='Studie des Tages'),
+           'de': dict(kick='TWN · Gesundheit', title='<span>GESUNDHEIT</span>', sub='Medizin · Forschung · Gehirn & Körper · Psyche', series='Studie des Tages'),
            'en': dict(kick='TWN · Health', title='<span>HEALTH</span>', sub='Medicine · Research · Prevention · Mind', series='Study of the day'),
            'es': dict(kick='TWN · Salud', title='<span>SALUD</span>', sub='Medicina · Investigación · Prevención · Mente', series='Estudio del día'),
            'tr': dict(kick='TWN · Sağlık', title='<span>SAĞLIK</span>', sub='Tıp · Araştırma · Önleme · Ruh sağlığı', series='Günün araştırması')}}
@@ -1128,7 +1128,7 @@ GESCAT = [   # Themengruppen Gesundheit – Zuordnung über "gk" oder den deutsc
  ('psy', 'Psychische Gesundheit', {'bg': 'Психично здраве', 'de': 'Psychische Gesundheit', 'en': 'Mental health', 'es': 'Salud mental', 'tr': 'Ruh sağlığı'}, {'bg': 'Стрес, бърнаут, депресия, тревожност', 'de': 'Stress, Burnout, Depression, Angst', 'en': 'Stress, burnout, depression, anxiety', 'es': 'Estrés, burnout, depresión, ansiedad', 'tr': 'Stres, tükenmişlik, depresyon, kaygı'}, '🧠'),
  ('sys', 'Gesundheitssystem', {'bg': 'Здравеопазване', 'de': 'Gesundheitssystem', 'en': 'Health system', 'es': 'Sistema sanitario', 'tr': 'Sağlık sistemi'}, {'bg': 'НЗОК, болници, лекарства, реформи', 'de': 'Krankenkassen, Kliniken, Medikamente, Reformen', 'en': 'Insurers, hospitals, medicines, reforms', 'es': 'Seguros, hospitales, medicamentos, reformas', 'tr': 'Sigorta, hastaneler, ilaçlar, reformlar'}, '🏥'),
  ('video', None, {'bg': 'Здраве във видео', 'de': 'Gesundheit im Video', 'en': 'Health on video', 'es': 'Salud en vídeo', 'tr': 'Videoda sağlık'}, {'bg': 'Обяснения от клиники и институции', 'de': 'Erklärvideos von Kliniken und Behörden', 'en': 'Explainers from clinics and agencies', 'es': 'Explicaciones de clínicas e instituciones', 'tr': 'Klinik ve kurumlardan açıklamalar'}, '▶'),
- ('studie', None, {'bg': 'Изследване на деня', 'de': 'Studie des Tages', 'en': 'Study of the day', 'es': 'Estudio del día', 'tr': 'Günün araştırması'}, {'bg': 'Ново рецензирано изследване – ясно обяснено', 'de': 'Neue begutachtete Studie – klar erklärt', 'en': 'A new peer-reviewed study, clearly explained', 'es': 'Un estudio revisado, explicado con claridad', 'tr': 'Hakemli yeni bir araştırma, açıkça anlatıldı'}, '📊'),
+ ('gehirn', 'Gehirn & Körper', {'bg': 'Мозък и тяло', 'de': 'Gehirn & Körper', 'en': 'Brain & body', 'es': 'Cerebro y cuerpo', 'tr': 'Beyin ve beden'}, {'bg': 'Анатомия, органи, нерви, функции на тялото', 'de': 'Anatomie, Organe, Nerven, Körperfunktionen', 'en': 'Anatomy, organs, nerves, body functions', 'es': 'Anatomía, órganos, nervios, funciones del cuerpo', 'tr': 'Anatomi, organlar, sinirler, vücut işlevleri'}, '🧬'),
 ]
 LEBCAT = [   # Kacheln auf „Leben & Alltag – Allgemein“: Unterrubriken + Exklusiv-Artikel
  ('gesundheit', '🩺', {'bg': 'Медицина, профилактика, психично здраве', 'de': 'Medizin, Vorsorge, psychische Gesundheit', 'en': 'Medicine, prevention, mental health', 'es': 'Medicina, prevención, salud mental', 'tr': 'Tıp, önleme, ruh sağlığı'}),
@@ -1154,8 +1154,7 @@ def gesundheit_block(l, its):
     tiles = ''
     for key, kde, nm, ds, ic in GESCAT:
         if key == 'video': _in = lambda x: bool(x.get('yt'))
-        elif key == 'studie': _in = lambda x: bool(x.get('studie'))
-        else: _in = lambda x, k=key, d=kde: x.get('gk') == k or (x.get('kl') or {}).get('de') == d or k in (x.get('gks') or [])
+        else: _in = lambda x, k=key, d=kde: x.get('gk') == k or (x.get('kl') or {}).get('de') == d or k in (x.get('gks') or []) or (k == 'med' and bool(x.get('studie')))   # Studie des Tages zählt zu Medizin & Forschung (Nedy 31.10.2026)
         xs = [x for x in its if _in(x)]
         href = f' href="{art_url(xs[0], l)}"' if xs else ''
         tiles += f'<a class="fxt fxt-{key}"{href}><i>{ic}</i><b>{e(LX(nm)[l])}</b><span>{e(LX(ds)[l])}</span>' + (f'<em>{len(xs)}</em>' if xs else '') + '</a>'
