@@ -1658,3 +1658,49 @@ a.rl-g:hover{filter:brightness(1.1)}
 .bzh-top{display:flex;flex-direction:column;gap:0}
 .bzh-tim{min-height:0;aspect-ratio:16/9}
 .bzh-tt{padding:14px 16px 16px}
+/* Welt, Europa, Deutschland, Bulgarien im Hub-Design (kompakt) – Nedy 31.10.2026 */
+.hub-welt{background:#050b18;min-height:210px}
+.hub-welt::before{background:linear-gradient(90deg,rgba(5,11,24,.95) 0%,rgba(5,11,24,.82) 38%,rgba(5,11,24,.25) 68%,rgba(5,11,24,.05) 100%),linear-gradient(0deg,rgba(59,130,246,.25),transparent 45%),radial-gradient(110% 90% at 88% 8%,rgba(34,211,238,.28),transparent 55%)}
+.hub-welt::after{background:linear-gradient(120deg,#3b82f6,#22d3ee,#93c5fd,#a5f3fc,#3b82f6);background-size:300% 100%}
+.hub-welt .fxb-kick{color:#93c5fd}.hub-welt .fxb-pulse{background:#22d3ee}
+.hub-welt .fxb-title{font-size:56px;text-shadow:0 0 20px rgba(59,130,246,.45),0 4px 18px rgba(0,0,0,.7)}
+.hub-welt .fxb-title span{background-image:linear-gradient(90deg,#93c5fd,#3b82f6,#22d3ee)}
+.hub-welt .fxb-sub{color:#dbeafe}.hub-welt .fxb-series{background:linear-gradient(90deg,#1d4ed8,#0891b2);color:#fff;margin-top:14px}
+.hubt-welt .fxt{background:linear-gradient(160deg,#0a1630,#060d1e);border-color:#1e3a8a;min-height:96px}.hubt-welt .fxt:hover{border-color:#3b82f6}
+.hubt-welt .fxt span{color:#bfdbfe}.hubt-welt .fxt em{color:#93c5fd}
+.hubt-welt .fxt-video{background:linear-gradient(160deg,#1e1438,#0f0a1f);border-color:#6d28d9}.hubt-welt .fxt-video span{color:#ddd6fe}
+.gr-thumb-welt em{background:linear-gradient(90deg,#93c5fd,#a5f3fc)}
+.hub-europa{background:#060a1c;min-height:210px}
+.hub-europa::before{background:linear-gradient(90deg,rgba(6,10,28,.95) 0%,rgba(6,10,28,.82) 38%,rgba(6,10,28,.25) 68%,rgba(6,10,28,.05) 100%),linear-gradient(0deg,rgba(37,99,235,.25),transparent 45%),radial-gradient(110% 90% at 88% 8%,rgba(250,204,21,.28),transparent 55%)}
+.hub-europa::after{background:linear-gradient(120deg,#2563eb,#facc15,#93c5fd,#fde68a,#2563eb);background-size:300% 100%}
+.hub-europa .fxb-kick{color:#fde047}.hub-europa .fxb-pulse{background:#facc15}
+.hub-europa .fxb-title{font-size:56px;text-shadow:0 0 20px rgba(37,99,235,.45),0 4px 18px rgba(0,0,0,.7)}
+.hub-europa .fxb-title span{background-image:linear-gradient(90deg,#93c5fd,#2563eb,#facc15)}
+.hub-europa .fxb-sub{color:#dbeafe}.hub-europa .fxb-series{background:linear-gradient(90deg,#1d4ed8,#ca8a04);color:#fff;margin-top:14px}
+.hubt-europa .fxt{background:linear-gradient(160deg,#0b1433,#070c20);border-color:#1e3a8a;min-height:96px}.hubt-europa .fxt:hover{border-color:#2563eb}
+.hubt-europa .fxt span{color:#fde68a}.hubt-europa .fxt em{color:#fde047}
+.hubt-europa .fxt-video{background:linear-gradient(160deg,#1e1438,#0f0a1f);border-color:#6d28d9}.hubt-europa .fxt-video span{color:#ddd6fe}
+.gr-thumb-europa em{background:linear-gradient(90deg,#93c5fd,#fde68a)}
+.hub-deutschland{background:#0c0a0a;min-height:210px}
+.hub-deutschland::before{background:linear-gradient(90deg,rgba(12,10,10,.95) 0%,rgba(12,10,10,.82) 38%,rgba(12,10,10,.25) 68%,rgba(12,10,10,.05) 100%),linear-gradient(0deg,rgba(239,68,68,.25),transparent 45%),radial-gradient(110% 90% at 88% 8%,rgba(250,204,21,.28),transparent 55%)}
+.hub-deutschland::after{background:linear-gradient(120deg,#ef4444,#facc15,#fca5a5,#fde68a,#ef4444);background-size:300% 100%}
+.hub-deutschland .fxb-kick{color:#fcd34d}.hub-deutschland .fxb-pulse{background:#facc15}
+.hub-deutschland .fxb-title{font-size:56px;text-shadow:0 0 20px rgba(239,68,68,.45),0 4px 18px rgba(0,0,0,.7)}
+.hub-deutschland .fxb-title span{background-image:linear-gradient(90deg,#fca5a5,#ef4444,#facc15)}
+.hub-deutschland .fxb-sub{color:#fee2e2}.hub-deutschland .fxb-series{background:linear-gradient(90deg,#b91c1c,#a16207);color:#fff;margin-top:14px}
+.hubt-deutschland .fxt{background:linear-gradient(160deg,#1c1010,#0e0808);border-color:#5b1a1a;min-height:96px}.hubt-deutschland .fxt:hover{border-color:#ef4444}
+.hubt-deutschland .fxt span{color:#fde68a}.hubt-deutschland .fxt em{color:#fcd34d}
+.hubt-deutschland .fxt-video{background:linear-gradient(160deg,#1e1438,#0f0a1f);border-color:#6d28d9}.hubt-deutschland .fxt-video span{color:#ddd6fe}
+.gr-thumb-deutschland em{background:linear-gradient(90deg,#fca5a5,#fde68a)}
+.hub-bulgarien{background:#06120b;min-height:210px}
+.hub-bulgarien::before{background:linear-gradient(90deg,rgba(6,18,11,.95) 0%,rgba(6,18,11,.82) 38%,rgba(6,18,11,.25) 68%,rgba(6,18,11,.05) 100%),linear-gradient(0deg,rgba(22,163,74,.25),transparent 45%),radial-gradient(110% 90% at 88% 8%,rgba(239,68,68,.28),transparent 55%)}
+.hub-bulgarien::after{background:linear-gradient(120deg,#16a34a,#ef4444,#f8fafc,#86efac,#16a34a);background-size:300% 100%}
+.hub-bulgarien .fxb-kick{color:#86efac}.hub-bulgarien .fxb-pulse{background:#ef4444}
+.hub-bulgarien .fxb-title{font-size:56px;text-shadow:0 0 20px rgba(22,163,74,.45),0 4px 18px rgba(0,0,0,.7)}
+.hub-bulgarien .fxb-title span{background-image:linear-gradient(90deg,#f8fafc,#16a34a,#ef4444)}
+.hub-bulgarien .fxb-sub{color:#dcfce7}.hub-bulgarien .fxb-series{background:linear-gradient(90deg,#15803d,#b91c1c);color:#fff;margin-top:14px}
+.hubt-bulgarien .fxt{background:linear-gradient(160deg,#0a1f12,#06120b);border-color:#14532d;min-height:96px}.hubt-bulgarien .fxt:hover{border-color:#16a34a}
+.hubt-bulgarien .fxt span{color:#bbf7d0}.hubt-bulgarien .fxt em{color:#86efac}
+.hubt-bulgarien .fxt-video{background:linear-gradient(160deg,#1e1438,#0f0a1f);border-color:#6d28d9}.hubt-bulgarien .fxt-video span{color:#ddd6fe}
+.gr-thumb-bulgarien em{background:linear-gradient(90deg,#f8fafc,#86efac)}
+@media (max-width:1000px){.hub-welt .fxb-title,.hub-europa .fxb-title,.hub-deutschland .fxb-title,.hub-bulgarien .fxb-title{font-size:40px}}
