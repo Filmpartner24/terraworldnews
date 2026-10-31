@@ -1567,3 +1567,49 @@ a.rl-g:hover{filter:brightness(1.1)}
 .gr-thumb-mode em{background:linear-gradient(90deg,#f9a8d4,#fde68a)}
 .gr-thumb-ki em,.gr-thumb-ai em{background:linear-gradient(90deg,#67e8f9,#a78bfa)}
 .hubt-gesundheit .fxt-gehirn{background:linear-gradient(160deg,#1e1438,#0f0a1f);border-color:#5b21b6}.hubt-gesundheit .fxt-gehirn span{color:#c4b5fd}
+/* Wirtschaft, Energie, Auto, Klima im Hub-Design – Nedy 31.10.2026 */
+.hub-wirtschaft{background:#0d1208}
+.hub-wirtschaft::before{background:linear-gradient(90deg,rgba(13,18,8,.94) 0%,rgba(13,18,8,.8) 36%,rgba(13,18,8,.25) 66%,rgba(13,18,8,.05) 100%),linear-gradient(0deg,rgba(251,191,36,.25),transparent 45%),radial-gradient(110% 90% at 88% 8%,rgba(16,185,129,.3),transparent 55%)}
+.hub-wirtschaft::after{background:linear-gradient(120deg,#fbbf24,#10b981,#fde68a,#34d399,#fbbf24);background-size:300% 100%}
+.hub-wirtschaft .fxb-kick{color:#fcd34d}.hub-wirtschaft .fxb-pulse{background:#fbbf24}
+.hub-wirtschaft .fxb-title{text-shadow:0 0 20px rgba(251,191,36,.45),0 4px 18px rgba(0,0,0,.7)}
+.hub-wirtschaft .fxb-title span{background-image:linear-gradient(90deg,#fde68a,#fbbf24,#10b981)}
+.hub-wirtschaft .fxb-sub{color:#fef3c7}.hub-wirtschaft .fxb-series{background:linear-gradient(90deg,#b45309,#047857);color:#fff}
+.hubt-wirtschaft .fxt{background:linear-gradient(160deg,#1c1a0a,#0e0d05);border-color:#5c4a12}.hubt-wirtschaft .fxt:hover{border-color:#fbbf24}
+.hubt-wirtschaft .fxt span{color:#fde68a}.hubt-wirtschaft .fxt em{color:#fcd34d}
+.hubt-wirtschaft .fxt-video{background:linear-gradient(160deg,#1e1438,#0f0a1f);border-color:#6d28d9}.hubt-wirtschaft .fxt-video span{color:#ddd6fe}
+.gr-thumb-wirtschaft em{background:linear-gradient(90deg,#fde68a,#34d399)}
+.hub-energie{background:#06101a}
+.hub-energie::before{background:linear-gradient(90deg,rgba(6,16,26,.94) 0%,rgba(6,16,26,.8) 36%,rgba(6,16,26,.25) 66%,rgba(6,16,26,.05) 100%),linear-gradient(0deg,rgba(250,204,21,.25),transparent 45%),radial-gradient(110% 90% at 88% 8%,rgba(14,165,233,.3),transparent 55%)}
+.hub-energie::after{background:linear-gradient(120deg,#facc15,#0ea5e9,#fef08a,#7dd3fc,#facc15);background-size:300% 100%}
+.hub-energie .fxb-kick{color:#fde047}.hub-energie .fxb-pulse{background:#facc15}
+.hub-energie .fxb-title{text-shadow:0 0 20px rgba(250,204,21,.45),0 4px 18px rgba(0,0,0,.7)}
+.hub-energie .fxb-title span{background-image:linear-gradient(90deg,#fef08a,#facc15,#0ea5e9)}
+.hub-energie .fxb-sub{color:#e0f2fe}.hub-energie .fxb-series{background:linear-gradient(90deg,#ca8a04,#0284c7);color:#fff}
+.hubt-energie .fxt{background:linear-gradient(160deg,#0b1826,#060e17);border-color:#1e4a6b}.hubt-energie .fxt:hover{border-color:#facc15}
+.hubt-energie .fxt span{color:#bae6fd}.hubt-energie .fxt em{color:#fde047}
+.hubt-energie .fxt-video{background:linear-gradient(160deg,#1e1438,#0f0a1f);border-color:#6d28d9}.hubt-energie .fxt-video span{color:#ddd6fe}
+.gr-thumb-energie em{background:linear-gradient(90deg,#fef08a,#7dd3fc)}
+.hub-auto{background:#120708}
+.hub-auto::before{background:linear-gradient(90deg,rgba(18,7,8,.94) 0%,rgba(18,7,8,.8) 36%,rgba(18,7,8,.25) 66%,rgba(18,7,8,.05) 100%),linear-gradient(0deg,rgba(239,68,68,.25),transparent 45%),radial-gradient(110% 90% at 88% 8%,rgba(148,163,184,.3),transparent 55%)}
+.hub-auto::after{background:linear-gradient(120deg,#ef4444,#e5e7eb,#f87171,#cbd5e1,#ef4444);background-size:300% 100%}
+.hub-auto .fxb-kick{color:#fca5a5}.hub-auto .fxb-pulse{background:#ef4444}
+.hub-auto .fxb-title{text-shadow:0 0 20px rgba(239,68,68,.45),0 4px 18px rgba(0,0,0,.7)}
+.hub-auto .fxb-title span{background-image:linear-gradient(90deg,#f87171,#ef4444,#e5e7eb)}
+.hub-auto .fxb-sub{color:#f1f5f9}.hub-auto .fxb-series{background:linear-gradient(90deg,#b91c1c,#475569);color:#fff}
+.hubt-auto .fxt{background:linear-gradient(160deg,#1d0d0f,#0f0607);border-color:#5b1a1f}.hubt-auto .fxt:hover{border-color:#ef4444}
+.hubt-auto .fxt span{color:#fecaca}.hubt-auto .fxt em{color:#fca5a5}
+.hubt-auto .fxt-video{background:linear-gradient(160deg,#1e1438,#0f0a1f);border-color:#6d28d9}.hubt-auto .fxt-video span{color:#ddd6fe}
+.gr-thumb-auto em{background:linear-gradient(90deg,#f87171,#cbd5e1)}
+.hub-klima{background:#04120f}
+.hub-klima::before{background:linear-gradient(90deg,rgba(4,18,15,.94) 0%,rgba(4,18,15,.8) 36%,rgba(4,18,15,.25) 66%,rgba(4,18,15,.05) 100%),linear-gradient(0deg,rgba(52,211,153,.25),transparent 45%),radial-gradient(110% 90% at 88% 8%,rgba(56,189,248,.3),transparent 55%)}
+.hub-klima::after{background:linear-gradient(120deg,#34d399,#38bdf8,#6ee7b7,#7dd3fc,#34d399);background-size:300% 100%}
+.hub-klima .fxb-kick{color:#5eead4}.hub-klima .fxb-pulse{background:#34d399}
+.hub-klima .fxb-title{text-shadow:0 0 20px rgba(52,211,153,.45),0 4px 18px rgba(0,0,0,.7)}
+.hub-klima .fxb-title span{background-image:linear-gradient(90deg,#6ee7b7,#34d399,#38bdf8)}
+.hub-klima .fxb-sub{color:#d1fae5}.hub-klima .fxb-series{background:linear-gradient(90deg,#059669,#0284c7);color:#fff}
+.hubt-klima .fxt{background:linear-gradient(160deg,#06201a,#03110e);border-color:#14532d}.hubt-klima .fxt:hover{border-color:#34d399}
+.hubt-klima .fxt span{color:#a7f3d0}.hubt-klima .fxt em{color:#5eead4}
+.hubt-klima .fxt-video{background:linear-gradient(160deg,#1e1438,#0f0a1f);border-color:#6d28d9}.hubt-klima .fxt-video span{color:#ddd6fe}
+.gr-thumb-klima em{background:linear-gradient(90deg,#6ee7b7,#7dd3fc)}
+.hubt-energie .fxt-exklusiv{background:linear-gradient(160deg,#2a1505,#160b03);border-color:#9a3412}.hubt-energie .fxt-exklusiv span{color:#fdba74}
