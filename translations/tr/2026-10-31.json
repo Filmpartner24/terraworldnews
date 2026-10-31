@@ -2805,6 +2805,35 @@
     "img.alt": "Bir Milano derbisinde San Siro (Arşiv fotoğrafı)"
    }
   },
+  "mit-m13-phagen-krebsimpfstoff": {
+   "L": {
+    "body": [
+     "Massachusetts Teknoloji Enstitüsü (MIT) Koch Enstitüsü'ndeki araştırmacılar, kişiselleştirilmiş kanser aşıları için bir modüler sistemi daha da geliştirdi. Temelini, insanlar için zararsız olan ve kanser antijenleriyle donatılabilen bir nanolif oluşturan M13 bakteriyofaj virüsü oluşturuyor. Profesör Angela Belcher yönetiminde ve ilk yazarı Shengnan Huang olan çalışma “Advanced Healthcare Materials” dergisinde yayımlandı; MIT çalışmayı 30 Ekim'de tanıttı.",
+     "Ekip, antijenleri virüsün bir kılıf proteinine bağladı ve protein dizisindeki küçük değişikliklerle yoğunluklarını yüzde 6 ile 70 arasında ayarlayabildi. Farelerde en iyi koruma, yüzde 35 antijen yoğunluğuna sahip varyantla sağlandı: Hayvanlarda melanom hücreleriyle temastan sonra belirgin biçimde daha seyrek tümör gelişti ve daha fazla uyumlu T hücresi oluştu. Bir kolon kanseri fare modelinden alınan bir neoantijenle de daha yoğun yüklenmiş aşı, tümör riskini belirgin biçimde düşürdü. Ek bir etki güçlendiriciye gerek duyulmadı, çünkü fajın genetik materyali doğuştan gelen bağışıklık sistemini kendisi etkinleştiriyor.",
+     "Belcher, “Bunun harika yanı modüler olması ve ihtiyaca göre farklı antijenleri değiştirebilirdik” diyor. Şimdiye kadar yalnızca farelerde önleme test edildi; insanlara ilişkin veri bulunmuyor. Çalışma, diğer kurumların yanı sıra ABD'nin araştırma kurumu DARPA (ABD araştırma dairesi) tarafından desteklendi."
+    ],
+    "d": "MIT ekibi, insanlar için zararsız M13 bakteriyofaj virüsünü kanser antijenlerinin taşıyıcısı olarak kullanıyor. Daha yoğun yüklenmiş sürüm (yüzde 6 yerine yüzde 35) fareleri tümörlere karşı daha iyi korudu.",
+    "t": "Zararsız virüsten kanser aşısı: MIT, tümör antijenlerini nanoliflere yoğun dizdi"
+   },
+   "at": "2026-10-31T14:03Z",
+   "h": "f0d253f92ef1",
+   "rev": [
+    "Teaser: the German says \"35 statt 6 Prozent\" (35 instead of 6 percent); the Turkish \"yüzde 6 yerine 35\" is awkward and reads as a reversal, so it was changed to \"yüzde 6 yerine yüzde 35\".",
+    "Body 1: \"Baukasten weiterentwickelt\" was rendered as a system that was \"geliştirilen\" and then \"ilerletti\"; reworded naturally.",
+    "Body 1: \"unter Leitung von ... und Erstautorin Huang\" was rendered as \"katkısıyla\" (with the contribution of), which changes the meaning; corrected to say Huang is the first author.",
+    "Body 1: the Turkish structure made it unclear that the nanofiber is formed by the virus; fixed.",
+    "Body 3: the quote uses \"sagt\" (present tense), so \"dedi\" was changed to \"diyor\"; \"austauschen\" was rendered as \"değiştirebilmemiz\", changed to \"değiştirebilirdik\" to keep the conditional (könnten).",
+    "Body 3: DARPA was called a \"kurum\" (institution) although the German says \"Forschungsbehörde\" (agency); minor wording fix."
+   ],
+   "rev_dbg": [
+    6,
+    6,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Cambridge'deki MIT'de Koch Enstitüsü binası"
+   }
+  },
   "mit-oliver-quantencomputing-video": {
    "L": {
     "body": [
@@ -2824,6 +2853,27 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Chalmers Üniversitesi'nin üç kübitli süper iletken kuantum işlemcisi – MIT'ye ait değil"
+   }
+  },
+  "mpi-selbstheilende-beschichtung-video": {
+   "L": {
+    "body": [
+     "Boyadaki çizikler yalnızca bir güzellik kusuru değil: Hasarlı noktada metal paslanmaya başlayabilir. Düsseldorf'taki Max Planck Sürdürülebilir Malzemeler Enstitüsü bu hafta „Self-Healing Coatings: Can Paint Repair Its Own Scratches?“ başlıklı bir video yayımladı; yani boyanın kendi çiziklerini onarıp onaramayacağı sorusunu ele aldı.",
+     "Enstitünün korozyon grubu, kendiliğinden iyileşen koruyucu katmanlar üzerinde çalışıyor. Enstitünün bilgilerine göre bugünkü aktif korozyon koruyucu boyalar koruyucu maddelerini kontrolsüz biçimde salıyor, örneğin yüksek nemde korozyon olmasa bile; bu da etki süresini kısaltıyor ve çevreyi kirletiyor. Kendiliğinden iyileşen katmanların ise onarıcı maddeleri güvenli biçimde depolaması ve ancak gerçekten korozyon başladığında salması hedefleniyor.",
+     "Bunun için katmana, örneğin galvanik yöntemle biriktirilen çinkoya veya organik boyalara çok küçük kapsüller yerleştiriliyor. Salımı elektrokimyasal olarak, örneğin iletken polimerlerden yapılmış kapsüllerle ya da pH değerindeki bir değişiklikle tetikleniyor. Enstitü bu konuda Mainz'daki Max Planck Polimer Araştırmaları Enstitüsü ile iş birliği yapıyor; hedeflerden biri daha büyük hasarlara da yeterli miktarda etken madde sağlamak."
+    ],
+    "d": "Düsseldorf'taki Max Planck Sürdürülebilir Malzemeler Enstitüsü, yeni videosunda kaplamaların hasarı kendi kendine onarıp onaramayacağını soruyor. Arkasında istek üzerine korozyon koruması araştırması var.",
+    "t": "Çiziklerini kendi onaran boya? Max Planck'tan kendiliğinden iyileşen kaplamalar videosu"
+   },
+   "at": "2026-10-31T14:03Z",
+   "h": "81f3b0f74381",
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Kapak görseli: Çiziklerini kendi onaran boya"
    }
   },
   "oktagon-96-wiegen-vier-fehlgewichte": {
