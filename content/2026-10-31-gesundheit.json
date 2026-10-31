@@ -1,0 +1,275 @@
+{
+ "date": "2026-10-31",
+ "items": [
+  {
+   "id": "nzok-gtin-kontrolle-apotheken-2026-10-31",
+   "s": "leben",
+   "sub": "gesundheit",
+   "kl": {
+    "de": "Gesundheitssystem",
+    "bg": "Здравеопазване",
+    "en": "Health System"
+   },
+   "time": "15:10",
+   "src": [
+    {
+     "n": "Focus (30.10.2026)",
+     "u": "https://focus-news.net/novini/Bylgaria/NZOK-shte-sledi-v-realno-vreme-v-aptekite-lekarstvata-koito-zaplashta-3048406"
+    },
+    {
+     "n": "Mediapool (30.10.2026)",
+     "u": "https://www.mediapool.bg/bulgaria/zaplashtanite-ot-nzok-lekarstva-shte-badat-kontrolirani-v-realno-vreme/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-31/nzok-gtin-kontrolle-apotheken-2026-10-31.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "User:Mattes",
+    "lic": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Hospital_Pharmacy.JPG",
+    "alt": {
+     "de": "Regale mit Medikamentenpackungen in einer Krankenhausapotheke (Symbolbild)",
+     "bg": "Рафтове с опаковки лекарства в болнична аптека (символна снимка)",
+     "en": "Shelves with medicine packs in a hospital pharmacy (symbolic image)"
+    }
+   },
+   "de": {
+    "t": "Bulgarien: Kasse prüft erstattete Medikamente jetzt in Echtzeit an der Apothekentheke",
+    "d": "Nach Kontrollen in 21 Apotheken mit Schäden von über 1 Million Euro gleicht Bulgariens Gesundheits-IT den Code jeder von der Kasse bezahlten Packung sofort ab. Bei Abweichungen wird die Abgabe gestoppt.",
+    "body": [
+     "Bulgariens Nationale Krankenkasse (НЗОК) kontrolliert die Abgabe der von ihr bezahlten Medikamente künftig in Echtzeit. Wie die Nachrichtenagentur Focus und das Portal Mediapool am 30. Oktober berichteten, prüft das Nationale Gesundheitsinformationssystem (НЗИС) dafür den GTIN-Produktcode jeder Packung bereits in dem Moment, in dem sie in der Apotheke über die Theke geht. Bisher wurden Unstimmigkeiten erst nachträglich festgestellt – laut Mediapool erst Monate nach der Zahlung.",
+     "Anlass sind gemeinsame Kontrollen der Kasse mit der Staatsagentur für nationale Sicherheit (ДАНС) und der Wirtschaftspolizei. Bei Prüfungen in 21 Apotheken in 12 Regionen stimmte die nationale Arzneimittelnummer auf dem Rezept nicht mit dem GTIN-Code der tatsächlich abgegebenen Packung überein; die dabei festgestellten, zu Unrecht aus dem Kassenbudget erhaltenen Beträge liegen nach diesen Angaben bei über 1 Million Euro. Namen von Apotheken wurden nicht genannt. Kassenchef Dr. Wladimir Daskalow sagte laut Focus: „Jede mit öffentlichen Mitteln bezahlte Packung wird jetzt in dem Moment geprüft, in dem sie die Apotheke verlässt.“",
+     "Technisch scannt die Apothekensoftware den 2D-Code auf der Packung und schickt den GTIN zusammen mit den übrigen Abgabedaten an das zentrale System. Passt der Code nicht zum verordneten Präparat, meldet das System einen Fehler und lehnt den Vorgang ab – die Abgabe auf Kassenkosten ist dann blockiert. Das Kontrollmodul hat das Unternehmen „Informazionno obslushwane“ entwickelt. Nach dessen Angaben haben die seit Anfang 2026 automatische Meldung eingelöster Rezepte und Online-Prüfungen bei der Verordnung die Fehler bei der Abgabe auf Kassenkosten bereits um mehr als 98 Prozent verringert. Apotheken müssen Software nutzen, die den GTIN korrekt übermittelt."
+    ]
+   },
+   "bg": {
+    "t": "НЗОК проверява реимбурсираните лекарства в реално време на аптечния гише",
+    "d": "След проверки в 21 аптеки с установени суми над 1 млн. евро здравната информационна система сверява кода на всяка платена от НЗОК опаковка веднага. При разминаване отпускането се спира.",
+    "body": [
+     "Националната здравноосигурителна каса (НЗОК) ще контролира в реално време отпускането на лекарствата, които заплаща. Както съобщиха агенция „Фокус“ и порталът Mediapool на 30 октомври, Националната здравноинформационна система (НЗИС) проверява GTIN кода на всяка опаковка още в момента, в който тя се отпуска в аптеката. Досега разминавания се откриваха едва при последващ контрол – според Mediapool месеци след плащането.",
+     "Поводът са съвместни проверки на касата с ДАНС и икономическа полиция. При проверки в 21 аптеки в 12 области националният номер на лекарството в рецептата не е съвпадал с GTIN кода на реално отпуснатата опаковка; установените неправомерно получени от бюджета на касата суми според тези данни надхвърлят 1 милион евро. Имена на аптеки не са съобщени. Управителят на НЗОК д-р Владимир Даскалов заяви пред „Фокус“: „Всяка опаковка, платена с публични средства, вече се проверява в момента, в който излиза от аптеката.“",
+     "Технически аптечният софтуер сканира 2D кода на опаковката и изпраща GTIN заедно с останалите данни за отпускането към централната система. Ако кодът не съответства на предписания продукт, системата връща грешка и отхвърля операцията – отпускането за сметка на касата се блокира. Контролният модул е разработен от „Информационно обслужване“ АД. По данни на дружеството въведеното от началото на 2026 г. автоматично отчитане на изпълнените рецепти и онлайн проверките при предписване вече са намалили грешките при отпускане по линия на НЗОК с над 98 процента. Аптеките трябва да използват софтуер, който подава коректно GTIN кода."
+    ]
+   },
+   "en": {
+    "t": "Bulgaria: health fund now checks reimbursed medicines in real time at the pharmacy counter",
+    "d": "After checks at 21 pharmacies found more than 1 million euros in improper payments, Bulgaria's health IT system now verifies the code of every pack paid for by the fund instantly. Mismatches block dispensing.",
+    "body": [
+     "Bulgaria's National Health Insurance Fund (NHIF/НЗОК) will now check the dispensing of the medicines it pays for in real time. As the Focus news agency and the Mediapool portal reported on 30 October, the National Health Information System (НЗИС) checks the GTIN product code of every pack at the moment it is handed over at the pharmacy. Until now, discrepancies were only found afterwards – according to Mediapool, months after payment.",
+     "The move follows joint inspections by the fund, the State Agency for National Security (DANS) and the economic police. At 21 pharmacies in 12 regions, the national drug number on the prescription did not match the GTIN code of the pack actually dispensed; according to these reports, the amounts improperly received from the fund's budget exceed 1 million euros. No pharmacies were named. NHIF director Dr Vladimir Daskalov told Focus: \"Every pack paid for with public money is now checked the moment it leaves the pharmacy.\"",
+     "Technically, the pharmacy software scans the 2D code on the pack and sends the GTIN to the central system along with the other dispensing data. If the code does not match the prescribed product, the system returns an error and rejects the transaction, blocking dispensing at the fund's expense. The control module was developed by the company Information Services (Информационно обслужване). According to the company, automatic reporting of filled prescriptions, introduced at the start of 2026, together with online checks at the prescribing stage, has already cut dispensing errors under the fund by more than 98 percent. Pharmacies must use software that transmits the GTIN correctly."
+    ]
+   }
+  },
+  {
+   "id": "jugendliche-angst-studie-jama-2026-10-31",
+   "s": "leben",
+   "sub": "gesundheit",
+   "kl": {
+    "de": "Psychische Gesundheit",
+    "bg": "Психично здраве",
+    "en": "Mental Health"
+   },
+   "time": "15:12",
+   "src": [
+    {
+     "n": "ABC News (12.10.2026)",
+     "u": "https://abcnews.com/GMA/Wellness/1-6-teens-report-anxiety-symptoms-parents/story?id=137209658"
+    },
+    {
+     "n": "Medical Dialogues (13.10.2026)",
+     "u": "https://medicaldialogues.in/psychiatry/news/one-in-six-us-adolescents-report-moderate-to-severe-anxiety-symptoms-jama-study-finds-181208"
+    },
+    {
+     "n": "Familienportal des Bundes: Krisentelefone",
+     "u": "https://familienportal.de/familienportal/lebenslagen/krise-und-konflikt/krisetelefone-anlaufstellen/krisentelefone-und-anlaufstellen-in-notlagen-124544"
+    },
+    {
+     "n": "Child Helpline International: Bulgaria 116 111",
+     "u": "https://childhelplineinternational.org/bulgaria-national-telephone-line-for-children-116-111/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-31/jugendliche-angst-studie-jama-2026-10-31.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Daderot",
+    "lic": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Campus_view_-_University_of_Connecticut_-_DSC09948.JPG",
+    "alt": {
+     "de": "Campus der University of Connecticut in Storrs (Archivbild)",
+     "bg": "Кампусът на Университета на Кънектикът в Сторс (архивна снимка)",
+     "en": "University of Connecticut campus in Storrs (archive image)"
+    }
+   },
+   "de": {
+    "t": "US-Studie: Jeder sechste Jugendliche hat mittlere bis starke Angstsymptome",
+    "d": "Eine Auswertung von über 15.000 Befragten zwischen 12 und 20 Jahren in „JAMA Pediatrics“ zeigt: Mädchen sind deutlich häufiger betroffen, und viele mit starken Symptomen bekamen im Vorjahr keine Behandlung.",
+    "body": [
+     "Rund jeder sechste Jugendliche in den USA berichtet über mittlere bis starke Angstsymptome. Das ergibt eine Studie unter Beteiligung der University of Connecticut, die am 12. Oktober in der Fachzeitschrift „JAMA Pediatrics“ erschienen ist. Ausgewertet wurden die Angaben von 15.730 Jugendlichen und jungen Erwachsenen zwischen 12 und 20 Jahren aus der landesweit repräsentativen Befragung National Survey on Drug Use and Health 2024 – dem ersten Jahrgang, in dem diese Umfrage Angstsymptome erfasst hat. Gemessen wurde mit dem Fragebogen GAD-7: 9,6 Prozent hatten mittlere, 7,2 Prozent starke Symptome, weitere 23,7 Prozent leichte.",
+     "Mädchen waren deutlich häufiger betroffen als Jungen – mit mittleren Symptomen 13,4 gegenüber 6,0 Prozent, mit starken 10,8 gegenüber 3,7 Prozent. Bei starker Angst traten oft weitere Belastungen hinzu: Rund zwei Drittel hatten im Vorjahr eine depressive Episode, knapp die Hälfte berichtete von Suizidgedanken, fast ein Drittel hatte im Vormonat Suchtmittel konsumiert. Etwa 41 Prozent der Jugendlichen mit starken und rund 48 Prozent mit mittleren Symptomen erhielten im Jahr zuvor keinerlei psychische Behandlung. Studienautor Greg Rhee nannte laut ABC News als mögliche Hürden Stigma, fehlende Fachkräfte für Kinder und Jugendliche sowie finanzielle und versicherungsbedingte Barrieren.",
+     "Die Grenzen der Studie: Es handelt sich um eine Querschnittsbefragung mit Selbstauskünften – sie zeigt Häufigkeiten und Zusammenhänge, aber keine Ursachen, und ersetzt keine ärztliche Diagnose. Warum Betroffene keine Hilfe suchten, wurde nicht untersucht; Angaben zur Finanzierung nennen die Berichte nicht. Die Zahlen gelten für die USA und lassen sich nicht direkt auf Europa übertragen. Wenn Sie oder Ihr Kind sich in einer Krise befinden: In Deutschland ist die Telefonseelsorge rund um die Uhr unter 0800 111 0 111 und 0800 111 0 222 erreichbar. Kinder und Jugendliche erreichen die Nummer gegen Kummer anonym und kostenlos unter 116 111. In Bulgarien beantworten Psychologen der Nationalen Kinder-Hotline 116 111 Anrufe kostenlos und rund um die Uhr."
+    ]
+   },
+   "bg": {
+    "t": "Проучване в САЩ: всеки шести тийнейджър има умерени до тежки симптоми на тревожност",
+    "d": "Анализ на данни от над 15 000 души на възраст 12–20 години в „JAMA Pediatrics“ показва, че момичетата са засегнати много по-често, а мнозина с тежки симптоми не са получили лечение през предходната година.",
+    "body": [
+     "Около всеки шести младеж в САЩ съобщава за умерени до тежки симптоми на тревожност. Това показва проучване с участието на Университета на Кънектикът, публикувано на 12 октомври в списание „JAMA Pediatrics“. Анализирани са отговорите на 15 730 тийнейджъри и млади хора на възраст от 12 до 20 години от национално представителното изследване National Survey on Drug Use and Health за 2024 г. – първата година, в която то включва въпроси за тревожност. Използван е въпросникът GAD-7: 9,6% са имали умерени, 7,2% – тежки симптоми, а още 23,7% – леки.",
+     "Момичетата са засегнати значително по-често от момчетата – с умерени симптоми 13,4% срещу 6,0%, с тежки 10,8% срещу 3,7%. При тежка тревожност често има и други проблеми: около две трети са имали депресивен епизод през предходната година, близо половината съобщават за мисли за самоубийство, почти една трета са употребили психоактивни вещества през предходния месец. Около 41% от младите с тежки и около 48% от тези с умерени симптоми не са получили никакво лечение за психичното си здраве през предходната година. Авторът на изследването Грег Рий посочва пред ABC News като възможни пречки стигмата, недостига на специалисти за деца и юноши, както и финансови и застрахователни бариери.",
+     "Ограничения на проучването: то е напречно и се основава на самооценка – показва честота и връзки, но не и причини, и не замества лекарска диагноза. Защо засегнатите не са потърсили помощ, не е изследвано; данни за финансирането в публикациите не са посочени. Цифрите се отнасят за САЩ и не могат директно да се пренесат към Европа. Ако вие или детето ви сте в криза: в България Националната телефонна линия за деца 116 111 е безплатна и денонощна, на обажданията отговарят психолози. В Германия Telefonseelsorge е на разположение денонощно на 0800 111 0 111 и 0800 111 0 222. Децата и младежите могат да се обърнат анонимно и безплатно към линията Nummer gegen Kummer на 116 111."
+    ]
+   },
+   "en": {
+    "t": "US study: one in six teenagers has moderate to severe anxiety symptoms",
+    "d": "An analysis of more than 15,000 respondents aged 12 to 20 in JAMA Pediatrics shows girls are affected far more often, and many with severe symptoms received no treatment in the previous year.",
+    "body": [
+     "Around one in six adolescents in the United States reports moderate to severe anxiety symptoms. That is the finding of a study involving the University of Connecticut, published on 12 October in the journal JAMA Pediatrics. They analysed responses from 15,730 adolescents and young adults aged 12 to 20 in the nationally representative 2024 National Survey on Drug Use and Health – the first year the survey asked about anxiety. Using the GAD-7 questionnaire, 9.6 percent had moderate and 7.2 percent severe symptoms, while a further 23.7 percent had mild ones.",
+     "Girls were affected considerably more often than boys – 13.4 versus 6.0 percent for moderate symptoms and 10.8 versus 3.7 percent for severe ones. Severe anxiety often came with other burdens: around two thirds had a major depressive episode in the previous year, almost half reported suicidal thoughts and nearly a third had used substances in the previous month. About 41 percent of those with severe and around 48 percent of those with moderate symptoms received no mental health treatment in the past year. Study author Greg Rhee told ABC News that possible barriers include stigma, a shortage of child mental health professionals, and financial and insurance hurdles.",
+     "The study's limits: it is a cross-sectional survey based on self-reports – it shows frequencies and associations but not causes, and it does not replace a clinical diagnosis. Why young people did not seek help was not examined, and the reports do not mention funding. The figures apply to the US and cannot be transferred directly to Europe. If you or your child are in crisis: in Germany, the Telefonseelsorge helpline is available around the clock on 0800 111 0 111 and 0800 111 0 222. Children and young people can reach the Nummer gegen Kummer line anonymously and free of charge on 116 111. In Bulgaria, psychologists answer the free National Telephone Line for Children, 116 111, 24/7."
+    ]
+   }
+  },
+  {
+   "id": "atemwegsinfekte-rki-grippeimpfung-2026-10-31",
+   "s": "leben",
+   "sub": "gesundheit",
+   "kl": {
+    "de": "Vorsorge & Lebensstil",
+    "bg": "Профилактика и начин на живот",
+    "en": "Prevention & Lifestyle"
+   },
+   "time": "15:14",
+   "src": [
+    {
+     "n": "RKI – GrippeWeb-Wochenbericht KW 43/2026 (Datenstand 27.10.2026)",
+     "u": "https://www.rki.de/DE/Themen/Forschung-und-Forschungsdaten/Sentinels-Surveillance-Panel/GrippeWeb/Aktueller-Wochenbericht/Wochenbericht_aktuell.html"
+    },
+    {
+     "n": "t-online (30.10.2026)",
+     "u": "https://www.t-online.de/gesundheit/aktuelles/id_101504720/droht-eine-besonders-fruehe-grippewelle-rki-aeussert-sich.html"
+    },
+    {
+     "n": "Stiftung Warentest (24.09.2026)",
+     "u": "https://www.test.de/Grippeschutzimpfung-Fuer-wen-sie-sinnvoll-ist-4624021-0/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-31/atemwegsinfekte-rki-grippeimpfung-2026-10-31.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Fridolin freudenfett (Peter Kuley)",
+    "lic": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wedding_Nordufer_Robert_Koch_Institut-2.jpg",
+    "alt": {
+     "de": "Gebäude des Robert Koch-Instituts am Nordufer in Berlin-Wedding (Archivbild)",
+     "bg": "Сградата на института „Роберт Кох“ в Берлин-Вединг (архивна снимка)",
+     "en": "Robert Koch Institute building on Nordufer in Berlin-Wedding (archive image)"
+    }
+   },
+   "de": {
+    "t": "5,2 Millionen Atemwegsinfekte in einer Woche – Grippewelle hat noch nicht begonnen",
+    "d": "Laut Robert Koch-Institut liegt die Zahl akuter Atemwegsinfekte auf einem für die Jahreszeit üblichen Niveau. Grippe- und Corona-Werte sind niedrig. Für Risikogruppen läuft die empfohlene Impfzeit.",
+    "body": [
+     "In Deutschland haben sich in der Woche vom 19. bis 25. Oktober geschätzt rund 5,2 Millionen Menschen neu an einer akuten Atemwegserkrankung erkrankt. Das geht aus dem GrippeWeb-Wochenbericht des Robert Koch-Instituts (RKI) hervor, für den 9.172 Freiwillige ihre Beschwerden meldeten. Die Rate lag bei 6.200 Erkrankungen pro 100.000 Einwohner, nach 6.600 in der Vorwoche. Kinder waren mit 8.700 pro 100.000 stärker betroffen als Erwachsene mit 5.800. Das RKI beschreibt die Werte seit Anfang Oktober als relativ stabil auf moderatem Niveau und im für die Jahreszeit üblichen Bereich; grippeähnliche Erkrankungen gingen leicht zurück.",
+     "Hauptursache sind derzeit Erkältungsviren: In 76 Proben aus Arztpraxen fanden sich laut t-online zu 43 Prozent Rhino- oder Enteroviren und zu 14 Prozent Parainfluenzaviren, Influenza- und Coronaviren (SARS-CoV-2) jeweils nur in 3 Prozent – die Stichprobe ist allerdings klein. Eine Grippewelle hat noch nicht begonnen; die Influenza-Werte im Abwasser sind sehr niedrig, zuletzt aber leicht steigend. Auch die Corona-Werte steigen leicht, liegen laut RKI aber niedrig und deutlich unter dem Vorjahresniveau. In den vergangenen Jahren begann die Grippewelle laut t-online meist Ende November oder im Dezember, 2022 bereits Ende Oktober.",
+     "Für die Grippeimpfung gilt laut RKI, wie Stiftung Warentest berichtet, der Zeitraum von Oktober bis Mitte Dezember als beste Zeit; bis der Schutz vollständig aufgebaut ist, dauert es etwa 10 bis 14 Tage. Die Ständige Impfkommission (STIKO) empfiehlt sie unter anderem Menschen ab 60 Jahren, Schwangeren (in der Regel ab dem zweiten Schwangerschaftsdrittel), Kindern und Erwachsenen mit bestimmten chronischen Erkrankungen, Bewohnern und Beschäftigten von Pflegeheimen sowie medizinischem Personal, wie Stiftung Warentest zusammenfasst. Ob eine Impfung im Einzelfall sinnvoll ist, klärt man am besten in der Hausarztpraxis."
+    ]
+   },
+   "bg": {
+    "t": "5,2 млн. респираторни инфекции за седмица в Германия – грипната вълна още не е започнала",
+    "d": "Според института „Роберт Кох“ броят на острите респираторни инфекции е на обичайното за сезона ниво. Стойностите за грип и COVID-19 са ниски. За рисковите групи тече препоръчителният период за ваксинация.",
+    "body": [
+     "В Германия през седмицата от 19 до 25 октомври по оценка около 5,2 милиона души са се разболели наново от остра респираторна инфекция. Това сочи седмичният доклад GrippeWeb на института „Роберт Кох“ (RKI), за който 9172 доброволци са съобщили за оплакванията си. Честотата е 6200 заболявания на 100 000 жители при 6600 седмица по-рано. Децата са засегнати повече – 8700 на 100 000, при 5800 при възрастните. RKI определя стойностите от началото на октомври като относително стабилни на умерено ниво и в обичайните за сезона граници; грипоподобните заболявания леко намаляват.",
+     "Основната причина в момента са вирусите на настинката: в 76 проби от лекарски практики според t-online в 43% са открити рино- или ентеровируси и в 14% – параинфлуенца вируси, а грипни вируси и коронавирус (SARS-CoV-2) – само в по 3%, като извадката е малка. Грипна вълна още не е започнала; стойностите на грипа в отпадъчните води са много ниски, но напоследък леко се покачват. Стойностите за COVID-19 също леко растат, но според RKI остават ниски и значително под нивото от миналата година. През последните години грипната вълна според t-online обикновено е започвала в края на ноември или през декември, а през 2022 г. – още в края на октомври.",
+     "Според RKI, цитиран от Stiftung Warentest, най-подходящото време за ваксинация срещу грип е от октомври до средата на декември; пълната защита се изгражда за около 10 до 14 дни. Германската постоянна комисия по ваксинациите (STIKO) я препоръчва, наред с други, на хора над 60 години, на бременни (обикновено от втория триместър), на деца и възрастни с определени хронични заболявания, на живеещите и работещите в домове за възрастни хора, както и на медицинския персонал, обобщава Stiftung Warentest. Дали ваксинацията е подходяща в конкретния случай, е най-добре да се обсъди с личния лекар."
+    ]
+   },
+   "en": {
+    "t": "5.2 million respiratory infections in a week – Germany's flu wave has not started yet",
+    "d": "According to the Robert Koch Institute, acute respiratory infections are at a level typical for the season. Flu and Covid levels are low. For risk groups, the recommended vaccination period is now under way.",
+    "body": [
+     "In Germany, an estimated 5.2 million people newly caught an acute respiratory illness in the week from 19 to 25 October. That is the finding of the Robert Koch Institute's (RKI) GrippeWeb weekly report, for which 9,172 volunteers reported their symptoms. The rate was 6,200 cases per 100,000 inhabitants, down from 6,600 the week before. Children were more affected, at 8,700 per 100,000, than adults at 5,800. The RKI describes the figures since early October as relatively stable at a moderate level and within the usual range for the season; flu-like illnesses declined slightly.",
+     "Common-cold viruses are currently the main cause: in 76 samples from doctors' practices, t-online reports, 43 percent contained rhino- or enteroviruses and 14 percent parainfluenza viruses, while influenza and coronavirus (SARS-CoV-2) were each found in only 3 percent – though the sample is small. A flu wave has not yet begun; influenza levels in wastewater are very low but have recently been rising slightly. Covid levels are also rising slightly but, according to the RKI, remain low and well below last year's level. In recent years, t-online notes, the flu wave usually began in late November or December, and in 2022 as early as late October.",
+     "According to the RKI, as cited by Stiftung Warentest, the best time for a flu jab is October to mid-December; full protection takes about 10 to 14 days to build up. Germany's Standing Committee on Vaccination (STIKO) recommends it for, among others, people aged 60 and over, pregnant women (usually from the second trimester), children and adults with certain chronic conditions, residents and staff of care homes, and medical staff, as Stiftung Warentest summarises. Whether vaccination makes sense in an individual case is best discussed with a GP."
+    ]
+   }
+  },
+  {
+   "id": "prostatakrebs-frueherkennung-video-2026-10-31",
+   "s": "leben",
+   "sub": "gesundheit",
+   "kl": {
+    "de": "Vorsorge & Lebensstil",
+    "bg": "Профилактика и начин на живот",
+    "en": "Prevention & Lifestyle"
+   },
+   "time": "15:16",
+   "src": [
+    {
+     "n": "Mayo Clinic News Network (07.10.2026)",
+     "u": "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-minute-early-screening-and-treatment-advances-improve-prostate-cancer-outcomes/"
+    },
+    {
+     "n": "Verbraucherzentrale: PSA-Test zur Prostatakrebs-Früherkennung (Stand 27.05.2025)",
+     "u": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/aerztinnen-und-kliniken/psatest-zur-prostatakrebsfrueherkennung-33867"
+    },
+    {
+     "n": "Gemeinsamer Bundesausschuss (16.10.2025)",
+     "u": "https://www.g-ba.de/presse/pressemitteilungen-meldungen/1290/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-10-31/prostatakrebs-frueherkennung-video-2026-10-31.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Tony Webster from Minneapolis, Minnesota",
+    "lic": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gonda_and_Charlton_Building_Skyways_-_Mayo_Clinic,_Rochester,_Minnesota_(38792363545).jpg",
+    "alt": {
+     "de": "Gonda- und Charlton-Gebäude der Mayo Clinic in Rochester, Minnesota (Archivbild)",
+     "bg": "Сградите „Гонда“ и „Чарлтън“ на клиника „Мейо“ в Рочестър, Минесота (архивна снимка)",
+     "en": "Gonda and Charlton buildings of the Mayo Clinic in Rochester, Minnesota (archive image)"
+    }
+   },
+   "yt": {
+    "id": "dYWRfx4zNg4",
+    "ch": "Mayo Clinic",
+    "kind": "video",
+    "t": {
+     "de": "Mayo Clinic Minute: Früherkennung und Fortschritte bei der Behandlung von Prostatakrebs",
+     "bg": "Mayo Clinic Minute: ранна диагностика и напредък в лечението на рака на простатата",
+     "en": "Mayo Clinic Minute: Early screening and treatment advances improve prostate cancer outcomes"
+    }
+   },
+   "de": {
+    "t": "Video: Prostatakrebs früh erkennen – was der PSA-Test kann und wo seine Grenzen liegen",
+    "d": "Ein Strahlenmediziner der Mayo Clinic erklärt in einer Minute Früherkennung und Therapie. In Deutschland zahlen die Kassen den PSA-Test zur Früherkennung bisher nicht – ein neues Screening wird geprüft.",
+    "body": [
+     "Prostatakrebs gehört zu den häufigsten Krebserkrankungen bei Männern. In einem kurzen Erklärvideo der US-Klinik Mayo Clinic vom 7. Oktober beschreibt der Strahlenmediziner Dr. Albert Attia, wie die Früherkennung abläuft: Am Anfang kann ein Bluttest auf das prostataspezifische Antigen (PSA) stehen, ein Eiweiß, das die Prostata bildet. Ein erhöhter Wert kann bedeuten, dass weitere Untersuchungen nötig sind. „Screening is important because the earlier you catch prostate cancer, the higher the likelihood of cure“, sagt Attia („Früherkennung ist wichtig, denn je früher man Prostatakrebs entdeckt, desto höher ist die Chance auf Heilung“). Als Behandlung kommen je nach Befund Operation, Hormontherapie, Bestrahlung oder eine Kombination infrage.",
+     "Attia nennt für die USA eine Empfehlung zur Früherkennung ab 50 Jahren; manche Daten sprächen für einen Beginn mit 45, vor allem bei familiärer Vorbelastung. In Deutschland bezahlen die gesetzlichen Kassen Männern ab 45 einmal im Jahr eine Tastuntersuchung. Der PSA-Test zur Früherkennung ist dagegen eine Selbstzahlerleistung (IGeL); bezahlt wird er nur bei Krebsverdacht, familiärer Vorbelastung oder in der Krebsbehandlung. Die überarbeitete ärztliche S3-Leitlinie (Vorversion vom März 2025) hält laut Verbraucherzentrale die Tastuntersuchung nicht mehr für eine geeignete Früherkennungsmethode und sieht stattdessen für Männer ab 45 mit einer Lebenserwartung von mindestens zehn Jahren einen PSA-Test nach ausführlicher Beratung vor, bei auffälligem Wert zunächst eine MRT vor einer Gewebeprobe. Hausärzte (DEGAM) sehen den Test kritischer.",
+     "Nutzen und Risiken liegen nah beieinander: Laut Verbraucherzentrale bewahrt der PSA-Test nach Studien 1 bis 2 von 1.000 getesteten Männern vor dem Tod durch Prostatakrebs, etwa 30 erhalten dagegen eine Überdiagnose und womöglich eine unnötige Behandlung. Der Gemeinsame Bundesausschuss (G-BA) prüft seit Oktober 2025 ein gestuftes, risikoangepasstes Screening mit PSA-Test und MRT; ein Ergebnis wird spätestens im Oktober 2027 erwartet. In Deutschland erkranken laut Verbraucherzentrale jährlich rund 60.000 Männer neu. Ob und wann ein Test sinnvoll ist, sollte man mit der Hausarzt- oder Urologiepraxis besprechen."
+    ]
+   },
+   "bg": {
+    "t": "Видео: ранно откриване на рак на простатата – какво може PSA тестът и докъде стига",
+    "d": "Лекар по лъчелечение от клиника „Мейо“ обяснява за една минута ранната диагностика и лечението. В Германия касите засега не плащат PSA теста за скрининг – проверява се нова програма.",
+    "body": [
+     "Ракът на простатата е сред най-честите онкологични заболявания при мъжете. В кратко обяснително видео на американската клиника „Мейо“ от 7 октомври лекарят по лъчелечение д-р Албърт Атия описва как протича ранната диагностика: тя може да започне с кръвен тест за простатноспецифичен антиген (PSA) – белтък, който се произвежда от простатата. Повишената стойност може да означава, че са нужни допълнителни изследвания. „Скринингът е важен, защото колкото по-рано се открие ракът на простатата, толкова по-голяма е вероятността за излекуване“, казва Атия. Според находката за лечение се използват операция, хормонална терапия, лъчетерапия или комбинация от тях.",
+     "Атия посочва за САЩ препоръка за скрининг от 50-годишна възраст; според някои данни е по-добре той да започне на 45, особено при фамилна обремененост. В Германия задължителните здравни каси плащат на мъжете над 45 години веднъж годишно преглед чрез палпация. PSA тестът за ранно откриване обаче се заплаща от пациента; касата го поема само при съмнение за рак, фамилна обремененост или по време на лечение. Преработеното медицинско ръководство S3 (предварителна версия от март 2025 г.) според Verbraucherzentrale вече не смята палпацията за подходящ метод за ранно откриване и предвижда вместо това PSA тест за мъже над 45 години с очаквана продължителност на живота поне десет години след подробна консултация и при отклонение първо ЯМР преди биопсия. Общопрактикуващите лекари (DEGAM) гледат на теста по-критично.",
+     "Ползите и рисковете са близки: според Verbraucherzentrale по данни от проучвания PSA тестът предпазва 1 до 2 от 1000 изследвани мъже от смърт от рак на простатата, а около 30 получават свръхдиагноза и евентуално ненужно лечение. От октомври 2025 г. германският Федерален съвместен комитет (G-BA) проучва поетапен скрининг, съобразен с риска, с PSA тест и ЯМР; резултат се очаква най-късно през октомври 2027 г. В Германия според Verbraucherzentrale годишно се разболяват около 60 000 мъже. Дали и кога изследването е подходящо, е добре да се обсъди с личния лекар или уролог."
+    ]
+   },
+   "en": {
+    "t": "Video: detecting prostate cancer early – what the PSA test can do and where its limits lie",
+    "d": "A Mayo Clinic radiation oncologist explains screening and treatment in one minute. In Germany, statutory insurers do not yet pay for PSA screening – a new programme is under review.",
+    "body": [
+     "Prostate cancer is one of the most common cancers in men. In a short explainer video from the US Mayo Clinic dated 7 October, radiation oncologist Dr Albert Attia describes how screening works: it can start with a blood test for prostate-specific antigen (PSA), a protein made by the prostate. An elevated level may mean further evaluation is needed. \"Screening is important because the earlier you catch prostate cancer, the higher the likelihood of cure,\" Attia says. Depending on the findings, treatment options include surgery, hormone therapy, radiation or a combination.",
+     "Attia cites a US recommendation to start screening at 50, adding that some data favour starting at 45, especially with a family history. In Germany, statutory health insurers pay for an annual digital rectal examination for men aged 45 and over. PSA screening, however, is a self-pay service; insurers cover it only if cancer is suspected, there is a family history or during cancer treatment. According to the consumer organisation Verbraucherzentrale, the revised S3 medical guideline (preliminary version of March 2025) no longer considers the rectal examination a suitable screening method and instead provides for a PSA test for men from 45 with a life expectancy of at least ten years after detailed counselling, followed by an MRI before any biopsy if the result is abnormal. Family doctors' association DEGAM takes a more critical view of the test.",
+     "Benefits and risks are finely balanced: according to Verbraucherzentrale, studies show the PSA test saves 1 to 2 of every 1,000 men tested from dying of prostate cancer, while about 30 receive an overdiagnosis and possibly unnecessary treatment. Since October 2025, Germany's Federal Joint Committee (G-BA) has been reviewing a stepped, risk-adapted screening programme using PSA tests and MRI; a result is expected by October 2027 at the latest. Around 60,000 men in Germany are diagnosed each year, according to Verbraucherzentrale. Whether and when testing makes sense is best discussed with a GP or urologist."
+    ]
+   }
+  }
+ ]
+}
