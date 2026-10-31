@@ -1613,3 +1613,48 @@ a.rl-g:hover{filter:brightness(1.1)}
 .hubt-klima .fxt-video{background:linear-gradient(160deg,#1e1438,#0f0a1f);border-color:#6d28d9}.hubt-klima .fxt-video span{color:#ddd6fe}
 .gr-thumb-klima em{background:linear-gradient(90deg,#6ee7b7,#7dd3fc)}
 .hubt-energie .fxt-exklusiv{background:linear-gradient(160deg,#2a1505,#160b03);border-color:#9a3412}.hubt-energie .fxt-exklusiv span{color:#fdba74}
+/* Business & Investment Hub – Nedy 31.10.2026 (Navy/Gold/Cyan) */
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.hub-business{background:#050b1a;margin-top:14px}
+.hub-business::before{background:linear-gradient(90deg,rgba(5,11,26,.95) 0%,rgba(5,11,26,.82) 38%,rgba(5,11,26,.25) 68%,rgba(5,11,26,.05) 100%),linear-gradient(0deg,rgba(34,211,238,.22),transparent 45%),radial-gradient(110% 90% at 88% 8%,rgba(234,179,8,.3),transparent 55%)}
+.hub-business::after{background:linear-gradient(120deg,#eab308,#22d3ee,#e11d48,#fde68a,#eab308);background-size:300% 100%}
+.hub-business .fxb-kick{color:#67e8f9}.hub-business .fxb-pulse{background:#e11d48}
+.hub-business .fxb-title{font-size:60px;text-shadow:0 0 20px rgba(34,211,238,.35),0 4px 18px rgba(0,0,0,.7)}
+.hub-business .fxb-title span{background-image:linear-gradient(90deg,#67e8f9,#22d3ee,#fde68a)}
+.hub-business .fxb-sub{color:#e0f2fe}.hub-business .fxb-series{background:linear-gradient(90deg,#e11d48,#b45309);color:#fff}
+.hubt-business{grid-template-columns:repeat(4,minmax(0,1fr))}
+.hubt-business .fxt{background:linear-gradient(160deg,#0b1a33,#060f22);border-color:#1e3a5f}.hubt-business .fxt:hover{border-color:#22d3ee}
+.hubt-business .fxt span{color:#bae6fd}.hubt-business .fxt em{color:#fde68a}
+.hubt-business .fxt-ipo,.hubt-business .fxt-zukunft{background:linear-gradient(160deg,#2b2405,#141003);border-color:#a16207}.hubt-business .fxt-ipo span,.hubt-business .fxt-zukunft span{color:#fde68a}
+.hubt-business .fxt-video{background:linear-gradient(160deg,#1e1438,#0f0a1f);border-color:#6d28d9}.hubt-business .fxt-video span{color:#ddd6fe}
+.bzh-row{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:12px;margin:0 0 22px}
+.bzh-box{background:linear-gradient(165deg,#0b1730,#060d1d);border:1px solid #1e3a5f;border-radius:12px;padding:14px 16px;color:#e5edf7;min-width:0}
+.bzh-box h2{margin:0 0 4px;font-family:var(--label);font-size:17px;letter-spacing:.04em;text-transform:uppercase;color:#fff}
+.bzh-asof{margin:0 0 8px;font-size:12px;color:#7dd3fc}
+.bzh-note{margin:8px 0 0;font-size:11.5px;color:#94a3b8;line-height:1.4}
+.bzh-more{display:inline-block;margin-top:8px;font-family:var(--label);font-size:13px;color:#fde68a;text-decoration:none}
+.bzh-top{display:grid;grid-template-columns:1fr 1.05fr;gap:14px;padding:0;overflow:hidden}
+.bzh-tim{position:relative;display:block;min-height:230px;background:#0a1222 center/cover no-repeat}
+.bzh-badge{position:absolute;top:12px;left:12px;background:#e11d48;color:#fff;font-family:var(--label);font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase;padding:5px 11px;border-radius:5px}
+.bzh-tt{padding:14px 14px 14px 0}.bzh-tt a{color:#fff;text-decoration:none}.bzh-tt h3{margin:0 0 8px;font-family:var(--head);font-size:23px;line-height:1.1}
+.bzh-tt p{margin:0 0 6px;font-size:14px;line-height:1.45;color:#cbd5e1}.bzh-meta{font-size:12px!important;color:#7dd3fc!important}
+.bzh-t{width:100%;border-collapse:collapse;font-size:14px}.bzh-t th{text-align:left;font-weight:600;color:#fff;padding:5px 0}.bzh-t td{padding:5px 0 5px 8px;color:#e2e8f0}.bzh-t .n{text-align:right;white-space:nowrap}
+.bzh-t tr+tr{border-top:1px solid #15294a}
+.bzh-ipo ul{list-style:none;margin:6px 0 0;padding:0}.bzh-ipo li{padding:7px 0;border-top:1px solid #15294a}.bzh-ipo li:first-child{border-top:0}
+.bzh-ipo-h{display:flex;justify-content:space-between;gap:8px;align-items:baseline}.bzh-ipo-h b{color:#fff;font-size:14.5px}
+.bzh-ipo-d{flex:none;font-family:var(--label);font-size:12px;background:#1e3a5f;color:#e0f2fe;padding:2px 7px;border-radius:4px}
+.bzh-ipo-m{display:block;font-size:12px;color:#94a3b8;margin-top:2px}.bzh-ipo-m i{font-style:normal;color:#fde68a}.bzh-ipo-m .st-bestätigt{color:#4ade80}
+.bzh-ipo-n{display:block;font-size:12.5px;color:#cbd5e1;margin-top:3px;line-height:1.35}.bzh-ipo-s{font-size:11.5px;color:#7dd3fc}
+.bzh-radar{background:linear-gradient(165deg,#0b1730,#060d1d);border:1px solid #1e3a5f;border-radius:12px;padding:14px 16px 16px;margin:0 0 24px}
+.bzh-rh{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 16px;margin-bottom:10px}.bzh-rh h2{margin:0;font-family:var(--label);font-size:19px;text-transform:uppercase;color:#fff}.bzh-rh p{margin:0;font-size:13px;color:#94a3b8}
+.bzh-rg{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.bzh-rc{display:flex;flex-direction:column;border:1px solid #1e3a5f;border-radius:10px;overflow:hidden;background:#081226;color:#fff;text-decoration:none;transition:transform .15s,border-color .15s}
+.bzh-rc:hover{transform:translateY(-3px);border-color:#fde68a}
+.bzh-rim{display:block;height:120px;background:#0f1d3a center/cover no-repeat}
+.bzh-rc b{padding:10px 12px 2px;font-family:var(--label);font-size:14.5px;text-transform:uppercase;letter-spacing:.03em}.bzh-rc>span:last-child{padding:0 12px 12px;font-size:12.5px;color:#bae6fd;line-height:1.35}
+@media (max-width:1100px){.bzh-row{grid-template-columns:1fr 1fr}.bzh-top{grid-column:1/-1}.hubt-business{grid-template-columns:repeat(2,minmax(0,1fr))}.bzh-rg{grid-template-columns:repeat(2,minmax(0,1fr))}.hub-business .fxb-title{font-size:44px}}
+@media (max-width:640px){.bzh-row{grid-template-columns:1fr}.bzh-top{grid-template-columns:1fr}.bzh-tt{padding:0 14px 14px}.hub-business .fxb-title{font-size:34px}}
+.bzh-row{align-items:start}
+.bzh-top{display:flex;flex-direction:column;gap:0}
+.bzh-tim{min-height:0;aspect-ratio:16/9}
+.bzh-tt{padding:14px 16px 16px}

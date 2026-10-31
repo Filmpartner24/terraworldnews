@@ -1254,6 +1254,102 @@ def kw_block(l, kind, its):
         else: xs = [x for x in its if x.get('hk') == key or key in (x.get('hks') or []) or any(w in txt(x) for w in m)]
         tiles += _tile(l, key, ic, LX(nm)[l], ds, xs)
     return hub_block(l, kind, tiles)
+HUBU['business'] = {'bg': dict(kick='TWN · Бизнес', title='БИЗНЕС <span>И ИНВЕСТИЦИИ</span>', sub='Пазари · Компании · Бизнес модели · Капитал · Бъдеще', series='Пазарите накратко'),
+ 'de': dict(kick='TWN · Business', title='BUSINESS <span>& INVESTMENT</span>', sub='Märkte · Unternehmen · Geschäftsmodelle · Kapital · Zukunft', series='Märkte auf einen Blick'),
+ 'en': dict(kick='TWN · Business', title='BUSINESS <span>& INVESTMENT</span>', sub='Markets · Companies · Business models · Capital · Future', series='Markets at a glance'),
+ 'es': dict(kick='TWN · Negocios', title='NEGOCIOS <span>E INVERSIÓN</span>', sub='Mercados · Empresas · Modelos de negocio · Capital · Futuro', series='Mercados de un vistazo'),
+ 'tr': dict(kick='TWN · İş dünyası', title='İŞ DÜNYASI <span>& YATIRIM</span>', sub='Piyasalar · Şirketler · İş modelleri · Sermaye · Gelecek', series='Bir bakışta piyasalar')}
+BZH = {'bg': dict(mka='Цени при затваряне на последната търговска сесия · издание от', top='Водеща тема', mk='Пазарите накратко', mkn='Цени при затваряне – не в реално време. Курсове на живо: бутонът в лентата горе.', ipo='Календар на IPO', ipon='Само обявени листвания с източник. Не е инвестиционен съвет.', ipo0='В момента няма потвърдени дати.', radar='Радар: пазари на бъдещето', radarn='Браншове с голям потенциал – обяснени журналистически, с възможности и рискове.', more='Към статията →', st={'bestätigt': 'потвърдено', 'erwartet': 'очаквано', 'erfolgt': 'проведено'}, all='Всички пазарни данни ↓'),
+ 'de': dict(mka='Schlusskurse des letzten Handelstags · Ausgabe vom', top='Top-Story', mk='Märkte auf einen Blick', mkn='Schlusskurse, keine Echtzeitkurse. Live-Kurse: Knopf im Laufband oben.', ipo='IPO-Kalender', ipon='Nur angekündigte Börsengänge mit Quelle. Keine Anlageberatung.', ipo0='Derzeit keine bestätigten Termine.', radar='Zukunftsmärkte-Radar', radarn='Branchen mit großem Potenzial – journalistisch erklärt, mit Chancen und Risiken.', more='Zum Artikel →', st={'bestätigt': 'bestätigt', 'erwartet': 'erwartet', 'erfolgt': 'erfolgt'}, all='Alle Marktdaten ↓'),
+ 'en': dict(mka='Closing prices of the last trading day · edition of', top='Top story', mk='Markets at a glance', mkn='Closing prices, not real-time. Live prices: button in the ticker above.', ipo='IPO calendar', ipon='Announced listings with sources only. Not investment advice.', ipo0='No confirmed dates at the moment.', radar='Future markets radar', radarn='Sectors with big potential – explained journalistically, with opportunities and risks.', more='Read more →', st={'bestätigt': 'confirmed', 'erwartet': 'expected', 'erfolgt': 'listed'}, all='All market data ↓'),
+ 'es': dict(mka='Cierres de la última sesión · edición del', top='Tema principal', mk='Mercados de un vistazo', mkn='Precios de cierre, no en tiempo real. Cotizaciones en vivo: botón en la cinta superior.', ipo='Calendario de OPV', ipon='Solo salidas a bolsa anunciadas, con fuente. No es asesoramiento.', ipo0='No hay fechas confirmadas por ahora.', radar='Radar de mercados del futuro', radarn='Sectores con gran potencial, explicados con oportunidades y riesgos.', more='Leer más →', st={'bestätigt': 'confirmada', 'erwartet': 'prevista', 'erfolgt': 'realizada'}, all='Todos los datos ↓'),
+ 'tr': dict(mka='Son işlem günü kapanışları · baskı:', top='Manşet', mk='Bir bakışta piyasalar', mkn='Kapanış fiyatları, gerçek zamanlı değil. Canlı fiyatlar: üstteki banttaki düğme.', ipo='Halka arz takvimi', ipon='Yalnızca duyurulmuş halka arzlar, kaynaklı. Yatırım tavsiyesi değildir.', ipo0='Şu anda onaylı tarih yok.', radar='Geleceğin piyasaları radarı', radarn='Büyük potansiyelli sektörler: fırsatlar ve risklerle birlikte.', more='Devamı →', st={'bestätigt': 'onaylandı', 'erwartet': 'bekleniyor', 'erfolgt': 'gerçekleşti'}, all='Tüm piyasa verileri ↓')}
+BZTILES = [   # (Schlüssel, Icon, Name, Beschreibung, Stichwörter oder Sonderfall)
+ ('maerkte', '📈', {'bg': 'Борси и пазари', 'de': 'Börse & Märkte', 'en': 'Stocks & markets', 'es': 'Bolsa y mercados', 'tr': 'Borsa ve piyasalar'}, {'bg': 'Акции, индекси, ETF, суровини', 'de': 'Aktien, Indizes, ETFs, Rohstoffe', 'en': 'Stocks, indices, ETFs, commodities', 'es': 'Acciones, índices, ETF, materias primas', 'tr': 'Hisseler, endeksler, ETF, emtia'}, 'markets'),
+ ('ipo', '🔔', {'bg': 'Първични публични предлагания (IPO)', 'de': 'Börsengänge (IPOs)', 'en': 'IPOs', 'es': 'Salidas a bolsa (OPV)', 'tr': 'Halka arzlar'}, {'bg': 'Нови листвания, емисии, календар', 'de': 'Neue Listings, Emissionen, Kalender', 'en': 'New listings, offerings, calendar', 'es': 'Nuevas cotizaciones, emisiones, calendario', 'tr': 'Yeni kotasyonlar, ihraçlar, takvim'}, 'ipo'),
+ ('startups', '🚀', {'bg': 'Стартъпи и основатели', 'de': 'Start-ups & Gründer', 'en': 'Start-ups & founders', 'es': 'Start-ups y fundadores', 'tr': 'Girişimler ve kurucular'}, {'bg': 'Нови компании, идеи, финансиране', 'de': 'Neue Firmen, Ideen, Finanzierung', 'en': 'New companies, ideas, funding', 'es': 'Nuevas empresas, ideas, financiación', 'tr': 'Yeni şirketler, fikirler, finansman'}, ['start-up', 'startup', 'gründer', 'finanzierungsrunde', 'risikokapital', 'venture capital', 'unicorn', 'wagniskapital']),
+ ('modelle', '💡', {'bg': 'Бизнес модели на бъдещето', 'de': 'Geschäftsmodelle der Zukunft', 'en': 'Business models of the future', 'es': 'Modelos de negocio del futuro', 'tr': 'Geleceğin iş modelleri'}, {'bg': 'Дигитални стратегии, нови пазари', 'de': 'Digitale Strategien, neue Märkte', 'en': 'Digital strategies, new markets', 'es': 'Estrategias digitales, nuevos mercados', 'tr': 'Dijital stratejiler, yeni pazarlar'}, ['geschäftsmodell', 'abo-modell', 'plattformökonomie', 'business model', 'subscription']),
+ ('zukunft', '🛰', {'bg': 'Браншове на бъдещето', 'de': 'Zukunftsbranchen', 'en': 'Future industries', 'es': 'Sectores del futuro', 'tr': 'Geleceğin sektörleri'}, {'bg': 'ИИ, роботика, биотех, космос', 'de': 'KI, Robotik, Biotech, Raumfahrt', 'en': 'AI, robotics, biotech, space', 'es': 'IA, robótica, biotecnología, espacio', 'tr': 'Yapay zekâ, robotik, biyoteknoloji, uzay'}, 'radar'),
+ ('deals', '🤝', {'bg': 'Компании и сделки', 'de': 'Unternehmen & Deals', 'en': 'Companies & deals', 'es': 'Empresas y operaciones', 'tr': 'Şirketler ve anlaşmalar'}, {'bg': 'Сливания, придобивания, разширяване', 'de': 'Fusionen, Übernahmen, Expansion', 'en': 'Mergers, takeovers, expansion', 'es': 'Fusiones, adquisiciones, expansión', 'tr': 'Birleşmeler, satın almalar, büyüme'}, ['übernahme', 'übernimmt', 'fusion', 'milliardendeal', 'kauft ', 'zukauf', 'merger', 'acquisition', 'takeover']),
+ ('regionen', '🗺', {'bg': 'Инвестиции по региони', 'de': 'Investitionen in Regionen', 'en': 'Regional investment', 'es': 'Inversión por regiones', 'tr': 'Bölgesel yatırımlar'}, {'bg': 'Проекти в България и Германия', 'de': 'Projekte in Bulgarien und Deutschland', 'en': 'Projects in Bulgaria and Germany', 'es': 'Proyectos en Bulgaria y Alemania', 'tr': 'Bulgaristan ve Almanya’da projeler'}, 'invest'),
+ ('video', '▶', {'bg': 'Бизнес във видео', 'de': 'Business im Video', 'en': 'Business on video', 'es': 'Negocios en vídeo', 'tr': 'Videoda iş dünyası'}, {'bg': 'Обяснения от борси и институции', 'de': 'Erklärt von Börsen und Institutionen', 'en': 'Explained by exchanges and institutions', 'es': 'Explicado por bolsas e instituciones', 'tr': 'Borsalar ve kurumlardan açıklamalar'}, 'video'),
+]
+BZRADAR = [   # Zukunftsmärkte-Radar: Branche, Stichwörter, Kurztext
+ ('speicher', ['stromspeicher', 'batteriespeicher', 'speicher', 'wasserstoff', 'netzausbau'], {'bg': 'Енергия и съхранение', 'de': 'Energie & Speicher', 'en': 'Energy & storage', 'es': 'Energía y almacenamiento', 'tr': 'Enerji ve depolama'}, {'bg': 'Растеж чрез батерии, мрежи и зелена инфраструктура', 'de': 'Wachstum durch Stromspeicher, Netze und grüne Infrastruktur', 'en': 'Growth through batteries, grids and green infrastructure', 'es': 'Crecimiento con baterías, redes e infraestructura verde', 'tr': 'Bataryalar, şebekeler ve yeşil altyapı ile büyüme'}),
+ ('rechenzentren', ['rechenzentr', 'data center', 'datacenter', 'ki-chip', 'nvidia', 'gigafactory', 'supercomputer'], {'bg': 'ИИ и центрове за данни', 'de': 'KI & Rechenzentren', 'en': 'AI & data centres', 'es': 'IA y centros de datos', 'tr': 'Yapay zekâ ve veri merkezleri'}, {'bg': 'Милиардни инвестиции в изчислителна мощ', 'de': 'Milliardeninvestitionen in Rechenleistung', 'en': 'Billions invested in computing power', 'es': 'Miles de millones en capacidad de cálculo', 'tr': 'İşlem gücüne milyarlarca yatırım'}),
+ ('biotech', ['biotech', 'medizintechnik', 'pharma', 'arzneimittel', 'therapie', 'wirkstoff'], {'bg': 'Биотехнологии', 'de': 'Biotech & Medizin', 'en': 'Biotech & medicine', 'es': 'Biotecnología y medicina', 'tr': 'Biyoteknoloji ve tıp'}, {'bg': 'Нови терапии, силни пазари на растеж', 'de': 'Neue Therapien, starke Wachstumsmärkte', 'en': 'New therapies, strong growth markets', 'es': 'Nuevas terapias, mercados en crecimiento', 'tr': 'Yeni tedaviler, güçlü büyüme pazarları'}),
+ ('raumfahrt', ['raumfahrt', 'satellit', 'rakete', 'starlink', 'spacex', 'esa', 'orbit'], {'bg': 'Космическа икономика', 'de': 'Raumfahrt & Satelliten', 'en': 'Space & satellites', 'es': 'Espacio y satélites', 'tr': 'Uzay ve uydular'}, {'bg': 'Ракети, сателити и нови услуги от орбита', 'de': 'Raketen, Satelliten und neue Dienste aus dem Orbit', 'en': 'Rockets, satellites and new services from orbit', 'es': 'Cohetes, satélites y nuevos servicios desde la órbita', 'tr': 'Roketler, uydular ve yörüngeden yeni hizmetler'}),
+]
+def _bz_txt(x):
+    h = ''
+    for lg in ('de', 'en'):
+        T = x.get(lg) or {}; h += ' ' + str(T.get('t', '')) + ' ' + str(T.get('d', ''))
+    return h.lower()
+def business_hub(l, its, bd, pool):
+    """Business & Investment (Nedy 31.10.2026): Hub-Kopf, 8 Kacheln, Top-Story | Märkte | IPO-Kalender, Zukunftsmärkte-Radar."""
+    Z = BZH[l] if l in BZH else BZH['en']
+    blocks = bd.get('blocks', []) if bd else []
+    try: IPO = json.load(open(os.path.join(HERE, 'content', 'business-extra', 'ipo.json'), encoding='utf-8'))
+    except (FileNotFoundError, ValueError): IPO = {}
+    ipos = IPO.get('items', [])
+    pool = sorted(pool, key=lambda x: (x['date'], x['time']), reverse=True)
+    radar = []
+    for key, kws, nm, ds in BZRADAR:
+        xs = [x for x in pool if x.get('rk') == key or any(w in _bz_txt(x) for w in kws)]
+        radar.append((key, nm, ds, xs))
+    tiles = ''
+    for key, ic, nm, ds, m in BZTILES:
+        if m == 'markets':
+            bs = [b for b in blocks if b['id'] in ('wallstreet', 'deutsche-boerse', 'bg-energie-aktien', 'strom-ibex')]
+            tiles += _tile(l, key, ic, LX(nm)[l], ds, bs, '#' + (bs[0]['id'] if bs else 'bz-mk'))
+        elif m == 'ipo': tiles += _tile(l, key, ic, LX(nm)[l], ds, ipos, '#bz-ipo')
+        elif m == 'invest':
+            bs = [b for b in blocks if b['id'].startswith('invest')]
+            tiles += _tile(l, key, ic, LX(nm)[l], ds, bs, '#' + bs[0]['id'] if bs else '')
+        elif m == 'radar': tiles += _tile(l, key, ic, LX(nm)[l], ds, [x for r in radar for x in r[3][:5]], '#bz-radar')
+        elif m == 'video': tiles += _tile(l, key, ic, LX(nm)[l], ds, [x for x in pool if x.get('yt') and x['s'] in ('business', 'wirtschaft')])
+        else: tiles += _tile(l, key, ic, LX(nm)[l], ds, [x for x in pool if x.get('bk') == key or any(w in _bz_txt(x) for w in m)])
+    hub = hub_block(l, 'business', tiles)
+    # Top-Story: neueste Business-/Wirtschaftsmeldung mit Foto
+    top = next((x for x in pool if x.get('img') and x['s'] in ('business', 'wirtschaft') and not x.get('biz')), None) or next((x for x in pool if x.get('img')), None)
+    tb = ''
+    if top:
+        tb = (f'<article class="bzh-box bzh-top"><a href="{art_url(top, l)}" class="bzh-tim"{"" if not top.get("img") else f" style=\"background-image:url({top['img']['f']})\""}><span class="bzh-badge">{e(Z["top"])}</span></a>'
+              f'<div class="bzh-tt"><a href="{art_url(top, l)}"><h3>{e(top[l]["t"])}</h3></a><p>{e(top[l]["d"])}</p><p class="bzh-meta">{e(nice_date(top["date"], l))}</p><a class="bzh-more" href="{art_url(top, l)}">{e(Z["more"])}</a></div></article>')
+    # Märkte auf einen Blick (Schlusskurse aus der Tagesdatei)
+    want = ['DAX', 'Euro Stoxx 50', 'Dow Jones', 'S&P 500', 'Nasdaq', 'SOFIX', 'Brent', 'Gold']
+    tk = {L(t['n'], 'de'): t for b in blocks for t in b.get('ticker', [])}
+    rows = ''.join(f'<tr><th scope="row">{e(n)}</th><td class="n">{fnum(tk[n]["v"], tk[n].get("dec", 2), l)}</td><td class="n">{fchg(tk[n].get("chg"), 2, l)}</td></tr>' for n in want if n in tk)
+    mk = (f'<section class="bzh-box bzh-mk" id="bz-mk"><h2>📊 {e(Z["mk"])}</h2><p class="bzh-asof">{e(Z["mka"])} {e(nice_date(bd["date"], l))}</p>'
+          f'<table class="bzh-t"><tbody>{rows}</tbody></table><p class="bzh-note">{e(Z["mkn"])}</p><a class="bzh-more" href="#biz-all">{e(Z["all"])}</a></section>') if rows else ''
+    # IPO-Kalender
+    li = ''
+    for x in ipos[:4]:
+        d = x.get('date', ''); st = Z['st'].get(x.get('status', ''), x.get('status', ''))
+        nt = x.get('note', {}); nt = nt.get(l) or nt.get('en') or nt.get('de', '') if isinstance(nt, dict) else nt
+        li += (f'<li><div class="bzh-ipo-h"><b>{e(x["name"])}</b><span class="bzh-ipo-d">{e(d)}</span></div><span class="bzh-ipo-m">{e(x.get("exchange", ""))} · {e(LX(x["sector"])[l] if isinstance(x.get("sector"), dict) else x.get("sector", ""))} · <i class="st-{e(x.get("status", ""))}">{e(st)}</i></span>'
+               + (f'<span class="bzh-ipo-n">{e(nt)}</span>' if nt else '') + (f'<a class="bzh-ipo-s" href="{e(x["src_u"])}" rel="noopener nofollow" target="_blank">{e(x.get("src_n", "Quelle"))}</a>' if x.get('src_u') else '') + '</li>')
+    ipo = (f'<section class="bzh-box bzh-ipo" id="bz-ipo"><h2>🔔 {e(Z["ipo"])}</h2>' + (f'<p class="bzh-asof">{e(BZ[l]["asof"] if l in BZ else BZ["en"]["asof"])}: {e(nice_date(IPO["asof"], l))}</p>' if IPO.get('asof') else '')
+           + (f'<ul>{li}</ul>' if li else f'<p class="bzh-note">{e(Z["ipo0"])}</p>') + f'<p class="bzh-note">{e(Z["ipon"])}</p></section>')
+    row = f'<div class="bzh-row">{tb}{mk}{ipo}</div>'
+    # Zukunftsmärkte-Radar
+    cards = ''; _used = set()
+    try: RI = json.load(open(os.path.join(HERE, 'content', 'business-extra', 'radar-img.json'), encoding='utf-8'))
+    except (FileNotFoundError, ValueError): RI = {}
+    for key, nm, ds, xs in radar:
+        if key in RI:   # feste Branchenfotos (Commons) – Link zur neuesten passenden Meldung
+            x = xs[0] if xs else None
+            href = f' href="{art_url(x, l)}"' if x else ''
+            cards += f'<a class="bzh-rc bzh-rc-{key}"{href}><span class="bzh-rim" style="background-image:url({RI[key]["f"]})"></span><b>{e(LX(nm)[l])}</b><span>{e(LX(ds)[l])}</span></a>'
+            continue
+        x = next((y for y in xs if y.get('img') and not y['img'].get('own') and y['img'].get('page', y['img']['f']) not in _used), None) or next((y for y in xs if y.get('img') and y['img'].get('page', y['img']['f']) not in _used), None)
+        if x: _used.add(x['img'].get('page', x['img']['f']))
+        bg = f' style="background-image:url({x["img"]["f"]})"' if x else ''
+        href = f' href="{art_url(x, l)}"' if x else ''
+        cards += f'<a class="bzh-rc bzh-rc-{key}"{href}><span class="bzh-rim"{bg}></span><b>{e(LX(nm)[l])}</b><span>{e(LX(ds)[l])}</span></a>'
+    rcr = (' · '.join(f'<a href="{e(v["page"])}" rel="noopener nofollow" target="_blank">{e(v["art"])}</a> ({e(v["lic"])})' for v in RI.values())) if RI else ''
+    rad = f'<section class="bzh-radar" id="bz-radar"><div class="bzh-rh"><h2>🎯 {e(Z["radar"])}</h2><p>{e(Z["radarn"])}</p></div><div class="bzh-rg">{cards}</div>' + (f'<p class="mg-cr bzh-rcr">{e(FITU[l]["cr"].replace("Collage", "Fotos").replace("Колаж", "Снимки"))}: {rcr} – Wikimedia Commons</p>' if rcr else '') + '</section>'
+    return hub + row + rad
 def mh_items():
     return sorted([x for x in (MUSIK.get('all') or []) if x.get('sub') == 'mhistory'], key=lambda x: (x['date'], x['time']), reverse=True)
 def mh_credit(l):
@@ -2828,7 +2924,8 @@ def build():
                             kv = (f'<span class="bt-l">{e(L(k["l"], l))}</span><b class="bt-v">{fnum(k["v"], k.get("dec", 2), l)} <small>{e(LU(k.get("u", ""), l))}</small></b>'
                                   + (fchg(k["chg"], 2, l) if k.get("chg") is not None else '')) if k else ''
                             return f'<a class="bz-tile" href="#{e(b["id"])}">{kv}<span class="bt-t">{e(b[l]["t"])}</span></a>'
-                        head = (f'<div class="gp gp-business bz-top"><div class="gp-head"><h1 class="gp-title">{e(SEC[l][s][0])}</h1>{gp_slogan(l)}</div>'
+                        _pool = [x for x in items_l if x['s'] in ('business', 'wirtschaft', 'ki', 'ai', 'energie') and x['date'] >= (__import__('datetime').date.fromisoformat(day0) - __import__('datetime').timedelta(days=30)).isoformat()]
+                        head = (f'<h1 class="sr-only">{e(SEC[l][s][0])}</h1>' + business_hub(l, its, bd, _pool) + f'<div class="gp gp-business bz-top" id="biz-all">'
                                 f'<div class="gp-panel bz-panel"><p class="bz-desc">{e(BZ[l]["desc"])} <span class="bz-date">{e(BZ[l]["asof"])}: {e(nice_date(day0, l))}</span></p>'
                                 f'<h2 class="gp-h">{e(BZ[l]["overview"])}</h2><nav class="bz-tiles" aria-label="{e(BZ[l]["jump"])}">{"".join(_tile(b) for b in blocks)}</nav></div></div>'
                                 f'<div class="biz-blocks">{bl}</div><p class="noadv">{e(BZ[l]["noadv"])}</p>')
