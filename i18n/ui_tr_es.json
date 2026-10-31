@@ -257,6 +257,18 @@
    "punk": [
     "Punk",
     "punk"
+   ],
+   "mhistory": [
+    "Music History",
+    "music-history"
+   ],
+   "gesundheit": [
+    "Sağlık",
+    "saglik"
+   ],
+   "sexualitaet": [
+    "Cinsellik",
+    "sexuality"
    ]
   },
   "es": {
@@ -435,6 +447,18 @@
    "punk": [
     "Punk",
     "punk"
+   ],
+   "mhistory": [
+    "Music History",
+    "music-history"
+   ],
+   "gesundheit": [
+    "Salud",
+    "salud"
+   ],
+   "sexualitaet": [
+    "Sexualidad",
+    "sexuality"
    ]
   },
   "it": {
@@ -3655,5 +3679,54 @@
   "tr": "{'ve', 'bir', 'bu', 'da', 'de', 'ile', 'için', 'olarak', 'gibi', 'daha', 'çok', 'en', 'ama', 'ancak', 'veya', 'ya', 'şu', 'o', 'ki', 'mi', 'ne', 'her', 'kadar', 'sonra', 'önce', 'göre', 'üzerine', 'olan', 'olduğu', 'oldu', 'ise', 'değil', 'var', 'yok', 'diye', 'hem', 'ilk', 'yeni', 'tüm', 'bütün', 'bazı', 'karşı', 'arasında', 'tarafından'}",
   "es": "{'el', 'la', 'los', 'las', 'un', 'una', 'unos', 'unas', 'de', 'del', 'al', 'y', 'o', 'en', 'a', 'por', 'para', 'con', 'sin', 'que', 'se', 'su', 'sus', 'es', 'son', 'fue', 'ha', 'han', 'como', 'más', 'pero', 'lo', 'le', 'les', 'sobre', 'tras', 'entre', 'desde', 'hasta', 'este', 'esta', 'estos', 'estas', 'ese', 'esa', 'no', 'ya', 'muy', 'ser', 'también'}",
   "it": "{'il', 'lo', 'la', 'i', 'gli', 'le', 'un', 'uno', 'una', 'di', 'del', 'della', 'dei', 'delle', 'degli', 'a', 'al', 'alla', 'ai', 'da', 'dal', 'dalla', 'in', 'nel', 'nella', 'nei', 'su', 'sul', 'sulla', 'con', 'per', 'tra', 'fra', 'e', 'ed', 'o', 'che', 'non', 'si', 'è', 'sono', 'ha', 'hanno', 'come', 'più', 'ma', 'anche', 'dopo', 'questo', 'questa', 'questi', 'queste', 'suo', 'sua', 'suoi', 'essere', 'già', 'molto'}"
+ },
+ {
+  "path": [
+   "MHU"
+  ],
+  "es": {
+   "kick": "TWN · El archivo del rock",
+   "sub": "Conciertos legendarios · Entrevistas · Historias",
+   "cta": "Entrar al archivo →",
+   "conc": "Conciertos legendarios",
+   "iv": "Entrevistas",
+   "art": "Historias y contexto",
+   "intro": "Los conciertos que escribieron la historia del rock y del pop: grabaciones y momentos en directo de canales oficiales, con contexto, formación y repertorio. Nuevos cada día.",
+   "n": "{n} conciertos",
+   "vid": "Vídeo",
+   "more": "Leer más →",
+   "empty": "Muy pronto aquí.",
+   "cr": "Collage"
+  },
+  "tr": {
+   "kick": "TWN · Rock arşivi",
+   "sub": "Efsane konserler · Röportajlar · Hikâyeler",
+   "cta": "Arşive gir →",
+   "conc": "Efsane konserler",
+   "iv": "Röportajlar",
+   "art": "Hikâyeler ve arka plan",
+   "intro": "Rock ve pop tarihini yazan konserler: resmî kanallardan kayıtlar ve canlı anlar; arka plan, kadro ve şarkı listesiyle. Her gün yenileri.",
+   "n": "{n} konser",
+   "vid": "Video",
+   "more": "Habere git →",
+   "empty": "Çok yakında burada.",
+   "cr": "Kolaj"
+  }
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "mhistory"
+  ],
+  "es": "Music History: conciertos legendarios de rock, metal, pop, jazz y soul – grabaciones completas y momentos en directo de canales oficiales, con contexto, formación y repertorio.",
+  "tr": "Music History: rock, metal, pop, caz ve soul'dan efsane konserler – resmî kanallardan tam kayıtlar ve canlı anlar; arka plan, kadro ve şarkı listesiyle."
+ },
+ {
+  "path": [
+   "SUB_DESC",
+   "gesundheit"
+  ],
+  "es": "Salud: medicina e investigación, prevención, nutrición y ejercicio, salud mental, sistemas sanitarios de Alemania y Bulgaria – cada día con vídeo, serio y con fuentes.",
+  "tr": "Sağlık: tıp ve araştırma, önleme, beslenme ve egzersiz, ruh sağlığı, Almanya ve Bulgaristan'da sağlık sistemleri – her gün videolu, ciddi ve kaynaklı."
  }
 ]
