@@ -1817,3 +1817,11 @@ nav.sections.nv2::before{content:"";position:absolute;left:0;right:0;top:0;heigh
  .bzh-mk .bzh-t tr{height:12.5%}
  .bzh-mk .bzh-note{margin-top:12px}
 }
+.bz-en{margin:6px 0 22px}
+.bz-en-h{border-left:4px solid #0f2f7a;background:#eef3fb;padding:12px 16px;margin:0 0 14px;border-radius:0 10px 10px 0}
+.bz-en-h h2{margin:0 0 4px;font-family:var(--label);font-size:18px;text-transform:uppercase;letter-spacing:.04em;color:#0f2f7a}
+.bz-en-h p{margin:0;font-size:14.5px;line-height:1.45;color:#334155}
+.bz-en-news{margin-top:20px}.bz-en-news h2{font-family:var(--label);font-size:18px;text-transform:uppercase;color:#0f2f7a;border-bottom:2px solid #0f2f7a;padding-bottom:6px}
+.bz-en-news ul{list-style:none;margin:0;padding:0;columns:2;column-gap:28px}.bz-en-news li{break-inside:avoid;padding:8px 0;border-bottom:1px solid #e5e9f0;font-size:15px}
+.bz-en-news li a{color:#0b1d47;font-weight:600;text-decoration:none}.bz-en-news li .meta{display:block;font-size:12px;color:#64748b}
+@media (max-width:700px){.bz-en-news ul{columns:1}}

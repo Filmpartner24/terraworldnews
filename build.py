@@ -2945,7 +2945,19 @@ def build():
                 _d0 = max(BIZ)
                 _pool = [x for x in items_l if x['s'] in ('business', 'wirtschaft', 'ki', 'ai', 'energie') and x['date'] >= (__import__('datetime').date.fromisoformat(_d0) - __import__('datetime').timedelta(days=30)).isoformat()]
                 _na = LX({'bg': BZ['bg']['noadv'], 'de': BZ['de']['noadv'], 'en': BZ['en']['noadv'], 'es': 'Información solo con fines informativos; no es asesoramiento de inversión. Precios de cierre, no en tiempo real.', 'tr': 'Bilgiler yalnızca bilgilendirme amaçlıdır, yatırım tavsiyesi değildir. Kapanış fiyatları, gerçek zamanlı değildir.'})[l]
-                body = f'<div class="sec-page" style="--c:{SEC_COLOR[s]}"><h1 class="sr-only">{e(SEC[l][s][0])}</h1>' + business_hub(l, [], BIZ[_d0], _pool, full=False) + f'<p class="noadv">{e(_na)}</p></div>'
+                # Detailberichte + Business-News gibt es nur auf BG/DE/EN – auf ES/TR die englische Fassung mit Hinweis (Nedy 31.10.2026)
+                _bd = BIZ[_d0]; _ens = {x['id']: x for x in allitems if x['s'] == 'business' and x['date'] == _d0 and 'en' in x}
+                _bl = ''
+                for b in [b for b in _bd.get('blocks', []) if 'en' in b]:
+                    _bit = _ens.get(b['id'])
+                    _bl += biz_block(b, 'en', art_url(_bit, 'en') if _bit else '#', (f'<a href="{art_url(_bit, "en")}" class="biz-fig">' + plate(_bit, 'en') + '</a>') if _bit and _bit.get('img') else '')
+                _ennews = sorted([x for x in allitems if x['s'] == 'business' and 'en' in x and not x.get('biz')], key=lambda x: (x['date'], x['time']), reverse=True)[:12]
+                _nl = ''.join(f'<li><a href="{art_url(x, "en")}" hreflang="en" lang="en">{e(x["en"]["t"])}</a> <span class="meta">{e(nice_date(x["date"], l))}</span></li>' for x in _ennews)
+                _note = LX({'es': ('Informes detallados del día (en inglés)', 'Los informes detallados con tablas y gráficos se elaboran a diario en búlgaro, alemán e inglés. Aquí se muestra la versión en inglés con los mismos datos; los enlaces llevan a los artículos completos en inglés.', 'Últimas noticias de negocios (en inglés)'),
+                            'tr': ('Günün ayrıntılı raporları (İngilizce)', 'Tablo ve grafikli ayrıntılı raporlar her gün Bulgarca, Almanca ve İngilizce hazırlanıyor. Burada aynı verilerle İngilizce sürüm gösteriliyor; bağlantılar İngilizce tam makalelere gider.', 'Son iş dünyası haberleri (İngilizce)')}).get(l)
+                _det = (f'<section class="bz-en" lang="en"><div class="bz-en-h" lang="{l}"><h2>{e(_note[0])}</h2><p>{e(_note[1])}</p></div><div class="biz-blocks">{_bl}</div>'
+                        + (f'<div class="bz-en-news"><h2 lang="{l}">{e(_note[2])}</h2><ul>{_nl}</ul></div>' if _nl else '') + '</section>') if _note and _bl else ''
+                body = f'<div class="sec-page" style="--c:{SEC_COLOR[s]}"><h1 class="sr-only">{e(SEC[l][s][0])}</h1>' + business_hub(l, [], _bd, _pool, full=bool(_det)).replace('href="#biz-all"', 'href="#bz-en"') + _det.replace('<section class="bz-en"', '<section class="bz-en" id="bz-en"', 1) + f'<p class="noadv">{e(_na)}</p></div>'
             elif not its:
                 body = f'<section class="rail" style="--c:{SEC_COLOR[s]}"><div class="rail-h"><h1 class="sec-title">{e(SEC[l][s][0])}</h1></div>' + (f'<p class="sec-desc">{e(SEC_DESC[s][l])}</p>' if s in SEC_DESC else '') + f'<p class="note">{e(u["empty"])}</p></section>'
             else:
