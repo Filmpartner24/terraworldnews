@@ -85,6 +85,45 @@ async function handball(ctx, hdr) {
   return new Response(JSON.stringify({ ok: !apierr, apierr, total: j.results || 0, day, live: anyLive, m }), { headers: hdr });
 }
 
+
+// ---- Ersatzquelle ESPN (Nedy 31.10.2026: Live-Ergebnisse in Echtzeit): springt ein, wenn API-Football sperrt (rateLimit) oder ausfällt.
+// Öffentliche Spielstand-Schnittstelle ohne Schlüssel; Daten werden in dasselbe Format wie API-Football übersetzt (gleiche Liga-IDs).
+const ESPN = { 'ger.1': [78, 'Bundesliga'], 'ger.2': [79, '2. Bundesliga'], 'ger.dfb_pokal': [81, 'DFB Pokal'], 'eng.1': [39, 'Premier League'], 'esp.1': [140, 'La Liga'],
+  'ita.1': [135, 'Serie A'], 'fra.1': [61, 'Ligue 1'], 'uefa.champions': [2, 'UEFA Champions League'], 'uefa.europa': [3, 'UEFA Europa League'], 'uefa.europa.conf': [848, 'UEFA Europa Conference League'],
+  'uefa.nations': [5, 'UEFA Nations League'], 'fifa.friendly': [10, 'Friendlies'], 'fifa.worldq.uefa': [32, 'World Cup - Qualification Europe'], 'uefa.euroq': [960, 'Euro Championship - Qualification'] };
+async function espnGet(ctx, code, ymd, ttl) {
+  const key = new Request('https://terraworldnews.com/__espn/' + code + '/' + ymd);
+  const hit = await caches.default.match(key);
+  if (hit) return hit.json();
+  const r = await fetch('https://site.api.espn.com/apis/site/v2/sports/soccer/' + code + '/scoreboard?dates=' + ymd, { headers: { 'user-agent': 'TERRA-WORLD-NEWS-live/1.0 (terraworldnews.com)' } });
+  if (!r.ok) return { events: [] };
+  const j = await r.json();
+  ctx.waitUntil(caches.default.put(key, new Response(JSON.stringify(j), { headers: { 'content-type': 'application/json', 'cache-control': `public, max-age=${ttl}` } })));
+  return j;
+}
+function espnSlim(ev, lg, ln) {
+  const c = (ev.competitions || [])[0] || {}, st = ev.status || {}, ty = st.type || {};
+  const home = (c.competitors || []).find(x => x.homeAway === 'home') || {}, away = (c.competitors || []).find(x => x.homeAway === 'away') || {};
+  let code = 'NS';
+  if (ty.state === 'in') code = ty.name === 'STATUS_HALFTIME' ? 'HT' : ty.name === 'STATUS_SHOOTOUT' ? 'P' : (st.period || 1) >= 3 ? 'ET' : (st.period || 1) === 2 ? '2H' : '1H';
+  else if (ty.state === 'post') code = ty.name === 'STATUS_FINAL_AET' ? 'AET' : ty.name === 'STATUS_FINAL_PEN' ? 'PEN' : /POSTPONED/.test(ty.name || '') ? 'PST' : /CANCEL|ABANDON/.test(ty.name || '') ? 'CANC' : 'FT';
+  const mm = String(st.displayClock || '').match(/(\d+)'(?:\+(\d+))?/);
+  const started = ty.state !== 'pre';
+  const ev2 = (c.details || []).filter(d => d.scoringPlay || d.yellowCard || d.redCard).map(d => {
+    const m2 = String((d.clock || {}).displayValue || '').match(/(\d+)'(?:\+(\d+))?/);
+    return { m: m2 ? +m2[1] : null, x: m2 && m2[2] ? +m2[2] : null, side: ((d.team || {}).id === (home.team || {}).id) ? 'h' : 'a',
+      ty: d.scoringPlay ? (d.ownGoal ? 'og' : d.penaltyKick ? 'pen' : 'g') : d.redCard ? 'rc' : 'yc', p: (((d.athletesInvolved || [])[0]) || {}).displayName || '', p2: '' };
+  });
+  return { id: 'e' + ev.id, ts: Math.floor(Date.parse(ev.date) / 1000), st: code, min: mm ? +mm[1] : null, ext: mm && mm[2] ? +mm[2] : null, lg, ln, lc: '', rd: '',
+    h: (home.team || {}).displayName || '', a: (away.team || {}).displayName || '', gh: started ? +(home.score || 0) : null, ga: started ? +(away.score || 0) : null, ven: ((c.venue || {}).address || {}).city || '', ev: ev2 };
+}
+async function espnAll(ctx, day) {
+  const ymd = day.replace(/-/g, '');
+  const res = await Promise.all(Object.entries(ESPN).map(([code, [lg, ln]]) => espnGet(ctx, code, ymd, 60).then(j => (j.events || []).map(ev => espnSlim(ev, lg, ln))).catch(() => [])));
+  return res.flat().sort((x, y) => (x.ts - y.ts) || (x.lg - y.lg));
+}
+const LIVE_ST = new Set(['1H', 'HT', '2H', 'ET', 'BT', 'P', 'SUSP', 'INT', 'LIVE']);
+
 export async function onRequest(ctx) {
   const hdr = { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'public, max-age=30', 'x-robots-tag': 'noindex', 'access-control-allow-origin': '*' };
   if (!ctx.env.APISPORTS_KEY && !ctx.env.RAPIDAPI_KEY) return new Response(JSON.stringify({ ok: false, reason: 'nokey', m: [] }), { headers: hdr });
@@ -117,8 +156,16 @@ export async function onRequest(ctx) {
     const apierr = today.errors && Object.keys(today.errors).length ? Object.keys(today.errors).join(',') : '';
     const apimsg = apierr ? JSON.stringify(today.errors).slice(0, 300) : undefined;   // Fehlertext der API (ohne Schlüssel) zur Diagnose
     const stale = today.__stale || undefined;
+    if (apierr || stale || !m.length) {   // API-Football gesperrt/alt/leer → ESPN (frische Spielstände)
+      const em = await espnAll(ctx, day).catch(() => []);
+      if (em.length) return keep(new Response(JSON.stringify({ ok: true, src: 'espn', apierr: apierr || undefined, total: em.length, day, live: em.some(x => LIVE_ST.has(x.st)), club: CLUB, nat: NAT, m: em }), { headers: hdr }));
+    }
     return keep(new Response(JSON.stringify({ ok: !apierr, apierr, apimsg, stale, total: today.results || 0, day, live: anyLive, club: CLUB, nat: NAT, m }), { headers: hdr }));
   } catch (e) {
+    try {   // Ausfall von API-Football → ESPN
+      const day = berlinDate(); const em = await espnAll(ctx, day);
+      if (em.length) return keep(new Response(JSON.stringify({ ok: true, src: 'espn', total: em.length, day, live: em.some(x => LIVE_ST.has(x.st)), club: CLUB, nat: NAT, m: em }), { headers: hdr }));
+    } catch (e2) {}
     return new Response(JSON.stringify({ ok: false, reason: 'error', m: [] }), { headers: hdr });
   }
 }
