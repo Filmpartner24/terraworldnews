@@ -64,3 +64,17 @@ Andere gesperrte Datenquellen (z. B. match.uefa.com, standings.uefa.com) ebenfal
 - Die tr/es-Fassungen entstehen AUTOMATISCH in der GitHub Action (tools/translate.py, Anthropic-API) aus dem DEUTSCHEN Text jeder Meldung und liegen in translations/<tr|es>/<Datum>.json. Aufgaben schreiben weiterhin nur bg/de/en – deshalb den deutschen Text besonders sorgfältig formulieren (Zitate, „mutmaßlich“, Zuordnungen).
 - translations/ und i18n/ nie von Hand ändern. Wird ein deutscher Text später korrigiert, wird die Übersetzung automatisch erneuert.
 - translations/flagged.json = Übersetzungen, die die automatische Prüfung (Zahlen, Zitate, Absätze, Längen) nicht bestanden haben und deshalb NICHT veröffentlicht sind. translations/status.json "ok": false = API nicht nutzbar (Guthaben/Limit/Schlüssel) → im Bericht als Problem melden.
+
+THEMENKACHELN (Nedy 31.10.2026) – JEDES neue Item bekommt ein Feld "hk" mit genau EINER Kachel seiner Rubrik (optional "hks":[…] für eine zweite), damit die Zahlen auf den Rubrikseiten exakt stimmen. Ohne "hk" zählt die Seite nur ungefähr über Stichwörter. Schlüssel je Rubrik:
+- welt: usa | nahost | ukraine | asien | afrika   (Video-Items zählen automatisch zu „im Video“)
+- europa: eu | wahlen | sicherheit | wirtschaft | gesellschaft
+- deutschland: bund | wirtschaft | laender   (Berlin/Oberfranken weiter über "sub")
+- bulgarien: politik | wirtschaft | justiz | regionen | meer
+- wirtschaft: maerkte | konjunktur | banken | handel | bulgarien
+- energie: wind | strom | gas | speicher
+- auto: premiere | elektro | sport | branche | tech
+- klima: extrem | forschung | politik | eis | natur
+- ki (Technologie): forschung | security   (KI-Meldungen laufen über Rubrik "ai", Raumfahrt über "sub":"raumfahrt"; sonstige Tech-News ohne hk)
+- business: Feld "bk" (startups | modelle | deals | ipo | video), siehe business.md
+- leben/gesundheit: kl wie in gesundheit.md (oder "gk": med | vor | psy | sys | gehirn); fitness: "fk"/"fks" wie in fitness.md
+Passt keine Kachel, "hk" weglassen.

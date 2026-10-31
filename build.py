@@ -1197,6 +1197,7 @@ def mode_block(l, its):
     return hub_block(l, 'mode', t)
 def ki_block(l, its, ai_its):
     def kw(x, words):
+        if x.get('hk') or x.get('hks'): return False
         T = x.get('de') or x.get('en') or {}
         h = (str(T.get('t', '')) + ' ' + str(T.get('d', ''))).lower()
         return any(w in h for w in words)
@@ -1206,8 +1207,8 @@ def ki_block(l, its, ai_its):
     t = _tile(l, 'ai', '🤖', SEC[l]['ai'][0], {'bg': 'Модели, компании, регулация', 'de': 'Modelle, Firmen, Regulierung', 'en': 'Models, companies, regulation', 'es': 'Modelos, empresas, regulación', 'tr': 'Modeller, şirketler, düzenleme'}, ai_its, sec_url('ai', l))
     t += _tile(l, 'raumfahrt', '🚀', SUB[l]['raumfahrt'][0], {'bg': 'Ракети, сонди, телескопи', 'de': 'Raketen, Sonden, Teleskope', 'en': 'Rockets, probes, telescopes', 'es': 'Cohetes, sondas, telescopios', 'tr': 'Roketler, sondalar, teleskoplar'}, [x for x in its if x.get('sub') == 'raumfahrt'], sub_url('ki', 'raumfahrt', l))
     t += _tile(l, 'video', '▶', LX({'bg': 'Технологии във видео', 'de': 'Tech im Video', 'en': 'Tech on video', 'es': 'Tecnología en vídeo', 'tr': 'Videoda teknoloji'})[l], {'bg': 'Обяснено от институти и производители', 'de': 'Erklärt von Instituten und Herstellern', 'en': 'Explained by institutes and makers', 'es': 'Explicado por institutos y fabricantes', 'tr': 'Enstitü ve üreticilerden açıklamalar'}, [x for x in rest if x.get('yt')])
-    t += _tile(l, 'forschung', '🔬', LX({'bg': 'Наука и изследвания', 'de': 'Wissenschaft & Forschung', 'en': 'Science & research', 'es': 'Ciencia e investigación', 'tr': 'Bilim ve araştırma'})[l], {'bg': 'Квантови технологии, физика, лаборатории', 'de': 'Quanten, Physik, Labore', 'en': 'Quantum, physics, labs', 'es': 'Cuántica, física, laboratorios', 'tr': 'Kuantum, fizik, laboratuvarlar'}, [x for x in rest if kw(x, sci)])
-    t += _tile(l, 'security', '🛡', LX({'bg': 'Киберсигурност', 'de': 'IT-Sicherheit', 'en': 'Cybersecurity', 'es': 'Ciberseguridad', 'tr': 'Siber güvenlik'})[l], {'bg': 'Атаки, пропуски, защита', 'de': 'Angriffe, Lücken, Schutz', 'en': 'Attacks, flaws, protection', 'es': 'Ataques, fallos, protección', 'tr': 'Saldırılar, açıklar, koruma'}, [x for x in rest if kw(x, sec)])
+    t += _tile(l, 'forschung', '🔬', LX({'bg': 'Наука и изследвания', 'de': 'Wissenschaft & Forschung', 'en': 'Science & research', 'es': 'Ciencia e investigación', 'tr': 'Bilim ve araştırma'})[l], {'bg': 'Квантови технологии, физика, лаборатории', 'de': 'Quanten, Physik, Labore', 'en': 'Quantum, physics, labs', 'es': 'Cuántica, física, laboratorios', 'tr': 'Kuantum, fizik, laboratuvarlar'}, [x for x in rest if x.get('hk') == 'forschung' or kw(x, sci)])
+    t += _tile(l, 'security', '🛡', LX({'bg': 'Киберсигурност', 'de': 'IT-Sicherheit', 'en': 'Cybersecurity', 'es': 'Ciberseguridad', 'tr': 'Siber güvenlik'})[l], {'bg': 'Атаки, пропуски, защита', 'de': 'Angriffe, Lücken, Schutz', 'en': 'Attacks, flaws, protection', 'es': 'Ataques, fallos, protección', 'tr': 'Saldırılar, açıklar, koruma'}, [x for x in rest if x.get('hk') == 'security' or kw(x, sec)])
     t += _tile(l, 'news', '📰', LX({'bg': 'Технологични новини', 'de': 'Tech-News', 'en': 'Tech news', 'es': 'Noticias tecnológicas', 'tr': 'Teknoloji haberleri'})[l], {'bg': 'Чипове, смартфони, мобилност, индустрия', 'de': 'Chips, Smartphones, Mobilität, Industrie', 'en': 'Chips, smartphones, mobility, industry', 'es': 'Chips, móviles, movilidad, industria', 'tr': 'Çipler, akıllı telefonlar, mobilite, sanayi'}, [x for x in rest if not x.get('yt')])
     return hub_block(l, 'ki', t)
 KWHUB = {   # Wirtschaft, Energie, Auto, Klima im Hub-Design (Nedy 31.10.2026) – Kacheln über Stichwörter in Titel/Teaser (DE/EN)
@@ -1285,7 +1286,7 @@ def kw_block(l, kind, its):
             tiles += _tile(l, key, ic, SUB[l][m[1]][0], ds, xs, sub_url(kind, m[1], l)); continue
         if m == 'video': xs = [x for x in its if x.get('yt')]
         elif m == 'au': xs = [x for x in its if x.get('au')]
-        else: xs = [x for x in its if x.get('hk') == key or key in (x.get('hks') or []) or any(w in txt(x) for w in m)]
+        else: xs = [x for x in its if ((x.get('hk') == key or key in (x.get('hks') or [])) if (x.get('hk') or x.get('hks')) else any(w in txt(x) for w in m))]   # feste Zuordnung "hk" vor Stichwörtern (Nedy 31.10.2026)
         tiles += _tile(l, key, ic, LX(nm)[l], ds, xs)
     return hub_block(l, kind, tiles)
 HUBU['business'] = {'bg': dict(kick='TWN · Бизнес', title='БИЗНЕС <span>И ИНВЕСТИЦИИ</span>', sub='Пазари · Компании · Бизнес модели · Капитал · Бъдеще', series='Пазарите накратко'),
@@ -1342,7 +1343,7 @@ def business_hub(l, its, bd, pool, full=True):
             tiles += _tile(l, key, ic, LX(nm)[l], ds, bs, '#' + bs[0]['id'] if bs else '')
         elif m == 'radar': tiles += _tile(l, key, ic, LX(nm)[l], ds, [x for r in radar for x in r[3][:5]], '#bz-radar')
         elif m == 'video': tiles += _tile(l, key, ic, LX(nm)[l], ds, [x for x in pool if x.get('yt') and x['s'] in ('business', 'wirtschaft')])
-        else: tiles += _tile(l, key, ic, LX(nm)[l], ds, [x for x in pool if x.get('bk') == key or any(w in _bz_txt(x) for w in m)])
+        else: tiles += _tile(l, key, ic, LX(nm)[l], ds, [x for x in pool if (x.get('bk') == key if x.get('bk') else (x['s'] != 'business' and any(w in _bz_txt(x) for w in m)))])
     hub = hub_block(l, 'business', tiles)
     # Top-Story: neueste Business-/Wirtschaftsmeldung mit Foto
     top = next((x for x in pool if x.get('img') and x['s'] in ('business', 'wirtschaft') and not x.get('biz')), None) or next((x for x in pool if x.get('img')), None)
