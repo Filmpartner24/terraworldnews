@@ -2428,7 +2428,7 @@ def fb_overview(l, today, news_html, others):
     seasons = sorted({FB[k]['season'] for k in FB})
     cards = ''.join(fb_league_card(k, l, today) for k in fb_order(l) if k in FB)
     return (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(title)}</h1><span class="gp-date">{e(f["season"])} {e(" / ".join(seasons))}</span></div>'
-            f'<div class="gp-main"><div class="gp-panel">{live_box(l, "club")}<h2 class="gp-h">{e(f["leagues"])}</h2><div class="fb-grid">{cards}</div>{grid_cr([(FB[k]["name"][l], FB_IMG.get(k)) for k in fb_order(l) if k in FB], l)}{news_html}{tv_block(l)}</div>'
+            f'<div class="gp-main"><div class="gp-panel"><h2 class="gp-h">{e(f["leagues"])}</h2><div class="fb-grid">{cards}</div>{grid_cr([(FB[k]["name"][l], FB_IMG.get(k)) for k in fb_order(l) if k in FB], l)}{live_box(l, "club")}{news_html}{tv_block(l)}</div>'
             f'<aside class="sec-side"><h2 class="list-h">{e(UI[l]["more"] if False else LX({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"})[l])}</h2>{others}</aside></div></div>')
 
 def uefa_empty(lg, l, today):   # CL/EL: Live-Block immer sichtbar – ohne Spiele heute Hinweis auf den nächsten Spieltag
@@ -2528,6 +2528,33 @@ def bb_block(k, l, today):
     return (f'<details class="bb-lg" id="bb-{k}"{" open" if k == BB_ORDER[0] else ""}><summary><span class="bb-lg-n">{e(nm)}</span><span class="bb-lg-s">{e(lg.get("season", ""))}</span></summary>'
             f'<div class="bb-lg-b"><div class="bb-col">{tabs or "<p class=fb-ko>" + e(U["none"]) + "</p>"}</div><div class="bb-col">{nxt}{res}</div></div>'
             + (f'<p class="fb-ko">{e(U["src"])}: {sl}' + (f' · {e(U["asof"])} {num_date(lg["asof"])}' if lg.get('asof') else '') + '</p>' if sl else '') + '</details>')
+def bb_url(k, l): return f"{sub_url('sport', 'basketball', l)}{k}/"
+def bb_card(k, l, today):
+    lg = BB[k]; U = BBU.get(l, BBU['en']); F = FBU.get(l, FBU['en'])
+    ts = lg.get('tables') or []
+    lead = ts[0]['rows'][0] if ts and ts[0].get('rows') else None
+    im = lg.get('img'); st = f' style="background-image:url({im["f"]})"' if im and os.path.exists(os.path.join(HERE, 'static', im['f'].lstrip('/'))) else ''
+    ms = lg.get('matches', []); dn = max((m['date'] for m in ms if m.get('ft')), default=None)
+    up = min((m['date'] for m in ms if not m.get('ft') and m['date'] >= today), default=None)
+    nm = lg['name'].get(l) or lg['name'].get('en')
+    ld = (f'<p class="fb-lead">{e(F["leader"])}: <b>{e(lead["team"])}</b> · {lead["w"]}–{lead["l"]}</p>' if lead and len(ts) == 1 else
+          f'<p class="fb-lead">' + ' · '.join(f'<b>{e(t["rows"][0]["team"])}</b> {t["rows"][0]["w"]}–{t["rows"][0]["l"]}' for t in ts if t.get('rows')) + '</p>' if lead else '')
+    meta = ' · '.join(x for x in [f'{U["res"]}: {num_date(dn)}' if dn else '', f'{U["next"]}: {num_date(up)}' if up else ''] if x)
+    return (f'<article class="fb-card"><a href="{bb_url(k, l)}"><div class="fb-img"{st}><span class="gr-badge">{e(F["season"])} {e(lg.get("season", ""))}</span><span class="fb-name">{e(nm)}</span></div>'
+            f'<div class="fb-card-txt">{ld}' + (f'<p class="gr-meta">{e(meta)}</p>' if meta else '') + f'<span class="gr-more">{e(F["open"])}</span></div></a></article>')
+def bb_cards(l, today):
+    if not BB: bb_load()
+    if not BB: return ''
+    ks = [k for k in BB_ORDER if k in BB]
+    return (f'<h2 class="gp-h">{e(FBU.get(l, FBU["en"])["leagues"])}</h2><div class="fb-grid">' + ''.join(bb_card(k, l, today) for k in ks) + '</div>'
+            + grid_cr([((BB[k]['name'].get(l) or BB[k]['name']['en']), BB[k].get('img')) for k in ks if BB[k].get('img')], l))
+def bb_league_page(k, l, today, others):
+    lg = BB[k]; F = FBU.get(l, FBU['en']); nm = lg['name'].get(l) or lg['name'].get('en')
+    blk = bb_block(k, l, today).replace('<details class="bb-lg"', '<details class="bb-lg bb-solo" open', 1)
+    oth = ''.join(f'<li><a href="{bb_url(x, l)}"{" aria-current=page" if x == k else ""}>{e(BB[x]["name"].get(l) or BB[x]["name"]["en"])}</a></li>' for x in BB_ORDER if x in BB)
+    return (f'<div class="gp gp-sport fb-page"><div class="gp-head"><h1 class="gp-title">{e(nm)}</h1><span class="fb-season">{e(F["season"])} {e(lg.get("season", ""))}</span></div>'
+            f'<div class="gp-main"><div class="gp-panel">{blk}</div><aside class="sec-side"><h2 class="list-h">{e(F["leagues"])}</h2><ul class="fb-ll">{oth}</ul>'
+            f'<h2 class="list-h">{e(LX({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"})[l])}</h2>{others}</aside></div></div>')
 def bb_section(l, today):
     if not BB: bb_load()
     if not BB: return ''
@@ -3160,8 +3187,14 @@ def build():
                         if un: sb += games_page(l, un, un[0]['date'], '', SX, s, title=LX({'bg': 'Новини', 'de': 'News', 'en': 'News'})[l] + ' · ' + SUB[l][k][0])
                     elif s == 'sport' and k == 'basketball':   # Basketball (Nedy 31.10.2026): Ligen mit Tabellen/Spielen + News
                         sb = tabs(k) + games_page(l, sits, sits[0]['date'] if sits else latest['date'], _others(s), SX, s, title=title)
-                        _bbs = bb_section(l, latest['date'])
+                        _bbs = bb_cards(l, latest['date'])   # Ligen als Karten ganz oben, eigene Ligaseiten (Nedy 31.10.2026)
                         if _bbs: sb = sb.replace('<div class="gp-panel">', '<div class="gp-panel">' + _bbs, 1)
+                        for bk in [x for x in BB_ORDER if x in BB]:
+                            bu = bb_url(bk, l); bn = BB[bk]['name'].get(l) or BB[bk]['name']['en']
+                            balts = {x: bb_url(bk, x) for x in act}
+                            write(bu, page(l, act, f'{bn} {BB[bk].get("season", "")} | TWN – World News', f'{bn}: {BBU.get(l, BBU["en"])["table"]}, {BBU.get(l, BBU["en"])["next"]}, {BBU.get(l, BBU["en"])["res"]}', bu, tabs(k) + bb_league_page(bk, l, latest['date'], _others(s)), balts,
+                                           {"@context": "https://schema.org", "@graph": [ORG, {"@type": "CollectionPage", "name": bn, "url": SITE + bu, "inLanguage": l}]}, issue=latest.get('issue', 1), date=latest['date']))
+                            urls.append((bu, balts, latest['date']))
                     elif s == 'sport' and k == 'handball' and 'handball-bundesliga' in FB:   # Handball-Bundesliga: Tabelle/Spieltage wie Fußball
                         HBK = LX({'bg': 'Начален час: българско време', 'de': 'Anwurfzeiten: deutsche Zeit', 'en': 'Throw-off times: German time'})
                         sb = tabs(k) + fb_league_page('handball-bundesliga', l, latest['date'], _others(s)).replace(e(FBU[l]['ko']), e(HBK[l]))

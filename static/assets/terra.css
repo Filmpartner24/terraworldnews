@@ -1838,3 +1838,4 @@ nav.sections.nv2::before{content:"";position:absolute;left:0;right:0;top:0;heigh
 .bb-th{margin:12px 0 6px;font-family:var(--label);font-size:14px;letter-spacing:.06em;text-transform:uppercase;color:#fdba74}
 .bb-lg .fb-ko{padding:0 16px 12px}
 @media (max-width:900px){.bb-lg-b{grid-template-columns:1fr}}
+.bb-solo>summary{cursor:default;pointer-events:none}.bb-solo>summary::after{display:none}
