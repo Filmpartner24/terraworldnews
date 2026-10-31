@@ -1241,6 +1241,63 @@
     "img.alt": "Arşiv fotoğrafı: Mannheim'daki Felina binası"
    }
   },
+  "f1-leclerc-freitag-mexiko-2026-10-31": {
+   "L": {
+    "body": [
+     "Ferrari pilotu Charles Leclerc, Mexico City'deki antrenman cumasına net biçimde damga vurdu. Motorsport-Total'e göre ilk serbest antrenmanda 1:18,128 dakika yaptı ve Kimi Antonelli'nin 0,659 saniye önünde yer aldı. Formula1.com'a göre ikinci antrenmanda derecesini 1:17,827 dakikaya düşürdü; McLaren pilotu Lando Norris'in 0,103 saniye, George Russell'ın ise 0,106 saniye önüne geçti. Antonelli dördüncü, Max Verstappen beşinci oldu.",
+     "Lewis Hamilton için ikinci antrenman erken sona erdi. İngiliz pilot, Formula1.com'a göre (çeviri) telsizden “13. virajdan itibaren tüm gücümü kaybettim” dedi; takımı ona aracı park etmesini söyledi. Ardından sanal güvenlik aracı dönemi yaşandı. Bundan önce Verstappen ile Liam Lawson arasındaki çarpışma, kırmızı bayrakla kısa bir kesintiye yol açmıştı. İlk antrenmanda on genç pilot piste çıktı; yalnızca Ferrari asıl kadrosuyla piste çıktı.",
+     "Perşembe günkü basın gününe virüs enfeksiyonu nedeniyle katılmayan Antonelli yeniden araçtaydı. Mercedes pilotu, dünya şampiyonasında 365 puanla Russell (242) ve Hamilton'ın (241) önünde lider ve pazar günü dünya şampiyonu olabilir. Sıralama turu cumartesi Almanya saatiyle 22:00'de, yarış pazar günü 21:00'de başlıyor."
+    ],
+    "d": "Charles Leclerc, Meksika Grand Prix'sinin iki antrenmanında da en hızlı isimdi. Şampiyonada lider Antonelli enfeksiyonun ardından geri döndü, takım arkadaşı Hamilton ikinci antrenmanda aracını park etti.",
+    "t": "Meksika'da çifte en iyi derece: Leclerc cumayı domine etti, Hamilton'da güç yoktu"
+   },
+   "at": "2026-10-31T11:43Z",
+   "h": "956fe495fd6c",
+   "rev": [
+    "Headline: 'Hamilton ohne Leistung' was rendered as 'Hamilton'ın aracı güç kaybetti', which is not the same as the German; fixed to 'Hamilton'ın aracında güç yoktu'.",
+    "'Qualifying' was rendered as 'Sıralama turları'; the standard Turkish term is 'Sıralama turu'.",
+    "'Im ersten Training ... nur Ferrari trat mit Stammbesetzung an': 'yarıştı' is wrong for a practice session; changed to 'piste çıktı'.",
+    "'stellte sein Auto ab' was rendered as 'park etti' in the teaser; kept, since it is acceptable.",
+    "Antonelli's illness was shortened to 'hastalığının ardından'; the German says 'Infekt', so 'enfeksiyonun ardından' is more accurate."
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Charles Leclerc, 2026 Çin Grand Prix'sinde Ferrari ile (Arşiv fotoğrafı)",
+    "kl": "Formül 1"
+   }
+  },
+  "f1-tsolov-debuet-training-mexiko-2026-10-31": {
+   "L": {
+    "body": [
+     "Nikola Tsolov, Meksika Grand Prix'sinin ilk serbest antrenmanında güçlü bir ilk çıkış yaptı. Liam Lawson'ın Racing Bulls aracına oturan Bulgar pilot, ClubS1.net'e göre soft lastiklerle 1:19,604'lük derece yaptı ve 12. oldu. Formula1.com'a göre takım arkadaşı Arvid Lindblad'ın 0,126 saniye, Red Bull pilotu Isack Hadjar'ın ise 0,059 saniye gerisinde kaldı. Focus News'e göre start-bitiş düzlüğünde 346,2 km/s hız ölçüldü.",
+     "Seansın bitmesine yaklaşık on dakika kala Tsolov kısa süreliğine pite girmek zorunda kaldı. Motorsport-Total'a göre telsizden, koltuğun bacağına baskı yaptığını ve kan dolaşımını kestiğini bildirdi; bacağı uyuşmuştu. Ardından seansa devam etti. Tsolov, Formula1.com'a göre (çeviri) “Sanırım buna hazırdım” dedi. “Sanırım çok daha iyisini yapabilirim; sadece bunun üzerine koymaya devam edip her şeyin nasıl işlediğini öğrenmek istiyorum.”",
+     "On genç pilot arasındaki en iyi isim, Mercedes'iyle üçüncü olan Danimarkalı Frederik Vesti oldu. Racing Bulls takım patronu Alan Permane, Formula1.com'a göre Tsolov'u Lawson ve Lindblad'ın yanı sıra takım için adaylar arasında sayıyor, ancak bu seansın “bir seçme olmadığını” vurguladı. Focus News'e göre Fernando Alonso antrenmandan sonra paddock'ta Bulgar pilotla sohbet etmek istedi."
+    ],
+    "d": "Nikola Tsolov, Meksika'daki ilk Formula 1 görevinde 12. oldu; Racing Bulls'un asıl pilotu Arvid Lindblad'ın yalnızca 0,126 saniye gerisinde kaldı. Bacağına baskı yapan koltuk onu kısa süre yavaşlattı.",
+    "t": "Debütte 12. sıra: Bulgar Tsolov ilk Formula 1 antrenmanında etkileyici"
+   },
+   "at": "2026-10-31T11:43Z",
+   "h": "e4604d99c269",
+   "rev": [
+    "\"Ardından yarışmaya devam etti\": a practice session is not a race; should be \"seansa devam etti\"",
+    "\"bu seansın 'bir seçme olmadığını'\": the German says \"die Einheit\" (the session), so this is fine, but the quotation marks should follow Turkish convention",
+    "\"Fernando Alonso ... sohbet etmek istedi\": German \"suchte das Gespräch\" (sought a conversation), acceptable",
+    "\"derece yaptı\": acceptable in Turkish motorsport language, but \"1:19,604'lük derece yaptı\" is more natural"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Nikola Tsolov 2025'te Monza'da (Arşiv fotoğrafı)",
+    "kl": "Formula 1"
+   }
+  },
   "ffxiv-evercold-termin-februar-2027": {
    "L": {
     "body": [
@@ -2352,6 +2409,38 @@
     "img.alt": "Niclas Füllkrug Werder Bremen forması içinde, 2021 (Arşiv fotoğrafı)"
    }
   },
+  "ls-keidel-freistoss-mainz-2026-10-31": {
+   "L": {
+    "body": [
+     "Felix Keidel, 8. Bundesliga haftasının açılışında kendini göstermeyi başardı. SV Elversberg'in cuma akşamı 1. FSV Mainz 05'i 4-1 (ilk yarı 3-0) yendiği maçta 23 yaşındaki oyuncu 7. dakikada 1-0'ı attı: Yaklaşık 20 metreden kullandığı frikiği barajın çevresinden kavisle köşeye gönderdi. Maurice Krattenmacher'in 3-0'lık golünden önce korneri de o kullandı. Taraftarlar onu maçın oyuncusu seçti. Yükselen takımın diğer gollerini Francis Onyeka ve röveşata ile Cole Campbell attı, Mainz adına geç bir dakikada Benedict Hollerbach farkı azalttı.",
+     "Keidel, eylülde Almanya Teknik Direktörü Jürgen Klopp tarafından ilk kez A Milli Takım kadrosuna çağrılmıştı. Maçın ardından Get German Football News sitesine göre, barajın biraz fazla solda durduğunu gördüğünü ve bu nedenle topu açık olan sağ köşeye gönderdiğini söyledi. Bir sonraki kadro açıklaması öncesinde teknik direktörle temas olup olmadığı sorusuna ise aynı habere göre böyle bir temasın olmadığını söyledi. Klopp, Sırbistan (13 Kasım) ve Hollanda (16 Kasım) maçları için kadrosunu 5 Kasım'da açıklayacak.",
+     "Elversberg sekiz maçın ardından 13 puana ulaştı ve galibiyetin ardından geçici olarak Avrupa kupaları sırasında yer aldı. Mainz için bir hafta içindeki üçüncü yenilgi oldu. Kaptan Nadiem Amiri ile son dönemde milli takım adayı olarak anılan forvet Phillip Tietz, 63. dakikada oyundan çıkarıldı."
+    ],
+    "d": "Felix Keidel, Mainz'a karşı 4-1'lik maçta frikikten gol attı ve bir gole asist yaptı. Kendi sözlerine göre 5 Kasım'daki milli takım çağrısından önce Almanya Teknik Direktörü Klopp'la temas olmadı.",
+    "t": "Frikik golü, maçın oyuncusu: Milli takımın yeni ismi Keidel, Elversberg'i Mainz karşısında 4-1'e taşıdı"
+   },
+   "at": "2026-10-31T11:43Z",
+   "flag": [
+    "Titel zu lang (103 Zeichen)"
+   ],
+   "h": "6c2d69229cdc",
+   "rev": [
+    "Teaser: 'aday kadro açıklaması' is imprecise; the German says 'Nominierung' and the draft mistranslates it as an announcement of the squad.",
+    "'Almanya Teknik Direktörü' for Bundestrainer: acceptable, but 'milli takım teknik direktörü' is more natural.",
+    "Body 3: 'Kaptan Nadiem Amiri ile ... Phillip Tietz, 63. dakikada' omits that both were substituted at the same time ('beide'); minor.",
+    "Body 1: the Fallrückzieher scorer is Cole Campbell, but 'Mainz için geç bir dakikada' is clumsy.",
+    "Body 1: the corner kick was not delivered by him 'kornere de o geldi' – unnatural wording.",
+    "Body 1: 'Frikiği barajın üzerinden' – the German says 'um die Mauer' (around the wall), not over it."
+   ],
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "SV Elversberg'in Kaiserlinde'deki stadyumu, 2024'teki yenileme çalışmaları sırasında (Arşiv fotoğrafı)"
+   }
+  },
   "ls-wirtz-havertz-anfield-2026-10-31": {
    "L": {
     "body": [
@@ -2545,6 +2634,31 @@
    ],
    "x": {
     "img.alt": "Achraf Hakimi (2 numara), Ocak 2025 (Arşiv fotoğrafı)"
+   }
+  },
+  "ray-ban-marvel-brillen-avengers-doomsday": {
+   "L": {
+    "body": [
+     "Ray-Ban, Marvel ile birlikte Marvel sinema evreninden dört karakteri temel alan bir gözlük koleksiyonu tanıttı. FashionUnited'a göre koleksiyon, “Avengers: Doomsday” filminin 18 Aralık 2026'daki vizyon tarihinden önce mağazalarda ve çevrimiçi satışta olacak.",
+     "Marka yeni kalıplar yerine mevcut modelleri kullanıyor: nss magazine'e göre Doctor Doom, yeşil camlı altın renkli “Bill Max” modeliyle, Captain America ise köprü kısmında yıldız bulunan kırmızı, beyaz ve mavi “Aviator Max” modeliyle yer alıyor. Spider-Man için kırmızı örümcek ağı desenli saplara ve menteşede kazınmış bir mesaja sahip siyah, katlanabilir bir Wayfarer, Deadpool için ise siyahtan kırmızıya renk geçişli yeni bir wrap model geliştirildi.",
+     "FashionUnited'a göre çocuklar için gözlük bandı bulunan kırmızı bir Spider-Man güneş gözlüğü, takılabilir güneş camlı bir numaralı çerçeve ve Captain America tasarımlı küçük bir pilot gözlüğü bulunuyor."
+    ],
+    "d": "Spider-Man, Captain America, Doctor Doom ve Deadpool: Ray-Ban dört Marvel karakterini bilinen gözlük modellerine uyarladı. Çocuk gözlükleri de var – Aralık'taki vizyondan kısa süre önce.",
+    "t": "Pilot gözlüklü Doctor Doom: Ray-Ban’den “Avengers: Doomsday” öncesi Marvel serisi"
+   },
+   "at": "2026-10-31T11:43Z",
+   "h": "11cb1d94bb27",
+   "rev": [
+    "Headline: 'çıkardı' (released) is not in the German; the German says 'bringt ... vor' (is bringing before). Changed to 'getiriyor' to be less definitive.",
+    "Teaser: 'Aralık'taki vizyon tarihinden kısa süre önce' is awkward; made natural."
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Miami Beach'te bir Ray-Ban mağazası"
    }
   },
   "robots-txt-ki-training-optout-2026-10-31-b08": {
@@ -2770,6 +2884,61 @@
      "IGF 2026'da ana ödülün sahibi"
     ],
     "rv.score": "PC Gamer 74/100 · Eurogamer 4/5"
+   }
+  },
+  "tn-struff-basel-halbfinale-2026-10-31": {
+   "L": {
+    "body": [
+     "Jan-Lennard Struff, Basel'deki üstün formunu koruyor. Dünya sıralamasında 47. sırada yer alan oyuncu, Novak Djokovic'e karşı kazandığı ilk galibiyetin bir gün ardından Swiss Indoors çeyrek finalinde Portekizli Nuno Borges'i tennisnet.com'a göre 58 dakikada 6-2, 6-3 yendi. İkinci sette 4-0 öne geçen Struff, ardından iki kez servisini kaybetti ve file hücumuyla maçı bitirdi. Struff, “Bugün de başından itibaren kendimi kortta gerçekten rahat hissettim” dedi.",
+     "36 yaşındaki Struff, cumartesi günkü yarı finalde sekizinci sırada tohumlanan Çek oyuncu Jiri Lehecka ile karşılaşacak. Reuters'in haberine göre Lehecka, İsviçreli wildcard sahibi oyuncu Jerome Kym'i 6-4, 6-2 yendi. Struff için bu, Brüksel'deki finalin ardından üst üste ikinci hafta yarı final oynamak anlamına geliyor.",
+     "Diğer yarı finalde Taylor Fritz ile Valentin Vacherot karşılaşacak. Fritz rakibi çıkmadan tur atladı: ATP'ye göre Arthur Fils, 2-6, 0-2 geride olduğu sırada tıbbi mola sonrası sakatlığı nedeniyle çekildi. Reuters'e göre Fransız oyuncu maçın başında bacağında hafif bir ağrı hissetti. Vacherot ise Holger Rune'yi 6-3, 3-6, 6-3 yendi."
+    ],
+    "d": "Jan-Lennard Struff, Swiss Indoors'ta Djokovic'e karşı kazandığı galibiyetin ardından Nuno Borges'i 6-2, 6-3 yendi. Yarı finalde Jiri Lehecka bekliyor. Arthur Fils sakatlanarak çekildi.",
+    "t": "Djokovic sürprizinin ardından Struff Basel'de yarı finalde – Fils çekildi"
+   },
+   "at": "2026-10-31T11:43Z",
+   "h": "545666f46bca",
+   "rev": [
+    "Teaser: \"Yarı finalde rakibi Jiri Lehecka\" is awkward and not a verb sentence; reworded to match \"wartet\"",
+    "Teaser: \"Djokovic'e karşı kazandığı galibiyetin ardından\" is acceptable, but \"Nuno Borges'i\" lacks the \"gegen\" nuance; left unchanged",
+    "Body 1: \"Djokovic'e karşı kazandığı ilk galibiyetin\" is fine; \"Dünya sıralamasında 47. sırada yer alan oyuncu\" is fine"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Swiss Indoors'un oynandığı Basel'deki St. Jakobshalle (Arşiv fotoğrafı)",
+    "kl": "Tenis"
+   }
+  },
+  "tn-zverev-fery-wien-halbfinale-2026-10-31": {
+   "L": {
+    "body": [
+     "Alexander Zverev, bir numara olmasını bir güç gösterisiyle kutladı. Erste Bank Open çeyrek finalinde, turnuvanın birinci seribaşı Hamburglu oyuncu, İngiliz Arthur Fery'yi tennisnet.com'a göre 58 dakikada 6-0, 6-2 yendi. İlk seti 25 dakikada alan Zverev, ikinci seti bir ace ile bitirdi. Karşılaşma, Zverev'in üç sette kazandığı Wimbledon yarı finalinin yeniden oynanmasıydı.",
+     "Cumartesi günkü yarı finalde Zverev, beşinci sıradaki seribaşı Avustralyalı Alex de Minaur ile karşılaşacak. De Minaur, Reuters'a göre Matteo Berrettini'yi 7-6 (4), 6-2 yendi. Diğer yarı finalde Carlos Alcaraz ile Daniil Medvedev karşı karşıya gelecek. Alcaraz, Tommy Paul'ü 6-4, 7-6 (2) yendi ve beş break puanının tamamını kurtardı; Medvedev ise Adrian Mannarino'yu 6-2, 6-3 mağlup etti.",
+     "Böylece Viyana'da ilk dört seribaşından üçü yarı finalde yer alıyor. Zverev, 2 Kasım Pazartesi günü yayımlanacak yeni dünya sıralamasıyla zirvede Jannik Sinner'in yerini alacak ve Boris Becker'den sonra dünya bir numarası olan yalnızca ikinci Alman oyuncu olacak."
+    ],
+    "d": "Yakında dünya bir numarası olacak Alexander Zverev, Viyana'da yarı finale yükseldi. Arthur Fery karşısında yalnızca iki oyun verdi. Cumartesi günü rakibi Alex de Minaur, Alcaraz ise Medvedev ile oynayacak.",
+    "t": "58 dakikada 6-0, 6-2: Zverev, Fery'yi sahadan sildi – yarı finalde rakibi de Minaur"
+   },
+   "at": "2026-10-31T11:43Z",
+   "h": "a976e15d2554",
+   "rev": [
+    "\"ikinci seti bir asla bitirdi\" is broken: it should be \"bir ace ile\" (ended the second set with an ace)",
+    "\"Alcaraz ... yendi\" and \"Medvedev ... mağlup etti\" are fine; \"bir numara olmasını\" is acceptable",
+    "\"Gelecekteki dünya bir numarası\" is unnatural for \"künftige Weltranglistenerste\"",
+    "\"Pazartesi\" after the date: the German has \"Montag, 2. November\"; Turkish convention is \"2 Kasım Pazartesi\", which is fine, but \"açıklanacak\" is an addition; the new ranking takes effect on Monday"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Münih'te 2025 BMW Open tek erkekler finali: Alexander Zverev ve Ben Shelton (Arşiv fotoğrafı)",
+    "kl": "Tenis"
    }
   },
   "ufc-katar-cavalcanti-montague-motta-fan": {
