@@ -1898,3 +1898,9 @@ nav.sections.nv2::before{content:"";position:absolute;left:0;right:0;top:0;heigh
 .hubt-history .fxt span{color:#f5deb3}.hubt-history .fxt em{color:#d4af37}
 .hubt-history .fxt-fp24{background:linear-gradient(160deg,#2a0d0d,#160606);border-color:#991b1b}.hubt-history .fxt-fp24 span{color:#fecaca}
 .gr-thumb-history em{background:linear-gradient(90deg,#f5deb3,#d4af37)}
+/* Mobil-Menü schlank (Nedy 01.11.2026): nur Rubriken, keine Unterpunkte – die stehen als Reiter oben auf jeder Rubrikseite */
+@media (max-width:860px){
+ .nv2 .nv-exp{display:none!important}
+ .nv2 .nav-dd .dd,.nv2 .nav-dd.ex .dd{display:none!important}
+ .nv2 .nav-dd>a.nv-top{padding-right:14px!important}
+}
