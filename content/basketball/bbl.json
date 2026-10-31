@@ -1,0 +1,330 @@
+{
+ "key": "bbl",
+ "name": {
+  "de": "easyCredit BBL",
+  "bg": "Германска баскетболна лига (BBL)",
+  "en": "easyCredit BBL",
+  "es": "easyCredit BBL (Alemania)",
+  "tr": "easyCredit BBL (Almanya)"
+ },
+ "season": "2026/27",
+ "asof": "2026-10-31",
+ "tables": [
+  {
+   "name": {},
+   "z": 6,
+   "rows": [
+    {
+     "team": "FC Bayern München Basketball",
+     "w": 5,
+     "l": 0,
+     "pf": 499,
+     "pa": 353
+    },
+    {
+     "team": "VET-CONCEPT Gladiators Trier",
+     "w": 5,
+     "l": 1,
+     "pf": 597,
+     "pa": 524
+    },
+    {
+     "team": "SKYLINERS",
+     "w": 4,
+     "l": 1,
+     "pf": 451,
+     "pa": 423
+    },
+    {
+     "team": "SYNTAINICS MBC",
+     "w": 4,
+     "l": 2,
+     "pf": 507,
+     "pa": 479
+    },
+    {
+     "team": "MHP RIESEN Ludwigsburg",
+     "w": 4,
+     "l": 2,
+     "pf": 532,
+     "pa": 520
+    },
+    {
+     "team": "Basketball Löwen Braunschweig",
+     "w": 3,
+     "l": 2,
+     "pf": 463,
+     "pa": 471
+    },
+    {
+     "team": "Fitness First Würzburg Baskets",
+     "w": 3,
+     "l": 2,
+     "pf": 401,
+     "pa": 409
+    },
+    {
+     "team": "BMA365 Bamberg Baskets",
+     "w": 3,
+     "l": 3,
+     "pf": 528,
+     "pa": 516
+    },
+    {
+     "team": "ROSTOCK SEAWOLVES",
+     "w": 3,
+     "l": 3,
+     "pf": 552,
+     "pa": 505
+    },
+    {
+     "team": "Telekom Baskets Bonn",
+     "w": 3,
+     "l": 3,
+     "pf": 512,
+     "pa": 485
+    },
+    {
+     "team": "EWE Baskets Oldenburg",
+     "w": 3,
+     "l": 3,
+     "pf": 456,
+     "pa": 503
+    },
+    {
+     "team": "ALBA BERLIN",
+     "w": 3,
+     "l": 3,
+     "pf": 500,
+     "pa": 535
+    },
+    {
+     "team": "ratiopharm ulm",
+     "w": 2,
+     "l": 4,
+     "pf": 492,
+     "pa": 529
+    },
+    {
+     "team": "Science City Jena",
+     "w": 2,
+     "l": 4,
+     "pf": 458,
+     "pa": 530
+    },
+    {
+     "team": "RASTA Vechta",
+     "w": 2,
+     "l": 5,
+     "pf": 591,
+     "pa": 636
+    },
+    {
+     "team": "Phoenix Hagen",
+     "w": 2,
+     "l": 5,
+     "pf": 600,
+     "pa": 633
+    },
+    {
+     "team": "Veolia Towers Hamburg",
+     "w": 1,
+     "l": 5,
+     "pf": 479,
+     "pa": 537
+    },
+    {
+     "team": "NINERS Chemnitz",
+     "w": 1,
+     "l": 5,
+     "pf": 513,
+     "pa": 543
+    }
+   ]
+  }
+ ],
+ "matches": [
+  {
+   "t1": "EWE Baskets Oldenburg",
+   "t2": "BMA365 Bamberg Baskets",
+   "date": "2026-10-23",
+   "ft": [
+    70,
+    80
+   ]
+  },
+  {
+   "t1": "SYNTAINICS MBC",
+   "t2": "ROSTOCK SEAWOLVES",
+   "date": "2026-10-24",
+   "ft": [
+    103,
+    98
+   ]
+  },
+  {
+   "t1": "MHP RIESEN Ludwigsburg",
+   "t2": "Telekom Baskets Bonn",
+   "date": "2026-10-24",
+   "ft": [
+    84,
+    68
+   ]
+  },
+  {
+   "t1": "RASTA Vechta",
+   "t2": "VET-CONCEPT Gladiators Trier",
+   "date": "2026-10-24",
+   "ft": [
+    88,
+    97
+   ]
+  },
+  {
+   "t1": "Phoenix Hagen",
+   "t2": "Basketball Löwen Braunschweig",
+   "date": "2026-10-25",
+   "ft": [
+    88,
+    73
+   ]
+  },
+  {
+   "t1": "FC Bayern München Basketball",
+   "t2": "Veolia Towers Hamburg",
+   "date": "2026-10-25",
+   "ft": [
+    96,
+    77
+   ]
+  },
+  {
+   "t1": "ALBA BERLIN",
+   "t2": "ratiopharm ulm",
+   "date": "2026-10-25",
+   "ft": [
+    98,
+    82
+   ]
+  },
+  {
+   "t1": "Fitness First Würzburg Baskets",
+   "t2": "NINERS Chemnitz",
+   "date": "2026-10-26",
+   "ft": [
+    98,
+    88
+   ]
+  },
+  {
+   "t1": "Science City Jena",
+   "t2": "SKYLINERS",
+   "date": "2026-10-30",
+   "ft": [
+    82,
+    93
+   ]
+  },
+  {
+   "t1": "Phoenix Hagen",
+   "t2": "RASTA Vechta",
+   "date": "2026-10-30",
+   "ft": [
+    74,
+    100
+   ]
+  },
+  {
+   "t1": "BMA365 Bamberg Baskets",
+   "t2": "Science City Jena",
+   "date": "2026-11-01",
+   "time": "15:00"
+  },
+  {
+   "t1": "ROSTOCK SEAWOLVES",
+   "t2": "FC Bayern München Basketball",
+   "date": "2026-11-01",
+   "time": "15:00"
+  },
+  {
+   "t1": "Veolia Towers Hamburg",
+   "t2": "SYNTAINICS MBC",
+   "date": "2026-11-01",
+   "time": "16:30"
+  },
+  {
+   "t1": "Telekom Baskets Bonn",
+   "t2": "ALBA BERLIN",
+   "date": "2026-11-01",
+   "time": "18:00"
+  },
+  {
+   "t1": "FC Bayern München Basketball",
+   "t2": "Basketball Löwen Braunschweig",
+   "date": "2026-11-03",
+   "time": "20:00"
+  },
+  {
+   "t1": "ALBA BERLIN",
+   "t2": "Phoenix Hagen",
+   "date": "2026-11-06",
+   "time": "20:00"
+  },
+  {
+   "t1": "ROSTOCK SEAWOLVES",
+   "t2": "ratiopharm ulm",
+   "date": "2026-11-07",
+   "time": "18:30"
+  },
+  {
+   "t1": "VET-CONCEPT Gladiators Trier",
+   "t2": "BMA365 Bamberg Baskets",
+   "date": "2026-11-07",
+   "time": "18:30"
+  },
+  {
+   "t1": "RASTA Vechta",
+   "t2": "NINERS Chemnitz",
+   "date": "2026-11-07",
+   "time": "20:00"
+  },
+  {
+   "t1": "Telekom Baskets Bonn",
+   "t2": "Basketball Löwen Braunschweig",
+   "date": "2026-11-07",
+   "time": "20:00"
+  },
+  {
+   "t1": "SYNTAINICS MBC",
+   "t2": "SKYLINERS",
+   "date": "2026-11-08",
+   "time": "15:00"
+  },
+  {
+   "t1": "MHP RIESEN Ludwigsburg",
+   "t2": "EWE Baskets Oldenburg",
+   "date": "2026-11-08",
+   "time": "16:30"
+  },
+  {
+   "t1": "Fitness First Würzburg Baskets",
+   "t2": "FC Bayern München Basketball",
+   "date": "2026-11-08",
+   "time": "18:00"
+  }
+ ],
+ "src": [
+  {
+   "n": "easyCredit BBL – Tabelle",
+   "u": "https://www.easycredit-bbl.de/saison/tabelle"
+  },
+  {
+   "n": "easyCredit BBL – Startseite (Ergebnisse & kommende Spiele)",
+   "u": "https://www.easycredit-bbl.de/"
+  },
+  {
+   "n": "easyCredit BBL – Aktuelle Spiele",
+   "u": "https://www.easycredit-bbl.de/saison/aktuelle-spiele"
+  }
+ ]
+}

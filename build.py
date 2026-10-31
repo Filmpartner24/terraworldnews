@@ -2509,7 +2509,11 @@ def bb_block(k, l, today):
     tabs = ''
     for t in lg.get('tables', []):
         nm = t.get('name', {}); nm = nm.get(l) or nm.get('en', '') if isinstance(nm, dict) else nm
-        tabs += (f'<h3 class="bb-th">{e(nm)}</h3>' if nm else '') + f'<div class="tbl-wrap"><table class="fb-t bb-t">{head}<tbody>{bb_rows(t["rows"], t.get("z", 0))}</tbody></table></div>'
+        tb = f'<div class="tbl-wrap"><table class="fb-t bb-t">{head}<tbody>{bb_rows(t["rows"], t.get("z", 0))}</tbody></table></div>'
+        if not any('pf' in x for x in t['rows']):   # ohne Punktsummen: Spalten weglassen
+            import re as _re
+            tb = tb.replace(f'<th class="n">{U["pf"]}</th><th class="n">{U["diff"]}</th>', '').replace('<td class="n">–</td><td class="n">–</td>', '')
+        tabs += (f'<h3 class="bb-th">{e(nm)}</h3>' if nm else '') + tb
     def mrow(m):
         sc = f'{m["ft"][0]}:{m["ft"][1]}' if m.get('ft') else (m.get('time') or '–')
         return (f'<tr><td class="fb-dt">{e(num_date(m["date"]))}</td><td class="fb-h">{e(m["t1"])}</td><td class="fb-sc">{e(sc)}</td><td class="fb-a">{e(m["t2"])}</td></tr>')
