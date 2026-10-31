@@ -1540,3 +1540,29 @@ a.rl-g:hover{filter:brightness(1.1)}
 .hubt-leben .fxt-fitness{background:linear-gradient(160deg,#10200f,#0a140a);border-color:#24461c}.hubt-leben .fxt-fitness span{color:#bef264}
 .hubt-leben .fxt-guinness{background:linear-gradient(160deg,#2b2405,#141003);border-color:#a16207}.hubt-leben .fxt-guinness span{color:#fde047}
 .hubt-leben .fxt-exklusiv{background:linear-gradient(160deg,#2a1505,#160b03);border-color:#9a3412}.hubt-leben .fxt-exklusiv span{color:#fdba74}
+/* Mode (Rosé/Gold) und Technologie (Cyan/Violett) im Hub-Design – Nedy 31.10.2026 */
+.hub-mode{background:#140812}
+.hub-mode::before{background:linear-gradient(90deg,rgba(18,6,16,.94) 0%,rgba(18,6,16,.8) 36%,rgba(18,6,16,.25) 66%,rgba(18,6,16,.05) 100%),linear-gradient(0deg,rgba(236,72,153,.25),transparent 45%),radial-gradient(110% 90% at 88% 8%,rgba(212,175,55,.3),transparent 55%)}
+.hub-mode::after{background:linear-gradient(120deg,#f472b6,#d4af37,#fde68a,#c084fc,#f472b6);background-size:300% 100%}
+.hub-mode .fxb-kick{color:#f9a8d4}.hub-mode .fxb-pulse{background:#ec4899}
+.hub-mode .fxb-title{letter-spacing:.08em;text-shadow:0 0 20px rgba(236,72,153,.45),0 4px 18px rgba(0,0,0,.7)}
+.hub-mode .fxb-title span{background-image:linear-gradient(90deg,#f9a8d4,#fde68a,#d4af37)}
+.hub-mode .fxb-sub{color:#fce7f3}.hub-mode .fxb-series{background:linear-gradient(90deg,#db2777,#b8860b);color:#fff}
+.hubt-mode .fxt{background:linear-gradient(160deg,#22101e,#120810);border-color:#5b1d47}.hubt-mode .fxt:hover{border-color:#f472b6}
+.hubt-mode .fxt span{color:#fbcfe8}.hubt-mode .fxt em{color:#f9a8d4}
+.hubt-mode .fxt-designer,.hubt-mode .fxt-exklusiv{background:linear-gradient(160deg,#2b2405,#141003);border-color:#a16207}.hubt-mode .fxt-designer span,.hubt-mode .fxt-exklusiv span{color:#fde68a}
+.hubt-mode .fxt-video{background:linear-gradient(160deg,#1e1438,#0f0a1f);border-color:#6d28d9}.hubt-mode .fxt-video span{color:#ddd6fe}
+.hub-ki{background:#050a18}
+.hub-ki::before{background:linear-gradient(90deg,rgba(4,8,22,.94) 0%,rgba(4,8,22,.8) 36%,rgba(4,8,22,.25) 66%,rgba(4,8,22,.05) 100%),linear-gradient(0deg,rgba(34,211,238,.25),transparent 45%),radial-gradient(110% 90% at 88% 8%,rgba(139,92,246,.32),transparent 55%)}
+.hub-ki::after{background:linear-gradient(120deg,#22d3ee,#8b5cf6,#3b82f6,#a5f3fc,#22d3ee);background-size:300% 100%}
+.hub-ki .fxb-kick{color:#67e8f9}.hub-ki .fxb-pulse{background:#22d3ee}
+.hub-ki .fxb-title{text-shadow:0 0 20px rgba(34,211,238,.45),0 4px 18px rgba(0,0,0,.7)}
+.hub-ki .fxb-title span{background-image:linear-gradient(90deg,#67e8f9,#818cf8,#c084fc)}
+.hub-ki .fxb-sub{color:#cffafe}.hub-ki .fxb-series{background:linear-gradient(90deg,#0891b2,#7c3aed);color:#fff}
+.hubt-ki .fxt{background:linear-gradient(160deg,#0a1530,#060c1d);border-color:#1e3a8a}.hubt-ki .fxt:hover{border-color:#22d3ee}
+.hubt-ki .fxt span{color:#a5f3fc}.hubt-ki .fxt em{color:#67e8f9}
+.hubt-ki .fxt-ai{background:linear-gradient(160deg,#1e1438,#0f0a1f);border-color:#6d28d9}.hubt-ki .fxt-ai span{color:#ddd6fe}
+.hubt-ki .fxt-raumfahrt{background:linear-gradient(160deg,#0b1220,#04070f);border-color:#334155}.hubt-ki .fxt-raumfahrt span{color:#cbd5e1}
+.hubt-ki .fxt-security{background:linear-gradient(160deg,#071d16,#04110c);border-color:#065f46}.hubt-ki .fxt-security span{color:#a7f3d0}
+.gr-thumb-mode em{background:linear-gradient(90deg,#f9a8d4,#fde68a)}
+.gr-thumb-ki em,.gr-thumb-ai em{background:linear-gradient(90deg,#67e8f9,#a78bfa)}

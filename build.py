@@ -1172,6 +1172,43 @@ def leben_block(l, its):
             href = f' href="{sub_url("leben", key, l)}"'; nm = SUB[l][key][0]
         tiles += f'<a class="fxt fxt-{key}"{href}><i>{ic}</i><b>{e(nm)}</b><span>{e(LX(ds)[l])}</span>' + (f'<em>{len(xs)}</em>' if xs else '') + '</a>'
     return hub_block(l, 'leben', tiles)
+HUBU['mode'] = {'bg': dict(kick='TWN · Мода', title='<span>МОДА</span>', sub='Трендове · Дизайнери · Модни седмици · Стил', series='Мода във видео'),
+ 'de': dict(kick='TWN · Mode', title='<span>MODE</span>', sub='Trends · Designer · Fashion Weeks · Stil', series='Mode im Video'),
+ 'en': dict(kick='TWN · Fashion', title='<span>FASHION</span>', sub='Trends · Designers · Fashion weeks · Style', series='Fashion on video'),
+ 'es': dict(kick='TWN · Moda', title='<span>MODA</span>', sub='Tendencias · Diseñadores · Semanas de la moda · Estilo', series='Moda en vídeo'),
+ 'tr': dict(kick='TWN · Moda', title='<span>MODA</span>', sub='Trendler · Tasarımcılar · Moda haftaları · Stil', series='Videoda moda')}
+HUBU['ki'] = {'bg': dict(kick='TWN · Технологии', title='<span>ТЕХНОЛОГИИ</span>', sub='ИИ · Космос · Чипове · Роботи · Наука', series='Технологии във видео'),
+ 'de': dict(kick='TWN · Technologie', title='<span>TECHNOLOGIE</span>', sub='KI · Raumfahrt · Chips · Roboter · Forschung', series='Tech im Video'),
+ 'en': dict(kick='TWN · Technology', title='<span>TECHNOLOGY</span>', sub='AI · Space · Chips · Robots · Research', series='Tech on video'),
+ 'es': dict(kick='TWN · Tecnología', title='<span>TECNOLOGÍA</span>', sub='IA · Espacio · Chips · Robots · Investigación', series='Tecnología en vídeo'),
+ 'tr': dict(kick='TWN · Teknoloji', title='<span>TEKNOLOJİ</span>', sub='Yapay zekâ · Uzay · Çipler · Robotlar · Araştırma', series='Videoda teknoloji')}
+def _tile(l, key, ic, nm, ds, xs, href=None):
+    if href is None: href = art_url(xs[0], l) if xs else ''
+    return f'<a class="fxt fxt-{key}"' + (f' href="{href}"' if href else '') + f'><i>{ic}</i><b>{e(nm)}</b><span>{e(LX(ds)[l])}</span>' + (f'<em>{len(xs)}</em>' if xs else '') + '</a>'
+def mode_block(l, its):
+    D = {'imtrend': ('🔥', {'bg': 'Улична мода, сезонни трендове, визии', 'de': 'Streetstyle, Saisontrends, Looks', 'en': 'Street style, seasonal trends, looks', 'es': 'Estilo urbano, tendencias, looks', 'tr': 'Sokak stili, sezon trendleri, görünümler'}),
+         'designer': ('✂', {'bg': 'Модни къщи, колекции, ревюта', 'de': 'Modehäuser, Kollektionen, Schauen', 'en': 'Fashion houses, collections, shows', 'es': 'Casas de moda, colecciones, desfiles', 'tr': 'Moda evleri, koleksiyonlar, defileler'}),
+         'dessous': ('✦', {'bg': 'Марки, бельо, бранш', 'de': 'Marken, Wäsche, Branche', 'en': 'Brands, lingerie, industry', 'es': 'Marcas, lencería, sector', 'tr': 'Markalar, iç giyim, sektör'})}
+    t = ''.join(_tile(l, k, D[k][0], SUB[l][k][0], D[k][1], [x for x in its if x.get('sub') == k], sub_url('mode', k, l)) for k in LSUBS['mode'])
+    t += _tile(l, 'video', '▶', LX({'bg': 'Мода във видео', 'de': 'Mode im Video', 'en': 'Fashion on video', 'es': 'Moda en vídeo', 'tr': 'Videoda moda'})[l], {'bg': 'Ревюта и модни къщи – официални канали', 'de': 'Schauen und Modehäuser – offizielle Kanäle', 'en': 'Shows and fashion houses, official channels', 'es': 'Desfiles y casas de moda, canales oficiales', 'tr': 'Defileler ve moda evleri, resmî kanallar'}, [x for x in its if x.get('yt')])
+    t += _tile(l, 'news', '📰', LX({'bg': 'Модни новини', 'de': 'Mode-News', 'en': 'Fashion news', 'es': 'Noticias de moda', 'tr': 'Moda haberleri'})[l], {'bg': 'Бизнес, магазини, марки', 'de': 'Business, Läden, Marken', 'en': 'Business, stores, brands', 'es': 'Negocio, tiendas, marcas', 'tr': 'İş dünyası, mağazalar, markalar'}, [x for x in its if not x.get('yt')])
+    t += _tile(l, 'exklusiv', '✍', LX({'bg': 'TWN Ексклузивно', 'de': 'TWN Exklusiv', 'en': 'TWN Exclusive', 'es': 'TWN Exclusivo', 'tr': 'TWN Özel'})[l], {'bg': 'Собствени статии на нашите автори', 'de': 'Eigene Artikel unserer Autorinnen und Autoren', 'en': 'Original articles by our writers', 'es': 'Artículos propios de nuestros autores', 'tr': 'Yazarlarımızın özgün makaleleri'}, [x for x in its if x.get('au')])
+    return hub_block(l, 'mode', t)
+def ki_block(l, its, ai_its):
+    def kw(x, words):
+        T = x.get('de') or x.get('en') or {}
+        h = (str(T.get('t', '')) + ' ' + str(T.get('d', ''))).lower()
+        return any(w in h for w in words)
+    sec = ['cyber', 'hacker', 'sicherheitslücke', 'it-sicherheit', 'ransomware', 'datenleck', 'phishing', 'malware']
+    sci = ['forsch', 'wissenschaft', 'studie', 'physik', 'quanten', 'labor', 'max-planck', 'mit-video', 'universität']
+    rest = [x for x in its if x.get('sub') != 'raumfahrt']
+    t = _tile(l, 'ai', '🤖', SEC[l]['ai'][0], {'bg': 'Модели, компании, регулация', 'de': 'Modelle, Firmen, Regulierung', 'en': 'Models, companies, regulation', 'es': 'Modelos, empresas, regulación', 'tr': 'Modeller, şirketler, düzenleme'}, ai_its, sec_url('ai', l))
+    t += _tile(l, 'raumfahrt', '🚀', SUB[l]['raumfahrt'][0], {'bg': 'Ракети, сонди, телескопи', 'de': 'Raketen, Sonden, Teleskope', 'en': 'Rockets, probes, telescopes', 'es': 'Cohetes, sondas, telescopios', 'tr': 'Roketler, sondalar, teleskoplar'}, [x for x in its if x.get('sub') == 'raumfahrt'], sub_url('ki', 'raumfahrt', l))
+    t += _tile(l, 'video', '▶', LX({'bg': 'Технологии във видео', 'de': 'Tech im Video', 'en': 'Tech on video', 'es': 'Tecnología en vídeo', 'tr': 'Videoda teknoloji'})[l], {'bg': 'Обяснено от институти и производители', 'de': 'Erklärt von Instituten und Herstellern', 'en': 'Explained by institutes and makers', 'es': 'Explicado por institutos y fabricantes', 'tr': 'Enstitü ve üreticilerden açıklamalar'}, [x for x in rest if x.get('yt')])
+    t += _tile(l, 'forschung', '🔬', LX({'bg': 'Наука и изследвания', 'de': 'Wissenschaft & Forschung', 'en': 'Science & research', 'es': 'Ciencia e investigación', 'tr': 'Bilim ve araştırma'})[l], {'bg': 'Квантови технологии, физика, лаборатории', 'de': 'Quanten, Physik, Labore', 'en': 'Quantum, physics, labs', 'es': 'Cuántica, física, laboratorios', 'tr': 'Kuantum, fizik, laboratuvarlar'}, [x for x in rest if kw(x, sci)])
+    t += _tile(l, 'security', '🛡', LX({'bg': 'Киберсигурност', 'de': 'IT-Sicherheit', 'en': 'Cybersecurity', 'es': 'Ciberseguridad', 'tr': 'Siber güvenlik'})[l], {'bg': 'Атаки, пропуски, защита', 'de': 'Angriffe, Lücken, Schutz', 'en': 'Attacks, flaws, protection', 'es': 'Ataques, fallos, protección', 'tr': 'Saldırılar, açıklar, koruma'}, [x for x in rest if kw(x, sec)])
+    t += _tile(l, 'news', '📰', LX({'bg': 'Технологични новини', 'de': 'Tech-News', 'en': 'Tech news', 'es': 'Noticias tecnológicas', 'tr': 'Teknoloji haberleri'})[l], {'bg': 'Чипове, смартфони, мобилност, индустрия', 'de': 'Chips, Smartphones, Mobilität, Industrie', 'en': 'Chips, smartphones, mobility, industry', 'es': 'Chips, móviles, movilidad, industria', 'tr': 'Çipler, akıllı telefonlar, mobilite, sanayi'}, [x for x in rest if not x.get('yt')])
+    return hub_block(l, 'ki', t)
 def mh_items():
     return sorted([x for x in (MUSIK.get('all') or []) if x.get('sub') == 'mhistory'], key=lambda x: (x['date'], x['time']), reverse=True)
 def mh_credit(l):
@@ -1674,10 +1711,14 @@ def mpager(l, n, total, url, top=False):
 def games_page(l, its, day0, others, SX, kind='games', title=None, mgenre=None, mpage_url=None):
     u = UI[l]; g = dict(GPU[l]); g.update(MPU.get(kind, {}).get(l, {}))
     def thumb_ov(it):   # Nedy 31.10.2026: Profi-Thumbnail – Foto + Verlauf + Kicker + Schlagzeile direkt im Player (Fitness/Gesundheit)
-        if it.get('s') != 'leben' or it.get('sub') not in ('fitness', 'gesundheit'): return ''
-        k = it.get('kl') or {}; kt = k.get(l) or k.get('en') or k.get('de') or ''
-        pre = 'TWN FITNESS' if it.get('sub') == 'fitness' else LX({'bg': 'TWN ЗДРАВЕ', 'de': 'TWN GESUNDHEIT', 'en': 'TWN HEALTH', 'es': 'TWN SALUD', 'tr': 'TWN SAĞLIK'})[l]
-        return f'<span class="gr-thumb gr-thumb-{it.get("sub")}" aria-hidden="true"><em>{e(pre)}{(" · " + e(kt)) if kt else ""}</em><strong>{e(it[l]["t"])}</strong></span>'
+        _s, _k = it.get('s'), it.get('sub')
+        if not ((_s == 'leben' and _k in ('fitness', 'gesundheit')) or _s in ('mode', 'ki', 'ai')): return ''
+        k = it.get('kl') if isinstance(it.get('kl'), dict) else {}; kt = k.get(l) or k.get('en') or k.get('de') or ''
+        if not kt and _k and _k in SUB.get(l, {}): kt = SUB[l][_k][0]
+        if _s == 'leben': pre = 'TWN FITNESS' if _k == 'fitness' else LX({'bg': 'TWN ЗДРАВЕ', 'de': 'TWN GESUNDHEIT', 'en': 'TWN HEALTH', 'es': 'TWN SALUD', 'tr': 'TWN SAĞLIK'})[l]
+        else: pre = 'TWN ' + SEC[l][_s][0].upper()
+        cls = _k if _s == 'leben' else _s
+        return f'<span class="gr-thumb gr-thumb-{cls}" aria-hidden="true"><em>{e(pre)}{(" · " + e(kt)) if kt else ""}</em><strong>{e(it[l]["t"])}</strong></span>'
     def cover_style(it):
         im = it.get('img')
         return f' style="background-image:url({im["f"]})"' if im else ''
@@ -2877,8 +2918,10 @@ def build():
                                      + ''.join(f'<a href="{sec_url(x, l)}">{e(SEC[l][x][0])}</a>' for x in NAV_DD_EXTRA.get(s, []))
                                      + ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if cur == k else ""}>{e(SUB[l][k][0])}</a>' for k in LSUBS[s]) + '</nav>')
                 if s not in ('musik', 'games', 'film'): body = ltabs(None) + body   # Musik/Games: Kategorie-Raster statt Reiter (seit 26.10.2026)
-                if s == 'leben' and '<div class="gp-panel">' in body:   # Leben & Alltag – Allgemein im Fitness-Design (Nedy 31.10.2026)
-                    body = body.replace('<div class="gp-panel">', '<div class="gp-panel">' + leben_block(l, [it for it in items_l if it['s'] == 'leben']), 1)
+                if s in ('leben', 'mode', 'ki') and '<div class="gp-panel">' in body:   # Leben & Alltag / Mode / Technologie im Fitness-Design (Nedy 31.10.2026)
+                    _si = [it for it in items_l if it['s'] == s]
+                    _hb = leben_block(l, _si) if s == 'leben' else mode_block(l, _si) if s == 'mode' else ki_block(l, _si, [it for it in items_l if it['s'] == 'ai'])
+                    body = body.replace('<div class="gp-panel">', '<div class="gp-panel">' + _hb, 1)
                 for k in LSUBS[s]:
                     _pool = [it for it in items_l if (it['s'] == s or s in also_secs(it)) and it.get('sub') == k]   # komplette Sammlung, Seitenzahlen unten (Nedy 27.10.2026)
                     if s == 'musik': _pool = MUSIK.get('hist') or its
