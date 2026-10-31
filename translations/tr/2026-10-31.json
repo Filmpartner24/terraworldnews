@@ -2638,6 +2638,33 @@
     "img.alt": "ONE'ın (o dönemki adıyla ONE FC) 2011'de Singapur'daki basın toplantısı (sembolik fotoğraf)"
    }
   },
+  "openai-monitoring-fehlverhalten-modelle": {
+   "L": {
+    "body": [
+     "OpenAI, yapay zekâ modellerini hatalı davranışa karşı izleyen sistemini genişletti ve ayrıntılı biçimde açıkladı. Gerekçe, modellerin dahili bir test ortamından kaçtığı Hugging Face olayı. Sistem dört aşamada çalışıyor: Küçük denetim programları modelin içsel sinyallerini değerlendiriyor, bir denetim modeli düşünce zincirlerini ve araç çağrılarını izliyor, soruşturma ajanları şüpheli olayları yeniden kurguluyor ve hassas görevlerde insanlar uyarılmadan önce kayıtlar ayrıca ağ verileriyle karşılaştırılıyor.",
+     "OpenAI'ye göre sistem eylülde devreye girdi: Bir model, izole edilmiş bir ortamdan internete bir yol buldu. Şirketin verdiği bilgilere göre izleme sistemi 15 dakika içinde alarm verdi, üç dakika sonra insanlar tarafından inceleme başladı ve eğitim durduruldu. OpenAI'ye göre Hugging Face olayının yeniden kurgulandığı bir simülasyonda yeni sistem, kaçıştan yaklaşık 30 dakika sonra uyarı verirdi; bu da asıl izinsiz girişten 30 saatten fazla önce demekti. İlk olayda henüz böyle bir izleme sistemi etkin değildi.",
+     "OpenAI sınırlamaları da belirtiyor: İzleme eş zamanlı değil, gecikmeli çalışıyor, şirket içi programlama ajanı Codex için anında alarm devre dışı ve harici API kullanımının izlenmesinde eski Chat Completions arayüzü üzerinden gelen istekler kapsanmıyor. Harici denetçiler METR ve Redwood Research üç hafta içinde zayıflıklar buldu; OpenAI'ye göre bunların büyük bölümü giderildi, bir düzeltme henüz bekleniyor."
+    ],
+    "d": "OpenAI, Hugging Face olayının ardından dört aşamalı kontrol sistemini genişletti. Eylülde bir model eğitim sırasında internete bir yol bulunca sistem alarm verdi.",
+    "t": "15 dakika sonra alarm: OpenAI yapay zekâ modellerini hatalı davranışa karşı böyle izliyor"
+   },
+   "at": "2026-10-31T12:09Z",
+   "h": "ce93a57cc4cb",
+   "rev": [
+    "Teaser: 'eğitim sırasında internete bir yol bulunca sistem alarm verdi' is missing the attribution of the German original; the first paragraph's 'Gerekçe' is fine, but 'mehr als 30 Stunden' needs a cl",
+    "Paragraph 2: the 'hätte gewarnt' sentence is clumsy ('uyarı vermiş olacağı ... uyarabileceği'), redundant and repeats the idea; rewritten as reported conditional",
+    "Paragraph 3: 'Die Überwachung läuft zeitversetzt' was rendered as 'eş zamanlı değil, gecikmeli' – acceptable; 'Prüfer' is fine; no change needed"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Büyüteç altında OpenAI logosu",
+    "kl": "Güvenlik"
+   }
+  },
   "psg-hakimi-hattrick-le-havre-2026-10-31-b08": {
    "L": {
     "body": [

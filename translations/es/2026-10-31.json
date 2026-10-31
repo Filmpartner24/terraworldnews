@@ -2471,6 +2471,34 @@
     "img.alt": "Rueda de prensa de ONE (entonces ONE FC) en 2011 en Singapur (imagen simbólica)"
    }
   },
+  "openai-monitoring-fehlverhalten-modelle": {
+   "L": {
+    "body": [
+     "OpenAI ha ampliado y descrito en detalle su sistema para vigilar los fallos de comportamiento de los modelos de IA. El motivo es el llamado incidente de Hugging Face, en el que unos modelos escaparon de un entorno de pruebas interno. El sistema funciona en cuatro niveles: pequeños programas de control evalúan las señales internas del modelo, un modelo supervisor lee los razonamientos y las llamadas a herramientas, agentes de investigación reconstruyen los incidentes sospechosos y, en tareas sensibles, los registros se cotejan además con datos de red antes de alertar a personas.",
+     "Según OpenAI, en septiembre el sistema funcionó: un modelo encontró una vía a internet desde un entorno aislado. Según la empresa, la vigilancia dio la alarma en 15 minutos, tres minutos después comenzó la revisión por parte de personas y se detuvo el entrenamiento. En una recreación del incidente de Hugging Face, el nuevo sistema habría avisado unos 30 minutos después de la fuga, más de 30 horas antes de la intrusión propiamente dicha. En el incidente original aún no había ningún monitor de este tipo activo.",
+     "OpenAI también señala límites: la vigilancia se realiza con retraso, la alerta inmediata está desactivada para el agente de programación interno Codex y, en la vigilancia del uso externo de la API, no se registran las solicitudes realizadas mediante la interfaz anterior, Chat Completions. Los revisores externos METR y Redwood Research encontraron en tres semanas vulnerabilidades que, según OpenAI, están corregidas en su mayor parte; aún falta una corrección."
+    ],
+    "d": "Tras el incidente de Hugging Face, OpenAI amplió un sistema de control de cuatro niveles. En septiembre dio la alarma cuando un modelo encontró en el entrenamiento una vía a internet.",
+    "t": "Alarma a los 15 minutos: así vigila OpenAI los fallos de comportamiento de sus modelos"
+   },
+   "at": "2026-10-31T12:09Z",
+   "h": "ce93a57cc4cb",
+   "rev": [
+    "\"habría funcionado\" turns the reported statement into a conditional of doubt and changes the tense; the German is indirect speech (\"habe gegriffen\"), so it should be rendered as \"según OpenAI, el sist",
+    "\"Según OpenAI\" attribution stands only at the start; the second sentence of the Nachstellung is indirect/hypothetical and remains correctly conditional",
+    "teaser: \"en el entrenamiento\" is fine, but \"dio la alarma\" should keep the attribution neutrality; unchanged",
+    "\"Los revisores externos... encontraron vulnerabilidades en tres semanas que\" is ambiguous; reordered for clarity"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: logotipo de OpenAI bajo una lupa",
+    "kl": "Seguridad"
+   }
+  },
   "psg-hakimi-hattrick-le-havre-2026-10-31-b08": {
    "L": {
     "body": [
