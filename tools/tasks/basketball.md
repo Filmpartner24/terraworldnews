@@ -7,6 +7,8 @@ AUFTRAG: genau 4 neue Items pro Tag:
  B) 1 VIDEO-ITEM (Pflicht): Highlights/Analysen NUR von offiziellen Rechteinhaber-Kanälen, die ihre eigenen Videos hochladen: NBA, EuroLeague Basketball, easyCredit BBL, FIBA, Basketball Bundesliga/MagentaSport (nur offizielle Kanäle), Vereinskanäle (ALBA BERLIN, FC Bayern Basketball), DBB (Deutscher Basketball Bund). NIE Re-Upload-, Fan- oder Compilation-Kanäle. Video-ID nur aus tatsächlich gesehener URL; Prüfung über die Download-Brücke (_regeln.md Nr. 3, Ordner bridge/basketball/). yt {"id","ch","kind":"video","t":{bg,de,en}}. In Deutschland abspielbar. Wenn kein Video sicher prüfbar: Video-Item weglassen und im Bericht nennen.
  Feld "hk" je Item: "nba" | "euroleague" | "bbl" | "fiba" | "bulgarien".
 
+LIGADATEN (Nedy 31.10.2026, PFLICHT, vor den News): content/basketball/bbl.json (easyCredit BBL), acb.json (Liga Endesa, Spanien), nba.json (NBA, zwei Tabellen Ost/West) täglich aktualisieren – Format siehe vorhandene Dateien: "asof" = heute, "tables"[…].rows (team, w, l, optional pf/pa; offizielle Reihenfolge), "matches" = letzte ~10 Ergebnisse ("ft":[Heim, Gast]) + nächste ~10 Spiele (Datum, Uhrzeit deutsche Zeit), "src". Quellen: easycredit-bbl.de, acb.com, nba.com/standings, ESPN, kicker, sportschau, Marca/AS. Nur Belegtes; kein Live-Ticker. Die Seite zeigt daraus Tabellen, nächste Spiele und Ergebnisse.
+
 AKTUALITÄT: Nachrichten ≤ 2 Tage (Spielergebnisse vom letzten Spieltag/der letzten Nacht). Nichts wiederholen, was in content/*-basketball.json der letzten 7 Tage oder heute in content/<heute>*.json steht.
 
 RECHERCHE: WebSearch (mode "extended" bei Ergebnissen) + WebFetch. Quellen: nba.com, euroleaguebasketball.net, easycredit-bbl.de, fiba.basketball, basketball-bund.de, Vereinsseiten, ESPN, AP, Reuters, kicker, Sport1, sportschau, BTA/Gong.bg/Sportal.bg für Bulgarien. Mindestens 2 Quellen pro Item. Jede Zahl (Punkte, Rebounds, Ergebnisse, Tabellenplätze), jeder Name, jedes Datum und Zitat muss in einer abgerufenen Quelle stehen.
@@ -17,7 +19,7 @@ BILDER: Wikimedia Commons über candidates/<YYYY-MM-DD>-basketball/requests.json
 
 FAKTENCHECK: ein unabhängiger Prüfer-Subagent prüft Ergebnisse, Statistiken, Namen, Daten und die Kanal-Berechtigung des Videos; Fehler korrigieren oder Item ersetzen.
 
-VERÖFFENTLICHEN: Python-Prüfung (4 neue Items, s="sport", sub="basketball", jedes mit img; genau 1 mit yt; body Listen; Längen; ids einmalig). PYTHONHASHSEED=1 python3 build.py fehlerfrei; Stichprobe out/de/sport/basketball/index.html. git add content candidates bridge static/assets/news; Commit „Basketball <Datum>“ mit den Attributionszeilen der Sitzung; git pull --rebase; git push. Danach Fotos und Cloudflare-Status nach _regeln.md Nr. 6 prüfen; candidates/ und bridge/basketball/ in einem Folge-Commit löschen.
+VERÖFFENTLICHEN: Python-Prüfung (4 neue Items, s="sport", sub="basketball", jedes mit img; genau 1 mit yt; body Listen; Längen; ids einmalig). PYTHONHASHSEED=1 python3 build.py fehlerfrei; Stichprobe out/de/sport/basketball/index.html. git add content candidates bridge static/assets/news (inkl. content/basketball/); Commit „Basketball <Datum>“ mit den Attributionszeilen der Sitzung; git pull --rebase; git push. Danach Fotos und Cloudflare-Status nach _regeln.md Nr. 6 prüfen; candidates/ und bridge/basketball/ in einem Folge-Commit löschen.
 
 BERICHT kurz auf Deutsch: die 3 Schlagzeilen, das Video (Kanal), was weggelassen wurde. PushNotification nur bei Problemen (_regeln.md Nr. 7).
 

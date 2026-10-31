@@ -2481,6 +2481,55 @@ def fb_league_page(k, l, today, others):
             f'<aside class="sec-side"><h2 class="list-h">{e(f["leagues"])}</h2><ul class="fb-ll">{others_l}</ul>'
             f'<h2 class="list-h">{e(LX({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"})[l])}</h2>{others}</aside></div></div>')
 
+# ---- Basketball (Nedy 31.10.2026): Tabellen, nächste Spiele, Ergebnisse für BBL, Liga ACB, NBA – ohne Live-Ticker. Daten: content/basketball/<key>.json
+BB = {}; BB_ORDER = ['bbl', 'acb', 'nba']
+def bb_load():
+    BB.clear(); d = os.path.join(HERE, 'content', 'basketball')
+    for k in BB_ORDER:
+        fp = os.path.join(d, f'{k}.json')
+        if os.path.exists(fp):
+            try: BB[k] = json.load(open(fp, encoding='utf-8'))
+            except ValueError: pass
+BBU = {'bg': dict(table='Класиране', next='Следващи мачове', res='Последни резултати', team='Отбор', p='М', w='П', l='З', pf='Точки', diff='+/−', pct='%', tip='Начален час: българско време', src='Данни', asof='към', leagues='Лиги', none='Скоро тук.'),
+       'de': dict(table='Tabelle', next='Nächste Spiele', res='Letzte Ergebnisse', team='Team', p='Sp', w='S', l='N', pf='Punkte', diff='+/−', pct='Quote', tip='Spielbeginn: deutsche Zeit', src='Daten', asof='Stand', leagues='Ligen', none='Demnächst hier.'),
+       'en': dict(table='Standings', next='Upcoming games', res='Latest results', team='Team', p='GP', w='W', l='L', pf='Points', diff='+/−', pct='Pct', tip='Tip-off: German time', src='Data', asof='as of', leagues='Leagues', none='Coming soon.'),
+       'es': dict(table='Clasificación', next='Próximos partidos', res='Últimos resultados', team='Equipo', p='PJ', w='G', l='P', pf='Puntos', diff='+/−', pct='%', tip='Hora de inicio: hora alemana', src='Datos', asof='a', leagues='Ligas', none='Próximamente.'),
+       'tr': dict(table='Puan durumu', next='Sıradaki maçlar', res='Son sonuçlar', team='Takım', p='O', w='G', l='M', pf='Sayı', diff='+/−', pct='%', tip='Başlama saati: Almanya saati', src='Veri', asof='itibarıyla', leagues='Ligler', none='Yakında.')}
+def bb_rows(rows, z=0):
+    out = ''
+    for i, x in enumerate(rows):
+        g = x['w'] + x['l']; pct = f'{x["w"] / g:.3f}'.lstrip('0') if g else '–'
+        d = x.get('pf', 0) - x.get('pa', 0) if 'pf' in x else None
+        out += (f'<tr{" class=fb-top" if i < z else ""}><td class="n">{i + 1}</td><th scope="row">{e(x["team"])}</th><td class="n">{g}</td><td class="n">{x["w"]}</td><td class="n">{x["l"]}</td>'
+                + (f'<td class="n">{x["pf"]}:{x["pa"]}</td><td class="n">{"+" if d > 0 else ""}{d}</td>' if d is not None else '<td class="n">–</td><td class="n">–</td>') + f'<td class="n"><b>{pct}</b></td></tr>')
+    return out
+def bb_block(k, l, today):
+    lg = BB[k]; U = BBU.get(l, BBU['en'])
+    head = f'<thead><tr><th class="n">#</th><th>{U["team"]}</th><th class="n">{U["p"]}</th><th class="n">{U["w"]}</th><th class="n">{U["l"]}</th><th class="n">{U["pf"]}</th><th class="n">{U["diff"]}</th><th class="n">{U["pct"]}</th></tr></thead>'
+    tabs = ''
+    for t in lg.get('tables', []):
+        nm = t.get('name', {}); nm = nm.get(l) or nm.get('en', '') if isinstance(nm, dict) else nm
+        tabs += (f'<h3 class="bb-th">{e(nm)}</h3>' if nm else '') + f'<div class="tbl-wrap"><table class="fb-t bb-t">{head}<tbody>{bb_rows(t["rows"], t.get("z", 0))}</tbody></table></div>'
+    def mrow(m):
+        sc = f'{m["ft"][0]}:{m["ft"][1]}' if m.get('ft') else (m.get('time') or '–')
+        return (f'<tr><td class="fb-dt">{e(num_date(m["date"]))}</td><td class="fb-h">{e(m["t1"])}</td><td class="fb-sc">{e(sc)}</td><td class="fb-a">{e(m["t2"])}</td></tr>')
+    ms = lg.get('matches', [])
+    up = sorted([m for m in ms if not m.get('ft') and m['date'] >= today], key=lambda m: (m['date'], m.get('time', '')))[:10]
+    dn = sorted([m for m in ms if m.get('ft')], key=lambda m: (m['date'], m.get('time', '')), reverse=True)[:10]
+    nxt = (f'<h3 class="bb-th">{e(U["next"])}</h3><div class="tbl-wrap"><table class="fb-m"><tbody>' + ''.join(mrow(m) for m in up) + f'</tbody></table></div><p class="fb-ko">{e(U["tip"])}</p>') if up else ''
+    res = (f'<h3 class="bb-th">{e(U["res"])}</h3><div class="tbl-wrap"><table class="fb-m"><tbody>' + ''.join(mrow(m) for m in dn) + '</tbody></table></div>') if dn else ''
+    src = lg.get('src') or []
+    sl = ' · '.join(f'<a href="{e(x["u"])}" rel="noopener nofollow" target="_blank">{e(x["n"])}</a>' for x in src[:3])
+    nm = lg['name'].get(l) or lg['name'].get('en')
+    return (f'<details class="bb-lg" id="bb-{k}"{" open" if k == BB_ORDER[0] else ""}><summary><span class="bb-lg-n">{e(nm)}</span><span class="bb-lg-s">{e(lg.get("season", ""))}</span></summary>'
+            f'<div class="bb-lg-b"><div class="bb-col">{tabs or "<p class=fb-ko>" + e(U["none"]) + "</p>"}</div><div class="bb-col">{nxt}{res}</div></div>'
+            + (f'<p class="fb-ko">{e(U["src"])}: {sl}' + (f' · {e(U["asof"])} {num_date(lg["asof"])}' if lg.get('asof') else '') + '</p>' if sl else '') + '</details>')
+def bb_section(l, today):
+    if not BB: bb_load()
+    if not BB: return ''
+    U = BBU.get(l, BBU['en'])
+    return '<section class="bb-wrap"><h2 class="gp-h">🏀 ' + e(U['leagues']) + '</h2>' + ''.join(bb_block(k, l, today) for k in BB_ORDER if k in BB) + '</section>'
+
 # ---- Länderspiele: Nations League (Daten: content/nations-league/<saison>.json, UEFA-Daten redaktionell geprüft)
 NL = {}
 NT = {'Deutschland': ('Германия', 'Germany'), 'Niederlande': ('Нидерландия', 'Netherlands'), 'Griechenland': ('Гърция', 'Greece'), 'Serbien': ('Сърбия', 'Serbia'),
@@ -3105,6 +3154,10 @@ def build():
                         sb = tabs(k) + fb_league_page(uk, l, latest['date'], _others(s))
                         un = sorted([x for x in its if x.get('sub') == k or x.get('uc') == k], key=lambda x: (x['date'], x['time']), reverse=True)
                         if un: sb += games_page(l, un, un[0]['date'], '', SX, s, title=LX({'bg': 'Новини', 'de': 'News', 'en': 'News'})[l] + ' · ' + SUB[l][k][0])
+                    elif s == 'sport' and k == 'basketball':   # Basketball (Nedy 31.10.2026): Ligen mit Tabellen/Spielen + News
+                        sb = tabs(k) + games_page(l, sits, sits[0]['date'] if sits else latest['date'], _others(s), SX, s, title=title)
+                        _bbs = bb_section(l, latest['date'])
+                        if _bbs: sb = sb.replace('<div class="gp-panel">', '<div class="gp-panel">' + _bbs, 1)
                     elif s == 'sport' and k == 'handball' and 'handball-bundesliga' in FB:   # Handball-Bundesliga: Tabelle/Spieltage wie Fußball
                         HBK = LX({'bg': 'Начален час: българско време', 'de': 'Anwurfzeiten: deutsche Zeit', 'en': 'Throw-off times: German time'})
                         sb = tabs(k) + fb_league_page('handball-bundesliga', l, latest['date'], _others(s)).replace(e(FBU[l]['ko']), e(HBK[l]))

@@ -1825,3 +1825,16 @@ nav.sections.nv2::before{content:"";position:absolute;left:0;right:0;top:0;heigh
 .bz-en-news ul{list-style:none;margin:0;padding:0;columns:2;column-gap:28px}.bz-en-news li{break-inside:avoid;padding:8px 0;border-bottom:1px solid #e5e9f0;font-size:15px}
 .bz-en-news li a{color:#0b1d47;font-weight:600;text-decoration:none}.bz-en-news li .meta{display:block;font-size:12px;color:#64748b}
 @media (max-width:700px){.bz-en-news ul{columns:1}}
+/* Basketball-Ligen (Nedy 31.10.2026) */
+.bb-wrap{margin:0 0 22px}
+.bb-lg{border:1px solid #2a2445;border-radius:12px;margin:0 0 10px;background:linear-gradient(165deg,#13102a,#0b0918);overflow:hidden}
+.bb-lg>summary{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;cursor:pointer;list-style:none;border-left:4px solid #f97316}
+.bb-lg>summary::-webkit-details-marker{display:none}
+.bb-lg>summary::after{content:"";width:9px;height:9px;border-right:2px solid #fff;border-bottom:2px solid #fff;transform:rotate(45deg);margin-left:8px;transition:transform .2s}
+.bb-lg[open]>summary::after{transform:rotate(-135deg)}
+.bb-lg-n{font-family:var(--head);font-size:22px;color:#fff;text-transform:uppercase;letter-spacing:.03em}
+.bb-lg-s{margin-left:auto;font-family:var(--label);font-size:13px;color:#fdba74}
+.bb-lg-b{display:grid;grid-template-columns:1.25fr 1fr;gap:16px;padding:4px 16px 12px}
+.bb-th{margin:12px 0 6px;font-family:var(--label);font-size:14px;letter-spacing:.06em;text-transform:uppercase;color:#fdba74}
+.bb-lg .fb-ko{padding:0 16px 12px}
+@media (max-width:900px){.bb-lg-b{grid-template-columns:1fr}}
