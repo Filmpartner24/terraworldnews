@@ -497,6 +497,28 @@
     "img.alt": "Sembolik fotoğraf: Hong Kong'da bir Jimmy Choo mağazası"
    }
   },
+  "claude-app-carplay-sprachmodus": {
+   "L": {
+    "body": [
+     "Anthropic, akıllı telefonlar ve tabletler için sunduğu Claude uygulamalarını kapsamlı bir güncellemeyle yeniledi. Sesli modun daha hızlı yanıt vermesi, kısık sesi ve gürültülü ortamları daha iyi işlemesi ve İngilizce dışındaki dillerde daha doğal duyulması hedefleniyor. Ayrıca, örneğin biri kişisel biri iş hesabı olmak üzere birden fazla Claude hesabı aynı anda açık tutulabiliyor ve oturumu kapatmadan hesaplar arasında geçiş yapılabiliyor. Claude kanalının resmi videosu yenilikleri tanıtıyor.",
+     "iPad'de Claude tarafından oluşturulan içerikler sohbetin yanında açılıyor ve tam ekrana büyütülebiliyor. Android'de Chromebook'lar ve katlanabilir telefonlar için ayarlanabilir kenar çubuğu, dokunmatik yüzey desteği ve klavye kısayolları sunan, dizüstü bilgisayara benzer bir görünüm bulunuyor. Kullanıcı arayüzü artık 33 dili destekliyor; bunların 24'ü yeni ve aralarında Bengalce ile Türkçe de var. iPhone ve iPad için kaydırma hareketiyle arama özelliği duyuruldu, ancak henüz güncellemenin parçası değil.",
+     "Anthropic bu kapsamda Apple CarPlay üzerinden sesli modu da resmen tanıttı; haberlere göre bu mod Eylül başından beri zaten kullanıma açık. Bunun için uygulamanın aracın ekranında elle açılması gerekiyor; bir uyandırma sözcüğü yok ve Claude araç ya da telefon işlevlerini kontrol edemiyor. Yapay zekâ modellerinde ve fiyatlarda hiçbir değişiklik olmuyor."
+    ],
+    "d": "Güncelleme aynı anda oturum açılmış hesaplar, daha hızlı bir sesli mod, iPad, Chromebook ve katlanabilir telefonlar için yeni bir görünüm getiriyor; CarPlay entegrasyonu da resmen tanıtıldı.",
+    "t": "Çoklu hesap, iyi sesli mod, 24 yeni dil: Anthropic Claude uygulamalarını yeniliyor"
+   },
+   "at": "2026-10-31T13:03Z",
+   "h": "ebe06c5e9950",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Bir aracın ekranında Apple CarPlay",
+    "kl": "Uygulama güncellemesi"
+   }
+  },
   "cou-cou-bon-marche-pop-up-natalia-vodianova": {
    "L": {
     "body": [
@@ -1072,6 +1094,33 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Gaz ocağının mavi alevi"
+   }
+  },
+  "eth-roboterhand-krabbelt": {
+   "L": {
+    "body": [
+     "Robot eller normalde bir kola bağlıdır. ETH Zürih'in Soft Robotics Lab laboratuvarı ise kendi başına hareket eden bir el geliştirdi: El kendi ağırlığını taşıyor, parmak uçlarında sürünüyor ve aynı parmaklarla nesneleri kavrıyor. Üniversite bu hafta elin hareket halini gösteren bir video yayımladı. Çalışma Amirhossein Kazemipour, Hehui Zheng ve Robert Katzschmann'a ait.",
+     "Temelde üretici Wuji'nin piyasada satılan bir robot eli yer alıyor. Ekip, elin sırtına yaklaşık 80 gram ağırlığında bir “sırt çantası” yerleştirdi; içinde Raspberry Pi Zero 2 W mini bilgisayarı, bir konum sensörü ve küçük bir batarya var. Kablolar olmadan elin ağırlığı bir kilogramın biraz altında. El yürüyüşü bir simülasyonda pekiştirmeli öğrenme yoluyla öğrendi; ardından bir sinir ağı onu saniyede 50 kez kontrol ediyor. Dört bacaklı yürüyen robotlar için kullanılan olağan ödül kuralları, parmakların uzunlukları farklı olduğu için işe yaramadı; araştırmacılar bu nedenle kendi kurallarını geliştirdi.",
+     "Testlerde el, metal ızgara, suni çim ve gevşek çakıl dahil 14 zeminde süründü ve düştükten sonra kendi kendine doğruldu. Klavyedeki yön tuşlarına bastı; bulmaca oyunu Sokoban'ı oynamak için 32 tuş basışının 29'u başarılı oldu. Hasarlı binalar veya borular gibi dar alanlarda kullanımın mümkün olabileceği belirtildi. Ekip, kendi ifadesine göre elin bir robot gövdesine otomatik olarak bağlanıp ayrılmasını henüz göstermedi."
+    ],
+    "d": "Zürihli araştırmacılar, piyasada satılan bir robot eline yapay zekâ eğitimiyle yürümeyi öğretti. El bataryasını ve bilgisayarını kendisi taşıyor, 14 zemini aşıyor ve düştükten sonra yeniden ayağa kalkıyor.",
+    "t": "Parmaklar bacak oldu: ETH videosunda tek başına sürünen, tuşa basan robot eli"
+   },
+   "at": "2026-10-31T13:03Z",
+   "h": "e3280823b367",
+   "rev": [
+    "Untranslated English term 'Reinforcement Learning' kept in parentheses; the Turkish equivalent is already given, so the parenthetical English is unnecessary",
+    "Headline 'Parmaklar bacak oldu' is acceptable; no change",
+    "Sentence about tests: 'Klavyedeki yön tuşlarına bastı; ... oynamak için' is acceptable"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: 2016 Hannover Messe'de bir robot el",
+    "kl": "Robot"
    }
   },
   "europa-eu-paketgebuehr-2-euro-2026-10-31": {
@@ -2785,6 +2834,33 @@
    "x": {
     "img.alt": "Sembolik fotoğraf: Büyüteç altında OpenAI logosu",
     "kl": "Güvenlik"
+   }
+  },
+  "physical-intelligence-20-milliarden": {
+   "L": {
+    "body": [
+     "Kaliforniyalı yapay zekâ şirketi Physical Intelligence'ın, haberlere göre en az 1 milyar dolarlık yeni bir finansman turu için görüştüğü bildirildi. Haber ajansı Bloomberg'in görüşmelere aşina kişilere dayanarak salı günü aktardığına göre girişimin değeri yaklaşık 20 milyar dolar olarak belirlenebilir. Turu mevcut yatırımcılar Avenir ve Lux Capital'in yönetmesi bekleniyor. Bu bilgi doğrulanmış değil; şirket ve yatırımcılar yorum yapmadı.",
+     "Physical Intelligence, 2026'da daha önce 11,5 milyar dolarlık değerlemeyle fon toplamıştı; yeni değerleme bunun neredeyse iki katı olurdu. Bloomberg'e göre, 2024'te eski Google DeepMind araştırmacıları ile Stanford ve Berkeley'den bilim insanları tarafından kurulan şirket şimdiye kadar gelir elde etmedi. Yatırımcılar arasında CapitalG, Jeff Bezos ve Thrive Capital de bulunuyor.",
+     "Physical Intelligence, makineleri kimin ürettiğinden bağımsız olarak robotların gerçek dünyadaki görevleri yerine getirmesini sağlayan yapay zekâ yazılımı geliştiriyor. Harici geliştiriciler 13 Ekim'den bu yana modelleri test aşamasında bir arayüz üzerinden kullanabiliyor, kendi verileriyle yeniden eğitebiliyor ve robotlarında çalıştırabiliyor. Rakip Skild AI'ın değeri ocak ayında 14 milyar dolar olarak belirlenmişti."
+    ],
+    "d": "Yapay zekâsı farklı üreticilerin robotlarını yöneten ABD'li girişim, Bloomberg'e göre en az 1 milyar dolar için görüşüyor; değerlemesi neredeyse ikiye katlanabilir.",
+    "t": "Geliri olmayan robot beyni: Physical Intelligence'ın değeri 20 milyar dolara çıkabilir"
+   },
+   "at": "2026-10-31T13:03Z",
+   "h": "76d2de3d5c76",
+   "rev": [
+    "Teaser: Konjunktiv \"würde sich verdoppeln\" was rendered as a certain future (\"ikiye katlanacak\"); conditional marker added.",
+    "Paragraph 2: \"wäre fast doppelt so hoch\" was rendered as a certain future (\"olacak\"); conditional marker added.",
+    "Paragraph 2: \"Bereits früher im Jahr 2026\" was rendered as \"2026'nın başlarında\" (early 2026), which changes the meaning; corrected to \"2026'da daha önce\"."
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Kapak görseli: Physical Intelligence yeni finansman için görüşüyor",
+    "kl": "Finansman"
    }
   },
   "psg-hakimi-hattrick-le-havre-2026-10-31-b08": {

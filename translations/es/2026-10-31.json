@@ -443,6 +443,28 @@
     "img.alt": "Imagen simbólica: tienda de Jimmy Choo en Hong Kong"
    }
   },
+  "claude-app-carplay-sprachmodus": {
+   "L": {
+    "body": [
+     "Anthropic ha dotado a sus apps de Claude para teléfonos inteligentes y tabletas de una actualización de mayor calado. El modo de voz debe responder más rápido, procesar mejor el habla en voz baja y los entornos ruidosos, y sonar más natural en idiomas distintos del inglés. Además, se pueden mantener varias cuentas de Claude, por ejemplo una personal y otra profesional, con la sesión iniciada al mismo tiempo y cambiar entre ellas sin cerrar sesión. El vídeo oficial del canal de Claude presenta las novedades.",
+     "En el iPad, los contenidos creados por Claude se abren junto al chat y pueden ampliarse a pantalla completa. En Android hay, para Chromebooks y móviles plegables, una vista similar a la de un portátil con barra lateral ajustable, compatibilidad con panel táctil y atajos de teclado. La interfaz admite ahora 33 idiomas, 24 de ellos nuevos, entre ellos el bengalí y el turco. Una búsqueda mediante gesto de deslizamiento para iPhone y iPad está anunciada, pero todavía no forma parte de la actualización.",
+     "Anthropic también ha presentado oficialmente el modo de voz a través de Apple CarPlay, que según informaciones ya está disponible desde principios de septiembre. Para ello, la app debe abrirse manualmente en la pantalla del coche; no hay palabra de activación y Claude no puede controlar funciones del vehículo ni del teléfono. No cambia nada en los modelos de IA ni en los precios."
+    ],
+    "d": "La actualización incorpora cuentas con sesión iniciada a la vez, un modo de voz más rápido y una nueva vista para iPad, Chromebooks y móviles plegables, y presenta oficialmente la integración con CarPlay.",
+    "t": "Varias cuentas, mejor modo de voz, 24 idiomas nuevos: Anthropic renueva las apps de Claude"
+   },
+   "at": "2026-10-31T13:03Z",
+   "h": "ebe06c5e9950",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: Apple CarPlay en la pantalla de un coche",
+    "kl": "Actualización de la app"
+   }
+  },
   "cou-cou-bon-marche-pop-up-natalia-vodianova": {
    "L": {
     "body": [
@@ -993,6 +1015,32 @@
    ],
    "x": {
     "img.alt": "Imagen simbólica: llama azul de una cocina de gas"
+   }
+  },
+  "eth-roboterhand-krabbelt": {
+   "L": {
+    "body": [
+     "Las manos robóticas suelen ir unidas a un brazo. El Soft Robotics Lab de la ETH de Zúrich ha construido una mano que se desplaza de forma autónoma: soporta su propio peso, gatea sobre las yemas de los dedos y agarra objetos con esos mismos dedos. La universidad publicó esta semana un vídeo que muestra la mano en acción. El estudio es de Amirhossein Kazemipour, Hehui Zheng y Robert Katzschmann.",
+     "La base es una mano robótica comercial del fabricante Wuji. El equipo colocó en su dorso una «mochila» de unos 80 gramos con un miniordenador Raspberry Pi Zero 2 W, un sensor de posición y una pequeña batería; sin cables, la mano pesa casi un kilogramo. Aprendió a caminar mediante aprendizaje por refuerzo (Reinforcement Learning) en una simulación; después, una red neuronal la controla 50 veces por segundo. Las reglas de recompensa habituales para robots caminantes de cuatro patas no funcionaron porque los dedos tienen longitudes distintas, por lo que los investigadores desarrollaron las suyas propias.",
+     "En las pruebas, la mano gateó sobre 14 superficies, entre ellas rejillas metálicas, césped artificial y grava suelta, y se levantó sola tras las caídas. Pulsó teclas de flecha de un teclado para jugar al rompecabezas Sokoban; lo logró en 29 de 32 pulsaciones. Según los investigadores, serían concebibles usos en espacios estrechos, como edificios dañados o tuberías. Según el propio equipo, todavía no ha demostrado el acoplamiento y desacoplamiento automáticos a un cuerpo robótico."
+    ],
+    "d": "Investigadores de Zúrich enseñaron a caminar, mediante entrenamiento con IA, a una mano robótica comercial. Lleva su propia batería y ordenador, supera 14 superficies y se levanta tras las caídas.",
+    "t": "Dedos como patas: un vídeo de la ETH muestra una mano robótica que gatea y pulsa teclas"
+   },
+   "at": "2026-10-31T13:03Z",
+   "h": "e3280823b367",
+   "rev": [
+    "Se perdió la relación 'sie drückte Pfeiltasten ... dabei gelangen 29 von 32': 'para jugar' queda ambiguo; se aclara que las pulsaciones sirvieron para jugar a Sokoban",
+    "'Según se indica' es vago para el discurso indirecto; se reformula como condicional con atribución al equipo"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: una mano robótica en la Hannover Messe 2016",
+    "kl": "Robots"
    }
   },
   "europa-eu-paketgebuehr-2-euro-2026-10-31": {
@@ -2621,6 +2669,33 @@
    "x": {
     "img.alt": "Imagen simbólica: logotipo de OpenAI bajo una lupa",
     "kl": "Seguridad"
+   }
+  },
+  "physical-intelligence-20-milliarden": {
+   "L": {
+    "body": [
+     "La empresa californiana de IA Physical Intelligence negocia, según informes, una nueva ronda de financiación de al menos 1.000 millones de dólares. La start-up podría valorarse en unos 20.000 millones de dólares, informó el martes la agencia Bloomberg, citando a personas familiarizadas con las conversaciones. La ronda, según estas fuentes, estaría liderada por los inversores actuales Avenir y Lux Capital. No está confirmado; la empresa y los inversores no hicieron declaraciones.",
+     "Ya antes, en 2026, Physical Intelligence había captado fondos con una valoración de 11.500 millones de dólares; la nueva valoración sería casi el doble. Según Bloomberg, la empresa, fundada en 2024 por antiguos investigadores de Google DeepMind y científicos de Stanford y Berkeley, aún no genera ingresos. Entre sus inversores figuran también CapitalG, Jeff Bezos y Thrive Capital.",
+     "Physical Intelligence desarrolla software de IA con el que los robots realizan tareas en el mundo real, independientemente de quién haya construido las máquinas. Desde el 13 de octubre, desarrolladores externos pueden usar los modelos en una fase de prueba a través de una interfaz, reentrenarlos con sus propios datos y emplearlos en sus robots. Su competidora Skild AI fue valorada en enero en 14.000 millones de dólares."
+    ],
+    "d": "La start-up estadounidense, cuya IA controla robots de distintos fabricantes, negocia al menos 1.000 millones de dólares, según Bloomberg; su valoración casi se duplicaría.",
+    "t": "Cerebro robótico sin ingresos: Physical Intelligence podría valorarse en 20.000 millones"
+   },
+   "at": "2026-10-31T13:03Z",
+   "h": "76d2de3d5c76",
+   "rev": [
+    "Teaser: 'negocia ... según Bloomberg' is attributed correctly; no change needed.",
+    "'A principios de 2026' does not match 'Bereits früher im Jahr 2026' (earlier in 2026, not necessarily early); meaning narrowed.",
+    "'ya había captado' is fine, but 'a principios' is an addition."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico de portada: Physical Intelligence negocia nueva financiación",
+    "kl": "Financiación"
    }
   },
   "psg-hakimi-hattrick-le-havre-2026-10-31-b08": {
