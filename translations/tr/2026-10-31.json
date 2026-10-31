@@ -334,6 +334,35 @@
     "kl": "Koruyucu sağlık ve yaşam tarzı"
    }
   },
+  "bbl-vechta-hagen-frankfurt-jena-2026-10-31": {
+   "L": {
+    "body": [
+     "RASTA Vechta, cuma akşamı farklı skorlu bir galibiyetle easyCredit BBL'de düşme hattından uzaklaştı. Takım, Phoenix Hagen deplasmanında 3.027 seyirci önünde 100-74 kazandı. Dengeli geçen ilk çeyreğin (25-25) ardından Vechta, 24-6'lık bir seriyle açıldı ve devreyi 56-38 önde kapattı. En skorer isim, altı BBL maçını kaçırdıktan sonra geri dönen Tommy Kuhse oldu; Kuhse 24 sayı, yedi asist ve sekiz serbest atışın sekizinde isabet kaydetti. Matt Lewis altı üçlükten dördünü buldu (18 sayı), Tibor Pleiß ise 11 sayı ve 10 ribauntla oynadı.",
+     "Pleiß, lig raporuna göre “Birlikte oynandığında basketbol bu kadar kolay olabilir” dedi. Hagen'de Bjarne Kraushaar 22 sayı ve altı üçlükle dikkat çekti. Ligin verdiği bilgiye göre Vechta, bu galibiyetle şimdilik düşme hattından çıktı. Hagen önümüzdeki cuma günü ALBA Berlin deplasmanında oynayacak.",
+     "Jena'da Skyliners Frankfurt devreye 50-53 geride girdi, ancak üçüncü çeyrekte yalnızca sekiz sayıya izin verdi ve maçı 93-82 kazandı. Judah Mintz 20 sayı attı, Till Pape 12 sayı ve 10 ribauntla double-double yaptı. Frankfurt için bu, beş maçta dördüncü galibiyetti. Zirvede yenilgisiz FC Bayern (5-0) yer almaya devam ediyor; pazar günü Telekom Baskets Bonn, diğer maçların yanı sıra ALBA Berlin'i konuk edecek."
+    ],
+    "d": "7. haftanın açılışında RASTA Vechta, Hagen deplasmanında 26 sayı farkla kazandı. Skyliners Frankfurt, devreyi geride kapattığı Jena maçını 93-82 kazandı. Lider FC Bayern.",
+    "t": "BBL: Vechta, Hagen'i 100-74 yendi, Frankfurt Jena'da maçı çevirdi"
+   },
+   "at": "2026-10-31T21:17Z",
+   "h": "43596b83557c",
+   "rev": [
+    "Teaser: 'Lider Bayern Münih' is an incomplete sentence and the club name differs from the German (FC Bayern); 'ilk yarıyı geride kapattığı' wrongly suggests Frankfurt led at halftime, but Frankfurt tr",
+    "Teaser: 'Hagen deplasmanında' is fine, but the Frankfurt sentence needs the halftime deficit",
+    "Body 1: 'farklı bir galibiyetle' is a wrong rendering of 'Kantersieg' (a lopsided win)",
+    "Body 1: 'sekiz serbest atışın sekizinde' is correct, but 'altı üçlükten dördünü' is an addition (six attempts, four made, so it matches the German)",
+    "Body 3: 'devreye 50-53 geride girdi' is fine; 'Zirvede ... yer almaya devam ediyor' is fine",
+    "Body 3: the Bonn sentence 'unter anderem' is a little ambiguous but acceptable"
+   ],
+   "rev_dbg": [
+    6,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Şu anda RASTA Vechta'da oynayan Tibor Pleiß (kırmızılı), Saski Baskonia formasıyla daha önceki bir maçta (Arşiv fotoğrafı)"
+   }
+  },
   "beatles-dont-let-me-down-rooftop-1969-2026-10-31": {
    "L": {
     "body": [
@@ -1642,6 +1671,32 @@
     "img.alt": "Eintracht teknik direktörü Adi Hütter (Arşiv fotoğrafı)"
    }
   },
+  "el-bayern-pleite-belgrad-2026-10-31": {
+   "L": {
+    "body": [
+     "FC Bayern Münih basketbol takımı için EuroLeague sezonu giderek zorlaşıyor. Antrenör Anton Gavel'in takımı perşembe akşamı Kızıl Yıldız Belgrad deplasmanında 73-103 yenildi. Eurohoops'a göre Belgrad devre arasında zaten 48-31 öndeydi ve farkı sonrasında giderek açtı. Sportschau'ya göre Münihliler için bu, dokuz maçtaki yedinci yenilgiydi.",
+     "Ev sahibi ekipte altı oyuncu çift haneli sayı kaydetti. Belgrad'ın en skorer ismi 15 sayı, beş ribaund ve beş asistle Chima Moneke oldu; Jordan Nwora ile Tyson Carter 14'er, Christian Koloko ile Semi Ojeleye 12'şer sayı attı. Yazdan beri Belgrad'da forma giyen Alman dünya şampiyonu David Krämer ise on sayı kaydetti. Bayern'de Myles Norris ile Duane Washington 14'er sayıyla en skorer isimlerdi. Kızıl Yıldız'ın dokuz maçta altı galibiyeti oldu.",
+     "Münihliler 22 Ekim'de kendi sahalarında Dubai Basketball'a karşı devreye 36-63 geride girmiş ve maçı 91-107 kaybetmişti. easyCredit BBL'de ise FC Bayern beş maçta beş galibiyetle lider. Takım pazar günü Rostock'ta, salı günü ise evinde Braunschweig'a karşı oynayacak."
+    ],
+    "d": "FC Bayern Münih, Kızıl Yıldız Belgrad deplasmanında 30 sayı farkla kaybetti. Münihliler dokuz hafta sonunda EuroLeague'de iki galibiyette, Bundesliga'da ise yenilgisiz.",
+    "t": "EuroLeague: Bayern Belgrad'da 73-103 yenildi – dokuz maçta yedinci mağlubiyet"
+   },
+   "at": "2026-10-31T21:17Z",
+   "h": "38d8bb1d8042",
+   "rev": [
+    "Teaser: \"iki galibiyette\" is unnatural and the wording is awkward; it should say they have two wins after nine rounds",
+    "Krämer sentence: \"Yazdan beri\" should be \"Yazdan beri\" (fine), but \"Belgrad'ın en skorer ismi\" is an addition; the German says Moneke led Belgrade, which is fine",
+    "Dubai game: \"Münihliler ... kendi sahalarında\" fine"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Belgrad Arena, Kızıl Yıldız Belgrad'ın EuroLeague'deki iç saha salonu (Arşiv fotoğrafı)"
+   }
+  },
   "elevenlabs-sfx-v3-soundeffekte": {
    "L": {
     "body": [
@@ -2187,6 +2242,36 @@
    "x": {
     "img.alt": "Pirinç, fasulye ve yeşil sebze (sembolik fotoğraf)",
     "kl": "Antrenörler açıklıyor"
+   }
+  },
+  "ffest-cannes-moulin-kinostart-nemes": {
+   "L": {
+    "body": [
+     "Macar yönetmen László Nemes (“Son of Saul”), “Moulin”i Mayıs ayında 79. Cannes Film Festivali'nin yarışma bölümünde tanıtmıştı; prömiyer 17 Mayıs'ta yapıldı. Film 28 Ekim'den bu yana Fransız sinemalarında gösteriliyor. Film, işgal altındaki Fransa'da direniş gruplarını Charles de Gaulle'ün çatısı altında birleştirmesi gereken, ihanete uğrayan ve Lyon'da Klaus Barbie yönetimindeki Gestapo'nun eline düşen direniş lideri Jean Moulin'i anlatıyor. Moulin'i Gilles Lellouche, Barbie'yi Lars Eidinger canlandırıyor; ayrıca Louise Bourgoin ve Félix Lefebvre de filmde yer alıyor.",
+     "Festival, filmin vizyona girmesi nedeniyle Nemes ile yapılan bir röportajı yayımladı. Nemes orada (çeviri) şunları söylüyor: “İzleyicinin, Jean Moulin'in yoldaşlarından biri gibi olmasını, onun çektiği acılara ve fedakârlıklarına tanıklık etmesini istedim.” Ayrıca: “Paranoyak bir film yapmak istedik.” Eidinger'e “Bergman'ın filmlerindeki Max von Sydow gibi” olmasını söylediğini belirten Nemes'e göre Barbie, karikatüre dönüşmek yerine “mutlak cerrahi bir soğukluğu” korumalıydı.",
+     "Filmin yapımcıları Pitchipoï Productions ve Montmartre Films ile TF1 Films Production; film 35 milimetrelik filmle çekildi. Film New Europe'a göre “Moulin”, Cannes'da 35 mm kopyadan gösterilen tek filmdi. Film 130 dakika sürüyor ve Fransızca ile Almanca konuşuluyor. Almanya'da şimdiye kadar bir vizyon tarihi yok. 80. Cannes Film Festivali 11-22 Mayıs 2027 tarihleri arasında yapılacak."
+    ],
+    "d": "Fransız sinemaları 28 Ekim'den bu yana direniş savaşçısı Jean Moulin'in son günlerini anlatan “Moulin”i gösteriyor; Moulin'i Gilles Lellouche, Klaus Barbie'yi Lars Eidinger canlandırıyor.",
+    "t": "Cannes yarışma filmi “Moulin”: László Nemes'in direniş draması Fransa'da vizyonda"
+   },
+   "at": "2026-10-31T21:17Z",
+   "h": "a25b61c9fdbb",
+   "rev": [
+    "Teaser: Lars Eidinger'in Klaus Barbie'yi canlandırdığı cümle bozuk; Lellouche'un rolü (Moulin) eksik, kişi yapısı kopuk",
+    "Direniş (Résistance) hareketi olarak 'Direniş lideri' büyük harfle yazılmış; 'direniş' ile tutarsız",
+    "Eidinger cümlesi: dolaylı anlatım 'söylemiş' yeterince net aktarılmamış, 'Nemes'e göre ... söylemiş' bozuk ve Barbie kısmı dolaylı anlatım olarak atfedilmemiş",
+    "'Direniş draması' başlıkta büyük harfle yazılmış",
+    "Yapımcı cümlesi ve dil cümlesi biraz bozuk: 'Fransızca ile Almanca' dil cümlesi",
+    "'einen sollte' anlamı: birleştirmekle görevliydi; 'öngörülen' belirsiz ve cümle bağlantısı bozuk"
+   ],
+   "rev_dbg": [
+    6,
+    5,
+    0
+   ],
+   "x": {
+    "fk": "Cannes Film Festivali · 11–22.05.2027",
+    "img.alt": "Arşiv fotoğrafı: Yönetmen László Nemes, 2026'da Cannes'da “Moulin”in prömiyerinde"
    }
   },
   "ffest-locarno-you-dont-belong-here-mannheim": {
@@ -4461,6 +4546,57 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Alan Adı Sistemi'nin (DNS) şeması"
+   }
+  },
+  "nba-curry-warriors-lakers-comeback-2026-10-31": {
+   "L": {
+    "body": [
+     "Golden State Warriors, NBA Cup grup maçında Los Angeles Lakers karşısında 25 sayılık dezavantajı net bir galibiyete çevirdi. Cumartesiye karşı gece San Francisco'daki maçı takım 112-95 kazandı. İlk çeyrekten sonra Lakers 38-15 öndeydi; Luka Dončić o âna kadar 21 sayı ve beş üçlük kaydetmişti. İkinci çeyreği ise AP'ye göre Warriors 38-15 kazandı.",
+     "Stephen Curry 31 sayı, altı asist ve dört ribaundla takımının en çok sayı atan ismi oldu. AP'ye göre bu performansla Dominique Wilkins'i (26.668 sayı) geride bıraktı ve NBA'in tüm zamanların en çok sayı atanlar listesinde 18. sıraya yükseldi. Brandin Podziemski 21 sayı katkı yaptı, yedek kulübesinden De'Anthony Melton (16) ve Georges Niang (11) sayı getirdi. Dončić maçı 37 sayı, yedi ribaund ve beş asistle tamamladı.",
+     "AP'ye göre bu, şut saati döneminde ilk çeyrekten sonra 20 veya daha fazla sayı geride olan bir takımın elde ettiği en farklı galibiyet. Warriors antrenörü Steve Kerr, ESPN'e göre geriye düşülen farkı şu sözlerle yorumladı: “25, you know, it's the new 12.” Golden State, 0-3'lük başlangıcın ardından 3-3'lük dengeli bir averaja ulaştı ve pazar günü LA Clippers'ı konuk edecek; Lakers ise Toronto ile oynayacak."
+    ],
+    "d": "Golden State, kötü başlangıcın ardından Lakers'ı 112-95 yendi. Stephen Curry 31 sayı attı ve NBA'in tüm zamanların en çok sayı atanlar listesinde 18. sıraya yükseldi. Luka Dončić 37 sayı kaydetti.",
+    "t": "Curry, Wilkins'i geride bıraktı: Warriors, Lakers karşısında 25 sayılık farkı kapattı"
+   },
+   "at": "2026-10-31T21:17Z",
+   "h": "13e196874a3c",
+   "rev": [
+    "Turkish genitive of NBA: 'NBA'in' should be 'NBA'in' per pronunciation (en-bi-ey → NBA'nın); corrected in teaser and body",
+    "'Warriors Antrenörü' wrongly capitalised; should be 'Warriors antrenörü'",
+    "'Cumartesiye bağlanan gece' is a literal rendering of the German; rewritten more naturally as 'Cumartesiye karşı gece'",
+    "'en skorer ismi' replaced by the more natural 'en çok sayı atan ismi'"
+   ],
+   "rev_dbg": [
+    4,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Golden State Warriors'ın San Francisco'daki Chase Center'da oynadığı basketbol maçı (Arşiv fotoğrafı)"
+   }
+  },
+  "nba-video-lakers-warriors-highlights-2026-10-31": {
+   "L": {
+    "body": [
+     "NBA'in resmi özet videosunda gecenin maçı izlenebiliyor: Golden State Warriors, ikinci çeyreğin başlarında 25 sayı geride olmasına rağmen San Francisco'da Los Angeles Lakers'ı 112-95 yendi.",
+     "Başlangıçta Luka Dončić maça damga vurdu; AP'ye göre ilk çeyrekte 21 sayı attı ve beş üçlük buldu. Ardından Warriors, ikinci çeyreği 38-15 kazanarak maçı çevirdi. ESPN, en dikkat çekici anlardan birini üçüncü çeyreğin ortasında tarif ediyor: Stephen Curry, bir çalımla Dončić'i yere düşürdü ve ardından üçlük attı.",
+     "Curry maçı 31 sayıyla tamamladı ve böylece NBA tarihinin en çok sayı atanlar listesinde 18. sıraya yükseldi. Dončić, Lakers adına 37 sayı kaydetti."
+    ],
+    "d": "NBA, resmi videosunda Golden State Warriors'ın Los Angeles Lakers'ı 112-95 yendiği maçın en iyi anlarını gösteriyor: Dončić'in harika başlangıcından Curry'nin geri dönüş atağına.",
+    "t": "Video: Warriors'ın Lakers karşısındaki geri dönüşünün öne çıkan anları"
+   },
+   "at": "2026-10-31T21:17Z",
+   "h": "598ed05ee599",
+   "rev": [
+    "Teaser: \"Currys Aufholjagd\" was rendered as \"Curry'nin geri dönüşü\", which is imprecise; \"Curry'nin geri dönüş atağı\" fits better (minor)."
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Golden State Warriors'ın iç saha salonu Chase Center'dan bir görünüm (Arşiv fotoğrafı)"
    }
   },
   "news-ard-schlagerhitparade-oktober-vincent-gross": {
