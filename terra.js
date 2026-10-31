@@ -150,3 +150,11 @@ load();document.addEventListener('visibilitychange',function(){if(!document.hidd
 
 /* Musik-Wochenplan: auf dem Handy den heutigen Tag in den sichtbaren Bereich schieben */
 (function(){var d=document.querySelector('.mp-days .mp-d.on');if(d&&d.parentNode.scrollWidth>d.parentNode.clientWidth){d.parentNode.scrollLeft=Math.max(0,d.offsetLeft-d.parentNode.offsetLeft-8)}})();
+
+/* Menü v4: Unterpunkte auf dem Handy auf- und zuklappen (Akkordeon) */
+(function(){var n=document.getElementById('mainnav');if(!n)return;
+n.addEventListener('click',function(ev){var b=ev.target.closest&&ev.target.closest('.nv-exp');if(!b)return;ev.preventDefault();ev.stopPropagation();
+var d=b.parentNode,o=!d.classList.contains('ex');
+Array.prototype.forEach.call(n.querySelectorAll('.nav-dd.ex'),function(x){if(x!==d){x.classList.remove('ex');var y=x.querySelector('.nv-exp');if(y)y.setAttribute('aria-expanded','false');}});
+d.classList.toggle('ex',o);b.setAttribute('aria-expanded',o?'true':'false');});
+var c=n.querySelector('.nav-dd .dd a[aria-current="page"]');if(c){var d=c.closest('.nav-dd');if(d){d.classList.add('ex');var b=d.querySelector('.nv-exp');if(b)b.setAttribute('aria-expanded','true');}}})();

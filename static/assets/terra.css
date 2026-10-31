@@ -1704,3 +1704,79 @@ a.rl-g:hover{filter:brightness(1.1)}
 .hubt-bulgarien .fxt-video{background:linear-gradient(160deg,#1e1438,#0f0a1f);border-color:#6d28d9}.hubt-bulgarien .fxt-video span{color:#ddd6fe}
 .gr-thumb-bulgarien em{background:linear-gradient(90deg,#f8fafc,#86efac)}
 @media (max-width:1000px){.hub-welt .fxb-title,.hub-europa .fxb-title,.hub-deutschland .fxb-title,.hub-bulgarien .fxb-title{font-size:40px}}
+/* ==== Menü v4 (Nedy 31.10.2026): passend zum Hub-Design – dunkles Navy, Neon-Linie, Pillen-Hover, Karten-Untermenüs; Mobil: Akkordeon ==== */
+nav.sections.nv2{background:linear-gradient(180deg,#0b1d47 0%,#081536 100%);border-radius:0 0 10px 10px;box-shadow:0 8px 22px rgba(4,12,32,.28);letter-spacing:.06em}
+nav.sections.nv2::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;background:linear-gradient(90deg,#d4161c,#f59e0b,#22d3ee,#8b5cf6,#d4161c);background-size:300% 100%;animation:mhglow 9s linear infinite;border-radius:0 0 10px 10px;pointer-events:none}
+nav.sections.nv2::before{content:"";position:absolute;left:0;right:0;top:0;height:1px;background:rgba(255,255,255,.12);pointer-events:none}
+.nv2 .nv-bar{min-height:54px;padding:0 6px 3px}
+.nv2.stuck .nv-bar{min-height:48px}
+.nv2 .ng::before{top:17px;bottom:17px;background:rgba(255,255,255,.16)}
+.nv2 .nav-items>a,.nv2 .ng>a,.nv2 .ng>.nav-dd>a.nv-top{margin:9px 1px;padding:0 10px;border-radius:999px;color:#e8eefc;transition:background .18s,color .18s,box-shadow .18s}
+.nv2 .nav-items a:hover,.nv2 .nav-items a:focus-visible,.nv2 .nav-dd:hover>a.nv-top{background:rgba(255,255,255,.1);color:#fff}
+.nv2 .nav-items>a[aria-current="page"],.nv2 .ng>a[aria-current="page"],.nv2 .ng>.nav-dd>a.nv-top[aria-current="page"]{background:linear-gradient(90deg,#d4161c,#b3121a);color:#fff;box-shadow:0 4px 14px rgba(212,22,28,.45)}
+.nv2 .nav-items a[aria-current="page"]::after,.nv2 .nav-items a:hover::after{display:none}
+.nv2 .nv-home{margin:9px 4px!important;border-radius:999px}
+.nv2 .chev{display:inline-block;width:6px;height:6px;margin-left:6px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:translateY(-2px) rotate(45deg);opacity:.7;transition:transform .2s}
+.nv2 .nav-dd:hover .nv-top .chev{transform:translateY(1px) rotate(-135deg)}
+.nv2 .nv-exp{display:none}
+/* Untermenü als Karte */
+@media (min-width:861px){
+ .nv2 .nav-dd .dd{top:calc(100% - 4px);min-width:250px;padding:10px;border:1px solid rgba(255,255,255,.1);border-top:3px solid var(--c,#d4161c);border-radius:12px;background:rgba(9,20,48,.97);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);box-shadow:0 18px 40px rgba(2,8,24,.5);gap:2px;animation:ddin .16s ease-out}
+ .nv2 .nav-dd .dd::before{content:"";position:absolute;top:-9px;left:50%;width:14px;height:14px;background:var(--c,#d4161c);transform:translateX(-50%) rotate(45deg);border-radius:2px;z-index:-1}
+ .nv2 .nav-dd.dd-wide .dd::before{left:auto;right:40px}
+ .nv2 .nav-dd .dd a{display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:8px;font-size:13.5px;letter-spacing:.05em;color:#dbe4f7}
+ .nv2 .nav-dd .dd a:hover,nav.sections.nv2 .nav-dd .dd a:hover{background:rgba(255,255,255,.08);color:#fff}
+ nav.sections.nv2 .nav-dd .dd a[aria-current="page"]{background:color-mix(in srgb,var(--c,#d4161c) 30%,transparent);color:#fff}
+ .nv2 .nav-dd .dd a[aria-current="page"]::after{display:none}
+ .nv2 .nav-dd .dd a.dd-gen{margin-bottom:4px;padding-bottom:11px;border-bottom:1px solid rgba(255,255,255,.1);border-radius:8px 8px 0 0;color:#fff;font-weight:700}
+ .nv2 .nav-dd.dd-wide .dd a.dd-gen{grid-column:1/-1}
+ .nv2 .di{flex:none;display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:7px;background:rgba(255,255,255,.07);font-style:normal;font-size:14px;line-height:1}
+ .nv2 .nav-dd .dd a:hover .di{background:var(--c,#d4161c)}
+ .nav-dd.dd-wide:hover .dd,.nav-dd.dd-wide:focus-within .dd,.nv2 .nav-dd.dd-wide:hover .dd,.nv2 .nav-dd.dd-wide:focus-within .dd{grid-template-columns:repeat(3,minmax(170px,1fr));min-width:600px}
+}
+@keyframes ddin{from{opacity:0;transform:translateX(-50%) translateY(6px)}to{opacity:1;transform:translateX(-50%) translateY(0)}}
+.nv2 .nav-dd.dd-wide .dd{animation-name:ddinw}
+@keyframes ddinw{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+/* Mobil: Vollbild-Menü mit Akkordeon */
+@media (max-width:860px){
+ nav.sections.nv2{border-radius:0}
+ nav.sections.nv2::after{border-radius:0}
+ .nv2 .nav-items{background:linear-gradient(180deg,#0b1d47,#060f27)}
+ .nv2 .nv-home{margin:8px 12px!important;border-radius:10px;background:rgba(255,255,255,.06)}
+ .nv2 .ng{border-top:1px solid rgba(255,255,255,.1);margin:6px 0 0;padding:6px 0 0}
+ .nv2 .ng>a,.nv2 .ng>.nav-dd>a.nv-top{margin:2px 12px;padding:13px 14px!important;border-radius:10px;font-size:17px;display:flex;align-items:center}
+ .nv2 .ng>a::before,.nv2 .ng>.nav-dd>a.nv-top::before{content:"";flex:none;width:9px;height:9px;margin-right:12px;border-radius:50%;background:var(--c,#d4161c);box-shadow:0 0 8px var(--c,#d4161c)}
+ .nv2 .ng>a[aria-current="page"],.nv2 .ng>.nav-dd>a.nv-top[aria-current="page"]{background:rgba(212,22,28,.22);box-shadow:inset 3px 0 0 #ff2a30}
+ .nv2 .nav-dd{position:relative}
+ .nv2 .nav-dd>a.nv-top{padding-right:64px!important}
+ .nv2 .nav-dd>a.nv-top .chev{display:none}
+ .nv2 .nv-exp{display:flex;align-items:center;justify-content:center;position:absolute;top:2px;right:12px;width:52px;height:48px;border:0;border-left:1px solid rgba(255,255,255,.12);background:none;color:#fff;cursor:pointer;border-radius:0 10px 10px 0}
+ .nv2 .nv-exp .chev{width:9px;height:9px;margin:0;opacity:.9}
+ .nv2 .nav-dd.ex .nv-exp .chev{transform:translateY(2px) rotate(-135deg)}
+ .nv2 .nav-dd .dd{display:none!important}
+ .nv2 .nav-dd.ex .dd{display:grid!important;grid-template-columns:1fr 1fr;gap:4px;margin:4px 12px 8px;padding:8px;border-radius:12px;background:rgba(255,255,255,.05);border-left:3px solid var(--c,#d4161c)}
+ .nv2 .nav-dd.ex.dd-wide .dd,.nv2 .nav-dd.dd-wide.ex .dd{display:grid!important}
+ .nv2 .nav-dd .dd a{display:flex;align-items:center;gap:9px;padding:11px 10px!important;border-radius:8px;font-size:14.5px!important;color:#dbe4f7}
+ .nv2 .nav-dd .dd a.dd-gen{grid-column:1/-1;font-weight:700;color:#fff}
+ .nv2 .nav-dd .dd a[aria-current="page"]{background:rgba(255,255,255,.1)}
+ .nv2 .nav-dd .dd a[aria-current="page"]::after{display:none}
+ .nv2 .di{flex:none;display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:6px;background:rgba(255,255,255,.08);font-style:normal;font-size:13px}
+ .nv2 .nv-swipe{background:#081536}
+ .nv2 .nv-swipe a{border-radius:999px;margin:6px 1px;padding:7px 12px}
+ .nv2 .nv-swipe a[aria-current="page"]{background:#d4161c;box-shadow:none}
+}
+@media (prefers-reduced-motion:reduce){nav.sections.nv2::after{animation:none}.nv2 .nav-dd .dd{animation:none}}
+@media (min-width:861px){
+ .nv2 .nav-items>a,.nv2 .ng>a,.nv2 .ng>.nav-dd>a.nv-top{margin:9px 0;padding:0 7px}
+ .nv2 .chev{width:5px;height:5px;margin-left:4px}
+ .nv2 .ng{padding:0 2px}
+}
+@media (min-width:861px) and (max-width:1300px){
+ .nv2 .nav-items>a,.nv2 .ng>a,.nv2 .ng>.nav-dd>a.nv-top{padding:0 5px}
+ .nv2 .chev{display:none}
+}
+@media (min-width:861px) and (max-width:1100px){nav.sections.nv2{font-size:11.5px;letter-spacing:.02em}.nv2 .nav-items>a,.nv2 .ng>a,.nv2 .ng>.nav-dd>a.nv-top{padding:0 4px}}
+@media (min-width:861px) and (max-width:1560px){.nv2 .chev{display:none}.nv2 .nav-items>a,.nv2 .ng>a,.nv2 .ng>.nav-dd>a.nv-top{padding:0 6px}}
+@media (min-width:861px) and (max-width:1100px){nav.sections.nv2{font-size:11px;letter-spacing:0}.nv2 .nav-items>a,.nv2 .ng>a,.nv2 .ng>.nav-dd>a.nv-top{padding:0 4px;margin:9px 0}.nv2 .ng{padding:0 1px}.nv2 .nv-logo,.nv2 .nv-search{flex-basis:34px;padding:0 4px}.nv2 .nv-home{padding:0 6px!important;margin:9px 0!important}}
+@media (min-width:861px) and (max-width:960px){nav.sections.nv2{font-size:10.2px}.nv2 .nav-items>a,.nv2 .ng>a,.nv2 .ng>.nav-dd>a.nv-top{padding:0 3px}.nv2 .ng::before{display:none}}
+@media (min-width:861px){.nv2 .chev{display:none}.nv2 .nav-items>a,.nv2 .ng>a,.nv2 .ng>.nav-dd>a.nv-top{padding:0 6px}}@media (min-width:861px) and (max-width:1100px){.nv2 .nav-items>a,.nv2 .ng>a,.nv2 .ng>.nav-dd>a.nv-top{padding:0 4px}}@media (min-width:861px) and (max-width:960px){.nv2 .nav-items>a,.nv2 .ng>a,.nv2 .ng>.nav-dd>a.nv-top{padding:0 3px}}

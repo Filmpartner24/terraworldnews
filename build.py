@@ -655,20 +655,25 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
             target = (alternates or {}).get(code, home(code))
             langbar += f'<a href="{target}" hreflang="{code}" lang="{code}" title="{e(name)}"{CUR_T if code == l else ""}>{code.upper()}</a>'
 
+    _DI = {'berlin': '🐻', 'oberfranken': '🏰', 'raumfahrt': '🚀', 'ai': '🤖', 'gesundheit': '🩺', 'fitness': '🏋', 'liebe': '❤', 'sexualitaet': '✦', 'guinness': '🏆', 'imtrend': '🔥', 'designer': '✂', 'dessous': '✧',
+           'fussball': '⚽', 'championsleague': '★', 'europaleague': '☆', 'conferenceleague': '✩', 'laenderspiele': '🌍', 'formel1': '🏎', 'tennis': '🎾', 'handball': '🤾', 'boxen': '🥊', 'mma': '🥋', 'extremsport': '🪂', 'mhistory': '📼'}
+    _DS = {'musik': '♪', 'games': '🎮', 'film': '🎬'}
+    _NX = LX({'bg': 'Покажи подменю', 'de': 'Untermenü öffnen', 'en': 'Open submenu', 'es': 'Abrir submenú', 'tr': 'Alt menüyü aç'})
+    def _di(s, k): return f'<i class="di" aria-hidden="true">{_DI.get(k) or _DS.get(s, "•")}</i>'
     NAV_GEN = LX({'bg': 'Общо', 'de': 'Allgemein', 'en': 'General'})
     clocks = ''.join(f'<span>{e(n)} <b data-tz="{tz}">--:--</b></span>' for n, tz in u['clocks'])
     def _navi(s):
         _on = canon == sec_url(s, l) or (s in SUBS and canon.startswith(sec_url(s, l))) or any(canon.startswith(sec_url(x, l)) for x in NAV_DD_EXTRA.get(s, []))
         if s not in LSUBS and s not in SUBS:
-            return f'<a href="{sec_home(s, l)}"{CUR_P if _on else ""}>{e(SEC[l][s][0])}</a>'
+            return f'<a href="{sec_home(s, l)}" style="--c:{SEC_COLOR.get(s, "#d4161c")}"{CUR_P if _on else ""}>{e(SEC[l][s][0])}</a>'
         # Rubriken mit Unterpunkten: Rubrikname und erster Unterpunkt „Allgemein“ führen beide zur Rubrikseite (Nedy 28.10.2026)
-        a = f'<a class="nv-top" href="{sec_home(s, l)}" aria-haspopup="true"{CUR_P if _on or canon.startswith(sec_url(s, l)) else ""}>{e(SEC[l][s][0])}</a>'   # Rubrikname wieder anklickbar, zusätzlich „Allgemein“ (Nedy 28.10.2026)
-        gen = f'<a class="dd-gen" href="{sec_home(s, l)}"{CUR_P if canon == sec_url(s, l) else ""}>{e(NAV_GEN.get(l, NAV_GEN["en"]))}</a>'
+        a = f'<a class="nv-top" href="{sec_home(s, l)}" aria-haspopup="true"{CUR_P if _on or canon.startswith(sec_url(s, l)) else ""}>{e(SEC[l][s][0])}<b class="chev" aria-hidden="true"></b></a><button type="button" class="nv-exp" aria-expanded="false" aria-label="{e(_NX.get(l, _NX["en"]))}: {e(SEC[l][s][0])}"><b class="chev" aria-hidden="true"></b></button>'   # Rubrikname wieder anklickbar, zusätzlich „Allgemein“ (Nedy 28.10.2026)
+        gen = f'<a class="dd-gen" href="{sec_home(s, l)}"{CUR_P if canon == sec_url(s, l) else ""}><i class="di" aria-hidden="true">◎</i>{e(NAV_GEN.get(l, NAV_GEN["en"]))}</a>'
         if s in LSUBS:
-            dd = gen + ''.join(f'<a href="{sec_url(x, l)}"{CUR_P if canon == sec_url(x, l) else ""}>{e(SEC[l][x][0])}</a>' for x in NAV_DD_EXTRA.get(s, [])) + ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if canon == sub_url(s, k, l) else ""}>{e(SUB[l][k][0])}</a>' for k in LSUBS[s])
-            return f'<span class="nav-dd{" dd-wide" if len(LSUBS[s]) + 1 > 8 else ""}">{a}<span class="dd">{dd}</span></span>'
-        dd = gen + ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if canon == sub_url(s, k, l) else ""}>{e(SUB[l][k][0])}</a>' for k in SUBS[s])
-        return f'<span class="nav-dd">{a}<span class="dd">{dd}</span></span>'
+            dd = gen + ''.join(f'<a href="{sec_url(x, l)}"{CUR_P if canon == sec_url(x, l) else ""}>{_di(s, x)}{e(SEC[l][x][0])}</a>' for x in NAV_DD_EXTRA.get(s, [])) + ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if canon == sub_url(s, k, l) else ""}>{_di(s, k)}{e(SUB[l][k][0])}</a>' for k in LSUBS[s])
+            return f'<span class="nav-dd{" dd-wide" if len(LSUBS[s]) + 1 > 8 else ""}" style="--c:{SEC_COLOR.get(s, "#d4161c")}">{a}<span class="dd">{dd}</span></span>'
+        dd = gen + ''.join(f'<a href="{sub_url(s, k, l)}"{CUR_P if canon == sub_url(s, k, l) else ""}>{_di(s, k)}{e(SUB[l][k][0])}</a>' for k in SUBS[s])
+        return f'<span class="nav-dd{" dd-wide" if len(SUBS[s]) + 1 > 8 else ""}" style="--c:{SEC_COLOR.get(s, "#d4161c")}">{a}<span class="dd">{dd}</span></span>'
     _home_svg = '<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M3 11.2 12 4l9 7.2" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.5 10v9.5h4.6v-5.6h3.8v5.6h4.6V10" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round"/></svg>'
     nav = f'<a class="nv-home" href="{home(l)}"{CUR_P if canon == home(l) else ""}>{_home_svg}<span>{e(u["home"])}</span></a>'
     for _g, _gl, _gs in NAV_GROUPS:
