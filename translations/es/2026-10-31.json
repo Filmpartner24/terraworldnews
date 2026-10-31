@@ -508,6 +508,25 @@
     "kl": "Berlín"
    }
   },
+  "bg-energie-aktien": {
+   "L": {
+    "body": [
+     "La Bolsa de Bulgaria (BFB) en Sofía vivió el viernes una jornada histórica. El SOFIX, el índice principal de las acciones más importantes, se disparó un 15,34 % (281,97 puntos) hasta los 2120,40 puntos. Es el nivel más alto en los 26 años de historia del índice. El anterior récord de cierre era de 1952,4 puntos, del 15 de octubre de 2007 (BTA). Desde principios de año, el SOFIX ha subido un 83 % según BTA (finales de 2025: 1156,43 puntos).",
+     "En la semana, el SOFIX ganó un 26,25 % (440,90 puntos) frente a los 1679,50 puntos del 23.10. (cálculo propio, confirmado por infostock.bg). Los demás índices también subieron: el BGBX40 un 10,96 % hasta 315,06 puntos y el BGTR30 un 3,94 % hasta 1295,08 puntos; el BGREIT cedió un 0,08 % hasta 246,53 puntos (infostock.bg). No fue posible confirmar el volumen total de negociación del viernes.",
+     "El motor fue de nuevo la holding energética Eurohold Bulgaria (propietaria de Elektrohold). La acción subió un 60,45 % hasta 4,30 euros, con 190 operaciones y un volumen de 376.761 euros (BTA). El rango del día fue de 2,76 a 4,30 euros (infostock.bg). Solo en octubre, el valor ganó un 235,94 % y en la semana un 134,97 % (infostock.bg). Según ruse.news, Eurohold vale ahora en bolsa más de 2000 millones de euros, más que el grupo farmacéutico Sopharma. La holding prepara una cotización en Fráncfort."
+    ],
+    "d": "El índice principal de la Bolsa de Bulgaria alcanza su máximo en 26 años de historia. En la semana suma un 26,25 %. Eurohold Bulgaria cerró en 4,30 euros.",
+    "explain": "El índice marca un récord, pero la subida procede casi exclusivamente de una sola acción, con volúmenes pequeños. Las cotizaciones pueden caer igual de rápido. No es asesoramiento de inversión.",
+    "t": "El SOFIX se dispara un 15,34 % hasta un récord de 2120 puntos; Eurohold sube un 60 %"
+   },
+   "at": "2026-10-31T22:19Z",
+   "h": "70fb5db18764",
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ]
+  },
   "bidarian-paul-joshua-vorbereitung": {
    "L": {
     "body": [
@@ -5754,6 +5773,31 @@
    "x": {
     "img.alt": "Edificio de una dirección regional del Ministerio del Interior de Bulgaria (Imagen simbólica)"
    }
+  },
+  "wallstreet": {
+   "L": {
+    "body": [
+     "Las bolsas de EE. UU. cerraron la semana y el mes con fuertes pérdidas. El S&P 500 (las 500 grandes empresas de EE. UU.) cayó el viernes un 1,82 % hasta 7.580,07 puntos, su peor día desde junio (AP). El Nasdaq Composite (índice con muchas empresas tecnológicas) perdió un 2,86 % hasta 25.437,00 y el Dow Jones (30 grandes empresas) un 1,09 % hasta 51.770,31. En la semana, el S&P 500 perdió un 0,6 %, el Nasdaq un 2,0 % y el Dow un 0,9 %. Para el S&P 500 fue la tercera semana consecutiva de pérdidas (AP).",
+     "La mayor caída fue la de Intel: un 28,58 %, su peor día desde 1974 (AP). El fabricante de chips espera para el último trimestre menos beneficios e ingresos que los analistas. El motivo es la débil demanda de ordenadores. El índice de chips SOX perdió un 7,2 %, Nvidia un 4,2 % y AMD un 10,9 %. Amazon cedió un 1,41 %. En doce meses, Amazon ha gastado 42.400 millones de dólares más de lo que ha ingresado (el llamado flujo de caja libre), sobre todo en inteligencia artificial (IA). Reddit perdió un 29,2 % y Apple un 1,2 %.",
+     "El balance mensual de octubre es mixto: el Dow subió un 1,7 %, el S&P 500 perdió un 0,9 % y el Nasdaq un 5,3 %. Según Yahoo Finance, fue el peor mes del Nasdaq desde marzo de 2025. Los inversores dudan de que el enorme gasto en IA genere suficientes beneficios. Los valores energéticos tuvieron demanda: Exxon Mobil (+2,2 %) y Chevron (+1,8 %) subieron tras unos buenos resultados.",
+     "El rendimiento de los bonos del Estado estadounidense a diez años bajó al 4,93 % (jueves: 4,98 %), pues los inversores buscaron refugios seguros. El petróleo se encareció por el temor a una ampliación de la guerra de Irán: el Brent (contrato de enero) un 2,4 % hasta 113,43 dólares por barril y el WTI un 2,1 % hasta 104,12 dólares. En octubre, el Brent subió un 13,6 %. El oro cayó un 3,3 % hasta 3.898,90 dólares por onza, su nivel más bajo en un año."
+    ],
+    "d": "El Nasdaq cayó un 2,86 %, su peor día desde junio. Intel perdió un 28,6 % tras unas perspectivas débiles. En octubre: Nasdaq −5,3 %, S&P 500 −0,9 %, Dow +1,7 %. El petróleo subió y el oro cayó un 3,3 %.",
+    "explain": "Las acciones tecnológicas caen porque los inversores dudan de que el gasto en IA vaya a resultar rentable. Los fondos con mucha tecnología perdieron más en octubre que los de energía y valores defensivos.",
+    "t": "Wall Street: Intel se desploma un 29 % y el Nasdaq pierde un 5,3 % en octubre"
+   },
+   "at": "2026-10-31T22:19Z",
+   "h": "4d0dc9f40e89",
+   "rev": [
+    "\"Der Konzern\" (Amazon) rendered as \"la empresa\", which is ambiguous after the sentence about Amazon; clarified",
+    "\"Iran-Krieg\" rendered as \"guerra de Irán\"; more natural as \"guerra de Irán\" is acceptable, no change",
+    "\"wegen schwacher Nachfrage nach PCs\" fine"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ]
   },
   "was-muskeln-wachsen-laesst-2026-10-31": {
    "L": {

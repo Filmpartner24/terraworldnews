@@ -1063,6 +1063,35 @@
     "img.alt": "Deutsche Bank'ın Frankfurt am Main'daki genel merkezi (Sembolik fotoğraf)"
    }
   },
+  "deutsche-boerse": {
+   "L": {
+    "body": [
+     "Öncü endeks Dax (Almanya'nın borsadaki en büyük 40 şirketi) salı günü kazançlarını artırdı. Xetra işlemlerinde 25.590,77 puandan kapandı; artış %0,71 oldu. MDax (orta ölçekli şirketler) %0,69, SDax (küçük şirketler) %0,38 ve TecDax (teknoloji hisseleri) %1,01 kazandı. Euro Stoxx 50 (euro bölgesinin büyük şirketleri) %0,79 yükseldi (dpa-AFX, finanzen.at).",
+     "Yatırımcılar, büyük ABD teknoloji şirketlerinin bilançoları ile Fed (çarşamba), ECB (perşembe) ve Japonya Merkez Bankası'nın (cuma) faiz kararları öncesinde pozisyon aldı. Yapay zekâyla bağlantılı hisselere yeniden talep vardı: Infineon (%+4,76) ve Siemens Energy (%+4,40) Dax'ı yukarı taşıdı (dpa-AFX, Dow Jones, finanzen.at).",
+     "Bilanço sezonu büyük farklılıklara yol açtı. Porsche AG (MDax'ta) yaklaşık %3,8 yükseldi: Sonuç yeniden pozitif, teslimatlar ve ciro düşmesine rağmen serbest nakit akışı beklenmedik ölçüde güçlü oldu. Beiersdorf, üçüncü çeyrekte organik satışların (kur ve satın alma etkileri hariç) %1,3 gerilemesi nedeniyle %3,30 değer kaybetti. Mercedes-Benz (%−3,86), şirketin Çin ve daha yüksek maliyetler nedeniyle kâr tahminini düşürmesinin ardından Dax'ın en çok kaybeden hissesi oldu (dpa-AFX, Dow Jones).",
+     "Komisyoncu kuruluş IG, çarşamba için Dax'ı açılıştan iki saatten fazla bir süre önce 25.544 puan (%−0,18) olarak tahmin etti (dpa-AFX). Bugün BASF, Deutsche Bank, Mercedes-Benz (ayrıntılı) ve Symrise bilanço açıklıyor, akşam ise Alphabet ve Microsoft. Fed kararını saat 19:00'da, ECB ise perşembe günü açıklayacak."
+    ],
+    "d": "Dax salı günü 25.590,77 puandan kapandı (%+0,71). Mercedes kâr tahminini düşürdü, Beiersdorf hayal kırıklığı yarattı. Çarşamba için hafif düşüş bekleniyor.",
+    "explain": "Beiersdorf ve Nestlé'nin zayıf satışları, birçok insanın yüksek fiyatlar nedeniyle alışverişte tasarruf ettiğini gösteriyor. Fed ve ECB'nin bu haftaki faiz kararları kredi ve tasarruf faizlerini etkiliyor.",
+    "t": "Dax, Fed öncesinde %0,7 yükseldi – Porsche ve Infineon önde, Mercedes ve Beiersdorf zayıf"
+   },
+   "at": "2026-10-31T22:19Z",
+   "h": "6ad13afa78eb",
+   "rev": [
+    "Sign/percent format: Turkish writes %+0,71 / %−3,86 acceptable, but 'Mercedes beklentisini düşürdü' is vague: it was the profit forecast",
+    "Mercedes forecast: 'Çin ve daha yüksek maliyetler nedeniyle' is clumsy: 'Çin kaynaklı etkiler'; reworded to keep meaning",
+    "'Dax'ı yukarı taşıdı' ok; 'Dax'ın en çok kaybeden hissesi' ok",
+    "Fed decision sentence: 'Fed kararını saat 19:00'da, ECB perşembe günü açıklayacak' is ungrammatical in structure; fixed",
+    "'Der freie Mittelzufluss' rendered as 'serbest nakit girişi' – should be free cash flow, 'serbest nakit akışı'",
+    "'Auslieferungen und Umsatz' – 'satışlar' replaced with 'ciro'",
+    "'gut zwei Stunden vor dem Start' – 'biraz fazla' sounds odd; fixed"
+   ],
+   "rev_dbg": [
+    7,
+    5,
+    0
+   ]
+  },
   "deutschland-berlin-bgh-narkosearzt-haft-rechtskraeftig-2026-10-28": {
    "L": {
     "body": [
@@ -2485,6 +2514,36 @@
    "x": {
     "img.alt": "TERRA WORLD NEWS başlık görseli: Moda"
    }
+  },
+  "invest-bulgarien": {
+   "L": {
+    "body": [
+     "Çinli otomobil şirketi Great Wall Motor (GWM), 2027'nin ilk çeyreğinden itibaren Bulgaristan'da kompakt SUV modeli Ora 5'i üretmek istiyor. Üretim yerel bir ortakla yapılacak, yılda 50.000'e kadar otomobil planlanıyor. Reuters'a göre bu, GWM'nin Avrupa'daki ilk üretim tesisi olacak (Money.bg'ye göre ise Loveç yakınlarında 2012'den itibaren Great Wall otomobilleri monte edilmişti). Şirket yer, yatırım tutarı ve istihdam sayısı konusunda bilgi vermedi (BTA, Reuters'a atıfla, 27.10.). Money.bg eylülde, Loveç yakınlarındaki Bahovica'da bulunan eski otomobil fabrikasının Ocak 2027'de Ora 5 ile yeniden üretime başlamasının planlandığını, ilk yıl yaklaşık 10.000 otomobil üretileceğini bildirmişti.",
+     "Lojistik: Nakliye şirketi TRANSPRESS, kendi verdiği bilgiye göre 2026'da araç filosu, depo, teknoloji ve personel için 20 milyon avrodan fazla harcıyor. Şirket Plovdiv'de 3.000 m²'lik ikinci bir aktarma merkezi açtı, Sofya yakınlarındaki Bozhurishte'de ise robotlu bir sipariş hazırlama sistemi çalışıyor. Şirketin yaklaşık 1.100 çalışanı var (Money.bg, 27.10.). Söz konusu tutar tek bir proje değil, maaşlar dahil cari yıllık harcamalar olduğu için tablo toplamına dahil etmiyoruz.",
+     "Yollar: Başbakan Rumen Radev, Ruse – Veliko Tarnovo – Makaza otoyolunun planlamasının ve izinlerinin en fazla bir yıl içinde tamamlanmasını istiyor; yol ajansı yaklaşık üç yıl öngörmüştü. 2027 bütçe taslağı tüm güzergâhın planlaması için ödenek ayırıyor, buna 2 milyon avro ek kaynak eklenecek. İnşaat maliyetleri açıklanmadı. Rakamı belirtilmiş yeni proje olmadığından tablo toplamı 592,0 milyon avroda kalıyor (bir önceki güne göre %0,0, kendi hesabımız); belirtilen yeni istihdam sayısı ise 3.171.",
+     "Görünüm: Bulgaristan Merkez Bankası BNB salı günü eylül ayı faiz istatistiklerini yayımladı; tüketici kredileri ortalama %8,83 faizle verildi. İstatistik Kurumu NSI bugün eylül ayı seyahat verilerini, perşembe günü ekim ayı konjonktür anketlerini açıklayacak; cuma günü ise ağustos ayı dış borç verileri (BNB) gelecek."
+    ],
+    "d": "Çinli otomobil üreticisi GWM, SUV modeli Ora 5'in Bulgaristan'da 2027'nin ilk çeyreğinden itibaren üretileceğini doğruladı. Tutar ve istihdam sayısı açıklanmadı. Tablo toplamı 592,0 milyon avroda kalıyor.",
+    "explain": "Büyük bir otomobil üreticisi Bulgaristan'da üretim yapmak istiyor; bu iş imkânı yaratabilir, ancak sayı henüz belli değil. Krediler eylülde hafif ucuzladı.",
+    "t": "Great Wall Bulgaristan'da otomobil üretecek: Ora 5 2027'den itibaren, yılda 50.000'e kadar"
+   },
+   "at": "2026-10-31T22:19Z",
+   "h": "03c89c95da4c",
+   "rev": [
+    "Money.bg'ye göre ... 2012'den itibaren: in the German, 'wurden ... montiert' is a Preterit, the draft's pluperfect 'monte edilmişti' is acceptable, but the place name 'Lowetsch' is rendered 'Loveç', w",
+    "Bachowiza rendered 'Bahovitsa' – the Bulgarian is Bahovica, so it is corrected to 'Bahovitsa' → 'Bahovica'",
+    "Lost hedge: 'Tutar ve istihdam sayısı açıklanmadı' in the teaser lacks 'şirket' attribution and 'nach Angaben'; the German says 'er nannte nicht', so the draft is acceptable",
+    "'Ora 5 SUV'un' in the teaser is awkward; changed to 'SUV modeli Ora 5'in'",
+    "'milyon avro'da' / 'milyon avro'dan': per Turkish convention the apostrophe is not used with 'avro' (a common noun)",
+    "'Plovdiv'de', 'Sofya' are fine; 'Bozhurishte' is a non-Turkish spelling of Boschurischte, left unchanged",
+    "'Haushaltsentwurf ... dazu kommen 2 Mio. Euro extra' is fine",
+    "The statistic wording 'İstatistik Kurumu' is fine; 'Konjunkturumfragen' rendered as 'iş ve tüketici anketleri' is an addition (business and consumer), changed to 'konjonktür anketleri'"
+   ],
+   "rev_dbg": [
+    9,
+    6,
+    1
+   ]
   },
   "israel-wahl-auszaehlung-2026-10-28-b18": {
    "L": {
@@ -4503,6 +4562,29 @@
    "x": {
     "img.alt": "Arşiv fotoğrafı: PAX South 2016’da “Street Fighter V” deneme istasyonları"
    }
+  },
+  "strom-ibex": {
+   "L": {
+    "body": [
+     "Bulgaristan elektrik borsası IBEX'te (BNEB) üreticiler, tüccarlar ve büyük tüketiciler toptan düzeyde elektrik alıp satıyor. Gün öncesi piyasasında ertesi günün her saati için fiyat, bir gün önceki açık artırmada belirleniyor. 28 Ekim Çarşamba için günlük ortalama (Base) KDV hariç megavatsaat başına 305,56 avro; salıya (254,58 avro) göre %20,03 daha yüksek.",
+     "Pik saatlerde (Peak, 08:00-20:00) megavatsaat ortalama 308,69 avro; bu, salı günkü 266,79 avroya göre %15,71 daha fazla. Fiyat diğer saatlerde (Off-Peak) daha da sert yükseliyor: 302,44 avro, bir önceki günün 242,36 avrosunun %24,79 üzerinde. Böylece gündüz ve gece elektriği arasındaki fark, salı günkü 24,43 avrodan megavatsaat başına yalnızca 6,25 avroya geriliyor (kendi hesaplamamız).",
+     "Toplam 98.870,28 megavatsaat işlem görüyor; bu, salıya (95.941,08) göre yaklaşık %3,1 daha fazla. Bunun 51.937,03 MWh'si pik saatlere (yaklaşık %4,3 daha az), 46.933,25 MWh'si diğer saatlere (yaklaşık %12,6 daha fazla) ait (kendi hesaplamamız)."
+    ],
+    "d": "28 Ekim için IBEX ortalama fiyatı KDV hariç megavatsaat başına 305,56 avro; salıya göre %20,03 artış. En sert artış gece ve akşam saatlerinde (yaklaşık %25).",
+    "explain": "Elektriği borsa fiyatlarından satın alan şirketler çarşamba günü ortalama beşte bir oranında daha fazla ödüyor; bu kez geceleri de. Haneler ise düzenleyici kurum KEVR'in belirlediği fiyatları ödüyor; bu nedenle faturaları doğrudan değişmiyor.",
+    "t": "Bulgaristan'da borsa elektriği çarşamba günü %20 daha pahalı: MWh başına 305,56 avro"
+   },
+   "at": "2026-10-31T22:19Z",
+   "h": "d02718b5e42a",
+   "rev": [
+    "Teaser: 'fast +25 %' was rendered as 'yaklaşık %25' without the 'artış' meaning; made it clearer",
+    "Title: 'teurer' is rendered as 'pahalı', which loses the comparison (Dienstag'a göre daha pahalı)"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ]
   },
   "terrible-lizards-test": {
    "L": {
