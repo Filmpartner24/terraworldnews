@@ -1,0 +1,2857 @@
+{
+ "date": "2026-11-01",
+ "time": "07:38",
+ "blocks": [
+  {
+   "id": "strom-ibex",
+   "asof": {
+    "bg": "БНЕБ „Ден напред“: доставка в неделя, 1 ноември 2026 (данни, публикувани на 31 октомври следобед); за сравнение събота, 31 октомври; цените за понеделник, 2 ноември, се обявяват днес около 14:30 ч.",
+    "de": "IBEX Day-Ahead: Liefertag Sonntag, 1. November 2026 (veröffentlicht am 31. Oktober nachmittags); Vergleich Samstag, 31. Oktober; Preise für Montag, 2. November, kommen heute gegen 14:30 Uhr (Sofia)",
+    "en": "IBEX day-ahead: delivery Sunday 1 November 2026 (published on the afternoon of 31 October); compared with Saturday 31 October; prices for Monday 2 November due today around 14:30 Sofia time"
+   },
+   "bg": {
+    "t": "Борсовият ток в неделя поевтинява с 6,7% до 261,98 евро/MWh",
+    "d": "Средната цена на БНЕБ за 1 ноември е 261,98 евро за мегаватчас без ДДС. Пиковите часове поевтиняват с 7,2%, останалите – с 6,2%. Изтъргуваният обем е с 2,5% по-малък.",
+    "body": [
+     "Българската независима енергийна борса (БНЕБ, IBEX) е пазарът, на който производители, търговци и големи потребители купуват и продават ток на едро. В сегмента „Ден напред“ цената за всеки час от следващия ден се определя на търг предишния ден. За неделя, 1 ноември, средната цена за денонощието (Base) е 261,98 евро за мегаватчас без ДДС. Това е с 6,73% по-малко от събота, когато тя беше 280,88 евро. Цената пада втори пореден ден.",
+     "В 12-те пикови часа (борсови часове 9–20) мегаватчасът струва средно 273,70 евро – със 7,23% по-малко от 295,04 евро в събота. В останалите часове (Off-Peak) цената е 250,26 евро, или с 6,17% по-ниска от 266,72 евро. Разликата между дневния и нощния ток се свива от 28,32 на 23,44 евро на мегаватчас (собствено изчисление).",
+     "Изтъргуваният обем е 80 354,73 мегаватчаса – с около 2,5% по-малко от 82 433,43 MWh в събота (по 3e-news; собствено изчисление). В пиковите часове са търгувани 45 800,50 MWh, а извън тях – 34 554,23 MWh. Неделята обикновено е ден с по-ниско потребление, но данните сами по себе си не посочват причината за поевтиняването."
+    ],
+    "explain": "Фирмите, които купуват ток по борсови цени, плащат в неделя около 7% по-малко от събота. Домакинствата плащат цени, определени от регулатора КЕВР, затова сметката им не се променя пряко."
+   },
+   "de": {
+    "t": "Börsenstrom in Bulgarien am Sonntag 6,7 % billiger: 261,98 Euro/MWh",
+    "d": "Der IBEX-Durchschnittspreis für den 1. November liegt bei 261,98 Euro pro Megawattstunde ohne MwSt. Spitzenstunden werden 7,2 % billiger, die übrigen 6,2 %. Gehandelt wird 2,5 % weniger.",
+    "body": [
+     "Die bulgarische Strombörse IBEX (BNEB) ist der Marktplatz, auf dem Erzeuger, Händler und Großverbraucher Strom im Großhandel kaufen und verkaufen. Am Day-Ahead-Markt wird der Preis für jede Stunde des Folgetags in einer Auktion am Vortag festgelegt. Für Sonntag, 1. November, liegt der Tagesdurchschnitt (Base) bei 261,98 Euro pro Megawattstunde ohne Mehrwertsteuer. Das sind 6,73 % weniger als am Samstag mit 280,88 Euro. Der Preis sinkt damit den zweiten Tag in Folge.",
+     "In den zwölf Spitzenstunden (Peak, Börsenstunden 9–20) kostet die Megawattstunde im Schnitt 273,70 Euro, 7,23 % weniger als die 295,04 Euro vom Samstag. In den übrigen Stunden (Off-Peak) liegt der Preis bei 250,26 Euro, 6,17 % unter den 266,72 Euro vom Vortag. Der Abstand zwischen Tag- und Nachtstrom schrumpft von 28,32 auf 23,44 Euro pro Megawattstunde (eigene Rechnung).",
+     "Gehandelt werden 80.354,73 Megawattstunden, rund 2,5 % weniger als die 82.433,43 MWh am Samstag (laut 3e-news; eigene Rechnung). Auf die Spitzenzeit entfallen 45.800,50 MWh, auf die übrigen Stunden 34.554,23 MWh. Sonntags wird meist weniger Strom verbraucht; einen Grund für den Preisrückgang nennen die Daten selbst nicht."
+    ],
+    "explain": "Firmen, die Strom zu Börsenpreisen kaufen, zahlen am Sonntag rund 7 % weniger als am Samstag. Haushalte zahlen von der Regulierungsbehörde KEVR festgelegte Preise – ihre Rechnung ändert sich dadurch nicht direkt."
+   },
+   "en": {
+    "t": "Bulgarian exchange power 6.7% cheaper on Sunday at €261.98/MWh",
+    "d": "The IBEX average price for 1 November is €261.98 per megawatt-hour excluding VAT. Peak hours fall by 7.2% and the remaining hours by 6.2%. Traded volume is 2.5% lower.",
+    "body": [
+     "The Independent Bulgarian Energy Exchange (IBEX) is the marketplace where producers, traders and large consumers buy and sell wholesale electricity. On the day-ahead market, the price for every hour of the next day is set in an auction the day before. For Sunday 1 November, the average price across the whole day (base) is €261.98 per megawatt-hour excluding VAT. That is 6.73% less than on Saturday, when it was €280.88. It is the second decline in a row.",
+     "In the 12 peak hours (exchange hours 9–20), a megawatt-hour costs €273.70 on average, 7.23% less than Saturday's €295.04. In the remaining hours (off-peak), the price is €250.26, 6.17% below the previous day's €266.72. The gap between daytime and night power narrows from €28.32 to €23.44 per megawatt-hour (own calculation).",
+     "Traded volume is 80,354.73 MWh, about 2.5% less than Saturday's 82,433.43 MWh (per 3e-news; own calculation). Peak hours account for 45,800.50 MWh and the remaining hours for 34,554.23 MWh. Demand is usually lower on Sundays, but the data themselves do not state why prices fell."
+    ],
+    "explain": "Businesses that buy electricity at exchange prices pay around 7% less on Sunday than on Saturday. Households pay prices set by the regulator KEVR, so their bill does not change directly."
+   },
+   "kpi": [
+    {
+     "l": {
+      "bg": "Base (средна цена) 1.11.",
+      "de": "Base (Durchschnitt) 1.11.",
+      "en": "Base (average) 1 Nov"
+     },
+     "v": 261.98,
+     "dec": 2,
+     "u": "EUR/MWh",
+     "chg": -6.73
+    },
+    {
+     "l": {
+      "bg": "Пик 1.11.",
+      "de": "Peak 1.11.",
+      "en": "Peak 1 Nov"
+     },
+     "v": 273.7,
+     "dec": 2,
+     "u": "EUR/MWh",
+     "chg": -7.23
+    },
+    {
+     "l": {
+      "bg": "Извън пика 1.11.",
+      "de": "Off-Peak 1.11.",
+      "en": "Off-peak 1 Nov"
+     },
+     "v": 250.26,
+     "dec": 2,
+     "u": "EUR/MWh",
+     "chg": -6.17
+    },
+    {
+     "l": {
+      "bg": "Изтъргуван обем 1.11.",
+      "de": "Gehandelte Menge 1.11.",
+      "en": "Traded volume 1 Nov"
+     },
+     "v": 80354.73,
+     "dec": 2,
+     "u": "MWh",
+     "chg": -2.52
+    }
+   ],
+   "tables": [
+    {
+     "cap": {
+      "bg": "Дневен преглед – БНЕБ „Ден напред“ (EUR/MWh без ДДС; „–“ = още не е обявено)",
+      "de": "Tagesüberblick – IBEX Day-Ahead (EUR/MWh ohne MwSt.; „–“ = noch nicht veröffentlicht)",
+      "en": "Daily overview – IBEX day-ahead (EUR/MWh excl. VAT; “–” = not yet published)"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Показател",
+        "de": "Kennzahl",
+        "en": "Indicator"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Нд, 1.11. (днес)",
+        "de": "So, 1.11. (heute)",
+        "en": "Sun, 1 Nov (today)"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Пн, 2.11. (утре)",
+        "de": "Mo, 2.11. (morgen)",
+        "en": "Mon, 2 Nov (tomorrow)"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Сб, 31.10. (предишен ден)",
+        "de": "Sa, 31.10. (Vortag)",
+        "en": "Sat, 31 Oct (previous day)"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Промяна спрямо 31.10. (%)",
+        "de": "Veränderung zum 31.10. (%)",
+        "en": "Change vs 31 Oct (%)"
+       },
+       "k": "chg",
+       "dec": 2
+      }
+     ],
+     "rows": [
+      [
+       {
+        "bg": "Base – средна цена",
+        "de": "Base – Durchschnittspreis",
+        "en": "Base – average price"
+       },
+       261.98,
+       null,
+       280.88,
+       -6.73
+      ],
+      [
+       {
+        "bg": "Пик (борсови часове 9–20)",
+        "de": "Peak (Börsenstunden 9–20)",
+        "en": "Peak (exchange hours 9–20)"
+       },
+       273.7,
+       null,
+       295.04,
+       -7.23
+      ],
+      [
+       {
+        "bg": "Извън пика",
+        "de": "Off-Peak",
+        "en": "Off-peak"
+       },
+       250.26,
+       null,
+       266.72,
+       -6.17
+      ],
+      [
+       {
+        "bg": "Изтъргуван обем (MWh)",
+        "de": "Gehandelte Menge (MWh)",
+        "en": "Traded volume (MWh)"
+       },
+       80354.73,
+       null,
+       82433.43,
+       -2.52
+      ]
+     ]
+    }
+   ],
+   "ticker": [
+    {
+     "n": "IBEX Base 1.11.",
+     "v": 261.98,
+     "dec": 2,
+     "chg": -6.73
+    },
+    {
+     "n": "IBEX Peak 1.11.",
+     "v": 273.7,
+     "dec": 2,
+     "chg": -7.23
+    },
+    {
+     "n": "IBEX Off-Peak 1.11.",
+     "v": 250.26,
+     "dec": 2,
+     "chg": -6.17
+    }
+   ],
+   "src": [
+    {
+     "n": "novini247 (препечатка от 3e-news, данни IBEX/БНЕБ) – „Енергийната борса (IBEX, БНЕБ) в рамките на търговията в сегмент пазар ден …“: доставка 1.11.2026, Base 261,98 EUR/MWh (−6,73%), пик 9–20 ч. 273,70 (−7,23%) / 45 800,50 MWh, извън пика 250,26 (−6,17%) / 34 554,23 MWh, общо 80 354,73 MWh (публ. 31.10.2026, 15:02)",
+     "u": "https://novini247.com/novini/energiynata-borsa-ibex-bneb-v-ramkite-na-targoviyata-v%C2%A0segment%C2%A0-pazar-den_11352087.html"
+    },
+    {
+     "n": "3e-news – рубрика „Електроенергийни борси“: „Понижение с 6.73 %: Енергийната борса затвори при цена за базова енергия от 261.98 EUR/MWh с ден за доставка 1 ноември 2026 г.“ (видяно 1.11.2026)",
+     "u": "https://3e-news.net/bg/pazar-na-elektricheska-energija/elektroenergijni-borsi"
+    },
+    {
+     "n": "novini247 (препечатка от 3e-news, данни IBEX/БНЕБ): доставка 31.10.2026 – Base 280,88, пик (часове 9–20) 295,04 / 45 348,80 MWh, извън пика (1–8, 21–24) 266,72 / 37 084,63 MWh, общо 82 433,43 MWh (публ. 30.10.2026, 14:48)",
+     "u": "https://novini247.com/novini/energiynata-borsa-ibex-bneb-v-ramkite-na-targoviyata-v%C2%A0segment%C2%A0-pazar-den_11349382.html"
+    },
+    {
+     "n": "БТА – „Със 7 на сто поевтинява токът за бизнеса утре в сравнение с днес, сочат данните на БНЕБ“: доставка 31.10.2026 (предишен ден), Base 280,88, пик (09–20 ч.) 295,04, извън пика 266,72 EUR/MWh (публ. 30.10.2026, 14:40)",
+     "u": "https://www.bta.bg/bg/news/economy/1236428-sas-7-na-sto-poevtinyava-tokat-za-biznesa-utre-v-sravnenie-s-dnes-sochat-dannit"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-01/biz-strom-ibex.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "bg": "Графика: цени на електроенергията на IBEX, 01.11.2026 (собствена графика)",
+     "de": "Grafik: Strompreise an der Börse IBEX, 01.11.2026 (eigene Darstellung)",
+     "en": "Graphic: electricity prices on the IBEX exchange, 01.11.2026 (own graphic)"
+    }
+   }
+  },
+  {
+   "id": "wallstreet",
+   "asof": {
+    "bg": "Цени при затваряне: петък, 30 октомври 2026; уикенд – няма търговия; преглед на седмицата 2.–6.11.; данни към неделя, 1 ноември, около 07:30 ч. централноевропейско време",
+    "de": "Schlusskurse Freitag, 30. Oktober 2026; Wochenende – kein Handel; Ausblick 2.–6.11.; Stand Sonntag, 1. November, etwa 07:30 Uhr MEZ",
+    "en": "Closing prices Friday 30 October 2026; weekend – no trading; preview of 2–6 Nov; as of Sunday 1 November, about 07:30 CET"
+   },
+   "bg": {
+    "t": "Уолстрийт пред избори, данни за заетостта и отчет на Apple след спада при технологиите",
+    "d": "След най-слабия месец за Nasdaq от март 2025 г. идва натоварена седмица: в понеделник отчитат Apple и Palantir, във вторник има междинни избори в САЩ, а в петък – данни за работните места.",
+    "body": [
+     "Изходна позиция: в петък, 30 октомври, Dow Jones (30 големи американски компании) затвори на 51 770,31 пункта (–1,09%), S&P 500 (500-те най-големи фирми) – на 7580,07 (–1,82%), а Nasdaq Composite (много технологични акции) – на 25 437,00 (–2,86%). За седмицата Dow губи 0,9%, S&P 500 – 0,6%, Nasdaq – 2,0%. За октомври Nasdaq е с –5,3%, S&P 500 с –0,9%, а Dow с +1,7%. Intel загуби 28,6% за един ден заради слаба прогноза (Investing.com).",
+     "Във вторник, 3 ноември, в САЩ има междинни избори: гласува се за всички места в Камарата на представителите и за около една трета от Сената. Те ще решат дали демократите ще поемат Конгреса от републиканската партия на президента Тръмп (Reuters). На 28 октомври Фед (централната банка на САЩ) остави лихвата в диапазона 3,75–4,00%, но двама членове искаха повишение. Според седмичния преглед на Reuters (цитиран от Tech Insider) пазарите залагат около 80% вероятност за повишение през декември.",
+     "В петък, 6 ноември, в 14:30 ч. берлинско време излизат данните за пазара на труда за октомври. През септември са разкрити само 29 000 нови работни места, безработицата е 4,2%. Според Bloomberg (по Bloomingbit) икономистите очакват 65 000 нови места. Преди това идват индексите ISM (анкети сред мениджъри за поръчки и производство) – в понеделник за промишлеността, в сряда за услугите. От тази седмица разликата с Ню Йорк отново е 6 часа, защото в САЩ лятното часово време приключва на 1 ноември.",
+     "Отчети: в понеделник вечерта Apple и Palantir, във вторник AMD, Amgen и Booking, в сряда McDonald's, Uber, Qualcomm и Arm, в четвъртък ConocoPhillips и Airbnb (Stock Titan, Dow Jones). През уикенда: според Reuters OPEC+ се е договорила по принцип да не променя добива за декември на срещата в неделя. Иранската Революционна гвардия твърди, че между петък и събота четири танкера са се запалили в Ормузкия проток; това не е независимо потвърдено (The National). Британската служба UKMTO отчита над 30 инцидента с кораби през октомври – най-много от началото на войната."
+    ],
+    "explain": "Тази седмица изборите, данните за работните места и отчетите на големи технологични фирми могат силно да раздвижат цените. Това засяга фондовете с американски акции и курса на долара, а оттам и спестяванията на много хора."
+   },
+   "de": {
+    "t": "Wall Street vor Wahlen, Jobbericht und Apple-Zahlen – nach dem Tech-Einbruch",
+    "d": "Nach dem schwächsten Nasdaq-Monat seit März 2025 folgt eine dichte Woche: Montag berichten Apple und Palantir, Dienstag sind US-Zwischenwahlen, Freitag kommt der Arbeitsmarktbericht.",
+    "body": [
+     "Ausgangslage: Am Freitag, 30. Oktober, schloss der Dow Jones (30 große US-Konzerne) bei 51.770,31 Punkten (−1,09 %), der S&P 500 (die 500 größten Firmen) bei 7.580,07 (−1,82 %) und der Nasdaq Composite (viele Technologiewerte) bei 25.437,00 (−2,86 %). Auf Wochensicht: Dow −0,9 %, S&P 500 −0,6 %, Nasdaq −2,0 %. Im Oktober: Nasdaq −5,3 %, S&P 500 −0,9 %, Dow +1,7 %. Intel brach nach einem schwachen Ausblick an einem Tag um 28,6 % ein (Investing.com).",
+     "Am Dienstag, 3. November, sind in den USA Zwischenwahlen: Gewählt werden alle Sitze im Repräsentantenhaus und etwa ein Drittel des Senats. Es geht darum, ob die Demokraten den Kongress von Präsident Trumps Republikanern übernehmen (Reuters). Die Fed (US-Notenbank) hatte am 28. Oktober den Leitzins in der Spanne von 3,75 bis 4,00 % belassen, zwei Mitglieder wollten erhöhen. Laut dem Reuters-Wochenausblick (zitiert von Tech Insider) preisen die Märkte rund 80 % Wahrscheinlichkeit für eine Erhöhung im Dezember ein.",
+     "Am Freitag, 6. November, um 14:30 Uhr MEZ folgt der Arbeitsmarktbericht für Oktober. Im September entstanden nur 29.000 neue Stellen, die Arbeitslosenquote lag bei 4,2 %. Laut Bloomberg (zitiert von Bloomingbit) erwarten Ökonomen 65.000 neue Stellen. Vorher kommen die ISM-Indizes (Umfragen unter Einkäufern zu Aufträgen und Produktion): Montag für die Industrie, Mittwoch für Dienstleister. Ab dieser Woche beträgt der Zeitunterschied zu New York wieder sechs Stunden, weil in den USA am 1. November die Sommerzeit endet.",
+     "Firmenzahlen: Montagabend Apple und Palantir, Dienstag AMD, Amgen und Booking, Mittwoch McDonald's, Uber, Qualcomm und Arm, Donnerstag ConocoPhillips und Airbnb (Stock Titan, Dow Jones). Am Wochenende: Laut Reuters hat sich OPEC+ grundsätzlich darauf geeinigt, die Förderziele für Dezember bei einer Sitzung am Sonntag nicht zu ändern. Irans Revolutionsgarden behaupten, zwischen Freitag und Samstag hätten in der Straße von Hormus vier Tanker gebrannt; unabhängig bestätigt ist das nicht (The National). Die britische Seefahrtsstelle UKMTO zählte im Oktober mehr als 30 Vorfälle mit Schiffen – so viele wie in keinem Kriegsmonat zuvor."
+    ],
+    "explain": "Wahlen, Arbeitsmarktdaten und Zahlen großer Tech-Konzerne können die Kurse diese Woche stark bewegen. Das betrifft Fonds mit US-Aktien und den Dollarkurs – und damit viele Sparpläne."
+   },
+   "en": {
+    "t": "Wall Street faces midterms, jobs report and Apple results after tech slump",
+    "d": "After the Nasdaq's worst month since March 2025 comes a packed week: Apple and Palantir report on Monday, the US holds midterm elections on Tuesday and the jobs report lands on Friday.",
+    "body": [
+     "Starting point: on Friday, 30 October, the Dow Jones (30 big US companies) closed at 51,770.31 points (−1.09%), the S&P 500 (the 500 largest firms) at 7,580.07 (−1.82%) and the tech-heavy Nasdaq Composite at 25,437.00 (−2.86%). For the week the Dow fell 0.9%, the S&P 500 0.6% and the Nasdaq 2.0%. In October the Nasdaq lost 5.3% and the S&P 500 0.9%, while the Dow gained 1.7%. Intel plunged 28.6% in one day on a weak outlook (Investing.com).",
+     "On Tuesday, 3 November, the US holds midterm elections for every seat in the House of Representatives and about a third of the Senate. The vote will decide whether Democrats take Congress from President Trump's Republicans (Reuters). On 28 October the Fed (the US central bank) held its key rate in a 3.75–4.00% range, with two members voting for a hike. Reuters' week-ahead column (as cited by Tech Insider) says markets price in about an 80% chance of a hike in December.",
+     "The October jobs report is due on Friday, 6 November, at 14:30 Berlin time. In September the economy added only 29,000 jobs and unemployment was 4.2%. Bloomberg (as cited by Bloomingbit) says economists expect 65,000 new jobs. Before that come the ISM indices (surveys of purchasing managers on orders and output): manufacturing on Monday, services on Wednesday. From this week the gap to New York is six hours again, because US daylight saving time ends on 1 November.",
+     "Earnings: Apple and Palantir on Monday evening; AMD, Amgen and Booking on Tuesday; McDonald's, Uber, Qualcomm and Arm on Wednesday; ConocoPhillips and Airbnb on Thursday (Stock Titan, Dow Jones). Over the weekend, Reuters reported that OPEC+ agreed in principle to keep December output targets unchanged at a Sunday meeting. Iran's Revolutionary Guards claimed four tankers caught fire in the Strait of Hormuz between Friday and Saturday; this has not been independently confirmed (The National). Britain's UKMTO counted more than 30 incidents involving ships in October, the most in any month of the war."
+    ],
+    "explain": "The elections, jobs data and results from big tech firms could move prices sharply this week. That affects funds holding US shares and the dollar, and with them many people's savings."
+   },
+   "kpi": [
+    {
+     "l": {
+      "bg": "Dow Jones (петък, ден %)",
+      "de": "Dow Jones (Freitag, Tag %)",
+      "en": "Dow Jones (Friday, day %)"
+     },
+     "v": 51770.31,
+     "dec": 2,
+     "u": "Pkt.",
+     "chg": -1.09
+    },
+    {
+     "l": {
+      "bg": "S&P 500 (петък, ден %)",
+      "de": "S&P 500 (Freitag, Tag %)",
+      "en": "S&P 500 (Friday, day %)"
+     },
+     "v": 7580.07,
+     "dec": 2,
+     "u": "Pkt.",
+     "chg": -1.82
+    },
+    {
+     "l": {
+      "bg": "Nasdaq Composite (петък, ден %)",
+      "de": "Nasdaq Composite (Freitag, Tag %)",
+      "en": "Nasdaq Composite (Friday, day %)"
+     },
+     "v": 25437.0,
+     "dec": 2,
+     "u": "Pkt.",
+     "chg": -2.86
+    },
+    {
+     "l": {
+      "bg": "Доходност 10-г. облигации САЩ",
+      "de": "Rendite 10-j. US-Anleihe",
+      "en": "10-year US Treasury yield"
+     },
+     "v": 4.93,
+     "dec": 2,
+     "u": "%"
+    }
+   ],
+   "tables": [
+    {
+     "cap": {
+      "bg": "Индекси – затваряне 30.10., ден, седмица, октомври и от началото на годината",
+      "de": "Indizes – Schluss 30.10., Tag, Woche, Oktober und seit Jahresbeginn",
+      "en": "Indices – close 30 Oct, day, week, October and year to date"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Индекс",
+        "de": "Index",
+        "en": "Index"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Затваряне",
+        "de": "Schluss",
+        "en": "Close"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Ден, пункта",
+        "de": "Tag, Punkte",
+        "en": "Day, points"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Ден %",
+        "de": "Tag %",
+        "en": "Day %"
+       },
+       "k": "chg",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Седмица %",
+        "de": "Woche %",
+        "en": "Week %"
+       },
+       "k": "chg",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Октомври %",
+        "de": "Oktober %",
+        "en": "October %"
+       },
+       "k": "chg",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "От началото на годината %",
+        "de": "Seit Jahresbeginn %",
+        "en": "Year to date %"
+       },
+       "k": "chg",
+       "dec": 1
+      }
+     ],
+     "rows": [
+      [
+       "Dow Jones",
+       51770.31,
+       -572.25,
+       -1.09,
+       -0.85,
+       1.7,
+       7.7
+      ],
+      [
+       "S&P 500",
+       7580.07,
+       -140.32,
+       -1.82,
+       -0.57,
+       -0.94,
+       10.7
+      ],
+      [
+       "Nasdaq Composite",
+       25437.0,
+       -747.73,
+       -2.86,
+       -2.0,
+       -5.3,
+       9.4
+      ],
+      [
+       "Russell 2000",
+       2811.84,
+       -47.37,
+       -1.66,
+       1.3,
+       null,
+       13.3
+      ]
+     ]
+    },
+    {
+     "cap": {
+      "bg": "Календар на седмицата: 2–6 ноември 2026 (часове по берлинско време; избрано)",
+      "de": "Termine der Woche: 2.–6. November 2026 (Uhrzeiten MEZ; Auswahl)",
+      "en": "Week ahead: 2–6 November 2026 (times CET/Berlin; selection)"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Ден",
+        "de": "Tag",
+        "en": "Day"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Събитие",
+        "de": "Termin",
+        "en": "Event"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Защо е важно",
+        "de": "Warum wichtig",
+        "en": "Why it matters"
+       },
+       "k": "txt"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "bg": "пн., 2.11.",
+        "de": "Mo., 2.11.",
+        "en": "Mon 2 Nov"
+       },
+       {
+        "bg": "16:00 индекс ISM за промишлеността (окт.); вечерта отчети на Apple и Palantir",
+        "de": "16:00 ISM-Index Industrie (Okt.); abends Zahlen von Apple und Palantir",
+        "en": "16:00 ISM manufacturing index (Oct); Apple and Palantir results after the close"
+       },
+       {
+        "bg": "Apple е сред най-големите компании в индексите; Palantir е тест за очакванията към ИИ",
+        "de": "Apple ist eines der schwersten Indexmitglieder; Palantir gilt als KI-Gradmesser",
+        "en": "Apple is one of the heaviest index members; Palantir is a test for AI hopes"
+       }
+      ],
+      [
+       {
+        "bg": "вт., 3.11.",
+        "de": "Di., 3.11.",
+        "en": "Tue 3 Nov"
+       },
+       {
+        "bg": "Междинни избори в САЩ; 16:00 свободни работни места JOLTS (септ.); Shopify, Pfizer; вечерта AMD, Amgen, Booking",
+        "de": "US-Zwischenwahlen; 16:00 offene Stellen JOLTS (Sept.); Shopify, Pfizer; abends AMD, Amgen, Booking",
+        "en": "US midterm elections; 16:00 JOLTS job openings (Sept); Shopify, Pfizer; AMD, Amgen, Booking after the close"
+       },
+       {
+        "bg": "Изборите решават кой контролира Конгреса – данъци, бюджет и регулации",
+        "de": "Die Wahl entscheidet über die Mehrheit im Kongress – Steuern, Haushalt, Regeln",
+        "en": "The vote decides who controls Congress – taxes, budget and regulation"
+       }
+      ],
+      [
+       {
+        "bg": "ср., 4.11.",
+        "de": "Mi., 4.11.",
+        "en": "Wed 4 Nov"
+       },
+       {
+        "bg": "14:15 заетост ADP (окт.); 16:00 индекс ISM за услугите; McDonald's, Uber, CVS; вечерта Qualcomm, Arm, AppLovin, DoorDash",
+        "de": "14:15 ADP-Arbeitsmarktbericht (Okt.); 16:00 ISM-Index Dienstleister; McDonald's, Uber, CVS; abends Qualcomm, Arm, AppLovin, DoorDash",
+        "en": "14:15 ADP employment (Oct); 16:00 ISM services index; McDonald's, Uber, CVS; Qualcomm, Arm, AppLovin, DoorDash after the close"
+       },
+       {
+        "bg": "Първи сигнали за пазара на труда; отчети на чип компании след разпродажбата",
+        "de": "Erste Signale zum Arbeitsmarkt; Chipwerte nach dem Ausverkauf",
+        "en": "Early labour-market signals; chip makers after the sell-off"
+       }
+      ],
+      [
+       {
+        "bg": "чт., 5.11.",
+        "de": "Do., 5.11.",
+        "en": "Thu 5 Nov"
+       },
+       {
+        "bg": "14:30 молби за помощи при безработица, производителност Q3; ConocoPhillips; вечерта Airbnb, Cloudflare",
+        "de": "14:30 Erstanträge Arbeitslosenhilfe, Produktivität Q3; ConocoPhillips; abends Airbnb, Cloudflare",
+        "en": "14:30 jobless claims, Q3 productivity; ConocoPhillips; Airbnb, Cloudflare after the close"
+       },
+       {
+        "bg": "Седмичен поглед към съкращенията; Bank of England може да вдигне лихвата",
+        "de": "Wöchentlicher Blick auf Entlassungen; Bank of England könnte Zins erhöhen",
+        "en": "Weekly view of layoffs; Bank of England may raise rates"
+       }
+      ],
+      [
+       {
+        "bg": "пт., 6.11.",
+        "de": "Fr., 6.11.",
+        "en": "Fri 6 Nov"
+       },
+       {
+        "bg": "14:30 доклад за пазара на труда (окт.); 15:10 реч на Мусалем (Фед на Сейнт Луис); 16:00 потребителски настроения (Мичиган)",
+        "de": "14:30 Arbeitsmarktbericht (Okt.); 15:10 Rede Musalem (Fed St. Louis); 16:00 Verbraucherstimmung Uni Michigan",
+        "en": "14:30 jobs report (Oct); 15:10 speech by Musalem (St. Louis Fed); 16:00 University of Michigan consumer sentiment"
+       },
+       {
+        "bg": "Ключов за решението на Фед за лихвите през декември",
+        "de": "Wichtig für den Fed-Zinsentscheid im Dezember",
+        "en": "Key input for the Fed's December rate decision"
+       }
+      ]
+     ]
+    },
+    {
+     "cap": {
+      "bg": "Облигации, петрол, злато и VIX – затваряне петък, 30.10.",
+      "de": "Anleihen, Öl, Gold und VIX – Schluss Freitag, 30.10.",
+      "en": "Bonds, oil, gold and VIX – close Friday 30 Oct"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Показател",
+        "de": "Kennzahl",
+        "en": "Indicator"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Четвъртък 29.10.",
+        "de": "Donnerstag 29.10.",
+        "en": "Thu 29 Oct"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Петък 30.10.",
+        "de": "Freitag 30.10.",
+        "en": "Fri 30 Oct"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Ден %",
+        "de": "Tag %",
+        "en": "Day %"
+       },
+       "k": "chg",
+       "dec": 2
+      }
+     ],
+     "rows": [
+      [
+       {
+        "bg": "Доходност 10-г. облигации САЩ (%)",
+        "de": "Rendite 10-j. US-Anleihe (%)",
+        "en": "10-year US Treasury yield (%)"
+       },
+       4.98,
+       4.93,
+       null
+      ],
+      [
+       {
+        "bg": "Петрол Brent, януари (USD/барел)",
+        "de": "Öl Brent, Januar-Kontrakt (USD/Barrel)",
+        "en": "Brent crude, January (USD/barrel)"
+       },
+       null,
+       113.43,
+       2.37
+      ],
+      [
+       {
+        "bg": "Петрол WTI (USD/барел)",
+        "de": "Öl WTI (USD/Barrel)",
+        "en": "WTI crude (USD/barrel)"
+       },
+       102.0,
+       104.12,
+       2.08
+      ],
+      [
+       {
+        "bg": "Злато, фючърс декември (USD/унция)",
+        "de": "Gold, Dezember-Future (USD/Unze)",
+        "en": "Gold, December futures (USD/oz)"
+       },
+       4031.4,
+       3898.9,
+       -3.29
+      ],
+      [
+       {
+        "bg": "Индекс на страха VIX",
+        "de": "Angstbarometer VIX",
+        "en": "VIX fear gauge"
+       },
+       17.2,
+       19.42,
+       12.91
+      ]
+     ]
+    }
+   ],
+   "ticker": [
+    {
+     "n": "Dow Jones",
+     "v": 51770.31,
+     "dec": 2,
+     "chg": -1.09
+    },
+    {
+     "n": "S&P 500",
+     "v": 7580.07,
+     "dec": 2,
+     "chg": -1.82
+    },
+    {
+     "n": "Nasdaq",
+     "v": 25437.0,
+     "dec": 2,
+     "chg": -2.86
+    },
+    {
+     "n": "Brent",
+     "v": 113.43,
+     "dec": 2,
+     "chg": 2.37
+    },
+    {
+     "n": "WTI",
+     "v": 104.12,
+     "dec": 2,
+     "chg": 2.08
+    },
+    {
+     "n": "Gold",
+     "v": 3898.9,
+     "dec": 2,
+     "chg": -3.29
+    }
+   ],
+   "src": [
+    {
+     "n": "AP via KRMG: How major US stock indexes fared Friday 10/30/2026 (15:21 CDT) – Schluss, Punkte, Woche, seit Jahresbeginn (Dow, S&P 500, Nasdaq, Russell 2000); am 1.11. erneut geprüft",
+     "u": "https://krmg.com/2026/10/30/how-major-us-stock-indexes-fared-friday-10-30-2026/"
+    },
+    {
+     "n": "AP via La Nación: How major US stock indexes fared Friday 10/30/2026",
+     "u": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-10302026-nid30102026/"
+    },
+    {
+     "n": "AP (Stan Choe) via Fox8live: Wall Street tumbles to its worst day since June (30.10.2026) – Intel, 10-j. Rendite",
+     "u": "https://www.fox8live.com/2026/10/30/wall-street-tumbles-its-worst-day-since-june-after-sell-off-tech-stocks-deepens/"
+    },
+    {
+     "n": "Investing.com: Nasdaq slides over 5% for worst month since March 2025 (30.10.2026) – Intel −28,58 %, Nasdaq schlechtester Monat seit März 2025, 10-j. Rendite 4,929 %",
+     "u": "https://www.investing.com/news/stock-market-news/us-stock-futures-sink-nasdaq-down-2-as-amazon-intel-earnings-underwhelm-4985675"
+    },
+    {
+     "n": "Investrade/Hammerstone: Market Review October 30, 2026 – Woche %, Oktober %, Gold",
+     "u": "https://investrade.com/market-review-october-30-2026/"
+    },
+    {
+     "n": "Capp Notes: Closing Look – Friday, October 30, 2026 – Renditen, Brent Januar, WTI, Gold, VIX",
+     "u": "https://cappnotes.substack.com/p/closing-look-friday-october-30-2026"
+    },
+    {
+     "n": "Yahoo Finance Live: Stock market today, Friday October 30 – Nasdaq schlechtester Monat seit März 2025",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html"
+    },
+    {
+     "n": "Dow Jones via finanznachrichten.de: WOCHENVORSCHAU 2. bis 8. November (45. KW), 30.10.2026 – Termine und Uhrzeiten MEZ",
+     "u": "https://www.finanznachrichten.de/nachrichten-2026-10/69990682-wochenvorschau-2-bis-8-november-45-kw-015.htm"
+    },
+    {
+     "n": "Stock Titan: Apple, AMD and Palantir Lead the Earnings Week of November 2 (30.10.2026, Daten Nasdaq)",
+     "u": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-2-2026"
+    },
+    {
+     "n": "TokenPost: Palantir, AMD Earnings Join Midterms and Jobs Report Next Week (30.10.2026) – Wahlen, BLS-Termin 6.11.",
+     "u": "https://www.tokenpost.com/news/investing/45214"
+    },
+    {
+     "n": "Tech Insider nach Reuters Week Ahead (30.10.2026) – Zwischenwahlen, ~80 % Zinserhöhungs-Wahrscheinlichkeit Dezember, September-Jobs +29.000",
+     "u": "https://tech-insider.org/wall-st-week-ahead-midterms-jobs-fed-hike-odds-ai-market-2026/"
+    },
+    {
+     "n": "Yardeni QuickTakes: Economic Week Ahead November 2–6 (31.10.2026) – ISM, JOLTS, ADP, Arbeitslosenquote 4,2 %, sechs Fed-Redner",
+     "u": "https://www.yardeniquicktakes.com/economic-week-ahead-november-2-6/"
+    },
+    {
+     "n": "Bloomingbit nach Bloomberg: U.S. Job Growth Seen Rebounding (31.10.2026) – Konsens +65.000, Quote 4,2 %",
+     "u": "https://en.bloomingbit.io/feed/news/123371"
+    },
+    {
+     "n": "WealthManagement.com: Fed Holds Rates (28.10.2026) – Spanne 3,75–4 %, Gegenstimmen Cook und Hammack",
+     "u": "https://www.wealthmanagement.com/fixed-income/fed-holds-rates-says-more-data-will-help-next-decision"
+    },
+    {
+     "n": "StoneX: Indices Weekly Outlook (1.11.2026) – Bank of England, Wochenausblick",
+     "u": "https://stonex.com/en-gb/news-and-analysis/indices-weekly-outlook-sandp-500-breaks-support-as-wobbling-ai-trade-weigh-on-stocks-2026-11-01"
+    },
+    {
+     "n": "Reuters via Business Standard: OPEC+ agrees in principle to keep oil output targets steady in Dec (1.11.2026)",
+     "u": "https://www.business-standard.com/world-news/opec-agrees-in-principle-to-keep-oil-output-targets-steady-in-dec-126110100053_1.html"
+    },
+    {
+     "n": "The National: Attacks on ships transiting Hormuz in October highest since start of war (31.10.2026)",
+     "u": "https://www.thenationalnews.com/news/mena/2026/10/31/attacks-on-ships-transiting-hormuz-in-october-highest-since-start-of-war/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-01/biz-wallstreet.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "bg": "Графика: борсови индекси, 01.11.2026 (собствена графика)",
+     "de": "Grafik: Börsenindizes, 01.11.2026 (eigene Darstellung)",
+     "en": "Graphic: stock market indices, 01.11.2026 (own graphic)"
+    }
+   }
+  },
+  {
+   "id": "deutsche-boerse",
+   "asof": {
+    "bg": "Цени при затваряне в Xetra, петък, 30 октомври 2026; уикенд – няма търговия; преглед на седмицата 2.–6.11.; данни към неделя, 1 ноември, около 07:30 ч. централноевропейско време",
+    "de": "Xetra-Schlusskurse Freitag, 30. Oktober 2026; Wochenende – kein Handel; Ausblick 2.–6.11.; Stand Sonntag, 1. November, etwa 07:30 Uhr MEZ",
+    "en": "Xetra closing prices Friday, 30 October 2026; weekend – no trading; preview of 2–6 Nov; as of Sunday, 1 November, about 07:30 CET"
+   },
+   "bg": {
+    "t": "DAX пред изборите в САЩ: Bayer, BMW, Telekom, Bank of England и данни за заетостта",
+    "d": "DAX влиза в новата седмица от 25 818,21 пункта след ръст от около 2,5% за седмицата. Предстоят междинните избори в САЩ (вторник), много отчети, Bank of England (четвъртък) и данните за заетостта в САЩ (петък).",
+    "body": [
+     "Водещият индекс DAX (40-те най-големи германски борсови компании) завърши петъка на 25 818,21 пункта (−0,85%), но седмицата и целият октомври приключиха с плюс от около 2,5%. От началото на годината DAX е с 5,42% нагоре (MarketScreener). Euro Stoxx 50 (големите компании от еврозоната) затвори на 6131,31 пункта (−1,22%). В четвъртък DAX още беше затворил на 26 039,68 пункта; според Dow Jones рекордът отново е близо.",
+     "Най-важното събитие е във вторник: междинните избори в САЩ, на които се избира цялата Камара на представителите и около една трета от Сената. Първите резултати се очакват в сряда сутринта европейско време. Робърт Грайл от Merck Finck смята, че за борсите ще е решаващо как ще реагира Доналд Тръмп на резултата. Уве Щрайх от LBBW предупреждава, че нов военен удар на САЩ срещу Иран след изборите би повишил още цената на петрола (dpa-AFX).",
+     "Отчети за третото тримесечие: във вторник Bayer, Lufthansa и Zalando; в сряда Fresenius, Vonovia, BMW, Continental и Heidelberg Materials (кратък отчет за търговията); в четвъртък Deutsche Telekom, Commerzbank, DHL, Rheinmetall и годишните резултати на Siemens Healthineers; в петък Daimler Truck (dpa-AFX, Dow Jones).",
+     "Данни: в понеделник индексите PMI (анкета сред мениджърите по покупки) за промишлеността; в сряда предварителната инфлация в еврозоната – според Dow Jones се очакват 3,8% за октомври (толкова беше и през септември, по данни на Евростат), при цел на ЕЦБ от 2%. В четвъртък излизат германските промишлени поръчки, а в 13:00 ч. решава Bank of England (централната банка на Великобритания). В петък следват германското промишлено производство и в 14:30 ч. докладът за пазара на труда в САЩ."
+    ],
+    "explain": "Тази седмица изборите в САЩ и данните за инфлацията и заетостта могат да раздвижат курсовете. Висока инфлация в еврозоната прави по-вероятно ЕЦБ да вдигне лихвите – това поскъпва кредитите, но подобрява лихвите по спестяванията."
+   },
+   "de": {
+    "t": "Dax vor der US-Wahlwoche: Bayer, BMW, Telekom, Bank of England und US-Jobdaten",
+    "d": "Der Dax geht mit 25.818,21 Punkten und einem Wochenplus von rund 2,5 % in die neue Woche. Es folgen US-Zwischenwahlen (Dienstag), viele Bilanzen, die Bank of England (Donnerstag) und US-Jobdaten (Freitag).",
+    "body": [
+     "Der Leitindex Dax (die 40 größten deutschen Börsenkonzerne) schloss am Freitag bei 25.818,21 Punkten (−0,85 %), die Woche und der ganze Oktober endeten aber mit einem Plus von jeweils rund 2,5 %. Seit Jahresbeginn liegt der Dax 5,42 % im Plus (MarketScreener). Der Euro Stoxx 50 (Großkonzerne der Eurozone) schloss bei 6131,31 Punkten (−1,22 %). Am Donnerstag hatte er noch bei 26.039,68 Punkten geschlossen; das Rekordhoch ist laut Dow Jones wieder in Sichtweite.",
+     "Wichtigster Termin ist der Dienstag: die US-Zwischenwahlen (Midterms), bei denen das ganze Repräsentantenhaus und etwa ein Drittel des Senats neu gewählt werden. Erste Ergebnisse werden am Mittwochmorgen europäischer Zeit erwartet. Robert Greil von Merck Finck hält für die Börsen entscheidend, wie Donald Trump auf das Ergebnis reagiert. Uwe Streich von der LBBW warnt, ein erneuter US-Militärschlag gegen den Iran nach der Wahl würde den Ölpreis weiter antreiben (dpa-AFX).",
+     "Quartalszahlen: Dienstag Bayer, Lufthansa und Zalando; Mittwoch Fresenius, Vonovia, BMW, Continental und Heidelberg Materials (Trading-Update); Donnerstag Deutsche Telekom, Commerzbank, DHL, Rheinmetall sowie die Jahreszahlen von Siemens Healthineers; Freitag Daimler Truck (dpa-AFX, Dow Jones).",
+     "Daten: Am Montag Einkaufsmanagerindizes (PMI, Umfrage unter Einkaufsleitern) der Industrie; am Mittwoch die vorläufige Inflation der Eurozone – laut Dow Jones werden für Oktober 3,8 % erwartet (so hoch wie im September laut Eurostat), Ziel der EZB sind 2 %. Am Donnerstag kommen die deutschen Auftragseingänge, um 13:00 Uhr entscheidet die Bank of England (britische Notenbank). Am Freitag folgen die deutsche Industrieproduktion und um 14:30 Uhr der US-Arbeitsmarktbericht."
+    ],
+    "explain": "Diese Woche können die US-Wahl sowie Inflations- und Jobdaten die Kurse bewegen. Eine hohe Inflation im Euroraum macht eine Zinserhöhung der EZB wahrscheinlicher – Kredite würden teurer, Sparzinsen besser."
+   },
+   "en": {
+    "t": "DAX ahead of US election week: Bayer, BMW, Telekom, Bank of England and US jobs data",
+    "d": "The DAX starts the new week at 25,818.21 points after a weekly gain of about 2.5%. Ahead: US midterm elections (Tuesday), many company results, the Bank of England (Thursday) and US jobs data (Friday).",
+    "body": [
+     "Germany's benchmark DAX (its 40 largest listed companies) closed Friday at 25,818.21 points (−0.85%), but both the week and the whole of October ended with gains of about 2.5%. Since the start of the year the DAX is up 5.42% (MarketScreener). The Euro Stoxx 50 (large eurozone companies) closed at 6,131.31 (−1.22%). On Thursday it had still closed at 26,039.68 points; Dow Jones says the record high is back in sight.",
+     "The key date is Tuesday: the US midterm elections, in which the whole House of Representatives and about a third of the Senate are elected. First results are expected on Wednesday morning, European time. Robert Greil of Merck Finck says how Donald Trump reacts to the outcome will be decisive for markets. Uwe Streich of LBBW warns that a renewed US military strike on Iran after the vote would push oil prices higher still (dpa-AFX).",
+     "Third-quarter results: Bayer, Lufthansa and Zalando on Tuesday; Fresenius, Vonovia, BMW, Continental and Heidelberg Materials (trading update) on Wednesday; Deutsche Telekom, Commerzbank, DHL, Rheinmetall and full-year results from Siemens Healthineers on Thursday; Daimler Truck on Friday (dpa-AFX, Dow Jones).",
+     "Data: manufacturing purchasing managers' indices (PMI, a survey of purchasing managers) on Monday; flash eurozone inflation on Wednesday – Dow Jones says 3.8% is expected for October (the same as September's rate, per Eurostat), against the ECB's 2% target. German factory orders come on Thursday, and at 13:00 CET the Bank of England (the UK central bank) decides on rates. Friday brings German industrial production and, at 14:30, the US jobs report."
+    ],
+    "explain": "This week the US election and inflation and jobs data could move share prices. High inflation in the euro area makes an ECB rate rise more likely – loans would get dearer, savings rates better."
+   },
+   "kpi": [
+    {
+     "l": {
+      "bg": "DAX (петък)",
+      "de": "DAX (Freitag)",
+      "en": "DAX (Friday)"
+     },
+     "v": 25818.21,
+     "dec": 2,
+     "u": "Pkt.",
+     "chg": -0.85
+    },
+    {
+     "l": {
+      "bg": "DAX за седмицата",
+      "de": "DAX Wochenbilanz",
+      "en": "DAX weekly change"
+     },
+     "v": 2.53,
+     "dec": 2,
+     "u": "%"
+    },
+    {
+     "l": {
+      "bg": "DAX от началото на годината",
+      "de": "DAX seit Jahresbeginn",
+      "en": "DAX year to date"
+     },
+     "v": 5.42,
+     "dec": 2,
+     "u": "%"
+    },
+    {
+     "l": {
+      "bg": "Euro Stoxx 50 (петък)",
+      "de": "Euro Stoxx 50 (Freitag)",
+      "en": "Euro Stoxx 50 (Friday)"
+     },
+     "v": 6131.31,
+     "dec": 2,
+     "u": "Pkt.",
+     "chg": -1.22
+    }
+   ],
+   "tables": [
+    {
+     "cap": {
+      "bg": "Индекси – затваряне в петък (30.10.2026); DAX, MDAX, Euro Stoxx 50 по dpa-AFX; седмица за DAX по MarketScreener (5 дни); SDAX и TecDAX (вкл. седмица) по finanzen.net (Xetra, 17:57 ч.)",
+      "de": "Indizes – Schluss Freitag (30.10.2026); Dax, MDax, Euro Stoxx 50 laut dpa-AFX; Dax-Woche laut MarketScreener (5 Tage); SDax und TecDax (inkl. Woche) laut finanzen.net (Xetra, 17:57 Uhr)",
+      "en": "Indices – Friday close (30 Oct 2026); DAX, MDAX, Euro Stoxx 50 per dpa-AFX; DAX week per MarketScreener (5 days); SDAX and TecDAX (incl. week) per finanzen.net (Xetra, 17:57)"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Индекс",
+        "de": "Index",
+        "en": "Index"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Затваряне",
+        "de": "Schluss",
+        "en": "Close"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Ден %",
+        "de": "Tag %",
+        "en": "Day %"
+       },
+       "k": "chg",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Седмица %",
+        "de": "Woche %",
+        "en": "Week %"
+       },
+       "k": "chg",
+       "dec": 2
+      }
+     ],
+     "rows": [
+      [
+       "DAX",
+       25818.21,
+       -0.85,
+       2.53
+      ],
+      [
+       "MDAX",
+       30472.32,
+       -1.06,
+       null
+      ],
+      [
+       "SDAX",
+       18046.98,
+       -2.02,
+       -0.59
+      ],
+      [
+       "TecDAX",
+       4090.31,
+       -1.43,
+       1.69
+      ],
+      [
+       "Euro Stoxx 50",
+       6131.31,
+       -1.22,
+       null
+      ]
+     ]
+    },
+    {
+     "cap": {
+      "bg": "Термини на седмицата 2–6 ноември 2026 (берлинско време; избрано, по dpa-AFX и Dow Jones)",
+      "de": "Termine der Woche 2.–6. November 2026 (MEZ; Auswahl laut dpa-AFX und Dow Jones)",
+      "en": "Key dates 2–6 November 2026 (CET; selection per dpa-AFX and Dow Jones)"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Ден",
+        "de": "Tag",
+        "en": "Day"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Събитие",
+        "de": "Termin",
+        "en": "Event"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Защо е важно",
+        "de": "Warum wichtig",
+        "en": "Why it matters"
+       },
+       "k": "txt"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "bg": "пн., 2.11.",
+        "de": "Mo., 2.11.",
+        "en": "Mon 2 Nov"
+       },
+       {
+        "bg": "08:00 продажби на дребно в Германия (09); 09:55/10:00 PMI промишленост Германия/еврозона; 16:00 ISM промишленост САЩ; 22:30 Apple",
+        "de": "08:00 Einzelhandelsumsatz DE (9/26); 09:55/10:00 PMI Industrie DE/Eurozone; 16:00 ISM Industrie USA; 22:30 Apple",
+        "en": "08:00 German retail sales (Sep); 09:55/10:00 manufacturing PMI Germany/eurozone; 16:00 US ISM manufacturing; 22:30 Apple"
+       },
+       {
+        "bg": "показва как вървят индустрията и потреблението",
+        "de": "zeigt, wie es Industrie und Konsum geht",
+        "en": "shows how industry and consumers are doing"
+       }
+      ],
+      [
+       {
+        "bg": "вт., 3.11.",
+        "de": "Di., 3.11.",
+        "en": "Tue 3 Nov"
+       },
+       {
+        "bg": "междинни избори в САЩ (цял ден); 07:00 Lufthansa, Zalando; 07:30 Bayer, Hugo Boss; 12:45 BioNTech",
+        "de": "US-Zwischenwahlen (ganztägig); 07:00 Lufthansa, Zalando; 07:30 Bayer, Hugo Boss; 12:45 Biontech",
+        "en": "US midterm elections (all day); 07:00 Lufthansa, Zalando; 07:30 Bayer, Hugo Boss; 12:45 BioNTech"
+       },
+       {
+        "bg": "контролът върху Конгреса определя политиката на САЩ; първи резултати в сряда сутринта",
+        "de": "Mehrheit im Kongress prägt die US-Politik; erste Ergebnisse Mittwochmorgen",
+        "en": "control of Congress shapes US policy; first results Wednesday morning"
+       }
+      ],
+      [
+       {
+        "bg": "ср., 4.11.",
+        "de": "Mi., 4.11.",
+        "en": "Wed 4 Nov"
+       },
+       {
+        "bg": "06:45 Fresenius; 07:00 Vonovia, Heidelberg Materials (кратък отчет); 07:30 BMW, Continental; 11:00 инфлация еврозона (предв.); 14:15 ADP заетост САЩ",
+        "de": "06:45 Fresenius; 07:00 Vonovia, Heidelberg Materials (Trading-Update); 07:30 BMW, Continental; 11:00 Inflation Eurozone (vorläufig); 14:15 ADP-Arbeitsmarkt USA",
+        "en": "06:45 Fresenius; 07:00 Vonovia, Heidelberg Materials (trading update); 07:30 BMW, Continental; 11:00 eurozone flash inflation; 14:15 US ADP employment"
+       },
+       {
+        "bg": "очакват се 3,8% инфлация – важно за следващото решение на ЕЦБ",
+        "de": "erwartet werden 3,8 % – wichtig für den nächsten EZB-Entscheid",
+        "en": "3.8% expected – key for the ECB's next decision"
+       }
+      ],
+      [
+       {
+        "bg": "чт., 5.11.",
+        "de": "Do., 5.11.",
+        "en": "Thu 5 Nov"
+       },
+       {
+        "bg": "07:00 Deutsche Telekom, Commerzbank, DHL, Siemens Healthineers (година), Lanxess; 07:30 Rheinmetall; 08:00 промишлени поръчки Германия (09); 13:00 Bank of England",
+        "de": "07:00 Deutsche Telekom, Commerzbank, DHL, Siemens Healthineers (Jahr), Lanxess; 07:30 Rheinmetall; 08:00 Auftragseingang Industrie DE (9/26); 13:00 Bank of England",
+        "en": "07:00 Deutsche Telekom, Commerzbank, DHL, Siemens Healthineers (full year), Lanxess; 07:30 Rheinmetall; 08:00 German factory orders (Sep); 13:00 Bank of England"
+       },
+       {
+        "bg": "най-натовареният ден за отчети; поръчките показват бъдещата работа на индустрията",
+        "de": "dichtester Bilanztag; Aufträge zeigen die künftige Auslastung der Industrie",
+        "en": "busiest results day; orders hint at future industrial activity"
+       }
+      ],
+      [
+       {
+        "bg": "пт., 6.11.",
+        "de": "Fr., 6.11.",
+        "en": "Fri 6 Nov"
+       },
+       {
+        "bg": "07:00 Daimler Truck; 08:00 промишлено производство Германия (09); 11:00 продажби на дребно еврозона; 14:30 доклад за пазара на труда в САЩ (10)",
+        "de": "07:00 Daimler Truck; 08:00 Industrieproduktion DE (9/26); 11:00 Einzelhandel Eurozone; 14:30 US-Arbeitsmarktbericht (10/26)",
+        "en": "07:00 Daimler Truck; 08:00 German industrial production (Sep); 11:00 eurozone retail sales; 14:30 US jobs report (Oct)"
+       },
+       {
+        "bg": "заетостта в САЩ влияе върху очакванията за лихвите на Фед",
+        "de": "US-Jobdaten beeinflussen die Zinserwartungen an die Fed",
+        "en": "US jobs data shape expectations for Fed rates"
+       }
+      ]
+     ]
+    }
+   ],
+   "ticker": [
+    {
+     "n": "DAX",
+     "v": 25818.21,
+     "dec": 2,
+     "chg": -0.85
+    },
+    {
+     "n": "MDAX",
+     "v": 30472.32,
+     "dec": 2,
+     "chg": -1.06
+    },
+    {
+     "n": "SDAX",
+     "v": 18046.98,
+     "dec": 2,
+     "chg": -2.02
+    },
+    {
+     "n": "TecDAX",
+     "v": 4090.31,
+     "dec": 2,
+     "chg": -1.43
+    },
+    {
+     "n": "Euro Stoxx 50",
+     "v": 6131.31,
+     "dec": 2,
+     "chg": -1.22
+    }
+   ],
+   "src": [
+    {
+     "n": "dpa-AFX via finanzen.at: ROUNDUP/Aktien Frankfurt Schluss: Schwächeres Ende einer starken Börsenwoche (30.10.2026)",
+     "u": "https://www.finanzen.at/nachrichten/aktien/roundup-aktien-frankfurt-schluss-schwacheres-ende-einer-starken-boersenwoche-1036693430"
+    },
+    {
+     "n": "Dow Jones via MarketScreener: MARKT-AUSBLICK/DAX geht optimistisch in US-Zwischenwahlen (30.10.2026, 12:51) – Kursdaten DAX 25.818,21, 5 Tage +2,53 %, seit Jahresbeginn +5,42 %; Eurozone-Inflation 3,8 % erwartet",
+     "u": "https://de.marketscreener.com/boerse-nachrichten/markt-ausblick-dax-geht-optimistisch-in-us-zwischenwahlen-ce785fdbdd88ff26"
+    },
+    {
+     "n": "Trading Economics: Euro Area Inflation Rate Confirmed at 3-Year High in September (16.10.2026) – Eurozone September 3,8 %, August 3,2 %",
+     "u": "https://tradingeconomics.com/euro-area/inflation-cpi/news/592744"
+    },
+    {
+     "n": "dpa-AFX via finanzen.net: WOCHENAUSBLICK – Weiterer Dax-Anstieg hängt an US-Zwischenwahlen und -Jobdaten (30.10.2026, 15:35)",
+     "u": "https://www.finanzen.net/nachricht/aktien/wochenausblick-weiterer-dax-anstieg-haengt-an-us-zwischenwahlen-und-jobdaten-16023171"
+    },
+    {
+     "n": "dpa-AFX via ARIVA: WOCHENVORSCHAU – Termine bis 13. November 2026 (30.10.2026)",
+     "u": "https://ariva.de/news/wochenvorschau-termine-bis-13-november-2026-12189183"
+    },
+    {
+     "n": "Dow Jones via finanzen.net: WOCHENVORSCHAU/2. bis 8. November (45. KW) (30.10.2026, 13:53)",
+     "u": "https://www.finanzen.net/nachricht/aktien/wochenvorschau-2-bis-8-november-45-kw-16022908"
+    },
+    {
+     "n": "finanzen.net: SDAX beendet die Sitzung im Minus (30.10.2026, 17:57)",
+     "u": "https://www.finanzen.net/nachricht/aktien/handel-in-frankfurt-sdax-beendet-die-sitzung-im-minus-16023846"
+    },
+    {
+     "n": "finanzen.net: TecDAX beendet den Freitagshandel mit Verlusten (30.10.2026, 17:57)",
+     "u": "https://www.finanzen.net/nachricht/aktien/xetra-handel-tecdax-beendet-den-freitagshandel-mit-verlusten-16023844"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-01/biz-deutsche-boerse.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "bg": "Графика: борсови индекси, 01.11.2026 (собствена графика)",
+     "de": "Grafik: Börsenindizes, 01.11.2026 (eigene Darstellung)",
+     "en": "Graphic: stock market indices, 01.11.2026 (own graphic)"
+    }
+   }
+  },
+  {
+   "id": "bg-energie-aktien",
+   "asof": {
+    "bg": "Стоп-цени, петък, 30.10.2026 (последна сесия на седмицата и на октомври); седмица 26.–30.10. спрямо 23.10.; енергийни акции – последна сделка с дата; към неделя, 01.11.2026, ок. 08:30 ч. българско време",
+    "de": "Schlusskurse Freitag, 30.10.2026 (letzte Sitzung der Woche und des Oktobers); Woche 26.–30.10. ggü. 23.10.; Energiewerte: letzter Abschluss mit Datum; Stand Sonntag, 01.11.2026, ca. 07:30 Uhr",
+    "en": "Closing prices Friday 30 Oct 2026 (last session of the week and of October); week 26–30 Oct vs 23 Oct; energy stocks: last trade with date; as of Sunday 1 Nov 2026, approx. 07:30 CET"
+   },
+   "bg": {
+    "t": "След рекордната седмица: колко широк е ръстът на БФБ и какво следва за „Еврохолд“",
+    "d": "SOFIX завърши октомври на 2120,40 пункта – с 26,25% над нивото от предходния петък. Ръстът идва почти изцяло от „Еврохолд“, а по-широките индекси растат далеч по-бавно. Следващата стъпка: дата за EuroBridge.",
+    "body": [
+     "Българската фондова борса (БФБ) приключи октомври с рекорд. SOFIX – основният индекс на борсата с 15-те най-важни акции – затвори в петък на 2120,40 пункта. За седмицата ръстът е 26,25%, а за последния месец – 44,23% (infostock.bg). Само в петък индексът добави 15,34%. Това все пак не е най-големият дневен скок в историята му: на 27 юни 2001 г. той беше 23,46% (infostock.bg).",
+     "Картината зад рекорда е тясна. „Еврохолд България“, холдингът, който притежава „Електрохолд“ и „Соларс Енерджи“, поскъпна за октомври с 235,94% до 4,30 евро (infostock.bg). Пазарната му стойност вече е около 2,24 млрд. евро (520,94 млн. акции по 4,30 евро; infostock.bg, собствена проверка). Индексът BGTR30, в който всяка от 30-те акции тежи еднакво, расте за седмицата само със 7,88% (собствено изчисление). Борсовият фонд Expat Bulgaria SOFIX, който следи индекса, в петък поскъпна с 8,45% – близо наполовина по-малко от SOFIX (infostock.bg).",
+     "Поводът е планът на „Еврохолд“ за листване на Франкфуртската борса, в сегмента Prime Standard, с всички 520,94 млн. акции (Forbes България). Председателят на управителния съвет Кирил Бошов заяви, че решението е продиктувано от сигнали за интерес от международни институционални инвеститори. Анализ на infostock.bg обаче напомня, че самото листване не увеличава печалбата или паричните потоци на компанията. При ниска ликвидност и концентрирани позиции рискът от резки корекции расте. Предупреждение от КФН или БФБ за спекулации не открихме; БФБ свързва ръста с приемането на еврото и повишаването на България до статус „граничен пазар“ от MSCI (БТА).",
+     "Какво да следим през новата седмица: „Еврохолд“ е подал заявление акциите му да минат в сегмента EuroBridge на БФБ, който позволява едновременна търговия в София и Франкфурт. Датата на прехвърлянето ще определи Съветът на директорите на борсата (БТА). Дотогава акциите остават в сегмента „Премиум“. За Франкфурт холдингът трябва да подаде информационен документ в КФН (Forbes България). Анализи от уикенда, извън вече публикуваните в петък, не открихме."
+    ],
+    "explain": "Рекордът на SOFIX се дължи почти изцяло на една акция. Затова индексът може да падне също толкова бързо, колкото се качи. Това не е инвестиционен съвет."
+   },
+   "de": {
+    "t": "Nach der Rekordwoche in Sofia: Wie breit ist das Plus – und was kommt für Eurohold?",
+    "d": "Der SOFIX schloss den Oktober bei 2120,40 Punkten, 26,25 % über dem Stand vom Freitag davor. Das Plus kommt fast nur von Eurohold, breitere Indizes steigen viel langsamer. Nächster Schritt: ein Termin für EuroBridge.",
+    "body": [
+     "Die Bulgarische Börse (BFB) in Sofia hat den Oktober mit einem Rekord beendet. Der SOFIX – der Leitindex mit den 15 wichtigsten Aktien des Landes – schloss am Freitag bei 2120,40 Punkten. Auf Wochensicht beträgt das Plus 26,25 %, über den letzten Monat 44,23 % (infostock.bg). Allein am Freitag stieg der Index um 15,34 %. Sein größter Tagessprung war das dennoch nicht: Am 27. Juni 2001 waren es 23,46 % (infostock.bg).",
+     "Hinter dem Rekord steht eine schmale Basis. Eurohold Bulgaria, die Holding hinter dem Stromversorger Elektrohold und Solars Energy, legte im Oktober um 235,94 % auf 4,30 Euro zu (infostock.bg). Ihr Börsenwert liegt nun bei rund 2,24 Mrd. Euro (520,94 Mio. Aktien zu 4,30 Euro; infostock.bg, eigene Prüfung). Der Index BGTR30, in dem jede der 30 Aktien gleich viel zählt, stieg in der Woche nur um 7,88 % (eigene Rechnung). Der Indexfonds (ETF) Expat Bulgaria SOFIX, der den SOFIX abbilden soll, gewann am Freitag 8,45 % – fast nur halb so viel wie der Index (infostock.bg).",
+     "Auslöser ist der Plan von Eurohold, alle 520,94 Mio. Aktien im Prime Standard der Frankfurter Börse notieren zu lassen (Forbes Bulgaria). Vorstandschef Kiril Boshov nannte als Grund Signale für Interesse internationaler institutioneller Anleger. Eine Analyse von infostock.bg erinnert jedoch daran, dass eine Notierung allein weder Gewinn noch Geldzuflüsse erhöht. Bei geringer Liquidität und konzentrierten Positionen steigt das Risiko plötzlicher Korrekturen. Eine Warnung der Finanzaufsicht KFN oder der Börse vor Spekulation fanden wir nicht; die Börse verweist auf den Euro-Beitritt und die Aufwertung Bulgariens zum „Frontier Market“ durch MSCI (BTA).",
+     "Worauf in der neuen Woche zu achten ist: Eurohold hat beantragt, seine Aktien in das Segment EuroBridge der BFB zu verlegen, das den gleichzeitigen Handel in Sofia und Frankfurt erlaubt. Den Termin legt der Vorstand der Börse fest (BTA). Bis dahin bleibt die Aktie im Segment „Premium“. Für Frankfurt muss die Holding ein Informationsdokument bei der KFN einreichen (Forbes Bulgaria). Neue Analysen vom Wochenende über die Freitagsberichte hinaus fanden wir nicht."
+    ],
+    "explain": "Der Rekord des SOFIX beruht fast ganz auf einer einzigen Aktie. Deshalb kann der Index ebenso schnell fallen, wie er gestiegen ist. Keine Anlageberatung."
+   },
+   "en": {
+    "t": "After Sofia's record week: how broad is the rally, and what's next for Eurohold?",
+    "d": "SOFIX ended October at 2,120.40 points, 26.25% above the previous Friday. The gain comes almost entirely from Eurohold, while broader indices rose far less. Next step: a date for the EuroBridge move.",
+    "body": [
+     "The Bulgarian Stock Exchange (BSE) in Sofia ended October at a record. SOFIX – the exchange's main index of the 15 key shares – closed on Friday at 2,120.40 points. That is up 26.25% on the week and 44.23% over the past month (infostock.bg). On Friday alone the index added 15.34%. Even so, it was not its biggest one-day jump: on 27 June 2001 it rose 23.46% (infostock.bg).",
+     "The base of the record is narrow. Eurohold Bulgaria, the holding behind power utility Elektrohold and Solars Energy, gained 235.94% in October to €4.30 (infostock.bg). Its market value is now about €2.24bn (520.94 million shares at €4.30; infostock.bg, own check). The BGTR30 index, in which each of its 30 shares counts equally, rose only 7.88% on the week (own calculation). The Expat Bulgaria SOFIX exchange-traded fund, which tracks the index, rose 8.45% on Friday – roughly half the index's gain (infostock.bg).",
+     "The trigger is Eurohold's plan to list all 520.94 million shares on the Prime Standard of the Frankfurt Stock Exchange (Forbes Bulgaria). Management board chairman Kiril Boshov cited signals of interest from international institutional investors. An infostock.bg analysis notes, however, that a listing by itself does not raise a company's profit or cash flow, and that thin liquidity and concentrated holdings raise the risk of sudden corrections. We found no warning about speculation from the regulator (FSC) or the exchange; the BSE links the rise to euro adoption and MSCI's upgrade of Bulgaria to frontier-market status (BTA).",
+     "What to watch this week: Eurohold has applied to move its shares to the BSE's EuroBridge segment, which allows trading in Sofia and Frankfurt at the same time. The exchange's board will set the transfer date (BTA). Until then the shares stay in the Premium segment. For Frankfurt, the holding must file an information document with the FSC (Forbes Bulgaria). We found no new weekend analyses beyond Friday's reports."
+    ],
+    "explain": "SOFIX's record rests almost entirely on one share, so the index can fall as fast as it rose. This is not investment advice."
+   },
+   "kpi": [
+    {
+     "l": {
+      "bg": "SOFIX (30.10.), за седмицата",
+      "de": "SOFIX (30.10.), Wochenplus",
+      "en": "SOFIX (30 Oct), weekly change"
+     },
+     "v": 2120.4,
+     "dec": 2,
+     "u": "Pkt.",
+     "chg": 26.25
+    },
+    {
+     "l": {
+      "bg": "SOFIX за 1 месец (infostock.bg)",
+      "de": "SOFIX über 1 Monat (infostock.bg)",
+      "en": "SOFIX over 1 month (infostock.bg)"
+     },
+     "v": 44.23,
+     "dec": 2,
+     "u": "%"
+    },
+    {
+     "l": {
+      "bg": "„Еврохолд“ за октомври (4,30 евро)",
+      "de": "Eurohold im Oktober (4,30 Euro)",
+      "en": "Eurohold in October (€4.30)"
+     },
+     "v": 235.94,
+     "dec": 2,
+     "u": "%"
+    },
+    {
+     "l": {
+      "bg": "Пазарна стойност на „Еврохолд“ (млрд. евро)",
+      "de": "Börsenwert Eurohold (Mrd. Euro)",
+      "en": "Eurohold market value (EUR bn)"
+     },
+     "v": 2.24,
+     "dec": 2,
+     "u": "Mrd. EUR"
+    }
+   ],
+   "tables": [
+    {
+     "cap": {
+      "bg": "Индекси на БФБ – стоп-цени 30.10.2026, седмица и 1 месец (infostock.bg, БТА; седмица BGTR30/BGREIT – собствено изчисление спрямо 23.10.)",
+      "de": "Indizes der Bulgarischen Börse – Schluss 30.10.2026, Woche und 1 Monat (infostock.bg, BTA; Woche BGTR30/BGREIT eigene Rechnung ggü. 23.10.)",
+      "en": "Bulgarian Stock Exchange indices – close 30 Oct 2026, week and 1 month (infostock.bg, BTA; week for BGTR30/BGREIT own calc. vs 23 Oct)"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Индекс",
+        "de": "Index",
+        "en": "Index"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Пункта",
+        "de": "Punkte",
+        "en": "Points"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Ден %",
+        "de": "Tag %",
+        "en": "Day %"
+       },
+       "k": "chg",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Седмица %",
+        "de": "Woche %",
+        "en": "Week %"
+       },
+       "k": "chg",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "1 месец %",
+        "de": "1 Monat %",
+        "en": "1 month %"
+       },
+       "k": "chg",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Дата",
+        "de": "Datum",
+        "en": "Date"
+       },
+       "k": "txt"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "bg": "SOFIX (15 основни акции)",
+        "de": "SOFIX (15 Hauptwerte)",
+        "en": "SOFIX (15 key shares)"
+       },
+       2120.4,
+       15.34,
+       26.25,
+       44.23,
+       {
+        "bg": "30.10.2026",
+        "de": "30.10.2026",
+        "en": "30 Oct 2026"
+       }
+      ],
+      [
+       {
+        "bg": "BGBX40 (40 най-търгувани)",
+        "de": "BGBX40 (40 meistgehandelte)",
+        "en": "BGBX40 (40 most traded)"
+       },
+       315.06,
+       10.96,
+       19.0,
+       30.39,
+       {
+        "bg": "30.10.2026",
+        "de": "30.10.2026",
+        "en": "30 Oct 2026"
+       }
+      ],
+      [
+       {
+        "bg": "BGTR30 (30 акции с равна тежест)",
+        "de": "BGTR30 (30 Aktien, gleich gewichtet)",
+        "en": "BGTR30 (30 equal-weight shares)"
+       },
+       1295.08,
+       3.94,
+       7.88,
+       null,
+       {
+        "bg": "30.10.2026",
+        "de": "30.10.2026",
+        "en": "30 Oct 2026"
+       }
+      ],
+      [
+       {
+        "bg": "BGREIT (фондове за имоти)",
+        "de": "BGREIT (Immobilienfonds)",
+        "en": "BGREIT (property funds)"
+       },
+       246.53,
+       -0.08,
+       0.62,
+       null,
+       {
+        "bg": "30.10.2026",
+        "de": "30.10.2026",
+        "en": "30 Oct 2026"
+       }
+      ]
+     ]
+    },
+    {
+     "cap": {
+      "bg": "Енергийни акции на БФБ – последна сделка (цени в евро; infostock.bg, БТА)",
+      "de": "Energiewerte an der Bulgarischen Börse – letzter Abschluss (Kurse in Euro; infostock.bg, BTA)",
+      "en": "Energy stocks on the Bulgarian Stock Exchange – last trade (prices in euros; infostock.bg, BTA)"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Компания",
+        "de": "Unternehmen",
+        "en": "Company"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Цена (EUR)",
+        "de": "Kurs (EUR)",
+        "en": "Price (EUR)"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Ден %",
+        "de": "Tag %",
+        "en": "Day %"
+       },
+       "k": "chg",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Седмица %",
+        "de": "Woche %",
+        "en": "Week %"
+       },
+       "k": "chg",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Последна сделка",
+        "de": "Letzter Abschluss",
+        "en": "Last trade"
+       },
+       "k": "txt"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "bg": "Еврохолд България (EUBG) – енергиен холдинг",
+        "de": "Eurohold Bulgaria (EUBG) – Energieholding",
+        "en": "Eurohold Bulgaria (EUBG) – energy holding"
+       },
+       4.3,
+       60.45,
+       134.97,
+       {
+        "bg": "30.10.2026, 17:00 (октомври +235,94%; оборот за октомври 10,44 млн. евро)",
+        "de": "30.10.2026, 17:00 (Oktober +235,94 %; Oktober-Umsatz 10,44 Mio. Euro)",
+        "en": "30 Oct 2026, 17:00 (October +235.94%; October turnover €10.44m)"
+       }
+      ],
+      [
+       {
+        "bg": "Петрол (PET) – горива",
+        "de": "Petrol (PET) – Kraftstoffe",
+        "en": "Petrol (PET) – fuels"
+       },
+       0.46,
+       15.58,
+       null,
+       {
+        "bg": "30.10.2026 (по infostock.bg)",
+        "de": "30.10.2026 (laut infostock.bg)",
+        "en": "30 Oct 2026 (per infostock.bg)"
+       }
+      ]
+     ]
+    }
+   ],
+   "ticker": [
+    {
+     "n": "SOFIX (Woche)",
+     "v": 2120.4,
+     "dec": 2,
+     "chg": 26.25
+    },
+    {
+     "n": "BGBX40 (Woche)",
+     "v": 315.06,
+     "dec": 2,
+     "chg": 19.0
+    },
+    {
+     "n": "BGTR30 (Woche)",
+     "v": 1295.08,
+     "dec": 2,
+     "chg": 7.88
+    },
+    {
+     "n": "Eurohold (Woche)",
+     "v": 4.3,
+     "dec": 2,
+     "chg": 134.97
+    },
+    {
+     "n": "Expat SOFIX ETF",
+     "v": 1.27,
+     "dec": 2,
+     "chg": 8.45
+    },
+    {
+     "n": "Petrol (PET)",
+     "v": 0.46,
+     "dec": 2,
+     "chg": 15.58
+    }
+   ],
+   "src": [
+    {
+     "n": "infostock.bg – SOFIX скочи с 15,34% и пренаписа историята на БФБ (30.10.2026, 19:06) – SOFIX 2120,40, BGBX40 315,06, BGTR30 1295,08, BGREIT 246,53; най-голям дневен ръст 23,46% (27.06.2001); Expat Bulgaria SOFIX UCITS ETF +8,45% до 1,27 евро; Петрол +15,58% до 0,46 евро; анализ на рисковете",
+     "u": "https://www.infostock.bg/infostock/control/bse/news/128579-sofix-skochi-s-1534-i-prenapisa-istoriyata-na-balgarskata-fondova-borsa"
+    },
+    {
+     "n": "infostock.bg – SOFIX (30.10.2026, 17:00): 5 дни +26,25%, 1 месец +44,23%, от началото на годината +83,36%",
+     "u": "https://www.infostock.bg/infostock/control/trading/index/quotes/SOFIX"
+    },
+    {
+     "n": "infostock.bg – BGBX40 (30.10.2026, 17:00): 315,06; 5 дни +19,00%, 1 месец +30,39%",
+     "u": "https://www.infostock.bg/infostock/control/trading/index/quotes/BGBX40"
+    },
+    {
+     "n": "infostock.bg – Еврохолд България (EUBG): 4,30 евро, 30.10.2026, 17:00; 5 дни +134,97%; капитализация 2 240 042 000; 520 940 000 акции",
+     "u": "https://www.infostock.bg/infostock/control/quotes/EUBG"
+    },
+    {
+     "n": "infostock.bg – Месечна статистика EUBG: октомври 2026 – откриване 1,280, затваряне 4,300, +235,94%, 10 435 590 евро",
+     "u": "https://www.infostock.bg/infostock/control/pricestats/EUBG"
+    },
+    {
+     "n": "Forbes България – „Еврохолд“ излиза на Франкфуртската борса с 521 млн. акции (29.10.2026)",
+     "u": "https://forbesbulgaria.com/2026/10/29/evrohold-izliza-na-frankfurtskata-borsa-s-521-mln-aktsii/"
+    },
+    {
+     "n": "БТА – Основният индекс на БФБ нарасна до най-високото ниво в своята 26-годишна история (30.10.2026, 18:16) – EuroBridge, коментар на БФБ",
+     "u": "https://www.bta.bg/bg/news/economy/1236719-osnovniyat-indeks-na-bfb-narasna-do-nay-visokoto-nivo-v-svoyata-26-godishna-isto"
+    },
+    {
+     "n": "BTA (EN) – Bulgarian Stock Market Rallies as It Hits Nearly 19-Year High (29.10.2026) – Eurohold EuroBridge application; BSE board sets transfer date",
+     "u": "https://www.bta.bg/en/news/economy/1235857-bulgarian-stock-market-rallies-as-it-hits-nearly-19-year-high"
+    },
+    {
+     "n": "manager.bg – Исторически връх за SOFIX: индексът премина 2000 пункта (30.10.2026)",
+     "u": "https://manager.bg/%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%B8/istoricheski-vrah-za-sofix-osnovniat-indeks-na-bfb-premina-granicata-ot-2000-punkta"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-01/biz-bg-energie-aktien.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "bg": "Графика: борсови индекси, 01.11.2026 (собствена графика)",
+     "de": "Grafik: Börsenindizes, 01.11.2026 (eigene Darstellung)",
+     "en": "Graphic: stock market indices, 01.11.2026 (own graphic)"
+    }
+   }
+  },
+  {
+   "id": "invest-bulgarien",
+   "asof": {
+    "bg": "Към 1 ноември 2026 г., около 08:30 ч. българско време",
+    "de": "Stand: 1. November 2026, ca. 07:30 Uhr",
+    "en": "As of 1 November 2026, approx. 07:30 CET"
+   },
+   "bg": {
+    "t": "Спокоен уикенд без нови заводи – цените на производител с +20,9% за година",
+    "d": "От събота сутринта не са обявени нови заводи или съкращения с конкретни числа. НСИ: цените на производител през септември са с 20,9% над миналогодишните. Индексът на тържищните цени расте с 1,23%.",
+    "body": [
+     "През уикенда агенциите и бизнес медиите в България не съобщиха за нови заводи, първи копки или съкращения с конкретни суми и брой работни места. Таблицата затова показва проектите от 22.–30.10. Най-голямата сума е за малцовия завод на френската „Малтери Суфле“ в Плевен – почти 70 млн. евро (Капитал, 30.10.).",
+     "Нови данни от НСИ (30.10.): цените на производител в промишлеността през септември са с 20,9% по-високи от година по-рано и с 2,6% по-високи от август. За вътрешния пазар ръстът е 22,9% за година, за износа – 17,6% (по Ruse.news). Цени на производител = цените, на които фабриките продават стоката си, преди тя да стигне до магазина.",
+     "На стоковите борси индексът на тържищните цени на ДКСБТ се повишава с 1,23% до 2,389 пункта, макар повечето зеленчуци и плодове да поевтиняват. Поскъпват тиквичките (+11,11%), краставиците (+7,97%) и маслото (+5,53%); захарта е с 1,5% по-скъпа – 0,95 евро/кг (БТА, 1.11.).",
+     "Проектите в таблицата с посочена сума са общо около 253 млн. евро, обявените нови работни места – поне 410 (собствено изчисление от закръглени суми като „близо“ и „над“ и от долните граници за работните места; 180-те млн. евро за ВиК в Бургас и Варна не са включени, защото са вече вложени средства без разбивка)."
+    ],
+    "explain": "Когато фабриките продават по-скъпо, това често стига до магазините след няколко месеца. Нови заводи и работни места през уикенда не бяха обявени."
+   },
+   "de": {
+    "t": "Ruhiges Wochenende ohne neue Werke – Erzeugerpreise in Bulgarien +20,9 %",
+    "d": "Seit Samstagmorgen wurden keine neuen Werke oder Entlassungen mit Zahlen gemeldet. Laut NSI lagen die Erzeugerpreise im September 20,9 % über dem Vorjahr. Der Großhandelsindex steigt um 1,23 %.",
+    "body": [
+     "Am Wochenende meldeten Nachrichtenagenturen und Wirtschaftsmedien in Bulgarien keine neuen Werke, Spatenstiche oder Entlassungen mit konkreten Summen oder Stellenzahlen. Die Tabelle zeigt daher die Projekte vom 22. bis 30.10. Den größten Betrag nennt die französische Malteries Soufflet für ihre Mälzerei in Plewen: knapp 70 Mio. Euro (Capital, 30.10.).",
+     "Neue Daten der Statistikbehörde NSI (30.10.): Die Erzeugerpreise der Industrie lagen im September 20,9 % über dem Vorjahr und 2,6 % über dem August. Im Inland betrug das Plus 22,9 %, beim Export 17,6 % (laut Ruse.news). Erzeugerpreise sind die Preise, zu denen Fabriken ihre Waren verkaufen – bevor sie im Laden ankommen.",
+     "An den Warenbörsen steigt der Marktpreisindex der Kommission DKSBT um 1,23 % auf 2,389 Punkte, obwohl die meisten Gemüse- und Obstsorten billiger werden. Teurer werden Zucchini (+11,11 %), Gurken (+7,97 %) und Butter (+5,53 %); Zucker kostet 1,5 % mehr, 0,95 Euro/kg (BTA, 1.11.).",
+     "Die bezifferten Projekte der Tabelle summieren sich auf rund 253 Mio. Euro, die genannten neuen Stellen auf mindestens 410 (eigene Rechnung aus gerundeten Angaben wie „knapp“ und „über“ sowie Untergrenzen bei den Stellen; die 180 Mio. Euro für Wassernetze in Burgas und Warna sind nicht enthalten, da bereits investiert und nicht aufgeschlüsselt)."
+    ],
+    "explain": "Wenn Fabriken teurer verkaufen, kommt das oft einige Monate später im Laden an. Neue Werke oder Jobs wurden am Wochenende nicht angekündigt."
+   },
+   "en": {
+    "t": "Quiet weekend with no new plants – Bulgarian producer prices up 20.9% a year",
+    "d": "No new plants or job cuts with figures have been reported since Saturday morning. NSI says industrial producer prices in September were 20.9% higher than a year earlier. The wholesale index rises 1.23%.",
+    "body": [
+     "Over the weekend, news agencies and business media in Bulgaria reported no new plants, groundbreakings or job cuts with concrete amounts or job numbers. The table therefore shows projects from 22 to 30 October. The largest sum is for the malting plant of France's Malteries Soufflet in Pleven: nearly EUR 70m (Capital, 30 Oct).",
+     "New data from the statistics office NSI (30 Oct): industrial producer prices in September were 20.9% higher than a year earlier and 2.6% higher than in August. On the domestic market the rise was 22.9%, for exports 17.6% (via Ruse.news). Producer prices are what factories charge for their goods before they reach the shops.",
+     "On the commodity exchanges, the DKSBT market price index rises 1.23% to 2.389 points, even though most vegetables and fruit get cheaper. Courgettes (+11.11%), cucumbers (+7.97%) and butter (+5.53%) are dearer; sugar is up 1.5% at EUR 0.95/kg (BTA, 1 Nov).",
+     "Projects in the table with a stated value total about EUR 253m, with at least 410 new jobs announced (own calculation from rounded figures such as \"nearly\" and \"over\" and the lower end of job ranges; the EUR 180m for water networks in Burgas and Varna is excluded, as it was already spent and not broken down)."
+    ],
+    "explain": "When factories charge more, shoppers often feel it a few months later. No new plants or jobs were announced at the weekend."
+   },
+   "kpi": [
+    {
+     "l": {
+      "bg": "Сума на проектите с посочена стойност (ок., таблица)",
+      "de": "Summe der bezifferten Projekte (ca., Tabelle)",
+      "en": "Total of projects with stated value (approx., table)"
+     },
+     "v": 253.49,
+     "dec": 0,
+     "u": "Mio. EUR"
+    },
+    {
+     "l": {
+      "bg": "Цени на производител, септ. (г/г, НСИ)",
+      "de": "Erzeugerpreise September (ggü. Vorjahr, NSI)",
+      "en": "Producer prices, Sep (y/y, NSI)"
+     },
+     "v": 20.9,
+     "dec": 1,
+     "u": "%"
+    },
+    {
+     "l": {
+      "bg": "Индекс на тържищните цени (ДКСБТ)",
+      "de": "Marktpreisindex Großhandel (DKSBT)",
+      "en": "Wholesale market price index (DKSBT)"
+     },
+     "v": 2.389,
+     "dec": 3,
+     "u": "Pkt.",
+     "chg": 1.23
+    },
+    {
+     "l": {
+      "bg": "Безработица септември (Евростат)",
+      "de": "Arbeitslosenquote September (Eurostat)",
+      "en": "Unemployment September (Eurostat)"
+     },
+     "v": 3.4,
+     "dec": 1,
+     "u": "%"
+    }
+   ],
+   "tables": [
+    {
+     "cap": {
+      "bg": "Инвестиционни проекти и съкращения, 22.–30.10.2026 (през уикенда няма нови)",
+      "de": "Investitionsprojekte und Stellenabbau, 22.–30.10.2026 (am Wochenende nichts Neues)",
+      "en": "Investment projects and job cuts, 22–30 Oct 2026 (nothing new at the weekend)"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Регион",
+        "de": "Region",
+        "en": "Region"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Компания / проект",
+        "de": "Unternehmen / Projekt",
+        "en": "Company / project"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Отрасъл",
+        "de": "Branche",
+        "en": "Sector"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Сума (млн. евро)",
+        "de": "Summe (Mio. EUR)",
+        "en": "Amount (EUR m)"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Работни места (− = съкращение)",
+        "de": "Arbeitsplätze (− = Abbau)",
+        "en": "Jobs (− = cuts)"
+       },
+       "k": "num",
+       "dec": 0
+      },
+      {
+       "h": {
+        "bg": "Дата / източник",
+        "de": "Datum / Quelle",
+        "en": "Date / source"
+       },
+       "k": "txt"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "bg": "Плевен",
+        "de": "Plewen",
+        "en": "Pleven"
+       },
+       {
+        "bg": "„Малтери Суфле България“ (Франция) – малцов завод (60 000 т), на мястото на бившата пивоварна „Плевенско пиво“",
+        "de": "Malteries Soufflet Bulgaria (Frankreich) – Mälzerei (60.000 t), auf dem Gelände der früheren Brauerei Plewensko piwo",
+        "en": "Malteries Soufflet Bulgaria (France) – malting plant (60,000 t) on the site of the former Plevensko pivo brewery"
+       },
+       {
+        "bg": "Храни / напитки",
+        "de": "Lebensmittel / Getränke",
+        "en": "Food / beverages"
+       },
+       70,
+       null,
+       {
+        "bg": "Капитал, 30.10.2026 (заглавие: „френска инвестиция за 70 млн. евро“; текстът не е достъпен); подробности: Money.bg, 20.07.2026 – „почти 70 млн. евро“; проектът е започнал през 2023 г.",
+        "de": "Capital, 30.10.2026 (Titel: „französische Investition über 70 Mio. Euro“; Text nicht abrufbar); Details: Money.bg, 20.07.2026 – „knapp 70 Mio. Euro“; Bau seit 2023",
+        "en": "Capital, 30 Oct 2026 (headline: 'French investment of EUR 70m'; text not accessible); details: Money.bg, 20 Jul 2026 – 'nearly EUR 70m'; under construction since 2023"
+       }
+      ],
+      [
+       {
+        "bg": "Бургас и Варна",
+        "de": "Burgas und Warna",
+        "en": "Burgas and Varna"
+       },
+       {
+        "bg": "ВиК операторите в Бургас и Варна, вкл. к-с „Елените“ – инвестирани над 180 млн. евро (обявено от министъра на околната среда)",
+        "de": "Wasserversorger in Burgas und Warna, inkl. Ferienanlage Elenite – über 180 Mio. Euro investiert (laut Umweltministerin)",
+        "en": "Water utilities in Burgas and Varna, incl. Elenite resort – over EUR 180m invested (per environment minister)"
+       },
+       {
+        "bg": "Инфраструктура / ВиК",
+        "de": "Infrastruktur / Wasser",
+        "en": "Infrastructure / water"
+       },
+       null,
+       null,
+       {
+        "bg": "dbr.bg, 30.10.2026 (форум „Черно море 2030“); вече вложени средства, без разбивка и срок – не са в сумата",
+        "de": "dbr.bg, 30.10.2026 (Forum „Schwarzes Meer 2030“); bereits investierte Mittel, ohne Aufteilung und Zeitraum – nicht in der Summe",
+        "en": "dbr.bg, 30 Oct 2026 ('Black Sea 2030' forum); funds already invested, no breakdown or period – not in total"
+       }
+      ],
+      [
+       {
+        "bg": "Велико Търново (Свищов) – Дунавски индустриален технологичен парк",
+        "de": "Weliko Tarnowo (Swischtow) – Donau-Industrie- und Technologiepark",
+        "en": "Veliko Tarnovo (Svishtov) – Danube Industrial Technology Park"
+       },
+       {
+        "bg": "Три инвестиционни намерения: „Аквилон – АМ“ (пакетиране на яйца, ~50), „Мултимодал хайпъргрид енд диджитъл системс“ (център за данни за ИИ и енергия, ~60), „Богара“ (логистична база, ~50)",
+        "de": "Drei Investitionsabsichten: Akwilon – AM (Eierverpackung, ~50), Multimodal Hypergrid and Digital Systems (KI-Rechenzentrum mit Energie, ~60), Bogara (Logistikzentrum, ~50)",
+        "en": "Three statements of intent: Akvilon – AM (egg packing, ~50), Multimodal Hypergrid and Digital Systems (AI data and power centre, ~60), Bogara (logistics base, ~50)"
+       },
+       {
+        "bg": "Храни / центрове за данни / логистика",
+        "de": "Lebensmittel / Rechenzentren / Logistik",
+        "en": "Food / data centres / logistics"
+       },
+       null,
+       160,
+       {
+        "bg": "БТА (през „Утро Русе“), 29.10.2026, 17:46; суми не са посочени; заявления, още не договори",
+        "de": "BTA (via Utro Ruse), 29.10.2026, 17:46; keine Summen genannt; Absichtserklärungen, noch keine Verträge",
+        "en": "BTA (via Utro Ruse), 29 Oct 2026, 17:46; no amounts given; statements of intent, not yet contracts"
+       }
+      ],
+      [
+       {
+        "bg": "Благоевград (област) – Сандански, Баня, Добринище, Българчево",
+        "de": "Blagoewgrad (Region) – Sandanski, Banja, Dobrinischte, Balgartschewo",
+        "en": "Blagoevgrad (region) – Sandanski, Banya, Dobrinishte, Balgarchevo"
+       },
+       {
+        "bg": "ЕРМ Запад – инвестиции в електроразпределителната мрежа през 2026 г. (нови присъединявания, трафопостове, електромери)",
+        "de": "ERM Zapad – Investitionen ins Stromverteilnetz 2026 (Neuanschlüsse, Trafostationen, Zähler)",
+        "en": "ERM Zapad – 2026 investment in the distribution grid (new connections, transformer stations, meters)"
+       },
+       {
+        "bg": "Енергетика / мрежи",
+        "de": "Energie / Netze",
+        "en": "Energy / grids"
+       },
+       10,
+       null,
+       {
+        "bg": "Actualno, 29.10.2026, 14:55; „близо 10 млн. евро“ – годишна програма 2026; от тях ок. 3,8 млн. за нови клиенти, 3 млн. за електромери",
+        "de": "Actualno, 29.10.2026, 14:55; „knapp 10 Mio. Euro“ – Jahresprogramm 2026; davon rund 3,8 Mio. für Neukunden, 3 Mio. für Zähler",
+        "en": "Actualno, 29 Oct 2026, 14:55; 'nearly EUR 10m' – 2026 annual programme; incl. about EUR 3.8m for new customers, EUR 3m for meters"
+       }
+      ],
+      [
+       {
+        "bg": "София (град), Доброславци – бивше военно летище",
+        "de": "Sofia (Stadt), Dobroslawzi – früherer Militärflugplatz",
+        "en": "Sofia (city), Dobroslavtsi – former military airfield"
+       },
+       {
+        "bg": "„Старбейс Юръп“ ЕООД – високотехнологичен индустриален парк и космически и отбранителен развоен център; проект на меморандум",
+        "de": "Starbase Europe EOOD – Hightech-Industriepark und Entwicklungszentrum für Raumfahrt und Verteidigung; Memorandum-Entwurf",
+        "en": "Starbase Europe EOOD – high-tech industrial park and space and defence development centre; draft memorandum"
+       },
+       {
+        "bg": "Космос / отбрана",
+        "de": "Raumfahrt / Verteidigung",
+        "en": "Space / defence"
+       },
+       100,
+       null,
+       {
+        "bg": "БТА, 28.10.2026; работни места и срокове не са посочени",
+        "de": "BTA, 28.10.2026; Stellen und Zeitplan nicht genannt",
+        "en": "BTA, 28 Oct 2026; jobs and timeline not stated"
+       }
+      ],
+      [
+       {
+        "bg": "Ловеч (Баховица) – по по-ранни публикации",
+        "de": "Lowetsch (Bachowiza) – laut früheren Berichten",
+        "en": "Lovech (Bahovitsa) – per earlier reports"
+       },
+       {
+        "bg": "Great Wall Motor (GWM) – производство на SUV „Ора 5“ с местен партньор, до 50 000 коли годишно",
+        "de": "Great Wall Motor (GWM) – Fertigung des SUV Ora 5 mit lokalem Partner, bis 50.000 Autos/Jahr",
+        "en": "Great Wall Motor (GWM) – Ora 5 SUV production with local partner, up to 50,000 cars/year"
+       },
+       {
+        "bg": "Автомобилна индустрия",
+        "de": "Autoindustrie",
+        "en": "Car industry"
+       },
+       null,
+       null,
+       {
+        "bg": "БТА, 27.10.2026; старт I трим. 2027; сума и работни места не са посочени",
+        "de": "BTA, 27.10.2026; Start 1. Quartal 2027; Summe und Stellen nicht genannt",
+        "en": "BTA, 27 Oct 2026; start Q1 2027; amount and jobs not stated"
+       }
+      ],
+      [
+       {
+        "bg": "Сливен",
+        "de": "Sliwen",
+        "en": "Sliven"
+       },
+       {
+        "bg": "„Топлофикация Сливен“ – газови когенерации, +17 MW електрическа мощност",
+        "de": "Toplofikazija Sliwen – Gas-Kraft-Wärme-Kopplung, +17 MW Stromleistung",
+        "en": "Toplofikatsia Sliven – gas cogeneration, +17 MW electric capacity"
+       },
+       {
+        "bg": "Енергетика",
+        "de": "Energie",
+        "en": "Energy"
+       },
+       17,
+       null,
+       {
+        "bg": "Money.bg, 23.10.2026; собствени средства",
+        "de": "Money.bg, 23.10.2026; Eigenmittel",
+        "en": "Money.bg, 23 Oct 2026; own funds"
+       }
+      ],
+      [
+       {
+        "bg": "София (град), летище „Васил Левски“",
+        "de": "Sofia (Stadt), Flughafen Wassil Lewski",
+        "en": "Sofia (city), Vasil Levski airport"
+       },
+       {
+        "bg": "„СОФ Кънект“ – подготвителни работи за Терминал 3 (транспортен център, зона пред Терминал 2, подземна инфраструктура)",
+        "de": "SOF Connect – Vorarbeiten für Terminal 3 (Verkehrszentrum, Vorfeld Terminal 2, unterirdische Leitungen)",
+        "en": "SOF Connect – preparatory works for Terminal 3 (transport hub, Terminal 2 forecourt, underground utilities)"
+       },
+       {
+        "bg": "Инфраструктура / летища",
+        "de": "Infrastruktur / Flughafen",
+        "en": "Infrastructure / airport"
+       },
+       7,
+       null,
+       {
+        "bg": "Money.bg, 23.10.2026 (допълнено); „над 7 млн. евро“; готово до края на март 2027 г.",
+        "de": "Money.bg, 23.10.2026 (nachgetragen); „über 7 Mio. Euro“; fertig bis Ende März 2027",
+        "en": "Money.bg, 23 Oct 2026 (added); 'over EUR 7m'; done by end-March 2027"
+       }
+      ],
+      [
+       {
+        "bg": "София (град)",
+        "de": "Sofia (Stadt)",
+        "en": "Sofia (city)"
+       },
+       {
+        "bg": "„София Мед“ – проект SVAROG за рециклиране на мед (Фонд за иновации на ЕС)",
+        "de": "Sofia Med – Projekt SVAROG, Kupfer-Recycling (EU-Innovationsfonds)",
+        "en": "Sofia Med – SVAROG copper recycling project (EU Innovation Fund)"
+       },
+       {
+        "bg": "Металургия / рециклиране",
+        "de": "Metallurgie / Recycling",
+        "en": "Metals / recycling"
+       },
+       19.49,
+       null,
+       {
+        "bg": "Фокус, 23.10.2026; от тях 6,20 млн. евро безвъзмездно от ЕС",
+        "de": "Focus, 23.10.2026; davon 6,20 Mio. Euro EU-Zuschuss",
+        "en": "Focus, 23 Oct 2026; incl. EUR 6.20m EU grant"
+       }
+      ],
+      [
+       {
+        "bg": "Плевен (Северна индустриална зона)",
+        "de": "Plewen (Nordindustriezone)",
+        "en": "Pleven (Northern Industrial Zone)"
+       },
+       {
+        "bg": "Ensinger (Германия) – завод за изолационни профили",
+        "de": "Ensinger (Deutschland) – Werk für Dämmprofile",
+        "en": "Ensinger (Germany) – insulation profile plant"
+       },
+       {
+        "bg": "Пластмаси / строителни продукти",
+        "de": "Kunststoff / Bauprodukte",
+        "en": "Plastics / building products"
+       },
+       10,
+       100,
+       {
+        "bg": "Investor.bg, 22.10.2026; „над 10 млн.“; 100–130 места; старт пролет 2027",
+        "de": "Investor.bg, 22.10.2026; „über 10 Mio.“; 100–130 Stellen; Start Frühjahr 2027",
+        "en": "Investor.bg, 22 Oct 2026; 'over EUR 10m'; 100–130 jobs; start spring 2027"
+       }
+      ],
+      [
+       {
+        "bg": "Стара Загора",
+        "de": "Stara Sagora",
+        "en": "Stara Zagora"
+       },
+       {
+        "bg": "Trinity Capital – търговски парк XOPark",
+        "de": "Trinity Capital – Fachmarktzentrum XOPark",
+        "en": "Trinity Capital – XOPark retail park"
+       },
+       {
+        "bg": "Търговия / имоти",
+        "de": "Handel / Immobilien",
+        "en": "Retail / real estate"
+       },
+       20,
+       150,
+       {
+        "bg": "БТА, 22.10.2026; „близо 20 млн.“; 150–200 места; откриване 2027",
+        "de": "BTA, 22.10.2026; „knapp 20 Mio.“; 150–200 Stellen; Eröffnung 2027",
+        "en": "BTA, 22 Oct 2026; 'nearly EUR 20m'; 150–200 jobs; opening 2027"
+       }
+      ]
+     ]
+    },
+    {
+     "cap": {
+      "bg": "Структурни данни (с дата на данните)",
+      "de": "Strukturdaten (mit Datenstand)",
+      "en": "Structural data (with reference date)"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Показател",
+        "de": "Kennzahl",
+        "en": "Indicator"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Стойност",
+        "de": "Wert",
+        "en": "Value"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Предходна стойност",
+        "de": "Vorwert",
+        "en": "Previous"
+       },
+       "k": "num",
+       "dec": 2
+      },
+      {
+       "h": {
+        "bg": "Източник / публикувано",
+        "de": "Quelle / veröffentlicht",
+        "en": "Source / published"
+       },
+       "k": "txt"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "bg": "Индекс на тържищните цени (ИТЦ), седмица до 1.11.2026 (пункта)",
+        "de": "Marktpreisindex (Großhandel, DKSBT), Woche bis 1.11.2026 (Pkt.)",
+        "en": "Market price index (wholesale, DKSBT), week to 1 Nov 2026 (pts)"
+       },
+       2.389,
+       2.36,
+       {
+        "bg": "НОВО: ДКСБТ via БТА, 01.11.2026, 07:00; точно 2,389 (предх. 2,360) пункта; +1,23% за седмица",
+        "de": "NEU: DKSBT laut BTA, 01.11.2026, 07:00; genau 2,389 (Vorwoche 2,360) Pkt.; +1,23 % zur Vorwoche",
+        "en": "NEW: DKSBT via BTA, 1 Nov 2026, 07:00; exactly 2.389 (prev. 2.360) pts; +1.23% week on week"
+       }
+      ],
+      [
+       {
+        "bg": "Цени на производител в промишлеността, септ. 2026 (% спрямо година по-рано)",
+        "de": "Erzeugerpreise Industrie September 2026 (% ggü. Vorjahr)",
+        "en": "Industrial producer prices, Sep 2026 (% year on year)"
+       },
+       20.9,
+       null,
+       {
+        "bg": "НСИ, 30.10.2026 (по Ruse.news); спрямо август +2,6%; вътрешен пазар +22,9% г/г, външен +17,6% г/г",
+        "de": "NSI, 30.10.2026 (laut Ruse.news); ggü. August +2,6 %; Inlandsmarkt +22,9 % ggü. Vorjahr, Auslandsmarkt +17,6 %",
+        "en": "NSI, 30 Oct 2026 (via Ruse.news); vs August +2.6%; domestic market +22.9% y/y, foreign market +17.6% y/y"
+       }
+      ],
+      [
+       {
+        "bg": "Безработица, септември 2026 (%, Евростат, сезонно изгладена)",
+        "de": "Arbeitslosenquote September 2026 (%, Eurostat, saisonbereinigt)",
+        "en": "Unemployment rate, Sep 2026 (%, Eurostat, seasonally adjusted)"
+       },
+       3.4,
+       3.5,
+       {
+        "bg": "БТА, 30.10.2026; август = предх.; ЕС 6,2%, еврозона 6,5%",
+        "de": "BTA, 30.10.2026; Vorwert August; EU 6,2 %, Eurozone 6,5 %",
+        "en": "BTA, 30 Oct 2026; previous = August; EU 6.2%, euro area 6.5%"
+       }
+      ],
+      [
+       {
+        "bg": "Регистрирана безработица, края на септември 2026 (%)",
+        "de": "Registrierte Arbeitslosigkeit Ende September 2026 (%)",
+        "en": "Registered unemployment, end-Sep 2026 (%)"
+       },
+       5.43,
+       null,
+       {
+        "bg": "Агенция по заетостта via БТА, 16.10.2026; 154 096 души",
+        "de": "Arbeitsagentur via BTA, 16.10.2026; 154.096 Personen",
+        "en": "Employment Agency via BTA, 16 Oct 2026; 154,096 people"
+       }
+      ],
+      [
+       {
+        "bg": "Брутен външен дълг, края на август 2026 (млрд. евро)",
+        "de": "Brutto-Auslandsschulden Ende August 2026 (Mrd. EUR)",
+        "en": "Gross external debt, end-Aug 2026 (EUR bn)"
+       },
+       68.8,
+       54.91,
+       {
+        "bg": "БНБ (предварителни), по Actualno, 30.10.2026; предх. = август 2025; +25,3%",
+        "de": "BNB (vorläufig), laut Actualno, 30.10.2026; Vorwert August 2025; +25,3 %",
+        "en": "BNB (preliminary), via Actualno, 30 Oct 2026; previous = Aug 2025; +25.3%"
+       }
+      ],
+      [
+       {
+        "bg": "Бизнес климат НСИ, октомври 2026 (%)",
+        "de": "NSI-Geschäftsklima Oktober 2026 (%)",
+        "en": "NSI business climate, Oct 2026 (%)"
+       },
+       13.2,
+       15.3,
+       {
+        "bg": "НСИ via БТА, 29.10.2026",
+        "de": "NSI via BTA, 29.10.2026",
+        "en": "NSI via BTA, 29 Oct 2026"
+       }
+      ]
+     ]
+    }
+   ],
+   "ticker": [
+    {
+     "n": "Invest BG Σ ca. (Mio. EUR)",
+     "v": 253.49,
+     "dec": 0
+    },
+    {
+     "n": "Erzeugerpreise BG Sept. (% ggü. Vj.)",
+     "v": 20.9,
+     "dec": 1
+    },
+    {
+     "n": "Marktpreisindex BG (DKSBT)",
+     "v": 2.389,
+     "dec": 3,
+     "chg": 1.23
+    },
+    {
+     "n": "Arbeitslosigkeit BG Sept. (%)",
+     "v": 3.4,
+     "dec": 1
+    }
+   ],
+   "src": [
+    {
+     "n": "БТА – Повечето зеленчуци и плодове са по-евтини на борсите у нас тази седмица, сочи анализ на ДКСБТ (01.11.2026, 07:00) – ИТЦ 2,389 пункта, +1,23%",
+     "u": "https://www.bta.bg/bg/news/economy/1236596-povecheto-zelenchutsi-i-plodove-sa-po-evtini-na-borsite-u-nas-tazi-sedmitsa-soc"
+    },
+    {
+     "n": "Ruse.news – Цените на производител нараснаха с 20,9% за година (30.10.2026, 14:02; по данни на НСИ за септември)",
+     "u": "https://ruse.news/index.php/2026/10/30/czenite-na-proizvoditel-narasnaha-s-209-za-godina/"
+    },
+    {
+     "n": "Капитал – От ечемика до бирата: френска инвестиция за 70 млн. евро в Плевен (30.10.2026; видяно само заглавието, текстът не е достъпен)",
+     "u": "https://www.capital.bg/biznes/kompanii/2026/10/30/4972210_ot_echemika_do_birata_frenska_investiciia_za_70_mln/"
+    },
+    {
+     "n": "Money.bg – Световен производител на малц напредва с инвестициите си за близо €70 милиона в Плевен (20.07.2026, 16:43) – 60 000 т, бивша „Плевенско пиво“",
+     "u": "https://money.bg/investments/malteri-sufle-napredva-s-investitsiite-si-za-blizo-eur70-miliona-v-pleven.html"
+    },
+    {
+     "n": "dbr.bg – Над 180 млн. евро за ВиК инфраструктурата в Бургас и Варна, включително „Елените“ (30.10.2026)",
+     "u": "https://dbr.bg/nad-180-mln-evro-za-vik-infrastrukturata-v-burgas-i-varna-vkluchitelno-elenite~25967.html"
+    },
+    {
+     "n": "БТА – Безработицата в ЕС и еврозоната без промяна през септември, в България спада до 3,4 на сто (30.10.2026, 12:49)",
+     "u": "https://www.bta.bg/bg/news/economy/1236281-bezrabotitsata-v-es-i-evrozonata-bez-promyana-prez-septemvri-v-balgariya-spada-"
+    },
+    {
+     "n": "БТА – Близо 14 000 безработни започнаха работа през септември, безработицата към края на месеца е 5,43% (16.10.2026, 17:21)",
+     "u": "https://www.bta.bg/bg/news/bulgaria/1226519-blizo-14-000-bezrabotni-zapochnaha-rabota-prez-septemvri-bezrabotitsata-kam-kra"
+    },
+    {
+     "n": "Actualno – Радар за икономика: Най-важните новини на 30 октомври 2026 г. – брутен външен дълг 68,798 млрд. евро (БНБ)",
+     "u": "https://www.actualno.com/economy/radar-za-ikonomika-naj-vajnite-novini-na-30-oktomvri-2026-g-news_2656916.html"
+    },
+    {
+     "n": "Утро Русе / БТА – Заявления за инвестиционни намерения в Дунавския индустриален технологичен парк в Свищов са внесли три фирми (29.10.2026, 17:46) – фирми и работни места (50/60/50)",
+     "u": "https://utroruse.com/article/1333016/"
+    },
+    {
+     "n": "Novini247 / БТА – Заявления за инвестиционни намерения в Дунавския индустриален технологичен парк (29.10.2026, 17:52) – потвърждение на фирмите и местата",
+     "u": "https://novini247.com/novini/zayavleniya-za-investitsionni-namereniya-v-dunavskiya-industrialen-tehnologichen-park-v_11346636.html"
+    },
+    {
+     "n": "Actualno – ЕРМ Запад осигурява близо 10 млн. евро за електрозахранването в област Благоевград (29.10.2026, 14:55) – сума и разбивка",
+     "u": "https://www.actualno.com/economy/erm-zapad-osigurjava-blizo-10-mln-evro-za-elektrozahranvaneto-v-oblast-blagoevgrad-news_2656321.html"
+    },
+    {
+     "n": "БТА – НСИ отчете ново влошаване на бизнес климата в България през октомври (29.10.2026, 11:24) – общ показател и промени по сектори",
+     "u": "https://www.bta.bg/bg/news/economy/1235279-nsi-otchete-novo-vloshavane-na-biznes-klimata-v-balgariya-prez-oktomvri"
+    },
+    {
+     "n": "Forbes България – Бизнес климатът в България се влошава. Само търговците на дребно остават оптимисти (29.10.2026) – нива по сектори за септември и октомври",
+     "u": "https://forbesbulgaria.com/2026/10/29/biznes-klimatat-v-balgariya-se-vloshava-samo-targovtsite-na-drebno-ostavat-optimisti/"
+    },
+    {
+     "n": "Сега – Скъпият ток принуждава фирми да спират временно работа (28.10.2026, 16:05; обн. 29.10., 06:33) – предупреждения на БФИЕП",
+     "u": "https://www.segabg.com/hot/category-economy/skupiyat-tok-prinuzhdava-firmi-da-spirat-vremenno-rabota"
+    },
+    {
+     "n": "Money.bg – Инвестиция от над 7 милиона евро подготвя столичното летище за Терминал 3 (23.10.2026, 14:42)",
+     "u": "https://money.bg/investments/investitsiya-ot-nad-7-miliona-evro-podgotvya-stolichnoto-letishte-za-terminal-3.html"
+    },
+    {
+     "n": "БТА – Правителството одобри проект на меморандум за инвестиция от 100 млн. евро във високотехнологичен парк в Доброславци (28.10.2026, 14:16)",
+     "u": "https://www.bta.bg/bg/news/bulgaria/1234590-pravitelstvoto-odobri-proekt-na-memorandum-za-investitsiya-ot-100-mln-evro-vav-"
+    },
+    {
+     "n": "БТА – „Грейт Уол Мотър“ планира да произвежда в България „Ора 5“ (27.10.2026, 15:51)",
+     "u": "https://www.bta.bg/bg/news/economy/1233818--greyt-uol-motar-planira-da-proizvezhda-v-balgariya-kompaktniya-visokoprohodim-"
+    },
+    {
+     "n": "Money.bg – Сливенската топлофикация инвестира 17 милиона евро в производство на ток (23.10.2026)",
+     "u": "https://money.bg/investments/slivenskata-toplofikatsiya-investira-17-miliona-evro-v-proizvodstvo-na-tok.html"
+    },
+    {
+     "n": "Фокус – Гигантски завод за над 19 милиона евро ще изникне край София (23.10.2026)",
+     "u": "https://www.focus-news.net/novini/Bylgaria/Gigantski-zavod-za-nad-19-miliona-evro-shte-iznikne-krai-Sofiya-3044256"
+    },
+    {
+     "n": "Investor.bg – С над 10 млн. евро инвестиция германската компания Ensinger стъпва в Плевен (22.10.2026)",
+     "u": "https://www.investor.bg/a/524-industriya/438373-s-nad-10-mln-evro-investitsiya-germanskata-kompaniya-ensinger-stapva-v-pleven"
+    },
+    {
+     "n": "БТА – Инвестиция за близо 20 млн. евро ще създаде между 150 и 200 работни места в нов ритейл парк в Стара Загора (22.10.2026)",
+     "u": "https://www.bta.bg/bg/news/economy/1230152-investitsiya-za-blizo-20-mln-evro-shte-sazdade-mezhdu-150-i-200-rabotni-mesta-v"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-01/biz-invest-bulgarien.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "bg": "Графика: инвестиционни проекти по региони, 01.11.2026 (собствена графика)",
+     "de": "Grafik: Investitionsprojekte nach Regionen, 01.11.2026 (eigene Darstellung)",
+     "en": "Graphic: investment projects by region, 01.11.2026 (own graphic)"
+    }
+   }
+  },
+  {
+   "id": "invest-deutschland",
+   "asof": {
+    "bg": "Към 1 ноември 2026 г., около 08:30 ч. българско време",
+    "de": "Stand: 1. November 2026, ca. 07:30 Uhr",
+    "en": "As of 1 November 2026, approx. 07:30 CET"
+   },
+   "de": {
+    "t": "Wochenende ohne neue Werke – Bremer Klinikverbund will bis zu 600 Stellen streichen",
+    "d": "Seit Samstagmorgen wurden keine neuen Investitionen bekannt. In Bremen fordert der Betriebsrat des Klinikverbunds Geno dessen Auflösung. Ein Lebensmittelhersteller in Bayern ist insolvent. Ab heute drohen Warnstreiks.",
+    "body": [
+     "Am Wochenende meldeten Firmen und seriöse Medien in Deutschland keine neuen Werke oder Spatenstiche mit Summe. Die Investitionssumme der Tabelle liegt bei rund 340 Mio. Euro (Klinikneubau Eichsfeld und VW-Recycling Zwickau).",
+     "Bremen: Der kommunale Klinikverbund Gesundheit Nord (Geno) soll 500 bis 600 Stellen abbauen; das Land erhöht dafür den Kreditrahmen um 293 Mio. Euro (buten un binnen, 28.10.). Etwa die Hälfte des Abbaus soll über natürliche Fluktuation laufen. Der Betriebsratschef fordert nun, den Verbund ganz aufzulösen (Weser-Kurier, 30.10., laut ad-hoc-news). Bayern/Sachsen: Der Lebensmittelhersteller Völpel aus Königsmoos und seine Tochter in Zittau sind insolvent, rund 60 Beschäftigte sind betroffen (t-online, 31.10.).",
+     "Nachträge vom Freitag: In Unna (NRW) hat die Betreibergesellschaft des Galeria-Zentrallagers von Fiege Insolvenz in Eigenverwaltung beantragt, rund 1.250 Jobs sind gefährdet. O2 verkauft seine Callcenter in Rostock und Bremen mit rund 430 Beschäftigten an den Dienstleister TP (dpa, 30.10.).",
+     "In der Metall- und Elektroindustrie endet die Friedenspflicht: Ab heute sind Warnstreiks möglich. Die IG Metall fordert 5 % mehr Lohn für 3,7 Mio. Beschäftigte; die Arbeitgeber bieten 1,3 % ab Juli 2028 und eine Einmalzahlung (Handelsblatt/dpa, 30.10.)."
+    ],
+    "explain": "Neue Fabriken kamen am Wochenende nicht dazu. Wer bei einer insolventen Firma arbeitet, bekommt offene Löhne in der Regel bis zu drei Monate lang über das Insolvenzgeld der Arbeitsagentur."
+   },
+   "bg": {
+    "t": "Уикенд без нови заводи – болничната група в Бремен ще съкрати до 600 места",
+    "d": "От събота сутринта не са обявени нови инвестиции в Германия. В Бремен работническият съвет на болничната група Geno иска разпускането ѝ. Производител на храни в Бавария е в несъстоятелност. От днес са възможни стачки.",
+    "body": [
+     "През уикенда фирми и сериозни медии в Германия не съобщиха за нови заводи или първи копки с посочена сума. Сумата на инвестициите в таблицата е около 340 млн. евро (новата болница в Айхсфелд и центърът за рециклиране на VW в Цвикау).",
+     "Бремен: общинската болнична група Gesundheit Nord (Geno) трябва да съкрати между 500 и 600 работни места, а провинцията увеличава кредитната ѝ линия с 293 млн. евро (buten un binnen, 28.10.). Около половината от съкращенията трябва да станат чрез естествено текучество. Председателят на работническия съвет вече иска групата да бъде изцяло разпусната (Weser-Kurier, 30.10., по ad-hoc-news). Бавария/Саксония: производителят на храни Völpel от Кьонигсмоос и дъщерната му фирма в Цитау са в несъстоятелност, засегнати са около 60 души (t-online, 31.10.).",
+     "Допълнения от петък: в Уна (Северен Рейн-Вестфалия) дружеството на Fiege, което управлява централния склад на веригата Galeria, поиска несъстоятелност в самоуправление – под заплаха са около 1250 работни места. O2 продава кол центровете си в Рощок и Бремен с около 430 служители на доставчика TP (dpa, 30.10.).",
+     "В металургията и електроиндустрията изтича задължението за социален мир: от днес са възможни предупредителни стачки. IG Metall иска 5% повече заплата за 3,7 млн. работници; работодателите предлагат 1,3% от юли 2028 г. и еднократно плащане (Handelsblatt/dpa, 30.10.)."
+    ],
+    "explain": "През уикенда не бяха обявени нови фабрики. При фалит на работодателя служителите в Германия обикновено получават неизплатените заплати до три месеца от Агенцията по труда."
+   },
+   "en": {
+    "t": "Weekend without new plants – Bremen hospital group to cut up to 600 jobs",
+    "d": "No new investments announced in Germany since Saturday morning. In Bremen, the works council of hospital group Geno calls for it to be dissolved. A food maker in Bavaria is insolvent. Warning strikes may start today.",
+    "body": [
+     "Over the weekend, companies and reputable media in Germany reported no new plants or groundbreakings with a stated sum. The investment total in the table stands at about EUR 340m (the new Eichsfeld hospital and VW's recycling centre in Zwickau).",
+     "Bremen: the municipal hospital group Gesundheit Nord (Geno) is to cut 500 to 600 jobs, and the state is raising its credit line by EUR 293m (buten un binnen, 28 Oct). About half of the cuts are to come through natural turnover. The works council chair now wants the group dissolved altogether (Weser-Kurier, 30 Oct, via ad-hoc-news). Bavaria/Saxony: food producer Völpel from Königsmoos and its subsidiary in Zittau are insolvent, affecting about 60 staff (t-online, 31 Oct).",
+     "Added from Friday: in Unna (North Rhine-Westphalia), the Fiege company that runs Galeria's central warehouse has filed for self-administered insolvency, putting about 1,250 jobs at risk. O2 is selling its call centres in Rostock and Bremen, with about 430 staff, to service provider TP (dpa, 30 Oct).",
+     "In the metal and electrical industry the no-strike period ends: warning strikes are possible from today. IG Metall wants 5% more pay for 3.7 million workers; employers offer 1.3% from July 2028 plus a one-off payment (Handelsblatt/dpa, 30 Oct)."
+    ],
+    "explain": "No new factories were announced at the weekend. If an employer goes insolvent, staff in Germany usually get unpaid wages for up to three months from the employment agency."
+   },
+   "kpi": [
+    {
+     "l": {
+      "bg": "Сума на посочените инвестиции (ок., таблица)",
+      "de": "Summe der gelisteten Investitionen (ca., Tabelle)",
+      "en": "Total listed investments (approx., table)"
+     },
+     "v": 340,
+     "dec": 0,
+     "u": "Mio. EUR"
+    },
+    {
+     "l": {
+      "bg": "Geno Бремен: планирани съкращения (до)",
+      "de": "Geno Bremen: geplanter Stellenabbau (bis zu)",
+      "en": "Geno Bremen: planned job cuts (up to)"
+     },
+     "v": 600,
+     "dec": 0,
+     "u": ""
+    },
+    {
+     "l": {
+      "bg": "Безработни октомври (млн.; квота 6,3%)",
+      "de": "Arbeitslose Oktober (Mio.; Quote 6,3 %)",
+      "en": "Unemployed October (m; rate 6.3%)"
+     },
+     "v": 2.955,
+     "dec": 3,
+     "u": "Mio."
+    },
+    {
+     "l": {
+      "bg": "Инфлация октомври (септ.: 3,3%)",
+      "de": "Inflation Oktober (Sept.: 3,3 %)",
+      "en": "Inflation October (Sep: 3.3%)"
+     },
+     "v": 2.8,
+     "dec": 1,
+     "u": "%"
+    }
+   ],
+   "tables": [
+    {
+     "cap": {
+      "bg": "Инвестиционни проекти и съкращения, 28.10.–1.11.2026 (нови отгоре)",
+      "de": "Investitionsprojekte und Stellenabbau, 28.10.–1.11.2026 (Neues oben)",
+      "en": "Investment projects and job cuts, 28 Oct–1 Nov 2026 (new at top)"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Провинция / регион",
+        "de": "Bundesland / Region",
+        "en": "State / region"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Компания / проект",
+        "de": "Unternehmen / Projekt",
+        "en": "Company / project"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Отрасъл",
+        "de": "Branche",
+        "en": "Sector"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Сума (млн. евро)",
+        "de": "Summe (Mio. EUR)",
+        "en": "Amount (EUR m)"
+       },
+       "k": "num",
+       "dec": 0
+      },
+      {
+       "h": {
+        "bg": "Работни места (− = съкращение)",
+        "de": "Arbeitsplätze (− = Abbau)",
+        "en": "Jobs (− = cuts)"
+       },
+       "k": "num",
+       "dec": 0
+      },
+      {
+       "h": {
+        "bg": "Дата / източник",
+        "de": "Datum / Quelle",
+        "en": "Date / source"
+       },
+       "k": "txt"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "bg": "Бавария (Кьонигсмоос, окр. Нойбург-Шробенхаузен) и Саксония (Цитау)",
+        "de": "Bayern (Königsmoos, Kreis Neuburg-Schrobenhausen) und Sachsen (Zittau)",
+        "en": "Bavaria (Königsmoos, Neuburg-Schrobenhausen district) and Saxony (Zittau)"
+       },
+       {
+        "bg": "Völpel GmbH и дъщерната ZiFood Trockenprodukte – производство на храни, процедура по несъстоятелност; засегнати ок. 60 служители",
+        "de": "Völpel GmbH und Tochter ZiFood Trockenprodukte – Lebensmittelhersteller im Insolvenzverfahren; rund 60 Beschäftigte betroffen",
+        "en": "Völpel GmbH and subsidiary ZiFood Trockenprodukte – food producer in insolvency proceedings; about 60 staff affected"
+       },
+       {
+        "bg": "Храни",
+        "de": "Lebensmittel",
+        "en": "Food"
+       },
+       null,
+       null,
+       {
+        "bg": "НОВО: t-online, 31.10.2026, 10:54; ок. 60 засегнати – не е ясно колко места отпадат",
+        "de": "NEU: t-online, 31.10.2026, 10:54; rund 60 betroffen – wie viele Stellen wegfallen, offen",
+        "en": "NEW: t-online, 31 Oct 2026, 10:54; about 60 affected – number of jobs lost unclear"
+       }
+      ],
+      [
+       {
+        "bg": "Бремен",
+        "de": "Bremen",
+        "en": "Bremen"
+       },
+       {
+        "bg": "Gesundheit Nord (Geno) – общинска болнична група; план за саниране: 500–600 съкращения; председателят на работническия съвет иска разпускане на групата",
+        "de": "Gesundheit Nord (Geno) – kommunaler Klinikverbund; Sanierungsplan: 500–600 Stellen sollen wegfallen; Betriebsratschef fordert Auflösung des Verbunds",
+        "en": "Gesundheit Nord (Geno) – municipal hospital group; restructuring plan: 500–600 jobs to go; works council chair calls for the group to be dissolved"
+       },
+       {
+        "bg": "Здравеопазване",
+        "de": "Gesundheit",
+        "en": "Healthcare"
+       },
+       null,
+       -500,
+       {
+        "bg": "НОВО: ad-hoc-news, 01.11.2026, 02:01 (по Weser-Kurier, 30.10.); buten un binnen, 28.10.2026; долна граница; около половината чрез естествено текучество; увеличение на кредита с 293 млн. евро – не е инвестиция",
+        "de": "NEU: ad-hoc-news, 01.11.2026, 02:01 (nach Weser-Kurier, 30.10.); buten un binnen, 28.10.2026; Untergrenze; rund die Hälfte über natürliche Fluktuation; 293 Mio. Euro mehr Kreditrahmen – keine Investition",
+        "en": "NEW: ad-hoc-news, 1 Nov 2026, 02:01 (citing Weser-Kurier, 30 Oct); buten un binnen, 28 Oct 2026; lower bound; about half via natural turnover; EUR 293m higher credit line – not an investment"
+       }
+      ],
+      [
+       {
+        "bg": "Северен Рейн-Вестфалия (Уна)",
+        "de": "Nordrhein-Westfalen (Unna)",
+        "en": "North Rhine-Westphalia (Unna)"
+       },
+       {
+        "bg": "Fiege – дружеството, което управлява централния склад на Galeria, подава молба за несъстоятелност в самоуправление; ок. 1250 работни места под заплаха",
+        "de": "Fiege – Betreibergesellschaft des Galeria-Zentrallagers beantragt Insolvenz in Eigenverwaltung; rund 1.250 Arbeitsplätze gefährdet",
+        "en": "Fiege – company running Galeria's central warehouse files for self-administered insolvency; about 1,250 jobs at risk"
+       },
+       {
+        "bg": "Логистика",
+        "de": "Logistik",
+        "en": "Logistics"
+       },
+       null,
+       null,
+       {
+        "bg": "НОВО (допълнено): eurotransport, 30.10.2026, 08:50 (по WDR); места под заплаха, не съкращение – не са в сумата",
+        "de": "NEU (nachgetragen): eurotransport, 30.10.2026, 08:50 (nach WDR); gefährdet, kein beschlossener Abbau – nicht in der Summe",
+        "en": "NEW (added): eurotransport, 30 Oct 2026, 08:50 (citing WDR); at risk, no decided cuts – not in total"
+       }
+      ],
+      [
+       {
+        "bg": "Мекленбург-Предна Померания (Рощок) и Бремен",
+        "de": "Mecklenburg-Vorpommern (Rostock) und Bremen",
+        "en": "Mecklenburg-Western Pomerania (Rostock) and Bremen"
+       },
+       {
+        "bg": "Telefónica Deutschland (O2) продава кол центровете си на TP (бивш Teleperformance); ок. 430 служители преминават",
+        "de": "Telefónica Deutschland (O2) verkauft Callcenter an TP (früher Teleperformance); rund 430 Beschäftigte wechseln",
+        "en": "Telefónica Deutschland (O2) sells call centres to TP (formerly Teleperformance); about 430 staff transfer"
+       },
+       {
+        "bg": "Телекомуникации",
+        "de": "Telekommunikation",
+        "en": "Telecoms"
+       },
+       null,
+       null,
+       {
+        "bg": "НОВО (допълнено): dpa via ad-hoc-news, 30.10.2026, 18:12; Рощок ок. 240, Бремен ок. 180; цена не е обявена; прехвърляне, не съкращение",
+        "de": "NEU (nachgetragen): dpa via ad-hoc-news, 30.10.2026, 18:12; Rostock ca. 240, Bremen ca. 180; Kaufpreis nicht genannt; Übergang, kein Abbau",
+        "en": "NEW (added): dpa via ad-hoc-news, 30 Oct 2026, 18:12; Rostock approx. 240, Bremen approx. 180; price not disclosed; transfer, not a cut"
+       }
+      ],
+      [
+       {
+        "bg": "Шлезвиг-Холщайн (Ицехое)",
+        "de": "Schleswig-Holstein (Itzehoe)",
+        "en": "Schleswig-Holstein (Itzehoe)"
+       },
+       {
+        "bg": "Vishay (германско дъщерно дружество) – голяма инвестиция в производство на полупроводници; 215 млн. евро помощ от федерацията и провинцията",
+        "de": "Vishay (deutsche Tochter) – Großinvestition in Halbleiterfertigung; rund 215 Mio. Euro Förderung von Bund und Land",
+        "en": "Vishay (German subsidiary) – major investment in chip production; about EUR 215m in federal and state aid"
+       },
+       {
+        "bg": "Полупроводници",
+        "de": "Halbleiter",
+        "en": "Semiconductors"
+       },
+       null,
+       250,
+       {
+        "bg": "dpa-AFX, 30.10.2026, 16:39; „висока трицифрена сума в милиони“ (по депутат от ХДС: ок. 1 млрд. евро) – точна сума не е посочена, затова не е в сумата; до 250 нови места",
+        "de": "dpa-AFX, 30.10.2026, 16:39; „hoher dreistelliger Millionenbetrag“ (laut CDU-Abgeordnetem rund 1 Mrd. Euro) – keine genaue Summe, daher nicht in der Summe; bis zu 250 neue Stellen",
+        "en": "dpa-AFX, 30 Oct 2026, 16:39; 'high three-digit million amount' (per CDU MP about EUR 1bn) – no exact figure, so not in total; up to 250 new jobs"
+       }
+      ],
+      [
+       {
+        "bg": "Тюрингия (окръг Айхсфелд)",
+        "de": "Thüringen (Landkreis Eichsfeld)",
+        "en": "Thuringia (Eichsfeld district)"
+       },
+       {
+        "bg": "Eichsfeld Klinikum – нова болница; първа копка на 30.10.; средства от провинцията",
+        "de": "Eichsfeld Klinikum – Klinikneubau; Spatenstich am 30.10.; Landesmittel aus dem Krankenhausinvestitionsprogramm",
+        "en": "Eichsfeld Klinikum – new hospital; groundbreaking on 30 Oct; state hospital investment funds"
+       },
+       {
+        "bg": "Здравеопазване",
+        "de": "Gesundheit",
+        "en": "Healthcare"
+       },
+       250,
+       null,
+       {
+        "bg": "Gotha-Aktuell, 30.10.2026; „ок. 250 млн. евро от бюджета на провинцията“; срок за завършване не е посочен",
+        "de": "Gotha-Aktuell, 30.10.2026; „zirka 250 Mio. Euro aus Landesmitteln“; kein Fertigstellungstermin",
+        "en": "Gotha-Aktuell, 30 Oct 2026; 'about EUR 250m in state funds'; no completion date"
+       }
+      ],
+      [
+       {
+        "bg": "Северен Рейн-Вестфалия (Щайнхаген, окръг Гютерсло)",
+        "de": "Nordrhein-Westfalen (Steinhagen, Kreis Gütersloh)",
+        "en": "North Rhine-Westphalia (Steinhagen, Gütersloh district)"
+       },
+       {
+        "bg": "Schaeffler – производството спря в края на септември, машините се демонтират; 170 души в трансферно дружество",
+        "de": "Schaeffler – Produktion Ende September beendet, Maschinen werden abgebaut; 170 Beschäftigte in Transfergesellschaft",
+        "en": "Schaeffler – production ended late September, machines being removed; 170 staff move to transfer company"
+       },
+       {
+        "bg": "Автомобилни доставчици",
+        "de": "Autozulieferer",
+        "en": "Auto supplier"
+       },
+       null,
+       null,
+       {
+        "bg": "Haller Kreisblatt, 30.10.2026, 13:04; засегнати близо 200; закриване, обявено по-рано – не е в сумата",
+        "de": "Haller Kreisblatt, 30.10.2026, 13:04; knapp 200 betroffen; früher angekündigte Schließung – nicht in der Summe",
+        "en": "Haller Kreisblatt, 30 Oct 2026, 13:04; nearly 200 affected; closure announced earlier – not in total"
+       }
+      ],
+      [
+       {
+        "bg": "Северен Рейн-Вестфалия (Гелдерн, окръг Клеве)",
+        "de": "Nordrhein-Westfalen (Geldern, Kreis Kleve)",
+        "en": "North Rhine-Westphalia (Geldern, Kleve district)"
+       },
+       {
+        "bg": "Unimicron Germany – закриване на завода за печатни платки; доброволна ликвидация от 1.11.",
+        "de": "Unimicron Germany – Schließung des Leiterplattenwerks; freiwillige Auflösung zum 1.11.",
+        "en": "Unimicron Germany – circuit board plant closes; voluntary liquidation from 1 Nov"
+       },
+       {
+        "bg": "Електроника",
+        "de": "Elektronik",
+        "en": "Electronics"
+       },
+       null,
+       -240,
+       {
+        "bg": "Radio K.W., 29.10.2026, 15:41; Evertiq, 29.10.; спиране през I полугодие 2027; до 35 млн. евро от компанията майка за ликвидацията – не е инвестиция; ad-hoc-news, 31.10.2026, 22:39: назначен ликвидатор; към дъщерното дружество вече са насочени 105,8 млн. евро",
+        "de": "Radio K.W., 29.10.2026, 15:41; Evertiq, 29.10.; Auslauf 1. Hj. 2027; bis 35 Mio. Euro vom Mutterkonzern für die Abwicklung – keine Investition; ad-hoc-news, 31.10.2026, 22:39: Liquidator bestellt, bereits 105,8 Mio. Euro an die Tochter geflossen",
+        "en": "Radio K.W., 29 Oct 2026, 15:41; Evertiq, 29 Oct; wind-down H1 2027; up to EUR 35m from parent for liquidation – not an investment; ad-hoc-news, 31 Oct 2026, 22:39: liquidator appointed; EUR 105.8m already put into the subsidiary"
+       }
+      ],
+      [
+       {
+        "bg": "Рейнланд-Пфалц (Шпайер)",
+        "de": "Rheinland-Pfalz (Speyer)",
+        "en": "Rhineland-Palatinate (Speyer)"
+       },
+       {
+        "bg": "Mann+Hummel – закриване на завода до края на 2028 г.; преговорите за социален план се провалят, помирителна комисия; IG Metall подготвя стачка",
+        "de": "Mann+Hummel – Werksschließung bis Ende 2028; Sozialplan-Gespräche gescheitert, Einigungsstelle; IG Metall bereitet Streik vor",
+        "en": "Mann+Hummel – plant closure by end-2028; social plan talks fail, conciliation board; IG Metall prepares strike"
+       },
+       {
+        "bg": "Автомобилни доставчици / филтри",
+        "de": "Autozulieferer / Filter",
+        "en": "Auto supplier / filters"
+       },
+       null,
+       null,
+       {
+        "bg": "ad-hoc-news (boerse-global), 29.10.2026, 00:39; ок. 600 места, обявено 16./17.4.2026 (град Шпайер) – не е в сумата",
+        "de": "ad-hoc-news (boerse-global), 29.10.2026, 00:39; rund 600 Stellen, angekündigt 16./17.4.2026 (Stadt Speyer) – nicht in der Summe",
+        "en": "ad-hoc-news (boerse-global), 29 Oct 2026, 00:39; about 600 jobs, announced 16/17 Apr 2026 (City of Speyer) – not in total"
+       }
+      ],
+      [
+       {
+        "bg": "Северен Рейн-Вестфалия (Ферл, окръг Гютерсло)",
+        "de": "Nordrhein-Westfalen (Verl, Kreis Gütersloh)",
+        "en": "North Rhine-Westphalia (Verl, Gütersloh district)"
+       },
+       {
+        "bg": "Schirmer (Beckhoff) – производствен цех 19 000 кв. м и офис сграда 4200 кв. м; най-голямата инвестиция в историята на фирмата",
+        "de": "Schirmer (Beckhoff) – Produktionshalle 19.000 m² und Bürogebäude 4.200 m²; größte Investition der Firmengeschichte",
+        "en": "Schirmer (Beckhoff) – 19,000 m² production hall and 4,200 m² office building; largest investment in company history"
+       },
+       {
+        "bg": "Машиностроене",
+        "de": "Maschinenbau",
+        "en": "Machinery"
+       },
+       null,
+       null,
+       {
+        "bg": "Neue Westfälische, 29.10.2026, 09:11; сума и работни места не са посочени",
+        "de": "Neue Westfälische, 29.10.2026, 09:11; Summe und Stellen nicht genannt",
+        "en": "Neue Westfälische, 29 Oct 2026, 09:11; amount and jobs not stated"
+       }
+      ],
+      [
+       {
+        "bg": "Саксония (Цвикау)",
+        "de": "Sachsen (Zwickau)",
+        "en": "Saxony (Zwickau)"
+       },
+       {
+        "bg": "Volkswagen – център за кръгова икономика: разглобяване на стари коли",
+        "de": "Volkswagen – Kreislaufwirtschaftszentrum: Hochlauf der Auto-Demontage",
+        "en": "Volkswagen – circular economy centre: car dismantling ramps up"
+       },
+       {
+        "bg": "Автомобили / рециклиране",
+        "de": "Auto / Recycling",
+        "en": "Cars / recycling"
+       },
+       90,
+       100,
+       {
+        "bg": "dpa-AFX, 28.10.2026; „до 90 млн. евро“; 100 места в началото; инвестицията е обявена още на 21.01.2026, тогава – 1000 места да бъдат запазени",
+        "de": "dpa-AFX, 28.10.2026; „bis zu 90 Mio. Euro“; zunächst 100 Stellen; Investition bereits am 21.01.2026 angekündigt, damals hieß es, 1.000 Arbeitsplätze sollen gesichert werden",
+        "en": "dpa-AFX, 28 Oct 2026; 'up to EUR 90m'; 100 jobs at start; investment first announced on 21 Jan 2026, when it was said to secure 1,000 jobs"
+       }
+      ],
+      [
+       {
+        "bg": "Бавария (Дитенхофен, Средна Франкония)",
+        "de": "Bayern (Dietenhofen, Mittelfranken)",
+        "en": "Bavaria (Dietenhofen, Middle Franconia)"
+       },
+       {
+        "bg": "Horst-Brandstätter-Group (Playmobil) – бившият завод става кампус за центрове за данни със 100 MW",
+        "de": "Horst-Brandstätter-Group (Playmobil) – früheres Werk wird Rechenzentrums-Campus mit 100 MW",
+        "en": "Horst Brandstätter Group (Playmobil) – former plant to become 100 MW data centre campus"
+       },
+       {
+        "bg": "Центрове за данни",
+        "de": "Rechenzentren",
+        "en": "Data centres"
+       },
+       null,
+       null,
+       {
+        "bg": "dpa-AFX, 28.10.2026; сума и срок не са посочени",
+        "de": "dpa-AFX, 28.10.2026; Summe und Zeitplan nicht genannt",
+        "en": "dpa-AFX, 28 Oct 2026; amount and timeline not stated"
+       }
+      ]
+     ]
+    },
+    {
+     "cap": {
+      "bg": "Конюнктура: данни, публикувани на 30.10.2026",
+      "de": "Konjunktur: Daten vom 30.10.2026",
+      "en": "Economy: data published 30 Oct 2026"
+     },
+     "cols": [
+      {
+       "h": {
+        "bg": "Показател",
+        "de": "Kennzahl",
+        "en": "Indicator"
+       },
+       "k": "txt"
+      },
+      {
+       "h": {
+        "bg": "Стойност",
+        "de": "Wert",
+        "en": "Value"
+       },
+       "k": "num",
+       "dec": 1
+      },
+      {
+       "h": {
+        "bg": "Предходна стойност",
+        "de": "Vorwert",
+        "en": "Previous"
+       },
+       "k": "num",
+       "dec": 1
+      },
+      {
+       "h": {
+        "bg": "Публикувано / бележка",
+        "de": "Veröffentlicht / Hinweis",
+        "en": "Published / note"
+       },
+       "k": "txt"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "bg": "БВП III трим. 2026 спрямо II трим. (%)",
+        "de": "BIP 3. Quartal 2026 ggü. Vorquartal (%)",
+        "en": "GDP Q3 2026 vs Q2 (%)"
+       },
+       0.2,
+       null,
+       {
+        "bg": "Destatis, 30.10.2026; спрямо година по-рано +1,3%",
+        "de": "Destatis, 30.10.2026; ggü. Vorjahresquartal +1,3 %",
+        "en": "Destatis, 30 Oct 2026; year on year +1.3%"
+       }
+      ],
+      [
+       {
+        "bg": "Инфлация октомври 2026 (%, предварително)",
+        "de": "Inflationsrate Oktober 2026 (%, vorläufig)",
+        "en": "Inflation October 2026 (%, flash)"
+       },
+       2.8,
+       3.3,
+       {
+        "bg": "Destatis, 30.10.2026, 14:00; енергия +12,2%, базисна +2,1%",
+        "de": "Destatis, 30.10.2026, 14:00; Energie +12,2 %, Kerninflation +2,1 %",
+        "en": "Destatis, 30 Oct 2026, 14:00; energy +12.2%, core +2.1%"
+       }
+      ],
+      [
+       {
+        "bg": "Безработица октомври 2026 (%)",
+        "de": "Arbeitslosenquote Oktober 2026 (%)",
+        "en": "Unemployment rate October 2026 (%)"
+       },
+       6.3,
+       6.4,
+       {
+        "bg": "Федерална агенция по труда, 30.10.2026; 2,955 млн. души; −40 000 спрямо септ., +44 000 спрямо година по-рано",
+        "de": "Bundesagentur für Arbeit, 30.10.2026; 2,955 Mio.; −40.000 ggü. Sept., +44.000 ggü. Vorjahr",
+        "en": "Federal Employment Agency, 30 Oct 2026; 2.955m; −40,000 vs Sep, +44,000 year on year"
+       }
+      ],
+      [
+       {
+        "bg": "Свободни работни места, обявени в агенцията (хил.)",
+        "de": "Gemeldete offene Stellen (Tsd.)",
+        "en": "Registered vacancies (thousands)"
+       },
+       654,
+       null,
+       {
+        "bg": "Федерална агенция по труда, 30.10.2026; +31 000 спрямо година по-рано",
+        "de": "Bundesagentur für Arbeit, 30.10.2026; +31.000 ggü. Vorjahr",
+        "en": "Federal Employment Agency, 30 Oct 2026; +31,000 year on year"
+       }
+      ],
+      [
+       {
+        "bg": "Тарифен спор метал/електро: засегнати служители (млн.)",
+        "de": "Tarifrunde Metall/Elektro: betroffene Beschäftigte (Mio.)",
+        "en": "Metal/electrical pay round: employees covered (m)"
+       },
+       3.7,
+       null,
+       {
+        "bg": "dpa via Handelsblatt, 30.10.2026; искане на IG Metall 5% за 12 месеца; предупредителни стачки от нощта срещу 1.11.",
+        "de": "dpa via Handelsblatt, 30.10.2026; IG-Metall-Forderung 5 % für 12 Monate; Warnstreiks ab der Nacht zum 1.11.",
+        "en": "dpa via Handelsblatt, 30 Oct 2026; IG Metall demands 5% for 12 months; warning strikes from the night to 1 Nov"
+       }
+      ]
+     ]
+    }
+   ],
+   "ticker": [
+    {
+     "n": "Invest DE Σ (Mio. EUR)",
+     "v": 340,
+     "dec": 0
+    },
+    {
+     "n": "Geno Bremen Stellenabbau (bis)",
+     "v": 600,
+     "dec": 0
+    },
+    {
+     "n": "Arbeitslose DE Okt. (Mio.)",
+     "v": 2.955,
+     "dec": 3
+    },
+    {
+     "n": "Inflation DE Okt. (%)",
+     "v": 2.8,
+     "dec": 1
+    },
+    {
+     "n": "BIP Q3 DE (% ggü. Vq.)",
+     "v": 0.2,
+     "dec": 1
+    }
+   ],
+   "src": [
+    {
+     "n": "t-online – Lebensmittel-Spezialist ist insolvent, 60 Mitarbeiter betroffen (31.10.2026, 10:54; akt. 01.11., 03:07)",
+     "u": "https://www.t-online.de/finanzen/aktuelles/wirtschaft/id_101506370/lebensmittel-spezialist-ist-insolvent-60-mitarbeiter-betroffen.html"
+    },
+    {
+     "n": "ad-hoc-news (boerse-global) – Gesundheit Nord: Betriebsratschef fordert Auflösung trotz 600 geplanter Stellenstreichungen (01.11.2026, 02:01; nach Weser-Kurier 30.10.)",
+     "u": "https://ad-hoc-news.de/wirtschaft/gesundheit-nord-betriebsratschef-fordert-aufloesung-trotz-600-geplanter-stellenstreichungen/70440584"
+    },
+    {
+     "n": "buten un binnen – Rettet der Sanierungsplan die kommunalen Geno-Kliniken? (Stand 28.10.2026) – 500 bis 600 Stellen, Kreditrahmen +293 Mio. Euro",
+     "u": "https://www.butenunbinnen.de/nachrichten/mitarbeiterversammlung-bremer-kliniken-100.html"
+    },
+    {
+     "n": "eurotransport – Insolvenz bei Fiege nach Galeria-Pleite: 1.250 Arbeitsplätze in Unna gefährdet (30.10.2026, 08:50)",
+     "u": "https://www.eurotransport.de/logistik/spedition-und-logistik/fiege-unna-insolvenz-galeria-1250-arbeitsplaetze/"
+    },
+    {
+     "n": "dpa via ad-hoc-news – O2 verkauft Callcenter in Rostock und Bremen an TP (30.10.2026, 18:12)",
+     "u": "https://ad-hoc-news.de/wissenschaft/o2-verkauft-callcenter-in-rostock-und-bremen-an-tp/70436172"
+    },
+    {
+     "n": "ad-hoc-news – Unimicron schließt Werk in Geldern: 240 Beschäftigte von Liquidation betroffen (31.10.2026, 22:39)",
+     "u": "https://ad-hoc-news.de/wirtschaft/unimicron-schliesst-werk-in-geldern-240-beschaeftigte-von-liquidation-betroffen/70440050"
+    },
+    {
+     "n": "Handelsblatt/dpa – Metall- und Elektroindustrie: IG Metall startet Warnstreiks am Sonntag (30.10.2026, 04:00)",
+     "u": "https://www.handelsblatt.com/politik/deutschland/metall-und-elektroindustrie-ig-metall-startet-warnstreiks-am-sonntag/100266042.html"
+    },
+    {
+     "n": "ARIVA.DE/dpa-AFX – Halbleiterproduzent Vishay kündigt Großinvestition an (30.10.2026, 16:39) – hoher dreistelliger Millionenbetrag, ~215 Mio. Euro Förderung, bis zu 250 Stellen",
+     "u": "https://www.ariva.de/news/halbleiterproduzent-vishay-kuendigt-grossinvestition-an-12189095"
+    },
+    {
+     "n": "Gotha-Aktuell – Spatenstich für das Eichsfeld Klinikum (30.10.2026) – rund 250 Mio. Euro",
+     "u": "https://gotha-aktuell.info/2026/10/30/spatenstich-fuer-das-eichsfeld-klinikum-investition-in-die-gesundheitsversorgung-der-zukunft/"
+    },
+    {
+     "n": "Haller Kreisblatt – Schaeffler verlässt Steinhagen: Maschinen weg, 170 wechseln in Transfergesellschaft (30.10.2026, 13:04)",
+     "u": "https://haller-kreisblatt.de/lokal/steinhagen/24451218_Schaeffler-verlaesst-Steinhagen-Maschinen-weg-170-wechseln-in-Transfergesellschaft.html"
+    },
+    {
+     "n": "Destatis – Bruttoinlandsprodukt im 3. Quartal 2026 um 0,2 % höher als im Vorquartal (PM 381, 30.10.2026)",
+     "u": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_381_811.html"
+    },
+    {
+     "n": "Destatis via presseportal – Inflationsrate im Oktober 2026 voraussichtlich +2,8 % (30.10.2026, 14:00)",
+     "u": "https://www.presseportal.de/pm/32102/6381190"
+    },
+    {
+     "n": "TextilWirtschaft – Inflationsrate sinkt deutlich auf 2,8 % im Oktober (30.10.2026) – September 3,3 %",
+     "u": "https://www.textilwirtschaft.de/data-markets/inflationsrate-sinkt-deutlich-auf-28-im-oktober-438251"
+    },
+    {
+     "n": "ad-hoc-news – Arbeitsmarkt: 2,955 Millionen Arbeitslose im Oktober 2026 (30.10.2026, 09:55) – Quote 6,3 %, saisonbereinigt +4.000, 654.000 offene Stellen",
+     "u": "https://www.ad-hoc-news.de/wirtschaft/arbeitsmarkt-2-955-millionen-arbeitslose-im-oktober-2026/70433376"
+    },
+    {
+     "n": "Radio K.W. – Unimicron schließt Werk in Geldern – IHK warnt (29.10.2026, 15:41) – 240 Stellen, Auflösung zum 1.11., Auslauf 1. Hj. 2027",
+     "u": "https://www.radiokw.de/artikel/unimicron-schliesst-werk-in-geldern-ihk-warnt-2793438"
+    },
+    {
+     "n": "Evertiq – Unimicron plant Schließung seines deutschen Leiterplattenwerks (29.10.2026) – bis 35 Mio. Euro für die Abwicklung (Börsenmeldungen Taiwan vom 27.10.)",
+     "u": "https://evertiq.de/news/2026-10-29-unimicron-plant-schliessung-seines-deutschen-leiterplattenwerks"
+    },
+    {
+     "n": "ad-hoc-news (boerse-global) – Mann+Hummel in Speyer: 600 Arbeitsplätze sollen bis Ende 2028 wegfallen (29.10.2026, 00:39) – Einigungsstelle, Streikvorbereitung",
+     "u": "https://www.ad-hoc-news.de/wirtschaft/mann-hummel-in-speyer-600-arbeitsplaetze-sollen-bis-ende-2028-wegfallen/70426498"
+    },
+    {
+     "n": "Stadt Speyer – Stellungnahme zur geplanten Werksschließung von MANN+HUMMEL (17.04.2026) – rund 600 Beschäftigte, Schließung bis spätestens Ende 2028",
+     "u": "https://www.speyer.de/de/rathaus/medieninformationen/aktuelle-informationen/stellungnahme-der-stadt-speyer-zur-geplanten-werksschliessung-von-mann-hummel/"
+    },
+    {
+     "n": "Neue Westfälische – Beckhoff-Tochterunternehmen in Verl trotzt Krise und wagt seine bislang größte Investition (29.10.2026, 09:11) – 19.000 m² Halle, 4.200 m² Büro",
+     "u": "https://www.nw.de/lokal/kreis_guetersloh/verl/24448805_Beckhoff-Tochterunternehmen-in-Verl-trotzt-Krise-und-wagt-seine-bislang-groesste-Investition.html"
+    },
+    {
+     "n": "onvista/dpa-AFX – VW startet Hochlauf für Auto-Demontage in Zwickau (28.10.2026, 09:22)",
+     "u": "https://www.onvista.de/news/2026/10-28-vw-startet-hochlauf-fuer-auto-demontage-in-zwickau-0-10-26569279"
+    },
+    {
+     "n": "ARIVA.DE/dpa-AFX – Playmobil-Werk soll zu Rechenzentrum werden (28.10.2026, 11:32)",
+     "u": "https://www.ariva.de/news/playmobil-werk-soll-zu-rechenzentrum-werden-12184788"
+    },
+    {
+     "n": "Radio Gong – Marktheidenfeld/Altfeld: Landrat und Bürgermeister äußern sich zu Stellenabbau (28.10.2026, 14:35)",
+     "u": "https://www.radiogong.com/marktheidenfeld-altfeld-landrat-und-buergermeister-aeussern-sich-zu-stellenabbau-362592/"
+    },
+    {
+     "n": "dpa-AFX via boerse-online – ROUNDUP: Zweites Leben für Autos – VW baut Recycling in Zwickau auf (21.01.2026) – bis zu 90 Mio. Euro, 1.000 Arbeitsplätze sichern",
+     "u": "https://www.boerse-online.de/dpa-afx/roundup-zweites-leben-fuer-autos-vw-baut-recycling-in-zwickau-auf-496943.html"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-01/biz-invest-deutschland.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "bg": "Графика: инвестиционни проекти по региони, 01.11.2026 (собствена графика)",
+     "de": "Grafik: Investitionsprojekte nach Regionen, 01.11.2026 (eigene Darstellung)",
+     "en": "Graphic: investment projects by region, 01.11.2026 (own graphic)"
+    }
+   }
+  }
+ ]
+}
