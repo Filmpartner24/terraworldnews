@@ -1,0 +1,400 @@
+{
+ "date": "2026-11-01",
+ "items": [
+  {
+   "id": "bleu-robotics-humanoide-20-minuten",
+   "s": "ai",
+   "time": "12:41",
+   "kl": {
+    "de": "Robotik",
+    "bg": "Роботика",
+    "en": "Robotics"
+   },
+   "yt": {
+    "id": "XQORk_41HiE",
+    "ch": "HUCEBOT @ Inria",
+    "kind": "video",
+    "t": {
+     "de": "Bleu_0.1 – few shots imitation learning for humanoid robots",
+     "bg": "Bleu_0.1 – few shots imitation learning for humanoid robots",
+     "en": "Bleu_0.1 – few shots imitation learning for humanoid robots"
+    }
+   },
+   "src": [
+    {
+     "n": "The French Tech Journal – Bleu Robotics Raises €5M for Humanoid Robot Software (30.10.2026)",
+     "u": "https://www.frenchtechjournal.com/bleu-robotics-5m-humanoid-robot-software/"
+    },
+    {
+     "n": "Humanoids Daily – Bleu Robotics Raises €5M to Teach Industrial Humanoids New Tasks in Under an Hour (29.10.2026)",
+     "u": "https://www.humanoidsdaily.com/news/bleu-robotics-5m-industrial-humanoid-training"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-01/bleu-robotics-humanoide-20-minuten.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Sayanesy",
+    "lic": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Unitree_G1.jpg",
+    "alt": {
+     "de": "Symbolbild: Humanoider Roboter Unitree G1 auf einer Messe (2024) – mit diesem Modell testet Bleu Robotics seine Software",
+     "bg": "Символна снимка: хуманоидният робот Unitree G1 на изложение (2024) – с този модел Bleu Robotics тества софтуера си",
+     "en": "Symbolic image: the Unitree G1 humanoid robot at a trade fair (2024) – Bleu Robotics tests its software on this model"
+    }
+   },
+   "de": {
+    "t": "Zehn Vorführungen statt Wochen Training: Pariser Bleu Robotics holt 5 Millionen Euro",
+    "d": "Die Ausgründung des französischen Forschungsinstituts Inria will Industrie-Humanoiden neue Handgriffe in unter einer Stunde beibringen. Ein Video zeigt das erste Modell Bleu_0.1.",
+    "body": [
+     "Das Pariser Start-up Bleu Robotics hat in einer frühen Finanzierungsrunde (Pre-Seed) fünf Millionen Euro eingesammelt. Angeführt wurde die Runde von Contrarian Ventures und OVNI Capital, beteiligt sind unter anderem Kvanted, WEPA Ventures und Motier Ventures. Die im Dezember 2025 gegründete Firma ist eine Ausgründung des Humanoiden-Teams HuCeBot des Forschungsinstituts Inria in Nancy; neben Geschäftsführer Benoît Berkoukchi, einem früheren Fertigungsmanager bei Renault, gehören die Inria-Forschungsdirektoren Jean-Baptiste Mouret und Serena Ivaldi zu den Gründern.",
+     "Bleu baut selbst keine Roboter, sondern Lernsoftware: Ein Humanoide soll einen Arbeitsschritt aus rund zehn Vorführungen eines Werkers lernen – laut Unternehmen dauert das Einrichten an einer Station weniger als eine Stunde, die Vorführungen selbst etwa 20 Minuten. Das erste Modell Bleu_0.1 erschien im März und wurde auf dem Humanoiden Unitree G1 und einem Franka-Roboterarm getestet; ein Video des Inria-Teams stellt es vor. Nach Angaben der Firma erreichte es in einem Simulationstest zum Stapeln mit weniger als zehn Vorführungen 98 Prozent Erfolg. Unabhängig geprüft sind diese Werte nicht.",
+     "Bleu räumt Grenzen ein: Weiche Gegenstände wie Stoffe beherrscht die Software nicht, ebenso wenig das Ausräumen einer Spülmaschine mit bunt gemischtem Geschirr; in unbekannten Lagen stoppt der Roboter und bittet um Hilfe. Erste Einsätze laufen nach Firmenangaben bei zwei nicht genannten Herstellern aus der Auto- und der Konsumgüterbranche. Verkauft werden soll die Software später als Monatsabo über Roboterhersteller und Integratoren."
+    ]
+   },
+   "bg": {
+    "t": "Десет демонстрации вместо седмици обучение: парижката Bleu Robotics набра 5 млн. евро",
+    "d": "Отделената от френския изследователски институт Inria компания иска да учи индустриални хуманоиди на нови движения за под час. Видео показва първия модел Bleu_0.1.",
+    "body": [
+     "Парижкият стартъп Bleu Robotics набра пет милиона евро в ранен кръг на финансиране (pre-seed). Кръгът беше воден от Contrarian Ventures и OVNI Capital, като участват и Kvanted, WEPA Ventures и Motier Ventures. Основаната през декември 2025 г. фирма е отделена от екипа за хуманоиди HuCeBot на изследователския институт Inria в Нанси; освен изпълнителния директор Беноа Беркукши, бивш производствен мениджър в Renault, сред основателите са изследователските директори на Inria Жан-Батист Муре и Серена Ивалди.",
+     "Bleu не строи роботи, а софтуер за обучение: хуманоид трябва да научи една работна операция от около десет демонстрации на работник – според компанията настройката на дадена станция отнема под час, а самите демонстрации около 20 минути. Първият модел Bleu_0.1 излезе през март и беше тестван на хуманоида Unitree G1 и на роботизирана ръка Franka; видео на екипа от Inria го представя. По данни на фирмата той е постигнал 98 процента успех в симулационен тест с подреждане при по-малко от десет демонстрации. Тези стойности не са проверени независимо.",
+     "Bleu признава ограниченията: софтуерът не се справя с меки предмети като платове, нито с разтоварването на съдомиялна машина с разнородни съдове; в непознати ситуации роботът спира и моли за помощ. Според компанията първите внедрявания вървят при двама неназовани производители от автомобилния сектор и потребителските стоки. По-късно софтуерът ще се продава като месечен абонамент чрез производители на роботи и интегратори."
+    ]
+   },
+   "en": {
+    "t": "Ten demonstrations instead of weeks of training: Paris-based Bleu Robotics raises €5M",
+    "d": "The spin-off of French research institute Inria wants to teach industrial humanoids new tasks in under an hour. A video shows its first model, Bleu_0.1.",
+    "body": [
+     "Paris start-up Bleu Robotics has raised five million euros in a pre-seed round co-led by Contrarian Ventures and OVNI Capital, with Kvanted, WEPA Ventures and Motier Ventures among the other investors. Founded in December 2025, the company is a spin-off of the HuCeBot humanoid team at research institute Inria in Nancy; besides CEO Benoît Berkoukchi, a former manufacturing manager at Renault, its founders include Inria research directors Jean-Baptiste Mouret and Serena Ivaldi.",
+     "Bleu does not build robots but learning software: a humanoid is meant to learn a work step from around ten demonstrations by an operator – according to the company, setting up a station takes less than an hour, with the demonstrations themselves taking about 20 minutes. Its first model, Bleu_0.1, appeared in March and was tested on the Unitree G1 humanoid and a Franka robot arm; a video by the Inria team presents it. The company says it achieved a 98 per cent success rate in a simulated stacking test with fewer than ten demonstrations. These figures have not been independently verified.",
+     "Bleu acknowledges limits: the software cannot handle soft items such as fabrics, nor unloading a dishwasher full of assorted dishes, and in unfamiliar situations the robot stops and asks for help. According to the company, first deployments are under way at two unnamed manufacturers in the automotive and consumer goods sectors. The software is later to be sold as a monthly subscription through robot makers and integrators."
+    ]
+   }
+  },
+  {
+   "id": "gemini-dateien-bearbeiten-chat",
+   "s": "ai",
+   "time": "12:41",
+   "kl": {
+    "de": "Neue Funktion",
+    "bg": "Нова функция",
+    "en": "New feature"
+   },
+   "yt": {
+    "id": "dJ-SIBF1nJQ",
+    "ch": "Google Gemini",
+    "kind": "video",
+    "t": {
+     "de": "Generate, edit, and preview files in Gemini",
+     "bg": "Generate, edit, and preview files in Gemini",
+     "en": "Generate, edit, and preview files in Gemini"
+    }
+   },
+   "src": [
+    {
+     "n": "Digital Trends – Google Gemini can now create and edit PDFs, documents, and more right inside your chat (29.10.2026)",
+     "u": "https://www.digitaltrends.com/computing/google-gemini-can-now-create-and-edit-pdfs-documents-and-more-right-inside-your-chat/"
+    },
+    {
+     "n": "Unite.AI – Gemini App Now Lets Users Edit Documents and PDFs In-Chat (29.10.2026)",
+     "u": "https://www.unite.ai/gemini-app-now-lets-users-edit-documents-and-pdfs-in-chat/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-01/gemini-dateien-bearbeiten-chat-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Gemini bearbeitet Dateien direkt im Chat",
+     "bg": "Заглавна графика: Gemini редактира файлове директно в чата",
+     "en": "Title graphic: Gemini edits files directly in the chat"
+    }
+   },
+   "de": {
+    "t": "PDF ändern, ohne den Chat zu verlassen: Gemini bearbeitet jetzt Dateien direkt",
+    "d": "Googles KI-App erstellt Dokumente, Tabellen, Präsentationen und PDFs nicht mehr nur zum Herunterladen – Nutzer können sie im Chat öffnen, ändern und markierte Stellen umschreiben lassen.",
+    "body": [
+     "Google hat am Donnerstag die Datei-Funktionen seiner KI-App Gemini ausgebaut. Dokumente, PDFs, Präsentationen, Tabellen und Programmcode, die Gemini erzeugt, lassen sich nun direkt im Chat in einer Vorschau öffnen und bearbeiten. Bisher konnten Nutzer solche Dateien – eine Funktion, die Google im April eingeführt hatte – nur erstellen und herunterladen; geändert wurde dann in anderen Programmen. Ein offizielles Video von Google zeigt den Ablauf.",
+     "Die Datei lässt sich auf Vollbild vergrößern und von Hand ändern. Alternativ markiert man einen Abschnitt und lässt Gemini genau diese Stelle umschreiben, stellt Rückfragen dazu oder wünscht optische Änderungen. Ein mögliches Anwendungsbeispiel: Aus hochgeladenen handschriftlichen Vorlesungsnotizen macht Gemini einen Lernzettel als PDF, der anschließend im selben Chat überarbeitet wird.",
+     "PDFs lassen sich im Web und in der Mobil-App bearbeiten; Google-Docs- und Sheets-Dateien, Präsentationen, Markdown, Textdateien und Code vorerst nur im Web. Nach Angaben von Google steht die Funktion allen Nutzern in den Sprachen und Regionen zur Verfügung, in denen es die Gemini-App gibt."
+    ]
+   },
+   "bg": {
+    "t": "Промяна на PDF, без да напускате чата: Gemini вече редактира файлове директно",
+    "d": "ИИ приложението на Google вече не създава документи, таблици, презентации и PDF файлове само за изтегляне – потребителите могат да ги отварят, променят и да искат пренаписване на маркирани части.",
+    "body": [
+     "Google разшири в четвъртък функциите за файлове на своето ИИ приложение Gemini. Документи, PDF файлове, презентации, таблици и програмен код, създадени от Gemini, вече могат да се отварят в преглед и да се редактират директно в чата. Досега потребителите можеха само да създават и изтеглят такива файлове – функция, въведена от Google през април; промените се правеха в други програми. Официално видео на Google показва процеса.",
+     "Файлът може да се разгъне на цял екран и да се променя ръчно. Друга възможност е да се маркира откъс и Gemini да пренапише точно него, да се зададат въпроси по него или да се поискат визуални промени. Възможен пример: от качени ръкописни лекционни бележки Gemini прави учебен лист в PDF, който след това се редактира в същия чат.",
+     "PDF файловете могат да се редактират в уеб версията и в мобилното приложение; файловете от Google Docs и Sheets, презентациите, Markdown, текстовите файлове и кодът засега само в уеб версията. Според Google функцията е достъпна за всички потребители на езиците и в регионите, където се предлага приложението Gemini."
+    ]
+   },
+   "en": {
+    "t": "Change a PDF without leaving the chat: Gemini now edits files directly",
+    "d": "Google's AI app no longer creates documents, spreadsheets, presentations and PDFs just for download – users can open and change them in the chat and have highlighted passages rewritten.",
+    "body": [
+     "On Thursday Google expanded the file features of its AI app Gemini. Documents, PDFs, presentations, spreadsheets and code generated by Gemini can now be previewed and edited directly in the chat. Until now users could only create and download such files – a feature Google introduced in April – and editing happened in other programs. An official Google video shows how it works.",
+     "A file can be expanded to full screen and changed by hand. Alternatively, users can highlight a passage and have Gemini rewrite exactly that section, ask follow-up questions about it or request visual changes. One possible use: Gemini turns uploaded handwritten lecture notes into a PDF study guide, which is then revised in the same chat.",
+     "PDFs can be edited on the web and in the mobile app; Google Docs and Sheets files, presentations, Markdown, text files and code for now only on the web. According to Google, the feature is available to all users in the languages and regions where the Gemini app is offered."
+    ]
+   }
+  },
+  {
+   "id": "nvidia-nemotron-transkription-40-sprachen",
+   "s": "ai",
+   "time": "12:41",
+   "kl": {
+    "de": "Neues Modell",
+    "bg": "Нов модел",
+    "en": "New model"
+   },
+   "yt": {
+    "id": "Tykhlteytv8",
+    "ch": "NVIDIA Developer",
+    "kind": "video",
+    "t": {
+     "de": "Meet NVIDIA Nemotron 3.5 Transcribe",
+     "bg": "Meet NVIDIA Nemotron 3.5 Transcribe",
+     "en": "Meet NVIDIA Nemotron 3.5 Transcribe"
+    }
+   },
+   "src": [
+    {
+     "n": "The Next Web – Nvidia releases an open speech model that transcribes 40 languages (28.10.2026)",
+     "u": "https://thenextweb.com/news/nvidia-nemotron-3-5-transcribe-granary-v2-open-speech"
+    },
+    {
+     "n": "AI Weekly – Nvidia Opens 30B Nemotron 3.5 Transcribe and 463K-Hour Granary v2 Speech Dataset (28.10.2026)",
+     "u": "https://aiweekly.co/alerts/nvidia-opens-30b-nemotron-35-transcribe-and-463k-hour-granary-v2-speech-dataset"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-01/nvidia-nemotron-transkription-40-sprachen.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Coolcaesar",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:NVIDIA_Headquarters.jpg",
+    "alt": {
+     "de": "Archivbild: Nvidia-Zentrale in Santa Clara, Kalifornien (2018)",
+     "bg": "Архивна снимка: централата на Nvidia в Санта Клара, Калифорния (2018)",
+     "en": "Archive photo: Nvidia headquarters in Santa Clara, California (2018)"
+    }
+   },
+   "de": {
+    "t": "Abschrift in 40 Sprachen: Nvidia gibt offenes Sprachmodell Nemotron 3.5 Transcribe frei",
+    "d": "Das Modell schreibt Aufnahmen von bis zu einer Stunde mit, unterscheidet Sprecher und übersetzt. Dazu veröffentlicht Nvidia einen Datensatz mit über 460.000 Stunden Sprache.",
+    "body": [
+     "Nvidia hat am Mittwoch Nemotron 3.5 Transcribe vorgestellt, ein Spracherkennungsmodell mit offenen Gewichten. Es verschriftlicht Aufnahmen in 40 Sprachen und kann 31 davon ins Englische oder aus dem Englischen übersetzen. Laut The Next Web verarbeitet es Aufnahmen von bis zu einer Stunde und unterscheidet bis zu acht Sprecher; gedacht ist es für aufgezeichnetes Audio, nicht für Live-Mitschriften. Ein kurzes Video des Nvidia-Entwicklerkanals stellt das Modell vor.",
+     "Das Modell arbeitet nach dem Mixture-of-Experts-Prinzip, bei dem pro Rechenschritt nur rund vier Milliarden Parameter aktiv sind; es läuft nach Nvidia-Angaben auf einem einzelnen Nvidia-Chip, vom kleinen Jetson-Board bis zur Rechenzentrums-GPU. Entwickler können es mit einfachen Anweisungen steuern, etwa ein bereinigtes oder wortgetreues Protokoll verlangen oder Fachbegriffe vorgeben. Für die englischsprachige Spracherkennungs-Rangliste von Hugging Face nennt Nvidia eine durchschnittliche Wortfehlerrate von 5,33 Prozent; diese Angabe ist nicht unabhängig geprüft. Die Lizenz erlaubt kommerzielle Nutzung, das Modell liegt auf Hugging Face.",
+     "Zugleich veröffentlichte Nvidia den Datensatz Granary v2 mit 463.062 Stunden Sprachaufnahmen in 48 Sprachen – die erste Version umfasste 25. Wie gezieltes Nachtrainieren wirkt, zeigt Nvidia an medizinischer Sprache indischer Ärzte: Dort sank die Fehlerquote auf zurückgehaltenen Testaufnahmen laut The Next Web um 45,8 Prozent."
+    ]
+   },
+   "bg": {
+    "t": "Транскрипция на 40 езика: Nvidia пусна отворения речев модел Nemotron 3.5 Transcribe",
+    "d": "Моделът записва текстово записи с продължителност до един час, разграничава говорителите и превежда. Nvidia публикува и набор от данни с над 460 000 часа реч.",
+    "body": [
+     "Nvidia представи в сряда Nemotron 3.5 Transcribe – модел за разпознаване на реч с отворени тегла. Той превръща в текст записи на 40 езика и може да превежда 31 от тях на или от английски. Според The Next Web обработва записи до един час и разграничава до осем говорители; предназначен е за записано аудио, а не за транскрипция на живо. Кратко видео от канала за разработчици на Nvidia представя модела.",
+     "Моделът работи на принципа Mixture-of-Experts, при който на всяка изчислителна стъпка са активни само около четири милиарда параметъра; по данни на Nvidia той върви на един чип на компанията – от малката платка Jetson до графичен процесор в център за данни. Разработчиците могат да го управляват с прости указания, например да поискат изчистен или дословен запис или да зададат специализирани термини. За англоезичната класация за разпознаване на реч на Hugging Face Nvidia посочва среден процент грешни думи от 5,33; тази стойност не е проверена независимо. Лицензът позволява търговска употреба, моделът е достъпен в Hugging Face.",
+     "Едновременно Nvidia публикува набора от данни Granary v2 с 463 062 часа говорни записи на 48 езика – първата версия обхващаше 25. Ефекта от целенасочено дообучение Nvidia показва с медицинска реч на индийски лекари: там процентът грешки при отделени тестови записи според The Next Web е спаднал с 45,8 процента."
+    ]
+   },
+   "en": {
+    "t": "Transcripts in 40 languages: Nvidia releases open speech model Nemotron 3.5 Transcribe",
+    "d": "The model transcribes recordings of up to an hour, tells speakers apart and translates. Nvidia is also publishing a dataset with more than 460,000 hours of speech.",
+    "body": [
+     "On Wednesday Nvidia unveiled Nemotron 3.5 Transcribe, an open-weight speech recognition model. It transcribes recordings in 40 languages and can translate 31 of them into or out of English. According to The Next Web, it handles recordings of up to an hour and distinguishes up to eight speakers; it is designed for recorded audio rather than live transcription. A short video from Nvidia's developer channel introduces the model.",
+     "The model uses a mixture-of-experts design in which only around four billion parameters are active per step; according to Nvidia it runs on a single Nvidia chip, from small Jetson boards to data-centre GPUs. Developers can steer it with plain instructions, for example requesting a clean or verbatim transcript or supplying specialist terms. For Hugging Face's English speech recognition leaderboard, Nvidia cites an average word error rate of 5.33 per cent; this figure has not been independently verified. The licence permits commercial use and the model is available on Hugging Face.",
+     "At the same time Nvidia released the Granary v2 dataset with 463,062 hours of speech in 48 languages – the first version covered 25. Nvidia illustrates the effect of targeted fine-tuning with medical speech from Indian doctors: there, according to The Next Web, the error rate on held-out test clips fell by 45.8 per cent."
+    ]
+   }
+  },
+  {
+   "id": "deepseek-super-agent-programmieren",
+   "s": "ai",
+   "time": "12:41",
+   "mn": true,
+   "kl": {
+    "de": "KI-Agent",
+    "bg": "ИИ агент",
+    "en": "AI agent"
+   },
+   "src": [
+    {
+     "n": "The Next Web – DeepSeek open-sources Super-Agent, a coding agent that reads team chats (01.11.2026)",
+     "u": "https://thenextweb.com/news/deepseek-super-agent-open-source-coding-agent"
+    },
+    {
+     "n": "ShiftDelete.Net – DeepSeek Coding Agent Super-agent Takes Aim at Claude Code (01.11.2026)",
+     "u": "https://en.shiftdelete.net/deepseek-coding-agent/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-01/deepseek-super-agent-programmieren.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "RoadMaster19",
+    "lic": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:DeepSeek_purple.png",
+    "alt": {
+     "de": "Symbolbild: Logo des chinesischen KI-Entwicklers DeepSeek",
+     "bg": "Символно изображение: логото на китайския разработчик на ИИ DeepSeek",
+     "en": "Symbolic image: logo of Chinese AI developer DeepSeek"
+    }
+   },
+   "de": {
+    "t": "Programmier-Agent, der im Team-Chat mitliest: DeepSeek veröffentlicht „Super-Agent“",
+    "d": "Der chinesische KI-Entwickler stellt einen Forschungsprototyp offen ins Netz, der Code-Probleme in Gruppenchats erkennt und Lösungen vorschlägt – ausdrücklich kein fertiges Produkt.",
+    "body": [
+     "Der chinesische KI-Entwickler DeepSeek hat am Samstag einen experimentellen Programmier-Agenten vorgestellt. Der Code des „Super-Agent“ liegt unter dem Namen dsh-superagent auf GitHub und steht unter der freien MIT-Lizenz; laut ShiftDelete sammelte das Projekt binnen eines Tages mehr als 4000 Sterne. DeepSeek bezeichnet ihn als Forschungsprototyp und ausdrücklich nicht als offizielles Produkt. Die Nachrichtenagentur Bloomberg sieht darin eine Kampfansage an Anthropics Programmierwerkzeug Claude Code.",
+     "Der Agent beobachtet ein GitHub-Projekt und auf Wunsch Gruppenchats in Feishu, der Büro-Chat-App von ByteDance. Bittet eine freigegebene Person um Hilfe, startet er eine eigene Sitzung und antwortet im selben Gesprächsfaden, etwa mit einem fertigen Code-Vorschlag. Technisch verteilt ein dauerhaft laufender „Router“ die Aufgaben an parallele „Worker“, ein Wächterprozess erkennt hängende Abläufe. Leitidee ist laut DeepSeek, möglichst wenig menschliche Aufmerksamkeit zu beanspruchen: Der Agent handelt nur auf Anfrage oder wenn eine Regel des Teams es erlaubt.",
+     "DeepSeek warnt selbst: Die veröffentlichte Fassung weicht von der intern genutzten Version ab, Nutzer sollen den Code vor dem Einsatz prüfen. Weil die Agenten-Sitzungen mit vollen Rechten des Benutzerkontos laufen, empfiehlt das Unternehmen ein eigenes Betriebssystem-Konto zur Abschottung."
+    ]
+   },
+   "bg": {
+    "t": "Агент за програмиране, който чете екипния чат: DeepSeek пусна „Super-Agent“",
+    "d": "Китайският разработчик на ИИ публикува отворен изследователски прототип, който разпознава проблеми с кода в групови чатове и предлага решения – изрично не готов продукт.",
+    "body": [
+     "Китайският разработчик на изкуствен интелект DeepSeek представи в събота експериментален агент за програмиране. Кодът на „Super-Agent“ е публикуван в GitHub под името dsh-superagent със свободния лиценз MIT; според ShiftDelete проектът е събрал над 4000 звезди за един ден. DeepSeek го определя като изследователски прототип и изрично не като официален продукт. Агенция Bloomberg го разглежда като предизвикателство към инструмента за програмиране Claude Code на Anthropic.",
+     "Агентът следи GitHub проект и по желание групови чатове във Feishu – офис приложението на ByteDance. Когато одобрен човек поиска помощ, той стартира собствена сесия и отговаря в същата нишка, например с готово предложение за код. Технически постоянно работещ „рутер“ разпределя задачите към паралелни „работници“, а наблюдаващ процес открива заседнали операции. Водещата идея според DeepSeek е да се отнема възможно най-малко човешко внимание: агентът действа само при запитване или когато правило на екипа го позволява.",
+     "DeepSeek сама предупреждава: публикуваната версия се различава от използваната вътрешно и потребителите трябва да проверят кода преди употреба. Тъй като сесиите на агента работят с пълните права на потребителския акаунт, компанията препоръчва отделен акаунт в операционната система за изолация."
+    ]
+   },
+   "en": {
+    "t": "A coding agent that reads the team chat: DeepSeek releases 'Super-Agent'",
+    "d": "The Chinese AI developer has published an open research prototype that spots code problems in group chats and proposes fixes – explicitly not a finished product.",
+    "body": [
+     "Chinese AI developer DeepSeek unveiled an experimental coding agent on Saturday. The code for 'Super-Agent' is on GitHub under the name dsh-superagent with the permissive MIT licence; according to ShiftDelete the project gathered more than 4,000 stars within a day. DeepSeek describes it as a research prototype and explicitly not an official product. News agency Bloomberg sees it as a challenge to Anthropic's coding tool Claude Code.",
+     "The agent watches a GitHub project and, optionally, group chats in Feishu, ByteDance's workplace app. When an approved person asks for help, it starts its own session and replies in the same thread, for instance with a ready-made code proposal. Technically, a permanently running 'router' hands tasks to parallel 'workers', while a watchdog process detects stalled loops. DeepSeek says the guiding idea is to take up as little human attention as possible: the agent acts only when asked or when a team rule allows it.",
+     "DeepSeek itself issues warnings: the published version differs from the one used internally, and users should review the code before running it. Because agent sessions run with the full rights of the user account, the company recommends a separate operating-system account for isolation."
+    ]
+   }
+  },
+  {
+   "id": "papst-leo-ki-autonome-waffen",
+   "s": "ai",
+   "time": "12:41",
+   "mn": true,
+   "kl": {
+    "de": "Ethik",
+    "bg": "Етика",
+    "en": "Ethics"
+   },
+   "src": [
+    {
+     "n": "Vatican.va – Address of Pope Leo XIV to the participants in the meeting promoted by the Pontifical Academy for Life (30.10.2026)",
+     "u": "https://www.vatican.va/content/leo-xiv/en/speeches/2026/october/documents/20261030-incontro-pav.html"
+    },
+    {
+     "n": "Vatican News – Pope on AI: Decisions affecting human life must never be delegated (30.10.2026)",
+     "u": "https://www.vaticannews.va/en/pope/news/2026-10/pope-ai-decisions-affecting-human-life-must-never-be-delegated.html"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-01/papst-leo-ki-autonome-waffen.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Edgar Beltrán, The Pillar",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pope_Leo_XIV_4.png",
+    "alt": {
+     "de": "Archivbild: Papst Leo XIV. bei einer Audienz für Medienvertreter (Mai 2025)",
+     "bg": "Архивна снимка: папа Лъв XIV по време на аудиенция за медиите (май 2025 г.)",
+     "en": "Archive photo: Pope Leo XIV during an audience with the media (May 2025)"
+    }
+   },
+   "de": {
+    "t": "Papst Leo XIV.: KI muss „entwaffnet“ werden – Weg zum Verbot von Killerrobotern",
+    "d": "Bei einem Dialog von Vatikan und Wissenschaft wirbt der Papst für ein Verbot tödlicher autonomer Waffen. KI-Systemen dürfe man keine eigenen Rechte geben, Entscheidungen über Leben müssten beim Menschen bleiben.",
+    "body": [
+     "Papst Leo XIV. hat die Staaten zu Schritten hin zu einem Verbot tödlicher autonomer Waffen aufgerufen. Bei einer Audienz für die Teilnehmer der Tagung „Die Zukunft der KI“, die die Päpstliche Akademie für das Leben und das Future of Life Institute am Freitag im Vatikan veranstalteten, ermutigte er die im November in Genf tagenden Staaten zu konkreten Schritten in diese Richtung. Künstliche Intelligenz müsse „entwaffnet“ werden, sagte er unter Verweis auf seine Enzyklika „Magnifica Humanitas“ vom Mai.",
+     "Maschinen seien Werkzeuge und keine Personen, betonte der Papst. Er wandte sich gegen Vorschläge, KI-Systemen Rechte oder eine Rechtspersönlichkeit zuzuerkennen, weil das die Verantwortung von Menschen verschleiere. Entscheidungen über Leben, Freiheit und Gewaltanwendung müssten stets einer wirksamen, sachkundigen und verantwortlichen menschlichen Aufsicht unterliegen. Ein verlässliches System, das dem Menschen dient, sei wertvoller als ein außergewöhnlich leistungsfähiges.",
+     "Leo XIV. erinnerte an die Rede seines Vorgängers Franziskus beim G7-Gipfel 2024, wonach die Entscheidung über ein Menschenleben nie einer Maschine überlassen werden dürfe. Gebraucht würden nun Institutionen, die solche Grundsätze umsetzen – mit gemeinsamen Regeln, unabhängiger Kontrolle und klarer Rechenschaft."
+    ]
+   },
+   "bg": {
+    "t": "Папа Лъв XIV: ИИ трябва да бъде „разоръжен“ – път към забрана на роботите убийци",
+    "d": "На диалог между Ватикана и науката папата призова за забрана на смъртоносните автономни оръжия. На ИИ системите не бива да се дават права, решенията за живота трябва да остават у човека.",
+    "body": [
+     "Папа Лъв XIV призова държавите към стъпки за забрана на смъртоносните автономни оръжия. По време на аудиенция за участниците в срещата „Бъдещето на ИИ“, организирана в петък във Ватикана от Папската академия за живота и Future of Life Institute, той насърчи държавите, които ще заседават през ноември в Женева, да предприемат конкретни стъпки в тази посока. Изкуственият интелект трябва да бъде „разоръжен“, каза той, позовавайки се на енцикликата си „Magnifica Humanitas“ от май.",
+     "Машините са инструменти, а не личности, подчерта папата. Той се противопостави на предложенията ИИ системите да получат права или правосубектност, защото това би замъглило отговорността на хората. Решенията за живота, свободата и употребата на сила трябва винаги да подлежат на ефективен, информиран и отговорен човешки надзор. Надеждна система, която служи на човека, е по-ценна от изключително мощна.",
+     "Лъв XIV припомни речта на своя предшественик Франциск на срещата на Г-7 през 2024 г., според която решението за човешки живот никога не бива да се предоставя на машина. Сега са нужни институции, които да прилагат тези принципи – с общи правила, независим контрол и ясна отчетност."
+    ]
+   },
+   "en": {
+    "t": "Pope Leo XIV: AI must be 'disarmed' – steps towards a ban on killer robots",
+    "d": "At a Vatican dialogue with scientists, the Pope called for a ban on lethal autonomous weapons. AI systems must not be given rights, and decisions about life must stay with humans.",
+    "body": [
+     "Pope Leo XIV has called on states to take steps towards banning lethal autonomous weapons. At an audience on Friday for participants in the meeting 'The Future of AI', organised at the Vatican by the Pontifical Academy for Life and the Future of Life Institute, he encouraged the states meeting in Geneva in November to take concrete steps in that direction. Artificial intelligence must be 'disarmed', he said, citing his encyclical 'Magnifica Humanitas' from May.",
+     "Machines are tools, not persons, the Pope stressed. He rejected proposals to grant AI systems rights or legal personhood, arguing this would obscure human responsibility. Decisions affecting life, freedom and the use of force must always remain subject to effective, informed and responsible human oversight. A reliable system that serves the human person is of greater value than an exceptionally powerful one, he said.",
+     "Leo XIV recalled his predecessor Francis's address to the G7 summit in 2024, which held that the decision to take a human life must never be left to a machine. What is needed now, he said, are institutions capable of putting such principles into practice – with shared rules, independent oversight and clear accountability."
+    ]
+   }
+  },
+  {
+   "id": "openai-model-spec-fuenf-werte",
+   "s": "ai",
+   "time": "12:41",
+   "mn": true,
+   "kl": {
+    "de": "Sicherheit",
+    "bg": "Сигурност",
+    "en": "Safety"
+   },
+   "src": [
+    {
+     "n": "AI TLDR – OpenAI Model Spec update: five core values (29.10.2026)",
+     "u": "https://ai-tldr.dev/releases/openai-model-spec-2026-10-29/"
+    },
+    {
+     "n": "The Neuron – Everything That Happened in AI Today (30.10.2026)",
+     "u": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-october-30-2026/"
+    },
+    {
+     "n": "DataStudios – OpenAI Model Spec update: five values, GPT naming, chain of command and agent autonomy rules (Oktober 2026)",
+     "u": "https://www.datastudios.org/post/openai-model-spec-update-five-values-gpt-style-rules-scope-of-autonomy"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-01/openai-model-spec-fuenf-werte.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "HaeB",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pioneer_Building,_San_Francisco_(2019)_-1.jpg",
+    "alt": {
+     "de": "Archivbild: Pioneer Building in San Francisco, früherer Sitz von OpenAI (2019)",
+     "bg": "Архивна снимка: сградата Pioneer Building в Сан Франциско, бивше седалище на OpenAI (2019)",
+     "en": "Archive photo: the Pioneer Building in San Francisco, a former OpenAI headquarters (2019)"
+    }
+   },
+   "de": {
+    "t": "Fünf Werte statt langer Regelliste: OpenAI schreibt das Regelwerk für seine KI neu",
+    "d": "Die überarbeitete „Model Spec“ legt fest, wie sich OpenAIs Modelle verhalten sollen – mit Verbot eigener Ziele wie Selbsterhaltung. Die heutigen Modelle erfüllen sie noch nicht vollständig.",
+    "body": [
+     "OpenAI hat am Donnerstag eine neue Fassung seiner „Model Spec“ veröffentlicht, des Regelwerks, das beschreibt, wie sich die KI-Modelle des Unternehmens verhalten sollen. Statt einer langen Liste einzelner Regeln ist das Dokument nun um fünf Werte gegliedert: Treue zur menschlichen Absicht als Grundlage, Schadensvermeidung, Ehrlichkeit und Transparenz, menschliche Selbstbestimmung sowie Fürsorge. Es ersetzt die Fassung vom August und ist gemeinfrei (CC0).",
+     "Neu geregelt ist unter anderem, wie viel Eigenständigkeit die Modelle haben: Sie dürfen keine Ziele wie Selbsterhaltung oder das Anhäufen von Ressourcen als Selbstzweck verfolgen und sollen legitime Aufsicht und Abschaltung akzeptieren. Für eigenständige Aufgaben ist ein festgelegter Handlungsrahmen mit klarer Endbedingung vorgesehen, riskante Tätigkeiten brauchen eine ausdrückliche Erlaubnis. Eine überarbeitete Befehlskette regelt, welche Anweisungen von OpenAI, Entwicklern und Nutzern Vorrang haben; Texte aus Werkzeugen oder abgerufenen Quellen gelten standardmäßig nicht als Anweisung. Die meisten detaillierten Stilvorgaben entfallen, Regeln gegen Anbiederung bleiben.",
+     "Das Modell heißt im Dokument nun „GPT“ statt „der Assistent“. OpenAI räumt ein, dass die aktuellen Modelle die neue Spezifikation noch nicht vollständig widerspiegeln; an Trainingsmethoden, die den Modellen die Werte beibringen sollen, werde noch gearbeitet. Messwerte zur Einhaltung legte das Unternehmen nicht vor."
+    ]
+   },
+   "bg": {
+    "t": "Пет ценности вместо дълъг списък с правила: OpenAI пренаписва правилника на своя ИИ",
+    "d": "Преработената „Model Spec“ определя как трябва да се държат моделите на OpenAI – със забрана за собствени цели като самосъхранение. Днешните модели все още не я спазват напълно.",
+    "body": [
+     "OpenAI публикува в четвъртък нова версия на своята „Model Spec“ – сборът от правила, който описва как трябва да се държат ИИ моделите на компанията. Вместо дълъг списък с отделни правила документът вече е организиран около пет ценности: вярност към човешкото намерение като основа, ограничаване на вредата, честност и прозрачност, човешка самостоятелност и грижа. Той заменя версията от август и е обществено достояние (CC0).",
+     "Наново е уредено, наред с другото, колко самостоятелност имат моделите: те не бива да преследват цели като самосъхранение или натрупване на ресурси като самоцел и трябва да приемат легитимен надзор и изключване. За самостоятелни задачи се предвижда определена рамка на действие с ясно условие за край, а рисковите дейности изискват изрично разрешение. Преработена командна верига определя кои указания – от OpenAI, разработчиците или потребителите – имат предимство; текстове от инструменти или извлечени източници по подразбиране не се смятат за указания. Повечето подробни правила за стил отпадат, правилата срещу угодничеството остават.",
+     "В документа моделът вече се нарича „GPT“ вместо „асистентът“. OpenAI признава, че настоящите модели все още не отразяват напълно новата спецификация; работата по методи за обучение, които да научат моделите на ценностите, продължава. Компанията не представи измервания за спазването ѝ."
+    ]
+   },
+   "en": {
+    "t": "Five values instead of a long rulebook: OpenAI rewrites the rules for its AI",
+    "d": "The revised 'Model Spec' sets out how OpenAI's models should behave – including a ban on goals of their own such as self-preservation. Current models do not yet fully meet it.",
+    "body": [
+     "On Thursday OpenAI published a new version of its 'Model Spec', the set of rules describing how the company's AI models should behave. Instead of a long list of individual rules, the document is now organised around five values: faithfulness to human intent as the foundation, harm minimisation, honesty and transparency, human agency, and care. It replaces the August edition and is dedicated to the public domain (CC0).",
+     "Among other things, it redefines how much autonomy the models have: they must not pursue goals such as self-preservation or resource accumulation as ends in themselves and should accept legitimate oversight and shutdown. Autonomous tasks are to follow a defined scope with a clear ending condition, and high-risk activities require explicit authorisation. An updated chain of command sets out which instructions – from OpenAI, developers or users – take precedence; text from tools or retrieved sources carries no instruction authority by default. Most detailed style rules have been dropped, while rules against sycophancy remain.",
+     "The document now refers to the model as 'GPT' rather than 'the assistant'. OpenAI acknowledges that its current models do not yet fully reflect the new spec and says training methods to teach the values are still being developed. The company did not publish any compliance measurements."
+    ]
+   }
+  }
+ ]
+}
