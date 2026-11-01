@@ -1005,7 +1005,10 @@
    "time": "15:00",
    "t1": "Bologna FC 1909",
    "t2": "AC Monza",
-   "ft": null
+   "ft": [
+    2,
+    1
+   ]
   },
   {
    "r": 10,
@@ -1013,7 +1016,10 @@
    "time": "18:00",
    "t1": "Udinese Calcio",
    "t2": "AS Roma",
-   "ft": null
+   "ft": [
+    2,
+    5
+   ]
   },
   {
    "r": 10,
@@ -1021,7 +1027,10 @@
    "time": "20:45",
    "t1": "AC Milan",
    "t2": "FC Internazionale Milano",
-   "ft": null
+   "ft": [
+    3,
+    1
+   ]
   },
   {
    "r": 10,
@@ -3676,6 +3685,10 @@
   {
    "n": "ANSA – Sassuolo – Lazio 2:6 (27.10.2026)",
    "u": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/27/serie-a-lazio-travolgente-in-casa-sassuolo-6-2-e-vetta-solitaria_8454c10b-5c60-48ca-8a57-b9995fdd4b9d.html"
+  },
+  {
+   "n": "RTL 102.5 – Bologna-Monza 2-1, Udinese-Roma 2-5, Milan-Inter 3-1 (31.10.2026)",
+   "u": "https://www.rtl.it/notizie/sport/calcio/serie-a-bologna-monza-2-1-udinese-roma-2-5-milan-inter"
   }
  ]
 }

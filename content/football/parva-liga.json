@@ -947,7 +947,10 @@
    "time": "19:30",
    "t1": "CSKA Sofia",
    "t2": "Slavia Sofia",
-   "ft": null
+   "ft": [
+    0,
+    0
+   ]
   },
   {
    "r": 14,
@@ -966,7 +969,10 @@
    "time": "14:00",
    "t1": "Lokomotiv Plovdiv",
    "t2": "Ludogorets Razgrad",
-   "ft": null
+   "ft": [
+    0,
+    3
+   ]
   },
   {
    "r": 14,
@@ -974,7 +980,10 @@
    "time": "16:30",
    "t1": "Dunav Ruse",
    "t2": "Levski Sofia",
-   "ft": null
+   "ft": [
+    0,
+    1
+   ]
   },
   {
    "r": 14,
@@ -1569,6 +1578,18 @@
   {
    "n": "Сега – Първа лига, XIV кръг: резултати и класиране",
    "u": "https://www.segabg.com/category-sport/purva-liga-hiv-krug-rezultati-i-klasirane-video-reportazhi-1"
+  },
+  {
+   "n": "BTA – ЦСКА – Славия 0:0 (31.10.2026)",
+   "u": "https://www.bta.bg/bg/news/sport/1237229-tsska-i-slaviya-ne-si-vkaraha-golove-v-stolichno-derbi-ot-14-iya-krag-na-futboln"
+  },
+  {
+   "n": "BTA – Дунав – Левски 0:1 (31.10.2026)",
+   "u": "https://www.bta.bg/bg/news/sport/1237169-gol-v-dobavenoto-vreme-varna-levski-na-varha-v-parva-liga"
+  },
+  {
+   "n": "Евроком – Локомотив Пловдив – Лудогорец 0:3 (31.10.2026)",
+   "u": "https://eurocom.bg/2026/10/31/ludogorets-pobedi-lokomotiv-plovdiv-s-3-0"
   }
  ]
 }
