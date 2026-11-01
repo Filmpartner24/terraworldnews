@@ -8,7 +8,7 @@
   "tr": "easyCredit BBL (Almanya)"
  },
  "season": "2026/27",
- "asof": "2026-10-31",
+ "asof": "2026-11-01",
  "tables": [
   {
    "name": {},
@@ -43,25 +43,18 @@
      "pa": 479
     },
     {
-     "team": "MHP RIESEN Ludwigsburg",
+     "team": "Fitness First Würzburg Baskets",
      "w": 4,
      "l": 2,
-     "pf": 532,
-     "pa": 520
+     "pf": 497,
+     "pa": 481
     },
     {
-     "team": "Basketball Löwen Braunschweig",
-     "w": 3,
-     "l": 2,
-     "pf": 463,
-     "pa": 471
-    },
-    {
-     "team": "Fitness First Würzburg Baskets",
-     "w": 3,
-     "l": 2,
-     "pf": 401,
-     "pa": 409
+     "team": "MHP RIESEN Ludwigsburg",
+     "w": 4,
+     "l": 3,
+     "pf": 610,
+     "pa": 614
     },
     {
      "team": "BMA365 Bamberg Baskets",
@@ -71,11 +64,11 @@
      "pa": 516
     },
     {
-     "team": "ROSTOCK SEAWOLVES",
+     "team": "Basketball Löwen Braunschweig",
      "w": 3,
      "l": 3,
-     "pf": 552,
-     "pa": 505
+     "pf": 535,
+     "pa": 567
     },
     {
      "team": "Telekom Baskets Bonn",
@@ -85,11 +78,11 @@
      "pa": 485
     },
     {
-     "team": "EWE Baskets Oldenburg",
+     "team": "ROSTOCK SEAWOLVES",
      "w": 3,
      "l": 3,
-     "pf": 456,
-     "pa": 503
+     "pf": 552,
+     "pa": 505
     },
     {
      "team": "ALBA BERLIN",
@@ -100,10 +93,17 @@
     },
     {
      "team": "ratiopharm ulm",
-     "w": 2,
+     "w": 3,
      "l": 4,
-     "pf": 492,
-     "pa": 529
+     "pf": 573,
+     "pa": 594
+    },
+    {
+     "team": "EWE Baskets Oldenburg",
+     "w": 3,
+     "l": 4,
+     "pf": 521,
+     "pa": 584
     },
     {
      "team": "Science City Jena",
@@ -120,6 +120,13 @@
      "pa": 636
     },
     {
+     "team": "NINERS Chemnitz",
+     "w": 2,
+     "l": 5,
+     "pf": 607,
+     "pa": 621
+    },
+    {
      "team": "Phoenix Hagen",
      "w": 2,
      "l": 5,
@@ -132,45 +139,11 @@
      "l": 5,
      "pf": 479,
      "pa": 537
-    },
-    {
-     "team": "NINERS Chemnitz",
-     "w": 1,
-     "l": 5,
-     "pf": 513,
-     "pa": 543
     }
    ]
   }
  ],
  "matches": [
-  {
-   "t1": "EWE Baskets Oldenburg",
-   "t2": "BMA365 Bamberg Baskets",
-   "date": "2026-10-23",
-   "ft": [
-    70,
-    80
-   ]
-  },
-  {
-   "t1": "SYNTAINICS MBC",
-   "t2": "ROSTOCK SEAWOLVES",
-   "date": "2026-10-24",
-   "ft": [
-    103,
-    98
-   ]
-  },
-  {
-   "t1": "MHP RIESEN Ludwigsburg",
-   "t2": "Telekom Baskets Bonn",
-   "date": "2026-10-24",
-   "ft": [
-    84,
-    68
-   ]
-  },
   {
    "t1": "RASTA Vechta",
    "t2": "VET-CONCEPT Gladiators Trier",
@@ -232,6 +205,33 @@
    "ft": [
     74,
     100
+   ]
+  },
+  {
+   "t1": "ratiopharm ulm",
+   "t2": "EWE Baskets Oldenburg",
+   "date": "2026-10-31",
+   "ft": [
+    81,
+    65
+   ]
+  },
+  {
+   "t1": "Basketball Löwen Braunschweig",
+   "t2": "Fitness First Würzburg Baskets",
+   "date": "2026-10-31",
+   "ft": [
+    72,
+    96
+   ]
+  },
+  {
+   "t1": "NINERS Chemnitz",
+   "t2": "MHP RIESEN Ludwigsburg",
+   "date": "2026-10-31",
+   "ft": [
+    94,
+    78
    ]
   },
   {
@@ -325,6 +325,10 @@
   {
    "n": "easyCredit BBL – Aktuelle Spiele",
    "u": "https://www.easycredit-bbl.de/saison/aktuelle-spiele"
+  },
+  {
+   "n": "news.de – BBL-Spielberichte 31.10.2026",
+   "u": "https://www.news.de/sport/860147755/ratiopharm-ulm-ewe-baskets-oldenburg-bbl-ergebnisse-2026-punkte-und-tabelle-spielbericht-zur-basketball-bundesliga-am-31-10-2026-in-neu-ulm/1/"
   }
  ],
  "img": {
