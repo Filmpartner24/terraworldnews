@@ -125,9 +125,9 @@ async function espnAll(ctx, day) {
 const LIVE_ST = new Set(['1H', 'HT', '2H', 'ET', 'BT', 'P', 'SUSP', 'INT', 'LIVE']);
 
 export async function onRequest(ctx) {
-  const hdr = { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'public, max-age=30', 'x-robots-tag': 'noindex', 'access-control-allow-origin': '*' };
+  const hdr = { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'public, max-age=30', 'x-robots-tag': 'noindex', 'access-control-allow-origin': 'https://terraworldnews.com' };   // nur eigene Seite (Sicherheit 01.11.2026)
   if (!ctx.env.APISPORTS_KEY && !ctx.env.RAPIDAPI_KEY) return new Response(JSON.stringify({ ok: false, reason: 'nokey', m: [] }), { headers: hdr });
-  if (new URL(ctx.request.url).searchParams.get('diag') === '1') {   // Diagnose ohne Schlüsselinhalt
+  if (new URL(ctx.request.url).searchParams.get('diag') === '1' && ctx.env.DIAG_TOKEN && new URL(ctx.request.url).searchParams.get('t') === ctx.env.DIAG_TOKEN) {   // Diagnose nur mit geheimem Token (Sicherheit 01.11.2026)
     try {
       const r = await fetch(API + '/status', { headers: { 'x-apisports-key': ctx.env.APISPORTS_KEY || '' } });
       const t = await r.text(); let j = {}; try { j = JSON.parse(t); } catch (e) {}

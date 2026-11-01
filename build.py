@@ -708,6 +708,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="tdm-reservation" content="1">
 <link rel="canonical" href="{SITE}{canon}">
 {alts}
 <link rel="alternate" type="application/rss+xml" title="TWN – World News ({l.upper()})" href="{SITE}{pre(l)}rss.xml">
@@ -3566,7 +3567,12 @@ def build():
                 ns += f'  <url><loc>{SITE}{art_url(it, l)}</loc><news:news><news:publication><news:name>TWN World News</news:name><news:language>{l}</news:language></news:publication><news:publication_date>{iso(it)}</news:publication_date><news:title>{e(it[l]["t"])}</news:title></news:news></url>\n'
     ns += '</urlset>\n'
     open(os.path.join(OUT, 'news-sitemap.xml'), 'w', encoding='utf-8').write(ns)
-    open(os.path.join(OUT, 'robots.txt'), 'w').write('User-agent: *\nAllow: /\nDisallow: /_arch/\nDisallow: /search/\n' + ''.join(f'Disallow: {pre(x)}search/\n' for x in act if x != 'bg') + f'\nSitemap: {SITE}/sitemap.xml\nSitemap: {SITE}/news-sitemap.xml\n')
+    _ai = ['GPTBot', 'CCBot', 'ClaudeBot', 'anthropic-ai', 'Google-Extended', 'Applebot-Extended', 'Bytespider', 'meta-externalagent', 'FacebookBot', 'cohere-ai', 'cohere-training-data-crawler', 'Diffbot', 'Omgilibot', 'ImagesiftBot', 'Timpibot', 'PanguBot', 'AI2Bot']   # KI-Trainings-Crawler (Nedy 01.11.2026) – Suchmaschinen bleiben erlaubt
+    open(os.path.join(OUT, 'robots.txt'), 'w').write('# TERRA WORLD NEWS – Text- und Data-Mining-Vorbehalt nach § 44b UrhG / Art. 4 DSM-Richtlinie: Nutzung der Inhalte zum Training von KI-Modellen nicht gestattet.\n'
+        + ''.join(f'User-agent: {b}\n' for b in _ai) + 'Disallow: /\n\n'
+        + 'User-agent: *\nAllow: /\nDisallow: /_arch/\nDisallow: /search/\n' + ''.join(f'Disallow: {pre(x)}search/\n' for x in act if x != 'bg') + f'\nSitemap: {SITE}/sitemap.xml\nSitemap: {SITE}/news-sitemap.xml\n')
+    os.makedirs(os.path.join(OUT, '.well-known'), exist_ok=True)   # maschinenlesbarer TDM-Vorbehalt (W3C TDMRep)
+    open(os.path.join(OUT, '.well-known', 'tdmrep.json'), 'w').write(json.dumps([{"location": "/*", "tdm-reservation": 1}]))
     n = sum(1 for _ in glob.glob(OUT + '/**/*', recursive=True) if os.path.isfile(_))
     print(f'built {len(urls)} pages, {n} files, languages: {act}')
     return n
