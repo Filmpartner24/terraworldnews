@@ -86,6 +86,27 @@
     "kl": "España"
    }
   },
+  "bayern-verletzte-saibari-gnabry-atletico-2026-11-01": {
+   "L": {
+    "body": [
+     "En el Bayern crece la preocupación por Ismael Saibari y Serge Gnabry tras el 2-2 ante el Borussia Dortmund. «Ambas lesiones son algo más graves, sin que ahora pueda dar un pronóstico o un diagnóstico», dijo el director deportivo Max Eberl. Según medios, los diagnósticos se conocerían a lo largo del domingo.",
+     "Saibari se lesionó en el minuto 24 en un choque con el portero del BVB Gregor Kobel y fue sustituido poco después; algo más tarde también Gnabry tuvo que retirarse sin intervención de un rival. El segundo entrenador, Aaron Danks, sospecha una lesión muscular en el caso de Gnabry. También Michael Olise fue sustituido con molestias poco antes del final; en su caso se cree «que no es tan grave», afirmó Eberl.",
+     "Las bajas afectan al equipo de Múnich antes del partido de Champions del martes en casa del Atlético de Madrid, tanto más cuanto que Luis Díaz y Jamal Musiala ya se pierden el encuentro por lesión. Joshua Kimmich dijo en Sky: «No parecía que en ninguno de los casos fueran a estar de vuelta en dos días»."
+    ],
+    "d": "Tras el 2-2 en el clásico ante el Dortmund, aumentan las bajas en el Bayern. Antes del partido de Champions en Madrid, el club teme por Ismael Saibari y Serge Gnabry; aún faltan los diagnósticos.",
+    "t": "Bayern, con más bajas ante el Atlético: Eberl ve «más graves» lo de Saibari y Gnabry"
+   },
+   "at": "2026-11-01T13:49Z",
+   "h": "6e50f2271a80",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Max Eberl en 2020 (foto de archivo)"
+   }
+  },
   "bbl-wuerzburg-chemnitz-ulm-2026-11-01": {
    "L": {
     "body": [
@@ -2674,6 +2695,27 @@
     "kl": "Cerebro y cuerpo"
    }
   },
+  "levante-atletico-simeone-aragones-2026-11-01": {
+   "L": {
+    "body": [
+     "El Atlético de Madrid ha ampliado su racha en La Liga a siete victorias. En el 2-0 en Valencia ante el Levante, Alejandro Grimaldo marcó nueve minutos antes del descanso y en la segunda parte Giuliano Simeone aumentó la ventaja. Un gol anterior de Morten Hjulmand fue anulado tras la revisión del VAR.",
+     "Para el entrenador Diego Simeone fue la victoria 344 en La Liga, con lo que igualó a Luis Aragonés, que hasta ahora ostentaba en solitario el récord de más victorias de un entrenador en la historia de la liga española. «No lo siento como mío. Es un récord para compartir», dijo Simeone, según EFE.",
+     "Según el argentino, no es fácil estar quince años en un club y construir lo que se ha construido. El Levante ocupa el puesto 17 con diez puntos."
+    ],
+    "d": "El Atlético de Madrid ganó 2-0 en el campo del Levante. Para el técnico Diego Simeone fue la victoria 344 en La Liga, las mismas que Luis Aragonés, que hasta ahora ostentaba solo el récord.",
+    "t": "Séptima victoria liguera seguida: Simeone iguala el récord de entrenador de Luis Aragonés"
+   },
+   "at": "2026-11-01T13:49Z",
+   "h": "ff3a391b0e7e",
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "El entrenador del Atlético, Diego Simeone, en una rueda de prensa (Foto de archivo)"
+   }
+  },
   "lindner-schliesst-politik-comeback-aus-2026-11-01-b08": {
    "L": {
     "body": [
@@ -3014,6 +3056,33 @@
    ],
    "x": {
     "img.alt": "Victor Wembanyama con la camiseta de los San Antonio Spurs en la NBA Cup 2025 en Las Vegas (Foto de archivo)"
+   }
+  },
+  "nvidia-nemotron-transkription-40-sprachen": {
+   "L": {
+    "body": [
+     "Nvidia presentó el miércoles Nemotron 3.5 Transcribe, un modelo de reconocimiento de voz con pesos abiertos. Transcribe grabaciones en 40 idiomas y puede traducir 31 de ellos al inglés o desde el inglés. Según The Next Web, procesa grabaciones de hasta una hora y distingue hasta ocho hablantes; está pensado para audio grabado, no para transcripciones en directo. Un breve vídeo del canal de desarrolladores de Nvidia presenta el modelo.",
+     "El modelo funciona con el principio de mezcla de expertos, en el que solo unos 4000 millones de parámetros están activos en cada paso de cálculo; según Nvidia, se ejecuta en un único chip de Nvidia, desde la pequeña placa Jetson hasta la GPU de centro de datos. Los desarrolladores pueden controlarlo con instrucciones sencillas, por ejemplo, pedir una transcripción depurada o literal, o indicar términos técnicos. Para la clasificación de reconocimiento de voz en inglés de Hugging Face, Nvidia indica una tasa media de error de palabras del 5,33 por ciento; este dato no ha sido verificado de forma independiente. La licencia permite el uso comercial y el modelo está disponible en Hugging Face.",
+     "Nvidia publicó al mismo tiempo el conjunto de datos Granary v2, con 463.062 horas de grabaciones de voz en 48 idiomas; la primera versión abarcaba 25. Nvidia muestra el efecto de un reentrenamiento específico con el lenguaje médico de médicos indios: según The Next Web, la tasa de error en grabaciones de prueba reservadas bajó un 45,8 por ciento."
+    ],
+    "d": "El modelo transcribe grabaciones de hasta una hora, distingue a los hablantes y traduce. Nvidia publica además un conjunto de datos con más de 460.000 horas de voz.",
+    "t": "Transcripción en 40 idiomas: Nvidia libera el modelo abierto Nemotron 3.5 Transcribe"
+   },
+   "at": "2026-11-01T13:49Z",
+   "h": "adfd42c70cf4",
+   "rev": [
+    "\"cuatro mil millones\" is unnatural in Spanish for 'vier Milliarden'; \"4000 millones\" is the usual form",
+    "\"Mixture of Experts\" is left untranslated in the parenthesis; the Spanish term is enough",
+    "\"un acta depurada\" is a weak rendering of 'Protokoll'; \"transcripción\" is more natural"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: sede de Nvidia en Santa Clara, California (2018)",
+    "kl": "Nuevo modelo"
    }
   },
   "oktagon-96-brajshori-deutsche-bilanz": {
@@ -3471,6 +3540,31 @@
    ],
    "x": {
     "img.alt": "El estadio del Tottenham Hotspur en Londres (Imagen simbólica)"
+   }
+  },
+  "udinese-roma-2-5-gasperini-rekord-2026-11-01": {
+   "L": {
+    "body": [
+     "La AS Roma ganó 5-2 en el campo del Udinese en la jornada 10 de la Serie A. Bryan Cristante marcó en el minuto 10 y después Rodrigo Mora, Donyell Malen y Evan Ndicka ampliaron la ventaja en pocos minutos; al descanso el marcador era 4-0. Tras los goles de Nicolò Zaniolo y Palma para el Udinese, Ghilardi puso el punto final en el tiempo añadido.",
+     "Con 28 goles tras diez jornadas, la Roma estableció, según DiariodelWeb, un récord del club; la marca anterior era de 26 tantos. El equipo es tercero con 24 puntos, uno menos que el Inter y el Lazio; el Lazio todavía juega el domingo contra el Cagliari. El Udinese sigue siendo penúltimo.",
+     "«Los números a veces cuentan y dicen algo», dijo el entrenador Gian Piero Gasperini. Según dijo, tiene «la suerte de contar con un grupo con una mezcla fantástica»."
+    ],
+    "d": "La AS Roma ganó 5-2 al Udinese y, tras diez jornadas, ha marcado más goles que nunca en la historia del club. Por ahora, al equipo solo le falta un punto para la cima.",
+    "t": "4-0 a los 37 minutos: la Roma de Gasperini gana 5-2 en Údine y marca un récord goleador"
+   },
+   "at": "2026-11-01T13:49Z",
+   "h": "0acedefc76b4",
+   "rev": [
+    "Se perdió la cautela en 'Údine'? No: correcto. Problema: 'Afirmó que tiene' presenta el estilo indirecto en indicativo; mejor condicional/atribución clara con 'tendría' no necesario, pero se ajusta a ",
+    "Tercera plaza: 'uno menos que el Inter y el Lazio' es correcto; sin cambios"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Gian Piero Gasperini (d.) en 2024, como entrenador del Atalanta, con el presidente Sergio Mattarella (Foto de archivo)"
    }
   },
   "ufc-vegas-123-jacobe-smith-14-0": {
