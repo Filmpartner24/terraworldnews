@@ -11,7 +11,7 @@
   "de": "OKTAGON MMA",
   "en": "OKTAGON MMA"
  },
- "asof": "2026-10-31",
+ "asof": "2026-11-01",
  "champions": [
   {
    "div": {
@@ -60,12 +60,12 @@
     "en": "Welterweight"
    },
    "limit": "bis 77,1 kg (170 lb)",
-   "name": "vakant",
-   "country": "",
+   "name": "Amiran Gogoladze",
+   "country": "Georgien",
    "note": {
-    "bg": "Вакантна – Гоголадзе срещу Клинкхамер за титлата на 31.10.",
-    "de": "vakant – Gogoladze vs. Klinkhammer um den Titel am 31.10.",
-    "en": "Vacant – Gogoladze vs. Klinkhammer for the title on 31 Oct"
+    "bg": "Спечели вакантната титла на 31.10.2026 (OKTAGON 96) срещу Джесин Аяри",
+    "de": "Gewann den vakanten Titel am 31.10.2026 (OKTAGON 96) gegen Jessin Ayari",
+    "en": "Won the vacant title on 31 Oct 2026 (OKTAGON 96) against Jessin Ayari"
    }
   },
   {
@@ -146,23 +146,6 @@
  ],
  "upcoming": [
   {
-   "date": "2026-10-31",
-   "place": "SAP Garden, München, Deutschland",
-   "f1": "Amiran Gogoladze",
-   "f2": "Jessin Ayari",
-   "div": {
-    "bg": "Полусредна категория",
-    "de": "Weltergewicht",
-    "en": "Welterweight"
-   },
-   "title": {
-    "bg": "OKTAGON 96 – главен мач, мач за титлата",
-    "de": "OKTAGON 96 – Hauptkampf, Titelkampf",
-    "en": "OKTAGON 96 – main event, title fight"
-   },
-   "note": "Kampf um den vakanten Weltergewichtstitel; Felix Klinkhammer verletzt abgesagt (OKTAGON, 27.10.2026), Jessin Ayari springt ein"
-  },
-  {
    "date": "2026-11-07",
    "place": "ZAG Arena, Hannover, Deutschland",
    "f1": "Igor Severino",
@@ -213,6 +196,27 @@
   }
  ],
  "results": [
+  {
+   "date": "2026-10-31",
+   "place": "SAP Garden, München, Deutschland",
+   "f1": "Amiran Gogoladze",
+   "f2": "Jessin Ayari",
+   "res": {
+    "bg": "Решение на съдиите след 5 рунда",
+    "de": "Punktentscheidung nach 5 Runden",
+    "en": "Decision after 5 rounds"
+   },
+   "div": {
+    "bg": "Полусредна категория",
+    "de": "Weltergewicht",
+    "en": "Welterweight"
+   },
+   "title": {
+    "bg": "OKTAGON 96 – главен мач, мач за вакантната титла",
+    "de": "OKTAGON 96 – Hauptkampf, Kampf um den vakanten Titel",
+    "en": "OKTAGON 96 – main event, vacant title fight"
+   }
+  },
   {
    "date": "2026-10-17",
    "place": "Karlovy Vary, Tschechien",
@@ -370,6 +374,10 @@
   {
    "n": "Ringside24 – OKTAGON 96: Klinkhammer verletzt (27.10.2026)",
    "u": "https://ringside24.com/de/news/mma/259879-oktagon-96-klinkhammer-verletzt-ayari-gegen-gogoladze"
+  },
+  {
+   "n": "OKTAGON MMA – Výsledky OKTAGONu 96 (31.10.2026)",
+   "u": "https://oktagonmma.com/en/blog/vysledky-oktagonu-96-gogoladze-prezil-peklo-a-welterova-vaha-ma-noveho-sampiona/"
   }
  ]
 }

@@ -11,7 +11,7 @@
   "de": "Ultimate Fighting Championship",
   "en": "Ultimate Fighting Championship"
  },
- "asof": "2026-10-31",
+ "asof": "2026-11-01",
  "champions": [
   {
    "div": {
@@ -135,23 +135,6 @@
   }
  ],
  "upcoming": [
-  {
-   "date": "2026-10-31",
-   "place": "Meta APEX, Las Vegas, USA",
-   "f1": "Renato Moicano",
-   "f2": "Tom Nolan",
-   "div": {
-    "bg": "Лека категория",
-    "de": "Leichtgewicht",
-    "en": "Lightweight"
-   },
-   "title": {
-    "bg": "UFC Fight Night (Vegas 123) – главен двубой",
-    "de": "UFC Fight Night (Vegas 123) – Hauptkampf",
-    "en": "UFC Fight Night (Vegas 123) – main event"
-   },
-   "note": "Moicano sollte ursprünglich bei UFC 331 gegen Brian Ortega kämpfen, der absagte; danach Verlegung auf Vegas 123 (Cageside Press)"
-  },
   {
    "date": "2026-11-07",
    "place": "Meta APEX, Las Vegas, USA",
@@ -304,6 +287,27 @@
   }
  ],
  "results": [
+  {
+   "date": "2026-10-31",
+   "place": "Meta APEX, Las Vegas, USA",
+   "f1": "Tom Nolan",
+   "f2": "Renato Moicano",
+   "res": {
+    "bg": "Технически нокаут (лакти), 3. рунд (1:28)",
+    "de": "TKO (Ellbogen), 3. Runde (1:28)",
+    "en": "TKO (elbows), round 3 (1:28)"
+   },
+   "div": {
+    "bg": "Лека категория",
+    "de": "Leichtgewicht",
+    "en": "Lightweight"
+   },
+   "title": {
+    "bg": "UFC Fight Night (Vegas 123) – главен двубой",
+    "de": "UFC Fight Night (Vegas 123) – Hauptkampf",
+    "en": "UFC Fight Night (Vegas 123) – main event"
+   }
+  },
   {
    "date": "2026-10-24",
    "place": "Etihad Arena, Abu Dhabi, Vereinigte Arabische Emirate",
@@ -614,6 +618,10 @@
   {
    "n": "Sherdog – Report: Johnny Walker lands UFC Vegas 124 main event (30.10.2026)",
    "u": "https://www.sherdog.com/news/news/Report-Johnny-Walker-lands-UFC-Vegas-124-main-event-after-late-shakeup-203417"
+  },
+  {
+   "n": "Uncrowned/Yahoo Sports – UFC Vegas 123 results (01.11.2026)",
+   "u": "https://sports.yahoo.com/mma/article/ufc-vegas-123-results-tom-nolan-makes-the-most-of-controversial-referee-stand-up-knocks-out-renato-moicano-050855367.html"
   }
  ]
 }
