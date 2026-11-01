@@ -198,6 +198,32 @@
     0
    ]
   },
+  "bleu-robotics-humanoide-20-minuten": {
+   "L": {
+    "body": [
+     "La startup parisina Bleu Robotics ha captado cinco millones de euros en una ronda de financiación temprana (pre-seed). La ronda fue liderada por Contrarian Ventures y OVNI Capital, y participan, entre otros, Kvanted, WEPA Ventures y Motier Ventures. La empresa, fundada en diciembre de 2025, es una spin-off del equipo de humanoides HuCeBot del instituto de investigación Inria en Nancy. Entre los fundadores figuran el director general, Benoît Berkoukchi, antiguo responsable de fabricación en Renault, y los directores de investigación de Inria Jean-Baptiste Mouret y Serena Ivaldi.",
+     "Bleu no fabrica robots por sí misma, sino software de aprendizaje: un humanoide debe aprender un paso de trabajo a partir de unas diez demostraciones de un operario. Según la empresa, configurar una estación lleva menos de una hora y las demostraciones en sí, unos 20 minutos. El primer modelo, Bleu_0.1, apareció en marzo y se probó en el humanoide Unitree G1 y en un brazo robótico Franka; un vídeo del equipo de Inria lo presenta. Según la compañía, logró un 98 por ciento de éxito en una prueba de simulación de apilado con menos de diez demostraciones. Estos valores no han sido verificados de forma independiente.",
+     "Bleu reconoce limitaciones: el software no domina objetos blandos como las telas, ni tampoco vaciar un lavavajillas con vajilla variada; en situaciones desconocidas, el robot se detiene y pide ayuda. Según la empresa, ya hay primeros usos en dos fabricantes no identificados de los sectores del automóvil y de bienes de consumo. El software se venderá más adelante como suscripción mensual a través de fabricantes de robots e integradores."
+    ],
+    "d": "La spin-off del instituto de investigación francés Inria quiere enseñar nuevas tareas a humanoides industriales en menos de una hora. Un vídeo muestra su primer modelo, Bleu_0.1.",
+    "t": "Diez demostraciones en vez de semanas de entrenamiento: Bleu Robotics capta 5 millones"
+   },
+   "at": "2026-11-01T12:43Z",
+   "h": "0cc48fed16c0",
+   "rev": [
+    "Minor: 'participan' tense inconsistent with 'fue liderada' (beteiligt sind – acceptable, left as is)",
+    "Draft ok; 'Bleu no fabrica robots' omits 'selbst' (nuance)"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: el robot humanoide Unitree G1 en una feria (2024), el modelo con el que Bleu Robotics prueba su software",
+    "kl": "Robótica"
+   }
+  },
   "bottega-veneta-instagram-ciao": {
    "L": {
     "body": [
@@ -651,6 +677,33 @@
      "Nuevo editor de mapas y mejores herramientas de construcción"
     ],
     "rv.score": "Cubed3 9/10 · Loot Level Chill 7,5/10 · CGMagazine 6,5/10"
+   }
+  },
+  "deepseek-super-agent-programmieren": {
+   "L": {
+    "body": [
+     "El desarrollador chino de IA DeepSeek presentó el sábado un agente de programación experimental. El código de «Super-Agent» está en GitHub con el nombre dsh-superagent y bajo la licencia libre MIT; según ShiftDelete, el proyecto reunió más de 4000 estrellas en un solo día. DeepSeek lo describe como un prototipo de investigación y expresamente no como un producto oficial. La agencia de noticias Bloomberg lo interpreta como un desafío a la herramienta de programación Claude Code, de Anthropic.",
+     "El agente vigila un proyecto de GitHub y, si se desea, chats grupales en Feishu, la aplicación de chat de oficina de ByteDance. Cuando una persona autorizada pide ayuda, inicia una sesión propia y responde en el mismo hilo de conversación, por ejemplo con una propuesta de código ya elaborada. Técnicamente, un «Router» que funciona de forma permanente reparte las tareas a «Workers» paralelos, y un proceso vigilante detecta los procesos bloqueados. Según DeepSeek, la idea central es requerir la menor atención humana posible: el agente solo actúa bajo petición o cuando una regla del equipo lo permite.",
+     "DeepSeek advierte: la versión publicada difiere de la que se usa internamente y los usuarios deben revisar el código antes de utilizarlo. Dado que las sesiones del agente se ejecutan con todos los permisos de la cuenta de usuario, la empresa recomienda una cuenta propia del sistema operativo para aislarlas."
+    ],
+    "d": "El desarrollador chino de IA publica en abierto un prototipo de investigación que detecta problemas de código en chats grupales y propone soluciones, y deja claro que no es un producto terminado.",
+    "t": "Un agente de programación que lee el chat del equipo: DeepSeek publica «Super-Agent»"
+   },
+   "at": "2026-11-01T12:43Z",
+   "h": "38b14f1bc9fb",
+   "rev": [
+    "\"Bloomberg sieht darin eine Kampfansage\" was rendered as the agency's own interpretation; the wording is acceptable, but \"lo interpreta\" is fine, so no change.",
+    "\"DeepSeek advierte por sí misma\" is unnatural; \"DeepSeek advierte por su cuenta\" and the gender agreement are fixed as \"la propia empresa\" is better.",
+    "Teaser: \"expresamente, no es\" is awkward and is smoothed out."
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: logotipo del desarrollador chino de IA DeepSeek",
+    "kl": "Agente de IA"
    }
   },
   "derby-milan-inter-3-1-moreira-2026-11-01-b08": {
@@ -1539,6 +1592,28 @@
    ],
    "x": {
     "img.alt": "Imagen simbólica: almacén de gas natural de Rehden (archivo)"
+   }
+  },
+  "gemini-dateien-bearbeiten-chat": {
+   "L": {
+    "body": [
+     "Google amplió el jueves las funciones de archivos de su app de IA Gemini. Los documentos, PDF, presentaciones, hojas de cálculo y códigos de programación que genera Gemini pueden abrirse ahora directamente en el chat en una vista previa y editarse. Hasta ahora, los usuarios solo podían crear y descargar esos archivos, una función que Google introdujo en abril; los cambios se hacían luego en otros programas. Un vídeo oficial de Google muestra el procedimiento.",
+     "El archivo puede ampliarse a pantalla completa y modificarse a mano. Como alternativa, se marca un apartado y se pide a Gemini que reescriba exactamente ese pasaje, se le hacen preguntas al respecto o se solicitan cambios visuales. Un posible ejemplo de uso: a partir de apuntes manuscritos de clase subidos al chat, Gemini crea una hoja de estudio en PDF que después se revisa en el mismo chat.",
+     "Los PDF pueden editarse en la web y en la app móvil; los archivos de Google Docs y Sheets, las presentaciones, Markdown, los archivos de texto y el código, por ahora solo en la web. Según Google, la función está disponible para todos los usuarios en los idiomas y regiones en los que existe la app de Gemini."
+    ],
+    "d": "La app de IA de Google ya no crea documentos, hojas de cálculo, presentaciones y PDF solo para descargar: los usuarios pueden abrirlos en el chat, modificarlos y pedir que se reescriban los pasajes marcados.",
+    "t": "Editar un PDF sin salir del chat: Gemini ya modifica archivos directamente"
+   },
+   "at": "2026-11-01T12:43Z",
+   "h": "ccbe3d851725",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico de portada: Gemini edita archivos directamente en el chat",
+    "kl": "Nueva función"
    }
   },
   "gesund-aelter-werden-66-tipps-2026-11-01": {
@@ -2989,6 +3064,28 @@
    ],
    "x": {
     "img.alt": "Foto de archivo: el SAP Garden en el Parque Olímpico de Múnich, sede de OKTAGON 96"
+   }
+  },
+  "openai-model-spec-fuenf-werte": {
+   "L": {
+    "body": [
+     "OpenAI publicó el jueves una nueva versión de su «Model Spec», el conjunto de normas que describe cómo deben comportarse los modelos de IA de la compañía. En lugar de una larga lista de reglas individuales, el documento se estructura ahora en torno a cinco valores: fidelidad a la intención humana como base, evitar daños, honestidad y transparencia, autodeterminación humana y cuidado. Sustituye a la versión de agosto y es de dominio público (CC0).",
+     "Entre las novedades figura cuánta autonomía tienen los modelos: no pueden perseguir objetivos como la autopreservación o la acumulación de recursos como fin en sí mismo y deben aceptar la supervisión legítima y el apagado. Para tareas autónomas se prevé un marco de actuación definido con una condición final clara; las actividades de riesgo requieren un permiso expreso. Una cadena de mando revisada regula qué instrucciones de OpenAI, desarrolladores y usuarios tienen prioridad; los textos procedentes de herramientas o de fuentes consultadas no se consideran instrucciones por defecto. Se eliminan la mayoría de las directrices detalladas de estilo, pero se mantienen las reglas contra la adulación.",
+     "En el documento, el modelo se llama ahora «GPT» en lugar de «el asistente». OpenAI admite que los modelos actuales aún no reflejan por completo la nueva especificación; según la empresa, se sigue trabajando en métodos de entrenamiento destinados a enseñar los valores a los modelos. La compañía no presentó datos de medición sobre su cumplimiento."
+    ],
+    "d": "La «Model Spec» revisada define cómo deben comportarse los modelos de OpenAI, con la prohibición de objetivos propios como la autopreservación. Los modelos actuales aún no la cumplen del todo.",
+    "t": "Cinco valores en lugar de una larga lista de reglas: OpenAI reescribe las normas de su IA"
+   },
+   "at": "2026-11-01T12:43Z",
+   "h": "c06ed5b8ae57",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Pioneer Building en San Francisco, antigua sede de OpenAI (2019)",
+    "kl": "Seguridad"
    }
   },
   "otto-group-sereact-retouren-roboter": {

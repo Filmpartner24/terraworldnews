@@ -191,6 +191,36 @@
     0
    ]
   },
+  "bleu-robotics-humanoide-20-minuten": {
+   "L": {
+    "body": [
+     "Parisli girişim Bleu Robotics, erken aşama bir finansman turunda (Pre-Seed) beş milyon avro topladı. Turu Contrarian Ventures ve OVNI Capital yönetti; Kvanted, WEPA Ventures ve Motier Ventures de tura katılan yatırımcılar arasında yer alıyor. Aralık 2025'te kurulan şirket, Inria araştırma enstitüsünün Nancy'deki insansı robot ekibi HuCeBot'un yan kuruluşu. Kurucular arasında, Renault'un eski üretim yöneticisi olan Genel Müdür Benoît Berkoukchi'nin yanı sıra Inria araştırma direktörleri Jean-Baptiste Mouret ve Serena Ivaldi de yer alıyor.",
+     "Bleu kendisi robot üretmiyor, öğrenme yazılımı geliştiriyor: Bir insansı robotun, bir işçinin yaklaşık on gösteriminden bir iş adımını öğrenmesi hedefleniyor. Şirkete göre bir istasyonun kurulumu bir saatten az sürüyor, gösterimlerin kendisi ise yaklaşık 20 dakika. İlk model Bleu_0.1 Mart ayında yayımlandı ve Unitree G1 insansı robotu ile bir Franka robot kolu üzerinde test edildi; Inria ekibinin bir videosu modeli tanıtıyor. Şirketin verdiği bilgiye göre model, istifleme konulu bir simülasyon testinde on gösterimden azıyla yüzde 98 başarıya ulaştı. Bu değerler bağımsız olarak doğrulanmadı.",
+     "Bleu sınırlarını kabul ediyor: Yazılım kumaş gibi yumuşak nesneleri kavrayamıyor; karışık biçimde doldurulmuş bir bulaşık makinesini boşaltmayı da beceremiyor. Robot bilinmeyen durumlarda duruyor ve yardım istiyor. Şirket bilgilerine göre ilk uygulamalar, otomotiv ve tüketim malları sektörlerinden adı açıklanmayan iki üreticide sürüyor. Yazılımın ileride robot üreticileri ve entegratörler aracılığıyla aylık abonelik olarak satılması planlanıyor."
+    ],
+    "d": "Fransız araştırma enstitüsü Inria'nın yan kuruluşu, endüstriyel insansı robotlara yeni el becerilerini bir saatten kısa sürede öğretmek istiyor. Bir video ilk modeli Bleu_0.1'i gösteriyor.",
+    "t": "Haftalarca eğitim yerine on gösterim: Parisli Bleu Robotics 5 milyon avro topladı"
+   },
+   "at": "2026-11-01T12:43Z",
+   "h": "0cc48fed16c0",
+   "rev": [
+    "Headline: 'statt Wochen Training' was rendered as 'haftalarca eğitim yerine', which is awkward; the wording is corrected",
+    "Investor sentence is broken ('de aralarında yer aldığı yatırımcılar arasında bulunuyor')",
+    "'Renault'nun' should be 'Renault'nun' → 'Renault'nun' is wrong; correct form is 'Renault'nun' → 'Renault'un' (the final t is silent in French)",
+    "Month 'Mart'ta' lacks context; 'Mart ayında' reads more naturally; the sentence also leaves out that the lab video is 'ein Video'",
+    "Sentence about limits: the elliptical 'beceremiyor, ... da' is ungrammatical and the Spülmaschine clause does not mean the same as the German",
+    "'Kurucular arasında ... yer alıyor' is correct; no change"
+   ],
+   "rev_dbg": [
+    6,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Bir fuarda insansı robot Unitree G1 (2024) – Bleu Robotics yazılımını bu modelle test ediyor",
+    "kl": "Robotik"
+   }
+  },
   "bottega-veneta-instagram-ciao": {
    "L": {
     "body": [
@@ -682,6 +712,28 @@
      "Yeni harita editörü ve daha iyi inşa araçları"
     ],
     "rv.score": "Cubed3 9/10 · Loot Level Chill 7,5/10 · CGMagazine 6,5/10"
+   }
+  },
+  "deepseek-super-agent-programmieren": {
+   "L": {
+    "body": [
+     "Çinli yapay zekâ geliştiricisi DeepSeek cumartesi günü deneysel bir kodlama ajanı tanıttı. “Super-Agent”ın kodu GitHub'da dsh-superagent adıyla yer alıyor ve özgür MIT lisansıyla sunuluyor; ShiftDelete'e göre proje bir gün içinde 4000'den fazla yıldız topladı. DeepSeek ajanı bir araştırma prototipi olarak tanımlıyor ve açıkça resmi bir ürün olmadığını belirtiyor. Haber ajansı Bloomberg, bunu Anthropic'in kodlama aracı Claude Code'a meydan okuma olarak görüyor.",
+     "Ajan, bir GitHub projesini ve istenirse ByteDance'in ofis sohbet uygulaması Feishu'daki grup sohbetlerini izliyor. Yetkilendirilmiş bir kişi yardım istediğinde ajan kendi oturumunu başlatıyor ve aynı konuşma dizisinde yanıt veriyor; örneğin hazır bir kod önerisiyle. Teknik olarak sürekli çalışan bir “Router” görevleri paralel “Worker”lara dağıtıyor, bir gözetmen süreci takılan işlemleri tespit ediyor. DeepSeek'e göre temel fikir, mümkün olduğunca az insan dikkati gerektirmek: Ajan yalnızca talep üzerine veya ekibin bir kuralı izin verdiğinde harekete geçiyor.",
+     "DeepSeek kendisi uyarıyor: Yayımlanan sürüm, şirket içinde kullanılan sürümden farklı; kullanıcıların kodu kullanmadan önce incelemesi gerekiyor. Ajan oturumları kullanıcı hesabının tüm yetkileriyle çalıştığı için şirket, yalıtım amacıyla ayrı bir işletim sistemi hesabı öneriyor."
+    ],
+    "d": "Çinli yapay zekâ geliştiricisi, grup sohbetlerindeki kod sorunlarını tespit edip çözüm öneren bir araştırma prototipini herkese açtı; açıkça bitmiş bir ürün değil.",
+    "t": "Ekip sohbetini okuyan kodlama ajanı: DeepSeek “Super-Agent”ı yayımladı"
+   },
+   "at": "2026-11-01T12:43Z",
+   "h": "38b14f1bc9fb",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Çinli yapay zekâ geliştiricisi DeepSeek'in logosu",
+    "kl": "Yapay zekâ ajanı"
    }
   },
   "derby-milan-inter-3-1-moreira-2026-11-01-b08": {
@@ -1634,6 +1686,33 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Rehden doğal gaz deposu (arşiv)"
+   }
+  },
+  "gemini-dateien-bearbeiten-chat": {
+   "L": {
+    "body": [
+     "Google perşembe günü yapay zeka uygulaması Gemini'nin dosya işlevlerini genişletti. Gemini'nin oluşturduğu belgeler, PDF'ler, sunumlar, tablolar ve program kodları artık doğrudan sohbette bir önizlemede açılıp düzenlenebiliyor. Kullanıcılar bugüne kadar bu tür dosyaları (Google bu işlevi nisan ayında kullanıma sunmuştu) yalnızca oluşturup indirebiliyordu; değişiklikler ise başka programlarda yapılıyordu. Google'ın resmi bir videosu süreci gösteriyor.",
+     "Dosya tam ekrana büyütülebiliyor ve elle değiştirilebiliyor. Alternatif olarak bir bölüm işaretlenip Gemini'den tam olarak o kısmı yeniden yazması isteniyor, bununla ilgili sorular soruluyor ya da görsel değişiklikler talep ediliyor. Olası bir kullanım örneği: Gemini, yüklenen el yazısı ders notlarından PDF biçiminde bir çalışma notu hazırlıyor, bu not ardından aynı sohbette düzenleniyor.",
+     "PDF'ler web'de ve mobil uygulamada düzenlenebiliyor; Google Docs ve Sheets dosyaları, sunumlar, Markdown, metin dosyaları ve kod ise şimdilik yalnızca web'de düzenlenebiliyor. Google'ın verdiği bilgiye göre işlev, Gemini uygulamasının bulunduğu tüm dillerde ve bölgelerde tüm kullanıcılara sunuluyor."
+    ],
+    "d": "Google'ın yapay zeka uygulaması belgeleri, tabloları, sunumları ve PDF'leri artık yalnızca indirmek üzere oluşturmuyor; kullanıcılar bunları sohbette açıp değiştirebiliyor, işaretli bölümleri yeniden yazdırabiliyor.",
+    "t": "PDF'yi sohbetten çıkmadan değiştirin: Gemini artık dosyaları doğrudan düzenliyor"
+   },
+   "at": "2026-11-01T12:43Z",
+   "h": "ccbe3d851725",
+   "rev": [
+    "Headline repeats 'düzenle' and the imperative 'düzenleyin' differs from the German; reworded for naturalness and length",
+    "Teaser: 'yeniden yazdırabiliyor' fine; no change",
+    "Body 1: 'Google'ın nisan ayında kullanıma sunduğu bu işlevle' wrongly makes the function a tool for the users; in the German the April function is the file creation, fixed to be clearer"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Başlık görseli: Gemini dosyaları doğrudan sohbette düzenliyor",
+    "kl": "Yeni özellik"
    }
   },
   "gesund-aelter-werden-66-tipps-2026-11-01": {
@@ -3164,6 +3243,33 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Münih Olimpiyat Parkı'ndaki SAP Garden, OKTAGON 96'nın düzenlendiği mekân"
+   }
+  },
+  "openai-model-spec-fuenf-werte": {
+   "L": {
+    "body": [
+     "OpenAI perşembe günü, şirketin yapay zekâ modellerinin nasıl davranması gerektiğini tanımlayan kurallar bütünü “Model Spec”in yeni bir sürümünü yayımladı. Belge artık tek tek kuralların uzun listesi yerine beş değer etrafında yapılandırılıyor: temel olarak insanın niyetine bağlılık, zararın önlenmesi, dürüstlük ve şeffaflık, insanın özerkliği ve özen. Yeni sürüm, Ağustos sürümünün yerini alıyor ve kamu malı (CC0) statüsünde.",
+     "Yeni düzenlemeler arasında modellerin ne kadar bağımsız hareket edebileceği de var: Modeller kendini koruma veya kaynak biriktirmeyi başlı başına bir amaç olarak izleyemez; meşru denetimi ve kapatılmayı kabul etmeleri gerekiyor. Bağımsız görevler için net bir bitiş koşulu olan belirli bir eylem çerçevesi öngörülüyor, riskli faaliyetler için açık izin gerekiyor. Gözden geçirilen komut zinciri, OpenAI'ın, geliştiricilerin ve kullanıcıların talimatlarından hangisinin öncelikli olduğunu düzenliyor; araçlardan veya çağrılan kaynaklardan gelen metinler varsayılan olarak talimat sayılmıyor. Ayrıntılı üslup kurallarının çoğu kaldırıldı, dalkavukluğa karşı kurallar korundu.",
+     "Model, belgede artık “asistan” yerine “GPT” olarak adlandırılıyor. OpenAI, mevcut modellerin yeni spesifikasyonu henüz tam olarak yansıtmadığını kabul ediyor; modellere değerleri öğretmeyi amaçlayan eğitim yöntemleri üzerinde hâlâ çalışıldığını belirtiyor. Şirket, uyuma ilişkin ölçüm değerleri sunmadı."
+    ],
+    "d": "Gözden geçirilen “Model Spec”, OpenAI modellerinin nasıl davranması gerektiğini belirliyor; kendini koruma gibi kendi hedeflerini yasaklıyor. Mevcut modeller bu belgeyi henüz tam olarak karşılamıyor.",
+    "t": "Uzun kural listesi yerine beş değer: OpenAI yapay zekâsının kurallarını yeniden yazdı"
+   },
+   "at": "2026-11-01T12:43Z",
+   "h": "c06ed5b8ae57",
+   "rev": [
+    "Teaser: the second sentence lacks a subject and is unclear (the current models do not yet fully meet it – the Model Spec)",
+    "Indirect speech: 'werde noch gearbeitet' is attributed to OpenAI only vaguely; the attribution should be made explicit",
+    "Body 1: 'yapılandırılıyor' (present tense) is acceptable, but 'Gliederung' is better expressed as 'düzenlenmiş'"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: OpenAI'ın eski merkezi, San Francisco'daki Pioneer Building (2019)",
+    "kl": "Güvenlik"
    }
   },
   "otto-group-sereact-retouren-roboter": {
