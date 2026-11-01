@@ -10,7 +10,7 @@
   "de": "World Boxing Organization",
   "en": "World Boxing Organization"
  },
- "asof": "2026-10-31",
+ "asof": "2026-11-01",
  "champions": [
   {
    "div": {
@@ -210,23 +210,6 @@
  ],
  "upcoming": [
   {
-   "date": "2026-10-31",
-   "place": "Riad, Saudi-Arabien",
-   "f1": "Rafael Espinoza",
-   "f2": "Ricardo Blandón",
-   "div": {
-    "bg": "Перо категория",
-    "de": "Federgewicht",
-    "en": "Featherweight"
-   },
-   "title": {
-    "bg": "Световна титла на WBO",
-    "de": "WBO-WM",
-    "en": "WBO world title"
-   },
-   "note": "Vorprogramm Canelo vs. Mbilli; Ersatz für Lorenzo Parra, dessen Teilnahme die Boxkommission nicht genehmigte (WBO, BoxingScene 23.10.2026)"
-  },
-  {
    "date": "2026-11-14",
    "place": "Dignity Health Sports Park, Carson (Kalifornien), USA",
    "f1": "Anthony Olascuaga",
@@ -329,6 +312,27 @@
  ],
  "results": [
   {
+   "date": "2026-10-31",
+   "place": "Riad, Saudi-Arabien",
+   "f1": "Rafael Espinoza",
+   "f2": "Ricardo Blandón",
+   "res": {
+    "bg": "технически нокаут в 3-ти рунд (1:22, рана)",
+    "de": "TKO 3. Runde (1:22, Cut)",
+    "en": "TKO round 3 (1:22, cut)"
+   },
+   "div": {
+    "bg": "Перо категория",
+    "de": "Federgewicht",
+    "en": "Featherweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBO",
+    "de": "WBO-WM",
+    "en": "WBO world title"
+   }
+  },
+  {
    "date": "2026-10-24",
    "place": "Frost Bank Center, San Antonio, USA",
    "f1": "O'Shaquie Foster",
@@ -394,6 +398,10 @@
   }
  ],
  "src": [
+  {
+   "n": "The Ring – Espinoza stops Blandon on cut in third round (31.10.2026)",
+   "u": "https://www.ringmagazine.com/news/5Y1c7en2bf0NncQjFDxJ0q"
+  },
   {
    "n": "WBO – Male Champions",
    "u": "https://wboboxing.com/male-champions/"

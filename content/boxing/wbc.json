@@ -10,7 +10,7 @@
   "de": "World Boxing Council",
   "en": "World Boxing Council"
  },
- "asof": "2026-10-31",
+ "asof": "2026-11-01",
  "champions": [
   {
    "div": {
@@ -64,8 +64,8 @@
     "en": "Super Middleweight"
    },
    "limit": "bis 76,2 kg (168 lb)",
-   "name": "Christian Mbilli",
-   "country": "Kanada"
+   "name": "Saúl „Canelo“ Álvarez",
+   "country": "Mexiko"
   },
   {
    "div": {
@@ -215,23 +215,6 @@
  ],
  "upcoming": [
   {
-   "date": "2026-10-31",
-   "place": "Riad, Saudi-Arabien",
-   "f1": "Christian Mbilli",
-   "f2": "Saúl „Canelo“ Álvarez",
-   "div": {
-    "bg": "Втора средна категория",
-    "de": "Supermittelgewicht",
-    "en": "Super Middleweight"
-   },
-   "title": {
-    "bg": "Световна титла на WBC",
-    "de": "WBC-WM",
-    "en": "WBC world title"
-   },
-   "note": "vom 12.09. verschoben"
-  },
-  {
    "date": "2026-11-07",
    "place": "Manchester, Großbritannien",
    "f1": "Joshua Buatsi",
@@ -284,6 +267,27 @@
   }
  ],
  "results": [
+  {
+   "date": "2026-10-31",
+   "place": "Riad, Saudi-Arabien",
+   "f1": "Saúl „Canelo“ Álvarez",
+   "f2": "Christian Mbilli",
+   "res": {
+    "bg": "единодушно решение (117-110, 116-111, 115-112)",
+    "de": "einstimmig nach Punkten (117-110, 116-111, 115-112)",
+    "en": "unanimous decision (117-110, 116-111, 115-112)"
+   },
+   "div": {
+    "bg": "Втора средна категория",
+    "de": "Supermittelgewicht",
+    "en": "Super Middleweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBC (смяна на шампиона)",
+    "de": "WBC-WM (Titelwechsel)",
+    "en": "WBC world title (new champion)"
+   }
+  },
   {
    "date": "2026-10-24",
    "place": "Frost Bank Center, San Antonio, USA",
@@ -475,6 +479,10 @@
   }
  ],
  "src": [
+  {
+   "n": "TSN/AP – Alvarez regains WBC super-middleweight title (31.10.2026)",
+   "u": "https://www.tsn.ca/boxing/article/alvarez-regains-wbc-super-middleweight-title-with-unanimous-decision-over-mbilli/"
+  },
   {
    "n": "WBC – Ratings/Champions",
    "u": "https://wbcboxing.com/en/ratings/"

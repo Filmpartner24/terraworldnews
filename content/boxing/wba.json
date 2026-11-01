@@ -10,7 +10,7 @@
   "de": "World Boxing Association",
   "en": "World Boxing Association"
  },
- "asof": "2026-10-31",
+ "asof": "2026-11-01",
  "champions": [
   {
    "div": {
@@ -65,7 +65,12 @@
    },
    "limit": "bis 76,2 kg (168 lb)",
    "name": "Jaime Munguía",
-   "country": "Mexiko"
+   "country": "Mexiko",
+   "note": {
+    "bg": "Следващият съперник според Дан Рафаел: задължителният претендент Бектемир Меликузиев",
+    "de": "Nächster Gegner laut Dan Rafael: Pflichtherausforderer Bektemir Melikuziev",
+    "en": "Next opponent per Dan Rafael: mandatory challenger Bektemir Melikuziev"
+   }
   },
   {
    "div": {
@@ -245,23 +250,6 @@
  ],
  "upcoming": [
   {
-   "date": "2026-10-31",
-   "place": "Riad, Saudi-Arabien",
-   "f1": "Jaime Munguía",
-   "f2": "Nikita Zon",
-   "div": {
-    "bg": "Супер средна категория",
-    "de": "Supermittelgewicht",
-    "en": "Super Middleweight"
-   },
-   "title": {
-    "bg": "Световна титла на WBA",
-    "de": "WBA-WM",
-    "en": "WBA world title"
-   },
-   "note": "Laut Boxing News (09.10.2026) von der WBA nicht genehmigt; Pflichtherausforderer Bektemir Melikuziev"
-  },
-  {
    "date": "2026-11-26",
    "place": "Tokio, Japan",
    "f1": "Takeshi Ishii",
@@ -381,6 +369,27 @@
  ],
  "results": [
   {
+   "date": "2026-10-31",
+   "place": "Riad, Saudi-Arabien",
+   "f1": "Jaime Munguía",
+   "f2": "Nikita Zon",
+   "res": {
+    "bg": "единодушно решение (117-111, 117-111, 116-112)",
+    "de": "einstimmig nach Punkten (117-111, 117-111, 116-112)",
+    "en": "unanimous decision (117-111, 117-111, 116-112)"
+   },
+   "div": {
+    "bg": "Супер средна категория",
+    "de": "Supermittelgewicht",
+    "en": "Super Middleweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBA",
+    "de": "WBA-WM",
+    "en": "WBA world title"
+   }
+  },
+  {
    "date": "2026-10-10",
    "place": "Chicago, USA",
    "f1": "Sergio Mendoza",
@@ -466,6 +475,10 @@
   }
  ],
  "src": [
+  {
+   "n": "Dan Rafael – Munguia survives near-knockout to outpoint Zon (01.11.2026)",
+   "u": "https://danrafael.substack.com/p/munguia-survives-near-knockout-to"
+  },
   {
    "n": "WBA – Ranking September 2026",
    "u": "https://www.wbaboxing.com/wba-ranking"
