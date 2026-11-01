@@ -1288,6 +1288,38 @@
     0
    ]
   },
+  "invest-deutschland": {
+   "L": {
+    "body": [
+     "Durante el fin de semana, empresas y medios fiables en Alemania no comunicaron nuevas plantas ni primeras piedras con cifra indicada. La suma de inversión de la tabla asciende a unos 340 millones de euros (nuevo hospital en Eichsfeld y reciclaje de VW en Zwickau).",
+     "Bremen: el grupo hospitalario municipal Gesundheit Nord (Geno) suprimiría entre 500 y 600 puestos; el estado amplía para ello el marco de crédito en 293 millones de euros (buten un binnen, 28.10.). Aproximadamente la mitad de los recortes se realizaría mediante la rotación natural. El presidente del comité de empresa exige ahora disolver por completo el grupo (Weser-Kurier, 30.10., según ad-hoc-news). Baviera/Sajonia: el fabricante de alimentos Völpel, de Königsmoos, y su filial en Zittau están en quiebra; unos 60 empleados se ven afectados (t-online, 31.10.).",
+     "Novedades del viernes: en Unna (Renania del Norte-Westfalia), la sociedad operadora del almacén central de Galeria, gestionado por Fiege, ha solicitado concurso con administración propia; unos 1.250 empleos están en peligro. O2 vende sus centros de atención telefónica de Rostock y Bremen, con unos 430 empleados, al proveedor de servicios TP (dpa, 30.10.).",
+     "En la industria metalúrgica y eléctrica termina la obligación de paz social: desde hoy son posibles paros de advertencia. IG Metall exige un 5 % más de salario para 3,7 millones de empleados; la patronal ofrece un 1,3 % a partir de julio de 2028 y un pago único (Handelsblatt/dpa, 30.10.)."
+    ],
+    "d": "Desde el sábado por la mañana no se han conocido nuevas inversiones. En Bremen, el comité de empresa del grupo hospitalario Geno pide su disolución. Un fabricante de alimentos en Baviera está en quiebra. Desde hoy hay riesgo de paros de advertencia.",
+    "explain": "El fin de semana no se añadieron nuevas fábricas. Quien trabaja en una empresa insolvente suele recibir los salarios pendientes durante un máximo de tres meses mediante la prestación por insolvencia (Insolvenzgeld) de la Agencia de Empleo.",
+    "t": "Fin de semana sin nuevas plantas: grupo hospitalario de Bremen recortará hasta 600 puestos"
+   },
+   "at": "2026-11-01T09:42Z",
+   "flag": [
+    "Teaser zu lang (249 Zeichen)"
+   ],
+   "h": "5c94148fff52",
+   "rev": [
+    "\"Insolvenzgeld\" left untranslated in explain",
+    "Bremen Geno: German says \"soll abbauen\" (is to cut); the conditional is acceptable, so no change",
+    "Teaser: \"Ein Lebensmittelhersteller ... ist insolvent\" rendered as \"en quiebra\"; acceptable, but the German \"insolvent\" is better rendered as \"insolvente\"/\"en concurso\"",
+    "Galeria warehouse: \"Betreibergesellschaft ... von Fiege\" is ambiguous in the draft; fixed so that it is the Fiege operator company",
+    "\"buten un binnen\" is the proper name of the broadcaster and is spelled \"buten un binnen\"; draft is fine",
+    "\"Friedenspflicht\" translated as \"obligación de paz social\"; ok",
+    "\"Arbeitgeber\" rendered as \"empleadores\"; \"patronal\" is more natural"
+   ],
+   "rev_dbg": [
+    7,
+    4,
+    0
+   ]
+  },
   "iran-hormus-zwei-tage-plan-trump-2026-11-01-b08": {
    "L": {
     "body": [
@@ -1870,6 +1902,38 @@
     "img.alt": "Gráfico: TERRA WORLD NEWS"
    }
   },
+  "leben-kasanka-bats-2026-11-01": {
+   "L": {
+    "body": [
+     "Sobre el Parque Nacional de Kasanka, en el norte de Zambia, el cielo se oscurece estas semanas cada tarde. Entre octubre y diciembre se concentran allí, según estimaciones, entre ocho y diez millones de murciélagos frugívoros color paja (Eidolon helvum), según la lista indicativa de la UNESCO (a 05.03.2026). Durante el día, los animales cuelgan muy apretados en un fragmento de bosque pantanoso mushitu que mide menos de un kilómetro cuadrado.",
+     "Según la autoridad turística de Zambia, los murciélagos llegan de las selvas del Congo y en Kasanka se alimentan de frutos como masuku y mufinsa; en noviembre ya han llegado todos los animales. Al comer y volar dispersan semillas y ayudan así al bosque. En la temporada 2026, un campamento de seis tiendas autorizado por el Kasanka Trust y la autoridad de parques nacionales DNPW recibe visitantes del 25 de octubre al 1 de diciembre, porque la Wasa Lodge está cerrada (según ATTA, a 15.09.2026).",
+     "Con unos 390 kilómetros cuadrados, el parque es uno de los más pequeños de Zambia, pero según la UNESCO alberga 114 especies de mamíferos y más de 470 de aves, entre ellas el amenazado picozapato. Desde 1986 lo gestiona el Kasanka Trust, privado, junto con la autoridad de parques nacionales: la primera asociación público-privada de este tipo en Zambia. El 5 de marzo de 2026 Zambia incluyó Kasanka en su lista indicativa para el Patrimonio Mundial de la UNESCO; por tanto, el parque todavía no está inscrito."
+    ],
+    "d": "Hasta diez millones de murciélagos frugívoros color paja se concentran ahora en un diminuto bosque pantanoso de Zambia. El Parque Nacional de Kasanka figura desde marzo de 2026 en la Lista Indicativa de la UNESCO.",
+    "t": "Millones de murciélagos: comienza el gran enjambre en el parque Kasanka de Zambia"
+   },
+   "at": "2026-11-01T09:42Z",
+   "h": "1be6ecb7cf60",
+   "rev": [
+    "'bis November sind alle Tiere eingetroffen' rendered as future 'habrán llegado'; German says present perfect state, should be 'para noviembre ya han llegado todos los animales' (meaning: by November a",
+    "Teaser/headline: 'Flughunde' vs 'murciélagos frugívoros' is acceptable; 'diminuto' fine",
+    "Wasa Lodge gender: 'la Wasa Lodge' is more natural (lodge as feminine)"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "facts": [
+     "Ubicación: distrito de Serenje, provincia Central, Zambia, a unos 525 km al norte de Lusaka (según la UNESCO, a 05.03.2026)",
+     "Tamaño: unos 390 km², uno de los parques nacionales más pequeños de Zambia (según la UNESCO, a 05.03.2026)",
+     "Estatus de protección: parque nacional; desde el 05.03.2026 en la lista indicativa de Zambia ante la UNESCO (criterios vii, ix, x), aún no es Patrimonio Mundial",
+     "Mejor época para viajar: de finales de octubre a diciembre; campamento de temporada 2026 del 25.10. al 01.12. (según ATTA, a 15.09.2026)"
+    ],
+    "img.alt": "Foto de archivo: murciélagos frugívoros en el cielo vespertino sobre el Parque Nacional de Kasanka, Zambia"
+   }
+  },
   "leben-liebe-ehepaare-steuerklassen-wechsel-frist-november-2026-11-01": {
    "L": {
     "body": [
@@ -2020,6 +2084,31 @@
    ],
    "x": {
     "img.alt": "Foto de archivo: Christian Lindner en un acto como ministro de Finanzas"
+   }
+  },
+  "lol-worlds-2026-viertelfinale-ansetzungen": {
+   "L": {
+    "body": [
+     "La fase suiza del Mundial de League of Legends en Allen (Texas) ha terminado. En la quinta y última ronda, el club francés de la LEC Karmine Corp arrasó al equipo español Movistar KOI y aseguró así a Europa una plaza en los cuartos de final. LYON remontó un 0-1 contra LOS y ganó 2-1; la segunda partida no se decidió a favor de LYON hasta pasados 47 minutos. Bilibili Gaming eliminó a Hanwha Life Esports. G2 Esports, tras un 0-2 ante Hanwha Life, y Team Liquid, tras un 1-2 ante LOS, ya habían quedado eliminados el 30 de octubre.",
+     "Los emparejamientos de cuartos de final, según Hotspawn: el martes 3 de noviembre, Top Esports se enfrenta a Invictus Gaming; el miércoles, Gen.G a LYON; el jueves, Dplus KIA a Bilibili Gaming; y el viernes, Karmine Corp al vigente récord de títulos mundiales, T1. Con Gen.G, Dplus KIA y T1 hay tres equipos surcoreanos, además de tres chinos.",
+     "Los cuartos de final y las semifinales se disputarán en Allen hasta el 8 de noviembre. La final tendrá lugar el 14 de noviembre en el Barclays Center de Nueva York."
+    ],
+    "d": "Karmine Corp, LYON y Bilibili Gaming lograron las últimas plazas de la fase eliminatoria. G2 Esports y Team Liquid quedan fuera. Los cuartos de final comienzan el martes en Texas.",
+    "t": "Mundial de LoL 2026: ya están los cuartos – Karmine Corp se medirá a T1"
+   },
+   "at": "2026-11-01T09:42Z",
+   "h": "1a896564e5fa",
+   "rev": [
+    "'la segunda partida no cayó del lado de LYON hasta pasados 47 minutos' is awkward; German says the second game only went to LYON after 47 minutes",
+    "'campeón récord' is unnatural; better 'máximo campeón del mundo'"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: escenario del Mundial de League of Legends 2015 en París"
    }
   },
   "look-outside-konsolen-test": {
@@ -2220,6 +2309,31 @@
    ],
    "x": {
     "img.alt": "Foto de archivo: el SAP Garden en el Parque Olímpico de Múnich, sede de OKTAGON 96"
+   }
+  },
+  "pikmin-day-direct-demo": {
+   "L": {
+    "body": [
+     "Nintendo publicó por sorpresa el 31 de octubre un «Pikmin Day Direct». La principal novedad: desde el lunes 2 de noviembre estará disponible una demo de «Pikmin 4 – Nintendo Switch 2 Edition + Dandori Academy». La versión completa saldrá, como estaba anunciado, el 12 de noviembre; Nintendo Life indica un precio de 58,99 libras o 69,99 dólares. Quien tenga el original para Switch puede comprar una actualización de pago.",
+     "La edición para Switch 2 se había anunciado en septiembre. Entre las novedades figura un control por voz mediante el micrófono integrado, con el que se pueden dar órdenes al perro Oatchi y elogiarlo. En el modo «Dandori Academy» se recogen tesoros contrarreloj lo más rápido posible; cada viernes, sábado y domingo hay pruebas con clasificaciones en línea, medallas y tres niveles de dificultad. En total, se irán añadiendo poco a poco 72 niveles.",
+     "Además, Nintendo presentó «Hello Pikmin», una serie de cortometrajes que se publicarán mensualmente; el primero podrá verse desde el 1 de noviembre. También la aplicación para smartphones «Pikmin Bloom» apareció en la presentación. Según Nintendo Life, no hubo más anuncios de juegos."
+    ],
+    "d": "Nintendo ha publicado una breve edición dedicada a «Pikmin» de su serie Direct. Desde el 2 de noviembre habrá una demo de la edición para Switch 2, además de cortometrajes mensuales.",
+    "t": "Sorpresivo «Pikmin Day Direct»: demo de «Pikmin 4» para Switch 2 desde el lunes"
+   },
+   "at": "2026-11-01T09:42Z",
+   "h": "f4683d6c1d50",
+   "rev": [
+    "Teaser: «edición «Pikmin»» reads awkwardly; rephrased to «una breve edición dedicada a «Pikmin»»",
+    "Grammar: «se puede dar órdenes» should be «se pueden dar órdenes»"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: cosplayers como Captain Olimar y Pikmin en la Otakuthon 2014"
    }
   },
   "stichwahl-gjurow-stimmabgabe-blagoewgrad-415-hinweise-2026-11-01-b11": {
