@@ -86,6 +86,33 @@
     "rv.score": "The Outer Haven 4/5 · TheSixthAxis 7/10 · OpenCritic 73"
    }
   },
+  "apple-qwen-apple-intelligence-china": {
+   "L": {
+    "body": [
+     "Apple, yapay zekâ özelliklerini içeren Apple Intelligence'ı Aralık ayında Çin'e getiriyor. The Next Web'in haberine göre şirket bunu Çin'deki haber sitesinde yayımladığı bir açıklamayla doğruladı. Geliştiriciler özellikleri 4 Kasım'dan itibaren iOS'un bir test sürümünde deneyebilecek, tüm kullanıcılar için özellikler iOS 27.3 ile sunulacak. Böylece Apple Intelligence, ABD'de kullanıma sunulmasından yaklaşık iki yıl sonra Çin pazarına giriyor.",
+     "İlk aşamada canlı çeviri, yazma araçları, “Temizle” fotoğraf aracı, Genmoji ve bildirim özetleri gibi özellikler yer alıyor. Ayrıca Çinli şirket Alibaba'nın yapay zekâ modeli Qwen, Siri'ye, yazma araçlarına ve görsel aramaya entegre ediliyor: Kullanıcılar bu sayede örneğin fotoğraflar veya PDF dosyalarıyla ilgili sorular sorabiliyor. Siri'nin daha yeni yapay zekâ işlevleri ise Çin'de başlangıçta yer almıyor.",
+     "Ön koşul, İngilizce veya basitleştirilmiş Çince olarak ayarlanmış bir iPhone 15 Pro veya daha yeni bir model olması. The Next Web'e göre Çin'in internet denetim kurumu, Apple ile Alibaba'nın iş birliğini temmuz ayında onaylamıştı. The Apple Post'a göre diğer Apple platformları, ek onayların ardından gelecek."
+    ],
+    "d": "Apple, yapay zekâ özelliklerinin Çin'de Aralık ayında kullanıma sunulacağını doğruladı. Siri, belirli istekler için Alibaba'nın yapay zekâ modeli Qwen'i kullanıyor.",
+    "t": "Apple Intelligence Çin'e geliyor: Siri'de Alibaba'nın yapay zekâ modeli Qwen yer alacak"
+   },
+   "at": "2026-11-02T12:42Z",
+   "h": "95ea65a1658c",
+   "rev": [
+    "Teaser says Siri uses Qwen in present tense as a plain fact; fine. Body: 'Çince haber sitesi' is inaccurate, since the German says 'chinesische Nachrichtenseite' (Apple's Chinese-market news site).",
+    "Headline 'yer alacak' is acceptable.",
+    "'Ön koşul ... olması' is acceptable."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Hangzhou'daki Apple Store West Lake (2018)",
+    "kl": "Yapay zekâ asistanı"
+   }
+  },
   "bbl-alba-niederlage-bonn-bamberg-mbc-2026-11-02": {
    "L": {
     "body": [
@@ -3068,6 +3095,32 @@
     "img.alt": "Sam Altman (solda) Tokyo'da bir etkinlikte (Arşiv fotoğrafı, 2025)"
    }
   },
+  "openai-api-guthaben-chatgpt-pro-business": {
+   "L": {
+    "body": [
+     "OpenAI, daha pahalı ChatGPT aboneliklerine şu andan itibaren, geliştiricilerin modelleri kendi uygulamalarına entegre etmek için kullandığı programlama arayüzü (API) için kredi ekliyor. Pro müşterileri pakete bağlı olarak aylık 100, 200 veya 500 dolar alıyor. Business hesaplarında ücretli her standart koltuk için 20 dolar, her premium koltuk için 100 dolar veriliyor; toplamda çalışma alanı başına en fazla 500 dolar. Şirket teklifi 28 Ekim'de kendi geliştirici forumunda duyurdu ve bir videoyla tanıttı.",
+     "Kredinin ChatGPT'nin fatura ayarlarından talep edilmesi ve kendi API organizasyonuyla ilişkilendirilmesi gerekiyor. Forumda alıntılanan OpenAI yardım sayfasına göre hak, abonelik değişikliğinden en erken yedi gün sonra doğuyor; ilk kredi orantılı olarak hesaplanıyor. Kullanılmayan tutarlar fatura döneminin sonunda sona eriyor. Daha fazla harcayanlar normal API fiyatlarını ödüyor. AlphaSignal'a göre Plus ve Enterprise müşterileri kapsam dışında.",
+     "Forumdaki tartışmada, Google Play Store veya Apple'ın App Store'u üzerinden abone olan birçok kullanıcı, seçeneğin kendilerine başlangıçta gösterilmediğini bildiriyor. Forumda şu ana kadar bu konuda resmi bir açıklama yapılmadı."
+    ],
+    "d": "ChatGPT Pro veya Business için ödeme yapanlar artık OpenAI'ın programlama arayüzü için aylık kredi alıyor. Şirketin bir videosu yeni teklifi anlatıyor.",
+    "t": "Ayda 500 dolara kadar: OpenAI, ChatGPT aboneliklerine geliştirici kredisi ekliyor"
+   },
+   "at": "2026-11-02T12:42Z",
+   "h": "edbd3ccd473f",
+   "rev": [
+    "\"eigene API-Organisation\" was rendered as \"ayrı bir API organizasyonu\" (a separate one); it should be the user's own API organization",
+    "\"ab sofort\" was placed awkwardly in the sentence; the wording was made more natural"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: San Francisco'daki 1515 Third Street ofis binası, fotoğraf çekildiği sırada OpenAI'ın merkezi",
+    "kl": "Yeni teklif"
+   }
+  },
   "opetaia-nach-wilder-benavidez-ibf-usyk": {
    "L": {
     "body": [
@@ -3200,6 +3253,34 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: John Romero, GDC 2023'te bir ödülle"
+   }
+  },
+  "sap-teched-berlin-joule-studio-agenten": {
+   "L": {
+    "body": [
+     "SAP, 27 Ekim'de Berlin'deki TechEd geliştirici konferansında yapay zekâ ajanları için yeni araçlar tanıttı. Şirketler, Joule Studio adlı geliştirme setiyle bu tür ajanları kod yazmadan ya da kendi kodlarıyla oluşturabiliyor ve bunun için 70'ten fazla yapay zekâ modeli arasından seçim yapabiliyor. Geliştirici keynote konuşmasına göre fikirden çalışan bir ajana giden süre böylece 13 saat yerine yaklaşık 2,5 saat sürüyor; bu, SAP'nin bir beyanı olup bağımsız olarak doğrulanmış değil. Seçilmiş müşteriler, kendi ajanlarını Aralık sonuna kadar SAP'nin platformunda ücretsiz çalıştırabilecek. Şirketin bir videosu keynote konuşmasını özetliyor.",
+     "Ayrıca SAP'nin tablo verileri için geliştirdiği modelin yeni sürümü SAP-RPT-2.0 de tanıtıldı. Modelin, iş verilerindeki aykırı değerleri ve olağandışı durumları tespit etmesi amaçlanıyor ve ERP Today'e göre 2027'nin ilk çeyreğinde genel kullanıma sunulacak; tahminler için geliştirilen türevi SAP-RPT-TS ise şimdiden kullanılabiliyor. SAP ayrıca HPE ile birlikte, bir SAP-RPT modelini Uluslararası Uzay İstasyonu'ndaki bir bilgisayarda kullanmayı planlıyor; amaç, sensör verilerini Dünya'ya göndermeden orada değerlendirmek.",
+     "SAP Business AI ürün başkanı Ted Way, ERP Today'e göre, birçok müşterinin yalnızca SAP yazılımı kullanmadığını, bu nedenle ajanların birlikte çalışmasının belirleyici olduğunu söyledi. Bu nedenle üçüncü taraf ajanların SAP ajanlarını kontrollü bir erişim üzerinden çağırabilmesi öngörülüyor; ERP Today'e göre yapay zekâ veri trafiğini yönetmek için daha kapsamlı bir ağ geçidi 2027'nin başı için duyuruldu."
+    ],
+    "d": "Walldorf merkezli şirket, TechEd geliştirici konferansında yapay zekâ ajanları için yeni araçlar ve bir tablo modeli tanıttı. Bir video, açılış konuşmasını sekiz dakikada özetliyor.",
+    "t": "Berlin'de SAP: Ajanlar 13 yerine 2,5 saatte – ve ISS için bir SAP yapay zekâ modeli"
+   },
+   "at": "2026-11-02T12:42Z",
+   "h": "ad97b0bb8e62",
+   "rev": [
+    "Teaser omits the ISS/SAP-RPT-2.0 table model detail partly but fine; main problem: 'Ajanlar' headline ok. Teaser says 'bir tablo modeli tanıttı' ok.",
+    "Draft says 'Joule Studio adlı geliştirme seti' ok.",
+    "'Produktchef' rendered as 'ürün direktörü' – should be 'ürün sorumlusu/ürün başkanı'; minor",
+    "'Ted Way ... Ted Way' attribution fine"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Şirketin Hamburg'daki bir ofis binasında SAP logosu",
+    "kl": "Yapay zekâ ajanları"
    }
   },
   "schatz-von-panagjurischte-thrakisches-gold-2026-11-02": {

@@ -83,6 +83,28 @@
     "rv.score": "The Outer Haven 4/5 · TheSixthAxis 7/10 · OpenCritic 73"
    }
   },
+  "apple-qwen-apple-intelligence-china": {
+   "L": {
+    "body": [
+     "Apple lanzará en diciembre en China sus funciones de IA Apple Intelligence. Según The Next Web, la compañía lo confirmó en un comunicado publicado en su sitio de noticias en chino. Los desarrolladores podrán probar las funciones a partir del 4 de noviembre en una versión de prueba de iOS, y para todos los usuarios llegarán con iOS 27.3. Así, Apple Intelligence llega al mercado chino unos dos años después de su lanzamiento en Estados Unidos.",
+     "El lanzamiento incluye, entre otras, traducción en directo, herramientas de escritura, la herramienta fotográfica «Limpiar», Genmoji y resúmenes de notificaciones. Además, el modelo de IA Qwen, del grupo chino Alibaba, está integrado en Siri, las herramientas de escritura y la búsqueda visual: con él, los usuarios pueden, por ejemplo, hacer preguntas sobre fotos o archivos PDF. Las funciones de IA más recientes de Siri no estarán disponibles inicialmente en China.",
+     "Se requiere un iPhone 15 Pro o posterior, configurado en inglés o chino simplificado. Según The Next Web, el regulador de internet de China ya había aprobado en julio la colaboración entre Apple y Alibaba. Según The Apple Post, otras plataformas de Apple seguirán tras obtener nuevas autorizaciones."
+    ],
+    "d": "Apple confirma el lanzamiento de sus funciones de IA en China en diciembre. Para determinadas consultas, Siri recurre al modelo de IA Qwen de Alibaba.",
+    "t": "Apple Intelligence llega a China, con el modelo Qwen de Alibaba en Siri"
+   },
+   "at": "2026-11-02T12:42Z",
+   "h": "95ea65a1658c",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Apple Store West Lake en Hangzhou (2018)",
+    "kl": "Asistente de IA"
+   }
+  },
   "bbl-alba-niederlage-bonn-bamberg-mbc-2026-11-02": {
    "L": {
     "body": [
@@ -2836,6 +2858,28 @@
     "img.alt": "Sam Altman (izquierda) en un acto en Tokio (foto de archivo, 2025)"
    }
   },
+  "openai-api-guthaben-chatgpt-pro-business": {
+   "L": {
+    "body": [
+     "OpenAI incluye desde ahora en sus suscripciones más caras de ChatGPT un crédito para la interfaz de programación (API), con la que los desarrolladores integran los modelos en sus propias aplicaciones. Los clientes Pro reciben 100, 200 o 500 dólares al mes, según el nivel. En las cuentas Business hay 20 dólares por cada puesto estándar de pago y 100 dólares por cada puesto premium, con un máximo total de 500 dólares por espacio de trabajo. La empresa anunció la oferta el 28 de octubre en su foro para desarrolladores y la presenta en un vídeo.",
+     "El crédito debe solicitarse en los ajustes de facturación de ChatGPT y vincularse a una organización API propia. Según la página de ayuda de OpenAI, citada en el foro, el derecho a él existe como pronto siete días después de un cambio de suscripción, y el primer abono se calcula de forma proporcional. Los importes no utilizados caducan al final del periodo de facturación. Quien consuma más paga los precios habituales de la API. Según AlphaSignal, los clientes Plus y Enterprise no están incluidos.",
+     "En el debate del foro, varios usuarios que se suscribieron a través de Google Play Store o App Store de Apple informan de que al principio no se les mostraba la opción. Hasta ahora no ha habido una explicación oficial al respecto en el foro."
+    ],
+    "d": "Quienes pagan ChatGPT Pro o Business reciben ahora un crédito mensual para la interfaz de programación de OpenAI. Un vídeo de la empresa explica la nueva oferta.",
+    "t": "Hasta 500 dólares al mes: OpenAI añade crédito para desarrolladores a ChatGPT"
+   },
+   "at": "2026-11-02T12:42Z",
+   "h": "edbd3ccd473f",
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: edificio de oficinas en 1515 Third Street, San Francisco, sede de OpenAI en el momento de la toma",
+    "kl": "Nueva oferta"
+   }
+  },
   "opetaia-nach-wilder-benavidez-ibf-usyk": {
    "L": {
     "body": [
@@ -2960,6 +3004,31 @@
    ],
    "x": {
     "img.alt": "Foto de archivo: John Romero con un premio en la GDC 2023"
+   }
+  },
+  "sap-teched-berlin-joule-studio-agenten": {
+   "L": {
+    "body": [
+     "SAP presentó el 27 de octubre nuevas herramientas para agentes de IA en su conferencia de desarrolladores TechEd en Berlín. Con el kit Joule Studio, las empresas pueden crear estos agentes sin código o con código propio y elegir entre más de 70 modelos de IA. Según la keynote para desarrolladores, el camino de la idea al agente en funcionamiento dura así unas 2,5 horas en lugar de 13; es un dato de SAP que no ha sido verificado de forma independiente. Clientes seleccionados podrán ejecutar sus propios agentes en la plataforma de SAP de forma gratuita hasta finales de diciembre. Un vídeo del grupo resume la keynote.",
+     "Además, se presentó SAP-RPT-2.0, la próxima versión del modelo de SAP para datos tabulares. Está concebido, entre otras cosas, para detectar valores atípicos y anomalías en las cifras de negocio y, según ERP Today, estará disponible de forma general en el primer trimestre de 2027; una variante para pronósticos, SAP-RPT-TS, ya está disponible. Junto con HPE, SAP planea además emplear un modelo SAP-RPT en un ordenador a bordo de la Estación Espacial Internacional para analizar allí datos de sensores sin enviarlos a la Tierra.",
+     "Muchos clientes no utilizan exclusivamente software de SAP, por lo que la interacción entre agentes es decisiva, dijo Ted Way, director de producto de SAP Business AI, según ERP Today. Por ello, agentes de terceros podrán llamar a agentes de SAP a través de un acceso controlado; según ERP Today, una pasarela más completa para gestionar el tráfico de datos de IA está anunciada para principios de 2027."
+    ],
+    "d": "En su conferencia de desarrolladores TechEd, el grupo de Walldorf presentó nuevas herramientas para agentes de IA y un modelo para datos tabulares. Un vídeo resume la keynote en ocho minutos.",
+    "t": "SAP en Berlín: agentes en 2,5 horas en lugar de 13 y un modelo de IA de SAP para la ISS"
+   },
+   "at": "2026-11-02T12:42Z",
+   "h": "ad97b0bb8e62",
+   "rev": [
+    "Teaser: 'zeigt' (present, announcement of what is shown) rendered as past 'presentó'; harmless but acceptable. Main issue: in the third paragraph, the Spanish 'Muchos clientes no utilizan...' is state"
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: logotipo de SAP en un edificio de oficinas del grupo en Hamburgo",
+    "kl": "Agentes de IA"
    }
   },
   "schatz-von-panagjurischte-thrakisches-gold-2026-11-02": {
