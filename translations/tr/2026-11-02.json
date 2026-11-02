@@ -51,6 +51,34 @@
     "img.alt": "Alice Weidel (Arşiv fotoğrafı, 2025)"
    }
   },
+  "alibaba-cloud-amsterdam-region": {
+   "L": {
+    "body": [
+     "Çinli Alibaba grubunun bulut bölümü Alibaba Cloud, 29 Ekim'de Hollanda'daki ilk bulut bölgesini açtı. Bölge, Amsterdam'daki iki yeni veri merkezinden oluşuyor ve şirketin Frankfurt, Londra ve Paris'ten sonra Avrupa'daki dördüncü bölgesi. Bölge, Amsterdam'da düzenlenen ilk uluslararası Apsara Konferansı'nda tanıtıldı; şirketin yayımladığı bir video lansmanı gösteriyor. Müşterilerin bu sayede verilerini Avrupa'da depolatıp işletebilecekleri ve daha kısa yanıt süreleri elde edecekleri belirtiliyor.",
+     "Alibaba, bölge için işlem gücü, depolama ve veri tabanlarının yanı sıra yapay zekâ ajanlarına yönelik beş hizmet duyurdu; bunların arasında bu tür programlar için yalıtılmış test ortamları ve güvenlik denetimleri de yer alıyor. Şirket, ortaklar arasında diğerlerinin yanı sıra kendi Qwen modellerini programlama asistanı Junie için test eden yazılım üreticisi JetBrains'i ve Hollandalı yapay zekâ platformu orq.ai'yi gösteriyor.",
+     "Bölge, daha önce duyurulan ve yapay zekâ ile bulut altyapısı için öngörülen 53 milyar dolarlık yatırım programının bir parçası. Alibaba Cloud, kendi verilerine göre dünya genelinde 32 bölge işletiyor. Şirket, on iki ay içinde Finlandiya'da ilk bölgesini açmayı ve Almanya ile Fransa'daki veri merkezlerini genişletmeyi planlıyor."
+    ],
+    "d": "Çinli şirket Hollanda'da iki veri merkezi açıyor ve burada yapay zekâ ajanlarına yönelik hizmetler sunuyor. Sıradaki bölgenin Finlandiya'da açılması planlanıyor.",
+    "t": "Çin'in Alibaba'sı Avrupa'da büyüyor: Amsterdam'da yeni bulut bölgesi, YZ modelleri dahil"
+   },
+   "at": "2026-11-02T12:49Z",
+   "h": "1631496e214b",
+   "rev": [
+    "Teaser: 'açıyor ve ... sunuyor' / 'Sırada Finlandiya'nın olması planlanıyor' is clumsy and changes the meaning; the German says Finland is to follow next",
+    "Headline: 'Çin'in Alibaba'sı' is unnatural; 'YZ modelleri dahil' is acceptable",
+    "Body 1: 'Çinli Alibaba şirketler grubunun' is unnatural, and the German 'Konzern' here means a single group",
+    "Body 1: 'Gründerzentrum' is rendered as 'girişim merkezi' in img.alt; 'kuruluş merkezi' (founding centre) is closer, but this is ambiguous so left unchanged"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Alibaba Cloud'un Çin'deki girişim merkezinde yazı",
+    "kl": "Veri merkezleri"
+   }
+  },
   "anomalith-test": {
    "L": {
     "body": [
@@ -111,6 +139,33 @@
    "x": {
     "img.alt": "Arşiv fotoğrafı: Hangzhou'daki Apple Store West Lake (2018)",
     "kl": "Yapay zekâ asistanı"
+   }
+  },
+  "athletic-real-sociedad-derbi-2-1-2026-11-02": {
+   "L": {
+    "body": [
+     "Athletic Bilbao, San Mamés'teki Bask derbisinde Real Sociedad'ı 2-1 yendi. Iñaki Williams, kardeşi Nico'nun asistiyle 14. dakikada ev sahibi takımı öne geçirdi, Luka Sučić 30. dakikada uzaktan şutla eşitliği sağladı.",
+     "İlk yarının uzatma dakikalarında Jon Aramburu'nun Nico Williams'ı düşürmesinin ardından Alex Berenguer penaltıyı gole çevirdi. Real Sociedad itiraz etti, karar yapılan incelemenin ardından değişmedi. Kaleci Álex Remiro topa neredeyse dokunuyordu.",
+     "Böylece Real Sociedad'ın 6 maçlık yenilmezlik serisi sona erdi; takım 19 puanla beşinci sırada kaldı. Athletic'in 15 puanı var. Aynı gün Valencia, Elche deplasmanında Umar Sadiq'in golüyle 1-0 kazanarak teknik direktör Javier Aguirre yönetiminde ilk galibiyetini aldı, Getafe ise Sevilla'yı 3-1 yendi."
+    ],
+    "d": "Athletic Bilbao, Bask derbisinde Real Sociedad'ı 2-1 yendi. Devre arasından hemen önce verilen tartışmalı penaltı belirleyici oldu; Real Sociedad'ın 6 maçlık yenilgisiz serisi sona erdi.",
+    "t": "Bask derbisinde Athletic kazandı: Uzatmalardaki penaltı Real Sociedad'ı yıktı"
+   },
+   "at": "2026-11-02T12:49Z",
+   "h": "eeb1efd46b4c",
+   "rev": [
+    "Headline: 'Bask derbisi Athletic'in' is awkward and the result is not clear; 'Real Sociedad aleyhine sonuçlandı' is vague",
+    "Teaser: 'umstritten' (controversial) kept, but 'Strafstoß' 'kurz vor der Pause' correct; fine",
+    "'Torwart Álex Remiro war beinahe noch am Ball' means he almost got a touch; draft acceptable",
+    "Berenguer: 'Foulelfmeter' ok"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Bilbao'daki San Mamés Stadyumu (arşiv)"
    }
   },
   "bbl-alba-niederlage-bonn-bamberg-mbc-2026-11-02": {
@@ -749,6 +804,32 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Cenevre'deki Hotel des Bergues"
+   }
+  },
+  "como-venezia-frosinone-torino-2026-11-02": {
+   "L": {
+    "body": [
+     "Como, Serie A'da Venezia'yı 1-0 yenerek üst üste dördüncü galibiyetini aldı. Lucas Da Cunha, Juan Jesus'un Christos Douvikas'a faul yapmasının ardından devre arasına kısa süre kala penaltıyı gole çevirdi. Daha önce hakem Maria Sole Ferrieri Caputi, 28. dakikada Venezia lehine elle oynama nedeniyle penaltı vermiş, ancak video görüntülerini inceledikten sonra kararını geri almıştı.",
+     "Teknik direktör Cesc Fàbregas'ın takımı 23 puanla dördüncü sırada; AS Roma'nın bir, bir sonraki rakibi Inter'in ise iki puan gerisinde. 28 puanla Lazio lider. Venezia üç puanla son sırada kalmaya devam ediyor.",
+     "Frosinone, Torino'yu Ghedjemis'in (48.) ve uzatma dakikalarında Calò'nun golleriyle 2-0 yendi. Teknik direktör Massimiliano Alvini'nin takımı için bu, sahasındaki beşinci galibiyet oldu; 20 puanla tek başına altıncı sırada yer alıyor."
+    ],
+    "d": "Como yükselişini sürdürdü: Da Cunha'nın penaltısı son sıradaki Venezia karşısında 1-0'lık galibiyeti ve dördüncülüğü getirdi. Frosinone, Torino'yu 2-0 yenerek tek başına altıncı sırada.",
+    "t": "Serie A: Fàbregas'ın Como'su üst üste dördüncü kez kazandı, Frosinone tek başına altıncı"
+   },
+   "at": "2026-11-02T12:49Z",
+   "h": "9ad49dd6dd45",
+   "rev": [
+    "Penalty timing: 'kısa süre önce' is ungrammatical/unclear; should be 'devre arasından hemen önce'",
+    "Handball penalty: Venezia was awarded the penalty then it was withdrawn; the wording 'eldeki top' is unnatural, should be 'elle oynama'",
+    "Juan Jesus/Douvikas sentence order makes the foul sound unclear; fixed to a clear causal order"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Como'daki Stadio Giuseppe Sinigaglia (arşiv)"
    }
   },
   "davison-verraeter-fury-augenzwinkern": {
@@ -2741,6 +2822,34 @@
     "img.alt": "Sembolik fotoğraf: Bir fincan siyah çay"
    }
   },
+  "ligue1-paris-fc-lyon-om-verfolger-2026-11-02": {
+   "L": {
+    "body": [
+     "Paris FC pazar günü AS Monaco'yu 3-1 yendi. Lassine Sinayoko devre arasından kısa süre önce iki gol attı; Folarin Balogun'un (65.) Monaco'nun farkı azaltan golünün ardından Pagis'in (74.) attığı 3-1'lik golün de pasını verdi. Başkan Pierre Ferracci için bu, görevindeki son maç oldu. Sinayoko daha sonra uyluk sorunları nedeniyle oyundan çıktı.",
+     "Olympique Lyon, Angers'yi Ernest Nuamah (38.) ve Corentin Tolisso'nun (86.) golleriyle 2-0 yendi. Lyon ve Paris FC'nin şimdi ikişer takım olarak da 17 puanı var; Monaco 15 puanda kaldı. Olympique Marseille, Toulouse'u 2-0 yendi: Amine Harit daha maçın başında gol attı, Amine Gouiri 25. dakikada farkı artırdı.",
+     "Harit, üst üste dördüncü lig galibiyetinin ardından Ligue 1+ kanalına şöyle konuştu: “Bu Ligue 1'de üst üste dört galibiyet – bu gösterilmeye değer bir başarı.” Haftanın programı pazartesi akşamı oynanacak Lorient-Brest maçıyla tamamlanacak."
+    ],
+    "d": "Takipçiler için kusursuz pazar: Paris FC, Monaco'yu 3-1 yendi, Lyon Angers'yi 2-0 geçti, Olympique Marseille Toulouse karşısında üst üste dördüncü lig galibiyetini aldı.",
+    "t": "Ligue 1: Paris FC ve Lyon PSG'ye yaklaştı, Marseille üst üste dördüncü kez kazandı"
+   },
+   "at": "2026-11-02T12:49Z",
+   "h": "1089d46ebd36",
+   "rev": [
+    "Weekday \"pazar\" in the teaser should be capitalised in this context? No: TDK lowercases weekdays, so it stays; the teaser wording \"Takipçiler için kusursuz pazar\" is acceptable.",
+    "Body 2: garbled phrase \"şimdi ikişer takımın da 17 puanı var\" (duplicated/broken syntax)",
+    "Body 1: \"Pagis'in (74.) attığı 3-1'lik golün de pasını verdi\" is OK; \"devre arasından kısa süre önce\" is acceptable",
+    "Body 3: stiff quote rendering of \"das kann sich sehen lassen\" and the quote is a dash-based fragment; improved naturalness",
+    "Angers'yi should be Angers'ye/Angers'i: the name Angers is pronounced /anje/, so the accusative is Angers'yi (acceptable)"
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Paris FC'nin iç saha stadı olan Paris'teki Stade Jean-Bouin'de tribün (arşiv)"
+   }
+  },
   "ls-gnabry-diagnose-lehrgang-2026-11-02": {
    "L": {
     "body": [
@@ -3281,6 +3390,32 @@
    "x": {
     "img.alt": "Arşiv fotoğrafı: Şirketin Hamburg'daki bir ofis binasında SAP logosu",
     "kl": "Yapay zekâ ajanları"
+   }
+  },
+  "schalke-baumann-muslic-rueckendeckung-2026-11-02": {
+   "L": {
+    "body": [
+     "Schalke'nin spor direktörü Frank Baumann, altı resmi maçtır galibiyet alamayan takımın teknik direktörü Miron Muslić'e destek verdi. Baumann, Funke Grubu gazetelerine verdiği röportajda “Onun çalışmasından ve izlediğimiz yoldan kesinlikle ikna olduk” dedi. Baumann, “Ancak sezonun çeyreğinin ardından paniğe de kapılmıyoruz” diye ekledi.",
+     "Bundesliga'ya yeni yükselen takım, sekiz haftanın ardından 17. sırada yer alıyor ve dört golle ligin en zayıf hücum hattına sahip. Son olarak Köln ile 0-0 berabere kalındı, Dresden'de 0-2'lik yenilgiyle Kupa'ya veda edildi ve RB Leipzig'e 0-2 yenildi. Baumann şunu kabul etti: “Özellikle hücumda şimdiye kadar yeterince çözüm bulamadık.” Muslić'in beşli savunmadan dörtlü savunmaya geçişinin de yardımcı olması bekleniyor.",
+     "Baumann beklentileri belirgin biçimde düşürdü: “Bana göre ligde kalmak, yükselmekten daha büyük bir başarı olur.” Schalke'nin bir sonraki maçı 8 Kasım Pazar günü TSG Hoffenheim deplasmanında."
+    ],
+    "d": "Schalke 04, sportif krize rağmen teknik direktör Miron Muslić ile devam ediyor. Spor direktörü Frank Baumann, kulübün Muslić'in çalışmalarından “kesinlikle ikna olduğunu” söyledi ve hedefi ligde kalmak olarak açıkladı.",
+    "t": "Altı maçtır galibiyet yok: Schalke spor direktörü Baumann, Muslić'in arkasında"
+   },
+   "at": "2026-11-02T12:49Z",
+   "h": "ce945db8e44f",
+   "rev": [
+    "Teaser: Baumann'ın sözü \"kulübün çalışmalarından\" diye çevrilmiş; Almanca'da \"dessen Arbeit\" yani Muslić'in çalışması kastediliyor, anlam hatası",
+    "Teaser'da dolaylı anlatım \"ikna olduğunu söyledi\" doğru, ancak \"kulüp\" öznesi ve Muslić'in çalışması netleştirilmeli",
+    "Teaser'da tırnak işareti Türkçe kullanıma uygun değil (“…” yerine tutarlı kullanım), küçük düzeltme gerekmedi"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Gelsenkirchen'deki Veltins-Arena (arşiv)"
    }
   },
   "schatz-von-panagjurischte-thrakisches-gold-2026-11-02": {
