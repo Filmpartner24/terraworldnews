@@ -1,22 +1,22 @@
 {
  "season": "2026",
- "round": 18,
- "updated": "2026-11-01",
+ "round": 19,
+ "updated": "2026-11-02",
  "drivers": [
   {
    "pos": 1,
    "name": "Andrea Kimi Antonelli",
    "nat": "Italian",
    "team": "Mercedes",
-   "pts": 365.0,
+   "pts": 380.0,
    "wins": 9
   },
   {
    "pos": 2,
-   "name": "George Russell",
-   "nat": "British",
-   "team": "Mercedes",
-   "pts": 242.0,
+   "name": "Max Verstappen",
+   "nat": "Dutch",
+   "team": "Red Bull",
+   "pts": 261.0,
    "wins": 3
   },
   {
@@ -24,23 +24,23 @@
    "name": "Lewis Hamilton",
    "nat": "British",
    "team": "Ferrari",
-   "pts": 241.0,
+   "pts": 259.0,
    "wins": 1
   },
   {
    "pos": 4,
-   "name": "Max Verstappen",
-   "nat": "Dutch",
-   "team": "Red Bull",
-   "pts": 236.0,
-   "wins": 2
+   "name": "George Russell",
+   "nat": "British",
+   "team": "Mercedes",
+   "pts": 250.0,
+   "wins": 3
   },
   {
    "pos": 5,
    "name": "Charles Leclerc",
    "nat": "Monegasque",
    "team": "Ferrari",
-   "pts": 233.0,
+   "pts": 245.0,
    "wins": 1
   },
   {
@@ -48,7 +48,7 @@
    "name": "Lando Norris",
    "nat": "British",
    "team": "McLaren",
-   "pts": 211.0,
+   "pts": 221.0,
    "wins": 2
   },
   {
@@ -56,7 +56,7 @@
    "name": "Oscar Piastri",
    "nat": "Australian",
    "team": "McLaren",
-   "pts": 144.0,
+   "pts": 150.0,
    "wins": 0
   },
   {
@@ -72,7 +72,7 @@
    "name": "Liam Lawson",
    "nat": "New Zealander",
    "team": "RB F1 Team",
-   "pts": 77.0,
+   "pts": 79.0,
    "wins": 0
   },
   {
@@ -80,7 +80,7 @@
    "name": "Pierre Gasly",
    "nat": "French",
    "team": "Alpine F1 Team",
-   "pts": 42.0,
+   "pts": 43.0,
    "wins": 0
   },
   {
@@ -96,7 +96,7 @@
    "name": "Franco Colapinto",
    "nat": "Argentine",
    "team": "Alpine F1 Team",
-   "pts": 27.0,
+   "pts": 31.0,
    "wins": 0
   },
   {
@@ -181,6 +181,14 @@
   },
   {
    "pos": 23,
+   "name": "Ryo Hirakawa",
+   "nat": "Japanese",
+   "team": "Haas F1 Team",
+   "pts": 0.0,
+   "wins": 0
+  },
+  {
+   "pos": 24,
    "name": "Sergio Pérez",
    "nat": "Mexican",
    "team": "Cadillac F1 Team",
@@ -192,37 +200,37 @@
   {
    "pos": 1,
    "name": "Mercedes",
-   "pts": 607.0,
+   "pts": 630.0,
    "wins": 12
   },
   {
    "pos": 2,
    "name": "Ferrari",
-   "pts": 474.0,
+   "pts": 504.0,
    "wins": 2
   },
   {
    "pos": 3,
    "name": "Red Bull",
-   "pts": 355.0,
-   "wins": 2
+   "pts": 380.0,
+   "wins": 3
   },
   {
    "pos": 4,
    "name": "McLaren",
-   "pts": 355.0,
+   "pts": 371.0,
    "wins": 2
   },
   {
    "pos": 5,
    "name": "RB F1 Team",
-   "pts": 102.0,
+   "pts": 104.0,
    "wins": 0
   },
   {
    "pos": 6,
    "name": "Alpine F1 Team",
-   "pts": 69.0,
+   "pts": 74.0,
    "wins": 0
   },
   {
@@ -462,7 +470,9 @@
    "locality": "Mexico City",
    "country": "Mexico",
    "date": "2026-11-01",
-   "time": "20:00"
+   "time": "20:00",
+   "winner": "Max Verstappen",
+   "winner_team": "Red Bull"
   },
   {
    "round": 20,
