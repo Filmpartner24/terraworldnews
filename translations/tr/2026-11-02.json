@@ -1,6 +1,61 @@
 {
  "date": "2026-11-02",
  "items": {
+  "berlin-koalitionsverhandlungen-start-2026-11-02-b08": {
+   "L": {
+    "body": [
+     "Berlin'de Sol Parti, Yeşiller ve SPD arasındaki koalisyon müzakereleri pazartesi günü saat 10:00'da başlıyor. Nihai kararları üç partinin üst düzey siyasetçilerinden oluşan bir çatı çalışma grubu verecek; gruba yaklaşık bir düzine uzman çalışma grubu destek sağlayacak. dpa'nın aktardığına göre görüşmelerin birkaç hafta sürmesi bekleniyor; koalisyon sözleşmesi Aralık'a kadar tamamlanabilir, kesin bir takvim ise yok.",
+     "Sol Parti, 20 Eylül'deki Berlin Eyalet Meclisi seçiminde yüzde 25,7 ile birinci parti olmuştu; onu CDU (18,8), AfD (16,3), Yeşiller (14,3) ve SPD (12,1) izledi. Sol Parti kongresi cumartesi günü müzakerelere onay verdi, Yeşiller ve SPD ise 19 Ekim'de onay vermişti. Sonunda Sol Parti ve SPD'de üyeler oy kullanacak; Yeşiller'de ise dijital bir anketin ardından parti kongresi karar verecek.",
+     "Federal SPD'den muhalefet geliyor: Savunma Bakanı Boris Pistorius, kendi ifadesine göre, 700'den fazla SPD'li siyasetçinin Kırmızı-Yeşil-Kırmızı'ya karşı çıktığı “Her ne pahasına olursa olsun değil” başlıklı mektubu imzaladı. Pistorius, ZDFheute'ye göre “Berlin'de Sol Parti ile bir koalisyon, SPD'nin desteklemesi gereken bir şey değil” dedi. ZDF'nin “Berlin direkt” programında pazar günü ise “her düzeyde, ama kameraların önünde değil, herkesle konuşulacağını” söyledi."
+    ],
+    "d": "Sol Parti, Yeşiller ve SPD saat 10:00'dan itibaren Berlin hükümeti için müzakere ediyor; sözleşme Aralık'a kadar hazır olabilir. Bakan Pistorius, SPD'nin ittifaka destek vermemesi gerektiğini söyledi.",
+    "t": "Kırmızı-Yeşil-Kırmızı koalisyon müzakereleri başlıyor – Pistorius karşı çıkıyor"
+   },
+   "at": "2026-11-02T06:14Z",
+   "h": "32bdb8aa3dc4",
+   "rev": [
+    "Weekdays 'Pazartesi' and 'Pazar' (and 'Cumartesi') are capitalised mid-sentence; TDK requires lowercase.",
+    "'dijital bir danışma' was misspelled as 'danışmanın' (a consultant instead of a consultation/survey).",
+    "'Koalisyon protokolü' is a wrong term for Koalitionsvertrag; it should be 'koalisyon sözleşmesi/anlaşması'.",
+    "In the teaser 'Vertrag' became 'protokol'.",
+    "Teaser: 'Pistorius sagt, ... solle' rendered as a plain statement; reporting marker 'dedi' is present, but 'söyledi' is acceptable. No change needed.",
+    "Missing 'Abgeordnetenhauswahl' nuance is fine; 'Rotes Rathaus' alt text fine."
+   ],
+   "rev_dbg": [
+    6,
+    6,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Berlin'deki Kızıl Belediye Sarayı (Rotes Rathaus)",
+    "kl": "Berlin"
+   }
+  },
+  "btcpay-hot-wallets-2026-11-02-b08": {
+   "L": {
+    "body": [
+     "Açık kaynaklı Bitcoin ödeme yazılımı BTCPay Server, işletmecileri, kurulumlarını şimdilik ağdan çıkarmaya çağırdı. Proje pazar günü yaptığı açıklamada “BTCPay sunucularındaki sıcak cüzdanların yetkisiz saldırganlar tarafından boşaltıldığına dair raporlar alıyoruz” dedi. Sunucuların, soruşturma tamamlanana kadar kapalı kalması gerektiği belirtildi.",
+     "Yaklaşık iki saat sonra kurucu Nicolas Dorier, CoinDesk'e göre vakaların görünüşe göre 2.4.2'den eski sürümleri kapsadığını söyledi. Dorier'e göre saldırganlar yönetici olarak oturum açtı; erişimi nasıl elde ettikleri henüz bilinmiyor. Dorier, kendi 2.4.7 sürümlü herkese açık sunucularına saldırı yapılmadığını ifade etti.",
+     "Etkilenen tüccar sayısı ve zararın boyutu hakkında şimdiye kadar bir bilgi verilmedi; bir yama konusunda da açıklama yok. Sıcak cüzdanlarda anahtar, internete bağlı sunucuda bulunuyor. Olay, kripto borsası Binance'taki rekor hırsızlığın birkaç gün ardından geldi."
+    ],
+    "d": "Saldırganlar, açık kaynaklı ödeme yazılımını çalıştıran sunuculardaki sıcak cüzdanları boşaltmış olabilir. Kurucu Dorier'e göre 2.4.2 öncesi sürümler etkilenmiş görünüyor; nasıl olduğu belirsiz.",
+    "t": "Bitcoin cüzdanları boşaltıldı: BTCPay, tüccarları sunucularını kapatmaya çağırdı"
+   },
+   "at": "2026-11-02T06:14Z",
+   "h": "a74cba29de54",
+   "rev": [
+    "Teaser: 'Open-Source-Bezahlsoftware' – draft says the servers 'run' the software, which is acceptable; 'wie, ist noch unklar' is rendered adequately. No change needed.",
+    "Awkward phrasing 'işletmecilere örneklerini şimdilik ağdan çıkarmaları çağrısında bulundu' – 'Instanzen' and the call wording are unnatural."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Dizüstü bilgisayar klavyesinde Bitcoin madeni parası"
+   }
+  },
   "bulgarien-gyurov-priznava-zagubata-radev-yotova-2026-11-02": {
    "L": {
     "body": [
@@ -81,6 +136,37 @@
    ],
    "x": {
     "img.alt": "Asen Vasilev, 2026 portresi"
+   }
+  },
+  "cdu-kreisvorsitzende-merz-2026-11-02-b08": {
+   "L": {
+    "body": [
+     "Federal Şansölye Friedrich Merz, pazartesi günü Berlin'de partisinin ilçe başkanlarıyla karşılaşıyor. CDU genel merkezindeki basına kapalı toplantı için dpa'nın verdiği bilgiye göre 330'a yakın ilçe başkanından 164'ü kayıt yaptırdı. Saat 14:00'te Genel Sekreter Franziska Hoppermann ile, 17:30'da ise Merz ile görüşme planlanıyor. Konferans iki gün sürecek.",
+     "Tabandaki ruh hali kötü: CDU, eylül ayında Mecklenburg-Vorpommern'de ilk kez bir eyalet meclisinin dışında kaldı ve dpa'ya göre ülke genelindeki anketlerde AfD'nin gerisinde yer alıyor. Frankfurt (Oder) ilçe başkanı Désirée Schrade, alarm lambasının “koyu kırmızı” yandığını, “hissedilir” boyutta partiden istifalar olduğunu söyledi. Weimarer Land ilçe örgütünden Hannes Raebel ise şöyle dedi: “Artık Berlin'deki yönetim kadrosuna çok az güveniyorum.”",
+     "Eleştiriler özellikle liderlik gücünün ve iletişimin eksikliği üzerinde yoğunlaşıyor; bazı ilçe başkanları Merz'e parti genel başkanlığını bırakmasını öneriyor. Merkezi konulardan biri, CDU yönetiminin koalisyonda şimdiye kadar kabul ettiremediği elektrik fiyatlarında yük hafifletme talebi. CDU üst kurulları, Federal Cumhurbaşkanı adaylığı konusunda 9 Kasım'da karar vermek istiyor."
+    ],
+    "d": "CDU ilçe başkanlarının yaklaşık yarısı Konrad-Adenauer-Haus'a geliyor. Daha güçlü liderlik ve somut kararlar istiyorlar; bazıları Merz'e parti genel başkanlığını bırakmasını öneriyor.",
+    "t": "“Koyu kırmızı” alarm: Merz bugün öfkeli CDU tabanıyla buluşuyor"
+   },
+   "at": "2026-11-02T06:14Z",
+   "h": "b5e3172a6a58",
+   "rev": [
+    "\"Bundeskanzler\" rendered as \"Federal Başbakan\"; the correct Turkish title is \"Federal Şansölye\"",
+    "Weekday \"Pazartesi\" capitalised mid-sentence; TDK rule is lowercase \"pazartesi\"",
+    "Month \"Eylül ayında\" capitalised; should be lowercase \"eylül\"",
+    "\"Federal Cumhurbaşkanlığı\" is imprecise for Bundespräsident; \"Federal Cumhurbaşkanı adaylığı\" is more accurate",
+    "Raebel quote: \"inzwischen\" (by now) rendered as \"Artık ... kalıyor\", which is awkward; tense and meaning corrected",
+    "Schrade: the clause on resignations is reported speech, so the attribution should be kept; it is retained, but the wording \"partiden istifalar\" is adjusted to match \"Austritte\" (party departures)",
+    "Lost nuance: \"Die Kreisvorsitzende von Frankfurt (Oder)\" – fine",
+    "The sentence on the electricity price relief is a bit unnatural, so it was smoothed"
+   ],
+   "rev_dbg": [
+    8,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Konrad-Adenauer-Haus, CDU'nun Berlin'deki genel merkezi (Arşiv fotoğrafı)"
    }
   },
   "deutschland-berlin-maerkisches-viertel-molotow-2026-11-02": {
@@ -670,6 +756,27 @@
     "img.alt": "Sembolik fotoğraf: TSMC'nin Tayvan'daki Fab 18 tesisi"
    }
   },
+  "kinderarzt-prozess-potsdam-2026-11-02-b08": {
+   "L": {
+    "body": [
+     "Potsdam Eyalet Mahkemesi'nde Pazartesi günü saat 9.30'da Havelland'lı bir çocuk doktoruna yönelik dava başlıyor. İddianame, 45 yaşındaki sanığı korumasına emanet edilen kişilere karşı 130 cinsel suç işlemekle suçluyor. İddianameye göre 70'ten fazla iddia edilen mağdur iki ile 20 yaş arasındaydı.",
+     "Eylemlerin Aralık 2013'ten Kasım 2025'e kadar sürdüğü, çoğunlukla doktorun hastanedeki çalışması sırasında gerçekleştiği iddia ediliyor. Dosya, bir annenin Kasım 2025'te yaptığı suç duyurusuyla ortaya çıktı. Sanık, tekrar suç işleme riski nedeniyle tutuklu bulunuyor; avukatı duruşmanın açılışında bir açıklama yapacağını duyurdu. Masumiyet karinesi geçerlidir.",
+     "Mahkeme 18 duruşma günü belirledi; davanın Aralık ortasına kadar sürmesi bekleniyor. Reşit olmayan mağdurları korumak için kamuoyunun en azından zaman zaman duruşmadan çıkarılması muhtemel. Cinsel Çocuk İstismarının Ele Alınması Bağımsız Komisyonu'ndan Ulrike Hoffmann, “Mağdur sayısının yüksekliği, bunun görünüşe göre çok uzun süre devam ettiğini gösteriyor” dedi."
+    ],
+    "d": "Havelland'lı bir çocuk doktorunun on yıldan uzun süre, çoğunlukla hastanedeki görevi sırasında hastaları istismar ettiği iddia ediliyor. Mahkeme 18 duruşma günü belirledi; dava Aralık ortasına kadar sürecek.",
+    "t": "130 suç, 70'ten fazla iddia edilen mağdur: Çocuk doktoruna Potsdam'da dava başlıyor"
+   },
+   "at": "2026-11-02T06:14Z",
+   "h": "509706edec9b",
+   "rev_dbg": [
+    7,
+    6,
+    1
+   ],
+   "x": {
+    "img.alt": "Potsdam Adalet Merkezi, Jägerallee'de, Eyalet Mahkemesi'nin binası (Sembolik fotoğraf)"
+   }
+  },
   "klima-muschelschalen-ozeanversauerung-2026-11-02": {
    "L": {
     "body": [
@@ -941,6 +1048,120 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Bir fincan siyah çay"
+   }
+  },
+  "nuernberg-st-pauli-joker-2026-11-02-b08": {
+   "L": {
+    "body": [
+     "1. FC Nürnberg, 2. Bundesliga'nın 10. haftasında FC St. Pauli deplasmanında 3-1 (1-0) kazandı. Millerntor'da 29.546 seyircinin önünde Eric Smith'in kendi kalesine attığı gol ilk yarının erken dakikalarında konuk takımı öne geçirdi, Abdoulie Ceesay 58. dakikada St. Pauli adına eşitliği sağladı.",
+     "Maçın sonucunu teknik direktör Miroslav Klose'nin oyuna sonradan sürdüğü iki oyuncu belirledi: Sigurd Haugen oyuna girmesinin hemen ardından 2-1'i attı, Marc Kornwachs Barjuan ise 90. dakikada skoru belirledi. Klose için bu, St. Pauli ile baş antrenör olarak ilk karşılaşmasıydı.",
+     "Nürnberg 21 puanla ikinci sırayı Wolfsburg'dan (19) geri aldı, lider Hertha BSC 28 puanla açık farkla önde kalmaya devam ediyor. St. Pauli, t-online'a göre sekizinci sıraya geriledi."
+    ],
+    "d": "Oyuna sonradan giren Haugen ve Kornwachs Barjuan Millerntor'da maçı çevirdi. Nürnberg ikinciliği Wolfsburg'dan geri aldı; Hertha yedi puan farkla önde.",
+    "t": "İki yedek oyuncu damga vurdu: Klose'nin Nürnberg'i St. Pauli'yi 3-1 yendi, yeniden ikinci"
+   },
+   "at": "2026-11-02T06:14Z",
+   "h": "7fbe609b1fb1",
+   "rev": [
+    "Typo: 'ikincilği' should be 'ikinciliği'",
+    "Headline: 'Nürnberg' left untranslated – it should be 'Nürnberg' as a city/club name; it is a proper name, so it stays, but the 'Zwei Joker' element was omitted from the headline and is restored",
+    "Teaser: 'Oyuna sonradan giren' fine; 'Der Club' rendered as 'Nürnberg', acceptable",
+    "Body 2: 'sürdüğü' is the correct verb for 'einwechseln' and is kept; 'Marc Kornwachs Barjuan ise ... skoru belirledi' is fine",
+    "Body 1: 'Eigentor ... früh in der ersten Halbzeit' is correct; the comma-spliced sentence is acceptable but made smoother"
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Şu anda 1. FC Nürnberg'in teknik direktörü olan Miroslav Klose milli oyuncu olarak (Arşiv fotoğrafı, 2012)"
+   }
+  },
+  "real-madrid-racing-mbappe-2026-11-02-b08": {
+   "L": {
+    "body": [
+     "Real Madrid, Barcelona'daki Clásico'da aldığı 2-1'lik galibiyetin ardından çıkışını sürdürdü: José Mourinho'nun takımı pazar günü La Liga'da Racing Santander deplasmanında 3-0 kazandı. Üç gol da 36. dakikaya kadar geldi; kulübün açıklamasına göre bu, tüm turnuvalarda üst üste altıncı galibiyet.",
+     "Kylian Mbappé 11. dakikada bir faul penaltısını gole çevirdi; beIN Sports'un aktardığına göre bu penaltı sonrasında tartışıldı. Arda Güler'in pasıyla Jude Bellingham (21.) ve vole vuruşla Yan Diomande (36.) farkı artırdı. Güler ve Mbappé ayrıca birer kez direğe vurdu.",
+     "Hakem Munuera Montero, 71. dakikada Aurélien Tchouaméni'nin elle oynaması nedeniyle önce Racing lehine penaltı noktasını gösterdi, ancak video hakem incelemesinin ardından kararından döndü. Bellingham'ın uzatma dakikalarında attığı bir gol daha ofsayt nedeniyle sayılmadı. Real, on maçta 24 puana ulaştı."
+    ],
+    "d": "Mbappé penaltıdan, Bellingham ve Diomande de ilk yarı bitmeden gol attı. Real Madrid üst üste altıncı resmi maçını kazandı; VAR, Racing'in penaltısını iptal etti.",
+    "t": "Clásico sonrası Mourinho'nun Real'i Santander'de 3-0 kazandı, penaltı tartışıldı"
+   },
+   "at": "2026-11-02T06:14Z",
+   "h": "464a1bc1d690",
+   "rev": [
+    "Teaser: 'Real Madrid'in üst üste altıncı resmi maç galibiyeti' is a fragment, and the club-attribution is missing; the German says 'Pflichtspielsieg' in the teaser, but the body attributes the claim t",
+    "'füze gibi bir vole vuruşla' is an addition (German only says 'per Volleyschuss')",
+    "'Real, on maçta 24 puana ulaştı' is fine",
+    "Teaser: 'ilk yarı bitmeden gol attı' fine; 'penaltıdan' ok"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Kylian Mbappé Real Madrid formasıyla (Arşiv fotoğrafı)"
+   }
+  },
+  "trump-iowa-kansas-rallies-2026-11-02-b08": {
+   "L": {
+    "body": [
+     "Başlangıçta iptal edilen bir seyahatin ardından ABD Başkanı Donald Trump pazar günü yine de Iowa ve Kansas'ta boy gösterdi. Dubuque'ta Associated Press (AP) haber ajansının bildirdiğine göre yaklaşık iki saat konuştu. Trump, “Her düzeyde Amerika'yı ilk sıraya koyan Cumhuriyetçilere oy vereceğiz” dedi. Kansas'ın Salina kentinde Air Force One ile bölgesel havalimanına indi. Gecikmeyle geldi, neredeyse 90 dakika konuştu ve konuşmasını ancak saat 22.00 civarında bitirdi. AP'ye göre yüzlerce dinleyici bundan önce salondan ayrıldı.",
+     "Trump'ın seçimden iki gün önce bu iki eyalete gitmesi, Cumhuriyetçilerin ne kadar savunma durumunda olduğunu gösteriyor. Trump, Iowa'yı 2024'te çift haneli farkla kazanmıştı. Orada bir Senato koltuğu ve valilik söz konusu. Kansas'ta Salina'daki mitingde konuşan Senatör Roger Marshall, Papaz Adam Hamilton'a karşı yarışmak zorunda. AP'ye göre Cumhuriyetçiler her iki eyalette de Demokratların güçlü meydan okumalarını savuşturmak zorunda. Kansas, Senato'ya en son 1932'de bir Demokrat seçti. AP, birçok seçmenin hoşnutsuzluğunun nedenleri olarak gümrük vergilerini ve İran'la savaşı gösteriyor.",
+     "AP'ye göre 54 milyondan fazla Amerikalı şimdiden oyunu kullandı. Trump, kapanış olarak pazartesi günü Washington'da Lincoln Anıtı'nın Reflecting Pool havuzu önünde konuşmayı planlıyor. Salı günü Temsilciler Meclisi'ndeki 435 sandalyenin tamamı ve 35 Senato koltuğu yeniden dağıtılacak. Senatoda Cumhuriyetçilerin şu anda 53'e 47 sandalyelik bir çoğunluğu var."
+    ],
+    "d": "Trump pazar günü Dubuque ve Salina'da Cumhuriyetçiler için miting yaptı. Iowa ve Kansas kararsız eyaletler olarak görülüyor. Ara seçimler öncesinde 54 milyondan fazla Amerikalı oy kullandı.",
+    "t": "Trump Iowa ve Kansas'ta: İki saatlik konuşma, Salina'da yüzlerce kişi erken ayrıldı"
+   },
+   "at": "2026-11-02T06:14Z",
+   "h": "f563b3a6383c",
+   "rev": [
+    "Quote: \"Amerika'yı ilk sıraya koyan\" is fine, but \"Amerika\" is flagged; Turkish form is ok as a country name. \"Demokratların/Demokrat\" are translated.",
+    "\"Dubuque'te\" wrong suffix; should be \"Dubuque'da\"",
+    "\"Papaz\" for Pastor: better \"Rahip\"; keep Protestant pastor as \"papaz\" is acceptable, no change",
+    "\"Kansas'ta Salina'da konuşan\" awkward; clarified",
+    "\"Kansas, Senato'ya en son 1932'de bir Demokrat seçti\" fine",
+    "Kansas/Iowa 'wackelig' rendered as 'kararsız' OK",
+    "\"pazar günü\" fine"
+   ],
+   "rev_dbg": [
+    7,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Donald Trump bir mitingde konuşma kürsüsünde",
+    "kl": "ABD"
+   }
+  },
+  "vss-anhoerungen-parlament-2026-11-02-b08": {
+   "L": {
+    "body": [
+     "Bulgaristan Meclisi'nde pazartesi günü yeni Yüksek Yargı Konseyi (VSS) için adayların dinlenmesi başlıyor. Adaylar, Meclis'in kendisinin doldurduğu kontenjanlar için seçime giriyor. BTA haber ajansına göre Hukuk Komisyonu, cuma gününe, yani 6 Kasım'a kadar toplam 20 adayı dinleyecek. Hâkimler koleji için 13, savcılar koleji için sekiz başvuru var. Bir aday her ikisine de başvurdu.",
+     "Komisyonun programına göre her adaya yaklaşık iki saat ayrılıyor. Bunun 30 dakikaya kadarı adayın kendi konseptini sunmasına ayrılmış durumda. Pazartesi saat 14.30'da başlanacak, oturum yapılmayan salı günü ise saat 9'da. Bunu komisyon başkanı, “Progresif Bulgaristan”dan Yanka Tyankova önermişti. Tyankova'nın hesabına göre komisyon günde en fazla üç ya da dört dinleme yapabiliyor.",
+     "Yargı Konseyi, Ekim ayında komisyona, adaylar arasındaki hâkimler hakkında “Noter”, “Sekiz Cüce” ve “Siyah Krasyo” davalarıyla ilgili yürütülen herhangi bir disiplin soruşturması bulunmadığını bildirdi. Savcılar konseydeki dört temsilcisini şimdiden seçti. Hâkimler adaylarını Ekim ayı sonunda dinledi. Soruşturmacıların dinlemesi ise henüz yapılmadı."
+    ],
+    "d": "Sofya'daki Hukuk Komisyonu, Yüksek Yargı Konseyi'ndeki meclis kontenjanı için adayları pazartesiden cumaya kadar dinliyor. 13 aday hâkimler koleji, 8 aday savcılar koleji için başvurdu.",
+    "t": "Yeni Yargı Konseyi: Meclis bugünden itibaren 20 adayı dinliyor – Cumaya kadar"
+   },
+   "at": "2026-11-02T06:14Z",
+   "h": "ca5819664a70",
+   "rev": [
+    "Teaser: 13 and 8 candidates described as 'aday hâkimler' / 'aday savcılar kolejine' – garbled; the 13 apply to the judges' college, 8 to the prosecutors' college",
+    "'Die Ermittler' (investigators) wrongly rendered as 'Müfettişler' (inspectors); the German means the investigators' group",
+    "Weekday and date: '6 Kasım cumaya' is awkward; 'cuma gününe, 6 Kasım'a kadar' reads more naturally",
+    "Original says 'keine Disziplinarverfahren' (plural); the Turkish 'bir disiplin soruşturması' is singular, which is a minor deviation",
+    "'daha 9'da' is a literal rendering of 'schon um 9 Uhr' and is unnatural"
+   ],
+   "rev_dbg": [
+    5,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Sofya'daki Ulusal Meclis binası (Sembolik fotoğraf)"
    }
   },
   "welt-alaska-richterin-weist-justizklage-ab-2026-11-02": {
