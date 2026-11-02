@@ -8,7 +8,7 @@
   "tr": "NBA"
  },
  "season": "2026/27",
- "asof": "2026-11-01",
+ "asof": "2026-11-02",
  "tables": [
   {
    "name": {
@@ -26,13 +26,13 @@
      "l": 1
     },
     {
-     "team": "Detroit Pistons",
+     "team": "Boston Celtics",
      "w": 5,
      "l": 1
     },
     {
-     "team": "Boston Celtics",
-     "w": 4,
+     "team": "Detroit Pistons",
+     "w": 5,
      "l": 1
     },
     {
@@ -43,7 +43,7 @@
     {
      "team": "Toronto Raptors",
      "w": 3,
-     "l": 2
+     "l": 3
     },
     {
      "team": "Washington Wizards",
@@ -63,11 +63,6 @@
     {
      "team": "Orlando Magic",
      "w": 2,
-     "l": 3
-    },
-    {
-     "team": "Indiana Pacers",
-     "w": 2,
      "l": 4
     },
     {
@@ -81,7 +76,12 @@
      "l": 4
     },
     {
-     "team": "Milwaukee Bucks",
+     "team": "Indiana Pacers",
+     "w": 2,
+     "l": 5
+    },
+    {
+     "team": "Brooklyn Nets",
      "w": 1,
      "l": 5
     },
@@ -91,8 +91,8 @@
      "l": 5
     },
     {
-     "team": "Brooklyn Nets",
-     "w": 0,
+     "team": "Milwaukee Bucks",
+     "w": 1,
      "l": 5
     }
    ]
@@ -123,17 +123,17 @@
      "l": 1
     },
     {
+     "team": "Los Angeles Lakers",
+     "w": 5,
+     "l": 2
+    },
+    {
      "team": "Oklahoma City Thunder",
      "w": 4,
      "l": 2
     },
     {
      "team": "Dallas Mavericks",
-     "w": 4,
-     "l": 2
-    },
-    {
-     "team": "Los Angeles Lakers",
      "w": 4,
      "l": 2
     },
@@ -148,13 +148,13 @@
      "l": 2
     },
     {
-     "team": "Minnesota Timberwolves",
+     "team": "Golden State Warriors",
      "w": 4,
      "l": 3
     },
     {
-     "team": "Golden State Warriors",
-     "w": 3,
+     "team": "Minnesota Timberwolves",
+     "w": 4,
      "l": 3
     },
     {
@@ -170,7 +170,7 @@
     {
      "team": "LA Clippers",
      "w": 1,
-     "l": 4
+     "l": 5
     },
     {
      "team": "Utah Jazz",
@@ -186,42 +186,6 @@
   }
  ],
  "matches": [
-  {
-   "t1": "Minnesota Timberwolves",
-   "t2": "LA Clippers",
-   "date": "2026-10-30",
-   "ft": [
-    127,
-    101
-   ]
-  },
-  {
-   "t1": "Golden State Warriors",
-   "t2": "Los Angeles Lakers",
-   "date": "2026-10-30",
-   "ft": [
-    112,
-    95
-   ]
-  },
-  {
-   "t1": "Phoenix Suns",
-   "t2": "Denver Nuggets",
-   "date": "2026-10-30",
-   "ft": [
-    120,
-    127
-   ]
-  },
-  {
-   "t1": "Charlotte Hornets",
-   "t2": "Philadelphia 76ers",
-   "date": "2026-10-31",
-   "ft": [
-    104,
-    109
-   ]
-  },
   {
    "t1": "Utah Jazz",
    "t2": "Portland Trail Blazers",
@@ -280,25 +244,37 @@
    "t1": "Orlando Magic",
    "t2": "Boston Celtics",
    "date": "2026-11-01",
-   "time": "21:30"
+   "ft": [
+    97,
+    108
+   ]
   },
   {
    "t1": "Indiana Pacers",
    "t2": "Brooklyn Nets",
    "date": "2026-11-01",
-   "time": "23:00"
+   "ft": [
+    90,
+    98
+   ]
   },
   {
    "t1": "Golden State Warriors",
    "t2": "LA Clippers",
-   "date": "2026-11-02",
-   "time": "02:30"
+   "date": "2026-11-01",
+   "ft": [
+    124,
+    112
+   ]
   },
   {
    "t1": "Los Angeles Lakers",
    "t2": "Toronto Raptors",
-   "date": "2026-11-02",
-   "time": "03:00"
+   "date": "2026-11-01",
+   "ft": [
+    131,
+    125
+   ]
   },
   {
    "t1": "Cleveland Cavaliers",
@@ -335,24 +311,82 @@
    "t2": "Chicago Bulls",
    "date": "2026-11-03",
    "time": "01:30"
+  },
+  {
+   "t1": "Dallas Mavericks",
+   "t2": "Sacramento Kings",
+   "date": "2026-11-03",
+   "time": "02:00"
+  },
+  {
+   "t1": "Minnesota Timberwolves",
+   "t2": "Milwaukee Bucks",
+   "date": "2026-11-03",
+   "time": "02:00"
+  },
+  {
+   "t1": "Memphis Grizzlies",
+   "t2": "New Orleans Pelicans",
+   "date": "2026-11-03",
+   "time": "02:00"
+  },
+  {
+   "t1": "Houston Rockets",
+   "t2": "Boston Celtics",
+   "date": "2026-11-03",
+   "time": "02:30"
+  },
+  {
+   "t1": "San Antonio Spurs",
+   "t2": "Utah Jazz",
+   "date": "2026-11-03",
+   "time": "02:30"
+  },
+  {
+   "t1": "Denver Nuggets",
+   "t2": "Portland Trail Blazers",
+   "date": "2026-11-03",
+   "time": "03:00"
+  },
+  {
+   "t1": "Los Angeles Lakers",
+   "t2": "Miami Heat",
+   "date": "2026-11-03",
+   "time": "04:00"
+  },
+  {
+   "t1": "LA Clippers",
+   "t2": "Toronto Raptors",
+   "date": "2026-11-03",
+   "time": "04:00"
+  },
+  {
+   "t1": "Golden State Warriors",
+   "t2": "Phoenix Suns",
+   "date": "2026-11-03",
+   "time": "04:00"
   }
  ],
  "src": [
   {
-   "n": "Basketball-Reference – 2026-27 Standings (Stand 31.10., ergänzt um die Ergebnisse vom 31.10.)",
+   "n": "Basketball-Reference – 2026-27 Standings (Stand 01.11., ergänzt um die Ergebnisse vom 01.11.)",
    "u": "https://www.basketball-reference.com/leagues/NBA_2027_standings.html"
   },
   {
-   "n": "Field Level Media – NBA roundup 31.10.2026",
-   "u": "https://fieldlevelmedia.com/nba/nba-roundup-spurs-top-timberwolves-behind-victor-wembanyamas-43"
+   "n": "AP/WRAL – Lakers 131-125 Raptors",
+   "u": "https://www.wral.com/news/ap/5ceef-luka-doncic-has-45-points-15-rebounds-while-leading-lakers-to-131-125-victory-over-raptors/"
   },
   {
-   "n": "ESPN – Spurs 121-111 Timberwolves",
-   "u": "https://www.espn.com/nba/recap?gameId=401909901"
+   "n": "Yahoo Sports – Nets 98-90 Pacers",
+   "u": "https://sports.yahoo.com/articles/nets-first-win-season-strong-005628327.html"
   },
   {
-   "n": "ESPN – Rockets 119-98 Thunder",
-   "u": "https://www.espn.com/nba/recap?gameId=401909902"
+   "n": "ESPN – Warriors 124-112 Clippers",
+   "u": "https://www.espn.com/nba/game/_/gameId/401909905/clippers-warriors"
+  },
+  {
+   "n": "t-online – Magic 97:108 Celtics",
+   "u": "https://www.t-online.de/sport/mehr-sport/basketball/id_101507776/erster-nba-saisonsieg-fuer-moritz-wagner.html"
   },
   {
    "n": "FOX Sports – NBA Schedule",

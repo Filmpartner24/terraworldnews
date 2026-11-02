@@ -8,7 +8,7 @@
   "tr": "easyCredit BBL (Almanya)"
  },
  "season": "2026/27",
- "asof": "2026-11-01",
+ "asof": "2026-11-02",
  "tables": [
   {
    "name": {},
@@ -17,9 +17,9 @@
     {
      "team": "FC Bayern München Basketball",
      "w": 5,
-     "l": 0,
-     "pf": 499,
-     "pa": 353
+     "l": 1,
+     "pf": 566,
+     "pa": 422
     },
     {
      "team": "VET-CONCEPT Gladiators Trier",
@@ -29,18 +29,18 @@
      "pa": 524
     },
     {
+     "team": "SYNTAINICS MBC",
+     "w": 5,
+     "l": 2,
+     "pf": 616,
+     "pa": 568
+    },
+    {
      "team": "SKYLINERS",
      "w": 4,
      "l": 1,
      "pf": 451,
      "pa": 423
-    },
-    {
-     "team": "SYNTAINICS MBC",
-     "w": 4,
-     "l": 2,
-     "pf": 507,
-     "pa": 479
     },
     {
      "team": "Fitness First Würzburg Baskets",
@@ -57,11 +57,25 @@
      "pa": 614
     },
     {
-     "team": "BMA365 Bamberg Baskets",
-     "w": 3,
+     "team": "ROSTOCK SEAWOLVES",
+     "w": 4,
      "l": 3,
-     "pf": 528,
-     "pa": 516
+     "pf": 621,
+     "pa": 572
+    },
+    {
+     "team": "BMA365 Bamberg Baskets",
+     "w": 4,
+     "l": 3,
+     "pf": 616,
+     "pa": 594
+    },
+    {
+     "team": "Telekom Baskets Bonn",
+     "w": 4,
+     "l": 3,
+     "pf": 607,
+     "pa": 573
     },
     {
      "team": "Basketball Löwen Braunschweig",
@@ -71,25 +85,11 @@
      "pa": 567
     },
     {
-     "team": "Telekom Baskets Bonn",
-     "w": 3,
-     "l": 3,
-     "pf": 512,
-     "pa": 485
-    },
-    {
-     "team": "ROSTOCK SEAWOLVES",
-     "w": 3,
-     "l": 3,
-     "pf": 552,
-     "pa": 505
-    },
-    {
      "team": "ALBA BERLIN",
      "w": 3,
-     "l": 3,
-     "pf": 500,
-     "pa": 535
+     "l": 4,
+     "pf": 588,
+     "pa": 630
     },
     {
      "team": "ratiopharm ulm",
@@ -108,9 +108,9 @@
     {
      "team": "Science City Jena",
      "w": 2,
-     "l": 4,
-     "pf": 458,
-     "pa": 530
+     "l": 5,
+     "pf": 536,
+     "pa": 618
     },
     {
      "team": "RASTA Vechta",
@@ -136,50 +136,14 @@
     {
      "team": "Veolia Towers Hamburg",
      "w": 1,
-     "l": 5,
-     "pf": 479,
-     "pa": 537
+     "l": 6,
+     "pf": 568,
+     "pa": 646
     }
    ]
   }
  ],
  "matches": [
-  {
-   "t1": "RASTA Vechta",
-   "t2": "VET-CONCEPT Gladiators Trier",
-   "date": "2026-10-24",
-   "ft": [
-    88,
-    97
-   ]
-  },
-  {
-   "t1": "Phoenix Hagen",
-   "t2": "Basketball Löwen Braunschweig",
-   "date": "2026-10-25",
-   "ft": [
-    88,
-    73
-   ]
-  },
-  {
-   "t1": "FC Bayern München Basketball",
-   "t2": "Veolia Towers Hamburg",
-   "date": "2026-10-25",
-   "ft": [
-    96,
-    77
-   ]
-  },
-  {
-   "t1": "ALBA BERLIN",
-   "t2": "ratiopharm ulm",
-   "date": "2026-10-25",
-   "ft": [
-    98,
-    82
-   ]
-  },
   {
    "t1": "Fitness First Würzburg Baskets",
    "t2": "NINERS Chemnitz",
@@ -238,25 +202,37 @@
    "t1": "BMA365 Bamberg Baskets",
    "t2": "Science City Jena",
    "date": "2026-11-01",
-   "time": "15:00"
+   "ft": [
+    88,
+    78
+   ]
   },
   {
    "t1": "ROSTOCK SEAWOLVES",
    "t2": "FC Bayern München Basketball",
    "date": "2026-11-01",
-   "time": "15:00"
+   "ft": [
+    69,
+    67
+   ]
   },
   {
    "t1": "Veolia Towers Hamburg",
    "t2": "SYNTAINICS MBC",
    "date": "2026-11-01",
-   "time": "16:30"
+   "ft": [
+    89,
+    109
+   ]
   },
   {
    "t1": "Telekom Baskets Bonn",
    "t2": "ALBA BERLIN",
    "date": "2026-11-01",
-   "time": "18:00"
+   "ft": [
+    95,
+    88
+   ]
   },
   {
    "t1": "FC Bayern München Basketball",
@@ -315,20 +291,24 @@
  ],
  "src": [
   {
-   "n": "easyCredit BBL – Tabelle",
+   "n": "easyCredit BBL – Tabelle (Stand 01.11.2026)",
    "u": "https://www.easycredit-bbl.de/saison/tabelle"
-  },
-  {
-   "n": "easyCredit BBL – Startseite (Ergebnisse & kommende Spiele)",
-   "u": "https://www.easycredit-bbl.de/"
   },
   {
    "n": "easyCredit BBL – Aktuelle Spiele",
    "u": "https://www.easycredit-bbl.de/saison/aktuelle-spiele"
   },
   {
-   "n": "news.de – BBL-Spielberichte 31.10.2026",
-   "u": "https://www.news.de/sport/860147755/ratiopharm-ulm-ewe-baskets-oldenburg-bbl-ergebnisse-2026-punkte-und-tabelle-spielbericht-zur-basketball-bundesliga-am-31-10-2026-in-neu-ulm/1/"
+   "n": "easyCredit BBL – 69:67: Rostock schlägt Tabellenführer Bayern",
+   "u": "https://easycredit-bbl.de/de/n/news/2026/november/6967-rostock-schlaegt-tabellenfuehrer-bayern"
+  },
+  {
+   "n": "ALBA BERLIN – Spielbericht Bonn",
+   "u": "https://www.albaberlin.de/news/details/in-der-crunchtime-alba-verliert-toughen-fight-in-bonn"
+  },
+  {
+   "n": "Wiesentbote – Bamberg schlägt Jena",
+   "u": "https://wiesentbote.de/2026/11/02/heimsieg-bma365-bamberg-baskets-schlagen-jena"
   }
  ],
  "img": {

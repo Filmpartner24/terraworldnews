@@ -8,7 +8,7 @@
   "tr": "Liga Endesa (İspanya)"
  },
  "season": "2026/27",
- "asof": "2026-11-01",
+ "asof": "2026-11-02",
  "tables": [
   {
    "name": {},
@@ -16,10 +16,24 @@
    "rows": [
     {
      "team": "Real Madrid",
-     "w": 5,
+     "w": 6,
      "l": 0,
-     "pf": 564,
-     "pa": 447
+     "pf": 654,
+     "pa": 526
+    },
+    {
+     "team": "Valencia Basket",
+     "w": 4,
+     "l": 2,
+     "pf": 594,
+     "pa": 523
+    },
+    {
+     "team": "Kosner Baskonia",
+     "w": 4,
+     "l": 2,
+     "pf": 567,
+     "pa": 497
     },
     {
      "team": "La Laguna Tenerife",
@@ -29,6 +43,13 @@
      "pa": 479
     },
     {
+     "team": "Río Breogán",
+     "w": 4,
+     "l": 2,
+     "pf": 628,
+     "pa": 592
+    },
+    {
      "team": "Casademont Zaragoza",
      "w": 4,
      "l": 2,
@@ -36,53 +57,25 @@
      "pa": 523
     },
     {
-     "team": "Kosner Baskonia",
-     "w": 3,
+     "team": "Barça",
+     "w": 4,
      "l": 2,
-     "pf": 461,
-     "pa": 414
+     "pf": 582,
+     "pa": 570
     },
     {
-     "team": "Valencia Basket",
-     "w": 3,
+     "team": "Surne Bilbao",
+     "w": 4,
      "l": 2,
-     "pf": 483,
-     "pa": 444
+     "pf": 557,
+     "pa": 556
     },
     {
      "team": "Unicaja",
      "w": 3,
-     "l": 2,
-     "pf": 441,
-     "pa": 415
-    },
-    {
-     "team": "Río Breogán",
-     "w": 3,
-     "l": 2,
-     "pf": 518,
-     "pa": 502
-    },
-    {
-     "team": "Barça",
-     "w": 3,
-     "l": 2,
-     "pf": 490,
-     "pa": 481
-    },
-    {
-     "team": "Surne Bilbao",
-     "w": 3,
-     "l": 2,
-     "pf": 476,
-     "pa": 478
-    },
-    {
-     "team": "Monbus Obradoiro",
-     "w": 3,
-     "l": 2,
-     "pf": 443,
-     "pa": 466
+     "l": 3,
+     "pf": 530,
+     "pa": 507
     },
     {
      "team": "UCAM Murcia",
@@ -90,6 +83,13 @@
      "l": 3,
      "pf": 560,
      "pa": 563
+    },
+    {
+     "team": "Monbus Obradoiro",
+     "w": 3,
+     "l": 3,
+     "pf": 533,
+     "pa": 576
     },
     {
      "team": "FIATC Girona",
@@ -101,16 +101,16 @@
     {
      "team": "Recoletas Salud San Pablo Burgos",
      "w": 2,
-     "l": 3,
-     "pf": 449,
-     "pa": 435
+     "l": 4,
+     "pf": 528,
+     "pa": 525
     },
     {
      "team": "Asisa Joventut",
      "w": 2,
-     "l": 3,
-     "pf": 473,
-     "pa": 468
+     "l": 4,
+     "pf": 551,
+     "pa": 549
     },
     {
      "team": "Leyma Coruña",
@@ -122,9 +122,9 @@
     {
      "team": "MoraBanc Andorra",
      "w": 1,
-     "l": 4,
-     "pf": 428,
-     "pa": 468
+     "l": 5,
+     "pf": 507,
+     "pa": 579
     },
     {
      "team": "iLERNA Lleida",
@@ -136,68 +136,14 @@
     {
      "team": "Kids&Us Manresa",
      "w": 0,
-     "l": 5,
-     "pf": 423,
-     "pa": 511
+     "l": 6,
+     "pf": 506,
+     "pa": 617
     }
    ]
   }
  ],
  "matches": [
-  {
-   "t1": "Barça",
-   "t2": "Casademont Zaragoza",
-   "date": "2026-10-24",
-   "ft": [
-    99,
-    81
-   ]
-  },
-  {
-   "t1": "FIATC Girona",
-   "t2": "Asisa Joventut",
-   "date": "2026-10-25",
-   "ft": [
-    101,
-    87
-   ]
-  },
-  {
-   "t1": "Surne Bilbao",
-   "t2": "MoraBanc Andorra",
-   "date": "2026-10-25",
-   "ft": [
-    88,
-    76
-   ]
-  },
-  {
-   "t1": "La Laguna Tenerife",
-   "t2": "Monbus Obradoiro",
-   "date": "2026-10-25",
-   "ft": [
-    106,
-    76
-   ]
-  },
-  {
-   "t1": "Valencia Basket",
-   "t2": "Kosner Baskonia",
-   "date": "2026-10-25",
-   "ft": [
-    84,
-    75
-   ]
-  },
-  {
-   "t1": "Río Breogán",
-   "t2": "Unicaja",
-   "date": "2026-10-25",
-   "ft": [
-    90,
-    103
-   ]
-  },
   {
    "t1": "iLERNA Lleida",
    "t2": "Real Madrid",
@@ -238,37 +184,55 @@
    "t1": "Asisa Joventut",
    "t2": "Surne Bilbao",
    "date": "2026-11-01",
-   "time": "12:00"
+   "ft": [
+    78,
+    81
+   ]
   },
   {
    "t1": "Monbus Obradoiro",
    "t2": "Río Breogán",
    "date": "2026-11-01",
-   "time": "12:00"
+   "ft": [
+    90,
+    110
+   ]
   },
   {
    "t1": "Real Madrid",
    "t2": "Recoletas Salud San Pablo Burgos",
    "date": "2026-11-01",
-   "time": "12:30"
+   "ft": [
+    90,
+    79
+   ]
   },
   {
    "t1": "Kosner Baskonia",
    "t2": "Kids&Us Manresa",
    "date": "2026-11-01",
-   "time": "17:00"
+   "ft": [
+    106,
+    83
+   ]
   },
   {
    "t1": "MoraBanc Andorra",
    "t2": "Valencia Basket",
    "date": "2026-11-01",
-   "time": "18:00"
+   "ft": [
+    79,
+    111
+   ]
   },
   {
    "t1": "Unicaja",
    "t2": "Barça",
    "date": "2026-11-01",
-   "time": "19:00"
+   "ft": [
+    89,
+    92
+   ]
   },
   {
    "t1": "Kids&Us Manresa",
@@ -318,16 +282,20 @@
  ],
  "src": [
   {
-   "n": "ACB – Clasificación Liga Endesa",
-   "u": "https://acb.com/es/liga/clasificacion"
+   "n": "Unicaja Baloncesto – Clasificación Liga Endesa (Jornada 6)",
+   "u": "https://www.unicajabaloncesto.com/clasificacion/ver/id/7"
+  },
+  {
+   "n": "Sportando – Liga Endesa Round 6 (01.11.2026)",
+   "u": "https://sportando.basketball/en/liga-endesa-round-6-unbeaten-real-madrid-stays-perfect-valencia-second-first-win-for-perasovic/"
+  },
+  {
+   "n": "Futeros – Clasificación tras la jornada 6",
+   "u": "https://futeros.com/asi-queda-la-clasificacion-de-la-liga-acb-tras-la-disputa-de-la-jornada-6-real-madrid-lider/"
   },
   {
    "n": "ACB – Calendario Liga Endesa",
    "u": "https://acb.com/es/liga/calendario"
-  },
-  {
-   "n": "ACB – Previa de la Jornada 6 (horarios)",
-   "u": "https://acb.com/es/liga/noticias/previa-de-la-jornada-6-de-liga-endesa-2026-27-146327"
   }
  ],
  "img": {
