@@ -86,6 +86,32 @@
     "rv.score": "The Outer Haven 4/5 · TheSixthAxis 7/10 · OpenCritic 73"
    }
   },
+  "bbl-alba-niederlage-bonn-bamberg-mbc-2026-11-02": {
+   "L": {
+    "body": [
+     "ALBA Berlin, easyCredit BBL'de bir gerileme yaşadı: Berlin ekibi pazar akşamı Telekom Baskets Bonn deplasmanında, devreyi 45-42 önde kapatmasına rağmen maçı 88-95 kaybetti. Kulübün açıklamasına göre sonuç ancak maçın kritik bölümünde belli oldu. Berlin'in en skorer oyuncuları 19'ar sayıyla Brandon Angel ve Jordan Ford oldu; ayrıca Bean ve Mattisseck 11'er, Wieskamp ise 10 sayı kaydetti.",
+     "ALBA üç galibiyet ve dört yenilgiyle şu anda 11. sırada, Bonn'un ise 4 galibiyeti ve 3 yenilgisi var. Berlin ekibi Cuma günü (6 Kasım, saat 20:00) Uber Arena'da ligin yeni takımı Phoenix Hagen'i konuk edecek; ALBA'ya göre bu maç, 13 Aralık'ta aynı rakibe karşı oynanacak Kupa çeyrek finali için genel prova niteliğinde.",
+     "BMA365 Bamberg Baskets, Science City Jena'yı 88-78 yendi; Bamberg'de Richard Balint (18) ve Trevon Scott (17) en skorer isimlerdi, Jena'da London Perrantes 20 sayıya ulaştı. SYNTAINICS MBC, Veolia Towers Hamburg deplasmanında kazandı ve beş galibiyet, iki yenilgiyle Bayern ile Trier'in ardından üçüncü sırada yer alıyor; Hamburg bir galibiyetle son sırada kaldı."
+    ],
+    "d": "ALBA Berlin Bonn'da devreyi önde kapattı ancak kritik dakikalarda maçı 88-95 kaybetti. Bamberg, Jena'yı 88-78 yendi; MBC Hamburg'da kazanarak üçüncü sırada.",
+    "t": "BBL: ALBA Bonn'da 88-95 kaybetti – Bamberg Jena'yı yendi, MBC üçüncü sıraya yükseldi"
+   },
+   "at": "2026-11-02T12:01Z",
+   "h": "6a9f7e6c8548",
+   "rev": [
+    "Score order: ALBA lost 88:95, so ALBA's score should be given first (88-95) in the headline, teaser and body, not reversed as 95-88",
+    "Halftime lead 45:42 is correct",
+    "Jena's loss: 'Bamberg, Jena'yı 88-78 yendi' is correct"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Telekom Baskets'in iç saha salonu Bonn'daki Telekom Dome (Arşiv fotoğrafı)"
+   }
+  },
   "berlin-koalitionsverhandlungen-start-2026-11-02-b08": {
    "L": {
     "body": [
@@ -1279,6 +1305,34 @@
     "img.alt": "Darmstadt'ta bir alışveriş caddesi (Sembolik fotoğraf)"
    }
   },
+  "el-bayern-niederlage-rostock-asvel-2026-11-02": {
+   "L": {
+    "body": [
+     "FC Bayern München Basketbol'un sıkıntıları sürüyor: Münihliler, EuroLeague'de Crvena Zvezda Belgrad deplasmanında alınan 73-103'lük yenilgiden yalnızca iki gün sonra, pazar günü easyCredit BBL'de Rostock Seawolves'e 67-69 yenildi. Bu, sezonun ilk lig yenilgisiydi ve lige göre Rostock'un kulüp tarihinde Bayern karşısındaki ilk galibiyeti oldu. Bayern erken geriye düşmesine rağmen durumu çevirdi ve üçüncü çeyrekte 52-41 öndeydi; ardından Rostock geri döndü. Tobias Jensen'in son saniyedeki üçlüğü hedefi bulmadı.",
+     "Duane Washington 22 sayıyla maçın en skorer oyuncusu oldu; Rostock'ta ise Todd Withers (12 sayı, 10 ribaund) maçın oyuncusu seçildi. Bayern'de Oscar da Silva, MarJon Beauchamp ve Justinian Jessup forma giyemedi. Teknik direktör Anton Gavel, kulübün açıklamasına göre şöyle dedi: “Üçüncü çeyrekte maç aslında kontrolümüz altındaydı, ancak sonra elimizden kaçırdık.” Johannes Thiemann ise şunları ekledi: “Çok dikkatsiz oynadık.”",
+     "Münihliler EuroLeague'de dokuz maçın ardından iki galibiyet ve yedi yenilgiyle puan tablosunun alt sıralarında yer alıyor. Perşembe günü (5 Kasım, 20:00) son olarak Baskonia'yı 94-79 yenen ve dört galibiyet, beş yenilgisi bulunan LDLC ASVEL'in konuğu olacaklar. Bundan önce Bayern, salı günü (20:00) BBL'de Basketball Löwen Braunschweig'i ağırlayacak; Münihliler yenilgiye rağmen ligde Trier ile aynı puanla zirvede bulunuyor."
+    ],
+    "d": "Belgrad'da 73-103 yenilen FC Bayern, Rostock'ta da kaybetti; Seawolves karşısında ilk kez mağlup oldu. Perşembe günü EuroLeague'de ASVEL Lyon-Villeurbanne deplasmanına çıkacak.",
+    "t": "Lyon yolculuğu öncesi Bayern'de kriz: Rostock'ta 67-69 ile BBL'de ilk yenilgi"
+   },
+   "at": "2026-11-02T12:01Z",
+   "h": "cea9e1d47b99",
+   "rev": [
+    "Teaser: \"erstmals überhaupt gegen die Seawolves\" is misrendered as a clause without a subject and the sentence is incomplete (\"deplasmanında\" has no predicate); fixed",
+    "Teaser: the Bayern defeat against Seawolves is described as the first one in the club's history, but it is the first win of Rostock against Bayern; wording clarified",
+    "Body 1: \"lige göre\" attribution is awkward, otherwise correct; \"Bayern erken geriye düşmesine rağmen\" is acceptable",
+    "Body 1: \"Tobias Jensen'in son saniyedeki üçlüğü hedefi bulmadı\" is fine",
+    "Image alt: \"München\" remained untranslated in the alt text; translated as Münih"
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "FC Bayern Münih Basketbol'dan BBL'de bir oyun anı (Arşiv fotoğrafı, Ekim 2025)"
+   }
+  },
   "energie-bulgarien-boersenstrom-317-euro-2026-11-02": {
    "L": {
     "body": [
@@ -1591,6 +1645,36 @@
    ],
    "x": {
     "img.alt": "Kimi Antonelli, 2026 Çin Grand Prix'sinin ardından Mercedes'inin üzerinde kutlama yapıyor (Arşiv fotoğrafı)",
+    "kl": "Formula 1"
+   }
+  },
+  "f1-verstappen-sieg-ferrari-duell-mexiko-2026-11-02": {
+   "L": {
+    "body": [
+     "Max Verstappen, Meksika Grand Prix'sini Lewis Hamilton (+0,799 saniye) ve dünya şampiyonu Kimi Antonelli'nin önünde kazandı. FIA'ya göre Red Bull pilotu için sezonun üçüncü zaferiydi. Belirleyici olan start bölümüydü: Charles Leclerc, ilk viraja giderken pole pozisyonundaki Hamilton'a saldırdı, çimlerden kestirdi ve öne çıktı. Verstappen, yaşanan karışıklıktan yararlanarak iki Ferrari'nin de önüne geçip ikinci sıraya yükseldi.",
+     "PlanetF1'e göre Leclerc, pisti terk edip avantaj sağladığı için 13. turda beş saniyelik ceza aldı. Cezayı pit stopunda çekti; medium lastiklerle yarışa başlayan Verstappen de böylece liderliği devraldı. PlanetF1'e göre Hamilton, yarıştan sonra yarış komiserlerini Leclerc'e fiilen zaferi hediye etmekle suçladı. Leclerc, Lando Norris'in önünde dördüncü oldu.",
+     "George Russell startta ikinci sıradan altıncılığa geriledi ve Isack Hadjar ile yaşadığı çarpışmanın ardından on saniye ceza aldı; yarışı altıncı bitirdi. Süspansiyon kırılmasının ardından Cadillac'ın pilotu Valtteri Bottas pist bariyerlerine çarptı. Yarış 40 dakikaya yakın bir süre durduruldu. PlanetF1'e göre Bottas sağlık merkezinde muayene edildi ve oradan ayrılmasına izin verildi."
+    ],
+    "d": "Max Verstappen Meksika Grand Prix'sini kazandı. Pole pozisyonundaki Lewis Hamilton, takım arkadaşı Leclerc ile yaşadığı start düellosunun ardından ikinci oldu. Valtteri Bottas'ın kazası kırmızı bayrağa yol açtı.",
+    "t": "Verstappen Meksika'da kazandı – Ferrari'nin start düellosu Hamilton'a zaferi kaybettirdi"
+   },
+   "at": "2026-11-02T12:01Z",
+   "h": "18df985efac4",
+   "rev": [
+    "\"fast 40 Minuten\" was rendered as \"yaklaşık 40 dakika\"; \"fast\" means almost, so it should read \"40 dakikaya yakın\"",
+    "\"Hamilton ... PlanetF1'e göre\" is placed awkwardly and the accusation is not framed as indirect speech",
+    "\"Medium-Reifen\" was translated as \"orta sertlikte lastikler\", which is unnecessarily long; \"medium\" is the standard term",
+    "The reference to Verstappen's lap-13 takeover has an unclear subject, but the meaning is preserved",
+    "The Hamilton sentence reads \"zaferi hediye etmekle suçladı\", which is acceptable",
+    "The \"Leclerc ... pole pozisyonundaki Hamilton\" wording is acceptable"
+   ],
+   "rev_dbg": [
+    6,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Max Verstappen, 2026 Çin Grand Prix'si sıralama turlarında Red Bull ile (Arşiv fotoğrafı)",
     "kl": "Formula 1"
    }
   },
@@ -2711,6 +2795,34 @@
     "img.alt": "Vitaly Janelt, Eylül 2026'da Sunderland karşısında Brentford formasıyla (Arşiv fotoğrafı)"
    }
   },
+  "mare-di-moda-2028-bademode-trends": {
+   "L": {
+    "body": [
+     "Mayo, iç giyim ve athleisure üreticilerinin buluşma noktası olan Cannes'daki Mare di Moda kumaş fuarında trend araştırmacısı David Shah, 2028 ilkbahar/yaz sezonuna ilişkin öngörülerini sundu. FashionUnited'a göre Shah, “Bu, en zor sezonlardan biri, çünkü bu sektörde şu anda tam olarak ne olduğunu kimse bilmiyor” dedi. Shah'a göre özellikle kaçış (eskapizm) talep görüyor.",
+     "Shah beş akım sıraladı: Parıltı, fırfırlar ile showgirl ve burlesk esintileri içeren “Hyper Hyper”; Kaliforniya sörf tarzında soluk renklerin öne çıktığı “Chill”; canlı renkler, ipeksi parlaklık ve hafif bir boudoir havası taşıyan “Hot”; yarı saydam, ışıltılı yüzeylerden oluşan “Flow”; ve protesto sloganları ile güçlü siyah kontrastlar içeren “Bang Bang”.",
+     "Shah, şehvet ve cazibenin geri dönüşünün bir işareti olarak Victoria's Secret şovunun geri dönüşünü de andı. Shah'a göre sektörün aynı zamanda yaşı daha büyük müşterileri daha fazla dikkate alması gerekiyor. Shah'ın verdiği bilgiye göre 2028/29 yeni renk kartelasındaki tonların yüzde 25'i sedefli, camsı veya ışıltılı olmak üzere parlak."
+    ],
+    "d": "Trend araştırmacısı David Shah, Cannes'da 2028 yazı için mayo ve iç giyim modasında beş akımı özetledi. Yeni renklerin dörtte birinin parlak olması öngörülüyor.",
+    "t": "Burlesk parıltı ve budvar havası: Mare di Moda kumaş fuarı 2028 trendlerini gösterdi"
+   },
+   "at": "2026-11-02T12:01Z",
+   "h": "14e86b083b7c",
+   "rev": [
+    "\"Boudoir\" wrongly rendered as \"budvar\" (nonsense); should be \"budvar\" -> \"buduar\" (kadın oda/yatak odası havası)",
+    "\"Sinnlichkeit\" (sensuality) translated as \"duyarlılık\" (sensitivity)",
+    "\"Glitzer\" rendered as \"payet\" (sequins) instead of parltı/ışıltı",
+    "\"Hyper Hyper\" description: Anleihen bei Showgirls und Burlesque fine, but headline 'Burlesk parıltı' ok",
+    "Draft says 'Shah ... andı' for 'nannte' fine; 'Rückkehr ... Comeback' redundant but acceptable"
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Cannes'daki Palais des Festivals"
+   }
+  },
   "mayweather-showkampf-bangkok-garcia": {
    "L": {
     "body": [
@@ -2843,6 +2955,34 @@
    ],
    "x": {
     "img.alt": "Kapak görseli: Mykita Beverly Hills'te mağaza açıyor"
+   }
+  },
+  "nba-doncic-45-nets-erster-sieg-wagner-2026-11-02": {
+   "L": {
+    "body": [
+     "Luka Dončić, Los Angeles Lakers'ı pazartesiye bağlayan gece Toronto Raptors karşısında 131-125'lik galibiyete taşıdı. Sloven oyuncu 45 sayı, 15 ribaund (sezonun en yüksek değeri), altı asist ve beş top çalma kaydetti, sekiz üçlük attı. AP'ye göre Dončić böylece üst üste dördüncü maçında en az 37 sayı attı. Austin Reaves (19) ve Walker Kessler (16 sayı, 15 ribaund) katkı verdi; Toronto'da Scottie Barnes (29) ve RJ Barrett (22) en çok sayı atan isimlerdi.",
+     "Maçın heyecanı ancak geç döneme kaldı: Lakers, üçüncü periyodun bitimine kısa süre kala 102-76 öndeydi, maçın bitmesine 1:43 kala ilk beşini oyundan aldı; Toronto'nun yedek oyuncuları yaklaşık 40 saniyede farkı 120-125'e indirdi. Dončić, Reaves ve Kessler sahaya döndü ve galibiyeti getirdi. Los Angeles'ın şimdi beş galibiyeti ve iki mağlubiyeti var.",
+     "Alman basketbolseverler adına sevinen isim Moritz Wagner oldu: Brooklyn Nets, sezonun altıncı maçında ilk kez kazandı ve Indiana Pacers'ı deplasmanda 98-90 yendi. Wagner yedek kulübesinden çıkarak 14 sayı ve altı ribaund kaydetti; Michael Porter Jr. (23) ve Julius Randle (20) en çok sayı atan isimlerdi. Franz Wagner ve Tristan da Silva'nın forma giydiği Orlando ise Boston'a 97-108 yenildi; Sport1'e göre da Silva 23 sayıyla Magic'in en skorer oyuncusuydu."
+    ],
+    "d": "Luka Dončić 45 sayı ve 15 ribaundla Lakers'ı Raptors karşısında 131-125'lik galibiyete taşıdı. Brooklyn, Indiana deplasmanında 98-90 kazandı; Moritz Wagner 14 sayıyla katkı verdi.",
+    "t": "Dončić Toronto karşısında 45 sayı attı – Moritz Wagner ilk Nets galibiyetini kutladı"
+   },
+   "at": "2026-11-02T12:01Z",
+   "h": "2449656b22c4",
+   "rev": [
+    "\"pazartesiye karşı gece\" is an unnatural rendering of \"in der Nacht zum Montag\"; should be \"pazartesiye bağlayan gece\"",
+    "\"en skorer isimlerdi\" is awkward and ungrammatical; should be \"en çok sayı atan isimlerdi\"",
+    "\"Alman açısından sevinen isim\" is clumsy; \"Alman basketbolseverler açısından\" is more natural",
+    "\"Maçın heyecanı ancak geç döneme kaldı\" is slightly awkward but acceptable and left unchanged",
+    "Clarified the timing of the starters' substitution: \"maçın bitmesine 1:43 kala\" is acceptable and left unchanged"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Luka Dončić, Los Angeles Lakers formasıyla (Arşiv fotoğrafı, Ocak 2026)"
    }
   },
   "nuernberg-st-pauli-joker-2026-11-02-b08": {
@@ -3194,6 +3334,68 @@
    ],
    "x": {
     "img.alt": "Satın almak yerine abonelik: StrollMe bebek arabası ve çocuk bisikletiyle nasıl kazanıyor"
+   }
+  },
+  "tn-alcaraz-titel-wien-2026-11-02": {
+   "L": {
+    "body": [
+     "Carlos Alcaraz, Viyana'daki Erste Bank Open'ı kazandı. Turnuvaya wild card ile katılan İspanyol tenisçi, finalde Avustralyalı Alex de Minaur'u ATP'ye göre 1 saat 27 dakikada 6-1, 6-4 yendi. De Minaur yarı finalde Alexander Zverev'i üç sette eledi, Alcaraz ise Daniil Medvedev'i geçti. Sky Sports'a göre Alcaraz turnuva boyunca hiç set vermedi; bu, onun bu sezonki dördüncü şampiyonluğu ve de Minaur karşısındaki art arda yedinci galibiyeti.",
+     "Alcaraz, Sky Sports'a göre rakibinin savunma gücü hakkında “You might hit a winner against everybody, except him” (“Herkese karşı kazandıran bir vuruş yapabilirsin, onun dışında”) dedi. İspanyol tenisçi bu yıl ATP 500 turnuvalarında 16 galibiyet 0 yenilgiyle namağlup. Alcaraz, bilek sakatlığı nedeniyle sezonun beş ayını kaçırdı ve Torino'daki ATP Finalleri'ne şimdiden katılma hakkı kazandı.",
+     "Dünya sıralamasında Alexander Zverev bu pazartesiden itibaren ilk kez bir numara: Tennishead'in yayımladığı, Paris Masters öncesi sıralamaya göre Hamburglu tenisçinin 9520 puanı var; bu, Jannik Sinner'den (9450) 70 puan fazla. Alcaraz 6110 puanla üçüncü sırada kalıyor. Paris'te ilk turda Jiří Lehečka ya da Alex Michelsen ile karşılaşacak."
+    ],
+    "d": "Carlos Alcaraz, ATP 500 Viyana Turnuvası'nı kazandı. İspanyol tenisçi finalde Zverev'i eleyen Alex de Minaur'u 6-1, 6-4 yendi; bu, 2026'daki dördüncü şampiyonluğu. Zverev yine de bugünden itibaren bir numara.",
+    "t": "Set kaybetmeden şampiyonluğa: Alcaraz, Viyana finalinde de Minaur'u yendi"
+   },
+   "at": "2026-11-02T12:01Z",
+   "h": "2624a34e5e8d",
+   "rev": [
+    "Title: \"Set vermeden\" is unclear and \"şampiyon\" is not a natural rendering of \"zum Titel\"; reworded",
+    "Teaser: \"Zverev-Bezwinger\" and \"bir numara\" are rendered awkwardly; \"bugünden itibaren\" should be fixed to match \"ab heute\"",
+    "Body 1: \"Joker (wild card) hakkıyla\" is a wrong/unnatural rendering of \"mit einer Wildcard gestartet\"",
+    "Body 2: \"galibiyet oranıyla\" is wrong; it should be 16 wins without a loss",
+    "Body 2: \"katılmayı garantiledi\" is imprecise; should be \"kota aldı / katılma hakkı kazandı\"",
+    "Body 3: Zverev's 70 points more is OK; \"ilk turda\" is fine"
+   ],
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Carlos Alcaraz, 2026 US Open'da (Arşiv fotoğrafı)",
+    "kl": "Tenis"
+   }
+  },
+  "tn-vacherot-titel-basel-2026-11-02": {
+   "L": {
+    "body": [
+     "Valentin Vacherot, Basel'deki Swiss Indoors turnuvasını kazandı. Monakolu seribaşı olmayan oyuncu, finalde sekizinci sıradaki Çek rakibi Jiří Lehečka karşısında ilk seti 2-6 kaybetti, ancak ardından maçı 2-6, 6-3, 6-3 kazandı. Maç sayısını, Lehečka'nın bir backhand vuruşunun az farkla auta düşmesiyle puana çevirdi. Lehečka yarı finalde Jan-Lennard Struff'u 3-6, 7-5, 6-4 yenmişti ve bu yılki ilk turnuva zaferini kaçırdı.",
+     "ESPN'e göre Vacherot için bu, 2025'te eleme oyuncusu olarak kazandığı Şanghay Masters zaferinden sonra kariyerinin ikinci şampiyonluğu. Tennis Majors'a göre Roger Federer ve Novak Djokovic'ten sonra hem Şanghay'da hem Basel'de kazanan yalnızca üçüncü oyuncu oldu. Finale giderken aralarında Holger Rune ve Taylor Fritz'in de bulunduğu rakiplerini eledi.",
+     "Tennis Majors'a göre Vacherot, yeni dünya sıralamasında 27. sıraya yükselerek ilk 30'a geri dönüyor. Paris Masters'ta ise hemen bir sonraki sınav bekliyor: İlk turda Novak Djokovic ile karşılaşacak."
+    ],
+    "d": "Seribaşı olmayan Monakolu Valentin Vacherot Swiss Indoors'u kazandı. Yarı finalde Jan-Lennard Struff'u yenen Jiří Lehečka'ya karşı finalde geriden gelerek 2-6, 6-3, 6-3 galip geldi.",
+    "t": "Set geriden gelip Basel'i kazandı: Vacherot şampiyon, Struff'u yenen Lehečka kupasız kaldı"
+   },
+   "at": "2026-11-02T12:01Z",
+   "h": "806f2c2f577c",
+   "rev": [
+    "Matchball rendered as 'Maç sayısı' (wrong term; should be 'maç sayısı' = match point, 'şampiyonluk sayısı' - use 'match point'/'maç sayısı' correctly)",
+    "German says 'lag 2:6 zurück' (down a set) – draft says 'geride kaldı 2-6' which is garbled; should be first set lost 2-6",
+    "Draft 'seribaşı olmayan' placement/awkward; 'Çek rakibi' ok",
+    "Headline 'yine kupasız' is an addition not in German (the German says 'bleibt ohne Titel')",
+    "Struff 'yenmişti' fine; 'ilk turnuva zaferini' lacks 'bu yılki' ok",
+    "Rune and Fritz: 'unter anderem' ok",
+    "'Montreal/Shanghai' fine; 'hem Şanghay'da hem Basel'de' ok",
+    "Weekday/other conventions ok"
+   ],
+   "rev_dbg": [
+    8,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Valentin Vacherot, 2025'te Basel'deki Swiss Indoors'ta (Arşiv fotoğrafı)",
+    "kl": "Tenis"
    }
   },
   "trump-iowa-kansas-rallies-2026-11-02-b08": {

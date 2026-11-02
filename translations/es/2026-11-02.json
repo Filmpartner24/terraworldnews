@@ -83,6 +83,32 @@
     "rv.score": "The Outer Haven 4/5 · TheSixthAxis 7/10 · OpenCritic 73"
    }
   },
+  "bbl-alba-niederlage-bonn-bamberg-mbc-2026-11-02": {
+   "L": {
+    "body": [
+     "El ALBA Berlín sufrió un revés en la easyCredit BBL: el domingo por la noche los berlineses perdieron 88-95 ante los Telekom Baskets Bonn, pese a ir ganando 45-42 al descanso. Según el informe del club, la decisión llegó solo en los minutos decisivos. Los máximos anotadores berlineses fueron Brandon Angel y Jordan Ford, con 19 puntos cada uno; además, Bean y Mattisseck sumaron 11 cada uno y Wieskamp, 10.",
+     "Con tres victorias y cuatro derrotas, el ALBA es ahora undécimo; Bonn tiene 4 victorias y 3 derrotas. El viernes (6 de noviembre, 20:00) los berlineses recibirán en el Uber Arena al recién ascendido Phoenix Hagen; según el ALBA, será el ensayo general para los cuartos de final de la Copa contra el mismo rival el 13 de diciembre.",
+     "Los BMA365 Bamberg Baskets ganaron 88-78 a Science City Jena; Richard Balint (18) y Trevon Scott (17) fueron los máximos anotadores, mientras que en el Jena London Perrantes llegó a 20 puntos. El SYNTAINICS MBC ganó en la pista de los Veolia Towers Hamburg y es tercero, con cinco victorias y dos derrotas, por detrás del Bayern y del Trier; Hamburgo sigue último con una victoria."
+    ],
+    "d": "El ALBA Berlín gana al descanso en Bonn, pero pierde 88-95 en los minutos decisivos. Bamberg gana 88-78 a Jena y el MBC se impone en Hamburgo y es tercero.",
+    "t": "BBL: el ALBA pierde 88-95 en Bonn; Bamberg vence a Jena y el MBC es tercero"
+   },
+   "at": "2026-11-02T12:01Z",
+   "h": "6a9f7e6c8548",
+   "rev": [
+    "\"el desenlace se decidió solo en los minutos decisivos\" is redundant and awkward; \"Die Entscheidung fiel erst in der Crunchtime\" should be reworded",
+    "\"Bamberg gana 88-78 a Jena\" in the teaser uses the present tense where the German says \"gewinnt\" (fine); no change needed",
+    "\"por Jena London Perrantes llegó a 20 puntos\" is unnatural wording"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "El Telekom Dome de Bonn, pabellón local de los Telekom Baskets (Foto de archivo)"
+   }
+  },
   "berlin-koalitionsverhandlungen-start-2026-11-02-b08": {
    "L": {
     "body": [
@@ -1182,6 +1208,33 @@
     "img.alt": "Calle comercial en Darmstadt (Imagen simbólica)"
    }
   },
+  "el-bayern-niederlage-rostock-asvel-2026-11-02": {
+   "L": {
+    "body": [
+     "El FC Bayern München Basketball no encuentra la calma: solo dos días después del 73-103 ante el Crvena Zvezda de Belgrado en la EuroLeague, el domingo los muniqueses perdieron 67-69 en la easyCredit BBL ante los Rostock Seawolves. Fue la primera derrota liguera de la temporada y, según la liga, la primera victoria de Rostock sobre el Bayern en la historia del club. El Bayern remontó una desventaja inicial y lideraba 52-41 en el tercer cuarto, antes de que Rostock volviera al partido; el triple de Tobias Jensen en el último segundo no encontró su objetivo.",
+     "Duane Washington fue el máximo anotador del partido con 22 puntos; en el Rostock, Todd Withers (12 puntos, 10 rebotes) fue elegido jugador del partido. Al Bayern le faltaron Oscar da Silva, MarJon Beauchamp y Justinian Jessup. El entrenador Anton Gavel dijo, según el comunicado del club: «En el tercer cuarto teníamos el partido en realidad bajo control, pero luego lo dejamos escapar». Johannes Thiemann añadió: «Jugamos demasiado desconcentrados».",
+     "En la EuroLeague, los muniqueses tienen tras nueve partidos dos victorias y siete derrotas, por lo que están en la zona baja de la clasificación. El jueves (5 de noviembre, 20:00) visitan al LDLC ASVEL, que recientemente ganó 94-79 al Baskonia y tiene cuatro victorias y cinco derrotas. Antes, el martes (20:00), el Bayern recibe en la BBL a los Basketball Löwen Braunschweig; a pesar de la derrota, los muniqueses siguen en cabeza de la liga, igualados a puntos con Trier."
+    ],
+    "d": "Tras el 73-103 en Belgrado, el FC Bayern también pierde en Rostock, por primera vez contra los Seawolves. El jueves visita al ASVEL Lyon-Villeurbanne en la EuroLeague.",
+    "t": "Crisis del Bayern antes del viaje a Lyon: primera derrota en la BBL, 67-69 en Rostock"
+   },
+   "at": "2026-11-02T12:01Z",
+   "h": "cea9e1d47b99",
+   "rev": [
+    "'Basketball Löwen Braunschweig' is a proper name and stays as is, so it is fine.",
+    "'München' in 'FC Bayern München Basketball' is part of a proper name and stays as is, so it is fine.",
+    "Rostock's 'Rückkehr' (zurückkam) was rendered as 'reaccionara' (reacted), which is a slight loss of meaning; changed to 'volviera al partido'.",
+    "'punktgleich mit Trier vorn' was rendered ambiguously; made it clearer that Bayern share the lead with Trier."
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Escena de un partido del FC Bayern München Basketball en la BBL (Foto de archivo, octubre de 2025)"
+   }
+  },
   "energie-bulgarien-boersenstrom-317-euro-2026-11-02": {
    "L": {
     "body": [
@@ -1460,6 +1513,35 @@
    ],
    "x": {
     "img.alt": "Kimi Antonelli celebra sobre su Mercedes tras el Gran Premio de China 2026 (Foto de archivo)",
+    "kl": "Fórmula 1"
+   }
+  },
+  "f1-verstappen-sieg-ferrari-duell-mexiko-2026-11-02": {
+   "L": {
+    "body": [
+     "Max Verstappen ganó el Gran Premio de México por delante de Lewis Hamilton (+0,799 segundos) y del campeón del mundo Kimi Antonelli. Según la FIA, fue la tercera victoria de la temporada para el piloto de Red Bull. Fue decisiva la fase de la salida: Charles Leclerc atacó a Hamilton, que partía desde la pole, de camino a la primera curva, cortó por la hierba y salió por delante. Verstappen aprovechó la confusión para adelantar a los dos Ferrari y colocarse segundo.",
+     "Según PlanetF1, Leclerc recibió en la vuelta 13 una sanción de cinco segundos por haberse salido de la pista y haber obtenido una ventaja. La cumplió en la parada en boxes; así, Verstappen, que había salido con neumáticos medios, asumió el liderato. Según PlanetF1, tras la carrera Hamilton reprochó a los comisarios haber regalado de facto la victoria a Leclerc. Leclerc terminó cuarto, por delante de Lando Norris.",
+     "George Russell cayó en la salida del segundo al sexto puesto y, tras una colisión con Isack Hadjar, recibió diez segundos de sanción; cruzó la meta en sexta posición. Tras la rotura de una suspensión, Valtteri Bottas se estrelló con el Cadillac contra el muro de la pista. La carrera estuvo interrumpida durante casi 40 minutos. Según PlanetF1, Bottas fue examinado en el centro médico y pudo abandonarlo."
+    ],
+    "d": "Max Verstappen ganó el Gran Premio de México. Lewis Hamilton, que salía desde la pole, fue segundo tras un duelo en la salida con su compañero Leclerc. Un accidente de Valtteri Bottas provocó una bandera roja.",
+    "t": "Verstappen gana en México; el duelo de Ferrari en la salida cuesta la victoria a Hamilton"
+   },
+   "at": "2026-11-02T12:01Z",
+   "h": "18df985efac4",
+   "rev": [
+    "Primer párrafo: el alemán dice que Verstappen pasó a ambos Ferrari y quedó segundo; el borrador lo mantiene, sin problema.",
+    "«Verstappen ... asumió el liderato»: correcto.",
+    "Contradicción en el original (Verstappen termina primero tras ir segundo): no se modifica.",
+    "«en la frenada hacia la primera curva» es una adición; el original dice «en el camino hacia la primera curva».",
+    "«Tras la rotura de una suspensión» es correcto."
+   ],
+   "rev_dbg": [
+    5,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Max Verstappen en el Red Bull durante la clasificación del Gran Premio de China 2026 (foto de archivo)",
     "kl": "Fórmula 1"
    }
   },
@@ -2516,6 +2598,32 @@
     "img.alt": "Vitaly Janelt con la camiseta del Brentford ante el Sunderland, septiembre de 2026 (Foto de archivo)"
    }
   },
+  "mare-di-moda-2028-bademode-trends": {
+   "L": {
+    "body": [
+     "En la feria textil Mare di Moda de Cannes, punto de encuentro de fabricantes de moda de baño, lencería y athleisure, el analista de tendencias David Shah presentó su perspectiva para primavera/verano de 2028. «Esta es una de las temporadas más difíciles, porque nadie en este sector sabe realmente qué está pasando», dijo, según FashionUnited. Según Shah, lo que más se demandaría es el escapismo.",
+     "Shah mencionó cinco corrientes: «Hyper Hyper», con brillo, volantes y referencias a las showgirls y al burlesque; «Chill», con colores desteñidos al estilo surfero californiano; «Hot», con colores intensos, brillo sedoso y un toque de boudoir; «Flow», con superficies semitransparentes y tornasoladas; y «Bang Bang», con lemas de protesta y fuertes contrastes en negro.",
+     "Como señal del regreso de la sensualidad, Shah citó también la vuelta del desfile de Victoria's Secret. Al mismo tiempo, según dijo, el sector debería tener más en cuenta a las clientas de mayor edad. Según Shah, el 25 por ciento de los tonos de la nueva carta de colores 2028/29 son brillantes: nacarados, vítreos o tornasolados."
+    ],
+    "d": "En Cannes, el analista de tendencias David Shah esbozó cinco corrientes para moda de baño y lencería en el verano de 2028. Según él, una cuarta parte de los nuevos colores brillará.",
+    "t": "Brillo burlesque y un toque de boudoir: la feria Mare di Moda muestra tendencias para 2028"
+   },
+   "at": "2026-11-02T12:01Z",
+   "h": "14e86b083b7c",
+   "rev": [
+    "Teaser: 'soll glänzen' (reported/planned) rendered as a plain future fact 'será brillante'; the 'Ein Viertel' claim should stay attributed to Shah",
+    "Teaser: 'Bade- und Wäschemode' / 'Sommer 2028' acceptable; 'glänzen' should be 'brillar' rather than the adjective",
+    "Body 3: 'tornasoladas' for 'schimmernd' in Flow is OK; 'Hot' brillo sedoso OK"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: Palacio de Festivales en Cannes"
+   }
+  },
   "mayweather-showkampf-bangkok-garcia": {
    "L": {
     "body": [
@@ -2632,6 +2740,27 @@
    ],
    "x": {
     "img.alt": "Imagen de portada: Mykita abre en Beverly Hills"
+   }
+  },
+  "nba-doncic-45-nets-erster-sieg-wagner-2026-11-02": {
+   "L": {
+    "body": [
+     "Luka Dončić llevó a los Los Angeles Lakers a una victoria por 131-125 ante los Toronto Raptors en la madrugada del lunes. El esloveno sumó 45 puntos, 15 rebotes (máximo de la temporada), seis asistencias y cinco robos, y anotó ocho triples. Según AP, logró así por cuarto partido consecutivo al menos 37 puntos. Austin Reaves (19) y Walker Kessler (16 puntos, 15 rebotes) ayudaron; en Toronto, Scottie Barnes (29) y RJ Barrett (22) fueron los máximos anotadores.",
+     "La emoción llegó solo al final: los Lakers ganaban 102-76 poco antes del final del tercer cuarto, retiraron a sus titulares a 1:43 del final, y los suplentes de Toronto recortaron en unos 40 segundos hasta el 120-125. Dončić, Reaves y Kessler volvieron a la pista y aseguraron la victoria. Los Ángeles suma ahora cinco victorias y dos derrotas.",
+     "Desde el punto de vista alemán, quien celebró fue Moritz Wagner: los Brooklyn Nets ganaron por primera vez en su sexto partido de la temporada, 98-90 ante los Indiana Pacers. Wagner anotó 14 puntos y cogió seis rebotes saliendo desde el banquillo; Michael Porter Jr. (23) y Julius Randle (20) fueron los máximos anotadores. Orlando, con Franz Wagner y Tristan da Silva, perdió en cambio 97-108 ante Boston; según Sport1, da Silva fue el máximo anotador de los Magic con 23 puntos."
+    ],
+    "d": "Luka Dončić lleva a los Lakers al 131-125 ante los Raptors con 45 puntos y 15 rebotes. Brooklyn gana 98-90 en Indiana, con 14 puntos de Moritz Wagner.",
+    "t": "Dončić anota 45 puntos ante Toronto; Moritz Wagner celebra la primera victoria de los Nets"
+   },
+   "at": "2026-11-02T12:01Z",
+   "h": "2449656b22c4",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Luka Dončić con la camiseta de los Los Angeles Lakers (Foto de archivo, enero de 2026)"
    }
   },
   "nuernberg-st-pauli-joker-2026-11-02-b08": {
@@ -2957,6 +3086,57 @@
    ],
    "x": {
     "img.alt": "Suscripción en vez de compra: así gana dinero StrollMe con cochecitos y bicis infantiles"
+   }
+  },
+  "tn-alcaraz-titel-wien-2026-11-02": {
+   "L": {
+    "body": [
+     "Carlos Alcaraz ha ganado el Erste Bank Open de Viena. El español, que participó con una invitación (wildcard), derrotó en la final al australiano Alex de Minaur por 6-1, 6-4 en 1:27 horas, según la ATP. De Minaur había eliminado en semifinales a Alexander Zverev en tres sets; Alcaraz se impuso a Daniil Medvedev. Según Sky Sports, Alcaraz no cedió ningún set en todo el torneo; es su cuarto título esta temporada y su séptima victoria consecutiva contra De Minaur.",
+     "«You might hit a winner against everybody, except him», dijo Alcaraz, según Sky Sports, sobre la fortaleza defensiva de su rival. En torneos ATP 500 permanece invicto este año, con un balance de 16-0. El español se perdió cinco meses de la temporada por una lesión de muñeca y ya está clasificado para las ATP Finals de Turín.",
+     "En el ranking mundial, Alexander Zverev es el número uno por primera vez a partir de este lunes: según la clasificación publicada por Tennishead antes del Masters de París, el hamburgués tiene 9520 puntos, 70 más que Jannik Sinner (9450). Alcaraz sigue tercero con 6110 puntos. En su debut en París se enfrentará a Jiří Lehečka o Alex Michelsen."
+    ],
+    "d": "Carlos Alcaraz ha ganado el ATP 500 de Viena. En la final, el español venció a Alex de Minaur, verdugo de Zverev, por 6-1, 6-4: su cuarto título de 2026. Zverev es, pese a ello, el número uno desde hoy.",
+    "t": "Título sin ceder un set: Alcaraz derrota a De Minaur en la final de Viena"
+   },
+   "at": "2026-11-02T12:01Z",
+   "h": "2624a34e5e8d",
+   "rev_dbg": [
+    4,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Carlos Alcaraz en el US Open 2026 (Foto de archivo)",
+    "kl": "Tenis"
+   }
+  },
+  "tn-vacherot-titel-basel-2026-11-02": {
+   "L": {
+    "body": [
+     "Valentin Vacherot ha ganado los Swiss Indoors de Basilea. El jugador monegasco, sin cabeza de serie, iba por detrás en la final ante el checo Jiří Lehečka, cabeza de serie número ocho, tras perder el primer set por 2-6, pero acabó ganando el partido por 2-6, 6-3, 6-3. Transformó la bola de partido cuando un revés de Lehečka cayó fuera por poco. Lehečka había derrotado en semifinales a Jan-Lennard Struff por 3-6, 7-5, 6-4 y vio así escapar su primer título de este año.",
+     "Según ESPN, para Vacherot es el segundo título de su carrera, tras el Masters de Shanghái de 2025, que conquistó como clasificado. Según Tennis Majors, es solo el tercer jugador, después de Roger Federer y Novak Djokovic, que ha ganado tanto en Shanghái como en Basilea. De camino a la final derrotó, entre otros, a Holger Rune y Taylor Fritz.",
+     "En el nuevo ranking mundial, según Tennis Majors, Vacherot vuelve al puesto 27 y, con ello, al top 30. En el Masters de París le espera de inmediato la siguiente prueba: en la primera ronda se enfrentará a Novak Djokovic."
+    ],
+    "d": "El monegasco Valentin Vacherot, sin cabeza de serie, ganó los Swiss Indoors. Remontó la final ante Jiří Lehečka, que había vencido a Jan-Lennard Struff en semifinales, y se impuso por 2-6, 6-3, 6-3.",
+    "t": "Vacherot gana en Basilea tras remontar; Lehečka, vencedor de Struff, se queda sin título"
+   },
+   "at": "2026-11-02T12:01Z",
+   "h": "806f2c2f577c",
+   "rev": [
+    "Germano original contains an internal inconsistency: 'lag mit 2:6 zurück' is rendered as 'perdía por 2-6', which is wrong (it should be a set deficit, 'un set en contra'); the Spanish keeps the same 2",
+    "Wording 'perdía en la final por 2-6' is unnatural; better 'iba por detrás tras perder el primer set 2-6'",
+    "'gewann dann aber noch 2:6, 6:3, 6:3' → 'acabó ganando el partido con' is awkward; it should be 'por 2-6, 6-3, 6-3'",
+    "'ganó el Swiss Indoors' – the tournament name is usually used with the article 'los Swiss Indoors'",
+    "'octavo cabeza de serie' – should be 'cabeza de serie número ocho'"
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Valentin Vacherot en los Swiss Indoors de Basilea 2025 (foto de archivo)",
+    "kl": "Tenis"
    }
   },
   "trump-iowa-kansas-rallies-2026-11-02-b08": {
