@@ -345,6 +345,35 @@
     "kl": "Berlin"
    }
   },
+  "berlin-reinickendorf-cafe-brand-lka-2026-11-02-b1830": {
+   "L": {
+    "body": [
+     "Berlin-Reinickendorf'taki Residenzstraße'de bulunan bir kafenin kadınlar tuvaletinde pazar öğleden sonra saat 14.30 sıralarında yangın çıktı. Polisin verdiği bilgiye göre bir çalışan yangını fark etti ve önce kendisi söndürmeye çalıştı. Kadının acil çıkış kapısını açmasıyla duman bitişikteki apartman koridoruna yayıldı.",
+     "İtfaiye, komşu dairelerin sakinlerini korumak için birkaç daire kapısını açtı. İki kişi dumandan yaralandı ve ayakta tedavi edildi. Residenzstraße, saat 15.00'ten kısa süre öncesinden yaklaşık 16.30'a kadar trafiğe kapatıldı.",
+     "Yangının nedeni şimdilik belirlenemedi. Eyalet Kriminal Dairesi'ne bağlı bir yangın komiserliği, ağır kundaklama girişimi şüphesiyle soruşturmayı devraldı. Polis, olası şüphelilere ilişkin bilgi vermedi."
+    ],
+    "d": "Pazar öğleden sonra Residenzstraße'deki bir kafede yangın çıktı, iki kişi dumandan yaralandı. Polis, ağır kundaklama girişimi şüphesiyle soruşturma yürütüyor.",
+    "t": "Reinickendorf'ta kafede yangın: LKA ağır kundaklama girişimi şüphesiyle soruşturuyor"
+   },
+   "at": "2026-11-02T17:48Z",
+   "h": "3b36f500c430",
+   "rev": [
+    "Headline: 'schwere' (ağır) missing from 'kundaklama girişimi'; the charge is attempted aggravated arson",
+    "Headline length ok after fix; 'LKA' kept",
+    "Untranslated German name 'Landeskriminalamt' in parentheses; the Turkish rendering is already given, so the German word is removed",
+    "Time 'kurz vor 15 Uhr' phrased awkwardly; made natural",
+    "'Kadının acil çıkış kapısını açmasıyla' okay; 'Als' temporal kept"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "İtfaiye yangın söndürme aracı (Sembolik fotoğraf)",
+    "kl": "Berlin"
+   }
+  },
   "bg-energie-aktien": {
    "L": {
     "body": [
@@ -819,6 +848,34 @@
     "img.alt": "Canelo Álvarez ringde, 2017 (Arşiv fotoğrafı)"
    }
   },
+  "carrick-manchester-united-roma-champions-league-2026-11-02-b1830": {
+   "L": {
+    "body": [
+     "Manchester United Teknik Direktörü Michael Carrick, kendi sözlerine göre geleceğiyle ilgili spekülasyonların dikkatini dağıtmasına izin vermiyor. Carrick, pazartesi günü yaptığı açıklamada, bunların salı günü saat 21:00'de AS Roma ile oynanacak Şampiyonlar Ligi iç saha maçının hazırlıklarına etki etmediğini söyledi. Carrick, “What happens after, happens” (“Sonrasında ne olursa olur”) dedi.",
+     "Durum hassas: United dokuz resmi maçtır kazanamıyor; bu, 38 yılın en kötü serisi. Takım yalnızca daha iyi averaj sayesinde küme düşme hattının hemen üzerinde bulunuyor. Takım cumartesi günü Chelsea deplasmanında, Lisandro Martínez erken dakikalarda oyundan atıldıktan sonra 2-0 yenildi. Carrick, tutumuna ilişkin şüpheleri reddetti: “The commitment is not an issue” (“Özveri bir sorun değil”). Ayrıca şunları söyledi: “Yakınız ama hızlı hareket etmemiz gerekiyor.”",
+     "United, Şampiyonlar Ligi'nde Sabah'a karşı kazandığı galibiyet ile Atlético Madrid ve Como deplasmanlarındaki yenilgilerin ardından üç puanda. Martínez'in cezası yalnızca ulusal müsabakalar için geçerli olduğundan Roma maçında oynayabiliyor; Leny Yoro da Avrupa kupası cezasını tamamlayarak geri dönüyor. Patrick Dorgu uyluk sakatlığının ardından yeniden antrenman yapıyor, ancak salı günü için henüz bir seçenek değil. Orta saha oyuncusu Kobbie Mainoo, Carrick'in arkasında durdu: Mainoo'ya göre, sahada ve saha dışında teknik direktörün arkasında durarak ve takım olarak mücadele ederek ona bir şeyler geri verilebilir."
+    ],
+    "d": "Dokuz resmi maçtır galibiyet yok, geleceği hakkında spekülasyonlar var: Manchester United Teknik Direktörü Michael Carrick, salı günkü AS Roma ile oynanacak Şampiyonlar Ligi maçı öncesinde her şeyi bir kenara bırakıyor.",
+    "t": "Carrick, Roma maçı öncesinde baskı altında: “Sonrasında ne olursa olur”"
+   },
+   "at": "2026-11-02T17:48Z",
+   "h": "632d93a43485",
+   "rev": [
+    "Weekdays and months are capitalised in running text; TDK requires lowercase (pazartesi, salı, cumartesi).",
+    "Score written as 2-0 for 0:2 loss; Chelsea won 2-0 so this is acceptable, but 'tutku' mistranslates 'Einstellung' (attitude/commitment).",
+    "Mainoo's indirect speech was rendered with an unnatural past modal ('verilebilirdi'); reworded to a reported form.",
+    "'Daha iyi averaj' loses 'nur dank der besseren Tordifferenz' nuance slightly; kept as is.",
+    "Teaser 'Salı günkü' capitalised weekday."
+   ],
+   "rev_dbg": [
+    5,
+    6,
+    0
+   ],
+   "x": {
+    "img.alt": "Manchester'daki Old Trafford (Arşiv fotoğrafı)"
+   }
+  },
   "cdu-kreisvorsitzende-merz-2026-11-02-b08": {
    "L": {
     "body": [
@@ -1004,6 +1061,27 @@
    ],
    "x": {
     "img.alt": "Anthony Joshua, 2017'de Cardiff'teki stadyumda Carlos Takam'a karşı (Arşiv fotoğrafı)"
+   }
+  },
+  "deepfake-apps-netzwerk-2026-11-02-b1830": {
+   "L": {
+    "body": [
+     "400'den fazla uygulama ve web sitesinden oluşan bir ağ, kendini sıradan yapay zekâ araçları olarak tanıttı ve içinde cinsel deepfake üretmeye yönelik gizli işlevler barındırdı. Bunu Wired dergisi, Avrupalı kuruluş AI Forensics'e dayanarak bildirdi. Uygulamalar evcil hayvan fotoğraf editörü, dil eğitmeni veya yapay zekâ fitness koçu gibi görünüyordu; belirli koşullarda, örneğin Meta platformlarındaki ilgili bir reklama tıklandıktan sonra, gizli bir arayüz açılıyor ve yüklenen fotoğraflardan müstehcen görseller ve videolar üretilebiliyordu.",
+     "Rapora göre uygulamaların 27'si Eylül ayında Google Play'de erişilebilirdi ve toplamda 350.000'den fazla indirmeye ulaştı. Ödeme Apple ve Google'ın sistemleri üzerinden yapıldı. Araştırmacılar ağı Çince konuşan geliştiricilerle ve Hong Kong'da kayıtlı bir şirketle ilişkilendiriyor.",
+     "Apple, Wired'ın talebinin ardından 19 uygulamayı kaldırdı ve bu uygulamaların inceleme sonrasında değiştirildiğini söyledi. Google çoğu uygulamayı daha önce silmişti. Meta 11.600 reklam hesabına ve 15.000 sayfaya karşı harekete geçti; bir sözcü şunları söyledi: “Nudify uygulamalarının reklamının yapılmasına karşı katı kurallarımız var.”"
+    ],
+    "d": "Wired ve AI Forensics'e göre zararsız görünen uygulamalar cinsel deepfake işlevlerini gizledi. Apple 19 uygulamayı kaldırdı, Meta 11.600 reklam hesabına karşı harekete geçti.",
+    "t": "Haustier-Editor als Tarnung: Über 400 KI-Apps verbargen sexuelle Deepfake-Werkzeuge"
+   },
+   "at": "2026-11-02T17:48Z",
+   "h": "52304f2b83d8",
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "TERRA WORLD NEWS kapak görseli"
    }
   },
   "depression-rueckfall-vorhersage-marburg-2026-11-02": {
@@ -2434,6 +2512,34 @@
     0
    ]
   },
+  "iran-doha-entwurf-2026-11-02-b1830": {
+   "L": {
+    "body": [
+     "İranlı müzakereciler pazar günü Doha'da Katarlı arabuluculuarla yürüttükleri görüşmelerden ayrıldı. Müzakerelere yakın bir yetkili Reuters'a, İran ile ABD arasındaki bir anlaşma taslağının şimdi elden ele dolaştırıldığını ve yeni bir toplantının mümkün olduğunu söyledi. Yetkiliye göre ayrılışın görüşmelerdeki zorluklarla bir ilgisi yok. Taslağın ayrıntıları açıklanmadı.",
+     "Dışişleri Bakanlığı Sözcüsü Esmaeil Baghaei pazartesi günü, ABD'nin deniz ablukası sona ermeden “nihai bir anlaşmaya” varılamayacağını ve Hürmüz Boğazı'nın yeniden açılamayacağını söyledi. Tahran ayrıca yaptırımların kaldırılmasını ve dondurulmuş fonların serbest bırakılmasını talep ediyor. Türkiye Today'e göre Baghaei ayrıca şöyle dedi: “ABD karar vermeli.” Baghaei'ye göre iki ülke arasında “kesinlikle güven yok”.",
+     "ABD'de salı günü ara seçimler yapılacak. Başkan Donald Trump, oylamadan önce yeni saldırı başlatmayacağını açıkladı ve müzakereleri verimli olarak nitelendirdi, ancak başka askeri saldırıları da dışlamadı. Baghaei, Tahran'ın seçimlerin “yeni bir Amerika” ortaya çıkarmasını beklemediğini söyledi."
+    ],
+    "d": "İranlı müzakereciler Katar'dan ayrıldı, Washington'la bir anlaşma taslağı dolaşımda. Tahran: “Top şimdi ABD'nin sahasında” – güven ise hiç yok, diyor.",
+    "t": "İran Doha'daki görüşmelerden ayrıldı – ABD ile anlaşma taslağı dolaşımda"
+   },
+   "at": "2026-11-02T17:48Z",
+   "h": "4911d6b51252",
+   "rev": [
+    "\"Amerika\" is a country name in the quote; it should be \"ABD\" as used elsewhere (the German \"Amerika\" refers to the USA)",
+    "Teaser: \"güven ise yok, deniyor\" is awkward; the attribution should be clearer",
+    "\"Katarlı arabuluculuk yapanlarla\" is clumsy; should be \"Katarlı arabuluculada\" -> \"Katarlı arabuluculayla\"",
+    "\"Türkiye Today'e göre\" should be \"Türkiye Today'e göre\" (fine), but \"Baghaei'ye göre\" for the 'no trust' statement is acceptable; \"başka askeri saldırıları\" -> \"başka askeri saldırıları\" fine",
+    "Turkish quote marks: German „…“ rendered as “…” is acceptable"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Doha'nın silueti (Sembolik fotoğraf)"
+   }
+  },
   "izm-rechenzentren-nachhaltigkeit-video": {
    "L": {
     "body": [
@@ -3337,6 +3443,35 @@
     "img.alt": "Sembolik fotoğraf: Bir fincan siyah çay"
    }
   },
+  "leipzig-amokfahrt-prozess-2026-11-02-b1830": {
+   "L": {
+    "body": [
+     "Leipzig Bölge Mahkemesi'nde pazartesi günü, 4 Mayıs'taki ölümcül araçlı saldırının şüpheli sürücüsü hakkındaki dava başladı. Sanığın, otomobiliyle şehir merkezindeki yaya bölgesinde birkaç yüz metre boyunca ilerlediği iddia ediliyor. 63 yaşındaki bir kadın ile 77 yaşındaki bir erkek hayatını kaybetti, birçok kişi yaralandı. Savcılık, adamı iki kişiyi öldürme, 85 kişiyi öldürmeye teşebbüs ve 91 olayda karayolu trafiğine tehlikeli müdahale suçlarıyla itham ediyor. Sanık tutuklu; karar verilene kadar masumiyet karinesi geçerli.",
+     "Duruşmanın ilk gününde iddianamenin okunması planlanmıştı. İddia makamı, kendi açıklamalarına göre siyasi ya da dini bir saik görmüyor. Davanın merkezindeki sorunun cezai ehliyet olması muhtemel: Ön adli psikiyatrik raporda cezai ehliyetin azaldığına dair herhangi bir işaret bulunmadı. Adam, olaydan kısa süre sonra önce geçici olarak bir psikiyatri kliniğine yerleştirilmişti.",
+     "Mahkeme, bir psikiyatri bilirkişisinin yanı sıra trafik kazası analizi ve adli tıp uzmanlarını da çağırdı. Şimdiye kadar 7 Temmuz 2027'ye kadar 28 duruşma günü belirlendi; 200'den fazla tanığın dinlenmesi söz konusu olabilir."
+    ],
+    "d": "Leipzig yaya bölgesindeki ölümcül saldırıdan altı ay sonra şüpheli sürücü Bölge Mahkemesi'nin karşısına çıktı. İddianame, iki olayda kasten öldürme ve 85 olayda kasten öldürmeye teşebbüs suçlamalarını içeriyor.",
+    "t": "Leipzig'te ölümcül araçlı saldırı: iki kişiyi öldürme suçundan dava başladı"
+   },
+   "at": "2026-11-02T17:48Z",
+   "h": "c5e1ee267fd4",
+   "rev": [
+    "Weekday \"Pazartesi\" should be lowercase mid-sentence per TDK",
+    "Teaser: \"Bölge Mahkemesi'nde\" lost the sense of standing trial (\"steht vor dem Landgericht\") and the accusation of murder in two cases; wording made natural",
+    "Headline: \"iki kişiyi öldürmekten yargılama\" is ungrammatical/unnatural",
+    "\"mutmaßlich\" hedge in the teaser: \"şüpheli sürücü\" is fine, but \"saldırı\" instead of Todesfahrt is acceptable; \"ölümcül\" kept",
+    "\"gehört werden könnten\" rendered as possibility: \"mümkün\" is ok but made smoother",
+    "Teaser: indictment is for murder in two cases, not \"iki kişiyi öldürme\" alone; clarified"
+   ],
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Leipzig Bölge Mahkemesi (Arşiv fotoğrafı)"
+   }
+  },
   "leipzig-demichelis-dann-gehe-ich-selbst-2026-11-02": {
    "L": {
     "body": [
@@ -3794,6 +3929,35 @@
     "img.alt": "Luka Dončić, Los Angeles Lakers formasıyla (Arşiv fotoğrafı, Ocak 2026)"
    }
   },
+  "news-world-music-charts-europe-vahdat-november": {
+   "L": {
+    "body": [
+     "İranlı şarkıcılar Mahsa ve Marjan Vahdat, Kasım'da World Music Charts Europe listesinin zirvesinde yer alıyor. İkilinin \"Heart's Endless Garden – Woven Verses\" (KKV/Valley Entertainment) albümü, Moğol grubu Tengerton'un \"Ilch\" albümünün ve Macar topluluğu Söndörgő'nün \"In Residence At Müpa\" albümünün önünde bulunuyor. Dördüncü sırada Macaristan'dan Kerekes Band & Dalinda \"Vadon\" ile, beşinci sırada ise Sırp grup Kal \"Cinema Caravan\" ile yer alıyor.",
+     "Albüm, klasik Fars müziği geleneğindeki özgün bestelerle Avrupa sanat müziğinden unsurları bir araya getiriyor. Kardeşler; Rumi, Hafız, Forough Farrokhzad ve Sohrab Sepehri gibi şairlerin aşk, yas, tutku ve manevi özlem temalı şiirlerini besteliyor. Topluluğun üyeleri arasında ud'da Ara Dinkjian, kanun'da Tamer Pinarbasi ve Hardanger kemanında Norveçli Annbjørg Lien bulunuyor.",
+     "Albüm, TWN'nin pazar günü BaBa ZuLa hakkındaki uzun okuma yazısında andığı kasım ayı Transglobal World Music Chart listesinde de ilk beşte yer almıştı. Listenin tamamını World Music Charts Europe kendi internet sitesinde yayımlıyor."
+    ],
+    "d": "Kasım'da \"Heart's Endless Garden – Woven Verses\" Avrupa dünya müziği listesinin zirvesinde. Onu Moğolistan'dan Tengerton ve Macaristan'dan Söndörgő izliyor.",
+    "t": "World Music Charts Europe: İranlı kardeşler Mahsa ve Marjan Vahdat birinci sırada"
+   },
+   "at": "2026-11-02T17:48Z",
+   "h": "a32e99525fc0",
+   "rev": [
+    "Headline: 'auf Platz eins' lost the German 'Platz' idea; fine, but the draft uses German-style quotation marks „…“ in Turkish text",
+    "Teaser: German quotation marks in Turkish text; replaced with Turkish-style quotes",
+    "Body 1: the Turkish 'albümünün' structure suggests the draft is OK; quote marks changed",
+    "Body 1: 'Kasım ayında' – month capitalisation per TDK: months are lowercase",
+    "Body 3: months lowercase per TDK, 'Kasım ayı' → 'kasım ayı'; weekday 'pazar' is already lowercase",
+    "Body 3: 'Listenin tamamını ... yayımlıyor' – subject unclear, clarified"
+   ],
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Mahsa ve Marjan Vahdat, Fes'te (Fas) bir konserde"
+   }
+  },
   "nuernberg-st-pauli-joker-2026-11-02-b08": {
    "L": {
     "body": [
@@ -4133,6 +4297,35 @@
     "rv.score": "Blabbermouth: 8/10 · AP: 3,5/5"
    }
   },
+  "review-sampa-the-great-nu-zamrock": {
+   "L": {
+    "body": [
+     "Zambiyalı rapçi ve şarkıcı Sampa the Great, üçüncü stüdyo albümü “Nu Zamrock”u 30 Ekim'de Loma Vista etiketiyle yayımladı. Zamrock, 1970'lerin başında Zambiya'da bağımsızlık sonrasındaki kısa süreli bakır patlaması sırasında ortaya çıktı: Black Sabbath ve Jimi Hendrix'i örnek alan, funk ve Zambiya ritimleriyle harmanlanan bir psychedelic rock. Amcası George Kunda (“Groovy Joe”), WITCH grubunun kurucu üyesiydi. Sanatçı, albümü duyururken “Zamrock aile mirasımın bir parçası” dedi; albümün “nostalji olmadığını” da söyledi.",
+     "Clash yazarı Sanaa Byfield 10 üzerinden 8 puan veriyor ve plağı canlı ve meydan okuyucu olarak nitelendiriyor; Byfield'e göre albüm mirası yeni bir döneme taşıyor. Byfield, müzik endüstrisinin baskısını ele alan “Simon Says”i, jeopolitik şarkı “Location”ı ve kasvetli “Canary”yi öne çıkarıyor. The AU Review'dan Justine McNamara beş yıldızdan dört buçuk veriyor: McNamara'ya göre tüm farklılıklara rağmen parçalar dikkat çekici biçimde birbirine uyuyor; albümün en iyi baştan sona dinlendiğinde anlaşılacağını belirtiyor.",
+     "Konuklar arasında Sia (“Supernova”), KAMAUU (“Star”) ve önceden yayımlanan “Can't Hold Us” single'ının birlikte hazırlandığı Mwanjé yer alıyor. “Intro”da amca George Kunda'nın kendisi sohbet ederken duyuluyor. Video, “Can't Hold Us”ı sanatçının resmî kanalında sunuyor."
+    ],
+    "d": "Rapçi, amcasının kurucuları arasında yer aldığı türü, 1970'lerin Zamrock'ını geri getiriyor. Clash 10 üzerinden 8, The AU Review beş yıldızdan dört buçuk veriyor.",
+    "t": "Sampa the Great – “Nu Zamrock” incelemesi: Zambiya'nın psychedelic rock'ı yeni nesil için"
+   },
+   "at": "2026-11-02T17:48Z",
+   "h": "f8d03d44c115",
+   "rev": [
+    "Quote/attribution: the statement that the album is \"keine Nostalgie\" is indirect speech of the artist and read as plain fact; attribution added.",
+    "McNamara's opinion (pieces fit together well; best heard in one go) was rendered as plain fact; attribution/reporting marker added.",
+    "Mwanjé sentence is garbled: it reads as if the single appeared on Mwanjé; it should say the single was made with Mwanjé.",
+    "\"Black Sabbath ve Jimi Hendrix örnek alınan\" is clumsy; \"örnek alan\" is the correct form.",
+    "Video sentence is an awkward rendering; made natural."
+   ],
+   "rev_dbg": [
+    5,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Sampa the Great, 2019 Glastonbury Festivali'nde",
+    "rv.score": "Clash: 8/10 · The AU Review: 4,5/5"
+   }
+  },
   "romero-games-neuer-publisher": {
    "L": {
     "body": [
@@ -4347,6 +4540,27 @@
     "img.alt": "Sembolik fotoğraf: IAA Transportation 2024'te şarj istasyonlu elektrikli kamyon MAN eTGX – projeden değil"
    }
   },
+  "spritpreisdeckel-reiche-huerden-2026-11-02-b1830": {
+   "L": {
+    "body": [
+     "Koalisyonun kararlaştırdığı akaryakıt fiyat tavanı, Ekonomi Bakanı Katherina Reiche'nin (CDU) planlarına göre yalnızca en uç acil durumda devreye giren bir kriz aracı olacak. Bu, Alman Basın Ajansı dpa'nın eline geçen ve ilk bakanlıklar arası görüşme aşamasında bulunan Akaryakıt Azami Fiyat Yasası taslağından anlaşılıyor. Taslağa göre hükümet, ancak Almanya'da benzin veya dizel fiyatları üç hafta art arda, diğer AB ülkelerinin ortalamasından beş yüzde puandan fazla daha sert yükselirse azami fiyat belirleyebilecek. Tavan en fazla üç ay süreyle uygulanacak.",
+     "Azami fiyatın, sağlayıcıların kâr etmeyi sürdürebileceği şekilde belirlenmesi ve bir formülle düzenli olarak alım ve taşıma maliyetlerine göre ayarlanması öngörülüyor. Eyaletler, tek tek ilçeler, kentler veya posta kodu bölgeleri için farklı üst sınırlar belirleyebilecek ve arz güvenliği tehlikeye girerse tavanı askıya alabilecek. Bakanlık, fiyatın çok düşük olmasının teslimatları ekonomik olmaktan çıkarabileceği ve arz darboğazlarına yol açabileceği uyarısında bulundu. Koalisyon liderleri Eylül ayında, tavanın en geç 1 Ocak 2027'den itibaren geçerli olması kararını almıştı; akaryakıt indirimi Aralık sonunda sona eriyor.",
+     "SPD Meclis Grubu Başkan Yardımcısı Armand Zorn temkinli tepki verdi: “Belirleyici olan, sonuçta tüketicilere ne kaldığıdır.” SPD, petrol şirketlerinin kâr marjlarını sınırlamak ve tavanı mümkünse Noel'den önce yürürlüğe sokmak istiyor. Yeşiller'in enerji politikacısı Michael Kellner ise “Akaryakıt fiyat tavanı gerçekte olacağından daha iyi kulağa geliyor” dedi. Almanya Sosyal Dernekler Birliği (Sozialverband Deutschland), tavanın etkisiz kalacak kadar çok kaçak yola sahip olmaması gerektiği uyarısında bulundu."
+    ],
+    "d": "Ekonomi Bakanlığı'nın taslağı, planlanan benzin ve dizel azami fiyatını sıkı koşullara bağlıyor. SPD, Yeşiller ve sosyal dernekler, aracın etkisiz kalabileceği uyarısında bulunuyor.",
+    "t": "Akaryakıt fiyat tavanı yalnızca acil durumda: Reiche yüksek eşikler öngörüyor"
+   },
+   "at": "2026-11-02T17:48Z",
+   "h": "a9e71c4398dc",
+   "rev_dbg": [
+    6,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Bir benzin istasyonunda fiyat panosu (sembolik fotoğraf)"
+   }
+  },
   "strollme-abo-kinderprodukte-geschaeftsmodell-2026-11-02": {
    "L": {
     "body": [
@@ -4371,6 +4585,28 @@
    ],
    "x": {
     "img.alt": "Satın almak yerine abonelik: StrollMe bebek arabası ve çocuk bisikletiyle nasıl kazanıyor"
+   }
+  },
+  "testosteron-verschreibung-bluttests-2026-11-02": {
+   "L": {
+    "body": [
+     "ABD'de birçok erkek, uzmanlık derneklerinin istediği tanı süreci tamamlanmadan testosteron tedavisine başlıyor. Bu durum, Epic Research'ün Cosmos hasta veri tabanına dayanarak 27 Ekim'de yayımladığı ve „Men's Journal“ dergisinin haberleştirdiği analizde ortaya çıktı. Analizde, Ocak 2017 ile Haziran 2026 arasında ilk kez testosteron reçete edilen 300.277 erkeğin verisi incelendi. 2026'nın ilk yarısında erkeklerin yüzde 82,6'sı bir yıl öncesinde kan testi yaptırmıştı, ancak reçeteden önceki altı ayda iki düşük değere sahip olanların oranı yalnızca yüzde 21,8'di.",
+     "Amerikan Üroloji Derneği (AUA), testosteron eksikliğinden ancak sabahın erken saatlerinde yapılan en az iki kan testinde toplam değerin 300 ng/dl'nin altında olması durumunda ve yalnızca düşük cinsel istek, yorgunluk ya da ereksiyon sorunları gibi yakınmalarla birlikte söz ediyor. Tek bir düşük değer tanı için yeterli değil. İncelenen reçetelerin yüzde 57,6'sı aile hekimlerinden, yüzde 17,4'ü ürologlardan, yüzde 11'i ise endokrinologlardan geldi.",
+     "Analiz bağımsız uzmanlarca incelenmedi. Testlerin sabah yapılıp yapılmadığı ve yakınmaların bulunup bulunmadığı verilerden anlaşılamadı; testosteronu doğrudan çevrimiçi satıcılardan temin eden erkekler muhtemelen veri setinde yer almıyor. Haziran ayında Michigan Üniversitesi'nin daha küçük bir çalışması da benzer bir tablo ortaya koymuştu; çalışma Endocrine Society'nin ENDO 2026 kongresinde sunuldu: İlk kez testosteron reçete edilen 200 erkekten yalnızca yüzde 12'si kılavuzlara uygun şekilde incelenmişti. Çalışmanın eş yazarı Maria Papaleontiou, bunda uygunsuz reçeteleri azaltma fırsatları gördüğünü belirtti."
+    ],
+    "d": "Epic Research'ün 300.000'den fazla erkeği kapsayan analizine göre, ürologların kılavuzlarının istediği çift kan testi testosteron tedavisinden önce çoğu zaman yapılmıyor.",
+    "t": "Tanısız testosteron mu? ABD'li hastaların yalnız beşte birinde iki düşük değer vardı"
+   },
+   "at": "2026-11-02T17:48Z",
+   "h": "fbb59406fa29",
+   "rev_dbg": [
+    5,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Bir tıbbi laboratuvarda kan numunesi santrifüje yerleştiriliyor (sembolik fotoğraf)",
+    "kl": "Cinsellik araştırması"
    }
   },
   "tn-alcaraz-titel-wien-2026-11-02": {
@@ -4433,6 +4669,48 @@
    "x": {
     "img.alt": "Valentin Vacherot, 2025'te Basel'deki Swiss Indoors'ta (Arşiv fotoğrafı)",
     "kl": "Tenis"
+   }
+  },
+  "tour-queens-of-the-stone-age-hannover-muenchen-2027": {
+   "L": {
+    "body": [
+     "Queens of the Stone Age, “Perfecth World Tour” turnesini Avrupa konserleriyle genişletti. Solist ve gitarist Josh Homme'un grubu Almanya'da açık havada iki konser verecek: 13 Haziran 2027'de Hannover'deki Gilde Parkbühne'de ve 28 Haziran 2027'de Münih'teki Tollwood Festivali'nde.",
+     "Bilet satışı 6 Kasım Cuma günü saat 10:00'da, aralarında grubun internet sitesi ve Eventim'in de bulunduğu kanallar üzerinden başlayacak. VISIONS'a göre açılış grubu olarak Hollandalı müzisyen Zep Barnasconi'nin elektro punk rap projesi Zep duyuruldu. Avusturya, İsviçre veya Bulgaristan'daki tarihler henüz bilinmiyor.",
+     "Turne, 30 Ekim'de çıkan dokuzuncu albüm “Perfecth”in ardından geliyor. TWN albümü cumartesi günü değerlendirmişti: kısa, tuhaf ve alışılmadık ölçüde samimi, aralarında Dave Grohl'un da bulunduğu konuklarla."
+    ],
+    "d": "Josh Homme'un grubu, yeni albümü “Perfecth”in ardından Gilde Parkbühne'de ve Tollwood Festivali'nde sahne alacak. Biletler 6 Kasım Cuma günü saat 10:00'da satışa çıkıyor.",
+    "t": "Queens of the Stone Age, Haziran 2027'de Hannover ve Münih'te açık hava konseri verecek"
+   },
+   "at": "2026-11-02T17:48Z",
+   "h": "7436f902e9fc",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Queens of the Stone Age solisti Josh Homme, 2007"
+   }
+  },
+  "tour-scorpions-love-peace-rock-n-roll-2027": {
+   "L": {
+    "body": [
+     "Scorpions 2027'de dünya turnesine çıkıyor ve Almanya'da dört arena konseri verecek. “Love, Peace & Rock ’n’ Roll Tour 2027”, Hannoverli grubu 12 Mayıs'ta Stuttgart'taki Hanns-Martin-Schleyer-Halle'ye, 15 Mayıs'ta Dortmund'daki Westfalenhalle'ye, 19 Mayıs'ta Frankfurt'taki Festhalle'ye ve 22 Mayıs'ta Münih'teki Olympiahalle'ye götürüyor.",
+     "CTS Eventim ve myticket üzerinden özel çevrimiçi ön satış, 4 Kasım Çarşamba günü saat 11:00'de başlıyor; Rock-Journal'a göre genel satış ise 6 Kasım Cuma günü yine saat 11:00'de başlayacak. Duyurularda bilet fiyatları açıklanmadı.",
+     "Duyurulara göre tur programında Avrupa'da, ABD'de ve Meksika'da başka konserler de yer alıyor; Avusturya, İsviçre veya Bulgaristan dahil bu konserlerin tarihleri henüz açıklanmadı."
+    ],
+    "d": "Hannoverli grup, “Love, Peace & Rock ’n’ Roll Tour 2027” ile Stuttgart, Dortmund, Frankfurt ve Münih'e geliyor. Ön satış 4 Kasım'da başlıyor.",
+    "t": "Scorpions Mayıs 2027'de Almanya'da dört arena konseri verecek – ön satış Çarşamba"
+   },
+   "at": "2026-11-02T17:48Z",
+   "h": "607b856d300f",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Scorpions üyeleri Klaus Meine, Matthias Jabs ve Rudolf Schenker, Chicago, 1980"
    }
   },
   "trainer-erklaeren-rueckenschmerzen-video-2026-11-02": {
@@ -4601,6 +4879,95 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Robert Whittaker"
+   }
+  },
+  "unsw-perc-solarzellen-video": {
+   "L": {
+    "body": [
+     "Sydney'deki New South Wales Üniversitesi (UNSW), 2 Kasım'da bir üniversite laboratuvarından dünya çapındaki güneş enerjisi üretimine uzanan yolu anlatan kısa bir video yayımladı. Video açıklamasında, güneş enerjisini daha verimli ve daha ucuz hale getirerek bu araştırmanın iklimin korunması için en etkili araçlardan birinin ortaya çıkmasına katkıda bulunduğu belirtildi.",
+     "Hikâyenin merkezinde, fizikçi Martin Green liderliğindeki bir ekibin 1983'te icat ettiği PERC hücresi (Passivated Emitter and Rear Cell) yer alıyor. Green, 1974'te Avustralya'nın ilk güneş araştırma laboratuvarını kurmuştu. Üniversitenin verdiği bilgiye göre standart silikon hücrelerin verimliliği 1980'lerin başındaki yüzde 16,5'ten 2000'lerin başında yüzde 25'e yükseldi. Green, araştırma grubunun 50. kuruluş yıl dönümü vesilesiyle Aralık 2024'te şunları söyledi: “PERC güneş enerjisi patlamasını başlattı. Ancak iyileştirme için hâlâ büyük bir alan var.”",
+     "Çalışmalar sürüyor: UNSW'nin kendi derlemesine göre üniversite, Nisan 2026'da Avustralya'nın güneş modülü geri dönüşümü alanındaki ilk araştırma merkezini açtı. Ayrıca ekipler ve üniversiteden ayrılan girişimler, güneş enerjisini ve batarya depolamayı çok daireli binalarda yaşayanlara da erişilebilir kılmak ve güneş hücrelerindeki pahalı gümüşün yerine bakır kullanmak için çalışıyor."
+    ],
+    "d": "New South Wales Üniversitesi'nin yeni videosu, Sydney'de geliştirilen bir güneş hücresi tasarımının nasıl dünya standardı haline geldiğini anlatıyor. Üniversiteye göre bu teknoloji bugün güneş modüllerinin yaklaşık yüzde 90'ında kullanılıyor.",
+    "t": "Sydney'den güneş hücreleri: UNSW videosu, panellerin yaklaşık %90'ında kullanılan teknolojiyi anlatıyor"
+   },
+   "at": "2026-11-02T17:48Z",
+   "flag": [
+    "Titel zu lang (103 Zeichen)",
+    "Teaser zu lang (242 Zeichen)"
+   ],
+   "h": "dd1a02382d3d",
+   "rev": [
+    "Teaser: 'Üniversiteye göre teknolojisi' is awkward and the antecedent is unclear; fixed to 'teknolojisinin'.",
+    "Body 1: the indirect speech is already attributed ('Video açıklamasında ... belirtildi'), so it is fine. The causal clause is slightly ambiguous but acceptable."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Kristal silikon PERC güneş hücresinin ön ve arka yüzü"
+   }
+  },
+  "utah-altersverifikation-erotikseiten-2026-11-02": {
+   "L": {
+    "body": [
+     "ABD'nin Utah eyaleti, bu pazartesiden (2 Kasım) itibaren ağırlıklı olarak pornografik içerik sunan ve kullanıcılarının yaşını yeterince kontrol etmeyen web sitelerine karşı harekete geçiyor. KSL ve Fox 13 kanallarının haberine göre bunu eyaletin Ticaret Bakanlığı duyurdu. Dayanak, 2023'ten beri yürürlükte olan bir düzenlemeyi genişleten ve bu yıl kabul edilen yasa (SB73). Buna göre “18 yaşından büyüğüm” yazılı bir düğme yeterli değil; hizmet sağlayıcılar kullanıcılarının reşit olduğunu kanıtlayabilmek zorunda.",
+     "İhlal halinde vaka başına 2.500 dolara kadar ceza öngörülüyor; bakanlığın tüketici koruma birimi ayrıca dava da açabiliyor. Yasa ayrıca yetişkin siteleri için bir vergi getiriyor; bu verginin yasanın uygulanmasının ve gençlerin ruh sağlığına yönelik bir fonun finansmanını sağlaması amaçlanıyor. Buna karşın, kullanıcılar denetimi VPN ile aştığında da hizmet sağlayıcıları sorumlu tutmayı amaçlayan bölüm askıya alındı: Bir federal mahkeme, Pornhub'ın sahibi Aylo'nun açtığı davanın ardından bu bölümü geçici olarak durdurdu.",
+     "Aylo, ilk yasanın ardından sitelerini Utah'taki kullanıcılara kapatmıştı. KSL'ye göre şirket, yıllardır yaş doğrulamayı desteklediğini, ancak doğrudan cihaz üzerinde yapılan kontrolü en iyi çözüm olarak gördüğünü açıkladı. Avrupa'da da bu tür yükümlülükler tartışılıyor: Fransa 2025'ten beri porno platformlarında yaş doğrulaması istiyor, Avusturya ise VOL.AT'a göre örneğin ID Austria ile benzer bir kural planlıyor."
+    ],
+    "d": "Utah Ticaret Bakanlığı pazartesiden itibaren yetişkin sitelerinin kullanıcıların yaşını gerçekten doğrulayıp doğrulamadığını denetliyor. “18 yaşından büyüğüm” tuşu yetmiyor. Yasanın bir kısmı geçici olarak durduruldu.",
+    "t": "Utah, pornografik sitelerde yaş doğrulamayı zorunlu kılıyor: ihlal başına 2.500 dolara kadar ceza"
+   },
+   "at": "2026-11-02T17:48Z",
+   "flag": [
+    "Titel zu lang (97 Zeichen)"
+   ],
+   "h": "479921728994",
+   "rev": [
+    "Headline/teaser: \"durchsetzen\" and \"prüft ab Montag\" are rendered loosely; the teaser's \"pazartesiden itibaren ... denetliyor\" is acceptable",
+    "Tax is meant to finance enforcement (Durchsetzung), not \"uygulama\" (application); clarified",
+    "Quote \"Ich bin über 18\" is rendered as \"18 yaşından büyüğüm\", which is fine",
+    "\"Ab Montag\" in the first paragraph: the German says the announcement came from the ministry; the Turkish wording is awkward but correct",
+    "Untranslated word \"kontrol\" is a normal Turkish word, no fix needed"
+   ],
+   "rev_dbg": [
+    5,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Utah parlamentosuna ev sahipliği yapan Salt Lake City'deki Utah State Capitol (Arşiv fotoğrafı)",
+    "kl": "Toplum ve Trendler"
+   }
+  },
+  "vfb-stuttgart-galatasaray-champions-league-2026-11-02-b1830": {
+   "L": {
+    "body": [
+     "VfB Stuttgart, Şampiyonlar Ligi lig aşamasının dördüncü haftasında salı günü (18.45, DAZN) Galatasaray'a karşı tarihindeki ilk resmi maçına çıkacak. Svabyalılar ilk üç maçtan iki galibiyet ve bir beraberlik çıkardı ve moralli bir şekilde yola çıkıyor: Cumartesi günü Bundesliga'da Leverkusen deplasmanında 4-2 kazandılar. Son antrenman pazartesi akşamı İstanbul'daki stadyumda yapıldı.",
+     "Teknik direktör Sebastian Hoeneß, yaklaşık 52.000 seyirci kapasiteli stadyumda “çok ama çok yoğun” ve “hararetli” bir akşam bekliyor. Antrenmanda gürültü simülasyonu yapılmadı: “Müzik kutusu kurmadık” dedi Hoeneß. Savunmacı Maximilian Mittelstädt “çok ama çok fazla ıslık” bekliyor, spor direktörü Fabian Wohlgemuth ise “son derece duygusal bir maç” öngörüyor.",
+     "Galatasaray kadrosunda Leroy Sané ve Ilkay Gündoğan olmak üzere iki eski Alman milli oyuncu bulunuyor. Sané henüz ilk golünü bekliyor, Gündoğan şimdiye kadar yalnızca kısa süreli oyuna girdi. Ayrıca Galatasaray, Alman takımlarına karşı üst üste dokuz Avrupa maçında evinde kazanamadı; son galibiyet Kasım 1992'de geldi."
+    ],
+    "d": "Galatasaray'a karşı ilk resmi maç: VfB Stuttgart salı günü 18.45'te İstanbul'da sahaya çıkıyor. Hoeneß, Sané ve Gündoğan'a karşı “hararetli” bir mücadele bekliyor.",
+    "t": "Cehennem kazanında ilk kez: VfB, Galatasaray deplasmanında bir sonraki adımı atmak istiyor"
+   },
+   "at": "2026-11-02T17:48Z",
+   "h": "e8197a86db15",
+   "rev": [
+    "Teaser: German says Hoeneß expects a heated duel against Sané and Gündogan; the Turkish is fine but the \"Gündogan\" spelling should use the Turkish form Gündoğan.",
+    "Body paragraph 2: the reporting of Hoeneß's statement is garbled, because Mittelstädt's and Wohlgemuth's expectations are attributed to Hoeneß (\"diyen Hoeneß ... söyledi\"). Fixed so each person is att",
+    "Body paragraph 3: \"Gündogan\" should be \"Gündoğan\" (established Turkish spelling).",
+    "Body paragraph 3: \"Gegen deutsche Teams haben sie\" refers to both Galatasaray and its players; the draft is acceptable, but \"Avrupa maçında\" should be \"Avrupa kupası evinde maçında\"; the draft's \"evin",
+    "Headline: \"Hexenkessel\" is translated as \"Cehennem kazanı\" (literal); the Turkish idiom is \"Cehennem\" for such stadiums."
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Galatasaray'ın İstanbul'daki stadyumu (Arşiv fotoğrafı)"
    }
   },
   "victorias-secret-angel-glow-tutorial": {
@@ -5315,6 +5682,34 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Vietnam'ın Hai Phong Limanı'nda konteyner gemisi"
+   }
+  },
+  "wizz-air-london-sofia-bombendrohung-budapest-2026-11-02-b1830": {
+   "L": {
+    "body": [
+     "Londra-Luton'dan Sofya'ya giden bir Wizz Air uçağı, pazartesi günü bomba tehdidi üzerine Budapeşte'ye yönlendirildi. Macaristan Savunma Bakanı Romulusz Ruszin-Szendi'nin verdiği bilgiye göre, NATO hava savunmasının talimatıyla birkaç dakika içinde Macar Hava Kuvvetleri'ne ait bir Gripen savaş uçağı havalandı. Savaş uçağı yolcu uçağına Liszt Ferenc Havalimanı'na inene kadar eşlik etti, ardından Kecskemét'teki üssüne döndü. Sonraki işlemleri polis üstlendi.",
+     "Bulgaristan devlet yayıncısı BNT'nin öğleden sonra geç saatlerde bildirdiğine göre, uçakta bomba bulunmadı. Wizz Air sözcüsü András Radó, BNT'ye yaptığı açıklamada havayolu şirketinin uçuşta bir patlayıcı konusunda uyarı aldığını ve uçağı protokol gereği kontrol için Budapeşte'ye yönlendirdiğini söyledi. Radó, yolculara yemek, su ve bebek maması verildiğini de söyledi. BNT'ye göre yolcular da kontrolden geçirildi; uçak aranırken terminalde beklediler. Uçakta kaç kişinin bulunduğu bilinmiyor.",
+     "Bir yolcu BNT'ye, mürettebatın inişi başlangıçta teknik bir ara iniş olarak duyurduğunu; inişten sonra 20 ila 30 polis aracının hazır beklediğini ve uçakta panik yaşanmadığını anlattı. Bulgaristan Havacılık Sanayii Birliği'nden Todor İvançikov bunun standart bir prosedür olduğunu söyledi ve hibrit savaş kapsamındaki tehditlerin giderek havacılığa da ulaştığını belirtti."
+    ],
+    "d": "Bomba tehdidi nedeniyle Luton'dan Sofya'ya giden bir Wizz Air uçağı Budapeşte'ye inmek zorunda kaldı. Uçağa bir Macar savaş uçağı eşlik etti. Aramada patlayıcı bulunmadı.",
+    "t": "Londra–Sofya uçuşuna bomba tehdidi: Gripen, Wizz Air uçağına Budapeşte'ye kadar eşlik etti"
+   },
+   "at": "2026-11-02T17:48Z",
+   "h": "feb25f3f6e9d",
+   "rev": [
+    "Weekday \"Pazartesi\" should be lowercase mid-sentence per TDK",
+    "\"Wizz Air Sözcüsü\" title should be lowercase (\"sözcüsü\")",
+    "Teaser: \"Aramada patlayıcı bulunmadı\" is fine; headline OK",
+    "Name transliteration: Iwandschikow is rendered as Ivanchikov; standard Bulgarian Turkish spelling is \"İvançikov\"",
+    "Passive \"belirtildi\" for passengers being supplied: attribution to the spokesperson is unclear, so it should be made explicit"
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Wizz Air'e ait bir Airbus A321 (Arşiv fotoğrafı)"
    }
   },
   "zimmermann-cruise-2027-abendmode": {
