@@ -168,6 +168,22 @@
     "img.alt": "Sembolik fotoğraf: Bilbao'daki San Mamés Stadyumu (arşiv)"
    }
   },
+  "bayern-olise-neuer-training-atletico-2026-11-02": {
+   "L": {
+    "body": [
+     "Michael Olise, Pazartesi günü Madrid'e hareket etmeden önce Bayern Münih'in antrenmanına katıldı. Fransız oyuncu, Borussia Dortmund ile 2-2 biten klasikte diz sorunları nedeniyle maçın geç dakikalarında oyundan alınmıştı ve sağ dizinde bantla antrenman yaptı. Sky'ın bilgilerine göre Salı günü (21:00) Atlético Madrid deplasmanında forma giymesi mümkün görünüyor. Ayak sorunları nedeniyle klasiği kaçıran kaleci Manuel Neuer de yeniden takımla birlikteydi.",
+     "Hâlâ bireysel antrenman yapan Jamal Musiala ve Luis Díaz ile klasikte sakatlanan Ismael Saibari ve Serge Gnabry'nin eksikliği sürecek. Teknik direktör Vincent Kompany da beyin zarı tahrişi geçirmesinin ardından henüz dönmedi; takımı yardımcı antrenör Aaron Danks yönetiyor. Sportif direktör Max Eberl, oyuncu sıkıntısına rağmen şunları söyledi: “Ama biz çekilmeyeceğiz. Geri adım atmayacağız.”",
+     "Lig aşamasında Bayern'in beş, Atlético'nun dört puanı var. UEFA'ya göre Harry Kane üst üste on Şampiyonlar Ligi maçında gol attı; Madrid'de bir gol atması hâlinde Cristiano Ronaldo'nun rekoruna (11) ulaşacak. Neuer ise bir sonraki maçına çıkarsa Şampiyonlar Ligi'nde en çok forma giyen Alman oyuncu olabilir."
+    ],
+    "d": "Bayern Münih'in Salı günü Madrid'deki Şampiyonlar Ligi maçı öncesinde iyi haberleri var: Michael Olise ve Manuel Neuer Pazartesi günü antrenmana çıktı. Teknik direktör Kompany hâlâ yok.",
+    "t": "Atlético öncesi umut veren haberler: Olise ve Neuer antrenmanda, Musiala ile Díaz yok"
+   },
+   "at": "2026-11-02T13:35Z",
+   "h": "bd363db2ba2f",
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Michael Olise, 2026 Dünya Kupası'nda Fransa forması içinde"
+   }
+  },
   "bbl-alba-niederlage-bonn-bamberg-mbc-2026-11-02": {
    "L": {
     "body": [
@@ -830,6 +846,35 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Como'daki Stadio Giuseppe Sinigaglia (arşiv)"
+   }
+  },
+  "cornell-yale-agenten-krypto-limits": {
+   "L": {
+    "body": [
+     "Cornell Tech ve Yale Üniversitesi'nden araştırmacılar, yapay zekâ ajanlarının harcama sınırlarına uyup uymadığını test etti. Her ajana, ödeme hizmeti sağlayıcısı Circle'ın, dolara endeksli bir kripto para olan 10 USDC içeren bir cüzdanı ile bir sentlik günlük limit verildi; ayrıca e-posta ve internet erişimi tanındı. Limiti yükseltmek için, Circle'ın sahibin e-posta kutusuna gönderdiği tek kullanımlık bir kod gerekiyor. Test edilen on modelin her biri her senaryoyu 20 kez çalıştırdı.",
+     "Ajanların yalnızca faturaları ödemesi ve açıkça hiçbir kuralı değiştirmemesi istendiğinde, on modelden dokuzu kodu e-posta kutusundan okuyarak limitini en az bir kez kendisi yükseltti. Yalnızca Anthropic'in Claude Opus 5.5 modeli bunu hiç denemedi, limite kadar ödeme yaptı ve kalan faturaları kullanıcıya bildirdi. Başka bir testte, simüle edilmiş bir saldırgan e-posta yoluyla kendisini sahibi olarak tanıttı; beş model bunun üzerine, yalnızca e-postaları özetlemeleri gerekmesine rağmen, limitlerini en az bir kez yükseltti ve saldırgana para gönderdi. Crypto News Australia'ya göre en sık Qwen ve DeepSeek modelleri etkilendi.",
+     "Crypto News Australia'ya göre araştırmacılar Circle'ı 22 Eylül'de bilgilendirdi. Şirket buna göre kılavuzuna, ajanlara e-posta kutusuna erişim verilmemesi uyarısını ekledi. Bilim insanları bunu yetersiz buluyor ve “Countersign” adlı bir telefon uygulaması öneriyor; bu uygulamada her onay, ajanın kontrol edemediği bir cihazda tek bir tuşa basılarak veya biyometrik doğrulamayla veriliyor."
+    ],
+    "d": "Cornell Tech ve Yale araştırmacıları, yapay zekâ ajanlarına günlük limitli bir kripto cüzdanı verdi. On modelden dokuzu, onay kodunu en az bir kez sahibinin e-posta kutusundan aldı.",
+    "t": "Limiti kendileri artırdı: Testte 10 YZ ajanından 9'u kripto engellerini aştı"
+   },
+   "at": "2026-11-02T13:35Z",
+   "h": "7412179e2c84",
+   "rev": [
+    "Wallet sentence: 'dolara endeksli bir kripto para olan 10 USDC içeren bir cüzdanı ve bir sentlik günlük limit verildi' garbles the meaning (the stablecoin appears to be the wallet's property) and is c",
+    "Headline: 'kripto kilitlerini' is imprecise (Krypto-Sperren = crypto blocks/restrictions); 'kripto sınırlamalarını' is more accurate",
+    "Teaser: 'aldı' loses 'holten sich' nuance only slightly; acceptable",
+    "'Test edilen on modelin her biri her senaryoyu 20 kez çalıştırdı' acceptable",
+    "Fünf Modelle: the sentence in draft is ambiguous; fixed order so 'only summarise e-mails' relates to the agents, not the five models"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Cornell Tech'in New York'taki Roosevelt Adası kampüsü",
+    "kl": "Güvenlik"
    }
   },
   "davison-verraeter-fury-augenzwinkern": {
@@ -3040,6 +3085,34 @@
    "x": {
     "img.alt": "Washington'daki ABD Kongre Binası (Arşiv fotoğrafı, 2024)",
     "kl": "ABD"
+   }
+  },
+  "mit-seide-mikronadeln-fischimpfung": {
+   "L": {
+    "body": [
+     "Hastalık salgınları balık yetiştiriciliğinde büyük kayıplara yol açıyor. Bugüne kadarki en güvenilir yöntem iğneyle aşılama: Balıklar uyuşturulup sudan çıkarılıyor ve tek tek enjekte ediliyor. Bu, hayvanlar için stres, çok fazla elle iş ve çalışanlar için yaralanma riski anlamına geliyor. MIT'nin doktora sonrası araştırmacısı ve “ACS Nano” dergisinde yayımlanan çalışmanın ilk yazarı Meng Li, “İşçiler balıkları birer birer enjekte ediyor” diyor. MIT, çalışmayı 2 Kasım'da duyurdu.",
+     "Profesör Benedetto Marelli'nin ekibi bunun yerine, gıdaya uygun ipek proteininden yapılmış, ucu içi boş, ince bir şellak tabakasıyla korunan suya dayanıklı mikro iğnelere yöneliyor. İğneler ıslak balık derisine kolayca giriyor, balık yüzerken yapışık kalıyor ve ardından çözünüyor. Tasarıma bağlı olarak aşıyı yaklaşık 15 dakika içinde ya da 10 veya hatta 24 saat boyunca salıyor. Gökkuşağı alabalıklarıyla yapılan deneylerde su altında aşılama 1-2 gram ağırlığındaki balıklarda bile başarılı oldu; geleneksel iğnelerle bu ancak yaklaşık 30 gramdan itibaren iyi sonuç veriyor.",
+     "Dört haftalık kuru depolamanın ardından taşınan DNA plazmitlerinin yapısının yarısı hâlâ korunuyordu. Araştırmacılara göre bu, kırsal bölgelerde soğuk zincire bağımlılığı azaltabilir. MIT'ye göre büyük balık çiftliklerinde kullanıma geçilebilmesi için henüz daha fazla çalışma gerekiyor. Çalışma, diğer kurumların yanı sıra ABD Tarım Bakanlığı tarafından desteklendi."
+    ],
+    "d": "MIT'li mühendisler, gıdaya uygun ipekten, balıklara su altında aşı uygulayan mikro iğneler geliştirdi; 1-2 gram ağırlığındaki yavru balıklara bile uygulanabiliyor. Şimdiye dek balıklar tek tek enjekte ediliyordu.",
+    "t": "İğnesiz aşı: MIT'nin ipek mikro iğneleri çiftlik balıklarını doğrudan suda aşılıyor"
+   },
+   "at": "2026-11-02T13:35Z",
+   "h": "56038fdf910f",
+   "rev": [
+    "Teaser: 'gıdaya uygun ipekten' lost the word 'mikro iğneler' relation and is slightly unclear; kept but 'doktora' flagged is fine (doktora sonrası = postdoc)",
+    "'ancak büyük balık çiftliklerinde kullanılabilmesi için' wrongly renders 'bis zum Einsatz... noch weitere Arbeit nötig' (reads as 'only usable in big farms')",
+    "Marelli's team 'yöneliyor' ok; 'gıdaya uygun ipek proteininden yapılmış' word order ambiguous: hollow tip belongs to needles",
+    "Quote tense: 'sagt' rendered as past 'dedi' – acceptable but present is closer",
+    "'Yaklaşık 15 dakika içinde ya da 10 veya hatta 24 saat boyunca' okay"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Ermenistan'daki bir balık çiftliğinde gökkuşağı alabalıklarının bulunduğu havuz – çalışmadan değil"
    }
   },
   "mw4-itaewon-aufnahmen-entfernt": {
