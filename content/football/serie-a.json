@@ -1038,7 +1038,10 @@
    "time": "12:30",
    "t1": "Como 1907",
    "t2": "Venezia FC",
-   "ft": null
+   "ft": [
+    1,
+    0
+   ]
   },
   {
    "r": 10,
@@ -1046,7 +1049,10 @@
    "time": "15:00",
    "t1": "Frosinone Calcio",
    "t2": "Torino FC",
-   "ft": null
+   "ft": [
+    2,
+    0
+   ]
   },
   {
    "r": 10,
@@ -1054,7 +1060,10 @@
    "time": "15:00",
    "t1": "SS Lazio",
    "t2": "Cagliari Calcio",
-   "ft": null
+   "ft": [
+    2,
+    1
+   ]
   },
   {
    "r": 10,
@@ -1062,7 +1071,10 @@
    "time": "18:00",
    "t1": "US Lecce",
    "t2": "Genoa CFC",
-   "ft": null
+   "ft": [
+    1,
+    2
+   ]
   },
   {
    "r": 10,
@@ -1070,7 +1082,10 @@
    "time": "20:45",
    "t1": "Juventus FC",
    "t2": "SSC Napoli",
-   "ft": null
+   "ft": [
+    2,
+    0
+   ]
   },
   {
    "r": 10,
@@ -3689,6 +3704,14 @@
   {
    "n": "RTL 102.5 – Bologna-Monza 2-1, Udinese-Roma 2-5, Milan-Inter 3-1 (31.10.2026)",
    "u": "https://www.rtl.it/notizie/sport/calcio/serie-a-bologna-monza-2-1-udinese-roma-2-5-milan-inter"
+  },
+  {
+   "n": "Football Italia",
+   "u": "https://football-italia.net/serie-a-liveblog-como-lazio-juventus-more/"
+  },
+  {
+   "n": "ESPN",
+   "u": "https://www.espn.com/soccer/scoreboard/_/league/ita.1"
   }
  ]
 }

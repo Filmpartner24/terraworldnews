@@ -983,7 +983,10 @@
    "time": "16:30",
    "t1": "Liverpool FC",
    "t2": "Arsenal FC",
-   "ft": null
+   "ft": [
+    0,
+    1
+   ]
   },
   {
    "r": 9,
@@ -3718,6 +3721,10 @@
   {
    "n": "ESPN – Chelsea 2-0 Man Utd (31.10.2026)",
    "u": "https://www.espn.com/soccer/report/_/gameId/401879248"
+  },
+  {
+   "n": "ESPN",
+   "u": "https://www.espn.com/soccer/match/_/gameId/401879246/arsenal-liverpool"
   }
  ]
 }
