@@ -136,6 +136,32 @@
     "rv.score": "The Outer Haven 4/5 · TheSixthAxis 7/10 · OpenCritic 73"
    }
   },
+  "anthropic-ipo-japan-investoren-2026-11-02-b21": {
+   "L": {
+    "body": [
+     "Yapay zekâ şirketi Anthropic, ABD'deki halka arzında Japonya'daki yatırımcılara 552,9 milyar yene kadar, yani yaklaşık 3,5 milyar dolar değerinde hisse satmak istiyor. Reuters haber ajansına göre bu, pazartesi günü yayımlanan bir belgede yer alıyor. Şirket, yeni hisselerden elde edeceği geliri işletme sermayesi, cari giderler ve yatırımlar için kullanmayı planlıyor. Anthropic halka arz başvurusunu ekim ayında yapmıştı.",
+     "Belgede toplam hacim ve değerleme belirtilmiyor. Reuters'a göre bazı yatırımcılar yaklaşık 1,5 trilyon dolarlık bir değerlemeden söz etti. Dataconomy'ye göre Japonya'ya ayrılan payı Mizuho Securities yönetiyor; konsorsiyum bankaları arasında Mizuho ve Mitsubishi UFJ de bulunuyor. Japonya'nın yanı sıra Avustralya, Kanada ve Avrupa'nın bazı bölgelerindeki yatırımcıların da doğrudan talepte bulunabileceği belirtiliyor.",
+     "Karşılaştırma için: Tarihin bugüne kadarki en büyük halka arzı olan ve haziran ayında gerçekleşen SpaceX halka arzında Japon yatırımcılar, 75 milyar dolarlık toplam gelir içinde 2,2 milyar dolarlık hisse aldı."
+    ],
+    "d": "Yapay zekâ geliştiricisi, planlanan ABD halka arzında Japonya'da 552,9 milyar yene kadar değerinde hisse sunuyor. Yaklaşık 1,5 trilyon dolarlık bir değerleme üzerine spekülasyon yapılıyor.",
+    "t": "Halka arz: Anthropic, Japon yatırımcılara 3,5 milyar dolara kadar hisse satmak istiyor"
+   },
+   "at": "2026-11-02T19:06Z",
+   "h": "3f402d93b97b",
+   "rev": [
+    "Turkish capitalisation: month names are lowercase under TDK (\"Ekim ayında\", \"Haziran ayında\" -> \"ekim ayında\", \"haziran ayında\")",
+    "\"Japonya'ya ayrılan payı\" is acceptable; \"2,2 milyar dolarlık kısmı kadar hisse aldı\" is awkward and could be misread as a share of the proceeds; rephrased to match the German (shares worth $2.2 billi",
+    "\"Anthropic ... satmak istiyor\" fine; teaser \"spekülasyon yapılıyor\" is acceptable"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Anthropic CEO'su Dario Amodei (Arşiv fotoğrafı)"
+   }
+  },
   "apple-qwen-apple-intelligence-china": {
    "L": {
     "body": [
@@ -583,6 +609,33 @@
     "img.alt": "Andrey Gyurov, başbakan olarak resmi portre"
    }
   },
+  "bulgarien-haushaltsdefizit-oktober-5-2-mrd-euro-2026-11-02-b21": {
+   "L": {
+    "body": [
+     "Maliye Bakanlığı'nın ön verilerine göre Bulgaristan'ın bütçe açığı Ekim sonuna kadar 5,2 milyar avroya yükseldi. Bu, tahmin edilen gayrisafi yurt içi hasılanın (nakit bazında, konsolide mali program) yüzde 4'üne denk geliyor; haberi BTA haber ajansı pazartesi akşamı duyurdu. Eylül sonunda açık 3,669 milyar avro, yani GSYH'nin yüzde 2,8'i düzeyindeydi; böylece açık tek ayda 1,2 puan ya da yaklaşık 1,5 milyar avro büyüdü.",
+     "Bakanlık nedeni olarak büyük ödemelerin tek bir ayda toplanmasını gösteriyor: Yalnızca Ekim'de yatırımlar ve transferler için 1,1 milyar avrodan fazla ödeme yapıldı. Bunun yaklaşık 0,6 milyar avrosu AB fonlarından geldi; bunun 0,5 milyar avrosu Toparlanma Planı'ndan karşılandı. Ulusal bütçeden yaklaşık 0,5 milyar avro çıktı; bunun 0,4 milyar avrosu Savunma Bakanlığı bütçesinden. Birçok harcama son çeyrekte yoğunlaştı; bunun nedenleri arasında 2026 bütçesinin geç kabul edilmesi ve askeri teçhizat teslimatlarının ödenmesi var.",
+     "Gelirler Ekim sonuna kadar yüzde 9,9 artarak 37,5 milyar avroya ulaştı (yıllık planın yüzde 75,6'sı); harcamalar ise 42,7 milyar avroya çıktı (önceki yıl: 37,5 milyar), bunun 1,0 milyar avrosu AB bütçesine katkı payı. Devlet işletmelerinin temettüleri daha az gelir getirdi. 2026 bütçe yasası tüm yıl için nakit bazında GSYH'nin yüzde 5,7'si oranında açık öngörüyor."
+    ],
+    "d": "Açık tek ayda yaklaşık 1,5 milyar avro arttı: Maliye Bakanlığı, Ekim sonunda ekonomik hasılanın yüzde 4'ü oranında açık bekliyor. Açığı artıran etkenler yatırımlar ve savunma ödemeleri.",
+    "t": "Bulgaristan'ın bütçe açığı Ekim'de 5,2 milyar avroya sıçradı – GSYH'nin yüzde 4'ü"
+   },
+   "at": "2026-11-02T19:06Z",
+   "h": "f6579bd48368",
+   "rev": [
+    "Weekday \"Pazartesi\" should be lowercase per TDK",
+    "Teaser: \"Treiber sind Investitionen und Rüstungszahlungen\" rendered as causal claim \"açığı artırdı\"; make it closer (drivers)",
+    "\"Wiederaufbauplan\" rendered as \"Toparlanma Planı\"; the established Turkish term is \"Toparlanma ve Dayanıklılık Planı\" but the original says only Wiederaufbauplan, so left as is",
+    "\"Verteidigungsministerium Etat\" fine"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sofya'da hükümet binası (Arşiv fotoğrafı)"
+   }
+  },
   "bulgarien-konteyneri-dreyfuvat-burgaski-zaliv-2026-11-02": {
    "L": {
     "body": [
@@ -905,6 +958,37 @@
    ],
    "x": {
     "img.alt": "Konrad-Adenauer-Haus, CDU'nun Berlin'deki genel merkezi (Arşiv fotoğrafı)"
+   }
+  },
+  "cdu-kreisvorsitzende-merz-konferenz-2026-11-02-b21": {
+   "L": {
+    "body": [
+     "CDU tabanında ruh hali, Başbakan ve parti genel başkanı Friedrich Merz'in ilçe başkanları konferansındaki konuşması öncesinde gergin. Yaklaşık 160 ilçe başkanı pazartesi öğleden sonra Berlin'deki parti genel merkezine geldi; t-online'a göre 164 kişi kayıt yaptırmıştı. Bu, yaklaşık 330 ilçe teşkilatının yaklaşık yarısı demek. Konferans kamuoyuna kapalı yapılıyor; akşamın erken saatlerinde Merz'in bir konuşması ve ardından bir tartışma planlanmıştı.",
+     "Oberhavel ilçe başkanı Frank Bommert, Alman Basın Ajansı'na (dpa) “Kazan kaynıyor” dedi. Bommert, yalnızca Merz'in verdiği sözleri yerine getirmesini beklediğini söyledi ve planlanan daha yüksek tütün vergisini ve şeker vergisini eleştirdi. Frankfurt (Oder) ilçe başkanı Désirée Schrade ise büyük bir memnuniyetsizlik olduğunu belirterek şunları söyledi: “Taban ile Konrad-Adenauer-Haus arasında bağ yok.” Dresden ilçe başkanı Ingo Flemming de vatandaşların “Berlin'in uyarıyı duyduğu izlenimine sahip olmadığını” söyledi.",
+     "CDU ağır bir kriz içinde: Mecklenburg-Vorpommern'de Eylül ayında ilk kez eyalet meclisinin dışında kaldı, ülke genelinde ise anketlerde AfD, Birlik'in (CDU/CSU) önünde yer alıyor. Bommert, Merz'in istifasına yönelik taleplere karşı çıktı. Görüşmelerin sonuçları başlangıçta henüz ortada yoktu."
+    ],
+    "d": "Yaklaşık 160 CDU ilçe başkanı Berlin'deki parti genel merkezinde bir araya geldi. Başbakanın konuşmasından önce çoğu Berlin, vergiler ve parti yönetimi konusundaki öfkesini dile getirdi.",
+    "t": "“Kazan kaynıyor”: CDU ilçe başkanları Merz'in konuşması öncesi öfkesini dile getirdi"
+   },
+   "at": "2026-11-02T19:06Z",
+   "h": "8a946dffd214",
+   "rev": [
+    "Headline: 'Kreischefs' rendered as 'il başkanları' while body and teaser use 'ilçe başkanları' – made consistent",
+    "Teaser: 'Die Führung' (party leadership) fine, but 'Konrad-Adenauer-Haus' replaced by generic text; acceptable",
+    "Weekday 'Pazartesi' wrongly capitalised mid-sentence (TDK)",
+    "Grammar: 'tütün vergisini ile şeker vergisini' broken",
+    "'Frankfurt (Oder) ilçe başkanı Désirée Schrade' – female, fine; 'Kreisvorsitzende' ok",
+    "Idiom 'den Schuss gehört hat' rendered as 'uyarıyı duyduğu' – acceptable; but quote lacks proper structure: 'Berlin'in uyarıyı duyduğu izlenimine sahip olmadığını' is fine",
+    "'Mecklenburg-Vorpommern' is a proper name, kept",
+    "'Ergebnisse ... lagen zunächst nicht vor' rendered as 'açıklanmadı' (announced) – slight shift to 'henüz mevcut değildi'"
+   ],
+   "rev_dbg": [
+    11,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin'deki Konrad-Adenauer-Haus (Arşiv fotoğrafı)"
    }
   },
   "chanel-winterfilm-feiertage-2026": {
@@ -2204,6 +2288,33 @@
     "rv.score": "Fragman"
    }
   },
+  "flick-barcelona-aston-villa-champions-league-2026-11-02-b21": {
+   "L": {
+    "body": [
+     "Hansi Flick, FC Barcelona'nın salı günü (21.00) Aston Villa ile oynayacağı Şampiyonlar Ligi maçı öncesinde büyük hedefler dile getirdi. Sezon hedefleri sorulan Alman teknik direktör şöyle konuştu: “Those are to win La Liga and the Champions League” (“Lig şampiyonluğunu ve Şampiyonlar Ligi'ni kazanmak”). Flick ayrıca şunu söyledi: “We have the quality to make history” (“Tarih yazacak kaliteye sahibiz”). Flick, lig aşamasında ilk sekize girmek istediklerini belirtti.",
+     "Flick, rakibi “harika bir formda olan fantastik bir takım” olarak överken, Villa'nın teknik direktörü Unai Emery'yi Avrupa'nın ve dünyanın en iyi teknik direktörlerinden biri olarak niteledi. Villa lig aşamasındaki üç maçını da kazandı ve ikinci sırada yer alıyor; Barcelona ise iki galibiyet ve Paris Saint-Germain'e karşı 2-4'lük yenilgiyle sekizinci sırada bulunuyor.",
+     "Kadro açısından savunma sorun yaratıyor: Al Jazeera'ye göre Eric García, Jules Koundé ve Xavi Espart sakatlıkları nedeniyle oynayamayacak. Flick, durumun “normal olmadığını” söyledi. Andreas Christensen son olarak tarafsız oyuncu olarak antrenmanlara katıldı. Flick ayrıca Alejandro Balde'ye destek verdi ve onu her antrenmanda çok iyi gördüğünü söyledi."
+    ],
+    "d": "Barcelona Teknik Direktörü Hansi Flick, rakip Aston Villa için “fantastik bir takım” dedi; sezon hedefi olarak lig şampiyonluğunu ve Şampiyonlar Ligi kupasını açıkladı. Maç salı günü saat 21.00'de başlayacak.",
+    "t": "Flick'ten Aston Villa maçı öncesi: “Tarih yazacak kaliteye sahibiz”"
+   },
+   "at": "2026-11-02T19:06Z",
+   "h": "2e3eee0a0568",
+   "rev": [
+    "Weekday \"Salı\" must be lowercase mid-sentence per TDK (teaser)",
+    "Weekday \"Salı\" must be lowercase in the body",
+    "Teaser: \"harika bir takım\" does not match the German \"eine fantastische Mannschaft\" (wording differs from the body)",
+    "\"2-4'lük yenilgiyle\" fine; \"Andreas Christensen ... tarafsız oyuncu\" is a literal rendering of \"neutraler Spieler\" (more natural: \"nötr oyuncu\")"
+   ],
+   "rev_dbg": [
+    4,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Hansi Flick, FC Barcelona basın toplantısında (Arşiv fotoğrafı)"
+   }
+  },
   "florida-learjet-absturz-greenacres-2026-11-02-b1530": {
    "L": {
     "body": [
@@ -2278,6 +2389,35 @@
    ],
    "x": {
     "img.alt": "Carl Froch, 2010 (Arşiv fotoğrafı)"
+   }
+  },
+  "fuellkrug-werder-bremen-fritz-west-ham-2026-11-02-b21": {
+   "L": {
+    "body": [
+     "Werder Bremen, Niclas Füllkrug'u içinde bulunulan sezonun ötesinde de Weser kıyısında tutmak istiyor. Sportif direktör Clemens Fritz “DeichStube”e yaptığı açıklamada “Niclas'la yaz sonrasında da seve seve devam ederdik” dedi. Fritz'e göre forvet de bunu düşünebilir: “Onun da bunu gayet iyi düşünebildiğini biliyorum.”",
+     "33 yaşındaki oyuncu, sözleşmesi 2028'e kadar süren West Ham United'dan bir sezonluğuna kiralık olarak oynuyor. Kiralık dönemin sona ermesinin ardından, yani 2027 yazında, önce Londra'ya geri dönecek. Fritz, “üçüncü bir tarafın da söz sahibi olduğunu ve futbolun çok dinamik olduğunu” kabul etti. Füllkrug ne kadar çok gol atarsa, olası bir bonservis bedelinin o kadar yüksek olması bekleniyor.",
+     "Sportif açıdan işler parlak gidiyor: Füllkrug on resmi maçta on iki gol attı, bunların dokuzu sekiz Bundesliga maçında geldi; böylece gol krallığı yarışında başta yer alıyor. Cumartesi günü Hoffenheim'a karşı 2-0 kazanılan maçta üst üste yedinci kez fileleri havalandırdı; Werder'de bu, en son 1982/83 sezonunda başarılmıştı. Bremen puan tablosunda beşinci sırada yer alıyor."
+    ],
+    "d": "On resmi maçta on iki gol: Werder Bremen, kiralık forvet Niclas Füllkrug'u kalıcı olarak kadrosunda tutmak istiyor. Sportif direktör Clemens Fritz ise West Ham'ı “üçüncü taraf” olarak gösteriyor.",
+    "t": "Werder Füllkrug'u tutmak istiyor: “Yaz sonrasında da seve seve devam ederdik”"
+   },
+   "at": "2026-11-02T19:06Z",
+   "h": "170bc2a87d77",
+   "rev": [
+    "Teaser said Fritz 'gösteriyor' – acceptable; kept.",
+    "Body: 'Nach Ablauf der Leihe im Sommer 2027' – German says summer 2027 for loan end, draft matches (German itself oddly one-season loan); kept.",
+    "Hoffenheim'a karşı → Hoffenheim karşısında/ile: 'Hoffenheim'a karşı' is fine.",
+    "Fritz quote 'seve seve devam ederdik' in body vs headline 'devam ederiz': inconsistent; German 'würden' = conditional, headline German is 'gerne über den Sommer hinaus' without verb; fixed headline to",
+    "Last sentence of paragraph 3 'beşinci sırada' lacks the verb formality; changed to 'Bremen puan tablosunda beşinci sırada yer alıyor' (minor).",
+    "Indirect speech 'Fritz'e göre forvet de bunu düşünebilir' is attributed; kept."
+   ],
+   "rev_dbg": [
+    6,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Bremen'deki Weserstadion (Arşiv fotoğrafı)"
    }
   },
   "gesundheit-mrna-krebsimpfung-melanom-einordnung-2026-11-02": {
@@ -3093,6 +3233,36 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Colorado, Rocky Dağları'nda East River vadisi"
+   }
+  },
+  "koepenick-tankstelle-raub-schuss-2026-11-02-b21": {
+   "L": {
+    "body": [
+     "Berlin-Köpenick'te Friedrichshagener Straße üzerindeki bir benzin istasyonuna, kimlikleri belirsiz iki maskeli erkek baskın düzenledi. Polisin verdiği bilgilere göre saat 23.20 sularında satış alanına girdiler ve bir çalışandan nakit para istediler. Kadın başlangıçta tepki vermeyince, failden birinin muhtemelen bir kurusıkı tabancayla tavana doğru ateş ettiği belirtildi.",
+     "Bunun üzerine çalışan kasayı açtı. Erkekler, üç haneli düşük bir miktarda nakit parayı alarak yaya olarak kaçtı. Polis bilgilerine göre kimse yaralanmadı.",
+     "Polis Müdürlüğü 3 (Doğu) bünyesindeki bir uzman komiserlik, ağır yağma suçundan soruşturma yürütüyor. Polis olayı pazartesi günü kamuoyuna duyurmuştu; şimdiye kadar gözaltı bildirilmedi."
+    ],
+    "d": "Berlin-Köpenick'te iki maskeli erkek bir benzin istasyonuna baskın düzenledi. Polise göre biri, muhtemelen bir kurusıkı tabancayla tavana ateş etti. Kimse yaralanmadı.",
+    "t": "Tavana ateş: Maskeli kişiler Köpenick'te benzin istasyonuna baskın yaptı"
+   },
+   "at": "2026-11-02T19:06Z",
+   "h": "450c1bf01ce2",
+   "rev": [
+    "\"Pazartesi\" should be lower-case mid-sentence per TDK (\"pazartesi\")",
+    "\"gürültü silahı\" is an unnatural rendering of Schreckschusswaffe; the standard term is \"kurusıkı tabanca\"",
+    "\"silahlı baskın\" in the teaser is an addition not in the German original (the weapon is only presumed to be a blank-firing gun)",
+    "\"Erkekler\" for \"Die Männer\" should read \"Erkekler\" – fine, but the amount phrase \"üç haneli rakamın alt aralığında\" is awkward; reworded to \"üç haneli düşük bir miktarda\"",
+    "\"Polis Müdürlüğü 3 (Doğu)\" is Polizeidirektion; wording kept but \"Polis Bölge Müdürlüğü\" not needed",
+    "\"iddiaya göre\" in the teaser: German says \"laut Polizei mutmaßlich\", so order adjusted to keep the attribution"
+   ],
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin Polisi'ne ait devriye aracı (Sembolik fotoğraf)",
+    "kl": "Berlin"
    }
   },
   "krafttraining-kurze-einheiten-2026-11-02": {
@@ -4628,6 +4798,35 @@
     "img.alt": "Kapak görseli: Cenevre’deki Sotheby’s’te kraliyet mücevherleri"
    }
   },
+  "spd-aufruf-gegen-linke-koalition-berlin-2026-11-02-b21": {
+   "L": {
+    "body": [
+     "SPD içinde Berlin'de Sol Parti liderliğindeki bir eyalet hükümetine yönelik direnç büyüyor. Tagesspiegel'e göre “Her ne pahasına olursa olsun değil” çağrısını Almanya genelinde yaklaşık 1288 SPD üyesi imzaladı; aralarında Savunma Bakanı Boris Pistorius, eski Sağlık Bakanı Karl Lauterbach, eski parti lideri Sigmar Gabriel ve Berlin Ekonomi Senatörü Franziska Giffey de bulunuyor. Giffey'in verdiği bilgiye göre imzacıların yaklaşık yüzde 20'si Berlin'den. Girişim, SPD üye oylamasında “hayır” oyu vermek istiyor.",
+     "Girişimin başlatıcıları protestolarını özellikle Berlin Sol Partisi'nin antisemitizmle başa çıkış biçimine dayandırıyor. Açık mektupta “DIE LINKE Berlin eyalet örgütünün hükümet etme yeteneğine sahip olup olmadığına dair ciddi şüpheler” dile getiriyorlar. Seçim sonucuna saygı duyduklarını, ancak SPD için gelecek eyalet seçimlerinde olumsuz sonuçlardan çekindiklerini belirtiyorlar.",
+     "Sol Parti, Yeşiller ve SPD'nin koalisyon müzakereleri buna rağmen pazartesi günü Berlin Eyalet Meclisi'nde başladı; ilk gün eyalet bütçesi ele alındı. Sol Parti'nin lider adayı Elif Eralp, “Bugün çok iyi görüşmeler yaptık” dedi. 14 uzman çalışma grubunun en geç gelecek haftadan itibaren toplanması öngörülüyor; SPD ve Yeşiller koalisyon sözleşmesini üyelerinin oyuna sunmak istiyor."
+    ],
+    "d": "“Her ne pahasına olursa olsun değil” çağrısı büyüyor: Pistorius, Lauterbach, Gabriel ve Giffey, Sol Parti liderliğindeki ittifaka karşı çıkıyor. SPD, Yeşiller ve Sol Parti müzakereye yine de devam ediyor.",
+    "t": "1300'e yakın SPD üyesi Berlin'de Sol Parti hükümetine karşı – Giffey de imzaladı"
+   },
+   "at": "2026-11-02T19:06Z",
+   "h": "100bdbadd6fd",
+   "rev": [
+    "Untranslated German word 'Abgeordnetenhaus' in body",
+    "'Girişimciler' wrongly used for 'Initiatoren' (means entrepreneurs)",
+    "'Kırmızı-Yeşil-Kırmızı' is a wrong rendering of Rot-Grün-Rot; the coalition should be named Kırmızı-Yeşil-Sol Parti",
+    "'pazartesi' should be lowercase per TDK",
+    "img.alt keeps the German word in parentheses",
+    "Wording of the quote is adjusted for fluency"
+   ],
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin Eyalet Meclisi (arşiv fotoğrafı)"
+   }
+  },
   "spirit-e-e-lkw-bidirektional-laden": {
    "L": {
     "body": [
@@ -4916,6 +5115,35 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Donald Trump bir mitingde konuşma kürsüsünde",
+    "kl": "ABD"
+   }
+  },
+  "trump-supreme-court-california-ballots-2026-11-02-b21": {
+   "L": {
+    "body": [
+     "ABD hükümeti pazartesi günü, Kaliforniya'yı tartışmalı posta oylarını ayırmaya zorlaması için Yüksek Mahkeme'ye başvurdu. Hükümetin baş avukatı (“Solicitor General”) D. John Sauer, yönetimin ifadesine göre ABD vatandaşı olmayan ancak seçmen kütüğünde yer alan kişilerin oy pusulalarının ayrı saklanmasını talep ediyor; Adalet Bakanlığı'nın bir listesine göre bu kişilerin sayısı 20.000'den fazla. Vatandaşlıkları incelenene kadar oylarının sayılmaması isteniyor. Sauer, “Once California commingles the challenged ballots with lawful ones, there is no way to get the challenged ballots back” (“Kaliforniya itiraz edilen oy pusulalarını yasal olanlarla karıştırdığında, bunları geri almanın bir yolu kalmaz”) diye yazdı.",
+     "Hükümet mahkemelerde şimdiye kadar başarısız oldu. Los Angeles'taki federal yargıç David Carter, 28 Ekim'de ihtiyati tedbir talebini reddetti ve “unfounded allegations stemming from a procedure rife with uncertainty and errors” (“belirsizlik ve hatalarla dolu bir usulden kaynaklanan asılsız iddialar”) ifadesini kullandı. 30 Ekim'de 9. Federal Temyiz Mahkemesi'nin bir heyeti de talebi 2'ye 1 oyla reddetti. Eyalet ve yerel seçim makamları listenin doğruluğundan şüphe ediyor ve seçmenlerin oy haklarından mahrum bırakılabileceği uyarısında bulunuyor.",
+     "9. Federal Temyiz Bölgesi'nden gelen acil başvurulardan sorumlu olan yargıç Elena Kagan; tek başına karar verebiliyor ya da tüm mahkemeyi sürece dahil edebiliyor. Kaliforniya'da Ekim başından beri oy kullanılıyor; eyalet sekreterinin ofisine göre pazar gününe kadar 6 milyondan fazla posta oyu ulaştı. Posta oyu belgeleri orada 10 Kasım'a kadar kabul ediliyor."
+    ],
+    "d": "Ara seçimlerden bir gün önce Yüksek Mahkeme'nin, Kaliforniya'yı iddiaya göre vatandaş olmayanların posta oylarını ayırmaya zorlaması isteniyor. İki mahkeme talebi daha önce reddetmişti.",
+    "t": "20.000 oy pusulası tartışması: Trump yönetimi Kaliforniya'yı Yüksek Mahkeme'ye taşıdı"
+   },
+   "at": "2026-11-02T19:06Z",
+   "h": "4bb60b1569a8",
+   "rev": [
+    "Solicitor General rendered as 'Başsavcı Vekili' (Deputy Attorney General); the correct Turkish term is 'Devlet Başsavcısı/Solicitor General' – 'Hükümetin Başavukatı' is closer; changed to 'Hükümetin b",
+    "Capitalisation of 'Eyalet Sekreteri Ofisi' should be lowercase for a generic description",
+    "'Ara seçimlerden bir gün önce' fine; 'Hükümetin Başsavcı Vekili' also repeats 'hükümetin' awkwardly",
+    "'9. Bölge'den gelen' unclear: should be 9. Federal Bölge (9th Circuit)",
+    "'asılsız iddialar' acceptable; 'oy haklarından mahrum bırakılabileceği' slightly changes 'ihr Stimme genommen' but acceptable"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "ABD Yüksek Mahkemesi, Washington (Arşiv fotoğrafı)",
     "kl": "ABD"
    }
   },
