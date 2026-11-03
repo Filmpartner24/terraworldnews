@@ -150,6 +150,33 @@
     "kl": "Berlin"
    }
   },
+  "berlin-haeusliche-gewalt-todesfaelle-2026-11-03-b11": {
+   "L": {
+    "body": [
+     "Berlin'de geçen yıl aile içi şiddet bağlamında 24 kişi hayatını kaybetti: 13 kadın ve 11 erkek. Bu, rbb24 Recherche'nin değerlendirdiği Polis Suç İstatistiği verilerinden anlaşılıyor. 2024'te ölü sayısı 17'ydi. 2025'te 17 olay kasten öldürme veya adam öldürme, üçü ölümle sonuçlanan yaralama, dördü ise taksirle öldürme ile ilgiliydi.",
+     "Berlin polisi toplamda aile içi şiddetin 20.160 mağdurunu kaydetti; bu sayı bir önceki yıla göre yüzde 5'e yakın artış gösterdi. Mağdurların yüzde 70,5'i kadındı. En büyük payı yaralama ve tehdit suçları oluşturdu (yüzde 77,9); bunları ısrarlı takip (yüzde 5,8), zorlama (yüzde 4,1) ve cinsel özgürlüğe karşı suçlar (yüzde 3,7) izledi.",
+     "Brandenburg'da mağdur sayısı 7.126'dan 6.781'e hafifçe geriledi; buna rağmen 2021'den bu yana yaklaşık yüzde 10 daha yüksek. Mağdurların yüzde 69,5'i kadındı. Eyalet polisinin rbb'nin talebi üzerine verdiği bilgiye göre on kişi öldürüldü, bunların sekizi kadın. Mağdurlar, ülke genelindeki “Kadına Yönelik Şiddet” yardım hattından 116 016 numarasıyla günün her saati yardım alabilir."
+    ],
+    "d": "Polis verilerine göre Berlin'de 2025'te aile içi şiddet bağlamında 24 kişi öldürüldü; bir önceki yıl bu sayı 17'ydi. Bunu rbb'nin araştırması ortaya koydu. Brandenburg'da mağdur sayısı hafif düştü.",
+    "t": "Aile içi şiddetten 24 ölüm: Berlin'de belirgin artış"
+   },
+   "at": "2026-11-03T09:16Z",
+   "h": "07f05df307a2",
+   "rev": [
+    "Sentence on case types is garbled: 'Mord oder Totschlag' became 'kasten veya taksirle olmayan adam öldürme', and the structure 'üçü ... dördü' lost the number for the first category",
+    "'Polis verilerine göre... Bunu rbb'nin araştırması ortaya koydu' is acceptable; no change",
+    "Help line sentence has a redundant, awkward construction"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin'de polis aracı (Sembolik fotoğraf)",
+    "kl": "Berlin"
+   }
+  },
   "bg-energie-aktien": {
    "L": {
     "body": [
@@ -174,6 +201,35 @@
     3,
     0
    ]
+  },
+  "bulgarien-gaspreis-strom-fernwaerme-2026-11-03-b11": {
+   "L": {
+    "body": [
+     "Bulgaristan'da doğalgaz belirgin biçimde pahalanıyor: Enerji ve Su Düzenleme Komisyonu (KEVR), Kasım ayı doğalgaz fiyatını yüzde 32,52 artırarak megavatsaat başına 58,43 avroya yükseltti; artış 1 Kasım'dan geçerli olacak şekilde geriye dönük uygulanıyor. Haberi Fakti.bg verdi. “Progresif Bulgaristan” partisi ise bu nedenle hanelerin elektrik ve bölgesel ısıtma faturalarının artmayacağına dair güvence veriyor.",
+     "“Progresif Bulgaristan” milletvekili Dimitar Petrov, Nova televizyonuna yaptığı açıklamada “Fiyat 30 Haziran 2027'ye kadar sabit tutulacak ve buna uygun telafi mekanizmaları oluşturulacak” dedi. Petrov, pahalı gazın otomatik olarak diğer tüm hizmetleri de pahalılaştıracağı yönündeki iddiaları “manipülatif” olarak nitelendirdi. Petrov'a göre, doğrudan gazla ısınan haneler için şu an telafi sağlayacak bir hukuki çerçeve ise bulunmuyor. Fakti.bg'ye göre kaynağın bir kısmı “Elektrik Enerjisi Sisteminin Güvenliği” fonundan gelebilir; şirketler için ise Haziran 2027 sonuna kadar geçerli, belirlenen fiyat farkının yüzde 80'ine kadarını telafi eden bir program var.",
+     "Meclis grup başkanı Petar Vitanov da BNT televizyonunda, BTA'nın aktardığına göre, ne bölgesel ısıtma ne de elektrik fiyatlarının artacağını söyledi. Hükümet, 2027 bütçe taslağını Cuma günü açıklamak istiyor. Haziran'dan bu yana Bulgaristan hakkında aşırı açık usulü yürüten AB Komisyonu ile görüşmeler, Vitanov'un sözlerine göre sürüyor; tartışma konularından biri, KDV mükellefiyeti eşiğinin 50.000 avrodan 70.000 avroya çıkarılması planı."
+    ],
+    "d": "Düzenleyici kurum KEVR, doğalgaz fiyatını 1 Kasım'dan geçerli olacak şekilde geriye dönük artırdı. Hükümet, hanelerde elektrik ve bölgesel ısıtma fiyatlarının 30 Haziran 2027'ye kadar artmayacağı sözünü veriyor.",
+    "t": "Doğalgaz yüzde 32,5 zamlandı – elektrik ve bölgesel ısıtma Haziran 2027'ye dek sabit"
+   },
+   "at": "2026-11-03T09:16Z",
+   "h": "a1bfe178db6a",
+   "rev": [
+    "Teaser: 'Die Regierung verspricht' was rendered as 'söylüyor' (weaker than promise); also 'Für Haushalte' wording",
+    "Body 1: the party 'Progressives Bulgarien' was given an unattributed, awkward 'güvence altına alıyor' – should be 'güvence veriyor'; 'deshalb' is rendered awkwardly as 'bu nedenle'",
+    "Body 1: the party name was left in German with a bracketed translation; it should be fully Turkish",
+    "Body 2: the sentence around the quote is awkward and the party name is left in German",
+    "Body 2: the name Dimitar Petrow is spelled 'Petrov' and Witanow 'Vitanov'; the established Turkish transliteration is acceptable, so no change",
+    "Body 3: 'Defizitverfahren' = 'aşırı açık usulü' is acceptable; 'Fraktionschef' = 'Meclis grup başkanı' – the draft is a bit unclear but acceptable"
+   ],
+   "rev_dbg": [
+    6,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Kapak görseli: Bulgaristan'da doğalgaz fiyatı, elektrik ve bölgesel ısıtma"
+   }
   },
   "bulgarien-glavchev-demerdzhiev-signal-peevski-2026-11-03": {
    "L": {
@@ -1169,6 +1225,90 @@
     "img.alt": "Tyson Fury, 2017’de Kanada’nın Laval kentinde ringin yanında (Arşiv fotoğrafı)"
    }
   },
+  "galatasaray-vfb-stuttgart-buruk-stiller-2026-11-03-b11": {
+   "L": {
+    "body": [
+     "Teknik direktör Okan Buruk'un sözlerine göre Galatasaray, VfB Stuttgart ile salı akşamı (Almanya saatiyle 18:45, DAZN) oynayacağı Şampiyonlar Ligi maçına en iyi kadrosuyla çıkacak. Buruk, İstanbul'daki basın toplantısında BirGün gazetesine göre şunları söyledi: “Tam kadromuz var, formdayız ve hem zihinsel hem fiziksel olarak daha iyi durumdayız.” Buruk, bir galibiyetle takımının üç puandan altı puana çıkabileceğini belirtti: “Bu iyi dönemin sürmesi için yarın kazanmamız gerekiyor.”",
+     "Buruk, Stuttgart'ın Leverkusen'de aldığı 4-2'lik galibiyeti ayrıntılı biçimde incelediğini söyledi: Buruk'a göre VfB orada farklı bir sistemle oynadı, bu nedenle Galatasaray iki farklı seçeneğe hazırlandı. Buruk, son dönemde az süre alan eski Alman milli futbolcular Leroy Sané ve İlkay Gündoğan'a güvendiğini ifade etti; oynayıp oynamayacaklarının rakibe ve forma bağlı olduğunu söyledi.",
+     "VfB'de Angelo Stiller yine yok. Orta saha oyuncusu, DFB Kupası'nda Paderborn maçında adduktör kasından sakatlanmıştı. Teknik direktör Sebastian Hoeneß, LigaInsider'a göre “Yakında yeni bir görüntüleme yapılacak” dedi; konunun “aylarla değil”, “daha çok birkaç haftayla” ilgili olduğunu belirtti. Stuttgart lig aşamasında şimdiye kadar üç maçta yedi puan topladı."
+    ],
+    "d": "Galatasaray Teknik Direktörü Okan Buruk, İstanbul'daki Şampiyonlar Ligi maçı öncesinde (18:45) kendinden emin konuştu. VfB'de orta saha oyuncusu Angelo Stiller adduktör sakatlığı nedeniyle yine yok.",
+    "t": "Galatasaray - VfB: Buruk tam kadro müjdesi verdi – Stuttgart Stiller'den yoksun"
+   },
+   "at": "2026-11-03T09:16Z",
+   "h": "29425ed0a0af",
+   "rev": [
+    "Title: 'tam kadro açıkladı' is unnatural; the German says Buruk reported a full squad",
+    "'adductor' is left untranslated; Turkish uses 'adduktör' or 'kasık kası'",
+    "'Salı' is capitalised, but TDK requires lowercase weekdays",
+    "Quote 'Da wird bald ein neues Bild gemacht' means a new scan or MRI will be done soon; the translation 'görüntüleme' is acceptable, so it is left unchanged"
+   ],
+   "rev_dbg": [
+    4,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Galatasaray'ın İstanbul'daki stadyumu (Arşiv fotoğrafı)"
+   }
+  },
+  "halloween-nadeln-suessigkeiten-bundeslaender-2026-11-03-b11": {
+   "L": {
+    "body": [
+     "Almanya'da Halloween şekerlerine müdahale edilmesi vakalarının sayısı artmaya devam ediyor. Alman Basın Ajansı'nın (dpa) derlemesine göre şekerlerin içinde iğne, çivi veya vida bulunduğu Saarland dışındaki tüm eyaletlerden bildirildi. Bremervörde'de (Aşağı Saksonya) dokuz yaşındaki bir kız çocuğu, çikolatalı bir barı ısırırken beş santimetre uzunluğundaki bir toplu iğneyle dilini yaraladı. Diğer vakaların çoğunda metal, kimse zarar görmeden önce fark edildi.",
+     "Bulgular arasında Hannover, Garbsen, Essen, Gütersloh, Bad Salzuflen, Rheda-Wiedenbrück, Landshut, Gräfelfing, Filderstadt, Fehmarn, Hamburg ve Türingen'deki birçok yerleşim yeri de var. Garbsen'de bir kadın, kendi ifadesine göre Lidl'den satın aldığı çikolatalı barın içinde dikiş iğnesi buldu; Lidl olayı doğruladı ve olayı “çok ciddiye aldıklarını” açıkladı. Birçok polis teşkilatı, tehlikeli yaralamaya teşebbüs şüphesiyle soruşturma yürütüyor. Polise göre vakaların birbiriyle bağlantılı olup olmadığı belirsiz.",
+     "Federal Kriminal Dairesi (BKA), kendi açıklamasına göre bu tür vakaları ayrı olarak kaydetmiyor. Polis, toplanan şekerlerin delik izleri, hasarlı ambalaj ve olağan dışı koku açısından kontrol edilmesini, şüpheli bulunanların ambalajıyla birlikte saklanıp ihbar edilmesini öneriyor. İz kaybolmasın diye yabancı cisimlerin mümkünse kişilerin kendileri tarafından çıkarılmaması gerekiyor. Bir çocuğun sivri bir cismi yutmuş olabileceğinden şüpheleniliyorsa hemen tıbbi yardım alınmalı."
+    ],
+    "d": "Müdahale edilmiş şeker sayısı artıyor: dpa verilerine göre Saarland dışındaki tüm eyaletlerden bildirim geldi. Bir kız çocuğu dilinden yaralandı, polis ve BKA dikkatli olunmasını istiyor.",
+    "t": "Halloween şekerlerinde iğneler: Vakalar artık neredeyse tüm eyaletlerde bildirildi"
+   },
+   "at": "2026-11-03T09:16Z",
+   "h": "789cd60473dc",
+   "rev": [
+    "Wrong: 'Bremervörde' is the German name; fine. Teaser/heading okay.",
+    "Hannover and Thüringen: 'Thüringen'deki' left untranslated; Turkish name is Türingen; Hannover is the established Turkish spelling.",
+    "'kişilerce çıkarılmaması' is awkward; German says 'selbst entfernt' (by themselves).",
+    "'Verdächtiges in der Verpackung aufzubewahren' means keep suspicious items in the packaging; the draft says 'ambalajıyla birlikte' – acceptable.",
+    "'Aşağı Saksonya' is the correct Turkish name for Niedersachsen."
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Halloween şekerleri dolu bir kase (Sembolik fotoğraf)"
+   }
+  },
+  "heute-vor-80-jahren-japanische-verfassung-1946-2026-11-03": {
+   "L": {
+    "body": [
+     "3 Kasım 1946'da Tokyo'da Japonya'nın yeni anayasası ilan edildi; anayasa yarım yıl sonra, 3 Mayıs 1947'de yürürlüğe girdi. Anayasa, 1889 tarihli Meiji Anayasası'nın yerini aldı. Bundan önce imparatorluk parlamentosu olan İmparatorluk Meclisi (Reichstag), taslağı Haziran 1946'dan itibaren yaklaşık dört ay boyunca görüşmüş ve Ekim başında kabul etmişti; Danışma Meclisi ise 29 Ekim'de onay verdi. Anayasa metnini içeren resmî gazetenin bir nüshası, Başbakan Shigeru Yoshida'nın ve diğer ilgililerin imzalarını taşıyor; nüsha bugün Japonya Ulusal Kütüphanesi'nde bulunuyor.",
+     "Metin, Japonya'nın İkinci Dünya Savaşı'ndaki yenilgisinin ardından Amerikan işgali altında hazırlandı. General Douglas MacArthur komutasındaki Müttefik karargâhında görevli çalışanlar taslağın büyük bölümünü bir haftadan kısa sürede yazdı ve 13 Şubat 1946'da sundu; ardından Japon uzmanlar ve parlamento taslağı yeniden düzenledi. Temel ilkeler şunlardı: Egemenlik halka aittir, temel haklara saygı gösterilir, kuvvetler ayrılığı vardır ve imparator artık yalnızca “devletin ve halkın birliğinin sembolü”dür.",
+     "En bilinen madde 9. maddedir: Japon halkı bu maddede, ulusun egemen hakkı olarak savaştan “sonsuza dek” vazgeçer; kara, deniz ve hava kuvvetleri bulundurulmayacaktır. Bu maddenin nasıl yorumlanması gerektiği Japonya'da onlarca yıldır siyasi olarak tartışılıyor. Anayasa 1947'den bu yana bir kez bile değiştirilmedi; bu nedenle dünyanın hiç değiştirilmemiş en eski anayasası olarak kabul ediliyor."
+    ],
+    "d": "3 Kasım 1946'da Japonya'nın yeni anayasası ilan edildi. Anayasa egemenliği halka verdi, imparatoru bir sembole dönüştürdü ve 9. maddede savaştan vazgeçti.",
+    "t": "80 yıl önce bugün: Japonya barışçıl savaş sonrası anayasasını ilan etti"
+   },
+   "at": "2026-11-03T09:16Z",
+   "h": "17c1e36a8993",
+   "rev": [
+    "'Reichstag' left untranslated; should be rendered in Turkish (Imperial Diet)",
+    "Headline: 'pazifistische' rendered as 'barışçıl' - acceptable; no change",
+    "Teaser: 'verzichtete auf den Krieg' fine",
+    "Body 3: 'Land-, See- und Luftstreitkräfte sollen nicht unterhalten werden' is fine",
+    "Body 1: 'Amtsblatt' ok"
+   ],
+   "rev_dbg": [
+    5,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "1946 tarihli Japon anayasasının imparatorun mührünü ve bakanların imzalarını taşıyan orijinal belgesi (tarihî belge)",
+    "kl": "80 yıl önce bugün"
+   }
+  },
   "invest-bulgarien": {
    "L": {
     "body": [
@@ -2133,6 +2273,56 @@
     "img.alt": "Manny Pacquiao, Ekim 2025'te Manila'da bir basın toplantısında (Arşiv fotoğrafı)"
    }
   },
+  "raspberry-pi-5-16gb-preis-385-dollar-2026-11-03-b11": {
+   "L": {
+    "body": [
+     "İngiliz üretici Raspberry Pi, 16 gigabaytlık modellerinin fiyatlarını yeniden ve derhal geçerli olacak şekilde artırdı. Tom's Hardware'in haberine göre, 16 GB belleğe sahip tek kartlı bilgisayar Raspberry Pi 5 artık 385 ABD doları; bu, şimdiye kadarki fiyattan 80 dolar daha fazla. Ocak 2025'teki piyasaya çıkışında fiyatı 120 dolardı.",
+     "16 GB'lık Compute Module 5 de 40 dolar artışla 425 dolara yükseliyor (lansman fiyatı: 135 dolar). 16 GB'lık klavye bilgisayarı Raspberry Pi 500+'ın fiyatı ise şimdilik 485 dolarda kalıyor. Şirketin CEO'su Eben Upton, bu adımı “son iki yılda bellek maliyetlerindeki sert artışla” gerekçelendiriyor.",
+     "Üretici, müşterilere gerçekte ihtiyaç duyduklarından daha fazla bellek için ödeme yapmamaya dikkat etmelerini öneriyor. Bellek çiplerindeki kıtlık şu anda akıllı telefon ve bilgisayar sektörünü de zorluyor. Tom's Hardware'e göre hobi amaçlı kullanıcılar küçük projeler için şimdiden Raspberry Pi Pico veya ESP32 gibi mikrodenetleyicilere, daha zorlu işler için ise mini bilgisayarlara yöneliyor."
+    ],
+    "d": "İngiliz üretici 16 GB'lık modellerin fiyatlarını yeniden artırdı. Şirketin CEO'su Eben Upton'a göre nedeni bellek maliyetlerindeki sert artış. Kart, Ocak 2025'teki satışa çıkışında 120 dolardı.",
+    "t": "Bellek krizi: 16 GB Raspberry Pi 5 artık 385 dolar – lansman fiyatının üç katından fazla"
+   },
+   "at": "2026-11-03T09:16Z",
+   "h": "61956e40d028",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Tek kartlı bilgisayar Raspberry Pi 5 (Sembolik fotoğraf)"
+   }
+  },
+  "reiter-von-madara-bulgarien-2026-11-03": {
+   "L": {
+    "body": [
+     "Bulgaristan'ın kuzeydoğusunda, Şumen'in doğusundaki Madara köyü yakınlarında, neredeyse dikey ve yaklaşık 100 metre yüksekliğindeki bir kayalığa eşsiz bir görüntü oyulmuş: Yerden yaklaşık 23 metre yükseklikte, neredeyse gerçek boyutlu bir atlı sağa doğru ilerliyor ve atının ayaklarının dibindeki bir aslana mızrak saplıyor. Arkasında bir köpek koşuyor, yüzünün önünde ise erozyon nedeniyle artık zor seçilen bir kuş görülüyor. UNESCO'ya göre Avrupa'da bununla karşılaştırılabilecek başka bir kabartma yok.",
+     "Eser, Bulgar devletinin ilk yıllarına ait; çoğunlukla 8. yüzyılın başına ve Han Tervel'in (701–718) hükümdarlık dönemine tarihleniyor. Atlının yanında, Orta Çağ Yunancasıyla yazılmış, kısmen korunmuş üç yazıt bulunuyor; UNESCO'ya göre bunlar Han Tervel, Kormisoš ve Omurtag'a atıfta bulunuyor. Tervel'in yazıtında Bizans İmparatoru II. Justinianos ile yapılan bir anlaşmadan söz ediliyor. Kabartmanın kimi gösterdiği tartışmalı: Tervel'in bir hükümdar portresi olduğu, Trak atlı tasvirlerinin ve Pers kaya kabartmalarının etkileri ile proto-Bulgar tanrısı Tangra'yla bağlantı olduğu ileri sürülüyor.",
+     "UNESCO, Madara Atlısı'nı 1979'da Dünya Mirası Listesi'ne aldı. Rüzgâr, akan su ve bitki örtüsü kayaya zarar veriyor; uluslararası bir koruma projesi 2007'de sona erdi. Bulgarlar için kabartma ulusal bir sembol: Gelecekteki euro madeni paralarının tasarımına ilişkin 2008'deki bir ankette oyların yüzde 25,44'ünü alarak birinci oldu. Bulgaristan 1 Ocak 2026'da euroya geçtiğinden beri atlı, daha önce stotinki madeni paralarında olduğu gibi, 1 ile 50 sent arasındaki madeni paralarda yer alıyor."
+    ],
+    "d": "Şumen yakınlarındaki yüksek bir kaya duvarında, bir savaşçı yaklaşık 1300 yıldır atının üzerinde bir aslana saldırıyor. Kabartma UNESCO Dünya Mirası ve bugün Bulgaristan'ın euro madeni paralarında yer alıyor.",
+    "t": "Madara Atlısı: Bulgaristan'ın erken Orta Çağ'dan kalma gizemli kaya kabartması"
+   },
+   "at": "2026-11-03T09:16Z",
+   "h": "a5a47e77919b",
+   "rev": [
+    "Teaser: 'bir aslanın üzerinden geçiyor' yanlış; Almanca 'reitet über einen Löwen' (savaşçı aslanı mızraklayarak at sürüyor), 'üzerinden geçmek' anlamı bozuyor ve kayalık 'yüksekte' bilgisi eksik",
+    "Teaser: 'Kayalık' yerine 'kaya duvarı' ve 'Hoch oben' eksik",
+    "'Bulgar devletinin' ilk yıllarına: 'Bulgaristan devleti' daha doğru olur",
+    "Atlı sağa ilerliyor; 'Bulgarlar için' sorun yok",
+    "'Han Tervel, Kormisoš ve Omurtag' – 'Kormisoš' yazımı korunmuş, sorun yok",
+    "Trak/Pers/Tangra cümlesinde 'ileri sürülüyor' uygun, değişiklik yok"
+   ],
+   "rev_dbg": [
+    6,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Şumen yakınlarındaki Madara Atlısı kaya kabartması (arşiv fotoğrafı)"
+   }
+  },
   "salesforce-kauft-cresta-sprach-ki-2026-11-03": {
    "L": {
     "body": [
@@ -2159,6 +2349,27 @@
    ],
    "x": {
     "img.alt": "San Francisco'daki Salesforce Tower (Arşiv fotoğrafı, 2022)"
+   }
+  },
+  "selenskyj-berlin-merz-besuch-2026-11-03-b11": {
+   "L": {
+    "body": [
+     "Ukrayna Devlet Başkanı Volodymyr Zelenskyy, Salı günü kısa süreli bir ziyaret için Berlin'e geldi. Federal Başbakan Friedrich Merz (CDU), ziyareti Berlin Sanayi ve Ticaret Odası'nda (IHK) yaptığı bir konuşmada kamuoyuna duyurdu: Merz, Alman Basın Ajansı'nın (dpa) aktardığına göre “O, öğle saatlerinde yeniden yanımda olacak” dedi. Gezi, güvenlik nedeniyle önceden duyurulmamıştı. Tagesspiegel'e göre Zelenskyy'nin ayrıca sabah başlayan Berlin Güvenlik Konferansı'nda da konuşması bekleniyor.",
+     "Ziyaret, diplomatik açıdan yoğun bir döneme denk geliyor: ABD Özel Temsilcisi Steve Witkoff, önümüzdeki Salı ve Çarşamba günleri Abu Dabi'de Rusya, Ukrayna ve ABD arasında, devlet ve hükümet başkanlarının danışmanları düzeyinde yeni bir görüşme turu yapılacağını duyurdu. Avrupalılar sürece dahil edilmekte ısrar ediyor. Berlin, dpa'nın edindiği bilgilere göre Abu Dabi'de Avrupa'nın temsil edilmesini bekliyor, ancak muhtemelen müzakere masasında olmayacak.",
+     "Tagesspiegel'e göre görüşmelerde muhtemelen yeni yardımlar ile Merz'in bu yıl içinde Berlin'de düzenlemek istediği “Gönüllüler Koalisyonu” zirvesi ele alınacak. Ukrayna'nın en çok ihtiyaç duyduğu şey hava savunma füzeleri; Zelenskyy son olarak Patriot füzelerindeki darboğazlara karşı uyarmıştı. Kiev, gelecek yıl için Avrupa'dan ek olarak 70 milyar avro talep ediyor."
+    ],
+    "d": "Başbakan Merz, Ukrayna Devlet Başkanı'nın ziyaretini sürpriz biçimde duyurdu. Görüşmenin öğle saatlerinde yapılması bekleniyor; Abu Dabi'deki yeni Ukrayna görüşmelerine bir hafta var.",
+    "t": "Habersiz ziyaret: Zelenskyy bugün öğlen Berlin'de Merz ile görüşecek"
+   },
+   "at": "2026-11-03T09:16Z",
+   "h": "20414673fa43",
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Friedrich Merz ve Volodymyr Zelenskyy, Kiev'de daha önceki bir görüşmede (Arşiv fotoğrafı)"
    }
   },
   "strom-ibex": {
@@ -2263,6 +2474,35 @@
     "img.alt": "Arşiv fotoğrafı (2017): Daniel Cormier"
    }
   },
+  "us-midterms-wahllokale-oeffnen-2026-11-03-b11": {
+   "L": {
+    "body": [
+     "ABD'de ara seçimlerde oy verme salı günü başlıyor. İlk eyalet olarak Vermont, sandıklarını Doğu Yakası saatiyle saat 5'te (Orta Avrupa Saati ile 11:00) açıyor. Saat 6'dan itibaren New Jersey, Virginia, Connecticut ve Kentucky gibi eyaletler, daha sonra Georgia, Florida, Pennsylvania, New York, Ohio, North Carolina ve Michigan izliyor. Illinois'te sandıklar yerel saatle 06:00 ile 19:00 arasında açık. Al Jazeera'ye göre 230 milyondan fazla kişi oy kullanma hakkına sahip.",
+     "Temsilciler Meclisi'nin tüm 435 koltuğu, Senato'nun 100 koltuğundan 35'i ve 36 eyaletteki vali görevleri yeniden belirlenecek. Şu anda Başkan Donald Trump'ın Cumhuriyetçileri her iki meclisi de kontrol ediyor. Demokratların Senato'da çoğunluk için net dört, Temsilciler Meclisi'nde ise net üç koltuk kazanması gerekiyor. Michigan, Georgia, Maine, North Carolina, New Hampshire ve Florida'daki Senato yarışları özellikle yakından izleniyor.",
+     "Doğu Yakası saatiyle 18:00'de (Orta Avrupa Saati ile gece yarısı) ilk olarak Indiana ve Kentucky'de sandıklar kapanıyor; en son ise çarşamba günü Doğu Yakası saatiyle yaklaşık saat 1'de (Orta Avrupa Saati ile 7:00) Alaska'da kapanıyor. AP haber ajansı ve diğer medya kuruluşları, kazananları ancak sayım izin verdiğinde ilan ediyor. Yakın yarışlar saatlerce veya günlerce belirsiz kalabilir, çünkü posta yoluyla verilen oylar ve geçici oy pusulaları seçim gününden sonra da sayılıyor."
+    ],
+    "d": "Oy verme, Almanya saatiyle 11:00'de Vermont'ta, ardından ülke genelinde başlıyor. Tüm 435 temsilci, 35 senatör ve 36 eyaletteki valiler seçilecek.",
+    "t": "Ara seçimler: İlk sandıklar açılıyor – Kongre'nin kontrolü tehlikede"
+   },
+   "at": "2026-11-03T09:16Z",
+   "h": "5ebc6307cc4b",
+   "rev": [
+    "Headline: 'Kongre'nin kontrolü' contains 'kontrol', flagged as untranslated German, but it is a valid Turkish loanword; 'tehlikede' is a slight shift from 'steht auf dem Spiel' but acceptable",
+    "Teaser: 'Gewählt werden ... Gouverneure' – 'Tüm 435 temsilci' is fine; 'Abgeordnete' ok",
+    "Time expressions '5'te', '6'dan', '1'de' lack 'saat'; Vermont opens at 5 a.m. – clarity improved",
+    "Ambiguity of 'Al Jazeera'ye göre' is correct",
+    "'Doğu Yakası saatiyle' for Ostküstenzeit is acceptable"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Minnesota'da bir sandık merkezinin önünde “Vote Here” yazan yönlendirme tabelası (Arşiv fotoğrafı)",
+    "kl": "ABD"
+   }
+  },
   "usyk-fury-joshua-50-50": {
    "L": {
     "body": [
@@ -2287,6 +2527,34 @@
    ],
    "x": {
     "img.alt": "Oleksandr Usyk Kiev'de bir maç sırasında (Arşiv fotoğrafı)"
+   }
+  },
+  "villarreal-psg-luis-enrique-2026-11-03-b11": {
+   "L": {
+    "body": [
+     "Paris Saint-Germain, Şampiyonlar Ligi lig aşamasının dördüncü haftasında salı akşamı (21:00) Villarreal'in konuğu olacak. Teknik direktör Luis Enrique, kendinden memnuniyet konusunda uyardı: “Salı günkü maçta önceki sonuçların hiçbir önemi yok” diyen Enrique, kulüp internet sitesine göre basın toplantısında konuştu. Enrique, kazanmanın ancak “hırs, kalite ve her şeyi vermeye istekli olmakla” mümkün olduğunu söyledi.",
+     "İspanyol teknik adam, özellikle Villarreal'in pres oyununu bir zorluk olarak görüyor: “Onların presini aşmak zor olacak. Bu tür zorlukları seviyorum.” Enrique'e göre lig aşamasındaki başlangıç, Paris'in ilk sekize giremediği geçen yılkine benziyor; bu kez daha iyi bir sıralama hedeflediklerini belirtti.",
+     "Luis Enrique, Ukraynalı savunma oyuncusu Illia Zabarnyi'yi övdü: Enrique, Zabarnyi'nin “bizim için önemli bir oyuncu, ancak daha da önemli olabilir” dediğini belirtti. Aynı akşam FC Barcelona, Aston Villa ile; Manchester United ise AS Roma ile karşılaşacak; FC Bayern de Atlético Madrid'e konuk olacak."
+    ],
+    "d": "Paris Saint-Germain bugün saat 21:00'de Estadio de la Cerámica'da Villarreal'e konuk olacak. Teknik direktör Luis Enrique, Villarreal'in pres oyununa karşı zorlu bir maç bekliyor ve bu kez ilk sekize girmek istiyor.",
+    "t": "Luis Enrique'den Villarreal öncesi: “Salı günü eski sonuçların önemi yok”"
+   },
+   "at": "2026-11-03T09:16Z",
+   "h": "1d4d37431efc",
+   "rev": [
+    "Title: Turkish quotation marks and wording; fine, but the teaser lacks the team name Paris Saint-Germain as a guest 'konuk olacak' without 'Villarreal' as host (omission of opponent/venue logic)",
+    "Awkward ungrammatical sentence around the Zabarnyi quote ('olduğunu söyledi' after the quote with 'olabilir' olduğunu)",
+    "Name spelling: Illja Sabarnyj should be Illia Zabarnyi (established spelling) – draft is correct",
+    "Paris 'verpasste' vs. 'wolle man sich besser platzieren': 'hedefleniyor' loses the attribution as indirect speech; add explicit attribution",
+    "Quote attribution sentence structure around the first quote is clumsy"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Villarreal'deki Estadio de la Cerámica (Arşiv fotoğrafı)"
    }
   },
   "wallstreet": {
