@@ -33,3 +33,4 @@ Themen mit aktuellem Anlass bevorzugen (neue Gesetze, Fristen, Preise, Saison). 
 - 2026-10-29 – Weihnachtsgeld: Wer Anspruch hat – und was in Deutschland und Bulgarien davon bleibt – Entwurf
 - 2026-10-30 – Brückentage 2027: So holst du in Deutschland und Bulgarien die meisten freien Tage heraus – Entwurf
 - 2026-11-02 – Bekannte Nummer, vertraute Stimme: So schützt du dich vor Spoofing und Schockanrufen – Entwurf
+- 2026-11-03 – Alte Lewa zu Hause? Bis 31. Dezember tauschen Banken – danach nur noch die BNB – Entwurf
