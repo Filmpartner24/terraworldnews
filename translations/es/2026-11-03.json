@@ -2397,6 +2397,36 @@
     0
    ]
   },
+  "izi-bb-zenbio-enzyme-zellfrei": {
+   "L": {
+    "body": [
+     "Las enzimas se utilizan en muchos procesos industriales —en principios activos, productos químicos especiales, cosmética y alimentos— y a menudo reducen la demanda de energía. Sin embargo, las enzimas naturales están adaptadas a las condiciones de su organismo de origen, no a las temperaturas, los valores de pH o los disolventes de las fábricas. Mejorarlas de forma específica es laborioso, porque la relación entre secuencia, estructura y función es difícil de predecir y, sobre todo, faltan datos experimentales.",
+     "Por ello, en el proyecto ZenBio, el Instituto Fraunhofer de Terapia Celular e Inmunología, sede de Bioanalítica y Bioprocesos (IZI-BB), desarrolla una plataforma automatizada con síntesis de proteínas libre de células, según comunicó la Fraunhofer-Gesellschaft el 2 de noviembre. La enzima se genera directamente a partir de un extracto celular y del plano de construcción genético, sin el cultivo celular de varios días de los métodos clásicos. Una estación con robot de pipeteo debe producir hasta 1.500 variantes en paralelo y probar su resistencia a la temperatura, al pH y a los disolventes; los resultados deberían estar disponibles al cabo de pocas horas. «La IA solo puede aprender de lo que se ha medido experimentalmente», afirma el ingeniero industrial Benedikt Dechamps.",
+     "La primera fase del proceso automatizado ya se ha implementado; el siguiente paso es miniaturizar y automatizar aún más la plataforma y probarla con una primera clase de enzimas. El proyecto cuenta con financiación del Ministerio Federal de Economía y Energía dentro del programa EXIST-Transferencia de investigación. Están previstos proyectos piloto con clientes industriales y la creación de la empresa derivada ProEvo."
+    ],
+    "d": "El Fraunhofer IZI-BB de Potsdam construye una plataforma automatizada que producirá y analizará hasta 1.500 variantes de enzimas en paralelo. Los datos medidos servirán para mejorar los modelos de IA para diseñar enzimas industriales.",
+    "t": "Probar enzimas en horas, no días: plataforma de Potsdam apuesta por síntesis acelular"
+   },
+   "at": "2026-11-03T19:48Z",
+   "flag": [
+    "Teaser zu lang (234 Zeichen)",
+    "Zahlen fehlen oder weichen ab: 1500"
+   ],
+   "h": "d435c2796ce3",
+   "rev": [
+    "\"Forschungstransfer\" se dejó sin traducir en el nombre del programa EXIST",
+    "\"Bauplan\" traducido como \"plano genético\"; en español se dice \"plano\" o mejor \"información genética\"/\"molde genético\"",
+    "\"Zelltherapie\" y \"Institutsteil\" correctos; \"Wirtschaftsingenieur\" traducido como \"ingeniero industrial\" aceptable"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: robot de pipeteo en un laboratorio de genómica; no es la plataforma de Potsdam"
+   }
+  },
   "kane-vertrag-tage-statt-wochen-2026-11-03": {
    "L": {
     "body": [
@@ -4602,6 +4632,43 @@
    ],
    "x": {
     "img.alt": "Gráfico: Liser – gira por clubes abril de 2027"
+   }
+  },
+  "trainer-erklaeren-intervalltraining-muskeln-2026-11-03": {
+   "L": {
+    "body": [
+     "La breve serie de vídeos «Mayo Clinic Minute» aborda la pregunta de por qué el ejercicio ayuda a los músculos en la vejez. Según se indica en el vídeo, un estudio de Mayo Clinic apuntaría a que el entrenamiento por intervalos podría revertir algunos efectos del envejecimiento en los músculos; el médico e investigador de la diabetes de Mayo Clinic, el Dr. Sreekumaran Nair, explica allí su investigación. Se trata de un entrenamiento en el que se alternan esfuerzos breves y muy intensos, por ejemplo en una bicicleta ergométrica, con fases de recuperación.",
+     "El estudio se publicó en 2017 en la revista «Cell Metabolism»; el primer autor fue Matthew Robinson. Un total de 72 adultos (36 mujeres y 36 hombres) de dos grupos de edad, de 18 a 30 años y de 65 a 80, realizaron ciclismo intenso por intervalos, entrenamiento de fuerza con pesas o una combinación de ambos. Se compararon muestras musculares del muslo con las de personas sin entrenamiento. Resultado: con el entrenamiento por intervalos, la capacidad de las mitocondrias, las centrales energéticas de las células, aumentó un 49 por ciento en los jóvenes y un 69 por ciento en los mayores; además mejoró la sensibilidad a la insulina. La masa muscular, en cambio, la generó sobre todo el entrenamiento de fuerza, que también fue superior al de intervalos en cuanto a fuerza muscular. El estudio fue financiado, entre otros, por los institutos de salud de EE. UU. NIH y la Mayo Foundation.",
+     "Para contextualizar: el estudio fue pequeño y, según el propio Nair, pretendía aclarar mecanismos moleculares, no establecer recomendaciones de entrenamiento. La asociación del sector del fitness American Council on Exercise recoge el consejo de Nair de combinar, idealmente, de tres a cuatro días de entrenamiento por intervalos con unos días de entrenamiento de fuerza; cualquier movimiento es mejor que ninguno, según la asociación. La Organización Mundial de la Salud recomienda también a las personas de 65 años o más al menos 150 minutos de actividad de resistencia moderada o 75 minutos de actividad intensa por semana, además de entrenamiento de fuerza al menos dos días y, en caso de movilidad reducida, ejercicios de equilibrio al menos tres días. Quien quiera empezar un entrenamiento intenso y tenga enfermedades cardiovasculares u otras patologías previas debería consultarlo antes con un médico."
+    ],
+    "d": "¿Entrenamiento por intervalos, de fuerza o ambos? El médico de Mayo Clinic Sreekumaran Nair explica qué midió su estudio en las células musculares de jóvenes y mayores, y qué no demuestra.",
+    "facts": [
+     "Vídeo: Mayo Clinic Minute con el Dr. Sreekumaran Nair (Mayo Clinic)",
+     "Estudio: Cell Metabolism 2017, 72 participantes de 18–30 y 65–80 años",
+     "Entrenamiento por intervalos: rendimiento mitocondrial +49 % (jóvenes) y +69 % (mayores)",
+     "Entrenamiento de fuerza: más eficaz para masa muscular y fuerza",
+     "OMS: a partir de los 65, al menos 150 minutos de actividad moderada por semana más 2 días de fuerza"
+    ],
+    "t": "Vídeo: ¿Qué entrenamiento mantiene en forma los músculos que envejecen? Lo explica un investigador de Mayo Clinic"
+   },
+   "at": "2026-11-03T19:48Z",
+   "flag": [
+    "Titel zu lang (113 Zeichen)"
+   ],
+   "h": "a448910931ca",
+   "rev": [
+    "Headline omits 'Mayo-Clinic' (\"Ein Mayo-Clinic-Forscher\"), changed meaning slightly; restored",
+    "\"Según se indica en el vídeo, un estudio... apuntaría\" is acceptable; no change",
+    "Indirect speech 'jede Bewegung sei besser als keine, so der Verband' rendered as plain fact with attribution at end – acceptable, but made conditional-free; kept"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Una fila de bicicletas ergométricas en un gimnasio (Imagen simbólica)",
+    "kl": "Entrenadores explican"
    }
   },
   "training-chemo-speiseroehrenkrebs-studie-2026-11-03": {
