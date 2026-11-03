@@ -959,6 +959,37 @@
     "kl": "Berlin"
    }
   },
+  "charlottenburg-vier-ueberfaelle-festnahme-2026-11-03-b21": {
+   "L": {
+    "body": [
+     "Maskeli bir erkeğin pazartesi akşamı Berlin-Charlottenburg'da yaklaşık yarım saat içinde dört dükkana saldırdığı ya da saldırmaya çalıştığı iddia ediliyor. Polisin verdiği bilgiye göre dizi, saat 19.15 civarında Wilmersdorfer Straße'deki bir çiçekçide başladı; bir tanık yardım çağırınca adam çaldığı bir şey olmadan kaçtı.",
+     "Kısa süre sonra aynı sokaktaki başka bir dükkanda, çalışan bir müşteriyle ilgilenirken kasadan para aldığı öne sürülüyor. Saat 19.45 civarında Kaiser-Friedrich-Straße'deki bir çiçekçide, bir müşteri bağırdığı için girişim başarısız oldu. Polise göre birkaç dakika sonra Pestalozzistraße'deki bir dükkanda nakit para çaldığı öne sürülüyor.",
+     "Bir yaya, polise adamın nereye kaçtığı konusunda bilgi verdi. Olay yerine gelen ekipler 25 yaşındaki şüpheliyi orada bir avluda buldu, gözaltına aldı; iddiaya göre çalıntı olan paraya ve bir maskeye el koydu. Kriminal polisi soruşturmayı sürdürüyor."
+    ],
+    "d": "25 yaşındaki bir erkeğin pazartesi akşamı Charlottenburg'da yaklaşık 30 dakika içinde ikisi çiçekçi olmak üzere dört dükkanı hedef aldığından şüpheleniliyor. Bir yaya polise belirleyici ipucunu verdi.",
+    "t": "Yarım saatte dört dükkan: Charlottenburg'da maskeli şüpheli gözaltına alındı"
+   },
+   "at": "2026-11-03T20:07Z",
+   "h": "f1ddfdf1a525",
+   "rev": [
+    "Weekday \"Pazartesi\" should be lowercase mid-sentence per TDK (headline/teaser/body)",
+    "Teaser: \"dükkanı hedef aldığından şüpheleniliyor\" is awkward, and \"heimgesucht\" was reduced",
+    "Body 1: \"saldırdığı\" for \"überfallen\" is acceptable; \"iddia ediliyor\" is fine",
+    "Body 2: \"çalışan bir müşteriye bakarken\" is ambiguous/wrong (the employee was serving a customer)",
+    "Body 2: \"nakit para çalmış olabileceği belirtiliyor\" weakens/garbles \"soll ... erbeutet haben\"",
+    "Body 3: \"el koydu\" has plural subject (ekipler) so it should be \"el koydu\" → \"el koydu\" is acceptable in Turkish; but \"Kriminal polis\" is untranslated German and should be \"Kriminal polis\" → \"Suç soru",
+    "Body 3: \"iddiaya göre çalıntı olan para\" is fine for \"mutmaßliche Beute\""
+   ],
+   "rev_dbg": [
+    7,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin-Charlottenburg'daki Wilmersdorfer Straße (Sembolik fotoğraf)",
+    "kl": "Berlin"
+   }
+  },
   "cik-endergebnis-jotova-praesidentin-2026-11-03-b1530": {
    "L": {
     "body": [
@@ -2203,6 +2234,34 @@
     "img.alt": "Tyson Fury, 2017’de Kanada’nın Laval kentinde ringin yanında (Arşiv fotoğrafı)"
    }
   },
+  "galatasaray-vfb-stuttgart-2-0-batrakov-2026-11-03-b21": {
+   "L": {
+    "body": [
+     "VfB Stuttgart, Şampiyonlar Ligi'nde ilk yenilgisini aldı. Teknik direktör Sebastian Hoeneß'in takımı, İstanbul'da Galatasaray'a 0-2 yenildi. İki golü de ilk çeyrek saat içinde Aleksei Batrakov attı.",
+     "Stuttgart erken öne geçebilirdi: 8. dakikada Jamie Leweling topu yalnızca direğe gönderdi. Orta saha oyuncusu Atakan Karazor, çeyrek saati biraz geçe oyundan çıkmak zorunda kaldı; yerine 19 yaşındaki Avusturyalı Yanik Spalt girdi. VfB'nin kalesinde Fabian Bredlow vardı.",
+     "İkinci yarıda VfB farkı azaltmak için baskı kurdu, ancak birçok iyi fırsatı değerlendiremedi. Chris Führich'in 75. dakikadaki golü ofsayt nedeniyle iptal edildi. Stuttgart dört maç sonunda yedi puana, Galatasaray ise altı puana sahip. VfB, 25 Kasım'da Inter'i konuk edecek."
+    ],
+    "d": "VfB Stuttgart, Galatasaray deplasmanında 0-2 yenildi. Aleksei Batrakov birkaç dakika içinde iki kez golü buldu, Leweling direkten döndü, Führich'in golü ofsayt nedeniyle sayılmadı.",
+    "t": "İstanbul'da 0-2: Batrakov'un iki golü VfB'ye ilk yenilgiyi yaşattı"
+   },
+   "at": "2026-11-03T20:07Z",
+   "h": "ec40f268eb87",
+   "rev": [
+    "\"Stuttgart hätte früh in Führung gehen können\" is a Konjunktiv II statement and is already rendered with the conditional \"öne geçebilirdi\"; no change needed.",
+    "\"Alexei\" spelling: \"Aleksei\" is acceptable in Turkish.",
+    "\"nach gut einer Viertelstunde\" is rendered as \"yaklaşık çeyrek saat sonra\"; this loses \"gut\" (= a bit more than) slightly, so it is changed to \"çeyrek saati biraz geçe\".",
+    "\"Inter Mailand\" is rendered as \"Inter Milan\"; in Turkish the usual form is \"Inter\".",
+    "The draft is otherwise accurate."
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Galatasaray'ın İstanbul'daki stadyumu (Arşiv fotoğrafı)"
+   }
+  },
   "galatasaray-vfb-stuttgart-buruk-stiller-2026-11-03-b11": {
    "L": {
     "body": [
@@ -2560,6 +2619,41 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Bir genom laboratuvarında pipetleme robotu – Potsdam'daki platform değil"
+   }
+  },
+  "johnny-winter-rockpalast-essen-1979-2026-11-03": {
+   "L": {
+    "body": [
+     "21/22 Nisan 1979'da Essen'deki Grugahalle'de düzenlenen dördüncü Rockpalast Gecesi “Amerikan gecesi” olarak kurgulanmıştı: J. Geils Band ve Patti Smith Group'un ardından son sanatçı olarak Johnny Winter sahneye çıktı. Konser ARD'de ve Eurovision aracılığıyla diğer Avrupa ülkelerinde canlı yayımlandı. MIG Music plak şirketine göre salon, yaklaşık 10.000 izleyiciyle ilk kez biletleri tükenerek doldu. MIG, WDR kaydını 2019'da resmî olarak yayımladı ve konserin tamamını YouTube kanalında gösteriyor.",
+     "Winter trio olarak çaldı; Rockpalast arşivine göre grupta basta Jon Paris, davulda Bobby Torello yer alıyordu. Konsere “Hideaway” adlı enstrümantalle başladı, ardından “Messin' With The Kid”, “Walking By Myself” ve uzun “Mississippi Blues” gibi blues parçaları geldi. Seyirci daha hızlı müzik isteyince “Johnny B. Goode”, “Suzie Q” ve “Rockabilly Boogie” gibi rock'n'roll parçalarını ekledi; konseri “Jumpin' Jack Flash” kapattı.",
+     "Yaklaşık 80 dakika planlanmıştı, ancak Winter gece yarısını epey geçene kadar, yaklaşık iki saat çaldı. Rockpalast yapımcısı Peter Rüchel'in Bear Family'ye göre anlattığına göre, Patti Smith onunla memnuniyetle jam yapmak istemiş, ancak Winter müziğine fazlasıyla dalmış olduğu için buna yanaşmamış; Rüchel bunu şöyle aktardı: Winter müziğine fazlasıyla dalmıştı. MIG, geceyi Winter'ın Avrupa'daki ününü kuran konser olarak tanımlıyor; Grugahalle bundan sonra yaklaşık on yıl boyunca Rockpalast gecelerinin sabit mekânı olarak kaldı."
+    ],
+    "d": "Nisan 1979'daki dördüncü Rockpalast Gecesi'nde Johnny Winter'ın yaklaşık 80 dakika çalması planlanmıştı; konser yaklaşık iki saat sürdü. Konserin tamamı resmî olarak video formatında mevcut.",
+    "facts": [
+     "Konser: 4. Rockpalast Gecesi, 21/22 Nisan 1979, Grugahalle Essen",
+     "Kadro: Johnny Winter (gitar, vokal), Jon Paris (bas), Bobby Torello (davul)",
+     "Set listesi (bunlar dahil): “Hideaway”, “Mississippi Blues”, “Johnny B. Goode”, “Jumpin' Jack Flash”",
+     "Kayıt: yaklaşık iki saat (DVD yaklaşık 118 dakika)",
+     "Video: MIG Music'in resmî kanalı (Rockpalast Edition)"
+    ],
+    "t": "Johnny Winter Rockpalast'ta 1979: Essen Grugahalle'de iki saat blues"
+   },
+   "at": "2026-11-03T20:07Z",
+   "h": "696fc2f096aa",
+   "rev": [
+    "Typo: 'basta' should be 'baste' (bas gitarda)",
+    "Headline wording unnatural ('Rockpalast'ta 1979: Essen Grugahalle'de iki saat blues')",
+    "Indirect speech: Rüchel's statement about Patti Smith and Winter reads partly as fact; Winter's absorption should be reported speech with 'olduğunu söyledi'",
+    "'Edition' left untranslated is part of a proper name (Rockpalast Edition), keep"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Johnny Winter daha sonraki bir konserde (arşiv fotoğrafı)",
+    "kl": "Müzik Tarihi"
    }
   },
   "kane-vertrag-tage-statt-wochen-2026-11-03": {
@@ -4128,6 +4222,31 @@
     "img.alt": "Arşiv fotoğrafı: Mateusz Gamrot, KSW 30 öncesi tartıda"
    }
   },
+  "nvidia-cloud-china-anteil-49-prozent-2026-11-03-b21": {
+   "L": {
+    "body": [
+     "“Financial Times”ın haberine göre ABD'li çip şirketi Nvidia, dünya genelindeki bulut ortaklarından Çinli müşterilerle yaptıkları işleri sınırlandırmalarını istiyor. Hizmetlerinin en az yüzde 51'i Çin dışındaki şirketlere gitmeli. Gazete, konuya yakın beş kişiye dayandığını belirtiyor. Habere göre bu şart yalnızca yeni sözleşmeler için geçerli ve satış ile bölge ekipleri aracılığıyla sözlü olarak iletildi.",
+     "Arka plan: Çinli yapay zeka geliştiricilerinin çoğu, örneğin Güneydoğu Asya'da olmak üzere Çin dışındaki bulut sağlayıcılarından bilgi işlem gücü kiralıyor ve böylece Nvidia'nın en gelişmiş çiplerine yönelik ABD ihracat kısıtlamalarını aşıyor. Payın nasıl ölçüleceği ve denetleneceği belli değil. Singapurlu bir sağlayıcı, VKTR'ye göre ABD dışında yeterli sayıda Çinli olmayan müşteri bulmanın zor olduğunu söyledi.",
+     "Nvidia haberi doğrulamadı ancak yalanlamadı da. Şirketin açıklamasında şu ifadeler yer aldı: “America cannot win the AI race unless America's AI infrastructure wins worldwide.” Çin Dışişleri Bakanlığı Sözcüsü Mao Ning, haberden haberi olmadığını söyledi. Pekin'in, tüm tarafların her ülkeden şirkete adil, şeffaf ve ayrımcılık içermeyen bir iş ortamı sunmasını umduğunu belirtti."
+    ],
+    "d": "“Financial Times”a göre Nvidia çipli veri merkezleri, hizmetlerinin en az yüzde 51'ini bundan böyle Çin dışındaki şirketlere satmalı. Nvidia haberi doğrulamadı, Pekin adil koşullar talep ediyor.",
+    "t": "Nvidia bulut ortaklarına baskı yapıyor: Çin'le işler en fazla yüzde 49 olsun"
+   },
+   "at": "2026-11-03T20:07Z",
+   "h": "4b11bfa95c70",
+   "rev": [
+    "Teaser: \"Nvidia çipli veri merkezleri hizmetlerinin ... satmalı\" is stated as plain fact and is awkward; it needs to be attributed (laut FT: \"sollen\"), and the sentence is ungrammatical.",
+    "Teaser: \"Pekin adil koşullar talep etti\" – the German says Peking \"fordert\" (present tense), which the draft renders as a past demand; the tone should be softened to match the body, where Peking hopes"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Nvidia'nın Santa Clara'daki merkezi (Arşiv fotoğrafı)"
+   }
+  },
   "one-inner-circle-37-ruotolo-gnarly-night": {
    "L": {
     "body": [
@@ -4366,6 +4485,35 @@
     "img.alt": "Şumen yakınlarındaki Madara Atlısı kaya kabartması (arşiv fotoğrafı)"
    }
   },
+  "renten-steigen-2027-4-1-prozent-2026-11-03-b21": {
+   "L": {
+    "body": [
+     "Almanya'da yasal emekli maaşlarının 1 Temmuz 2027'de yüzde 4,1 artması bekleniyor. Federal hükümetin emeklilik sigortası raporu taslağı bu varsayımdan hareket ediyor; taslağı ilk olarak “Frankfurter Allgemeine Zeitung” haberleştirdi. ZDF, hükümet kaynaklarından Çalışma Bakanlığı'nın bu oranı öngördüğünü öğrendi. Buna göre 1000 euroluk aylık emekli maaşı 41 euro artmış olacaktı.",
+     "Oran geçici, kesin verilerin Mart ayında açıklanması bekleniyor. Hükümet yazın hâlâ yüzde 4,4 oranından hareket ediyordu; düzeltmenin nedeni ücret gelişimine ilişkin yeni varsayımlar. Temmuz 2026'da emekli maaşları yüzde 4,24 artmıştı.",
+     "Prim oranının 2027'de yüzde 18,6'da kalması, 2028'de ise yüzde 19,7'ye ve 2040'a kadar yüzde 21,0'a yükselmesi öngörülüyor. 2031'e kadar, emeklilik seviyesinin yüzde 48'in altına düşmesini yasaklayan alt sınır geçerli. SPD Meclis Grubu Başkan Yardımcısı Dagmar Schmidt, bunun emekliler için “gerçekten iyi bir haber” olduğunu söyledi."
+    ],
+    "d": "Emeklilik sigortası raporu taslağına göre 21 milyondan fazla emekli yüzde 4,1 zam bekleyebilir. Oran geçici, prim oranının 2028'de yüzde 19,7'ye çıkması öngörülüyor.",
+    "t": "Emekli maaşları Temmuz 2027'de yüzde 4,1 artacak – Prim oranı 2028'den itibaren yükselecek"
+   },
+   "at": "2026-11-03T20:07Z",
+   "h": "b83e4cbbc3ed",
+   "rev": [
+    "Teaser: \"Mehr als 21 Millionen\" -> \"21 milyondan fazla\" fine; but 'Oran geçici' ok. Teaser lacks nothing.",
+    "Konjunktiv: \"würde ... steigen\" rendered as plain future fact (\"41 euro artacak\"); needs conditional marker",
+    "Headline states the increase as fact although German says \"sollen\"; \"artacak\" acceptable but hedge softened to \"artması bekleniyor\" in body, so headline adjusted slightly",
+    "Wrong suffix: \"yüzde 21,0'e\" should be \"yüzde 21,0'a\" (sıfır -> 'a)",
+    "Grammar: \"SPD Meclis Grup Başkan Yardımcısı\" needs proper compound \"SPD Meclis Grubu Başkan Yardımcısı\"",
+    "Quotation marks „…“ in Turkish should be “…”"
+   ],
+   "rev_dbg": [
+    6,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin'deki Alman Emeklilik Sigortası binası (Sembolik fotoğraf)"
+   }
+  },
   "review-diiv-zirp": {
    "L": {
     "body": [
@@ -4457,6 +4605,41 @@
     "rv.score": "mxdwn: puansız basın yorumu"
    }
   },
+  "robert-gordon-link-wray-rockpalast-1978-2026-11-03": {
+   "L": {
+    "body": [
+     "WDR, 8 Haziran 1978'de Rockpalast için Robert Gordon, Link Wray ve Wildcats'in L Stüdyosu'ndaki performansını kaydetti. Kayıt uzun süre arşivde kaldı; MIG Music plak şirketi 2024'te kaydı kurgusuz olarak CD ve DVD formatında yayımladı ve konserin tamamını YouTube kanalında gösteriyor. Sahnede eşit olmayan bir ikili görülüyor: genç rockabilly şarkıcısı Gordon ve yanında ondan 18 yaş büyük gitarist Wray.",
+     "İkiliye basta Rob Stoner, davulda Anton Fig eşlik etti. Set, kendi parçalarını rockabilly klasikleriyle harmanlıyor: “Rock Therapy” ve “The Way I Walk” ile başlıyor, ardından “Mystery Train”, Wray'in enstrümantal parçası “Rumble”, Bruce Springsteen'in “Fire”, Chris Spedding'in “Wild Wild Women” ve “Baby Let's Play House” geliyor; sonunda “Sea Cruise” ve “Red Hot” yer alıyor.",
+     "Daha önce New York punk grubu Tuff Darts'ın solisti olan Gordon, Guitar Player'a göre 1977'de çıkardığı “Robert Gordon With Link Wray” albümüyle dünya çapındaki rockabilly dönüşünü başlattı; 1978'de “Fresh Fish Special” albümü geldi. Wray (1929–2005) 1958'de “Rumble” ile ABD pop listelerinde 16. sıraya yükselmişti, 2023'te Rock and Roll Hall of Fame'e alındı. Birlikte çıktıkları turnelerin ardından ikili yollarını ayırdı – Gordon bundan sonra gitarist Chris Spedding ile çalıştı. Robert Gordon 2022'de öldü."
+    ],
+    "d": "Şarkıcı Robert Gordon ile gitar öncüsü Link Wray, 8 Haziran 1978'de WDR'nin L Stüdyosu'nda sahne aldı – kayıt artık resmen video olarak izlenebiliyor.",
+    "facts": [
+     "Konser: 8 Haziran 1978, WDR L Stüdyosu (Rockpalast)",
+     "Kadro: Robert Gordon (vokal), Link Wray (gitar), Rob Stoner (bas), Anton Fig (davul)",
+     "Set listesi, diğerlerinin yanı sıra: “Rumble”, “Fire”, “Mystery Train”, “Red Hot”",
+     "Baskı: CD 55 dakika, DVD 65 dakika (prova kayıtları dahil)",
+     "Video: MIG Music'in resmi kanalı (Rockpalast baskısı)"
+    ],
+    "t": "Robert Gordon & Link Wray 1978 Rockpalast'ta: “Rumble” ile rockabilly dönüşü"
+   },
+   "at": "2026-11-03T20:07Z",
+   "h": "6f27cad45844",
+   "rev": [
+    "Typo: \"basta\" should be \"baside\" (bass) – missing \"Begleitet ... am Bass\" rendering",
+    "\"Edition\" left untranslated in facts",
+    "\"Fire”ı\" and \"Wild Wild Women”ı\" suffix after quote is awkward; apostrophe needed",
+    "\"kurgusuz\" okay; \"Rock and Roll Hall of Fame'e\" fine"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Link Wray, 2005'te Seattle'da bir konserde (arşiv fotoğrafı)",
+    "kl": "Müzik Tarihi"
+   }
+  },
   "robotische-whipple-operation-video-2026-11-03": {
    "L": {
     "body": [
@@ -4536,6 +4719,35 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: New York'taki Park Avenue Armory"
+   }
+  },
+  "schabla-katastrophenfall-warna-erdrutsch-2026-11-03-b21": {
+   "L": {
+    "body": [
+     "Bulgaristan'ın kuzeydoğusundaki Şabla belediyesi, şiddetli yağışların ardından afet hali ilan etti. Belediye Başkanı Mariyan Şeçev, kararı saat 16.00'dan itibaren tüm belediye sınırları için yürürlüğe koydu, bölge valisi Ruslan Tomov da kararı onayladı. Karar, kaldırılana kadar, en fazla yedi gün geçerli olacak. Önceki akşamdan bu yana metrekareye ortalama yaklaşık 150 litre yağmur düştü, bazı yerlerde bunun neredeyse iki katı yağış kaydedildi. Bir dere taştı ve kentin alçak kesimindeki avluları ve evleri su bastı.",
+     "Önlem olarak iki sokaktaki evlerden 16 kişi güvenli bir yere götürüldü. Dobriç İtfaiye ve Sivil Koruma Müdürlüğü Başkanı Komiser Darin Dimitrov, BTA haber ajansına “Şu anda tehlikede olan kimse yok” dedi. Gece için yeniden yağmur bekleniyor; itfaiye ve polis su seviyelerini birlikte denetliyor, iş makineleri dere yatağını temizliyor. Belediye, alçak bölgelerden ve su basmış yollardan uzak durulmasını tavsiye ediyor.",
+     "Varna'da polis, Altın Kumlar tatil beldesine giden yolda, Varna Özgür Üniversitesi kavşağından kısa süre önce toprak kayması yaşanması üzerine Altın Kumlar yönündeki sağ şeridi kapattı. Yaralanan olmadı. Yol ulusal ağa ait olduğundan, güvenlik önlemleri konusunda karayolları kurumu API karar verecek. Smolyan bölgesinde de heyelanlar 16 köye ulaşımı engelliyor."
+    ],
+    "d": "Metrekareye yaklaşık 150 litre yağmur düşmesinin ardından Şabla'da afet hali ilan edildi, 16 kişi güvenli yere götürüldü. Varna yakınında bir heyelan, Altın Kumlar yönündeki yolun bir şeridini kapattı.",
+    "t": "Şabla'da sağanak sonrası afet hali ilan edildi; Altın Kumlar yolunda heyelan"
+   },
+   "at": "2026-11-03T20:07Z",
+   "h": "ea1199bd9525",
+   "rev": [
+    "Mayor's name spelled in Latin transliteration (Shechev) instead of Turkish convention; should be Marijan Şeçev style (Mariyan Şeçev)",
+    "Headline: 'Altın Kumlar yolunda heyelan' omits Varna context but within limits; kept",
+    "'kavşağından' for 'Abzweigung' is acceptable; 'Varna Özgür Üniversitesi' fine",
+    "Teaser says 'Varna yakınında' while German says 'Bei Warna' - ok",
+    "'Pegel' rendered as 'su seviyeleri' ok",
+    "Tomow/Dimitrow transliteration inconsistent: Tomov fine"
+   ],
+   "rev_dbg": [
+    6,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Bulgaristan'ın kuzeydoğusundaki Şabla kenti (Arşiv fotoğrafı)"
    }
   },
   "schaeffler-stellenabbau-werke-2026": {
@@ -4707,6 +4919,62 @@
    ],
    "x": {
     "img.alt": "Kapak görseli: Skiny 40 yaşında"
+   }
+  },
+  "spd-gegen-spritpreisdeckel-reiche-2026-11-03-b21": {
+   "L": {
+    "body": [
+     "Ekonomi Bakanı Katherina Reiche'nin (CDU) akaryakıt fiyat tavanına ilişkin yasa taslağı, koalisyon ortağı SPD'den belirgin bir direnişle karşılaştı. SPD Genel Sekreteri Tim Klüssendorf dpa'ya yaptığı açıklamada, “Tavan ancak fiyatlar çoktan fırladıktan sonra devreye girerse, insanlar için rahatlama çok geç gelir” dedi. Klüssendorf, taslağın “yeniden düzenlenmesi ve kararlı biçimde sıkılaştırılması gerektiğini” söyledi. Klüssendorf ayrıca şunları ekledi: “Bu şekilde kalamaz ve kalmayacak.”",
+     "Reiche'nin planına göre hükümet, benzin ve dizel için en fazla üç ay süreyle azami fiyat belirleyebilecek; ancak bunun için Almanya'daki fiyatların üç hafta üst üste AB ortalamasına kıyasla beş yüzde puandan fazla daha hızlı artmış olması gerekiyor. SPD Meclis Grubu Başkanı Matthias Miersch de iyileştirme talep etti. Reuters'e göre Miersch, akaryakıt indiriminin 31 Aralık'ta sona erdiğine dikkat çekti.",
+     "CDU/CSU Meclis Grubu Başkanı Thorsten Frei (CDU) anlaşmayı desteklediğini belirtti, ancak bunu bazı koşullara bağladı: Frei'ye göre Almanya'da akaryakıt kıtlaşmamalı, çünkü yurt dışında farklı fiyatlarla satılabilir. Koalisyon, tavanın en geç 1 Ocak 2027'de uygulamaya konulması konusunda anlaşmıştı."
+    ],
+    "d": "Koalisyon ortağı, Ekonomi Bakanı'nın taslağında belirgin değişiklikler istiyor. SPD Genel Sekreteri Klüssendorf'a göre tavan çok geç devreye giriyor, petrol şirketleri onu kolayca aşabilir.",
+    "t": "“Bu şekilde kalamaz ve kalmayacak”: SPD, Reiche'nin akaryakıt fiyat tavanına karşı çıktı"
+   },
+   "at": "2026-11-03T20:07Z",
+   "h": "9393829b0cf6",
+   "rev": [
+    "Teaser: 'Klüssendorf'a göre tavan çok geç devreye giriyor, petrol şirketleri onu kolayca aşabilir' is acceptable; 'Klüssendorf' is a proper name, so it stays.",
+    "'Ekonomi Bakanı'nın' is acceptable.",
+    "Frei's statement: the 'weil' clause (Sprit could be sold abroad at other prices) is already attributed with 'Frei'ye göre'; acceptable.",
+    "Reiche plan: 'um mehr als fünf Prozentpunkte stärker steigen als im EU-Schnitt' is rendered awkwardly ('AB ortalamasından beş yüzde puandan fazla artmış'); the wording should be clearer: rise more tha",
+    "'bekannte sich zu der Vereinbarung' = 'committed to the agreement'; 'desteklediğini belirtti' is slightly weaker but acceptable.",
+    "Meclis Grubu Başkanı is fine."
+   ],
+   "rev_dbg": [
+    6,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Bir akaryakıt istasyonunda fiyat panosu (Sembolik fotoğraf)"
+   }
+  },
+  "sporting-schlaegt-schachtar-doumbia-2026-11-03-b21": {
+   "L": {
+    "body": [
+     "Sporting Lizbon, Şampiyonlar Ligi'nde dört maçta üçüncü galibiyetini aldı. Portekizli ekip, Shakhtar Donetsk deplasmanında 1-0 kazandı. Maç, Ukraynalı kulübün Şampiyonlar Ligi'ndeki iç saha maçlarını oynadığı Londra'daki Stamford Bridge'de oynandı. Tek golü 59. dakikada Issa Doumbia attı.",
+     "Golden önce Andersen, Fotis Ioannidis ve Luis Suárez'in yer aldığı bir kombinasyon geliştirildi. Geri seken topu kısa mesafeden ağlara gönderen Doumbia'nın bu turnuvadaki ikinci golüydü bu. Sporting dokuz puana ulaştı ve geçici olarak beşinci sırada yer alıyor; Shakhtar ise dört puanla 18. sırada.",
+     "Sporting'in yedek kulübesinde, Rui Borges'in ayrılmasının ardından görevi devralan geçici teknik direktör Tiago Fernandes hâlâ yer aldı. Halefinin, şu ana kadar Olympique Lyon'u çalıştıran Paulo Fonseca olacağı belirtiliyor. Portekiz basınına göre Fonseca maça kadar henüz resmen tanıtılmamıştı."
+    ],
+    "d": "Sporting Lizbon, Şampiyonlar Ligi'nde iç saha maçlarını Londra'da oynayan Shakhtar Donetsk'i 1-0 yendi. Tek golü 59. dakikada Issa Doumbia attı.",
+    "t": "Sporting Londra'da Shakhtar'ı yendi – Doumbia, Fonseca'nın gelişinden önce attı"
+   },
+   "at": "2026-11-03T20:07Z",
+   "h": "3da242019a18",
+   "rev": [
+    "Sentence about the goal was broken: 'Doumbia'nın ... golü oldu' is ungrammatical and changes the subject.",
+    "'Olympique' was left untranslated; the club name should use the Turkish form 'Olympique Lyon' in the established spelling, and the sentence about Fonseca was reworded to keep the hedge 'gilt als Nachf",
+    "'Fonseca'nın geleceği belirtiliyor' loses the meaning 'gilt als Nachfolger' (is considered the successor).",
+    "'Teknik direktör kürsüsünde' is an unnatural rendering of 'auf der Bank saß'; 'noch' (still) was omitted."
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Londra'daki Stamford Bridge (Arşiv fotoğrafı)"
    }
   },
   "stellar-blade-switch-2-test": {
@@ -5008,6 +5276,33 @@
     ],
     "img.alt": "Kopenhag'daki Rigshospitalet binası (Arşiv fotoğrafı)",
     "kl": "Tıp ve Araştırma"
+   }
+  },
+  "trump-israel-hilfe-ende-2026-11-03-b21": {
+   "L": {
+    "body": [
+     "ABD Başkanı Donald Trump, ara seçimlerin yapıldığı gün, Amerika Birleşik Devletleri'nin gelecek yıldan itibaren İsrail'e yıllık ödeme yapmak istemediğini açıkladı. Fox News'e verdiği röportajda şunları söyledi: “Bu yılın sonuna kadar İsrail'e artık ödeme yapmayacağımız konusunda zaten anlaştık.” Trump'ın sözlerine göre ABD şu anda İsrail'e yılda yaklaşık dört milyar dolar veriyor.",
+     "Trump, kararın aylar önce Başbakan Benjamin Netanyahu ile birlikte alındığını söyledi. Trump'a göre İsrail gelişip serpilen bir ülke ve paraya ihtiyacı yok. Ancak İsrail'in yardıma ihtiyacı olması halinde ABD'nin yardım edeceğini belirten Trump, ülkeyi harika bir müttefik olarak nitelendirdi. Netanyahu daha önce ABD'nin askeri yardımını kademeli olarak azaltmak ve birkaç yıl içinde sona erdirmek istediğini açıklamıştı.",
+     "Trump'ın ne tür bir yardımı kastettiği başlangıçta belirsiz kaldı. İsrail hükümetinden ilk etapta bir tepki gelmedi, ABD Dışişleri Bakanlığı ise Al Jazeera'nin sorusu üzerine yorum yapmadı. Temsilciler Meclisi, temmuz ayında Cumhuriyetçi Thomas Massie'nin yardımın kesilmesine yönelik önergesini 314'e karşı 104 oyla reddetmişti. Eski Cumhuriyetçi milletvekili Marjorie Taylor Greene ise X'te alay ederek, Cumhuriyetçilerin yaklaşan seçim yenilgisinin fikirleri nasıl değiştirdiğinin şaşırtıcı olduğunu yazdı."
+    ],
+    "d": "Trump, ara seçimlerin tam ortasında ABD'nin İsrail'e yaptığı yıllık ödemelerin yıl sonunda sona ereceğini açıkladı. Netanyahu ile mutabık kalındığını söyledi. Hangi yardımın kastedildiği belirsiz kaldı.",
+    "t": "Trump seçim gününde: ABD yıl sonundan itibaren İsrail'e ödeme yapmayacak"
+   },
+   "at": "2026-11-03T20:07Z",
+   "h": "4076da7876c0",
+   "rev": [
+    "'Temmuz' is a month name and must be lowercase per TDK when used mid-sentence: 'Temmuz ayında' should be 'temmuz ayında'",
+    "Teaser: 'Netanyahu ile mutabık kalındığını söyledi' is fine as attributed; no change needed",
+    "'gelişen bir ülke' is a weak rendering of 'florierendes Land' (thriving/prosperous); 'refah içinde / gelişen' is acceptable but 'zengin ve gelişen' is better; changed to 'gelişip serpilen'"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "İsrail'de bir görüşmede ABD ve İsrail bayrakları (Arşiv fotoğrafı)",
+    "kl": "ABD"
    }
   },
   "ufc-durden-pause-nach-fuenf-kaempfen": {
