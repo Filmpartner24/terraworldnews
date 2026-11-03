@@ -607,7 +607,10 @@
   {
    "date": "2026-11-03",
    "time": "18:45",
-   "ft": null,
+   "ft": [
+    0,
+    1
+   ],
    "r": 4,
    "t1": "FC Shakhtar Donetsk",
    "t2": "Sporting Clube de Portugal"
@@ -615,7 +618,10 @@
   {
    "date": "2026-11-03",
    "time": "18:45",
-   "ft": null,
+   "ft": [
+    2,
+    0
+   ],
    "r": 4,
    "t1": "Galatasaray A.Ş.",
    "t2": "VfB Stuttgart"
@@ -1372,6 +1378,17 @@
   },
   {
    "pos": 5,
+   "team": "Sporting Clube de Portugal",
+   "p": 4,
+   "w": 3,
+   "d": 0,
+   "l": 1,
+   "gf": 8,
+   "ga": 4,
+   "pts": 9
+  },
+  {
+   "pos": 6,
    "team": "Real Betis Balompié",
    "p": 3,
    "w": 3,
@@ -1380,17 +1397,6 @@
    "gf": 7,
    "ga": 4,
    "pts": 9
-  },
-  {
-   "pos": 6,
-   "team": "VfB Stuttgart",
-   "p": 3,
-   "w": 2,
-   "d": 1,
-   "l": 0,
-   "gf": 7,
-   "ga": 2,
-   "pts": 7
   },
   {
    "pos": 7,
@@ -1405,6 +1411,17 @@
   },
   {
    "pos": 8,
+   "team": "VfB Stuttgart",
+   "p": 4,
+   "w": 2,
+   "d": 1,
+   "l": 1,
+   "gf": 7,
+   "ga": 4,
+   "pts": 7
+  },
+  {
+   "pos": 9,
    "team": "FC Barcelona",
    "p": 3,
    "w": 2,
@@ -1415,7 +1432,7 @@
    "pts": 6
   },
   {
-   "pos": 9,
+   "pos": 10,
    "team": "Como 1907",
    "p": 3,
    "w": 2,
@@ -1426,7 +1443,7 @@
    "pts": 6
   },
   {
-   "pos": 10,
+   "pos": 11,
    "team": "Manchester City",
    "p": 3,
    "w": 2,
@@ -1437,7 +1454,7 @@
    "pts": 6
   },
   {
-   "pos": 11,
+   "pos": 12,
    "team": "Club Brugge KV",
    "p": 3,
    "w": 2,
@@ -1445,17 +1462,6 @@
    "l": 1,
    "gf": 9,
    "ga": 6,
-   "pts": 6
-  },
-  {
-   "pos": 12,
-   "team": "Sporting Clube de Portugal",
-   "p": 3,
-   "w": 2,
-   "d": 0,
-   "l": 1,
-   "gf": 7,
-   "ga": 4,
    "pts": 6
   },
   {
@@ -1471,6 +1477,17 @@
   },
   {
    "pos": 14,
+   "team": "Galatasaray A.Ş.",
+   "p": 4,
+   "w": 2,
+   "d": 0,
+   "l": 2,
+   "gf": 8,
+   "ga": 9,
+   "pts": 6
+  },
+  {
+   "pos": 15,
    "team": "FC Bayern München",
    "p": 3,
    "w": 1,
@@ -1481,7 +1498,7 @@
    "pts": 5
   },
   {
-   "pos": 15,
+   "pos": 16,
    "team": "AS Roma",
    "p": 3,
    "w": 1,
@@ -1492,7 +1509,7 @@
    "pts": 4
   },
   {
-   "pos": 16,
+   "pos": 17,
    "team": "Atlético de Madrid",
    "p": 3,
    "w": 1,
@@ -1503,18 +1520,18 @@
    "pts": 4
   },
   {
-   "pos": 17,
+   "pos": 18,
    "team": "FC Shakhtar Donetsk",
-   "p": 3,
+   "p": 4,
    "w": 1,
    "d": 1,
-   "l": 1,
+   "l": 2,
    "gf": 4,
-   "ga": 3,
+   "ga": 4,
    "pts": 4
   },
   {
-   "pos": 18,
+   "pos": 19,
    "team": "PSV Eindhoven",
    "p": 3,
    "w": 1,
@@ -1525,7 +1542,7 @@
    "pts": 4
   },
   {
-   "pos": 19,
+   "pos": 20,
    "team": "Villarreal CF",
    "p": 3,
    "w": 1,
@@ -1536,7 +1553,7 @@
    "pts": 3
   },
   {
-   "pos": 20,
+   "pos": 21,
    "team": "FC Internazionale Milano",
    "p": 3,
    "w": 1,
@@ -1547,7 +1564,7 @@
    "pts": 3
   },
   {
-   "pos": 20,
+   "pos": 22,
    "team": "Manchester United",
    "p": 3,
    "w": 1,
@@ -1558,7 +1575,7 @@
    "pts": 3
   },
   {
-   "pos": 22,
+   "pos": 23,
    "team": "SSC Napoli",
    "p": 3,
    "w": 1,
@@ -1566,17 +1583,6 @@
    "l": 2,
    "gf": 5,
    "ga": 7,
-   "pts": 3
-  },
-  {
-   "pos": 23,
-   "team": "Galatasaray A.Ş.",
-   "p": 3,
-   "w": 1,
-   "d": 0,
-   "l": 2,
-   "gf": 6,
-   "ga": 9,
    "pts": 3
   },
   {
@@ -1646,7 +1652,7 @@
    "pts": 3
   },
   {
-   "pos": 29,
+   "pos": 30,
    "team": "RB Leipzig",
    "p": 3,
    "w": 1,
