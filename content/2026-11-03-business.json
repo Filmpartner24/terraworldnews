@@ -179,7 +179,16 @@
    "s": "business",
    "time": "07:45",
    "bk": "video",
-   "yt": "_Rmvj3yj5fE",
+   "yt": {
+    "id": "_Rmvj3yj5fE",
+    "ch": "Deutsche Bundesbank",
+    "kind": "video",
+    "t": {
+     "de": "Finance Flash Folge 16: Wie EZB und Bundesbank zusammenarbeiten",
+     "bg": "Finance Flash, епизод 16: Как работят заедно ЕЦБ и Бундесбанк",
+     "en": "Finance Flash episode 16: How the ECB and the Bundesbank work together"
+    }
+   },
    "src": [
     {
      "n": "Deutsche Bundesbank – Mediathek (Finance Flash Folge 16)",
