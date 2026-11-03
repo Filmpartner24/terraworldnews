@@ -342,6 +342,32 @@
     0
    ]
   },
+  "bmw-automatisiertes-fahren-werk-million-2026": {
+   "L": {
+    "body": [
+     "BMW, fabrikalarında sürücüsüz bir milyon araç hareketine ulaştı. “Fabrikada Otomatik Sürüş” (AFW) adlı teknoloji sayesinde montajı tamamlanmış yeni otomobiller, kamuya açık yollarda değil, üretim ve lojistik alanlarında kendi başlarına ilerliyor. Sistem 2022'de Dingolfing fabrikasında pilot uygulama olarak devreye girmişti; şu anda Leipzig, Regensburg ve Mini'nin Oxford fabrikasında da çalışıyor.",
+     "Automotive Logistics ve Motor1'e göre dört fabrikada günde yaklaşık 3.500 otomatik sürüş gerçekleşiyor; yalnızca Oxford'da geçen yıl 53.000'den fazla sürüş yapıldı. BMW sistemi İsviçreli Embotech şirketiyle geliştirdi. Sistem, araçtaki sensörler yerine ağırlıklı olarak güzergâh boyunca yerleştirilen lidar sensörlerini kullanıyor; BMW'nin verdiği bilgiye göre Dingolfing, Avrupa'nın en büyük lidar altyapısına sahip. Motoring Research'e göre otomobiller sabit bir çizgiyi izlemek yerine insanlara, diğer araçlara ve engellere tepki veriyor.",
+     "BMW üretimden sorumlu yönetim kurulu üyesi Raymond Wittmann, “Bu teknolojiyi şimdi dünya genelinde yaygınlaştırıyoruz” dedi. Bir sonraki fabrika olarak ABD'nin Güney Karolina eyaletindeki Spartanburg'un 2027'de seri işletmeye geçmesi planlanıyor; bu, Avrupa dışındaki ilk uygulama olacak. BMW Group'un videosu, otomobillerin fabrikada sürücüsüz biçimde nasıl ilerlediğini gösteriyor."
+    ],
+    "d": "Dört BMW fabrikasında yeni otomobiller üretim bandından lojistik alanlarına kendiliğinden gidiyor; bu sayı artık bir milyonu buldu. Teknolojinin 2027'de ilk kez ABD'de kullanılması planlanıyor.",
+    "t": "Fabrikte sürücüsüz: BMW bir milyon otomatik sürüş bildirdi"
+   },
+   "at": "2026-11-03T16:32Z",
+   "h": "baf95731bc98",
+   "rev": [
+    "Headline typo: \"otomatik aracı hareketini\" is ungrammatical and does not match the German \"eine Million automatisierte Fahrten\"",
+    "Teaser: \"sayı bir milyona ulaştı\" is vague; the German says the cars have driven on their own one million times",
+    "Body: \"kamu yollarında\" is unnatural; \"kamuya açık yollarda\" is better"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "BMW'nin Dingolfing fabrikasının havadan görünümü (Arşiv fotoğrafı)"
+   }
+  },
   "bulgarien-gaspreis-strom-fernwaerme-2026-11-03-b11": {
    "L": {
     "body": [
@@ -719,6 +745,34 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Jude Bellingham Laureus Ödülleri'nde"
+   }
+  },
+  "cambridge-zeptoversum-lhcb-video": {
+   "L": {
+    "body": [
+     "Cambridge Üniversitesi 3 Kasım'da, atomların boyutunun çok altındaki bir dünyaya götüren bir video yayımladı: Bir zeptometre, bir metrenin milyarda birinin trilyonda biridir (10⁻²¹ metre). Araştırmacıların “Zeptoverse” adını verdiği bu alanda henüz keşfedilmemiş parçacıklar bulunabilir; örneğin karanlık maddeyi açıklayan ya da Büyük Patlama'dan sonra maddenin neden arta kaldığını gösteren parçacıklar.",
+     "Videoya vesile olan, aynı gün CERN'de sunulan ve Large Hadron Collider'daki modernize edilmiş LHCb deneyine ait bir sonuç: Güzellik (beauty) kuarkı içeren bir parçacığın bir müon ve bir anti-müona bozunduğu B0 → μ+μ− bozunmasına dair ilk işaretler. Fizikçiler bu bozunmayı 1984'ten beri arıyor. İstatistiksel anlamlılık 3,2 sigma düzeyinde; bu bir “işaret” için yeterli, ancak bir keşif için gereken 5 sigmanın altında. 2024 ve 2025 verileri, 2011-2018 arasındaki eski verilerle birlikte değerlendirildi; makine öğrenmesi parazit sinyallerin ayıklanmasına yardımcı oldu. Sonuç henüz hakem değerlendirmesinden geçmedi.",
+     "“Bu süreç on milyar güzellik parçacığından yalnızca birinde gerçekleşiyor, bu yüzden bulunması inanılmaz zor,” diyor analiz ekibine liderlik eden Cambridge'deki Cavendish Laboratuvarı'ndan Harry Cliff. Ölçüm şu ana kadar parçacık fiziğinin Standart Model öngörüleriyle uyumlu. LHCb'nin 2030'ların ortasında yapılacak yeni bir genişletmesiyle veri hızının yaklaşık on kat daha artması hedefleniyor."
+    ],
+    "d": "Cambridge liderliğindeki bir analiz ekibi, CERN'de 1984'ten beri aranan son derece nadir bir bozunmaya dair ilk işaretleri buldu. Üniversitenin yeni videosu bunun ardında ne olduğunu açıklıyor.",
+    "t": "“Zeptoverse”e yolculuk: Cambridge videosu en nadir bozunmalardan birinin peşini anlatıyor"
+   },
+   "at": "2026-11-03T16:32Z",
+   "h": "8da590b55c77",
+   "rev": [
+    "Zeptometre tanımı hatalı: Almanca 'ein Billionstel eines Milliardstels Meter' (trilyonda biri × milyarda biri değil; yani bir metrenin milyarda birinin trilyonda biri) – taslak doğru, değişiklik yok",
+    "Başlıkta 'Zeptoverse'e doğru' ifadesi uzun ve 90 karakteri aşıyor",
+    "Teaser 220 karakterin altında, sorun yok",
+    "'Videonun nedeni' yerine 'vesile' anlamı daha doğru",
+    "'Bu yüzden bulunması inanılmaz zor' sonrası virgül/tırnak düzeni Türkçe yazım için düzeltildi"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Kapak görseli: “Zeptoverse”e doğru – en nadir parçacık bozunmalarından birinin peşindeki av"
    }
   },
   "canelo-p4p-top10-reynoso-pause": {
@@ -2680,6 +2734,33 @@
     "img.alt": "Kapak görseli: La Perla çevrimiçi mağazasını açıyor"
    }
   },
+  "lamborghini-temerario-tettonero-2026": {
+   "L": {
+    "body": [
+     "Lamborghini, 29 Ekim'de hibrit süper spor otomobil Temerario’nun sınırlı sayıdaki özel serisi “Tettonero”yu tanıttı. Ad, “siyah tavan” anlamına geliyor: Kaput ve tavan Nero Noctis rengiyle boyandı, tamponlar, ayna kapakları ve jantlar parlak siyah. Kaporta için beş renk seçeneği sunuluyor: Giallo Inti, Arancio Xanto, Blu Cepheus, Verde Scandal ve Viola Pasifae.",
+     "Seriyi markanın kendi tasarım merkezi Centro Stile tasarladı. Seri, Lamborghini'nin Urus SE ile 2026 Milano Tasarım Haftası'nda sergilediği “Kapsül Koleksiyon” konseptini izliyor. İç mekânda altıgen dikişli siyah deri ve gri kontrast dikişler yer alıyor; her aracı mat karbondan bir plaket ayırt ediyor. CEO Stephan Winkelmann modeli “Temerario'nun özel bir yorumu” olarak niteledi.",
+     "Teknik açıdan her şey aynı kalıyor: Üreticiye göre iki turbolu yeni geliştirilmiş 4,0 litrelik V8 ve üç elektrik motoru birlikte 920 PS güç üretiyor, içten yanmalı motor dakikada 10.000 devire kadar çıkıyor. Lamborghini, kaç adet üretileceğini ve özel serinin fiyatını açıklamadı."
+    ],
+    "d": "Lamborghini, hibrit süper spor otomobili Temerario'yu iki renkli “Tettonero” özel serisi olarak sunuyor. Tavan ve kaput siyah, ayrıca beş canlı kaporta rengi seçeneği var.",
+    "t": "Lamborghini Temerario Tettonero: Siyah tavanlı ve 920 PS'li özel seri"
+   },
+   "at": "2026-11-03T16:32Z",
+   "h": "157e6bc1be29",
+   "rev": [
+    "Word order/meaning: 'hibrit süper spor otomobilin sınırlı sayıdaki özel serisi Temerario “Tettonero”yu' misattributes; the model is Temerario, the series is the special series of it",
+    "'Capsule Collection' left untranslated (German says 'Capsule Collection' as a concept name, translate as 'Kapsül Koleksiyon')",
+    "'her aracı ... belirtiyor' is unnatural; 'kennzeichnet' = işaretliyor/ayırt ediyor",
+    "Winkelmann quote: 'Vorstandschef' is CEO – 'Yönetim Kurulu Başkanı' is chairman; use 'CEO'"
+   ],
+   "rev_dbg": [
+    4,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Standart versiyon Lamborghini Temerario (Sembolik fotoğraf)"
+   }
+  },
   "leben-alkohol-studie-kein-schutzeffekt-jsad-2026-11-03": {
    "L": {
     "body": [
@@ -3157,6 +3238,33 @@
    "x": {
     "img.alt": "Ahşap bir masanın üzerinde uygulama simgeleri olan akıllı telefon (Sembolik fotoğraf)",
     "kl": "Aşk ve ilişkiler"
+   }
+  },
+  "mclaren-mcl-6gt-curic-wynn-2026": {
+   "L": {
+    "body": [
+     "McLaren, McL 6GT'yi Concours at Wynn Las Vegas'ta ilk kez kamuoyuna gösterdi. Konsept araç, Ağustos ayında Monterey Car Week sırasında yalnızca özel olarak tanıtılmıştı. Autoblog'a göre araçta orta konumlu V8 motor, debriyaj pedallı altı vitesli manuel şanzıman, arkadan itiş, karbon fiber monokok şasi ve hidrolik destekli direksiyon bulunuyor. Seri üretim versiyonunun 2028'de gelmesi planlanıyor.",
+     "Yahoo Finance'in aktardığına göre McLaren CEO'su Nick Collins, 6GT'nin yaklaşık 500 adetle sınırlı olacağını ve fiyatının 1,5 milyon dolar civarında olacağını belirtti. 2026'da Ford'un lüks markası Lincoln'den McLaren'a geçen tasarım şefi Kemal Curic, otomobilin müşterilerin “tamamen özgün, duygusal, insanı sürükleyen” bir şey yönündeki isteklerine dayandığını söyledi. Concours gösterileri hakkında şunları söyledi: “Onları çimenin üzerine, ışığın altına koyduğunuz anda bir şekilde canlanıyorlar.”",
+     "McLaren de Ferrari, Aston Martin ve Bentley gibi ilerleyen dönemde bir SUV sunmak istiyor. Curic ayrıntı vermedi. “Bize karşı sabırlı olmak” gerektiğini söyledi; ancak aracın “belirgin biçimde McLaren” olacağını ve “bizim tarzımızda hayata geçirileceğini” belirtti. McLaren Automotive'in videosu, markanın Las Vegas'taki Concours'ta yer aldığı sunumu gösteriyor."
+    ],
+    "d": "Las Vegas'taki Concours'ta manuel vitesli McL 6GT ilk kez izleyicilerle buluştu. Tasarım şefi Kemal Curic planlanan SUV için sabır istedi; McLaren'a göre 6GT'nin fiyatı yaklaşık 1,5 milyon dolar olacak.",
+    "t": "McLaren tasarım şefi Curic: İlk SUV “belirgin biçimde McLaren” olacak"
+   },
+   "at": "2026-11-03T16:32Z",
+   "h": "5f047284aeda",
+   "rev": [
+    "Clumsy doubled attribution and repeated 'yaklaşık' in the price sentence",
+    "Wrong word: 'Studie' rendered as 'konsept araç' is acceptable, but 'Bize karşı sabırlı olmak gerektiğini' is awkward; made natural",
+    "'Mitreißendem' rendered as 'insanı sürükleyen' is acceptable; 'Kundenwünsche' phrasing kept",
+    "Teaser: 'McLaren'a göre' fine; 'Curic' headline quote marks fine"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Indianapolis Motor Speedway Müzesi'nde McLaren M6GT (Arşiv fotoğrafı)"
    }
   },
   "melbourne-cup-2026-hutpreis-dreamweaver-sengdara": {
@@ -3798,6 +3906,33 @@
     "img.alt": "Arşiv fotoğrafı: New York'taki Park Avenue Armory"
    }
   },
+  "schaeffler-stellenabbau-werke-2026": {
+   "L": {
+    "body": [
+     "Otomotiv tedarikçisi Schaeffler, Avrupa'da 3.460 işi kaldırmak istiyor; bunun 2.660'ı Almanya'da. ZDFheute'ye göre bu, yurt içindeki yaklaşık 32.000 çalışanın yaklaşık yüzde 9'una denk geliyor. Önceki tasarruf programları ve imzalanmış 1.800 kıdemli çalışanlar için kısmi süreli emeklilik öncesi çalışma (Altersteilzeit) sözleşmesi de eklendiğinde, Almanya'daki çalışan sayısı yüzde 18 azalıyor. Şirket bu adımı, içten yanmalı motorlar için parçalara yönelik zayıf talep, elektrikli araçlara geçişin gecikmesi ve yüksek personel maliyetleriyle gerekçelendiriyor.",
+     "Yaklaşık 430 çalışanlı Dortmund ve yaklaşık 160 çalışanlı Morbach tesislerinin kapatılması planlanıyor; Berlin'deki (yaklaşık 270) faaliyet sona eriyor, Schwalbach'tan (yaklaşık 385) çıkılıyor ve çalışanların büyük bölümünün Frankfurt'a geçmesi öngörülüyor. Yurt dışında Belçika'daki Herstal fabrikası kapanıyor, Fransa ve Slovakya'daki tesisler küçültülecek. Schaeffler tek seferlik maliyetleri yaklaşık 480 milyon avro olarak açıkladı; 2030'dan itibaren yılda yaklaşık 300 milyon avro tasarruf edilmesi hedefleniyor. Almanya'daki kesintilerin 2028'e kadar tamamlanması planlanıyor.",
+     "automobil-produktion.de'ye göre Yönetim Kurulu Başkanı Klaus Rosenfeld “tesisleri birleştirmek, teknoloji yetkinliklerini seçilmiş bölgesel kümelerde toplamak” istiyor. IG Metall planları reddediyor: IG Metall'in Schaeffler'den sorumlu şirket temsilcisi Thomas Höhn, taz'a göre “Bu, Almanya sanayi lokasyonu için bir gelecek konsepti değil” dedi."
+    ],
+    "d": "Otomotiv tedarikçisi Schaeffler iş kesintilerini sürdürüyor: Almanya'da 2.660 pozisyon kalkacak, Dortmund ve Morbach kapatılacak, Berlin ve Schwalbach'tan çıkılacak. IG Metall planları sert biçimde eleştirdi.",
+    "t": "Schaeffler 3.460 işi kaldırıyor, Almanya'da dört tesisten çıkıyor"
+   },
+   "at": "2026-11-03T16:32Z",
+   "h": "02cf6dbd3a72",
+   "rev": [
+    "Title says 3,460 jobs cut in Germany, but 3,460 is the European total (2,660 in Germany)",
+    "\"Altersteilzeit\" was mistranslated as \"yarı zamanlı yaşlılık dönemi\" and left in German in parentheses; it should be a Turkish description of the pre-retirement part-time scheme",
+    "Quote translation \"Industriestandort Deutschland\" was rendered awkwardly as \"Almanya sanayi merkezi\"",
+    "The headline claims four sites are closed in Germany, but Berlin and Schwalbach are given up, which is consistent with the German; no change needed"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Schaeffler'in Herzogenaurach'taki merkezi (Arşiv fotoğrafı)"
+   }
+  },
   "schell-games-entlassungen": {
    "L": {
     "body": [
@@ -4025,6 +4160,42 @@
    ],
    "x": {
     "img.alt": "Bulgaristan'da bir tatbikatta Stryker zırhlı aracı (Arşiv fotoğrafı)"
+   }
+  },
+  "tempus-intervallfasten-training-studie-2026-11-03": {
+   "L": {
+    "body": [
+     "Aralıklı oruç yıllardır bir trend olarak görülüyor. Sporla birlikte nasıl etki ettiğini, Antonio Clavero Jimeno ve Alba Camacho Cardeñosa'nın yer aldığı bir ekip ile Granada Üniversitesi'nden (Spor ve Sağlık Enstitüsü iMUDS bünyesindeki PROFITH araştırma grubu) çalışma yöneticisi Jonatan Ruiz Ruiz inceledi. TEMPUS çalışması “Nature Communications” dergisinde yayımlandı; üniversite çalışmayı 22 Ekim'de tanıttı. Yaklaşık yarısı kadın olan obeziteli 187 yetişkin, rastgele dört gruba ayrıldı: olağan bakım, zaman kısıtlamalı beslenme (tüm öğünler sekiz saatlik bir pencerede), kuvvet ve yoğun dayanıklılık antrenmanından oluşan gözetimli egzersiz veya ikisinin birleşimi. Tüm gruplara ek olarak Akdeniz mutfağı ve fiziksel aktivite eğitimi verildi. Müdahale on iki hafta sürdü.",
+     "Asıl hedef, MRG ile ölçülen karaciğer yağıydı. Karaciğer yağı dört grubun tümünde azaldı; ancak programlar ile olağan bakım arasında istatistiksel olarak anlamlı bir fark görülmedi. İki oruç grubu, karşılaştırma grubuna kıyasla ortalama yaklaşık 2,2 kilogram daha fazla kilo verdi; oruç ve egzersiz kombinasyonu vücut yağını olağan bakımdan ve tek başına egzersizden daha fazla azalttı. Dayanıklılık performansı her iki egzersiz grubunda da iyileşti. Başlangıçta yağlı karaciğeri olan katılımcılardan kombinasyon grubunda yaklaşık yüzde 30'u sonrasında tanı ölçütlerini artık karşılamıyordu; karşılaştırma grubunda bu oran yüzde 6,5'ti.",
+     "Sınırlar açık: Program bittikten bir yıl sonra kilo ve vücut kompozisyonundaki farklar artık gösterilemedi, karaciğer yağında da gruplar arasında fark yoktu. Camacho Cardeñosa'ya göre, kombinasyonun karaciğer yağını erkeklerde olağan bakımdan daha fazla azaltması, kadınlarda ise azaltmaması bulgusu tek başına “müdahalenin cinsiyete göre farklı etki ettiği sonucuna varmak” için yeterli değil. Çalışma, İspanya Araştırma Ajansı (MICIU/AEI) ve Avrupa Bölgesel Kalkınma Fonu tarafından desteklendi. Pratikte bu şu anlama geliyor: Egzersiz kondisyonu iyileştirir, sabit bir beslenme penceresi kısa vadede kilo vermeye yardımcı olabilir; ikisi de kalıcı etkiyi ancak sürdürülürse gösterir. Fazla kilo veya yağlı karaciğer nedeniyle bir şeyi değiştirmek isteyenler bunu bir doktorla görüşmeli."
+    ],
+    "d": "Granada'da obeziteli 187 yetişkinle yapılan randomize bir çalışma, kombinasyonda daha fazla vücut yağı kaybedildiğini gösteriyor. Karaciğer yağında avantaj yoktu, bir yıl sonra etki kayboldu.",
+    "facts": [
+     "Çalışma: dört gruplu randomize kontrollü TEMPUS çalışması, 12 hafta ve bir yıl sonra takip",
+     "Katılımcılar: obeziteli 187 yetişkin, yaklaşık yarısı kadın",
+     "Dergi: Nature Communications (Granada Üniversitesi, Ekim 2026)",
+     "Sonuç: Karaciğer yağı her yerde azaldı, gruplar arasında anlamlı fark yok; oruç grupları yaklaşık 2,2 kg daha fazla kilo verdi",
+     "Bir yıl sonra: Kilo ve vücut kompozisyonundaki farklar artık gösterilemedi"
+    ],
+    "t": "Çalışma: Sekiz saatlik pencerede beslenme ve egzersiz – bir yıl sonra geriye ne kaldı"
+   },
+   "at": "2026-11-03T16:32Z",
+   "h": "025db4e114e7",
+   "rev": [
+    "Teaser: \"Karaciğer yağında avantaj yoktu\" is fine, but \"kombinasyonda daha fazla vücut yağı kaybedildiğini gösteriyor\" is acceptable; no change.",
+    "\"İki oruç grubu ... daha fazla verdi\" omits the object (kilo), so the sentence is incomplete/unclear",
+    "\"Program\" is not left untranslated in the draft; no fix needed",
+    "\"Dayanıklılık performansı\" is acceptable",
+    "\"Sınırlar açık\" is a slightly literal rendering, but understandable; leave it"
+   ],
+   "rev_dbg": [
+    5,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Domates, siyah zeytin ve fetalı Yunan salatası – Akdeniz mutfağı için tipik (Sembolik fotoğraf)",
+    "kl": "Beslenme ve toparlanma"
    }
   },
   "tn-jodar-turin-rennen-paris-2026-11-03": {
@@ -4775,6 +4946,28 @@
    ],
    "x": {
     "img.alt": "West Ham United'ın iç saha stadyumu London Stadium (Sembolik fotoğraf)"
+   }
+  },
+  "who-sexuelle-gesundheit-pandemie-2026-11-03": {
+   "L": {
+    "body": [
+     "Dünya Sağlık Örgütü (DSÖ), pazar günü (1 Kasım) pandemi döneminde cinsel ve üreme sağlığına ilişkin bir çalışma serisinin değerlendirmesini yayımladı. 14 bilimsel makale, “Reproductive Health” dergisinin özel sayısında yayımlandı ve DSÖ ile diğer BM kuruluşlarının HRP araştırma programından çıktı. İncelenen ülkeler arasında Brezilya, Burkina Faso, Çin, Gana, İtalya, Pakistan, Tayland ve Birleşik Krallık yer aldı. Proje, Almanya Federal Sağlık Bakanlığı'nın DSÖ'ye verdiği Covid araştırma fonlarıyla finanse edildi.",
+     "Hizmetler, cinsel ve üreme sağlığının öncelikli sayılmadığı yerlerde en kötü durumda kaldı: Örneğin Brezilya'da gebelik izlemi sürerken korunma geri plana itildi. Klinik dışında da çalışabilen hizmetler, örneğin toplum sağlığı çalışanları aracılığıyla yürütülenler, daha iyi ayakta kaldı; İtalya'nın Verona kentinde ilk telefon görüşmesi, korunma, kürtaj ve cinsel yolla bulaşan enfeksiyonlara ilişkin danışmanlığa giriş kapısı oldu. Burkina Faso'da korku, birçok kadını aile planlamasından uzak tuttu; sağlık çalışanları sonradan daha fazla istenmeyen gebelik ve kürtaj sonrası komplikasyon gördü. Korunma ve kürtaj hizmetleri genel olarak en yavaş toparlandı; nedenler personel eksikliği, başka alanlara kaydırılan sağlık çalışanları ve tedarik sıkıntılarıydı. Araştırmacılar, pandeminin bu boşlukları yaratmaktan çok görünür kıldığını belirtti.",
+     "İngiltere'den bir alt çalışma, telefonla korunma danışmanlığını başlatan ve sürdüren bir cinsel sağlık ve korunma danışma merkezini anlatıyor; cinsel yolla bulaşan enfeksiyon testleri evde posta yoluyla yapılabildi. Çalışanlar, uzaktan danışmanlıkta sıkıntı veya zorlama belirtilerinin daha kolay gözden kaçabileceğini dile getirdi. Yazarlar, çalışmanın küçük bir örneklemle tek bir kuruma ilişkin olduğuna kendileri de dikkat çekiyor. DSÖ, cinsel ve üreme sağlığının krizlerden önce vazgeçilmez olarak sınıflandırılmasını, hemşirelere ve toplum sağlığı çalışanlarına daha fazla görev verilmesine izin verilmesini ve uzaktan hizmetlerin hazırlanmasını öneriyor."
+    ],
+    "d": "14 bilimsel makale, cinsel ve üreme sağlığı hizmetlerinin pandemiyi nasıl atlattığını gösteriyor. Projeyi Almanya Federal Sağlık Bakanlığı finanse etti.",
+    "t": "DSÖ çalışmaları: Korunma ve kürtaj hizmetleri Covid sonrası en yavaş toparlandı"
+   },
+   "at": "2026-11-03T16:32Z",
+   "h": "2882c261de41",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Dünya Sağlık Örgütü'nün Cenevre'deki genel merkezi (Arşiv fotoğrafı)",
+    "kl": "Cinsellik araştırmaları"
    }
   },
   "wirtschaft-bulgarien-suedkorea-investitionen-kommission-2026-11-03": {
