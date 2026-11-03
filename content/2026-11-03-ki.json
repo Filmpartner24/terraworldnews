@@ -1,0 +1,398 @@
+{
+ "date": "2026-11-03",
+ "items": [
+  {
+   "id": "openai-private-intelligence-firmendaten",
+   "s": "ai",
+   "time": "12:45",
+   "kl": {
+    "de": "Datenschutz",
+    "bg": "Защита на данни",
+    "en": "Data protection"
+   },
+   "yt": {
+    "id": "Amm9ySSET4c",
+    "ch": "OpenAI",
+    "kind": "video",
+    "t": {
+     "de": "Coinbase on OpenAI Private Intelligence",
+     "bg": "Coinbase on OpenAI Private Intelligence",
+     "en": "Coinbase on OpenAI Private Intelligence"
+    }
+   },
+   "src": [
+    {
+     "n": "all-ai.de – OpenAI schützt sensible Firmendaten mit Private Intelligence (30.10.2026)",
+     "u": "https://www.all-ai.de/news/news26/openai-privat-firmen"
+    },
+    {
+     "n": "FourWeekMBA – OpenAI Offers Zero-Retention and Private Inference to Firms (30.10.2026)",
+     "u": "https://fourweekmba.com/ai-openai-offers-zero-retention-and-private-inference-to-firms/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-03/openai-private-intelligence-firmendaten.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "HaeB",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pioneer_Building,_San_Francisco_(2019)_-1.jpg",
+    "alt": {
+     "de": "Archivbild: das Pioneer Building in San Francisco, früherer Sitz von OpenAI (2019)",
+     "bg": "Архивна снимка: сградата Pioneer Building в Сан Франциско, бивше седалище на OpenAI (2019 г.)",
+     "en": "Archive image: the Pioneer Building in San Francisco, OpenAI's former headquarters (2019)"
+    }
+   },
+   "de": {
+    "t": "Firmendaten abschirmen: OpenAI bündelt Datenschutz-Funktionen als „Private Intelligence“",
+    "d": "OpenAI fasst Schutzfunktionen für Unternehmensdaten unter einem neuen Namen zusammen, ein Teil ist erst als Vorschau verfügbar. Dazu gibt es ein Video mit der Kryptobörse Coinbase.",
+    "body": [
+     "OpenAI hat am 30. Oktober unter dem Namen „Private Intelligence“ ein Paket von Datenschutz-Funktionen für Unternehmen vorgestellt. Firmen sollen damit auch vertrauliche Daten mit den leistungsstärksten Modellen des Unternehmens verarbeiten können, ohne dass OpenAI unnötig Zugriff auf die Inhalte erhält. Am Montag veröffentlichte OpenAI dazu ein Video mit dem Titel „Coinbase on OpenAI Private Intelligence“.",
+     "Ein Baustein ist „Zero Data Retention“: Bei geeigneten Abläufen über die Programmierschnittstelle (API) speichert OpenAI Eingaben und Antworten nach der Verarbeitung nicht. Für automatische Sicherheitsprüfungen können ausgewählte Daten laut all-ai.de bis zu 30 Tage verschlüsselt im Cloud-Speicher des Kunden liegen. Neu ist „Private Inference“: Anfragen und Antworten sollen schon während der Berechnung durch vertrauliches Rechnen (Confidential Computing) abgeschirmt werden. Diese Funktion gibt es bislang nur als Vorschau, Interessenten können sich registrieren.",
+     "Außerdem sollen Firmen festlegen können, auf welche Daten und Funktionen KI-Agenten zugreifen dürfen, welche Aktionen erlaubt sind und wann ein Mitarbeiter zustimmen muss. Eingaben und Ergebnisse gehören laut OpenAI den Kunden. Kundennamen und Preise nannte das Unternehmen in der Ankündigung nicht, auch ein Termin für das Ende der Vorschauphase fehlt laut FourWeekMBA."
+    ]
+   },
+   "bg": {
+    "t": "Защита на фирмени данни: OpenAI събира функции за поверителност в „Private Intelligence“",
+    "d": "OpenAI събира под ново име функции за защита на фирмени данни, като част от тях са достъпни само като предварителна версия. Към това има видео с криптоборсата Coinbase.",
+    "body": [
+     "На 30 октомври OpenAI представи под името „Private Intelligence“ пакет от функции за защита на данните за компании. С него фирмите трябва да могат да обработват и поверителни данни с най-мощните модели на компанията, без OpenAI да получава излишен достъп до съдържанието. В понеделник OpenAI публикува и видео със заглавие „Coinbase on OpenAI Private Intelligence“.",
+     "Един от елементите е „Zero Data Retention“: при подходящи процеси през програмния интерфейс (API) OpenAI не съхранява въвежданите данни и отговорите след обработката. Според all-ai.de за автоматични проверки за сигурност избрани данни могат да се пазят криптирани до 30 дни в облачното хранилище на клиента. Ново е „Private Inference“: заявките и отговорите трябва да бъдат защитени още по време на изчислението чрез поверителни изчисления (Confidential Computing). Тази функция засега е само в предварителна версия, а желаещите могат да се регистрират.",
+     "Освен това фирмите трябва да могат да определят до кои данни и функции имат достъп ИИ агентите, кои действия са разрешени и кога служител трябва да даде съгласие. Според OpenAI въведените данни и резултатите принадлежат на клиентите. Имена на клиенти и цени компанията не посочи в обявлението, а според FourWeekMBA липсва и срок за края на предварителната фаза."
+    ]
+   },
+   "en": {
+    "t": "Shielding company data: OpenAI bundles privacy features as “Private Intelligence”",
+    "d": "OpenAI is grouping protections for business data under a new name, with part of it only available as a preview. A video featuring the crypto exchange Coinbase accompanies it.",
+    "body": [
+     "On 30 October, OpenAI unveiled a package of data protection features for businesses under the name “Private Intelligence”. It is meant to let companies process even confidential data with the firm's most capable models without OpenAI gaining unnecessary access to the content. On Monday, OpenAI published a video titled “Coinbase on OpenAI Private Intelligence”.",
+     "One component is “Zero Data Retention”: for eligible workflows via its application programming interface (API), OpenAI does not store prompts and responses after processing. According to all-ai.de, selected data can be kept encrypted in the customer's cloud storage for up to 30 days for automated safety checks. New is “Private Inference”, which is meant to shield requests and responses even during processing using confidential computing. This feature is so far only available as a preview, and interested parties can register.",
+     "Companies are also meant to be able to set which data and functions AI agents may access, which actions are allowed and when an employee must approve. According to OpenAI, customers own their inputs and outputs. The company named neither customers nor prices in the announcement, and according to FourWeekMBA there is also no date for the end of the preview phase."
+    ]
+   }
+  },
+  {
+   "id": "nlr-gemini-elektronenmikroskop",
+   "s": "ai",
+   "time": "12:45",
+   "kl": {
+    "de": "KI in der Forschung",
+    "bg": "ИИ в науката",
+    "en": "AI in research"
+   },
+   "yt": {
+    "id": "frBkhuCcWzc",
+    "ch": "Google Cloud",
+    "kind": "video",
+    "t": {
+     "de": "DOE’s National Laboratory of the Rockies accelerates materials discovery with Google AI",
+     "bg": "DOE’s National Laboratory of the Rockies accelerates materials discovery with Google AI",
+     "en": "DOE’s National Laboratory of the Rockies accelerates materials discovery with Google AI"
+    }
+   },
+   "src": [
+    {
+     "n": "Google Cloud – National Laboratory of the Rockies case study (abgerufen 03.11.2026)",
+     "u": "https://cloud.google.com/customers/national-laboratory-of-the-rockies"
+    },
+    {
+     "n": "National Laboratory of the Rockies – AI and Robotics Are Speeding Up Discovery (04.05.2026)",
+     "u": "https://www.nlr.gov/news/detail/program/2026/ai-and-robotics-are-speeding-up-discovery-at-national-laboratory-of-the-rockies"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-03/nlr-gemini-elektronenmikroskop.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "ENERGY.GOV",
+    "lic": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:NREL_Director_Dan_Arvizu,_Carol_Battershell,_Manager,_DOE_Golden_Service_Operations_Center_and_Deputy_Secretary_Daniel_Poneman,_U.S._Department_of_Energy,_tour_the_new_Energy_Systems_Integration_Facility_(ESIF).jpg",
+    "alt": {
+     "de": "Archivbild: Rundgang an der Energy Systems Integration Facility auf dem Campus des Labors in Golden, Colorado, das damals noch NREL hieß (2013)",
+     "bg": "Архивна снимка: обиколка на сградата Energy Systems Integration Facility в кампуса на лабораторията в Голдън, Колорадо, която тогава се казваше NREL (2013 г.)",
+     "en": "Archive image: a tour of the Energy Systems Integration Facility on the lab's campus in Golden, Colorado, then still called NREL (2013)"
+    }
+   },
+   "de": {
+    "t": "Mikroskop im Dialog: US-Forschungslabor steuert Messgeräte mit Googles KI Gemini",
+    "d": "Am National Laboratory of the Rockies bedienen Forscher ein Elektronenmikroskop mit Anweisungen in Alltagssprache. Laut Google sinkt die Kalibrierung von über 90 auf rund 13 Minuten. Ein Video zeigt das Projekt.",
+    "body": [
+     "Das National Laboratory of the Rockies (NLR) in Golden im US-Bundesstaat Colorado, ein Forschungslabor des US-Energieministeriums, steuert Messgeräte mithilfe von Googles KI-Modell Gemini. Forscher können etwa einem Transmissionselektronenmikroskop in Alltagssprache mitteilen, was sie tun wollen. Google stellt das Projekt in einer Fallstudie und in einem Video auf seinem Cloud-Kanal vor.",
+     "Das System entscheidet laut Google, ob eine Anfrage nur beantwortet werden soll oder ob das Gerät etwas tun muss. Befehle an die Hardware laufen über eine Steuerschicht, die nur festgelegte, freigegebene Gerätebefehle zulässt. Die KI stützt sich auf Gerätehandbücher, interne Unterlagen und frühere Messergebnisse, schlägt einen Plan vor, zeigt ihre Begründung und wartet auf die Freigabe der Forscher, bevor sich etwas bewegt. Statt die Bildschärfe nach Augenmaß zu beurteilen, berechnet sie einen Schärfewert.",
+     "Nach Angaben von Google dauert die Kalibrierung des Mikroskops pro Messbedingung nur noch rund 13 statt mehr als 90 Minuten, beim Fokussieren seien statt bis zu 55 nur noch 2 Eingriffe von Hand nötig. Zudem ermögliche das System Messläufe von 12 bis 15 Stunden ohne Aufsicht, etwa nachts und am Wochenende. Die Zahlen stammen aus Googles eigener Darstellung. Das NLR arbeitet nach eigenen Angaben außerdem an „selbstfahrenden Laboren“, die Experimente automatisiert durchführen."
+    ]
+   },
+   "bg": {
+    "t": "Микроскоп в диалог: американска лаборатория управлява уреди с ИИ Gemini на Google",
+    "d": "В National Laboratory of the Rockies учени управляват електронен микроскоп с указания на всекидневен език. Според Google калибрирането пада от над 90 на около 13 минути. Видео показва проекта.",
+    "body": [
+     "National Laboratory of the Rockies (NLR) в Голдън, щата Колорадо, изследователска лаборатория на Министерството на енергетиката на САЩ, управлява измервателни уреди с помощта на ИИ модела Gemini на Google. Учените могат например да съобщят на трансмисионен електронен микроскоп на всекидневен език какво искат да направят. Google представя проекта в описание на случая и във видео в своя облачен канал.",
+     "Според Google системата решава дали дадена заявка изисква само отговор, или уредът трябва да извърши действие. Командите към хардуера минават през управляващ слой, който допуска само определени, одобрени команди. ИИ се опира на ръководства за уредите, вътрешни документи и предишни резултати, предлага план, показва мотивите си и чака одобрението на учените, преди нещо да се задвижи. Вместо остротата на изображението да се преценява на око, той изчислява стойност за острота.",
+     "По данни на Google калибрирането на микроскопа за всяко условие на измерване вече отнема около 13 вместо над 90 минути, а при фокусирането са нужни само 2 вместо до 55 ръчни намеси. Системата позволява и измервания от 12 до 15 часа без надзор, например през нощта и през уикенда. Числата са от собственото представяне на Google. По собствени данни NLR работи и върху „самоуправляващи се лаборатории“, които провеждат експерименти автоматично."
+    ]
+   },
+   "en": {
+    "t": "Microscope in dialogue: US research lab runs instruments with Google's Gemini AI",
+    "d": "At the National Laboratory of the Rockies, researchers operate an electron microscope with plain-language instructions. Google says calibration drops from over 90 to about 13 minutes. A video shows the project.",
+    "body": [
+     "The National Laboratory of the Rockies (NLR) in Golden, Colorado, a research laboratory of the US Department of Energy, is controlling instruments with the help of Google's Gemini AI model. Researchers can, for example, tell a transmission electron microscope in plain language what they want to do. Google presents the project in a case study and in a video on its cloud channel.",
+     "According to Google, the system decides whether a request only needs an answer or whether the instrument has to act. Hardware commands go through a control layer that only allows a defined set of approved instrument commands. The AI draws on instrument manuals, internal documentation and past results, proposes a plan, shows its reasoning and waits for researchers to approve before anything moves. Instead of judging image sharpness by eye, it calculates a clarity score.",
+     "According to Google, calibrating the microscope now takes about 13 minutes per condition instead of more than 90, and focusing needs 2 manual adjustments instead of up to 55. The system also enables unattended runs of 12 to 15 hours, for example overnight and at weekends. The figures come from Google's own account. The NLR says it is also working on “self-driving laboratories” that carry out experiments automatically."
+    ]
+   }
+  },
+  {
+   "id": "reachy-mini-raeder-huete-app",
+   "s": "ai",
+   "time": "12:45",
+   "kl": {
+    "de": "Roboter",
+    "bg": "Роботи",
+    "en": "Robots"
+   },
+   "yt": {
+    "id": "A5cgteO1KWY",
+    "ch": "Pollen Robotics",
+    "kind": "video",
+    "t": {
+     "de": "Reachy Mini Gets Wheels, Personalities and a Mobile App!",
+     "bg": "Reachy Mini Gets Wheels, Personalities and a Mobile App!",
+     "en": "Reachy Mini Gets Wheels, Personalities and a Mobile App!"
+    }
+   },
+   "src": [
+    {
+     "n": "Circuit Digest – Hugging Face's Reachy Mini Robot Gets $149 Wheels and NFC Hats (30.10.2026)",
+     "u": "https://circuitdigest.com/news/hugging-faces-reachy-mini-robot-gets-149-wheels-and-nfc-hats-that-swap-its-personality"
+    },
+    {
+     "n": "Spatial Insiders – Reachy Mini Level Up Adds Wheels, NFC Hats, and a Phone App (10/2026)",
+     "u": "https://spatialinsiders.com/stories/reachy-mini-level-up-wheels-hats"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-03/reachy-mini-raeder-huete-app.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Ecole polytechnique from Paris",
+    "lic": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Reachy_robot_-_%C3%89cole_Polytechnique.jpg",
+    "alt": {
+     "de": "Symbolbild: der größere Pollen-Robotics-Roboter Reachy bei einer Vorführung an der École polytechnique – nicht das Modell Reachy Mini",
+     "bg": "Символна снимка: по-големият робот Reachy на Pollen Robotics при демонстрация в École polytechnique – не моделът Reachy Mini",
+     "en": "Symbol image: Pollen Robotics' larger Reachy robot at a demonstration at École polytechnique – not the Reachy Mini model"
+    }
+   },
+   "de": {
+    "t": "Tischroboter bekommt Räder: Hugging Face macht Reachy Mini mobil – Hüte wechseln die Rolle",
+    "d": "Pollen Robotics, das Robotikteam von Hugging Face, bringt für den offenen Tischroboter Reachy Mini einen Fahrsockel, Hüte mit NFC-Chip und Handy-Apps. Ein Video zeigt die Neuheiten.",
+    "body": [
+     "Pollen Robotics, das zu Hugging Face gehörende Robotikteam, hat am 29. Oktober Erweiterungen für den kleinen Open-Source-Roboter Reachy Mini vorgestellt. Den Tischroboter gibt es als Wireless-Version mit eingebautem Akku für 499 Dollar und als Lite-Version, die per USB an einem Computer läuft, für 399 Dollar. Ein Video auf dem Kanal von Pollen Robotics zeigt die Neuheiten.",
+     "Neu ist ein zweirädriger Fahrsockel („Hoverboard“) mit eigenem Akku für 149 Dollar. Der Roboter wird darauf gesetzt und per Smartphone gesteuert, mit zwei Bildschirm-Joysticks für Räder und Kopf sowie dem Live-Bild seiner Kamera. Der Sockel funktioniert nur mit der Wireless-Version. Für 35 Dollar gibt es ein NFC-Zubehörpaket mit Koch-, Piraten- und Kronenhut: Jeder Hut wechselt beim Aufsetzen die Persönlichkeit des Roboters. Vier leere NFC-Marken erlauben eigene Ideen.",
+     "Dazu kommen neue Apps für iOS und Android, mit denen sich die Wireless-Version ganz ohne Computer einrichten und bedienen lässt. Laut Pollen stehen mehr als 500 Apps aus der Community bereit. Die ersten Bestellungen von Fahrsockel und Hutpaket sollen laut Spatial Insiders Ende Januar 2027 ausgeliefert werden."
+    ]
+   },
+   "bg": {
+    "t": "Настолен робот с колела: Hugging Face прави Reachy Mini подвижен, а шапки сменят ролята",
+    "d": "Pollen Robotics, роботиката на Hugging Face, пуска за отворения настолен робот Reachy Mini подвижна основа, шапки с NFC чип и мобилни приложения. Видео показва новостите.",
+    "body": [
+     "Pollen Robotics, екипът по роботика на Hugging Face, представи на 29 октомври допълнения за малкия робот с отворен код Reachy Mini. Настолният робот се предлага във версия Wireless с вградена батерия за 499 долара и във версия Lite, която работи чрез USB към компютър, за 399 долара. Видео в канала на Pollen Robotics показва новостите.",
+     "Ново е двуколесна подвижна основа („Hoverboard“) със собствена батерия за 149 долара. Роботът се поставя върху нея и се управлява със смартфон – с два екранни джойстика за колелата и главата и с живо изображение от камерата му. Основата работи само с версията Wireless. За 35 долара се предлага NFC пакет с готварска, пиратска шапка и корона: всяка шапка при поставяне сменя личността на робота. Четири празни NFC етикета позволяват собствени идеи.",
+     "Освен това има нови приложения за iOS и Android, с които версията Wireless може да се настрои и управлява изцяло без компютър. Според Pollen са налични над 500 приложения от общността. Според Spatial Insiders първите поръчки на основата и пакета с шапки трябва да бъдат доставени в края на януари 2027 г."
+    ]
+   },
+   "en": {
+    "t": "Desk robot gets wheels: Hugging Face makes Reachy Mini mobile – and hats switch its role",
+    "d": "Pollen Robotics, Hugging Face's robotics team, is launching a wheeled base, NFC-chip hats and phone apps for the open desk robot Reachy Mini. A video shows the new features.",
+    "body": [
+     "Pollen Robotics, the robotics team belonging to Hugging Face, unveiled add-ons for the small open-source robot Reachy Mini on 29 October. The desk robot comes as a Wireless version with a built-in battery for $499 and as a Lite version that runs over USB from a computer for $399. A video on the Pollen Robotics channel shows the new features.",
+     "New is a two-wheeled base (“Hoverboard”) with its own battery for $149. The robot sits on it and is driven from a smartphone, with two on-screen joysticks for wheels and head plus a live feed from its camera. The base only works with the Wireless version. An NFC accessory pack for $35 includes chef, pirate and crown hats: each hat switches the robot's personality when put on. Four blank NFC tags allow users to add their own ideas.",
+     "There are also new iOS and Android apps that let users set up and run the Wireless version entirely without a computer. According to Pollen, more than 500 community apps are available. According to Spatial Insiders, the first orders of the base and hat pack are expected to ship at the end of January 2027."
+    ]
+   }
+  },
+  {
+   "id": "goldman-ki-werkzeuge-nur-ingenieure",
+   "s": "ai",
+   "time": "12:45",
+   "mn": true,
+   "kl": {
+    "de": "KI im Unternehmen",
+    "bg": "ИИ във фирмите",
+    "en": "AI at work"
+   },
+   "src": [
+    {
+     "n": "PYMNTS – Goldman Sachs Bars Bankers From Employing Some AI Tools (02.11.2026)",
+     "u": "https://www.pymnts.com/news/artificial-intelligence/2026/goldman-sachs-bars-bankers-from-employing-some-ai-tools/"
+    },
+    {
+     "n": "AI Weekly – Goldman Sachs Pulls Claude Code and GitHub Copilot From Traders and Bankers (02.11.2026)",
+     "u": "https://aiweekly.co/alerts/goldman-sachs-pulls-claude-code-and-github-copilot-from-traders-and-bankers"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-03/goldman-ki-werkzeuge-nur-ingenieure.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "www.Pixel.la Free Stock Photos",
+    "lic": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:200_West_Street_(Goldman_Sachs_Tower),_Manhattan,_seen_from_One_World_Observatory_(24326787965).jpg",
+    "alt": {
+     "de": "Archivbild: die Goldman-Sachs-Zentrale 200 West Street in Manhattan von oben",
+     "bg": "Архивна снимка: централата на Goldman Sachs на 200 West Street в Манхатън, погледната отгоре",
+     "en": "Archive image: Goldman Sachs headquarters at 200 West Street in Manhattan seen from above"
+    }
+   },
+   "de": {
+    "t": "Goldman Sachs nimmt Bankern und Händlern KI-Programmierwerkzeuge wieder weg",
+    "d": "Claude Code und GitHub Copilot sind bei der US-Bank nur noch für ihre rund 12.000 Ingenieure freigegeben. Das berichtet Bloomberg unter Berufung auf interne Richtlinien.",
+    "body": [
+     "Die US-Investmentbank Goldman Sachs schränkt den Zugang zu KI-Programmierwerkzeugen ein. Anthropics Claude Code und Microsofts GitHub Copilot stehen nur noch den rund 12.000 Ingenieuren der Bank zur Verfügung, wie Bloomberg am Montag unter Berufung auf interne Richtlinien aus dem Oktober berichtete. Investmentbanker und Händler, die die Werkzeuge seit Monaten nutzen durften, verlieren den Zugang. Die „Strats“-Gruppe, Softwareentwickler mit quantitativen Aufgaben, behält ihn laut AI Weekly.",
+     "Ein Sprecher der Bank erklärte laut PYMNTS, man stelle bestimmte KI-Werkzeuge bereit, um die besten Einsatzfelder in verschiedenen Bereichen zu ermitteln. Nach einer Testphase, in der unter anderem Produktivität und Risikomanagement bewertet worden seien, lägen die Werkzeuge nun bei denjenigen, die sie langfristig am besten nutzen können.",
+     "Einige Händler hatten die KI laut einer mit der Sache vertrauten Person genutzt, um Handelsströme von Kunden zu beobachten und Texte sowie Grafiken zu erstellen; bei ihnen sorge die Entscheidung für Unmut. Noch im Juli hatte Goldmans IT-Chef (Chief Information Officer) Marco Argenti das sogenannte Vibe Coding gelobt, bei dem Beschäftigte ohne Programmierkenntnisse mit KI eigene Lösungen bauen und an Ingenieure weitergeben."
+    ]
+   },
+   "bg": {
+    "t": "Goldman Sachs отнема на банкерите и търговците ИИ инструментите за програмиране",
+    "d": "Claude Code и GitHub Copilot вече са разрешени в американската банка само за около 12 000 ѝ инженери. Това съобщава Bloomberg, позовавайки се на вътрешни правила.",
+    "body": [
+     "Американската инвестиционна банка Goldman Sachs ограничава достъпа до ИИ инструменти за програмиране. Claude Code на Anthropic и GitHub Copilot на Microsoft вече са достъпни само за около 12 000 инженери на банката, съобщи Bloomberg в понеделник, позовавайки се на вътрешни правила от октомври. Инвестиционните банкери и търговците, които от месеци можеха да ползват инструментите, губят достъпа. Според AI Weekly групата „Strats“ – софтуерни разработчици с количествени задачи – го запазва.",
+     "Според PYMNTS говорител на банката заяви, че тя предоставя определени ИИ инструменти, за да установи най-добрите приложения в различните звена. След тестов период, в който са оценени и производителността, и управлението на риска, инструментите вече са при онези, които могат да ги използват най-добре в дългосрочен план.",
+     "Според запознат с въпроса някои търговци са използвали ИИ, за да следят търговските потоци на клиенти и да изготвят текстове и графики; решението ги е подразнило. Още през юли ИТ директорът на Goldman Марко Аргенти похвали т.нар. vibe coding, при който служители без познания по програмиране създават с ИИ собствени решения и ги предават на инженери."
+    ]
+   },
+   "en": {
+    "t": "Goldman Sachs takes AI coding tools away from bankers and traders",
+    "d": "Claude Code and GitHub Copilot are now limited to the US bank's roughly 12,000 engineers. Bloomberg reports this, citing internal guidance.",
+    "body": [
+     "US investment bank Goldman Sachs is restricting access to AI coding tools. Anthropic's Claude Code and Microsoft's GitHub Copilot are now only available to the bank's roughly 12,000 engineers, Bloomberg reported on Monday, citing internal guidance from October. Investment bankers and traders, who had been allowed to use the tools for months, are losing access. According to AI Weekly, the “strats” group of software engineers with quantitative roles keeps it.",
+     "A bank spokesperson said, according to PYMNTS, that the firm makes certain AI tools available to determine the best use cases across the firm. After a period of experimentation that assessed factors including productivity and risk management, the tools are now with those best suited to use them for the long term.",
+     "According to a person familiar with the matter, some traders had used the AI to monitor client trading flows and to create written and graphic materials, and the decision has frustrated them. As recently as July, Goldman's chief information officer Marco Argenti praised so-called vibe coding, in which non-technical staff build their own solutions with AI and hand them to engineers."
+    ]
+   }
+  },
+  {
+   "id": "workos-datenleck-ki-angriffswerkzeug",
+   "s": "ai",
+   "time": "12:45",
+   "mn": true,
+   "kl": {
+    "de": "Sicherheit",
+    "bg": "Сигурност",
+    "en": "Security"
+   },
+   "src": [
+    {
+     "n": "Cyber Security News – Hackers Use ARTEX AI to Breach WorkOS (03.11.2026)",
+     "u": "https://cybersecuritynews.com/workos-data-breach/"
+    },
+    {
+     "n": "GBHackers – Hackers Use AI-Powered Attack Framework to Breach WorkOS and Access Customer Data (03.11.2026)",
+     "u": "https://gbhackers.com/hackers-use-ai-powered-attack-framework-to-breach-workos/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-03/workos-datenleck-ki-angriffswerkzeug.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "BalticServers.com",
+    "lic": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg",
+    "alt": {
+     "de": "Symbolbild: Serverschränke in einem Rechenzentrum",
+     "bg": "Символна снимка: сървърни шкафове в център за данни",
+     "en": "Symbol image: server racks in a data centre"
+    }
+   },
+   "de": {
+    "t": "Angriff mit KI-Hilfe: Unbekannte dringen in Vertriebssystem von WorkOS ein",
+    "d": "Beim US-Softwareanbieter WorkOS hatten Angreifer Zugriff auf eine interne Vertriebsanwendung mit Kundendaten. Laut den Ermittlern half ihnen ein KI-gestütztes Angriffswerkzeug.",
+    "body": [
+     "Der US-Softwareanbieter WorkOS hat einen unbefugten Zugriff auf eine interne Vertriebsanwendung gemeldet. Der Vorfall wurde am 30. Oktober entdeckt, am 2. November veröffentlichte das Unternehmen eine Sicherheitsmitteilung. Laut den Ermittlern nutzten die Angreifer ein KI-gestütztes Angriffswerkzeug, das das Ausspähen von Systemen und Einbruchsversuche automatisiert.",
+     "In der Anwendung lagen laut den Berichten Kontaktdaten wie Namen, E-Mail-Adressen, Telefonnummern und Berufsbezeichnungen, Kundenhistorien sowie Zusammenfassungen und Auszüge aus Verkaufsgesprächen, Support-Anfragen und Slack-Unterhaltungen mit Kunden. Welche Datensätze tatsächlich abgerufen wurden und wie viele Kunden betroffen sind, ist noch offen. Für einen Zugriff auf Daten der eigentlichen WorkOS-Anwendung oder auf Produktionsdienste gibt es laut dem Unternehmen keine Hinweise.",
+     "WorkOS-Chef Michael Grinich nannte laut Cyber Security News als Werkzeug ARTEX, die offizielle Mitteilung nennt keinen Namen. Google Threat Intelligence und Mandiant beschreiben ARTEX als Plattform mit mehreren KI-Agenten, die Ziele von Angreifern in Befehle übersetzt und mehrere Angriffsschritte mit wenig menschlichem Zutun abarbeitet. Belegt ist der Einsatz von ARTEX bei WorkOS damit nicht, die Analysen beziehen sich nicht auf diesen Vorfall. WorkOS sperrte den externen Zugang zur Anwendung, beauftragte externe Forensiker und rät Kunden, unerwartete Anfragen genau zu prüfen."
+    ]
+   },
+   "bg": {
+    "t": "Атака с помощта на ИИ: неизвестни проникват в търговската система на WorkOS",
+    "d": "При американския софтуерен доставчик WorkOS нападатели са имали достъп до вътрешно търговско приложение с клиентски данни. Според разследващите им е помогнал ИИ инструмент за атаки.",
+    "body": [
+     "Американският софтуерен доставчик WorkOS съобщи за неразрешен достъп до вътрешно търговско приложение. Инцидентът е открит на 30 октомври, а на 2 ноември компанията публикува съобщение за сигурността. Според разследващите нападателите са използвали ИИ инструмент за атаки, който автоматизира разузнаването на системи и опитите за проникване.",
+     "Според публикациите в приложението са се съдържали данни за контакт като имена, имейл адреси, телефонни номера и длъжности, история на клиентите, както и резюмета и откъси от търговски разговори, запитвания към поддръжката и разговори в Slack с клиенти. Все още не е ясно кои записи действително са били изтеглени и колко клиенти са засегнати. Според компанията няма данни за достъп до самото приложение на WorkOS или до продукционните услуги.",
+     "Според Cyber Security News шефът на WorkOS Майкъл Гриних е посочил като инструмент ARTEX, а в официалното съобщение име не се споменава. Google Threat Intelligence и Mandiant описват ARTEX като платформа с няколко ИИ агента, която превръща целите на нападателите в команди и изпълнява няколко стъпки на атаката с малко човешка намеса. С това използването на ARTEX при WorkOS не е доказано – анализите не се отнасят до този инцидент. WorkOS блокира външния достъп до приложението, нае външни експерти по криминалистика и съветва клиентите внимателно да проверяват неочаквани запитвания."
+    ]
+   },
+   "en": {
+    "t": "AI-assisted attack: intruders break into WorkOS sales system",
+    "d": "Attackers gained access to an internal sales application holding customer data at US software provider WorkOS. Investigators say an AI-assisted attack framework helped them.",
+    "body": [
+     "US software provider WorkOS has reported unauthorised access to an internal sales application. The incident was detected on 30 October, and the company published a security bulletin on 2 November. According to investigators, the attackers used an AI-assisted offensive framework that automates reconnaissance and intrusion attempts.",
+     "According to the reports, the application held contact details such as names, email addresses, phone numbers and job titles, customer histories, and summaries and excerpts of sales calls, support discussions and Slack conversations with customers. Which records were actually accessed and how many customers are affected is still unclear. According to the company, there is no evidence of access to data in the WorkOS application itself or to production services.",
+     "According to Cyber Security News, WorkOS CEO Michael Grinich named the tool as ARTEX, while the official bulletin does not name it. Google Threat Intelligence and Mandiant describe ARTEX as a multi-agent platform that turns attackers' goals into commands and works through several attack stages with little human input. This does not establish that ARTEX was used against WorkOS, as those analyses do not refer to this incident. WorkOS disabled external access to the application, hired outside forensic investigators and advises customers to verify unexpected requests carefully."
+    ]
+   }
+  },
+  {
+   "id": "openai-dan-driscoll-nationale-sicherheit",
+   "s": "ai",
+   "time": "12:45",
+   "mn": true,
+   "kl": {
+    "de": "Personalie",
+    "bg": "Назначение",
+    "en": "Appointment"
+   },
+   "src": [
+    {
+     "n": "Gizmodo – OpenAI Hires Dan Driscoll, Former Trump Appointee at Pentagon (02.11.2026)",
+     "u": "https://gizmodo.com/openai-hires-former-trump-admin-army-secretary-for-new-national-security-role-2000834160"
+    },
+    {
+     "n": "Türkiye Today – OpenAI hires former US Army Secretary Dan Driscoll for new national security role (03.11.2026)",
+     "u": "https://www.turkiyetoday.com/business/openai-hires-former-us-army-secretary-dan-driscoll-for-new-national-security-role-3231593"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-03/openai-dan-driscoll-nationale-sicherheit.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "US Senate Committee on Armed Services",
+    "lic": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Daniel_P._Driscoll_2025.jpg",
+    "alt": {
+     "de": "Archivbild: Dan Driscoll bei seiner Anhörung vor dem Streitkräfteausschuss des US-Senats (2025)",
+     "bg": "Архивна снимка: Дан Дрискол при изслушването си пред комисията по въоръжените сили на Сената на САЩ (2025 г.)",
+     "en": "Archive image: Dan Driscoll at his hearing before the US Senate Armed Services Committee (2025)"
+    }
+   },
+   "de": {
+    "t": "Früherer US-Armeeminister Dan Driscoll wird Sicherheitsberater bei OpenAI",
+    "d": "OpenAI hat für Dan Driscoll eine neue Beraterstelle für nationale Sicherheit geschaffen. Er soll beim Einsatz von KI in Verteidigung und Cybersicherheit beraten, mit Blick auf Verbündete der USA.",
+    "body": [
+     "OpenAI hat den früheren Minister der US-Armee (Secretary of the Army) Dan Driscoll eingestellt. Wie das Unternehmen am Montag mitteilte, wird er „Senior Counselor for National Security Modernization“, eine neu geschaffene Stelle. Driscoll soll beraten, wie KI die nationale Sicherheit und die Cybersicherheit stärken kann, mit Schwerpunkt auf der Zusammenarbeit mit Verbündeten der USA.",
+     "Laut Türkiye Today soll er Partner aus Staat und Wirtschaft beraten und OpenAIs eigenen Teams helfen, die Bedürfnisse von Sicherheitsbehörden weltweit zu verstehen. Driscoll erklärte demnach, er komme zu OpenAI, um den USA und ihren Verbündeten zu helfen, die Technologie verantwortungsvoll einzusetzen. OpenAI-Chef Sam Altman verwies laut Gizmodo auf die Chance der USA, mit anderen Ländern zusammenzuarbeiten und demokratische KI zu verbreiten.",
+     "Driscoll war der 26. Minister der US-Armee. Laut einem Politico-Bericht, auf den sich Gizmodo beruft, trat er im August nach monatelangen Meinungsverschiedenheiten mit Pentagon-Chef Pete Hegseth zurück, unter anderem über die Modernisierung der Armee. Driscoll ist ein langjähriger Freund von US-Vizepräsident J. D. Vance, mit dem er an der Yale Law School studierte."
+    ]
+   },
+   "bg": {
+    "t": "Бивш министър на армията на САЩ Дан Дрискол става съветник по сигурността в OpenAI",
+    "d": "OpenAI създаде за Дан Дрискол нова съветническа длъжност по национална сигурност. Той ще съветва за използването на ИИ в отбраната и киберсигурността с оглед на съюзниците на САЩ.",
+    "body": [
+     "OpenAI назначи бившия министър на Сухопътните войски на САЩ (Secretary of the Army) Дан Дрискол. Както компанията съобщи в понеделник, той става „Senior Counselor for National Security Modernization“ – новосъздадена длъжност. Дрискол ще съветва как ИИ може да укрепи националната сигурност и киберсигурността, с акцент върху сътрудничеството със съюзниците на САЩ.",
+     "Според Türkiye Today той ще съветва партньори от държавата и бизнеса и ще помага на екипите на OpenAI да разберат нуждите на институциите по сигурността по света. По думите му той идва в OpenAI, за да помогне на САЩ и съюзниците им да използват технологията отговорно. Според Gizmodo шефът на OpenAI Сам Алтман посочи възможността САЩ да работят с други страни и да разпространяват демократичен ИИ.",
+     "Дрискол беше 26-ият министър на Сухопътните войски на САЩ. Според доклад на Politico, на който се позовава Gizmodo, той подаде оставка през август след месеци разногласия с шефа на Пентагона Пийт Хегсет, включително за модернизацията на армията. Дрискол е дългогодишен приятел на вицепрезидента на САЩ Джей Ди Ванс, с когото е учил в юридическия факултет на Йейл."
+    ]
+   },
+   "en": {
+    "t": "Former US Army Secretary Dan Driscoll joins OpenAI as security adviser",
+    "d": "OpenAI has created a new national security advisory role for Dan Driscoll. He is to advise on using AI in defence and cybersecurity, with a focus on US allies.",
+    "body": [
+     "OpenAI has hired former US Secretary of the Army Dan Driscoll. As the company announced on Monday, he becomes “Senior Counselor for National Security Modernization”, a newly created role. Driscoll is to advise on how AI can strengthen national security and cybersecurity, with a focus on working with US allies.",
+     "According to Türkiye Today, he will advise public- and private-sector partners and help OpenAI's own teams understand the needs of national security institutions worldwide. Driscoll said, according to Türkiye Today, that he was joining OpenAI to help the United States and its allies put the technology to work responsibly. OpenAI CEO Sam Altman, according to Gizmodo, pointed to the US opportunity to work with other countries to spread democratic AI.",
+     "Driscoll was the 26th Secretary of the Army. According to a Politico report cited by Gizmodo, he resigned in August after months of disagreements with Pentagon chief Pete Hegseth, including over modernising the Army. Driscoll is a longtime friend of US Vice President J.D. Vance, with whom he studied at Yale Law School."
+    ]
+   }
+  }
+ ]
+}
