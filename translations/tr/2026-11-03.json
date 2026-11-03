@@ -400,6 +400,25 @@
     "img.alt": "Arşiv fotoğrafı (2009): Sofya Havalimanı terminalinde"
    }
   },
+  "deutsche-boerse": {
+   "L": {
+    "body": [
+     "DAX (Almanya'nın borsaya kote en büyük 40 şirketi) Pazartesi günü 25.981,09 puanda kapandı; artış 162,88 puan veya yüzde 0,63 oldu. Böylece endeks, Cuma günkü kaybının büyük bölümünü geri aldı. Gün içinde kısa süreliğine 26.000 puanın üzerine çıktı (zirve: 26.022), ancak bu seviyeyi koruyamadı. MDax (orta ölçekli şirketler) yüzde 1,26, Euro Stoxx 50 (euro bölgesinin büyük şirketleri) yüzde 0,73 yükseldi (dpa-AFX, finanzen.net).",
+     "Piyasayı biraz daha ucuzlayan petrol ve ABD Başkanı Donald Trump'ın İran'la yaşanan çatışmada diplomatik çabalarına ilişkin bir haber destekledi. Bu, TUI ve Lufthansa gibi seyahat hisselerine yaradı. Teknoloji hisseleri de Cuma günkü satış dalgasının ardından toparlandı: Infineon yüzde 2,85 kazandı. DAX'ın en güçlü hissesi yüzde 5,01 ile MTU Aero Engines oldu; onu yüzde 4,05 ile Heidelberg Materials izledi. Fresenius, Çinli WuXi Biologics ile yapılan bir geliştirme anlaşmasının ardından yaklaşık yüzde 1,6 yükseldi.",
+     "En çok kaybettiren Rheinmetall oldu (−%3,62, 1000 euro): Bir medya haberi, Boxer tekerlekli zırhlı araçlar için verilen büyük bir siparişin ertelendiğini belirtince hisse, Ekim ortasından bu yana ilk kez kısa süreliğine 1000 euronun altına düştü. Deutsche Börse yüzde 2,15 kaybetti. Küçük ölçekli hisselerde init innovation, şirketin Orta Doğu'daki durum nedeniyle 2026 kâr tahminini belirgin biçimde düşürmesi üzerine yüzde 20'den fazla çöktü. Salı günü ABD ara seçimleri yapılacak; Apple ise Pazartesi günü ABD borsalarının kapanışından sonra rakamlarını açıklayacaktı."
+    ],
+    "d": "DAX Pazartesi günü 25.981 puanda (+%0,63) kapandı. Daha ucuz petrol ve ABD-İran çatışmasında diplomasi umudu etkili oldu. Rheinmetall %3,6 düştü, MTU %5 yükseldi.",
+    "explain": "Alman hisseleri, Cuma günkü gerilemenin ardından özellikle daha ucuz petrol sayesinde toparlandı. Bundan sonrasının büyük ölçüde ABD seçimlerine bağlı olması muhtemel.",
+    "t": "DAX yüzde 0,63 toparlandı, ABD seçimleri öncesinde 26.000 puana yaklaştı"
+   },
+   "at": "2026-11-03T06:59Z",
+   "h": "ec39ca2c7721",
+   "rev_dbg": [
+    4,
+    0,
+    0
+   ]
+  },
   "deutschland-afd-spendenaffaere-mail-leak-verjaehrung-2026-11-03": {
    "L": {
     "body": [
@@ -781,6 +800,35 @@
     "img.alt": "Sembolik fotoğraf: Kuzey Denizi'nde Nordsee One açık deniz rüzgâr santrali"
    }
   },
+  "erklaervideo-ezb-bundesbank-geldpolitik-2026-11-03": {
+   "L": {
+    "body": [
+     "Kredi ve tasarruf hesabı faizleri, enflasyon, bankaların istikrarı: Hane halklarının ve şirketlerin gündelik hayatta hissettiği pek çok şey merkez bankalarının çalışmasıyla bağlantılı. Euro bölgesinde para politikasından merkezi Frankfurt'ta bulunan Avrupa Merkez Bankası (AMB) sorumlu; AMB politika faizlerini belirliyor ve her şeyden önce tek bir hedefi var: fiyat istikrarı.",
+     "Yine Frankfurt'ta bulunan Alman Merkez Bankası Bundesbank bu sistemin bir parçası. Başkanı, faizlere karar veren AMB Yönetim Konseyi'nde yer alıyor; Bundesbank da alınan kararları Almanya'da uygulanmasına katkı sağlıyor. Bunun yanı sıra nakit para temini, ödeme sistemleri ve BaFin ile birlikte bankaların denetimi gibi kendi görevleri de var.",
+     "Bundesbank'ın “Finance Flash” serisinden çıkan video, kimin neden sorumlu olduğunu ve iki kurumun nasıl birlikte çalıştığını kısaca anlatıyor. Faiz kararlarına ilişkin haberleri daha iyi değerlendirebilmek için bir başlangıç niteliğinde; bu haftaki halka arz dosyası açısından da öyle, çünkü faiz düzeyi yatırımcıların yeni hisselere ne kadar para yatıracağını etkiliyor."
+    ],
+    "d": "Euro bölgesinde politika faizlerine kim karar veriyor, Bundesbank'ın görevi geriye ne kalıyor? Alman Merkez Bankası Bundesbank'ın kısa bir açıklayıcı video, iki merkez bankasının görevlerini açıklıyor.",
+    "t": "Açıklayıcı video: AMB ve Bundesbank paramız için ne yapıyor?"
+   },
+   "at": "2026-11-03T06:59Z",
+   "h": "3a6fd51b7650",
+   "rev": [
+    "\"Erklärvideo\" rendered as \"Tanıtım videosu\" (promo video); should be an explainer video",
+    "Same wording in the teaser: \"tanıtım videosu\"",
+    "Typo \"Hanehalklarının\" instead of \"Hanehalklarının/Hane halklarının\"",
+    "\"was macht dann noch die Bundesbank\" rendered as \"ne yapıyor\", losing the sense of what role remains",
+    "\"Börsengang-Schwerpunkt\" awkwardly rendered; \"halka arz odağı\" is unclear",
+    "\"Bundesbank da ... uygulamaya katkı sağlıyor\" is ungrammatical, missing the case suffix"
+   ],
+   "rev_dbg": [
+    6,
+    6,
+    0
+   ],
+   "x": {
+    "img.alt": "Frankfurt'taki Bundesbank merkezinin önünde bayraklar (Arşiv fotoğrafı)"
+   }
+  },
   "europa-belgien-de-wever-ruecktritt-haushalt-2026-11-03": {
    "L": {
     "body": [
@@ -1012,6 +1060,32 @@
     "img.alt": "Arşiv fotoğrafı (2014): Shuji Nakamura, Kaliforniya Üniversitesi Santa Barbara'da konuşuyor"
    }
   },
+  "ki-hangang-supercomputer-quanten-2026-11-03": {
+   "L": {
+    "body": [
+     "Güney Kore, Daejeon'daki KISTI araştırma enstitüsünde Hangang süper bilgisayarını devreye aldı. Enstitünün verdiği bilgiye göre bilgisayar, selefi Nurion'un yaklaşık 24 katı teorik işlem gücüne ulaşıyor. Sistem, aralarında Nvidia'nın GH200 tipi çiplerinin de bulunduğu 8.496 grafik işlemci ile 9.936 işlemciyle çalışıyor. Hükümet, Hangang'ın SC2026 konferansı kapsamındaki sıralamada dünyanın en iyi 10 süper bilgisayarı arasına girmesini bekliyor.",
+     "Çipler doğrudan sıvıyla soğutuluyor. KISTI'ye göre bu sayede enerji verimliliği göstergesi (PUE) 1,35'ten yaklaşık 1,15'e düştü. Şu anda yaklaşık 190 projeyle test işletimi sürüyor; düzenli işletim 16 Aralık'ta başlayacak. İşlem süresinin yüzde 55'i araştırmaya, yüzde 30'u ulusal stratejik projelere, yüzde 15'i ise sanayiye ayrılmış durumda.",
+     "Hangang'ın yaklaşık 2027'nin ilk yarısında bir kuantum bilgisayarla birleştirilmesi planlanıyor. KISTI Başkanı Lee Sik, haberde aktarıldığına göre şunları söyledi: “İkisinin birleşimi, birbirinin zayıf yönlerini telafi eden ve güçlü yönlerini öne çıkaran bir hibrit bilgisayar yaratabilir.”"
+    ],
+    "d": "Güney Kore, 8.496 grafik işlemciyle dünyanın en iyi 10 süper bilgisayarı arasına girmeyi hedefliyor. Hangang'ın 2027'den itibaren bir kuantum bilgisayarla hibrit sisteme dönüştürülmesi planlanıyor.",
+    "t": "Güney Kore'nin yeni süper bilgisayarı Hangang: 24 kat hızlı, yakında kuantum bilgisayarla"
+   },
+   "at": "2026-11-03T06:59Z",
+   "h": "1426075790d8",
+   "rev": [
+    "Headline: '24 kat hızlı' lost the hedge that it is theoretical computing power and is slightly inaccurate; kept but acceptable",
+    "'Etwa im ersten Halbjahr 2027' rendered 'yaklaşık 2027'nin ilk yarısında' is awkward; fixed to 'Yaklaşık 2027'nin ilk yarısında' -> 'Yaklaşık 2027'nin ilk yarısında' unchanged meaning, wording smoothe",
+    "Quote attribution 'laut dem Bericht' made clumsy; smoothed"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: ABD'nin Oak Ridge kentindeki Cray XT5 Kraken süper bilgisayarı"
+   }
+  },
   "ki-kuehltruhen-hack-supermaerkte-2026-11-03": {
    "L": {
     "body": [
@@ -1192,6 +1266,34 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Hessen'deki Kalbach yakınlarında bir meradaki sığırlar"
+   }
+  },
+  "klima-icci-unep-kryosphaere-overshoot-2026-11-03": {
+   "L": {
+    "body": [
+     "Türkiye'nin Antalya kentinde düzenlenecek COP31 Dünya İklim Konferansı'ndan bir hafta önce, International Cryosphere Climate Initiative (ICCI) ve BM Çevre Programı UNEP, 2 Kasım 2026'da iki rapor sundu: 80'den fazla kutup ve dağ araştırmacısının katkı verdiği “Overshoot and the Cryosphere” ile “State of the Cryosphere 2026”. Raporların temel bulgusuna göre, bugünkü ısınma düzeyi bile Arktik, Antarktika, dağ buzulları ve kutup denizleri için “güvenli değil”; ayrıca 1,5 derece sınırının aşılması da Dünya'daki buzda geniş çaplı ve çoğu zaman geri döndürülemez hasara yol açacağı belirtiliyor. Gerçekten güvenli düzeyin ise daha çok 1 derece veya altında olduğu ifade ediliyor.",
+     "Ölçümlerle ortaya konan veriler az değil: Raporlara göre Arktik son on yılda küresel ortalamanın dört katına kadar daha hızlı ısındı, Grönland ve Antarktika buz örtüleri 1990'lı yıllara kıyasla yaklaşık altı kat daha fazla buz kaybediyor ve İsviçre buzul kütlesinin yüzde 20'sini şimdiden yitirdi. Deniz seviyesi şu anda yılda yaklaşık 0,45 santimetre yükseliyor. Projeksiyonlara göre 1,5 derecenin altında bile uzun vadede iki ila dokuz metrelik bir yükselme mümkün; bu hız 2150'ye kadar yılda 5 santimetreye çıkabilir. Çözülen permafrost her yıl ABD kadar CO2 salabilir.",
+     "ICCI Baş Bilim İnsanı ve baş yazar James Kirkham, “1,5 derece aşılırsa iyi sonuçlar yoktur” dedi. Kirkham'a göre fosil yakıtlardan hızlı çıkış ve yüzyıl ortasına kadar net sıfır ile 2100'e kadar 1,5 derecenin altına dönüş hâlâ mümkün; bunun için ICCI'ye göre emisyonların derhal yılda en az yüzde 5 azalması gerekiyor. Bazı buzullar ve deniz buzu ise ancak onlarca yıldan yüzyıllara uzanan bir sürede toparlanabilir."
+    ],
+    "d": "80'den fazla uzmanın katıldığı iki rapor uyarıyor: 1,5 derecenin her aşılması buzullara, buz örtülerine ve permafrosta çoğu zaman geri döndürülemez zarar veriyor.",
+    "t": "ICCI/UNEP raporları: Bugünkü ısınma bile Dünya'daki buz için “güvenli değil”"
+   },
+   "at": "2026-11-03T06:59Z",
+   "h": "c1fd119f66d3",
+   "rev": [
+    "Headline: 'Dünya'nın buzulları' narrows 'Eis der Erde' (ice incl. ice sheets, permafrost); changed to 'buzulları' -> 'buzu'. Also 'buzul' for Eis in body para 1.",
+    "Indirect speech: 'bugünkü ısınma düzeyi ... güvenli değil' and 'hasara yol açacak' lacked clear attribution after 'Raporların temel bulgusuna göre' – attribution is present, but second sentence needs ",
+    "Teaser: 'her aşılması ... zarar veriyor' is stated as fact; German 'warnen' – acceptable, but 'her aşılması' ok",
+    "Kirkham quote: 'Leitautor' and sentence structure; the claim that return below 1.5 is possible read as plain fact in a participial construction; fixed to attributed report",
+    "Draft 'Grönland' is a proper name in Turkish ('Grönland' is correct Turkish spelling) – no change"
+   ],
+   "rev_dbg": [
+    5,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "İsviçre'deki Aletsch Buzulu'nun 1979, 2002 ve 2025 yıllarındaki karşılaştırması"
    }
   },
   "klima-plos-climate-tropenwald-hitzetage-2026-11-03": {
@@ -1622,6 +1724,30 @@
     "img.alt": "Newcastle'daki St James' Park (Arşiv fotoğrafı)"
    }
   },
+  "strom-ibex": {
+   "L": {
+    "body": [
+     "Bulgaristan elektrik borsası IBEX (BNEB), üreticilerin, tüccarların ve büyük şirketlerin toptan elektrik alıp sattığı pazar yeridir. Gün öncesi piyasasında ertesi günün her saati için fiyat, bir gün önce yapılan bir müzayedede belirlenir. 3 Kasım salı günü için günlük ortalama (Base) KDV hariç megavatsaat başına 296,65 euro. Bu, 317,56 euro olan pazartesi fiyatından %6,58 daha düşük. Böylece bir önceki günkü artışın bir kısmı geri alınmış oluyor.",
+     "Yoğun saatler (Peak, borsa saatleri 9–20) ortalama 328,17 euro; pazartesi günkü 352,82 euroya göre %6,99 daha ucuz. Diğer saatlerde (Off-Peak) megavatsaat 265,14 euro; 282,30 euroya göre %6,08 daha düşük. Gündüz ve gece elektriği arasındaki fark, megavatsaat başına 70,52 eurodan 63,03 euroya geriliyor (kendi hesabımız).",
+     "Toplam 94.090,28 megavatsaat işlem görüyor; bu, pazartesi günkü 88.176,02 MWh'den yaklaşık %6,7 fazla (kendi hesabımız). Yoğun saatlerin payı 48.079,45 MWh, diğer saatlerin payı 46.010,83 MWh. Fiyat düşüşünün nedenini veriler kendisi belirtmiyor.",
+     "Bölgede de fiyatlar düşüyor. 3e-news'e göre megavatsaat 3 Kasım'da ortalama Romanya'da (OPCOM) 297,00 euro, Macaristan'da (HUPX) 297,53 euro ve Yunanistan'da (HENEX) 267,32 euro. Almanya'da ise 252,85 euro. Bulgaristan, Romanya ve Macaristan'ın hemen altında yer alıyor (kendi karşılaştırmamız)."
+    ],
+    "d": "3 Kasım için IBEX ortalama fiyatı KDV hariç megavatsaat başına 296,65 euro; pazartesiye göre %6,58 düşük. Yoğun saatler %7 ucuzluyor. Hacim 94.090 MWh'ye yükseliyor.",
+    "explain": "Elektriği borsa fiyatlarından satın alan şirketler salı günü pazartesiye göre yaklaşık %7 daha az ödüyor. Hanehalkları ise düzenleyici kurum KEVR'in belirlediği fiyatları ödüyor; faturaları bundan doğrudan etkilenmiyor.",
+    "t": "Bulgaristan'da borsa elektriği salı günü %6,6 ucuz: 296,65 euro/MWh"
+   },
+   "at": "2026-11-03T06:59Z",
+   "h": "8f258821e5f4",
+   "rev": [
+    "Weekday capitalisation: TDK writes weekdays in lowercase, but 'Salı' in '3 Kasım Salı' is capitalised. In a date phrase TDK nevertheless keeps the weekday lowercase, so it was changed to 'salı'.",
+    "'Gündüz ve gece elektriği' is imprecise but follows the German 'Tag- und Nachtstrom'; left unchanged."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ]
+  },
   "stryker-pyrvi-pet-mashini-2026-11-03-b08": {
    "L": {
     "body": [
@@ -1642,6 +1768,36 @@
    "x": {
     "img.alt": "Bulgaristan'da bir tatbikatta Stryker zırhlı aracı (Arşiv fotoğrafı)"
    }
+  },
+  "wallstreet": {
+   "L": {
+    "body": [
+     "Wall Street pazartesi günü ikiye bölündü. Dow Jones (30 büyük ABD şirketi) 213,67 puan (%0,41) artışla 51.983,98'e yükseldi. S&P 500 (en büyük 500 şirket), gün içinde erken saatlerde %1,1'e varan artıştayken %0,51 kayıpla 7541,40'a geriledi. Nasdaq Composite (çok sayıda teknoloji hissesi) %1,07 düşüşle 25.164,32'ye indi. S&P 500'deki hisselerin çoğu yükseldi; ancak veri merkezlerine yapılan devasa harcamaların karşılığını verip vermeyeceğine dair şüphelerin sürdüğü teknoloji ve yapay zekâ hisseleri baskı yarattı (AP).",
+     "Büyük hareketler: Marvell, Lumentum'u kendi hisseleriyle satın almak istiyor (her Lumentum hissesi için 4,5 Marvell hissesi, hacim yaklaşık 115 milyar dolar); Marvell %12,7, Lumentum %18,6 düştü. Oracle, yapay zekâ altyapısının finansmanı için 10 milyar dolarlık yeni hisse ve tahvil ihracı açıklamasının ardından %8,8 değer kaybetti. IDEXX, güçlü çeyrek rakamlarının ardından %21,9 sıçradı. United (%4,8 artış) gibi havayolu şirketleri daha ucuz yakıttan yararlandı (AP, StockTitan, Capp Notes).",
+     "Petrol belirgin biçimde ucuzladı: Brent (Kuzey Denizi petrolü) %7,6 düşüşle varil başına 104,77 dolara, ABD türü WTI ise %7,4 düşüşle 96,46 dolara geriledi. Nedeni, İran'la diplomatik çözüm umudu; pazartesi akşamı Katarlı arabulucular, İran Dışişleri Bakanı Abbas Araghchi ile ABD'yle olası bir anlaşma konusunda görüşmek üzere Tahran'a gitti. On yıllık ABD devlet tahvillerinin getirisi yaklaşık %4,89'a düştü, altın %1,5'ten fazla değer kazandı. ISM imalat endeksi 55,5 puana yükseldi (önceki ay ve beklenti: 54,5); 50'nin üzeri büyüme anlamına geliyor.",
+     "Borsa kapandıktan sonra Apple 114,5 milyar dolar gelir (%12 artış) açıkladı, ancak Noel çeyreğinde daha düşük kâr marjları bekliyor; hisse kapanış sonrası işlemlerde yaklaşık %2,8 geriledi. Salı sabahı Asya'da Kospi %3,8'e varan düşüş yaşadı, Japonya'da tatil var, S&P 500 vadeli işlemleri %0,1 artışta (Reuters). Bugün ABD'de ara seçimler var, perşembe günü Bank of England karar verecek, cuma günü ABD istihdam raporu açıklanacak."
+    ],
+    "d": "Brent, İran'la diplomasi umuduyla 104,77 dolara geriledi. Dow %0,4 yükseldi; S&P 500 %0,5, Nasdaq %1,1 yapay zekâ endişeleriyle düştü. Apple rakamlarını kapanıştan sonra açıkladı.",
+    "explain": "Trend sürerse daha ucuz petrol akaryakıtı ve ısınma yağını ucuzlatabilir. Bugünkü seçim ve teknoloji devlerinin rakamları, önümüzdeki günlerde ABD hisse senedi fonlarını etkileyebilir.",
+    "t": "Petrol %7,6 çöktü, Dow yükselişte – teknoloji endişeleri Nasdaq'ı aşağı çekti"
+   },
+   "at": "2026-11-03T06:59Z",
+   "h": "04d5e6df2e4f",
+   "rev": [
+    "Headline uses 'çöktü' for 'einbricht' – acceptable",
+    "Percent sign convention: '%−0,5', '%+0,41', '%+4,8', '%+12' is unnatural in Turkish; should be '%0,5 düşüşle' / '+%' style",
+    "'Weihnachtsquartal' rendered as 'yılbaşı çeyreği' – should be Christmas/holiday quarter",
+    "'ISM-Industrieindex' fine",
+    "Dow gain 'yükselişte' fine",
+    "'KI-Ausbau' rendered 'yapay zekâ altyapısı' – minor, left",
+    "'Reuters' attribution for Kospi 'bis zu' ok",
+    "Araghtschi spelled Araghchi – acceptable established spelling"
+   ],
+   "rev_dbg": [
+    8,
+    5,
+    0
+   ]
   },
   "welt-bangladesch-textilarbeiter-proteste-loehne-2026-11-03": {
    "L": {
