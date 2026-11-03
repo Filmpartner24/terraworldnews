@@ -122,6 +122,34 @@
     "img.alt": "Atlético Madrid stadyumu (Arşiv fotoğrafı)"
    }
   },
+  "bbl-bayern-braunschweig-nachholspiel-2026-11-03": {
+   "L": {
+    "body": [
+     "FC Bayern München Basketball, salı günü (3 Kasım, saat 20:00) BMW Park'ta 2. haftanın ertelenmiş maçında Basketball Löwen Braunschweig ile karşılaşıyor. Kulübe göre Münihliler için bu, 15 günde beş deplasman maçının oynanacağı süreçteki tek iç saha maçı. Kadro açısından iyi haberler var: MarJon Beauchamp ve Justinian Jessup, grip nedeniyle ara verdikleri antrenmanlara döndü; Rostock'ta sırt sorunları nedeniyle forma giyemeyen Oscar da Silva ise pazartesi günü yeniden antrenman yaptı.",
+     "Braunschweig üç galibiyet ve üç yenilgiyle onuncu sırada yer alıyor ve küme düşme hattındaki ilk sıranın bir galibiyet önünde bulunuyor. Löwen takımı son maçında evinde Würzburg'a 72-96 yenildi. Bayern'in maç öncesi bilgilendirmesine göre teknik direktör Ramon Diaz Sanchez, maç başına ortalama 17,3 sayı atan Devin Askew'dan yoksun olacak. Bayern, Rostock'taki 67-69'luk yenilgiye rağmen beş galibiyet ve bir yenilgiyle puan tablosunda Trier (5-1) ve SYNTAINICS MBC'nin (5-2) önünde lider.",
+     "8. haftada ise birkaç zirve maçı var: Trier cumartesi günü (saat 18:30) Bamberg'i ağırlıyor, dördüncü sıradaki Skyliners pazar günü (saat 15:00) MBC'ye konuk oluyor, Bayern ise pazar günü (saat 18:00) tabloda beşinci sırada yer alan Würzburg deplasmanında sahaya çıkacak. ALBA Berlin cuma günü (saat 20:00) Phoenix Hagen ile oynayacak, Braunschweig cumartesi günü (saat 20:00) Bonn'a gidecek."
+    ],
+    "d": "Rostock'taki ilk lig yenilgisinden iki gün sonra FC Bayern, salı akşamı Basketball Löwen Braunschweig'i konuk ediyor. Hafta sonunda Trier ve Würzburg'da zirve maçları oynanacak.",
+    "t": "BBL ertelenmiş maç: Lider Bayern, Braunschweig karşısında toparlanmak istiyor"
+   },
+   "at": "2026-11-03T12:18Z",
+   "h": "2deeb0445f47",
+   "rev": [
+    "\"Teknik direktör\" wrongly capitalised mid-sentence",
+    "\"Braunschweig'ı\" wrong suffix for the name (should be Braunschweig'ı → Braunschweig'i per pronunciation)",
+    "\"FC Bayern München Basketball\" contains untranslated \"München\" but it is part of the proper club name, so it stays",
+    "\"Münihliler\" is acceptable",
+    "\"grip nedeniyle ara verdikleri antrenmanlara döndü\" is slightly different but acceptable; the German says they returned to training after colds"
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Münih basketbol salonu, bugünkü adıyla BMW Park, eski adı Audi Dome ile (Arşiv fotoğrafı)"
+   }
+  },
   "berlin-evers-cdu-treffen-gruene-spd-kenia-2026-11-03-b08": {
    "L": {
     "body": [
@@ -1404,6 +1432,33 @@
     "kl": "Formula 1"
    }
   },
+  "f1-strafen-mexiko-hirakawa-punkt-2026-11-03": {
+   "L": {
+    "body": [
+     "Meksika Grand Prix'sinin sonucu yarıştan sonra bir kez daha belirgin biçimde değişti. Oscar Piastri, Racing Bulls'un çaylak pilotu Arvid Lindblad ile yaşadığı ve temasın ardından Lindblad'ın pist sınırına savrulmasına yol açan çarpışma nedeniyle 10 saniyelik ceza aldı. Formula1.com'a göre yarış komiserleri, McLaren pilotunun Lindblad'ın yanında hiçbir zaman tam olarak yer almadığına ve sola kaçarak çarpışmayı önleyebileceğine karar verdi. Piastri bu nedenle yedinci sırayı ve Speedcafe'ye göre altı şampiyona puanını kaybetti.",
+     "Her iki Alpine pilotu da sarı bayrak altında yeterince yavaşlamadıkları için cezalandırıldı. F1 Chronicle'a göre Franco Colapinto 10 saniye ceza aldı ve sekizinci sıradan 15. sıraya düştü. Pierre Gasly, çift sallanan sarı bayrak altında 30 saniyeye çevrilen bir dur-kalk cezası aldı ve onuncu sıradan 17. sıraya geriledi. Bundan yeni yedinci olan Liam Lawson, Gabriel Bortoleto, Isack Hadjar ve Ryo Hirakawa yararlandı.",
+     "Haas'ta Esteban Ocon'un yerine kısa süre önce geçen Hirakawa, böylece Formül 1'deki ilk yarışında bir puan aldı. 32 yaşındaki Japon pilot, F1 Chronicle'a göre “I'm enjoying this moment” dedi. Düzeltmenin ardından şampiyonada dünya şampiyonu Kimi Antonelli 380 puanla Max Verstappen (261) ve Lewis Hamilton'un (259) önünde lider; Piastri 144 puanla yedinci sırada kalıyor. Yarışlar 8 Kasım'da Brezilya'da devam edecek."
+    ],
+    "d": "Yarış komiserleri Meksika GP sonucunu yarıştan sonra değiştirdi: Oscar Piastri ile Alpine'in pilotları Colapinto ve Gasly puan dışında kaldı. Haas'ın yedek ismi Ryo Hirakawa onuncu sıraya yükseldi.",
+    "t": "Meksika'da sonradan cezalar: Piastri puan kaybetti, Hirakawa ilk yarışında puan aldı"
+   },
+   "at": "2026-11-03T12:18Z",
+   "h": "9dd2a7bbd1c4",
+   "rev": [
+    "Kicker 'Formula 1' was inconsistent with the 'Formel 1' original; Turkish convention is 'Formül 1' (the body also uses 'Formula 1'). Aligned to the established Turkish spelling.",
+    "Body text 'Formula 1'deki' changed to 'Formül 1'deki' for consistency.",
+    "Indirect speech 'karar verdi' is acceptable because it is attributed to Formula1.com, so it is kept as is."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Ryo Hirakawa, 2022'de Le Mans'ta imza gününde (Arşiv fotoğrafı)",
+    "kl": "Formula 1"
+   }
+  },
   "fendi-very-colibri-chiuri-fermo": {
    "L": {
     "body": [
@@ -2671,6 +2726,33 @@
     "img.alt": "Arşiv fotoğrafı: “Yakuza”nın yaratıcısı Toshihiro Nagoshi 2014'te bir etkinlikte"
    }
   },
+  "nba-video-wizards-magic-franz-wagner-2026-11-03": {
+   "L": {
+    "body": [
+     "Orlando Magic'in formu bir türlü yükselmiyor: Washington Wizards'a pazartesi akşamı (yerel saatle) evinde 94-103 yenilen Magic, üst üste dördüncü yenilgisini aldı; dördü de kendi seyircisi önünde geldi. İki galibiyet ve beş yenilgiyle Orlando Doğu Konferansı'nda geride kalırken, Washington'ın dört galibiyeti ve üç yenilgisi var. Franz Wagner 24 sayıyla Magic'in en çok sayı atan oyuncusu oldu, Desmond Bane 20, Tristan da Silva ve Jamal Cain ise onar sayı kaydetti.",
+     "Wizards'ta Anthony Davis, 29 sayı (17 şutta 12 isabet), sekiz ribaund ve üç top çalmayla öne çıktı. Kyshawn George (22) ve çaylak AJ Dybantsa (üçüncü NBA maçında 21 sayı) katkı verdi, Trae Young ise dokuz asist yaptı. Orlando ikinci periyodun başında dokuz sayı öne geçti, ardından Washington 13-2'lik seriyle karşılık verdi ve üç periyodun ardından 79-68 öne geçti. Orlando üçlük çizgisinden 39 denemenin yalnızca 11'ini isabetli kullandı.",
+     "Magic'te Paolo Banchero ve Jalen Suggs'ın eksikliği sürdü; AP'ye göre Anthony Black ise iki gün içinde ikinci maçında önlem amacıyla dinlendirildi. Orlando perşembe günü Phoenix Suns deplasmanında oynayacak. Özet videosu NBA'in resmi YouTube kanalından alınmıştır."
+    ],
+    "d": "Washington Wizards'ın Orlando'daki 103-94'lük galibiyetinin NBA özeti: Anthony Davis 29 sayı attı, Franz Wagner 24 sayıyla Magic'in en çok sayı atan oyuncusu oldu. Orlando üst üste dördüncü kez kaybetti.",
+    "t": "Video: Franz Wagner 24 sayı attı – Magic Washington'a da kaybetti"
+   },
+   "at": "2026-11-03T12:18Z",
+   "h": "f8c4e9e1a13d",
+   "rev": [
+    "Score order reversed in body: German 'verloren mit 94:103' means Orlando scored 94, Washington 103; the Turkish draft's '103-94 yenilen Magic' is inverted and ambiguous. The winning score first is acc",
+    "Turkish suffix error: 'NBA'in' should be 'NBA'in' per pronunciation (NBA = 'en-be-a'), so 'NBA'nın' is correct.",
+    "'Orlando ikinci periyodun başında dokuz sayı öndeyken' loses the 'ehe' sequence: it should be that Orlando led by nine before Washington answered.",
+    "'Magic'in en skorer ismi' is unnatural wording; better 'en çok sayı atan oyuncusu'."
+   ],
+   "rev_dbg": [
+    4,
+    6,
+    0
+   ],
+   "x": {
+    "img.alt": "Orlando Magic formasıyla Franz Wagner (Arşiv fotoğrafı, 2022)"
+   }
+  },
   "newcastle-everton-barry-jaissle-2026-11-03-b08": {
    "L": {
     "body": [
@@ -3099,6 +3181,35 @@
    ],
    "x": {
     "img.alt": "Bulgaristan'da bir tatbikatta Stryker zırhlı aracı (Arşiv fotoğrafı)"
+   }
+  },
+  "tn-jodar-turin-rennen-paris-2026-11-03": {
+   "L": {
+    "body": [
+     "Rafael Jódar, Paris'teki ilk Masters turnuvasına net bir galibiyetle başladı. Pazartesi gününden itibaren ilk kez dünya sıralamasının ilk 10'unda yer alan İspanyol oyuncu, Alejandro Tabilo'yu 6-2, 6-3 yendi ve aralarındaki maçlarda üstünlüğü 4-1'e çıkardı. ATP'ye göre on iki break fırsatının beşini değerlendirdi. Jódar, “I'm enjoying it and am happy to get the first win” dedi. Bir sonraki rakibi, Juan Manuel Cerúndolo'yu 6-3, 6-2 yenen Casper Ruud.",
+     "Tennis Majors'a göre Jódar, Torino'daki ATP Finalleri (15-22 Kasım) yarışında 3234 puanla dokuzuncu sırada. Jannik Sinner sezonu bitirdiği için bu sıra katılım için yeterli. Arkasında Alex de Minaur (3170) ve Novak Djokovic (2900) bekliyor. Alexander Zverev, Carlos Alcaraz, Ben Shelton ve Daniil Medvedev ise kesin olarak katılım hakkı elde etti.",
+     "Race'te 3690 puanla altıncı sırada bulunan Flavio Cobolli, Jódar'ın galibiyetinden birkaç saat sonra turnuvadan çekildi; Tennis Majors bir neden belirtmedi. Arthur Fils (3535) ve Frances Tiafoe (3390) Paris'te onu geçebilir. Bugün, salı günü, Djokovic Basel şampiyonu Valentin Vacherot ile, Jan-Lennard Struff ise wildcard sahibi Arthur Géa ile karşılaşacak."
+    ],
+    "d": "Rafael Jódar Paris'teki ilk maçında Alejandro Tabilo'yu 6-2, 6-3 yenerek Race to Turin'de dokuzuncu sıraya yerleşti; bu da ATP Finalleri için yeterli. Flavio Cobolli Masters'tan çekildi.",
+    "t": "Torino yarışı: Jódar son sırayı korudu, Cobolli Paris'ten çekildi"
+   },
+   "at": "2026-11-03T12:18Z",
+   "h": "29cff2693fef",
+   "rev": [
+    "Teaser: 'bu, ATP Finalleri için yeterli' is awkward and the teaser does not say Cobolli withdrew from the Paris Masters.",
+    "'Pazartesi gününden bu yana ilk kez ... ilk 10'da' is ambiguous: it should say that he has been in the top 10 for the first time since Monday.",
+    "Weekdays in Turkish are not capitalised mid-sentence and 'Bugün, Salı günü' is awkward; the German says 'Am heutigen Dienstag'.",
+    "'Sicher qualifiziert' was rendered 'katılım hakkı elde etti', which is acceptable. 'Dahinter lauern' is fine.",
+    "'Cobolli ... Paris'te onu geçebilir' is fine."
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Rafael Jódar, 2026 Swiss Indoors Basel basın toplantısında (Arşiv fotoğrafı)",
+    "kl": "Tenis"
    }
   },
   "tn-zverev-nummer-eins-paris-2026-11-03": {
@@ -3913,6 +4024,37 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Ryanair'e ait bir Boeing 737-800, Frankfurt Havalimanı'na iniyor"
+   }
+  },
+  "zalando-drittes-quartal-2026-b2b-ki-agent": {
+   "L": {
+    "body": [
+     "Zalando üçüncü çeyrekte 3,17 milyar avro ciro elde etti; bu, bir yıl öncesine göre yüzde 5,1 artış anlamına geliyor. İşlem hacmi yüzde 7,5 artarak 4,5 milyar avroyu aştı, düzeltilmiş faaliyet kârı ise yüzde 10,6 artışla 106,5 milyon avroya yükseldi. Net sonuç, bir önceki yıl 12,5 milyon avro kâr varken 18 milyon avro zarar olarak gerçekleşti; FashionUnited'a göre düzeltilmemiş faaliyet kârını yüksek tek seferlik maliyetler olumsuz etkiledi.",
+     "Zalando'nun diğer perakendecilere yazılım ve lojistik sattığı B2B işi güçlü büyüdü: Ciro yaklaşık yüzde 28 artarak 354,4 milyon avroya ulaştı. Aktif müşteri sayısı 63,2 milyona yükseldi. Finans Direktörü Anna Dimitrova, “Başlangıcından bir yıl sonra About You entegrasyonu iyi ilerliyor” dedi. Şirket yıllık tahminini doğruladı.",
+     "Yeni olan “Zalando Extended”: Gelecekte diğer çevrimiçi mağazaların ürünlerinin de Zalando uygulamasında yer alması, şirkete ait bir yapay zekâ ajanının da satın alma işlemini müşterilerin adına orada tamamlaması öngörülüyor. İlk adımı hacimli ev eşyaları oluşturuyor, ilk pilot ortak Westwing. Hizmetin 2027'den itibaren kullanıma sunulması planlanıyor."
+    ],
+    "d": "Berlin merkezli çevrimiçi perakendeci üçüncü çeyrekte satışlarını ve düzeltilmiş kârını artırdı, ancak net zarar yazdı. Büyümenin itici gücü diğer şirketlerle yapılan iş.",
+    "t": "Zalando yüzde 5'ten fazla büyüdü – bir yapay zekâ ajanı yakında başka mağazalardan alışveriş yapacak şekilde tasarlanıyor"
+   },
+   "at": "2026-11-03T12:18Z",
+   "flag": [
+    "Titel zu lang (121 Zeichen)"
+   ],
+   "h": "c5b7b255854c",
+   "rev": [
+    "Headline: 'gut fünf Prozent' (just over 5%) was rendered as 'yüzde 5'ten fazla'; this is acceptable, but the headline puts the future agent in a definite form ('alışveriş yapacak') where the German sa",
+    "Plan/modality: 'soll... einkaufen' and 'sollen erscheinen' were rendered as plain future statements; the 'planned' character was lost",
+    "'Ein eigener KI-Agent soll ... abschließen' rendered as a definite future",
+    "'fast 28 Prozent' became 'yaklaşık yüzde 28', which is acceptable",
+    "'Finanzchefin' is better as 'Finans Direktörü' in the feminine context; acceptable"
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Zalando'nun Berlin'deki merkezi"
    }
   },
   "zelda-ocarina-of-time-remake-aonuma": {
