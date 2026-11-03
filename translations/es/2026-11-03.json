@@ -1053,6 +1053,30 @@
     "img.alt": "Foto de archivo: tienda de Dolce&Gabbana en Hong Kong"
    }
   },
+  "el-vorschau-runde-10-real-panathinaikos-2026-11-03": {
+   "L": {
+    "body": [
+     "La décima jornada de la Euroliga comienza el miércoles (4 de noviembre) con un gran partido: el Real Madrid recibe al Panathinaikos de Atenas a las 20:45 en el Movistar Arena. Tras nueve jornadas, los griegos lideran la clasificación con siete victorias y dos derrotas, igualados con el Olympiacos del Pireo. El Real Madrid, al igual que el Estrella Roja de Belgrado, el Valencia, el Hapoel Tel Aviv, el Fenerbahçe, el Barcelona y el Dubai, suma seis victorias y tres derrotas. También el miércoles juega el Fenerbahçe contra el Baskonia, que con una sola victoria ocupa el último puesto junto al Olimpia Milán.",
+     "El jueves se disputan, entre otros, el Hapoel Tel Aviv contra el FC Barcelona y el Olimpia Milán contra el Valencia. El viernes (20:15) el Olympiacos, con el búlgaro Sasha Vezenkov, recibe al Estrella Roja de Belgrado. Según Eurohoops, el entrenador Georgios Bartzokas cree que Evan Fournier podrá volver a jugar entonces; según el técnico, Fournier da buena impresión en los entrenamientos. También el viernes se enfrentan el Virtus Bolonia y el Dubai.",
+     "El FC Bayern de Múnich visita el jueves a las 20:00 al LDLC ASVEL Villeurbanne. Los muniqueses ocupan el puesto 18 con dos victorias en nueve partidos; el ASVEL es decimoquinto con cuatro victorias y cinco derrotas. También el Maccabi Tel Aviv (dos victorias) está en la parte baja de la tabla y juega el viernes en casa del Partizan de Belgrado. Todos los horarios de inicio corresponden a la hora alemana."
+    ],
+    "d": "La Euroliga inicia el miércoles su décima jornada: el Real Madrid se mide al líder Panathinaikos y el Olympiacos recibe el viernes al Estrella Roja. El Bayern viaja el jueves a Lyon.",
+    "t": "Euroliga, jornada 10: el Real Madrid recibe al líder Panathinaikos"
+   },
+   "at": "2026-11-03T13:22Z",
+   "flag": [
+    "Zahlen fehlen oder weichen ab: 15"
+   ],
+   "h": "a91d798fbf6f",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Escena del partido Fenerbahçe-Panathinaikos en la Euroliga (imagen simbólica, diciembre de 2025)"
+   }
+  },
   "energie-agora-verteilnetze-66-milliarden-2026-11-03": {
    "L": {
     "body": [
@@ -2677,6 +2701,33 @@
     "img.alt": "St James' Park en Newcastle (Foto de archivo)"
    }
   },
+  "nlr-gemini-elektronenmikroskop": {
+   "L": {
+    "body": [
+     "El National Laboratory of the Rockies (NLR) en Golden, en el estado estadounidense de Colorado, un laboratorio de investigación del Departamento de Energía de EE. UU., controla instrumentos de medición con el modelo de IA Gemini de Google. Los investigadores pueden, por ejemplo, indicar en lenguaje cotidiano a un microscopio electrónico de transmisión lo que quieren hacer. Google presenta el proyecto en un estudio de caso y en un vídeo en su canal de Cloud.",
+     "Según Google, el sistema decide si una consulta solo debe responderse o si el aparato tiene que hacer algo. Las órdenes al hardware pasan por una capa de control que solo admite comandos del dispositivo predefinidos y autorizados. La IA se apoya en manuales de los equipos, documentación interna y resultados de mediciones anteriores, propone un plan, muestra su razonamiento y espera la aprobación de los investigadores antes de que algo se mueva. En lugar de juzgar la nitidez de la imagen a ojo, calcula un valor de nitidez.",
+     "Según Google, la calibración del microscopio por condición de medición dura ahora solo unos 13 minutos en lugar de más de 90, y al enfocar solo harían falta 2 intervenciones manuales en vez de hasta 55. Además, el sistema permitiría realizar series de mediciones de 12 a 15 horas sin supervisión, por ejemplo por la noche y los fines de semana. Las cifras proceden de la propia presentación de Google. El NLR trabaja además, según informa el propio laboratorio, en «laboratorios autónomos» que realizan experimentos de forma automatizada."
+    ],
+    "d": "En el National Laboratory of the Rockies manejan un microscopio electrónico con instrucciones en lenguaje cotidiano. Según Google, la calibración baja de más de 90 a unos 13 minutos. Un vídeo muestra el proyecto.",
+    "t": "Microscopio en diálogo: laboratorio de EE. UU. maneja equipos con la IA Gemini de Google"
+   },
+   "at": "2026-11-03T13:22Z",
+   "h": "325b8e31d2b3",
+   "rev": [
+    "Teaser: 'más de 90' fine; 'manejan' ok. Body 2: 'Según Google' added is acceptable since German has 'laut Google'.",
+    "'selbstfahrenden Laboren' translated as 'laboratorios autónomos' – acceptable; 'según sus propias indicaciones' is unnatural, changed to 'según sus propias informaciones'.",
+    "Body 1: 'Los investigadores pueden... indicar a un microscopio' fine."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: visita guiada a la Energy Systems Integration Facility en el campus del laboratorio en Golden, Colorado, que entonces aún se llamaba NREL (2013)",
+    "kl": "IA en la investigación"
+   }
+  },
   "nolan-will-gamrot-als-naechsten-gegner": {
    "L": {
     "body": [
@@ -2722,6 +2773,28 @@
    ],
    "x": {
     "img.alt": "Foto de archivo: Lumpinee Boxing Stadium en Bangkok (foto antigua)"
+   }
+  },
+  "openai-private-intelligence-firmendaten": {
+   "L": {
+    "body": [
+     "OpenAI presentó el 30 de octubre, bajo el nombre «Private Intelligence», un paquete de funciones de privacidad para empresas. Con él, las compañías podrán procesar también datos confidenciales con los modelos más potentes de la empresa, sin que OpenAI obtenga acceso innecesario a los contenidos. El lunes, OpenAI publicó al respecto un vídeo titulado «Coinbase on OpenAI Private Intelligence».",
+     "Uno de los componentes es «Zero Data Retention»: en los procesos adecuados a través de la interfaz de programación (API), OpenAI no almacena las entradas ni las respuestas tras el procesamiento. Para las comprobaciones automáticas de seguridad, según all-ai.de, determinados datos pueden permanecer cifrados hasta 30 días en el almacenamiento en la nube del cliente. La novedad es «Private Inference»: las solicitudes y las respuestas deben quedar protegidas ya durante el cálculo mediante computación confidencial (Confidential Computing). Esta función solo existe por ahora como vista previa; los interesados pueden registrarse.",
+     "Además, las empresas podrán definir a qué datos y funciones pueden acceder los agentes de IA, qué acciones están permitidas y cuándo debe dar su aprobación un empleado. Según OpenAI, las entradas y los resultados pertenecen a los clientes. La empresa no mencionó nombres de clientes ni precios en el anuncio, y según FourWeekMBA tampoco se indica una fecha para el fin de la fase de vista previa."
+    ],
+    "d": "OpenAI reúne las funciones de protección de datos empresariales bajo un nuevo nombre; una parte solo está disponible como vista previa. Se acompaña de un vídeo con la plataforma de criptomonedas Coinbase.",
+    "t": "OpenAI agrupa sus funciones de privacidad como «Private Intelligence»"
+   },
+   "at": "2026-11-03T13:22Z",
+   "h": "9d515860b919",
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: el Pioneer Building en San Francisco, antigua sede de OpenAI (2019)",
+    "kl": "Protección de datos"
    }
   },
   "pacquiao-nicht-auf-fury-joshua-karte": {
@@ -2801,6 +2874,28 @@
    ],
    "x": {
     "img.alt": "Ordenador de placa única Raspberry Pi 5 (imagen simbólica)"
+   }
+  },
+  "reachy-mini-raeder-huete-app": {
+   "L": {
+    "body": [
+     "Pollen Robotics, el equipo de robótica que pertenece a Hugging Face, presentó el 29 de octubre ampliaciones para el pequeño robot de código abierto Reachy Mini. El robot de sobremesa está disponible en versión Wireless, con batería integrada, por 499 dólares, y en versión Lite, que funciona conectada por USB a un ordenador, por 399 dólares. Un vídeo en el canal de Pollen Robotics muestra las novedades.",
+     "La novedad es una base de dos ruedas («Hoverboard») con batería propia por 149 dólares. El robot se coloca sobre ella y se controla con el smartphone, con dos joysticks en pantalla para las ruedas y la cabeza, además de la imagen en directo de su cámara. La base solo funciona con la versión Wireless. Por 35 dólares hay un paquete de accesorios NFC con sombrero de cocinero, de pirata y corona: cada sombrero cambia la personalidad del robot al colocárselo. Cuatro etiquetas NFC vacías permiten ideas propias.",
+     "Se suman nuevas apps para iOS y Android, con las que la versión Wireless puede configurarse y manejarse sin necesidad de ordenador. Según Pollen, hay más de 500 apps de la comunidad disponibles. Según Spatial Insiders, los primeros pedidos de la base con ruedas y del paquete de sombreros se entregarán a finales de enero de 2027."
+    ],
+    "d": "Pollen Robotics, el equipo de robótica de Hugging Face, lanza para el robot de sobremesa abierto Reachy Mini una base con ruedas, sombreros con chip NFC y apps móviles. Un vídeo muestra las novedades.",
+    "t": "Reachy Mini gana ruedas: Hugging Face lo hace móvil y los sombreros cambian su rol"
+   },
+   "at": "2026-11-03T13:22Z",
+   "h": "36a1c95f1580",
+   "rev_dbg": [
+    6,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: el robot más grande de Pollen Robotics, Reachy, durante una demostración en la École polytechnique; no es el modelo Reachy Mini",
+    "kl": "Robot"
    }
   },
   "reiter-von-madara-bulgarien-2026-11-03": {

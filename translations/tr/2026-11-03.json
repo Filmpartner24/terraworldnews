@@ -1071,6 +1071,36 @@
     "img.alt": "Arşiv fotoğrafı: Hong Kong'daki Dolce&Gabbana mağazası"
    }
   },
+  "el-vorschau-runde-10-real-panathinaikos-2026-11-03": {
+   "L": {
+    "body": [
+     "EuroLeague'in 10. haftası çarşamba günü (4 Kasım) bir zirve maçıyla başlıyor: Real Madrid, saat 20:45'te Movistar Arena'da Panathinaikos Atina'yı ağırlıyor. Yunan ekibi, dokuz turun ardından yedi galibiyet ve iki yenilgiyle Olympiacos Pire ile aynı puanla zirvede yer alıyor. Real Madrid, Kızıl Yıldız Belgrad, Valencia, Hapoel Tel Aviv, Fenerbahçe, Barcelona ve Dubai gibi altı galibiyet ve üç yenilgiyle sıralamada yer alıyor. Çarşamba günü ayrıca Fenerbahçe, yalnızca bir galibiyetle Olimpia Milano ile birlikte tablonun sonunda bulunan Baskonia ile oynuyor.",
+     "Perşembe günü ise Hapoel Tel Aviv – FC Barcelona ve Olimpia Milano – Valencia maçları da dahil olmak üzere karşılaşmalar oynanacak. Cuma günü (20:15) Olympiacos, Bulgar oyuncu Sasha Vezenkov ile Kızıl Yıldız Belgrad'ı ağırlıyor. Eurohoops'a göre antrenör Georgios Bartzokas, Evan Fournier'in o maçta yeniden oynayabileceğini düşünüyor; Bartzokas, Fournier'in antrenmanda iyi bir izlenim bıraktığını söylüyor. Yine cuma günü Virtus Bologna ile Dubai karşı karşıya geliyor.",
+     "FC Bayern München perşembe günü saat 20:00'de LDLC ASVEL Villeurbanne'e konuk oluyor. Münihliler dokuz maçta iki galibiyetle 18. sırada, ASVEL ise dört galibiyet ve beş yenilgiyle 15. sırada bulunuyor. İki galibiyetli Maccabi Tel Aviv de tablonun alt sıralarında yer alıyor ve cuma günü Partizan Belgrad'a konuk olacak. Tüm başlama saatleri Almanya saatine göre verilmiştir."
+    ],
+    "d": "EuroLeague'de 10. hafta çarşamba günü başlıyor: Real Madrid, lider Panathinaikos ile karşılaşıyor, Olympiacos cuma günü Kızıl Yıldız'ı ağırlıyor. Bayern perşembe günü Lyon'a gidiyor.",
+    "t": "EuroLeague 10. hafta: Real Madrid, lider Panathinaikos'u ağırlıyor"
+   },
+   "at": "2026-11-03T13:22Z",
+   "h": "a91d798fbf6f",
+   "rev": [
+    "\"gleichauf mit Olympiacos\" rendered as \"averajda zirvede\" (average) – wrong, they are level on wins/record",
+    "Real Madrid sentence: \"wie ... bei sechs Siegen\" rendered as \"gibi\" listing, unclear; fix to say they share the record",
+    "\"Sascha Vezenkov\" spelled Sasha – established spelling Sasha Vezenkov is fine, kept",
+    "\"Fournier'nin\" suffix wrong: Fournier'in",
+    "Fenerbahçe vs Baskonia sentence slightly ambiguous but acceptable",
+    "Vezenkov: \"mit dem Bulgaren\" fine",
+    "\"Münihliler\" ok"
+   ],
+   "rev_dbg": [
+    7,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "EuroLeague'de Fenerbahçe – Panathinaikos maçından bir an (sembolik fotoğraf, Aralık 2025)"
+   }
+  },
   "energie-agora-verteilnetze-66-milliarden-2026-11-03": {
    "L": {
     "body": [
@@ -2835,6 +2865,33 @@
     "img.alt": "Newcastle'daki St James' Park (Arşiv fotoğrafı)"
    }
   },
+  "nlr-gemini-elektronenmikroskop": {
+   "L": {
+    "body": [
+     "ABD Enerji Bakanlığı'na bağlı bir araştırma laboratuvarı olan, Colorado eyaletinin Golden kentindeki National Laboratory of the Rockies (NLR), ölçüm cihazlarını Google'ın yapay zekâ modeli Gemini'nin yardımıyla yönetiyor. Araştırmacılar örneğin bir geçirimli elektron mikroskobuna ne yapmak istediklerini günlük dille iletebiliyor. Google, projeyi bir vaka çalışmasında ve Cloud kanalındaki bir videoda tanıtıyor.",
+     "Google'a göre sistem, bir talebin yalnızca yanıtlanmasına mı yoksa cihazın bir işlem yapmasına mı gerek olduğuna karar veriyor. Donanıma giden komutlar, yalnızca belirlenmiş ve onaylanmış cihaz komutlarına izin veren bir kontrol katmanı üzerinden iletiliyor. Yapay zekâ cihaz kılavuzlarına, dahili belgelere ve önceki ölçüm sonuçlarına dayanıyor, bir plan öneriyor, gerekçesini gösteriyor ve herhangi bir hareket gerçekleşmeden önce araştırmacıların onayını bekliyor. Görüntü netliğini göz kararı değerlendirmek yerine bir netlik değeri hesaplıyor.",
+     "Google'ın açıklamasına göre mikroskobun kalibrasyonu ölçüm koşulu başına artık yalnızca yaklaşık 13 dakika sürüyor, daha önce bu süre 90 dakikayı aşıyordu; odaklamada ise 55'e varan elle müdahale yerine yalnızca 2 müdahale gerekiyormuş. Ayrıca sistemin, örneğin geceleri ve hafta sonları, gözetimsiz 12 ila 15 saatlik ölçüm çalışmalarına olanak sağladığı belirtiliyor. Rakamlar Google'ın kendi anlatımından geliyor. NLR ise kendi açıklamasına göre ayrıca deneyleri otomatik olarak yürüten “kendi kendine sürüş yapan laboratuvarlar” üzerinde çalışıyor."
+    ],
+    "d": "National Laboratory of the Rockies'te araştırmacılar elektron mikroskobunu günlük dille yönetiyor. Google'a göre kalibrasyon süresi 90 dakikanın üzerinden yaklaşık 13 dakikaya iniyor. Proje bir videoda gösteriliyor.",
+    "t": "Mikroskopla diyalog: ABD laboratuvarı cihazları Google'ın Gemini yapay zekâsıyla yönetiyor"
+   },
+   "at": "2026-11-03T13:22Z",
+   "h": "325b8e31d2b3",
+   "rev": [
+    "Teaser: 'über 90' became '90 dakikadan' (lost 'more than'), and 'rund 13' lost its approximation",
+    "Title: 'Mikroskop sohbette' is a calque of 'Mikroskop im Dialog'; better to say 'diyalog'",
+    "Body 3: 'selbstfahrenden Laboren' rendered as 'kendi kendini yöneten' (self-managing) instead of self-driving"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Colorado'nun Golden kentindeki laboratuvar kampüsünde, o dönem adı hâlâ NREL olan kurumun Energy Systems Integration Facility tesisinde gezi (2013)",
+    "kl": "Araştırmada yapay zekâ"
+   }
+  },
   "nolan-will-gamrot-als-naechsten-gegner": {
    "L": {
     "body": [
@@ -2885,6 +2942,28 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Bangkok'taki Lumpinee Boxing Stadium (eski fotoğraf)"
+   }
+  },
+  "openai-private-intelligence-firmendaten": {
+   "L": {
+    "body": [
+     "OpenAI, 30 Ekim'de “Private Intelligence” adı altında şirketlere yönelik bir veri gizliliği işlevleri paketi tanıttı. Şirketler bu sayede gizli verileri de OpenAI'ın en güçlü modelleriyle işleyebilecek; OpenAI ise içeriklere gereksiz yere erişim sağlamayacak. OpenAI pazartesi günü bununla ilgili “Coinbase on OpenAI Private Intelligence” başlıklı bir video yayımladı.",
+     "Bileşenlerden biri “Zero Data Retention”: Programlama arayüzü (API) üzerinden yürütülen uygun süreçlerde OpenAI, girdileri ve yanıtları işlemeden sonra saklamıyor. all-ai.de'ye göre otomatik güvenlik kontrolleri için seçilen veriler 30 güne kadar şifrelenmiş olarak müşterinin bulut depolama alanında tutulabiliyor. “Private Inference” ise yeni: İstekler ve yanıtlar, hesaplama sırasında bile gizli bilişim (Confidential Computing) ile korunacak. Bu işlev şimdilik yalnızca önizleme olarak sunuluyor, ilgilenenler kayıt olabiliyor.",
+     "Ayrıca şirketlerin, yapay zekâ ajanlarının hangi verilere ve işlevlere erişebileceğini, hangi eylemlere izin verildiğini ve bir çalışanın ne zaman onay vermesi gerektiğini belirleyebilmesi öngörülüyor. OpenAI'a göre girdiler ve sonuçlar müşterilere ait. Şirket, duyuruda müşteri adlarını ve fiyatları belirtmedi; FourWeekMBA'ya göre önizleme aşamasının ne zaman sona ereceğine dair bir tarih de yok."
+    ],
+    "d": "OpenAI, kurumsal verilere yönelik koruma işlevlerini yeni bir adla bir araya getirdi; bir kısmı yalnızca önizleme olarak kullanılabiliyor. Kripto borsası Coinbase'in yer aldığı bir video da yayımlandı.",
+    "t": "OpenAI, veri gizliliği işlevlerini “Private Intelligence” adı altında topladı"
+   },
+   "at": "2026-11-03T13:22Z",
+   "h": "9d515860b919",
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: OpenAI'ın eski merkezi, San Francisco'daki Pioneer Building (2019)",
+    "kl": "Veri gizliliği"
    }
   },
   "pacquiao-nicht-auf-fury-joshua-karte": {
@@ -2963,6 +3042,28 @@
    ],
    "x": {
     "img.alt": "Tek kartlı bilgisayar Raspberry Pi 5 (Sembolik fotoğraf)"
+   }
+  },
+  "reachy-mini-raeder-huete-app": {
+   "L": {
+    "body": [
+     "Hugging Face'e bağlı robotik ekibi Pollen Robotics, 29 Ekim'de küçük açık kaynaklı robot Reachy Mini için yeni eklentiler tanıttı. Masaüstü robot, dahili bataryalı Wireless sürümü 499 dolara, bilgisayara USB ile bağlanarak çalışan Lite sürümü ise 399 dolara satılıyor. Pollen Robotics'in kanalındaki bir video yenilikleri gösteriyor.",
+     "Yenilikler arasında kendi bataryası olan, 149 dolarlık iki tekerlekli bir taban (“Hoverboard”) var. Robot üzerine yerleştiriliyor ve akıllı telefondan, tekerlekler ile baş için iki ekran joystiği ve kamerasının canlı görüntüsüyle kontrol ediliyor. Taban yalnızca Wireless sürümüyle çalışıyor. 35 dolara aşçı, korsan ve taç şapkalarından oluşan bir NFC aksesuar paketi de satılıyor: Her şapka takıldığında robotun kişiliğini değiştiriyor. Dört boş NFC etiketi ise kullanıcıların kendi fikirlerini uygulamasına olanak tanıyor.",
+     "Bunlara ek olarak, Wireless sürümünün bilgisayar olmadan kurulup kullanılmasını sağlayan yeni iOS ve Android uygulamaları geliyor. Pollen'e göre topluluktan 500'den fazla uygulama kullanıma hazır. Spatial Insiders'a göre taban ve şapka paketinin ilk siparişlerinin Ocak 2027 sonunda teslim edilmesi planlanıyor."
+    ],
+    "d": "Hugging Face'in robotik ekibi Pollen Robotics, açık kaynaklı masaüstü robot Reachy Mini için tekerlekli taban, NFC çipli şapkalar ve telefon uygulamaları sunuyor. Bir video yenilikleri gösteriyor.",
+    "t": "Masaüstü robota tekerlek: Hugging Face Reachy Mini'yi hareketli yapıyor"
+   },
+   "at": "2026-11-03T13:22Z",
+   "h": "36a1c95f1580",
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Pollen Robotics'in daha büyük robotu Reachy, École polytechnique'te bir gösteride – Reachy Mini modeli değil",
+    "kl": "Robot"
    }
   },
   "reiter-von-madara-bulgarien-2026-11-03": {
