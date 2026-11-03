@@ -991,7 +991,10 @@
    "time": "17:00",
    "t1": "Cherno More Varna",
    "t2": "Botev Vratsa",
-   "ft": null
+   "ft": [
+    1,
+    0
+   ]
   },
   {
    "r": 14,
@@ -999,7 +1002,10 @@
    "time": "19:30",
    "t1": "Arda Kardzhali",
    "t2": "Septemvri Sofia",
-   "ft": null
+   "ft": [
+    2,
+    1
+   ]
   },
   {
    "r": 13,
@@ -1648,6 +1654,14 @@
   {
    "n": "Евроком – Локомотив Пловдив – Лудогорец 0:3 (31.10.2026)",
    "u": "https://eurocom.bg/2026/10/31/ludogorets-pobedi-lokomotiv-plovdiv-s-3-0"
+  },
+  {
+   "n": "BTA – Черно море – Ботев (Враца) 1:0 (02.11.2026)",
+   "u": "https://www.bta.bg/bg/news/sport/1238493-cherno-more-se-nalozhi-nad-botev-vratsa-s-duzpa-zapisa-treta-pobeda-v-parvenstv"
+  },
+  {
+   "n": "BTA – Арда – Септември 2:1 (02.11.2026)",
+   "u": "https://www.bta.bg/bg/news/sport/1238516-arda-se-nalozhi-nad-septemvri-v-mach-s-tri-gola-predi-pochivkata"
   }
  ]
 }
