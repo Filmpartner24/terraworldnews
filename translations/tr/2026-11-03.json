@@ -150,6 +150,31 @@
     "kl": "Berlin"
    }
   },
+  "bg-energie-aktien": {
+   "L": {
+    "body": [
+     "Rekor haftanın ardından Bulgaristan Borsası (BFB) Kasım ayına hafif kayıplarla başladı. En önemli 15 hisseden oluşan ana endeks SOFIX, 2 Kasım pazartesi günü %1,08 düşüşle 2097,44 puana geriledi. Böylece endeks, cuma günü ulaştığı 2120,40 puanlık tüm zamanların zirvesinin 22,96 puan altında bulunuyor (BTA). Ancak endeks, 2007'deki eski rekorun (1952,40 puan) yaklaşık %7,4 üzerinde ve yıl başındaki seviyenin yaklaşık %81 üzerinde işlem görmeye devam ediyor (kendi hesaplamamız).",
+     "Diğer ana endeksler de düştü: en çok işlem gören 40 hisseyi kapsayan BGBX40 %0,92 düşüşle 312,15 puana, 30 hissenin eşit ağırlıkta yer aldığı BGTR30 %0,75 düşüşle 1285,36 puana ve gayrimenkul fonu endeksi BGREIT %0,65 düşüşle 244,92 puana indi. Yalnızca büyüme segmenti endeksi beamX yükselebildi: %0,36 artışla 134,76 puan (BTA, infostock.bg). Ana piyasada 5,59 milyon avroluk, alternatif piyasada ise 603.855 avroluk işlem hacmi gerçekleşti (BTA).",
+     "Enerji hisselerinde enerji holdingi Eurohold Bulgaria %3,26 değer kaybederek 4,16 avroya geriledi; 83 işlemde 49.890 adet hisse el değiştirdi ve yaklaşık 209.000 avroluk hacim oluştu. Hisse gün içinde 3,96 ile 4,32 avro arasında dalgalandı (BTA, infostock.bg). Hisse Ekim ayında yaklaşık %236 değer kazanmıştı. Akaryakıt şirketi Petrol 0,46'da değişmeden kaldı (son işlem 2.11., saat 16:01; infostock.bg). Günün en çok işlem gören hissesi Sopharma oldu (%1,19 artışla 3,40 avro)."
+    ],
+    "d": "Sofya'nın ana endeksi, 2120,40 puanlık tüm zamanların zirvesinin ardından pazartesi günü 2097,44 puanda kapandı. Beş endeksin dördü düştü. Enerji holdingi Eurohold %3,26 değer kaybederek 4,16 avroya indi.",
+    "explain": "Çok hızlı bir yükselişin ardından bazı yatırımcılar kâr realizasyonu yapıyor; bu nedenle fiyatlar düşebilir ve sert dalgalanabilir. Yatırım tavsiyesi değildir.",
+    "t": "SOFIX rekorun ardından geriledi: Kasım'a %1,08 düşüşle başladı"
+   },
+   "at": "2026-11-03T07:43Z",
+   "h": "7ad64e0dcf60",
+   "rev": [
+    "Weekday 'Pazartesi' is capitalised in the middle of a sentence; TDK requires lowercase (teaser and body)",
+    "Teaser: 'Leitindex in Sofia' rendered correctly, but weekday capitalisation needs fixing",
+    "Body: 'Cuma günü' capitalised in the draft is also a weekday and must be lowercase",
+    "'fast 236 %' was rendered as 'yaklaşık %236', which is acceptable; 'Pazartesi günü' after the date '2 Kasım' also needs lowercase"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ]
+  },
   "bulgarien-glavchev-demerdzhiev-signal-peevski-2026-11-03": {
    "L": {
     "body": [
@@ -424,6 +449,34 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı (2009): Sofya Havalimanı terminalinde"
+   }
+  },
+  "della-maddalena-sagt-ufc-sydney-ab": {
+   "L": {
+    "body": [
+     "Jack Della Maddalena, Heavy'ye göre kendisine teklif yapılmasına rağmen 6 Şubat'taki Sidney UFC organizasyonunda dövüşmeyecek. Eski welter sıklet şampiyonu, Islam Makhachev ve Carlos Prates'e karşı art arda iki yenilgiden geliyor; Prates'e Mayıs ayında UFC Perth'te nakavtla kaybetti.",
+     "Avustralyalı dövüşçü, MMA Junkie'nin aktardığına göre Bedtime MMA'ya verdiği röportajda Perth'teki maçtan önce kendini acele ettirilmiş hissettiğini söyledi: “Çok erken içeri çekilmek istemedim.” Avustralya dışında “kesinlikle daha az baskı” hissettiğini belirtti. Planı ise “gelecek yıl nisan, mayısta hazır olmak”.",
+     "Della Maddalena olası rakip olarak Kanadalı Mike Malott'u andı; ancak kararı UFC'nin eşleştirmecilerine bıraktığını söyledi."
+    ],
+    "d": "Eski welter sıklet şampiyonu, şubattaki ev sahibi organizasyonunda dövüşmeyi reddetti. İki yenilgiden sonra yeniden acele ettirilmek istemiyor – gözü Mike Malott'ta.",
+    "t": "Della Maddalena UFC Sidney'e katılmıyor – dönüş ancak ilkbaharda"
+   },
+   "at": "2026-11-03T07:43Z",
+   "h": "7aebf5855a3f",
+   "rev": [
+    "\"weltergewicht\" left in German; Turkish term is \"orta sıklet\" (welterweight, standard Turkish MMA usage: \"Welter sıklet\")",
+    "Teaser: \"evinde yapılacak organizasyon\" is unclear for \"Heimspiel\"; should say home event",
+    "Month names mid-quote lowercase is fine per TDK; no change",
+    "Body: \"Mayıs ayında ... kaybetti\" fine",
+    "Bedtime MMA'e suffix fix: \"Bedtime MMA'ya\""
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı (2023): Mike Malott, Della Maddalena'nın istediği rakip"
    }
   },
   "deutsche-boerse": {
@@ -1060,6 +1113,61 @@
    "x": {
     "img.alt": "Madrid'deki Temsilciler Meclisi (Congreso de los Diputados) binası"
    }
+  },
+  "invest-bulgarien": {
+   "L": {
+    "body": [
+     "Pazartesi gününden itibaren yeni: Çek kökenli ve merkezi Plovdiv’de bulunan tıbbi cihaz üreticisi BTL Industries, Kuklen sanayi bölgesindeki e-bisiklet fabrikasını satın aldı. Satıcı, Leader-96’nın iştiraki olan iflas halindeki E-Velox. Fiyat 17,45 milyon avro, başlangıç fiyatı ise 17,42 milyon avro idi. Bu ikinci girişimdi; 21,78 milyon avroluk ilk satışta alıcı çıkmadı (Fakti.bg, Plovdiv24, 2.11.).",
+     "Mariza gazetesine dayanan ve Money.bg ile Standart’ın aktardığı habere göre BTL, dönüşüm ve genişletme için 40 milyon avrodan fazla yatırım yapmak istiyor. Tesiste bisiklet yerine tıbbi cihazlar ve robotik ürünler üretilmesi öngörülüyor. 300’e kadar yeni istihdam bekleniyor, üretimin 2027’nin başında başlaması planlanıyor. Satış geliri alacaklı bankaya gidecek. Vergi dairesi NAP ayrıca 11 Kasım’da Leader-96’nın Rogosh’taki fabrikasını açık artırmayla satışa çıkaracak.",
+     "BTA (2.11.): Bulgaristan’da çalışanların yalnızca yaklaşık yüzde 16’sı toplu iş sözleşmeleri kapsamında (2025 sonu itibarıyla), dedi Çalışma Bakan Yardımcısı Danail Rusev.",
+     "Tablodaki rakamı belirtilen projeler toplamda yaklaşık 309 milyon avroya, belirtilen yeni istihdam ise yaklaşık 756’ya ulaşıyor (kendi hesabımız; BTL için “300’e kadar” üst sınır, diğerlerinde alt sınırlar; satın alma bedeli, Burgas ve Varna’daki su şebekeleri için öngörülen 180 milyon avro ve Leader-96 açık artırması hariç)."
+    ],
+    "d": "Tıbbi cihaz üreticisi BTL Industries, iflas eden E-Velox’un fabrikası için 17,45 milyon avro ödedi ve 40 milyon avrodan fazla yatırım planlıyor. Üretim 2027’nin başında başlayacak.",
+    "explain": "İflas etmiş bir şirketin boş fabrikası, yüzlerce kişiye iş vaat eden yeni bir sahip buluyor. Tüm istihdamın gerçekleşip gerçekleşmeyeceği ancak 2027’deki başlangıçtan sonra anlaşılacak.",
+    "t": "Çek BTL, Kuklen yakınındaki e-bisiklet fabrikasını aldı: 300’e kadar yeni iş"
+   },
+   "at": "2026-11-03T07:43Z",
+   "h": "511328461074",
+   "rev": [
+    "Teaser says production start as fact/ok; but 'ödedi' fine. Paragraph 2 has duplicated attribution 'aktardığına göre ... habere göre' – broken sentence",
+    "Vice minister title ungrammatical: 'Çalışma Bakan Yardımcısı' should be 'Çalışma Bakan Yardımcısı' (correct) but sentence order awkward; 'Rogosh' vs established spelling",
+    "'Iflas' in explain lacks capital dotted İ",
+    "Teaser: 'Start ist Anfang 2027' stated as fact – fine",
+    "Headline: 'Plowdiw' rendered Plovdiv fine; 'Rusev' ok"
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ]
+  },
+  "invest-deutschland": {
+   "L": {
+    "body": [
+     "Pazartesi gününden itibaren yeni gelişme: Eskiden Hakle olan Jung Papier, Düsseldorf Yerel Mahkemesi'ne kendi yönetiminde iflas başvurusunda bulundu. Düsseldorf-Reisholz fabrikasındaki 155 çalışan etkileniyor. Şirket, işletmenin kesintisiz sürdüğünü belirtti; ücretler Ocak 2027'ye kadar iflas ödeneğiyle karşılanıyor. Şirket nedenler olarak enerji, hammadde ve personel maliyetlerindeki artışı gösteriyor. 2022'den sonra ikinci iflas (t-online, EUWID, 2.11.).",
+     "Saksonya: Bachner Grubu'na bağlı Elektrotechnik Kunzmann, Zwönitz'te şalt tesisleri için yaklaşık 3,5 milyon avroluk yeni bir salon inşa etti ve 40 yeni istihdam sağlıyor (Zwönitzer Anzeiger, 2.11.). Böylece tablodaki rakamlandırılmış yatırımlar yaklaşık 360,5 milyon avroya ulaşıyor.",
+     "Metal ve elektrik toplu sözleşme turu: IG Metall'e göre pazartesi günü yaklaşık 38.000 çalışan 220 eyleme katıldı. Bu hafta 2.000'den fazla işletmede uyarı grevi planlanıyor; bugün özellikle Baden-Württemberg, NRW ve Mitte bölgesinde. Sendika yüzde 5 zam talep ediyor, işverenler Temmuz 2028'den itibaren yüzde 1,3 ve ek olarak tek seferlik ödeme öneriyor (dpa-AFX, 2.11.).",
+     "Bu sabah Evonik, Zalando, Lufthansa ve Schaeffler gibi şirketler çeyrek dönem rakamlarını açıklıyor. Yayın kapanışı sırasında istihdam veya fabrikalara ilişkin yeni bilgi bulunmuyordu."
+    ],
+    "d": "155 çalışanlı Düsseldorf'taki hijyen kâğıdı üreticisi, kendi yönetiminde yeniden yapılanmak istiyor. Zwönitz'te 40 yeni istihdam. IG Metall 38.000 grevci sayıyor.",
+    "explain": "Uyarı grevi, sendikanın toplu sözleşme görüşmelerinde baskı kurmak için yaptığı kısa süreli iş bırakmadır. Kendi yönetiminde iflasta eski yönetim, şirketi gözetim altında kurtarmaya çalışır.",
+    "t": "Eski Hakle fabrikası Jung Papier yeniden iflasta – 38.000 metal işçisi uyarı grevinde"
+   },
+   "at": "2026-11-03T07:43Z",
+   "h": "131d4b884677",
+   "rev": [
+    "Teaser contains an invented '152 değil' correction that is not in the German original",
+    "'Der Betrieb laufe uneingeschränkt weiter' is indirect speech; the Turkish should attribute it to the company",
+    "'Pazartesiden' should be written 'Pazartesi'den' per TDK (suffix after a proper-noun-like apostrophe is not needed; better 'Pazartesi gününden itibaren')",
+    "'Asliye Mahkemesi' is a wrong rendering of Amtsgericht (should be Düsseldorf İcra/Sulh? best: Düsseldorf Yerel Mahkemesi)",
+    "'kısıtlamasız' is unnatural; use 'kesintisiz'",
+    "'Mitte bölgesinde' should be 'Mitte bölgesinde' kept, but 'Bezirk Mitte' is the IG Metall district; acceptable"
+   ],
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ]
   },
   "ki-blue-laser-fusion-nakamura-2026-11-03": {
    "L": {
@@ -1778,6 +1886,58 @@
     "img.alt": "Newcastle'daki St James' Park (Arşiv fotoğrafı)"
    }
   },
+  "nolan-will-gamrot-als-naechsten-gegner": {
+   "L": {
+    "body": [
+     "Tom Nolan, UFC Vegas 123'te Renato Moicano'ya karşı aldığı TKO galibiyetinin ardından tercih ettiği rakibi açıkladı. Hafif sıklet sıralamasına göz atan Avustralyalı, UFC'nin maç sonrası programında şunları söyledi: “Bir rakip seçebilseydim, Gamrot'la dövüşmek isterdim. Bence harika bir stili var.”",
+     "Nolan'a göre bu, Moicano maçında olduğu gibi bir stil mücadelesi olacak: “Sanırım bu, beni gelişmeye zorlardı.” Polonyalı Mateusz Gamrot, 2022'de bugün sıralamada ikinci sırada yer alan Arman Tsarukyan'ı yenmişti. Ancak Gamrot Ağustos ayında Las Vegas'ta Quillan Salkilld'e karşı ilk rauntta rear-naked choke ile mağlup oldu.",
+     "Resmi UFC sıralamasında (24 Ekim itibarıyla, yani Moicano maçından önce) Gamrot 10., Nolan 14., Moicano ise 12. sırada yer alıyor. Şu ana kadar planlanmış bir maç bulunmuyor."
+    ],
+    "d": "Avustralyalı dövüşçü üst üste altı maç kazandı ve tercih ettiği rakibi açıkladı: Polonyalı Mateusz Gamrot – 2022'de Arman Tsarukyan'ı yenen isim.",
+    "t": "Moicano'ya karşı zaferin ardından Tom Nolan'ın hedefi Mateusz Gamrot"
+   },
+   "at": "2026-11-03T07:43Z",
+   "h": "f200d224864b",
+   "rev": [
+    "Gamrot'un Ağustos'taki yenilgisi 'allerdings' ile verilmiş, Türkçede 'ise' yeterince aktarmıyor; ayrıca Tsarukyan cümlesi 'Gamrot' ile bağlantısı kopuk – küçük düzeltme",
+    "Sıralama ifadelerinde tutarsız yazım: 'onuncu', '14.', 'on ikinci' – tutarlı hale getirildi"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Mateusz Gamrot, KSW 30 öncesi tartıda"
+   }
+  },
+  "one-inner-circle-37-ruotolo-gnarly-night": {
+   "L": {
+    "body": [
+     "6 Kasım Cuma günü Tye Ruotolo, Bangkok'taki Lumpinee Stadium'da düzenlenecek The Inner Circle 37'de ONE hafif sıklet MMA unvanı için Christian Lee'ye meydan okuyacak. Amerikalı sporcu, ONE'da submission grappling'de 9-0'lık bir performansa sahip ve orada welter sıklet unvanını üç kez savundu. MMA'de ise 2-0'lık bir performansı var; iki galibiyetini de Adrian Lee ve Shozo Isojima'ya karşı rear-naked choke ile aldı.",
+     "“Her ikisinde de gerçek bir şampiyon olacak yeteneğe sahip olduğuma inanıyorum”, dedi Ruotolo ONE'a. “Savaş olacak”, diye duyurdu, “sert bir gece olacak.” ONE'a göre Christian Lee 18 galibiyetinin 17'sini süre dolmadan kazandı ve ONE'da en fazla galibiyet, bitiriş ve ilk raunt durdurma rekorlarını elinde tutuyor.",
+     "Şampiyonluk maçının yanı sıra programda dört Muay Thai maçı da yer alıyor; bunlar arasında Komawut FA Group ile Yodphupa Petkiatpet karşılaşması da var. ONE'a göre The Inner Circle 37, yalnızca üyelere özel olarak live.onefc.com adresinden yayınlanacak."
+    ],
+    "d": "Yalnızca iki profesyonel MMA maçı – ve cuma günü şimdiden dünya şampiyonluğu maçı: grappling şampiyonu Tye Ruotolo, Bangkok'ta Christian Lee'yi tahtından etmek istiyor.",
+    "t": "ONE: Tye Ruotolo, Christian Lee karşısında şampiyonluk maçına çıkıyor – “Savaş olacak”"
+   },
+   "at": "2026-11-03T07:43Z",
+   "h": "2420fd7e8e1e",
+   "rev": [
+    "Quote misrendered: 'ich glaube, ich habe' (first person) became third person 'sahip olduğuna inanıyorum' (ungrammatical/mixed); should be 'sahip olduğuma inanıyorum'",
+    "'Grappling' left untranslated in the teaser; Turkish term 'yer güreşi' is appropriate",
+    "Quote attribution: 'ONE'a' awkward word order, fixed to 'ONE'a konuşan Ruotolo'",
+    "'Weltergewichtstitel' correct; 'Krieg' quote fine"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Bangkok'taki Lumpinee Boxing Stadium (eski fotoğraf)"
+   }
+  },
   "salesforce-kauft-cresta-sprach-ki-2026-11-03": {
    "L": {
     "body": [
@@ -1849,6 +2009,63 @@
    ],
    "x": {
     "img.alt": "Bulgaristan'da bir tatbikatta Stryker zırhlı aracı (Arşiv fotoğrafı)"
+   }
+  },
+  "ufc-durden-pause-nach-fuenf-kaempfen": {
+   "L": {
+    "body": [
+     "Cody Durden, Las Vegas'ta düzenlenen UFC Vegas 123'te Ode Osbourne'u oybirliğiyle puanla yendi; üç hakemin üçü de 29-28 puanla onu galip gösterdi. 35 yaşındaki dövüşçü için bu, bir yıl içindeki beşinci maçtı; Durden daha önce, diğer maçların yanı sıra, Alessandro Costa'ya karşı submission ile kaybetmişti.",
+     "Durden, organizasyonun ardından düzenlenen basın toplantısında MMA Junkie'ye göre ara vereceğini açıkladı: “Bir yılda beş maç yaptım, çocuklarımla vakit geçirmem gerekiyor.” Kesin bir şey söylemek istemedi: “Kim bilir? Belki Aralık'ta bir maç olur.”",
+     "UFC, UFC Vegas 123 sonrasındaki basın toplantısının tamamını, Durden'in ve gecenin diğer galiplerinin katılımıyla YouTube kanalında yayımladı."
+    ],
+    "d": "ABD'li dövüşçü, UFC Vegas 123'te Ode Osbourne'a karşı puan hakem kararıyla aldığı galibiyetin ardından önce çocuklarıyla vakit geçirmek istiyor; Aralık ayında bir maçı ise tamamen dışlamıyor.",
+    "t": "Bir yılda beş maç: Cody Durden galibiyetinin ardından ara veriyor"
+   },
+   "at": "2026-11-03T07:43Z",
+   "h": "cc087839495d",
+   "rev": [
+    "\"Punktsieg\" was translated as \"hakem kararıyla\" (by referee decision), which is imprecise; \"puan farkıyla / puanla\" is better",
+    "\"unter anderem\" omitted: Durden lost to Costa among other earlier fights",
+    "\"Aufgabegriff\" is rendered with the foreign term \"submission\"; \"kilitle yenilgi\" is more natural",
+    "\"Ganz ausschließen will er nicht\" is rendered awkwardly: \"Aralık ayında bir maçı\" lacks the word \"dövüşü\"",
+    "\"Alle drei Punktrichter\" was rendered awkwardly"
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: MMA kafesi"
+   }
+  },
+  "ufc-vegas-123-cormier-kritik-miragliotta": {
+   "L": {
+    "body": [
+     "UFC Vegas 123'ün ana maçı, aradan iki gün geçmesine rağmen MMA dünyasının gündeminde. İkinci rauntta Renato Moicano, hakem Dan Miragliotta her iki dövüşçüyü ayağa kaldırdığında Tom Nolan'ın sırtını body-triangle ile kontrol ediyordu. Kısa süre sonra Nolan ağır bir diz darbesi indirdi; üçüncü rauntta teknik nakavtla kazandı.",
+     "UFC yorumcusu ve eski şampiyon Daniel Cormier, Octagon'un hemen kenarında oturan Cormier, pazartesi günü “Daniel Cormier Show” programında belki de “tüm hayatım boyunca gördüğüm en büyük hakem hatalarından birini” izlediğini söyledi. Cormier'e göre bu hata sonucu değiştirdi, bu nedenle yaptırım uygulanmalı: “Hiç kimse bunun üzerinde olmamalı, hakemler de dahil.” Cormier'e göre Miragliotta önümüzdeki organizasyonlarda görev almamalı. UFC'den veya Nevada Atletizm Komisyonu'ndan başlangıçta bir açıklama gelmedi.",
+     "Moicano ise MMA Fighting'e yaptığı açıklamada şunları kabul etti: “Odağımı açıkça kaybettim. Yanlış karardı ama bu hiçbir şeyi değiştirmiyor. Kaybettim, hepsi bu.” Miragliotta hakkında sert sözlerle konuştu. Brezilyalı dövüşçü sonuca itiraz etmeyi düşünmüyor."
+    ],
+    "d": "Hakem Dan Miragliotta'nın Moicano-Nolan maçındaki ayağa kaldırma kararı tartışılmaya devam ediyor. Daniel Cormier yaptırım istiyor, Moicano sert tepki gösterdi ancak itiraz etmeyecek.",
+    "t": "UFC Vegas 123 sonrası: Cormier: “En büyük hakem hatalarından biri”"
+   },
+   "at": "2026-11-03T07:43Z",
+   "h": "9c23f1a07d97",
+   "rev": [
+    "Headline: the German quotes \"one of the biggest referee errors\" as Cormier's own words; \"hakemlik tarihinin\" (in refereeing history) adds something not in the original, and the verb is awkward",
+    "Pazartesi (weekday) is wrongly capitalised mid-sentence (TDK: lowercase)",
+    "Teaser: \"yaptırım\" and \"Daniel Cormier yaptırım istiyor\" are fine, but \"maçındaki ayağa kaldırma kararı\" is OK; no change",
+    "Body: \"Octagon'un hemen yanında oturan isim olarak\" is clumsy; the German is a relative clause saying he sat right at the Octagon",
+    "Moicano's \"ama bu hiçbir şeyi değiştirmiyor\" is fine",
+    "\"Kısa süre sonra Nolan ağır bir diz darbesi indirdi\" is correct"
+   ],
+   "rev_dbg": [
+    6,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı (2017): Daniel Cormier"
    }
   },
   "wallstreet": {
