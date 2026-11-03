@@ -1459,6 +1459,27 @@
     "img.alt": "Gráfico de portada: Fendi muestra el «Very Colibrì»"
    }
   },
+  "fkie-unterwasser-gateway-boje": {
+   "L": {
+    "body": [
+     "La protección de oleoductos y parques eólicos marinos cobra importancia, pero bajo el agua la telefonía móvil, el WLAN y el GPS prácticamente no funcionan. Allí la comunicación se realiza mediante sonido, que se propaga a unos 1500 metros por segundo, unas 200.000 veces más despacio que la luz en el aire. Con un alcance de unos diez kilómetros, la tasa neta de datos suele caer por debajo de 200 bits por segundo, según informó a principios de noviembre el Instituto Fraunhofer de Comunicación, Procesamiento de la Información y Ergonomía FKIE, en Wachtberg.",
+     "Junto con el Servicio Técnico de Defensa 71 de la Bundeswehr, el FKIE ha desarrollado el estándar GUWAL, con paquetes de datos de 128 bits para consultas a sensores y órdenes a robots submarinos autónomos, y el protocolo de red GUWMANET basado en él. Los datos se transmiten de nodo en nodo, las rutas se adaptan automáticamente y la protección contra sabotaje, inhibidores e interceptación está integrada. En pruebas en el mar llegó alrededor del 90 por ciento de los paquetes. Una boya pasarela con un transductor acústico en la parte inferior recibe datos de nodos situados en el fondo marino y los transmite por radio a barcos o a tierra.",
+     "«Nuestro objetivo era dejar atrás las conexiones rígidas punto a punto y avanzar hacia redes acústicas dinámicas», dijo el científico del FKIE Dimitri Sotnik. Un prototipo de la boya transmitió paquetes de datos a un centro de operaciones en tierra durante ejercicios de la OTAN frente a Lisboa. En el proyecto europeo de defensa SWAT-SHOAL, GUWMANET es el protocolo principal para enjambres de vehículos submarinos tripulados y no tripulados; tras las pruebas en puerto, están previstas pruebas en el mar de varias semanas."
+    ],
+    "d": "Bajo el agua fallan la radio, el WLAN y el GPS. Fraunhofer FKIE ha desarrollado un protocolo de red y una boya pasarela que recogen datos de sensores y robots submarinos por sonido y los transmiten por radio.",
+    "t": "Sin cobertura en el mar: una boya de Fraunhofer sube datos de redes acústicas submarinas"
+   },
+   "at": "2026-11-03T14:06Z",
+   "h": "a1df43a6d2e3",
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica (archivo 2010): un vehículo submarino autónomo es botado al agua desde un barco en el mar del Norte; no pertenece al proyecto de Fraunhofer"
+   }
+  },
   "fury-280-pfund-joshua": {
    "L": {
     "body": [
@@ -2773,6 +2794,32 @@
    ],
    "x": {
     "img.alt": "Foto de archivo: Lumpinee Boxing Stadium en Bangkok (foto antigua)"
+   }
+  },
+  "openai-dan-driscoll-nationale-sicherheit": {
+   "L": {
+    "body": [
+     "OpenAI ha contratado al exsecretario del Ejército de EE. UU. (Secretary of the Army) Dan Driscoll. Según informó la empresa el lunes, ocupará el cargo de «Senior Counselor for National Security Modernization», un puesto de nueva creación. Driscoll deberá asesorar sobre cómo la IA puede reforzar la seguridad nacional y la ciberseguridad, con especial atención a la cooperación con los aliados de EE. UU.",
+     "Según Türkiye Today, asesorará a socios del sector público y del privado y ayudará a los propios equipos de OpenAI a comprender las necesidades de los organismos de seguridad de todo el mundo. Driscoll afirmó, según esa información, que llega a OpenAI para ayudar a EE. UU. y a sus aliados a utilizar la tecnología de forma responsable. Según Gizmodo, el director ejecutivo de OpenAI, Sam Altman, señaló la oportunidad de que EE. UU. colabore con otros países y difunda una IA democrática.",
+     "Driscoll fue el 26.º secretario del Ejército de EE. UU. Según un informe de Politico en el que se basa Gizmodo, dimitió en agosto tras meses de desacuerdos con el jefe del Pentágono, Pete Hegseth, entre otras cosas sobre la modernización del Ejército. Driscoll es amigo desde hace años del vicepresidente de EE. UU., J. D. Vance, con quien estudió en la Facultad de Derecho de Yale."
+    ],
+    "d": "OpenAI ha creado para Dan Driscoll un nuevo puesto de asesor de seguridad nacional. Deberá asesorar sobre el uso de la IA en defensa y ciberseguridad, con la mirada puesta en los aliados de EE. UU.",
+    "t": "El exsecretario del Ejército de EE. UU. Dan Driscoll será asesor de seguridad en OpenAI"
+   },
+   "at": "2026-11-03T14:06Z",
+   "h": "4f33f763a7c1",
+   "rev": [
+    "'socios del sector público y de la empresa' is imprecise for 'Partner aus Staat und Wirtschaft'; it should be 'del sector público y del privado'",
+    "'Personalia' is not the right Spanish term for the kicker 'Personalie'; 'Nombramiento' is more natural"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    1
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Dan Driscoll durante su audiencia ante el Comité de Servicios Armados del Senado de EE. UU. (2025)",
+    "kl": "Personalia"
    }
   },
   "openai-private-intelligence-firmendaten": {

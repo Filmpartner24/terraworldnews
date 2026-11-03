@@ -1516,6 +1516,33 @@
     "img.alt": "Kapak görseli: Fendi “Very Colibrì” modelini gösteriyor"
    }
   },
+  "fkie-unterwasser-gateway-boje": {
+   "L": {
+    "body": [
+     "Boru hatlarının ve açık deniz rüzgar santrallerinin korunması giderek önem kazanıyor, ancak su altında cep telefonu ağı, WLAN ve GPS pratikte çalışmıyor. İletişim orada, saniyede yaklaşık 1500 metre hızla yayılan ses yoluyla yapılıyor; bu, havadaki ışıktan yaklaşık 200.000 kat daha yavaş. Wachtberg'deki Fraunhofer İletişim, Bilgi İşleme ve Ergonomi Enstitüsü FKIE'nin Kasım ayı başında yaptığı açıklamaya göre, yaklaşık on kilometrelik menzilde net veri hızı çoğu zaman saniyede 200 bitin altına düşüyor.",
+     "FKIE, Alman Federal Ordusu'nun 71 No'lu Savunma Teknolojisi Dairesi ile birlikte, sensör sorguları ve otonom su altı robotlarına verilen komutlar için 128 bit uzunluğunda veri paketleri kullanan GUWAL standardını ve bunun üzerine kurulu GUWMANET ağ protokolünü geliştirdi. Veriler düğümden düğüme aktarılıyor, rotalar otomatik olarak uyum sağlıyor, sabotaja, parazit vericilere ve dinlemeye karşı koruma doğrudan sisteme entegre. Deniz testlerinde paketlerin yaklaşık yüzde 90'ı ulaştı. Alt tarafında akustik dönüştürücü bulunan bir geçit şamandırası, deniz tabanındaki düğümlerden verileri alıyor ve telsizle gemilere ya da karaya iletiyor.",
+     "FKIE bilim insanı Dimitri Sotnik, “Hedefimiz, katı noktadan noktaya bağlantılardan uzaklaşıp dinamik akustik ağlara geçmekti” dedi. Şamandıranın bir prototipi, Lizbon açıklarındaki NATO tatbikatlarında veri paketlerini karadaki bir operasyon merkezine iletti. Avrupa savunma projesi SWAT-SHOAL'da GUWMANET, insanlı ve insansız su altı araçlarından oluşan sürüler için ana protokol; liman denemelerinin ardından birkaç hafta sürecek deniz testleri planlanıyor."
+    ],
+    "d": "Su altında telsiz, WLAN ve GPS çalışmıyor. Fraunhofer FKIE, sensörlerden ve su altı robotlarından sesle veri toplayıp telsizle ileten bir ağ protokolü ve geçit şamandırası geliştirdi.",
+    "t": "Denizde sinyal yok: Fraunhofer şamandırası akustik su altı ağlarından veri topluyor"
+   },
+   "at": "2026-11-03T14:06Z",
+   "h": "a1df43a6d2e3",
+   "rev": [
+    "\"Tauchroboter\" was rendered as \"dalgıç robot\" (diver robot); the correct term is \"su altı robotu\" (underwater robot), changed in the teaser and body",
+    "\"Funk\" was rendered as \"telsiz\" in the teaser; \"kablosuz\" is more natural, and the teaser says \"Funk\" fails underwater",
+    "\"Wehrtechnische Dienststelle 71\" was rendered as \"Savunma Teknolojisi Dairesi\"; the established name is \"Savunma Teknolojisi ve Test Dairesi\", but the draft is acceptable, so left unchanged",
+    "Untranslated word \"protokol\" flagged: it is a valid Turkish word, so no change"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf (Arşiv 2010): Otonom bir su altı aracı Kuzey Denizi'nde bir gemiden suya indiriliyor – Fraunhofer projesine ait değil"
+   }
+  },
   "fury-280-pfund-joshua": {
    "L": {
     "body": [
@@ -2942,6 +2969,37 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Bangkok'taki Lumpinee Boxing Stadium (eski fotoğraf)"
+   }
+  },
+  "openai-dan-driscoll-nationale-sicherheit": {
+   "L": {
+    "body": [
+     "OpenAI, ABD Kara Kuvvetleri eski Bakanı (Secretary of the Army) Dan Driscoll'u işe aldı. Şirketin pazartesi günü yaptığı açıklamaya göre Driscoll, yeni oluşturulan “Senior Counselor for National Security Modernization” pozisyonunu üstlenecek. Driscoll'un, yapay zekânın ulusal güvenliği ve siber güvenliği nasıl güçlendirebileceği konusunda, özellikle ABD'nin müttefikleriyle iş birliğine odaklanarak danışmanlık yapması bekleniyor.",
+     "Türkiye Today'e göre Driscoll, kamu ve iş dünyasındaki ortaklara danışmanlık yapacak ve OpenAI'ın kendi ekiplerinin dünya genelindeki güvenlik kurumlarının ihtiyaçlarını anlamasına yardımcı olacak. Aynı habere göre Driscoll, OpenAI'a ABD'nin ve müttefiklerinin teknolojiyi sorumlu bir şekilde kullanmasına yardımcı olmak için geldiğini söyledi. Gizmodo'ya göre OpenAI CEO'su Sam Altman, ABD'nin diğer ülkelerle iş birliği yapma ve demokratik yapay zekâyı yayma fırsatına dikkat çekti.",
+     "Driscoll, ABD Kara Kuvvetleri'nin 26. Bakanı'ydı. Gizmodo'nun dayandığı bir Politico haberine göre Driscoll, ağustos ayında, Pentagon Bakanı Pete Hegseth ile aylarca süren, aralarında ordunun modernizasyonunun da bulunduğu görüş ayrılıklarının ardından istifa etti. Driscoll, Yale Hukuk Fakültesi'nde birlikte okuduğu ABD Başkan Yardımcısı J. D. Vance'in uzun yıllardır arkadaşı."
+    ],
+    "d": "OpenAI, Dan Driscoll için ulusal güvenlik alanında yeni bir danışmanlık pozisyonu oluşturdu. Driscoll'un, ABD'nin müttefiklerine odaklanarak savunma ve siber güvenlikte yapay zekânın kullanımı konusunda danışmanlık yapması bekleniyor.",
+    "t": "Eski ABD Kara Kuvvetleri Bakanı Dan Driscoll OpenAI'da güvenlik danışmanı oluyor"
+   },
+   "at": "2026-11-03T14:06Z",
+   "flag": [
+    "Teaser zu lang (234 Zeichen)"
+   ],
+   "h": "4f33f763a7c1",
+   "rev": [
+    "Title: \"Secretary of the Army\" is the US Army minister; the Turkish draft's \"Kara Kuvvetleri\" is acceptable, so no change needed there.",
+    "Month name \"Ağustos\" must be lowercase per TDK.",
+    "\"Pentagon Bakanı\" for Pentagon-Chef Hegseth is imprecise; he is Secretary of Defense/War, so \"Pentagon Başkanı\" is wrong too. Better: \"Savunma Bakanı\". Kept close to the German as \"Pentagon Bakanı\"; l",
+    "The sentence \"Driscoll'un... bekleniyor\" in the teaser is fine."
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Dan Driscoll, ABD Senatosu Silahlı Hizmetler Komitesi'ndeki duruşmasında (2025)",
+    "kl": "Atama"
    }
   },
   "openai-private-intelligence-firmendaten": {
