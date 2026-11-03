@@ -1518,6 +1518,33 @@
     "rv.score": "CGMagazine 7,5/10 · Metacritic 73 · OpenCritic 70"
    }
   },
+  "goldman-ki-werkzeuge-nur-ingenieure": {
+   "L": {
+    "body": [
+     "El banco de inversión estadounidense Goldman Sachs restringe el acceso a herramientas de programación con IA. Claude Code, de Anthropic, y GitHub Copilot, de Microsoft, solo están ya a disposición de los aproximadamente 12.000 ingenieros del banco, informó Bloomberg el lunes citando directrices internas de octubre. Los banqueros de inversión y traders, que habían podido usar las herramientas durante meses, pierden el acceso. El grupo «Strats», formado por desarrolladores de software con tareas cuantitativas, lo mantiene, según AI Weekly.",
+     "Un portavoz del banco afirmó, según PYMNTS, que se ofrecen determinadas herramientas de IA para identificar los mejores ámbitos de aplicación en distintas áreas. Tras una fase de pruebas en la que se habrían evaluado, entre otros aspectos, la productividad y la gestión de riesgos, las herramientas estarían ahora en manos de quienes pueden aprovecharlas mejor a largo plazo.",
+     "Según una persona familiarizada con el asunto, algunos traders utilizaban la IA para observar los flujos de operaciones de los clientes y para elaborar textos y gráficos; entre ellos, la decisión estaría causando malestar. Todavía en julio, el director de Informática (Chief Information Officer) de Goldman, Marco Argenti, había elogiado el llamado «vibe coding», en el que empleados sin conocimientos de programación crean con IA sus propias soluciones y se las pasan a los ingenieros."
+    ],
+    "d": "Claude Code y GitHub Copilot solo están ya autorizados para unos 12.000 ingenieros del banco estadounidense, según Bloomberg, que cita directrices internas.",
+    "t": "Goldman Sachs retira a banqueros y traders las herramientas de programación con IA"
+   },
+   "at": "2026-11-03T12:41Z",
+   "h": "a496cc3f1618",
+   "rev": [
+    "\"Noch im Juli\" (as recently as July) lost its nuance; \"En julio\" is too neutral",
+    "Teaser: the German says the tools are approved \"nur noch für\" the engineers; the Spanish is acceptable, so no change",
+    "\"unos 12.000 ingenieros\" with \"los\" is clumsy: \"de los unos 12.000\""
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: vista aérea de la sede de Goldman Sachs, 200 West Street, en Manhattan",
+    "kl": "IA en la empresa"
+   }
+  },
   "gucci-feiertagsfilm-mariah-carey-harmony-korine": {
    "L": {
     "body": [
@@ -2571,6 +2598,33 @@
    ],
    "x": {
     "img.alt": "Foto de archivo: Toshihiro Nagoshi, creador de «Yakuza», en un acto en 2014"
+   }
+  },
+  "nba-gilgeous-alexander-43-grizzlies-erste-niederlage-2026-11-03": {
+   "L": {
+    "body": [
+     "Shai Gilgeous-Alexander llevó a los Oklahoma City Thunder en la madrugada del martes a un 117-112 en la pista de los Cleveland Cavaliers. El canadiense anotó 43 puntos, su récord de la temporada, con 14 de 35 tiros de campo y 11 de 12 tiros libres. Con el marcador en 112-112, anotó el triple decisivo a falta de 32,6 segundos. Ajay Mitchell aportó 20 puntos e Isaiah Hartenstein capturó 14 rebotes. Los Thunder, que cuentan con varias bajas de titulares por lesión, suman ahora cinco victorias y dos derrotas; por Cleveland, los mejores anotadores fueron Donovan Mitchell (17 puntos, 11 asistencias) y el novato Meleek Thomas (17).",
+     "En Memphis se rompió la racha de los Grizzlies: el hasta entonces único equipo invicto de la liga perdió ante los New Orleans Pelicans por 134-135 tras la prórroga. Ty Jerome anotó 40 puntos, incluidos nueve consecutivos en los últimos 1:43 minutos del tiempo reglamentario hasta el 124-124, pero su lanzamiento en el último segundo de la prórroga no entró. Zion Williamson (25 puntos, nueve de ellos en la prórroga) y Karlo Matkovic (máximo de su carrera, con 25) lideraron a New Orleans, y Jeremiah Fears anotó los tiros libres decisivos a falta de 7,3 segundos.",
+     "Los Los Angeles Lakers vencieron a Miami por 138-117, con 42 puntos y 13 asistencias de Luka Dončić. Desde el punto de vista alemán hubo poco que celebrar: Moritz Wagner perdió con los Brooklyn Nets 90-103 ante los New York Knicks (seis puntos desde el banquillo) y los Charlotte Hornets de Dennis Schröder cayeron ante Detroit 91-124. Franz Wagner fue el máximo anotador de su equipo con 24 puntos en el 94-103 de los Orlando Magic ante Washington; los resúmenes de ese partido los mostramos en vídeo."
+    ],
+    "d": "Shai Gilgeous-Alexander lidera con 43 puntos el 117-112 de Oklahoma City en Cleveland. Memphis sufre su primera derrota de la temporada, 134-135 tras la prórroga ante New Orleans.",
+    "t": "43 puntos de Gilgeous-Alexander; los Pelicans cortan la racha de victorias de Memphis"
+   },
+   "at": "2026-11-03T12:41Z",
+   "h": "9457c33bc22d",
+   "rev": [
+    "Headline: 'cortan la racha de victorias de Memphis' is fine, but 'Memphis sufre su primera derrota... 134-135 tras la prórroga' is acceptable; no change needed",
+    "'en el último 1:43 minutos' is ungrammatical",
+    "'Los Los Angeles Lakers' is a repeated article that reads awkwardly, but it is correct (Los + Los Angeles Lakers); kept",
+    "'los resúmenes ... los mostramos' - 'Highlights' fine"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Shai Gilgeous-Alexander con la camiseta de los Oklahoma City Thunder (foto de archivo, enero de 2022)"
    }
   },
   "nba-video-wizards-magic-franz-wagner-2026-11-03": {
@@ -3786,6 +3840,28 @@
    ],
    "x": {
     "img.alt": "Imagen simbólica: Boeing 737-800 de Ryanair aterrizando en el aeropuerto de Fráncfort"
+   }
+  },
+  "workos-datenleck-ki-angriffswerkzeug": {
+   "L": {
+    "body": [
+     "La empresa estadounidense de software WorkOS ha notificado un acceso no autorizado a una aplicación interna de ventas. El incidente se detectó el 30 de octubre y el 2 de noviembre la compañía publicó un aviso de seguridad. Según los investigadores, los atacantes utilizaron una herramienta de ataque basada en IA que automatiza el espionaje de sistemas y los intentos de intrusión.",
+     "Según los informes, la aplicación contenía datos de contacto como nombres, direcciones de correo electrónico, números de teléfono y cargos profesionales, historiales de clientes, así como resúmenes y extractos de conversaciones de venta, solicitudes de soporte y conversaciones de Slack con clientes. Aún se desconoce qué registros se consultaron realmente y cuántos clientes están afectados. Según la empresa, no hay indicios de acceso a datos de la aplicación propiamente dicha de WorkOS ni a servicios de producción.",
+     "Según Cyber Security News, el director ejecutivo de WorkOS, Michael Grinich, citó ARTEX como la herramienta; el comunicado oficial no menciona ningún nombre. Google Threat Intelligence y Mandiant describen ARTEX como una plataforma con varios agentes de IA que traduce los objetivos de los atacantes en comandos y ejecuta varias fases del ataque con poca intervención humana. Con ello, el uso de ARTEX en WorkOS no está probado; los análisis no se refieren a este incidente. WorkOS bloqueó el acceso externo a la aplicación, contrató a peritos forenses externos y recomienda a los clientes que examinen con atención las solicitudes inesperadas."
+    ],
+    "d": "En la empresa estadounidense de software WorkOS, unos atacantes accedieron a una aplicación interna de ventas con datos de clientes. Según los investigadores, les ayudó una herramienta de ataque basada en IA.",
+    "t": "Ataque con ayuda de IA: desconocidos acceden al sistema de ventas de WorkOS"
+   },
+   "at": "2026-11-03T12:41Z",
+   "h": "9e7b167e3e51",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: armarios de servidores en un centro de datos",
+    "kl": "Seguridad"
    }
   },
   "zalando-drittes-quartal-2026-b2b-ki-agent": {

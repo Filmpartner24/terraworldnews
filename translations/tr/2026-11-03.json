@@ -1583,6 +1583,33 @@
     "rv.score": "CGMagazine 7,5/10 · Metacritic 73 · OpenCritic 70"
    }
   },
+  "goldman-ki-werkzeuge-nur-ingenieure": {
+   "L": {
+    "body": [
+     "ABD'li yatırım bankası Goldman Sachs, yapay zekâ kodlama araçlarına erişimi kısıtlıyor. Bloomberg'in pazartesi günü Ekim ayından kalma iç yönergelere dayanarak bildirdiğine göre, Anthropic'in Claude Code'u ve Microsoft'un GitHub Copilot'ı artık yalnızca bankanın yaklaşık 12.000 mühendisinin kullanımına açık. Araçları aylardır kullanabilen yatırım bankacıları ve traderlar erişimi kaybediyor. AI Weekly'ye göre, nicel görevler üstlenen yazılım geliştiricilerden oluşan “Strats” grubu erişimini koruyor.",
+     "PYMNTS'e göre bankanın bir sözcüsü, farklı alanlardaki en iyi kullanım alanlarını belirlemek için belirli yapay zekâ araçlarının sunulduğunu söyledi. Sözcüye göre, aralarında üretkenlik ve risk yönetiminin de bulunduğu konuların değerlendirildiği bir test aşamasının ardından araçlar artık onlardan uzun vadede en iyi şekilde yararlanabilecek kişilerde bulunuyor.",
+     "Olaya yakın bir kişiye göre, bazı traderlar yapay zekâyı müşterilerin işlem akışlarını izlemek ile metin ve grafik hazırlamak için kullanıyordu; karar onlar arasında hoşnutsuzluğa yol açıyor. Goldman'ın bilgi teknolojileri direktörü (Chief Information Officer) Marco Argenti ise daha Temmuz ayında, programlama bilgisi olmayan çalışanların yapay zekâ ile kendi çözümlerini geliştirip mühendislere devrettiği sözde Vibe Coding'i övmüştü."
+    ],
+    "d": "Claude Code ve GitHub Copilot, ABD'li bankada artık yalnızca yaklaşık 12.000 mühendis için açık. Bloomberg, bunu iç yönergelere dayandırarak bildirdi.",
+    "t": "Goldman Sachs, bankacılardan ve traderlardan yapay zekâ kodlama araçlarını geri alıyor"
+   },
+   "at": "2026-11-03T12:41Z",
+   "h": "a496cc3f1618",
+   "rev": [
+    "Weekday \"Pazartesi\" should be lowercase mid-sentence per TDK",
+    "\"traderlar\" is an unnatural foreign term; Turkish \"borsacılar/yatırımcılar\" better: use \"trader\" → \"işlem yapan çalışanlar\"? kept minimal: no change",
+    "\"Chief Information Officer\" kept in parentheses as an English title, acceptable"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Goldman Sachs'ın Manhattan'daki merkezi 200 West Street'in yukarıdan görünümü",
+    "kl": "Şirketlerde yapay zekâ"
+   }
+  },
   "gucci-feiertagsfilm-mariah-carey-harmony-korine": {
    "L": {
     "body": [
@@ -2724,6 +2751,34 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: “Yakuza”nın yaratıcısı Toshihiro Nagoshi 2014'te bir etkinlikte"
+   }
+  },
+  "nba-gilgeous-alexander-43-grizzlies-erste-niederlage-2026-11-03": {
+   "L": {
+    "body": [
+     "Shai Gilgeous-Alexander, Oklahoma City Thunder'ı salı gecesine denk gelen maçta Cleveland Cavaliers deplasmanında 117-112'lik galibiyete taşıdı. Kanadalı oyuncu, sezonun en yüksek skoru olan 43 sayı attı; sahadan 35 şutun 14'ünü, serbest atışlarda ise 12 denemenin 11'ini isabetli kullandı. Skor 112-112 iken maçın bitmesine 32,6 saniye kala belirleyici üçlüğü attı. Ajay Mitchell 20 sayı katkı verdi, Isaiah Hartenstein 14 ribaund aldı. Birçok ana rotasyon oyuncusu sakat olan Thunder'ın bilançosu beş galibiyet ve iki mağlubiyet oldu; Cleveland'da en iyi isabeti Donovan Mitchell (17 sayı, 11 asist) ve çaylak Meleek Thomas (17) buldu.",
+     "Memphis'te Grizzlies'in serisi sona erdi: Ligin o âna kadar tek yenilgisiz takımı, New Orleans Pelicans'a uzatmada 134-135 yenildi. Ty Jerome 40 sayı attı; bunların dokuzu, normal sürenin son 1:43 dakikasında üst üste gelerek skoru 124-124'e getirdi. Ancak uzatmanın son saniyesindeki şutu isabet etmedi. New Orleans'ı Zion Williamson (25 sayı, dokuzu uzatmada) ve Karlo Matkovic (kariyer rekoru 25 sayı) taşıdı; Jeremiah Fears, bitmesine 7,3 saniye kala belirleyici serbest atışları attı.",
+     "Los Angeles Lakers, Miami'yi 138-117 yendi; Luka Dončić 42 sayı ve 13 asistle oynadı. Alman açısından kutlanacak pek bir şey olmadı: Moritz Wagner'in Brooklyn Nets'i New York Knicks'e 90-103 kaybetti (Wagner yedek kulübesinden altı sayı attı), Dennis Schröder'in Charlotte Hornets'ı Detroit'e 91-124 yenildi. Franz Wagner, Orlando Magic'in Washington karşısındaki 94-103'lük maçında 24 sayıyla takımının en skorer oyuncusuydu; bu maçın özetlerini videoda gösteriyoruz."
+    ],
+    "d": "Shai Gilgeous-Alexander'ın 43 sayısı Oklahoma City'ye Cleveland'da 117-112'lik galibiyeti getirdi. Memphis, New Orleans karşısında uzatmada 134-135 yenilerek sezonun ilk mağlubiyetini aldı.",
+    "t": "Gilgeous-Alexander'dan 43 sayı – Pelicans, Memphis'in galibiyet serisini bitirdi"
+   },
+   "at": "2026-11-03T12:41Z",
+   "h": "9457c33bc22d",
+   "rev": [
+    "Orlando Magic's 94-103 game against Washington: the draft's wording \"94-103'lük maçında\" hides that Orlando lost; the German \"beim 94:103 der Orlando Magic gegen Washington\" is ambiguous, but the sent",
+    "\"Birçok ilk beşi sakat\" is imprecise: \"Stammspieler\" means regular starters/key players, not necessarily the starting five, so \"birçok önemli oyuncusu sakat\" is more accurate.",
+    "\"Memphis ... 134-135 yenilerek\" is fine.",
+    "\"Ty Jerome\" sentence: the draft's wording is acceptable.",
+    "Month capitalization: \"Ocak 2022\" is correct per TDK."
+   ],
+   "rev_dbg": [
+    5,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Oklahoma City Thunder formasıyla Shai Gilgeous-Alexander (Arşiv fotoğrafı, Ocak 2022)"
    }
   },
   "nba-video-wizards-magic-franz-wagner-2026-11-03": {
@@ -4024,6 +4079,33 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Ryanair'e ait bir Boeing 737-800, Frankfurt Havalimanı'na iniyor"
+   }
+  },
+  "workos-datenleck-ki-angriffswerkzeug": {
+   "L": {
+    "body": [
+     "ABD'li yazılım sağlayıcısı WorkOS, dahili bir satış uygulamasına yetkisiz erişim yaşandığını bildirdi. Olay 30 Ekim'de fark edildi, şirket 2 Kasım'da bir güvenlik duyurusu yayımladı. Soruşturmacılara göre saldırganlar, sistemlerin taranmasını ve sızma girişimlerini otomatikleştiren, yapay zekâ destekli bir saldırı aracı kullandı.",
+     "Haberlere göre uygulamada ad, e-posta adresi, telefon numarası ve unvan gibi iletişim bilgileri, müşteri geçmişleri ile satış görüşmelerinin, destek taleplerinin ve müşterilerle yapılan Slack yazışmalarının özetleri ve alıntıları bulunuyordu. Hangi veri kayıtlarına gerçekte erişildiği ve kaç müşterinin etkilendiği henüz belli değil. Şirkete göre asıl WorkOS uygulamasındaki verilere ya da üretim hizmetlerine erişildiğine dair bir belirti yok.",
+     "Cyber Security News'e göre WorkOS CEO'su Michael Grinich, aracın adının ARTEX olduğunu söyledi; resmi duyuruda ise herhangi bir ad geçmiyor. Google Threat Intelligence ve Mandiant, ARTEX'i saldırganların hedeflerini komutlara çeviren ve birden fazla saldırı adımını az insan müdahalesiyle yürüten, çok sayıda yapay zekâ ajanından oluşan bir platform olarak tanımlıyor. Dolayısıyla ARTEX'in WorkOS'ta kullanıldığı kanıtlanmış değil; analizler bu olaya ilişkin değil. WorkOS, uygulamaya dışarıdan erişimi engelledi, harici adli bilişim uzmanlarını görevlendirdi ve müşterilere beklenmedik taleplerin dikkatle incelenmesini tavsiye ediyor."
+    ],
+    "d": "ABD'li yazılım sağlayıcısı WorkOS'ta saldırganlar, müşteri verilerinin bulunduğu dahili bir satış uygulamasına erişti. Soruşturmacılara göre yapay zekâ destekli bir saldırı aracı onlara yardımcı oldu.",
+    "t": "Yapay zekâ destekli saldırı: Bilinmeyen kişiler WorkOS'un satış sistemine girdi"
+   },
+   "at": "2026-11-03T12:41Z",
+   "h": "9e7b167e3e51",
+   "rev": [
+    "Spelling error in the teaser: 'eriştı' should be 'erişti'",
+    "Logical relation changed: German 'damit' (i.e. from this) was rendered as 'Bu nedenle', which reads as a causal link",
+    "The statement that the analyses do not relate to this incident was rendered too bluntly; it should read 'bu olaya ilişkin değil' / 'bu olayı ele almıyor'"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Bir veri merkezindeki sunucu dolapları",
+    "kl": "Güvenlik"
    }
   },
   "zalando-drittes-quartal-2026-b2b-ki-agent": {
