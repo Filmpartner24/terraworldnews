@@ -1,6 +1,87 @@
 {
  "date": "2026-11-04",
  "items": {
+  "bayern-siegt-bei-atletico-karl-laimer-2026-11-04-b08": {
+   "L": {
+    "body": [
+     "Bayern Münih, salı akşamı Şampiyonlar Ligi'nde önemli bir deplasman galibiyeti aldı: Münihliler, Atlético Madrid'i Metropolitano'da 2-0 yendi. Lennart Karl, Atlético savunmacısı Robin Le Normand'dan topu kapmasının ardından 54. dakikada Bayern'i öne geçirdi. Konrad Laimer, Harry Kane'in pasıyla 74. dakikada farkı ikiye çıkardı. Dayot Upamecano'nun maçın bitmesine yaklaşık on dakika kala kafayla attığı gol, hücum faulü nedeniyle iptal edildi. Bayern sekiz puanla lig aşamasında sekizinci sıraya yükseldi, Atlético dört puanda kaldı.",
+     "Münihliler, aralarında Jamal Musiala, Luis Díaz ve Serge Gnabry'nin de bulunduğu oyuncular olmadan oynamak zorunda kaldı. Yardımcı antrenör Aaron Danks, Karl hakkında şunları söyledi: “O sadece kendine inanıyor.” Ağrılarına rağmen oynayan ve Sky'a göre Şampiyonlar Ligi'ndeki 164. maçına çıkan kaleci Manuel Neuer şöyle konuştu: “Bu, ilk dakikadan 93. dakikaya kadar tam bir üstünlüktü.” Laimer ise şöyle dedi: “90 dakikadan fazla bir süre boyunca nasıl futbol oynayabildiğimizi ve oynamak istediğimizi gösterdik.” Karl hakkında da şunu söyledi: “Önünde büyük bir kariyer olacak.”",
+     "Çarşamba akşamı (21:00) sırada diğer Alman kulüpleri var: Borussia Dortmund, Real Betis'i ağırlıyor, RB Leipzig ise Manchester City ile karşılaşıyor."
+    ],
+    "d": "Bayern Münih, Şampiyonlar Ligi'nde deplasmanda Atlético Madrid'i 2-0 yendi. Lennart Karl ve Konrad Laimer gol attı, kaptan Neuer “tam bir üstünlükten” söz etti.",
+    "t": "Bayern, Atlético deplasmanında 2-0 kazandı – Karl ve Laimer Madrid'de attı"
+   },
+   "at": "2026-11-04T06:11Z",
+   "h": "63537f87aa6c",
+   "rev": [
+    "Weekday capitalisation: 'Salı' mid-sentence should be lowercase per TDK",
+    "Weekday capitalisation: 'Çarşamba' should be lowercase mid-sentence? (sentence-initial, correct) – no change",
+    "Karl quote 'Er glaubt einfach an sich selber' rendered as 'kendine inanıyor' – nuance 'einfach' = 'sadece' ok; 'selber' fine",
+    "Lost 'Kapitän' relation fine; 'Er wird noch eine große Karriere vor sich haben' tense/modality acceptable"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Atlético Madrid stadyumu (Arşiv fotoğrafı)"
+   }
+  },
+  "berlin-verkehr-sicherheitskonferenz-s-bahn-ausfall-2026-11-04-b08": {
+   "L": {
+    "body": [
+     "Berlin, çarşamba günü ciddi trafik aksaklıklarına hazırlanmak zorunda. Trafik Bilgi Merkezi'nin (VIZ) verdiği bilgiye göre, süren güvenlik konferansı ve birkaç devlet ziyareti nedeniyle öğleden sonra erken saatlere kadar kentin birçok bölgesinde, A113 otoyolunda ve Schönefeld'deki BER Havalimanı çevresinde geniş çaplı kısıtlamalar geçerli. Konvoy güzergâhları ve kesin kapatma saatleri önceden açıklanmadı; yolculara mümkünse otobüs ve tren kullanmaları öneriliyor.",
+     "Akşam saatlerinde bir kısıtlama daha geliyor: S8, S9, S46 ve S85 hatları 21:30 ile 1:30 arasında Schöneweide ile Grünau veya Grünbergallee arasında çalışmayacak. Schöneweide ile Grünau arasında (S46) ve Schöneweide ile Grünbergallee arasında (S9) ikame otobüsler sefer yapacak. Ayrıca perşembeye bağlayan gece RE3319 seferi Hauptbahnhof (Ana Garı) ile Gesundbrunnen arasında iptal edildi.",
+     "Geceleri ayrıca A115 otoyolunun Funkturm Kavşağı (Dreieck Funkturm) yönü, Kreuz Zehlendorf ile Spanische Allee çıkışı arasında 21:00 ile 5:00 arasında kapalı kalıyor; son kez 6 Kasım'a bağlayan gece kapalıydı. Alternatif güzergâh B1 üzerinden A103'e gidiyor. Unter den Linden'de Linden Tüneli'nin (Lindentunnel) sökümüne yönelik ön çalışmalar nedeniyle Schinkelplatz ile Charlottenstraße arasında her yönde yalnızca bir şerit açık."
+    ],
+    "d": "Güvenlik konferansı ve birkaç devlet ziyareti nedeniyle öğleden sonra erken saatlere kadar A113 dahil geniş çaplı kısıtlamalar geçerli. Saat 21:30'dan itibaren güneydoğuda dört S-Bahn hattı çalışmayacak.",
+    "t": "Berlin: Devlet konukları BER'e kadar trafiği yavaşlatıyor, akşam S-Bahn seferleri iptal"
+   },
+   "at": "2026-11-04T06:11Z",
+   "h": "4cbd58a1f2e3",
+   "rev": [
+    "\"Perşembe\" wrongly capitalised (TDK: weekdays lower case)",
+    "\"zuletzt in der Nacht zum 6. November\" is unclear/wrong in the draft; the date was rendered as if the closure were in the past with a garbled structure",
+    "\"Hauptbahnhof\" left untranslated in the draft",
+    "\"Dreieck\" left untranslated in the draft",
+    "\"Lindentunnel\" left untranslated in the draft",
+    "\"fahren ... nicht\" in the teaser/headline: \"iptal\" is acceptable, but the S-Bahn lines run in the evening, fine"
+   ],
+   "rev_dbg": [
+    6,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin-Schöneweide'de bir S-Bahn (Sembolik fotoğraf)",
+    "kl": "Berlin"
+   }
+  },
+  "bulgarien-bnb-radew-inflation-euro-risiken-2026-11-04": {
+   "L": {
+    "body": [
+     "Avro bölgesine katılım, Bulgaristan için dış riskleri büyük ölçüde azaltıyor, ancak iç riskleri ortadan kaldırmıyor. Bulgaristan Merkez Bankası Başkanı Dimitar Radev, BNT'ye göre bunu söyledi. Radev örnek olarak enflasyonu gösterdi: Eylül ayında uyumlaştırılmış endekse göre yıllık enflasyon yüzde 5,6 oldu, avro bölgesi ortalaması ise yüzde 3,8 idi. Radev'e göre belirleyici olan, bu baskının diğer fiyatlara, ücretlere ve enflasyon beklentilerine ne ölçüde yayılacağı. ECB politika faizlerini iki kez artırdı.",
+     "Radev, ekonomi politikasının öngörülebilirliğinin de aynı derecede önemli olduğunu söyledi. Kamu maliyesine ilişkin belirsizliğin veya şirketlere yönelik kurallardaki değişikliklerin güveni zayıflatabileceğini belirtti. Hükümet, aralarında bankaların da bulunduğu altı sektör için olağanüstü kâr vergisi planlıyor. Radev, 121 milyar avro varlığa sahip bankacılık sektörünü iyi sermayelendirilmiş ve likit olarak nitelendirdi. Bankalar Birliği Yönetim Kurulu Başkanı Petya Dimitrova ise kurumların 2020-2025 döneminde kârlarının yaklaşık yüzde 70'ini yatırıma veya yeniden yatırıma dönüştürdüğünü söyledi. Dimitrova'ya göre Bulgaristan ve bankacılık sistemi Avrupa'nın en düşük ücretlerinden bazılarına sahip."
+    ],
+    "d": "BNB Başkanı Dimitar Radev, enflasyonun avro bölgesi ortalamasının belirgin biçimde üzerinde olduğunu söyledi. Kamu maliyesi ve kurallardaki belirsizliğin güveni zedeleyebileceğini belirtti.",
+    "t": "Merkez Bankası Başkanı Radev: Avro, Bulgaristan'ın iç risklerini ortadan kaldırmıyor"
+   },
+   "at": "2026-11-04T06:10Z",
+   "h": "2828706eeee5",
+   "rev": [
+    "Headline 'Euro' vs 'avro' inconsistency: the Turkish spelling 'avro' is used in the body, so the headline was aligned to it",
+    "The sentence about 'Kamu maliyesine ilişkin belirsizlik veya ... değişikliklerin' is ungrammatical (subject and verb agreement) and needs a clean structure"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Bulgaristan Merkez Bankası'nın Sofya'daki binası"
+   }
+  },
   "bulgarien-container-sinemorez-wasserproben-2026-11-04": {
    "L": {
     "body": [
@@ -20,6 +101,30 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Karadeniz'de Sinemorets yakınlarındaki kıyı"
+   }
+  },
+  "bulgarien-gallup-gesellschaft-gespalten-2026-11-04": {
+   "L": {
+    "body": [
+     "Cumhurbaşkanlığı seçiminin ikinci turunun ardından Bulgarların yüzde 57'si toplumun bölünmüş kalacağına inanıyor. Bu, Gallup International Balkan'ın BNT'nin “Referendum” programı için yaptığı anketten anlaşılıyor. Yüzde 43 daha iyimser ve ülkenin 1 Kasım'daki oylamanın ardından kenetleneceğini bekliyor. BNT, örneklem ve hata payı hakkında bilgi vermedi.",
+     "Katılımcıların yüzde 71'i için seçim sonucu sürpriz olmadı, yüzde 25'i şaşırdı, yüzde 6'sı bir değerlendirme yapamadı. Merkez Seçim Komisyonu, tüm tutanakların sayılmasının ardından Iliana Yotova'yı yüzde 57,57 ile kazanan ilan etti; rakibi Andrey Gyurov yüzde 39,48 oy aldı. Yotova, başkan yardımcısı olarak Kiril Valchev ile birlikte seçildi."
+    ],
+    "d": "Gallup International Balkan'a göre çoğunluk, Iliana Yotova'nın seçim zaferinin ardından uzlaşma beklemiyor. Yüzde 71 için sonuç sürpriz olmadı.",
+    "t": "Seçim sonrası anket: Yüzde 57 Bulgaristan'ın bölünmüş kalacağını düşünüyor"
+   },
+   "at": "2026-11-04T06:10Z",
+   "h": "a439f1a0d75f",
+   "rev": [
+    "Headline exceeds 90 characters (about 92)",
+    "Percentages in the headline and body: the German 'ihr Herausforderer' is rendered correctly; no meaning error found"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı (2016): Iliana Yotova, Euranet Plus'ın radyo tartışmasında"
    }
   },
   "bulgarien-ime-alternativhaushalt-2027-2026-11-04": {
@@ -119,6 +224,105 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Karadeniz kıyısındaki Şabla Burnu'nda deniz feneri"
+   }
+  },
+  "bulgarien-sewliewo-hund-ueberfahren-ermittlungen-2026-11-04": {
+   "L": {
+    "body": [
+     "Sevlievo'da bir sokak köpeğinin ölümünün ardından Gabrovo ilindeki polis, olaydan sorumlu olduğu iddia edilen sürücüyü belirledi. BTA'nın aktardığına göre polis açıklamasında, 42 yaşındaki bir erkeğin 31 Ekim'de saat 15:25 sıralarında Stara Planina Caddesi'nde BMW marka araçla sahipsiz bir köpeğe çarptığı, köpeğin yaralanmaların etkisiyle öldüğü belirtildi. İnceleme, görüntülerin sosyal medyada ve bölgedeki medya kuruluşlarında yayılmasının ardından başladı. Polis memurları güvenlik kameralarının kayıtlarını inceledi ve ifadeler aldı.",
+     "Bu sırada aracın teknik donanımında bir değişiklik tespit ettiler ve aracı trafikten men ettiler. Sürücü hakkında idari yaptırım işlemi başlatıldı; dosyanın yetkili bölge savcılığına gönderilmesi öngörülüyor. Gabrovo'daki gıda güvenliği kurumuna vatandaşlardan ve kuruluşlardan sekiz ihbar ulaştı; kurum, omurgalı hayvanlara yönelik ölümle sonuçlanan hayvan eziyetinin Ceza Kanunu uyarınca suç olduğunu hatırlattı. Sürücü için masumiyet karinesi geçerlidir."
+    ],
+    "d": "Olayı sosyal medyada paylaşılan bir video gündeme getirdi. Dosya savcılığa gönderilecek, gıda güvenliği kurumuna halktan sekiz ihbar ulaştı.",
+    "t": "Sevlievo'da sokak köpeği ezildi: Polis sürücüyü belirledi, araç trafikten men edildi"
+   },
+   "at": "2026-11-04T06:10Z",
+   "h": "59b450ab87ea",
+   "rev_dbg": [
+    4,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Sevlievo şehir merkezi ve Özgürlük Anıtı"
+   }
+  },
+  "bulgarien-widin-51-schlangen-schmuggel-2026-11-04": {
+   "L": {
+    "body": [
+     "Vidin'deki gümrük memurları bir kamyonu kontrol ederken gerekli belgeleri olmayan 51 yılan buldu. BNT'nin verdiği bilgiye göre kontrol 2 Kasım'da Tuna kentindeki gümrük idaresinin önündeki bir otoparkta yapıldı. Tır, Batı Avrupa'dan Orta Doğu'ya doğru gidiyordu. Hayvanlar arasında, CITES nesli tehlike altındaki türlerin korunması sözleşmesi kapsamında korunan, farklı renk varyasyonlarına sahip 36 kraliyet pitonu ile 12'si yavru olmak üzere 15 Honduras süt yılanı vardı.",
+     "Pitonlar pamuklu çoraplardan yapılmış demetlerin içine, süt yılanları ise plastik kutulara gizlenmişti; hem sürücü kabininde hem de yük bölmesinde bulunuyorlardı. Gıda güvenliği kurumu BABH ile bölgesel çevre müfettişliği devreye alındı, Vidin'deki gıda müfettişleri idari para cezası kesti. Soruşturma sürüyor. Yılanların Sofya Hayvanat Bahçesi'ne götürülerek orada barındırılması planlanıyor."
+    ],
+    "d": "Tır, Batı Avrupa'dan Orta Doğu'ya gidiyordu. Sürüngenlerin hiçbiri için belge yoktu; hayvanlar şimdi Sofya Hayvanat Bahçesi'ne götürülecek.",
+    "t": "Pamuklu çoraplarda kraliyet pitonları: Vidin gümrüğü kaçak 51 yılan ele geçirdi"
+   },
+   "at": "2026-11-04T06:10Z",
+   "h": "2043f4a1caf2",
+   "rev": [
+    "Honduras left as is: it is a proper name in 'Honduras süt yılanı', which is the correct Turkish form, so no change is needed",
+    "Headline: 'Vidin gümrüğü kaçırılan 51 yılan buldu' is ungrammatical, 'kaçırılan' needs 'kaçakçılığı yapılan' / 'kaçak' wording, and the case after Vidin is awkward",
+    "'Tuna kentindeki' is a vague rendering of 'Donaustadt' (the Danube city, i.e. Vidin); 'Tuna kenti' is acceptable, no change"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Bir kraliyet pitonunun başı"
+   }
+  },
+  "demokraten-senat-mehrheit-2026-11-04-b08": {
+   "L": {
+    "body": [
+     "AP haber ajansı, gece saatlerinde ABD Senatosu'ndaki çoğunluğu Demokratlara verdi. Belirleyici olan, Demokrat Josh Turek'in Iowa'da Cumhuriyetçi Ashley Hinson'a karşı kazandığı zafer oldu; Iowa'da görevinden ayrılan Senatör Joni Ernst'in koltuğu boşalmıştı. Kansas'ta ise Adam Hamilton, Senatör Roger Marshall'ı geride bıraktı. Cumhuriyetçiler seçimden önce 100 sandalyenin 53'üne sahipti; Demokratların net olarak dört ek sandalyeye ihtiyacı vardı.",
+     "Texas, Ohio, Güney Karolina ve Kuzey Karolina'daki daha önce açıklanan zaferlerle birlikte Senato'daki Cumhuriyetçi kontrol sona eriyor. TIME'ın bildirdiğine göre Maine ve Michigan'daki yarışlar henüz sonuçlanmamıştı. AP, Temsilciler Meclisi'nin çoğunluğunu henüz resmen bir tarafa vermedi; ancak diğer ABD medya kuruluşları Demokratların orada şimdiden önde olduğunu görüyor.",
+     "NPR'ın haberine göre, büyük olasılıkla çoğunluk lideri olacak Demokrat grup başkanı Chuck Schumer, Ekim ayında Senato'da, maliyetleri düşürmek, kaosu dizginlemek ve yolsuzluğu durdurmak için hemen çalışmak istediklerini açıklamıştı. Başkan Donald Trump ise Demokrat bir Kongre olması durumunda “Mr. Veto” olacağını açıklamıştı; ancak bir noktada “muhtemelen anlaşmalar yapılacağını” söylemişti."
+    ],
+    "d": "AP'ye göre Demokratlar ABD Senatosu'nun kontrolünü geri aldı. Belirleyici olan Iowa'daki Josh Turek oldu. Trump'ın görevdeki son iki yılı için bölünmüş yönetim ihtimali doğuyor.",
+    "t": "Senato'da sonuç belli oldu: Demokratlar çoğunluğu aldı – belirleyici olan Iowa"
+   },
+   "at": "2026-11-04T06:11Z",
+   "h": "f7cc5f718500",
+   "rev": [
+    "Headline: 'Senato kararlaştı' is unnatural for 'Senat entschieden'; reworded",
+    "'Temsilciler Meclisi'ni henüz resmen belirtmedi' is wrong; the original says AP has not yet officially called/awarded the House",
+    "Teaser: 'görev süresinin son iki yılında' is stiff; 'bölünmüş yönetim ihtimali doğuyor' is fine but 'Trump'ın son iki görev yılı için' is more natural"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Washington'daki ABD Kongre Binası'nın Senato kanadı (Arşiv fotoğrafı)",
+    "kl": "ABD"
+   }
+  },
+  "deutschland-berlin-gruene-spd-lehnen-cdu-sondierung-ab-2026-11-04": {
+   "L": {
+    "body": [
+     "Berlin'de Yeşiller ve SPD, CDU ile ön görüşme yapmayı kabul etmiyor. CDU Genel Sekreteri Lukas Krieger, Salı akşamı iki saatten uzun süren görüşmenin ardından “Tagesspiegel”e göre şöyle konuştu: “Sözlü ve yazılı olarak ön görüşmelere davet ettik.” Davetlerin reddedildiğini söyledi. Yeşiller Eyalet Başkanı Nina Stahr, Sol Parti ile koalisyon müzakerelerinin başlamasının ardından CDU ile ön görüşme yapılmayacağını belirtti. SPD Eyalet ve Meclis Grubu Başkanı Steffen Krach, partilerin aldığı kararlara işaret ederek “Ve bu elbette geçerli” dedi. CDU Meclis Grubu Başkanı Stefan Evers ise daha önce “Elimiz uzatılmış durumda, kapı açık” demişti.",
+     "Habere göre görüşmede bütçe ile CDU'nun önerdiği, meclis gruplarında aşırılıkçı çalışanlara karşı bir madde ele alındı; Yeşiller ve SPD bu konuda Sol Parti'yi de işin içine katmak istiyor. Sol Parti, Yeşiller ve SPD müzakerelere Çarşamba günü saat 11:00'de devam edecek; 14 uzman çalışma grubunun en geç gelecek haftadan itibaren toplanması planlanıyor. Haber, hedef olarak yıllık en az 400 milyon euro ek gelir öngörüldüğünü aktarıyor; Sol Parti Meclis Grubu Başkanı Elif Eralp ise “sağlam, uzun vadeli bir bütçe stratejisinden” söz etti. Tartışmalı Sol Parti milletvekili Vanessa Emde hakkında meclis grubu yönetimi henüz karar vermedi."
+    ],
+    "d": "Yeşiller ve SPD, CDU ile yaptıkları görüşmenin ardından Sol Parti ile koalisyon müzakerelerini sürdürüyor. Üst düzey görüşme turu Çarşamba günü saat 11:00'de yeniden toplanacak.",
+    "t": "Berlin: Yeşiller ve SPD'den CDU'ya ret – Kırmızı-Yeşil-Sol görüşmeler bugün sürüyor"
+   },
+   "at": "2026-11-04T06:10Z",
+   "h": "c2111aff652b",
+   "rev": [
+    "Headline: \"kırmızı-yeşil-kırmızı\" is a literal rendering of Rot-Grün-Rot and the wording is unnatural; also \"heute\" was lost from the headline",
+    "Teaser: \"Zirve turu\" for \"Spitzenrunde\" is unnatural; \"Çarşamba günü\" is fine",
+    "\"Grüne und SPD wollen die Linke dabei einbeziehen\" is rendered as a statement about the \"süreç\" (process), which is not in the German; \"Fraktionen\" was rendered as \"meclis grupları\", which is acceptab",
+    "\"Landeschefin\" rendered as \"Eyalet Başkanı\" is acceptable; the Stahr indirect speech has an attribution (\"belirtti\"), so no change",
+    "Krieger's \"Die Einladungen seien abgelehnt worden\" is attributed (\"söyledi\"), so no change"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Berlin Eyalet Meclisi"
    }
   },
   "deutschland-gdp-stellt-sich-hinter-dobrindt-2026-11-04": {
@@ -222,6 +426,36 @@
     "img.alt": "Sembolik fotoğraf: Bir Mediamarkt mağazasının satış alanı"
    }
   },
+  "deutschland-sachsen-anhalt-cdu-basis-revolte-schulze-2026-11-04": {
+   "L": {
+    "body": [
+     "Saksonya-Anhalt CDU'sunda halen görevde olan Eyalet Başbakanı Sven Schulze üzerindeki baskı artıyor. ZDFheute'nin haberine göre Bad Dürrenberg Belediye Başkanı Christoph Schulze (CDU), açık mektubunda radikal bir yeni başlangıç talep etti. Parti “genç ve yıpranmamış isimlere” ihtiyaç duyuyor, dedi. CDU milletvekillerinin eyalet başbakanının gizli oylamayla seçimi sırasında genel kurul salonunu terk etmesi önerisini ise bir kaçış olarak görüyor. Ona göre AfD'ye karşı “güvenlik duvarı” kavramı “büyük bir fiyaskoyla sonuçlandı”. Salı öğleden sonrası için Sven Schulze'nin katılımıyla eyalet meclisi grubunun bir toplantısı planlanmıştı.",
+     "Huzursuzluğun bir tetikleyicisi de milletvekili Ulrich Thomas'ın, grup üyelerinin AfD'li politikacılar Tobias Rausch veya Hans-Thomas Tillschneider'e oy vermediklerine dair yeminli beyanda bulunmaları yönündeki önerisi. Harz Landrat'ı Thomas Balcerowski (CDU), ZDFheute'ye göre bunu “artık sadece utanç verici” olarak nitelendirdi. Sven Schulze Ekim sonunda bir mektupta şunu kabul etmişti: “Ülkedeki havayı ve memnuniyetsizliğin boyutunu hafife aldık.” AfD'nin lider adayı Ulrich Siegmund eyalet başbakanlığını hedefliyor; CDU eyalet kongresi 5 Aralık için planlandı."
+    ],
+    "d": "Bir CDU'li belediye başkanı radikal bir yeni başlangıç talep ediyor ve AfD'ye karşı “güvenlik duvarı” politikasının “büyük bir fiyaskoyla sonuçlandığını” söylüyor. Bir Landrat grup yönetimine istifayı salık veriyor.",
+    "t": "Saksonya-Anhalt: CDU tabanından Eyalet Başbakanı Schulze'ye isyan"
+   },
+   "at": "2026-11-04T06:10Z",
+   "h": "f8542379e7d9",
+   "rev": [
+    "Teaser: 'krachend gescheitert' rendered as 'büyük bir fiyasko' and 'Brandmauer' as 'duvar' in quotes; should be 'Brandmauer' (güvenlik duvarı/set) and 'fiyasko ile sonuçlandı'; also the claim lacks at",
+    "Landrat translated as 'ilçe başkanı' (should be 'Landrat' = kaymakam-like; 'ilçe başkanı' is ok but 'bölge başkanı/Landrat'); Harz district: 'Harz ilçesi Landrat'ı'",
+    "Ministerpräsident translated as 'Başbakan' – should be 'Eyalet Başbakanı' for clarity",
+    "Brandmauer sentence rendered as plain fact in teaser without attribution",
+    "'Auslöser ... auch' – 'tetikleyicisi de' ok; 'Fraktionsspitze' rücktritt nahelegen: draft says 'istifasını öneriyor' ok",
+    "'Bad Dürrenberg' is a proper name, fine; 'radikal' is a Turkish word, fine",
+    "Brandmauer sentence in body: 'sei gescheitert' is indirect speech; 'ona göre' present, but 'sonuçlandı' ok; 'Eyalet kongresi' fine",
+    "Weekday 'Salı' ok; 'Saksonya-Anhalt' ok"
+   ],
+   "rev_dbg": [
+    10,
+    7,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Saksonya-Anhalt Eyalet Meclisi binası, Magdeburg"
+   }
+  },
   "deutschland-sneaker-tausch-alexanderplatz-polizeieinsatz-2026-11-04": {
    "L": {
     "body": [
@@ -249,6 +483,57 @@
    "x": {
     "img.alt": "Arşiv fotoğrafı (2024): Berlin Alexanderplatz'ta yayalar",
     "kl": "Berlin"
+   }
+  },
+  "energie-gerb-strom-kompensation-unternehmen-2026-11-04": {
+   "L": {
+    "body": [
+     "Bulgaristan'daki muhalefet partisi GERB-SDS, megavatsaat başına 92 euroyu aşan elektrik fiyatı payının tamamını her ay şirketlere iade etmek istiyor. BNT televizyonunun verdiği bilgiye göre parti, 2 Kasım'da parlamentoya bir karar tasarısı sundu. GERB'li siyasetçi Şecho Stankov, elektrik faturalarındaki artışın mal ve hizmet fiyatlarına yansımaması için odağın mikro, küçük ve orta ölçekli işletmelerde olduğunu söyledi. Şimdiye kadarki desteklerin on aylık esasa göre verildiğini ve mevcut kaynaklara bağlı olduğunu belirtti.",
+     "Milletvekili Temenujka Petkova, önlemin devlet bütçesinden değil, “Elektrik Sisteminin Güvenliği” fonundan karşılanmasını öneriyor. Petkova, fonun üretilen ve satılan elektrik üzerindeki yüzde 5'lik kesintiden planlanandan yaklaşık 400 milyon euro daha fazla gelir elde edeceğini, buna ek olarak emisyon gelirlerinden 100 milyon euronun üzerinde ek gelir sağlanacağını söyledi. Haberde, desteğin toplam maliyeti belirtilmiyor.",
+     "Stankov'a göre ticari müşteriler için elektrik fiyatı ekim ayında yaz aylarındaki borsa seviyesinin iki buçuk katıydı. Öneri hızla kabul edilmezse yüksek maliyetlerin yaklaşık iki hafta içinde market fiyatlarına yansıyacağı uyarısında bulundu. GERB-SDS, tasarıyı bu hafta içinde parlamentonun gündemine getirmek istiyor. BNT haberinde hükümetin bir tepkisine yer verilmiyor."
+    ],
+    "d": "Muhalefet, ticari elektrik kullanıcıları için aylık tazminat ödemeleri öneriyor; bunlar devlet bütçesinden değil, şebeke güvenliği fonundan karşılanacak.",
+    "t": "GERB, MWh başına 92 euroyu aşan elektrik fiyatlarında firmalara tam destek istiyor"
+   },
+   "at": "2026-11-04T06:10Z",
+   "h": "db3856c88e32",
+   "rev": [
+    "Stankow'un adı yerleşik Türkçe yazımla değil, Almanca transkripsiyonla (Shecho) yazılmış; Bulgar adı Shecho yerine Şecho olmalı",
+    "Kurum adı ve yer adları tutarlı biçimde Türkçe yazıma yakın olmalı (Temenuzhka → Temenujka)"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Skravena yakınlarında yüksek gerilim direkleri"
+   }
+  },
+  "energie-kraftstoff-graue-wirtschaft-nap-2026-11-04": {
+   "L": {
+    "body": [
+     "Bulgaristan akaryakıt pazarında kayıt dışı sektörün payının tahminlere göre yüzde 11 ile 12 arasında olduğu belirtildi. Bunu Ulusal Gelir İdaresi NAP'ın İcra Direktör Yardımcısı Hristo Markov, BNT'deki “Denyat Zapochva” programında söyledi. Markov'a göre NAP, İçişleri Bakanlığı ve gümrük idaresinin yaptığı son ortak denetimde 17 akaryakıt istasyonu kontrol edildi ve çoğunlukla daha küçük işletmecilerde olmak üzere 7 ihlal tespit edildi. Kasa fişleri, akaryakıt muhasebesi, seviye ölçüm sistemleri ile giren ve çıkan miktarlara ilişkin belgeler inceleniyor.",
+     "Markov'un verdiği bilgiye göre kurum, akaryakıt akışını gümrük depolarından kendi bilgi merkezi aracılığıyla izliyor ve akaryakıtın başka yöne kaydırıldığından ya da kaçakçılık yapıldığından şüphelendiğinde yerinde denetim yapıyor. Vergi ve gümrük yetkililerinden oluşan bir çalışma grubunun önümüzdeki hafta atılacak yeni adımları görüşmesi bekleniyor. Gündemde, cironun esas alındığı cezalar ve İtalya örneğinde olduğu gibi kartlı ödeme terminallerinin yazar kasalara bağlanması var. Markov, kayıt dışı akaryakıt ticareti nedeniyle devletin ne kadar gelir kaybettiğini rakamla belirtmedi.",
+     "NAP, 31 Ekim'e kadar ön verilere göre 21,88 milyar euro gelir elde etti; bu, bir yıl öncesine göre 880 milyon euro ya da yüzde 5 fazla ve yıllık planın yüzde 77'sine denk geliyor. Markov, kayıt dışı sektörün ortadan kalkmayacağını, ancak mümkün olduğunca küçültülmeye çalışıldığını söyledi."
+    ],
+    "d": "17 akaryakıt istasyonunda yapılan son ortak denetimde yetkililer 7 ihlal tespit etti. Vergi ve gümrük yetkililerinden oluşan bir çalışma grubu daha sert önlemleri görüşüyor.",
+    "t": "Gelir İdaresi: Bulgaristan akaryakıt pazarının %11-12'si kayıt dışı"
+   },
+   "at": "2026-11-04T06:10Z",
+   "h": "1b6f93fba609",
+   "rev": [
+    "Headline: 'Graue Wirtschaft' rendered only as 'kayıt dışı' and missing the 'nach Schätzungen' hedge is acceptable; headline kept but percent sign format fine",
+    "Name transliteration: 'Christo Markow' should be 'Hristo Markov' (fine); 'Denjat sapotschwa' rendered 'Denyat Započva' with non-Turkish characters – changed to Turkish-friendly spelling 'Denyat Zapoch",
+    "Draft 'Gümrük' capitalised as a common noun; German 'Zoll' is the customs agency, kept lowercase for consistency with 'gümrük'"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Dragoman'daki akaryakıt istasyonu"
    }
   },
   "europa-bombendrohungen-fluege-europa-dritter-tag-2026-11-04": {
@@ -405,6 +690,35 @@
     "img.alt": "Arşiv fotoğrafı: Köstence Limanı'nda yük yüklenen bir kargo gemisi"
    }
   },
+  "europa-spanien-verkehrsminister-puente-ruecktritt-2026-11-04": {
+   "L": {
+    "body": [
+     "İspanya Ulaştırma Bakanı Óscar Puente, Salı akşamı istifa ettiğini duyurdu. Puente bunu, Temsilciler Meclisi Daimi Komisyonu önündeki konuşmasının sonunda yaptı. Toledo eyaletindeki Urda yakınlarında iki trenin çarpışmasının ve 69 kişinin ölümünün üzerinden yaklaşık bir hafta geçmişti. Puente, “The Telegraph”a göre, bir yıldan kısa sürede yaşanan iki ağır kazanın ardından bir ulaştırma bakanının görevde kalamayacağını söyledi. Ocak ayında da Adamuz'da 46 kişi hayatını kaybetmişti; bu kaza da yine Madrid–Sevilla hattında yaşanmıştı.",
+     "Puente'nin anlatımına göre, ağ işletmecisi Adif'in kontrol merkezi, otomatik güvenlik sistemi LZB devre dışı kaldıktan sonra AVE trenin yoluna devam etmesine izin verdi. Puente'ye göre tren ardından yaklaşık 25 kilometre boyunca saatte 160 kilometreden fazla hızla gitti ve ardından işletmeci Iryo'ya ait duran bir trene çarptı. Puente ayrıca, 29 Kasım'daki erken genel seçim için Sosyalistlerin listesinden aday olmayacağını açıkladı. Haberlerde başlangıçta bir halef adı verilmedi.",
+     "PP ve Vox'un yanı sıra, Pedro Sánchez hükümetinin oylarına muhtaç olduğu Bask PNV ve Katalan Junts da Puente'nin istifasını talep etmişti. PP sözcüsü Ester Muñoz, bir bakanın görevinin ölümcül kazaları açıklamak değil, onları önlemek olduğunu söyledi. Adif işyeri temsilciler kurulu, 17 Kasım için demiryolunda daha fazla güvenlik talebiyle bir grev yapmak istiyor; grev henüz resmen ilan edilmedi."
+    ],
+    "d": "Urda'daki kazadan yaklaşık bir hafta sonra Óscar Puente istifa kararı aldı. 29 Kasım'daki erken genel seçimde aday olmayacak.",
+    "t": "İspanya: Ulaştırma Bakanı Puente, 69 kişinin öldüğü tren kazasının ardından istifa etti"
+   },
+   "at": "2026-11-04T06:10Z",
+   "h": "daad39916451",
+   "rev": [
+    "\"Madrid–Sevilla\" is a place name: Turkish spelling is \"Sevilla\" (acceptable); no change",
+    "\"Temsilciler Meclisi\" for Abgeordnetenhaus is acceptable; no change",
+    "Headline \"istifa etti\" vs German \"tritt zurück\" fine",
+    "\"sonucu üstleniyor\" is a literal rendering of \"zieht die Konsequenz\"; unnatural",
+    "\"Haberlerde başlangıçta\": German says the reports did not name a successor at first; fine",
+    "\"PP Sözcüsü\" capitalisation: should be lowercase \"sözcüsü\" after the party name"
+   ],
+   "rev_dbg": [
+    6,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Ulaştırma Bakanı Óscar Puente (sağda) ve La Rioja Başkanı Gonzalo Capellán"
+   }
+  },
   "europa-ungarn-generalstaatsanwalt-fejes-gewaehlt-2026-11-04": {
    "L": {
     "body": [
@@ -426,6 +740,54 @@
     "img.alt": "Arşiv fotoğrafı: Tuna kıyısındaki Budapeşte Parlamento binası"
    }
   },
+  "handy-blitzer-dvr-500-euro-bussgeld-2026-11-04-b08": {
+   "L": {
+    "body": [
+     "Alman Trafik Güvenliği Konseyi (DVR), direksiyonda cep telefonu kullanımına verilen para cezasının en az 500 euroya, yani 0,5 promil sınırının aşılması halinde verilen cezayla aynı seviyeye çıkarılmasını talep ediyor. DVR Başkanı Manfred Wirsch bunu, dijital dikkat dağınıklığının simüle edilen 0,8 promilden daha yüksek bir kaza riski taşıdığını ortaya koyan bir araştırmayla gerekçelendirdi. Şu anda genellikle 100 euro ve Flensburg'daki sicile bir puan işleniyor.",
+     "DVR aynı zamanda Federal Ulaştırma Bakanı Steffen Bilger'in (CDU) “Monocam” olarak adlandırılan kameraların ülke çapında kullanıma sokulmasına yönelik girişimini de destekliyor. Wirsch bu kameraları “trafik güvenliği için son derece anlamlı bir yatırım” olarak niteledi. Kameralar ön camdan fotoğraf çekiyor; yazılım bir cep telefonu ile tipik bir tutuş biçimi algılarsa polisler görüntüleri inceliyor. Tek tip bir düzenleme için Karayolları Trafik Kanunu'nun değiştirilmesi gerekiyor.",
+     "Federal İstatistik Dairesi'ne göre 2025'te elektronik cihazların neden olarak kaydedildiği, yaralanmalı 1.100'den fazla kaza yaşandı; 15 kişi hayatını kaybetti. Trier'deki bir testte direksiyonda gözlemlenen cep telefonu kullanımı yaklaşık yüzde 70 azaldı."
+    ],
+    "d": "DVR, Ulaştırma Bakanı Bilger'in ülke çapında cep telefonu radarı planını destekliyor ve çok daha yüksek cezalar talep ediyor. Şimdiye kadar direksiyonda telefon kullanımı genellikle 100 euro tutuyor.",
+    "t": "Direksiyonda cep telefonu: Trafik Güvenliği Konseyi 500 euro para cezası istiyor"
+   },
+   "at": "2026-11-04T06:11Z",
+   "h": "bd9e9f5c870a",
+   "rev_dbg": [
+    6,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Federal Ulaştırma Bakanı Steffen Bilger (Arşiv fotoğrafı)"
+   }
+  },
+  "karlsruhe-afd-fraktionsausschluss-schmidt-2026-11-04-b08": {
+   "L": {
+    "body": [
+     "Karlsruhe'deki Federal Anayasa Mahkemesi, çarşamba günü saat 10:00'dan itibaren Saksonya-Anhalt eyaletinden Federal Meclis (Bundestag) milletvekili Jan Wenzel Schmidt'in açtığı davayı görüşüyor. Schmidt, AfD grubundan ihracına karşı çıkıyor ve milletvekili olarak haklarının ihlal edildiğini düşünüyor.",
+     "Schmidt, AfD içindeki kayırmacılık üzerine bir tartışma başlatmıştı ve kısa süre sonra gruptan çıkarıldı. Kendisine ise milletvekilliğini, aralarında Çin'in de bulunduğu özel iş bağlantıları için kullandığı suçlaması yöneltildi. Şubat 2025'e kadar genel sekreter olarak birlikte yönettiği Saksonya-Anhalt eyalet teşkilatı bir parti ihraç süreci başlattı; federal yönetim kurulu da bu sürece katıldı.",
+     "“Bir milletvekilinin gruptan çıkarılması, parlamenter katılım olanakları üzerinde önemli etkiler yaratır” diyen Schmidt, dpa'ya göre bunu açıkladı. Schmidt, partisinin ve grubunun siyasi görüşlerini paylaşmayı sürdürebileceğini söyledi. Mahkemenin kararının birkaç ay sonra çıkması bekleniyor."
+    ],
+    "d": "Federal Anayasa Mahkemesi, milletvekili Jan Wenzel Schmidt'in AfD grubundan çıkarılmasının haklarını ihlal edip etmediğini saat 10:00'dan itibaren inceliyor. Kararın birkaç ay sonra çıkması bekleniyor.",
+    "t": "Karlsruhe, AfD Bundestag grubundan ihraca karşı açılan davayı görüşüyor"
+   },
+   "at": "2026-11-04T06:11Z",
+   "h": "619981a09b00",
+   "rev": [
+    "Headline: 'AfD Federal Meclis grubundan ihraca karşı açılan dava' is awkward; 'Bundestag' is rendered as 'Federal Meclis'; changed to the established 'AfD Bundestag grubu'.",
+    "Quote sentence is broken ('diyen Schmidt, dpa'ya göre şunları söyledi: ...'); restructured with correct attribution, keeping indirect speech marked.",
+    "Weekday 'Çarşamba' is capitalised mid-sentence; TDK requires lowercase 'çarşamba'.",
+    "Time 'Mittwoch ab 10 Uhr' fine; 'Der Landesverband ... mitführte' kept as is."
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Karlsruhe'deki Federal Anayasa Mahkemesi (Arşiv fotoğrafı)"
+   }
+  },
   "ki-amdocs-adtran-telekom-zulieferer-2026-11-04": {
    "L": {
     "body": [
@@ -444,6 +806,81 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Bir telekomünikasyon direğinde radyolink antenleri"
+   }
+  },
+  "ki-arista-fabrinet-skyworks-zulieferer-2026-11-04": {
+   "L": {
+    "body": [
+     "Büyük veri merkezlerinin tedarikçileri altyapı yatırımlarından yararlanmayı sürdürüyor. Veri merkezleri için switch de üreten ağ ekipmanı şirketi Arista Networks, Stock Titan'ın verdiği bilgiye göre gelirini yüzde 58,5 artırarak yaklaşık 3,66 milyar dolara çıkardı ve kendi tahminini aştı. Hisse, piyasa kapanışından sonraki işlemlerde yüzde 10,94 yükseldi. Optik bileşen üreticisi Fabrinet, ilk mali çeyreği için 1,47 milyar dolarlık rekor gelir açıkladı; bu, yüzde 51'lik bir artış anlamına geliyor. Şirketin hissesi yüzde 15,5 yükselişle kapandı.",
+     "Çip geliştiricisi Lattice Semiconductor yüzde 118'lik artışla rekor gelir kaydetti, hisse yüzde 11'e yakın yükseldi. Çip test sistemleri üreticisi Aehr Test Systems'in geliri üç katına çıkarak 33,0 milyon dolara ulaştı; şirket tüm yıl için tahminini 150 milyon dolara yükseltti.",
+     "Akıllı telefonlar için radyo çipi üreten Skyworks Solutions'ın durumu ise farklı oldu: Hissesi piyasa kapanışından sonraki işlemlerde yüzde 17,15 değer kaybetti. Şirket, Qorvo ile birleşmenin ardından aralık çeyreği için 1,80 ile 1,90 milyar dolar arasında gelir bekliyor. Stock Titan'a göre Apple de aynı gün bellek çiplerinin artan maliyetleri konusunda uyarıda bulundu."
+    ],
+    "d": "Fabrinet ve Lattice de rekor gelir açıkladı. Mobil iletişim çipi üreticisi Skyworks ise Qorvo ile birleşmenin ardından açıkladığı tahminle hayal kırıklığı yarattı.",
+    "t": "Veri merkezi ağ teknolojisi patlama yaşıyor: Arista %58,5 büyüdü, Skyworks geriledi"
+   },
+   "at": "2026-11-04T06:10Z",
+   "h": "ae05cb60c2d7",
+   "rev": [
+    "Teaser: 'Prognose' (tahmin/gelir tahmini) was rendered as 'beklentileriyle' (with its expectations), which is imprecise; changed to 'tahminiyle'",
+    "Teaser: 'Mobilfunkchip-Hersteller' was rendered as 'Akıllı telefon radyo çipi üreticisi'; changed to a more accurate wording"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Bir sunucu dolabında Arista ağ switch'i"
+   }
+  },
+  "ki-linda-nazar-herzberg-medaille-batterien-2026-11-04": {
+   "L": {
+    "body": [
+     "University of Waterloo'dan pil araştırmacısı Linda Nazar, Gerhard Herzberg Bilim ve Mühendislik Altın Madalyası'nı alıyor. Kanada Araştırma Konseyi NSERC'in verdiği ödül, ülkenin en yüksek bilimsel onuru olarak kabul ediliyor. Mining.com.au'nun aktardığına göre NSERC'e göre Nazar'ın keşifleri “elektrokimyasal enerji depolama bilimini yeniden şekillendirdi” ve daha güvenli, daha verimli pillerin ortaya çıkmasını sağladı.",
+     "Nazar, 2000'li yılların başında bugün diğer alanların yanı sıra şebeke depolama sistemlerinde kullanılan lityum demir fosfat pilleri üzerinde çalıştı. Daha sonra lityum-kükürt pillere yöneldi: Bu piller pozitif kutupta kobalt ve nikel yerine kükürt kullanıyor ve kilogram başına potansiyel olarak daha fazla enerji depolayabiliyor. Mining.com.au'nun verdiği bilgilere göre Nazar'ın çalışması bu kimyanın bilimsel temelini oluşturdu ve onu piyasaya hazır hale getirmeye yönelik sonraki girişimleri destekledi.",
+     "Nazar şu anda, daha yüksek enerji yoğunluğuna sahip daha güvenli katı hal pillerini mümkün kılması beklenen, süperiyonik iletkenler olarak adlandırılan yeni malzemeler üzerinde çalışıyor; habere göre bu tür konseptler ticarileşmenin eşiğinde. Bu kapsamda Toyota, General Motors, BASF, Nissan ve Solid Power gibi üreticiler ve tedarikçilerle birlikte çalışıyor."
+    ],
+    "d": "Waterloo'lu kimyager, lityum-kükürt pillerin temellerini attı ve katı hal pilleri üzerinde çalışıyor. Toyota, GM, BASF ve Nissan ile iş birliği yapıyor.",
+    "t": "Kanada'nın en büyük bilim onuru: Pil araştırmacısı Linda Nazar Herzberg Madalyası'nı aldı"
+   },
+   "at": "2026-11-04T06:10Z",
+   "h": "b060119a7fc5",
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Kanada'daki University of Waterloo kampüsü"
+   }
+  },
+  "ki-mikroplastik-sensor-fluoreszenz-rom-2026-11-04": {
+   "L": {
+    "body": [
+     "Roma Tor Vergata Üniversitesi ve UniCamillus Üniversitesi'nden araştırmacılar, akan sudaki mikroplastiği tespit edip plastik türüne göre ayırması amaçlanan küçük ve düşük maliyetli bir ölçüm sistemi tanıttı. “Scientific Reports” dergisinde anlatılan ve SMILE adı verilen sistem, açıkça bir fizibilite kanıtı niteliğinde. Parçacıklar, parlaklığı çevresindeki plastiğe göre değişen bir boyayla boyanıyor. İki ölçüm kanalı ışığın farklı renk bileşenlerini kaydediyor; sistem plastik türünü bunların oranından çıkarıyor.",
+     "Polipropilen, polietilen, polistiren, PVC ve PET'in de aralarında bulunduğu yaygın altı plastik, laboratuvarda saf suda tek tek test edildi. Sistem parçacıkların toplamda yüzde 77,8'ini doğru sınıflandırdı. Polipropilen, polietilen ve polistirende isabet oranı yüzde 93 ile 99 arasındayken, PMMA, PVC ve PET'te yalnızca yaklaşık yüzde 25 ile 60 arasında kaldı. Ayrıca parçacıkların yalnızca yüzde 40 ile 65'i arasında bir kısmı sayılabildi.",
+     "Yazarlar yöntemi, şimdiye kadar çoğunlukla zahmetli laboratuvar analizleri gerektiren su kaynaklarının sürekli ve otomatik izlenmesi için bir temel olarak görüyor. Ancak karışık plastiklerle ve kirli suyla gerçek koşullarda kullanılabilmesi için başka adımlar gerekiyor. Çalışma, ölçüm hızı veya işletme maliyetleri hakkında somut bilgi vermiyor."
+    ],
+    "d": "Küçük ve ucuz bir ölçüm sistemi parçacıkları boyayıp iki ışık kanalıyla plastik türlerine ayırıyor. Üç türde çok iyi sonuç veriyor, diğerlerinde henüz iyi sonuç vermiyor.",
+    "t": "Sudaki mikroplastiği tanımak: Romalı sensör plastikleri ışımalarına göre ayırt ediyor"
+   },
+   "at": "2026-11-04T06:10Z",
+   "h": "0c1c79df4181",
+   "rev": [
+    "Headline: \"am Leuchten\" rendered ambiguously/incorrectly (\"parlamasından\" without clear sense) and \"Roma'daki sensör\" awkward; fixed",
+    "Teaser: German word \"Kompakt\" left in the draft; \"diğerlerinde henüz vermiyor\" is unclear",
+    "Body: \"kompakt\" left in the draft",
+    "\"yüzde 40 ile 65'i\" grammatically wrong",
+    "\"eleklar\" wrong plural (Turkish vowel harmony: \"elekler\")",
+    "\"Üniversitesi'nden\" apostrophe: fine; \"akan sudaki\" fine"
+   ],
+   "rev_dbg": [
+    6,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Su örneklerindeki mikroplastiği saymak için mikroskop ve elekler"
    }
   },
   "ki-nasa-swift-wiedereintritt-2026-11-04": {
@@ -475,6 +912,32 @@
    "x": {
     "img.alt": "NASA'nın Swift uzay gözlemevinin yörüngedeki bilgisayar grafiği",
     "kl": "Uzay"
+   }
+  },
+  "ki-rigetti-quanten-reservoir-finanzprognose-2026-11-04": {
+   "L": {
+    "body": [
+     "Stockholm merkezli FirstQFM şirketi, Londra'daki SW7 Group ve kuantum bilgisayar üreticisi Rigetti ile birlikte gerçek kuantum donanımı üzerinde finansal tahmine yönelik bir pilot deneme sundu. Rigetti'nin 108 kubitlik işlemcisi Cepheus-1-108Q üzerinde, kuantum rezervuar hesaplama olarak adlandırılan yöntem kullanıldı; çalıştırmaya bağlı olarak 61 ile 84 arasında fiziksel kubit kullanıldı. Yöntemde kuantum sistemi, girdi verilerini çok sayıda duruma çeviren karmaşık bir “bellek” işlevi görüyor; basit bir model de bu durumlardan sonradan tahminler türetiyor.",
+     "Quantum Computing Report'un verdiği bilgiye göre, kimlikleri gizlenmiş 43 menkul kıymet ve 600 işlem gününü kapsayan kör bir testte kuantum modeli, vakaların %52,02'sinde fiyat yönünü doğru tahmin etti. En iyi klasik karşılaştırma modeli olan bir sinir ağı ise %51,25'e ulaştı. Hesaplanan brüt kazanç, klasik modele kıyasla yaklaşık 2,1 kat daha yüksekti ve 43 değerin 41'inde pozitifti.",
+     "Katılımcılar sonucu kendileri de belirgin biçimde sınırlıyor: İşlem maliyetleri hesaba katılmadı ve daha yüksek getiri, ara dönemlerde daha büyük kayıplarla birlikte geldi. Yazarlar, genel bir kuantum avantajı iddiasında bulunmadıklarını açıkça belirtiyor. Buna rağmen deneme, günümüzün henüz hataya açık kuantum işlemcilerinin belirli örüntü tanıma görevleri için test edildiğini gösteriyor; bankalar ve fonlar da bu alanda ilk uygulamaları arıyor."
+    ],
+    "d": "108 kubitlik çipte yöntem vakaların %52,02'sinde yönü doğru bildi, klasik ağ ise %51,25'inde. Yazarlar vurguluyor: Genel bir kuantum avantajı iddiasında bulunmuyorlar.",
+    "t": "Kuantum çipi fiyat yönünü tahmin etti: Rigetti işlemcisindeki test modeli az farkla geçti"
+   },
+   "at": "2026-11-04T06:10Z",
+   "h": "435e9c76f253",
+   "rev": [
+    "Teaser: 'Genel bir kuantum üstünlüğü yok' presents the authors' caveat as a plain fact; the German says they stress they do not claim a general quantum advantage.",
+    "'kuantum üstünlüğü' (quantum supremacy) is a different term from 'Quantenvorteil' (quantum advantage); changed to 'kuantum avantajı'.",
+    "Body paragraph 3: same term fix."
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Tutucusunda süper iletken kuantum işlemci çipi"
    }
   },
   "kultur-meshuggah-forty-year-anomaly-europa-tour-2026-11-04": {
@@ -513,6 +976,40 @@
      "Açılış grupları: Periphery, Vildhjarta"
     ],
     "img.alt": "Arşiv fotoğrafı (2017): Meshuggah Dublin'de sahnede"
+   }
+  },
+  "kultur-tiavo-late-check-out-clubtour-2027-2026-11-04": {
+   "L": {
+    "body": [
+     "Alman indie ikilisi TIAVO, “Hotel Tiavo” albümüne yönelik turneyi uzatıyor. Eventim dergisinin salı günü bildirdiğine göre, Leandros Miltiadis Nassioudis ve Xaver Johannes Held, “Late Check-out” başlığıyla nisan ve mayıs 2027'de sekiz kulüp konseri daha verecek. Turne 22 Nisan'da Freiburg'daki Jazzhaus'ta başlıyor, son konser 14 Mayıs'ta Heidelberg'de yapılacak. Bu iki tarih arasında Augsburg, Essen, Wiesbaden, Dresden, Bremen ve Münster programda yer alıyor. Derginin verdiği bilgiye göre biletler şimdiden Eventim üzerinden satışta.",
+     "“Hotel Tiavo”, ağustos 2026'da Almanya albüm listelerinde dördüncü sıraya yükseldi. İkili, 2027 yazı için daha büyük festival sahnelerinde performans planlıyor; yeniden ne zaman kulüplerde sahne alacağı ise belli değil. İkilinin müziği, indie gitarlarını ve tempolu synthesizer'ları Neue Deutsche Welle ve synthwave etkileriyle birleştiriyor; buna tuhaf bir mizah anlayışı da ekleniyor."
+    ],
+    "d": "İkili, “Late Check-out” turnesiyle listelere giren albümünü Freiburg'dan Bremen'e küçük kulüplere bir kez daha taşıyor. Ardından daha büyük festival sahneleri gelecek.",
+    "t": "“Hotel Tiavo” uzatıldı: Indie ikilisi TIAVO 2027 baharında sekiz son kulüp konseri verecek"
+   },
+   "at": "2026-11-04T06:10Z",
+   "h": "29703f6e2ab3",
+   "rev": [
+    "Weekday and month names must be lowercase in Turkish per TDK (\"Salı günü\", \"Nisan\", \"Mayıs\", \"Ağustos\" capitalised mid-sentence)"
+   ],
+   "rev_dbg": [
+    1,
+    3,
+    0
+   ],
+   "x": {
+    "facts": [
+     "22.04.2027 – Freiburg, Jazzhaus",
+     "23.04.2027 – Augsburg, Kantine",
+     "28.04.2027 – Essen, Zeche Carl",
+     "29.04.2027 – Wiesbaden, Kulturzentrum Schlachthof",
+     "30.04.2027 – Dresden, Scheune",
+     "01.05.2027 – Bremen, Lagerhaus",
+     "13.05.2027 – Münster, Sputnikhalle",
+     "14.05.2027 – Heidelberg, Commissary",
+     "Biletler şimdiden satışta (Eventim)"
+    ],
+    "img.alt": "Arşiv fotoğrafı (2025): TIAVO, Frankfurt am Main'daki bir konserde"
    }
   },
   "kultur-tove-lo-estrus-tour-usa-berlin-2026-11-04": {
@@ -576,6 +1073,34 @@
     "img.alt": "Arşiv fotoğrafı (2005): Xavier Naidoo Weilburg'da bir konserde"
    }
   },
+  "leben-blutdruck-kalium-natrium-2026-11-04": {
+   "L": {
+    "body": [
+     "Yüksek tansiyona karşı beslenme önerileri, ağırlıklı olarak tuz tüketimini azaltmaya odaklanmak yerine sodyum ve potasyumu birlikte ele almalı. Bunu, University of Vermont'ta emekli tıp profesörü Naomi K. Fukagawa liderliğindeki bir yazar ekibi American Journal of Clinical Nutrition'da (cilt 124, sayı 2) yazdı. ScienceDaily konuyu 2 Kasım 2026'da haberleştirdi. Habere göre yüksek tansiyon dünya genelinde 1,28 milyardan fazla yetişkini etkiliyor. Yazarların değerlendirmesine göre daha az sodyum tüketmek, önlemede ve tedavide temel bir strateji olmaya devam ediyor.",
+     "Araştırmacıların aktardığına göre ortalama sodyum alımı hâlâ önerilen değerlerin üzerinde, potasyum alımı ise hem sanayileşmiş hem de gelişmekte olan ülkelerde optimal düzeyin çok altında kalıyor. Araştırmacılara göre daha az sodyumun daha fazla potasyumla birleştirilmesi, tansiyonu yalnızca tuzu azaltmaktan daha iyi kontrol edebilir. Habere göre muz, patates, fasulye, yapraklı sebzeler, yoğurt, baklagiller ile meyve, sebze ve süt ürünleri potasyum açısından zengin. Fukagawa'nın, beslenme önlemlerini bütüncül biçimde ele almanın zamanının geldiğini söylediği aktarılıyor.",
+     "Çalışma, önerilerin yer aldığı bir derleme; kendi ölçüm verilerine dayanan yeni bir araştırma değil. Haber etki büyüklüklerini belirtmiyor. Çalışma, Institute for the Advancement of Food and Nutrition Sciences (IAFNS) bünyesindeki bir komitenin desteğini aldı. Yazarlara göre potasyum içeren tuz ikameleri sodyumu azaltıp potasyumu artırabilir; ancak yazarlara göre bunlardan fazlası metalik bir tat veriyor. Böbrek hastalığı olanlar veya belirli ilaçlar kullananlar potasyum takviyelerini ve tuz ikamelerini yalnızca doktora danıştıktan sonra kullanmalı. Bu yazı genel bilgilendirme niteliğindedir ve kişisel danışmanlığın yerini tutmaz."
+    ],
+    "d": "Naomi Fukagawa liderliğindeki ekip American Journal of Clinical Nutrition'da, yalnızca sodyumu azaltmanın yetmediğini, beslenme önerilerinde daha fazla potasyuma yer verilmesi gerektiğini yazdı.",
+    "t": "Yüksek tansiyon: Araştırmacılar potasyumun tuzu azaltmak kadar ciddiye alınmasını istiyor"
+   },
+   "at": "2026-11-04T06:10Z",
+   "h": "1b282c2f3330",
+   "rev": [
+    "Headline: 'tuzu azaltmak' – 'Salzsparen' means saving/cutting back on salt; the original structure is unclear but acceptable; no change needed",
+    "'kontrol edebilirmiş' used a hearsay evidential suffix, which does not match the German Konjunktiv (könne) and sounds like rumor; replaced with a conditional-possibility form",
+    "'Yazarlara göre ... fazlası metalik bir tat veriyor' – the German is indirect speech ('schmecke'), so it needs attribution; the sentence's attribution is placed before the semicolon, so it is made exp",
+    "'Çalışma ... desteğini aldı' is fine",
+    "Teaser is 190 characters, within limit"
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Tuzluk ve bir tutam sofra tuzu"
+   }
+  },
   "leben-bulgarien-baugenehmigungen-wohnungen-q3-2026-11-04": {
    "L": {
     "body": [
@@ -622,6 +1147,125 @@
     "img.alt": "Grafik: TERRA WORLD NEWS"
    }
   },
+  "leben-eurostat-wohnkosten-ueberlastung-europa-2026-11-04": {
+   "L": {
+    "body": [
+     "AB'de 34 milyondan fazla kişi harcanabilir gelirinin yüzde 40'ından fazlasını barınmaya harcıyor ve bu nedenle konut giderleri açısından yük altında sayılıyor. Bu, pazar analiz hizmeti IndexBox'ın 31 Ekim 2026'da özetlediği Eurostat'ın 2025 verilerinden anlaşılıyor. AB ortalamasında oran yüzde 7,7 oldu. Değerlendirmeye göre konut fiyatları 2015'ten 2026'nın ikinci çeyreğine kadar ortalama yüzde 69 arttı, bazı üye ülkelerde ise iki katından fazla yükseldi; değerlendirmeye göre kiralar ve enerji giderleri de artmaya devam etti.",
+     "En çok etkilenen ülke nüfusun yüzde 26,4'ü ile Yunanistan. Değerlendirmede onu yüzde 15,3 ile İsviçre, yüzde 14,7 ile Danimarka ve yüzde 13,5 ile Norveç izliyor. Almanya yüzde 11,2 ile AB ortalamasının üzerinde; mutlak sayılarla bu 9,4 milyon kişi demek ve bu, kapsanan diğer tüm ülkelerden fazla; 8,6 milyonla Türkiye ve 4,4 milyonla Fransa onu izliyor. Oran en düşük yüzde 2,4 ile Kıbrıs'ta, Hırvatistan'da yüzde 3,2, İtalya'da yüzde 5,0.",
+     "Yoksulluk riski altındaki insanlar özellikle ağır etkileniyor: Bu grupta AB genelinde neredeyse her üç kişiden biri (yüzde 29,1) yük altında. Yunanistan'da bu oran yüzde 82,6, Danimarka'da yüzde 59,8, Almanya'da yüzde 35,0. Medyan gelirin yüzde 60'ından azına sahip olan kişi yoksulluk riski altında sayılıyor; değerlendirmeye göre bu, AB medyan geliri 1.912 avro olduğunda ayda 1.147 avro anlamına geliyor. Değerlendirme Bulgaristan için rakam vermiyor."
+    ],
+    "d": "Eurostat'ın 2025 verilerine göre Yunanistan'da her dört kişiden biri konut giderleri nedeniyle yük altında, Almanya'da bu kişi sayısı 9,4 milyon. AB'de konut fiyatları 2015'ten bu yana yüzde 69 arttı.",
+    "t": "Avrupa'da konut: 34 milyondan fazla kişi geliriyle 40%'tan fazlasını barınmaya harcıyor"
+   },
+   "at": "2026-11-04T06:10Z",
+   "h": "5107f410e71d",
+   "rev_dbg": [
+    5,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Atina'da yoğun yapılaşmış konut semtleri"
+   }
+  },
+  "leben-weihnachtsgeschenke-hde-262-euro-2026-11-04": {
+   "L": {
+    "body": [
+     "Almanya'daki insanlar bu yıl Noel hediyeleri için ortalama 262 avro harcamayı planlıyor; bu tutar 2025'e göre bir avro daha az. Bu, YouGov'un Alman Perakende Birliği (HDE) adına yaptığı ve dpa-AFX'in 3 Kasım 2026'da haberleştirdiği anketten anlaşılıyor. Ankete 13-15 Ekim tarihleri arasında 18 yaş ve üzeri yaklaşık 2.100 kişi katıldı. 2023 ve 2024'te yapılan anketlere göre katılımcılar o yıllarda hâlâ yaklaşık 300 avro ayırmayı planlamıştı.",
+     "Dilek listelerinin en üstünde hediye çekleri yer alıyor; bunları oyuncaklar, kitaplar, kozmetik ürünleri ve giyim izliyor. HDE Genel Müdürü Stefan Genth, “Göstergeler istikrara işaret ediyor” dedi. Perakendeciler ise daha az umutlu: HDE'nin 300 işletme arasında yaptığı ankette üçte ikisi geçen yıla kıyasla daha zayıf ya da belirgin biçimde daha zayıf bir Noel satış sezonu beklerken, yalnızca yüzde 11'i daha iyi bir sezon bekliyor. Yüzde 85'i, birçok ürün pahalandığı için müşterilerin fiyatlara daha çok dikkat edeceğini öngörüyor.",
+     "Birlik, Kasım ve Aralık aylarında toplam perakende sektöründe 129,2 milyar avroluk ciro bekliyor; bu, bir yıl öncesine göre yüzde 2 artış anlamına geliyor. HDE'ye göre enflasyon düşüldüğünde reel olarak yüzde 1'lik bir artış kalacağı belirtiliyor. Tahmin, yalnızca hediyeleri değil, günlük ihtiyaç alışverişleri dahil tüm ticareti kapsıyor."
+    ],
+    "d": "HDE anketine göre Almanlar 2025'e yakın bir tutar harcamak istiyor. Ancak perakendecilerin üçte ikisi, müşterilerin fiyatlara daha çok dikkat etmesi nedeniyle daha zayıf bir Noel satış sezonu bekliyor.",
+    "t": "Noel hediyeleri: Tüketiciler ortalama 262 avro ayırıyor – perakendeciler kuşkulu"
+   },
+   "at": "2026-11-04T06:10Z",
+   "h": "07c8a4d63ff5",
+   "rev": [
+    "Teaser: 'fast so viel wie 2025' rendered as 'yakın bir tutar' – acceptable, but 'Händler' rendered inconsistently; fine",
+    "Body 1: 'laut den damaligen Umfragen' sentence garbled: 'Katılımcılar, ... anketlere göre ... ayırmıştı'",
+    "Body 2: 'Işaretler' capitalisation/spelling error and clumsy repetition 'işaret ediyor'",
+    "Body 2: 'Hauptgeschäftsführer' rendered 'Genel Müdürü' – better 'Genel Direktörü'/'Genel Sekreteri'; minor, kept",
+    "Body 3: 'bliebe' conditional rendered as plain future fact 'kalacak'"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Dülmen'de Noel aydınlatmalı alışveriş caddesi"
+   }
+  },
+  "parlament-zurueck-goriva-ezik-2026-11-04-b08": {
+   "L": {
+    "body": [
+     "Bulgaristan Ulusal Meclisi bu çarşamba, cumhurbaşkanlığı seçiminden bu yana ilk olağan oturumu için toplanıyor. Milletvekilleri seçim kampanyası dönemi için iki haftalık bir ara verilmesine karar vermişti. BTA ve BNT'nin haberine göre, grupların birden fazla tasarısı gündemde yer alıyor; ayın ilk çarşambası her grup bir madde belirleyebiliyor.",
+     "GERB-SDS, akaryakıt fiyatlarının geçici olarak düşürülmesi ve sınırlandırılması için acil önlemlere ilişkin bir karar almak istiyor. Vazrazhdane partisi ise birinci okumada, standart dilin eğitimde, idarede ve medyada kullanımını düzenlemeyi amaçlayan Bulgar diline ilişkin bir yasa teklifi sunuyor.",
+     "Ayrıca Meclis, süresi Mayıs 2025'te dolan bir AB direktifinin uygulanmasını amaçlayan, Progresif Bulgaristan'ın yenilenebilir enerji yasasında önerdiği değişiklikleri ikinci okumada görüşecek. Ardından Demokratik Bulgaristan'ın sağlık sigortası yasasına ilişkin değişiklik önerileri birinci okumada ele alınacak."
+    ],
+    "d": "Cumhurbaşkanlığı seçimi nedeniyle verilen iki haftalık aranın ardından Ulusal Meclis yeniden toplanıyor. Gündemde GERB'in yüksek akaryakıt fiyatlarına karşı önlemleri ve Bulgar diline ilişkin bir yasa var.",
+    "t": "Parlamento seçim arasından döndü: Gündemde akaryakıt fiyatları ve dil yasası"
+   },
+   "at": "2026-11-04T06:11Z",
+   "h": "7754767793c3",
+   "rev": [
+    "Party name 'Wasraschdane' was rendered as 'Vazrazhdane'; the established Turkish form is 'Vazraždane' or 'Vazrajdane'. Left unchanged because the draft's spelling is a recognised transliteration.",
+    "'Progressives Bulgarien' was left in English as 'Progressive Bulgaria'; changed to Turkish 'Progresif Bulgaristan' for consistency with 'Demokratik Bulgaristan'."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sofya'daki Ulusal Meclis binası (Arşiv fotoğrafı)"
+   }
+  },
+  "psg-rekord-6-0-villarreal-2026-11-04-b08": {
+   "L": {
+    "body": [
+     "Paris Saint-Germain salı akşamı Şampiyonlar Ligi'nde güçlü bir mesaj verdi: Son şampiyon, FC Villarreal deplasmanında 6-0 kazandı. João Neves (9.), Désiré Doué (12.), Senny Mayulu (13.) ve Fabián Ruiz (17.) daha 17. dakikada skoru 4-0'a getirdi. Şampiyonlar Ligi tarihinde daha önce hiçbir takım bu kadar hızlı dört gole ulaşamamıştı. ESPN'e göre önceki rekor, 2011'de Dinamo Zagreb karşısında 20 dakikayla Real Madrid'e aitti. Ruiz (50.) ve David Boly (78.) maçın final skorunu belirledi.",
+     "Paris ayrıca Şampiyonlar Ligi'nde art arda dört maçta en az dört gol atan ilk takım oldu ve lig aşamasında maksimum on iki puanla liderliğini sürdürüyor. Üç puanlı Villarreal 29. sırada. Teknik direktör Luis Enrique şöyle konuştu: “Bu kadar hızlı gelen 0-4'ten sonra hiçbir takım toparlanamaz.” Aynı zamanda şu uyarıyı yaptı: “Eleme turlarında seviyenizi gerçekten kanıtlamanız gerekir.” PSG'de Ousmane Dembélé, Marquinhos ve Nuno Mendes uyluk sakatlıkları nedeniyle, Khvicha Kvaratskhelia ise çapraz bağ kopması nedeniyle forma giyemedi."
+    ],
+    "d": "Son şampiyon Paris Saint-Germain, Villarreal deplasmanında 6-0 kazandı ve Şampiyonlar Ligi tarihinde hiçbir takımın ulaşamadığı hızla dört gol attı. Paris tabloda lider.",
+    "t": "PSG, Villarreal'i 6-0 yendi: 17 dakikada dört gol Şampiyonlar Ligi rekoru"
+   },
+   "at": "2026-11-04T06:11Z",
+   "h": "145ea64d83ef",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "FC Villarreal stadyumu (Arşiv fotoğrafı)"
+   }
+  },
+  "supermicro-quartal-ki-server-2026-11-04-b08": {
+   "L": {
+    "body": [
+     "ABD'li sunucu üreticisi Super Micro Computer (Supermicro), 2027 mali yılının ilk çeyreğinde (Temmuz-Eylül) 19,9 milyar dolar ciro elde etti; bu rakam geçen yılın aynı döneminde 5,0 milyar, bir önceki çeyrekte ise 11,1 milyar dolardı. StockStory'ye göre analistler yaklaşık 16,8 milyar dolar bekliyordu. Net kâr (GAAP) 1,6 milyar doların biraz altında kaldı, hisse başına düzeltilmiş kâr 1,81 dolar oldu.",
+     "Şirket, içinde bulunulan çeyrek için 19,5 ila 21,5 milyar dolar, tüm mali yıl için ise 72 ila 82 milyar dolar ciro bekliyor. StockStory'ye göre hisse, rakamların Salı günü açıklanmasının hemen ardından yaklaşık yüzde 7,5 yükseldi. Şirketin CEO'su Charles Liang şöyle dedi: “Supermicro'nun yapay zekâ ve BT veri merkezi çözümlerinde tam kapsamlı sağlayıcıya dönüşümü hız kazanmaya devam ediyor.”",
+     "Kârlılık tarafında olumsuz bir nokta var: Brüt marj, bir önceki çeyrekteki yüzde 17,5'ten yüzde 12,7'ye geriledi. Supermicro, özellikle yapay zekâ veri merkezleri için Nvidia grafik işlemcili sunucular üretiyor ve yapay zekâ altyapısındaki süregelen genişlemeden yararlanıyor. Rakamlar ön nitelikte olup denetlenmemiştir."
+    ],
+    "d": "Yapay zekâ sunucuları üreticisi şirket beklentileri belirgin biçimde aştı ve yıllık tahminini 72-82 milyar dolara yükseltti. Brüt marj ise gözle görülür şekilde düştü.",
+    "t": "Supermicro cirosunu 4 katına çıkararak 19,9 milyar dolara taşıdı – hisse yükseldi"
+   },
+   "at": "2026-11-04T06:11Z",
+   "h": "16811cda9852",
+   "rev": [
+    "Headline 'cirosunu 4 katına çıkararak' is fine; no change needed",
+    "'Yapay zekâ sunucusu üreticisi' is an awkward rendering of 'KI-Serverbauer' (it reads as 'AI server producer' in the wrong sense)"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Bir veri merkezinde sunucu sıraları (Sembolik fotoğraf)"
+   }
+  },
   "welt-ebola-kongo-5300-tote-2026-11-04": {
    "L": {
     "body": [
@@ -646,6 +1290,34 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı (2019): Kongo'nun Mangina kentindeki bir Ebola tedavi merkezinde koruyucu giysili sağlık görevlileri"
+   }
+  },
+  "welt-iran-hinrichtungen-isfahan-2026-11-04": {
+   "L": {
+    "body": [
+     "İran, salı günü erken saatlerde İsfahan'da, Ocak ayındaki protestolar sırasında dört polisin öldürülmesine karışmaktan mahkûm edilen iki erkeği idam etti. Bunu yarı resmi Fars ajansı ile yargıya yakın Mizan ajansı duyurdu. Fars'a göre Yüksek Mahkeme idam cezalarını onamıştı. Reuters'in aktardığına göre öldürmeler 8 Ocak 2026'da gerçekleşti.",
+     "Iran Human Rights örgütünün verdiği bilgiye göre, yakınları pazartesi akşamı son görüşme için İsfahan'daki bir cezaevine çağrıldı. Aktivistlere göre davada 14 idam cezası verildi, bunların dokuzu şimdi infaz edildi. Aynı grubun diğer iddia edilen üyeleri ağustos ayında alenen asılmış, bu da kendiliğinden protestolara yol açmıştı. dpa'ya göre, davada sanıkları temsil eden bir avukat kısa süre önce gözaltına alındı.",
+     "Protestolar aralık ayı sonunda ekonomik kriz nedeniyle başlamış ve yönetime karşı kitlesel gösterilere dönüşmüştü. dpa'ya göre yargı, bu protestolarla bağlantılı olarak en az 37 erkeği idam etti. Uluslararası Af Örgütü, geçen yıl İran'da en az 2159 idam gerçekleştiğini, bunun 1981'den bu yana en yüksek sayı olduğunu belirtti."
+    ],
+    "d": "Erkekler, kitlesel protestolar sırasında dört polisin öldürülmesi nedeniyle mahkûm edilmişti. Aktivistlere göre davada 14 idam cezası verildi, dokuzu infaz edildi.",
+    "t": "İran, Ocak ayındaki protestoların ardından İsfahan'da iki erkeği daha idam etti"
+   },
+   "at": "2026-11-04T06:10Z",
+   "h": "f1f589d96853",
+   "rev": [
+    "'Andere mutmaßliche Mitglieder' rendered awkwardly ('iddiaya göre diğer bazı üyeleri'); the hedge should be tied to membership in the group",
+    "Months 'Ocak', 'Aralık', 'Ağustos' were capitalised in mid-sentence; TDK requires lowercase for month names unless they are part of a date with a day",
+    "'Yargıtay' for 'Oberster Gerichtshof' is imprecise; the Iranian court is the Supreme Court (Yüksek Mahkeme)",
+    "'mahkum' should be spelled 'mahkûm'",
+    "'Ocak ayındaki' in the headline is fine"
+   ],
+   "rev_dbg": [
+    5,
+    6,
+    0
+   ],
+   "x": {
+    "img.alt": "Grafik: TERRA WORLD NEWS"
    }
   },
   "welt-israel-schin-bet-generalstaatsanwaeltin-2026-11-04": {
@@ -857,6 +1529,33 @@
     "kl": "ABD"
    }
   },
+  "welt-venezuela-machado-rubio-blanco-2026-11-04": {
+   "L": {
+    "body": [
+     "ABD Dışişleri Bakanı Marco Rubio, pazartesi günü Washington'da Venezuela Dışişleri Bakanı Oliver Blanco'yu kabul etti. Dışişleri Bakanlığının açıklamasına göre Washington, Başkan Trump'ın Venezuela için “üç aşamalı planını” yineledi: istikrar, ekonomik toparlanma ve siyasi uzlaşma, son olarak demokratik geçiş. Al Jazeera'nin haberine göre ikisi de basına açıklama yapmadı.",
+     "Muhalefet lideri ve Nobel Barış Ödülü sahibi María Corina Machado, Ekim ayı sonunda Venezuela'ya geri dönmüştü. Machado, Rubio'nun 2027'de yapılacak bir başkanlık seçimine varacak adımları özetlediğini söyledi. Geçici Devlet Başkanı Delcy Rodríguez ise seçimlerin “dünyanın gözü önünde” yapılacağını vaat etti, ancak bir tarih vermedi.",
+     "Machado, Eylül ayında imzalanan ve Washington'a ülkenin petrol rezervlerinin yaklaşık beşte birinde pay sağlayan petrol anlaşmasına şüpheyle yaklaştı. Anlaşmanın “Venezuela toplumunun istediği şeffaflık düzeyini yansıtmadığını” söyledi. Olası bir görüşmeye ilişkin ne Rodríguez'den ne de Washington'dan bir mesaj aldığını belirtti."
+    ],
+    "d": "Washington, Karakas'tan üç aşamalı plan konusunda ısrar ediyor. Muhalefet lideri María Corina Machado, ABD ile yapılan petrol anlaşmasını şeffaf olmamakla eleştirdi.",
+    "t": "Venezuela: Machado, Rubio–Blanco görüşmesinin ardından 2027'de seçim bekliyor"
+   },
+   "at": "2026-11-04T06:10Z",
+   "h": "2973e3846a7d",
+   "rev": [
+    "Headline: 'seçim bekliyor' is acceptable, but 'Pazartesi' must be lower-case per TDK (weekday in running text)",
+    "Teaser: 'Washington pocht auf' (insists) was weakened to 'yineledi'; 'intransparent' rendered as 'şeffaf olmamakla' is fine",
+    "Body 2: 'Rubio'nun 2027 başkanlık seçimine çıkacak adımları' is wrong; the German says the steps would lead to a presidential election in 2027",
+    "Body 1: 'Pazartesi' capitalised"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı (2019): Muhalefet lideri María Corina Machado, Karakas'ta bir protesto yürüyüşünde"
+   }
+  },
   "welt-zyklon-murasu-andhra-pradesh-2026-11-04": {
    "L": {
     "body": [
@@ -907,6 +1606,80 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Bir süpermarkette meyve ve sebze reyonu"
+   }
+  },
+  "wirtschaft-goldman-neue-zoelle-nach-midterms-2026-11-04": {
+   "L": {
+    "body": [
+     "Goldman Sachs ekonomistleri, ABD Başkanı Donald Trump'ın ara seçimlerin ardından yeni gümrük vergisi artışları açıklayacağını öngörüyor. Fortune dergisinin haberine göre analistler Alec Phillips ve Abhay Duggirala, bu artışların olası indirimleri fazlasıyla dengeleyeceğini yazdı. Analistlere göre Demokratlar gümrük vergilerinin bir kısmını geri almak istediklerini açıklamış olsa da, bu tür adımlar daha çok Kanada gibi münferit ülkelere veya belirli mallara yönelik olacağından etkisinin muhtemelen sınırlı kalacağı belirtildi. Banka, sonuç olarak ABD'deki efektif gümrük vergisi oranının yaklaşık iki puan artacağını bekliyor.",
+     "Hollanda bankası ING'den James Smith, açıkların büyümesi ve siyasi olarak tıkanan bir bütçenin dikkati yeniden ticarete çevirmesi nedeniyle gümrük vergilerini giderek daha fazla devlet için bir gelir kaynağı olarak görüyor. Smith'e göre Yüksek Mahkeme Trump'ın olağanüstü hal gümrük vergilerini iptal ettikten sonra yüzde 10'luk geçici toptan oranlar, ABD ticaret hukukunun 301. maddesi (Section 301) uyarınca daha kalıcı bir yapıya dönüştürüldü. Deutsche Bank'a göre buna bir de bütçe riski ekleniyor: Federal kurumların finansmanı 11 Aralık'ta sona eriyor.",
+     "Bununla eş zamanlı olarak Kanada, ABD ile bir ticaret anlaşması için müzakerelerini sürdürüyor. Salı günü Antigua ve Barbuda'daki Commonwealth zirvesine katılan Başbakan Mark Carney, The Canadian Press ajansının aktardığına göre, hafta sonu Trump'la yaptığı telefon görüşmesinden bu yana “daha yoğun” görüşmelerin başladığını söyledi. Carney daha önce, Kanada'nın bir anlaşmayı yalnızca ülkenin çıkarına olması halinde imzalayacağını ve gerekirse bir sonraki ABD başkanını da bekleyeceğini vurgulamıştı."
+    ],
+    "d": "Goldman'a göre Demokratlar Kongre'de güç kazanırsa Trump'ın yeni gümrük vergileri açıklaması muhtemel. Kanada Başbakanı Carney, Washington'la “daha yoğun” müzakerelerden söz etti.",
+    "t": "Goldman Sachs, ara seçimlerin ardından Trump'tan yeni gümrük vergisi artışları bekliyor"
+   },
+   "at": "2026-11-04T06:10Z",
+   "h": "1235dba47687",
+   "rev": [
+    "Opinion attributed wrongly: \"Analistlere göre Demokratlar ... açıkladı\" turns the Democrats' announcement into the analysts' claim and presents the limited effect as fact; the German has the analysts ",
+    "The effect being limited is a hedged estimate (\"wohl begrenzt\", conditional) – attribution to analysts was misplaced; the sentence should be restructured."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Oakland konteyner limanının havadan görünümü"
+   }
+  },
+  "wirtschaft-lufthansa-quartal-kerosin-prognose-2026-11-04": {
+   "L": {
+    "body": [
+     "Lufthansa, belirgin biçimde artan yakıt maliyetlerine rağmen üçüncü çeyrekte daha fazla kazandı. Şirketin verdiği bilgiye göre düzeltilmiş faaliyet kârı bir önceki yıla kıyasla yüzde 6 artarak 1,4 milyar avroya yükseldi ve analistlerin beklentileri çerçevesinde kaldı. Ciro yüzde 9 artarak 12,24 milyar avro oldu; Euronews'e göre bu, şirket tarihinin en yüksek cirolu çeyreği. Grup CEO'su Carsten Spohr, talebin yüksek seyretmeye devam etmesiyle artan gelirlerin ve sıkı maliyet disiplininin yakıt maliyetlerindeki artışı fazlasıyla telafi ettiğini söyledi. Hisse senedi Salı günü erken işlemlerde yüzde 3'ten fazla yükseldi.",
+     "Artışın arkasında özellikle iştirakler var: Lufthansa Cargo'nun sonucu üç katından fazlasına çıkarak 162 milyon avroya yükseldi, Lufthansa Technik ise sonucunu yüzde 54 artırarak 200 milyon avroya çıkardı. Ana marka Lufthansa Airlines'ta ise düzeltilmiş faaliyet kârı üçte bir oranında düşerek 300 milyon avroya geriledi. Grup, tüm yıl için bir önceki yıldaki 7,27 milyar avroya karşılık 9,3 milyar avro yakıt maliyeti bekliyor; bu yaklaşık iki milyar avro fazla demek. Mali işlerden sorumlu yönetici Till Streichert'e göre 2026 ihtiyacının yüzde 86'sı, 2027 ihtiyacının ise yüzde 60'tan fazlası riske karşı korundu.",
+     "Lufthansa, 2026 için düzeltilmiş faaliyet kârı tahminini 1,7 ila 2,0 milyar avroya düşürdü; daha önce üst sınır 2,2 milyar avroydu. Streichert, sonucun talebe, yakıt fiyatlarına ve kargo kolunun dördüncü çeyreğine bağlı olduğunu söyledi. Grup, jet yakıtından tasarruf etmek için Ekim ayına kadar 20.000 kısa mesafe uçuşunu iptal etti; 2030'a kadar idari alanda 4000 işin ortadan kaldırılması planı da sürüyor. Reuters'e göre yolcular daha kısa süre önce ve daha yüksek fiyatlarla rezervasyon yapıyor; premium koltuklara, Asya'ya ve Kuzey Amerika'ya yönelik talebin güçlü olduğu belirtiliyor."
+    ],
+    "d": "Faaliyet kârı üçüncü çeyrekte yüzde 6 artarak 1,4 milyar avroya ulaştı. Grup, yüksek yakıt fiyatları nedeniyle yıllık tahmininin üst sınırını yine de düşürdü.",
+    "t": "Lufthansa: Yazın rekor ciro, ancak jet yakıtı iki milyar avro daha pahalıya mal oluyor"
+   },
+   "at": "2026-11-04T06:10Z",
+   "h": "aad3beb69978",
+   "rev": [
+    "Headline: \"Rekordumsatz\" fine; teaser says \"ulaştı\" (past) instead of present \"steigt\" – acceptable, but the teaser lacks the 'dritten Quartal' nuance – ok",
+    "\"Ergebnis ... mehr als verdreifacht\" rendered as \"üç katından fazla artarak\" – ambiguous; should be \"üç katından fazlasına çıkarak\"",
+    "\"abgesichert\" for fuel rendered as \"riske karşı korundu\" – acceptable; \"weiterhin 4000 Stellen\" 'sürüyor' ok",
+    "Last sentence: Reuters attribution covers the first clause, and the second clause is correctly marked as reported speech with 'belirtiliyor'; the 'daha kısa vadeli' wording is unnatural (should be 'da",
+    "\"Konzernchef\" rendered 'Grup CEO'su' fine"
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Lufthansa'nın bir Airbus A350 uçağı Frankfurt Havalimanı'nda"
+   }
+  },
+  "wirtschaft-midterms-maerkte-dollar-tech-2026-11-04": {
+   "L": {
+    "body": [
+     "ABD ara seçimlerinin ilk sonuçları Çarşamba'ya bağlanan gece finans piyasalarını hareketlendirdi. Reuters haber ajansının verdiğine göre Demokrat Jon Ossoff Georgia'daki Senato koltuğunu kazandı, Mark Warner ise beklendiği gibi Virginia'daki koltuğunu korudu. Demokratlar Temsilciler Meclisi'nde favori olarak görülüyor; Senato'da çoğunluk için net dört ek koltuğa ihtiyaç duyuyorlar. Yatırımcılar bunun üzerine Demokratların tam bir galibiyet senaryosunu fiyatlamaya başladı: ABD devlet tahvillerinin getirileri düştü, dolar zayıfladı, ABD endekslerine yönelik vadeli işlem sözleşmeleri geriledi; teknoloji ağırlıklı Nasdaq'ta düşüş S&P 500'e kıyasla daha belirgindi.",
+     "Saxo Bank'ın Singapur'daki baş yatırım stratejisti Charu Chanana, Reuters'e yaptığı açıklamada piyasaların görünüşe göre Demokratlar için beklenenden daha güçlü bir sonucu fiyatladığını söyledi. Nasdaq'ın özellikle yapay zekâ ve büyük teknoloji şirketlerine yönelik daha sıkı düzenleme endişesinden zarar gördüğünü belirten Chanana, düşen getirilerin daha sonra rahatlama sağlayabileceğini, dolayısıyla ilk satış dalgasının sürmesinin gerekmediğini ifade etti. State Street Global Advisors'tan Michael Arone ise daha büyük riskin Demokratların seçim zaferinin kendisinde değil, yatırımcıların buna aşırı tepki vermesinde olduğunu düşünüyor.",
+     "Birçok uzman ekonomi politikasında köklü bir dönüşüm beklemiyor. J.P. Morgan Asset Management'tan Tai Hui, Başkan Donald Trump'ın veto yetkisinin sürdüğüne dikkat çekti; ayrıca bölünmüş bir hükümetin bütçe açıklarını sınırlayabileceğini söyledi. Hui'ye göre piyasalar için yapay zekâdaki gelişme zaten siyasetten daha önemli. Monex Group'tan Jesper Koll, Demokrat bir Kongre'nin Trump'ın kararnameyle yönetme biçimini fazla değiştireceğinden şüphe duyduğunu belirtti; Fed'in daha bağımsız algılanması halinde doların hafif güçlenmesini mümkün görüyor. Nihai sonuç henüz açıklanmamıştı."
+    ],
+    "d": "Yatırımcılar ilk sonuçların ardından Demokratların daha güçlü bir performans göstereceğini bekliyor. Dolar geriliyor, Nasdaq vadeli işlemleri düşüyor. Analistler aşırı tepkiye karşı uyarıyor.",
+    "t": "Ara seçimler: Demokratların erken zaferleri doları ve ABD teknoloji hisselerini baskılıyor"
+   },
+   "at": "2026-11-04T06:10Z",
+   "h": "69bfafe1f789",
+   "rev_dbg": [
+    6,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: New York Borsası işlem salonu"
    }
   }
  }
