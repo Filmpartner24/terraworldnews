@@ -1,28 +1,6 @@
 {
- "asof": "2026-11-03",
+ "asof": "2026-11-04",
  "items": [
-  {
-   "name": "Banque du Caire",
-   "sector": {
-    "de": "Bank (staatlich)",
-    "bg": "Банка (държавна)",
-    "en": "Bank (state-owned)",
-    "es": "Banco (estatal)",
-    "tr": "Banka (devlete ait)"
-   },
-   "exchange": "EGX (Kairo)",
-   "date": "Nov. 2026",
-   "status": "erwartet",
-   "note": {
-    "de": "Staatliche ägyptische Bank; Renaissance Capital meldet die Erstnotiz für die Woche ab 1.11., Volumen ca. 660 Mio. USD.",
-    "bg": "Държавна египетска банка; според Renaissance Capital листването е насрочено за седмицата от 1.11., обем около 660 млн. USD.",
-    "en": "State-owned Egyptian bank; Renaissance Capital lists its debut for the week of 1 Nov, about USD 660m.",
-    "es": "Banco estatal egipcio; Renaissance Capital sitúa su debut en la semana del 1/11, unos 660 millones de USD.",
-    "tr": "Mısır'ın devlete ait bankası; Renaissance Capital'e göre işlem başlangıcı 1.11 haftasında, yaklaşık 660 milyon USD."
-   },
-   "src_n": "Renaissance Capital (01.11.2026)",
-   "src_u": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1569"
-  },
   {
    "name": "Football Manager SPAC (FBLLU)",
    "sector": {
@@ -42,8 +20,8 @@
     "es": "Según el calendario de Renaissance, única salida programada en EE. UU. en la semana del 2/11 (provisional): unos 100 millones de USD a 10 USD por unidad; busca un club de fútbol europeo de nivel medio.",
     "tr": "Renaissance takvimine göre 2.11 haftası için planlanan tek ABD halka arzı (geçici): birim başına 10 USD'den yaklaşık 100 milyon USD; hedef orta düzey bir Avrupa futbol kulübü."
    },
-   "src_n": "Renaissance Capital (30.10.2026)",
-   "src_u": "https://www.renaissancecapital.com/IPO-Center/News/122503/us-ipo-week-ahead-november%E2%80%99s-ipo-market-set-for-a-quiet-start"
+   "src_n": "Renaissance Capital IPO-Kalender (04.11.2026)",
+   "src_u": "https://www.renaissancecapital.com/IPO-Center/Calendar"
   },
   {
    "name": "Anthropic (ANT)",
@@ -66,6 +44,28 @@
    },
    "src_n": "Renaissance Capital (02.11.2026)",
    "src_u": "https://www.renaissancecapital.com/IPO-Center/News/122533/anthropic-discloses-third-quarter-financial-results-ahead-of-multibillion"
+  },
+  {
+   "name": "Banque du Caire",
+   "sector": {
+    "de": "Bank (staatlich)",
+    "bg": "Банка (държавна)",
+    "en": "Bank (state-owned)",
+    "es": "Banco (estatal)",
+    "tr": "Banka (devlete ait)"
+   },
+   "exchange": "EGX (Kairo)",
+   "date": "02.11.2026",
+   "status": "erfolgt",
+   "note": {
+    "de": "Größter Börsengang der EGX-Geschichte: 45 % der Aktien für 36,37 Mrd. ägyptische Pfund, 27-fach überzeichnet.",
+    "bg": "Най-голямото първично предлагане в историята на EGX: 45% от акциите за 36,37 млрд. египетски лири, 27 пъти презаписано.",
+    "en": "Largest IPO in EGX history: 45% of shares for EGP 36.37bn, oversubscribed 27 times.",
+    "es": "Mayor salida a bolsa de la historia de la EGX: el 45 % de las acciones por 36.370 millones de libras egipcias, 27 veces sobresuscrita.",
+    "tr": "EGX tarihinin en büyük halka arzı: hisselerin %45'i 36,37 milyar Mısır lirasına, 27 kat talep."
+   },
+   "src_n": "Daily News Egypt (02.11.2026)",
+   "src_u": "https://dailynewsegypt.com/2026/11/02/egypts-banque-du-caire-debuts-on-egx-after-largest-ipo-in-market-history/"
   },
   {
    "name": "Aspen Neuroscience (ASPE)",
