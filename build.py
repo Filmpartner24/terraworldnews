@@ -2508,6 +2508,9 @@ def disc_strip(l):
         im = _coll(s)
         if not im and s == 'musik': im = (lambda d: d.get('f'))(json.load(open(os.path.join(HERE, 'content', 'musik', 'history-collage.json'), encoding='utf-8'))) if os.path.exists(os.path.join(HERE, 'content', 'musik', 'history-collage.json')) else None
         if not im and s == 'sport' and SP_IMG.get('fussball'): im = SP_IMG['fussball']['f']
+        if not im and s in ('film', 'games'):   # Film/Games: Kopf-Collage der Rubrik (Nedy 04.11.2026 – Kacheln ohne Bild)
+            try: im = json.load(open(os.path.join(HERE, 'content', s, 'collage.json'), encoding='utf-8')).get('f')
+            except (FileNotFoundError, ValueError): im = None
         bg = f' style="--c:{SEC_COLOR.get(s, "#0f2f7a")};background-image:linear-gradient(180deg,rgba(5,10,25,.15),rgba(5,10,25,.88)),url({im})"' if im else f' style="--c:{SEC_COLOR.get(s, "#0f2f7a")};background-image:linear-gradient(135deg,#0b1430 0%,var(--c) 140%)"'
         t += f'<a class="ds-t" href="{sec_home(s, l)}"{bg}><span>{e(SEC[l][s][0])}</span></a>'
     return f'<section class="ds"><h2 class="ds-h">{e(H["disc"])}</h2><div class="ds-row">{t}</div></section>'
