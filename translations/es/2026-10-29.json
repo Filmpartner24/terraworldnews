@@ -880,6 +880,33 @@
     "img.alt": "Cuadrilátero en el Gleason’s Gym de Nueva York (imagen simbólica)"
    }
   },
+  "deutsche-boerse": {
+   "L": {
+    "body": [
+     "El índice de referencia DAX (las 40 mayores empresas cotizadas de Alemania) siguió subiendo el miércoles. Cerró en la negociación Xetra en 25.704,02 puntos, un avance del 0,44 %. Durante la sesión alcanzó su nivel más alto en cinco semanas. El MDax (empresas medianas) perdió un 0,23 %. El SDax (empresas más pequeñas) ganó un 0,21 % y el TecDax (valores tecnológicos), un 0,54 %. El Euro Stoxx 50 (grandes empresas de la eurozona) subió ligeramente hasta 6.167,81 puntos (dpa-AFX, finanzen.at).",
+     "El impulso vino de una renovada confianza en torno a la inteligencia artificial. El fabricante surcoreano de chips de memoria SK Hynix presentó unas cifras inesperadamente sólidas. Deutsche Bank subió cerca de un 4 % tras otro beneficio récord y lideró el DAX. Siemens Energy ganó un 3,64 %. Symrise cayó más de un 10 %: la previsión para el último trimestre apunta a un crecimiento más lento (dpa-AFX, finanzen.at).",
+     "Mercedes-Benz cerró con un moderado avance, tras perder casi un 4 % el martes. La gestora DWS (en el MDax) perdió un 1,7 % y Befesa subió casi un 5 %. Thyssenkrupp ha escindido su filial TK Accelis: los accionistas recibieron una acción de Accelis por cada 20 acciones de Thyssenkrupp (dpa-AFX).",
+     "Por la noche, la Reserva Federal de EE. UU. mantuvo los tipos de interés en el 3,75-4,00 % (10 votos a 2; dos miembros querían una subida). Tras el cierre de Wall Street, Microsoft subió cerca de un 4 % en la negociación fuera de horario y Alphabet cayó cerca de un 10 %. Hoy decide el BCE a las 14:15; presentan cifras, entre otras, Volkswagen, Adidas y MTU."
+    ],
+    "d": "El DAX cerró el miércoles en 25.704,02 puntos (+0,44 %), con máximos de cinco semanas durante la sesión. La Fed mantuvo los tipos sin cambios. El BCE decide hoy.",
+    "explain": "Si los tipos siguen altos, los créditos siguen caros, pero los ahorros rinden más. Para las personas en Alemania y Bulgaria, la decisión del BCE de hoy pesa más porque afecta al euro.",
+    "t": "El DAX sube un 0,4 % hasta 25.704 puntos: Deutsche Bank lidera y Symrise se desploma"
+   },
+   "at": "2026-11-04T06:52Z",
+   "flag": [
+    "Zahlen fehlen oder weichen ab: 6167"
+   ],
+   "h": "e2ff409fadf2",
+   "rev": [
+    "Se perdió el matiz de 'nach US-Börsenschluss' / 'nachbörslich': 'en la sesión posterior' es poco natural; mejor 'en la negociación fuera de horario'",
+    "Se perdió el matiz de 'Am Abend': 'Por la tarde' no coincide; debe ser 'Por la noche' (hora alemana)"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ]
+  },
   "deutschland-abgeordnetenhaus-berlin-konstituiert-klein-praesidentin-2026-10-29": {
    "L": {
     "body": [
