@@ -224,6 +224,31 @@
     "img.alt": "Foto de archivo: Palacio de Justicia de Burgas"
    }
   },
+  "bulgarien-rechnungshof-debatte-pb-gerb-2026-11-04": {
+   "L": {
+    "body": [
+     "Tres informes del Tribunal de Cuentas solicitados por el Parlamento han desatado un duro enfrentamiento entre «Bulgaria Progresista» y GERB. Las auditorías abarcan las finanzas públicas, el seguro de pensiones y la agencia de carreteras API desde 2020 hasta el final del gabinete de Gyurov. El presidente de la comisión de presupuestos, Konstantin Prodanov, habló de una gestión sumamente irresponsable de las finanzas públicas y afirmó que la deuda se había duplicado aproximadamente en 2024 respecto a 2019. El diputado Stefan Belchev dijo: «Bulgaria se encuentra en una trampa de la deuda».",
+     "La diputada de GERB Temenuzhka Petkova dijo que el problema radicaba en la gestión incompetente del bando contrario. Según su versión, las auditorías pretendían trasladar gastos de 2026 a 2025 para que el déficit de 2025 pareciera mayor. Su compañero de grupo Nikolay Nankov afirmó que se habrían firmado contratos por más de 8.000 millones de levas bajo el ministro Ivan Shishkov, durante un gobierno de transición nombrado por el entonces presidente Rumen Radev, sin presupuesto aprobado y sin financiación asegurada. El ministro regional Shishkov replicó que el informe era «la anatomía de la gestión de GERB de 2009 a 2025». Señaló, entre otras cosas, el contrato de la circunvalación de Kresna, de precio muy elevado, que según él se habría firmado bajo el gabinete de Zhelyazkov."
+    ],
+    "d": "El bloque gobernante «Bulgaria Progresista» y GERB discrepan sobre tres informes de auditoría de finanzas públicas, pensiones y la agencia de carreteras. El ministro Shishkov habló de una «anatomía» de los años de GERB.",
+    "t": "«Trampa de la deuda» vs. «anatomía de la era GERB»: informes dividen al Parlamento"
+   },
+   "at": "2026-11-04T07:21Z",
+   "h": "f69842c9f9a2",
+   "rev": [
+    "Prodanov: la deuda «se habría duplicado» expresa duda, pero en alemán es una afirmación atribuida; debe ser «se había duplicado» con atribución",
+    "Petkova: «las auditorías pretendían» presenta como hecho la intención; el alemán dice «sollten ... verschieben» según su versión; mejor «tenían como fin», pero se mantiene la atribución. Sin cambio",
+    "Shishkov: «que según él se habría firmado» es redundante pero correcto; sin cambio"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo (2016): edificio de la Asamblea Nacional en Sofía"
+   }
+  },
   "bulgarien-schabla-evakuierung-code-rot-2026-11-04": {
    "L": {
     "body": [
@@ -1024,6 +1049,32 @@
    ],
    "x": {
     "img.alt": "Imagen simbólica: chip de procesador cuántico superconductor en su soporte"
+   }
+  },
+  "ki-synology-nas-ransomware-2026-11-04": {
+   "L": {
+    "body": [
+     "El fabricante Synology advierte de ataques contra sus almacenamientos en red (NAS). Según la empresa, los delincuentes explotan una vulnerabilidad que ya se corrigió en diciembre de 2024 y atacan de forma dirigida dispositivos con el sistema operativo DSM obsoleto. El objetivo sería cifrar datos y exigir un rescate, según Synology. Según el portal especializado The Hacker News, usuarios informaron en Reddit de infecciones con el ransomware C3RB3R, que añade la extensión «.L0CK3D» a los archivos cifrados. Se desconoce cuántos dispositivos están afectados.",
+     "Synology no menciona expresamente el fallo explotado, pero remite a un aviso de seguridad de noviembre de 2024. En él figura, entre otras, la vulnerabilidad CVE-2024-10441, clasificada como crítica con 9,8 de 10 puntos y que puede permitir a los atacantes ejecutar código de forma remota. Están protegidos, entre otros, los dispositivos con DSM 7.2.2-72806-1, 7.2.1-69057-6, 7.2-64570-4, 7.1.1-42962-7 o 6.2.4-25556-8 y versiones más recientes.",
+     "Synology pide a todos los usuarios de versiones vulnerables que actualicen DSM de inmediato y activen las actualizaciones automáticas. Los almacenamientos en red son desde hace años un objetivo popular: The Hacker News recuerda campañas anteriores como QNAPCrypt en 2019, así como ataques a dispositivos de Synology y QNAP en 2021."
+    ],
+    "d": "Los atacantes explotan un fallo en versiones antiguas de DSM, corregido desde diciembre de 2024, y cifran datos en almacenamientos en red. Los afectados informan de la extensión «.L0CK3D».",
+    "t": "Extorsionistas atacan almacenamientos Synology obsoletos; el fabricante urge actualizar"
+   },
+   "at": "2026-11-04T07:21Z",
+   "h": "d68025ca3699",
+   "rev": [
+    "Headline: 'Ransomware' is not in the German headline ('Erpresser'), so it was changed to 'Extorsionistas' to match the original",
+    "'software operativo' is an unnatural rendering of 'Betriebssoftware'; replaced with 'sistema operativo'",
+    "Teaser: 'fallo de versiones antiguas... corregido desde diciembre de 2024' is ambiguous, so it was reworded to follow the German"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: almacenamiento en red (NAS) de Synology sobre una mesa de madera"
    }
   },
   "kultur-meshuggah-forty-year-anomaly-europa-tour-2026-11-04": {
@@ -1836,6 +1887,32 @@
    ],
    "x": {
     "img.alt": "Imagen simbólica: parqué de la Bolsa de Nueva York"
+   }
+  },
+  "wirtschaft-ungarn-euro-kriterien-2030-omfif-sofia-2026-11-04": {
+   "L": {
+    "body": [
+     "Hungría quiere cumplir los criterios para la introducción del euro en 2030. Entonces la adhesión sería posible en 2031 o 2032, dijo el vicegobernador del Banco Nacional de Hungría, Dániel Palotai, el martes en un debate del foro OMFIF en Sofía, según informó la agencia BTA. Según Palotai, cumplirlos de forma sostenible es más importante que la rapidez. Afirmó que la inflación anual se sitúa en el 1,6 %, pero que está aumentando. Según Palotai, el Consejo de Política Monetaria ha rebajado del 3 % al 2,5 % el objetivo de inflación vigente desde hace 21 años, con efecto a partir de 2028.",
+     "Según Palotai, los rendimientos de los bonos públicos húngaros a largo plazo han caído más de 150 puntos básicos y los títulos a diez años rinden ya menos que los polacos comparables. Este optimismo de los mercados, dijo Palotai, depende de que el Gobierno cumpla sus compromisos de consolidación presupuestaria. Según Palotai, el apoyo de la población al euro sigue siendo alto. Antes de entrar en el mecanismo de tipos de cambio MTC II, Hungría necesitaría, afirmó, un diálogo constructivo con el Banco Central Europeo y la Comisión Europea.",
+     "El vicegobernador del banco central de Croacia, Michael Faulend, se refirió a la experiencia de su país, que adoptó el euro en 2023: según dijo, desaparecieron los riesgos cambiarios y los tipos de interés se acercaron a los de la eurozona. Según Faulend, las subidas de precios se deben sobre todo a factores globales y a un nuevo shock energético. El gobernador del banco central de Austria, Martin Kocher, abogó por avanzar a distintas velocidades en los grandes proyectos. Según Kocher, la eurozona comenzó en 1999 con once países y hoy cuenta con 21; si todos hubieran tenido que adherirse al mismo tiempo, la moneda común probablemente nunca habría surgido."
+    ],
+    "d": "En un panel de banqueros centrales en Sofía, el vicegobernador húngaro Palotai dijo que la adhesión al euro en 2031 o 2032 es posible. El gobernador austriaco Kocher abogó por una Europa de dos velocidades.",
+    "t": "Hungría quiere cumplir criterios del euro en 2030; banco central baja meta de inflación"
+   },
+   "at": "2026-11-04T07:21Z",
+   "h": "91baf29c7ddd",
+   "rev": [
+    "Teaser: 'Palotai dijo que la adhesión ... es posible' loses the German framing (nennt ... möglich); acceptable but the headline is over 90 characters.",
+    "Headline exceeds 90 characters (about 99), so it must be shortened.",
+    "Faulend's statement: 'desaparecieron los riesgos cambiarios' is attributed to Faulend but in the German it is the country's experience; acceptable."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: edificio del Banco Austro-Húngaro en Budapest, hoy sede del Banco Nacional de Hungría"
    }
   }
  }

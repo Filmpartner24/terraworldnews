@@ -222,6 +222,32 @@
     "img.alt": "Arşiv fotoğrafı: Burgas Adalet Sarayı"
    }
   },
+  "bulgarien-rechnungshof-debatte-pb-gerb-2026-11-04": {
+   "L": {
+    "body": [
+     "Parlamentonun talep ettiği Sayıştay’ın üç raporu, mecliste “Progresif Bulgaristan” ile GERB arasında sert bir tartışmaya yol açtı. Denetimler, 2020’den Gyurov hükümetinin görev süresinin sonuna kadar kamu maliyesini, emeklilik sigortasını ve karayolları ajansı API’yi kapsıyor. Bütçe Komisyonu Başkanı Konstantin Prodanov, kamu maliyesinin son derece sorumsuzca yönetildiğini söyledi; borçların 2024’te 2019’a kıyasla yaklaşık iki katına çıktığını belirtti. Milletvekili Stefan Beltchev ise “Bulgaristan bir borç tuzağında” dedi.",
+     "GERB milletvekili Temenuzhka Petkova, sorunun karşı tarafın yetersiz yönetiminden kaynaklandığını söyledi. Petkova’nın anlatımına göre denetimler, 2025 açığını daha büyük göstermek için 2026’ya ait harcamaları 2025’e kaydırmayı amaçladığı öne sürüldü. Aynı gruptan Nikolay Nankov, 8 milyar levadan fazla tutarındaki sözleşmelerin Bakan İvan Shishkov döneminde, dönemin Cumhurbaşkanı Rumen Radev’in atadığı geçici hükümet sırasında, onaylanmış bir bütçe ve güvence altına alınmış finansman olmadan imzalandığını söyledi. Bölgesel Kalkınma Bakanı Shishkov ise raporun “GERB’in 2009’dan 2025’e kadarki yönetiminin anatomisi” olduğunu söyleyerek karşılık verdi. Shishkov, diğer örneklerin yanı sıra Zhelyazkov hükümeti döneminde imzalandığını belirttiği, çok yüksek bedelli Kresna çevre yolu sözleşmesine dikkat çekti."
+    ],
+    "d": "İktidardaki “Progresif Bulgaristan” ile GERB, kamu maliyesi, emeklilik sigortası ve karayolları ajansına ilişkin üç denetim raporu üzerinde tartışıyor. Bakan Shishkov raporlara GERB yıllarının “anatomisi” dedi.",
+    "t": "“Borç tuzağı” mı, “GERB yıllarının anatomisi” mi: Raporlar Meclis’i böldü"
+   },
+   "at": "2026-11-04T07:21Z",
+   "h": "f69842c9f9a2",
+   "rev": [
+    "Headline: 'Prüfberichte entzweien Parlament' fine; 'Borç tuzağı mı ... anatomisi mi' acceptable.",
+    "Teaser: 'Minister Schischkow spricht von einer Anatomie' – draft says 'raporlara ... anatomisi dedi', acceptable.",
+    "Petkowa: 'Die Prüfungen sollten ... verschieben' was rendered as 'amaçlıyor' (a plain statement of purpose); it should be reported as her claim, with the conditional/reporting marker retained.",
+    "Nankow's claim: the draft 'imzalandığını söyledi' keeps the attribution, so it is fine."
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı (2016): Sofya’daki Ulusal Meclis binası"
+   }
+  },
   "bulgarien-schabla-evakuierung-code-rot-2026-11-04": {
    "L": {
     "body": [
@@ -1087,6 +1113,35 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Tutucusunda süper iletken kuantum işlemci çipi"
+   }
+  },
+  "ki-synology-nas-ransomware-2026-11-04": {
+   "L": {
+    "body": [
+     "Üretici Synology, ağ depolama cihazlarına (NAS) yönelik saldırılar konusunda uyarıyor. Şirketin açıklamasına göre suçlular, Aralık 2024'te zaten giderilmiş bir güvenlik açığından yararlanıyor ve eski DSM işletim yazılımına sahip cihazları hedef alıyor. Synology'ye göre amaç, verileri şifrelemek ve fidye talep etmek. Uzman portal The Hacker News'in haberine göre kullanıcılar Reddit'te, şifrelenen dosyalara “.L0CK3D” uzantısını ekleyen C3RB3R fidye yazılımıyla enfeksiyon yaşadıklarını bildirdi. Kaç cihazın etkilendiği bilinmiyor.",
+     "Synology, istismar edilen açığı açıkça belirtmiyor, ancak Kasım 2024 tarihli bir güvenlik bildirimine atıfta bulunuyor. Bu bildirimde, diğerlerinin yanı sıra, 10 üzerinden 9,8 puanla kritik olarak sınıflandırılan ve saldırganların uzaktan kod çalıştırmasına olanak tanıyabilen CVE-2024-10441 açığı da yer alıyor. Korunan cihazlar arasında DSM 7.2.2-72806-1, 7.2.1-69057-6, 7.2-64570-4, 7.1.1-42962-7 veya 6.2.4-25556-8 ve daha yeni sürümlere sahip olanlar da bulunuyor.",
+     "Synology, savunmasız sürümleri kullanan tüm kullanıcılardan DSM'yi hemen güncellemelerini ve otomatik güncellemeleri açmalarını istiyor. Ağ depolama cihazları yıllardır popüler bir hedef: The Hacker News, 2019'daki QNAPCrypt gibi önceki kampanyaları ve 2021'de Synology ile QNAP cihazlarına yönelik saldırıları hatırlatıyor."
+    ],
+    "d": "Saldırganlar, eski DSM sürümlerindeki Aralık 2024'ten beri kapatılmış bir açığı kullanarak ağ depolama cihazlarındaki verileri şifreliyor. Mağdurlar “.L0CK3D” uzantısını bildiriyor.",
+    "t": "Fidye saldırganları eski Synology depolama cihazlarını hedef alıyor: Üretici hemen güncelleme çağrısı yapıyor"
+   },
+   "at": "2026-11-04T07:21Z",
+   "flag": [
+    "Titel zu lang (109 Zeichen)"
+   ],
+   "h": "d68025ca3699",
+   "rev": [
+    "Headline: \"Fidye yazılımı\" does not match \"Erpresser\" (the attackers), and the headline is slightly altered; changed to attackers as the subject",
+    "Teaser: \"Mağdurlar ... bildiriyor\" is fine, but the phrase \"Aralık 2024'ten beri\" is correct; no change",
+    "Body 2: \"diğerlerinin yanı sıra\" appears twice and the last sentence is clumsy; \"Geschützt sind unter anderem Geräte\" reworded for clarity"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Ahşap bir masa üzerinde Synology ağ depolama cihazı (NAS)"
    }
   },
   "kultur-meshuggah-forty-year-anomaly-europa-tour-2026-11-04": {
@@ -1961,6 +2016,30 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: New York Borsası işlem salonu"
+   }
+  },
+  "wirtschaft-ungarn-euro-kriterien-2030-omfif-sofia-2026-11-04": {
+   "L": {
+    "body": [
+     "Macaristan, euroya geçiş kriterlerini 2030'a kadar karşılamak istiyor. Macaristan Merkez Bankası Başkan Yardımcısı Dániel Palotai, Salı günü Sofya'da OMFIF Forumu'nun düzenlediği tartışmada, bu durumda euroya geçişin 2031 veya 2032'de mümkün olabileceğini söyledi; haberi BTA haber ajansı aktardı. Palotai'ye göre kriterlerin kalıcı biçimde karşılanması hızdan daha önemli. Palotai, yıllık enflasyonun yüzde 1,6 düzeyinde olduğunu, ancak yükseldiğini belirtti. Palotai'ye göre Para Politikası Kurulu, 21 yıldır geçerli olan yüzde 3'lük enflasyon hedefini yüzde 2,5'e düşürdü; bu hedef 2028'den itibaren geçerli olacak.",
+     "Palotai'ye göre Macaristan'ın uzun vadeli devlet tahvillerinin getirileri 150 baz puandan fazla geriledi, on yıllık tahviller artık benzer Polonya tahvillerinden daha düşük getiri sağlıyor. Palotai, piyasaların bu iyimserliğinin hükümetin bütçe konsolidasyonuna ilişkin taahhütlerini yerine getirmesine bağlı olduğunu söyledi. Palotai'ye göre halkın euroya desteği hâlâ yüksek. Palotai, Macaristan'ın ERM II döviz kuru mekanizmasına katılmadan önce Avrupa Merkez Bankası ve AB Komisyonu ile yapıcı bir diyaloğa ihtiyaç duyduğunu ifade etti.",
+     "Hırvatistan Merkez Bankası Başkan Yardımcısı Michael Faulend, euroyu 2023'te kabul eden ülkesinin deneyimine dikkat çekti: Ona göre döviz kuru riskleri ortadan kalktı, faiz oranları euro bölgesine yaklaştı. Faulend'e göre fiyat artışlarının nedeni başta küresel etkenler ve yeni bir enerji şokuydu. Avusturya Merkez Bankası Başkanı Martin Kocher, büyük projelerde farklı hızlarda ilerlenmesini savundu. Kocher'e göre euro bölgesi 1999'da on bir ülkeyle başladı ve bugün 21 ülkeden oluşuyor; hepsinin aynı anda katılması gerekseydi, ortak para birimi büyük olasılıkla hiç ortaya çıkmayacaktı."
+    ],
+    "d": "Sofya'daki merkez bankacıları panelinde Macaristan Merkez Bankası Başkan Yardımcısı Palotai, 2031 veya 2032'de euroya geçişin mümkün olduğunu söyledi. Avusturya Merkez Bankası Başkanı Kocher iki hızlı Avrupa'yı savundu.",
+    "t": "Macaristan euro kriterlerini 2030'a kadar karşılamak istiyor – Merkez bankası enflasyon hedefini düşürdü"
+   },
+   "at": "2026-11-04T07:21Z",
+   "flag": [
+    "Titel zu lang (104 Zeichen)"
+   ],
+   "h": "91baf29c7ddd",
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Budapeşte'deki Avusturya-Macaristan Bankası binası, bugün Macaristan Merkez Bankası'nın merkezi"
    }
   }
  }
