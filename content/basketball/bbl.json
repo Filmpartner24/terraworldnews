@@ -8,7 +8,7 @@
   "tr": "easyCredit BBL (Almanya)"
  },
  "season": "2026/27",
- "asof": "2026-11-03",
+ "asof": "2026-11-04",
  "tables": [
   {
    "name": {},
@@ -16,10 +16,10 @@
    "rows": [
     {
      "team": "FC Bayern München Basketball",
-     "w": 5,
+     "w": 6,
      "l": 1,
-     "pf": 566,
-     "pa": 422
+     "pf": 674,
+     "pa": 488
     },
     {
      "team": "VET-CONCEPT Gladiators Trier",
@@ -78,13 +78,6 @@
      "pa": 573
     },
     {
-     "team": "Basketball Löwen Braunschweig",
-     "w": 3,
-     "l": 3,
-     "pf": 535,
-     "pa": 567
-    },
-    {
      "team": "ALBA BERLIN",
      "w": 3,
      "l": 4,
@@ -97,6 +90,13 @@
      "l": 4,
      "pf": 573,
      "pa": 594
+    },
+    {
+     "team": "Basketball Löwen Braunschweig",
+     "w": 3,
+     "l": 4,
+     "pf": 601,
+     "pa": 675
     },
     {
      "team": "EWE Baskets Oldenburg",
@@ -144,15 +144,6 @@
   }
  ],
  "matches": [
-  {
-   "t1": "Fitness First Würzburg Baskets",
-   "t2": "NINERS Chemnitz",
-   "date": "2026-10-26",
-   "ft": [
-    98,
-    88
-   ]
-  },
   {
    "t1": "Science City Jena",
    "t2": "SKYLINERS",
@@ -238,7 +229,10 @@
    "t1": "FC Bayern München Basketball",
    "t2": "Basketball Löwen Braunschweig",
    "date": "2026-11-03",
-   "time": "20:00"
+   "ft": [
+    108,
+    66
+   ]
   },
   {
    "t1": "ALBA BERLIN",
@@ -291,12 +285,16 @@
  ],
  "src": [
   {
-   "n": "easyCredit BBL – Tabelle (Stand 01.11.2026, geprüft 03.11.2026)",
+   "n": "easyCredit BBL – Tabelle (Stand 03.11.2026, 21:55 Uhr, geprüft 04.11.2026)",
    "u": "https://www.easycredit-bbl.de/saison/tabelle"
   },
   {
    "n": "easyCredit BBL – Aktuelle Spiele",
    "u": "https://www.easycredit-bbl.de/saison/aktuelle-spiele"
+  },
+  {
+   "n": "easyCredit BBL – FC Bayern wieder in der Spur: Kantersieg gegen Braunschweig (03.11.2026)",
+   "u": "https://easycredit-bbl.de/de/n/news/2026/november/fc-bayern-wieder-in-der-spur-kantersieg-gegen-braunschweig"
   },
   {
    "n": "easyCredit BBL – 69:67: Rostock schlägt Tabellenführer Bayern",
