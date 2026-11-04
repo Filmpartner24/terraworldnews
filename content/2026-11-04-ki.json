@@ -1,0 +1,408 @@
+{
+ "date": "2026-11-04",
+ "items": [
+  {
+   "id": "openai-tamagpt-astra-hardware",
+   "s": "ai",
+   "time": "12:30",
+   "kl": {
+    "de": "KI baut Hardware",
+    "bg": "ИИ проектира хардуер",
+    "en": "AI-built hardware"
+   },
+   "yt": {
+    "id": "NCxD-qsQcN0",
+    "ch": "OpenAI",
+    "kind": "video",
+    "t": {
+     "de": "TamaGPT",
+     "bg": "TamaGPT",
+     "en": "TamaGPT"
+    }
+   },
+   "src": [
+    {
+     "n": "AI Weekly – OpenAI: GPT-6 Astra Designed a Codex Companion Device in a Week (04.11.2026)",
+     "u": "https://aiweekly.co/alerts/openai-gpt-6-astra-designed-a-codex-companion-device-in-a-week"
+    },
+    {
+     "n": "The Neuron – Everything That Happened in AI Today, Wednesday, November 4 (04.11.2026)",
+     "u": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-4-2026/"
+    }
+   ],
+   "de": {
+    "t": "Gerät in einer Woche: OpenAI-KI entwirft Begleiter für Programmier-Agenten",
+    "d": "Zwei OpenAI-Ingenieure ließen GPT-6 Astra ein kleines Gerät mit Display und Sprechtaste entwerfen. Die Fertigung brauchte trotzdem mehrere Anläufe. Auf YouTube hat OpenAI ein Video mit dem Titel „TamaGPT“ veröffentlicht.",
+    "body": [
+     "OpenAI hat beschrieben, wie zwei Hardware-Ingenieure des Unternehmens mit dem eigenen KI-Modell GPT-6 Astra in weniger als einer Woche den funktionsfähigen Prototyp eines Geräts entworfen haben. Es handelt sich um eine Art Puck mit kleinem Display und Sprechtaste, mit dem der Forscher Justin Lin seine Programmier-Agenten in Codex im Blick behalten soll. Laut AI Weekly läuft das Nebenprojekt intern unter dem Namen „TamaGPT“; ein Video gleichen Titels hat OpenAI auf YouTube veröffentlicht.",
+     "Laut dem Bericht übernahm das Modell alle Schritte: Gehäuse, Platinenlayout, Bauteilauswahl, Leiterbahnen, Firmware und Bedienoberfläche. Bei der Fertigung durch einen Auftragshersteller waren dennoch mehrere Korrekturrunden nötig, weil die KI Fertigungsvorgaben, Toleranzen und Montagedetails nicht immer berücksichtigte. Eine kleine Serie von Prototypen lag nach weniger als einem Monat vor.",
+     "OpenAI nennt außerdem Zahlen aus internen Tests: Beim Benchmark BenchCAD 2.0, bei dem 3D-Bauteile per CAD-Code nachgebaut werden, erreichte ein noch unveröffentlichtes internes Modell 0,875 Punkte, GPT-6 Astra in der höchsten Denkstufe 0,594. Die monatliche Token-Nutzung der Hardware- und Infrastrukturteams sei seit Februar um das 23-Fache gestiegen. Unabhängig überprüfen lassen sich diese Angaben bislang nicht."
+    ]
+   },
+   "bg": {
+    "t": "Устройство за седмица: ИИ на OpenAI проектира помощник за програмиращи агенти",
+    "d": "Двама инженери от OpenAI накараха GPT-6 Astra да проектира малко устройство с дисплей и бутон за говорене. Производството все пак мина през няколко опита. В YouTube OpenAI публикува видео със заглавие „TamaGPT“.",
+    "body": [
+     "OpenAI описа как двама хардуерни инженери на компанията с помощта на собствения ИИ модел GPT-6 Astra са проектирали за по-малко от седмица работещ прототип на устройство. То представлява нещо като шайба с малък дисплей и бутон за говорене, с която изследователят Джъстин Лин да следи своите програмиращи агенти в Codex. Според AI Weekly вътрешно страничният проект се нарича „TamaGPT“; видео със същото заглавие OpenAI публикува в YouTube.",
+     "Според публикацията моделът е поел всички стъпки: корпус, разположение на платката, избор на компоненти, писти, фърмуер и потребителски интерфейс. При производството от външен изпълнител все пак са били нужни няколко кръга корекции, тъй като ИИ не винаги е отчитал производствените изисквания, допуските и детайлите при сглобяването. Малка серия прототипи е била готова за по-малко от месец.",
+     "OpenAI посочва и данни от вътрешни тестове: в бенчмарка BenchCAD 2.0, при който 3D детайли се възпроизвеждат чрез CAD код, все още непубликуван вътрешен модел е постигнал 0,875 точки, а GPT-6 Astra при най-високото ниво на разсъждение – 0,594. Месечното използване на токени в хардуерните и инфраструктурните екипи е нараснало 23 пъти от февруари насам. Засега тези данни не могат да бъдат проверени независимо."
+    ]
+   },
+   "en": {
+    "t": "A device in a week: OpenAI's AI designs a companion for coding agents",
+    "d": "Two OpenAI engineers had GPT-6 Astra design a small device with a display and push-to-talk button. Manufacturing still took several attempts. OpenAI has published a video titled \"TamaGPT\" on YouTube.",
+    "body": [
+     "OpenAI has described how two of its hardware engineers used the company's own AI model GPT-6 Astra to design a working prototype of a device in less than a week. It is a kind of puck with a small display and a push-to-talk button, meant to let researcher Justin Lin keep an eye on his coding agents in Codex. According to AI Weekly, the side project is called \"TamaGPT\" internally; OpenAI has published a video with the same title on YouTube.",
+     "According to the report, the model handled every step: enclosure, circuit board layout, component selection, trace routing, firmware and user interface. Manufacturing by a contract manufacturer still required several rounds of corrections, because the AI did not always account for manufacturing constraints, tolerances and assembly details. A small batch of prototypes was ready in less than a month.",
+     "OpenAI also cites figures from internal tests: on the BenchCAD 2.0 benchmark, in which 3D parts are reconstructed via CAD code, an unreleased internal model scored 0.875, while GPT-6 Astra at its highest reasoning setting scored 0.594. Monthly token usage by the hardware and infrastructure teams has grown 23-fold since February. These figures cannot yet be independently verified."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-04/openai-tamagpt-astra-hardware.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Coolcaesar",
+    "lic": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1515_Third_Street.jpg",
+    "alt": {
+     "de": "Archivbild: das Bürogebäude 1515 Third Street in Mission Bay, San Francisco, zur Aufnahmezeit Sitz von OpenAI (2025)",
+     "bg": "Архивна снимка: офис сградата 1515 Third Street в Мишън Бей, Сан Франциско, по време на снимката седалище на OpenAI (2025 г.)",
+     "en": "Archive image: the office building at 1515 Third Street in Mission Bay, San Francisco, OpenAI's headquarters when the photo was taken (2025)"
+    }
+   }
+  },
+  {
+   "id": "crowdstrike-falcon-europe-fiddler-dreadnode",
+   "s": "ai",
+   "time": "12:30",
+   "kl": {
+    "de": "KI-Sicherheit",
+    "bg": "Сигурност на ИИ",
+    "en": "AI security"
+   },
+   "yt": {
+    "id": "Jd1v8ekARFs",
+    "ch": "CrowdStrike",
+    "kind": "video",
+    "t": {
+     "de": "#FalConEurope2026: Securing the AI Revolution | George Kurtz, Bartley Richardson, & Timothee Lacroix",
+     "bg": "#FalConEurope2026: Securing the AI Revolution | George Kurtz, Bartley Richardson, & Timothee Lacroix",
+     "en": "#FalConEurope2026: Securing the AI Revolution | George Kurtz, Bartley Richardson, & Timothee Lacroix"
+    }
+   },
+   "src": [
+    {
+     "n": "ShiftDelete.Net – CrowdStrike Acquisition: Fiddler and Dreadnode for ~$495M (03.11.2026)",
+     "u": "https://shiftdelete.net/en/crowdstrike-acquisition"
+    },
+    {
+     "n": "Newscord – CrowdStrike Agrees To Acquire Fiddler AI And Dreadnode For $495 Million (03.11.2026)",
+     "u": "https://newscord.org/article/crowdstrike-agrees-to-acquire-fiddler-ai-and-dreadnode-for-495-million--Story_20261103_CrowdStriketoshellou0075d8ec"
+    },
+    {
+     "n": "TechnologyConference – Fal.Con Europe 2026, November 2–4, Fira Gran Via, Barcelona",
+     "u": "https://technologyconference.com/fal-con-europe-2026/"
+    }
+   ],
+   "de": {
+    "t": "Wächter für KI-Agenten: CrowdStrike kauft zwei Start-ups – Bericht nennt 495 Mio. Dollar",
+    "d": "Auf seiner Konferenz in Barcelona setzt CrowdStrike ganz auf die Absicherung von KI-Agenten. Fiddler AI soll ihr Verhalten aufzeichnen, Dreadnode sie vor dem Einsatz angreifen.",
+    "body": [
+     "Der US-Sicherheitskonzern CrowdStrike übernimmt die beiden KI-Sicherheitsfirmen Fiddler AI und Dreadnode. Den Kaufpreis nannte das Unternehmen nicht; nach einem Bericht des Wall Street Journal, den TechCrunch aufgriff, zahlt CrowdStrike rund 400 Millionen Dollar für Fiddler und etwa 95 Millionen Dollar für Dreadnode, überwiegend in bar. Beide Geschäfte sollen im vierten Quartal des Geschäftsjahres 2027 abgeschlossen werden, das im Januar 2027 endet.",
+     "Fiddler, gegründet 2018, entwickelt Werkzeuge, die Entscheidungen und Werkzeugaufrufe von KI-Agenten nachverfolgen, Abweichungen und erfundene Antworten erkennen und Prüfprotokolle führen. Dreadnode, gegründet 2023, greift KI-Systeme vor dem Start gezielt an und testet sie mit mehr als 100 bekannten Methoden wie Jailbreaks und Prompt-Injection. Zusätzlich stellte CrowdStrike einen „Notschalter“ vor, mit dem Administratoren außer Kontrolle geratenen Agenten den Zugriff auf KI-Modelle sperren, ihren Neustart verhindern und ihnen den Netzzugang entziehen können.",
+     "Die Ankündigungen fallen in die Zeit der Hausmesse Fal.Con Europe, die vom 2. bis 4. November in Barcelona stattfindet und unter dem Motto „Securing the AI Revolution“ steht. CrowdStrike hat einen Konferenzbeitrag mit Firmenchef George Kurtz auf YouTube veröffentlicht; laut Videotitel diskutieren darin auch Bartley Richardson und Timothée Lacroix mit."
+    ]
+   },
+   "bg": {
+    "t": "Пазач за ИИ агенти: CrowdStrike купува два стартъпа – доклад сочи 495 млн. долара",
+    "d": "На конференцията си в Барселона CrowdStrike залага изцяло на защитата на ИИ агенти. Fiddler AI трябва да записва поведението им, а Dreadnode – да ги атакува преди пускането им.",
+    "body": [
+     "Американската компания за киберсигурност CrowdStrike придобива двете фирми за сигурност на ИИ Fiddler AI и Dreadnode. Компанията не съобщи цената; според доклад на Wall Street Journal, цитиран от TechCrunch, CrowdStrike плаща около 400 млн. долара за Fiddler и около 95 млн. долара за Dreadnode, предимно в брой. Двете сделки трябва да приключат през четвъртото тримесечие на финансовата 2027 г., която завършва през януари 2027 г.",
+     "Fiddler, основана през 2018 г., разработва инструменти, които проследяват решенията и извикванията на инструменти от ИИ агенти, разпознават отклонения и измислени отговори и водят одитни записи. Dreadnode, основана през 2023 г., целенасочено атакува ИИ системи преди пускането им и ги тества с над 100 известни метода като jailbreak и prompt injection. Освен това CrowdStrike представи „авариен прекъсвач“, с който администраторите могат да спират достъпа до ИИ модели на излезли извън контрол агенти, да предотвратяват повторното им стартиране и да им отнемат достъпа до мрежата.",
+     "Обявленията съвпадат с фирменото изложение Fal.Con Europe, което се провежда от 2 до 4 ноември в Барселона под мотото „Securing the AI Revolution“. CrowdStrike публикува в YouTube запис от конференцията с главния изпълнителен директор Джордж Курц; според заглавието на видеото в дискусията участват и Бартли Ричардсън и Тимоте Лакроа."
+    ]
+   },
+   "en": {
+    "t": "Guards for AI agents: CrowdStrike buys two start-ups – report puts price at $495M",
+    "d": "At its conference in Barcelona, CrowdStrike is going all in on securing AI agents. Fiddler AI is to record their behaviour, Dreadnode to attack them before deployment.",
+    "body": [
+     "US security company CrowdStrike is acquiring the two AI security firms Fiddler AI and Dreadnode. The company did not disclose the price; according to a Wall Street Journal report picked up by TechCrunch, CrowdStrike is paying about $400 million for Fiddler and about $95 million for Dreadnode, mostly in cash. Both deals are expected to close in the fourth quarter of fiscal 2027, which ends in January 2027.",
+     "Fiddler, founded in 2018, develops tools that trace the decisions and tool calls of AI agents, detect drift and made-up answers and keep audit trails. Dreadnode, founded in 2023, deliberately attacks AI systems before launch, testing them with more than 100 known methods such as jailbreaks and prompt injection. CrowdStrike also presented a \"kill switch\" that lets administrators block rogue agents' access to AI models, prevent them from relaunching and cut their network access.",
+     "The announcements coincide with the company's Fal.Con Europe conference, held in Barcelona from 2 to 4 November under the motto \"Securing the AI Revolution\". CrowdStrike has published a conference session with CEO George Kurtz on YouTube; according to the video title, Bartley Richardson and Timothée Lacroix also take part."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-04/crowdstrike-falcon-europe-fiddler-dreadnode.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Toni Rodrigo",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gran_Via_venue_of_Fira_de_Barcelona_01.jpg",
+    "alt": {
+     "de": "Archivbild: Haupteingang des Messegeländes Fira Gran Via in Barcelona, Austragungsort der Fal.Con Europe",
+     "bg": "Архивна снимка: главният вход на изложбения център Fira Gran Via в Барселона, където се провежда Fal.Con Europe",
+     "en": "Archive image: main entrance of the Fira Gran Via exhibition grounds in Barcelona, venue of Fal.Con Europe"
+    }
+   }
+  },
+  {
+   "id": "github-copilot-jetbrains-air",
+   "s": "ai",
+   "time": "12:30",
+   "kl": {
+    "de": "KI-Programmierung",
+    "bg": "ИИ за програмиране",
+    "en": "AI coding"
+   },
+   "yt": {
+    "id": "uhQ-kFaFIFc",
+    "ch": "GitHub",
+    "kind": "video",
+    "t": {
+     "de": "A new way to use GitHub Copilot in JetBrains IDEs",
+     "bg": "A new way to use GitHub Copilot in JetBrains IDEs",
+     "en": "A new way to use GitHub Copilot in JetBrains IDEs"
+    }
+   },
+   "src": [
+    {
+     "n": "GitHub Changelog – GitHub Copilot is now available in JetBrains Air (03.11.2026)",
+     "u": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air/"
+    },
+    {
+     "n": "Microsoft for Java Developers – GitHub Copilot is now a default agent in JetBrains Air (03.11.2026)",
+     "u": "https://devblogs.microsoft.com/java/github-copilot-jetbrains-air/"
+    }
+   ],
+   "de": {
+    "t": "Copilot zieht bei JetBrains ein: KI-Agent arbeitet in Air lokal oder in der Cloud",
+    "d": "GitHub Copilot steht ab sofort als Standard-Agent in JetBrains Air zur Auswahl. Entwickler können Aufgaben abgeben, mehrere Agenten parallel laufen lassen und Änderungen direkt prüfen.",
+    "body": [
+     "GitHub hat seinen KI-Programmierassistenten Copilot in JetBrains Air integriert, ein Werkzeug des tschechischen Softwareherstellers JetBrains, mit dem Entwickler Programmieraufgaben an KI-Agenten abgeben, deren Arbeit steuern und die Ergebnisse prüfen. Copilot wird dort über eine Agentenauswahl eingestellt, Nutzer melden sich mit ihrem bestehenden Copilot-Abo an. Seit dem 3. November lassen sich Aufgaben mit Copilot in Air auch in der Cloud ausführen.",
+     "Die Anbindung beruht auf dem offenen Agent Client Protocol (ACP) und wurde gemeinsam mit JetBrains gebaut. Entwickler können mehrere Agentensitzungen parallel verfolgen und Änderungen neben ihrem Code durchsehen. Aufgaben laufen wahlweise lokal oder in abgeschotteten Cloud-Umgebungen; für Letzteres braucht es ein Firmenkonto mit Air Teams, verrechnet wird über den Copilot-Tarif statt über JetBrains-KI-Guthaben.",
+     "Microsoft empfiehlt für den vollen Funktionsumfang weiterhin das eigene Copilot-Plugin, Air sei die schlanke, eingebaute Variante. Dort fehlen unter anderem Copilots Code-Review und eine Sandbox für lokale Ausführung. GitHub hat dazu ein Video auf seinem YouTube-Kanal veröffentlicht."
+    ]
+   },
+   "bg": {
+    "t": "Copilot влиза в JetBrains: ИИ агентът работи в Air локално или в облака",
+    "d": "GitHub Copilot вече може да бъде избран като агент по подразбиране в JetBrains Air. Разработчиците могат да възлагат задачи, да пускат няколко агента паралелно и да проверяват промените директно.",
+    "body": [
+     "GitHub интегрира своя ИИ асистент за програмиране Copilot в JetBrains Air – инструмент на чешкия производител на софтуер JetBrains, с който разработчиците възлагат програмни задачи на ИИ агенти, насочват работата им и проверяват резултатите. Copilot се избира там чрез меню за агенти, а потребителите влизат със съществуващия си абонамент за Copilot. От 3 ноември задачите с Copilot в Air могат да се изпълняват и в облака.",
+     "Връзката се основава на отворения Agent Client Protocol (ACP) и е изградена съвместно с JetBrains. Разработчиците могат да следят паралелно няколко сесии с агенти и да преглеждат промените до своя код. Задачите се изпълняват по избор локално или в изолирани облачни среди; за второто е нужен фирмен акаунт с Air Teams, а таксуването е по тарифата на Copilot вместо с ИИ кредити на JetBrains.",
+     "Microsoft продължава да препоръчва собствения плъгин на Copilot за пълния набор от функции, а Air описва като олекотения вграден вариант. Там липсват наред с другото прегледът на код от Copilot и пясъчник за локално изпълнение. GitHub публикува по темата видео в своя YouTube канал."
+    ]
+   },
+   "en": {
+    "t": "Copilot moves into JetBrains: AI agent works in Air locally or in the cloud",
+    "d": "GitHub Copilot can now be selected as a default agent in JetBrains Air. Developers can hand off tasks, run several agents in parallel and review changes directly.",
+    "body": [
+     "GitHub has integrated its AI coding assistant Copilot into JetBrains Air, a tool from Czech software maker JetBrains in which developers hand off coding tasks to AI agents, steer their work and review the results. Copilot is chosen there through an agent picker, with users signing in using their existing Copilot subscription. Since 3 November, Copilot tasks in Air can also be run in the cloud.",
+     "The integration is based on the open Agent Client Protocol (ACP) and was built together with JetBrains. Developers can follow several agent sessions in parallel and review changes alongside their code. Tasks run either locally or in isolated cloud environments; the latter requires a business account with Air Teams and is billed through the Copilot plan rather than JetBrains AI credits.",
+     "Microsoft still recommends its own Copilot plugin for the full feature set, describing Air as the lightweight, built-in option. Air lacks, among other things, Copilot code review and a sandbox for local execution. GitHub has published a video on the topic on its YouTube channel."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-04/github-copilot-jetbrains-air-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Copilot zieht bei JetBrains ein",
+     "bg": "Заглавна графика: Copilot влиза в JetBrains",
+     "en": "Title graphic: Copilot moves into JetBrains"
+    }
+   }
+  },
+  {
+   "id": "fal-16-milliarden-bewertung",
+   "s": "ai",
+   "time": "12:30",
+   "mn": true,
+   "kl": {
+    "de": "Finanzierung",
+    "bg": "Финансиране",
+    "en": "Funding"
+   },
+   "src": [
+    {
+     "n": "TechCrunch – AI inference startup Fal doubles its valuation to $16B as demand surges (03.11.2026)",
+     "u": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/"
+    },
+    {
+     "n": "SiliconANGLE – Generative media inference startup fal raises $1.3B at a $16B valuation (03.11.2026)",
+     "u": "https://siliconangle.com/2026/11/03/generative-media-inference-startup-fal-raises-1-3b-at-a-16b-valuation/"
+    }
+   ],
+   "de": {
+    "t": "Rechenkraft für KI-Videos: Start-up Fal holt 1,3 Mrd. Dollar – Bewertung verdoppelt",
+    "d": "Fal betreibt KI-Modelle für Bilder, Videos und Ton für fremde Kunden. Nach Bloomberg-Angaben ist das Start-up jetzt 16 Milliarden Dollar wert – doppelt so viel wie im April.",
+    "body": [
+     "Das Start-up Fal aus San Francisco hat in einer Finanzierungsrunde 1,3 Milliarden Dollar eingesammelt. Wie Bloomberg berichtet, wird das Unternehmen dabei mit 16 Milliarden Dollar bewertet, doppelt so hoch wie bei der vorigen Runde im April. Angeführt wurde die neue Runde von Bessemer Venture Partners, beteiligt sind unter anderem Nvidia, Sound Ventures und T. Rowe Price. Zusammen mit der Aprilrunde unter Führung von Sequoia kommen 2026 damit 1,65 Milliarden Dollar zusammen.",
+     "Fal betreibt eine Cloud-Plattform, auf der Entwickler über eine einzige Programmierschnittstelle Modelle für Bild-, Video- und Tonerzeugung nutzen können. Kunden sind nach SiliconANGLE-Angaben unter anderem Unterhaltungsstudios, Werbeagenturen und Spieleentwickler. Der Jahresumsatz auf Hochrechnungsbasis überstieg nach Angaben aus dem Umfeld des Unternehmens in diesem Jahr 800 Millionen Dollar.",
+     "Mitgründer und Firmenchef Burkay Gur sagte laut SiliconANGLE, die Nachfrage sei im Sommer so stark gestiegen, dass Fal Kunden drosseln musste. Das Geld soll in Rechenleistung und neue Mitarbeiter fließen, Fal hat derzeit 185 Beschäftigte. Laut TechCrunch bleiben die Margen in der Branche wegen der hohen Kosten für gekaufte oder gemietete Rechenleistung dünn."
+    ]
+   },
+   "bg": {
+    "t": "Изчислителна мощ за ИИ видео: стартъпът Fal набира 1,3 млрд. долара – оценката се удвоява",
+    "d": "Fal управлява ИИ модели за изображения, видео и звук за външни клиенти. Според Bloomberg стартъпът вече струва 16 млрд. долара – двойно повече, отколкото през април.",
+    "body": [
+     "Стартъпът Fal от Сан Франциско набра 1,3 млрд. долара в кръг на финансиране. Според Bloomberg компанията е оценена на 16 млрд. долара – двойно повече, отколкото при предишния кръг през април. Новият кръг е воден от Bessemer Venture Partners, а сред участниците са Nvidia, Sound Ventures и T. Rowe Price. Заедно с априлския кръг, воден от Sequoia, през 2026 г. компанията е събрала общо 1,65 млрд. долара.",
+     "Fal управлява облачна платформа, на която разработчиците чрез един-единствен програмен интерфейс използват модели за генериране на изображения, видео и звук. Сред клиентите според SiliconANGLE са развлекателни студиа, рекламни агенции и разработчици на игри. Годишните приходи на база екстраполация са надхвърлили тази година 800 млн. долара според източник, запознат с компанията.",
+     "Съоснователят и главен изпълнителен директор Буркай Гюр е заявил според SiliconANGLE, че през лятото търсенето е нараснало толкова, че Fal е трябвало да ограничава клиенти. Парите ще отидат за изчислителна мощ и нови служители – в момента Fal има 185 души персонал. Според TechCrunch маржовете в бранша остават тънки заради високите разходи за купена или наета изчислителна мощ."
+    ]
+   },
+   "en": {
+    "t": "Compute for AI video: start-up Fal raises $1.3 billion – valuation doubles",
+    "d": "Fal runs AI models for images, video and audio for outside customers. According to Bloomberg, the start-up is now worth $16 billion – twice as much as in April.",
+    "body": [
+     "San Francisco start-up Fal has raised $1.3 billion in a funding round. According to Bloomberg, the company is valued at $16 billion, double its valuation in the previous round in April. The new round was led by Bessemer Venture Partners, with participation from Nvidia, Sound Ventures and T. Rowe Price, among others. Together with the April round led by Sequoia, this brings the total raised in 2026 to $1.65 billion.",
+     "Fal operates a cloud platform on which developers can use image, video and audio generation models through a single programming interface. Customers include entertainment studios, advertising agencies and game developers, according to SiliconANGLE. Annualised revenue passed $800 million this year, according to a person familiar with the company.",
+     "Co-founder and CEO Burkay Gur said, according to SiliconANGLE, that demand rose so sharply in the summer that Fal had to rate-limit customers. The money is to go into computing power and new staff; Fal currently has 185 employees. According to TechCrunch, margins in the sector remain thin because of the high cost of buying or leasing compute."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-04/fal-16-milliarden-bewertung.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Ryan Schwark",
+    "lic": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Francisco_skyline_from_Marin_Headlands.jpg",
+    "alt": {
+     "de": "Symbolbild: die Skyline von San Francisco, Sitz von Fal, von den Marin Headlands aus",
+     "bg": "Символна снимка: силуетът на Сан Франциско, където е седалището на Fal, погледнат от Марин Хедландс",
+     "en": "Symbolic image: the San Francisco skyline, home of Fal, seen from the Marin Headlands"
+    }
+   }
+  },
+  {
+   "id": "deepmind-london-schweigeklausel",
+   "s": "ai",
+   "time": "12:30",
+   "mn": true,
+   "kl": {
+    "de": "KI-Branche",
+    "bg": "ИИ индустрия",
+    "en": "AI industry"
+   },
+   "src": [
+    {
+     "n": "Missouri Lawyers Media / The Washington Post – Google researchers push to end non-disparagement clauses (03.11.2026)",
+     "u": "https://molawyersmedia.com/2026/11/03/google-deepmind-workers-demand-freedom-from-non-disparagement/"
+    },
+    {
+     "n": "Seoul Economic Daily – Google DeepMind Workers Push Back on Lifetime Gag Clause (04.11.2026)",
+     "u": "https://en.sedaily.com/international/2026/11/04/google-deepmind-workers-push-back-on-lifetime-gag-clause"
+    }
+   ],
+   "de": {
+    "t": "Lebenslang keine Kritik? DeepMind-Beschäftigte in London wehren sich gegen Vertragsklausel",
+    "d": "Arbeitsverträge bei Google DeepMind in London verbieten offenbar Kritik am Konzern – auch nach dem Ausscheiden. Google will die Klausel bei Ehemaligen nicht durchsetzen.",
+    "body": [
+     "Bei Google DeepMind in London gibt es Streit um eine Klausel in Arbeitsverträgen. Nach einem Bericht der Washington Post verbietet sie einem Teil der britischen Beschäftigten, sich abfällig über das Unternehmen zu äußern – und zwar lebenslang, also auch nach dem Ausscheiden. Dutzende Beschäftigte hätten das Thema auf einer internen Nachrichtenplattform diskutiert, einige spielten dabei auf George Orwells Roman „1984“ an.",
+     "Ausgelöst wurde die Debatte laut Seoul Economic Daily, nachdem die frühere Mitarbeiterin Sofia Liguori im Oktober der BBC gesagt hatte, sie habe sich über ihre Vertragsbeschränkungen hinweggesetzt, um Googles Entwicklung von KI für militärische Zwecke zu kritisieren. Ein Beschäftigter sagte der Washington Post, falls die Klausel nicht durchsetzbar sei, diene sie im Grunde dazu, Menschen einzuschüchtern. Mitarbeiter fürchten, dass sie zur Selbstzensur bei Warnungen vor KI-Risiken führt.",
+     "Google erklärte, die Klausel werde gegenüber ehemaligen Beschäftigten nicht durchgesetzt. Ein Sprecher teilte mit: „We've always encouraged an open dialogue about safety and responsibility.“ Für neue Mitarbeiter habe das Unternehmen die Bedingungen bereits geändert und die Geltung nach dem Ausscheiden gestrichen. Die Beschäftigten fordern, dass die Klausel auch aus bestehenden Verträgen entfernt wird."
+    ]
+   },
+   "bg": {
+    "t": "Доживотна забрана за критика? Служители на DeepMind в Лондон се противопоставят на клауза",
+    "d": "Трудовите договори в Google DeepMind в Лондон очевидно забраняват критика към концерна – и след напускане. Google заявява, че няма да прилага клаузата спрямо бивши служители.",
+    "body": [
+     "В Google DeepMind в Лондон има спор за клауза в трудовите договори. Според Washington Post тя забранява на част от британските служители да се изказват пренебрежително за компанията – доживотно, тоест и след напускането им. Десетки служители обсъждали темата във вътрешна платформа за съобщения, като някои намеквали за романа на Джордж Оруел „1984“.",
+     "Според Seoul Economic Daily дебатът е започнал, след като бившата служителка София Лигуори заявила през октомври пред BBC, че е пренебрегнала договорните си ограничения, за да критикува разработването на ИИ за военни цели от Google. Един служител казал пред Washington Post, че ако клаузата не може да бъде приложена, тя по същество служи за сплашване на хората. Служителите се опасяват, че тя води до самоцензура при предупреждения за рисковете от ИИ.",
+     "Google заяви, че клаузата няма да се прилага спрямо бивши служители. Говорител заяви: „We've always encouraged an open dialogue about safety and responsibility.“ („Винаги сме насърчавали открития диалог за безопасността и отговорността.“) За новите служители компанията вече е променила условията и е премахнала действието след напускане. Служителите искат клаузата да бъде премахната и от съществуващите договори."
+    ]
+   },
+   "en": {
+    "t": "No criticism for life? DeepMind staff in London push back against contract clause",
+    "d": "Employment contracts at Google DeepMind in London apparently bar criticism of the company – even after leaving. Google says it will not enforce the clause against former staff.",
+    "body": [
+     "A dispute has broken out at Google DeepMind in London over a clause in employment contracts. According to a Washington Post report, it bars some UK staff from disparaging the company – for life, meaning even after they leave. Dozens of employees discussed the issue on an internal messaging platform, with some alluding to George Orwell's novel \"1984\".",
+     "According to the Seoul Economic Daily, the debate was triggered after former employee Sofia Liguori told the BBC in October that she had disregarded her contractual restrictions to speak out against Google's development of AI for military use. One employee told the Washington Post that if the clause is not enforceable, its purpose is basically to intimidate people. Staff fear it leads to self-censorship over warnings about AI risks.",
+     "Google said it would not enforce the clause against former employees. A spokesperson said: \"We've always encouraged an open dialogue about safety and responsibility.\" The company said it had already updated its terms for new hires, removing the post-termination aspect. Employees want the clause removed from existing contracts as well."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-04/deepmind-london-schweigeklausel.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Jim Osley",
+    "lic": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:King%27s_Cross_,_Google_Building_-_geograph.org.uk_-_7583656.jpg",
+    "alt": {
+     "de": "Archivbild: das Google-Gebäude in King's Cross, London",
+     "bg": "Архивна снимка: сградата на Google в Кингс Крос, Лондон",
+     "en": "Archive image: the Google building at King's Cross, London"
+    }
+   }
+  },
+  {
+   "id": "google-schulen-ki-suche-standard",
+   "s": "ai",
+   "time": "12:30",
+   "mn": true,
+   "kl": {
+    "de": "KI in der Schule",
+    "bg": "ИИ в училище",
+    "en": "AI in schools"
+   },
+   "src": [
+    {
+     "n": "Android Central – Google will let schools turn off AI, but they'll have to give up Search too (04.11.2026)",
+     "u": "https://www.androidcentral.com/apps-software/school-google-and-ai"
+    },
+    {
+     "n": "The Neuron – Everything That Happened in AI Today, Wednesday, November 4 (04.11.2026)",
+     "u": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-4-2026/"
+    },
+    {
+     "n": "PPC Land – Google will cut Search for K-12 students in schools that keep AI off (04.11.2026)",
+     "u": "https://ppc.land/google-will-cut-search-for-k-12-students-in-schools-that-keep-ai-off/"
+    },
+    {
+     "n": "Tech Insider – Google softens school Search rule after AI ban backlash (04.11.2026)",
+     "u": "https://tech-insider.org/google-softens-school-search-rule-ai-ban-backlash-2026/"
+    }
+   ],
+   "de": {
+    "t": "Ohne KI keine Suche? Googles neue Schulregeln lösen in den USA Kritik aus",
+    "d": "Google will Gemini und die Suche für Schülerkonten standardmäßig abschalten. Nach Kritik stellte der Konzern klar: Schulen können die Suche auch ohne Gemini freigeben.",
+    "body": [
+     "Google ändert die Einstellungen für Schülerkonten an Schulen bis zur zwölften Klasse: Gemini, Gemini Notebook und weitere KI-Werkzeuge des Konzerns sollen dort standardmäßig ausgeschaltet sein – ebenso die Google-Suche –, bis Administratoren sie freigeben. Angekündigt hat Google das am 3. November in einem Blogbeitrag von Bildungs-Vizepräsident Chris Phillips; laut New York Times greift die Regel Anfang 2027, Google selbst spricht von den kommenden Monaten.",
+     "Der Haken: Weil KI über die „AI Overviews“ und den „AI Mode“ fest in die Suche eingebaut sei, verlieren Schulen, die Googles KI komplett sperren, auch die Suchmaschine. Phillips sagte der New York Times, Suche und KI seien eng miteinander verflochten. Schülerinnen und Schüler sehen dann den Hinweis, der Dienst sei über ihre Schule nicht verfügbar. Für die Suche in Schulen kündigte Google zudem den Modus „Guided Learning“ an, der Aufgaben Schritt für Schritt erklärt, statt fertige Antworten zu liefern.",
+     "Kritik kam unter anderem von New Yorks Bürgermeister Zohran Mamdani, der früheren Chefin der US-Wettbewerbsbehörde FTC Lina Khan und der Lehrergewerkschafts-Chefin Randi Weingarten. Noch am selben Tag stellte Google über seinen Account @NewsFromGoogle auf X klar, dass Schulen Gemini, Gemini Notebook und die Suche jeweils einzeln einschalten können – die Suche also auch ohne Gemini. Google spricht von mehr Wahlfreiheit für die Schulen; offen blieb, ob die freigegebene Suche dann weiterhin KI-Funktionen enthält."
+    ]
+   },
+   "bg": {
+    "t": "Без ИИ няма търсене? Новите правила на Google за училищата предизвикват критики в САЩ",
+    "d": "Google иска да изключи по подразбиране Gemini и търсачката за ученически акаунти. След критики концернът уточни: училищата могат да разрешат търсенето и без Gemini.",
+    "body": [
+     "Google променя настройките на ученическите акаунти в училищата до 12. клас: Gemini, Gemini Notebook и други ИИ инструменти на концерна ще бъдат изключени там по подразбиране – както и търсачката Google –, докато администраторите не ги разрешат. Google обяви това на 3 ноември в блог публикация на вицепрезидента за образованието Крис Филипс; според New York Times правилото влиза в сила в началото на 2027 г., а самата Google говори за идващите месеци.",
+     "Уловката: тъй като ИИ е вграден в търсенето чрез „AI Overviews“ и „AI Mode“, училищата, които напълно блокират ИИ на Google, губят и търсачката. Филипс заяви пред New York Times, че търсенето и ИИ са тясно преплетени. Тогава учениците виждат съобщение, че услугата не е достъпна чрез тяхното училище. За търсенето в училищата Google обяви и режима „Guided Learning“, който обяснява задачите стъпка по стъпка, вместо да дава готови отговори.",
+     "Критики дойдоха наред с други от кмета на Ню Йорк Зохран Мамдани, бившата председателка на американския регулатор за конкуренцията FTC Лина Хан и председателката на учителския синдикат Ранди Уайнгартен. Още същия ден Google уточни чрез профила си @NewsFromGoogle в X, че училищата могат да включват Gemini, Gemini Notebook и търсенето поотделно – тоест търсенето и без Gemini. Google говори за по-голяма свобода на избор за училищата; остана неясно дали разрешеното търсене ще продължи да съдържа ИИ функции."
+    ]
+   },
+   "en": {
+    "t": "No AI, no Search? Google's new school rules draw criticism in the US",
+    "d": "Google wants to switch off Gemini and Search by default for student accounts. After criticism, the company clarified that schools can enable Search without Gemini.",
+    "body": [
+     "Google is changing the settings for student accounts at K-12 schools: Gemini, Gemini Notebook and the company's other AI tools are to be switched off by default there – and so is Google Search – until administrators turn them on. Google announced this on 3 November in a blog post by its vice president of education Chris Phillips; according to the New York Times the rule takes effect in early 2027, while Google itself speaks of the coming months.",
+     "The catch: because AI is built into Search through AI Overviews and AI Mode, schools that block Google's AI completely also lose the search engine. Phillips told the New York Times that Search and AI are deeply intertwined. Students then see a message saying the service is not available through their school. For Search in schools, Google also announced a \"Guided Learning\" mode that walks through problems step by step rather than giving finished answers.",
+     "Criticism came from New York Mayor Zohran Mamdani, former US Federal Trade Commission chair Lina Khan and teachers' union leader Randi Weingarten, among others. Later the same day, Google clarified via its @NewsFromGoogle account on X that schools can switch on Gemini, Gemini Notebook and Search individually – meaning Search without Gemini. Google speaks of more choice for schools; it remained unclear whether Search, once enabled, will still include AI features."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-04/google-schulen-ki-suche-standard.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Dietmar Rabich",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mountain_View_(CA,_USA),_Charleston_Road,_Google-Schild_--_2022_--_2896.jpg",
+    "alt": {
+     "de": "Archivbild: Google-Schild an der Charleston Road in Mountain View, Kalifornien (2022)",
+     "bg": "Архивна снимка: табела на Google на Charleston Road в Маунтин Вю, Калифорния (2022 г.)",
+     "en": "Archive image: Google sign on Charleston Road in Mountain View, California (2022)"
+    }
+   }
+  }
+ ]
+}
