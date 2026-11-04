@@ -376,6 +376,30 @@
     "kl": "ABD"
    }
   },
+  "deutsche-boerse": {
+   "L": {
+    "body": [
+     "Dax (Almanya'nın borsaya kote en büyük 40 şirketi) Salı günü 25.864,62 puanda kapandı; bu, 116,47 puanlık veya %0,45'lik bir düşüş anlamına geliyor. Endeks güne yaklaşık 25.678 puana (−%1,2) kadar gerileyerek başladı, daha sonra kısa süreliğine 26.000 puanın üzerine çıktı ancak bu seviyeyi yine koruyamadı. MDax (orta ölçekli şirketler) %0,36, Euro Stoxx 50 (euro bölgesinin büyük şirketleri) ise %0,51 değer kaybetti (dpa-AFX).",
+     "ABD'nin İran'a yönelik yeni saldırılarına ilişkin haberler piyasaları baskıladı ve petrol fiyatları başlangıçta yükseldi; ABD Başkanı Donald Trump saldırıları daha sonra doğruladı. Ayrıca yatırımcılar, sonuçlarının Çarşamba'ya bağlayan gece açıklanması beklenen ABD ara seçimleri öncesinde temkinli davrandı. Dax'ın en güçlü hissesi Bayer (+%3,64) oldu: Şirket, güçlü ilaç işi sayesinde 2026 kâr tahminini yükseltti. Lufthansa (MDax) çeyreklik rakamların ardından yaklaşık %4 kazandı.",
+     "Dax'ta en çok kaybeden Zalando (−%6,30) oldu; analistler brüt marjı eleştirdi, yatırımcılar ise Ekim'deki toparlanmanın ardından kâr realizasyonuna gitti. Fresenius Medical Care, yeni genel müdürün yıllık hedefleri düşürmesi nedeniyle %3,60, MTU ise Bank of America'nın alım tavsiyesini geri çekmesinin ardından %3,12 değer kaybetti. Küçük ölçekli hisselerde Teamviewer, şirketin 2026 için artık satışlarda düşüş beklemesi nedeniyle %26,8 çöktü; bu durum SAP (−%1,8) ve Nemetschek (−%3,5) gibi yazılım hisselerini de aşağı çekti."
+    ],
+    "d": "Dax Salı günü 25.865 puanda (−%0,45) kapandı ve yeniden 26.000 puanı aşamadı. ABD'nin İran'a yönelik yeni saldırıları petrol fiyatını geçici olarak yükseltti. Bayer %3,6 yükseldi, Zalando %6,3 düştü.",
+    "explain": "Alman hisseleri, petrolün pahalanması ve ABD seçim sonucu öncesindeki belirsizlik nedeniyle hafif geriledi. Bazı şirketlerde çeyreklik rakamlar her iki yönde de çok sert dalgalanmalara yol açtı.",
+    "t": "Dax ABD seçim gününde %0,45 kaybetti, Teamviewer %27 değer yitirdi"
+   },
+   "at": "2026-11-04T08:08Z",
+   "h": "f2097e78f7b4",
+   "rev": [
+    "Broken phrase 'Çarşamba'ya bağlayan gece' (should be 'Çarşamba'ya bağlayan gece' ‑ ungrammatical 'sonuçlarının ... bağlayan gece açıklanması'); fixed to 'Çarşamba'ya karşı gece'",
+    "Headline: Teamviewer %27 'değer yitirdi' is fine; no change",
+    "Draft says Dax 'kapandı ve yeniden 26.000 puanı aşamadı' in teaser, fine"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ]
+  },
   "deutschland-berlin-gruene-spd-lehnen-cdu-sondierung-ab-2026-11-04": {
    "L": {
     "body": [
@@ -1481,6 +1505,32 @@
     "img.alt": "Sembolik fotoğraf: Dülmen'de Noel aydınlatmalı alışveriş caddesi"
    }
   },
+  "moicano-karriereende-drei-kaempfe-influencer-boxen": {
+   "L": {
+    "body": [
+     "Renato Moicano MMA kariyerinin sonunu görüyor. Ariel Helwani ile yaptığı söyleşide Brezilyalı dövüşçü, UFC sözleşmesinde hâlâ üç dövüşünün kaldığını belirtti: “Sözleşmemi tamamlamak istiyorum ve tamamladığımda artık MMA dövüşmek istemiyorum.” Bu üç dövüşten sonra iş bitecek; çünkü Moicano, UFC'nin kendisine yeterince ödeme yapmayacağına inanıyor.",
+     "Moicano bunun yerine influencer boksuna yöneliyor. “Dövüşmeyi bilmeyen insanları dövmek” istediğini söyledi. Uyarıcı bir örnek olarak, üst üste sekiz yenilgiden sonra UFC'den ayrılan Tony Ferguson'u gösterdi: “Tony Ferguson gibi olmak istemiyorum.” Ardından şunları ekledi: “Bazen işinin bittiğini fark etmen gerekir.”",
+     "Moicano (21-8-1) son dört dövüşünün üçünü kaybetti. En son 31 Ekim'de Las Vegas'taki UFC Vegas 123'ün ana dövüşünde üçüncü rauntta teknik nakavtla Tom Nolan'a yenildi. Hakem ikinci rauntta Moicano'nun baskın pozisyonunu bozmuştu; yorumcular bu kararı eleştirdi."
+    ],
+    "d": "Tom Nolan'a yenilmesinin ardından Renato Moicano MMA kariyerini bitirmeyi düşünüyor. Sözleşmesini üç dövüşle tamamlayıp bırakmak istediğini, çünkü UFC'nin kendisine yeterince ödeme yapmayacağını söyledi.",
+    "t": "Moicano veda planlıyor: Üç UFC dövüşünün ardından influencer boksuna geçmek istiyor"
+   },
+   "at": "2026-11-04T08:08Z",
+   "h": "eb7fbc95c168",
+   "rev": [
+    "Teaser: indirect speech is attributed, but the sentence structure is slightly off; it is acceptable, no change needed",
+    "Body paragraph 1: 'Moicano'ya göre ... inanıyor' is a doubled and clumsy attribution; smoothed",
+    "Last paragraph: the German 'nachdem' (after the referee broke up a dominant position) is rendered as a separate sentence; this is acceptable, but 'Hakem' lacks the link and the sentence reads as a pla"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "UFC oktagonu (Sembolik fotoğraf)"
+   }
+  },
   "oktagon-100-vemola-narkun-prag": {
    "L": {
     "body": [
@@ -1579,6 +1629,32 @@
     "img.alt": "FC Villarreal stadyumu (Arşiv fotoğrafı)"
    }
   },
+  "strom-ibex": {
+   "L": {
+    "body": [
+     "Bulgaristan elektrik borsası IBEX (BNEB), üreticilerin, tüccarların ve büyük şirketlerin toptan elektrik alıp sattığı piyasadır. Gün öncesi piyasasında ertesi günün her saati için fiyat, bir gün önceki açık artırmada belirlenir. 4 Kasım Çarşamba için günlük ortalama (baz) KDV hariç megavat saat başına 301,69 Euro. Bu, Salı günkü 296,65 Euro'dan %1,70 fazla.",
+     "Gün içinde tablo değişiyor. Pik saatler (borsa saatleri 9–20) ortalama 315,39 Euro; bu, Salı günkü 328,17 Euro'dan %3,89 daha düşük. Diğer saatlerde (pik dışı) megavat saat 288,00 Euro; 265,14 Euro'dan %8,62 daha yüksek. Gündüz ile gece elektriği arasındaki fark böylece megavat saat başına 63,03 Euro'dan 27,39 Euro'ya belirgin biçimde düşüyor (kendi hesabımız).",
+     "Toplam 98.156,72 megavat saat işlem görüyor; bu, Salı günkü 94.090,28 MWh'den yaklaşık %4,3 fazla (kendi hesabımız). Pik döneme 48.813,12 MWh, diğer döneme 49.343,60 MWh düşüyor. Verilerin kendisi değişikliğin nedenini belirtmiyor.",
+     "Bölgede de fiyatlar hafifçe yükseliyor. 3e-news'e göre megavat saat 4 Kasım'da ortalama Romanya'da (OPCOM) 300,84 Euro, Macaristan'da (HUPX) 302,31 Euro ve Yunanistan'da (HENEX, geçici) 279,70 Euro. Almanya'da bu rakam 248,99 Euro. Bulgaristan, Romanya ve Macaristan ile neredeyse aynı seviyede (kendi karşılaştırmamız)."
+    ],
+    "d": "4 Kasım için IBEX ortalama fiyatı KDV hariç megavat saat başına 301,69 Euro; Salı gününün %1,7 üzerinde. Pik saatler %3,9 ucuzlarken gece elektriği %8,6 pahalanıyor.",
+    "explain": "Elektriği borsa fiyatlarıyla satın alan şirketler Çarşamba günü Salı gününe göre ortalama yaklaşık %2'ye yakın (%2'den az) daha fazla ödüyor; gündüz ucuzluyor, gece pahalanıyor. Hanehalkları, düzenleyici kurum KEVR'in belirlediği fiyatları ödüyor; faturaları bu nedenle doğrudan değişmiyor.",
+    "t": "Bulgaristan'da borsa elektriği Çarşamba günü %1,7 pahalandı: 301,69 Euro/MWh"
+   },
+   "at": "2026-11-04T08:08Z",
+   "h": "cdc390a02120",
+   "rev": [
+    "Headline: \"pahalı\" is not idiomatic for \"teurer\" (a rise); replaced with \"pahalandı\".",
+    "Teaser: \"Pik saatler %3,9 ucuzlarken\" is fine, but \"Salı gününün %1,7 üzerinde\" is acceptable; no change.",
+    "Explain: \"yaklaşık %2'den biraz az daha fazla\" is garbled for \"knapp 2 % mehr\".",
+    "\"Haneler\" for Haushalte is awkward; changed to \"Haneler\" → \"Hanehalkları\"."
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ]
+  },
   "supermicro-quartal-ki-server-2026-11-04-b08": {
    "L": {
     "body": [
@@ -1602,6 +1678,32 @@
    ],
    "x": {
     "img.alt": "Bir veri merkezinde sunucu sıraları (Sembolik fotoğraf)"
+   }
+  },
+  "tumbleweed-wien-seed-mikrogravitation-2026-11-04": {
+   "L": {
+    "body": [
+     "Viyanalı girişim Tumbleweed, Tech Funding News ve Trending Topics'in 3 Kasım'da bildirdiğine göre 6,9 milyon avroluk seed finansmanını tamamladı. Turu PactVC yönetiyor; ayrıca Vanagon Ventures, Prototype Capital, EWOR, diğer uluslararası yatırımcılar ve melek yatırımcılar da yer alıyor. Şirkete göre bu, bir Avusturya uzay girişiminin en büyük seed turu. Viyana ve Delft'te çalışan 25 kişilik ekibin üçte birinden fazlası kendi parasını yatırdı. Şirket 2024'te Julian Rothenbuchner, Guillaume Brault ve Leonhard Goliasch tarafından kuruldu.",
+     "Ürünün adı “Pod”: müşterilerin yörüngedeki deneylerine elektrik ve veri bağlantısı sağlayan, önceden sertifikalı bir kap. Tech Funding News'e göre Rothenbuchner, asıl engelin roket yeri değil, yıllar sürebilen sertifikasyon olduğunu savundu. İlk görev olan 3,6 kilogramlık küçük uydu “Oasis Alpha”, Temmuz'da SpaceX'in Falcon 9 roketiyle fırlatıldı ve aralarında TU Delft'in de bulunduğu dört müşterisi vardı. Görevler 15.000 avrodan başlıyor; şirkete göre süreç beş kat daha hızlı ve ISS'teki benzer bir deneyin onda biri kadar maliyetli. Rothenbuchner, mikro yerçekiminin “a widely accessible industrial resource” (geniş çapta erişilebilir bir endüstriyel kaynak) olabileceğini söyledi.",
+     "Elde edilen para, 2027'de üç yeni fırlatmanın finansmanında kullanılacak; şirkete göre bu fırlatmalar için tıp, biyoteknoloji ve tarım teknolojisi alanlarından ondan fazla müşteri şimdiden rezervasyon yaptı. 2028'den itibaren “Oasis Beta” görevinin, numuneleri kendi kapsülüyle Dünya'ya geri getirmesi planlanıyor. Sektör, sıfır yerçekiminde araştırma ve üretimde fırsatlar görüyor. Riskler ise büyük: Tumbleweed kendi ifadesine göre SpaceX'e büyük ölçüde bağımlı, numunelerin geri getirilmesi henüz denenmedi, maliyet ve hız verileri şirketten geliyor ve ABD'den Varda ya da Münih'ten The Exploration Company gibi rakipler çok daha fazla sermaye topladı."
+    ],
+    "d": "Uzay girişimi, yörüngedeki deneyler için önceden sertifikalı kaplar satıyor; görev başına fiyat 15.000 avrodan başlıyor. Şirkete göre bu, Avusturya uzay sektörünün en büyük seed turu.",
+    "t": "Sıfır yerçekiminde deneyler: Viyanalı girişim Tumbleweed 6,9 milyon avro topladı"
+   },
+   "at": "2026-11-04T08:08Z",
+   "h": "1d9f833fd5c8",
+   "rev": [
+    "\"on'dan fazla\" is an incorrect form; the Turkish should be \"ondan fazla\" (no apostrophe on a number written in words)",
+    "\"Tech Funding News'e göre Rothenbuchner ... savundu\" is acceptable, so it is left unchanged",
+    "Teaser: \"seed turu\" lacks the \"bir\" parallel to the body text, but the meaning is fine"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Bir CubeSat, ISS'den uzaya bırakılıyor (Sembolik fotoğraf, NASA 2024)"
    }
   },
   "welt-bangladesch-naeherinnen-lohnstreit-2026-11-04": {
