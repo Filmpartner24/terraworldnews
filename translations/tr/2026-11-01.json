@@ -5638,6 +5638,32 @@
     "img.alt": "Wolfsburg'daki VW fabrikası (Arşiv fotoğrafı)"
    }
   },
+  "wallstreet": {
+   "L": {
+    "body": [
+     "Çıkış noktası: Cuma günü, 30 Ekim'de Dow Jones (30 büyük ABD şirketi) 51.770,31 puandan (−%1,09), S&P 500 (en büyük 500 şirket) 7.580,07 puandan (−%1,82) ve Nasdaq Composite (çok sayıda teknoloji hissesi) 25.437,00 puandan (−%2,86) kapandı. Haftalık bazda: Dow −%0,9, S&P 500 −%0,6, Nasdaq −%2,0. Ekim ayında: Nasdaq −%5,3, S&P 500 −%0,9, Dow +%1,7. Intel, zayıf bir görünümün ardından bir günde %28,6 değer kaybetti (Investing.com).",
+     "ABD'de 3 Kasım Salı günü ara seçimler yapılacak: Temsilciler Meclisi'nin tüm koltukları ve Senato'nun yaklaşık üçte biri seçilecek. Mesele, Demokratların Kongre'nin kontrolünü Başkan Trump'ın Cumhuriyetçilerinden devralıp devralmayacağı (Reuters). Fed (ABD Merkez Bankası) 28 Ekim'de politika faizini %3,75-4,00 aralığında sabit bıraktı; iki üye faiz artırmak istedi. Reuters'ın haftalık beklenti raporuna göre (Tech Insider'ın aktarımıyla) piyasalar Aralık'ta faiz artışı için yaklaşık %80 olasılık fiyatlıyor.",
+     "6 Kasım Cuma günü 14:30'da (Orta Avrupa Saati) Ekim ayı istihdam raporu açıklanacak. Eylül'de yalnızca 29.000 yeni istihdam yaratıldı, işsizlik oranı %4,2 oldu. Bloomberg'e göre (Bloomingbit'in aktarımıyla) ekonomistler 65.000 yeni istihdam bekliyor. Öncesinde ISM endeksleri (satın alma yöneticileri arasında sipariş ve üretime ilişkin anketler) açıklanacak: Pazartesi sanayi, Çarşamba hizmet sektörü için. ABD'de 1 Kasım'da yaz saati uygulaması sona erdiği için bu haftadan itibaren New York ile saat farkı yeniden altı saat.",
+     "Şirket bilançoları: Pazartesi akşamı Apple ve Palantir, Salı AMD, Amgen ve Booking, Çarşamba McDonald's, Uber, Qualcomm ve Arm, Perşembe ConocoPhillips ve Airbnb (Stock Titan, Dow Jones). Hafta sonu: Reuters'a göre OPEC+, Pazar günkü toplantıda Aralık ayı üretim hedeflerini değiştirmemek konusunda prensipte anlaştı. İran Devrim Muhafızları, Cuma ile Cumartesi arasında Hürmüz Boğazı'nda dört tankerin yandığını öne sürüyor; bu bağımsız kaynaklarca doğrulanmış değil (The National). İngiliz deniz güvenliği kuruluşu UKMTO, Ekim'de gemileri ilgilendiren 30'dan fazla olay kaydetti; bu, daha önceki hiçbir savaş ayında görülmemiş bir sayı."
+    ],
+    "d": "Nasdaq'ın Mart 2025'ten bu yana en zayıf ayının ardından yoğun bir hafta: Pazartesi Apple ve Palantir bilanço açıklıyor, Salı ABD ara seçimleri, Cuma istihdam raporu var.",
+    "explain": "Seçimler, istihdam verileri ve büyük teknoloji şirketlerinin bilançoları bu hafta fiyatlarda sert hareketlere yol açabilir. Bu durum ABD hisseleri içeren fonları ve dolar kurunu, dolayısıyla birçok birikim planını etkiliyor.",
+    "t": "Teknoloji düşüşünün ardından Wall Street seçimlere, istihdam raporuna ve Apple'a bakıyor"
+   },
+   "at": "2026-11-04T10:26Z",
+   "h": "9233c9dd867d",
+   "rev": [
+    "Headline: 'nach dem Tech-Einbruch' was rendered as 'teknoloji düşüşü öncesi' (before the tech slump), which reverses the time relation",
+    "'Arbeitsmarktbericht' in the headline became 'istihdam raporu' (fine), but the headline needs 'sonrası' framing and must stay within 90 characters",
+    "'beträgt der Zeitunterschied' – fine; 'Einkäufer' = 'satın alma yöneticileri' is acceptable",
+    "'explain': 'betrifft' stays as is"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ]
+  },
   "wandsitzen-blutdruck-studie-2026-11-01": {
    "L": {
     "body": [
