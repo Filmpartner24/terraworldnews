@@ -277,6 +277,36 @@
     "kl": "Berlin"
    }
   },
+  "berlin-polizist-bestohlen-festnahme-schoeneberg-2026-11-05-b1530": {
+   "L": {
+    "body": [
+     "Berlin-Schöneberg'de bir polis memuru, boş zamanında yankesicilikle şüphelenilen bir kişiyi yakaladı. Berlin Polisi'nin açıklamasına göre memur, salı öğleden sonra saat 16:30 civarında Kleiststraße'de birinin sırt çantasını karıştırdığını fark etti. Arkasını döndüğünde iki adam kaçmaya başladı.",
+     "Polis, ikisinden birini yakalamayı başardı; ikisi de yere düştü. Polis olduğunu belirtti ve takviye ekipler gelene kadar adamı tuttu; o sırada görevde olmayan bir kadın polis de ona yardım etti. 26 yaşındaki şüphelinin gözaltına karşı direndiği iddia ediliyor. Üst aramasında memurlar bir biber gazı ve bir çakı buldu ve ikisine de el koydu.",
+     "Adam polis gözaltına alındı. Soruşturmanın devamını Eyalet Kriminal Dairesi'nin uzman bir komiserliği devraldı. Polis olayı perşembe günü duyurdu."
+    ],
+    "d": "Görev dışındaki bir polis, Kleiststraße'de sırt çantasının açıldığını fark etti. Bir meslektaşının yardımıyla 26 yaşındaki bir adamı yakaladı. LKA soruşturmayı yürütüyor.",
+    "t": "Yanlış kurban: Şüpheli yankesici Schöneberg'de polisin sırt çantasına el attı"
+   },
+   "at": "2026-11-05T14:08Z",
+   "h": "f868145177ae",
+   "rev": [
+    "Weekdays 'Salı' and 'Perşembe' wrongly capitalised (TDK: lowercase)",
+    "'Landeskriminalamt' left in German in parentheses; the Turkish term is enough",
+    "Grammar: 'komiserliği devraldı' – subject/object order is awkward; 'bir komiserlik devraldı' is more natural",
+    "'iddiaya göre yankesicilik yapan bir şüpheli' is awkward; 'şüpheli yankesici' preserves the hedge better",
+    "'Polis olduğunu belirtti' lacks the explicit 'kendini' – more natural: 'Polis olduğunu söyledi'",
+    "Teaser: 'mit Hilfe einer Kollegin' rendered as 'bir meslektaşının' – 'bir meslektaşı' is gender-neutral and acceptable, so left unchanged"
+   ],
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin Polisi'ne ait devriye aracı (Sembolik fotoğraf)",
+    "kl": "Berlin"
+   }
+  },
   "buatsi-hutchinson-2-favorit-manchester": {
    "L": {
     "body": [
@@ -1368,6 +1398,32 @@
     "img.alt": "Sembolik fotoğraf: Dolce & Gabbana'nın Roma'daki butiği"
    }
   },
+  "dongguk-duennschicht-akku-anodenlos": {
+   "L": {
+    "body": [
+     "Seul'deki Dongguk University'den Hyun-Suk Kim'in ekibi, son derece ince bir katı hal bataryası tanıttı. Hücrenin tamamı yalnızca 2,77 mikrometre kalınlığında; yani bir insan saçından belirgin biçimde daha ince. Batarya “anotsuz” olarak üretildi: Hazır bir lityum anot yerine, lityum şarj sırasında doğrudan bir bakır akım toplayıcının üzerinde birikiyor. Bu, hacim başına enerji yoğunluğunu artırıyor ve üretimi basitleştiriyor; ancak lityum kaybı kolayca yaşandığı için kontrolü zor kabul ediliyor.",
+     "Lityumun düzgün biçimde birikmesi için araştırmacılar bakır toplayıcıyı kalay ve karbondan oluşan çok ince bir ara katmanla kapladı. Katot olarak amorf lityum-vanadyum oksit, katı elektrolit olarak ise LiPON kullanılıyor. Ayrıca ilk şarj döngülerindeki kayıpları dengelemek için önceden ince bir lityum rezervi uygulanıyor. Hücre, 100. döngüde litre başına 235 watt saatlik hacimsel enerji yoğunluğuna ulaştı; ancak bu, çok yavaş şarj ve deşarjda (0,01 C) gerçekleşti.",
+     "Araştırmacılar, bataryanın giyilebilir cihazlarda, bağlantılı sensörlerde ve tıbbi cihazlarda kullanılabileceğini düşünüyor; ilerleyen dönemde bu ilke daha büyük anotsuz katı hal bataryalarına da aktarılabilir. Sonuçlar, ince film hücreler üzerinde elde edilen laboratuvar sonuçları; açıklamada piyasaya sürülebilirlik düzeyine ilişkin bir bilgi yer almıyor. Çalışma Advanced Energy Materials dergisinde yayımlandı."
+    ],
+    "d": "Dongguk Üniversitesi araştırmacıları, hazır anot gerektirmeyen, yalnızca 2,77 mikrometre kalınlığında bir katı hal bataryası geliştirdi. Batarya giyilebilir cihazlar, sensörler ve tıbbi cihazlar için tasarlandı.",
+    "t": "Saçtan ince pil: Seul'deki ekip klasik anot içermeyen katı hal bataryası geliştirdi"
+   },
+   "at": "2026-11-05T14:08Z",
+   "h": "0cfbff7e1e69",
+   "rev": [
+    "Headline: \"Seul'lü ekip\" is awkward and the headline needs a natural wording (minor).",
+    "\"zur Marktreife macht die Mitteilung keine Angaben\" was rendered as \"piyasaya sürülme olasılığıyla ilgili\" (probability of launch), which changes the meaning; it should be about market readiness.",
+    "\"Dongguk Üniversitesi\" in the teaser and \"Dongguk University\" in the body are inconsistent (minor)."
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Dongguk University'nin Seul'deki binası, arka planda N Seoul Tower"
+   }
+  },
   "ecco-schliesst-fabriken-portugal-vietnam-2400-stellen": {
    "L": {
     "body": [
@@ -2030,6 +2086,33 @@
     "kl": "70 yıl önce bugün"
    }
   },
+  "hoffenheim-crystal-palace-europa-league-2026-11-05-b1530": {
+   "L": {
+    "body": [
+     "TSG Hoffenheim, Avrupa Ligi lig aşamasının dördüncü maçı öncesinde zor bir durumda. Christian Ilzer'in öğrencileri perşembe akşamı (18:45, RTL+ ve Sky) Londra'daki Selhurst Park'ta Konferans Ligi şampiyonu Crystal Palace'a konuk olacak. OFI Girit ve Beşiktaş karşısındaki yenilgilerin ve Olympique Lyon'a karşı 3-0'lık galibiyetin ardından Hoffenheim üç puanla 23. sırada; Palace'ın dört puanı var.",
+     "TSG son olarak Bundesliga'da Werder Bremen deplasmanında 0-2 yenildi ve DFB Kupası'nda ikinci lig ekibi Holstein Kiel'e elendi. Ilzer'in sekiz oyuncusu eksik; medya haberlerine göre bunlar arasında Valentin Gendrey (kaval kemiği kırığı), Patrick Wimmer, Nathan De Cat ve Albian Hajdari de var. Avusturyalı teknik direktör, “Bizim için kolay bir durum değil. Ama sızlanmak istemiyoruz” dedi. “Takımım için endişelenmiyorum. Bu tür dönemlerde insan gelişebilir de.”",
+     "Kaptan Oliver Baumann da mücadeleci bir tavır sergiliyor: “Durumumuz kolay değil. Ama yolumuzdan sapmazsak bu bizi güçlü kılacak.” Palace de form krizinde: Premier Lig'de Londra ekibi sondan üçüncü sırada ve son olarak Tottenham Hotspur deplasmanında 0-2 yenildi. Londra ekibinin kadrosunda eski Bundesliga oyuncuları Jean-Philippe Mateta, Daichi Kamada ve Chris Richards bulunuyor."
+    ],
+    "d": "Sekiz sakat oyuncusu ve yalnızca üç puanıyla TSG, bugün 18:45'te Avrupa Ligi'nde Crystal Palace'ın konuğu. Teknik direktör Christian Ilzer, dayanışmaya güveniyor.",
+    "t": "Hoffenheim Londra'da: Ilzer, Crystal Palace deplasmanında “sızlanmak istemiyor”"
+   },
+   "at": "2026-11-05T14:08Z",
+   "h": "a0f899f4ded4",
+   "rev": [
+    "Gendrey'in sakatlığı: Wadenbeinbruch 'kaval kemiği kırığı' değil, 'fibula (kaval kemiği) kırığı'; Almanca 'Wadenbein' = fibula, Türkçede 'kaval kemiği' tibia'yı da karıştırabilir, ancak 'kaval kemiği'",
+    "'Zusammenhalt' = 'birlik olması' yerine 'dayanışma' daha doğal",
+    "'Sieger der Conference League' = 'Konferans Ligi şampiyonu' kabul edilebilir, değiştirilmedi",
+    "Ilzer'in öğrencileri: 'das Team von Trainer Ilzer' için deyimsel kullanım kabul edilebilir"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Londra'daki Selhurst Park (Arşiv fotoğrafı)"
+   }
+  },
   "hormus-tanker-brand-revolutionsgarden-2026-11-05-b11": {
    "L": {
     "body": [
@@ -2127,6 +2210,22 @@
     3,
     0
    ]
+  },
+  "joshua-wong-zehn-jahre-haft-2026-11-05-b1530": {
+   "L": {
+    "body": [
+     "Hong Kong'da bir mahkeme, demokrasi aktivisti Joshua Wong'u Perşembe günü on yıl daha hapse mahkum etti. Wong, Pekin'in çıkardığı ulusal güvenlik yasası uyarınca Hong Kong ve Çin'e yaptırım uygulanmasını sağlamak amacıyla yabancı güçlerle iş birliği yaptığını kabul etmişti. İddianameye göre bunu, Temmuz ile Kasım 2020 arasında sürgünde yaşayan aktivist Nathan Law ile birlikte yaptı.",
+     "Hakim William Tam, eylemin “ağır nitelikte” olduğunu, bu nedenle müebbet hapis cezasının da mümkün olabileceğini söyledi. Hakim, başlangıç noktası olarak 13 yıl belirledi ve itirafı nedeniyle cezayı ona indirdi. Wong, aralarında devrimi amaçlama suçunun da bulunduğu nedenlerle yaklaşık altı yıldır cezaevinde; aslında Ocak 2027'de tahliye edilmesi gerekiyordu. Euronews'in verdiği bilgiye göre tahliyesi artık ancak 2036 sonunda bekleniyor.",
+     "Human Rights Watch kararı “acımasız ve adaletsiz” olarak nitelendirdi, Tayvan'ın Anakara Konseyi ise “bitmeyen siyasi baskı”dan söz etti. Uluslararası Af Örgütü, güvenlik yasasının muhalefeti cezalandırmak için bir araca dönüştüğünü belirtti. Hong Kong polisi ise kararın, Wong'un yabancı yaptırımlar için gösterdiği çabaların “boşuna” olduğunu kanıtladığını açıkladı."
+    ],
+    "d": "Yabancı güçlerle iş birliğinden mahkum edildi: Ocak'ta tahliye edilmesi gereken demokrasi aktivisti, tahminen 2036 sonuna kadar cezaevinde kalacak.",
+    "t": "Hong Kong: Aktivist Joshua Wong'a on yıl daha hapis cezası verildi"
+   },
+   "at": "2026-11-05T14:08Z",
+   "h": "c7da18b4de6c",
+   "x": {
+    "img.alt": "Joshua Wong (Arşiv fotoğrafı, 2019)"
+   }
   },
   "joyce-sparringspartner-fury-tipp": {
    "L": {
@@ -2453,6 +2552,36 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: DSÖ Genel Direktörü Tedros Adhanom Ghebreyesus"
+   }
+  },
+  "knds-bund-einstieg-50-prozent-2026-11-05-b1530": {
+   "L": {
+    "body": [
+     "Birbirini doğrulayan medya haberlerine göre Alman hükümeti, Alman-Fransız tank üreticisi KNDS’ye ortak olmaya hazırlanıyor. İlk olarak “Handelsblatt”ın haberleştirdiği gizli bir hükümet belgesine göre federal hükümet, Braunbehrens ve Bode ailelerine ait Wegmann-Holding’in yüzde 50’lik hissesinin satın alınması konusunda anlaştı. Diğer yarısı Fransız devletinin elinde bulunuyor. Anlaşma şimdiye kadar resmen doğrulanmadı.",
+     "Haber ajansı Reuters’in, Federal Meclis Bütçe Komisyonu için hazırlanan bir taslağa dayanarak verdiği bilgiye göre satın alma bedelinin 7,2 milyar avronun altında olması öngörülüyor. Komisyon bu tutarı haziranda, başlangıçta planlanan yüzde 40’lık hisse için onaylamıştı. Haberlere göre sözleşmenin kasımda imzalanması, devralmanın ise aralıkta tamamlanması planlanıyor.",
+     "Ekonomi Bakanlığı, tank üretimindeki stratejik teknolojilerin korunması gerektiğine dikkat çekiyor. Habere göre hükümet, şirketin yabancı yatırımcılara satılmasından endişe ediyordu. KNDS, diğer ürünlerin yanı sıra Leopard 2 muharebe tankını ve Puma zırhlı muharebe aracını üretiyor; en büyük müşterisi Alman Silahlı Kuvvetleri (Bundeswehr). Daha sonra Almanya ve Fransa’nın her birinin yaklaşık yüzde 10 hisse devretmesi planlanıyor; halka arz seçeneği ise masada kalıyor."
+    ],
+    "d": "Haberlere göre Alman hükümeti, Wegmann-Holding ile bu şirketin KNDS hissesinin satın alınması konusunda anlaştı. Fiyatın, haziranda onaylanan 7,2 milyar avronun altında kalacağı belirtiliyor.",
+    "t": "KNDS: Berlin iddiaya göre %50'sini 7,2 milyar avronun altında alacak"
+   },
+   "at": "2026-11-05T14:08Z",
+   "h": "48bc2c39db2d",
+   "rev": [
+    "Month names capitalised against TDK (Haziran, Kasım, Aralık are written in lowercase mid-sentence)",
+    "\"Holding\" left untranslated; \"Wegmann-Holding\" is a proper name, so it stays, but the \"d\" teaser lost the \"Bund\" ownership detail and the share size",
+    "Teaser: \"KNDS hissesinin\" lacks \"ihre\" (the Wegmann stake) – clarified",
+    "Body 1: \"ile bu şirketin yüzde 50'lik hissesi\" is ambiguous/wrong: the stake belongs to Wegmann, not KNDS",
+    "Body 3: \"KNDS ... da üretiyor\" adds \"da\" (also) not in German; \"unter anderem\" lost",
+    "Body 3: \"Später sollen ... abgeben\" fine; \"Dem Bericht zufolge\" ok",
+    "Headline: \"%50’sini\" ok; \"Bund\" rendered as hükümet; acceptable"
+   ],
+   "rev_dbg": [
+    7,
+    6,
+    0
+   ],
+   "x": {
+    "img.alt": "Leopard 2A7 muharebe tankı (Sembolik fotoğraf)"
    }
   },
   "kultur-bryan-adams-album-hows-it-goin-2026-11-05": {
@@ -3212,6 +3341,32 @@
     "kl": "ABD"
    }
   },
+  "milan-ferencvaros-amorim-2026-11-05": {
+   "L": {
+    "body": [
+     "AC Milan perşembe akşamı San Siro’da Avrupa Ligi lig aşamasının dördüncü haftasında Ferencváros Budapeşte’yi konuk ediyor. Başlangıç durumu rahatsız edici: Bir galibiyet ve iki mağlubiyetin ardından, son olarak AFC Bournemouth deplasmanında alınan 0-3’lük yenilgiyle, Milan üç puanla yalnızca 24. sırada yer alıyor. Ferencváros ise üç maçı da kazandı ve Amorim’e göre kendi liginde de henüz yenilmedi.",
+     "“Avrupa Ligi’nde memnun değilim, Serie A’da da memnun değilim. Bence daha iyisini yapabiliriz” dedi Amorim; oysa Milan ligde beşinci sırada ve hafta sonu derbide Inter’i 3-1 yendi. “Küçük bir takım büyük maçlar için endişelenir. Hayır, her maç büyük bir maç.”",
+     "Portekizli teknik adam rotasyon yapacaklarını açıkladı: “Bazı oyuncuları rotasyona sokmak zorunda kalacağız, ama maçı kazanma sorumluluğumuz var.” Amorim, Ferencváros maçının kendisine takımı hakkında Inter derbisinden daha fazla şey göstereceğini söyledi."
+    ],
+    "d": "Inter karşısında 3-1’lik derbi galibiyetinin ardından teknik direktör Rúben Amorim istikrar istiyor. Milan Avrupa Ligi’nde üç maçta yalnızca üç puan topladı, rakip Ferencváros ise dokuz puana sahip.",
+    "t": "Amorim Ferencváros maçı öncesi: “Her maç büyük bir maç” – Milan baskı altında"
+   },
+   "at": "2026-11-05T14:08Z",
+   "h": "f6175a93a4b3",
+   "rev": [
+    "Paragraph 2: the German says Amorim spoke although Milan is fifth in the league and won the derby. The draft turns this into Amorim 'reminding' of these facts, which changes who said what.",
+    "Paragraph 3: 'verraten werde' is indirect speech and was rendered as a plain future ('göstereceğini'); 'verraten' should be 'öğreteceğini' (will tell/reveal).",
+    "Paragraph 1: 'Durum rahatsız edici' is an unnatural rendering of 'Die Ausgangslage ist unbequem'."
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    1
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Milano’daki San Siro Stadyumu"
+   }
+  },
   "nahverkehr-fahrpreise-2027-deutschlandticket-2026-11-05-b08": {
    "L": {
     "body": [
@@ -3317,6 +3472,58 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Yerleştirme istasyonunda Nintendo Switch 2"
+   }
+  },
+  "northwestern-flip-exoplanet-jwst-video": {
+   "L": {
+    "body": [
+     "Northwestern Üniversitesi (Illinois), James Webb Uzay Teleskobu görüntüleri için yeni bir değerlendirme yöntemine ilişkin video yayımladı. Yöntemin adı FLIP (Physics-based Learning for Imaging Planets). Yöntem, bir yıldızın ışığının teleskobun optiği içinde nasıl ilerlediğini simüle ediyor, bu “dijital ikizin” milyonlarca parametresini gerçek gözlemlere uyarlıyor ve ardından simüle edilen yıldız ışığını görüntüden çıkarıyor. Çalışma 4 Kasım'da Nature dergisinde yayımlandı.",
+     "Yöntem, iki yıllık Webb görüntülerinde gaz devi 51 Eridani b'yi görünür kıldı. Gezegen daha önce Dünya'daki teleskoplarla keşfedilmişti, ancak Webb verilerinde yıldızının parıltısı içinde kayboluyordu. Sönük gezegenlere duyarlılık, gözleme bağlı olarak 2 ila 15 kat arttı. Açıklamaya göre genç dev gezegenler, yıldızlarından 100.000 kata kadar daha sönük parlayabiliyor.",
+     "Çalışmanın ilk yazarı doktora öğrencisi Rodrigo Ferrer-Chavez, ortak yazarı ise fizik ve astronomi yardımcı doçenti Jason Wang. Wang, yapay zekâ modellerinin eğitilmesinde kullanılan aynı hesaplama araçlarını kullandıklarını belirtti ve “ancak aslında yapay zekâ kullanmadık” dedi. Yöntem, son derece kararlı bir optik gerektiren ve planlanan NASA teleskobu Habitable Worlds Observatory için de önemli olabilir."
+    ],
+    "d": "Northwestern Üniversitesi araştırmacıları, James Webb Uzay Teleskobu'nun “dijital ikizi” ile görüntülerden yıldız ışığını çıkarıyor. Böylece iki yıllık verilerde 51 Eridani b gezegeni görünür oldu.",
+    "t": "Yıldız ışığı çıkarıldı: Northwestern videosu Webb verilerindeki gizli gezegeni gösteriyor"
+   },
+   "at": "2026-11-05T14:08Z",
+   "h": "6fdba4cd0e8c",
+   "rev_dbg": [
+    4,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Gaz devi 51 Eridani b'nin sanatsal tasviri (Arşiv fotoğrafı, 2015)",
+    "kl": "Uzay araştırmaları"
+   }
+  },
+  "nvidia-h200-chips-hongkong-china-2026-11-05-b1530": {
+   "L": {
+    "body": [
+     "Reuters'ın haberine göre Hong Kong'da, anakara Çin için hazırlanmış yaklaşık 600.000 Nvidia H200 yapay zekâ çipi bekliyor. Haber ajansı perşembe günü, konuya yakın iki kişiye dayandırdığı haberinde Pekin'in büyük çaplı ithalata şimdiye kadar onay vermediğini bildirdi. Washington, H200'ün onaylı Çinli müşterilere satışına izin vermişti; Reuters'a göre Çin ise ABD teknolojisine bağımlılık konusunda endişe duyuyor.",
+     "Kapı tamamen kapalı değil: Kişilerden birine göre, birkaç büyük Çinli internet şirketi son aylarda yaklaşık 10.000'er H200 almış olabilir; içeriden kişilere göre daha küçük miktarlar ise aracılar üzerinden ülkeye girdi. Sekiz H200 kartlı bir sunucu Ekim ayı sonunda Çin'de 6 milyon yuan'ın (yaklaşık 900.000 dolar) üzerinde bir fiyatla satışa sunuldu; bu, bir yıl öncesinin yaklaşık üç katı.",
+     "Reuters'a göre Nvidia, Alibaba, ByteDance, Tencent, DeepSeek ile Çin Sanayi Bakanlığı ve planlama kurumu soruları yanıtlamadı. The Information sitesinin daha önceki bir haberine göre Pekin, yerli şirketlerin yapay zekâ modellerini çalıştırmak için öncelikle Çin yapımı işlemcileri kullanmasını istiyor."
+    ],
+    "d": "H200 işlemcileri anakara Çin'e geçmeyi bekliyor, ancak Pekin içeriden kişilere göre büyük çaplı ithalata onay vermiyor. Bir H200 sunucusunun fiyatı orada artık üç katına çıktı.",
+    "t": "Pekin frene bastı: Reuters'a göre HK'de yaklaşık 600 bin Nvidia YZ çipi birikti"
+   },
+   "at": "2026-11-05T14:08Z",
+   "flag": [
+    "Zahlen fehlen oder weichen ab: 000"
+   ],
+   "h": "9c6a93d54e4f",
+   "rev": [
+    "Weekday 'Perşembe' should be lowercase mid-sentence per TDK ('perşembe')",
+    "Headline uses 'frene bastı' and 'birikti' stated as fact, but length and meaning are acceptable; teaser 'Bir H200 sunucusunun fiyatı ... üç katına çıktı' is fine",
+    "'sollen ... erhalten haben' rendered with 'almış olabilir' – weakens slightly but keeps hedge; kept",
+    "'Planungsbehörde' rendered 'planlama kurumu' – acceptable"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Nvidia'nın Santa Clara'daki merkezi (Sembolik fotoğraf)"
    }
   },
   "openai-948-linux-root-exploits": {
@@ -3544,6 +3751,34 @@
     "img.alt": "Arşiv fotoğrafı: Marlon Moraes resmi UFC tartısında"
    }
   },
+  "ronaldo-ruecktritt-nationalmannschaft-portugal-2026-11-05-b1530": {
+   "L": {
+    "body": [
+     "Cristiano Ronaldo, Portekiz Milli Takımı'ndaki kariyerini sona erdirdi. 41 yaşındaki futbolcu kararı perşembe günü Instagram'da paylaştığı bir videoyla duyurdu. Doğrudan Portekizlilere seslenen Ronaldo, yedi numaralı formayı teslim etme gününün geldiğini söyledi. Ağustos 2003'te başlayan ve hayatını sonsuza dek değiştiren yolculuğun sona erdiğini ifade etti.",
+     "Ronaldo, 2003'teki ilk maçından bu yana toplam 234 milli maça çıktı ve 146 gol attı; ikisi de erkekler futbolunda rekor. Portekiz ile 2016 Avrupa Şampiyonası'nı kazandı; kendi sözlerine göre bu şampiyonluğu bir dünya kupası şampiyonluğu kadar değerli görüyor. Bunun yanı sıra iki Uluslar Ligi kupası kazandı. 2026 Dünya Kupası'nda üç gol attı, Portekiz son 16 turunda sonradan dünya şampiyonu olan İspanya'ya elendi.",
+     "Son dönemde Milli Takım Teknik Direktörü Jorge Jesus ile tartışma yaşanmıştı: Ronaldo son kampta takım otelini terk etti ve AFP haber ajansının bildirdiğine göre 30 gün men cezası aldı; daha sonra özür diledi. Portekiz Futbol Federasyonu uygun bir onur töreni düzenleyeceğini duyurdu. Beş kez Dünya Futbolcusu seçilen Ronaldo kulüp düzeyinde Suudi Arabistan'da Al-Nassr forması giymeye devam ediyor."
+    ],
+    "d": "41 yaşındaki futbolcu 23 yılın ardından Seleção kariyerini bitirdi. 146 gol ve 234 maçla iki dünya rekoruna sahip. Federasyon bir onur töreni düzenleyeceğini duyurdu.",
+    "t": "234 milli maçın ardından Cristiano Ronaldo Portekiz Milli Takımı'na veda etti"
+   },
+   "at": "2026-11-05T14:08Z",
+   "h": "0fb6c2e2920e",
+   "rev": [
+    "'Würdigung' mistranslated as 'anma töreni' (memorial ceremony), which wrongly suggests a commemoration; should be a tribute/honour (veda/onur töreni, or 'saygı duruşu' is wrong). Used 'jest/tören' neu",
+    "'Dünyanın En İyi Futbolcusu' is an unestablished rendering; 'Dünya Futbolcusu' fits better.",
+    "'Seleção kariyerini' is awkward but understandable; left as is.",
+    "'bir dünya kupası kadar' should be 'dünya kupası şampiyonluğu kadar'.",
+    "Round of 16: 'son 16 turu' is correct. 'Er wandte sich' sentence: the clause 'hayatını sonsuza dek değiştirdiğini belirttiği' is awkwardly attributed; fix to keep indirect speech accurate."
+   ],
+   "rev_dbg": [
+    5,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Cristiano Ronaldo 2018 Dünya Kupası'nda (Arşiv fotoğrafı)"
+   }
+  },
   "rosas-jr-wuergt-covington-hype-rom": {
    "L": {
     "body": [
@@ -3568,6 +3803,62 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Colby Covington 2023'te mikrofonla bir etkinlikte"
+   }
+  },
+  "schlaf-muskeln-regeneration-2026-11-05": {
+   "L": {
+    "body": [
+     "Kaslar antrenman sırasında değil, ardından gelen toparlanma sürecinde büyür: Vücut bu aşamada yeni kas proteini oluşturur, uzmanlar buna kas proteini sentezi diyor. Uykunun bu süreçteki rolünü Séverine Lamon liderliğindeki bir Avustralyalı ekip inceledi; çalışma 2021'de hakemli “Physiological Reports” dergisinde yayımlandı. 13 sağlıklı genç yetişkin (yedi erkek, altı kadın, ortalama yaklaşık 20 yaşında), en az dört hafta arayla ve rastgele sırayla iki aşamadan geçti: bir kez evde normal bir gece, bir kez de laboratuvarda tamamen uykusuz geçirilen bir gece. Ertesi gün bir öğünün ardından doku örnekleriyle uyluk kasının ne kadar yeni protein ürettiği ölçüldü.",
+     "Uykusuz geçen geceden sonra kas proteini sentezi, normal uykuya kıyasla yüzde 18 daha düşüktü. Aynı zamanda kandaki stres hormonu kortizol yüzde 21 yükselirken, testosteron hormonu yüzde 24 azaldı; bu, kas yapımından çok yıkımı destekleyen bir ortam. Araştırmacılar, kas proteininin yıkımına ilişkin göstergelerde ise bir fark bulmadı. Bundan, tek bir uykusuz gecenin bile bir tür “anabolik direnç” yarattığı sonucunu çıkarıyor ve bu tür kısa süreli değişikliklerin, uzun süreli uyku eksikliğinde görülen kas kaybını kısmen açıklayabileceğini düşünüyorlar.",
+     "Çalışmanın net sınırlamaları var: Çok küçüktü, yalnızca genç ve sağlıklı kişileri ve tamamen uykusuz bir geceyi inceledi; düzenli olarak biraz az uyumak gibi daha yaygın durumu değil. Normal gece evde, uykusuz gece laboratuvarda geçirildi ve uyku yalnızca bileğe takılan bir hareket sensörüyle kaydedildi. Erkeklerde protein oluşumu istisnasız azaldı, kadınlarda ise azalmadı; ancak bu çalışmanın amacı değildi ve soru açık kalıyor. Pratik açıdan bu, kas geliştirmek veya iyi toparlanmak isteyenlerin uykuyu antrenman ve beslenme kadar ciddiye alması gerektiği anlamına geliyor. ABD Sağlık Enstitüsü NHLBI'ye göre uzmanlar yetişkinlere gecede yedi ila dokuz saat uyumayı öneriyor. Kalıcı olarak kötü uyuyanlar durumu bir hekime danışmalı."
+    ],
+    "d": "13 genç yetişkinle yapılan bir deneyde, uykusuz bir geceden sonra kas yüzde 18 daha az yeni protein üretti. Toparlanma neden yalnızca molalardan değil, uykudan da oluşuyor?",
+    "facts": [
+     "Çalışma: Lamon ve ark., Physiological Reports (2021), randomize çapraz geçişli çalışma",
+     "Katılımcılar: 13 sağlıklı genç yetişkin (7 erkek, 6 kadın)",
+     "Uykusuz bir geceden sonra: kas proteini sentezinde yüzde 18 azalma",
+     "Kortizol +%21, testosteron −%24",
+     "Yetişkinler için öneri: 7 ila 9 saat uyku (NHLBI)"
+    ],
+    "t": "Uyku ve kaslar: Uykusuz bir gece kas gelişimini nasıl etkiliyor?"
+   },
+   "at": "2026-11-05T14:08Z",
+   "h": "0dc6f9ca8419",
+   "rev": [
+    "Teaser: 'Pausen' yanlışlıkla 'dinlenme günleri' olarak çevrilmiş (mola/dinlenme).",
+    "'ein Umfeld, das eher Abbau als Aufbau begünstigt' düz gerçek gibi verilmiş; ortam ifadesi ve zaman uyumu düzeltilmeli (lag: 'destekliyor' kabul edilebilir ama 'destekleyen bir ortam' daha doğru).",
+    "'mit erklären können' = kısmen açıklayabilir; doğru. 'Fachleute empfehlen' ifadesinde sorun yok.",
+    "'Muskelverlust' ve 'kalıcı uykusuzluk' için 'dauerhaftem Schlafmangel' = kalıcı uyku eksikliği; 'uykusuzluk' insomnia çağrışımı yapar."
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Bir yatak odasında yastıklı, düzenlenmiş yatak (sembolik fotoğraf)",
+    "kl": "Beslenme ve toparlanma"
+   }
+  },
+  "skku-perowskit-eutektikum-solar-led": {
+   "L": {
+    "body": [
+     "Güney Kore'deki Sungkyunkwan Üniversitesi'nden (SKKU) Seong Sik Shin'in başında olduğu araştırmacılar, Kore Kimya Araştırma Enstitüsü KRICT, Kaliforniya Üniversitesi San Diego ve Princeton Üniversitesi'ndeki ortaklarla birlikte son derece az kusurlu perovskit ince filmler için bir yöntem geliştirdi. Perovskitler, yeni nesil güneş pilleri için umut vadeden ve ucuz bir malzeme olarak görülüyor; ancak kristal kusurları performansı ve dayanıklılığı düşürüyor.",
+     "Hile, metilamonyum klorür ile bir çinko halojenürden oluşan, ötektik olarak adlandırılan bir karışım. Bu karışım yaklaşık 100 derece Celsius'ta kristal taneleri arasında ince bir sıvı film oluşturuyor; açıklamaya göre atomlar bu filmde katı hâle kıyasla yaklaşık 10.000 kat daha hızlı hareket ediyor. Böylece boşluk kusurları büyüme sırasında iyileşiyor. Metilamonyum klorür sonrasında buharlaşıyor; çinko ise tane sınırlarında kalıyor ve orada kusurları bastırıyor. Güneş pilleri yüzde 26,5 verimliliğe (sertifikalı yüzde 25,9) ve bu tür için rekor düzeyde 1,208 voltluk açık devre gerilimine ulaştı.",
+     "Işık yayan diyot olarak üretildiğinde aynı yapı yüzde 26,1 harici kuantum verimliliğine ulaştı. Ekibe göre yöntem pahalı özel tesisler gerektirmiyor ve daha büyük yüzeylerde de çalışıyor; perovskit güneş pillerinin pazara sunulmasını kolaylaştırabilir ve ekranlara ile fotodetektörlere aktarılabilir. Çalışma Science dergisinde yayımlandı."
+    ],
+    "d": "Güney Kore ve ABD'den bir ekip, perovskit kristallerini uçucu bir eriyik karışımla büyütüyor. Aynı yapı güneş pili olarak yüzde 26,5 verimliliğe ulaşıyor ve LED olarak da çalışıyor.",
+    "t": "Güneş pili ve LED için tek malzeme: Hile perovskit katmanlarını çok az kusurlu yapıyor"
+   },
+   "at": "2026-11-05T14:08Z",
+   "h": "f25bc07c13e1",
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Sungkyunkwan Üniversitesi'nin (SKKU) Güney Kore'nin Suwon kentindeki fen bilimleri kampüsü"
    }
   },
   "sommerzeit-dunkle-schulwege-studie-2026-11-05": {
@@ -3598,6 +3889,36 @@
     "kl": "Sağlık ve yaşam tarzı"
    }
   },
+  "spritpreisdeckel-streit-finanzministerium-2026-11-05-b1530": {
+   "L": {
+    "body": [
+     "Federal hükümette benzin ve dizel için planlanan fiyat tavanı konusunda tartışma yaşanıyor. Alman Basın Ajansı dpa'nın edindiği bilgilere göre Lars Klingbeil'in (SPD) Maliye Bakanlığı, Ekonomi Bakanı Katherina Reiche'nin (CDU) sunduğu taslaktan belirgin biçimde daha sıkı bir versiyon istiyor. Yasanın aslında kabineye gelmesi gerekiyordu, ancak görüşmeler sürüyor.",
+     "Reiche'nin taslağına göre tavan, ancak dizel veya benzin fiyatlarının üç hafta art arda, bir önceki haftaya kıyasla diğer AB ülkelerinin ortalamasına kıyasla beş yüzde puandan fazla daha sert artması durumunda devreye girecek. Azami fiyat kuralının ayrıca üç ayla sınırlı olması öngörülüyor.",
+     "Maliye Bakanlığından yapılan açıklamada, tavanın gerçekten etkili olması ve fahiş fiyat artışlarını önlemesi gerektiği, yükün hafiflemesinin tüketiciler tarafından hissedilir olması gerektiği belirtildi. Petrol şirketlerinin, tavanın devreye girmemesi için üçüncü haftada fiyatları geçici olarak düşürebileceği ifade edildi: “Bu tür dolanmaların önlenmesi gerekir.” Üç ayın da çok kısa olduğu kaydedildi. Yeni bir kabine tarihi açıklanmadı."
+    ],
+    "d": "Maliye Bakanlığı, planlanan akaryakıt fiyat tavanı için daha sıkı kurallar istiyor. Lars Klingbeil'in (SPD) bakanlığı, şirketlerin tavanın devreye girmesini bilinçli olarak engelleyebileceği uyarısında bulundu.",
+    "t": "Akaryakıt fiyat tavanı tartışması: Klingbeil'in bakanlığı Reiche'nin taslağını yetersiz buluyor"
+   },
+   "at": "2026-11-05T14:08Z",
+   "flag": [
+    "Titel zu lang (95 Zeichen)"
+   ],
+   "h": "7693eea837cd",
+   "rev": [
+    "Teaser: 'Bakanlığı' ve 'uyarıda bulundu' yapısı kabul edilebilir; sorun yok.",
+    "Body 1: 'Wirtschaftsministerin' → 'Ekonomi Bakanı' kabul edilebilir, ancak 'Ekonomi Bakanı' yerine kadın bakan için sorun yok.",
+    "Body 2: 'beş yüzde puandan fazla daha fazla artması' ifadesi hantal; akıcılaştırıldı, anlam aynı.",
+    "Body 3: 'fiyat artışlarını önlemesi' → 'Preistreiberei' fiyat şişirme/fahiş fiyat; 'rahatlamanın' → 'Entlastung' için 'yükün hafiflemesi' daha doğru."
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Bir akaryakıt istasyonunda fiyat tabelası (Sembolik fotoğraf)"
+   }
+  },
   "strom-ibex": {
    "L": {
     "body": [
@@ -3622,6 +3943,40 @@
     1,
     0
    ]
+  },
+  "studie-sport-alltagsbewegung-mobilitaet-2026-11-05": {
+   "L": {
+    "body": [
+     "Spor, hareketliliğin sinsi biçimde kaybedilmesine karşı koruyor mu, yoksa gündelik hayattaki bol hareket yeterli mi? S. Yamaguchi'nin ekibi bu soruyu yanıtlamak için Japonya'nın Saitama kentindeki özel bir kliniğin yıllık sağlık kontrollerine ait verileri inceledi. Çalışma, 30 Ekim 2026'da hakemli “European Review of Aging and Physical Activity” dergisinde çevrimiçi yayımlandı. 2016'da muayeneye gelen 34.851 kişiden 21.339'u analize dahil edildi: 21 ila 84 yaşında (ortanca 48), yüzde 40'ı kadın. Katılımcılar başlangıçta iki evet-hayır sorusunu yanıtladı: En az bir yıldır haftada en az iki kez 30 dakika hafif ila orta düzeyde terleten spor yapıp yapmadıkları ve her gün en az bir saat yürüyüp yürümedikleri ya da benzer şekilde hareket edip etmedikleri. 2024'e kadar kimin sözde lokomotif sendrom geliştirdiği izlendi. Terimi 2007'de Japon Ortopedi Derneği getirdi; kas-iskelet sistemi sorunlarına bağlı kısıtlı hareketliliği tanımlıyor ve farklı yükseklikteki oturaklardan kalkma testi, iki adım testi ve 25 soruluk bir anketle ölçülüyor.",
+     "Katılımcıların yüzde 53'ü ne spor ne de yoğun gündelik hareket bildirdi, yüzde 15'i ikisini birden bildirdi. Toplamda 7.183 kişi (yüzde 34) sekiz yıl içinde lokomotif sendrom geliştirdi. 40-64 yaş grubunda bu oran hareketsizlerde yüzde 45, spor ve gündelik hareketi birlikte sürdürenlerde yüzde 37 oldu; diğer faktörler hesaba katıldıktan sonra bu, riskin yüzde 21 daha düşük olduğu anlamına geliyordu. 65 yaş ve üstü 1.151 katılımcıda oran yüzde 71'den yüzde 55'e, risk ise yüzde 30 düştü; tüm düzeltmelerden sonra yalnızca ikisinin birleşimi istatistiksel olarak anlamlı kaldı. 40 yaş altında net bir fark bulunmadı.",
+     "Sınırlılıkları yazarlar kendileri belirtiyor: Hareket yalnızca bir kez ve iki basit evet-hayır sorusuyla ölçüldü, egzersizin türü ve miktarı ayırt edilemedi ve çalışma, nedensellik kanıtlamayan bir gözlemsel çalışma. Kontrollere gelenler daha çok kentli ve daha sağlıklıydı; dışlananlar daha yaşlı ve daha az aktifti. Erişilebilen özette finansmana ilişkin bilgi yoktu. Pratikte bulgu, Japon Ortopedi Derneği'nin önerileriyle uyuşuyor: örneğin günde üç kez her bacakta birer dakika tek ayak üzerinde durmak (gerekirse parmaklarla bir masaya hafifçe tutunarak) ve günde üç kez beş ila altı yavaş çömelme; dizler 90 dereceden belirgin biçimde daha fazla bükülmeden. Bunu yapamayanlar bunun yerine sandalyeden kalkmalı. Ağrı veya önceden var olan hastalık durumunda önce doktora danışılmalı."
+    ],
+    "d": "21.339 kişinin sekiz yıllık sağlık verilerine dayanan Japon analizi: Hem spor yapan hem de gündelik hayatta çok yürüyenler hareketliliklerini en az kaybetti.",
+    "facts": [
+     "Çalışma: Yamaguchi ve ark., kohort çalışması, Japonya, 2016–2024",
+     "Katılımcılar: 21.339 yetişkin, 21–84 yaş, yüzde 40'ı kadın",
+     "Dergi: European Review of Aging and Physical Activity (30.10.2026)",
+     "65 yaş ve üstü: Spor ve gündelik hareket birlikte olduğunda hareketlilik kaybı oranı yüzde 71 yerine yüzde 55",
+     "Sınırlılık: yalnızca kendi bildirimleri, gözlemsel çalışma"
+    ],
+    "t": "Çalışma: Spor ve gündelik hareket, hareketlilik kaybına karşı en iyi korumayı sağlıyor"
+   },
+   "at": "2026-11-05T14:08Z",
+   "h": "4b59091823cd",
+   "rev": [
+    "Squat depth reversed: German 'nicht deutlich tiefer als 90 Grad' means not much deeper than 90°, but the draft's 'belirgin biçimde daha fazla inmeden' is vague and 'dereceden' is awkward; the wording ",
+    "Final instruction 'wer das nicht kann, steht stattdessen vom Stuhl auf' was rendered as a plain statement; made it conditional/imperative-like.",
+    "Teaser 'am seltensten an Mobilität verlor' ok; headline ok."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Yaşlı bir çift bir yolda Nordic Walking yapıyor (Sembolik fotoğraf)",
+    "kl": "Hareket ve hareketlilik"
+   }
   },
   "super-rizin-6-shaydullaev-akimoto-nagoya": {
    "L": {
@@ -3707,6 +4062,39 @@
     "kl": "Tenis"
    }
   },
+  "trainer-erklaeren-wochenendsport-video-2026-11-05": {
+   "L": {
+    "body": [
+     "Çalışan birçok kişi hafta içi neredeyse hiç spor yapamıyor ve bunu hafta sonu telafi ediyor. Buna değer mi? Wes Troyer, “Mayo Clinic Minute” adlı kısa video serisinde bu soruyu yanıtlıyor. Troyer, Mayo Clinic'te fiziksel tıp ve rehabilitasyon uzmanı. Çıkış noktası yetişkinler için geçerli öneri: haftada en az 150 dakika orta yoğunlukta veya 75 dakika yüksek yoğunlukta hareket. Troyer'e göre bu süreyi birkaç güne yoğunlaştırmak, haftaya yaymak kadar etkili; bu şekilde egzersiz yapan kişilerde çalışmalarda daha düşük ölüm oranı ve daha az kalp-damar olayı görüldü. Troyer'e göre koşu, tempolu koşu veya yüksek yoğunluklu antrenmanlar bunun için uygun; ilke olarak da ne kadar çok, o kadar iyi.",
+     "Ancak Troyer tipik bir hataya karşı uyarıyor: Şimdiye kadar neredeyse hiç aktif olmayanlar hemen hafta sonu 150 dakikayla başlamamalı, süreyi yavaş yavaş artırmalı, dinlenme günleri koymalı ve vücudun nasıl tepki verdiğini izlemeli. Hep aynı hareketler veya çok hızlı artış, aşırı yüklenme yaralanmalarına, iltihaplanmaya ve ağrıya yol açabilir. Birkaç günlük aradan sonra ağrılar sürerse, özellikle uykuyu veya günlük yaşamı bozuyorsa, bir doktor tarafından muayene edilmesini öneriyor.",
+     "Büyük bir çalışma ana görüşü destekliyor: Massachusetts General Hospital'dan araştırmacılar, bir hafta boyunca bileğinde hareket sensörü taşıyan, İngiltere'deki UK Biobank'tan yaklaşık 90.000 kişinin verilerini değerlendirdi; sonuçlar 2024'te “Circulation” dergisinde yayımlandı. Hem “hafta sonu savaşçıları” hem de haftaya eşit dağılımlı hareket edenlerde, hareketsizlere kıyasla 264 hastalık için belirgin biçimde daha düşük risk görüldü; örneğin yüksek tansiyonda sırasıyla yüzde 23 ve 28, diyabette yüzde 43 ve 46 daha az risk saptandı. Çalışmanın eş kıdemli yazarı Shaan Khurshid, “En çok önem taşıyan, belki de örüntü değil, toplam aktivite miktarıdır” dedi. Kısıtlama: Hareket yalnızca bir hafta boyunca ölçüldü ve gözlemsel bir çalışma olduğu için araştırma bir neden-sonuç ilişkisini kanıtlamıyor."
+    ],
+    "d": "Hafta içi vakit yok, hafta sonu ise daha fazla: Mayo Clinic'ten Wes Troyer, yoğunlaştırılmış antrenmanın ne sağladığını ve aşırı yüklenmenin nasıl önlenebileceğini anlatıyor.",
+    "facts": [
+     "Öneri: haftada 150 dakika orta veya 75 dakika yüksek yoğunlukta hareket",
+     "Mayo Clinic'e göre hafta sonu antrenmanı, yayılmış antrenman kadar etkili",
+     "Yeni başlayanlar: yavaş yavaş artırmalı, dinlenme günleri planlamalı",
+     "UK Biobank çalışması: yaklaşık 90.000 kişi, 264 hastalık için daha düşük risk"
+    ],
+    "t": "Video: Sadece hafta sonu spor yapmak yeterli mi? Mayo Clinic doktoru anlatıyor"
+   },
+   "at": "2026-11-05T14:08Z",
+   "h": "d506b6154530",
+   "rev": [
+    "Indirect-speech sentence is ungrammatical (\"Troyer'e göre ... uygun olduğunu ... söyledi\") and \"Laufen\" was mistranslated as \"yürüyüş\" (walking).",
+    "Lead sentence adds a claim that the German does not make: \"aşırı yüklenmenin nasıl önlenebileceğini\" is fine, but \"Hafta içi zaman yok, hafta sonu daha fazla\" is unnatural.",
+    "\"Eş kıdemli yazar\" is an awkward rendering of \"Ko-Seniorautor\"."
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Kırsal bir yolda yarış bisikletindeki kişi (Sembolik fotoğraf)",
+    "kl": "Antrenörler anlatıyor"
+   }
+  },
   "ufc-334-hokit-steveson-jackson-wink": {
    "L": {
     "body": [
@@ -3783,6 +4171,27 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Fruit of the Loom'un Bowling Green, Kentucky'deki merkezi"
+   }
+  },
+  "varna-zoll-razzia-china-importe-2026-11-05-b1530": {
+   "L": {
+    "body": [
+     "Liman kenti Varna'da perşembe gününden bu yana iddia edilen vergi suçlarına karşı geniş çaplı bir polis operasyonu sürüyor. İçişleri Bakanı Ivan Demerdzhiev'in verdiği bilgiye göre operasyon, Çin'den gelen malları ya kaçırdığı ya da çok düşük fiyatlarla beyan ettiği iddia edilen birkaç gümrük memurunu ve şirketi hedef alıyor. Bakan, bu nedenle devlet bütçesinin önemli ölçüde zarar gördüğünü söyledi.",
+     "24 Chasa ve Focus'a göre dört gümrük memuru gözaltına alındı, bunlardan ikisi yönetici konumunda. Ayrıca ilgili ticaret şirketlerinin temsilcilerinin de gözaltına alındığı belirtildi. İsimler, ilgili şirketler ve zararın tam tutarı başlangıçta açıklanmadı; tüm ilgililer için masumiyet karinesi geçerlidir.",
+     "Demerdzhiev, soruşturmaların uzun süredir devam ettiğini, şu anda siyasi himayeye dair bir işaret bulunmadığını, ancak bunun münferit bir olay olmadığına dair işaretler olduğunu söyledi. Bakana göre hiç kimse devlet görevinde korunduğunu düşünmemeli. Yolsuzluğa açık kurumlara yönelik başka operasyonların da geleceğini belirtti."
+    ],
+    "d": "Varna'da vergi suçlarına yönelik polis operasyonunda, ikisi yönetici konumunda olan gümrük memurları gözaltına alındı. Konu, Çin'den düşük değerli beyan edilen veya kaçırılan ithalat.",
+    "t": "Varna'da operasyon: Gümrük memurları Çin mallarını iddiaya göre kaçırmaktan gözaltında"
+   },
+   "at": "2026-11-05T14:08Z",
+   "h": "6bcc6b76cbfa",
+   "rev_dbg": [
+    5,
+    6,
+    0
+   ],
+   "x": {
+    "img.alt": "Varna Limanı (Arşiv fotoğrafı, 2018)"
    }
   },
   "varusschlacht-kalkriese-9-nach-christus-2026-11-05": {
