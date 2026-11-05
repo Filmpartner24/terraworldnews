@@ -85,6 +85,8 @@ def script(items, l, d):
     return txt
 
 import re as _re
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from tts_numbers import spell
 SITE = {'de': 'terra world news punkt com', 'bg': 'терра уорлд нюз точка ком', 'en': 'terra world news dot com'}
 def speakable(text, l):
     """Text für die Sprachausgabe glätten (Nedy 05.11.2026: „bitte fehlerfrei“): Großbuchstaben-Marke nicht buchstabieren,
@@ -95,6 +97,7 @@ def speakable(text, l):
     t = _re.sub(r'(?<=\d),(?=\d{3}\b)', '', t) if l == 'en' else t
     t = _re.sub(r':\s+(\w)', lambda m: '. ' + m.group(1).upper(), t)
     t = _re.sub(r'\s+,', ',', t)
+    t = spell(t, l)                      # Zahlen als Wörter (Nedy 05.11.2026)
     return t.replace('§P§', BREAK)
 
 def tts(text, l, dest):
