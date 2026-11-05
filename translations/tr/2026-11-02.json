@@ -4971,6 +4971,30 @@
     "img.alt": "Satın almak yerine abonelik: StrollMe bebek arabası ve çocuk bisikletiyle nasıl kazanıyor"
    }
   },
+  "strom-ibex": {
+   "L": {
+    "body": [
+     "Bulgaristan elektrik borsası IBEX (BNEB), üreticilerin, tüccarların ve büyük şirketlerin toptan elektrik alıp sattığı piyasadır. Gün öncesi piyasasında ertesi günün her saati için fiyat, bir önceki gün yapılan ihaleyle belirlenir. 2 Kasım Pazartesi için günlük ortalama (baz yük) KDV hariç megavatsaat başına 317,56 avro. Bu, 261,98 avro olan pazar gününe göre %21,22 daha fazla. Böylece önceki iki günün düşüşü tersine dönüyor.",
+     "En belirgin artış pik saatlerde (borsa saatleri 9-20) görülüyor: ortalama 352,82 avro; pazar günkü 273,70 avroya göre %28,91 daha fazla. Diğer saatlerde (pik dışı) megavatsaat 282,30 avro; 250,26 avroya göre %12,80 daha fazla. Gündüz ve gece elektriği arasındaki fark megavatsaat başına 23,44 avrodan 70,52 avroya çıkıyor (kendi hesabımız).",
+     "88.176,02 megavatsaat işlem görüyor; bu, pazar günkü 80.354,73 MWh'den yaklaşık %9,7 fazla (kendi hesabımız). Pik ve pik dışı dönemler neredeyse eşit: 44.130,15 ve 44.045,87 MWh. Pazartesi, genellikle daha fazla elektrik tüketilen bir iş günüdür; artışın nedenini veriler kendisi belirtmiyor.",
+     "Komşu ülkelerde de fiyatlar yükseliyor. 3e-news'e göre megavatsaat fiyatı 2 Kasım'da ortalama Romanya'da (OPCOM) 310,03 avro, Macaristan'da (HUPX) 310,59 avro ve Yunanistan'da (HENEX) 312,72 avro. Böylece dört ülke arasında en yüksek fiyat Bulgaristan'da (kendi karşılaştırmamız)."
+    ],
+    "d": "2 Kasım için IBEX ortalama fiyatı KDV hariç megavatsaat başına 317,56 avro; pazar gününe göre %21,22 yüksek. Pik saatler yaklaşık %29 pahalanıyor. Bulgaristan; Romanya, Macaristan ve Yunanistan'ın üzerinde.",
+    "explain": "Elektriği borsa fiyatlarından satın alan şirketler pazartesi günü pazara göre yaklaşık beşte bir oranında daha fazla ödüyor; en çok gündüz saatlerinde. Haneler, düzenleyici kurum KEVR'in belirlediği fiyatları ödüyor; bu nedenle faturaları doğrudan değişmiyor.",
+    "t": "Bulgaristan'da borsa elektriği pazartesi %21 pahalı: MWh başına 317,56 avro"
+   },
+   "at": "2026-11-05T09:14Z",
+   "h": "185a96ebd569",
+   "rev": [
+    "Teaser: \"pazara göre\" is ambiguous in Turkish (could mean 'market'); should be \"pazar gününe göre\".",
+    "Headline: \"pazartesi\" is capitalised in the German as a weekday; in Turkish running text lowercase is correct, so no change needed. Teaser: \"pahalanıyor\" is fine."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ]
+  },
   "testosteron-verschreibung-bluttests-2026-11-02": {
    "L": {
     "body": [
