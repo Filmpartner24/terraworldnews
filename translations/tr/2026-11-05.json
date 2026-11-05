@@ -314,6 +314,32 @@
     "img.alt": "Arşiv fotoğrafı: Sofya'daki Adalet Sarayı"
    }
   },
+  "deutsche-boerse": {
+   "L": {
+    "body": [
+     "Dax (Almanya'nın en büyük 40 borsa şirketi) çarşamba günü 26.437,67 puandan kapandı; artış 573,05 puan yani %2,22 oldu. Gün içinde 26.542 puana yaklaşan endeks, ağustos sonundaki rekorunun yalnızca yaklaşık 78 puan altında kaldı. MDax (orta ölçekli şirketler) %1,41 değer kazandı, Euro Stoxx 50 (euro bölgesinin büyük şirketleri) ise yaklaşık %2 artışla 6.265,71 puana yükseldi (dpa-AFX).",
+     "En önemli neden ABD ara seçimlerinin sonucuydu: Demokratlar hem Temsilciler Meclisinde hem de Senatoda çoğunluğu kazandı. Yatırımcılar daha ılımlı bir ABD ticaret ve dış politikası bekliyor. Ayrıca petrol fiyatı sert düştü; Brent türü yaklaşık %8,3 ucuzlayarak varil başına 95 doların biraz üzerine indi. New York'ta Dow Jones neredeyse %3 yükseldi.",
+     "Dax'ın en çok kazandıran hissesi, güçlü bir çeyreğin ardından Heidelberg Materials oldu (+%9,55). Goldman Sachs hisseyi kasım ayı favori listesine aldığı için Deutsche Bank %6,88 yükseldi. BMW, tahminini yeniden düşürmesine rağmen %5,5, Continental ise kâr hedeflerini yükseltmesinin ardından yaklaşık %5,2 arttı. Zalando %8,54 yükseldi.",
+     "Yapay zekâ (YZ) ile bağlantılı hisseler kaybettirenler arasındaydı: Siemens Energy %7,95, Infineon %4,12, Hochtief %4,97 düştü. Bazı yatırımcılar, Demokratların yönettiği bir Kongrenin YZ veri merkezlerinin yaygınlaşmasını yavaşlatabileceğinden ya da daha sıkı düzenleyebileceğinden endişe ediyor. TecDax'ta (teknoloji hisseleri) Aixtron %6,25 değer kaybederken SMA Solar ve Nordex yükseldi; yenilenebilir enerjinin siyasi değişimin kazananı olduğu düşünülüyor."
+    ],
+    "d": "Dax çarşamba günü 26.438 puandan kapandı (+%2,22); gün içinde ağustos sonundaki rekora yalnızca yaklaşık 78 puan kalmıştı. Demokratlar ABD Kongresini kazandı, petrol belirgin biçimde ucuzladı.",
+    "explain": "Yatırımcılar artık daha öngörülebilir bir ABD politikası beklediği ve ucuzlayan petrol şirketlerin yükünü hafiflettiği için Alman hisseleri belirgin biçimde yükseldi. YZ'ye yakın teknoloji hisseleri ise değer kaybetti.",
+    "t": "Dax, Demokratların zaferinin ardından %2,2 sıçradı, petrol fiyatı %8 düştü"
+   },
+   "at": "2026-11-05T08:42Z",
+   "h": "e315e65c23fa",
+   "rev": [
+    "Teaser: 'gün içinde ... yalnızca yaklaşık 78 puan kaldı' is unclear; the German says the index peaked about 78 points short of the record",
+    "Month names: 'Ağustos' should be lowercase 'ağustos' per TDK",
+    "Body 1: 'fast 26.542' was rendered as 'yaklaşan', which is fine, but the capitalised 'Ağustos' needs fixing",
+    "'kasım ayı' is correct and stays unchanged"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ]
+  },
   "deutschland-afd-antrag-tabaksteuer-bagatellsteuern-2026-11-05": {
    "L": {
     "body": [
@@ -465,6 +491,28 @@
    "x": {
     "img.alt": "Sembolik fotoğraf: Berlin polisine ait bir müdahale aracı",
     "kl": "Berlin"
+   }
+  },
+  "deutschland-bulgaria-wants-you-frankfurt-2026-11-05": {
+   "L": {
+    "body": [
+     "“Bulgaria Wants You” girişimi, 15 Kasım'da Frankfurt am Main'da “Kariyer ve Yaşam – Neden Bulgaristan'da?” başlıklı forumu düzenliyor. Forum saat 10:30'dan itibaren Radisson Blu Otel'de yapılacak, kayıt ücretsiz; bilgi 5 Kasım'da duyuruldu. Amaç, Almanya'da yaşayan Bulgarları Bulgaristanlı işverenlerle buluşturmak ve memleketlerindeki çalışma ve yaşam olanakları hakkında bilgi vermek. Konuşmacılar arasında pop şarkıcısı Lucy Dyakovska, iş insanı Daniel Bachorski, Tavex'in kurucusu Max Baklayan ve iş danışmanı Ivaylo Kunev yer alıyor.",
+     "Etkinlik sayfasına göre on bir işveren standlarıyla katılacak; bunlar arasında Lidl Bulgaristan, Alman Liebherr grubunun iki Bulgar şirketi, KBC Global Services, A1, Fibank, Electrohold ve PwC bulunuyor. Forum, yurt dışındaki Bulgar toplulukları ile yapılan bir dizi buluşmanın parçası. Girişim, Nisan 2025'te Münih'te de konuk olmuştu; ardından Lahey, Londra ve Sofya'da etkinlikler düzenlendi.",
+     "Frankfurt'taki buluşma, Almanya'daki Bulgar topluluğunun hafif azaldığı bir dönemde gerçekleşiyor. Federal İstatistik Dairesi'nin (Destatis) Yabancılar Merkez Sicili'ne dayanan verilerine göre 2025 sonunda Almanya'da 421.895 Bulgar vatandaşı yaşıyordu. Bir yıl önce bu sayı 432.080, 2023 sonunda ise 436.860 idi. Böylece sayıları bir yıl içinde 10.185 kişi, yani yaklaşık yüzde 2,4 azaldı."
+    ],
+    "d": "15 Kasım'da Bulgaristanlı işverenler Frankfurt'ta Almanya'daki yurttaşlarına yönelik tanıtım yapacak. Destatis'e göre buradaki Bulgar sayısı son olarak 421.895'e geriledi.",
+    "t": "“Bulgaria Wants You”, Almanya'da yaşayan Bulgarları Frankfurt'a davet ediyor"
+   },
+   "at": "2026-11-05T08:42Z",
+   "h": "48a9957cd9c8",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Frankfurt am Main silueti",
+    "kl": "Almanya–Bulgaristan"
    }
   },
   "deutschland-fuehrerscheinreform-bundestag-abstimmung-2026-11-05": {
@@ -1515,6 +1563,59 @@
      "Ön satış: Per., 05.11.2026, 12:00 (Eventim)"
     ],
     "img.alt": "Arşiv fotoğrafı: Saltatio Mortis, 2025 kale turunda Singen'de"
+   }
+  },
+  "leben-bumble-dating-apps-2026-11-05": {
+   "L": {
+    "body": [
+     "Aynı adlı flört uygulamasının ve Badoo platformunun işletmecisi ABD'li şirket Bumble, 4 Kasım 2026'da yeni çeyrek rakamlarını açıkladı. Finans portalı MarketBeat'e göre satışlar 207,09 milyon ABD doları oldu; analistler ortalama 209,61 milyon dolar bekliyordu. Hisse başına kâr da 0,20 dolarla 0,23 dolarlık beklentinin altında kaldı. Reuters haber ajansına göre ödeme yapan kullanıcı sayısı ikinci çeyrekte zaten yüzde 16,4 azalarak 3,2 milyona düşmüştü; buna göre çeyreklik satışlar yaklaşık iki yıldır geriliyor.",
+     "Bumble, 13 Ekim'de yatırım şirketi Ithaca Holdings tarafından satın alınacağını duyurmuştu. Şirket açıklamasına göre satın alma bedeli hisse başına 6,05 ABD doları; Reuters anlaşmanın değerini yaklaşık 1,3 milyar ABD doları olarak belirtti. Bumble'ın 2021'deki halka arzında değeri yaklaşık 14 milyar ABD dolarıydı. Reuters'a göre Ithaca'nın kurucu ortakları Ravi Gupta ve John Hegeman, Bumble'ın yönetimini birlikte devralacak.",
+     "Bu gelişme, klasik flört uygulamalarının yaşadığı sorunların bir işareti olarak görülüyor. Reuters'a göre hem Bumble hem de Tinder ve Hinge'in de aralarında bulunduğu daha büyük rakip Match Group, özellikle gençler arasında zayıf kullanımla mücadele ediyor. Arizona State University'den araştırmacı Liesel Sharabi, Reuters'a şunları söyledi: “There hasn't been a lot of innovation in the dating space for a while” (Flört alanında uzun süredir pek yenilik olmadı). Reuters'a göre Bumble, özellikle Z kuşağı kullanıcılarını yeniden kazanmak için platformunu yeniden yapılandırıyor."
+    ],
+    "d": "Flört platformu Bumble çeyrekte 207 milyon dolarlık satış gerçekleştirdi; bu rakam beklentilerin altında kaldı. Şirketin yakında borsadan çıkarılması öngörülüyor.",
+    "t": "Bumble satış beklentisini karşılayamadı – flört uygulamaları baskı altında"
+   },
+   "at": "2026-11-05T08:42Z",
+   "h": "20e95e0d4c09",
+   "rev": [
+    "Teaser: \"Das Unternehmen soll bald von der Börse genommen werden\" ifadesi \"öngörülüyor\" ile veriliyor; anlam kabaca korunuyor ama \"çeyrekte ... satış gerçekleştirdi\" doğru. Düzeltme gerekmiyor.",
+    "\"Ithaca'nın kurucu ortakları\" doğru; \"Ithaca Holdings tarafından satın alınacağını\" doğru.",
+    "\"Reuters anlaşmanın değerini ... olarak hesapladı\" doğru (bezifferte = tahmin etti/belirtti), hafif ifade düzeltmesi yapıldı."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Ekranında kalp simgesi olan akıllı telefon",
+    "kl": "Aşk ve İlişkiler"
+   }
+  },
+  "leben-lebensmittelpreise-eu-2026-11-05": {
+   "L": {
+    "body": [
+     "Avrupa'da gıda fiyatları çok farklı seyrediyor. Bu, Euronews'in 5 Kasım 2026 tarihli ve AB istatistik ofisi Eurostat verilerine dayanan analizinde ortaya çıkıyor. Buna göre gıda ve alkolsüz içecekler, Eylül 2026'da AB genelinde ortalama olarak bir önceki yılın aynı dönemine kıyasla yalnızca yüzde 0,6 daha pahalıydı. 27 AB ülkesinin 14'ünde fiyatlar önceki yılın seviyesinin bile altındaydı. En sert artış yüzde 4 ile Kıbrıs'ta görüldü.",
+     "Uzun vadede farklar büyük. Euronews'e göre Bulgaristan, Romanya, Macaristan ve Estonya'da gıda fiyatları Eylül 2021'den bu yana yarıdan fazla arttı. AB ortalamasında artış yaklaşık üçte bir. Romanya'da fiyatlar Eylül 2026'da bir önceki yıla göre yüzde 2,6 yükseldi. Euronews'in verdiği bilgiye göre Almanya'da gıda Ekim 2026'da bir yıl öncesine kıyasla yalnızca yüzde 0,4 daha pahalıydı.",
+     "Euro Bölgesi genelinde ise Eurostat'ın 4 Kasım tarihli ön verilerine göre Ekim 2026 için yüzde 4 enflasyon bildirildi. Ana etken yüzde 20,8'lik artışla enerji oldu. Gıda, alkol ve tütün yüzde 1,6, meyve, sebze, et ve balık gibi işlenmemiş gıdalar ise yüzde 4,6 pahalandı. Euro Bölgesi dışında İsveç, gıda üzerindeki katma değer vergisini Nisan ayında yarıya indirmesinin ardından Eylül için gıda fiyatlarında yüzde 6,3'lük düşüş bildirdi."
+    ],
+    "d": "Birçok AB ülkesinde gıda fiyatları neredeyse artmıyor, bazılarında ise düşüyor. Uzun vadede ise Bulgaristan ile Almanya arasında da olduğu gibi büyük farklar görülüyor.",
+    "t": "AB'de gıda fiyatları: Bulgaristan'da 2021'den bu yana yüzde 50'den fazla artış"
+   },
+   "at": "2026-11-05T08:42Z",
+   "h": "b0477608604a",
+   "rev": [
+    "Teaser: 'Bulgaristan ile Almanya arasında da olmak üzere' is ungrammatical and unnatural",
+    "Body 2: 'gut die Hälfte' (a good half, i.e. a little more than half) rendered as 'yarıdan fazla'; acceptable, left unchanged",
+    "Headline: 'über 50 Prozent' fine"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Bir süpermarkette fiyat etiketli sebzeler"
    }
   },
   "leben-rki-schlafdauer-mittagsschlaf-2026-11-05": {
