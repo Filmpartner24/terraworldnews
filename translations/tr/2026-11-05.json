@@ -2020,6 +2020,30 @@
     "img.alt": "Arşiv fotoğrafı: Budapeşte'deki Devlet Güvenlik Servisleri Tarih Arşivi'nde dosya rafları"
    }
   },
+  "ext-klippensprung-2026-11-05": {
+   "L": {
+    "body": [
+     "Yüksekten korkanlar için değil: GoPro sporcusu Daniel Todd dar bir uçurumdan atlıyor – görüntüler 360 derece kamera GoPro MAX2 ile çekildi."
+    ],
+    "d": "Yüksekten korkanlar için değil: GoPro sporcusu Daniel Todd dar bir uçurumdan atlıyor – görüntüler 360 derece kamera GoPro MAX2 ile çekildi.",
+    "t": "Dar bir kaya çıkıntısından uçurumdan atlayış"
+   },
+   "at": "2026-11-05T18:29Z",
+   "h": "c8b3c93b471c",
+   "rev": [
+    "Headline 'uçurum atlayışı' is unnatural; 'Klippensprung' is better rendered as 'falezden atlayış'",
+    "'Symbolbild' should be lowercase in Turkish parentheses: 'sembolik fotoğraf'"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Fransa'nın güneyindeki Cassis'te uçurumdan atlayan sporcu (sembolik fotoğraf)",
+    "kl": "Ekstrem spor"
+   }
+  },
   "f1-bottas-cadillac-zukunft-2026-11-05": {
    "L": {
     "body": [
@@ -2427,6 +2451,30 @@
    "x": {
     "img.alt": "Bir sinema salonunda boş koltuk sıraları (Sembolik fotoğraf)",
     "kl": "Beyin ve Vücut"
+   }
+  },
+  "gwr-lautester-schrei-2026-11-05": {
+   "L": {
+    "body": [
+     "Guinness Dünya Rekorları'na göre Weeting'li (Norfolk) kasaba tellalı Brenda Willison, en yüksek çığlık ve en yüksek sesli kadın kasaba tellalı rekorlarının sahibi."
+    ],
+    "d": "Guinness Dünya Rekorları'na göre Weeting'li (Norfolk) kasaba tellalı Brenda Willison, en yüksek çığlık ve en yüksek sesli kadın kasaba tellalı rekorlarının sahibi.",
+    "t": "Bir kadının attığı en yüksek çığlık: Tellal Brenda Willison"
+   },
+   "at": "2026-11-05T18:29Z",
+   "h": "78ffd5edff8e",
+   "rev": [
+    "Headline: 'en yüksek çığlığı' is unnatural; 'en gür/en yüksek sesli çığlık' is better, and 'Ausruferin' appears in the headline without the qualifier; minor wording fix",
+    "Guinness name: official Turkish usage 'Guinness Dünya Rekorları' is fine; 'Rathaus' rendered as 'Belediye Sarayı' is acceptable but 'Belediye Binası' is more neutral"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Hull Belediye Binası'nın balkonunda bir kasaba tellalı (Sembolik fotoğraf)",
+    "kl": "Guinness Rekorları"
    }
   },
   "hegseth-impeachment-massie-abstimmung-2026-11-05-b1830": {
@@ -4089,6 +4137,56 @@
     "img.alt": "Victor Wembanyama, San Antonio Spurs formasıyla (Arşiv fotoğrafı, 2024)"
    }
   },
+  "news-carter-burwell-wild-horse-nine-soundtrack": {
+   "L": {
+    "body": [
+     "Carter Burwell, Martin McDonagh'ın yeni filmi “Wild Horse Nine” için müzik besteledi. 17 parçalık soundtrack albümü, Film Music Reporter'a göre Cuma günü, 6 Kasım'da Hollywood Records etiketiyle dijital olarak çıkacak.",
+     "Film, 1970'lerin başında, Şili'de Salvador Allende'ye karşı yapılan darbeden kısa süre önce geçiyor: İki CIA ajanı Paskalya Adası'na gönderiliyor, ajanlardan biri orada kendi geçmişinden şüphe etmeye başlıyor. Filmde Sam Rockwell, John Malkovich, Steve Buscemi, Parker Posey ve Tom Waits rol alıyor. Film, Venedik Film Festivali'nde prömiyer yaptı.",
+     "ABD'de Searchlight Pictures filmi önümüzdeki hafta sonu sinemalara getiriyor; Almanya'da ise Filmstarts'a göre 12 Kasım'da Walt Disney Germany dağıtımıyla vizyona girecek."
+    ],
+    "d": "Hollywood Records, Coen kardeşlerin bestecisinin film müziğini 6 Kasım'da yayımlıyor. Sam Rockwell ve John Malkovich'in oynadığı casusluk gerilimi 12 Kasım'da Almanya'da vizyona giriyor.",
+    "t": "Carter Burwell, McDonagh'ın “Wild Horse Nine” filminin müziğini yaptı: albüm Cuma günü"
+   },
+   "at": "2026-11-05T18:29Z",
+   "h": "a47c92a1d011",
+   "rev": [
+    "Headline: \"Cuma günü\" is fine, but the quote marks are Turkish-style; no change needed",
+    "\"am kommenden Wochenende\" means the coming weekend; \"bu hafta sonu\" is acceptable but \"önümüzdeki hafta sonu\" is more exact",
+    "Teaser: \"Coen kardeşlerin bestecisi\" is ok"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "TWN Müzik kapak görseli: Film müziği – Carter Burwell, “Wild Horse Nine”"
+   }
+  },
+  "news-pancevo-jazz-festival-2026": {
+   "L": {
+    "body": [
+     "Pančevo Caz Festivali, 29-31 Ekim tarihlerinde Belgrad yakınlarındaki Pančevo Kültür Merkezi'nde düzenlendi. UK Jazz News'in değerlendirmesine göre festivali İtalyan saksofoncu Francesco Cafiso, piyanist Mauro Schiavone ile açtı; ayrıca gitarist Bill Frisell, piyanist Alfredo Rodriguez ve triosu, piyanist Sylvie Courvoisier ile Sırp gitarist Jevrem Ćosić'in dörtlüsü konuk oldu.",
+     "ABD'li saksofoncu Isaiah Collier özellikle etkileyiciydi; Collier, The Chosen Few ile John Coltrane'in müziğini çaldı ve eleştirmene göre şaşırtıcı bir formdaydı: saksofon ustalığının coşkun bir seli. Eleştirmene göre Bill Frisell yıllardır olmadığı kadar canlı çalmıştı ve Rodriguez'in triosunun konserinde dinleyiciler dans etmek için sahneye çıkmıştı.",
+     "Rapor, Sırbistan'dan Balkan folkunu çağdaş cazla birleştiren ve büyüleyici bir atmosfer yaratan Eyot grubunu öne çıkardı. Eleştirmen, Collier'in konserindeki sesi eleştirdi: Ona göre ilk sıradan dinlendiğinde piyano, bas ve özellikle davul mikste fazla kısık kalmıştı."
+    ],
+    "d": "Belgrad yakınlarındaki kentin kültür merkezinde üç gün caz: Saksofoncu Isaiah Collier Coltrane ile büyüledi, Sırp grup Eyot Balkan folkunu cazla buluşturdu.",
+    "t": "Pančevo Caz Festivali: Coltrane gücü, Bill Frisell ve Sırbistan'da Balkan cazı"
+   },
+   "at": "2026-11-05T18:29Z",
+   "h": "db189f7a4398",
+   "rev": [
+    "Second paragraph, first sentence: the German says Collier impressed particularly, but the Turkish says 'ABD'li saksofoncu Isaiah Collier özellikle etkileyici buldu', which reads as Collier being impre"
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Bill Frisell, triosuyla Yukarı Avusturya'daki INNtöne Caz Festivali'nde"
+   }
+  },
   "news-paul-hamlyn-composer-awards-2026": {
    "L": {
     "body": [
@@ -4475,6 +4573,28 @@
     "rv.score": "UK Jazz News: “çok özel”"
    }
   },
+  "review-miguel-atwood-ferguson-ananta-spirit-of-coltrane": {
+   "L": {
+    "body": [
+     "Miguel Atwood-Ferguson, 30 Ekim'de Impulse! Records etiketiyle “ANANTA: Spirit Of Coltrane” albümünü yayımladı. Albüm, 100. doğum günü 2026'da kutlanacak olan John Coltrane'e bir saygı duruşu. Los Angeles'lı besteci, aranjör ve çok enstrümanlı müzisyen, bu proje için 21 müzisyenden oluşan bir topluluğa liderlik ediyor. Topluluk arasında arpçı Brandee Younger, gitarist Jeff Parker, saksofoncular Immanuel Wilkins, Shabaka Hutchings ve Azar Lawrence, vibrafoncu Joel Ross ile Clash'a göre Coltrane ailesiyle akrabalık bağı bulunan yapımcı Flying Lotus yer alıyor.",
+     "Clash eleştirmeni Nick Roseblade 10 üzerinden 7 puan verdi. Roseblade, Coltrane cover albümlerinin aslında kendisinde alarm zili çaldığını yazıyor; ancak kadronun fikrini değiştirdiğini belirtiyor. Roseblade'e göre birçok parça orijinallerine yakın kalıyor, diğerleri ise daha fazla risk alıyor; müzisyenlerin birlikte çalması onları daha da iyi olmaya itiyor. Roseblade'e göre “Naima” güzel bir açılış, “Compassion” ise en güçlü parçalardan biri. Ona göre şair Aja Monet'nin sözlerinin yer aldığı özgün beste “A Force”, albümün en güçlü anlarından bazılarını barındırıyor; yalnızca “Giant Steps” orijinalinin enerjisine ulaşamıyor.",
+     "Video, Miguel Atwood-Ferguson'un VEVO kanalında yayımlanan, Flying Lotus, Immanuel Wilkins ve piyanist David Virelles'in yer aldığı öncü single “Compassion”ın resmi klibini gösteriyor."
+    ],
+    "d": "Los Angeles'lı aranjör Impulse! etiketiyle John Coltrane'e saygı duruşunda bulunuyor: Flying Lotus, Shabaka Hutchings ve Brandee Younger de projede. Clash 10 üzerinden 7 puan verdi.",
+    "t": "Miguel Atwood-Ferguson – “ANANTA: Spirit Of Coltrane” incelemesi: 21 müzisyenle Coltrane"
+   },
+   "at": "2026-11-05T18:29Z",
+   "h": "139f4bcdbe6b",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Albümde konuk olan Flying Lotus, 2016 ACL Music Festival'de",
+    "rv.score": "Clash: 7/10"
+   }
+  },
   "review-nelsons-wiener-philharmoniker-mahler-symphonien": {
    "L": {
     "body": [
@@ -4854,6 +4974,31 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Jan Delay, 2018 Rock the Ring festivalinde"
+   }
+  },
+  "tour-teskey-brothers-deutschland-2027": {
+   "L": {
+    "body": [
+     "Avustralyalı The Teskey Brothers, eylül 2027'de dört konser için Almanya'ya geliyor. Grup, 19 eylül'de Köln'deki Palladium'da, 23 eylül'de Hamburg'daki Laeiszhalle'de, 25 eylül'de Berlin'deki Tempodrom'da ve 27 eylül'de Münih'teki Circus-Krone-Bau'da sahne alacak.",
+     "Eventim'in verdiği bilgiye göre bu, grubun Birleşik Krallık ve Avrupa'daki bugüne kadarki en büyük headline turnesi. Ayrıca gelecek yıl yeni müziğin yayımlanması bekleniyor; bu müzik turnede tanıtılacak. Şarkı adları veya çıkış tarihleri henüz açıklanmadı.",
+     "Ön satış 6 kasım 2026 cuma günü saat 9:00'da başlıyor."
+    ],
+    "d": "Avustralyalı soul ve blues grubu, Birleşik Krallık ve Avrupa'daki bugüne kadarki en büyük kendi turnesinde Köln, Hamburg, Berlin ve Münih'te sahne alacak. 2027 için yeni müzik duyuruldu.",
+    "t": "The Teskey Brothers: eylül 2027'de Almanya'da dört konser – ön satış cuma günü başlıyor"
+   },
+   "at": "2026-11-05T18:29Z",
+   "h": "aa0812d0398a",
+   "rev": [
+    "Months must not be capitalised in Turkish (TDK): Eylül -> eylül, Kasım -> kasım (headline and body)",
+    "Date and weekday capitalisation: 'Cuma' -> 'cuma' in the last paragraph"
+   ],
+   "rev_dbg": [
+    2,
+    7,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: The Teskey Brothers, 2023'te Kingston'daki Pryzm'de canlı performans sırasında"
    }
   },
   "trainer-erklaeren-wochenendsport-video-2026-11-05": {
