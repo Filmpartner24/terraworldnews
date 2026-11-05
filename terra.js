@@ -159,37 +159,75 @@ Array.prototype.forEach.call(n.querySelectorAll('.nav-dd.ex'),function(x){if(x!=
 d.classList.toggle('ex',o);b.setAttribute('aria-expanded',o?'true':'false');});
 var c=n.querySelector('.nav-dd .dd a[aria-current="page"]');if(c){var d=c.closest('.nav-dd');if(d){d.classList.add('ex');var b=d.querySelector('.nv-exp');if(b)b.setAttribute('aria-expanded','true');}}})();
 
-/* TWN Radio (Nedy 05.11.2026): Nachrichten zum Hören (ElevenLabs-Stimme, DE/BG/EN), eigenes Player-Fenster, „Artikel anhören“ (Gerätestimme) */
+/* TERRA WORLD RADIO (Nedy 05.11.2026): futuristischer Player – TWN-Nachrichten (KI-Stimme, DE/BG/EN) + Musikkanäle (static/radio/stations.json),
+   eigenes Fenster, Visualizer, „Artikel anhören“ (Gerätestimme). Musikkanäle erscheinen erst mit geklärtem Stream als abspielbar. */
 (function(){var L=(document.documentElement.lang||'bg').slice(0,2),
-T={de:{r:'TWN Radio',n:'Nachrichten zum Hören',p:'Im eigenen Fenster öffnen',h:'Der Player läuft dort weiter, während Sie auf TWN lesen.',a:'Artikel anhören',s:'Vorlesen stoppen',ai:'Gesprochen mit einer KI-Stimme (ElevenLabs). Grundlage sind die geprüften Meldungen der TWN-Redaktion.',none:'Die nächste Ausgabe erscheint morgen früh.',old:'Frühere Ausgaben',x:'Schließen',en:'Ausgabe auf Englisch',dev:'Vorgelesen von der Stimme Ihres Geräts.'},
-bg:{r:'TWN Радио',n:'Новини за слушане',p:'Отвори в отделен прозорец',h:'Плейърът продължава да свири, докато четете TWN.',a:'Слушай статията',s:'Спри четенето',ai:'Озвучено с глас, генериран от изкуствен интелект (ElevenLabs), по проверените новини на редакцията на TWN.',none:'Следващото издание излиза утре сутринта.',old:'Предишни издания',x:'Затвори',en:'Издание на английски',dev:'Чете гласът на вашето устройство.'},
-en:{r:'TWN Radio',n:'News to listen to',p:'Open in its own window',h:'The player keeps running while you read TWN.',a:'Listen to this article',s:'Stop reading',ai:'Read by an AI voice (ElevenLabs), based on stories checked by the TWN newsroom.',none:'The next edition will be out tomorrow morning.',old:'Earlier editions',x:'Close',en:'English edition',dev:'Read aloud by your device’s voice.'},
-tr:{r:'TWN Radyo',n:'Dinlenecek haberler',p:'Ayrı pencerede aç',h:'Siz TWN’de okurken oynatıcı çalmaya devam eder.',a:'Makaleyi dinle',s:'Okumayı durdur',ai:'Yapay zekâ sesiyle (ElevenLabs) seslendirilmiştir; TWN editörlerinin doğruladığı haberlere dayanır.',none:'Bir sonraki bülten yarın sabah yayımlanacak.',old:'Önceki bültenler',x:'Kapat',en:'İngilizce bülten',dev:'Cihazınızın sesiyle okunur.'},
-es:{r:'TWN Radio',n:'Noticias para escuchar',p:'Abrir en una ventana aparte',h:'El reproductor sigue sonando mientras lee TWN.',a:'Escuchar el artículo',s:'Detener la lectura',ai:'Leído con una voz de IA (ElevenLabs), a partir de noticias verificadas por la redacción de TWN.',none:'La próxima edición sale mañana por la mañana.',old:'Ediciones anteriores',x:'Cerrar',en:'Edición en inglés',dev:'Leído con la voz de su dispositivo.'}},
+T={de:{r:'TERRA WORLD RADIO',tag:'Nachrichten · Musik · Welt',news:'TWN Nachrichten',nd:'Die Top-Meldungen in 3 Minuten',mus:'Musikkanäle',soon:'Bald',p:'Im eigenen Fenster',ph:'Läuft weiter, während Sie lesen.',a:'Artikel anhören',s:'Vorlesen stoppen',ai:'Nachrichten gesprochen mit einer KI-Stimme (ElevenLabs) auf Grundlage geprüfter Meldungen der TWN-Redaktion.',none:'Die nächste Ausgabe erscheint morgen früh.',x:'Schließen',en:'auf Englisch',dev:'Vorgelesen von der Stimme Ihres Geräts.',now:'Jetzt läuft',vol:'Lautstärke',play:'Abspielen',pause:'Pause',live:'LIVE',old:'Frühere Ausgaben'},
+bg:{r:'TERRA WORLD RADIO',tag:'Новини · Музика · Свят',news:'Новини TWN',nd:'Водещите новини за 3 минути',mus:'Музикални канали',soon:'Скоро',p:'В отделен прозорец',ph:'Продължава, докато четете.',a:'Слушай статията',s:'Спри четенето',ai:'Новините са озвучени с глас, генериран от изкуствен интелект (ElevenLabs), по проверени материали на редакцията на TWN.',none:'Следващото издание излиза утре сутринта.',x:'Затвори',en:'на английски',dev:'Чете гласът на вашето устройство.',now:'Сега звучи',vol:'Сила на звука',play:'Пусни',pause:'Пауза',live:'НА ЖИВО',old:'Предишни издания'},
+en:{r:'TERRA WORLD RADIO',tag:'News · Music · World',news:'TWN News',nd:'The top stories in 3 minutes',mus:'Music channels',soon:'Soon',p:'Pop-out player',ph:'Keeps playing while you read.',a:'Listen to this article',s:'Stop reading',ai:'News read by an AI voice (ElevenLabs), based on stories checked by the TWN newsroom.',none:'The next edition will be out tomorrow morning.',x:'Close',en:'in English',dev:'Read aloud by your device’s voice.',now:'Now playing',vol:'Volume',play:'Play',pause:'Pause',live:'LIVE',old:'Earlier editions'},
+tr:{r:'TERRA WORLD RADIO',tag:'Haberler · Müzik · Dünya',news:'TWN Haberleri',nd:'3 dakikada öne çıkan haberler',mus:'Müzik kanalları',soon:'Yakında',p:'Ayrı pencerede',ph:'Siz okurken çalmaya devam eder.',a:'Makaleyi dinle',s:'Okumayı durdur',ai:'Haberler, TWN editörlerinin doğruladığı metinlere dayanarak yapay zekâ sesiyle (ElevenLabs) okunur.',none:'Bir sonraki bülten yarın sabah yayımlanacak.',x:'Kapat',en:'İngilizce',dev:'Cihazınızın sesiyle okunur.',now:'Şimdi çalıyor',vol:'Ses',play:'Oynat',pause:'Duraklat',live:'CANLI',old:'Önceki bültenler'},
+es:{r:'TERRA WORLD RADIO',tag:'Noticias · Música · Mundo',news:'Noticias TWN',nd:'Las noticias clave en 3 minutos',mus:'Canales de música',soon:'Pronto',p:'Ventana aparte',ph:'Sigue sonando mientras lee.',a:'Escuchar el artículo',s:'Detener la lectura',ai:'Noticias leídas con una voz de IA (ElevenLabs) a partir de textos verificados por la redacción de TWN.',none:'La próxima edición sale mañana por la mañana.',x:'Cerrar',en:'en inglés',dev:'Leído con la voz de su dispositivo.',now:'Sonando',vol:'Volumen',play:'Reproducir',pause:'Pausa',live:'EN VIVO',old:'Ediciones anteriores'}},
 t=T[L]||T.en,AL={de:'de',bg:'bg',en:'en'},al=AL[L]||'en',isPop=document.body&&document.body.hasAttribute('data-radio');
-function el(h){var d=document.createElement('div');d.innerHTML=h;return d.firstChild}
-function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
-function day(s){try{return new Date(s+'T12:00:00').toLocaleDateString(L==='bg'?'bg-BG':L==='de'?'de-DE':L==='tr'?'tr-TR':L==='es'?'es-ES':'en-GB',{weekday:'long',day:'numeric',month:'long'})}catch(e){return s}}
-function fill(box){if(!window.fetch)return;fetch('/audio/news.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(function(d){
-var its=(d.items||[]).filter(function(x){return x.lang===al}).sort(function(a,b){return a.date<b.date?1:-1}),c=box.querySelector('.tr-c');
-if(!its.length){c.innerHTML='<p class="tr-none">'+esc(t.none)+'</p>';return}
-var a=its[0],h='<p class="tr-t"><b>'+esc(a.title)+'</b> · '+esc(day(a.date))+(al!==L?' · '+esc(t.en):'')+'</p><audio class="tr-a" controls preload="none" src="'+esc(a.f)+'"></audio>';
-if(its.length>1)h+='<details class="tr-old"><summary>'+esc(t.old)+'</summary>'+its.slice(1).map(function(x){return '<button type="button" data-f="'+esc(x.f)+'">'+esc(day(x.date))+'</button>'}).join('')+'</details>';
-c.innerHTML=h;var au=c.querySelector('audio');Array.prototype.forEach.call(c.querySelectorAll('.tr-old button'),function(b){b.addEventListener('click',function(){au.src=b.getAttribute('data-f');au.play()})})}).catch(function(){})}
-function panel(){return el('<section class="tr-p" aria-label="'+esc(t.r)+'"><div class="tr-h"><b>🎧 '+esc(t.r)+'</b>'+(isPop?'':'<button type="button" class="tr-x" aria-label="'+esc(t.x)+'">×</button>')+'</div><p class="tr-n">'+esc(t.n)+'</p><div class="tr-c"></div>'+(isPop?'':'<p class="tr-pop"><button type="button">↗ '+esc(t.p)+'</button><small>'+esc(t.h)+'</small></p>')+'<p class="tr-ai">'+esc(t.ai)+'</p></section>')}
-if(isPop){var m=document.getElementById('radio');var p=panel();m.appendChild(p);fill(p);document.title=t.r+' | TWN';return}
-var btn=el('<button type="button" class="tr-b" aria-expanded="false">🎧 <span>'+esc(t.r)+'</span></button>'),pn=null;document.body.appendChild(btn);
-btn.addEventListener('click',function(){if(!pn){pn=panel();pn.hidden=true;document.body.appendChild(pn);fill(pn);
-pn.querySelector('.tr-x').addEventListener('click',function(){pn.hidden=true;btn.setAttribute('aria-expanded','false')});
-pn.querySelector('.tr-pop button').addEventListener('click',function(){var au=pn.querySelector('audio');if(au)au.pause();window.open('/radio.html?l='+L,'twnradio','width=440,height=560')})}
-pn.hidden=!pn.hidden;btn.setAttribute('aria-expanded',pn.hidden?'false':'true')});
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function el(h){var d=document.createElement('div');d.innerHTML=h.trim();return d.firstChild}
+function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){return null}}
+function day(s){try{return new Date(s+'T12:00:00').toLocaleDateString({bg:'bg-BG',de:'de-DE',tr:'tr-TR',es:'es-ES'}[L]||'en-GB',{weekday:'long',day:'numeric',month:'long'})}catch(e){return s}}
+var NB=24,bars='';for(var i=0;i<NB;i++)bars+='<i style="--i:'+i+'"></i>';
+var html='<section class="twr'+(isPop?' twr-pop':'')+'" aria-label="'+esc(t.r)+'"'+(isPop?'':' hidden')+'>'+
+'<div class="twr-glow" aria-hidden="true"></div>'+
+'<header class="twr-h"><div><b class="twr-brand">'+esc(t.r)+'</b><small>'+esc(t.tag)+'</small></div>'+(isPop?'':'<button type="button" class="twr-x" aria-label="'+esc(t.x)+'">×</button>')+'</header>'+
+'<div class="twr-stage"><div class="twr-orb" aria-hidden="true"><span class="twr-ring"></span><span class="twr-core">📡</span></div>'+
+'<div class="twr-np"><span class="twr-live"><i></i>'+esc(t.now)+'</span><b class="twr-title">'+esc(t.news)+'</b><span class="twr-sub">'+esc(t.nd)+'</span></div></div>'+
+'<div class="twr-viz" aria-hidden="true">'+bars+'</div>'+
+'<div class="twr-ctl"><button type="button" class="twr-prev" aria-label="◀">⏮</button><button type="button" class="twr-play" aria-label="'+esc(t.play)+'">▶</button><button type="button" class="twr-next" aria-label="▶">⏭</button>'+
+'<label class="twr-vol"><span aria-hidden="true">🔊</span><input type="range" min="0" max="1" step="0.05" aria-label="'+esc(t.vol)+'"></label></div>'+
+'<div class="twr-seek"><input type="range" min="0" max="1000" value="0" aria-label="seek"><small class="twr-time">0:00</small></div>'+
+'<h3 class="twr-sh">'+esc(t.news)+'</h3><div class="twr-news"></div>'+
+'<h3 class="twr-sh">'+esc(t.mus)+'</h3><div class="twr-ch"></div>'+
+(isPop?'':'<button type="button" class="twr-popb">↗ '+esc(t.p)+' <small>'+esc(t.ph)+'</small></button>')+
+'<p class="twr-ai">'+esc(t.ai)+'</p><audio preload="none"></audio></section>';
+var R=el(html),au=R.querySelector('audio'),list=[],cur=-1,ctx=null,an=null,raf=0,BAR=R.querySelectorAll('.twr-viz i');
+function setVol(v){au.volume=v;R.querySelector('.twr-vol input').value=v;ls('twr-vol',String(v))}
+setVol(parseFloat(ls('twr-vol')||'0.9'));R.querySelector('.twr-vol input').addEventListener('input',function(){setVol(parseFloat(this.value))});
+function fmt(s){if(!isFinite(s))return t.live;s=Math.floor(s);return Math.floor(s/60)+':'+('0'+s%60).slice(-2)}
+function wire(){R.classList.add('twr-fake')}   /* Balken per CSS: kein Web-Audio, damit fremde Streams nie stumm geschaltet werden */
+function show(x){R.querySelector('.twr-title').textContent=x.title;R.querySelector('.twr-sub').textContent=x.sub;R.style.setProperty('--c1',x.c1);R.style.setProperty('--c2',x.c2);R.querySelector('.twr-core').textContent=x.emoji;
+R.querySelector('.twr-seek').hidden=!!x.live;Array.prototype.forEach.call(R.querySelectorAll('[data-k]'),function(b){b.classList.toggle('on',b.getAttribute('data-k')===x.k)})}
+function play(i,go){var x=list[i];if(!x||!x.src)return;cur=i;ls('twr-k',x.k);show(x);if(au.getAttribute('src')!==x.src){au.src=x.src}
+if(go!==false){var p=au.play();if(p&&p.catch)p.catch(function(){});wire(x.local)}np()}
+function np(){var x=list[cur];if(!x||!x.laut||!window.fetch)return;fetch('https://api.laut.fm/station/'+x.laut+'/current_song').then(function(r){return r.json()}).then(function(d){if(list[cur]===x&&d&&d.title)R.querySelector('.twr-sub').textContent=(d.artist&&d.artist.name?d.artist.name+' – ':'')+d.title}).catch(function(){})}
+setInterval(function(){if(!au.paused)np()},30000);
+au.addEventListener('play',function(){R.classList.add('twr-on');R.querySelector('.twr-play').textContent='❚❚';R.querySelector('.twr-play').setAttribute('aria-label',t.pause);if(btn)btn.classList.add('on')});
+au.addEventListener('pause',function(){R.classList.remove('twr-on');R.querySelector('.twr-play').textContent='▶';R.querySelector('.twr-play').setAttribute('aria-label',t.play);if(btn)btn.classList.remove('on')});
+au.addEventListener('timeupdate',function(){if(isFinite(au.duration)){R.querySelector('.twr-seek input').value=Math.round(au.currentTime/au.duration*1000);R.querySelector('.twr-time').textContent=fmt(au.currentTime)+' / '+fmt(au.duration)}});
+R.querySelector('.twr-seek input').addEventListener('input',function(){if(isFinite(au.duration))au.currentTime=this.value/1000*au.duration});
+R.querySelector('.twr-play').addEventListener('click',function(){if(cur<0){var j=list.findIndex(function(x){return x.src});if(j>=0)play(j);return}if(au.paused){au.play();wire(list[cur].local)}else au.pause()});
+function step(d){var n=list.length;for(var k=1;k<=n;k++){var j=(cur+d*k+n*n)%n;if(list[j].src){play(j);return}}}
+R.querySelector('.twr-prev').addEventListener('click',function(){step(-1)});R.querySelector('.twr-next').addEventListener('click',function(){step(1)});
+function card(x,i){var b=el('<button type="button" class="twr-card'+(x.src?'':' soon')+'" data-k="'+esc(x.k)+'" style="--c1:'+esc(x.c1)+';--c2:'+esc(x.c2)+'"'+(x.src?'':' disabled')+'><span class="e">'+esc(x.emoji)+'</span><b>'+esc(x.name)+'</b><small>'+esc(x.sub)+'</small>'+(x.src?'':'<em>'+esc(t.soon)+'</em>')+'</button>');
+if(x.src)b.addEventListener('click',function(){play(i)});return b}
+function build(news,st){list=[];var nw=R.querySelector('.twr-news'),ch=R.querySelector('.twr-ch');nw.innerHTML='';ch.innerHTML='';
+var its=(news.items||[]).filter(function(x){return x.lang===al}).sort(function(a,b){return a.date<b.date?1:-1});
+if(!its.length){nw.innerHTML='<p class="twr-none">'+esc(t.none)+'</p>'}
+its.slice(0,7).forEach(function(x,n){var o={k:'news-'+x.date,name:n?day(x.date):t.news,title:x.title+(al!==L?' ('+t.en+')':''),sub:day(x.date)+' · '+t.nd,emoji:'📡',c1:'#3b8bff',c2:'#d4161c',src:x.f,local:true};
+var i=list.push(o)-1;if(n===0)nw.appendChild(card(Object.assign({},o,{name:t.news,sub:day(x.date)}),i));else{if(n===1)nw.appendChild(el('<details class="twr-old"><summary>'+esc(t.old)+'</summary></details>'));nw.lastChild.appendChild(card(Object.assign({},o,{sub:''}),i))}});
+((st&&st.music)||[]).forEach(function(m){var src=m.stream||(m.laut?'https://stream.laut.fm/'+m.laut:'');var o={k:'m-'+m.id,name:m.name,title:m.name,sub:(m.g&&(m.g[L]||m.g.en))||'',emoji:m.emoji||'🎶',c1:m.c1||'#7a3bff',c2:m.c2||'#0f2f7a',src:src,laut:m.laut||'',live:true,local:false};var i=list.push(o)-1;ch.appendChild(card(o,i))});
+var k=ls('twr-k'),j=-1;list.forEach(function(x,i){if(x.k===k&&x.src)j=i});if(j<0)j=list.findIndex(function(x){return x.src});if(j>=0){cur=j;show(list[j]);au.src=list[j].src}}
+function load(){if(!window.fetch)return;Promise.all([fetch('/audio/news.json',{cache:'no-cache'}).then(function(r){return r.json()}).catch(function(){return{}}),fetch('/radio/stations.json',{cache:'no-cache'}).then(function(r){return r.json()}).catch(function(){return{}})]).then(function(a){build(a[0],a[1])})}
+var btn=null;
+if(isPop){document.getElementById('radio').appendChild(R);load();document.title=t.r;return}
+btn=el('<button type="button" class="twr-b" aria-expanded="false"><span class="twr-eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>Radio</span></button>');
+document.body.appendChild(btn);document.body.appendChild(R);var loaded=false;
+btn.addEventListener('click',function(){if(!loaded){load();loaded=true}R.hidden=!R.hidden;btn.setAttribute('aria-expanded',R.hidden?'false':'true')});
+R.querySelector('.twr-x').addEventListener('click',function(){R.hidden=true;btn.setAttribute('aria-expanded','false')});
+R.querySelector('.twr-popb').addEventListener('click',function(){au.pause();window.open('/radio.html?l='+L,'twnradio','width=460,height=760')});
 /* Artikel anhören – Gerätestimme (kostenlos) */
 var art=document.querySelector('article.article'),S=window.speechSynthesis;if(!art||!S||!window.SpeechSynthesisUtterance)return;
 var h1=art.querySelector('h1'),dek=art.querySelector('.dek');if(!h1)return;
 var lb=el('<p class="tr-art"><button type="button">🔊 '+esc(t.a)+'</button><small>'+esc(t.dev)+'</small></p>'),on=false;(dek||h1).insertAdjacentElement('afterend',lb);
 var lc={de:'de-DE',bg:'bg-BG',en:'en-GB',tr:'tr-TR',es:'es-ES'}[L]||L;
 lb.querySelector('button').addEventListener('click',function(){var b=this;if(on){S.cancel();on=false;b.textContent='🔊 '+t.a;return}
-var parts=[h1.textContent];if(dek)parts.push(dek.textContent);Array.prototype.forEach.call(art.querySelectorAll('.body > p:not(.meta)'),function(p){parts.push(p.textContent)});
+au.pause();var parts=[h1.textContent];if(dek)parts.push(dek.textContent);Array.prototype.forEach.call(art.querySelectorAll('.body > p:not(.meta)'),function(p){parts.push(p.textContent)});
 var vs=S.getVoices().filter(function(v){return v.lang&&v.lang.toLowerCase().indexOf(L)===0});S.cancel();
 parts.forEach(function(x,i){var u=new SpeechSynthesisUtterance(x);u.lang=lc;if(vs.length)u.voice=vs[0];u.rate=1.02;if(i===parts.length-1)u.onend=function(){on=false;b.textContent='🔊 '+t.a};S.speak(u)});
 on=true;b.textContent='⏹ '+t.s});

@@ -1,0 +1,13 @@
+{"note": "Musiksender nur mit geklärten Rechten eintragen (eigene laut.fm-Sender oder schriftliche Erlaubnis). stream leer = 'Bald'.",
+ "music": [
+  {"id": "rock", "name": "World Rock", "emoji": "🎸", "c1": "#ff3b3b", "c2": "#7a0f2f", "stream": "", "laut": "",
+   "g": {"de": "Classic Rock, Hardrock, Alternative", "bg": "Класически рок, хардрок, алтернатива", "en": "Classic rock, hard rock, alternative", "tr": "Klasik rock, hard rock, alternatif", "es": "Rock clásico, hard rock, alternativo"}},
+  {"id": "hits", "name": "World Hits", "emoji": "🎵", "c1": "#ff3bd4", "c2": "#3b1f8a", "stream": "", "laut": "",
+   "g": {"de": "Pop, Charts, Dance", "bg": "Поп, класации, денс", "en": "Pop, charts, dance", "tr": "Pop, listeler, dans", "es": "Pop, éxitos, dance"}},
+  {"id": "jazz", "name": "Jazz & Chill", "emoji": "🎷", "c1": "#ffb13b", "c2": "#5a2a0a", "stream": "", "laut": "",
+   "g": {"de": "Jazz, Lounge, Ambient", "bg": "Джаз, лаунж, амбиънт", "en": "Jazz, lounge, ambient", "tr": "Caz, lounge, ambient", "es": "Jazz, lounge, ambient"}},
+  {"id": "culture", "name": "World Culture", "emoji": "🌐", "c1": "#3bffb1", "c2": "#0a4a5a", "stream": "", "laut": "",
+   "g": {"de": "Balkan, Folk, Weltmusik", "bg": "Балкани, фолк, световна музика", "en": "Balkan, folk, world music", "tr": "Balkan, folk, dünya müziği", "es": "Balcanes, folk, músicas del mundo"}},
+  {"id": "popfolk", "name": "Pop-Folk", "emoji": "💃", "c1": "#ffd23b", "c2": "#8a1f3b", "stream": "", "laut": "",
+   "g": {"de": "Chalga, Pop-Folk, Balkan-Hits", "bg": "Чалга, попфолк, балкански хитове", "en": "Chalga, pop-folk, Balkan hits", "tr": "Çalga, pop-folk, Balkan hitleri", "es": "Chalga, pop-folk, éxitos balcánicos"}}
+ ]}
