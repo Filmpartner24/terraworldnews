@@ -26,7 +26,7 @@ jobs:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
         run: |
           if [ "${{ github.event_name }}" = "push" ]; then
-            python3 tools/audio_bulletin.py --probe --date "$(head -1 audio/probe-request.txt)" 2>&1 | tee audio/probe-log.txt || true
+            python3 tools/audio_bulletin.py --probe --date "$(sed -n 1p audio/probe-request.txt)" --langs "$(sed -n 2p audio/probe-request.txt | grep -E '^[a-z,]+$' || echo de,bg,en)" 2>&1 | tee audio/probe-log.txt || true
           else
             python3 tools/audio_bulletin.py
           fi

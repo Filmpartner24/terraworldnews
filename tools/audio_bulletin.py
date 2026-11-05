@@ -17,7 +17,7 @@ from zoneinfo import ZoneInfo
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BERLIN = ZoneInfo('Europe/Berlin')
 VOICE = os.environ.get('TWN_VOICE_ID', 'TCAJda6jOtzTY3hdxbdK')          # Nedy John Cross (ElevenLabs)
-MODEL = os.environ.get('TWN_TTS_MODEL', 'eleven_flash_v2_5')            # Flash = halbe Credits; Alternative eleven_multilingual_v2
+MODEL = os.environ.get('TWN_TTS_MODEL', 'eleven_multilingual_v2')       # Nedy 05.11.2026: Multilingual v2 (Stimme darauf trainiert); Flash v2.5 = halbe Credits
 LANGS = ['de', 'bg', 'en']
 N_ITEMS = 4            # Aufmacher + 3 weitere Meldungen
 MAX_CHARS = 1900       # Kostenbremse pro Ausgabe
@@ -74,7 +74,7 @@ def tts(text, l, dest):
     key = os.environ.get('ELEVENLABS_API_KEY')
     if not key: raise SystemExit('ELEVENLABS_API_KEY fehlt (GitHub-Secret)')
     body = {'text': text, 'model_id': MODEL, 'language_code': l,
-            'voice_settings': {'stability': 0.55, 'similarity_boost': 0.8, 'style': 0.0, 'use_speaker_boost': True}}
+            'voice_settings': {'stability': 0.71, 'similarity_boost': 0.74, 'style': 0.0, 'use_speaker_boost': True, 'speed': 1.07}}   # Nedys Einstellungen (Screenshot 05.11.2026)
     req = urllib.request.Request(f'https://api.elevenlabs.io/v1/text-to-speech/{VOICE}?output_format=mp3_44100_64',
                                  data=json.dumps(body).encode(), method='POST',
                                  headers={'xi-api-key': key, 'Content-Type': 'application/json', 'Accept': 'audio/mpeg'})
@@ -89,6 +89,7 @@ def tts(text, l, dest):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--date'); ap.add_argument('--probe', action='store_true'); ap.add_argument('--dry', action='store_true')
+    ap.add_argument('--langs', default=','.join(LANGS))
     a = ap.parse_args()
     now = dt.datetime.now(BERLIN)
     date = a.date or now.date().isoformat()
@@ -100,7 +101,7 @@ def main():
         for l in LANGS: t = script(items, l, d); print(f'--- {l} ({len(t)} Zeichen)\n{t}\n')
         return
     if a.probe:
-        for l in LANGS:
+        for l in a.langs.split(','):
             t = script(items, l, d)
             n = tts(t, l, os.path.join(HERE, 'audio', 'probe', f'{date}-{l}.mp3'))
             open(os.path.join(HERE, 'audio', 'probe', f'{date}-{l}.txt'), 'w', encoding='utf-8').write(t)
