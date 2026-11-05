@@ -1994,3 +1994,4 @@ background:linear-gradient(135deg,color-mix(in srgb,var(--c1) 26%,#0a1030),color
 .pe-big .pe-top{grid-template-columns:minmax(0,1.3fr) minmax(260px,1fr)}
 .pe-date i{white-space:nowrap}
 @media (max-width:760px){.pe-top,.pe-big .pe-top{grid-template-columns:1fr}.pe-logo{order:-1;max-width:440px;width:calc(100% + 32px);margin:-26px auto -22px}}
+.twr-b{min-width:140px}.twr-b.on{box-shadow:0 0 0 2px #fff,0 0 26px rgba(59,139,255,.7)}

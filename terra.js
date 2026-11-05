@@ -235,8 +235,8 @@ Array.prototype.forEach.call(box.querySelectorAll('.twr-card'),function(x){x.cla
 V.querySelector('.twr-tvx').addEventListener('click',tvStop);V.querySelector('.twr-big').addEventListener('click',function(){V.classList.toggle('twr-wide')});au.addEventListener('play',tvStop);
 var btn=null;
 if(isPop){if(popTV){document.getElementById('radio').appendChild(V);loadTV();document.title=t.tvb}else{document.getElementById('radio').appendChild(R);load();document.title=t.r}return}
-btn=el('<button type="button" class="twr-b" aria-expanded="false"><span class="twr-eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>Radio</span></button>');
-var tb=el('<button type="button" class="twr-b twr-b2" aria-expanded="false"><span aria-hidden="true">📺</span><span>TV</span></button>');
+btn=el('<button type="button" class="twr-b" aria-expanded="false"><span aria-hidden="true">📻</span><span>Radio</span></button>');
+var tb=el('<button type="button" class="twr-b twr-b2" aria-expanded="false"><span aria-hidden="true">📺</span><span>News TV</span></button>');
 document.body.appendChild(tb);document.body.appendChild(btn);document.body.appendChild(V);document.body.appendChild(R);var loaded=false,tvl=false;
 function sh(p,b,on){p.hidden=!on;b.setAttribute('aria-expanded',on?'true':'false')}
 btn.addEventListener('click',function(){if(!loaded){load();loaded=true}var o=R.hidden;sh(R,btn,o);if(o)sh(V,tb,false)});
