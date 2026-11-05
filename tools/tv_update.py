@@ -6,7 +6,8 @@ import json, os, re, urllib.request, datetime as dt
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(HERE, 'static', 'tv', 'channels.json')
-CH = [  # id, Name, Sprache, Handle, offizielle Kanal-ID, Farben
+CH = [  # Reihenfolge = Anzeige (Nedy 05.11.2026: WELT oben, dann DW; Al Jazeera Arabic entfernt)  # id, Name, Sprache, Handle, offizielle Kanal-ID, Farben
+    ('welt', 'WELT', 'de', 'WELTVideoTV', 'UCZMsvbAhhRblVGXmEXW8TSA', '#2f6bff', '#0b1430'),
     ('dw', 'DW News', 'en', 'dwnews', 'UCknLrEdhRCp1aegoMqRaCZg', '#05b2fc', '#002d5a'),
     ('f24en', 'France 24 English', 'en', 'France24_en', 'UCQfwfsi5VrQ8yKZ-UWmAEFg', '#00a4e4', '#1a1f5a'),
     ('f24fr', 'France 24 Français', 'fr', 'FRANCE24', 'UCCCPCZNChQdGa9EkATeye4g', '#00a4e4', '#1a1f5a'),
@@ -14,8 +15,6 @@ CH = [  # id, Name, Sprache, Handle, offizielle Kanal-ID, Farben
     ('eun', 'Euronews English', 'en', 'euronews', 'UCSrZ3UV4jOidv8ppoVuvW9Q', '#3b8bff', '#0a1f4a'),
     ('eude', 'Euronews Deutsch', 'de', 'euronewsde', 'UCACdxU3VrJIJc7ujxtHWs1w', '#3b8bff', '#0a1f4a'),
     ('aje', 'Al Jazeera English', 'en', 'aljazeeraenglish', 'UCNye-wNBqNL5ZzHSJj3l8Bg', '#fa9000', '#3a2400'),
-    ('aja', 'Al Jazeera Arabic', 'ar', 'aljazeera', 'UCfiwzLy-8yKzIbsmZTzxDgw', '#fa9000', '#3a2400'),
-    ('welt', 'WELT', 'de', 'WELTVideoTV', 'UCZMsvbAhhRblVGXmEXW8TSA', '#2f6bff', '#0b1430'),
 ]
 
 def live_id(handle, cid):

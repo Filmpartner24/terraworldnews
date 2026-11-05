@@ -2,6 +2,18 @@
  "note": "Offizielle YouTube-Livestreams (Kanal-ID geprüft), eingebettet über youtube-nocookie.com.",
  "channels": [
   {
+   "id": "welt",
+   "name": "WELT",
+   "lang": "de",
+   "channel": "UCZMsvbAhhRblVGXmEXW8TSA",
+   "handle": "WELTVideoTV",
+   "c1": "#2f6bff",
+   "c2": "#0b1430",
+   "v": "EdO0cbye0rA",
+   "title": "WELT Livestream",
+   "checked": "2026-11-05T17:52Z"
+  },
+  {
    "id": "dw",
    "name": "DW News",
    "lang": "en",
@@ -83,30 +95,6 @@
    "c2": "#3a2400",
    "v": "gCNeDWCI0vo",
    "title": "Al Jazeera English | Live",
-   "checked": "2026-11-05T17:52Z"
-  },
-  {
-   "id": "aja",
-   "name": "Al Jazeera Arabic",
-   "lang": "ar",
-   "channel": "UCfiwzLy-8yKzIbsmZTzxDgw",
-   "handle": "aljazeera",
-   "c1": "#fa9000",
-   "c2": "#3a2400",
-   "v": "FelGGahCbS8",
-   "title": "قناة الجزيرة - البث الحي",
-   "checked": "2026-11-05T17:52Z"
-  },
-  {
-   "id": "welt",
-   "name": "WELT",
-   "lang": "de",
-   "channel": "UCZMsvbAhhRblVGXmEXW8TSA",
-   "handle": "WELTVideoTV",
-   "c1": "#2f6bff",
-   "c2": "#0b1430",
-   "v": "EdO0cbye0rA",
-   "title": "WELT Livestream",
    "checked": "2026-11-05T17:52Z"
   }
  ]
