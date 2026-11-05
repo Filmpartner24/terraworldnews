@@ -16,7 +16,7 @@ from zoneinfo import ZoneInfo
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BERLIN = ZoneInfo('Europe/Berlin')
-VOICE = os.environ.get('TWN_VOICE_ID', '1SM7GgM6IMuvQlz2BwM3')          # „Mark“ (ElevenLabs-Bibliothek), Nedy 05.11.2026; Nedys eigene Stimme: TCAJda6jOtzTY3hdxbdK
+VOICE = os.environ.get('TWN_VOICE_ID', '2uOZngbI0kZd4T028VuO')          # Frauenstimme (ElevenLabs), Nedy 05.11.2026; vorher Mark 1SM7GgM6IMuvQlz2BwM3, Nedy TCAJda6jOtzTY3hdxbdK
 MODEL = os.environ.get('TWN_TTS_MODEL', 'eleven_multilingual_v2')       # Nedy 05.11.2026: Multilingual v2 (Stimme darauf trainiert); Flash v2.5 = halbe Credits
 LANGS = ['de', 'bg', 'en']
 N_ITEMS = 4            # Aufmacher + 3 weitere Meldungen
@@ -132,7 +132,7 @@ def main():
         n = tts(t, l, os.path.join(HERE, 'static' + rel))
         idx['items'] = [x for x in idx['items'] if not (x['date'] == date and x['lang'] == l)]
         idx['items'].append({'date': date, 'lang': l, 'f': rel, 'bytes': n, 'chars': len(t), 'time': now.strftime('%H:%M'),
-                             'title': TITLE[l], 'ids': [i['id'] for i in items], 'voice': 'Mark (ElevenLabs)', 'model': MODEL})
+                             'title': TITLE[l], 'ids': [i['id'] for i in items], 'voice': 'ElevenLabs ' + VOICE, 'model': MODEL})
         print(l, len(t), 'Zeichen →', rel)
     cut = (d - dt.timedelta(days=KEEP_DAYS - 1)).isoformat()
     idx['items'] = sorted([x for x in idx['items'] if x['date'] >= cut], key=lambda x: (x['date'], x['lang']), reverse=True)
