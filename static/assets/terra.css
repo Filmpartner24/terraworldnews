@@ -1960,3 +1960,10 @@ background:linear-gradient(135deg,color-mix(in srgb,var(--c1) 26%,#0a1030),color
 .tr-art small{opacity:.7;font-size:12px}
 @media (prefers-reduced-motion:reduce){.twr *,.twr-b *{animation:none!important}}
 @media print{.twr-b,.twr,.tr-art{display:none}}
+.twr-cat{border-radius:14px}.twr-cat>summary{list-style:none}.twr-cat>summary::-webkit-details-marker{display:none}
+.twr-cat[open]{grid-column:1/-1}.twr-cat[open]>summary{box-shadow:0 0 0 2px var(--c1),0 0 22px color-mix(in srgb,var(--c1) 55%,transparent)}
+.twr-cat em{background:color-mix(in srgb,var(--c1) 40%,transparent)!important}
+.twr-st{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:6px}
+.twr-st a{display:block;padding:8px 10px;border-radius:10px;font-size:12.5px;font-weight:600;color:#fff;text-decoration:none;background:rgba(255,255,255,.06);border:1px solid color-mix(in srgb,var(--c1) 40%,transparent);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.twr-st a:hover{background:color-mix(in srgb,var(--c1) 30%,transparent)}
+.twr-lf{margin:8px 0 0;font-size:11px;color:#8f9bd0}
