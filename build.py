@@ -2490,6 +2490,11 @@ def tv_block(l):
 SVCU = {'bg': dict(wx='Времето', fx='Курс на еврото', cr='Времето: MET Norway (CC BY 4.0) · Курсове: ЕЦБ, референтни курсове от', cities={'sofia': 'София', 'plovdiv': 'Пловдив', 'varna': 'Варна', 'burgas': 'Бургас', 'berlin': 'Берлин', 'muenchen': 'Мюнхен', 'frankfurt': 'Франкфурт', 'hamburg': 'Хамбург'}, order=['sofia', 'plovdiv', 'varna', 'burgas', 'berlin', 'muenchen', 'frankfurt', 'hamburg']),
         'de': dict(wx='Wetter', fx='Euro-Kurse', cr='Wetter: MET Norway (CC BY 4.0) · Kurse: EZB-Referenzkurse vom', cities={'sofia': 'Sofia', 'plovdiv': 'Plowdiw', 'varna': 'Warna', 'burgas': 'Burgas', 'berlin': 'Berlin', 'muenchen': 'München', 'frankfurt': 'Frankfurt', 'hamburg': 'Hamburg'}, order=['berlin', 'muenchen', 'frankfurt', 'hamburg', 'sofia', 'plovdiv', 'varna', 'burgas']),
         'en': dict(wx='Weather', fx='Euro rates', cr='Weather: MET Norway (CC BY 4.0) · Rates: ECB euro reference rates of', cities={'sofia': 'Sofia', 'plovdiv': 'Plovdiv', 'varna': 'Varna', 'burgas': 'Burgas', 'berlin': 'Berlin', 'muenchen': 'Munich', 'frankfurt': 'Frankfurt', 'hamburg': 'Hamburg'}, order=['berlin', 'muenchen', 'frankfurt', 'hamburg', 'sofia', 'plovdiv', 'varna', 'burgas'])}
+def _hist_item(x):
+    """Historisches (Nedy 05.11.2026): History-Rubrik, Music History, Doku-Abend nie unter „Neueste Meldungen“ der Startseite – dort nur aktuelle News."""
+    return (x.get('s') == 'history' or x.get('sub') == 'mhistory' or 'mhistory' in (x.get('subs') or [])
+            or str(x.get('id', '')).startswith(('film-doku-', 'filmpartner24-history'))
+            or 'History' in ((x.get('exk') or {}).get('de') or ''))
 MRU = {'bg': 'Най-четени', 'de': 'Meistgelesen', 'en': 'Most read'}
 # ---- Startseite v2 (Nedy 31.10.2026): Entdecken-Leiste, Service-Widgets, kompakte Rubrik-Blöcke
 HOMEU = {'bg': dict(disc='Открийте TWN', mk='Пазари', mka='Цени при затваряне', bl='Бундеслига', ipo='Следващо IPO', all='Всички →', g_news='Новини', g_know='Икономика и знание', g_life='Живот и стил', g_ent='Развлечения и спорт'),
@@ -3064,7 +3069,7 @@ def build():
             if hasv:
                 return f'<a class="rt rt-v" href="{art_url(it, l)}" tabindex="-1">{play}<span class="rt-l">{e(u["vid"])}</span></a>'
             return f'<a class="rt rt-x" href="{art_url(it, l)}" tabindex="-1" aria-hidden="true" style="--c:{SEC_COLOR[it["s"]]}"></a>'
-        ranked = ''.join(f'<div class="rank"><span class="n">{i + 1}</span>{rthumb(it)}<a href="{art_url(it, l)}">{kick(it, l)}<h3>{e(it[l]["t"])}</h3></a></div>' for i, it in enumerate([x for x in rest if x['s'] != 'business'][:5]))  # Business-Berichte nie unter „Neueste Meldungen“
+        ranked = ''.join(f'<div class="rank"><span class="n">{i + 1}</span>{rthumb(it)}<a href="{art_url(it, l)}">{kick(it, l)}<h3>{e(it[l]["t"])}</h3></a></div>' for i, it in enumerate([x for x in rest if x['s'] != 'business' and not _hist_item(x)][:5]))  # Business-Berichte und Historisches nie unter „Neueste Meldungen“
         order = ['bulgarien', 'deutschland', 'welt', 'europa', 'wirtschaft', 'business', 'auto', 'klima', 'ki', 'ai', 'energie', 'film', 'musik', 'mode', 'sport', 'games'] if l == 'bg' else ['welt', 'europa', 'deutschland', 'bulgarien', 'wirtschaft', 'business', 'auto', 'klima', 'ki', 'ai', 'energie', 'film', 'musik', 'mode', 'sport', 'games'] if l == 'en' else ['deutschland', 'bulgarien', 'welt', 'europa', 'wirtschaft', 'business', 'auto', 'klima', 'ki', 'ai', 'energie', 'film', 'musik', 'mode', 'sport', 'games']
         lv = sorted([it for it in items_l if it['s'] == 'leben'], key=lambda x: (x['date'], x['time']), reverse=True)[:4]
         def hrail(s2, lst):   # Startseite v2: dunkler Kopf in Rubrikfarbe, 1 großer + 3 kleine Beiträge, ohne Quellen
