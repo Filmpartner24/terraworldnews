@@ -80,6 +80,33 @@
     "kl": "Hümanoid robotlar"
    }
   },
+  "aiwanger-obduktion-kein-fremdverschulden-2026-11-05-b1830": {
+   "L": {
+    "body": [
+     "Çarşamba günü Berlin'de bir otel odasında ölü bulunan Bavyera Başbakan Yardımcısı Hubert Aiwanger'in, ön otopsi sonucuna göre üçüncü bir kişinin kusuru olmaksızın hayatını kaybettiği bildirildi. Berlin Cumhuriyet Savcılığı perşembe günü yaptığı açıklamada bunu duyurdu. Adli tıp incelemeleri henüz tamamlanmadı; yetkililer ölüm nedenine ilişkin başlangıçta bilgi vermedi.",
+     "Polis çarşamba akşamı bir ölüm soruşturması başlatmıştı. Bu tür bir soruşturma beklenmedik ölümlerde olağandır ve koşulları aydınlatmaya ve üçüncü kişilerin müdahalesini dışlamaya yarar. Bavyera Ekonomi Bakanı ile Özgür Seçmenler'in federal ve eyalet genel başkanı olan Aiwanger 55 yaşındaydı.",
+     "Başbakan Markus Söder (CSU), Özgür Seçmenler ile koalisyonu sürdüreceğini açıkladı: “Onun anlayışına uygun, bizim anlayışımıza uygun.” Cuma gününden itibaren Münih'teki Prinz-Carl-Palais'te bir taziye defteri açılması planlanıyor. Özgür Seçmenler, hafta sonuna kadar atılacak adımları görüşmek istiyor."
+    ],
+    "d": "Ön otopsi sonucuna göre bir suça işaret eden bulgu yok. Söder, Özgür Seçmenler ile koalisyonu sürdürmek istediğini açıkladı.",
+    "t": "Hubert Aiwanger'in ölümü: Savcılığa göre otopsi sonucunda üçüncü kişi kusuru yok"
+   },
+   "at": "2026-11-05T17:15Z",
+   "h": "840930b38826",
+   "rev": [
+    "Typo: \"Cumaya günü itibarıyla\" is wrong; should be \"Cuma gününden itibaren\"",
+    "Teaser: \"Söder ... sürdürmek istediğini açıkladı\" is fine; body \"Başbakan\" for Ministerpräsident is acceptable in the Bavarian context, so left unchanged",
+    "Body 1: \"Adli tıp incelemeleri sürüyor\" renders \"stehen noch aus\" (are pending) imprecisely; corrected to \"sürecek\"",
+    "Body 3: \"Cumaya günü\" garbled; quote attribution is fine"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Hubert Aiwanger (Arşiv fotoğrafı, 2019)"
+   }
+  },
   "aiwanger-trauerbeflaggung-ermittlungen-2026-11-05-b11": {
    "L": {
     "body": [
@@ -307,6 +334,35 @@
    ],
    "x": {
     "img.alt": "1930 model Bentley 6½ Litre – Olympia Collection'ın ilham kaynağı (Arşiv fotoğrafı)"
+   }
+  },
+  "berlin-landgericht-sicherungsverwahrung-lankwitz-2026-11-05-b1830": {
+   "L": {
+    "body": [
+     "Berlin Eyalet Mahkemesi, 39 yaşındaki bir adamı tehlikeli yaralamadan beş yıl hapse mahkûm etti ve cezanın ardından koruma amaçlı gözetim uygulanmasına karar verdi. Hâkimler, adamın başka ağır suçlar işleyebileceği tehlikesini gördü. Karar henüz kesinleşmedi.",
+     "Tespitlere göre adam, 23 Kasım 2025'te Tegel Ceza İnfaz Kurumu'ndan izinli olduğu sırada, eski partnerine Lankwitz'de işe giderken saldırdı. İkisi otobüsten indikten sonra adam bıçakla saldırdı. Kadın, potansiyel olarak hayati tehlike taşıyan bir yara aldı. Adam sonrasında kanamanın durdurulmasına yardım ettiği için kasten öldürmeye teşebbüsten suçlanmadı. Cezaevine geri dönmedi ve bir hafta sonra bir hobi bahçeleri alanında yakalandı.",
+     "Adam, daha önce verilen beş yıl dokuz aylık toplam cezayı neredeyse tamamlamıştı. Mahkeme büyük ölçüde savcılığın görüşüne uydu. Savunma, koruma amaçlı gözetime karşı çıktı: Savunmaya göre müvekkili terapi yapmak istiyordu ve kadını yalnızca tehdit etmek istemişti, yaralamak istememişti."
+    ],
+    "d": "Karara göre 39 yaşındaki adam, Tegel cezaevinden izindeyken eski partnerini Lankwitz'de bıçakladı. Mahkeme ayrıca koruma amaçlı gözetim kararı verdi.",
+    "t": "İzinde bıçaklı saldırı: Berlin mahkemesi hapis ve koruma amaçlı gözetim kararı verdi"
+   },
+   "at": "2026-11-05T17:15Z",
+   "h": "8099ff17b7eb",
+   "rev": [
+    "Teaser: \"Sicherungsverwahrung\" left untranslated in parentheses (teaser and first paragraph); the German term should be dropped",
+    "Headline: \"koruma amaçlı gözetim\" is vague and the headline does not mention that the court is a regional court; acceptable, left unchanged",
+    "Paragraph 2: \"Weil er danach half\" rendered as a plain cause; the German says that because he helped stop the bleeding he was not charged with attempted murder – acceptable, but \"kasten öldürmeye teşe",
+    "Paragraph 2: \"Nach den Feststellungen\" fine; \"Bahçeli kulübe yerleşkesi\" is unnatural for Kleingartenanlage",
+    "Paragraph 3: indirect speech attribution is acceptable, but the sentence structure was fixed to keep reported speech clear"
+   ],
+   "rev_dbg": [
+    5,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin Eyalet Mahkemesi'nin bulunduğu Moabit Ceza Mahkemesi (Sembolik fotoğraf)",
+    "kl": "Berlin"
    }
   },
   "berlin-linke-gennburg-emde-mandat-2026-11-05-b08": {
@@ -1394,6 +1450,33 @@
     "img.alt": "Arşiv fotoğrafı: AfD lideri Alice Weidel"
    }
   },
+  "dfl-ansetzungen-revierderby-schalke-bvb-2026-11-05-b1830": {
+   "L": {
+    "body": [
+     "Alman Futbol Ligi (DFL) perşembe günü Bundesliga'nın 12 ila 18. haftaları ve 2. Bundesliga'nın 14 ila 18. haftaları için kesin tarihleri ve maç saatlerini açıkladı. Böylece program, ocak ayının sondan bir önceki hafta sonuna kadar belli oldu.",
+     "Öne çıkan maç Revierderby: Schalke 04, 12. haftada 6 Aralık pazar günü saat 15:30'da Borussia Dortmund'u konuk edecek. Bu, iki rakibin Mart 2023'ten bu yana ilk Bundesliga karşılaşması. DFL haftayı yaz aylarında zaten duyurmuştu, şimdi kesin başlama saati de belli oldu.",
+     "Dortmund için derbi tarihi, golcü Serhou Guirassy'nin Şampiyonlar Ligi'nde Betis Sevilla'ya karşı 2-1'lik maçta kas sakatlığı nedeniyle oyundan çıkmak zorunda kalmasının ardından endişelerle geçen bir haftanın sonrasına denk geliyor. Lig, programın tamamını internet sitesinde yayımladı."
+    ],
+    "d": "Lig, Bundesliga'nın 18. haftaya kadar olan maç saatlerini yayımladı. Mart 2023'ten bu yana ilk Revierderby, Gelsenkirchen'de bir pazar günü oynanacak.",
+    "t": "DFL tarihleri açıkladı: Schalke-BVB Revierderby'si 6 Aralık'ta saat 15:30'da"
+   },
+   "at": "2026-11-05T17:15Z",
+   "h": "cd7c62cde45d",
+   "rev": [
+    "\"Sevilla\" is a proper name (Betis Sevilla), so it stays as is",
+    "\"6 Aralık Pazar günü\": weekday capitalised, TDK requires lowercase \"pazar\"",
+    "\"12 ile 18. haftaları\" is ungrammatical; should be \"12 ila 18. haftaları\" (same for 14–18)",
+    "Teaser and body: \"Revierderby\" fine; word order of \"İki rakip arasındaki bu\" is awkward but understandable"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Gelsenkirchen'deki stadyum (Arşiv fotoğrafı)"
+   }
+  },
   "dfl-terminierung-revierderby-nikolaus-2026-11-05": {
    "L": {
     "body": [
@@ -1528,6 +1611,27 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Groningen'de bir Ecco mağazası (2018)"
+   }
+  },
+  "ek-kritik-budgetplan-2027-bulgarien-2026-11-05-b1830": {
+   "L": {
+    "body": [
+     "Bulgaristan medyasının haberlerine göre AB Komisyonu, Bulgaristan'ın 2027 bütçe planına ciddi itirazlarda bulundu. Dayanak, Brüksel ile Sofya'daki Maliye Bakanlığı arasındaki yazışma; haberi ilk olarak Nova televizyonu verdi. Buna göre 2026 ve 2027 için toplam harcamalar belirlenen eşiklerin üzerinde. „Sega“ gazetesinin aktardığı haberlere göre net harcamaların 2026'da yüzde 10,1 artması öngörülüyor; tavsiye edilen artış ise en fazla yüzde 4,2.",
+     "Bulgaristan aşırı açık usulü kapsamında ve bütçe açığını 2029'a kadar ekonomik üretimin yüzde 3'ünün altına indirmek zorunda. Brüksel, kurallara nasıl uyulacağına dair açıklama istiyor; aksi takdirde usul sıkılaştırılabilir. Maliye Bakanı Galab Donev, 2026 yılının onaylanmış bir bütçe olmadan başladığına dikkat çekti. Ayrıca 2027 için planlanan fonların yüzde onunun kurumlar tarafından tutulacağı ve ancak Kasım'dan sonra, bütçe açığının bu yüzden artmaması koşuluyla serbest bırakılacağı belirtiliyor.",
+     "Komisyonun nihai değerlendirmesinin 24 Kasım'da beklendiği bildirildi. Yasal süre Ekim sonunda dolmasına rağmen bütçe taslağı henüz parlamentoya sunulmadı. Muhalefet siyasetçisi, „Da, Bulgaria“ partisinden Ivaylo Mirchev, Başbakan Rumen Radev'i beceriksizliğiyle „her şeyi mahvetmek“ üzere olmakla suçladı."
+    ],
+    "d": "Komisyona göre 2026 ve 2027 harcamaları izin verilen sınırların üzerinde. Maliye Bakanı Donev, fonların yüzde onunu tutmayı planlıyor.",
+    "t": "Brüksel Sofya'yı frenliyor: AB Komisyonu Bulgaristan'ın 2027 bütçe planını eleştirdi"
+   },
+   "at": "2026-11-05T17:15Z",
+   "h": "d5fd7f9d3dd8",
+   "rev_dbg": [
+    4,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "AB Komisyonu'nun Brüksel'deki Berlaymont binası (Sembolik fotoğraf)"
    }
   },
   "el-panathinaikos-nunn-real-bayern-asvel-2026-11-05": {
@@ -2190,6 +2294,35 @@
     "img.alt": "Arşiv fotoğrafı: Trabzonspor'un stadyumu, bugünkü adıyla Papara Park"
    }
   },
+  "fuehrerscheinreform-bundestag-beschlossen-2026-11-05-b1830": {
+   "L": {
+    "body": [
+     "Bundestag, perşembe günü Birlik (CDU/CSU) ve SPD'nin oylarıyla ehliyet reformunun ilk bölümünü kabul etti. Bölüm, özellikle Karayolları Trafik Yasası'nı ve Sürücü Eğitmenleri Yasası'nı değiştiriyor. Bundesrat'ın ve sürücü kursu eğitimine ilişkin bir yönetmeliğin de onaylanması gerekiyor. Reformun 1 Temmuz 2027'de yürürlüğe girmesi öngörülüyor.",
+     "Teorik dersin gelecekte uygulama üzerinden veya hibrit olarak da verilebilmesi öngörülüyor; soru kataloğu belirgin biçimde küçülüyor. On iki zorunlu özel sürüş sabit sayı olarak kaldırılıyor. B sınıfı için uygulamalı sınav 55 dakikadan 40 dakikaya, salt sürüş süresi ise 30 dakikadan 25 dakikaya indiriliyor. Sürücü kurslarının fiyatları ve başarı oranlarının çevrimiçi bir veri tabanında yayımlanması öngörülüyor.",
+     "Yenilik, amatör eğitimdir: Teorik sınavı geçen ve altı sürüş dersi alan sürücü adayları, en az yedi yıldır ehliyeti olan ve trafik sicilinde (Flensburg) en fazla bir puanı bulunan refakatçilerle pratik yapabilecek. Eyaletlerin bunu kendilerinin uygulamaya koyması gerekiyor. Ulaştırma Bakanı Steffen Bilger (CDU), 1.000 avroya varan tasarrufu mümkün görüyor; sürücü eğitmenleri dernekleri ise buna şüpheyle yaklaşıyor."
+    ],
+    "d": "Koalisyon reformun ilk bölümünü kabul etti. Temmuz 2027'den itibaren sürücü adaylarının çevrimiçi öğrenmesi ve refakatçilerle pratik yapabilmesi öngörülüyor. Bundesrat'ın hâlâ onay vermesi gerekiyor.",
+    "t": "Bundestag ehliyet reformunu kabul etti: daha kısa sınav, ebeveynlerle pratik mümkün"
+   },
+   "at": "2026-11-05T17:15Z",
+   "h": "cac2d70b3f01",
+   "rev": [
+    "Steffen Bilger is given as Verkehrsminister in the German original; the draft keeps this, so no change is needed there.",
+    "\"Flensburg'daki sicil\" is left in as-is, but the untranslated word should be rendered as the Flensburg traffic offenders register (Kraftfahrt-Bundesamt, Flensburg) in a natural way.",
+    "\"Bundestag perşembe günü\" lacks the accusative/genitive marker; should read \"Bundestag, perşembe günü\".",
+    "\"Reformun ... öngörülüyor\": \"soll\" in the sense of entry into force is fine, but \"Fahrlehrerverbände\" is translated unnaturally as \"sürücü eğitmenleri dernekleri\"; use \"sürücü eğitmenleri dernekleri\" ",
+    "\"Karayolları Trafik Yasası\" is the established name for Straßenverkehrsgesetz, so it is kept.",
+    "\"Sürücü Eğitmenleri Yasası\" is acceptable."
+   ],
+   "rev_dbg": [
+    6,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sürücü kursu aracı (Sembolik fotoğraf)"
+   }
+  },
   "fury-benavidez-stoppt-joshua-drei-runden": {
    "L": {
     "body": [
@@ -2294,6 +2427,35 @@
    "x": {
     "img.alt": "Bir sinema salonunda boş koltuk sıraları (Sembolik fotoğraf)",
     "kl": "Beyin ve Vücut"
+   }
+  },
+  "hegseth-impeachment-massie-abstimmung-2026-11-05-b1830": {
+   "L": {
+    "body": [
+     "Cumhuriyetçilerin ara seçimlerdeki kayıplarının ardından Washington'da ABD Savunma Bakanı Pete Hegseth üzerindeki baskı artıyor. Eylül ayında Hegseth hakkında sekiz suçlama maddesi sunan Cumhuriyetçi Temsilci Thomas Massie, Kongre döndüğü anda Temsilciler Meclisi'nde bir oylama yapılmasını zorlamak istiyor; bu belki de gelecek hafta olabilir. Birkaç Cumhuriyetçi kaynak CNN'e, önergenin kabul edileceğini beklediklerini söyledi.",
+     "Massie, Hegseth'i diğer şeylerin yanı sıra Kongre'nin savaş yetkileri kararlarını hiçe saymakla suçluyor; birçok Cumhuriyetçi ise Hegseth'i çıkış stratejisi olmayan İran savaşında suçlu görüyor. Başkan Yardımcısı JD Vance seçim yenilgisi için şunları yazdı: “Kaybetmemizin nedeni savaş.” Senatör Thom Tillis, Hegseth'in atanmasına verdiği onayı “kariyerimin en büyük pişmanlığı” olarak nitelendirdi.",
+     "Başkan Donald Trump bakanının arkasında durdu: “Bence çok iyi bir iş çıkarıyor.” Temsilciler Meclisi'nde azil kararı için basit çoğunluk yeterli; görevden alınması için ise Senato'da üçte iki çoğunluk gerekiyor. Şimdiye kadar Temsilciler Meclisi yalnızca iki kabine üyesi hakkında azil suçlaması yöneltti; Senato ikisini de beraat ettirdi."
+    ],
+    "d": "Cumhuriyetçi Thomas Massie, Savunma Bakanı Hegseth hakkında azil sürecini zorlamak istiyor. CNN'e göre Cumhuriyetçiler önergenin çoğunluk bulmasını bekliyor.",
+    "t": "Seçim yenilgisinin ardından: Hegseth hakkında azil oylaması belki de gelecek hafta"
+   },
+   "at": "2026-11-05T17:15Z",
+   "h": "3afb0c66c6de",
+   "rev": [
+    "Quotes left in English inside Turkish text without translation (Vance, Tillis, Trump)",
+    "\"Mitschuld am Iran-Krieg ohne Ausstiegsstrategie\" mistranslated: the draft says the war continues without an exit strategy and that Hegseth is held responsible, instead of partly to blame for the war",
+    "\"Abgeordneter\" rendered as \"Temsilci\" is acceptable, but \"Cumhuriyetçi Temsilci\" is fine; \"Kongre döndüğü anda\" is acceptable",
+    "\"Anklagepunkte\" rendered as suçlama maddesi is fine; \"angeklagt\" rendered as \"suçlama yöneltti\" is imprecise: impeached (azledilmek üzere suçlandı)",
+    "\"Amtsenthebung im Repräsentantenhaus\" rendered as \"azil kararı\", acceptable"
+   ],
+   "rev_dbg": [
+    5,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Pete Hegseth (Arşiv fotoğrafı)",
+    "kl": "ABD"
    }
   },
   "heute-vor-70-jahren-suez-landung-port-said-1956-2026-11-05": {
@@ -2469,6 +2631,33 @@
     0
    ]
   },
+  "iss-ausseneinsatz-letztes-irosa-2026-11-05-b1830": {
+   "L": {
+    "body": [
+     "NASA'dan astronot Anil Menon ile Kanada Uzay Ajansı CSA'dan Joshua Kutryk perşembe günü Uluslararası Uzay İstasyonu'nda uzay yürüyüşüne başladı. Çıkışın Doğu Kıyısı saatiyle 8:30'da (Orta Avrupa Saatiyle 14:30) yapılması planlanmıştı ve yaklaşık yedi saat sürmesi öngörülüyordu. Amaç, iROSA tipindeki sekizinci ve son açılabilir güneş panelinin monte edilmesi.",
+     "Bu panelle birlikte 2021'de başlayan modernizasyon programı sona eriyor: İstasyonun gücünün böylece 160 kilovattan yaklaşık 215 kilovata, yani yüzde 30 kadar artması bekleniyor. Esnek biçimde sarılabilen yeni paneller, yıllar içinde gücü azalan eski güneş kanatlarının önüne monte ediliyor.",
+     "Menon ve Kutryk için bu, bir hafta içindeki ikinci uzay yürüyüşü. İkili 29 Ekim'de yedinci iROSA modülünü kurmuştu; bu, ISS'te ABD'nin 100. uzay yürüyüşüydü."
+    ],
+    "d": "Anil Menon (NASA) ve Joshua Kutryk (Kanada) sekizinci iROSA güneş panelini kuruyor. Böylece istasyonun elektrik gücü yaklaşık yüzde 30 artıyor.",
+    "t": "ISS'te uzay yürüyüşü: Astronotlar yeni güneş panellerinin sonuncusunu monte ediyor"
+   },
+   "at": "2026-11-05T17:15Z",
+   "h": "072f8de20026",
+   "rev": [
+    "Headline: 'son yeni güneş paneli' is awkward; 'son yeni' is ambiguous, changed to 'yeni güneş panellerinin sonuncusunu'",
+    "Teaser: 'artıyor' states as fact; German says the power rises by about 30 percent – acceptable, but 'sonuncusu' in the headline fixed for naturalness",
+    "Body 2: the German 'soll ... steigen' was rendered correctly but 'yaklaşık' is repeated; reduced for style"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "ISS'in yeni ve eski güneş panelleri (Arşiv fotoğrafı)",
+    "kl": "Uzay"
+   }
+  },
   "ista-photonik-chip-licht-zerlegen": {
    "L": {
     "body": [
@@ -2577,6 +2766,31 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Harry Kane, Bayern Münih'in Ocak 2025'te Salzburg'da oynadığı hazırlık maçında"
+   }
+  },
+  "kba-neuzulassungen-oktober-2026": {
+   "L": {
+    "body": [
+     "Almanya'da Ekim ayında 254.492 yeni binek otomobil tescil edildi; bu sayı bir yıl öncesine göre yüzde 1,7 daha fazla. Federal Motorlu Taşıtlar Dairesi (KBA) bunu 4 Kasım'da duyurdu. Saf elektrikli otomobillerin sayısı yüzde 79,5 artışla 94.086'ya çıktı; payları Eylül'deki yüzde 34,5 ve Ekim 2025'teki yüzde 21,0'in ardından yüzde 37,0'ye ulaştı. Bireysel araç sahipleri geçen yılın aynı ayına göre yüzde 20,6 daha fazla, ticari sahipler ise yüzde 8,2 daha az otomobil tescil ettirdi.",
+     "İçten yanmalı motorlar gerilemeye devam ediyor: Yeni benzinli otomobiller yüzde 40,5 düşüşle 38.516'ya (pay: yüzde 15,1), dizeller yüzde 21,6 düşüşle 23.882'ye (yüzde 9,4) geriledi. Plug-in hibritlerde tescil sayısı 28.499 oldu (yüzde 7,9 düşüş). Ocak-Ekim döneminde toplam 2.476.290 yeni binek otomobil tescil edildi; bu, geçen yılın aynı dönemine göre yüzde 4,9 artış demek.",
+     "Alman markalarında Mercedes yüzde 8,5 yükselirken, BMW yüzde 0,1 artışla sabit kaldı; VW (yüzde 4,0 düşüş), Audi (yüzde 8,4 düşüş) ve Opel (yüzde 24,1 düşüş) kaybetti. İthal markalar arasında Tesla, GoingElectric'in değerlendirdiği KBA verilerine göre yüzde 290,9 artışla 2.932 otomobile, BYD yüzde 54,3 artışla 5.173'e ulaştı. En büyük ithal marka, yüzde 12,1'lik düşüşe rağmen Škoda olmaya devam etti."
+    ],
+    "d": "Ekim'de 94.086 yeni elektrikli otomobil: Federal Motorlu Taşıtlar Dairesi'ne göre Almanya'da yeni otomobillerin üçte birinden fazlası saf elektrikliydi. Benzinliler yüzde 40'tan fazla kaybetti, Tesla güçlü yükseldi.",
+    "t": "Ekim tescilleri: Elektrikli otomobillerin payı yüzde 37'ye ulaştı, benzinliler çöktü"
+   },
+   "at": "2026-11-05T17:14Z",
+   "h": "7ae4fe2ff666",
+   "rev": [
+    "Teaser: \"her üç yeni otomobilden fazlası\" is wrong; German says \"mehr als jeder dritte Neuwagen\" (more than one in three).",
+    "Teaser lacks the attribution/accuracy of the German; \"Ekim'de\" is fine."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Flensburg'daki Federal Motorlu Taşıtlar Dairesi (Arşiv fotoğrafı)"
    }
   },
   "ki-apt-luecke-debian-ubuntu-2026-11-05": {
@@ -3109,6 +3323,33 @@
      "Ön satış: Per., 05.11.2026, 12:00 (Eventim)"
     ],
     "img.alt": "Arşiv fotoğrafı: Saltatio Mortis, 2025 kale turunda Singen'de"
+   }
+  },
+  "lamborghini-neun-monate-2026": {
+   "L": {
+    "body": [
+     "Lamborghini ocak-eylül döneminde müşterilere 7.983 araç teslim etti. Bu, markanın finans sayfasında yayımladığı dokuz aylık rakamlardan anlaşılıyor. Luxus Plus'a göre geçen yılın aynı döneminde bu sayı 8.140 idi; yaklaşık yüzde 1,9'luk bir düşüş. Buna rağmen gelir yüzde 5,1 artarak 2,53 milyar euroya yükseldi. Luxus Plus'a göre bunun nedeni büyük ölçüde daha yüksek ortalama fiyatlar; daha yüksek satış adetleri değil.",
+     "Faaliyet kârı, geçen yıl 592 milyon euroyken 564 milyon euroya geriledi (yüzde 4,7 düşüş). Satış getirisi yüzde 24,6'dan yüzde 22,3'e düştü. Lamborghini'ye göre rakamlar Automobili Lamborghini S.p.A. ile ABD şirketi Automobili Lamborghini America'yı kapsıyor.",
+     "VW'nin Sant'Agata Bolognese merkezli iştirakinin son yeniliklerinden bazıları, plug-in hibrit SUV'un daha sportif bir versiyonu olan Urus SE Performante ile Revuelto SV. Daha güçlü V12 hibrit süper spor otomobilden 1.963 adet üretilmesi planlanıyor; bu, markanın kuruluş yılına bir gönderme."
+    ],
+    "d": "Lamborghini 2026'nın ilk dokuz ayında müşterilere yaklaşık yüzde 2 daha az araç teslim etti, ancak geliri 2,53 milyar euroya yükseltti. Faaliyet kârı geriledi.",
+    "t": "Lamborghini daha az araç teslim etti ama geliri artırdı – marj yüzde 22,3'e düştü"
+   },
+   "at": "2026-11-05T17:14Z",
+   "h": "871c3b04c5ca",
+   "rev": [
+    "Headline: 'geliri artırdı' is imprecise and the German 'Umsatz' means revenue; acceptable but 'ciro' is more natural",
+    "Body 1: 'daha yüksek adetler değil' is awkward, should be 'daha yüksek satış adetleri nedeniyle değil'",
+    "Body 2: 'geçen yılki 592 milyon euronun ardından 564 milyon euroya' reverses the sense (from 592 to 564); the German says 564 after 592 the previous year",
+    "Body 1: 'anlaşılıyor' is okay"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Lamborghini Revuelto (Sembolik fotoğraf)"
    }
   },
   "leben-bumble-dating-apps-2026-11-05": {
@@ -3661,6 +3902,31 @@
     "img.alt": "Sembolik fotoğraf: Mönchengladbach'taki Borussia-Park'ta stadyum"
    }
   },
+  "makhachev-prates-ufc336-dana-white-2026-11-05-b1830": {
+   "L": {
+    "body": [
+     "UFC başkanı Dana White, welter sıklet şampiyonu Islam Makhachev'in UFC 336'da Carlos Prates'e karşı şampiyonluğunu savunmayı daha önce kabul ettiğini doğruladı. White, MMA Junkie'nin aktardığına göre gazetecilere “Yeah, it was verbally agreed to” dedi. Makhachev bunun ardından geri çekildi; DAZN'ın bildirdiğine göre bunun nedeni, yalnızca Ramazan'dan sonra yeniden dövüşmek istemesi.",
+     "Makhachev'in yerine Prates, 30 Ocak 2027'de Toronto'da düzenlenecek UFC 336'da welter sıklette geçici kemer için yenilgisiz Michael Morales ile dövüşecek. Makhachev, bir sonraki şampiyonluk şansını kimin hak ettiğini önce Prates ile Morales'in kendi aralarında belirlemesini bizzat talep etmişti.",
+     "White ayrıca şampiyonluk savunmalarının sıklığı hakkında konuştu: Bir şampiyondan yılda üç maç beklemediğini, “but twice would be nice” (iki maç güzel olurdu) dedi. Geçici kemerle birlikte sıklet, Makhachev'in dönüşüne kadar ikinci bir kemer sahibine kavuşuyor."
+    ],
+    "d": "Welter sıklet şampiyonu daha sonra vazgeçti ve yalnızca Ramazan'dan sonra dönmek istiyor. Toronto'da şimdi Prates ile Morales geçici kemer için dövüşecek.",
+    "t": "Dana White: Makhachev, UFC 336'da Prates ile şampiyonluk maçına sözlü olarak onay vermişti"
+   },
+   "at": "2026-11-05T17:15Z",
+   "h": "c9abc7246763",
+   "rev": [
+    "Quote punctuation in the last paragraph was broken: the English quote ran straight into 'yani' without a separator, and the German dash explanation was lost.",
+    "'zwei wären schön' was rendered loosely ('ikisinin güzel olacağını'); it should read as 'iki maç güzel olurdu'."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Islam Makhachev (Arşiv fotoğrafı, 2022)"
+   }
+  },
   "marseille-leverkusen-genesio-2026-11-05": {
    "L": {
     "body": [
@@ -3821,6 +4087,31 @@
    ],
    "x": {
     "img.alt": "Victor Wembanyama, San Antonio Spurs formasıyla (Arşiv fotoğrafı, 2024)"
+   }
+  },
+  "news-paul-hamlyn-composer-awards-2026": {
+   "L": {
+    "body": [
+     "İngiliz Paul Hamlyn Foundation, 2026 Composer Awards ödüllerini 4 Kasım'da Londra'da sahiplerine verdi. Beş müzisyenin her biri, hiçbir koşula bağlı olmayan 75.000 sterlin alacak.",
+     "Ödüle; besteci, şarkıcı-söz yazarı ve folk müzisyeni Olivia Chaney, konser salonu için 60'tan fazla eser yazan besteci Bushra El-Turk, serbest doğaçlama müzik sahnesinden trompetçi ve grup lideri Charlotte Keeffe, İngiliz-Ugandalı şarkıcı-söz yazarı ve gitarist Daudi Matsiko ile besteci, şarkıcı ve çellist Ayanna Witter-Johnson layık görüldü."
+    ],
+    "d": "Vakıf, folk müzisyeni Olivia Chaney, çellist Ayanna Witter-Johnson, trompetçi Charlotte Keeffe, Bushra El-Turk ve Daudi Matsiko'yu ödüllendirdi.",
+    "t": "Paul Hamlyn Ödülleri: Beş İngiliz bestecinin her birine koşulsuz 75.000 sterlin"
+   },
+   "at": "2026-11-05T17:14Z",
+   "h": "554509bb62dc",
+   "rev": [
+    "\"Bandleader\" was rendered as \"orkestra şefi\" (conductor), which is a different role; it should be \"grup lideri\".",
+    "\"Ayanna Witter-Johnson\" in the teaser is called only \"çellist\", as in the German original, so this is fine.",
+    "\"Beş İngiliz besteci\" in the headline follows the German; no change needed."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Ödül sahibi Olivia Chaney, 2019 Turning Tides Festival'inde"
    }
   },
   "nintendo-halbjahr-switch-2-2026": {
@@ -4155,6 +4446,62 @@
     "img.alt": "Arşiv fotoğrafı: Marlon Moraes resmi UFC tartısında"
    }
   },
+  "review-keith-jarrett-roma": {
+   "L": {
+    "body": [
+     "6 Kasım'da ECM etiketiyle “Roma” yayımlanıyor. Albüm, Keith Jarrett'in 12 Temmuz 2016'da Roma'daki Auditorium Parco della Musica'nın Santa Cecilia Salonu'nda verdiği solo konserin kaydı. Bu, 2016 Avrupa solo turnesinin beşinci ve son konseriydi; dolayısıyla bu yolculuğun da son kaydı. Albümde serbestçe doğaçlanmış on bölüm ile bis olarak iki standart yer alıyor: “Somewhere Over The Rainbow” ve “It’s A Lonesome Old Town”.",
+     "Eleştirmen Phil Johnson, UK Jazz News'te plağın tam bir keşif olmasa da “çok özel” olduğunu yazdı. Johnson'a göre ilk bölümler zaman alıyor, ancak 5. Bölüm'den itibaren “Roma” tam bir zafer olarak öne çıkıyor; yani eleştirmen bunu kendi değerlendirmesi olarak sunuyor. ECM, albüm sayfasında İtalyan gazetesi La Repubblica'dan alıntı yapıyor; gazete zamansız bir ritüelden söz ediyor.",
+     "Jarrett'in resmi internet sitesine göre “Roma” ile 2016 konserlerinin sonuncusu yayımlanmış oluyor. Albüm için şimdiye kadar resmi bir müzik videosu bulunmuyor."
+    ],
+    "d": "ECM, Jarrett'in 12 Temmuz 2016'daki Roma solo konserini cuma günü yayımlıyor. UK Jazz News albümü “çok özel” olarak niteliyor; 5. Bölüm'den itibaren tam bir zafer olduğunu belirtiyor.",
+    "t": "Keith Jarrett – “Roma” incelemesi: son Avrupa turnesinin son konseri"
+   },
+   "at": "2026-11-05T17:14Z",
+   "h": "a4bfb7f239a6",
+   "rev": [
+    "Paragraph 1 omits that the album is released by ECM on 6 November at the start of the sentence's subject but it is covered; no change needed",
+    "Paragraph 1: \"Am 6. November erscheint\" lost the connection to the concert recording as 'Mitschnitt' – acceptable",
+    "Paragraph 2: \"ilk bölümlerin ısınması zaman alıyor\" adds 'warming up' and changes tense/mode; German is Konjunktiv 'brauchten Zeit'",
+    "Paragraph 2: \"tam bir zafer\" in the second clause lacks reporting marker – needs indirect speech",
+    "Paragraph 2: \"keşif\" for 'Offenbarung' is acceptable but \"plağın\" fine"
+   ],
+   "rev_dbg": [
+    5,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Keith Jarrett ses provasında kuyruklu piyanonun başında, 2003",
+    "rv.score": "UK Jazz News: “çok özel”"
+   }
+  },
+  "review-nelsons-wiener-philharmoniker-mahler-symphonien": {
+   "L": {
+    "body": [
+     "Deutsche Grammophon, 23 Ekim'de “Mahler: The Symphonies” albümünü yayımladı: Gustav Mahler'in tüm senfonileri, Andris Nelsons yönetimindeki Viyana Filarmoni ile 2018 ile 2026 arasında canlı kaydedildi; albüm dijital olarak ve 12 CD'lik kutu olarak sunuluyor. Orkestra yönetim kurulu üyesi Daniel Froschauer, plak şirketinin açıklamasında “Gustav Mahler'in müziği Viyana Filarmoni'nin DNA'sının bir parçasıdır” dedi.",
+     "Eleştirmen David Gutman, The Classical Source için 5., 6. ve 7. senfonileri dinledi ve 5 üzerinden 3 yıldız verdi. Gutman'a göre Nelsons eserleri büyük, ağırlıklı senfonik beyanlar olarak ele alıyor; ona göre Altıncı en azından ilginç. Gutman, Beşinci'nin finalini ise kayıtlı müzikteki en sıkıcı finallerden biri olarak niteliyor; Yedinci'de ise kontrast ve gerilimin eksik olduğunu söylüyor. Gutman'a göre Nelsons'un orkestranın Mahler geleneğine ne kattığı hemen fark edilmiyor.",
+     "Video, klasik müzik video etiketi C Major'ın resmî kanalında Nelsons ve Viyana Filarmoni'nin Mahler'in Yedinci Senfonisi'ni seslendirdiği bir performansı gösteriyor."
+    ],
+    "d": "Deutsche Grammophon, şefin eksiksiz Mahler döngüsünü yayımladı. The Classical Source, orta dönem senfonilere 5 yıldızdan yalnızca 3 verdi.",
+    "t": "Nelsons ve Viyana Filarmoni: Mahler'in 5. ila 7. senfonileri incelendi"
+   },
+   "at": "2026-11-05T17:14Z",
+   "h": "58169c5eabd7",
+   "rev": [
+    "Title: German 'Nelsons und die Wiener Philharmoniker' is a possessive/genitive-like construct meaning 'Nelsons and the Vienna Philharmonic' – fine; no change.",
+    "Awkward quote framing: 'diyen ... bu ifadeyi kullandı' is clumsy; 'Orchestervorstand' rendered as 'yönetim kurulu üyesi' is acceptable but the sentence structure should be natural.",
+    "Quote attribution reworded to a natural 'dedi' structure."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Şef Andris Nelsons, Leipzig'de Gewandhaus şefi olarak tanıtıldığı sırada",
+    "rv.score": "The Classical Source: 3/5"
+   }
+  },
   "ronaldo-ruecktritt-nationalmannschaft-portugal-2026-11-05-b1530": {
    "L": {
     "body": [
@@ -4486,6 +4833,27 @@
    "x": {
     "img.alt": "Lorenzo Musetti, 2025 Washington Open'da (Arşiv fotoğrafı)",
     "kl": "Tenis"
+   }
+  },
+  "tour-jan-delay-disko-no1-sommer-2027": {
+   "L": {
+    "body": [
+     "Jan Delay, 13 Ağustos 2027'de yeni bir albüm yayımlayacak; albümün henüz bir adı yok. Albüm, Mayıs 2021'de çıkan „Earth, Wind & Feiern“ sonrasındaki ilk stüdyo albümü. Hamburglu sanatçı, grubu Disko No. 1 ile birlikte Almanya, Avusturya ve İsviçre'yi kapsayan bir yaz turnesini de duyurdu; dpa'ya göre 14 konser planlanıyor.",
+     "Turne 25 Haziran 2027'de Haltern am See'deki Sunset Beach'te başlayacak. Eventim'e göre diğer tarihler şöyle: Eckernförde (2 Temmuz), Lörrach (4 Temmuz), Mannheim (9 Temmuz), Eisenstadt (10 Temmuz), Schrobenhausen (22 Temmuz), Dillingen/Saar (7 Ağustos), Gießen (25 Ağustos), Bad Kissingen (26 Ağustos), Kitzbühel (27 Ağustos) ve Usedom (3 Eylül). Albümün yayımlanacağı gün Hamburg'daki MS Uferpark'ta sahne alacak; dpa'ya göre final 4 Eylül'de Hockenheimring'de yapılacak. Biletler hemen satışa çıktı.",
+     "50 yaşındaki sanatçı dpa'ya yaptığı açıklamada, yeni şarkıların, yeni bir şovun ve yeni bir sahnenin geleceğini bilmenin „en güzel his“ olduğunu söyledi. Sanatçıya göre şovlarının sonucu çoğu durumda „uzun süren, kalıcı bir mutluluk ve şiddetli bir kas ağrısı“ oluyor."
+    ],
+    "d": "„Earth, Wind & Feiern“ (2021) sonrasındaki ilk stüdyo albümü 13 Ağustos 2027'de çıkacak. Hamburglu sanatçı Disko No. 1 ile 14 konser verecek; biletler satışta.",
+    "t": "Jan Delay yeni albümünü ve 2027 açık hava yaz turnesini duyurdu"
+   },
+   "at": "2026-11-05T17:14Z",
+   "h": "36521136dd25",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Jan Delay, 2018 Rock the Ring festivalinde"
    }
   },
   "trainer-erklaeren-wochenendsport-video-2026-11-05": {
