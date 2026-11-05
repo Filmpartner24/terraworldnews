@@ -84,7 +84,21 @@ def script(items, l, d):
         parts.pop(-2); txt = '\n\n'.join(parts)
     return txt
 
+import re as _re
+SITE = {'de': 'terra world news punkt com', 'bg': 'терра уорлд нюз точка ком', 'en': 'terra world news dot com'}
+def speakable(text, l):
+    """Text für die Sprachausgabe glätten (Nedy 05.11.2026: „bitte fehlerfrei“): Großbuchstaben-Marke nicht buchstabieren,
+    Gedankenstriche entschärfen, Tausenderpunkte entfernen, Webadresse ausschreiben."""
+    t = text.replace(BREAK, '§P§').replace('TERRA WORLD NEWS', 'Terra World News').replace('terraworldnews.com', SITE[l])
+    t = _re.sub(r'\s[–—]\s', ', ', t)
+    t = _re.sub(r'(?<=\d)[.,](?=\d{3}\b)', '', t) if l in ('de', 'bg') else t
+    t = _re.sub(r'(?<=\d),(?=\d{3}\b)', '', t) if l == 'en' else t
+    t = _re.sub(r':\s+(\w)', lambda m: '. ' + m.group(1).upper(), t)
+    t = _re.sub(r'\s+,', ',', t)
+    return t.replace('§P§', BREAK)
+
 def tts(text, l, dest):
+    text = speakable(text, l)
     key = os.environ.get('ELEVENLABS_API_KEY')
     if not key: raise SystemExit('ELEVENLABS_API_KEY fehlt (GitHub-Secret)')
     body = {'text': text, 'model_id': MODEL, 'language_code': l,
