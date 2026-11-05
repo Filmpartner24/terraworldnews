@@ -2020,6 +2020,26 @@
     "img.alt": "Arşiv fotoğrafı: Budapeşte'deki Devlet Güvenlik Servisleri Tarih Arşivi'nde dosya rafları"
    }
   },
+  "ext-judi-oyama-skateboard-2026-11-05": {
+   "L": {
+    "body": [
+     "Guinness Dünya Rekorları'na göre Judi Oyama, bir kaykaycı kadının en uzun süren aktif ve en yaşlı yarışma kariyeri rekorunu elinde tutuyor: 50 yıldan fazla."
+    ],
+    "d": "Guinness Dünya Rekorları'na göre Judi Oyama, bir kaykaycı kadının en uzun süren aktif ve en yaşlı yarışma kariyeri rekorunu elinde tutuyor: 50 yıldan fazla.",
+    "t": "50 yılı aşkın profesyonel kariyer: Judi Oyama'ya kaykay rekoru"
+   },
+   "at": "2026-11-05T18:57Z",
+   "h": "b4bb333b913b",
+   "rev_dbg": [
+    1,
+    0,
+    2
+   ],
+   "x": {
+    "img.alt": "Judi Oyama, 1979'da Winchester Skatepark'ta frontside grind yaparken (Arşiv fotoğrafı)",
+    "kl": "Ekstrem spor"
+   }
+  },
   "ext-klippensprung-2026-11-05": {
    "L": {
     "body": [
@@ -2041,6 +2061,30 @@
    ],
    "x": {
     "img.alt": "Fransa'nın güneyindeki Cassis'te uçurumdan atlayan sporcu (sembolik fotoğraf)",
+    "kl": "Ekstrem spor"
+   }
+  },
+  "ext-wingsuit-luecke-2026-11-05": {
+   "L": {
+    "body": [
+     "Hata payı neredeyse yok: Wingsuit tecrübeli ismi Javi Centeno Gomez, GoPro MAX2 kamerasıyla son derece dar bir boşluktan uçuyor – GoPro'ya göre özel izinle."
+    ],
+    "d": "Hata payı neredeyse yok: Wingsuit tecrübeli ismi Javi Centeno Gomez, GoPro MAX2 kamerasıyla son derece dar bir boşluktan uçuyor – GoPro'ya göre özel izinle.",
+    "t": "Wingsuit ile çok dar bir boşluktan uçuş"
+   },
+   "at": "2026-11-05T18:57Z",
+   "h": "e45c42e5d227",
+   "rev": [
+    "Unnatural phrase \"Wingsuit tecrübeli ismi\" for \"Wingsuit-Veteran\" (teaser and body)",
+    "Capitalisation of \"Sembolik fotoğraf\" inside parentheses"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    2
+   ],
+   "x": {
+    "img.alt": "İngiltere'nin Langar bölgesinde tarlaların üzerinde uçan wingsuit pilotu (sembolik fotoğraf)",
     "kl": "Ekstrem spor"
    }
   },
@@ -4711,6 +4755,33 @@
     "kl": "Beslenme ve toparlanma"
    }
   },
+  "sema-show-2026-toyota-konzepte": {
+   "L": {
+    "body": [
+     "Las Vegas'taki SEMA Show'da, yani modifiye ve aksesuar alanındaki büyük ABD fuarında (3-6 Kasım tarihleri arasında Las Vegas Convention Center'da düzenleniyor) Toyota bir dizi konsept araç sergiliyor. Dikkat çeken model, Toyota Motorsports Garage tarafından üretilen Crown Signia GT-S Concept. Station wagon kasalı araçta daha geniş çamurluklar, bir aerodinamik paket ve Toyota'ya göre aracı yaklaşık beş inç (yaklaşık 12,7 santimetre) alçaltan ayarlanabilir bir süspansiyon bulunuyor. HRE'nin 21 inç jantlarının ardında Lexus RX 500h F Sport Performance'tan alınan fren parçaları yer alıyor; The Car Guide'a göre motorda herhangi bir değişiklik yapılmadı.",
+     "Toyota, arazi için RAV4 Plug-in Hybrid, Sienna, bZ, Grand Highlander ve Crown Signia tabanlı beş konseptten oluşan “Woodland” ailesini getiriyor; araçlar yükseltilmiş, arazi lastikleri ve çatı taşıyıcılarıyla donatılmış. Toyota'ya göre Horizon Blue rengi 1966'daki bir renk paletine dayanıyor. Bunlara ek olarak, kar için paletli beş şasi araçtan oluşan “Snowhunter” ailesi de yer alıyor.",
+     "Ayrıca standda GRMN Corolla, hidrojenle çalışan GR Corolla H2 ve mevcut neslin üretilen son GR Supra'sı bulunuyor. Toyota, bunların satışta bulunmayan parçalara sahip tek seferlik araçlar olduğunu belirtiyor. Toyota'nın pazarlamadan sorumlu genel müdürü Owen Peacock, “Otomobil kültürü kişisel ifadeyle ilgilidir” dedi. Toyota USA'nın resmi kanalındaki video, Crown Signia GT-S'in yapım sürecini gösteriyor."
+    ],
+    "d": "Toyota, SEMA modifiye fuarında alçaltılmış bir Crown Signia GT-S'i ve arazi için tasarlanan Woodland konseptlerini tanıtıyor. Ayrıca hidrojenle çalışan bir Corolla ve serinin son Supra'sı da var.",
+    "t": "SEMA Show/Las Vegas: Toyota alçak Crown Signia GT-S ve Woodland konseptini sundu"
+   },
+   "at": "2026-11-05T18:57Z",
+   "h": "dcc7a4159e21",
+   "rev": [
+    "Teaser 'hidrojenli bir Corolla' is unnatural; should be 'hidrojenle çalışan'",
+    "'Toyota Pazarlama Genel Müdürü' misrenders 'General Manager Marketing bei Toyota' (title order/wording)",
+    "Quote wording 'ilgilidir' fine; 'tek seferlik araçlar' acceptable but 'tekil/benzersiz' better – left",
+    "'Rahmenfahrzeugen' rendered as 'şasi araç' – acceptable"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Seri üretim versiyonunda Toyota Crown Signia, GT-S Concept'in temeli (Sembolik fotoğraf)"
+   }
+  },
   "sextortion-warnung-preston-polizei-2026-11-05": {
    "L": {
     "body": [
@@ -4999,6 +5070,53 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: The Teskey Brothers, 2023'te Kingston'daki Pryzm'de canlı performans sırasında"
+   }
+  },
+  "toyota-quartalszahlen-q3-2026": {
+   "L": {
+    "body": [
+     "Toyota, ikinci mali çeyreğe (Temmuz-Eylül) ilişkin rakamlarını 5 Kasım'da açıkladı. Faaliyet kârı yüzde 34 artarak 1,128 trilyon yene, satışlar yüzde 8,6 artarak 13,437 trilyon yene yükseldi. Net kâr ise yüzde 18,5 düşüşle 759,4 milyar yene geriledi ve analistlerin beklentilerinin altında kaldı. AP'ye göre şirket, ilk mali yarıyılda bir yıl önceki 4,78 milyon aracın ardından 4,76 milyon araç sattı.",
+     "Toyota, Mart 2027 sonuna kadar süren mali yıl için net kârın daha önceki 3,25 trilyon yen yerine 3,57 trilyon yen olmasını bekliyor; önceki yıl bu rakam 3,8 trilyon yendi. Faaliyet kârı tahmini 500 milyar yen artışla 3,9 trilyon yene yükseldi. Telefon konferansına göre ABD gümrük vergileri şirkete yıl genelinde yaklaşık 1,1 trilyon yen maliyet getiriyor; Toyota bunu fiyat ayarlamaları ve maliyet düşürme önlemleriyle dengelemeyi hedefliyor. AP'ye göre zayıf yen ile ABD'de Camry ve RAV4 gibi modellerde güçlü hibrit satışları destek sağlarken, Çin'de zayıflık var.",
+     "Finans direktörü Yoichi Miyazaki, “En büyük risk, rakamlar olumlu yöne döndü diye kendini beğenmiş hâle gelmektir” dedi. Miyazaki'ye göre gümrük vergilerinin ve Orta Doğu'daki durumun etkileri henüz tam olarak karşılanabilmiş değil. Miyazaki'ye göre Toyota, içinde bulunulan mali yılda tamamen elektrikli araçlarda 460.000 adet bekliyor."
+    ],
+    "d": "Japon otomobil üreticisi yaz çeyreğinde faaliyet kârını yüzde 34 artırdı ve yıllık hedeflerini yükseltti. Finans direktörü Miyazaki yine de kendini beğenmişliğe karşı uyardı.",
+    "t": "Toyota kâr tahminini yükseltti, ABD gümrük vergilerinden 1,1 trilyon yen yük bekleniyor"
+   },
+   "at": "2026-11-05T18:57Z",
+   "h": "5e8de5c6c9a3",
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Toyota'nın Japonya'nın Toyota City kentindeki merkezi (Arşiv fotoğrafı)"
+   }
+  },
+  "toyota-snowhunter-konzepte-sema-2026": {
+   "L": {
+    "body": [
+     "Toyota, Las Vegas'taki SEMA Show'da (3-6 Kasım) “Snowhunter” konsept ailesini sergiliyor: Tundra, Tacoma, 4Runner, Land Cruiser ve Sequoia, tekerlekler yerine kar için beyaz toz boyalı paletlerin üzerinde duruyor. Beş şasi aracı, Toyota'nın ABD'nin Michigan eyaletindeki Ann Arbor'da bulunan tasarım stüdyosu CALTY Design Research tarafından tasarlandı. Toyota konseptleri 27 Ekim'de duyurmuştu.",
+     "Toyota'ya göre beş aracın tamamında kendine özgü bir Snowhunter kamuflaj kaplaması, siyah vurgular, Rigid marka ek farlar ile Toyota Genuine Parts ve TRD'nin yükseltme parçaları bulunuyor. Tundra'da, CALTY'nin tasarladığı bir tavan taşıyıcı sistemi yer alıyor; sistem, panjurlu kapağı ve yan saklama gözleri olan modüler bir kasa kapağının üzerinde duruyor, üst taşıyıcı yükleme için indirilebiliyor. Tacoma, 4Runner, Land Cruiser ve Sequoia'da ise diğer donanımların yanı sıra tavan taşıyıcıları, kayak taşıyıcıları veya tavan kutuları ile alt koruma plakaları var.",
+     "Toyota, araçların tekil parçalar olduğunu, bazı parçaların satışta bulunmadığını ve karayolunda kullanım için onaylı olmadığını vurguluyor. designboom'a göre seri üretim planı yok. Resmi Toyota USA kanalının videosu, Tundra Snowhunter'ı ve CALTY'nin tasarımını gösteriyor."
+    ],
+    "d": "Toyota'nın beş pick-up ve arazi aracı beyaz paletlerle ilerliyor: CALTY tasarım stüdyosu “Snowhunter” ailesini Las Vegas'taki SEMA Show için tasarladı. Seri üretim planlanmıyor.",
+    "t": "Tekerlek yerine paletler: Toyota'nın SEMA'daki “Snowhunter” derin kar konseptleri"
+   },
+   "at": "2026-11-05T18:57Z",
+   "h": "a48ea81a315b",
+   "rev": [
+    "Teaser: the German 'Ein Serienstart ist nicht geplant' is rendered without 'Toyota' attribution but is fine; however the teaser says the five vehicles 'ilerliyor' – acceptable",
+    "Headline: awkward word order, 'Snowhunter' concepts for deep snow; clarified",
+    "'Rolltor' translated as 'panjurlu kapak' – acceptable; 'Rahmenfahrzeuge' rendered as 'şasi aracı' – acceptable"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "SEMA Show 2014'te modifiye edilmiş Toyota Tundra (Arşiv fotoğrafı)"
    }
   },
   "trainer-erklaeren-wochenendsport-video-2026-11-05": {
