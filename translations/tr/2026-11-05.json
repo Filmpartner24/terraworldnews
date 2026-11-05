@@ -26,6 +26,32 @@
     "img.alt": "Real Madrid takımı (Arşiv fotoğrafı)"
    }
   },
+  "agility-robotics-nasdaq-aglt": {
+   "L": {
+    "body": [
+     "Hümanoid robot Digit'in üreticisi Agility Robotics borsaya açılıyor: Hisselerin perşembeden itibaren Nasdaq'ta AGLT koduyla işlem görmesi planlanıyor. Şirket, çarşamba günü borsa kabuğu şirketi Churchill Capital Corp XI ile birleşmeyi tamamladı; bu şirketin hissedarları pazartesi günü yüzde 84'ün üzerinde oyla birleşmeyi onaylamıştı. Manufacturing Dive'a göre işlem, Agility'yi 2,5 milyar dolarla değerliyor; Foxconn öncülüğündeki bir sermaye enjeksiyonu da dahil olmak üzere yaklaşık 465 milyon dolar brüt gelir bekleniyor.",
+     "Şirket verilerine göre Digit, lojistik şirketi GXO, tedarikçi Schaeffler ve Toyota Motor Manufacturing Canada gibi müşterilerin yanında halihazırda çalışıyor ve gerçek kullanımda 65.000 saatten fazla görev yaptı. Şirketin belirttiğine göre, insanların yanında güvenle çalışması öngörülen yeni model Digit 5 için, sözleşmeye bağlı ara hedeflere bağlı, 300 milyon doları aşan çok yıllı kesin siparişler bulunuyor. Şirketin kendi fabrikası RoboFab, yılda 10.000 robota kadar üretim yapacak şekilde tasarlandı.",
+     "Şirketin CEO'su Peggy Johnson, Manufacturing Dive'a göre ekim ayındaki bir yatırımcı konferansında “Halka arz büyümemizi hızlandırmaya yardımcı olacak” dedi. Agility, 2027 sonuna kadar 25 lokasyonda faaliyet göstermeyi ve 100 müşteri kazanmayı hedefliyor. Johnson, resmi kanalda yayımlanan yeni bir videoda robotları, yazılımı ve filo yönetim sistemi Arc'ı tanıtıyor."
+    ],
+    "d": "Hümanoid robot Digit'in ABD'li üreticisi, perşembeden itibaren AGLT koduyla Nasdaq'ta işlem görecek. Yol, 2,5 milyar dolar değerlemeli bir borsa kabuğu şirketiyle birleşmeden geçti.",
+    "t": "Hümanoid robot üreticisi borsada: Agility Robotics Nasdaq'ta işlem görmeye başlıyor"
+   },
+   "at": "2026-11-05T13:29Z",
+   "h": "7e3ce0fd143c",
+   "rev": [
+    "Teaser: \"Börsenhülle\" was rendered as \"boş çek şirketi\" (blank-check company/SPAC); the German says only \"Börsenhülle\", so it should be \"borsa kabuğu şirketi\", consistent with the body",
+    "Teaser: \"bewertet mit 2,5 Milliarden Dollar\" is correctly kept, but the sentence now reads \"borsaya açılıyor\" instead of describing the route via the merger; adjusted wording for faithfulness"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: New York'ta Times Meydanı'ndaki Nasdaq MarketSite",
+    "kl": "Hümanoid robotlar"
+   }
+  },
   "aiwanger-trauerbeflaggung-ermittlungen-2026-11-05-b11": {
    "L": {
     "body": [
@@ -734,6 +760,34 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Tilda Swinton, Mayıs 2026'da bir Chanel etkinliğinde"
+   }
+  },
+  "china-stoppt-softbank-abb-robotics": {
+   "L": {
+    "body": [
+     "Financial Times'ın haberine göre Çin, Japon teknoloji yatırımcısı SoftBank'a, İsviçreli ABB şirketinin robotik bölümünün satın alınmasına onay vermeyeceğini bildirdi. Kararın Ulusal Kalkınma ve Reform Komisyonu'ndan (NDRC) geldiği belirtiliyor. SoftBank, satın alma anlaşmasını geçen yıl Ekim ayında 5,4 milyar dolar karşılığında yapmıştı. Reuters haberi başlangıçta bağımsız olarak doğrulayamadı; SoftBank ve ABB sorulara yanıt vermedi, NDRC'ye ulaşılamadı.",
+     "FT'nin aktardığına göre Çinli yetkililer, özellikle robotlardan elde edilen hassas verilerin yurt dışına çıkmasından ve orada yapay zekâ modellerinin eğitiminde kullanılmasından endişe ediyor; bu modeller arasında SoftBank'ın büyük ortağı olduğu OpenAI'ın modelleri de var. Businessworld'e göre Çin, ABB'nin robotik işinin yaklaşık yüzde 30'unu oluşturuyor.",
+     "Businessworld'e göre SoftBank CEO'su Masayoshi Son, bu satın almayla şirketi büyüyen yapay zekâ ekosisteminin merkezine yerleştirmek istiyordu. SoftBank hissesi Tokyo'da haberden önce de yaklaşık yüzde 5 düşüşteydi ve haberin ardından pek hareket etmedi."
+    ],
+    "d": "Financial Times'a göre Pekin, SoftBank'ın ABB'nin robotik bölümünü 5,4 milyar dolara satın almasına onay vermeyecek. Nedenin, Çin'deki verilerin yapay zekâ modellerine akması endişesi olduğu belirtildi.",
+    "t": "Robot verisi endişesi: Çin'in SoftBank'ın ABB robotik alımını durduracağı öne sürüldü"
+   },
+   "at": "2026-11-05T13:29Z",
+   "h": "580339204291",
+   "rev": [
+    "Title: 'durduracağı bildirildi' is unnatural and does not mirror the German 'soll ... stoppen'; the target is stopping the purchase",
+    "Teaser: 'Financial Times'a göre' is attached to the first sentence only, fine; the second sentence keeps its attribution ('belirtildi')",
+    "Body 1: 'SoftBank'a ... bildirdi' is correct; the NDRC statement is attributed ('belirtiliyor')",
+    "Body 1: 'geçen yılın Ekim ayında' should be 'geçen yıl Ekim ayında'"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Bir sergide ASEA ve ABB endüstriyel robotları",
+    "kl": "Satın alma"
    }
   },
   "collazo-wbo-titel-niedergelegt-matsumoto": {
@@ -2039,6 +2093,32 @@
     "img.alt": "Joe Joyce, 2016 Rio Olimpiyatları'nda gümüş madalyasıyla (Arşiv fotoğrafı)"
    }
   },
+  "kane-verlaengert-2029-offiziell-2026-11-05": {
+   "L": {
+    "body": [
+     "Sinyalleri verilen gelişme perşembe sabahından itibaren resmiyet kazandı: Harry Kane, başlangıçta 2027 yazına kadar geçerli olan Bayern Münih sözleşmesini 2029'a kadar uzattı. İngiliz futbolcu, kulübün açıklamasında “Bayern'de kendimi evimde gibi hissediyorum: Kulübü, taraftarları, Münih şehrini seviyorum” dedi.",
+     "Başkan Herbert Hainer forvet oyuncusunu övdü: “Harry Kane, futbolda verilebilecek her sözü yerine getiriyor.” Yönetim Kurulu Başkanı Jan-Christian Dreesen ise bunu “bizim için, taraftarlarımız için ve Bundesliga için harika bir haber” olarak nitelendirdi.",
+     "Kane, 2023 yazında yaklaşık 100 milyon euro karşılığında Tottenham Hotspur'dan Münih'e transfer olmuştu ve o tarihten bu yana üst üste üç kez Bundesliga gol kralı oldu. Sky'ın verilerine göre Bayern formasıyla 161 resmi maçta 156 gol ve 42 asist yaptı."
+    ],
+    "d": "Bayern Münih, Harry Kane'le sözleşme uzatıldığını duyurdu. 33 yaşındaki golcü, rekortmen şampiyon kulübe iki yıl daha bağlandı.",
+    "t": "Resmen açıklandı: Harry Kane, Bayern Münih'le sözleşmesini 2029'a kadar uzattı"
+   },
+   "at": "2026-11-05T13:29Z",
+   "h": "3396ea30059a",
+   "rev": [
+    "\"Rekordmeister\" yanlış çevrilmiş: \"şampiyonluk rekortmeni kulüp\" yerine doğal ifade gerekir",
+    "\"Daha önce işaret edilen gelişme\" doğal değil; \"Beklenen gelişme\" daha doğru",
+    "Sky'ın verileri: \"Laut Sky\" atıf korunuyor, sorun yok"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Harry Kane, Bayern Münih'in Ocak 2025'te Salzburg'da oynadığı hazırlık maçında"
+   }
+  },
   "ki-apt-luecke-debian-ubuntu-2026-11-05": {
    "L": {
     "body": [
@@ -2812,6 +2892,33 @@
     "img.alt": "Leipzig'de stadyum (Arşiv fotoğrafı)"
    }
   },
+  "liverpool-fenerbahce-2-3-iraola-2026-11-05": {
+   "L": {
+    "body": [
+     "Liverpool, Şampiyonlar Ligi lig aşamasının dördüncü haftasında ilk yenilgisini aldı. Reds, çarşamba akşamı Fenerbahçe İstanbul deplasmanında 2-3 kaybetti. Trey Nyoni, 25. dakikada başka bir oyuncuya çarparak yön değiştiren bir vole şutla Liverpool'u öne geçirdi. ESPN'e göre 19 yaşındaki oyuncu, böylece Şampiyonlar Ligi'nde ilk golünü atan en genç Liverpool oyuncusu oldu. Mason Greenwood, dört dakika sonra yön değiştiren bir serbest vuruşla beraberliği sağladı.",
+     "Sonradan oyuna giren Alexander Isak, Cody Gakpo'nun ortasında 69. dakikada kafayla konuk takımı yeniden öne geçirdi. Ancak korner sonrası Archie Brown (73.) ve taç atışı sonrası kafayla Vedat Muriqi (79.) maçı çevirdi. Liverpool 9 puanda kaldı. Fenerbahçe ise eski Liverpool oyuncusu geçici teknik direktör Dirk Kuyt yönetiminde lig aşamasındaki ilk galibiyetini kutladı.",
+     "Iraola, “Bunlar ucuz goller, kaotik goller” dedi. Iraola, “Yenilgi için bulabildiğim temel neden, üç duran top sonrasında gol yememiz” diye konuştu. Kuyt ise bu “mucize”de emeği geçen “tüm oyunculardan ve tüm insanlardan çok mutlu” olduğunu söyledi."
+    ],
+    "d": "Şampiyonlar Ligi'nde ilk yenilgi: Liverpool, İstanbul'da iki kez öne geçtiği maçta üstünlüğü koruyamadı. Teknik direktör Andoni Iraola “ucuz goller”e tepki gösterdi.",
+    "t": "Üç duran top golü, iki kez kaybedilen üstünlük: Liverpool, Fenerbahçe'ye 2-3 yenildi"
+   },
+   "at": "2026-11-05T13:29Z",
+   "h": "fe205f3c6088",
+   "rev": [
+    "Score in headline written in the wrong order: the German 2:3 is a Liverpool loss, so the Turkish should read 2-3, not 3-2",
+    "Score in the body written in the wrong order (3-2 instead of 2-3)",
+    "The 'ilk golünü atan en genç Liverpool oyuncusu' phrasing is imprecise; the German says he is the youngest Liverpool player to score a first Champions League goal",
+    "'iki kez öne geçtiği maçta' is acceptable"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Liverpool teknik direktörü Andoni Iraola, İstanbul'daki maç öncesi basın toplantısında"
+   }
+  },
   "lol-worlds-2026-geng-lyon-halbfinale": {
    "L": {
     "body": [
@@ -2993,6 +3100,33 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Mönchengladbach'taki Borussia-Park'ta stadyum"
+   }
+  },
+  "marseille-leverkusen-genesio-2026-11-05": {
+   "L": {
+    "body": [
+     "Ligue 1'de üst üste dört galibiyet Olympique Marseille'i 17. sıradan altıncı sıraya taşıdı, OM son olarak Toulouse'u 2-0 yendi. Avrupa Ligi'nde ise üç maçın ardından bilanço boş: sıfır puan, 36 takım arasında 34. sıra. Teknik direktör Bruno Genesio'nun takımı perşembe günü saat 21:00'de, üç maçını da kazanan Bayer Leverkusen'e konuk olacak.",
+     "Genesio, Avrupa Ligi'nde üst tura çıkma umudundan vazgeçmek istemiyor: Dokuz puanın yine de yeterli olabileceğini, \"ancak işin kıl payı olabileceğini\" söyledi. Medya haberlerine göre Toulouse maçında dizinden sakatlanan Emerson Palmieri ile Amine Harit'siz oynamak zorunda. Genesio, \"Yarınki maç için oynayabilecek durumda değiller, risk almak istemedik\" dedi. Genesio, Harit'in durumunda daha çok dinlenmenin söz konusu olduğunu, oyuncunun pazar günü yeniden takımda olacağını belirtti.",
+     "Leverkusenli Facundo Medina için bu bir yeniden buluşma: Savunmacı yazın Marseille'den geldi. İki kulübün birbirine karşı oynadığı ilk resmi maç bu; yaklaşık 28.000 seyirci bekleniyor, bunların yaklaşık 1.500'ü Marseille'den. Bayer'in teknik direktörü Carles Martínez, Marseille'in henüz puanı olmasa da \"çok iyi bir takım\" olduğu uyarısında bulundu."
+    ],
+    "d": "Olympique Marseille Ligue 1'de yükselişte, Avrupa Ligi'nde ise henüz puan alamadı. Leverkusen deplasmanında OM'de Emerson Palmieri ve Amine Harit forma giyemeyecek.",
+    "t": "Marseille Leverkusen'de hâlâ puansız – Genesio Avrupa Ligi'nden umudunu kesmiyor"
+   },
+   "at": "2026-11-05T13:29Z",
+   "h": "349f549d0677",
+   "rev": [
+    "Wrong quotation marks („…“) used in Turkish; also the quote is awkward/ungrammatical",
+    "Medina sentence: 'bir karşılaşma sürpriziyle yeniden buluşma' is an invented, unnatural rendering of 'Wiedersehen'",
+    "'Leverkusen'li' should be 'Leverkusenli' (no apostrophe for a place name suffix) – minor",
+    "Palmieri's injury: the hedge 'laut Medienberichten' attaches to the injury and the draft places it clumsily, though acceptable; 'elemeyi geçme' is an unnatural wording for 'Qualifikation'"
+   ],
+   "rev_dbg": [
+    4,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Leverkusen'deki BayArena"
    }
   },
   "mike-johnson-verzichtet-scalise-jordan-2026-11-05-b08": {
