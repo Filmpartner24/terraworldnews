@@ -607,7 +607,10 @@
   {
    "date": "2026-11-04",
    "time": "16:30",
-   "ft": null,
+   "ft": [
+    0,
+    0
+   ],
    "r": 4,
    "t1": "Stade Rennais FC",
    "t2": "Olympiacos FC"
@@ -1328,6 +1331,17 @@
  "table": [
   {
    "pos": 1,
+   "team": "Olympiacos FC",
+   "p": 4,
+   "w": 3,
+   "d": 1,
+   "l": 0,
+   "gf": 4,
+   "ga": 1,
+   "pts": 10
+  },
+  {
+   "pos": 2,
    "team": "SL Benfica",
    "p": 3,
    "w": 3,
@@ -1338,7 +1352,7 @@
    "pts": 9
   },
   {
-   "pos": 2,
+   "pos": 3,
    "team": "Bayer 04 Leverkusen",
    "p": 3,
    "w": 3,
@@ -1349,7 +1363,7 @@
    "pts": 9
   },
   {
-   "pos": 3,
+   "pos": 4,
    "team": "AFC Bournemouth",
    "p": 3,
    "w": 3,
@@ -1360,7 +1374,7 @@
    "pts": 9
   },
   {
-   "pos": 4,
+   "pos": 5,
    "team": "Ferencvárosi TC",
    "p": 3,
    "w": 3,
@@ -1368,17 +1382,6 @@
    "l": 0,
    "gf": 9,
    "ga": 3,
-   "pts": 9
-  },
-  {
-   "pos": 5,
-   "team": "Olympiacos FC",
-   "p": 3,
-   "w": 3,
-   "d": 0,
-   "l": 0,
-   "gf": 4,
-   "ga": 1,
    "pts": 9
   },
   {
@@ -1449,6 +1452,17 @@
   },
   {
    "pos": 12,
+   "team": "Stade Rennais FC",
+   "p": 4,
+   "w": 1,
+   "d": 3,
+   "l": 0,
+   "gf": 4,
+   "ga": 3,
+   "pts": 6
+  },
+  {
+   "pos": 13,
    "team": "Olympique Lyonnais",
    "p": 3,
    "w": 2,
@@ -1457,17 +1471,6 @@
    "gf": 5,
    "ga": 6,
    "pts": 6
-  },
-  {
-   "pos": 13,
-   "team": "Stade Rennais FC",
-   "p": 3,
-   "w": 1,
-   "d": 2,
-   "l": 0,
-   "gf": 4,
-   "ga": 3,
-   "pts": 5
   },
   {
    "pos": 14,
@@ -2661,5 +2664,5 @@
    "u": "https://www.uefa.com/uefaeuropaleague/"
   }
  ],
- "asof": "2026-11-04"
+ "asof": "2026-11-05"
 }
