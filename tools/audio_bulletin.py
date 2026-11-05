@@ -102,7 +102,7 @@ def tts(text, l, dest):
     key = os.environ.get('ELEVENLABS_API_KEY')
     if not key: raise SystemExit('ELEVENLABS_API_KEY fehlt (GitHub-Secret)')
     body = {'text': text, 'model_id': MODEL, 'language_code': l,
-            'voice_settings': {'stability': 0.5, 'similarity_boost': 0.75, 'style': 0.0, 'use_speaker_boost': True, 'speed': 1.0}}   # neutrale Standardwerte für Mark
+            'voice_settings': {'stability': 0.5, 'similarity_boost': 0.75, 'style': 0.0, 'use_speaker_boost': True, 'speed': 1.08}}   # Nedy 05.11.2026: etwas schneller
     req = urllib.request.Request(f'https://api.elevenlabs.io/v1/text-to-speech/{VOICE}?output_format=mp3_44100_64',
                                  data=json.dumps(body).encode(), method='POST',
                                  headers={'xi-api-key': key, 'Content-Type': 'application/json', 'Accept': 'audio/mpeg'})
