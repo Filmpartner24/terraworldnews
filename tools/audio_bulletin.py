@@ -40,7 +40,7 @@ def intro(l, d):
 OUTRO = {'de': 'Das waren die Nachrichten. Mehr lesen Sie auf terraworldnews.com. Terra World News – die Fakten, der Kontext, die Welt.',
          'bg': 'Това бяха новините. Още можете да прочетете на terraworldnews.com. Terra World News – фактите, контекстът, светът.',
          'en': 'That was the news. Read more at terraworldnews.com. Terra World News – the facts, the context, the world.'}
-TITLE = {'de': 'TWN in 90 Sekunden', 'bg': 'TWN за 90 секунди', 'en': 'TWN in 90 seconds'}
+TITLE = {'de': 'TWN in 3 Minuten', 'bg': 'TWN за 3 минути', 'en': 'TWN in 3 minutes'}
 
 def pick(date):
     fp = os.path.join(HERE, 'content', f'{date}.json')
@@ -157,6 +157,9 @@ def main():
         if os.path.basename(f)[:10] < cut: os.remove(f)
     os.makedirs(os.path.dirname(idx_fp), exist_ok=True)
     json.dump(idx, open(idx_fp, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    pub = os.path.join(HERE, 'static', 'audio', 'news.json')          # für den Player auf der Website
+    os.makedirs(os.path.dirname(pub), exist_ok=True)
+    json.dump({'items': [{k: x[k] for k in ('date', 'lang', 'f', 'title', 'time', 'bytes')} for x in idx['items']]}, open(pub, 'w', encoding='utf-8'), ensure_ascii=False)
 
 if __name__ == '__main__':
     main()

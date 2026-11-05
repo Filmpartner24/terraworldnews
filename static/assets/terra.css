@@ -1905,3 +1905,19 @@ nav.sections.nv2::before{content:"";position:absolute;left:0;right:0;top:0;heigh
  .nv2 .nav-dd>a.nv-top{padding-right:14px!important}
 }
 @media (max-width:860px){nav.sections.nv2 .nav-dd .dd,nav.sections.nv2 .nav-dd.dd-wide .dd,nav.sections.nv2 .nav-dd.ex .dd,nav.sections.nv2 .nav-dd.dd-wide.ex .dd,nav.sections.nv2 .nav-dd:hover .dd,nav.sections.nv2 .nav-dd:focus-within .dd{display:none!important}}
+/* TWN Radio (05.11.2026) */
+.tr-b{position:fixed;right:16px;bottom:16px;z-index:60;display:flex;align-items:center;gap:6px;padding:10px 16px;border:0;border-radius:999px;background:linear-gradient(135deg,#0f2f7a,#d4161c);color:#fff;font:700 14px/1 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;letter-spacing:.02em;box-shadow:0 6px 20px rgba(5,10,25,.35);cursor:pointer}
+.tr-b:hover{filter:brightness(1.08)}.tr-b:focus-visible{outline:3px solid #fff;outline-offset:2px}
+.tr-p{position:fixed;right:16px;bottom:72px;z-index:61;width:min(380px,calc(100vw - 32px));max-height:calc(100vh - 100px);overflow:auto;background:#0b1430;color:#fff;border-radius:14px;padding:14px 16px;box-shadow:0 12px 40px rgba(5,10,25,.45);border-top:3px solid #d4161c;font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.tr-p[hidden]{display:none}.tr-h{display:flex;justify-content:space-between;align-items:center;font-size:16px}
+.tr-x{background:none;border:0;color:#fff;font-size:24px;line-height:1;cursor:pointer;padding:0 4px}
+.tr-n{margin:2px 0 10px;color:#aab4cf;font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+.tr-t{margin:0 0 8px}.tr-a{width:100%;margin:2px 0 8px}
+.tr-old summary{cursor:pointer;color:#cfd6ea;margin:4px 0}.tr-old button{display:block;width:100%;text-align:left;margin:4px 0;padding:6px 8px;border:1px solid #2a3a66;border-radius:8px;background:#13204a;color:#fff;cursor:pointer}
+.tr-pop{margin:10px 0 0}.tr-pop button{padding:8px 12px;border:1px solid #4a5a8a;border-radius:8px;background:#13204a;color:#fff;cursor:pointer;font-weight:600}
+.tr-pop small{display:block;margin-top:4px;color:#aab4cf}
+.tr-ai{margin:10px 0 0;font-size:12px;color:#8f9ab8}.tr-none{color:#cfd6ea}
+.tr-art{margin:6px 0 14px;display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.tr-art button{padding:7px 14px;border:1px solid currentColor;border-radius:999px;background:transparent;color:inherit;font-weight:700;cursor:pointer}
+.tr-art small{opacity:.7;font-size:12px}
+@media print{.tr-b,.tr-p,.tr-art{display:none}}
