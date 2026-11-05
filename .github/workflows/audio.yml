@@ -1,0 +1,42 @@
+name: TWN Radio – Audio-Nachrichten
+# Morgenausgabe „TWN in 90 Sekunden“ mit Nedys ElevenLabs-Stimme (DE/BG/EN), seit 05.11.2026.
+# Probe: Datei audio/probe-request.txt ändern und pushen → MP3s landen in audio/probe/ (nicht veröffentlicht).
+on:
+  schedule:
+    - cron: '45 5 * * *'     # 06:45 Berlin (Winterzeit) / 07:45 (Sommerzeit) – nach der Tagesausgabe
+  push:
+    branches: [main]
+    paths: ['audio/probe-request.txt']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: twn-audio
+  cancel-in-progress: false
+jobs:
+  audio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Generate bulletin
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            python3 tools/audio_bulletin.py --probe --date "$(head -1 audio/probe-request.txt)" 2>&1 | tee audio/probe-log.txt || true
+          else
+            python3 tools/audio_bulletin.py
+          fi
+      - name: Commit
+        run: |
+          git config user.name "terra-bot"
+          git config user.email "media@filmpartner24.com"
+          git add -A audio static/audio content/audio
+          git diff --cached --quiet && exit 0
+          if [ "${{ github.event_name }}" = "push" ]; then MSG="TWN Radio: Probeaufnahme [CF-Pages-Skip]"; else MSG="TWN Radio: Morgenausgabe"; fi
+          git commit -m "$MSG"
+          for i in 1 2 3 4 5; do git push && exit 0; sleep $((i*5)); git pull --rebase -q || exit 1; done
+          exit 1
