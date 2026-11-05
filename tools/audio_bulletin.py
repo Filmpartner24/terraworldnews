@@ -16,7 +16,7 @@ from zoneinfo import ZoneInfo
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BERLIN = ZoneInfo('Europe/Berlin')
-VOICE = os.environ.get('TWN_VOICE_ID', 'TCAJda6jOtzTY3hdxbdK')          # Nedy John Cross (ElevenLabs)
+VOICE = os.environ.get('TWN_VOICE_ID', '1SM7GgM6IMuvQlz2BwM3')          # „Mark“ (ElevenLabs-Bibliothek), Nedy 05.11.2026; Nedys eigene Stimme: TCAJda6jOtzTY3hdxbdK
 MODEL = os.environ.get('TWN_TTS_MODEL', 'eleven_multilingual_v2')       # Nedy 05.11.2026: Multilingual v2 (Stimme darauf trainiert); Flash v2.5 = halbe Credits
 LANGS = ['de', 'bg', 'en']
 N_ITEMS = 4            # Aufmacher + 3 weitere Meldungen
@@ -74,7 +74,7 @@ def tts(text, l, dest):
     key = os.environ.get('ELEVENLABS_API_KEY')
     if not key: raise SystemExit('ELEVENLABS_API_KEY fehlt (GitHub-Secret)')
     body = {'text': text, 'model_id': MODEL, 'language_code': l,
-            'voice_settings': {'stability': 0.71, 'similarity_boost': 0.74, 'style': 0.0, 'use_speaker_boost': True, 'speed': 1.07}}   # Nedys Einstellungen (Screenshot 05.11.2026)
+            'voice_settings': {'stability': 0.5, 'similarity_boost': 0.75, 'style': 0.0, 'use_speaker_boost': True, 'speed': 1.0}}   # neutrale Standardwerte für Mark
     req = urllib.request.Request(f'https://api.elevenlabs.io/v1/text-to-speech/{VOICE}?output_format=mp3_44100_64',
                                  data=json.dumps(body).encode(), method='POST',
                                  headers={'xi-api-key': key, 'Content-Type': 'application/json', 'Accept': 'audio/mpeg'})
@@ -118,7 +118,7 @@ def main():
         n = tts(t, l, os.path.join(HERE, 'static' + rel))
         idx['items'] = [x for x in idx['items'] if not (x['date'] == date and x['lang'] == l)]
         idx['items'].append({'date': date, 'lang': l, 'f': rel, 'bytes': n, 'chars': len(t), 'time': now.strftime('%H:%M'),
-                             'title': TITLE[l], 'ids': [i['id'] for i in items], 'voice': 'Nedy John Cross (ElevenLabs)', 'model': MODEL})
+                             'title': TITLE[l], 'ids': [i['id'] for i in items], 'voice': 'Mark (ElevenLabs)', 'model': MODEL})
         print(l, len(t), 'Zeichen →', rel)
     cut = (d - dt.timedelta(days=KEEP_DAYS - 1)).isoformat()
     idx['items'] = sorted([x for x in idx['items'] if x['date'] >= cut], key=lambda x: (x['date'], x['lang']), reverse=True)
