@@ -1979,3 +1979,18 @@ background:linear-gradient(135deg,color-mix(in srgb,var(--c1) 26%,#0a1030),color
 .twr-tvp .twr-scr{margin:12px 0 4px}.twr-scr-b{align-items:center}.twr-via{color:#9fb0e8;font-size:11px;line-height:1.3}
 .twr-pick{position:absolute;inset:0;margin:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;color:#9fb0e8;font-size:13px;text-align:center;padding:12px;background:radial-gradient(circle at 50% 40%,rgba(212,22,28,.25),transparent 60%)}
 .twr-pick span{font-size:34px}
+
+/* PLANET EARTH FILMFESTIVAL – Logo im Festivalblock (Nedy 05.11.2026) */
+.pe::after{display:none}
+.pe{background:radial-gradient(520px 340px at 80% 38%,rgba(10,28,58,.95),transparent 70%),radial-gradient(700px 320px at 10% 100%,rgba(45,212,191,.14),transparent 60%),linear-gradient(140deg,#06140f 0%,#0a1a2c 55%,#05070d 100%)}
+.pe-top{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(240px,1fr);gap:8px 10px;align-items:center}
+.pe-txt{min-width:0}
+.pe-brand{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.pe-kick{margin-bottom:6px}
+.pe-date{margin-top:4px;font-size:20px}
+.pe-logo{display:block;position:relative;margin:-34px -30px -30px -10px}
+.pe-logo img{display:block;width:100%;height:auto;-webkit-mask-image:radial-gradient(ellipse 50% 50% at 50% 50%,#000 58%,transparent 100%);mask-image:radial-gradient(ellipse 50% 50% at 50% 50%,#000 58%,transparent 100%);filter:drop-shadow(0 0 22px rgba(227,194,122,.16));transition:transform .5s ease}
+.pe-logo:hover img{transform:scale(1.02)}
+.pe-big .pe-top{grid-template-columns:minmax(0,1.3fr) minmax(260px,1fr)}
+.pe-date i{white-space:nowrap}
+@media (max-width:760px){.pe-top,.pe-big .pe-top{grid-template-columns:1fr}.pe-logo{order:-1;max-width:440px;width:calc(100% + 32px);margin:-26px auto -22px}}

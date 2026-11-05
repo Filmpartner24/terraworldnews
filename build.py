@@ -1824,10 +1824,13 @@ def film_pe(l, day0, big=False):
     news = ''.join(f'<li><a href="{art_url(x, l)}"><time datetime="{x["date"]}">{num_date(x["date"])}</time> {e(x[l]["t"])}</a></li>' for x in pe_its)
     cats = ''.join(f'<li>{e(c)}</li>' for c in (P.get('cats') or {}).get(l, []))
     return (f'<section class="pe{" pe-big" if big else ""}" aria-label="PLANET EARTH FILMFESTIVAL"><div class="pe-in">'
+            f'<div class="pe-top"><div class="pe-txt">'
             f'<p class="pe-kick">★ {e(Z["pe_kick"])} ★</p><p class="pe-brand"><span>PLANET EARTH</span><b>FILMFESTIVAL</b></p>'
             f'<p class="pe-date">{e(Z["pe_dates"])}' + (f' <i>{e(cd)}</i>' if cd else '') + '</p>'
             f'<p class="pe-about">{e(L(P.get("about", {}), l))}</p>'
             f'<div class="pe-cta"><a class="pe-btn" href="{e(P["site"])}" rel="noopener" target="_blank">{e(Z["pe_site"])} ↗</a><a class="pe-btn pe-btn2" href="{e(P["submit"])}" rel="noopener" target="_blank">{e(Z["pe_submit"])} ↗</a></div>'
+            f'</div><a class="pe-logo" href="{e(P["site"])}" rel="noopener" target="_blank" aria-hidden="true" tabindex="-1">'
+            '<img src="/assets/film/planet-earth-logo-1000.webp" srcset="/assets/film/planet-earth-logo-600.webp 600w, /assets/film/planet-earth-logo-1000.webp 1000w" sizes="(max-width:760px) 90vw, 440px" width="1000" height="592" alt="" loading="lazy" decoding="async"></a></div>'
             + (f'<div class="pe-cats"><h3>{e(Z["pe_cats"])} <small>({e(L(P.get("cats_note", {}), l))})</small></h3><ul>{cats}</ul></div>' if big and cats else '')
             + f'<div class="pe-news"><h3>{e(Z["pe_news"])}</h3>' + (f'<ul>{news}</ul>' if news else f'<p>{e(Z["pe_none"])}</p>') + '</div>'
             + ('' if big else f'<a class="pe-more" href="{sub_url("film", "f_fest", l)}">{e(Z["pe_more"])}</a>')
