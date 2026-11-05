@@ -1253,6 +1253,58 @@
     "img.alt": "Imagen simbólica: tienda de Ecco en Groninga (2018)"
    }
   },
+  "el-panathinaikos-nunn-real-bayern-asvel-2026-11-05": {
+   "L": {
+    "body": [
+     "Kendrick Nunn llevó al Panathinaikos de Atenas a una victoria espectacular en Madrid. El escolta estadounidense anotó 33 puntos en el 115-112 tras la prórroga, 23 de ellos solo en el último cuarto, según Eurohoops un récord de la Euroliga para un último cuarto. Mathias Lessort logró 20 puntos y nueve rebotes, y Sylvain Francisco, 18. Los 227 puntos de ambos equipos fueron la cifra más alta de la temporada en curso.",
+     "El Real Madrid, sin Facundo Campazzo, Theo Maledon y Mikael Jantunen, llegó a ir 15 puntos por debajo y aun así forzó la prórroga: Andrés Feliz igualó a 101-101 con la última jugada del tiempo reglamentario y terminó el partido con 27 puntos y seis asistencias; Alberto Abalde aportó 23 puntos. En la prórroga, Lessort puso por delante a los griegos 111-105 con una jugada de tres puntos. El Panathinaikos, que también tiene en su plantilla al campeón del mundo Isaac Bonga, lidera ahora la clasificación con 8 victorias y 2 derrotas; el Real baja a 6-4.",
+     "El jueves por la noche (20:00) llega la visita del FC Bayern de Múnich al LDLC ASVEL Lyon-Villeurbanne. Los muniqueses suman solo dos victorias tras nueve jornadas y aún no han ganado ningún partido en casa en la Euroliga; tras el 73-103 en Belgrado, el martes se rehicieron en la liga alemana con un 108-66 ante el Braunschweig."
+    ],
+    "d": "El Panathinaikos gana 115-112 tras la prórroga en la pista del Real Madrid y se pone líder con 8 victorias y 2 derrotas. El jueves por la noche, el Bayern, en crisis, está en juego en Villeurbanne.",
+    "t": "Euroliga: Nunn anota 23 puntos en un cuarto y el Panathinaikos gana en Madrid"
+   },
+   "at": "2026-11-05T12:42Z",
+   "h": "ecf9c9f78c6a",
+   "rev": [
+    "'Bundesliga' left untranslated; the German basketball league should be rendered as 'Liga alemana' (BBL)",
+    "'Dreipunktspiel' translated as 'triple juego', which is wrong; in basketball it is a three-point play (canasta más tiro libre adicional), 'jugada de tres puntos'",
+    "'se pone líder' is slightly unnatural and the teaser is ambiguous; 'juega el Bayern, en crisis' reads awkwardly, so it was smoothed"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Kendrick Nunn con la camiseta del Panathinaikos en un partido de la Euroliga (Foto de archivo, 2025)"
+   }
+  },
+  "elevenlabs-captions-elevencreative": {
+   "L": {
+    "body": [
+     "ElevenLabs, conocida por sus voces de IA y su síntesis de voz, ha incorporado una función de subtítulos a su plataforma creativa ElevenCreative. Según la presentación oficial del miércoles, en la app móvil se pueden añadir subtítulos a un vídeo con unos pocos toques; el estilo, la fuente, el color y el tamaño son ajustables, y cada subtítulo sigue siendo editable en la línea de tiempo.",
+     "En el programa de edición de vídeo Studio 4.0, los subtítulos tienen su propia pista: los textos se pueden editar, dividir y fusionar, ajustar en duración y posición, y traducir sin que cambie la pista de audio. ElevenLabs presentó Studio 4.0 en septiembre como una herramienta en la que se generan vídeo, imágenes, voz, música y sonidos en un mismo proyecto y se editan hasta la exportación final.",
+     "La empresa no dio detalles sobre precios en la presentación. Un vídeo en el canal oficial de ElevenLabs muestra cómo se usa."
+    ],
+    "d": "La empresa de IA de voz ElevenLabs añade subtítulos a su plataforma creativa, tanto en la app móvil como en el editor de vídeo Studio 4.0. Pueden traducirse sin alterar el audio.",
+    "t": "Subtítulos con unos pocos toques: ElevenLabs integra Captions en ElevenCreative"
+   },
+   "at": "2026-11-05T12:42Z",
+   "h": "2fb4f8737b09",
+   "rev": [
+    "\"en la presentación\" in the last paragraph is fine; \"muestra el manejo\" is unnatural wording for \"zeigt die Bedienung\"",
+    "\"desplazar en duración y posición\" is awkward; the German means length and position can be adjusted (shifted)"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Mati Staniszewski, cofundador de ElevenLabs (2022)",
+    "kl": "Vídeo con IA"
+   }
+  },
   "energie-ageb-energieverbrauch-deutschland-sinkt-2026-11-05": {
    "L": {
     "body": [
@@ -2949,6 +3001,50 @@
     "img.alt": "Imagen simbólica: Nintendo Switch 2 en la base de acoplamiento"
    }
   },
+  "openai-948-linux-root-exploits": {
+   "L": {
+    "body": [
+     "OpenAI ha descrito cómo una cadena de agentes de IA basada en un modelo aún no publicado y especializado en ciberseguridad ha examinado el kernel de Linux. Según la empresa, el sistema encontró 2.308 posibles vulnerabilidades; 1.724 de ellas pudieron reproducirse en una ejecución de unas 30 horas a mediados de octubre. Para 948 fallos, la cadena generó ataques funcionales con los que un usuario local sin privilegios especiales puede obtener derechos de administrador (root), además de propuestas de parche.",
+     "OpenAI cifra el coste del uso de la interfaz de programación en 1.213.430 dólares, es decir, unos 1.279 dólares por fallo explotable. A modo de comparación, en concursos de hackers se han pagado hasta ahora entre 20.000 y 70.000 dólares por fallos individuales de este tipo en Linux, según informa AI Weekly. Según The Hacker News, el sistema descubrió además al menos diez nuevas técnicas de ataque.",
+     "Antes de cada aviso a los desarrolladores de Linux, según OpenAI, personas revisan los resultados; la transmisión se realiza a través de los socios de «Patch the Planet» de OpenAI. Según AI Weekly, diez días después de la ejecución se habían corregido 61 fallos en el kernel oficial. Las cifras proceden de OpenAI y hasta ahora no han sido verificadas de forma independiente."
+    ],
+    "d": "Un sistema de IA de OpenAI ha encontrado cientos de vulnerabilidades explotables en el kernel de Linux, junto con propuestas de parche. El coste de cálculo: unos 1,2 millones de dólares, unos 1.279 dólares por fallo.",
+    "t": "948 vías a root: agentes de OpenAI hallan un aluvión de fallos en el kernel de Linux"
+   },
+   "at": "2026-11-05T12:42Z",
+   "h": "4fd9b43de905",
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: figura de Tux, la mascota de Linux",
+    "kl": "Seguridad de la IA"
+   }
+  },
+  "openai-chatgpt-images-26-gifs": {
+   "L": {
+    "body": [
+     "OpenAI presentó el miércoles Images 2.6, la nueva versión de su generación de imágenes en ChatGPT. La principal novedad: los usuarios pueden crear GIF animados a partir de una descripción de texto o de una foto subida, cambiar después la velocidad de reproducción y editar de forma selectiva fotogramas concretos de la animación. Según OpenAI, Images 2.6 también admite imágenes de referencia. Las funciones están disponibles en ChatGPT y en la herramienta de programación Codex para todos los planes en la web, el escritorio y las aplicaciones móviles.",
+     "Según OpenAI, los desarrolladores dispondrán de dos nuevos modelos a través de la interfaz de programación: GPT-Image-2.6 Flare generaría imágenes en tan solo seis segundos, mientras que GPT-Image-2.6 Sunburst estaría diseñado para ofrecer mayor calidad y más coherencia a lo largo de varios pasos de edición. OpenAI menciona además marcas directamente en la imagen y una exportación como gráfico vectorial SVG.",
+     "Según la empresa, en ChatGPT y a través de la interfaz ya se crean más de cuatro mil millones de imágenes por semana; según The Decoder, unos mil millones más que en septiembre. Un vídeo en el canal oficial de OpenAI muestra las nuevas funciones."
+    ],
+    "d": "ChatGPT ya puede convertir una descripción de texto o una foto subida en un GIF animado. Los desarrolladores recibirán dos nuevos modelos de imágenes; uno de ellos entregaría imágenes en seis segundos.",
+    "t": "GIF animados a demanda: OpenAI lleva el modelo de imágenes Images 2.6 a ChatGPT"
+   },
+   "at": "2026-11-05T12:42Z",
+   "h": "905669c5361d",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: smartphone con la aplicación ChatGPT abierta delante de un portátil",
+    "kl": "Nuevo modelo"
+   }
+  },
   "pauline-karpidas-schmuck-sothebys-new-york-jar-belperron": {
    "L": {
     "body": [
@@ -4018,6 +4114,28 @@
    ],
    "x": {
     "img.alt": "Foto de archivo: sede de Novo Nordisk en Bagsværd, Dinamarca"
+   }
+  },
+  "ymtc-boersengang-gestoppt": {
+   "L": {
+    "body": [
+     "Yangtze Memory Technologies (YMTC), el mayor fabricante chino de chips de memoria NAND, ha detenido por el momento su prevista salida a bolsa en Shanghái. Así lo informa la agencia Reuters, citando una carta interna y a personas familiarizadas con el asunto. La matriz, CCSH, había solicitado en agosto captar 33.000 millones de yuanes (unos 4.900 millones de dólares, según AI Weekly) en el segmento tecnológico STAR Market. Ahora YMTC apuntaría a la primera mitad de 2027, en función de la situación del mercado.",
+     "La carta interna solo menciona «varios factores». Según las fuentes, influyen la debilidad de los mercados y un examen más estricto de las nuevas salidas a bolsa: el regulador bursátil CSRC habría instruido de manera informal a los bancos de inversión que frenen las salidas a bolsa de empresas de IA y de chips. El índice de referencia CSI 300 perdió un 8,5 por ciento en octubre; el índice tecnológico STAR50 se situaba a finales de octubre un 40 por ciento por debajo de su máximo de julio.",
+     "YMTC ha crecido con fuerza durante la escasez mundial de chips de memoria del año pasado y ha arrebatado cuota de mercado a Samsung y SK Hynix en China. YMTC y la CSRC no respondieron a las consultas de Reuters."
+    ],
+    "d": "La matriz del fabricante de NAND quería captar 33.000 millones de yuanes en Shanghái. Tras un mal octubre y un mayor rigor de los reguladores, la salida a bolsa llegaría ahora probablemente en 2027.",
+    "t": "YMTC, el mayor fabricante chino de chips NAND, congela su salida a bolsa"
+   },
+   "at": "2026-11-05T12:42Z",
+   "h": "1f1a604ccb7e",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen de portada: YMTC, el mayor fabricante chino de chips NAND, congela su salida a bolsa",
+    "kl": "Chips"
    }
   }
  }
