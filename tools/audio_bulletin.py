@@ -17,10 +17,10 @@ from zoneinfo import ZoneInfo
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BERLIN = ZoneInfo('Europe/Berlin')
 VOICE = os.environ.get('TWN_VOICE_ID', '2uOZngbI0kZd4T028VuO')          # Frauenstimme (ElevenLabs), Nedy 05.11.2026; vorher Mark 1SM7GgM6IMuvQlz2BwM3, Nedy TCAJda6jOtzTY3hdxbdK
-MODEL = os.environ.get('TWN_TTS_MODEL', 'eleven_multilingual_v2')       # Nedy 05.11.2026: Multilingual v2 (Stimme darauf trainiert); Flash v2.5 = halbe Credits
+MODEL = os.environ.get('TWN_TTS_MODEL', 'eleven_flash_v2_5')            # Nedy 05.11.2026: Flash v2.5 (halbe Credits); Alternative eleven_multilingual_v2
 LANGS = ['de', 'bg', 'en']
-N_ITEMS = 4            # Aufmacher + 3 weitere Meldungen
-MAX_CHARS = 1900       # Kostenbremse pro Ausgabe
+N_ITEMS = 8            # Aufmacher + 7 weitere Meldungen ≈ 3 Minuten (Nedy 05.11.2026)
+MAX_CHARS = 2900       # Kostenbremse pro Ausgabe (≈ 3 Min.)
 KEEP_DAYS = 7
 SEC_ORDER = ['bulgarien', 'welt', 'europa', 'deutschland', 'wirtschaft', 'ki', 'klima', 'energie']
 
