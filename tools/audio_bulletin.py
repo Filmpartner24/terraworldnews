@@ -58,13 +58,27 @@ def dot(t):
     t = t.strip()
     return t if t[-1:] in '.!?…' else t + '.'
 
+# Ansage vor jeder Meldung + Pause, damit Hörer die Meldungen unterscheiden (Nedy 05.11.2026)
+LEAD = {'de': 'Unser Top-Thema.', 'bg': 'Основната тема.', 'en': 'Our top story.'}
+SECL = {'bulgarien': {'de': 'Aus Bulgarien.', 'bg': 'От България.', 'en': 'From Bulgaria.'},
+        'welt': {'de': 'Aus der Welt.', 'bg': 'От света.', 'en': 'World news.'},
+        'europa': {'de': 'Aus Europa.', 'bg': 'От Европа.', 'en': 'From Europe.'},
+        'deutschland': {'de': 'Aus Deutschland.', 'bg': 'От Германия.', 'en': 'From Germany.'},
+        'wirtschaft': {'de': 'Wirtschaft.', 'bg': 'Икономика.', 'en': 'Business.'},
+        'ki': {'de': 'Technologie.', 'bg': 'Технологии.', 'en': 'Technology.'},
+        'klima': {'de': 'Klima.', 'bg': 'Климат.', 'en': 'Climate.'},
+        'energie': {'de': 'Energie.', 'bg': 'Енергетика.', 'en': 'Energy.'}}
+NEXT = {'de': 'Die nächste Meldung.', 'bg': 'Следващата новина.', 'en': 'Next.'}
+BREAK = '<break time="1.2s" />'
+
 def script(items, l, d):
     parts = [intro(l, d)]
-    for it in items:
+    for n, it in enumerate(items):
         x = it.get(l) or {}
         if x.get('t') and x.get('d'):
-            parts.append(dot(x['t']) + ' ' + dot(x['d']))
-    parts.append(OUTRO[l])
+            ann = LEAD[l] if n == 0 else (SECL.get(it.get('s')) or {}).get(l, NEXT[l])
+            parts.append(BREAK + ' ' + ann + ' ' + dot(x['t']) + ' ' + dot(x['d']))
+    parts.append(BREAK + ' ' + OUTRO[l])
     txt = '\n\n'.join(parts)
     while len(txt) > MAX_CHARS and len(parts) > 3:       # notfalls letzte Meldung weglassen
         parts.pop(-2); txt = '\n\n'.join(parts)
