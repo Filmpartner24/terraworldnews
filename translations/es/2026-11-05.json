@@ -943,6 +943,32 @@
     "img.alt": "Mapa: municipio de Gurkovo en Bulgaria (Imagen simbólica)"
    }
   },
+  "invest-bulgarien": {
+   "L": {
+    "body": [
+     "Novedad desde el miércoles: la electricidad para empresas medianas (consumo de 500–2.000 MWh al año) fue en Bulgaria en el primer semestre de 2026 un 14,2 % más cara que un año antes, el tercer mayor aumento de la UE tras Suecia y Finlandia. En la media de la UE los precios bajaron un 5,4 %, hasta 0,18 euros por kWh (Eurostat vía BTA, 4.11.). Según la ministra de Energía, Iva Petrova, las empresas recibirán por las facturas de octubre una compensación media de unos 40–41 euros por MWh (Actualno, 4.11.).",
+     "En Svishtov (región de Veliko Tarnovo), un agente judicial subasta el recinto de la planta química en quiebra Sviloza: 258 decáreas en 31 parcelas, precio de salida superior a 3,8 millones de euros, ofertas hasta el 4.12. y resultado el 17.12. La planta está parada desde mediados de febrero; según Standart, cientos de empleados esperan sus salarios (4.11.). El inversor de la nueva fábrica de plásticos en Pleven es la empresa alemana Ensinger: más de 10 millones de euros y hasta 130 puestos de trabajo (Standart, 4.11.).",
+     "Complemento: el Banco Europeo de Reconstrucción y Desarrollo (BERD) y Raiffeisen Bank International conceden cada uno un crédito de 30 millones de euros para un almacén de baterías de 246 MW y 512,5 MWh en Tenevo (región de Yambol), junto a un parque solar existente (Ruse.news, 2.11.). El Ministerio Regional quiere suprimir en la Agencia de Carreteras API 613 de sus 2.411 plazas, sobre todo en la administración de peajes; el proyecto está en consulta pública (Ruse.news, 2.11.).",
+     "Los proyectos con cifras de la tabla suman 551,98 millones de euros (cálculo propio; en el almacén de Tenevo solo se cuentan los créditos, no el coste total), y los nuevos puestos de trabajo mencionados, 726. El salario mínimo subirá el 1.1.2027 a 660 euros al mes (2026: 620,20 euros; Actualno, 4.11.)."
+    ],
+    "d": "Eurostat: tercer mayor aumento de la UE. Créditos de 60 millones de euros para un almacén de baterías cerca de Yambol; el recinto de la planta química Sviloza en Svishtov sale a subasta.",
+    "explain": "La electricidad se ha encarecido notablemente para las empresas búlgaras, mientras que en la media de la UE se abarató. Esto supone una carga para las empresas, aunque aun así surgen nuevas fábricas, por ejemplo cerca de Plovdiv y en Pleven.",
+    "t": "Electricidad para empresas en Bulgaria un 14,2 % más cara; 60 M€ para batería en Tenevo"
+   },
+   "at": "2026-11-05T08:09Z",
+   "h": "b5217976ee8b",
+   "rev": [
+    "Teaser: 'recinto de la química Sviloza' is unnatural; the plant is a chemical works",
+    "Body 3: 'Regionalministerium' rendered as 'Ministerio de Desarrollo Regional', which is not in the source; the word is 'Regional' (Ministerio Regional)",
+    "Body 3: 'suprimir ... API 613 de 2.411 plazas' is ungrammatical; it should be 613 of 2,411 posts",
+    "'Estados': 'EBRD' described as 'Osteuropabank' is correctly given as BERD, so no change"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ]
+  },
   "invest-deutschland": {
    "L": {
     "body": [
@@ -1738,6 +1764,27 @@
     2,
     0
    ]
+  },
+  "ufc-334-hokit-steveson-jackson-wink": {
+   "L": {
+    "body": [
+     "Josh Hokit, que el 14 de noviembre desafía a Ciryl Gane por el título de los pesos pesados en UFC 334, en el Madison Square Garden de Nueva York, habló sobre Gable Steveson en una conversación con Jorge Masvidal. A ambos se les relaciona con Jackson-Wink MMA en Albuquerque, pero según Hokit el olímpico no entrena allí en absoluto. «Dice que sí, pero no está aquí», afirmó Hokit.",
+     "«Le di la oportunidad de estar aquí y entrenar conmigo, pero no está aquí», continuó Hokit. Según su versión, Steveson entrena en cambio de forma privada con Jon Jones. Según Sherdog, Steveson se había saltado las sesiones grupales del gimnasio antes de su último combate.",
+     "Steveson era claro favorito frente a Sean Sharaf en UFC 331 en septiembre, pero fue noqueado a los doce segundos. En el combate estelar de UFC 334, Hokit se juega ahora el título; en el co-estelar, según SPORTbible, Kayla Harrison se enfrenta a Amanda Nunes."
+    ],
+    "d": "Diez días antes de UFC 334 en el Madison Square Garden, el aspirante Josh Hokit pincha al olímpico Gable Steveson, que también se considera parte de Jackson-Wink MMA.",
+    "t": "Hokit, antes del combate con Gane, lanza una pulla a Gable Steveson: «No está aquí»"
+   },
+   "at": "2026-11-05T08:09Z",
+   "h": "b16bc122c9ee",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Gable Steveson en 2018 durante un combate de lucha"
+   }
   },
   "ufc-vegas-124-calderon-debuet-bashi": {
    "L": {

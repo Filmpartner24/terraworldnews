@@ -969,6 +969,26 @@
     "img.alt": "Harita: Bulgaristan'da Gurkovo belediyesi (Sembolik fotoğraf)"
    }
   },
+  "invest-bulgarien": {
+   "L": {
+    "body": [
+     "Çarşambadan itibaren yeni: Bulgaristan'da orta ölçekli kurumsal müşteriler (yıllık tüketim 500–2.000 MWh) için elektrik fiyatı 2026'nın ilk yarısında bir önceki yıla göre %14,2 arttı; bu, İsveç ve Finlandiya'dan sonra AB'deki üçüncü en sert artış oldu. AB ortalamasında fiyatlar %5,4 düşerek kWh başına 0,18 euroya indi (Eurostat'tan aktaran BTA, 4.11.). Enerji Bakanı Iva Petrova'ya göre şirketler, ekim ayı faturaları için ortalama MWh başına yaklaşık 40–41 euro tazminat alacak (Actualno, 4.11.).",
+     "Svishtov'da (Veliko Tarnovo bölgesi) bir icra memuru, iflas eden Sviloza kimya tesisinin arazisini açık artırmayla satıyor: 31 parselde 258 dekar, başlangıç fiyatı 3,8 milyon euronun üzerinde, teklifler 4.12.'ye kadar verilebilecek, sonuç 17.12.'de açıklanacak. Tesis şubat ortasından beri durmuş durumda; Standart'a göre yüzlerce çalışan maaşlarını bekliyor (4.11.). Plevne'deki yeni plastik tesisinin yatırımcısı Alman Ensinger; yatırım 10 milyon euronun üzerinde, 130'a kadar istihdam öngörülüyor (Standart, 4.11.).",
+     "Eklenen haberler: Doğu Avrupa bankası EBRD ve Raiffeisen Bank International, Tenevo'da (Yambol bölgesi) mevcut bir güneş enerjisi santralinin yanında kurulacak 246 MW ve 512,5 MWh'lik batarya depolama tesisi için ikişer 30 milyon euro kredi veriyor (Ruse.news, 2.11.). Bölgesel Kalkınma Bakanlığı, yol ajansı API'de 2.411 kadronun 613'ünü, özellikle geçiş ücreti yönetiminde, kaldırmak istiyor; taslak kamuoyu istişaresinde (Ruse.news, 2.11.).",
+     "Tablodaki rakamı belirtilen projelerin toplamı 551,98 milyon euro (kendi hesabımız; Tenevo depolama tesisinde toplam maliyet değil, yalnızca krediler), belirtilen yeni istihdam ise 726. Asgari ücret 1.1.2027'de aylık 660 euroya yükselecek (2026: 620,20 euro; Actualno, 4.11.)."
+    ],
+    "d": "Eurostat: AB'de üçüncü en sert artış. Yambol yakınındaki batarya depolama tesisi için 60 milyon euroluk krediler; iflas eden Sviloza kimya tesisinin Svishtov'daki arazisi açık artırmaya çıkıyor.",
+    "explain": "Elektrik, Bulgar şirketleri için belirgin biçimde pahalandı; AB ortalamasında ise ucuzladı. Bu durum işletmelere yük getiriyor; buna rağmen Filibe yakınlarında ve Plevne'de yeni tesisler kuruluyor.",
+    "t": "Bulgaristan'da şirketler için elektrik %14,2 pahalandı – Tenevo bataryasına 60 milyon euro"
+   },
+   "at": "2026-11-05T08:09Z",
+   "h": "b5217976ee8b",
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ]
+  },
   "invest-deutschland": {
    "L": {
     "body": [
@@ -1808,6 +1828,31 @@
     1,
     0
    ]
+  },
+  "ufc-334-hokit-steveson-jackson-wink": {
+   "L": {
+    "body": [
+     "14 Kasım'da New York'taki Madison Square Garden'da düzenlenecek UFC 334'te ağır sıklet şampiyonluğu için Ciryl Gane'e meydan okuyacak olan Josh Hokit, Jorge Masvidal ile yaptığı sohbette Gable Steveson hakkında konuştu. İkisi de Albuquerque'deki Jackson-Wink MMA ile anılıyor, ancak Hokit'e göre olimpiyat sporcusu orada hiç antrenman yapmıyor. Hokit, “Öyle olduğunu iddia ediyor ama burada değil” dedi.",
+     "Hokit sözlerine şöyle devam etti: “Ona burada olma ve benimle antrenman yapma fırsatı verdim ama burada değil.” Hokit'in anlatımına göre Steveson bunun yerine Jon Jones ile özel olarak antrenman yapıyor. Sherdog'a göre Steveson, son maçı öncesinde salonun grup antrenmanlarına katılmamıştı.",
+     "Steveson, Eylül'deki UFC 331'de Sean Sharaf karşısında açık ara favoriydi, ancak on iki saniye sonra nakavt oldu. UFC 334'ün ana maçında Hokit şimdi şampiyonluk için dövüşecek; SPORTbible'a göre yardımcı ana maçta Kayla Harrison, Amanda Nunes ile karşılaşacak."
+    ],
+    "d": "UFC 334'e on gün kala, Madison Square Garden'daki maçta meydan okuyan Josh Hokit, kendisini de Jackson-Wink MMA'dan sayan olimpiyat sporcusu Gable Steveson'a laf attı.",
+    "t": "Hokit, Gane ile şampiyonluk maçı öncesi Gable Steveson'a laf soktu: “Burada değil”"
+   },
+   "at": "2026-11-05T08:09Z",
+   "h": "b16bc122c9ee",
+   "rev": [
+    "Teaser: \"Herausforderer\" (meydan okuyan) was rendered as \"maçın rakibi\", which is imprecise; \"Olympionike\" became \"olimpiyat şampiyonu\", which is an addition",
+    "Turkish suffix: \"Gane'e\" should be \"Gane'e\" per spelling convention, kept as is; \"Olympionike\" in body rendered as \"olimpiyat sporcusu\", inconsistent with the teaser"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Gable Steveson 2018'de bir güreş müsabakasında"
+   }
   },
   "ufc-vegas-124-calderon-debuet-bashi": {
    "L": {
