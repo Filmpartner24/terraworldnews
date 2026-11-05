@@ -1,0 +1,29 @@
+name: TWN TV – Livestream-IDs
+# Prüft alle 3 Stunden die offiziellen YouTube-Livestreams (static/tv/channels.json), seit 05.11.2026.
+on:
+  schedule:
+    - cron: '17 */3 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: twn-tv
+  cancel-in-progress: false
+jobs:
+  tv:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: python3 tools/tv_update.py
+      - name: Commit
+        run: |
+          git config user.name "terra-bot"
+          git config user.email "media@filmpartner24.com"
+          git add static/tv
+          git diff --cached --quiet && exit 0
+          git commit -m "TWN TV: Livestream-IDs aktualisiert"
+          for i in 1 2 3 4 5; do git push && exit 0; sleep $((i*5)); git pull --rebase -q || exit 1; done
+          exit 1
