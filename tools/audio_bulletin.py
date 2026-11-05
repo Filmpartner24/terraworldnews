@@ -40,7 +40,7 @@ def intro(l, d):
 OUTRO = {'de': 'Das waren die Nachrichten. Mehr lesen Sie auf terraworldnews.com. Terra World News – die Fakten, der Kontext, die Welt.',
          'bg': 'Това бяха новините. Още можете да прочетете на terraworldnews.com. Terra World News – фактите, контекстът, светът.',
          'en': 'That was the news. Read more at terraworldnews.com. Terra World News – the facts, the context, the world.'}
-TITLE = {'de': 'TWN in 3 Minuten', 'bg': 'TWN за 3 минути', 'en': 'TWN in 3 minutes'}
+TITLE = {'de': 'Die Welt in 3 Minuten', 'bg': 'Светът за 3 минути', 'en': 'The World in 3 Minutes'}   # Nedy 05.11.2026
 
 def pick(date):
     fp = os.path.join(HERE, 'content', f'{date}.json')
