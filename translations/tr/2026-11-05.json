@@ -597,6 +597,31 @@
     "img.alt": "Arşiv fotoğrafı: Manuela Schwesig (SPD), Mayıs 2023, Berlin"
    }
   },
+  "deutschland-weidel-midterms-trump-iran-krieg-2026-11-05": {
+   "L": {
+    "body": [
+     "AfD Genel Başkanı Alice Weidel, ABD Başkanı Donald Trump'ın dış politikasını Cumhuriyetçilerin ara seçimlerdeki yenilgisinin başlıca nedeni olarak görüyor. Weidel, çarşamba günü t-online'a yaptığı açıklamada “Trump seçmenlerine müdahaleci bir dış politika izlemeyeceği sözünü vermişti” dedi. “Tutulmayan bu söz şimdi Cumhuriyetçilerin başına bela oldu.” Weidel, cumhurbaşkanının partisinin ara seçimleri kaybetmesinin olağan dışı olmadığını belirtti. Weidel, “Ancak Cumhuriyetçilerin yenilgisinin boyutu dikkat çekici” dedi. Weidel bunu en çok İran savaşının yıkıcı sonuçlarına bağladı.",
+     "Weidel, İran savaşının ve Ukrayna'daki savaşın mümkün olan en kısa sürede sona erdirilmesini talep etti; ona göre bu, Avrupa'nın ve Almanya'nın çıkarına olacaktır. t-online'ın haberine göre seçmenler Kongre'nin tam kontrolünü Demokratlara verdi, Cumhuriyetçiler hem Temsilciler Meclisi'nde hem de Senato'da çoğunluğunu kaybetti. Seçim, birçok Amerikalının yükselen fiyatlar nedeniyle suçladığı Trump'a yönelik bir oylama olarak değerlendiriliyor.",
+     "AfD, Trump'ın MAGA hareketiyle yakın bağlara sahip. 2025 Federal Meclis seçim kampanyasında Weidel, Elon Musk ile bir canlı yayında yer aldı; Musk, bir parti etkinliğine de onur konuğu olarak canlı bağlantıyla katılmıştı. t-online'a göre AfD'li siyasetçiler, aralarında Weidel de olmak üzere, daha önce de ABD dış politikasını eleştirmişti."
+    ],
+    "d": "AfD Genel Başkanı, Cumhuriyetçilerin ara seçimlerdeki yenilgisinden en çok İran savaşını sorumlu tutuyor. AfD, Trump'ın MAGA hareketinin yakın müttefiki olarak görülüyor.",
+    "t": "Weidel, ABD seçimi: Trump'ın “tutulmayan sözü” Cumhuriyetçilere pahalıya mal oldu"
+   },
+   "at": "2026-11-05T07:18Z",
+   "h": "9f1812e151bb",
+   "rev": [
+    "Turkish 'Çarşamba günü' – weekday capitalisation: TDK writes weekdays in lowercase, so 'çarşamba günü'",
+    "Headline: 'ABD seçimi yorumu' is an addition not in the German; 'tutulmayan söz' plus 'pahalıya mal oldu' is fine, but the headline should be shortened to stay within 90 characters"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: AfD Genel Başkanı Alice Weidel"
+   }
+  },
   "deutschland-weidel-rumaenen-sozialsystem-kritik-bukarest-2026-11-05": {
    "L": {
     "body": [
@@ -995,6 +1020,32 @@
     "img.alt": "Arşiv fotoğrafı: Établissement français du sang'ın Avignon'daki binası"
    }
   },
+  "ki-festkoerperbatterie-schutzschicht-xidian-2026-11-05": {
+   "L": {
+    "body": [
+     "Çin'deki Xidian Üniversitesi'nden araştırmacılar, katı hal pillerindeki lityum metal anotları daha kararlı hale getirmesi amaçlanan bir kaplama geliştirdi. Silisyum bazlı bir polimer ile indiyum klorürden oluşan yaklaşık 12 mikrometre kalınlığındaki katman, tek adımda sıvı olarak uygulanıyor. Ekibin verdiği bilgiye göre polimer, lityumun genleşmesi ve büzülmesi sırasında ortaya çıkan mekanik gerilimleri karşılıyor. Çalışma, “Science China Chemistry” dergisinde yayımlandı.",
+     "Testlerde korumalı lityum, santimetrekare başına 3,5 miliamperlik kritik akım yoğunluğuna dayandı; bu, korumasız lityumun 0,8 olan değerinin dört katından fazla. NCM katotlu ve sülfür bazlı katı elektrolitli tam hücrelerde, hücreler 300 döngüden sonra kapasitelerinin yüzde 82,3'ünü korudu; çıplak lityumlu hücrelerde bu oran yalnızca yüzde 43'tü. Çalışmanın ortak yazarı Siwu Li, hibrit katmanı “akıllı bir kaleye” benzetti.",
+     "Lityum metalin teorik kapasitesi grafitinkinin neredeyse on katı olduğu için katı hal pilleri açısından anahtar olarak görülüyor; ancak kararsızlığa yatkın. Katman sıvı olarak uygulandığından, araştırmacılara göre mevcut rulodan ruloya tesislerde vakum odaları olmadan işlenebilir. Araştırmacılar uygulama alanlarını elektrikli araçlar ve şebeke depolama sistemleri olarak görüyor; şimdiye kadar elde edilenler laboratuvar sonuçlarıdır."
+    ],
+    "d": "Yalnızca 12 mikrometre kalınlığındaki hibrit katman, katı hal hücrelerinde lityum anodu koruyor. 300 şarj döngüsünden sonra kapasitenin %82,3'ü korundu; katman olmadan bu oran %43'tü.",
+    "t": "Lityum için koruyucu katman: Çinli ekip katı hal pillerini daha dayanıklı kılıyor"
+   },
+   "at": "2026-11-05T07:18Z",
+   "h": "9d4bcf488ee7",
+   "rev": [
+    "Headline length: the Turkish headline exceeds 90 characters.",
+    "Test paragraph: \"0,8 ile dört katından fazla düşüktü\" is wrong. It should say the protected lithium withstood more than four times the value of the unprotected lithium (0.8).",
+    "Last paragraph: \"şu ana kadarki sonuçlar laboratuvar sonuçları\" is clumsy, and the wording of \"Elektrikli araçlar\" is fine. The last clause should read as a note that these are lab results so far."
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Grafik: TERRA WORLD NEWS"
+   }
+  },
   "ki-hp-neue-chefin-emma-walmsley-2026-11-05": {
    "L": {
     "body": [
@@ -1096,6 +1147,31 @@
    "x": {
     "img.alt": "Arşiv fotoğrafı: NASA'nın Swift uzay teleskobunun tasviri",
     "kl": "Uzay"
+   }
+  },
+  "ki-wordpress-update-luecke-angriffe-2026-11-05": {
+   "L": {
+    "body": [
+     "ABD siber güvenlik kurumu CISA, içerik yönetim sistemi WordPress'in çekirdeğindeki bir güvenlik açığını 3 Kasım'da aktif olarak istismar edilen açıklar kataloğuna ekledi. CVSS puanı 8,1 olan CVE-2026-119977 numaralı açık, oturum açmamış saldırganların sunucuda kod çalıştırmasına olanak tanıyor; ancak bu yalnızca WordPress çekirdeğinin tam güncellemesinin sürdüğü kısa zaman aralığında mümkün. ABD federal kurumlarının düzeltmeyi 6 Kasım'a kadar uygulaması gerekiyor.",
+     "Güvenlik şirketi Picus'un analizine göre WordPress, güncelleme sırasında yeni paketi yolu önceden tahmin edilebilen geçici bir dizine açıyor. Orada bulunan bir kurulum betiği siteyi yapılandırılmamış sanıyor. Saldırganlar bu sayede gerçek yapılandırma dosyasının üzerine yazan kendi yapılandırma dosyasını sisteme sokabiliyor, yönetici hesabı oluşturabiliyor ve zararlı kod çalıştırabiliyor. The Hacker News'e göre güvenlik sağlayıcısı Wordfence, açığın duyulmasından sonraki ilk 21 saatte bu tür kurulum yollarına yönelik 18.500'den fazla istek saptadı.",
+     "Düzeltme, 28 Ekim tarihli WordPress 7.1.4 sürümünde yer alıyor ve Picus'a göre 4.7 sürümüne kadar geriye taşındı. Yamalanmamış bir sürümden yapılan güncelleme bile eski paket açma rutinini kullandığından uzmanlar, güncellemeden önce wp-content/upgrade/ dizinine web erişiminin engellenmesini öneriyor. 2.7 ile 4.6 arasındaki sürümler artık düzeltme almıyor ve desteklenen bir sürüme geçirilmeli."
+    ],
+    "d": "Çekirdek güncellemesi sırasında hesabı olmayan saldırganlar WordPress sitelerinin kontrolünü ele geçirebiliyor. Açık şimdiden istismar ediliyor; düzeltme 7.1.4 sürümünde yer alıyor.",
+    "t": "Güncelleme anında saldırı: ABD kurumu CISA, istismar edilen WordPress açığını uyardı"
+   },
+   "at": "2026-11-05T07:18Z",
+   "h": "fb068fd0144f",
+   "rev": [
+    "Plural 'Konfigurationsdatei' rendered as 'dosyalarını' (plural); the German has a single file",
+    "Title length check: Turkish headline is under 90 characters, so it is fine"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: WordPress kontrol panelinin ekran görüntüsü"
    }
   },
   "klima-irland-meeresspiegel-hundert-jahre-2026-11-05": {
@@ -1445,6 +1521,35 @@
     "img.alt": "Grafik: TERRA WORLD NEWS"
    }
   },
+  "leben-typ1-diabetes-zyklus-insulinpumpe-2026-11-05": {
+   "L": {
+    "body": [
+     "Bir glukoz sensörünü insülin pompasıyla birleştiren otomatik insülin dağıtım sistemleri (AID), tip 1 diyabetli birçok kişinin günlük yaşamını kolaylaştırıyor. “Diabetes Care” dergisinin Eylül sayısında yayımlanan bir gözlemsel çalışma ise adet döngüsünün, bu tür sistemlerle bile insülin ihtiyacını belirgin biçimde etkilediğini gösteriyor. 77 kadının 380 döngüye ait verileri değerlendirildi. Alman Diyabet Derneği (DDG), sonuçları 20. Diyabet Sonbahar Toplantısı öncesinde tanıttı; bu durum 4 Kasım'da bildirildi.",
+     "Döngünün ikinci yarısında, yani yumurtlamadan sonra ve bir sonraki adet döneminden önce, günlük insülin tüketimi ile ortalama kan şekeri daha yüksekti ve değerler hedef aralıkta daha seyrek bulundu. Katılımcıların yaklaşık yüzde 85'i bu örüntüyü izledi: döngünün ikinci yarısında insülin duyarlılığı daha düşük, başında ise daha yüksekti. Dalgalanmaların ne kadar güçlü olduğu ise kişiden kişiye çok farklıydı. Çalışma ilişkileri gösteriyor; hormonların, beslenmenin, uykunun veya hareketin payını açıklayamıyor.",
+     "Çalışmayı tanıtan Diabetes Center Berne'den Dr. Martina Rothenbühler, “Her kadın adetten önce daha fazla insüline ihtiyaç duymuyor” dedi. Rothenbühler, genel kurallar uygulamak yerine bireysel örüntülerin fark edilmesini savunuyor ve şunu belirtti: “Şu ana kadar onaylı hiçbir sistem, insülin dağıtımını yönetirken adet döngüsünü açıkça dikkate almıyor.” Uzman, döngü örüntülerinin danışmanlık ve eğitimde daha fazla ele alınmasını öneriyor. DDG Sonbahar Toplantısı 13 ve 14 Kasım'da Dresden'de yapılacak. Etkilenen kişiler tedavide yapılacak değişiklikleri her zaman diyabet ekibiyle görüşmeli."
+    ],
+    "d": "77 kadınla yapılan bir çalışma, otomatik sistem dozaj yapsa da döngünün ikinci yarısında insülin ihtiyacının ve kan şekerinin arttığını gösterdi. Onaylı hiçbir sistem şu ana kadar döngüyü açıkça dikkate almıyor.",
+    "t": "Tip 1 diyabet: Adet döngüsü, otomatik insülin pompasıyla bile insülin ihtiyacını değiştiriyor"
+   },
+   "at": "2026-11-05T07:18Z",
+   "flag": [
+    "Titel zu lang (93 Zeichen)"
+   ],
+   "h": "cfc5f32dae15",
+   "rev": [
+    "Teaser: 'Bislang' ('şu ana kadar') is fine, but the headline and teaser are OK; the body has a mistranslation: 'Ausgewertet wurden die Daten von 77 Frauen über 380 Zyklen' was rendered as if the women",
+    "'Regl' in the headline is colloquial; 'adet' is used in the body, so it was harmonized",
+    "'haber ... duyuruldu' is awkward for 'wie am 4. November berichtet wurde'"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Akıllı telefon uygulamalı insülin pompası ve kan şekeri ölçüm cihazı"
+   }
+  },
   "leben-warna-immobilienforum-anpassung-2026-11-05": {
    "L": {
     "body": [
@@ -1736,6 +1841,33 @@
     "img.alt": "Arşiv fotoğrafı: Tahran'daki eski ABD Büyükelçiliği'nde “Down with USA” duvar yazısı"
    }
   },
+  "welt-israel-herzog-konsultationen-eisenkot-2026-11-05": {
+   "L": {
+    "body": [
+     "İsrail Merkez Seçim Komisyonu, 27 Ekim'deki Knesset seçiminin sonucunu çarşamba günü onayladı ve hileye dair herhangi bir işarete rastlamadı. Al Jazeera'ye göre 9069 sandık merkezi incelendi. Yüksek Mahkeme yargıcı olan komisyon başkanı Noam Sohlberg, sonuca ilişkin şüpheleri İsrail demokrasisi için “gerçek bir tehlike” olarak niteledi. Likud ve Shas çekimser kaldı. Bakan Itamar Ben-Gvir ise X'te seçimin “çalındığını” öne sürdü; partisi Otzma Yehudit onaya karşı oy kullanmak istedi.",
+     "Başbakan Benjamin Netanyahu'nun bloku 53 sandalyeye, Gadi Eisenkot ve partisi Yashar çevresindeki blok 48 sandalyeye, Arap liderliğindeki Ra'am ve Birleşik Liste partileri ise toplam 19 sandalyeye ulaştı; bu bir rekor. Çoğunluk için 61 sandalye gerekiyor. Times of Israel'e göre Ra'am, başbakanlık için Eisenkot'u önermek istiyor. Cumhurbaşkanı Isaac Herzog, en son Yashar ve Likud ile görüşerek perşembe günü istişarelerini tamamlıyor; ardından en iyi şansa sahip adayı görevlendirecek.",
+     "Eisenkot, Netanyahu'yu “geçici başbakan” olarak nitelendirdi ve onu yalnızca 46 milletvekilinin desteklediğini söyledi. İttifakı Meclis Başkanı'nı değiştirmek istiyor ve Kanal 12'ye göre eski hükümetin yargıç atamaları ile başsavcının yetkilerine ilişkin dört yasasını iptal etmeyi planlıyor. Times of Israel'e göre, Jair Golan'ın Demokratlar'ı dışındaki tüm ortakları Arap partilerle iş birliğine karşı. Hükümet kurulamazsa gelecek yılın başında yeni seçim tehlikesi var."
+    ],
+    "d": "Seçim komisyonu hile iddialarını reddetti. Cumhurbaşkanı Herzog perşembe günü gruplarla görüşmelerini tamamlıyor; iki blokun da çoğunluğu yok.",
+    "t": "İsrail: Seçim sonucu onaylandı – Ra'am Eisenkot'u öneriyor, Herzog Likud ile görüşüyor"
+   },
+   "at": "2026-11-05T07:18Z",
+   "h": "0cb50c2b1366",
+   "rev": [
+    "Ben-Gvir's claim that the election was \"stolen\" was rendered as a plain fact; it needs a reporting marker (\"olduğunu öne sürdü\").",
+    "Eisenkot's statement about the 46 deputies was rendered as a plain fact; it needs an attribution (\"olduğunu söyledi\").",
+    "\"Generalstaatsanwältin\" was translated as \"başsavcı\"; the female form is lost, but this is acceptable, so it was left unchanged.",
+    "\"Gelingt keine Regierungsbildung, droht ... Neuwahl\" was softened to \"gündeme gelebilir\"; the threat is better rendered as \"yeni seçim kapıda\"."
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: İsrailli siyasetçi Gadi Eisenkot"
+   }
+  },
   "welt-jemen-regierung-al-jawf-offensive-2026-11-05": {
    "L": {
     "body": [
@@ -1964,6 +2096,27 @@
    "x": {
     "img.alt": "Arşiv fotoğrafı: ABD Başkanı Donald Trump Beyaz Saray'da (6 Ekim 2026)",
     "kl": "ABD"
+   }
+  },
+  "welt-westjordanland-olivenernte-ex-generaele-2026-11-05": {
+   "L": {
+    "body": [
+     "Aralarında altı generalin de bulunduğu yaklaşık 30 eski üst düzey İsrailli güvenlik görevlisi salı günü Batı Şeria'daki Kusra köyü yakınlarında Filistinli çiftçilere zeytin hasadında yardım etti. Etkinliği eski tümgeneral Eyal Ben-Reuven organize etti; haber ajansları Dawn'a atıfta bulunarak bildirdi. Ben-Reuven, yerleşimcilerin saldırılarının kendisine, ailesinin Yahudi halkının acı çektiği döneme ilişkin anlattıklarını hatırlattığını söyledi. Arazi sahibi Nimr Nazzal ise “Ordu yerleşimcileri koruyor” dedi.",
+     "İsrailli insan hakları kuruluşu Yesh Din, 35 gün içinde Filistinli hasat işçilerine yönelik 180 fiziksel saldırı kaydetti. Kuruluşa göre kaydedilen yerleşimci şiddeti vakalarının yüzde 23'ünden fazlasında ordu olay yerinde bulunuyordu. Times of Israel'e göre çarşamba günü Batı Şeria'nın güneyinde yerleşimcilerin bir kundaklama saldırısı düzenlediği ve Eriha'da yeni bir karakol kurulduğu bildirildi.",
+     "Times of Israel'in haberine göre Cumhurbaşkanı Isaac Herzog, Başbakan Benjamin Netanyahu'yu, yerleşimcilerin şiddeti dizginlenmezse İsrail ve dünyadaki Yahudiler için “ağır sonuçlar” doğabileceği konusunda uyardı."
+    ],
+    "d": "Eski üst düzey İsrailli subaylar Kusra yakınlarında Filistinli çiftçilere yardım etti. Cumhurbaşkanı Herzog, Netanyahu'yu denetlenmeyen şiddetin “ağır sonuçları” konusunda uyardı.",
+    "t": "Batı Şeria: Emekli generaller zeytin hasadına eşlik etti, Herzog uyardı"
+   },
+   "at": "2026-11-05T07:18Z",
+   "h": "a5283f1d19d0",
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Batı Şeria'daki Kafin köyünde zeytin hasadında İsrailli ve Filistinli gönüllüler"
    }
   },
   "wirtschaft-australien-nab-gewinn-kreditvorsorge-2026-11-05": {

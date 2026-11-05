@@ -586,6 +586,31 @@
     "img.alt": "Foto de archivo: Manuela Schwesig (SPD) en mayo de 2023 en Berlín"
    }
   },
+  "deutschland-weidel-midterms-trump-iran-krieg-2026-11-05": {
+   "L": {
+    "body": [
+     "La presidenta de la AfD, Alice Weidel, considera que la política exterior del presidente estadounidense, Donald Trump, es el principal motivo de la derrota de los republicanos en las elecciones de mitad de mandato. «Trump prometió a sus votantes que no haría una política exterior intervencionista», dijo Weidel el miércoles a t-online. «Esa promesa incumplida se ha vuelto ahora en contra de los republicanos». Es cierto que no es inusual que el partido del presidente pierda las elecciones intermedias, afirmó. «Sin embargo, la magnitud de la derrota de los republicanos es notable», dijo Weidel. Lo atribuyó sobre todo a las devastadoras consecuencias de la guerra de Irán.",
+     "Weidel pidió poner fin lo antes posible a la guerra de Irán y a la guerra de Ucrania, y afirmó que eso redundaría en interés de Europa y de Alemania. Según el informe de t-online, los votantes han dado a los demócratas el control total del Congreso: los republicanos perdieron sus mayorías en la Cámara de Representantes y en el Senado. Las elecciones se consideran un plebiscito sobre Trump, a quien muchos estadounidenses atribuyen la subida de los precios.",
+     "La AfD está estrechamente vinculada al movimiento MAGA de Trump. En la campaña para las elecciones federales de 2025, Weidel participó en un livestream con Elon Musk, que también fue conectado como invitado de honor a un acto del partido. Según t-online, sin embargo, políticos de la AfD, entre ellos Weidel, ya se habían pronunciado antes de forma crítica sobre la política exterior de EE. UU."
+    ],
+    "d": "La líder de la AfD responsabiliza sobre todo a la guerra de Irán de la derrota republicana en las elecciones de mitad de mandato. La AfD es considerada una estrecha aliada del movimiento MAGA de Trump.",
+    "t": "Weidel sobre EE. UU.: la «promesa incumplida» de Trump costó a los republicanos"
+   },
+   "at": "2026-11-05T07:18Z",
+   "h": "9f1812e151bb",
+   "rev": [
+    "Headline exceeds 90 characters (about 98).",
+    "\"Es cierto que ... afirmó\" is awkward; the concessive subjunctive 'sei' is better attributed more clearly, but acceptable. Headline fix only."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: la presidenta de la AfD, Alice Weidel"
+   }
+  },
   "deutschland-weidel-rumaenen-sozialsystem-kritik-bukarest-2026-11-05": {
    "L": {
     "body": [
@@ -968,6 +993,31 @@
     "img.alt": "Foto de archivo: edificio del Établissement français du sang en Aviñón"
    }
   },
+  "ki-festkoerperbatterie-schutzschicht-xidian-2026-11-05": {
+   "L": {
+    "body": [
+     "Investigadores de la Universidad de Xidian, en China, han desarrollado un recubrimiento que debe hacer más estables los ánodos de litio metálico en las baterías de estado sólido. La capa, de unos 12 micrómetros de grosor, compuesta por un polímero basado en silicio y cloruro de indio, se aplica en estado líquido en un solo paso. Según el equipo, el polímero absorbe las tensiones mecánicas que surgen cuando el litio se expande y se contrae. El estudio se publicó en la revista especializada «Science China Chemistry».",
+     "En las pruebas, el litio protegido soportó una densidad de corriente crítica de 3,5 miliamperios por centímetro cuadrado, más de cuatro veces la del litio sin protección, que fue de 0,8. En celdas completas con cátodo NCM y electrolito sólido de sulfuro, las celdas conservaron tras 300 ciclos el 82,3 por ciento de su capacidad; las celdas con litio sin recubrir, solo el 43 por ciento. El coautor Siwu Li comparó la capa híbrida con una «fortaleza inteligente».",
+     "El litio metálico se considera clave para las baterías de estado sólido porque su capacidad teórica es casi diez veces superior a la del grafito, pero tiende a la inestabilidad. Dado que la capa se aplica en estado líquido, según los investigadores podría procesarse en las instalaciones rollo a rollo existentes, sin cámaras de vacío. Ven aplicaciones en coches eléctricos y almacenamiento en la red eléctrica; hasta ahora se trata de resultados de laboratorio."
+    ],
+    "d": "Una capa híbrida de solo 12 micrómetros protege el ánodo de litio en celdas de estado sólido. Tras 300 ciclos de carga se mantuvo el 82,3 % de la capacidad; sin la capa, el 43 %.",
+    "t": "Capa protectora para el litio: equipo chino hace baterías de estado sólido más duraderas"
+   },
+   "at": "2026-11-05T07:18Z",
+   "h": "9d4bcf488ee7",
+   "rev": [
+    "«según se pretende» is an odd rendering of «soll … machen»; reworded to say the coating is meant to make the anodes more stable",
+    "«Netzspeicher» rendered as «almacenamiento en red»; changed to the more usual «almacenamiento en la red eléctrica»"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico: TERRA WORLD NEWS"
+   }
+  },
   "ki-hp-neue-chefin-emma-walmsley-2026-11-05": {
    "L": {
     "body": [
@@ -1071,6 +1121,27 @@
    "x": {
     "img.alt": "Foto de archivo: representación del telescopio espacial Swift de la NASA",
     "kl": "Espacio"
+   }
+  },
+  "ki-wordpress-update-luecke-angriffe-2026-11-05": {
+   "L": {
+    "body": [
+     "La agencia estadounidense de ciberseguridad CISA incluyó el 3 de noviembre una vulnerabilidad del núcleo del sistema de gestión de contenidos WordPress en su catálogo de fallos explotados activamente. El fallo CVE-2026-119977, con una puntuación CVSS de 8,1, permite a atacantes sin iniciar sesión ejecutar código en el servidor, aunque solo en la breve ventana de tiempo en la que se ejecuta una actualización completa del núcleo de WordPress. Las agencias federales de EE. UU. deben aplicar la corrección antes del 6 de noviembre.",
+     "Según un análisis de la empresa de seguridad Picus, durante la actualización WordPress descomprime el nuevo paquete en un directorio temporal cuya ruta es predecible. Un script de instalación ubicado allí considera que el sitio no está configurado. Así, los atacantes pueden introducir un archivo de configuración propio que sobrescribe el auténtico, crear una cuenta de administrador y ejecutar código malicioso. Según The Hacker News, el proveedor de seguridad Wordfence contabilizó más de 18.500 solicitudes a este tipo de rutas de instalación en las primeras 21 horas tras hacerse público el fallo.",
+     "La corrección se encuentra en WordPress 7.1.4, del 28 de octubre, y según Picus se ha portado a versiones anteriores hasta la 4.7. Como ya la actualización desde una versión sin parchear utiliza la antigua rutina de descompresión, los expertos aconsejan bloquear el acceso web al directorio wp-content/upgrade/ antes de actualizar. Las versiones 2.7 a 4.6 ya no recibirán corrección y deberían actualizarse a una versión con soporte."
+    ],
+    "d": "Durante una actualización del núcleo, atacantes sin cuenta pueden tomar el control de sitios WordPress. El fallo ya se está explotando; la corrección está en la versión 7.1.4.",
+    "t": "Ataque durante la actualización: la agencia CISA alerta de un fallo de WordPress explotado"
+   },
+   "at": "2026-11-05T07:18Z",
+   "h": "fb068fd0144f",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: vista de pantalla del panel de WordPress"
    }
   },
   "klima-irland-meeresspiegel-hundert-jahre-2026-11-05": {
@@ -1411,6 +1482,32 @@
     "img.alt": "Gráfico: TERRA WORLD NEWS"
    }
   },
+  "leben-typ1-diabetes-zyklus-insulinpumpe-2026-11-05": {
+   "L": {
+    "body": [
+     "Los sistemas automatizados de administración de insulina (AID), que combinan un sensor de glucosa con una bomba de insulina, facilitan la vida diaria a muchas personas con diabetes tipo 1. Sin embargo, un estudio observacional publicado en el número de septiembre de la revista especializada «Diabetes Care» muestra que el ciclo menstrual influye de forma notable en la necesidad de insulina incluso con estos sistemas. Se analizaron los datos de 77 mujeres a lo largo de 380 ciclos. La Sociedad Alemana de Diabetes (DDG) presentó los resultados antes de su 20.º Congreso de Otoño de Diabetes, según se informó el 4 de noviembre.",
+     "En la segunda mitad del ciclo, tras la ovulación y antes del siguiente período, el consumo diario de insulina y la glucosa media fueron más altos, y los valores estuvieron con menos frecuencia dentro del rango objetivo. Alrededor del 85 por ciento de las participantes siguió este patrón: menor sensibilidad a la insulina en la segunda mitad del ciclo y mayor al comienzo. Sin embargo, la magnitud de las oscilaciones varió mucho. El estudio muestra asociaciones; no puede aclarar qué parte corresponde a las hormonas, la alimentación, el sueño o el ejercicio.",
+     "«No todas las mujeres necesitan más insulina antes de la menstruación», dijo la doctora Martina Rothenbühler, del Diabetes Center Berne, que presentó el estudio. Defiende identificar patrones individuales en lugar de aplicar reglas generales, y señaló: «Hasta ahora, ningún sistema autorizado tiene en cuenta expresamente el ciclo menstrual en el control de la administración de insulina». La experta propone abordar más los patrones del ciclo en el asesoramiento y la formación. El congreso de otoño de la DDG se celebra el 13 y 14 de noviembre en Dresde. Los afectados deben consultar siempre con su equipo de diabetes cualquier cambio en el tratamiento."
+    ],
+    "d": "Un estudio con 77 mujeres muestra que en la segunda mitad del ciclo aumentan la necesidad de insulina y la glucosa pese a la dosificación automática. Ningún sistema autorizado considera aún expresamente el ciclo.",
+    "t": "Diabetes tipo 1: el ciclo menstrual altera la necesidad de insulina, aun con bomba"
+   },
+   "at": "2026-11-05T07:18Z",
+   "h": "cfc5f32dae15",
+   "rev": [
+    "Teaser: \"suben la insulina\" is imprecise; the German says the insulin requirement and blood glucose rise",
+    "\"Zusammenhänge\" was rendered as \"correlaciones\", which is too specific; \"asociaciones\" is closer",
+    "\"Diabetes Herbsttagung\" became \"Congreso de Otoño de Diabetes\"; the usual rendering is acceptable, so left unchanged"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: bomba de insulina con aplicación para smartphone y medidor de glucosa"
+   }
+  },
   "leben-warna-immobilienforum-anpassung-2026-11-05": {
    "L": {
     "body": [
@@ -1678,6 +1775,32 @@
     "img.alt": "Foto de archivo: pintada «Down with USA» en la antigua embajada de EE. UU. en Teherán"
    }
   },
+  "welt-israel-herzog-konsultationen-eisenkot-2026-11-05": {
+   "L": {
+    "body": [
+     "La Comisión Electoral Central de Israel confirmó el miércoles el resultado de las elecciones a la Knéset del 27 de octubre y no encontró indicios de fraude. Según Al Jazeera, se revisaron 9069 colegios electorales. El presidente de la comisión, Noam Sohlberg, juez del Tribunal Supremo, calificó las dudas sobre el resultado de «un peligro real» para la democracia israelí. El Likud y el Shas se abstuvieron. El ministro Itamar Ben-Gvir, en cambio, escribió en X que, según él, las elecciones habían sido «robadas»; su partido, Otzma Yehudit, tenía previsto votar en contra de la confirmación.",
+     "El bloque del primer ministro Benjamin Netanyahu obtiene 53 escaños; el bloque en torno a Gadi Eisenkot y su partido Yashar, 48; y los partidos de liderazgo árabe Ra'am y Lista Unida, 19 en conjunto, un récord. Para la mayoría se necesitan 61. Según Times of Israel, Ra'am quiere recomendar a Eisenkot para el cargo de primer ministro. El presidente Isaac Herzog termina el jueves sus consultas, las últimas con Yashar y el Likud; después encargará formar gobierno al candidato con mejores opciones.",
+     "Eisenkot calificó a Netanyahu de «primer ministro interino» que, según dijo, solo cuenta con el respaldo de 46 diputados. Su alianza quiere sustituir al presidente del Parlamento y, según el Canal 12, derogar cuatro leyes del anterior gobierno, entre ellas las relativas al nombramiento de jueces y a las competencias de la fiscal general. Según Times of Israel, todos sus socios, salvo los Demócratas de Yair Golan, rechazan cooperar con los partidos árabes. Si no se logra formar gobierno, a principios del próximo año se perfila una nueva convocatoria electoral."
+    ],
+    "d": "La Comisión Electoral rechaza las acusaciones de fraude. El presidente Herzog concluye el jueves las consultas con los grupos; ninguno de los bloques tiene mayoría.",
+    "t": "Israel: confirman resultado; Ra'am recomienda a Eisenkot y Herzog consulta al Likud"
+   },
+   "at": "2026-11-05T07:18Z",
+   "h": "0cb50c2b1366",
+   "rev": [
+    "Ben-Gvir's claim that the election was \"stolen\" is rendered as a plain statement; it needs to be shown as his claim",
+    "\"Netanjahu\" is spelled \"Netanyahu\" in the Spanish text; this is the established Spanish spelling, so it is correct (no change)",
+    "Headline: \"Herzog consulta al Likud\" is a slight change from \"berät mit Likud\", but the meaning is the same (no change)"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: el político israelí Gadi Eisenkot"
+   }
+  },
   "welt-jemen-regierung-al-jawf-offensive-2026-11-05": {
    "L": {
     "body": [
@@ -1870,6 +1993,31 @@
    "x": {
     "img.alt": "Foto de archivo: el presidente de EE. UU., Donald Trump, en la Casa Blanca (6 de octubre de 2026)",
     "kl": "EE. UU."
+   }
+  },
+  "welt-westjordanland-olivenernte-ex-generaele-2026-11-05": {
+   "L": {
+    "body": [
+     "Unos 30 antiguos altos responsables de seguridad israelíes, entre ellos seis generales, ayudaron el martes a agricultores palestinos con la cosecha de aceituna cerca de la aldea de Qusra, en Cisjordania. Según informaron agencias citando a Dawn, el acto fue organizado por el exgeneral de división Eyal Ben-Reuven. Ben-Reuven dijo que los ataques de colonos le recordaban los relatos de sus padres sobre la época en que, según ellos, el pueblo judío habría sufrido. El propietario de las tierras, Nimr Nazzal, dijo: «El Ejército protege a los colonos».",
+     "La organización israelí de derechos humanos Yesh Din contabilizó 180 agresiones físicas contra recolectores palestinos en 35 días. Según la organización, en más del 23 por ciento de los casos registrados de violencia de colonos había presencia militar. Según el Times of Israel, el miércoles se informó de un ataque incendiario de colonos en el sur de Cisjordania y de la creación de un nuevo puesto avanzado en Jericó.",
+     "Según el Times of Israel, el presidente Isaac Herzog advirtió al primer ministro Benjamin Netanyahu de «graves consecuencias» para Israel y para los judíos de todo el mundo si no se contiene la violencia de los colonos."
+    ],
+    "d": "Antiguos altos oficiales israelíes ayudaron a agricultores palestinos cerca de Qusra. El presidente Herzog advirtió a Netanyahu de «graves consecuencias» si la violencia no se frena.",
+    "t": "Cisjordania: exgenerales apoyan cosecha de olivas; Herzog alerta de violencia colona"
+   },
+   "at": "2026-11-05T07:18Z",
+   "h": "a5283f1d19d0",
+   "rev": [
+    "Spanish title is longer than 90 characters",
+    "Indirect speech 'sufrió' in Ben-Reuven sentence rendered as plain fact; needs reported-speech marker (habría sufrido)"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: ayudantes israelíes y palestinos en la cosecha de aceituna en la aldea de Qafin, en Cisjordania"
    }
   },
   "wirtschaft-australien-nab-gewinn-kreditvorsorge-2026-11-05": {
