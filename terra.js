@@ -241,7 +241,7 @@ document.body.appendChild(tb);document.body.appendChild(btn);document.body.appen
 function sh(p,b,on){p.hidden=!on;b.setAttribute('aria-expanded',on?'true':'false')}
 btn.addEventListener('click',function(){if(!loaded){load();loaded=true}var o=R.hidden;sh(R,btn,o);if(o)sh(V,tb,false)});
 tb.addEventListener('click',function(){if(!tvl){loadTV();tvl=true}var o=V.hidden;sh(V,tb,o);if(o)sh(R,btn,false)});
-R.querySelector('.twr-x').addEventListener('click',function(){sh(R,btn,false)});V.querySelector('.twr-x').addEventListener('click',function(){sh(V,tb,false)});
+R.querySelector('.twr-x').addEventListener('click',function(){au.pause();sh(R,btn,false)});V.querySelector('.twr-x').addEventListener('click',function(){tvStop();sh(V,tb,false)});   /* × beendet alles (Nedy 05.11.2026) */
 V.querySelector('.twr-popb').addEventListener('click',function(){tvStop();window.open('/radio.html?l='+L+'&tv=1','twntv','width=720,height=640')});
 R.querySelector('.twr-popb').addEventListener('click',function(){au.pause();window.open('/radio.html?l='+L,'twnradio','width=460,height=760')});
 /* Artikel anhören – Gerätestimme (kostenlos) */
