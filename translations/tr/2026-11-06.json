@@ -29,6 +29,34 @@
     "kl": "Berlin"
    }
   },
+  "bulgarien-bombendrohungen-fluege-plowdiw-2026-11-06": {
+   "L": {
+    "body": [
+     "Yeni bir bomba tehdidi dalgası perşembe günü Bulgaristan'ı da etkiledi. Kopenhag, Madrid ve Londra-Stansted'den Sofya'ya gelen üç Ryanair uçuşu etkilendi; BNT televizyonunun verdiği bilgiye göre uçaklara Bulgaristan Hava Kuvvetleri'ne ait MiG-29 savaş uçakları hava sahasında eşlik etti. Aynı gün Avrupa genelinde bu tür 25 vaka sayıldı.",
+     "Kopenhag ve Madrid'den gelen uçaklar planlandığı gibi Sofya'ya indi, Londra'dan gelen 184 yolculu uçuş ise Plovdiv'e yönlendirildi. Havalimanı müdürü Krasimir Peshev, saat 10.20 sıralarında bilgilendirildiğini söyledi. Yolcuların inmesi gerekti, bagajları iz sürücü köpeklerle kontrol edildi, ardından yolcular otobüslerle Sofya'ya gitti.",
+     "Uçuşların hiçbirinde patlayıcı bulunmadı. Havacılık uzmanı Todor Ivanchikov, Avrupa'ya yönelik hibrit bir saldırıdan söz etti; bu saldırının gecikmelere ve maliyetlere yol açtığını ancak uçuş operasyonlarını tehlikeye atmadığını belirtti. BNT'ye göre böylece son günlerde Bulgaristan'a yönelik toplam beş uçuş etkilenmiş oldu."
+    ],
+    "d": "Avrupa'da yeni bir asılsız tehdit dalgası: Londra'dan gelen 184 yolculu bir uçak Plovdiv'e yönlendirildi. Hiçbir yerde patlayıcı bulunmadı.",
+    "t": "Sofya'ya giden üç uçuşa bomba tehdidi: MiG-29'lar eşlik etti, bir uçak Plovdiv'e indi"
+   },
+   "at": "2026-11-06T06:50Z",
+   "h": "760b86c1ee33",
+   "rev": [
+    "\"Perşembe\" is a weekday and should not be capitalised mid-sentence under TDK conventions",
+    "\"Kopenhag\" is the correct Turkish name (Kopenhag), so the untranslated-word flag is a false positive, and \"kontrol\" is also correct Turkish",
+    "The teaser omits that the threats were false (\"falscher\" is rendered as \"asılsız\", which is fine), so no change is needed there",
+    "\"Fernsehsender BNT\" is rendered as \"BNT televizyonu\", but the German says only \"Sender\", which is acceptable",
+    "\"in den Luftraum begleitet\" was rendered adequately"
+   ],
+   "rev_dbg": [
+    5,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Plovdiv Havalimanı terminali"
+   }
+  },
   "bulgarien-bootsliegeplatz-warna-protest-2026-11-06": {
    "L": {
     "body": [
@@ -1009,6 +1037,35 @@
     "kl": "Yargı"
    }
   },
+  "ki-blue-origin-new-glenn-januar-2027-2026-11-06": {
+   "L": {
+    "body": [
+     "ABD'li uzay şirketi Blue Origin'in ağır roketi New Glenn'in 2026 sonunda değil, ancak Ocak 2027'de yeniden uçması planlanıyor. Investing.com'un aktardığına göre CNBC'nin haberi, şirketin CEO'su Dave Limp'in çalışanlara gönderdiği dahili bir yazıya dayanıyor. Gerekçe, Cape Canaveral'daki fırlatma rampasının yeniden inşası; rampa 28 Mayıs 2026'da bir roketin motor testi sırasında patlaması sonucu ağır hasar görmüştü. Limp'e göre kötü yaz havası da çalışmaları yavaşlattı. Limp, “Rebuilding at this pace hasn’t been easy” diye yazdı. Kurucu Jeff Bezos ise Ekim ayında Aralık'ta bir fırlatma yapılabileceğini belirtmişti.",
+     "Blue Origin aynı zamanda perşembe günü GS3 adlı üçüncü bir kademeyi duyurdu. Kademe, aslen Blue Moon ay iniş aracı için geliştirilen tek bir BE-7 motoruyla çalışıyor. GS3 ile uyduların doğrudan jeosenkron yörüngeye taşınması, Ay'a ve derin uzaya ağır görevlerin yapılması hedefleniyor. Space.com'a göre adı açıklanmayan bir devlet müşterisi, 2028 için Ay çevresine yönelik bir GS3 görevi rezerve etti.",
+     "Şirket ayrıca, mevcut BE-4 gibi sıvı oksijen ve metan yakan yeni birinci kademe motoru Northstar'ı tanıttı. Motorun yüzde 30 daha hafif olması, parça sayısının yarıya inmesi ve itkinin 640.000 pound-kuvvetten 715.000 pound-kuvvete çıkması hedefleniyor; montajın bir günden kısa sürdüğü belirtildi. 98 metre yüksekliğindeki New Glenn şu ana kadar alçak Dünya yörüngesine 45 ton taşıyabiliyor. Nisan 2026'daki üçüncü uçuşta müşteri AST SpaceMobile'a ait bir uydu yanlış yörüngeye bırakılmış ve kaybedilmişti."
+    ],
+    "d": "Tahrip olan fırlatma rampasının yeniden inşası uzun sürüyor: Blue Origin'in ağır roketi ancak Ocak 2027'de yeniden fırlatılacak. Şirket aynı zamanda GS3 üst kademesini ve Northstar motorunu tanıttı.",
+    "t": "New Glenn 2027'ye kadar uçmayacak – Blue Origin üçüncü kademe ve yeni motor planlıyor"
+   },
+   "at": "2026-11-06T06:50Z",
+   "h": "89dac2ab0c61",
+   "rev": [
+    "Headline meaning changed: 'fliegt erst 2027 wieder' (will fly again only in 2027) rendered as 'will not fly until 2027' – acceptable but 'uçmayacak' fine; no change.",
+    "Weekday 'Perşembe' wrongly capitalised mid-sentence (TDK: lowercase 'perşembe').",
+    "'Ay çevresine' for 'Mondraum' acceptable; 'rezerve etti' for 'gebucht' ok.",
+    "'Ekim ayında' and 'Aralık'ta': Bezos 'in Aussicht gestellt' ok.",
+    "Teaser: 'Tahrip olan' fine."
+   ],
+   "rev_dbg": [
+    5,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Blue Origin'in bir New Glenn roketinin Cape Canaveral'dan fırlatılışı, 13 Kasım 2025",
+    "kl": "Uzay"
+   }
+  },
   "ki-gsma-6g-frequenzen-billion-2026-11-06": {
    "L": {
     "body": [
@@ -1056,6 +1113,34 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Bilbao'daki IBM Quantum System Two kuantum bilgisayarı"
+   }
+  },
+  "ki-iqm-quartal-auftraege-lumi-2026-11-06": {
+   "L": {
+    "body": [
+     "Finlandiyalı kuantum bilgisayar üreticisi IQM, 2026'nın üçüncü çeyreğinde 42,2 milyon euro değerinde sipariş topladı. Bu, perşembe günü yayımlanan ara rapordan anlaşılıyor. En büyük kalem, Finlandiya'daki BT merkezi CSC ile yapılan 33 milyon euroluk sözleşme: IQM, CSC'nin “LUMI AI Factory” tesisi için hata düzeltmeye yönelik tasarlanmış Halocene platformunu teslim edecek. Sipariş portföyü yılbaşından bu yana yüzde 52 artarak 102,5 milyon euroya yükseldi.",
+     "Ciro çeyrekte yaklaşık yüzde 51 artarak 8,9 milyon euroya ulaştı, brüt marj yüzde 47 oldu. Ancak bilançonun sonucunda 152,6 milyon euroluk bir net zarar var; bunun içinde temmuz ayındaki borsaya kotasyon için 127,1 milyon euroluk tek seferlik maliyetler yer alıyor. Nakit varlıklar, kısmen üretim ve montaj yatırımları nedeniyle eylül sonuna kadar 260,4 milyon euroya geriledi.",
+     "IQM'nin kendi verdiği bilgiye göre şirket şimdiye kadar 31 kuantum bilgisayarı sattı, bunların 17'si teslim edildi. Yenilikler arasında Güney Amerika'ya (Brezilya) yapılan ilk satış ve Japonya'daki bir müşteri için ikinci bir sistem yer alıyor. Şirket, tüm yıl için 42 ila 47 milyon euro ciro ve 65 ila 75 milyon euro sipariş girişi hedefini doğruladı."
+    ],
+    "d": "Avrupa'nın borsada işlem gören kuantum bilgisayar üreticisi IQM, üçüncü çeyrekte 42,2 milyon euroluk sipariş kazandı. Temmuzdaki halka arz ise yüksek bir zarara yol açtı.",
+    "t": "Finlandiyalı kuantum şirketi IQM 33 milyon euroluk sipariş aldı, ciro %50'den fazla arttı"
+   },
+   "at": "2026-11-06T06:50Z",
+   "h": "1fdfa70a96bd",
+   "rev": [
+    "Weekday \"Perşembe\" wrongly capitalised (TDK: lowercase)",
+    "\"Temmuz ayındaki\" capitalised month mid-sentence; months are lowercase in running text per TDK",
+    "Redundant/awkward \"net sonuç ... net zarar\"",
+    "\"auch wegen\" rendered unclearly; reword",
+    "Teaser: IQM's market listing \"Börsengang\" fine, but \"Temmuzdaki halka arz\" acceptable"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "IQM'nin Finlandiya'nın Espoo kentindeki kuantum bilgisayarı"
    }
   },
   "ki-nsa-cisa-post-quanten-fragen-lieferanten-2026-11-06": {
@@ -1666,6 +1751,32 @@
    ],
    "x": {
     "img.alt": "Grafik: TERRA WORLD NEWS"
+   }
+  },
+  "welt-israel-eisenkot-67-empfehlungen-herzog-2026-11-06": {
+   "L": {
+    "body": [
+     "İsrail Cumhurbaşkanı Isaac Herzog ile iki gün süren istişarelerin ardından 67 milletvekili muhalefet lideri Gadi Eisenkot’u gelecekteki hükümet başkanı olarak önerdi, 46 milletvekili ise görevdeki Başbakan Benjamin Netanyahu’yu önerdi. Eisenkot için kendi partisi Yashar!, Together, Demokratlar, Yisrael Beytenu ile Arap partileri Ra'am ve Birleşik Liste destek verdi. Netanyahu’nun arkasında ise Likud, Dini Siyonizm, Otzma Yehudit, Shas ve Zehut yer aldı. Ultra-Ortodoks Birleşik Tevrat Yahudiliği partisi ikisini de önermedi.",
+     "Herzog, hükümeti kurma görevini kime vereceğini 8 Kasım Pazar günü açıklamak istiyor. Herzog, ilk bakışta sonucun net göründüğünü söyledi; ancak kamplar arasındaki ve kampların kendi içindeki karşılıklı dışlamalar nedeniyle bir hükümetin gerçekten kurulup kurulamayacağını incelemesi gerektiğini belirtti. Görüşmelerin “açık, samimi ve zaman zaman gergin” geçtiğini ifade eden Herzog, parti liderleriyle bizzat görüşmek ve “her taşı kaldırmak” istediğini söyledi. Yashar!, ulusal bir olağanüstü hal hükümeti için derhal görev verilmesini talep etti. Likud’lu siyasetçi Yoav Kisch ise “terörün destekçilerine” bağımlı bir hükümet konusunda uyardı; bununla Arap partileri kastediliyordu. Kisch ayrıca Likud’un en büyük parti olduğuna dikkat çekti.",
+     "27 Ekim’deki seçimde Netanyahu’nun kampı 120 sandalyenin 53’ünü, Eisenkot’un bloku 48’ini, Arap liderliğindeki partiler ise toplam 19 ile rekor bir sayıyı elde etmişti; çoğunluk için 61 gerekiyor. Netanyahu ve destekçileri, hiçbir kanıt sunmadan Arap partilerinin seçimi “çaldığını” iddia etmişti; ancak Seçim Komisyonu usulsüzlüğe dair herhangi bir belirti bulamadı. Görevlendirilen kişinin koalisyon için 28 günü var; süre 14 gün uzatılabilir. Bu da başarısız olursa, gelecek yılın başında yeniden seçime gidilmesi söz konusu olabilir."
+    ],
+    "d": "Görüşmelerin ardından rakip Gadi Eisenkot açık farkla önde. Ancak Cumhurbaşkanı Isaac Herzog, önce hükümetin kurulup kurulamayacağını incelemek istiyor.",
+    "t": "İsrail: 67 vekil Eisenkot’u, 46 vekil Netanyahu’yu önerdi – Herzog Pazar karar verecek"
+   },
+   "at": "2026-11-06T06:50Z",
+   "h": "1c596596dfe5",
+   "rev": [
+    "Headline: \"46’sı Netanyahu’yu öneriyor\" is ungrammatical and changes the structure; it should be a parallel construction",
+    "Herzog's decision date: the German says \"Sonntag, dem 8. November\"; the Turkish rendering \"8 Kasım Pazar günü\" is acceptable, but the headline needs checking: \"Pazar günü\" should be fine and was left ",
+    "\"Neuwahl droht\" rendered as \"gündeme gelebilir\", which loses the threat nuance; fixed to \"yeni seçim kapıda\" while keeping the sense"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Gadi Eisenkot"
    }
   },
   "welt-japan-takaichi-sagt-cop31-ab-2026-11-06": {
