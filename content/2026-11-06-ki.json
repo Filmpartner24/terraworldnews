@@ -1,0 +1,398 @@
+{
+ "date": "2026-11-06",
+ "items": [
+  {
+   "id": "claude-personal-finance-bankkonten",
+   "s": "ai",
+   "time": "12:37",
+   "kl": {
+    "de": "Neue Funktion",
+    "bg": "Нова функция",
+    "en": "New feature"
+   },
+   "yt": {
+    "id": "UTubvRLX2j4",
+    "ch": "Claude",
+    "kind": "video",
+    "t": {
+     "de": "Introducing Personal Finance in Claude",
+     "bg": "Introducing Personal Finance in Claude",
+     "en": "Introducing Personal Finance in Claude"
+    }
+   },
+   "src": [
+    {
+     "n": "TechCrunch – Claude can now analyze your spending with its new Personal Finance tool (05.11.2026)",
+     "u": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/"
+    },
+    {
+     "n": "MacRumors – Claude Gets Personal Finance Feature With Bank Account Linking (05.11.2026)",
+     "u": "https://www.macrumors.com/2026/11/05/claude-personal-finance/"
+    }
+   ],
+   "de": {
+    "t": "Claude liest Kontoauszüge: Anthropic startet Finanz-Assistenten in den USA",
+    "d": "Nutzer können Bank- und Kreditkartenkonten über den Dienst Plaid verbinden und Claude Fragen zu ihren Ausgaben stellen. Der Zugriff ist nur lesend, die Funktion startet als Beta.",
+    "body": [
+     "Anthropic hat am Donnerstag die Funktion „Personal Finance“ für seinen KI-Assistenten Claude vorgestellt. Nutzer verbinden dafür Bank- und Kreditkartenkonten über den Finanzdienstleister Plaid und können Claude anschließend Fragen zu ihrem Geld stellen – etwa, wofür sie am meisten ausgeben, ob ein Monat ungewöhnlich teuer war oder ob sie mehr ausgeben, als sie einnehmen. Laut TechCrunch und MacRumors startet die Funktion als Beta in den USA für Abonnenten der Tarife Pro, Max und Ultra.",
+     "Claude sortiert Ausgaben nach Kategorien wie Miete, Essen oder Einkäufe, weist auf doppelte Abbuchungen, unerwartete Gebühren und steigende Rechnungen hin und erklärt Fachbegriffe wie den effektiven Jahreszins. Der Zugriff ist nur lesend: Claude kann kein Geld überweisen, verwalten oder anlegen. Sichtbar sind unter anderem Bankname, Kontoart, die letzten vier Ziffern der Kontonummer, Salden, Kreditlimits und bis zu zwei Jahre an Umsätzen; Bank-Passwörter sieht Claude laut MacRumors nicht.",
+     "Gespräche im Finanzbereich werden nach Angaben von Anthropic nicht zum Training der KI-Modelle genutzt. Das Unternehmen betont, es gebe dort keine Werbung und keine gesponserten Empfehlungen. Konkurrent OpenAI hatte eine ähnliche Funktion für ChatGPT bereits im Mai eingeführt. Ein Video auf dem offiziellen Claude-Kanal zeigt die neue Funktion."
+    ]
+   },
+   "bg": {
+    "t": "Claude чете банковите извлечения: Anthropic пуска финансов асистент в САЩ",
+    "d": "Потребителите могат да свържат банкови сметки и кредитни карти чрез услугата Plaid и да питат Claude за разходите си. Достъпът е само за четене, функцията стартира като бета версия.",
+    "body": [
+     "Anthropic представи в четвъртък функцията „Personal Finance“ за своя ИИ асистент Claude. Потребителите свързват банкови сметки и кредитни карти чрез финансовата услуга Plaid и след това могат да задават на Claude въпроси за парите си – например за какво харчат най-много, дали даден месец е бил необичайно скъп или дали харчат повече, отколкото печелят. Според TechCrunch и MacRumors функцията стартира като бета версия в САЩ за абонатите на плановете Pro, Max и Ultra.",
+     "Claude подрежда разходите по категории като наем, храна или покупки, сигнализира за двойни плащания, неочаквани такси и растящи сметки и обяснява термини като годишния процент на разходите. Достъпът е само за четене: Claude не може да превежда, управлява или инвестира пари. Видими са, наред с другото, името на банката, видът на сметката, последните четири цифри от номера ѝ, салдата, кредитните лимити и до две години транзакции; паролите за банката Claude не вижда според MacRumors.",
+     "По данни на Anthropic разговорите във финансовия раздел не се използват за обучение на ИИ моделите. Компанията подчертава, че там няма реклами и спонсорирани препоръки. Конкурентът OpenAI въведе подобна функция за ChatGPT още през май. Видео в официалния канал на Claude показва новата функция."
+    ]
+   },
+   "en": {
+    "t": "Claude reads your bank statements: Anthropic launches finance assistant in the US",
+    "d": "Users can link bank and credit card accounts via the Plaid service and ask Claude about their spending. Access is read-only and the feature is launching as a beta.",
+    "body": [
+     "Anthropic on Thursday unveiled “Personal Finance”, a new feature for its AI assistant Claude. Users link bank and credit card accounts through the financial services company Plaid and can then ask Claude questions about their money – such as what they spend most on, whether a month was unusually expensive or whether they spend more than they earn. According to TechCrunch and MacRumors, the feature is launching as a beta in the US for subscribers to the Pro, Max and Ultra plans.",
+     "Claude sorts spending into categories such as rent, food or shopping, flags duplicate charges, unexpected fees and rising bills, and explains terms such as APR. Access is read-only: Claude cannot move, manage or invest money. It can see, among other things, the bank's name, the account type, the last four digits of the account number, balances, credit limits and up to two years of transactions; according to MacRumors, Claude never sees bank passwords.",
+     "Anthropic says conversations in the finance area are not used to train its AI models. The company stresses that there are no ads and no sponsored recommendations. Rival OpenAI introduced a similar feature for ChatGPT back in May. A video on the official Claude channel shows the new feature."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-06/claude-personal-finance-bankkonten-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Claude liest Kontoauszüge – Anthropic startet Finanz-Assistenten in den USA",
+     "bg": "Заглавна графика: Claude чете банковите извлечения – финансов асистент на Anthropic",
+     "en": "Title graphic: Claude reads your bank statements – Anthropic's finance assistant"
+    }
+   }
+  },
+  {
+   "id": "devin-review-2-code-pruefung",
+   "s": "ai",
+   "time": "12:37",
+   "kl": {
+    "de": "KI-Programmierung",
+    "bg": "ИИ програмиране",
+    "en": "AI coding"
+   },
+   "yt": {
+    "id": "KpdF9expKTM",
+    "ch": "Cognition",
+    "kind": "video",
+    "t": {
+     "de": "Introducing Devin Review 2.0",
+     "bg": "Introducing Devin Review 2.0",
+     "en": "Introducing Devin Review 2.0"
+    }
+   },
+   "src": [
+    {
+     "n": "Cognition – Devin Review 2.0 (05.11.2026)",
+     "u": "https://devin.ai/blog/devin-review-2"
+    },
+    {
+     "n": "AlphaSignal – Cognition Slashes Devin Review 2.0 Costs by 82% per Pull Request (05.11.2026)",
+     "u": "https://alphasignal.ai/news/cognition-slashes-devin-review-2-0-costs-by-82-per-pull-request"
+    }
+   ],
+   "de": {
+    "t": "Code-Prüfung ab 25 Cent: Cognition macht KI-Prüfer Devin Review deutlich billiger",
+    "d": "Die neue Version 2.0 prüft Programmänderungen laut Hersteller um 82 Prozent günstiger als im August und schneller. Neu sind ein besonders gründlicher Modus und selbst geschriebene Prüfregeln.",
+    "body": [
+     "Das US-Start-up Cognition, Entwickler des Programmier-Agenten Devin, hat am Donnerstag Devin Review 2.0 vorgestellt. Das Werkzeug prüft sogenannte Pull Requests – vorgeschlagene Änderungen am Programmcode – automatisch auf Fehler und erstellt eine geführte Übersicht, die menschlichen Prüfern die Arbeit erleichtern soll. Cognition begründet den Ausbau damit, dass die Code-Prüfung zum neuen Engpass der Softwareentwicklung geworden sei.",
+     "Nach Angaben des Unternehmens sind die Kosten pro geprüftem Pull Request seit August um 82 Prozent gesunken; eine typische Prüfung koste nun 0,25 bis 0,75 Dollar, rund 80 Prozent der Prüfungen lägen unter einem Dollar. Die mittlere Wartezeit sank demnach von 139 auf 94 Sekunden, die Zahl gefundener Fehler pro Pull Request stieg leicht von 1,22 auf 1,32. Die Werte stammen von Cognition selbst und wurden nicht unabhängig überprüft.",
+     "Neu sind eine Stufe „Ultra“ für besonders gründliche Prüfungen, etwa von Abrechnungs- oder Sicherheitscode, sowie „Custom Reviewers“ (Beta), mit denen Teams eigene Prüfanweisungen schreiben. Gefundene Fehler kann Devin selbst beheben, verwerfen oder an einen Menschen weitergeben. Gestartet wird die Prüfung per Kommentar auf GitHub oder GitLab oder automatisch nach festgelegten Regeln. Cognition zeigt die Neuerungen in einem Video auf seinem offiziellen Kanal."
+    ]
+   },
+   "bg": {
+    "t": "Проверка на код от 25 цента: Cognition прави ИИ проверката Devin Review много по-евтина",
+    "d": "Новата версия 2.0 проверява промени в програмния код с 82% по-евтино от август и по-бързо, според производителя. Нови са особено задълбочен режим и собствени правила за проверка.",
+    "body": [
+     "Американският стартъп Cognition, разработчик на програмиращия агент Devin, представи в четвъртък Devin Review 2.0. Инструментът автоматично проверява т.нар. pull requests – предложени промени в програмния код – за грешки и създава ръководен преглед, който да улесни работата на хората, които проверяват кода. Cognition обяснява разширението с това, че проверката на кода се е превърнала в новото тясно място в разработката на софтуер.",
+     "По данни на компанията разходите за проверка на един pull request са спаднали с 82% от август насам; типична проверка вече струва между 0,25 и 0,75 долара, а около 80% от проверките са под един долар. Средното време за изчакване е намаляло от 139 на 94 секунди, а броят на откритите грешки на pull request леко се е увеличил – от 1,22 на 1,32. Данните са на самата Cognition и не са независимо проверени.",
+     "Нови са нивото „Ultra“ за особено задълбочени проверки, например на код за плащания или сигурност, както и „Custom Reviewers“ (бета), с които екипите пишат собствени инструкции за проверка. Откритите грешки Devin може сам да поправи, да отхвърли или да предаде на човек. Проверката се стартира с коментар в GitHub или GitLab или автоматично по зададени правила. Cognition показва новостите във видео в официалния си канал."
+    ]
+   },
+   "en": {
+    "t": "Code review from 25 cents: Cognition makes AI reviewer Devin Review much cheaper",
+    "d": "The new version 2.0 reviews code changes 82 percent more cheaply than in August, and faster, the maker says. New additions include an especially thorough mode and custom review rules.",
+    "body": [
+     "US start-up Cognition, developer of the coding agent Devin, on Thursday unveiled Devin Review 2.0. The tool automatically checks pull requests – proposed changes to program code – for bugs and produces a guided overview meant to make human reviewers' work easier. Cognition justifies the expansion by saying code review has become the new bottleneck in software development.",
+     "According to the company, the cost per reviewed pull request has fallen by 82 percent since August; a typical review now costs $0.25 to $0.75, and around 80 percent of reviews come in under one dollar. Median latency fell from 139 to 94 seconds, while the number of bugs found per pull request rose slightly from 1.22 to 1.32. The figures come from Cognition itself and have not been independently verified.",
+     "New features include an “Ultra” level for especially thorough reviews, for example of billing or security code, and “Custom Reviewers” (beta), which let teams write their own review instructions. Devin can fix, dismiss or escalate the bugs it finds to a human. Reviews are started with a comment on GitHub or GitLab or run automatically according to set rules. Cognition shows the new features in a video on its official channel."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-06/devin-review-2-code-pruefung.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Markus Spiske",
+    "lic": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Code_on_computer_monitor_(Unsplash).jpg",
+    "alt": {
+     "de": "Symbolbild: Programmcode auf einem Computerbildschirm",
+     "bg": "Символна снимка: програмен код на компютърен екран",
+     "en": "Symbolic image: program code on a computer screen"
+    }
+   }
+  },
+  {
+   "id": "google-meet-sprachuebersetzung-63",
+   "s": "ai",
+   "time": "12:37",
+   "kl": {
+    "de": "KI-Übersetzung",
+    "bg": "ИИ превод",
+    "en": "AI translation"
+   },
+   "yt": {
+    "id": "UWipL4pup3k",
+    "ch": "Google Workspace",
+    "kind": "video",
+    "t": {
+     "de": "Speech translation in Google Meet expands with automatic language detection",
+     "bg": "Speech translation in Google Meet expands with automatic language detection",
+     "en": "Speech translation in Google Meet expands with automatic language detection"
+    }
+   },
+   "src": [
+    {
+     "n": "Google Workspace Updates – Real-time speech translation in Google Meet expands to 63 languages with automatic language detection (22.10.2026)",
+     "u": "https://workspaceupdates.googleblog.com/2026/10/real-time-speech-translation-in-google-Meet-expands-to-63-languages-with-automatic-language-detection.html"
+    },
+    {
+     "n": "Android Headlines – Google Meet Expands Live Speech Translation to 63 Languages with Gemini (05.11.2026)",
+     "u": "https://www.androidheadlines.com/2026/11/google-meet-speech-translation-expansion-63-languages.html"
+    }
+   ],
+   "de": {
+    "t": "Dolmetscher im Videocall: Google Meet übersetzt Gesprochenes jetzt in 63 Sprachen",
+    "d": "Googles Videokonferenzdienst erkennt die gesprochene Sprache automatisch und übersetzt sie fast in Echtzeit – auch wenn jemand mitten im Gespräch wechselt. Nötig ist ein bezahlter Tarif des Organisators.",
+    "body": [
+     "Google weitet die Sprachübersetzung in seinem Videokonferenzdienst Meet deutlich aus: Die Funktion unterstützt nun 63 Sprachen und erkennt automatisch, welche Sprache gesprochen wird – auch wenn ein Teilnehmer mitten im Gespräch die Sprache wechselt. Jeder Zuhörer bekommt das Gesagte nahezu in Echtzeit in seine eigene Sprache übersetzt. Bisher arbeitete die Funktion laut Android Headlines mit fest eingestellten Sprachpaaren. Dahinter steckt Googles KI-Modell Gemini 3.5 Live Translate.",
+     "Teilnehmer schalten die Übersetzung selbst in der Werkzeugleiste ein und können Sprachen angeben, die sie ohnehin verstehen. Untertitel laufen synchron zur übersetzten Tonspur. Google betont, Sprachdaten weder zu speichern noch Modelle damit zu trainieren. Die Funktion gibt es im Web sowie unter Android und iOS; eine Sitzung ist in den Basistarifen auf 90 Minuten begrenzt, in Ultra-Tarifen und KI-Zusatzpaketen auf acht Stunden.",
+     "Verfügbar ist die Übersetzung in bezahlten Workspace-Tarifen wie Business Standard und Plus sowie für Privatkunden mit Google AI Pro und Ultra; Gäste können mithören, wenn der Organisator einen berechtigten Tarif hat. Nachdem Firmen mit schneller Update-Freigabe sie seit dem 22. Oktober erhalten, erreicht die Funktion seit dem 2. November schrittweise auch die übrigen Workspace-Kunden. Ein Video auf dem offiziellen Kanal von Google Workspace zeigt, wie sie funktioniert."
+    ]
+   },
+   "bg": {
+    "t": "Преводач във видеоразговора: Google Meet вече превежда речта на 63 езика",
+    "d": "Услугата за видеоконференции на Google автоматично разпознава говоримия език и го превежда почти в реално време – дори когато някой смени езика по време на разговора. Нужен е платен план на организатора.",
+    "body": [
+     "Google значително разширява превода на реч в услугата си за видеоконференции Meet: функцията вече поддържа 63 езика и автоматично разпознава кой език се говори – дори когато участник смени езика по средата на разговора. Всеки слушател получава казаното почти в реално време на собствения си език. Досега функцията работеше с предварително зададени езикови двойки, според Android Headlines. Зад нея стои ИИ моделът на Google Gemini 3.5 Live Translate.",
+     "Участниците сами включват превода от лентата с инструменти и могат да посочат езици, които така или иначе разбират. Субтитрите вървят синхронно с преведения звук. Google подчертава, че не съхранява гласови данни и не обучава модели с тях. Функцията е налична в уеб, както и за Android и iOS; една сесия е ограничена до 90 минути в базовите планове и до осем часа в Ultra плановете и ИИ добавките.",
+     "Преводът е достъпен в платени планове на Workspace като Business Standard и Plus, както и за частни потребители с Google AI Pro и Ultra; гостите могат да слушат превода, ако организаторът има подходящ план. След като компаниите с бързо получаване на обновления я имат от 22 октомври, от 2 ноември функцията постепенно достига и до останалите клиенти на Workspace. Видео в официалния канал на Google Workspace показва как работи."
+    ]
+   },
+   "en": {
+    "t": "An interpreter in the video call: Google Meet now translates speech in 63 languages",
+    "d": "Google's video-conferencing service automatically detects the spoken language and translates it in near real time – even when someone switches mid-conversation. The organiser needs a paid plan.",
+    "body": [
+     "Google is significantly expanding speech translation in its video-conferencing service Meet: the feature now supports 63 languages and automatically detects which language is being spoken – even when a participant switches languages mid-conversation. Each listener hears what is said translated into their own language in near real time. According to Android Headlines, the feature previously worked with fixed language pairs. It is powered by Google's AI model Gemini 3.5 Live Translate.",
+     "Participants turn translation on themselves from the toolbar and can list languages they already understand. Captions are synced with the translated audio. Google stresses that it neither stores voice data nor trains models on it. The feature is available on the web as well as on Android and iOS; a session is limited to 90 minutes on base plans and to eight hours on Ultra plans and AI add-ons.",
+     "Translation is available on paid Workspace plans such as Business Standard and Plus and for consumers with Google AI Pro and Ultra; guests can listen in if the organiser has an eligible plan. After reaching companies on rapid release from 22 October, the feature has been rolling out gradually to the remaining Workspace customers since 2 November. A video on the official Google Workspace channel shows how it works."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-06/google-meet-sprachuebersetzung-63-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Google Meet übersetzt Gesprochenes jetzt in 63 Sprachen",
+     "bg": "Заглавна графика: Google Meet вече превежда речта на 63 езика",
+     "en": "Title graphic: Google Meet now translates speech in 63 languages"
+    }
+   }
+  },
+  {
+   "id": "gemini-omni-12-flash-video",
+   "s": "ai",
+   "time": "12:37",
+   "mn": true,
+   "kl": {
+    "de": "Neues Modell",
+    "bg": "Нов модел",
+    "en": "New model"
+   },
+   "src": [
+    {
+     "n": "Google Blog – Gemini Omni 1.2 Flash: 15-second video and lower pricing (05.11.2026)",
+     "u": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+    },
+    {
+     "n": "The Next Web – Google’s Gemini Omni 1.2 Flash makes 15-second AI videos for less (05.11.2026)",
+     "u": "https://thenextweb.com/news/google-gemini-omni-1-2-flash-video-15-seconds-price-cut"
+    }
+   ],
+   "de": {
+    "t": "15-Sekunden-Clips, 30 Prozent billiger: Google bringt Videomodell Gemini Omni 1.2 Flash",
+    "d": "Googles KI-Videomodell erzeugt jetzt Clips von bis zu 15 statt 10 Sekunden und lässt sie per Chat nachbearbeiten. Über die Programmierschnittstelle kostet eine Sekunde Video rund 7 Cent.",
+    "body": [
+     "Google hat am Donnerstag Gemini Omni 1.2 Flash veröffentlicht, die neue Version seines KI-Videomodells. Es erzeugt und bearbeitet Videos von bis zu 15 Sekunden Länge – die Vorgängerversion 1.1 schaffte zehn Sekunden. Die Dauer lässt sich laut Google in Ein-Sekunden-Schritten zwischen 3 und 15 Sekunden festlegen. Neu ist außerdem, dass Nutzer einen Clip über mehrere Chat-Nachrichten verändern können, etwa den Hintergrund austauschen oder das Licht ändern, ohne ihn komplett neu erzeugen zu müssen.",
+     "Figuren, Gegenstände und Szenen sollen vom ersten bis zum letzten Bild stabiler bleiben; laut The Next Web bevorzugten Tester in Vergleichen von Google DeepMind die neue Version bei der visuellen Einheitlichkeit in 62 Prozent der Fälle. Über die Gemini-Programmierschnittstelle kostet eine Sekunde Video in 720p rund 0,07 Dollar – 30 Prozent weniger als bei Omni 1.1. Jedes Video trägt nach Google-Angaben ein unsichtbares SynthID-Wasserzeichen.",
+     "Das Modell ist über Google AI Studio und Google Cloud verfügbar und kommt in die Video-Werkzeuge Flow und Google Vids sowie in Google Ads; in der Gemini-App steht es nur Abonnenten von Google AI Ultra zur Verfügung. Google räumt laut The Next Web ein, dass schnelle Sportszenen und komplexe Physik weiterhin Schwachstellen sind."
+    ]
+   },
+   "bg": {
+    "t": "Клипове от 15 секунди, 30% по-евтино: Google пуска видеомодела Gemini Omni 1.2 Flash",
+    "d": "ИИ видеомоделът на Google вече създава клипове до 15 вместо 10 секунди и позволява да се редактират чрез чат. През програмния интерфейс секунда видео струва около 7 цента.",
+    "body": [
+     "Google пусна в четвъртък Gemini Omni 1.2 Flash – новата версия на своя ИИ модел за видео. Той създава и редактира видеоклипове с дължина до 15 секунди – предишната версия 1.1 стигаше до десет секунди. Според Google продължителността може да се задава на стъпки от една секунда между 3 и 15 секунди. Ново е и това, че потребителите могат да променят клип с няколко съобщения в чата, например да сменят фона или осветлението, без да го създават изцяло наново.",
+     "Героите, предметите и сцените трябва да остават по-стабилни от първия до последния кадър; според The Next Web при сравнения на Google DeepMind тестващите са предпочели новата версия по визуална последователност в 62% от случаите. През програмния интерфейс на Gemini секунда видео в 720p струва около 0,07 долара – с 30% по-малко, отколкото при Omni 1.1. По данни на Google всяко видео носи невидим воден знак SynthID.",
+     "Моделът е достъпен чрез Google AI Studio и Google Cloud и идва във видеоинструментите Flow и Google Vids, както и в Google Ads; в приложението Gemini е достъпен само за абонатите на Google AI Ultra. Според The Next Web Google признава, че бързите спортни сцени и сложната физика остават слаби места."
+    ]
+   },
+   "en": {
+    "t": "15-second clips, 30 percent cheaper: Google releases video model Gemini Omni 1.2 Flash",
+    "d": "Google's AI video model now generates clips of up to 15 instead of 10 seconds and lets users edit them via chat. Through the API, a second of video costs around 7 cents.",
+    "body": [
+     "Google on Thursday released Gemini Omni 1.2 Flash, the new version of its AI video model. It generates and edits videos up to 15 seconds long – the previous version 1.1 managed ten seconds. According to Google, the duration can be set in one-second steps between 3 and 15 seconds. Also new: users can change a clip over several chat messages, for example swapping the background or changing the lighting, without having to regenerate it from scratch.",
+     "Characters, objects and scenes are meant to stay more stable from the first frame to the last; according to The Next Web, testers in Google DeepMind comparisons preferred the new version for visual consistency 62 percent of the time. Through the Gemini API, a second of 720p video costs about $0.07 – 30 percent less than with Omni 1.1. Google says every video carries an invisible SynthID watermark.",
+     "The model is available through Google AI Studio and Google Cloud and is coming to the video tools Flow and Google Vids as well as Google Ads; in the Gemini app, it is available only to Google AI Ultra subscribers. According to The Next Web, Google concedes that fast sports action and complex physics remain weak spots."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-06/gemini-omni-12-flash-video.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Asoundd",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Googleplex_HQ_(cropped).jpg",
+    "alt": {
+     "de": "Archivbild: Google-Zentrale Googleplex in Mountain View",
+     "bg": "Архивна снимка: централата на Google Googleplex в Маунтин Вю",
+     "en": "Archive image: Google's Googleplex headquarters in Mountain View"
+    }
+   }
+  },
+  {
+   "id": "openai-pierre-computer-uebernahme",
+   "s": "ai",
+   "time": "12:37",
+   "mn": true,
+   "kl": {
+    "de": "Übernahme",
+    "bg": "Придобиване",
+    "en": "Acquisition"
+   },
+   "src": [
+    {
+     "n": "Kingy AI – OpenAI Moves to Acquire Pierre Computer (04.11.2026)",
+     "u": "https://kingy.ai/news/openai-pierre-computer-acquisition"
+    },
+    {
+     "n": "Unite.AI – OpenAI to Acquire Pierre Computer and Bring Code Storage to Codex (04.11.2026)",
+     "u": "https://www.unite.ai/openai-to-acquire-pierre-computer-and-bring-code-storage-to-codex/"
+    }
+   ],
+   "de": {
+    "t": "Angriff auf GitHub? OpenAI kauft Code-Speicher-Firma Pierre für seinen Agenten Codex",
+    "d": "OpenAI will das Entwickler-Start-up Pierre Computer übernehmen, dessen Technik schon in Codex steckt. Laut Axios richtet sich der Schritt gegen Microsofts Code-Plattform GitHub.",
+    "body": [
+     "OpenAI hat am Mittwoch angekündigt, das US-Start-up Pierre Computer zu übernehmen. Pierre entwickelt Werkzeuge rund um das Versionsverwaltungssystem Git, mit dem Programmierer Änderungen am Code speichern und nachverfolgen: Trees zur Navigation durch Dateien, Diffs zum Vergleich von Änderungen, Highlights zur Hervorhebung von Programmcode und Code Storage, einen Git-basierten Speicher für Code-Archive. Trees und Diffs nutzt OpenAIs Programmier-Agent Codex bereits.",
+     "Nach Abschluss des Kaufs will OpenAI die Funktionen von Code Storage in Codex einbauen; einen Zeitplan nannte das Unternehmen nicht. Den Kaufpreis gab OpenAI nicht bekannt, die Übernahme steht noch unter dem Vorbehalt üblicher Bedingungen einschließlich behördlicher Genehmigungen. Pierres Open-Source-Projekte sollen offen bleiben, bestehende Code-Storage-Kunden den Dienst weiter nutzen können.",
+     "Das Nachrichtenportal Axios wertet den Schritt als Angriff auf GitHub – die weltgrößte Code-Plattform gehört Microsoft, dem langjährigen Partner und Investor von OpenAI. Bereits Anfang der Woche hatte OpenAI über Pando berichtet, ein selbst gebautes Git-System, mit dem es die eigenen Code-Daten verwaltet."
+    ]
+   },
+   "bg": {
+    "t": "Атака срещу GitHub? OpenAI купува компанията за съхранение на код Pierre за агента Codex",
+    "d": "OpenAI иска да придобие стартъпа за инструменти за разработчици Pierre Computer, чиято технология вече е в Codex. Според Axios ходът е насочен срещу платформата за код на Microsoft GitHub.",
+    "body": [
+     "OpenAI обяви в сряда, че ще придобие американския стартъп Pierre Computer. Pierre разработва инструменти около системата за контрол на версиите Git, с която програмистите съхраняват и проследяват промените в кода: Trees за навигация във файловете, Diffs за сравняване на промени, Highlights за оцветяване на програмния код и Code Storage – базирано на Git хранилище за кодови архиви. Trees и Diffs вече се използват от програмиращия агент на OpenAI Codex.",
+     "След приключване на сделката OpenAI иска да вгради функциите на Code Storage в Codex; график компанията не посочи. OpenAI не съобщи цената, а придобиването все още зависи от обичайните условия, включително одобрения от регулаторите. Проектите с отворен код на Pierre ще останат отворени, а настоящите клиенти на Code Storage ще могат да продължат да ползват услугата.",
+     "Новинарският портал Axios определя хода като атака срещу GitHub – най-голямата в света платформа за код принадлежи на Microsoft, дългогодишен партньор и инвеститор в OpenAI. Още в началото на седмицата OpenAI разказа за Pando – собствена Git система, с която управлява своите кодови данни."
+    ]
+   },
+   "en": {
+    "t": "Taking on GitHub? OpenAI buys code-storage firm Pierre for its Codex agent",
+    "d": "OpenAI plans to acquire developer-tools start-up Pierre Computer, whose technology is already inside Codex. According to Axios, the move targets Microsoft's code platform GitHub.",
+    "body": [
+     "OpenAI announced on Wednesday that it will acquire US start-up Pierre Computer. Pierre builds tools around the Git version-control system that programmers use to store and track changes to code: Trees for navigating files, Diffs for comparing changes, Highlights for syntax highlighting and Code Storage, a Git-based store for code repositories. OpenAI's coding agent Codex already uses Trees and Diffs.",
+     "Once the deal closes, OpenAI wants to build Code Storage's functions into Codex; the company gave no timeline. OpenAI did not disclose the price, and the acquisition is still subject to customary conditions including regulatory approvals. Pierre's open-source projects are to remain open, and existing Code Storage customers will be able to keep using the service.",
+     "News site Axios sees the move as a challenge to GitHub – the world's largest code platform is owned by Microsoft, OpenAI's long-standing partner and investor. Earlier in the week OpenAI had already written about Pando, a home-built Git system it uses to manage its own code data."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-06/openai-pierre-computer-uebernahme.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Jernej Furman",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:OpenAI_logo_with_magnifying_glass_(52916339167).jpg",
+    "alt": {
+     "de": "Symbolbild: OpenAI-Logo unter einer Lupe",
+     "bg": "Символна снимка: логото на OpenAI под лупа",
+     "en": "Symbolic image: OpenAI logo under a magnifying glass"
+    }
+   }
+  },
+  {
+   "id": "meta-conductor-coding-agenten",
+   "s": "ai",
+   "time": "12:37",
+   "mn": true,
+   "kl": {
+    "de": "Übernahme",
+    "bg": "Придобиване",
+    "en": "Acquisition"
+   },
+   "src": [
+    {
+     "n": "Conductor – Conductor is joining Meta (04.11.2026)",
+     "u": "https://www.conductor.build/announcement"
+    },
+    {
+     "n": "MarketScale – Meta acquires Conductor, the startup that runs several AI coding agents at once (05.11.2026)",
+     "u": "https://www.marketscale.com/industries/software-and-technology/meta-acquires-conductor-ai-coding-agents"
+    },
+    {
+     "n": "XenoSpectrum – Meta Acquires AI Coding Tool Conductor; Cloud Service Shuts Down November 20 (05.11.2026)",
+     "u": "https://xenospectrum.com/en/meta-acquires-conductor-cloud-shutdown-migration/"
+    }
+   ],
+   "de": {
+    "t": "Meta kauft Conductor: Start-up lässt mehrere KI-Programmier-Agenten parallel arbeiten",
+    "d": "Das Team des US-Start-ups soll mit Metas Superintelligenz-Labor zusammenarbeiten. Für Kunden heißt das: Der Cloud-Dienst wird am 20. November abgeschaltet, danach beginnt die Datenlöschung.",
+    "body": [
+     "Meta übernimmt das US-Start-up Conductor. Das Unternehmen gab den Schritt am Mittwoch auf seiner Website unter der Überschrift „Conductor is joining Meta“ bekannt, Meta bestätigte die Übernahme laut XenoSpectrum gegenüber TechCrunch. Conductors Software, seit Juli 2025 auf dem Markt, lässt Entwickler mehrere KI-Programmier-Agenten – darunter Anthropics Claude Code und OpenAIs Codex – gleichzeitig an getrennten Kopien eines Software-Projekts arbeiten. Finanzielle Details wurden nicht genannt.",
+     "Laut MarketScale soll das Team um Gründer und Chef Charlie Holtz mit Meta Superintelligence Labs zusammenarbeiten; Holtz nannte demnach Nat Friedman und Metas KI-Chef Alexandr Wang. Auf X kündigte er „große, verrückte Pläne“ für eine neue Oberfläche an, die Anfang 2027 kommen soll.",
+     "Für Kunden hat der Kauf unmittelbare Folgen: Seit dem 4. November nimmt Conductor keine neuen Nutzer mehr auf. Ab dem 13. November ist Conductor Cloud nur noch lesbar, am 20. November wird der Dienst abgeschaltet – dann beginnt die Löschung der Cloud-Daten, Nutzer sollen sie vorher exportieren. Laufende Abos werden erstattet. Die lokale Mac-Version erhält bis Anfang 2027 noch neue Modelle und wichtige Fehlerkorrekturen, danach läuft auch sie schrittweise aus."
+    ]
+   },
+   "bg": {
+    "t": "Meta купува Conductor: стартъпът пуска няколко ИИ агента за програмиране паралелно",
+    "d": "Екипът на американския стартъп ще работи с лабораторията за суперинтелект на Meta. За клиентите това означава: облачната услуга спира на 20 ноември, след което започва изтриването на данните.",
+    "body": [
+     "Meta придобива американския стартъп Conductor. Компанията обяви това в сряда на сайта си под заглавието „Conductor is joining Meta“, а Meta е потвърдила сделката пред TechCrunch, според XenoSpectrum. Софтуерът на Conductor, на пазара от юли 2025 г., позволява на разработчиците да пускат няколко ИИ агента за програмиране – сред тях Claude Code на Anthropic и Codex на OpenAI – едновременно върху отделни копия на софтуерен проект. Финансови подробности не са съобщени.",
+     "Според MarketScale екипът около основателя и главен изпълнителен директор Чарли Холц ще работи с Meta Superintelligence Labs; Холц е посочил Нат Фридман и главния директор по ИИ на Meta Александър Уанг. В X той обяви „големи, щури планове“ за нов интерфейс, който трябва да излезе в началото на 2027 г.",
+     "За клиентите покупката има непосредствени последици: от 4 ноември Conductor не приема нови потребители. От 13 ноември Conductor Cloud ще бъде само за четене, а на 20 ноември услугата спира – тогава започва изтриването на облачните данни и потребителите трябва да ги експортират преди това. Текущите абонаменти ще бъдат възстановени. Локалната версия за Mac ще получава нови модели и важни поправки до началото на 2027 г., след което и тя постепенно ще бъде прекратена."
+    ]
+   },
+   "en": {
+    "t": "Meta buys Conductor: start-up lets several AI coding agents work in parallel",
+    "d": "The US start-up's team is to work with Meta's superintelligence lab. For customers, that means the cloud service shuts down on 20 November, after which data deletion begins.",
+    "body": [
+     "Meta is acquiring US start-up Conductor. The company announced the move on Wednesday on its website under the headline “Conductor is joining Meta”, and according to XenoSpectrum, Meta confirmed the acquisition to TechCrunch. Conductor's software, on the market since July 2025, lets developers run several AI coding agents – including Anthropic's Claude Code and OpenAI's Codex – simultaneously on separate copies of a software project. No financial details were given.",
+     "According to MarketScale, the team led by founder and CEO Charlie Holtz will work with Meta Superintelligence Labs; Holtz named Nat Friedman and Meta's chief AI officer Alexandr Wang. On X he announced “big, crazy plans” for a new interface due in early 2027.",
+     "For customers, the deal has immediate consequences: since 4 November Conductor has stopped accepting new users. From 13 November Conductor Cloud will be read-only, and on 20 November the service shuts down – at which point deletion of cloud data begins, so users are asked to export it beforehand. Active subscriptions will be refunded. The local Mac version will keep getting new models and critical bug fixes until early 2027, after which it too will gradually be wound down."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-06/meta-conductor-coding-agenten.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "LPS.1",
+    "lic": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Meta_Platforms_Headquarters_Menlo_Park_California.jpg",
+    "alt": {
+     "de": "Archivbild: Eingang zur Meta-Zentrale in Menlo Park, Kalifornien",
+     "bg": "Архивна снимка: входът на централата на Meta в Менло Парк, Калифорния",
+     "en": "Archive image: entrance to Meta's headquarters in Menlo Park, California"
+    }
+   }
+  }
+ ]
+}
