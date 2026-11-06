@@ -15,8 +15,11 @@ today = datetime.datetime.now(ZoneInfo('Europe/Berlin')).date()
 since = (today - datetime.timedelta(days=2)).isoformat()
 
 root = ET.parse('out/sitemap.xml').getroot()
+_roots = [root]
+if root.tag.endswith('sitemapindex'):   # seit 06.11.2026: sitemap.xml ist ein Index über sitemap-1.xml, sitemap-2.xml …
+    _roots = [ET.parse(os.path.join('out', s.find('s:loc', NS).text.rsplit('/', 1)[1])).getroot() for s in root.findall('s:sitemap', NS)]
 recent = [(u.find('s:loc', NS).text, (u.find('s:lastmod', NS).text or '')[:10] if u.find('s:lastmod', NS) is not None else '')
-          for u in root.findall('s:url', NS)]
+          for r in _roots for u in r.findall('s:url', NS)]
 urls = [loc for loc, lm in recent if not lm or lm >= since][:10000]
 
 

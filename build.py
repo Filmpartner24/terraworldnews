@@ -3563,12 +3563,24 @@ def build():
         os.makedirs(os.path.dirname(fp), exist_ok=True)
         open(fp, 'w', encoding='utf-8').write(json.dumps(pages, ensure_ascii=False, separators=(',', ':')))
     # ---- sitemaps
-    sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
-    for url, alts, lm in urls:
-        _xd = alts.get('en') or alts.get('bg')   # x-default wie in den Seiten-Köpfen (Nedy 29.10.2026)
-        sm += f'  <url><loc>{SITE}{url}</loc><lastmod>{lm}</lastmod>' + ''.join(f'<xhtml:link rel="alternate" hreflang="{a}" href="{SITE}{h}"/>' for a, h in alts.items()) + (f'<xhtml:link rel="alternate" hreflang="x-default" href="{SITE}{_xd}"/>' if _xd else '') + '</url>\n'
-    sm += '</urlset>\n'
-    open(os.path.join(OUT, 'sitemap.xml'), 'w', encoding='utf-8').write(sm)
+    # Sitemap in Teilen (06.11.2026): eine einzige sitemap.xml überschritt die Cloudflare-Grenze von 25 MiB pro Datei
+    # und ließ alle Veröffentlichungen scheitern. Jetzt sitemap.xml = Sitemap-Index + sitemap-1.xml, sitemap-2.xml … (je 4.000 URLs).
+    SM_CHUNK = 4000
+    _parts = []
+    for _i in range(0, len(urls), SM_CHUNK):
+        sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
+        _lm_max = ''
+        for url, alts, lm in urls[_i:_i + SM_CHUNK]:
+            _xd = alts.get('en') or alts.get('bg')   # x-default wie in den Seiten-Köpfen (Nedy 29.10.2026)
+            sm += f'  <url><loc>{SITE}{url}</loc><lastmod>{lm}</lastmod>' + ''.join(f'<xhtml:link rel="alternate" hreflang="{a}" href="{SITE}{h}"/>' for a, h in alts.items()) + (f'<xhtml:link rel="alternate" hreflang="x-default" href="{SITE}{_xd}"/>' if _xd else '') + '</url>\n'
+            _lm_max = max(_lm_max, lm or '')
+        sm += '</urlset>\n'
+        _fn = f'sitemap-{len(_parts) + 1}.xml'
+        open(os.path.join(OUT, _fn), 'w', encoding='utf-8').write(sm)
+        _parts.append((_fn, _lm_max))
+    open(os.path.join(OUT, 'sitemap.xml'), 'w', encoding='utf-8').write(
+        '<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + ''.join(f'  <sitemap><loc>{SITE}/{fn}</loc>' + (f'<lastmod>{lm}</lastmod>' if lm else '') + '</sitemap>\n' for fn, lm in _parts) + '</sitemapindex>\n')
     newest = max(d['date'] for d in eds)
     recent = [it for it in allitems if (datetime.date.fromisoformat(newest) - datetime.date.fromisoformat(it['date'])).days <= 1]
     ns = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n'
