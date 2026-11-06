@@ -633,6 +633,8 @@ def globe_svg(cls='globe'):
             '<circle cx="57" cy="23" r="6" fill="#e0342a"/></svg>')
 
 import hashlib as _hl
+import datetime as _bd, zoneinfo as _bz
+BUILD_DAY = _bd.datetime.now(_bz.ZoneInfo('Europe/Berlin')).date().isoformat()   # Datumsleiste immer mit dem aktuellen Tag, nie mit dem Artikeldatum (Nedy 06.11.2026); terra.js aktualisiert live
 ASSET_V={n:_hl.md5(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'static','assets',n),'rb').read()).hexdigest()[:8] for n in ('fonts.css','terra.css')}
 ASSET_V['search.js']=_hl.md5(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'search.js'),'rb').read()).hexdigest()[:8]
 ASSET_V['terra.js']=_hl.md5(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'terra.js'),'rb').read()).hexdigest()[:8]
@@ -729,7 +731,7 @@ def page(l, act, title, desc, canon, body, alternates=None, ld=None, og_type='we
   </div>
   <header class="mast">
     <p class="brand"><a href="{home(l)}"><img class="mast-logo" src="/assets/terra-masthead5-800.webp" srcset="/assets/terra-masthead5-800.webp 800w, /assets/terra-masthead5-1600.webp 1600w" sizes="(max-width: 700px) 86vw, 620px" width="800" height="209" alt="TERRA WORLD NEWS" fetchpriority="high"></a></p>
-    <div class="edition"><span class="ed-clock" id="edclock"><span class="ed-city">{e(u['clocks'][0][0])}</span> <b data-tz="Europe/Berlin">--:--</b></span><span class="mid">{e(nice_date(date, l)) if date else ''}</span><span class="ed-wx" id="edwx" title="{e(WXT[l])}"></span></div>
+    <div class="edition"><span class="ed-clock" id="edclock"><span class="ed-city">{e(u['clocks'][0][0])}</span> <b data-tz="Europe/Berlin">--:--</b></span><span class="mid" id="eddate">{e(nice_date(BUILD_DAY, l))}</span><span class="ed-wx" id="edwx" title="{e(WXT[l])}"></span></div>
   </header>
   <div id="nv-sentinel" aria-hidden="true"></div>
   <nav class="sections nv2" id="mainnav" aria-label="{e(u['home'])}"><div class="nv-bar"><a class="nv-logo" href="{home(l)}" aria-label="TWN – World News"><img src="/assets/nav-w2.png" width="40" height="30" alt=""></a><button type="button" class="nav-tg" aria-expanded="false" aria-controls="navitems"><span class="hb" aria-hidden="true"><i></i><i></i><i></i></span><span class="nav-tl">{ LX({'bg': 'Меню', 'de': 'Menü', 'en': 'Menu'}).get(l, 'Menu') }</span></button><div class="nav-items" id="navitems">{nav}</div><a class="nv-search" href="{search_url(l)}" aria-label="{e(SUI[l]['title'])}"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg></a></div><div class="nv-swipe" aria-label="{e(u['home'])}">{swipe}</div></nav>

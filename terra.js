@@ -15,7 +15,9 @@
 (function(){
   var lang=document.documentElement.lang||'bg';
   var loc={bg:'bg-BG',de:'de-DE'}[lang]||lang;
-  function clocks(){document.querySelectorAll('[data-tz]').forEach(function(b){try{b.textContent=new Intl.DateTimeFormat(loc,{hour:'2-digit',minute:'2-digit',timeZone:b.dataset.tz}).format(new Date())}catch(e){}})}
+  function clocks(){document.querySelectorAll('[data-tz]').forEach(function(b){try{b.textContent=new Intl.DateTimeFormat(loc,{hour:'2-digit',minute:'2-digit',timeZone:b.dataset.tz}).format(new Date())}catch(e){}})
+    /* Datumsleiste: immer das heutige Datum (Zeitzone der angezeigten Uhr), nie das Artikeldatum (Nedy 06.11.2026) */
+    var md=document.getElementById('eddate'),cb=document.querySelector('#edclock b');if(md){try{var s=new Intl.DateTimeFormat({en:'en-GB'}[lang]||loc,{weekday:'long',day:'numeric',month:'long',year:'numeric',timeZone:(cb&&cb.dataset.tz)||'Europe/Berlin'}).format(new Date());md.textContent=s.charAt(0).toUpperCase()+s.slice(1)}catch(e){}}}
   clocks();setInterval(clocks,20000);
   /* Datumsleiste: Hauptstadt des Besucherlandes + Ortszeit, Temperatur am Standort (Daten: /api/wx, MET Norway) */
   (function(){var ec=document.getElementById('edclock'),ew=document.getElementById('edwx');if(!ec||!window.fetch)return;
