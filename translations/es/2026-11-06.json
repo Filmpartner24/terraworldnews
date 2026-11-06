@@ -3175,6 +3175,52 @@
     "img.alt": "Fachada del edificio de The New York Times en Manhattan (foto de archivo)"
    }
   },
+  "news-pearl-jam-schlagzeuger-suche": {
+   "L": {
+    "body": [
+     "Pearl Jam aún no ha encontrado un sustituto fijo para Matt Cameron. Lo dijo el bajista Jeff Ament a la revista Under the Radar, según informó Ultimate Classic Rock el 4 de noviembre. Cameron dejó la banda en 2025 tras 27 años. Ament calificó la despedida de «a pretty f—ing sad moment», aunque dijo que no le sorprendió: según Ament, Cameron llevaba un tiempo sin saber si quería seguir tocando.",
+     "En la primera actuación tras la marcha de Cameron, a finales de septiembre en el Ohana Festival, estuvo en la batería Abe Laboriel Jr., colaborador desde hace años de Paul McCartney. Ament lo describe como «such an incredible drummer»; oficialmente no ha sido confirmado como nuevo miembro. El cantante Eddie Vedder agradeció a Laboriel en un comunicado que hubiera echado una mano.",
+     "No hay fechas concretas de conciertos. Según Ament, la banda está «not in any massive rush but we want to play some shows next year». Vedder ofrecerá dos conciertos en solitario en Brasil en noviembre."
+    ],
+    "d": "Más de un año después de la salida de Matt Cameron, su sucesor sigue sin definirse. El bajista Jeff Ament dijo que la banda no tiene prisa, pero que quiere volver a tocar en directo el próximo año.",
+    "t": "Pearl Jam sigue buscando batería fijo; Ament espera tocar en directo en 2027"
+   },
+   "at": "2026-11-06T13:55Z",
+   "h": "c2d72aac48b6",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Pearl Jam en el Madison Square Garden en 2010"
+   }
+  },
+  "news-rush-sphere-tour-2027": {
+   "L": {
+    "body": [
+     "Rush actuará en mayo de 2027 con la serie de conciertos «Elevate From The Norm» en el Sphere de Las Vegas: los días 21, 23, 26, 28 y 30 de mayo. Además de Geddy Lee y Alex Lifeson, estarán en el escenario la baterista Anika Nilles y el teclista Loren Gold. Geddy Lee: «We are so effin' excited to make use of this incredible opportunity to please our fans both visually and viscerally».",
+     "Los paquetes de viaje están disponibles desde hoy, 6 de noviembre. La preventa para artistas comienza el 11 de noviembre y la venta general el 13 de noviembre, en ambos casos a las 10:00 hora local de Los Ángeles (19:00 hora alemana). La banda presenta la serie de conciertos en un vídeo propio.",
+     "Los espectáculos del Sphere siguen a la gira mundial «Fifty Something», con la que Rush celebra su música y la vida del fallecido baterista y letrista Neil Peart. En Alemania, la banda tocará el 21 de febrero de 2027 en Berlín, el 25 de febrero en Múnich, el 28 de febrero en Colonia, el 2 de marzo en Hamburgo y el 4 de marzo en Stuttgart."
+    ],
+    "d": "Geddy Lee y Alex Lifeson continúan su regreso en el recinto esférico. Antes, Rush actuará en Alemania en cinco conciertos en febrero y marzo de 2027.",
+    "t": "Rush tocará cinco conciertos en el Sphere de Las Vegas en mayo de 2027"
+   },
+   "at": "2026-11-06T13:55Z",
+   "h": "15d74cec8151",
+   "rev": [
+    "Time zone error: 10:00 Los Angeles time is 19:00 German time per the original, so that is kept (no change).",
+    "Neil Peart's role: \"batería\" is acceptable, but \"baterista\" is more consistent with the earlier use in the draft."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Geddy Lee, de Rush, en directo en 2008"
+   }
+  },
   "ombudsfrau-mehrwertsteuer-gas-haushalte-2026-11-06-b11": {
    "L": {
     "body": [
@@ -3292,6 +3338,76 @@
    ],
    "x": {
     "img.alt": "Foto de archivo: el capitán del Lyon, Corentin Tolisso (2023)"
+   }
+  },
+  "regensburg-qubit-feedback": {
+   "L": {
+    "body": [
+     "Físicos de la Universidad de Ratisbona han presentado un método para compensar un determinado error en los bits cuánticos superconductores (cúbits). Se estudió un cúbit en un chip cuya frecuencia de resonancia salta de un lado a otro entre dos valores conocidos debido a diminutos defectos del material. El estudio fue dirigido por Ferdinand Kuemmeth, profesor en Ratisbona y en el Instituto Niels Bohr de Copenhague. También participaron la Universidad de Leiden, la NTNU de Noruega y las empresas Quantum Machines y Qolab. El trabajo se ha publicado en Applied Physics Reviews.",
+     "Antes de una serie de pasos de cálculo, el cúbit se coloca brevemente en un estado de superposición y se deja a su suerte. La medición posterior muestra cuál de las dos frecuencias está activa en ese momento; el resultado se incorpora en tiempo real a las señales de control. La tasa media de error bajó así de aproximadamente el 0,14 al 0,065 por ciento, es decir, en torno a un 54 por ciento. Frente a los peores valores sin esta retroalimentación, la reducción fue del 77 por ciento. El posdoctorando de Ratisbona Fabrizio Berritta controló a distancia el hardware del Israeli Quantum Computing Center.",
+     "El método tiene límites: las posibles frecuencias deben conocerse de antemano, diferenciarse claramente y mantenerse estables durante el tiempo suficiente. Kuemmeth admite: «A primera vista, la ventaja práctica de nuestro método parece limitada». Según Kuemmeth, en ordenadores cuánticos más grandes, sin embargo, la estabilización de cúbits individuales podría aportar mucho."
+    ],
+    "d": "Diminutos defectos del material hacen que algunos cúbits salten entre dos frecuencias. Un equipo de Ferdinand Kuemmeth, de la Universidad de Ratisbona, comprueba antes cuál rige y reduce los errores en más de la mitad.",
+    "t": "Un cúbit con dos humores: una medición rápida reduce a la mitad su tasa de error"
+   },
+   "at": "2026-11-06T13:55Z",
+   "h": "c290ad9464c4",
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico simbólico: representación en 3D de un chip de procesador cuántico superconductor"
+   }
+  },
+  "review-bryan-adams-hows-it-goin": {
+   "L": {
+    "body": [
+     "Con «How's It Goin'», Bryan Adams presenta hoy un álbum sobre su tierra natal. Sale en su propio sello, BAD Records, y contiene doce canciones. El impulso fue una canción para el documental «Canada's Wild Eastern Edge»: «The idea was simply to make a record about Canada», dice Adams.",
+     "Philip Wilding, de Louder/Classic Rock, lo considera uno de los mejores y más inspirados álbumes de Adams en años. En lugar del pop rock pulido de los discos más recientes, hay una mezcla de raíces, folk y rock, para el crítico «a sudden left that feels right». Según Wilding, Adams saca algo «magical and artful» de temas como la fiebre del oro del Klondike, el derrumbe del puente Second Narrows y la construcción del Canadian Pacific Railway.",
+     "La política llega con «51st State», que Wilding interpreta como una respuesta mordaz a los críticos de la vida canadiense. Su veredicto sobre el músico: «very few people do radio rock like the ageless Adams»; y este disco, según Wilding, demuestra que puede escribir en casi cualquier forma."
+    ],
+    "d": "Doce canciones sobre la historia y los paisajes de Canadá: Classic Rock sitúa el nuevo álbum entre los mejores y más inspirados de Bryan Adams en años.",
+    "t": "Bryan Adams – «How's It Goin'», reseña: una declaración de amor a Canadá con folk y raíces"
+   },
+   "at": "2026-11-06T13:55Z",
+   "h": "f6337532da66",
+   "rev": [
+    "\"Según Wilding, Adams habría sacado\" uses the conditional of rumour/doubt, which makes it sound unconfirmed; \"saque\" or a plain reported verb is better, though attribution is already present",
+    "Third paragraph: \"según dijo\" and \"afirmó\" are clumsy and \"demostraría, afirmó\" is awkward; the sentence needs smoothing",
+    "\"Canadian Pacific Railway\" is a proper name and \"construcción del Canadian Pacific Railway\" has the wrong gender (should be \"del ferrocarril Canadian Pacific\")"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Bryan Adams en directo en Margate en 2024",
+    "rv.score": "Louder/Classic Rock (Philip Wilding): «a sudden left that feels right»"
+   }
+  },
+  "review-kings-of-leon-o-my-beloved": {
+   "L": {
+    "body": [
+     "«O My Beloved» es el décimo álbum de estudio de Kings of Leon y sale hoy en Love Tap Records, con distribución de Virgin Music. Es el primer disco que la banda ha producido por completo por sí misma. Las 13 canciones se consideran las más personales hasta la fecha; como primer sencillo se publicó «My Whole World».",
+     "Jazz Hodge, de Louder, oye un disco sobre la familia, la paternidad y la vida en común, una colección de canciones personales, «almost like a bundle of letters passed between the Followills». Según Hodge, las raíces del rock sureño siguen ahí, pero el sonido es más suave y con matices country; «Feel The Love» mostraría a Caleb Followill en su faceta más tierna. El disco, afirma, pertenece a espacios más pequeños y a domingos tranquilos: «It's not ground-breaking (but that hardly seems to be the point).»",
+     "Ian Glackin, de la revista RIFF, es más severo y da 5 de 10 puntos: según él, el cambio de ritmo solo da resultado de vez en cuando y las canciones suenan con demasiada frecuencia «safe and repetitive». Entre los temas más fuertes cita «My Whole World» y «Make It Count», con su solo de guitarra anguloso."
+    ],
+    "d": "El décimo álbum de los Followill es el más personal y el primero producido íntegramente por ellos. La crítica oye un suave rock sureño, a veces encantador y a veces demasiado uniforme.",
+    "t": "Kings of Leon – reseña de «O My Beloved»: un disco familiar para domingos tranquilos"
+   },
+   "at": "2026-11-06T13:55Z",
+   "h": "2b1d5d7ee277",
+   "rev_dbg": [
+    5,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Kings of Leon en el FIB de Benicàssim",
+    "rv.score": "RIFF: 5/10 · Louder (Jazz Hodge): «It's not ground-breaking (but that hardly seems to be the point)»"
    }
   },
   "rubio-dementiert-ruecktrittsplaene-2026-11-06-b08": {
@@ -3648,6 +3764,76 @@
    ],
    "x": {
     "img.alt": "Foto de archivo: Alexander Volkanovski en UFC 232"
+   }
+  },
+  "video-robert-plant-the-blackest-crow": {
+   "L": {
+    "body": [
+     "«The Blackest Crow» abre el EP «Saving Grace: All That Glitters...», que Robert Plant grabó con su banda Saving Grace y produjo él mismo. Con motivo del Record Store Day, el 18 de abril, salió primero en vinilo; desde el 9 de octubre también está disponible en formato digital en Nonesuch Records. Incluye además «Two Coats», que Plant describe como «a great Ralph Stanley song», así como «Orphan Girl», de Gillian Welch, y «Poison», de Bert Jansch.",
+     "La banda está formada por la cantante Suzi Dian, el baterista Oli Jefferson, el guitarrista Tony Kelsey, Matt Worley (banjo, instrumentos de cuerda) y el chelista Barney Morse-Brown. Sobre las grabaciones, Plant dice: «We've had these songs that we normally might play on stage that we've decided to record.» Según Parade, anunció el lanzamiento digital el 9 de octubre con un fragmento del vídeo.",
+     "Según Parade, para 2027 hay dos conciertos confirmados: el 10 de julio en el Gent Jazz Festival, en Bélgica, y el 17 de julio en el castillo de Sigulda, en Letonia. El vídeo muestra el videoclip oficial de «The Blackest Crow»."
+    ],
+    "d": "Con su banda Saving Grace, Robert Plant ha grabado el tradicional «The Blackest Crow». El EP «All That Glitters...» está disponible en formato digital desde el 9 de octubre.",
+    "t": "Robert Plant – «The Blackest Crow»: un tradicional con Saving Grace"
+   },
+   "at": "2026-11-06T13:55Z",
+   "h": "bf88546eb75b",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Robert Plant con Saving Grace en 2022"
+   }
+  },
+  "video-royal-blood-dead-company": {
+   "L": {
+    "body": [
+     "Mike Kerr (voz, bajo) y Ben Thatcher (batería) han producido ellos mismos su quinto álbum de estudio, «Dead Company». Según Radio X y Premier Guitar, las diez canciones saldrán el 13 de noviembre en Warner Records. El tema que da título al disco abre el álbum; el primer adelanto, «Ten Over Ten», se publicó en agosto.",
+     "Según Kerrang!, el disco se grabó en Brighton, en una pequeña casita de jardín; Kerr la llama «basically a glorified shed». Su objetivo: «We wanted this record to be relentless.» La banda anunció que en este álbum tocaría más rápido y más duro que nunca; según explicó, las canciones habrían sido escritas pensando en el escenario.",
+     "Royal Blood llegará a Alemania en marzo de 2027: el 1 de marzo en el E-Werk de Colonia, el 2 de marzo en la Columbiahalle de Berlín y el 3 de marzo en la Muffathalle de Múnich. El vídeo muestra el videoclip oficial de «Dead Company»."
+    ],
+    "d": "El dúo británico presenta el tema principal de su nuevo disco. «Dead Company» sale el 13 de noviembre y la banda tocará en Colonia, Berlín y Múnich en marzo de 2027.",
+    "t": "Royal Blood – «Dead Company»: vídeo del tema que da título a su quinto álbum"
+   },
+   "at": "2026-11-06T13:55Z",
+   "h": "6144b90460b0",
+   "rev": [
+    "Indirect speech rendered awkwardly: «tocaría» and «habrían sido escritas» with «según dijo» is unnatural and shifts the modality; the band announced that it plays faster and harder, and the songs were"
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Royal Blood en directo en Norwich, 2021"
+   }
+  },
+  "video-starcrawler-kick-me": {
+   "L": {
+    "body": [
+     "Starcrawler han publicado «Kick Me», el tema que da título a su cuarto álbum. El disco, con doce canciones, sale el 26 de marzo de 2027 y es, según Live Music Blog, el primer álbum que la banda publica de forma independiente. Antes, este año ya había aparecido el sencillo «On 2 U».",
+     "El guitarrista Henri Cash cuenta que la canción se remonta a sus años de colegio, cuando, según él, admiraba a Elvis Presley, tocaba la tuba y era «the one weird freak» que no encajaba con los demás niños. Su conclusión: «We are all still weird freaks in our own ways, and that's probably why we all get along so well.»",
+     "La cantante Arrow de Wilde, que también interpreta el papel principal, dirigió el vídeo. Louder lo describe como un frenesí de instituto en rosa y negro, con el clásico enfrentamiento entre deportistas y marginados como tema. En febrero y marzo de 2027, la banda estará de gira por Norteamérica con Dinosaur Jr. El vídeo muestra el videoclip oficial de «Kick Me»."
+    ],
+    "d": "La banda de rock liderada por Arrow de Wilde anuncia su cuarto álbum con el tema que le da título. «Kick Me» sale el 26 de marzo de 2027, el primer disco independiente del grupo.",
+    "t": "Starcrawler – «Kick Me»: la cantante Arrow de Wilde dirige el caos del instituto"
+   },
+   "at": "2026-11-06T13:55Z",
+   "h": "71153b644460",
+   "rev": [
+    "Indirect speech: \"se remontaría\" and \"habría sido\" are awkward conditionals and the tense \"contó\" does not match the German present \"erzählt\"; it should be a clear reporting construction.",
+    "In the German, \"mit den anderen Kindern nichts anfangen konnte\" belongs to Cash's account; the Spanish wording should make clear that it is part of what he says."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Arrow de Wilde con Starcrawler en Rock am Ring 2018"
    }
   },
   "vitamin-k-neugeborene-blutungen-jama-2026-11-06": {
