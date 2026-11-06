@@ -27,7 +27,7 @@ Je Meldung bg/de/en: t ≤90, d ≤220, body = JSON-LISTE mit 2–3 Absätzen (n
 
 2. FAKTENCHECK: ein unabhängiger Faktenprüfer-Subagent prüft jede Zahl, jeden Namen, jedes Datum, jede Wertung und jedes Video gegen die Quellen; Korrekturen übernehmen, Unbestätigtes streichen (ggf. ersetzen).
 
-3. VERÖFFENTLICHEN: Python-Prüfung (JSON gültig, jedes body eine Liste, img.f beginnt mit "/", Längen t/d eingehalten). cd /home/claude/terra && PYTHONHASHSEED=1 python3 build.py fehlerfrei; out/de/musik/index.html stichprobenartig prüfen. git add content static/assets/news candidates; commit „Musik <Datum>“ mit den Attributionszeilen der Sitzung; git pull --rebase; git push. Nach ~4 Min. prüfen, dass der Action-Lauf erfolgreich war und die Fotos unter static/assets/news/<Datum>/ angekommen sind.
+3. VERÖFFENTLICHEN: Python-Prüfung (JSON gültig, jedes body eine Liste, img.f beginnt mit "/", Längen t/d eingehalten). cd /home/claude/terra && PYTHONHASHSEED=1 python3 build.py fehlerfrei; out/de/musik/index.html stichprobenartig prüfen. git add content static/assets/news candidates; commit „Musik <Datum> [CF-Pages-Skip]“ (bei neuen Commons-Fotos, siehe _regeln.md Nr. 6 „Keine leeren Kacheln“) mit den Attributionszeilen der Sitzung; git pull --rebase; git push. Nach ~4 Min. prüfen, dass der Action-Lauf erfolgreich war und die Fotos unter static/assets/news/<Datum>/ angekommen sind.
 
 4. BERICHT (SendUserMessage via ToolSearch laden, und als finale Antwort), kurz auf Deutsch: die Schlagzeilen (welche mit Video/Kanal), was weggelassen wurde und warum.
 

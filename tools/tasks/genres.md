@@ -15,7 +15,7 @@ TERRA WORLD NEWS (terraworldnews.com) – tägliche Aufgabe MUSIK-GENRE (Nedy 26
 
 4. FAKTENCHECK: ein unabhängiger Faktenprüfer-Subagent prüft jede Zahl, jeden Namen, jedes Datum, jede Wertung, jedes Zitat gegen die src-URLs; Korrekturen übernehmen, Unbestätigtes streichen.
 
-5. VERÖFFENTLICHEN: Python-Prüfung (JSON gültig, 9 Items mit 3 × video, 3 × review, 3 × news, body Listen, Längen, img.f mit "/", keine doppelten ids in content/<heute>*.json). PYTHONHASHSEED=1 python3 build.py fehlerfrei; out/de/musik/<genre-slug>/index.html prüfen (rock, metal, indie-alternative, pop, hip-hop). git add content static/assets/news candidates bridge; commit „Genre <genre> <Datum>“ mit den Attributionszeilen der Sitzung; git pull --rebase; git push. Nach ~4 Min. Action-Lauf und Fotos prüfen; danach candidates/<Datum>-g-<genre> und bridge/g-<genre> in einem Folge-Commit löschen.
+5. VERÖFFENTLICHEN: Python-Prüfung (JSON gültig, 9 Items mit 3 × video, 3 × review, 3 × news, body Listen, Längen, img.f mit "/", keine doppelten ids in content/<heute>*.json). PYTHONHASHSEED=1 python3 build.py fehlerfrei; out/de/musik/<genre-slug>/index.html prüfen (rock, metal, indie-alternative, pop, hip-hop). git add content static/assets/news candidates bridge; commit „Genre <genre> <Datum> [CF-Pages-Skip]“ (bei neuen Commons-Fotos, siehe _regeln.md Nr. 6 „Keine leeren Kacheln“) mit den Attributionszeilen der Sitzung; git pull --rebase; git push. Nach ~4 Min. Action-Lauf und Fotos prüfen; danach candidates/<Datum>-g-<genre> und bridge/g-<genre> in einem Folge-Commit löschen.
 
 6. BERICHT (SendUserMessage via ToolSearch laden, und als finale Antwort), kurz auf Deutsch: die 9 Schlagzeilen, Videos mit Kanal, was weggelassen wurde und warum.
 

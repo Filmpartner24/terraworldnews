@@ -11,7 +11,7 @@ TERRA WORLD NEWS (terraworldnews.com) – tägliches Update der Rubrik GAMES (BG
 
 2. FAKTENCHECK: ein unabhängiger Faktenprüfer-Subagent prüft jede Wertung, jedes Datum, jeden Namen und das Video gegen die Quellen; Korrekturen übernehmen, Unbestätigtes streichen.
 
-3. VERÖFFENTLICHEN: Python-Prüfung (jedes body eine Liste, img.f beginnt mit "/", JSON gültig, am Ende genau 6 Items des Tages: 3 mit yt + rv, 3 ohne yt). cd /home/claude/terra && PYTHONHASHSEED=1 python3 build.py fehlerfrei; out/de/games/index.html stichprobenartig prüfen. git add content/*-games.json static/assets/news candidates; commit „Games <Datum>“ mit den Attributionszeilen der Sitzung; git pull --rebase; git push. Nach ~4 Min. prüfen, dass der Action-Lauf erfolgreich war und die Fotos angekommen sind.
+3. VERÖFFENTLICHEN: Python-Prüfung (jedes body eine Liste, img.f beginnt mit "/", JSON gültig, am Ende genau 6 Items des Tages: 3 mit yt + rv, 3 ohne yt). cd /home/claude/terra && PYTHONHASHSEED=1 python3 build.py fehlerfrei; out/de/games/index.html stichprobenartig prüfen. git add content/*-games.json static/assets/news candidates; commit „Games <Datum> [CF-Pages-Skip]“ (bei neuen Commons-Fotos, siehe _regeln.md Nr. 6 „Keine leeren Kacheln“) mit den Attributionszeilen der Sitzung; git pull --rebase; git push. Nach ~4 Min. prüfen, dass der Action-Lauf erfolgreich war und die Fotos angekommen sind.
 
 4. BERICHT (SendUserMessage via ToolSearch laden, und als finale Antwort), kurz auf Deutsch: die 6 Schlagzeilen (Reviews mit Video-Kanal, Wertung und Quelle; News), was weggelassen wurde und warum.
 

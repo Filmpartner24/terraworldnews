@@ -16,7 +16,7 @@ THEMENKACHELN (Nedy 01.11.2026): jedes Item bekommt "hk": "heute" (Kalenderblatt
 
 3. FAKTENCHECK: ein unabhängiger Faktenprüfer-Subagent prüft jede Zahl, jeden Namen, jedes Datum und jedes Zitat gegen die Quellen sowie die Haltungsregeln; Korrekturen übernehmen, Unbestätigtes streichen.
 
-4. VERÖFFENTLICHEN: Python-Prüfung (JSON gültig, 3 Items, s="history", body Listen mit 3 Absätzen, Längen, img.f mit "/", keine doppelten ids in content/<heute>*.json). PYTHONHASHSEED=1 python3 build.py fehlerfrei; out/de/history/index.html prüfen. git add content static/assets/news candidates; commit „History <Datum>“ mit den Attributionszeilen der Sitzung; git pull --rebase; git push. Nach ~4 Min. Action-Lauf und Fotos prüfen.
+4. VERÖFFENTLICHEN: Python-Prüfung (JSON gültig, 3 Items, s="history", body Listen mit 3 Absätzen, Längen, img.f mit "/", keine doppelten ids in content/<heute>*.json). PYTHONHASHSEED=1 python3 build.py fehlerfrei; out/de/history/index.html prüfen. git add content static/assets/news candidates; commit „History <Datum> [CF-Pages-Skip]“ (bei neuen Commons-Fotos, siehe _regeln.md Nr. 6 „Keine leeren Kacheln“) mit den Attributionszeilen der Sitzung; git pull --rebase; git push. Nach ~4 Min. Action-Lauf und Fotos prüfen.
 
 5. SEITE (zur Info): Die HISTORY-Seite zeigt oben die Videos der Reihe „FilmPartner24 – History“ (Exklusiv-Beiträge mit "exk" … „FilmPartner24 – History“ erscheinen automatisch auch hier), darunter die neuesten Geschichten und darunter das wachsende Archiv mit Seitenzahlen. Nichts wird gelöscht.
 
