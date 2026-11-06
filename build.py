@@ -825,7 +825,7 @@ def ch_html(ch):
     u = CH_LINK.get((ch or '').lower().replace(' ', ''))
     return f'<a href="{u}" target="_blank" rel="noopener">{e(ch)}</a>' if u else e(ch)
 
-BK_SLOTS = ['08:00', '11:00', '13:00', '15:30', '18:30', '21:00']
+BK_SLOTS = ['08:00', '11:00', '15:30', '18:30', '21:00']   # 13:00 entfällt (Nedy 06.11.2026)
 BKT = {'bg': dict(nxt='Следваща актуализация', tm='утре', live='НА ЖИВО', upd='Актуализация'),
        'de': dict(nxt='Nächstes Update', tm='morgen', live='LIVE', upd='Update'),
        'en': dict(nxt='Next update', tm='tomorrow', live='LIVE', upd='Update')}
