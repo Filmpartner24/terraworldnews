@@ -8,7 +8,7 @@
   "tr": "NBA"
  },
  "season": "2026/27",
- "asof": "2026-11-05",
+ "asof": "2026-11-06",
  "tables": [
   {
    "name": {
@@ -51,22 +51,22 @@
      "l": 4
     },
     {
-     "team": "Washington Wizards",
-     "w": 4,
-     "l": 4
-    },
-    {
      "team": "New York Knicks",
      "w": 4,
      "l": 4
     },
     {
-     "team": "Miami Heat",
-     "w": 3,
-     "l": 5
+     "team": "Washington Wizards",
+     "w": 4,
+     "l": 4
     },
     {
      "team": "Charlotte Hornets",
+     "w": 3,
+     "l": 6
+    },
+    {
+     "team": "Miami Heat",
      "w": 3,
      "l": 6
     },
@@ -78,7 +78,7 @@
     {
      "team": "Orlando Magic",
      "w": 2,
-     "l": 5
+     "l": 6
     },
     {
      "team": "Brooklyn Nets",
@@ -138,13 +138,13 @@
      "l": 2
     },
     {
-     "team": "Minnesota Timberwolves",
+     "team": "Golden State Warriors",
      "w": 6,
      "l": 3
     },
     {
-     "team": "Golden State Warriors",
-     "w": 5,
+     "team": "Minnesota Timberwolves",
+     "w": 6,
      "l": 3
     },
     {
@@ -164,7 +164,7 @@
     },
     {
      "team": "Phoenix Suns",
-     "w": 1,
+     "w": 2,
      "l": 5
     },
     {
@@ -173,12 +173,12 @@
      "l": 7
     },
     {
-     "team": "Sacramento Kings",
+     "team": "Utah Jazz",
      "w": 1,
      "l": 7
     },
     {
-     "team": "Utah Jazz",
+     "team": "Sacramento Kings",
      "w": 1,
      "l": 7
     }
@@ -186,42 +186,6 @@
   }
  ],
  "matches": [
-  {
-   "t1": "Detroit Pistons",
-   "t2": "Philadelphia 76ers",
-   "date": "2026-11-05",
-   "ft": [
-    106,
-    112
-   ]
-  },
-  {
-   "t1": "Washington Wizards",
-   "t2": "Atlanta Hawks",
-   "date": "2026-11-05",
-   "ft": [
-    105,
-    120
-   ]
-  },
-  {
-   "t1": "Boston Celtics",
-   "t2": "Milwaukee Bucks",
-   "date": "2026-11-05",
-   "ft": [
-    109,
-    102
-   ]
-  },
-  {
-   "t1": "Brooklyn Nets",
-   "t2": "Charlotte Hornets",
-   "date": "2026-11-05",
-   "ft": [
-    114,
-    104
-   ]
-  },
   {
    "t1": "New York Knicks",
    "t2": "Chicago Bulls",
@@ -316,13 +280,19 @@
    "t1": "Phoenix Suns",
    "t2": "Orlando Magic",
    "date": "2026-11-06",
-   "time": "03:00"
+   "ft": [
+    117,
+    104
+   ]
   },
   {
    "t1": "Golden State Warriors",
    "t2": "Miami Heat",
    "date": "2026-11-06",
-   "time": "04:00"
+   "ft": [
+    120,
+    100
+   ]
   },
   {
    "t1": "Charlotte Hornets",
@@ -377,28 +347,62 @@
    "t2": "Portland Trail Blazers",
    "date": "2026-11-07",
    "time": "04:00"
+  },
+  {
+   "t1": "Indiana Pacers",
+   "t2": "Denver Nuggets",
+   "date": "2026-11-07",
+   "time": "23:00"
+  },
+  {
+   "t1": "Atlanta Hawks",
+   "t2": "Brooklyn Nets",
+   "date": "2026-11-08",
+   "time": "01:30"
+  },
+  {
+   "t1": "Cleveland Cavaliers",
+   "t2": "New York Knicks",
+   "date": "2026-11-08",
+   "time": "02:00"
+  },
+  {
+   "t1": "Oklahoma City Thunder",
+   "t2": "Washington Wizards",
+   "date": "2026-11-08",
+   "time": "02:00"
+  },
+  {
+   "t1": "Golden State Warriors",
+   "t2": "Orlando Magic",
+   "date": "2026-11-08",
+   "time": "02:30"
   }
  ],
  "src": [
   {
-   "n": "Land of Basketball – NBA-Tabelle 2026-27 (Stand nach den Spielen vom 04.11.2026 US-Zeit, abgerufen 05.11.2026)",
-   "u": "https://www.landofbasketball.com/yearbyyear/2026_2027_standings.htm"
+   "n": "ESPN-Datendienst – NBA-Tabelle 2026-27 (Stand nach den Spielen vom 05.11.2026 US-Zeit, abgerufen 06.11.2026)",
+   "u": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings"
   },
   {
-   "n": "Spox – NBA-Ergebnisse vom 04.11.2026 (Wembanyama 52 Punkte)",
-   "u": "https://spox.com/nba/news/52-punkte-und-24-rebounds-wembanyama-wahnsinn-fuer-die-ewigkeit-in-der-nba-luka-doncic-liefert-ebenfalls-die-naechste-show/blte47d98ccfb86af86"
+   "n": "ESPN – Warriors 120:100 Heat (05.11.2026)",
+   "u": "https://www.espn.com/nba/recap?gameId=401909937"
   },
   {
-   "n": "UltimateNBA – 76ers 112:106 Pistons (04.11.2026)",
-   "u": "https://www.ultimatenba.com/en/games/2026-11-04/philadelphia-76ers-at-detroit-pistons/"
+   "n": "TSN/AP – Suns 117:104 Magic (05.11.2026)",
+   "u": "https://www.tsn.ca/nba/article/booker-scores-30-points-to-lead-suns-past-magic/"
+  },
+  {
+   "n": "ESPN-Datendienst – NBA-Spielplan 07.11.2026 US-Zeit (Anwurfzeiten umgerechnet in MEZ)",
+   "u": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261107"
+  },
+  {
+   "n": "ESPN-Datendienst – NBA-Spielplan 08.11.2026 US-Zeit",
+   "u": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261108"
   },
   {
    "n": "AP/KSAT – Spurs 112:111 Mavericks (05.11.2026)",
    "u": "https://www.ksat.com/sports/2026/11/05/wembanyama-has-career-highs-of-52-points-24-rebounds-as-spurs-hold-off-mavericks-112-111/"
-  },
-  {
-   "n": "AP/ABC News – Lakers 116:103 Kings",
-   "u": "https://abcnews.com/Sports/wireStory/luka-doncics-40-points-lead-lakers-past-kings-137867985"
   },
   {
    "n": "Sky Sport – Nets 114:104 Hornets, Thunder 124:116 Cavaliers (05.11.2026)",
