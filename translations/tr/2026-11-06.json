@@ -2427,6 +2427,27 @@
     "kl": "90 yıl önce bugün"
    }
   },
+  "hhu-roentgenlaser-plasma": {
+   "L": {
+    "body": [
+     "Düsseldorf’taki Heinrich-Heine Üniversitesi (HHU), Çekya’daki ELI Beamlines araştırma kurumu ve İskoçya’daki University of Strathclyde’den araştırmacılar, belirgin biçimde daha küçük bir X-ışını lazeri için bir konsept sundu. Konu, dalga boyları yaklaşık 2,3 ile 4,4 nanometre arasında olan, “su penceresi” olarak adlandırılan X-ışınıdır. Bu aralıkta biyolojik örnekler sulu ortamlarında incelenebiliyor. Şimdiye kadar bunun için çoğunlukla kilometrelerce uzunlukta serbest elektron lazerleri gerekiyordu. HHU’ya göre çalışma Nature Communications dergisinde yayımlandı.",
+     "Konseptte güçlü bir lazer darbesi bir gazda plazma dalgası oluşturuyor; bu dalga elektronları yalnızca birkaç santimetrede neredeyse ışık hızına çıkarıyor. Elektronlar daha sonra manyetik bir undülatörden geçiyor ve burada serbest elektron lazeri ilkesine göre kendini güçlendiren ışınım yayıyor. Simülasyona göre bu yolla birkaç metrelik mesafede X-ışını flaşları oluşuyor. ELI fizikçisi Fahim Habib’e göre bunun pratikte işe yarayıp yaramayacağı her şeyden önce elektron demetlerinin kalitesine bağlı.",
+     "Henüz ortada inşa edilmiş bir tesis değil, simülasyonlar var. HHU fizikçisi Bernhard Hidding’in değerlendirmesine göre böyle bir sistem kompakt ve geleneksel hızlandırıcılardan belirgin biçimde daha ucuz olurdu; bu nedenle üniversitelerde veya ticari alanda da kullanılabilirdi. Çalışma, diğerlerinin yanı sıra Alman Araştırma Vakfı (DFG), Federal Araştırma Bakanlığı ve EuPRAXIA gibi AB programları tarafından desteklendi."
+    ],
+    "d": "“Su penceresi”ndeki X-ışını için bugün kilometrelerce uzunlukta tesisler gerekiyor. Düsseldorf Üniversitesi’nden bir ekip, lazer-plazma hızlandırıcının bunu birkaç metrede başarabileceğini gösterdi.",
+    "t": "Birkaç metrelik X-ışını lazeri: Düsseldorf merkezli ekip kompakt tesisi simüle etti"
+   },
+   "at": "2026-11-06T14:30Z",
+   "h": "16afc72b9a76",
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Hamburg’daki European XFEL X-ışını lazerinin undülatörü – geleneksel tesisler kilometrelerce uzunlukta"
+   }
+  },
   "hsv-gladbach-kellerduell-2026-11-06": {
    "L": {
     "body": [
@@ -2504,6 +2525,32 @@
    ],
    "x": {
     "img.alt": "New York'taki Gleason's Gym'de boks ringi (Sembolik fotoğraf)"
+   }
+  },
+  "ifam-drohne-offshore-video": {
+   "L": {
+    "body": [
+     "Fraunhofer Üretim Teknolojisi ve Uygulamalı Malzeme Araştırmaları Enstitüsü (IFAM), Kuzey Denizi üzerinde yapılan bir drone test uçuşunun videosunu yayımladı. Enstitüye göre drone, açık denizde 250 kilometreden fazla uçtu: Almanya anakarasından denizdeki bir işletme ve bakım gemisine (Service Operation Vessel, SOV) gitti, kargosunu güvenli biçimde teslim etti ve karaya geri döndü. Uçuş, pilotların görüş alanı dışında (BVLOS) gerçekleştirildi.",
+     "Deneme, Nisan 2023'ten Mart 2027'ye kadar süren Interreg North Sea programı kapsamındaki AB projesi DIOL'un (Develop Innovative Offshore Logistic) bir parçası. IFAM, 170 metre uzunluğunda pisti bulunan Offshore Drone Campus Cuxhaven'da uzun mesafeler ve ağır yükler için drone'lar ile sınır ötesi BVLOS uçuşları üzerinde çalışıyor. Bunun kapsamında, On İki Deniz Mili Bölgesi'nin ötesindeki izinler konusunda Federal Sivil Havacılık Dairesi ve Federal Ulaştırma Bakanlığı ile yürütülen görüşmeler de var.",
+     "IFAM'a göre uçuş, drone'ların acilen gereken yedek parçaların taşıma süresini belirgin şekilde kısaltabileceğini ve açık deniz rüzgar santrallerinin bakımını daha hızlı ve verimli hale getirebileceğini gösteriyor. Arka planda, Kuzey Denizi'nde denizdeki rüzgar enerjisinin planlanan güçlü genişlemesi var; IFAM'a göre bunun için bugünkü liman kapasiteleri neredeyse yetersiz kalıyor."
+    ],
+    "d": "Bir drone Almanya anakarasından denizdeki bir bakım gemisine uçtu, kargoyu teslim etti ve geri döndü. Fraunhofer IFAM, açık deniz rüzgar santralleri için yapılan test uçuşunu videoyla gösteriyor.",
+    "t": "Drone ile gemiye kargo: Fraunhofer videosu Kuzey Denizi'nde 250 km'lik uçuşu gösteriyor"
+   },
+   "at": "2026-11-06T14:30Z",
+   "h": "f032cb74bdfa",
+   "rev": [
+    "Untranslated German 'Luftfahrt-Bundesamt' in parentheses and English 'Service Operation Vessel' left untranslated",
+    "'Federal Sivil Havacılık Dairesi' is a loose rendering of the proper name Luftfahrt-Bundesamt (Federal Aviation Office)",
+    "'Bunun kapsamında ... görüşmeler de yer alıyor' is clumsy and the sentence structure is unnatural"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Kuzey Denizi'ndeki açık deniz rüzgar santralinin havadan görünümü"
    }
   },
   "ikts-festkoerperbatterie-video": {
@@ -3796,6 +3843,31 @@
     "img.alt": "New York Times binasının Manhattan'daki cephesi (Arşiv fotoğrafı)"
    }
   },
+  "news-burn-eternal-debuet-album": {
+   "L": {
+    "body": [
+     "2002-2012 arasında Killswitch Engage'in solisti olan Howard Jones ile Killswitch'in kurucu ortağı ve gitaristi Adam Dutkiewicz, ortak projeleri Burn Eternal'ı tanıttı. İlk single'ın adı “Wounds I've Made”; dokuz şarkılık, kendi adını taşıyan ilk albüm 26 Şubat 2027'de Metal Blade etiketiyle çıkacak, ön siparişler şimdiden başladı.",
+     "Jones, şarkının geçmişteki hataları ve pişmanlıkları kabul etmeyi, buna rağmen sürekli gelişmeyi anlattığını söyledi: “Bazen değişim acıtır, ama büyümek ve geçmişte takılıp kalmamak için gereklidir.” Dutkiewicz'e göre bu, proje için yazdığı ilk şarkılardan biriydi – “altı yıl önce!” Metal Hammer'a göre Jones'un vokalleri daha Aralık 2023'te tamamlanmıştı, albümün miksi ise Aralık 2024'te yapılmıştı.",
+     "Killswitch Engage, 2012'de Jones'un ayrılmasının ardından geri dönen solist Jesse Leach ile devam ediyor. Burn Eternal'ın canlı performans tarihleri henüz açıklanmadı. Video, “Wounds I've Made” için hazırlanan resmi lyric videosunu gösteriyor."
+    ],
+    "d": "Killswitch Engage'in eski solisti ile grubun gitaristi ilk single'ları olan “Wounds I've Made”i paylaştı. Albüm 26 Şubat 2027'de Metal Blade etiketiyle çıkacak.",
+    "t": "Burn Eternal: Howard Jones ve Adam Dutkiewicz ilk albümlerini duyurdu"
+   },
+   "at": "2026-11-06T14:30Z",
+   "h": "a03cc42a9d15",
+   "rev": [
+    "Song title “Wounds I've Made” ends with a Turkish suffix (“…”i) after a closing quote, which is ungrammatical; needs an apostrophe-separated suffix or a rephrase.",
+    "Teaser: 'ilk single'ları “Wounds I've Made”i paylaştı' is awkward; rephrase to keep the title intact."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Howard Jones, 2007'de Warped Tour'da Killswitch Engage ile"
+   }
+  },
   "news-deep-purple-gillan-absagen": {
    "L": {
     "body": [
@@ -3823,6 +3895,33 @@
     "img.alt": "Arşiv fotoğrafı: Ian Gillan 2009'da São Paulo'da sahnede"
    }
   },
+  "news-fat-joe-tiny-desk-2026": {
+   "L": {
+    "body": [
+     "Bronxlu rapçi Fat Joe, 5 Kasım'da NPR Music'in yeni bir Tiny Desk Concert'iyle yayında. Formattaki ikinci performansı bu: İlkini Haziran 2021'de pandemi sırasında “Tiny Desk (Home) Concert” olarak New York'taki spor ayakkabı mağazasında kaydetmişti. NPR yapımcısı Bobby Carter'a göre Fat Joe, “touch the third rail” niyetiyle, yani alışılmışın dışında bir set sunma amacıyla geldi.",
+     "Set listesinde dokuz şarkı yer aldı: “Cocababy” ve “(Ha Ha) Slow Down”dan Jadakiss ile “New York”a ve güncel albüm “Organized Rhyme”dan “The Aroma”ya, oradan da Remy Ma ile “Lean Back” ve “All the Way Up”a kadar. Ayrıca Stove God Cooks, şarkıcı Stevie Mackey (“Feelin a Way”, “I Won't Tell”) ve yapımcı ikili Cool & Dre'den Dre de sahnedeydi. Grubu klavyeci Zo Harris yönetti, plak çalarların başında DJ Ted Smooth vardı.",
+     "“Organized Rhyme” Ağustos'ta yayımlanmıştı; albümün yapımcılığını Cool & Dre üstlenmişti. Konser NPR Music'in YouTube kanalında izlenebiliyor."
+    ],
+    "d": "Fat Joe ikinci kez bir Tiny Desk Concert veriyor; bu kez kendi mağazasında değil, NPR ofisinde. Konuklar: Remy Ma, Jadakiss, Stove God Cooks ve Stevie Mackey.",
+    "t": "Fat Joe Tiny Desk'te: Remy Ma ve Jadakiss ile “Lean Back” ve “All the Way Up”"
+   },
+   "at": "2026-11-06T14:30Z",
+   "h": "2c8df408508f",
+   "rev": [
+    "Headline uses curly quotes inconsistent? fine; teaser \"veriyor\" implies ongoing, German says plays/performs (present) - acceptable",
+    "\"Cool & Dre ile üretilmişti\" - 'üretilmişti' unnatural for album production; 'yapımcılığını ... üstlenmişti'",
+    "\"yayında\" for 'erschienen' slightly off but acceptable",
+    "Album/song list order: \"Jadakiss ile 'New York'a\" is ambiguous but matches German"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Fat Joe, 2011'de Avustralya'daki Supafest'te"
+   }
+  },
   "news-gianna-nannini-giannagold-tour-2027": {
    "L": {
     "body": [
@@ -3847,6 +3946,27 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Gianna Nannini 2017’de “Hitstory” turnesinde sahnede"
+   }
+  },
+  "news-hiphop-konzerte-november-2026": {
+   "L": {
+    "body": [
+     "hiphop.de’nin hazırladığı bir genel bakışa göre Kasım, hip-hop severler için yoğun bir konser ayı. Don Toliver, “Nitrous – Octane World Tour” turnesinin ikinci etabıyla 2-12 Kasım tarihlerinde Berlin, Hamburg ve Düsseldorf’ta sahne alıyor. Danger Dan, “Keine Angst Tour” ile 29 Kasım’a kadar Bielefeld, Berlin, Leipzig ve Hamburg’da konser veriyor; hiphop.de’ye göre bazı tarihlerin biletleri şimdiden tükendi. Ikkimel, “Poppstar” turnesine 11 Kasım’da başlıyor; turne Ludwigsburg’dan Berlin’e kadar on şehri kapsıyor.",
+     "Afrob & Ferris MC, “Reimemonster Tour” ile 28 Kasım’a kadar aralarında Münih, Köln, Berlin ve Leipzig’in de bulunduğu şehirleri geziyor. Conway the Machine & Daringer, Köln, Berlin, Hamburg ve Heidelberg’de “Reject 2”nin onuncu yılını kutluyor. Luciano, kariyerinin onuncu yıl dönümü nedeniyle 18 Kasım’da Köln’de “Red Bull Setlist” kapsamında sahne alıyor.",
+     "Uluslararası tekil konserler: The Kid LAROI, “A Perfect World Tour” ile 14 Kasım’da Berlin’e, Swae Lee ise 17 Kasım’da Berlin’deki Astra Kulturhaus’a geliyor. Bryson Tiller 25 ve 26 Kasım’da Berlin ve Düsseldorf’ta, Kehlani ise 29 Kasım’da Berlin’de sahne alıyor."
+    ],
+    "d": "Arenalardan kulüplere: Kasım’da çok sayıda rap sanatçısı Almanya’yı geziyor – aralarında Afrob & Ferris MC, The Kid LAROI, Swae Lee ve Conway the Machine var.",
+    "t": "Kasım’da canlı hip-hop: Don Toliver, Ikkimel, Danger Dan ve Kehlani Almanya’da"
+   },
+   "at": "2026-11-06T14:30Z",
+   "h": "fd245eddb72a",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Don Toliver 2021’de San Diego’da"
    }
   },
   "news-interpol-bloc-party-tour-2026": {
@@ -3967,6 +4087,27 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Rush'tan Geddy Lee, 2008'de canlı performansta"
+   }
+  },
+  "news-splash-2027-erste-acts": {
+   "L": {
+    "body": [
+     "splash! Festival, 2027 programının ilk dalgasını açıkladı. Hip-hop festivali, 8-10 Temmuz 2027 tarihlerinde Saksonya-Anhalt'taki Gräfenhainichen yakınlarında bulunan Ferropolis'te düzenlenecek. Organizatörler, başlıkta Berlinli rapçi Ufo361'in yer alacağını duyurdu; sanatçının bu konseri, 2027'de Almanca konuşulan bölgedeki tek canlı performansı olacak. Ufo361, 1 Ekim'de „Waldemar Hof“ adlı albümünü yayımlamıştı.",
+     "Paula Hartmann, Apsilon, Badmómzjay, Filow, Juju, Makko, Joje, Lavender, Maikel ve Ramzey ile Summer Cem, Billa Joe ve Pajel'in yer aldığı Scorpion Gang da onaylandı. Başka sanatçıların da açıklanması bekleniyor.",
+     "Duyuruyla birlikte bilet satışı yeniden başladı; organizatöre göre mevcut kontenjan sıkı biçimde sınırlı. Festivalhopper.de, festival bileti için ön satış ücreti hariç yaklaşık 199 avro fiyat veriyor."
+    ],
+    "d": "Ferropolis'teki hip-hop festivali 8-10 Temmuz 2027 için ilk isimleri açıkladı; Ufo361'in yanı sıra Paula Hartmann, Badmómzjay ve Makko da programda.",
+    "t": "splash! 2027: Ufo361 Almanca konuşulan bölgedeki tek konserini verecek"
+   },
+   "at": "2026-11-06T14:30Z",
+   "h": "dca0eebda144",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: splash!'in Ferropolis'teki festival alanı"
    }
   },
   "news-toro-y-moi-unusua": {
@@ -4279,6 +4420,54 @@
     "rv.score": "The Arts Desk: 4 yıldız · Musikexpress: “kum ve blues, folk ve genişlik”"
    }
   },
+  "review-hatebreed-fatal-paradox": {
+   "L": {
+    "body": [
+     "Hatebreed bugün dokuzuncu stüdyo albümü “Fatal Paradox”u yayımlıyor; albüm, “Weight of the False Self” (2020) albümünden bu yana ilk çalışma. Aynı zamanda grubun BLKIIBLK Records'taki ilk albümü; yapımcılığını uzun yıllardır yol arkadaşı olan Chris “Zeuss” Harris üstlendi. İlk single “Kill Count Increase” oldu, ardından başlık parçası geldi.",
+     "Blabbermouth eleştirmeni Dom Lawson'a göre bu, “rahatlıkla Hatebreed tarihinin en sert albümü”. Lawson, plağın grubun tüm dönemlerinden ses dünyalarını nasıl birleştirdiğini, ayrıca gücü, vokalleri ve yalnızca on şarkıdan oluşan kısa yapısını övüyor. “Kill Count Increase”, “The Carrion Choir” ve konuk olarak John Tardy'nin yer aldığı “Sacrifice Season” öne çıkarılıyor; bonus olarak Corrosion of Conformity'nin “Poison Planet” şarkısının cover versiyonu da var.",
+     "Lawson'ın sonucu: Hatebreed kataloğuna “neşeli ve utanmazca sürükleyici” bir ek; “bunu kimse daha iyi yapamaz”. Puan: 10 üzerinden 9. Video, başlık parçası “Fatal Paradox” için resmi visualizer'ı gösteriyor."
+    ],
+    "d": "Altı yıllık aranın ardından Hatebreed dokuzuncu albümünü sundu; BLKIIBLK etiketiyle çıkan ilk albümleri. Blabbermouth 10 üzerinden 9 puan verdi.",
+    "t": "Hatebreed – “Fatal Paradox” incelemesi: Grubun tarihinin en sert albümü"
+   },
+   "at": "2026-11-06T14:30Z",
+   "h": "02c37cecd85c",
+   "rev": [
+    "Teaser: \"BLKIIBLK ile ilk albümü\" is ambiguous/unnatural; the German says it is the first album on the label BLKIIBLK",
+    "\"ilk single\" and \"cover versiyonu\" are acceptable; \"ilk albümü\" in the teaser fixed for clarity"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Hatebreed, 2024 Reload Festival'inde",
+    "rv.score": "Blabbermouth: 9/10"
+   }
+  },
+  "review-insomnium-netherworlds": {
+   "L": {
+    "body": [
+     "Insomnium, „Netherworlds“ albümünü 16 Ekim'de Century Media'dan yayımladı: Miiro Varjus ve Jens Bogren'in prodüktörlüğünü yaptığı albümde 54 dakikada on şarkı yer alıyor. METAL HAMMER Soundcheck'te albüm, 5,17'lik ortalamayla Tony Iommi ve Enslaved'in önüne geçti ve böylece Kasım 2026'nın albümü oldu.",
+     "Eleştirmen Björn Springorum 7 üzerinden 6 puan veriyor. „Insomnium, neredeyse herkesin üzerinde anlaşabildiği nadir örneklerden biri“ diye yazıyor. Springorum'a göre grup sert riff'leri büyük melodiler ve Fin melankolisiyle birleştiriyor ve „artık seri üretim gibi marşlar yazabiliyor“. Sonuç bölümünü soru olarak kuruyor: „Bu grup gerçekten daha da iyi olabilir mi?“",
+     "„The Hour Grows Late“ şarkısında üç Amorphis müzisyeni konuk olarak yer alıyor: Tomi Joutsen, Tomi Koivusaari ve Santeri Kallio. Insomnium, Ocak ve Şubat 2027'de Amorphis ve Unto Others ile Avrupa turnesine çıkacak. Video, „The Hour Grows Late“ şarkısının resmi müzik videosunu gösteriyor; yönetmen Jari Heino."
+    ],
+    "d": "METAL HAMMER 7 üzerinden 6 puan verdi ve Finlandiyalı grubun yeni albümünü Kasım ayının albümü seçti. Marşlar, sertlik ve Fin melankolisi övgü topluyor.",
+    "t": "Insomnium – „Netherworlds“ incelemesi: Amorphis konuklu ayın albümü"
+   },
+   "at": "2026-11-06T14:30Z",
+   "h": "bf5fe7bed8ff",
+   "rev_dbg": [
+    4,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Insomnium, 2019'da Finlandiya'daki John Smith Festival'de",
+    "rv.score": "METAL HAMMER: 6/7"
+   }
+  },
   "review-kings-of-leon-o-my-beloved": {
    "L": {
     "body": [
@@ -4333,6 +4522,35 @@
    "x": {
     "img.alt": "Arşiv fotoğrafı: La Roux'dan Elly Jackson 2010'da bir performans sırasında",
     "rv.score": "musicOMH: 4/5 · The Skinny: 3/5"
+   }
+  },
+  "review-prong-prong": {
+   "L": {
+    "body": [
+     "Prong bugün kendi adını taşıyan albümünü yayımlıyor; grubun Napalm Records'taki ilk albümü bu. Kurucu Tommy Victor'ın (gitar, vokal) yanı sıra Christopher Dean (bas) ve Tyler Joseph (davul) çalıyor; miks ve mastering Andy Sneap'e ait. Bir önceki albüm „State Of Emergency“ (2023) idi. “Bu, şimdiye kadarki en iyi Prong albümü olabilir. Her halükârda en iyi sesleniyor olanı”, diyor Victor.",
+     "Blabbermouth eleştirmeni Dom Lawson şunu belirtiyor: “Prong, Prong gibi ve başka hiç kimse gibi ses vermiyor.” Lawson agresif riffleri, groove'ları ve melodileri övüyor; ona göre grubun sesi kırk yıl sonra bile taze duruyor. Öne çıkan parçalar arasında „The Banner“, „New Commission“ ve „The Uprising“ var. Victor, en son single olan „New Commission“ için “devasa bir nakaratı ve çılgın bir breakdown'ı olan thrash patlaması” diyor.",
+     "Lawson'ın değerlendirmesi: şimdiye kadarki en iyi Prong albümlerinden biri – 10 üzerinden 8 puan. Video, ağustos ayında yayımlanan ilk single „The Banner“ için çekilen resmî müzik videosunu gösteriyor."
+    ],
+    "d": "Tommy Victor ve grubu, Andy Sneap'in mikslediği ilk Napalm Records albümünü yayımladı. Blabbermouth albüme 10 üzerinden 8 puan verdi.",
+    "t": "Prong – „Prong“ incelemesi: Kırk yıl sonra hâlâ eşsiz"
+   },
+   "at": "2026-11-06T14:30Z",
+   "h": "fdd40b919e5c",
+   "rev": [
+    "Month name \"Ağustos\" wrongly capitalised mid-sentence (TDK: lowercase \"ağustos\")",
+    "Quote marks inconsistent (mix of „ “ and “ ”) around Victor's quotes",
+    "\"gemischt und gemastert\" rendered fine; \"Hook\" translated as \"nakarat\" acceptable",
+    "\"wirke frisch\" rendered as \"taze görünüyor\" without hedge of indirect speech; add attribution",
+    "\"en iyi sesli olanı\" unnatural"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Prong, 2017 Wacken Open Air'de",
+    "rv.score": "Blabbermouth: 8/10"
    }
   },
   "review-shygirl-swallow": {
@@ -4696,6 +4914,27 @@
     "kl": "Tenis"
    }
   },
+  "tour-katatonia-waking-state-of-europe-2027": {
+   "L": {
+    "body": [
+     "Katatonia, “Waking State Of Europe” turnesini Mart ve Nisan 2027 için duyurdu. Grup Almanya'da 31 Mart'ta Hannover'deki Capitol'de, 1 Nisan'da ise Dresden'deki Tante Ju'da sahne alacak. Kanadalı post-punk grubu Bonnie Trash açılış grubu olarak yer alacak.",
+     "Bulgar hayranlar için önemli: Katatonia, 9 Nisan 2027'de Sofya'daki Joy Station'da sahne alacak. Diğer duraklar arasında Bükreş (8 Nisan), Belgrad (10 Nisan), Zagreb (12 Nisan) ve Budapeşte (13 Nisan) yer alıyor; turne 17 Nisan'da İsveç'in Lund kentinde sona erecek. Avusturya, İsviçre ve Birleşik Krallık'ta konser planlanmıyor.",
+     "Turne, 2025 tarihli “Nightmares As Extensions Of The Waking State” albümüne eşlik ediyor; bu, kurucu ortak ve gitarist Anders Nyström'ün katılmadığı ilk albüm. Louder'a göre biletler grubun internet sitesi üzerinden satın alınabiliyor; haberde ön satışın ne zaman başlayacağı belirtilmiyor."
+    ],
+    "d": "İsveçli grup, 2027 baharında çoğunlukla Orta ve Güneydoğu Avrupa'da 14 konser verecek; açılışı Bonnie Trash yapacak. Grup 9 Nisan'da Sofya'da sahne alacak.",
+    "t": "Katatonia 2027'de Avrupa turnesinde: Hannover, Dresden ve Sofya'da konserler"
+   },
+   "at": "2026-11-06T14:30Z",
+   "h": "4a8997a9d5f0",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Katatonia, 2013'te Stockholm'deki Grammis töreninde"
+   }
+  },
   "trainer-erklaeren-unterarmstuetz-video-2026-11-06": {
    "L": {
     "body": [
@@ -4919,6 +5158,33 @@
     "kl": "ABD"
    }
   },
+  "video-as-i-lay-dying-the-cost-to-stay": {
+   "L": {
+    "body": [
+     "As I Lay Dying, aynı adlı albümünden yeni bir single olan “The Cost To Stay”’i yayımladı. Albüm 5 Şubat 2027’de Napalm Records etiketiyle çıkacak ve on şarkı içeriyor; yapımcılığını Chris Clancy ile solist Tim Lambesis üstlendi. “No Way Out” adlı parçada Immortal Disfigurement’tan CJ McCreery konuk olarak yer alıyor.",
+     "Lambesis’e göre şarkı, ayrılmanın bazen “daha sağlıklı bir şey inşa etmenin ilk adımı” olmasıyla ilgili. Grup, albümü “hem devam hem de yeniden başlangıç” olarak tanımlıyor. Grup şimdilik yalnızca Kuzey Amerika’da sahne alıyor; Avrupa için henüz tarih açıklanmadı.",
+     "Video, “The Cost To Stay” şarkısının resmî müzik klibini gösteriyor; yönetmen Tom Flynn."
+    ],
+    "d": "Metalcore grubu As I Lay Dying, aynı adlı albümünü 5 Şubat 2027’de Napalm Records etiketiyle çıkaracağını duyurdu. Yeni klibin yönetmeni Tom Flynn.",
+    "t": "As I Lay Dying – “The Cost To Stay”: Aynı adlı albümün habercisi"
+   },
+   "at": "2026-11-06T14:30Z",
+   "h": "a2881794484a",
+   "rev": [
+    "Headline: \"Vorbote\" was rendered as \"ilk single\"; the German does not say it is the first single, and the song is only a forerunner of the album.",
+    "\"Metalcore\" was left untranslated in the teaser; \"metalcore\" is the common Turkish spelling, so it is lowercased.",
+    "Quote rendered as \"hem devam hem yeni bir başlangıç\" is slightly unnatural; \"Fortsetzung und Neustart zugleich\" is better as \"hem devam hem de yeniden başlangıç\".",
+    "\"Live ist die Gruppe vorerst nur in Nordamerika unterwegs\" was reproduced correctly, but the suffix in \"The Cost To Stay”i\" needs an apostrophe."
+   ],
+   "rev_dbg": [
+    4,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: As I Lay Dying, 2011 Wacken Open Air’da"
+   }
+  },
   "video-dead-mans-bones-lost-in-the-night": {
    "L": {
     "body": [
@@ -4944,6 +5210,31 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Dead Man's Bones, 2010 FYF Fest'te"
+   }
+  },
+  "video-doechii-lock-jaw": {
+   "L": {
+    "body": [
+     "Doechii, henüz duyurulmamış bir albüme giden yolda ilerlediği “Swamp Sessions” serisinin yeni şarkısı “LOCK JAW”u 30 Ekim'de yayımladı. Daha önce “Bomb” ve “Catwoman” da kendi çektiği klipleriyle yayımlanmıştı. Stereogum, yeni parçayı nakaratında hyperpop öğeleri bulunan, neşeli ve müstehcen bir dans rap'i olarak tanımlıyor; dörtlükler ise Trina'nın Güney rap'ini andırıyor.",
+     "Yönetmenliği ve yaratıcı yönetmenliği Doechii kendisi üstlendi, ortak yönetmenlik ve koreografi Taya Lee'ye ait. Yaklaşık üç dakikalık klip, rap sanatçısını arkadaşlarıyla birlikte ışık dizilerinin altında samimi bir ev partisinde gösteriyor; çekimler bir MacBook ve renkli aydınlatmayla yapıldı. Stereogum klibi “hafif NSFW” olarak nitelendiriyor. Ratings Game Music 5 üzerinden 3 puan veriyor ve pop deneyinin korkusuzluğunu övüyor.",
+     "Video, Doechii'nin “LOCK JAW” adlı şarkısının resmi müzik klibini gösteriyor."
+    ],
+    "d": "Doechii, “Swamp Sessions” serisinin yeni şarkısı “LOCK JAW”u yayımladı. Klibi kendisi yönetti; arkadaşlarıyla bir pijama partisi olarak çekildi.",
+    "t": "Doechii – “LOCK JAW”: Kendi yönettiği ev partisi klibi"
+   },
+   "at": "2026-11-06T14:30Z",
+   "h": "d9b556880f42",
+   "rev": [
+    "Awkward/incorrect wording: 'albüme doğru ilerlediği' and 'kıtalar' (verses = kıta is acceptable but 'Güney eyaletleri rap'i' is unnatural)",
+    "'ışık zincirleri' is a literal rendering of Lichterketten; 'ışık telleri/led ışık dizileri' is more natural"
+   ],
+   "rev_dbg": [
+    2,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Doechii, Washington, D.C.'deki World Pride'da"
    }
   },
   "video-dove-cameron-do-the-math": {
@@ -5018,6 +5309,27 @@
     "img.alt": "Grafik: ILLIT “You're Under Arrest”"
    }
   },
+  "video-lil-baby-coast-2-coast": {
+   "L": {
+    "body": [
+     "Lil Baby, Bally Baby ve Fatt Smaxk ile birlikte kaydettiği “Coast 2 Coast” için bir müzik videosu yayımladı. uDiscover Music'in haberine göre klip, üç rapçiyi Lil Baby'nin memleketi Atlanta'da parti otobüsüne dönüştürülmüş bir okul otobüsünün içinde takip ediyor.",
+     "Atlantalı rapçinin beşinci stüdyo albümü olan ve “WHAM” ile 2025 tarihli “The Leaks” mixtape'inin ardından gelen “FRESH”, 6 Kasım'da çıkıyor. Complex'e göre albümde 17 şarkı yer alıyor; bunların arasında Future ve Young Thug ile “All My Patnas” ve Rylo Rodriguez ile “In Your Head” da var. Pharrell Williams'ın prodüktörlüğünü üstlendiği “Dead Fresh” ise albümden önce yayımlanmıştı. Lil Baby ayrıca 5 Aralık'ta State Farm Arena'da “Lil Baby: Fresh Prince of Atlanta” adlı bir doğum günü gösterisi planlıyor.",
+     "Video, Lil Baby, Bally Baby ve Fatt Smaxk'in “Coast 2 Coast” adlı şarkısının resmi müzik videosunu gösteriyor."
+    ],
+    "d": "Lil Baby, Bally Baby ve Fatt Smaxk ile birlikte dönüştürülmüş bir okul otobüsüyle memleketi Atlanta'yı dolaşıyor. Beşinci stüdyo albümü “FRESH” bugün çıkıyor.",
+    "t": "Lil Baby – “Coast 2 Coast”: Atlanta'da parti otobüsüyle yolculuk"
+   },
+   "at": "2026-11-06T14:30Z",
+   "h": "3285a2103405",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Grafik: Lil Baby “Coast 2 Coast”"
+   }
+  },
   "video-robert-plant-the-blackest-crow": {
    "L": {
     "body": [
@@ -5067,6 +5379,31 @@
     "img.alt": "Arşiv fotoğrafı: Royal Blood, Norwich’te canlı performans, 2021"
    }
   },
+  "video-saxon-medusa": {
+   "L": {
+    "body": [
+     "Saxon, yakında çıkacak “Gods of Thunder” albümünün ikinci single’ı olan “Medusa”yı yayımladı. Albüm 22 Ocak 2027’de Silver Lining Music etiketiyle çıkacak. Yapımcılığını vokalist Biff Byford’un bizzat üstlendiği albümün miksajını Andy Sneap yaptı. Albüm, Ocak 2024’te çıkan “Hell, Fire and Damnation”ın devamı niteliğinde; daha önce albümün başlık şarkısı da kendi klibiyle yayımlanmıştı.",
+     "Byford şarkı için “Yunan mitolojisi dünyasına atılmış bir adım” diyor: Medusa, insanları tek bir bakışla taşa çevirebiliyordu. “Epik metal, epik hikâye!” Metal Hammer ise “Titanların Savaşı” tarzında, yumruk sıktıracak bir NWOBHM şarkısı duyduğunu belirtiyor. “The Bloody Tower (The Ballad Of Anne Boleyn)”, “Remember The Alamo” ve “MI5” gibi diğer şarkı adları, konuların çeşitliliğini gösteriyor.",
+     "Video, “Medusa”nın resmî müzik videosunu gösteriyor."
+    ],
+    "d": "“Gods of Thunder” albümünün ikinci single’ı Yunan mitolojisine uzanıyor. Saxon’un yeni albümü 22 Ocak 2027’de Silver Lining Music etiketiyle çıkacak.",
+    "t": "Saxon – “Medusa”: Biff Byford, Yunan efsanesindeki Gorgon’u şarkısına konu ediyor"
+   },
+   "at": "2026-11-06T14:30Z",
+   "h": "274590706ea3",
+   "rev": [
+    "Headline: \"besingt\" rendered as \"söylüyor\" (says/sings), which is ambiguous and unnatural; \"şarkısını söylüyor/anlatıyor\" is needed",
+    "\"Produziert hat Sänger Biff Byford selbst\" refers to the album/song; the draft's \"albümün\" is acceptable, so no change"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Saxon’dan Biff Byford, 2010 Hellfest’te"
+   }
+  },
   "video-she-wants-revenge-black-wax-our-love": {
    "L": {
     "body": [
@@ -5091,6 +5428,31 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: She Wants Revenge Orlando'da sahnede"
+   }
+  },
+  "video-skepta-pandoras-box": {
+   "L": {
+    "body": [
+     "Clash'in haberine göre Skepta, 23 Ekim'de “Pandora's Box” adlı single'ı yayımladı. Ratings Game Music, şarkıyı iç şeytanlarla mücadele, uyuşturucu kullanımı ve kontrolü kaybetme hissi üzerine içe dönük bir rap olarak tanımlıyor; prodüksiyonun ise aynı anda hassas, kaotik, karanlık ve sert olduğunu belirtiyor.",
+     "Şarkı, 6 Kasım'da yayımlanan “The Fork and Knife” albümünün ön hazırlığının bir parçası. Albüm, Skepta'nın “Ignorance Is Bliss” (2019) sonrasındaki ilk solo stüdyo albümü ve başlangıçta “Knife and Fork” adıyla duyurulmuştu. 15 parçalık albümde Asake, Aya Nakamura, Central Cee, Jorja Smith, Fred again.. ve Chase & Status gibi isimler yer alıyor. Clash'e göre Skepta, çıkış gününe özel olarak Londra'daki The Cause kulübünü devralacağını, ayrıca Paris, Brüksel ve Amsterdam'da birkaç gösteri yapacağını duyurdu.",
+     "Video, Skepta'nın “Pandora's Box” şarkısının resmi visualizer'ını gösteriyor."
+    ],
+    "d": "Skepta, “Pandora's Box” ile 2019'dan bu yana ilk solo stüdyo albümünün habercisi oldu. “The Fork and Knife” bugün yayımlandı; albümde Central Cee ve Asake gibi konuklar yer alıyor.",
+    "t": "Skepta – “Pandora's Box”: Yeni albüm “The Fork and Knife” için visualizer"
+   },
+   "at": "2026-11-06T14:30Z",
+   "h": "c992a3a593f5",
+   "rev": [
+    "Alt text: \"Londres\" is the Spanish/French name; Turkish uses \"Londra\"",
+    "Alt text: wording does not follow the German (\"2025 im Crystal Palace Bowl\"); made more natural"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Skepta, 2025, Crystal Palace Bowl, Londra"
    }
   },
   "video-starcrawler-kick-me": {
@@ -5141,6 +5503,33 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Tove Styrke, 2022'de Los Angeles'taki Peppermint Club'da"
+   }
+  },
+  "video-trivium-crown-in-the-grave": {
+   "L": {
+    "body": [
+     "Trivium, on birinci albümü “Crown In The Grave” albümünü 20 Kasım’da Roadrunner Records etiketiyle yayımlayacak. Bu, “In The Court Of The Dragon” (2021) albümünden bu yana ilk albüm. Yapımcılığı yine Josh Wilbur üstlendi, miksajı ise ilk kez Jacob Hansen yaptı. Başlık şarkısı, on iki parçadan oluşan albümün ilk single’ı.",
+     "Basçı Paolo Gregoletto “daha karanlık, hayaletimsi bir atmosferden” söz ediyor. Gitarist Corey Beaulieu ise “Mutlaka yapmak istediğimiz albümü yaptık” diyor. Trivium, Nisan 2027’de In Flames ile birlikte sekiz konser için Almanya’ya geliyor; bunların arasında Hamburg (9 Nisan), Berlin (11 Nisan) ve Münih (24 Nisan) var. Grup ayrıca Bern’de (14 Nisan) ve Viyana’da (21 Nisan) sahne alacak.",
+     "Video, “Crown In The Grave” şarkısının resmî müzik klibini gösteriyor. Yönetmen Pavel Trebukhin, Japon Noh tiyatrosundan esinlendi ve klibi dumanla dolu bir dojoda çekti; kıyamet sonrası dekor albüm kapağını yansıtıyor."
+    ],
+    "d": "Trivium’un on birinci albümünün başlık şarkısı, klasik Japon filmleri tarzında bir klip ile geliyor. Albüm 20 Kasım’da Roadrunner Records etiketiyle çıkıyor.",
+    "t": "Trivium – “Crown In The Grave”: dumanla dolu bir dojoda Noh tiyatrosu"
+   },
+   "at": "2026-11-06T14:30Z",
+   "h": "8b4da378c1c7",
+   "rev": [
+    "Teaser: \"im Stil japanischer Kinoklassiker\" was rendered as \"klasik Japon sinemasından esinlenen\" (inspired by classic Japanese cinema); the draft changes the meaning slightly, so it was corrected to ",
+    "Turkish suffix after the title: \"Crown In The Grave”i\" is ungrammatical, so an apostrophe was added",
+    "Quote: \"unbedingt\" was rendered as \"Mutlaka\"; wording smoothed",
+    "Banner \"Wacken Open Air’de\" with \"2023\" is fine"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Trivium, 2023 Wacken Open Air’de"
    }
   },
   "vitamin-k-neugeborene-blutungen-jama-2026-11-06": {
