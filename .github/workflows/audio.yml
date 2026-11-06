@@ -4,6 +4,9 @@ name: TWN Radio – Audio-Nachrichten
 on:
   schedule:
     - cron: '45 5 * * *'     # 06:45 Berlin (Winterzeit) / 07:45 (Sommerzeit) – nach der Tagesausgabe
+    - cron: '17 6 * * *'     # Ersatztermine: GitHub lässt geplante Läufe manchmal ausfallen (06.11.2026). Das Skript
+    - cron: '47 6 * * *'     # erzeugt jede Sprache nur einmal pro Tag, doppelte Läufe kosten also keine Credits.
+    - cron: '23 8 * * *'
   push:
     branches: [main]
     paths: ['audio/probe-request.txt']
