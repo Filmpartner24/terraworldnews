@@ -1,6 +1,34 @@
 {
  "date": "2026-11-06",
  "items": {
+  "2-bundesliga-dresden-fuerth-braunschweig-cottbus-2026-11-06-b21": {
+   "L": {
+    "body": [
+     "Dynamo Dresden, 2. Bundesliga'nın 11. haftasının açılışında küme düşme mücadelesinde önemli bir galibiyet elde etti. t-online canlı anlatımına göre Robert Wagner, Niklas Hauptmann'ın asistiyle 31. dakikada SpVgg Greuther Fürth karşısında Saksonyalı takımı öne geçirdi. Sportschau'nun bildirdiğine göre Dresden avantajını son düdüğe kadar korudu ve kicker'e göre bu sezon ilk kez kalesinde gol görmedi.",
+     "Bu galibiyetle şimdiye kadar son sırada yer alan Dresden 11 puana ulaştı ve kicker'in verdiği bilgiye göre son sıradan ayrıldı. Fürth, hafta öncesinde 12 puanla dokuzuncu sıradaydı.",
+     "Cuma günü oynanan ikinci maçta Eintracht Braunschweig ile Energie Cottbus golsüz berabere kaldı. Sportschau maçı az pozisyonlu olarak nitelendirdi; rbb'nin bildirdiğine göre Cottbus, hareketli geçen ilk bölümde yan direk ya da üst direğe çarptı. Her iki takım da şimdi 11 puanda ve küme düşme mücadelesinde kalmaya devam ediyor."
+    ],
+    "d": "Dynamo Dresden cuma günü oynanan maçta Greuther Fürth'ü yendi ve kicker'e göre son sıradan ayrıldı. Eintracht Braunschweig ile Energie Cottbus 0-0 berabere kaldı.",
+    "t": "2. Bundesliga: Dresden Fürth'ü gol yemeden yendi, Braunschweig ile Cottbus golsüz berabere"
+   },
+   "at": "2026-11-06T19:40Z",
+   "h": "ce9a479965cf",
+   "rev": [
+    "Headline: \"zu null\" (clean sheet) rendered as \"farklı yendi\" (won by a big margin), which is wrong; the score is 1-0.",
+    "\"Aluminium getroffen\" (hit the woodwork) rendered as \"direğe takıldı\"; acceptable but made more precise.",
+    "\"Liveticker\" rendered as \"canlı yayın\" (live broadcast); \"canlı anlatım\" is more accurate.",
+    "\"Rote Laterne abgeben\" in the teaser rendered as \"son sıradan ayrıldı\", which is fine.",
+    "\"Zweites Freitagsspiel\": \"Cuma günü oynanan ikinci maç\" is fine."
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Dresden'deki Rudolf-Harbig-Stadyumu (Arşiv fotoğrafı)"
+   }
+  },
   "ani-egetis-uebernahmeangebot-2026-11-06": {
    "L": {
     "body": [
@@ -891,6 +919,33 @@
    ],
    "x": {
     "img.alt": "Glasgow'daki Celtic Park (Arşiv fotoğrafı)"
+   }
+  },
+  "chainalysis-hack-dienste-2026-11-06-b21": {
+   "L": {
+    "body": [
+     "Yazılımı kripto borsaları, bankalar ve soruşturma makamları tarafından şüpheli ödemeleri izlemek için kullanılan blokzincir analiz şirketi Chainalysis, bir siber saldırının sonuçlarıyla mücadele etmeyi sürdürüyor. Şirketin kendi açıklamasına göre saldırganlar tüm kullanıcıların adlarına, kullanıcı adlarına, parola özetlerine (hash) ve etkin erişim jetonlarına ulaştı. Şirket daha 30 Ekim'de, erişim bilgilerinin sızdırıldığına dair herhangi bir işaret bulunmadığını açıklamış; saldırganın “saldırgan ajan tabanlı teknikler” kullandığını belirtmişti. Bu terim sektörde otonom hareket eden yapay zekâ ajanlarının kullanımı anlamına geliyor.",
+     "Chainalysis, cuma sabahı saat 9:30 civarında (Orta Avrupa Saati) işlem izleme aracı KYT'yi ve adres doğrulamasını kademeli olarak yeniden açmaya başladı; ancak yalnızca daha önce güvenilir IP adreslerini bildiren müşteriler için. Her kullanıcının parolasını sıfırlaması ve gerekirse API anahtarlarını değiştirmesi gerekiyor. Harici güvenlik uzmanları sistemleri güvenceye alırken soruşturma aracı Reactor ve veri hizmetleri çevrimdışı kalıyor; şirket yeniden açılış için bir tarih vermedi.",
+     "Şirketin açıklamasına göre soruşturma verilerine erişildiğine veya kripto adresi eşleştirmelerinin manipüle edildiğine dair bir işaret yok. Saldırının arkasında kimin olduğu belirsiz. Chainalysis'e göre olayın Ekim ayı sonunda Binance'ta yaşanan kripto varlık hırsızlığıyla bir ilgisi yok."
+    ],
+    "d": "Saldırganlar tüm kullanıcıların parola özetlerine ve etkin erişim jetonlarına ulaştı. Doğrulama araçları cuma gününden itibaren kademeli olarak açılıyor; soruşturma aracı Reactor kapalı kalıyor.",
+    "t": "Kripto soruşturmacısı Chainalysis'e siber saldırı: Doğrulama araçları kısıtlarla açılıyor"
+   },
+   "at": "2026-11-06T19:40Z",
+   "h": "29f252fa2ef0",
+   "rev": [
+    "German phrase left untranslated inside quotation marks: \"offensive agentische Techniken\" should be rendered in Turkish",
+    "Headline \"Kripto soruşturmacısı\" and wording are acceptable; no change",
+    "\"Noch am 30. Oktober\" rendered as \"hâlâ\", which changes the nuance slightly; adjusted to match the German",
+    "\"der Täter\" (singular) was rendered as \"saldırgan\" and is fine, but the German original uses the singular, so the draft's phrase is kept"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Kilit simgeli klavye (Sembolik fotoğraf)"
    }
   },
   "chandler-wwe-nxt-gastringrichter": {
@@ -3221,6 +3276,64 @@
     "img.alt": "Sembolik fotoğraf: Amazon yağmur ormanlarında ağaçları kesilmiş alanlar, uzaydan fotoğraflanmış"
    }
   },
+  "klingbeil-spd-aigner-bundespraesidentin-2026-11-06-b21": {
+   "L": {
+    "body": [
+     "SPD Genel Başkanı Lars Klingbeil, cuma öğleden sonra Federal Cumhurbaşkanı Frank-Walter Steinmeier'ın olası halefi olarak Ilse Aigner'in (CSU) arkasında durduğunu açıkladı. Klingbeil, Berlin'de düzenlenen maliye politikası konulu bir gençlik diyaloğunda, Birlik Başkanlığı Aigner'i pazartesi günü resmen önerirse “bunu memnuniyetle karşılar ve destekleriz” dedi. Klingbeil, Bavyera Eyalet Meclisi Başkanı'nın “inanılmaz bir bütünleştirici gücü” olduğunu söyledi.",
+     "dpa'nın edindiği bilgilere göre CDU yönetiminde Aigner'in devlet başkanı olması konusunda görüş birliği var. Klingbeil'in haftanın başında Federal Şansölye Friedrich Merz (CDU) ile yaptığı bir görüşmede Aigner'den yana açıkça tavır aldığı belirtiliyor. Böylece kara-kırmızı koalisyonun ortak adayı ortaya çıkıyor.",
+     "Eleştiri Sol Parti'den geldi. Grup Başkanı Heidi Reichinnek, “Augsburger Allgemeine” gazetesine yaptığı açıklamada, partiler üstü bir adaylığın daha anlamlı olacağını söyledi. Reichinnek'e göre bu makam “Birlik partileri ile SPD arasında bir kadro sığınağı gibi ileri geri itiliyor”."
+    ],
+    "d": "SPD, Ilse Aigner'in adaylığını destekleyecek, diyor parti lideri Klingbeil. Birlik, Aigner'i resmen pazartesi günü aday göstermek istiyor. Sol Parti ise bunu “kadro sığınağı” olarak niteledi.",
+    "t": "Klingbeil Aigner'e evet dedi: SPD, CSU'lu siyasetçiyi Federal Cumhurbaşkanı seçmek istiyor"
+   },
+   "at": "2026-11-06T19:40Z",
+   "h": "336b04c8b404",
+   "rev": [
+    "Teaser: 'Versorgungsposten' rendered as 'kadro ödülü' (wrong; should be a sinecure/'tayin makamı'); also in body",
+    "Teaser: 'Pazartesi' should be lowercase per TDK, and the word order/attribution is clumsy",
+    "Body: 'Pazartesi', 'Cuma' should be lowercase per TDK",
+    "Body: Bundeskanzler rendered as 'Federal Başbakan' instead of 'Federal Şansölye'",
+    "Title: 'Bundespräsidentin' rendered as masculine 'Federal Cumhurbaşkanı' (Turkish is gender-neutral, acceptable) – no change",
+    "Quote: 'wahnsinnig integrative Kraft' – 'inanılmaz' acceptable; quote with 'Birlik partileri' garbled: 'hin und hergeschoben' should be 'ileri geri itiliyor' with 'olarak' meaning",
+    "Teaser: 'Die Linke spricht' – draft uses past tense 'niteledi', fine"
+   ],
+   "rev_dbg": [
+    7,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Lars Klingbeil (Arşiv fotoğrafı)"
+   }
+  },
+  "kongo-adf-angriff-cantine-ebola-2026-11-06-b21": {
+   "L": {
+    "body": [
+     "Sözde İslam Devleti'ne bağlanan Allied Democratic Forces (ADF) milisinin savaşçıları, cumaya karşı gece Kuzey Kivu eyaletinde Beni'nin yaklaşık 50 kilometre batısındaki Cantine-Aloya köyüne baskın düzenledi. Yerel temsilcilerin verdiği bilgiye göre en az 33 ceset çıkarıldı; çoğunda kurşun yaraları vardı, diğerleri yakılmış ya da palayla öldürülmüştü. Sivil toplum temsilcilerine göre saldırganlar 50'den fazla evi ve bir sağlık ocağını ateşe verdi.",
+     "Reuters'in aktardığına göre saldırı yerel saatle yaklaşık 23:00'te (Orta Avrupa Saati ile 22:00) başladı. Beni bölgesinin idari yetkilisi Albay Charles Omeonga, şiddetli yağmurun ordunun operasyonlarını engellediğini, bu nedenle kesin ölü sayısının henüz açıklanamayacağını söyledi.",
+     "Özellikle hassas olan nokta şu: Başhekimine göre yakındaki hastaneden, teyit edilmiş bir Ebola vakası, birkaç şüpheli vaka ve yüksek riskli temaslılar dahil yaklaşık 180 hasta kaçtı. Kuzey Kivu, ülke genelinde şimdiden 5.000'den fazla kişinin öldüğü mevcut Ebola salgınının merkezlerinden biri. ADF aslen Uganda kökenli ve yıllardır sivillere saldırılar düzenliyor."
+    ],
+    "d": "Yetkililere göre ADF milisleri, Kongo'nun doğusunda Beni yakınlarında gece düzenlenen baskında en az 33 sivili öldürdü. Bir klinikten Ebola hastaları da kaçtı.",
+    "t": "Kongo: IS bağlantılı milis en az 33 köy sakinini öldürdü – Ebola hastaları kaçtı"
+   },
+   "at": "2026-11-06T19:40Z",
+   "h": "907319f3ef52",
+   "rev": [
+    "Teaser: 'Aus einer Klinik flohen auch Ebola-Patienten' – the draft omits the 'laut Behörden' attribution only partly (kept at start); fine. But 'Cuma'ya bağlanan gece' is an unnatural rendering of 'in",
+    "Draft body 3: 'Hastanenin başhekimine göre yakındaki hastaneden' is clumsy and repeats 'hastane'.",
+    "Sivil toplum kuruluşlarına göre: 'Zivilgesellschaft' rendered as NGOs, which is a slight shift; better 'sivil toplum temsilcilerine göre'.",
+    "Capitalisation: 'Cuma' should be lowercase per TDK ('cuma').",
+    "Omeonga's statement: the cause 'weil' clause is attributed correctly, but the original is indirect speech; the draft reads acceptably with 'söyledi'."
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Kuzey Kivu'daki Beni'de ana cadde (Arşiv fotoğrafı)"
+   }
+  },
   "konzert-onm-bnr-premieri-i-debyuti": {
    "L": {
     "body": [
@@ -3939,6 +4052,34 @@
    "h": "c008a9271ca2",
    "x": {
     "img.alt": "Rotenberg'den Stuttgart stadyumunun görünümü (Arşiv fotoğrafı)"
+   }
+  },
+  "marzahn-vermisste-13-jaehrige-mordkommission-2026-11-06-b21": {
+   "L": {
+    "body": [
+     "Salı gününden beri kayıp olan Berlin-Marzahn'lı 13 yaşındaki öğrencinin dosyasını artık Eyalet Suç Soruşturma Dairesi'nin (LKA) 5. Cinayet Masası soruşturuyor. Polis ve savcılığın açıklamalarına göre, kızın ev ortamından kendi isteğiyle ayrılmadığı varsayılıyor. Savcılık sözcüsü dpa'ya, ayrıntı vermeden “Bir suça ilişkin ilk şüphe (Anfangsverdacht) bulunuyor” dedi.",
+     "Öğrenci Salı günü saat 7.20 sularında okula gitmek için evinden çıktı, ancak okula hiç varmadı. Cuma öğleden sonra ekipler çevreyi iz takip köpekleri ve bir helikopterle taradı. Şimdiye kadar bir gözaltı bildirilmedi.",
+     "Polis, kızın fotoğraflarını ve tarifini içeren kamuya açık bir arama duyurusu yayımladı ve ihbar bekliyor. İhbarları her polis birimi kabul ediyor."
+    ],
+    "d": "Berlin-Marzahn'dan bir öğrenciden Salı sabahından beri haber alınamıyor. Polis, kızın kendi isteğiyle kaybolduğunu düşünmüyor; savcılık ise suç şüphesi olduğunu belirtti.",
+    "t": "Marzahn'da kayıp 13 yaşındaki kız: Cinayet masası soruşturmayı devraldı"
+   },
+   "at": "2026-11-06T19:40Z",
+   "h": "a37980995541",
+   "rev": [
+    "\"Berlin-Marzahn'lı 13 yaşındaki öğrenci davasını\" is awkward; the case concerns a missing girl, so \"davası\" is replaced with a more natural phrasing",
+    "\"Anfangsverdacht\" is rendered as \"ilk şüphe\" in the body, which is not the legal term; it should be \"suç şüphesi\" (initial suspicion of a crime), as in the teaser",
+    "\"Eyalet Kriminal Dairesi\" is unnatural; the established form is \"Eyalet Suç Soruşturma Dairesi (LKA)\"",
+    "\"iz sürücü köpekler\" is the wrong spelling and term; it should be \"iz takip köpekleri\""
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin-Marzahn'daki Polis Müdürlüğü (Sembolik fotoğraf)",
+    "kl": "Berlin"
    }
   },
   "mattr-hubpeople-neurodivergent-dating-2026-11-06": {
@@ -4768,6 +4909,33 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Hong Kong'daki bir alışveriş merkezinde Piaget butiği"
+   }
+  },
+  "pp-budget-2027-rezession-denkow-2026-11-06-b21": {
+   "L": {
+    "body": [
+     "Başbakan Rumen Radev’in 2027 bütçe taslağını açıklamasından birkaç saat sonra muhalefetteki “Değişime Devam Ediyoruz” (PP) partisi, rakamları “yoksulluk ve resesyon bütçesi” olarak niteledi. Grup başkanı Nikolay Denkov, BTA’nın aktardığına göre, sermaye programının 10 milyar avrodan 6 milyar avroya küçüldüğünü; gelirlerin enflasyondan daha yavaş arttığını söyledi. Krize karşı bir paket olmazsa birkaç ay içinde resesyon tehlikesi olduğunu belirtti.",
+     "Sosyal Komisyon Başkanı Venko Sabrutev (PP), emekli maaşlarının yüzde 7,8 artırılmasının öngörüldüğünü, yoksulluk sınırının ise yüzde 14 artacağını hesapladı. Sabrutev’in verdiği bilgiye göre bu nedenle 1,2 milyondan fazla kişi yoksulluk sınırının altına düşecek. PP milletvekili Bogdan Bogdanov ise rekor elektrik fiyatlarına ve litresi yaklaşık iki avroya ulaşan akaryakıta dikkat çekti.",
+     "Denkov akşam BNT’nin “Oshte ot denya” programında yeniden konuştu: Radev, “frenleri tutmayan ağır bir kamyonun” mirasından söz etmişti; Denkov ise artık aracı hükümetin kullandığını söyledi. Denkov, devlet borcunun ekonomik hasılanın 2024’teki yaklaşık yüzde 24’ünden yüzde 30’un üzerine çıktığını, yeni borçlanmanın ise kendi hükümeti dönemindekinin iki buçuk katı olduğunu söyledi."
+    ],
+    "d": "PP, hükümeti yatırımları 10 milyar avrodan 6 milyar avroya düşürmekle ve emekli maaşlarını yoksulluk sınırından daha yavaş artırmakla suçladı. Denkov BNT’de resesyon uyarısı yaptı.",
+    "t": "“Yoksulluk ve durgunluk bütçesi”: Muhalefet Radev’in 2027 bütçesini eleştirdi"
+   },
+   "at": "2026-11-06T19:40Z",
+   "h": "73f797ee62a1",
+   "rev": [
+    "Last sentence: clumsy, mixed attribution (\"Denkov'a göre ... söyledi\"), fix to a clean reported-speech construction",
+    "Headline: \"zerpflückt\" rendered too weakly as \"eleştirdi\"; the draft is within limits but could be stronger (left as is)",
+    "Committee chair: \"Sosyal Komisyon\" vs Sozialausschuss is acceptable; rent/poverty line wording okay",
+    "Denkov's statement on incomes: \"gelirler\" okay"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Nikolay Denkov (Arşiv fotoğrafı)"
    }
   },
   "real-sociedad-lyon-2026-11-06": {
@@ -6049,6 +6217,34 @@
     "img.alt": "Arşiv fotoğrafı: Johnny Walker, Mayıs 2026'da Florida'daki Hurlburt Field Hava Üssü'nde"
    }
   },
+  "ufc-vegas-124-wiegen-cortes-acosta-walker-2026-11-06-b21": {
+   "L": {
+    "body": [
+     "Ağır sıklet dövüşçüleri Waldo Cortes-Acosta ile Johnny Walker, cuma günü Las Vegas'ta yapılan resmi tartıda UFC Vegas 124'ün ana maçı öncesindeki son engeli aştı. Sherdog ve MiddleEasy'nin bildirdiğine göre Cortes-Acosta 262 libre (yaklaşık 119 kilo), Walker ise 239 libre (yaklaşık 108 kilo) geldi. Sherdog'a göre 28 dövüşçünün hiçbiri kilo limitini aşmadı.",
+     "Karşılaşma, başlangıçta planlanan Gabriel Bonfim ile Sean Brady arasındaki ana maçın Brady'nin sakatlığı nedeniyle iptal olmasının ardından kısa sürede programa alındı. Sherdog'a göre yarı ağır sıkletten yükselen Brezilyalı Walker için bu beşinci UFC ana maçı, Cortes-Acosta için ise ilki.",
+     "Yardımcı ana maçta saman sıklette Tatiana Suarez (115,5 libre) ile Virna Jandiroba (116) karşı karşıya gelecek; UFC'nin açıklamasına göre kazanan, Mackenzie Dern'e karşı unvan şansı elde edecek. Meta APEX'teki organizasyon, cumartesiyi pazara bağlayan gece 23:00'te (OAS) ön karşılaşmalarla başlayacak, ana kart 02:00'de (OAS) izleyecek."
+    ],
+    "d": "Las Vegas'taki tartıda Waldo Cortes-Acosta 262, Johnny Walker 239 libre geldi. Sherdog'a göre tüm dövüşçüler limiti tutturdu; ana maç cumartesiyi pazara bağlayan gece yapılacak.",
+    "t": "UFC Vegas 124: 23 librelik fark – Cortes-Acosta ve Walker maça hazır"
+   },
+   "at": "2026-11-06T19:40Z",
+   "h": "e681d6185f1a",
+   "rev": [
+    "Strohgewicht rendered incorrectly as 'sinek siklet altı (saman siklet)'; the standard Turkish term is 'siklet' for strawweight: 'sıklet' → 'saman siklet'",
+    "'Ağır siklet' / 'yarı ağır sıklet' spelling inconsistent: TDK 'sıklet' (also 'siklet' is accepted); unify to 'sıklet'",
+    "Teaser 'pazar gecesine denk gelen saatlerde' and 'pazar gecesi' are vague/misplaced: German 'in der Nacht zum Sonntag' = cumartesiyi pazara bağlayan gece",
+    "Draft says 'Walker için... beşinci' fine; 'Sherdog'a göre 28 dövüşçünün hiçbiri' fine",
+    "Time awkward: 'Orta Avrupa Saati ile 23:00'te ... (OAS)' redundant and inconsistent"
+   ],
+   "rev_dbg": [
+    5,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Kapak görseli: UFC Vegas 124"
+   }
+  },
   "ufc-white-volkanovski-gaethje-wartet": {
    "L": {
     "body": [
@@ -6611,6 +6807,22 @@
     ],
     "img.alt": "Yenidoğan ayakları (Sembolik fotoğraf)",
     "kl": "Tıp ve Araştırma"
+   }
+  },
+  "vw-dieselprozess-haftbefehl-braunschweig-2026-11-06-b21": {
+   "L": {
+    "body": [
+     "VW dizel skandalına ilişkin yeni dolandırıcılık davasında Braunschweig Eyalet Mahkemesi, üç sanık eski üst düzey yöneticiden biri hakkında tutuklama emri çıkardı. 66 yaşındaki sanık, yargılamanın sürdürülmesini güvence altına almak amacıyla ikinci duruşma gününün ardından gözaltına alındı. dpa'nın aktardığına göre sanık karara itiraz etti.",
+     "Adam, Pazartesi günü planlanan açılışa sağlık nedenleriyle gelmemişti; bu nedenle iddianame okunamamıştı. Perşembe günü Braunschweig'a geldi ve kendi ifadesine göre oturmak ona şiddetli ağrı çektirdiği için okumayı ayakta ve yürüyerek takip etti. Başkan hâkim, seyahat edemeyeceğine ilişkin sunulan raporu yeterli bulmadı.",
+     "Bu, Braunschweig'da dizel skandalına ilişkin dördüncü büyük ceza davası. Sanıklara, diğer suçlamaların yanı sıra yasa dışı devre dışı bırakma düzeneğinin geliştirilmesine katkıda bulunmak veya düzeneğin daha da geliştirilmesini durdurmamak isnat ediliyor. Dava için 2028 sonuna kadar yaklaşık 150 duruşma günü öngörüldü; tüm sanıklar için masumiyet karinesi geçerli."
+    ],
+    "d": "Braunschweig Eyalet Mahkemesi, 66 yaşındaki bir sanık hakkında tutuklama emri çıkardı. Sanık davanın açılışında hazır bulunmamıştı; sunduğu rapor mahkemeye yetmedi. Karara itiraz etti.",
+    "t": "VW dizel davası: Mahkeme, sanık eski yöneticinin tutuklanmasına karar verdi"
+   },
+   "at": "2026-11-06T19:40Z",
+   "h": "acba7e5877c3",
+   "x": {
+    "img.alt": "Braunschweig Eyalet Mahkemesi (Arşiv fotoğrafı)"
    }
   },
   "wallstreet": {
