@@ -460,6 +460,33 @@
     "img.alt": "Arşiv fotoğrafı: Michael Chandler (soldan 2.) ve Dominick Cruz (solda) Fort Meade ziyaretinde"
    }
   },
+  "deutsche-boerse": {
+   "L": {
+    "body": [
+     "Dax (Almanya'nın en büyük 40 borsa şirketi) perşembe günü yaklaşık 26.693 puanla yeni bir rekor seviyeye ulaştı, ardından yön değiştirerek günü 26.325,01 puanda, yani %0,43 düşüşle kapattı. MDax (orta ölçekli şirketler) %0,92, SDax (daha küçük şirketler) %1,39, teknoloji endeksi TecDax ise %2,18 değer kaybetti. Euro Stoxx 50 (avro bölgesinin büyük şirketleri) %0,55 geriledi (dpa-AFX, finanzen.net).",
+     "Nedeni ABD'deki dönüş oldu: Orada yapay zekâ (YZ) ile ilişkili hisseler, özellikle çip hisseleri, yeniden sert düştü. Yatırımcılar, Demokratların seçim başarısının ardından daha sıkı kuralların veri merkezlerinin inşasını yavaşlatmasından endişe ediyor. Almanya'da Infineon %8,54 değer kaybetti; TecDax'ta Siltronic, PVA TePla ve Nemetschek %10'dan fazla düştü.",
+     "Dax'ın en çok kaybedeni Rheinmetall oldu (-%16,14); hisse Şubat 2025'ten bu yana en düşük seviyesine geriledi. Şirket 2026 tahminini yeniden düşürdü: Büyük Bundeswehr siparişleri geciktiği için 13,7 ile 14,2 milyar avro yerine yaklaşık 13,2 milyar avro ciro bekliyor. Commerzbank (-%2,81) ve Deutsche Telekom (-%2,1) da açıkladıkları rakamların ardından değer kaybetti. Kazananlar arasında Zalando, Bayer ve BASF (her biri %3'ün üzerinde), kimya şirketi Lanxess (yaklaşık +%6) ve HelloFresh (+%11,47) yer aldı.",
+     "cuma sabahı aracı kurum IG, Dax'ı yaklaşık 26.105 puanda (-%0,8; dpa-AFX, 05:51) fiyatladı. Gece boyunca New York'ta teknoloji endeksi Nasdaq 100 %6,4 düşmüştü; bu, Mart 2020'den bu yana en büyük günlük kayıp oldu."
+    ],
+    "d": "Dax yaklaşık 26.693 puanla rekor seviyeye ulaştı ancak günü 26.325 puanda (-%0,43) tamamladı. ABD'deki yapay zekâ satış dalgası ve yeniden düşürülen tahmin Rheinmetall'i %16 geriletti.",
+    "explain": "Alman hisseleri toplamda yalnızca hafif geriledi, ancak teknoloji hisseleri ve Rheinmetall sert değer kaybetti. Teknoloji hisseli fonları olanlar önümüzdeki günlerde daha güçlü dalgalanmalar yaşayabilir.",
+    "t": "Dax gün içinde rekor kırdı, günü %0,43 düşüşle kapattı; Rheinmetall %16 çöktü"
+   },
+   "at": "2026-11-06T08:39Z",
+   "h": "64ef16687e8d",
+   "rev": [
+    "Spelling error: 'gecikdiği' should be 'geciktiği'",
+    "Weekdays should be capitalised only per TDK convention: 'Perşembe günü' and 'Cuma sabahı' should be lowercase",
+    "Number format: '%-0,43' etc. is unnatural; Turkish convention is '-%0,43' / 'yüzde'",
+    "Headline/teaser: 'knapp 26.693' rendered as 'yaklaşık' (acceptable); 'Dax'ın sonuncusu' is unnatural",
+    "Teaser: 'Rheinmetall'i %16 geriletti' fine; 'Kazananlar' fine"
+   ],
+   "rev_dbg": [
+    5,
+    8,
+    0
+   ]
+  },
   "deutschland-berlin-badle-berger-wohnsitz-offener-vollzug-2026-11-06": {
    "L": {
     "body": [
