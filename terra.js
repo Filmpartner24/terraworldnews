@@ -185,7 +185,7 @@ var html='<section class="twr'+(isPop?' twr-pop':'')+'" aria-label="'+esc(t.r)+'
 '<label class="twr-vol"><span aria-hidden="true">🔊</span><input type="range" min="0" max="1" step="0.05" aria-label="'+esc(t.vol)+'"></label></div>'+
 '<div class="twr-seek"><input type="range" min="0" max="1000" value="0" aria-label="seek"><small class="twr-time">0:00</small></div>'+
 '<h3 class="twr-sh">'+esc(t.news)+'</h3><div class="twr-news"></div>'+
-'<div class="twr-lrw" hidden><h3 class="twr-sh">'+esc(t.lr)+'</h3><div class="twr-lrbox"></div><div class="twr-lr"></div><p class="twr-lf">'+esc(t.lrn)+'</p></div>'+'<h3 class="twr-sh">'+esc(t.mus)+'</h3><div class="twr-ch"></div>'+
+'<div class="twr-lrw" hidden><h3 class="twr-sh">'+esc(t.lr)+'</h3><div class="twr-lrbox"></div><p class="twr-lf">'+esc(t.lrn)+'</p></div>'+'<h3 class="twr-sh">'+esc(t.mus)+'</h3><div class="twr-ch"></div>'+
 (isPop?'':'<button type="button" class="twr-popb">↗ '+esc(t.p)+' <small>'+esc(t.ph)+'</small></button>')+
 '<p class="twr-ai">'+esc(t.ai)+'</p><audio preload="none"></audio></section>';
 var V=el('<section class="twr twr-tvp'+(isPop?' twr-pop':'')+'" aria-label="'+esc(t.tvb)+'"'+(isPop?'':' hidden')+' style="--c1:#d4161c;--c2:#3b8bff"><div class="twr-glow" aria-hidden="true"></div>'+
@@ -224,14 +224,14 @@ ss.map(function(x){return '<a href="https://laut.fm/'+esc(x[1])+'" target="_blan
 d.addEventListener('toggle',function(){if(d.open)Array.prototype.forEach.call(ch.querySelectorAll('details[open]'),function(o){if(o!==d)o.open=false})});
 Array.prototype.forEach.call(d.querySelectorAll('a'),function(a){a.addEventListener('click',function(){au.pause()})});ch.appendChild(d)});
 if(ch.childNodes.length)ch.insertAdjacentHTML('afterend','<p class="twr-lf">'+esc(t.lf)+'</p>');
-var lrw=R.querySelector('.twr-lrw'),lr=R.querySelector('.twr-lr'),lbx=R.querySelector('.twr-lrbox');lr.innerHTML='';lbx.innerHTML='';
-((st&&st.live)||[]).forEach(function(m){lrw.hidden=false;var b=el('<button type="button" class="twr-card" style="--c1:'+esc(m.c1)+';--c2:'+esc(m.c2)+'"><span class="e">'+esc(m.emoji||'📻')+'</span><b>'+esc(m.name)+'</b><small>'+esc((m.g&&(m.g[L]||m.g.en))||'')+'</small><em class="twr-lv">● LIVE</em></button>');
-b.addEventListener('click',function(){au.pause();if(window.speechSynthesis)window.speechSynthesis.cancel();lbx.innerHTML='<iframe src="'+esc(m.widget)+'" width="100%" height="'+(m.h||212)+'" style="border:0;display:block" title="'+esc(m.name)+' — live player" allow="autoplay"></iframe><p class="twr-cr"><a href="'+esc(m.site)+'" target="_blank" rel="noopener">'+esc(m.credit)+'</a></p>';
-Array.prototype.forEach.call(lr.querySelectorAll('.twr-card'),function(x){x.classList.toggle('on',x===b)})});lr.appendChild(b)});
+LIVE=(st&&st.live)||[];lrShow();
 var k=ls('twr-k'),j=-1;list.forEach(function(x,i){if(x.k===k&&x.src)j=i});if(j<0)j=list.findIndex(function(x){return x.src});if(j>=0){cur=j;show(list[j]);au.src=list[j].src}}
 function load(){if(!window.fetch)return;Promise.all([fetch('/audio/news.json',{cache:'no-cache'}).then(function(r){return r.json()}).catch(function(){return{}}),fetch('/radio/stations.json',{cache:'no-cache'}).then(function(r){return r.json()}).catch(function(){return{}})]).then(function(a){build(a[0],a[1])})}
-function lrStop(){var x=R.querySelector('.twr-lrbox');if(x)x.innerHTML='';Array.prototype.forEach.call(R.querySelectorAll('.twr-lr .twr-card'),function(b){b.classList.remove('on')})}
-au.addEventListener('play',function(){lrStop()});
+var LIVE=[];
+function lrShow(){var w=R.querySelector('.twr-lrw'),bx=R.querySelector('.twr-lrbox');if(!LIVE.length){w.hidden=true;return}w.hidden=false;   /* Anti-Player direkt sichtbar (Nedy 06.11.2026) */
+bx.innerHTML=LIVE.map(function(m){return '<iframe src="'+esc(m.widget)+'" width="100%" height="'+(m.h||212)+'" style="border:0;display:block" title="'+esc(m.name)+' — live player" allow="autoplay"></iframe><p class="twr-cr"><a href="'+esc(m.site)+'" target="_blank" rel="noopener">'+esc(m.credit)+'</a></p>'}).join('')}
+function lrStop(){var x=R.querySelector('.twr-lrbox');if(x)x.innerHTML=''}
+au.addEventListener('play',function(){if(R.querySelector('.twr-lrbox iframe'))lrShow()});   /* TWN-Nachrichten starten → Anti-Player neu laden (stoppt dessen Ton) */
 function loadTV(){if(window.fetch)fetch('/tv/channels.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(tv).catch(function(){})}
 function tvStop(){V.querySelector('.twr-vid').innerHTML='<p class="twr-pick"><span aria-hidden="true">📺</span>'+esc(t.pick)+'</p>';V.querySelector('.twr-via').textContent='';V.classList.remove('twr-on');Array.prototype.forEach.call(V.querySelectorAll('.twr-tv .twr-card'),function(b){b.classList.remove('on')})}
 function tv(d){var box=V.querySelector('.twr-tv');box.innerHTML='';((d&&d.channels)||[]).forEach(function(c){if(!c.v)return;
@@ -247,7 +247,7 @@ btn=el('<button type="button" class="twr-b" aria-expanded="false"><span aria-hid
 var tb=el('<button type="button" class="twr-b twr-b2" aria-expanded="false"><span aria-hidden="true">📺</span><span>TV News</span></button>');
 document.body.appendChild(tb);document.body.appendChild(btn);document.body.appendChild(V);document.body.appendChild(R);var loaded=false,tvl=false;
 function sh(p,b,on){p.hidden=!on;b.setAttribute('aria-expanded',on?'true':'false')}
-btn.addEventListener('click',function(){if(!loaded){load();loaded=true}var o=R.hidden;sh(R,btn,o);if(o)sh(V,tb,false)});
+btn.addEventListener('click',function(){if(!loaded){load();loaded=true}var o=R.hidden;sh(R,btn,o);if(o){sh(V,tb,false);if(!R.querySelector('.twr-lrbox iframe'))lrShow()}else lrStop()});
 tb.addEventListener('click',function(){if(!tvl){loadTV();tvl=true}var o=V.hidden;sh(V,tb,o);if(o)sh(R,btn,false)});
 R.querySelector('.twr-x').addEventListener('click',function(){au.pause();lrStop();sh(R,btn,false)});V.querySelector('.twr-x').addEventListener('click',function(){tvStop();sh(V,tb,false)});   /* × beendet alles (Nedy 05.11.2026) */
 V.querySelector('.twr-popb').addEventListener('click',function(){tvStop();window.open('/radio.html?l='+L+'&tv=1','twntv','width=720,height=640')});
