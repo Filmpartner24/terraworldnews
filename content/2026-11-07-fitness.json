@@ -1,0 +1,349 @@
+{
+ "date": "2026-11-07",
+ "items": [
+  {
+   "id": "studie-gang-ki-gesundheit-weizmann-2026-11-07",
+   "s": "leben",
+   "sub": "fitness",
+   "fk": "koerper",
+   "fks": [
+    "mobil"
+   ],
+   "studie": true,
+   "kl": {
+    "de": "Körperwissen & Anatomie",
+    "bg": "Знания за тялото и анатомия",
+    "en": "Body knowledge & anatomy"
+   },
+   "time": "14:05",
+   "src": [
+    {
+     "n": "Nature Medicine: Gabet, Segal et al. – A gait foundation model for prediction of multisystem health phenotypes from 3D skeletal motion (06.11.2026)",
+     "u": "https://www.nature.com/articles/s41591-026-04724-9"
+    },
+    {
+     "n": "EurekAlert!: Nature Medicine publication reveals how human movement predicts hidden biosignals spanning 18 body systems (06.11.2026)",
+     "u": "https://www.eurekalert.org/news-releases/1150895"
+    }
+   ],
+   "de": {
+    "t": "Studie: Wie wir gehen, verrät viel über den Körper – KI liest Gesundheitswerte im Gang",
+    "d": "Forschende des Weizmann-Instituts haben 3328 Erwachsene beim Gehen gefilmt. Ein KI-Modell sagte aus den Bewegungen 1887 von 3210 Gesundheitswerten vorher – vorerst ein reines Forschungswerkzeug.",
+    "body": [
+     "Ein Team um Adam Gabet und Eran Segal vom Weizmann-Institut für Wissenschaften in Rehovot (Israel) hat untersucht, wie viel das Gangbild über den ganzen Körper verrät. Die Arbeit erschien am 6. November 2026 im begutachteten Fachjournal „Nature Medicine“. Die Daten stammen aus dem Human Phenotype Project, einer Studie, in der Teilnehmende sehr umfassend untersucht werden: 3328 Erwachsene (1607 Männer, 1721 Frauen) absolvierten fünf standardisierte Bewegungsaufgaben, darunter Gehen auf dem Laufband mit 3 km/h. Eine einzelne Tiefenkamera erfasste dabei 26 Gelenkpunkte; ausgewertet wurden 17.589 Bewegungsaufnahmen. Statt nur klassische Werte wie Schrittlänge oder Schrittfrequenz zu nutzen, lernte ein KI-Modell selbst, wie sich alle Gelenke im Zusammenspiel bewegen.",
+     "Das Modell sagte 1887 von 3210 getesteten Messwerten aus 18 Körpersystemen statistisch signifikant vorher – von Blutwerten über Leber-Bildgebung und Schlaf bis zu psychischer Gesundheit und ärztlichen Diagnosen. Für das innere Bauchfett erreichte die Vorhersage eine Korrelation von 0,83, für den Body-Mass-Index 0,91 und für das Alter 0,69. Auch wenn Alter, BMI, Bauchfett und Körpergröße bereits berücksichtigt waren, verbesserten die Gangdaten die Vorhersage bei Männern in allen 18 und bei Frauen in 17 von 18 Körpersystemen. Bewegungen der Beine hingen eher mit Stoffwechsel und Gebrechlichkeit zusammen, Bewegungen des Rumpfes eher mit Schlaf und Lebensstil.",
+     "Die Grenzen sind deutlich: Es handelt sich um eine Querschnittsauswertung, die Zusammenhänge zeigt, aber weder Ursachen noch einen Nutzen in der Praxis belegt; laut Mitteilung braucht es vorausschauende Studien und Tests in vielfältigeren Bevölkerungsgruppen, bevor an Untersuchungen oder Diagnosen zu denken ist. Das Kamerasystem stammt von der Firma Newton VR, bei der drei Mitautoren angestellt sind; zwei Autoren, darunter Segal, beraten gegen Bezahlung die Firma Pheno.AI. Finanziert wurde die Arbeit unter anderem von mehreren Stiftungen. Praktisch heißt das: Das Gangbild spiegelt offenbar viele Körpersysteme wider – eine Selbstdiagnose lässt sich daraus aber nicht ableiten. Wer merkt, dass das eigene Gehen unsicherer, langsamer oder schmerzhaft wird, sollte das ärztlich abklären lassen."
+    ],
+    "facts": [
+     "Studie: KI-Modell auf 3D-Bewegungsdaten, Querschnittsauswertung",
+     "Teilnehmer: 3328 Erwachsene aus dem Human Phenotype Project",
+     "Journal: Nature Medicine (06.11.2026)",
+     "Ergebnis: 1887 von 3210 Gesundheitswerten signifikant vorhergesagt",
+     "Grenze: Firmenbeteiligung, noch kein klinisches Werkzeug"
+    ]
+   },
+   "bg": {
+    "t": "Проучване: Походката издава много за тялото – ИИ разчита здравни показатели",
+    "d": "Учени от института „Вайцман“ заснеха 3328 възрастни при ходене. Модел с изкуствен интелект предсказа по движенията 1887 от 3210 здравни показателя – засега само като инструмент за изследвания.",
+    "body": [
+     "Екип около Адам Габет и Еран Сегал от Научния институт „Вайцман“ в Реховот (Израел) е изследвал колко много издава походката за целия организъм. Работата е публикувана на 6 ноември 2026 г. в рецензираното научно списание „Nature Medicine“. Данните са от Human Phenotype Project – проучване, в което участниците се изследват много подробно: 3328 възрастни (1607 мъже и 1721 жени) изпълниха пет стандартизирани двигателни задачи, сред които ходене на бягаща пътека със скорост 3 км/ч. Една дълбочинна камера записваше 26 точки на ставите; анализирани бяха 17 589 записа на движение. Вместо да използва само класически стойности като дължина и честота на крачката, моделът с изкуствен интелект сам научи как се движат всички стави заедно.",
+     "Моделът предсказа статистически значимо 1887 от 3210 изследвани показателя от 18 системи на организма – от кръвни стойности през образни изследвания на черния дроб и съня до психичното здраве и лекарски диагнози. За вътрешната коремна мазнина корелацията на прогнозата беше 0,83, за индекса на телесна маса – 0,91, а за възрастта – 0,69. Дори когато възрастта, ИТМ, коремната мазнина и ръстът вече бяха взети предвид, данните за походката подобриха прогнозата при мъжете във всичките 18, а при жените в 17 от 18 системи. Движенията на краката бяха свързани по-скоро с обмяната на веществата и крехкостта, а тези на торса – със съня и начина на живот.",
+     "Ограниченията са ясни: става дума за напречен анализ, който показва връзки, но не доказва нито причини, нито практическа полза; според съобщението са нужни проспективни проучвания и проверки в по-разнообразни групи от населението, преди да се мисли за прегледи или диагнози. Камерната система е на фирмата Newton VR, в която работят трима от съавторите; двама автори, сред които Сегал, са платени консултанти на фирмата Pheno.AI. Работата е финансирана между другото от няколко фондации. На практика: походката очевидно отразява много системи на тялото – но от нея не може да се прави самодиагностика. Ако забележите, че ходенето ви става по-несигурно, по-бавно или болезнено, обърнете се към лекар."
+    ],
+    "facts": [
+     "Проучване: модел с ИИ върху 3D данни за движение, напречен анализ",
+     "Участници: 3328 възрастни от Human Phenotype Project",
+     "Списание: Nature Medicine (06.11.2026)",
+     "Резултат: 1887 от 3210 здравни показателя предсказани значимо",
+     "Ограничение: участие на фирми, още не е клиничен инструмент"
+    ]
+   },
+   "en": {
+    "t": "Study: The way we walk reveals a lot about the body – AI reads health markers from gait",
+    "d": "Researchers at the Weizmann Institute filmed 3,328 adults walking. An AI model predicted 1,887 of 3,210 health measures from their movements – for now purely a research tool.",
+    "body": [
+     "A team led by Adam Gabet and Eran Segal of the Weizmann Institute of Science in Rehovot, Israel, examined how much a person's gait reveals about the whole body. The work was published on 6 November 2026 in the peer-reviewed journal Nature Medicine. The data come from the Human Phenotype Project, a study in which participants are examined in great depth: 3,328 adults (1,607 men, 1,721 women) completed five standardised motor tasks, including walking on a treadmill at 3 km/h. A single depth camera tracked 26 joint points, and 17,589 movement recordings were analysed. Instead of relying only on classic measures such as stride length or cadence, an AI model learned by itself how all the joints move together.",
+     "The model predicted 1,887 of 3,210 tested measures from 18 body systems with statistical significance – from blood values, liver imaging and sleep to mental health and clinical diagnoses. For visceral belly fat the prediction reached a correlation of 0.83, for body mass index 0.91 and for age 0.69. Even after age, BMI, visceral fat and height had been taken into account, gait data improved prediction in all 18 body systems in men and in 17 of 18 in women. Leg movements were linked more to metabolism and frailty, torso movements more to sleep and lifestyle.",
+     "The limitations are clear: this is a cross-sectional analysis that shows associations but proves neither causes nor practical benefit; according to the release, prospective studies and testing in more diverse populations are needed before screening or diagnosis can be considered. The camera system comes from the company Newton VR, which employs three of the co-authors; two authors, including Segal, are paid consultants to the company Pheno.AI. Funding came from several foundations, among others. In practice: gait apparently mirrors many body systems – but it cannot be used for self-diagnosis. Anyone who notices that their walking is becoming less steady, slower or painful should have it checked by a doctor."
+    ],
+    "facts": [
+     "Study: AI model on 3D movement data, cross-sectional analysis",
+     "Participants: 3,328 adults from the Human Phenotype Project",
+     "Journal: Nature Medicine (6 Nov 2026)",
+     "Result: 1,887 of 3,210 health measures significantly predicted",
+     "Limitation: company involvement, not yet a clinical tool"
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-07/studie-gang-ki-gesundheit-weizmann-2026-11-07.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Wolfgang1018",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nordic_walking_on_treadmill.jpg",
+    "alt": {
+     "de": "Mann beim Walking auf dem Laufband in einem Fitnessstudio (Symbolbild)",
+     "bg": "Мъж ходи на бягаща пътека във фитнес зала (символично изображение)",
+     "en": "Man walking on a treadmill in a gym (symbolic image)"
+    }
+   }
+  },
+  {
+   "id": "ausfallschritt-richtig-ausfuehren-2026-11-07",
+   "s": "leben",
+   "sub": "fitness",
+   "fk": "kraft",
+   "kl": {
+    "de": "Krafttraining & Muskelaufbau",
+    "bg": "Силови тренировки и мускули",
+    "en": "Strength & muscle"
+   },
+   "time": "14:07",
+   "src": [
+    {
+     "n": "American Council on Exercise (ACE): Exercise Library – Forward Lunge",
+     "u": "https://www.acefitness.org/exercise-library-details/0/94/"
+    },
+    {
+     "n": "Mayo Clinic (Health Information Library, über Mayo Clinic Care Network): Video – Lunge exercise",
+     "u": "https://www.amerikanhastanesi.org/mayo-clinic-care-network/mayo-clinic-health-information-library/videos/video-lunge-exercise"
+    }
+   ],
+   "de": {
+    "t": "Ausfallschritt richtig ausführen: So gelingt die Übung – und das sind typische Fehler",
+    "d": "Der Ausfallschritt kräftigt Oberschenkel, Gesäß und Rumpf und braucht kein Gerät. Worauf es bei der Ausführung ankommt, wie man ihn anpasst und welche Fehler häufig vorkommen.",
+    "body": [
+     "Der Ausfallschritt gehört wie die Kniebeuge zu den Grundübungen für die Beine. Nach Angaben der Mayo Clinic beansprucht er vor allem die vordere und hintere Oberschenkelmuskulatur sowie den Gesäßmuskel, in geringerem Maß auch die Unterschenkel; der US-Fitnessverband American Council on Exercise (ACE) nennt zusätzlich die Bauchmuskulatur. Gebraucht wird kein Gerät. Weil die Bewegung Ausfallschritten in Sportarten wie Tennis, Basketball oder Fußball ähnelt, eignet sie sich laut Mayo Clinic auch als Vorbereitung darauf. Das ACE stuft die Übung als mittelschwer ein und rät, vorher den sicheren Einbeinstand zu üben.",
+     "So geht es nach der ACE-Anleitung: Mit geschlossenen Füßen aufrecht stehen, die Schulterblätter nach hinten unten ziehen, den Rumpf anspannen und kein Hohlkreuz machen. Dann einen Schritt nach vorn setzen, zuerst mit der Ferse aufkommen und das Gewicht auf den vorderen Fuß verlagern. Die Hüfte senkrecht Richtung Boden absenken, statt sie nach vorn zu schieben – bis der vordere Oberschenkel etwa waagerecht ist; die Mayo Clinic beschreibt einen Winkel von rund 90 Grad im vorderen Knie. Wer so tief nicht kommt, geht nur so weit, wie es angenehm ist. Anschließend kräftig über das vordere Bein zurück in den Stand drücken. Als Variante setzt man beim gehenden Ausfallschritt direkt mit dem anderen Bein den nächsten Schritt.",
+     "Typische Fehler sind laut den Anleitungen von ACE und Mayo Clinic: die Hüfte nach vorn schieben statt absenken, ein Knie, das nach innen kippt oder nach außen wandert, ein seitlich schwankender Oberkörper, ein verrutschender Standfuß und ein rundes oder stark gebogenes Kreuz. Die Mayo Clinic rät, das vordere Knie nicht über die Zehenspitzen hinauszuschieben; das ACE beschreibt ein leicht nach vorn geneigtes Schienbein – gemeinsam ist beiden ein ruhiges, kontrolliertes Absenken. Wie viele Wiederholungen sinnvoll sind, hängt vom Trainingsstand ab: Aufhören, wenn die Muskeln ermüden oder die Ausführung unsauber wird. Wer Knie- oder Hüftschmerzen hat, sollte die Übung vorher ärztlich oder physiotherapeutisch abklären lassen."
+    ],
+    "facts": [
+     "Trainiert: Oberschenkel vorn und hinten, Gesäß, Rumpf",
+     "Hüfte senkrecht absenken, nicht nach vorn schieben",
+     "Vorderes Knie etwa 90 Grad, Knie in Linie mit dem Fuß",
+     "Aufhören, sobald die Ausführung unsauber wird"
+    ]
+   },
+   "bg": {
+    "t": "Как да правим правилно напад: техника на упражнението и най-честите грешки",
+    "d": "Нападът укрепва бедрата, седалището и корема и не изисква уред. На какво да внимаваме при изпълнението, как да го адаптираме и кои грешки се срещат често.",
+    "body": [
+     "Нападът, подобно на клека, е сред основните упражнения за краката. Според клиниката „Майо“ той натоварва най-вече предната и задната част на бедрото и седалищния мускул, а в по-малка степен и подбедриците; американската фитнес асоциация American Council on Exercise (ACE) посочва и коремните мускули. Не е нужен уред. Тъй като движението прилича на напада в спортове като тенис, баскетбол или футбол, според „Майо“ то е подходящо и като подготовка за тях. ACE определя упражнението като средно трудно и съветва първо да се упражни стабилното стоене на един крак.",
+     "Ето как се прави според указанията на ACE: застанете изправени с прибрани стъпала, изтеглете лопатките назад и надолу, стегнете корема и не извивайте кръста. После направете крачка напред, стъпете първо с петата и прехвърлете тежестта върху предния крак. Спуснете таза вертикално към пода, вместо да го бутате напред – докато предното бедро стане приблизително успоредно на пода; „Майо“ описва ъгъл от около 90 градуса в предното коляно. Ако не можете да слезете толкова ниско, слезте само докъдето ви е удобно. След това се избутайте силно с предния крак обратно в изходна позиция. При варианта „ходещ напад“ веднага правите следващата крачка с другия крак.",
+     "Типичните грешки според указанията на ACE и „Майо“ са: бутане на таза напред вместо спускане, коляно, което пада навътре или излиза навън, люлеещ се встрани торс, плъзгащо се опорно стъпало и прегърбен или силно извит кръст. „Майо“ съветва предното коляно да не излиза пред пръстите на крака; ACE описва леко наклонен напред пищял – общото и при двете е спокойното, контролирано спускане. Колко повторения са подходящи, зависи от тренираността: спрете, когато мускулите се изморят или техниката се влоши. При болки в коляното или тазобедрената става първо се консултирайте с лекар или физиотерапевт."
+    ],
+    "facts": [
+     "Натоварва: предна и задна част на бедрото, седалище, корем",
+     "Тазът се спуска вертикално, не се бута напред",
+     "Предното коляно около 90 градуса, в линия със стъпалото",
+     "Спрете, щом техниката се влоши"
+    ]
+   },
+   "en": {
+    "t": "How to do a lunge properly: technique and the most common mistakes",
+    "d": "The lunge strengthens the thighs, glutes and core and needs no equipment. What matters in the execution, how to adapt it and which mistakes are common.",
+    "body": [
+     "Like the squat, the lunge is one of the basic leg exercises. According to Mayo Clinic, it mainly works the quadriceps, hamstrings and glutes, and to a lesser extent the lower legs; the American Council on Exercise (ACE) also lists the abdominal muscles. No equipment is needed. Because the movement resembles lunging in sports such as tennis, basketball or football, Mayo Clinic says it is also useful conditioning for them. ACE rates the exercise as intermediate and advises practising a stable single-leg stand first.",
+     "This is how it works according to ACE: stand upright with your feet together, pull your shoulder blades down and back, brace your core and avoid arching your lower back. Then step forward, land heel first and shift your weight onto the front foot. Lower your hips straight towards the floor rather than pushing them forward – until the front thigh is roughly parallel to the floor; Mayo Clinic describes an angle of about 90 degrees at the front knee. If you cannot go that low, go only as far as is comfortable. Then push firmly through the front leg back to standing. In the walking-lunge variation, you take the next step straight away with the other leg.",
+     "Typical mistakes, according to the ACE and Mayo Clinic guides, are pushing the hips forward instead of lowering them, a knee that caves inwards or drifts outwards, an upper body swaying sideways, a stance foot that slides and a rounded or strongly arched back. Mayo Clinic advises not letting the front knee travel past the toes; ACE describes a slight forward lean of the shin – what both have in common is a calm, controlled descent. How many repetitions make sense depends on fitness level: stop when the muscles tire or your form slips. Anyone with knee or hip pain should have the exercise checked by a doctor or physiotherapist first."
+    ],
+    "facts": [
+     "Works: quadriceps, hamstrings, glutes, core",
+     "Lower the hips straight down, don't push them forward",
+     "Front knee at about 90 degrees, in line with the foot",
+     "Stop as soon as your form slips"
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-07/ausfallschritt-richtig-ausfuehren-2026-11-07.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "U.S. Air Force photo by Senior Airman Myles Stepp",
+    "lic": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Airman_performing_lunge.jpg",
+    "alt": {
+     "de": "Soldat der US-Luftwaffe beim Ausfallschritt in einer Sporthalle (Symbolbild)",
+     "bg": "Военнослужещ от ВВС на САЩ прави напад във физкултурен салон (символично изображение)",
+     "en": "US Air Force airman performing a lunge in a gym (symbolic image)"
+    }
+   }
+  },
+  {
+   "id": "treppensteigen-herz-studienlage-2026-11-07",
+   "s": "leben",
+   "sub": "fitness",
+   "fk": "mobil",
+   "kl": {
+    "de": "Bewegung & Mobilität",
+    "bg": "Движение и мобилност",
+    "en": "Movement & mobility"
+   },
+   "time": "14:09",
+   "src": [
+    {
+     "n": "European Society of Cardiology: Climb stairs to live longer (Pressemitteilung, 26.04.2024)",
+     "u": "https://www.escardio.org/news/press/press-releases/Climb-stairs-to-live-longer/"
+    },
+    {
+     "n": "ScienceDaily / University of East Anglia: Taking the stairs could protect your heart and help you live longer (14.08.2026)",
+     "u": "https://www.sciencedaily.com/releases/2026/08/260814011029.htm"
+    }
+   ],
+   "de": {
+    "t": "Treppe statt Aufzug: Was Studien über Treppensteigen und das Herz zeigen",
+    "d": "Eine Auswertung von neun Studien mit rund 480.000 Menschen verbindet regelmäßiges Treppensteigen mit 39 Prozent weniger Herz-Kreislauf-Todesfällen. Was das bedeutet – und wo die Grenzen liegen.",
+    "body": [
+     "Treppensteigen ist eine der einfachsten Gelegenheiten, Bewegung in den Alltag einzubauen – im Büro, im Bahnhof oder zu Hause. Wie viel es bringen kann, hat ein Team um die Ärztin Sophie Paddock von der University of East Anglia und dem Norfolk and Norwich University Hospital (Großbritannien) untersucht. Die Forschenden sichteten fast 1900 Studien und fassten neun hochwertige Untersuchungen zusammen, mit insgesamt 480.479 Teilnehmenden zwischen 35 und 84 Jahren, davon 53 Prozent Frauen. Darunter waren gesunde Menschen ebenso wie Menschen nach einem Herzinfarkt oder mit arterieller Verschlusskrankheit der Beine; die Beobachtungszeit lag im Mittel bei 14 Jahren. Erste Ergebnisse stellte das Team 2024 auf dem Kongress ESC Preventive Cardiology vor, die vollständige Auswertung erschien 2026 im Fachjournal „American Journal of Cardiovascular Drugs“.",
+     "Das Ergebnis: Wer regelmäßig Treppen stieg, starb im Beobachtungszeitraum um 39 Prozent seltener an Herz-Kreislauf-Erkrankungen und um 24 Prozent seltener aus irgendeinem Grund als Menschen, die keine Treppen stiegen. Auch Herzinfarkte, Herzschwäche und Schlaganfälle traten seltener auf. Eine große Einzelstudie deutet an, dass etwa sechs Stockwerke am Tag den größten Nutzen bringen könnten. Paddock betont jedoch, dass der Zusammenhang „mehr Stufen, mehr Nutzen“ erst noch bestätigt werden muss.",
+     "Die Grenzen: Die Studien zeigen Zusammenhänge, aber keinen Beweis, dass das Treppensteigen selbst die Ursache ist – wer Treppen steigt, ist womöglich auch sonst aktiver oder gesünder. Wie viele Stockwerke und wie schnell gestiegen wurde, war zwischen den Studien nicht einheitlich; die ideale Menge ist offen, künftige Studien sollen Aktivität mit tragbaren Messgeräten genauer erfassen. Praktisch heißt das: Auch kurze Aktivitätsphasen zählen, und wer die Wahl hat, kann öfter die Treppe nehmen. Für Menschen mit eingeschränkter Beweglichkeit oder Gelenkbeschwerden ist das nicht immer geeignet – bei Herz- oder Gelenkproblemen vorher ärztlich abklären, wie viel Belastung passt."
+    ],
+    "facts": [
+     "Auswertung: 9 Studien, 480.479 Menschen, 35–84 Jahre",
+     "Herz-Kreislauf-Tod: 39 Prozent seltener bei Treppensteigern",
+     "Tod aus allen Ursachen: 24 Prozent seltener",
+     "Grenze: Beobachtungsdaten, ideale Menge noch unklar"
+    ]
+   },
+   "bg": {
+    "t": "Стълби вместо асансьор: какво показват проучванията за изкачването на стълби и сърцето",
+    "d": "Анализ на девет проучвания с около 480 000 души свързва редовното изкачване на стълби с 39% по-малко смъртни случаи от сърдечно-съдови заболявания. Какво означава това – и какви са ограниченията.",
+    "body": [
+     "Изкачването на стълби е един от най-лесните начини да внесем движение във всекидневието – в офиса, на гарата или у дома. Колко полза може да донесе, изследва екип около лекарката Софи Падок от Университета на Източна Англия и университетската болница в Норфолк и Норич (Великобритания). Учените прегледаха почти 1900 проучвания и обобщиха девет висококачествени изследвания с общо 480 479 участници на възраст между 35 и 84 години, от които 53% жени. Сред тях имаше както здрави хора, така и хора след инфаркт или със запушване на артериите на краката; средният период на наблюдение беше 14 години. Първите резултати екипът представи през 2024 г. на конгреса ESC Preventive Cardiology, а пълният анализ излезе през 2026 г. в списанието „American Journal of Cardiovascular Drugs“.",
+     "Резултатът: хората, които редовно изкачваха стълби, умираха през периода на наблюдение с 39% по-рядко от сърдечно-съдови заболявания и с 24% по-рядко по каквато и да е причина в сравнение с онези, които не изкачваха стълби. По-рядко бяха и инфарктите, сърдечната недостатъчност и инсултите. Едно голямо отделно проучване подсказва, че около шест етажа на ден биха могли да донесат най-голяма полза. Падок обаче подчертава, че връзката „повече стъпала – повече полза“ тепърва трябва да бъде потвърдена.",
+     "Ограниченията: проучванията показват връзки, но не доказват, че причината е самото изкачване на стълби – хората, които се качват по стълби, може би са и иначе по-активни или по-здрави. Броят на етажите и скоростта на изкачване не бяха еднакви в различните проучвания; идеалното количество остава неясно, а бъдещи изследвания трябва да измерват активността по-точно с носими устройства. На практика: и кратките периоди на активност имат значение, а който има избор, може по-често да използва стълбите. За хора с ограничена подвижност или проблеми със ставите това не винаги е подходящо – при сърдечни или ставни проблеми първо обсъдете с лекар какво натоварване е подходящо."
+    ],
+    "facts": [
+     "Анализ: 9 проучвания, 480 479 души, 35–84 години",
+     "Смърт от сърдечно-съдови заболявания: с 39% по-рядко",
+     "Смърт по всякакви причини: с 24% по-рядко",
+     "Ограничение: данни от наблюдения, идеалното количество е неясно"
+    ]
+   },
+   "en": {
+    "t": "Stairs instead of the lift: what studies show about stair climbing and the heart",
+    "d": "An analysis of nine studies with around 480,000 people links regular stair climbing to 39 per cent fewer deaths from cardiovascular disease. What that means – and where the limits lie.",
+    "body": [
+     "Climbing stairs is one of the simplest ways to build movement into everyday life – at the office, at the station or at home. How much it can achieve was investigated by a team led by physician Sophie Paddock of the University of East Anglia and the Norfolk and Norwich University Hospital in the UK. The researchers screened almost 1,900 studies and pooled nine high-quality ones, with a total of 480,479 participants aged 35 to 84, 53 per cent of them women. They included healthy people as well as people who had had a heart attack or had peripheral arterial disease; median follow-up was 14 years. The team presented first results in 2024 at the ESC Preventive Cardiology congress, and the full analysis was published in 2026 in the American Journal of Cardiovascular Drugs.",
+     "The result: people who regularly climbed stairs were 39 per cent less likely to die of cardiovascular disease during follow-up and 24 per cent less likely to die of any cause than people who did not climb stairs. Heart attacks, heart failure and strokes were also less common. One large individual study suggests that about six flights a day might bring the greatest benefit. Paddock stresses, however, that the link between more stairs and more benefit still needs to be confirmed.",
+     "The limitations: the studies show associations but do not prove that stair climbing itself is the cause – people who take the stairs may also be more active or healthier in other ways. The number of flights and the climbing speed were not standardised across studies; the ideal amount remains open, and future studies are to measure activity more precisely with wearable devices. In practice: even short bursts of activity count, and anyone who has the choice can take the stairs more often. This is not always suitable for people with limited mobility or joint problems – with heart or joint problems, check with a doctor first how much exertion is right."
+    ],
+    "facts": [
+     "Analysis: 9 studies, 480,479 people aged 35–84",
+     "Cardiovascular death: 39 per cent less common among stair climbers",
+     "Death from any cause: 24 per cent less common",
+     "Limitation: observational data, ideal amount still unclear"
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-07/treppensteigen-herz-studienlage-2026-11-07.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Bill Nicholls",
+    "lic": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Climbing_the_stairs_-_geograph.org.uk_-_4063118.jpg",
+    "alt": {
+     "de": "Menschen steigen ein Treppenhaus hinauf (Symbolbild)",
+     "bg": "Хора се изкачват по стълбище (символично изображение)",
+     "en": "People climbing a staircase (symbolic image)"
+    }
+   }
+  },
+  {
+   "id": "trainer-erklaeren-trinken-nach-durst-video-2026-11-07",
+   "s": "leben",
+   "sub": "fitness",
+   "fk": "trainer",
+   "fks": [
+    "ernaehrung"
+   ],
+   "kl": {
+    "de": "Trainer erklären",
+    "bg": "Треньорите обясняват",
+    "en": "Trainers explain"
+   },
+   "time": "14:11",
+   "yt": {
+    "id": "uEMhUqleuj8",
+    "ch": "Mayo Clinic",
+    "kind": "video",
+    "t": {
+     "de": "Mayo Clinic Minute: Nach Durst trinken",
+     "bg": "Mayo Clinic Minute: Пийте според жаждата",
+     "en": "Mayo Clinic Minute: Drink to thirst"
+    }
+   },
+   "src": [
+    {
+     "n": "Mayo Clinic (YouTube): Mayo Clinic Minute – Drink to thirst",
+     "u": "https://www.youtube.com/watch?v=uEMhUqleuj8"
+    },
+    {
+     "n": "Mayo Clinic News Network: Mayo Clinic Minute – Drink to thirst when exercising (20.07.2021)",
+     "u": "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-minute-drink-to-thirst-when-exercising/"
+    },
+    {
+     "n": "News-Medical: Wilderness Medical Society – Leitlinie zur belastungsbedingten Hyponatriämie, Update 2019 (18.03.2020)",
+     "u": "https://www.news-medical.net/news/20200318/Individuals-should-to-drink-to-thirst-to-manage-exercise-related-hyponatremia.aspx"
+    }
+   ],
+   "de": {
+    "t": "Video: Trinken beim Sport – warum eine Mayo-Clinic-Ärztin rät, nach Durst zu trinken",
+    "d": "Zu wenig Flüssigkeit schadet, zu viel auch: Im Video der Mayo Clinic erklärt die Hausärztin Sara Filmalter, warum der Durst beim Sport ein guter Ratgeber ist – und was in die Flasche gehört.",
+    "body": [
+     "Wie viel sollte man beim Sport trinken? In einem kurzen Video der Reihe „Mayo Clinic Minute“ beantwortet die Allgemeinmedizinerin Dr. Sara Filmalter von der US-Klinik Mayo Clinic diese Frage. Ihr Kernpunkt: Probleme entstehen in beide Richtungen. Wer zu wenig trinkt, kann austrocknen; wer zu viel trinkt, riskiert einen belastungsbedingt zu niedrigen Natriumspiegel im Blut, die sogenannte Hyponatriämie. Unter Ärztinnen und Ärzten gelte deshalb inzwischen als Faustregel, nach Durst zu trinken – der Körper sei der beste Ratgeber, nicht eine feste Literzahl.",
+     "Was in die Flasche gehört, erklärt Filmalter ebenfalls: Mit dem Schweiß verliert der Körper nicht nur Wasser, sondern auch Elektrolyte wie Natrium und Chlorid. Beim Auffüllen helfen Wasser oder – noch besser – Getränke mit Elektrolyten, die den Flüssigkeitshaushalt wieder ins Gleichgewicht bringen. Sie empfiehlt in der Regel, etwa die Hälfte der Flüssigkeit als Wasser und die andere Hälfte als elektrolythaltiges Getränk aufzunehmen, das nicht zu viel Zucker enthält.",
+     "Eine unabhängige Einordnung liefert die Leitlinie der Wilderness Medical Society zur belastungsbedingten Hyponatriämie (Update 2019, erschienen 2020 im Fachjournal „Wilderness & Environmental Medicine“, Erstautor Brad L. Bennett). Sie nennt längeres übermäßiges Trinken während der Belastung als wichtigsten Risikofaktor und empfiehlt, den Durst zu stillen, ohne über den Durst hinaus zu trinken. Bei langen Belastungen in der Hitze sollten salzhaltige Snacks oder Natrium verfügbar sein, vor allem für Menschen, die nicht an Hitze gewöhnt sind. Eine einzige Trinkempfehlung für alle Sportarten gebe es nicht. Wer wegen Herz- oder Nierenerkrankungen auf die Trinkmenge achten muss, sollte sie mit der Ärztin oder dem Arzt absprechen."
+    ],
+    "facts": [
+     "Faustregel laut Mayo-Clinic-Ärztin: beim Sport nach Durst trinken",
+     "Zu viel Trinken kann den Natriumspiegel gefährlich senken",
+     "Etwa halb Wasser, halb Elektrolytgetränk mit wenig Zucker",
+     "Leitlinie: bei langen Belastungen in der Hitze Salz verfügbar halten"
+    ]
+   },
+   "bg": {
+    "t": "Видео: Течности при спорт – защо лекарка от „Майо“ съветва да се пие според жаждата",
+    "d": "Твърде малко течности вредят, но и твърде много: във видео на клиниката „Майо“ общопрактикуващата лекарка Сара Филмалтер обяснява защо жаждата е добър ориентир при спорт – и какво да има в бутилката.",
+    "body": [
+     "Колко трябва да пием, докато спортуваме? В кратко видео от поредицата „Mayo Clinic Minute“ общопрактикуващата лекарка д-р Сара Филмалтер от американската клиника „Майо“ отговаря на този въпрос. Основната ѝ теза: проблеми възникват и в двете посоки. Който пие твърде малко, може да се обезводни; който пие твърде много, рискува предизвикано от натоварването ниско ниво на натрий в кръвта, т.нар. хипонатриемия. Затова сред лекарите вече се смята за основно правило да се пие според жаждата – тялото е най-добрият ориентир, а не определен брой литри.",
+     "Филмалтер обяснява и какво да има в бутилката: с потта тялото губи не само вода, но и електролити като натрий и хлорид. За възстановяването помагат вода или – още по-добре – напитки с електролити, които връщат водния баланс в равновесие. Тя обикновено препоръчва около половината от течностите да са вода, а другата половина – напитка с електролити, която не съдържа твърде много захар.",
+     "Независима оценка дава насоката на Wilderness Medical Society за хипонатриемия при натоварване (актуализация от 2019 г., публикувана през 2020 г. в списанието „Wilderness & Environmental Medicine“, първи автор Брад Л. Бенет). Тя посочва продължителното прекомерно пиене по време на натоварване като основен рисков фактор и препоръчва да се утолява жаждата, без да се пие повече от нея. При дълги натоварвания в жега трябва да има солени закуски или натрий, особено за хора, които не са свикнали с горещината. Една-единствена препоръка за пиене за всички спортове няма. Ако заради сърдечно или бъбречно заболяване трябва да следите количеството течности, обсъдете го с лекаря си."
+    ],
+    "facts": [
+     "Основно правило според лекарка от „Майо“: при спорт се пие според жаждата",
+     "Прекомерното пиене може опасно да понижи натрия в кръвта",
+     "Около половината вода, половината електролитна напитка с малко захар",
+     "Насока: при дълги натоварвания в жега да има сол на разположение"
+    ]
+   },
+   "en": {
+    "t": "Video: Drinking during exercise – why a Mayo Clinic doctor advises drinking to thirst",
+    "d": "Too little fluid is harmful, but so is too much: in a Mayo Clinic video, family physician Sara Filmalter explains why thirst is a good guide during exercise – and what belongs in the bottle.",
+    "body": [
+     "How much should you drink while exercising? In a short video from the Mayo Clinic Minute series, family physician Dr Sara Filmalter of the US hospital Mayo Clinic answers this question. Her key point: problems arise in both directions. Drinking too little can lead to dehydration; drinking too much risks exercise-associated low blood sodium, known as hyponatraemia. The general rule of thumb among physicians is therefore now to drink to thirst – the body is the best guide, not a fixed number of litres.",
+     "Filmalter also explains what belongs in the bottle: through sweat, the body loses not only water but also electrolytes such as sodium and chloride. Water or – even better – drinks containing electrolytes help to restore fluid balance. She typically recommends taking in about half of the fluids as water and the other half as an electrolyte drink that does not contain too much sugar.",
+     "An independent assessment comes from the Wilderness Medical Society guideline on exercise-associated hyponatraemia (2019 update, published in 2020 in the journal Wilderness & Environmental Medicine, lead author Brad L. Bennett). It names prolonged overdrinking during exercise as the main risk factor and recommends drinking to satisfy thirst without drinking beyond it. During long exertion in the heat, salty snacks or sodium should be available, especially for people not acclimatised to heat. There is no single fluid recommendation for all activities. Anyone who has to watch their fluid intake because of heart or kidney disease should discuss it with their doctor."
+    ],
+    "facts": [
+     "Rule of thumb from a Mayo Clinic doctor: drink to thirst when exercising",
+     "Drinking too much can lower blood sodium dangerously",
+     "About half water, half electrolyte drink with little sugar",
+     "Guideline: keep salt available during long exertion in the heat"
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-07/trainer-erklaeren-trinken-nach-durst-video-2026-11-07.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Peter van der Sluijs",
+    "lic": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Standing_drinking_sportswoman_during_Marathon_Rotterdam_2015.jpg",
+    "alt": {
+     "de": "Läuferin trinkt beim Marathon in Rotterdam 2015 (Symbolbild)",
+     "bg": "Бегачка пие вода по време на маратона в Ротердам през 2015 г. (символично изображение)",
+     "en": "Runner drinking during the 2015 Rotterdam Marathon (symbolic image)"
+    }
+   }
+  }
+ ]
+}
