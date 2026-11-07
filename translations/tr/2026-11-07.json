@@ -1,6 +1,32 @@
 {
  "date": "2026-11-07",
  "items": {
+  "benavidez-opetaia-wilder-rechte-hand": {
+   "L": {
+    "body": [
+     "David Benavidez, Fight Hub TV'ye Jai Opetaia'nın 11 Aralık'ta Cardiff'te Wilder ile yapacağı maç hakkında konuşurken “Deontay Wilder hakkında ne derseniz deyin, hâlâ o hızlı sağ yumruğu var” dedi. Benavidez'e göre Opetaia bu sağ yumruğu etkisiz kılarsa Wilder ile “hiç sorun yaşamaz”. Ağır siklete yapılan bu kısa ziyareti anlayışla karşılayan Benavidez, “Bu iyi bir maç, aktif kalmak istediklerini anlıyorum” dedi.",
+     "Boxing News'e göre Benavidez ile Opetaia, gelecek yılın mayıs ayında yapılacak bir kruvazör siklet maçı için sözlü olarak anlaştı. WBA ve WBO kemerlerini elinde bulunduran Benavidez, bundan önce aralık ayında WBC şampiyonu Michał Cieślak ile karşılaşacak. Habere göre Opetaia, yeniden IBF dünya şampiyonu olarak tanınmak için IBF'ye dava açtı."
+    ],
+    "d": "David Benavidez, Jai Opetaia'nın Deontay Wilder karşısında şansını yüksek görüyor; ancak Wilder'ın sağ yumruğunu etkisiz kılması şart. Boxing News'e göre ikili mayıs ayı için sözlü olarak anlaştı.",
+    "t": "Benavidez: Opetaia'nın yalnızca Wilder'ın sağ yumruğunu etkisiz kılması gerek"
+   },
+   "at": "2026-11-07T09:39Z",
+   "h": "8ee3698b36be",
+   "rev": [
+    "Teaser: 'Mayıs' should be lowercase 'mayıs' per TDK when it is a month name in running text; also 'im Mai' lacks 'gelecek yıl' nuance is in body only (fine)",
+    "Teaser: 'Schlaghand' rendered as 'güçlü yumruğunu' (adds 'güçlü'); should be 'sağ yumruğunu'",
+    "Body 1: the quote structure 'diyen ... konuştu' is awkward; the German says he said it in the interview",
+    "Body 1: 'Abstecher' rendered as 'geçiş' loses the sense of a one-off excursion"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Boks başlık görseli"
+   }
+  },
   "berlin-wedding-schuesse-seestrasse-mordkommission-2026-11-07-b08": {
    "L": {
     "body": [
@@ -52,6 +78,30 @@
     4,
     0
    ]
+  },
+  "bioware-petition-kanada-parlament": {
+   "L": {
+    "body": [
+     "Kapatılan “Mass Effect” stüdyosu BioWare için verilen mücadele Kanada parlamentosuna ulaştı. Burnaby’li Brendan Routh tarafından sunulan ve milletvekili Don Davies’in (NDP) desteklediği e-7898 sayılı “Save BioWare” dilekçesi, Kanada vatandaşlarından gereken 500 imza eşiğini aştı; 6 Kasım’a kadar 2.394 imza toplandı, bunların yaklaşık 440’ı, BioWare’in Edmonton’da merkezinin bulunduğu Alberta’dan geldi. Böylece dilekçe Avam Kamarası’na sunulacak ve hükümetin yanıt vermesi gerekecek.",
+     "Dilekçe, Ottawa’nın BioWare’e markalarıyla birlikte Electronic Arts’tan bağımsız, Kanadalı bir şirket olarak faaliyetini sürdürebilmesi için sermaye sağlamasını talep ediyor. Ayrıca hükümetin Kanadalı şirketleri ve kültür kurumlarını yabancı şirket çıkarlarına karşı koruması isteniyor. Metinde, kapanışın “büyük bir kayıp ve muhtemelen Kanada’nın kültürel mirasına yönelik kasıtlı bir saldırı” olduğu belirtiliyor.",
+     "Dilekçe 4 Mart 2027’ye kadar imzaya açık; incelemenin ardından hükümetin yanıt vermek için 45 günü var. Hükümet EA’yı satışa zorlayamaz ve şirket geleneksel olarak stüdyolarını ve markalarını elinden çıkarmıyor. EA kapanışı 21 Ekim’de duyurmuştu; NDP lideri Avi Lewis, çalışanların stüdyoyu devralabilmesi için daha önce devlet yardımı talep etmişti."
+    ],
+    "d": "2.300’den fazla imzacı, “Mass Effect” stüdyosunun EA’dan ayrılabilmesi için devlet parası talep ediyor. Hükümet yanıt vermek zorunda – ancak EA’yı satışa zorlayamaz.",
+    "t": "BioWare kurtarılabilir mi? Dilekçe Kanada hükümetini yanıt vermeye zorluyor"
+   },
+   "at": "2026-11-07T09:39Z",
+   "h": "da215d88732c",
+   "rev": [
+    "Teaser: \"Staatsgeld\" (Steuergeld/Staatsgeld) fine; no problem. Body 1: \"wo BioWare in Edmonton seinen Sitz hatte\" was rendered clumsily as \"Edmonton'un yer aldığı Alberta\" and the past tense was lost;"
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "TWN Games kapak görseli: BioWare’i kurtarma dilekçesi"
+   }
   },
   "buatsi-hutchinson-wiegen-buhrufe": {
    "L": {
@@ -443,6 +493,45 @@
    ],
    "x": {
     "img.alt": "Derek Chisora (Arşiv fotoğrafı)"
+   }
+  },
+  "chivalware-test": {
+   "L": {
+    "body": [
+     "“Chivalware”, 5 Kasım'dan beri Switch 2 ve PC için satışta. Oyunu tek kişilik geliştirici Regal Pigeon Games geliştirdi; yayıncısı Dotemu ve onun etiketi The Arcade Crew. Oyuncu, üç adede kadar renkli disket silahı kuşanabilen bir “Disk Şövalyesi”ni yönetiyor. Izgara şeklindeki savaş alanında düşman saldırılarından kaçılıyor ve aynı renkteki taşlar birleştirilerek silahlar dolduruluyor; daha büyük kombinasyonlar daha güçlü etkiler tetikliyor. Üreticinin verdiği bilgilere göre oyunda beş oynanabilir şövalye, yaklaşık 80 silah ve 150'den fazla geliştirme bulunuyor.",
+     "TheSixthAxis 10 üzerinden 8 puan veriyor ve oyunu “Mega Man Battle Network”teki ızgara savaşının match-3 versiyonu olarak tanımlıyor: telaşlı, eğlenceli ve açılabilir içerikler hızlı geldiği için güçlü bir “bir tur daha” etkisi var. Gaming Cypher 10 üzerinden 8,5 veriyor; kendine has silahları, patron savaşlarındaki kombinasyonları, grafikleri ve müzikleri övüyor. Digital Chumps da 10 üzerinden 8 veriyor.",
+     "Eleştiriler, patron ve düşman türlerinin azlığına yöneliyor; TheSixthAxis'e göre bu durum oyuna, türdeki birçok rakibine kıyasla daha az uzun vadeli motivasyon kazandırıyor. Gaming Cypher ayrıca öğrenme eğrisinin renkli görünümün düşündürdüğünden daha dik olduğu konusunda ve bazı denemelerin oyuncunun becerisinden çok taşlardaki şanssızlık yüzünden başarısız olduğu konusunda uyarıyor."
+    ],
+    "d": "Tek kişilik bir geliştirici, bulmaca ile ızgara üzerinde gerçek zamanlı savaşı birleştiriyor. İncelemeler baştan sona iyi puanlar veriyor, ancak uzun vadede çeşitlilik eksikliğine dikkat çekiyor.",
+    "t": "“Chivalware” incelemesi: Disket şövalyeleri match-3 taşlarıyla savaşıyor"
+   },
+   "at": "2026-11-07T09:39Z",
+   "h": "05dc481a9c11",
+   "rev": [
+    "Teaser: 'Die Tests vergeben durchweg gute Noten' was rendered as 'genel olarak olumlu'; 'durchweg' means consistently, so the wording is made more precise",
+    "'Digital Chumps da ... veriyor': 'kommt auf' is better rendered as 'ulaşıyor', but the meaning is the same, so no change",
+    "Image alt text: '8-' (8 inch) was rendered as '8,' which is ambiguous, so it is made clear as '8, 5,25 ve 3,5 inç'"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: 8, 5,25 ve 3,5 inç boyutlarında disketler – oyunda “Disk Şövalyeleri” disket silahlarıyla savaşıyor",
+    "rv.con": [
+     "Patronlarda ve düşmanlarda az çeşitlilik",
+     "Beklenenden dik öğrenme eğrisi",
+     "Taşlardaki şanssızlık denemeleri bitirebiliyor"
+    ],
+    "rv.fz": "Ara ara oynamak için eğlenceli, güçlü bir “bir tur daha” etkisi olan bir roguelite; ancak uzun vadede biraz çeşitlilikten yoksun.",
+    "rv.pro": [
+     "Match-3 ile gerçek zamanlı ızgara savaşının sürükleyici karışımı",
+     "Hızlı açılan içerikler, güçlü “bir tur daha” etkisi",
+     "Çok sayıda farklı silah ve kurgu",
+     "Başarılı görseller ve müzik"
+    ],
+    "rv.score": "TheSixthAxis 8/10 · Gaming Cypher 8,5/10 · Digital Chumps 8/10"
    }
   },
   "deutsche-boerse": {
@@ -1183,6 +1272,28 @@
     "img.alt": "Berlin'deki Tegel cezaevi (Sembolik fotoğraf)"
    }
   },
+  "heute-vor-110-jahren-jeannette-rankin-kongress-1916-2026-11-07": {
+   "L": {
+    "body": [
+     "7 Kasım 1916'da Montana halkı, Jeannette Rankin'i ABD Temsilciler Meclisi üyeliğine seçti. Partisinin ilerici kanadından gelen Cumhuriyetçi Rankin, böylece Kongre'ye seçilen ilk kadın oldu. Seçim belgesini Vali Sam V. Stewart 4 Aralık 1916'da imzaladı, Rankin ise 2 Nisan 1917'de yemin etti. ABD Ulusal Arşivi'ne göre Rankin, zaferinin ardından şunları söyledi: “Kongre'nin ilk kadın üyesi olabilirim, ama son olmayacağım.”",
+     "Seçim, Montana'nın kadınlara 1914'te oy hakkı vermiş olması sayesinde mümkün oldu; bunda Missoula yakınlarındaki bir çiftlikte büyüyen, sosyal hizmet uzmanı olarak çalışan ve kadınların oy hakkı hareketine katılan Rankin'in de payı vardı. ABD genelinde kadınlar ancak 1920'deki 19. Anayasa Değişikliği ile oy kullanabildi. Göreve başlar başlamaz, Nisan 1917'de ABD'nin Birinci Dünya Savaşı'na girmesine karşı oy kullanan Rankin'in bu kararı, 1918 seçimini kaybetmesinde etkili oldu.",
+     "1940'ta yeniden seçildi ve Pearl Harbor saldırısının ardından yine bir savaş oylamasıyla karşı karşıya kaldı. 8 Aralık 1941'de Japonya'ya savaş ilanına karşı oy veren tek milletvekili oldu; sonuç 388'e 1'di. Rankin, “Bir kadın olarak savaşa gidemem ve başka kimseyi göndermeyi de reddediyorum” diyerek ret oyunun gerekçesini açıkladı. Kongre'de ABD'nin her iki dünya savaşına girmesine karşı oy veren tek kişidir; 1968'de, 87 yaşındayken bile Vietnam Savaşı'na karşı bir protestoya öncülük etti. Ulusal Arşiv'e göre 2021'e kadar ABD Kongresi'nde 387 kadın görev yaptı."
+    ],
+    "d": "7 Kasım 1916'da Montanalı Cumhuriyetçi, Temsilciler Meclisi'nde bir koltuk kazandı – kadınların tüm ABD'de oy kullanabilmesinden dört yıl önce.",
+    "t": "110 yıl önce bugün: Jeannette Rankin ABD Kongresi'ne seçilen ilk kadın oldu"
+   },
+   "at": "2026-11-07T09:39Z",
+   "h": "75413c2209b9",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Jeannette Rankin, yemin ettiği gün olan 2 Nisan 1917'de NAWSA kadın oy hakkı örgütünün balkonundan konuşuyor (tarihî fotoğraf)",
+    "kl": "110 yıl önce bugün"
+   }
+  },
   "hsv-gladbach-3-1-muheim-bundesliga-2026-11-07-b08": {
    "L": {
     "body": [
@@ -1279,6 +1390,27 @@
     5,
     0
    ]
+  },
+  "khan-krum-schlacht-pliska-811-2026-11-07": {
+   "L": {
+    "body": [
+     "811 yazında Bizans İmparatoru I. Nikephoros büyük bir orduyla Birinci Bulgar Devleti'ne karşı sefere çıktı. Han Krum'un barış tekliflerini reddetti. 23 Temmuz'da birlikleri Bulgar başkenti Pliska'yı ele geçirdi, saray ile hazineyi yağmaladı ve şehri yaktı; çağdaş vakanüvisler halka karşı ağır şiddet olaylarından da söz ediyor. Dönüş yolunda ordu bir tuzağa düştü: Bulgarlar, günümüz araştırmalarına göre büyük olasılıkla Doğu Balkan Dağları'ndaki Varbitsa Geçidi olan bir dağ geçidini ahşap çitlerle kapatmıştı. 26 Temmuz 811'de şafak vakti saldırdılar. Bizans ordusu neredeyse tamamen yok edildi, I. Nikephoros hayatını kaybetti, oğlu Staurakios ağır yaralandı ve birkaç ay sonra öldü.",
+     "Krum yaklaşık 802'den beri hüküm sürüyordu ve devleti zaten büyük ölçüde genişletmişti: Avar Hanlığı'nın çöküşünün ardından Bulgar hâkimiyetini kuzeybatıya doğru yaydı, 809'da bugünkü Sofya olan Serdika'yı aldı ve garnizonun öldürülmesini emretti. Bizanslı vakanüvis Theophanes'e göre, 811'deki savaşın ardından imparatorun kafatasını gümüşle kaplatıp içki kasesi olarak kullandığı söyleniyor. 22 Haziran 813'te Bulgarlar Versinikia'da yeniden bir imparatorluk ordusunu yendi, İmparator I. Mikhail bunun üzerine tahttan çekilmek zorunda kaldı; ardından Krum Konstantinopolis'in önüne geldi, sonrasında kuşatılan Edirne (Adrianopolis) düştü. Bir başka saldırı için hazırlıklar sürerken 13 Nisan 814'te öldü.",
+     "811'deki yenilgi Bizans tarihinin en ağır yenilgilerinden biri sayılıyor; bunun ardından imparatorlar uzun süre Balkan Dağları'nın kuzeyine ordu göndermedi. Krum ayrıca Bulgaristan'ın bilinen ilk yazılı yasalarının yaratıcısı olarak kabul ediliyor; bu yasalar sarhoşluğu, iftirayı ve soygunu sert biçimde cezalandırıyor ve yoksullara yardımı öngörüyordu. Bulgaristan'da Krum, Slavları ve Proto-Bulgarları merkezi yönetilen bir devlette birleştiren, sert ama adil bir hükümdar olarak anılıyor. Şumen yakınlarındaki Pliska kazı alanı, devletin ilk başkentini bugün de hatırlatıyor."
+    ],
+    "d": "İmparator I. Nikephoros Pliska'yı yaktı – birkaç gün sonra kendisi bir dağ geçidinde öldü. Bu savaş, Han Krum'u Bulgar tarihinin kilit isimlerinden biri yaptı.",
+    "t": "Han Krum ve 811 yılı: Bulgaristan, Bizans imparatorluk ordusunu nasıl yendi"
+   },
+   "at": "2026-11-07T09:39Z",
+   "h": "c2144ff083f0",
+   "rev_dbg": [
+    6,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Han Krum atlı ve savaşçılarıyla, V. Antonov'un tasviri (tablo)"
+   }
   },
   "ki-advanced-packaging-chips-reuters-2026-11-07": {
    "L": {
@@ -1986,6 +2118,26 @@
     "img.alt": "Sembolik fotoğraf: Süt ürünleri: ekşi krema, kefir, lor peyniri, peynir ve süt"
    }
   },
+  "malignaggi-canelo-mbilli-urteil": {
+   "L": {
+    "body": [
+     "Paulie Malignaggi, Canelo Álvarez'i Terence Crawford karşısındaki maçta “pasif” olarak nitelemiş ve Riyad'daki karşılaşma öncesinde Christian Mbilli'nin kazanacağını düşünmüştü. Eski dünya şampiyonu, YouTube kanalındaki bir videoda bu kez farklı bir sonuca vardı: Boxing News'in aktardığına göre Malignaggi, Canelo'nun bu kez çok daha etkileyici göründüğünü ve isabetli vuruşlarını sayıya çevirdiğini söyledi.",
+     "Malignaggi aynı zamanda galibiyeti değerlendirdi: “Mbilli hiçbir zaman Canelo'nun karşılaştığı en yetenekli rakip olmaya yazgılı değildi.” Canelo, 31 Ekim'de Mbilli'yi oybirliğiyle sayılarla yenmış ve Mbilli'nin ilk unvan savunmasında WBC süper orta siklet unvanını elinden almıştı."
+    ],
+    "d": "Paulie Malignaggi, Riyad'daki maç öncesi Christian Mbilli'yi önde görmüştü. Eski dünya şampiyonu, Canelo'nun sayı galibiyetinin ardından Meksikalı'nın Crawford maçına göre çok daha güçlü göründüğünü kabul etti.",
+    "t": "Malignaggi, Mbilli'ye oynamıştı – şimdi Canelo'nun performansını övüyor"
+   },
+   "at": "2026-11-07T09:39Z",
+   "h": "a6fa2a35e18c",
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Paulie Malignaggi, 2010 (Arşiv fotoğrafı)"
+   }
+  },
   "marzahn-vermisste-13-jaehrige-suche-2026-11-07-b11": {
    "L": {
     "body": [
@@ -2350,6 +2502,31 @@
    ],
    "x": {
     "img.alt": "Bir çağrı merkezinde telefon (Sembolik fotoğraf)"
+   }
+  },
+  "unity-silver-lake-pif-uebernahme": {
+   "L": {
+    "body": [
+     "Yatırım şirketi Silver Lake ve Suudi Arabistan'ın devlet fonu PIF, Reuters haber ajansının 5 Kasım tarihli haberine göre Unity'nin satın alınmasına yönelik görüşmeler yaptı. Konuya yakın kişilere dayandırılan haberde, her iki tarafın son haftalarda oyun motoru üreticisiyle temasa geçtiği ve yaklaşık 25 milyar ABD doları tutarında bir değerlemenin gündemde olduğu belirtildi. Haberde, Unity'nin seçeneklerini değerlendirmek için bir yatırım bankasıyla çalıştığı ifade edildi. Haberde ayrıca henüz bir anlaşmanın bulunmadığı, koşulların değişebileceği kaydedildi. Unity yorum yapmak istemedi; hisse seans sonrası işlemlerde yaklaşık yüzde 4 yükseldi, piyasa değeri son olarak yaklaşık 21,5 milyar dolardı.",
+     "Silver Lake ve PIF, Ağustos ayında Affinity Partners ile birlikte Electronic Arts'ın yaklaşık 55 milyar dolara satın alınmasını tamamlamış ve EA'yı borsadan çıkarmıştı. Silver Lake, Unity'nin yaklaşık yüzde 8'ine zaten sahip; PIF'in iştiraki Savvy Games Group'un ise şirketle bir niyet mektubu bulunuyor. Bu yatırımcılara ait Scopely ve Niantic de Unity motorunu kullanıyor.",
+     "Unity, Unreal Engine'in ardından en popüler ikinci oyun motoru; oyunların yanı sıra mühendislikte ve sinemada da kullanılıyor. Üçüncü çeyrekte satışlar yüzde 32 artışla 622,1 milyon dolara yükseldi; Unity, 2020'deki halka arzından bu yana ilk kez ABD muhasebe kurallarına (GAAP) göre çeyreklik kâr açıkladı. Anlaşma gerçekleşirse oyun sektörünün en büyük anlaşmalarından biri olacak."
+    ],
+    "d": "EA'dan sonra sıra Unity'de mi? Reuters'a göre Silver Lake ve Suudi Arabistan'ın devlet fonu yaklaşık 25 milyar dolarlık bir satın almayı değerlendiriyor. Taraflar henüz anlaşmaya varmış değil.",
+    "t": "Rapor: Silver Lake ve Suudi fonu PIF, oyun motoru Unity'yi satın almak istiyor"
+   },
+   "at": "2026-11-07T09:39Z",
+   "h": "b5693dd8c4d1",
+   "rev": [
+    "Teaser: 'Einig ist man sich noch nicht' (the parties are not yet agreed) was rendered as 'Henüz anlaşma yok'; it should say the parties have not yet agreed.",
+    "Teaser: the Reuters attribution was missing for the Silver Lake and PIF deal report, but it is present ('Reuters'a göre'), so it stays. The teaser verb 'değerlendiriyor' is acceptable."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "TWN Games kapak görseli: Unity çevresindeki satın alma görüşmeleri"
    }
   },
   "vaeridion-elektroflugzeug-finanzierung-2026-11-07": {
@@ -2877,6 +3054,33 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Sofya'da küçük bir bakkalda meyveler (arşiv, 2021)"
+   }
+  },
+  "wirtschaft-iwf-georgiewa-ki-wachstum-notenbanken-2026-11-07": {
+   "L": {
+    "body": [
+     "Uluslararası Para Fonu (IMF) İcra Direktörü Kristalina Georgieva, merkez bankalarını yapay zekâ patlamasında olası bir yavaşlamayı kararlarına dahil etmeye çağırdı. Georgieva, Reuters'in aktardığına göre cuma günü IMF'nin Washington'daki merkezinde, yapay zekâ kaynaklı büyüme ivmesi zayıflarsa bunun merkez bankalarınca dikkate alınması gerektiğini söyledi. Piyasalardaki dalgalanmalara ilişkin olarak şunları söyledi: “İniş çıkışlar yaşanıyor ve muhtemelen böyle devam edecek.”",
+     "Arka planda perşembe günü teknoloji hisselerinde yaşanan sert satış dalgası var. Reuters'e göre yatırımcılar, Demokratların Kongre seçimlerindeki zaferinin ardından yapay zekâyı ve veri merkezi inşasını daha sıkı düzenleyebileceğinden endişe ediyor. Georgieva'ya göre yapay zekâ yatırım patlaması bazı ülkelerde büyümeyi destekliyor ve Orta Doğu'daki savaşın yol açtığı petrol fiyatı şokunu kısmen dengeliyor; ancak aynı zamanda enflasyon baskısını ve finansal istikrara yönelik riskleri de artırıyor.",
+     "IMF, Ekim ayında da yapay zekâ patlamasının ani bir şekilde sona ermesine karşı uyarmıştı: Olumsuz bir senaryoda yapay zekâ yatırımlarındaki sert bir düşüş varlık fiyatlarını belirgin biçimde aşağı çekebilir ve küresel ekonomik üretimi 2028'e kadar yüzde 1,1, ABD'ninkini ise yüzde 1,8 azaltabilir."
+    ],
+    "d": "Teknoloji hisselerindeki satış dalgasının ardından Kristalina Georgieva uyardı: Yapay zekâ kaynaklı büyüme ivmesi zayıflarsa, merkez bankaları enflasyonla mücadele adımlarında bunu dikkate almalı.",
+    "t": "IMF Başkanı Georgieva: Merkez bankaları yapay zekâda yavaşlamayı hesaba katmalı"
+   },
+   "at": "2026-11-07T09:39Z",
+   "h": "2a83a54529c9",
+   "rev": [
+    "Title: 'IWF-Chefin' rendered as 'IMF Başkanı'; her official title is Managing Director (İcra Direktörü), and 'Başkan' would be inaccurate (the IMF has no 'Başkan' in this sense). Minor, but 'Başkanı' ",
+    "Teaser: the conditional/indirect speech is acceptable.",
+    "Day names: 'Cuma günü' and 'perşembe günü' are inconsistently capitalised; TDK writes both in lowercase.",
+    "Body paragraph 3: the draft says 'IMF, Ekim ayında' – correct. Everything else matches the German."
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Kristalina Georgieva"
    }
   },
   "wirtschaft-patrizia-pepe-dixie-gerichtsverwaltung-2026-11-07": {
