@@ -2862,6 +2862,32 @@
     "img.alt": "Angela Merkel (Arşiv fotoğrafı, 2019)"
    }
   },
+  "mistral-studio-agenten-apps": {
+   "L": {
+    "body": [
+     "Fransız yapay zekâ geliştiricisi Mistral, kurumsal platformu Studio'yu belirgin biçimde genişletti. Perşembe günü duyurulan yeniliklerin özünde, Managed Agents (yönetilen ajanlar) olarak adlandırılan yapay zekâ ajanları yer alıyor: Bu ajanlar, kullanıcılar arayüzü kapattığında çalışmaya devam ediyor ve bir çökmenin ardından en son tamamlanan model veya araç çağrısından yeniden başlıyor. Yeni bir Python paketi, ajanların isteğe göre kullanıcının kendi programında, kendi sunucularında ya da Mistral'in bulutunda çalışmasını sağlıyor. Bir oturum varsayılan olarak en fazla 24 saat sürüyor; bir ajan insan onayı için en fazla bir saat bekliyor.",
+     "Bunlara ek olarak, günlük dille de tanımlanabilen sabit iş akışları için bir oluşturucu ile barındırma, oturum açma ve erişim yetkileri sunan, şirket içi araçlara yönelik “Apps” (uygulamalar) geliyor. Ajanların kayıtları varsayılan olarak tutuluyor, değerlendirme araçlarının ise kaliteyi ölçmesi amaçlanıyor. İşlevlerin çoğu herkese açık önizleme olarak sunuluyor; Mistral fiyat açıklamadı. Müşteriler arasında BNP Paribas, ABANCA, CMA CGM, Accenture ve Capgemini sayılıyor.",
+     "Haberlere göre, müşterilerin kendi özel bulutu ve kendi veri merkezlerinde işletim için seçeneklerin kasım sonuna kadar sunulması planlanıyor. Bu, verilerini başkalarına emanet etmek istemeyen Avrupalı şirketler için bir argüman oluşturuyor. Resmi Mistral kanalındaki bir video yeni işlevleri gösteriyor."
+    ],
+    "d": "Fransız yapay zekâ geliştiricisi, Studio platformuna yönetilen ajanlar, iş akışı oluşturucu ve dahili uygulamalar ekliyor. Yeniliklerin çoğu önce herkese açık önizleme olarak sunuluyor.",
+    "t": "Mesai sonrası da çalışan yapay zekâ ajanları: Mistral, Studio'yu şirketler için genişletti"
+   },
+   "at": "2026-11-07T12:44Z",
+   "h": "f35e24fcc6e1",
+   "rev": [
+    "Paragraf 3: \"şirketin kendi özel bulutu\" ifadesi \"die eigene private Cloud\" (müşterinin kendi özel bulutu) anlamını yanlış aktarıyor; \"kendi veri merkezinde\" de aynı şekilde müşteriye ait olmalı.",
+    "Paragraf 3: \"Berichten zufolge ... geplant\" ifadesinde \"bis Ende November\" için \"kasım sonuna kadar sunulması\" kabul edilebilir; ancak \"verilerini elinden çıkarmak istemeyen\" ifadesi doğal değil."
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Mistral'in kurucu ortağı ve CEO'su Arthur Mensch",
+    "kl": "Yeni platform"
+   }
+  },
   "nba-lebron-cleveland-cavaliers-76ers-hornets-2026-11-07": {
    "L": {
     "body": [
@@ -3203,6 +3229,33 @@
     1,
     0
    ]
+  },
+  "thinking-machines-5-milliarden-runde": {
+   "L": {
+    "body": [
+     "OpenAI'ın eski teknoloji direktörü Mira Murati'nin yapay zekâ girişimi Thinking Machines Lab, Business Insider'ın haberine göre 5 milyar dolarlık bir finansman turuna çok yakın. Turun risk sermayesi şirketi Accel liderliğinde yürütülmesi bekleniyor; para girişinden önceki değerlemenin 40 milyar dolar olması öngörülüyor. Haberlere göre tur henüz tamamlanmış değil; Thinking Machines yorum yapmak istemedi.",
+     "Şubat 2025'te kurulan şirket, Temmuz 2025'te yaklaşık 12 milyar dolarlık değerlemeyle 2 milyar dolarlık başlangıç finansmanı almıştı. Yeni değerleme bunun üç katından fazla olurdu. Son dönemde birkaç kurucu ortak laboratuvardan ayrılarak Meta'ya ve OpenAI'a geçmişti. İlk ürün, şirketlerin yapay zekâ modellerini kendi verileriyle yeniden eğitmesini sağlayan Tinker adlı hizmet.",
+     "Thinking Machines ayrıca perşembe günü programlamaya, görsel anlamaya ve bağımsız çalışmaya yönelik Inkling 2 Small modelini tanıttı. Modelin 594 milyar parametresi var; bunların yaklaşık 17 milyarı her istekte etkin oluyor. Model başlangıçta Tinker üzerinden kullanılabiliyor. İndirilebilir ağırlıkların ise ek güvenlik testlerinin ardından sunulması planlanıyor."
+    ],
+    "d": "OpenAI'ın eski teknoloji direktörünün yapay zekâ laboratuvarının, finansman öncesinde 40 milyar dolar değerlenmesi bekleniyor. Laboratuvar neredeyse aynı anda yeni bir model de çıkardı.",
+    "t": "Rapor: Murati'nin girişimi Thinking Machines 5 milyar dolar toplamak istiyor"
+   },
+   "at": "2026-11-07T12:44Z",
+   "h": "77385b25ae57",
+   "rev": [
+    "Weekday \"Perşembe\" wrongly capitalised mid-sentence (TDK: lowercase)",
+    "Teaser: \"finansman öncesinde ... değerlenmesi bekleniyor\" is clumsy; \"soll bewertet werden\" fine but \"Laboratuvar\" ok; no change needed",
+    "\"Erstes Produkt ist Tinker\" fine"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Kapak görseli: Thinking Machines 5 milyar dolar toplamak istiyor",
+    "kl": "Finansman"
+   }
   },
   "tn-alcaraz-fritz-matchbaelle-paris-2026-11-07": {
    "L": {

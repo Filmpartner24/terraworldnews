@@ -2716,6 +2716,31 @@
     "img.alt": "Angela Merkel (Foto de archivo, 2019)"
    }
   },
+  "mistral-studio-agenten-apps": {
+   "L": {
+    "body": [
+     "El desarrollador francés de inteligencia artificial Mistral ha ampliado de forma notable su plataforma para empresas Studio. El núcleo de las novedades publicadas el jueves son los llamados Managed Agents: agentes de IA que siguen funcionando cuando los usuarios cierran la interfaz y que, tras una caída, se reanudan desde la última llamada completada a un modelo o a una herramienta. Un nuevo paquete de Python permite que los agentes se ejecuten, a elección, en el propio programa, en servidores propios o en la nube de Mistral. Por defecto, una sesión dura hasta 24 horas; un agente espera hasta una hora la aprobación de una persona.",
+     "A ello se suman un constructor para flujos de trabajo fijos, que también pueden describirse en lenguaje cotidiano, y «Apps» para herramientas internas de la empresa, con alojamiento, inicio de sesión y permisos de acceso. Los agentes se registran por defecto y las herramientas de evaluación deben medir la calidad. La mayoría de las funciones son una vista previa pública; Mistral no indicó precios. Entre los clientes se mencionan BNP Paribas, ABANCA, CMA CGM, Accenture y Capgemini.",
+     "Según informaciones, las variantes para la propia nube privada y para su uso en el propio centro de datos están previstas para antes de que acabe noviembre, un argumento para las empresas europeas que no quieren perder el control de sus datos. Un vídeo en el canal oficial de Mistral muestra las nuevas funciones."
+    ],
+    "d": "El desarrollador francés de IA incorpora a su plataforma Studio agentes gestionados, un constructor de flujos de trabajo y aplicaciones internas. La mayoría de las novedades llegan primero como vista previa pública.",
+    "t": "Agentes de IA que siguen trabajando fuera de horario: Mistral amplía Studio para empresas"
+   },
+   "at": "2026-11-07T12:44Z",
+   "h": "f35e24fcc6e1",
+   "rev": [
+    "\"bis Ende November\" means by the end of November, not \"para finales de noviembre\" (deadline vs. approximate time)"
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Arthur Mensch, cofundador y director de Mistral",
+    "kl": "Nueva plataforma"
+   }
+  },
   "nba-lebron-cleveland-cavaliers-76ers-hornets-2026-11-07": {
    "L": {
     "body": [
@@ -3011,6 +3036,33 @@
     0,
     0
    ]
+  },
+  "thinking-machines-5-milliarden-runde": {
+   "L": {
+    "body": [
+     "La start-up de IA Thinking Machines Lab, de la exdirectora de tecnología de OpenAI Mira Murati, está, según un informe de Business Insider, a punto de lograr una ronda de financiación de 5.000 millones de dólares. Según el informe, la lideraría la firma de capital riesgo Accel y la valoración previa a la inyección de dinero sería de 40.000 millones de dólares. Según los informes, la ronda aún no está cerrada; Thinking Machines no quiso hacer declaraciones.",
+     "La empresa, fundada en febrero de 2025, recibió en julio de 2025 una financiación inicial de 2.000 millones de dólares con una valoración de unos 12.000 millones de dólares. La nueva valoración sería más del triple. Recientemente, varios cofundadores abandonaron el laboratorio para irse a Meta y OpenAI. Su primer producto es Tinker, un servicio con el que las empresas reentrenan modelos de IA con sus propios datos.",
+     "El jueves, Thinking Machines presentó además el modelo Inkling 2 Small, diseñado para programar, comprender imágenes y trabajar de forma autónoma. Tiene 594.000 millones de parámetros, de los cuales unos 17.000 millones están activos por consulta, y por ahora solo puede usarse a través de Tinker. Los pesos para descargar deben seguir tras nuevas pruebas de seguridad."
+    ],
+    "d": "El laboratorio de IA de la exdirectora de tecnología de OpenAI se valoraría en 40.000 millones de dólares antes de la financiación. Casi a la vez lanzó un nuevo modelo.",
+    "t": "Informe: la start-up de Murati, Thinking Machines, busca captar 5.000 millones de dólares"
+   },
+   "at": "2026-11-07T12:44Z",
+   "h": "77385b25ae57",
+   "rev": [
+    "\"kurz vor einer Finanzierungsrunde\" = a punto de cerrar: the German says the round is imminent, not that it is about to close; the draft adds the claim of closing, which is contradicted by \"noch nicht",
+    "\"sollen ... folgen\" (weights to follow) rendered with conditional \"llegarían\", which weakens the stated plan; better \"se publicarán, según la empresa\" – but the German gives no source, so use \"deben s",
+    "\"Zuletzt hatten ... verlassen\" tense fine"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico de portada: Thinking Machines busca captar 5.000 millones de dólares",
+    "kl": "Financiación"
+   }
   },
   "tn-alcaraz-fritz-matchbaelle-paris-2026-11-07": {
    "L": {
