@@ -181,6 +181,37 @@
     "img.alt": "TWN Games kapak görseli: BioWare’i kurtarma dilekçesi"
    }
   },
+  "boson-higgs-realtime-duplex": {
+   "L": {
+    "body": [
+     "Kaliforniyalı yapay zekâ şirketi Boson AI, perşembe günü Higgs Realtime Duplex modelini tanıttı. Modelin aynı anda dinlemesi, izlemesi ve konuşması amaçlanıyor; oysa birçok sesli asistan insanın konuşmasını bitirmesini bekliyor. Model ses ve videoyu 160 milisaniyelik bölümler halinde işliyor. Bu sırada kendi animasyonlu yüzünü oluşturuyor, araçları çağırıyor ve daha zor görevleri konuşmayı kesmeden arka plandaki daha büyük bir modele aktarıyor.",
+     "Şirket verilerine göre ön planda çalışan modelin 45 milyar parametresi var ve “Uzmanlar Karışımı” (Mixture-of-Experts) olarak adlandırılan mimariyi kullanıyor. Boson, model ile bir saatlik görüşmenin maliyetinin bir saatlik insan emeğinin maliyetinin en fazla onda biri olmasını hedefliyor. Sektör servisi AI Weekly'ye göre bir programlama arayüzüne başlangıçta bekleme listesi üzerinden erişim sağlanacak.",
+     "Boson AI, Santa Clara'da bulunuyor ve eş kurucu Alex Smola tarafından yönetiliyor. Smola daha önce Amazon Web Services'te makine öğreniminden sorumluydu. Boson AI'ın resmî kanalındaki bir video, ajanın bir toplantıya katıldığını, konuşmalara eşlik ettiğini ve aynı anda görevleri yerine getirdiğini gösteriyor."
+    ],
+    "d": "Higgs Realtime Duplex modeli konuşmayı ve görüntüyü 160 milisaniyelik parçalar halinde işliyor, kendi yüzünü gösteriyor ve bu arada görevleri de yerine getiriyor. Bir video, modeli bir görüntülü toplantıda gösteriyor.",
+    "t": "Aynı anda dinleyip konuşup çalışıyor: Boson AI toplantılarda söz alan yapay zekâyı tanıttı"
+   },
+   "at": "2026-11-07T12:01Z",
+   "h": "e0d0adb2f0ea",
+   "rev": [
+    "Weekday \"Perşembe\" capitalised mid-sentence; TDK requires lowercase",
+    "Headline: \"Zuhören, reden, arbeiten – gleichzeitig\" rendered as \"Dinlerken, konuşurken, çalışırken\", which loses the idea of doing it simultaneously, and the meaning of \"mitsprechen\" is weakened",
+    "Teaser: \"nebenbei\" rendered as \"yan yana\" (side by side), which is wrong; \"Bir video modeli görüntülü görüşmede gösteriyor\" is ambiguous",
+    "Contrast in sentence 2: \"anders als viele Sprachassistenten\" rendered with \"ise\" as a clumsy contrast; the sentence is also not clearly marked as a stated goal",
+    "\"Mixture-of-Experts\" left in German/English in quotes; should be translated (Uzmanlar Karışımı)",
+    "\"öndeki çalışan model\" is a literal, unclear rendering of \"vorne arbeitende Modell\"",
+    "\"Programmierschnittstelle\" is presented as a fact with \"olacak\" although it is attributed to AI Weekly with \"soll\"; add hedge"
+   ],
+   "rev_dbg": [
+    7,
+    7,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Bugün Boson AI'ın başındaki Alex Smola, 2018'de TechCrunch Disrupt konferansında",
+    "kl": "Yeni model"
+   }
+  },
   "buatsi-hutchinson-wiegen-buhrufe": {
    "L": {
     "body": [
@@ -1035,6 +1066,34 @@
    ],
    "x": {
     "img.alt": "Crvena Zvezda'nın Belgrad'da oynadığı EuroLeague iç saha maçı (Arşiv fotoğrafı, 2019)"
+   }
+  },
+  "embodied-ai-air-humanoider-roboter": {
+   "L": {
+    "body": [
+     "İsviçreli start-up Embodied AI, cuma günü Münih'te düzenlenen Humanoid Europe 2026 fuarında robotu AIR'i tanıttı. İnsansı robot, insanların ve makinelerin koruma kafesi olmadan yan yana çalıştığı fabrikalar için tasarlandı. Fabrika zeminleri düz olduğu ve tekerlekler daha dengeli durduğu için robot bacaklar yerine tekerleklerle hareket ediyor. Motorlar, dişliler ve elektronik gövdede yer alıyor; tendonlarla çalışan hafif kollar temas halinde esniyor.",
+     "Her yeni görev bir insanın kontrolü altında başlıyor. Yapay zekâ, kaydedilen bu gösterimlerden öğreniyor; şirket bilgilerine göre AIR'in bir görevi bağımsız olarak yerine getirmesi genellikle yaklaşık bir ay sürüyor. Büyük bir elektronik üreticisinin kabloların işlenmesine yönelik testinde robot, Embodied AI'a göre yüzde 98 güvenilirliğe ulaştı; istenen oran yüzde 90'dı. CE işareti için 2027 hedefleniyor.",
+     "Embodied AI, ETH Lausanne'ın (EPFL) bir yan kuruluşu; merkezi Lozan'da, Roma'da da bir ofisi bulunuyor. Şirket bilgilerine göre araştırma projesinden endüstriyel robota dokuz ayda ulaşıldı. Şirketin CEO'su Francesco Stella, yapay zekâ robotlarının gerçek dünyaya büyük ölçekte girebilmesi için güvenlik ve güvenilirliğin vazgeçilmez olduğunu söyledi."
+    ],
+    "d": "Robot tekerlekler üzerinde hareket ediyor, hafif kolları temas anında esniyor. Yeni hareketleri, insanlar onu önce uzaktan yönetirken öğreniyor; yaklaşık bir ay sonra bunları tek başına yapması hedefleniyor.",
+    "t": "Koruma kafesi olmadan: İsviçreli start-up Embodied AI fabrika insansısı AIR'i tanıttı"
+   },
+   "at": "2026-11-07T12:01Z",
+   "h": "d91dfbe1dc8f",
+   "rev": [
+    "Weekday \"Cuma\" must be lowercase mid-sentence per TDK",
+    "\"Lozan'daki ETH Lausanne'ın\" is an incorrect/redundant addition (the German has only ETH Lausanne)",
+    "\"CE işaretinin ... planlandığı belirtildi\" adds an unattributed reporting clause; the German states the plan as fact",
+    "Arms \"geri çekiliyor\" does not match \"nachgeben\" (they yield on contact)"
+   ],
+   "rev_dbg": [
+    4,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Kapak görseli: İsviçreli start-up fabrika insansısı AIR'i tanıtıyor",
+    "kl": "Robot"
    }
   },
   "energie-cernavoda-reaktor-wieder-am-netz-2026-11-07": {

@@ -184,6 +184,32 @@
     "img.alt": "Gráfico de portada de TWN Games: petición para salvar a BioWare"
    }
   },
+  "boson-higgs-realtime-duplex": {
+   "L": {
+    "body": [
+     "La empresa californiana de IA Boson AI presentó el jueves el modelo Higgs Realtime Duplex. Está concebido para escuchar, observar y hablar al mismo tiempo, a diferencia de muchos asistentes de voz, que esperan a que la persona termine de hablar. El modelo procesa audio y vídeo en tramos de 160 milisegundos. Al hacerlo, genera un rostro animado propio, invoca herramientas y transfiere las tareas más difíciles a un modelo mayor en segundo plano, sin interrumpir la conversación.",
+     "Según la empresa, el modelo que trabaja en primer plano tiene 45.000 millones de parámetros y utiliza una arquitectura denominada de mezcla de expertos (Mixture-of-Experts). Boson aspira a que una hora de conversación con el modelo cueste como máximo una décima parte de lo que cuesta una hora de trabajo humano. Según el servicio especializado AI Weekly, una interfaz de programación será accesible inicialmente a través de una lista de espera.",
+     "Boson AI tiene su sede en Santa Clara y está dirigida por el cofundador Alex Smola, quien anteriormente fue responsable de aprendizaje automático en Amazon Web Services, entre otros cargos. Un vídeo en el canal oficial de Boson AI muestra cómo el agente participa en una reunión, interviene en la conversación y realiza tareas en paralelo."
+    ],
+    "d": "El modelo Higgs Realtime Duplex procesa voz e imagen en fragmentos de 160 milisegundos, muestra un rostro propio y realiza tareas en paralelo. Un vídeo lo muestra en una videoconferencia.",
+    "t": "Escuchar, hablar y trabajar a la vez: Boson AI presenta una IA que participa en reuniones"
+   },
+   "at": "2026-11-07T12:01Z",
+   "h": "e0d0adb2f0ea",
+   "rev": [
+    "\"Mixture-of-Experts\" se dejó sin traducir; se usa la denominación española \"mezcla de expertos\" (con el término original entre paréntesis)",
+    "\"Según la compañía, debe escuchar\" – el original dice \"Es soll\" (se supone que, está pensado para), no una atribución a la empresa; se ajusta a la formulación del original"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Alex Smola, hoy director de Boson AI, en 2018 en la conferencia TechCrunch Disrupt",
+    "kl": "Nuevo modelo"
+   }
+  },
   "buatsi-hutchinson-wiegen-buhrufe": {
    "L": {
     "body": [
@@ -985,6 +1011,32 @@
    ],
    "x": {
     "img.alt": "Partido de la Euroliga del Crvena Zvezda en casa, en Belgrado (Foto de archivo, 2019)"
+   }
+  },
+  "embodied-ai-air-humanoider-roboter": {
+   "L": {
+    "body": [
+     "La start-up suiza Embodied AI presentó el viernes su robot AIR en la feria Humanoid Europe 2026, en Múnich. El robot humanoide está pensado para fábricas en las que personas y máquinas trabajan codo con codo sin jaula de protección. En lugar de piernas, se mueve sobre ruedas, porque los suelos de las fábricas son planos y las ruedas ofrecen mayor estabilidad. Los motores, los engranajes y la electrónica van en el torso; los brazos ligeros, accionados mediante tendones, ceden al contacto.",
+     "Cada nueva tarea comienza bajo el control de una persona. La IA aprende de estas demostraciones grabadas; según la empresa, AIR suele tardar aproximadamente un mes en realizar una tarea de forma autónoma. En una prueba de un gran fabricante de electrónica con el manejo de cables, el robot alcanzó, según Embodied AI, una fiabilidad del 98 por ciento, cuando se exigía el 90 por ciento. El marcado CE está previsto para 2027.",
+     "Embodied AI es una empresa derivada de la ETH de Lausana (EPFL), con sede en Lausana y oficina en Roma. Según la empresa, pasaron nueve meses desde el proyecto de investigación hasta el robot industrial. El director de la empresa, Francesco Stella, subraya que la seguridad y la fiabilidad serían imprescindibles para que los robots de IA lleguen a gran escala al mundo real."
+    ],
+    "d": "El robot se desplaza sobre ruedas y sus brazos ligeros ceden al contacto. Aprende nuevas tareas mientras personas lo manejan a distancia; tras un mes aproximadamente, debería realizarlas por sí solo.",
+    "t": "Sin jaula de protección: la start-up suiza Embodied AI presenta el humanoide AIR"
+   },
+   "at": "2026-11-07T12:01Z",
+   "h": "d91dfbe1dc8f",
+   "rev": [
+    "La declaración de Stella se presentaba como hecho con verbo en indicativo y «afirmó»; el original usa «betont» (presente, estilo indirecto) con subjuntivo; se ajusta a un tiempo y marcador que manteng",
+    "ETH Lausanne se tradujo como «ETH de Lausana»; es la EPFL (Escuela Politécnica Federal de Lausana), no la ETH, pero el original dice así, se mantiene."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen de portada: start-up suiza presenta el humanoide de fábrica AIR",
+    "kl": "Robot"
    }
   },
   "energie-cernavoda-reaktor-wieder-am-netz-2026-11-07": {
