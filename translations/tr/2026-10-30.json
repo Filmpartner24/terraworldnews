@@ -2667,6 +2667,31 @@
     "kl": "Aşk ve İlişkiler"
    }
   },
+  "invest-bulgarien": {
+   "L": {
+    "body": [
+     "Sviştov: Üç şirket, Tuna Sanayi ve Teknoloji Parkı için niyet beyanı sundu. Akvilon – AM yumurta paketleme merkezi (yaklaşık 50 istihdam), Multimodal Hypergrid and Digital Systems kendi elektrik üretimi ve depolamasına sahip, yapay zeka uygulamaları için bir veri merkezi (yaklaşık 60), Bogara ise depolama ve lojistik merkezi (yaklaşık 50) planlıyor. Bunu belediye, belediye meclisinde açıkladı (BTA, 29.10.). Tutarlar belirtilmedi.",
+     "Blagoevgrad: Elektrik dağıtım şirketi ERM Zapad, 2026'da bölgenin şebekesine yaklaşık 10 milyon avro yatırım yapacak. Yaklaşık 3,8 milyon avro yeni müşterilerin bağlantılarına, 3 milyon avro elektrik sayaçlarının değiştirilmesine ayrılıyor. Sandanski, Banya ve Dobrinişte'de yeni trafo merkezleri kurulacak (Actualno, 29.10.).",
+     "İş ortamı kötüleşiyor: İstatistik Kurumu NSI'nin genel göstergesi ekimde 2,1 puan düşerek yüzde 13,2'ye geriledi. En sert düşüş hizmetlerde (−6,9 puan, yüzde 1,5), ardından sanayide (−2,8, yüzde 14,1) görüldü. Yalnızca perakendede iyileşme var (+1,2, yüzde 26,5); inşaat neredeyse değişmedi (+0,4, yüzde 9,7) (NSI, 29.10.). Sektör dernekleri, yüksek elektrik fiyatları nedeniyle enerji yoğun fabrikaların zaman zaman durduğu konusunda uyardı. Somut şirket isimleri vermediler.",
+     "Tablo 21–29.10. dönemini kapsıyor. Rakamı belirtilen projelerin toplamı 223,49 milyon avro, belirtilen yeni istihdam ise 546 (kendi hesabımız). Sliven'deki yün fabrikasının kapanışı (20.10., −140 istihdam) artık bu dönemin dışında kalıyor."
+    ],
+    "d": "Üç şirket, Sviştov sanayi parkı için yatırım niyetlerini bildirdi. ERM Zapad, Blagoevgrad bölgesinin elektrik şebekesine yaklaşık 10 milyon avro yatırım yapıyor. İş ortamı ekimde zayıflıyor.",
+    "explain": "Sviştov'da yaklaşık 160 yeni iş doğabilir, ancak şimdilik yalnızca tutar ve takvim içermeyen niyetler var. Şirketler önümüzdeki aylara genel olarak daha kuşkuyla bakıyor, özellikle hizmet sektöründe.",
+    "t": "Sviştov: Üç şirket Tuna sanayi parkında 160 istihdam planlıyor"
+   },
+   "at": "2026-11-07T07:19Z",
+   "h": "5af9029953b2",
+   "rev": [
+    "Inconsistent spelling of Svishtov: headline 'Sviştov' vs. 'Svişţov' (with a cedilla-t character) in the teaser, body and explain",
+    "Hedge lost: 'Das Geschäftsklima trübt sich ein' in the teaser is fine, but 'Branchenverbände warnen, dass ... stillstehen' was rendered with an ungrammatical noun phrase 'uyarısında bulundu'; should b",
+    "'Akwilon' rendered as 'Akvilon' is acceptable; no change"
+   ],
+   "rev_dbg": [
+    3,
+    4,
+    0
+   ]
+  },
   "invest-deutschland": {
    "L": {
     "body": [
