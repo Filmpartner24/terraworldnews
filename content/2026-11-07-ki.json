@@ -1,0 +1,397 @@
+{
+ "date": "2026-11-07",
+ "items": [
+  {
+   "id": "mistral-studio-agenten-apps",
+   "s": "ai",
+   "kl": {
+    "de": "Neue Plattform",
+    "bg": "Нова платформа",
+    "en": "New platform"
+   },
+   "yt": {
+    "id": "sVYk3YL9SBs",
+    "ch": "Mistral",
+    "kind": "video",
+    "t": {
+     "de": "Mistral Studio: Agents, apps and workflows for enterprise AI you control",
+     "bg": "Mistral Studio: Agents, apps and workflows for enterprise AI you control",
+     "en": "Mistral Studio: Agents, apps and workflows for enterprise AI you control"
+    }
+   },
+   "src": [
+    {
+     "n": "Data Studios – Mistral Studio adds managed agents, workflow builder and apps in public preview (06.11.2026)",
+     "u": "https://www.datastudios.org/post/mistral-studio-managed-agents-workflows-apps-public-preview"
+    },
+    {
+     "n": "BornCity – Mistral Studio: Managed Agents laufen nach dem Schließen eigenständig weiter (07.11.2026)",
+     "u": "https://borncity.com/news/mistral-studio-managed-agents-laufen-nach-dem-schliessen-eigenstaendig-weiter/"
+    }
+   ],
+   "de": {
+    "t": "KI-Agenten, die nach Feierabend weiterarbeiten: Mistral baut Studio für Firmen aus",
+    "d": "Der französische KI-Entwickler bringt verwaltete Agenten, einen Workflow-Baukasten und interne Apps in seine Plattform Studio. Die meisten Neuerungen sind zunächst eine öffentliche Vorschau.",
+    "body": [
+     "Der französische KI-Entwickler Mistral hat seine Unternehmensplattform Studio deutlich erweitert. Kern der am Donnerstag veröffentlichten Neuerungen sind sogenannte Managed Agents: KI-Agenten, die weiterlaufen, wenn Nutzer die Oberfläche schließen, und nach einem Absturz beim letzten abgeschlossenen Modell- oder Werkzeugaufruf wieder einsetzen. Ein neues Python-Paket lässt die Agenten wahlweise im eigenen Programm, auf eigenen Servern oder in Mistrals Cloud laufen. Standardmäßig dauert eine Sitzung bis zu 24 Stunden; auf eine menschliche Freigabe wartet ein Agent bis zu einer Stunde.",
+     "Dazu kommen ein Baukasten für feste Arbeitsabläufe, die sich auch in Alltagssprache beschreiben lassen, sowie „Apps“ für interne Firmenwerkzeuge mit Hosting, Anmeldung und Zugriffsrechten. Agenten werden standardmäßig protokolliert, Auswertungswerkzeuge sollen die Qualität messen. Die meisten Funktionen sind eine öffentliche Vorschau; Preise nannte Mistral nicht. Als Kunden werden unter anderem BNP Paribas, ABANCA, CMA CGM, Accenture und Capgemini genannt.",
+     "Varianten für die eigene private Cloud und den Betrieb im eigenen Rechenzentrum sind Berichten zufolge bis Ende November geplant – ein Argument für europäische Firmen, die ihre Daten nicht aus der Hand geben wollen. Ein Video auf dem offiziellen Mistral-Kanal zeigt die neuen Funktionen."
+    ]
+   },
+   "bg": {
+    "t": "ИИ агенти, които работят и след края на деня: Mistral разширява Studio за фирми",
+    "d": "Френският разработчик на ИИ добавя управлявани агенти, конструктор на работни процеси и вътрешни приложения в платформата си Studio. Повечето новости засега са в публичен преглед.",
+    "body": [
+     "Френският разработчик на изкуствен интелект Mistral значително разшири корпоративната си платформа Studio. В основата на публикуваните в четвъртък новости са т.нар. Managed Agents – ИИ агенти, които продължават да работят, когато потребителят затвори интерфейса, а след срив се възобновяват от последното завършено извикване на модел или инструмент. Нов пакет за Python позволява агентите да работят в собствената програма, на собствени сървъри или в облака на Mistral. По подразбиране една сесия продължава до 24 часа, а агентът чака одобрение от човек до един час.",
+     "Добавени са и конструктор за фиксирани работни процеси, които могат да се описват и на обикновен език, както и „Apps“ за вътрешни фирмени инструменти с хостинг, вход и права за достъп. Работата на агентите се проследява по подразбиране, а инструменти за оценка трябва да измерват качеството. Повечето функции са в публичен преглед; цени Mistral не посочи. Сред клиентите са BNP Paribas, ABANCA, CMA CGM, Accenture и Capgemini.",
+     "Варианти за собствен частен облак и за работа в собствен център за данни според публикации са планирани до края на ноември – аргумент за европейски компании, които не искат да изпускат данните си. Видео в официалния канал на Mistral показва новите функции."
+    ]
+   },
+   "en": {
+    "t": "AI agents that keep working after hours: Mistral expands Studio for businesses",
+    "d": "The French AI developer adds managed agents, a workflow builder and internal apps to its Studio platform. Most of the new features start as a public preview.",
+    "body": [
+     "French AI developer Mistral has significantly expanded its enterprise platform Studio. At the core of the updates released on Thursday are so-called Managed Agents: AI agents that keep running when users close the interface and, after a crash, resume from the last completed model or tool call. A new Python package lets the agents run inside the user's own program, on the customer's servers or in Mistral's cloud. By default a session lasts up to 24 hours, and an agent waits up to one hour for human approval.",
+     "Mistral is also adding a builder for fixed workflows, which can be described in plain language, as well as \"Apps\" for internal company tools with hosting, sign-in and access controls. Agent activity is traced by default, and evaluation tools are meant to measure quality. Most features are in public preview; Mistral did not give prices. Customers named include BNP Paribas, ABANCA, CMA CGM, Accenture and Capgemini.",
+     "Versions for customers' own private clouds and on-premises data centres are reportedly planned by the end of November – a selling point for European companies that want to keep control of their data. A video on Mistral's official channel shows the new features."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-07/mistral-studio-agenten-apps.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Slush",
+    "lic": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Arthur_Mensch.jpg",
+    "alt": {
+     "de": "Archivbild: Mistral-Mitgründer und -Chef Arthur Mensch",
+     "bg": "Архивна снимка: съоснователят и главен изпълнителен директор на Mistral Артур Менш",
+     "en": "Archive image: Mistral co-founder and CEO Arthur Mensch"
+    }
+   },
+   "time": "12:29"
+  },
+  {
+   "id": "boson-higgs-realtime-duplex",
+   "s": "ai",
+   "kl": {
+    "de": "Neues Modell",
+    "bg": "Нов модел",
+    "en": "New model"
+   },
+   "yt": {
+    "id": "vclcTznkNjM",
+    "ch": "Boson AI",
+    "kind": "video",
+    "t": {
+     "de": "Agent joins a meeting: it listens, talks, and works at the same time | Higgs Realtime Duplex demo",
+     "bg": "Agent joins a meeting: it listens, talks, and works at the same time | Higgs Realtime Duplex demo",
+     "en": "Agent joins a meeting: it listens, talks, and works at the same time | Higgs Realtime Duplex demo"
+    }
+   },
+   "src": [
+    {
+     "n": "RuntimeWire – Boson AI introduces a 45B model that talks and renders a face (06.11.2026)",
+     "u": "https://runtimewire.com/article/boson-higgs-realtime-duplex-45b-voice-face-model"
+    },
+    {
+     "n": "TLDR – Boson AI releases Higgs Realtime Duplex (11/2026)",
+     "u": "https://tldr.tech/story/59e07051-be47-4e6e-9056-63dc207e504e"
+    },
+    {
+     "n": "AI Weekly – AI News Today (07.11.2026)",
+     "u": "https://aiweekly.co/ai-news-today"
+    }
+   ],
+   "de": {
+    "t": "Zuhören, reden, arbeiten – gleichzeitig: Boson AI zeigt KI, die in Meetings mitspricht",
+    "d": "Das Modell Higgs Realtime Duplex verarbeitet Sprache und Bild in Häppchen von 160 Millisekunden, zeigt ein eigenes Gesicht und erledigt nebenbei Aufgaben. Ein Video zeigt es in einer Videokonferenz.",
+    "body": [
+     "Das kalifornische KI-Unternehmen Boson AI hat am Donnerstag das Modell Higgs Realtime Duplex vorgestellt. Es soll gleichzeitig zuhören, zusehen und sprechen – anders als viele Sprachassistenten, die abwarten, bis der Mensch fertig geredet hat. Ton und Video verarbeitet das Modell in Abschnitten von 160 Millisekunden. Es erzeugt dabei ein eigenes animiertes Gesicht, ruft Werkzeuge auf und gibt schwierigere Aufgaben an ein größeres Modell im Hintergrund weiter, ohne das Gespräch zu unterbrechen.",
+     "Das vorne arbeitende Modell hat nach Firmenangaben 45 Milliarden Parameter und nutzt eine sogenannte Mixture-of-Experts-Architektur. Boson strebt an, dass eine Stunde Gespräch mit dem Modell höchstens ein Zehntel dessen kostet, was eine Stunde menschlicher Arbeit kostet. Laut dem Branchendienst AI Weekly soll eine Programmierschnittstelle zunächst über eine Warteliste zugänglich werden.",
+     "Boson AI sitzt in Santa Clara und wird von Mitgründer Alex Smola geführt, der zuvor unter anderem bei Amazon Web Services für maschinelles Lernen zuständig war. Ein Video auf dem offiziellen Kanal von Boson AI zeigt, wie der Agent an einem Meeting teilnimmt, mitredet und parallel Aufgaben erledigt."
+    ]
+   },
+   "bg": {
+    "t": "Слуша, говори и работи едновременно: Boson AI показва ИИ, който участва в срещи",
+    "d": "Моделът Higgs Realtime Duplex обработва глас и образ на части от 160 милисекунди, показва собствено лице и изпълнява задачи успоредно. Видео го показва във видеоконференция.",
+    "body": [
+     "Калифорнийската компания за изкуствен интелект Boson AI представи в четвъртък модела Higgs Realtime Duplex. Той трябва едновременно да слуша, да гледа и да говори – за разлика от много гласови асистенти, които изчакват човекът да довърши. Моделът обработва звук и видео на части от 160 милисекунди. Междувременно генерира собствено анимирано лице, извиква инструменти и прехвърля по-трудни задачи към по-голям модел във фонов режим, без да прекъсва разговора.",
+     "Според компанията предният модел има 45 милиарда параметъра и използва т.нар. архитектура Mixture of Experts. Целта на Boson е един час разговор с модела да струва най-много една десета от цената на един час човешки труд. Според отрасловата услуга AI Weekly програмен интерфейс ще бъде достъпен първо чрез списък на чакащите.",
+     "Boson AI е със седалище в Санта Клара и се ръководи от съоснователя Алекс Смола, който преди това отговаряше за машинното обучение в Amazon Web Services. Видео в официалния канал на Boson AI показва как агентът участва в среща, включва се в разговора и успоредно изпълнява задачи."
+    ]
+   },
+   "en": {
+    "t": "Listening, talking and working at once: Boson AI shows an AI that joins meetings",
+    "d": "The Higgs Realtime Duplex model processes speech and video in 160-millisecond chunks, renders its own face and handles tasks on the side. A video shows it in a video call.",
+    "body": [
+     "California AI company Boson AI on Thursday unveiled its Higgs Realtime Duplex model. It is designed to listen, watch and speak at the same time – unlike many voice assistants that wait until the person has finished talking. The model processes audio and video in 160-millisecond chunks. Meanwhile it renders its own animated face, calls tools and hands harder tasks to a larger model in the background without interrupting the conversation.",
+     "According to the company, the front-end model has 45 billion parameters and uses a so-called mixture-of-experts architecture. Boson aims for an hour of conversation with the model to cost no more than a tenth of an hour of human labour. According to the industry newsletter AI Weekly, an API is to be made available first via a waitlist.",
+     "Boson AI is based in Santa Clara and led by co-founder Alex Smola, who previously headed machine learning work at Amazon Web Services, among other roles. A video on Boson AI's official channel shows the agent joining a meeting, taking part in the conversation and completing tasks in parallel."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-07/boson-higgs-realtime-duplex.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "TechCrunch",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TechCrunch_Disrupt_San_Francisco_2018_-_day_2_(42712101700).jpg",
+    "alt": {
+     "de": "Archivbild: Alex Smola, heute Chef von Boson AI, 2018 auf der Konferenz TechCrunch Disrupt",
+     "bg": "Архивна снимка: Алекс Смола, днес начело на Boson AI, през 2018 г. на конференцията TechCrunch Disrupt",
+     "en": "Archive image: Alex Smola, now head of Boson AI, at TechCrunch Disrupt in 2018"
+    }
+   },
+   "time": "12:29"
+  },
+  {
+   "id": "usa-justiz-superintelligenz-task-force",
+   "s": "ai",
+   "mn": true,
+   "kl": {
+    "de": "Regulierung",
+    "bg": "Регулация",
+    "en": "Regulation"
+   },
+   "src": [
+    {
+     "n": "U.S. Department of Justice – Department of Justice Launches Super Intelligence Task Force (05.11.2026)",
+     "u": "https://www.justice.gov/opa/pr/department-justice-launches-super-intelligence-task-force"
+    },
+    {
+     "n": "Interesting Engineering – US launches new Super Intelligence Task Force (05.11.2026)",
+     "u": "https://interestingengineering.com/ai-robotics/us-launches-super-intelligence-task-force"
+    }
+   ],
+   "de": {
+    "t": "Gegen KI-Missbrauch: US-Justizministerium gründet „Super Intelligence“-Task-Force",
+    "d": "Die neue Einheit soll Missbrauch fortgeschrittener KI durch fremde Staaten, Kriminelle und Firmen verfolgen. Unternehmen sollen zudem strenge interne Kontrollen für ihre KI-Systeme einhalten.",
+    "body": [
+     "Das US-Justizministerium hat am Donnerstag eine Task Force für „Super Intelligence“ (SI) gegründet. Sie soll verhindern, dass die US-Führungsrolle bei hochentwickelter KI durch Missbrauch untergraben wird – durch ausländische Staaten und von ihnen unterstützte Akteure, durch grenzüberschreitende kriminelle Organisationen sowie durch Einzelpersonen oder Unternehmen, die Betrug oder andere Straftaten begehen. Geleitet wird sie von Stanley Woodward, Associate Attorney General, und Stephen Weiss, Associate Deputy Attorney General.",
+     "Laut Interesting Engineering soll die Einheit Ermittlungen und zivilrechtliche Verfahren mit KI-Bezug im Ministerium bündeln, Schwerpunkte setzen und Leitlinien für Anklagen erarbeiten. Sie kann zudem verlangen, dass Staatsanwälte sie vor bestimmten Ermittlungen informieren; zudem geht die im Januar gegründete KI-Task-Force des Ministeriums in ihr auf. Von Unternehmen erwartet das Ministerium starke interne Kontrollen, damit KI-Systeme sich wie vorgesehen verhalten.",
+     "Justizminister Todd Blanche kündigte an, das Ministerium werde Personen verfolgen, deren KI-Nutzung gegen Gesetze verstößt, und mit Jay Clayton zusammenarbeiten, dem Vorsitzenden der „Super Intelligence Force“ des Weißen Hauses. Erklärtes Ziel ist laut Interesting Engineering, die Entwicklung fortgeschrittener KI in den USA zu fördern, ohne belastende Regulierung aufzuerlegen."
+    ]
+   },
+   "bg": {
+    "t": "Срещу злоупотреби с ИИ: правосъдието на САЩ създава група „Super Intelligence“",
+    "d": "Новото звено трябва да преследва злоупотреби с напреднал ИИ от чужди държави, престъпници и фирми. Компаниите трябва и да поддържат строг вътрешен контрол над своите ИИ системи.",
+    "body": [
+     "Министерството на правосъдието на САЩ създаде в четвъртък работна група за „Super Intelligence“ (SI). Тя трябва да не допусне водещата роля на САЩ в напредналия ИИ да бъде подкопана чрез злоупотреби – от чужди държави и подкрепяни от тях участници, от транснационални престъпни организации, както и от физически лица или компании, извършващи измами или други престъпления. Ръководят я Стенли Удуърд, заместник главен прокурор (Associate Attorney General), и Стивън Уайс, заместник на заместник главния прокурор (Associate Deputy Attorney General).",
+     "Според Interesting Engineering звеното трябва да обединява разследванията и гражданските производства, свързани с ИИ, в министерството, да определя приоритети и да изготвя насоки за обвиненията. То може и да изисква прокурорите да го уведомяват преди определени разследвания; освен това създадената през януари работна група на министерството за ИИ се влива в него. От компаниите министерството очаква силен вътрешен контрол, за да се държат ИИ системите така, както е предвидено.",
+     "Министърът на правосъдието Тод Бланш обяви, че министерството ще преследва хора, чието използване на ИИ нарушава закона, и ще работи с Джей Клейтън, председател на „Super Intelligence Force“ към Белия дом. Според Interesting Engineering обявената цел е да се насърчава развитието на напреднал ИИ в САЩ, без да се налага обременяващо регулиране."
+    ]
+   },
+   "en": {
+    "t": "Against AI misuse: US Justice Department sets up 'Super Intelligence' task force",
+    "d": "The new unit is to pursue misuse of advanced AI by foreign states, criminals and companies. Businesses are also expected to keep strong internal controls over their AI systems.",
+    "body": [
+     "The US Department of Justice on Thursday formed a Super Intelligence (SI) Task Force. It is meant to prevent US leadership in advanced AI from being undermined by misuse – by foreign states and state-sponsored actors, by transnational criminal organisations and by individuals or companies committing fraud or other crimes. It is co-led by Associate Attorney General Stanley Woodward and Associate Deputy Attorney General Stephen Weiss.",
+     "According to Interesting Engineering, the unit is to coordinate AI-related investigations and civil proceedings across the department, set priorities and draw up prosecution guidance. It can also require prosecutors to notify it before certain investigations, and the department's AI task force set up in January will be folded into it. The department expects companies to maintain strong internal controls so that AI systems behave as intended.",
+     "Attorney General Todd Blanche said the department would prosecute people whose use of AI breaks the law and would work with Jay Clayton, chair of the White House's Super Intelligence Force. According to Interesting Engineering, the stated aim is to encourage advanced AI development in the US without imposing burdensome regulation."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-07/usa-justiz-superintelligenz-task-force.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "APK",
+    "lic": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Robert_F._Kennedy_Department_of_Justice_Building.jpg",
+    "alt": {
+     "de": "Archivbild: Sitz des US-Justizministeriums in Washington, D.C.",
+     "bg": "Архивна снимка: сградата на Министерството на правосъдието на САЩ във Вашингтон",
+     "en": "Archive image: US Department of Justice headquarters in Washington, D.C."
+    }
+   },
+   "time": "12:29"
+  },
+  {
+   "id": "thinking-machines-5-milliarden-runde",
+   "s": "ai",
+   "mn": true,
+   "kl": {
+    "de": "Finanzierung",
+    "bg": "Финансиране",
+    "en": "Funding"
+   },
+   "src": [
+    {
+     "n": "Dataconomy – Thinking Machines Lab Nears $5B Accel-led Round At $40B Valuation (06.11.2026)",
+     "u": "https://dataconomy.com/2026/11/06/thinking-machines-lab-nears-5b-accel-led-round-at-40b/"
+    },
+    {
+     "n": "Tech Funding News – Report: Accel is to lead a $5B round for Thinking Machines Lab at $40B valuation (06.11.2026)",
+     "u": "https://techfundingnews.com/accel-thinking-machines-lab-5b-round-40b-valuation/"
+    },
+    {
+     "n": "The Neuron – Everything That Happened in AI Today, Friday, November 6 (06.11.2026)",
+     "u": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-6-2026/"
+    }
+   ],
+   "de": {
+    "t": "Bericht: Murati-Start-up Thinking Machines will 5 Milliarden Dollar einsammeln",
+    "d": "Das KI-Labor der früheren OpenAI-Technikchefin soll vor der Finanzierung mit 40 Milliarden Dollar bewertet werden. Fast zeitgleich brachte es ein neues Modell heraus.",
+    "body": [
+     "Das KI-Start-up Thinking Machines Lab der früheren OpenAI-Technikchefin Mira Murati steht laut einem Bericht von Business Insider kurz vor einer Finanzierungsrunde über 5 Milliarden Dollar. Angeführt werden soll sie vom Wagniskapitalgeber Accel, die Bewertung vor dem Geldzufluss soll bei 40 Milliarden Dollar liegen. Abgeschlossen ist die Runde den Berichten zufolge noch nicht; Thinking Machines wollte sich nicht äußern.",
+     "Das 2025 gegründete Unternehmen hatte im Juli 2025 eine Startfinanzierung von 2 Milliarden Dollar bei einer Bewertung von rund 12 Milliarden Dollar erhalten. Die neue Bewertung wäre mehr als dreimal so hoch. Zuletzt hatten mehrere Mitgründer das Labor in Richtung Meta und OpenAI verlassen. Erstes Produkt ist Tinker, ein Dienst, mit dem Firmen KI-Modelle mit eigenen Daten nachtrainieren.",
+     "Am Donnerstag stellte Thinking Machines zudem das Modell Inkling 2 Small vor, das auf Programmieren, Bildverständnis und selbstständiges Arbeiten ausgelegt ist. Es hat 594 Milliarden Parameter, von denen pro Anfrage rund 17 Milliarden aktiv sind, und ist zunächst über Tinker nutzbar. Die Gewichte zum Herunterladen sollen nach weiteren Sicherheitstests folgen."
+    ]
+   },
+   "bg": {
+    "t": "Доклад: стартъпът на Мурати Thinking Machines иска да набере 5 млрд. долара",
+    "d": "ИИ лабораторията на бившата технологична директорка на OpenAI трябва да бъде оценена на 40 млрд. долара преди финансирането. Почти едновременно тя пусна нов модел.",
+    "body": [
+     "ИИ стартъпът Thinking Machines Lab на бившата технологична директорка на OpenAI Мира Мурати е пред кръг на финансиране от 5 млрд. долара, според доклад на Business Insider. Той трябва да бъде воден от фонда за рисков капитал Accel, а оценката преди постъпването на парите – да бъде 40 млрд. долара. Според публикациите кръгът още не е приключил; Thinking Machines отказа коментар.",
+     "Основаната през 2025 г. компания получи през юли 2025 г. начално финансиране от 2 млрд. долара при оценка от около 12 млрд. долара. Новата оценка би била повече от три пъти по-висока. Наскоро няколко съоснователи напуснаха лабораторията за Meta и OpenAI. Първият ѝ продукт е Tinker – услуга, с която фирми дообучават ИИ модели със собствени данни.",
+     "В четвъртък Thinking Machines представи и модела Inkling 2 Small, насочен към програмиране, разбиране на изображения и самостоятелна работа. Той има 594 млрд. параметъра, от които при всяка заявка са активни около 17 млрд., и засега е достъпен чрез Tinker. Теглата за изтегляне трябва да последват след допълнителни тестове за безопасност."
+    ]
+   },
+   "en": {
+    "t": "Report: Murati's start-up Thinking Machines seeks to raise $5 billion",
+    "d": "The AI lab of OpenAI's former chief technology officer is set to be valued at $40 billion before the investment. Almost at the same time, it released a new model.",
+    "body": [
+     "Thinking Machines Lab, the AI start-up of OpenAI's former chief technology officer Mira Murati, is close to a $5 billion funding round, according to a Business Insider report. The round is to be led by venture capital firm Accel, at a pre-money valuation of $40 billion. According to the reports, the round has not yet closed; Thinking Machines declined to comment.",
+     "Founded in 2025, the company raised $2 billion in seed funding in July 2025 at a valuation of around $12 billion. The new valuation would be more than three times higher. Several co-founders have recently left the lab for Meta and OpenAI. Its first product is Tinker, a service that lets companies fine-tune AI models with their own data.",
+     "On Thursday, Thinking Machines also unveiled Inkling 2 Small, a model designed for coding, image understanding and autonomous work. It has 594 billion parameters, of which around 17 billion are active per request, and is initially available through Tinker. Downloadable weights are to follow after further safety testing."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-07/thinking-machines-5-milliarden-runde-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Thinking Machines will 5 Milliarden Dollar einsammeln",
+     "bg": "Заглавна графика: Thinking Machines иска да набере 5 млрд. долара",
+     "en": "Title graphic: Thinking Machines seeks to raise $5 billion"
+    }
+   },
+   "time": "12:29"
+  },
+  {
+   "id": "google-wyoming-rechenzentrum-17-milliarden",
+   "s": "ai",
+   "mn": true,
+   "kl": {
+    "de": "Rechenzentren",
+    "bg": "Центрове за данни",
+    "en": "Data centres"
+   },
+   "src": [
+    {
+     "n": "Carbon Herald – Google Announces $17B Wyoming Data Center With Carbon Capture (06.11.2026)",
+     "u": "https://carbonherald.com/google-announces-17b-wyoming-data-center-with-carbon-capture/"
+    },
+    {
+     "n": "24/7 Wall St. via Yahoo Finance – Google Is Spending $17 Billion on a Wyoming Data Center (06.11.2026)",
+     "u": "https://finance.yahoo.com/energy/articles/google-spending-17-billion-wyoming-192629782.html"
+    }
+   ],
+   "de": {
+    "t": "17 Milliarden für Wyoming: Google versorgt neues KI-Rechenzentrum mit Brennstoffzellen",
+    "d": "Strom sollen Brennstoffzellen mit 702 Megawatt liefern, das CO₂ soll unter der Erde gespeichert werden. Google will die Stromkosten des Standorts vollständig selbst tragen.",
+    "body": [
+     "Google will 17 Milliarden Dollar in seinen ersten Rechenzentrums-Campus im US-Bundesstaat Wyoming investieren. Der Standort liegt im Laramie County nahe der Hauptstadt Cheyenne, wie der Konzern am Donnerstag bekanntgab. Versorgt werden soll er unter anderem durch eine Brennstoffzellen-Anlage mit 702 Megawatt Leistung, die der Energieversorger American Electric Power (AEP) mit in den USA gefertigten Festoxid-Brennstoffzellen von Bloom Energy betreibt – laut Carbon Herald die bislang größte geplante Brennstoffzellen-Anlage für ein Rechenzentrum.",
+     "Die Zellen wandeln Erdgas ohne Verbrennung in Strom um. Der Großteil des dabei entstehenden Kohlendioxids soll abgeschieden und über ein Speicherprojekt des Unternehmens Tallgrass Energy unterirdisch gelagert werden. Weiteren Strom liefern Gaskraftwerke von Black Hills Energy und Tallgrass. Gekühlt wird mit Luft, um die Wasservorräte der Region zu schonen. Der kommerzielle Betrieb der ersten Brennstoffzellen-Phase ist für Ende 2028 geplant.",
+     "Google sagt zu, den Strom des Standorts und nötige Netzausbauten vollständig selbst zu bezahlen – eine Antwort auf wachsenden Widerstand gegen Rechenzentren, deren Stromhunger in den USA zuletzt auch Thema im Wahlkampf zu den Zwischenwahlen war. Trotz CO₂-Speicherung arbeitet die Anlage mit fossilem Erdgas."
+    ]
+   },
+   "bg": {
+    "t": "17 милиарда за Уайоминг: Google захранва нов ИИ център за данни с горивни клетки",
+    "d": "Тока трябва да осигуряват горивни клетки с мощност 702 мегавата, а CO₂ ще се съхранява под земята. Google иска изцяло сам да поеме разходите за ток на обекта.",
+    "body": [
+     "Google ще инвестира 17 млрд. долара в първия си кампус от центрове за данни в американския щат Уайоминг. Обектът се намира в окръг Ларами край столицата Шайен, обяви концернът в четвъртък. Той ще бъде захранван, наред с другото, от инсталация с горивни клетки с мощност 702 мегавата, която енергийното дружество American Electric Power (AEP) ще експлоатира с произведени в САЩ твърдооксидни горивни клетки на Bloom Energy – според Carbon Herald най-голямата планирана досега инсталация с горивни клетки за център за данни.",
+     "Клетките превръщат природния газ в ток без горене. По-голямата част от отделяния въглероден диоксид трябва да бъде улавян и съхраняван под земята чрез проект за съхранение на компанията Tallgrass Energy. Допълнителен ток ще доставят газови централи на Black Hills Energy и Tallgrass. Охлаждането ще е с въздух, за да се пестят водните запаси на региона. Търговската експлоатация на първата фаза с горивни клетки е планирана за края на 2028 г.",
+     "Google се ангажира изцяло сам да плати тока на обекта и необходимото разширяване на мрежата – отговор на нарастващата съпротива срещу центровете за данни, чиято нужда от ток в САЩ стана тема и в кампанията за междинните избори. Въпреки улавянето на CO₂ инсталацията работи с изкопаем природен газ."
+    ]
+   },
+   "en": {
+    "t": "$17 billion for Wyoming: Google to power new AI data centre with fuel cells",
+    "d": "Fuel cells with 702 megawatts of capacity are to supply power, with the CO₂ stored underground. Google says it will pay the site's full electricity costs itself.",
+    "body": [
+     "Google plans to invest $17 billion in its first data centre campus in the US state of Wyoming. The site is in Laramie County near the state capital Cheyenne, the company announced on Thursday. Among other sources, it is to be powered by a 702-megawatt fuel-cell plant that utility American Electric Power (AEP) will operate using US-made solid-oxide fuel cells from Bloom Energy – according to Carbon Herald, the largest fuel-cell development planned for a data centre to date.",
+     "The cells convert natural gas into electricity without combustion. Most of the resulting carbon dioxide is to be captured and stored underground through a storage project run by Tallgrass Energy. Additional power will come from gas-fired plants of Black Hills Energy and Tallgrass. The campus will be air-cooled to spare the region's water supplies. Commercial operation of the first fuel-cell phase is targeted for late 2028.",
+     "Google has pledged to pay for all of the site's power and the necessary grid upgrades itself – a response to growing resistance to data centres, whose appetite for electricity also became a campaign issue in the US midterm elections. Despite carbon capture, the plant runs on fossil natural gas."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-07/google-wyoming-rechenzentrum-17-milliarden.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Lambtron",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Google_data_center.jpg",
+    "alt": {
+     "de": "Symbolbild: Google-Rechenzentrum in The Dalles, Oregon",
+     "bg": "Символна снимка: център за данни на Google в Дейлс, Орегон",
+     "en": "Symbolic image: Google data centre in The Dalles, Oregon"
+    }
+   },
+   "time": "12:29"
+  },
+  {
+   "id": "embodied-ai-air-humanoider-roboter",
+   "s": "ai",
+   "mn": true,
+   "kl": {
+    "de": "Roboter",
+    "bg": "Роботи",
+    "en": "Robots"
+   },
+   "src": [
+    {
+     "n": "Embodied AI via Business Wire/Yahoo Finance – Embodied AI Unveils AIR, a Physically Safe Humanoid Robot That Learns on the Job (06.11.2026)",
+     "u": "https://finance.yahoo.com/technology/ai/articles/embodied-ai-unveils-air-physically-080000604.html"
+    },
+    {
+     "n": "Humanoid.guide – Welcome, AIR! (06.11.2026)",
+     "u": "https://humanoid.guide/welcome-air/"
+    },
+    {
+     "n": "Emergent – Swiss Embodied AI Unveils Air Humanoid, Hits 98% Reliability (11/2026)",
+     "u": "https://emergent.sh/news/swiss-embodied-ai-unveils-air-humanoid-hits"
+    }
+   ],
+   "de": {
+    "t": "Ohne Schutzkäfig: Schweizer Start-up Embodied AI zeigt Fabrik-Humanoiden AIR",
+    "d": "Der Roboter fährt auf Rädern, seine leichten Arme geben bei Berührung nach. Neue Handgriffe lernt er, während Menschen ihn zunächst fernsteuern – nach etwa einem Monat soll er sie allein erledigen.",
+    "body": [
+     "Das Schweizer Start-up Embodied AI hat am Freitag auf der Fachmesse Humanoid Europe 2026 in München seinen Roboter AIR vorgestellt. Der humanoide Roboter ist für Fabriken gedacht, in denen Menschen und Maschinen ohne Schutzkäfig nebeneinander arbeiten. Statt auf Beinen bewegt er sich auf Rädern, weil Fabrikböden eben sind und Räder stabiler stehen. Motoren, Getriebe und Elektronik sitzen im Rumpf; die leichten, über Sehnen angetriebenen Arme geben bei Kontakt nach.",
+     "Jede neue Aufgabe beginnt unter Steuerung eines Menschen. Die KI lernt aus diesen aufgezeichneten Vorführungen; bis AIR eine Aufgabe selbstständig erledigt, dauert es nach Firmenangaben in der Regel etwa einen Monat. In einem Test eines großen Elektronikherstellers beim Umgang mit Kabeln erreichte der Roboter laut Embodied AI eine Zuverlässigkeit von 98 Prozent, verlangt waren 90 Prozent. Die CE-Kennzeichnung ist für 2027 geplant.",
+     "Embodied AI ist eine Ausgründung der ETH Lausanne (EPFL) mit Sitz in Lausanne und Büro in Rom. Vom Forschungsprojekt zum Industrieroboter vergingen nach Unternehmensangaben neun Monate. Firmenchef Francesco Stella betont, Sicherheit und Zuverlässigkeit seien unverzichtbar, damit KI-Roboter in großem Maßstab in die reale Welt kommen."
+    ]
+   },
+   "bg": {
+    "t": "Без защитна клетка: швейцарският Embodied AI показа фабричния хуманоид AIR",
+    "d": "Роботът се движи на колела, а леките му ръце поддават при допир. Новите движения учи, докато първоначално хора го управляват дистанционно – след около месец трябва да ги изпълнява сам.",
+    "body": [
+     "Швейцарският стартъп Embodied AI представи в петък на специализираното изложение Humanoid Europe 2026 в Мюнхен своя робот AIR. Хуманоидният робот е предназначен за фабрики, в които хора и машини работят един до друг без защитна клетка. Вместо на крака той се движи на колела, тъй като подовете във фабриките са равни, а колелата са по-стабилни. Двигателите, редукторите и електрониката са в торса; леките ръце, задвижвани чрез сухожилия, поддават при контакт.",
+     "Всяка нова задача започва под управлението на човек. ИИ се учи от тези записани демонстрации; според компанията обикновено отнема около месец, докато AIR започне да изпълнява задачата самостоятелно. В тест на голям производител на електроника за работа с кабели роботът постигнал надеждност от 98%, при изискване от 90%, твърди Embodied AI. Маркировката CE е планирана за 2027 г.",
+     "Embodied AI е отделена от Федералния технически университет в Лозана (EPFL) компания със седалище в Лозана и офис в Рим. Според нея от изследователския проект до индустриалния робот са минали девет месеца. Главният изпълнителен директор Франческо Стела подчертава, че безопасността и надеждността са задължителни, за да навлязат ИИ роботите в реалния свят в голям мащаб."
+    ]
+   },
+   "en": {
+    "t": "No safety cage needed: Swiss start-up Embodied AI shows factory humanoid AIR",
+    "d": "The robot moves on wheels and its lightweight arms yield on contact. It learns new tasks while people first operate it remotely – and is meant to perform them alone after about a month.",
+    "body": [
+     "Swiss start-up Embodied AI on Friday presented its AIR robot at the Humanoid Europe 2026 trade show in Munich. The humanoid is designed for factories where people and machines work side by side without a safety cage. It moves on wheels rather than legs, because factory floors are flat and wheels are more stable. Motors, gearboxes and electronics sit in the torso; the light, tendon-driven arms yield on contact.",
+     "Every new task starts under the control of a human operator. The AI learns from these recorded demonstrations; according to the company, it usually takes about a month before AIR performs a task on its own. In a cable-handling test run by a major electronics manufacturer, the robot achieved 98 percent reliability against a 90 percent target, Embodied AI says. CE marking is planned for 2027.",
+     "Embodied AI is a spin-out of the Swiss Federal Institute of Technology in Lausanne (EPFL) based in Lausanne with an office in Rome. The company says it took nine months to go from research to an industrial robot. Chief executive Francesco Stella said: \"Safety and reliability are non-negotiable requirements of physical AI to enter the real world at scale.\""
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-07/embodied-ai-air-humanoider-roboter-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Schweizer Start-up zeigt Fabrik-Humanoiden AIR",
+     "bg": "Заглавна графика: швейцарски стартъп показва фабричния хуманоид AIR",
+     "en": "Title graphic: Swiss start-up shows factory humanoid AIR"
+    }
+   },
+   "time": "12:29"
+  }
+ ]
+}
