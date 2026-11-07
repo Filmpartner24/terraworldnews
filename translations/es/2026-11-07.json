@@ -1294,6 +1294,32 @@
     "img.alt": "Imagen simbólica: torre de amarre de una línea de alta tensión en Mecklemburgo"
    }
   },
+  "eth-flexiquad-drohne-video": {
+   "L": {
+    "body": [
+     "Los cuadricópteros convencionales tienen una parte central rígida con cuatro brazos. Son ágiles, pero pueden estrellarse o romperse tras chocar con una pared o una rama. Por ello, investigadores de la ETH de Zúrich han desarrollado el FlexiQuad: su estructura es un anillo blando sin cuerpo central, con los rotores, las baterías y el módulo de control repartidos de forma uniforme sobre él. Un vídeo de la universidad presenta el dron.",
+     "Según la ETH, la estructura solo es rígida donde hay que transmitir fuerzas para el vuelo: lateralmente cede en un impacto y así absorbe parte de la energía, mientras que en vertical permanece rígida. «Nuestro dron es muy ágil y puede volar hasta a 80 km/h», dice el desarrollador Luca Girardi. Las colisiones se probaron a unos 25 km/h; para velocidades mayores faltaba espacio de carrera en el laboratorio. En el ensayo, el dron levantó una carga más pesada que él mismo y transportó un botiquín de primeros auxilios. El material de la estructura cuesta menos de 15 francos.",
+     "Girardi y Stefano Mintchev desarrollaron el dron en el Environmental Robotics Lab de la ETH; Mintchev da clases ahora en la Universidad de Bonn. Se ha solicitado una patente. Entre los posibles usos figuran la búsqueda en edificios derrumbados, mediciones en bosques densos y la inspección de tanques de lastre. Antes de que el dron salga del laboratorio, debe ser capaz de percibir su entorno con fiabilidad y navegar de forma autónoma. Tras un golpe, debería estabilizarse por sí mismo con un control entrenado mediante aprendizaje por refuerzo."
+    ],
+    "d": "El FlexiQuad de la ETH de Zúrich no tiene un fuselaje rígido, sino un anillo flexible. Se deforma con el impacto, sigue volando y, según la ETH, alcanza hasta 80 km/h.",
+    "t": "Dron que aguanta choques: vídeo de la ETH muestra un cuadricóptero blando en anillo"
+   },
+   "at": "2026-11-07T15:41Z",
+   "h": "73ee9a3172d0",
+   "rev": [
+    "Inconsistent gender of FlexiQuad: \"el FlexiQuad\" in the teaser and alt text but \"la FlexiQuad\" is not used; both are consistent with \"el dron\", so no change needed",
+    "\"Hay una patente solicitada\" is slightly unnatural; rephrased as \"Se ha solicitado una patente\"",
+    "\"Mintchev da clases ahora\" is slightly awkward; rephrased as \"Mintchev enseña ya en la Universidad de Bonn\"; the German \"inzwischen\" means \"by now\", so \"ahora\" is kept and only the wording is adjusted"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: cuadricóptero convencional con fuselaje rígido en vuelo; no es el FlexiQuad de la ETH de Zúrich"
+   }
+  },
   "europa-eppo-spanien-schnellfahrstrecke-madrid-sevilla-2026-11-07": {
    "L": {
     "body": [
@@ -2861,6 +2887,28 @@
    ],
    "x": {
     "img.alt": "Foto de archivo: el director Tim Burton"
+   }
+  },
+  "love-scamming-schwalm-eder-2026-11-07": {
+   "L": {
+    "body": [
+     "Un hombre de 62 años del distrito de Schwalm-Eder, en el norte de Hesse, ha sido víctima de una estafa amorosa y ha perdido decenas de miles de euros. Lo comunicó el Polizeipräsidium Nordhessen el jueves (5 de noviembre). Según los datos facilitados, hace unos dos años conoció en internet a una mujer que afirmaba vivir en el extranjero. Durante meses ella fue ganándose su confianza y construyó una supuesta relación amorosa.",
+     "Después llegaron las peticiones de dinero. Convencido de que ayudaba a la mujer y de que pronto la conocería en persona, el hombre fue transfiriendo dinero una y otra vez. Cuando empezó a desconfiar, acudió a la policía. Según la policía, el método es típico: los autores abordan a sus víctimas a través de portales de citas o redes sociales, se presentan con una identidad falsa y fotos falsificadas e inventan historias de vida para ganarse su confianza, antes de pedir dinero.",
+     "La policía aconseja: no transferir dinero a conocidos de internet ni comprar tarjetas de regalo, y recuperar los pagos si es posible. «¡Guardar todos los correos y chats!», así como los justificantes de transferencia, porque pueden servir como pruebas. Romper el contacto, no responder más a mensajes ni llamadas y, por seguridad, cambiar el número de teléfono y la dirección de correo. Y: «¡Presentar denuncia ante la policía!». Según la policía, esto ayudaría a perseguir a los autores y también sería importante en caso de que los bancos quieran reclamar a los afectados, por ejemplo, por cheques reenviados."
+    ],
+    "d": "Durante dos años, un hombre del distrito de Schwalm-Eder creyó en un amor por internet en el extranjero y siguió transfiriendo dinero. La policía advierte del método y aconseja: no pagar, guardar pruebas y denunciar.",
+    "t": "Estafa amorosa: un hombre de 62 años del norte de Hesse pierde decenas de miles de euros"
+   },
+   "at": "2026-11-07T15:41Z",
+   "h": "75495558fc1a",
+   "rev_dbg": [
+    2,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Coche patrulla de la policía de Hesse (Foto de archivo)",
+    "kl": "Amor y relaciones"
    }
   },
   "ls-fuellkrug-werder-stuttgart-serie-2026-11-07": {
