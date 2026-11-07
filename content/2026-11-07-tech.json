@@ -1,0 +1,385 @@
+{
+ "date": "2026-11-07",
+ "items": [
+  {
+   "id": "eth-flexiquad-drohne-video",
+   "s": "ki",
+   "hk": "forschung",
+   "time": "13:50",
+   "yt": {
+    "id": "Lvwp56_RPAI",
+    "ch": "ETH Zürich",
+    "kind": "video",
+    "t": {
+     "de": "FlexiQuad Drone",
+     "bg": "FlexiQuad Drone",
+     "en": "FlexiQuad Drone"
+    }
+   },
+   "src": [
+    {
+     "n": "ETH Zürich (YouTube) – FlexiQuad Drone (11/2026)",
+     "u": "https://www.youtube.com/watch?v=Lvwp56_RPAI"
+    },
+    {
+     "n": "ingenieur.de – 80 km/h schnell und doch butterweich: Diese Drohne überlebt den Crash (04.11.2026)",
+     "u": "https://www.ingenieur.de/80-km-h-schnell-und-doch-butterweich-diese-drohne-uberlebt-den-crash-a9edeadf-7631-4c3f-be28-eab1d5239399/"
+    },
+    {
+     "n": "Interesting Engineering – Collision-proof flexible drone flies at 49 mph without losing agility (04.11.2026)",
+     "u": "https://interestingengineering.com/innovation/soft-drone-bends-on-impact"
+    },
+    {
+     "n": "arXiv – Girardi, Maquignaz, Mintchev: Bioinspired Soft Quadrotors Jointly Unlock Agility, Squeezability, and Collision Resilience (Preprint 2511.05426)",
+     "u": "https://arxiv.org/abs/2511.05426"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-07/eth-flexiquad-drohne-video.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Project Kei",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Quadcopter_Drone_in_flight.jpg",
+    "alt": {
+     "de": "Symbolbild: herkömmlicher Quadrokopter mit starrem Rumpf im Flug – nicht die FlexiQuad der ETH Zürich",
+     "bg": "Символна снимка: обикновен квадрокоптер с твърд корпус в полет – не става дума за FlexiQuad на ETH Цюрих",
+     "en": "Symbolic image: a conventional quadcopter with a rigid body in flight – not ETH Zurich's FlexiQuad"
+    }
+   },
+   "de": {
+    "t": "Drohne, die Zusammenstöße wegsteckt: ETH-Video zeigt weichen Ring-Quadrokopter",
+    "d": "Die FlexiQuad der ETH Zürich hat keinen starren Rumpf, sondern einen nachgiebigen Ring. Sie verformt sich beim Aufprall, fliegt weiter und erreicht laut ETH bis zu 80 km/h.",
+    "body": [
+     "Herkömmliche Quadrokopter haben einen steifen Mittelteil mit vier Armen. Sie sind wendig, können aber nach einem Zusammenstoß mit einer Wand oder einem Ast abstürzen oder zerbrechen. Forschende der ETH Zürich haben deshalb die FlexiQuad entwickelt: Ihr Rahmen ist ein weicher Ring ohne Zentralkörper, Rotoren, Akkus und Steuermodul sind gleichmäßig darauf verteilt. Ein Video der Hochschule stellt die Drohne vor.",
+     "Der Rahmen ist laut ETH nur dort steif, wo Kräfte für den Flug übertragen werden müssen: Seitlich gibt er bei einem Aufprall nach und schluckt so einen Teil der Energie, vertikal bleibt er steif. „Unsere Drohne ist sehr agil und kann mit bis zu 80 km/h fliegen“, sagt Entwickler Luca Girardi. Kollisionen wurden bei rund 25 km/h getestet; für höhere Geschwindigkeiten fehlte im Labor der Anlauf. Im Versuch hob die Drohne eine Last, die schwerer war als sie selbst, und transportierte ein Erste-Hilfe-Set. Das Material für den Rahmen kostet weniger als 15 Franken.",
+     "Entwickelt haben Girardi und Stefano Mintchev die Drohne am Environmental Robotics Lab der ETH; Mintchev lehrt inzwischen an der Universität Bonn. Ein Patent ist angemeldet. Mögliche Einsätze sind die Suche in eingestürzten Gebäuden, Messungen in dichten Wäldern und die Inspektion von Ballasttanks. Bevor die Drohne das Labor verlässt, muss sie ihre Umgebung noch zuverlässig erfassen und autonom navigieren können. Nach einem Stoß soll sie sich mit einer per Reinforcement Learning trainierten Steuerung selbst stabilisieren."
+    ]
+   },
+   "bg": {
+    "t": "Дрон, който понася удари: видео на ETH показва мек квадрокоптер с форма на пръстен",
+    "d": "FlexiQuad на ETH Цюрих няма твърд корпус, а гъвкав пръстен. При удар се деформира, продължава да лети и според ETH достига до 80 км/ч.",
+    "body": [
+     "Обикновените квадрокоптери имат твърда централна част с четири рамена. Те са маневрени, но след сблъсък със стена или клон могат да паднат или да се счупят. Затова изследователи от ETH Цюрих разработиха FlexiQuad: рамката му е мек пръстен без централно тяло, а роторите, батериите и управляващият модул са разпределени равномерно по него. Видео на университета представя дрона.",
+     "Според ETH рамката е твърда само там, където трябва да се предават силите за полета: настрани тя поддава при удар и така поема част от енергията, а във вертикална посока остава твърда. „Нашият дрон е много маневрен и може да лети със скорост до 80 км/ч“, казва разработчикът Лука Джирарди. Сблъсъците са тествани при около 25 км/ч; за по-високи скорости в лабораторията не е имало достатъчно място за засилване. При опитите дронът е вдигнал товар, по-тежък от самия него, и е пренесъл комплект за първа помощ. Материалът за рамката струва по-малко от 15 швейцарски франка.",
+     "Джирарди и Стефано Минчев са разработили дрона в Лабораторията по екологична роботика на ETH; Минчев вече преподава в Университета в Бон. Подадена е заявка за патент. Възможни приложения са търсене в срутени сгради, измервания в гъсти гори и проверка на баластни танкове на кораби. Преди да излезе от лабораторията, дронът трябва да се научи надеждно да възприема средата си и да се ориентира автономно; след удар той трябва сам да се стабилизира с управление, обучено чрез Reinforcement Learning."
+    ]
+   },
+   "en": {
+    "t": "A drone that shrugs off crashes: ETH video shows soft ring-shaped quadcopter",
+    "d": "ETH Zurich's FlexiQuad has no rigid body, just a compliant ring. It deforms on impact, keeps flying and, according to ETH, reaches up to 80 km/h.",
+    "body": [
+     "Conventional quadcopters have a stiff central body with four arms. They are agile but can crash or break after hitting a wall or a branch. Researchers at ETH Zurich have therefore developed FlexiQuad: its frame is a soft ring with no central body, with rotors, batteries and the control module spread evenly around it. A video from the university presents the drone.",
+     "According to ETH, the frame is stiff only where flight forces have to be transmitted: sideways it gives way on impact and absorbs part of the energy, while it stays rigid vertically. \"Our drone is very agile and can fly at speeds of up to 80 km/h,\" says developer Luca Girardi. Collisions were tested at around 25 km/h; the lab lacked the run-up space for higher speeds. In tests the drone lifted a load heavier than itself and carried a first-aid kit. The frame materials cost less than 15 Swiss francs.",
+     "Girardi and Stefano Mintchev developed the drone at ETH's Environmental Robotics Lab; Mintchev now teaches at the University of Bonn. A patent has been filed. Possible uses include searching collapsed buildings, measurements in dense forests and inspecting ballast tanks. Before it leaves the lab, the drone still has to perceive its surroundings reliably and navigate autonomously; a control system trained with reinforcement learning is meant to stabilise it after an impact."
+    ]
+   }
+  },
+  {
+   "id": "tum-quantentechnologie-video",
+   "s": "ki",
+   "hk": "forschung",
+   "time": "13:50",
+   "yt": {
+    "id": "AgMhWEfL3nQ",
+    "ch": "TUMuenchen",
+    "kind": "video",
+    "t": {
+     "de": "close-up: Wie Quantentechnologien entstehen",
+     "bg": "close-up: Wie Quantentechnologien entstehen",
+     "en": "close-up: Wie Quantentechnologien entstehen"
+    }
+   },
+   "src": [
+    {
+     "n": "TUM (YouTube) – close-up: Wie Quantentechnologien entstehen (29.10.2026)",
+     "u": "https://www.youtube.com/watch?v=AgMhWEfL3nQ"
+    },
+    {
+     "n": "TUM School of Natural Sciences – Quantum science as the basis for new technologies (17.10.2025)",
+     "u": "https://www.nat.tum.de/en/nat/latest/article/quantum-science-as-the-basis-for-new-technologies/"
+    },
+    {
+     "n": "idw/TUM – TUM stärkt Spitzenforschung mit Zentrum für QuantumEngineering (19.10.2026)",
+     "u": "https://idw-online.de/de/news879360"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-07/tum-quantentechnologie-video.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Fkjs",
+    "lic": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Campus_Garching.jpg",
+    "alt": {
+     "de": "Archivbild: Hochschul- und Forschungszentrum Garching bei München, wo die TUM viele ihrer Quantenlabore betreibt",
+     "bg": "Архивна снимка: университетският и изследователски център Гархинг край Мюнхен, където TUM има много от своите квантови лаборатории",
+     "en": "Archive image: the Garching university and research campus near Munich, home to many of TUM's quantum labs"
+    }
+   },
+   "de": {
+    "t": "Wie Quantentechnik entsteht: TUM-Video führt durch Münchner Exzellenzcluster",
+    "d": "In der Reihe „close-up“ besucht eine Doktorandin der TU München den Exzellenzcluster MCQST. Das Video zeigt, wie aus Grundlagenforschung Quantensensoren und -simulatoren werden sollen.",
+    "body": [
+     "Die Technische Universität München (TUM) hat eine neue Folge ihrer Videoreihe „close-up“ veröffentlicht. Darin besucht die Doktorandin Nina das Munich Center for Quantum Science and Technology (MCQST). Der Exzellenzcluster erforscht die Grundlagen komplexer Quantensysteme – etwa die gezielte Kontrolle von Verschränkung – und will die Ergebnisse in Anwendungen überführen, von Quantensimulatoren und -sensoren bis zu neuen Quantenmaterialien.",
+     "Getragen wird der MCQST von der TUM und der Ludwig-Maximilians-Universität München, beteiligt sind unter anderem das Max-Planck-Institut für Quantenoptik, das Walther-Meißner-Institut der Bayerischen Akademie der Wissenschaften und das Deutsche Museum. Die Deutsche Forschungsgemeinschaft fördert den Cluster seit 2019 in der Exzellenzstrategie; in der zweiten Förderphase geht es um Grundlagen der Verschränkung für Datenverarbeitung, Kommunikation, Messtechnik und Sensorik.",
+     "Parallel baut die TUM ihre Quantenforschung aus: Im Oktober eröffnete sie am Campus Garching das Zentrum für QuantumEngineering mit rund 100 Forschenden. Der Freistaat Bayern förderte den Forschungsbau mit rund 35 Millionen Euro, der Bund mit rund 20 Millionen Euro."
+    ]
+   },
+   "bg": {
+    "t": "Как се ражда квантовата техника: видео на TUM води из мюнхенски клъстер",
+    "d": "В поредицата „close-up“ докторантка от Техническия университет в Мюнхен посещава клъстера за върхови постижения MCQST. Видеото показва как фундаменталната наука трябва да прерасне в квантови сензори и симулатори.",
+    "body": [
+     "Техническият университет в Мюнхен (TUM) публикува нов епизод от видеопоредицата си „close-up“. В него докторантката Нина посещава Мюнхенския център за квантова наука и технологии (MCQST). Клъстерът изследва основите на сложни квантови системи – например целенасочения контрол на квантовото сплитане – и иска да превърне резултатите в приложения: от квантови симулатори и сензори до нови квантови материали.",
+     "MCQST се води от TUM и Университета „Лудвиг Максимилиан“ в Мюнхен, а сред участниците са Институтът по квантова оптика „Макс Планк“, Институтът „Валтер Майснер“ към Баварската академия на науките и Немският музей. Германската изследователска общност финансира клъстера от 2019 г. в рамките на Стратегията за върхови постижения; втората фаза е посветена на основите на сплитането за обработка на данни, комуникации, метрология и сензорика.",
+     "Успоредно с това TUM разширява квантовите си изследвания: през октомври университетът откри в кампуса Гархинг Центъра за квантово инженерство с около 100 учени. Провинция Бавария е финансирала сградата с около 35 млн. евро, а федералното правителство – с около 20 млн. евро."
+    ]
+   },
+   "en": {
+    "t": "How quantum technology is made: TUM video tours a Munich cluster of excellence",
+    "d": "In its \"close-up\" series, a doctoral student from the Technical University of Munich visits the MCQST cluster. The video shows how basic research is meant to become quantum sensors and simulators.",
+    "body": [
+     "The Technical University of Munich (TUM) has released a new episode of its \"close-up\" video series. In it, doctoral student Nina visits the Munich Center for Quantum Science and Technology (MCQST). The cluster of excellence studies the fundamentals of complex quantum systems – such as the targeted control of entanglement – and aims to turn the results into applications, from quantum simulators and sensors to new quantum materials.",
+     "MCQST is run by TUM and Ludwig Maximilian University of Munich, with partners including the Max Planck Institute of Quantum Optics, the Walther Meissner Institute of the Bavarian Academy of Sciences and the Deutsches Museum. The German Research Foundation has funded the cluster since 2019 under the Excellence Strategy; the second funding phase focuses on the fundamentals of entanglement for data processing, communication, metrology and sensing.",
+     "TUM is also expanding its quantum research in parallel: in October it opened the Center for QuantumEngineering on the Garching campus, with around 100 researchers. The state of Bavaria funded the research building with around 35 million euros and the federal government with around 20 million euros."
+    ]
+   }
+  },
+  {
+   "id": "dlr-autonomes-fahren-video",
+   "s": "ki",
+   "time": "13:50",
+   "yt": {
+    "id": "G_ic7EcdIw0",
+    "ch": "DLR",
+    "kind": "video",
+    "t": {
+     "de": "ArtiFAKTEN - Autonomes Fahren: Sie reden miteinander!",
+     "bg": "ArtiFAKTEN - Autonomes Fahren: Sie reden miteinander!",
+     "en": "ArtiFAKTEN - Autonomes Fahren: Sie reden miteinander!"
+    }
+   },
+   "src": [
+    {
+     "n": "DLR (YouTube) – ArtiFAKTEN – Autonomes Fahren: Sie reden miteinander! (26.10.2026)",
+     "u": "https://www.youtube.com/watch?v=G_ic7EcdIw0"
+    },
+    {
+     "n": "DLRmagazin 179 – Startklar für die Straße, Interview mit Tobias Hesse (03/2026)",
+     "u": "https://www.dlr.de/de/medien/publikationen/magazine/alle-magazine-webversion/dlrmagazin-179/startklar-fuer-die-strasse"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-07/dlr-autonomes-fahren-video.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Matti Blume",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:IAA_2024,_Hanover_(P1200052).jpg",
+    "alt": {
+     "de": "Archivbild: autonomes Fahrzeugkonzept U-Shift des DLR auf der IAA Transportation 2024 in Hannover",
+     "bg": "Архивна снимка: концепцията за автономно превозно средство U-Shift на DLR на изложението IAA Transportation 2024 в Хановер",
+     "en": "Archive image: DLR's U-Shift autonomous vehicle concept at IAA Transportation 2024 in Hanover"
+    }
+   },
+   "de": {
+    "t": "Wenn Autos miteinander reden: DLR-Video erklärt die Stufen des autonomen Fahrens",
+    "d": "Assistiert, automatisiert oder autonom? Ein neues Erklärvideo des Deutschen Zentrums für Luft- und Raumfahrt zeigt, wie Sensoren und Software Fahrzeuge und Schiffe ohne Kollision lenken sollen.",
+    "body": [
+     "Ein Auto ohne Hände am Lenkrad, ein Frachter, der bei Nebel präzise an der Kaimauer anlegt: Im neuen Teil seiner Reihe „ArtiFAKTEN“ erklärt das Deutsche Zentrum für Luft- und Raumfahrt (DLR) den Unterschied zwischen assistiertem, automatisiertem und autonomem Fahren und was es mit den „Levels“ auf sich hat. Kernaussage: Nur ein vernetztes Team aus Sensoren und Software kann ein Fahrzeug sicher führen und einparken.",
+     "Das Video behandelt, wie ein Auto seine Umgebung erkennt, wie stark selbstfahrende Fahrzeuge vernetzt sind und welche Lösungen das DLR bereits erprobt. Das DLR-Institut für Verkehrssystemtechnik betrachtet dabei das ganze System: gemischten Verkehr aus manuell gesteuerten und automatisierten Fahrzeugen sowie Infrastruktur wie intelligente Ampeln, Kameras und Rechner in Leitstellen.",
+     "Wie weit die Technik ist, ordnete DLR-Experte Tobias Hesse im DLRmagazin ein: In den USA und China fahren Robotaxis bereits auf Level 4 von 5, deutsche Hersteller konzentrieren sich vor allem auf Level 2 und 3. Im Projekt IMoGer mit rund 35 Millionen Euro Bundesförderung soll ab 2027 eine kleine Flotte der DLR-Fahrzeuge U-Shift in einem Braunschweiger Stadtteil unterwegs sein."
+    ]
+   },
+   "bg": {
+    "t": "Когато колите си говорят: видео на DLR обяснява нивата на автономното шофиране",
+    "d": "Асистирано, автоматизирано или автономно? Ново обяснително видео на Германския аерокосмически център показва как сензори и софтуер трябва да водят автомобили и кораби без сблъсъци.",
+    "body": [
+     "Кола без ръце на волана, товарен кораб, който в мъгла акостира точно до кея: в новия епизод от поредицата си „ArtiFAKTEN“ Германският аерокосмически център (DLR) обяснява разликата между асистирано, автоматизирано и автономно шофиране и какво означават „нивата“. Основното послание: само свързан екип от сензори и софтуер може да управлява и паркира превозното средство безопасно.",
+     "Видеото разглежда как автомобилът разпознава средата си, доколко са свързани самоуправляващите се коли и какви решения DLR вече изпитва. Институтът по транспортни системи на DLR изследва цялата система: смесен трафик от управлявани от хора и автоматизирани превозни средства, както и инфраструктура като интелигентни светофари, камери и компютри в диспечерски центрове.",
+     "Докъде е стигнала технологията, експертът на DLR Тобиас Хесе обясни в списанието DLRmagazin: в САЩ и Китай роботаксита вече се движат на ниво 4 от 5, а германските производители се съсредоточават главно върху нива 2 и 3. В проекта IMoGer с около 35 млн. евро федерално финансиране от 2027 г. малък парк от превозните средства U-Shift на DLR трябва да се движи в един квартал на Брауншвайг."
+    ]
+   },
+   "en": {
+    "t": "When cars talk to each other: DLR video explains the levels of autonomous driving",
+    "d": "Assisted, automated or autonomous? A new explainer from the German Aerospace Center shows how sensors and software are meant to guide vehicles and ships without collisions.",
+    "body": [
+     "A car with no hands on the wheel, a freighter docking precisely at the quay in fog: in the new episode of its \"ArtiFAKTEN\" series, the German Aerospace Center (DLR) explains the difference between assisted, automated and autonomous driving and what the \"levels\" mean. The key message: only a connected team of sensors and software can steer and park a vehicle safely.",
+     "The video covers how a car perceives its surroundings, how connected self-driving vehicles are and which solutions DLR is already testing. DLR's Institute of Transportation Systems looks at the whole system: mixed traffic of human-driven and automated vehicles plus infrastructure such as smart traffic lights, cameras and control-centre computers.",
+     "DLR expert Tobias Hesse put the state of the technology in context in DLRmagazin: in the US and China, robotaxis already operate at level 4 of 5, while German manufacturers focus mainly on levels 2 and 3. In the IMoGer project, with around 35 million euros in federal funding, a small fleet of DLR's U-Shift vehicles is due to run in a Braunschweig district from 2027."
+    ]
+   }
+  },
+  {
+   "id": "mit-stoffschalung-betontraeger",
+   "s": "ki",
+   "hk": "forschung",
+   "mn": true,
+   "time": "13:50",
+   "src": [
+    {
+     "n": "MIT News – Fabric molds could bring material-saving concrete beams within reach (06.11.2026)",
+     "u": "https://news.mit.edu/2026/fabric-molds-could-bring-material-saving-concrete-beams-within-reach-1106"
+    },
+    {
+     "n": "Journal of Building Engineering – Hellrich, Carstensen et al.: Affordable construction of topology optimized reinforced concrete through fabric formwork (2026)",
+     "u": "https://www.sciencedirect.com/science/article/abs/pii/S2352710226022941"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-07/mit-stoffschalung-betontraeger.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "U.S. Navy",
+    "lic": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:U_S_Navy_Seabees_from_NMCB-5%E2%80%99s_Detail_Diego_Garcia_support_the_U_S_Air_Force_(6206973).jpg",
+    "alt": {
+     "de": "Symbolbild: Bewehrungsstahl in einer herkömmlichen Holzschalung für Beton",
+     "bg": "Символна снимка: арматура в обикновен дървен кофраж за бетон",
+     "en": "Symbolic image: steel reinforcement in a conventional timber formwork for concrete"
+    }
+   },
+   "de": {
+    "t": "Beton in Stoffformen: MIT-Träger braucht ein Drittel des Betons und halb so viel Stahl",
+    "d": "Ein MIT-Team hat einen drei Meter langen Stahlbetonträger in einer genähten Stoffform gegossen. Gegenüber einem üblichen Träger für dieselbe Last spart er viel Material.",
+    "body": [
+     "Rechnerisch optimierte Betonträger mit organischen Formen sparen Material, sind aber teuer, weil ihre Schalungen aufwendig gebaut werden müssen. Forschende des Massachusetts Institute of Technology (MIT) und der Boston University setzen deshalb auf genähte Stoffformen. Ihr drei Meter langer Stahlbetonträger kam mit etwa einem Drittel des Betons und der Hälfte des Bewehrungsstahls eines herkömmlichen Trägers für dieselbe Last aus. Die Studie erschien im Journal of Building Engineering.",
+     "Weil Stoff unter dem Gewicht des frischen Betons nachgibt, hat das Team diese Verformung in sein Rechenmodell eingebaut. Getestet wurden Formen aus 36, 56 und 76 Stoffteilen, die Variante mit 56 Teilen erwies sich als bester Kompromiss. Bei einem Belastungstest mit 36 wassergefüllten Eimern bis zu etwa 30 Prozent der Bemessungslast wich die gemessene Durchbiegung nur um rund 2 Prozent von der Vorhersage ab.",
+     "Hintergrund: Die Zementherstellung verursacht etwa 8 Prozent der vom Menschen verursachten CO₂-Emissionen. Nach Berechnungen des Teams wären die Stoff-Träger im Globalen Süden etwa 10 bis 20 Prozent billiger als konventionelle, im Globalen Norden wegen höherer Lohnkosten dagegen 16 bis 55 Prozent teurer."
+    ]
+   },
+   "bg": {
+    "t": "Бетон в текстилни форми: греда на MIT изисква една трета от бетона и наполовина стомана",
+    "d": "Екип на MIT изля триметрова стоманобетонна греда в ушита текстилна форма. В сравнение с обичайна греда за същия товар тя спестява много материал.",
+    "body": [
+     "Изчислително оптимизираните бетонни греди с органични форми пестят материал, но са скъпи, защото кофражът им се изработва трудно. Затова изследователи от Масачузетския технологичен институт (MIT) и Бостънския университет залагат на ушити текстилни форми. Тяхната триметрова стоманобетонна греда е използвала около една трета от бетона и половината от арматурата на обикновена греда за същия товар. Изследването е публикувано в Journal of Building Engineering.",
+     "Тъй като платът поддава под тежестта на пресния бетон, екипът е включил тази деформация в изчислителния си модел. Изпробвани са форми от 36, 56 и 76 парчета плат, като вариантът с 56 парчета се оказва най-добрият компромис. При изпитване на натоварване с 36 пълни с вода кофи до около 30% от проектния товар измереното провисване се е различавало от прогнозата само с около 2%.",
+     "За контекст: производството на цимент причинява около 8% от антропогенните емисии на CO₂. Според изчисленията на екипа текстилните греди биха били с около 10 до 20% по-евтини от конвенционалните в Глобалния юг, а в Глобалния север – с 16 до 55% по-скъпи заради по-високите разходи за труд."
+    ]
+   },
+   "en": {
+    "t": "Concrete cast in fabric: MIT beam uses a third of the concrete and half the steel",
+    "d": "An MIT team cast a three-metre reinforced concrete beam in a sewn fabric mould. Compared with a standard beam for the same load, it saves a lot of material.",
+    "body": [
+     "Computationally optimised concrete beams with organic shapes save material but are expensive because their formwork is hard to build. Researchers at the Massachusetts Institute of Technology (MIT) and Boston University are therefore turning to sewn fabric moulds. Their three-metre reinforced concrete beam used about one third of the concrete and half the steel reinforcement of a conventional beam designed for the same load. The study was published in the Journal of Building Engineering.",
+     "Because fabric gives way under the weight of fresh concrete, the team built this deformation into its computer model. Moulds made of 36, 56 and 76 fabric pieces were tested, with the 56-piece version offering the best balance. In a load test with 36 water-filled buckets up to about 30 percent of the design load, the measured deflection was within about 2 percent of the prediction.",
+     "Background: cement production causes about 8 percent of human-made CO₂ emissions. According to the team's calculations, the fabric-formed beams would be about 10 to 20 percent cheaper than conventional ones in the Global South, but 16 to 55 percent more expensive in the Global North because of higher labour costs."
+    ]
+   }
+  },
+  {
+   "id": "polimi-fluorid-ionen-akku",
+   "s": "ki",
+   "hk": "forschung",
+   "mn": true,
+   "time": "13:50",
+   "src": [
+    {
+     "n": "EurekAlert!/Politecnico di Milano – Lithium-free, non-flammable batteries lasting twice as long (06.11.2026)",
+     "u": "https://www.eurekalert.org/news-releases/1150799"
+    },
+    {
+     "n": "Energy Storage Materials – Toward room temperature fluoride-ion batteries: quaternary ammonium-bearing fluoride-exchange membrane as a quasi-solid polymer electrolyte (2026), DOI 10.1016/j.ensm.2026.105410",
+     "u": "https://doi.org/10.1016/j.ensm.2026.105410"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-07/polimi-fluorid-ionen-akku.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Luigi Brambilla",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Politecnico_di_MIlano.jpg",
+    "alt": {
+     "de": "Archivbild: Hauptgebäude des Politecnico di Milano an der Piazza Leonardo da Vinci",
+     "bg": "Архивна снимка: главната сграда на Politecnico di Milano на площад „Леонардо да Винчи“",
+     "en": "Archive image: main building of the Politecnico di Milano on Piazza Leonardo da Vinci"
+    }
+   },
+   "de": {
+    "t": "Akku ohne Lithium: Mailänder Membran lässt Fluorid-Ionen bei Raumtemperatur wandern",
+    "d": "Fluorid-Ionen-Akkus gelten als Alternative zu Lithium, brauchten aber bisher Hitze. Ein Team des Politecnico di Milano stellt eine nicht brennbare Gelmembran vor, die bei Raumtemperatur leitet.",
+    "body": [
+     "Fluorid-Ionen-Batterien kommen ohne Lithium aus und könnten theoretisch rund 600 Wattstunden pro Kilogramm speichern – herkömmliche Lithium-Ionen-Akkus liegen bei 150 bis 250. Bisher mussten solche Zellen aber auf etwa 100 bis 150 Grad erwärmt werden, damit die Ionen ausreichend wandern. Forschende des Politecnico di Milano berichten in der Fachzeitschrift Energy Storage Materials über eine quasi-feste, nicht brennbare Polymer-Gelmembran, die Fluorid-Ionen bei Raumtemperatur leitet.",
+     "Das Team um Maurizio Sansotera, Luca Magagnin und Giuseppina Raffaini nennt sie „Fluoride Exchange Membrane“ – in Anlehnung an die Protonenaustauschmembranen von Brennstoffzellen. „Die Technologie, die wir entwickeln, beruht auf einer nicht brennbaren Polymermembran, die das Brandrisiko verringert“, sagt Sansotera. Raffaini zufolge entfällt so die Energie zum Vorheizen der Batterie.",
+     "Magagnin zufolge könnte das in der Praxis etwa die doppelte Akkulaufzeit bedeuten, ein Elektroauto käme doppelt so weit. Das ist allerdings eine Abschätzung auf Basis der theoretischen Energiedichte, nicht das Messergebnis einer fertigen Zelle. Als Einsatzfelder nennt die Hochschule Speicher für erneuerbare Energien, Drohnen, Satelliten und Flugzeuge."
+    ]
+   },
+   "bg": {
+    "t": "Батерия без литий: миланска мембрана пренася флуоридни йони при стайна температура",
+    "d": "Флуоридно-йонните батерии са алтернатива на литиевите, но досега изискваха нагряване. Екип от Politecnico di Milano представя незапалима гел мембрана, която провежда при стайна температура.",
+    "body": [
+     "Флуоридно-йонните батерии не съдържат литий и теоретично биха могли да съхраняват около 600 ватчаса на килограм – при обикновените литиево-йонни батерии стойностите са 150 до 250. Досега обаче такива клетки трябваше да се нагряват до около 100–150 градуса, за да се движат йоните достатъчно добре. Изследователи от Politecnico di Milano съобщават в списание Energy Storage Materials за квазитвърда, незапалима полимерна гел мембрана, която провежда флуоридни йони при стайна температура.",
+     "Екипът на Маурицио Сансотера, Лука Маганин и Джузепина Рафаини я нарича „Fluoride Exchange Membrane“ – по аналогия с протонообменните мембрани в горивните клетки. „Технологията, която разработваме, се основава на незапалима полимерна мембрана, която намалява риска от пожар“, казва Сансотера. Според Рафаини така отпада енергията за предварително загряване на батерията.",
+     "Според Маганин на практика това би могло да означава около два пъти по-дълъг живот на батерията, а електромобил би изминал двойно повече километри. Това обаче е оценка въз основа на теоретичната енергийна плътност, а не измерен резултат от готова клетка. Като области на приложение университетът посочва съхранение на енергия от възобновяеми източници, дронове, сателити и самолети."
+    ]
+   },
+   "en": {
+    "t": "Battery without lithium: Milan membrane moves fluoride ions at room temperature",
+    "d": "Fluoride-ion batteries are seen as an alternative to lithium but have needed heat. A Politecnico di Milano team presents a non-flammable gel membrane that conducts at room temperature.",
+    "body": [
+     "Fluoride-ion batteries need no lithium and could theoretically store around 600 watt-hours per kilogram – conventional lithium-ion batteries reach 150 to 250. Until now, however, such cells had to be heated to about 100 to 150 degrees for the ions to move well enough. Researchers at the Politecnico di Milano report in the journal Energy Storage Materials on a quasi-solid, non-flammable polymer gel membrane that conducts fluoride ions at room temperature.",
+     "The team led by Maurizio Sansotera, Luca Magagnin and Giuseppina Raffaini calls it a \"Fluoride Exchange Membrane\", by analogy with the proton exchange membranes of fuel cells. \"The technology we are developing is based on the use of a non-flammable polymer membrane that reduces the risk of fire,\" says Sansotera. According to Raffaini, this removes the energy needed to preheat the battery.",
+     "According to Magagnin, in practice this could mean roughly twice the battery life, with an electric car travelling twice as far. That is, however, an estimate based on theoretical energy density, not a measured result from a finished cell. The university names renewable energy storage, drones, satellites and aircraft as possible applications."
+    ]
+   }
+  },
+  {
+   "id": "tsinghua-rotorblaetter-upcycling",
+   "s": "ki",
+   "hk": "forschung",
+   "mn": true,
+   "time": "13:50",
+   "src": [
+    {
+     "n": "EurekAlert!/Cell Press – Scientists give hard-to-recycle wind turbine blades a second life (06.11.2026)",
+     "u": "https://www.eurekalert.org/news-releases/1149670"
+    },
+    {
+     "n": "Chem Circularity – Bi, Deng et al.: Upcycling of waste wind turbine blades by electrothermal reduction toward circular resin composite applications (2026), DOI 10.1016/j.checir.2026.100201",
+     "u": "https://doi.org/10.1016/j.checir.2026.100201"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-07/tsinghua-rotorblaetter-upcycling.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Anne Petty",
+    "lic": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wind_turbine_blade_at_Marybank_-_geograph.org.uk_-_2228575.jpg",
+    "alt": {
+     "de": "Symbolbild: Transport eines Windkraft-Rotorblatts durch Marybank in Schottland",
+     "bg": "Символна снимка: транспорт на перка на вятърна турбина през Мерибанк, Шотландия",
+     "en": "Symbolic image: a wind turbine blade being transported through Marybank, Scotland"
+    }
+   },
+   "de": {
+    "t": "Aus alten Rotorblättern wird Graphen: Blitzerhitzung macht Windkraftabfall wertvoll",
+    "d": "Rotorblätter von Windrädern gelten als kaum recycelbar. Ein Team der Tsinghua-Universität erhitzt den Abfall in Sekunden auf rund 2000 Grad und gewinnt Siliziumkarbid und Graphen.",
+    "body": [
+     "Windräder laufen etwa 20 Jahre, danach bleiben riesige Rotorblätter aus Glasfaser und Kunstharz zurück, die vielfach auf Deponien landen. Forschende der Tsinghua-Universität in Peking stellen in der Fachzeitschrift Chem Circularity (Cell Press) ein Verfahren vor, das daraus Wertstoffe macht: Sie erhitzen den zerkleinerten Abfall per Stromstoß („Flash Joule Heating“) innerhalb von Sekunden auf rund 2000 Grad. Dabei entstehen Siliziumkarbid und Graphen.",
+     "Das gewonnene Material verbessert Kunstharze: Schon 0,3 Gewichtsprozent steigerten die Verformungsbeständigkeit unter Zug um 27 Prozent und unter Biegung um 9 Prozent, 0,1 Gewichtsprozent erhöhten die Temperaturleitfähigkeit um 41 Prozent. „Das ist mehr als Recycling. Es ist Upcycling“, sagt Seniorautor Bing Deng.",
+     "Nach Berechnungen des Teams verursacht das Verfahren 83 Prozent weniger Treibhausgase als Pyrolyse und 92 Prozent weniger als chemisches Auflösen. Statt Kosten von etwa 460 Dollar (Pyrolyse) bzw. 1800 Dollar (chemische Auflösung) pro Tonne könnte es laut Erstautor Hao Bi einen Gewinn von rund 80 Dollar pro Tonne bringen."
+    ]
+   },
+   "bg": {
+    "t": "Старите перки на вятърни турбини стават графен: светкавично нагряване прави отпадъка ценен",
+    "d": "Перките на вятърните турбини се смятат за почти невъзможни за рециклиране. Екип от университета Цинхуа нагрява отпадъка за секунди до около 2000 градуса и получава силициев карбид и графен.",
+    "body": [
+     "Вятърните турбини работят около 20 години, след което остават огромни перки от стъклени влакна и смола, много от които се озовават на сметища. Изследователи от университета Цинхуа в Пекин представят в списание Chem Circularity (Cell Press) метод, който ги превръща в ценни суровини: те нагряват раздробения отпадък с токов импулс („Flash Joule Heating“) за секунди до около 2000 градуса. Така се получават силициев карбид и графен.",
+     "Полученият материал подобрява смолите: само 0,3 тегловни процента повишават устойчивостта на деформация при опън с 27% и при огъване с 9%, а 0,1 тегловни процента увеличават температуропроводимостта с 41%. „Това е повече от рециклиране. Това е ъпсайклинг“, казва старшият автор Бин Дън.",
+     "Според изчисленията на екипа методът води до 83% по-малко парникови газове от пиролизата и 92% по-малко от химичното разтваряне. Вместо разходи от около 460 долара (пиролиза) или 1800 долара (химично разтваряне) на тон той би могъл да носи печалба от около 80 долара на тон, казва водещият автор Хао Би."
+    ]
+   },
+   "en": {
+    "t": "Old turbine blades become graphene: flash heating turns wind power waste into value",
+    "d": "Wind turbine blades are considered almost impossible to recycle. A Tsinghua University team heats the waste to around 2,000 degrees in seconds, recovering silicon carbide and graphene.",
+    "body": [
+     "Wind turbines run for about 20 years, leaving behind huge blades made of fibreglass and resin many of which end up in landfills. Researchers at Tsinghua University in Beijing present a process in the journal Chem Circularity (Cell Press) that turns them into valuable materials: they use an electrical pulse (\"flash Joule heating\") to heat the shredded waste to around 2,000 degrees within seconds. This produces silicon carbide and graphene.",
+     "The recovered material improves resins: just 0.3 percent by weight increased resistance to deformation by 27 percent under tension and 9 percent under bending, while 0.1 percent by weight raised thermal diffusivity by 41 percent. \"This is more than recycling. It's upcycling,\" says senior author Bing Deng.",
+     "According to the team's calculations, the process produces 83 percent less greenhouse gas than pyrolysis and 92 percent less than chemical dissolution. Instead of costs of around 460 dollars (pyrolysis) or 1,800 dollars (chemical dissolution) per tonne, it could turn a profit of about 80 dollars per tonne, says lead author Hao Bi."
+    ]
+   }
+  }
+ ]
+}
