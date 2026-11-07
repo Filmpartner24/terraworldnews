@@ -11,7 +11,7 @@
   "de": "ONE Championship",
   "en": "ONE Championship"
  },
- "asof": "2026-11-06",
+ "asof": "2026-11-07",
  "champions": [
   {
    "div": {
@@ -66,12 +66,7 @@
    },
    "limit": "bis 83,9 kg (185 lb)",
    "name": "Christian Lee",
-   "country": "Singapur/USA",
-   "note": {
-    "bg": "Шампион и в лека категория",
-    "de": "auch Leichtgewichts-Champion",
-    "en": "Also lightweight champion"
-   }
+   "country": "Singapur/USA"
   },
   {
    "div": {
@@ -80,8 +75,13 @@
     "en": "Lightweight"
    },
    "limit": "bis 77,1 kg (170 lb)",
-   "name": "Christian Lee",
-   "country": "Singapur/USA"
+   "name": "Tye Ruotolo",
+   "country": "USA",
+   "note": {
+    "bg": "Спечели титлата на 06.11.2026 срещу Крисчън Лий; шампион и в събмишън граплинга (полусредна)",
+    "de": "gewann den Titel am 06.11.2026 gegen Christian Lee; zugleich Submission-Grappling-Champion (Weltergewicht)",
+    "en": "Won the title on 6 Nov 2026 against Christian Lee; also welterweight submission grappling champion"
+   }
   },
   {
    "div": {
@@ -141,40 +141,6 @@
  ],
  "upcoming": [
   {
-   "date": "2026-11-06",
-   "place": "Lumpinee Stadium, Bangkok, Thailand",
-   "f1": "Christian Lee",
-   "f2": "Tye Ruotolo",
-   "div": {
-    "bg": "Лека категория",
-    "de": "Leichtgewicht",
-    "en": "Lightweight"
-   },
-   "title": {
-    "bg": "The Inner Circle 37 – мач за световната титла",
-    "de": "The Inner Circle 37 – WM-Titelkampf",
-    "en": "The Inner Circle 37 – world title fight"
-   },
-   "note": "Lee verteidigt den ONE-Leichtgewichts-MMA-Titel; Ruotolo bestreitet erst seinen dritten MMA-Kampf."
-  },
-  {
-   "date": "2026-11-06",
-   "place": "Lumpinee Stadium, Bangkok, Thailand",
-   "f1": "Lucas Gabriel",
-   "f2": "Magomed Magomedov",
-   "div": {
-    "bg": "Лека категория",
-    "de": "Leichtgewicht",
-    "en": "Lightweight"
-   },
-   "title": {
-    "bg": "ONE Fight Night 49 – главен двубой",
-    "de": "ONE Fight Night 49 – Hauptkampf",
-    "en": "ONE Fight Night 49 – Main event"
-   },
-   "note": "ersetzt den verletzten Alibeg Rasulov (laut ONE, 23.10.2026)"
-  },
-  {
    "date": "2026-11-18",
    "place": "EBARA WAVE Arena Ota, Tokio, Japan",
    "f1": "Joshua Pacio",
@@ -210,6 +176,27 @@
  ],
  "results": [
   {
+   "date": "2026-11-06",
+   "place": "Lumpinee Stadium, Bangkok, Thailand",
+   "f1": "Tye Ruotolo",
+   "f2": "Christian Lee",
+   "res": {
+    "bg": "Събмишън (задушаване отзад), 1-ви рунд (2:08)",
+    "de": "Submission (Rear-Naked Choke), 1. Runde (2:08)",
+    "en": "Submission (rear-naked choke), round 1 (2:08)"
+   },
+   "div": {
+    "bg": "Лека категория",
+    "de": "Leichtgewicht",
+    "en": "Lightweight"
+   },
+   "title": {
+    "bg": "The Inner Circle 37 – мач за световната титла (смяна на шампиона)",
+    "de": "The Inner Circle 37 – WM-Titelkampf (Titelwechsel)",
+    "en": "The Inner Circle 37 – world title fight (new champion)"
+   }
+  },
+  {
    "date": "2026-10-02",
    "place": "Lumpinee Stadium, Bangkok, Thailand",
    "f1": "Shamil Erdogan",
@@ -228,27 +215,6 @@
     "bg": "ONE Fight Night 48 – главен мач (елиминатор за вакантната титла)",
     "de": "ONE Fight Night 48 – Hauptkampf (Ausscheidungskampf um den vakanten Titel)",
     "en": "ONE Fight Night 48 – main event (eliminator for the vacant title)"
-   }
-  },
-  {
-   "date": "2026-07-31",
-   "place": "Lumpinee Stadium, Bangkok, Thailand",
-   "f1": "Elbek Alyshov",
-   "f2": "Enkh-Orgil Baatarkhuu",
-   "res": {
-    "bg": "TKO, 2-ри рунд (2:52)",
-    "de": "TKO, 2. Runde (2:52)",
-    "en": "TKO, round 2 (2:52)"
-   },
-   "div": {
-    "bg": "Петел категория",
-    "de": "Bantamgewicht",
-    "en": "Bantamweight"
-   },
-   "title": {
-    "bg": "The Inner Circle 24 – мач за световната титла (нов шампион)",
-    "de": "The Inner Circle 24 – WM-Titelkampf (neuer Champion)",
-    "en": "The Inner Circle 24 – world title fight (new champion)"
    }
   }
  ],
@@ -304,6 +270,10 @@
   {
    "n": "ONE Championship – Jarred Brooks returns against Tatsumitsu Wada (ONE SAMURAI 5), 21.10.2026",
    "u": "https://www.onefc.com/news/jarred-brooks-returns-against-tatsumitsu-wada-heavyweight-mma-slugfest-added-to-one-samurai-5/"
+  },
+  {
+   "n": "ONE Championship – The Inner Circle 37 Main Event Result: Tye Ruotolo Dethrones Christian Lee (06.11.2026)",
+   "u": "https://www.onefc.com/news/the-inner-circle-37-main-event-result-tye-ruotolo-dethrones-christian-lee-in-round-one-crowned-two-sport-king/"
   }
  ]
 }
