@@ -1013,7 +1013,10 @@
    "time": "17:00",
    "t1": "Septemvri Sofia",
    "t2": "Lokomotiv Sofia",
-   "ft": null
+   "ft": [
+    1,
+    0
+   ]
   },
   {
    "r": 13,
@@ -1021,7 +1024,10 @@
    "time": "19:15",
    "t1": "Botev Plovdiv",
    "t2": "Dunav Ruse",
-   "ft": null
+   "ft": [
+    1,
+    1
+   ]
   },
   {
    "r": 13,
@@ -1786,6 +1792,14 @@
   {
    "n": "Sportal.bg – Дунав – ЦСКА отложен за 01.12.2026",
    "u": "https://sportal.bg/news-2026110315364868313"
+  },
+  {
+   "n": "БТА – Септември – Локомотив София 1:0 (06.11.2026)",
+   "u": "https://www.bta.bg/bg/news/sport/1241834-septemvri-postigna-pobeda-sreshtu-lokomotiv-sofiya-v-parva-liga"
+  },
+  {
+   "n": "БТА – Ботев Пловдив – Дунав 1:1 (06.11.2026)",
+   "u": "https://www.bta.bg/bg/news/sport/1241889-botev-plovdiv-i-dunav-ruse-ne-izlachiha-pobeditel"
   }
  ]
 }
