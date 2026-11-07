@@ -32,6 +32,40 @@
     "img.alt": "Gráfico: cifras anuales de Asos"
    }
   },
+  "ausfallschritt-richtig-ausfuehren-2026-11-07": {
+   "L": {
+    "body": [
+     "La zancada es, igual que la sentadilla, uno de los ejercicios básicos para las piernas. Según la Mayo Clinic, trabaja sobre todo la musculatura delantera y trasera del muslo y el glúteo, y en menor medida las pantorrillas; la organización estadounidense American Council on Exercise (ACE) menciona además los abdominales. No se necesita ningún aparato. Como el movimiento se parece a las zancadas de deportes como el tenis, el baloncesto o el fútbol, según la Mayo Clinic también sirve como preparación para ellos. El ACE clasifica el ejercicio como de dificultad media y recomienda practicar antes el equilibrio seguro sobre una pierna.",
+     "Así se hace según las instrucciones del ACE: de pie y erguido con los pies juntos, llevar los omóplatos hacia atrás y abajo, tensar el tronco y no arquear la zona lumbar. Después dar un paso adelante, apoyando primero el talón y trasladando el peso al pie delantero. Bajar la cadera en vertical hacia el suelo, en lugar de empujarla hacia delante, hasta que el muslo delantero quede aproximadamente horizontal; la Mayo Clinic describe un ángulo de unos 90 grados en la rodilla delantera. Quien no llegue tan abajo, solo baja hasta donde le resulte cómodo. A continuación, empujar con fuerza con la pierna delantera para volver a la posición de pie. Como variante, en la zancada caminando se da directamente el siguiente paso con la otra pierna.",
+     "Según las instrucciones del ACE y la Mayo Clinic, los errores típicos son: empujar la cadera hacia delante en lugar de bajarla, una rodilla que se hunde hacia dentro o se desvía hacia fuera, un torso que se balancea hacia los lados, un pie de apoyo que se desliza y una zona lumbar redondeada o muy arqueada. La Mayo Clinic aconseja no adelantar la rodilla delantera más allá de la punta de los pies; el ACE describe una espinilla ligeramente inclinada hacia delante; ambos coinciden en un descenso tranquilo y controlado. Cuántas repeticiones son adecuadas depende del nivel de entrenamiento: hay que parar cuando los músculos se cansan o la ejecución se vuelve descuidada. Quien tenga dolor de rodilla o de cadera debería consultarlo antes con un médico o un fisioterapeuta."
+    ],
+    "d": "La zancada fortalece muslos, glúteos y tronco y no requiere aparatos. En qué fijarse al ejecutarla, cómo adaptarla y qué errores son frecuentes.",
+    "facts": [
+     "Trabaja: parte delantera y trasera del muslo, glúteos, tronco",
+     "Bajar la cadera en vertical, no empujarla hacia delante",
+     "Rodilla delantera a unos 90 grados, en línea con el pie",
+     "Parar en cuanto la ejecución se vuelva descuidada"
+    ],
+    "t": "Cómo hacer bien la zancada: técnica y errores más habituales"
+   },
+   "at": "2026-11-07T14:25Z",
+   "h": "3f394becbc3e",
+   "rev": [
+    "Teaser: 'Qué importa en la ejecución' es poco natural",
+    "'Kräftigt ... Rumpf' traducido como 'core' en la entradilla; mejor 'tronco' para ser coherente con el cuerpo del texto",
+    "'Aufrecht stehen' etc. correcto; 'Schienbein' correcto",
+    "'Kräftig drücken' traducido como 'empujar con fuerza con la pierna delantera' es redundante, sin cambio de sentido grave"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Un soldado de la Fuerza Aérea de EE. UU. hace una zancada en un gimnasio (Imagen simbólica)",
+    "kl": "Entrenamiento de fuerza y masa muscular"
+   }
+  },
   "autismus-diagnosen-erwachsene-bmj-2026-11-07": {
    "L": {
     "body": [
@@ -984,6 +1018,31 @@
    ],
    "x": {
     "img.alt": "Imagen simbólica: cajetilla de cigarrillos con la advertencia «Fumar puede matar»"
+   }
+  },
+  "dlr-autonomes-fahren-video": {
+   "L": {
+    "body": [
+     "Un coche sin manos en el volante, un carguero que atraca con precisión en el muelle con niebla: en la nueva entrega de su serie «ArtiFAKTEN», el Centro Aeroespacial Alemán (DLR) explica la diferencia entre conducción asistida, automatizada y autónoma y qué significan los «niveles». Mensaje central: solo un equipo conectado de sensores y software puede conducir y aparcar un vehículo con seguridad.",
+     "El vídeo aborda cómo un coche reconoce su entorno, hasta qué punto están conectados los vehículos autónomos y qué soluciones ha probado ya el DLR. El Instituto de Tecnología de Sistemas de Transporte del DLR examina el sistema en su conjunto: tráfico mixto de vehículos conducidos manualmente y automatizados, así como infraestructura como semáforos inteligentes, cámaras y ordenadores en centros de control.",
+     "Hasta dónde ha llegado la tecnología lo valoró el experto del DLR Tobias Hesse en el DLRmagazin: en Estados Unidos y China los robotaxis ya circulan en el nivel 4 de 5, mientras que los fabricantes alemanes se concentran sobre todo en los niveles 2 y 3. En el proyecto IMoGer, con unos 35 millones de euros de financiación federal, está previsto que una pequeña flota de vehículos U-Shift del DLR circule a partir de 2027 en un barrio de Braunschweig."
+    ],
+    "d": "¿Asistida, automatizada o autónoma? Un nuevo vídeo explicativo del Centro Aeroespacial Alemán muestra cómo sensores y software deben guiar vehículos y barcos sin colisiones.",
+    "t": "Cuando los coches hablan entre sí: un vídeo del DLR explica los niveles de conducción"
+   },
+   "at": "2026-11-07T14:25Z",
+   "h": "a14f0b43635b",
+   "rev": [
+    "Title exceeds 90 characters (about 94).",
+    "Last sentence: German 'soll ... unterwegs sein' (planned) was rendered as a plain future fact; the hedge was lost."
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: concepto de vehículo autónomo U-Shift del DLR en la IAA Transportation 2024 en Hannover"
    }
   },
   "el-zvezda-olympiacos-vezenkov-partizan-2026-11-07": {
@@ -2636,6 +2695,32 @@
     "img.alt": "Imagen simbólica: reloj Louis Vuitton de la línea Tambour (modelo anterior)"
    }
   },
+  "mainz-fischer-bayern-2026-11-07": {
+   "L": {
+    "body": [
+     "El 1. FSV Mainz 05 afronta como claro outsider, el partido en casa contra el FC Bayern del sábado a las 15:30. El conjunto de la Hesse renana ha perdido tres partidos oficiales en una semana, entre ellos el de Copa contra el VfL Bochum, y ha caído al noveno puesto. Tras ocho jornadas, el Bayern lidera la clasificación con 18 puntos, igualado con el Borussia Dortmund.",
+     "El entrenador Urs Fischer pidió volver a los puntos fuertes de antes, como la disposición para correr, la fuerza en los duelos y la intensidad. «Es importante reconocer la tendencia. Hay que romperla», dijo el suizo de 60 años. «No se trata del Bayern, sino de que nosotros volvamos a encontrar el camino». Calificó al rival como «el mejor equipo de toda Alemania».",
+     "Según el club, el Mainz no podrá contar con los sancionados Stefan Posch y Phillipp Mwene ni con los lesionados Silas y Dominik Kohr. Fischer no aclaró quién cubrirá los huecos en la defensa. Sobre Nadiem Amiri, que no fue convocado para la selección, dijo: «Espero que se haya sentido decepcionado. Ahora toca dar un paso al frente con su rendimiento en el campo»."
+    ],
+    "d": "Tras tres derrotas en una semana, el Mainz 05 recibe hoy a las 15:30 al líder, el FC Bayern. El entrenador Urs Fischer apuesta por correr, los duelos y la intensidad.",
+    "t": "Mainz ante el Bayern: Fischer quiere «romper la tendencia negativa»"
+   },
+   "at": "2026-11-07T14:25Z",
+   "h": "942e53867daf",
+   "rev": [
+    "Untranslated German words 'Außenseiter' and 'Rheinhessen' left in the draft (the former with an awkward gloss)",
+    "Headline said 'Mainz ante el Bayern' and omitted the match context; acceptable, left as is",
+    "'Tabellenführer' in the teaser is fine; 'Tendenz' in the quote is acceptable"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Opel-Arena (hoy Mewa Arena) en Mainz"
+   }
+  },
   "malignaggi-canelo-mbilli-urteil": {
    "L": {
     "body": [
@@ -3002,6 +3087,31 @@
     "img.alt": "El Albuquerque Convention Center (imagen simbólica)"
    }
   },
+  "polimi-fluorid-ionen-akku": {
+   "L": {
+    "body": [
+     "Las baterías de iones de fluoruro prescinden del litio y, en teoría, podrían almacenar unos 600 vatios hora por kilogramo; las baterías convencionales de iones de litio se sitúan entre 150 y 250. Hasta ahora, sin embargo, estas celdas debían calentarse a entre 100 y 150 grados para que los iones se desplazaran lo suficiente. Investigadores del Politecnico di Milano informan en la revista especializada Energy Storage Materials de una membrana de gel polimérico casi sólida y no inflamable, que conduce iones de fluoruro a temperatura ambiente.",
+     "El equipo de Maurizio Sansotera, Luca Magagnin y Giuseppina Raffaini la llama «Fluoride Exchange Membrane», en alusión a las membranas de intercambio de protones de las pilas de combustible. «La tecnología que estamos desarrollando se basa en una membrana polimérica no inflamable que reduce el riesgo de incendio», afirma Sansotera. Según Raffaini, así se elimina la energía necesaria para precalentar la batería.",
+     "Según Magagnin, en la práctica esto podría significar aproximadamente el doble de autonomía de la batería, y un coche eléctrico llegaría el doble de lejos. Se trata, no obstante, de una estimación basada en la densidad energética teórica, no del resultado de medición de una celda terminada. Como campos de aplicación, la universidad menciona el almacenamiento de energías renovables, drones, satélites y aviones."
+    ],
+    "d": "Las baterías de iones de fluoruro se consideran una alternativa al litio, pero requerían calor. Un equipo del Politecnico di Milano presenta una membrana de gel no inflamable que conduce a temperatura ambiente.",
+    "t": "Batería sin litio: una membrana de Milán mueve iones de fluoruro a temperatura ambiente"
+   },
+   "at": "2026-11-07T14:25Z",
+   "h": "140d24579e8b",
+   "rev": [
+    "Palabras desordenadas y agramaticales: \"e inflamable no\" invierte el sentido del original (\"nicht brennbare\" = no inflamable)",
+    "\"requerían calor\" en el teaser: se mantiene el sentido, sin cambios necesarios"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: edificio principal del Politecnico di Milano en la Piazza Leonardo da Vinci"
+   }
+  },
   "ratchet-clank-ranger-rumble-aus": {
    "L": {
     "body": [
@@ -3310,6 +3420,27 @@
    "x": {
     "img.alt": "Pista de aterrizaje del transbordador en el Centro Espacial Kennedy (Foto de archivo)",
     "kl": "Astronáutica"
+   }
+  },
+  "tum-quantentechnologie-video": {
+   "L": {
+    "body": [
+     "La Universidad Técnica de Múnich (TUM) ha publicado un nuevo episodio de su serie de vídeos «close-up». En él, la doctoranda Nina visita el Munich Center for Quantum Science and Technology (MCQST). El clúster de excelencia investiga los fundamentos de los sistemas cuánticos complejos –por ejemplo, el control específico del entrelazamiento– y quiere trasladar los resultados a aplicaciones, desde simuladores y sensores cuánticos hasta nuevos materiales cuánticos.",
+     "El MCQST está respaldado por la TUM y la Universidad Ludwig-Maximilians de Múnich; entre los participantes figuran el Instituto Max Planck de Óptica Cuántica, el Instituto Walther-Meißner de la Academia de Ciencias de Baviera y el Deutsches Museum. La Fundación Alemana para la Investigación (DFG) financia el clúster desde 2019 dentro de la Estrategia de Excelencia; en la segunda fase de financiación se trabaja en los fundamentos del entrelazamiento para el procesamiento de datos, la comunicación, la técnica de medición y la sensórica.",
+     "Paralelamente, la TUM amplía su investigación cuántica: en octubre inauguró en el campus de Garching el Centro de Ingeniería Cuántica (QuantumEngineering), con unos 100 investigadores. El Estado Libre de Baviera financió el edificio de investigación con unos 35 millones de euros y el Gobierno federal con unos 20 millones de euros."
+    ],
+    "d": "En la serie «close-up», una doctoranda de la TU de Múnich visita el clúster de excelencia MCQST. El vídeo muestra cómo la investigación básica debe convertirse en sensores y simuladores cuánticos.",
+    "t": "Cómo nace la tecnología cuántica: vídeo de la TUM recorre un clúster muniqués"
+   },
+   "at": "2026-11-07T14:25Z",
+   "h": "f08812993a0d",
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: centro universitario y de investigación de Garching, cerca de Múnich, donde la TUM tiene muchos de sus laboratorios cuánticos"
    }
   },
   "ufc-vegas-124-wiegen-cortes-acosta-walker": {

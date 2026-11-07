@@ -22,6 +22,42 @@
     "img.alt": "Grafik: Asos'un yıllık rakamları"
    }
   },
+  "ausfallschritt-richtig-ausfuehren-2026-11-07": {
+   "L": {
+    "body": [
+     "Hamle hareketi, squat gibi bacaklar için temel egzersizlerden biridir. Mayo Clinic'e göre özellikle uyluğun ön ve arka kaslarını ile kalça kasını, daha az ölçüde de alt bacak kaslarını çalıştırır; ABD'li spor kuruluşu American Council on Exercise (ACE) ise buna karın kaslarını da ekliyor. Herhangi bir alet gerekmez. Hareket tenis, basketbol veya futbol gibi spor dallarındaki hamle adımlarına benzediği için, Mayo Clinic'e göre bu sporlara hazırlık olarak da uygundur. ACE egzersizi orta zorlukta olarak sınıflandırıyor ve öncesinde tek ayak üzerinde güvenli dengenin çalışılmasını öneriyor.",
+     "ACE'nin tarifine göre uygulama şöyle: Ayaklar bitişik, dik durun, kürek kemiklerini geriye ve aşağıya çekin, gövdeyi sıkın ve belinizi çukurlaştırmayın. Ardından ileri doğru bir adım atın, önce topukla basın ve ağırlığı öndeki ayağa aktarın. Kalçayı öne itmek yerine dikey olarak yere doğru indirin; öndeki uyluk yaklaşık yatay olana kadar. Mayo Clinic ön dizide yaklaşık 90 derecelik bir açıyı tarif ediyor. Bu kadar aşağı inemeyenler, yalnızca rahat ettikleri yere kadar insin. Ardından öndeki bacakla güçlü biçimde itip ayağa kalkın. Bir varyant olan yürüyen hamlede ise doğrudan diğer bacakla bir sonraki adım atılır.",
+     "ACE ve Mayo Clinic'in tariflerine göre tipik hatalar şunlardır: kalçayı indirmek yerine öne itmek, içe çöken veya dışa kayan bir diz, yana sallanan üst gövde, kayan bir duruş ayağı ve yuvarlak veya aşırı kavisli bir bel. Mayo Clinic öndeki dizin ayak parmak uçlarının ötesine itilmemesini öneriyor; ACE ise hafifçe öne eğik bir kaval kemiğini tarif ediyor – ikisinin ortak noktası sakin ve kontrollü bir iniş. Kaç tekrarın uygun olduğu antrenman düzeyine bağlıdır: Kaslar yorulduğunda veya uygulama düzensizleştiğinde bırakın. Diz veya kalça ağrısı olanlar, egzersize başlamadan önce doktora veya fizyoterapiste danışmalıdır."
+    ],
+    "d": "Hamle hareketi uyluk, kalça ve gövde kaslarını güçlendirir ve alet gerektirmez. Uygulamada nelere dikkat edilmeli, nasıl uyarlanır ve hangi hatalar sık görülür.",
+    "facts": [
+     "Çalışan kaslar: uyluğun ön ve arka kısmı, kalça, gövde",
+     "Kalçayı dikey indirin, öne itmeyin",
+     "Ön diz yaklaşık 90 derece, diz ayakla aynı hizada",
+     "Uygulama düzensizleşir düzensizleşmez bırakın"
+    ],
+    "t": "Hamle hareketi nasıl doğru yapılır: Teknik ve en sık yapılan hatalar"
+   },
+   "at": "2026-11-07T14:25Z",
+   "h": "3f394becbc3e",
+   "rev": [
+    "'Oberschenkel' rendered as 'uyluk' correctly, but 'Gesäß' rendered as 'kalça' is acceptable; typo 'uylukların ... ile' grammar broken ('kaslarını ile')",
+    "'uyluk' spelled wrongly as 'uyluk' vs 'uylukların' – typo 'uylukların' ok; grammar fix in 'ön ve arka kaslarını ile kalça kasını'",
+    "Missing 'ön dizin' possessive: 'ön dizin' should be 'ön dizin' -> 'öndeki dizin'",
+    "Awkward sentence 'Bu kadar aşağı inemeyenler, yalnızca rahat oldukları yere kadar iner' – imperative style mismatch",
+    "Teaser 'Hamle hareketi uyluk, kalça ve gövde kaslarını' fine; 'Uygulamada' ok",
+    "Headline 'Hamle (lunge) doğru nasıl yapılır' awkward word order"
+   ],
+   "rev_dbg": [
+    6,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "ABD Hava Kuvvetleri'nden bir asker spor salonunda hamle yapıyor (Sembolik fotoğraf)",
+    "kl": "Kuvvet antrenmanı ve kas geliştirme"
+   }
+  },
   "autismus-diagnosen-erwachsene-bmj-2026-11-07": {
    "L": {
     "body": [
@@ -1045,6 +1081,34 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: “Sigara öldürebilir” uyarısı bulunan sigara paketi"
+   }
+  },
+  "dlr-autonomes-fahren-video": {
+   "L": {
+    "body": [
+     "Direksiyonda eli olmayan bir otomobil, sisli havada rıhtıma tam isabetle yanaşan bir yük gemisi: Alman Havacılık ve Uzay Merkezi (DLR), \"ArtiFAKTEN\" serisinin yeni bölümünde destekli, otomatik ve otonom sürüş arasındaki farkı ve \"seviyelerin\" ne anlama geldiğini açıklıyor. Ana mesaj: Bir aracı güvenli biçimde yönlendirebilecek ve park ettirebilecek olan, yalnızca sensörlerden ve yazılımdan oluşan bağlantılı bir ekiptir.",
+     "Video, bir otomobilin çevresini nasıl algıladığını, kendi kendine giden araçların ne kadar yoğun biçimde birbirine bağlı olduğunu ve DLR'nin hangi çözümleri şimdiden test ettiğini ele alıyor. DLR Ulaşım Sistemleri Teknolojisi Enstitüsü bu çerçevede sistemin bütününe bakıyor: elle sürülen ve otomatik araçlardan oluşan karma trafiğe, ayrıca akıllı trafik ışıkları, kameralar ve kontrol merkezlerindeki bilgisayarlar gibi altyapıya.",
+     "Teknolojinin ne kadar ilerlediğini DLR uzmanı Tobias Hesse, DLRmagazin'de değerlendirdi: ABD'de ve Çin'de robotaksiler şimdiden 5 seviyeden 4. seviyede sürüyor, Alman üreticiler ise ağırlıklı olarak 2. ve 3. seviyeye odaklanıyor. Federal hükümetten yaklaşık 35 milyon avro destek alan IMoGer projesinde, 2027'den itibaren DLR'nin U-Shift araçlarından oluşan küçük bir filonun Braunschweig'ın bir semtinde yola çıkması planlanıyor."
+    ],
+    "d": "Destekli, otomatik ya da otonom? Alman Havacılık ve Uzay Merkezi'nin yeni tanıtım videosu, sensörlerin ve yazılımın araçları ve gemileri çarpışmadan nasıl yönlendirmesi gerektiğini gösteriyor.",
+    "t": "Arabalar birbiriyle konuştuğunda: DLR videosu otonom sürüş seviyelerini anlatıyor"
+   },
+   "at": "2026-11-07T14:25Z",
+   "h": "a14f0b43635b",
+   "rev": [
+    "Kernaussage mistranslated: 'Nur ein vernetztes Team aus Sensoren und Software kann ein Fahrzeug sicher führen' was rendered as if only a team could be the one steering; also the claim is attributed to",
+    "German quotation marks „ “ used in Turkish text instead of Turkish convention",
+    "Teaser clumsy: 'nasıl yönlendirmesinin amaçlandığını' (soll ... lenken)",
+    "'Levels' translated as 'seviyelerin' inside quotes; acceptable but quote marks fixed",
+    "Hesse's statement and 'Braunschweig'ın' fine; 'Bundesförderung' fine"
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: DLR'nin otonom araç konsepti U-Shift, 2024 IAA Transportation fuarında, Hannover"
    }
   },
   "el-zvezda-olympiacos-vezenkov-partizan-2026-11-07": {
@@ -2785,6 +2849,34 @@
     "img.alt": "Sembolik fotoğraf: Tambour serisinden Louis Vuitton saati (eski model)"
    }
   },
+  "mainz-fischer-bayern-2026-11-07": {
+   "L": {
+    "body": [
+     "1. FSV Mainz 05, cumartesi günü saat 15.30'da oynanacak Bayern Münih maçına net şekilde zayıf taraf olarak çıkıyor. Ren-Hessen ekibi bir haftada, VfL Bochum'a karşı oynanan Kupa maçı da dahil olmak üzere üç resmi maç kaybetti ve dokuzuncu sıraya geriledi. Bayern, sekiz haftanın ardından 18 puanla Borussia Dortmund ile eşit puanda lig lideri.",
+     "Teknik direktör Urs Fischer, koşma isteği, ikili mücadele gücü ve yoğunluk gibi eski güçlü yönlere dönülmesini istedi. 60 yaşındaki İsviçreli teknik adam, “Bu gidişatı kabul etmek önemli. Onu kırmak gerekiyor” dedi. Fischer, “Mesele Bayern değil, kendimizin yeniden doğru yola girmesi” diye konuştu. Rakibi için “tüm Almanya'nın en iyi takımı” ifadesini kullandı.",
+     "Kulübe göre Mainz, cezalı Stefan Posch ve Phillipp Mwene ile sakat Silas ve Dominik Kohr'u kadroda bulunduramayacak. Fischer, savunmadaki boşlukları kimin dolduracağını açıklamadı. Milli takım kadrosuna çağrılmayan Nadiem Amiri hakkında Fischer şunları söyledi: “Umarım hayal kırıklığına uğramıştır. Şimdi sahadaki performansıyla öncü olması gerekiyor.”"
+    ],
+    "d": "Bir haftada üç yenilgi alan Mainz 05, bugün saat 15.30'da lider Bayern Münih'i konuk ediyor. Teknik direktör Urs Fischer koşuya, ikili mücadelelere ve yoğunluğa vurgu yapıyor.",
+    "t": "Mainz'de Bayern maçı öncesi Fischer: “Olumsuz gidişatı kırmak”"
+   },
+   "at": "2026-11-07T14:25Z",
+   "h": "942e53867daf",
+   "rev": [
+    "Headline: the German says Fischer wants to break the negative trend; the draft adds \"istiyoruz\" in first person plural, which turns the quote into something Fischer did not say (the quote is \"die nega",
+    "\"Rheinhessen\" was left untranslated; replaced with \"Rheinhessen takımı\" is not needed, but a Turkish descriptor was added.",
+    "\"clear underdog\" rendered as \"açık ara en zayıf aday\", which is too strong; changed to \"açık ara underdog\" equivalent \"net bir outsider\" -> \"büyük underdog\" avoided; used \"net şekilde zayıf taraf\".",
+    "\"Den Gegner nannte er\" quote: the draft shortens \"in ganz Deutschland\" and drops \"ganz\"; restored.",
+    "\"Kupa maçı\" lacks capitalization consistency; kept as is."
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Mainz'deki Opel-Arena (bugünkü adıyla Mewa Arena)"
+   }
+  },
   "malignaggi-canelo-mbilli-urteil": {
    "L": {
     "body": [
@@ -3183,6 +3275,32 @@
     "img.alt": "Albuquerque Convention Center (Sembolik fotoğraf)"
    }
   },
+  "polimi-fluorid-ionen-akku": {
+   "L": {
+    "body": [
+     "Florür iyonlu bataryalar lityum gerektirmiyor ve teorik olarak kilogram başına yaklaşık 600 watt saat depolayabiliyor; geleneksel lityum iyon aküler ise 150 ile 250 arasında kalıyor. Ancak bu tür hücrelerin, iyonların yeterince hareket edebilmesi için şimdiye kadar yaklaşık 100 ila 150 dereceye kadar ısıtılması gerekiyordu. Politecnico di Milano'dan araştırmacılar, Energy Storage Materials dergisinde florür iyonlarını oda sıcaklığında ileten, yarı katı ve yanmaz bir polimer jel membranı bildirdi.",
+     "Maurizio Sansotera, Luca Magagnin ve Giuseppina Raffaini'nin başında bulunduğu ekip, yakıt hücrelerindeki proton değişim membranlarından esinlenerek membranı “Fluoride Exchange Membrane” olarak adlandırıyor. “Geliştirdiğimiz teknoloji, yangın riskini azaltan yanmaz bir polimer membrana dayanıyor” diyor Sansotera. Raffaini'ye göre böylece bataryayı önceden ısıtmak için gereken enerji de ortadan kalkıyor.",
+     "Magagnin'e göre bu, pratikte yaklaşık iki kat daha uzun akü ömrü anlamına gelebilir; bir elektrikli otomobil iki kat daha uzağa gidebilir. Ancak bu, teorik enerji yoğunluğuna dayanan bir tahmin; tamamlanmış bir hücrenin ölçüm sonucu değil. Üniversite, kullanım alanları olarak yenilenebilir enerji depolama sistemlerini, drone'ları, uyduları ve uçakları sayıyor."
+    ],
+    "d": "Florür iyonlu aküler lityuma alternatif olarak görülüyor, ancak şimdiye kadar ısıya ihtiyaç duyuyordu. Politecnico di Milano ekibi, oda sıcaklığında iletim sağlayan yanmaz bir jel membran tanıttı.",
+    "t": "Lityumsuz akü: Milano membranı florür iyonlarını oda sıcaklığında hareket ettiriyor"
+   },
+   "at": "2026-11-07T14:25Z",
+   "h": "140d24579e8b",
+   "rev": [
+    "\"Florür iyonlu piyasadaki bataryalar\" adds \"piyasadaki\" (on the market), which is not in the German and distorts the meaning",
+    "The Sansotera quote sentence is clumsy and ungrammatical (\"diyen Sansotera, açıklamasını yaptı\")",
+    "\"bildirdi\" with \"membranı\" is a little awkward, but it is acceptable and left unchanged"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Politecnico di Milano ana binası, Piazza Leonardo da Vinci"
+   }
+  },
   "ratchet-clank-ranger-rumble-aus": {
    "L": {
     "body": [
@@ -3501,6 +3619,35 @@
    "x": {
     "img.alt": "Kennedy Uzay Merkezi'ndeki mekik iniş pisti (Arşiv fotoğrafı)",
     "kl": "Uzay yolculuğu"
+   }
+  },
+  "tum-quantentechnologie-video": {
+   "L": {
+    "body": [
+     "Münih Teknik Üniversitesi (TUM), “close-up” adlı video serisinin yeni bir bölümünü yayımladı. Bölümde doktora öğrencisi Nina, Munich Center for Quantum Science and Technology'yi (MCQST) ziyaret ediyor. Mükemmeliyet kümesi, karmaşık kuantum sistemlerinin temellerini – örneğin dolanıklığın hedefli kontrolünü – araştırıyor ve sonuçları kuantum simülatörlerinden ve sensörlerinden yeni kuantum malzemelerine kadar uygulamalara dönüştürmeyi hedefliyor.",
+     "MCQST'nin yürütücüsü TUM ile Münih Ludwig Maximilian Üniversitesi'dir. Kümeye ayrıca Max Planck Kuantum Optiği Enstitüsü, Bavyera Bilimler Akademisi'ne bağlı Walther Meißner Enstitüsü ve Deutsches Museum da katılıyor. Alman Araştırma Vakfı (DFG) kümeyi 2019'dan beri Mükemmeliyet Stratejisi kapsamında destekliyor; ikinci destek aşamasında veri işleme, iletişim, ölçüm tekniği ve sensör teknolojisi için dolanıklığın temelleri ele alınıyor.",
+     "TUM aynı zamanda kuantum araştırmalarını genişletiyor: Ekim ayında Garching kampüsünde yaklaşık 100 araştırmacının çalıştığı Kuantum Mühendisliği Merkezi'ni açtı. Bavyera Eyaleti araştırma binasını yaklaşık 35 milyon euro, federal hükümet ise yaklaşık 20 milyon euro ile destekledi."
+    ],
+    "d": "Münih Teknik Üniversitesi'nden bir doktora öğrencisi “close-up” serisinde MCQST kümesini ziyaret ediyor. Video, temel araştırmanın kuantum sensörlerine ve simülatörlerine nasıl dönüştürülmek istendiğini gösteriyor.",
+    "t": "Kuantum teknolojisi nasıl doğuyor: TUM videosu Münih'teki mükemmeliyet kümesini geziyor"
+   },
+   "at": "2026-11-07T14:25Z",
+   "h": "f08812993a0d",
+   "rev": [
+    "Untranslated German name 'TU München' in the teaser; the Turkish form 'Münih Teknik Üniversitesi' should be used",
+    "'Ludwig-Maximilians-Universität München' left untranslated; use the established Turkish form 'Münih Ludwig Maximilian Üniversitesi'",
+    "'Max-Planck Kuantum Optiği Enstitüsü' is missing a hyphen and is not in the usual form",
+    "The sentence 'MCQST'nin yürütücüsü TUM ile ... München.' is broken, as it has no verb and ends oddly",
+    "'Deutsches Museum' is rendered as 'Deutsches Museum', but the Turkish name 'Alman Müzesi' is more natural",
+    "'Kümeye ... diğer kurumlar arasında katılıyor' is awkward, since the German says 'unter anderem'"
+   ],
+   "rev_dbg": [
+    6,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: TUM'un kuantum laboratuvarlarının birçoğunu işlettiği Münih yakınlarındaki Garching Üniversite ve Araştırma Merkezi"
    }
   },
   "ufc-vegas-124-wiegen-cortes-acosta-walker": {
