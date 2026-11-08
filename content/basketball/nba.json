@@ -8,7 +8,7 @@
   "tr": "NBA"
  },
  "season": "2026/27",
- "asof": "2026-11-07",
+ "asof": "2026-11-08",
  "tables": [
   {
    "name": {
@@ -37,7 +37,12 @@
     },
     {
      "team": "Atlanta Hawks",
-     "w": 6,
+     "w": 7,
+     "l": 4
+    },
+    {
+     "team": "New York Knicks",
+     "w": 5,
      "l": 4
     },
     {
@@ -48,25 +53,15 @@
     {
      "team": "Cleveland Cavaliers",
      "w": 5,
-     "l": 4
-    },
-    {
-     "team": "New York Knicks",
-     "w": 4,
-     "l": 4
+     "l": 5
     },
     {
      "team": "Washington Wizards",
      "w": 4,
-     "l": 5
-    },
-    {
-     "team": "Miami Heat",
-     "w": 3,
      "l": 6
     },
     {
-     "team": "Indiana Pacers",
+     "team": "Miami Heat",
      "w": 3,
      "l": 6
     },
@@ -76,14 +71,19 @@
      "l": 7
     },
     {
+     "team": "Indiana Pacers",
+     "w": 3,
+     "l": 7
+    },
+    {
      "team": "Orlando Magic",
      "w": 2,
-     "l": 6
+     "l": 7
     },
     {
      "team": "Brooklyn Nets",
      "w": 2,
-     "l": 6
+     "l": 7
     },
     {
      "team": "Chicago Bulls",
@@ -108,32 +108,32 @@
    "z": 6,
    "rows": [
     {
+     "team": "Oklahoma City Thunder",
+     "w": 8,
+     "l": 2
+    },
+    {
+     "team": "San Antonio Spurs",
+     "w": 8,
+     "l": 2
+    },
+    {
      "team": "Los Angeles Lakers",
      "w": 8,
      "l": 2
     },
     {
-     "team": "Houston Rockets",
+     "team": "Golden State Warriors",
      "w": 7,
-     "l": 2
-    },
-    {
-     "team": "Oklahoma City Thunder",
-     "w": 7,
-     "l": 2
-    },
-    {
-     "team": "San Antonio Spurs",
-     "w": 7,
-     "l": 2
-    },
-    {
-     "team": "Portland Trail Blazers",
-     "w": 6,
-     "l": 2
+     "l": 3
     },
     {
      "team": "Minnesota Timberwolves",
+     "w": 7,
+     "l": 3
+    },
+    {
+     "team": "Houston Rockets",
      "w": 7,
      "l": 3
     },
@@ -143,13 +143,13 @@
      "l": 3
     },
     {
-     "team": "Golden State Warriors",
+     "team": "Portland Trail Blazers",
      "w": 6,
      "l": 3
     },
     {
      "team": "Denver Nuggets",
-     "w": 4,
+     "w": 5,
      "l": 3
     },
     {
@@ -164,7 +164,7 @@
     },
     {
      "team": "Phoenix Suns",
-     "w": 2,
+     "w": 3,
      "l": 5
     },
     {
@@ -186,69 +186,6 @@
   }
  ],
  "matches": [
-  {
-   "t1": "Golden State Warriors",
-   "t2": "Miami Heat",
-   "date": "2026-11-06",
-   "ft": [
-    120,
-    100
-   ]
-  },
-  {
-   "t1": "Atlanta Hawks",
-   "t2": "Washington Wizards",
-   "date": "2026-11-07",
-   "ft": [
-    139,
-    132
-   ]
-  },
-  {
-   "t1": "Charlotte Hornets",
-   "t2": "Boston Celtics",
-   "date": "2026-11-07",
-   "ft": [
-    80,
-    119
-   ]
-  },
-  {
-   "t1": "Cleveland Cavaliers",
-   "t2": "Philadelphia 76ers",
-   "date": "2026-11-07",
-   "ft": [
-    119,
-    95
-   ]
-  },
-  {
-   "t1": "Dallas Mavericks",
-   "t2": "Utah Jazz",
-   "date": "2026-11-07",
-   "ft": [
-    112,
-    100
-   ]
-  },
-  {
-   "t1": "Memphis Grizzlies",
-   "t2": "Oklahoma City Thunder",
-   "date": "2026-11-07",
-   "ft": [
-    97,
-    128
-   ]
-  },
-  {
-   "t1": "Milwaukee Bucks",
-   "t2": "Toronto Raptors",
-   "date": "2026-11-07",
-   "ft": [
-    107,
-    121
-   ]
-  },
   {
    "t1": "New Orleans Pelicans",
    "t2": "Minnesota Timberwolves",
@@ -280,43 +217,64 @@
    "t1": "Indiana Pacers",
    "t2": "Denver Nuggets",
    "date": "2026-11-07",
-   "time": "23:00"
+   "ft": [
+    102,
+    114
+   ]
   },
   {
    "t1": "Atlanta Hawks",
    "t2": "Brooklyn Nets",
    "date": "2026-11-08",
-   "time": "01:30"
+   "ft": [
+    124,
+    121
+   ]
   },
   {
    "t1": "Cleveland Cavaliers",
    "t2": "New York Knicks",
    "date": "2026-11-08",
-   "time": "02:00"
+   "ft": [
+    97,
+    109
+   ]
   },
   {
    "t1": "Oklahoma City Thunder",
    "t2": "Washington Wizards",
    "date": "2026-11-08",
-   "time": "02:00"
+   "ft": [
+    114,
+    75
+   ]
   },
   {
    "t1": "Golden State Warriors",
    "t2": "Orlando Magic",
    "date": "2026-11-08",
-   "time": "02:30"
+   "ft": [
+    126,
+    119
+   ]
   },
   {
    "t1": "Phoenix Suns",
    "t2": "Houston Rockets",
    "date": "2026-11-08",
-   "time": "03:00"
+   "ft": [
+    102,
+    99
+   ]
   },
   {
    "t1": "Portland Trail Blazers",
    "t2": "San Antonio Spurs",
    "date": "2026-11-08",
-   "time": "04:00"
+   "ft": [
+    103,
+    125
+   ]
   },
   {
    "t1": "Chicago Bulls",
@@ -347,31 +305,57 @@
    "t2": "Boston Celtics",
    "date": "2026-11-09",
    "time": "02:00"
+  },
+  {
+   "t1": "LA Clippers",
+   "t2": "New Orleans Pelicans",
+   "date": "2026-11-09",
+   "time": "03:00"
+  },
+  {
+   "t1": "Sacramento Kings",
+   "t2": "Miami Heat",
+   "date": "2026-11-09",
+   "time": "03:00"
+  },
+  {
+   "t1": "Atlanta Hawks",
+   "t2": "Los Angeles Lakers",
+   "date": "2026-11-10",
+   "time": "01:00"
+  },
+  {
+   "t1": "Charlotte Hornets",
+   "t2": "Cleveland Cavaliers",
+   "date": "2026-11-10",
+   "time": "01:00"
+  },
+  {
+   "t1": "Detroit Pistons",
+   "t2": "Washington Wizards",
+   "date": "2026-11-10",
+   "time": "01:00"
   }
  ],
  "src": [
   {
-   "n": "ESPN-Datendienst – NBA-Tabelle 2026-27 (Stand nach den Spielen vom 06.11.2026 US-Zeit, abgerufen 07.11.2026)",
+   "n": "ESPN-Datendienst – NBA-Tabelle 2026-27 (Stand nach den Spielen vom 07.11.2026 US-Zeit, abgerufen 08.11.2026)",
    "u": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings"
   },
   {
-   "n": "ESPN-Datendienst – NBA-Ergebnisse 06.11.2026 US-Zeit",
-   "u": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261106"
-  },
-  {
-   "n": "Field Level Media – NBA roundup: Luka Doncic stays hot with 53 points (07.11.2026)",
-   "u": "https://fieldlevelmedia.com/nba/nba-roundup-luka-doncic-stays-hot-with-53-points-in-lakers-win/"
-  },
-  {
-   "n": "ESPN – Warriors 120:100 Heat (05.11.2026)",
-   "u": "https://www.espn.com/nba/recap?gameId=401909937"
-  },
-  {
-   "n": "ESPN-Datendienst – NBA-Spielplan 07.11.2026 US-Zeit (Anwurfzeiten umgerechnet in MEZ)",
+   "n": "ESPN-Datendienst – NBA-Ergebnisse 07.11.2026 US-Zeit",
    "u": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261107"
   },
   {
-   "n": "ESPN-Datendienst – NBA-Spielplan 08.11.2026 US-Zeit (Anwurfzeiten umgerechnet in MEZ)",
+   "n": "ESPN – NBA Scores, 7. November 2026",
+   "u": "https://www.espn.com/nba/scoreboard/_/date/20261107"
+  },
+  {
+   "n": "Sunday Guardian – NBA Results, November 7 (08.11.2026)",
+   "u": "https://sundayguardianlive.com/sports/nba-results-november-7-victor-wembanyama-leads-spurs-to-eighth-straight-win-stephen-curry-stars-with-41-points-319361/"
+  },
+  {
+   "n": "ESPN-Datendienst – NBA-Spielplan 08.–10.11.2026 US-Zeit (Anwurfzeiten umgerechnet in MEZ)",
    "u": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261108"
   }
  ],
