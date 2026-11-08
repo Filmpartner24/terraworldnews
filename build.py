@@ -3045,8 +3045,11 @@ def search_url(l): return f"{pre(l)}{SEARCH_SLUG[l]}"
 
 def build():
     eds = load()
-    REMOVED_SUBS = {'sexualitaet', 'dessous'}   # Nedy 08.11.2026: Rubriken Sexualität und Dessous entfernt (seriöse Nachrichtenseite für Google)
-    for _d in eds: _d['items'] = [x for x in _d['items'] if x.get('sub') not in REMOVED_SUBS]
+    REMOVED_SUBS = {'dessous'}   # Nedy 08.11.2026: Rubrik Dessous entfernt
+    for _d in eds:
+        _d['items'] = [x for x in _d['items'] if x.get('sub') not in REMOVED_SUBS]
+        for x in _d['items']:
+            if x.get('sub') == 'sexualitaet': x['sub'] = 'liebe'   # Nedy 08.11.2026: Sexualität-Artikel stehen jetzt unter Liebe & Beziehung
     fb_load(); bx_load(); nl_load()
     act = active_langs(eds)
     ORG['knowsLanguage'] = act
