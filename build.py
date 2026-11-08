@@ -3639,7 +3639,7 @@ def build():
 
 lang_extra.apply(globals())   # Türkisch + Spanisch: Tabellen ergänzen (seit 27.10.2026, Nedy)
 
-FILE_LIMIT = 95000   # Cloudflare Pages mit Workers Paid: 100.000 Dateien (Nedy 08.11.2026: TR/ES wieder immer bauen; vorher 19500 bei Free = 20.000)
+FILE_LIMIT = 19500   # Cloudflare Pages: 20.000 Dateien je Veröffentlichung (95.000 am 08.11.2026 getestet → Cloudflare-Bau fehlgeschlagen, zurück)
 
 if __name__ == '__main__':
     n = build()
