@@ -882,6 +882,25 @@ def au_name(it, l):  # Autorin/Autor eines eigenen Artikels: "au" als Text oder 
     return (a.get(l) or a.get('de') or a.get('en') or '') if isinstance(a, dict) else (a or '')
 def byline(it, l):
     return BYP[l].format(n=au_name(it, l)) if it.get('au') else UI[l]['by']
+# ---- Autorenseiten (Nedy 08.11.2026): authors/authors.json, eine Seite pro Autor und Sprache, Byline verlinkt
+try: AUTHORS = json.load(open(os.path.join(HERE, 'authors', 'authors.json'), encoding='utf-8'))
+except (FileNotFoundError, ValueError): AUTHORS = []
+AU_DIR = {'bg': 'avtori', 'de': 'autoren', 'en': 'authors', 'es': 'autores', 'tr': 'yazarlar', 'it': 'autori'}
+AU_T = LX({'bg': 'Автори', 'de': 'Autorinnen und Autoren', 'en': 'Authors', 'es': 'Autores', 'tr': 'Yazarlar', 'it': 'Autori'})
+AU_TOP = LX({'bg': 'Теми', 'de': 'Themengebiete', 'en': 'Topics', 'es': 'Temas', 'tr': 'Konular', 'it': 'Temi'})
+AU_ART = LX({'bg': 'Статии', 'de': 'Beiträge', 'en': 'Articles', 'es': 'Artículos', 'tr': 'Yazılar', 'it': 'Articoli'})
+AU_CON = LX({'bg': 'Контакт', 'de': 'Kontakt', 'en': 'Contact', 'es': 'Contacto', 'tr': 'İletişim', 'it': 'Contatto'})
+AU_TEAM = LX({'bg': 'Нашият екип', 'de': 'Unser Team', 'en': 'Our team', 'es': 'Nuestro equipo', 'tr': 'Ekibimiz', 'it': 'Il nostro team'})
+def author_of(it):
+    if not it.get('au'): return None
+    a = it['au']; ns = set(a.values()) if isinstance(a, dict) else {a}
+    return next((x for x in AUTHORS if ns & set(x['match'])), None)
+def au_url(a, l): return f"{pre(l)}{AU_DIR.get(l, 'authors')}/{a['key']}.html"
+def au_txt(a, k, l): return a[k].get(l) or a[k].get('en') or a[k]['de']
+def byline_html(it, l):
+    a = author_of(it)
+    if not a: return e(byline(it, l))
+    return e(BYP[l].split('{n}')[0]) + f'<a class="au-link" href="{au_url(a, l)}" rel="author">{e(au_name(it, l))}</a>' + e(BYP[l].split('{n}')[1])
 def kick(it, l, prefix=''):
     if it.get('live'): prefix = f'<b class="brk">{e(UI[l]["brk"])}</b>' + prefix
     if it.get('ex'): prefix = f'<b class="exk">{e(EXL[l])}</b>' + prefix
@@ -2152,7 +2171,7 @@ def media_article(it, l, paras, facts, noadv, rel, side, SX):
     html = (f'<div class="gp gp-{kind} ga"><div class="gp-head"><a class="gp-title ga-sec" href="{sec_home(kind, l, it.get('sub'))}">{e(SEC[l][kind][0])}</a>{gp_slogan(l)}</div>'
             f'<div class="gp-main"><article class="gp-panel ga-panel">{kick(it, l)}' + (f'<div class="gr-score">{e(sc)}</div>' if sc else '') +
             f'{(f'<p class="ov-line">{e(T["ov"])}</p>' if T.get("ov") else "")}<h1 class="ga-h1">{e(T["t"])}</h1>{(f'<p class="sub-h">{e(T["st"])}</p>' if T.get("st") else "")}' + (f'<p class="gr-meta">{e(meta)}</p>' if meta else '') + f'<p class="ga-dek">{e(T["d"])}</p>'
-            f'<div class="byline meta ga-by"><span>{e(byline(it, l))}</span><time datetime="{iso(it)}">{PUBL[l]}: {short_date(it["date"], l)}, {it["time"]}{(" " + u["hour"]) if u["hour"] else ""}</time><span>{u["read"].format(m=read_min(it, l))}</span></div>'
+            f'<div class="byline meta ga-by"><span>{byline_html(it, l)}</span><time datetime="{iso(it)}">{PUBL[l]}: {short_date(it["date"], l)}, {it["time"]}{(" " + u["hour"]) if u["hour"] else ""}</time><span>{u["read"].format(m=read_min(it, l))}</span></div>'
             f'{media}{single}{rv_box(it, l)}<div class="body ga-body">{paras}</div>{facts}{noadv}<div class="sources ga-src"><h2>{e(u["src"])}</h2><ul>{LI(it["src"])}</ul></div>'
             + (f'<h2 class="gp-h">{e(u["more"])}</h2><div class="gs-grid">{"".join(small(x) for x in rel)}</div>' if rel else '') +
             f'<p class="ga-back"><a href="{sec_home(kind, l, it.get('sub'))}">← {e(SEC[l][kind][0])}</a></p></article>'
@@ -3473,7 +3492,7 @@ def build():
             rel = [x for x in items_l if x['s'] == it['s'] and x is not it][:3]
             relh = f'<section class="rail" style="--c:{SEC_COLOR[it["s"]]}"><div class="rail-h"><h2>{e(u["more"])}</h2><a href="{sec_home(it["s"], l, it.get('sub'))}">{e(SEC[l][it["s"]][0])} →</a></div><div class="cards">{"".join(card(x, l) for x in rel)}</div></section>' if rel else ''
             body = (f'<article class="article"><a class="back" href="{sec_home(it["s"], l, it.get('sub'))}">← {e(SEC[l][it["s"]][0])}</a>{kick(it, l)}{(f'<p class="ov-line">{e(T["ov"])}</p>' if T.get("ov") else "")}<h1>{e(T["t"])}</h1>{(f'<p class="sub-h">{e(T["st"])}</p>' if T.get("st") else "")}<p class="dek">{e(T["d"])}</p>'
-                    f'<div class="byline meta"><span>{e(byline(it, l))}</span><time datetime="{iso(it)}">{PUBL[l]}: {short_date(it["date"], l)}, {it["time"]}{(" " + u["hour"]) if u["hour"] else ""}</time><span>{u["read"].format(m=read_min(it, l))}</span></div>'
+                    f'<div class="byline meta"><span>{byline_html(it, l)}</span><time datetime="{iso(it)}">{PUBL[l]}: {short_date(it["date"], l)}, {it["time"]}{(" " + u["hour"]) if u["hour"] else ""}</time><span>{u["read"].format(m=read_min(it, l))}</span></div>'
                     f'{plate(it, l, cap=True, eager=True)}<div class="body">{paras}</div>{trailer}{facts}{noadv}<div class="sources"><h2>{e(u["src"])}</h2><ul>{LI(it["src"])}</ul></div></article>{relh}')
             if it['s'] in MEDIA:  # Games/Film/Musik: Artikel im dunklen Medien-Layout mit Seitenleiste
                 if it['s'] not in MSIDE:
@@ -3483,7 +3502,7 @@ def build():
             aalts = {x: art_url(it, x) for x in act if x in it}
             ld = {"@context": "https://schema.org", "@graph": [ORG, {"@type": "NewsArticle", "@id": SITE + art_url(it, l) + "#article", "mainEntityOfPage": SITE + art_url(it, l), "headline": T['t'][:110], "description": T['d'],
                   "datePublished": iso(it), "dateModified": iso(it), "inLanguage": l, "articleSection": SEC[l][it['s']][0], "isAccessibleForFree": True,
-                  "image": [SITE + (it["img"]["f"] if it.get("img") else "/assets/og-image-v4.jpg")], "author": ({"@type": "Person", "name": au_name(it, l)} if it.get("au") else {"@type": "Organization", "name": u['by'], "url": SITE + legal_url('principles', l)}), "publisher": {"@id": SITE + "/#org"},
+                  "image": [SITE + (it["img"]["f"] if it.get("img") else "/assets/og-image-v4.jpg")], "author": ({"@type": "Person", "name": au_name(it, l), **({"url": SITE + au_url(author_of(it), l)} if author_of(it) else {})} if it.get("au") else {"@type": "Organization", "name": u['by'], "url": SITE + legal_url('principles', l)}), "publisher": {"@id": SITE + "/#org"},
                   "citation": CIT(it['src'])},
                   {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": u['home'], "item": SITE + home(l)}, {"@type": "ListItem", "position": 2, "name": SEC[l][it['s']][0], "item": SITE + sec_home(it['s'], l, it.get('sub'))}, {"@type": "ListItem", "position": 3, "name": T['t']}]}]}
             extra = f'<meta property="article:published_time" content="{iso(it)}"><meta property="article:section" content="{e(SEC[l][it["s"]][0])}">'
@@ -3495,8 +3514,23 @@ def build():
         for k in ('about', 'imprint', 'privacy', 'principles'):
             txt = open(os.path.join(HERE, 'legal', f'{k}.{l}.html'), encoding='utf-8').read()
             lalts = {x: legal_url(k, x) for x in act}
+            if k == 'about' and AUTHORS:   # Team mit Links zu den Autorenseiten (Nedy 08.11.2026)
+                txt += f'<h2>{e(AU_TEAM[l])}</h2><div class="au-team">' + ''.join(f'<a class="au-mini" href="{au_url(a, l)}"><img src="{a["img"]}" width="72" height="82" alt="{e(au_txt(a, "name", l))}" loading="lazy"><span><b>{e(au_txt(a, "name", l))}</b><small>{e(au_txt(a, "role", l))}</small></span></a>' for a in AUTHORS) + '</div>'
             write(legal_url(k, l), page(l, act, f'{u[k]} | TWN – World News', f'{u[k]} – TWN – World News (Terra World News)', legal_url(k, l), f'<article class="legal">{txt}</article>', lalts, issue=latest.get('issue', 1), date=latest['date']))
             urls.append((legal_url(k, l), lalts, latest['date']))
+        # ---- Autorenseiten (Nedy 08.11.2026)
+        for a in AUTHORS:
+            nm, rl, bio = au_txt(a, 'name', l), au_txt(a, 'role', l), au_txt(a, 'bio', l)
+            mine = sorted([x for x in items_l if author_of(x) is a], key=lambda x: (x['date'], x['time']), reverse=True)
+            aalts = {x: au_url(a, x) for x in act}
+            tops = ''.join(f'<li>{e(t)}</li>' for t in (a['topics'].get(l) or a['topics']['en']))
+            con = f'<p class="au-con"><b>{e(AU_CON[l])}:</b> <a href="mailto:{a["email"]}">{a["email"]}</a></p>' if a.get('email') else ''
+            arts = f'<section class="au-arts"><h2>{e(AU_ART[l])}</h2><div class="cards">{"".join(card(x, l) for x in mine[:60])}</div></section>' if mine else ''
+            body = (f'<article class="author"><div class="au-head"><img class="au-ph" src="{a["img"]}" width="336" height="384" alt="{e(nm)}"><div><p class="au-k">{e(AU_T[l])}</p><h1>{e(nm)}</h1><p class="au-role">{e(rl)}</p>'
+                    f'<p class="au-bio">{e(bio)}</p><h2 class="au-th">{e(AU_TOP[l])}</h2><ul class="au-tops">{tops}</ul>{con}</div></div>{arts}</article>')
+            ld = {"@context": "https://schema.org", "@type": "ProfilePage", "url": SITE + au_url(a, l), "inLanguage": l, "mainEntity": {"@type": "Person", "name": nm, "jobTitle": rl, "description": bio, "image": SITE + a['img'], "url": SITE + au_url(a, l), "knowsAbout": a['topics'].get(l) or a['topics']['en'], "worksFor": {"@id": SITE + "/#org"}}}
+            write(au_url(a, l), page(l, act, f'{nm} – {rl} | TWN', bio[:155], au_url(a, l), body, aalts, ld, og_type='profile', issue=latest.get('issue', 1), date=latest['date'], og_img=a['img']))
+            urls.append((au_url(a, l), aalts, (mine[0]['date'] if mine else latest['date'])))
         # ---- search index: inverted index sharded by token prefix (scales over years) + search page
         docs = sorted(items_l, key=lambda x: (x['date'], x['time'], x['id']))
         post = {}
