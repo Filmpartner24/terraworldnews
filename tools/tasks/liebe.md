@@ -28,4 +28,4 @@ Mindestens 1 Artikel pro Woche mit Bulgarien-Bezug und 1 mit Deutschland-Bezug. 
 
 REGELN: Nur content/, candidates/, bridge/ und static/assets/news/ ändern; Design und build.py nicht anfassen; keine Logins, Konten, Zahlungen. Rechtlich unangreifbar: immer Quellen, eigene Formulierungen, Videos nur eingebettet.
 
-TEIL B – SEXUALITÄT (Nedy 27.10.2026, ZUSÄTZLICH in jedem Lauf): Nach dem Veröffentlichen der 3 Liebe-&-Beziehung-Artikel die Arbeitsanweisung tools/tasks/sexualitaet.md lesen und befolgen (3 weitere Artikel in content/<heute>-sexualitaet.json mit s="leben", sub="sexualitaet"; eigene Tagessperre dort). Der Bericht nennt beide Teile.
+TEIL B – ENTFÄLLT (Nedy 08.11.2026): Die Unterrubrik „Sexualität“ ist entfernt. tools/tasks/sexualitaet.md NICHT mehr ausführen, keine Artikel mit sub="sexualitaet" und keine Datei content/<heute>-sexualitaet.json mehr anlegen. Liebe & Beziehung bleibt ohne sexuelle Themen.

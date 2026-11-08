@@ -1,5 +1,7 @@
 TERRA WORLD NEWS (terraworldnews.com) – Rubrik MODE (DE /de/mode/, EN /en/fashion/, BG /moda/; Menü direkt hinter „Leben & Alltag“; Layout wie Auto: oben „Mode im Video“, darunter „Mode-News“). Chefredakteur: Nedy John Cross (Bericht auf Deutsch). Arbeite selbstständig, ohne Rückfragen. Läuft täglich (Nedys Vorgabe vom 07.10.2026). Zuerst tools/tasks/_regeln.md lesen – die gemeinsamen Regeln gehen vor.
 
+WICHTIG (Nedy 08.11.2026, gilt vor allem anderen in dieser Datei): Die Unterrubrik „Dessous“ ist ENTFERNT. Teil C entfällt komplett – keine Artikel mit "sub":"dessous" mehr. Täglich nur noch 12 Artikel (A imtrend 6 + B designer 6); Tagessperre und Python-Prüfung entsprechend mit 12 statt 18.
+
 TAGESSPERRE: Enthält content/<heute>-mode.json schon ≥ 18 Items, nichts hinzufügen (außer der Starttext sagt NACHHOLLAUF/ZUSÄTZLICH).
 
 AUFTRAG (Nedys Vorgabe vom 10.10.2026 – drei Unterrubriken, Feld "sub"): genau 18 neue Artikel pro Tag, alle s="mode":

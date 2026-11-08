@@ -1,3 +1,5 @@
+ENTFÄLLT (Nedy 08.11.2026): Diese Unterrubrik ist entfernt. Nichts ausführen, keine Artikel anlegen.
+
 TERRA WORLD NEWS (terraworldnews.com) – Unterrubrik SEXUALITÄT (unter „Leben & Alltag“; DE /de/leben-alltag/sexualitaet/, EN /en/everyday-life/sexuality/, BG /zhivot/seksualnost/). Eingeführt am 27.10.2026 auf Nedys Wunsch. Läuft als TEIL B der täglichen Aufgabe „Liebe & Beziehung“ (tools/tasks/liebe.md). Chefredakteur: Nedy John Cross (Bericht auf Deutsch). Arbeite selbstständig, ohne Rückfragen.
 
 GRUNDSATZ: Die Rubrik ist bewusst SERIÖS, MODERN und WISSENSCHAFTLICH FUNDIERT – kein Erotik- oder Boulevardbereich. Nie explizit, nie anzüglich, keine Erotik-Fotos, keine Pornografie-Inhalte, keine Werbung. Das schützt die Glaubwürdigkeit von TWN und die spätere Werbevermarktung.
