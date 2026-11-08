@@ -43,6 +43,33 @@
     "img.alt": "Imagen simbólica: trabajadoras textiles en una fábrica de Bangladés"
    }
   },
+  "bbl-trier-bamberg-bayern-2026-11-08": {
+   "L": {
+    "body": [
+     "Los Gladiators Trier siguen siendo la sorpresa de la easyCredit BBL: el sábado por la noche derrotaron por 92-79 a los Bamberg Baskets ante su público; al descanso, el Trier ya ganaba por 47-35. El máximo anotador del Trier fue Jordan Roland, con 20 puntos. Según la SWR, para los Gladiators fue la sexta victoria consecutiva en la liga; con un balance de 6-1 están ahora igualados en puntos con el líder, el FC Bayern de Múnich, que figura por delante por su claramente mejor diferencia de puntos (+186 frente a +86). El Bamberg, con un balance de 4-4, cae al noveno puesto.",
+     "Los Rostock Seawolves vencieron al ratiopharm ulm por 97-87 (descanso 58-45) y subieron al cuarto puesto. El mejor anotador de Rostock fue Artur Konontšuk, con 22 puntos; Armel Traore, del Ulm, anotó 25. «Toda la semana fue una locura», dijo el entrenador de Rostock, Przemyslaw Frasunkiewicz. Los Telekom Baskets Bonn también ganaron por 97-87, ante los Basketball Löwen Braunschweig, y son quintos. El RASTA Vechta se impuso por 99-90 a los NINERS Chemnitz.",
+     "El domingo se disputan tres partidos más de la jornada 8: el SYNTAINICS MBC recibe a las 15:00 a los SKYLINERS, el Ludwigsburg juega a las 16:30 contra el Oldenburg y a las 18:00 el FC Bayern visita a los Würzburg Baskets. El lunes sigue el Jena contra el Hamburgo. Para el equipo de Múnich, después, el jueves continúa la EuroLeague en Valencia."
+    ],
+    "d": "Los Gladiators Trier también vencen al campeón de copa Bamberg y, con un balance de 6-1, igualan en puntos al FC Bayern. Rostock y Bonn ganan por 97-87. El Bayern juega esta noche en Würzburg.",
+    "t": "BBL: el Trier gana 92-79 al Bamberg y se iguala con el líder Bayern"
+   },
+   "at": "2026-11-08T11:42Z",
+   "h": "f81ec968bb3b",
+   "rev": [
+    "\"FC Bayern München\" left with German city name; use Spanish \"Múnich\" per instruction",
+    "Teaser says Bayern play \"esta noche\" in Würzburg, but the body says Sunday at 18:00; the German says \"am Abend\", so this is acceptable",
+    "Teaser: \"campeón de copa\" is fine; \"balance de 6-1\" is OK",
+    "Bamberg's \"4:4 Siegen\" rendered as balance 4-4, which is not exact but acceptable"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Jordan Roland en un partido de baloncesto en Alemania (Foto de archivo, 2023)"
+   }
+  },
   "benavidez-canelo-crawford-rueckkampf-eng": {
    "L": {
     "body": [
@@ -2605,6 +2632,32 @@
    "x": {
     "img.alt": "Linfocito T coloreado, visto con microscopio electrónico de barrido (imagen simbólica)",
     "kl": "Medicina e investigación"
+   }
+  },
+  "nba-knicks-brunson-towns-cavaliers-thunder-2026-11-08": {
+   "L": {
+    "body": [
+     "En la revancha de las Finales del Este del año pasado, los vigentes campeones New York Knicks ganaron 109-97 a los Cleveland Cavaliers en la madrugada del domingo (hora alemana). Jalen Brunson, MVP de las últimas Finales, sumó 31 puntos y nueve asistencias; en el segundo cuarto anotó 18 puntos consecutivos de los Knicks: de un 34-39 se pasó a un 52-47. Karl-Anthony Towns aportó 29 puntos y 13 rebotes. En Cleveland, Donovan Mitchell anotó 37 puntos (máximo de la temporada), 21 de ellos en el último cuarto. Los Knicks habían derrotado a los Cavaliers por 4-0 en las Finales del Este de la temporada anterior.",
+     "Oklahoma City dejó a su rival en un mínimo de la temporada: en el 114-75 ante los Washington Wizards, el Thunder permitió menos puntos que ningún otro equipo de la NBA en lo que va de curso. Washington solo acertó 29 de 98 tiros y 7 de 43 triples. Shai Gilgeous-Alexander anotó 30 puntos en tres cuartos, Jared McCain 19 y el novato Aday Mara 18. El internacional alemán Isaiah Hartenstein capturó 14 rebotes y repartió seis asistencias. En Washington, el novato AJ Dybantsa fue el máximo anotador con 19 puntos.",
+     "Los San Antonio Spurs ganaron 125-103 en Portland. Victor Wembanyama anotó 29 puntos en solo 24 minutos y acertó 9 de 13 tiros. En el Oeste, Oklahoma City, San Antonio y Los Angeles Lakers lideran con un balance de 8-2 cada uno. Los Knicks (5-4) son quintos en el Este y Cleveland (5-5), séptimo. Los Lakers juegan en la madrugada del lunes a las 0:00 (hora alemana) en Detroit."
+    ],
+    "d": "Jalen Brunson (31 puntos) y Karl-Anthony Towns (29) guían a los Knicks al 109-97 ante los Cavaliers. Oklahoma City deja a Washington en 75 puntos y Wembanyama brilla en Portland.",
+    "t": "NBA: Brunson anota 18 puntos seguidos y los Knicks, campeones, ganan en Cleveland"
+   },
+   "at": "2026-11-08T11:42Z",
+   "h": "daaf84b797b6",
+   "rev": [
+    "\"Finales de Conferencia\" vs. earlier \"Finales del Este\": inconsistent terminology; harmonized to \"Finales del Este\"",
+    "\"Los Angeles Lakers\" lacks article, minor; left as is",
+    "\"balance de 8-2\" fine"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Jalen Brunson (Knicks, a la derecha) y Donovan Mitchell (Cavaliers) en un duelo anterior en Cleveland (Foto de archivo)"
    }
   },
   "nvidia-h200-china-leere-bueros-2026-11-08-b08": {
