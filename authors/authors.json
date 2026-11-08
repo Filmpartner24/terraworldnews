@@ -1,10 +1,27 @@
 [
  {
   "key": "nedy-john-cross",
-  "match": ["Nedy John Cross", "Неди Джон Крос"],
+  "match": [
+   "Nedy John Cross",
+   "Неди Джон Крос"
+  ],
   "img": "/assets/team/nedy-john-cross.jpg",
-  "name": {"de": "Nedy John Cross", "bg": "Неди Джон Крос", "en": "Nedy John Cross", "es": "Nedy John Cross", "tr": "Nedy John Cross", "it": "Nedy John Cross"},
-  "role": {"de": "Gründer und Chefredakteur", "bg": "Основател и главен редактор", "en": "Founder and Editor-in-Chief", "es": "Fundador y redactor jefe", "tr": "Kurucu ve Genel Yayın Yönetmeni", "it": "Fondatore e caporedattore"},
+  "name": {
+   "de": "Nedy John Cross",
+   "bg": "Неди Джон Крос",
+   "en": "Nedy John Cross",
+   "es": "Nedy John Cross",
+   "tr": "Nedy John Cross",
+   "it": "Nedy John Cross"
+  },
+  "role": {
+   "de": "Gründer und Chefredakteur",
+   "bg": "Основател и главен редактор",
+   "en": "Founder and Editor-in-Chief",
+   "es": "Fundador y redactor jefe",
+   "tr": "Kurucu ve Genel Yayın Yönetmeni",
+   "it": "Fondatore e caporedattore"
+  },
   "bio": {
    "de": "Nedy John Cross ist Journalist und Filmemacher. Als Gründer von Filmpartner24 und Terra World News beschäftigt er sich mit aktuellen politischen, wirtschaftlichen, gesellschaftlichen und kulturellen Themen. Sein Schwerpunkt liegt auf unabhängigem Journalismus, Dokumentarfilmen und multimedialer Berichterstattung.",
    "bg": "Неди Джон Крос е журналист и филмов продуцент. Като основател на Filmpartner24 и Terra World News той се занимава с актуални политически, икономически, обществени и културни теми. Фокусът му е върху независимата журналистика, документалните филми и мултимедийното отразяване.",
@@ -14,21 +31,86 @@
    "it": "Nedy John Cross è giornalista e regista. In qualità di fondatore di Filmpartner24 e Terra World News si occupa di attualità politica, economica, sociale e culturale. Il suo lavoro si concentra sul giornalismo indipendente, sul documentario e sull'informazione multimediale."
   },
   "topics": {
-   "de": ["Politik", "Wirtschaft", "Gesellschaft", "Film", "Musik", "Kultur", "Dokumentationen"],
-   "bg": ["Политика", "Икономика", "Общество", "Кино", "Музика", "Култура", "Документални филми"],
-   "en": ["Politics", "Economy", "Society", "Film", "Music", "Culture", "Documentaries"],
-   "es": ["Política", "Economía", "Sociedad", "Cine", "Música", "Cultura", "Documentales"],
-   "tr": ["Siyaset", "Ekonomi", "Toplum", "Film", "Müzik", "Kültür", "Belgeseller"],
-   "it": ["Politica", "Economia", "Società", "Cinema", "Musica", "Cultura", "Documentari"]
+   "de": [
+    "Politik",
+    "Wirtschaft",
+    "Gesellschaft",
+    "Film",
+    "Musik",
+    "Kultur",
+    "Dokumentationen"
+   ],
+   "bg": [
+    "Политика",
+    "Икономика",
+    "Общество",
+    "Кино",
+    "Музика",
+    "Култура",
+    "Документални филми"
+   ],
+   "en": [
+    "Politics",
+    "Economy",
+    "Society",
+    "Film",
+    "Music",
+    "Culture",
+    "Documentaries"
+   ],
+   "es": [
+    "Política",
+    "Economía",
+    "Sociedad",
+    "Cine",
+    "Música",
+    "Cultura",
+    "Documentales"
+   ],
+   "tr": [
+    "Siyaset",
+    "Ekonomi",
+    "Toplum",
+    "Film",
+    "Müzik",
+    "Kültür",
+    "Belgeseller"
+   ],
+   "it": [
+    "Politica",
+    "Economia",
+    "Società",
+    "Cinema",
+    "Musica",
+    "Cultura",
+    "Documentari"
+   ]
   },
   "email": "media@filmpartner24.com"
  },
  {
   "key": "maya-pavllova",
-  "match": ["Maya Pavllova", "Мая Павлова"],
+  "match": [
+   "Maya Pavllova",
+   "Мая Павлова"
+  ],
   "img": "/assets/team/maya-pavllova.jpg",
-  "name": {"de": "Maya Pavllova", "bg": "Мая Павлова", "en": "Maya Pavllova", "es": "Maya Pavllova", "tr": "Maya Pavllova", "it": "Maya Pavllova"},
-  "role": {"de": "Autorin", "bg": "Авторка", "en": "Writer", "es": "Autora", "tr": "Yazar", "it": "Autrice"},
+  "name": {
+   "de": "Maya Pavllova",
+   "bg": "Мая Павлова",
+   "en": "Maya Pavllova",
+   "es": "Maya Pavllova",
+   "tr": "Maya Pavllova",
+   "it": "Maya Pavllova"
+  },
+  "role": {
+   "de": "Autorin",
+   "bg": "Авторка",
+   "en": "Writer",
+   "es": "Autora",
+   "tr": "Yazar",
+   "it": "Autrice"
+  },
   "bio": {
    "de": "Maya Pavllova ist Schriftstellerin und Buchautorin. Ihre Arbeit verbindet literarisches Schreiben mit gesellschaftlichen, kulturellen und menschlichen Themen. Bei Terra World News bringt sie ihre Perspektive als Autorin in journalistische und redaktionelle Beiträge ein.",
    "bg": "Мая Павлова е писателка и авторка на книги. В работата си тя съчетава литературното писане с обществени, културни и човешки теми. В Terra World News тя внася своята авторска гледна точка в журналистически и редакционни материали.",
@@ -38,12 +120,157 @@
    "it": "Maya Pavllova è scrittrice e autrice di libri. Il suo lavoro unisce la scrittura letteraria a temi sociali, culturali e umani. Per Terra World News porta il suo sguardo di autrice in contributi giornalistici e redazionali."
   },
   "topics": {
-   "de": ["Literatur", "Bücher", "Kultur", "Gesellschaft", "Menschen und Geschichten"],
-   "bg": ["Литература", "Книги", "Култура", "Общество", "Хора и истории"],
-   "en": ["Literature", "Books", "Culture", "Society", "People and stories"],
-   "es": ["Literatura", "Libros", "Cultura", "Sociedad", "Personas e historias"],
-   "tr": ["Edebiyat", "Kitaplar", "Kültür", "Toplum", "İnsanlar ve hikâyeler"],
-   "it": ["Letteratura", "Libri", "Cultura", "Società", "Persone e storie"]
+   "de": [
+    "Literatur",
+    "Bücher",
+    "Kultur",
+    "Gesellschaft",
+    "Menschen und Geschichten"
+   ],
+   "bg": [
+    "Литература",
+    "Книги",
+    "Култура",
+    "Общество",
+    "Хора и истории"
+   ],
+   "en": [
+    "Literature",
+    "Books",
+    "Culture",
+    "Society",
+    "People and stories"
+   ],
+   "es": [
+    "Literatura",
+    "Libros",
+    "Cultura",
+    "Sociedad",
+    "Personas e historias"
+   ],
+   "tr": [
+    "Edebiyat",
+    "Kitaplar",
+    "Kültür",
+    "Toplum",
+    "İnsanlar ve hikâyeler"
+   ],
+   "it": [
+    "Letteratura",
+    "Libri",
+    "Cultura",
+    "Società",
+    "Persone e storie"
+   ]
   }
+ },
+ {
+  "key": "geronimo-fuchs",
+  "match": [
+   "Geronimo Fuchs",
+   "Джеронимо Фукс"
+  ],
+  "img": "/assets/team/geronimo-fuchs.svg",
+  "name": {
+   "de": "Geronimo Fuchs",
+   "bg": "Джеронимо Фукс",
+   "en": "Geronimo Fuchs",
+   "es": "Geronimo Fuchs",
+   "tr": "Geronimo Fuchs",
+   "it": "Geronimo Fuchs"
+  },
+  "role": {
+   "de": "Redakteur & Videoproduzent",
+   "bg": "Редактор и видеопродуцент",
+   "en": "Editor & Video Producer",
+   "es": "Redactor y productor de vídeo",
+   "tr": "Editör ve Video Yapımcısı",
+   "it": "Redattore e videoproduttore"
+  },
+  "bio": {
+   "de": "Geronimo Fuchs ist Redakteur und Videoproduzent bei Filmpartner24. Er beschäftigt sich mit aktuellen politischen, gesellschaftlichen und wirtschaftlichen Themen. Sein Schwerpunkt liegt auf der journalistischen Aufbereitung des Tagesgeschehens sowie der Produktion aktueller Videobeiträge für Terra World News.",
+   "bg": "Джеронимо Фукс е редактор и видеопродуцент във Filmpartner24. Той се занимава с актуални политически, обществени и икономически теми. Фокусът му е журналистическото отразяване на текущите събития и продукцията на актуални видеоматериали за Terra World News.",
+   "en": "Geronimo Fuchs is an editor and video producer at Filmpartner24. He covers current political, social and economic affairs. His focus is on the journalistic coverage of daily news and the production of current video reports for Terra World News.",
+   "es": "Geronimo Fuchs es redactor y productor de vídeo en Filmpartner24. Se ocupa de la actualidad política, social y económica. Su especialidad es el tratamiento periodístico de la actualidad diaria y la producción de vídeos de actualidad para Terra World News.",
+   "tr": "Geronimo Fuchs, Filmpartner24'te editör ve video yapımcısıdır. Güncel siyasi, toplumsal ve ekonomik konularla ilgilenir. Odak noktası günlük olayların gazetecilik açısından işlenmesi ve Terra World News için güncel video haberlerin üretimidir.",
+   "it": "Geronimo Fuchs è redattore e videoproduttore presso Filmpartner24. Si occupa di attualità politica, sociale ed economica. Il suo lavoro si concentra sul racconto giornalistico della cronaca quotidiana e sulla produzione di video d'attualità per Terra World News."
+  },
+  "topics": {
+   "de": [
+    "Politik",
+    "Gesellschaft",
+    "Wirtschaft",
+    "Tagesgeschehen",
+    "Videoreportagen"
+   ],
+   "bg": [
+    "Политика",
+    "Общество",
+    "Икономика",
+    "Актуални събития",
+    "Видеорепортажи"
+   ],
+   "en": [
+    "Politics",
+    "Society",
+    "Economy",
+    "Daily news",
+    "Video reports"
+   ],
+   "es": [
+    "Política",
+    "Sociedad",
+    "Economía",
+    "Actualidad",
+    "Videorreportajes"
+   ],
+   "tr": [
+    "Siyaset",
+    "Toplum",
+    "Ekonomi",
+    "Gündem",
+    "Video haberler"
+   ],
+   "it": [
+    "Politica",
+    "Società",
+    "Economia",
+    "Attualità",
+    "Videoreportage"
+   ]
+  }
+ },
+ {
+  "key": "duc-huy-ngo",
+  "match": [
+   "Duc Huy Ngo",
+   "Дук Хуи Нго"
+  ],
+  "img": "/assets/team/duc-huy-ngo.svg",
+  "name": {
+   "de": "Duc Huy Ngo",
+   "bg": "Дук Хуи Нго",
+   "en": "Duc Huy Ngo",
+   "es": "Duc Huy Ngo",
+   "tr": "Duc Huy Ngo",
+   "it": "Duc Huy Ngo"
+  },
+  "role": {
+   "de": "Redakteur & Videoproduzent",
+   "bg": "Редактор и видеопродуцент",
+   "en": "Editor & Video Producer",
+   "es": "Redactor y productor de vídeo",
+   "tr": "Editör ve Video Yapımcısı",
+   "it": "Redattore e videoproduttore"
+  },
+  "bio": {
+   "de": "Duc Huy Ngo ist Redakteur und Videoproduzent bei Filmpartner24 und arbeitet für Terra World News.",
+   "bg": "Дук Хуи Нго е редактор и видеопродуцент във Filmpartner24 и работи за Terra World News.",
+   "en": "Duc Huy Ngo is an editor and video producer at Filmpartner24 and works for Terra World News.",
+   "es": "Duc Huy Ngo es redactor y productor de vídeo en Filmpartner24 y trabaja para Terra World News.",
+   "tr": "Duc Huy Ngo, Filmpartner24'te editör ve video yapımcısıdır ve Terra World News için çalışmaktadır.",
+   "it": "Duc Huy Ngo è redattore e videoproduttore presso Filmpartner24 e lavora per Terra World News."
+  },
+  "topics": {}
  }
 ]

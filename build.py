@@ -3515,7 +3515,7 @@ def build():
             txt = open(os.path.join(HERE, 'legal', f'{k}.{l}.html'), encoding='utf-8').read()
             lalts = {x: legal_url(k, x) for x in act}
             if k == 'about' and AUTHORS:   # Team mit Links zu den Autorenseiten (Nedy 08.11.2026)
-                txt += f'<h2 id="team">{e(AU_TEAM[l])}</h2>' + ''.join(f'<div class="au-card"><a href="{au_url(a, l)}"><img src="{a["img"]}" width="168" height="192" alt="{e(au_txt(a, "name", l))}" loading="lazy"></a><div><h3><a href="{au_url(a, l)}">{e(au_txt(a, "name", l))}</a></h3><p class="au-role">{e(au_txt(a, "role", l))}</p><p>{e(au_txt(a, "bio", l))}</p><ul class="au-tops">{"".join(f"<li>{e(t)}</li>" for t in (a["topics"].get(l) or a["topics"]["en"]))}</ul></div></div>' for a in AUTHORS)   # vollständige Autorenprofile auf „Über uns“ (Nedy 08.11.2026)
+                txt += f'<h2 id="team">{e(AU_TEAM[l])}</h2>' + ''.join(f'<div class="au-card"><a href="{au_url(a, l)}"><img src="{a["img"]}" width="168" height="192" alt="{e(au_txt(a, "name", l))}" loading="lazy"></a><div><h3><a href="{au_url(a, l)}">{e(au_txt(a, "name", l))}</a></h3><p class="au-role">{e(au_txt(a, "role", l))}</p><p>{e(au_txt(a, "bio", l))}</p><ul class="au-tops">{"".join(f"<li>{e(t)}</li>" for t in (a["topics"].get(l) or a["topics"].get("en") or []))}</ul></div></div>' for a in AUTHORS)   # vollständige Autorenprofile auf „Über uns“ (Nedy 08.11.2026)
             write(legal_url(k, l), page(l, act, f'{u[k]} | TWN – World News', f'{u[k]} – TWN – World News (Terra World News)', legal_url(k, l), f'<article class="legal">{txt}</article>', lalts, issue=latest.get('issue', 1), date=latest['date']))
             urls.append((legal_url(k, l), lalts, latest['date']))
         # ---- Autorenseiten (Nedy 08.11.2026)
@@ -3523,12 +3523,12 @@ def build():
             nm, rl, bio = au_txt(a, 'name', l), au_txt(a, 'role', l), au_txt(a, 'bio', l)
             mine = sorted([x for x in items_l if author_of(x) is a], key=lambda x: (x['date'], x['time']), reverse=True)
             aalts = {x: au_url(a, x) for x in act}
-            tops = ''.join(f'<li>{e(t)}</li>' for t in (a['topics'].get(l) or a['topics']['en']))
+            tops = ''.join(f'<li>{e(t)}</li>' for t in (a['topics'].get(l) or a['topics'].get('en') or []))
             con = f'<p class="au-con"><b>{e(AU_CON[l])}:</b> <a href="mailto:{a["email"]}">{a["email"]}</a></p>' if a.get('email') else ''
             arts = f'<section class="au-arts"><h2>{e(AU_ART[l])}</h2><div class="cards">{"".join(card(x, l) for x in mine[:60])}</div></section>' if mine else ''
             body = (f'<article class="author"><div class="au-head"><img class="au-ph" src="{a["img"]}" width="336" height="384" alt="{e(nm)}"><div><p class="au-k">{e(AU_T[l])}</p><h1>{e(nm)}</h1><p class="au-role">{e(rl)}</p>'
-                    f'<p class="au-bio">{e(bio)}</p><h2 class="au-th">{e(AU_TOP[l])}</h2><ul class="au-tops">{tops}</ul>{con}</div></div>{arts}</article>')
-            ld = {"@context": "https://schema.org", "@type": "ProfilePage", "url": SITE + au_url(a, l), "inLanguage": l, "mainEntity": {"@type": "Person", "name": nm, "jobTitle": rl, "description": bio, "image": SITE + a['img'], "url": SITE + au_url(a, l), "knowsAbout": a['topics'].get(l) or a['topics']['en'], "worksFor": {"@id": SITE + "/#org"}}}
+                    f'<p class="au-bio">{e(bio)}</p>{(f"<h2 class=au-th>{e(AU_TOP[l])}</h2><ul class=au-tops>{tops}</ul>") if tops else ""}{con}</div></div>{arts}</article>')
+            ld = {"@context": "https://schema.org", "@type": "ProfilePage", "url": SITE + au_url(a, l), "inLanguage": l, "mainEntity": {"@type": "Person", "name": nm, "jobTitle": rl, "description": bio, "image": SITE + a['img'], "url": SITE + au_url(a, l), "knowsAbout": a['topics'].get(l) or a['topics'].get('en') or [], "worksFor": {"@id": SITE + "/#org"}}}
             write(au_url(a, l), page(l, act, f'{nm} – {rl} | TWN', bio[:155], au_url(a, l), body, aalts, ld, og_type='profile', issue=latest.get('issue', 1), date=latest['date'], og_img=a['img']))
             urls.append((au_url(a, l), aalts, (mine[0]['date'] if mine else latest['date'])))
         # ---- search index: inverted index sharded by token prefix (scales over years) + search page
