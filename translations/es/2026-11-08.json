@@ -502,6 +502,32 @@
     "rv.score": "OpenCritic 83 · Noisy Pixel 10/10 · Siliconera 8/10 · Screen Hype 7,8/10"
    }
   },
+  "deepmind-rsa-1024-schwachstellen": {
+   "L": {
+    "body": [
+     "Google DeepMind presentó el viernes dos avances en ataques contra el obsoleto método de cifrado RSA con claves de 1024 bits. Según la empresa, agentes de IA los elaboraron en solo unas semanas, guiados por los criptógrafos Nadia Heninger (Universidad de California en San Diego e Inria) y Emmanuel Thomé (Inria). Hasta ahora, los resultados solo se han presentado en publicaciones en X.",
+     "La primera debilidad afecta a las firmas digitales: si un atacante controla solo una pequeña parte de los datos firmados, por ejemplo una huella digital de 32 bytes, una firma podría falsificarse en teoría con una eficiencia unas 1600 veces mayor que con el mejor método conocido hasta ahora. Esto no supone un ataque real contra certificados auténticos. La segunda afecta al craqueo masivo de claves: el coste medio de cada clave adicional de 1024 bits en un lote se reduce aproximadamente 30 veces.",
+     "Según DeepMind, las claves de 2048 bits o más, que hoy se utilizan prácticamente en todas partes en la banca en línea, en aplicaciones de mensajería y en actualizaciones de software, no están afectadas. RSA-1024 no está permitido para nuevas aplicaciones desde hace años, pero aún se encuentra en dispositivos antiguos, redes empresariales y cortafuegos. Pushmeet Kohli, director científico de DeepMind, ve en ello un motivo para revisar periódicamente los supuestos criptográficos."
+    ],
+    "d": "Junto con expertos en criptografía, los agentes descubrieron en pocas semanas dos nuevas vías de ataque contra claves de 1024 bits. Las claves más largas habituales hoy no se ven afectadas.",
+    "t": "Agentes de IA de DeepMind hallan dos debilidades en el antiguo cifrado RSA"
+   },
+   "at": "2026-11-08T12:43Z",
+   "h": "9262eff2c755",
+   "rev": [
+    "Untranslated German words: \"University of California San Diego\" left in English form; should be Spanish \"Universidad de California en San Diego\"",
+    "\"Knacken\" (cracking keys) rendered as \"descifrado\"; \"romper/vulnerar claves\" is more accurate"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: entrada del edificio de Google y Google DeepMind en Londres, 6 Pancras Square",
+    "kl": "Seguridad"
+   }
+  },
   "deutsche-boerse": {
    "L": {
     "body": [
@@ -2684,6 +2710,27 @@
    ],
    "x": {
     "img.alt": "Jalen Brunson (Knicks, a la derecha) y Donovan Mitchell (Cavaliers) en un duelo anterior en Cleveland (Foto de archivo)"
+   }
+  },
+  "nba-video-curry-41-warriors-magic-wagner-2026-11-08": {
+   "L": {
+    "body": [
+     "Stephen Curry ha llevado a los Golden State Warriors a su séptima victoria consecutiva. En el 126-119 tras la prórroga contra los Orlando Magic, el jugador de 38 años anotó en la madrugada del domingo (hora alemana) 41 puntos, seis rebotes y seis asistencias, y acertó 13 de 19 tiros. En la prórroga puso por delante a Golden State a 1:38 minutos del final con una bandeja convertida más tiro libre adicional, y siguió sumando en el último minuto. Los Warriors habían arrancado la temporada con un 0-3 y ahora están en 7-3. El novato Yaxel Lendeborg logró 23 puntos y Draymond Green 13 asistencias (mejor marca de la temporada).",
+     "En Orlando, Franz Wagner convenció con 30 puntos y once asistencias, y su compañero en la selección Tristan da Silva y Wendell Carter Jr. anotaron 19 puntos cada uno. Los Magic perdían 41-57 al descanso, pero lideraban 78-77 tras tres cuartos. Jamal Cain (18 puntos, 12 rebotes) forzó la prórroga para Orlando con un tiro tras rebote a dos segundos del final del tiempo reglamentario. Carter había fallado antes dos tiros libres para el posible empate a 1:15 minutos del final de la prórroga. Orlando suma un balance de 2-7.",
+     "Para Curry fue, según AP, el 16.º partido con al menos 40 puntos después de cumplir 35 años, un récord en la historia de la NBA por delante de LeBron James (15) y Michael Jordan (12). El vídeo con los resúmenes detallados procede del canal oficial de YouTube de la NBA."
+    ],
+    "d": "Stephen Curry decide el 126-119 tras la prórroga y Golden State celebra su séptima victoria seguida. En Orlando brillan Franz Wagner (30 puntos, 11 asistencias) y Tristan da Silva. Lo mejor de la NBA.",
+    "t": "Vídeo: Curry anota 41 y los Warriors vencen a los Magic pese a los 30 de Franz Wagner"
+   },
+   "at": "2026-11-08T12:43Z",
+   "h": "556b6f15390a",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Stephen Curry calienta antes de un partido de los Warriors en Denver (foto de archivo)"
    }
   },
   "nvidia-h200-china-leere-bueros-2026-11-08-b08": {

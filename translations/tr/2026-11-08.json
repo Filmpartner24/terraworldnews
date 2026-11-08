@@ -523,6 +523,36 @@
     "rv.score": "OpenCritic 83 · Noisy Pixel 10/10 · Siliconera 8/10 · Screen Hype 7,8/10"
    }
   },
+  "deepmind-rsa-1024-schwachstellen": {
+   "L": {
+    "body": [
+     "Google DeepMind cuma günü, eskimiş RSA şifreleme yönteminin 1024 bitlik anahtarlarına yönelik saldırılarda iki ilerleme sunduğunu açıkladı. Şirketin verdiği bilgiye göre yapay zekâ ajanları bu sonuçları yalnızca birkaç hafta içinde geliştirdi; ajanlara kriptograflar Nadia Heninger (University of California San Diego ve Inria) ile Emmanuel Thomé (Inria) yön verdi. Sonuçlar şimdiye kadar yalnızca X'teki paylaşımlarla duyuruldu.",
+     "İlk zayıflık dijital imzalarla ilgili: Bir saldırgan imzalanan verinin yalnızca küçük bir bölümünü, örneğin 32 bayt uzunluğunda bir parmak izini kontrol ediyorsa, bir imzanın kuramsal olarak şimdiye kadarki en iyi yönteme kıyasla yaklaşık 1600 kat daha verimli biçimde taklit edilebileceği belirtiliyor. Bu, gerçek sertifikalara yönelik fiilî bir saldırı değil. İkincisi toplu kırmayla ilgili: Bir yığındaki her ek 1024 bitlik anahtarın ortalama maliyeti yaklaşık 30 kat düşüyor.",
+     "DeepMind'a göre bugün çevrimiçi bankacılıkta, mesajlaşma uygulamalarında ve yazılım güncellemelerinde neredeyse her yerde kullanılan 2048 bit ve daha uzun anahtarlar etkilenmiyor. RSA-1024'e yeni uygulamalar için yıllardır izin verilmiyor, ancak eski cihazlarda, şirket ağlarında ve güvenlik duvarlarında hâlâ bulunuyor. DeepMind'ın bilim sorumlusu Pushmeet Kohli, bunda kriptografik varsayımların düzenli olarak yeniden sınanması için bir neden görüyor."
+    ],
+    "d": "Ajanlar, kriptografi uzmanlarıyla birlikte birkaç hafta içinde 1024 bitlik anahtarlara yönelik iki yeni saldırı yolu keşfetti. Bugün yaygın olan daha uzun anahtarlar etkilenmiyor.",
+    "t": "DeepMind'ın yapay zekâ ajanları eski RSA şifrelemesinde iki zayıflık buldu"
+   },
+   "at": "2026-11-08T12:43Z",
+   "h": "9262eff2c755",
+   "rev": [
+    "Proper names 'University of California San Diego' left as in the original; they are proper names, so no change is needed.",
+    "Teaser: 'Mit Kryptografie-Fachleuten' rendered as 'birlikte'; this is acceptable.",
+    "'Kontrolliert ... soll sich ... fälschen lassen' is rendered with 'belirtiliyor', which keeps the hedge; this is acceptable.",
+    "'Zweite Schwäche' is rendered as 'İkincisi' without the word for weakness; this is acceptable.",
+    "'Heute praktisch überall' is rendered as 'neredeyse her yerde'; this is acceptable.",
+    "Mistake in the third paragraph: 'RSA-1024 ... izin verilmiyor' is grammatically awkward (needs the passive/izin verilmemektedir form); minor fix."
+   ],
+   "rev_dbg": [
+    6,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Google ve Google DeepMind'ın Londra'daki 6 Pancras Square adresindeki bina girişi",
+    "kl": "Güvenlik"
+   }
+  },
   "deutsche-boerse": {
    "L": {
     "body": [
@@ -2829,6 +2859,36 @@
    ],
    "x": {
     "img.alt": "Jalen Brunson (Knicks, sağda) ve Donovan Mitchell (Cavaliers) Cleveland'daki daha önceki bir karşılaşmada (Arşiv fotoğrafı)"
+   }
+  },
+  "nba-video-curry-41-warriors-magic-wagner-2026-11-08": {
+   "L": {
+    "body": [
+     "Stephen Curry, Golden State Warriors'ı üst üste yedinci galibiyete taşıdı. Orlando Magic karşısında uzatmalarda alınan 126-119'luk maçta 38 yaşındaki yıldız, Almanya saatiyle cumartesiyi pazara bağlayan gece 41 sayı, altı ribaund ve altı asist kaydetti; 19 şutun 13'ünü isabetli attı. Uzatmada maçın bitmesine 1:38 kala bir basketle ve bonus serbest atışla Golden State'i öne geçirdi, son dakikada da sayı üretmeyi sürdürdü. Warriors sezona 0-3 ile başlamıştı, şimdi 7-3'lük bilançoya sahip. Çaylak Yaxel Lendeborg 23 sayı, Draymond Green ise sezonun en yüksek rakamı olan 13 asist yaptı.",
+     "Orlando'da Franz Wagner 30 sayı ve 11 asistle dikkat çekti, milli takım arkadaşı Tristan da Silva ile Wendell Carter Jr. ise 19'ar sayı kaydetti. Magic devreyi 41-57 geride kapattı, ancak üç periyot sonunda 78-77 öndeydi. Jamal Cain (18 sayı, 12 ribaund), normal sürenin bitmesine iki saniye kala ribaunddan attığı sayıyla Orlando'yu uzatmaya taşıdı. Carter, uzatmanın bitmesine 1:15 kala olası beraberlik için iki serbest atışı kaçırmıştı. Orlando 2 galibiyet, 7 mağlubiyetle bilançosunu sürdürüyor.",
+     "AP'ye göre Curry için bu, 35. doğum gününden sonraki en az 40 sayılı 16. maçtı; bu, NBA tarihinde LeBron James (15) ve Michael Jordan'ın (12) önünde rekor. Ayrıntılı özetleri içeren video, NBA'nin resmi YouTube kanalından alındı."
+    ],
+    "d": "Stephen Curry uzatmalarda 126-119'luk galibiyeti getirdi, Golden State üst üste yedinci galibiyetini aldı. Orlando'da Franz Wagner (30 sayı, 11 asist) ve Tristan da Silva parladı. NBA'nin öne çıkanları.",
+    "t": "Video: Curry 41 sayı attı – Warriors, Franz Wagner'in 30 sayısına rağmen Magic'i yendi"
+   },
+   "at": "2026-11-08T12:43Z",
+   "h": "556b6f15390a",
+   "rev": [
+    "\"je 19 Punkte\" mistranslated as \"ikişer kez 19 sayı\" (twice 19 points); should be 19 points each",
+    "\"Nachwurf\" (tip-in/follow-up shot) rendered awkwardly as \"ribaund sonrası attığı sayı\"; also \"rettete ... in die Verlängerung\" is fine",
+    "\"Nationalmannschaftskollege\" fine; \"Bonusfreiwurf\" wording: \"bonus serbest atış kullanarak\" is unclear, should be a converted and-one free throw",
+    "\"legte in der letzten Minute nach\" rendered vaguely as \"skora katkı yaptı\"",
+    "Wrong record for 2:7: \"2 galibiyet, 7 mağlubiyetle bilançosunu sürdürüyor\" is ok, but the \"Rekord\" sentence is clumsy",
+    "\"Nacht zum Sonntag\" rendered as \"pazar gecesi\" (Saturday night into Sunday); should be \"pazar gününe karşı gece\"",
+    "\"Nationalmannschaftskollege\" ok; \"NBA'in\" spelling should be \"NBA'nin\""
+   ],
+   "rev_dbg": [
+    7,
+    7,
+    0
+   ],
+   "x": {
+    "img.alt": "Stephen Curry, Denver'da bir Warriors maçı öncesinde ısınırken (Arşiv fotoğrafı)"
    }
   },
   "nvidia-h200-china-leere-bueros-2026-11-08-b08": {
