@@ -10,7 +10,7 @@
   "de": "World Boxing Association",
   "en": "World Boxing Association"
  },
- "asof": "2026-11-07",
+ "asof": "2026-11-08",
  "champions": [
   {
    "div": {
@@ -250,23 +250,6 @@
  ],
  "upcoming": [
   {
-   "date": "2026-11-07",
-   "place": "Kiva Auditorium, Albuquerque, USA",
-   "f1": "Abraham Pérez",
-   "f2": "Yankiel Rivera Figueroa",
-   "div": {
-    "bg": "Муха категория",
-    "de": "Fliegengewicht",
-    "en": "Flyweight"
-   },
-   "title": {
-    "bg": "Временна титла на WBA",
-    "de": "WBA-Interims-WM",
-    "en": "WBA interim title"
-   },
-   "note": "Pérez verteidigt den Interimstitel"
-  },
-  {
    "date": "2026-11-26",
    "place": "Tokio, Japan",
    "f1": "Takeshi Ishii",
@@ -436,6 +419,27 @@
   }
  ],
  "results": [
+  {
+   "date": "2026-11-07",
+   "place": "Kiva Auditorium, Albuquerque, USA",
+   "f1": "Abraham Pérez",
+   "f2": "Yankiel Rivera Figueroa",
+   "res": {
+    "de": "einstimmig nach Punkten (120-107, 119-109, 118-109)",
+    "bg": "единодушно съдийско решение (120-107, 119-109, 118-109)",
+    "en": "unanimous decision (120-107, 119-109, 118-109)"
+   },
+   "div": {
+    "bg": "Муха категория",
+    "de": "Fliegengewicht",
+    "en": "Flyweight"
+   },
+   "title": {
+    "bg": "Временна титла на WBA",
+    "de": "WBA-Interims-WM",
+    "en": "WBA interim title"
+   }
+  },
   {
    "date": "2026-10-31",
    "place": "Riad, Saudi-Arabien",
@@ -682,6 +686,10 @@
   {
    "n": "Sky Sports, 04.11.2026",
    "u": "https://www.skysports.com/boxing/news/13607985/fury-vs-joshua-undercard-deontay-wilder-to-fight-jai-opetaia-in-heavyweight-bout-on-december-11-principality-stadium-bill"
+  },
+  {
+   "n": "The Ring, 08.11.2026",
+   "u": "https://www.ringmagazine.com/news/perez-retains-wba-interim-flyweight-title-in-one-sided-victory-6JUDDUpZW4AuqgilRorzYn"
   }
  ]
 }

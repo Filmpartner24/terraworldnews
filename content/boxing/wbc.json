@@ -10,7 +10,7 @@
   "de": "World Boxing Council",
   "en": "World Boxing Council"
  },
- "asof": "2026-11-07",
+ "asof": "2026-11-08",
  "champions": [
   {
    "div": {
@@ -49,12 +49,12 @@
     "en": "Light Heavyweight"
    },
    "limit": "bis 79,4 kg (175 lb)",
-   "name": "",
-   "country": "",
+   "name": "Willy Hutchinson",
+   "country": "Großbritannien",
    "note": {
-    "bg": "вакантна – Дейвид Бенавидес остава в крайцер категория; Джошуа Буатси срещу Уили Хътчинсън на 7.11.2026 за вакантната титла",
-    "de": "vakant – David Benavidez bleibt im Cruisergewicht; Joshua Buatsi vs. Willy Hutchinson am 7.11.2026 um den vakanten Titel",
-    "en": "vacant – David Benavidez stays at cruiserweight; Joshua Buatsi vs Willy Hutchinson on 7 Nov 2026 for the vacant title"
+    "de": "Gewann den vakanten Titel am 07.11.2026 gegen Joshua Buatsi",
+    "bg": "Спечели вакантната титла на 07.11.2026 г. срещу Джошуа Буатси",
+    "en": "Won the vacant title on 07.11.2026 against Joshua Buatsi"
    }
   },
   {
@@ -220,23 +220,6 @@
  ],
  "upcoming": [
   {
-   "date": "2026-11-07",
-   "place": "Manchester, Großbritannien",
-   "f1": "Joshua Buatsi",
-   "f2": "Willy Hutchinson",
-   "div": {
-    "bg": "Полутежка категория",
-    "de": "Halbschwergewicht",
-    "en": "Light Heavyweight"
-   },
-   "title": {
-    "bg": "Вакантна титла на WBC",
-    "de": "WBC-WM (vakant)",
-    "en": "Vacant WBC title"
-   },
-   "note": "Rückkampf; zuvor als Interims-WM angekündigt, auf wbcboxing.com (06.11.2026) weiterhin als Interims-WM bezeichnet; laut BBC zum vollen Titel aufgewertet"
-  },
-  {
    "date": "2026-11-14",
    "place": "The Venue, Riad, Saudi-Arabien",
    "f1": "Carlos Adames",
@@ -289,6 +272,27 @@
   }
  ],
  "results": [
+  {
+   "date": "2026-11-07",
+   "place": "AO Arena, Manchester, Großbritannien",
+   "f1": "Willy Hutchinson",
+   "f2": "Joshua Buatsi",
+   "res": {
+    "de": "einstimmig nach Punkten (117-112, 115-113, 115-113)",
+    "bg": "единодушно съдийско решение (117-112, 115-113, 115-113)",
+    "en": "unanimous decision (117-112, 115-113, 115-113)"
+   },
+   "div": {
+    "bg": "Полутежка категория",
+    "de": "Halbschwergewicht",
+    "en": "Light Heavyweight"
+   },
+   "title": {
+    "de": "WBC-WM (vakant)",
+    "bg": "Световна титла на WBC (вакантна)",
+    "en": "WBC world title (vacant)"
+   }
+  },
   {
    "date": "2026-10-31",
    "place": "Riad, Saudi-Arabien",
@@ -477,27 +481,6 @@
     "de": "WBC-WM",
     "en": "WBC world title"
    }
-  },
-  {
-   "date": "2026-08-01",
-   "place": "Las Vegas, USA",
-   "f1": "William Zepeda",
-   "f2": "Lamont Roach",
-   "res": {
-    "bg": "единодушно съдийско решение",
-    "de": "einstimmig nach Punkten",
-    "en": "unanimous decision"
-   },
-   "div": {
-    "bg": "Лека категория",
-    "de": "Leichtgewicht",
-    "en": "Lightweight"
-   },
-   "title": {
-    "bg": "Вакантна световна титла на WBC",
-    "de": "vakante WBC-WM",
-    "en": "vacant WBC world title"
-   }
   }
  ],
  "src": [
@@ -632,6 +615,10 @@
   {
    "n": "Boxing News, 03.11.2026",
    "u": "https://boxingnewsonline.net/news/interim-champion-coming-for-canelo/"
+  },
+  {
+   "n": "Sky Sports, 07.11.2026",
+   "u": "https://www.skysports.com/boxing/news/13609599/willy-hutchinson-crowned-as-new-wbc-light-heavyweight-champion-after-beating-joshua-buatsi-in-rematch"
   }
  ]
 }
