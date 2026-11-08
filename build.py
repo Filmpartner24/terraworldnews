@@ -3515,7 +3515,7 @@ def build():
             txt = open(os.path.join(HERE, 'legal', f'{k}.{l}.html'), encoding='utf-8').read()
             lalts = {x: legal_url(k, x) for x in act}
             if k == 'about' and AUTHORS:   # Team mit Links zu den Autorenseiten (Nedy 08.11.2026)
-                txt += f'<h2>{e(AU_TEAM[l])}</h2><div class="au-team">' + ''.join(f'<a class="au-mini" href="{au_url(a, l)}"><img src="{a["img"]}" width="72" height="82" alt="{e(au_txt(a, "name", l))}" loading="lazy"><span><b>{e(au_txt(a, "name", l))}</b><small>{e(au_txt(a, "role", l))}</small></span></a>' for a in AUTHORS) + '</div>'
+                txt += f'<h2 id="team">{e(AU_TEAM[l])}</h2>' + ''.join(f'<div class="au-card"><a href="{au_url(a, l)}"><img src="{a["img"]}" width="168" height="192" alt="{e(au_txt(a, "name", l))}" loading="lazy"></a><div><h3><a href="{au_url(a, l)}">{e(au_txt(a, "name", l))}</a></h3><p class="au-role">{e(au_txt(a, "role", l))}</p><p>{e(au_txt(a, "bio", l))}</p><ul class="au-tops">{"".join(f"<li>{e(t)}</li>" for t in (a["topics"].get(l) or a["topics"]["en"]))}</ul></div></div>' for a in AUTHORS)   # vollständige Autorenprofile auf „Über uns“ (Nedy 08.11.2026)
             write(legal_url(k, l), page(l, act, f'{u[k]} | TWN – World News', f'{u[k]} – TWN – World News (Terra World News)', legal_url(k, l), f'<article class="legal">{txt}</article>', lalts, issue=latest.get('issue', 1), date=latest['date']))
             urls.append((legal_url(k, l), lalts, latest['date']))
         # ---- Autorenseiten (Nedy 08.11.2026)

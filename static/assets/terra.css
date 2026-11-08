@@ -2014,3 +2014,8 @@ background:linear-gradient(135deg,color-mix(in srgb,var(--c1) 26%,#0a1030),color
 .legal .au-mini,.au-mini{display:flex;gap:12px;align-items:center;text-decoration:none;color:inherit;border:1px solid var(--rule);border-radius:12px;padding:8px 14px 8px 8px}
 .au-mini img{width:72px;height:82px;object-fit:cover;border-radius:8px}.au-mini b{display:block}.au-mini small{color:var(--muted)}
 @media(max-width:640px){.au-head{grid-template-columns:1fr}.au-ph{width:180px}}
+.au-card{display:grid;grid-template-columns:168px 1fr;gap:22px;align-items:start;margin:18px 0 26px}
+.au-card img{width:168px;height:auto;aspect-ratio:336/384;object-fit:cover;border-radius:12px}
+.legal .au-card h3{font-family:var(--head);font-size:21px;margin:0 0 2px}.legal .au-card h3 a{text-decoration:none;color:inherit}
+.au-card .au-role{margin:0 0 8px}
+@media(max-width:640px){.au-card{grid-template-columns:1fr}.au-card img{width:150px}}
