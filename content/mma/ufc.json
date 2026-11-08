@@ -11,7 +11,7 @@
   "de": "Ultimate Fighting Championship",
   "en": "Ultimate Fighting Championship"
  },
- "asof": "2026-11-07",
+ "asof": "2026-11-08",
  "champions": [
   {
    "div": {
@@ -135,23 +135,6 @@
   }
  ],
  "upcoming": [
-  {
-   "date": "2026-11-07",
-   "place": "Meta APEX, Las Vegas, USA",
-   "f1": "Waldo Cortes-Acosta",
-   "f2": "Johnny Walker",
-   "div": {
-    "bg": "Тежка категория",
-    "de": "Schwergewicht",
-    "en": "Heavyweight"
-   },
-   "title": {
-    "bg": "UFC Fight Night (Vegas 124) – главен двубой",
-    "de": "UFC Fight Night (Vegas 124) – Hauptkampf",
-    "en": "UFC Fight Night (Vegas 124) – main event"
-   },
-   "note": "Wiegen: Cortes-Acosta 262 lb, Walker 239 lb – alle Kämpfer im Limit (Sherdog, 06.11.2026)"
-  },
   {
    "date": "2026-11-14",
    "place": "New York, USA",
@@ -304,6 +287,27 @@
   }
  ],
  "results": [
+  {
+   "date": "2026-11-07",
+   "place": "Meta APEX, Las Vegas, USA",
+   "f1": "Johnny Walker",
+   "f2": "Waldo Cortes-Acosta",
+   "res": {
+    "bg": "TKO (удари), 3-ти рунд (2:27)",
+    "de": "TKO (Schläge), 3. Runde (2:27)",
+    "en": "TKO (punches), Round 3 (2:27)"
+   },
+   "div": {
+    "bg": "Тежка категория",
+    "de": "Schwergewicht",
+    "en": "Heavyweight"
+   },
+   "title": {
+    "bg": "UFC Fight Night (Vegas 124) – главен двубой",
+    "de": "UFC Fight Night (Vegas 124) – Hauptkampf",
+    "en": "UFC Fight Night (Vegas 124) – main event"
+   }
+  },
   {
    "date": "2026-10-31",
    "place": "Meta APEX, Las Vegas, USA",
@@ -516,6 +520,10 @@
   }
  ],
  "src": [
+  {
+   "n": "Sherdog – UFC Vegas 124 play-by-play & results (07.11.2026)",
+   "u": "https://www.sherdog.com/news/news/UFC-Vegas-124-CortesAcosta-vs-Walker-playbyplay-results-round-scoring-203525"
+  },
   {
    "n": "UFC – Rankings/Champions",
    "u": "https://www.ufc.com/rankings"

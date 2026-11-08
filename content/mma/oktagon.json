@@ -11,7 +11,7 @@
   "de": "OKTAGON MMA",
   "en": "OKTAGON MMA"
  },
- "asof": "2026-11-07",
+ "asof": "2026-11-08",
  "champions": [
   {
    "div": {
@@ -146,23 +146,6 @@
  ],
  "upcoming": [
   {
-   "date": "2026-11-07",
-   "place": "ZAG Arena, Hannover, Deutschland",
-   "f1": "Igor Severino",
-   "f2": "Max Holzer",
-   "div": {
-    "bg": "Петел категория",
-    "de": "Bantamgewicht",
-    "en": "Bantamweight"
-   },
-   "title": {
-    "bg": "OKTAGON 97 – главен мач, мач за титлата",
-    "de": "OKTAGON 97 – Hauptkampf, Titelkampf",
-    "en": "OKTAGON 97 – main event, title fight"
-   },
-   "note": "Beide wogen beim offiziellen Wiegen 61,2 kg (Sky Sport, 06.11.2026); Übertragung RTL+"
-  },
-  {
    "date": "2026-11-21",
    "place": "WERK Arena, Třinec, Tschechien",
    "f1": "Mateusz Legierski",
@@ -197,6 +180,27 @@
   }
  ],
  "results": [
+  {
+   "date": "2026-11-07",
+   "place": "Hannover, Deutschland",
+   "f1": "Igor Severino",
+   "f2": "Max Holzer",
+   "res": {
+    "bg": "KO (удари), 1-ви рунд (0:54)",
+    "de": "KO (Schläge), 1. Runde (0:54)",
+    "en": "KO (punches), Round 1 (0:54)"
+   },
+   "div": {
+    "bg": "Петел категория",
+    "de": "Bantamgewicht",
+    "en": "Bantamweight"
+   },
+   "title": {
+    "bg": "OKTAGON 97 – главен мач, защита на титлата",
+    "de": "OKTAGON 97 – Hauptkampf, Titelverteidigung",
+    "en": "OKTAGON 97 – main event, title defence"
+   }
+  },
   {
    "date": "2026-10-31",
    "place": "SAP Garden, München, Deutschland",
@@ -262,6 +266,10 @@
   }
  ],
  "src": [
+  {
+   "n": "RDX Sports – OKTAGON 97: Igor Severino demolishes Max Holzer (08.11.2026)",
+   "u": "https://blogs.rdxsports.com/oktagon-97-igor-severino-demolishes-max-holzer-in-less-than-a-minute-to-retain-bantamweight-crown/"
+  },
   {
    "n": "OKTAGON MMA – Rankings (Stand 30.09.2026)",
    "u": "https://oktagonmma.com/en/rankings/"
