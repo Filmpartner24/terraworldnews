@@ -612,7 +612,7 @@ def also_secs(it):  # zusätzliche Rubriken eines Artikels: Feld "also" oder Lab
     return a
 def art_url(it, l):
     y, m, d = it['date'].split('-')
-    return f"{pre(l)}{NEWS_DIR[l]}/{y}/{m}/{d}/{it['id']}.html"
+    return f"{pre(l)}{NEWS_DIR[l]}/{y}/{m}/{d}/{it['id']}"
 
 def sec_url(s, l): return f"{pre(l)}{SEC[l][s][1]}/"
 def sub_url(s, k, l): return f"{sec_url(s, l)}{SUB[l][k][1]}/"
@@ -621,7 +621,7 @@ def spage_url(s, k, n, l): return (sub_url(s, k, l) if k else sec_url(s, l)) + (
 def hpage_url(n, l): return sec_url('history', l) + (f'{"stranitsa" if l == "bg" else "seite" if l == "de" else "page"}-{n}/' if n > 1 else '')   # HISTORY: Seite n
 def sec_home(s, l, sub=None):  # Rubriken mit Unterrubriken (Sport) haben keine eigene Übersichtsseite → erste/zugehörige Unterrubrik
     return sub_url(s, sub, l) if (s in SUBS and sub in SUBS[s]) or (s in LSUBS and sub in LSUBS[s]) else sec_url(s, l)   # Sport: eigene Übersichtsseite (seit 04.10.2026)
-def legal_url(k, l): return f"{pre(l)}{LEGAL_SLUG[l][k]}.html"
+def legal_url(k, l): return f"{pre(l)}{LEGAL_SLUG[l][k]}"
 def iso(it): return f"{it['date']}T{it['time']}:00{TZ}"
 def read_min(it, l):
     words = sum(len(p.split()) for p in it[l].get('body', [])) + len(it[l]['d'].split())
@@ -895,7 +895,7 @@ def author_of(it):
     if not it.get('au'): return None
     a = it['au']; ns = set(a.values()) if isinstance(a, dict) else {a}
     return next((x for x in AUTHORS if ns & set(x['match'])), None)
-def au_url(a, l): return f"{pre(l)}{AU_DIR.get(l, 'authors')}/{a['key']}.html"
+def au_url(a, l): return f"{pre(l)}{AU_DIR.get(l, 'authors')}/{a['key']}"
 def au_txt(a, k, l): return a[k].get(l) or a[k].get('en') or a[k]['de']
 def byline_html(it, l):
     a = author_of(it)
@@ -2985,7 +2985,7 @@ ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "/#org", "name": "TERRA W
        "logo": {"@type": "ImageObject", "url": SITE + "/assets/logo.png", "width": 600, "height": 600},
        "parentOrganization": {"@type": "Organization", "name": "FILMPARTNER 24 EOOD", "legalName": "„ФИЛМПАРТНЕР 24“ ЕООД", "url": "https://filmpartner24.com/", "vatID": "BG208477411"},
        "founder": {"@type": "Person", "name": "Nedy John Cross", "url": "https://nedyjcross.com/"},
-       "publishingPrinciples": SITE + "/redaktsionni-printsipi.html", "correctionsPolicy": SITE + "/redaktsionni-printsipi.html#korekcii",
+       "publishingPrinciples": SITE + "/redaktsionni-printsipi", "correctionsPolicy": SITE + "/redaktsionni-printsipi#korekcii",
        "email": "media@filmpartner24.com", "areaServed": "Worldwide", "knowsLanguage": ["bg", "de", "en", "tr", "es", "it"]}
 
 TICKER = {}
@@ -3042,7 +3042,7 @@ def shard_key(w):
     for b in w[:2].encode('utf-8'):
         h = ((h ^ b) * 16777619) & 0xFFFFFFFF
     return f'b{h % SHARDS}'
-def search_url(l): return f"{pre(l)}{SEARCH_SLUG[l]}.html"
+def search_url(l): return f"{pre(l)}{SEARCH_SLUG[l]}"
 
 def build():
     eds = load()
@@ -3068,6 +3068,7 @@ def build():
     def write(path, content):
         fp = os.path.join(OUT, path.lstrip('/'))
         if fp.endswith('/'): fp += 'index.html'
+        elif not os.path.splitext(fp)[1]: fp += '.html'   # Adressen ohne .html (Cloudflare leitet .html sonst per 301 um – Search Console 08.11.2026), Datei bleibt .html
         os.makedirs(os.path.dirname(fp), exist_ok=True)
         open(fp, 'w', encoding='utf-8').write(content)
 
