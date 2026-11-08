@@ -1126,7 +1126,10 @@
    "time": "15:00",
    "t1": "Torino FC",
    "t2": "US Lecce",
-   "ft": null
+   "ft": [
+    1,
+    1
+   ]
   },
   {
    "r": 11,
@@ -1134,7 +1137,10 @@
    "time": "15:00",
    "t1": "Cagliari Calcio",
    "t2": "Frosinone Calcio",
-   "ft": null
+   "ft": [
+    1,
+    0
+   ]
   },
   {
    "r": 11,
@@ -1142,7 +1148,10 @@
    "time": "18:00",
    "t1": "Parma Calcio 1913",
    "t2": "Bologna FC 1909",
-   "ft": null
+   "ft": [
+    1,
+    2
+   ]
   },
   {
    "r": 11,
@@ -1150,7 +1159,10 @@
    "time": "20:45",
    "t1": "AS Roma",
    "t2": "US Sassuolo Calcio",
-   "ft": null
+   "ft": [
+    3,
+    0
+   ]
   },
   {
    "r": 11,
@@ -3725,6 +3737,14 @@
   {
    "n": "ANSA – Venezia 2-1 Udinese (06.11.2026)",
    "u": "https://www.ansa.it/sito/notizie/sport/calcio/2026/11/06/il-venezia-torna-a-vincere-2-1-alludinese-ultima-e-in-crisi_b7f53128-638d-409c-a912-b3265c94615c.html"
+  },
+  {
+   "n": "Adnkronos – Serie A, 11. Spieltag (07.11.2026)",
+   "u": "https://www.adnkronos.com/sport/serie-a-risultati-oggi-classifica_2WdibZBDsNFwv19cesOUmC"
+  },
+  {
+   "n": "Sky Sport – Roma 3-0 Sassuolo (07.11.2026)",
+   "u": "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-11/roma-sassuolo/risultato-gol"
   }
  ]
 }

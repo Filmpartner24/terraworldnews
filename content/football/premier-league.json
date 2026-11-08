@@ -1005,7 +1005,10 @@
    "time": "15:00",
    "t1": "Arsenal FC",
    "t2": "Hull City AFC",
-   "ft": null
+   "ft": [
+    1,
+    0
+   ]
   },
   {
    "r": 10,
@@ -1013,7 +1016,10 @@
    "time": "15:00",
    "t1": "Nottingham Forest FC",
    "t2": "Manchester City FC",
-   "ft": null
+   "ft": [
+    3,
+    1
+   ]
   },
   {
    "r": 10,
@@ -1021,7 +1027,10 @@
    "time": "15:00",
    "t1": "Leeds United FC",
    "t2": "Tottenham Hotspur FC",
-   "ft": null
+   "ft": [
+    1,
+    0
+   ]
   },
   {
    "r": 10,
@@ -1029,7 +1038,10 @@
    "time": "15:00",
    "t1": "Fulham FC",
    "t2": "Newcastle United FC",
-   "ft": null
+   "ft": [
+    1,
+    1
+   ]
   },
   {
    "r": 10,
@@ -1037,7 +1049,10 @@
    "time": "15:00",
    "t1": "Everton FC",
    "t2": "Coventry City FC",
-   "ft": null
+   "ft": [
+    3,
+    1
+   ]
   },
   {
    "r": 10,
@@ -3728,6 +3743,10 @@
   {
    "n": "ESPN",
    "u": "https://www.espn.com/soccer/match/_/gameId/401879246/arsenal-liverpool"
+  },
+  {
+   "n": "Sporting Life – Premier League Ergebnisse (06./07.11.2026)",
+   "u": "https://www.sportinglife.com/football/league-tables/english-premier-league/1/scores-and-fixtures"
   }
  ]
 }

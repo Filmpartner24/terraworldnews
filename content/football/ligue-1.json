@@ -917,7 +917,10 @@
    "time": "17:15",
    "t1": "AJ Auxerre",
    "t2": "Paris FC",
-   "ft": null
+   "ft": [
+    0,
+    1
+   ]
   },
   {
    "r": 10,
@@ -925,7 +928,10 @@
    "time": "20:45",
    "t1": "Paris Saint-Germain FC",
    "t2": "ES Troyes AC",
-   "ft": null
+   "ft": [
+    1,
+    0
+   ]
   },
   {
    "r": 10,
@@ -2808,6 +2814,14 @@
   {
    "n": "Eurofootnews – Toulouse 3-1 Strasbourg (06.11.2026)",
    "u": "https://www.eurofootnews.net/toulouse-simpose-avec-autorite-face-a-strasbourg-au-stadium-en-ligue-1-3-1/06/11/2026/"
+  },
+  {
+   "n": "Foot Mercato – PSG 1-0 Troyes (07.11.2026)",
+   "u": "https://www.footmercato.net/live/7522054442301485208-paris-saint-germain-vs-troyes"
+  },
+  {
+   "n": "Eurofootnews – Auxerre 0-1 Paris FC (07.11.2026)",
+   "u": "https://www.eurofootnews.net/le-paris-fc-simpose-a-auxerre-grace-a-un-but-decisif-de-sinayoko-en-ligue-1-0-1/07/11/2026/"
   }
  ]
 }

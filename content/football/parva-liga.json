@@ -1035,7 +1035,10 @@
    "time": "13:30",
    "t1": "Botev Vratsa",
    "t2": "Lokomotiv Plovdiv",
-   "ft": null
+   "ft": [
+    1,
+    2
+   ]
   },
   {
    "r": 13,
@@ -1043,7 +1046,10 @@
    "time": "16:00",
    "t1": "Slavia Sofia",
    "t2": "Cherno More Varna",
-   "ft": null
+   "ft": [
+    0,
+    0
+   ]
   },
   {
    "r": 13,
@@ -1051,7 +1057,10 @@
    "time": "18:30",
    "t1": "Ludogorets Razgrad",
    "t2": "CSKA 1948",
-   "ft": null
+   "ft": [
+    2,
+    2
+   ]
   },
   {
    "r": 13,
@@ -1800,6 +1809,22 @@
   {
    "n": "БТА – Ботев Пловдив – Дунав 1:1 (06.11.2026)",
    "u": "https://www.bta.bg/bg/news/sport/1241889-botev-plovdiv-i-dunav-ruse-ne-izlachiha-pobeditel"
+  },
+  {
+   "n": "БТА – Ботев Враца – Локомотив Пловдив 1:2 (07.11.2026)",
+   "u": "https://www.bta.bg/bg/news/sport/1242137-lokomotiv-plovdiv-vze-tri-tochki-ot-vizitata-si-na-botev-vratsa"
+  },
+  {
+   "n": "БТА – Славия – Черно море 0:0 (07.11.2026)",
+   "u": "https://www.bta.bg/bg/news/sport/1242186-slaviya-zavarshi-naravno-na-svoy-teren-sreshtu-cherno-more"
+  },
+  {
+   "n": "БТА – Лудогорец – ЦСКА 1948 2:2 (07.11.2026)",
+   "u": "https://www.bta.bg/bg/news/sport/1242252-ludogorets-i-tsska-1948-napraviha-ravenstvo"
+  },
+  {
+   "n": "Сега – Първа лига, XIII кръг: резултати и класиране",
+   "u": "https://www.segabg.com/category-sport/purva-liga-hiii-krug-rezultati-i-klasirane-video-reportazhi-2"
   }
  ]
 }
