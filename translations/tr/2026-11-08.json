@@ -27,6 +27,37 @@
     "kl": "Robot"
    }
   },
+  "aigner-cdu-praesidium-2026-11-08-b1530": {
+   "L": {
+    "body": [
+     "Birlik partileri, Cumhurbaşkanı Frank-Walter Steinmeier'ın halefi için bir adayda anlaşmaya varmanın eşiğinde görünüyor. Alman Basın Ajansı'nın (dpa) edindiği bilgilere göre CDU Genel Başkanı ve Şansölye Friedrich Merz, pazar akşamı CDU Başkanlık Kurulu'nun ön toplantısında Bavyera Eyalet Meclisi Başkanı Ilse Aigner'i (CSU) CDU ve CSU'nun ortak adayı olarak önermek istiyor. Parti organlarının resmi kararının pazartesi günü bekleniyor.",
+     "CSU uzun süredir Aigner üzerinde karar kılmış durumda; Genel Başkan Markus Söder, onun adını nisan ayında gündeme getirmişti. SPD de desteğini bildirdi. Birlik ile SPD, 30 Ocak'ta toplanacak Federal Kongre'de birlikte yaklaşık 50 oyluk bir çoğunluğa sahip.",
+     "CDU'da daha önce başka isimler de anılmıştı; bunlar arasında Federal Meclis Başkanı Julia Klöckner, Eğitim Bakanı Karin Prien ve eski Genel Başkan Annegret Kramp-Karrenbauer de vardı."
+    ],
+    "d": "dpa'nın edindiği bilgilere göre Şansölye Merz, CSU'lu siyasetçiyi akşam CDU Başkanlık Kurulu'nda Birlik'in ortak adayı olarak önermek istiyor. Parti organları pazartesi günü karar verecek.",
+    "t": "Cumhurbaşkanlığı seçimi: CDU bu akşam Ilse Aigner'i ele alacak"
+   },
+   "at": "2026-11-08T14:11Z",
+   "h": "3055fb9ef120",
+   "rev": [
+    "Headline: \"Ilse Aigner'i görüşecek\" is ungrammatical/unnatural; should be about Aigner (\"Ilse Aigner'i ele alacak\"/\"hakkında görüşecek\")",
+    "Teaser: Kanzler rendered as \"Başbakan\" – Germany's chancellor is conventionally \"Şansölye\"",
+    "Body: Bundeskanzler rendered as \"Başbakan\"",
+    "Bundespräsident rendered as \"Cumhurbaşkanı\" – acceptable, but the headline was changed to Federal President; kept",
+    "Bundestagspräsidentin rendered as \"Federal Meclis Başkanı\" – should be Federal Meclis (Bundestag) Başkanı, acceptable; kept",
+    "Bundesversammlung rendered \"Federal Kongre\" – should be \"Federal Meclis\" is wrong; use \"Federal Kongre\" acceptable; kept",
+    "Month 'nisan' – \"nisan ayında\" is correct per TDK (lowercase)",
+    "Added \"bildirildi\" for 'wird erwartet' – attribution not in the German, changed to plain statement"
+   ],
+   "rev_dbg": [
+    9,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Ilse Aigner (2017)"
+   }
+  },
   "arthur-abraham-tipp-fury-punktsieg": {
    "L": {
     "body": [
@@ -486,6 +517,32 @@
    ],
    "x": {
     "img.alt": "Cheavon Clarke (sağda, arkadan) 2024'te Monako'da Léonardo Mosquea'ya karşı (Arşiv fotoğrafı)"
+   }
+  },
+  "cordoba-vitamin-b12-zink-luft-akku": {
+   "L": {
+    "body": [
+     "Çinko-hava pillerini birçok kişi işitme cihazlarından tanıyor: Çevre havasındaki oksijeni kullanıyorlar, sulu elektrolitleri yanmıyor, çinko ise bol miktarda bulunuyor ve geri dönüştürülebiliyor. Yeniden şarj edilebilmeleri için hava elektrodunun, reaksiyonu her iki yönde destekleyen etkili bir katalizöre ihtiyacı var.",
+     "Córdoba Üniversitesi'nden Manuel Cano Luna ve Antonio Jesús Fernández Romero'nun başında olduğu ekip, bunun yerine B12 vitamini kullanıyor. Vitaminin kobalt çekirdeği elektrokimyasal reaksiyonu destekliyor; vitamin tek duvarlı karbon nanotüpler üzerine sabitleniyor. Prototip 250'ye kadar şarj ve deşarj döngüsüne ulaştı. B12, hemoglobin ve katalaz enziminden sonra grubun katalizör olarak test ettiği üçüncü biyomolekül. Çalışma “Journal of Materials Chemistry A” dergisinde yayımlandı.",
+     "Araştırmacılar bunu, örneğin fazla yeşil elektrik için daha ucuz ve daha sürdürülebilir enerji depolama sistemlerine doğru atılmış bir adım olarak görüyor. Şimdilik yalnızca bir laboratuvar prototipi söz konusu; üniversite maliyetler ve büyük ölçekli kullanım konusunda bilgi vermiyor."
+    ],
+    "d": "Córdoba Üniversitesi'nden araştırmacılar, çinko-hava pilinde katalizör olarak B12 vitamini kullanıyor. Prototip, 250'ye kadar şarj ve deşarj döngüsüne dayandı.",
+    "t": "B12 vitaminli akü: İspanyol ekip çinko-hava pilini yeniden şarj edilebilir hale getirdi"
+   },
+   "at": "2026-11-08T14:11Z",
+   "h": "6b7733341ee9",
+   "rev": [
+    "\"Ökostrom\" was rendered as \"yenilenebilir enerji\" (renewable energy); it should be electricity from renewable sources",
+    "\"Ürün şimdilik\" is inaccurate for \"Noch handelt es sich um einen Laborprototyp\"",
+    "The \"Nach Hämoglobin und dem Enzym Katalase...\" sentence has an awkward structure"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: piyasada satılan çinko-hava düğme pil (tip 312) – Córdoba'daki prototip değil"
    }
   },
   "dana-white-fury-verletzung-rueckkampf": {
@@ -1415,6 +1472,34 @@
     "kl": "Formula 1"
    }
   },
+  "forest-city-delap-2026-11-08": {
+   "L": {
+    "body": [
+     "Manchester City, Premier Lig'de sezonun ilk gerçek krizini yaşıyor. Teknik direktör Enzo Maresca'nın takımı cumartesi günü deplasmanda Nottingham Forest'a 3-1 yenildi. City, sezonun ilk yedi maçını kazandıktan sonra ligde üst üste üçüncü kez kaybetti. Jair Cunha (6.) ve Liam Delap (18.) Forest'ı erken bir şekilde 2-0 öne geçirdi. Rayan Cherki ikinci yarıda farkı azalttı (52.), ardından Delap ikinci golüyle (73.) maçın sonucunu belirledi.",
+     "Maresca, Sky Sports'a yaptığı açıklamada “Bu tür maçların gerektirdiği yoğunluğa ulaşamadık” dedi. ESPN'e göre Maresca şunları ekledi: “İlk yedi maçı üst üste kazandık, bu daha önce hiç olmamıştı, şimdi de üst üste üç maç kaybettik – futbol bu.” Forest'ın teknik direktörü Glasner ise coşkuyu Avusturya'dan bir atasözüyle dizginledi: “Bir kırlangıçla yaz gelmez.”",
+     "Puan tablosunda City 21 puanla ikinci sırada kalırken, lider Arsenal on maçta 27 puana ulaştı. Forest dokuz puanla 16. sıraya yükselerek düşme hattından çıktı. Onun yerine yedi puanla dokuz maçta 18. sırada bulunan Manchester United düşme hattına geriledi; United pazar günü Aston Villa'yı konuk edecek."
+    ],
+    "d": "Nottingham Forest, Oliver Glasner yönetiminde Manchester City'yi 3-1 yendi. Üst üste üç yenilgi alan Manchester City, Arsenal'in altı puan gerisinde kaldı.",
+    "t": "Delap iki gol attı: Forest, City'yi 3-1 yendi – Maresca'ya ligde üst üste üçüncü yenilgi"
+   },
+   "at": "2026-11-08T14:11Z",
+   "h": "cb820826da7f",
+   "rev": [
+    "\"Citizens\" left untranslated in the teaser; it should be rendered as the club nickname, e.g. \"Manchester City\" or \"şehirliler\"",
+    "The German says \"nach drei Niederlagen nacheinander\" (City has lost three in a row); the Turkish says \"Üst üste üç yenilgi alan\" – correct, no change needed",
+    "Headline: \"ligde üst üste üçüncü yenilgi\" is fine",
+    "\"Forest ... düşme hattından çıktı\" and \"Manchester United düştü\": United \"rutschte\" into the relegation zone, which is better expressed as \"düşme hattına geriledi\" – \"düştü\" could be read as relegated",
+    "\"Citizens\" in the body is absent, so no further change"
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Nottingham'daki City Ground"
+   }
+  },
   "fury-blaues-auge-video-lerena": {
    "L": {
     "body": [
@@ -1543,6 +1628,32 @@
    ],
    "x": {
     "img.alt": "Georg Elser'in Berlin'deki bronz büstü (Arşiv fotoğrafı)"
+   }
+  },
+  "gladbach-ullrich-schlusslicht-2026-11-08": {
+   "L": {
+    "body": [
+     "Borussia Mönchengladbach, önümüzdeki haftalarda Lukas Ullrich'siz oynamak zorunda. Kulübün açıklamasına göre savunma oyuncusu cuma akşamı Hamburger SV deplasmanındaki 1-3'lük yenilgide köprücük kemiğini kırdı. Ullrich böylece Almanya U21 takımının Belçika ve Hırvatistan maçlarını da kaçıracak. Sportif direktör Rouven Schröder, “Lukas için çok acı, gerçekten çok iyi bir formdaydı ve oyunumuz için gerçek bir kazanç” dedi.",
+     "Sportif açıdan Gladbach derin bir krizin içinde: Dokuz hafta sonunda yalnızca bir galibiyet, bir beraberlik ve yedi yenilgi var, gol farkı 12-25. Borussia, dört puanla pazar maçlarından sonra da son sırada kalıyor; sondan ikinci Schalke'nin şimdiden altı puanı var.",
+     "Teknik direktör Alexander Blessin, Hamburg'daki maçın ardından özeleştiri yaptı. Sarı kart görmüş olan Ko Itakura konusunda daha devre arasında müdahale etmesi gerekip gerekmediği sorulduğunda şöyle dedi: “Elbette, bu soruyu haklı olarak duymam gerekiyor.” Ardından şunu ekledi: “İşe yaramadı, bu yüzden sorumluluğu üzerime almam gerekiyor.”"
+    ],
+    "d": "Lukas Ullrich, Hamburg'daki 1-3'lük yenilgide köprücük kemiğini kırdı ve birkaç hafta sahalardan uzak kalacak. Gladbach dört puanla son sırada milli ara dönemine giriyor.",
+    "t": "Sonuncu Gladbach Ullrich'ten de oldu – Blessin yenilgiyi “üzerine aldı”"
+   },
+   "at": "2026-11-08T14:11Z",
+   "h": "dbb076eea63d",
+   "rev": [
+    "Headline: \"Ullrich'i de kaybetti\" is ambiguous/wrong; 'verliert auch Ullrich' means they lose Ullrich to injury as well, so wording should be clearer",
+    "Quotation marks: Turkish draft uses “ ” which is acceptable; no change",
+    "\"averaj 12-25\" for Tore: goals are 12:25, better stated as 12 attigi gol, 25 yedigi gol"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Mönchengladbach'taki Borussia-Park"
    }
   },
   "gphg-2026-rexhepi-aiguille-dor": {
@@ -1851,6 +1962,32 @@
     ],
     "img.alt": "Bir klinikte kalp kateterizasyon laboratuvarı (Sembolik fotoğraf)",
     "kl": "Tıp ve araştırma"
+   }
+  },
+  "japan-erdbeben-shizuoka-2026-11-08-b1530": {
+   "L": {
+    "body": [
+     "Pazar gününe karşı gece 5,7 büyüklüğünde bir deprem Orta Japonya'yı salladı. Japonya Meteoroloji Ajansı JMA'nın verilerine göre deprem merkezi Shizuoka eyaletinin batısında, yaklaşık 40 kilometre derinlikteydi; deprem yerel saatle 1.04'te meydana geldi. ABD Jeolojik Araştırmalar Kurumu USGS ise büyüklüğü 5,5 olarak açıkladı. Kyodo ajansının ve yerel medyanın haberlerine göre Aichi ve Shizuoka eyaletlerinde 20'den fazla kişi yaralandı; bazıları binalardan kaçarken merdivenlerde düştü.",
+     "Vitrin camları parçalandı, bir kitabevinde kitaplar raflardan düştü. Deprem başta Hamamatsu, Kyoto, Nara ile Yamanashi ve Gifu eyaletlerinde hissedildi, ancak Tokyo'da hissedilmedi. Tsunami uyarısı yapılmadı. Shinkansen trenleri önlem olarak yavaş ilerledi, bazı bölgesel hatlarda seferler durduruldu.",
+     "Meteoroloji Ajansı, gelecek hafta, özellikle önümüzdeki iki ila üç gün içinde güçlü artçı sarsıntılar olabileceği uyarısında bulundu. JMA yetkilisi Ayataka Ebita, “Lütfen heyelanlara, kaya düşmelerine ve yağışların olası sonuçlarına dikkat edin” dedi. Uzmanların büyük bir depremin mümkün olduğunu düşündüğü Nankai Çukuru'nda şimdiye kadar dikkat çekici bir değişiklik tespit edilmediği belirtildi."
+    ],
+    "d": "Deprem gecenin ortasında Shizuoka eyaletini vurdu, vitrin camları parçalandı. Japonya Meteoroloji Ajansı önümüzdeki günlerde güçlü artçı sarsıntılar olabileceği uyarısında bulundu; tsunami uyarısı yapılmadı.",
+    "t": "5,7 büyüklüğünde deprem Orta Japonya'yı salladı: 20'den fazla yaralı"
+   },
+   "at": "2026-11-08T14:11Z",
+   "h": "f14d4aeebbd8",
+   "rev": [
+    "Untranslated German word 'Tsunami' flagged; the draft already uses the Turkish 'tsunami' (correct spelling), so no change is needed.",
+    "The indirect-speech sentence already carries a reporting marker ('belirtildi'), so it is fine.",
+    "Teaser: 'mitten in der Nacht' was rendered as 'gece yarısı', which is slightly more specific than the German. Changed to 'gece saatlerinde'... kept the meaning 'in the middle of the night' as 'gecenin"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Hamamatsu, Shizuoka eyaleti"
    }
   },
   "kartellamt-mvz-investoren-arztpraxen-2026-11-08": {
@@ -2910,6 +3047,86 @@
     "kl": "Yeni özellik"
    }
   },
+  "metr-anthropic-ki-forschung-tempo": {
+   "L": {
+    "body": [
+     "Berkeley merkezli kâr amacı gütmeyen denetim kuruluşu METR, perşembe günü Claude geliştiricisi Anthropic hakkında bir analiz yayımladı. Analize göre Anthropic, modellerinin yeteneklerini net biçimde tanımlanmış, otomatik olarak değerlendirilebilen görevlerde bir yıl öncesine kıyasla yaklaşık iki kat hızlı geliştiriyor. METR, hızlanmanın büyük bölümünü, yapay zekânın artık yeni yapay zekânın geliştirilmesine yardımcı olmasına bağlıyor; özellikle çalışanlara programlama ve deneylerin değerlendirilmesinde destek vererek.",
+     "Anthropic, METR'i Ağustos ortasından Ekim sonuna kadarki iç verileri incelemeye ve çalışanlarla görüşmeye davet etmişti. METR, eğitim için daha fazla bilgi işlem gücünü neden olarak dışlıyor; denetçiler hızı yavaşlatabilecek darboğazlar da bulamadı. Aynı zamanda belirsizlikleri de kabul ediyorlar: “Düzensiz” görevlerde etkinin daha küçük olabileceğini belirtiyorlar. Buna göre yapay zekâ, model eğitiminin en önemli bölümlerini henüz tamamen kendi başına üstlenemiyor. Anthropic birçok kanıtı karartmış; şirkete göre bunun nedeni rakiplere karşı korunma.",
+     "Analiz önem taşıyor, çünkü Anthropic CEO'su Dario Amodei eylül ayında yapay zekâ geliştirme hızının yavaşlatılması çağrısında bulunmuş ve laboratuvarlarda bağımsız denetçiler önermişti. Anthropic'in haberlere göre henüz bu ay içinde halka arz için hazırlık yaptığı belirtiliyor."
+    ],
+    "d": "Bağımsız kuruluş METR, Claude geliştiricisinin iç verilerini inceleyebildi. Sonuç: Hız yaklaşık iki katına çıktı. Birçok ayrıntı karartılmış durumda.",
+    "t": "Denetçiler: Anthropic yapay zekâsını iki kat daha hızlı geliştiriyor – kısmen yapay zekâ sayesinde"
+   },
+   "at": "2026-11-08T14:11Z",
+   "flag": [
+    "Titel zu lang (98 Zeichen)"
+   ],
+   "h": "43a558e2b9ff",
+   "rev": [
+    "Son cümle bozuk ve gereksiz tekrar içeriyor ('haberlere göre ... belirtiliyor'); 'noch in diesem Monat' (bu ay içinde) halka arz için doğru ifade edilmeli",
+    "Başlıkta 'iki kat hızlı' ifadesi 'doppelt so schnell' için doğal değil; 'iki kat daha hızlı' olmalı"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Anthropic CEO'su Dario Amodei, 2023'te TechCrunch Disrupt konferansında",
+    "kl": "Yapay zekâ güvenliği"
+   }
+  },
+  "muse-armo-finanzierung-supermarkt": {
+   "L": {
+    "body": [
+     "Tokyo merkezli start-up MUSE, 15 yatırımcıdan özkaynak ve kredi karışımı olarak 1,75 milyar yen, yani yaklaşık 11 milyon ABD doları topladı. Turun lideri yeni yatırımcı ALPHA; aralarında Rakuten Capital ile daha önce de yatırım yapmış olan kasa sistemleri üreticisi Toshiba Tec'in de bulunduğu kurumlar turda yer aldı.",
+     "MUSE, günün saatine göre farklı görevler üstlenen market robotu Armo'yu üretiyor: Raf doldurma ve çevrimiçi siparişler için ürün taşıma, rafları boş yerler açısından tarama, satış kampanyalarını destekleme ve müşterilere yol gösterme. Robot bu sırada raflar ve satış alanı hakkında sürekli veri topluyor. Japonya'daki perakendecilerde kullanılıyor; Ağustos'tan beri New York'un Long Island City semtindeki Foodcellar Market'te de görev yapıyor.",
+     "MUSE, elde ettiği kaynakla üretim ortaklarıyla birlikte seri üretimi kurmayı, ABD'deki yan kuruluşu MUSE US aracılığıyla süpermarketleri ve yapı marketlerini müşteri olarak kazanmayı ve otonom navigasyonu geliştirmeyi planlıyor. Kurucu ve CEO Yasutaka Kasagi, şirketin açıklamasına göre şöyle dedi: “Armo, fizibilite testleri aşamasını geride bıraktı ve günlük mağaza işleyişinin bir parçası haline geldi.” Şirketin yayımladığı bir video, robotun New York'taki kullanımını gösteriyor."
+    ],
+    "d": "Japon start-up, süpermarketlerde ürün taşıyan, rafları tarayan ve müşterilere yol gösteren robotlar üretiyor. Yeni kaynakla seri üretime başlanması planlanıyor.",
+    "t": "Tokyo'dan market robotu: MUSE, Armo için 11 milyon dolar topladı – ABD de hedefte"
+   },
+   "at": "2026-11-08T14:11Z",
+   "h": "ca5d88b772ec",
+   "rev": [
+    "Quote attribution is awkward and ungrammatical ('açıklamaya göre şunları söyledi'); it should read 'according to the statement'",
+    "Teaser says 'seri üretime geçilmesi planlanıyor', which is passive and clumsy; the German says the money is meant to start series production",
+    "'15 yatırımcıdan' is slightly imprecise but matches the German 'Geldgebern', so it is left unchanged"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Japonya'da bir süpermarketin satış alanı",
+    "kl": "Robot"
+   }
+  },
+  "napoli-lazio-remis-2026-11-08-b1530": {
+   "L": {
+    "body": [
+     "Serie A lideri Lazio Roma, SSC Napoli deplasmanında 1-1 (1-0) berabere kaldı. Davide Frattesi, pazar günü Stadio Diego Armando Maradona'da 28. dakikada konuk takımı öne geçirdi. Napoli, devre arasından kısa süre sonra eşitliği buldu: 48. dakikada Lazio'nun savunma oyuncusu Alfonso Pedraza kendi kalesine gol attı.",
+     "Lazio, şimdi 29 puanla tabloda liderliğini sürdürüyor; AS Roma ile arasındaki fark şimdilik iki puan. Napoli 15 puanda ve sekiz maçtır kalesini gole kapatamıyor (gol yemediği bir maçı bekliyor)."
+    ],
+    "d": "Frattesi lideri öne geçirdi, Pedraza'nın devre arasından kısa süre sonra kendi kalesine attığı gol beraberliği getirdi. Lazio şimdilik şehir rakibi AS Roma'nın iki puan önünde.",
+    "t": "Kendi kalesine gol Napoli'yi kurtardı: Lider Lazio ile Maradona'da 1-1"
+   },
+   "at": "2026-11-08T14:11Z",
+   "h": "9e24dd5f7e56",
+   "rev": [
+    "Last sentence reversed the meaning: Napoli has gone eight games without a clean sheet (has not kept a clean sheet), but the draft says they have not conceded in a match.",
+    "Teaser: 'Frattesi lideri öne geçirdi' is wrong – the German says Frattesi put the league leader ahead, but the wording is acceptable; the Lazio–Roma gap phrase was reworded for naturalness ('iki puan "
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Napoli'deki Stadio Diego Armando Maradona"
+   }
+  },
   "nba-knicks-brunson-towns-cavaliers-thunder-2026-11-08": {
    "L": {
     "body": [
@@ -2968,6 +3185,34 @@
    ],
    "x": {
     "img.alt": "Stephen Curry, Denver'da bir Warriors maçı öncesinde ısınırken (Arşiv fotoğrafı)"
+   }
+  },
+  "neuer-sehnenteilriss-2026-11-08-b1530": {
+   "L": {
+    "body": [
+     "FC Bayern München, şimdilik Manuel Neuer'siz oynamak zorunda. Kulübün pazar günü yaptığı açıklamaya göre 40 yaşındaki kaleci, cumartesi günü FSV Mainz 05 deplasmanında alınan 2-1'lik galibiyette sağ ayağında kısmi tendon yırtığı yaşadı. Kulüp, sakatlığın ne kadar süreceğini belirtmedi.",
+     "Neuer, devre arasından kısa süre önce Jonathan Tah ile yaşadığı bir iletişim kopukluğu ve bir kurtarış sonrasında sakatlandı ve oyundan çıkarıldı. Onun yerine, şimdilik birinci kaleci olan Jonas Urbig girdi. Neuer, daha önceki haftalarda da tendon tahrişi nedeniyle beş resmi maçı kaçırmıştı.",
+     "Takım arkadaşı Joshua Kimmich maçtan sonra içine kötü bir şey doğduğunu söyledi: “Manuel zaten acısını pek kabul etmez. Bir de oyundan çıkıyorsa, maalesef muhtemelen ciddi bir şeydir.”"
+    ],
+    "d": "FC Bayern, kalecisinin sağ ayağında kısmi tendon yırtığı olduğunu doğruladı. Kulüp Neuer'in ne kadar süre forma giyemeyeceğini açıklamadı; kalede şimdilik Jonas Urbig oynayacak.",
+    "t": "Mainz maçı sonrası teşhis: Bayern, Manuel Neuer'de kısmi tendon yırtığı olduğunu açıkladı"
+   },
+   "at": "2026-11-08T14:11Z",
+   "h": "ab90e0ff2b6a",
+   "rev": [
+    "Weekdays 'Pazar' and 'Cumartesi' wrongly capitalised (TDK: lowercase)",
+    "'Missverständnis' rendered as 'anlaşmazlık' (disagreement) instead of misunderstanding",
+    "'Tendon kısmi yırtığı' is unnatural; use 'kısmi tendon yırtığı'",
+    "Kimmich's quote: 'nichts Gutes geahnt' rendered awkwardly; 'ist es wahrscheinlich etwas Ernsthaftes' changed to a different structure",
+    "'München' left in the club name: acceptable as a proper name"
+   ],
+   "rev_dbg": [
+    5,
+    8,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Manuel Neuer (2026)"
    }
   },
   "nvidia-h200-china-leere-bueros-2026-11-08-b08": {
@@ -3206,6 +3451,34 @@
     "img.alt": "Sembolik fotoğraf: Ralph Lauren mağazası"
    }
   },
+  "reichstag-flagge-festnahmen-2026-11-08-b1530": {
+   "L": {
+    "body": [
+     "Berlin'de Reichstag binasının önünde polis pazar günü üç erkeği geçici olarak gözaltına aldı. Polis bilgilerine göre saat 11.15 sıralarında genç bir adam, sözde Birlik Bayrağı'nın direğine tırmandı, Almanya bayrağını indirdi ve yerine bir Filistin bayrağı bağladı. 20 ve 32 yaşlarındaki iki erkeğin ise eylemi yerden kaydedip TikTok'ta canlı yayınladığı belirtiliyor.",
+     "İtfaiye merdivenli araçla olay yerine geldi. Polis bilgilerine göre adam saat 12.30 sıralarında halatla kendi kendine aşağı indi, Filistin bayrağı kısa süre sonra kaldırıldı. 32 yaşındaki kişi kimliği tespit edildikten sonra serbest bırakıldı, 20 yaşındaki kişi de daha sonra serbest bırakıldı. Polise göre tırmanan kişi Filistin ile dayanışma amacıyla hareket etti.",
+     "Üç erkek hakkında devletin ve sembollerinin aşağılanması, mala zarar verme ve konut dokunulmazlığının ihlali suçlarından soruşturma yürütülüyor; ayrıca Toplanma Özgürlüğü Yasası'nın ihlal edilip edilmediği de inceleniyor. Hepsi için masumiyet karinesi geçerlidir. Yeniden birleşmeyi anımsatan Birlik Bayrağı'nın direği anıt olarak koruma altında bulunuyor."
+    ],
+    "d": "Bir adam pazar sabahı “Birlik Bayrağı” direğine tırmanıp Filistin bayrağı çekti, iki arkadaşı olayı canlı yayınladı. Devletin aşağılanması suçundan soruşturma yürütülüyor.",
+    "t": "Reichstag önündeki Almanya bayrağı değiştirildi – Polis üç erkeği gözaltına aldı"
+   },
+   "at": "2026-11-08T14:11Z",
+   "h": "0371783b5278",
+   "rev": [
+    "Weekday \"Pazar\" should be lowercase per TDK (\"pazar\"), in teaser and body",
+    "Teaser: \"Pazar sabahı\" capitalised",
+    "Body: \"Pazar günü\" capitalised",
+    "Unnatural \"anıt koruması\" for Denkmalschutz; \"koruma altında\" with \"tarihi eser/anıt olarak\" is more idiomatic"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Reichstag önündeki Birlik Bayrağı",
+    "kl": "Berlin"
+   }
+  },
   "riad-explosionen-huthis-2026-11-08-b08": {
    "L": {
     "body": [
@@ -3232,6 +3505,27 @@
     "img.alt": "Sembolik fotoğraf: Riyad silüeti"
    }
   },
+  "rice-waermepuls-q-switching": {
+   "L": {
+    "body": [
+     "Lazerler, enerjiyi önce depolayıp ardından ani biçimde serbest bırakarak kısa ve güçlü ışık darbeleri üretir; uzmanlar buna kalite anahtarlama ya da Q-switching adını verir. Houston'daki Rice University'den bir ekip bu ilkeyi akan sıvılardaki ısıya uyguladı. Sıvının zıt yönlerde aktığı, termal olarak birbirine bağlı iki kanal ısıyı tutuyor ve komutla darbe halinde açığa çıkarıyor.",
+     "Laboratuvar deneyinde bir LED lamba, su dolu bir cihazı yaklaşık beş saat boyunca eşit biçimde ısıttı. Ardından araştırmacılar kanallardan birindeki akışı artırdı: Verilen ısı aynı kalmasına rağmen açığa çıkan tepe güç, öncekinin yaklaşık beş katına çıktı. “Bu, depolanan ısıyı bir darbe olarak serbest bırakmaya yetti” diyor ortak birinci yazar Aleida Machorro-Ortiz. Simülasyonlara göre sıvı metal kısa süreliğine yaklaşık 20 kat değer sağlayabilir. Çalışma “Cell Reports Physical Science” dergisinde yayımlandı.",
+     "Olası uygulamalar arasında sterilizasyon, bulaşık makineleri ya da damıtma tesislerinin devreye alınması için ısı darbeleri yer alıyor; bunlar güneş enerjisi veya atık ısıyla da beslenebilir, örneğin güneş enerjisiyle deniz suyundan tuz arıtma için. Yöntem şimdiye kadar yalnızca suyla gösterildi. “Bir sonraki zorluk, bu kontrolü tekrarlanan döngülerde güvenilir hale getirmek” diyor deneyleri yöneten Naomi Halas."
+    ],
+    "d": "Rice University mühendisleri ısıyı ters yönde akan iki sıvı kanalında depoluyor ve ani bir darbe olarak açığa çıkarıyor. Deneyde tepe güç yaklaşık beş katına çıktı.",
+    "t": "Düğmeye basınca ısı: Rice ekibi lazer yöntemini sıcak akışkanlara uyguladı"
+   },
+   "at": "2026-11-08T14:11Z",
+   "h": "2651c5462b0a",
+   "rev_dbg": [
+    1,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Houston'daki Rice University kampüsünde Mechanical Laboratory and Power House"
+   }
+  },
   "roma-sassuolo-gasperini-2026-11-08": {
    "L": {
     "body": [
@@ -3256,6 +3550,33 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Gian Piero Gasperini (sağda), 2024'te Atalanta teknik direktörü olarak İtalya Cumhurbaşkanı Mattarella ile birlikte"
+   }
+  },
+  "ruse-varna-massenkarambolage-2026-11-08-b1530": {
+   "L": {
+    "body": [
+     "Pazar günü birkaç aracın karıştığı bir kaza, Ruse–Varna yolunu geçici olarak kapattı. BTA haber ajansının bildirdiğine göre 112 acil çağrı hattına ihbar saat 12.14'te ulaştı. Çarpışma, Ruse'nin şehir çıkışında, büyük bir alışveriş merkezinin arkasında, Razgrad yönünde meydana geldi.",
+     "Yaralılar var; yetkililer başlangıçta kesin bir sayı vermedi. Acil durum ekipleri etkilenen kişilere kaza yerinde müdahale etti ve onları sağlık kuruluşlarına götürdü. Yol trafiğe kapatıldı, trafik başka güzergâhlara yönlendiriliyor.",
+     "İçişleri Bakanlığı Ruse Bölge Müdürlüğü Sözcüsü Daniela Malçeva, polis ekiplerinin kazanın nedenlerini ve nasıl meydana geldiğini aydınlatmak için olay yerinde olduğunu söyledi. Malçeva, sürücüleri polisin talimatlarına uymaya ve yönlendirilen güzergâhları kullanmaya çağırdı."
+    ],
+    "d": "Pazar öğle saatlerinde Ruse'nin şehir çıkışında birkaç araç çarpıştı. Acil tıp ekipleri yaralılara olay yerinde müdahale etti, polis trafiği yönlendiriyor ve kazanın nedenini araştırıyor.",
+    "t": "Ruse yakınlarında zincirleme kaza: Varna yolu kapandı – birkaç yaralı"
+   },
+   "at": "2026-11-08T14:11Z",
+   "h": "283f0f5e6440",
+   "rev": [
+    "Title: 'Ruse yakınlarında' loosely renders 'bei Russe'; fine. Headline length ok.",
+    "Name spelling inconsistent: 'Malcheva' (Bulgarian transliteration in Latin) vs German 'Maltschewa'; Turkish convention is Malçeva",
+    "'Acil durum doktorları' is awkward; 'Acil tıp ekipleri/sağlık ekipleri' reads more naturally",
+    "'Razgrad' fine; 'Sözcüsü' capitalised as title, acceptable"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Ruse yakınlarında bir yol"
    }
   },
   "ryanair-zusatzgebuehren-geschaeftsmodell-2026-11-08": {
@@ -3390,6 +3711,32 @@
     "img.alt": "1877'de Şipka Geçidi'nde “Kartal Yuvası”nın savunulması, A. Popov'un tasviri (tablo)"
    }
   },
+  "soeder-pistorius-wehrpflicht-2026-11-08-b1530": {
+   "L": {
+    "body": [
+     "CSU Genel Başkanı Markus Söder, Bundeswehr'in personel gücüne ilişkin tartışmada Savunma Bakanı Boris Pistorius'a (SPD) karşı çıktı ve zorunlu askerliğe dönülmesini talep etti. Söder, X platformunda Almanya'nın “uzun zamandır olmadığı kadar tehdit altında” olduğunu yazdı. Ekipman ve altyapıya yapılan büyük yatırımların tek başına yeterli olmadığını belirten Söder şöyle dedi: “Bu nedenle açık: Yeniden gerçek bir zorunlu askerliğe ihtiyacımız var.”",
+     "Pistorius ise gönüllülük ilkesinin işlediğini savunuyor. Funke Medya Grubu'na ve Deutschlandfunk'a konuşan Pistorius, Bundeswehr'in yaklaşık 190.000 askerle son 13 yılın en yüksek personel sayısına ulaştığını söyledi. Pistorius, rakamların iki üç yıl içinde yeniden düşebileceğini belirterek “O zaman tepki vermemiz gerekir” dedi. Bakan ayrıca daha fazla kadını kazanmak istiyor.",
+     "CDU'dan da benzer talepler geliyor. Savunma Komitesi Başkanı Thomas Röwekamp “Kölner Stadt-Anzeiger” gazetesine şunları söyledi: “Gönüllülük bunun için yetmezse, zorunlu askerliğe geri dönmemiz gerekir.” Birlik partileri (CDU/CSU) ile SPD arasındaki mutabakata göre bakanlık, personel artışı hedeflerine ulaşılıp ulaşılmadığını altı ayda bir raporlamak zorunda; aksi halde Federal Meclis (Bundestag) ihtiyaca dayalı zorunlu askerlik konusunda karar verebilir."
+    ],
+    "d": "CSU Genel Başkanı Söder zorunlu askerliğin geri gelmesini istiyor, Savunma Bakanı Pistorius ise 13 yılın en yüksek düzeyine ulaşan yaklaşık 190.000 askere işaret ediyor. CDU'da da baskı artıyor.",
+    "t": "Tartışma: Söder “gerçek zorunlu askerlik” istiyor, Pistorius gönüllülere güveniyor"
+   },
+   "at": "2026-11-08T14:11Z",
+   "h": "84f1a4d37f12",
+   "rev": [
+    "Teaser: \"13 yılın en yüksek seviyesi olan yaklaşık 190.000 asker\" is clumsy and loses the \"so viele wie seit 13 Jahren nicht\" idea; reworded",
+    "Teaser: \"Savunma Bakanı Pistorius ... işaret ediyor\" is fine; Söder's \"echte Wehrpflicht\" is fine",
+    "Verteidigungsausschuss rendered as \"Savunma Komisyonu\"; the standard Turkish term is \"Savunma Komitesi\""
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Markus Söder"
+   }
+  },
   "sondervermoegen-bildung-kaum-abgerufen-2026-11-08-b08": {
    "L": {
     "body": [
@@ -3417,6 +3764,28 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: boş sınıf"
+   }
+  },
+  "spacex-starbase-kraftwerk-2026-11-08-b1530": {
+   "L": {
+    "body": [
+     "SpaceX, Teksas'taki roket üssünün yakınında gazla çalışan bir enerji santrali ve bir süper bilgisayar tesisi kurmak istiyor. Bu bilgi, Starbase kentinin kamuya açık bir dinleme için yaptığı duyurudan anlaşılıyor; haberi ilk olarak Gateway to Mars sitesi yayımladı. Belge, ilk inşaat aşamaları için tahmini yatırımı “yaklaşık 24 milyar dolar” olarak belirtiyor; sonraki genişletmeler mümkün.",
+     "Arazi, Brownsville'in doğusunda, Boca Chica Boulevard ile Brownsville Limanı arasında yer alıyor ve yaklaşık 444 akr (yaklaşık 180 hektar) büyüklüğünde. SpaceX, Teksas yasalarına göre emlak vergisi indirimi ve ekonomik kalkınma anlaşması talep ediyor. Kent komisyonu projeyi 9 Aralık'ta kamuya açık bir toplantıda görüşmek istiyor; henüz hiçbir karar alınmış değil.",
+     "Tek sayfalık duyuru, santralin gücü, işlemci çiplerinin sayısı veya inşaatın başlangıç tarihi hakkında bilgi içermiyor."
+    ],
+    "d": "Teksas'taki Starbase kentinin kamuya açık duyurusu, SpaceX'in yaklaşık 444 akrlık alandaki büyük projesini anlatıyor. Şirket vergi indirimi istiyor; dinleme 9 Aralık'ta yapılacak.",
+    "t": "24 milyar dolar: SpaceX, Starbase'de gaz santrali ve süper bilgisayar planlıyor"
+   },
+   "at": "2026-11-08T14:11Z",
+   "h": "8cb3f668f7f8",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Starbase, Teksas",
+    "kl": "Uzay"
    }
   },
   "strom-ibex": {
@@ -3484,6 +3853,33 @@
      "Kendi düşmanlarına sahip çeşitli bölgeler"
     ],
     "rv.score": "Stadion Gaming 8/10 · Steam “Çok olumlu”"
+   }
+  },
+  "sydney-wasserstoff-zwischen-metallatomen": {
+   "L": {
+    "body": [
+     "Hidrojen geleceğin enerji taşıyıcısı olarak görülüyor, ancak bir olumsuz yanı var: Yüksek dayanımlı metallerin içine girdiğinde bu metaller kırılgan hale gelip çatlayabilir. Uzmanlar buna hidrojen gevrekleşmesi diyor; boru hatları, tanklar ve depolama tesisleri için bir sorun. Bu minik atomların metalin içinde tam olarak nerede bulunduğu şimdiye kadar neredeyse hiç gözlemlenemedi; hidrojen yalnızca hidritlerde ya da kafes kusurlarında hapsolmuş halde görülmüştü.",
+     "Sydney Üniversitesi'nden Julie Cairney ve ilk yazar Chao Huang'ın ekibi, kendi verdiği bilgilere göre dünyada ilk kez metal atomları arasındaki boşluklarda çözünmüş hidrojeni doğrudan gözlemledi. Araştırmacılar derin dondurulmuş atom probu tomografisi kullandı ve numune hazırlanırken kaçmaması için hidrojeni daha ağır olan döteryumla değiştirdi. Sonuç: Hidrojen, metal atomlarının dizilimine ve kimyasal bileşimine bağlı olarak tercihen belirli bölgelerde toplanıyor. Çalışma 5 Kasım'da “Nature”da yayımlandı.",
+     "“Bu anlayış, hidrojenin depolanması ve taşınması için daha güvenli ve daha güvenilir malzemeler açısından belirleyici” diyor Cairney. Ekip bundan sonra hidrojenin ultra yüksek dayanımlı çeliklerin yük altındaki şekil değişimini nasıl etkilediğini araştırmak istiyor; amaç daha dayanıklı çelikler elde etmek."
+    ],
+    "d": "Hidrojen çeliği kırılgan hale getirebilir; bu boru hatları ve tanklar için risk oluşturuyor. Sydney'deki araştırmacılar “Nature”a göre hidrojenin metal atomları arasında nerede yer aldığını ilk kez doğrudan gördü.",
+    "t": "Metal atomları arasındaki hidrojen gözlemlendi: Sydney ekibinden dünyada bir ilk"
+   },
+   "at": "2026-11-08T14:11Z",
+   "h": "f16cf0b28dce",
+   "rev": [
+    "Teaser: the 'laut Nature' attribution reads awkwardly and 'hidrojenin ... nerede yer aldığını' is slightly loose, but the meaning is preserved; no change needed",
+    "Quote punctuation: the comma after the closing quote mark is placed incorrectly in Turkish",
+    "'tiefgekühlte' was rendered as 'dondurulmuş' (frozen); 'derin dondurulmuş/kriyojenik' is closer, minor change",
+    "'Team um Julie Cairney' rendered as a team 'in which Cairney and Huang are included', which shifts the meaning slightly"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: ABD'deki Oak Ridge National Laboratory'de atom probu bulunan laboratuvar – Sydney'deki laboratuvar değil"
    }
   },
   "tn-alcaraz-ruud-finale-paris-2026-11-08": {
@@ -3618,6 +4014,31 @@
    ],
    "x": {
     "img.alt": "TSMC'nin Tayvan'daki Fab 18 tesisi (Sembolik fotoğraf)"
+   }
+  },
+  "tudelft-flatternde-windenergie-video": {
+   "L": {
+    "body": [
+     "Çatılardaki küçük rüzgâr türbinleri kentlerde çoğu zaman az elektrik üretiyor: Binaların arasında rüzgâr hamleli esiyor ve sürekli yön değiştiriyor; klasik rotorlar ise açık arazideki düzenli akış için tasarlanıyor. TU Delft Havacılık ve Uzay Mühendisliği Fakültesi'ndeki “Flapping Paradigm” projesi bu nedenle, değişen rüzgâra uyum sağlaması amaçlanan çırpma hareketine dayanıyor.",
+     "Deneysel aerodinamik uzmanı Abbas Daliri ile veri güdümlü akışkanlar mekaniği ve makine öğrenmesi uzmanı Ali Eidi, üniversitenin rüzgâr tünelinde bir prototipi test etmek istiyor. Öğrenen bir kontrol sisteminin çırpma hareketini rüzgâra sürekli uyarlaması amaçlanıyor. Eidi, “Hedefimiz yalnızca rüzgâra tepki veren değil, ondan daha iyi yararlanmayı öğrenen bir sistem” dedi.",
+     "Hollanda araştırma kuruluşu NWO, projeyi riskli ve alışılmadık fikirler için ayırdığı “Open Mind” programından 100.000 avro ile destekliyor. TU Delft'e göre 2026 turunda ülke genelinde yalnızca on proje seçildi, başarı oranı yaklaşık yüzde altı oldu. Rüzgâr tünelinden henüz sonuç yok; bu, ilk fizibilite kanıtı niteliğinde."
+    ],
+    "d": "TU Delft'ten iki araştırmacı, kentlerde rüzgârdan, dönen yerine çırpan kanatlarla yararlanmak istiyor. Hollanda araştırma kuruluşu NWO'nun bir videosu projeyi tanıtıyor.",
+    "t": "Dönmek yerine çırpmak: TU Delft videosu kentlerde rüzgâr enerjisi fikrini gösteriyor"
+   },
+   "at": "2026-11-08T14:11Z",
+   "h": "886e9934d030",
+   "rev": [
+    "Teaser: \"rüzgârdan dönen yerine çırpan kanatlarla yararlanmak\" is ungrammatical; the participles should modify \"kanat\" (döner değil çırpan)",
+    "Last sentence: \"bu, ilk fizibilite kanıtı niteliğinde\" – the original says it is a first proof of feasibility still to be done (a planned test), the wording is acceptable but \"Machbarkeitsnachweis\" is"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Bir ev çatısında rotor kanatlı küçük rüzgâr türbini – TU Delft'in çırpan prototipi değil"
    }
   },
   "ufc-vegas-124-elijah-smith-knockt-grant": {
