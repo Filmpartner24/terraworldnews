@@ -2019,3 +2019,4 @@ background:linear-gradient(135deg,color-mix(in srgb,var(--c1) 26%,#0a1030),color
 .legal .au-card h3{font-family:var(--head);font-size:21px;margin:0 0 2px}.legal .au-card h3 a{text-decoration:none;color:inherit}
 .au-card .au-role{margin:0 0 8px}
 @media(max-width:640px){.au-card{grid-template-columns:1fr}.au-card img{width:150px}}
+.au-ph,.au-card img,.au-mini img{filter:grayscale(1)}   /* alle Teamfotos schwarz-weiß (Nedy 08.11.2026) */
