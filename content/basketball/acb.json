@@ -8,7 +8,7 @@
   "tr": "Liga Endesa (İspanya)"
  },
  "season": "2026/27",
- "asof": "2026-11-08",
+ "asof": "2026-11-09",
  "tables": [
   {
    "name": {},
@@ -16,10 +16,17 @@
    "rows": [
     {
      "team": "Real Madrid",
-     "w": 6,
+     "w": 7,
      "l": 0,
-     "pf": 654,
-     "pa": 526
+     "pf": 744,
+     "pa": 597
+    },
+    {
+     "team": "Valencia Basket",
+     "w": 5,
+     "l": 2,
+     "pf": 694,
+     "pa": 616
     },
     {
      "team": "Kosner Baskonia",
@@ -29,39 +36,32 @@
      "pa": 590
     },
     {
-     "team": "Valencia Basket",
-     "w": 4,
+     "team": "La Laguna Tenerife",
+     "w": 5,
      "l": 2,
-     "pf": 594,
-     "pa": 523
+     "pf": 607,
+     "pa": 553
     },
     {
-     "team": "La Laguna Tenerife",
-     "w": 4,
+     "team": "Casademont Zaragoza",
+     "w": 5,
      "l": 2,
-     "pf": 527,
-     "pa": 479
+     "pf": 648,
+     "pa": 614
+    },
+    {
+     "team": "Barça",
+     "w": 5,
+     "l": 2,
+     "pf": 681,
+     "pa": 661
     },
     {
      "team": "Río Breogán",
      "w": 4,
-     "l": 2,
-     "pf": 628,
-     "pa": 592
-    },
-    {
-     "team": "Casademont Zaragoza",
-     "w": 4,
-     "l": 2,
-     "pf": 552,
-     "pa": 523
-    },
-    {
-     "team": "Barça",
-     "w": 4,
-     "l": 2,
-     "pf": 582,
-     "pa": 570
+     "l": 3,
+     "pf": 719,
+     "pa": 691
     },
     {
      "team": "Surne Bilbao",
@@ -80,16 +80,16 @@
     {
      "team": "Unicaja",
      "w": 3,
-     "l": 3,
-     "pf": 530,
-     "pa": 507
+     "l": 4,
+     "pf": 621,
+     "pa": 603
     },
     {
      "team": "UCAM Murcia",
      "w": 3,
-     "l": 3,
-     "pf": 560,
-     "pa": 563
+     "l": 4,
+     "pf": 631,
+     "pa": 653
     },
     {
      "team": "Monbus Obradoiro",
@@ -99,32 +99,32 @@
      "pa": 676
     },
     {
-     "team": "Recoletas Salud San Pablo Burgos",
-     "w": 2,
+     "team": "Leyma Coruña",
+     "w": 3,
      "l": 4,
-     "pf": 528,
-     "pa": 525
+     "pf": 643,
+     "pa": 699
     },
     {
      "team": "Asisa Joventut",
      "w": 2,
-     "l": 4,
-     "pf": 551,
-     "pa": 549
+     "l": 5,
+     "pf": 625,
+     "pa": 629
     },
     {
-     "team": "Leyma Coruña",
+     "team": "Recoletas Salud San Pablo Burgos",
      "w": 2,
-     "l": 4,
-     "pf": 540,
-     "pa": 599
+     "l": 5,
+     "pf": 621,
+     "pa": 625
     },
     {
      "team": "MoraBanc Andorra",
      "w": 1,
-     "l": 5,
-     "pf": 507,
-     "pa": 579
+     "l": 6,
+     "pf": 607,
+     "pa": 682
     },
     {
      "team": "iLERNA Lleida",
@@ -237,32 +237,56 @@
   {
    "t1": "Barça",
    "t2": "Río Breogán",
-   "date": "2026-11-08"
+   "date": "2026-11-08",
+   "ft": [
+    99,
+    91
+   ]
   },
   {
    "t1": "Recoletas Salud San Pablo Burgos",
    "t2": "Valencia Basket",
-   "date": "2026-11-08"
+   "date": "2026-11-08",
+   "ft": [
+    93,
+    100
+   ]
   },
   {
    "t1": "La Laguna Tenerife",
    "t2": "Asisa Joventut",
-   "date": "2026-11-08"
+   "date": "2026-11-08",
+   "ft": [
+    80,
+    74
+   ]
   },
   {
    "t1": "Casademont Zaragoza",
    "t2": "Unicaja",
-   "date": "2026-11-08"
+   "date": "2026-11-08",
+   "ft": [
+    96,
+    91
+   ]
   },
   {
    "t1": "Leyma Coruña",
    "t2": "MoraBanc Andorra",
-   "date": "2026-11-08"
+   "date": "2026-11-08",
+   "ft": [
+    103,
+    100
+   ]
   },
   {
    "t1": "Real Madrid",
    "t2": "UCAM Murcia",
-   "date": "2026-11-08"
+   "date": "2026-11-08",
+   "ft": [
+    90,
+    71
+   ]
   },
   {
    "t1": "Río Breogán",
@@ -287,20 +311,16 @@
  ],
  "src": [
   {
-   "n": "ACB – Clasificación Liga Endesa 2026-27 (abgerufen 08.11.2026)",
-   "u": "https://acb.com/clasificacion"
+   "n": "Unicaja Baloncesto – Clasificación Liga Endesa 2026/27 (Jornada 7, abgerufen 09.11.2026)",
+   "u": "https://www.unicajabaloncesto.com/clasificacion/ver/id/7"
+  },
+  {
+   "n": "Europa Press/Diario Siglo XXI – El Real Madrid tumba al UCAM Murcia y el Barça gana con secuelas (08.11.2026)",
+   "u": "https://www.diariosigloxxi.com/texto-ep/mostrar/20261108233240/cronica-real-madrid-tumba-ucam-murcia-barca-gana-secuelas"
   },
   {
    "n": "ACB – Calendario Liga Endesa 2026-27 (Jornada 7, abgerufen 08.11.2026)",
    "u": "https://acb.com/es/liga/calendario"
-  },
-  {
-   "n": "Unicaja Baloncesto – Clasificación Liga Endesa (Jornada 6)",
-   "u": "https://www.unicajabaloncesto.com/clasificacion/ver/id/7"
-  },
-  {
-   "n": "Sportando – Liga Endesa Round 6 (01.11.2026)",
-   "u": "https://sportando.basketball/en/liga-endesa-round-6-unbeaten-real-madrid-stays-perfect-valencia-second-first-win-for-perasovic/"
   }
  ],
  "img": {

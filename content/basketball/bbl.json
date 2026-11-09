@@ -8,7 +8,7 @@
   "tr": "easyCredit BBL (Almanya)"
  },
  "season": "2026/27",
- "asof": "2026-11-08",
+ "asof": "2026-11-09",
  "tables": [
   {
    "name": {},
@@ -16,10 +16,10 @@
    "rows": [
     {
      "team": "FC Bayern München Basketball",
-     "w": 6,
+     "w": 7,
      "l": 1,
-     "pf": 674,
-     "pa": 488
+     "pf": 768,
+     "pa": 561
     },
     {
      "team": "VET-CONCEPT Gladiators Trier",
@@ -30,10 +30,10 @@
     },
     {
      "team": "SYNTAINICS MBC",
-     "w": 5,
+     "w": 6,
      "l": 2,
-     "pf": 616,
-     "pa": 568
+     "pf": 693,
+     "pa": 641
     },
     {
      "team": "ROSTOCK SEAWOLVES",
@@ -52,23 +52,16 @@
     {
      "team": "SKYLINERS",
      "w": 4,
-     "l": 1,
-     "pf": 451,
-     "pa": 423
+     "l": 2,
+     "pf": 524,
+     "pa": 500
     },
     {
      "team": "Fitness First Würzburg Baskets",
      "w": 4,
-     "l": 2,
-     "pf": 497,
-     "pa": 481
-    },
-    {
-     "team": "MHP RIESEN Ludwigsburg",
-     "w": 4,
      "l": 3,
-     "pf": 610,
-     "pa": 614
+     "pf": 570,
+     "pa": 575
     },
     {
      "team": "BMA365 Bamberg Baskets",
@@ -78,18 +71,25 @@
      "pa": 686
     },
     {
+     "team": "EWE Baskets Oldenburg",
+     "w": 4,
+     "l": 4,
+     "pf": 595,
+     "pa": 656
+    },
+    {
+     "team": "MHP RIESEN Ludwigsburg",
+     "w": 4,
+     "l": 4,
+     "pf": 682,
+     "pa": 688
+    },
+    {
      "team": "ALBA BERLIN",
      "w": 4,
      "l": 4,
      "pf": 690,
      "pa": 702
-    },
-    {
-     "team": "EWE Baskets Oldenburg",
-     "w": 3,
-     "l": 4,
-     "pf": 521,
-     "pa": 584
     },
     {
      "team": "Basketball Löwen Braunschweig",
@@ -144,33 +144,6 @@
   }
  ],
  "matches": [
-  {
-   "t1": "BMA365 Bamberg Baskets",
-   "t2": "Science City Jena",
-   "date": "2026-11-01",
-   "ft": [
-    88,
-    78
-   ]
-  },
-  {
-   "t1": "ROSTOCK SEAWOLVES",
-   "t2": "FC Bayern München Basketball",
-   "date": "2026-11-01",
-   "ft": [
-    69,
-    67
-   ]
-  },
-  {
-   "t1": "Veolia Towers Hamburg",
-   "t2": "SYNTAINICS MBC",
-   "date": "2026-11-01",
-   "ft": [
-    89,
-    109
-   ]
-  },
   {
    "t1": "Telekom Baskets Bonn",
    "t2": "ALBA BERLIN",
@@ -238,19 +211,28 @@
    "t1": "SYNTAINICS MBC",
    "t2": "SKYLINERS",
    "date": "2026-11-08",
-   "time": "15:00"
+   "ft": [
+    77,
+    73
+   ]
   },
   {
    "t1": "MHP RIESEN Ludwigsburg",
    "t2": "EWE Baskets Oldenburg",
    "date": "2026-11-08",
-   "time": "16:30"
+   "ft": [
+    72,
+    74
+   ]
   },
   {
    "t1": "Fitness First Würzburg Baskets",
    "t2": "FC Bayern München Basketball",
    "date": "2026-11-08",
-   "time": "18:00"
+   "ft": [
+    73,
+    94
+   ]
   },
   {
    "t1": "Science City Jena",
@@ -287,16 +269,38 @@
    "t2": "Fitness First Würzburg Baskets",
    "date": "2026-11-14",
    "time": "20:00"
+  },
+  {
+   "t1": "SKYLINERS",
+   "t2": "VET-CONCEPT Gladiators Trier",
+   "date": "2026-11-15",
+   "time": "15:00"
+  },
+  {
+   "t1": "ROSTOCK SEAWOLVES",
+   "t2": "RASTA Vechta",
+   "date": "2026-11-15",
+   "time": "15:00"
+  },
+  {
+   "t1": "FC Bayern München Basketball",
+   "t2": "SYNTAINICS MBC",
+   "date": "2026-11-15",
+   "time": "16:30"
   }
  ],
  "src": [
   {
-   "n": "easyCredit BBL – Tabelle (letzte Aktualisierung 07.11.2026, 22:05 Uhr)",
+   "n": "easyCredit BBL – Tabelle (letzte Aktualisierung 08.11.2026, 19:45 Uhr; Ergebnisse MBC–Skyliners und Ludwigsburg–Oldenburg aus dem Korbverhältnis)",
    "u": "https://www.easycredit-bbl.de/saison/tabelle"
   },
   {
-   "n": "easyCredit BBL – Aktuelle Spiele (abgerufen 08.11.2026)",
+   "n": "easyCredit BBL – Aktuelle Spiele (abgerufen 09.11.2026)",
    "u": "https://www.easycredit-bbl.de/saison/aktuelle-spiele"
+  },
+  {
+   "n": "Würzburg Baskets – Gegen dominante Bayern bis zum Schluss gekämpft (08.11.2026)",
+   "u": "https://www.wuerzburg-baskets.de/news/newsdetails/gegen-dominante-bayern-bis-zum-schluss-gekaempft"
   },
   {
    "n": "Sport1/SID – Überraschungsteam zieht mit FCB gleich (07.11.2026)",
@@ -305,14 +309,6 @@
   {
    "n": "ROSTOCK SEAWOLVES – Seawolves feiern Heimsieg gegen Ulm",
    "u": "https://www.seawolves.de/spielbericht/seawolves-feiern-heimsieg-gegen-ulm/"
-  },
-  {
-   "n": "Berliner Abendblatt/dpa – Alba Berlin fertigt Aufsteiger Phoenix Hagen ab (06.11.2026)",
-   "u": "https://berliner-abendblatt.de/berlin-news/alba-berlin-fertigt-aufsteiger-phoenix-hagen-ab-id354100"
-  },
-  {
-   "n": "Qiez – ALBA vs. Phoenix Hagen 102:72, Tabellenplätze nach dem 8. Spieltag (06.11.2026)",
-   "u": "https://www.qiez.de/alba-vs-phoenix-hagen-10272-sieg-trenton-gibson-brilliert-als-topscorer/"
   }
  ],
  "img": {
