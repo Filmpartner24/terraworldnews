@@ -967,6 +967,51 @@
     "img.alt": "Gráfico: TERRA WORLD NEWS"
    }
   },
+  "invest-bulgarien": {
+   "L": {
+    "body": [
+     "Hay pocas novedades del fin de semana y proceden de la región de Pazardzhik. Hoy Lidl Bulgaria coloca la primera piedra de su segunda tienda en Pazardzhik: casi 7,2 millones de euros, con apertura en otoño de 2027 (pzdnes.com, 8.11.). También hoy, el ministro de Desarrollo Regional, Ivan Shishkov, inicia la renovación de la tubería de agua de Peshtera, por más de 1,8 millones de euros (Ruse.news, 9.11.). No encontramos nuevas plantas, cierres ni despidos masivos con cifras del sábado y el domingo.",
+     "El mercado laboral se enfría. El número de ofertas de empleo cayó un 12 % en un mes y un 21 % en Burgas tras el final de la temporada de verano. Hay unos 154.000 desempleados registrados (Fakti.bg, citando a Nova, 8.11.). La patronal AIKB pide un umbral más bajo para las ayudas eléctricas: las empresas solo reciben compensación por el precio que supere los 180 euros por megavatio hora, y en octubre la media fue de 230 euros (BTA, 8.11.).",
+     "La tabla recoge 12 proyectos. Los que tienen cifra suman 450,00 millones de euros y los nuevos empleos mencionados, 760 (cálculo propio; se eliminaron dos entradas antiguas). Lo que viene: el miércoles 11.11. la Agencia Tributaria NAP subastará la planta de Leader-96 en Rogosh; el 16.11. el NSI publicará la inflación definitiva de octubre."
+    ],
+    "d": "Desde la mañana del domingo no hubo nuevas plantas ni despidos con cifras. Hoy arrancan Lidl en Pazardzhik (7,2 millones de euros) y una tubería de agua en Peshtera. Las ofertas de empleo caen un 12 %.",
+    "explain": "Los nuevos proyectos del fin de semana son pequeños: un supermercado y una tubería de agua. La electricidad cara y la caída de las ofertas de empleo muestran que las empresas se vuelven más cautelosas.",
+    "t": "Nueva semana: primera piedra de Lidl en Pazardzhik; empresas piden ayuda con la luz"
+   },
+   "at": "2026-11-09T08:17Z",
+   "h": "8e29c987700b",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ]
+  },
+  "invest-deutschland": {
+   "L": {
+    "body": [
+     "La noticia del domingo llega desde Renania del Norte-Westfalia. La patronal Metall NRW advierte: la industria metalúrgica y eléctrica alemana estaría perdiendo actualmente alrededor de 10.000 empleos al mes. Nuevas huelgas agravarían la situación, dijo el presidente de la asociación, Arndt Kirchhoff, al diario «Welt» (dpa-AFX, 8.11.). La cifra procede únicamente de los empresarios. El lunes se celebra la tercera ronda de negociación colectiva: IG Metall exige un 5 por ciento más de salario y los empresarios ofrecen un 1 por ciento más un pago único.",
+     "El lunes se supo además que la cadena de moda Liberty Damenmoden, de Lübbecke, se encuentra en un procedimiento de insolvencia con administración propia. En él la dirección sigue en el cargo, pero un administrador designado por el tribunal la vigila. Están afectados unos 600 empleados y 113 tiendas. Por ahora todas permanecen abiertas (retail-news, 9.11.). Desde el viernes también es insolvente Capricorn, proveedor de construcción ligera de Düsseldorf, con casi 500 empleados.",
+     "Lo que viene: hoy a las 08:00 Destatis publica las exportaciones de septiembre (aún no publicadas al cierre de la edición). A las 10:00 Telekom y Siemens presentan en Múnich sus planes para infraestructura de IA. El miércoles llega la inflación definitiva de octubre, y presentan resultados Siemens Energy, E.ON y RWE. El jueves le toca a Siemens y Allianz.",
+     "La tabla incluye 12 entradas. Las inversiones cuantificadas suman 394,5 millones de euros. Se han anunciado 750 nuevos empleos y los recortes ascienden como mínimo a 1.725 (cálculo propio; las entradas más antiguas del 3.11., entre ellas Leag y Schaeffler, han salido de la tabla)."
+    ],
+    "d": "El sector del metal estaría perdiendo 10.000 empleos al mes, afirman los empresarios antes de la ronda salarial del lunes. La cadena de moda Liberty, con 600 empleados, busca una salida a la crisis.",
+    "explain": "Quien trabaja en la industria debería seguir de cerca la ronda salarial: está en juego el salario y la seguridad del empleo. Hay nuevas inversiones, pero ahora mismo pesan más los recortes.",
+    "t": "Patronal del metal alerta de pérdida de empleos; la cadena de moda Liberty, insolvente"
+   },
+   "at": "2026-11-09T08:17Z",
+   "h": "8cc7156d57d2",
+   "rev": [
+    "Teaser: German subjunctive 'verliere' (indirect speech) rendered as plain fact 'pierde'; attribution kept but verb should be subjunctive/conditional-like",
+    "Body: 'pierde actualmente' states the employers' claim as fact after 'advierte'; should be subjunctive",
+    "Insolvency in Eigenverwaltung: 'autogestión' is non-standard; the standard term is 'administración propia'",
+    "'Sachwalter' rendered as 'administrador designado por el tribunal' (acceptable); 'Neuigkeit' fine"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ]
+  },
   "johnny-walker-will-hokit-nach-ufc-334": {
    "L": {
     "body": [
