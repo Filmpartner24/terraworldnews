@@ -1218,6 +1218,37 @@
     "img.alt": "Grafik: TERRA WORLD NEWS"
    }
   },
+  "hanse-kaufmannsbund-nordeuropa-2026-11-09": {
+   "L": {
+    "body": [
+     "Hansa – sözcük „topluluk“ veya „birlik“ anlamına geliyor – Yüksek Orta Çağ'da Kuzey Alman tüccarlarının bir araya gelmesiyle ortaya çıktı. 1160 dolaylarında düzenli olarak Gotland'a yelken açan Alman tüccarlar, gezgin bir tüccar hansası olarak birleşti. 1356'dan itibaren birliği giderek şehirlerin kendisi taşıdı; buna „Şehirler Hansası“ denir. Merkezi, 1159'da Aslan Henrik döneminde yeniden kurulan ve sonradan „Hansa'nın Kraliçesi“ olarak anılan Lübeck'ti. Zaman içinde toplam yaklaşık 200 şehir Hansa ile bağlantılıydı; bunlar arasında Hamburg ve Bremen de vardı.",
+     "Hansa, Kuzey Denizi ile Baltık Denizi arasındaki uzun mesafe ticaretiyle ayakta kaldı. Tüccarları, büyük ve manevra kabiliyeti yüksek kogge tipi gemilerle İngiltere'den yün, Flandra'dan kumaş, Norveç'ten kurutulmuş balık, İsveç'ten bakır ve demir, Rusya'dan ise kürk dolaşıma soktu. Kontor adı verilen yurt dışı ticaret merkezleri arasında Londra, Brugge ve Novgorod vardı; ticaret alanı Norveç'teki Bergen'e kadar uzanıyordu. Birlik üyelerine ticari ayrıcalıklar sağladı, korsanlarla mücadele ettirdi ve deniz fenerleri kurdurdu. Danimarka Kralı IV. Valdemar'a karşı kazanılan zaferin ardından 1370 tarihli Stralsund Barışı, Baltık Denizi'ndeki üstünlüğü güvence altına aldı.",
+     "15. yüzyıldan itibaren Hansa güç kaybetti: İngiliz ve Hollandalı tüccarlar pazarlarına girdi, hükümdarlar kendi tüccarlarını tercih etti ve 1494'te III. İvan Novgorod'daki kontoru kapattırdı. Otuz Yıl Savaşı gerilemeyi hızlandırdı; 1669'da Lübeck'te ancak ondan az şehir bir araya geldi. Birliğe 19. yüzyıla kadar yalnızca Lübeck, Hamburg ve Bremen sadık kaldı. 1980'de başlatılan Yeni Hansa bugün 16 ülkede 200'e yakın şehri yeniden bir araya getiriyor."
+    ],
+    "d": "Brugge'den Novgorod'a: Hansa, 13. yüzyıldan 15. yüzyıla kadar Kuzey Avrupa ticaretinin büyük bölümünü denetledi. Merkezi Lübeck'ti.",
+    "t": "Hansa Birliği: Tüccarlar ve şehirler birliği Kuzey Avrupa ticaretine nasıl hâkim oldu"
+   },
+   "at": "2026-11-09T09:40Z",
+   "h": "74bd1d300b02",
+   "rev": [
+    "Teaser omits the final sentence's content? No – fine; but 'Heinrich' left untranslated: should be Turkish 'Aslan Henrik'",
+    "'Flandre' is a French spelling; Turkish form is 'Flandre' commonly but should be 'Flandra'",
+    "'fast 200 Städte' rendered as 'yaklaşık 200' – 'almost 200' should be '200'e yakın'",
+    "'Dreißigjährige Krieg' plural 'Savaşları' – should be singular 'Savaşı'",
+    "'1669 ... nur noch weniger als zehn Städte' – 'ancak ondan az' acceptable",
+    "'Stockfisch' rendered 'kurutulmuş balık' acceptable",
+    "Last Hanseatic reference: 'um 1160' is 'yaklaşık 1160' ok",
+    "Valdemar spelling: Turkish usage 'IV. Valdemar' acceptable"
+   ],
+   "rev_dbg": [
+    9,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Droysen'in Tarihsel El Atlası'ndan, Hansa'nın yaklaşık 1400'de Kuzey ve Orta Avrupa'daki yayılımını gösteren tarihî harita (harita)"
+   }
+  },
   "heute-vor-37-jahren-mauerfall-berlin-1989-2026-11-09": {
    "L": {
     "body": [
@@ -1490,6 +1521,32 @@
     "kl": "Uzay"
    }
   },
+  "ki-nvidia-rebellions-nvlink-2026-11-09": {
+   "L": {
+    "body": [
+     "Nvidia, Güney Koreli telekom şirketi SK Telecom ve yerli çip geliştiricisi Rebellions pazartesi günü bir niyet mektubu imzaladı. Bilim ve BİT Bakanlığı'na göre imza töreni, Nvidia'nın Coex fuar merkezindeki “AI Day Seoul” etkinliğinde gerçekleşti. Hedef, Nvidia grafik işlemcilerini Rebellions'ın sinirsel işlemcileriyle (NPU) birleştiren heterojen bir hesaplama sistemi.",
+     "Bağlantının NVLink Fusion üzerinden kurulması planlanıyor; bu teknoloji, diğer çip üreticilerinin kendi işlemcilerini Nvidia'nın raf mimarisine entegre etmesine olanak tanıyor. Açıklamaya göre Nvidia GPU'ları “prefill” olarak adlandırılan aşamayı, Rebellions NPU'ları ise kod çözme (decoding) aşamasını üstlenecek; bunun veri aktarım hızını ve enerji verimliliğini artırması bekleniyor. Yeni Rebel R200 çipini kullanan sistemlerin 2028'de kullanıma hazır olması ve SK Telecom'un veri merkezlerinde çalışması planlanıyor.",
+     "Bakanlık, modeli diğer Koreli NPU geliştiricilerine de yaymak istiyor ve AMD ile benzer bağlantılar kurmayı hedefliyor. Nvidia CEO'su Jensen Huang, Kore'nin yapay zekâda dünya lideri olmak için yetenek, teknoloji ve sanayi hırsına sahip olduğunu söyledi. Mali ayrıntılar açıklanmadı."
+    ],
+    "d": "Nvidia, SK Telecom ve çip geliştiricisi Rebellions Seul'de niyet mektubu imzaladı. Rebellions NPU'larının veri merkezlerinde Nvidia GPU'larıyla doğrudan bağlanması planlanıyor.",
+    "t": "Nvidia GPU'larının yanında Koreli çipler: Rebellions ve SK Telecom NVLink Fusion'da"
+   },
+   "at": "2026-11-09T09:40Z",
+   "h": "ecad8fa34029",
+   "rev": [
+    "Weekday \"Pazartesi\" wrongly capitalised mid-sentence (TDK: weekdays are lowercase)",
+    "Headline: \"yöneliyor\" is weak for \"setzen auf\", but acceptable; no change",
+    "Indirect speech sentence already attributed with \"söyledi\"; fine"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Seul'deki COEX merkezi"
+   }
+  },
   "ki-nvidia-untersuchung-huang-spionageverdacht-2026-11-09": {
    "L": {
     "body": [
@@ -1534,6 +1591,33 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Samsung Electronics, Suwon, Güney Kore"
+   }
+  },
+  "ki-speicherchip-roboter-ladestandard-2026-11-09": {
+   "L": {
+    "body": [
+     "Dünya bellek pazarının toplam %70'inden fazlasını karşılayan Samsung Electronics, SK hynix ve Micron, robotlar için ortak bir şarj standardı konusunda sektör kuruluşu SEMI ile görüşüyor. Bunu Güney Kore gazetesi Seoul Economic Daily, sektör kaynaklarına dayanarak bildirdi. Başta Samsung'un Giheung yerleşkesi ve SK hynix'in Cheongju'daki bazı hatları olmak üzere özellikle eski fabrikalar hedefleniyor.",
+     "Bu tesislerde tavan taşıma sistemleri (OHT) ve stocker gibi büyük ölçüde otomatikleştirilmiş sistemler eksik; çalışanlar wafer kaplarını çoğu zaman el arabalarıyla fabrika salonlarında taşıyor. Hümanoid robotların, mobil manipülatörlerin ve otonom mobil robotların (AMR) bu işi devralması planlanıyor, ancak bunlar için neredeyse hiç ortak şartname bulunmuyor. Her modelin kendi şarj cihazına ihtiyaç duyması durumunda, zaten dar olan fabrikalarda belirgin biçimde daha fazla teknoloji gerekirdi.",
+     "Bir sonraki adım olarak şarj verilerinin üretim yönetim sistemleriyle (MES) ilişkilendirilmesi planlanıyor; böylece robotların görev ve şarj süreleri üretim planına göre ayarlanacak. Kwangwoon Üniversitesi'nden Profesör Park Soo-han, bir standardın güvenlik sertifikasyonunu kısaltacağını bekliyor. Böyle bir normun fikri yaklaşık on yıl önce de gündeme gelmişti, ancak o dönemde takip edilmemişti."
+    ],
+    "d": "En büyük üç bellek çipi üreticisi, sektör kuruluşu SEMI ile bir şarj standardı görüşüyor. Farklı robot tiplerinin dar eski fabrikalarda aynı istasyonları kullanması amaçlanıyor.",
+    "t": "Samsung, SK hynix ve Micron eski çip fabrikaları için ortak robot şarj standardı istiyor"
+   },
+   "at": "2026-11-09T09:40Z",
+   "h": "423cc31cdba4",
+   "rev": [
+    "Konjunktiv sentence rendered with an invented attribution (\"belirtiliyor\") and an unnatural future; the German is a hypothetical, not a reported claim",
+    "Turkish percent convention: \"%70'inden fazlasını\" is awkward; word order of the percentage phrase should be natural",
+    "\"Weitgehend automatisierte Systeme\" mistranslated: the German says such systems are largely missing, which the draft handles acceptably, so left unchanged",
+    "\"salonlarda\" for \"Hallen\" is unnatural; \"üretim hallerinde\" fits better"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Grafik: TWN"
    }
   },
   "klima-nordpazifik-meereshitzewellen-pices-2026-11-09": {
@@ -1979,6 +2063,30 @@
     "img.alt": "Arşiv fotoğrafı: Robert Koch Enstitüsü'nün Berlin'deki Gerichtstraße'de bulunan iç avlusu, 2025"
    }
   },
+  "lol-worlds-2026-finale-geng-blg": {
+   "L": {
+    "body": [
+     "2026 League of Legends Dünya Şampiyonası'nın finali Gen.G ile Bilibili Gaming (BLG) arasında oynanacak. Allen'daki (Teksas) ilk yarı finalde Güney Koreli Gen.G, Çinli Invictus Gaming'i 3:0 yendi. İlk iki maçı net kazanan Gen.G, üçüncü maçta önce geriye düştü, ancak kazandığı bir ejderha mücadelesi ve Baron sayesinde maçı çevirdi. Orta koridor oyuncusu Chovy için bu, birçok başarısız denemenin ardından bir dünya şampiyonası finaline ilk katılım oldu.",
+     "İkinci yarı finalde Bilibili Gaming, son şampiyon T1'i 3:1 ile turnuvanın dışına itti. BLG ilk maçı kazandı, T1 durumu eşitledi; ardından Çinli temsilci üçüncü ve dördüncü maçları kazandı. Böylece BLG, bir dünya şampiyonasında ilk kez T1'i yenmiş oldu.",
+     "Beş maç üzerinden oynanacak final, 14 Kasım Cumartesi günü Brooklyn'deki (New York) Barclays Center'da yapılacak. Böylece ABD'nin doğu kıyısı ilk kez bir dünya şampiyonası finaline ev sahipliği yapacak."
+    ],
+    "d": "Gen.G, Invictus Gaming'i 3:0 yendi, Bilibili Gaming ise T1'i 3:1 geçti. Final 14 Kasım'da Brooklyn'de oynanacak.",
+    "t": "LoL Dünya Şampiyonası 2026: Finalde Gen.G ile Bilibili Gaming karşılaşacak, T1 elendi"
+   },
+   "at": "2026-11-09T09:40Z",
+   "h": "914189d354a1",
+   "rev": [
+    "Turkish score convention: scores should be written with a colon (3:0, 3:1) as in the German original, not with a hyphen"
+   ],
+   "rev_dbg": [
+    1,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Dünya Şampiyonası finalinin yapılacağı yer olan Brooklyn'deki (New York) Barclays Center"
+   }
+  },
   "marzahn-13-jaehrige-festnahme-obduktion-2026-11-09-b08": {
    "L": {
     "body": [
@@ -2089,6 +2197,46 @@
     "img.alt": "Diş hekimi koltuğu (Sembolik fotoğraf)"
    }
   },
+  "prinny-party-test": {
+   "L": {
+    "body": [
+     "“Prinny Party: Going Overboard!”, 11 Kasım'da Batı'da PS5, Switch 2, Switch ve PC (Steam) için, Japonya'da ise bir gün sonra çıkıyor. Nippon Ichi Software tarafından geliştirilen ve NIS America tarafından yayımlanan parti oyunu, en fazla dört oyuncuyu “Disgaea” serisinin karakterleriyle bir oyun tahtası üzerinde yarıştırıyor: Oyuncular deneyim ve ekipman topluyor, hastane gibi tesisler inşa ediyor ve “Supreme Overboard”u yenmeye çalışıyor. Klasik bir çevrim içi mod yok; yalnızca Steam Remote Play Together ve Switch 2'de GameShare var. Ücretsiz bir demo mevcut.",
+     "OpenCritic'te oyun, çıkıştan önce 72 puana sahip. The Outerhaven 5 üzerinden 3,5 puan veriyor; diğer oyuncuları, rakipleri ve binaları fırlatmanın yarattığı kaosu ve farklı sınıfları öven yayın, gerçek oyuncularla parti oyunu olarak iyi çalıştığını belirtiyor. Eleştiriler ise patronlara saldırmak yerine oyuncuya saldırmayı tercih eden agresif bilgisayar rakiplerine ve karmaşık sıralama tablosuna yöneltiliyor.",
+     "Japon dergisi Famitsu oyuna 40 üzerinden 29 puan veriyor. SeekingTech ise ilk bir saatin ardından oyunu “Disgaea” ile masa oyununun özgün bir karışımı olarak nitelendiriyor, ancak yalnızca tek bir oyun tahtası bulunmasını eleştiriyor."
+    ],
+    "d": "NIS America'nın parti oyununda en fazla dört oyuncu, bir ana patronu devirmek için oyun tahtasında mücadele ediyor. Eleştiriler karışık: OpenCritic'te 72 puan.",
+    "t": "“Prinny Party” incelemesi: “Disgaea” dünyasından masa oyunu kaosu"
+   },
+   "at": "2026-11-09T09:40Z",
+   "h": "bd9b61e40d48",
+   "rev": [
+    "Teaser: \"Oberboss\" rendered as \"bir patronu\"; the \"Ober-\" (supreme/final boss) nuance was lost.",
+    "Body 2: \"mit echten Mitspielern funktioniere es gut\" is indirect speech; the draft turns it into a statement by the publication, which is acceptable, but \"oyun arkadaşlarını\" for \"Mitspieler\" is sligh",
+    "Headline contains the \"Test\" nuance; \"incelemesi\" is fine."
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Nippon Ichi Software'in Kakamigahara'daki (Japonya) şirket merkezi",
+    "rv.con": [
+     "Agresif, haksız bilgisayar rakipleri",
+     "Klasik çevrim içi çok oyunculu mod yok",
+     "Yalnızca bir oyun tahtası",
+     "Sıralama tablosu lideri net göstermiyor"
+    ],
+    "rv.fz": "Tuhaf bir “Disgaea” masa oyunu: Kanepede arkadaşlarla keyifli, ancak bilgisayara karşı çabuk sinir bozuyor.",
+    "rv.pro": [
+     "İnsan oyuncularla kaotik eğlence",
+     "Arkadaşları, rakipleri ve binaları fırlatma",
+     "Kendine özgü yetenekleri olan sınıflar",
+     "Oyun için birçok ayar"
+    ],
+    "rv.score": "OpenCritic 72 · The Outerhaven 3,5/5 · Famitsu 29/40"
+   }
+  },
   "quint-computing-erlangen-quantenchips-9-mio-2026-11-09": {
    "L": {
     "body": [
@@ -2172,6 +2320,45 @@
    ],
    "x": {
     "img.alt": "Sinsheim'daki PreZero Arena (Arşiv fotoğrafı)"
+   }
+  },
+  "sonic-pico-park-test": {
+   "L": {
+    "body": [
+     "“Sonic Pico Park”, 12 Kasım'da PC, PS5, Xbox Series X|S, Xbox One, Switch 2 ve Switch için çıkacak ve 9,99 ABD doları olacak. Oyunu, başarılı “Pico Park” serisinin ardındaki ekip TECOPARK, Sega'nın “Sonic the Hedgehog” serisiyle iş birliği içinde geliştirdi. Sekiz oyuncuya kadar oyuncu kısa beceri bulmacalarını birlikte çözüyor; Shacknews'a göre yerel olarak dört, çevrim içi olarak sekiz oyuncuya kadar oynanabiliyor; çevrim içi modda platformlar arası oyun mümkün.",
+     "Oyun, çıkıştan önce OpenCritic'te 82 puanda. CGMagazine 10 üzerinden 8,5 veriyor ve halkalar, loop'lar ya da Tails ile Knuckles'ın uçma yetenekleri gibi Sonic öğelerinin yaklaşık 60 bölüme nasıl yerleştirildiğini öven bir değerlendirme yapıyor; ancak bazı patron savaşlarının, tek bir hata tüm takımın başarısız olmasına yol açtığı için yıpratıcı olduğunu belirtiyor. Shacknews, oyuncu sayısına uyum sağlayan bulmacalar için 10 üzerinden 8 veriyor, ancak Sonic'e özgü hızın ve daha kapsamlı bir rekabet modunun eksikliğini duyduğunu belirtiyor.",
+     "Final Weapon oyuna 5 üzerinden 4 puan veriyor: Kısa bölümlerin arkadaşlarla harika derecede kaotik turlar sağladığını, ancak oyunun oldukça kısa olduğunu ve savaş modu ile sonsuz modun ana bölümlerin gerisinde kaldığını belirtiyor."
+    ],
+    "d": "Sega, Sonic ve arkadaşlarını “Pico Park” yapımcılarının kooperatif bulmaca oyununa taşıyor. İlk incelemeler olumlu: OpenCritic'te 82 puan.",
+    "t": "“Sonic Pico Park” incelemesi: Yarışmak yerine birlikte bulmaca çözmek"
+   },
+   "at": "2026-11-09T09:40Z",
+   "h": "883b2df52aef",
+   "rev": [
+    "Paragraph 1: 'Bis zu acht Spieler lösen gemeinsam...' was rendered as 'Sekiz oyuncuya kadar ... çözüyor' without a subject, which is awkward, and the local/online split reads clumsily; kept mostly, mi",
+    "Paragraph 2: 'ancak bazı patron savaşlarının yıpratıcı olduğunu, çünkü ...' is a hanging clause: the attribution is only in the verb and the sentence structure is acceptable but the reporting marker w",
+    "Paragraph 2: Shacknews 'vermisst' ('aradığını belirtiyor') is an unnatural rendering; 'eksikliğini duyduğunu' is better."
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Sega'nın Tokyo Game Show 2007'deki fuar standı",
+    "rv.con": [
+     "Sonic'e özgü hız neredeyse yok",
+     "Az çeşitli, zayıf rekabet modu",
+     "Genel olarak oldukça kısa",
+     "Tek bir hata tüm takımı geri atıyor"
+    ],
+    "rv.fz": "Sonic dünyasını gruplar için ustaca kullanan, çekici ve uygun fiyatlı bir kooperatif bulmaca oyunu; yalnızca hız ve kapsam eksik.",
+    "rv.pro": [
+     "Bulmacalar oyuncu sayısına uyum sağlıyor",
+     "Sonic yetenekleri bulmacalara akıllıca yerleştirilmiş",
+     "Kısa bölümler, parti oyunları için ideal"
+    ],
+    "rv.score": "OpenCritic 82 · CGMagazine 8,5/10 · Shacknews 8/10 · Final Weapon 4/5"
    }
   },
   "steinmeier-weimar-9-november-2026-11-09-b11": {

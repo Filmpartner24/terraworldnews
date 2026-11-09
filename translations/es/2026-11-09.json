@@ -1198,6 +1198,30 @@
     "img.alt": "Gráfico: TERRA WORLD NEWS"
    }
   },
+  "hanse-kaufmannsbund-nordeuropa-2026-11-09": {
+   "L": {
+    "body": [
+     "La Hansa –la palabra significa «comunidad» o «asociación»– surgió en la Alta Edad Media como unión de mercaderes del norte de Alemania. Hacia 1160, comerciantes alemanes que navegaban con regularidad a Gotland se agruparon en una hansa de mercaderes itinerantes. A partir de 1356, las propias ciudades sostuvieron cada vez más la alianza, la «Hansa de las ciudades». Su centro era Lübeck, refundada en 1159 bajo Enrique el León y llamada más tarde «la reina de la Hansa». En total, con el tiempo unas 200 ciudades estuvieron vinculadas a la Hansa, entre ellas Hamburgo y Bremen.",
+     "La Hansa vivía del comercio a larga distancia entre el mar del Norte y el Báltico. Con grandes y maniobrables cocas, sus mercaderes pusieron en circulación lana de Inglaterra, paños de Flandes, bacalao seco de Noruega, cobre y hierro de Suecia y pieles de Rusia. Las delegaciones en el extranjero, los Kontore, estaban, entre otros lugares, en Londres, Brujas y Nóvgorod; su espacio comercial llegaba hasta Bergen, en Noruega. La alianza procuró a sus miembros privilegios comerciales, hizo combatir a los piratas y construir faros. Tras la victoria sobre el rey Valdemar IV de Dinamarca, la Paz de Stralsund de 1370 aseguró la supremacía en el Báltico.",
+     "A partir del siglo XV la Hansa perdió fuerza: comerciantes ingleses y neerlandeses se abrieron paso en sus mercados, los soberanos favorecieron a sus propios mercaderes y en 1494 Iván III hizo cerrar el Kontor de Nóvgorod. La Guerra de los Treinta Años aceleró el declive; en 1669 se reunieron en Lübeck menos de diez ciudades. Solo Lübeck, Hamburgo y Bremen permanecieron fieles a la alianza hasta el siglo XIX. La Nueva Hansa, impulsada en 1980, vuelve a unir hoy a casi 200 ciudades de 16 países."
+    ],
+    "d": "De Brujas a Nóvgorod: del siglo XIII al XV, la Hansa controló gran parte del comercio en el norte de Europa. Su centro era Lübeck.",
+    "t": "La Hansa: cómo una alianza de mercaderes y ciudades dominó el comercio del norte de Europa"
+   },
+   "at": "2026-11-09T09:40Z",
+   "flag": [
+    "Zahlen fehlen oder weichen ab: 13, 15, 19"
+   ],
+   "h": "74bd1d300b02",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Mapa histórico de la expansión de la Hansa en el norte y el centro de Europa hacia 1400, del Atlas histórico manual de Droysen (mapa)"
+   }
+  },
   "heute-vor-37-jahren-mauerfall-berlin-1989-2026-11-09": {
    "L": {
     "body": [
@@ -1447,6 +1471,27 @@
     "kl": "Astronáutica"
    }
   },
+  "ki-nvidia-rebellions-nvlink-2026-11-09": {
+   "L": {
+    "body": [
+     "Nvidia, el grupo surcoreano de telecomunicaciones SK Telecom y el desarrollador local de chips Rebellions firmaron el lunes una carta de intenciones. Según el Ministerio de Ciencia y TIC, la firma tuvo lugar en el evento «AI Day Seoul» de Nvidia, en el centro de exposiciones Coex. El objetivo es un sistema de computación heterogéneo que conecte procesadores gráficos de Nvidia con los procesadores neuronales (NPU) de Rebellions.",
+     "El acoplamiento se realizará mediante NVLink Fusion, que permite a fabricantes de chips ajenos integrar sus propios procesadores en la arquitectura de racks de Nvidia. Según el comunicado, las GPU de Nvidia asumirán la llamada fase de prefill y las NPU de Rebellions la decodificación, lo que debería aumentar el rendimiento y la eficiencia energética. Los sistemas con el nuevo chip Rebel R200 deberían estar listos en 2028 y funcionar en centros de datos de SK Telecom.",
+     "El Ministerio quiere ampliar el modelo a otros desarrolladores coreanos de NPU y aspira a establecer conexiones similares con AMD. El director ejecutivo de Nvidia, Jensen Huang, dijo que Corea tiene el talento, la tecnología y la ambición industrial para convertirse en líder mundial en inteligencia artificial. No se facilitaron detalles financieros."
+    ],
+    "d": "Nvidia, SK Telecom y el desarrollador de chips Rebellions firmaron en Seúl una carta de intenciones. Las NPU de Rebellions se conectarán directamente con GPU de Nvidia en centros de datos.",
+    "t": "Chips coreanos junto a GPU de Nvidia: Rebellions y SK Telecom apuestan por NVLink Fusion"
+   },
+   "at": "2026-11-09T09:40Z",
+   "h": "ecad8fa34029",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: el centro COEX en Seúl"
+   }
+  },
   "ki-nvidia-untersuchung-huang-spionageverdacht-2026-11-09": {
    "L": {
     "body": [
@@ -1491,6 +1536,33 @@
    ],
    "x": {
     "img.alt": "Imagen simbólica: Samsung Electronics en Suwon, Corea del Sur"
+   }
+  },
+  "ki-speicherchip-roboter-ladestandard-2026-11-09": {
+   "L": {
+    "body": [
+     "Samsung Electronics, SK hynix y Micron, que juntas cubren más del 70 por ciento del mercado mundial de memoria, hablan con la asociación sectorial SEMI sobre un estándar de carga común para robots. Lo informa el diario surcoreano Seoul Economic Daily, citando fuentes del sector. El foco está sobre todo en las fábricas más antiguas, como el campus de Samsung en Giheung y algunas líneas de SK hynix en Cheongju.",
+     "Allí faltan en gran medida sistemas automatizados como los sistemas de transporte aéreo (OHT) y los stockers; los empleados suelen empujar los contenedores de obleas en carretillas de mano por las naves. Los humanoides, los manipuladores móviles y los robots móviles autónomos (AMR) deberían asumir ese trabajo, pero apenas existen especificaciones comunes para ellos. Si cada modelo necesitara sus propios cargadores, haría falta bastante más tecnología en unas fábricas que ya son estrechas.",
+     "Como siguiente paso, los datos de carga deben vincularse con los sistemas de control de fabricación (MES), de modo que los tiempos de uso y de carga de los robots se ajusten al plan de producción. El profesor Park Soo-han, de la Universidad Kwangwoon, espera que un estándar acorte la certificación de seguridad. La idea de una norma así ya había surgido hace unos diez años, pero entonces no se siguió adelante."
+    ],
+    "d": "Los tres mayores fabricantes de chips de memoria hablan con la asociación SEMI sobre un estándar de carga. Distintos tipos de robots deberían usar las mismas estaciones en fábricas antiguas y estrechas.",
+    "t": "Samsung, SK hynix y Micron quieren cargadores únicos para robots en fábricas antiguas"
+   },
+   "at": "2026-11-09T09:40Z",
+   "h": "423cc31cdba4",
+   "rev": [
+    "Se añadió \"según se indica\" en la frase condicional, sin base en el original alemán (el condicional ya marca la hipótesis).",
+    "Teaser: \"usarían\" presenta como condicional algo que en el original es un objetivo (\"sollen ... nutzen\"); mejor \"deberían usar\".",
+    "\"Como siguiente paso, ... se vincularían\": el original dice \"sollen verknüpft werden\"; se ajusta a \"deben vincularse\".",
+    "Falta \"Los tres mayores\" ya correcto; \"Los humanoides... deberían asumir\" correcto."
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico: TWN"
    }
   },
   "klima-nordpazifik-meereshitzewellen-pices-2026-11-09": {
@@ -1898,6 +1970,27 @@
     "img.alt": "Foto de archivo: patio interior del Instituto Robert Koch en la Gerichtstraße de Berlín, 2025"
    }
   },
+  "lol-worlds-2026-finale-geng-blg": {
+   "L": {
+    "body": [
+     "La final del Mundial de League of Legends 2026 será entre Gen.G y Bilibili Gaming (BLG). En la primera semifinal, disputada en Allen (Texas), el equipo coreano Gen.G se impuso por 3-0 al chino Invictus Gaming. Tras dos victorias claras, Gen.G se quedó atrás al principio en la tercera partida, pero le dio la vuelta gracias a una pelea de dragón ganada y al Barón. Para el mid laner Chovy es la primera participación en una final mundialista tras varios intentos fallidos.",
+     "En la segunda semifinal, Bilibili Gaming eliminó del torneo por 3-1 a T1, el campeón defensor. BLG ganó la primera partida, T1 igualó y después el representante chino se llevó la tercera y la cuarta. Así, BLG logró por primera vez una victoria sobre T1 en un Mundial.",
+     "La final, al mejor de cinco partidas, se disputará el sábado 14 de noviembre en el Barclays Center de Brooklyn (Nueva York); es la primera vez que la costa este de Estados Unidos acoge una final del Mundial."
+    ],
+    "d": "Gen.G arrasa a Invictus Gaming por 3-0 y Bilibili Gaming vence a T1 por 3-1. La final se disputará el 14 de noviembre en Brooklyn.",
+    "t": "Mundial de LoL 2026: Gen.G se medirá a Bilibili Gaming en la final; T1, campeón, eliminado"
+   },
+   "at": "2026-11-09T09:40Z",
+   "h": "914189d354a1",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: el Barclays Center de Brooklyn (Nueva York), sede de la final del Mundial"
+   }
+  },
   "marzahn-13-jaehrige-festnahme-obduktion-2026-11-09-b08": {
    "L": {
     "body": [
@@ -2002,6 +2095,41 @@
     "img.alt": "Sillón de dentista (imagen simbólica)"
    }
   },
+  "prinny-party-test": {
+   "L": {
+    "body": [
+     "«Prinny Party: Going Overboard!» sale el 11 de noviembre en Occidente para PS5, Switch 2, Switch y PC (Steam), y un día después en Japón. Desarrollado por Nippon Ichi Software y publicado por NIS America, el juego de fiesta lleva a hasta cuatro jugadores con personajes de la serie «Disgaea» por un tablero: reúnen experiencia y equipamiento, construyen instalaciones como hospitales e intentan derrotar al «Supreme Overboard». No hay un modo en línea clásico, solo Steam Remote Play Together y GameShare en la Switch 2. Hay una demo gratuita disponible.",
+     "En OpenCritic, el juego suma 72 puntos antes de su lanzamiento. The Outerhaven le otorga 3,5 sobre 5 y elogia el caos de lanzar a compañeros, enemigos y edificios, así como las distintas clases; con jugadores reales funcionaría bien como juego de fiesta. Las críticas apuntan a los rivales controlados por la máquina, agresivos, que prefieren atacar al jugador antes que a los jefes, y a una clasificación confusa.",
+     "La revista japonesa Famitsu puntúa el juego con 29 de 40. SeekingTech lo califica, tras una primera hora, de mezcla original de «Disgaea» y juego de mesa, pero critica que solo haya un tablero."
+    ],
+    "d": "En el juego de fiesta de NIS America, hasta cuatro jugadores luchan en un tablero por derrotar a un jefe supremo. La crítica está dividida: 72 puntos en OpenCritic.",
+    "t": "Análisis de «Prinny Party»: caos de juego de mesa del mundo de «Disgaea»"
+   },
+   "at": "2026-11-09T09:40Z",
+   "h": "bd9b61e40d48",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: sede de Nippon Ichi Software en Kakamigahara (Japón)",
+    "rv.con": [
+     "Rivales de la máquina agresivos e injustos",
+     "Sin modo multijugador en línea clásico",
+     "Solo un tablero",
+     "La clasificación muestra poco clara quién lidera"
+    ],
+    "rv.fz": "Un extravagante juego de mesa de «Disgaea» que divierte con amigos en el sofá, pero frustra rápido contra la máquina.",
+    "rv.pro": [
+     "Diversión caótica con jugadores humanos",
+     "Lanzar a amigos, rivales y edificios",
+     "Clases con habilidades propias",
+     "Muchos ajustes para la partida"
+    ],
+    "rv.score": "OpenCritic 72 · The Outerhaven 3,5/5 · Famitsu 29/40"
+   }
+  },
   "quint-computing-erlangen-quantenchips-9-mio-2026-11-09": {
    "L": {
     "body": [
@@ -2072,6 +2200,40 @@
    ],
    "x": {
     "img.alt": "PreZero Arena en Sinsheim (Foto de archivo)"
+   }
+  },
+  "sonic-pico-park-test": {
+   "L": {
+    "body": [
+     "«Sonic Pico Park» saldrá el 12 de noviembre para PC, PS5, Xbox Series X|S, Xbox One, Switch 2 y Switch y costará 9,99 dólares estadounidenses. Lo ha desarrollado TECOPARK, el equipo detrás de la exitosa serie «Pico Park», en colaboración con «Sonic the Hedgehog» de Sega. Hasta ocho jugadores resuelven juntos breves puzles de habilidad; según Shacknews, hasta cuatro en local y hasta ocho en línea; en línea es posible jugar entre plataformas.",
+     "Antes de su lanzamiento, el juego tiene 82 puntos en OpenCritic. CGMagazine le da 8,5 sobre 10 y elogia cómo se han integrado elementos de Sonic, como los anillos, los loopings o las habilidades de vuelo de Tails y Knuckles, en los aproximadamente 60 niveles; no obstante, según la publicación, algunos combates contra jefes serían desesperantes, porque un solo error hace fracasar a todo el equipo. Shacknews le da 8 sobre 10 por unos puzles que se adaptan al número de jugadores, pero echa de menos la velocidad típica de Sonic y un modo competitivo más completo.",
+     "Final Weapon puntúa el juego con 4 sobre 5: según este medio, los niveles cortos darían lugar con amigos a partidas deliciosamente caóticas, pero el juego sería bastante corto y el modo de combate y el modo infinito quedarían por debajo de los niveles principales."
+    ],
+    "d": "Sega lleva a Sonic y sus amigos al juego cooperativo de puzles de los creadores de «Pico Park». Los primeros análisis son positivos: 82 puntos en OpenCritic.",
+    "t": "Análisis de «Sonic Pico Park»: resolver acertijos en equipo en lugar de correr"
+   },
+   "at": "2026-11-09T09:40Z",
+   "h": "883b2df52aef",
+   "rev_dbg": [
+    4,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: stand de Sega en el Tokyo Game Show 2007",
+    "rv.con": [
+     "Apenas hay velocidad típica de Sonic",
+     "Modo competitivo débil y con pocas variantes",
+     "En conjunto, bastante corto",
+     "Un error hace retroceder a todo el equipo"
+    ],
+    "rv.fz": "Un juego cooperativo de puzles encantador y económico que aprovecha con habilidad el mundo de Sonic para grupos; solo le faltan velocidad y duración.",
+    "rv.pro": [
+     "Los puzles se adaptan al número de jugadores",
+     "Habilidades de Sonic integradas con astucia en los puzles",
+     "Niveles cortos, ideales para partidas en grupo"
+    ],
+    "rv.score": "OpenCritic 82 · CGMagazine 8,5/10 · Shacknews 8/10 · Final Weapon 4/5"
    }
   },
   "steinmeier-weimar-9-november-2026-11-09-b11": {
