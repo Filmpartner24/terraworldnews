@@ -1068,7 +1068,10 @@
    "time": "14:00",
    "t1": "Spartak Varna",
    "t2": "Arda Kardzhali",
-   "ft": null
+   "ft": [
+    3,
+    2
+   ]
   },
   {
    "r": 13,
@@ -1076,7 +1079,10 @@
    "time": "17:00",
    "t1": "Levski Sofia",
    "t2": "CSKA Sofia",
-   "ft": null
+   "ft": [
+    0,
+    3
+   ]
   },
   {
    "r": 15,
@@ -1825,6 +1831,14 @@
   {
    "n": "Сега – Първа лига, XIII кръг: резултати и класиране",
    "u": "https://www.segabg.com/category-sport/purva-liga-hiii-krug-rezultati-i-klasirane-video-reportazhi-2"
+  },
+  {
+   "n": "Topsport.bg – Спартак Варна – Арда 3:2 (08.11.2026)",
+   "u": "https://topsport.bg/parva-liga/spartak-varna-arda-3-2-v-mach-ot-parva-liga.html"
+  },
+  {
+   "n": "БНТ – Левски – ЦСКА 0:3 (08.11.2026)",
+   "u": "https://bntnews.bg/news/cska-nanese-sakrushitelen-udar-na-levski-vav-vechnoto-derbi-i-prevze-varha-v-parva-liga-1421237news.html"
   }
  ]
 }
