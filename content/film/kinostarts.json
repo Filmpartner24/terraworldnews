@@ -1,120 +1,6 @@
 {
- "asof": "2026-11-02",
+ "asof": "2026-11-09",
  "starts": [
-  {
-   "date": "2026-11-05",
-   "title": "Geister",
-   "orig": "",
-   "dir": "Fatih Akin",
-   "country": "Deutschland",
-   "g": "f_fantasy",
-   "gs": [
-    "f_drama",
-    "f_de"
-   ],
-   "top": true,
-   "src": {
-    "n": "kino.de",
-    "u": "https://www.kino.de/film/geister-at--01K71KDM8C3BQJA5SBG9AZSWWC"
-   }
-  },
-  {
-   "date": "2026-11-05",
-   "title": "Wildwood",
-   "orig": "",
-   "dir": "Travis Knight",
-   "country": "USA",
-   "g": "f_anim",
-   "gs": [
-    "f_fantasy"
-   ],
-   "top": true,
-   "src": {
-    "n": "kino.de",
-    "u": "https://www.kino.de/film/wildwood--01K974EPX7BRMYKT1889AWSKFE"
-   }
-  },
-  {
-   "date": "2026-11-05",
-   "title": "Godzilla Minus Zero",
-   "orig": "",
-   "dir": "Takashi Yamazaki",
-   "country": "Japan",
-   "g": "f_scifi",
-   "gs": [
-    "f_action",
-    "f_world"
-   ],
-   "top": true,
-   "src": {
-    "n": "kino.de",
-    "u": "https://www.kino.de/film/godzilla-minus-zero--01M22DQHSRTXYN4Q5EBB18SBZ3"
-   }
-  },
-  {
-   "date": "2026-11-05",
-   "title": "Kommissar Jennerwein – Hochsaison",
-   "orig": "",
-   "dir": "Hannu Salonen",
-   "country": "Deutschland",
-   "g": "f_thriller",
-   "gs": [
-    "f_de"
-   ],
-   "top": false,
-   "src": {
-    "n": "kino.de",
-    "u": "https://www.kino.de/film/jennerwein-hochsaison--01KC1KYF376XXHK8MK82JMDXET"
-   }
-  },
-  {
-   "date": "2026-11-05",
-   "title": "Ein Talent fürs Morden",
-   "orig": "A Talent for a Murder",
-   "dir": "Anton Corbijn",
-   "country": "Australien/Irland/Großbritannien/Italien/Schweiz/USA",
-   "g": "f_thriller",
-   "gs": [
-    "f_drama"
-   ],
-   "top": false,
-   "src": {
-    "n": "kino.de",
-    "u": "https://www.kino.de/film/ein-talent-fuers-morden--01M115P44BKSE3W247454W39HB"
-   }
-  },
-  {
-   "date": "2026-11-05",
-   "title": "Minotaurus",
-   "orig": "Minotaur",
-   "dir": "Andrei Swjaginzew",
-   "country": "Frankreich/Deutschland/Lettland",
-   "g": "f_drama",
-   "gs": [
-    "f_thriller",
-    "f_arthouse",
-    "f_europe",
-    "f_de"
-   ],
-   "top": false,
-   "src": {
-    "n": "filmstarts.de",
-    "u": "https://www.filmstarts.de/kritiken/1000022205.html"
-   }
-  },
-  {
-   "date": "2026-11-05",
-   "title": "Der frechste Troll der Welt",
-   "g": "f_anim",
-   "gs": [
-    "f_comedy"
-   ],
-   "top": false,
-   "src": {
-    "n": "kino.de",
-    "u": "https://www.kino.de/film/der-frechste-troll-der-welt--01M0A37TV089JQYWJVE78789HX"
-   }
-  },
   {
    "date": "2026-11-12",
    "title": "Ebenezer – Eine Weihnachtsgeschichte",
@@ -149,18 +35,48 @@
   },
   {
    "date": "2026-11-12",
-   "title": "How to Rob a Bank",
-   "orig": "",
-   "dir": "David Leitch",
-   "country": "USA",
+   "title": "Beware Boiúna",
    "g": "f_action",
    "gs": [
-    "f_thriller"
+    "f_horror"
    ],
    "top": false,
    "src": {
     "n": "kino.de",
-    "u": "https://www.kino.de/film/how-to-rob-a-bank--01KJ7VA0VWKRZX42TBAZ0XV2B0"
+    "u": "https://www.kino.de/film/beware-boiuna--01M0FPHQC7GNVQ8WREJZCTRXFS"
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "title": "Eine letzte Runde",
+   "orig": "",
+   "dir": "Francesco Sossai",
+   "country": "Italien",
+   "g": "f_comedy",
+   "gs": [
+    "f_europe"
+   ],
+   "top": false,
+   "src": {
+    "n": "filmstarts.de – Kinovorschau",
+    "u": "https://www.filmstarts.de/filme-vorschau/de/"
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "title": "George Michael: The Faith Tour",
+   "orig": "",
+   "dir": "Andy Morahan, David Austin",
+   "country": "",
+   "g": "f_musical",
+   "gs": [
+    "f_doku",
+    "f_world"
+   ],
+   "top": false,
+   "src": {
+    "n": "filmstarts.de – Kinovorschau",
+    "u": "https://www.filmstarts.de/filme-vorschau/de/"
    }
   },
   {
@@ -183,6 +99,22 @@
   },
   {
    "date": "2026-11-12",
+   "title": "How to Rob a Bank",
+   "orig": "",
+   "dir": "David Leitch",
+   "country": "USA",
+   "g": "f_action",
+   "gs": [
+    "f_thriller"
+   ],
+   "top": false,
+   "src": {
+    "n": "kino.de",
+    "u": "https://www.kino.de/film/how-to-rob-a-bank--01KJ7VA0VWKRZX42TBAZ0XV2B0"
+   }
+  },
+  {
+   "date": "2026-11-12",
    "title": "Identitti",
    "country": "Deutschland",
    "g": "f_comedy",
@@ -193,19 +125,6 @@
    "src": {
     "n": "kino.de",
     "u": "https://www.kino.de/film/identitti--01KRZVZKN580XB2WVCRXNEHG8P"
-   }
-  },
-  {
-   "date": "2026-11-12",
-   "title": "Beware Boiúna",
-   "g": "f_action",
-   "gs": [
-    "f_horror"
-   ],
-   "top": false,
-   "src": {
-    "n": "kino.de",
-    "u": "https://www.kino.de/film/beware-boiuna--01M0FPHQC7GNVQ8WREJZCTRXFS"
    }
   },
   {
@@ -227,19 +146,13 @@
   },
   {
    "date": "2026-11-19",
-   "title": "Lieblingsmenschen – Die außergewöhnliche Freundschaft von Agnes und Amir",
-   "orig": "",
-   "dir": "Helena Hufnagel",
-   "country": "Deutschland",
-   "g": "f_drama",
-   "gs": [
-    "f_comedy",
-    "f_de"
-   ],
+   "title": "Der Regenbogenfisch",
+   "g": "f_anim",
+   "gs": [],
    "top": false,
    "src": {
     "n": "kino.de",
-    "u": "https://www.kino.de/film/lieblingsmenschen--01KG21BZMD7Y7WK16M2MPDF9VR"
+    "u": "https://www.kino.de/film/der-regenbogenfisch--01KJ7JXBM7M6CVQ715M574EQEK"
    }
   },
   {
@@ -261,13 +174,19 @@
   },
   {
    "date": "2026-11-19",
-   "title": "Der Regenbogenfisch",
-   "g": "f_anim",
-   "gs": [],
+   "title": "Lieblingsmenschen – Die außergewöhnliche Freundschaft von Agnes und Amir",
+   "orig": "",
+   "dir": "Helena Hufnagel",
+   "country": "Deutschland",
+   "g": "f_drama",
+   "gs": [
+    "f_comedy",
+    "f_de"
+   ],
    "top": false,
    "src": {
     "n": "kino.de",
-    "u": "https://www.kino.de/film/der-regenbogenfisch--01KJ7JXBM7M6CVQ715M574EQEK"
+    "u": "https://www.kino.de/film/lieblingsmenschen--01KG21BZMD7Y7WK16M2MPDF9VR"
    }
   },
   {
@@ -288,6 +207,21 @@
   },
   {
    "date": "2026-11-26",
+   "title": "The Further Mis-Adventures of Cliff Booth",
+   "dir": "David Fincher",
+   "country": "USA",
+   "g": "f_drama",
+   "gs": [
+    "f_action"
+   ],
+   "top": true,
+   "src": {
+    "n": "kino.de",
+    "u": "https://www.kino.de/film/the-adventures-of-cliff-booth--01KH1D7BJEPG3YN021PQXH4HZC"
+   }
+  },
+  {
+   "date": "2026-11-26",
    "title": "Wie verhext",
    "orig": "Hexed",
    "dir": "Josie Trinidad, Jason Hand, Fawn Veerasunthorn",
@@ -304,17 +238,17 @@
   },
   {
    "date": "2026-11-26",
-   "title": "The Further Mis-Adventures of Cliff Booth",
-   "dir": "David Fincher",
-   "country": "USA",
-   "g": "f_drama",
+   "title": "Auf der Suche nach der Weihnachtswerkstatt",
+   "orig": "Julenissens verksted",
+   "country": "Norwegen",
+   "g": "f_comedy",
    "gs": [
-    "f_action"
+    "f_europe"
    ],
-   "top": true,
+   "top": false,
    "src": {
     "n": "kino.de",
-    "u": "https://www.kino.de/film/the-adventures-of-cliff-booth--01KH1D7BJEPG3YN021PQXH4HZC"
+    "u": "https://www.kino.de/film/julenissens-verksted--01KT65VK1F2M24J25WASA8M5WP"
    }
   },
   {
@@ -349,21 +283,6 @@
    }
   },
   {
-   "date": "2026-11-26",
-   "title": "Auf der Suche nach der Weihnachtswerkstatt",
-   "orig": "Julenissens verksted",
-   "country": "Norwegen",
-   "g": "f_comedy",
-   "gs": [
-    "f_europe"
-   ],
-   "top": false,
-   "src": {
-    "n": "kino.de",
-    "u": "https://www.kino.de/film/julenissens-verksted--01KT65VK1F2M24J25WASA8M5WP"
-   }
-  },
-  {
    "date": "2026-12-03",
    "title": "Asterix und das Königreich Nubien",
    "orig": "Astérix - Le Royaume de Nubie",
@@ -378,38 +297,6 @@
    "src": {
     "n": "filmstarts.de",
     "u": "https://www.filmstarts.de/kritiken/313265.html"
-   }
-  },
-  {
-   "date": "2026-12-03",
-   "title": "Violent Night 2",
-   "orig": "",
-   "dir": "Tommy Wirkola",
-   "country": "USA",
-   "g": "f_action",
-   "gs": [
-    "f_comedy"
-   ],
-   "top": false,
-   "src": {
-    "n": "kino.de",
-    "u": "https://www.kino.de/film/violent-night-2--01KF0KHFCMDWHJA21JHYCAZKDZ"
-   }
-  },
-  {
-   "date": "2026-12-03",
-   "title": "Behemoth! Stücke eines Lebens",
-   "orig": "Behemoth!",
-   "dir": "",
-   "country": "USA",
-   "g": "f_drama",
-   "gs": [
-    "f_musical"
-   ],
-   "top": false,
-   "src": {
-    "n": "kino.de",
-    "u": "https://www.kino.de/film/behemoth--01K6J6Q8ZXTJXD3R3SBPZA1E49"
    }
   },
   {
@@ -431,6 +318,38 @@
   },
   {
    "date": "2026-12-03",
+   "title": "Behemoth! Stücke eines Lebens",
+   "orig": "Behemoth!",
+   "dir": "",
+   "country": "USA",
+   "g": "f_drama",
+   "gs": [
+    "f_musical"
+   ],
+   "top": false,
+   "src": {
+    "n": "kino.de",
+    "u": "https://www.kino.de/film/behemoth--01K6J6Q8ZXTJXD3R3SBPZA1E49"
+   }
+  },
+  {
+   "date": "2026-12-03",
+   "title": "Violent Night 2",
+   "orig": "",
+   "dir": "Tommy Wirkola",
+   "country": "USA",
+   "g": "f_action",
+   "gs": [
+    "f_comedy"
+   ],
+   "top": false,
+   "src": {
+    "n": "kino.de",
+    "u": "https://www.kino.de/film/violent-night-2--01KF0KHFCMDWHJA21JHYCAZKDZ"
+   }
+  },
+  {
+   "date": "2026-12-03",
    "title": "You Can See Everything",
    "dir": "Lance Oppenheim, Nathan Fielder",
    "country": "USA",
@@ -442,6 +361,22 @@
    "src": {
     "n": "kino.de",
     "u": "https://www.kino.de/film/you-can-see-everything--01M59BX5PG8QD93Y8R5VHYCXY9"
+   }
+  },
+  {
+   "date": "2026-12-10",
+   "title": "Der Festländer",
+   "orig": "The Incomer",
+   "dir": "Louis Paxton",
+   "country": "Großbritannien",
+   "g": "f_comedy",
+   "gs": [
+    "f_europe"
+   ],
+   "top": false,
+   "src": {
+    "n": "insidekino.com",
+    "u": "https://www.insidekino.com/DStarts/DStartplan.htm"
    }
   },
   {
@@ -477,22 +412,6 @@
    }
   },
   {
-   "date": "2026-12-10",
-   "title": "Der Festländer",
-   "orig": "The Incomer",
-   "dir": "Louis Paxton",
-   "country": "Großbritannien",
-   "g": "f_comedy",
-   "gs": [
-    "f_europe"
-   ],
-   "top": false,
-   "src": {
-    "n": "insidekino.com",
-    "u": "https://www.insidekino.com/DStarts/DStartplan.htm"
-   }
-  },
-  {
    "date": "2026-12-16",
    "title": "Avengers: Doomsday",
    "orig": "",
@@ -522,6 +441,23 @@
    "src": {
     "n": "kino.de",
     "u": "https://www.kino.de/film/dune-part-3/"
+   }
+  },
+  {
+   "date": "2026-12-17",
+   "title": "Nur geträumt",
+   "orig": "Juste une illusion",
+   "dir": "Éric Toledano, Olivier Nakache",
+   "country": "Frankreich",
+   "g": "f_comedy",
+   "gs": [
+    "f_drama",
+    "f_europe"
+   ],
+   "top": false,
+   "src": {
+    "n": "Weltkino Filmverleih",
+    "u": "https://weltkino.de/filme/nur-getraeumt"
    }
   },
   {
@@ -685,18 +621,18 @@
   },
   {
    "date": "2027-01-14",
-   "title": "The Beekeeper 2",
-   "orig": "",
-   "dir": "Timo Tjahjanto",
-   "country": "USA/Großbritannien",
-   "g": "f_action",
+   "title": "Children of Blood and Bone – Goldener Zorn",
+   "orig": "Children of Blood and Bone",
+   "dir": "Gina Prince-Bythewood",
+   "country": "USA",
+   "g": "f_fantasy",
    "gs": [
-    "f_thriller"
+    "f_action"
    ],
    "top": false,
    "src": {
     "n": "kino.de",
-    "u": "https://www.kino.de/film/the-beekeeper-2/"
+    "u": "https://www.kino.de/film/children-of-blood-and-bone-goldener-zorn--01KJAMPE3RD97A01HJ0111KVVR"
    }
   },
   {
@@ -733,34 +669,18 @@
   },
   {
    "date": "2027-01-14",
-   "title": "Children of Blood and Bone – Goldener Zorn",
-   "orig": "Children of Blood and Bone",
-   "dir": "Gina Prince-Bythewood",
-   "country": "USA",
-   "g": "f_fantasy",
-   "gs": [
-    "f_action"
-   ],
-   "top": false,
-   "src": {
-    "n": "kino.de",
-    "u": "https://www.kino.de/film/children-of-blood-and-bone-goldener-zorn--01KJAMPE3RD97A01HJ0111KVVR"
-   }
-  },
-  {
-   "date": "2027-01-21",
-   "title": "Komplizinnen – Vernunft ist keine Lösung",
+   "title": "The Beekeeper 2",
    "orig": "",
-   "dir": "Sonja Heiss",
-   "country": "Deutschland",
-   "g": "f_comedy",
+   "dir": "Timo Tjahjanto",
+   "country": "USA/Großbritannien",
+   "g": "f_action",
    "gs": [
-    "f_de"
+    "f_thriller"
    ],
    "top": false,
    "src": {
     "n": "kino.de",
-    "u": "https://www.kino.de/film/raging-moms/"
+    "u": "https://www.kino.de/film/the-beekeeper-2/"
    }
   },
   {
@@ -781,6 +701,33 @@
   },
   {
    "date": "2027-01-21",
+   "title": "Iron Boy",
+   "g": "f_anim",
+   "gs": [],
+   "top": false,
+   "src": {
+    "n": "kino.de",
+    "u": "https://www.kino.de/film/iron-boy--01M36YX41GWF2PV1C5E62YPGH7"
+   }
+  },
+  {
+   "date": "2027-01-21",
+   "title": "Komplizinnen – Vernunft ist keine Lösung",
+   "orig": "",
+   "dir": "Sonja Heiss",
+   "country": "Deutschland",
+   "g": "f_comedy",
+   "gs": [
+    "f_de"
+   ],
+   "top": false,
+   "src": {
+    "n": "kino.de",
+    "u": "https://www.kino.de/film/raging-moms/"
+   }
+  },
+  {
+   "date": "2027-01-21",
    "title": "The Debut",
    "dir": "Jesse Eisenberg",
    "country": "USA",
@@ -792,17 +739,6 @@
    "src": {
     "n": "kino.de",
     "u": "https://www.kino.de/film/the-debut--01KVTCJ91P2ZRJH03ZQM74DEE3"
-   }
-  },
-  {
-   "date": "2027-01-21",
-   "title": "Iron Boy",
-   "g": "f_anim",
-   "gs": [],
-   "top": false,
-   "src": {
-    "n": "kino.de",
-    "u": "https://www.kino.de/film/iron-boy--01M36YX41GWF2PV1C5E62YPGH7"
    }
   },
   {
@@ -838,19 +774,19 @@
   },
   {
    "date": "2027-01-28",
-   "title": "Wind of Change",
+   "title": "Club Kid",
    "orig": "",
-   "dir": "Alex Ranarivelo",
+   "dir": "Jordan Firstman",
    "country": "USA",
-   "g": "f_musical",
+   "g": "f_comedy",
    "gs": [
-    "f_bio",
-    "f_drama"
+    "f_drama",
+    "f_arthouse"
    ],
    "top": false,
    "src": {
     "n": "kino.de",
-    "u": "https://www.kino.de/film/wind-of-change--01M527Q4G6FZ6R5F2PX0ERAJY9"
+    "u": "https://www.kino.de/film/club-kid--01KS2HF0D3Z2Q4GGQFKE2B1VPR"
    }
   },
   {
@@ -871,34 +807,19 @@
   },
   {
    "date": "2027-01-28",
-   "title": "Club Kid",
+   "title": "Wind of Change",
    "orig": "",
-   "dir": "Jordan Firstman",
+   "dir": "Alex Ranarivelo",
    "country": "USA",
-   "g": "f_comedy",
+   "g": "f_musical",
    "gs": [
-    "f_drama",
-    "f_arthouse"
+    "f_bio",
+    "f_drama"
    ],
    "top": false,
    "src": {
     "n": "kino.de",
-    "u": "https://www.kino.de/film/club-kid--01KS2HF0D3Z2Q4GGQFKE2B1VPR"
-   }
-  },
-  {
-   "date": "2027-02-04",
-   "title": "Remain",
-   "dir": "M. Night Shyamalan",
-   "country": "USA",
-   "g": "f_drama",
-   "gs": [
-    "f_thriller"
-   ],
-   "top": false,
-   "src": {
-    "n": "kino.de",
-    "u": "https://www.kino.de/film/remain--01KEVZ621ZDFH75W1W5K44G84F"
+    "u": "https://www.kino.de/film/wind-of-change--01M527Q4G6FZ6R5F2PX0ERAJY9"
    }
   },
   {
@@ -931,6 +852,21 @@
    }
   },
   {
+   "date": "2027-02-04",
+   "title": "Remain",
+   "dir": "M. Night Shyamalan",
+   "country": "USA",
+   "g": "f_drama",
+   "gs": [
+    "f_thriller"
+   ],
+   "top": false,
+   "src": {
+    "n": "kino.de",
+    "u": "https://www.kino.de/film/remain--01KEVZ621ZDFH75W1W5K44G84F"
+   }
+  },
+  {
    "date": "2027-02-11",
    "title": "Das Wunder von Narnia",
    "orig": "Narnia: The Magician's Nephew",
@@ -948,15 +884,13 @@
   },
   {
    "date": "2027-02-11",
-   "title": "Wicker",
-   "g": "f_fantasy",
-   "gs": [
-    "f_comedy"
-   ],
+   "title": "A Place in Hell",
+   "g": "f_thriller",
+   "gs": [],
    "top": false,
    "src": {
     "n": "kino.de",
-    "u": "https://www.kino.de/film/wicker--01KJ7HNM4EMGDT2EV0Z05ZCDEF"
+    "u": "https://www.kino.de/film/a-place-in-hell--01KTBD54J1K9CY2WFA0SZXYTWX"
    }
   },
   {
@@ -972,24 +906,49 @@
   },
   {
    "date": "2027-02-11",
-   "title": "A Place in Hell",
-   "g": "f_thriller",
-   "gs": [],
+   "title": "Wicker",
+   "g": "f_fantasy",
+   "gs": [
+    "f_comedy"
+   ],
    "top": false,
    "src": {
     "n": "kino.de",
-    "u": "https://www.kino.de/film/a-place-in-hell--01KTBD54J1K9CY2WFA0SZXYTWX"
+    "u": "https://www.kino.de/film/wicker--01KJ7HNM4EMGDT2EV0Z05ZCDEF"
    }
   },
   {
    "date": "2027-02-18",
-   "title": "ZOMA",
+   "title": "Don't Kill Loretta",
+   "g": "f_horror",
+   "gs": [],
+   "top": false,
+   "src": {
+    "n": "kino.de",
+    "u": "https://www.kino.de/film/don-t-kill-loretta--01KPZCNFFD47TEX19M56Y1BH3P"
+   }
+  },
+  {
+   "date": "2027-02-18",
+   "title": "Ein langer Winter",
+   "orig": "A Long Winter",
    "g": "f_drama",
    "gs": [],
    "top": false,
    "src": {
     "n": "kino.de",
-    "u": "https://www.kino.de/film/zoma--01KMJ31YAFXW146B2T40H3Y36H"
+    "u": "https://www.kino.de/film/a-long-winter--01M0S471R5240BRDJSFVMJYH7J"
+   }
+  },
+  {
+   "date": "2027-02-18",
+   "title": "The Comeback King",
+   "g": "f_comedy",
+   "gs": [],
+   "top": false,
+   "src": {
+    "n": "kino.de",
+    "u": "https://www.kino.de/film/the-comeback-king--01KKVNF9PM534DAWHZRVJ4V1NS"
    }
   },
   {
@@ -1018,36 +977,13 @@
   },
   {
    "date": "2027-02-18",
-   "title": "The Comeback King",
-   "g": "f_comedy",
-   "gs": [],
-   "top": false,
-   "src": {
-    "n": "kino.de",
-    "u": "https://www.kino.de/film/the-comeback-king--01KKVNF9PM534DAWHZRVJ4V1NS"
-   }
-  },
-  {
-   "date": "2027-02-18",
-   "title": "Don't Kill Loretta",
-   "g": "f_horror",
-   "gs": [],
-   "top": false,
-   "src": {
-    "n": "kino.de",
-    "u": "https://www.kino.de/film/don-t-kill-loretta--01KPZCNFFD47TEX19M56Y1BH3P"
-   }
-  },
-  {
-   "date": "2027-02-18",
-   "title": "Ein langer Winter",
-   "orig": "A Long Winter",
+   "title": "ZOMA",
    "g": "f_drama",
    "gs": [],
    "top": false,
    "src": {
     "n": "kino.de",
-    "u": "https://www.kino.de/film/a-long-winter--01M0S471R5240BRDJSFVMJYH7J"
+    "u": "https://www.kino.de/film/zoma--01KMJ31YAFXW146B2T40H3Y36H"
    }
   },
   {
@@ -1073,6 +1009,38 @@
    "src": {
     "n": "kino.de",
     "u": "https://www.kino.de/film/panic-carefully--01KH8PB1TZYF8A15BWZKXXX0WX"
+   }
+  },
+  {
+   "date": "2027-03-11",
+   "title": "Der Exorzist: Märtyrer",
+   "orig": "The Exorcist: Martyrs",
+   "dir": "Mike Flanagan",
+   "country": "USA",
+   "g": "f_horror",
+   "gs": [
+    "f_world"
+   ],
+   "top": true,
+   "src": {
+    "n": "KinoCheck",
+    "u": "https://kinocheck.de/"
+   }
+  },
+  {
+   "date": "2027-03-25",
+   "title": "Day Drinker",
+   "orig": "",
+   "dir": "",
+   "country": "USA",
+   "g": "f_thriller",
+   "gs": [
+    "f_world"
+   ],
+   "top": false,
+   "src": {
+    "n": "KinoCheck",
+    "u": "https://kinocheck.de/"
    }
   }
  ],
