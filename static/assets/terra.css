@@ -2020,3 +2020,7 @@ background:linear-gradient(135deg,color-mix(in srgb,var(--c1) 26%,#0a1030),color
 .au-card .au-role{margin:0 0 8px}
 @media(max-width:640px){.au-card{grid-template-columns:1fr}.au-card img{width:150px}}
 .au-ph,.au-card img,.au-mini img{filter:grayscale(1)}   /* alle Teamfotos schwarz-weiß (Nedy 08.11.2026) */
+/* Byline mit Foto (09.11.2026) */
+.byline>span:first-child{display:inline-flex;align-items:center;gap:9px}
+.au-av-l{flex:none;line-height:0}
+.au-av{width:36px;height:36px;border-radius:50%;object-fit:cover;object-position:50% 25%;filter:grayscale(1);border:1px solid var(--rule)}

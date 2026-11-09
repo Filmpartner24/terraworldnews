@@ -904,13 +904,23 @@ def author2_of(it):  # zweite Autorin/zweiter Autor: Feld "au2" (Nedy 09.11.2026
 def au2_name(it, l):
     a = it.get('au2')
     return (a.get(l) or a.get('de') or a.get('en') or '') if isinstance(a, dict) else (a or '')
+# Byline mit Foto (Nedy 09.11.2026): eigene Artikel zeigen Foto der Autorin/des Autors; alle übrigen Meldungen
+# „TERRA-Redaktion · Verantwortlich: Nedy John Cross“ mit seinem Foto (er prüft und gibt jede Meldung frei) – bewusst NICHT als Autor.
+CHIEF = next((x for x in AUTHORS if x.get('key') == 'nedy-john-cross'), None)
+RESP = {'bg': 'Отговорен редактор', 'de': 'Verantwortlich', 'en': 'Responsible editor', 'es': 'Editor responsable', 'tr': 'Sorumlu editör', 'it': 'Responsabile'}
+def au_av(a, l, nm):
+    return f'<a class="au-av-l" href="{au_url(a, l)}" tabindex="-1" aria-hidden="true"><img class="au-av" src="{a["img"]}" width="36" height="36" alt="" loading="lazy" decoding="async"></a>' if a.get('img') else ''
 def byline_html(it, l):
     a = author_of(it)
-    if not a: return e(byline(it, l))
+    if not a:
+        if not CHIEF or it.get('au'): return e(byline(it, l))
+        nm = au_txt(CHIEF, 'name', l)
+        return (au_av(CHIEF, l, nm) + f'<span class="au-tx">{e(UI[l]["by"])} · {e(RESP.get(l, RESP["en"]))}: '
+                f'<a class="au-link" href="{au_url(CHIEF, l)}">{e(nm)}</a></span>')
     lk = f'<a class="au-link" href="{au_url(a, l)}" rel="author">{e(au_name(it, l))}</a>'
     a2 = author2_of(it)
     if a2: lk += {'bg': ' и ', 'de': ' und ', 'en': ' and ', 'es': ' y ', 'tr': ' ve ', 'it': ' e '}.get(l, ' & ') + f'<a class="au-link" href="{au_url(a2, l)}" rel="author">{e(au2_name(it, l))}</a>'
-    return e(BYP[l].split('{n}')[0]) + lk + e(BYP[l].split('{n}')[1])
+    return au_av(a, l, au_name(it, l)) + '<span class="au-tx">' + e(BYP[l].split('{n}')[0]) + lk + e(BYP[l].split('{n}')[1]) + '</span>'
 def kick(it, l, prefix=''):
     if it.get('live'): prefix = f'<b class="brk">{e(UI[l]["brk"])}</b>' + prefix
     if it.get('ex'): prefix = f'<b class="exk">{e(EXL[l])}</b>' + prefix
