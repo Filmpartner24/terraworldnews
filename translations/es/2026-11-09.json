@@ -661,6 +661,33 @@
     "img.alt": "Imagen simbólica: sucursal de The Children’s Place en Greendale (EE. UU.)"
    }
   },
+  "claude-code-dont-ask-again-passwoerter": {
+   "L": {
+    "body": [
+     "La empresa de seguridad Apiiro ha encontrado en proyectos públicos de GitHub miles de contraseñas y claves de acceso que llegaron allí a través de Claude Code, el agente de programación de Anthropic. Cuando un usuario confirma un comando con «Sí, y no volver a preguntar», Claude Code guarda el comando completo en texto plano en el archivo .claude/settings.local.json, incluidas las contraseñas escritas en él. Si ese archivo se publica con el proyecto, los secretos quedan al descubierto.",
+     "Apiiro examinó 104.185 copias del archivo; en 1122 había al menos un secreto real, en total 1379 distintos. Junto con versiones anteriores de los archivos, un archivo de configuración compartido e historiales de chat guardados, los investigadores llegaron a 2539 secretos en 1994 proyectos, entre ellos 379 contraseñas de bases de datos, 43 accesos a servidores y 23 claves de AWS. Las herramientas de búsqueda habituales pasaron por alto muchos de ellos. Apiiro no comprobó si los datos siguen funcionando; una empresa notificada confirmó que una clave era válida.",
+     "El responsable de Claude Code, Boris Cherny, escribió en Hacker News que Anthropic estudia cómo evitarlo, por ejemplo con una simple búsqueda de secretos. Señaló que Claude Code excluye el archivo del control de versiones al crearlo, por lo que las copias publicadas tendrían que haberse añadido a mano. Apiiro replica que esa exclusión solo se aplica en el propio equipo y que en 539 proyectos hubo commits con Claude como coautor que modificaron el archivo. Apiiro aconseja a los afectados sustituir de inmediato las credenciales expuestas y eliminar el archivo de sus proyectos."
+    ],
+    "d": "Investigadores de seguridad hallaron credenciales en casi 2000 proyectos públicos. La causa principal es una función de comodidad del agente de programación de Anthropic.",
+    "t": "«No volver a preguntar»: miles de contraseñas quedaron expuestas en GitHub por Claude Code"
+   },
+   "at": "2026-11-09T13:17Z",
+   "h": "7052d5ae75a6",
+   "rev": [
+    "«estaría estudiando» (condicional) altera el matiz de «prüfe» en estilo indirecto tras «escribió»; es más natural y exacto «estudia»",
+    "«tendrían que haberse añadido» convierte una inferencia de Cherny en condicional ambiguo; mejor «tendrían que haber sido añadidas a mano» no necesario, pero «habrían tenido que añadirse» ya es correct",
+    "El titular pierde la atribución natural «a través de»; se mantiene por ser correcto"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: código de programación en una pantalla",
+    "kl": "Seguridad"
+   }
+  },
   "csn-verkauft-zementsparte-an-huaxin-2026-11-09": {
    "L": {
     "body": [
@@ -688,6 +715,28 @@
    ],
    "x": {
     "img.alt": "Imagen simbólica: planta de cemento en Ribeirão Grande, en el estado de São Paulo, Brasil"
+   }
+  },
+  "deepseek-harness-154-millionen": {
+   "L": {
+    "body": [
+     "La desarrolladora china de IA DeepSeek informa de que su plataforma de agentes Harness tiene 1,54 millones de usuarios activos diarios, a fecha de 4 de noviembre; se contabilizaron los usuarios que acceden a través de la interfaz de programación oficial de DeepSeek. Cada día se procesarían unos 92 billones de tokens, los bloques de texto con los que calculan los modelos de IA. La versión 0.1 había aparecido el 13 de agosto.",
+     "Harness es un kit de construcción en el que los usuarios combinan modelos, herramientas, funciones de memoria e interfaces mediante extensiones. DeepSeek quiere convertirlo en «el sistema operativo de la era de los agentes». Según datos de la empresa, ya existen unas 35.000 extensiones de terceros; alrededor del 60 por ciento de los usuarios activos ha creado o instalado al menos una.",
+     "A continuación, DeepSeek planea un mercado oficial en el que los desarrolladores puedan ofrecer sus extensiones y los usuarios encontrarlas con mayor facilidad. Está en preparación un programa de apoyo para desarrolladores, por ejemplo con incentivos en tokens, intercambio técnico y recomendaciones; además, la empresa trabaja en la estabilidad, la compatibilidad y la seguridad de las interfaces. Las cifras de usuarios no han sido verificadas de forma independiente."
+    ],
+    "d": "Casi tres meses después de su lanzamiento, la plataforma de agentes de DeepSeek cuenta con 35.000 extensiones de terceros. Ahora la empresa planea un mercado oficial.",
+    "t": "1,54 millones de usuarios al día: DeepSeek convierte Harness en una tienda de apps"
+   },
+   "at": "2026-11-09T13:17Z",
+   "h": "9df3063966bd",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico de portada: DeepSeek Harness alcanza 1,54 millones de usuarios al día",
+    "kl": "Agentes de IA"
    }
   },
   "derrick-james-canelo-crawford-rueckkampf": {
@@ -1422,6 +1471,34 @@
     "kl": "Fórmula 1"
    }
   },
+  "fuerth-rueckbenennung-spvgg-fuerth-2026-11-09": {
+   "L": {
+    "body": [
+     "El SpVgg Greuther Fürth vuelve a su antiguo nombre. En una asamblea extraordinaria de socios celebrada el domingo en el Sportpark Ronhof, según el club, 1867 socios votaron a favor del cambio a SpVgg Fürth, 229 en contra y ocho se abstuvieron. El club cifró el apoyo en un 88,3 por ciento; se necesitaba una mayoría de tres cuartos. El nombre y el logotipo cambiarán el 1 de julio de 2027.",
+     "«Nuestros socios han dado un resultado inequívoco», dijo el presidente Volker Heißmann. Según explicó, la junta directiva prepararía ahora los pasos necesarios para el cambio al inicio de la temporada. Según SID, el cambio costaría casi 500.000 euros, sobre todo por nuevos textiles, imagen de marca y rotulación de edificios. La iniciativa de aficionados «Zurück zur SpVgg Fürth» quiere cofinanciar los costes.",
+     "Como SpVgg Fürth, el club fue campeón de Alemania en 1914, 1926 y 1929. Desde la fusión con la sección de fútbol del TSV Vestenbergsgreuth en 1996 competía con el añadido «Greuther». El club quiere honrar la etapa bajo ese nombre hasta el final de la temporada y conservar la aportación del TSV como parte de su historia."
+    ],
+    "d": "Los socios del club de Segunda votan con un 88,3 por ciento a favor de recuperar el nombre histórico. El añadido «Greuther» desaparecerá el 1 de julio de 2027.",
+    "t": "Tras 30 años: el Greuther Fürth volverá a llamarse SpVgg Fürth desde el verano"
+   },
+   "at": "2026-11-09T13:17Z",
+   "h": "01df24737386",
+   "rev": [
+    "Tense/mood: «prepararía» should be present subjunctive-equivalent; «prepararía» as conditional is acceptable but 'iba a preparar' is clearer; changed to «preparará ahora» with attribution kept",
+    "«Según SID, costaría casi 500.000 euros» lacks a clear subject (the changeover) and 'soll' sense; clarified",
+    "Sentence 'Según explicó' fine; 'Seit ... trat er an' tense: «competía» changed to «competía» kept",
+    "«desaparecerá el 1 de julio de 2027» in teaser fine",
+    "Heading says 'desde el verano' fine"
+   ],
+   "rev_dbg": [
+    5,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sportpark Ronhof Thomas Sommer en Fürth (Imagen simbólica)"
+   }
+  },
   "graff-jung-kook-i-wish-holiday": {
    "L": {
     "body": [
@@ -1441,6 +1518,27 @@
    ],
    "x": {
     "img.alt": "Foto de archivo: el cantante Jung Kook (2017)"
+   }
+  },
+  "hannover-96-becker-freigestellt-2026-11-09": {
+   "L": {
+    "body": [
+     "El Hannover 96 relevó el lunes de sus funciones, con efecto inmediato, al director deportivo Ralf Becker. El hombre de 56 años ocupaba el cargo desde el verano de 2025. A finales de octubre, el consejo de supervisión ya había destituido a Jonas Boldt como director general de deportes, tras solo unos meses. El puesto de director deportivo se volverá a cubrir; el club aún no ha nombrado a un sucesor.",
+     "«Estamos en una reorganización estructurada de nuestra área deportiva», dijo el director general Henning Bindzus. Según él, Becker se habría implicado «en todo momento de forma constructiva». El propio Becker declaró: «El club ha decidido una nueva orientación, así que es coherente que me releve». Afirmó que se había sentido a gusto en Hannover y que deseaba mucho éxito al club.",
+     "En lo deportivo, el equipo de Segunda, que comenzó como aspirante al ascenso, se queda por debajo de las expectativas con el entrenador Sandro Wagner. Según Sport1, Becker fue informado de la decisión antes del 2-2 en el campo del 1. FC Heidenheim y se sentó allí por última vez en el banquillo."
+    ],
+    "d": "Poco después de la salida del director general Jonas Boldt, el club de Segunda también se separa del director deportivo Becker. Habla de una «reorganización estructurada».",
+    "t": "Nuevo terremoto en Hannover: el 96 libera al director deportivo Ralf Becker"
+   },
+   "at": "2026-11-09T13:17Z",
+   "h": "6bbdb2a29d45",
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Estadio del Hannover 96 (Imagen simbólica)"
    }
   },
   "hanse-kaufmannsbund-nordeuropa-2026-11-09": {

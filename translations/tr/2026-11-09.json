@@ -672,6 +672,31 @@
     "img.alt": "Sembolik fotoğraf: The Children’s Place’in Greendale’deki (ABD) şubesi"
    }
   },
+  "claude-code-dont-ask-again-passwoerter": {
+   "L": {
+    "body": [
+     "Güvenlik şirketi Apiiro, herkese açık GitHub projelerinde, Anthropic’in programlama ajanı Claude Code üzerinden oraya ulaşmış binlerce parola ve erişim anahtarı buldu. Bir kullanıcı bir komutu “Evet, bir daha sorma” seçeneğiyle onayladığında, Claude Code komutun tamamını, içine yazılmış parolalarla birlikte, .claude/settings.local.json dosyasına düz metin olarak kaydediyor. Bu dosya projeyle birlikte yayımlanırsa, gizli bilgiler herkesin erişimine açık hale geliyor.",
+     "Apiiro, dosyanın 104.185 kopyasını taradı; 1122’sinde en az bir gerçek gizli bilgi bulunuyordu; toplamda 1379 farklı gizli bilgi tespit edildi. Araştırmacılar, eski dosya sürümlerini, paylaşılan bir ayar dosyasını ve kayıtlı sohbet geçmişlerini de ekleyince 1994 projede 2539 gizli bilgiye ulaştı; bunların arasında 379 veritabanı parolası, 43 sunucu erişimi ve 23 AWS anahtarı vardı. Yaygın arama araçları bunların birçoğunu gözden kaçırdı. Apiiro verilerin hâlâ çalışıp çalışmadığını test etmedi; bilgilendirilen bir şirket, bir anahtarın geçerli olduğunu doğruladı.",
+     "Claude Code sorumlusu Boris Cherny, Hacker News’te Anthropic’in bunun nasıl önlenebileceğini, örneğin gizli bilgiler için basit bir aramayla, incelediğini yazdı. Cherny, Claude Code’un dosyayı oluştururken sürüm denetiminin dışında bıraktığına dikkat çekti; dolayısıyla yayımlanan kopyaların elle eklenmiş olması gerektiğini belirtti. Apiiro ise bu dışlamanın yalnızca kullanıcının kendi bilgisayarında geçerli olduğunu ve 539 projede Claude’un ortak yazar olarak yer aldığı commit’lerin dosyayı değiştirdiğini savunuyor. Apiiro, etkilenenlere açığa çıkan erişim bilgilerini hemen değiştirmelerini ve dosyayı projelerinden kaldırmalarını öneriyor."
+    ],
+    "d": "Güvenlik araştırmacıları, 2000’e yakın herkese açık projede erişim bilgileri buldu. Başlıca neden, Anthropic’in programlama ajanının bir kolaylık özelliği.",
+    "t": "“Bir daha sorma”: Claude Code üzerinden binlerce parola GitHub’da açığa çıktı"
+   },
+   "at": "2026-11-09T13:17Z",
+   "h": "7052d5ae75a6",
+   "rev": [
+    "Original says that in 1122 copies at least one real secret was found; draft's wording is fine. Checked: Cherny's indirect speech is attributed correctly. Minor: 'Anthropic prüfe, wie sich das verhinde"
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Ekranda program kodu",
+    "kl": "Güvenlik"
+   }
+  },
   "csn-verkauft-zementsparte-an-huaxin-2026-11-09": {
    "L": {
     "body": [
@@ -699,6 +724,33 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Brezilya'nın São Paulo eyaletindeki Ribeirão Grande'de bir çimento fabrikası"
+   }
+  },
+  "deepseek-harness-154-millionen": {
+   "L": {
+    "body": [
+     "Çinli yapay zekâ geliştiricisi DeepSeek, ajan platformu Harness için 4 Kasım itibarıyla günlük 1,54 milyon aktif kullanıcı bildirdi; sayıma DeepSeek'in resmi programlama arayüzü üzerinden erişen kullanıcılar dahil edildi. Bildirildiğine göre günde yaklaşık 92 trilyon token, yani yapay zekâ modellerinin işlem yaptığı metin yapı taşları, işleniyor. 0.1 sürümü 13 Ağustos'ta yayımlanmıştı.",
+     "Harness, kullanıcıların modelleri, araçları, bellek işlevlerini ve arayüzleri eklentilerle bir araya getirdiği bir yapı setidir. DeepSeek bunu kendisi “ajan çağının işletim sistemi” haline getirmek istiyor. Şirket verilerine göre şu anda üçüncü taraflarca geliştirilen yaklaşık 35.000 eklenti bulunuyor; aktif kullanıcıların yaklaşık yüzde 60'ı en az bir eklenti oluşturdu veya yükledi.",
+     "DeepSeek bir sonraki adımda, geliştiricilerin eklentilerini sunabileceği ve kullanıcıların bunları daha kolay bulabileceği resmi bir pazar yeri planlıyor. Örneğin token teşvikleri, mesleki bilgi alışverişi ve önerileri içeren bir geliştirici destek programı hazırlanıyor; ayrıca şirket arayüzlerin kararlılığı, uyumluluğu ve güvenliği üzerinde çalışıyor. Kullanıcı sayıları bağımsız olarak doğrulanmış değil."
+    ],
+    "d": "Lansmandan yaklaşık üç ay sonra, yani üç aya yaklaşırken, DeepSeek'in ajan platformunda üçüncü taraflarca geliştirilen 35.000 eklenti var. Şirket şimdi resmi bir pazar yeri planlıyor.",
+    "t": "Günde 1,54 milyon kullanıcı: DeepSeek, Harness'ı uygulama mağazasına dönüştürüyor"
+   },
+   "at": "2026-11-09T13:17Z",
+   "h": "9df3063966bd",
+   "rev": [
+    "Teaser: 'Drittanbietern' ve 'Erweiterungen' ilişkisi doğru, ancak 'Knapp drei Monate' ifadesi 'yaklaşık' ile veriliyor; 'knapp' = 'yaklaşık üç aydan biraz az' anlamında, 'üç aya yaklaşırken' daha doğr",
+    "Gövde 2: 'Nach Firmenangaben' kapsamı 35.000 eklentiyi kapsıyor; yüzde 60 verisi de aynı kapsamda olabilir ancak orijinal bunu şirket beyanı olarak yalnızca eklenti sayısına bağlıyor, değişiklik gerek",
+    "Gövde 3: 'Ein Förderprogramm ... etwa mit Token-Anreizen' örnek niteliği ('etwa') kayboldu"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Kapak görseli: DeepSeek Harness günde 1,54 milyon kullanıcıya ulaştı",
+    "kl": "Yapay zekâ ajanları"
    }
   },
   "derrick-james-canelo-crawford-rueckkampf": {
@@ -1461,6 +1513,35 @@
     "kl": "Formula 1"
    }
   },
+  "fuerth-rueckbenennung-spvgg-fuerth-2026-11-09": {
+   "L": {
+    "body": [
+     "SpVgg Greuther Fürth eski adına dönüyor. Kulübe göre, Sportpark Ronhof'ta pazar günü yapılan olağanüstü üye toplantısında 1867 üye SpVgg Fürth adına geri dönüşe evet, 229 üye hayır oyu verdi, sekiz üye çekimser kaldı. Kulüp onay oranını yüzde 88,3 olarak açıkladı; gereken çoğunluk dörtte üçtü. Ad ve logo 1 Temmuz 2027'de değişecek.",
+     "Başkan Volker Heißmann, “Üyelerimiz net bir sonuç ortaya koydu” dedi. Heißmann'a göre yönetim kurulu, sezon geçişindeki değişiklik için gerekli adımları şimdi hazırlayacak. SID'e göre değişikliğin maliyetinin, özellikle yeni tekstil ürünleri, marka görünümü ve bina markalaması için yaklaşık 500.000 euro olması bekleniyor. “Zurück zur SpVgg Fürth” adlı taraftar girişimi maliyetin bir kısmını finanse etmek istiyor.",
+     "Kulüp, SpVgg Fürth adıyla 1914, 1926 ve 1929'da Almanya şampiyonu oldu. TSV Vestenbergsgreuth'un futbol bölümüyle 1996'da gerçekleşen birleşmeden bu yana “Greuther” eki ile sahaya çıktı. Kulüp, bu isim altındaki dönemi sezon sonuna kadar anmak ve TSV'nin katkısını kendi tarihinin bir parçası olarak korumak istiyor."
+    ],
+    "d": "İkinci lig kulübünün üyeleri geleneksel isme dönüşe yüzde 88,3 oranında evet dedi. “Greuther” eki 1 Temmuz 2027 itibarıyla kaldırılıyor.",
+    "t": "30 yıl sonra: Greuther Fürth yazdan itibaren yeniden SpVgg Fürth adını taşıyacak"
+   },
+   "at": "2026-11-09T13:17Z",
+   "h": "01df24737386",
+   "rev": [
+    "Teaser: 'yazdan itibaren' in the headline is fine, but the teaser says 'evet dedi' with 'dönüşe' – acceptable; no change",
+    "Body 1: 'Kulübe göre' only covers the vote count; the 'Ad ve logo' sentence is fine",
+    "Quote marks: Turkish draft uses curly quotes consistently; fine",
+    "Body 3: 'trat er ... an' is past; fine. Meaning of 'Rückbenennung' ok",
+    "Body 2: 'Laut SID soll sie knapp 500.000 Euro kosten' was rendered as a definite future fact ('olacak') and 'knapp' was changed to 'yaklaşık'; the hedge ('soll') is restored and 'knapp' becomes 'yakla",
+    "Body 2: the reason for the cost ('vor allem für ...') was rendered as 'nedeniyle', which is acceptable but reworded for naturalness"
+   ],
+   "rev_dbg": [
+    6,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Fürth'teki Sportpark Ronhof Thomas Sommer (Sembolik fotoğraf)"
+   }
+  },
   "graff-jung-kook-i-wish-holiday": {
    "L": {
     "body": [
@@ -1486,6 +1567,32 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Şarkıcı Jung Kook (2017)"
+   }
+  },
+  "hannover-96-becker-freigestellt-2026-11-09": {
+   "L": {
+    "body": [
+     "Hannover 96, spor direktörü Ralf Becker'i pazartesi günü derhal geçerli olacak şekilde görevden uzaklaştırdı. 56 yaşındaki Becker, 2025 yazından beri görevdeydi. Denetim kurulu, Ekim sonunda spor genel müdürü Jonas Boldt'u yalnızca birkaç ay sonra görevden almıştı. Spor direktörlüğü görevine yeni isim atanacak; kulüp henüz bir halef açıklamadı.",
+     "“Spor alanımızda yapılandırılmış bir yeniden düzenleme sürecindeyiz” diyen genel müdür Henning Bindzus, Becker'in “her zaman yapıcı katkı sunduğunu” söyledi. Becker ise şunları söyledi: “Kulüp yeni bir yönelime karar verdi, dolayısıyla beni görevden uzaklaştırması da tutarlı.” Becker, Hannover'de kendini iyi hissettiğini ve kulübe başarılar dilediğini belirtti.",
+     "Sezona yükselme adayı olarak başlayan ikinci lig ekibi, teknik direktör Sandro Wagner yönetiminde sportif olarak beklentilerin gerisinde kalıyor. Sport1'in haberine göre Becker, 1. FC Heidenheim'daki 2-2'lik maçtan önce karardan haberdar edildi ve orada son kez yedek kulübesinde oturdu."
+    ],
+    "d": "İkinci lig ekibi, genel müdür Jonas Boldt'un ardından kısa süre sonra spor direktörü Becker'le de yollarını ayırdı. Kulüp “yapılandırılmış bir yeniden düzenlemeden” söz ediyor.",
+    "t": "Hannover'de yeni deprem: 96, spor direktörü Ralf Becker'i görevden uzaklaştırdı"
+   },
+   "at": "2026-11-09T13:17Z",
+   "h": "6bbdb2a29d45",
+   "rev": [
+    "Boldt'un görevden alınması \"nach nur wenigen Monaten\" ifadesi \"daha birkaç ay sonra\" olarak belirsiz; Boldt'un kısa görev süresini açıkça vermek için düzeltildi",
+    "Heidenheim ek hali yanlış: \"Heidenheim'daki\" yerine \"Heidenheim'daki\" yerine doğru ünsüz uyumu/okunuş \"Heidenheim'deki\"",
+    "\"Spor genel müdürü\" yerine resmi unvan \"Geschäftsführer Sport\" korunuyor, değişiklik yok"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Hannover 96 stadyumu (Sembolik fotoğraf)"
    }
   },
   "hanse-kaufmannsbund-nordeuropa-2026-11-09": {
