@@ -1,14 +1,14 @@
 {
  "season": "2026",
  "round": 20,
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "drivers": [
   {
    "pos": 1,
    "name": "Andrea Kimi Antonelli",
    "nat": "Italian",
    "team": "Mercedes",
-   "pts": 380.0,
+   "pts": 390.0,
    "wins": 9
   },
   {
@@ -16,31 +16,31 @@
    "name": "Max Verstappen",
    "nat": "Dutch",
    "team": "Red Bull",
-   "pts": 261.0,
+   "pts": 279.0,
    "wins": 3
   },
   {
    "pos": 3,
-   "name": "Lewis Hamilton",
-   "nat": "British",
-   "team": "Ferrari",
-   "pts": 259.0,
-   "wins": 1
-  },
-  {
-   "pos": 4,
    "name": "George Russell",
    "nat": "British",
    "team": "Mercedes",
-   "pts": 250.0,
+   "pts": 262.0,
    "wins": 3
+  },
+  {
+   "pos": 4,
+   "name": "Lewis Hamilton",
+   "nat": "British",
+   "team": "Ferrari",
+   "pts": 261.0,
+   "wins": 1
   },
   {
    "pos": 5,
    "name": "Charles Leclerc",
    "nat": "Monegasque",
    "team": "Ferrari",
-   "pts": 245.0,
+   "pts": 249.0,
    "wins": 1
   },
   {
@@ -48,15 +48,15 @@
    "name": "Lando Norris",
    "nat": "British",
    "team": "McLaren",
-   "pts": 221.0,
-   "wins": 2
+   "pts": 246.0,
+   "wins": 3
   },
   {
    "pos": 7,
    "name": "Oscar Piastri",
    "nat": "Australian",
    "team": "McLaren",
-   "pts": 144.0,
+   "pts": 152.0,
    "wins": 0
   },
   {
@@ -64,7 +64,7 @@
    "name": "Isack Hadjar",
    "nat": "French",
    "team": "Red Bull",
-   "pts": 107.0,
+   "pts": 122.0,
    "wins": 0
   },
   {
@@ -72,7 +72,7 @@
    "name": "Liam Lawson",
    "nat": "New Zealander",
    "team": "RB F1 Team",
-   "pts": 83.0,
+   "pts": 89.0,
    "wins": 0
   },
   {
@@ -120,7 +120,7 @@
    "name": "Nico Hülkenberg",
    "nat": "German",
    "team": "Audi",
-   "pts": 13.0,
+   "pts": 14.0,
    "wins": 0
   },
   {
@@ -208,31 +208,31 @@
   {
    "pos": 1,
    "name": "Mercedes",
-   "pts": 630.0,
+   "pts": 652.0,
    "wins": 12
   },
   {
    "pos": 2,
    "name": "Ferrari",
-   "pts": 504.0,
+   "pts": 510.0,
    "wins": 2
   },
   {
    "pos": 3,
    "name": "Red Bull",
-   "pts": 382.0,
+   "pts": 415.0,
    "wins": 3
   },
   {
    "pos": 4,
    "name": "McLaren",
-   "pts": 365.0,
-   "wins": 2
+   "pts": 398.0,
+   "wins": 3
   },
   {
    "pos": 5,
    "name": "RB F1 Team",
-   "pts": 108.0,
+   "pts": 114.0,
    "wins": 0
   },
   {
@@ -250,7 +250,7 @@
   {
    "pos": 8,
    "name": "Audi",
-   "pts": 27.0,
+   "pts": 28.0,
    "wins": 0
   },
   {
@@ -489,7 +489,9 @@
    "locality": "São Paulo",
    "country": "Brazil",
    "date": "2026-11-08",
-   "time": "17:00"
+   "time": "17:00",
+   "winner": "Lando Norris",
+   "winner_team": "McLaren"
   },
   {
    "round": 21,
