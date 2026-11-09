@@ -1,6 +1,36 @@
 {
  "date": "2026-11-09",
  "items": {
+  "aigner-nominiert-bundespraesidentin-2026-11-09-b1530": {
+   "L": {
+    "body": [
+     "CDU Genel Başkanı ve Başbakan Friedrich Merz, Bavyera Eyalet Meclisi Başkanı Ilse Aigner'i (CSU, 61) pazartesi günü Berlin'de CDU Federal Yönetim Kurulu'na Frank-Walter Steinmeier'in halefi olarak aday gösterilmek üzere önerdi. Aigner toplantıda hazır bulundu. Merz, “Ilse Aigner ile Federal Almanya Cumhuriyeti, onurlu ve yüreği olan bir Federal Cumhurbaşkanı kazanıyor” dedi. Aigner ise “Başbakan bu işi gerçekten heyecanlı hale getirdi, benim için de” diye konuştu.",
+     "SPD Başkanlık Kurulu sabah saatlerinde adaylığın arkasında durdu ve Aigner'i “deneyimli, yere basan bir siyasetçi” olarak niteledi. CDU, CSU ve SPD'nin 30 Ocak'taki Federal Kurul'da yaklaşık 50 oyluk bir çoğunluğu var; dpa'ya göre seçimin daha ilk turda sonuçlanması çok olası görülüyor. Steinmeier'in görev süresi 18 Mart'ta sona erecek.",
+     "Yeşiller Eş Genel Başkanı Franziska Brantner, Aigner'in “köprüler kuracağı ve ülkemizi bir araya getireceği” yönünde umut dile getirdi; Yeşillerin ona oy verip vermeyeceği henüz belli değil. Sol Parti Eş Genel Başkanı Ines Schwerdtner ise eleştirerek, “Birlik ile SPD'nin kendi saflarının ötesine bakmasını” dilediğini söyledi. AfD kendi adayını göstermek istiyor."
+    ],
+    "d": "Başbakan Merz, CSU'li siyasetçi Ilse Aigner'i federal cumhurbaşkanlığı için resmen aday olarak önerdi. SPD yönetimi adaylığı destekliyor; 30 Ocak'taki seçimde Aigner'in seçilmesi çok olası görülüyor.",
+    "t": "Merz, Aigner'i aday gösterdi: “Onurlu ve yüreği olan bir Federal Cumhurbaşkanı”"
+   },
+   "at": "2026-11-09T14:12Z",
+   "h": "4ff5a7c3ce34",
+   "rev": [
+    "Teaser: 'Kanzler' was translated as 'Başbakan' – acceptable, but the teaser says the election is 'çok olası olduğu belirtiliyor', which is awkward and ambiguous; the election (Aigner's win) is what is",
+    "Aigner's quote: 'spannend gemacht' rendered as 'işi heyecanlı hale getirdi' – slightly unnatural, should be 'iş çok heyecanlı geçti/merak içinde bıraktı'",
+    "'bodenständig' rendered as 'gerçekçi' – wrong meaning; should be 'sağlam basan/yere basan'",
+    "Schwerdtner sentence: distorted quote and broken syntax (quote is a wish, 'kritisierte' attribution is garbled)",
+    "'Pazartesi' should be lowercase 'pazartesi' per TDK",
+    "Merz proposed Aigner 'dem CDU-Bundesvorstand' – 'aday önerdi' lacks 'olarak'; fixed for grammar",
+    "'Bundespräsidentin' is female – 'Federal Cumhurbaşkanı' acceptable; kept"
+   ],
+   "rev_dbg": [
+    7,
+    6,
+    0
+   ],
+   "x": {
+    "img.alt": "Bavyera Eyalet Meclisi Başkanı Ilse Aigner (Arşiv fotoğrafı)"
+   }
+  },
   "anthropic-gasgeneratoren-onepwr-2026-11-09-b08": {
    "L": {
     "body": [
@@ -227,6 +257,37 @@
    ],
    "x": {
     "img.alt": "Grunewald Garı'ndaki Gleis 17 Anıtı (Arşiv fotoğrafı)",
+    "kl": "Berlin"
+   }
+  },
+  "berlin-schuesse-steglitz-wittenau-sek-2026-11-09-b1530": {
+   "L": {
+    "body": [
+     "Berlin'de yine binalara ateş açıldı. Pazartesi sabahının erken saatlerinde bir kadın, Steglitz-Zehlendorf ilçesindeki Hindenburgdamm'da bir apartmanda silah sesleri duyulduğunu bildirdi. Görevliler bir dairenin kapısında kurşun delikleri tespit etti. Polisin açıklamasına göre özel harekât ekibi (SEK) daireye girdi, ancak orada kimseyi bulamadı. Mevcut duruma göre kimse yaralanmadı. Hindenburgdamm'ın bir kısmı bir süre trafiğe kapatıldı.",
+     "Yetkili polis müdürlüğü, diğer konuların yanı sıra tehlikeli yaralama şüphesiyle de soruşturma yürütüyor. Şüpheliler veya olası bir saik hakkında şimdiye kadar bilgi verilmedi.",
+     "Bir sürücü kursunun çalışanı, pazar günü öğleden önce Wittenau'daki Oranienburger Straße'de bulunan kursun giriş kapısında hasar fark etmişti. Çağrılan polis memurları, binanın cephesinde de olmak üzere birçok kurşun deliği buldu. Soruşturmayı, Berlin'de ateşli silahlı şiddetle ilgilenen Eyalet Cinayet ve Suç Soruşturma Dairesi'nin (LKA) BAO Ferrum birimi devraldı. İki olay arasında bir bağlantı olduğu bilinmiyor."
+    ],
+    "d": "Silah sesleri nedeniyle yapılan ihbarın ardından özel harekât ekibi pazartesi sabahı Hindenburgdamm'daki bir daireyi aradı. Wittenau'da bir sürücü kursuna ateş açıldı. Kimse yaralanmadı.",
+    "t": "Daire kapısına ve sürücü kursuna ateş: Steglitz-Zehlendorf'ta SEK operasyonu"
+   },
+   "at": "2026-11-09T14:12Z",
+   "h": "33deceebdf06",
+   "rev": [
+    "Headline: 'Daireye ve sürücü kursuna ateş' is ok; but 'Schüsse auf Wohnungstür' became 'Daireye' (door lost) – fixed",
+    "Teaser/body: 'Silah sesleri nedeniyle yapılan ihbar' acceptable; 'Notruf' fine",
+    "'ermittelt unter anderem wegen des Verdachts' rendered as 'diğer suçlamaların yanı sıra ... şüphesiyle' – slightly altered, fixed",
+    "Untranslated word 'intervention' in image alt text",
+    "Wittenau Fahrschule: Einschüsse 'kurşun izi' vs bullet holes – adjusted to 'kurşun deliği'",
+    "Fahrschule: 'Schäden an der Eingangstür' – order and 'Mitarbeiter' ok; 'Bereits am Sonntagvormittag' reordered meaning ok",
+    "'Landeskriminalamt' capitalisation and form: 'Eyalet Kriminal Dairesi' replaced with the more usual form"
+   ],
+   "rev_dbg": [
+    7,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin Polisi'ne ait bir müdahale aracı (Sembolik fotoğraf)",
     "kl": "Berlin"
    }
   },
@@ -1593,6 +1654,32 @@
     "kl": "Formula 1"
    }
   },
+  "fiorentina-juventus-2-2-spalletti-2026-11-09": {
+   "L": {
+    "body": [
+     "Juventus, pazar günü deplasmanda Fiorentina ile 2-2 berabere kaldı. Mateo Pellegrino, kornerin ardından kafayla 4. dakikada ev sahibini öne geçirdi, Nick Woltemade ise Randal Kolo Muani'nin asistinde 32. dakikada eşitliği sağladı; bu, Woltemade'nin sezonun ilk lig golü oldu. 54. dakikada Njie Fiorentina'yı 2-1 öne geçirdi, ardından Bremer kornerden kafayla attığı golle skoru 2-2'ye getirdi. Radu Drăgușin'in 3-2 olduğu sanılan golü, Bremer ile girdiği temas nedeniyle iptal edildi.",
+     "79. dakikada João Mário'nun kendi ceza sahasında elle oynaması tepkilere yol açtı: Hakem Andrea Colombo penaltı vermedi, VAR da devreye girmedi. Spalletti bu konuda bir şey söylemek istemedi: “Bir daha izlemem gerekmiyor, sahada zaten gördüm.” Takımı hakkında ise şunları söyledi: “Arada bir bir bardak suda boğuluyoruz” (çeviri). Spalletti, takımının bireysel performansta istikrarlı olmayı başaramadığını söyledi.",
+     "Juventus, Şampiyonlar Ligi sıralarının altı puan gerisinde yedinci sırada yer alıyor. Fiorentina dokuz puanla 15. sırada ve bu sezon henüz bir iç saha maçı kazanamadı. Maçın bitiş düdüğünün ardından Juve savunmacısı Juan Cabal, Fiorentina taraftarlarının kendisine hakaret etmesi ve sahaya cisimler atması üzerine görevlilerce soyunma odasına kadar eşlik edildi."
+    ],
+    "d": "Woltemade ve Bremer, Fiorentina'nın attığı gollere karşılık verdi. João Mário'nun elle oynaması tartışma yarattı. Juventus yedinci, Fiorentina ise ilk iç saha galibiyetini bekliyor.",
+    "t": "İki kez geriye düştü, iki kez eşitledi: Juve Floransa'da 2-2 kurtardı – Spalletti sinirli"
+   },
+   "at": "2026-11-09T14:11Z",
+   "h": "b077bedf421d",
+   "rev": [
+    "Opening sentence: 'deplasmanda' is correct, but 'Fiorentina ile ... berabere kaldı' is fine; no change needed.",
+    "Spalletti's remark on the team: the German indirect speech ('schaffe es nicht') is rendered with 'Spalletti'ye göre … başaramıyor', which is attributed, but a reporting marker is clearer.",
+    "Teaser: 'ilk iç saha galibiyetini bekliyor' is fine."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Juventus teknik direktörü Luciano Spalletti (Arşiv fotoğrafı)"
+   }
+  },
   "fuerth-rueckbenennung-spvgg-fuerth-2026-11-09": {
    "L": {
     "body": [
@@ -1734,6 +1821,34 @@
    "x": {
     "img.alt": "1989'da Duvar'ın yıkılmasının ardından Berlin'de Brandenburg Kapısı önündeki insan kalabalığı (tarihî fotoğraf)",
     "kl": "37 yıl önce bugün"
+   }
+  },
+  "hoeness-musiala-debatte-2026-11-09-b1530": {
+   "L": {
+    "body": [
+     "Bayern Onursal Başkanı Uli Hoeneß'in Jamal Musiala hakkındaki sözleri haftanın başında da kulübün gündemini meşgul ediyor. Hoeneß, BR'nin “Sonntags-Stammtisch” programında milli oyuncunun yazın kendisinin kamuoyuna açıkladığı nörolojik işlev bozukluğundan söz etmişti: “Onda kolay kolay tedavi edilemeyen, ancak ilaçlarla bir ölçüde kontrol altına alınabilen bir hastalık var.” Musiala'nın 2030'a kadar süren sözleşmesine değinen Hoeneß, “Burada elbette bir ikilemin içindeyiz” dedi. Musiala'nın eski performansına yeniden ulaşıp ulaşamayacağı sorusunu ise açık bıraktı.",
+     "TV yorumcuları da görüş bildirdi. Eski profesyonel futbolcu Markus Babbel, Sky'da kulübün muhtemelen “gereğinden fazla ödeme yaptığını” ve “şu anda kulüpte büyük bir memnuniyetsizlik” hakim olduğunu söyledi. Lothar Matthäus ise şöyle dedi: “Uli'nin bunu söylemesini doğru buldum, çünkü her şeyi sürekli güzel göstermemeliyiz.” Durumu “kritik” olarak nitelendirdi. Stefan Effenberg, Sport1'in “Doppelpass” programında yöneticilerin “bunun fazla olup olmadığını” sorguladığını tahmin etmişti.",
+     "Musiala'dan, spor direktörü Max Eberl'den veya teknik direktör Vincent Kompany'den henüz bir açıklama gelmedi. Kulübe göre Musiala'nın ilaç tedavisi değiştirildi; oyuncu şu anda Münih'te geri dönüşü için çalışıyor."
+    ],
+    "d": "Uli Hoeneß, Jamal Musiala'nın eski formuna dönüp dönemeyeceğinden alenen şüphe duyuyor. Tartışma sürüyor; FC Bayern ve oyuncunun kendisi şimdiye kadar sessiz kaldı.",
+    "t": "Hoeneß'in Musiala sözleri olay: Babbel Bayern'de “büyük memnuniyetsizlik” görüyor"
+   },
+   "at": "2026-11-09T14:12Z",
+   "h": "771c4590c59a",
+   "rev": [
+    "Headline: 'memnuniyetsizlik' was rendered as a plain fact; 'Babbel ... görüyor' is fine, but the quotation marks should follow Turkish convention (“ ” is acceptable), so no change.",
+    "Babbel quote: 'bulunduğunu söyledi' is attributed correctly, but 'şu anda kulüpte büyük bir memnuniyetsizlik' is cut off from its verb, which makes the sentence ungrammatical around the quote.",
+    "'Wohl' was rendered as 'muhtemelen' – acceptable.",
+    "Hoeneß quote: 'Der hat eine Krankheit' translation OK.",
+    "'Zunächst nicht vor' – 'başlangıçta' is unnatural; 'şimdilik/henüz' is better."
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Uli Hoeneß (Arşiv fotoğrafı)"
    }
   },
   "inter-como-2-0-lazio-2026-11-09-b11": {
@@ -2777,6 +2892,27 @@
     "kl": "Berlin"
    }
   },
+  "metall-tarifrunde-nrw-dritte-runde-2026-11-09-b1530": {
+   "L": {
+    "body": [
+     "Metal ve elektrik sanayisindeki toplu iş sözleşmesi uyuşmazlığında Kuzey Ren-Vestfalya'daki müzakereler pazartesi günü saat 14:00'te Düsseldorf'ta üçüncü tura girdi. IG Metall, 12 ay süreli sözleşme için yüzde beş zam talep ediyor. İşverenler ise dpa'ya göre 26 ay süreyle Temmuz 2027 için tek seferlik bir ödeme, Temmuz 2028'den itibaren de yüzde 1,3'lük kalıcı bir artış teklif ediyor. Sendikanın verdiği bilgiye göre 6 Kasım'a kadar 400.000'den fazla çalışan uyarı grevlerine katıldı.",
+     "Metall NRW Başkanı Arndt Kirchhoff, “Welt” gazetesinde sektörün durumuna dikkat çekti: “Sanayide heyelan gibi iş kaybediyoruz.” Kirchhoff'un verdiği bilgiye göre şu anda ayda yaklaşık 10.000 pozisyon ortadan kalkıyor. Gesamtmetall'e göre ağustosta sektörde yaklaşık 3,72 milyon kişi çalışıyordu; bu sayı bir yıl öncesine kıyasla 94.100 daha az. Kirchhoff, ekonomik açıdan zayıf işletmelerin toplu sözleşme zamlarını askıya alabilmesini veya erteleyebilmesini talep ediyor.",
+     "Kirchhoff aynı zamanda IG Metall'i 24 saatlik grevler veya bir ön oylamanın ardından süresiz grev gibi tırmanma konusunda uyardı. Bu turda henüz bir anlaşma beklemediğini söyledi."
+    ],
+    "d": "NRW'de IG Metall ve işverenler pazartesiden beri üçüncü turda müzakere ediyor; uyarı grevleri sürüyor. Kirchhoff ayda 10.000 iş kaybından söz edip “ücret maliyetlerinde nefes aldırılmasını” istedi.",
+    "t": "Metal toplu pazarlığı: İşverenler “heyelan gibi” iş kaybı konusunda uyarıyor"
+   },
+   "at": "2026-11-09T14:12Z",
+   "h": "4ce7d5d6a2a4",
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Bir gösteride IG Metall bayrağı (Sembolik fotoğraf)"
+   }
+  },
   "mexiko-cjng-r2-festnahme-2026-11-09-b08": {
    "L": {
     "body": [
@@ -2888,6 +3024,34 @@
    ],
    "x": {
     "img.alt": "Varna Arkeoloji Müzesi'nde Varna Bakır Çağı nekropolünden altın ölü hediyeleri (Arşiv fotoğrafı)"
+   }
+  },
+  "nvidia-aktie-huang-spionage-china-2026-11-09-b1530": {
+   "L": {
+    "body": [
+     "Nvidia yönetim kurulunun CEO Jensen Huang hakkındaki soruşturması, çip şirketini borsada baskı altına soktu. Pazartesi günü ABD’deki olağan işlemler başlamadan önce hisse zaman zaman yüzde beşten fazla düşerek yaklaşık 176 dolara geriledi; Frankfurt’ta ise zaman zaman yüzde altıdan fazla düşüşle birkaç ayın en düşük seviyesine indi. Reuters’a göre şirketin piyasa değeri cuma gününe kıyasla yaklaşık 270 milyar dolar azalabilir. Nvidia, Huang’ın yabancı bir istihbarat operasyonunun hedefi olup olmadığını inceliyor. Arka planda, Singapurlu bir şirketin eski yöneticisiyle yakın ilişkisine dair medya haberleri bulunuyor; “New York Times”a göre ABD’li yetkililer bu kadını Çin istihbaratının bir kaynağı olarak değerlendiriyor. Huang, çalışanlara eşini aldattığını kabul etti, ancak ayrıntı vermedi.",
+     "Pekin suçlamaları reddetti. Dışişleri Bakanlığı Sözcüsü Guo Jiakun, “sözde Çinli casus” anlatısının dayanaksız bir suçlama, iftira ve karalama olduğunu söyledi. ABD Başkanı Donald Trump ise Huang’ın arkasında durdu: Trump, Huang’la konuşmadığını, ancak “her şeyin yolunda” olmasını umduğunu söyledi ve onu onurlu bir adam olarak niteledi. “New York Times”a göre Trump yaklaşık bir yıl önce bulgulardan haberdar edilmişti ve herhangi bir adım atmadı.",
+     "Sonuçlar Güney Kore’de de görülüyor: Kendisi de Nvidia yöneticisi olan Huang’ın kızı Madison, Seul ziyaretini iptal etti. Yapay zekâ girişimi Rebellions, ortak programların iptalini “Nvidia’daki kaçınılmaz iç koşullar” ile gerekçelendirdi. Seul hükümeti yine de sözleşmeyle kararlaştırılan GPU teslimatlarında gecikme beklemiyor. Rakipler kazançlı çıktı: AMD açılış öncesi işlemlerde zaman zaman yaklaşık yüzde dört yükseldi, TSMC hisseleri Tayvan’da yüzde 6,5 arttı."
+    ],
+    "d": "CEO Jensen Huang hakkındaki iç soruşturmanın ardından Nvidia, açılış öncesi işlemlerde zaman zaman yüzde beşten fazla değer kaybetti. Çin casusluk iddialarını reddetti, Trump Huang’a “onurlu” dedi.",
+    "t": "Huang casusluk şüphesi: Nvidia hissesi sert düştü, Pekin “iftira” olarak niteliyor"
+   },
+   "at": "2026-11-09T14:12Z",
+   "h": "7c917532c1c0",
+   "rev": [
+    "Frankfurt drop: 'über sechs Prozent' was rendered 'yüzde altının üzerinde' (above six), which is ambiguous and grammatically wrong",
+    "Quotation marks: Turkish draft uses “ ” incorrectly in headline; acceptable, but 'iftira diyor' is a loose rendering of 'spricht von Verleumdung'",
+    "'Trump ... bulgulardan yaklaşık bir yıl önce haberdar edilmişti' reverses the timing: he was informed about the findings about a year ago",
+    "Trump 'unternahm nichts' is attributed to NYT in German; the draft keeps it attributed, fine",
+    "'Huang’a onurlu dedi' is ok"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Nvidia CEO’su Jensen Huang (Arşiv fotoğrafı)"
    }
   },
   "nzok-budget-2027-biomarker-2026-11-09": {
@@ -3119,6 +3283,32 @@
     "rv.score": "OpenCritic 72 · The Outerhaven 3,5/5 · Famitsu 29/40"
    }
   },
+  "protest-budget-2027-sieben-staedte-2026-11-09-b1530": {
+   "L": {
+    "body": [
+     "Rumen Radev hükümetinin 2027 bütçe taslağına karşı 11 Kasım çarşamba günü Bulgaristan'ın yedi şehrinde insanların sokağa çıkması bekleniyor. Çağrıyı, “Yoksullaşmaya hayır!” sloganıyla Facebook girişimi “Regresif Bulgaristan” yaptı. Eylemler saat 19:00'da Sofya'da Bakanlar Kurulu önünde ve Plovdiv, Varna, Burgas, Veliko Tarnovo, Stara Zagora ve Vidin'de başlayacak. Saat 19:30'da katılımcıların birlikte cep telefonu ışıklarını yakması planlanıyor.",
+     "Organizatörler, gelirlerin enflasyonun gerisinde kaldığını ve krize karşı önlem alınmadan vergi yükünün yaklaşık 1,9 milyar avro artacağını eleştiriyor. Organizatörlerin verdiği bilgiye göre asgari ücret 660 avro olacak; mevcut formüle göre bu tutar 690 avro olurdu. Organizatörlere göre kamu görevlilerinin maaşları yüzde 6 enflasyona karşılık yüzde 5, emekli maaşları yüzde 7,8 artarken yoksulluk sınırı yüzde 13,4 yükseliyor.",
+     "Girişime göre 374 avroluk asgari emekli maaşı bu durumda 443 avroluk yoksulluk sınırının altında kalıyor ve 1,2 milyondan fazla emekli bu sınırın altında yaşıyor. Girişim, ücretlerin ve emekli maaşlarının en az fiyatlar kadar hızlı artmasını talep ediyor ve protestonun barışçıl olduğunu vurguluyor."
+    ],
+    "d": "Sofya'dan Vidin'e: “Regresif Bulgaristan” girişimi, çarşamba akşamı bütçe taslağına karşı mitingler düzenlenmesi çağrısı yaptı. Organizatörler, ücretlerin ve emekli maaşlarının fiyatlara yetişemediğini savunuyor.",
+    "t": "“Yoksullaşmaya hayır”: 2027 bütçesine karşı çarşamba günü yedi şehirde protesto"
+   },
+   "at": "2026-11-09T14:12Z",
+   "h": "abb6ebdccf63",
+   "rev": [
+    "Radew's name spelled \"Radev\" in the draft is acceptable Turkish spelling; no change needed",
+    "Salary/pension/poverty-line figures in paragraph 2 are given as plain fact, although the German attributes them to the organisers (\"Nach ihren Angaben\"); attribution added",
+    "\"Çarşamba\" and \"Kasım\" are capitalised in the draft; per TDK, weekdays are lowercase when they follow a date, so \"Çarşamba\" is corrected to \"çarşamba\""
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sofya'da Bakanlar Kurulu (Sembolik fotoğraf)"
+   }
+  },
   "quint-computing-erlangen-quantenchips-9-mio-2026-11-09": {
    "L": {
     "body": [
@@ -3143,6 +3333,32 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Temiz odada bir kuantum bilgisayar düzeneği üzerinde çalışan araştırmacılar"
+   }
+  },
+  "raul-gonzalez-real-oviedo-trainer-2026-11-09-b1530": {
+   "L": {
+    "body": [
+     "Raúl González, Real Oviedo'nun yeni teknik direktörü oldu. İspanya İkinci Ligi ekibi, 49 yaşındaki teknik adamın transferini pazartesi günü resmen açıkladı; Raúl, Haziran 2028'e kadar sözleşme imzaladı. Kulüp bundan önce teknik direktör Julián Calero ile yollarını ayırmıştı. Oviedo, tanıtım paylaşımında “Todo empieza aquí” (“Her şey burada başlıyor”) yazdı.",
+     "Oviedo, Segunda División'da dokuzuncu sırada yer alıyor ve play-off yerlerinin üç puan gerisinde. Hedef, birinci lige dönmek. Raúl için bu, yaklaşık bir yıllık takımsız dönemin ardından teknik direktörlüğe dönüş anlamına geliyor.",
+     "Raúl, 2018'den itibaren Real Madrid'in altyapısında çalışmış, 2020'de U19 takımıyla UEFA Gençlik Ligi'ni kazanmış, ardından altı sezon boyunca yedek takım Castilla'yı çalıştırmıştı. Futbolcu olarak Raúl, Real Madrid'in ve İspanya Milli Takımı'nın simge isimlerinden oldu; ardından Schalke 04, Al-Sadd ve New York Cosmos gibi takımlarda forma giydi ve 2015'te kariyerini sonlandırdı."
+    ],
+    "d": "Eski Real Madrid ve Schalke yıldızı için yeni görev: Raúl González, İspanya İkinci Ligi ekibi Real Oviedo ile Haziran 2028'e kadar sözleşme imzaladı.",
+    "t": "Eski Schalke oyuncusu Raúl, Real Oviedo'nun teknik direktörü oldu – Calero görevden alındı"
+   },
+   "at": "2026-11-09T14:12Z",
+   "h": "95c8879774ee",
+   "rev": [
+    "Weekday 'Pazartesi' wrongly capitalised mid-sentence; TDK requires lowercase",
+    "Month in 'Haziran 2028'e' is fine; no change",
+    "'Raúl' in the first sentence of the second body paragraph is fine"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Raúl González (Arşiv fotoğrafı)"
    }
   },
   "reformation-q3-2026-prognose": {
@@ -3378,6 +3594,35 @@
     0
    ]
   },
+  "studie-dampfen-gefaesse-fitness-junge-erwachsene-2026-11-09": {
+   "L": {
+    "body": [
+     "Düzenli e-sigara kullanımı, genç ve sağlıklı insanlarda bile damarlarda ve dayanıklılıkta ölçülebilir izler bırakıyor mu? Manchester Metropolitan Üniversitesi Spor Enstitüsü'nde kardiyolojik rehabilitasyon alanında öğretim üyesi olan Maxime Boidin'in ekibi bu soruyu inceledi. Kesitsel çalışma, 21 Ekim 2026'da “JAMA Cardiology” dergisinde yayımlandı; çalışmaya Liverpool, Leeds ve Manchester üniversiteleri ile Boston Üniversitesi de katıldı. Temmuz 2023 ile Nisan 2025 arasında, bilinen bir kalp-damar hastalığı olmayan, ortalama yaşı 26 olan ve yarısından fazlası kadın toplam 58 yetişkin incelendi: yalnızca nikotinli e-sigara kullanan ve hiç düzenli sigara içmemiş 17 kişi, 19 sigara içicisi ile ne e-sigara ne de sigara kullanan 22 kişi. Araştırmacılar nikotin kullanımını idrar ve nefes testleriyle doğruladı.",
+     "Kan damarlarının, aralarında şah damarı da olmak üzere, gerektiğinde ne kadar genişlediği ve kalp, akciğer ve kasların tükenene kadar yapılan bir efor testinde (spiroergometri) ne kadar performans gösterdiği ölçüldü. Akım aracılı damar genişlemesi olarak adlandırılan değer, e-sigara kullanıcılarında ortalama yüzde 5,5, sigara içenlerde yüzde 4,4, kullanmayanlarda ise yüzde 8,3 olarak bulundu; daha düşük genişleme kapasitesi, ileride gelişebilecek kalp-damar hastalıklarının erken uyarı işareti sayılıyor. Vücut ağırlığına göre hesaplanan ve dayanıklılık kondisyonunun temel ölçütü olan maksimum oksijen alımı, e-sigara kullanıcılarında kullanmayanlara göre daha düşüktü. Akciğer fonksiyonu ve fiziksel aktivite bakımından anlamlı bir fark görülmedi. Boidin, üniversitesinin açıklamasına göre şunları söyledi: “Sigara içmiyorsanız, asla e-sigara kullanmamalısınız.” Sigarayı bırakmak isteyenler için ise e-sigarayı aynı zamanda zararı azaltmada değerli bir araç olarak nitelendirdi.",
+     "Sınırlar belirgin: Çalışma küçük, tek bir merkezden geliyor ve kesitsel bir çalışma olarak yalnızca ilişkileri gösteriyor, neden-sonuç ilişkisini kanıtlamıyor. İngiltere'deki Science Media Centre'ın görüş sorduğu bağımsız uzmanlar temkinli olunması gerektiğini belirtti; bu kadar küçük gruplarda olağandışı değerlere sahip tek bir kişinin bile sonucu güçlü biçimde etkileyebileceğini, ayrıca yaşam tarzındaki diğer farklılıkların da rol oynayabileceğini söylediler. Bulguların ileride hastalıklara yol açıp açmadığı ya da bırakıldıktan sonra geri dönüp dönmediği belirsiz; yazarlar uzun vadeli çalışmalar çağrısı yapıyor. Çalışma, Manchester Academic Health Science Centre – Health Innovation Manchester'ın verdiği bir araştırma bursuyla finanse edildi. Pratikte bu şu anlama geliyor: Dayanıklılığını artırmak isteyen için en iyisi sigarasız ve e-sigarasız antrenman yapmak; sigarayı ya da e-sigarayı bırakmak isteyen, bırakma desteği konusunda bir hekimden danışmanlık alabilir."
+    ],
+    "d": "Manchester'dan küçük bir çalışma, nikotinli e-sigara kullanan genç ve sağlıklı kişilerde kullanmayanlara kıyasla daha kötü damar fonksiyonu ve daha düşük maksimum oksijen alımı saptadı.",
+    "facts": [
+     "Çalışma: Kesitsel çalışma, Manchester Metropolitan Üniversitesi ve ortakları",
+     "Katılımcılar: Ortalama yaşı 26 olan 58 sağlıklı yetişkin (17 e-sigara kullanıcısı, 19 sigara içicisi, 22 kullanmayan)",
+     "Dergi: JAMA Cardiology (21.10.2026)",
+     "Damar genişlemesi: %5,5 (e-sigara kullanıcıları), %4,4 (sigara içenler), %8,3 (kullanmayanlar)",
+     "Sınır: küçük gruplar, yalnızca ilişkiler, uzun vadeli veri yok"
+    ],
+    "t": "Çalışma: Genç e-sigara kullanıcılarında damar değerleri daha kötü, dayanıklılık daha düşük"
+   },
+   "at": "2026-11-09T14:11Z",
+   "h": "0627483877f5",
+   "rev_dbg": [
+    4,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Nikotinli e-sigara (Sembolik fotoğraf)",
+    "kl": "Beden Bilgisi ve Anatomi"
+   }
+  },
   "sunderland-chelsea-le-fee-alonso-2026-11-09": {
    "L": {
     "body": [
@@ -3556,6 +3801,39 @@
     "kl": "Tenis"
    }
   },
+  "trainingspause-regeneration-muskeln-wie-oft-trainieren-2026-11-09": {
+   "L": {
+    "body": [
+     "Kuvvet antrenmanına başlayanlar çoğu zaman her şeyi bir kerede yapmak ister. Oysa kasların yüke uyum sağlayabilmesi için dinlenmeye ihtiyacı vardır. Mayo Clinic, yeni başlayanlara yönelik önerilerinde her kas grubuna yorulana kadar yapılan bir antrenmandan sonra en az 48 saat ara verilmesini ve haftada iki ila üç gün antrenman yapılmasını tavsiye ediyor. Bu, yetişkinler için haftada en az iki gün kas güçlendirici egzersiz öngören Dünya Sağlık Örgütü'nün (WHO) önerisiyle uyumlu.",
+     "Peki bir kas, büyüyebilmesi için haftada kaç kez çalıştırılmalı? „Journal of Sports Sciences“ dergisinde 2019'da yayımlanan bir meta-analiz bu konuda 25 çalışmayı değerlendirdi. Sonuç: Haftalık toplam antrenman hacmi aynı olduğunda, bir kasın haftada bir kez ya da birden fazla çalıştırılması kas büyümesi açısından kayda değer bir fark yaratmadı; bu, antrenman deneyimi olan katılımcılar için de, üst ve alt vücut için de geçerliydi. Yalnızca daha fazla seansın daha fazla toplam hacim anlamına geldiği çalışmalarda daha yüksek sıklık hafif bir üstünlük gösterdi. Araştırmacılar, haftaya dağılımın kişisel tercihe göre seçilebileceği sonucuna varıyor. Haftada iki kez tüm vücut antrenmanı da olsun, bölünmüş bir program da olsun: Önemli olan, düzenli olarak sürdürülebilen programdır.",
+     "Mayo Clinic'e göre dinlenmenin kendisi için şunlar geçerli: Başlangıçta hafif ila orta ağırlıklarla çalışılmalı, yük iki ila dört hafta içinde yavaş yavaş artırılmalı ve batıcı ya da ani saplanan tarzda ağrıya yol açan egzersizler hemen bırakılmalı. Önceden hastalığı olanlar ya da bir yaralanmanın ardından yeniden başlayanlar, antrenman hacmini doktor veya fizyoterapist ile birlikte belirlemeli."
+    ],
+    "d": "Antrenman uyarıyı verir; kas asıl sonrasındaki dinlenme sürecinde güçlenir. Uzmanlar dinlenme günleri için ne öneriyor ve haftalık seans sayısı neden toplam hacimden daha az önem taşıyor?",
+    "facts": [
+     "Mayo Clinic: yoğun antrenmandan sonra her kas grubunu en az 48 saat dinlendirin",
+     "WHO: haftada en az 2 gün kuvvet antrenmanı",
+     "Meta-analiz (25 çalışma): haftalık hacim aynı olduğunda sıklığın etkisi neredeyse yok",
+     "Yükü 2 ila 4 hafta içinde yavaşça artırın, batıcı ağrıda durun"
+    ],
+    "t": "Kaç günde bir kuvvet antrenmanı? Kaslar neden dinlenmeli ve ne kadar?"
+   },
+   "at": "2026-11-09T14:11Z",
+   "h": "19d896c4b0fd",
+   "rev": [
+    "Teaser: 'haftalık seans sayısı neden toplam hacimden daha az önemli' is awkward; reworded to match the German 'weniger zählt als'",
+    "Meta-analysis: 'kas büyümesi açısından kayda değer bir fark yaratmadı' is fine; 'antrenman deneyimi olan katılımcılar ile üst ve alt vücut için de' is awkward and unclear, so it was clarified",
+    "Last paragraph: 'Mayo Clinic'e göre dinlenmenin kendisi için' – the attribution is placed correctly, but 'saplanır tarzda' is a weak rendering of 'einschießend'"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Antrenman sonrası halter çubuğunun yanında mola (Sembolik fotoğraf)",
+    "kl": "Beslenme ve toparlanma"
+   }
+  },
   "trump-60-minutes-ki-leitplanken-2026-11-09-b11": {
    "L": {
     "body": [
@@ -3602,6 +3880,34 @@
    ],
    "x": {
     "img.alt": "ABD Başkanı Donald Trump (Arşiv fotoğrafı)",
+    "kl": "ABD"
+   }
+  },
+  "trump-katar-premier-iran-gespraeche-2026-11-09-b1530": {
+   "L": {
+    "body": [
+     "ABD Başkanı Donald Trump, pazartesi günü Beyaz Saray'da Katar Başbakanı ve Dışişleri Bakanı Şeyh Muhammed bin Abdurrahman bin Casim Al Thani ile kapalı kapılar ardında görüşecek. Katar, Washington ile Tahran arasında teklifleri iletiyor. Reuters'ın dayandığı bir ABD'li yetkiliye göre Şeyh Muhammed, Başkan Yardımcısı JD Vance ile de bir araya gelecek. Gündemde yeni bir ateşkes ve İran'la nükleer görüşmelerin yeniden başlaması var.",
+     "İran, perşembe günü Katar aracılığıyla yeni bir teklif iletti; ancak ABD'nin yedi şartı yerine getirmesi halinde bu teklif üzerine müzakere etmek istiyor. Şartlar arasında yaptırımların kaldırılması, dondurulmuş fonların serbest bırakılması, bölgedeki ABD askerlerinin azaltılması ve Lübnan dahil tüm cephelerde çatışmaların sona ermesi yer alıyor. Dışişleri Bakanı Marco Rubio pazar günü yaptığı açıklamada, ilerleme kaydedilmediğini söyledi; taleplerin “skandal, gülünç ve gerçekten de gerçekçi olmadığını” belirtti.",
+     "Trump ise CNN'e verdiği röportajda, güçlü bir anlaşma olması halinde İran'a yeni saldırıların “son derece düşük ihtimal” olduğunu söyledi; ancak bu ihtimali tamamen dışlamadı. Uluslararası Atom Enerjisi Ajansı'na göre İran'ın elinde yüzde 60'a kadar zenginleştirilmiş 440,9 kilogram uranyum bulunuyor. İran Dışişleri Bakanı Abbas Arakçi, Tahran'ın ABD'nin yeni saldırıları halinde “cehennemi yağdıracağını” söyleyerek uyardı."
+    ],
+    "d": "Katar, Washington ile Tahran arasında arabuluculuk yapıyor. Şeyh Muhammed bugün Beyaz Saray'da Trump'la görüşüyor. İran'ın yeni teklifi yedi talebe bağlı; Rubio bunları “gerçekçi değil” olarak niteledi.",
+    "t": "İran savaşı: Trump Katar Başbakanı'nı kabul ediyor – Rubio çözüm umudunu düşürdü"
+   },
+   "at": "2026-11-09T14:12Z",
+   "h": "32d6056c7fb5",
+   "rev": [
+    "Weekdays must be lowercase in Turkish per TDK (Pazartesi, Perşembe, Pazar)",
+    "Headline tense: German says Trump 'empfängt' (today, present), draft says 'kabul etti' (past) – wrong tense",
+    "Rubio quote: 'empörend' translated as 'çıldırtıcı', which is unnatural; 'küstahça/skandal' fits better",
+    "Teaser: Rubio's characterization should keep the attribution, which it does; no change needed"
+   ],
+   "rev_dbg": [
+    4,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Katar Başbakanı Muhammed bin Abdurrahman Al Thani (Arşiv fotoğrafı)",
     "kl": "ABD"
    }
   },
