@@ -897,10 +897,20 @@ def author_of(it):
     return next((x for x in AUTHORS if ns & set(x['match'])), None)
 def au_url(a, l): return f"{pre(l)}{AU_DIR.get(l, 'authors')}/{a['key']}"
 def au_txt(a, k, l): return a[k].get(l) or a[k].get('en') or a[k]['de']
+def author2_of(it):  # zweite Autorin/zweiter Autor: Feld "au2" (Nedy 09.11.2026, Serie WIND – mit Maya Pavllova)
+    if not it.get('au2'): return None
+    a = it['au2']; ns = set(a.values()) if isinstance(a, dict) else {a}
+    return next((x for x in AUTHORS if ns & set(x['match'])), None)
+def au2_name(it, l):
+    a = it.get('au2')
+    return (a.get(l) or a.get('de') or a.get('en') or '') if isinstance(a, dict) else (a or '')
 def byline_html(it, l):
     a = author_of(it)
     if not a: return e(byline(it, l))
-    return e(BYP[l].split('{n}')[0]) + f'<a class="au-link" href="{au_url(a, l)}" rel="author">{e(au_name(it, l))}</a>' + e(BYP[l].split('{n}')[1])
+    lk = f'<a class="au-link" href="{au_url(a, l)}" rel="author">{e(au_name(it, l))}</a>'
+    a2 = author2_of(it)
+    if a2: lk += {'bg': ' и ', 'de': ' und ', 'en': ' and ', 'es': ' y ', 'tr': ' ve ', 'it': ' e '}.get(l, ' & ') + f'<a class="au-link" href="{au_url(a2, l)}" rel="author">{e(au2_name(it, l))}</a>'
+    return e(BYP[l].split('{n}')[0]) + lk + e(BYP[l].split('{n}')[1])
 def kick(it, l, prefix=''):
     if it.get('live'): prefix = f'<b class="brk">{e(UI[l]["brk"])}</b>' + prefix
     if it.get('ex'): prefix = f'<b class="exk">{e(EXL[l])}</b>' + prefix
@@ -3533,7 +3543,7 @@ def build():
         # ---- Autorenseiten (Nedy 08.11.2026)
         for a in AUTHORS:
             nm, rl, bio = au_txt(a, 'name', l), au_txt(a, 'role', l), au_txt(a, 'bio', l)
-            mine = sorted([x for x in items_l if author_of(x) is a], key=lambda x: (x['date'], x['time']), reverse=True)
+            mine = sorted([x for x in items_l if author_of(x) is a or author2_of(x) is a], key=lambda x: (x['date'], x['time']), reverse=True)
             aalts = {x: au_url(a, x) for x in act}
             tops = ''.join(f'<li>{e(t)}</li>' for t in (a['topics'].get(l) or a['topics'].get('en') or []))
             con = f'<p class="au-con"><b>{e(AU_CON[l])}:</b> <a href="mailto:{a["email"]}">{a["email"]}</a></p>' if a.get('email') else ''
