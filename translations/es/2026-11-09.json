@@ -1302,6 +1302,56 @@
     "img.alt": "Gráfico: TERRA WORLD NEWS"
    }
   },
+  "f1-mercedes-konstrukteurstitel-huelkenberg-2026-11-09": {
+   "L": {
+    "body": [
+     "Con los puestos cuarto (George Russell) y quinto (Kimi Antonelli) en São Paulo, Mercedes ha ganado de forma anticipada el Mundial de Constructores de 2026. El equipo lidera con 652 puntos, inalcanzable para Ferrari (510); según RacingNews365, en las tres últimas carreras aún quedan 129 puntos por repartir. Es el noveno título de equipos para Mercedes y el primero desde la serie de ocho títulos consecutivos de 2014 a 2021; con ello, según Sky Sports, la escudería iguala a Williams en el tercer puesto de la clasificación histórica. «Esto es fantástico», dijo el jefe de equipo Toto Wolff.",
+     "Curiosamente, justo el día del título, Mercedes se quedó sin podio por primera vez esta temporada, según The Race. Con Antonelli, el equipo ya había asegurado el título de pilotos una semana antes en México.",
+     "Para el único piloto alemán hubo un cierre más amable del fin de semana: Nico Hülkenberg, que tras cero vueltas el viernes había salido desde la cuarta posición de la parrilla, recibió una sanción de diez segundos por salirse de la pista en la curva uno en su duelo con Franco Colapinto (Alpine). Aun así, como décimo salvó el único punto para Audi; su compañero de equipo Gabriel Bortoleto fue 16.º. En Ferrari, Charles Leclerc y Liam Lawson chocaron en la vuelta 70 en la lucha por el séptimo puesto; Leclerc recibió cinco segundos de sanción y cayó al octavo lugar, y Lewis Hamilton fue noveno tras salir desde la posición 20."
+    ],
+    "d": "A tres carreras del final, Mercedes se proclama mejor equipo de la temporada, algo que no lograba desde 2021. Nico Hülkenberg logra el décimo puesto en Interlagos para Audi pese a una sanción de diez segundos.",
+    "t": "Noveno título: Mercedes, campeón de constructores; Hülkenberg salva un punto para Audi"
+   },
+   "at": "2026-11-09T11:46Z",
+   "h": "b19194a74353",
+   "rev": [
+    "Teaser: \"erstmals seit 2021\" is rendered as \"por primera vez desde 2021\", which wrongly suggests Mercedes is winning for the first time since 2021; it should say \"por primera vez desde 2021\" is ambigu",
+    "Stylistic: \"Das ist großartig\" translated as \"Es fantástico\" (missing \"Es\" is fine, but \"Es fantástico\" is ungrammatical; should be \"Es fantástico\" → \"Es genial\"/\"Es estupendo\" – changed to \"Esto es f",
+    "Teaser sentence \"steht ... fest\" rendered as present \"es el mejor equipo\" without the sense of clinching; changed to \"se proclama mejor equipo\"",
+    "\"Rang drei der ewigen Bestenliste\" with Williams: \"en el tercer puesto\" is fine; \"gleich\" kept"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "El jefe de equipo de Mercedes, Toto Wolff, en «Stars and Cars» 2014 (foto de archivo)",
+    "kl": "Fórmula 1"
+   }
+  },
+  "f1-norris-regensieg-verstappen-interlagos-2026-11-09": {
+   "L": {
+    "body": [
+     "Lando Norris (McLaren) ha ganado el domingo el Gran Premio de São Paulo. Con el tiempo cambiante de Interlagos, cruzó la meta con 14,602 segundos de ventaja sobre Max Verstappen; el tercero fue su compañero de equipo en Red Bull, Isack Hadjar. Para Norris fue la tercera victoria de la temporada, a pesar de que había perdido el liderato en la salida a manos de Kimi Antonelli y de que en la primera vuelta había caído inicialmente al tercer puesto. «Fue una carrera muy dura, muy, muy dura», dijo el británico.",
+     "Según Sky Sports y The Race, el campeón del mundo Antonelli (Mercedes) no logró llevar los neumáticos a temperatura, se salió de la pista y cedió de nuevo el liderato a Norris; después también le adelantaron los dos Red Bull. Por radio, el italiano se quejó de que su coche giraba «solo». Terminó quinto, a 36,017 segundos, y su compañero de equipo George Russell fue cuarto. Al final de la carrera volvió a llover y todo el pelotón cambió de nuevo a neumáticos intermedios.",
+     "Verstappen había tomado la salida desde el puesto 21, el último, tras sanciones; en la vuelta 38 Hadjar le dejó pasar por orden del equipo. «Salir desde el puesto 21 y acabar en el podio como segundo es un muy buen resultado», dijo el neerlandés tras su octavo podio consecutivo. En el Mundial se sitúa con 279 puntos en la segunda plaza, por detrás de Antonelli (390) y por delante de Russell (262) y Lewis Hamilton (261). El calendario continúa con el Gran Premio de Las Vegas el 21 de noviembre (hora local)."
+    ],
+    "d": "Lando Norris logra en São Paulo su tercera victoria de la temporada. Max Verstappen sube al podio desde la última posición de salida; el campeón del mundo Antonelli, tras un despiste, solo es quinto.",
+    "t": "Victoria bajo la lluvia en Interlagos: Norris gana y Verstappen sube del 21.º al 2.º"
+   },
+   "at": "2026-11-09T11:46Z",
+   "h": "4da6d905e5b9",
+   "rev_dbg": [
+    4,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Lando Norris en el McLaren durante la clasificación del Gran Premio de Italia 2025 (foto de archivo)",
+    "kl": "Fórmula 1"
+   }
+  },
   "graff-jung-kook-i-wish-holiday": {
    "L": {
     "body": [
@@ -2849,6 +2899,32 @@
    ],
    "x": {
     "img.alt": "Carlos Alcaraz en Roland Garros 2025, en París (Foto de archivo)",
+    "kl": "Tenis"
+   }
+  },
+  "tn-wta-finals-gauff-noskova-rybakina-2026-11-09": {
+   "L": {
+    "body": [
+     "Las WTA Finals de Indian Wells han comenzado sin la número uno del mundo: la campeona defensora Elena Rybakina se retiró el sábado, un día antes del inicio, según la WTA por una infección viral. En su lugar entró en el Grupo 1, con Coco Gauff, Linda Nosková y Jessica Pegula, la primera suplente, la ucraniana Marta Kostyuk. «Sinceramente, no esperaba jugar en absoluto», dijo Kostyuk.",
+     "En el partido inaugural del domingo (hora local), Nosková, ganadora de Wimbledon, se impuso a Kostyuk por 6-2, 6-4. Según Tennis Majors, la checa aprovechó las cuatro opciones de break y celebró su primera victoria en las WTA Finals. «No quería intercambios largos», describió su plan.",
+     "En el duelo estadounidense, Gauff, cuarta del mundo, derrotó a su compatriota Pegula por 6-4, 6-7 (5), 6-2 tras 2 horas y 39 minutos. «Sinceramente, hoy me divertí mucho», dijo Gauff. Las dos mejores de cada grupo alcanzan las semifinales del sábado. En la segunda jornada, en el Grupo 2, entra en acción, entre otras, Aryna Sabalenka contra Karolína Muchová."
+    ],
+    "d": "La campeona defensora Elena Rybakina se ha retirado de las WTA Finals de Indian Wells por enfermedad. En la primera jornada, Coco Gauff ganó a Jessica Pegula y Linda Nosková a la suplente Marta Kostyuk.",
+    "t": "WTA Finals sin la número uno: Rybakina se retira y Gauff y Nosková arrancan con victoria"
+   },
+   "at": "2026-11-09T11:46Z",
+   "h": "b002e0181f88",
+   "rev": [
+    "Primer párrafo: la oración «En su lugar entró la primera suplente… en el Grupo 1» es ambigua; se aclara que Kostyuk entró en el Grupo 1 (equivalente al original, redacción mejorada)",
+    "«tras 2:39 horas» no es natural en español; se corrige a «tras 2 horas y 39 minutos»"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Coco Gauff en 2022 (Foto de archivo)",
     "kl": "Tenis"
    }
   },
