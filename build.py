@@ -922,7 +922,8 @@ def review_html(it, l):
     r = reviewer_of(it)
     if not r: return ''
     nm = r['name'].get(l) or r['name'].get('en') or r['name']['de']
-    return f'<span class="rv">{e(RVP.get(l, RVP["en"]))} <a class="au-link" href="{au_url(r, l)}">{e(nm)}</a></span>'
+    ph = f'<img src="{r["img"]}" alt="" width="24" height="24" loading="lazy" style="width:24px;height:24px;border-radius:50%;object-fit:cover;vertical-align:middle;margin:0 4px 0 2px">' if r.get('img') else ''
+    return f'<span class="rv" style="display:inline-flex;align-items:center;gap:2px">{e(RVP.get(l, RVP["en"]))} <a class="au-link" href="{au_url(r, l)}" style="display:inline-flex;align-items:center">{ph}{e(nm)}</a></span>'
 def byline_html(it, l):
     a = author_of(it)
     if not a:
