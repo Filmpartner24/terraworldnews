@@ -910,6 +910,19 @@ CHIEF = next((x for x in AUTHORS if x.get('key') == 'nedy-john-cross'), None)
 RESP = {'bg': 'Отговорен редактор', 'de': 'Verantwortlich', 'en': 'Responsible editor', 'es': 'Editor responsable', 'tr': 'Sorumlu editör', 'it': 'Responsabile'}
 def au_av(a, l, nm):
     return f'<a class="au-av-l" href="{au_url(a, l)}" tabindex="-1" aria-hidden="true"><img class="au-av" src="{a["img"]}" width="36" height="36" alt="" loading="lazy" decoding="async"></a>' if a.get('img') else ''
+# „Geprüft von“ (Nedy 09.11.2026): wer einen Beitrag gegengelesen hat – Feld "rv" (Autoren-Key) oder Zuständigkeit je Rubrik in authors/review.json
+try: REVIEW = json.load(open(os.path.join(HERE, 'authors', 'review.json'), encoding='utf-8'))
+except (FileNotFoundError, ValueError): REVIEW = {}
+RVP = {'bg': 'Проверено от', 'de': 'Geprüft von', 'en': 'Reviewed by', 'es': 'Revisado por', 'tr': 'Kontrol eden', 'it': 'Verificato da'}
+def reviewer_of(it):
+    k = it.get('rv') or (REVIEW.get('sections') or {}).get(it.get('s'))
+    if not k or it.get('au'): return None   # eigene Artikel haben schon Autor/in
+    return next((x for x in AUTHORS if x['key'] == k), None)
+def review_html(it, l):
+    r = reviewer_of(it)
+    if not r: return ''
+    nm = r['name'].get(l) or r['name'].get('en') or r['name']['de']
+    return f'<span class="rv">{e(RVP.get(l, RVP["en"]))} <a class="au-link" href="{au_url(r, l)}">{e(nm)}</a></span>'
 def byline_html(it, l):
     a = author_of(it)
     if not a:
@@ -2197,7 +2210,7 @@ def media_article(it, l, paras, facts, noadv, rel, side, SX):
     html = (f'<div class="gp gp-{kind} ga"><div class="gp-head"><a class="gp-title ga-sec" href="{sec_home(kind, l, it.get('sub'))}">{e(SEC[l][kind][0])}</a>{gp_slogan(l)}</div>'
             f'<div class="gp-main"><article class="gp-panel ga-panel">{kick(it, l)}' + (f'<div class="gr-score">{e(sc)}</div>' if sc else '') +
             f'{(f'<p class="ov-line">{e(T["ov"])}</p>' if T.get("ov") else "")}<h1 class="ga-h1">{e(T["t"])}</h1>{(f'<p class="sub-h">{e(T["st"])}</p>' if T.get("st") else "")}' + (f'<p class="gr-meta">{e(meta)}</p>' if meta else '') + f'<p class="ga-dek">{e(T["d"])}</p>'
-            f'<div class="byline meta ga-by"><span>{byline_html(it, l)}</span><time datetime="{iso(it)}">{PUBL[l]}: {short_date(it["date"], l)}, {it["time"]}{(" " + u["hour"]) if u["hour"] else ""}</time><span>{u["read"].format(m=read_min(it, l))}</span></div>'
+            f'<div class="byline meta ga-by"><span>{byline_html(it, l)}</span>{review_html(it, l)}<time datetime="{iso(it)}">{PUBL[l]}: {short_date(it["date"], l)}, {it["time"]}{(" " + u["hour"]) if u["hour"] else ""}</time><span>{u["read"].format(m=read_min(it, l))}</span></div>'
             f'{media}{single}{rv_box(it, l)}<div class="body ga-body">{paras}</div>{facts}{noadv}<div class="sources ga-src"><h2>{e(u["src"])}</h2><ul>{LI(it["src"])}</ul></div>'
             + (f'<h2 class="gp-h">{e(u["more"])}</h2><div class="gs-grid">{"".join(small(x) for x in rel)}</div>' if rel else '') +
             f'<p class="ga-back"><a href="{sec_home(kind, l, it.get('sub'))}">← {e(SEC[l][kind][0])}</a></p></article>'
@@ -3524,7 +3537,7 @@ def build():
             rel = [x for x in items_l if x['s'] == it['s'] and x is not it][:3]
             relh = f'<section class="rail" style="--c:{SEC_COLOR[it["s"]]}"><div class="rail-h"><h2>{e(u["more"])}</h2><a href="{sec_home(it["s"], l, it.get('sub'))}">{e(SEC[l][it["s"]][0])} →</a></div><div class="cards">{"".join(card(x, l) for x in rel)}</div></section>' if rel else ''
             body = (f'<article class="article"><a class="back" href="{sec_home(it["s"], l, it.get('sub'))}">← {e(SEC[l][it["s"]][0])}</a>{kick(it, l)}{(f'<p class="ov-line">{e(T["ov"])}</p>' if T.get("ov") else "")}<h1>{e(T["t"])}</h1>{(f'<p class="sub-h">{e(T["st"])}</p>' if T.get("st") else "")}<p class="dek">{e(T["d"])}</p>'
-                    f'<div class="byline meta"><span>{byline_html(it, l)}</span><time datetime="{iso(it)}">{PUBL[l]}: {short_date(it["date"], l)}, {it["time"]}{(" " + u["hour"]) if u["hour"] else ""}</time><span>{u["read"].format(m=read_min(it, l))}</span></div>'
+                    f'<div class="byline meta"><span>{byline_html(it, l)}</span>{review_html(it, l)}<time datetime="{iso(it)}">{PUBL[l]}: {short_date(it["date"], l)}, {it["time"]}{(" " + u["hour"]) if u["hour"] else ""}</time><span>{u["read"].format(m=read_min(it, l))}</span></div>'
                     f'{plate(it, l, cap=True, eager=True)}<div class="body">{paras}</div>{trailer}{facts}{noadv}<div class="sources"><h2>{e(u["src"])}</h2><ul>{LI(it["src"])}</ul></div></article>{relh}')
             if it['s'] in MEDIA:  # Games/Film/Musik: Artikel im dunklen Medien-Layout mit Seitenleiste
                 if it['s'] not in MSIDE:
