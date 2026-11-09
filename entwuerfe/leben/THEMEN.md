@@ -37,3 +37,4 @@ Themen mit aktuellem Anlass bevorzugen (neue Gesetze, Fristen, Preise, Saison). 
 - 2026-11-04 – Grundsteuer: Rate am 15. November fällig – Bulgarien will die Steuerwerte erhöhen – Entwurf
 - 2026-11-05 – Krank im Winter: Telefon-Attest soll wegfallen – was jetzt in DE und BG gilt – Entwurf
 - 2026-11-06 – Handgepäck: Wo 2 Liter Flüssigkeit erlaubt sind – und warum ab Sofia noch nicht – Entwurf
+- 2026-11-09 – Name passt zur IBAN? Ab 1. Dezember prüfen auch Bulgariens Banken den Empfänger – Entwurf
