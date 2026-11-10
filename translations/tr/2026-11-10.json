@@ -1,6 +1,23 @@
 {
  "date": "2026-11-10",
  "items": {
+  "anthropic-fable-mythos-52-fermat": {
+   "L": {
+    "body": [
+     "Yapay zekâ geliştiricisi Anthropic, Pazartesi günü (9 Kasım) iki yeni üst düzey model yayımladı: Claude Fable 5.2 ve Claude Mythos 5.2. Şirketin verdiği bilgiye göre her ikisi de aynı temel modeldir. Fable tüm kullanıcılara açık ve siber güvenlik ile biyoloji alanındaki riskli görevleri engelleyen ek koruma mekanizmaları içeriyor; Mythos 5.2 ise büyük ölçüde doğrulanmış kuruluşlara, örneğin kendi doğrulama programları üzerinden, tahsis edildi. Fiyat, milyon giriş tokeni başına 8 dolara ve milyon çıkış tokeni başına 40 dolara düşüyor (önceden 10 ve 50 dolar); yanıtların selefl erine kıyasla yüzde 30'a kadar daha hızlı gelmesi bekleniyor.",
+     "Anthropic, performansın kanıtı olarak bir matematik deneyini gösteriyor: Yaklaşık 1.000 Fable 5.2 ajanının, Fermat'nın son teoreminin kanıtını minimum insan müdahalesiyle 30 saatte Lean kanıt dilinde tamamen biçimselleştirdiği belirtiliyor; daha önceki bir dahili denemenin ise on bir gün sürdüğü ifade ediliyor. Anthropic ayrıca resmî videoda, şirket bilgilerine göre Fable 5.2'nin 1.000'den fazla alt ajanla sekiz günde bir dizüstü bilgisayarda açılan, çekirdek, sürücüler, dosya depolama ve grafik arayüze sahip kendi işletim sistemini yazdığını gösteriyor. Bu bilgiler bağımsız olarak doğrulanmış değil.",
+     "Anthropic, ek belgelerde her iki modelin de önceki modellere kıyasla daha sık test edildiğinden şüphelendiğini ifade ettiğini, bunun da günlük kullanımdaki davranışlarına ilişkin öngörüleri zorlaştırdığını yazıyor. Şirket, yapay zekâ geliştirmenin kendisini doğrudan hızlandırabilecek yeteneklerin eğitim sırasında bilinçli olarak sınırlandırıldığını belirtti. Yeni modeller, şirketin planlanan halka arzından kısa süre önce geliyor."
+    ],
+    "d": "Anthropic, Claude Fable 5.2 ve Mythos 5.2 modellerini tanıttı. Yaklaşık 1.000 Fable ajanının Fermat'nın son teoreminin kanıtını 30 saatte biçimselleştirdiği iddia ediliyor.",
+    "t": "30 saatte Fermat: Anthropic, daha ucuz ve hızlı Claude Fable 5.2'yi tanıttı"
+   },
+   "at": "2026-11-10T12:56Z",
+   "h": "a902ad6c872c",
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Anthropic CEO'su Dario Amodei, TechCrunch Disrupt 2023'te",
+    "kl": "Yeni model"
+   }
+  },
   "anthropic-ipo-preisspanne-zurueckgezogen-2026-11-10-b11": {
    "L": {
     "body": [
@@ -1636,6 +1653,32 @@
     "kl": "37 yıl önce bugün"
    }
   },
+  "holstein-kiel-kniat-trainer-2026-11-10": {
+   "L": {
+    "body": [
+     "Holstein Kiel, salı günü Mitch Kniat'ı yeni teknik direktör olarak tanıttı. 40 yaşındaki Kniat, 30 Haziran 2028'e kadar geçerli bir sözleşme imzaladı. Kniat, yardımcı antrenör olarak Dani Jara ve Janik Steringer'i da getiriyor; kulübün açıklamasına göre ikili, Kniat'ın SC Paderborn'daki döneminden beri onunla birlikte çalışıyor. Kulüp, pazartesi günü Tim Walter ve yardımcıları Michael Wimmer ile Julian Hübner'le yollarını ayırmıştı.",
+     "Kniat, diğer görevlerinin yanı sıra SC Paderborn'un ikinci takımını, 3. Lig'de SC Verl'i ve 2023 yazından itibaren Arminia Bielefeld'i çalıştırdı. Arminia ile 2025'te 3. Lig şampiyonu oldu ve VfB Stuttgart'a 2-4 kaybedilen DFB Pokalı finaline ulaştı. Kiel'in spor genel müdürü Olaf Rebbe, “Mitch'in insan ve teknik direktör olarak getirdiği bütünden tamamen ikna olduk” dedi.",
+     "Görev zor: Kiel, on bir maçta topladığı sekiz puan ve tek galibiyetle 2. Bundesliga'da sonuncu sırada. Kniat, “Tutkuyla, yoğunlukla ve net bir fikirle futbol oynamak istiyoruz” diye konuştu. Kiel, 1 Aralık'ta DFB Pokalı son 16 turunda 1. FC Köln ile karşılaşacak."
+    ],
+    "d": "Tim Walter ile yolların ayrılmasından bir gün sonra 2. Bundesliga'nın son sırasındaki Holstein Kiel halefini tanıttı: Mitch Kniat 2028'e kadar imza attı ve iki yardımcıyla geliyor.",
+    "t": "Walter dönemi sona erdi: Holstein Kiel yeni teknik direktör olarak Mitch Kniat'ı getirdi"
+   },
+   "at": "2026-11-10T12:56Z",
+   "h": "3b8d1eb80cd4",
+   "rev": [
+    "Weekdays 'Salı' and 'Pazartesi' are capitalised mid-sentence; TDK requires lowercase.",
+    "Headline: 'Walter dönemi sona erdi' is not in the German; the original says 'Nach Walter-Aus'. Acceptable, so no change.",
+    "'Kniat'ın ... onunla birlikte çalışıyor' is slightly awkward but the meaning is correct, so no change."
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Kiel'deki Holstein Stadyumu (Arşiv fotoğrafı)"
+   }
+  },
   "holstein-kiel-trennt-sich-von-tim-walter-2026-11-10-b08": {
    "L": {
     "body": [
@@ -2647,6 +2690,35 @@
     "img.alt": "Dušan Vlahović tribünde, Ekim 2026 (Arşiv fotoğrafı)"
    }
   },
+  "man-utd-carrick-zukunft-2026-11-10": {
+   "L": {
+    "body": [
+     "Manchester United'da teknik direktör Michael Carrick'in koltuğu sallanıyor. Sky Sports News'e göre konumu giderek daha tartışmalı hale geliyor; ancak kesin bir karar henüz verilmediği belirtiliyor. Buna göre spor direktörü Jason Wilcox sezonun şimdiye kadarki bölümüne ilişkin bir analize başkanlık ediyor; kararın milli ara sona ermeden önce verilmesi planlanıyor. Sky'a göre kulüp geçici teknik direktör görevlendirmek istemiyor.",
+     "United, ligde oynanan on maçın ardından 18. sırada yer alıyor ve küme düşmeyen takımların bir puan gerisinde bulunuyor. Kulüp, 1986/87 sezonundan bu yana ilk on lig maçının ardından bu kadar kötü bir konumda bulunmamıştı. Sekiz lig maçında galibiyet alınamaması, Premier Lig döneminde kulüp rekoru. PA haber ajansına göre Wilcox ile genel müdür Omar Berrada, yaklaşık iki hafta önce, Şampiyonlar Ligi'nde Como deplasmanında alınan 1-4'lük ve Bournemouth karşısındaki 0-3'lük yenilgilerin ardından Carrick'in görevden alınmasını ciddi şekilde düşünmüştü.",
+     "Carrick ise istifa etme ihtimalini reddetti. Sky Sports'a pazar günü Aston Villa ile oynanan 4-4'lük maçın ardından konuşan Carrick, “Bu olmayacak, hayır” dedi. “Durumun farkındayız; yeterince maç kazanmadık” (çeviri). Ara sonrasında United, 22 Kasım'da Liverpool deplasmanına çıkacak."
+    ],
+    "d": "Ligde sekiz maçtır kazanamayan Manchester United'da teknik direktör Michael Carrick'in geleceği belirsiz. Sky Sports'a göre kararın milli ara sırasında verilmesi planlanıyor.",
+    "t": "10 maçta 18. sıra: Manchester United Carrick'in geleceğini değerlendiriyor"
+   },
+   "at": "2026-11-10T12:56Z",
+   "h": "c0f49ce27d85",
+   "rev": [
+    "\"Başteknik Direktör\" is an unnatural title; should be \"teknik direktör\"",
+    "\"konumu giderek daha belirsiz hale geliyor\" is an inexact rendering of \"Position zunehmend fraglich\"; also the 'ancak' sentence needs clear attribution to Sky",
+    "Teaser: the German says the decision is to be made during the international break (\"noch in der Länderspielpause\"), which is slightly shifted, and the hedge \"soll\" is lost (\"verilecek\" reads as fact)",
+    "\"milli araların sona ermesinden önce\" is awkward; should be \"milli ara bitmeden önce\"",
+    "\"Como deplasmanında\": the German says only \"bei Como\"; acceptable, but \"görevden almayı\" lacks the Turkish object, so \"Carrick'in görevden alınmasını\" is clearer",
+    "Carrick quote: second quote lacks a speech verb/attribution, but it is part of the same statement; fine"
+   ],
+   "rev_dbg": [
+    6,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Michael Carrick (Arşiv fotoğrafı)"
+   }
+  },
   "moncler-re-icons-andre-3000-gabriel-moses": {
    "L": {
     "body": [
@@ -3144,6 +3216,31 @@
     "img.alt": "Schwerin Şatosu, eyalet meclisinin merkezi (Arşiv fotoğrafı)"
    }
   },
+  "sassuolo-aquilani-entlassen-2026-11-10": {
+   "L": {
+    "body": [
+     "Serie A ekibi Sassuolo, pazartesi günü teknik direktör Alberto Aquilani ve ekibiyle yollarını ayırdı. Kararın tetikleyicisi, cumartesi günü AS Roma deplasmanında alınan 0-3'lük ve üst üste beşinci yenilgi oldu. Juventus karşısında alınan galibiyetin de yer aldığı iyi bir sezon başlangıcının ardından Sassuolo, sekiz puanla alttan dördüncü sıraya geriledi; takım on bir maçta 29 gol yedi.",
+     "Halefi olarak, daha önce Parma, Sampdoria ve Torino gibi takımları çalıştıran Roberto D'Aversa'nın göreve geçmesi bekleniyor. “Corriere dello Sport”a göre D'Aversa, Vincenzo Montella karşısında öne geçti; kulübün resmi onayı salı öğlen itibarıyla henüz gelmedi. Sözleşme süresine ilişkin farklı bilgiler bulunuyor.",
+     "AGI haber ajansına göre bu, Serie A'da on bir haftanın ardından yaşanan altıncı teknik direktör değişikliği. Milli maç arasının ardından Sassuolo, 22 Kasım'da Daniele De Rossi'nin çalıştırdığı CFC Genoa'yı konuk edecek."
+    ],
+    "d": "AS Roma deplasmanında 0-3 yenilen Sassuolo, teknik direktör Alberto Aquilani ile yollarını ayırdı. İtalyan basınına göre yerine Roberto D'Aversa geçecek.",
+    "t": "Üst üste beşinci yenilgi: Sassuolo teknik direktör Aquilani'yi gönderdi, D'Aversa geliyor"
+   },
+   "at": "2026-11-10T12:56Z",
+   "h": "27f62b638453",
+   "rev": [
+    "Weekdays are capitalised, which is wrong under TDK rules (pazartesi, cumartesi, salı)",
+    "\"Hafta sonunda\" is ambiguous (can read as 'weekend'); changed to 'on bir haftanın ardından'"
+   ],
+   "rev_dbg": [
+    2,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Alberto Aquilani 2012'de Fiorentina oyuncusu olarak (Arşiv fotoğrafı)"
+   }
+  },
   "skydance-games-entlassungen": {
    "L": {
     "body": [
@@ -3603,6 +3700,31 @@
    ],
    "x": {
     "img.alt": "Hollanda formasıyla Virgil van Dijk (Arşiv fotoğrafı)"
+   }
+  },
+  "vfb-spalt-wohlgemuth-2026-11-10": {
+   "L": {
+    "body": [
+     "VfB Stuttgart'ta Yanik Spalt dikkat çekiyor. Sol savunmada da oynayabilen 19 yaşındaki orta saha oyuncusu, 2023 yazında 16 yaşındayken AKA Vorarlberg'den Stuttgart'a geldi; sözleşmesi 2028'e kadar sürüyor. Avusturya U21 Milli Takımı oyuncusu, Şampiyonlar Ligi'ndeki ilk maçına Galatasaray deplasmanında alınan 0-2'lik yenilgide, sakatlanan Atakan Karazor'un yerine 18. dakikada oyuna girerek çıktı.",
+     "Cumartesi günü Werder Bremen'e karşı kazanılan 1-0'lık maçta Spalt ilk kez ilk 11'de başladı, 82 dakika oynadı ve oyundan çıkarken ayakta alkışlandı. Spor Direktörü Fabian Wohlgemuth, Sky'a yaptığı açıklamada “Baskı altındaki bu soğukkanlılık hoşumuza gidiyor” dedi. Wohlgemuth, SWR'ye göre Şampiyonlar Ligi'ndeki ilk maçı hakkında şunları söyledi: “Şampiyonlar Ligi'nde ilk maç için daha sakin yerler vardır. Böyle bir maçta bu kadar net olmak gerçekten olağanüstüydü.”",
+     "Wohlgemuth, genç oyuncunun geleceği için şunları söyledi: “Yanik'e sahip olmanın ne demek olduğunu biliyoruz ve gelecekte de ondan vazgeçmek istemiyoruz.” Wohlgemuth'a göre yaratılan abartılı ilgiyle başkaları “Yanik'ten çok daha yoğun” ilgileniyordu. Spalt, Bremen maçında kaleci Dennis Seimen'in yanında ilk 11'deki ikinci altyapı oyuncusuydu. Wohlgemuth, “Tam da bunun için yetiştiriyoruz” dedi."
+    ],
+    "d": "19 yaşındaki Avusturyalı Yanik Spalt, VfB Stuttgart'ta ilk 11'e yerleşti. Spor Direktörü Fabian Wohlgemuth, genç oyuncunun soğukkanlılığını övdü ve yeteneği uzun vadede kulüpte tutmak istiyor.",
+    "t": "“Tam da bunun için yetiştiriyoruz”: VfB Spor Direktörü Wohlgemuth, Spalt'ı övdü"
+   },
+   "at": "2026-11-10T12:56Z",
+   "h": "307e32a18f0a",
+   "rev": [
+    "Debut sentence: the draft says \"Şampiyonlar Ligi'ne ... ilk kez çıktı\", which is clumsy, and it omits that Spalt's debut was in the Champions League; reworded to make this explicit.",
+    "\"Wohlgemuth'a göre çevresindeki yoğun ilgiyle başkaları\" adds \"çevresindeki\" and is awkward; the hype was reworded to match the German."
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "VfB'nin iç saha stadyumu Stuttgart Arena (Sembolik fotoğraf)"
    }
   },
   "video-hirnaneurysma-2026-11-10": {
