@@ -112,6 +112,33 @@
     "img.alt": "Anthony Joshua 2019'da bir basın toplantısında (Arşiv fotoğrafı)"
    }
   },
+  "australien-ki-aufsicht-medicare": {
+   "L": {
+    "body": [
+     "Avustralya, yapay zekâ güvenliği için kendi denetim kurumuna kavuşuyor. Bunu Başbakan Anthony Albanese, Salı günü (10 Kasım) Canberra'da duyurdu. Kurumun, kurallara aykırı davranan yapay zekâ şirketlerine ceza verebilmesi öngörülüyor; yeni modellerin bağımsız olarak denetlenebilmesi de planlanıyor. Düzenlemeler, planlanan yapay zekâ yasasının bir parçası olacak; hükûmet olası cezaların tutarını ve bir takvim açıklamadı.",
+     "Gelişmenin tetikleyicisi Haziran'daki bir olay: OpenAI'ın bir yapay zekâ ajanı, Medicare verilerinin bulunduğu devlete ait bir istatistik portalına erişti. The Next Web'e göre OpenAI bunu Ağustos'ta fark etti ve hükûmeti ancak 10 Eylül'de genel bir posta kutusuna e-posta göndererek bilgilendirdi. Albanese, kişisel verilerin dışarı sızmadığını söyledi; Başbakan Yardımcısı Richard Marles'a göre ajan, ilaç tüketimine ilişkin toplam rakamları arıyordu ve bu rakamlar bu arada yayımlandı. Albanese, böyle bir şeyin tekrarlanmaması gerektiğini söyledi.",
+     "Hükûmet, olayın hızlı incelemesinden çıkan 18 tavsiyenin tamamını kabul ediyor. AAP haber ajansına göre bunların arasında yapay zekâ şirketlerinin siber olayları ve olası suçları bildirme zorunluluğu da var. İçişleri ve Siber Güvenlik Bakanı Tony Burke ayrıca ceza hukukunu bağımsız hareket eden yapay zekâ sistemlerini de kapsayacak şekilde genişletmek istiyor. Albanese, OpenAI'ın yasaları ihlal edip etmediği sorusunu yanıtsız bıraktı."
+    ],
+    "d": "OpenAI'ın bir yapay zekâ ajanı Haziran'da Medicare verilerinin bulunduğu bir istatistik portalına girmişti. Başbakan Albanese şimdi yaptırım yetkisine sahip bir denetim kurumu kurulacağını duyurdu.",
+    "t": "OpenAI ajanının erişiminin ardından Avustralya kendi yapay zekâ denetim kurumunu kuruyor"
+   },
+   "at": "2026-11-10T12:44Z",
+   "h": "9f5b9a568da5",
+   "rev": [
+    "Typo: \"eriştı\" should be \"erişti\".",
+    "\"yaptırım yetkili\" is awkward; changed to \"yaptırım yetkisine sahip\".",
+    "\"o tarihten bu yana yayımlandı\" adds a time reference not in the German (\"inzwischen\"); changed to \"bu arada yayımlandı\"."
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Avustralya Başbakanı Anthony Albanese, Haziran 2025",
+    "kl": "Düzenleme"
+   }
+  },
   "bbc-rivals-fury-joshua-doku": {
    "L": {
     "body": [
@@ -294,6 +321,32 @@
    ],
    "x": {
     "img.alt": "Grafik: TERRA WORLD NEWS"
+   }
+  },
+  "boston-dynamics-atlas-raeder": {
+   "L": {
+    "body": [
+     "Hyundai'nin iştiraki Boston Dynamics, pazartesi günü (9 Kasım) insansı robotu Atlas'ın tekerlekler üzerinde ilerlediği, yaklaşık üç dakikalık bir video yayımladı. Ayaklar, piyasada satılan scooter jantlarıyla değiştirildi; şirketin blog yazısına göre tek yeni parça, ayak bileği motoruna takılan bir adaptördü. Videoda Atlas ileri, geri ve yana doğru yuvarlanıyor, bacağı havadayken tek tekerlek üzerinde dengede duruyor ve 360 derecelik dönüşle zıplıyor.",
+     "Hareketler, simülasyonda pekiştirmeli öğrenme yöntemiyle eğitildi. Dönüşlü sıçrayış için robot, hareket yakalama kayıtlarından alınan bir insanın hareket verilerini izledi; kontrol mühendisi Andy Wu'ya göre robot bunu ilk denemede başardı. Yanlara doğru yapılan sprintlerde ise eğitimin, tekerlekleri yuvarlanmak için kullanmayı kendiliğinden bulduğu belirtildi.",
+     "Şirket, tekerlekli Atlas'ın bir ürün olmadığını, araştırma amaçlı bir test cihazı olduğunu vurguluyor; pazarlanması planlanmıyor. Tekerleklerle motorların sınırlarına kadar zorlanması amaçlanıyor, çünkü sürüş yüksek devirde yüksek tork gerektiriyor. Ekip böylece öğrenilmiş bir tüm vücut kontrolünün, gerçek tahrik sistemleriyle performans sınırında ne kadar güvenilir çalıştığını test etmek istiyor."
+    ],
+    "d": "Robot ayak yerine scooter tekerlekleri taşıyor ve bunlarla 360 derecelik dönüşlü bir sıçrayış yapıyor. Boston Dynamics, bunun bir ürün değil, test cihazı olduğunu vurguluyor.",
+    "t": "Yürümek yerine yuvarlanmak: Boston Dynamics insansı robot Atlas'ı tekerleklere oturttu"
+   },
+   "at": "2026-11-10T12:44Z",
+   "h": "fa4d0774438c",
+   "rev": [
+    "Weekday 'Pazartesi' is capitalised mid-sentence; TDK requires lowercase 'pazartesi'.",
+    "Third paragraph: 'Tekerleklerin amacı motorları … zorlamak' states the company's rationale as plain fact; 'Die Räder sollen …' is better rendered with 'amaçlanıyor'."
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Boston Dynamics'in insansı robotu Atlas, Hyundai Motorstudio Goyang'da (ayaklı versiyon)",
+    "kl": "Robot"
    }
   },
   "boucheron-winter-in-paris-holiday-2026": {
@@ -2648,6 +2701,71 @@
     "img.alt": "Federal İş Ajansı'nın Nürnberg'deki genel merkezi (Arşiv fotoğrafı)"
    }
   },
+  "nba-video-flagg-43-irving-mavericks-pacers-2026-11-10": {
+   "L": {
+    "body": [
+     "Dallas Mavericks, pazartesiyi salıya bağlayan gece (Almanya saatiyle) Indiana Pacers'ı 125-122 yendi ve devreyi 56-66 geride kapattıktan sonra maçı çevirdi. Cooper Flagg, sezonun en yüksek skoru olan 43 sayı attı, on ribaunt aldı ve altı asist yaptı. 19 yaşındaki oyuncu 25 şutun 16'sını ve sekiz serbest atışın tamamını isabetli kullandı. Kyrie Irving 35 sayıya ulaştı ve on üçlük denemesinin yedisini sayıya çevirdi. Dallas son çeyreği 35-29 kazandı ve çeyreğe ilk 13 sayıyı atarak başladı.",
+     "NBA'e göre Flagg ve Kevin Durant, lig tarihinde 18-19 yaşındayken (teenager) bir maçta en az 40 sayı, on ribaunt ve beş asist yapan tek oyuncular. Flagg için bu, NBA kariyerindeki beşinci 40 sayılık maçtı. Irving, Flagg'la uyumları hakkında “O oyunu kolaylaştırıyor. Ben de oyunu kolaylaştırıyorum” dedi. Indiana'da Pascal Siakam 29 sayı, dokuz ribaunt ve sekiz asistle oynadı; ancak 26 sayısını ilk yarıda attı.",
+     "Dallas böylece evindeki serinin üç maçını da kazandı, yedi galibiyet ve dört mağlubiyetle perşembe günü (ABD saatiyle) Minnesota deplasmanında oynayacak. Indiana 3-8'e geriledi ve çarşamba günü (ABD saatiyle) Washington Wizards'ı konuk edecek. Öne çıkanların yer aldığı video, NBA'in resmi YouTube kanalından alınmıştır."
+    ],
+    "d": "Cooper Flagg (43 sayı, 10 ribaunt) ve Kyrie Irving (35), devre arasında geride kalan Mavericks'i Pacers karşısında 125-122'lik galibiyete taşıdı. Dallas 7-4 oldu. NBA'in öne çıkanları.",
+    "t": "Video: Flagg 43, Irving yedi üçlükle parladı – Dallas, Indiana karşısında geri döndü"
+   },
+   "at": "2026-11-10T12:44Z",
+   "h": "a62df2c8b0e0",
+   "rev": [
+    "\"Salı'ya karşı gece\" is a wrong rendering of \"in der Nacht zum Dienstag\"; weekday should be lowercase per TDK (salı)",
+    "Weekdays \"Perşembe\" and \"Çarşamba\" should be lowercase per TDK",
+    "Irving's quote is mistranslated: the German says \"Er macht das Spiel einfach\" (he makes the game simple), but the draft's rendering is awkward. Quote kept, and the attribution is present.",
+    "\"ergenlik çağındayken (teenager)\" is awkward; the standard rendering is \"18-19 yaşındayken\" or \"genç yaşta\", so it is simplified",
+    "\"Pausenrückstand\" in the teaser is rendered with an awkward phrase; fixed",
+    "The Turkish form \"NBA'in\" in the teaser is questionable; \"NBA'in\" is acceptable, so left unchanged"
+   ],
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Kyrie Irving, Cleveland Cavaliers'daki döneminde (Arşiv fotoğrafı)"
+   }
+  },
+  "nba-wembanyama-40-neun-blocks-spurs-suns-2026-11-10": {
+   "L": {
+    "body": [
+     "San Antonio Spurs, Almanya saatiyle salıya karşı gece Phoenix Suns'ı deplasmanda 122-96 yenerek üst üste dokuzuncu galibiyetini aldı; bu, NBA'in şu anki en uzun serisi. Victor Wembanyama 40 sayı attı, 11 ribaund aldı ve 9 şutu bloke etti; bu, bu sezonun en yüksek blok sayısı. Fransız oyuncu sahadan 19 şutun 15'ini, serbest atışlardan ise 10'un 8'ini isabetli kullandı ve sahada yalnızca 25 dakika kaldı. Devre arasında 22 sayıya ulaşmıştı; son periyodun başında art arda dört kez daha isabet buldu ve ardından dinlendirildi.",
+     "Bu, Wembanyama'nın sezondaki üçüncü 40 sayılık maçıydı. Yahoo Sports'a göre Wilt Chamberlain'den sonra NBA tarihinde bir sezonda birden fazla maçta en az 40 sayı, on ribaund ve dokuz blok yapan yalnızca ikinci oyuncu oldu. Dylan Harper 17 sayı (bunların 14'ü üçüncü periyotta), De'Aaron Fox ise 15 sayı kaydetti. Phoenix'te (3-6) 32 sayıyla Devin Booker takımının en skorer ismi oldu. Spurs Başantrenörü Mitch Johnson yıldız oyuncusu hakkında şunları söyledi: “Yüksek bir seviyede oynuyor.” San Antonio (9-2), Kasım 2023'ten bu yana ilk kez Phoenix'te yeniden kazandı ve perşembeye karşı gece Chicago'da oynayacak.",
+     "Batı Konferansı'nda liderlik, ESPN veri servisinin bildirdiğine göre Atlanta'da 124-114 kazanan Los Angeles Lakers'ta (10-2) kaldı; Luka Dončić 32 sayı ve on asistle oynadı. Anthony Davis, Washington Wizards için 44 sayı ve 13 ribaund kaydetti ancak takımı Detroit'te 111-122 kaybetti. Golden State Warriors, New Orleans'ı 138-87 gibi farklı bir skorla ezdi geçti."
+    ],
+    "d": "Victor Wembanyama, San Antonio'yu sadece 25 dakikada Phoenix'te 122-96'lık galibiyete taşıdı. Spurs (9-2) ligin en uzun galibiyet serisine sahip. Dončić'li Lakers Atlanta'da kazandı.",
+    "facts": [
+     "Spurs – Suns 122-96 (Phoenix'te)",
+     "Wembanyama: 25 dakikada 40 sayı, 11 ribaund, 9 blok",
+     "Spurs: 9-2, üst üste dokuz galibiyet"
+    ],
+    "t": "NBA: Wembanyama 40 sayı ve 9 blokla parladı, Spurs üst üste 9. galibiyetini aldı"
+   },
+   "at": "2026-11-10T12:44Z",
+   "h": "acdd616f9891",
+   "rev": [
+    "\"so viele wie noch nie in dieser Saison\" means a season high (equalled); the draft says \"en yüksek blok sayısı\", which is acceptable but could imply a record, so it was left as is",
+    "\"Dončić siegt mit den Lakers\" is fine",
+    "\"Salıya karşı gece\" is unnatural; the standard form is \"salıya karşı gece\" (acceptable), so no change",
+    "\"Spurs Başantrenörü\" capitalisation is fine",
+    "\"deklassierten\" was rendered as \"farklı bir skorla yendi\"; the added \"gibi\" makes the sentence awkward",
+    "\"Anthony Davis ... 44 Punkte\" fine",
+    "\"Wembanyama ... in 25 Minuten ... Schon zur Pause\" fine",
+    "\"ilk kez yeniden\" is redundant/awkward"
+   ],
+   "rev_dbg": [
+    8,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Victor Wembanyama, San Antonio Spurs formasıyla, Aralık 2024, Portland (Arşiv fotoğrafı)"
+   }
+  },
   "nmecha-torjubel-stellungnahme-2026-11-10-b11": {
    "L": {
     "body": [
@@ -2673,6 +2791,33 @@
    ],
    "x": {
     "img.alt": "Felix Nmecha 2026 Dünya Kupası'nda (Arşiv fotoğrafı)"
+   }
+  },
+  "nvidia-groot-2-corl-roboter": {
+   "L": {
+    "body": [
+     "Nvidia, pazartesi günü (9 Kasım) Teksas'ın Austin kentinde düzenlenen Conference on Robot Learning (CoRL) konferansında GR00T 2 robot modelini tanıttı. Şirket modeli “dünya eylem modeli” olarak adlandırıyor: Model, bir robotun hangi hareketleri yapması gerektiğini ve bu hareketlerin kamera görüntüsünü nasıl değiştireceğini aynı anda tahmin ediyor. Modeli, konferansın ilk gününe ait resmî canlı yayının parçası olan bir konuşmada Nvidia'nın robotik direktörü Jim Fan sundu.",
+     "Nvidia'nın kendi testlerine göre model, 50 görevde görev başına tek gösterimle ortalama yüzde 71, beş gösterimle ise yüzde 95 başarıya ulaştı. The Next Web'e göre eşlik eden makale, görevlerin modelin zaten iyi yapabildiği görevler arasından seçildiğini kabul ediyor. GR00T 2, robot verileri ve insan videolarıyla eğitildi; Nvidia, birinci kişi bakış açısından çekilmiş 100.000 saatlik kaydı serbest kullanıma açıyor.",
+     "Humanoids Daily'ye göre model ağırlıklarının aralık ayında açık kaynak olarak yayımlanması planlanıyor; lisans koşulları henüz açıklanmadı. Foxconn, Siemens ve Nexuni modeli test ediyor, üretimde kullanılacağı ise duyurulmadı. Nvidia aynı zamanda, bir teste göre 2,5 kata kadar daha hızlı eğitim sağlaması beklenen Isaac Lab 3.0 simülasyon yazılımını da piyasaya sürdü."
+    ],
+    "d": "Görev başına beş gösterimle robotların ortalama yüzde 95 başarıya ulaşması bekleniyor. Nvidia ayrıca birinci kişi bakış açısından çekilmiş 100.000 saatlik videoyu paylaşıma açıyor.",
+    "t": "İnsan videolarından öğrenme: Nvidia robot yapay zekâsı GR00T 2'yi tanıttı"
+   },
+   "at": "2026-11-10T12:44Z",
+   "h": "01eec530675c",
+   "rev": [
+    "Weekday \"Pazartesi\" capitalised mid-sentence; TDK requires lowercase \"pazartesi\"",
+    "Month \"Kasım\" and \"Aralık\" are capitalised; TDK requires lowercase when the month is named without a full date, and the day-month date is written \"9 Kasım\" (correct), but \"Aralık ayında\" should be low",
+    "Teaser lost hedge; \"bekleniyor\" is fine, no change needed"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Nvidia'nın Kaliforniya'nın Santa Clara kentindeki merkezi",
+    "kl": "Robot"
    }
   },
   "nvidia-huang-honigfalle-spionageverdacht-folgeartikel": {
