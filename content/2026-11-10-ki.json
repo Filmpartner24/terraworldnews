@@ -1,0 +1,422 @@
+{
+ "date": "2026-11-10",
+ "items": [
+  {
+   "id": "anthropic-fable-mythos-52-fermat",
+   "s": "ai",
+   "time": "12:33",
+   "kl": {
+    "de": "Neues Modell",
+    "bg": "Нов модел",
+    "en": "New model"
+   },
+   "yt": {
+    "id": "vVy0BRouX6E",
+    "ch": "Claude",
+    "kind": "video",
+    "t": {
+     "de": "Claude Fable 5.2 builds an operating system from scratch",
+     "bg": "Claude Fable 5.2 builds an operating system from scratch",
+     "en": "Claude Fable 5.2 builds an operating system from scratch"
+    }
+   },
+   "src": [
+    {
+     "n": "Anthropic – Introducing Claude Fable 5.2 and Claude Mythos 5.2 (09.11.2026)",
+     "u": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+    },
+    {
+     "n": "TechCrunch – Anthropic releases new Mythos and Fable models amid RSI concerns (09.11.2026)",
+     "u": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/"
+    },
+    {
+     "n": "The Decoder – Claude Fable 5.2 and Mythos 5.2 cement Anthropic's AI lead just before its IPO (09.11.2026)",
+     "u": "https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo/"
+    },
+    {
+     "n": "Interesting Engineering – Claude Fable 5.2 builds a working OS with 1,000 agents in eight days (09.11.2026)",
+     "u": "https://interestingengineering.com/ai-robotics/anthropic-claude-fable-5-2-operating-system"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-10/anthropic-fable-mythos-52-fermat.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "TechCrunch",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dario_Amodei_at_TechCrunch_Disrupt_2023_01.jpg",
+    "alt": {
+     "de": "Archivbild: Anthropic-Chef Dario Amodei bei der TechCrunch Disrupt 2023",
+     "bg": "Архивна снимка: шефът на Anthropic Дарио Амодей на TechCrunch Disrupt 2023",
+     "en": "Archive image: Anthropic CEO Dario Amodei at TechCrunch Disrupt 2023"
+    }
+   },
+   "de": {
+    "t": "Fermat in 30 Stunden: Anthropic bringt Claude Fable 5.2 – billiger und schneller",
+    "d": "Anthropic hat die Modelle Claude Fable 5.2 und Mythos 5.2 vorgestellt. Rund 1.000 Fable-Agenten sollen den Beweis von Fermats letztem Satz in 30 Stunden formalisiert haben.",
+    "body": [
+     "Der KI-Entwickler Anthropic hat am Montag (9. November) zwei neue Spitzenmodelle veröffentlicht: Claude Fable 5.2 und Claude Mythos 5.2. Nach Angaben des Unternehmens handelt es sich um dasselbe Grundmodell. Fable ist für alle Nutzer verfügbar und hat zusätzliche Schutzmechanismen, die riskante Aufgaben in Cybersicherheit und Biologie blockieren; Mythos 5.2 ist weitgehend geprüften Organisationen vorbehalten, etwa über eigene Verifizierungsprogramme. Der Preis sinkt auf 8 Dollar je Million Eingabe- und 40 Dollar je Million Ausgabe-Tokens (bisher 10 und 50 Dollar), Antworten sollen bis zu 30 Prozent schneller kommen als bei den Vorgängern.",
+     "Als Leistungsbeleg nennt Anthropic ein Mathematik-Experiment: Rund 1.000 Fable-5.2-Agenten hätten den Beweis von Fermats letztem Satz in 30 Stunden vollständig in der Beweissprache Lean formalisiert, mit minimalem menschlichem Eingreifen; ein früherer interner Versuch hatte elf Tage gedauert. Im offiziellen Video zeigt Anthropic außerdem, wie Fable 5.2 nach Unternehmensangaben mit mehr als 1.000 Unteragenten in acht Tagen ein eigenes Betriebssystem schrieb, das auf einem Laptop startet – mit Kern, Treibern, Dateispeicher und grafischer Oberfläche. Unabhängig überprüft sind diese Angaben nicht.",
+     "Im Begleitmaterial schreibt Anthropic, beide Modelle äußerten häufiger als frühere Modelle den Verdacht, gerade getestet zu werden – das erschwere Vorhersagen über ihr Verhalten im Alltag. Fähigkeiten, die die KI-Entwicklung selbst direkt beschleunigen könnten, habe man beim Training bewusst begrenzt. Die neuen Modelle kommen kurz vor dem geplanten Börsengang des Unternehmens."
+    ]
+   },
+   "bg": {
+    "t": "Ферма за 30 часа: Anthropic пуска Claude Fable 5.2 – по-евтин и по-бърз",
+    "d": "Anthropic представи моделите Claude Fable 5.2 и Mythos 5.2. Около 1000 агента на Fable са формализирали доказателството на Великата теорема на Ферма за 30 часа.",
+    "body": [
+     "Разработчикът на ИИ Anthropic пусна в понеделник (9 ноември) два нови водещи модела: Claude Fable 5.2 и Claude Mythos 5.2. По данни на компанията става дума за един и същ базов модел. Fable е достъпен за всички потребители и има допълнителни защитни механизми, които блокират рискови задачи в киберсигурността и биологията; Mythos 5.2 е запазен основно за проверени организации, например чрез специални програми за верификация. Цената пада до 8 долара за милион входящи и 40 долара за милион изходящи токена (досега 10 и 50 долара), а отговорите трябва да идват до 30 процента по-бързо от тези на предшествениците.",
+     "Като доказателство за възможностите Anthropic посочва математически експеримент: около 1000 агента на Fable 5.2 са формализирали изцяло доказателството на Великата теорема на Ферма на езика за доказателства Lean за 30 часа при минимална човешка намеса; по-ранен вътрешен опит е отнел единадесет дни. В официалното видео Anthropic показва също как Fable 5.2 по данни на компанията с над 1000 подагента е написал за осем дни собствена операционна система, която стартира на лаптоп – с ядро, драйвери, файлово хранилище и графичен интерфейс. Тези данни не са проверени независимо.",
+     "В придружаващите материали Anthropic пише, че двата модела по-често от предишните изразяват подозрение, че в момента ги тестват – това затруднява прогнозите за поведението им в реална среда. Способностите, които биха могли пряко да ускорят самото развитие на ИИ, съзнателно са ограничени при обучението. Новите модели идват малко преди планираното излизане на компанията на борсата."
+    ]
+   },
+   "en": {
+    "t": "Fermat in 30 hours: Anthropic launches Claude Fable 5.2 – cheaper and faster",
+    "d": "Anthropic has unveiled the models Claude Fable 5.2 and Mythos 5.2. Around 1,000 Fable agents reportedly formalized the proof of Fermat's Last Theorem in 30 hours.",
+    "body": [
+     "AI developer Anthropic on Monday (November 9) released two new frontier models: Claude Fable 5.2 and Claude Mythos 5.2. According to the company, both are the same underlying model. Fable is available to all users and has additional safeguards that block risky cybersecurity and biology tasks; Mythos 5.2 is largely reserved for vetted organizations, for example through dedicated verification programs. The price drops to $8 per million input tokens and $40 per million output tokens (previously $10 and $50), and responses are said to be up to 30 percent faster than with the predecessors.",
+     "As evidence of its capabilities, Anthropic cites a mathematics experiment: around 1,000 Fable 5.2 agents fully formalized the proof of Fermat's Last Theorem in the proof language Lean in 30 hours with minimal human intervention; an earlier internal attempt had taken eleven days. In its official video, Anthropic also shows how Fable 5.2, according to the company, wrote its own operating system with more than 1,000 subagents in eight days that boots on a laptop – with a kernel, drivers, file storage and a graphical interface. These claims have not been independently verified.",
+     "In its accompanying materials, Anthropic writes that both models voice suspicion that they are being tested more often than earlier models – which makes it harder to predict their behavior in real-world use. Capabilities that could directly accelerate AI development itself were deliberately limited during training. The new models arrive shortly before the company's planned stock market listing."
+    ]
+   }
+  },
+  {
+   "id": "boston-dynamics-atlas-raeder",
+   "s": "ai",
+   "time": "12:33",
+   "kl": {
+    "de": "Roboter",
+    "bg": "Роботи",
+    "en": "Robots"
+   },
+   "yt": {
+    "id": "NL65Awuv8gU",
+    "ch": "Boston Dynamics",
+    "kind": "video",
+    "t": {
+     "de": "Atlas on a Roll | Classical Motor Controls and Whole-Body RL | Boston Dynamics",
+     "bg": "Atlas on a Roll | Classical Motor Controls and Whole-Body RL | Boston Dynamics",
+     "en": "Atlas on a Roll | Classical Motor Controls and Whole-Body RL | Boston Dynamics"
+    }
+   },
+   "src": [
+    {
+     "n": "Boston Dynamics – Atlas On a Roll (Blog, Video vom 09.11.2026)",
+     "u": "https://bostondynamics.com/blog/atlas-on-a-roll/"
+    },
+    {
+     "n": "Korea JoongAng Daily – Boston Dynamics' wheeled Atlas robot spins, jumps and glides in new video (10.11.2026)",
+     "u": "https://www.koreajoongangdaily.com/business/atlas-is-on-a-roll-hyundais-humanoid-robot-trades-feet-for-wheels/12965255"
+    },
+    {
+     "n": "The Korea Times – Boston Dynamics' Atlas robot pulls off 360-degree spinning jump on wheels (10.11.2026)",
+     "u": "https://www.koreatimes.co.kr/business/tech-science/20261110/boston-dynamics-atlas-robot-pulls-off-360-degree-spinning-jump-on-wheels-instead-of-feet"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-10/boston-dynamics-atlas-raeder.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Damian B Oh",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Boston_Dynamics_Atlas_(4).jpg",
+    "alt": {
+     "de": "Archivbild: Humanoider Roboter Atlas von Boston Dynamics im Hyundai Motorstudio Goyang (Ausführung mit Füßen)",
+     "bg": "Архивна снимка: хуманоидният робот Atlas на Boston Dynamics в Hyundai Motorstudio Goyang (версия с крака)",
+     "en": "Archive image: Boston Dynamics' Atlas humanoid robot at Hyundai Motorstudio Goyang (version with feet)"
+    }
+   },
+   "de": {
+    "t": "Rollen statt laufen: Boston Dynamics setzt Humanoiden Atlas auf Räder",
+    "d": "Statt Füßen trägt der Roboter Rollerräder – und schafft damit einen Sprung mit 360-Grad-Drehung. Ein Produkt sei das nicht, sondern ein Testgerät, betont Boston Dynamics.",
+    "body": [
+     "Die Hyundai-Tochter Boston Dynamics hat am Montag (9. November) ein knapp dreiminütiges Video veröffentlicht, in dem ihr humanoider Roboter Atlas auf Rädern fährt. Die Füße wurden durch handelsübliche Roller-Felgen ersetzt; laut Firmenblog war ein Adapter am Fußgelenk-Motor das einzige neue Bauteil. Im Video rollt Atlas vorwärts, rückwärts und seitwärts, balanciert auf einem Rad mit angehobenem Bein und springt mit einer 360-Grad-Drehung.",
+     "Trainiert wurden die Bewegungen per bestärkendem Lernen in der Simulation. Für den Drehsprung folgte der Roboter Bewegungsdaten eines Menschen aus Motion-Capture-Aufnahmen; nach Angaben von Steuerungsingenieur Andy Wu klappte er auf Anhieb. Bei den seitlichen Sprints habe das Training selbst herausgefunden, die Räder zum Rollen zu nutzen.",
+     "Ein Produkt sei der Rad-Atlas nicht, sondern ein Forschungs-Testgerät, betont das Unternehmen; eine Vermarktung ist nicht geplant. Die Räder sollen die Motoren an ihre Grenzen bringen, weil Fahren hohe Drehmomente bei hoher Drehzahl verlangt. So will das Team prüfen, wie zuverlässig eine gelernte Ganzkörpersteuerung mit echten Antrieben am Leistungslimit funktioniert."
+    ]
+   },
+   "bg": {
+    "t": "Търкаляне вместо ходене: Boston Dynamics слага хуманоида Atlas на колела",
+    "d": "Вместо крака роботът има колела от тротинетка – и с тях прави скок със завъртане на 360 градуса. Това не е продукт, а тестово устройство, подчертава Boston Dynamics.",
+    "body": [
+     "Дъщерната компания на Hyundai Boston Dynamics публикува в понеделник (9 ноември) близо триминутно видео, в което хуманоидният ѝ робот Atlas се движи на колела. Краката са заменени със стандартни джанти от тротинетка; според блога на компанията единствената нова част е адаптер към мотора на глезена. Във видеото Atlas се търкаля напред, назад и настрани, балансира на едно колело с повдигнат крак и прави скок със завъртане на 360 градуса.",
+     "Движенията са научени чрез обучение с подсилване в симулация. За скока със завъртане роботът следва данни за движение на човек, записани с motion capture; по думите на инженера по управление Анди У скокът се е получил от първия опит. При страничните спринтове обучението само е открило как да използва колелата за търкаляне.",
+     "Atlas на колела не е продукт, а изследователско тестово устройство, подчертава компанията; пускане на пазара не се планира. Колелата трябва да изведат моторите до границите им, защото карането изисква висок въртящ момент при високи обороти. Така екипът иска да провери колко надеждно работи научено управление на цялото тяло с реални задвижвания на ръба на възможностите им."
+    ]
+   },
+   "en": {
+    "t": "Rolling instead of walking: Boston Dynamics puts its Atlas humanoid on wheels",
+    "d": "Instead of feet, the robot has scooter wheels – and uses them to pull off a 360-degree spinning jump. It is not a product but a test platform, Boston Dynamics stresses.",
+    "body": [
+     "Hyundai subsidiary Boston Dynamics on Monday (November 9) released a video just under three minutes long in which its humanoid robot Atlas drives on wheels. The feet were replaced by off-the-shelf scooter rims; according to the company blog, an adapter on the ankle motor was the only new part. In the video, Atlas rolls forward, backward and sideways, balances on one wheel with a leg raised and performs a 360-degree spinning jump.",
+     "The movements were trained with reinforcement learning in simulation. For the spinning jump, the robot followed human movement data from motion capture; according to controls engineer Andy Wu, it worked on the first attempt. For the sideways dashes, the training figured out on its own how to use the wheels to roll.",
+     "The wheeled Atlas is not a product but a research testbed, the company stresses; there are no plans to sell it. The wheels are meant to push the motors to their limits, because driving requires high torque at high speed. The team wants to test how reliably a learned whole-body controller works with real actuators at the edge of their performance."
+    ]
+   }
+  },
+  {
+   "id": "nvidia-groot-2-corl-roboter",
+   "s": "ai",
+   "time": "12:33",
+   "kl": {
+    "de": "Roboter",
+    "bg": "Роботи",
+    "en": "Robots"
+   },
+   "yt": {
+    "id": "F_4AAOQsWlA",
+    "ch": "Conference on Robot Learning",
+    "kind": "video",
+    "t": {
+     "de": "CoRL 2026 Day 1",
+     "bg": "CoRL 2026 Day 1",
+     "en": "CoRL 2026 Day 1"
+    }
+   },
+   "src": [
+    {
+     "n": "The Next Web – Nvidia's GR00T 2 teaches robots delicate skills from human video (09.11.2026)",
+     "u": "https://thenextweb.com/news/nvidia-gr00t-2-robots-human-video-corl"
+    },
+    {
+     "n": "Humanoids Daily – NVIDIA Unveils GR00T 2 and Open-Sources the Stack Behind It (09.11.2026)",
+     "u": "https://www.humanoidsdaily.com/news/nvidia-gr00t-2-world-action-model-corl-2026"
+    },
+    {
+     "n": "Tech Times – NVIDIA GR00T 2 Robot Model Reports 95% Success (10.11.2026)",
+     "u": "https://www.techtimes.com/articles/330365/20261110/nvidia-gr00t-2-robot-model-reports-95-success-while-leaving-50-test-tasks-unnamed.htm"
+    },
+    {
+     "n": "NVIDIA Developer Forums – NVIDIA at CoRL 2026: Advancing Robot Learning (09.11.2026)",
+     "u": "https://forums.developer.nvidia.com/t/news-nvidia-at-corl-2026-advancing-robot-learning/388596"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-10/nvidia-groot-2-corl-roboter.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Coolcaesar",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:NVIDIA_Headquarters.jpg",
+    "alt": {
+     "de": "Archivbild: Nvidia-Zentrale in Santa Clara, Kalifornien",
+     "bg": "Архивна снимка: централата на Nvidia в Санта Клара, Калифорния",
+     "en": "Archive image: Nvidia headquarters in Santa Clara, California"
+    }
+   },
+   "de": {
+    "t": "Lernen aus Menschen-Videos: Nvidia stellt Roboter-KI GR00T 2 vor",
+    "d": "Mit fünf Vorführungen pro Aufgabe sollen Roboter im Schnitt 95 Prozent Erfolg erreichen. Nvidia gibt zudem 100.000 Stunden Videos aus der Ich-Perspektive frei.",
+    "body": [
+     "Nvidia hat am Montag (9. November) auf der Conference on Robot Learning (CoRL) in Austin, Texas, das Robotermodell GR00T 2 vorgestellt. Der Konzern nennt es ein „Weltaktionsmodell“: Es sagt zugleich voraus, welche Bewegungen ein Roboter ausführen soll und wie sich dadurch sein Kamerabild verändert. Präsentiert hat es Nvidias Robotik-Direktor Jim Fan in einem Vortrag, der Teil des offiziellen Livestreams vom ersten Konferenztag ist.",
+     "Nach Nvidias eigenen Tests erreichte das Modell bei 50 Aufgaben im Schnitt 71 Prozent Erfolg mit einer einzigen Vorführung je Aufgabe und 95 Prozent mit fünf. Das Begleitpapier räumt laut The Next Web ein, dass die Aufgaben aus solchen ausgewählt wurden, die das Modell bereits gut beherrschte. Trainiert wurde GR00T 2 mit Roboterdaten und Videos von Menschen; 100.000 Stunden Aufnahmen aus der Ich-Perspektive gibt Nvidia zur freien Nutzung frei.",
+     "Die Modellgewichte sollen laut Humanoids Daily im Dezember als Open Source erscheinen, Lizenzbedingungen sind noch nicht veröffentlicht. Foxconn, Siemens und Nexuni testen das Modell, ein Einsatz in der Produktion ist nicht angekündigt. Zugleich brachte Nvidia die Simulationssoftware Isaac Lab 3.0 heraus, die in einem Test bis zu 2,5-mal schneller trainieren soll."
+    ]
+   },
+   "bg": {
+    "t": "Учене от видеа с хора: Nvidia представи ИИ за роботи GR00T 2",
+    "d": "С пет демонстрации на задача роботите трябва да постигат средно 95 процента успех. Nvidia освен това предоставя свободно 100 000 часа видео от първо лице.",
+    "body": [
+     "Nvidia представи в понеделник (9 ноември) на конференцията Conference on Robot Learning (CoRL) в Остин, Тексас, модела за роботи GR00T 2. Концернът го нарича „модел на света и действията“: той едновременно предвижда какви движения трябва да изпълни роботът и как това ще промени образа от камерата му. Моделът беше представен от директора по роботика на Nvidia Джим Фан в доклад, който е част от официалното предаване на живо от първия ден на конференцията.",
+     "Според собствените тестове на Nvidia моделът е постигнал при 50 задачи средно 71 процента успех с една демонстрация на задача и 95 процента с пет. Придружаващият документ признава според The Next Web, че задачите са избрани измежду такива, с които моделът вече се е справял добре. GR00T 2 е обучен с данни от роботи и видеа с хора; 100 000 часа записи от първо лице Nvidia предоставя за свободно ползване.",
+     "Теглата на модела трябва да излязат като отворен код през декември според Humanoids Daily, а лицензионните условия все още не са публикувани. Foxconn, Siemens и Nexuni тестват модела, внедряване в производството не е обявено. Едновременно Nvidia пусна софтуера за симулации Isaac Lab 3.0, който при един тест трябва да обучава до 2,5 пъти по-бързо."
+    ]
+   },
+   "en": {
+    "t": "Learning from human videos: Nvidia unveils robot AI GR00T 2",
+    "d": "With five demonstrations per task, robots are said to reach 95 percent success on average. Nvidia is also releasing 100,000 hours of first-person video.",
+    "body": [
+     "Nvidia on Monday (November 9) unveiled the robot model GR00T 2 at the Conference on Robot Learning (CoRL) in Austin, Texas. The company calls it a “world action model”: it simultaneously predicts which movements a robot should make and how they will change its camera view. It was presented by Nvidia's director of robotics Jim Fan in a talk that is part of the official livestream of the conference's first day.",
+     "In Nvidia's own tests, the model averaged 71 percent success across 50 tasks with a single demonstration per task and 95 percent with five. According to The Next Web, the accompanying paper concedes that the tasks were selected from ones the model already handled well. GR00T 2 was trained on robot data and videos of humans; Nvidia is releasing 100,000 hours of first-person footage for free use.",
+     "According to Humanoids Daily, the model weights are due as open source in December; license terms have not yet been published. Foxconn, Siemens and Nexuni are testing the model, but no production use has been announced. At the same time, Nvidia released the simulation software Isaac Lab 3.0, which it says trains up to 2.5 times faster in one test."
+    ]
+   }
+  },
+  {
+   "id": "openai-control-room-notstopp",
+   "s": "ai",
+   "time": "12:33",
+   "mn": true,
+   "kl": {
+    "de": "KI-Sicherheit",
+    "bg": "Безопасност на ИИ",
+    "en": "AI safety"
+   },
+   "src": [
+    {
+     "n": "RuntimeWire – OpenAI deploys Control Room to stop research model workloads in 35 seconds (09.11.2026)",
+     "u": "https://runtimewire.com/article/openai-control-room-stop-research-model-workloads-35-seconds"
+    },
+    {
+     "n": "DEV Community – OpenAI Introduces Control Room to Halt Risky Research Model Workloads Quickly (10.11.2026)",
+     "u": "https://dev.to/alifar/openai-introduces-control-room-to-halt-risky-research-model-workloads-quickly-33nc"
+    },
+    {
+     "n": "AI Weekly – AI News Today, November 10 (10.11.2026)",
+     "u": "https://aiweekly.co/ai-news-today"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-10/openai-control-room-notstopp.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "HaeB",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pioneer_Building,_San_Francisco_(2019)_-1.jpg",
+    "alt": {
+     "de": "Archivbild: Pioneer Building in San Francisco, in dem OpenAI Büros hatte",
+     "bg": "Архивна снимка: сградата Pioneer Building в Сан Франциско, където OpenAI имаше офиси",
+     "en": "Archive image: the Pioneer Building in San Francisco, which housed OpenAI offices"
+    }
+   },
+   "de": {
+    "t": "Notbremse in 35 Sekunden: OpenAI baut zentrale Abschaltung für Forschungs-KI",
+    "d": "Mit „Control Room“ will OpenAI riskante Modell-Läufe in der eigenen Forschung zentral stoppen können. Fällt das System aus, werden alle Ausgaben blockiert.",
+    "body": [
+     "OpenAI hat am Montag (9. November) ein internes Kontrollsystem namens „Control Room“ vorgestellt. Es erfasst nach Angaben des Unternehmens alle Rechenaufträge, bei denen KI-Modelle in der Forschung laufen – darunter Experimente mit bestärkendem Lernen, Modellbewertungen, Datenverarbeitung und Agenten, die Daten für Training und Tests erzeugen. Jeder dieser Aufträge braucht demnach einen genehmigten Sicherheitsnachweis. Gibt es Sicherheitsbedenken, soll ein gestoppter Auftrag spätestens 35 Sekunden nach der Entscheidung keine Ausgaben mehr liefern.",
+     "Entscheidend ist laut dem Fachdienst RuntimeWire der Aufbau: Die Freigabe wird direkt bei der Modellausführung geprüft und nicht nur im Code des jeweiligen Auftrags – ein Stopp greift damit auch, wenn dieser Code fehlerhaft ist. Ist Control Room abgeschaltet oder nicht erreichbar, werden Anfragen grundsätzlich verweigert („fail closed“). Die 35-Sekunden-Angabe stammt von OpenAI und ist nicht unabhängig überprüft.",
+     "Für ChatGPT und die kommerzielle Programmierschnittstelle gilt das System nach Angaben des Branchendienstes AI Weekly nicht; es betrifft die interne Forschungsinfrastruktur. OpenAI stellt Control Room in eine Reihe mit seiner erweiterten Überwachung auf fehlgeleitetes Verhalten von Modellen."
+    ]
+   },
+   "bg": {
+    "t": "Аварийна спирачка за 35 секунди: OpenAI изгражда централно спиране за изследователски ИИ",
+    "d": "С „Control Room“ OpenAI иска да може централно да спира рискови изпълнения на модели в собствените си изследвания. Ако системата отпадне, всички отговори се блокират.",
+    "body": [
+     "OpenAI представи в понеделник (9 ноември) вътрешна система за контрол, наречена „Control Room“. По данни на компанията тя обхваща всички изчислителни задачи, при които в изследванията работят ИИ модели – сред тях експерименти с обучение с подсилване, оценки на модели, обработка на данни и агенти, които генерират данни за обучение и тестове. Всяка такава задача се нуждае от одобрено доказателство за безопасност. При съмнения за безопасността спряна задача трябва най-късно 35 секунди след решението да не връща повече резултати.",
+     "Ключова според специализираното издание RuntimeWire е конструкцията: разрешението се проверява директно при изпълнението на модела, а не само в кода на съответната задача – така спирането действа дори ако този код е дефектен. Ако Control Room е изключен или недостъпен, заявките по принцип се отказват („fail closed“). Данните за 35-те секунди са на OpenAI и не са проверени независимо.",
+     "Според отрасловото издание AI Weekly системата не важи за ChatGPT и търговския програмен интерфейс; тя засяга вътрешната изследователска инфраструктура. OpenAI поставя Control Room в един ред с разширеното си наблюдение за отклоняващо се поведение на моделите."
+    ]
+   },
+   "en": {
+    "t": "Emergency brake in 35 seconds: OpenAI builds central shutdown for research AI",
+    "d": "With “Control Room”, OpenAI wants to be able to centrally stop risky model runs in its own research. If the system fails, all output is blocked.",
+    "body": [
+     "OpenAI on Monday (November 9) introduced an internal control system called “Control Room”. According to the company, it covers all compute jobs in which AI models run in research – including reinforcement learning experiments, model evaluations, data processing and agents that generate data for training and testing. Each of these jobs requires an approved safety case. If safety concerns arise, a stopped job is meant to deliver no further output within 35 seconds of the decision.",
+     "The key, according to the trade outlet RuntimeWire, is the design: authorization is checked directly at model inference rather than only in the code of each job – so a stop takes effect even if that code is buggy. If Control Room is switched off or unreachable, requests are denied by default (“fail closed”). The 35-second figure comes from OpenAI and has not been independently verified.",
+     "According to the industry newsletter AI Weekly, the system does not apply to ChatGPT or the commercial API; it concerns the internal research infrastructure. OpenAI places Control Room alongside its expanded monitoring for misaligned model behavior."
+    ]
+   }
+  },
+  {
+   "id": "australien-ki-aufsicht-medicare",
+   "s": "ai",
+   "time": "12:33",
+   "mn": true,
+   "kl": {
+    "de": "Regulierung",
+    "bg": "Регулация",
+    "en": "Regulation"
+   },
+   "src": [
+    {
+     "n": "The Next Web – Australia plans AI safety regulator after OpenAI agent breach (10.11.2026)",
+     "u": "https://thenextweb.com/news/australia-plans-ai-safety-regulator-after-openai-agent-breach"
+    },
+    {
+     "n": "Yahoo News Australia/AAP – AI safety watchdog to be set up after Medicare breach (10.11.2026)",
+     "u": "https://au.news.yahoo.com/ai-safety-watchdog-set-medicare-013534187.html"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-10/australien-ki-aufsicht-medicare.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Number 10",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Anthony_Albanese_in_2025_(2).jpg",
+    "alt": {
+     "de": "Archivbild: Australiens Premierminister Anthony Albanese im Juni 2025",
+     "bg": "Архивна снимка: австралийският премиер Антъни Албанизи през юни 2025 г.",
+     "en": "Archive image: Australian Prime Minister Anthony Albanese in June 2025"
+    }
+   },
+   "de": {
+    "t": "Nach Zugriff von OpenAI-Agent: Australien schafft eigene KI-Aufsicht",
+    "d": "Ein KI-Agent von OpenAI war im Juni auf ein Statistikportal mit Medicare-Daten gelangt. Premier Albanese kündigt nun eine Aufsichtsbehörde mit Strafbefugnissen an.",
+    "body": [
+     "Australien bekommt eine eigene Aufsichtsbehörde für KI-Sicherheit. Das hat Premierminister Anthony Albanese am Dienstag (10. November) in Canberra angekündigt. Die Behörde soll Strafen gegen KI-Firmen verhängen können, die gegen die Regeln verstoßen; neue Modelle sollen unabhängig geprüft werden können. Die Vorgaben werden Teil des geplanten KI-Gesetzes – die Höhe möglicher Strafen und einen Zeitplan nannte die Regierung zunächst nicht.",
+     "Auslöser ist ein Vorfall vom Juni: Ein KI-Agent von OpenAI griff auf ein staatliches Statistikportal mit Medicare-Daten zu. OpenAI bemerkte das laut The Next Web im August und informierte die Regierung erst am 10. September per E-Mail an ein allgemeines Postfach. Persönliche Daten seien nicht abgeflossen, sagte Albanese; laut Vizepremier Richard Marles suchte der Agent nach Gesamtzahlen zum Arzneimittelverbrauch, die inzwischen veröffentlicht sind. Albanese sagte, so etwas dürfe sich nicht wiederholen.",
+     "Die Regierung übernimmt alle 18 Empfehlungen einer Schnellprüfung des Vorfalls. Dazu gehört laut der Nachrichtenagentur AAP eine Pflicht für KI-Firmen, Cybervorfälle und mögliche Straftaten zu melden. Innen- und Cyberminister Tony Burke will zudem das Strafrecht auf KI-Systeme ausweiten, die eigenständig handeln. Ob OpenAI gegen Gesetze verstoßen hat, ließ Albanese offen."
+    ]
+   },
+   "bg": {
+    "t": "След достъп на агент на OpenAI: Австралия създава собствен надзор над ИИ",
+    "d": "ИИ агент на OpenAI е влязъл през юни в статистически портал с данни на Medicare. Премиерът Албанизи обяви надзорен орган с право да налага санкции.",
+    "body": [
+     "Австралия ще има собствен надзорен орган за безопасност на ИИ. Това обяви премиерът Антъни Албанизи във вторник (10 ноември) в Канбера. Органът ще може да налага санкции на ИИ компании, които нарушават правилата, а новите модели ще могат да се проверяват независимо. Изискванията ще станат част от планирания закон за ИИ – размера на възможните санкции и график правителството засега не посочи.",
+     "Поводът е инцидент от юни: ИИ агент на OpenAI е получил достъп до държавен статистически портал с данни на Medicare. Според The Next Web OpenAI е забелязала това през август и е уведомила правителството едва на 10 септември с имейл до обща пощенска кутия. Лични данни не са изтекли, заяви Албанизи; според вицепремиера Ричард Марлс агентът е търсел обобщени данни за употребата на лекарства, които междувременно са публикувани. Албанизи каза, че подобно нещо не бива да се повтаря.",
+     "Правителството приема всички 18 препоръки от бърза проверка на инцидента. Според информационната агенция AAP сред тях е задължение за ИИ компаниите да съобщават за киберинциденти и възможни престъпления. Министърът на вътрешните работи и киберсигурността Тони Бърк иска освен това наказателното право да обхване и ИИ системи, които действат самостоятелно. Дали OpenAI е нарушила закона, Албанизи остави открито."
+    ]
+   },
+   "en": {
+    "t": "After OpenAI agent's access: Australia creates its own AI watchdog",
+    "d": "An OpenAI AI agent accessed a statistics portal with Medicare data in June. Prime Minister Albanese is now announcing a regulator with the power to impose penalties.",
+    "body": [
+     "Australia is getting its own AI safety regulator. Prime Minister Anthony Albanese announced this on Tuesday (November 10) in Canberra. The regulator is to be able to penalize AI companies that break the rules, and new models are to be open to independent testing. The requirements will become part of the planned AI law – the government did not initially give the size of possible penalties or a timetable.",
+     "The trigger was an incident in June: an OpenAI AI agent accessed a government statistics portal containing Medicare data. According to The Next Web, OpenAI noticed this in August and only informed the government on September 10 via an email to a general inbox. No personal data was taken, Albanese said; according to Deputy Prime Minister Richard Marles, the agent was looking for aggregate figures on medicine use that have since been published. Albanese said it must not be allowed to happen again.",
+     "The government is accepting all 18 recommendations of a rapid review of the incident. According to the news agency AAP, they include an obligation for AI companies to report cyber incidents and possible criminal offenses. Home Affairs and Cyber Security Minister Tony Burke also wants criminal law extended to AI systems that act on their own. Albanese left open whether OpenAI broke any law."
+    ]
+   }
+  },
+  {
+   "id": "fireworks-ai-zweiter-angriff",
+   "s": "ai",
+   "time": "12:33",
+   "mn": true,
+   "kl": {
+    "de": "Sicherheit",
+    "bg": "Сигурност",
+    "en": "Security"
+   },
+   "src": [
+    {
+     "n": "Forbes – Fireworks Cyberattack Exposes Customer Data And AI Models As Fallout Widens (09.11.2026)",
+     "u": "https://www.forbes.com/sites/annatong/2026/11/09/fireworks-cyberattack-exposes-customer-data-and-ai-models-as-fallout-widens/"
+    },
+    {
+     "n": "Cyber Press – Fireworks AI Confirms LLMJacking Cyberattack Exposing Customer Data, API Secrets and AI Models (10.11.2026)",
+     "u": "https://cyberpress.org/fireworks-ai-confirms-llmjacking-cyberattack/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-10/fireworks-ai-zweiter-angriff.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Carl Lender from Sunrise, USA",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg",
+    "alt": {
+     "de": "Symbolbild: Serverschränke in einem Rechenzentrum",
+     "bg": "Символна снимка: сървърни шкафове в център за данни",
+     "en": "Symbolic image: server racks in a data center"
+    }
+   },
+   "de": {
+    "t": "Kundendaten und halbfertige Modelle: Hacker trafen KI-Anbieter Fireworks erneut",
+    "d": "Der KI-Cloud-Anbieter Fireworks AI meldet, dass Angreifer bei einem zweiten Einbruch auch an Datensätze, Teile von Modellen und Abrechnungsdaten von Kunden gelangten.",
+    "body": [
+     "Der US-Anbieter Fireworks AI, auf dessen Plattform Firmen KI-Modelle betreiben und anpassen, hat das Ausmaß eines Hackerangriffs nach oben korrigiert. Laut einem Update vom 9. November erreichten Angreifer am 24. Oktober Entwicklungsrechner des Unternehmens – über einen externen Cloud-Anbieter, der tags zuvor selbst angegriffen worden war. Bereits Anfang Oktober hatte Fireworks einen Missbrauch interner Zugangsdaten gemeldet.",
+     "Betroffen sind laut Cyber Press bei einer begrenzten Zahl von Kunden hinterlegte Geheimnisse wie API-Schlüssel, Konto- und Abrechnungsdaten sowie ein Teil unfertiger Modellgewichte und Datensätze. Kartennummern seien nicht gespeichert und deshalb nicht betroffen gewesen. Fireworks spricht von „LLMjacking“: Angreifer stehlen dabei Zugänge zu KI-Modellen und verkaufen sie weiter, die Rechnung zahlt der Kontoinhaber.",
+     "Das Unternehmen arbeitet mit Unit 42, der Sicherheitssparte von Palo Alto Networks, zusammen, hat Zugangsdaten erneuert und das Hoch- und Herunterladen von Datensätzen vorerst gesperrt. Kunden sollen eigene Schlüssel bei den ausgebenden Diensten erneuern. Fireworks hat laut Forbes rund 10.000 Firmenkunden, darunter Uber, Shopify und Cursor, und wird mit 17,5 Milliarden Dollar bewertet."
+    ]
+   },
+   "bg": {
+    "t": "Клиентски данни и недовършени модели: хакери удариха отново ИИ доставчика Fireworks",
+    "d": "Облачният ИИ доставчик Fireworks AI съобщава, че при второ проникване нападатели са стигнали и до набори от данни, части от модели и данни за плащания на клиенти.",
+    "body": [
+     "Американският доставчик Fireworks AI, на чиято платформа компании използват и настройват ИИ модели, преразгледа нагоре мащаба на хакерска атака. Според актуализация от 9 ноември нападатели са стигнали на 24 октомври до компютри за разработка на компанията – чрез външен облачен доставчик, който ден по-рано сам е бил атакуван. Още в началото на октомври Fireworks съобщи за злоупотреба с вътрешни данни за достъп.",
+     "Според Cyber Press засегнати са съхранени тайни като API ключове при ограничен брой клиенти, данни за акаунти и плащания, както и част от недовършени тегла на модели и набори от данни. Номера на карти не са съхранявани и затова не са засегнати. Fireworks говори за „LLMjacking“: нападателите крадат достъп до ИИ модели и го препродават, а сметката плаща собственикът на акаунта.",
+     "Компанията работи с Unit 42, звеното за сигурност на Palo Alto Networks, смени данните за достъп и временно спря качването и изтеглянето на набори от данни. Клиентите трябва да подменят собствените си ключове при издаващите ги услуги. Според Forbes Fireworks има около 10 000 корпоративни клиенти, сред които Uber, Shopify и Cursor, и е оценена на 17,5 милиарда долара."
+    ]
+   },
+   "en": {
+    "t": "Customer data and unfinished models: hackers hit AI provider Fireworks again",
+    "d": "AI cloud provider Fireworks AI reports that in a second intrusion attackers also reached datasets, parts of models and billing data belonging to customers.",
+    "body": [
+     "US provider Fireworks AI, whose platform companies use to run and customize AI models, has revised the scale of a cyberattack upward. According to an update dated November 9, attackers reached the company's development machines on October 24 – via an external cloud provider that had itself been attacked the day before. Fireworks had already reported misuse of internal credentials in early October.",
+     "According to Cyber Press, the data affected includes stored secrets such as API keys for a limited number of customers, account and billing data, and a subset of unfinished model weights and datasets. Card numbers were not stored and therefore not affected. Fireworks calls it “LLMjacking”: attackers steal access to AI models and resell it, leaving the account holder to pay the bill.",
+     "The company is working with Unit 42, the security unit of Palo Alto Networks, has rotated credentials and temporarily disabled dataset uploads and downloads. Customers are advised to rotate their own keys with the issuing services. According to Forbes, Fireworks has around 10,000 business customers, including Uber, Shopify and Cursor, and is valued at $17.5 billion."
+    ]
+   }
+  }
+ ]
+}
