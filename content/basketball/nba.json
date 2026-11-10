@@ -8,7 +8,7 @@
   "tr": "NBA"
  },
  "season": "2026/27",
- "asof": "2026-11-09",
+ "asof": "2026-11-10",
  "tables": [
   {
    "name": {
@@ -32,13 +32,13 @@
     },
     {
      "team": "Detroit Pistons",
-     "w": 6,
+     "w": 7,
      "l": 3
     },
     {
      "team": "Atlanta Hawks",
      "w": 7,
-     "l": 4
+     "l": 5
     },
     {
      "team": "New York Knicks",
@@ -48,12 +48,12 @@
     {
      "team": "Toronto Raptors",
      "w": 5,
-     "l": 4
+     "l": 5
     },
     {
      "team": "Cleveland Cavaliers",
      "w": 5,
-     "l": 5
+     "l": 6
     },
     {
      "team": "Miami Heat",
@@ -61,19 +61,19 @@
      "l": 6
     },
     {
-     "team": "Washington Wizards",
+     "team": "Charlotte Hornets",
      "w": 4,
-     "l": 6
+     "l": 7
     },
     {
-     "team": "Charlotte Hornets",
-     "w": 3,
+     "team": "Washington Wizards",
+     "w": 4,
      "l": 7
     },
     {
      "team": "Indiana Pacers",
      "w": 3,
-     "l": 7
+     "l": 8
     },
     {
      "team": "Orlando Magic",
@@ -109,6 +109,11 @@
    "rows": [
     {
      "team": "Los Angeles Lakers",
+     "w": 10,
+     "l": 2
+    },
+    {
+     "team": "San Antonio Spurs",
      "w": 9,
      "l": 2
     },
@@ -118,9 +123,9 @@
      "l": 2
     },
     {
-     "team": "San Antonio Spurs",
+     "team": "Golden State Warriors",
      "w": 8,
-     "l": 2
+     "l": 3
     },
     {
      "team": "Minnesota Timberwolves",
@@ -128,18 +133,13 @@
      "l": 3
     },
     {
-     "team": "Golden State Warriors",
-     "w": 7,
-     "l": 3
-    },
-    {
      "team": "Houston Rockets",
-     "w": 7,
+     "w": 8,
      "l": 3
     },
     {
      "team": "Memphis Grizzlies",
-     "w": 6,
+     "w": 7,
      "l": 3
     },
     {
@@ -148,24 +148,24 @@
      "l": 3
     },
     {
-     "team": "Denver Nuggets",
-     "w": 5,
-     "l": 3
+     "team": "Dallas Mavericks",
+     "w": 7,
+     "l": 4
     },
     {
-     "team": "Dallas Mavericks",
-     "w": 6,
+     "team": "Denver Nuggets",
+     "w": 5,
      "l": 4
     },
     {
      "team": "New Orleans Pelicans",
      "w": 4,
-     "l": 6
+     "l": 7
     },
     {
      "team": "Phoenix Suns",
      "w": 3,
-     "l": 5
+     "l": 6
     },
     {
      "team": "LA Clippers",
@@ -186,60 +186,6 @@
   }
  ],
  "matches": [
-  {
-   "t1": "Golden State Warriors",
-   "t2": "Orlando Magic",
-   "date": "2026-11-08",
-   "ft": [
-    126,
-    119
-   ]
-  },
-  {
-   "t1": "Phoenix Suns",
-   "t2": "Houston Rockets",
-   "date": "2026-11-08",
-   "ft": [
-    102,
-    99
-   ]
-  },
-  {
-   "t1": "Portland Trail Blazers",
-   "t2": "San Antonio Spurs",
-   "date": "2026-11-08",
-   "ft": [
-    103,
-    125
-   ]
-  },
-  {
-   "t1": "Chicago Bulls",
-   "t2": "Philadelphia 76ers",
-   "date": "2026-11-08",
-   "ft": [
-    121,
-    127
-   ]
-  },
-  {
-   "t1": "Detroit Pistons",
-   "t2": "Los Angeles Lakers",
-   "date": "2026-11-09",
-   "ft": [
-    116,
-    121
-   ]
-  },
-  {
-   "t1": "Minnesota Timberwolves",
-   "t2": "Utah Jazz",
-   "date": "2026-11-09",
-   "ft": [
-    115,
-    100
-   ]
-  },
   {
    "t1": "Dallas Mavericks",
    "t2": "Brooklyn Nets",
@@ -280,31 +226,73 @@
    "t1": "Atlanta Hawks",
    "t2": "Los Angeles Lakers",
    "date": "2026-11-10",
-   "time": "01:00"
+   "ft": [
+    114,
+    124
+   ]
   },
   {
    "t1": "Charlotte Hornets",
    "t2": "Cleveland Cavaliers",
    "date": "2026-11-10",
-   "time": "01:00"
+   "ft": [
+    124,
+    112
+   ]
   },
   {
    "t1": "Detroit Pistons",
    "t2": "Washington Wizards",
    "date": "2026-11-10",
-   "time": "01:00"
+   "ft": [
+    122,
+    111
+   ]
   },
   {
    "t1": "Toronto Raptors",
    "t2": "Memphis Grizzlies",
    "date": "2026-11-10",
-   "time": "01:30"
+   "ft": [
+    102,
+    118
+   ]
   },
   {
    "t1": "Dallas Mavericks",
    "t2": "Indiana Pacers",
    "date": "2026-11-10",
-   "time": "02:00"
+   "ft": [
+    125,
+    122
+   ]
+  },
+  {
+   "t1": "Houston Rockets",
+   "t2": "Denver Nuggets",
+   "date": "2026-11-10",
+   "ft": [
+    110,
+    100
+   ]
+  },
+  {
+   "t1": "Phoenix Suns",
+   "t2": "San Antonio Spurs",
+   "date": "2026-11-10",
+   "ft": [
+    96,
+    122
+   ]
+  },
+  {
+   "t1": "Golden State Warriors",
+   "t2": "New Orleans Pelicans",
+   "date": "2026-11-10",
+   "ft": [
+    138,
+    87
+   ]
   },
   {
    "t1": "New York Knicks",
@@ -341,36 +329,68 @@
    "t2": "Oklahoma City Thunder",
    "date": "2026-11-11",
    "time": "05:00"
+  },
+  {
+   "t1": "Indiana Pacers",
+   "t2": "Washington Wizards",
+   "date": "2026-11-12",
+   "time": "01:00"
+  },
+  {
+   "t1": "New York Knicks",
+   "t2": "Cleveland Cavaliers",
+   "date": "2026-11-12",
+   "time": "01:00"
+  },
+  {
+   "t1": "Toronto Raptors",
+   "t2": "Boston Celtics",
+   "date": "2026-11-12",
+   "time": "01:00"
+  },
+  {
+   "t1": "Chicago Bulls",
+   "t2": "San Antonio Spurs",
+   "date": "2026-11-12",
+   "time": "02:00"
+  },
+  {
+   "t1": "Milwaukee Bucks",
+   "t2": "Los Angeles Lakers",
+   "date": "2026-11-12",
+   "time": "02:00"
+  },
+  {
+   "t1": "Utah Jazz",
+   "t2": "Orlando Magic",
+   "date": "2026-11-12",
+   "time": "03:00"
   }
  ],
  "src": [
   {
-   "n": "ESPN-Datendienst – NBA-Tabelle 2026-27 (Stand nach den Spielen vom 08.11.2026 US-Zeit, abgerufen 09.11.2026)",
+   "n": "ESPN-Datendienst – NBA-Tabelle 2026-27 (Stand nach den Spielen vom 09.11.2026 US-Zeit, abgerufen 10.11.2026)",
    "u": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings"
   },
   {
-   "n": "ESPN-Datendienst – NBA-Ergebnisse 08.11.2026 US-Zeit",
-   "u": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261108"
-  },
-  {
-   "n": "ESPN – Celtics 117-97 Bucks (08.11.2026)",
-   "u": "https://www.espn.com/nba/recap?gameId=401909949"
-  },
-  {
-   "n": "NBA.com – Game Recap: Clippers 139, Pelicans 123 (08.11.2026)",
-   "u": "https://www.nba.com/watch/video/game-recap-clipper-139-pelicans-123-nov-8"
-  },
-  {
-   "n": "NBA.com – Game Recap: Heat 114, Kings 108 (08.11.2026)",
-   "u": "https://www.nba.com/watch/video/game-recap-heat-114-kings-108-nov-8"
-  },
-  {
-   "n": "CBS Sports – Austin Reaves scores 43 as Lakers hold off Pistons (08.11.2026)",
-   "u": "https://www.cbssports.com/nba/news/austin-reaves-scores-43-as-lakers-hold-off-pistons/"
-  },
-  {
-   "n": "ESPN-Datendienst – NBA-Spielplan 09.–10.11.2026 US-Zeit (Anwurfzeiten umgerechnet in MEZ)",
+   "n": "ESPN-Datendienst – NBA-Ergebnisse 09.11.2026 US-Zeit",
    "u": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261109"
+  },
+  {
+   "n": "ESPN – Mavericks 125-122 Pacers (Nov 9, 2026) Game Recap",
+   "u": "https://www.espn.com/nba/recap/_/gameId/401909956"
+  },
+  {
+   "n": "Yahoo Sports – 3 takeaways as Spurs win ninth straight behind Wemby's 40 points (09.11.2026)",
+   "u": "https://sports.yahoo.com/articles/3-takeaways-spurs-win-ninth-073439378.html"
+  },
+  {
+   "n": "ESPN-Datendienst – NBA-Spielplan 10.–11.11.2026 US-Zeit (Anwurfzeiten umgerechnet in MEZ)",
+   "u": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261110"
+  },
+  {
+   "n": "ESPN-Datendienst – NBA-Spielplan 11.11.2026 US-Zeit",
+   "u": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261111"
   }
  ],
  "img": {
