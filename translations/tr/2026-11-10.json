@@ -156,6 +156,33 @@
     "kl": "Düzenleme"
    }
   },
+  "basel-verbotene-molekuelschwingungen": {
+   "L": {
+    "body": [
+     "Moleküllerin bazı titreşimleri “yasak” sayılıyor: Kızılötesi ışık bunları, sıradan molekül titreşimlerine kıyasla milyarlarca kat daha zayıf uyarabiliyor. Basel Üniversitesi'nde Stefan Willitsch'in grubu, bu tür titreşimleri 2014'te ilk kez gözlemlemişti; ancak o zaman çok sayıda molekül aynı anda incelenmişti ve ölçüm bu molekülleri yok etmişti. Şimdi ekip, titreşimleri bir iyon kapanında tek tek pozitif yüklü azot moleküllerinde ölçmeyi başardı. Çalışma “Nature Communications” dergisinde yayımlandı.",
+     "Yöntemin adı kuantum mantık spektroskopisi: Aynı kapandaki bir kalsiyum iyonu aracı görevi görüyor ve molekülü yok etmeden onun uyarılıp uyarılmadığını ortaya koyuyor. Araştırmacılar böylece her biri defalarca ölçülen birkaç yüz tek molekülü inceleyebildi ve titreşim frekansını öncekinden yaklaşık on kat daha hassas belirledi. Ortak ilk yazar Aleksandr Shlykov, “Aynı molekülü tekrar tekrar kullanabilmemiz belirleyiciydi” dedi.",
+     "İncelenen geçişlerin bazılarının, tahminlere göre dış etkenlere neredeyse hiç tepki vermemesi bekleniyor. Willitsch, “Bu nedenle gelecekteki moleküler saatler ve kübitler için çok umut verici adaylar” dedi. Ayrıca hassas ölçümlerle, proton ile elektron arasındaki kütle oranının zaman içinde değişip değişmediği de sınanabilir."
+    ],
+    "d": "Basel Üniversitesi'ndeki araştırmacılar, ışığın güçlükle uyarabildiği tek tek azot molekül iyonlarının titreşimlerini öncekinden on kat daha hassas ve molekülü yok etmeden ölçtü.",
+    "t": "Tek tek moleküllerin “yasak” titreşimleri ölçüldü: moleküler saatler için adaylar"
+   },
+   "at": "2026-11-10T13:23Z",
+   "h": "937672afc99c",
+   "rev": [
+    "Teaser: \"molekül iyonlarının\" sentence lacks clear structure; 'öncekinden on kat daha hassas ve molekülü yok etmeden ölçtü' is slightly ambiguous but acceptable",
+    "Body 2: 'her biri defalarca ölçülmek üzere' changes meaning (each was measured repeatedly, not intended to be)",
+    "Body 2: 'ortaya koyuyor' fine; 'kapan' consistent",
+    "Body 3: 'tepki vermemesi bekleniyor' with 'tahminlere göre' is redundant but meaning kept; German 'sollen laut Vorhersage' ok"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Rutherford Appleton Laboratory'de bir vakum odasındaki Paul iyon kapanı IBEX – Basel'deki deney değil"
+   }
+  },
   "bbc-rivals-fury-joshua-doku": {
    "L": {
     "body": [
@@ -1492,6 +1519,36 @@
     "img.alt": "Lionel Messi (Arşiv fotoğrafı)"
    }
   },
+  "fireworks-ai-zweiter-angriff": {
+   "L": {
+    "body": [
+     "Platformunda şirketlerin yapay zekâ modellerini çalıştırıp uyarladığı ABD'li sağlayıcı Fireworks AI, bir hackerlar saldırısının boyutunu yukarı yönlü düzeltti. 9 Kasım tarihli bir güncellemeye göre saldırganlar 24 Ekim'de şirketin geliştirme bilgisayarlarına ulaştı; bunu, bir gün önce kendisi de saldırıya uğramış harici bir bulut sağlayıcısı üzerinden yaptı. Fireworks, Ekim ayı başında da dahili erişim bilgilerinin kötüye kullanıldığını bildirmişti.",
+     "Cyber Press'e göre sınırlı sayıda müşteride saklanan API anahtarları gibi gizli bilgiler, hesap ve faturalama verileri ile tamamlanmamış model ağırlıklarının bir bölümü ve veri setleri etkilendi. Kart numaralarının saklanmadığı, bu nedenle etkilenmediği öne sürüldü. Fireworks, “LLMjacking” terimini kullanıyor: Saldırganlar yapay zekâ modellerine erişimleri çalıp yeniden satıyor, faturayı ise hesap sahibi ödüyor.",
+     "Şirket, Palo Alto Networks'ün güvenlik birimi Unit 42 ile birlikte çalışıyor, erişim bilgilerini yeniledi ve veri setlerinin yüklenmesini ve indirilmesini şimdilik engelledi. Müşterilerin kendi anahtarlarını, anahtarları veren hizmetlerde yenilemesi isteniyor. Forbes'a göre Fireworks'ün yaklaşık 10.000 kurumsal müşterisi var; bunlar arasında Uber, Shopify ve Cursor da bulunuyor. Şirketin değeri 17,5 milyar dolar olarak hesaplanıyor."
+    ],
+    "d": "Yapay zekâ bulut sağlayıcısı Fireworks AI, ikinci saldırıda saldırganların müşterilere ait veri setlerine, model parçalarına ve faturalama verilerine de eriştiğini bildirdi.",
+    "t": "Müşteri verileri ve yarım kalmış modeller: Hackerlar yapay zekâ sağlayıcısı Fireworks'ü yeniden vurdu"
+   },
+   "at": "2026-11-10T13:23Z",
+   "flag": [
+    "Titel zu lang (101 Zeichen)"
+   ],
+   "h": "615f5400ca98",
+   "rev": [
+    "Sentence about the platform: 'platformun sahibi' (owner of the platform) is inaccurate; the German says the provider on whose platform companies run models",
+    "Indirect speech 'Kartennummern seien ... gewesen' is rendered with an impersonal 'belirtildi' without a source, so it reads as if the statement came from an unnamed party; the attribution to Cyber Pre",
+    "Valuation: 'belirleniyor' (is being determined) instead of 'değerleniyor / değerlendiriliyor' (is valued at)"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Bir veri merkezinde sunucu kabinleri",
+    "kl": "Güvenlik"
+   }
+  },
   "fury-davison-joshua-ecke": {
    "L": {
     "body": [
@@ -1705,6 +1762,33 @@
    ],
    "x": {
     "img.alt": "Tim Walter kenar çizgisinde (Arşiv fotoğrafı, 2019)"
+   }
+  },
+  "hsv-vuskovic-comeback-hajduk-2026-11-10": {
+   "L": {
+    "body": [
+     "Hamburger SV için milli maç arasında özel bir gün var: Savunmacı Mario Vuskovic'in cezası 15 Kasım Pazar günü sona eriyor. Aynı gün HSV, saat 15:00'te Volksparkstadion'da 24 yaşındaki oyuncunun memleket kulübü olan Hırvatistan ikincisi Hajduk Split'i hazırlık maçında ağırlıyor. Kulübe göre, oyuncunun forma numarasına denk gelen 44.444 satılmış bilet sınırı şimdiden aşıldı; maçı Sky canlı yayınlıyor.",
+     "Vuskovic, 2022'de EPO dopingi nedeniyle DFB Spor Mahkemesi tarafından iki yıl men edilmişti; Uluslararası Spor Tahkim Mahkemesi CAS cezayı dört yıla çıkardı, İsviçre Federal Mahkemesi'ne yapılan itiraz ise sonuçsuz kaldı. Hırvat oyuncu masumiyetini savunmayı sürdürüyor. Eylül ortasından beri yeniden takımla antrenman yapabiliyor. Cezasından önce HSV için 47 resmi maça çıkmış ve üç gol atmıştı.",
+     "Teknik direktör Merlin Polzin, “Bu hepimiz için çok özel bir an olacak” dedi. Polzin, “Tamamen gergin ve hazır. Bunu son haftalarda hissettik” diye konuştu. Vuskovic, Bundesliga'da 22 Kasım'daki Werder Bremen deplasmanlı Kuzey derbisinden itibaren yeniden forma giyebilecek."
+    ],
+    "d": "Mario Vuskovic'in dört yıllık doping cezası Pazar günü sona eriyor. Aynı gün HSV, Volksparkstadion'da 24 yaşındaki savunmacının memleket kulübü Hajduk Split'i ağırlıyor.",
+    "t": "Ceza bitiyor: Vuskovic, memleketi kulübü Hajduk'a karşı hazırlık maçında HSV'ye dönüyor"
+   },
+   "at": "2026-11-10T13:23Z",
+   "h": "72607475f030",
+   "rev": [
+    "\"Pazar günü\" in the teaser lacks the date; it is acceptable, but 'Vizemeister' was rendered as 'Hırvatistan ikincisi', which is fine",
+    "\"Er ist voll auf Spannung\" rendered as \"Çok heyecanlı\"; the sense is closer to 'he is fully geared up/eager', so the wording was adjusted",
+    "\"Nordderby\" should be lowercase 'kuzey derbisi' or kept as a proper name; left as is",
+    "\"Vizemeister\" should be 'Hırvatistan ikincisi' (OK)"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Hamburger SV'nin Volksparkstadion'unun havadan görünümü (Arşiv fotoğrafı)"
    }
   },
   "hugo-boss-vertriebsvorstand-oliver-timm-geht": {
@@ -3551,6 +3635,32 @@
     "img.alt": "Bulgaristan'daki Trakia otoyolu (Sembolik fotoğraf)"
    }
   },
+  "tum-dzm-autonomer-oepnv-video": {
+   "L": {
+    "body": [
+     "Münih Teknik Üniversitesi (TUM), Almanya Geleceğin Mobilitesi Merkezi'nin (DZM) yeni Münih merkezini yönetecek. Merkez, TUM'un verdiği bilgiye göre siyaset, sanayi, bilim ve ulaşım işletmelerinden yaklaşık 400 uzmanın katıldığı Munich Summit on Autonomous Driving'de resmen açıldı. Merkezin çekirdeğini, Federal Ulaştırma Bakanlığı'nın Ekim 2026 ile Eylül 2029 arasında en fazla 20 milyon avroyla desteklediği RISE projesi oluşturuyor.",
+     "Amaç, otonom otobüs ve servisleri düzenli toplu taşımaya hazır hale getirmek. Bunun için araçlar, kontrol merkezleri, işletme süreçleri ve dijital altyapı birlikte geliştirilecek ve test edilecek; önce Ottobrunn'daki kapalı bir alanda, ardından Münih Ulaşım Şirketi'nin iki hattında gerçek işletmede. Ortaklar arasında Münih Belediyesi, Münih Belediye Hizmetleri (Stadtwerke München), MVG, MVV, MAN Truck & Bus, Münih Federal Silahlı Kuvvetler Üniversitesi ve LMU yer alıyor.",
+     "“Otonom sürüş, toplu taşımamızın cazibesini belirgin biçimde artırmak için büyük bir fırsat sunuyor” diyen Münih Belediye Başkanı Dominik Krause'ye ek olarak Bavyera Ulaştırma Bakanı Christian Bernreiter de bunda sürücü personeli eksikliğine bir yanıt görüyor. TUM'un videosu, üniversitenin otonom sürüş araştırmalarını IAA Mobility 2025'te nasıl tanıttığını gösteriyor."
+    ],
+    "d": "Almanya Geleceğin Mobilitesi Merkezi'nin Münih merkezi açıldı. RISE projesinde otonom otobüs ve servislerin 2029'a kadar düzenli işletmeye hazır hale getirilmesi hedefleniyor; ilk adım iki MVG hattı.",
+    "t": "Sürücüsüz otobüsler tarifeli hatlara giriyor: TUM otonom toplu taşıma merkezini yönetecek"
+   },
+   "at": "2026-11-10T13:23Z",
+   "h": "252a68e5794d",
+   "rev": [
+    "Headline contains the German word \"hat\" (should be \"hatlarına\"/regular service lines); the sentence is broken",
+    "Third paragraph: the quote sentence is ungrammatical (\"diyen ... Krause'nin yanı sıra\"); Krause's quote should be attributed with \"dedi\" and the sentence restructured",
+    "\"Münih Belediyesi\" for Stadt München is acceptable; \"Hof'un eski kentinde\" for Altstadt is wrong, should be \"Hof kentinin eski şehir merkezinde\""
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Hof kentinin eski şehir merkezinde otonom elektrikli servis (2020) – Münih projesine ait bir araç değil"
+   }
+  },
   "ufc-334-gane-hokit-top-fuenf": {
    "L": {
     "body": [
@@ -3653,6 +3763,32 @@
    ],
    "x": {
     "img.alt": "Steve Scalise (Arşiv fotoğrafı)"
+   }
+  },
+  "valencia-tavernes-copa-mestalla-2026-11-10": {
+   "L": {
+    "body": [
+     "Valencia, Copa del Rey ilk tur maçını salı akşamı (21:00) kendi stadyumunda oynayacak ve buna rağmen konuk takım olacak. Altıncı lig takımı UE Tavernes'in sahası gerekli koşulları karşılamadığı için karşılaşma Mestalla'da oynanıyor; Valencia nominal olarak deplasman takımı. İspanyol medyasına göre bu daha önce yalnızca bir kez, 1964'te CD Mestalla karşısında yaşandı. İlk tur maçları, Ekim sonundaki Urda tren kazasının ardından ertelenmişti.",
+     "Valencia kriz içinde: On iki hafta sonunda dokuz puanla La Liga'da 19. sırada yer alan takım, cumartesi günü Real Madrid'e 0-3 yenildi. Teknik direktör Javier Aguirre ilk beş maçından birini kazandı. “Çok güzel ve çekici bir turnuva. Ona büyük bir saygı ve ciddiyetle yaklaşıyoruz” dedi Meksikalı teknik adam (çeviri). Savunma oyuncusu José Luis Gayà oynamayacak.",
+     "Bu hafta diğer birinci lig takımları da kupaya katılıyor: Alavés salı günü CD Anaitasuna deplasmanında oynayacak, Betis ve Levante perşembe, Celta ise cuma günü sahaya çıkacak. Mallorca 18 Kasım'da CD Alcoyano deplasmanında oynayacak."
+    ],
+    "d": "İlginç bir kupa maçı: Altıncı lig takımının sahası yetersiz kaldığı için Tavernes, kriz içindeki Valencia'yı Mestalla'da ağırlıyor. Teknik direktör Aguirre saygı ve ciddiyet çağrısı yaptı.",
+    "t": "Copa del Rey: Valencia, altıncı lig takımı Tavernes karşısında kendi stadyumunda konuk"
+   },
+   "at": "2026-11-10T13:23Z",
+   "h": "eece6f18567b",
+   "rev": [
+    "Broken sentence around the quote: 'diyen Meksikalı teknik adam (çeviri)' is ungrammatical and drops the attribution 'sagte der Mexikaner'",
+    "Teaser: 'çağrısı yaptı' is acceptable, no change",
+    "'ilk beş maçının birini kazandı' is awkward; 'ilk beş maçından yalnızca birini' is not in the German either, so only the wording is smoothed"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Valencia'daki Mestalla Stadyumu (Arşiv fotoğrafı)"
    }
   },
   "van-cleef-arpels-perlee-pop-up-las-vegas-arthur-hoffner": {
