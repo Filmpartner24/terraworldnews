@@ -320,6 +320,35 @@
     "img.alt": "Dana White, Donald Trump ve Mike Johnson ile 2024'te Madison Square Garden'daki bir UFC etkinliğinde (Arşiv fotoğrafı)"
    }
   },
+  "deutsche-boerse": {
+   "L": {
+    "body": [
+     "Pazartesi günü Xetra'da (Frankfurt Borsası'nın elektronik işlem sistemi): Başlıca endeks Dax (Almanya'nın borsaya kote en büyük 40 şirketi) iki günlük kaybın ardından %1,73 yükselerek 26.267,19 puana çıktı (dpa-AFX). MDax (50 orta ölçekli hisse) %1,40 artışla 31.072,75 puana, SDax (daha küçük hisseler) %0,78 artışla 17.983,74 puana, teknoloji hisseleri endeksi TecDax ise %1,08 artışla 4048,14 puana ulaştı. Euro Stoxx 50 (avro bölgesinin önde gelen 50 şirketi) %1,94 yükselerek 6290,45 puana çıktı. Ana neden: ABD Başkanı Donald Trump'ın İran'a yönelik yeni büyük saldırıları “son derece olası değil” olarak nitelendirmesinin ardından petrol fiyatı belirgin biçimde düştü. Dışişleri Bakanı Marco Rubio ise bir anlaşmanın görünürde olmadığını söyledi; ancak bu, Rubio'ya göre geçerli bir durum olarak aktarıldı. Güçlü ihracat da destek verdi: İhracat Eylül ayında %2,0 artarak 141,1 milyar avroya yükseldi (Destatis).",
+     "Kazananlar ve kaybedenler: Infineon %6,3 yükseldi – yapay zekâ (YZ) ile ilgili hisseler geçen haftaki satış dalgasından toparlandı. Siemens Energy %5,1, Airbus %5,0 kazandı. Rheinmetall, Bank of America'nın not indirmesine rağmen %4,0 yükseldi. Commerzbank %3,9 yükseldi: UniCredit kâr tahminini yukarı çekti ve 2027 başında bankanın kontrolünü ele geçirmeyi bekliyor (dpa-AFX). Sıralamanın sonunda Siemens Healthineers (−%3,4) ve Fresenius Medical Care (−%3,0) yer aldı; FMC olumsuz analist yorumlarının ardından düştü. Hannover Rück, beklentilerin üzerindeki kâra rağmen %1,4 değer kaybetti: JPMorgan ödeme gücü ve büyüme konusunda soru işaretleri gördü. Hochtief, ACS'nin tamamen devralma planlarını yalanlamasının ardından %1,3 düştü. MDax'ta GEA, açıkladığı rakamların ardından rekor seviyeye ulaştı.",
+     "Salı günü: Broker IG, Xetra açılışından iki saat önce Dax'ı %0,9 daha yüksek, 26.509 puanda değerledi – 26.692'lik rekorun yalnızca 180 puandan biraz fazla altında (dpa-AFX). New York'ta Pazartesi günü S&P 500 %2,3, Nasdaq %2,7 yükseldi; Nvidia ise, şirket CEO'su Jensen Huang'ın Çin istihbaratının iddia edilen bir operasyonunun hedefi olduğu yönündeki haberlere ilişkin iç soruşturma nedeniyle %4,3 değer kaybetti. Asya'da Nikkei salı günü %2,6, Kospi %4 artıda (AP). Infineon bugün saat 7:30'da yıllık rakamlarını açıklıyor – yapay zekâ çipleri işi için bir test. Yine 7:30'da Henkel (temel veriler 29.10.'da açıklandı: organik %6,5 artış) ve Uniper, 8:00'de Porsche SE bilanço açıklıyor. 14:30'da ABD'nin Ekim enflasyon verisi geliyor; bir önceki aya göre %0,3 artış bekleniyor (Dow Jones).",
+     "Hafta sonuna kadar: Çarşamba RWE ve Siemens Energy, Perşembe Allianz, Munich Re ve Siemens (CMC Markets). IG analisti Salah-Eddine Bouhmidi, toparlanmanın kırılgan kalmaya devam ettiğini belirterek uyardı: İran görüşmeleri başarısız olursa jeopolitik risk hızla geri dönebilir."
+    ],
+    "d": "Dax Pazartesi günü 26.267 puanda (%1,73 artış) kapandı. Çip ve savunma hisselerine talep vardı. Salı için %0,9'luk ek artış bekleniyor; endeks rekora yakın. Bugün Infineon ve Henkel bilanço açıklıyor.",
+    "explain": "Daha ucuz petrol şirketlerin maliyetlerini ve fiyatlar üzerindeki baskıyı azaltır – bu da çoğunlukla hisselere yardımcı olur. Ancak bugünkü bilançolar ve ABD enflasyonu piyasayı yeniden güçlü biçimde hareketlendirebilir.",
+    "t": "Petrol fiyatlarındaki düşüşle Dax %1,7 sıçradı – Infineon bugün rakamları açıklıyor"
+   },
+   "at": "2026-11-10T08:11Z",
+   "h": "b99f3d49b875",
+   "rev": [
+    "Rubio's statement: \"eine Einigung sei nicht in Sicht\" was rendered as a plain statement; reporting marker added",
+    "Nvidia: the German says the report \"nach Berichten\" claimed Huang was the target; the Turkish had a plain fact in the relative clause and implied the investigation was started after the reports; made ",
+    "Dax rekor distance: \"nur gut 180 Punkte\" was rendered \"yalnızca 180 puan kadar\"; \"gut\" lost",
+    "\"Der Dienstag\": Turkish weekday capitalization is not required mid-sentence per TDK (Pazartesi, Salı etc. should be lowercase)",
+    "Nikkei/Kospi: \"liegt im Plus\" ok; \"Henkel Eckdaten am 29.10.\" is tense ok",
+    "Unicredit: should be UniCredit (established spelling of the name)",
+    "Euro Stoxx 50 and the SDax unit conventions fine; the teaser says \"bilanço açıklıyor\" ok"
+   ],
+   "rev_dbg": [
+    7,
+    6,
+    0
+   ]
+  },
   "deutschland-berlin-einheitsflagge-wieder-am-reichstag-2026-11-10": {
    "L": {
     "body": [
@@ -1777,6 +1806,33 @@
    ],
    "x": {
     "img.alt": "Ciryl Gane, Haziran 2026'da Beyaz Saray'daki UFC Freedom 250'de (Arşiv fotoğrafı)"
+   }
+  },
+  "ufc-334-harrison-nunes-countdown": {
+   "L": {
+    "body": [
+     "UFC, pazartesi günü UFC 334'e ilişkin “Countdown” bölümünü yayımladı. Ciryl Gane ile Josh Hokit arasındaki ağır sıklet şampiyonluk maçının yanı sıra, kadınlar horoz sıklette yardımcı ana maç öne çıkıyor: Şampiyon Kayla Harrison (19-1) cumartesi günü Madison Square Garden'da kemerini ilk kez savunacak; rakibi, üç yılı aşkın bir süre sonra emekliliğinden dönen Amanda Nunes (23-5). Ana kart, Almanya saatiyle pazar gecesi saat 3:00'te başlayacak.",
+     "Maç aslında ocak ayında UFC 324'te yapılacaktı. UFC.com'a göre Harrison, ameliyat edilen bir boyun sakatlığı nedeniyle o dönemde maçtan çekilmek zorunda kalmıştı. İki kez olimpiyat judo şampiyonu olan Harrison, unvanı UFC 316'da ikinci rauntta kimura ile Julianna Peña'yı yenerek kazanmıştı. 38 yaşındaki Nunes, 2016'dan itibaren şampiyondu, daha sonra iki sıklette birden şampiyon oldu ve Haziran 2023'te emekliye ayrıldı; son maçı UFC 289'da Irene Aldana'ya karşı aldığı galibiyetti. AgentMMA'ya göre yedek dövüşçü olarak Joselyne Edwards hazır bekliyor.",
+     "Forbes özel bir duruma dikkat çekiyor: Harrison'ın eski antrenman partneri ve açıkça örnek aldığı isim olan Ronda Rousey, MMA kariyerinde yalnızca Holly Holm'a ve Amanda Nunes'a yenildi. Harrison, Holm'u UFC 300'de teslim tekniğiyle yenmişti; Nunes'e karşı kazanması hâlinde Rousey'i yenen iki ismi de mağlup etmiş olacak."
+    ],
+    "d": "UFC, horoz sıklet şampiyonu Kayla Harrison'ın cumartesi günü New York'ta geri dönen Amanda Nunes ile karşılaşmasını “Countdown” bölümüyle duyurdu.",
+    "t": "UFC 334: Harrison – Nunes: Ronda Rousey'nin hiç başaramadığını yapma şansı"
+   },
+   "at": "2026-11-10T08:11Z",
+   "h": "8c4fd80181af",
+   "rev": [
+    "Teaser said Nunes is 'geri dönen' without 'Rückkehrerin' nuance – acceptable; no change",
+    "Last paragraph: 'Forbes'a göre' added to the Holm win and the tense/mood of the conclusion was wrong ('olacaktı' = would have been); the German attributes only the constellation to Forbes, the Holm wi",
+    "'Harrison'ın eski antrenman partneri' fine; 'submission' left in English – replace with Turkish 'teslim kilidiyle'",
+    "Judo olympic champion: 'İki kez olimpiyat judo şampiyonu olan Harrison' – German says 'Die zweifache Judo-Olympiasiegerin' (fine)"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Kayla Harrison, 2016 Rio Olimpiyatları'nda, o dönem judocu olarak (Arşiv fotoğrafı)"
    }
   },
   "ufc-334-wonderboy-thompson-letzter-kampf": {
