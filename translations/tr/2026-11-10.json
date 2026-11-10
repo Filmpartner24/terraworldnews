@@ -1,6 +1,34 @@
 {
  "date": "2026-11-10",
  "items": {
+  "anthropic-ipo-preisspanne-zurueckgezogen-2026-11-10-b11": {
+   "L": {
+    "body": [
+     "Yapay zekâ geliştiricisi Anthropic, planlanan halka arzına ilişkin temel verileri bankalara gönderdi ve kısa süre sonra geri çekti. Bunu Reuters haber ajansı, incelediği e-postalara dayanarak bildirdi. İlk yazıda yaklaşık 866,7 milyon hissenin hisse başına 70 ila 80 dolardan arz edilmesinden söz ediliyordu. Aralığın üst sınırında bu, 69,3 milyar dolara kadar gelir sağlayacaktı. Yaklaşık 843,3 milyon hisseyi Anthropic'in kendisinin, yaklaşık 23,3 milyon hisseyi ise mevcut hissedarların satması öngörülüyordu.",
+     "Anthropic, ikinci bir e-postada fiyat bilgilerinin kesin olmadığını, güncellenmiş bir versiyonun daha sonra geleceğini belirtti. Neyin yanlış olduğu belirtilmedi. Şirket, Reuters'a açıklama yapmak istemedi. Geri çekilen belgeye göre Google, Nvidia, AMD, Broadcom, Micron, Microsoft ve TSMC, halka arz fiyatından özel plasmanla Anthropic hisseleri satın almak istiyor. Belgeye göre Anthropic, halka arzla eş zamanlı olarak teknoloji şirketlerinden 26 milyar dolarlık yatırım da toplamıştı.",
+     "Reuters'a göre yatırımcılarla yapılacak tanıtım turu bu salı günü başlayacak, fiyat ise önümüzdeki hafta belli olacak. Reuters'a göre değerleme beklentileri düştü; 1,5 trilyon dolar üst sınır olarak görülüyor. TechCrunch'a göre Anthropic, daha pazartesi günü yeni modelleri Fable 5.2 ve Mythos 5.2'yi tanıtmış ve Fable giriş tokenlarının fiyatını milyon başına 10 dolardan 8 dolara indirmişti."
+    ],
+    "d": "Anthropic, bankalara 69,3 milyar dolara kadar büyüklükte bir halka arza ilişkin temel verileri gönderdi ve kısa süre sonra bunların kesin olmadığını belirtti. Tanıtım turunun bugün başlaması bekleniyor.",
+    "t": "Anthropic halka arzı: Yapay zekâ şirketi 70-80 dolarlık fiyat aralığını geri çekti"
+   },
+   "at": "2026-11-10T09:17Z",
+   "h": "ad7027f1acd0",
+   "rev": [
+    "Teaser: 'halka arza ilişkin temel verileri ... 69,3 milyar dolara kadar' garbled; the amount belongs to the IPO, and 'ungenau' (imprecise) was rendered as 'hatalı' (wrong)",
+    "Teaser: 'Roadshow' was rendered as 'Yatırımcı turu', which is inconsistent with the body text; adjusted to 'tanıtım turu'",
+    "Body: 'ungenau' rendered as 'hatalı'; changed to 'yanlış/eksik' wording so it matches the German ('Was falsch war')",
+    "Indirect speech: 'seien ungenau' rendered as a plain fact; reporting marker 'olduğunu belirtti' is present, but 'hatalı' should read 'kesin olmadığını'",
+    "'Heute soll die Roadshow beginnen' in the teaser vs. 'an diesem Dienstag' in the body: kept consistent"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Anthropic'in San Francisco'daki ofisi (Arşiv fotoğrafı)"
+   }
+  },
   "atlas-joshua-ko-chance-fury": {
    "L": {
     "body": [
@@ -28,6 +56,27 @@
     "img.alt": "Anthony Joshua 2019'da bir basın toplantısında (Arşiv fotoğrafı)"
    }
   },
+  "bbc-rivals-fury-joshua-doku": {
+   "L": {
+    "body": [
+     "BBC, Cardiff'teki maçtan bir ay önce, 10 Kasım Salı gününden itibaren “Rivals: Fury v Joshua” belgeselini BBC iPlayer'da yayımlıyor. Belgesel, BBC Sport'un “Rivals” serisinin ikinci bölümü; iki İngiliz boksörün on yılı aşkın süredir devam eden rekabetini ve dünya şampiyonluğuna giden farklı yollarını anlatıyor. TechRadar'a göre film yalnızca Birleşik Krallık'ta izlenebiliyor.",
+     "Belgeselde John Fury, Eddie Hearn, Frank Warren, Natasha Jonas, Tony Bellew ve Steve Bunce konuşuyor. Nation.Cymru'ya göre Fury'nin babası, düellonun mağlubu hakkında şöyle diyor: “Umarım hiç olmaz. Kaybeden o kadar çok alay görecek ki bunun altından kalkamaz.” Joshua'nın menajeri Hearn ise maçı “Birleşik Krallık'ın gördüğü en büyük spor etkinliklerinden biri, hatta belki de en büyüğü” olarak niteliyor.",
+     "Bunun yanında BBC Sounds'ta Anna Woolhouse ve Steve Bunce'ın sunduğu “5 Live Boxing: Fury v Joshua” podcast'i yayımlanıyor. Fury ve Joshua, 11 Aralık'ta Principality Stadium'da ağır siklet WBA “Super” unvanı için ringe çıkacak."
+    ],
+    "d": "BBC, Tyson Fury ile Anthony Joshua arasındaki rekabeti bir belgeselde anlatıyor. John Fury, Eddie Hearn ve Frank Warren gibi isimler konuşuyor; ayrıca bir podcast de yayımlanıyor.",
+    "t": "BBC belgeseli “Rivals: Fury v Joshua” bugün yayında – John Fury: “Umarım hiç olmaz”"
+   },
+   "at": "2026-11-10T09:17Z",
+   "h": "2b377a32afd5",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Cardiff'teki Principality Stadium, Fury-Joshua maçının yapılacağı mekân (sembolik fotoğraf)"
+   }
+  },
   "benavidez-pbc-bedingung-cieslak": {
    "L": {
     "body": [
@@ -47,6 +96,58 @@
    "x": {
     "img.alt": "Boks kapak görseli"
    }
+  },
+  "berliner-linke-ausschlussantrag-emde-2026-11-10-b11": {
+   "L": {
+    "body": [
+     "Berlin Eyalet Meclisi'ndeki Sol Parti grubu, Neukölln milletvekili Vanessa Emde'yi ihraç etmek istiyor. Tagesspiegel'e ve Politico'yu kaynak gösteren dts haber ajansına göre, eyalet ve grup yönetimi, önerinin bu salı günü sunulması konusunda anlaştı. Yedi günlük süre nedeniyle oylama ancak 17 Kasım'daki grup toplantısında yapılacak. Grubun 44 üyesinin üçte iki çoğunluğu gerekiyor. dts'ye göre Emde, Eyalet Meclisi'ndeki milletvekilliğini prensip olarak koruyabilir.",
+     "Tagesspiegel'e göre ihraç talebinin nedeni, Emde'nin İsrail'in var olma hakkını sorgulayan açıklamaları ve Sol Parti'nin eyalet kongresi öncesinde düzenlenen bir mitinge katılması. Eyalet eş başkanları Kerstin Wolter ve Maximilian Schirmer, Emde'yi milletvekilliğini iade etmeye çağırmıştı. Emde bunu reddetti: “Elbette milletvekilliğimi sürdüreceğim!” dts'nin aktardığına göre, Emde tartışmalı bir Instagram paylaşımını silip özür dilerse grup yönetiminin öneriyi geri çekeceği belirtildi. Emde'nin bu ültimatomu reddettiği belirtildi.",
+     "Tartışma, Berlin'deki hükümet kurma sürecini zorluyor: SPD ve Yeşiller, Emde'nin ihracını son olarak kırmızı-yeşil-kırmızı bir koalisyon için şart koşmuştu. Parti içinde aynı zamanda itirazlar da yükseliyor. dts'ye göre birçok parti birimi Emde'ye dayanışma bildirileri hazırlıyor. Sol Parti genel yönetimi cumartesi günü konuyu görüşmek istiyor."
+    ],
+    "d": "Önerinin bugün sunulması planlanıyor, oylama 17 Kasım'da yapılacak. SPD ve Yeşiller, ihracı koalisyon için şart koşmuştu.",
+    "t": "Berlin Sol Parti, milletvekili Vanessa Emde'yi gruptan ihraç etmek istiyor"
+   },
+   "at": "2026-11-10T09:17Z",
+   "h": "8be09dfa4a04",
+   "rev": [
+    "\"Landesparteitag\" was rendered as \"eyalet kongresi\", which is acceptable, so it was left unchanged.",
+    "\"würde ... zurückziehen\" was translated in the past conditional (\"geri çekecekti\"), which shifts the tense. It should be a present or future reporting form.",
+    "\"rot-grün-rote\" was translated as \"kırmızı-yeşil-kırmızı\", which is acceptable, so it was left unchanged."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin Eyalet Meclisi (arşiv fotoğrafı)",
+    "kl": "Berlin"
+   }
+  },
+  "bg-energie-aktien": {
+   "L": {
+    "body": [
+     "Bulgaristan Borsası (BFB) haftaya sakin başladı. En önemli 15 hisseden oluşan öncü endeks SOFIX, pazartesi, 9 Kasım'da 2105,86 puandan (+%0,10) kapandı. BGBX40 yerinde saydı (+%0,01), BGTR30 %0,24 yükseldi, gayrimenkul fonu endeksi BGREIT ise %0,06 geriledi. Ana pazardaki işlem hacmi 1,26 milyon avro, alternatif pazarda 625.624 avro oldu (BTA). SOFIX, 30 Ekim'deki rekorun %0,69 altında (kendi hesaplamamız).",
+     "En çok işlem gören hisse First Investment Bank oldu: %3,92 artışla 5,30 avro. Sopharma %2,40 düşüşle 3,25 avroya geriledi, Chimimport %2,72 yükselerek 0,75 avroya çıktı. Elektrik tüketimini kontrol eden akıllı cihazlar üreten Shelly Group %0,16 artışla 64,30 avro oldu (BTA).",
+     "Enerji hisselerinde Petrol, yalnızca 1812 avroluk işlem hacmiyle %6,67 artarak 0,448 avroya yükseldi. Eurohold, 5720 avroluk küçük işlem hacmiyle 4,28 avroda kaldı. Toplofikazija Russe 2 Kasım'dan beri işlem görmedi (4,30 avro) (infostock.bg).",
+     "Maliye Bakanlığı pazartesi günü %3,50 faizli, 100 milyon avroluk 10 yıllık devlet tahvilini ihaleye çıkardı; ödeme 11 Kasım'da yapılacak. Sonucu (tahsis edilen tutar, getiri) bu sabaha kadar bulamadık. Bulgargaz ile Sofya Belediyesi, Toplofikazija Sofia'nın 900 milyon avroyu aşan borçları konusunda bu hafta yeniden bir araya gelmek istiyor."
+    ],
+    "d": "SOFIX pazartesi günü ana pazardaki 1,26 milyon avroluk işlem hacmiyle %0,10 artarak 2105,86 puana çıktı. Petrol 0,448 avroya yükseldi. 10 yıllık tahvil ihalesinin sonucunu salı sabahına kadar bulamadık.",
+    "explain": "Sofya'daki işlemler sakin geçti. Münferit hisselerdeki büyük fiyat sıçramaları çoğu zaman çok küçük işlemlerden kaynaklanır; tek bir işlem fiyatı güçlü biçimde hareket ettirebilir. Yatırım tavsiyesi değildir.",
+    "t": "SOFIX haftaya hafif artışla başladı, Petrol %6,7 yükseldi"
+   },
+   "at": "2026-11-10T09:17Z",
+   "h": "57efccad23a4",
+   "rev": [
+    "\"bot ... an\" (offered/auctioned) was rendered as \"ihraç etti\", which loses the sense of the offering. Changed to \"ihraç için sundu\" / \"ihale etti\" to be more precise.",
+    "\"Toplofikazija Sofia\" is a proper name, so it needs no change. The Turkish possessive suffix is fine.",
+    "\"bis heute früh\" was translated as \"bugün sabaha kadar\", which is awkward. Changed to \"bugün sabaha kadar\" → \"bu sabaha kadar\"."
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ]
   },
   "bulgarien-cma-cgm-taksa-voenen-risk-varna-burgas-2026-11-10": {
    "L": {
@@ -648,6 +749,28 @@
     "img.alt": "Arşiv fotoğrafı: Angela Merkel (2008)"
    }
   },
+  "deutschland-merz-ukraine-hilfe-bulgarien-2026-11-10": {
+   "L": {
+    "body": [
+     "Federal Başbakan Friedrich Merz (CDU), Ukrayna'nın gelecek yılki finansman açığının kapatılması için tüm AB ülkelerinden adil bir katkı talep ediyor. Euronews ve Alman Basın Ajansı dpa'nın haberine göre AB Konseyi Başkanı António Costa'ya yazdığı mektupta ortak bir taahhüdü temel bir ön koşul olarak niteliyor ve bunu 2028'den itibaren geçerli olacak uzun vadeli AB bütçesine ilişkin müzakerelerle ilişkilendiriyor. Merz, “Ukrayna'ya destek, bölünmez Avrupa güvenliğimizin bir meselesidir” diye yazıyor.",
+     "AB Komisyonu'nun verdiği bilgiye göre Ukrayna'nın 2027'de yaklaşık 70 milyar avroluk açığı bulunuyor; AB bunun yaklaşık 45 milyarını üstlenmek istiyor. Bunun nasıl finanse edileceği belirsiz. Merz, konunun Cuma günü Dublin'de yapılacak gayriresmi AB zirvesinde öncelikle ele alınmasını istiyor. 2026 ve 2027 için daha önce kararlaştırılan 90 milyar avroluk kredide Macaristan, Slovakya ve Çekya istisna elde etmişti.",
+     "Girişim doğrudan Bulgaristan'ı ilgilendiriyor: Başbakan Rumen Radev, devlet ajansı BTA'nın haberine göre Ekim ayında Bulgaristan'ın Kiev'in talep ettiği 70 milyar avroya katkıda bulunamayacağını söylemişti. Euronews, Sofya'nın Prag, Budapeşte ve Bratislava gibi yeni bir ortak borçlanmanın dışında kalmasını bekliyor. Bulgaristan hükümetinden mektuba ilişkin başlangıçta bir tepki gelmedi."
+    ],
+    "d": "Başbakan, AB Konseyi Başkanı Costa'ya yazdığı mektupta gelecek AB bütçesine ilişkin görüşmeleri yaklaşık 45 milyar avroluk ortak bir taahhüde bağlıyor. Bulgaristan Başbakanı Radev katılımı reddediyor.",
+    "t": "Ukrayna yardımı: Merz tüm AB ülkelerinden katkı istiyor – Bulgaristan reddetmişti"
+   },
+   "at": "2026-11-10T09:17Z",
+   "h": "cfa6d980a3bb",
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Federal Başbakan Friedrich Merz ve Ursula von der Leyen AB Komisyonu'nda (Aralık 2025)",
+    "kl": "Almanya–Bulgaristan"
+   }
+  },
   "deutschland-pistorius-vautrin-ruestungsindustrie-2026-11-10": {
    "L": {
     "body": [
@@ -1020,6 +1143,54 @@
    ],
    "x": {
     "img.alt": "Rostock Eyalet Mahkemesi (Arşiv fotoğrafı)"
+   }
+  },
+  "fifpro-weltelf-kane-messi-2026-11-10-b11": {
+   "L": {
+    "body": [
+     "Ballon d’Or sahibi Harry Kane, 2026 FIFPro Dünya 11'inde yer almıyor. Sky Sports'a göre İngiliz oyuncu, Dünya 11'in 2005'te oluşturulmasından bu yana takıma giremeyen ilk Ballon d’Or sahibi. Takım, 73 ülkeden profesyonel futbolcular tarafından seçiliyor. Forvetler için verilen oylarda Kane, yüzde 27,6 ile Erling Haaland'ın (yüzde 28,4) az farkla gerisinde kaldı.",
+     "Lionel Messi (Inter Miami) 2023'ten bu yana ilk kez yeniden takımda ve 18. kez seçilerek rekor sayıya ulaştı. Barcelona'dan Lamine Yamal, 19 yaşında 20. doğum gününden önce Dünya 11'e iki kez seçilen ilk oyuncu oldu. Hücum hattında ayrıca Haaland (Manchester City) ve Kylian Mbappé (Real Madrid) yer alıyor.",
+     "Takımın geri kalanı: Kaleci David Raya (Arsenal), savunmada Achraf Hakimi, Nuno Mendes (ikisi de Paris Saint-Germain) ve Pau Cubarsí (Barcelona), orta sahada Vitinha (PSG), Rodri ve Jude Bellingham (Real Madrid). PSG'den üç oyuncu takımda yer alıyor."
+    ],
+    "d": "Dünya 11'in 2005'te oluşturulmasından bu yana ilk kez Ballon d’Or sahibi oyuncu profesyonellerin seçtiği takımda yer almıyor. Messi 18. kez seçildi, Yamal 19 yaşında rekor kırdı.",
+    "t": "FIFPro Dünya 11'i: Messi geri döndü, Ballon d’Or sahibi Kane listede yok"
+   },
+   "at": "2026-11-10T09:17Z",
+   "h": "5c2e04e4c7ab",
+   "rev": [
+    "Kane'in oy oranı ve Haaland oranı doğru; ancak 'Dünya 11'in 2005'te başlamasından' ifadesi doğal değil, 'Dünya 11'in kurulduğu 2005'ten bu yana' olmalı",
+    "'18 seçilmeyle' ifadesi anlatım olarak kusurlu; '18. kez seçilmesiyle' olmalı",
+    "Teaser'da 'Ballon d’Or sahibi oyuncu' ifadesi ile 'başlangıcından' biraz doğal değil; 'Dünya 11'in 2005'te kurulmasından' daha doğru",
+    "'Yamal 19 yaşında rekor kırdı' ifadesi ile rekorun kendisi (20 yaşından önce iki kez seçilen ilk oyuncu) belirsiz kalmış, ancak anlam korunduğu için dokunulmadı"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Lionel Messi (Arşiv fotoğrafı)"
+   }
+  },
+  "fury-davison-joshua-ecke": {
+   "L": {
+    "body": [
+     "Tyson Fury, eski antrenörü Ben Davison'ın Anthony Joshua'nın kampındaki rolüne ilişkin konuştu. Fury, Boxing News'e göre muhabir Michelle Joy Phelps'e verdiği röportajda “Bu benim için hiçbir şey ifade etmiyor, Ben'e her şeyin en iyisini diliyorum” dedi. Fury aynı zamanda Davison'ın kendisine Joshua'nın kampıyla ilgili iç bilgileri de aktarabileceğini ima etti ve şunları ekledi: “Unutmayın, Ben'i bugün bulunduğu yere ben getirdim.”",
+     "Davison, 2018'den itibaren Fury'nin başantrenörüydü; yaklaşık iki buçuk yıllık aranın ardından Sefer Seferi'ye karşı yapılan dönüş maçıyla başladı ve onu, Deontay Wilder'le berabere biten maç dahil birçok karşılaşmada çalıştırdı. Ardından Fury, SugarHill Steward ile çalışmaya başladı. Joshua, Davison'ı 2023'te yanına aldı ve Daniel Dubois'ya yenilginin ardından yollarını ayırdı; Boxing News'e göre Davison, Fury maçı öncesinde şimdi yeniden Joshua ile daha yakın çalışıyor, Joshua ise aynı zamanda Oleksandr Usyk'in ekibiyle de temasını sürdürüyor.",
+     "Fury ile Joshua, 11 Aralık'ta Cardiff'teki Principality Stadium'da ağır siklet WBA “Super” unvanı için ringe çıkacak; maçı Netflix yayınlayacak."
+    ],
+    "d": "Eski koçu Ben Davison'ın Anthony Joshua'yı Cardiff'teki maça hazırlaması, Tyson Fury'nin kendi sözlerine göre onu etkilemiyor; hatta bunda olası bir avantaj görüyor.",
+    "t": "Fury, Joshua'nın köşesindeki eski hocası Davison için: “Ben'i bu noktaya ben getirdim”"
+   },
+   "at": "2026-11-10T09:17Z",
+   "h": "6535a0722629",
+   "rev_dbg": [
+    4,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Tyson Fury 2017'de Kanada'nın Laval kentinde ringin yanında (Arşiv fotoğrafı)"
    }
   },
   "geschaeftsmodell-rueckversicherer-2026-11-10": {
@@ -1803,6 +1974,61 @@
     "img.alt": "Sembolik fotoğraf: Evde akıllı elektrik sayacı"
    }
   },
+  "nahles-ki-800000-jobs-2026-11-10-b11": {
+   "L": {
+    "body": [
+     "Federal İş Ajansı'nın (BA) değerlendirmesine göre yapay zekâ, Almanya'da yüz binlerce işe mal olacak. BA Başkanı Andrea Nahles “Handelsblatt” gazetesine, “Önümüzdeki 15 yılda Almanya'da yapay zekâ nedeniyle yaklaşık 800.000 işin ortadan kalkacağını öngörüyoruz” dedi. Nahles, benzer sayıda iş yerinin de yeni ortaya çıkacağını söyledi.",
+     "Nahles'e göre özellikle şirketlere hizmet sağlayanlar ile sigorta şirketlerinde ve bankalarda analitik işler etkilenecek. Yapay zekâyı daha az kullanabilen meslekler ise, örneğin zanaat sektörü, buna karşılık oldukça dayanıklı çıkıyor. Nahles, üniversite mezunlarının mesleğe girişte daha uzun süreye ihtiyaç duyduğunu, ancak diğer gruplara göre hâlâ daha iyi şansa sahip olduğunu belirtti; her şeyin yapay zekâya bağlanamayacağını, zayıf konjonktürün de rol oynadığını ifade etti. Nahles daha fazla yapay zekâ yatırımı istiyor: “Ama yalnızca verimlilik getiriyorsa, gösterişli olduğu için değil.”",
+     "Nahles'e göre Almanya aynı zamanda yılda net olarak yaklaşık 500.000 işgücü kaybediyor, net göç de uzun zamandır görülmediği kadar düşük. Nahles bu nedenle AB dışındaki ülkelerden nitelikli iş gücünün hedefli biçimde işe alınmasını istiyor ve vaat edilen Work-and-Stay Ajansı'nı talep ediyor. Nahles, bu konuda koalisyon içinde ve federal hükûmet ile eyaletler arasındaki tartışmayı eleştirdi: Ona göre öncelikle korunmak istenenler, 550 yabancılar dairesi."
+    ],
+    "d": "Federal İş Ajansı Başkanı bankaları, sigortacıları ve şirket hizmetleri sektörünü özellikle etkilenen alanlar, zanaat sektörünü ise dayanıklı olarak görüyor. Work-and-Stay Ajansı için bastırıyor.",
+    "t": "Nahles: Yapay zekâ 15 yılda yaklaşık 800.000 işe mal olacak, benzer sayıda yeni iş doğacak"
+   },
+   "at": "2026-11-10T09:17Z",
+   "h": "636982e74d11",
+   "rev": [
+    "Last sentence reverses the meaning: German says the 550 immigration offices are what is mainly being protected (criticism of the dispute); the draft says what should be protected should not be the off",
+    "\"Akademisyenlerin\" – \"Akademiker\" are people with academic degrees; \"üniversite mezunları\" is more accurate",
+    "Awkward sentence on trades: \"buna karşılık oldukça dayanıklı olduğunu gösteriyor\" is ungrammatical/unclear",
+    "The 15 years/800,000 job loss is Nahles's/BA's forecast and the draft stated it as fact in the first sentence, but it is attributed (\"değerlendirmesine göre\") – fine",
+    "Indirect speech 'akademisyenlerin ... beklediğini' acceptable, but 'daha uzun süre' wording adjusted to match 'bräuchten länger'"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Federal İş Ajansı'nın Nürnberg'deki genel merkezi (Arşiv fotoğrafı)"
+   }
+  },
+  "nmecha-torjubel-stellungnahme-2026-11-10-b11": {
+   "L": {
+    "body": [
+     "Borussia Dortmund'un orta saha oyuncusu Felix Nmecha, gol sevincine yönelik eleştirilere yanıt verdi. 26 yaşındaki futbolcu bir Instagram hikâyesinde şunları yazdı: “Mesajım hiçbir zaman hoşgörüsüzlüğü, ayrımcılığı veya nefreti herhangi bir biçimde teşvik etmeyi amaçlamadı.” Nmecha, sevinciyle “ne kendisini ne de herhangi bir kuruluşu ön plana çıkarmak” istediğini söyledi. Hristiyanlar olarak “mesajımızın her insana yönelik bir sevgi ve saygı mesajı” olduğunu belirtti.",
+     "Nmecha bu harekette hayali bir tacı çıkarıp çimlere bırakıyor. Hareket, evanjelik “Ballers in God” ağına atfedilen “The King's Return” kampanyasının bir parçası. Eleştirmenler, ağı homofobik ve queer karşıtı tutumlarla suçluyor. Nmecha'nın SV Elversberg'e karşı 2-1 kazanılan maçta attığı gollerin ardından sevinci tekrarlaması üzerine BVB'nin taraftar ve destek birimi pazar günü ağı ve oyuncuyu eleştirdi. Birim, eleştirisinin Nmecha'nın Hristiyan inancına yönelik olmadığını vurguladı.",
+     "Kulüp, Nmecha ile bir görüşme yapılacağını duyurdu. dpa'ya göre Almanya Teknik Direktörü Jürgen Klopp, Herzogenaurach'taki DFB kampında milli futbolcuyla daha önce konuştu. Görüşmede nelerin konuşulduğu bilinmiyor. Nmecha bu hareketi 2026 Dünya Kupası'nda Curaçao'ya karşı 7-1'lik maçta da yapmıştı."
+    ],
+    "d": "BVB'li Felix Nmecha, tartışmalı taç hareketini savundu. Taraftarlar, evanjelik “Ballers in God” ağına yakınlığı eleştirmişti. Klopp da kendisiyle konuştu.",
+    "t": "Gol sevincine tepki sonrası Nmecha hoşgörüsüzlük suçlamalarını reddetti"
+   },
+   "at": "2026-11-10T09:17Z",
+   "h": "4a7df3bbcf84",
+   "rev": [
+    "Headline: 'Torjubel-Kritik' fine, but the German says 'Nach Kritik an Torjubel'; the Turkish is acceptable. Teaser: the German 'Fans hatten die Nähe zum Netzwerk kritisiert' was rendered as 'hareketin",
+    "Nmecha 'bundestrainer' rendered as 'Almanya Teknik Direktörü' – acceptable.",
+    "Indirect speech 'als Christen sei ...' is attributed ('belirtti'), but the quote was reworked into an ungrammatical fragment.",
+    "Match score 'beim 2:1' – Turkish convention 2-1 is correct; 'kazanılan' is fine."
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Felix Nmecha 2026 Dünya Kupası'nda (Arşiv fotoğrafı)"
+   }
+  },
   "nvidia-huang-honigfalle-spionageverdacht-folgeartikel": {
    "L": {
     "body": [
@@ -1988,6 +2214,52 @@
     "img.alt": "Riyad'ın silueti (Arşiv fotoğrafı)"
    }
   },
+  "rot-rot-gruen-mv-koalitionsvertrag-2026-11-10-b11": {
+   "L": {
+    "body": [
+     "Mecklenburg-Vorpommern'de eyaletin ilk kırmızı-kırmızı-yeşil hükümet ittifakı kurulmaya hazırlanıyor. SPD, Sol Parti ve Yeşiller'in liderleri, müzakere edilen koalisyon sözleşmesini salı günü saat 14:00'te açıklamak istiyor. Bunu, SPD eyalet başkanı ve Başbakan Manuela Schwesig'in bir sözcüsü duyurdu. Ortaklar hükümetin kurulması için yaklaşık dört hafta müzakere yürütmüştü.",
+     "Son sözü taban söyleyecek: Önümüzdeki hafta sonu her üç partinin kongresinde sözleşme oylanacak. Ardından Schwesig, eyalet meclisinde yeniden hükümet başkanı seçilmek istiyor. Eyalet anayasasına göre bunun için son tarih 17 Kasım.",
+     "Eylül ayındaki eyalet meclisi seçiminde AfD yüzde 38,2 ile birinci parti olmuştu ancak koalisyon ortağı bulamadı. SPD yüzde 35,5, Sol Parti yüzde 6,5, Yeşiller ise yüzde 5,7 aldı. Böylece SPD ve Sol Parti mevcut çoğunluklarını kaybetti ve şimdi üçüncü ortak olarak Yeşiller'e ihtiyaç duyuyor."
+    ],
+    "d": "Yaklaşık dört haftalık müzakerelerin ardından liderler sözleşmelerini saat 14:00'te sunuyor. Bu, MV'de ilk kırmızı-kırmızı-yeşil eyalet hükümeti olacak. AfD birinci parti oldu ancak ortak bulamadı.",
+    "t": "Mecklenburg-Vorpommern: SPD, Sol Parti ve Yeşiller bugün koalisyon sözleşmesini açıklıyor"
+   },
+   "at": "2026-11-10T09:17Z",
+   "h": "290d31965a15",
+   "rev_dbg": [
+    8,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Schwerin Şatosu, eyalet meclisinin merkezi (Arşiv fotoğrafı)"
+   }
+  },
+  "skydance-games-entlassungen": {
+   "L": {
+    "body": [
+     "Skydance Games işten çıkarmaları doğruladı. Bir sözcü, ABD'li sektör yayını Variety'ye yaptığı açıklamada, bazı iş alanlarında “yeniden yapılandırma ve operasyonel değişiklikler” uyguladıklarını ve bazı projeleri geri çekme yönünde “zor bir karar” aldıklarını söyledi. Şirket, hangi oyunların etkilendiğini ve kaç çalışanın ayrılmak zorunda kalacağını açıklamadı.",
+     "Insider Gaming'in, Inven Global'e atıfla aktardığına göre en az 30 kişi işini kaybetti ve gerçek sayının daha yüksek olduğu tahmin ediliyor; haberlere göre etkilenenler Warner Bros. stüdyolarından değil, eski Paramount Games Studio'dan geliyor. Şirketin üst düzey bir geliştiricisi LinkedIn'de yaklaşık iki düzine meslektaşını yeni işler için tavsiye etti; ancak bu resmi bir rakam değil.",
+     "Paramount Skydance'in Ekim ayında Warner Bros. ile birleşmesinden bu yana, NetherRealm (“Mortal Kombat”) ve Rocksteady gibi eski Warner Bros. Games stüdyoları da Tony Driscoll'ın yönettiği Skydance Games'e bağlı. Ana şirket, birleşmenin ardından milyarlarca tasarruf etmek istiyor."
+    ],
+    "d": "Paramount ile Warner Bros.'un birleşmesinden yaklaşık bir ay sonra Skydance, oyun bölümünde işten çıkarmaları doğruladı. Haberlere göre etkilenenler çoğunlukla Paramount ekipleri.",
+    "t": "Warner birleşmesinin ardından: Skydance Games işten çıkarıyor, projeleri kısıyor"
+   },
+   "at": "2026-11-10T09:17Z",
+   "h": "618ce7cb4b9d",
+   "rev": [
+    "\"rund zwei Dutzend\" was rendered as \"yaklaşık yirmi dört\", which is too precise; it should read \"yaklaşık iki düzine\" (roughly two dozen)",
+    "\"Milliarden einsparen\" has \"dolar\" added, a currency the German does not specify"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Paramount Skydance'in New York'taki Times Meydanı'nda bulunan One Astor Plaza gökdelenindeki ofisleri"
+   }
+  },
   "srtd-biotech-seed-runde-2026-11-10": {
    "L": {
     "body": [
@@ -2011,6 +2283,131 @@
    ],
    "x": {
     "img.alt": "Kapak görseli: Yalnızca hastalıklı hücrelerde devreye giren mRNA: Jülich merkezli SRTD 31,5 milyon euro topladı"
+   }
+  },
+  "strom-ibex": {
+   "L": {
+    "body": [
+     "Bulgaristan elektrik borsası IBEX'te (BNEB) üreticiler, tüccarlar ve büyük şirketler toptan elektrik alıp satıyor. Gün öncesi piyasasında ertesi günün her saati için fiyat, bir önceki gün yapılan müzayedede belirleniyor. 10 Kasım Salı için günlük ortalama (Base) KDV hariç megavatsaat başına 402,60 avro. Bu, Pazartesi'ye (371,50 avro) göre yüzde 8,37 artış anlamına geliyor. Böylece ortalama 400 avro eşiğinin üzerinde kalıyor.",
+     "Yine en çok gündüz saatlerinde artış var. Pik saatlerde (Peak, 09:00-20:00) megavatsaat 473,13 avro; bir önceki güne göre yüzde 12,62 daha yüksek. Pik dışı saatlerde (Off-Peak, borsa saatleri 1-8 ve 21-24) fiyat yalnızca yüzde 2,84 artışla 332,07 avroya çıkıyor. Gündüz elektriği böylece gece elektriğinden 141,06 avro daha pahalı (kendi hesabımız); Pazartesi günü fark 97,22 avroydu.",
+     "96.477,30 megavatsaatlik işlem hacmi gerçekleşiyor; bu, bir önceki günkü hacme (95.922,95 MWh) neredeyse eşit ve yaklaşık yüzde 0,58 daha fazla (kendi hesabımız). Yani yüksek fiyat belirgin biçimde artan işlem hacminden kaynaklanmıyor. Borsa verilerinin kendisi artışın nedenini belirtmiyor.",
+     "Elektrik tüm bölgede pahalı. 3e-news'e göre 10 Kasım'da megavatsaatin ortalama fiyatı Romanya'da (OPCOM) 410,31 avro, Slovakya'da 410,02 avro, Macaristan'da (HUPX) 400,29 avro, Çekya'da 389,06 avro, Almanya'da 351,48 avro ve Yunanistan'da 337,91 avro. Bulgaristan, Romanya ve Slovakya'nın hemen altında, ancak Almanya'nın 51,12 avro üzerinde (kendi hesabımız)."
+    ],
+    "d": "10 Kasım için IBEX ortalama fiyatı KDV hariç megavatsaat başına 402,60 avro; Pazartesi'ye göre yüzde 8,37 yüksek. Gündüz (peak) fiyatı 473,13 avro, yüzde 12,62 artış.",
+    "explain": "Elektriği borsa fiyatlarından satın alan şirketler Salı günü Pazartesi'ye göre ortalama yaklaşık yüzde 8, gündüz ise yaklaşık yüzde 13 daha fazla ödüyor. Haneler, düzenleyici kurum KEVR'in belirlediği fiyatları ödüyor; faturaları bu nedenle doğrudan değişmiyor.",
+    "t": "Bulgaristan'da borsa elektriği 400 avroyu aştı: Salı 402,60 avro/MWh, yüzde 8,37 artış"
+   },
+   "at": "2026-11-10T09:17Z",
+   "h": "31c7c74b98c1",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ]
+  },
+  "tanuki-pons-summer-test": {
+   "L": {
+    "body": [
+     "“Tanuki: Pon’s Summer”, 10 Kasım’da PC, PS5, PS4, Xbox Series X|S, Switch 2 ve Switch için çıkıyor ve çıkış gününde Xbox Game Pass’te yer alıyor. Oyunu Denkiworks stüdyosu geliştirdi, yayıncısı Critical Reflex. Oyuncular, Japon bir ada kasabasında postanede yardımcı olarak çalışan rakun köpeği (tanuki) Pon’un rolüne bürünüyor: Pon, BMX bisikletiyle paket dağıtıyor, arkadaşlıklar kuruyor ve büyük Tanuki Şenliği’ne kadar bir tapınağı yeniden onarmak zorunda.",
+     "OpenCritic’te oyun çıkışta 80 puanda. Noisy Pixel 10 üzerinden 9 veriyor; kırsal Japonya’daki nostaljik atmosferi, tuhaf karakterleri, çeşitli mini oyunları ve müzikleri övüyor; yalnızca az sayıda BMX numarası ve neredeyse hiç geliştirilmemiş tapınak tasarımı eleştiriliyor. CGMagazine, yaşam simülasyonu, paket dağıtımı, BMX numaraları ve tapınak onarımının karışımına 10 üzerinden 8 veriyor.",
+     "DayOne de oyuna 10 üzerinden 8 veriyor; mizahı ve beklenmedik ölçüdeki büyük kapsamı öne çıkarıyor, ancak yüzeysel mekanikleri ve sallantılı sürüş hissini eleştiriyor. İtalyan dergi Console-Tribe 100 üzerinden 80 puan veriyor ve daha yüksek bir puana ulaşamamasının nedenleri olarak küçük teknik eksikleri ve daha zayıf yan etkinlikleri gösteriyor."
+    ],
+    "d": "Rakun köpeği Pon olarak paket dağıtıp bir tapınağı kurtarıyorsunuz: Bağımsız macera oyunu bugün çıkıyor ve OpenCritic’te 80 puan alıyor.",
+    "t": "“Tanuki: Pon’s Summer” incelemesi: BMX bisikletiyle Japonya’nın yazında"
+   },
+   "at": "2026-11-10T09:17Z",
+   "h": "915e9462e44d",
+   "rev": [
+    "Title: 'BMX-Rad' rendered as 'BMX' only; the vehicle (bike) is omitted",
+    "Teaser: 'rettet einen Schrein' – 'kurtarıyorsunuz' is OK, but 'Rakun köpeği' vs body: consistent; no change",
+    "Body 1: 'in einem japanischen Inselort' rendered as 'Japonya'da bir ada kasabasında' – changed to 'Japon bir ada kasabasında' for fidelity",
+    "Body 1: 'Tanuki-Fest' – 'Tanuki Şenliği' fine; 'zum Start' fine",
+    "Body 2: 'Soundtrack' rendered as 'müzikleri' – acceptable",
+    "Body 3: 'nennt ... als Grund, warum es nicht für mehr reicht' fine"
+   ],
+   "rev_dbg": [
+    6,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Tokyo’da bir evin önünde Shigaraki seramiği tanuki figürleri",
+    "rv.con": [
+     "Az sayıda BMX numarası",
+     "Tapınak tasarımı az geliştirilmiş",
+     "Yüzeysel mekanikler, sallantılı sürüş hissi",
+     "Küçük teknik eksikler"
+    ],
+    "rv.fz": "Japonya çekiciliği bol, samimi ve rahat bir yaz macerası; oynanış açısından derinliği biraz eksik.",
+    "rv.pro": [
+     "Kırsal Japonya’da nostaljik atmosfer",
+     "Tuhaf karakterler ve güzel müzikler",
+     "Çeşitli mini oyunlar",
+     "Beklenenden fazla içerik"
+    ],
+    "rv.score": "OpenCritic 80 · Noisy Pixel 9/10 · CGMagazine 8/10 · DayOne 8/10"
+   }
+  },
+  "titanium-court-test": {
+   "L": {
+    "body": [
+     "New Yorklu geliştirici AP Thomson'ın “Titanium Court” oyunu Nisan 2026'da PC ve Mac için çıktı; 29 Ekim'den beri PS5, Switch 2, Switch, iOS ve Android için de satışta. Oyunun yayıncısı Fellow Traveller. Oyun, 2026 Independent Games Festival'de ana ödülü (Seumas McNally Grand Prize) ve olağanüstü tasarım ödülünü kazandı. OpenCritic'te 86, Metacritic'te 87 puan aldı.",
+     "Oynanış açısından “Titanium Court”, bir Match-3 bulmacasını strateji ile birleştiriyor: “Met” sırasında taşları eşleştirerek hammadde toplanıyor, “Cezir” sırasında bu hammaddeler düşman kalelerine karşı kullanılıyor. Turlar arasında hikâye bir peri sarayında geçiyor. Nintendo Life, Switch 2 sürümüne 10 üzerinden 9 puan veriyor; gerçeküstü fikirleri, Match-3 ile roguelike stratejinin başarılı birleşimini, esprili metinleri ve sunumu övüyor. Eleştirilen noktalar ise taşların zaman zaman acımasız dağılımıyla yüksek şans payı ve herkesin hoşuna gitmeyebilecek tuhaf mizah.",
+     "PC çıkışında GamesRadar+ 5 üzerinden 4,5, Eurogamer 5 üzerinden 4, PC Gamer ise 100 üzerinden 74 puan vermişti. GamesRadar+, Match-3 ile gerçek zamanlı stratejinin karışımının şaşırtıcı derecede iyi çalıştığını yazdı, ancak daha fazla çeşitlilik istedi. Nintendo Life'a göre oyun Switch 2'de 14,99 ABD doları."
+    ],
+    "d": "Match-3 bulmacaları ile kale savaşlarını birleştiren gerçeküstü strateji oyunu, Ekim sonundan beri PS5, Switch 2, Switch ve mobil cihazlar için de satışta.",
+    "t": "“Titanium Court” incelemesi: IGF ödüllü oyun artık konsollarda ve telefonlarda"
+   },
+   "at": "2026-11-10T09:17Z",
+   "h": "04a6e73eebcd",
+   "rev_dbg": [
+    4,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Independent Games Festival'in 2013 Game Developers Conference'taki sergi alanı",
+    "rv.con": [
+     "Çok fazla şans unsuru, taşların bazen acımasız dağılımı",
+     "Tuhaf mizah herkese göre değil",
+     "Uzun vadede çeşitlilik biraz az"
+    ],
+    "rv.fz": "Match-3, kule savunması ve roguelike türlerini birleştiren, tuhaf ve ödüllü bir karışım; artık yolda da sizi içine çekiyor.",
+    "rv.pro": [
+     "Tazeliğini koruyan gerçeküstü fikirler",
+     "Match-3 ve roguelike strateji iyi bir uyum yakalıyor",
+     "Esprili yazılmış hikâye",
+     "Üslup sahibi sunum"
+    ],
+    "rv.score": "OpenCritic 86 · Nintendo Life 9/10 · Eurogamer 4/5 · PC Gamer 74/100"
+   }
+  },
+  "trakia-karambolage-tote-simniza-2026-11-10-b11": {
+   "L": {
+    "body": [
+     "Yambol yakınlarındaki Trakya Otoyolu'nda meydana gelen iki zincirleme kazada on kişiden fazla kişi hayatını kaybetti. Bunu, BTA haber ajansının aktardığına göre (yerel saatle 10:41 itibarıyla), Yambol Bölge Valisi Georgi Chalakov söyledi. Kazalar sabah saatlerinde, Burgaz istikametinde 289. kilometrede ve Sofya istikametinde Simnitsa kavşağının önünde 294. kilometrede meydana geldi. Chalakov'a göre aralarında kamyonların da bulunduğu yaklaşık 50 araç kazalara karıştı. İçişleri Bakanlığı, kazaların nedeni olarak sisten kaynaklanan görüş mesafesinin düşüklüğünü gösteriyor.",
+     "Yaralılar Sliven ve Yambol'daki hastanelerde tedavi ediliyor. BTA'nın yerel saatle 10:55'teki bilgilerine göre 16 yaralı Sliven Bölge Hastanesi'ne getirildi. Yambol'da ise ağır yaralı dört kişi kabul edildi. Burgaz'daki bir hastane, ortopedistlerin bulunduğu üç ambulans gönderdi; hava kuvvetleri ise Burgaz'da “Spartan” tipi bir nakliye uçağı hazırladı. Kaza yerinde 14 itfaiye ekibi çalıştı. Sağlık Bakanı Katya Ivkova kaza yerine gitti.",
+     "Yol yapım dairesi API'ye göre (yerel saatle 10:57) Trakya Otoyolu Yambol yakınlarında her iki yönde de kapalı kalmaya devam ediyor, görüş mesafesi hâlâ düşük. Trafik Karnobat, Sliven ve II-53 yolu üzerinden Kruşare kavşağına yönlendiriliyor. Sliven bölgesinde BG-Alert uyarı sistemi devreye girdi. Polis yönetiminin kaza yerinde yerel saatle 12:00'de (Almanya saatiyle 11:00) açıklama yapması bekleniyor."
+    ],
+    "d": "Yambol Bölge Valisi'ne göre, Simnitsa yakınlarında sisli havada meydana gelen iki toplu kazada on kişiden fazla can kaybı yaşandı. Otoyol her iki yönde de trafiğe kapatıldı.",
+    "t": "Trakya Otoyolu'nda zincirleme kaza: Yambol yakınlarında on kişiden fazla ölü"
+   },
+   "at": "2026-11-10T09:17Z",
+   "h": "f7f602fd49e6",
+   "rev": [
+    "Simniza was transliterated inconsistently as 'Zimnitsa' (Bulgarian Simitli/Simnitsa; the German form is Simniza, so use Turkish 'Simnitsa')",
+    "Teaser: 'on kişiden fazla kişi' is repetitive",
+    "Body paragraph 1: 'on kişiden fazla kişi' is repetitive",
+    "The word 'toplu' next to 'zincirleme' is redundant and unnatural",
+    "Interior ministry statement: the cause is attributed only in the present tense; 'gösteriyor' is acceptable, so it was left unchanged"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Trakya Otoyolu (sembolik fotoğraf)"
    }
   },
   "trakia-massenkarambolage-nebel-2026-11-10-b08": {
@@ -2111,6 +2508,32 @@
     "img.alt": "Stephen “Wonderboy” Thompson sparringde kafaya tekme atarken (Arşiv fotoğrafı)"
    }
   },
+  "us-republikaner-fuehrungswahl-scalise-jordan-2026-11-10-b11": {
+   "L": {
+    "body": [
+     "Ara seçimlerdeki ağır yenilgilerinden bir hafta sonra ABD Temsilciler Meclisi'ndeki Cumhuriyetçiler, salı günü (yerel saatle) kapalı kapılar ardında yeni liderliklerini belirleyecek. Şimdiye kadarki Meclis Başkanı Mike Johnson, Demokratların çoğunluğu oluşturacağı yeni yasama döneminde grubu yönetmekten vazgeçti. Azınlık lideri koltuğu için Louisiana'dan çoğunluk lideri Steve Scalise ile Ohio'dan Yargı Komitesi Başkanı Jim Jordan aday oldu. Bu, ikilinin 2023'teki Meclis Başkanlığı mücadelesinin yeniden yaşanması anlamına geliyor.",
+     "Scalise, partiyi yeniden iktidara taşımak istiyor. Scalise, meslektaşlarına yazdığı mesajda “Cumhuriyetçi lider olarak en önemli hedefim çoğunluğu yeniden kazanmak olacak” dedi. Jordan ise kendisini Demokratların Başkan Donald Trump hükümetine yönelik beklenen soruşturmalarına karşı bir karşı güç olarak sunuyor: Jordan'ın söylediğine göre hükümetin denetiminde “savaşlarda sınanmış” durumda ve “Demokratların senaryosunu” biliyor. Trump yarışın dışında kalmak istiyor. Grup işleri sorumlusu anlamına gelen whip görevi de çekişmeli: Görevdeki Tom Emmer'e August Pfluger meydan okuyor.",
+     "Cumhuriyetçi senatörler de salı sabahı kapalı oturumda liderliklerini seçecek. Çoğunluk lideri John Thune'nin başında olduğu mevcut yönetim görevde kalmak istiyor. Aynı zamanda Kongre'de dolu gündemli, beş haftalık bir geçiş oturumu başladı. Hükümetin işleyişi için ayrılan para yalnızca 11 Aralık'a kadar yetiyor ve hükümetin kapanmasını (shutdown) önleyecek bir uzlaşı görünmüyor. Temsilciler Meclisi'ndeki Demokratlar liderliklerini 18 Kasım'da seçecek."
+    ],
+    "d": "Meclis Başkanı Mike Johnson yeniden aday olmuyor. Temsilciler Meclisi'ndeki geleceğin azınlık liderliği için Steve Scalise ile Jim Jordan yarışıyor.",
+    "t": "Seçim yenilgisi sonrası: ABD'li Cumhuriyetçiler bugün Scalise ya da Jordan'ı seçecek"
+   },
+   "at": "2026-11-10T09:17Z",
+   "h": "a60f41272c99",
+   "rev": [
+    "\"Mektupta ... diye yazdı\" is redundant (mektup/yazdı repeated); also German says 'schrieb er an seine Kollegen', no 'mektup' mentioned – minor wording fix",
+    "Whip rendered as 'Grup sekreterliği' – 'Fraktionsgeschäftsführer' is better as 'grup yöneticisi'",
+    "\"Meclis Başkanı\" for Speaker is acceptable; \"rakip\" for Gegenspieler is weak – 'karşı duruş' fits better"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Steve Scalise (Arşiv fotoğrafı)"
+   }
+  },
   "van-dijk-brobbey-fallen-fuer-niederlande-aus-2026-11-10-b08": {
    "L": {
     "body": [
@@ -2163,6 +2586,31 @@
     2,
     0
    ]
+  },
+  "warhammer-40k-dark-heresy-termin": {
+   "L": {
+    "body": [
+     "Owlcat Games'in rol yapma oyunu “Warhammer 40.000: Dark Heresy”, 28 Ocak 2027'de PC (Steam, Epic Games Store, GOG), PS5 ve Xbox Series X|S için çıkacak. Nintendo Switch 2 sürümü planlanıyor, ancak bunun için henüz bir tarih yok. Stüdyo daha önce “Warhammer 40.000: Rogue Trader”ı yayımlamıştı; “Dark Heresy” ise 2025 Warhammer Skulls tanıtım etkinliğinde duyurulmuştu.",
+     "Oyuncular, Engizisyon'un sıradan akolitleri olarak başlıyor ve Calixis Sektörü'nde sapkınlığın izini sürmek için bir yoldaş grubu oluşturuyor. Sıra tabanlı taktik savaşların yanı sıra soruşturmalar da merkezi bir rol oynuyor: Şüpheliler sorgulanıyor, komplolar ortaya çıkarılıyor; kararların sonuçları oluyor. Owlcat'a göre yoldaşlar arasında örneğin Catachan'dan bir İmparatorluk Ordusu gazisi ve bir Kroot paralı askeri yer alıyor.",
+     "“Founder’s Packs” satın alanlara yönelik mevcut beta, ekibin çıkışa hazırlanabilmesi için 7 Ocak'ta sona erecek. RPG Site'a göre paketler Ocak ayı başına kadar stüdyonun web sitesinde satın alınabiliyor."
+    ],
+    "d": "“Rogue Trader”ın arkasındaki stüdyo Owlcat Games, Engizisyon temalı rol yapma oyununun çıkış tarihini açıkladı. Switch 2 sürümünün daha sonra çıkması planlanıyor.",
+    "t": "“Warhammer 40.000: Dark Heresy” 28 Ocak 2027'de çıkıyor"
+   },
+   "at": "2026-11-10T09:17Z",
+   "h": "610ba2d7f219",
+   "rev": [
+    "Grammar error: 'sapkınlığı izini sürmek' is ungrammatical (should be 'sapkınlığın izini sürmek')",
+    "'Showcase' left untranslated; rendered as 'etkinliği' for naturalness"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Games Workshop'un Nottingham'daki ziyaretçi merkezi Warhammer World'ün girişi"
+   }
   },
   "wbc-kongress-acapulco-gewichtmachen": {
    "L": {
