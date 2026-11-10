@@ -1180,6 +1180,31 @@
     "img.alt": "Arşiv fotoğrafı: Rusya'da M2 karayolu üzerindeki bir Rosneft istasyonu (2019)"
    }
   },
+  "eth-ethos-satellit-video": {
+   "L": {
+    "body": [
+     "ETH Zürih; Davos Fiziksel-Meteorolojik Gözlemevi, Bern Üniversitesi ve EPFL ile birlikte ETHOS (Earth Thermosphere & Heliophysics Observing Satellite) araştırma uydusunu geliştiriyor. ETH'ye göre bu, üniversitenin planlamadan fırlatmaya ve ömrünün sonuna kadar tüm sorumluluğu üstlendiği ilk misyon. Uydunun kendisi ticari bir sağlayıcıdan geliyor, 25 ila 30 kilogram ağırlığında ve 550 kilometre yükseklikte dönmesi planlanıyor; verileri 2030'dan itibaren sağlaması öngörülüyor.",
+     "Arka plan: Güneş fırtınaları Dünya'nın üst atmosferini ısıtıyor, atmosfer genişliyor ve uyduları daha fazla yavaşlatıyor. ETH'ye göre Mayıs 2024'teki bir güneş patlamasının ardından yaklaşık 10.000 aktif uydunun neredeyse yarısı yörüngesini düzeltmek zorunda kaldı. ETHOS dört cihaz taşıyor: Bunlar güneş enerjisini ölçüyor, patlamalar sırasında X-ışını ve aşırı morötesi ışığı gözlemliyor, iyonosferdeki değişiklikleri izliyor ve uydunun kendi yörüngesini hassas biçimde belirliyor.",
+     "Güneş radyasyonuna yönelik birçok misyon 2030 civarında sona erdiği için ETHOS'un ölçüm serilerini kesintisiz sürdürmesi hedefleniyor. Projeyi bilimsel olarak Davos Gözlemevi'nden Louise Harra yönetiyor; öğrenciler geliştirme, yapım, test ve işletme aşamalarında yer alabiliyor. ETH'nin videosu, üniversitenin uzay araştırmalarına genel bir bakış sunuyor."
+    ],
+    "d": "ETH Zürih, ETHOS ile ilk kez bir uydu misyonunun tüm sorumluluğunu üstleniyor. 25 ila 30 kilo ağırlığındaki uydunun 2030'dan itibaren 550 kilometre yükseklikten Güneş'i ve üst atmosferi gözlemlemesi planlanıyor.",
+    "t": "İlk kendi uydusu: ETH Zürih, güneş fırtınalarının üst atmosferi nasıl şişirdiğini ölçecek"
+   },
+   "at": "2026-11-10T13:46Z",
+   "h": "150808f12415",
+   "rev": [
+    "Section label 'Raumfahrt' was rendered as 'Uzay yolculuğu'; the established Turkish term is 'Uzay çalışmaları' or 'Uzay'. Changed to 'Uzay araştırmaları' is not required, so 'Uzay' is used."
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: ETH Zürih ana binası ve Polyterrasse (2022)",
+    "kl": "Uzay"
+   }
+  },
   "euratex-global-fashion-agenda-allianz-kreislaufwirtschaft": {
    "L": {
     "body": [
@@ -1877,6 +1902,27 @@
     1,
     0
    ]
+  },
+  "iwu-feldschwarm-grubber-sensorik-video": {
+   "L": {
+    "body": [
+     "Bir traktör tarlada otonom olarak ilerlerken, bir kültivatörün (Grubber) dişleri arasında bitki artıklarının birikmesini görecek kimse artık sürücü koltuğunda oturmuyor. Chemnitz'deki Fraunhofer Takım Tezgâhları ve Şekillendirme Teknolojisi Enstitüsü IWU bu nedenle, piyasada bulunan aletlere sıkıştırılabilen iki parçalı bir ölçüm manşeti geliştirdi. Manşet, alet sapının ne kadar eğildiğini – ilerleme yönündeki ve buna dik yöndeki kuvvetler ayrı ayrı olmak üzere – ölçüyor; yaylı dişlerde, çeşitli uç demirlerinde ve diskli tırmıklarda çalışıyor.",
+     "Elektronik, verileri doğrudan cihaz üzerinde değerlendiriyor ve kompakt bir kalite değerini, CAN FD üzerinden kablolu ya da Thread telsiz standardı üzerinden kablosuz olarak bildiriyor. Dijital bir aşınma modeli ise aletlerin kat edilen mesafe boyunca nasıl aşındığını takip ediyor. Araştırmacılar, bir tıkanmayı yeniden oluşturmak için TU Dresden'in toprak kanalına bir plastik ağ gömdü: Ağ aletlerin arasına takıldığında sensör sinyalleri belirgin biçimde değişti. Tarla denemelerinin yapılması planlanıyor.",
+     "Proje yöneticisi Markus Werner, “Otonom ve yüksek otomasyonlu makineler, çalışma sürecinden güvenilir bilgilere ihtiyaç duyar” dedi. Çalışma, tarım makinelerinin ve tarım robotlarının otomatik olarak bir arada çalışması öngörülen Feldschwarm projesinin parçası; proje Federal Araştırma Bakanlığı tarafından destekleniyor. Saksonya Eyaleti'nin videosu Feldschwarm projesini tanıtıyor."
+    ],
+    "d": "Otonom tarım makinelerinde tıkanmaları veya aşınmayı fark edecek sürücü yok. Fraunhofer IWU, aletlerin yüklenmesini ölçen sonradan takılabilir bir ölçüm manşeti geliştirdi.",
+    "t": "Kültivatör bir sıkışmayı fark ediyor: Fraunhofer tarla makinelerine sensör takıyor"
+   },
+   "at": "2026-11-10T13:46Z",
+   "h": "03c21ced8810",
+   "rev_dbg": [
+    7,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Mallorca'da yaylı dişli kültivatörlü traktör – Fraunhofer projesinden bir cihaz değil"
+   }
   },
   "jaeger-lecoultre-collectibles-viii-lecoultre-new-york": {
    "L": {
@@ -3052,6 +3098,33 @@
    ],
    "x": {
     "img.alt": "Nvidia CEO'su Jensen Huang (Arşiv fotoğrafı)"
+   }
+  },
+  "openai-control-room-notstopp": {
+   "L": {
+    "body": [
+     "OpenAI, pazartesi günü (9 Kasım) “Control Room” adlı dahili bir kontrol sistemini tanıttı. Şirketin verdiği bilgiye göre sistem, yapay zekâ modellerinin araştırmada çalıştığı tüm hesaplama işlerini kapsıyor; bunların arasında pekiştirmeli öğrenme deneyleri, model değerlendirmeleri, veri işleme ve eğitim ile testler için veri üreten ajanlar da var. Buna göre bu işlerin her biri için onaylanmış bir güvenlik kanıtı gerekiyor. Güvenlik kaygısı olması durumunda, durdurulan bir işin karardan en geç 35 saniye sonra artık çıktı üretmemesi öngörülüyor.",
+     "Uzman yayın RuntimeWire'a göre belirleyici olan sistemin yapısı: Onay, yalnızca ilgili işin kodunda değil, doğrudan modelin çalıştırılması sırasında denetleniyor; böylece bu kod hatalı olsa bile durdurma işlemi etkili oluyor. Control Room kapatılmışsa veya erişilemiyorsa, talepler kural olarak reddediliyor (“fail closed”). 35 saniye bilgisi OpenAI'dan geliyor ve bağımsız olarak doğrulanmış değil.",
+     "Sektör yayını AI Weekly'nin verdiği bilgiye göre sistem ChatGPT ve ticari programlama arayüzü için geçerli değil; dahili araştırma altyapısını ilgilendiriyor. OpenAI, Control Room'u modellerin hatalı yönelimli davranışlarına karşı genişletilmiş izleme çalışmalarıyla aynı çizgide konumlandırıyor."
+    ],
+    "d": "OpenAI, “Control Room” ile kendi araştırmalarındaki riskli model çalıştırmalarını merkezden durdurabilmeyi hedefliyor. Sistem devre dışı kalırsa tüm çıktılar engelleniyor.",
+    "t": "35 saniyede acil fren: OpenAI, araştırma yapay zekâsı için merkezi kapatma sistemi kuruyor"
+   },
+   "at": "2026-11-10T13:46Z",
+   "h": "863233bf937b",
+   "rev": [
+    "Weekday \"Pazartesi\" should be lowercase per TDK (\"pazartesi\")",
+    "\"fehlgeleitetes Verhalten\" rendered as \"yanlış yönlendirilmiş davranışlar\" is unnatural; \"istenmeyen/yanlış yönelimli davranış\" is better",
+    "\"grundsätzlich verweigert\" rendered as \"esas olarak\" is slightly off; \"kural olarak\" is more natural"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: OpenAI'ın ofislerinin bulunduğu San Francisco'daki Pioneer Building",
+    "kl": "Yapay zekâ güvenliği"
    }
   },
   "orforglipron-schlafapnoe-studie-2026-11-10": {

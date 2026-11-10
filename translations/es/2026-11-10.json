@@ -1118,6 +1118,28 @@
     "img.alt": "Foto de archivo: gasolinera de Rosneft en la carretera M2 en Rusia (2019)"
    }
   },
+  "eth-ethos-satellit-video": {
+   "L": {
+    "body": [
+     "La ETH Zúrich desarrolla el satélite de investigación ETHOS (Earth Thermosphere & Heliophysics Observing Satellite) junto con el Observatorio Físico-Meteorológico de Davos, la Universidad de Berna y la EPFL. Según la ETH, es la primera misión de la que la universidad asume toda la responsabilidad, desde la planificación y el lanzamiento hasta el final de su vida útil. El satélite procede de un proveedor comercial, pesa entre 25 y 30 kilogramos y orbitará a 550 kilómetros de altura; debería proporcionar datos a partir de 2030.",
+     "Contexto: las tormentas solares calientan la atmósfera superior de la Tierra, que se expande y frena más a los satélites. Tras una erupción solar en mayo de 2024, casi la mitad de los aproximadamente 10.000 satélites activos tuvo que corregir su órbita, según la ETH. ETHOS lleva cuatro instrumentos: miden la energía solar, observan la luz de rayos X y ultravioleta extremo durante las erupciones, siguen los cambios de la ionosfera y determinan con precisión su propia órbita.",
+     "Dado que muchas misiones sobre la radiación solar terminan hacia 2030, ETHOS debe continuar las series de mediciones sin interrupción. Louise Harra, del observatorio de Davos, dirige científicamente el proyecto; los estudiantes pueden colaborar en el desarrollo, la construcción, las pruebas y la operación. El vídeo de la ETH ofrece una visión general de la investigación espacial de la universidad."
+    ],
+    "d": "Con ETHOS, la ETH Zúrich asume por primera vez toda la responsabilidad de una misión satelital. El satélite, de 25 a 30 kilos, observará el Sol y la atmósfera superior desde 550 kilómetros a partir de 2030.",
+    "t": "Primer satélite propio: la ETH Zúrich mide cómo las tormentas solares inflan la termosfera"
+   },
+   "at": "2026-11-10T13:46Z",
+   "h": "150808f12415",
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: edificio principal de la ETH Zúrich con la Polyterrasse (2022)",
+    "kl": "Astronáutica"
+   }
+  },
   "euratex-global-fashion-agenda-allianz-kreislaufwirtschaft": {
    "L": {
     "body": [
@@ -1767,6 +1789,32 @@
     3,
     0
    ]
+  },
+  "iwu-feldschwarm-grubber-sensorik-video": {
+   "L": {
+    "body": [
+     "Cuando un tractor circula de forma autónoma por el campo, ya no hay nadie al volante que vea si se acumulan restos de plantas entre las púas de un cultivador. Por ello, el Instituto Fraunhofer de Máquinas Herramienta y Tecnología de Conformado IWU, en Chemnitz, ha desarrollado un manguito de medición de dos piezas que puede sujetarse a herramientas comerciales. Mide cuánto se flexiona el vástago de la herramienta, por separado según las fuerzas en el sentido de la marcha y transversales a este, y funciona en púas flexibles, distintas rejas y gradas de discos.",
+     "La electrónica evalúa los datos directamente en el aparato y transmite un valor de calidad compacto, por cable mediante CAN FD o de forma inalámbrica mediante el estándar de radio Thread. Además, un modelo digital de desgaste sigue cómo se desgastan las herramientas a lo largo del recorrido. En el canal de suelo de la TU Dresden, los investigadores enterraron una red de plástico para simular una obstrucción: cuando esta se enredó entre las herramientas, las señales de los sensores cambiaron claramente. Está previsto realizar ensayos de campo.",
+     "«Las máquinas autónomas y altamente automatizadas necesitan información fiable del proceso de trabajo», afirmó el director del proyecto, Markus Werner. El trabajo forma parte del proyecto Feldschwarm, en el que máquinas agrícolas y robots agrícolas deben trabajar de forma automatizada en conjunto; lo financia el Ministerio Federal de Investigación. El vídeo del Estado Libre de Sajonia presenta el proyecto Feldschwarm."
+    ],
+    "d": "Las máquinas agrícolas autónomas no tienen conductor que note obstrucciones o desgaste. El Fraunhofer IWU ha desarrollado un manguito de medición acoplable que registra la carga de las herramientas.",
+    "t": "Cuando el cultivador nota que algo se atasca: Fraunhofer dota de sensores a los aperos"
+   },
+   "at": "2026-11-10T13:46Z",
+   "h": "03c21ced8810",
+   "rev": [
+    "\"nadie al volante\" is a loose rendering of \"auf dem Bock\"; acceptable, left as is",
+    "\"TU Dresde\" is not the established name: the university is the TU Dresden",
+    "\"Bundesforschungsministerium\" is rendered as \"Ministerio Federal de Investigación\", which is slightly imprecise; changed to \"Ministerio Federal de Investigación\" with the usual \"Educación y\" omitted, "
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: tractor con cultivador de púas flexibles en Mallorca; no es un equipo del proyecto de Fraunhofer"
+   }
   },
   "jaeger-lecoultre-collectibles-viii-lecoultre-new-york": {
    "L": {
@@ -2839,6 +2887,28 @@
    ],
    "x": {
     "img.alt": "El consejero delegado de Nvidia, Jensen Huang (Foto de archivo)"
+   }
+  },
+  "openai-control-room-notstopp": {
+   "L": {
+    "body": [
+     "OpenAI presentó el lunes (9 de noviembre) un sistema de control interno llamado «Control Room». Según la empresa, registra todas las tareas de cálculo en las que se ejecutan modelos de IA en la investigación, entre ellas experimentos de aprendizaje por refuerzo, evaluaciones de modelos, procesamiento de datos y agentes que generan datos para entrenamiento y pruebas. Según esto, cada una de estas tareas necesita una prueba de seguridad aprobada. Si hay dudas de seguridad, una tarea detenida debería dejar de producir resultados como máximo 35 segundos después de la decisión.",
+     "Según el servicio especializado RuntimeWire, lo decisivo es la arquitectura: la autorización se comprueba directamente en la ejecución del modelo y no solo en el código de la tarea correspondiente, de modo que una parada surte efecto incluso si ese código es defectuoso. Si Control Room está desactivado o no es accesible, las solicitudes se rechazan por norma («fail closed»). El dato de los 35 segundos procede de OpenAI y no ha sido verificado de forma independiente.",
+     "Según el servicio sectorial AI Weekly, el sistema no se aplica a ChatGPT ni a la interfaz de programación comercial; afecta a la infraestructura interna de investigación. OpenAI sitúa Control Room junto a su vigilancia ampliada del comportamiento desviado de los modelos."
+    ],
+    "d": "Con «Control Room», OpenAI quiere poder detener de forma centralizada ejecuciones de modelos de riesgo en su propia investigación. Si el sistema falla, se bloquean todas las salidas.",
+    "t": "Freno de emergencia en 35 s: OpenAI crea un apagado central para su IA investigadora"
+   },
+   "at": "2026-11-10T13:46Z",
+   "h": "863233bf937b",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: el Pioneer Building de San Francisco, donde OpenAI tenía oficinas",
+    "kl": "Seguridad de la IA"
    }
   },
   "orforglipron-schlafapnoe-studie-2026-11-10": {
