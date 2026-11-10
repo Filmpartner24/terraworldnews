@@ -77,6 +77,35 @@
     "img.alt": "Imagen simbólica: edificio del Consejo de Ministros en Sofía"
    }
   },
+  "bulgarien-fon-der-layen-varna-radev-cherno-more-2026-11-10": {
+   "L": {
+    "body": [
+     "La presidenta de la Comisión Europea, Ursula von der Leyen, llega el martes a Varna y se reunirá con el primer ministro búlgaro, Rumen Radev. Según el programa publicado por la agencia BGNES, ambos visitarán la Academia Naval «Nikola Vaptsarov», donde está previsto crear un centro búlgaro de coordinación para la seguridad en el mar Negro, así como los centros y laboratorios de la academia. La conversación bilateral tendrá lugar en la residencia del Gobierno, Euxinograd, y está prevista una rueda de prensa conjunta a las 12:00.",
+     "El lunes, von der Leyen anunció en Bucarest que la Comisión aportará 50 millones de euros adicionales a Bulgaria y Rumanía para acelerar la creación de un centro de seguridad conjunto para el mar Negro, informó la cadena BNT. Bruselas destina otros 10 millones de euros a operaciones de búsqueda y rescate; además, la vigilancia del mar mediante los satélites Copernicus se reforzará de inmediato. «Tenemos que poner el centro de seguridad en condiciones de operar», dijo.",
+     "En Varna se tratarán, según lo previsto, la vigilancia marítima, la protección de las rutas comerciales y de las infraestructuras críticas, así como las amenazas híbridas. La visita se produce tras una serie de ataques con drones contra buques mercantes frente a las costas de Bulgaria y Rumanía. Desde Varna, von der Leyen viajará a Turquía, donde se celebra en Antalya la conferencia mundial del clima COP31; allí Radev representa a Bulgaria."
+    ],
+    "d": "La presidenta de la Comisión Europea visita hoy la Academia Naval y la residencia de Euxinograd. El día anterior prometió en Bucarest 50 millones de euros para un centro de Bulgaria y Rumanía.",
+    "t": "Von der Leyen se reúne con Radev en Varna: 50 millones de euros para un centro de seguridad en el mar Negro"
+   },
+   "at": "2026-11-10T06:55Z",
+   "flag": [
+    "Titel zu lang (107 Zeichen)"
+   ],
+   "h": "0b2b92602878",
+   "rev": [
+    "Headline: 'se reúne con Radev' lacks 'bei'; acceptable, but the word 'euros' is missing after '50 millones'",
+    "Untranslated German word 'bilateral' flagged; in Spanish 'bilateral' is the correct word, so no change needed",
+    "Teaser: 'prometió ... un centro de Bulgaria y Rumanía' – 'comprometió' is fine; no change needed"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: palacio de Euxinograd, cerca de Varna (2017)"
+   }
+  },
   "bulgarien-kzk-kaufland-globa-76-mln-kzp-signal-2026-11-10": {
    "L": {
     "body": [
@@ -1233,6 +1262,42 @@
    ],
    "x": {
     "img.alt": "Imagen simbólica: bloques de viviendas en el barrio sofiota de Sveta Troitsa"
+   }
+  },
+  "leben-cumberland-island-landtausch-wildpferde-2026-11-10": {
+   "L": {
+    "body": [
+     "Cumberland Island es una isla barrera de unos 29 kilómetros de largo frente a la costa sur del estado de Georgia, en EE. UU.: marismas, bosques costeros y playas atlánticas por donde deambulan caballos salvajes, jabalíes y ciervos. Desde 1972, el Servicio de Parques Nacionales (NPS) administra la isla como «National Seashore»; más de 9.800 acres (unas 4.000 hectáreas) están protegidos por ley como zona silvestre. Solo se puede llegar en un ferri de pasajeros desde St. Marys.",
+     "Ahora un canje de terrenos provoca polémica, según informó la cadena NPR el 9 de noviembre. El NPS quiere ceder terrenos a dos ramas de los descendientes de Thomas Carnegie, que podrían construir allí hasta ocho casas; según el Servicio de Parques, serán «modestas», de como máximo algo más de diez metros de altura y sujetas de forma permanente a condiciones de conservación de la naturaleza. A cambio, terrenos privados en zonas sensibles pasarían al parque. «Si no hacemos nada, es posible la edificación», afirma la directora del parque, Melissa Trenchik. Joseph Manning, de la organización Defenders of Wildlife, lo rebate: se están canjeando terrenos «por mansiones ostentosas».",
+     "El NPS recibió más de 12.500 comentarios; el plazo ha vencido. El Servicio de Parques estudia ahora si mantiene el plan, lo modifica o renuncia por completo a él. Los críticos reprochan además que el Servicio de Parques quiera duplicar el número diario de visitantes hasta 700."
+    ],
+    "d": "El Servicio de Parques Nacionales de EE. UU. quiere canjear terrenos con descendientes del industrial Thomas Carnegie, que podrían construir hasta ocho casas privadas. Los críticos hablan de mansiones en un paraíso natural.",
+    "t": "Cumberland Island: polémica por un canje de terrenos en la isla de los caballos salvajes"
+   },
+   "at": "2026-11-10T06:55Z",
+   "flag": [
+    "Teaser zu lang (223 Zeichen)"
+   ],
+   "h": "c6cac82afddd",
+   "rev": [
+    "\"gut zehn Meter\" means a bit over ten meters; the draft's \"poco más de diez metros de altura como máximo\" is clumsy, so it was reworded to \"como máximo, algo más de diez metros de altura\"",
+    "The teaser lost the German subject: it was the descendants who \"dürften\" build, and the conditional is kept but the sentence is ambiguous; left as is"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "facts": [
+     "Ubicación: isla barrera frente a la costa sur de Georgia, EE. UU.; unos 29 km de largo",
+     "Tamaño: más de 36.000 acres (unas 14.600 ha) de bosque, marismas y playas (NPS)",
+     "Estatus de protección: National Seashore, administrada por el NPS desde 1972; más de 9.800 acres de zona silvestre",
+     "Acceso: solo en ferri de pasajeros desde St. Marys",
+     "Fauna: caballos salvajes, jabalíes, ciervos",
+     "Mejor época para viajar: no se menciona en las fuentes"
+    ],
+    "img.alt": "Foto de archivo: caballos salvajes en Cumberland Island, Georgia"
    }
   },
   "leben-grippeimpfung-hochdosis-alzheimer-studie-2026-11-10": {
