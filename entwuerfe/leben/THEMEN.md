@@ -39,3 +39,4 @@ Themen mit aktuellem Anlass bevorzugen (neue Gesetze, Fristen, Preise, Saison). 
 - 2026-11-06 – Handgepäck: Wo 2 Liter Flüssigkeit erlaubt sind – und warum ab Sofia noch nicht – Entwurf
 - 2026-11-09 – Name passt zur IBAN? Ab 1. Dezember prüfen auch Bulgariens Banken den Empfänger – Entwurf
 - 2026-11-10 – Indexmiete: Deutschland will Erhöhungen bremsen – in Bulgarien zählt nur der Vertrag – Entwurf
+- 2026-11-11 – Gehalt schon in der Stellenanzeige: Bulgarien setzt EU-Regel um, Deutschland wartet – Entwurf
