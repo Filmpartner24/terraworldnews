@@ -163,6 +163,40 @@
     "img.alt": "Arşiv fotoğrafı: Belgrad'daki Rajko Mitić Stadı"
    }
   },
+  "berlin-ergotherapie-betrug-razzia-2026-11-11-b1830": {
+   "L": {
+    "body": [
+     "Berlin Savcılığı'nın talimatıyla Eyalet Kriminal Dairesi salı günü Berlin, Brandenburg ve Saksonya'da 14 konut ve iş yerinde arama yaptı. Polis ve savcılığın çarşamba günü yaptığı açıklamaya göre, bir ergoterapi muayenehanesiyle bağlantılı olarak yaşları 31 ile 70 arasında değişen altı şüpheli hakkında ticari çete halinde dolandırıcılık şüphesiyle soruşturma yürütülüyor.",
+     "Muayenehanenin Aralık 2024'ten bu yana en az 29 yasal sağlık sigortası kurumuna, hiç sunulmayan ya da yeterli niteliğe sahip olmayan personelce sunulan hizmetler için fatura düzenlediği iddia ediliyor. Ruhsat için, sahte diplomalarla var olmayan bir uzman yöneticinin gösterildiği öne sürülüyor. Soruşturmacıların değerlendirmesine göre ruhsat yalnızca bu aldatmaca sayesinde alındığı için, faturalandırılan tüm hizmetlerin geri ödemeye uygun olmadığı belirtildi. Soruşturmacılar zararı şimdiye kadar 6,7 milyon euronun üzerinde olarak hesapladı.",
+     "Aramalarda ticari belgelere, altı haneli tutarda nakit paraya ve iki lüks araca el konuldu; ayrıca özel ve ticari hesaplar bloke edildi. Şüpheliler için masumiyet karinesi geçerlidir."
+    ],
+    "d": "Berlin LKA'sı Berlin, Brandenburg ve Saksonya'da 14 konut ve iş yerinde arama yaptı. Altı şüpheli hakkında ticari çete halinde dolandırıcılık suçlamasıyla soruşturma yürütülüyor; nakit para ve araçlara el konuldu.",
+    "t": "Haksız fatura baskını: Muayenehanenin sağlık sigortalarına 6,7 milyon euro zarar verdiği iddia ediliyor"
+   },
+   "at": "2026-11-11T17:11Z",
+   "flag": [
+    "Titel zu lang (103 Zeichen)"
+   ],
+   "h": "f93c374524d5",
+   "rev": [
+    "Headline: 'Sahte fatura baskını' is not in the original (Abrechnungsbetrug = billing fraud); 'sigortalara' is imprecise (Krankenkassen = health insurers)",
+    "Teaser: 'ticari çete dolandırıcılığı' should be 'ticari çete halinde dolandırıcılık' for gewerbsmäßiger Bandenbetrug; 'soruşturma var' is awkward",
+    "Body 1: 'Berlin Cumhuriyet Savcılığı' is wrong; it should be 'Berlin Savcılığı'",
+    "Body 1: 'ticari çete dolandırıcılığı' corrected to 'ticari çete halinde dolandırıcılık'",
+    "Body 2: 'verilmeyen' is unclear; it should be 'hiç sunulmayan'",
+    "Body 3: 'hesaplara el konuldu' repeats the verb; arrestiert means the accounts were frozen/attached (arrest), so 'bloke edildi' fits better",
+    "Body 3: 'Sanıklar' (defendants) should be 'Şüpheliler' since no charges have been filed; 'Beschuldigte' = suspects at the investigation stage"
+   ],
+   "rev_dbg": [
+    7,
+    6,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin Eyalet Kriminal Dairesi binası (Sembolik fotoğraf)",
+    "kl": "Berlin"
+   }
+  },
   "berlin-fall-lisa-tatverdaechtiger-gestorben-2026-11-11-b1530": {
    "L": {
     "body": [
@@ -258,6 +292,32 @@
     0,
     0
    ]
+  },
+  "bib-monitor-wohlbefinden-paare-2026-11-11": {
+   "L": {
+    "body": [
+     "Almanya'da insanların hayatlarından ne kadar memnun olduğu, nasıl ve kiminle yaşadıklarıyla yakından bağlantılı. Merkezi Wiesbaden'de bulunan Federal Nüfus Araştırmaları Enstitüsü'nün (BiB) 11 Kasım'da tanıttığı “BiB.Monitor Wohlbefinden 2026” bunu gösteriyor. Araştırmacılar birden fazla temsili anketi değerlendirdi: 21-53 yaş arasındaki yetişkinler için 15.000'den fazla katılımcılı aile demografisi paneli FreDa'yı, 50 yaş ve üzerindekiler için ise Avrupa çapındaki SHARE araştırmasını. Katılımcılara “her şey düşünüldüğünde” şu anda hayatlarından ne kadar memnun oldukları 0 ile 10 arasında bir ölçekte soruldu.",
+     "En yüksek değer, evde çocuğu olmayan ve partneriyle yaşayan 21-53 yaş grubunda çıktı (7,5 puan); hemen ardından evde çocukları olan ebeveynler geldi (7,4). Çocuğu olmayan bekârlar 6,5, tek başına çocuk yetiştirenler 6,4 puana ulaştı. Ortak yazar Pauline Kleinschlömer, dpa'ya göre tek başına çocuk yetiştirenlerin çoğu zaman zorlu durumuna dikkat çekti: çocuk bakımı ile işin getirdiği çifte yük ve daha yüksek yoksulluk riski. Buna göre belirleyici olan yalnızca yaşam biçimi değil: İlişkisinden memnun olan kişi çoğunlukla hayatından da memnun. Para, boş zaman, ev işleri veya çocuk yetiştirme gibi gündelik konularda sık sık tartışan çiftler, böyle çatışmaları olmayan çiftlere göre daha az memnun.",
+     "50 yaş ve üzerindekilerde esenlik, çocuk sayısıyla birlikte artıyor; bu çocuklar çoğu zaman artık evde yaşamıyor. Torunlara düzenli bakmak da daha yüksek memnuniyetle birlikte görülüyor. BiB Direktörü Katharina Spieß, duygusal yakınlığın, karşılıklı desteğin ve iyi bir birlikteliğin çok farklı yaşam biçimlerinde esenliğe katkıda bulunabileceğini vurguladı. Siyasi başlangıç noktaları olarak aile ile iş hayatının bağdaştırılmasını, tek başına çocuk yetiştirenlere yönelik yardımları ile ebeveyn ve çift danışmanlığını sıraladı. Kısıtlama: Ölçülen şey mevcut memnuniyetti; Spieß'in verdiği bilgiye göre rapor, örneğin iklim veya ekonomiye ilişkin gelecek kaygılarını kapsamıyor. Veriler ayrıca nedenleri değil, değişkenler arasındaki bağlantıları gösteriyor."
+    ],
+    "d": "Federal Nüfus Araştırmaları Enstitüsü'nün yeni “Monitor Wohlbefinden” raporuna göre yakınlık ve karşılıklı destek, yaşam memnuniyetini yalnızca yaşam biçiminin belirlediğinden daha güçlü biçimde etkiliyor.",
+    "t": "Araştırma: Evde çocuğu olmayan çiftler en memnun, tek başına çocuk yetiştirenler en az"
+   },
+   "at": "2026-11-11T17:11Z",
+   "h": "a10bf7f8f37b",
+   "rev": [
+    "Teaser: 'yalnızca yaşam biçiminden daha güçlü' is ambiguous/wrong comparison; German says stronger than the living arrangement alone",
+    "'Veriler ayrıca ... yalnızca ilişkileri gösteriyor' – 'yalnızca' added, and 'ilişkiler' should be 'bağlantılar/ilişkilendirmeler' (Zusammenhänge = correlations)"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Yürüyüş yapan bir çift el ele tutuşuyor, yüzler görünmüyor (Sembolik fotoğraf)",
+    "kl": "Aşk ve İlişki"
+   }
   },
   "bob-der-woche-jessica-chastain-platin-joy-red-velvet": {
    "L": {
@@ -600,6 +660,31 @@
     "img.alt": "Sofya'daki Ulusal Meclis binası (Arşiv fotoğrafı)"
    }
   },
+  "bulgarien-verbot-gluecksspielwerbung-2026-11-11-b1830": {
+   "L": {
+    "body": [
+     "Bulgaristan Bakanlar Kurulu çarşamba günü, kumar reklamlarının tamamen yasaklanmasını öngören Kumar Yasası değişikliklerini onayladı. Bunu devlet haber ajansı BTA bildirdi. Yasağın, kumar operatörlerini ve onların logolarını ve diğer ayırt edici işaretlerini de kapsaması öngörülüyor. Hükümetin açıklamasına göre amaç, kumar bağımlılığının ortaya çıkmasını ve ağırlaşmasını önlemek ve özellikle savunmasız grupları korumak.",
+     "İstisnalar yalnızca sınırlı biçimde olacak: Operatörlerin ticari markaları, spor kulüplerinin, federasyonların ve kuruluşların sponsorluğuyla ya da kültür, sağlık ve eğitimin desteklenmesiyle bağlantılı olması halinde görünmeye devam edebilecek.",
+     "Ayrıca kumar tekliflerinin reklamını yapan sözde affiliate sağlayıcılarının faaliyetine de son verilmesi öngörülüyor. Eylül ayı sonunda Sofya'da parlamento önünde insanlar kumarı protesto etmişti. Yasa değişikliklerini Ulusal Meclis'in de onaylaması gerekiyor."
+    ],
+    "d": "Bakanlar Kurulu, Kumar Yasası'nda yapılan değişiklikleri onayladı. Operatörlerin logoları da kaldırılacak; istisna yalnızca spor, kültür, sağlık ve eğitim sponsorluğunda olacak.",
+    "t": "Bulgaristan: Hükümet kumar reklamlarını tamamen yasaklamak istiyor"
+   },
+   "at": "2026-11-11T17:11Z",
+   "h": "86e8a76707b1",
+   "rev": [
+    "Capitalisation: 'Parlamento' is a common noun here and should be lowercase, since the German refers to the parliament building generally",
+    "Awkward and ambiguous phrasing: 'kumar tekliflerinin reklamını yapan, sözde affiliate sağlayıcılarının'"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sofya'daki Bakanlar Kurulu binası (Arşiv fotoğrafı)"
+   }
+  },
   "bulgarien-vihren-spasyavane-granichna-policiya-2026-11-11": {
    "L": {
     "body": [
@@ -669,6 +754,34 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: 2022'de Münih'teki Allianz Arena'da Almanya'daki ilk NFL maçı (Arşiv fotoğrafı)"
+   }
+  },
+  "bundestag-einheitsflagge-aktuelle-stunde-2026-11-11-b1830": {
+   "L": {
+    "body": [
+     "Reichstag binası önündeki eylemden üç gün sonra Bundestag, çarşamba günü Güncel Saat oturumunda olayı ele aldı. Bir adam pazar günü Platz der Republik'teki bayrak direğine tırmanmış ve siyah-kırmızı-altın renkli büyük “Birlik Bayrağı”nı bir Filistin bayrağıyla değiştirmişti. Görüşmeyi AfD grubu talep etmişti.",
+     "Bundestag Başkan Yardımcısı Omid Nouripour (Yeşiller), Alman Basın Ajansı'nın (dpa) aktardığına göre olayı “büyük bir skandal” ve “bu meclisin onuruna saldırı” olarak nitelendirdi; devletin sembollerine hakaret etmenin Gazze'deki çocuklarla dayanışma anlamına gelmediğini söyledi. Tek karşı ses olarak Linke Genel Başkanı Luigi Pantisano, tırmanan kişi yüzünden “Bundestag'ın güvenliğinin” ve Almanya'nın güvenliğinin de tehlikeye girmediğini savundu. Pantisano ayrıca İsrail'i Gazze Şeridi'nde Filistinlilere yönelik “soykırım” yapmakla suçladı.",
+     "Berlin polisi, Bundestag'ın dış koruma önlemlerini uyarlayacağını açıkladı. Birlik grubu lideri Thorsten Frei (CDU), toplantıların yasaklanabileceği bir yasak bölge oluşturulmasını önerdi. Şu ana kadar Reichstag binasının çevresindeki korunan bölgede gösteriler belirli koşullarla serbest."
+    ],
+    "d": "Güncel Saat oturumunda neredeyse tüm grupların milletvekilleri Birlik Bayrağı'nın Filistin bayrağıyla değiştirilmesini kınadı. Birlik grubu lideri Frei, yeniden yasak bölge (Bannmeile) önerisini gündeme getirdi.",
+    "t": "Reichstag'da bayrak değişimi: Bundestag eylemi kınadı, yalnızca Linke lideri karşı çıktı"
+   },
+   "at": "2026-11-11T17:11Z",
+   "h": "59e5f1fc1341",
+   "rev": [
+    "\"Bir erkek\" is unnatural for \"Ein Mann\"; should be \"Bir adam\"",
+    "The Pantisano quote is broken: \"nicht die Sicherheit im Bundestag\" was cut to \"Bundestag'ın güvenliğinin\", which garbles the sentence",
+    "\"Bannmeile\" rendered as \"yasak bölge\", which is unclear; \"koruma bölgesi\" is clearer and consistent",
+    "Mixed register: \"Genel Başkanı\" for \"Linken-Chef\" is acceptable but \"Linke Partisi Eş Genel Başkanı\" is not needed; kept as is",
+    "The Frei sentence loses the conditional \"könnten\"; the draft keeps it, so no edit"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin'de Reichstag binasının önündeki Birlik Bayrağı (Arşiv fotoğrafı)"
    }
   },
   "celine-printemps-2027-kampagne-ghertner-pantera": {
@@ -1114,6 +1227,33 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Sahra Wagenknecht “Maischberger” programında, 2023"
+   }
+  },
+  "dfb-el-mala-zurueck-klopp-streicht-2026-11-11-b1830": {
+   "L": {
+    "body": [
+     "Said El Mala çarşamba günü Herzogenaurach'taki milli takım antrenmanına geri döndü. Almanya Milli Takım Teknik Direktörü Jürgen Klopp, 1. FC Köln'ün 20 yaşındaki kanat oyuncusunu SID'in haberine göre salı günü dinlendirmişti. Böylece Klopp'un emrinde 24 oyuncunun tamamı vardı.",
+     "Ancak her maç için yalnızca 23 oyuncu bildirilebiliyor; yani Klopp'un bir oyuncuyu daha kadro dışı bırakması gerekiyor. SID'in verdiği bilgilere göre ilk aday, Borussia Mönchengladbach'tan 17 yaşındaki yeni isim Wael Mohya.",
+     "Almanya cuma günü (20:45, RTL) Belgrad'da Sırbistan ile oynayacak, pazartesi günü ise Berlin Olimpiyat Stadı'nda Hollanda ile iç saha maçı var. Klopp, “Gerçekten hazır olduğumuzdan emin olmalıyız ve Berlin'deki ‘final’ için kendimizi garantileyebilmeliyiz” dedi."
+    ],
+    "d": "Kölnlü Said El Mala milli takım antrenmanına döndü. Maç kadrosuna yalnızca 23 oyuncu yazılabildiği için Klopp birini çıkarmak zorunda; ilk aday yeni isim Wael Mohya.",
+    "t": "El Mala geri döndü: Klopp'un 24 oyuncusu da hazır – Belgrad öncesi biri kadro dışı kalacak"
+   },
+   "at": "2026-11-11T17:11Z",
+   "h": "676317f14fad",
+   "rev": [
+    "Headline: 'geri döndü' lacked context and 'kadro dışı kalacak' is acceptable; no change needed",
+    "Teaser fine",
+    "Body 1: 'SID'in haberine göre' was placed so that it could be read as modifying only the rest of the sentence; the fact that Klopp rested him on Tuesday is attributed to SID, which is fine",
+    "Body 3: 'kendimizi nitelendirebilmeliyiz' is unnatural; should be 'finale yükselmek/katılmaya hak kazanmak' for 'sich qualifizieren'"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "TERRA WORLD NEWS başlık görseli"
    }
   },
   "dfb-treu-scherhant-pressekonferenz-2026-11-11-b1530": {
@@ -1789,6 +1929,34 @@
     "img.alt": "Sembolik fotoğraf: İkinci el giyim mağazası"
    }
   },
+  "festival-time-warp-mannheim-2027-line-up": {
+   "L": {
+    "body": [
+     "Time Warp, Mannheim'daki 2027 edisyonunun programını açıkladı. Techno festivali 3 Nisan 2027 Cumartesi günü Maimarktgelände'de yapılacak, saat 21:00'de başlayacak ve Pazar günü saat 14:00'e kadar sürecek. DJ Mag Germany'ye göre her biri kendi ışık ve ses sistemine sahip beş floor'da 49 sanatçının katılımı onaylandı. Giriş 18 yaşından itibaren.",
+     "İsimler arasında Sven Väth, Richie Hawtin, Nina Kraviz, Joseph Capriati, Loco Dice, Charlotte de Witte, Mau P ve WhoMadeWho yer alıyor. Bunlara Ben Klock B2B Rødhåd, Kevin de Vries B2B Maceo Plex ve Ben UFO B2B Enzo Siragusa gibi ortak setler de ekleniyor. Alarico, Chlär ve Yanamaste ilk kez üçlü olarak sahne alacak.",
+     "Festivalin ek sonbahar edisyonu, DJ Mag'e göre 2026'dan itibaren sona erdirildi. Haber, fiyatları ve ön satış tarihlerini belirtmiyor; resmi festival sayfasına yönlendiriyor."
+    ],
+    "d": "Techno festivali 3 Nisan 2027'de Maimarktgelände'de düzenlenecek: beş floor'da 49 sanatçı. Sonbahar edisyonu bu yıldan itibaren yapılmıyor.",
+    "t": "Time Warp Mannheim 2027: Sven Väth, Richie Hawtin ve Charlotte de Witte programda"
+   },
+   "at": "2026-11-11T17:11Z",
+   "h": "8aa1bbcd4009",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "facts": [
+     "Tarih: Cmt, 03.04.2027, 21:00 – Paz, 14:00",
+     "Yer: Maimarktgelände Mannheim",
+     "Beş floor, 49 sanatçı, 18 yaş ve üzeri",
+     "Aralarında Sven Väth, Richie Hawtin, Nina Kraviz, Charlotte de Witte, Loco Dice",
+     "Ben Klock B2B Rødhåd, Kevin de Vries B2B Maceo Plex"
+    ],
+    "img.alt": "Sven Väth 2014'teki Mayday'de (Arşiv fotoğrafı)"
+   }
+  },
   "film-clashing-through-the-snow-trailer-prime": {
    "L": {
     "body": [
@@ -1965,6 +2133,33 @@
    ],
    "x": {
     "img.alt": "TWN Games kapak görseli: Fortis Games’in kapanışı"
+   }
+  },
+  "frankreich-tchouameni-abgereist-2026-11-11-b1830": {
+   "L": {
+    "body": [
+     "Fransa milli takımı, Uluslar Ligi'nde Aurélien Tchouaméni olmadan oynamak zorunda kalacak. Fransa Futbol Federasyonu FFF'nin açıklamasına göre Real Madrid'li orta saha oyuncusu “sağ adduktöründe yeniden rahatsızlık” hissediyor. Federasyon, sorunların Clairefontaine'de ortaya çıktığını; Real Madrid'in sağlık birimiyle yapılan görüşmenin ardından oyuncunun mutabakatıyla kulübüne geri gönderildiğini belirtti.",
+     "Yerine yeni bir oyuncunun çağrılmayacağı bildirildi. Milli takım teknik direktörü Zinedine Zidane'ın orta sahada aralarında Eduardo Camavinga, Warren Zaïre-Emery ve Adrien Rabiot'nun da bulunduğu seçenekleri var.",
+     "Fransa, Uluslar Ligi grubunda dört maçta on puanla lider. Takım perşembe günü İtalya'da, pazar günü ise evinde Türkiye'yle karşılaşacak."
+    ],
+    "d": "Federasyona göre Real Madrid'li orta saha oyuncusu sağ adduktöründe yeniden rahatsızlık yaşıyor. Fransa yerine yeni oyuncu çağırmayacak; perşembe günü İtalya deplasmanı var.",
+    "t": "Zidane için bir kayıp daha: Tchouaméni Fransa milli takımından ayrılıyor"
+   },
+   "at": "2026-11-11T17:11Z",
+   "h": "3b79e5c5b251",
+   "rev": [
+    "Weekdays must be lowercase in Turkish (Perşembe, Pazar) per TDK, in the teaser and in the body",
+    "\"Rabiot'nun\" is the wrong suffix; it should be \"Rabiot'nun\" with the silent final t, which in Turkish is written \"Rabiot'nun\" (kept) — but \"Zinédine\" is misspelled; the established spelling is \"Zinedi",
+    "\"evinde\" was added; the German only says \"empfängt\", so it should be \"Türkiye'yi konuk edecek\" or similar. \"evinde ... karşılaşacak\" is acceptable, so it is left as is",
+    "Teaser: \"yaşıyor\" is fine, but \"Federasyona göre\" correctly keeps the attribution"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Aurélien Tchouaméni Fransa forması içinde (Arşiv fotoğrafı)"
    }
   },
   "frankreich-thuram-kroupi-nachnominiert-2026-11-11-b11": {
@@ -2247,6 +2442,33 @@
     3,
     0
    ]
+  },
+  "kabinett-strategische-gasreserve-2026-11-11-b1830": {
+   "L": {
+    "body": [
+     "Federal Bakanlar Kurulu çarşamba günü Ekonomi Bakanı Katherina Reiche'nin (CDU) stratejik gaz rezervine ilişkin kanun tasarısını onayladı. Rezervin yalnızca istisnai durumlarda, örneğin olağanüstü olaylarda, sabotajda veya nadir görülen büyük olaylarda kullanılması öngörülüyor. Rezervin maliyeti gaz müşterilerine yansıtılacak bir ek ücretle karşılanacak; ek ücretin tutarına ilişkin başlangıçta bir bilgi verilmedi.",
+     "“Stratejik gaz rezervi bizi yüksek fiyatlara karşı değil, kriz durumlarına karşı sigortalıyor” diyen Reiche'nin sözleri dpa-AFX'e göre şöyle: Reiche bunu belirtti. Rezervin piyasanın yerini alması amaçlanmıyor: Kış hazırlığı ve müşterilerin gaz tedariki için sorumluluk piyasa aktörlerinde kalmaya devam ediyor. Gaz depolarının doluluk oranlarına ilişkin mevcut yasal düzenlemeler uzatılmayacak ve Mart 2027 sonunda sona erecek.",
+     "1 Kasım itibarıyla ortalama yüzde 70 doluluk hedefine bu yıl ulaşılamadı. Bakanlığın kadın sözcüsü, buna rağmen kış boyunca tedarikin güvence altında olduğunu belirtmişti. Bakanlık ayrıca, planlanan AB enerji güvenliği çerçevesi kapsamında gaz tedarikçilerine daha fazla yükümlülük getirilmesini inceliyor; bu, olasılıkla yaptırımlı tedarik yükümlülüklerini de içerebilir."
+    ],
+    "d": "Federal hükümet, sabotaj gibi kriz durumları için ulusal bir gaz rezervi oluşturmak istiyor. Rezerv bir ek ücretle finanse edilecek. Depolar için doluluk şartları ise Mart 2027 sonunda sona erecek.",
+    "t": "Kabine stratejik gaz rezervini onayladı – maliyeti gaz müşterileri ek ücretle ödeyecek"
+   },
+   "at": "2026-11-11T17:11Z",
+   "h": "a68e42ac2237",
+   "rev": [
+    "Quote sentence broken: the quote was turned into an odd participle construction (\"diyen Reiche ... konuştu\")",
+    "\"Ministeriumssprecherin\" (female) was rendered as \"Bakanlık sözcüsü\", which loses the gender and the attribution is weak; the indirect speech must be marked as reported",
+    "\"Wirtschaftsministerin\" rendered as \"Ekonomi Bakanı\"; acceptable, but the \"Bakanlar Kurulu\" and wording are otherwise fine",
+    "\"möglicherweise\" rendered as \"olasılıkla\" with an indicative verb (\"içerebilir\"), which is acceptable; slightly unnatural wording smoothed"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Rehden'deki gaz depolama tesisi (Sembolik fotoğraf)"
+   }
   },
   "kaist-gaze-flash-speicher": {
    "L": {
@@ -3169,6 +3391,36 @@
     "img.alt": "Yannick Cahuzac 2020'de RC Lens kaptanı olarak (Arşiv fotoğrafı)"
    }
   },
+  "los-angeles-minivan-metro-drei-tote-2026-11-11-b1830": {
+   "L": {
+    "body": [
+     "Los Angeles'ın North Hollywood semtindeki bir metro istasyonunun önünde salı akşamı yerel saatle 18:00'den kısa süre önce bir minibüs insan grubunun arasına daldı. Üç kişi hayatını kaybetti, iki kadın yaşamsal tehlike taşıyan yaralar aldı. Belediye Başkanı Karen Bass'in verdiği bilgiye göre kurbanlar arasında seyyar satıcılar ve yayalar vardı. Araç, kaldırımda bir yemek standının çadırının altında durdu.",
+     "Polis, AP haber ajansının verdiği bilgiye göre 61 yaşındaki sürücüyü alkollü araç kullanma ve üç kişiyi öldürme şüphesiyle gözaltına aldı. AP'ye göre sürücüyle iletişim kurulabiliyordu, ancak şok içindeydi. Sürücünün kasten hareket edip etmediği henüz belli değil. Polis Kaptanı Warner Castillo, “Bunun kasten mi yoksa kazara mı olduğunu bilmiyoruz” dedi.",
+     "Emniyet Müdürü Jim McDonnell, kazanın görüntülerini kare kare inceleyeceklerini açıkladı; soruşturmanın “uzun sürecek ama çok titiz” olacağını söyledi. İstasyonun bir girişi salı akşamı kapalı kaldı, otobüs ve metro seferleri ise devam etti. Gözaltına alınan kişi için masumiyet karinesi geçerlidir."
+    ],
+    "d": "North Hollywood'da yoğun trafik saatinde üç kişi öldü, iki kadın ağır yaralandı. Polis, 61 yaşındaki sürücüyü alkollü araç kullanma ve üç kişiyi öldürme şüphesiyle gözaltına aldı.",
+    "t": "Los Angeles: Minibüs metro istasyonu önünde kalabalığa daldı, sürücü cinayetten gözaltında"
+   },
+   "at": "2026-11-11T17:11Z",
+   "h": "449673e973a6",
+   "rev": [
+    "The headline still contains the untranslated loanword 'Minivan'; the German title also says Mordes (murder), which the Turkish headline omits, so the headline needs to state the murder charge.",
+    "The teaser says the driver was detained on suspicion of killing three people, which is fine, but the teaser's 'Berufsverkehr' wording and the German 'Mordes in drei Fällen' stay as in the draft. The c",
+    "'Minivan' is lowercase in the body and should be translated as 'minibüs'.",
+    "The body's 'hastaneye kaldırıldı' is an addition; the German only says the women were critically injured.",
+    "'Polis Yüzbaşı' for 'Polizei-Captain' is an unnatural rank rendering; 'Kaptan' is the better fit.",
+    "'Sürücü ... belirtildi' passive loses a clear attribution to AP; the indirect speech should be attributed to AP/police."
+   ],
+   "rev_dbg": [
+    6,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Los Angeles'taki North Hollywood metro istasyonu (Arşiv fotoğrafı)",
+    "kl": "ABD"
+   }
+  },
   "ls-fuellkrug-nmecha-pk-2026-11-11": {
    "L": {
     "body": [
@@ -3461,6 +3713,59 @@
     "img.alt": "Paul George, eski takımı Philadelphia 76ers formasıyla (Arşiv fotoğrafı)"
    }
   },
+  "news-carl-cox-obe-windsor": {
+   "L": {
+    "body": [
+     "Carl Cox, Salı günü Windsor Şatosu'nda Officer of the Order of the British Empire (OBE) unvanına layık görüldü. DJ Mag Germany'nin haberine göre Prens William, 64 yaşındaki sanatçıya müziğe hizmetlerinden dolayı verilen nişanı takdim etti. Onur, Haziran ayında King's Birthday Honours kapsamında zaten duyurulmuştu. Cox törene kız arkadaşı ve kız kardeşleriyle birlikte geldi; tören için devam eden ABD turnesine ara verdi, Çarşamba günü Atlanta'ya devam etti.",
+     "“Çok gururluyum ve annemle babamın da benimle çok gurur duyacağını biliyorum” diyen Cox, Prens William'ın, Cox'un sözlerine göre, müziğinin uzun yıllardır hayranı olduğunu, ikisinin de motosiklet konusundaki ortak tutkuları hakkında konuştuklarını söyledi. OBE şövalyelik anlamına gelmiyor; dolayısıyla Cox kendisine “Sir” diyemeyecek.",
+     "Cox 15 yaşında ilk kez plak çalarların başına geçti ve üç plak çalarla yaptığı setlerle tanındı. 2001'den 2016'daki kapanışa kadar Ibiza'daki Club Space'in rezident DJ'iydi. 2027'de DJ olarak 50. yılını kutlayacak."
+    ],
+    "d": "Prens William, İngiliz DJ'e müziğe hizmetlerinden dolayı OBE nişanını takdim etti. Cox, tören için ABD turnesinin ortasında İngiltere'ye uçtu.",
+    "t": "Carl Cox, Windsor Şatosu'nda OBE aldı: “Ailem gurur duyardı”"
+   },
+   "at": "2026-11-11T17:11Z",
+   "h": "3f805fbde590",
+   "rev": [
+    "Teaser: \"nişanı\" is vague; the German says \"Verdienstorden\" (OBE), so it should be specific",
+    "Body 1: \"unvanına layık görüldü\" is acceptable; no change",
+    "Body 2: \"Prens William'ın kendisine göre\" is ambiguous (could be read as \"in William's own view\"); it should be \"Cox'un sözlerine göre\"",
+    "Body 2: redundant, awkward second attribution \"Cox'a göre\"",
+    "Body 2: \"Çarşamba günü Atlanta'ya devam etti\" is acceptable"
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Carl Cox, Ibiza'daki Club Space'te DJ kabininde (Arşiv fotoğrafı)"
+   }
+  },
+  "news-ecco2k-echo-album": {
+   "L": {
+    "body": [
+     "Ecco2k son dakikada yeni bir solo albüm duyurdu: Resident Advisor'ın haberine göre “Echo”, 12 Kasım'da kendi plak şirketi 9th'den yayımlanacak. Albüm, İsveçli müzisyenin 2019 tarihli ilk albümü “E”'den bu yana çıkan ilk solo albümü. Ecco2k, 2022'de Stockholm merkezli Drain Gang kolektifinin kurucu ortağı Bladee ile birlikte ortak albüm “Crest”i yayımlamıştı.",
+     "On iki şarkı, daha önce yayımlanan “Aldehydes And Ketones” ve “Sky Burial” single'larını içeriyor. RA'ya göre yapımda diğerlerinin yanı sıra Gud, Whitearmor, Felix Lee ve Mechatok yer aldı. Ecco2k, yıl bitmeden Buenos Aires ve São Paulo'daki Primavera Sound'da sahne alacak."
+    ],
+    "d": "Drain Gang çevresinden İsveçli müzisyen, kendi plak şirketinden on iki şarkılık “Echo”yu yayımlıyor. İki single şimdiden çıktı.",
+    "t": "Ecco2k: Yedi yıl sonra ilk solo albüm yarın yayımlanıyor"
+   },
+   "at": "2026-11-11T17:11Z",
+   "h": "f635722aaade",
+   "rev": [
+    "\"Bladee, dem Mitgründer\" ile ilgili ifade yanlış çevrilmiş: \"kurucu ortaklarından\" (\"Mitgründer\" = kurucu ortağı, tek kişi); düzeltildi",
+    "\"Ecco2k ... ortak albüm\" tekrarı ve \"birlikte ortak\" pleonazmı giderildi",
+    "\"Erstes Soloalbum seit sieben Jahren\" doğru; \"schon morgen\" için \"yarın\" doğru, ancak gövdede \"kısa süre önce\" (kurzfristig) \"son anda/kısa bir süre önceden\" anlamında; \"kısa süre önce\" yanıltıcı olab"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Ecco2k, 2022'de Houston'da bir konserde (Arşiv fotoğrafı)"
+   }
+  },
   "nikotinbeutel-verbot-aerzte-2026-11-11": {
    "L": {
     "body": [
@@ -3719,6 +4024,60 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Kaşmir kazak"
+   }
+  },
+  "rapidus-2nm-verzoegerung-2026-11-11-b1830": {
+   "L": {
+    "body": [
+     "Japonya'nın devlet destekli çip üreticisi Rapidus, 2027 mali yılının ikinci yarısından itibaren, yani en geç Mart 2028'e kadar 2 nanometre teknolojisiyle seri üretime geçme hedefini kaçırabilir. Finans ajansı Bloomberg'in edindiği bilgilere göre şirket henüz çalışan bir SRAM belleği üretemedi; bu ara adımın 2026 yazına kadar başarılması gerekiyordu.",
+     "Japon haber ajansı Jiji'nin “Seoul Economic Daily”ye dayandırdığı habere göre, Jiji içeriden kaynaklara dayanarak Rapidus'un bir yıllık erteleme seçeneğini değerlendirdiğini bildirdi. Aktarıma göre transistörlerin birbirine bağlanması teknolojisinde sorunlar yaşanıyor, ayrıca verimdeki iyileşme yalnızca yavaş ilerliyor. Rapidus ise seri üretimin 2027 mali yılının ikinci yarısında başlaması için her şeyi yapmaya devam edeceklerini açıkladı.",
+     "Rapidus, 2022'de Toyota, Sony, NTT ve SoftBank gibi şirketlerin desteğiyle kuruldu ve IBM ile iş birliği yapıyor. Tokyo'daki hükümet, şirketi 2027 mali yılına kadar 3 trilyon yenin üzerinde sübvansiyon ve sermayeyle desteklemeyi planlıyor. 2 nanometre çiplerde pazar lideri Tayvanlı TSMC'dir."
+    ],
+    "d": "Bloomberg ve Jiji'nin haberlerine göre Rapidus, verim ve teknoloji sorunlarıyla mücadele ediyor. Devletten 3 trilyon yenin üzerinde destek alan üretici, resmen takvime bağlı kaldığını söylüyor.",
+    "t": "Japonya'nın çip umudu sarsılıyor: Rapidus'un 2 nanometre çiplerinde bir yıl gecikme riski"
+   },
+   "at": "2026-11-11T17:11Z",
+   "h": "2d72bd8a7956",
+   "rev": [
+    "Rapidus'un resmi açıklaması \"alles tun\" (her şeyi yapmak) anlamını kaybetmişti; \"çabalarını sürdüreceklerini\" ifadesi zayıf.",
+    "Jiji/Seoul Economic Daily ifadesi \"Seoul Economic Daily'ye göre\" şeklinde bozuk ve bağlantısı belirsiz; \"insider\" ifadesi \"kaynaklara\" olarak belirsiz kalmıştı.",
+    "Son cümlede yüklem eksik ve doğal değil (\"pazar lideri Tayvanlı TSMC\")."
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Yapım aşamasındaki Rapidus fabrikası (Arşiv fotoğrafı)"
+   }
+  },
+  "review-skepta-the-fork-and-knife": {
+   "L": {
+    "body": [
+     "Skepta, yedi yıl aradan sonraki ilk solo albümü “The Fork and Knife”ı 6 Kasım'da yayımladı. Complex dergisinin incelemesine göre Londralı rapçi daha oturaklı ve olgun bir sesle konuşuyor: Babalık, Nijerya-İngiliz kökeni ve Büyük Britanya'daki yeri albüm boyunca işlenen temalar arasında. Albüm görsel ve müzikal olarak futbolla ve Windrush kuşağıyla oynuyor.",
+     "Albümü üç Complex eleştirmeni değerlendirdi. Joseph JP Patterson 5 üzerinden 5 puan veriyor ve yazdığına göre İngiliz sahnesinin tam da böyle bir albüme ihtiyacı vardı. Yemi Abiade (4/5) albümün yedi yıllık bekleyişe değdiğini söylüyor, ses ve hikâye anlatımını övüyor; James Keith (4/5) ise albümü akıllıca bir dönüş olarak değerlendiriyor. Şarkıların yaklaşık dörtte üçü grime; bunlara trap, dubstep, Afro-house ve rave'e uzanan kısa çıkışlar ekleniyor. Konuklar arasında Project Pat, Asake, Jme, Suggs ve Chase & Status var. “Gas Me Up” gibi önceden bilinen single'lara eleştiri yöneltiliyor; eleştirilere göre şarkı listesi daha kısa olabilirdi.",
+     "Nijeryalı Afrobeats yıldızı Asake ile yaptığı “Aloe Vera” şarkısı, Skepta'nın VEVO kanalında resmi ses kaydı olarak yer alıyor. notjustOK'a göre şarkıdaki aloe, baskı altında iyileşmeyi ve sakinliği simgeliyor."
+    ],
+    "d": "Londralı rapçinin yedi yıl aradan sonraki ilk solo albümü babalık ve köken üzerine. Üç Complex eleştirmeni albüme bir kez 5, iki kez 4 puan (5 üzerinden) verdi.",
+    "t": "Skepta – “The Fork and Knife” incelemesi: Yaşam deneyimi taşıyan grime"
+   },
+   "at": "2026-11-11T17:11Z",
+   "h": "2b258dd53bfd",
+   "rev": [
+    "Turkish word order: \"yedi yıl sonraki ilk solo albümü\" is unnatural and ambiguous; rephrased as \"yedi yıl aradan sonraki ilk solo albümü\" (teaser and body)",
+    "Quote marks: draft uses typographic quotes consistently, fine; no change",
+    "\"Joseph JP Patterson ... yazdığına göre\" is acceptable attribution; kept",
+    "\"Kritik gibi ... eleştirilere göre\" – German says criticism exists that the list could have been shorter; attribution ok"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Skepta, 2016'da Londra'daki Field Day Festivali'nde (Arşiv fotoğrafı)",
+    "rv.score": "Complex: 5/5 · 4/5 · 4/5 (üç eleştirmen)"
    }
   },
   "reynoso-canelo-hutchinson-option": {
@@ -4118,6 +4477,38 @@
    ],
    "x": {
     "img.alt": "Fury-Joshua maçının yapılacağı Cardiff'teki Principality Stadium (Arşiv fotoğrafı)"
+   }
+  },
+  "tour-the-dead-south-silence-please-2027": {
+   "L": {
+    "body": [
+     "The Dead South, beşinci stüdyo albümü “Silence, Please”i 5 Mart 2027'de yayımlayacak. Kanadalı bluegrass grubu albümü, Eventim dergisinin haberine göre Londra'daki Abbey Road Studios'ta kaydetti.",
+     "Grup, Kasım 2027'de yedi konser için Almanya'ya geliyor: Turne 11 Kasım'da Köln'deki E-Werk'te başlayacak, ardından Stuttgart, Münih, Leipzig, Hannover ve Berlin'deki Tempodrom gelecek. Turne 30 Kasım'da Hamburg'daki Große Freiheit 36'da sona erecek. Haberde Avusturya veya İsviçre'de konser tarihi belirtilmiyor.",
+     "Biletler, Eventim'e göre 11 Kasım 2026 Çarşamba günü saat 16:00'dan itibaren satışta."
+    ],
+    "d": "Kanadalı bluegrass grubu beşinci albümü “Silence, Please”i Abbey Road Studios'ta kaydetti. Almanya turnesi için ön satış bugün saat 16:00'da başladı.",
+    "t": "The Dead South: Yeni albüm Mart'ta – Kasım 2027'de Almanya'da yedi konser"
+   },
+   "at": "2026-11-11T17:11Z",
+   "h": "49e49b6728a9",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "facts": [
+     "11.11.2027 – Köln, E-Werk",
+     "13.11.2027 – Stuttgart, Wagenhallen",
+     "15.11.2027 – Münih, TonHalle",
+     "16.11.2027 – Leipzig, Haus Auensee",
+     "19.11.2027 – Hannover, Capitol",
+     "20.11.2027 – Berlin, Tempodrom",
+     "30.11.2027 – Hamburg, Große Freiheit 36",
+     "Albüm “Silence, Please”: 05.03.2027",
+     "Ön satış: Çarşamba, 11.11.2026, saat 16:00"
+    ],
+    "img.alt": "The Dead South, 2019 Glastonbury Festivali'nde (Arşiv fotoğrafı)"
    }
   },
   "tsmc-milliarde-anthropic-openai": {
