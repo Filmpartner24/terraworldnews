@@ -549,6 +549,32 @@
     "img.alt": "Imagen simbólica: boutique de Celine"
    }
   },
+  "claude-sheets-whiteboards-meetings": {
+   "L": {
+    "body": [
+     "El desarrollador de IA Anthropic ataca el software de oficina clásico con nuevas herramientas. El martes (10 de noviembre), la empresa presentó tres funciones en beta: con Claude Sheets, los equipos crean y editan hojas de cálculo junto con la IA, con varias pestañas, fórmulas, formatos y listas desplegables; Claude modifica las celdas directamente y enumera cada cambio. Claude Whiteboards es una pizarra compartida en la que la IA convierte lo hablado en calendarios y plazos; las pizarras terminadas pueden transformarse en un documento o una presentación. Ambas están disponibles en los planes de pago en la web, en el escritorio y en el móvil.",
+     "Claude Meetings envía la IA a las videoconferencias como participante visible; al inicio, solo en Google Meet y para clientes de los planes Team y Enterprise. Según TechCrunch, durante la conversación Claude puede redactar un plan, crear una cronología en la pizarra y responder preguntas en el chat; después, las notas y tareas quedan disponibles en claude.ai. La IA se anuncia en el chat de la reunión y abandona la llamada automáticamente cuando se incorpora un invitado externo, salvo que un administrador lo haya permitido expresamente.",
+     "Además, Claude Data, hasta ahora Claude Dashboards, ya está disponible para todos los usuarios: conecta Claude con datos de empresa, por ejemplo de almacenes de datos o sistemas CRM. Mediante los llamados conectores interactivos, aplicaciones como Adobe, Atlassian o Notion pueden usarse directamente en la ventana de Claude. El vídeo oficial muestra Whiteboards, Sheets y Data en uso. Las novedades llegan poco antes de la salida a bolsa prevista de Anthropic."
+    ],
+    "d": "Anthropic ha presentado en beta Claude Sheets, Claude Whiteboards y Claude Meetings. La IA podrá crear hojas de cálculo, esbozar planes y colaborar en videoconferencias.",
+    "t": "Hojas de cálculo, pizarras, reuniones: Anthropic convierte Claude en un paquete de oficina"
+   },
+   "at": "2026-11-11T12:50Z",
+   "h": "2d21daf8ddb6",
+   "rev": [
+    "\"soll ... anlegen\" in the teaser rendered as \"debería\" (sounds like a recommendation); better \"podrá\" / \"permite\" to match the announced function",
+    "\"Claude Meetings\" paragraph: \"zum Start nur bei Google Meet\" – acceptable; \"Entwurf\" fine"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: vestíbulo de la sede de Anthropic en San Francisco durante la visita del ministro británico Peter Kyle (2024)",
+    "kl": "Nuevo producto"
+   }
+  },
   "design-doha-prize-2026-gewinner-mahdavi": {
    "L": {
     "body": [
@@ -962,6 +988,33 @@
     "img.alt": "Foto de archivo: Johnny Depp en un estreno en Londres (2012)"
    }
   },
+  "elevenlabs-scribe-v3-live": {
+   "L": {
+    "body": [
+     "La empresa de audio con IA ElevenLabs publicó el martes (10 de noviembre) los modelos de reconocimiento de voz Scribe v3 y Scribe v3 Live. Scribe v3 convierte grabaciones ya terminadas en texto, mientras que Scribe v3 Live funciona en tiempo real. Según la empresa, Scribe v3 comete un 27 por ciento menos de errores por palabra que su predecesor en las 102 lenguas probadas; en la prueba estándar FLEURS, la tasa de error en alemán bajó del 3,7 al 2,1 por ciento, según all-ai.de.",
+     "Scribe v3 Live puede reconocer por primera vez quién está hablando y, según se indica, cometería un 43 por ciento menos de errores que su predecesor. Para los agentes de voz telefónicos, el modelo utiliza el historial de la conversación para predecir cuándo ha terminado de hablar una persona; por ejemplo, para que un agente espere cuando quien llama hace una breve pausa al dictar un número de teléfono. Además, los desarrolladores pueden registrar sus propias listas de palabras con nombres de productos o términos técnicos.",
+     "Ambos modelos están disponibles a través de la interfaz de programación de ElevenLabs, y Scribe v3 Live también en la plataforma de agentes ElevenAgents. Los valores comparativos proceden de pruebas de la propia empresa y no han sido verificados de forma independiente. El vídeo oficial presenta Scribe v3."
+    ],
+    "d": "ElevenLabs ha presentado dos nuevos modelos de reconocimiento de voz: Scribe v3 para grabaciones y Scribe v3 Live para conversaciones en tiempo real, por primera vez con identificación de hablantes.",
+    "t": "Menos errores al transcribir: ElevenLabs lanza el reconocimiento de voz Scribe v3"
+   },
+   "at": "2026-11-11T12:50Z",
+   "h": "2f1e8b744fd3",
+   "rev": [
+    "\"über 102 getestete Sprachen hinweg\" rendered as \"en las 102 lenguas probadas\": the German says \"over 102 tested languages\" (an average across them), and the draft changes the phrasing slightly; rewor",
+    "\"soll 43 Prozent weniger Fehler machen\" was rendered with \"según se indica\" plus the conditional, which is acceptable but redundant; left as is.",
+    "\"Wortfehler\" rendered as \"errores de palabras\", which is unnatural; changed to \"errores por palabra\"."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Mati Staniszewski, cofundador de ElevenLabs (2022)",
+    "kl": "Nuevo modelo"
+   }
+  },
   "energie-dunkelflaute-strompreise-europa-2026-11-11": {
    "L": {
     "body": [
@@ -1347,6 +1400,28 @@
    ],
    "x": {
     "img.alt": "Entrada al Circuito Internacional de Losail en Catar (Foto de archivo)",
+    "kl": "Fórmula 1"
+   }
+  },
+  "f1-mercedes-raetsel-interlagos-russell-2026-11-11": {
+   "L": {
+    "body": [
+     "A pesar de haber ganado el título de constructores, Mercedes busca tras el Gran Premio de São Paulo una explicación al comportamiento inusual de sus coches. «Los dos han informado de un comportamiento muy, muy extraño del coche», dijo el jefe de equipo Toto Wolff, según RacingNews365. George Russell se fue de trompo en la salida de boxes tras cambiar de neumáticos intermedios a slicks y cayó al décimo puesto; Kimi Antonelli perdió el liderato por un trompo en la curva uno. Según GPblog, el campeón del mundo explicó que el coche tiraba hacia un lado al acelerar.",
+     "«Creo que hemos hecho algo mal con la presión de los neumáticos o con el reglaje», dijo Wolff. Según afirmó, por momentos el equipo habría «volado absolutamente» en la carrera. Los neumáticos traseros habrían estado muy desgastados, mientras que los delanteros habrían parecido nuevos. «George no es alguien que se vaya de trompo en la salida de boxes, y Kimi tampoco», dijo el austriaco. El propio Russell dijo: «No lo sabemos». Una posible explicación sería, según indicó, un círculo vicioso de neumáticos dañados y temperaturas en aumento.",
+     "La cuestión también es importante en lo deportivo: en la lucha por el segundo puesto del Mundial, Russell, con 262 puntos, está 17 puntos por detrás de Max Verstappen (279). En la próxima carrera, en Las Vegas el 21 de noviembre, se esperan condiciones frescas, según GPblog; si la causa fueron neumáticos dañados, el problema podría repetirse allí."
+    ],
+    "d": "Russell y Antonelli se marearon ambos en São Paulo. Toto Wolff sospecha un error en la presión de los neumáticos o el reglaje. Antes de Las Vegas, Russell está 17 puntos por detrás de Verstappen.",
+    "t": "Misterio por los trompos en Interlagos: Mercedes busca la causa; Russell, en riesgo"
+   },
+   "at": "2026-11-11T12:50Z",
+   "h": "a271bcc23bfd",
+   "rev_dbg": [
+    4,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "George Russell en el Mercedes durante el Gran Premio de Japón 2025 (foto de archivo)",
     "kl": "Fórmula 1"
    }
   },
@@ -2517,6 +2592,31 @@
     "img.alt": "Imagen simbólica: tienda de Max Mara en Madrid"
    }
   },
+  "nba-franz-wagner-33-magic-kings-2026-11-11": {
+   "L": {
+    "body": [
+     "Los Orlando Magic ganaron 107-100 a los Sacramento Kings en la madrugada del miércoles (hora alemana) y pusieron fin a una racha de cuatro derrotas. Franz Wagner fue el máximo anotador de su equipo con 33 puntos, su mejor marca de la temporada. Wagner acertó 10 de 21 tiros de campo y los diez tiros libres, y además logró siete rebotes y siete asistencias. En el segundo cuarto cerró con un triple un parcial de 18-5 que dejó el marcador en 52-43; desde entonces, Orlando no cedió la ventaja. En el descanso el marcador era 57-52.",
+     "Anthony Black anotó 26 puntos, con siete rebotes, cinco asistencias y cuatro robos, y Desmond Bane sumó 15 puntos. Orlando volvió a jugar sin Paolo Banchero, Jalen Suggs, Jonathan Isaac y Tristan da Silva. «Creo que hoy atacamos de forma un poco más inteligente y yo llegué mejor a mis posiciones», dijo Wagner, según dpa. Por Sacramento, Zach LaVine anotó 31 puntos y el novato Darius Acuff Jr., 29. Los Kings perdieron por cuarta vez consecutiva y siguen sin ganar en casa esta temporada (0-6).",
+     "Los Magic (3-7) jugarán en la madrugada del jueves en Utah. Hubo cambio en la cima del Este: los Boston Celtics ganaron 123-101 en Filadelfia y, con nueve victorias y dos derrotas, se colocaron primeros por delante de los 76ers (9-3). Los New York Knicks vencieron 117-85 al último clasificado, Milwaukee; Karl-Anthony Towns logró 21 puntos y 16 rebotes. En el Oeste, Portland ganó 123-103 a Oklahoma City, Phoenix venció 133-110 a los Clippers y Miami se impuso 115-109 en Utah."
+    ],
+    "d": "Orlando gana 107-100 en Sacramento y pone fin a una racha de cuatro derrotas. Wagner acierta los diez tiros libres y Anthony Black aporta 26 puntos.",
+    "t": "NBA: Wagner firma 33 puntos, su récord de la temporada; los Magic cortan su racha"
+   },
+   "at": "2026-11-11T12:50Z",
+   "h": "de491c4339fd",
+   "rev": [
+    "Headline length: the Spanish headline is 98 characters, over the 90 limit.",
+    "\"mala racha\" in the headline is an unclear rendering of \"Pleitenserie\"; shortened to fit the limit."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Franz Wagner con la camiseta de los Orlando Magic (Foto de archivo, 2022)"
+   }
+  },
   "nba-video-george-36-celtics-76ers-2026-11-11": {
    "L": {
     "body": [
@@ -2603,6 +2703,33 @@
    ],
    "x": {
     "img.alt": "Imagen simbólica: sede de Nvidia en Santa Clara"
+   }
+  },
+  "openai-businesses-chatgpt-agenten": {
+   "L": {
+    "body": [
+     "OpenAI abre ChatGPT, que según la compañía usan 1.200 millones de personas a la semana, más a las empresas. En la nueva oferta beta «Businesses in ChatGPT», las empresas pueden reclamar su perfil a través del llamado Business Hub y, tras una revisión, modificar datos y subir ellas mismas los datos de sus productos; los perfiles reclamados reciben una marca de verificación azul. El hub muestra además con qué frecuencia se menciona a la empresa en las conversaciones, cuántos clics llevan a su sitio web y en qué temas se la encuentra, aunque solo de forma resumida y a partir de un número mínimo de conversaciones.",
+     "Con «Business Agents», las empresas autorizadas pueden crear, probar y publicar sus propios agentes de IA. Las conversaciones con ellos se identifican y se separan de las respuestas normales de ChatGPT; las empresas también pueden patrocinar los agentes como destino de la publicidad de ChatGPT. Se prevé que los comerciantes de Shopify puedan publicar un agente en tres pasos: conectar la tienda, revisar los datos y ver la vista previa. Los agentes se limitan por ahora a comercios y proveedores de servicios en línea autorizados de EE. UU.",
+     "OpenAI subraya que un perfil reclamado no garantiza ni una mejor posición en las respuestas ni más ventas. El vídeo oficial presenta la oferta beta."
+    ],
+    "d": "Con «Businesses in ChatGPT», las empresas pueden reclamar su perfil en el chatbot, subir datos de productos y lanzar sus propios agentes de IA. Por ahora, los agentes solo están disponibles para empresas de EE. UU.",
+    "t": "Perfiles de empresa y agentes de ventas: OpenAI lleva negocios a ChatGPT"
+   },
+   "at": "2026-11-11T12:50Z",
+   "h": "a14c343dd853",
+   "rev": [
+    "Spanish number convention: 'mil doscientos millones' – 1.200 millones is correct, so no change needed",
+    "Awkward word order in first sentence: 'abre más ChatGPT ... a las empresas' is ambiguous and unnatural",
+    "'Shopify-Händler sollen ... können' rendered with 'deberían', which suggests obligation or recommendation instead of the reported plan; 'se prevé que puedan' is more accurate"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: una mano sostiene un smartphone con el logotipo de ChatGPT",
+    "kl": "Nuevo producto"
    }
   },
   "path-of-exile-2-1-0-termin": {

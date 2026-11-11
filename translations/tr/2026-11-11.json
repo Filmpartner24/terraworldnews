@@ -600,6 +600,32 @@
     "img.alt": "Sembolik fotoğraf: Celine butiği"
    }
   },
+  "claude-sheets-whiteboards-meetings": {
+   "L": {
+    "body": [
+     "Yapay zekâ geliştiricisi Anthropic, yeni araçlarla klasik ofis yazılımlarına meydan okuyor. Şirket, salı günü (10 Kasım) üç beta işlevi tanıttı: Claude Sheets ile ekipler, tabloları yapay zekâ ile birlikte oluşturup düzenleyebiliyor; tablolarda birden fazla sekme, formül, biçimlendirme ve seçim listesi yer alıyor. Claude hücreleri doğrudan değiştiriyor ve yaptığı her değişikliği listeliyor. Claude Whiteboards ise yapay zekânın konuşulanları zaman çizelgelerine ve son tarihlere dönüştürdüğü ortak bir tahta; tamamlanan tahtalar bir belgeye veya sunuma dönüştürülebiliyor. Her ikisi de ücretli tarifelerde web, masaüstü ve mobil cihazlarda sunuluyor.",
+     "Claude Meetings, yapay zekâyı görüntülü toplantılara görünür bir katılımcı olarak gönderiyor; başlangıçta yalnızca Google Meet'te ve Team ile Enterprise müşterileri için. TechCrunch'a göre Claude, görüşme sırasında bir plan taslağı hazırlayabiliyor, beyaz tahtada zaman çizelgesi oluşturabiliyor ve sohbette soruları yanıtlayabiliyor; görüşmenin ardından notlar ve görevler claude.ai'da hazır bekliyor. Yapay zekâ toplantı sohbetinde kendini duyuruyor ve bir yönetici açıkça izin vermediği sürece, harici bir konuk katıldığında aramadan otomatik olarak ayrılıyor.",
+     "Ayrıca daha önce Claude Dashboards adıyla bilinen Claude Data artık genel olarak kullanılabiliyor: Claude'u, örneğin veri ambarlarından veya CRM sistemlerinden gelen şirket verilerine bağlıyor. Etkileşimli connector'lar olarak adlandırılan bağlantılar sayesinde Adobe, Atlassian veya Notion gibi uygulamalar doğrudan Claude penceresinde kullanılabiliyor. Resmî videoda Whiteboards, Sheets ve Data kullanım halinde gösteriliyor. Yenilikler, Anthropic'in planlanan halka arzından kısa süre önce geliyor."
+    ],
+    "d": "Anthropic, Claude Sheets, Claude Whiteboards ve Claude Meetings'i beta olarak tanıttı. Yapay zekânın tablo oluşturması, planlar çizmesi ve görüntülü toplantılarda iş birliği yapması amaçlanıyor.",
+    "t": "Tablolar, beyaz tahtalar, toplantılar: Anthropic, Claude'u ofis paketine dönüştürüyor"
+   },
+   "at": "2026-11-11T12:50Z",
+   "h": "2d21daf8ddb6",
+   "rev": [
+    "Weekday 'Salı' should be lowercase mid-sentence per TDK ('salı günü')",
+    "Teaser: 'çalışmaya katkı sunması' is an awkward rendering of 'mitarbeiten'"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Anthropic'in San Francisco'daki merkezinin girişi, İngiliz Bakan Peter Kyle'ın ziyareti sırasında (2024)",
+    "kl": "Yeni ürün"
+   }
+  },
   "design-doha-prize-2026-gewinner-mahdavi": {
    "L": {
     "body": [
@@ -1044,6 +1070,33 @@
     "img.alt": "Arşiv fotoğrafı: Johnny Depp Londra’da bir galada (2012)"
    }
   },
+  "elevenlabs-scribe-v3-live": {
+   "L": {
+    "body": [
+     "Yapay zekâ tabanlı ses şirketi ElevenLabs, salı günü (10 Kasım) Scribe v3 ve Scribe v3 Live konuşma tanıma modellerini yayımladı. Scribe v3 hazır kayıtları metne dönüştürüyor, Scribe v3 Live ise gerçek zamanlı çalışıyor. Şirket verilerine göre Scribe v3, test edilen 102 dilde bir önceki modele kıyasla yüzde 27 daha az kelime hatası yapıyor; standart FLEURS testinde Almancada hata oranı, all-ai.de'ye göre yüzde 3,7'den yüzde 2,1'e düştü.",
+     "Scribe v3 Live ilk kez o anda kimin konuştuğunu tanıyabiliyor ve önceki modeline göre yüzde 43 daha az hata yapması bekleniyor. Model, telefondaki ses ajanları için, birinin konuşmasını ne zaman bitirdiğini tahmin etmek amacıyla o ana kadarki görüşme akışını kullanıyor; örneğin arayan kişi bir telefon numarasını söylerken kısa bir ara verdiğinde ajanın beklemesi için. Geliştiriciler ayrıca ürün adları veya teknik terimler içeren kendi kelime listelerini tanımlayabiliyor.",
+     "Her iki model de ElevenLabs'in programlama arayüzü üzerinden kullanılabiliyor; Scribe v3 Live ayrıca ElevenAgents ajan platformunda da mevcut. Karşılaştırma değerleri şirketin kendi testlerine dayanıyor ve bağımsız olarak doğrulanmadı. Resmî video Scribe v3'ü tanıtıyor."
+    ],
+    "d": "ElevenLabs iki yeni konuşma tanıma modeli tanıttı: kayıtlar için Scribe v3 ve gerçek zamanlı görüşmeler için Scribe v3 Live – ilk kez konuşmacı ayrımıyla.",
+    "t": "Daha az hata: ElevenLabs, Scribe v3 konuşma tanıma modellerini piyasaya sürdü"
+   },
+   "at": "2026-11-11T12:50Z",
+   "h": "2f1e8b744fd3",
+   "rev": [
+    "Weekday \"Salı\" should be lowercase mid-sentence per TDK",
+    "Headline omits Scribe v3 Live (German names both models) and uses the unnatural \"yazım hatası\" for \"Mitschreiben\" – corrected; the headline stays under 90 characters",
+    "\"dikte ederken\" is awkward; \"söylerken\" is more natural"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: ElevenLabs'in kurucu ortaklarından Mati Staniszewski (2022)",
+    "kl": "Yeni model"
+   }
+  },
   "energie-dunkelflaute-strompreise-europa-2026-11-11": {
    "L": {
     "body": [
@@ -1457,6 +1510,33 @@
    ],
    "x": {
     "img.alt": "Katar'daki Losail International Circuit'in girişi (Arşiv fotoğrafı)",
+    "kl": "Formula 1"
+   }
+  },
+  "f1-mercedes-raetsel-interlagos-russell-2026-11-11": {
+   "L": {
+    "body": [
+     "Mercedes, kurucular şampiyonluğunu kazanmasına rağmen São Paulo Grand Prix'sinin ardından araçlarının alışılmadık davranışına bir açıklama arıyor. Takım patronu Toto Wolff, RacingNews365'in aktardığına göre, “İkisi de aracın çok ama çok garip bir davranış sergilediğini bildirdi” dedi. George Russell, intermediate lastiklerden slick lastiklere geçişin ardından pit çıkışında savruldu ve onuncu sıraya düştü; Kimi Antonelli ise birinci virajda savrularak liderliği kaybetti. GPblog'a göre dünya şampiyonu, aracın hızlanırken bir yana çektiğini aktardı.",
+     "Wolff, “Lastik basıncında veya set-up'ta bir şeyi yanlış yaptığımızı düşünüyorum” dedi. Wolff'a göre takım yarış sırasında zaman zaman yine de “kesinlikle uçuyordu”. Arka lastikler çok aşınmıştı, ön lastikler ise yeni gibi görünüyordu, dedi. Avusturyalı Wolff, “George pit çıkışında savrulan biri değil, Kimi de öyle” diye konuştu. Russell ise “Bilmiyoruz” dedi. Wolff, olası bir açıklamanın hasar görmüş lastikler ile yükselen sıcaklıklardan oluşan bir kısır döngü olabileceğini söyledi.",
+     "Soru sportif açıdan da önemli: Dünya Şampiyonası'nda ikinci sıra mücadelesinde Russell, 262 puanla Max Verstappen'in (279) 17 puan gerisinde. GPblog'a göre 21 Kasım'daki bir sonraki yarış olan Las Vegas'ta serin hava koşulları bekleniyor; nedenin hasar görmüş lastikler olması durumunda sorun orada yeniden ortaya çıkabilir."
+    ],
+    "d": "Russell ve Antonelli São Paulo'da savruldu. Toto Wolff, lastik basıncı veya set-up hatasından şüpheleniyor. Las Vegas öncesinde Russell, Verstappen'in 17 puan gerisinde.",
+    "t": "Interlagos'taki savrulma gizemi: Mercedes nedeni arıyor, Russell'ın ikinciliği tehlikede"
+   },
+   "at": "2026-11-11T12:50Z",
+   "h": "a271bcc23bfd",
+   "rev": [
+    "Headline: 'Dreher' rendered as 'savrulmalar' is fine, but 'sırrı' is a bit literal; kept. Teaser OK.",
+    "Indirect speech: 'Olası bir açıklamanın ... belirtildi' lacks a clear subject; the attribution to Russell/Wolff is unclear (Russell's quote is followed by the explanation, which in German is Russell's",
+    "'Wolff'a göre takım...' is OK; 'Arka lastikler ... dedi' is attributed OK."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "George Russell, 2025 Japonya Grand Prix'sinde Mercedes ile (arşiv fotoğrafı)",
     "kl": "Formula 1"
    }
   },
@@ -2678,6 +2758,34 @@
     "img.alt": "Sembolik fotoğraf: Madrid'de bir Max Mara mağazası"
    }
   },
+  "nba-franz-wagner-33-magic-kings-2026-11-11": {
+   "L": {
+    "body": [
+     "Orlando Magic, Almanya saatiyle Salı'yı Çarşamba'ya bağlayan gece Sacramento Kings'i deplasmanda 107-100 yenerek dört maçlık yenilgi serisine son verdi. Franz Wagner, sezonun en yüksek sayısı olan 33 sayıyla takımının en skorer ismi oldu. Wagner, sahadan 21 atışın 10'unu ve on serbest atışın tamamını isabetli kullandı; ayrıca yedi ribaund ve yedi asist yaptı. İkinci çeyrekte attığı üçlükle 18-5'lik seriyi 52-43'le tamamladı; Orlando bundan sonra liderliği bırakmadı. Devre arasında skor 57-52'ydi.",
+     "Anthony Black 26 sayı, yedi ribaund, beş asist ve dört top çalma kaydetti, Desmond Bane ise 15 sayı attı. Orlando yine Paolo Banchero, Jalen Suggs, Jonathan Isaac ve Tristan da Silva'dan yoksun oynadı. Wagner, dpa'nın aktardığına göre “Bence bugün biraz daha akıllıca hücum ettik ve ben pozisyonlarıma daha iyi girdim” dedi. Sacramento'da Zach LaVine 31, çaylak Darius Acuff Jr. 29 sayı attı. Kings üst üste dördüncü kez kaybetti ve bu sezon evinde henüz galibiyet alamadı (0-6).",
+     "Magic (3-7), Çarşamba'yı Perşembe'ye bağlayan gece Utah deplasmanında oynayacak. Doğu Konferansı'nın zirvesinde değişiklik oldu: Boston Celtics, Philadelphia'da 123-101 kazandı ve dokuz galibiyet, iki yenilgiyle 76ers'ın (9-3) önüne geçerek birinci sıraya yükseldi. New York Knicks, son sıradaki Milwaukee'yi 117-85 yendi; Karl-Anthony Towns 21 sayı ve 16 ribaund kaydetti. Batı'da Portland, Oklahoma City'yi 123-103, Phoenix Clippers'ı 133-110 yendi; Miami ise Utah deplasmanında 115-109 kazandı."
+    ],
+    "d": "Orlando, Sacramento deplasmanında 107-100 kazanarak dört maçlık yenilgi serisine son verdi. Wagner on serbest atışın hepsini isabetli kullandı, Anthony Black 26 sayı attı.",
+    "t": "NBA: Franz Wagner 33 sayıyla sezon rekorunu kırdı, Magic yenilgi serisini bitirdi"
+   },
+   "at": "2026-11-11T12:50Z",
+   "h": "de491c4339fd",
+   "rev": [
+    "Weekdays should be lowercase per TDK when not capitalised by sentence start (Çarşamba, Perşembe)",
+    "'Çarşamba'ya karşı gece' is a literal calque of 'in der Nacht zum Mittwoch' and unnatural; better 'Çarşamba'ya kadar süren gecede' is also awkward, so use 'Salı'yı Çarşamba'ya bağlayan gece'",
+    "Wagner's 33 points: headline 'sezonun en yüksek sayısı 33'ü attı' is awkward; fix",
+    "Run phrasing: the 18-5 run ended at 52-43 was garbled",
+    "Wagner's quote attribution order awkward but acceptable"
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Franz Wagner, Orlando Magic forması içinde (Arşiv fotoğrafı, 2022)"
+   }
+  },
   "nba-video-george-36-celtics-76ers-2026-11-11": {
    "L": {
     "body": [
@@ -2790,6 +2898,32 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Nvidia'nın Santa Clara'daki merkezi"
+   }
+  },
+  "openai-businesses-chatgpt-agenten": {
+   "L": {
+    "body": [
+     "OpenAI, şirketin verdiği bilgilere göre haftada 1,2 milyar kişinin kullandığı ChatGPT'yi işletmelere daha fazla açıyor. Yeni beta hizmeti “Businesses in ChatGPT” kapsamında şirketler, Business Hub adı verilen merkez üzerinden profillerini sahiplenebiliyor; bir incelemenin ardından bilgileri değiştirebiliyor ve ürün verilerini kendileri yükleyebiliyor. Sahiplenilen profiller mavi onay işareti alıyor. Hub ayrıca şirketin sohbetlerde kaç kez anıldığını, web sitesine kaç tıklamanın yönlendiğini ve şirketin hangi konularda bulunduğunu gösteriyor; ancak bu veriler yalnızca özet halinde ve belirli bir asgari sohbet sayısından itibaren sunuluyor.",
+     "“Business Agents” ile yetkili şirketler kendi yapay zekâ ajanlarını oluşturabiliyor, test edebiliyor ve yayımlayabiliyor. Ajanlarla yapılan sohbetler işaretleniyor ve normal ChatGPT yanıtlarından ayrı tutuluyor; şirketler ajanları ChatGPT reklamlarının hedefi olarak da sponsor edebiliyor. Shopify satıcılarının üç adımda – mağazayı bağlama, bilgileri kontrol etme, önizlemeyi görme – bir ajan yayımlayabilmesi öngörülüyor. Ajanlar başlangıçta ABD'deki yetkili çevrimiçi satıcılar ve çevrimiçi hizmet sağlayıcılarla sınırlı.",
+     "OpenAI, sahiplenilen bir profilin yanıtlarda daha iyi bir sıralamayı ya da daha fazla ciroyu garanti etmediğini vurguluyor. Resmî video beta hizmetini tanıtıyor."
+    ],
+    "d": "“Businesses in ChatGPT” ile şirketler sohbet botundaki profillerini sahiplenebiliyor, ürün verilerini yükleyebiliyor ve kendi yapay zekâ ajanlarını başlatabiliyor. Ajanlar şimdilik yalnızca ABD'deki şirketlere sunuluyor.",
+    "t": "Şirket profilleri ve satış ajanları: OpenAI işletmeleri ChatGPT'ye taşıyor"
+   },
+   "at": "2026-11-11T12:50Z",
+   "h": "a14c343dd853",
+   "rev": [
+    "Headline 'Firmenprofile' / 'Unternehmen' fine; 'garanti' is a Turkish word, not an untranslated German word (garantiert → garanti etmiyor), so no change needed",
+    "'Elinde ChatGPT yazılı bir akıllı telefon tutan el' is awkward: hand holding a smartphone with ChatGPT lettering"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: ChatGPT yazılı bir akıllı telefonu tutan el",
+    "kl": "Yeni ürün"
    }
   },
   "path-of-exile-2-1-0-termin": {
