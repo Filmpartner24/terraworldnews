@@ -10,7 +10,7 @@
   "de": "World Boxing Organization",
   "en": "World Boxing Organization"
  },
- "asof": "2026-11-10",
+ "asof": "2026-11-11",
  "champions": [
   {
    "div": {
@@ -87,9 +87,9 @@
    "name": "Jaron Ennis",
    "country": "USA",
    "note": {
-    "de": "Vereinigungskampf gegen IBF-Weltmeister Josh Kelly laut Berichten geplant (genannt: Ende Februar bzw. Dezember/Anfang Januar), Termin offen, noch nicht offiziell",
-    "bg": "Обединителен мач срещу шампиона на IBF Джош Кели според информации е планиран (посочени: края на февруари или декември/началото на януари), датата е открита, още не е официален",
-    "en": "Unification with IBF champion Josh Kelly reportedly planned (dates mentioned: late February or December/early January), date open, not yet official"
+    "de": "Vereinigungskampf gegen IBF-Weltmeister Josh Kelly am 27.02.2027 in Atlanta angesetzt",
+    "bg": "Обединителен мач срещу шампиона на IBF Джош Кели на 27.02.2027 г. в Атланта",
+    "en": "Unification with IBF champion Josh Kelly set for 27 Feb 2027 in Atlanta"
    }
   },
   {
@@ -313,6 +313,23 @@
     "en": "Vacant WBO title"
    },
    "note": "laut The Ring (17.10.2026) angesetzt"
+  },
+  {
+   "date": "2027-02-27",
+   "place": "State Farm Arena, Atlanta, USA",
+   "f1": "Jaron Ennis",
+   "f2": "Josh Kelly",
+   "div": {
+    "bg": "Първа средна категория",
+    "de": "Halbmittelgewicht",
+    "en": "Super Welterweight"
+   },
+   "title": {
+    "bg": "Обединителен мач (WBA, WBO, IBF)",
+    "de": "Vereinigungskampf (WBA-, WBO- und IBF-WM)",
+    "en": "Unification (WBA, WBO and IBF titles)"
+   },
+   "note": "Am 10.11.2026 bestätigt (Ring Magazine); DAZN, in den USA TNT/truTV; Matchroom"
   }
  ],
  "results": [
@@ -558,6 +575,10 @@
   {
    "n": "The Ring, 03.11.2026",
    "u": "https://www.ringmagazine.com/news/wbo-orders-hernandez-zerafa-for-middleweight-title-HaxVMEuDfDJrXLIWYgexm"
+  },
+  {
+   "n": "Ring Magazine, 10.11.2026",
+   "u": "https://www.ringmagazine.com/news/60qbyEzNLLbJW4UsTJtx9y"
   }
  ]
 }
