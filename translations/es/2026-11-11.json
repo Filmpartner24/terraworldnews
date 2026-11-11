@@ -691,6 +691,31 @@
     "img.alt": "Imagen simbólica: una central de turbina de gas"
    }
   },
+  "erklaervideo-deutsche-boerse-aktienpreis-2026-11-11": {
+   "L": {
+    "body": [
+     "Esta semana se habla mucho de precios en las bolsas. La empresa de IA Anthropic indicó el 10 de noviembre un rango de precio de 70 a 78 dólares por acción para 825 millones de acciones; según TechCrunch, la cotización en el Nasdaq debería comenzar en torno al 19 de noviembre. También empresas más pequeñas como vVardis y Windward Bio fijan su precio de emisión. Ese precio lo negocian la empresa y sus bancos con grandes inversores. Lo que ocurra después con la acción lo decide el mercado, y de eso trata precisamente el capítulo 7 de la serie para principiantes de Deutsche Börse: «Así se determina el precio de una acción».",
+     "La base es el libro de órdenes, una lista de todas las órdenes de compra y venta abiertas, ordenadas por precio. En la negociación continua en Xetra, de lunes a viernes de 9:00 a 17:30 horas, se cierra una operación en cuanto coinciden una orden de compra y una de venta; si el precio es el mismo, se ejecuta primero la orden anterior. A ello se suman tres subastas diarias: a la apertura, hacia el mediodía y al cierre. En ellas se recogen todas las órdenes y se aplica el precio al que pueden cambiar de manos la mayor cantidad de acciones. Así se forma también la primera cotización de una empresa recién llegada: según Deutsche Börse, la subasta de apertura comienza a las 9:00 horas y dura al menos 15 minutos; si el precio se desvía mucho, una interrupción por volatilidad puede prolongarla.",
+     "El vídeo sirve como introducción para interpretar mejor las noticias bursátiles. Muestra que una cotización no es un valor fijo, sino el punto de encuentro entre oferta y demanda en un momento determinado. Ahí radica también el riesgo: el primer día de negociación la cotización puede alejarse mucho del precio de emisión, tanto al alza como a la baja, y en acciones con poco volumen una sola orden grande puede mover el precio de forma notable. Según Deutsche Börse, la admisión de una acción a negociación solo confirma requisitos formales, no que el modelo de negocio sea sostenible."
+    ],
+    "d": "Anthropic, vVardis, Windward Bio: hay varias salidas a bolsa en puertas. Un vídeo de Deutsche Börse explica cómo las órdenes de compra y venta se convierten en una cotización.",
+    "t": "Vídeo explicativo: cómo se forma el precio de una acción en bolsa"
+   },
+   "at": "2026-11-11T08:14Z",
+   "h": "1ec939052058",
+   "rev": [
+    "«el precio al que pueden cambiar de manos más acciones» no refleja bien «die meisten Aktien»; se ajusta a «la mayor cantidad de acciones»",
+    "«de lunes a viernes» para «werktags» (días laborables): aceptable, sin cambio"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: sala de negociación de la Bolsa de Fráncfort"
+   }
+  },
   "europa-daenemark-militaerhilfe-ukraine-2026-11-11": {
    "L": {
     "body": [
@@ -908,6 +933,57 @@
    "x": {
     "img.alt": "Foto de archivo: el Principality Stadium en Cardiff"
    }
+  },
+  "invest-bulgarien": {
+   "L": {
+    "body": [
+     "Novedad desde el martes: la autoridad de competencia KZK defiende su multa de 75,65 millones de euros a Kaufland. Según el presidente de la KZK, Rosen Karadimov, equivale al 1,5-2,2 % de la facturación; se podría haber impuesto hasta el 10 %. La asociación del comercio advierte de que Bulgaria podría perder inversiones y empleos. Kaufland está revisando la inversión prevista de 200 millones de euros para tres años; la cadena no ha anunciado su retirada (Paragraf.bg, 10.11.; Fakti.bg, 11.11.). En Vidin, la agencia alimentaria BABH cerró temporalmente una tienda de Lidl; Lidl quiere recurrir a los tribunales (Standart, 10.11.).",
+     "En Sofía, la empresa de metro Metropoliten ha encargado 8 trenes Škoda más por 76,9 millones de euros sin IVA. Debido a una cláusula de precios, los 8 trenes cuestan en conjunto 5,6 millones de euros más que el primer lote; la entrega está prevista hasta otoño de 2028 (Economic.bg, 9.11.). En Gorna Oryahovitsa, la empresa Solaren Dom compra más de 188 dekar en el parque industrial «Ryahovets» por 5,076 millones de euros. Quiere fabricar allí equipos para subestaciones, transformadores y baterías. Para el desarrollo del parque hay 9,73 millones de euros de la UE y 2,5 millones de euros del municipio (Money.bg, 10.11.).",
+     "Recortes de empleo: dbr.bg (10.11.) recuerda que el centro de desarrollo de Bosch en Sofía cierra: 670 puestos, unos 400 en 2026 y 270 en 2027; se sabe desde finales de junio. El instituto de estadística NSI informó el 10.11. de que la producción industrial de septiembre fue un 8,9 % inferior a la del año anterior. La tabla tiene 19 entradas; los proyectos con cifra suman 550,4 millones de euros y los nuevos empleos anunciados, 790 (cálculo propio)."
+    ],
+    "d": "El metro de Sofía encarga 8 trenes Škoda más y Solaren Dom compra terreno para una planta en Gorna Oryahovitsa. La autoridad de competencia defiende la multa a Kaufland; el comercio advierte de fuga de inversiones.",
+    "explain": "El dinero nuevo procede por ahora sobre todo de proyectos estatales y municipales, y apenas de fábricas nuevas. La disputa con las cadenas comerciales y la debilidad de la industria podrían hacer que los inversores sean más cautos.",
+    "t": "El metro de Sofía encarga trenes por 76,9 millones de euros; la industria cae un 8,9 %"
+   },
+   "at": "2026-11-11T08:14Z",
+   "h": "6f6b838717c2",
+   "rev": [
+    "Teaser: «Die Wettbewerbsbehörde verteidigt die Kaufland-Strafe» is fine; the German says the body Metro Sofia 'bestellt' – OK. No major issue in teaser.",
+    "'Metropoliten' is a proper name (company), fine, but 'empresa de metro' wording is acceptable.",
+    "'Kaufland prüft geplante 200 Mio. Euro' means Kaufland is reviewing planned investment; 'estudia los 200 millones' is ambiguous – clarified.",
+    "'Industrie schrumpft um 8,9 %' – headline is fine.",
+    "'la entrega será hasta otoño de 2028' is unnatural – fixed.",
+    "'Quiere construir allí tecnología' – unnatural; fixed to 'fabricar equipos'."
+   ],
+   "rev_dbg": [
+    6,
+    3,
+    0
+   ]
+  },
+  "invest-deutschland": {
+   "L": {
+    "body": [
+     "Desde la mañana del martes se han conocido varias noticias empresariales. El especialista en sistemas de escape Boysen ha abierto una nueva planta en Nagold (distrito de Calw, Baden-Wurtemberg). Fabrica carcasas de baterías para los deportivos eléctricos de Mercedes-AMG y es la primera sede alemana de Boysen dedicada solo a la electromovilidad. Se invirtieron unos 130 millones de euros; la empresa no indicó el número de puestos de trabajo (Schwarzwälder Bote, 10.11.).",
+     "El grupo cervecero Warsteiner suprime unos 125 puestos en su sede de Warstein (Renania del Norte-Westfalia); la plantilla allí bajará a 600 personas a finales de 2026. Junto con la cervecera de Herford, ya cerrada, y la sede de Paderborn, que se venderá o cerrará, en Renania del Norte-Westfalia hay más de 330 empleados afectados; la empresa cita como motivo la caída del consumo de cerveza (Handelsblatt, dpa, 10.11.). El fabricante de fertilizantes K+S avanza en su reconversión «Werra 2060», que cuesta unos 600 millones de euros y lleva tiempo en marcha, en la zona potásica de Hesse y Turingia. Emirates suspende por ahora sus vuelos desde el BER (ambas, dpa-AFX, 10.11.).",
+     "El ánimo sigue apagado. En una encuesta del Instituto de la Economía Alemana (IW) a algo más de 1.000 empresas, el 32 por ciento espera tener menos empleados en 2027 y solo el 17 por ciento más; el 39 por ciento quiere invertir menos (10.11.). El IWH contabilizó en octubre 1.683 quiebras de empresas, un 9 por ciento más que hace un año (5.11.). Hoy los «cinco sabios» económicos presentan su informe anual. Las inversiones cifradas de la tabla suman 774,5 millones de euros (cálculo propio)."
+    ],
+    "d": "El proveedor Boysen ha abierto en Nagold una planta de carcasas de baterías por unos 130 millones de euros. Warsteiner recorta 125 puestos en su sede. K+S avanza en la reconversión de su zona potásica.",
+    "explain": "En Baden-Wurtemberg surge una planta de piezas para coches eléctricos, mientras se pierden empleos en cerveceras y proveedores de automoción. Muchas empresas prevén para 2027 más bien una plantilla menor.",
+    "t": "Boysen abre una planta de 130 M€ en Nagold; Warsteiner suprime 125 puestos"
+   },
+   "at": "2026-11-11T08:14Z",
+   "h": "f78e7a183925",
+   "rev": [
+    "Boysen: \"eine Stellenzahl nannte das Unternehmen nicht\" means the company gave no job figure; \"número de empleados\" could be read as the current headcount, so it was changed to \"número de puestos de t",
+    "\"Warsteiner streicht\" was rendered in the headline as the future \"suprimirá\"; the German uses the present, so it was changed to \"suprime\".",
+    "The IW survey's \"gut 1.000\" means a little over 1,000; the draft's \"algo más de 1.000\" is correct, so it was left unchanged."
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ]
   },
   "ki-chrome-achte-zero-day-xml-2026-11-11": {
    "L": {
@@ -1372,6 +1448,35 @@
     "img.alt": "Gráfico: TERRA WORLD NEWS"
    }
   },
+  "leben-partnerwahl-umfrage-wohneigentum-dating-2026-11-11": {
+   "L": {
+    "body": [
+     "La vivienda en propiedad parece influir en la búsqueda de pareja: en una encuesta del portal de reseñas de sitios de citas Dating Scout, el 40,4 por ciento de las mujeres encuestadas en EE. UU. dijo querer una pareja con casa propia; entre los hombres fue el 18,9 por ciento. Los resultados se publicaron el 10 de noviembre. La base es una encuesta continua a lectores, en marcha desde enero de 2025, con 53.902 participantes de 18 países. Los participantes se autoseleccionaron; el proveedor no indica si la encuesta es representativa. Se podían dar varias respuestas.",
+     "Entre los 15 países con datos propios, la proporción más alta entre las mujeres se dio en Reino Unido, con un 45,3 por ciento (hombres: 19,1 por ciento), y la más baja en Suiza, con un 13,6 por ciento. El comunicado señala que, según la asociación de agentes inmobiliarios National Association of Realtors, los compradores primerizos de vivienda en EE. UU. tienen típicamente 40 años. Los participantes estadounidenses de la encuesta que buscan pareja en línea tienen una edad media de 39,5 años.",
+     "Otros factores financieros también pesan más entre las mujeres. Las deudas elevadas disuaden al 52,2 por ciento de las mujeres y al 31,6 por ciento de los hombres; el desempleo, al 42,1 frente al 14,1 por ciento; y vivir con los padres, al 39,9 frente al 16,7 por ciento. En la primera cita, el 43 por ciento de los hombres considera que el hombre debería pagar, frente a solo el 24,5 por ciento de las mujeres, según la encuesta; el 49 por ciento de las mujeres prefiere dividir la cuenta."
+    ],
+    "d": "Una encuesta a lectores del portal de reseñas de sitios de citas Dating Scout, con casi 54.000 respuestas de 18 países, muestra cuánto pesan el dinero y la vivienda en la búsqueda de pareja.",
+    "t": "Elección de pareja: dos de cada cinco mujeres en EE. UU. quieren una pareja con vivienda propia, según encuesta"
+   },
+   "at": "2026-11-11T08:14Z",
+   "flag": [
+    "Titel zu lang (111 Zeichen)"
+   ],
+   "h": "8675172491c7",
+   "rev": [
+    "Headline: 'quieren un propietario' is awkward and loses the 'Wohneigentümer' meaning; 'estadounidenses' drops 'mujeres' (Frauen)",
+    "Indirect speech: 'opinaría que debe pagar el hombre' uses the conditional wrongly and is ambiguous; it should be a clear reported statement"
+   ],
+   "rev_dbg": [
+    2,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico: TERRA WORLD NEWS",
+    "kl": "Amor y relaciones"
+   }
+  },
   "leben-pimicotinib-tgct-fda-zulassung-merck-2026-11-11": {
    "L": {
     "body": [
@@ -1624,6 +1729,31 @@
     "img.alt": "Imagen simbólica: coche de policía frente a New Scotland Yard en Londres",
     "kl": "EE. UU."
    }
+  },
+  "wallstreet": {
+   "L": {
+    "body": [
+     "Tras dos jornadas de ganancias, Wall Street retrocedió el martes 10 de noviembre. El Dow Jones (30 grandes empresas) cerró en 52.231,89 puntos (−157,86 puntos, −0,30 %), el S&P 500 (500 grandes empresas estadounidenses) en 7520,93 (−0,38 %) y el Nasdaq Composite, de fuerte peso tecnológico, en 25.065,88 (−0,74 %) (AP, Reuters, Yahoo Finance). Las empresas de pequeña capitalización del Russell 2000 perdieron un 0,68 %. El índice del miedo VIX bajó un 2,31 %, hasta 19,46. Las acciones que bajaron superaron en más del doble a las que subieron.",
+     "El detonante fue la inflación. Los precios de consumo en EE. UU. subieron en octubre un 0,4 % mensual, frente al 0,3 % esperado; la tasa subyacente (sin energía ni alimentos) subió un 0,3 % en lugar del 0,2 % (Reuters, Yahoo Finance). No hay tasa interanual porque en octubre de 2025 no se recopilaron datos a causa del cierre del Gobierno. El gobernador de la Fed Christopher Waller llegó a plantear una subida de tipos de medio punto porcentual. Según CME FedWatch, los mercados descuentan ya por completo una subida de al menos 0,25 puntos en diciembre. El rendimiento del bono del Estado a diez años saltó al 4,99 % desde el 4,88 % (AP); el de dos años subió casi 0,19 puntos, hasta el 4,736 %, el mayor avance diario desde abril de 2025 (Reuters).",
+     "El mayor lastre fue Nvidia: la acción cayó un 5,47 %, hasta 168,89 dólares, y un 9,6 % en dos días (Yahoo Finance, Reuters). El consejo de administración examina acusaciones sobre un vínculo del consejero delegado, Jensen Huang, con una mujer a la que se vincula con el espionaje chino. El sector tecnológico del S&P 500 perdió un 1,4 %. Hims & Hers se hundió un 16,61 % tras unas previsiones débiles; AAON se disparó un 19,31 % tras unas ventas récord. CoreWeave cerró con un −0,5 %, pero subió alrededor de un 2 a un 2,6 % tras el cierre por unas cifras sólidas. El petróleo Brent bajó un 1,2 %, hasta 91,49 dólares (su nivel más bajo desde el 31 de agosto), y el oro (futuros) un 2,05 %, hasta 4030,20 dólares.",
+     "En la mañana del miércoles, Asia sube en su mayoría, impulsada por los valores de chips: el Nikkei 225 se sitúa en 60.942,48 puntos (+0,8 %), el Kospi en 5321,10 (+1,6 %) y el Taiex sube un 2,1 %; el Hang Seng pierde un 0,7 % (AP). Los futuros estadounidenses suben, cerca de un 0,5 % en el S&P 500 (investingLive). El Brent cotiza a unos 92,42 dólares (+1 %). Hoy es el Día de los Veteranos en EE. UU.: las bolsas de valores operan con normalidad, mientras que el mercado de bonos permanece cerrado por recomendación de la asociación sectorial SIFMA."
+    ],
+    "d": "Los precios en EE. UU. suben un 0,4 % mensual, más de lo esperado. Los mercados dan ya por seguro un alza de tipos de la Fed en diciembre. El bono a 10 años roza el 5 %. Nvidia cae a 168,89 dólares.",
+    "explain": "Una inflación más alta hace probable otra subida de tipos en EE. UU. Eso encarece los créditos y suele presionar a la baja las acciones y, con ellas, los fondos que las tienen.",
+    "t": "La alta inflación en EE. UU. lastra Wall Street; Nvidia pierde otro 5,5 %"
+   },
+   "at": "2026-11-11T08:14Z",
+   "h": "0dd5b82699b3",
+   "rev": [
+    "Nvidia/Huang: the German says the board is investigating allegations; the draft states the woman's link to Chinese espionage as plain fact, so a hedge was added to match 'die mit chinesischer Spionage",
+    "Teaser length is fine; title is fine",
+    "Wording: 'Los valores a la baja' is a bit unclear for 'Verlierer', so 'las acciones que bajaron' is clearer"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ]
   },
   "welt-abu-dhabi-gespraeche-erster-tag-konstruktiv-2026-11-11": {
    "L": {
