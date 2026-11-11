@@ -358,6 +358,35 @@
     "img.alt": "Sembolik fotoğraf: Yundola yakınlarında dağ yolu"
    }
   },
+  "deutsche-boerse": {
+   "L": {
+    "body": [
+     "Salı günü Xetra'da (Frankfurt Borsası'nın elektronik işlem sistemi): Ana endeks Dax (Almanya'nın borsaya kote en büyük 40 şirketi) %0,31 artışla 26.347,45 puana yükseldi (dpa-AFX). Gün içinde 26.633,78 puana ulaştı; bu, 26.692 puanlık rekorun yalnızca yaklaşık 60 puan altında. MDax (50 orta ölçekli hisse) %0,12 düşüşle 31.034,35 puana geriledi, teknoloji hisseleri endeksi TecDax yaklaşık %0,4 düşüşle 4031,33 puana indi. SDax (küçük ölçekli hisseler) %0,41 artışla 18.058,21 puana çıktı. Euro Stoxx 50 (avro bölgesinin önde gelen 50 şirketi) %0,59 artışla 6327,87 puana yükseldi ve zaman zaman iki ayın en yüksek seviyesine ulaştı. Düşen petrol fiyatı destekleyici oldu: ABD Başkanı Donald Trump, İran ile yaşanan askeri çatışmanın “fiilen sona erdiğini” açıkladı. Öğleden sonra ise ABD'de ekimde beklenmedik ölçüde yüksek gelen enflasyon, Fed'in (ABD Merkez Bankası) aralıkta faizi bir kez daha artıracağı beklentisini güçlendirdi; getiriler yükseldi.",
+     "Kazananlar ve kaybedenler: Henkel (imtiyazlı hisseler), güçlü çeyrek bilançosu ve teyit edilen yıllık hedeflerin ardından %4,4 artışla Mart 2025'ten bu yana en yüksek seviyeye çıktı. Infineon %0,9 yükseldi: Çip şirketi geçen mali yılda satışlarını %12 artırarak 16,35 milyar avroya çıkardı ve yapay zekâ veri merkezlerine yönelik güç yongalarının desteğiyle 2026/27 için yaklaşık 20 milyar avro (%20'nin üzerinde büyüme) bekliyor. Bir gün önceki güçlü yükselişin ardından Siemens Energy (-%3,4) listenin sonunda yer aldı; Dow Jones olası neden olarak Softbank'ın ABD'deki veri merkezlerine yönelik ekipman üzerindeki değer düşüşlerini gösterdi. Otomotiv hisseleri geriledi: VW (-%2,5), BMW (-%1,3), Mercedes-Benz (-%1,2). Porsche SE, VW iştirakindeki değer düşüşleri nedeniyle dokuz aylık 2,8 milyar avroluk zararın ardından %3,5 değer kaybetti. MDax'ta Elmos Semiconductor %6,3, K+S %4,5 düştü.",
+     "Çarşamba: Broker IG, Xetra açılışından iki saat önce Dax'ı %0,9 yukarıda, 26.583 puanda gösteriyordu (dpa-AFX). New York'ta salı günü Dow Jones %0,3, Nasdaq Composite %0,74 değer kaybetti. Asya'da çarşamba sabahı Nikkei %1,37 artıda, Hang Seng %0,6 ekside (finanzen.net). Saat 7:00'de dört Dax şirketi bilançosunu açıkladı. Siemens Energy 4,1 milyar avroluk rekor kâr bildirdi (bir önceki yıl yaklaşık 1,7 milyar), 2,30 avro temettü ödemeyi planlıyor ve 2026/27 için karşılaştırılabilir satışlarda %14-16 artış bekliyor; şirket salı akşamı 2030'a kadar 9 milyar avroya varan yeni hisse geri alımları da duyurmuştu. RWE, dokuz ayda düzeltilmiş Ebitda'yı (faiz, vergi ve amortisman öncesi kâr) %35 artırarak 4,6 milyar avroya çıkardı ve yılı tahminin üst bölümünde görüyor. Eon, 2026 tahminini teyit etti. Brenntag da planlandığı gibi saat 7:00'de çeyrek bilançosunu açıklıyor.",
+     "Bugünkü diğer takvim maddeleri: saat 8:00'de ekim ayına ilişkin kesinleşmiş Almanya tüketici fiyatları, saat 14:30'da “Ekonomi Bilgeleri”nin (Uzmanlar Konseyi) yıllık raporu. ABD'de bugün resmi tatil nedeniyle tahvil işlemleri yapılmıyor (dpa-AFX)."
+    ],
+    "d": "Dax salı günü, ABD'de yüksek enflasyonun kazançları eritmesinin ardından 26.347 puanda (%0,31 artışla) kapandı. Henkel %4,4 yükseldi. IG, çarşamba için Dax'ı %0,9 yukarıda, rekora yakın görüyor.",
+    "explain": "İyi şirket bilançoları tek tek hisseleri yukarı çeker; ancak ABD'de daha yüksek enflasyon faizlerin artmasına yol açabilir ve bu tüm piyasayı baskılar. Enerji şirketlerinin bugünkü bilançoları Dax'ı etkileyebilir.",
+    "t": "Dax %0,3 yükselişle kapandı, Henkel önde – bugün Siemens Energy, RWE ve Eon bilançoları"
+   },
+   "at": "2026-11-11T08:55Z",
+   "h": "45570ed3908a",
+   "rev": [
+    "Teaser: \"%+0,31\" is wrong Turkish format and the \"IG ... görüyor\" wording lacks the German hedge \"taxiert\"; keep meaning but fix the percent format",
+    "Siemens Energy and car-maker declines written as \"%-3,4\" etc. – Turkish convention is \"%3,4 düşüşle\" / \"-%3,4\"; fixed",
+    "Title: \"%0,3 yükselişle\" is fine",
+    "\"Ekonomi Bilgeleri\" capitalisation acceptable",
+    "Dax 'nın Xetra açılışından' fine",
+    "RWE 'tahminin üst bölümünde' ok",
+    "'Erwartungen an eine weitere Zinserhöhung' rendered with added certainty ('artıracağı beklentisini') – acceptable"
+   ],
+   "rev_dbg": [
+    7,
+    3,
+    0
+   ]
+  },
   "deutschland-afd-diesel-deal-russland-2026-11-11": {
    "L": {
     "body": [
@@ -1027,6 +1056,53 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Cardiff'teki Principality Stadium"
+   }
+  },
+  "fury-sparring-joshua-2010-zwei-runden": {
+   "L": {
+    "body": [
+     "Tyson Fury, Anthony Joshua ile 2010'da yaptığı ve iki tarafın farklı anılara sahip olduğu bir sparring seansı hakkında konuştu. Boxing News'e göre Fury, Michelle Joy Phelps'e verdiği röportajda şunları söyledi: “Hatırladığım sparringlerde – ya da yaptığımız o tek sparringde – iki raundun ardından ringden çıktı.”",
+     "Fury, antrenmanı bir acemiye yapılmış bir iyilik olarak tanımladı: “Bir çocuğun yolunu açtım. O zamanlar ben profesyoneldim … o ise adını henüz kimsenin duymadığı bir amatör boksördü.” Boxing News'e göre Joshua ise Fury ile “gerçek bir savaştan” söz etmişti.",
+     "İki İngiliz ağır sıklet boksör, 11 Aralık'ta Cardiff'teki Principality Stadium'da ilk kez profesyonel bir maçta karşı karşıya gelecek; maçı Netflix yayınlayacak."
+    ],
+    "d": "Tyson Fury ile Anthony Joshua 16 yıl önce aynı ringde karşılaştığında ne oldu? Fury kendi anlatımını paylaştı – Joshua ise “gerçek bir savaştan” söz etmişti.",
+    "t": "2010 sparring tartışması: Fury, Joshua'nın iki raundun ardından ringden çıktığını söylüyor"
+   },
+   "at": "2026-11-11T08:55Z",
+   "h": "9e01fc74475a",
+   "rev": [
+    "Headline: 'ringden çıktığını söylüyor' is acceptable as attribution; no change needed",
+    "Teaser: 'Fury kendi anlatımını paylaştı' is fine",
+    "Quote 'Bir çocuğun yolunu açmasına yardım ettim' is ungrammatical/awkward; should be 'Bir çocuğun yolunu açmasına yardım ettim' → 'Bir çocuğa yol göstermesine' is wrong, fix to 'Bir çocuğun işini kola"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Tyson Fury (sağda), O2 Arena'daki bir hayran etkinliğinde (Arşiv fotoğrafı)"
+   }
+  },
+  "hearn-joshua-dubois-revanche-nach-fury": {
+   "L": {
+    "body": [
+     "Eddie Hearn, “Politely Raw with Pacman Jones” podcastinde Anthony Joshua'nın 11 Aralık sonrasına ilişkin planlarından söz etti. Matchroom patronu, Boxing News'e göre şöyle dedi: “Tyson adına konuşamam, ama sporun en büyük maçlarında yer almaya devam etmek istiyor.” Hearn, “Dürüst olmalıyım ve bunun çok tehlikeli bir maç olduğunu biliyorum, ama Daniel Dubois ile rövanş istiyor” dedi.",
+     "Dubois, Joshua'yı 2024'te beşinci rauntta durdurmuştu. Hearn, “Bu yenilgiyi telafi etmek istiyor” dedi. Boxing News'e göre Hearn, Joshua'nın kendisini yenen herkesle rövanş maçı yaptığını, yalnızca Dubois ile henüz yapmadığını vurguladı. Hearn, Joshua'nın Fury'yi yenip durdurması halinde “neden olmasın?” dedi.",
+     "Joshua, önce 11 Aralık'ta Cardiff'teki Principality Stadium'da Fury ile karşılaşacak; maçı Netflix yayınlayacak. Boxing News'e göre kazanan, tarihin beşinci üç kemer sahibi ağır sıklet dünya şampiyonu olacak; ortaya WBA (Super) unvanı konuyor."
+    ],
+    "d": "Menajer Eddie Hearn, Anthony Joshua'nın Tyson Fury maçından sonra hedefindeki ismi açıkladı: 2024'te onu beşinci rauntta durduran Daniel Dubois.",
+    "t": "Hearn: Fury'den sonra Joshua, Daniel Dubois'dan rövanş istiyor"
+   },
+   "at": "2026-11-11T08:55Z",
+   "h": "dcc3cea92880",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Anthony Joshua ve menajer Eddie Hearn, 2019'da bir basın toplantısında (Arşiv fotoğrafı)"
    }
   },
   "invest-bulgarien": {
@@ -1808,6 +1884,32 @@
     "img.alt": "Kapak görseli: Norma Dumont UFC'den ayrılıyor"
    }
   },
+  "reynoso-canelo-hutchinson-option": {
+   "L": {
+    "body": [
+     "Christian Mbilli karşısında şampiyonluk kemerini kazanan Saúl “Canelo” Álvarez'in bir sonraki rakibi hakkında spekülasyonlar yapılıyor. Antrenör ve menajer Eddy Reynoso, ESPN Knockout'a verdiği röportajda şimdi daha üst sıklet bir isim verdi: WBC yarı ağır sıklet dünya şampiyonu Willy Hutchinson'ın bir seçenek olup olmadığı sorulduğunda, Boxing News'e göre şu yanıtı verdi: “Evet, şüphesiz.”",
+     "Reynoso, “Bence bu, çok güçlü olabileceğimiz ve onu yenebileceğimiz bir maç” dedi. Ancak henüz bir karar verilmediğini belirtti: “Göreceğiz.”",
+     "Hutchinson, 7 Kasım'da Manchester'da Joshua Buatsi ile yaptığı rövanş maçında boş olan WBC kemerini kazanmıştı. Canelo ise 31 Ekim'den bu yana yeniden süper orta sıklette WBC dünya şampiyonu; Hutchinson'la yapacağı bir maç onun için yarı ağır sıklete çıkmak anlamına gelirdi."
+    ],
+    "d": "Canelo'nun antrenörü Eddy Reynoso, yeni WBC yarı ağır sıklet şampiyonu Willy Hutchinson'ı olası rakip olarak gündeme getirdi ve boksörünün galibiyetine güveniyor.",
+    "t": "Reynoso: Yeni WBC şampiyonu Hutchinson “şüphesiz” Canelo için bir seçenek"
+   },
+   "at": "2026-11-11T08:55Z",
+   "h": "f34ea9178b03",
+   "rev": [
+    "Typo: 'sıklettten' has an extra 't'",
+    "Teaser: the German says the trainer 'traut seinem Boxer den Sieg zu', so the Turkish wording should be less flat and closer to the original",
+    "Mexiko-Stadt is rendered as 'Mexico City'; the established Turkish form is 'Mexico City', so no change needed"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Saúl “Canelo” Álvarez 2013'te Mexico City'de (Arşiv fotoğrafı)"
+   }
+  },
   "shelly-group-schneider-uebernahme-quartal-2026-11-11": {
    "L": {
     "body": [
@@ -1831,6 +1933,34 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Schneider Electric'in Çekya'nın Písek kentindeki tesisi"
+   }
+  },
+  "shields-cameron-verhandlungen-streit": {
+   "L": {
+    "body": [
+     "Ring Magazine'e göre kadınlar pound-for-pound sıralamasında birinci ve ikinci sırada yer alan Claressa Shields ile Chantelle Cameron birbirleriyle boks yapmak istiyor, ancak müzakereler çıkmaza girdi. Shields, X'te ekibinin “çok büyük bir teklif” yaptığını ve Cameron'ın 2027'nin ilk çeyreğinde yapılacak bir maçı kabul ettiğini yazdı. Cameron, diğer unvanların yanı sıra orta siklet altında (süper welter) WBA, WBC ve WBO dünya şampiyonu.",
+     "Cameron'ın promotörü Nakisa Bidarian (Most Valuable Promotions), Ring Magazine'e göre tarafların daha önce anlaştığını, ardından teklifin yaklaşık yüzde 30 oranında düşürüldüğünü söyledi. Bidarian, X'te “Başka konulara yöneldik. Bir dahaki sefere teklif yapıp sonra fikrinizi değiştirmeyin” diye yazdı.",
+     "Shields'ın promotörü Dmitry Salita, Cameron'a bir milyon doları aşan bir ücretin yanı sıra bilet gelirlerinden pay ve tarafsız hakemler teklif edildiğini belirtti. Salita, “Kamuoyu önünde yapılan müzakereler bizi ringe yaklaştırmıyor” dedi. “Masaya dönmeye ve bu maçı yapmaya hazırız.”"
+    ],
+    "d": "Pound-for-pound'un en iyileri Claressa Shields ile Chantelle Cameron arasındaki maç tıkandı. İki taraf da görüşmeleri engellemekle birbirini suçluyor.",
+    "t": "Shields-Cameron maçı için müzakereler tıkandı: Promotörler kamuoyu önünde tartışıyor"
+   },
+   "at": "2026-11-11T08:55Z",
+   "h": "d5c75a6c633f",
+   "rev": [
+    "Headline: \"Shields gegen Cameron\" is rendered as \"Shields-Cameron maçı\" – acceptable; no change. Body 1: \"Ring Magazine'e göre\" attribution is placed before the ranking, which is fine.",
+    "\"orta siklet altında (süper welter)\" – Halbmittelgewicht is correct (super welterweight, light middleweight); acceptable.",
+    "Teaser: \"Pound-for-pound'un en iyileri\" is acceptable.",
+    "\"yüzde 30 oranında\" lost \"fast\" (almost 30 percent) – \"yaklaşık\" is present, OK.",
+    "\"Bir ve ikinci sırada\" is unnatural; should be \"birinci ve ikinci sırada\"."
+   ],
+   "rev_dbg": [
+    5,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Claressa Shields 2022'de bir konferansta (Arşiv fotoğrafı)"
    }
   },
   "starship-flug-15-doppelfang-2026-11-11-b08": {
@@ -1879,6 +2009,32 @@
     0
    ]
   },
+  "sulaiman-mayweather-garcia-wbc-titel": {
+   "L": {
+    "body": [
+     "WBC'ye göre Floyd Mayweather'in Ryan Garcia ile bir dünya şampiyonluğu maçıyla geri dönmesi kurallar yüzünden engellenmiyor. WBC Başkanı Mauricio Sulaimán, Boxing News'in aktardığına göre Fight Hub TV'ye verdiği röportajda “Floyd Mayweather'i asla harcanmış saymamak gerekir” dedi. Sulaimán, “Mesele, Floyd'un tüm tıbbi muayenelerinin olup olmadığını ve boks lisansına sahip olup olmadığını kontrol etmek. WBC kurallarına göre şampiyonluk için ringe çıkmasına izin var” diye konuştu.",
+     "WBC welter sıklet dünya şampiyonu Garcia'nın, Boxing News'e göre 6 Şubat'ta ringe dönmesi bekleniyor. Sulaimán'ın sözlerine göre rakip olarak Mayweather ya da WBA dünya şampiyonu Teofimo López gündemde.",
+     "Mayweather, son profesyonel maçını 2017'de Conor McGregor'a karşı yapmıştı. Manny Pacquiao ile açıklanan rövanş maçı ise belirsiz bir tarihe ertelendi."
+    ],
+    "d": "WBC Başkanı Mauricio Sulaimán'a göre Floyd Mayweather, tıbbi testleri ve boks lisansı uygunsa Ryan Garcia'nın dünya welter sıklet şampiyonluğu için mücadele edebilir.",
+    "t": "WBC Başkanı Sulaimán: Mayweather, Garcia ile dünya şampiyonluğu için ringe çıkabilir"
+   },
+   "at": "2026-11-11T08:55Z",
+   "h": "1a4638ca2928",
+   "rev": [
+    "Idiom \"nie abschreiben\" was translated wrongly as \"yazgısına terk etmek\" (leave to his fate); it means never write him off",
+    "\"Regeln des WBC-Regelwerks\" was rendered a bit awkwardly, but the meaning is fine",
+    "Headline: \"dürfte\" is a hedge; \"çıkabilir\" is acceptable"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "WBC Başkanı Mauricio Sulaimán (Arşiv fotoğrafı)"
+   }
+  },
   "svrahpechalba-33-detski-oblekchenia-plenum-2026-11-11-b08": {
    "L": {
     "body": [
@@ -1898,6 +2054,31 @@
    ],
    "x": {
     "img.alt": "Sofya'daki Ulusal Meclis binası (Arşiv fotoğrafı)"
+   }
+  },
+  "toney-tipp-joshua-schlaegt-fury": {
+   "L": {
+    "body": [
+     "Üç farklı sıklette eski dünya şampiyonu ve Şöhretler Salonu üyesi James Toney, Tyson Fury ile Anthony Joshua arasındaki maçta Joshua'nın kazanacağını tahmin ediyor. Toney, Boxing News'in aktardığına göre FightHype'a verdiği video röportajda “Anthony Joshua kazanacak. Daha iyi bir atlet, daha atletik ve daha fazla vuruş gücüne sahip” dedi.",
+     "Fury ve Joshua 11 Aralık'ta Cardiff'teki Principality Stadium'da karşı karşıya gelecek; maçta bir dünya şampiyonluğu kemeri söz konusu ve kazanan üçüncü kez ağır sıklet dünya şampiyonu olacak. İkisi de daha önce iki kez dünya şampiyonu oldu, ancak Boxing News'e göre son maçlarında form düşüklüğü gösterdiler. Netflix etkinliğin tamamını yayınlayacak."
+    ],
+    "d": "Üç farklı sıklette eski dünya şampiyonu James Toney, 11 Aralık'ta Cardiff'te oynanacak İngiliz ağır sıklet karşılaşmasında Anthony Joshua'nın kazanacağını öngörüyor.",
+    "t": "James Toney tahminini açıkladı: Joshua, Fury'yi yener – “Daha iyi atlet”"
+   },
+   "at": "2026-11-11T08:55Z",
+   "h": "7159e6468303",
+   "rev": [
+    "Boxing terminology: 'Schwergewichtsduell' and 'Kampf' were rendered as 'maç' (match), but in boxing 'maç' is acceptable in Turkish, although 'karşılaşma/kapışma' is more natural",
+    "'setzt auf Anthony Joshua' rendered as 'Joshua'ya oynuyor' (betting idiom), which is unnatural in a headline-style teaser",
+    "'Weltmeister in drei Gewichtsklassen' rendered as 'Üç farklı sıklette eski dünya şampiyonu', which is correct"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Fury-Joshua maçının yapılacağı Cardiff'teki Principality Stadium (Arşiv fotoğrafı)"
    }
   },
   "ufc-334-gane-weist-unfair-vorwurf-zurueck": {
