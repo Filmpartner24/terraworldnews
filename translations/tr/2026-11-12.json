@@ -56,6 +56,36 @@
     "img.alt": "Arşiv fotoğrafı: Nevada'daki Cortez Hills açık ocağı (2013)"
    }
   },
+  "berlin-abgeordnetenhaus-aktuelle-stunde-9-november-2026-11-12-b11": {
+   "L": {
+    "body": [
+     "Eylül ayında yeni seçilen Berlin Eyalet Meclisi perşembe günü ikinci genel kurul oturumu için toplandı. Saat 10:00'da başlayan Güncel Saat, “Hafızayı korumak, demokrasiyi ve özgürlüğü savunmak” sloganıyla yapılıyor. Beş grubun tamamının başkanlarının bu konuda konuşması öngörülüyor.",
+     "Vesile 9 Kasım: 88 yıl önce Nasyonal Sosyalistler Yahudilere karşı Kasım pogromlarını örgütlemişti, 1989'da ise aynı gün Berlin Duvarı yıkıldı. Konuyu Linke, Yeşiller ve SPD ortaklaşa gündeme getirdi.",
+     "Üç parti şu anda yeni bir eyalet hükümeti için müzakere ediyor. Linke saflarındaki olayların ardından son haftalarda antisemitizmle mücadele konusu tartışılmıştı. Üç parti, ön görüşmelerinden önce antisemitizme karşı bir anlaşma yapmıştı; anlaşmanın hükümetin kurulması halinde koalisyon sözleşmesine alınması öngörülüyor."
+    ],
+    "d": "Yeni seçilen Berlin Eyalet Meclisi ikinci oturumu için toplanıyor. Güncel Saat'te tüm grup başkanları Pogrom Gecesi ve Berlin Duvarı'nın yıkılışı üzerine konuşacak.",
+    "t": "Yeni Berlin Eyalet Meclisi 9 Kasım'ı anıyor – koalisyon görüşmeleri sürüyor"
+   },
+   "at": "2026-11-12T09:07Z",
+   "h": "1c410bf50357",
+   "rev": [
+    "Abgeordnetenhaus left untranslated in headline, teaser, body and alt text; replaced with Turkish equivalent (Berlin Eyalet Meclisi)",
+    "Headline: 'erinnert an' is present tense, draft uses past 'andı' and omits the Berlin context; fixed",
+    "Teaser: 'Aktuelle Stunde' rendered inconsistently as 'Güncel Saat'; replaced with 'Güncel Saat' in a more natural form; 'Pogromnacht' rendered as 'Pogrom Gecesi' – changed to the established 'Kristall",
+    "'Jüdinnen und Juden' and 'Gerekçe' – 'Anlass' better as 'vesile'",
+    "Sondierungen rendered as 'ön görüşmeler' acceptable",
+    "'Kasım pogromlarını' lower-case fine"
+   ],
+   "rev_dbg": [
+    6,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin Eyalet Meclisi'nin genel kurul salonu (Arşiv fotoğrafı)",
+    "kl": "Berlin"
+   }
+  },
   "berlin-schoeneberg-regenbogenflagge-staatsschutz-2026-11-12-b08": {
    "L": {
     "body": [
@@ -125,6 +155,34 @@
    "x": {
     "img.alt": "Joe Biden (Arşiv fotoğrafı)",
     "kl": "ABD"
+   }
+  },
+  "bulgargaz-gaspreis-dezember-2026-11-12-b11": {
+   "L": {
+    "body": [
+     "Bulgaristan'da doğal gazın aralık ayında yeniden belirgin biçimde pahalanması öngörülüyor. Devlet büyük tedarikçisi Bulgargaz, Enerji ve Su Düzenleme Komisyonu'na (KEVR) megavatsaat başına 66,83 avro fiyat için başvurdu. Bu, şu an geçerli olan 58,43 avroluk kasım fiyatından yüzde 14,38 daha yüksek. Şebeke bedelleri, tüketim vergisi ve katma değer vergisi bu fiyata dahil değil. Fiyat, son tedarikçiler ile bölgesel ısıtma üreticileri için geçerli.",
+     "Gaz fiyatı kasımda KEVR'in 2 Kasım tarihli kararının ardından zaten yüzde 32,52 artmıştı. Forbes Bulgaria'nın hesaplamalarına göre yeni başvuru onaylanırsa fiyat ekim seviyesinin yaklaşık yüzde 52 üzerinde olacak; bu durumda art arda altıncı zam söz konusu olacakmış. Bulgar Ulusal Radyosu'na (BNR) göre hesaplama, tüketimin neredeyse üçte birini karşılayan Azerbaycan ile yapılan uzun vadeli sözleşmeye, Türkiye ve Yunanistan üzerinden yapılan sıvılaştırılmış gaz ithalatına ve Çiren depolama tesisindeki gaza dayanıyor.",
+     "Medya haberlerine göre başvuruya, BP Gas Marketing ile aralık ayında Türkiye'den yapılacak bir sıvılaştırılmış gaz teslimatına ilişkin anlaşma taslağı da ekli. Düzenleyici kurum, kesin aralık fiyatını belirlemeden önce öneriyi incelemeli ve kamuya açık biçimde görüşmeli. Bunun için henüz bir tarih yok."
+    ],
+    "d": "Kasımdaki yüzde 32,5'lik artışın ardından devlet tedarikçisi Bulgargaz, aralık için megavatsaat başına 66,83 avro talep etti. Son sözü düzenleyici kurum KEVR söyleyecek.",
+    "t": "Bulgaristan: Bulgargaz aralık için doğal gaz fiyatında yüzde 14 daha zam istiyor"
+   },
+   "at": "2026-11-12T09:07Z",
+   "h": "b25dca162b43",
+   "rev": [
+    "Title: 'zam istiyor' fine; but 'aralık' month lowercase is correct per TDK (months not capitalised unless date). 'Kasım'daki' in teaser is capitalised incorrectly since it is not part of a full date.",
+    "Teaser: 'Kasım'daki' should be lowercase 'kasımdaki'.",
+    "Body: '2 Kasım' is a full date and correctly capitalised.",
+    "Indirect speech: 'olacak' in the Forbes sentence reads as plain fact; conditional/attribution should be kept more clearly.",
+    "Meaning: 'Bu, ... yüzde 14,38 daha yüksek' fine; 'Würde ... genehmigt' conditional kept."
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Doğal gaz hattı üzerinde bir istasyon (Sembolik fotoğraf)"
    }
   },
   "bulgarien-budget-2027-protest-sofia-karimanski-bnb-2026-11-12": {
@@ -422,6 +480,59 @@
    ],
    "x": {
     "img.alt": "Karin Prien (Arşiv fotoğrafı)"
+   }
+  },
+  "canelo-wbc-boxer-des-monats-november": {
+   "L": {
+    "body": [
+     "Dünya Boks Konseyi (WBC), Saúl “Canelo” Álvarez'i Kasım 2026 için “Ayın Boksörü” seçti. Federasyon bunu çarşamba günü internet sitesinden duyurdu. Gerekçe, Canelo'nun önceki dünya şampiyonu Christian Mbilli'yi yenerek WBC süper orta siklet unvanını ve yeşil-altın renkli WBC kemerini geri kazanması.",
+     "WBC gerekçesinde, Canelo'nun kontra boksunu, savunmasını ve isabetli kombinasyonlarını öne çıkararak maçı bunlarla kontrol ettiğini belirtti. WBC'ye göre Meksikalı boksör bu başarıyla 168 librelik sıklette zirveye geri döndü.",
+     "Canelo, Mbilli'yi 31 Ekim'de Riyad'da oybirliğiyle sayılarla yenmişti. Bir sonraki rakibi henüz belli değil; medya haberlerine göre gündemdeki seçenekler arasında yarı ağır siklete geçip WBC dünya şampiyonu Willy Hutchinson'la ve WBC geçici dünya şampiyonu Lester Martínez'le dövüşmek de var."
+    ],
+    "d": "Christian Mbilli karşısında şampiyonluğu geri alan Saúl “Canelo” Álvarez'i ödüllendiren federasyon, kontra boksunu, savunmasını ve kombinasyonlarını övdü.",
+    "t": "WBC, Canelo'yu Kasım ayının “Ayın Boksörü” seçti"
+   },
+   "at": "2026-11-12T09:07Z",
+   "h": "8f5516ee5e94",
+   "rev": [
+    "Weekday \"Çarşamba\" capitalised mid-sentence; TDK requires lowercase",
+    "Indirect speech \"mit denen er den Kampf kontrolliert habe\" rendered as plain fact, and the sentence is garbled (\"kontrol etmesini sağladığı\")",
+    "Teaser says he regained \"şampiyonluğu\" (generic); the original says Titelgewinn – acceptable, but the draft wording is vague",
+    "Reported statement \"Mit dem Erfolg sei...\" is attributed only with \"WBC'ye göre\" and needs a reporting marker (fine); the verb form was adjusted for consistency",
+    "Ambiguity: \"Willy Hutchinson\" and \"Lester Martínez\" are listed as separate options, but the draft reads as if the move to light heavyweight were against both; reworded for clarity"
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Saúl “Canelo” Álvarez (Arşiv fotoğrafı, 2017)"
+   }
+  },
+  "china-ki-firmen-nvidia-rechenleistung-ausland-2026-11-12-b11": {
+   "L": {
+    "body": [
+     "Reuters haber ajansının edindiği bilgilere göre Çinli yapay zekâ şirketleri, Çin dışındaki veri merkezlerinde Nvidia çipli işlem gücü sağlamaya çalışıyor. Reuters, konuya yakın üç kişiye dayandırdığı haberinde, büyük bir Çinli bulut hizmeti sağlayıcısının bu konuyu şirket içinde görüştüğünü, bazı firmaların da işletmecilerle şimdiden temasa geçtiğini bildirdi. Habere göre daha küçük yapay zekâ laboratuvarları da örneğin Güneydoğu Asya'da kapasite ayırtmayı değerlendiriyor.",
+     "Arka planda, Nvidia CEO'su Jensen Huang çevresindeki skandalın Washington üzerindeki baskıyı artıracağı ve yüksek performanslı çiplere uzaktan erişimin de kısıtlanabileceği endişesi yatıyor. En gelişmiş Nvidia çiplerinin Çin'e satışı zaten yasak, ancak yurt dışında kiralama şimdiye kadar yasak değil. Ticaret Bakanlığı'na bu konuda yetki verecek bir yasayı Temsilciler Meclisi Ocak ayında 369'a 22 oyla kabul etti; Senato ise henüz oylama yapmadı.",
+     "İki kişinin verdiği bilgiye göre ayrıca Çin'in gri piyasasında yasaklı Nvidia çiplerine talep arttı ve tüccarlar stok yaptı. Nvidia ile ABD Ticaret Bakanlığı başlangıçta yorum yapmadı. Çin, Huang ile bağlantılı casusluk iddialarını reddediyor."
+    ],
+    "d": "Reuters'a göre Çinli yapay zekâ şirketleri, Nvidia CEO'su Huang'ın casusluk skandalının ardından, Washington boşluğu kapatmadan önce Çin dışındaki veri merkezlerinde hızla kapasite kiralamak istiyor.",
+    "t": "ABD yasağı korkusu: Çinli yapay zekâ şirketleri yurt dışında Nvidia işlem gücü arıyor"
+   },
+   "at": "2026-11-12T09:07Z",
+   "h": "8c0a72c84f28",
+   "rev": [
+    "Teaser: 'Washington boşluğu kapatmadan' lost the German 'bevor' relation clarity and 'schnell' (quickly); added 'hızla'",
+    "Body 2: 'Spionage-Affäre' in teaser rendered as 'casusluk skandalı' acceptable; no change. Draft otherwise faithful"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Terra World News kapak görseli"
    }
   },
   "deutsche-boerse": {
@@ -767,6 +878,36 @@
     "img.alt": "Arşiv fotoğrafı: Markus Söder (CSU) Münih'te bir basın toplantısında, 2021"
    }
   },
+  "dfb-mohya-nicht-im-kader-serbien-2026-11-12-b11": {
+   "L": {
+    "body": [
+     "Almanya Milli Takım Teknik Direktörü Jürgen Klopp, cuma günü (20.45/RTL) Sırbistan'da oynanacak Uluslar Ligi maçında Wael Mohya'yı kadroya almadı. Spor Bilgi Servisi'nin (SID) haberine göre, Borussia Mönchengladbach'ın 17 yaşındaki orta saha oyuncusu maç günü kadrosunda yer almıyor ancak takımla birlikte Belgrad'a seyahat edecek. Klopp 24 oyuncu çağırmıştı, ancak her maç için yalnızca 23 oyuncu bildirilebiliyor.",
+     "Klopp, kendi sözlerine göre 24. yeri antrenmanda görmek istediği genç oyuncular için kullanmak istedi. Kadro açıklandığında orta saha oyuncusu hakkında şöyle demişti: “Şu anda Bundesliga'da oynayan çok fazla 17 yaşındaki oyuncu yok. Ama o bunu iyi de yapıyor.” Mohya, A milli takımdaki ilk maçına pazartesi günü Berlin'de Hollanda'ya karşı çıkabilir.",
+     "Takım perşembe öğlen Herzogenaurach'ta son antrenmanını yapacak ve ardından Belgrad'a uçacak; Klopp ve Florian Wirtz akşam orada basın toplantısına katılacak. Sırp federasyonuna verilen UEFA cezası nedeniyle maç büyük ölçüde seyircisiz oynanacak: Yaklaşık 5.000 çocuk ile 50 Alman taraftarın girişine izin verilecek."
+    ],
+    "d": "Wael Mohya, Sırbistan'daki Uluslar Ligi maçının 23 kişilik kadrosunda yer almıyor. Mönchengladbachlı oyuncu yine de ekiple Belgrad'a gidecek. Akşam Klopp ve Wirtz basın toplantısında konuşacak.",
+    "t": "Klopp, Mohya'yı Belgrad maçı kadrosuna almadı: 17 yaşındaki Gladbachlı yok"
+   },
+   "at": "2026-11-12T09:08Z",
+   "h": "7ba2deb3315e",
+   "rev": [
+    "Headline: 'Gladbach'lı' is wrongly formed and the headline is awkward; 'Gladbach' left untranslated and apostrophe usage wrong (Turkish: Gladbachlı for the club adjective is acceptable without apostro",
+    "Teaser: same 'Gladbach'lı' issue",
+    "'Sport-Informations-Dienst' left in German; should be rendered in Turkish as Spor Bilgi Servisi",
+    "'Mönchengladbach' is a proper name and fine",
+    "Time '20.45' lacks 'saat' context, minor; kept",
+    "Debut: German says 'Sein Debüt' (his debut), draft adds 'A milli takımdaki' – acceptable; 'Wegen... Geisterspiel' rendered as 'seyircisiz' but 5,000 children and 50 fans are admitted, wording 'büyük ö",
+    "Headline simplified; 'Mohya'yı Belgrad kadrosuna almadı' is slightly misleading since he travels with the team, adjusted to 'maç kadrosuna'"
+   ],
+   "rev_dbg": [
+    7,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Belgrad'da bir futbol stadyumu (Sembolik fotoğraf)"
+   }
+  },
   "dfb-rechenspiele-belgrad-serbien-2026-11-12-b08": {
    "L": {
     "body": [
@@ -1068,6 +1209,108 @@
     "img.alt": "Sembolik fotoğraf: Barcelona'da Passeig de Gràcia"
    }
   },
+  "fury-joshua-karte-bakole-vanhouter": {
+   "L": {
+    "body": [
+     "Netflix, Tyson Fury ile Anthony Joshua'nın 11 Aralık'ta Cardiff'teki Principality Stadium'da karşılaşacağı gece için iki dövüş daha duyurdu. Martin Bakole, Solomon Adebayo ile; ABD'li Da'Mazion Vanhouter ise Michael Essomba ile karşılaşacak. Böylece Netflix'e göre dövüş kartında hepsi ağır sıklette olmak üzere dört karşılaşma yer alıyor; daha önce Deontay Wilder - Jai Opetaia maçı programa alınmıştı.",
+     "Boxing News'e göre 33 yaşındaki Kongolu Bakole için bu, bir yıldan uzun süren aranın ardından geri dönüş anlamına geliyor. Bakole, 2025'te Suudi Arabistan'da Joseph Parker tarafından ikinci rauntta durdurulmuştu; üç ay sonra Efe Ajagba ile berabere kalmıştı. Rakibi Adebayo ise Boxing News'e göre 15 profesyonel maçta yenilgisiz.",
+     "MiddleEasy'ye göre 21 yaşındaki Vanhouter 14 profesyonel maçının tamamını kazandı, bunlardan on biri erken bitti; son maçı 7 Kasım'da Ivan Balaz'a karşı ilk raundda sona erdi. Boxing News'e göre Zuffa Boxing'in başkanı Dana White, onu ağır sıkletin olası bir sonraki süperstarı olarak nitelendirmişti. Netflix geceyi aboneler için ek ücret almadan yayınlayacak."
+    ],
+    "d": "Cardiff dövüş kartı belli oldu: Wilder - Opetaia maçının yanı sıra Martin Bakole, Solomon Adebayo ile; Da'Mazion Vanhouter ise Michael Essomba ile boks yapacak – hepsi ağır sıklet.",
+    "t": "Fury - Joshua: Netflix, Bakole ve Vanhouter'ın dövüş kartında yer aldığını doğruladı"
+   },
+   "at": "2026-11-12T09:07Z",
+   "h": "0184f355df3b",
+   "rev_dbg": [
+    4,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Cardiff'teki Principality Stadium geceleyin (Arşiv fotoğrafı)"
+   }
+  },
+  "fury-usyk-einspringen-joshua": {
+   "L": {
+    "body": [
+     "Tyson Fury, Anthony Joshua ile 11 Aralık'ta Cardiff'te yapılacak maçın iptal olması ihtimaline karşı önlem aldı. Fury, Daily Mirror'a göre Michelle Joy Phelps ile yaptığı konuşmada şunları söyledi: “Aslında Oleksandr ile konuştum ve ona şunu söyledim: Joshua dövüşmezse biz dövüşürüz.” Fury'ye göre Usyk, meşgul olduğu için teklifi reddetti.",
+     "Usyk daha önce DAZN'da cruiserweight'e döneceğini açıklamıştı: “Ağır siklette ortalığı temizledim, şimdi kendi sıkletime dönüyorum.” Fury buna şüpheyle yaklaşıyor: “Bana karşı olmazsa, Oleksandr Usyk bir daha dövüşmez. Kesinlikle.” Fury'ye göre Usyk yüksek bir ödeme istiyor, “ve bunu ona verebilecek adam benim”.",
+     "Usyk, 2024'te Fury'yi iki kez puanla yenmişti. Mirror'a göre Fury, Joshua maçından sonra mart ayında ringe dönmeyi planlıyor; Fury'ye göre Usyk şu anda ailesiyle tatilde, “ama mart ayında dövüşebilir”."
+    ],
+    "d": "Tyson Fury, kendi sözlerine göre Oleksandr Usyk ile yedek bir maç konusunda konuştu. Usyk reddetti; Fury onun cruiserweight'e dönüşüne inanmıyor.",
+    "t": "Fury: Joshua dövüşmezse Usyk'e yerine geçmeyi önerdim"
+   },
+   "at": "2026-11-12T09:07Z",
+   "h": "0f3e61f59caa",
+   "rev": [
+    "Turkish rendering of 'Cruisergewicht' is fine, but 'Ağır siklet bölümünü temizledim' is an unnatural literal rendering of the idiom 'das Schwergewicht aufgeräumt'",
+    "'kendi sıklet kategime' is awkward wording"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Oleksandr Usyk, 2015'te Kiev'de bir maçta (arşiv fotoğrafı)"
+   }
+  },
+  "garcia-mayweather-6-februar-las-vegas": {
+   "L": {
+    "body": [
+     "Ryan Garcia, Kick platformundaki bir canlı yayında Floyd Mayweather ile bir maç yapacağını duyurdu. WBC welter siklet dünya şampiyonu, Athlon Sports'a göre şöyle dedi: “6 Şubat'ta Floyd Mayweather ile dövüşeceğiz.” Maçın Las Vegas'ta yapılması planlanıyor. “Bu bir gösteri maçı değil, gerçek bir maç” sözlerinin Garcia'ya ait olduğu SPORTbible tarafından aktarıldı.",
+     "Organizatörlerden, boks komisyonundan ya da Mayweather'in ekibinden şu ana kadar resmi bir doğrulama gelmedi. Garcia, Mayweather'e 100 milyon dolarlık bir ücret vaat etti; bu rakam yalnızca kendisinden geliyor.",
+     "49 yaşındaki Mayweather (50-0) son profesyonel maçını 2017'de Conor McGregor'a karşı yaptı, o tarihten bu yana yalnızca gösteri maçlarına çıktı. WBC Başkanı Mauricio Sulaimán son olarak, lisans ve sağlık muayeneleri olması halinde kuralların Mayweather'in bir unvan maçı yapmasına izin verdiğini açıklamıştı."
+    ],
+    "d": "WBC welter siklet şampiyonu, bir canlı yayında gerçek bir profesyonel maçtan söz etti. Karşılaşma henüz resmen doğrulanmadı.",
+    "t": "Ryan Garcia duyurdu: Mayweather ile maç 6 Şubat'ta Las Vegas'ta"
+   },
+   "at": "2026-11-12T09:07Z",
+   "h": "39e3c5919a04",
+   "rev": [
+    "Teaser: 'Weltergewicht' rendered as 'hafif orta sıklet' (super lightweight) while body says 'welter siklet'; made consistent",
+    "Quote sentence in paragraph 1 is broken/ungrammatical ('sözlerini Garcia'ya atfeden SPORTbible'a göre')",
+    "'Börse' = purse; 'ücret' acceptable but 'Garcia stellte in Aussicht' rendered as 'vaat etti' is fine",
+    "'Dövüşeceğiz' sentence order acceptable; 'Maç' vs 'Kampf' fine"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Floyd Mayweather, 2011 (Arşiv fotoğrafı)"
+   }
+  },
+  "gremium-mc-verbot-razzia-baden-wuerttemberg-2026-11-12-b11": {
+   "L": {
+    "body": [
+     "Baden-Württemberg İçişleri Bakanlığı perşembe günü Gremium MC rocker kulübünün üç yerel grubunu yasakladı: “Chapter Nomads Bosporus Türkiye” ile Böblingen ve Leonberg'deki alt örgütler. Bakanlığın bildirdiğine göre yasak sabahtan beri uygulanıyor. Arka planda örgütlü suç şüphesi bulunuyor.",
+     "Schwäbische Zeitung ve Bild gazetesinin araştırmalarına göre saat 6'dan beri Baden-Württemberg, Bavyera, Kuzey Ren-Vestfalya, Rheinland-Pfalz ve Saarland'dan yaklaşık 600 polis görev yapıyor. Polisler, aralarında Stuttgart yakınlarındaki Weil der Stadt'ın da bulunduğu yerlerde 50'den fazla konutu, iş yerini ve buluşma noktasını arıyor. Amaç, bilgisayarlara ve iletişim cihazlarına el koymak, ayrıca otomobillere ve motosikletlere de el koymak. İçişleri Bakanı Manuel Hagel (CDU), öğleden önce Ludwigsburg'da ayrıntıları açıklamayı planlıyordu.",
+     "Gremium MC 1972'de Mannheim'da kuruldu. İçişleri Bakanlığı kulübü 2021'de Almanya'nın en büyük ulusal “Outlaw Motorcycle Gang”i olarak nitelendirmişti; o dönemde Heidelberg çevresindeki “Southgate” şubesi de yasaklanmıştı. Eyaletin güvenlik raporuna göre eyalette 2.000'den fazla üyesi olan 154 rocker yerel grubu bulunuyor."
+    ],
+    "d": "Beş eyaletten yaklaşık 600 polis sabahın erken saatlerinden beri 50'den fazla adreste arama yapıyor. İçişleri Bakanı Hagel (CDU), Gremium MC rocker kulübünün üç yerel grubunu yasakladı.",
+    "t": "Rockerlara büyük baskın: Baden-Württemberg Gremium MC'nin üç şubesini yasakladı"
+   },
+   "at": "2026-11-12T09:07Z",
+   "h": "c1e6f5ef6d00",
+   "rev": [
+    "Weekday \"Perşembe\" wrongly capitalised (TDK: lowercase)",
+    "Untranslated German names: Rheinland-Pfalz should be Rheinland-Pfalz → Rheinland-Palatinate in Turkish usage (Rhineland-Pfalz = Rheinland-Pfalz → \"Rheinland-Pfalz\" replaced by \"Rheinland-Pfalz\" is wro",
+    "Schwäbische Zeitung left untranslated; rendered as Swabian newspaper name",
+    "\"Outlaw Motorcycle Gang\" is an English quoted term; left",
+    "Awkward repeated 'el koymak' in the purpose sentence",
+    "Mannheim'da → Mannheim'da is correct per vowel harmony; unchanged"
+   ],
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Baden-Württemberg'de polis aracı (Sembolik fotoğraf)"
+   }
+  },
   "haushalt-2027-sozialkuerzungen-stromsteuer-2026-11-12-b08": {
    "L": {
     "body": [
@@ -1087,6 +1330,56 @@
    ],
    "x": {
     "img.alt": "Lars Klingbeil (Arşiv fotoğrafı)"
+   }
+  },
+  "hutchinson-canelo-boxstunde": {
+   "L": {
+    "body": [
+     "Willy Hutchinson, Saúl “Canelo” Álvarez'in kendisiyle bir maçı değerlendirdiğine dair haberlere yanıt verdi. İskoç boksör, Sky Sports podcast'i “Toe2Toe”da “Dün akşam ya da bir gün önce Canelo Álvarez'in bu maçla ilgileneceğini duydum” dedi. Hutchinson, onu “kollarını açarak” karşılayacağını söyledi.",
+     "Hutchinson özgüvenli konuştu: “Canelo'ya bir boks dersi verirdim” dedi; sözler Boxing News'te yer aldı. “Tek ilgilendiğim şey bu adamı yenmek.” Hutchinson, 7 Kasım'da Joshua Buatsi'ye karşı oynanan rövanşta oybirliğiyle puan galibiyeti alarak boş olan yarı ağır siklet WBC unvanını kazanmıştı.",
+     "Canelo'nun antrenörü Eddy Reynoso daha önce Hutchinson'ı bir seçenek olarak anmıştı. Canelo, 31 Ekim'den bu yana yeniden süper orta siklet WBC dünya şampiyonu. Yarı ağır sikletde şimdiye kadar iki kez ringe çıktı: 2019'da Sergey Kovalev'e karşı WBO unvanını kazandı, 2022'de Dmitry Bivol'a yenildi."
+    ],
+    "d": "Yarı ağır siklet yeni WBC dünya şampiyonu, Canelo'nun ilgisine yanıt veriyor ve onu “kollarını açarak” karşılayacağını söylüyor.",
+    "t": "Hutchinson Canelo'yu davet etti: “Ona bir boks dersi verirdim”"
+   },
+   "at": "2026-11-12T09:07Z",
+   "h": "b15f5faab72e",
+   "rev": [
+    "Second paragraph: the sentence on the quote is clumsy and distorts the attribution; 'laut Boxing News' was rendered as 'sözleri Boxing News'e dayandırıldı'",
+    "Typo/wording: 'ilgileneceğini' changes the meaning of 'interessiert wäre' (would be interested) only slightly, but the quote is acceptable; 'boks yaptı' is unnatural for 'boxte' (fought), changed to '"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Canelo Álvarez ringde, 2017 (Arşiv fotoğrafı)"
+   }
+  },
+  "ibf-fajardo-yabuki-ringrichter-tokio": {
+   "L": {
+    "body": [
+     "IBF, 26 Kasım'da Tokyo'daki Ebara Wave Arena'da Masamichi Yabuki ile Miel Fajardo arasında yapılacak sineksiklet dünya şampiyonası maçının görevlilerini belirledi. Daily Tribune'e göre ring hakemi Japon Koji Tanaka; puan hakemleri ise Takeru Okaniwa (Japonya), Carl Zappia (Avustralya) ve Gil Co (Filipinler). Maçın denetimini Japonya Boks Komisyonu Genel Sekreteri Tsuyoshi Yasukochi yürütecek.",
+     "Yabuki (20 galibiyet, 4 yenilgi, 18 nakavt) için bu, üçüncü unvan savunması. Daily Tribune'e göre Yabuki bahis şirketlerinde açık favori olarak görülüyor. Filipinli Fajardo (14-3-2, 12 nakavt) zorunlu rakip konumunda ve 20 Kasım'da ekibiyle birlikte Japonya'ya gitmeyi planlıyor.",
+     "Yan ana maçta WBA dünya şampiyonu Takeshi Ishii, çöp siklet unvanını Filipinli Zyvyr Medecillo'ya karşı savunacak."
+    ],
+    "d": "Masamichi Yabuki, 26 Kasım'da Tokyo'da IBF sineksiklet unvanını zorunlu rakip Miel Fajardo'ya karşı savunacak. IBF maç görevlilerini açıkladı.",
+    "t": "IBF dünya şampiyonası Yabuki - Fajardo: Ring hakemi ve puan hakemleri belli oldu"
+   },
+   "at": "2026-11-12T09:07Z",
+   "h": "68f528182964",
+   "rev": [
+    "Turkish boxing term: Strohgewicht is \"sinek siklet\" rather than \"saman siklet\" – actually Strohgewicht = minimumweight, Turkish \"çöp siklet\"",
+    "Fliegengewicht rendered as \"sineksiklet\" is inconsistent with the Turkish spelling \"sinek siklet\""
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Tokyo'nun Ōta ilçesindeki spor salonu, bugünkü adıyla Ebara Wave Arena (Arşiv fotoğrafı, 2019)"
    }
   },
   "invest-bulgarien": {
@@ -1133,6 +1426,33 @@
     0,
     0
    ]
+  },
+  "israel-kabinett-iran-angriff-vorbereitung-2026-11-12-b11": {
+   "L": {
+    "body": [
+     "Geçici Başbakan Benjamin Netanyahu başkanlığındaki İsrail güvenlik kabinesi, orduya İran'a olası bir saldırı için hazırlıkları artırma talimatı verdi. Bunu kamu yayıncısı KAN çarşamba akşamı bildirdi. Kanalın verdiği bilgiye göre bu talimatlar, savaşı tetikleyecek faaliyetlere yol açabilir. Kapsam ve takvim şimdilik belirsiz kaldı; hükümet ve ordu yaklaşan bir saldırıyı doğrulamadı.",
+     "Cumhurbaşkanı Isaac Herzog'un pazar günü hükümeti kurmakla görevlendirdiği muhalefet lideri Gadi Eisenkot, Ynet sitesine göre Netanyahu'ya yazdığı mektupta, “doğrudan ve yakın bir tehdit” olmaksızın ordunun kullanılmasına karşı uyardı. Eisenkot'a göre bekleyebilecek adımlara ancak parlamentonun desteklediği bir hükümet karar vermeli. Netanyahu'nun bloğu Ekim'deki seçimde Knesset'teki 120 sandalyenin yalnızca 53'ünü kazanmıştı.",
+     "İran Güvenlik Konseyi Sekreteri Mohsen Rezaei, ABD'nin yeni bir savaş başlatması halinde, savaşa katılan her askeri üssün “Batı Asya'dan Avrupa'ya kadar” meşru hedef olacağını söyledi. “Güvenli mesafe yok. Güvenli liman yok” diye yazdı. ABD Başkanı Donald Trump ise son olarak şu anda savaşı yeniden başlatmak için bir neden görmediğini söyledi; aynı zamanda Katar'ın arabuluculuk yaptığı Tahran'la görüşmelerin başarısız olması halinde yeni bir savaşa hazır olduğunu belirtti."
+    ],
+    "d": "KAN'a göre ordunun hazırlıklarını artırması isteniyor. Muhalefet lideri Eisenkot geçici başbakan Netanyahu'yu uyardı, Tahran ise Avrupa'ya kadar uzanan saldırılarla tehdit etti.",
+    "t": "İsrail güvenlik kabinesi orduya İran'a olası saldırı hazırlığı talimatı verdi"
+   },
+   "at": "2026-11-12T09:07Z",
+   "h": "ea02c93b9a0a",
+   "rev": [
+    "Headline stated the order as completed fact; the German says the cabinet instructed the military (fine), but the teaser needs the KAN attribution kept and 'soll' hedge; 'artıracak' reads as plain fact",
+    "Capitalisation: 'Geçici Başbakan' and 'Güvenlik Kabinesi' are common nouns/titles in running text and should be lowercase",
+    "'Cumhurbaşkanı' title before the name is acceptable, but 'bloku' is non-standard; 'bloğu' is correct",
+    "'Kanalın verdiği bilgiye göre' - 'Sender' is a broadcaster; wording kept, but 'başlangıçta' for 'zunächst' is better as 'şimdilik'"
+   ],
+   "rev_dbg": [
+    4,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Benjamin Netanyahu ve Donald Trump Beyaz Saray'da (Arşiv fotoğrafı)"
+   }
   },
   "kane-wembley-kroatien-ballon-dor-2026-11-12-b08": {
    "L": {
@@ -1532,6 +1852,32 @@
     "img.alt": "Arşiv fotoğrafı: Garth Brooks, 2019 iHeartRadio Music Awards'ta"
    }
   },
+  "kultur-george-michael-faith-tour-kinofilm-2026-11-12": {
+   "L": {
+    "body": [
+     "Uzun süre kayıp sayılan bir George Michael konser filmi Almanya sinemalarına geliyor: „George Michael: The Faith Tour“, kino.de'ye göre 12 Kasım'da vizyona giriyor. Film, „Faith“ turnesinin Avrupa ayağında Mayıs 1988'de Paris'teki Palais Omnisports de Paris-Bercy'de verilen iki konseri, 35 milimetrelik film üzerine 14 kamerayla kaydedilmiş görüntülerle gösteriyor. Görüntüler restore edildi ve yeniden düzenlendi. Filmin yönetmenleri Andy Morahan ve David Austin; film 113 dakika sürüyor.",
+     "Filmin yapımcıları George Michael Entertainment ve Mercury Studios; yapım Globe Originals iş birliğiyle gerçekleştirildi. Music Week'in haberine göre uluslararası haklar Universal Pictures Content Group'ta, Kuzey Amerika hakları ise Bleecker Street'in etkinlik sineması etiketi Crosswalk'ta. Konserden önce Mary McCartney'nin ayrı bir filmi gösteriliyor. Bununla eş zamanlı olarak Sony Music'ten, Wham! ve solo hitlerinden daha önce yayımlanmamış 18 kayıt içeren „The Faith Tour“ adlı canlı albüm çıkıyor.",
+     "„Faith“ turnesi, George Michael'ın Wham! sonrasındaki ilk solo turnesiydi; Attitude dergisine göre 16 ülkede 100'den fazla konser verildi, koreografiyi Paula Abdul yaptı. Film Birleşik Krallık ve İrlanda'da 6 Kasım'da gösterime girdi, ABD'de vizyon tarihi 11 Aralık. Universal Pictures Content Group'tan Helen Parker, George Michael'ın turnenin zirvesinde „simply electrifying“ (tam anlamıyla büyüleyici) olduğunu söyledi."
+    ],
+    "d": "Uzun süre kayıp sayılan görüntüler: George Michael'ın „Faith“ turnesinin Paris'te çekilen konser filmi, restore edilmiş haliyle bugün Almanya sinemalarında.",
+    "t": "„George Michael: The Faith Tour“: 1988'in kayıp konser filmi bugün sinemalarda"
+   },
+   "at": "2026-11-12T09:07Z",
+   "h": "adcd962f4835",
+   "rev": [
+    "Teaser says the film is in cinemas today, but the German says 'ab heute' (starts today); 'sinemalarda' is acceptable. No change needed.",
+    "Headline: 'kayıp konser filmi' omits 'lange' but is acceptable; length OK.",
+    "Body 1: 'kameryla' is a spelling error; it should be 'kamerayla'."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: George Michael, 1988'de „Faith“ turnesi sırasında Houston'da sahnede"
+   }
+  },
   "kultur-windmill-lane-studios-u2-buch-2026-11-12": {
    "L": {
     "body": [
@@ -1759,6 +2105,56 @@
     "img.alt": "Sembolik fotoğraf: Athenlay Road'daki sıra evler"
    }
   },
+  "malignaggi-gassiev-fury-joshua-sieger": {
+   "L": {
+    "body": [
+     "Paulie Malignaggi, WBA'nın 11 Aralık'ta Cardiff'te yapılacak Tyson Fury - Anthony Joshua maçında ağır siklet “Süper” unvanını vermesi kararını eleştirdi. Eski dünya şampiyonu, Daily Mirror'a göre talkSPORT'ta “Bence bu, WBA'nın biraz siyasi bir hamlesi” dedi.",
+     "Malignaggi'ye göre bundan zarar gören kişi, geçen Aralık ayında Kubrat Pulev'i yenerek kazandığı olağan WBA unvanının sahibi Murat Gassiev. Malignaggi, “Maalesef Murat Gassiev'e burada haksızlık yapıldığını düşünüyorum” dedi. Ona göre Cardiff'teki maçın galibi sıradaki maçında Gassiev ile karşılaşmalı.",
+     "Mirror'a göre Joshua'nın promotörü Eddie Hearn'ün planları farklı: Joshua kazanırsa Daniel Dubois ile rövanş maçı yapmak istediği belirtiliyor. Gassiev'in promotörü Ivaylo Gotzev ise Eylül sonunda Fury - Joshua maçı için verilen “Süper” unvanına zaten itiraz etmişti."
+    ],
+    "d": "Eski dünya şampiyonu, İngiliz düellosu için verilen WBA “Süper” unvanını siyasi bir hamle olarak görüyor ve Murat Gassiev'in haksızlığa uğradığını söylüyor.",
+    "t": "Malignaggi: Malignaggi: Fury-Joshua maçının galibi sırada Gassiev ile dövüşmeli"
+   },
+   "at": "2026-11-12T09:07Z",
+   "h": "36ae66e8429a",
+   "rev": [
+    "Headline: 'sıradaki rakibi Gassiev olmalı' is ungrammatical/unclear; fixed to say the winner must face Gassiev next",
+    "Teaser: 'görüyor' and 'söylüyor' are in the present tense, while the German says Malignaggi 'sieht Murat Gassiev benachteiligt'; kept, but wording 'İngiliz derbisi' is changed to the neutral 'İngiliz ",
+    "'ortaya koyma' for 'vergeben' (award the title) is wrong; should be 'vermesi'",
+    "'Hearn'e göre Joshua kazanırsa ... istiyor' is a clumsy attribution; reworded to clear indirect speech",
+    "Dubois rematch: 'Gewinnt Joshua, wolle dieser' means Joshua wants the rematch, not Hearn; made it explicit as reported speech",
+    "Gotzev spelling: 'Gotsev' changed to 'Gotzev' as in the original"
+   ],
+   "rev_dbg": [
+    6,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Paulie Malignaggi, 2010 (Arşiv fotoğrafı)"
+   }
+  },
+  "mannheim-cafe-schuesse-toter-2026-11-12-b11": {
+   "L": {
+    "body": [
+     "Mannheim şehir merkezindeki bir kafede çıkan tartışmanın ardından çarşamba gecesi geç saatlerde bir kişi ateşli silahla ateş açtı. Polisin verdiği bilgiye göre iki kişi vuruldu, bunlardan biri hayatını kaybetti. Tartışmanın neden çıktığı şimdilik belli değil.",
+     "İddia edilen silahlı saldırgan önce yaya olarak kaçtı. Polis kısa süre sonra onu buldu; gözaltı sırasında polis de ateş açtı. Polisin açıklamasına göre şüpheli ile kafede yaralanan kişi tıbbi tedavi görüyor. “Görevliler, yaraların ciddiyetine ilişkin başlangıçta bilgi vermedi”, diye aktardı Deutsche Presse-Agentur.",
+     "Olayın akışı ve arka planına ilişkin soruşturma sürüyor. Yetkililer, olaya karışanların yaşı ve kimliği hakkında başlangıçta bilgi vermedi."
+    ],
+    "d": "Mannheim şehir merkezindeki bir kafede çarşamba gecesi geç saatlerde silah sesleri duyuldu. Bir kişi hayatını kaybetti, bir kişi daha yaralandı. İddia edilen silahlı saldırgan kısa bir kaçışın ardından yakalandı.",
+    "t": "Mannheim'da kafedeki tartışmanın ardından silah sesleri: 1 ölü, polis gözaltında ateş açtı"
+   },
+   "at": "2026-11-12T09:07Z",
+   "h": "d3a1a890b60e",
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Mannheim şehir merkezinden bir görünüm (arşiv fotoğrafı)"
+   }
+  },
   "netzbetreiber-geschaeftsmodell-netzentgelte-2026-11-12": {
    "L": {
     "body": [
@@ -1832,6 +2228,30 @@
    ],
    "x": {
     "img.alt": "Třinec'teki Werk Arena bir buz hokeyi maçı sırasında (Sembolik fotoğraf)"
+   }
+  },
+  "pfl-dubai-nemkov-bilostenniy-pressekonferenz-2026-11-12-b11": {
+   "L": {
+    "body": [
+     "Professional Fighters League (PFL), Dubai'deki etkinliği için basın toplantısını perşembe günü Almanya saatiyle 14.00'te düzenleyecek. Toplantıya, unvan sahibi Vadim Nemkov ile rakibi Sergei Bilostenniy'nin de aralarında bulunduğu isimlerin katılması bekleniyor. İki dövüşçü cumartesi günü Coca-Cola Arena'da PFL ağır sıklet dünya şampiyonluğu için mücadele edecek. Basın toplantısı PFL'in resmi YouTube kanalında canlı yayınlanacak.",
+     "Eski Bellator şampiyonu Nemkov (20 galibiyet, 2 mağlubiyet) önceden yaptığı açıklamada şöyle dedi: “Dövüşleri her zaman bir submission kilidiyle ya da bir boğma ile bitirmeye çalışıyorum.” Bilostenniy (15-4) ise “gerçek, aksiyon dolu bir dövüşe” “çok az kaldığını” söyledi. Yardımcı ana maçta yenilgisiz Patrick Habirora (9-0), welter sıklette Omar El Dafrawy ile karşılaşacak.",
+     "Ana kart cumartesi günü Almanya saatiyle 19.00'da, ön maçlar ise 15.00'te başlayacak. Programda toplam 15 dövüş yer alıyor; bunların arasında Oleg Popov ile Pouya Rahmani arasındaki ağır sıklet maçı ve Sergio Pettis ile Joji Goto arasındaki horoz sıklet maçı da bulunuyor."
+    ],
+    "d": "PFL Dubai'den iki gün önce ağır sıklet şampiyonu Vadim Nemkov ile rakibi Sergei Bilostenniy öğleden sonra basının karşısına çıkacak. Basın toplantısı PFL kanalında canlı yayınlanacak.",
+    "t": "PFL Dubai: Nemkov ve Bilostenniy ağır sıklet unvan maçı öncesinde karşı karşıya geliyor"
+   },
+   "at": "2026-11-12T09:07Z",
+   "h": "7652152ad6a2",
+   "rev": [
+    "Weltergewicht was mistranslated as \"averaj sıklet\"; the correct term is \"orta sıklet\" (welterweight is \"welter sıklet\" in Turkish MMA usage)"
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "2018'de bir PFL etkinliği (Arşiv fotoğrafı)"
    }
   },
   "sennder-228-mio-finanzierung-profitabel-2026-11-12": {
@@ -2010,6 +2430,33 @@
     6,
     0
    ]
+  },
+  "wbc-acapulco-pflichtkaempfe-zepeda-nakatani": {
+   "L": {
+    "body": [
+     "Dünya Boks Konseyi (WBC), Acapulco'daki yıllık kongrede önümüzdeki aylara ilişkin zorunlu maçlarını belirledi. Hafif sıklette dünya şampiyonu William Zepeda ile geçici dünya şampiyonu Jadier Herrera zorunlu savunma konusunda anlaştı; WBC'ye göre maç 13 Mart'ta Meksika'da yapılacak. Federasyon, süper horoz sıklette geçici unvan için Junto Nakatani ile Ramón Cárdenas'ın karşılaşmasını emretti.",
+     "Süper tüy sıklette O'Shaquie Foster'ın, Anthony Cacace ile Nick Ball arasındaki maçın galibiyle karşılaşması bekleniyor; WBC bu birleştirme maçına öncelik verdi. WBC'ye göre ağır hafif sıklet dünya şampiyonu Willy Hutchinson'ın iki zorunlu savunması bulunuyor; Artur Beterbiev, Imam Khataev, Ben Whittaker ve Radivoje Kalajdzic'in katılacağı eleme turnuvası için görüşmeler sürüyor – Beterbiev'in ekibi Khataev ile karşılaşmaya karşı çıkıyor.",
+     "Horoz sıklette Andrew Cain, Takuma Inoue'nin bir sonraki zorunlu rakibi. WBC, kruvazör sıklette Jai Opetaia'nın sıralamada birinci sıraya yerleştirilmesi yönündeki başvurusunu kabul etti. Süper orta sıklette geçici dünya şampiyonu Lester Martínez, Canelo Álvarez ile maç yapmak için resmen başvuruda bulundu; WBC bu konuda bir karar açıklamadı."
+    ],
+    "d": "WBC, Acapulco'da birçok sıklette zorunlu savunmaları düzenledi. Lester Martínez, Canelo ile maç yapmak için resmen başvuruda bulundu.",
+    "t": "WBC kongresi zorunlu maçları belirledi: Zepeda-Herrera, Nakatani geçici unvan için"
+   },
+   "at": "2026-11-12T09:07Z",
+   "h": "46c967cfceed",
+   "rev": [
+    "Untranslated 'Cruiser' in the third paragraph; Turkish is 'kruvazör sıklet'.",
+    "'Halbschwergewicht' was rendered as 'ağır orta sıklet', which is wrong; it should be 'ağır hafif sıklet'.",
+    "'Leichtgewicht' as 'hafif sıklet' is correct, and 'Superfedergewicht' as 'süper tüy sıklet' is acceptable.",
+    "The Hutchinson sentence reads awkwardly ('iki zorunlu savunması bekliyor'); 'two mandatory defences are open' fits better as 'iki zorunlu savunması bulunuyor'."
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "WBC kongresinin yapıldığı Acapulco Körfezi (Arşiv fotoğrafı, 2010)"
+   }
   },
   "welt-abu-dhabi-gefangenenaustausch-witkoff-kushner-putin-2026-11-12": {
    "L": {
