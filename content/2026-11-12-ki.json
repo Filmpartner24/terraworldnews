@@ -1,0 +1,406 @@
+{
+ "date": "2026-11-12",
+ "items": [
+  {
+   "id": "gemini-4-carbon-swarm-agenten",
+   "s": "ai",
+   "kl": {
+    "de": "Neues Modell",
+    "bg": "Нов модел",
+    "en": "New model"
+   },
+   "yt": {
+    "id": "rOVEmjfPmYk",
+    "ch": "Google",
+    "kind": "video",
+    "t": {
+     "de": "Eiffel Tower: Gemini 4 Carbon",
+     "bg": "Eiffel Tower: Gemini 4 Carbon",
+     "en": "Eiffel Tower: Gemini 4 Carbon"
+    }
+   },
+   "src": [
+    {
+     "n": "Google – Gemini 4 Carbon is now available (10.11.2026)",
+     "u": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+    },
+    {
+     "n": "The Decoder – Google startet Gemini 4 Carbon mit neuer Agenten-Schwarm-Funktion (10.11.2026)",
+     "u": "https://the-decoder.de/google-startet-gemini-4-carbon-mit-neuer-agenten-schwarm-funktion/"
+    },
+    {
+     "n": "GIGAZINE – Gemini 4 Carbon allgemein verfügbar (11.11.2026)",
+     "u": "https://gigazine.net/news/20261111-gemini-4-carbon/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-12/gemini-4-carbon-swarm-agenten.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Asoundd",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Googleplex_HQ_(cropped).jpg",
+    "alt": {
+     "de": "Archivbild: Google-Zentrale Googleplex in Mountain View, Kalifornien",
+     "bg": "Архивна снимка: централата на Google, Googleplex, в Маунтин Вю, Калифорния",
+     "en": "Archive image: Google's Googleplex headquarters in Mountain View, California"
+    }
+   },
+   "de": {
+    "t": "Agenten-Schwarm auf Zuruf: Google gibt sein stärkstes Modell Gemini 4 Carbon frei",
+    "d": "Nach zwei Wochen nur für Cyber-Verteidiger ist Gemini 4 Carbon für zahlende Entwickler, Firmen und Ultra-Abonnenten da. Neu ist /swarm: Ein Befehl startet ein ganzes Team von KI-Agenten.",
+    "body": [
+     "Google hat sein bislang stärkstes KI-Modell Gemini 4 Carbon am Dienstag (10. November) breiter verfügbar gemacht. Ende Oktober hatten zunächst nur ausgewählte Cybersicherheits-Fachleute Zugang. Jetzt können Entwickler das Modell über die kostenpflichtige Gemini-API in Google AI Studio und Android Studio nutzen, Firmen über Gemini for Business; Abonnenten von Google AI Ultra bekommen es in der Gemini-App und im KI-Modus der Google-Suche. Bis 30. November gilt ein Einführungspreis von 2 Dollar pro Million Eingabe- und 10 Dollar pro Million Ausgabe-Token, danach verdoppelt er sich auf 4 bzw. 20 Dollar.",
+     "Carbon soll sich mehr Zeit für schwierige Aufgaben nehmen als das schnellere Gemini 4 Argon, das Google weiter für die meiste Alltagsarbeit empfiehlt. Laut Google liegt Carbon bei Agenten- und Programmiertests wie CursorBench 4.0 vorn; in einem internen Ehrlichkeitstest mit 375 Aufgaben bestand es 92 Prozent (Argon: 70 Prozent). Die Fachseite The Decoder weist darauf hin, dass Carbon mehr Token verbraucht und eine Aufgabe dadurch insgesamt teurer werden kann.",
+     "Als Vorschau startet in der Entwicklungsumgebung Google Antigravity die Funktion /swarm: Ein einziger Befehl erzeugt ein Team aus Agenten, deren Arbeit sich live verfolgen lässt. Carbon übernimmt Planung, Koordination und Prüfung, schnellere Modelle erledigen Teilaufgaben parallel. Das offizielle Google-Video zeigt eine der Demos – eine interaktive 3D-Ausstellung zum Bau des Eiffelturms."
+    ]
+   },
+   "bg": {
+    "t": "Рояк агенти с една команда: Google пусна най-силния си модел Gemini 4 Carbon",
+    "d": "След две седмици само за киберзащитници Gemini 4 Carbon е достъпен за плащащи разработчици, фирми и абонати на Ultra. Новото е /swarm: една команда пуска цял екип от ИИ агенти.",
+    "body": [
+     "Google направи най-мощния си досега ИИ модел Gemini 4 Carbon по-широко достъпен във вторник (10 ноември). В края на октомври достъп имаха само избрани специалисти по киберсигурност. Сега разработчиците могат да ползват модела чрез платения Gemini API в Google AI Studio и Android Studio, фирмите – чрез Gemini for Business, а абонатите на Google AI Ultra го получават в приложението Gemini и в режима с ИИ на търсачката на Google. До 30 ноември важи въвеждаща цена от 2 долара за милион входящи и 10 долара за милион изходящи токена, след това тя се удвоява до съответно 4 и 20 долара.",
+     "Carbon е създаден да отделя повече време за трудни задачи от по-бързия Gemini 4 Argon, който Google продължава да препоръчва за повечето ежедневна работа. Според Google Carbon е начело в тестове за агенти и програмиране като CursorBench 4.0; във вътрешен тест за честност с 375 задачи той е преминал 92 процента (Argon: 70 процента). Специализираният сайт The Decoder отбелязва, че Carbon използва повече токени и така една задача може да излезе по-скъпо като цяло.",
+     "Като предварителна версия в средата за разработка Google Antigravity стартира функцията /swarm: една-единствена команда създава екип от агенти, чиято работа може да се следи на живо. Carbon поема планирането, координацията и проверката, а по-бързи модели изпълняват подзадачи паралелно. Официалното видео на Google показва една от демонстрациите – интерактивна 3D изложба за строежа на Айфеловата кула."
+    ]
+   },
+   "en": {
+    "t": "A swarm of agents on command: Google releases its strongest model, Gemini 4 Carbon",
+    "d": "After two weeks reserved for cyber defenders, Gemini 4 Carbon is open to paying developers, businesses and Ultra subscribers. New is /swarm: a single command launches a whole team of AI agents.",
+    "body": [
+     "Google made its most powerful AI model to date, Gemini 4 Carbon, more widely available on Tuesday (November 10). At the end of October, only selected cybersecurity professionals had access. Developers can now use the model through the paid Gemini API in Google AI Studio and Android Studio, businesses through Gemini for Business, and Google AI Ultra subscribers get it in the Gemini app and in AI Mode in Google Search. An introductory price of $2 per million input tokens and $10 per million output tokens applies until November 30; after that it doubles to $4 and $20 respectively.",
+     "Carbon is designed to take more time on hard tasks than the faster Gemini 4 Argon, which Google still recommends for most everyday work. According to Google, Carbon leads agent and coding benchmarks such as CursorBench 4.0; in an internal honesty test with 375 tasks it passed 92 percent (Argon: 70 percent). The trade site The Decoder points out that Carbon uses more tokens, so a task can end up costing more overall.",
+     "As a preview, the Google Antigravity development environment gets a feature called /swarm: a single command creates a team of agents whose work can be followed live. Carbon handles planning, coordination and review, while faster models work on subtasks in parallel. The official Google video shows one of the demos – an interactive 3D exhibition on the construction of the Eiffel Tower."
+    ]
+   },
+   "time": "12:32"
+  },
+  {
+   "id": "alphagenome-2-zelltypen-dna",
+   "s": "ai",
+   "kl": {
+    "de": "Forschung",
+    "bg": "Наука",
+    "en": "Research"
+   },
+   "yt": {
+    "id": "uND6iY2qp_c",
+    "ch": "Google DeepMind",
+    "kind": "video",
+    "t": {
+     "de": "AlphaGenome 2: Teaching AI to read the entire human genome",
+     "bg": "AlphaGenome 2: Teaching AI to read the entire human genome",
+     "en": "AlphaGenome 2: Teaching AI to read the entire human genome"
+    }
+   },
+   "src": [
+    {
+     "n": "Google DeepMind – AlphaGenome 2: Deciphering how cells read DNA to better understand disease (11.11.2026)",
+     "u": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+    },
+    {
+     "n": "Interesting Engineering – AlphaGenome 2 finds nearly 2x more disease-linked DNA variants (11.11.2026)",
+     "u": "https://interestingengineering.com/ai-robotics/deepmind-alphagenome-2-causal-dna-variants"
+    },
+    {
+     "n": "SiliconANGLE – Google DeepMind releases new robotics AI model and next-generation gene prediction model (11.11.2026)",
+     "u": "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-12/alphagenome-2-zelltypen-dna.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Flocci Nivis",
+    "lic": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:20251019_Replica_DNA_double_helix_model_Berlin_03.jpg",
+    "alt": {
+     "de": "Symbolbild: Nachbau des DNA-Doppelhelix-Modells von Watson und Crick im Berliner Medizinhistorischen Museum",
+     "bg": "Символна снимка: реплика на модела на двойната спирала на ДНК на Уотсън и Крик в Берлинския музей по история на медицината",
+     "en": "Symbolic image: replica of Watson and Crick's DNA double helix model at the Berlin Museum of Medical History"
+    }
+   },
+   "de": {
+    "t": "Gleiche DNA, andere Wirkung: DeepMinds AlphaGenome 2 schaut in einzelne Zelltypen",
+    "d": "Herz, Gehirn und Immunsystem tragen dieselbe DNA – doch eine Mutation schadet oft nur in bestimmten Zellen. Googles neues Modell soll genau das vorhersagen und findet fast doppelt so viele relevante Varianten.",
+    "body": [
+     "Google DeepMind hat am Mittwoch (11. November) AlphaGenome 2 vorgestellt. Das Modell sagt voraus, wie ein DNA-Abschnitt und seine Varianten in einem bestimmten Gewebe, Zelltyp oder Zellzustand wirken – etwa auf die Aktivität von Genen oder auf die DNA-Methylierung, die neu hinzugekommen ist. Es liest bis zu eine Million DNA-Buchstaben auf einmal und wurde mit mehr als 107 Millionen Einzelzell-Profilen aus 68 Geweben trainiert, unter anderem mit Daten des Human Cell Atlas.",
+     "Laut DeepMind erkennt AlphaGenome 2 fast doppelt so viele Varianten, die die Genaktivität verändern, wie sein Vorgänger. Im Test mit dem Datensatz TenK10K aus Immunzellen identifizierte es 30 Prozent der ursächlichen Varianten, das nachtrainierte Vorgängermodell und andere Spezialwerkzeuge 16 Prozent. Neue Einzelzell-Daten kann es ohne erneutes Training aufnehmen. „Was AlphaGenome 2 spannend macht, ist, wie es sich direkt an neue Einzelzell-Daten anpasst, ohne neu trainiert zu werden“, sagte Professorin Sarah Teichmann von der Universität Cambridge.",
+     "Für nicht-kommerzielle Forschung ist das Modell über die AlphaGenome-Programmierschnittstelle nutzbar, für kommerzielle Forschung gibt es eine geschlossene Vorschau. DeepMind betont, dass AlphaGenome 2 nur für die Forschung gedacht und nicht für Diagnosen oder klinische Zwecke geprüft oder zugelassen ist. Das offizielle Video von Google DeepMind erklärt, wie das Modell arbeitet."
+    ]
+   },
+   "bg": {
+    "t": "Една и съща ДНК, различен ефект: AlphaGenome 2 на DeepMind гледа отделни видове клетки",
+    "d": "Сърцето, мозъкът и имунната система носят една и съща ДНК, но мутацията често вреди само в определени клетки. Новият модел на Google трябва да предсказва точно това и открива почти двойно повече значими варианти.",
+    "body": [
+     "Google DeepMind представи AlphaGenome 2 в сряда (11 ноември). Моделът предсказва как даден участък от ДНК и неговите варианти действат в определена тъкан, вид клетка или клетъчно състояние – например върху активността на гените или върху метилирането на ДНК, което е ново. Той чете до един милион букви ДНК наведнъж и е обучен с над 107 милиона профила на единични клетки от 68 тъкани, включително с данни от Human Cell Atlas.",
+     "Според DeepMind AlphaGenome 2 открива почти два пъти повече варианти, променящи активността на гените, от своя предшественик. При тест с набора от данни TenK10K от имунни клетки той е идентифицирал 30 процента от причинните варианти, а дообученият предишен модел и други специализирани инструменти – 16 процента. Моделът може да приема нови данни от единични клетки без повторно обучение. „Това, което прави AlphaGenome 2 вълнуващ, е как се адаптира директно към нови данни от единични клетки, без да бъде обучаван наново“, каза професор Сара Тейхман от Кеймбриджкия университет.",
+     "За некомерсиални изследвания моделът е достъпен чрез програмния интерфейс на AlphaGenome, а за комерсиални изследвания има затворен предварителен достъп. DeepMind подчертава, че AlphaGenome 2 е предназначен само за научни изследвания и не е проверен или одобрен за диагностика или клинични цели. Официалното видео на Google DeepMind обяснява как работи моделът."
+    ]
+   },
+   "en": {
+    "t": "Same DNA, different effect: DeepMind's AlphaGenome 2 looks inside individual cell types",
+    "d": "Heart, brain and immune system carry the same DNA – yet a mutation often does harm only in certain cells. Google's new model is meant to predict exactly that and finds almost twice as many relevant variants.",
+    "body": [
+     "Google DeepMind unveiled AlphaGenome 2 on Wednesday (November 11). The model predicts how a stretch of DNA and its variants act in a particular tissue, cell type or cell state – for example on gene activity or on DNA methylation, which is newly added. It reads up to one million DNA letters at once and was trained on more than 107 million single-cell profiles from 68 tissues, including data from the Human Cell Atlas.",
+     "According to DeepMind, AlphaGenome 2 identifies almost twice as many variants that change gene activity as its predecessor. In a test on the TenK10K immune-cell dataset, it identified 30 percent of causal variants, compared with 16 percent for the fine-tuned predecessor and other specialized tools. It can take in new single-cell data without retraining. \"What makes AlphaGenome 2 exciting is how it adapts directly to new single-cell data without retraining,\" said Professor Sarah Teichmann of the University of Cambridge.",
+     "For non-commercial research, the model is available through the AlphaGenome API, while commercial research gets a private preview. DeepMind stresses that AlphaGenome 2 is intended for research only and has not been validated or approved for diagnostic or clinical use. The official Google DeepMind video explains how the model works."
+    ]
+   },
+   "time": "12:32"
+  },
+  {
+   "id": "adobe-max-2026-ki-agenten",
+   "s": "ai",
+   "kl": {
+    "de": "Neues Produkt",
+    "bg": "Нов продукт",
+    "en": "New product"
+   },
+   "yt": {
+    "id": "pZGf2fwhlck",
+    "ch": "Adobe Firefly",
+    "kind": "video",
+    "t": {
+     "de": "Adobe Firefly Design (beta) | All-in-One Design Workspace | Adobe MAX 2026",
+     "bg": "Adobe Firefly Design (beta) | All-in-One Design Workspace | Adobe MAX 2026",
+     "en": "Adobe Firefly Design (beta) | All-in-One Design Workspace | Adobe MAX 2026"
+    }
+   },
+   "src": [
+    {
+     "n": "Adobe – Adobe Powers a New Era of Creativity, Bringing Agents and Tools to Creatives (10.11.2026)",
+     "u": "https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity"
+    },
+    {
+     "n": "TechCrunch – Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly (10.11.2026)",
+     "u": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-12/adobe-max-2026-ki-agenten.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Coolcaesar",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Adobe_World_Headquarters.jpg",
+    "alt": {
+     "de": "Archivbild: Adobe-Zentrale in San José, Kalifornien (2007)",
+     "bg": "Архивна снимка: централата на Adobe в Сан Хосе, Калифорния (2007)",
+     "en": "Archive image: Adobe headquarters in San Jose, California (2007)"
+    }
+   },
+   "de": {
+    "t": "Photoshop öffnet sich für fremde KI-Agenten: Adobe setzt auf Assistenten ohne Pause",
+    "d": "Auf der Konferenz MAX in Miami Beach hat Adobe neue KI-Assistenten, dauerhaft laufende Agenten und eine Schnittstelle vorgestellt, über die Claude, ChatGPT oder Gemini Projektdateien bearbeiten können.",
+    "body": [
+     "Adobe hat am Dienstag (10. November) auf seiner Kreativkonferenz MAX in Miami Beach eine Reihe von KI-Neuerungen angekündigt. Der „Creative Agent“ des Konzerns steckt künftig in KI-Assistenten (Beta) für Illustrator, Premiere, InDesign, After Effects und Frame.io sowie im Firefly AI Assistant. In Firefly sollen zudem „Always-on“-Agenten als Vorschau im Hintergrund wiederkehrende Aufgaben erledigen – etwa Dateien ordnen, die Qualität prüfen oder Inhalte für verschiedene Kanäle vorbereiten.",
+     "Neu ist auch eine lokale MCP-Schnittstelle (Vorschau): Damit können Nutzer KI-Agenten anderer Anbieter anweisen, echte Projektdateien in Photoshop, Illustrator, Premiere und After Effects zu bearbeiten – Ebenen, Sequenzen und Kompositionen bleiben dabei bearbeitbar. Adobe-Managerin Deepa Subramaniam sagte TechCrunch, man habe „keinen Bedarf und keinen Wunsch“, einzuschränken, was die Schnittstelle freigibt.",
+     "Dazu kommen neue Werkzeuge: Photoshop erhält „Relight“ zum nachträglichen Ändern des Lichts und „Generative Restyle“, Premiere ein neues Farbkorrektur-System namens Color Mode. Firefly Builder erstellt als geschlossene Beta klickbare Prototypen aus einer Beschreibung, Firefly Design (Beta) vereint Illustration, Bildbearbeitung, Animation und 3D auf einer Arbeitsfläche – das zeigt das offizielle Video. Preise nannte Adobe nicht."
+    ]
+   },
+   "bg": {
+    "t": "Photoshop се отваря за чужди ИИ агенти: Adobe залага на асистенти, които не почиват",
+    "d": "На конференцията MAX в Маями Бийч Adobe представи нови ИИ асистенти, постоянно работещи агенти и интерфейс, чрез който Claude, ChatGPT или Gemini могат да редактират проектни файлове.",
+    "body": [
+     "Adobe обяви във вторник (10 ноември) на своята творческа конференция MAX в Маями Бийч поредица от новости с изкуствен интелект. „Creative Agent“ на концерна вече ще работи в ИИ асистенти (бета) за Illustrator, Premiere, InDesign, After Effects и Frame.io, както и във Firefly AI Assistant. Във Firefly освен това „Always-on“ агенти в предварителна версия ще изпълняват повтарящи се задачи във фонов режим – например подреждане на файлове, проверка на качеството или подготовка на съдържание за различни канали.",
+     "Ново е и локален MCP интерфейс (предварителна версия): с него потребителите могат да възлагат на ИИ агенти на други доставчици да редактират истински проектни файлове в Photoshop, Illustrator, Premiere и After Effects – слоевете, секвенциите и композициите остават редактируеми. Мениджърката в Adobe Деепа Субраманиам каза пред TechCrunch, че компанията няма „нито нужда, нито желание“ да ограничава какво предоставя интерфейсът.",
+     "Добавят се и нови инструменти: Photoshop получава „Relight“ за последваща промяна на осветлението и „Generative Restyle“, а Premiere – нова система за цветова корекция, наречена Color Mode. Firefly Builder създава като затворена бета интерактивни прототипи по описание, а Firefly Design (бета) обединява илюстрация, обработка на изображения, анимация и 3D в едно работно поле – това показва официалното видео. Цени Adobe не съобщи."
+    ]
+   },
+   "en": {
+    "t": "Photoshop opens up to outside AI agents: Adobe bets on assistants that never take a break",
+    "d": "At its MAX conference in Miami Beach, Adobe unveiled new AI assistants, always-on agents and an interface that lets Claude, ChatGPT or Gemini edit project files.",
+    "body": [
+     "Adobe announced a series of AI features on Tuesday (November 10) at its MAX creative conference in Miami Beach. The company's \"Creative Agent\" will power AI assistants (beta) in Illustrator, Premiere, InDesign, After Effects and Frame.io as well as the Firefly AI Assistant. In Firefly, \"always-on\" agents in preview are also meant to handle recurring tasks in the background – such as organizing files, checking quality or preparing content for different channels.",
+     "Also new is a local MCP interface (preview): it lets users direct AI agents from other providers to edit real project files in Photoshop, Illustrator, Premiere and After Effects – with layers, sequences and compositions remaining editable. Adobe executive Deepa Subramaniam told TechCrunch the company has no \"need or desire\" to limit what the interface exposes.",
+     "There are new tools as well: Photoshop gets \"Relight\" for changing lighting after the fact and \"Generative Restyle\", while Premiere gets a new color grading system called Color Mode. Firefly Builder, in private beta, creates clickable prototypes from a description, and Firefly Design (beta) combines illustration, image editing, animation and 3D on a single canvas – as shown in the official video. Adobe did not give prices."
+    ]
+   },
+   "time": "12:32"
+  },
+  {
+   "id": "fractile-720-millionen-ki-chips",
+   "s": "ai",
+   "mn": true,
+   "kl": {
+    "de": "Finanzierung",
+    "bg": "Финансиране",
+    "en": "Funding"
+   },
+   "src": [
+    {
+     "n": "SiliconANGLE – Inference chip developer Fractile raises $720M in funding (11.11.2026)",
+     "u": "https://siliconangle.com/2026/11/11/inference-chip-developer-fractile-raises-720m-in-funding/"
+    },
+    {
+     "n": "The Next Web – London's Fractile raises $720M for memory-first AI chips and hits $7B valuation (11.11.2026)",
+     "u": "https://thenextweb.com/news/fractile-7bn-valuation-720m-ai-inference-chips"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-12/fractile-720-millionen-ki-chips.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "ArnoldReinhold",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:16K_DRAM_array.agr.jpg",
+    "alt": {
+     "de": "Symbolbild: DRAM-Speicherchips von Motorola auf einer Platine (um 1981) – kein Fractile-Chip",
+     "bg": "Символна снимка: DRAM чипове памет на Motorola върху платка (около 1981 г.) – не е чип на Fractile",
+     "en": "Symbolic image: Motorola DRAM memory chips on a circuit board (around 1981) – not a Fractile chip"
+    }
+   },
+   "de": {
+    "t": "7 Milliarden Dollar wert: Londoner KI-Chip-Start-up Fractile holt 720 Millionen",
+    "d": "Fractile stapelt Arbeitsspeicher direkt auf den Rechenchip und will so KI-Antworten deutlich schneller und sparsamer machen. Ein Produkt gibt es noch nicht – trotzdem hat sich die Bewertung seit Mai etwa versiebenfacht.",
+    "body": [
+     "Das britische Chip-Start-up Fractile hat in einer Finanzierungsrunde 720 Millionen Dollar eingesammelt. Angeführt wurde sie von Thrive Capital, Founders Fund, Lightspeed und Redpoint; beteiligt sind unter anderem CapitalG von Alphabet, BlackRock sowie der staatliche britische Sovereign AI Fund und die British Business Bank. Laut der Financial Times wird das 2022 gegründete Londoner Unternehmen dabei mit rund 7 Milliarden Dollar bewertet – im Mai waren es nach Angaben von The Next Web noch etwa eine Milliarde.",
+     "Fractile entwickelt Chips für die sogenannte Inferenz, also das Ausführen fertig trainierter KI-Modelle. Nach Darstellung von Fractile ist nicht die Rechenleistung, sondern die Speicherbandbreite der Engpass; heutige Spitzenmodelle tränken „durch einen Strohhalm“, sagte Gründer Walter Goodwin der FT. Fractile stapelt deshalb DRAM-Speicher direkt auf die Rechenlogik, statt teuren externen HBM-Speicher zu nutzen.",
+     "Wie viel schneller das am Ende ist, ist offen: Fractile hat noch kein kommerzielles Produkt, die ersten Chips sollen 2027 ausgeliefert werden. Laut FT hat Anthropic Interesse bekundet, einer der ersten Kunden zu werden. Konkurrenz kommt unter anderem von Nvidia sowie Start-ups wie Etched und MatX."
+    ]
+   },
+   "bg": {
+    "t": "Оценка от 7 милиарда долара: лондонският стартъп за ИИ чипове Fractile набира 720 милиона",
+    "d": "Fractile поставя работната памет директно върху изчислителния чип и така иска да направи отговорите на ИИ много по-бързи и икономични. Продукт все още няма – въпреки това оценката е нараснала около седем пъти от май.",
+    "body": [
+     "Британският стартъп за чипове Fractile набра 720 милиона долара в кръг на финансиране. Той бе воден от Thrive Capital, Founders Fund, Lightspeed и Redpoint; участват и CapitalG на Alphabet, BlackRock, както и държавният британски Sovereign AI Fund и British Business Bank. Според Financial Times основаната през 2022 г. лондонска компания е оценена при това на около 7 милиарда долара – през май според The Next Web оценката е била около един милиард.",
+     "Fractile разработва чипове за т.нар. инференция, тоест изпълнението на вече обучени ИИ модели. Според Fractile тясното място не е изчислителната мощ, а пропускателната способност на паметта; днешните водещи модели пиели „през сламка“, каза основателят Уолтър Гудуин пред FT. Затова Fractile поставя DRAM паметта директно върху изчислителната логика, вместо да използва скъпа външна HBM памет.",
+     "Доколко по-бързо ще е това в крайна сметка, остава отворено: Fractile все още няма търговски продукт, а първите чипове трябва да бъдат доставени през 2027 г. Според FT Anthropic е изразила интерес да стане един от първите клиенти. Конкуренцията включва Nvidia, както и стартъпи като Etched и MatX."
+    ]
+   },
+   "en": {
+    "t": "Worth seven billion dollars: London AI chip start-up Fractile raises 720 million",
+    "d": "Fractile stacks memory directly on top of the compute chip, aiming to make AI responses much faster and more efficient. There is no product yet – but its valuation has risen roughly sevenfold since May.",
+    "body": [
+     "British chip start-up Fractile has raised $720 million in a funding round. It was led by Thrive Capital, Founders Fund, Lightspeed and Redpoint, with participation from Alphabet's CapitalG, BlackRock, the UK government's Sovereign AI Fund and the British Business Bank, among others. According to the Financial Times, the London company founded in 2022 is valued at around $7 billion – in May, according to The Next Web, the figure was about one billion.",
+     "Fractile develops chips for so-called inference, i.e. running AI models that have already been trained. According to Fractile, the bottleneck is not computing power but memory bandwidth; today's frontier models are \"drinking through a straw\", founder Walter Goodwin told the FT. Fractile therefore stacks DRAM memory directly on top of the compute logic instead of using expensive external HBM memory.",
+     "How much faster this will ultimately be remains open: Fractile has no commercial product yet, and the first chips are due to ship in 2027. According to the FT, Anthropic has expressed interest in becoming one of the first customers. Competition includes Nvidia as well as start-ups such as Etched and MatX."
+    ]
+   },
+   "time": "12:32"
+  },
+  {
+   "id": "united-airlines-verbot-ki-agenten",
+   "s": "ai",
+   "mn": true,
+   "kl": {
+    "de": "Regeln",
+    "bg": "Правила",
+    "en": "Rules"
+   },
+   "src": [
+    {
+     "n": "Fast Company – United Airlines just made a big change to flight bookings (11.11.2026)",
+     "u": "https://www.fastcompany.com/91640548/united-airlines-just-made-a-big-change-to-flight-bookings-heres-why-delta-and-american-arent-following"
+    },
+    {
+     "n": "Simple Flying – United Airlines Officially Bans AI Agents From Booking Your Flights (11.11.2026)",
+     "u": "https://simpleflying.com/united-airlines-bans-ai-agents-booking-flights-check-in/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-12/united-airlines-verbot-ki-agenten.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Acroterion",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:United_Boeing_787-8_N27908_IAD_VA2.jpg",
+    "alt": {
+     "de": "Archivbild: Boeing 787-8 von United Airlines im Landeanflug auf den Flughafen Washington Dulles",
+     "bg": "Архивна снимка: Boeing 787-8 на United Airlines при подход за кацане на летище Вашингтон Дълес",
+     "en": "Archive image: United Airlines Boeing 787-8 on approach to Washington Dulles airport"
+    }
+   },
+   "de": {
+    "t": "Kein Ticket vom KI-Agenten: United Airlines verbietet automatische Flugbuchungen",
+    "d": "Die US-Airline untersagt KI-Assistenten, Tickets zu buchen, zu ändern oder Zusatzleistungen zu kaufen – auch über Reisebüros. Solche Buchungen darf United ohne Vorwarnung stornieren.",
+    "body": [
+     "United Airlines hat am Mittwoch (11. November) ihre Beförderungsbedingungen geändert: KI-Agenten dürfen künftig keine Tickets mehr buchen, ändern oder verwalten und keine Zusatzleistungen kaufen. Das gilt laut Simple Flying für KI-Assistenten, eigenständige Agenten und KI-Browser – auf der eigenen Website, in der App und über Reisebüros und Buchungsplattformen, selbst wenn der Fluggast die Aktionen überwacht. Mit KI erstellte Buchungen kann United ohne vorherige Ankündigung stornieren.",
+     "Die Airline begründet den Schritt mit Sicherheit: Wer Zugangsdaten an fremde KI-Werkzeuge weitergibt, riskiere seine Daten; Agenten könnten außerdem ungewollte Käufe, Kontoänderungen oder den Einsatz von MileagePlus-Meilen auslösen. Zudem könnten automatische Aktionen mit Vorschriften der US-Behörden FAA und DOT kollidieren – etwa beim Check-in, wo Reisende bestätigen müssen, dass ihr Gepäck keine verbotenen Gefahrgüter enthält.",
+     "Laut Fast Company hat bislang keine andere große US-Airline ein solches Verbot erlassen. Delta erlaubt KI-Assistenten Buchungen, wenn sie sich ausreichend authentifizieren; American erklärte, manche KI-Werkzeuge könnten bereits Tickets kaufen; man prüfe, wie man Kunden bei KI-gestützten Buchungen künftig bedienen wolle."
+    ]
+   },
+   "bg": {
+    "t": "Без билет от ИИ агент: United Airlines забранява автоматичните резервации на полети",
+    "d": "Американската авиокомпания забранява на ИИ асистенти да резервират и променят билети или да купуват допълнителни услуги – и чрез туристически агенции. United може да анулира такива резервации без предупреждение.",
+    "body": [
+     "United Airlines промени в сряда (11 ноември) общите си условия за превоз: ИИ агентите вече няма да могат да резервират, променят или управляват билети, нито да купуват допълнителни услуги. Според Simple Flying това важи за ИИ асистенти, самостоятелни агенти и ИИ браузъри – на собствения сайт, в приложението и чрез туристически агенции и платформи за резервации, дори ако пътникът наблюдава действията. Резервации, направени с ИИ, United може да анулира без предварително уведомление.",
+     "Авиокомпанията обосновава стъпката със сигурността: който споделя данните си за вход с чужди ИИ инструменти, рискува данните си; освен това агентите могат да предизвикат нежелани покупки, промени в профила или използване на мили от MileagePlus. Автоматичните действия могат да влязат в конфликт и с правилата на американските власти FAA и DOT – например при регистрацията за полет, където пътниците трябва да потвърдят, че багажът им не съдържа забранени опасни товари.",
+     "Според Fast Company досега никоя друга голяма американска авиокомпания не е въвела подобна забрана. Delta позволява резервации от ИИ асистенти, ако те се удостоверят достатъчно; American заяви, че някои ИИ инструменти вече могат да купуват билети; компанията проучва как занапред да обслужва клиентите при резервации с помощта на ИИ."
+    ]
+   },
+   "en": {
+    "t": "No tickets from AI agents: United Airlines bans automated flight bookings",
+    "d": "The US airline prohibits AI assistants from booking or changing tickets or buying extras – including via travel agencies. United may cancel such bookings without notice.",
+    "body": [
+     "United Airlines changed its contract of carriage on Wednesday (November 11): AI agents may no longer book, change or manage tickets or buy additional services. According to Simple Flying, this applies to AI assistants, standalone agents and AI browsers – on its own website, in the app and via travel agencies and booking platforms, even if the passenger supervises the actions. United may cancel AI-made bookings without prior notice.",
+     "The airline cites security: anyone handing login details to third-party AI tools puts their data at risk, and agents could also trigger unintended purchases, account changes or use of MileagePlus miles. In addition, automated actions could conflict with rules of the US agencies FAA and DOT – for example at check-in, where travellers must confirm that their luggage contains no prohibited dangerous goods.",
+     "According to Fast Company, no other major US carrier has issued such a ban so far. Delta allows AI assistants to book if they can be properly authenticated; American said some AI tools can already buy its tickets and that it is evaluating how to serve customers with AI-assisted bookings in future."
+    ]
+   },
+   "time": "12:32"
+  },
+  {
+   "id": "ibm-microsoft-imagine-enterprise",
+   "s": "ai",
+   "mn": true,
+   "kl": {
+    "de": "KI-Agenten",
+    "bg": "ИИ агенти",
+    "en": "AI agents"
+   },
+   "src": [
+    {
+     "n": "Microsoft Source – IBM and Microsoft announce a new AI agent platform designed for industry-specific transformation (10.11.2026)",
+     "u": "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/"
+    },
+    {
+     "n": "IBM Newsroom – IBM and Microsoft Announce a New AI Agent Platform (10.11.2026)",
+     "u": "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-12/ibm-microsoft-imagine-enterprise.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Treesmittenex",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:IBM_CHQ_-_Oct_2014.jpg",
+    "alt": {
+     "de": "Archivbild: IBM-Konzernzentrale in Armonk, New York (2014)",
+     "bg": "Архивна снимка: централата на IBM в Армонк, Ню Йорк (2014)",
+     "en": "Archive image: IBM corporate headquarters in Armonk, New York (2014)"
+    }
+   },
+   "de": {
+    "t": "6.000 fertige KI-Agenten: IBM und Microsoft starten Plattform für Banken und Handel",
+    "d": "Mit „Imagine Enterprise“ wollen IBM und Microsoft KI-Agenten in regulierte Branchen bringen. Zum Start richtet sich die Plattform an Finanzdienstleister, Versicherer und den Einzelhandel.",
+    "body": [
+     "IBM und Microsoft haben am Dienstag (10. November) die gemeinsame Plattform „Imagine Enterprise“ vorgestellt. Unternehmen sollen damit KI-Agenten entwickeln, betreiben und überwachen, die ganze Arbeitsabläufe ihrer Branche übernehmen. Die Beratungssparte IBM Consulting steuert mehr als 6.000 vorgefertigte Agenten und Bausteine bei; Microsoft liefert die technische Basis, darunter Azure, Microsoft Foundry, Copilot Studio, GitHub Copilot sowie Sicherheitsdienste wie Entra, Purview und Defender.",
+     "Zum Start zielt die Plattform auf Finanzdienstleister, Versicherungen und den Einzelhandel; später sollen etwa Industrie, Energie und öffentliche Verwaltung folgen. Kunden können die Plattform von IBM betreiben lassen, gemeinsam mit IBM ausbauen oder selbst verwalten. Preise nannten die Unternehmen nicht. Als Beispiel nennen die Firmen den US-Finanzdienstleister SEI, der mit IBM Consulting und Microsoft KI-Agenten-Technologien erprobt.",
+     "„Kunden suchen nicht mehr nach KI, die Menschen einfach hilft, dieselbe Arbeit ein bisschen schneller zu erledigen“, sagte Mohamad Ali, Leiter von IBM Consulting. Rodrigo Kede Lima, Präsident von Microsoft Frontier Company, erklärte, Unternehmens-KI werde von Organisationen gewonnen, die ihre Daten, ihr Branchenwissen und KI in Handeln umsetzen können."
+    ]
+   },
+   "bg": {
+    "t": "6000 готови ИИ агента: IBM и Microsoft пускат обща платформа за банки и търговия",
+    "d": "С „Imagine Enterprise“ IBM и Microsoft искат да внесат ИИ агенти в регулирани отрасли. В началото платформата е насочена към финансови услуги, застрахователи и търговията на дребно.",
+    "body": [
+     "IBM и Microsoft представиха във вторник (10 ноември) общата платформа „Imagine Enterprise“. С нея компаниите ще могат да разработват, управляват и наблюдават ИИ агенти, които поемат цели работни процеси в техния отрасъл. Консултантското звено IBM Consulting предоставя над 6000 готови агента и компонента; Microsoft осигурява техническата основа, включително Azure, Microsoft Foundry, Copilot Studio, GitHub Copilot, както и услуги за сигурност като Entra, Purview и Defender.",
+     "В началото платформата е насочена към финансови услуги, застраховане и търговия на дребно; по-късно трябва да последват например индустрията, енергетиката и публичната администрация. Клиентите могат да възложат управлението на IBM, да я развиват съвместно с IBM или да я управляват сами. Цени компаниите не съобщиха. Като пример компаниите посочват американската финансова компания SEI, която изпробва технологии за ИИ агенти с IBM Consulting и Microsoft.",
+     "„Клиентите вече не търсят ИИ, който просто помага на хората да вършат същата работа малко по-бързо“, каза Мохамад Али, ръководител на IBM Consulting. Родриго Кеде Лима от Microsoft заяви, че в корпоративния ИИ ще печелят организациите, които могат да превърнат данните си, отрасловите си знания и ИИ в действие."
+    ]
+   },
+   "en": {
+    "t": "6,000 ready-made AI agents: IBM and Microsoft launch joint platform for banks and retail",
+    "d": "With \"Imagine Enterprise\", IBM and Microsoft want to bring AI agents into regulated industries. At launch, the platform targets financial services, insurers and retail.",
+    "body": [
+     "IBM and Microsoft unveiled the joint platform \"Imagine Enterprise\" on Tuesday (November 10). It is meant to let companies build, run and govern AI agents that take over entire workflows in their industry. IBM Consulting contributes more than 6,000 prebuilt agents and assets; Microsoft provides the technical foundation, including Azure, Microsoft Foundry, Copilot Studio, GitHub Copilot and security services such as Entra, Purview and Defender.",
+     "At launch, the platform targets financial services, insurance and retail; manufacturing, energy and the public sector, among others, are to follow later. Customers can have IBM run the platform, develop it jointly with IBM or manage it themselves. The companies did not disclose prices. As an example, the companies cite US financial services firm SEI, which is exploring AI agent technologies with IBM Consulting and Microsoft.",
+     "\"Clients are no longer looking for AI that simply helps people do the same work a little faster,\" said Mohamad Ali, head of IBM Consulting. Microsoft's Rodrigo Kede Lima said enterprise AI will be won by organizations that can turn their data, industry expertise and AI into action."
+    ]
+   },
+   "time": "12:32"
+  }
+ ]
+}
