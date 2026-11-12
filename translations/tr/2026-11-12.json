@@ -297,6 +297,28 @@
     "kl": "Berlin"
    }
   },
+  "berlin-razzia-illegale-waffen-spandau-prenzlauer-berg-2026-11-12-b18": {
+   "L": {
+    "body": [
+     "Berlin polisi perşembe sabahı üç arama kararını uygulayarak çok sayıda ruhsatsız gerçek silah buldu. Spandau'da bir iş yeri ile Spandau ve Prenzlauer Berg'de iki konutta arama yapıldı. Edinilen bilgilere göre ekipler iki tüfek ile mühimmatlı altı tabanca ele geçirdi. Ayrıca cep telefonları, veri depolama cihazları ve yüklü miktarda nakit para da el konuldu.",
+     "Polis ve savcılığın verdiği bilgiye göre 28 yaşındaki bir erkek hakkında ateşli silah ve mühimmatı izinsiz bulundurma yönünde güçlü şüphe bulunuyor. Şüpheli gözaltına alındı ve Berlin Savcılığı'nın talebi üzerine perşembe günü içinde, tutuklama kararı hakkında karar verecek olan Tiergarten Asliye Ceza Mahkemesi'ndeki soruşturma hakimine çıkarılması planlanıyordu. Aramaların arka planında Savaş Silahları Denetim Yasası ve Silah Yasası'nın ihlal edildiği şüphesi yer alıyor. Erkek için masumiyet karinesi geçerli.",
+     "Operasyondan önce Eyalet Kriminal Dairesi tarafından kapsamlı bir soruşturma yürütülmüştü. Ele geçirilen silahlardan bazılarının yasa anlamında savaş silahı olup olmadığı ve nereden geldikleri konusunda yetkililer başlangıçta bilgi vermedi. Delillerin değerlendirilmesi ve soruşturma sürüyor."
+    ],
+    "d": "Berlin'de yapılan aramalarda polis iki tüfek, altı tabanca ile mühimmat, cep telefonu ve nakit para ele geçirdi. 28 yaşındaki bir erkek gözaltına alındı, bugün hakim karşısına çıkarılması planlanıyordu.",
+    "t": "Spandau ve Prenzlauer Berg'de baskın: 8 ruhsatsız silah bulundu, 28 yaşındaki gözaltında"
+   },
+   "at": "2026-11-12T17:13Z",
+   "h": "5569aca5804b",
+   "rev_dbg": [
+    6,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin'de polis aracı (sembolik fotoğraf)",
+    "kl": "Berlin"
+   }
+  },
   "berlin-schoeneberg-regenbogenflagge-staatsschutz-2026-11-12-b08": {
    "L": {
     "body": [
@@ -712,6 +734,35 @@
     "img.alt": "Sembolik fotoğraf: Altın Kumsal tatil beldesinde bir otel, 2008"
    }
   },
+  "bundesbank-finanzstabilitaetsbericht-risiken-banken-2026-11-12-b18": {
+   "L": {
+    "body": [
+     "Alman Merkez Bankası Bundesbank, Alman finans sistemi için risklerin yüksek düzeyde seyrettiğini görüyor. Bu, yönetim kurulu üyesi Michael Theurer'in perşembe günü tanıttığı 2026 Finansal İstikrar Raporu'ndan anlaşılıyor. Theurer, “Zamanlar zorlu ve zorlu kalmaya devam edecek” dedi. Merkez bankası, tehlike kaynakları olarak sermaye piyasalarındaki yüksek değerlemeleri, artan kredi risklerini ve konut finansmanındaki zayıflıkları sayıyor. Buna yüksek kamu borçluluğu ile bankacılık sektörü dışındaki aktörlerce verilen özel kredilerin artan önemi de ekleniyor.",
+     "Bundesbank'ın verdiği bilgiye göre, takipteki kredilerin payı geçen yılın ortasından bu yana arttı, aylık şirket iflasları 2014'ten bu yana en yüksek düzeyde. Theurer, kredi risklerinin şimdilik düzenli biçimde gerçekleştiğini belirterek “ancak yön açık” dedi. Theurer'e göre konutlarda yeni verilen kredi hacminin yaklaşık yüzde 40'ı neredeyse tamamen borçla finanse edilmiş durumda ve bu, bankacılık sistemini daha kırılgan hale getirebilir. Ticari gayrimenkullerde ise uzaktan çalışma eğilimi nedeniyle ofislere olan talebin azalması yük oluşturuyor.",
+     "Bundesbank, özellikle ABD teknoloji hisselerinde hisse değerlemelerini iddialı buluyor. Theurer, “Geri çekilme potansiyeli önemli” uyarısında bulundu. Euro bölgesinde yüksek ve artmaya devam eden kamu borçları ile zayıf büyümenin bir araya gelmesini “zehirli” olarak nitelendirdi. Merkez bankası genel olarak bankaların durumunu yine de istikrarlı değerlendiriyor: Yüksek faiz gelirleri sayesinde iyi kazanç sağlıyorlar, sermaye ve likidite sağlam kabul ediliyor. Ancak ani bir kötüleşme durumunda sektör baskı altında kalabilir."
+    ],
+    "d": "Bundesbank, Finansal İstikrar Raporu'nda bankalar için artan tehlikeler görüyor: daha fazla sorunlu kredi, rekor iflaslar, yüksek kamu borcu ve pahalı teknoloji hisseleri. Kurumlar yükleri şimdilik taşıyabilir.",
+    "t": "Bundesbank uyardı: 2014'ten bu yana en çok iflas – borsalarda “önemli” geri çekilme riski"
+   },
+   "at": "2026-11-12T17:13Z",
+   "h": "76ab6454ab10",
+   "rev": [
+    "Weekday \"Perşembe\" must be lowercase per TDK (\"perşembe\").",
+    "Teaser: \"Noch könnten die Institute die Belastungen tragen\" is rendered as a plain statement; \"Kurumlar yükleri şimdilik taşıyabilir\" is acceptable, but the word order is slightly unnatural.",
+    "Theurer's indirect speech is fine, but the German says the Bundesbank states that nearly 40% of new loans are almost fully debt-financed; \"neredeyse tamamen borçla finanse ediliyor\" is rendered as fac",
+    "\"Zamanlar zorlu ve zorlu kalmaya devam ediyor\" is repetitive and unnatural.",
+    "\"Bundesbank ... sieht Risiken auf erhöhtem Niveau\" was rendered awkwardly; \"risklerinin yüksek düzeyde olduğunu belirtiyor\" is slightly off.",
+    "\"Bei Gewerbeimmobilien belastet...\" is missing the subject in German; the Turkish is fine."
+   ],
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Alman Merkez Bankası Bundesbank'ın Frankfurt'taki genel merkezi (Arşiv fotoğrafı)"
+   }
+  },
   "bundestag-beschliesst-kita-gesetz-sprachtests-2026-11-12-b15": {
    "L": {
     "body": [
@@ -739,6 +790,38 @@
    ],
    "x": {
     "img.alt": "Çocuklar bir kreşin bahçesinde oynuyor (Sembolik fotoğraf)"
+   }
+  },
+  "bundestag-cybersicherheitsgesetz-aktive-abwehr-2026-11-12-b18": {
+   "L": {
+    "body": [
+     "Bundestag perşembe günü Siber Güvenliğin Güçlendirilmesi Yasası'nı kabul etti. Yasaya CDU/CSU ve SPD'den oluşan koalisyon grupları evet oyu verdi; AfD, Yeşiller ve Sol Parti ise karşı oy kullandı. Böylece Federal Kriminal Dairesi (BKA) ve Federal Polis, siber saldırılara karşı yeni yetkiler elde ediyor: BT sistemlerinin işletilmesini yasaklayabilecek veya kısıtlayabilecek, veri trafiğini yönlendirebilecek ya da engelleyebilecek ve yurt dışındaki sunucuları da devre dışı bırakabilecek. Son çare olarak saldırganların sistemlerine sızabilecek, orada verileri okuyabilecek, silebilecek veya değiştirebilecek; bunu ilgililerin haberi olmadan da yapabilecek.",
+     "Yasayı destekleyenlerin anlatımına göre bu, klasik anlamda bir misilleme saldırısı değil; hedefin yalnızca saldırıların kaynaklandığı sunucular olduğu belirtiliyor. Taslak, parlamento sürecinde yine de değiştirildi: BKA, bu araçları gerçek dünyadaki tehlikelere karşı da kullanabilecek; örneğin insansız hava araçlarının kontrol birimleriyle veya internet üzerinden ateşlenen patlayıcılarla bağlantıyı kesmek için. Aynı zamanda orantılılık şartları sertleştirildi. Bir sistemin özel mi yoksa ticari amaçlı mı kullanıldığı belirsizse, bundan böyle özel cihazlar için geçerli olan daha yüksek koruma standardı uygulanacak. Federal Polis yetkileri yalnızca tehlike savuşturma için alıyor, suç kovuşturması için değil.",
+     "Federal İçişleri Bakanı Alexander Dobrindt (CSU), tartışmada yasayı savundu: “Mesele, saldırganlarımızı silahsızlandırmaktır.” Dobrindt'e göre Almanya, hibrit tehditlere karşı güvenlik politikasında kendini yeniden konumlandırıyor. Muhalefet, kurumlar arasındaki belirsiz yetki paylaşımını ve kapsamlı yetkilerin yetersiz denetlenmesini eleştirdi. Yeşiller'den Konstantin von Notz, güvenlik kurumlarının çifte yetkilerini eleştirdi; Sol Parti ise özellikle planlanan “hackback”leri reddetti. Sanayi federasyonu BDI da önceden devletin orantısız müdahale yetkilerine karşı uyarmıştı."
+    ],
+    "d": "Bundestag, Siber Güvenliğin Güçlendirilmesi Yasası'nı Birlik ve SPD'nin oylarıyla kabul etti. Kurumlar veri trafiğini yönlendirebilecek ve yabancı sistemlerdeki verileri silebilecek. Muhalefet karşı oy kullandı.",
+    "t": "Aktif siber savunma: Bundestag, BKA ve Federal Polis'e saldırganların sunucularına müdahale yetkisi verdi"
+   },
+   "at": "2026-11-12T17:13Z",
+   "flag": [
+    "Titel zu lang (105 Zeichen)"
+   ],
+   "h": "b759d9641b51",
+   "rev": [
+    "Omission: German states that the Bundespolizei has the powers only for Gefahrenabwehr, not Strafverfolgung; the draft's \"soruşturma ve kovuşturma\" adds \"soruşturma\" (investigation) and is imprecise",
+    "\"Dobrindt'e göre\" was added in the third paragraph; the German says Germany is repositioning itself in a Konjunktiv sentence, so the attribution is fine, but \"Yeşiller'den\" and the \"hackbacks\" spellin",
+    "Federal İçişleri Bakanı: the original is Bundesinnenminister, so \"Federal İçişleri Bakanı\" is correct and unchanged",
+    "Teaser: the opposition is not described as mere \"Muhalefet\" but all fine; no change",
+    "Name spelling: Konstantin von Notz is correct",
+    "Quote punctuation: the Turkish quote marks are acceptable; \"hackbacks\" was given an apostrophe suffix"
+   ],
+   "rev_dbg": [
+    6,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Alexander Dobrindt (Arşiv fotoğrafı)"
    }
   },
   "bundestag-sprachtests-vierjaehrige-kita-gesetz-2026-11-12-b08": {
@@ -1515,6 +1598,64 @@
    ],
    "x": {
     "img.alt": "Grafik: TERRA WORLD NEWS"
+   }
+  },
+  "energiepaket-2-milliarden-strom-gas-2026-11-12-b18": {
+   "L": {
+    "body": [
+     "Bulgaristan hükümeti perşembe günü yüksek enerji fiyatlarına karşı yaklaşık 2 milyar euro tutarında bir paket açıkladı. Ekonomi Bakanı ve Başbakan Yardımcısı Alexander Pulev ile Enerji Bakanı Iva Petrova, önlemleri işveren örgütleri ve sendikalarla yapılan bir görüşmenin ardından tanıttı. Yaklaşık 1,5 milyar euronun “Elektrik Sisteminin Güvenliği” fonundan, geri kalanının ise devlete ait Bulgaristan Kalkınma Bankası'ndan karşılanması öngörülüyor. Paranın haziran sonuna kadar ödenmesi planlanıyor. Pulev, fiyatların eşi benzeri görülmemiş olduğunu belirtti ve bunun hükümetin yanıtı için de geçerli olduğunu söyledi.",
+     "Paketin özünü işletmelere yönelik destekler oluşturuyor: Bir ayın ortalama borsa fiyatı megavatsaat başına 180 euronun üzerinde olursa, şirketlere megavatsaat başına ek olarak 15 euro verilecek. “24 Chasa”nın haberine göre bu, normalde ancak temmuz 2027'de vadesi gelecek telafi ödemelerinin avans olarak ödenmesi anlamına geliyor; ödemenin muhtemelen aralık faturalarıyla birlikte, ekim ve kasım için de geriye dönük yapılması planlanıyor. Metalurji, madencilik ve kimya gibi alanlardaki enerji yoğun işletmelere elektrik maliyetlerinin bundan böyle yüzde 50 yerine yüzde 70'i geri ödenecek; ancak bunun için AB Komisyonu'nun onayı gerekiyor. Ekim ayında borsada elektrik fiyatı en yüksek seviyede megavatsaat başına 222 euroya ulaşmıştı.",
+     "Özel haneler için elektrik ve bölgesel ısınma fiyatlarının şimdilik değişmemesi öngörülüyor; devlet kanalı BNT'nin bildirdiğine göre bu durum 1 temmuz 2027'ye kadar sürecek. İlk kez doğalgazla ısınan haneler de telafi ödemesi alacak: kasım'dan mart'a kadar düzenlenmiş fiyat ile tahmin edilen doğalgaz fiyatı arasındaki farkın yarısı karşılanacak; toplam tutar yaklaşık 10 milyon euro. Devlete ait tedarikçi Bulgargaz aynı gün aralık ayında doğalgaz fiyatının yüzde 14,38 artırılması için başvuruda bulunmuştu."
+    ],
+    "d": "Şirketlere aylık ek ödeme, enerji yoğun işletmelere daha fazla destek, doğalgaz kullanıcılarına ilk kez yardım. Hanelerde elektrik ve bölgesel ısınma fiyatları şimdilik artmayacak.",
+    "t": "Pahalı elektrik: Bulgaristan firma ve haneye 2 milyar euroluk destek paketi hazırladı"
+   },
+   "at": "2026-11-12T17:13Z",
+   "h": "69f4a906f700",
+   "rev": [
+    "Turkish weekday 'Perşembe' wrongly capitalised (TDK: lowercase mid-sentence)",
+    "Month names 'Haziran', 'Temmuz', 'Aralık', 'Ekim', 'Kasım', 'Mart' wrongly capitalised mid-sentence",
+    "Mistranslation: 'Bulgarischen Entwicklungsbank' is the state development bank, fine, but 'Bulgargas' spelled 'Bulgargaz' – kept as the established spelling; no change",
+    "'Kern des Pakets' fine",
+    "Energy-intensive firms: the draft says 'karşılanacak' without 'ersetzt bekommen' as the recipient; reworded to make it clear that the firms will be reimbursed",
+    "Ministerial title: 'Enerji Bakanı' for female minister is fine; no change",
+    "Draft says 'doğalgaz kullanıcılarına' in teaser while body refers to households; acceptable"
+   ],
+   "rev_dbg": [
+    7,
+    9,
+    0
+   ],
+   "x": {
+    "img.alt": "Bakanlar Kurulu'nun Sofya'daki binası (Arşiv fotoğrafı)"
+   }
+  },
+  "eu-digital-fairness-act-dating-apps-2026-11-12": {
+   "L": {
+    "body": [
+     "Avrupa Komisyonu, çarşamba günü, 11 Kasım'da Brüksel'de Digital Fairness Act (DFA) taslağını tanıttı. Yasa, tüketicileri internetteki manipülatif uygulamalardan korumayı amaçlıyor. Sektör haber sitesi Global Dating Insights'ın değerlendirmesine göre yasa flört uygulamaları ile yapay zekâ arkadaşları için de geçerli ve bunların ücretli işlevleri, cezbedici mekanizmaları ve kişiselleştirilmiş tekliflerini nasıl tasarladığını değiştirebilir. Euronews'e göre taslağın özü şöyle: Çevrimiçi aboneliklerin iptali kolaylaşacak, ücretsiz deneme sürecinin ücretli aboneliğe dönüşmesinden önce bir hatırlatma yapılacak ve otomatik yenilemeler için aktif bir karar gerekecek.",
+     "Kullanıcılar ayrıca aşırı kullanıma veya harcamaya yönlendiren işlevleri kapatabilecek; Euronews bunlara örnek olarak sonsuz kaydırmayı ve otomatik başlayan videoları gösteriyor. Global Dating Insights'ın haberleştirdiği ön taslakta, kullanıcıları devam etmeye teşvik etmek için kişisel ilişkileri taklit eden işlevler de açıkça anılıyordu; bu ifadenin sunulan metinde aynen yer alıp almadığı haberlerden anlaşılmıyor. Taslak ayrıca sanal para birimiyle yapılan alışverişlerde de net fiyat talep ediyor, müşteri hizmetlerinde yalnızca bir sohbet robotu yerine bir insana ulaşma hakkı getiriyor ve küçükleri ilgilendiren ya da insanların zaaflarından yararlanan haksız kişiselleştirilmiş reklamları ve fiyatları yasaklıyor.",
+     "Birden fazla AB ülkesindeki tüketicileri ilgilendiren büyük vakalarda Komisyon, paralel olarak önerilen Tüketicinin Korunması İşbirliği Tüzüğü reformuna göre kendisi soruşturma yürütebilecek ve küresel yıllık cironun yüzde 6'sına kadar idari para cezası verebilecek; AB dışındaki şirketlerin Birlik'te bir temsilci atamaları gerekecek. Tüketici Komiseri Michael McGrath, Euronews'e göre şunları söyledi: “DFA, dijital ekonominin tüketicilere karşı değil, tüketiciler için çalışmasını sağlayacak.” Dijital haklar kuruluşu EDRi ise bağımlılık yapan tasarıma karşı kuralların, işlevleri kapatma işini fazlasıyla bireylere bıraktığını eleştiriyor. DFA henüz yürürlükteki hukuk değil: Önce Avrupa Parlamentosu ile üye devletlerin öneri üzerinde müzakere etmesi gerekiyor."
+    ],
+    "d": "AB Komisyonu, manipülatif çevrimiçi hilelere karşı yasa taslağını 11 Kasım'da sundu. Taslak flört platformlarını ve yapay zekâ arkadaşlarını da kapsıyor: kolay iptal, kapatılabilir cezbedici işlevler.",
+    "t": "Digital Fairness Act: AB'nin abonelik tuzağı planları flört uygulamalarını da kapsıyor"
+   },
+   "at": "2026-11-12T17:12Z",
+   "h": "ca95b5bf00ea",
+   "rev": [
+    "Headline exceeds 90 characters",
+    "Weekday 'Çarşamba' wrongly capitalised mid-sentence (TDK)",
+    "Added hedge 'belirtiliyor' in the purpose sentence is not in the German source",
+    "Awkward phrasing 'sanal para birimiyle yapılan alışverişlerde de' – the 'auch' refers to prices in general"
+   ],
+   "rev_dbg": [
+    4,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "AB Komisyonu'nun Brüksel'deki merkezi Berlaymont binası (Sembolik fotoğraf)",
+    "kl": "Aşk ve ilişkiler"
    }
   },
   "europa-cop31-eu-chefs-fehlen-hoekstra-neun-staaten-2026-11-12": {
@@ -3630,6 +3771,59 @@
     "img.alt": "Sembolik fotoğraf: Sankt Margarethen'de rüzgar türbinleriyle yüksek gerilim hattı (Arşiv 2012)"
    }
   },
+  "news-busy-signal-mohamed-ramadan-make-banger": {
+   "L": {
+    "body": [
+     "Jamaikalı Busy Signal ile Mısırlı Mohamed Ramadan, “Make Banger” adlı single'ı birlikte yayımladı. Jamaica Observer'ın haberine göre şarkı, Mısır pop-rapini Jamaika dancehall'ıyla, Arapça söz satırlarını da İngilizce satırlarla birleştiriyor. Şarkının yapımcılığını Crawba Genius ve Blacksatin Music üstlendi.",
+     "Tanıtımcılar, parçayı Jamaika ile Orta Doğu ve Kuzey Afrika bölgesi arasında kültürel bir köprü olarak görüyor; Mısır, hızla büyüyen bu eğlence pazarının kapısı olarak kabul ediliyor. Busy Signal, “From Kingston to Cairo, we’re showing that music has no borders” (“Kingston'dan Kahire'ye, müziğin sınır tanımadığını gösteriyoruz”) dedi. Busy Signal'a göre farklı diller konuşuluyor, ancak enerji, tutku ve müzik sevgisi evrensel.",
+     "Resmi video Mohamed Ramadan'ın YouTube kanalında yayımlandı, single ise başlıca müzik akışı platformlarında dinlenebiliyor."
+    ],
+    "d": "Jamaikalı dancehall yıldızı ile Mısırlı müzisyen, dancehall'ı Mısır pop-rapiyle buluşturuyor. Şarkıda Arapça ve İngilizce sözler iç içe geçiyor.",
+    "t": "“From Kingston to Cairo”: Busy Signal ve Mohamed Ramadan “Make Banger” şarkısını yayımladı"
+   },
+   "at": "2026-11-12T17:12Z",
+   "h": "851d2518b943",
+   "rev": [
+    "Headline: the Turkish possessive suffix on a title in quotes is clumsy, and the draft drops the song's role as the object of the verb; fixed with an apostrophe-free construction",
+    "Indirect speech is attributed (\"Busy Signal'a göre\"), which is acceptable and kept",
+    "\"Mısır pop-rapiyle\" and other items are fine; Jamaika is a proper Turkish form, not an untranslated word"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Busy Signal (solda), 2013 Summerjam Festivali'nde (Arşiv fotoğrafı)"
+   }
+  },
+  "news-interrupters-battle-scars-2027": {
+   "L": {
+    "body": [
+     "The Interrupters beşinci stüdyo albümünü duyurdu: “Battle Scars”, 29 Ocak 2027’de Epitaph’a bağlı Hellcat Records etiketiyle yayımlanacak. Bu, 2022 tarihli “In the Wild”dan bu yana çıkan ilk düzenli stüdyo albümü. “Warrior Spirit”ten “Legacy”ye kadar on bir şarkı doğrulandı. Albümün duyurusuyla birlikte 5 Kasım’da “Back From The Dead” single’ı resmi klibiyle birlikte yayımlandı.",
+     "Albümü gitarist Kevin Bivona ile Rancid’in solisti Tim Armstrong üretti; kayıtlar analog olarak yapıldı. Ska-punkın yanı sıra new wave, post-punk ve synthpop etkilerinin de daha belirgin duyulacağı belirtiliyor. Konuklar arasında Blink-182’nin davulcusu Travis Barker ile Operation Ivy’den Jesse Michaels de var. Solist Aimee Allen, SPIN dergisine verdiği demeçte, konunun “bir şey atlattıktan sonra elde edilen zafer, galibiyet ve güç” olduğunu söyledi. Bivona: “It’s all punk rock to me.”",
+     "Almanya için şimdilik tek bir salon konseri planlanıyor: 5 Haziran 2027 Cumartesi günü Münih’teki TonHalle’de; açılışı The Suicide Machines yapacak. ms-aktuell’e göre Almanya’daki festivallerde de başka konserler öngörülüyor."
+    ],
+    "d": "Los Angeles’lı ska-punk grubu, dört yıldan uzun bir aradan sonra ilk stüdyo albümünü çıkarıyor; Travis Barker ve Tim Armstrong gibi konuklar da yer alıyor. Grup 5 Haziran 2027’de Münih’teki TonHalle’de sahne alacak.",
+    "t": "The Interrupters: “Battle Scars” albümü Ocak’ta – Almanya’daki tek salon konseri Münih’te"
+   },
+   "at": "2026-11-12T17:12Z",
+   "h": "f39ca580dc76",
+   "rev_dbg": [
+    6,
+    0,
+    0
+   ],
+   "x": {
+    "facts": [
+     "“Battle Scars” albümü: 29.01.2027 (Hellcat/Epitaph)",
+     "Konser: Cmt, 05.06.2027, Münih, TonHalle",
+     "Kapı açılışı 19:00, başlangıç 20:00",
+     "Açılış: The Suicide Machines"
+    ],
+    "img.alt": "The Interrupters ve solist Aimee Allen, 2024, Philadelphia (Arşiv fotoğrafı)"
+   }
+  },
   "nicole-kidman-birkin-pony-adir-abergel-lacma-gala": {
    "L": {
     "body": [
@@ -3653,6 +3847,34 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Nicole Kidman, Cannes 2025"
+   }
+  },
+  "nvidia-huang-ruecktritt-kress-interim-2026-11-12-b18": {
+   "L": {
+    "body": [
+     "Jensen Huang artık Nvidia'nın başında değil. Dünyanın en büyük yapay zeka çipi üreticisinin yönetim kurulu perşembe günü yaptığı açıklamada, Huang'ın başkan, icra kurulu başkanı ve kurul üyesi olarak derhal geçerli olacak şekilde istifa ettiğini duyurdu. Finans direktörü Colette Kress, mevcut görevini de sürdürerek şirketi geçici olarak yönetecek. Yönetim kurulu, kendi açıklamasına göre kalıcı halef için şirket içinden ve dışından adaylar arasında arama yapıyor. Kurulun yeni başkanı, daha önce yazılım şirketi Synopsys'in CEO'su olan Harvey Jones olacak; Nvidia'da bu görev şimdiye kadar bulunmuyordu.",
+     "İstifadan önce ABD medyasında günlerce Huang'ın evlilik dışı ilişkilerine dair haberler yayımlandı; bunlar arasında Çin istihbarat servisleriyle bağlantısı olduğu öne sürülen bir kadınla ilişki de yer aldı. ABD Başkanı Donald Trump pazartesi günü FBI'ın bu ilişkiyle ilgilendiğini söylemişti. Yahoo Finance'in aktardığına göre Huang, çalışanlara gönderdiği bir iç yazıda eşini aldattığını kabul etti. Huang, Nvidia'yı 1993'te kurmuş ve şirketi 33 yıl boyunca yönetmişti. Jones, “Yönetim kurulu Colette'e ve yönetim ekibine tam güven duyuyor” dedi.",
+     "Nvidia hissesi New York'ta işlemlerin başlamasının ardından yüzde 13'e varan oranda düştü, ancak kısmen toparlandı; daha sonra yaklaşık yüzde 5 ekside seyretti. Piyasa değeri dört trilyon doların altına geriledi, Nvidia Apple ve Microsoft'un ardından üçüncü sıraya düştü. Oppenheimer bankası hissenin notunu düşürdü ve nitelikli çalışanların ayrılabileceği uyarısında bulundu. Trump, kendi platformu Truth Social'da Apple CEO'su Tim Cook'u halef olarak önerdi. Nvidia, çeyreklik rakamlarını planlandığı gibi 17 Kasım'da açıklamayı düşünüyor."
+    ],
+    "d": "Nvidia'nın kurucu ortağı Jensen Huang tüm görevlerinden derhal geçerli olacak şekilde ayrıldı. Finans direktörü Colette Kress çip şirketini geçici olarak yönetecek. Hisse bir ara yüzde 13 değer kaybetti.",
+    "t": "33 yıl sonra: Jensen Huang Nvidia CEO'luğundan istifa etti, finans direktörü devralıyor"
+   },
+   "at": "2026-11-12T17:12Z",
+   "h": "0f35a8cf3445",
+   "rev": [
+    "Weekdays 'Perşembe' and 'Pazartesi' should be lowercase per TDK.",
+    "Teaser: 'tüm görevlerinden ... ayrıldı' is fine, but 'Hisse' lacks 'Nvidia' (acceptable, left as is).",
+    "Headline ≤ 90 characters: OK.",
+    "'Nvidia'da bu görev' is fine.",
+    "'Nvidia ... 17 Kasım'da açıklamayı düşünüyor' – German 'will ... vorlegen' = plans to; acceptable."
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Nvidia'nın Santa Clara'daki merkezi (Arşiv fotoğrafı)"
    }
   },
   "nvidia-verwaltungsrat-huang-aktie-2026-11-12-b08": {
@@ -3727,6 +3949,34 @@
     "img.alt": "Třinec'teki Werk Arena bir buz hokeyi maçı sırasında (Sembolik fotoğraf)"
    }
   },
+  "overeem-manuwa-boxen-paul-doumbe-dubai-2026-11-12-b18": {
+   "L": {
+    "body": [
+     "İki eski UFC dövüşçüsü Noel arifesinde boks ringine çıkıyor: Hollandalı Alistair Overeem ile İngiliz Jimi Manuwa, ikisi de 46 yaşında, 24 Aralık'ta Dubai'deki Coca-Cola Arena'da altı raundluk bir ağır siklet maçı yapacak. Bunu Jake Paul'ün promosyon şirketi Most Valuable Promotions (MVP) perşembe günü duyurdu. ESPN'in verdiği bilgiye göre bu, gecenin yardımcı ana maçı. Ana maçta Paul, eski kickboks şampiyonu ve PFL dövüşçüsü Fransız Cédric Doumbé ile karşılaşacak. Paul için bu, Aralık 2025'te Anthony Joshua'ya nakavtla yenildiği ve çenesinin kırıldığı maçtan sonraki ilk karşılaşma.",
+     "Overeem için bu, profesyonel boksör olarak ilk maç. Overeem 2010'da kickboksta K-1 World Grand Prix'yi kazandı, Strikeforce ve DREAM'de ağır siklet şampiyonu oldu, UFC'de aralarında Brock Lesnar, Frank Mir ve Junior dos Santos'un da bulunduğu rakiplerini yendi; 2016'da şampiyonluk maçında Stipe Miocic'e yenildi. Son UFC maçını Şubat 2021'de Alexander Volkov'a karşı kaybetti. Ekim 2022'de Glory'de Badr Hari'ye karşı yaptığı ve şimdiye kadarki son maçı, theScore'a göre doping testini geçemediği için sonradan sonuçsuz (No Contest) sayıldı. Manuwa, UFC'de Jan Błachowicz ve Corey Anderson gibi rakipleri yendi ve MMA kariyerini 2019'da üst üste dört yenilginin ardından sonlandırdı.",
+     "Overeem, MVP'nin bir açıklamasına göre (RDX Sports) şunları söyledi: “Şimdi boksta yeni bir sayfa açıyorum ve buraya sayı doldurmaya gelmedim.” Overeem'e göre Manuwa, güçlü yumruklara sahip tehlikeli bir isim. Londralı Manuwa ise Overeem'i kendi ilk yıllarında takip ettiğini ve onun neler yapabildiğini çok iyi bildiğini belirtti; “bu yüzden bu maçı ben istedim” dedi. MVP başkanı Nakisa Bidarian, ESPN'e göre Overeem'i “tarihin en başarılı ağır siklet dövüşçülerinden biri” olarak niteledi."
+    ],
+    "d": "Eski UFC şampiyonluk rakibi Alistair Overeem profesyonel boks çıkışını yapıyor: 24 Aralık'ta Dubai'de Jimi Manuwa ile karşılaşacak; bu, Jake Paul'ün Cédric Doumbé ile yapacağı ana maçtan önceki yardımcı ana karşılaşma.",
+    "t": "46 yaşında boks ringine: Overeem, Dubai'de Jake Paul'den önce Manuwa ile dövüşecek"
+   },
+   "at": "2026-11-12T17:12Z",
+   "h": "3a7a7939a5c1",
+   "rev": [
+    "Teaser: the last clause is a broken fragment; the German says the fight is the co-main event before Paul vs. Doumbé",
+    "Weekday \"Perşembe\" should be lowercase per TDK",
+    "\"No Contest\" was left in English; replaced with a Turkish term (\"sonuçsuz\")",
+    "The draft says \"Manuwa ... yendi\" for \"schlug\", which is fine, so no change there",
+    "Manuwa's attribution: the German says \"Der Londoner\", and the draft's \"Londralı Manuwa\" is acceptable"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Dubai'deki Coca-Cola Arena (Arşiv fotoğrafı)"
+   }
+  },
   "pfl-dubai-nemkov-bilostenniy-pressekonferenz-2026-11-12-b11": {
    "L": {
     "body": [
@@ -3749,6 +3999,27 @@
    ],
    "x": {
     "img.alt": "2018'de bir PFL etkinliği (Arşiv fotoğrafı)"
+   }
+  },
+  "polestar-formula-2030-concept-2026": {
+   "L": {
+    "body": [
+     "İsveçli elektrikli otomobil üreticisi Polestar, 10 Kasım'da Göteborg'da Formula 2030 tasarım konseptini tanıttı. Üreticiye göre kompakt dört kapılı modelin uzunluğu 4.680 milimetre, genişliği 2.021 milimetre, yüksekliği yalnızca 1.350 milimetre; aks mesafesi 2.780 milimetre. İç mekanda dört ayrı koltuk bulunuyor. Model, tasarım direktörü Philipp Römers döneminin ilk gösteri otomobili. Polestar, tahrik sistemine ilişkin bilgi vermedi.",
+     "Kokpitte kavisli 20 inçlik bir sürücü ekranı ile orta konsolda 12,2 inçlik bir ekran yer alıyor; bunların altında sekiz fiziksel kumanda öğesi var. Performance, Normal ve Autonomous olmak üzere üç sürüş modu ekranın ve direksiyonun konumunu değiştiriyor; Carscoops'a göre otomatik sürüş için gizli bir lidar ünitesi tavandan dışarı çıkıyor. Sesli asistan olarak Google Gemini entegre edilmiş. Polestar'a göre, “Dual Blade” farlar gibi çeşitli tasarım unsurları Polestar 2'nin yeni neslinde (2027 için planlanıyor) ve Polestar 7'de kullanılacak.",
+     "Yerleştirilen video, Polestar'ın resmî YouTube kanalından alınmıştır."
+    ],
+    "d": "Polestar, Göteborg'da Formula 2030 konseptini tanıttı: gizli bir lidar ünitesi bulunan alçak gövdeli dört koltuklu bir model. Bazı unsurların yeni Polestar 2'ye (2027) ve Polestar 7'ye aktarılması planlanıyor.",
+    "t": "Polestar Formula 2030: Gemini asistanlı konsept, yeni Polestar 2'nin tasarımını gösteriyor"
+   },
+   "at": "2026-11-12T17:12Z",
+   "h": "f1335ef26662",
+   "rev_dbg": [
+    4,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "2019 Cenevre Otomobil Fuarı'nda güncel Polestar 2 – konsept değil (Arşiv fotoğrafı)"
    }
   },
   "ps5-100-millionen": {
@@ -3775,6 +4046,85 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: ilk PlayStation'dan PS5'e kadar tüm PlayStation nesilleri, ayrıca PSP ve PS Vita"
+   }
+  },
+  "review-joe-hisaishi-the-boy-and-the-heron-suite": {
+   "L": {
+    "body": [
+     "Joe Hisaishi, 6 Kasım'da Deutsche Grammophon etiketiyle piyano ve orkestra için „Symphonic Suite The Boy and the Heron“ adlı albümü yayımladı. Albümün temelini, Hayao Miyazaki'nin Studio Ghibli filmi „Çocuk ve Balıkçıl“ için yazdığı ve Altın Küre'ye aday gösterilen müzik oluşturuyor. Hisaishi piyanoyu kendisi çalıyor ve 2024'ten beri Composer-in-Association olduğu Royal Philharmonic Orchestra'yı yönetiyor. Kayıt Nisan 2025'te yapıldı. Hisaishi, süitin „filmden tamamen bağımsız, kendi başına bir eser“ olduğunu söylüyor.",
+     "Müzik dergisi Interlude, albümü nostaljik, gizemli ve sıcak olarak tanımlıyor. Eleştirmen Fanny Po Sim Head, ana tema „Ask Me Why“ten itibaren orkestrasyonu büyülü buluyor; „Reincarnation“ bölümünü ise özellikle güzel olarak öne çıkarıyor. Head'in sonucuna göre müzik, görüntü olmadan da bir hikâye anlatıyor ve uzun yıllardır takip eden hayranlara olduğu kadar yeni dinleyicilere de hitap edebilir.",
+     "Süit, diğer unsurların yanı sıra gri balıkçıl temasını, „Warawara“ müziğini ve „A Song of Prayer“ı kesintisiz bir yay içinde birleştiriyor. Eser, Avrupa prömiyerini Londra'daki Royal Albert Hall'da BBC Proms kapsamında yaptı. Açılış parçası „Ask Me Why (I)“ resmî video olarak Hisaishi'nin YouTube kanalında izlenebiliyor."
+    ],
+    "d": "Japon besteci, Miyazaki'nin „Çocuk ve Balıkçıl“ filmi için yazdığı müziği piyano ve orkestra için bir süite dönüştürdü. Eleştirmen süiti bağımsız bir anlatı olarak dinliyor.",
+    "t": "Joe Hisaishi'nin „The Boy and the Heron“ süiti incelendi: Görüntüsüz Ghibli müziği"
+   },
+   "at": "2026-11-12T17:12Z",
+   "h": "cf92f50d700a",
+   "rev": [
+    "Tense: German 'sagt Hisaishi' (present) was rendered in past tense 'söyledi'; changed to present-compatible 'diyor'.",
+    "Place name: Krakau should be Kraków in Turkish ('Krakov').",
+    "'Gri Balıkçıl' wrongly capitalised; 'gri balıkçıl' is a species name used as a common noun.",
+    "Teaser: 'Kritik' is the review verdict, 'Eleştirmen' is slightly narrower; kept as is (acceptable).",
+    "'Sonuç değerlendirmesine göre' is a stilted rendering of 'Ihr Fazit'; use 'Sonuç olarak ... diyor' with attribution to the reviewer."
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Joe Hisaishi, 2011, Krakov (Arşiv fotoğrafı)",
+    "rv.score": "Interlude: „nostaljik, gizemli ve sıcak“"
+   }
+  },
+  "review-michael-wollny-eine-winterreise": {
+   "L": {
+    "body": [
+     "Michael Wollny, solo albümü „eine winterreise“yi 30 Ekim'de ACT etiketiyle yayımladı. Piyanist, Franz Schubert'in ünlü şarkı döngüsünü çıkış noktası olarak alıyor: 14 parça, Schubert'in şarkılarından parçaları, kendi bestelerini ve serbest doğaçlamayı birleştiriyor. Bunlara Björk'ün „Aurora“, Kate Bush'un „Snowflake“ ve Louis Cole'un „Cloud of Flies“ parçalarından motifler ekleniyor. Wollny kaydı 2026 baharında Yukarı Pfalz'daki Neumarkt'ta bulunan Reitstadel'de bir Steinway piyanoyla yaptı.",
+     "JazzZeitung „eine winterreise“yi „harika bir albüm“ olarak nitelendiriyor. Eleştirmen Thomas J. Krebs, bazen yumuşak, bazen kışkırtıcı, ancak „asla gelişigüzel ya da geçici“ olmayan bir icra duyduğunu yazıyor. Paris-Move dergisi plağı zamanlar arası bir sohbet olarak tanımlıyor; dergiye göre Wollny, Schubert'i bir müze eserine dönüştürmüyor. Dergiye göre virtüözlük arayışa hizmet ediyor, onun yerini almıyor. Yine de albüm dergiye göre hafif fon müziği değil, dikkat gerektiriyor.",
+     "ACT Music, „Snowflake“in yer aldığı bir bölümü YouTube'da yayımladı. Wollny programı canlı olarak 20 Kasım'da Essen'de ve 21 Kasım'da Hamburg'da çalacak; Aralık'ta Leipzig, Frankfurt am Main ve Kassel, Şubat 2027'de ise Nürnberg ve Augsburg gibi şehirler izleyecek."
+    ],
+    "d": "Caz piyanisti, Schubert'in şarkı döngüsünü tek başına piyanoda yeniden yorumluyor ve araya Björk, Kate Bush ve Louis Cole'dan motifler katıyor. Eleştirmenler hayran; 20 Kasım'da turneye çıkıyor.",
+    "t": "Michael Wollny – „eine winterreise“ incelemesi: Schubert, Björk ve Kate Bush piyanoda"
+   },
+   "at": "2026-11-12T17:12Z",
+   "h": "ef6766b0d5ed",
+   "rev": [
+    "\"Oberpfalz\" left untranslated; Turkish rendering is \"Yukarı Pfalz\"",
+    "\"Nürnberg\" left untranslated; established Turkish form is \"Nürnberg\" (kept) but check: Turkish commonly uses \"Nürnberg\" – no change needed",
+    "\"Virtüözlük arayışa hizmet ediyor, onun yerini almıyor\" is part of Paris-Move's indirect speech and lacks attribution",
+    "rv.score quote differs from the body: \"harika albüm\" vs \"harika bir albüm\""
+   ],
+   "rev_dbg": [
+    4,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Michael Wollny, Bad Mergentheim'daki „Jazz im Schloss“ etkinliğinde piyanoda (Arşiv fotoğrafı)",
+    "rv.score": "JazzZeitung: „harika bir albüm“ · Paris-Move: „zamanlar arası sohbet“"
+   }
+  },
+  "review-vikingur-olafsson-continuum-ii": {
+   "L": {
+    "body": [
+     "Víkingur Ólafsson, 6 Kasım'da Deutsche Grammophon etiketiyle, 2024 tarihli „Continuum“ın ardından Bach projesinin ikinci bölümü olan „Continuum II“yi yayımladı. İzlandalı sanatçı tüm kayıtları ev stüdyosu „The Nutshell“de yaptı. Ólafsson albümü kendi ilk „album domesticum“u olarak adlandırıyor: Programda „Es ist genug“ dahil altı koral, Bach'ın öğrenciler ve çocuklar için yazdığı altı küçük prelüd, konçertolardan yavaş bölümler – Largo'da Siggi String Quartet ve kontrbasçı Xun Yang eşlik ediyor – ile „Air“in kuyruklu piyano ve dik piyano için iki versiyonda yer alan uyarlaması bulunuyor.",
+     "Müzik dergisi concerti pek ikna olmuş değil. Eleştirmen Christoph Vratz, Ólafsson'un teknik ustalığını ve Bach'a derinlemesine eğilişini kabul ediyor, ancak albümü „daha çok hayal kırıklığı yaratan“ olarak nitelendiriyor. Vratz'a göre piyanist birkaç kez „maniyerizm tuzağına“ düşüyor: Eleştiriler pedal kullanımına, bazı tempolara ve „Air“deki yankılı efektlere yöneliyor. Vratz'a göre Ólafsson, daha önceki ikna edici Bach yorumlarından belirgin biçimde uzaklaşıyor – nedeni ise belirsiz kalıyor.",
+     "Ólafsson „Air“i besteci György Kurtág'a 100. doğum günü nedeniyle adadı; parça temmuz ayında single olarak yayımlanmıştı. Deutsche Grammophon albüm için, yapımcı Christopher Tarnow'un önerdiği erken dönem koral prelüdü „Erbarm dich mein, o Herre Gott“ (BWV 721) ile bir video yayımladı."
+    ],
+    "d": "İzlandalı piyanist, Bach'ın koral, prelüd ve konçerto bölümlerini ev stüdyosunda kaydetti. Klasik müzik dergisi concerti sonucu „daha çok hayal kırıklığı yaratan“ olarak nitelendiriyor.",
+    "t": "Víkingur Ólafsson – „Continuum II“ incelemesi: Oturma odasından Bach, eleştiri soğuk"
+   },
+   "at": "2026-11-12T17:12Z",
+   "h": "9c13ca53d3d0",
+   "rev_dbg": [
+    1,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Víkingur Ólafsson, San Sebastián'daki Quincena Musical'de (Arşiv fotoğrafı)",
+    "rv.score": "concerti: „daha çok hayal kırıklığı yaratan“"
    }
   },
   "rick-owens-adidas-springblade-rueckkehr": {
@@ -3824,6 +4174,26 @@
    ],
    "x": {
     "img.alt": "Rila Manastırı'nın iç avlusu ve ana kilise, arka planda Rila Dağları (Arşiv fotoğrafı 2013)"
+   }
+  },
+  "rimac-nevera-produktionsende-2026": {
+   "L": {
+    "body": [
+     "Hırvat üretici Rimac, Nevera'nın üretimini planlanandan önce durduruyor. Torquecafe'ye göre şirket başkanı Mate Rimac'ın bir videoda duyurduğu üzere toplam yalnızca 71 adet üretilecek: 51 Nevera ve daha güçlü versiyon Nevera R'den 20 adet. Başlangıçta 150 Nevera öngörülüyordu; The Supercar Blog'a göre buna ek olarak 40 Nevera R planlanmıştı. Automotive Addicts'e göre son on Nevera R'nin 2026 sonuna kadar fabrikadan çıkması bekleniyor.",
+     "Mate Rimac, “Bence yine de oldukça iyi bir performans. Dünyanın en çok satan elektrikli hiperotomobili” dedi. Rimac'a göre Nevera olmasaydı ne Bugatti Tourbillon ne de bugünkü fabrika olurdu: “Amacına hizmet etti.” Rimac Technology'nin bundan sonra özellikle diğer otomobil üreticilerine yönelik bileşenlere, örneğin elektrikli akslara ve katı hal bataryalarına odaklanması planlanıyor; Torquecafe'ye göre bunlardan katı hal bataryalarının 2030 civarında bir Bugatti'de ilk kez kullanılması öngörülüyor."
+    ],
+    "d": "Rimac, elektrikli hiperotomobili Nevera'nın üretimini erken sonlandırıyor. 2026 sonuna kadar yalnızca 51 Nevera ve 20 Nevera R üretilecek; şirketin kurucusu Mate Rimac yine de modeli başarı olarak görüyor.",
+    "t": "Nevera'ya son: Rimac planlanan 190 yerine yalnızca 71 elektrikli hiperotomobil üretecek"
+   },
+   "at": "2026-11-12T17:12Z",
+   "h": "f37260411dcb",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Auto Zürich 2024'te Rimac Nevera R (Arşiv fotoğrafı)"
    }
   },
   "rki-suizidgedanken-erwachsene-2026-11-12": {
@@ -3915,6 +4285,37 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Frankfurt yakınlarında A5 otoyolunda kamyon"
+   }
+  },
+  "serbien-paunovic-gesperrt-tadic-2026-11-12-b18": {
+   "L": {
+    "body": [
+     "Sırbistan Milli Takım Teknik Direktörü Veljko Paunović, cuma günü (20:45, RTL) Belgrad'daki Rajko Mitić Stadyumu'nda oynanacak Almanya ile Uluslar Ligi maçını kulübeden yönetmeyecek. Paunović bu maç için cezalı. Paunović, perşembe günü Stara Pazova'daki federasyon merkezinde düzenlenen basın toplantısında, Kurir'e göre, yardımcılarından birinin saha içinde kaptan ve takımla doğrudan iletişimi üstleneceğini söyledi. Kendisinin ise dolaylı yoldan bağlantıda kalacağı belirtildi; TV Arena Sport'a göre bu, UEFA kurallarına uygun şekilde olacak. Teknik direktör, kural dışı durumlar planlamadıklarını vurguladı.",
+     "Paunović, gergin kadro durumuna ilişkin olarak sakatlık kaynaklı eksikliklerin çözülmesi gereken yeni bir durum olduğunu, ancak “dram değil” olduğunu ve diğer oyuncular için kendilerini göstermek adına bir fırsat anlamına geldiğini söyledi. Cuma günü ilk 11'de kimlerin yer alacağını açık bıraktı. Amacın, Almanya'nın Ekim başında 2-0 kazandığı Münih'teki ilk maçta bırakılan izlenimi düzeltmek olduğunu ifade etti. Sırbistan, dört yenilgiyle puansız halde A2 Grubu'nun son sırasında yer alıyor. Paunović, TV Arena Sport'a göre, önceliğin Avrupa Şampiyonası elemelerine katılım olduğunu söyledi; yine de A Ligi'nden düşmenin hoş olmayacağını belirtti.",
+     "Kaptan Dušan Tadić ek motivasyondan söz etti: Ona göre Almanya ilk maçta oyuna hakim olmuş ve Sırbistan'ı çok geriye itmişti, takım ise düzeltmeler üzerinde bilinçli şekilde çalıştı. Tadić, Glas Srpske ve Tanjug'a göre “Farklı bir Sırbistan bekleyin” dedi. Örnek olarak Hollanda karşısındaki performansı gösterdi. Almanya Teknik Direktörü Jürgen Klopp akşam saatlerinde Belgrad'da açıklama yapacak; Sırbistan, pazartesi günü son maçında Volos'ta Yunanistan ile oynayacak."
+    ],
+    "d": "Sırbistan teknik direktörü Almanya maçında kulübede yer alamayacak, takımla iletişimi bir yardımcısı sürdürecek. Kaptan Tadić, ilk maçtaki 0-2'lik yenilginin ardından tepki sözü verdi.",
+    "t": "Sırbistan'da Paunović cezalı, yardımcısı yönetecek; Tadić “farklı bir Sırbistan” vaat etti"
+   },
+   "at": "2026-11-12T17:13Z",
+   "h": "82e7689b3949",
+   "rev": [
+    "Weekdays capitalised mid-sentence (Cuma, Perşembe, Pazartesi); TDK requires lowercase",
+    "Spelling error 'bırakdı' (should be 'bıraktı')",
+    "'dram olmadığını' loses the quoted 'kein Drama' meaning; fixed to 'dram değil'",
+    "Logic error: 'sunduğunu' makes the absences the subject of offering; the chance for other players is simply stated",
+    "Headline: 'vaat etti' and 'Sırbistan'da' are slightly off; 'Gegner Serbien' rephrased minimally, within 90 characters",
+    "Quotation marks: Turkish convention uses ‘ ’ or \" \"; German „“ rendered with curly marks acceptable, left",
+    "'Tadić ... göre “...” dedi' is clumsy; reattributed as 'dedi' with source",
+    "'Stadı' should be 'Stadyumu'"
+   ],
+   "rev_dbg": [
+    9,
+    7,
+    0
+   ],
+   "x": {
+    "img.alt": "Belgrad'daki Rajko Mitić Stadyumu (arşiv fotoğrafı)"
    }
   },
   "shrek-2-remastered-steam-kritik": {
@@ -4244,6 +4645,41 @@
     "kl": "Tenis"
    }
   },
+  "tour-2raumwohnung-freude-2027": {
+   "L": {
+    "body": [
+     "2raumwohnung yeni bir stüdyo albümü duyurdu: “Freude” 30 Nisan 2027'de çıkacak. Eventim dergisinin haberine göre, albümün ilk tadımlığı 6 Kasım'dan bu yana “Lass die Pferde frei” adlı single ile sunuluyor.",
+     "Berlinli ikili, Eylül 2027'de bu albümle Almanya turnesine çıkacak. Turne 9 Eylül'de Hamburg'daki Markthalle'de başlıyor, ardından Frankfurt (Zoom) ve Köln (Carlswerk Victoria) geliyor. Bir aranın ardından 2raumwohnung, 22 Eylül'de Leipzig'deki Täubchenthal'de, 23 Eylül'de Münih'teki Muffathalle'de ve final olarak 24 Eylül'de memleketleri Berlin'deki Columbiahalle'de sahne alacak.",
+     "Ön satış, 13 Kasım 2026 Cuma günü saat 12.00'de Eventim'de başlıyor. Organizatöre göre tarihler ve mekânlar 11 Kasım itibarıyla geçerli."
+    ],
+    "d": "Berlinli elektropop ikilisi “Lass die Pferde frei” adlı single ile geri dönüyor. Eylül 2027'deki turne Hamburg'dan Berlin'e uzanıyor, ön satış cuma günü başlıyor.",
+    "t": "2raumwohnung: Yeni albüm “Freude” Nisan'da – Eylül'de Almanya'da altı konser"
+   },
+   "at": "2026-11-12T17:12Z",
+   "h": "e9e56caf0b03",
+   "rev": [
+    "\"Vorgeschmack\" was rendered as \"albümün ilk örneği ... dinlenebiliyor\", which is slightly off; it is now phrased as a first taste of the album.",
+    "The teaser said the tour runs \"from Hamburg to Berlin\", which is fine and left as is."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "facts": [
+     "09.09.2027 – Hamburg, Markthalle",
+     "10.09.2027 – Frankfurt, Zoom",
+     "11.09.2027 – Köln, Carlswerk Victoria",
+     "22.09.2027 – Leipzig, Täubchenthal",
+     "23.09.2027 – Münih, Muffathalle",
+     "24.09.2027 – Berlin, Columbiahalle",
+     "“Freude” albümü: 30.04.2027",
+     "Ön satış: Cuma, 13.11.2026, saat 12.00"
+    ],
+    "img.alt": "2raumwohnung 2014'te Darmstadt'ta bir konserde (Arşiv fotoğrafı)"
+   }
+  },
   "trainingspause-muskelgedaechtnis-2026-11-12": {
    "L": {
     "body": [
@@ -4570,6 +5006,36 @@
     6,
     0
    ]
+  },
+  "washington-logan-circle-schuesse-fitnessstudio-2026-11-12-b18": {
+   "L": {
+    "body": [
+     "Washington'da silahlı bir kişi perşembe sabahı (yerel saatle) Logan Circle semtinde bir kişiyi öldürdü, dört kişiyi daha yaraladı. Polisin verdiği bilgiye göre ilk kurşunlar saat 8'e az kala, Beyaz Saray'ın yaklaşık bir buçuk kilometre kuzeyinde, 15th Street'te bulunan Vida Fitness spor salonu zincirinin bir şubesinde sıkıldı. İlk kurban salonda hayatını kaybetti, diğer yaralılar yakındaki bir inşaat alanında ve bir giriş bölümünde bulundu. Polise göre yaralılardan biri yaşamsal tehlike altında, diğer üç yaralının durumunun hayati tehlike taşımadığı belirtiliyor.",
+     "Şüpheli saldırgan daha sonra salonun üzerindeki binada yedinci kattaki bir daireye kapandı. Polis Müdürü Vekili Jeffrey Carroll'a göre şüpheli, kapıdan görevlilere en az iki kez ateş etti. Polis daha sonra adamı, görünüşe göre kendi açtığı bir kurşun yarasıyla buldu; polis, adamın durumu hakkında başlangıçta bilgi vermedi. Kimliği önce açıklanmadı; polisin verdiği bilgiye göre adam büyük olasılıkla salonun üyesiydi ve binada oturuyordu.",
+     "Saldırının nedenine ilişkin henüz bir bulgu yok. Carroll, “Onunla bu binanın kat malikleri kurulu arasında bir anlaşmazlık olduğunu biliyoruz” dedi. Şehir polisinin yanı sıra silah kontrol kurumu ATF de olay yerinde görev yaptı. Belediye Başkanı Muriel Bowser, Beyaz Saray'ın bilgilendirildiğini söyledi. Konut binasında ayrıca yangın çıktı ve söndürüldü; nedeni belirsiz."
+    ],
+    "d": "Beyaz Saray'a yakın bir bölgede bir erkek, spor salonunda ve sokakta ateş açtı. Bir kişi öldü, dört kişi yaralandı. Saldırgan bir daireye kapandı ve kurşun yarasıyla bulundu.",
+    "t": "Washington'da spor salonunda silahlı saldırı: 1 ölü, 4 yaralı – saldırgan yaralı"
+   },
+   "at": "2026-11-12T17:13Z",
+   "h": "974c839c9f44",
+   "rev": [
+    "Teaser: \"Beyaz Saray'a yakın bir bölgede bir erkek\" – the German does not call him a 'bir erkek' neutrally; acceptable, but 'içeri kapandı' is unnatural; use 'barikat kurdu/kendini bir daireye kapattı",
+    "Body: 'duyuldu' was added; the German says shots 'fielen' (were fired), so 'ateş açıldı' is more accurate.",
+    "Body: 'kapının arkasından' changed the meaning; German says 'durch die Tür' (through the door).",
+    "Body: 'Polis Müdürü Vekili' should be lowercase mid-sentence per convention with 'kommissarischer Polizeichef'; capitalisation fix.",
+    "Body: 'Saldırının nedenine' – German says 'Motiv'; 'saldırının nedenine' is fine, but 'Belediye Başkanı' should be lowercase 'Belediye Başkanı' as title before name is acceptable; left unchanged.",
+    "Teaser lacks the 'mutmaßlich' hedge: 'Saldırgan' is stated as fact in the teaser/headline; the German original also uses 'Schütze' there, so kept."
+   ],
+   "rev_dbg": [
+    6,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Washington'da Logan Circle (Arşiv fotoğrafı)",
+    "kl": "ABD"
+   }
   },
   "wbc-acapulco-pflichtkaempfe-zepeda-nakatani": {
    "L": {
