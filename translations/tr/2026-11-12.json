@@ -52,6 +52,33 @@
     "img.alt": "Sembolik fotoğraf: New York'ta bir daire"
    }
   },
+  "alphagenome-2-zelltypen-dna": {
+   "L": {
+    "body": [
+     "Google DeepMind çarşamba günü (11 Kasım) AlphaGenome 2'yi tanıttı. Model, bir DNA bölümünün ve varyantlarının belirli bir dokuda, hücre tipinde ya da hücre durumunda nasıl etki ettiğini öngörüyor; örneğin genlerin aktivitesi üzerindeki etkiyi ya da yeni eklenen DNA metilasyonunu. Model tek seferde bir milyona kadar DNA harfini okuyor ve 68 dokudan 107 milyondan fazla tek hücre profiliyle eğitildi; bunlar arasında Human Cell Atlas verileri de var.",
+     "DeepMind'a göre AlphaGenome 2, gen aktivitesini değiştiren varyantların neredeyse iki katını selefine kıyasla tespit ediyor. Bağışıklık hücrelerinden oluşan TenK10K veri setiyle yapılan testte nedensel varyantların yüzde 30'unu belirledi; yeniden eğitilen selef model ve diğer özel araçlar ise yüzde 16'sını belirledi. Yeni tek hücre verilerini yeniden eğitime gerek kalmadan alabiliyor. “AlphaGenome 2'yi heyecan verici kılan, yeniden eğitilmeden doğrudan yeni tek hücre verilerine uyum sağlaması” dedi Cambridge Üniversitesi'nden Profesör Sarah Teichmann.",
+     "Model, ticari olmayan araştırmalar için AlphaGenome programlama arayüzü üzerinden kullanılabiliyor; ticari araştırmalar için ise kapalı bir ön izleme sunuluyor. DeepMind, AlphaGenome 2'nin yalnızca araştırma amacıyla tasarlandığını, teşhis ya da klinik amaçlar için test edilmediğini ve onaylanmadığını vurguluyor. Google DeepMind'ın resmi videosu modelin nasıl çalıştığını anlatıyor."
+    ],
+    "d": "Kalp, beyin ve bağışıklık sistemi aynı DNA'yı taşır; ancak bir mutasyon çoğu zaman yalnızca belirli hücrelerde zarar verir. Google'ın yeni modeli bunu öngörmeyi hedefliyor ve neredeyse iki kat fazla varyant buluyor.",
+    "t": "Aynı DNA, farklı etki: DeepMind'ın AlphaGenome 2'si tek tek hücre tiplerine bakıyor"
+   },
+   "at": "2026-11-12T12:59Z",
+   "h": "42cd911ae390",
+   "rev": [
+    "Teaser: 'Google'ın yeni modeli bunu öngörmeyi hedefliyor' is fine, but 'neredeyse iki kat fazla varyant buluyor' presents DeepMind's claim as plain fact; the German states it as a model finding, so it",
+    "Quote punctuation: the comma after the closing quote was misplaced, which is a problem with Turkish quote conventions.",
+    "Stylistic: 'Model' was repeated in consecutive sentences in the first paragraph; this was left as is for minimal edits."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Berlin Tıp Tarihi Müzesi'nde Watson ve Crick'in DNA çift sarmal modelinin yeniden yapımı",
+    "kl": "Araştırma"
+   }
+  },
   "american-barrick-gold-boersengang-nyse-2026-11-12": {
    "L": {
     "body": [
@@ -631,6 +658,32 @@
    ],
    "x": {
     "img.alt": "Terra World News kapak görseli"
+   }
+  },
+  "de-bruyne-napoli-option-2026-11-12": {
+   "L": {
+    "body": [
+     "SSC Napoli'de Kevin De Bruyne'in ayrılığı kendini gösteriyor. Napoli'de yayımlanan “Il Mattino” gazetesinin haberine göre kulüp, Haziran 2027'ye kadar geçerli olan sözleşmeyi bir yıl uzatma yönündeki tek taraflı opsiyonu kullanmak istemiyor. Gazetenin haberine göre karar çoktan verildi ve Belçikalı oyuncu bunu biliyor. Kulübün resmi bir açıklaması yok. Habere göre kışın ayrılık konusunda ise henüz bir karar verilmedi.",
+     "Habere göre De Bruyne daha Ocak ayında ayrılmak için izin isteyebilir; olası destinasyon olarak Kuzey Amerika'daki MLS gösteriliyor. Napoli'nin erken bir ayrılığa engel çıkarmak istemediği, 2027 için yaklaşık altı milyon euro maaşın ise hâlâ ödenmesi gerektiği belirtiliyor. Orta saha oyuncusunun ayrıca Belçika ile 2028 Avrupa Şampiyonası'na katılmak istediği ifade ediliyor. Transfer uzmanı Nicolò Schira, PSV Eindhoven'ın da oyuncuyu sorduğunu bildiriyor.",
+     "“Gazzetta dello Sport” geçen hafta, Calciomercato.com'a göre, soyunma odasındaki gerilimleri haberleştirmişti; bunlar arasında Porto'daki Şampiyonlar Ligi yenilgisinde forvet Lorenzo Lucca ile yaşanan kamuya açık bir tartışma da vardı. De Bruyne bu sezon teknik direktör Massimiliano Allegri yönetiminde on maçta dört gol attı. Napoli ligde on bir maçta 15 puan topladı."
+    ],
+    "d": "“Il Mattino”ya göre SSC Napoli, Haziran 2027'ye kadar geçerli olan Kevin De Bruyne sözleşmesini uzatmayacak. Belçikalı oyuncu kışın ayrılabilir; olası destinasyon olarak MLS gösteriliyor.",
+    "t": "Rapor: Napoli, De Bruyne opsiyonunu kullanmayacak – Ocak'ta ayrılık mümkün"
+   },
+   "at": "2026-11-12T12:59Z",
+   "h": "5339e8873224",
+   "rev": [
+    "\"Napoli merkezli\" is a vague rendering of \"neapolitanische Zeitung\"; \"Napoli'de yayımlanan\" is more natural",
+    "Teaser says \"sözleşmesini uzatmayacak\" as fact although it is a report; \"Il Mattino'ya göre\" attribution is present, so this is fine",
+    "Headline states the option will not be exercised as a fact, but the \"Rapor:\" prefix gives the attribution, so it is acceptable"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Kevin De Bruyne, 2021'de Leipzig'deki Şampiyonlar Ligi maçında (Arşiv fotoğrafı)"
    }
   },
   "deutsche-boerse": {
@@ -2347,6 +2400,35 @@
     "img.alt": "Arşiv fotoğrafı: Dublin'deki Windmill Lane Studios"
    }
   },
+  "le-havre-ismael-2026-11-12": {
+   "L": {
+    "body": [
+     "Fransa Ligue 1 ekibi Le Havre AC, görünüşe göre yeni teknik direktörünü buldu. Birçok Fransız medyasının dayandığı spor gazetesi “L'Équipe”in bilgilerine göre Valérien Ismaël ile görüşmeler son aşamada. Kulüpten perşembe öğlene kadar resmi bir doğrulama gelmedi.",
+     "Le Havre, Didier Digard'ın 31 Ekim'de görevden alınmasından bu yana başantrenörsüz. Spor direktörü Demba Ba da kulüpten ayrıldı. On maçta iki puan toplayan ve henüz galibiyeti bulunmayan HAC, Ligue 1'de son sırada yer alıyor.",
+     "51 yaşındaki Ismaël, Almanya'da tanınan bir isim: Defans oyuncusu olarak Werder Bremen ve FC Bayern dahil çeşitli takımlarda oynadı, teknik direktör olarak 1. FC Nürnberg ve VfL Wolfsburg'da çalıştı. Diğer duraklar arasında LASK, Beşiktaş, Watford ve son olarak görev süresinin şubatta sona erdiği Blackburn Rovers yer alıyor. Le Havre ile anlaşması hâlinde Fransa'da ilk kez teknik direktörlük yapmış olacak."
+    ],
+    "d": "“L'Équipe” gazetesine göre Ligue 1'in son sırasındaki Le Havre, Valérien Ismaël'i kadrosuna katmaya yakın. Eski Bayern savunmacısının, 31 Ekim'de görevden alınan Didier Digard'ın yerine geçmesi bekleniyor.",
+    "t": "Haber: Eski Wolfsburg teknik direktörü Ismaël son sıradaki Le Havre'ı kurtarmak üzere"
+   },
+   "at": "2026-11-12T12:59Z",
+   "h": "99f9fff7fab8",
+   "rev": [
+    "Teaser: indirect speech 'würde folgen' rendered as a plain future fact; conditional/attribution marker needed",
+    "Headline: 'soll ... retten' rendered as a definite 'kurtaracak'; hedge lost",
+    "Body: last sentence 'würde ... arbeiten' stated as plain fact; also 'Le Havre'da ilk kez Fransa'da' is awkward",
+    "'Rapor' is an unnatural rendering of 'Bericht'; 'Haber' is better",
+    "Teaser: 'kadrosuna katmaya yakın' is acceptable, but the quote suffix '“L'Équipe”e' is awkward",
+    "'Werder Bremen ve FC Bayern dahil çeşitli takımlarda' adds 'çeşitli takımlarda' but is acceptable; 'Şubat' should be lowercase 'şubat' per TDK"
+   ],
+   "rev_dbg": [
+    6,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Valérien Ismaël, LASK teknik direktörü olarak, 2020 (Arşiv fotoğrafı)"
+   }
+  },
   "leben-all-of-us-genvarianten-medikamente-2026-11-12": {
    "L": {
     "body": [
@@ -2813,6 +2895,33 @@
     "img.alt": "Paulie Malignaggi, 2010 (Arşiv fotoğrafı)"
    }
   },
+  "man-utd-carrick-entlassen-2026-11-12": {
+   "L": {
+    "body": [
+     "Manchester United, perşembe günü başantrenör Michael Carrick ile yollarını ayırdı. Kulüp, Carrick'in erkek takımın başantrenörlüğü görevinden ayrıldığını doğruladı. United, Premier Lig'de oynanan on maçın ardından yalnızca bir galibiyetle 18. sırada yer alıyor ve küme düşme hattında bulunuyor. Takım, bu sezon tüm yarışmalarda 15 maçın yalnızca üçünü kazandı; son maçta Aston Villa ile 4-4 berabere kaldı.",
+     "Kulüp, açıklamasında Carrick'in hizmetlerini takdir ediyor: Ocak ayında Ruben Amorim ile yolların ayrılmasının ardından geçici teknik direktör olarak göreve gelen Carrick, takımı 17 maçta on iki galibiyetle üçüncü sıraya kadar taşımıştı. Açıklamada “Michael is, and always will be, a Manchester United legend” (“Michael, bir Manchester United efsanesidir ve her zaman öyle kalacaktır”, çeviri) ifadesi yer alıyor. “Evening Standard”a göre ayrılık, Carrick'in iki yıllık sözleşmeyi imzalamasından 173 gün sonra gerçekleşti.",
+     "United, kendi açıklamasına göre kalıcı bir halefi mümkün olan en kısa sürede getirmek istiyor. ESPN'e göre şu an ABD Milli Takımı Teknik Direktörü olan Mauricio Pochettino ilk aday; United'ın ABD Futbol Federasyonu ile temasa geçtiği ve serbest kalma bedelinin 10 milyon dolar olduğu belirtiliyor. Pochettino, ABD Milli Takımı'nı 14 ve 17 Kasım'da CONCACAF Uluslar Ligi'nde Haiti karşısında da çalıştıracak. Sky Sports'a göre Pochettino ile şimdiden ilke olarak sözlü bir anlaşma sağlanmış durumda; bu resmen doğrulanmış değil. Kulüp, o zamana kadar kimin geçici olarak görev yapacağını açıklamadı. Milli ara sonrasındaki ilk maç, Liverpool deplasmanı."
+    ],
+    "d": "Manchester United, on maçta yalnızca bir lig galibiyetinin ardından teknik direktör Michael Carrick ile yollarını ayırdı. ESPN'e göre kulüp, ABD Milli Takımı Teknik Direktörü Mauricio Pochettino ile anlaşmaya çok yakın.",
+    "t": "Manchester United, Carrick ile yollarını ayırdı – Pochettino favori görülüyor"
+   },
+   "at": "2026-11-12T12:59Z",
+   "h": "c4a200e81bac",
+   "rev": [
+    "Concacaf Nations League: the Turkish form is 'CONCACAF Uluslar Ligi'; the acronym should be written in capitals",
+    "Pochettino 'betreut die USA noch am 14. und 17. November … gegen Haiti': the draft implies he plays against Haiti himself and loses the 'still/until then' sense; reworded",
+    "'Erstes Spiel … Partie beim FC Liverpool': 'FC Liverpool' reduced to 'Liverpool deplasmanı', which is acceptable; no change",
+    "'Laut Sky Sports gibt es bereits eine grundsätzliche mündliche Einigung': 'bereits' was lost; added"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Michael Carrick, Manchester United oyuncusu olarak, 2015 (Arşiv fotoğrafı)"
+   }
+  },
   "mannheim-cafe-schuesse-toter-2026-11-12-b11": {
    "L": {
     "body": [
@@ -3121,6 +3230,34 @@
     ],
     "img.alt": "Berlin-Wedding'deki Nordufer'de Robert Koch Enstitüsü (Arşiv fotoğrafı)",
     "kl": "Ruh sağlığı"
+   }
+  },
+  "schalke-derby-tickets-2026-11-12": {
+   "L": {
+    "body": [
+     "Üç buçuk yılı aşkın bir süre sonra oynanacak ilk Ruhr derbisine yönelik talep çok büyüktü. FC Schalke 04'ün çarşamba günü saat 10'da dört iç saha maçı için üyelere yönelik ön satışı başlatmasının ardından, kulübe göre Borussia Dortmund ile 6 Aralık'ta oynanacak maçın biletleri 30 dakika içinde tükendi. Satışın başlamasından bir saat sonra Mönchengladbach, Bremen ve Augsburg maçlarının biletleri de tükenmişti.",
+     "Onlarca taraftar pazar gününden beri Ernst-Kuzorra-Weg'deki kulüp binasının önünde bekledi; sıcaklık sıfır derecenin biraz üzerindeyken çadırlarda, portatif yataklarda ve otomobillerde kaldılar. Sezonluk kart sahibi Jürgen, WDR'ye “Telefonla ya da internetten denersen aslında hiç şansın yok” dedi. Başka bir taraftar ise ortamı şöyle anlattı: “Kimseyi soğukta bırakmıyoruz.”",
+     "Online mağazada satış hayal kırıklığına yol açtı: Taraftarlar çok büyük bir bekleme kuyruğundan ve bir anda sıranın çok gerisine atıldıklarından söz etti. Üyeler en fazla iki derbi bileti alabiliyordu. Schalke, 16 Kasım Pazartesi gününden itibaren, üyelerin biletleri orijinal fiyatıyla devredebileceği bir bilet borsası açacak."
+    ],
+    "d": "Taraftarlar pazar gününden beri kulüp binasının önünde kamp kurdu, ardından işler hızlandı: 6 Aralık'taki BVB ile Ruhr derbisinin biletleri yarım saat sonra tükendi.",
+    "t": "Üç gece çadırda bekledi: Schalke'nin derbi biletleri 30 dakikada tükendi"
+   },
+   "at": "2026-11-12T12:59Z",
+   "h": "2d1bc0f9b5ec",
+   "rev": [
+    "Teaser: 'nach einer halben Stunde' rendered as 'yarım saat sonra tükendi' is fine, but 'Gladbach' left untranslated in body (should be Mönchengladbach/Gladbach match naming)",
+    "'Mitglieder durften höchstens zwei Derby-Karten kaufen' was rendered with 'alabildi' (could), changed to 'alabilirdi'/'alabiliyordu' to retain the restriction",
+    "'Dauerkarteninhaber' is a season-ticket holder, not 'kombine bilet' (combined ticket); corrected to 'sezonluk kart sahibi'",
+    "'Ernst-Kuzorra-Weg' is a proper street name, so it is left as is",
+    "Title 'Üç gece çadırda geçti' is awkward; rephrased"
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "FC Schalke 04'ün Gelsenkirchen'deki stadyumu (Sembolik fotoğraf)"
    }
   },
   "sennder-228-mio-finanzierung-profitabel-2026-11-12": {
@@ -3498,6 +3635,33 @@
    "x": {
     "img.alt": "Arşiv fotoğrafı: United Airlines'a ait bir Boeing 787-8, Washington Dulles Havalimanı'na iniş yaklaşmasında",
     "kl": "Kurallar"
+   }
+  },
+  "upamecano-zukunft-2026-11-12": {
+   "L": {
+    "body": [
+     "Dayot Upamecano, Fransa Milli Takımı'nın İtalya ile oynanacak Uluslar Ligi maçı öncesindeki basın toplantısında FC Bayern'e bağlılığını net biçimde ifade etmedi. Premier Lig'e olası bir transfer hakkında sorulan 28 yaşındaki oyuncu, bir süredir Almanya'da olduğunu ve şu anda kendini çok iyi hissettiğini söyledi. “Geleceğin ne getireceğini göreceğiz” diye ekledi (çeviri). Upamecano, şu anda kulübünde kendini iyi hissettiğini de belirtti.",
+     "Stoper, Münih'teki sözleşmesini uzun müzakerelerin ardından ancak şubat ayında 2030'a kadar uzatmıştı. Medya haberlerine göre sözleşmede 65 milyon euroluk bir çıkış maddesi yer alıyor; SPORT1'in bilgilerine göre bu madde 2027'ye kadar geçerli olacak. Kulüp bunu doğrulamadı. Spor direktörü Max Eberl, Mainz'daki 2-1'lik galibiyetin ardından şunları söyledi: “Sözleşmenin içeriğini açıklamak için burada değilim.” Eberl ayrıca Upamecano'nun Münih'te “çok rahat” hissettiğini vurguladı.",
+     "“Abendzeitung”a göre Paris Saint-Germain de 2021'de RB Leipzig'den Münih'e gelen Fransız milli oyuncuyla ilgileniyor. Upamecano bu sezon Bundesliga'da şimdiye kadar üç gol attı."
+    ],
+    "d": "Fransa Milli Takımı'nda Premier Lig'i soruldu, Bayern'li savunmacı net bir yanıt vermedi. Haberlere göre 2030'a kadar geçerli sözleşmesinde bir çıkış maddesi bulunuyor.",
+    "t": "Upamecano Bayern'deki geleceğini açık bıraktı: “Geleceğin ne getireceğini göreceğiz”"
+   },
+   "at": "2026-11-12T12:59Z",
+   "h": "acac4fb3b449",
+   "rev": [
+    "Teaser: the German says the player was asked about the Premier League, but the draft reads as if he was the one asking questions, which is garbled and changes the meaning",
+    "Teaser: the contract with the exit clause was stated as running to 2030, but the German links it to 'Laut Berichten' and the draft's structure is confusing",
+    "Body: the last sentence of the first paragraph said 'Upamecano ... belirtti' correctly, but 'Aktuell fühle er sich ... wohl' is fine; no change needed",
+    "Body: Eberl's remark that Upamecano feels 'sauwohl' is reported speech, and the draft's attribution is fine"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Dayot Upamecano, 2026 Dünya Kupası'nda Fransa Milli Takımı formasıyla (Arşiv fotoğrafı)"
    }
   },
   "video-herzklappe-kind-rekonstruktion-2026-11-12": {
@@ -3969,6 +4133,34 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Ust-Luga'daki konteyner terminali (2020)"
+   }
+  },
+  "werder-fritz-zukunft-2026-11-12": {
+   "L": {
+    "body": [
+     "Werder Bremen'de Genel Müdür Clemens Fritz'in geleceği belirsiz. Sözleşmesi 2027'de sona eren 45 yaşındaki Fritz, “Sport Bild”e verdiği röportajda olası veda düşüncelerinden söz etti. Fritz, “Yine de kişisel olarak bundan sonra nasıl devam edeceğim konusunda düşünmem meşru” dedi.",
+     "Fritz, futbolun altı yaşından beri hayatını belirlediğini ve aileye çok az zaman kaldığını söyledi. “Bu yüzden insan kendine bir ara verme zamanının gelip gelmeyeceği sorusunu soruyor.” Fritz aynı zamanda şunu vurguladı: “Öte yandan bu iş bana çok keyif veriyor ve Werder'i daha ileriye taşıma isteği de var.”",
+     "Geleceğe ilişkin görüşmeler, denetim kurulunda değişiklikler yaşanacağı için 15 Kasım'daki genel kuruldan sonraki döneme kararlaştırıldı. Bremenliler sportif açıdan şu sıralar iyi durumda; bunda kiralık forvet Niclas Füllkrug'un da payı var. Fritz, Füllkrug'u sezon sonrasında da kadroda tutmak istediğini belirtti. Fritz, önümüzdeki iki üç yılın Werder için “zorlu geçmeye devam edeceğini” söyledi."
+    ],
+    "d": "Clemens Fritz'in Bremen'deki sözleşmesi 2027'de sona eriyor. Genel müdür, “Sport Bild”e verdiği röportajda olası bir ara hakkında açıkça konuştu. Denetim kurulu ile 15 Kasım'dan sonra görüşmek istiyor.",
+    "t": "Werder Bremen Genel Müdürü Fritz ara vermeyi düşünüyor – görüşmeler genel kuruldan sonra"
+   },
+   "at": "2026-11-12T12:59Z",
+   "h": "73c7566d64ff",
+   "rev": [
+    "Headline calls Fritz 'başkan' (president), but he is Geschäftsführer (Genel Müdür); inconsistent with the body",
+    "Teaser: 'Denetim kuruluyla' is a typo, should be 'Denetim kuruluyla' -> 'Denetim kurulu ile'; 'Genel müdür' is fine",
+    "Teaser: 'açıkça konuştu' is fine, but 'Sport Bild'e' quote style is acceptable",
+    "Body para 3: 'Fritz'in bildirdiğine göre' is an unnatural attribution of the Konjunktiv; simplified",
+    "Body para 3: 'planlandı' loses 'vereinbart' (agreed); changed to 'kararlaştırıldı'"
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Clemens Fritz, Werder Bremen oyuncusu olarak, 2009 (Arşiv fotoğrafı)"
    }
   },
   "wirtschaft-allianz-rekord-prognose-2026-11-12": {
