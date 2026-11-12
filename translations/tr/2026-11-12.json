@@ -1395,6 +1395,61 @@
     "img.alt": "Sembolik fotoğraf: Barcelona'da Passeig de Gràcia"
    }
   },
+  "f1-hill-hamilton-nummer-eins-ferrari-2026-11-12": {
+   "L": {
+    "body": [
+     "Eski dünya şampiyonu Damon Hill, Ferrari'ye yönelik Lewis Hamilton'ı net lider pilot yapma çağrısını yineledi. “Bütün bunu ona yatırdılar, sporun bu devasa ismi onlarla birlikte” diyen İngiliz, Speedweek'in aktardığına göre şöyle konuştu: “Her şeyi Lewis üzerine kurmanın mantıklı olduğunu düşünüyorum.” Hill aynı zamanda açıklığa kavuşturulması gereken bir konu olduğunu belirtti: “Bence bunu takım içinde çözmemiz gerekiyor, çünkü orada siyasi bir sorun var.”",
+     "Hill, Meksika Grand Prix'sinin ardından da X'te Hamilton'ın bir numara yapılması çağrısında bulunmuş ve bunun “her tartışmayı” sona erdireceğini belirtmişti. Orada iki Ferrari pilotu ilk aşamada birbirine girmiş ve 4. virajda pistten çıkmıştı; Leclerc'e beş saniye ceza verildi. Hamilton ikinci, Leclerc dördüncü oldu. Speedweek'e göre Hamilton, Brezilya'daki yarışın ardından bir numara olması gerektiğini yineledi.",
+     "Interlagos'ta ikisi de ilk sıraların dışında kaldı: Leclerc cezasının ardından sekizinci oldu, Hamilton ise bir tur farkla dokuzuncu olarak bitirdi. Dünya Şampiyonası'nda Hamilton 261 puanla dördüncü sırada ve George Russell'ın bir puan gerisinde; Leclerc 249 puanla onu izliyor. Las Vegas, Katar ve Abu Dabi yarışları henüz yapılmadı."
+    ],
+    "d": "1996 dünya şampiyonu Damon Hill üstüne basıyor: Ferrari'nin Lewis Hamilton'ı net bir numara bir yapması gerektiğini söyledi. Interlagos'un ardından Hamilton, takım arkadaşı Leclerc'in 12 puan önünde.",
+    "t": "“Siyasi sorun”: Damon Hill, Ferrari'den yeniden Hamilton'a açık destek istedi"
+   },
+   "at": "2026-11-12T11:36Z",
+   "h": "0970152a5bcb",
+   "rev": [
+    "Teaser: \"net bir bir numara\" contains a duplicated word; \"ısrarlı\" and \"söyledi\" are also unnatural, and the indirect speech needs a reporting form",
+    "Body 1: \"diyen İngiliz, ... şöyle konuştu\" is broken syntax around the quote",
+    "Body 1: \"Ferrari'ye yönelik ... çağrısını\" is clumsy, although the meaning is right",
+    "Body 3: \"Dünya Şampiyonası'nda\" is imprecise, and \"henüz yapılmadı\" should read as still outstanding (minor)"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Lewis Hamilton, 2025 İtalya Grand Prix'si sıralama turlarında Ferrari ile (Arşiv fotoğrafı)",
+    "kl": "Formül 1"
+   }
+  },
+  "f1-norris-verteidigt-leclerc-strafe-2026-11-12": {
+   "L": {
+    "body": [
+     "Brezilya’nın galibi Lando Norris, Ferrari pilotu Charles Leclerc’e verilen cezayı sorguladı. McLaren pilotu, eski yarışçı Max Fewtrell ile yaptığı bir Twitch yayınında olayı yeniden izledi ve “Leclerc nasıl beş saniyelik ceza aldı?” diye sordu. Fewtrell temasın adil ama sınırda olduğunu söyleyince Norris, “Evet, ama bu işte yarış, değil mi?” yanıtını verdi. Daha sonra olayı “mükemmel yerleştirilmiş bir itiş” olarak nitelendirdi.",
+     "Leclerc ile Lawson, Interlagos’taki yağmurlu yarışta yedinci sıra için mücadele etti. 12. virajda Ferrari, Racing Bull’a temas etti; beş viraj sonra Leclerc öne geçti. Yarış komiserleri asıl kusuru Monakolu pilotta gördü ve yarıştan sonra beş saniye ceza verdi; ıslak pist ve hafif temas nedeniyle on saniye verilmedi. Leclerc, Lawson’ın 1,816 saniye önünde bitiş çizgisini geçmişti ve bu nedenle sekizinci sıraya geriledi.",
+     "Lawson için bu, dört yerine altı puan anlamına geldi; Leclerc şimdi 249 puanda ve şampiyonada beşinci sırada. Leclerc’in yanı sıra dünya şampiyonu Kimi Antonelli ile Haas pilotu Oliver Bearman da güvensiz pit stop nedeniyle beş saniyelik ceza aldı; bu, sıralamalarını değiştirmedi. Sezon, 22 Kasım’da (Orta Avrupa Saati) Las Vegas Grand Prix’si ile devam edecek."
+    ],
+    "d": "Lando Norris, Interlagos’ta Liam Lawson ile girdiği mücadelenin ardından Charles Leclerc’e verilen beş saniyelik cezayı aşırı buluyor. Ceza, Ferrari pilotuna yedinci sırayı kaybettirdi.",
+    "t": "“Bu işte yarış”: Galip Norris, ceza alan Leclerc’in yanında durdu"
+   },
+   "at": "2026-11-12T11:36Z",
+   "h": "50052c15bc39",
+   "rev": [
+    "Headline: \"Racing\" was rendered as \"yarış\", which loses the nuance; it was changed to the more natural \"yarış işte\".",
+    "Body: \"Leclerc war ... ins Ziel gekommen\" was rendered as a bare past perfect without the sense of \"already\"; the sentence is acceptable. Another fix: \"Weiter geht es\" became \"Sezon ... devam edecek\",",
+    "The quote \"Bu sadece yarış\" was changed to \"Bu işte yarış\" for naturalness."
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Charles Leclerc, 2025 İtalya Grand Prix’si sıralama turlarında Ferrari ile (Arşiv fotoğrafı)",
+    "kl": "Formula 1"
+   }
+  },
   "fury-joshua-karte-bakole-vanhouter": {
    "L": {
     "body": [
@@ -3031,6 +3086,39 @@
     0
    ]
   },
+  "studie-frozen-shoulder-netzwerk-metaanalyse-2026-11-12": {
+   "L": {
+    "body": [
+     "Donuk omuzda, yani adhezif kapsülitte, eklem kapsülü yapışır ve küçülür; omuz ağrır ve neredeyse hiç hareket ettirilemez. Hastalık özellikle 40 ile 60 yaş arasındaki kişileri ve daha sık kadınları etkiliyor. Tedavide çok sayıda yöntem kullanılıyor; bunlardan hangilerinin gerçekten işe yaradığı şimdiye kadar belli değildi. Çin'den destek alan bir araştırma ekibi, toplam 12.988 yetişkini kapsayan 189 randomize çalışmayı bir ağ meta-analizinde değerlendirdi. Sonuçlar 5 Kasım'da The BMJ dergisinde yayımlandı.",
+     "Sonuç hayal kırıklığı yaratıyor: Yalnızca iki yaklaşım, kanıtların güvenilirliği orta düzeyde olmak üzere, olağan tedaviden daha iyi sonuç veriyor. Şok dalga tedavisi, ağrıyı kısa vadede 0 ile 10 arasındaki ölçekte ortalama yaklaşık iki puan azalttı. Anestezi altında omuz mobilizasyonu, kolun öne kaldırılmasını kısa vadede yaklaşık 26 derece, kortizon enjeksiyonuyla birlikte yaklaşık 33 derece iyileştirdi. Yazarlara göre diğer yöntemlerin çoğu, üç aydan uzun süreli etkiler ve karşılaştırmalı güvenlik için veriler belirgin biçimde daha belirsiz.",
+     "Araştırmacılar zayıf noktalara kendileri de dikkat çekiyor: Dahil edilen çalışmaların çoğunda yanlılık riski yüksekti, hastalık süresi, evre ve önceki tedaviler çoğu zaman tutarlı biçimde bildirilmemişti, yan etkiler eksik kaydedilmişti. Sonuçlar ayrıca ağırlıklı olarak belirgin bir nedeni olmayan birincil donuk omuz için geçerli. Araştırmacılara göre uzun vadeli yarar ile yarar ve zarar dengesi bu nedenle netleşmiş değil; hangi tedavinin kişiye uygun olduğu doktorla görüşülmeli."
+    ],
+    "d": "189 çalışmanın ve yaklaşık 13.000 yetişkinin analizi, “donuk omuz” için yalnızca birkaç tedavide güvenilir etki buluyor; bu etkiler de yalnızca ilk aylar için kanıtlanmış.",
+    "t": "Çalışma: Şok dalga ve anestezide mobilizasyon donuk omuzda kısa vadede fayda sağlıyor"
+   },
+   "at": "2026-11-12T11:36Z",
+   "flag": [
+    "Zitate fehlen (1 statt 2)"
+   ],
+   "h": "37d77e8b90b1",
+   "rev_dbg": [
+    5,
+    0,
+    0
+   ],
+   "x": {
+    "facts": [
+     "Çalışma: randomize kontrollü çalışmaların ağ meta-analizini içeren sistematik derleme",
+     "Katılımcılar: donuk omuzu olan, ortalama 54 yaşında toplam 12.988 yetişkini kapsayan 189 çalışma",
+     "Dergi: The BMJ, 5 Kasım 2026'da yayımlandı",
+     "Ana sonuç: Şok dalga tedavisi, kısa vadede ağrıyı 0-10 ölçeğinde ortalama 1,97 puan azaltıyor; anestezide mobilizasyon kolun kaldırılmasını yaklaşık 26 ila 33 derece iyileştiriyor (her ikisinde de olağan tedaviye kıyasla orta düzeyde güvenilirlik)",
+     "Sınırlar: tekil çalışmaların çoğunda yüksek yanlılık riski, üç aydan sonrası için neredeyse hiç güvenilir veri yok, yan etkiler eksik kaydedilmiş",
+     "Finansman: Çin'den araştırma fonları, bunlar arasında Hunan Eyaleti Doğa Bilimleri Vakfı ve ulusal öncelikli araştırma ve geliştirme programı"
+    ],
+    "img.alt": "Müzede fizyoterapi için omuz çarkı (Sembolik fotoğraf)",
+    "kl": "Tıp ve Araştırma"
+   }
+  },
   "thronefall-konsolen-test": {
    "L": {
     "body": [
@@ -3067,6 +3155,37 @@
      "On krallık ve yaklaşık 10 ila 12 saatlik kampanya"
     ],
     "rv.score": "OpenCritic 84 · Games Asylum 8/10 · Metro GameCentral 8/10"
+   }
+  },
+  "tn-shevchenko-ruud-stockholm-2026-11-12": {
+   "L": {
+    "body": [
+     "Stockholm'deki ATP turnuvasında sürpriz: Elemeden gelen Aleksandr Shevchenko, son şampiyon Casper Ruud'u turnuvadan eledi. Dünya sıralamasında 107. sırada yer alan Kazakistanlı oyuncu, çarşamba günü 2 saat 17 dakika süren maçta ikinci sıradaki Norveçli rakibini 6-7 (5-7), 6-4, 6-3 yendi. ATP'ye göre Shevchenko 50 kazanan vuruş yaptı; bu, oyuncunun bu sezon Miami'de Ben Shelton'dan sonra ilk 20'deki bir oyuncuya karşı aldığı ikinci galibiyet oldu. 25 yaşındaki oyuncu, “Kariyerimin en büyük zaferlerinden biri, bu kesin” dedi.",
+     "Turnuvanın bir numaralı seedi Taylor Fritz, Cameron Norrie'yi 7-5, 6-3 yendi ve ilk sette 4-5 geride olduğu sırada Britanyalı rakibinin iki set puanını kurtardı. ABD'li oyuncu çeyrek finalde, akşam saatlerinde ilk seti kaybettikten sonra Miomir Kecmanović'i 2-6, 6-1, 6-4 yenen Holger Rune ile eşleşti.",
+     "Shevchenko son sekiz turunda Arjantinli Thiago Agustín Tirante ile oynayacak. Ayrıca Alejandro Tabilo ile Alex Michelsen ve Ugo Humbert ile Lorenzo Musetti karşı karşıya gelecek. Alman Yannick Hanfmann ilk turda Michelsen'e yenilerek elenmişti."
+    ],
+    "d": "Kazakistanlı Aleksandr Shevchenko, ilk seti kaybettikten sonra Casper Ruud'u yendi. Holger Rune ile Taylor Fritz perşembe günü çeyrek finalde karşılaşacak.",
+    "t": "50 kazanan vuruş: Elemeden gelen Shevchenko, son şampiyon Ruud'u Stockholm'de eledi"
+   },
+   "at": "2026-11-12T11:36Z",
+   "h": "54789d863b47",
+   "rev": [
+    "Score error: Rune's match is 2:6, 6:1, 6:4 in the German, but in the draft the structure is slightly ambiguous; the draft correctly renders it, so no change needed",
+    "Fritz saved two set points at 4:5 in the first set; the draft's sentence says he saved them after \"ve\" – acceptable, but 'Britanyalı rakibinin' is fine",
+    "Shevchenko's win was 'nach Satzrückstand' (after losing the first set) – draft says 'ilk seti kaybettikten sonra', correct",
+    "Rune won 'am Abend' – fine",
+    "'Der Deutsche Yannick Hanfmann' rendered as 'Almanyalı' – natural, but 'Alman' is more standard for nationality of a player; minor",
+    "'Dünya sıralamasında 107. sırada yer alan' is correct",
+    "Teaser says Rune and Fritz meet 'Donnerstag' – 'perşembe' is lowercase per TDK, correct"
+   ],
+   "rev_dbg": [
+    7,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Aleksandr Shevchenko, 2023'te Cary'deki Challenger turnuvasında (Arşiv fotoğrafı)",
+    "kl": "Tenis"
    }
   },
   "trakia-sledstvie-tir-prepyatstvie-2026-11-12-b08": {
