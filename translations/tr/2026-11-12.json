@@ -1581,6 +1581,28 @@
     "img.alt": "Floyd Mayweather, 2011 (Arşiv fotoğrafı)"
    }
   },
+  "gemini-4-carbon-swarm-agenten": {
+   "L": {
+    "body": [
+     "Google, şimdiye kadarki en güçlü yapay zekâ modeli Gemini 4 Carbon'u Salı günü (10 Kasım) daha geniş kitlelerin erişimine açtı. Ekim sonunda modele yalnızca seçilmiş siber güvenlik uzmanları erişebiliyordu. Şimdi geliştiriciler modeli Google AI Studio ve Android Studio'daki ücretli Gemini API üzerinden, şirketler Gemini for Business aracılığıyla kullanabiliyor; Google AI Ultra aboneleri ise modele Gemini uygulamasında ve Google Arama'nın yapay zekâ modunda erişebiliyor. 30 Kasım'a kadar milyon giriş token'ı için 2 dolar, milyon çıkış token'ı için 10 dolar tutarında bir lansman fiyatı geçerli; ardından fiyat iki katına çıkarak sırasıyla 4 ve 20 dolara yükselecek.",
+     "Carbon'un zor görevler için, Google'ın günlük işlerin çoğu için tavsiye etmeyi sürdürdüğü daha hızlı Gemini 4 Argon'a kıyasla daha fazla zaman ayırdığı belirtiliyor. Google'a göre Carbon, CursorBench 4.0 gibi ajan ve programlama testlerinde önde. 375 görevden oluşan dahili bir dürüstlük testinde ise yüzde 92 oranında başarılı oldu (Argon: yüzde 70). Uzman site The Decoder, Carbon'un daha fazla token tükettiğine ve bu nedenle bir görevin toplamda daha pahalıya gelebileceğine dikkat çekiyor.",
+     "Google Antigravity geliştirme ortamında önizleme olarak /swarm işlevi kullanıma sunuluyor: Tek bir komut, çalışması canlı izlenebilen bir ajan ekibi oluşturuyor. Planlama, koordinasyon ve denetimi Carbon üstleniyor; daha hızlı modeller alt görevleri paralel olarak yerine getiriyor. Google'ın resmi videosu demolardan birini gösteriyor: Eyfel Kulesi'nin inşasına dair etkileşimli bir 3D sergi."
+    ],
+    "d": "Yalnızca siber savunmacılara açık geçen iki haftanın ardından Gemini 4 Carbon, ücretli geliştiricilere, şirketlere ve Ultra abonelerine sunuldu. Yeni /swarm komutu, tek komutla bir yapay zekâ ajanı ekibini başlatıyor.",
+    "t": "Komutla ajan sürüsü: Google en güçlü modeli Gemini 4 Carbon'u kullanıma açtı"
+   },
+   "at": "2026-11-12T12:47Z",
+   "h": "e40117dc1d2e",
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Google'ın Kaliforniya'nın Mountain View kentindeki merkezi Googleplex",
+    "kl": "Yeni model"
+   }
+  },
   "genf-juwelenauktionen-bulgari-pink-romanow-saphir-ergebnisse": {
    "L": {
     "body": [
@@ -3449,6 +3471,33 @@
    ],
    "x": {
     "img.alt": "Kevin Holland, haziran 2025'te UFC 316'daki galibiyetinin ardından (Arşiv fotoğrafı)"
+   }
+  },
+  "united-airlines-verbot-ki-agenten": {
+   "L": {
+    "body": [
+     "United Airlines çarşamba günü (11 Kasım) taşıma koşullarını değiştirdi: Yapay zekâ ajanları artık bilet alamayacak, değiştiremeyecek veya yönetemeyecek ve ek hizmet satın alamayacak. Simple Flying'e göre bu kural, yapay zekâ asistanlarını, bağımsız ajanları ve yapay zekâ tarayıcılarını kapsıyor; kural, havayolunun kendi internet sitesinde, uygulamada, seyahat acentelerinde ve rezervasyon platformlarında, yolcu işlemleri denetlese bile geçerli. United, yapay zekâ ile yapılan rezervasyonları önceden haber vermeden iptal edebilir.",
+     "Havayolu bu adımı güvenlikle gerekçelendiriyor: Giriş bilgilerini yabancı yapay zekâ araçlarına veren kişi verilerini riske atmış olur; ayrıca ajanlar istenmeyen satın alımlara, hesap değişikliklerine veya MileagePlus millerinin kullanılmasına yol açabilir. Bunun yanı sıra otomatik işlemler, ABD'li kurumlar FAA ve DOT'un düzenlemeleriyle çelişebilir; örneğin yolcuların bagajlarında yasaklı tehlikeli madde bulunmadığını onaylaması gereken check-in sırasında.",
+     "Fast Company'ye göre şimdiye kadar başka hiçbir büyük ABD havayolu böyle bir yasak getirmedi. Delta, yeterince kimlik doğrulaması yapmaları halinde yapay zekâ asistanlarının rezervasyon yapmasına izin veriyor; American ise bazı yapay zekâ araçlarının şimdiden bilet satın alabildiğini söyledi; yapay zekâ destekli rezervasyonlarda müşterilere gelecekte nasıl hizmet verileceğinin incelendiğini belirtti."
+    ],
+    "d": "ABD'li havayolu, yapay zekâ asistanlarının seyahat acenteleri üzerinden de olsa bilet almasını, değiştirmesini veya ek hizmet satın almasını yasaklıyor. United bu rezervasyonları uyarısız iptal edebilir.",
+    "t": "Yapay zekâ ajanlarına bilet yok: United Airlines otomatik uçuş rezervasyonlarını yasakladı"
+   },
+   "at": "2026-11-12T12:47Z",
+   "h": "37bf016881a3",
+   "rev": [
+    "Teaser: 'seyahat acenteleri üzerinden de' placed awkwardly after the semicolon; reworded for fluency",
+    "Body 1: 'Simple Flying'e göre' scope and the clumsy passive construction 'değişmediği belirtiliyor' were checked; the meaning is acceptable, but 'bile değişmediği' slightly alters the sense of 'selbst",
+    "Body 1: 'iptal edebiliyor' is a statement of fact; changed to 'iptal edebilir' to match the German 'kann'"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: United Airlines'a ait bir Boeing 787-8, Washington Dulles Havalimanı'na iniş yaklaşmasında",
+    "kl": "Kurallar"
    }
   },
   "video-herzklappe-kind-rekonstruktion-2026-11-12": {
