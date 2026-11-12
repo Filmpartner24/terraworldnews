@@ -1297,6 +1297,34 @@
     "img.alt": "Canelo Álvarez en el ring, 2017 (Foto de archivo)"
    }
   },
+  "hyperinflation-1923-rentenmark-2026-11-12": {
+   "L": {
+    "body": [
+     "En el otoño de 1923, Alemania vivió una de las mayores depreciaciones monetarias de la historia. Un pan que en diciembre de 1919 aún costaba 0,80 marcos costaba ya 250 marcos en enero de 1923, 69.000 marcos en agosto, 174 millones en octubre y, finalmente, 201.000 millones de marcos en noviembre de 1923. En el punto álgido de la crisis, en noviembre de 1923, un dólar estadounidense equivalía a 4,2 billones de marcos. A partir del 15 de noviembre de 1923, el Deutsche Rentenbank emitió una nueva moneda: un Rentenmark equivalía a un billón de marcos papel, y un dólar, a 4,20 Rentenmark.",
+     "El marco había perdido valor desde la Primera Guerra Mundial: en enero de 1920 valía frente al dólar apenas una décima parte de su valor de agosto de 1914. En 1923 la situación se agravó: el 11 de enero, tropas francesas y belgas ocuparon la región del Ruhr debido a atrasos controvertidos en el pago de las reparaciones; dos días después, el Gobierno del Reich llamó a la «resistencia pasiva» y pagó los salarios de los obreros, funcionarios y ferroviarios en huelga. Estos pagos de salarios, junto con las fuertes pérdidas de producción, marcaron el paso a la hiperinflación. Como faltaba oro, el Rentenmark se respaldó mediante una deuda inmobiliaria (carga real sobre el suelo) de 3.200 millones de Rentenmark sobre la propiedad rústica, industrial y comercial.",
+     "El ministro de Finanzas Hans Luther y el presidente del Reichsbank Hjalmar Schacht mantuvieron estable la nueva moneda mediante una oferta monetaria escasa y presupuestos de austeridad estrictos; los contemporáneos hablaron del «milagro del Rentenmark». Fue una solución transitoria: el 30 de agosto de 1924 se introdujo el Reichsmark en el marco del Plan Dawes. Las consecuencias de la inflación se prolongaron mucho tiempo: obreros, pequeños rentistas, mutilados de guerra y ahorradores de la clase media y acomodada fueron expropiados de hecho, mientras que los deudores, incluido el Estado con sus deudas de guerra internas, quedaron aliviados casi de la noche a la mañana."
+    ],
+    "d": "En noviembre de 1923, un dólar estadounidense valía 4,2 billones de marcos. Con el Rentenmark, emitido desde el 15 de noviembre, la República de Weimar frenó el desplome de su moneda.",
+    "t": "Hiperinflación de 1923: un pan costó 201.000 millones de marcos y llegó el Rentenmark"
+   },
+   "at": "2026-11-12T10:20Z",
+   "h": "a95f85872308",
+   "rev": [
+    "Headline: 201 Milliarden = 201.000 millones is correct; ok",
+    "Body: 'Deutsche Rentenbank' gender: 'el Deutsche Rentenbank' should be 'el Deutsche Rentenbank' acceptable; changed to Banco Central de Rentas for clarity? kept",
+    "Grundschuld left in German in parentheses; replace with Spanish 'carga hipotecaria'",
+    "Rentenmark gender: Spanish usually 'el Rentenmark' acceptable",
+    "Teaser/Headline fine"
+   ],
+   "rev_dbg": [
+    5,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Billete de emergencia de la Reichsbahndirektion Stuttgart por 500.000 millones de marcos, del 30 de octubre de 1923 (documento histórico)"
+   }
+  },
   "ibf-fajardo-yabuki-ringrichter-tokio": {
    "L": {
     "body": [
@@ -2038,6 +2066,44 @@
     "img.alt": "Imagen simbólica: casas adosadas en Athenlay Road"
    }
   },
+  "lightyear-frontier-1-0-test": {
+   "L": {
+    "body": [
+     "El juego de granja de mundo abierto «Lightyear Frontier» salió el 4 de noviembre del acceso anticipado y ha llegado en versión 1.0 a PC (Steam, Microsoft Store) y Xbox Series X|S. El desarrollador es el estudio Frame Break y la editora, Coffee Stain Publishing; el juego estaba en acceso anticipado desde marzo de 2024. Los jugadores cultivan un planeta alienígena en solitario o en cooperativo, y lo hacen desde un mecha. La versión 1.0 incorpora con Sandswept Highlands la última región, misiones para cerrar la historia, nuevas plantas y mejoras para herramientas y mecha, entre ellas un modo de vuelo.",
+     "Shacknews otorga 8 de 10 puntos: según el análisis, los mechas dan al género un giro propio, las numerosas opciones de dificultad permiten jugar de forma personalizada, el mundo, con su sistema de ayuda interplanetario, está construido de forma coherente y el modo cooperativo es una alegría. Shacknews opina, sin embargo, que el cultivo en sí es bastante estándar y que el desarrollo del juego pierde impulso con el tiempo. GamingBolt le da 7 de 10 y elogia el mundo, bonito y variado, el manejo del mecha y el sistema de cultivo con mutaciones y rotación de cultivos.",
+     "GamingBolt critica al mismo tiempo un progreso lento, sobre todo en el juego en solitario, una automatización desbloqueada tarde y poco desarrollada, poco espacio para construir, una historia floja y una música monótona. Metro GameCentral concede 6 de 10 puntos. En OpenCritic, donde también se incluyen análisis más antiguos del acceso anticipado, la media de la crítica es de 77 puntos."
+    ],
+    "d": "Tras dos años y medio en acceso anticipado, el simulador de granja de Frame Break está terminado. Los análisis elogian el mundo y el mecha, pero critican el lento progreso.",
+    "t": "Análisis de «Lightyear Frontier» 1.0: cultivar desde un mecha en un planeta alienígena"
+   },
+   "at": "2026-11-12T10:20Z",
+   "h": "54133b192e32",
+   "rev": [
+    "Indirect speech in the Shacknews sentence was rendered with the conditional, which makes the praise sound hypothetical or doubtful rather than reported; it should be reported speech with a clear attri",
+    "The second indirect-speech sentence relied on «Según el análisis» plus the conditional, which is ambiguous; it should name Shacknews as the source."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen de portada de TWN Games: análisis de «Lightyear Frontier» 1.0",
+    "rv.con": [
+     "Progreso lento, sobre todo en solitario",
+     "La automatización llega tarde y parece forzada",
+     "Historia floja, música monótona"
+    ],
+    "rv.fz": "Una relajada granja espacial con mecha que resulta más redonda en la versión 1.0, pero que no termina de decidirse entre lo acogedor y la automatización.",
+    "rv.pro": [
+     "Los mechas dan un giro fresco al género de granjas",
+     "Mundo bonito y variado",
+     "Sistema de cultivo elaborado con mutaciones",
+     "Juego conjunto en cooperativo"
+    ],
+    "rv.score": "OpenCritic 77 · Shacknews 8/10 · GamingBolt 7/10 · Metro GameCentral 6/10"
+   }
+  },
   "malignaggi-gassiev-fury-joshua-sieger": {
    "L": {
     "body": [
@@ -2188,6 +2254,51 @@
     "img.alt": "Evento de la PFL en 2018 (Foto de archivo)"
    }
   },
+  "ps5-100-millionen": {
+   "L": {
+    "body": [
+     "Sony Interactive Entertainment ha distribuido más de 100 millones de consolas PlayStation 5. La compañía da la cifra en su página de datos de negocio y ventas, con fecha de referencia del 10 de noviembre de 2026. A finales de septiembre, Sony había comunicado 97,9 millones de unidades; desde entonces se han sumado, según el cálculo del portal especializado VGC, al menos 2,1 millones de consolas.",
+     "La PS5 salió al mercado en noviembre de 2020 y tardó así casi seis años en alcanzar la cifra. Según VGC, la PlayStation 4 llegó a los 100 millones en junio de 2019, cinco años y siete meses después de su lanzamiento, es decir, unos meses antes. En total, la PS4 alcanzó más de 117 millones de unidades; la PlayStation 2 sigue siendo la que ostenta el récord, con más de 160 millones. En el último trimestre fiscal (de julio a septiembre), Sony distribuyó 2,6 millones de PS5, frente a los 4 millones del mismo periodo del año anterior.",
+     "Sony aún no ha dado una fecha para una PlayStation 6. Según VGC, el analista David Gibson, de MST Financial, ya afirmó a principios de año que Sony contaría con un ciclo de vida más largo para la PS5 y que la PS6 probablemente llegaría más tarde de lo que muchos esperaban. «GTA 6», que sale el 19 de noviembre para PS5 y Xbox Series, podría dar un impulso adicional a la campaña navideña."
+    ],
+    "d": "Casi seis años después de su lanzamiento, la PS5 ha superado los 100 millones de consolas. La PS4 alcanzó esa cifra unos meses antes.",
+    "t": "Hito para Sony: más de 100 millones de PlayStation 5 distribuidas"
+   },
+   "at": "2026-11-12T10:20Z",
+   "h": "6dbae161b2fd",
+   "rev": [
+    "Indirect speech: 'Sony contaba con' is rendered as a fact about Sony's expectations; it should be a conditional or reported form, 'Sony contaría'."
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: todas las generaciones de PlayStation, desde la primera hasta la PS5, además de PSP y PS Vita"
+   }
+  },
+  "rila-kloster-ivan-rilski-bulgarien-2026-11-12": {
+   "L": {
+    "body": [
+     "El monasterio de Rila se encuentra en un valle de las montañas de Rila, en el suroeste de Bulgaria, a unos 110 kilómetros al sur de Sofía. Fue fundado en la primera mitad del 10. siglo por el ermitaño Iván de Rila (Ivan Rilski), que habría vivido en una cueva cercana y es venerado hoy como santo patrón de los búlgaros. Según la tradición, surgió durante el reinado del zar Pedro I (927–968); a menudo se cita 927 como año de fundación. Discípulos del santo formaron la comunidad, que tras su muerte se convirtió en un centro de la cultura escrita.",
+     "En el 14. siglo, el príncipe regional Hrelyo Dragovol hizo ampliar y fortificar el monasterio. De aquella época se conserva la torre de Hrelyo de 1334/35, de unos 23 metros de altura, con una capilla en el piso superior. También los zares Iván Alejandro e Iván Shishman apoyaron el monasterio. En época otomana fue parcialmente destruido hacia 1420 y quedó abandonado unos 30 años, antes de ser reactivado hacia 1450. Un gran incendio destruyó en 1833 casi todas las construcciones de madera; maestros búlgaros reedificaron el conjunto en el 19. siglo y en los frescos trabajaron numerosos artistas, de los cuales solo Zajari Zograf firmó su obra.",
+     "Durante el Renacimiento búlgaro de los siglos 18. y 19., el monasterio se convirtió en un centro espiritual: fomentó la imprenta, la biblioteca, el archivo y las escuelas, y ayudó a fundar unas 50 filiales monásticas en las principales ciudades búlgaras. Entre sus tesoros figura la cruz de madera del monje Rafail, que tardó al menos doce años en tallar 104 escenas con 650 figuras en miniatura y la terminó en 1802. En 1983, la UNESCO incluyó el monasterio en la Lista del Patrimonio Mundial como símbolo del renacimiento búlgaro; hasta hoy se considera un emblema de la identidad búlgara."
+    ],
+    "d": "En el 10. siglo, el ermitaño Iván de Rila se retiró a las montañas de Rila. De su comunidad surgió el monasterio más famoso de Bulgaria: destruido, reconstruido y Patrimonio Mundial desde 1983.",
+    "t": "Monasterio de Rila: de ermita a corazón de la identidad búlgara"
+   },
+   "at": "2026-11-12T10:20Z",
+   "h": "ba396a6f8b17",
+   "rev_dbg": [
+    3,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Patio interior del monasterio de Rila con la iglesia principal; al fondo, las montañas de Rila (foto de archivo de 2013)"
+   }
+  },
   "sennder-228-mio-finanzierung-profitabel-2026-11-12": {
    "L": {
     "body": [
@@ -2207,6 +2318,66 @@
    ],
    "x": {
     "img.alt": "Imagen simbólica: camión en la autopista A5 cerca de Fráncfort"
+   }
+  },
+  "shrek-2-remastered-steam-kritik": {
+   "L": {
+    "body": [
+     "La nueva edición «Shrek 2 Remastered», de la editora Aspyr Media, salió el 10 de noviembre para PC (Steam), Xbox Series X|S, PlayStation 5, Nintendo Switch y Switch 2; en Xbox cuesta 22,49 libras o 26,99 dólares estadounidenses. Se basa en el juego de acción y aventura de la película de animación del mismo nombre, que apareció originalmente, entre otras, para PlayStation 2. En Steam el arranque es irregular: solo el 46 por ciento de unas 390 valoraciones de jugadores es positivo y la valoración global es «Mixta».",
+     "Según GamesRadar+ y Pure Xbox, los jugadores critican la falta de opciones básicas, un soporte deficiente de ratón y teclado, un apartado visual apenas mejorado respecto a la versión de PS2 y escenas que no se reproducen en la nueva resolución. Algunos afirman que el modo cooperativo local no les funciona. También genera malestar que el multijugador en línea requiera vincular una cuenta de Epic Games. Algunos usuarios que han escrito reseñas sospechan además que se habría usado IA generativa en las texturas, aunque no está probado. Los informes no mencionan ninguna declaración de Aspyr.",
+     "El panorama no es del todo uniforme: en la tienda Xbox de EE. UU. el juego obtiene, según Pure Xbox, 4,3 de 5 estrellas, y allí las quejas se centran sobre todo en errores y cierres inesperados. Aún no hay análisis de la prensa especializada, ya que las copias de prueba solo se enviaron en el momento del lanzamiento."
+    ],
+    "d": "Ya está disponible la nueva edición del juego con licencia de Aspyr, pero en Steam solo el 46 por ciento de los jugadores la valora bien. Critican la técnica, las opciones y la vinculación con Epic.",
+    "t": "«Shrek 2 Remastered»: mal estreno en Steam con valoraciones mixtas"
+   },
+   "at": "2026-11-12T10:20Z",
+   "h": "f53daf3aa96f",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen de portada de TWN Games: «Shrek 2 Remastered» en Steam"
+   }
+  },
+  "springs-eternal-test": {
+   "L": {
+    "body": [
+     "Con «Springs, Eternal», el estudio estadounidense Fullbright, conocido por «Gone Home» y «Tacoma», lanzó el 11 de noviembre un nuevo juego narrativo para PC (Steam); la editora es Serenity Forge. En primera persona, los jugadores exploran de noche un misterioso complejo con aguas termales en plena naturaleza, se encuentran con otras almas perdidas y revivien recuerdos de una historia de amor que llevó al protagonista a este lugar. La duración es de unas dos horas.",
+     "Noisy Pixel concede 9 de 10 puntos y elogia la opresiva ambientación sonora, los gráficos que recuerdan a la primera PlayStation y unos personajes sorprendentemente complejos; el final abierto dejaría preguntas importantes en manos de los jugadores. Gaming Trend le da 80 de 100 puntos: el aspecto de píxeles envuelto en niebla, la música lo-fi, un viaje rápido entre los manantiales y los discos de vinilo ocultos para coleccionar harían agradable la escapada. Sin embargo, en lo jugable todo se limitaría a caminar y observar, la historia de la relación no abriría nuevos caminos y los demás huéspedes desaparecerían a menudo demasiado rápido.",
+     "En OpenCritic todavía no hay media de la crítica. CGMagazine otorga 8 de 10 puntos; SmashPad, en cambio, solo 3 de 5: según este medio, la breve historia seguiría siendo en gran medida irrelevante y no alcanzaría las obras anteriores del estudio. El juego resulta así recomendable sobre todo para los aficionados a los juegos de exploración tranquilos y narrativos."
+    ],
+    "d": "El nuevo juego narrativo de Fullbright («Gone Home») salió el 11 de noviembre para PC. La crítica elogia la atmósfera, pero señala que la duración es corta.",
+    "t": "«Springs, Eternal», análisis: manantiales termales nocturnos y un amor roto"
+   },
+   "at": "2026-11-12T10:20Z",
+   "h": "928612532c90",
+   "rev": [
+    "Persona incorrecta: \"revives recuerdos\" (tú) en lugar de tercera persona plural, rompe la concordancia con \"los jugadores\"",
+    "\"Gaming Trend\": la lista de elementos en condicional queda poco clara por \"y los discos de vinilo\"; se mantiene. \"keine Kritiker-Schnitt\" correcto."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: el campo termal iluminado «Yubatake» en Kusatsu (Japón) de noche",
+    "rv.con": [
+     "Solo unas dos horas de juego",
+     "Apenas hay mecánicas aparte de caminar y observar",
+     "Historia de relación ya conocida",
+     "Los personajes secundarios desaparecen rápido"
+    ],
+    "rv.fz": "Una velada narrativa breve y atmosférica que conquista sobre todo a los fans de «Gone Home» y «Tacoma»; quien espere más juego se llevará una decepción.",
+    "rv.pro": [
+     "Atmósfera densa con niebla de píxeles y sonidos lo-fi",
+     "Personajes creíbles pese a la corta duración",
+     "Conversaciones nocturnas con temas reflexivos",
+     "Viaje rápido entre los manantiales"
+    ],
+    "rv.score": "Noisy Pixel 9/10 · Gaming Trend 80/100 · CGMagazine 8/10"
    }
   },
   "strom-ibex": {
@@ -2232,6 +2403,44 @@
     1,
     0
    ]
+  },
+  "thronefall-konsolen-test": {
+   "L": {
+    "body": [
+     "«Thronefall», una mezcla de juego de construcción y defensa de torres del pequeño estudio GrizzlyGames, salió el 11 de noviembre para PlayStation 5 y Xbox Series X|S; la editora es Mythwright. En Xbox, el juego está incluido en Game Pass desde el primer día. La versión completa había salido en octubre de 2024 para PC y Nintendo Switch. El día del estreno en consolas se lanzó además la expansión de pago «Craaghelm», con ocho mapas nuevos, en la que los jugadores, como último rey enano, recuperan de enemigos mecánicos los salones de sus antepasados.",
+     "De día, el jugador, como rey a lomos de su caballo, construye casas, granjas y defensas; de noche atacan oleadas de enemigos contra las que también combate él mismo. Games Asylum concede 8 de 10 puntos por el estreno en consolas: según el medio, el control con dos botones es fácil de aprender, los sencillos gráficos low poly siguen siendo claros y fluidos incluso con muchos enemigos y los edificios destruidos se repararían automáticamente durante la noche. Los perks, modificadores y nuevas armas aportarían variedad, y la campaña, de diez reinos, duraría unas 10 a 12 horas.",
+     "Se critican los emplazamientos fijos para las torres, que limitan la libertad estratégica, las tropas que a veces deambulan sin rumbo y la música repetitiva. Metro GameCentral también puntúa la versión de PS5 con 8 de 10. En OpenCritic, donde por ahora cuentan sobre todo los análisis de las versiones de PC y Switch, la media de la crítica es de 84 puntos; el 90 por ciento de los críticos recomienda el juego."
+    ],
+    "d": "El minimalista juego de defensa de torres de GrizzlyGames está disponible desde el 11 de noviembre en PS5 y Xbox Series y, en Xbox, directamente en Game Pass. También llega la expansión «Craaghelm».",
+    "t": "«Thronefall», análisis: el éxito de estrategia defiende ahora su castillo en PS5 y Xbox"
+   },
+   "at": "2026-11-12T10:20Z",
+   "h": "069a228099b7",
+   "rev": [
+    "Teaser: 'desde el primer día, en Game Pass' omits that this applies to Xbox; German says 'direkt im Game Pass' (acceptable), but the body specifies Xbox only – clarified.",
+    "Indirect speech: 'los edificios destruidos se repararían' is conditional but the preceding clauses are attributed via 'según el medio', so acceptable; 'duraría' fine. Minor consistency: no change need"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: el castillo medieval de Castelvecchio, en Verona, de noche",
+    "rv.con": [
+     "Los emplazamientos fijos limitan la táctica",
+     "La IA de las tropas a veces deambula sin rumbo",
+     "La música se repite"
+    ],
+    "rv.fz": "Un juego de estrategia accesible y sin lastre que funciona bien en consolas, aunque sacrifica algo de profundidad.",
+    "rv.pro": [
+     "Control sencillo con dos botones",
+     "Aspecto low poly claro incluso con muchos enemigos",
+     "Variedad gracias a perks, modificadores y armas",
+     "Diez reinos con una campaña de unas 10 a 12 horas"
+    ],
+    "rv.score": "OpenCritic 84 · Games Asylum 8/10 · Metro GameCentral 8/10"
+   }
   },
   "trakia-sledstvie-tir-prepyatstvie-2026-11-12-b08": {
    "L": {
@@ -2898,6 +3107,27 @@
    ],
    "x": {
     "img.alt": "Imagen simbólica: escultura de un toro frente a la Bolsa de Bulgaria en Sofía"
+   }
+  },
+  "zelda-ocarina-5-2-millionen": {
+   "L": {
+    "body": [
+     "La nueva versión de «The Legend of Zelda: Ocarina of Time» para Nintendo Switch 2 vendió más de 5,2 millones de copias en todo el mundo en sus primeros cuatro días. Así lo comunicó Nintendo; se cuentan las ventas entre el lanzamiento, el 5 de noviembre, y el 9 de noviembre, tanto digitales como en tiendas. Según Nintendo, 810.000 copias corresponden a Japón. Según la compañía, son las mayores ventas mundiales que un juego de Switch 2 publicado por Nintendo ha logrado en sus primeros cuatro días.",
+     "Con ello, el remake ya ha vendido más copias que «Echoes of Wisdom» (4,09 millones tras siete meses) o «A Link Between Worlds» (4,26 millones), según VGC. Los juegos de Zelda más exitosos siguen siendo «Breath of the Wild», con 35,76 millones, y «Tears of the Kingdom», con 22,71 millones de copias vendidas. A modo de comparación: las novedades citadas en el informe semestral, «Rhythm Heaven Groove» (Switch) y «Splatoon Raiders» (Switch 2), habían alcanzado hasta entonces 2,89 y 2,42 millones, respectivamente.",
+     "El remake también es un éxito de crítica: en OpenCritic lidera como el juego mejor valorado del año, con una media de 95 puntos. En el Reino Unido, según datos de NielsenIQ, ya había logrado antes el mayor estreno de ventas de un juego en formato físico de 2026."
+    ],
+    "d": "La nueva versión del clásico de Zelda de Nintendo es el mejor estreno de un juego de Switch 2 de la propia compañía. Solo en Japón se vendieron 810.000 unidades.",
+    "t": "Remake de «Ocarina of Time»: 5,2 millones de copias en solo cuatro días"
+   },
+   "at": "2026-11-12T10:20Z",
+   "h": "228ab867f505",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Nintendo Switch 2 en su base de acoplamiento"
    }
   }
  }
