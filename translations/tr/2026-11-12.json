@@ -132,6 +132,27 @@
     "kl": "Araştırma"
    }
   },
+  "amd-epyc-venice-zen6-marktstart-2026-11-12-b15": {
+   "L": {
+    "body": [
+     "AMD, “Venice” kod adlı Epyc serisi sunucu işlemcilerinin altıncı neslini resmen piyasaya sürdü. Şirketin açıklamasına göre SP7 soketli yeni çiplere sahip sistemler bu haftadan itibaren büyük sunucu üreticileri tarafından teslim ediliyor. AMD, yeni Zen 6 mimarisine sahip işlemcileri Temmuz ayında tanıtmıştı. En üst model Epyc 9996, 512 iş parçacığıyla 256 çekirdeği bir araya getiriyor, TSMC'de 2 nanometre sürecinde üretiliyor ve 1.024 megabayt L3 önbellek sunuyor.",
+     "Şirket, çipleri açıkça yapay zekâ veri merkezlerine ve sözde yapay zekâ ajanlarına yönelik konumlandırıyor. Şirketin kendi açıklamalarına göre en üst model, Nvidia'nın Vera işlemcisine sahip bir sisteme kıyasla 3,7 kata kadar, Intel'in Xeon 6980P işlemcisine kıyasla 2,2 kata kadar daha hızlı; bu değerler AMD'nin ölçümlerinden ve tahminlerinden oluşuyor ve bağımsız olarak doğrulanmış değil. Epyc 9996'nın liste fiyatı 14.904 dolar ve böylece 64 çekirdek daha az olan selefiyle yaklaşık aynı düzeyde. Serinin sekiz çekirdekli en küçük modeli, yayımlanan fiyat listesine göre 700 dolar.",
+     "AMD, büyük müşteri olarak sistemleri geniş çaplı kullanım için inceleyen Facebook'un ana şirketi Meta'yı gösteriyor. Microsoft, bulut hizmeti Azure'da Zen 6'lı sanal makinelerin önizlemesini sunuyor, Oracle ise Venice tabanlı bulut örneklerini şimdiden işletiyor. Diğer varyantların 2027'de gelmesi planlanıyor: yılın ilk yarısında daha küçük SP8 soketi için işlemciler, ikinci yarısında ise yüksek performanslı hesaplama için ek yığılmış önbelleğe sahip bir sürüm."
+    ],
+    "d": "AMD'nin altıncı nesil Epyc'i piyasada: En üst model, TSMC'nin 2 nanometre üretiminden 256 çekirdek sunuyor. Meta, Microsoft ve Oracle çipleri şimdiden kullanıyor ya da test ediyor.",
+    "t": "Veri merkezleri için Zen 6: AMD 256 çekirdekli Epyc “Venice” işlemcisini sevk ediyor"
+   },
+   "at": "2026-11-12T14:05Z",
+   "h": "debe91f20a35",
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "TERRA WORLD NEWS başlık görseli"
+   }
+  },
   "american-barrick-gold-boersengang-nyse-2026-11-12": {
    "L": {
     "body": [
@@ -241,6 +262,38 @@
    ],
    "x": {
     "img.alt": "Berlin Eyalet Meclisi'nin genel kurul salonu (Arşiv fotoğrafı)",
+    "kl": "Berlin"
+   }
+  },
+  "berlin-prozess-messerangriff-neukoelln-bushaltestelle-2026-11-12-b15": {
+   "L": {
+    "body": [
+     "Berlin'de perşembe günü, Neukölln'deki Sonnenallee'de bulunan bir otobüs durağındaki bıçaklı saldırı nedeniyle 36 yaşındaki bir sanığa yönelik dava başladı. İddianameye göre sanık, 14 Mayıs'ın erken saatlerinde 33 yaşındaki bir erkekten sigara istediği öne sürülüyor. Erkek bunu reddedip otobüse binmek isteyince sanığın onu arkadan boynuna bıçakladığı iddia ediliyor. Mağdur, omuriliğinde yaşamı tehdit eden yaralanmalar aldı ve yalnızca acil bir ameliyat sayesinde hayatta kaldı.",
+     "Saatler sonra sanığın, bir otobüste, istediği on euro yerine kendisine yalnızca iki euro veren bir kadını çakıyla tehdit ettiği öne sürülüyor. Otobüs şoförü polisi aradı, polis de şüpheliyi gözaltına aldı. Savcılık sanığı, diğer suçlamaların yanı sıra kasten öldürmeye teşebbüs ve özellikle ağır yağma amaçlı gasp ile suçluyor. Sanık, avukatı tarafından okunan bir açıklamada bıçaklamayı kabul etti: “Ona zarar vermek istemedim.”",
+     "Psikiyatrik bir bilirkişi raporuna göre sanık ruhsal bir hastalığa sahip; savcılığın değerlendirmesine göre her iki eylemi işlediği sırada da ceza ehliyeti bulunmuyor olabilirdi. Mahkeme bu görüşü benimserse, hapis cezası yerine psikiyatri kliniğine yerleştirilmesi söz konusu olabilir. Dava pazartesi günü ilk tanıklarla sürecek; her iki otobüse ait video kayıtları da mevcut."
+    ],
+    "d": "36 yaşındaki bir sanık, mayıs ayında Neukölln'de bir otobüs durağında bir erkeği bıçakladığı iddiasıyla kasten öldürmeye teşebbüsten yargılanıyor. Bıçaklamayı kabul etti, öldürme kastını kabul etmedi.",
+    "t": "Sigara yüzünden bıçaklama: Neukölln'deki otobüs durağı saldırısının davası başladı"
+   },
+   "at": "2026-11-12T14:05Z",
+   "h": "70df575a9d65",
+   "rev": [
+    "'versuchten Mordes' rendered as 'kasten öldürmeye teşebbüs'; in Turkish law the equivalent of Mord is 'nitelikli kasten öldürme', and the German 'Mord' should be kept distinct, but this is an acceptab",
+    "Hedge lost: 'soll ... gebeten haben' stated as plain fact (sanık sigara istedi)",
+    "Mood error: 'könnte schuldunfähig gewesen sein' rendered as 'ceza ehliyeti bulunmuyor olabilir' (should refer to the past)",
+    "'droht ... Unterbringung' rendered as 'gündeme gelecek', which loses the conditional and sounds certain",
+    "Headline: 'Neukölln'deki otobüs durağındaki' is awkward",
+    "Teaser: 'er soll ... niedergestochen haben' fine; 'steht ... vor Gericht' fine",
+    "'Der Prozess ... begonnen' rendered awkwardly: 'sanığa yönelik dava başladı' is acceptable",
+    "Wrong register: 'muzdarip' is overly literary"
+   ],
+   "rev_dbg": [
+    8,
+    6,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin'deki Moabit Ceza Mahkemesi (Sembolik fotoğraf)",
     "kl": "Berlin"
    }
   },
@@ -629,6 +682,35 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Altın Kumsal tatil beldesinde bir otel, 2008"
+   }
+  },
+  "bundestag-beschliesst-kita-gesetz-sprachtests-2026-11-12-b15": {
+   "L": {
+    "body": [
+     "Bundestag perşembe günü “Startchancen- ve Kalite Geliştirme Yasası” olarak adlandırılan kreş yasasını kabul etti. İsim okunarak yapılan oylamada 458 milletvekili evet, 132 milletvekili hayır oyu verdi, bir kişi çekimser kaldı. Yasa, çocukların dil ve gelişim durumunun en geç beş yaşından itibaren zorunlu olarak ve ülke genelinde tek tip standartlara göre saptanmasını öngörüyor. Destek ihtiyacı olan çocuklara böylece okula başlamadan önce hedefli destek verilmesi planlanıyor.",
+     "Ayrıca ilk kez ülke genelinde çocuk bakımı için bağlayıcı kalite standartları geçerli olacak. Zor yaşam koşullarındaki çok sayıda çocuğa sahip kreşlere, okullar için uygulanan Startchancen programı örnek alınarak ek destek verilmesi öngörülüyor. Federal hükümet, 2034'e kadar eyaletlere yaklaşık dokuz milyar avro destek vermek istiyor. Federal Eğitim Bakanı Karin Prien (CDU), yasayı bu yasama döneminin eğitim politikasındaki en önemli yön belirleyici adım olarak nitelendirdi. CDU'lu eğitim politikacısı Michael Hose ise şöyle dedi: “Artık hiçbir çocuk gözden kaçmamalı.”",
+     "Eleştiriler muhalefetten ve eyaletlerden geliyor. Yeşiller yasayı “umutsuz derecede yetersiz finanse edilen” olarak değerlendiriyor, Sol Parti ise testlerin çocukları sınıflandıracağını savunuyor. Eğitim eyaletlerin yetki alanında olduğundan yasanın ayrıca Bundesrat tarafından onaylanması gerekiyor; Saksonya Kültür Bakanı Conrad Clemens (CDU) arabuluculuk komitesine başvurmakla şimdiden tehdit etti. Medya haberlerine göre bu adımın atılması muhtemel görülüyor."
+    ],
+    "d": "Bundestag, kreş yasasını 458 evet oyuyla kabul etti. Çocukların dil ve gelişim durumu okula başlamadan önce ülke genelinde tek tip ölçütlerle saptanacak. Eyaletler daha fazla para talep ediyor.",
+    "t": "Bundestag dil testli kreş yasasını kabul etti – sıra şimdi Bundesrat'ta"
+   },
+   "at": "2026-11-12T14:05Z",
+   "h": "408f09dc3812",
+   "rev": [
+    "Untranslated German word \"Qualitätsentwicklungsgesetz\" in the law's name; the name should be translated into Turkish",
+    "\"Kein Kind darf mehr durchs Raster fallen\" is rendered as \"sistemin dışında kalmamalı\"; the idiom is better rendered as \"gözden kaçmamalı\"",
+    "\"Die Grünen halten ... für hoffnungslos unterfinanziert\": \"umutsuzca yetersiz finanse edilmiş\" is unnatural",
+    "\"Kultusminister\" rendered as \"Kültür Bakanı\"; Saxony's state minister is better called Kültür Bakanı, but \"Saksonya Eyaleti\" is unnatural, so \"Saksonya\" suffices",
+    "\"drohte bereits mit\" is better rendered as \"şimdiden ... tehdidinde bulundu\"",
+    "The sentence about \"Medienberichten\" is correct but the \"Bundesbildungsministerin\" title is better as \"Federal Eğitim Bakanı\", which is fine; the sentence on the Bundestag vote lacks the 'Bundestag' c"
+   ],
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Çocuklar bir kreşin bahçesinde oynuyor (Sembolik fotoğraf)"
    }
   },
   "bundestag-sprachtests-vierjaehrige-kita-gesetz-2026-11-12-b08": {
@@ -1634,6 +1716,32 @@
     "kl": "Formula 1"
    }
   },
+  "f16-technologietransfer-stoyanov-2026-11-12-b15": {
+   "L": {
+    "body": [
+     "Bulgaristan Savunma Bakanı Dimitar Stoyanov perşembe günü, F-16 savaş uçaklarının alımından kaynaklanan teknoloji transferine ilişkin hayal kırıklığı yaratan bir bilanço çıkardı. ABD ve Lockheed Martin ile 2019'da imzalanan sözleşme, tutarın yaklaşık yüzde 10'una, yani yaklaşık 120 milyon dolara denk gelen bir sanayi iş birliğini öngörüyordu. Stoyanov, Sofya'daki Ulusal ve Dünya Ekonomisi Üniversitesi'nde savunmada teknoloji transferi ve inovasyon konulu bir yuvarlak masada, planlanan altı projeden yalnızca birinin hayata geçirildiğini söyledi. Stoyanov'a göre bu sonuç, teknoloji transferinin nasıl yapılmaması gerektiğine dair olumsuz bir örnek oluşturuyor. BGNES ajansının aktardığına göre Stoyanov, “Боли ме страшно много за тези 120 милиона долара” (“Bu 120 milyon dolar beni çok acıtıyor”) dedi.",
+     "Mediapool'un aktardığına göre kalan beş proje, özellikle devlete ait Avionams fabrikasında, gözden geçirilmiş biçimde hayata geçirilecek. Stoyanov, Bulgaristan tarafında da hatalar yapıldığını kabul etti ve açık bir tartışma çağrısı yaptı. ABD'den alınan ve Veliko Tarnovo'daki Terem askeri fabrikasında monte edilen zırhlı Stryker araçlarında ise işlerin daha iyi gittiğini söyledi. Bulgaristan'ın, komşu ülkeler için de olmak üzere, bu araçlar için bölgesel bir bakım merkezi olmak istediği belirtildi.",
+     "Savunma bütçesi taslağı, gelecek yıl için araştırma ve geliştirmeye 5 milyon avro öngörüyor; Stoyanov'a göre bir iki yıl önce bu tutar yalnızca yaklaşık 70.000 avroydu. Stoyanov, paranın yalnızca bir ya da iki projeye yeteceğini, bu nedenle net önceliklere ihtiyaç olduğunu söyledi; umut verici alan olarak drone savunmasını gösterdi. Bakan, Bulgar şirketlerinin tedarik zincirlerinin parçası olması gerektiğini, yalnızca seyirci kalmaması gerektiğini söyledi."
+    ],
+    "d": "Savunma Bakanı Stoyanov'a göre 2019'daki F-16 alımına bağlı sanayi iş birliğinde (yaklaşık 120 milyon dolar) şimdiye dek yalnızca bir proje tamamlandı. 2027'de savunma araştırmasına 5 milyon avro ayrılması öngörülüyor.",
+    "t": "F-16 anlaşması: 6 teknoloji projesinden yalnızca biri hayata geçti, bakan hata kabul etti"
+   },
+   "at": "2026-11-12T14:05Z",
+   "h": "b49dea9066f3",
+   "rev": [
+    "Teaser: \"2027'de\" is written as a plain fact; the German says \"sollen ... fließen\" (planned), and it is not the same as \"ayrılacak\" – softened to \"ayrılması öngörülüyor\"",
+    "Body 1, first sentence: \"sonuçların hayal kırıklığı yarattığını\" is a loose rendering of \"ernüchternde Bilanz gezogen\"; it should state that he drew a sobering balance sheet",
+    "Body 3: \"Bulgaristan şirketleri\" should be \"Bulgar şirketleri\" (natural usage)"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "F-16 Block 70 savaş uçağı (Sembolik fotoğraf)"
+   }
+  },
   "fiba-wuerzburg-larnaka-chemnitz-ulm-2026-11-12": {
    "L": {
     "body": [
@@ -2416,6 +2524,34 @@
     "img.alt": "Sembolik fotoğraf: Şili'deki Atacama Çölü'nde Copiapoa dealbata kaktüsü, 2011"
    }
   },
+  "klopp-ballers-in-god-dfb-stellungnahme-2026-11-12-b15": {
+   "L": {
+    "body": [
+     "Alman Futbol Federasyonu (DFB), milli takım teknik direktörü Jürgen Klopp'un açıklamalarının evanjelik “Ballers in God” ağı tarafından kullanılmasına karşı çıktı. Federasyon, perşembe günü talep üzerine yaptığı açıklamada, paylaşımların “Klopp'un hiçbir onayı ve bilgisi olmadan” yayımlandığını bildirdi. Haberi ilk olarak RTL ve Sky yayımlamıştı. Ağ, sosyal medya kanallarında Klopp'un FC Liverpool dönemine ait açıklamalarını paylaşmıştı; bunların arasında Klopp'un DFB'deki göreve başlaması sırasında, fotoğrafının ve Hristiyan inancına ilişkin bir sözünün yer aldığı bir Instagram paylaşımı da vardı.",
+     "Arka planda milli oyuncu Felix Nmecha etrafındaki tartışma yer alıyor. Dortmund'lu oyuncu, üyelerinin homofobik ve queer karşıtı açıklamaları nedeniyle eleştirilen ağın üyesi. Nmecha, BVB'nin SV Elversberg'i 2-1 yendiği maçta, kendi sözleriyle İsa'ya ve Tanrı'ya bağlılığını ifade ettiği “taç sevinci” olarak anılan hareketi yine yaptı; ağ da aynı hareketi kullanıyor. Nmecha, pazartesi günü Herzogenaurach'taki takım kampında Klopp ve spor direktörü Rudi Völler ile görüşmesinin ardından bu açıklamalardan uzak durdu, ancak inancını yineledi.",
+     "Medya organları, BVB'nin Nmecha'ya bu sevinci yasakladığını bildirmişti; DFB, kendi ifadesine göre böyle bir yasaktan haberdar değil. Klopp kendisini birçok kez inançlı bir Hristiyan olarak tanımladı, ancak haberlere göre belirli bir inanç topluluğuna bağlı değil. Milli takım cuma günü saat 20.45'te (RTL) Belgrad'da Sırbistan ile oynayacak. Uluslar Ligi'nde grubun sondan bir önceki maçında, Hollanda ve Yunanistan'ın gerisinde üçüncü sırada yer alan Almanya için grubun son sırasındaki rakibe karşı galibiyet özellikle önemli."
+    ],
+    "d": "Belgrad maçından bir gün önce DFB, milli takım teknik direktörünü savunmak zorunda kaldı: Felix Nmecha'nın da üyesi olduğu evanjelik ağ, Jürgen Klopp'un eski inanç açıklamalarıyla tanıtım yaptı.",
+    "t": "DFB açıkladı: “Ballers in God” ağı Klopp'un sözlerini haberi olmadan kullandı"
+   },
+   "at": "2026-11-12T14:05Z",
+   "h": "fd69cd9705c7",
+   "rev": [
+    "Weekdays 'Perşembe', 'Pazartesi', 'Cuma' wrongly capitalised (TDK: lowercase mid-sentence)",
+    "Clumsy translation 'haberi olmadan ve haberi olmadan' wording: 'hiçbir onayı olmadan' misses 'jedes Einverständnis' nuance; 'Klopp'un bilgisi olmadan' more natural",
+    "'Medyada ... haberleri çıkmıştı' loses reported-speech clarity; fix to explicit attribution",
+    "Headline 'ağı' fine; 'göreve başlaması dolayında' unnatural",
+    "Missing 'Almanya' not in German: Nationalmannschaft is Tabellendritter – acceptable; 'nach Angaben der Berichte' rendered ok"
+   ],
+   "rev_dbg": [
+    5,
+    6,
+    0
+   ],
+   "x": {
+    "img.alt": "TERRA WORLD NEWS kapak görseli"
+   }
+  },
   "kultur-christmas-eve-busk-dublin-hansard-2026-11-12": {
    "L": {
     "body": [
@@ -3096,6 +3232,32 @@
     "img.alt": "Mannheim şehir merkezinden bir görünüm (arşiv fotoğrafı)"
    }
   },
+  "mbappe-fehlt-italien-frankreich-san-siro-2026-11-12-b15": {
+   "L": {
+    "body": [
+     "Fransa, perşembe akşamı (20.45) Milano'daki San Siro'da kaptan Kylian Mbappé olmadan İtalya ile karşılaşacak. Milli takım teknik direktörü Zinédine Zidane maç arifesinde “Hayır, Mbappé yarın oynamayacak” dedi. Zidane, “Sakat, bu yüzden onu riske atmayacağız” diye konuştu. Zidane, forvet oyuncusunun pazar günü Türkiye ile oynanacak son grup maçına yetişip yetişmeyeceğini açık bıraktı: “Bir sonraki maça kadar toparlanıp toparlanamayacağını göreceğiz.” Mbappé çarşamba günü antrenmana çıkmamıştı; Fransız gazetesi L'Équipe arka uyluk sorunları yaşadığını bildirdi, sakatlığın türü resmen doğrulanmış değil.",
+     "Zidane için böylece uzun bir eksik listesi devam ediyor. Football Italia'nın bildirdiğine göre Fransa'da ayrıca Marcus Thuram, William Saliba, Jules Koundé, Ousmane Dembélé ve Manu Koné de yok. Fransa A1 grubunu on puanla önde götürüyor, yedi puanlı İtalya ikinci, altı puanlı Belçika üçüncü sırada yer alıyor. Çeyrek finaldeki iki yer için dolayısıyla her şey hâlâ açık.",
+     "İtalya teknik direktörü Roberto Mancini de kadroda değişiklik yapmak zorunda: Al Jazeera'ya göre defans oyuncusu Gianluca Mancini kas sakatlığı nedeniyle oynayamayacak, yerine Federico Gatti kadroya çağrıldı. Aynı habere göre Giovanni Di Lorenzo, Giacomo Raspadori ve Moise Kean de yok. Pazar günü oynanacak son maç gününde İtalya Brüksel'de Belçika ile oynayacak, Fransa ise Türkiye'yi konuk edecek."
+    ],
+    "d": "Fransa bu akşam San Siro'da Kylian Mbappé olmadan sahaya çıkacak. Milli takım teknik direktörü Zinédine Zidane, Uluslar Ligi maçı öncesinde “Sakat, bu yüzden onu riske atmayacağız” dedi.",
+    "t": "Zirve maçında Mbappé yok: Zidane kaptanını İtalya karşısında dinlendiriyor"
+   },
+   "at": "2026-11-12T14:05Z",
+   "h": "c7d5f17f116b",
+   "rev": [
+    "Standings garbled: German says Italy has seven points ahead of Belgium with six; the Turkish wording 'yedi puanlı İtalya'yı altı puanlı Belçika izliyor' is ambiguous and omits the point that Italy is ",
+    "Zidane mentioned 'am Vorabend' – fine; 'Zidane, forvet oyuncusunun ... sorusunu açık bıraktı' is awkward, as it should be that he left open whether the striker will be fit.",
+    "L'Équipe report: 'söz etti' loses 'berichtete von Problemen'; made more explicit as a report."
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Kylian Mbappé (Arşiv fotoğrafı)"
+   }
+  },
   "nba-spurs-zehnter-sieg-comeback-bulls-2026-11-12": {
    "L": {
     "body": [
@@ -3579,6 +3741,27 @@
     0
    ]
   },
+  "stromsteuer-union-streit-koalitionsausschuss-2026-11-12-b15": {
+   "L": {
+    "body": [
+     "2027 bütçe uzlaşılarının ardından Birlik'te huzursuzluk büyüyor. Herkes için vaat edilen elektrik vergisi indirimi bütçede şimdiye kadar yer almıyor. Şansölyenin çevresine dayandığını belirten „Bild“ gazetesine göre Friedrich Merz (CDU), bu rahatlatma önlemini salı günü yapılacak bir sonraki koalisyon komitesi toplantısında yine de hayata geçirmek istiyor. Elektrik vergisi şu anda kilovatsaat başına 2,05 sent düzeyinde; Merz, vergiyi AB'nin asgari düzeyi olan 0,1 sente indirmek istiyor, bunun yıllık maliyeti yaklaşık beş milyar avro.",
+     "Tagesspiegel'in bilgilerine göre Birlik grubu çarşamba akşamı yaklaşık üç saat toplandı. CDU'lu maliye politikacısı Mathias Middelberg, Deutschlandfunk'ta toplantıda „epey gürültü koptuğunu“ doğruladı. „Bild“e göre 30'dan fazla milletvekili eleştirel görüş bildirdi; CDU Genel Sekreteri Franziska Hoppermann aynı gazetede „Bu sözün artık ne değeri var?“ diye sordu. Habere göre on ikiden fazla Birlik milletvekili şeker vergisine onay vermek istemiyor.",
+     "SPD suçlamaları reddediyor. Grup başkanı Matthias Miersch, indirimin şimdilik finanse edilemeyeceğini söyledi. Maliye Bakanı Lars Klingbeil (SPD) 2027 bütçesinde hareket alanı görmüyor, ancak Birlik karşı finansman önerileri sunarsa açık olduğunu gösteriyor. Ekonomi örgütleri de hükümetin güvenilirlik kaybı konusunda uyardı."
+    ],
+    "d": "Birlik grubunun gergin toplantısının ardından Şansölye Merz, vaat edilen elektrik vergisi indirimini medya haberlerine göre salı günkü koalisyon komitesinde yine de herkes için uygulatmak istiyor.",
+    "t": "Elektrik vergisi tartışması: Merz herkes için indirimi koalisyon komitesinde zorluyor"
+   },
+   "at": "2026-11-12T14:05Z",
+   "h": "b5c14ea27bcb",
+   "rev_dbg": [
+    9,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Friedrich Merz (Arşiv fotoğrafı)"
+   }
+  },
   "studie-frozen-shoulder-netzwerk-metaanalyse-2026-11-12": {
    "L": {
     "body": [
@@ -3735,6 +3918,37 @@
    ],
    "x": {
     "img.alt": "Trakia otoyolu (Sembolik fotoğraf)"
+   }
+  },
+  "trump-vance-iran-deal-korruption-2026-11-12-b15": {
+   "L": {
+    "body": [
+     "ABD Başkanı Donald Trump, Başkan Yardımcısı JD Vance’e kamuoyu önünde yeni bir görev verdi ve böylece onun İran diplomasisindeki rolünü sorgulanır hale getirdi. Trump, perşembe günü sosyal medyada yaptığı paylaşımda Vance’in “tam ve eksiksiz dikkatini” Demokratların yönettiği ABD şehirlerindeki suç ve yolsuzluğa vermesi gerektiğini yazdı. Trump’a göre bu, İran’la yapılacak bir anlaşmadan daha fazla tasarruf sağlayabilir; Reuters’in aktardığına göre Trump, bütçenin böylece “hızla DENGELENEBİLECEĞİNİ” yazdı.",
+     "Trump İran’la ilgili olarak şöyle yazdı: “İran’la anlaşmaya ihtiyacımız yok. O günler çoktan geride kaldı.” ABD’nin ülkenin parasına, “yüzlerce milyar dolara”, ve “onların su yoluna” sahip olduğunu belirtti; kastedilen Hürmüz Boğazı. Wall Street Journal’ın bir haberine göre Vance son dönemde İran diplomasisinin yönetimini üstlenmiş ve İran Yüksek Ulusal Güvenlik Konseyi Sekreteri Mohsen Rezaei ile doğrudan görüşmeyi düşünmüştü. Ancak Rezaei, müzakerelerin sürdüğünü ya da bir görüşmenin planlandığını yalanlamıştı.",
+     "Arka planda Başkan ile yardımcısı arasında büyüyen bir çatlak var. Cumhuriyetçilerin Kongre seçimlerindeki ağır yenilgisinin ardından Vance, İran savaşından uzaklaşmış, savaşın yararını sorgulamış ve seçim hezimetinden onu sorumlu tutmuştu. Medya haberlerine göre Trump’ın, Vance’in haziran ayında Tahran’la yürütülen müzakerelerde birlikte hazırladığı niyet beyanını da kendi çevresinde hata olarak nitelendirdiği iddia ediliyor. Savaş 28 Şubat’ta ABD ve İsrail saldırılarıyla başlamıştı; Pentagon’un verdiği bilgilere göre o tarihten bu yana 23 ABD askeri öldü."
+    ],
+    "d": "ABD Başkanı, yardımcısının tamamen Demokratların yönettiği şehirlerdeki suç ve yolsuzluğa odaklanmasını istiyor. Vance daha önce İran savaşından açıkça şüphe duymuştu.",
+    "t": "“Iran’la anlaşmaya ihtiyacımız yok”: Trump, Vance’e yeni görev verdi"
+   },
+   "at": "2026-11-12T14:05Z",
+   "h": "13e6b0e2c49e",
+   "rev": [
+    "Headline quote: 'Brauchen keinen Deal mit Iran' is Trump's own statement, rendered as 'ihtiyacımız yok' (acceptable); no change.",
+    "'Haziran ayında' – month should be lowercase per TDK ('haziran ayında').",
+    "Awkward sentence: 'Tahran'la birlikte müzakere ettiği' wrongly suggests Vance negotiated together with Tehran; German 'mit ausgehandelte' means he co-negotiated the declaration of intent with Tehran, ",
+    "Awkward duplicated reporting 'Trump'ın ... nitelendirdiği iddia ediliyor' with 'Medya haberlerine göre' – redundant but hedge kept; simplified.",
+    "'Reuters'in aktardığına göre Trump böyle yazdı' is clumsy; merged attribution into sentence.",
+    "'ihtiyacımız yok... su yoluna' – 'Straße' = 'yol' (the strait); acceptable.",
+    "'Demokratların yönettiği şehirlerdeki' in teaser: 'ganz' was rendered 'tamamen' modifying wrong word; fixed to 'tamamen ... odaklanmasını'."
+   ],
+   "rev_dbg": [
+    7,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "JD Vance (Arşiv fotoğrafı)",
+    "kl": "ABD"
    }
   },
   "ufc-334-harrison-kein-hass-nunes": {

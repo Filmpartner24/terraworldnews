@@ -120,6 +120,32 @@
     "kl": "Investigación"
    }
   },
+  "amd-epyc-venice-zen6-marktstart-2026-11-12-b15": {
+   "L": {
+    "body": [
+     "AMD ha lanzado oficialmente al mercado la sexta generación de sus procesadores para servidores de la serie Epyc, con el nombre en clave «Venice». Según la empresa, desde esta semana los grandes fabricantes de servidores están entregando sistemas con los nuevos chips para el zócalo SP7. AMD ya había presentado en julio los procesadores con la nueva arquitectura Zen 6. El modelo superior, el Epyc 9996, reúne 256 núcleos con 512 hilos, se fabrica en TSMC con el proceso de 2 nanómetros e incorpora 1.024 megabytes de caché L3.",
+     "El grupo orienta expresamente los chips a los centros de datos de IA y a los llamados agentes de IA. Según datos de la propia empresa, el modelo superior es hasta 3,7 veces más rápido que un sistema con el procesador Vera de Nvidia y hasta 2,2 veces más rápido que el Xeon 6980P de Intel; estos valores proceden de mediciones y estimaciones de AMD y no han sido verificados de forma independiente. El precio de lista del Epyc 9996 es de 14.904 dólares, aproximadamente el mismo nivel que su predecesor, que tenía 64 núcleos menos. El modelo más pequeño de la serie, con ocho núcleos, cuesta 700 dólares según la lista de precios publicada.",
+     "Como gran cliente, AMD menciona a Meta, matriz de Facebook, que está evaluando los sistemas para un uso amplio. Microsoft ofrece en su nube Azure una vista previa de máquinas virtuales con Zen 6, y Oracle ya opera instancias en la nube basadas en Venice. Otras variantes llegarán en 2027: procesadores para el zócalo más pequeño SP8 en el primer semestre y una versión con caché adicional apilado para computación de alto rendimiento en el segundo semestre."
+    ],
+    "d": "La sexta generación de Epyc de AMD ya está en el mercado: el modelo superior tiene 256 núcleos fabricados por TSMC en 2 nanómetros. Meta, Microsoft y Oracle ya los usan o los prueban.",
+    "t": "Zen 6 para centros de datos: AMD entrega el Epyc «Venice» de 256 núcleos"
+   },
+   "at": "2026-11-12T14:05Z",
+   "h": "debe91f20a35",
+   "rev": [
+    "Voz activa errónea: «los grandes fabricantes de servidores entregan» invierte el sentido (los fabricantes entregan los sistemas; en alemán es pasiva: «werden ... ausgeliefert»). Se mantiene la atribuc",
+    "«caché apilada adicional» – género: «caché» es masculino en español",
+    "«Según sus propias indicaciones» es una traducción literal poco natural"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico de portada de TERRA WORLD NEWS"
+   }
+  },
   "american-barrick-gold-boersengang-nyse-2026-11-12": {
    "L": {
     "body": [
@@ -225,6 +251,36 @@
    ],
    "x": {
     "img.alt": "Sala de plenos de la Cámara de Diputados de Berlín (Foto de archivo)",
+    "kl": "Berlín"
+   }
+  },
+  "berlin-prozess-messerangriff-neukoelln-bushaltestelle-2026-11-12-b15": {
+   "L": {
+    "body": [
+     "El jueves comenzó en Berlín el juicio contra un hombre de 36 años por un ataque con cuchillo en una parada de autobús de la Sonnenallee, en Neukölln. Según la acusación, en la madrugada del 14 de mayo presuntamente pidió un cigarrillo a un hombre de 33 años. Cuando este se negó y quiso subir a un autobús, el acusado presuntamente le apuñaló por detrás en la nuca. La víctima sufrió lesiones potencialmente mortales en la médula espinal y sobrevivió solo gracias a una operación de urgencia.",
+     "Horas después, el hombre presuntamente amenazó a una mujer con una navaja en un autobús, después de que ella le diera dos euros en lugar de los diez que exigía. El conductor avisó a la policía, que detuvo al sospechoso. La Fiscalía le imputa, entre otros delitos, intento de asesinato y extorsión violenta especialmente grave. En una declaración leída por su abogado, el acusado admitió la puñalada: «No quería causarle ningún daño».",
+     "Según un informe psiquiátrico, el acusado padece una enfermedad mental; a juicio de la Fiscalía, podría haber sido inimputable en ambos hechos. Si el tribunal sigue esa valoración, en lugar de una pena de prisión se le impondría el internamiento en una clínica psiquiátrica. El juicio continuará el lunes con los primeros testigos; además, se dispone de grabaciones de vídeo de ambos autobuses."
+    ],
+    "d": "Un hombre de 36 años, acusado de intento de asesinato, está siendo juzgado: presuntamente apuñaló a un hombre en una parada de autobús de Neukölln en mayo. Admitió la puñalada, pero no la intención de matar.",
+    "t": "Puñalada por un cigarrillo: juicio por el ataque en una parada de Neukölln"
+   },
+   "at": "2026-11-12T14:05Z",
+   "h": "70df575a9d65",
+   "rev": [
+    "Teaser: 'steht wegen versuchten Mordes vor Gericht' – 'acusado de' is fine, but 'Admitió la puñalada' and the teaser's attribution are OK; no change needed",
+    "'por la espalda en la nuca' is awkward: 'von hinten in den Nacken'",
+    "'extorsión con violencia especialmente grave' is a poor rendering of 'besonders schwere räuberische Erpressung'",
+    "'Ich wollte ihm keinen Schaden zufügen' fine",
+    "'Si el tribunal lo acepta' is vague vs 'Folgt das Gericht dem'",
+    "'Horas después' lacks the hedge on the first sentence in the original: kept 'presuntamente' fine"
+   ],
+   "rev_dbg": [
+    6,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Tribunal Penal de Moabit en Berlín (imagen simbólica)",
     "kl": "Berlín"
    }
   },
@@ -601,6 +657,27 @@
    ],
    "x": {
     "img.alt": "Imagen simbólica: hotel en el balneario de Arenas Doradas, 2008"
+   }
+  },
+  "bundestag-beschliesst-kita-gesetz-sprachtests-2026-11-12-b15": {
+   "L": {
+    "body": [
+     "El Bundestag aprobó el jueves la llamada ley de oportunidades de inicio y desarrollo de la calidad para guarderías (Startchancen- und Qualitätsentwicklungsgesetz). En la votación nominal, 458 diputados votaron a favor, 132 en contra y una persona se abstuvo. La ley prevé evaluar de forma obligatoria, y según estándares uniformes en todo el país, el nivel de lenguaje y de desarrollo de los niños a más tardar a partir del quinto año de vida. Así, los niños con necesidad de apoyo recibirán ayuda específica antes de empezar la escuela.",
+     "Además, por primera vez regirán estándares de calidad vinculantes en toda Alemania para el cuidado infantil. Las guarderías con muchos niños en situaciones vitales difíciles recibirán apoyo adicional, siguiendo el modelo del programa Startchancen para escuelas. El Gobierno federal quiere apoyar a los estados con unos nueve mil millones de euros hasta 2034. La ministra federal de Educación, Karin Prien (CDU), calificó la ley como la decisión más importante en política educativa de esta legislatura, y el político educativo de la CDU Michael Hose dijo: «Ningún niño debe quedar ya fuera del sistema».",
+     "Las críticas provienen de la oposición y de los estados. Los Verdes consideran que la ley está «desesperadamente infrafinanciada», y La Izquierda (Die Linke) critica que las pruebas clasificarían a los niños en categorías. Dado que la educación es competencia de los estados, aún debe dar su aprobación el Bundesrat; el ministro de Educación de Sajonia, Conrad Clemens (CDU), ya amenazó con recurrir a la comisión de mediación. Según informaciones de medios, este paso se considera probable."
+    ],
+    "d": "El Bundestag aprobó con 458 votos a favor la ley de guarderías. El lenguaje y el desarrollo de los niños se evaluarán antes de la escolarización con criterios uniformes en todo el país. Los estados piden más dinero.",
+    "t": "El Bundestag aprueba la ley de guarderías con pruebas de idioma; ahora decide el Bundesrat"
+   },
+   "at": "2026-11-12T14:05Z",
+   "h": "408f09dc3812",
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Niños juegan en el jardín de una guardería (imagen simbólica)"
    }
   },
   "bundestag-sprachtests-vierjaehrige-kita-gesetz-2026-11-12-b08": {
@@ -1515,6 +1592,27 @@
     "kl": "Fórmula 1"
    }
   },
+  "f16-technologietransfer-stoyanov-2026-11-12-b15": {
+   "L": {
+    "body": [
+     "El ministro de Defensa de Bulgaria, Dimitar Stoyanov, hizo el jueves un balance desalentador de la transferencia de tecnología derivada de la compra de los cazas F-16. El contrato firmado en 2019 con Estados Unidos y Lockheed Martin preveía una cooperación industrial por valor de aproximadamente el diez por ciento de la suma, unos 120 millones de dólares. Sin embargo, de seis proyectos previstos solo se habría ejecutado uno, dijo Stoyanov en una mesa redonda sobre transferencia de tecnología e innovación en defensa celebrada en la Universidad de Economía Nacional y Mundial de Sofía. El resultado sería un ejemplo negativo de cómo no se debe llevar a cabo una transferencia de tecnología, afirmó. «Боли ме страшно много за тези 120 милиона долара» («Me duelen mucho esos 120 millones de dólares»), dijo, según la agencia BGNES.",
+     "Según Mediapool, los otros cinco proyectos se ejecutarán de forma modificada, sobre todo en la empresa estatal Avionams. Stoyanov admitió que también la parte búlgara habría cometido errores y pidió un debate abierto. Según dijo, las cosas van mejor con los vehículos blindados Stryker procedentes de Estados Unidos, que se montan en la fábrica militar Terem, en Veliko Tarnovo. Bulgaria quiere convertirse en un centro regional de mantenimiento de estos vehículos, también para los países vecinos, afirmó.",
+     "Para el próximo año, el proyecto de presupuesto de Defensa contempla 5 millones de euros para investigación y desarrollo; hace uno o dos años eran, según Stoyanov, solo unos 70.000 euros. Dado que el dinero solo alcanzaría para uno o dos proyectos, haría falta fijar prioridades claras; como prometedora, mencionó la defensa antidrones. Las empresas búlgaras deberían formar parte de las cadenas de suministro y no quedarse solo como espectadoras, dijo el ministro."
+    ],
+    "d": "Según el ministro de Defensa Stoyanov, solo se ha cumplido un proyecto de la cooperación industrial de la compra de los F-16 de 2019 (unos 120 M$). En 2027 se destinarían 5 millones de euros a investigación.",
+    "t": "F-16: solo uno de seis proyectos tecnológicos ejecutado; el ministro admite errores"
+   },
+   "at": "2026-11-12T14:05Z",
+   "h": "b49dea9066f3",
+   "rev_dbg": [
+    5,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Caza F-16 Block 70 (Imagen simbólica)"
+   }
+  },
   "fiba-wuerzburg-larnaka-chemnitz-ulm-2026-11-12": {
    "L": {
     "body": [
@@ -2266,6 +2364,36 @@
     "img.alt": "Imagen simbólica: cactus Copiapoa dealbata en el desierto de Atacama, Chile, 2011"
    }
   },
+  "klopp-ballers-in-god-dfb-stellungnahme-2026-11-12-b15": {
+   "L": {
+    "body": [
+     "La Federación Alemana de Fútbol (DFB) se ha pronunciado en contra de el uso de declaraciones del seleccionador Jürgen Klopp por parte de la red evangélica «Ballers in God». Las publicaciones se habrían difundido «sin ningún consentimiento y sin conocimiento de Klopp», informó la federación el jueves previa consulta. Antes habían informado de ello RTL y Sky. La red había difundido en sus canales de redes sociales declaraciones de Klopp de su etapa en el FC Liverpool, entre ellas, en torno a su llegada a la DFB, una publicación de Instagram con su imagen y una frase sobre su fe cristiana.",
+     "El trasfondo es el debate en torno al internacional Felix Nmecha. El jugador del Dortmund pertenece a la red, criticada por declaraciones homófobas y contrarias a las personas queer de algunos de sus miembros. En el 2-1 del BVB ante el SV Elversberg, Nmecha volvió a hacer el llamado «festejo de la corona», con el que, según sus propias palabras, expresa su vínculo con Jesús y con Dios; la red utiliza el mismo gesto. El lunes, tras una conversación con Klopp y el director deportivo Rudi Völler en la concentración del equipo en Herzogenaurach, Nmecha se distanció de esas declaraciones, pero reafirmó su fe.",
+     "Medios habían informado de que el BVB le había prohibido a Nmecha el festejo; el DFB, según sus propias declaraciones, no tiene conocimiento de tal prohibición. Klopp se ha descrito varias veces como cristiano creyente, pero, según las informaciones, no está vinculado a ninguna comunidad religiosa concreta. La selección juega el viernes a las 20:45 (RTL) en Belgrado contra Serbia. En el penúltimo partido del grupo de la Liga de Naciones, una victoria sobre el último clasificado es especialmente importante para el tercero, por detrás de Países Bajos y Grecia."
+    ],
+    "d": "Un día antes del partido en Belgrado, el DFB defiende al seleccionador: una red evangélica, a la que pertenece también Felix Nmecha, promocionó antiguas declaraciones de fe de Jürgen Klopp.",
+    "t": "El DFB aclara: la red «Ballers in God» usó citas de Klopp sin su conocimiento"
+   },
+   "at": "2026-11-12T14:05Z",
+   "h": "fd69cd9705c7",
+   "rev": [
+    "Indirect speech: 'Las publicaciones se difundieron' reads as plain fact; needs conditional/attribution within the quote's framing",
+    "'a petición de los medios' is an addition; German says 'auf Anfrage'",
+    "Spanish uses 'el DFB' (masculine, Der Deutsche Fußball-Bund) – the draft mixes 'la DFB'; fix to 'el DFB' for convention",
+    "'Fueron RTL y Sky quienes lo publicaron primero' is slightly off; 'berichtet' = reported",
+    "'según sus propias indicaciones' unnatural; 'según sus propias indicaciones' → 'según sus propias informaciones/declaraciones'",
+    "Missing 'Anfrage' nuance and 'ohne Kenntnis' fine; 'Im vorletzten...' fine",
+    "Time format: 20.45 Uhr → 20:45 horas OK"
+   ],
+   "rev_dbg": [
+    7,
+    6,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico de portada de TERRA WORLD NEWS"
+   }
+  },
   "kultur-christmas-eve-busk-dublin-hansard-2026-11-12": {
    "L": {
     "body": [
@@ -2905,6 +3033,31 @@
     "img.alt": "Vista del centro de Mannheim (foto de archivo)"
    }
   },
+  "mbappe-fehlt-italien-frankreich-san-siro-2026-11-12-b15": {
+   "L": {
+    "body": [
+     "Francia se enfrenta a Italia el jueves por la noche (20.45 horas) en el San Siro de Milán sin su capitán Kylian Mbappé. «No, Mbappé no estará mañana», dijo el seleccionador Zinédine Zidane en la víspera. «Está lesionado, así que no vamos a arriesgarlo». Zidane dejó abierto si el delantero llegará a tiempo al último partido de grupo del domingo contra Turquía: «Veremos si puede recuperarse para el próximo partido». Mbappé no se entrenó el miércoles; el diario francés L'Équipe informó de problemas en la parte posterior del muslo, pero el tipo de lesión no está confirmado oficialmente.",
+     "Para Zidane continúa así una larga lista de bajas. Según Football Italia, a los franceses les faltan además, entre otros, Marcus Thuram, William Saliba, Jules Koundé, Ousmane Dembélé y Manu Koné. Francia lidera el grupo A1 con diez puntos, Italia le sigue con siete y Bélgica tiene seis. Por los dos puestos en los cuartos de final, por tanto, todo sigue abierto.",
+     "También el seleccionador italiano, Roberto Mancini, tiene que reorganizar el equipo: según Al Jazeera, el defensa Gianluca Mancini es baja por una lesión muscular y Federico Gatti ha sido convocado en su lugar. Según la misma información, tampoco están Giovanni Di Lorenzo, Giacomo Raspadori ni Moise Kean. En la última jornada, el domingo, Italia juega en Bruselas contra Bélgica y Francia recibe a Turquía."
+    ],
+    "d": "Francia tendrá que jugar esta noche en San Siro sin Kylian Mbappé. «Está lesionado, así que no vamos a arriesgarlo», dijo el seleccionador Zinédine Zidane antes del partido de la Liga de Naciones.",
+    "t": "Sin Mbappé en el duelo de la cima: Zidane reserva a su capitán ante Italia"
+   },
+   "at": "2026-11-12T14:05Z",
+   "h": "c7d5f17f116b",
+   "rev": [
+    "Quote sentence ends with period outside the closing quotation marks; Spanish convention puts the period after the closing guillemet, which is already the case, but the sentence introduced by a full st",
+    "'Oberschenkel hinten' rendered as 'isquiotibial' (hamstring muscle); this is acceptable but slightly more specific than the German 'hinterer Oberschenkel'"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Kylian Mbappé (Foto de archivo)"
+   }
+  },
   "nba-spurs-zehnter-sieg-comeback-bulls-2026-11-12": {
    "L": {
     "body": [
@@ -3351,6 +3504,32 @@
     0
    ]
   },
+  "stromsteuer-union-streit-koalitionsausschuss-2026-11-12-b15": {
+   "L": {
+    "body": [
+     "Tras los compromisos presupuestarios para 2027, la Unión está revuelta. La rebaja prometida del impuesto a la electricidad para todos no figura hasta ahora en el presupuesto. Según «Bild», que se remite al entorno del canciller, Friedrich Merz (CDU) quiere imponer finalmente ese alivio en la próxima reunión del comité de coalición, el martes. El impuesto a la electricidad se sitúa actualmente en 2,05 céntimos por kilovatio hora; Merz quiere reducirlo al mínimo de la UE, 0,1 céntimos, lo que cuesta unos 5.000 millones de euros al año.",
+     "Según el Tagesspiegel, el grupo de la Unión se reunió el miércoles por la noche durante unas tres horas. El experto en finanzas de la CDU Mathias Middelberg confirmó en Deutschlandfunk que «también hubo fuertes choques». Según «Bild», más de 30 diputados intervinieron con críticas; la secretaria general de la CDU, Franziska Hoppermann, preguntó allí: «¿Cuánto vale ya esta palabra?». Según el informe, más de doce diputados de la Unión no quieren aprobar el impuesto al azúcar.",
+     "El SPD rechaza las acusaciones. El jefe del grupo, Matthias Miersch, dijo que la rebaja no sería financiable por ahora. El ministro de Finanzas, Lars Klingbeil (SPD), no ve margen en el presupuesto de 2027, pero se muestra abierto si la Unión presenta propuestas de contrafinanciación. También las asociaciones empresariales advirtieron de una pérdida de credibilidad del Gobierno."
+    ],
+    "d": "Tras una tensa reunión del grupo de la Unión, el canciller Merz quiere imponer finalmente el martes en el comité de coalición la rebaja prometida del impuesto a la electricidad, según medios de comunicación.",
+    "t": "Disputa por el impuesto a la electricidad: Merz quiere forzar la rebaja para todos"
+   },
+   "at": "2026-11-12T14:05Z",
+   "h": "b5c14ea27bcb",
+   "rev": [
+    "Miersch's indirect speech rendered as plain fact (\"no es financiable\")",
+    "\"comité de coalición\" is a less established rendering than \"comisión de coalición\"; left unchanged as acceptable",
+    "Teaser: \"según medios\" is awkward; improved to \"según medios de comunicación\" (length stays under 220)"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Friedrich Merz (Foto de archivo)"
+   }
+  },
   "studie-frozen-shoulder-netzwerk-metaanalyse-2026-11-12": {
    "L": {
     "body": [
@@ -3503,6 +3682,36 @@
    ],
    "x": {
     "img.alt": "Autopista Trakia (Imagen simbólica)"
+   }
+  },
+  "trump-vance-iran-deal-korruption-2026-11-12-b15": {
+   "L": {
+    "body": [
+     "El presidente de EE. UU., Donald Trump, ha asignado públicamente una nueva tarea al vicepresidente JD Vance, cuestionando así su papel en la diplomacia con Irán. Vance debería dedicar su «atención plena y total» a la delincuencia y la corrupción en ciudades estadounidenses gobernadas por demócratas, escribió Trump el jueves en redes sociales. Eso podría ahorrar más dinero que un acuerdo con Irán; así el presupuesto podría «EQUILIBRARSE rápidamente», según Trump, citado por Reuters.",
+     "Sobre Irán, el presidente escribió: «No necesitamos un acuerdo con Irán. Esos tiempos quedaron atrás hace mucho». EE. UU. tendría el dinero del país, «cientos de miles de millones de dólares», y «su estrecho», en referencia al estrecho de Ormuz. Según un informe del Wall Street Journal, Vance había asumido últimamente el liderazgo de la diplomacia con Irán y había considerado mantener conversaciones directas con Mohsen Rezaei, secretario del Consejo Supremo de Seguridad Nacional de Irán. Sin embargo, Rezaei había negado que hubiera negociaciones en curso o que estuviera previsto un encuentro.",
+     "El trasfondo es una brecha creciente entre el presidente y su vicepresidente. Tras la clara derrota de los republicanos en las elecciones legislativas, Vance se distanció de la guerra de Irán, puso en duda su utilidad y la responsabilizó del revés electoral. Según medios de comunicación, Trump también calificaría internamente de error la declaración de intenciones con Teherán que Vance ayudó a negociar en junio. La guerra comenzó el 28 de febrero con ataques de EE. UU. e Israel; según el Pentágono, desde entonces han muerto 23 soldados estadounidenses."
+    ],
+    "d": "El presidente de EE. UU. quiere que su vicepresidente se centre por completo en la delincuencia y la corrupción en ciudades gobernadas por demócratas. Vance había cuestionado abiertamente la guerra de Irán.",
+    "t": "«No necesitamos un acuerdo con Irán»: Trump asigna a Vance una nueva tarea"
+   },
+   "at": "2026-11-12T14:05Z",
+   "h": "13e6b0e2c49e",
+   "rev": [
+    "Trump's \"Hunderte Milliarden Dollar\" was rendered as \"cientos de miles de millones\", which is correct in Spanish, so no change was needed there.",
+    "\"Vance hatte ... am Iran-Krieg gezweifelt\" was rendered as \"había dudado de la guerra\"; it is acceptable but more natural as \"cuestionado\".",
+    "The statement that the US \"tendría\" the money is acceptable as reported speech.",
+    "\"Rezaei había negado que haya negociaciones\" has a tense sequence error; it should be \"hubiera/estuviera\" in the subjunctive.",
+    "\"Según medios\" is unnatural and needs the article.",
+    "\"mit ausgehandelte\" was rendered as \"negoció\", losing the sense that Vance co-negotiated the declaration (\"ayudó a negociar\")."
+   ],
+   "rev_dbg": [
+    6,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "JD Vance (Foto de archivo)",
+    "kl": "EE. UU."
    }
   },
   "ufc-334-harrison-kein-hass-nunes": {
