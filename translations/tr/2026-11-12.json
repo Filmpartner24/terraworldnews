@@ -1,6 +1,32 @@
 {
  "date": "2026-11-12",
  "items": {
+  "aarhus-froschroboter-lichtmuskeln": {
+   "L": {
+    "body": [
+     "Danimarka'daki Aarhus Üniversitesi'nden araştırmacılar, 3D yazıcıyla küçük yüzen bir robot kurbağa üretti. Kurbağanın bacakları, ısındığında kasılan sıvı kristal elastomerlerden yapılmış altı yapay kasla hareket ediyor; yakın kızılötesi ışığı emen bir molekül, gönderilen ışığı ısıya dönüştürüyor. Doktora öğrencisi Cecilie Ryberg Jensen ile Profesör Brigitte Städler'in çalışması, Ekim ayında Advanced Materials Technologies dergisinde yayımlandı.",
+     "Kaslar ve silikon gövde tek bir baskı işleminde oluşturuldu; ekip, iki malzemenin birbirine bağlanması için kimyasal bir yöntem geliştirdi. Ayrıca moleküler yapı taşlarının ve zincir uzunluklarının, kasların basılabilirliğini ve hareketini nasıl etkilediğini sistematik olarak inceledi. “Koordineli biçimde kasılmazlarsa kurbağa ileri doğru yüzmez” diyor Städler. Kurbağa laboratuvar testinde 8 santimetreyi iki dakikaya yakın bir sürede kat etti; aynı şekilde üretilen bir balina robotu ise tek bir kasla yetiniyor.",
+     "Kurbağanın şimdilik harici bir ışık kaynağına ihtiyacı var ve engellerden kendi başına kaçınamıyor. “Bu robotların kurtarma çalışmalarında görülmesinden önce oyuncak olarak kullanılacağını rahatlıkla düşünebilirim” diyor Ryberg Jensen."
+    ],
+    "d": "Aarhus Üniversitesi'nden bir ekip, silikon gövdeli ve ışıkla kontrol edilen yapay kaslara sahip küçük bir kurbağayı tek seferde bastı. Laboratuvarda 8 santimetreyi iki dakikaya yakın bir sürede yüzdü.",
+    "t": "3D yazıcıdan çıkan kurbağa: Altı yapay kas mini robotu yüzdürüyor"
+   },
+   "at": "2026-11-12T13:11Z",
+   "h": "1ffe789049f9",
+   "rev": [
+    "Städler'in sözü ile laboratuvar testi sonucu tek cümlede karıştırılmış; testin sonucu Städler'e atfedilmiş, oysa Almancada bu ayrı bir olgu cümlesi",
+    "Ryberg Jensen alıntısı sonrası eklenen 'geleceğe dair beklentisini böyle dile getirdi' orijinalde yok, gereksiz ekleme",
+    "Alıntı cümleleri bozuk/kalıp dışı: 'diyen ... belirtti' yapısı"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Aarhus Üniversitesi'nin salonu, 2023 kışı"
+   }
+  },
   "abu-dhabi-dvalishvili-usman-nurmagomedov-hotel": {
    "L": {
     "body": [
@@ -50,6 +76,33 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: New York'ta bir daire"
+   }
+  },
+  "adobe-max-2026-ki-agenten": {
+   "L": {
+    "body": [
+     "Adobe, salı günü (10 Kasım) Miami Beach'teki yaratıcılık konferansı MAX'te bir dizi yapay zekâ yeniliği duyurdu. Şirketin “Creative Agent” özelliği artık Illustrator, Premiere, InDesign, After Effects ve Frame.io için yapay zekâ asistanlarında (beta) ve Firefly AI Assistant'ta yer alacak. Ayrıca Firefly'da “Always-on” ajanlarının önizleme olarak arka planda yinelenen görevleri, örneğin dosyaları düzenlemeyi, kaliteyi kontrol etmeyi veya içerikleri farklı kanallar için hazırlamayı üstlenmesi planlanıyor.",
+     "Yerel bir MCP arayüzü de (önizleme) yeni: Kullanıcılar bu arayüzle diğer sağlayıcıların yapay zekâ ajanlarına Photoshop, Illustrator, Premiere ve After Effects'teki gerçek proje dosyalarını düzenleme talimatı verebiliyor; katmanlar, sekanslar ve kompozisyonlar düzenlenebilir kalıyor. Adobe yöneticisi Deepa Subramaniam, TechCrunch'a arayüzün neleri açtığını kısıtlamak için “ne bir ihtiyaç ne de bir istek” olduğunu söyledi.",
+     "Bunlara yeni araçlar da ekleniyor: Photoshop, ışığı sonradan değiştirmek için “Relight” ve “Generative Restyle” özelliklerini, Premiere ise Color Mode adlı yeni bir renk düzeltme sistemini alıyor. Firefly Builder, kapalı beta olarak bir açıklamadan tıklanabilir prototipler oluşturuyor; Firefly Design (beta) ise illüstrasyonu, görüntü düzenlemeyi, animasyonu ve 3D'yi tek bir çalışma alanında birleştiriyor. Bunu resmî video gösteriyor. Adobe fiyat açıklamadı."
+    ],
+    "d": "Adobe, Miami Beach'teki MAX konferansında yeni yapay zekâ asistanlarını, sürekli çalışan ajanları ve Claude, ChatGPT veya Gemini'nin proje dosyalarını düzenlemesini sağlayan bir arayüzü tanıttı.",
+    "t": "Photoshop yabancı yapay zekâ ajanlarına açılıyor: Adobe kesintisiz asistanlara yöneliyor"
+   },
+   "at": "2026-11-12T13:11Z",
+   "h": "d329da02e429",
+   "rev": [
+    "Weekday \"Salı\" wrongly capitalised mid-sentence (TDK: weekdays are lowercase)",
+    "Indirect speech: Subramaniam's statement is the 'man habe' (Adobe's position) – attribution exists, but 'arayüzün' phrasing was slightly ambiguous; kept as is",
+    "Quoted phrase 'Creative Agent' uses typographic quotes in line with the rest; no change"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Adobe genel merkezi, San José, Kaliforniya (2007)",
+    "kl": "Yeni ürün"
    }
   },
   "alphagenome-2-zelltypen-dna": {
@@ -105,6 +158,34 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Nevada'daki Cortez Hills açık ocağı (2013)"
+   }
+  },
+  "arkansas-mondstaub-bausteine": {
+   "L": {
+    "body": [
+     "University of Arkansas'taki araştırmacılar, yapay ay tozundan bağlayıcı gerektirmeyen küçük yapı taşları bastı. Lazerin tozu katman katman sinterlediği lazer toz yatağı füzyonu yöntemini kullandılar. Malzeme olarak, Apollo görevlerinde toplanan numuneleri taklit eden LHS-1 (Lunar Highlands Regolith Simulant) simülanı kullanıldı. Çalışma Ağustos sonunda npj Advanced Manufacturing dergisinde yayımlandı; üniversite çalışmayı 11 Kasım'da tanıttı.",
+     "Genişliği birkaç santimetre olan haç ve H biçimindeki bloklar, oyuncak yapı taşları gibi birbirine geçiyor. “Regolit tozu kendi kendine bağlanıyor” diyen ilk yazar Cole McCallum, çalışmayı makine mühendisliği ve fizik öğrencisi olarak yürüttü. Kıdemli yazar ise makine mühendisliği yardımcı doçenti Wan Shou.",
+     "Saf regolitten yapılan yapı taşları, bağlayıcılı baskılara göre daha gözenekli ve daha zayıf. McCallum, “Ürettiğimiz bu yapılar kendi ağırlıklarını taşıyabiliyor” dedi. Ancak McCallum, yöntemin şu anda başka yükleri taşıyan yapı parçaları için de uygun olduğunu söylemekte temkinli davranacağını belirtti."
+    ],
+    "d": "Arkansas Üniversitesi'nde, simüle edilmiş ay tozundan lazerle santimetre boyutunda, birbirine geçen yapı taşları basıldı; taşlar Ay'daki gelecekteki yerleşimler için tasarlandı.",
+    "t": "Ay tozundan yapı taşları: Lazer, bağlayıcı olmadan birbirine geçen parçalar basıyor"
+   },
+   "at": "2026-11-12T13:11Z",
+   "h": "2cc505869915",
+   "rev": [
+    "Teaser: 'taşlar ... tasarlandı' ('gedacht für') is fine, but the headline says 'basıyor' while the German says Laser druckt; acceptable",
+    "Last sentence: 'McCallum'a göre ... yeterli olduğunu söylemekte temkinli davranırdı' is awkward and does not correspond to the German; the point is that he would be cautious about claiming the method ",
+    "Sentence 2 of the first paragraph changes subject/voice inconsistently ('kullandılar' then 'kullanıldı'); acceptable",
+    "'Malzeme olarak ... simülanı kullanıldı' is fine"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: ESA tarafından simüle edilmiş ay regolitinden 3B yazıcıyla basılmış seramik parçalar – Arkansas'taki yapı taşları değil",
+    "kl": "Uzay yolculuğu"
    }
   },
   "balenciaga-le-city-25-jahre-damien-hirst-le-city-house": {
@@ -1561,6 +1642,28 @@
     "img.alt": "Würzburg Baskets takımı, Ekim 2025'te bir Avrupa kupası maçında (Arşiv fotoğrafı)"
    }
   },
+  "fractile-720-millionen-ki-chips": {
+   "L": {
+    "body": [
+     "İngiliz çip girişimi Fractile, bir finansman turunda 720 milyon dolar topladı. Turu Thrive Capital, Founders Fund, Lightspeed ve Redpoint yönetti; Alphabet'in CapitalG'si, BlackRock, İngiltere devletine ait Sovereign AI Fund ve British Business Bank da yatırımcılar arasında yer alıyor. Financial Times'a göre 2022'de kurulan Londra merkezli şirketin değeri bu turda yaklaşık 7 milyar dolar olarak belirlendi; The Next Web'in verdiği bilgiye göre mayısta bu değer yaklaşık bir milyar dolardı.",
+     "Fractile, eğitimi tamamlanmış yapay zekâ modellerinin çalıştırılması anlamına gelen çıkarım (inference) için çip geliştiriyor. Fractile'ın açıklamasına göre darboğaz işlem gücü değil, bellek bant genişliği; kurucu Walter Goodwin FT'ye, günümüzün en gelişmiş modellerinin “bir pipetin içinden” içtiğini söyledi. Bu nedenle Fractile, pahalı harici HBM belleği kullanmak yerine DRAM belleği doğrudan işlem mantığının üzerine istifliyor.",
+     "Bunun sonuçta ne kadar hızlı olacağı belirsiz: Fractile'ın henüz ticari bir ürünü yok, ilk çiplerin 2027'de teslim edilmesi planlanıyor. FT'ye göre Anthropic, ilk müşterilerden biri olmaya ilgi gösterdi. Rekabet, diğerlerinin yanı sıra Nvidia'dan ve Etched ile MatX gibi girişimlerden geliyor."
+    ],
+    "d": "Fractile, belleği doğrudan işlemci çipinin üzerine istifliyor; yapay zekâ yanıtlarını daha hızlı ve verimli kılmayı hedefliyor. Henüz ürün yok, ancak değerlemesi mayıstan beri yaklaşık yedi kat arttı.",
+    "t": "7 milyar dolar değerinde: Londralı yapay zekâ çipi girişimi Fractile 720 milyon topladı"
+   },
+   "at": "2026-11-12T13:11Z",
+   "h": "c666278ae8c0",
+   "rev_dbg": [
+    3,
+    2,
+    1
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Bir devre kartında Motorola'nın DRAM bellek çipleri (yaklaşık 1981) – Fractile çipi değil",
+    "kl": "Finansman"
+   }
+  },
   "fury-joshua-karte-bakole-vanhouter": {
    "L": {
     "body": [
@@ -1856,6 +1959,35 @@
    ],
    "x": {
     "img.alt": "Tokyo'nun Ōta ilçesindeki spor salonu, bugünkü adıyla Ebara Wave Arena (Arşiv fotoğrafı, 2019)"
+   }
+  },
+  "ibm-microsoft-imagine-enterprise": {
+   "L": {
+    "body": [
+     "IBM ve Microsoft, salı günü (10 Kasım) ortak platform „Imagine Enterprise“'ı tanıttı. Şirketler bu platformla, kendi sektörlerindeki iş akışlarının tamamını üstlenen yapay zekâ ajanları geliştirebilecek, işletebilecek ve izleyebilecek. Danışmanlık birimi IBM Consulting 6.000'den fazla hazır ajan ve yapı taşı sağlıyor; Microsoft ise Azure, Microsoft Foundry, Copilot Studio, GitHub Copilot ile Entra, Purview ve Defender gibi güvenlik hizmetlerini de içeren teknik altyapıyı sunuyor.",
+     "Platform başlangıçta finans hizmetlerine, sigorta şirketlerine ve perakendeye yöneliyor; daha sonra sanayi, enerji ve kamu yönetimi gibi alanların izlemesi planlanıyor. Müşteriler platformu IBM'e işlettirebilecek, IBM ile birlikte genişletebilecek ya da kendileri yönetebilecek. Şirketler fiyat açıklamadı. Şirketler örnek olarak, IBM Consulting ve Microsoft ile yapay zekâ ajanı teknolojilerini deneyen ABD'li finans hizmetleri şirketi SEI'yi gösteriyor.",
+     "IBM Consulting Başkanı Mohamad Ali, „Müşteriler artık insanlara aynı işi biraz daha hızlı yapmaları için yardım eden yapay zekâ aramıyor“ dedi. Microsoft Frontier Company Başkanı Rodrigo Kede Lima ise kurumsal yapay zekâda yarışı, verilerini, sektör bilgisini ve yapay zekâyı eyleme dönüştürebilen kuruluşların kazanacağını söyledi."
+    ],
+    "d": "IBM ve Microsoft, „Imagine Enterprise“ ile yapay zekâ ajanlarını düzenlemeye tabi sektörlere taşımak istiyor. Platform başlangıçta finans hizmetlerine, sigortacılara ve perakendeye yönelik.",
+    "t": "6.000 hazır yapay zekâ ajanı: IBM ve Microsoft'tan bankacılık ve perakende platformu"
+   },
+   "at": "2026-11-12T13:11Z",
+   "h": "abac9719574f",
+   "rev": [
+    "Headline: 'bankacılık ve perakende' narrows the German 'Banken und Handel'; acceptable, but the German body says Finanzdienstleister – no change needed",
+    "Quote sentence was clumsy: 'diyen ... oldu' is an unnatural construction; rewritten as a normal attributed quote",
+    "Microsoft Frontier Company: 'Başkanı' for Präsident is fine; the name is a proper name and is left as is",
+    "Indirect speech of Rodrigo Kede Lima keeps attribution ('söyledi'), but 'başarının ... elde edileceğini' was imprecise: the German says enterprise AI will be won by organisations; changed to 'kazanıla",
+    "Awkward 'platformları „Imagine Enterprise“'ı' fixed"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: IBM'in New York'un Armonk kentindeki genel merkezi (2014)",
+    "kl": "Yapay zekâ ajanları"
    }
   },
   "invest-bulgarien": {
