@@ -273,6 +273,27 @@
     "img.alt": "Sembolik fotoğraf: Sofya yakınlarındaki Trakia otoyolu"
    }
   },
+  "bulgarien-trakia-staatsanwalt-lkw-fahrer-nebel-gutachten-2026-11-12": {
+   "L": {
+    "body": [
+     "Trakia otoyolundaki zincirleme kazaya karışan, Romanya plakalı tırın şoförü, durmadığını, yoğun sis nedeniyle yalnızca sert fren yaptığını belirtiyor. Yambol Bölge Savcısı Doychin Doychev, şoförün ikinci ifadesinin ardından BNT'ye yaptığı açıklamada, adamın bir çarpma hissettiğini, durduğunu ve ancak o zaman bir otobüsün tırına çarptığını gördüğünü söyledi. Savcıya göre şoför, kendisini manevra yapmaya zorlayacak, önünde giden bir araçtan söz etmedi. Romanyalı nakliye şirketinin sahibi ise daha önce tırın önünde arızalı bir otomobil bulunduğunu söylemişti.",
+     "Savcılık, 24 saat gözaltında tutulan 62 yaşındaki şoför hakkında iddianame düzenlemiyor. Doychev'e göre iddianame ancak deliller değerlendirildikten ve otomotiv teknik bilirkişi raporu hazırlandıktan sonra mümkün olacak; bunun için bir süre belirlenmiş değil. Şimdiye kadar 50'den fazla tanık dinlendi, 20 araca delil olarak el konuldu, altı keşif yapıldı ve yol kaplamasından numuneler alındı.",
+     "Soruşturmacılar, karayolları idaresi API'den, kaza bölgesindeki ücretli geçiş kameralarının görüntüleri de dahil belgeler istedi. Kamu görevlilerinin ve onarım ile bakımdan sorumlu olanların olası sorumluluğu da inceleniyor. İlk bulgulara göre araçlar, görüş mesafesinin çok kötü olduğu bir bölüme aniden girdi ve farklı hızlarda ilerliyordu. Kazada on bir kişi hayatını kaybetti. Savcı, Novini.bg ve BNT'ye göre, kurbanların yakınlarının adalete kavuşacağı güvencesini verdi."
+    ],
+    "d": "Yambol Bölge Savcısı Doychin Doychev: 50'den fazla tanık dinlendi, 20 araca el konuldu. İddianame düzenlenip düzenlenmeyeceği otomotiv teknik bilirkişi raporuna bağlı.",
+    "t": "Trakia kazası: Tır şoförü sadece yavaşladığını söylüyor – iddianame rapordan sonra"
+   },
+   "at": "2026-11-12T06:46Z",
+   "h": "fc7fcb04448e",
+   "rev_dbg": [
+    5,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Sofya yakınlarında Trakia otoyolu"
+   }
+  },
   "bulgarien-uebernachtungen-einnahmen-september-plus-13-9-prozent-2026-11-12": {
    "L": {
     "body": [
@@ -403,6 +424,37 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Hendrik Wüst, 2023"
+   }
+  },
+  "deutschland-berlin-charite-streik-verdi-2026-11-12": {
+   "L": {
+    "body": [
+     "Verdi sendikası, Berlin Üniversite Hastanesi Charité çalışanlarını 12 Kasım'dan 14 Kasım'daki gece vardiyasının sonuna kadar iş bırakmaya çağırdı. Grev merkezleri, Campus Benjamin Franklin, Virchow-Klinikum ve Campus Charité Mitte olmak üzere üç lokasyonda saat 6'da açılacak. Perşembe günü saat 11'de Charitéplatz 1'deki yönetim kurulu binasının önünde merkezi bir miting planlanıyor.",
+     "Hastanedeki Verdi üyeleri, yapılan grev oylamasında yüzde 98'den fazla oyla zorunlu greve (Erzwingungsstreik) evet demişti. Sendikanın anlatımına göre müzakereler tıkanmış durumda: Charité yönetim kurulu, mevcut İş Yükünü Hafifletme Toplu Sözleşmesi'nin temel düzenlemelerini zayıflatmak istiyor ve 9 ve 10 Kasım'daki müzakere turlarında bir uzlaşmayı engellemiş olduğu öne sürülüyor. Grevin amacı, sözleşmeyi güvence altına almak ve geliştirmek. Verdi'nin müzakere yürütücüsü Gisela Neunhöffer, yönetim kurulunu “engelleme tutumundan” vazgeçmeye çağırdı. Haberde, Charité'nin sendikanın suçlamalarına ilişkin bir açıklaması yer almıyor."
+    ],
+    "d": "Verdi, Charité çalışanlarını üç günlük greve çağırdı. Konu, İş Yükünü Hafifletme Toplu Sözleşmesi (Tarifvertrag Entlastung); sendikaya göre yönetim kurulu sözleşmeyi zayıflatmak istiyor.",
+    "t": "Charité'de grev: Verdi, Berlin hastanesinde Cumartesiye kadar iş bırakma çağrısı yaptı"
+   },
+   "at": "2026-11-12T06:46Z",
+   "h": "f0bfd5640f03",
+   "rev": [
+    "Headline: 'Cumartesiye' – German 'bis Samstag'; Turkish weekdays are lowercase, so this is fine, but 'Berlin üniversite hastanesinde' is acceptable (no change).",
+    "Untranslated German terms 'Tarifvertrag Entlastung' in the teaser and body should be rendered in Turkish ('İş Yükünü Hafifletme Toplu Sözleşmesi').",
+    "'Erzwingungsstreik' left in German; should be translated ('grev kararı için zorunlu/kesin grev').",
+    "'Virchow-Klinikum' is a proper name and stays.",
+    "Indirect speech: 'istiyormuş ve ... engellemiş' is awkward evidential; the attribution 'Sendikanın anlatımına göre' should cover both clauses with a clear reporting form.",
+    "'Grev yerleri' for Streiklokale is unnatural; better 'grev merkezleri/grev lokalleri'.",
+    "'Perşembe günü' is correct (14 Nov is Saturday per 'bis Samstag', so Thursday = 12 Nov); fine.",
+    "Missing detail: 'Streiklokale' wording and 'Verhandlungsführerin' fine."
+   ],
+   "rev_dbg": [
+    8,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Berlin'deki Charité'nin yatak kulesi, 2021",
+    "kl": "Berlin"
    }
   },
   "deutschland-berlin-emde-nouripour-gueler-lanz-2026-11-12": {
@@ -1217,6 +1269,37 @@
     "img.alt": "Sembolik fotoğraf: Arizona'nın Chinle kentinde bir okul oyun alanı"
    }
   },
+  "klima-kakteen-duerre-aussterberisiko-nature-2026-11-12": {
+   "L": {
+    "body": [
+     "Kaktüsler sıcağa karşı neredeyse yara almaz sayılır, ancak küresel ısınma nedeniyle onlar da baskı altında. Bu, 11 Kasım'da Nature dergisinde yayımlanan bir çalışmada ortaya konuyor. University of Arizona ve University of South Florida öncülüğündeki bir ekip, biyoçeşitlilik veri tabanlarından, saha gözlemlerinden ve iNaturalist platformundan alınan 648.316 buluntu yerine dayanarak 993 kaktüs türü için gelecekte uygun olacak iklimi hesapladı. Çalışmanın ilk yazarı Michiel Pillet, kıdemli yazarı ise ekolog Brian Enquist.",
+     "Yenilik, modellerin yalnızca sıcaklık ve yağışın ortalama değerlerini değil, şiddetli kuraklıkları da hesaba katması. SSP1-2.6 ile SSP5-8.5 arasındaki senaryolarda ve tohum yayılımının 100 kilometreye kadar olduğu durumda, iklim alanı daralan türlerin oranı kuraklık dışarıda bırakıldığında yüzde 58–61 iken kuraklıkla birlikte yüzde 69–72'ye yükseliyor. Türlerin yüzde 25 ila 35'i yüzyılın sonuna kadar alanlarının beşte dördünden fazlasını kaybedebilir; kuraklık olmasaydı bu oran yüzde 1 ila 15 olurdu. Şili, Peru ve Brezilya'nın kuzeydoğusu özellikle etkilenebilir.",
+     "Bunlar model projeksiyonları; yazarlara göre ise ilk etkiler şimdiden sahada gözlemlenebiliyor. “Organizmalar yalnızca ortalama değerleri yaşamaz. Aşırı koşullardan da sağ çıkmak zorundalar” diyor Enquist. IUCN Kırmızı Listesi'ne göre kaktüs türlerinin yüzde 30'dan fazlası bugün zaten tehdit altında; kayıplar “yok olma tehlikesi altında” olarak sınıflandırılan türlerin sayısını iki katından fazla artırabilir."
+    ],
+    "d": "University of Arizona ve University of South Florida araştırmacıları 993 kaktüs türünü modelledi. Şiddetli kuraklıklar hesaba katıldığında uygun yaşam alanındaki beklenen kayıplar belirgin biçimde artıyor.",
+    "t": "Nature çalışması: Kuraklık kaktüsleri bile tehdit ediyor – türlerin yüzde 35'ine kadarı alanının yüzde 80'inden fazlasını yitirebilir"
+   },
+   "at": "2026-11-12T06:46Z",
+   "flag": [
+    "Titel zu lang (133 Zeichen)"
+   ],
+   "h": "895311e65897",
+   "rev": [
+    "Headline is garbled: 'yüzde 35'e kadarı alanının %80'inden fazlasını' is awkward and mixes 'yüzde' with '%'; it is also 'bis zu 35 %' of the species, not of the area.",
+    "Indirect speech: 'yazarlara göre ilk etkiler ... gözlemlenebiliyor' reads like a plain fact; it needs a reporting marker (…gözlemlenebileceğini belirtiyor).",
+    "'diyen Enquist, bunu vurguluyor' is stilted and adds 'vurguluyor'; the German is 'sagt Enquist'.",
+    "'Türlerin yüzde 25 ila 35'i ... kaybedecek' loses the conditional of 'würden ... verlieren' (modelled projection).",
+    "'dokunulmaz' is an unnatural rendering of 'unverwundbar'; 'yüzde 30'dan fazlası' is fine."
+   ],
+   "rev_dbg": [
+    5,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Şili'deki Atacama Çölü'nde Copiapoa dealbata kaktüsü, 2011"
+   }
+  },
   "kultur-christmas-eve-busk-dublin-hansard-2026-11-12": {
    "L": {
     "body": [
@@ -1328,6 +1411,32 @@
     "img.alt": "Arşiv fotoğrafı: Dublin'deki Windmill Lane Studios"
    }
   },
+  "leben-all-of-us-genvarianten-medikamente-2026-11-12": {
+   "L": {
+    "body": [
+     "ABD'deki All of Us araştırma programı, vücudun ilaçlara nasıl yanıt verdiğini etkileyebilecek, şimdiye kadar bilinmeyen binlerce gen varyantı keşfetti. Bunu tıp portalı STAT bildirdi. 11 Kasım'da Science Translational Medicine dergisinde yayımlanan çalışma, yaklaşık 100.000 Amerikalının verilerine dayanıyor. Araştırmacılar, ilaçların alımını ve etkisini belirleyen genler olan 16 sözde farmakogeni inceledi.",
+     "Her katılımcı bu genlerde en az bir varyant taşıyordu ve her dört kişiden yaklaşık biri, etkisi bu varyantlar nedeniyle değişebilen bir ilaç kullanmıştı. Bunlar arasında SSRI grubundan antidepresanlar, statinler, kemoterapiler ve pıhtılaşma önleyici clopidogrel (Plavix) yer alıyor. “İnsanların birbirinden farklı olduğunun giderek daha fazla bilincine varıyoruz” dedi kıdemli yazar Philip Empey (University of Pittsburgh). Empey, bir ilaçla yaşanan olumsuz deneyimlerin otomatik olarak genlere bağlanamayacağını vurguladı. Çalışmaya katılmayan sağlık araştırmacısı Loren Saulsberry ise sonuçların, genetik temelli tedavinin çeşitli nüfus gruplarındaki yararını desteklediğini söyledi.",
+     "Aynı zamanda program mali baskı altında. STAT'a göre All of Us için 122 milyon dolar bekleniyor; bu, 2023'teki zirve döneme kıyasla yüzde 80 daha az. Programın hedefi bir milyon katılımcı; kayıtlı yaklaşık 5.000 çocuğun verileri ise araştırmacılara henüz sunulmuyor. Ekim sonunda görevinden ayrılan eski program başkanı Joshua Denny, katılımcı kazanmaya yönelik faaliyetlerin büyük ölçüde azaltıldığını söyledi."
+    ],
+    "d": "ABD'deki All of Us programı, ilaçların etkisini belirleyen 16 geni inceledi. Her katılımcı en az bir varyant taşıyor; antidepresanlar, statinler ve kemoterapi etkileniyor.",
+    "t": "Genler ve ilaçlar: Yaklaşık 100.000 kişilik ABD çalışması binlerce yeni varyant buldu"
+   },
+   "at": "2026-11-12T06:46Z",
+   "h": "3bfafa26ba95",
+   "rev": [
+    "Paragraph 3: 'Zugleich steht das Programm finanziell unter Druck' is a plain statement in German, but the draft turned it into 'belirtiliyor' (it is reported), which adds an attribution not present in",
+    "Paragraph 3: Denny's indirect speech ('seien ... zurückgefahren worden') is already attributed with 'söyledi'. This is acceptable, but 'azaltıldığını söyledi' fits better as a reported-speech structur",
+    "Paragraph 2: the Empey quote is rendered awkwardly as 'diyen kıdemli yazar … vurguladı', which merges two separate statements. It should be split into a clearer sentence."
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Laborantlar DNA örneklerini dizilemeye hazırlıyor, 2018"
+   }
+  },
   "leben-ballaststoffe-pflanzeneiweiss-darmflora-maeuse-2026-11-12": {
    "L": {
     "body": [
@@ -1347,6 +1456,34 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Kuru fasulye, bezelye ve mercimek karışımı"
+   }
+  },
+  "leben-bulgarien-steuerwerte-immobilien-30-prozent-2026-11-12": {
+   "L": {
+    "body": [
+     "Bulgaristan'daki gayrimenkul sahiplerinin daha yüksek bir emlak vergisine hazırlanması gerekiyor. Sofya'daki Meclis, 11 Kasım'da Bakanlar Kurulu'nun sunduğu yerel vergi ve harçlar kanununda yapılan değişiklikleri ilk okumada onayladı. Buna göre binalar, arsalar ve tarım arazileri için vergi baz değerleri kademeli olarak artacak: 2027'de yüzde 30, 2028 ve 2029'da ise her yıl yüzde 35. Değerler 2007'den beri güncellenmemişti. BTA haber ajansının bildirdiğine göre 124 milletvekili lehte, 48 milletvekili aleyhte oy kullandı, sekiz milletvekili çekimser kaldı.",
+     "Yeni vergi değerlemesinin çöp ücreti için geçerli olmaması öngörülüyor; ücret 2026 seviyesinde kalacak. Vergi bildirimleri ile erken ödemede indirim için süreler 2027 için uzatılıyor. Maliye Bakan Yardımcısı Lyudmila Petkova, belediyelerin ek gelirini 2027'de 73,4 milyon euro, 2028'de 172,1 milyon euro ve 2029'da 270,7 milyon euro olarak açıkladı.",
+     "Muhalefet planları eleştirdi. DPS'den Ayten Sabri, bir emeklinin vergisinin yüzde 30 artarken emekli maaşının yalnızca yüzde yedi arttığına dikkat çekti. GERB-SDS'den Temenuzhka Petkova, tasarıyı “aceleyle atılmış ve kötü düşünülmüş bir adım” olarak nitelendirdi. Milletvekilleri lehte oy kullanan “Progresif Bulgaristan”dan Georgi Çakarov planları savundu: Artışın belediyelerin yerel görevlerinin finansmanına katkı sağlayacağını söyledi."
+    ],
+    "d": "Emlak vergisinin baz değerleri 2007'den beri değişmedi. 2029'a kadar kademeli olarak artacak, bu da mal sahipleri için vergiyi yükseltecek. Çöp ücreti 2026 seviyesinde kalacak.",
+    "t": "Bulgaristan: Gayrimenkul vergi değerleri 2027'de yüzde 30 artıyor – Meclis onayladı"
+   },
+   "at": "2026-11-12T06:46Z",
+   "h": "250e795f13ad",
+   "rev": [
+    "Quotation marks: Turkish draft uses “…” for the quote and for the party name; acceptable, no change needed.",
+    "Name transliteration inconsistent: 'Aytən Sabri' uses an Azerbaijani letter; should be Turkish-style 'Ayten Sabri'.",
+    "'Milletvekilleri lehte oy kullanan “Progressive Bulgaria”dan' is awkward; the German says the party's MPs voted in favour.",
+    "'Maliye Bakan Yardımcısı' lacks the possessive: it should be 'Maliye Bakan Yardımcısı' (correct as is), no change.",
+    "Draft title says 'Meclis onayladı', consistent with German; fine."
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Sofya'nın Sveta Troitsa semtindeki apartman blokları"
    }
   },
   "leben-destatis-oktober-butter-heizoel-preise-2026-11-12": {
@@ -1503,6 +1640,28 @@
      "Açık soru: Avrupa'nın müzakere masasındaki rolü"
     ],
     "img.alt": "Arşiv fotoğrafı: Vladimir Putin, Steve Witkoff ve Jared Kushner ile bir görüşmede"
+   }
+  },
+  "welt-fairford-anklage-iran-revolutionsgarden-2026-11-12": {
+   "L": {
+    "body": [
+     "Manhattan'daki federal savcılık, İran destekli ajanlar olarak nitelendirdiği üç erkek hakkında sekiz maddelik iddianame hazırladı. Adalet Bakanlığı'na göre sanıklar, İran Devrim Muhafızları'na ve Iraklı milis gücü Kataib Hizbullah'a destek amacıyla hareket etti ve Avrupa ile Kuzey Amerika'daki yaklaşık 20 saldırı ve saldırı girişimine karıştı; bunların arasında İngiliz hava kuvvetleri üssü RAF Fairford'a yönelik bir plan da var. Suçlamalar arasında terör örgütlerine maddi destek sağlamak için komplo kurmak ve kamuya açık bir yere bombalı saldırı düzenlemek için komplo kurmak yer alıyor. Sanıklar; İran ve Irak vatandaşlığına sahip, Mayıs ayından beri New York'ta tutuklu olan 32 yaşındaki bir erkek ile yeri açıklanmayan 48 yaşındaki bir İranlı ve 35 yaşındaki bir Iraklı.",
+     "İddianameye göre 35 yaşındaki sanık, başkalarına üsse, bir kısmı yakıt variller taşıyan kamyonetler götürmelerini söyledi ve onlara şarapnel olarak kullanılabilecek metal parçaların alımı için ödeme yaptı. Araçlar yakıt tedarikçisi gibi görünecekti. Eylülde bir çiftçi, beyaz kamyonetli şüpheli erkekleri ihbar etmişti; günler sonra ABD tüm B-1 bombardıman uçaklarını Fairford'dan çekti. Federal Savcı Jamie McDonald, “Bu sanıklar, İran bağlantılı terör örgütleri adına bir terör kampanyasının yürütülmesine yardım etti” dedi.",
+     "32 yaşındaki sanığın daha önce de Avrupa'daki Yahudi ve İsrail hedeflerine yönelik saldırılarla suçlandığı belirtiliyor; bunlar arasında Nisan'da Londra'da iki Yahudi erkeğe yönelik bıçaklı saldırı da var. Sanık Haziran'da suçsuz olduğunu savundu. İran, Fairford'daki olaya karıştığını kesin bir dille reddediyor; Tahran iddianamelere ilişkin başlangıçta bir açıklama yapmadı. Tüm sanıklar için masumiyet karinesi geçerlidir."
+    ],
+    "d": "Erkeklerin, Devrim Muhafızları ve Iraklı Kataib Hizbullah adına Avrupa ve Kuzey Amerika'da yaklaşık 20 saldırı ve saldırı girişimine karıştıkları öne sürülüyor. Tahran bunu reddediyor.",
+    "t": "Fairford hava üssüne saldırı planı: ABD, İran bağlantılı üç şüpheliyi suçladı"
+   },
+   "at": "2026-11-12T06:46Z",
+   "h": "d189608832d5",
+   "rev_dbg": [
+    6,
+    9,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: RAF Fairford hava üssünün kapısı",
+    "kl": "ABD"
    }
   },
   "welt-gaza-winterhilfe-friedensrat-kritik-mobilheime-2026-11-12": {
@@ -1763,6 +1922,60 @@
     "img.alt": "Arşiv fotoğrafı: Finlandiya Cumhurbaşkanı Alexander Stubb, 2024"
    }
   },
+  "welt-ust-luga-omsk-drohnen-tschornomorsk-markt-2026-11-12": {
+   "L": {
+    "body": [
+     "Ukrayna Genelkurmayı, dronların Leningrad bölgesindeki Ust-Luga limanını vurduğunu ve toplam 150.000 metreküp kapasiteli beş petrol tankına zarar verdiğini bildirdi. İstihbarat servisi SBU'ya göre Buyan-M sınıfı bir füze botu da vuruldu. Bölge valisi, gece 150 dronun düşürüldüğünü ve üç işçinin yaralandığını söyledi. Haberlere göre Ukrayna dronları Rusya'nın en büyük rafinerisi olan ve Ukrayna'dan yaklaşık 2500 kilometre uzaklıktaki Omsk rafinerisini de hedef aldı; Omsk Valisi bölgede bir dron saldırısı yapıldığını doğruladı. Rusya Savunma Bakanlığı, bir gecede 627 Ukrayna dronunu düşürdüğünü açıkladı.",
+     "Rusya ise Çarşamba'ya bağlanan gece Vinnitsa, Kirovohrad, Jitomir ve Çerkasi bölgelerinde altı büyük trafo merkezine saldırdı; birçok bölgede elektrik kesildi. Kiev, enerji tasarrufu için sokak aydınlatmasını geçici olarak kapattı. Kryvyi Rih'teki bir bölgesel ısıtma tesisi de vuruldu. Çarşamba günü Odessa bölgesindeki Çornomorsk'ta kalabalık bir pazar yerine düzenlenen Rus saldırısında, Vali Oleh Kiper'in verdiği bilgiye göre en az dört kişi öldü, en az on kişi yaralandı.",
+     "Hackerlar, devlet haber ajansı Ukrinform'un ana sayfasını üzeri çizili bir Ukrayna bayrağı ve “ZELENET” sözcüğüyle değiştirdi ve ajansın X hesabını ele geçirdi. Ajans, durumun düzeltilmesi için SBU ile birlikte çalışıyor. Zelenskiy, Ukrayna'nın ilk İsveç yapımı Gripen savaş uçaklarını Ocak veya Şubat 2027'de beklediğini söyledi."
+    ],
+    "d": "Abu Dabi'de müzakere yürütülürken hava savaşı sürdü: Kiev bir Baltık limanına ve Rusya'nın en büyük rafinerisine isabet bildirdi, Moskova elektrik şebekesine ve Çornomorsk'taki bir pazar yerine saldırdı.",
+    "t": "Ust-Luga ve Omsk'a dron saldırısı – Rusya Odessa'da trafo merkezlerini, pazarı vurdu"
+   },
+   "at": "2026-11-12T06:46Z",
+   "h": "d35ab8b13a38",
+   "rev": [
+    "Title: 'Odessa yakınında' is imprecise but acceptable; no change",
+    "Ukrinform text: 'Wiederherstellung' rendered as 'sistemlerin yeniden kurulması', which is slightly off; 'Ukrinform'un ve hesabın geri kazanılması' is closer",
+    "Spelling of the name: Selenskyj is conventionally 'Zelenski' in Turkish",
+    "Governor of Leningrad region: 'Bölge valisi' is fine",
+    "'Fernwärmeanlage' as 'bölgesel ısıtma tesisi' is acceptable but 'bölgesel ısıtma' is fine; no change"
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Ust-Luga'daki konteyner terminali (2020)"
+   }
+  },
+  "wirtschaft-allianz-rekord-prognose-2026-11-12": {
+   "L": {
+    "body": [
+     "Allianz, 2026'nın ilk dokuz ayında operasyonel sonucunu geçen yılın aynı dönemindeki 13,1 milyar avrodan 14,1 milyar avroya yükseltti. Bunu uzman portal Cash çarşamba günü bildirdi. Münih merkezli sigortacı aynı zamanda yıllık hedefini de yükseltti: Şubat ayında açıklanan 17,4 milyar avro artı/eksi bir milyar avroluk aralık yerine, şirket artık yaklaşık 18,6 milyar avro hedefliyor; ancak bunun koşulu, öngörülemeyen büyük hasarların veya sermaye piyasalarında sarsıntıların yaşanmamasıdır. Allianz'ın üçüncü çeyreğe ilişkin tam raporu 12 Kasım'da sunması planlanıyordu.",
+     "Operasyonel sonuç, yılın ilk yarısında zaten yüzde 8,6 artarak 9,39 milyar avroya yükselmişti. Mal ve kaza sigortası 4,871 milyar avro, hayat ve sağlık sigortası 2,898 milyar avro, varlık yönetimi ise 1,790 milyar avro katkı sağladı. Sermaye yeterliliğinin ölçüsü olan Solvency II oranı, 2025 sonunda yüzde 218 iken Haziran sonunda yüzde 225 oldu. Şubat ayında başlatılan ve 2,5 milyar avroya kadar öngörülen hisse geri alımının 1,4 milyar avroluk kısmı yıl ortasına kadar gerçekleştirilmişti.",
+     "Analistler önceden üçüncü çeyrekte yaklaşık 4,3 milyar avroluk bir grup operasyonel sonucu bekliyordu. Mal ve kaza bölümü için yaklaşık 2,11 milyar avro, yani bir yıl öncesine göre yüzde 12 daha az öngörüyorlardı; özel banka Berenberg ise doğal afetler nedeniyle yaklaşık 300 milyon avro ek maliyet hesaplıyordu. Allianz, 2025'in tamamında 17,4 milyar avroluk operasyonel sonuç elde etmişti."
+    ],
+    "d": "Sigortacının operasyonel sonucu dokuz ayda 14,1 milyar avroya ulaştı. Allianz 2026 için şimdi yaklaşık 18,6 milyar avro hedefliyor; tam çeyrek raporu perşembe günü açıklanacak.",
+    "t": "Allianz operasyonel kârını rekora taşıdı, yıllık hedefini 18,6 milyar avroya yükseltti"
+   },
+   "at": "2026-11-12T06:46Z",
+   "h": "8d0feed82670",
+   "rev": [
+    "Weekday 'Perşembe' in the teaser is capitalised; TDK requires lowercase 'perşembe'",
+    "Weekday 'Çarşamba' in the body is capitalised; TDK requires lowercase 'çarşamba'",
+    "Teaser: 'tam üçüncü çeyrek raporu' is clumsy; the German says 'vollständiger Quartalsbericht'"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Münih'te Königinstraße'deki Allianz binası"
+   }
+  },
   "wirtschaft-bulgarien-uebernachtungen-umsatz-september-2026-11-12": {
    "L": {
     "body": [
@@ -1854,6 +2067,31 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Reserve Bank of India'nın Mumbai'deki binası"
+   }
+  },
+  "wirtschaft-itf-group-anleihe-boerse-sofia-2026-11-12": {
+   "L": {
+    "body": [
+     "Bulgaristan merkezli fintech grubu ITF Group, Bulgaristan Borsası (BFB) aracılığıyla yatırımcılara 15 milyon euroya kadar tutarda tahvil satmak istiyor. BTA haber ajansı 11 Kasım'da şirketin verdiği bilgilere dayanarak, ilk halka arzın 17-19 Kasım 2026 tarihleri arasında yapılmasının planlandığını bildirdi. Tahvillerin vadesi yedi yıl, yıllık kuponu yüzde 11 olup kupon altı ayda bir ödenecek; anapara taksitler halinde geri ödenecek. Plasman yöneticisi ELANA Trading.",
+     "Şirketin verdiği bilgilere göre bu, Bulgaristan'da bu yıl halka açık olarak sunulan en büyük tahvil ihracı ve şirket tarihinin en büyüğü olacak denilebilir; şirket bunu iddia ediyor. Bu, grubun beşinci tahvili, ancak halka açık olarak satışa sunulan ilk tahvili. BTA'nın daha önceki bilgilerine göre ITF, Bulgaristan'da tüketicilere ve şirketlere yönelik banka dışı çevrim içi krediler alanında uzmanlaşmış durumda; hisseleri borsanın “Beam” segmentinde işlem görüyor ve haberin yayımlandığı sırada 6,25 euro seviyesindeydi. Haberde gelirin ne için kullanılacağı belirtilmedi."
+    ],
+    "d": "15 milyon euroya kadar, yedi yıl vade, yüzde 11 faiz: Bulgaristan Borsası'nda talep toplama dönemi 17-19 Kasım tarihleri arasında sürecek.",
+    "t": "Fintech ITF Group, Bulgar borsasında yılın en büyük halka açık tahvilini planlıyor"
+   },
+   "at": "2026-11-12T06:46Z",
+   "h": "1d2b6a24853a",
+   "rev": [
+    "Indirect speech: 'wäre es die größte' rendered as plain fact ('olacak'); hedge needs to be restored",
+    "'Platzierungsmanager ist ELANA Trading' lacks a copula/is clumsy; 'Satış aracısı' is an imprecise term",
+    "Title says 'Bulgaristan borsasında' – acceptable; teaser 'talep toplama dönemi' for Zeichnungsfrist is acceptable"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Sofya'daki Bulgaristan Borsası önünde boğa heykeli"
    }
   }
  }
