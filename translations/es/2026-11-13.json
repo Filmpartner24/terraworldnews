@@ -1,6 +1,31 @@
 {
  "date": "2026-11-13",
  "items": {
+  "abu-dhabi-festnahmen-usman-raf-ausgeschlossen": {
+   "L": {
+    "body": [
+     "Tras la pelea en el vestíbulo de un hotel de Abu Dabi el miércoles, la policía detuvo, según Sherdog, a ocho implicados y a dos personas que habían grabado el incidente. Los casos fueron remitidos a la Fiscalía; la disputa se habría producido en el contexto de diferencias anteriores, informaron las autoridades. La policía no facilitó nombres. Según The National, entre los detenidos figuran el excampeón del peso gallo de la UFC Merab Dvalishvili y Usman Nurmagomedov. Rige la presunción de inocencia para todos los implicados.",
+     "Dvalishvili no se presentó el jueves a la rueda de prensa de la liga de lucha Real American Freestyle (RAF), en la que debe enfrentarse el sábado a Marlon Moraes. El cofundador y director ejecutivo de la RAF, Chad Bronstein, dijo, según The National, que trabajan con las autoridades de los Emiratos en la situación: «Merab está bien». Sobre las consecuencias afirmó: «Usman, por supuesto, no asistirá a nuestro evento el sábado por la noche».",
+     "No se sabe si Dvalishvili podrá luchar el sábado en el Etihad Arena. Tampoco acudió a la rueda de prensa Umar Nurmagomedov, hermano de Usman, que debe enfrentarse a Urijah Faber en la RAF. The National no pudo confirmar si estuvo implicado en el incidente. Por el momento no se conoce ninguna declaración de Usman Nurmagomedov."
+    ],
+    "d": "La policía detuvo a diez personas tras el incidente con Merab Dvalishvili. El georgiano no acudió a la rueda de prensa y su combate de lucha del sábado está en el aire.",
+    "t": "Tras la pelea en un hotel: diez detenidos en Abu Dabi; la RAF veta a Usman Nurmagomedov"
+   },
+   "at": "2026-11-13T08:44Z",
+   "h": "709d145ca0ce",
+   "rev": [
+    "Lucha: 'Ringkampf' rendered as 'combate de lucha' – acceptable, but 'Tras la pelea' in headline fine; no major errors",
+    "Minor: 'Por el momento no hay declaración' reads slightly unnatural; improved wording"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico de portada: Abu Dabi – detenciones tras una pelea en un hotel, la RAF excluye a Usman Nurmagomedov"
+   }
+  },
   "berlin-marzahn-schuelerin-ermittlungen-2026-11-13-b08": {
    "L": {
     "body": [
@@ -949,6 +974,32 @@
     "img.alt": "Edificio del Reichstag y Paul-Löbe-Haus en Berlín (imagen simbólica)"
    }
   },
+  "invest-bulgarien": {
+   "L": {
+    "body": [
+     "Novedad desde el jueves: Sofía recibe una subvención de 282 millones de euros del programa de la UE «Desarrollo Regional». El ministro de Desarrollo Regional, Ivan Shishkov, y el alcalde, Vasil Terziev, firmaron el contrato. El paquete completo cuesta casi 800 millones de euros: la línea 3 del metro se ampliará unos 6 km con 6 estaciones en dirección a Tsarigradsko Shose, y en Lyulin se añadirán 1,9 km con 2 estaciones. También están previstos 16 trenes de metro, 75 trolebuses y 50 autobuses eléctricos. El plazo es finales de 2029 (BNR, Focus, 12.11.).",
+     "En la región de Kyustendil, la distribuidora eléctrica Elektrohold invierte este año casi 5 millones de euros en la red, de ellos unos 2,3 millones en conexiones de nuevos clientes (BTA, 12.11.). En la disputa por la multa de la KZK el tono se endurece: el director de Kaufland, Mihail Petrov, advirtió de que el colapso de la cadena sería peor que la quiebra del banco KTB. Kaufland tiene 8.800 empleados y ha invertido unos 1.000 millones de leva en sus tiendas; Petrov descartó una retirada. El ministro de Economía, Aleksandar Pulev, calificó el tono de arrogante. La decisión de la KZK no es firme y Kaufland quiere recurrir (Economic.bg, 12.11.).",
+     "Tras una reunión con empresarios y sindicatos, Pulev anunció 2.000 millones de euros en ayudas contra los altos precios de la electricidad: 1.500 millones del Fondo de Seguridad del Sistema y 500 millones a través del banco de desarrollo BBR; además, las empresas recibirán 15 euros por MWh (Standart, 12.11.). Bulgargaz solicitó para diciembre un aumento del 14,38 % en el gas natural. El Banco Mundial estima que 10.000 millones de dólares adicionales en inversiones climáticas elevarán el PIB un 0,6 % hasta 2050. La tabla tiene 28 entradas; los proyectos con cifra suman 890,3 millones de euros (cálculo propio; el pedido de trenes de metro se cuenta ahora en el paquete de la UE, no por duplicado)."
+    ],
+    "d": "La subvención forma parte de un paquete de transporte de casi 800 millones de euros. Elektrohold invierte casi 5 millones de euros en Kyustendil y el Estado anuncia 2.000 millones en ayudas contra la electricidad cara.",
+    "explain": "Para Sofía, esto significa en los próximos años nuevos tramos de metro y autobuses, en parte financiados con fondos de la UE. Las empresas con altas facturas de electricidad pueden esperar más ayuda estatal.",
+    "t": "Sofía: 282 M€ de la UE para metro y buses eléctricos; se agrava pugna con Kaufland"
+   },
+   "at": "2026-11-13T08:44Z",
+   "h": "f51f33b65a07",
+   "rev": [
+    "Teaser: 'invierte' (Elektrohold investiert) was rendered as past tense 'invirtió' (invierte vs. 'invierte' check): the draft says 'invierte' correctly, but the headline length exceeds 90 characters",
+    "Headline too long (over 90 characters)",
+    "Teaser: 'Elektrohold invierte casi 5 millones' lacks 'de euros' (minor); 'en ayudas contra la electricidad cara' acceptable",
+    "Indirect speech: Petrov's warning is already attributed with 'advirtió de que' and conditional 'sería', so it is fine",
+    "Petrov's name transliteration: 'Mihail' vs 'Mijaíl' is acceptable"
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ]
+  },
   "invest-deutschland": {
    "L": {
     "body": [
@@ -1002,6 +1053,30 @@
    ],
    "x": {
     "img.alt": "Estadio San Siro de Milán (Foto de archivo)"
+   }
+  },
+  "jd-com-ceconomy-mediamarkt-uebernahme-vollzogen-2026-11-13": {
+   "L": {
+    "body": [
+     "El minorista en línea chino JD.com completó el 12 de noviembre la adquisición de Ceconomy AG, con sede en Düsseldorf. A través de su filial Jingdong Holding Germany, JD.com posee ahora el 59,8 % del capital social y de los derechos de voto; el grupo pagó en total 1.335 millones de euros, es decir, 4,60 euros en efectivo por acción. La familia fundadora Kellerhals sigue a bordo con el 25,3 % a través de su sociedad de participaciones Convergenta; juntos, ambos socios controlan el 85,2 %. Ceconomy, con unos 50.000 empleados, opera más de 1.000 tiendas de electrónica en once países bajo las marcas MediaMarkt, Saturn y MediaWorld, y a partir de ahora se incluirá en las cuentas consolidadas de JD.com.",
+     "El camino hasta aquí fue largo: según Handelsblatt, el plazo adicional de aceptación de la oferta había expirado ya el 27 de noviembre de 2025; entonces Ceconomy fue valorada en algo más de 2.200 millones de euros. Después, la Comisión Europea examinó, con arreglo a su reglamento sobre subvenciones extranjeras, si las ayudas estatales chinas favorecían la compra. A principios de noviembre, según Handelsblatt, Bruselas dio luz verde con condiciones: todas las transacciones entre JD.com y Ceconomy, en particular las financiaciones, deben realizarse en condiciones de mercado durante diez años. Las empresas prometen además que Ceconomy seguirá siendo una empresa europea independiente con su propia informática local; según indican, no se prevén cambios en la plantilla, los convenios de empresa ni los emplazamientos, y JD.com quiere invertir en las marcas. El consejero delegado de Ceconomy, Remko Rijnders, habló del comienzo de un nuevo capítulo.",
+     "Para el sector del comercio minorista, la operación es un caso de prueba. Oportunidades: JD.com aporta experiencia en comercio electrónico, logística y tecnología digital, Ceconomy obtiene un accionista mayoritario con solidez financiera y JD.com consigue de golpe una red de tiendas en Europa. Riesgos: las condiciones limitan las financiaciones dentro del grupo, la operación seguirá bajo vigilancia política –China había amenazado a la UE en agosto con contramedidas por el examen– y está por ver si los compromisos se mantienen durante años. Para los clientes, por ahora no se han anunciado cambios. Este texto no constituye asesoramiento de inversión."
+    ],
+    "d": "Casi un año después del fin del plazo de aceptación, la operación está cerrada: JD.com paga 1.335 millones de euros por el 59,8 % de la matriz de MediaMarkt y Saturn. Los compromisos sobre empleo y marcas buscan disipar dudas.",
+    "t": "MediaMarkt ya es de JD.com: el grupo chino completa la compra de Ceconomy"
+   },
+   "at": "2026-11-13T08:44Z",
+   "flag": [
+    "Teaser zu lang (226 Zeichen)"
+   ],
+   "h": "1a73d75e9440",
+   "rev_dbg": [
+    4,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: tienda de MediaMarkt en Bydgoszcz (Polonia)"
    }
   },
   "ki-amd-psiquantum-beteiligung-quantenrechner-2026-11-13": {
@@ -1695,6 +1770,27 @@
     "img.alt": "Estadio Rajko Mitić de Belgrado (Foto de archivo)"
    }
   },
+  "one-samurai-5-pacio-yamakita-vorschau": {
+   "L": {
+    "body": [
+     "Joshua Pacio defiende el próximo miércoles 18 de noviembre, en ONE SAMURAI 5, en el EBARA WAVE Arena Ota de Tokio, su título mundial de ONE del peso paja (MMA) ante Keito Yamakita. El filipino, de 30 años (24-5), es según ONE uno de los dos únicos luchadores que han ganado el mismo título de ONE tres veces. En julio venció por sumisión en el primer asalto a Mansur Malachiev.",
+     "El camino de Pacio ha sido irregular: en 2018, con 22 años, ganó el título por primera vez, lo perdió a principios de 2019 ante Yosuke Saruta y lo recuperó ese mismo año por KO. En 2022 cayó ante Jarred Brooks, recuperó el cinturón en 2024 en la revancha y unificó los títulos en 2025 en el tercer duelo con Brooks, en ONE 171 en Catar.",
+     "El aspirante Yamakita (30 años, 13-1) es luchador y ha ganado seis de siete combates en ONE; en su racha de cinco victorias seguidas derrotó también al excampeón Alex Silva y a Saruta. El cartel incluye además a Jarred Brooks contra Tatsumitsu Wada y un combate de kickboxing de Ryujin Nasukawa contra Raichi Nagai, que sustituye al lesionado Elmehdi El Jamari."
+    ],
+    "d": "El miércoles se disputa en Tokio el combate por el título del peso paja: Joshua Pacio se mide al japonés Keito Yamakita, que ha ganado cinco combates seguidos.",
+    "t": "ONE SAMURAI 5: el tricampeón Pacio defiende su título en Tokio ante el luchador Yamakita"
+   },
+   "at": "2026-11-13T08:44Z",
+   "h": "3b64b0c58868",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico de portada: ONE SAMURAI 5 – Joshua Pacio contra Keito Yamakita"
+   }
+  },
   "strom-ibex": {
    "L": {
     "body": [
@@ -1739,6 +1835,58 @@
    ],
    "x": {
     "img.alt": "Cain Velasquez en una sesión de autógrafos en marzo de 2010 (Foto de archivo)"
+   }
+  },
+  "ufc-335-hooper-padilla-bericht": {
+   "L": {
+    "body": [
+     "Chase Hooper y Chris Padilla se enfrentarían, según MMA Junkie, en el peso ligero en UFC 335, el 12 de diciembre en el T-Mobile Arena de Las Vegas. Dos fuentes que pidieron mantener el anonimato habrían confirmado el combate; Connected MMA fue el primero en informarlo. La UFC todavía no ha anunciado oficialmente la pelea.",
+     "Hooper puso fin en julio, con una victoria por sumisión ante Mitch Ramirez, a una racha de dos derrotas, aunque antes de ese combate no había dado el peso. Padilla está invicto en nueve combates, con cinco victorias y un empate en la UFC; en agosto sometió por estrangulación a Nasrat Haqparast.",
+     "Según MMA Junkie, UFC 335 es el último evento del año 2026 de la UFC. En la pelea estelar, Charles Oliveira defiende el título BMF ante Diego Lopes; en la co-estelar, Alex Pereira se mide con Sergei Pavlovich."
+    ],
+    "d": "El último evento del año de la UFC, el 12 de diciembre en Las Vegas, suma otro combate de peso ligero, según MMA Junkie. Aún no es oficial.",
+    "t": "Informe: Chase Hooper se enfrentará en UFC 335 a Padilla, invicto en nueve combates"
+   },
+   "at": "2026-11-13T08:44Z",
+   "h": "f403421bbefd",
+   "rev": [
+    "Original says the fighters 'sollen' meet (reported/unconfirmed); the draft states 'se enfrentarán' as plain fact, losing the hedge.",
+    "'Padilla ... invicto en nueve combates' is fine, but 'durmió por estrangulación' is an unnatural rendering of 'würgte ab' (should be 'sometió por estrangulación').",
+    "'el primero en informarlo' is fine; 'peso ligero de UFC 335' is awkward word order, which blurs the meaning (the bout is at UFC 335 in the lightweight division)."
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico de portada: UFC 335 – Chase Hooper contra Chris Padilla"
+   }
+  },
+  "uforce-drohnen-700-mio-finanzierung-2026-11-13": {
+   "L": {
+    "body": [
+     "La empresa emergente de defensa UForce, fundada en Ucrania, anunció el 12 de noviembre una financiación de serie A de 700 millones de dólares con una valoración de 6.000 millones de dólares. La ronda está liderada por Valor Equity Partners y el National Wealth Fund británico, que según DroneXL aporta 113 millones de libras (unos 150 millones de dólares), su mayor inversión hasta ahora en el ámbito de la defensa. También participan el US-Ukraine Reconstruction Investment Fund y, como nuevos inversores, Menlo Ventures, Xantium y Hiro Capital; los inversores anteriores Shield Capital, Ballistic Ventures, Lakestar y Squadra amplían su participación. Según DroneXL, UForce salió del anonimato apenas en marzo con unos 50 millones de dólares y una valoración de alrededor de 1.000 millones.",
+     "UForce tiene su sede en Londres y centros en Kiev y Washington; su director es Oleg Rogynskyy. Según DroneXL, bajo el paraguas británico se agrupan nueve empresas ucranianas de defensa. Es conocida sobre todo por el dron naval Magura, a lo que se suman los drones de ataque de la serie Nemesis, los robots terrestres Liut, las torres antidrones Predator y software de mando. Con el dinero se pretende ampliar la investigación y la producción, con más capacidad de fabricación en Estados Unidos, Europa, Asia-Pacífico y Oriente Medio. En las embarcaciones de la serie MV construidas en el Reino Unido, más del 70 por ciento de las piezas procederían, según DroneXL, de proveedores británicos. UForce no revela sus ingresos; según Rogynskyy (DroneXL), los pedidos recibidos se han más que duplicado en el último año.",
+     "La ronda muestra hasta qué punto la tecnología de defensa se ha convertido en un mercado de futuro para el capital riesgo y los fondos soberanos. Oportunidades: productos probados en la guerra, alta demanda de los Estados europeos de sistemas no tripulados y respaldo político de Londres y Washington. Riesgos: el principal cliente conocido sigue siendo Ucrania, no se han anunciado nuevos grandes pedidos, por ejemplo de la Royal Navy, faltan cifras de ingresos y la demanda depende en gran medida del curso de la guerra y de los presupuestos de defensa. Además, las inversiones en armamento son éticamente controvertidas. Este texto no constituye asesoramiento de inversión."
+    ],
+    "d": "El fabricante de los drones navales Magura obtiene nuevo capital en una ronda liderada por Valor Equity Partners y el fondo soberano británico NWF. También participa un fondo de reconstrucción estadounidense-ucraniano.",
+    "t": "UForce, de drones navales ucranianos, capta 700 M$ con valoración de 6.000 M$"
+   },
+   "at": "2026-11-13T08:44Z",
+   "h": "7827a921268d",
+   "rev": [
+    "\"Standorte\" rendered as \"oficinas\" (sites/locations); minor wording change to \"sedes\" would be more accurate",
+    "\"Chef\" rendered as \"director\"; acceptable, left as is",
+    "\"aus der Deckung gekommen\" rendered as \"salió del anonimato\"; acceptable, left as is"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: vehículos de superficie no tripulados en un ejercicio de la OTAN en Portugal (2025), no de UForce"
    }
   },
   "van-hollen-schumer-senat-fuehrung-2026-11-13-b08": {
