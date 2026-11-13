@@ -1101,6 +1101,30 @@
     "img.alt": "El edificio del Congreso de los Diputados en Madrid"
    }
   },
+  "gdc-umfrage-entlassungen-2026": {
+   "L": {
+    "body": [
+     "La oleada de despidos en la industria de los videojuegos continúa. En la 15.ª edición de la encuesta «State of the Game Industry» de la Game Developers Conference (GDC), el 34 por ciento de los más de 2.600 trabajadores del sector encuestados en todo el mundo afirmó haber sido despedido en los últimos dos años; en Estados Unidos fue el 39 por ciento. En la encuesta anterior, publicada en enero, las cifras eran del 28 y del 33 por ciento, respectivamente. El 17 por ciento de los afectados perdió su puesto dos veces en ese periodo y el 3 por ciento, tres o más veces.",
+     "Según VGC, el 54 por ciento de los despedidos sigue sin empleo, el 59 por ciento en Estados Unidos; el 27 por ciento ha solicitado al menos 100 puestos. Según Game Developer, casi la mitad de los encuestados indicó que hubo despidos en su empresa el año pasado; en los grandes estudios AAA fue el 68 por ciento. Los más afectados fueron, según estos datos, control de calidad, marketing y relaciones públicas, así como gráficos y gráficos técnicos; como motivos más frecuentes se citaron reestructuraciones, dificultades financieras y proyectos cancelados.",
+     "El ánimo es, en consecuencia, sombrío: el 81 por ciento de los encuestados se preocupa por su futuro en el sector y el 73 por ciento rechazó la afirmación de que mira con esperanza su evolución. Solo el 45 por ciento de los empleados considera su puesto de trabajo al menos relativamente seguro para los próximos doce meses, y el 72 por ciento de los desempleados no espera encontrar un nuevo empleo en un plazo de un año."
+    ],
+    "d": "El 34 por ciento de los encuestados ha perdido su empleo en los últimos dos años, más que en enero. Más de la mitad de ellos sigue sin trabajo.",
+    "t": "Encuesta GDC: uno de cada tres trabajadores de videojuegos, despedido en dos años"
+   },
+   "at": "2026-11-13T09:50Z",
+   "flag": [
+    "Zahlen fehlen oder weichen ab: 2600"
+   ],
+   "h": "4ee5d9277318",
+   "rev_dbg": [
+    4,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: entrada de la Game Developers Conference 2019 en el Moscone Center de San Francisco"
+   }
+  },
   "godzilla-dam-melee-remastered-test": {
    "L": {
     "body": [
@@ -1212,6 +1236,33 @@
    "x": {
     "img.alt": "Wolf Biermann en la Feria del Libro de Fráncfort 2026 (Foto de archivo)",
     "kl": "Hace 50 años"
+   }
+  },
+  "intergalactic-letzte-produktionsphase": {
+   "L": {
+    "body": [
+     "El próximo juego de Naughty Dog, «Intergalactic: The Heretic Prophet», se acerca a su finalización. Neil Druckmann, jefe del estudio, director y guionista, dijo en el programa de YouTube «Comic Creators Block Party 2026», en respuesta a una pregunta del presentador Patton Oswalt: «Estamos, por así decirlo, en la última fase de producción en la que podemos jugarlo». El equipo está ahora puliendo y mejorando el juego. Según Druckmann, citado por VGC, es la incursión del estudio en la ciencia ficción y, como hasta ahora solo se ha dado un adelanto, no puede revelar mucho.",
+     "Como referentes, Druckmann citó, según este informe, las raíces de ciencia ficción y fantasía de «Jak and Daxter», la acción pulp de «Uncharted» y el drama más serio de «The Last of Us»; además, el equipo querría profundizar en los sistemas de juego y, al mismo tiempo, narrar de forma cinematográfica. «No puedo esperar a mostrárselo al mundo», dijo, según KitGuru.",
+     "Sigue sin haber fecha de lanzamiento. En septiembre, Druckmann había anunciado una presentación completa para 2027 y había explicado que Naughty Dog se mantendría al margen hasta finales de 2026. El juego para PlayStation 5 trata de la cazarrecompensas Jordan, que realiza un aterrizaje de emergencia en el planeta Sempiria; en septiembre, Druckmann lo calificó como el juego más ambicioso del estudio hasta la fecha."
+    ],
+    "d": "Según Neil Druckmann, el próximo juego de los creadores de «The Last of Us» ya es jugable y se está puliendo. La gran presentación está prevista para 2027.",
+    "t": "«Intergalactic»: el juego de ciencia ficción de Naughty Dog, en su fase final"
+   },
+   "at": "2026-11-13T09:50Z",
+   "h": "aff79bf68fb1",
+   "rev": [
+    "Tense/modality: «no podría revelar mucho» should be «no puede revelar mucho» (könne = can, not conditional)",
+    "Awkward «Según Druckmann, como referentes citó»: redundant attribution, clumsy wording",
+    "«había anunciado… y declaró»: tense inconsistency; German has both in pluperfect (hatte angekündigt und erklärt)",
+    "«mantendría en segundo plano» is a loose rendering of «sich zurückhalten»; better «se mantendría callada/discreta»"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: el jefe de Naughty Dog, Neil Druckmann, en 2014 en la San Diego Comic-Con"
    }
   },
   "invest-bulgarien": {

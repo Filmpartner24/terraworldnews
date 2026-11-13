@@ -5457,6 +5457,32 @@
     "img.alt": "Sembolik fotoğraf: Diş aynasıyla diş muayenesi"
    }
   },
+  "wallstreet": {
+   "L": {
+    "body": [
+     "Perşembe günkü sert düşüşün ardından Wall Street cuma günü sakinleşti. Nasdaq Composite (çok sayıda teknoloji şirketi) yüzde 1,09 yükselerek 24.579,42 puana, S&P 500 (ABD'nin en büyük 500 şirketi) yüzde 0,31 yükselerek 7376,86 puana çıktı. Dow Jones (30 büyük şirket) ise yüzde 0,46 düşüşle 51.285,73 puana geriledi (AP). Haftalık bilanço ise negatif: S&P 500 yüzde −2,7 (Nisan 2025'ten bu yana en zayıf hafta), Nasdaq yüzde −3,4, Dow yüzde −0,9.",
+     "Perşembe günü en sert düşen çip hisseleri kayıpların bir kısmını geri aldı: AMD yüzde +11,0, Intel yüzde +7,7, Micron yüzde +5,1, Nvidia yüzde +2,8. Lam Research, 25 milyar dolara kadar hisse geri alımının ardından yüzde 8,2, IREN ise güçlü bilançosunun ardından yüzde 20 yükseldi. Kaybedenler arasında zayıf bilançosuyla Axon (yüzde −18,2), DraftKings (yüzde −21,3) ve Atlassian (yüzde −16,2) yer aldı.",
+     "Aylık istihdam raporu önemliydi. ABD'de Ekim ayında 165.000 yeni iş yaratıldı, beklenti yaklaşık 59.000'di; işsizlik oranı yüzde 4,1 oldu. Bu ekonomi için olumlu, ancak merkez bankası Fed'i Aralık'ta faiz artırımına yöneltebilir. On yıllık ABD tahvil getirisi yüzde 4,86'ya yükseldi (önceki gün yüzde 4,84; AP).",
+     "Petrol cuma günü neredeyse hiç hareket etmedi: Brent varil başına 98,32 dolardan, WTI 90,83 dolardan kapandı. Haftalık bazda ise fiyatlar yaklaşık yüzde 13 düştü; bu, 2022'den bu yana en büyük haftalık kayıp oldu; düşüşün arkasında İran savaşının sona ereceğine dair umutlar vardı (Bloomberg). Korku endeksi VIX yüzde 9 düşüşle 25,64'e indi, altın ise ons başına yaklaşık 4081 dolara hafifçe geriledi."
+    ],
+    "d": "Cuma: Nasdaq %+1,1, S&P 500 %+0,3, Dow %−0,5. Hafta genelinde S&P 500 %2,7, Nasdaq %3,4 değer kaybetti. Güçlü istihdam piyasası daha yüksek faiz endişesini besliyor.",
+    "explain": "ABD hisseleri kısmen toparlandı, ancak hafta kayıplarla sona eriyor. ABD'de faizler yükselirse krediler pahalanır ve hisseler dalgalı kalabilir; daha ucuz petrol akaryakıt fiyatlarını hafifletebilir.",
+    "t": "Çip hisseleri toparlandı, ancak S&P 500 Nisan 2025'ten bu yana en zayıf haftasını yaşadı"
+   },
+   "at": "2026-11-13T09:50Z",
+   "h": "9c5b32a920fb",
+   "rev": [
+    "Teaser: percent sign placement for Nasdaq/S&P/Dow values is unnatural in Turkish (%+1,1 etc.); the teaser also omits that the S&P and Nasdaq lost on the week only partly, which is fine",
+    "'istihdam yaratıldı' – 'yeni istihdam' for 'neue Stellen' is imprecise; should be 'yeni iş/istihdam'",
+    "Oil paragraph: 'getrieben von Hoffnungen' was turned into an awkward passive 'belirtildi' construction, shifting the attribution",
+    "Teaser: 'Güçlü istihdam piyasası ... besliyor' is fine"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ]
+  },
   "welt-hebron-ibrahimi-moschee-gesperrt-2026-11-07": {
    "L": {
     "body": [
