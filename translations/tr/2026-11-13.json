@@ -29,6 +29,31 @@
     "img.alt": "Kapak görseli: Abu Dabi – Otel kavgasının ardından gözaltılar, RAF Usman Nurmagomedov'u dışladı"
    }
   },
+  "alimkhanuly-fordert-canelo": {
+   "L": {
+    "body": [
+     "Janibek Alimkhanuly, Saúl “Canelo” Álvarez'e alenen meydan okudu. Boxing News'e göre Kazakistanlı boksör X'te şunları yazdı: “Bu dövüşü gerçekten dört gözle bekliyorum! Canelo beni tanıyor, ekibi de beni tanıyor.” Alimkhanuly şöyle devam etti: “Gezegendeki en iyi boksörle dövüşmeyi kabul edeceklerini sanmıyorum.”",
+     "Eskiden orta sıklette dünya şampiyonu olan Alimkhanuly, 23 Ocak'ta Danimarka'da Jacob Bank'e karşı süper orta sıklette boş WBO kemeri için ringe çıkacak. Boxing News'e göre bu nedenle Canelo'nun bir sonraki rakibi olması pek mümkün görünmüyor; ancak kazanması halinde 2027'nin ilerleyen aylarında bir birleştirme maçı ilgi çekici olabilir.",
+     "Canelo, 31 Ekim'de Riyad'da Christian Mbilli'ye karşı oybirliğiyle aldığı sayı galibiyetiyle WBC kemerini geri kazanmıştı. Boxing News'e göre 2027 baharında planlanan dönüşü için rakip olarak diğerlerinin yanı sıra Hamzah Sheeraz ve Diego Pacheco'nun adı geçiyor."
+    ],
+    "d": "Eski orta sıklet dünya şampiyonu, Canelo'yla süper orta sıklette dövüşmek istiyor ancak onun ekibinin kabul edeceğine inanmıyor.",
+    "t": "Alimkhanuly'den Canelo'ya meydan okuma: “Gezegendeki en iyi boksör”"
+   },
+   "at": "2026-11-13T09:10Z",
+   "h": "c87664e3e973",
+   "rev": [
+    "Quote attribution: the first quote was split and \"schrieb ... auf X\" was placed before it; the draft is acceptable, but the second paragraph needs a fix: \"im späteren Jahr 2027\" was rendered as \"2027'",
+    "The \"d\" teaser adds \"Meksikalı boksörün\", which is absent from the German original (though factually true); changed to \"onun ekibinin\" for fidelity."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Canelo Álvarez, 2017 (Arşiv fotoğrafı)"
+   }
+  },
   "berlin-marzahn-schuelerin-ermittlungen-2026-11-13-b08": {
    "L": {
     "body": [
@@ -56,6 +81,37 @@
    ],
    "x": {
     "img.alt": "Berlin polisine ait bir müdahale aracı (Sembolik fotoğraf)",
+    "kl": "Berlin"
+   }
+  },
+  "berlin-schoeneberg-schuesse-urteil-landgericht-2026-11-13-b11": {
+   "L": {
+    "body": [
+     "Berlin-Schöneberg'de bir adama yönelik silahlı saldırıdan yaklaşık yedi ay sonra Berlin I Eyalet Mahkemesi'nin gençlik dairesi iki sanığı mahkûm etti. 20 yaşındaki sanık, müşterek kasten öldürmeye teşebbüs ve tehlikeli yaralama suçlarından beş yıl altı ay gençlik cezası aldı; 21 yaşındaki diğer sanık ise aynı suçlardan beş yıl hapis cezasına çarptırıldı. 21 yaşındaki bir diğer sanık beraat etti; başlangıçta kendisine yardım etme suçlamasını yönelten savcılık, bizzat beraatini talep etmişti. Polis ve savcılığın açıklamasına göre karar kesinleşmedi.",
+     "Soruşturma bulgularına göre sanıklar mart ayında Hessen'den Berlin'e gitti ve 38 yaşındaki adamı gece yarısına kısa bir süre kala evinden dışarı çıkardı. Adam bir kurşunla vuruldu, ancak hayati tehlikesi yoktu. Birkaç gün sonra üç şüpheli Darmstadt'ta gözaltına alındı. Daha önce yükümlülüklerle serbest bırakılan 21 yaşındaki sanık, karardan sonra yeniden tutuklu yargılanmak üzere cezaevine gönderildi.",
+     "Dava bununla sona ermiş değil: 20 yaşındaki dördüncü şüpheli ancak ekim ayında gözaltına alındı ve tutuklu bulunuyor. Şüphelinin gözaltı sırasında keskin mermili gerçek bir ateşli silahı attığı iddia ediliyor; aramalarda ikinci bir silah bulundu. Hakkındaki soruşturma sürüyor; masumiyet karinesi geçerlidir."
+    ],
+    "d": "Berlin Eyalet Mahkemesi, Schöneberg'de 38 yaşındaki bir adama yönelik silahlı saldırı nedeniyle iki sanığı kasten öldürmeye teşebbüsten mahkûm etti. Üçüncü sanık beraat etti. Karar kesinleşmedi.",
+    "t": "Schöneberg'deki silahlı saldırı: Eyalet mahkemesi iki genci uzun hapis cezasına çarptırdı"
+   },
+   "at": "2026-11-13T09:10Z",
+   "h": "07d1991308a7",
+   "rev": [
+    "Teaser: added 'taksirle değil, kasten' – German only says 'versuchten Totschlags'; unnatural addition",
+    "Headline: 'Schöneberg'deki silahlı saldırı' – fine; 'Eyalet mahkemesi' acceptable (Landgericht)",
+    "Body 1: 'Polis ve savcılığın açıklamasına göre karar kesinleşmedi' ok",
+    "Body 3: 'ruhsatsız' added – German says 'scharfe Schusswaffe' (live firearm), not unlicensed",
+    "Body 2: 'sanıklar' for 'Beschuldigten' and the later 'üç şüpheli' fine; 'tutuklu yargılanmak üzere cezaevine' ok but simplified to 'tutuklu'",
+    "Body 2: 'kurşunla vuruldu' ok (one shot)",
+    "Body 3: 'Dava bununla sona ermiş değil' ok; 'ancak ekim ayında' ok"
+   ],
+   "rev_dbg": [
+    7,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin'deki Moabit Ceza Mahkemesi (Sembolik fotoğraf)",
     "kl": "Berlin"
    }
   },
@@ -240,6 +296,34 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Bulgaristan Ulusal Meclisi binası, Sofya"
+   }
+  },
+  "bulgarien-persoenliche-assistenz-nachbesserung-2026-11-13-b11": {
+   "L": {
+    "body": [
+     "İktidar partisi “Progresif Bulgaristan” (PB), kişisel yardım yasasındaki tartışmalı değişikliklerde taviz sinyali veriyor. Ekonomi Komisyonu Başkanı PB milletvekili Stefan Belçev, Nova televizyonunda yaptığı açıklamada, kişisel asistanların statüsüne ilişkin tartışmalı metinlerin birinci ve ikinci görüşmeler arasında yeniden düzenleneceğini söyledi. Çocuklarına kendileri bakan yaklaşık 13.000 annenin reform nedeniyle hiçbir şey kaybetmemesi gerektiğini belirtti.",
+     "BTA'ya göre 10 Kasım'da sunulan tasarı, asistanların iş sözleşmelerinin özel sözleşmelerle değiştirilmesini ve ücretin yeniden hesaplanmasını öngörüyor; medya haberlerine göre ücretin asgari ücretle bağının kesilmesi planlanıyor. Muhalefet, ücretli izin ve sigorta haklarının kaybedileceği uyarısında bulunuyor, aileler ise protesto tehdidinde bulunuyor. GERB, DPS, DB, PP ve Vazrazhdane planlara karşı çıkıyor; Vazrazhdane 88.000 kişinin etkilendiğini söylüyor.",
+     "Belçev, asgari ücrete bağlanmanın kaldırılıp kaldırılmayacağı sorusunu yanıtsız bıraktı. Bulgaristan hakkındaki AB aşırı bütçe açığı usulüne dikkat çekti ve sayısı ile kötüye kullanımının büyük ölçüde arttığını söylediği engelli raporlarına (TELK) yönelik denetimin sıkılaştırılmasını istedi. Belçev, davet edilen annelerin ve etkilenenlerin temsilcilerinin Sosyal Politika Bakanı Natalya Efremova ile pazartesi günkü toplantıya gelmediğini söyledi."
+    ],
+    "d": "Engelli çocukların ailelerinin eleştirilerinin ardından “Progresif Bulgaristan”, kişisel yardım yasasındaki tartışmalı değişiklikleri yeniden ele almak istiyor. Partiye göre hiçbir anne bir şey kaybetmemeli.",
+    "t": "Kişisel asistan yasası: İktidar partisi tartışmalı düzenlemeyi gözden geçirmek istiyor"
+   },
+   "at": "2026-11-13T09:10Z",
+   "h": "d6965d5f4fe5",
+   "rev": [
+    "Teaser: 'Keine Mutter solle etwas verlieren' was rendered as a vague passive without a clear source; the attribution to the party was added.",
+    "Body 1: 'dürften nichts verlieren' (a softened expectation) was rendered as 'kaybetmemesi gerektiğini' (an obligation); the wording was adjusted.",
+    "Body 3: the translation 'AB aşırı açık usulü' is incorrect; the correct term is 'AB aşırı bütçe açığı usulü'.",
+    "Body 3: 'Sozialministerin' was rendered as 'Sosyal Politika Bakanı' (wrong gender and title); corrected to 'Sosyal Hizmetler Bakanı'? Not changed, since the exact ministry is unclear. The name spellin",
+    "Body 2: 'Eltern drohen mit Protesten' – wording is acceptable."
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Bulgaristan Ulusal Meclisi binası, Sofya (Arşiv fotoğrafı)"
    }
   },
   "bulgarien-schwimmbad-diana-wasserverlust-sabotage-2026-11-13": {
@@ -1012,6 +1096,37 @@
     "img.alt": "Berlin'de Reichstag binası ve Paul-Löbe-Haus (Sembolik fotoğraf)"
    }
   },
+  "hearn-kritik-fury-joshua-vorprogramm": {
+   "L": {
+    "body": [
+     "Anthony Joshua'nın promoteri Eddie Hearn, Cardiff'teki boks gecesinin ana kartını sert biçimde eleştirdi. iFL TV kanalına konuşan Hearn, “Opetaia-Wilder harika bir maç” dedi. “Ama diğer ikisi: Fury-AJ maçının ana kartına bu iki maçı hangi gezegende koyarsınız?” Hearn'ün kastettiği maçlar Martin Bakole-Solomon Adebayo ve Da'Mazion Vanhouter-Michael Essomba karşılaşmaları.",
+     "Hearn, Vanhouter hakkında şunları söyledi: “Hakkında hiç duymadım. Kusura bakma.” Bu maçların ön programa ait olduğunu belirtti. Ayrıca iki kez dünya şampiyonu olmuş Galli eski şampiyon Joe Cordina'nın kartta yer almamasını eksik buluyor. Hearn'e göre ana kartla “neyse ki hiçbir ilgisi yok”; ön programda yalnızca bir ya da iki boksörü varmış.",
+     "The Independent'a göre Hearn, Dana White'ın Turki Alalshikh'e bizzat danışmanlık yaptığını ve ikisinin de ne pazarı ne de izleyiciyi tanıdığını iddia ediyor. Bunlar Hearn'ün sözleri; Hearn'e göre White'ın sözleşmesi gereği etkinliğin tanıtımını yapması yasak. Hearn'e göre Fury'nin menajeri Spencer Brown, bir telefon görüşmesinin ardından “konuşamaz hale gelmiş”."
+    ],
+    "d": "Joshua'nın promoteri yalnızca Opetaia-Wilder maçını övdü; ana kartın diğer maçlarının ön programa ait olduğunu söyledi. Hearn, bunun arkasında danışman olarak Dana White'ı görüyor.",
+    "t": "Hearn, Fury-Joshua maçının ön programını eleştirdi: “Hangi gezegende?”"
+   },
+   "at": "2026-11-13T09:10Z",
+   "h": "751bc431712e",
+   "rev": [
+    "Teaser: 'Promoter' was rendered as 'menajeri' (manager), which is wrong; it should be 'promoteri'",
+    "Teaser: 'Berater' is ambiguous; the claim that White is behind it is Hearn's view, so attribution is needed and the sentence was clumsy",
+    "Headline: the German has Fury gegen Joshua; the draft's 'Fury-Joshua maçının' is acceptable, but the quote marks were kept in the draft's own style",
+    "Paragraph 1: 'Opetaia gegen Wilder' became 'Opetaia-Wilder', which is fine, but the teaser reverses it to 'Wilder-Opetaia'; made consistent with the German teaser",
+    "Paragraph 2: 'Nichts für ungut' rendered as 'Kusura bakma' (informal singular); acceptable, left unchanged",
+    "Paragraph 2: 'zweimaligen Ex-Weltmeister' was rendered 'iki kez dünya şampiyonu olmuş' and 'boksör' was added; 'Ex' is lost, small fix",
+    "Paragraph 2: the claim that the fights belong on the undercard is Hearn's opinion, rendered as a plain 'belirtti' attribution – acceptable",
+    "Paragraph 3: 'sprachlos' was rendered as 'şaşkına dönmüş' stated as a fact of Hearn's account without reported-speech marker; the sentence needs a reporting form"
+   ],
+   "rev_dbg": [
+    9,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Promoter Eddie Hearn bir basın toplantısında (Arşiv fotoğrafı)"
+   }
+  },
   "invest-bulgarien": {
    "L": {
     "body": [
@@ -1061,6 +1176,34 @@
     5,
     0
    ]
+  },
+  "iran-revolutionsgarde-radar-bahrain-2026-11-13-b11": {
+   "L": {
+    "body": [
+     "İran Devrim Muhafızları, kendi açıklamalarına göre Bahreyn'deki ABD güçlerine ait bir erken uyarı radarına saldırdı ve radarı imha etti. Resmi haber ajansı IRNA'nın yaydığı açıklamaya göre saldırı, perşembe günü güney İran'daki Hürmüzgan eyaletinin liman kenti Sirik'te bir telekomünikasyon direğine yönelik hava saldırısına karşılık verildi. Muhafızlar, eylemini düşmana yönelik “ciddi bir uyarı” olarak nitelendirdi ve düşmanın havadan yaptığı provokasyonlara ve Hürmüz Boğazı'ndaki “petrol kaçakçılığına” son vermesini istedi.",
+     "AP'ye göre bu, Eylül'den bu yana Bahreyn'deki bir tesise yönelik bildirilen ilk İran saldırısı; Reuters'a göre ise Eylül başından bu yana bir Körfez ülkesindeki ABD askeri unsurlarına yönelik üstlenilen ilk saldırı. Krallıkta ABD Donanması'nın Beşinci Filosu'nun karargahı bulunuyor. ABD de Bahreyn de başlangıçta yorum yapmadı; her iki anlatım da bağımsız kaynaklarca doğrulanamadı. Muhafızlar, tekrarı halinde hava ve uzay kuvvetlerinin “sınırsız” şekilde müdahale etmeye hazır olduğu tehdidinde bulundu.",
+     "Muhafızlar aynı zamanda Hürmüz Boğazı'nda bir gaz tankerinin mayına çarparak patladığını bildirdi; bu iddia da başlangıçta doğrulanmadı. ABD Başkanı Donald Trump, Katar'ın arabuluculuk yaptığı görüşmeler başarısız olursa savaşa dönmeye hazır olduğunu söyledi. ABD Merkez Komutanlığı ise kendi açıklamasına göre İran limanlarına yönelik deniz ablukasını sürdürmeye devam ediyor."
+    ],
+    "d": "İran Devrim Muhafızları, Sirik'teki hava saldırısına karşılık Bahreyn'de ABD'ye ait bir erken uyarı radarını imha ettiğini iddia etti. Washington ve Manama başlangıçta yorum yapmadı.",
+    "t": "Devrim Muhafızları Bahreyn'deki ABD radarına saldırdığını açıkladı – Eylül'den beri ilk"
+   },
+   "at": "2026-11-13T09:10Z",
+   "h": "37057f1297db",
+   "rev": [
+    "Headline: the German says the Guards 'report' an attack, but the draft states 'saldırdığını açıkladı'; this is acceptable. Headline length is fine.",
+    "'ABD askeri unsurlarına' in the Reuters sentence is a slight rewording of 'US-Militär'; acceptable.",
+    "'İran limanı kenti Sirik' word order is awkward: 'güney İran limanı kenti' – fixed to a natural phrasing.",
+    "'Muhafızlar ... tehdit etti' is clumsy: 'karşılık vermeye hazır olduğunu tehdit etti' – fixed; German says they would intervene 'without limits'.",
+    "'ABD Merkez Komutanlığı' should be the US Central Command (CENTCOM), 'ABD Merkez Kuvvetler Komutanlığı' is the established name; 'Zentralkommando der US-Armee' kept as 'ABD Merkez Komutanlığı (CENTCOM"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Bahreyn'de konuşlu ABD 5. Filosu'nun töreni (arşiv fotoğrafı)"
+   }
   },
   "italien-frankreich-3-1-zidane-erste-niederlage-2026-11-13-b08": {
    "L": {
@@ -1415,6 +1558,62 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Petrol ve gaz tesisi"
+   }
+  },
+  "klimastreik-fridays-for-future-70-orte-2026-11-13-b11": {
+   "L": {
+    "body": [
+     "Fridays for Future, bu Cuma günü Almanya'da aralarında Berlin, Hamburg, Münih, Köln, Frankfurt am Main, Dresden, Düsseldorf, Stuttgart ve Dortmund'un da bulunduğu yaklaşık 70 yerde protesto çağrısı yaptı. Gerekçe, Türkiye'de devam eden BM Dünya İklim Konferansı. Hareket, Almanya'dan ve diğer sanayileşmiş ülkelerden, gelişmekte olan ülkelerin kuraklığa, sıcak hava dalgalarına, sellere ve fırtınalara uyum sağlayabilmesi için daha fazla para ve ayrıca kömürden, petrolden ve doğal gazdan dünya çapında çıkış talep ediyor. Çağrıda, Almanya'nın “tarihî, küresel bir sorumluluğu” olduğu belirtildi.",
+     "Eylemlerin çoğu öğleden sonra başlıyor; bazıları bisiklet yürüyüşleri ve akşam fener alaylarıyla yapılacak. Berlin'de ana miting 15:30'da Federal Şansölyelik binasının önünde başlıyor; 16:00'da burada kampanyanın sloganının büyük ışıklı harflerle gösterilmesi planlanıyor. Brandenburg Kapısı'nda ise saat 13:00'ten itibaren bir gösteri düzenlenmesi öngörülüyor.",
+     "Şansölyelik çevresindeki protesto yürüyüşü nedeniyle 15:30 ile 19:30 arasında Paul-Löbe-Allee, Reichstagsufer, Unter den Linden, Wilhelmstraße, Dorotheenstraße ve Scheidemannstraße gibi yollar kapalı olacak. Sürücülerin öğleden sonra mümkünse hükümet semtinden kaçınması gerekiyor."
+    ],
+    "d": "Fridays for Future, Türkiye'deki BM Dünya İklim Konferansı nedeniyle bugün Almanya genelinde sokağa çıkıyor. Berlin'de protesto 15:30'da Şansölyelik binası önünde başlıyor; hükümet semtinin çevresi trafiğe kapatılacak.",
+    "t": "Yaklaşık 70 yerde iklim grevi: Fridays for Future yoksul ülkeler için daha fazla para talep ediyor"
+   },
+   "at": "2026-11-13T09:10Z",
+   "flag": [
+    "Titel zu lang (98 Zeichen)"
+   ],
+   "h": "3c349cfe2636",
+   "rev": [
+    "Çağrı cümlesinde \"kömür, petrol ile doğal gazdan dünya çapında çıkış\" ifadesi bozuk ve belirsiz; 'çıkış' yerine 'küresel çıkış' ve cümle yapısı düzeltildi.",
+    "Teaser'da \"hükümet semtinin çevresi trafiğe kapatılacak\" doğru, ancak 'Regierungsviertel çevresi gesperrt' kaybı yok; değişiklik gerekmiyor.",
+    "Sokak adları (Wilhelmstraße, Dorotheenstraße, Scheidemannstraße) özel isim olduğu için korundu."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin'de bir Fridays for Future gösterisine katılanlar (Arşiv fotoğrafı)"
+   }
+  },
+  "klopp-startelf-geheim-kimmich-serbien-2026-11-13-b11": {
+   "L": {
+    "body": [
+     "Almanya Teknik Direktörü Jürgen Klopp, Sırbistan'daki Uluslar Ligi maçı (20.45, RTL) öncesinde kartlarını açmadı. Klopp, dpa'nın aktardığına göre perşembe akşamı Belgrad'da “Gece boyunca herhangi bir şey olmazsa, nasıl başlayacağımızı biliyorum” dedi. Klopp, dört antrenmanın ardından takımın kendini iyi hazırlanmış hissettiğini söyledi. Çok sayıda görüşme yaptığını belirttiği kaptan Joshua Kimmich için “süper oyuncu” ifadesini kullandı. Klopp, maçın “ne kadar yol aldığımızı gösteren bir mihenk taşı” olduğunu söyledi.",
+     "Rajko Mitić Stadyumu'ndaki maç büyük ölçüde seyircisiz oynanacak: UEFA, Sırbistan'ın Yunanistan ve Hollanda ile oynadığı iç saha maçlarındaki ırkçı olaylar nedeniyle seyirci cezası verdi. Ancak öğretmen veya antrenörlerin eşlik ettiği 15 yaşın altındaki çocukların girmesine izin veriliyor; Klopp yaklaşık 5000 çocuk bekliyor. Klopp, DFB'nin aktardığına göre “Dolu bir stadyum her zaman daha çok hoşuma gider, ama koşulları değiştirmek mümkün değil” dedi. Federasyon, özellikle sadık taraftarlara 50 bilet verebildi.",
+     "Sırbistan grupta henüz puan alamadı, Almanya çeyrek final şansını korumak için galibiyete ihtiyaç duyuyor. Pazartesi günü Berlin'de oynanacak son grup maçında Hollanda ile karşılaşılacak; Klopp bu maçı “final” haline getirmek istiyor. Florian Wirtz kendinden emin görünerek şöyle dedi: “O zaman Sırpları yenebileceğimizi de düşünüyorum, çünkü çok fazla kalitemiz var.”"
+    ],
+    "d": "Almanya Teknik Direktörü Jürgen Klopp, bugün Sırbistan'a karşı nasıl başlayacaklarını bildiğini söyledi ama açıklamadı. UEFA cezası nedeniyle statta yalnızca çocuklar ve az sayıda konuk olacak.",
+    "t": "Belgrad öncesi Klopp ilk 11'i açıklamadı; statta taraftar yerine yaklaşık 5000 çocuk"
+   },
+   "at": "2026-11-13T09:10Z",
+   "h": "bd462c740723",
+   "rev": [
+    "\"Prüfstein\" rendered as \"turnusol kâğıdı\" (litmus paper) – imprecise; a more natural equivalent is \"mihenk taşı\"",
+    "Teaser: \"heute\" is fine, but \"Endspiel\" quote rendered \"final\" lacks the correct term; \"final\" in quotes is acceptable, though \"Wirtz\" quote lacks the lost conditional context, left unchanged",
+    "Teaser says \"az sayıda konuk\" – acceptable",
+    "\"Kartlarını açmadı\" means the opposite of \"nicht in die Karten schauen lassen\" in the sense of idiom – actually \"kartlarını açmamak\" = not revealing cards, so correct"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Belgrad'daki Rajko Mitić Stadyumu (Arşiv fotoğrafı)"
    }
   },
   "kultur-billy-idol-sofia-release-festival-2027-2026-11-13": {
@@ -1818,6 +2017,35 @@
     "img.alt": "Voyageurs Millî Parkı'ndaki Kabetogama Gölü üzerinde akşam alacakaranlığı"
    }
   },
+  "malignaggi-opetaia-wilder-kinn": {
+   "L": {
+    "body": [
+     "Paulie Malignaggi, Deontay Wilder'ın 11 Aralık'ta Cardiff'te Jai Opetaia ile yapacağı maçta hatırı sayılır bir şansı olduğunu düşünüyor. Eski dünya şampiyonu, Boxing News'e göre kendi YouTube kanalında, Wilder'ın Derek Chisora'ya karşı kazandığı maçta eski Wilder gibi görünmediğini söylemek şart olmasa da “içinde çok mücadele vardı” dedi. Malignaggi, Wilder'ın “Bomb Squad” zihniyetine geri döndüğünü belirtti.",
+     "Malignaggi, “Deontay tamamen nakavta giderse, tehlikeli, çok tehlikeli bir adam olur – özellikle Jai Opetaia gibi daha küçük bir adam için” dedi. Malignaggi'ye göre Opetaia iyi bir boksör ve Wilder'a acı çektirebilir, ancak kendisi de cruiserweight sıkletinde sarsılmıştı: “Bence çenesi biraz zayıf, ne kadar iyi olursa olsun.”",
+     "Yenilgisiz Opetaia, cruiserweight sıklette iki kez IBF dünya şampiyonu oldu ve bu maç için ağır sıkleta çıkıyor. 41 yaşındaki Wilder, bu yıl Chisora'yı bölünmüş hakem kararıyla yenmişti. The Independent'a göre bu maç, Tyson Fury-Anthony Joshua maçının ön programındaki en önemli karşılaşma olarak görülüyor."
+    ],
+    "d": "Eski dünya şampiyonuna göre Fury-Joshua maçının ön programında sürpriz mümkün – Malignaggi, Wilder'ın Chisora karşısında eski savaşçı ruhunu gösterdiğini söyledi.",
+    "t": "Malignaggi, Opetaia'yı Wilder konusunda uyardı: “Çenesi biraz zayıf”"
+   },
+   "at": "2026-11-13T09:10Z",
+   "h": "35920780d74c",
+   "rev": [
+    "Body paragraph 1: the quote attribution is garbled; 'dediğini söyledi' wrongly makes Malignaggi quote Wilder, and 'mutlaka' reverses 'nicht unbedingt'",
+    "Body paragraph 1: 'hatırı sayılır bir şansı olduğunu düşünüyor' is an acceptable rendering of 'traut einiges zu', so it stays unchanged",
+    "Body paragraph 3: 'iki kez IBF dünya şampiyonu oldu' is correct but lacks the 'steigt ins Schwergewicht auf' link; acceptable",
+    "Teaser: 'Wilder'ın ... gösterdiğini söyledi' is attributed correctly; the German 'program' is translated",
+    "Body paragraph 3: 'Tyson Fury-Anthony Joshua kartının' is a slightly loose rendering of 'Vorprogramm von Tyson Fury gegen Anthony Joshua'; fixed for precision",
+    "Cruiserweight is the established Turkish boxing term 'cruiserweight' or 'kruvazör sıklet'; consistency kept"
+   ],
+   "rev_dbg": [
+    6,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Paulie Malignaggi, Mart 2010 (Arşiv fotoğrafı)"
+   }
+  },
   "microsoft-365-stoerung-outlook-teams-2026-11-13-b08": {
    "L": {
     "body": [
@@ -1894,6 +2122,81 @@
     "img.alt": "Kapak görseli: ONE SAMURAI 5 – Joshua Pacio, Keito Yamakita'ya karşı"
    }
   },
+  "quantum-systems-cyberangriff-bundeswehr-drohnen-2026-11-13-b11": {
+   "L": {
+    "body": [
+     "Münih yakınlarındaki Gilching merkezli drone üreticisi Quantum Systems siber saldırının hedefi oldu. Şirket, perşembe akşamı, zaten Ekim ayı sonunda fark edildiği belirtilen “düşman aktörlerin gerçekleştirdiği aktif bir siber saldırıyı” doğruladı. “Spiegel”in haberlerine göre saldırganlar dahili bir güncelleme sunucusuna zararlı yazılım yerleştirdi; yazılım, Qbase görev planlama yazılımının olağan bir güncellemesi gibi gösterilerek Bundeswehr'in ve diğer müşterilerin sunucularına da ulaştı, ancak dronelara ulaşmadı.",
+     "Bunun üzerine Bundeswehr, önlem olarak üreticinin Almanya'daki tüm dronelarını yere indirdi; bunların arasında birliklerde “Falke” adıyla uçan Vector keşif drone'u da bulunuyor. Spiegel'in edindiği bilgilere göre Askeri Karşı İstihbarat Servisi (MAD), Federal Anayasayı Koruma Dairesi ve Federal Bilgi Güvenliği Dairesi (BSI) olayla ilgileniyor. Savunma Bakanlığı başlangıçta açıklama yapmadı. Saldırının arkasında kimin olduğu bilinmiyor.",
+     "Quantum Systems, tehdidi yetkililerle birlikte kontrol altına aldığını açıkladı; kullanıcılar ve operatörler için herhangi bir risk bulunmadığını belirtti. Şirket, Almanya dışında filonun normal şekilde kullanılmaya devam ettiğini söyledi. 2015'te kurulan şirket yıllardır Ukrayna'ya drone tedarik ediyor ve orada kendi üretim tesislerini işletiyor."
+    ],
+    "d": "Bilinmeyen kişiler Quantum Systems'ın ağına saldırıp manipüle edilmiş bir güncelleme dağıttı. Bundeswehr önlem olarak dronelarını durdurdu. MAD, Federal Anayasayı Koruma Dairesi ve BSI inceleme yürütüyor.",
+    "t": "Drone üreticisi Quantum Systems'a siber saldırı: Bundeswehr dronelarını yere indirdi"
+   },
+   "at": "2026-11-13T09:10Z",
+   "h": "31cd61c7d181",
+   "rev": [
+    "Teaser: \"Anayasayı Koruma\" is an incomplete name for the Bundesamt für Verfassungsschutz; the full designation is needed.",
+    "Body 1: \"daha Ekim ayı sonunda\" is awkward; \"daha\" should be \"çoktan/zaten\" to match \"bereits\"."
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Quantum Systems üreticisinin Vector tipi keşif drone'u (Arşiv fotoğrafı)"
+   }
+  },
+  "shalom-boxxer-bakole-anwaelte-fury-joshua": {
+   "L": {
+    "body": [
+     "Martin Bakole'nin Tyson Fury-Anthony Joshua maçının ön programında Solomon Adebayo ile eşleştirilmesi hukuki bir sürece yol açtı. Boxxer patronu Ben Shalom, Uncrowned sitesine yaptığı açıklamada Bakole'nin hâlâ şirketiyle sözleşmeli olduğunu söyledi. Shalom, konuyu avukatlarına devrettiğini belirtti. Shalom, “Duyuruyu sizinle aynı anda gördüm” dedi.",
+     "Bakole, Mayıs 2025'te Efe Ajagba ile berabere kaldığı maçtan bu yana ringe çıkmadı. Uncrowned'a göre Kongolu boksör sözleşmesinin sona erdiğini düşünüyor. Shalom ise buna karşı çıkıyor: Bakole'nin Ajagba maçından sonra birçok teklifi reddettiğini söyleyen Shalom, “Nisan/Mayıs ayındaki tutumumuz değişmedi” dedi.",
+     "Uncrowned'a göre Shalom, bu karşılaşmanın ardında Dana White'ın Zuffa Boxing'inin olduğundan şüpheleniyor. White'ın, etkinliği sözleşme gereği tanıtmasına izin verilmemesine rağmen ön programın şekillendirilmesinde önemli rol oynadığı iddia ediliyor. Boxxer, Chris Billam-Smith ve Sam Hickey'nin iddiaya göre kendisinden koparılması nedeniyle Zuffa ile zaten hukuki uyuşmazlık içinde. Fury ve Joshua 11 Aralık'ta Cardiff'te ringe çıkacak."
+    ],
+    "d": "Martin Bakole'nin Fury-Joshua maçının ön programında boks yapması bekleniyor; ancak promotör Ben Shalom, Bakole'nin hâlâ Boxxer ile sözleşmeli olduğunu söylüyor.",
+    "t": "Bakole tartışması: Boxxer patronu Shalom avukatları devreye soktu"
+   },
+   "at": "2026-11-13T09:10Z",
+   "h": "b7456594b754",
+   "rev": [
+    "\"karşılaştırılması\" (compared) wrongly renders \"Ansetzung ... gegen\" (scheduling of a bout against Adebayo)",
+    "Teaser: \"soll boxen\" rendered as \"bekleniyor\" (acceptable), but \"Bakole ile sözleşmeli\" wording is fine; no change",
+    "\"Boxxer ... iddiaya göre transfer edilmesi\": \"mutmaßliche Abwerbung\" is unnatural and imprecise (poaching)",
+    "\"Kongolu boksörün sözleşmesinin sona erdiği görüşünde\" is slightly awkward; should say he assumes the contract has expired",
+    "\"Fury-Joshua maçının\" fine; \"şekillendirilmesinde önemli rol oynadığı iddia ediliyor\" keeps hedge, fine"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Fury-Joshua maçının yapılacağı Cardiff'teki Principality Stadium (Arşiv fotoğrafı)"
+   }
+  },
+  "starship-flug-15-doppelter-fang-2026-11-13-b11": {
+   "L": {
+    "body": [
+     "SpaceX, dev roketi Starship'in 15. test uçuşunu cuma günü gerçekleştirmek istiyor. Güney Teksas'taki Starbase uzay üssünde 75 dakikalık fırlatma penceresi Almanya saatiyle 23.45'te açılıyor; Space.com'un perşembe akşamı bildirdiğine göre fırlatma hâlâ “on track” (planlandığı gibi). Uçuşta Super Heavy Booster 22 ve yeni bir Starship üst kademe gemisi kullanılacak.",
+     "SpaceX'e göre hedef, “bir yörünge fırlatma sisteminin ilk tam kurtarılması”. Booster'ın fırlatmadan yaklaşık altı buçuk dakika sonra kuleye dönmesi ve kulenin kollarıyla yakalanması planlanıyor. Üst kademe gemisinin ise yörüngeye çıkması, ilk 90 dakika içinde üçüncü nesil 26 Starlink uydusunu bırakması ve yaklaşık 22,5 saat sonra o da Starbase'de yakalanması öngörülüyor.",
+     "Fırlatma zamanında gerçekleşirse geminin inişinin cumartesi günü Almanya saatiyle yaklaşık 22.17'ye planlandığı belirtiliyor. Çifte yakalama başarılı olursa, bir yörünge roketi ilk kez tamamen yeniden kullanılabilir biçimde kurtarılmış olacak. Acil durumlar için başta Meksika Körfezi ve Pasifik olmak üzere iniş bölgeleri öngörülüyor."
+    ],
+    "d": "SpaceX, Starship'in 15. test uçuşunu bugün 23.45'te yapmayı planlıyor. İlk kez iki kademenin de fırlatma kulesi tarafından yakalanması hedefleniyor; gemi neredeyse bir gün sonra yakalanacak.",
+    "t": "Starship 15. uçuş bu gece: SpaceX ilk kez booster'ı ve gemiyi kulede yakalamayı hedefliyor"
+   },
+   "at": "2026-11-13T09:10Z",
+   "h": "635e9105a187",
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "SpaceX'in Starbase'deki fırlatma tesisi, Teksas (Arşiv fotoğrafı)",
+    "kl": "Uzay"
+   }
+  },
   "strom-ibex": {
    "L": {
     "body": [
@@ -1917,6 +2220,62 @@
     2,
     0
    ]
+  },
+  "sulaiman-canelo-martinez-vertrag": {
+   "L": {
+    "body": [
+     "World Boxing Council, Saúl “Canelo” Álvarez'in süper orta sıklet WBC unvanını bir sonraki maçta geçici dünya şampiyonu Lester Martínez'e karşı savunmak zorunda olup olmadığına henüz karar vermedi. Martínez'in ekibi zorunlu maç için başvuruda bulundu. WBC Başkanı Mauricio Sulaimán, Boxing News'e göre Canelo'nun ekibinin Martínez ile dövüşmeye “fazlasıyla hazır” olduğunu, “ancak bunu mümkün olan en büyük sahnede yapmak istediklerini” söyledi.",
+     "Sulaimán, Canelo'nun önce sözleşme durumunu netleştirmesi gerektiğini belirterek şunları söyledi: “Canelo sözleşmesinin durumu konusunda karar verir vermez size geri döneceğiz.” WBC'ye göre Canelo'nun dört maçlık sözleşmesinden geriye bir maç kalıyor; antrenör Eddy Reynoso ise Uncrowned'a göre mart ayında Suudi Arabistan'da bir maç yapılacağını duyurdu.",
+     "Guatemalalı Martínez, Terence Crawford gibi Brian “BoMac” McIntyre tarafından çalıştırılıyor. Christian Mbilli ile berabere kalan Martínez, daha sonra Immanuwel Aleem'i yenerek WBC geçici unvanını kazandı. Canelo'nun olası rakipleri arasında ayrıca WBC ağır yarı sıklet dünya şampiyonu Willy Hutchinson ve Boxing News'e göre Hamzah Sheeraz da anılıyor."
+    ],
+    "d": "WBC Başkanı Sulaimán'a göre Canelo'nun ekibi geçici dünya şampiyonuyla dövüşmeye hazır – ancak yalnızca mümkün olan en büyük sahnede.",
+    "t": "WBC, Canelo'nun sözleşme kararını bekliyor – ekip Lester Martínez'e açık"
+   },
+   "at": "2026-11-13T09:10Z",
+   "h": "dd0da3d46e45",
+   "rev": [
+    "Turkish capitalisation: month name 'Mart' should be lowercase mid-sentence per TDK",
+    "Body quote marks: German „…“ rendered with English-style curly quotes inconsistent with Turkish usage in other places (kept as is, no meaning issue)"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "WBC Başkanı Mauricio Sulaimán (Arşiv fotoğrafı)"
+   }
+  },
+  "tschechien-spanien-0-2-nations-league-2026-11-13-b11": {
+   "L": {
+    "body": [
+     "İspanya, Uluslar Ligi'nde yenilgisiz kalmayı sürdürdü. Teknik direktör Luis de la Fuente'nin takımı perşembe akşamı Prag'da Çekya'yı 2-0 yendi ve beşinci grup maçında beşinci galibiyetini aldı. Álex Baena, hakemin video incelemesinin ardından Lukáš Ambros'un elle oynaması nedeniyle verdiği penaltıdan 39. dakikada konuk takımı öne geçirdi. Oyuna sonradan giren Marc Pubill, uzatma dakikalarının sonlarında farkı ikiye çıkardı.",
+     "Çekya maçın son bölümünü on kişi oynadı: Kaptan Ladislav Krejčí, Roberto Fernández'e yaptığı gol yolunu kesen faul nedeniyle kırmızı kart gördü. Çekya grupta oynadığı tüm maçları kaybetti ve A Ligi'nde kalmak için şimdi Hırvatistan'da kazanmak zorunda. İspanya yenilgisiz maç serisini uzattı ve daha önce çeyrek finale kalmıştı.",
+     "İspanya pazar günü Madrid'de grup liderliği mücadelesinde İngiltere'yi konuk edecek. İngiltere perşembe günü Wembley'de Hırvatistan'ı 2-1 yenerek o da çeyrek finale kaldı. Golleri Morgan Rogers ve penaltıdan Harry Kane attı; Kane 126. milli maçına çıktı ve İngiltere'nin tek başına en çok milli maça çıkan oyuncusu oldu."
+    ],
+    "d": "Dünya şampiyonu İspanya, Uluslar Ligi'nde beşinci maçını da kazandı. Prag'da on kişi kalan Çekya'ya karşı Álex Baena penaltıdan, Marc Pubill ise ikinci golü attı.",
+    "t": "Prag'da 2-0: İspanya kayıpsız – Pazar günü İngiltere ile grup lideri maçı"
+   },
+   "at": "2026-11-13T09:11Z",
+   "h": "7054f008e44d",
+   "rev": [
+    "Teaser: 'penaltıdan Álex Baena ve Marc Pubill gol attı' suggests both scored from the penalty; the German says only Baena scored from the penalty",
+    "Typo 'Gollerı'",
+    "'Çekya maçın son bölümünü eksik oynadı' is unnatural; the German means they played the final phase with ten men",
+    "'kural dışı müdahale' is vague for Notbremse (denied goal-scoring opportunity)",
+    "Headline 'yenilmedi' is weaker than 'makellos' (the German says Spain has won every game)",
+    "'Spanien bleibt makellos' was rendered as 'yenilmedi'; changed to 'kayıpsız' for accuracy",
+    "'uzatma dakikalarının çok ilerisinde' is unnatural for 'tief in der Nachspielzeit'",
+    "Wrong logic: 'Kroatien' match: İngiltere 'daha önce çeyrek finale kalmıştı' applies to Spain, fine; but 'qualified ... ebenfalls' (also) was lost for England"
+   ],
+   "rev_dbg": [
+    9,
+    7,
+    0
+   ],
+   "x": {
+    "img.alt": "İspanya'dan Álex Baena (Arşiv fotoğrafı)"
+   }
   },
   "ufc-334-velasquez-tippt-auf-hokit": {
    "L": {
@@ -2013,6 +2372,24 @@
     "img.alt": "Washington'daki Kongre Binası (Sembolik fotoğraf)",
     "kl": "ABD"
    }
+  },
+  "wallstreet": {
+   "L": {
+    "body": [
+     "ABD borsaları 12 Kasım Perşembe günü küçük kayıplarla kapandı. S&P 500 (500 büyük ABD şirketi) 26,98 puan veya yüzde 0,35 düşüşle 7.592,40'a geriledi. Teknoloji ağırlıklı Nasdaq Composite 100,10 puan (yüzde 0,39) kaybederek 25.366,09'a, Dow Jones (30 büyük şirket) ise 189,40 puan (yüzde 0,36) kaybederek 52.297,09'a indi (AP, Reuters). Russell 2000 endeksindeki küçük şirket hisseleri yüzde 1,66 değer kaybetti. Nasdaq, işlemlerin başlangıcında yüzde 1,6 düşüşteydi, ancak kayıpların büyük bölümünü telafi etti. S&P 500 yine de pazartesiden bu yana yüzde 2,9 yükselişte (AP).",
+     "Günün belirleyici konusu Nvidia oldu. Yönetim kurulu, New York saatiyle 08:48'de kurucu ortak Jensen Huang'ın derhal geçerli olmak üzere şirketin CEO'luğundan ve yönetim kurulu üyeliğinden istifa ettiğini duyurdu (Stock Titan). Şirketi geçici olarak Finans Direktörü Colette Kress yönetiyor. Nvidia bir gerekçe belirtmedi. Hisse açılışta yüzde 14 çöktü ve yüzde 4,34 düşüşle 166,19 dolardan kapandı. Rakipler AMD (yüzde +5,86) ve Broadcom (yüzde +5,54) yükseldi; CoreWeave ise bir gün önceki sert yükselişin ardından yüzde 6,86 kaybetti.",
+     "Baskı tahvil piyasasından da geldi. 10 yıllık ABD devlet tahvillerinin faizi (yıllık getiri) yaklaşık 0,12 puan artarak yüzde 5,105'e çıktı; gün içinde 21 Ekim'den bu yana en yüksek seviyeye ulaştı (Reuters). Nedenler: Pahalılaşan petrol enflasyon endişelerini artırıyor ve tüketici fiyatları haftanın başında beklenenden yüksek gelmişti. Piyasalar, ABD Merkez Bankası Fed'in aralıkta faizleri yeniden artıracağını kesin olarak bekliyor. Başkan Trump'ın ABD'nin “İran'la bir anlaşmaya ihtiyacı olmadığını” yazmasının ardından Brent yüzde 3,3 artarak 95,82 dolara yükseldi; WTI yüzde 2,6 artışla 88,74 dolar oldu. Altın, doların güçlenmesiyle yüzde 2,77 düşüp ons başına 3.877,04 dolara geriledi (Reuters).",
+     "Cuma sabahı Asya piyasaları karışık seyrediyor (AP, 06:37 CET): Nikkei 225 61.283,16 puanda (+yüzde 0,8), Tayvan'ın Taiex endeksi yüzde 1,7 yüksekte, Güney Kore'nin Kospi endeksi (−yüzde 0,5) ve Hang Seng (−yüzde 0,9) düşüşte. Brent, 95,70 dolarla (−yüzde 0,1) neredeyse değişmedi. ABD bugün 14:30 CET'te ekim ayı üretici fiyatlarını açıklayacak (Stock Titan)."
+    ],
+    "d": "S&P 500, Nasdaq ve Dow yaklaşık yüzde 0,4 geriledi. Nvidia, Jensen Huang'ın istifasının ardından yüzde 4,3 düştü; AMD ve Broadcom yaklaşık yüzde 6 yükseldi. 10 yıllık ABD tahvil faizi yüzde 5,1'e, Brent yüzde 3,3 çıktı.",
+    "explain": "Yükselen tahvil faizleri, ABD'de kredilerin pahalı kalması anlamına gelir; bu da çoğu zaman hisse senetlerini de olumsuz etkiler. Pahalılaşan petrol ayrıca Almanya'daki akaryakıt fiyatlarına da yansıyabilir.",
+    "t": "Nvidia CEO'su Huang'ın istifasıyla Wall Street hafif düştü; tahvil faizleri yükseldi"
+   },
+   "at": "2026-11-13T09:10Z",
+   "flag": [
+    "Zahlen fehlen oder weichen ab: 3877, 7592"
+   ],
+   "h": "c1cbfffb1a57"
   },
   "welt-auslaendische-kaempfer-russland-11335-tote-2026-11-13": {
    "L": {
