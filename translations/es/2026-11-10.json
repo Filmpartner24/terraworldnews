@@ -2043,6 +2043,32 @@
     "img.alt": "Gráfico de portada de boxeo"
    }
   },
+  "invest-bulgarien": {
+   "L": {
+    "body": [
+     "La noticia más importante desde el lunes afecta al comercio. La Comisión de Defensa de la Competencia (KZK) ha impuesto a Kaufland Bulgaria una multa de 75,65 millones de euros por prácticas desleales con los proveedores de alimentos, como presión sobre los precios y tarifas cobradas directamente por compensación. La cadena rechaza las acusaciones y quiere recurrir. Al mismo tiempo anunció que revisará por completo las inversiones previstas de 200 millones de euros en los próximos tres años. Kaufland emplea en Bulgaria a más de 8.500 personas (Focus, 9.11.; Ruse.news, 10.11.). Está por ver si los proyectos realmente se detendrán.",
+     "En Pazardzhik, Lidl colocó el lunes la primera piedra de su segunda tienda: casi 7,2 millones de euros, casi 30 nuevos empleos, más de 100 plazas de aparcamiento y apertura en otoño de 2027 (pzdnes.com, 9.11.). La renovación de la tubería de agua de Peshtera (más de 1,8 millones de euros) durará 90 días, y la reparación del puente del Maritsa en Pazardzhik empezará en dos o tres meses (dbr.bg, 10.11.). El municipio de Ihtiman licita la reforma de la carretera en Vakarel por más de 11,3 millones de euros sin IVA, pero el dinero aún no está asegurado (Focus, 9.11.).",
+     "Corrección a las perspectivas del lunes: la subasta de la planta de Leader-96 en Rogosh, prevista para el 11.11., queda cancelada: la agencia tributaria NAP la detuvo porque se pagaron las deudas (plovdiv24, 6.11.). Desde la mañana del lunes no hemos encontrado nuevas plantas ni despidos masivos con cifras. La tabla tiene 15 entradas; los proyectos con importe suman 461,3 millones de euros y los nuevos empleos anunciados, 790 (cálculo propio)."
+    ],
+    "d": "La autoridad de competencia multa a Kaufland con 75,65 millones de euros y la cadena quiere revisar sus planes. En Pazardzhik, Lidl construye una segunda tienda: casi 7,2 millones de euros y casi 30 empleos.",
+    "explain": "La elevada multa a Kaufland podría frenar nuevas tiendas y empleos, pero aún no hay nada decidido. Los nuevos proyectos de construcción de esta semana se concentran sobre todo en la región de Pazardzhik.",
+    "t": "Kaufland cuestiona inversiones de 200 millones tras multa de 75 millones de euros"
+   },
+   "at": "2026-11-13T09:26Z",
+   "h": "bdd8659aa2dc",
+   "rev": [
+    "Headline: 'Strafe von 75-Mio.' rendered as 'multa de 75 millones' without 'euros'; acceptable but the headline should be clear; fixed to include euros",
+    "Teaser: 'Strafe verhängt' is fine, but 'Lidl baut' is present tense as in the original; no change",
+    "'Tasas descontadas directamente' is a mistranslation of 'direkt verrechneter Gebühren' (fees charged directly offset against payments); clearer wording",
+    "'queda cancelada: la agencia ... la detuvo' – the NAP stopped the auction; sentence is acceptable",
+    "'fällt aus' rendered as 'queda cancelada' is acceptable"
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ]
+  },
   "invest-deutschland": {
    "L": {
     "body": [
