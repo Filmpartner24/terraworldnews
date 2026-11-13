@@ -907,7 +907,7 @@ def au2_name(it, l):
 # Byline mit Foto (Nedy 09.11.2026): eigene Artikel zeigen Foto der Autorin/des Autors; alle übrigen Meldungen
 # „TERRA-Redaktion · Verantwortlich: Nedy John Cross“ mit seinem Foto (er prüft und gibt jede Meldung frei) – bewusst NICHT als Autor.
 CHIEF = next((x for x in AUTHORS if x.get('key') == 'nedy-john-cross'), None)
-RESP = {'bg': 'Отговорен редактор', 'de': 'Verantwortlich', 'en': 'Responsible editor', 'es': 'Editor responsable', 'tr': 'Sorumlu editör', 'it': 'Responsabile'}
+RESP = {'bg': 'Главен редактор', 'de': 'Chefredakteur', 'en': 'Editor-in-chief', 'es': 'Redactor jefe', 'tr': 'Genel yayın yönetmeni', 'it': 'Caporedattore'}  # Nedy 13.11.2026: „Chefredakteur“ statt „Verantwortlich“
 def au_av(a, l, nm):
     return f'<a class="au-av-l" href="{au_url(a, l)}" tabindex="-1" aria-hidden="true"><img class="au-av" src="{a["img"]}" width="36" height="36" alt="" loading="lazy" decoding="async"></a>' if a.get('img') else ''
 # „Geprüft von“ (Nedy 09.11.2026): wer einen Beitrag gegengelesen hat – Feld "rv" (Autoren-Key) oder Zuständigkeit je Rubrik in authors/review.json
