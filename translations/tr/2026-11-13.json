@@ -1752,6 +1752,34 @@
     "rv.score": "OpenCritic 73 · IGN 7/10 · GameSpot 7/10 · FinalBoss 7/10"
    }
   },
+  "haskovo-ivf-paare-gemeinde-2026-11-13": {
+   "L": {
+    "body": [
+     "Güney Bulgaristan'daki Haskovo belediyesinde yaşayan, doğal yolla çocuk sahibi olamayan on bir çift, tüp bebek tedavisi için belediye bütçesinden para alacak. Bunu belediye meclisi kararlaştırdı; devlet haber ajansı BTA 13 Kasım'da bildirdi. Her çift, in vitro ya da in vivo yöntemi için 2.556,65 euro alıyor; toplam tutar yaklaşık 28.100 euro.",
+     "Bir çiftin desteklenip desteklenmeyeceğini, kabul edilen kurallara göre ayrı bir komisyon inceliyor; koşulları ve başvuru belgelerini belediye internet sitesinde yayımlıyor. Para çiftlerin kendisine değil, doğrudan tercih ettikleri tüp bebek kliniğine ödeniyor; ancak bunun için kliniğin devletin in vitro fonuyla sözleşmesi olması gerekiyor. Belediye geçen yıl on çifti desteklemişti.",
+     "Haskovo, çocuk sahibi olmak isteyen çiftlere 2014'ten beri destek veriyor. BTA'nın aktardığına göre o tarihten bu yana 236 çift hibe aldı, 42 çocuk dünyaya geldi. Bunun yanında devlet desteği de var: Hukuk portalı Pravatami.bg'ye göre in vitro fonu kişi başına en fazla üç in vitro denemesini finanse ediyor; 43 yaşın üzerindeki kadınların masraflarını karşılamıyor. Bu yıl Haskovo'da kaç çiftin başvurduğu haberde belirtilmiyor."
+    ],
+    "d": "Bulgaristan'ın Haskovo kentinin belediye meclisi, doğurganlık sorunu yaşayan on bir çift için hibe onayladı. Programın desteğiyle 2014'ten bu yana 42 çocuk dünyaya geldi.",
+    "t": "Çocuk hasreti: Haskovo, tüp bebek tedavisi için on bir çifte 2.556 euro ödeyecek"
+   },
+   "at": "2026-11-13T16:01Z",
+   "h": "2db2d7e6ee1d",
+   "rev": [
+    "Paragraph 1: 'Bunu belediye meclisi kararlaştırdı' is a bit abrupt but acceptable; no change needed.",
+    "Paragraph 1: 'Haskovo belediyesinden ... çift' reads ambiguously; fixed to 'Haskovo belediyesine bağlı' meaning couples from the municipality.",
+    "Paragraph 3: 'Hukuk portalı' fine; 'in vitro denemesi' repeated, acceptable.",
+    "Headline: 'ödeyecek' ok."
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Bulgaristan'ın Haskovo kentinin merkezinde eski bir ev (sembolik fotoğraf)",
+    "kl": "Aşk ve ilişki"
+   }
+  },
   "haushalt-2027-ausschuss-2026-11-13-b08": {
    "L": {
     "body": [
@@ -3511,6 +3539,32 @@
    ],
    "x": {
     "img.alt": "Roma'daki Stadio Olimpico, AS Roma'nın ev sahibi stadyumu (Sembolik fotoğraf)"
+   }
+  },
+  "rwth-care-bauen-ressourcen-video": {
+   "L": {
+    "body": [
+     "İnşaat sektörü hâlâ 30 yıl öncesi gibi kaynak israf ediyor – RWTH Aachen'in 12 Kasım'da yayımlanan bir videosunun açıklamasında böyle deniyor. Videoda, CARE Mükemmeliyet Kümesi sözcüsü Profesör Martin Claßen, bunun nasıl değişmesi gerektiğini anlatıyor. Video, daha ince ve daha sürdürülebilir yapı elemanlarına örnek olarak karbonu, robotik ve otomatik inşaat yöntemlerini ve durumlarını kendileri izleyen köprüleri ele alıyor.",
+     "Bir bölümde, videoda “yapı elemanları için hastane” olarak tanımlanan “CARE Fab” tanıtılıyor. Video, inşaatta küçük adımlar yerine bir sistem değişikliğini savunuyor.",
+     "CARE, “Climate-Neutral And Resource-Efficient Construction” ifadesinin kısaltmasıdır. Küme, TU Dresden ve RWTH Aachen tarafından yürütülüyor ve Mükemmeliyet Stratejisi kapsamında 2026'dan 2032'ye kadar sürüyor. Proje tanımına göre beton, dünya genelindeki CO₂ emisyonlarının yüzde 8'inden sorumlu. Araştırmacılar, CO₂ ve atıklardan elde edilen mineral yapı malzemeleri ile döngüsel inşaata uygun, yeniden kullanılabilir modüller de dahil olmak üzere iklim nötr alternatifler geliştirmek istiyor."
+    ],
+    "d": "Profesör Martin Claßen yeni bir videoda, CARE Mükemmeliyet Kümesi'nin inşaat sektörünü yeni malzemeler, robotik ve daha ince yapı elemanlarıyla iklim dostu hale getirmeyi amaçladığını anlatıyor.",
+    "t": "İsrafsız inşaat: RWTH videosu karbon yapı elemanlarını ve akıllı köprüleri gösteriyor"
+   },
+   "at": "2026-11-13T16:01Z",
+   "h": "a78089725c93",
+   "rev": [
+    "\"Carbon\" in the construction context (carbon-fibre/carbon concrete) was rendered as \"karbon\"; this is acceptable, so left as is",
+    "\"klimaneutrale\" translated as \"iklim açısından nötr\"; unnatural, replaced with \"iklim nötr\"",
+    "\"Bir sistem değişikliği\" is fine; no change"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: RWTH Aachen ana binası"
    }
   },
   "shalom-boxxer-bakole-anwaelte-fury-joshua": {
