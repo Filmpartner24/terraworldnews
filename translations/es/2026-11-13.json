@@ -1422,6 +1422,33 @@
     "img.alt": "El promotor Eddie Hearn en una rueda de prensa (Foto de archivo)"
    }
   },
+  "helsing-clarity-ki-plattform-militaer": {
+   "L": {
+    "body": [
+     "La empresa europea de IA para defensa Helsing presentó esta semana en Berlín su plataforma de software Clarity. Debe reunir todos los datos a los que tiene acceso una unidad militar: datos de sensores, información de acceso abierto, informes escritos y sistemas militares existentes. Según Helsing, cientos de agentes de IA especializados trabajan en paralelo en ella, analizan grandes volúmenes de datos en segundos, detectan fuerzas, instalaciones y posiciones militares y preparan los resultados para que los revisen personas. Según la empresa, los modelos se entrenaron con datos reales de operaciones, datos sintéticos generados por IA y simulaciones.",
+     "Helsing subraya el control europeo: Clarity funciona sobre la infraestructura de cada cliente, y los datos, los modelos y la operación permanecen en manos de las fuerzas armadas. Según la empresa, la plataforma aplicaría los estándares de la OTAN y podría conectarse con sistemas de armas de distintos fabricantes. Un objetivo solo se recomendaría si coinciden fuentes independientes; cada traspaso a un sistema de armas tendría que ser autorizado por una persona, y cada decisión quedaría documentada con el nombre del responsable. El codirector Gundbert Scherf dijo: «All armed forces need an intelligence capability that keeps pace with the fight». (Todas las fuerzas armadas necesitan una capacidad de inteligencia que siga el ritmo del combate.)",
+     "Helsing no mencionó ningún cliente. Con Clarity, la empresa compite con el sistema Maven de Palantir, firmemente integrado en los procesos del Pentágono y de la OTAN. El medio especializado The Decoder remite a investigaciones sobre el sistema de IA israelí Lavender en la Franja de Gaza, en el que las personas revisaban las propuestas en ocasiones durante solo unos 20 segundos, y duda de que el control humano pueda mantenerse a un ritmo elevado."
+    ],
+    "d": "La empresa de IA de defensa quiere analizar con Clarity datos de sensores, fuentes abiertas e informes en segundos. Un humano debe seguir autorizando los objetivos; los críticos dudan de que eso funcione en la práctica.",
+    "t": "Cientos de agentes de IA para el ejército: Helsing presenta la plataforma Clarity"
+   },
+   "at": "2026-11-13T14:04Z",
+   "h": "ff81b3e9ada6",
+   "rev": [
+    "Teaser: \"Un humano debería seguir autorizando\" turns the German \"soll ... freigeben\" into a condition-like modal; better: \"según la empresa, un humano seguirá autorizando\" is not in the German either,",
+    "\"Helsing no mencionó ningún cliente\" is correct.",
+    "\"Sie soll alle Daten bündeln\" was rendered correctly with \"Debe reunir\"."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: stand de Helsing con el modelo de dron CA-1 Europa en la ILA Berlín 2026",
+    "kl": "Defensa"
+   }
+  },
   "heute-vor-50-jahren-biermann-konzert-koeln-1976-2026-11-13": {
    "L": {
     "body": [
@@ -3721,6 +3748,33 @@
    ],
    "x": {
     "img.alt": "Foto de archivo: Xi Jinping en el Kremlin (2023)"
+   }
+  },
+  "werder-matischak-gestorben-2026-11-13": {
+   "L": {
+    "body": [
+     "El Werder Bremen llora la muerte de Klaus Matischak. El exdelantero murió a los 87 años en Estados Unidos, su patria adoptiva, según informó el club; según el club, ya «hace algún tiempo». Natural de Bottrop, había fichado en 1964 por el Werder procedente del FC Schalke 04 y, en la temporada 1964/65, contribuyó con doce goles en 19 partidos al primer campeonato alemán del Bremen.",
+     "Era conocido por el apodo «Zick-Zack-Matischak». En la Bundesliga marcó 38 goles en 64 partidos, 20 de ellos en 42 encuentros con el Werder. Los problemas de rodilla pusieron fin pronto a su carrera; su último partido oficial con el Bremen lo disputó en marzo de 1967. En los años 1970 trabajó en la gerencia junto a Rudi Assauer y fue quien llevó por primera vez a Otto Rehhagel como entrenador a Bremen.",
+     "«Klaus Matischak fue una de las grandes estrellas del fútbol de su época, en Bremen y también más allá», dijo el presidente del Werder, Hubertus Hess-Grunewald. El club sabe por la familia, según dijo, «que siguió intensamente al Werder desde la distancia hasta su muerte». Matischak era miembro honorario del club desde noviembre de 2014."
+    ],
+    "d": "El Werder Bremen llora la muerte de Klaus Matischak. El delantero del primer equipo campeón del Bremen de 1965 murió a los 87 años en EE. UU. Más tarde llevó a Otto Rehhagel al Weser.",
+    "t": "El Werder Bremen llora la muerte del delantero campeón Klaus Matischak"
+   },
+   "at": "2026-11-13T14:04Z",
+   "h": "991256229115",
+   "rev": [
+    "Teaser: \"fichó a Otto Rehhagel para el club\" is vague/inaccurate; the German says he brought Rehhagel to the Weser (Bremen)",
+    "Indirect speech: \"el club sabría\" (conjectural conditional) distorts the meaning of \"wisse\"; the attribution is also redundant",
+    "\"Matischak era miembro honorario\" loses the sense of \"Seit ... war\" (was an honorary member since)",
+    "Teaser: \"del primer equipo campeón del Bremen, en 1965\" is awkward; the German says first Bremen championship team of 1965"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "El Weserstadion de Bremen (imagen simbólica)"
    }
   },
   "wirtschaft-bulgarien-mehrwertsteuer-schwelle-e-rechnung-2026-11-13": {
