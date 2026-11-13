@@ -2444,6 +2444,32 @@
     "img.alt": "Gráfico de portada de boxeo: la IBF ordena nuevas negociaciones"
    }
   },
+  "invest-bulgarien": {
+   "L": {
+    "body": [
+     "Novedad desde el martes: BTL ha confirmado oficialmente que invertirá casi 40 millones de euros en una segunda planta de alta tecnología cerca de Plovdiv, con lo que duplicará su producción. Se crearán más de 250 puestos de trabajo y el inicio está previsto para 2027. El terreno abarca 47.000 m², de ellos 24.000 edificados; se prevén robots industriales e inteligencia artificial (BTA, 3.11.). El emplazamiento se encuentra en la zona industrial de Kuklen, parte de la zona económica de Trakia, en el antiguo terreno del fabricante de bicicletas insolvente Leader-96 (dbr.bg). Las anteriores cifras de los medios («más de 40 millones», «hasta 300 puestos de trabajo») han sido sustituidas en la tabla por las oficiales.",
+     "El operador de la red de transmisión ESO invertirá en 2026, según sus propios datos, más de 182 millones de euros en la red eléctrica: más de 120 km de líneas nuevas o renovadas e instalaciones nuevas de 110 kV en subestaciones de diez regiones (BTA, 3.11.). El viceministro de Economía Levent Memish anunció un programa para zonas industriales de todo el país; no mencionó ninguna cantidad (BTA, 3.11.).",
+     "En Pleven, un inversor alemán ha inaugurado una planta de piezas de plástico técnico: 10 millones de euros y al menos 130 nuevos puestos de trabajo (Fakti.bg, BNT, 4.11.). No se menciona su nombre, pero los datos coinciden con el proyecto de Ensinger. La inflación subió en octubre al 6,1 % según la estimación preliminar del instituto de estadística NSI (septiembre: 5,7 %).",
+     "Los proyectos cuantificados de la tabla suman 491,98 millones de euros y los nuevos puestos de trabajo mencionados, 726 (cálculo propio; cifras mínimas; sin el precio de compra de BTL, sin los 180 millones de euros para redes de agua en Burgas y Varna y sin la subasta de Leader-96)."
+    ],
+    "d": "El fabricante de tecnología médica duplica su capacidad en la antigua planta de bicicletas eléctricas de Kuklen; inicio en 2027. El operador ESO invertirá en 2026 más de 182 millones de euros en la red eléctrica.",
+    "explain": "Varias empresas están construyendo plantas y contratando personal, sobre todo en torno a Plovdiv y Pleven. Al mismo tiempo suben los precios y la electricidad es cara para las empresas, lo que puede frenar nuevas inversiones.",
+    "t": "BTL confirma casi 40 M€ para una segunda planta cerca de Plovdiv y más de 250 empleos"
+   },
+   "at": "2026-11-13T12:42Z",
+   "h": "ca6f1aba7ca4",
+   "rev": [
+    "\"insolvente\" is fine in Spanish but should be placed correctly: \"insolvente\" is Spanish, not untranslated; no change needed",
+    "Teaser: \"desde 2027\" and \"El operador ESO\" lose the meaning of 'Start 2027' and 'Netzbetreiber'; minor wording improved",
+    "\"según sus propias indicaciones\" is unnatural; should be \"según sus propios datos\"",
+    "\"El operador de la red de transmisión\" acceptable; \"Memish\" kept as Spanish transliteration"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ]
+  },
   "invest-deutschland": {
    "L": {
     "body": [

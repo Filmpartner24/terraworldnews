@@ -2637,6 +2637,34 @@
     "img.alt": "Boks başlık görseli: IBF yeni müzakere talimatı verdi"
    }
   },
+  "invest-bulgarien": {
+   "L": {
+    "body": [
+     "Salı gününden itibaren yeni: BTL, Plovdiv yakınındaki ikinci bir yüksek teknoloji tesisine yaklaşık 40 milyon avro yatıracağını ve böylece üretimini ikiye katlayacağını resmen doğruladı. 250'den fazla istihdam yaratılması öngörülüyor, başlangıç 2027. Arazi 47.000 m² büyüklüğünde, bunun 24.000 m²'si inşaat alanı; endüstriyel robotlar ve yapay zekâ planlanıyor (BTA, 3.11.). Tesis, Trakia Ekonomik Bölgesi'nin bir parçası olan Kuklen sanayi bölgesinde, iflas etmiş bisiklet üreticisi Leader-96'nın eski arazisinde yer alıyor (dbr.bg). Medyada daha önce yer alan bilgiler (“40 milyondan fazla”, “300'e kadar istihdam”) tabloda resmî rakamlarla değiştirildi.",
+     "İletim şebekesi operatörü ESO, kendi açıklamasına göre 2026'da elektrik şebekesine 182 milyon avrodan fazla yatıracak; on bölgede 120 km'den fazla yeni veya yenilenmiş hat ve trafo merkezlerinde yeni 110 kV'luk tesisler söz konusu (BTA, 3.11.). Ekonomi Bakanı Yardımcısı Levent Memish, ülke genelindeki sanayi bölgeleri için bir program açıkladı; bir tutar belirtmedi (BTA, 3.11.).",
+     "Pleven'de bir Alman yatırımcı, teknik plastikten parça üreten bir tesis açtı: 10 milyon avro, en az 130 yeni istihdam (Fakti.bg, BNT, 4.11.). Şirketin adı verilmiyor, ancak bilgiler Ensinger projesiyle örtüşüyor. Enflasyon, istatistik kurumu NSI'nin hızlı tahminine göre Ekim'de yüzde 6,1'e yükseldi (Eylül: yüzde 5,7).",
+     "Tabloda rakamla belirtilen projelerin toplamı 491,98 milyon avroya, belirtilen yeni istihdam sayısı ise 726'ya ulaşıyor (kendi hesabımız; alt sınırlar; BTL satın alma bedeli, Burgas ve Varna'daki su şebekeleri için öngörülen 180 milyon avro ve Leader-96 ihalesi hariç)."
+    ],
+    "d": "Tıbbi cihaz üreticisi, Kuklen'deki eski e-bisiklet tesisinde kapasitesini ikiye katlıyor, başlangıç 2027. Şebeke operatörü ESO, 2026'da elektrik şebekesine 182 milyon avrodan fazla yatıracak.",
+    "explain": "Birçok şirket, özellikle Plovdiv ve Pleven çevresinde tesis kuruyor ve işe alım yapıyor. Aynı zamanda fiyatlar artıyor ve elektrik şirketler için pahalı; bu durum yeni yatırımları yavaşlatabilir.",
+    "t": "BTL doğruladı: Plovdiv yakınındaki ikinci tesise 40 milyon avro, 250'den fazla istihdam"
+   },
+   "at": "2026-11-13T12:42Z",
+   "h": "ca6f1aba7ca4",
+   "rev": [
+    "\"Neu seit Dienstag\" rendered awkwardly as \"Salı gününden bu yana yeni gelişme\"; weekday should be capitalised per TDK as \"Salı\" only if at sentence start (it is), so fine, but the phrasing is unnatura",
+    "\"Ekonomi Bakan Yardımcısı\" is ungrammatical; should be \"Ekonomi Bakan Yardımcısı\" with correct genitive structure: \"Ekonomi Bakan Yardımcısı\" -> \"Ekonomi Bakanı Yardımcısı\"",
+    "\"Memisch\" rendered as \"Memish\"; Turkish convention \"Memiş\" is uncertain, left as is",
+    "\"Tablodaki rakamı belirtilen projelerin\" is clumsy; should be \"Tabloda rakamla belirtilen projelerin\"",
+    "\"iflas eden\" lacks the sense of already insolvent (\"insolventen\"); should be \"iflas etmiş\"",
+    "\"Strom ist für Firmen teuer\" rendered \"şirketler için\" lacks case: \"şirketler için\" is acceptable; \"elektrik şirketler için pahalı\" should be \"elektrik şirketler için pahalı\" with a comma-free flow, l"
+   ],
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ]
+  },
   "invest-deutschland": {
    "L": {
     "body": [
