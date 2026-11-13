@@ -5330,6 +5330,39 @@
     "kl": "Berlin"
    }
   },
+  "wallstreet": {
+   "L": {
+    "body": [
+     "ABD ara seçimlerinin yapıldığı salı günü Wall Street yine ikiye bölündü. S&P 500 (en büyük 500 şirket), endeksteki hisselerin çoğu gerilemesine rağmen 27,52 puan (+%0,36) artarak 7.568,92'ye yükseldi. Nasdaq Composite (çok sayıda teknoloji hissesi) yüzde 0,83 kazanarak 25.372,01'e çıktı. Dow Jones (30 büyük şirket) 197,26 puan (−%0,38) kaybederek 51.786,72'ye indi. Yılbaşından bu yana S&P 500 yüzde 10,6, Nasdaq yüzde 9,2, Dow ise yüzde 7,7 artışta (AP).",
+     "Artışı büyük teknoloji şirketleri taşıdı: Nvidia yüzde 2,3, Broadcom yüzde 3,1 yükseldi; Microsoft, Amazon ve Meta'nın her biri yüzde 2'den fazla kazandı. Apple yüzde 1,9 düştü – rakamlar beklenenden iyiydi, ancak pahalılaşan bellek çipleri, her bir dolarlık satıştan elde edilen karı baskılıyor. Palantir yüzde 1,6 kaybetti, DuPont çeyrek sonuçlarının ardından yüzde 8,6 kazandı. AMD, veri merkezi işindeki büyümenin ardından seans sonrası işlemlerde yaklaşık yüzde 7 yükseldi (AP, Capp Notes, Yahoo Finance).",
+     "Brent petrol yüzde 1,1 ucuzlayarak varil başına 103,60 dolara, WTI yüzde 0,4 düşüşle 96,09 dolara geriledi. Brent, gece saatlerinde ABD'nin İran'ın Keşm Adası'na saldırdığı yönündeki haberlerin ardından 107 doların üzerindeydi, sabah ise kısa süre 101 doların altına indi. Eylül sonunda beklenenden fazla açık iş olması (7,5 milyon) nedeniyle 10 yıllık ABD tahvil getirisi yüzde 4,96'ya yükseldi (pazartesi yüzde 4,91). Korku endeksi VIX 20,83'e düştü.",
+     "AP'ye göre Demokratlar Senato'nun kontrolünü yeniden ele geçirdi; AP, Temsilciler Meclisi için akşamın geç saatlerinde sonucu açıklamayı henüz erken buldu – sayım sürüyor. Çarşamba sabahı S&P 500 vadelileri yaklaşık yüzde 1,1, Nasdaq-100 vadelileri yüzde 1,9 düşüşteydi. Tokyo'da Nikkei yüzde 3,6, Seul'de Kospi yüzde 3,2 geriledi (AP, The National). Bazı yatırımcılar daha sıkı yapay zekâ kurallarından çekiniyor."
+    ],
+    "d": "S&P 500 yüzde 0,4, Nasdaq yüzde 0,8 yükselirken Dow yüzde 0,4 düştü. Nvidia ve Microsoft öne çıktı, Apple geriledi. AP'nin Senato'yu Demokratların kazandığını bildirmesinin ardından vadeliler geriliyor.",
+    "explain": "Seçim sonucu önümüzdeki günlerde ABD hisselerine yatırım yapan fonları, özellikle teknoloji hisselerini hareketlendirebilir. ABD tahvillerindeki yüksek getiriler ABD'de kredileri pahalılaştırabilir.",
+    "t": "Çip hisseleri seçim gününde S&P 500 ve Nasdaq'ı yükseltti – seçim sonrası vadeliler düştü"
+   },
+   "at": "2026-11-13T12:34Z",
+   "flag": [
+    "Zahlen fehlen oder weichen ab: 7568"
+   ],
+   "h": "8efd2074eae6",
+   "rev": [
+    "\"%+0,36\" has the wrong sign placement; Turkish style is \"+%0,36\"",
+    "\"Gewinn je Dollar Umsatz\" was rendered as \"satış başına dolar karını\", which is unclear; it means profit per dollar of sales",
+    "\"offene Stellen\" (job openings) was mistranslated as \"açık pozisyon\", which is a financial term; \"iş ilanı/açık iş sayısı\" is correct",
+    "The yield sentence says \"nedeniyle\" as a plain fact, but the German gives the cause as a reported attribution; it should be softened with the wording of the original",
+    "\"Nachdem AP den Demokraten den Senat zuschreibt\" was rendered as \"Senato'yu Demokratlara yazmasının\", which is unnatural",
+    "\"hielt AP es noch für zu früh\" lost its tense and clarity; it now reads \"henüz erken olduğunu\" without saying what is too early (a call on the race)",
+    "In the teaser, \"vadeliler geriliyor\" is okay, but \"Nvidia ve Microsoft öne çıktı\" is okay too",
+    "The last sentence about investors fearing stricter AI rules is fine"
+   ],
+   "rev_dbg": [
+    9,
+    5,
+    0
+   ]
+  },
   "welt-aids-tag-kampagne-2026-11-04": {
    "L": {
     "body": [

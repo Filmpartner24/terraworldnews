@@ -2557,6 +2557,33 @@
     "img.alt": "Gráfico de portada: ONE SAMURAI 5 – Joshua Pacio contra Keito Yamakita"
    }
   },
+  "openai-daybreak-red-team-defense-factory": {
+   "L": {
+    "body": [
+     "OpenAI presentó el jueves (12 de noviembre) en su evento «Cyber at the Frontier» dos nuevos productos de su plataforma de seguridad Daybreak. En Daybreak Red Team, varios agentes de IA examinan las aplicaciones web de una empresa desde la perspectiva de un atacante. Para ello utilizan el código fuente y el conocimiento sobre la aplicación, comprueban si las vulnerabilidades encontradas son realmente explotables y después prueban las correcciones. También pueden verificar avisos de escáneres de código y de programas de recompensas por errores. Según OpenAI, los agentes funcionan en entornos aislados; un control llamado «Guardian» determina a qué aplicaciones y puntos finales pueden acceder.",
+     "Daybreak Defense Factory sigue las vulnerabilidades a través del código, elabora parches y los presenta a los desarrolladores como borrador de un pull request de GitHub. Puede incorporar hallazgos de herramientas como Wiz, Snyk y Endor Labs, vigilar nuevos commits y ejecutar revisiones programadas. Las correcciones no se aplican automáticamente: las personas deben revisarlas y aprobarlas. Según The Register, la herramienta se basa en el modelo de ciberseguridad de OpenAI, GPT-6 Cyber.",
+     "Red Team solo está disponible por ahora en acceso anticipado previa solicitud, y Defense Factory como extensión en vista previa en ChatGPT para espacios de trabajo con acceso a Daybreak. OpenAI no indicó precios. El presidente Greg Brockman dijo en la presentación que las empresas serían ahora tan seguras como el modelo puntero que utilizan: «companies will be secure only to the extent of the frontier model that they use»."
+    ],
+    "d": "Daybreak Red Team hace que agentes de IA prueben aplicaciones web como atacantes, mientras Defense Factory halla fallos y propone correcciones. Las correcciones deben seguir siendo aprobadas por personas.",
+    "t": "La IA ataca, la IA repara: OpenAI lanza dos nuevas herramientas de seguridad"
+   },
+   "at": "2026-11-13T12:34Z",
+   "h": "55baca398e77",
+   "rev": [
+    "Teaser: «Las siguen aprobando personas» is ambiguous and unnatural; the subject of the approval (the corrections) is unclear",
+    "Brockman's statement is indirect speech; after «dijo» the indicative «son» is acceptable, but «seguirán/serían» (conditional) better marks it as his opinion. It is kept attributed, with a small adjust",
+    "Quote is untranslated English next to a Spanish paraphrase; left as in the original"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: el cofundador de OpenAI, Greg Brockman, en TechCrunch Disrupt en San Francisco (2019)",
+    "kl": "Ciberseguridad"
+   }
+  },
   "quantum-systems-cyberangriff-bundeswehr-drohnen-2026-11-13-b11": {
    "L": {
     "body": [
@@ -2991,6 +3018,27 @@
    ],
    "x": {
     "img.alt": "El monumento a Levski en Sofía, en el lugar de la ejecución (Foto de archivo)"
+   }
+  },
+  "video-cunningham-52-pistons-wizards-2026-11-13": {
+   "L": {
+    "body": [
+     "Cade Cunningham llevó a los Detroit Pistons, con 52 puntos, a una victoria por 144-140 tras dos prórrogas ante los Washington Wizards en la madrugada del viernes (hora alemana). El base acertó 16 de sus 25 tiros de campo y 17 de 18 tiros libres, repartió once asistencias y no perdió ni un solo balón. Según ESPN, es el primer jugador que logra al menos 50 puntos y diez asistencias sin pérdidas desde que la NBA empezó a registrar las pérdidas de balón en la temporada 1977/78. Su récord anterior era de 46 puntos; el último en anotar más puntos para los Pistons fue Jerry Stackhouse en 2001, con 57.",
+     "Washington forzó las prórrogas dos veces en el último segundo: Trae Young igualó a 121-121 con un triple al sonar la bocina final y, en la primera prórroga, el novato AJ Dybantsa volvió a empatar con un tiro a menos de un segundo del final. Antes, los Wizards habían comenzado la prórroga con un parcial de 7-0 para ponerse 128-121; Cunningham igualó a 130-130 con un tiro de media distancia, dos tiros libres y un triple. En la segunda prórroga puso por delante a Detroit con un triple (135-132), y Anthony Davis tuvo que abandonar la pista poco después por su sexta falta.",
+     "Young (37 puntos, 14 asistencias), Alex Sarr (30) y Davis (30 puntos, 15 rebotes) hicieron que, por primera vez desde 1969, tres jugadores de la franquicia anotaran al menos 30 puntos en el mismo partido. Ausar Thompson consiguió con 17 puntos, 11 rebotes y 11 asistencias el primer triple-doble de su carrera. Detroit, con ocho victorias y tres derrotas, es tercero en el Este; Washington (4-9) perdió por sexta vez consecutiva. El vídeo oficial de la NBA muestra los mejores momentos ampliados."
+    ],
+    "d": "Detroit gana 144-140 en Washington. El base logra su máximo personal y Ausar Thompson consigue su primer triple-doble. Los Wizards pierden por sexta vez consecutiva.",
+    "t": "Video: Cunningham anota 52 puntos sin pérdidas – los Pistons ganan en dos prórrogas"
+   },
+   "at": "2026-11-13T12:34Z",
+   "h": "fab990c5b23f",
+   "rev_dbg": [
+    4,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Cade Cunningham con la camiseta de los Detroit Pistons lanzando (Foto de archivo, 2022)"
    }
   },
   "video-spenderorgane-perfusion-mayo-2026-11-13": {

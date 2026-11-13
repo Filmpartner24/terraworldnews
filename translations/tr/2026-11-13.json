@@ -2688,6 +2688,31 @@
     "img.alt": "Kapak görseli: ONE SAMURAI 5 – Joshua Pacio, Keito Yamakita'ya karşı"
    }
   },
+  "openai-daybreak-red-team-defense-factory": {
+   "L": {
+    "body": [
+     "OpenAI, perşembe günü (12 Kasım) düzenlediği „Cyber at the Frontier“ etkinliğinde güvenlik platformu Daybreak'in iki yeni ürününü tanıttı. Daybreak Red Team'de birden fazla yapay zekâ ajanı, bir şirketin web uygulamalarını saldırganın bakış açısıyla inceliyor. Bunun için kaynak kodunu ve uygulamaya ilişkin bilgiyi kullanıyor, bulunan zafiyetlerin gerçekten istismar edilebilir olup olmadığını kontrol ediyor ve ardından düzeltmeleri test ediyor. Kod tarayıcılarından ve hata ödül programlarından gelen bildirimleri de doğrulayabiliyor. OpenAI'ye göre ajanlar yalıtılmış ortamlarda çalışıyor; „Guardian“ adlı bir denetim mekanizması hangi uygulamalara ve uç noktalara erişebileceklerini belirliyor.",
+     "Daybreak Defense Factory, zafiyetleri kod boyunca izliyor, yamalar hazırlıyor ve bunları geliştiricilere bir GitHub pull request taslağı olarak sunuyor. Wiz, Snyk ve Endor Labs gibi araçlardan gelen bulguları devralabiliyor, yeni commit'leri izleyebiliyor ve planlanmış taramalar yürütebiliyor. Düzeltmeler otomatik olarak uygulanmıyor; insanların bunları incelemesi ve onaylaması gerekiyor. The Register'a göre araç, OpenAI'nin siber modeli GPT-6 Cyber'e dayanıyor.",
+     "Red Team şimdilik yalnızca talep üzerine erken erişimle sunuluyor; Defense Factory ise Daybreak erişimi olan çalışma alanları için ChatGPT'de önizleme uzantısı olarak yer alıyor. OpenAI fiyat açıklamadı. Başkan Greg Brockman tanıtımda, şirketlerin artık yalnızca kullandıkları öncü model kadar güvende olduğunu belirtti, şu sözleri kullandı: „companies will be secure only to the extent of the frontier model that they use“."
+    ],
+    "d": "Daybreak Red Team, yapay zekâ ajanlarının web uygulamalarını saldırgan gibi test etmesini sağlıyor; Defense Factory açıkları buluyor ve düzeltme öneriyor. Onayı yine insanlar vermek zorunda.",
+    "t": "Yapay zekâ saldırıyor, yapay zekâ onarıyor: OpenAI iki yeni güvenlik aracını tanıttı"
+   },
+   "at": "2026-11-13T12:34Z",
+   "h": "55baca398e77",
+   "rev": [
+    "Brockman'ın sözü doğrudan olgu gibi değil, aktarma kalıbıyla verilmeli; ayrıca 'Başkan' unvanı 'Präsident' için yanıltıcı olabilir, ancak anlam korunduğu için dokunulmadı."
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: OpenAI'nin kurucu ortağı Greg Brockman, San Francisco'daki TechCrunch Disrupt etkinliğinde (2019)",
+    "kl": "Siber güvenlik"
+   }
+  },
   "quantum-systems-cyberangriff-bundeswehr-drohnen-2026-11-13-b11": {
    "L": {
     "body": [
@@ -3134,6 +3159,36 @@
    ],
    "x": {
     "img.alt": "Sofya'daki Levski Anıtı, idam yerinde (Arşiv fotoğrafı)"
+   }
+  },
+  "video-cunningham-52-pistons-wizards-2026-11-13": {
+   "L": {
+    "body": [
+     "Cade Cunningham, cumaya karşı gece (Almanya saatiyle) attığı 52 sayıyla Detroit Pistons'ı Washington Wizards deplasmanında çift uzatmanın ardından 144-140'lık galibiyete taşıdı. Oyun kurucu sahadan 25 atışın 16'sını, 18 serbest atışın 17'sini isabetli kullandı, 11 asist yaptı ve tek bir top kaybı yaşamadı. ESPN'e göre NBA'nin 1977/78 sezonunda top kayıplarını kaydetmeye başlamasından bu yana top kaybı yapmadan en az 50 sayı ve 10 asist kaydeden ilk oyuncu oldu. Önceki kariyer rekoru 46 sayıydı; Pistons adına daha fazla sayıyı en son 2001'de 57 sayıyla Jerry Stackhouse atmıştı.",
+     "Washington uzatmaları iki kez son saniyede zorladı: Trae Young, son sirenle birlikte atılan üçlükle skoru 121-121'e getirdi; ilk uzatmada ise çaylak AJ Dybantsa, bitmesine bir saniyeden az kala yeniden beraberliği sağladı. Wizards bundan önce uzatmaya 7-0'lık seriyle başlayıp 128-121 öne geçmişti; Cunningham orta mesafeden bir atış, iki serbest atış ve bir üçlükle skoru 130-130'a getirdi. İkinci uzatmada Cunningham bir üçlükle Detroit'i 135-132 öne geçirdi; Anthony Davis ardından altıncı faulüyle sahadan ayrılmak zorunda kaldı.",
+     "Young (37 sayı, 14 asist), Alex Sarr (30) ve Davis (30 sayı, 15 ribaund) sayesinde franchise'ın üç oyuncusu 1969'dan bu yana ilk kez aynı maçta en az 30 sayı attı. Ausar Thompson, 17 sayı, 11 ribaund ve 11 asistle kariyerinin ilk triple-double'ını yaptı. Detroit, sekiz galibiyet ve üç yenilgiyle Doğu'da üçüncü sırada; Washington (4-9) ise üst üste altıncı kez kaybetti. Resmi NBA videosu uzatılmış özetleri gösteriyor."
+    ],
+    "d": "Detroit, Washington deplasmanında 144-140 kazandı. Oyun kurucu kariyer rekorunu kırdı, Ausar Thompson ilk triple-double'ını yaptı. Wizards üst üste altıncı kez kaybetti.",
+    "t": "Video: Cunningham turnover yapmadan 52 sayı attı – Pistons çift uzatmada kazandı"
+   },
+   "at": "2026-11-13T12:34Z",
+   "h": "fab990c5b23f",
+   "rev": [
+    "\"Cuma'ya karşı gece\" is a broken rendering of \"in der Nacht zum Freitag\"; also weekday capitalization: \"cuma\" is lowercase per TDK",
+    "\"maç bitiş sirenindeki\" is unnatural; \"son sirenle birlikte\" is better",
+    "\"Almanya saatiyle\" is fine; \"NBA'in\" should be \"NBA'in\" or \"NBA'nin\" (NBA is read \"en-be-a\", so \"NBA'nin\")",
+    "\"bitmesine bir saniyeden az kala\" is acceptable, kept",
+    "\"Wizards ... 7-0'lık seriyle başlayıp 128-121 öne geçmişti\" fine",
+    "Sentence about Cunningham in the second overtime lacks the subject; \"ise\" shifts the meaning slightly, so \"Cunningham\" was added",
+    "\"Detroit'i ... öne geçirdi\" fine"
+   ],
+   "rev_dbg": [
+    7,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Cade Cunningham, Detroit Pistons formasıyla şut atarken (Arşiv fotoğrafı, 2022)"
    }
   },
   "video-spenderorgane-perfusion-mayo-2026-11-13": {
