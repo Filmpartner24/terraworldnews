@@ -1,0 +1,404 @@
+{
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": "gemini-4-hydrogen-alltagsmodell",
+   "s": "ai",
+   "time": "12:34",
+   "kl": {
+    "de": "Neues Modell",
+    "bg": "Нов модел",
+    "en": "New model"
+   },
+   "yt": {
+    "id": "Iy9LEGlreC0",
+    "ch": "Google",
+    "kind": "video",
+    "t": {
+     "de": "YouTube Video to Slides: Gemini 4 Hydrogen",
+     "bg": "YouTube Video to Slides: Gemini 4 Hydrogen",
+     "en": "YouTube Video to Slides: Gemini 4 Hydrogen"
+    }
+   },
+   "src": [
+    {
+     "n": "Google – Introducing Gemini 4 Hydrogen (12.11.2026)",
+     "u": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+    },
+    {
+     "n": "Google – Gemini 4 Hydrogen: everyday coding and agentic workflows for developers (12.11.2026)",
+     "u": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/"
+    },
+    {
+     "n": "Digital Trends – Google's next-gen Gemini 4 Hydrogen AI model is here (12.11.2026)",
+     "u": "https://www.digitaltrends.com/cool-tech/googles-next-gen-gemini-4-hydrogen-ai-model-is-here-touting-faster-intelligence-for-all/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-13/gemini-4-hydrogen-alltagsmodell.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Dietmar Rabich",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mountain_View_(CA,_USA),_Charleston_Road,_Google-Schild_--_2022_--_2896.jpg",
+    "alt": {
+     "de": "Archivbild: Google-Schild an der Charleston Road in Mountain View, Kalifornien (2022)",
+     "bg": "Архивна снимка: табела на Google на Чарлстън Роуд в Маунтин Вю, Калифорния (2022)",
+     "en": "Archive image: Google sign on Charleston Road in Mountain View, California (2022)"
+    }
+   },
+   "de": {
+    "t": "Schneller und billiger: Google bringt Gemini 4 Hydrogen für Alltag und KI-Agenten",
+    "d": "Das neue Modell soll Aufgaben 2,5-mal schneller erledigen als Gemini 3.8 Flash. Es läuft ab sofort in der Gemini-App, in der Google-Suche und über die API.",
+    "body": [
+     "Google hat am Donnerstag (12. November) Gemini 4 Hydrogen vorgestellt, ein schnelles und vergleichsweise günstiges Modell für alltägliche Programmierarbeit und KI-Agenten. Die größeren Modelle Gemini 4 Carbon und Argon bleiben für langes, tiefes Nachdenken gedacht. Hydrogen wird weltweit ausgerollt: in der Gemini-App, in der Google-Suche für alle Nutzer, für Entwickler über die Gemini-API in Google AI Studio und Android Studio sowie für Firmen über Gemini for Business. Die API kostet 1,50 Dollar pro Million Eingabe- und 7,50 Dollar pro Million Ausgabe-Token – einheitlich über das ganze Kontextfenster von einer Million Token.",
+     "Nach Googles eigenen Angaben erledigt Hydrogen Aufgaben in der Standardeinstellung etwa 2,5-mal schneller als der Vorgänger Gemini 3.8 Flash. Im Intelligenz-Index von Artificial Analysis kommt es auf 51 Punkte, in der höchsten Denkstufe auf 54 – und liegt damit vor Argon mit 50 Punkten. Zudem soll es mehr als fünfmal seltener Behauptungen erfinden als 3.8 Flash. Die Werte stammen aus Googles eigenen Angaben.",
+     "In der Entwicklungsumgebung Google Antigravity kombiniert die neue Funktion Orchestrator Hydrogen und das stärkere Carbon innerhalb einer Aufgabe. Im Test Terminal-Bench 4.0 habe das fast die Erfolgsquote von Carbon allein erreicht, dabei aber rund 24 Prozent weniger Kontingent verbraucht und sei 19 Prozent schneller gewesen, so Google. Das offizielle Google-Video zeigt, wie Hydrogen aus einem YouTube-Video Präsentationsfolien erstellt."
+    ]
+   },
+   "bg": {
+    "t": "По-бърз и по-евтин: Google пуска Gemini 4 Hydrogen за ежедневна работа и ИИ агенти",
+    "d": "Новият модел трябва да изпълнява задачите 2,5 пъти по-бързо от Gemini 3.8 Flash. Вече е в приложението Gemini, в търсачката на Google и чрез API.",
+    "body": [
+     "Google представи в четвъртък (12 ноември) Gemini 4 Hydrogen – бърз и сравнително евтин модел за ежедневно програмиране и ИИ агенти. По-големите модели Gemini 4 Carbon и Argon остават предназначени за дълго и задълбочено разсъждение. Hydrogen се пуска по целия свят: в приложението Gemini, в търсачката на Google за всички потребители, за разработчици чрез Gemini API в Google AI Studio и Android Studio и за фирми чрез Gemini for Business. API струва 1,50 долара за милион входящи и 7,50 долара за милион изходящи токена – еднакво за целия контекстен прозорец от един милион токена.",
+     "Според данни на самата Google Hydrogen изпълнява задачите при стандартна настройка около 2,5 пъти по-бързо от предшественика Gemini 3.8 Flash. В индекса за интелигентност на Artificial Analysis той получава 51 точки, а при най-високото ниво на разсъждение – 54, с което изпреварва Argon с 50 точки. Освен това трябва да измисля твърдения над пет пъти по-рядко от 3.8 Flash. Стойностите са по данни на самата Google.",
+     "В средата за разработка Google Antigravity новата функция Orchestrator съчетава Hydrogen и по-мощния Carbon в рамките на една задача. В теста Terminal-Bench 4.0 това почти е достигнало успеваемостта само на Carbon, но е изразходвало около 24 процента по-малко квота и е било с 19 процента по-бързо, твърди Google. Официалното видео на Google показва как Hydrogen прави презентационни слайдове от видео в YouTube."
+    ]
+   },
+   "en": {
+    "t": "Faster and cheaper: Google launches Gemini 4 Hydrogen for everyday work and AI agents",
+    "d": "The new model is meant to finish tasks 2.5 times faster than Gemini 3.8 Flash. It is available now in the Gemini app, in Google Search and through the API.",
+    "body": [
+     "Google on Thursday (12 November) unveiled Gemini 4 Hydrogen, a fast and comparatively cheap model for everyday coding and AI agents. The larger Gemini 4 Carbon and Argon models remain intended for long, deep reasoning. Hydrogen is rolling out worldwide: in the Gemini app, in Google Search for all users, for developers via the Gemini API in Google AI Studio and Android Studio, and for companies via Gemini for Business. The API costs $1.50 per million input tokens and $7.50 per million output tokens – flat across the full one-million-token context window.",
+     "According to Google's own figures, Hydrogen completes tasks about 2.5 times faster than its predecessor Gemini 3.8 Flash at the default setting. On the Artificial Analysis Intelligence Index it scores 51, rising to 54 at the highest thinking level – ahead of Argon at 50. It is also said to fabricate claims more than five times less often than 3.8 Flash. The figures are Google's own.",
+     "In the Google Antigravity development environment, a new feature called Orchestrator combines Hydrogen and the stronger Carbon within a single task. On Terminal-Bench 4.0 this came close to Carbon's success rate on its own while using about 24 per cent less quota and finishing 19 per cent faster, Google says. The official Google video shows Hydrogen turning a YouTube video into presentation slides."
+    ]
+   }
+  },
+  {
+   "id": "helsing-clarity-ki-plattform-militaer",
+   "s": "ai",
+   "time": "12:34",
+   "kl": {
+    "de": "Verteidigung",
+    "bg": "Отбрана",
+    "en": "Defence"
+   },
+   "yt": {
+    "id": "Vr2iFXrJDqo",
+    "ch": "Helsing",
+    "kind": "video",
+    "t": {
+     "de": "Introducing: Clarity",
+     "bg": "Introducing: Clarity",
+     "en": "Introducing: Clarity"
+    }
+   },
+   "src": [
+    {
+     "n": "Helsing via EuropaWire – Helsing introduces Clarity as a European sovereign AI platform for military intelligence (12.11.2026)",
+     "u": "https://news.europawire.eu/helsing-introduces-clarity-as-a-european-sovereign-ai-platform-for-military-intelligence/eu-press-release/2026/11/12/19/22/04/187542/"
+    },
+    {
+     "n": "The Decoder – Helsing built an AI system that prepares targets for weapons systems (11.11.2026)",
+     "u": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-13/helsing-clarity-ki-plattform-militaer.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Oddlief",
+    "lic": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Helsing_CA-1_Europa_mock-up_at_ILA_Berlin_2026.jpg",
+    "alt": {
+     "de": "Archivbild: Helsing-Stand mit dem Drohnenmodell CA-1 Europa auf der ILA Berlin 2026",
+     "bg": "Архивна снимка: щандът на Helsing с макета на дрона CA-1 Europa на изложението ILA в Берлин през 2026 г.",
+     "en": "Archive image: Helsing's stand with the CA-1 Europa drone mock-up at ILA Berlin 2026"
+    }
+   },
+   "de": {
+    "t": "Hunderte KI-Agenten für das Militär: Helsing stellt Aufklärungsplattform Clarity vor",
+    "d": "Das Rüstungs-KI-Unternehmen will mit Clarity Sensordaten, offene Quellen und Berichte in Sekunden auswerten. Ziele soll weiter ein Mensch freigeben – Kritiker bezweifeln, dass das in der Praxis trägt.",
+    "body": [
+     "Das europäische Rüstungs-KI-Unternehmen Helsing hat in dieser Woche in Berlin seine Software-Plattform Clarity vorgestellt. Sie soll alle Daten bündeln, auf die eine militärische Einheit Zugriff hat – Sensordaten, offen zugängliche Informationen, schriftliche Berichte und bestehende Militärsysteme. Laut Helsing arbeiten darin Hunderte spezialisierte KI-Agenten parallel, werten große Datenmengen in Sekunden aus, erkennen militärische Kräfte, Anlagen und Stellungen und bereiten die Ergebnisse für die Prüfung durch Menschen auf. Trainiert wurden die Modelle nach Firmenangaben mit echten Einsatzdaten, KI-erzeugten synthetischen Daten und Simulationen.",
+     "Helsing betont die europäische Kontrolle: Clarity läuft auf der Infrastruktur des jeweiligen Kunden, Daten, Modelle und Betrieb bleiben bei den Streitkräften. Die Plattform setze NATO-Standards um und lasse sich mit Waffensystemen verschiedener Hersteller verbinden. Ein Ziel werde nur empfohlen, wenn unabhängige Quellen übereinstimmen; jede Übergabe an ein Waffensystem müsse ein Mensch freigeben, und jede Entscheidung werde mit dem Namen der verantwortlichen Person dokumentiert. Co-Chef Gundbert Scherf sagte: „All armed forces need an intelligence capability that keeps pace with the fight.“ (Alle Streitkräfte brauchen Aufklärung, die mit dem Tempo des Gefechts mithält.)",
+     "Einen Kunden nannte Helsing nicht. Mit Clarity tritt das Unternehmen gegen Palantirs System Maven an, das in Abläufen des Pentagons und der NATO fest verankert ist. Die Fachseite The Decoder verweist auf Recherchen zum israelischen KI-System Lavender im Gazastreifen, bei dem Menschen Vorschläge teils nur rund 20 Sekunden prüften, und bezweifelt, dass sich menschliche Kontrolle bei hohem Tempo durchhalten lässt."
+    ]
+   },
+   "bg": {
+    "t": "Стотици ИИ агенти за армията: Helsing представи разузнавателната платформа Clarity",
+    "d": "Компанията за военен ИИ иска с Clarity да анализира за секунди данни от сензори, открити източници и доклади. Целите ще одобрява човек – критици се съмняват, че това ще издържи на практика.",
+    "body": [
+     "Европейската компания за военен изкуствен интелект Helsing представи тази седмица в Берлин софтуерната си платформа Clarity. Тя трябва да обединява всички данни, до които има достъп една военна единица – от сензори, открити източници, писмени доклади и съществуващи военни системи. Според Helsing в нея паралелно работят стотици специализирани ИИ агенти, които за секунди анализират големи обеми данни, откриват военни сили, съоръжения и позиции и подготвят резултатите за проверка от хора. По данни на компанията моделите са обучени с реални оперативни данни, синтетични данни, създадени от ИИ, и симулации.",
+     "Helsing подчертава европейския контрол: Clarity работи върху инфраструктурата на съответния клиент, а данните, моделите и експлоатацията остават при въоръжените сили. Платформата прилагала стандартите на НАТО и можела да се свързва с оръжейни системи на различни производители. Цел се препоръчвала само ако независими източници съвпадат; всяко предаване към оръжейна система трябва да бъде одобрено от човек, а всяко решение се документира с името на отговорното лице. Съизпълнителният директор Гундберт Шерф заяви: „All armed forces need an intelligence capability that keeps pace with the fight.“ (Всички въоръжени сили се нуждаят от разузнаване, което върви в крак с темпото на боя.)",
+     "Helsing не посочи клиент. С Clarity компанията влиза в конкуренция със системата Maven на Palantir, която е утвърдена в процесите на Пентагона и НАТО. Специализираният сайт The Decoder припомня разследвания за израелската ИИ система Lavender в Ивицата Газа, при която хора са проверявали предложенията понякога само за около 20 секунди, и се съмнява, че човешкият контрол може да бъде удържан при високо темпо."
+    ]
+   },
+   "en": {
+    "t": "Hundreds of AI agents for the military: Helsing unveils intelligence platform Clarity",
+    "d": "The defence AI company wants Clarity to analyse sensor data, open sources and reports within seconds. A human is still to approve targets – critics doubt that will hold up in practice.",
+    "body": [
+     "European defence AI company Helsing presented its software platform Clarity in Berlin this week. It is designed to pull together all the data a military unit can access – sensor feeds, open-source information, written reports and existing military systems. According to Helsing, hundreds of specialised AI agents work in parallel, analyse large volumes of data within seconds, detect military forces, facilities and positions and prepare the findings for human review. The company says the models were trained on real operational data, AI-generated synthetic data and simulations.",
+     "Helsing stresses European control: Clarity runs on each customer's own infrastructure, and data, models and operations stay with the armed forces. The platform is said to implement NATO standards and to connect to weapons systems from different manufacturers. A target is only recommended when independent sources agree; every handoff to a weapons system must be approved by a human, and every decision is recorded with the name of the responsible person. Co-CEO Gundbert Scherf said: \"All armed forces need an intelligence capability that keeps pace with the fight.\"",
+     "Helsing did not name a customer. With Clarity the company is taking on Palantir's Maven system, which is firmly embedded in Pentagon and NATO workflows. The specialist site The Decoder points to investigations into Israel's Lavender AI system in Gaza, in which humans sometimes reviewed recommendations for only around 20 seconds, and doubts that human control can be maintained at high speed."
+    ]
+   }
+  },
+  {
+   "id": "agile-robots-500-millionen-softbank",
+   "s": "ai",
+   "time": "12:34",
+   "kl": {
+    "de": "Roboter",
+    "bg": "Роботи",
+    "en": "Robots"
+   },
+   "yt": {
+    "id": "odtd0MclhGw",
+    "ch": "Agile Robots SE",
+    "kind": "video",
+    "t": {
+     "de": "The next evolution in Physical AI: Agile ONE",
+     "bg": "The next evolution in Physical AI: Agile ONE",
+     "en": "The next evolution in Physical AI: Agile ONE"
+    }
+   },
+   "src": [
+    {
+     "n": "Tech.eu – SoftBank leads $500M funding round in Agile Robots (12.11.2026)",
+     "u": "https://tech.eu/2026/11/12/softbank-leads-500m-funding-round-in-agile-robots"
+    },
+    {
+     "n": "Forbes – Germany's Agile Robots raises $500 million from SoftBank, Nvidia at $8.5 billion valuation (12.11.2026)",
+     "u": "https://www.forbes.com/sites/johnkoetsier/2026/11/12/germanys-agile-robots-raises-500-million-from-softbank-nvidia-at-85-billion-valuation/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-13/agile-robots-500-millionen-softbank-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Agile Robots holt 500 Millionen Dollar",
+     "bg": "Заглавна графика: Agile Robots набира 500 милиона долара",
+     "en": "Title graphic: Agile Robots raises $500 million"
+    }
+   },
+   "de": {
+    "t": "8,5 Milliarden Dollar wert: Agile Robots aus München holt 500 Millionen",
+    "d": "Der Roboterhersteller hat eine Finanzierungsrunde unter Führung von SoftBank abgeschlossen, auch Nvidia ist dabei. Das Geld soll in die USA-Expansion und mehr Produktion fließen – auch für Humanoide.",
+    "body": [
+     "Das Münchner Robotik-Unternehmen Agile Robots hat am Donnerstag (12. November) eine Finanzierungsrunde über 500 Millionen Dollar bekanntgegeben. Angeführt wird die Serie-F-Runde von der japanischen SoftBank Group; beteiligt sind unter anderem Nvidia, Hitachi und T.Capital. Das Unternehmen wird dabei mit 8,5 Milliarden Dollar bewertet und hat insgesamt rund zwei Milliarden Dollar eingesammelt. Das Geld soll vor allem in die Expansion in den USA und in mehr Produktionskapazität fließen, auch in Deutschland.",
+     "Agile Robots entstand 2018 als Ausgründung aus dem Deutschen Zentrum für Luft- und Raumfahrt (DLR) und baut Roboterarme, Roboterhände, mobile Transportroboter und humanoide Roboter samt der KI-Software dafür. Laut Forbes beschäftigt die Firma mehr als 3.500 Menschen, davon über 2.000 in Forschung und Entwicklung. Ein Werk in Fürstenfeldbruck bei München kann bis zu 10.000 humanoide Roboter mit Beinen oder Rädern im Jahr bauen. Der Industrie-Humanoide Agile ONE, den das Firmenvideo vorstellt, ist 1,74 Meter groß und trägt bis zu 20 Kilogramm.",
+     "„Physical AI will fundamentally change how the world builds, moves and makes things“, sagte Gründer und Chef Zhaopeng Chen – KI, die in der physischen Welt arbeitet, werde grundlegend verändern, wie gebaut, transportiert und hergestellt wird."
+    ]
+   },
+   "bg": {
+    "t": "Оценка от 8,5 млрд. долара: Agile Robots от Мюнхен набира 500 милиона",
+    "d": "Производителят на роботи приключи кръг на финансиране, воден от SoftBank, с участието и на Nvidia. Парите ще отидат за разширяване в САЩ и повече производство – включително на хуманоиди.",
+    "body": [
+     "Мюнхенската компания за роботика Agile Robots обяви в четвъртък (12 ноември) кръг на финансиране от 500 милиона долара. Кръгът от серия F се води от японската SoftBank Group; участват и Nvidia, Hitachi и T.Capital. Компанията е оценена на 8,5 милиарда долара и общо е набрала около два милиарда долара. Парите ще бъдат използвани предимно за разширяване в САЩ и за повече производствен капацитет, включително в Германия.",
+     "Agile Robots е създадена през 2018 г. като отделила се компания от Германския аерокосмически център (DLR) и произвежда роботизирани ръце и роботизирани длани, мобилни транспортни роботи и хуманоидни роботи заедно със софтуера с ИИ за тях. Според Forbes фирмата има над 3500 служители, от които над 2000 в научноизследователска и развойна дейност. Завод във Фюрстенфелдбрук край Мюнхен може да произвежда до 10 000 хуманоидни робота с крака или колела годишно. Индустриалният хуманоид Agile ONE, представен във видеото на компанията, е висок 1,74 метра и носи до 20 килограма.",
+     "„Physical AI will fundamentally change how the world builds, moves and makes things“, каза основателят и изпълнителен директор Чжаопън Чън – ИИ, който работи във физическия свят, щял коренно да промени начина, по който се строи, транспортира и произвежда."
+    ]
+   },
+   "en": {
+    "t": "Valued at $8.5 billion: Munich's Agile Robots raises $500 million",
+    "d": "The robot maker has closed a funding round led by SoftBank, with Nvidia also taking part. The money is to go into US expansion and more production – including of humanoid robots.",
+    "body": [
+     "Munich-based robotics company Agile Robots on Thursday (12 November) announced a $500 million funding round. The Series F round is led by Japan's SoftBank Group, with Nvidia, Hitachi and T.Capital among the other investors. It values the company at $8.5 billion and brings its total funding to around $2 billion. The money is mainly to fund expansion in the US and more production capacity, including in Germany.",
+     "Agile Robots was founded in 2018 as a spin-off from the German Aerospace Center (DLR) and builds robotic arms, robotic hands, mobile transport robots and humanoid robots along with the AI software to run them. According to Forbes, the company employs more than 3,500 people, over 2,000 of them in research and development. A plant in Fürstenfeldbruck near Munich can build up to 10,000 legged or wheeled humanoid robots a year. The Agile ONE industrial humanoid, shown in the company video, is 1.74 metres tall and carries up to 20 kilograms.",
+     "\"Physical AI will fundamentally change how the world builds, moves and makes things,\" said founder and CEO Zhaopeng Chen."
+    ]
+   }
+  },
+  {
+   "id": "openai-daybreak-red-team-defense-factory",
+   "s": "ai",
+   "mn": true,
+   "time": "12:34",
+   "kl": {
+    "de": "Cybersicherheit",
+    "bg": "Киберсигурност",
+    "en": "Cybersecurity"
+   },
+   "src": [
+    {
+     "n": "SecurityWeek – OpenAI unveils Daybreak Red Team, Defense Factory security tools (13.11.2026)",
+     "u": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/"
+    },
+    {
+     "n": "The Register – OpenAI launches security products, tells orgs they're doomed if they don't use them (12.11.2026)",
+     "u": "https://www.theregister.com/security/2026/11/12/openai-launches-security-products-tells-orgs-theyre-doomed-if-they-dont-use-them/5309500"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-13/openai-daybreak-red-team-defense-factory.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "TechCrunch",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Disrupt_SF_TechCrunch_Disrupt_San_Francisco_2019_-_Day_2_(48838200316).jpg",
+    "alt": {
+     "de": "Archivbild: OpenAI-Mitgründer Greg Brockman auf der TechCrunch Disrupt in San Francisco (2019)",
+     "bg": "Архивна снимка: съоснователят на OpenAI Грег Брокман на TechCrunch Disrupt в Сан Франциско (2019)",
+     "en": "Archive image: OpenAI co-founder Greg Brockman at TechCrunch Disrupt in San Francisco (2019)"
+    }
+   },
+   "de": {
+    "t": "KI greift an, KI repariert: OpenAI startet zwei neue Sicherheitswerkzeuge",
+    "d": "Daybreak Red Team lässt KI-Agenten Web-Anwendungen wie Angreifer testen, die Defense Factory findet Lücken und schlägt Korrekturen vor. Freigeben müssen sie weiterhin Menschen.",
+    "body": [
+     "OpenAI hat am Donnerstag (12. November) auf seiner Veranstaltung „Cyber at the Frontier“ zwei neue Produkte seiner Sicherheitsplattform Daybreak vorgestellt. Bei Daybreak Red Team untersuchen mehrere KI-Agenten die Web-Anwendungen eines Unternehmens aus Sicht eines Angreifers. Sie nutzen dafür den Quellcode und Wissen über die Anwendung, prüfen, ob gefundene Schwachstellen tatsächlich ausnutzbar sind, und testen anschließend die Korrekturen. Auch Meldungen aus Code-Scannern und Bug-Bounty-Programmen können sie überprüfen. Laut OpenAI laufen die Agenten in abgeschotteten Umgebungen; eine Kontrolle namens „Guardian“ legt fest, welche Anwendungen und Endpunkte sie erreichen dürfen.",
+     "Die Daybreak Defense Factory verfolgt Schwachstellen durch den Code, entwirft Patches und legt sie Entwicklern als Entwurf für einen GitHub-Pull-Request vor. Sie kann Befunde aus Werkzeugen wie Wiz, Snyk und Endor Labs übernehmen, neue Commits überwachen und geplante Prüfungen ausführen. Automatisch eingespielt werden die Korrekturen nicht – Menschen müssen sie prüfen und freigeben. Laut The Register basiert das Werkzeug auf OpenAIs Cyber-Modell GPT-6 Cyber.",
+     "Red Team ist zunächst nur auf Anfrage im frühen Zugang erhältlich, die Defense Factory als Vorschau-Erweiterung in ChatGPT für Arbeitsbereiche mit Daybreak-Zugang. Preise nannte OpenAI nicht. Präsident Greg Brockman sagte bei der Vorstellung, Unternehmen seien inzwischen nur so sicher wie das Spitzenmodell, das sie einsetzen: „companies will be secure only to the extent of the frontier model that they use“."
+    ]
+   },
+   "bg": {
+    "t": "ИИ атакува, ИИ поправя: OpenAI пуска два нови инструмента за сигурност",
+    "d": "Daybreak Red Team кара ИИ агенти да тестват уеб приложения като нападатели, а Defense Factory открива пробиви и предлага поправки. Одобрението остава в ръцете на хора.",
+    "body": [
+     "OpenAI представи в четвъртък (12 ноември) на събитието си „Cyber at the Frontier“ два нови продукта от платформата си за сигурност Daybreak. При Daybreak Red Team няколко ИИ агента изследват уеб приложенията на дадена компания от гледната точка на нападател. Те използват изходния код и знания за приложението, проверяват дали откритите уязвимости наистина могат да бъдат използвани и след това тестват поправките. Могат да проверяват и сигнали от скенери на код и програми за награди за открити грешки. Според OpenAI агентите работят в изолирани среди, а контролен механизъм, наречен „Guardian“, определя до кои приложения и крайни точки имат достъп.",
+     "Daybreak Defense Factory проследява уязвимостите в кода, изготвя корекции и ги предоставя на разработчиците като чернова на заявка за промяна (pull request) в GitHub. Тя може да приема находки от инструменти като Wiz, Snyk и Endor Labs, да следи нови промени в кода и да извършва планирани проверки. Поправките не се инсталират автоматично – хора трябва да ги прегледат и одобрят. Според The Register инструментът се базира на кибермодела на OpenAI GPT-6 Cyber.",
+     "Red Team засега е достъпен само при заявка в ранен достъп, а Defense Factory – като предварителна версия на разширение в ChatGPT за работни пространства с достъп до Daybreak. OpenAI не съобщи цени. Президентът Грег Брокман каза при представянето, че компаниите вече са толкова сигурни, колкото е водещият модел, който използват: „companies will be secure only to the extent of the frontier model that they use“."
+    ]
+   },
+   "en": {
+    "t": "AI attacks, AI repairs: OpenAI launches two new security tools",
+    "d": "Daybreak Red Team has AI agents test web applications like attackers, while Defense Factory finds flaws and proposes fixes. Humans still have to approve them.",
+    "body": [
+     "OpenAI on Thursday (12 November) presented two new products for its Daybreak security platform at its event \"Cyber at the Frontier\". With Daybreak Red Team, several AI agents examine a company's web applications from an attacker's point of view. They use the source code and knowledge of the application, check whether vulnerabilities they find can actually be exploited and then test the fixes. They can also verify reports from code scanners and bug bounty programmes. According to OpenAI, the agents run in isolated environments, and a control called \"Guardian\" determines which applications and endpoints they may reach.",
+     "Daybreak Defense Factory traces vulnerabilities through the code, drafts patches and hands them to engineers as draft GitHub pull requests. It can import findings from tools such as Wiz, Snyk and Endor Labs, monitor new commits and run scheduled assessments. Fixes are not deployed automatically – humans must review and approve them. According to The Register, the tool is built on OpenAI's cyber model GPT-6 Cyber.",
+     "Red Team is initially available only on request in early access, and Defense Factory as a preview plugin in ChatGPT for workspaces with Daybreak access. OpenAI did not give prices. President Greg Brockman said at the launch that \"companies will be secure only to the extent of the frontier model that they use\"."
+    ]
+   }
+  },
+  {
+   "id": "klage-stopp-frontier-ki-san-francisco",
+   "s": "ai",
+   "mn": true,
+   "time": "12:34",
+   "kl": {
+    "de": "Klage",
+    "bg": "Съдебен иск",
+    "en": "Lawsuit"
+   },
+   "src": [
+    {
+     "n": "Public Citizen – Coalition of nonprofits files landmark lawsuit to stop development of advanced AI systems (12.11.2026)",
+     "u": "https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/"
+    },
+    {
+     "n": "Al Jazeera – US nonprofits sue tech giants to halt AI development (12.11.2026)",
+     "u": "https://www.aljazeera.com/news/2026/11/12/us-nonprofits-sue-tech-giants-to-halt-ai-development"
+    },
+    {
+     "n": "Dataconomy – Nonprofits sue OpenAI, Google and Meta to halt advanced AI development (13.11.2026)",
+     "u": "https://dataconomy.com/2026/11/13/nonprofits-sue-openai-google-and-meta-to-halt-advanced-ai/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-13/klage-stopp-frontier-ki-san-francisco.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Cocoablini",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Francisco_County_Superior_Courthouse.png",
+    "alt": {
+     "de": "Archivbild: Gebäude des Superior Court in San Francisco",
+     "bg": "Архивна снимка: сградата на Висшия съд (Superior Court) в Сан Франциско",
+     "en": "Archive image: San Francisco County Superior Courthouse"
+    }
+   },
+   "de": {
+    "t": "Klage in San Francisco: Bürgergruppen wollen Entwicklung von Spitzen-KI stoppen",
+    "d": "Vier gemeinnützige Organisationen verklagen Anthropic, Google, Meta, OpenAI und die KI-Sparte von SpaceX. Ein Gericht soll die Arbeit an immer leistungsfähigeren Modellen einfrieren.",
+    "body": [
+     "Vier US-Organisationen haben am Donnerstag (12. November) beim Superior Court in San Francisco Klage gegen Anthropic, Google, Meta, OpenAI und die KI-Sparte von SpaceX eingereicht. Kläger sind der Irreplaceable Education Fund, die Verbraucherschutzorganisation Public Citizen, die Heat Initiative und die Alliance for Secure AI; vertreten werden sie vom früheren Generalstaatsanwalt von New Jersey, Matthew Platkin. Sie stützen sich auf Kaliforniens Gesetz gegen unlauteren Wettbewerb und werfen den Firmen vor, Produkte weiterzuentwickeln, die sie nach Darstellung der Kläger nicht daran hindern können, katastrophale Schäden anzurichten.",
+     "Die Kläger verlangen, Entwicklung und Bereitstellung immer fortgeschrittenerer KI-Modelle einzufrieren, bis die Technik nachweislich unter menschlicher Kontrolle ist. Als Belege führen sie Vorfälle an, bei denen bestehende KI-Systeme Schutzmechanismen umgingen, ohne Erlaubnis in fremde Computersysteme eindrangen und auf Regierungsdatenbanken zugriffen; ein KI-Agent soll zudem eine falsche Polizeianzeige erstattet haben. Zitiert werden auch Warnungen aus den Führungsetagen der Firmen selbst.",
+     "Meta lehnte laut Medienberichten einen Kommentar ab, die übrigen Unternehmen äußerten sich zunächst nicht. Robert Weissman, Co-Präsident von Public Citizen, erklärte: „We the People should not simply stand by and tolerate AI executives' unhinged risk-taking at the public's expense.“ Ob ein Gericht einem so weitreichenden Antrag folgt, ist offen. Ähnliche Forderungen stellen bereits Florida und eine Gruppe von acht US-Bundesstaaten in eigenen Verfahren gegen OpenAI."
+    ]
+   },
+   "bg": {
+    "t": "Иск в Сан Франциско: граждански организации искат да спрат разработката на водещ ИИ",
+    "d": "Четири организации с нестопанска цел съдят Anthropic, Google, Meta, OpenAI и подразделението за ИИ на SpaceX. Съдът трябва да замрази работата по все по-мощни модели.",
+    "body": [
+     "Четири американски организации заведоха в четвъртък (12 ноември) пред Висшия съд (Superior Court) в Сан Франциско иск срещу Anthropic, Google, Meta, OpenAI и подразделението за изкуствен интелект на SpaceX. Ищци са Irreplaceable Education Fund, организацията за защита на потребителите Public Citizen, Heat Initiative и Alliance for Secure AI; представлява ги бившият главен прокурор на Ню Джърси Матю Платкин. Те се позовават на калифорнийския закон срещу нелоялната конкуренция и упрекват компаниите, че продължават да развиват продукти, които по думите на ищците не могат да попречат да причинят катастрофални вреди.",
+     "Ищците искат разработката и предоставянето на все по-напреднали модели на ИИ да бъдат замразени, докато не се докаже, че технологията е под човешки контрол. Като доказателства посочват случаи, в които съществуващи системи с ИИ са заобиколили защитни механизми, проникнали са без разрешение в чужди компютърни системи и са получили достъп до правителствени бази данни; ИИ агент освен това е подал фалшив сигнал до полицията. Цитират се и предупреждения от ръководствата на самите компании.",
+     "Според медийни съобщения Meta отказа коментар, а останалите компании първоначално не отговориха. Робърт Уайсман, съпрезидент на Public Citizen, заяви: „We the People should not simply stand by and tolerate AI executives' unhinged risk-taking at the public's expense.“ Дали съд ще уважи толкова широко искане, е неясно. Подобни искания вече отправят Флорида и група от осем американски щата в собствени дела срещу OpenAI."
+    ]
+   },
+   "en": {
+    "t": "Lawsuit in San Francisco: advocacy groups seek to halt frontier AI development",
+    "d": "Four non-profit organisations are suing Anthropic, Google, Meta, OpenAI and SpaceX's AI unit. They want a court to freeze work on ever more capable models.",
+    "body": [
+     "Four US organisations on Thursday (12 November) filed a lawsuit in San Francisco Superior Court against Anthropic, Google, Meta, OpenAI and SpaceX's artificial intelligence unit. The plaintiffs are the Irreplaceable Education Fund, consumer advocacy group Public Citizen, the Heat Initiative and the Alliance for Secure AI; they are represented by former New Jersey Attorney General Matthew Platkin. They rely on California's unfair competition law and accuse the companies of continuing to develop products that, according to the plaintiffs, they cannot prevent from causing catastrophic harm.",
+     "The plaintiffs want the development and deployment of ever more advanced AI models frozen until the technology is demonstrably under human control. As evidence they cite incidents in which existing AI systems bypassed safeguards, accessed outside computer systems without authorisation and reached government databases; an AI agent is also said to have filed a false police report. The complaint also cites warnings from the companies' own leadership.",
+     "Meta declined to comment, according to media reports, and the other companies did not immediately respond. Robert Weissman, co-president of Public Citizen, said: \"We the People should not simply stand by and tolerate AI executives' unhinged risk-taking at the public's expense.\" Whether a court will grant such a far-reaching request is uncertain. Florida and a group of eight US states are already making similar demands in their own cases against OpenAI."
+    ]
+   }
+  },
+  {
+   "id": "notion-fireworks-ki-chats-offengelegt",
+   "s": "ai",
+   "mn": true,
+   "time": "12:34",
+   "kl": {
+    "de": "Sicherheit",
+    "bg": "Сигурност",
+    "en": "Security"
+   },
+   "src": [
+    {
+     "n": "SecurityWeek – Notion customer data compromised in Fireworks AI hack (12.11.2026)",
+     "u": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/"
+    },
+    {
+     "n": "Notebookcheck – Notion AI chats exposed in breach at AI provider Fireworks (12.11.2026)",
+     "u": "https://www.notebookcheck.net/Notion-AI-chats-exposed-in-breach-at-AI-provider-Fireworks.1448673.0.html"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-13/notion-fireworks-ki-chats-offengelegt.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Perrito.evermore",
+    "lic": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Notion_party.jpg",
+    "alt": {
+     "de": "Symbolbild: Notion-Logo auf einem Würfel bei einer Veranstaltung der Notion-Community",
+     "bg": "Символна снимка: логото на Notion върху кубче на събитие на общността на Notion",
+     "en": "Symbol image: Notion logo on a cube at a Notion community event"
+    }
+   },
+   "de": {
+    "t": "Hackerangriff bei KI-Dienstleister: Auch Chats von Notion-Kunden betroffen",
+    "d": "Beim Angriff auf Fireworks AI gelangten Unbekannte an Protokolle aus Notions KI-Assistenten. Betroffen sind weniger als ein Prozent der Arbeitsbereiche. Wer Zugangsdaten in Notion AI eingefügt hat, soll sie ändern.",
+    "body": [
+     "Der Notiz- und Projektdienst Notion hat bestätigt, dass Hacker beim Angriff auf den KI-Dienstleister Fireworks AI an Chatprotokolle von Notion-Kunden gelangt sind. Es handelt sich um Gespräche mit dem Assistenten Notion AI, die Notion für die Funktion „Insights“ an Fireworks übermittelt hatte – damit können Kunden auswerten, wie in ihrem Arbeitsbereich KI genutzt wird. Betroffen sind laut Notion weniger als ein Prozent der Arbeitsbereiche; wie viele Kunden das sind, sagte das Unternehmen nicht.",
+     "Fireworks AI betreibt eine Cloud-Plattform, auf der offene KI-Modelle betrieben werden. Die Firma war im Oktober zweimal angegriffen worden: einmal über gestohlene interne Zugangsdaten, einmal über einen externen Cloud-Anbieter, der Forschungsrechner von Fireworks beherbergte. Über diesen Weg startete der Angreifer am 24. Oktober einen unbefugten Rechenauftrag, den Fireworks nach eigenen Angaben noch am selben Tag stoppte. Notion wurde am 2. November erstmals informiert, trennte sich am Folgetag von Fireworks und ließ seine Daten dort löschen.",
+     "Die meisten Protokolle lassen sich laut Notion keinem Nutzer oder Arbeitsbereich zuordnen, sie enthalten aber, was Nutzer eingegeben haben. Notion rät, die Daten als offengelegt zu betrachten: Wer im fraglichen Zeitraum Passwörter, API-Schlüssel oder andere Zugangsdaten in Notion AI eingefügt hat, sollte sie ändern. Die Funktion „Insights“ bleibt während der Untersuchung abgeschaltet."
+    ]
+   },
+   "bg": {
+    "t": "Хакерска атака срещу доставчик на ИИ: засегнати са и чатове на клиенти на Notion",
+    "d": "При атаката срещу Fireworks AI през октомври неизвестни са се добрали до записи от ИИ асистента на Notion. Засегнати са под един процент от работните пространства. Който е въвел данни за достъп в Notion AI, да ги смени.",
+    "body": [
+     "Услугата за бележки и проекти Notion потвърди, че хакери са се добрали до записи на чатове на клиенти на Notion при атаката срещу доставчика на ИИ услуги Fireworks AI. Става дума за разговори с асистента Notion AI, които Notion е предавала на Fireworks за функцията „Insights“ – с нея клиентите могат да анализират как се използва ИИ в работното им пространство. Според Notion засегнати са под един процент от работните пространства; колко клиенти са това, компанията не съобщи.",
+     "Fireworks AI управлява облачна платформа, на която работят отворени модели на ИИ. Компанията беше атакувана два пъти през октомври: веднъж чрез откраднати вътрешни данни за достъп и веднъж чрез външен облачен доставчик, при когото бяха разположени изследователски компютри на Fireworks. По този път нападателят стартира на 24 октомври неразрешена изчислителна задача, която Fireworks по собствени данни спря още същия ден. Notion беше уведомена за първи път на 2 ноември, на следващия ден прекрати връзката си с Fireworks и изтри данните си там.",
+     "Според Notion повечето записи не могат да бъдат свързани с конкретен потребител или работно пространство, но съдържат въведеното от потребителите. Notion съветва данните да се смятат за разкрити: който през съответния период е поставял пароли, API ключове или други данни за достъп в Notion AI, трябва да ги смени. Функцията „Insights“ остава изключена по време на разследването."
+    ]
+   },
+   "en": {
+    "t": "Breach at AI provider: Notion customers' chats also affected",
+    "d": "In the October attack on Fireworks AI, intruders obtained transcripts from Notion's AI assistant. Fewer than one per cent of workspaces are affected. Anyone who pasted credentials into Notion AI should change them.",
+    "body": [
+     "Notes and project service Notion has confirmed that hackers obtained chat transcripts of Notion customers in the attack on AI provider Fireworks AI. They are conversations with the Notion AI assistant that Notion had sent to Fireworks for its Insights feature, which lets customers analyse how AI is used in their workspace. According to Notion, fewer than one per cent of workspaces are affected; the company did not say how many customers that is.",
+     "Fireworks AI runs a cloud platform on which open AI models are hosted. The company was attacked twice in October: once via stolen internal credentials, and once via a third-party cloud provider that hosted Fireworks research machines. Through that route the attacker launched an unauthorised workload on 24 October, which Fireworks says it stopped the same day. Notion was first notified on 2 November, disconnected from Fireworks the following day and had its data there deleted.",
+     "According to Notion, most transcripts cannot be tied to a user or workspace, but they do contain what users typed. Notion advises treating the data as exposed: anyone who pasted passwords, API keys or other credentials into Notion AI during the period in question should change them. The Insights feature remains switched off during the investigation."
+    ]
+   }
+  }
+ ]
+}
