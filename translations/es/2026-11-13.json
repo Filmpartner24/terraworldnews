@@ -332,6 +332,33 @@
     "img.alt": "Soldados búlgaros en un desfile en Sofía (Foto de archivo)"
    }
   },
+  "deutsche-boerse": {
+   "L": {
+    "body": [
+     "Cuarta jornada consecutiva de ganancias en Xetra (el sistema electrónico de negociación de la Bolsa de Fráncfort): el índice de referencia Dax (las 40 mayores empresas cotizadas de Alemania) subió el jueves un 0,41 % hasta 26.771,88 puntos (dpa-AFX). Durante la sesión superó por primera vez en su historia la marca de los 27.000 puntos, pero no logró mantenerla. Los índices más amplios retrocedieron: el MDax (50 valores medianos) perdió un 0,70 % hasta 30.858,13 puntos y el SDax (valores más pequeños) un 1,01 % hasta 17.953,63. El índice tecnológico TecDax cerró prácticamente sin cambios (+0,01 %, 4108,66). El Euro Stoxx 50 (50 grandes empresas de la eurozona) avanzó un 0,09 % hasta 6398,98 puntos.",
+     "Día de grandes balances: Munich Re ganó un 2,9 % y lideró el Dax, ya que los grandes siniestros del tercer trimestre fueron menores de lo esperado. Allianz subió un 1,9 % hasta un máximo histórico, tras un resultado récord en nueve meses y unas perspectivas más optimistas para 2026. Siemens avanzó un 1,7 %: el grupo superó las estimaciones de los analistas y elevó sus objetivos a medio plazo. Merck KGaA, en cambio, perdió un 2,3 % porque la compañía detiene el desarrollo del fármaco cardiaco Pelacarsen. Gea fue el farolillo rojo del índice (−4,3 %): el presidente ejecutivo Stefan Klebert dejará el cargo a finales de abril del próximo año.",
+     "También generaron incertidumbre la dimisión del consejero delegado de Nvidia, Jensen Huang, que lastró a los valores tecnológicos europeos, y la afirmación del presidente estadounidense, Donald Trump, de que un acuerdo con Irán no sería necesario. En el SDax, Patrizia se disparó un 23 %, mientras que Secunet y Ottobock perdieron cada una alrededor de un 17 %.",
+     "El viernes: el bróker IG estimó el Dax, algo más de dos horas antes de la apertura de Xetra, un 0,18 % más bajo, en 26.725 puntos (dpa-AFX, 06:55); en términos semanales supondría una subida de alrededor del 3,5 %. Hoy presentan resultados Bechtle, Generali y Richemont; a las 11:00 llega la segunda estimación del PIB de la eurozona del tercer trimestre y a las 14:30 los precios de producción de EE. UU."
+    ],
+    "d": "El Dax subió el jueves un 0,41 % hasta 26.771,88 puntos tras superar brevemente los 27.000. Las aseguradoras avanzaron con buenas cifras; Gea y Merck cayeron. IG estima un viernes algo más débil.",
+    "explain": "Un máximo histórico significa que las grandes empresas alemanas nunca habían valido tanto en bolsa. No es una garantía de futuro: tras semanas fuertes, las cotizaciones suelen oscilar.",
+    "t": "El Dax supera por primera vez los 27.000 puntos; Munich Re, Allianz y Siemens, al frente"
+   },
+   "at": "2026-11-13T07:17Z",
+   "h": "416aa717049e",
+   "rev": [
+    "Trump's statement was rendered as plain fact (\"no es necesario\"); it needs to stay attributed, in the conditional/subjunctive.",
+    "\"Merck ... porque la compañía detiene\": the German says Merck stops development of Pelacarsen; the draft is fine on this point, but \"Gea cerró el índice\" is unnatural for \"Schlusslicht\".",
+    "Munich Re: the German uses a dash for the reason (\"die Großschäden ... fielen geringer aus\"); \"ya que\" is acceptable. No change needed.",
+    "Pelacarsen is a drug name, so it stays.",
+    "In the German, IG's estimate was \"gut zwei Stunden\" before the start, so \"algo más de dos horas\" is correct. No change."
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ]
+  },
   "deutschland-afd-antraege-green-deal-co2-preis-russisches-gas-2026-11-13": {
    "L": {
     "body": [
@@ -921,6 +948,32 @@
    "x": {
     "img.alt": "Edificio del Reichstag y Paul-Löbe-Haus en Berlín (imagen simbólica)"
    }
+  },
+  "invest-deutschland": {
+   "L": {
+    "body": [
+     "Desde la mañana del jueves hay novedades. Mercedes-Benz ha paralizado por ahora todas las inversiones adicionales en sus centros alemanes, según una entrevista interna del director de Producción, Michael Schiebe. Las conversaciones con los representantes de los trabajadores sobre la reducción de costes están estancadas. La directora de Personal, Britta Seeger, dijo que habría que examinar qué centros se pueden seguir costeando. En octubre se habló del cierre de una planta de montaje y otra de motores; no está claro qué plantas se verían afectadas. Los despidos por causas empresariales están excluidos hasta finales de 2034 (dpa, Handelsblatt, Berliner Zeitung, 12.11.).",
+     "En Bad Honnef (Renania del Norte-Westfalia), Hitachi Energy ha ampliado su fábrica de grandes transformadores por unos 60 millones de euros; el primer ministro regional, Hendrik Wüst, acudió de visita. La producción se duplica y se crean unos 100 puestos (Honnef heute, Radio Bonn, 12.11.). En Riedlingen (Baden-Wurtemberg) la producción del fabricante de utensilios de cocina Silit termina a final de año; unos 125 empleados están afectados y en el futuro se fabricará en China (Schwäbische Zeitung, 12.11.). El fabricante de papel pintado Rasch, en Bramsche (Baja Sajonia), con unos 200 empleados, ha solicitado el concurso de acreedores y la actividad continúa (t-online, 12.11.).",
+     "En Emden, VW ha iniciado la producción en serie del ID. Tiguan. Según la planificación actual, la fábrica, con unos 7.700 empleados, no tendrá modelo sucesor a partir de 2031 (Autohaus, 12.11.). IG Metall ha decidido huelgas de advertencia de jornada completa en la industria metalúrgica y eléctrica, por primera vez desde 2018; en Baden-Wurtemberg hoy comienzan las votaciones en las empresas (dpa-AFX, 12.11.). Las inversiones cuantificadas de la tabla suman 884,5 millones de euros (cálculo propio)."
+    ],
+    "d": "Mercedes estudia el cierre de dos plantas. Hitachi Energy ha invertido 60 millones de euros en su fábrica de transformadores junto al Rin. Silit traslada la producción de Riedlingen a China: 125 empleos menos.",
+    "explain": "En Mercedes crece la incertidumbre para miles de empleados, aunque los despidos por causas empresariales estén excluidos hasta finales de 2034. En cambio, se crean nuevos empleos donde se fabrica tecnología para redes eléctricas.",
+    "t": "Mercedes detiene inversiones en Alemania, Hitachi Energy se amplía en Bad Honnef"
+   },
+   "at": "2026-11-13T07:17Z",
+   "h": "e0d1b6a1642a",
+   "rev": [
+    "Headline \"Hitachi Energy se amplía\" is a loose rendering; \"amplía\" is ok, but the verb tense of Seeger's quote is fine – kept as conditional with attribution",
+    "\"Elektroindustrie\" rendered as \"industria ... electrónica\"; should be \"eléctrica\"",
+    "\"Seeger ... habría que examinar qué centros se podrían seguir permitiendo\" is awkward/unnatural; improved to \"qué centros se pueden seguir costeando\" while keeping attribution",
+    "\"Warnstreiks\" in the draft \"huelgas de advertencia\" is acceptable; \"ganztägige\" fine",
+    "\"se verían afectadas\" for \"betroffen wären\" is fine"
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ]
   },
   "italien-frankreich-3-1-zidane-erste-niederlage-2026-11-13-b08": {
    "L": {
@@ -1641,6 +1694,25 @@
    "x": {
     "img.alt": "Estadio Rajko Mitić de Belgrado (Foto de archivo)"
    }
+  },
+  "strom-ibex": {
+   "L": {
+    "body": [
+     "En la bolsa eléctrica búlgara IBEX (BNEB) se compra y se vende electricidad al por mayor. Las centrales ofrecen, y comercializadoras, suministradores y grandes empresas compran. En el mercado diario, el precio de cada hora del día siguiente se fija ya la víspera mediante una subasta. Para el viernes 13 de noviembre, el promedio diario (Base) es de 193,84 euros por megavatio hora sin IVA. El jueves fue de 289,56 euros: una bajada del 33,06 %, o 95,72 euros por megavatio hora.",
+     "La mayor bajada se registra en la electricidad diurna. En las horas punta (Peak, horas 9-20) el megavatio hora cuesta 195,61 euros, un 40,49 % menos que el jueves (328,69 euros). En las horas valle (Off-Peak, horas 1-8 y 21-24) son 192,06 euros, un 23,31 % menos que el jueves (250,43 euros). Así, la diferencia entre la electricidad diurna y la nocturna se reduce a 3,55 euros, frente a los 78,26 euros del día anterior (cálculo propio).",
+     "Se negocia más electricidad: 111.702,58 megavatios hora, un 5,36 % más que el jueves (106.020,72 MWh; cálculo propio). A las horas punta corresponden 60.457,05 MWh y a las horas valle 51.245,52 MWh. En el mercado intradiario a corto plazo, la agencia de noticias BTA informa, en el momento de su despacho, de precios medios ponderados de 265,32 euros (productos de 60 minutos) y 275,89 euros (productos de 15 minutos)."
+    ],
+    "d": "Para el 13 de noviembre, IBEX informa de un precio medio de 193,84 euros por megavatio hora sin IVA, un 33,06 % menos que el jueves. De día el precio cae más de un 40 % y sube el volumen negociado.",
+    "explain": "Las empresas que compran electricidad a precios de bolsa pagan el viernes de media aproximadamente un tercio menos que el jueves. Los hogares pagan precios fijados por el regulador KEVR, por lo que su factura no cambia directamente.",
+    "t": "Electricidad en bolsa en Bulgaria el viernes: 193,84 euros/MWh, un tercio más barata"
+   },
+   "at": "2026-11-13T07:17Z",
+   "h": "0744232c55f7",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ]
   },
   "van-hollen-schumer-senat-fuehrung-2026-11-13-b08": {
    "L": {
