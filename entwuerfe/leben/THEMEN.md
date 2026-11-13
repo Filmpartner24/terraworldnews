@@ -41,3 +41,4 @@ Themen mit aktuellem Anlass bevorzugen (neue Gesetze, Fristen, Preise, Saison). 
 - 2026-11-10 – Indexmiete: Deutschland will Erhöhungen bremsen – in Bulgarien zählt nur der Vertrag – Entwurf
 - 2026-11-11 – Gehalt schon in der Stellenanzeige: Bulgarien setzt EU-Regel um, Deutschland wartet – Entwurf
 - 2026-11-12 – Fahrplanwechsel am 13. Dezember: Was sich für Bahnreisende in DE und BG ändert – Entwurf
+- 2026-11-13 – QR-Code-Falle: Gefälschte Bankbriefe und Parkautomaten – so schützt du dich in DE und BG – Entwurf
