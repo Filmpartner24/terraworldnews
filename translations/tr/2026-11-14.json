@@ -141,6 +141,33 @@
     "kl": "ABD"
    }
   },
+  "bbl-ludwigsburg-hagen-2026-11-14": {
+   "L": {
+    "body": [
+     "MHP Riesen Ludwigsburg, easyCredit BBL'nin dokuzuncu hafta açılış maçında yeni yükselen Phoenix Hagen'i deplasmanda 93-79 yendi. Ischelandhalle'deki 3.019 seyirci, 16 liderlik değişimine sahne olan uzun süre dengeli geçen bir maç izledi; Hagen devreyi 47-45 önde kapattı. Ludwigsburg, ancak skor 79-82 olduğunda uzaklaştı ve üst üste attığı on bir sayıyla maçı koparttı.",
+     "Konukların en skorer ismi 20 sayıyla Justin Kier oldu; onu Ish Leggett (19), David Joplin (18) ve Darius Perry (16) izledi. Hagen'de Adam Kunkel, 18'i ilk yarıda olmak üzere attığı 25 sayıyla öne çıktı. Phoenix, kulübün açıklamasına göre Marcus Graves ve Anthony Polite'siz oynamak zorunda kaldı. Ludwigsburg'un teknik direktörü Carles Durán şöyle dedi: “Burada kazanmak için bugün çok şey ortaya koyan takımım adına çok mutluyum.” Hagen'in koçu Chris Harris ise şunları söyledi: “RIESEN, devre arasından sonra savunmasıyla bizi çok zorladı.”",
+     "Ludwigsburg böylece beş galibiyet ve dört mağlubiyete ulaştı, Hagen iki galibiyet ve yedi mağlubiyetle duruyor. Cumartesi günü Ulm-Jena ile Bamberg-Bonn (ikisi de 18:30), ayrıca Oldenburg-ALBA Berlin ile Hamburg-Würzburg (ikisi de 20:00) karşılaşmaları oynanacak. Lider FC Bayern Münih, pazar günü 16:30'da puan tablosunda üçüncü sırada yer alan SYNTAINICS MBC'yi konuk edecek."
+    ],
+    "d": "16 liderlik değişiminin ardından MHP Riesen son dakikalarda farkı açtı. Cumartesi akşamı şampiyon ALBA Berlin Oldenburg'a, pazar günü lider Bayern MBC'ye konuk oluyor.",
+    "t": "BBL: Ludwigsburg, güçlü finalle Hagen'de 93-79 kazandı"
+   },
+   "at": "2026-11-14T11:43Z",
+   "h": "24470ea1a5c3",
+   "rev": [
+    "Teaser: 'Cumartesi akşamı şampiyon ALBA Berlin Oldenburg'a ... konuk oluyor' is grammatically correct but the Turkish headline uses 'Hagen'de' fine; 'München' left in German in body",
+    "Body: 'Ludwigsburg, ancak skor 79-82 iken' – German says 'Erst beim Stand von 79:82' (Hagen leading 82:79 or the score as given); wording kept but 'ancak' is ambiguous, changed to 'ancak ... olduğunda",
+    "Body: 'Hagen'i deplasmanda' addition is harmless; 'Aufsteiger' fine",
+    "Untranslated 'München' replaced with 'Münih'"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Riesen Ludwigsburg'un Cluj'daki bir Avrupa kupası maçında salonda konfeti ve serpantinler (Sembolik fotoğraf)"
+   }
+  },
   "berlin-gen-z-regelt-demo-kudamm-2026-11-14-b08": {
    "L": {
     "body": [
@@ -1024,6 +1051,33 @@
     "img.alt": "Arşiv fotoğrafı: Sidney'de bir Dr. Martens mağazası (2018)"
    }
   },
+  "el-barca-robinson-comeback-panathinaikos-2026-11-14": {
+   "L": {
+    "body": [
+     "FC Barcelona, EuroLeague'in 11. haftasında deplasmanda Panathinaikos Atina'yı 76-74 yendi ve 14 sayılık geriliği telafi etti. Üç çeyrek sonunda Katalanlar 43-57 geride kalmıştı; üçüncü çeyrekte yalnızca on bir sayı bulabilmişlerdi. Barça son çeyreği 33-17 kazandı.",
+     "Maçın adamı Justin Robinson oldu: Son çeyreğe sekiz sayıyla girdi ve maçı 24 sayıyla tamamladı. Final bölümünde belirleyici üçlüğü de o attı. Tyrese Martin 13 sayı katkı yaptı. Panathinaikos'ta 19 sayıyla Kendrick Nunn ve 17 sayıyla Sylvain Francisco en çok sayı atan isimler oldu. Barcelona'da Kevin Punter ve Tosan Evbuomwan gibi isimler forma giyemedi.",
+     "Kulüp açıklamalarına göre Barça için bu, tüm organizasyonlarda üst üste sekizinci galibiyet oldu. Panathinaikos sezonun ikinci iç saha mağlubiyetini aldı. FC Barcelona'ya göre şimdi Barça, Panathinaikos, Valencia ve Olympiacos sekizer galibiyet ve üçer mağlubiyetle birlikte zirvede yer alıyor."
+    ],
+    "d": "Justin Robinson 24 sayısının 16'sını son çeyrekte attı ve final bölümünde belirleyici üçlüğü buldu. Liderlikte şimdi 8 galibiyet 3 mağlubiyetle dört takım bulunuyor.",
+    "t": "EuroLeague: Robinson, Barça'yı 14 sayı gerilikten Atina'da 76-74'lük galibiyete taşıdı"
+   },
+   "at": "2026-11-14T11:43Z",
+   "h": "acf2411d25f5",
+   "rev": [
+    "Teaser: 'Liderlikte şimdi ... dört takım bulunuyor' is acceptable; no change",
+    "Headline and body checked against the German: numbers, names and hedges are preserved",
+    "'en skorer isimler' is unnatural wording; changed to 'en skorer isimler' → 'en çok sayı atan isimler'",
+    "'Kulüp açıklamalarına göre' is kept as the hedge for 'nach Vereinsangaben'"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "FC Barcelona'dan Justin Robinson bir EuroLeague maçında dribling yaparken (Arşiv fotoğrafı, Ekim 2026)"
+   }
+  },
   "elterngeld-reform-kabinett-2026-11-14-b08": {
    "L": {
     "body": [
@@ -1426,6 +1480,34 @@
    ],
    "x": {
     "img.alt": "Gabriel Bortoleto, 2026 Çin Grand Prix'si sıralama turlarında Audi ile (Arşiv fotoğrafı)",
+    "kl": "Formula 1"
+   }
+  },
+  "f1-hamilton-funk-barcelona-sieg-ferrari-2026-11-14": {
+   "L": {
+    "body": [
+     "Formula 1, cuma günü Lewis Hamilton'ın Ferrari adına kazandığı ilk zaferine ait, daha önce yayımlanmamış telsiz kayıtlarının yer aldığı bir video yayımladı. Video, 14 Haziran'daki Barselona-Katalonya Grand Prix'sini Ferrari komuta merkezinin bakış açısından gösteriyor: Stratejistler, mühendisler ve pilot birbirleriyle eşgüdüm içinde çalışıyor. Formula 1'e göre birçok güncelleme ve hızlı strateji kararları başarıyı getirdi.",
+     "Hamilton, Barselona'da George Russell'ın arkasında, ikinci sıradan yarışa başlamıştı. Ferrari onu erken, 12. turda ve yeniden 28. turda pite çağırdı ve böylece Mercedes'in önüne geçti; Fernando Alonso'nun yarış dışı kalmasının ardından devreye giren sanal güvenlik aracı dönemi de ek olarak yardımcı oldu. Bu, Hamilton'ın 106. Grand Prix zaferiydi. Telsizden takımına şöyle dedi: “Bu hayali gerçekleştirmeme yardım ettiniz ve size yeterince teşekkür edemem.”",
+     "Bu, Hamilton'ın sezondaki şimdiye kadarki tek zaferi olarak kaldı. Las Vegas, Katar ve Abu Dabi'deki son üç yarış öncesinde 41 yaşındaki pilot, 261 puanla şampiyonada dördüncü sırada; George Russell'ın (262) bir puan, ikinci sıradaki Max Verstappen'in (279) ise 18 puan gerisinde. Dünya şampiyonu ise şimdiden Kimi Antonelli (390)."
+    ],
+    "d": "Formula 1, Lewis Hamilton'ın Ferrari'deki ilk zaferine ait daha önce yayımlanmamış telsiz kayıtlarını paylaştı. Stratejistler ve mühendislerin haziranda Barselona'da aldığı kararlar duyulabiliyor.",
+    "t": "Formula 1, Ferrari'nin Hamilton'ı Barselona'da zafere nasıl taşıdığını gösterdi"
+   },
+   "at": "2026-11-14T11:43Z",
+   "h": "8f597254f20c",
+   "rev": [
+    "Turkish weekday/month capitalisation: 'Haziran'da' in the teaser should be lowercase per TDK",
+    "Headline omits the 'Funk vom Kommandostand' element (optional); kept as is",
+    "'Haziran'da' in the teaser and the body date '14 Haziran'daki' must be lowercase",
+    "Wording: 'Hamilton'ın 106. Grand Prix zaferiydi' is correct; 'Mercedes'in önüne geçti' is correct"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Lewis Hamilton, 2025 İtalya Grand Prix'si sıralama turlarında Ferrari ile (Arşiv fotoğrafı)",
     "kl": "Formula 1"
    }
   },
@@ -2773,6 +2855,32 @@
      "Dikkat çekici çizim stili ve müzikler"
     ],
     "rv.score": "Nintendo Life 8/10 · Worthplaying 8,5/10"
+   }
+  },
+  "nba-spurs-elfter-sieg-castle-warriors-2026-11-14": {
+   "L": {
+    "body": [
+     "San Antonio Spurs, NBA Kupası grup maçında Golden State Warriors'ı 123-85 farkla yenerek ligdeki en uzun galibiyet serisini on bir maça çıkardı. Ev sahibi ekip maça 18-0'lık seriyle başladı, devre arasına 63-33 önde gitti ve üçüncü periyotta bir ara 43 sayı fark yakaladı. ESPN'e göre bu, 30 sezondur bir Spurs takımının maç başında yakaladığı en büyük seri oldu.",
+     "Stephon Castle, yalnızca 25 dakikada sezonun en yüksek sayı rakamı olan 32 sayıya ulaştı, sekiz üçlükten beşini attı ve altı asist yaptı. Victor Wembanyama 20 dakikada on iki sayı, on iki ribaund ve altı asist kaydetti. Golden State, Stephen Curry olmadan sahaya çıktı ve Ocak 2025'ten bu yana en ağır yenilgisini aldı.",
+     "Orlando'da Franz Wagner, 35 sayı, on iki asist ve dokuz ribaundla Magic'i Milwaukee Bucks karşısında 107-99'luk galibiyete taşıdı; triple-double için bir ribaund eksikti. AP'ye göre bu, Wagner'in üst üste dördüncü 30 sayı veya üzeri maçı ve Orlando'nun sezondaki ilk iç saha galibiyeti oldu; Bucks (1-12) üst üste dokuzuncu kez kaybetti. Ayrıca Indiana, Knicks'i 106-104, Clippers, Shai Gilgeous-Alexander'ın 40 sayısına rağmen Oklahoma City'yi 113-112, Houston ise Alperen Şengün'ün 43 sayısıyla Utah'ı 125-118 yendi."
+    ],
+    "d": "Stephon Castle yalnızca 25 dakikada 32 sayı attı, San Antonio maça 18-0'lık seriyle başladı. Franz Wagner 35 sayıyla Orlando'yu Milwaukee karşısında galibiyete taşıdı.",
+    "t": "NBA: Spurs, Warriors'ı 123-85 ezdi – üst üste 11. galibiyet"
+   },
+   "at": "2026-11-14T11:43Z",
+   "h": "504f4ff5c1e9",
+   "rev": [
+    "Headline: 'üst üste on birinci galibiyet' is unnatural; should be 'üst üste 11. galibiyet' (and 'ezdi' fine).",
+    "'Sezonun en yüksek skoru' is ambiguous; Castle's season-best is a personal best ('sezon rekoru').",
+    "'ligdeki en uzun galibiyet serisi' is fine, but 'son 30 sezonda ... en büyük seri' is a poor rendering of 'größter Lauf zum Spielbeginn seit 30 Spielzeiten' (i.e., best start run in 30 seasons) – clar"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "San Antonio Spurs'ten Stephon Castle top kontrolünde (Arşiv fotoğrafı, 2026 Batı Konferansı Finalleri)"
    }
   },
   "niederlande-griechenland-7-0-reijnders-2026-11-14-b11": {
