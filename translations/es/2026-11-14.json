@@ -312,6 +312,27 @@
     "kl": "Sofía"
    }
   },
+  "bulgarien-sturm-chiprowzi-stromausfall-kaelteeinbruch-2026-11-14": {
+   "L": {
+    "body": [
+     "Tras la tormenta del viernes, cientos de hogares del municipio de Chiprovtsi, en el noroeste de Bulgaria, estuvieron más de doce horas sin electricidad, informó la cadena BNT. El alcalde, Plamen Petkov, dijo que no había logrado contactar con el operador de la red en ninguno de los números disponibles durante todo el día: «La comunicación con la compañía eléctrica es, por decirlo suavemente, inaceptable». Por la noche no había información sobre la causa de las averías ni una previsión de cuándo volvería la luz.",
+     "A nivel nacional, según BNT, solo el viernes entre las 7 y las 12 horas el número de emergencias 112 recibió 715 avisos de daños por la tormenta: árboles caídos, tejados arrancados, chapas sueltas y cortes de electricidad. La mayoría procedió de Sofía (496), seguida de Montana (64) y Varna (55). No se notificaron heridos. En Vratsa, donde se midieron ráfagas de más de 110 km/h, se declaró el estado de calamidad.",
+     "El sábado un frente frío atravesará el país. Las temperaturas bajarán entre 10 y 15 grados respecto al cálido viernes, en el que se alcanzaron localmente 27 o 28 grados, dijo Anastasia Stoicheva, del Instituto Nacional de Meteorología e Hidrología, a BNT. La lluvia avanza de oeste a este y, sobre todo en el sur, son posibles tormentas. El domingo sería el día más frío; hacia el 18 de noviembre el viento del sur traerá de nuevo aire más suave de forma pasajera."
+    ],
+    "d": "Ráfagas de fuerza huracanada causaron cientos de daños en Bulgaria. En Chiprovtsi, los hogares estuvieron más de doce horas a oscuras. El sábado las temperaturas bajarán entre 10 y 15 grados.",
+    "t": "Tras la tormenta: Chiprovtsi, más de 12 horas sin luz; hoy llega la ola de frío"
+   },
+   "at": "2026-11-14T07:11Z",
+   "h": "130dc4c19d33",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: el centro de Chiprovtsi con el edificio del ayuntamiento"
+   }
+  },
   "bulgarien-zigaretten-schmuggel-studie-bia-zoll-2026-11-14": {
    "L": {
     "body": [
@@ -765,6 +786,27 @@
     "img.alt": "Foto de archivo: Geoffrey Hinton durante la semana de los Nobel de 2024 en Estocolmo"
    }
   },
+  "europa-emissionshandel-gratiszertifikate-industrie-2026-11-14": {
+   "L": {
+    "body": [
+     "Los negociadores del Consejo de la UE y del Parlamento Europeo acordaron de forma provisional asignar derechos gratuitos adicionales a los sectores de uso intensivo de energía en el régimen de comercio de emisiones de la UE (RCDE). Según el Consejo, para el período 2026-2030 se trata de unos 121 millones de derechos para sectores cuya asignación se basa en los llamados parámetros de referencia de calor y combustible. Según EUbusiness, esto equivaldría a un valor de más de 10.000 millones de euros. El objetivo es garantizar la competitividad y evitar el traslado de la producción al extranjero («fuga de carbono»).",
+     "Según el Consejo, la cantidad se compone de unos 88 millones de derechos conforme a la propuesta de la Comisión y las normas vigentes, 28 millones de derechos no asignados hasta ahora y cinco millones como ayuda específica para los sectores más afectados. Los derechos no utilizados pasan al Fondo de Modernización y al Fondo de Innovación. Además, la Comisión debe fijar parámetros de referencia de combustible específicos por sector, de lo que, según EUbusiness, se beneficia especialmente el sector cerámico.",
+     "«Con este acuerdo aumentaremos rápidamente los derechos gratuitos para sectores clave de uso intensivo de energía», dijo el ministro irlandés de Energía, Darragh O'Brien, en nombre de la Presidencia del Consejo de la UE. Según O'Brien, la modificación daría a la industria la seguridad de planificación necesaria para la transformación sostenible. El Consejo y el Parlamento aún deben aprobar formalmente el acuerdo. En el Parlamento, en octubre votaron en contra de la posición sobre todo Los Verdes y La Izquierda."
+    ],
+    "d": "El Consejo y el Parlamento acordaron derechos de CO2 gratuitos adicionales para 2026-2030. Se beneficiarían, entre otros, los fabricantes de cerámica. Según EUbusiness, valor probable: más de 10.000 millones de euros.",
+    "t": "Emisiones: la UE da a la industria pesada 121 millones de derechos gratuitos extra"
+   },
+   "at": "2026-11-14T07:11Z",
+   "h": "1168a65ec946",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: la planta siderúrgica de Thyssenkrupp en Duisburgo al atardecer"
+   }
+  },
   "europa-eu-ukraine-verhandlungsteam-e5-dublin-2026-11-14": {
    "L": {
     "body": [
@@ -912,6 +954,55 @@
     "img.alt": "Foto de archivo: el primer ministro húngaro Péter Magyar (marzo de 2026)"
    }
   },
+  "ki-checkpoint-gateways-php2shell-wiper-angriffe-2026-11-14": {
+   "L": {
+    "body": [
+     "La empresa de ciberseguridad Check Point ha hecho pública una serie de ataques contra sus propios dispositivos gateway, según informó SecurityWeek el 13 de noviembre. Como puerta de entrada sirvieron, según este medio, las dos vulnerabilidades críticas CVE-2026-109618 y CVE-2026-109619, conocidas como «PHP2Shell». Afectan a todas las versiones de PHP desde PHP 5 y permiten ejecutar código malicioso de forma remota. Los fallos se corrigieron el 21 de octubre, pero se explotaban ya varios días antes.",
+     "Según Check Point, una primera oleada comenzó el 30 de octubre y se dirigió contra organizaciones de Israel, con consecuencias destructivas. Los atacantes obtuvieron derechos de root mediante otra vulnerabilidad (CVE-2026-123039), colocaron webshells en el portal de inicio de sesión del acceso móvil, instalaron puertas traseras y llegaron finalmente a un servidor VMware ESXi, donde ejecutaron un llamado wiper, que borra datos. Una segunda oleada, a partir del 2 de noviembre, afectó a organizaciones de varios países; en ella no se observaron actividades destructivas.",
+     "Se desconoce quién está detrás de los ataques. Según Check Point, los atacantes estuvieron activos en horarios laborales típicos de China, pero el modus operandi destructivo no encajaría con las operaciones chinas conocidas. Según la empresa, las pruebas no permitirían una valoración fiable; también podría tratarse, según indicó, de un intermediario de acceso, de una pista falsa deliberada o de una destrucción como maniobra de distracción. Check Point no halló preferencia por sectores concretos."
+    ],
+    "d": "Los atacantes aprovecharon las vulnerabilidades de PHP conocidas como «PHP2Shell» para penetrar en gateways de firewall de Check Point. En una primera oleada contra organizaciones israelíes usaron software de borrado.",
+    "t": "Fallo de PHP, puerta de entrada: hackers paralizan redes vía gateways de Check Point"
+   },
+   "at": "2026-11-14T07:11Z",
+   "h": "952d7213c33f",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: cables de red en una sala de servidores"
+   }
+  },
+  "ki-diamant-defekte-qubits-quantenchemie-pppl-2026-11-14": {
+   "L": {
+    "body": [
+     "Los diminutos defectos en la red cristalina de los diamantes se consideran componentes prometedores para ordenadores y sensores cuánticos, ya que algunas de sus propiedades cuánticas siguen siendo utilizables a temperatura ambiente. Mark Martirez, del Laboratorio de Física del Plasma de Princeton (PPPL) del Departamento de Energía de EE. UU., ha presentado un método con el que se podrían encontrar esos candidatos mucho más rápido. El trabajo se publicó en la revista especializada «ACS Central Science»; ScienceDaily se hizo eco de él el 13 de noviembre.",
+     "En lugar de simular todo el cristal, Martirez considera solo un fragmento de entre 16 y 30 átomos alrededor del defecto y lo trata como una molécula. Así pueden emplearse métodos consolidados de la química cuántica. El cálculo costaría así tanto «como modelar una molécula simple», dijo Martirez. El método calcula cómo reaccionan los cúbits a la luz láser y a los pulsos de microondas.",
+     "Como nuevos candidatos, el estudio menciona defectos con boro y oxígeno. Mientras que el centro de vacante de nitrógeno, hasta ahora el más estudiado, emite luz roja, los defectos con oxígeno brillan en azul y los de boro en ultravioleta. Estas señales distintas podrían permitir leer un grupo de cúbits sin perturbar a otro. Los experimentos deberán demostrar si los candidatos calculados funcionan en el laboratorio."
+    ],
+    "d": "Un investigador del laboratorio estadounidense PPPL calcula los defectos del diamante como si fueran moléculas individuales. Así halló nuevos candidatos de boro y oxígeno para sensores y ordenadores cuánticos, algunos utilizables a temperatura ambiente.",
+    "t": "Cúbits en diamante: un truco químico busca acelerar la búsqueda de materiales cuánticos"
+   },
+   "at": "2026-11-14T07:11Z",
+   "flag": [
+    "Teaser zu lang (253 Zeichen)"
+   ],
+   "h": "71c00b6d5eb5",
+   "rev": [
+    "Teaser: 'algunos utilizables a temperatura ambiente' could be misread; fine. Teaser 'calcula los defectos' acceptable.",
+    "'El cálculo cuesta tanto «como modelar una molécula simple»' is not grammatical around the quote and loses the subjunctive (indirect speech); fixed to conditional attribution."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: vacante de nitrógeno (centro NV) en un diamante bajo el microscopio, en el foco de una lente grabada en el diamante"
+   }
+  },
   "ki-seltene-erden-aus-abfall-polymere-idaho-2026-11-14": {
    "L": {
     "body": [
@@ -1053,6 +1144,32 @@
    ],
    "x": {
     "img.alt": "Imagen simbólica: fachada de la fábrica Fab 6 de TSMC en Taiwán con una ventana en forma de oblea de silicio"
+   }
+  },
+  "klima-arktis-meereis-sommerduerre-schwarzes-meer-2026-11-14": {
+   "L": {
+    "body": [
+     "Un estudio publicado en la revista especializada «Frontiers in Water» vincula el retroceso del hielo marino invernal en los mares de Barents y Kara con sequías estivales más frecuentes en Europa del Este y Asia Central. Lo dirige Petru C. Vaideanu, del Centro de Excelencia para el Cambio Climático y Social de la Universidad de Bucarest. Los autores sitúan el «corredor de sequía» afectado desde el este de Rumanía, pasando por Moldavia y Ucrania y por el norte del mar Negro y la región del Caspio, hasta el oeste de Kazajistán. Euronews informó sobre el trabajo el 12 de noviembre.",
+     "Los investigadores analizaron la extensión del hielo marino de octubre a marzo y la compararon con las condiciones de sequía de mayo a septiembre. La base es el conjunto de datos ERA5 del Centro Europeo de Predicción Meteorológica a Plazo Medio, que combina observaciones con un modelo meteorológico y se remonta a 1940. Para descartar una correlación espuria causada por el calentamiento general, eliminaron del cálculo el aumento del CO2 a largo plazo. Según Vaideanu, tras inviernos con poco hielo la corriente de aire sobre el Atlántico Norte y Eurasia habría sido más «ondulada», posiblemente por una alteración de las ondas de Rossby, que dirigirían aire cálido y seco hacia el corredor; además, según dijo, allí habría menos nubes, de modo que más sol calentaría el suelo.",
+     "Contexto: se trata de una relación estadística basada en datos de reanálisis, no de una prueba de causalidad. El reportaje de Euronews no menciona tamaños del efecto ni márgenes de incertidumbre, y no da voz a expertos independientes. Los autores ven en el hielo invernal un posible indicador temprano que podría facilitar la preparación ante veranos de sequía. Los mares de Barents y Kara figuran desde la década de 1980 entre las regiones del Ártico con mayor pérdida de hielo invernal; según proyecciones del Grupo Intergubernamental de Expertos sobre el Cambio Climático (IPCC), el mar podría calentarse allí entre 4 y 5 grados de aquí a 2100 sin reducciones de emisiones."
+    ],
+    "d": "Investigadores de la Universidad de Bucarest hallan una relación estadística entre el hielo invernal en los mares de Barents y Kara y las sequías desde Rumanía hasta Kazajistán.",
+    "t": "Estudio: menos hielo ártico invernal coincide con sequías estivales en el mar Negro"
+   },
+   "at": "2026-11-14T07:11Z",
+   "h": "028c26ec8755",
+   "rev": [
+    "Headline: 'am Schwarzen Meer' rendered as 'en el mar Negro' is fine; no change. Center name: 'Klima- und Gesellschaftswandel' rendered as 'Cambio Climático y Social' – should be 'Cambio Climático y de",
+    "Rossby waves clause 'die ... lenken' is a plain relative statement, but the draft put it in conditional 'dirigirían', which slightly alters it; acceptable hedge via 'posiblemente'. Kept.",
+    "Indirect speech is properly attributed."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: imagen de satélite de la NASA: hielo marino fino y fragmentado y aguas abiertas en el norte del mar de Barents el 17 de marzo de 2026"
    }
   },
   "klima-blaufusstoelpel-isla-isabel-bruterfolg-2026-11-14": {
@@ -1871,6 +1988,32 @@
    ],
    "x": {
     "img.alt": "Foto de archivo: Erdoğan, el emir de Catar, Tamim, y otros jefes de Estado y de Gobierno en una reunión con el presidente de EE. UU., Trump, en la sede de la ONU (2025)"
+   }
+  },
+  "wirtschaft-bulgarien-fiskalrat-gesetz-erste-lesung-2026-11-14": {
+   "L": {
+    "body": [
+     "El Parlamento búlgaro aprobó el viernes en primera lectura modificaciones de la ley sobre el Consejo Fiscal y los mecanismos de corrección automática. Según la agencia de noticias BTA, 113 diputados votaron a favor, 39 en contra y 23 se abstuvieron. Los votos a favor procedieron exclusivamente del partido gobernante Bulgaria Progresista; Bulgaria Democrática, «Continuamos el Cambio», Vazrazhdane y un diputado de GERB-SDS votaron en contra.",
+     "Según el proyecto del Consejo de Ministros, el Consejo Fiscal deberá confirmar en adelante las previsiones de primavera y otoño del ministro de Finanzas en un plazo de cinco días hábiles desde su presentación. Los cambios pretenden adaptar la ley al Reglamento de la UE n.º 473/2013. Los dictámenes del Consejo siguen siendo no vinculantes; si el Gobierno no los sigue, deberá justificarlo por escrito y publicarlo en un plazo de dos meses.",
+     "Martin Dimitrov, de Bulgaria Democrática, acusó a la mayoría de eliminar «los frenos, los mecanismos de corrección» y de dirigir el camión hacia un choque. El jueves, el Consejo Fiscal había recomendado complementar el presupuesto de 2027 con recortes permanentes del gasto de aproximadamente el uno por ciento de la producción económica, unos 1.400 millones de euros. Según BTA, el Ministerio de Finanzas estima los ingresos de las medidas previstas en 1.926 millones de euros, mientras que el Consejo Fiscal los calcula en solo unos 1.300 millones de euros."
+    ],
+    "d": "El Consejo Fiscal de Bulgaria deberá avalar en adelante las previsiones económicas en un plazo de cinco días hábiles. La oposición acusa al Gobierno de aflojar los frenos de la deuda.",
+    "t": "Bulgaria: el Parlamento modifica la ley del Consejo Fiscal; oposición advierte de «choque»"
+   },
+   "at": "2026-11-14T07:11Z",
+   "h": "753974b24fa7",
+   "rev": [
+    "Headline: \"Crash\" translated as «choque»; the body also uses \"choque\" for it, which is acceptable but \"colapso\" is not needed. No change.",
+    "\"Wasraschdane\" rendered as \"Vazrazhdane\" (established English transliteration; acceptable).",
+    "\"Wirtschaftsleistung\" rendered as \"producción económica\"; better \"PIB/producto económico\" but acceptable."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: edificio de la Asamblea Nacional en Sofía"
    }
   },
   "wirtschaft-bulgarien-verbot-pelztierzucht-2026-11-14": {
