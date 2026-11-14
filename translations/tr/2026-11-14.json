@@ -141,6 +141,34 @@
     "kl": "ABD"
    }
   },
+  "asus-gallop-humanoide-fabrik": {
+   "L": {
+    "body": [
+     "Tayvanlı bilgisayar üreticisi ASUS, ilk insansı robotunu tanıttı. Gallop'un sabit bir tabanın üzerinde iki kolu var ve ASUS grubuna ait bir elektronik tesisinde anakart kutularına aksesuar yerleştiriyor: Çoğu ince plastik poşetlerde olan 15 küçük parça, anakart başına yaklaşık 20 saniyede paketleniyor. Hedef, bu sürede yüzde 99,5 başarı oranına ulaşmak; ASUS'un verdiği bilgiye göre bu, bir insan için de geçerli olan ölçütle aynı. Şirket henüz ölçülmüş bir oran yayımlamadı.",
+     "Gallop, deneyimli çalışanların onayları dahilinde başlarına kamera takmasıyla öğreniyor; buna simülasyon ve VR gözlüğüyle uzaktan kumanda da ekleniyor. Robot, tek bir Nvidia bilgisayarı olan Jetson AGX Thor ile yönetiliyor. ASUS'tan Albert Chang şirket blogunda şöyle yazıyor: “Bir demo, robotun bir işi bir kez yapabildiğini gösterir. Bir fabrikanın ise işi her gün yapan bir robota ihtiyacı var.”",
+     "ASUS bundan sonra kendi robot elini ve tekerlekli bir versiyonu planlıyor; Gallop'un Computex 2027'de müşterilere gösterilmesi öngörülüyor. Müşterilerde pilot projeler 2027 için, pazara sürüm ise 2028'in ikinci yarısı için planlanıyor; önce elektronik üretiminde, daha sonra belki hastanelerde."
+    ],
+    "d": "İki kollu robot, ASUS grubuna ait bir tesiste anakart aksesuarlarını paketliyor. Müşteri pilot projeleri 2027'de, pazara sürüm 2028'in ikinci yarısında planlanıyor.",
+    "t": "Fabrika çalışanlarından öğreniyor: ASUS ilk insansı robotu Gallop'u tanıttı"
+   },
+   "at": "2026-11-14T11:56Z",
+   "h": "edcd1bba6844",
+   "rev": [
+    "Headline: 'Fabrika çalışanlarından öğreniyor' reads as a statement; the German is an imperative ('Lernt von Fabrikarbeitern'), but it is acceptable as a headline, so left as is.",
+    "Wording: 'tek bir Nvidia bilgisayarı olan Jetson AGX Thor' is awkward; rephrased to 'tek bir Nvidia bilgisayarı, Jetson AGX Thor'.",
+    "Tense: 'yazdı' changed to the present 'yazıyor' to match 'schreibt'.",
+    "'Fabrika' in the draft is a Turkish word, not an untranslated German word."
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: ASUS'un Taipei'deki genel merkezi (2015)",
+    "kl": "Robotik"
+   }
+  },
   "bbl-ludwigsburg-hagen-2026-11-14": {
    "L": {
     "body": [
@@ -616,6 +644,34 @@
    ],
    "x": {
     "img.alt": "Saúl “Canelo” Álvarez, 2013 (Arşiv fotoğrafı)"
+   }
+  },
+  "chatgpt-wallet-dots-einkauf": {
+   "L": {
+    "body": [
+     "OpenAI, cuma günü (13 Kasım) ChatGPT Wallet'ı başlattı. Böylece şirketin \"dots\" olarak adlandırdığı ChatGPT ajanları, kullanıcılara artık yalnızca ürün seçiminde yardımcı olmakla kalmıyor, satın alma işlemini de tamamlayabiliyor. İşlev başlangıçta, ABD'de çıkarılmış bir Visa, Mastercard veya American Express kartı tanımlayan, 18 yaş ve üzeri sınırlı sayıda ABD'li ChatGPT Pro abonesine sunuluyor.",
+     "Kullanıcılar her satın alma öncesinde ürünleri, toplam tutarı ve kartı görüyor ve Face ID veya parmak izi ile onay vermek zorunda. Ödeme, gerçek kart bilgilerinin yerini alan kart ağının ödeme token'ı ile yapılıyor; bu bilgileri ne ajan ne de satıcı görüyor. OpenAI'ye göre kart ödülleri ve iade (chargeback) hakları korunuyor. Daha sonra harcama limitleri, kategori veya döneme göre kurallar ve önceden onaylar gelecek.",
+     "Sistemin sınırları, yapay zekâ ajanlarını dışarıda bırakan satıcılarda ortaya çıkıyor. TechCrunch'a göre bunların en büyüğü, müşterileri kendi asistanı Alexa'ya yönlendiren Amazon. OpenAI, satıcılar için ajanlar aracılığıyla yapılan alışverişleri nasıl destekleyebileceklerini anlatan bir kılavuz yayımladı."
+    ],
+    "d": "ChatGPT'nin \"dots\" ajanları artık kendileri ödeme yapabiliyor; ancak Face ID veya parmak izi ile onay gerekiyor. Başlangıçta bu yalnızca ABD'deki Pro abonelerinin bir bölümü için geçerli.",
+    "t": "Kasada yapay zekâ ajanı: OpenAI alışverişler için ChatGPT Wallet'ı başlattı"
+   },
+   "at": "2026-11-14T11:56Z",
+   "h": "4cff04500024",
+   "rev": [
+    "Weekday 'Cuma' should be lowercase mid-sentence per TDK (days of the week are not capitalised unless they start a sentence)",
+    "Wrong quotation marks „dots“ in Turkish text, replaced with Turkish-style quotes (teaser and body)",
+    "'düzenlenmiş' for 'ausgegebene Karte' is unnatural; 'ABD'de çıkarılmış' is the usual wording",
+    "Teaser sentence structure is awkward; smoothed without changing the meaning"
+   ],
+   "rev_dbg": [
+    4,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Tel Aviv'de ChatGPT göndermeli sokak sanatı",
+    "kl": "Yapay zekâ ajanları"
    }
   },
   "chaumet-winterfilme-hochjuwelen-video": {
@@ -1509,6 +1565,54 @@
    "x": {
     "img.alt": "Lewis Hamilton, 2025 İtalya Grand Prix'si sıralama turlarında Ferrari ile (Arşiv fotoğrafı)",
     "kl": "Formula 1"
+   }
+  },
+  "gemini-for-healthcare-kliniken": {
+   "L": {
+    "body": [
+     "Google Cloud, hastaneler ve sağlık sigortacıları için bir yapay zekâ ajanı olan Gemini for healthcare’i tanıttı. Ajanın, hasta dosyalarındaki, faturalandırma sistemlerindeki verileri, tıbbi kılavuzları ve ABD kurumu CMS’in verilerini bir araya getirmesi ve insan gözetimi altında çok aşamalı iş akışlarını yürütmesi öngörülüyor; örneğin dosyaları özetlemek, doktor görüşmelerini hazırlamak veya sigorta ödemelerini kontrol etmek gibi. Hizmet, ABD’de Gemini Enterprise Standard ve Plus müşterileri için önizleme olarak başlıyor. İlk müşteriler arasında HCA Healthcare, Northwell Health, Optum, Hartford HealthCare ve Stanford School of Medicine de bulunuyor.",
+     "Ajan, Epic ve Oracle Health’in hasta dosyalarına yalnızca okuma amaçlı erişiyor; dosyalarda değişiklikleri yine doktorlar ve hemşireler yapıyor. NextGen Healthcare ile bağlantı üzerinde çalışılıyor. Müşteriler Google, Anthropic veya OpenAI modellerini seçebiliyor. Google’a göre hasta verileri müşterinin kendi bulut ortamında kalıyor ve Google’ın temel modellerinin eğitiminde kullanılmıyor.",
+     "Google, hizmeti The Harris Poll ile birlikte yaptığı kendi anketiyle gerekçelendiriyor; ankete göre sağlık çalışanları haftada yaklaşık 28 saatlerini dokümantasyon ve idari işlerle geçiriyor. Google Cloud’un resmi videosu ajanı tanıtıyor."
+    ],
+    "d": "Ajan, Epic ve Oracle Health’teki hasta dosyalarını okuyor, sigorta ödemelerini kontrol ediyor ve randevuları hazırlıyor. Dosyaları değiştiremiyor; bu yetki doktorlarda ve hemşirelerde kalıyor.",
+    "t": "Kliniklerde daha az evrak işi: Google, yapay zekâ ajanı Gemini for healthcare’i başlattı"
+   },
+   "at": "2026-11-14T11:56Z",
+   "h": "a7a558fe931c",
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Google’ın Cloud Next 2017 konferansında bir fuar standı",
+    "kl": "Yapay zekâ ajanı"
+   }
+  },
+  "gento-tianji-roboterhand-corl": {
+   "L": {
+    "body": [
+     "Çinli Tianji Intelligence şirketinin robot markası GENTO, Austin'deki (Teksas, 9-11 Kasım) CoRL robotik konferansında 21 serbestlik dereceli bir robot el prototipini ilk kez kamuoyuna gösterdi: başparmakta beş, diğer parmakların her birinde dört serbestlik derecesi var. Şirket bilgilerine göre el, kablolar hariç 750 gram ağırlığında, çapı en fazla 100 milimetre olan nesneleri kavrayabiliyor, yarım saniyede kapanıyor ve bir milyon kavrama döngüsüne göre tasarlanmış. Standda yalnızca sergi parçası olarak görülebiliyordu.",
+     "GENTO, çalışır halde sabit tabanlı çift kollu Marvin Pro robotunu gösterdi: Robot, İngilizce sözlü talimat üzerine bir nesne seçip kavrıyor. Çip şirketi Nvidia, insanlar tarafından gösterilen becerileri robotlara aktarabilen GR00T 2 robot modelini tanıtmak için özel olarak kendisi için üretilmiş bir versiyonu kullandı; model, örneğin iki elle muzlu yoğurt hazırlarken olduğu gibi, bu becerileri robotlara aktarabiliyor.",
+     "El ve robota ilişkin bilgiler üreticiden geliyor ve bağımsız olarak doğrulanmadı. Tianji Robotics'in resmi videosu Marvin Pro platformunu tanıtıyor."
+    ],
+    "d": "GENTO robot markası, CoRL robotik konferansında yeni bir el ile çift kollu Marvin Pro robotunu gösterdi. Nvidia ise GR00T 2 robot modelini GENTO'nun özel bir versiyonu üzerinde sergiledi.",
+    "t": "21 serbestlik dereceli robot el: Çinli Tianji şirketi prototipi Austin'de tanıttı"
+   },
+   "at": "2026-11-14T11:56Z",
+   "h": "52fc0ed6916e",
+   "rev": [
+    "Teaser: 'Auf einer Sonderversion' – 'özel bir versiyonda' is correct but the link to GENTO's special version is lost; clarified",
+    "Body 2: the 'muzlu yoğurt' example is stated as shown, while the German says GR00T 2 can transfer skills, e.g. when preparing banana yogurt; the modality was changed"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Kapak görseli: 21 serbestlik dereceli robot el – Tianji, prototipi CoRL'de gösteriyor",
+    "kl": "Robotik"
    }
   },
   "gia-rosa-cvd-diamant-als-rohstein": {
@@ -2881,6 +2985,32 @@
    ],
    "x": {
     "img.alt": "San Antonio Spurs'ten Stephon Castle top kontrolünde (Arşiv fotoğrafı, 2026 Batı Konferansı Finalleri)"
+   }
+  },
+  "nba-video-adebayo-antetokounmpo-heat-cavaliers-2026-11-14": {
+   "L": {
+    "body": [
+     "Miami Heat, NBA Cup grup maçında Cleveland Cavaliers'ı 133-121 yendi. Bam Adebayo 37 sayı ve 14 ribaund kaydetti, Giannis Antetokounmpo da 37 sayı ve dokuz ribaunda ulaştı. ESPN'e göre bu sonuçla Heat tarihinde yalnızca ikinci kez iki oyuncu aynı maçta 37'şer sayı attı; bundan önce bunu 2013'te LeBron James ve Dwyane Wade başarmıştı.",
+     "Davion Mitchell 22 sayı ve 17 asistle oynadı ve asist alanındaki kariyer rekorunu yakaladı; Ryan Conwell yedek kulübesinden çıkarak 20 sayı attı. Cleveland'da 25 sayıyla en skorer isim Donovan Mitchell oldu, Tyrese Proctor 22, James Harden ise 20 sayı attı.",
+     "Miami üst üste üçüncü galibiyetini aldı, altı galibiyet ve altı mağlubiyetle duruyor ve 2-0'lık performansıyla NBA Cup'ta Doğu Konferansı B Grubu'nda lider. Cleveland 6-7'ye düştü. Video, maçın özetlerini NBA'nin resmi YouTube kanalından gösteriyor."
+    ],
+    "d": "Davion Mitchell 17 asist yaptı, Heat üst üste üçüncü galibiyetini aldı ve NBA Cup grubunda lider oldu. Özetler resmi NBA kanalından.",
+    "t": "Video: Adebayo ve Antetokounmpo 37'şer sayı attı – Miami, Cleveland'ı 133-121 yendi"
+   },
+   "at": "2026-11-14T11:56Z",
+   "h": "11924ca07592",
+   "rev": [
+    "Score in headline and body: German 133:121 should use the Turkish \"133-121\" form, which is already correct, so no change; the sentence about the group record was garbled (\"2-0'lık performansıyla\" atta",
+    "\"NBA'in\" is the wrong suffix; the correct form is \"NBA'in\" only if read as \"ey-bi-ey\", but the established form is \"NBA'nin\".",
+    "\"erst zum zweiten Mal\" lost the nuance \"only\" (\"yalnızca\")."
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Bam Adebayo 2016 McDonald's All-American Game'de top elinde (Arşiv fotoğrafı)"
    }
   },
   "niederlande-griechenland-7-0-reijnders-2026-11-14-b11": {

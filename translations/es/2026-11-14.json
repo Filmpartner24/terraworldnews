@@ -136,6 +136,32 @@
     "kl": "EE. UU."
    }
   },
+  "asus-gallop-humanoide-fabrik": {
+   "L": {
+    "body": [
+     "El fabricante taiwanés de ordenadores ASUS ha presentado su primer robot humanoide. Gallop tiene dos brazos sobre una base fija y empaqueta accesorios en cajas de placas base en una planta electrónica del grupo ASUS: 15 piezas pequeñas, muchas de ellas en finas bolsas de plástico, en unos 20 segundos por placa. El objetivo es una tasa de éxito del 99,5 por ciento en ese tiempo, que según ASUS es el mismo estándar que se aplica a una persona. La empresa aún no ha publicado una tasa medida.",
+     "Gallop aprende gracias a que operarios experimentados, con su consentimiento, llevan cámaras en la cabeza; a ello se suman la simulación y el control remoto con gafas de realidad virtual. El robot está controlado por un único ordenador Nvidia Jetson AGX Thor. «Una demo demuestra que un robot puede hacer algo una vez. Una fábrica necesita un robot que haga el trabajo todos los días», escribe Albert Chang, de ASUS, en el blog de la empresa.",
+     "A continuación, ASUS planea una mano robótica propia y una versión con ruedas; está previsto presentar Gallop a los clientes en Computex 2027. Los proyectos piloto con clientes están previstos para 2027 y el lanzamiento comercial para la segunda mitad de 2028, primero en la fabricación de electrónica y, posiblemente, más adelante en hospitales."
+    ],
+    "d": "El robot de dos brazos empaqueta accesorios de placas base en una planta del grupo ASUS. Los pilotos con clientes están previstos para 2027 y el lanzamiento comercial para la segunda mitad de 2028.",
+    "t": "Aprende de los trabajadores de fábrica: ASUS presenta su primer robot humanoide, Gallop"
+   },
+   "at": "2026-11-14T11:56Z",
+   "h": "edcd1bba6844",
+   "rev": [
+    "Headline: \"Lernt von Fabrikarbeitern\" is a statement about the robot learning; the Spanish imperative-like \"Aprende de los obreros\" is acceptable but \"obreros\" vs. factory workers is slightly off; cha",
+    "Quote context \"ASUS-Angaben\" is correctly attributed; no other errors"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: sede de ASUS en Taipéi (2015)",
+    "kl": "Robótica"
+   }
+  },
   "bbl-ludwigsburg-hagen-2026-11-14": {
    "L": {
     "body": [
@@ -596,6 +622,32 @@
    ],
    "x": {
     "img.alt": "Saúl «Canelo» Álvarez, 2013 (Foto de archivo)"
+   }
+  },
+  "chatgpt-wallet-dots-einkauf": {
+   "L": {
+    "body": [
+     "OpenAI lanzó el viernes (13 de noviembre) ChatGPT Wallet. Con ello, los agentes de ChatGPT, que la empresa llama «dots», ya no solo ayudan a los usuarios a elegir productos, sino que también pueden completar la compra. De momento, la función está disponible para un número limitado de suscriptores de ChatGPT Pro en EE. UU. mayores de 18 años que registren una tarjeta Visa, Mastercard o American Express emitida en EE. UU.",
+     "Antes de cada compra, los usuarios ven los artículos, el importe total y la tarjeta, y deben dar su aprobación con Face ID o huella dactilar. El pago se realiza con un token de pago de la red de tarjetas que sustituye los datos reales de la tarjeta; ni el agente ni el comerciante los ven. Según OpenAI, se mantienen las recompensas de la tarjeta y los derechos de devolución de cargos. Más adelante deben añadirse límites de gasto, reglas por categoría o período y autorizaciones previas.",
+     "El sistema tiene límites en los comercios que bloquean a los agentes de IA. Según TechCrunch, el mayor de ellos es Amazon, que dirige a los clientes a su propio asistente Alexa. OpenAI ha publicado una guía para comerciantes sobre cómo pueden facilitar las compras realizadas por agentes."
+    ],
+    "d": "Los agentes «dots» de ChatGPT ya pueden pagar por sí mismos, tras la autorización con Face ID o huella dactilar. Al inicio, solo para una parte de los suscriptores Pro en EE. UU.",
+    "t": "Agente de IA en la caja: OpenAI lanza ChatGPT Wallet para realizar compras"
+   },
+   "at": "2026-11-14T11:56Z",
+   "h": "4cff04500024",
+   "rev": [
+    "Minor: \"deben aprobarla\" is ambiguous (the purchase vs. the card); the German says they must consent (zustimmen).",
+    "Minor: \"Más adelante se añadirán\" states as certain what the German says as intention (\"sollen folgen\")."
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: arte callejero relacionado con ChatGPT en Tel Aviv",
+    "kl": "Agentes de IA"
    }
   },
   "chaumet-winterfilme-hochjuwelen-video": {
@@ -1396,6 +1448,58 @@
    "x": {
     "img.alt": "Lewis Hamilton en el Ferrari durante la clasificación del Gran Premio de Italia 2025 (foto de archivo)",
     "kl": "Fórmula 1"
+   }
+  },
+  "gemini-for-healthcare-kliniken": {
+   "L": {
+    "body": [
+     "Google Cloud ha presentado Gemini for healthcare, un agente de IA para hospitales y aseguradoras de salud. Debe reunir datos de historiales de pacientes, sistemas de facturación, guías médicas y datos de la agencia estadounidense CMS y realizar flujos de trabajo de varios pasos bajo supervisión humana, por ejemplo resumir historiales, preparar consultas médicas o comprobar prestaciones de seguros. La oferta arranca como versión preliminar en EE. UU. para clientes de Gemini Enterprise Standard y Plus. Entre los primeros clientes figuran HCA Healthcare, Northwell Health, Optum, Hartford HealthCare y la Stanford School of Medicine.",
+     "El agente accede a los historiales de los proveedores Epic y Oracle Health solo en modo de lectura; los cambios en los historiales los siguen realizando los propios médicos y el personal de enfermería. Se está trabajando en una conexión con NextGen Healthcare. Los clientes pueden elegir modelos de Google, Anthropic u OpenAI. Según Google, los datos de los pacientes permanecen en el entorno de nube propio del cliente y no se utilizan para entrenar los modelos base de Google.",
+     "Google justifica la oferta con una encuesta propia realizada junto con The Harris Poll, según la cual el personal sanitario dedica casi 28 horas semanales a documentación y administración. El vídeo oficial de Google Cloud presenta el agente."
+    ],
+    "d": "El agente lee historiales de pacientes de Epic y Oracle Health, comprueba prestaciones de seguros y prepara citas. No puede modificar los historiales: eso sigue reservado a médicos y personal de enfermería.",
+    "t": "Menos papeleo en los hospitales: Google lanza el agente de IA Gemini for healthcare"
+   },
+   "at": "2026-11-14T11:56Z",
+   "h": "a7a558fe931c",
+   "rev": [
+    "\"Según el planteamiento\" was added and does not correspond to the German \"soll\" (intended function); replaced with a conditional-style phrasing",
+    "\"personal\" in the German draft hint: \"medizinisches Fachpersonal\" rendered as \"personal sanitario\" – acceptable, no change",
+    "\"Messestand auf der Google-Konferenz\" translated as \"stand en la conferencia\"; \"Messestand\" is a trade-fair booth, which is kept as \"stand\" – acceptable"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: stand en la conferencia de Google Cloud Next 2017",
+    "kl": "Agente de IA"
+   }
+  },
+  "gento-tianji-roboterhand-corl": {
+   "L": {
+    "body": [
+     "La marca de robots GENTO, de la empresa china Tianji Intelligence, mostró por primera vez en público el prototipo de una mano robótica con 21 grados de libertad en la conferencia de robótica CoRL de Austin (Texas, del 9 al 11 de noviembre): cinco en el pulgar y cuatro en cada uno de los demás dedos. Según la empresa, la mano pesa 750 gramos sin cables, agarra objetos de hasta 100 milímetros de diámetro, se cierra en medio segundo y está diseñada para un millón de ciclos de agarre. En el stand solo pudo verse como pieza de exposición.",
+     "GENTO mostró en funcionamiento el robot de dos brazos Marvin Pro, de base fija: elige un objeto y lo agarra a partir de una instrucción hablada en inglés. El fabricante de chips Nvidia utilizó una versión construida especialmente para Nvidia para presentar su modelo robótico GR00T 2, capaz de transferir a los robots habilidades demostradas por personas, por ejemplo al preparar yogur de plátano con dos manos.",
+     "Los datos sobre la mano y el robot proceden del fabricante y no se han verificado de forma independiente. El vídeo oficial de Tianji Robotics presenta la plataforma Marvin Pro."
+    ],
+    "d": "En la conferencia de robótica CoRL, la marca de robots GENTO mostró una nueva mano y el robot de dos brazos Marvin Pro. Nvidia presentó su modelo robótico GR00T 2 en una versión especial.",
+    "t": "Mano robótica con 21 grados de libertad: la china Tianji presenta un prototipo en Austin"
+   },
+   "at": "2026-11-14T11:56Z",
+   "h": "52fc0ed6916e",
+   "rev": [
+    "\"una versión construida especialmente para ella\": 'ella' is wrong, since Nvidia is a chip company and the German says 'für Nvidia'; it should be 'para Nvidia'"
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen de portada: mano robótica con 21 grados de libertad – Tianji presenta un prototipo en la CoRL",
+    "kl": "Robótica"
    }
   },
   "gia-rosa-cvd-diamant-als-rohstein": {
@@ -2689,6 +2793,27 @@
    ],
    "x": {
     "img.alt": "Stephon Castle, de los San Antonio Spurs, con el balón (Foto de archivo, Finales de la Conferencia Oeste 2026)"
+   }
+  },
+  "nba-video-adebayo-antetokounmpo-heat-cavaliers-2026-11-14": {
+   "L": {
+    "body": [
+     "Los Miami Heat vencieron 133-121 a los Cleveland Cavaliers en un partido de grupos de la Copa NBA. Bam Adebayo anotó 37 puntos y capturó 14 rebotes; Giannis Antetokounmpo también logró 37 puntos y nueve rebotes. Según ESPN, solo es la segunda vez en la historia del club que dos jugadores de los Heat anotan 37 puntos cada uno en el mismo partido; antes lo habían logrado LeBron James y Dwyane Wade en 2013.",
+     "Davion Mitchell aportó 22 puntos y 17 asistencias, con lo que igualó su máximo personal en pases de canasta; Ryan Conwell sumó 20 puntos saliendo desde el banquillo. En Cleveland, Donovan Mitchell fue el máximo anotador con 25 puntos; Tyrese Proctor logró 22 y James Harden 20.",
+     "Miami celebró su tercera victoria consecutiva, suma ya seis victorias y seis derrotas y lidera con 2-0 el Grupo B de la Conferencia Este en la Copa NBA. Cleveland baja a 6-7. El vídeo muestra los resúmenes del partido del canal oficial de YouTube de la NBA."
+    ],
+    "d": "Davion Mitchell reparte 17 asistencias, los Heat ganan por tercera vez seguida y lideran su grupo de la Copa NBA. Los resúmenes, del canal oficial de la NBA.",
+    "t": "Vídeo: Adebayo y Antetokounmpo anotan 37 puntos cada uno; Miami gana a Cleveland 133-121"
+   },
+   "at": "2026-11-14T11:56Z",
+   "h": "11924ca07592",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Bam Adebayo con el balón en el McDonald's All-American Game 2016 (Foto de archivo)"
    }
   },
   "niederlande-griechenland-7-0-reijnders-2026-11-14-b11": {
