@@ -374,6 +374,32 @@
     "img.alt": "Sembolik fotoğraf: Bulgaristan sınır ve gümrük kapısı"
    }
   },
+  "deutsche-boerse": {
+   "L": {
+    "body": [
+     "Xetra'da (Frankfurt Borsası'nın elektronik işlem sistemi) rekorun ardından nefes molası: Ana endeks Dax (Almanya'nın borsaya kote 40 büyük şirketi) cuma günü neredeyse değişmeden yüzde 0,08 düşüşle 26.749,95 puandan kapandı (dpa-AFX). Endeks perşembe günü ilk kez 27.000 puanı aşmıştı. Haftalık bazda artış yüzde 3,6. MDax (50 orta ölçekli şirket) yüzde 0,51 kaybederek 30.699,96 puana, SDax (daha küçük şirketler) yüzde 1,08 kaybederek 17.758,85 puana, teknoloji endeksi TecDax ise yüzde 0,76 kaybederek 4077,57 puana geriledi. Euro Stoxx 50 (avro bölgesinin 50 önde gelen şirketi) yüzde 0,19 düşüşle 6386,86 puana indi, ancak haftalık bazda yüzde 3,5 yükselerek nisan ayından bu yana en büyük haftalık artışı kaydetti.",
+     "Ters rüzgar ABD'den geldi: Teknoloji endeksi Nasdaq 100, Avrupa'da işlemlerin kapanışı sırasında yüzde 2'den fazla düşüşteydi. Bu durum çip hisselerini vurdu; Infineon yüzde 4,3 kaybederek Dax'ın en çok değer kaybeden hissesi oldu, MDax'ta Aixtron, Jenoptik, Suss Microtec ve Siltronic yüzde 3 ile 4,7 arasında düştü. ABD'de üretici fiyatları ekimde yıllık bazda yüzde 6,5 arttı; bu, beklentilerin biraz altındaydı.",
+     "Enerji ve su gibi kamu hizmeti şirketlerine talep vardı: Eon yüzde 1,7, RWE yüzde 0,6 yükseldi; medya haberlerine göre federal hükümet, yakıt üreticisi Urenco'nun üçte birini satın alabilir. Dax'ın en çok yükselen hissesi yüzde 2,1 artışla kimyasal ürünler tüccarı Brenntag oldu. Perşembe günü zayıf çeyrek rakamları ve beklenmedik şekilde düşürülen tahmin nedeniyle zarar gören Deutsche Pfandbriefbank hissesi yüzde 7,3 daha değer kaybederek rekor düşük seviyeye indi.",
+     "Bir CapTrader analisti, yatırımcıların rekor coşkusu ile kayıp korkusu arasında kaldığını belirtti; gelecek hafta beklenen Anthropic halka arzının risk iştahını sınayacağını söyledi (dpa-AFX)."
+    ],
+    "d": "Dax cuma günü yüzde 0,08 düşüşle 26.749,95 puandan kapandı, haftalık bazda artış yüzde 3,6. Infineon, ABD'deki zayıf çip hisseleri nedeniyle yüzde 4,3 düştü, Eon yüzde 1,7 yükseldi.",
+    "explain": "Haftalık değişim, bir endeksin önceki cuma gününün kapanışından bu yana ne kadar hareket ettiğini gösterir. Rekorun ardından sakin bir gün normaldir ve önümüzdeki günler hakkında kesin bir şey söylemez.",
+    "t": "Dax rekorun ardından nefes aldı – haftalık yüzde 3,6 artış"
+   },
+   "at": "2026-11-14T07:43Z",
+   "h": "cbc7c6521d59",
+   "rev": [
+    "\"yüzde +2,1\" is an unnatural format; it should read \"yüzde 2,1 artışla\"",
+    "\"Federal Hükümet\" is wrongly capitalised; TDK wants \"federal hükümet\" (German: Bundesregierung)",
+    "\"Versorger\" means utilities, not \"Enerji şirketleri\"; changed to \"Enerji dağıtım/kamu hizmeti şirketleri\" for accuracy",
+    "Eon and RWE rose for the reason given in the medya haberleri clause, which the draft cuts off; the attribution is kept as is"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ]
+  },
   "deutschland-afd-berthold-bundespraesident-kandidat-2026-11-14": {
    "L": {
     "body": [
@@ -815,6 +841,36 @@
     "img.alt": "Kapak görseli: Sofya ısıtma şebekesi: Enerji Bakanlığı “son derece endişe verici” eksiklikler saptadı"
    }
   },
+  "erklaervideo-boersengang-unternehmen-2026-11-14": {
+   "L": {
+    "body": [
+     "Halka arzlar haftanın konusu. Renaissance Capital'e göre yapay zekâ şirketi Anthropic'in perşembe, 19 Kasım'da Nasdaq'ta işlem görmeye başlaması bekleniyor. Biyoteknoloji şirketi Windward Bio ile diş sağlığı alanında uzmanlaşmış vVardis ise 13 Kasım'da New York'ta halka arz oldu; sonuçlar çok farklı oldu: Windward Bio ilk günü halka arz fiyatının yüzde 67,6 üzerinde kapattı, vVardis ise yüzde 8,3 altında. Bir şirket borsaya nasıl açılır? Deutsche Börse'nin yeni başlayanlara yönelik borsa filminin 3. bölümü bu konuyu ele alıyor.",
+     "Halka arzda (İngilizce Initial Public Offering, yani ilk halka arz; kısaca IPO) bir şirket ilk kez hisselerini geniş kamuoyuna satar. Öncesinde danışman olarak bankalar seçer, denetimden geçer ve rakamları, planları ve riskleri içeren, denetim otoritesinin onaylaması gereken bir izahname yayımlar. Ardından bir fiyat aralığı açıklanır, yatırımcılar teklif verir ve sonunda halka arz fiyatı belirlenir. İlk işlem gününde borsada ilk fiyat arz ve talepten oluşur; bundan sonra herkes hisseyi alıp satabilir.",
+     "Şirketler için halka arz, kredi almadan büyüme için çok para toplamanın bir yoludur. Bunun karşılığında durumlarını sürekli olarak kamuoyuna açıklamak zorundadırlar ve bankaların ve denetçilerin maliyetlerini üstlenirler. Yatırımcılar açısından ise şu geçerlidir: Yeni bir borsa şirketinin henüz bir fiyat geçmişi yoktur ve fiyat daha ilk günde yukarı da aşağı da sert dalgalanabilir. Bu metin yatırım tavsiyesi değildir."
+    ],
+    "d": "Anthropic 19 Kasım'da Nasdaq'a çıkmayı planlıyor, iki İsviçreli şirket ise henüz New York'ta borsaya açıldı. Deutsche Börse'nin filmi halka arzın nasıl işlediğini adım adım anlatıyor.",
+    "t": "Açıklayıcı video: Bir şirket borsaya nasıl açılır"
+   },
+   "at": "2026-11-14T07:43Z",
+   "h": "15b39bfe0f79",
+   "rev": [
+    "Teaser: 'yeni New York'ta işlem görmeye başladı' is broken; it should say they have just started trading in New York",
+    "Weekday 'Perşembe' must be lowercase mid-sentence per TDK",
+    "'Initial Public Offering' left untranslated in the parenthetical",
+    "'iki İsviçreli şirket' in the teaser is fine; 'Nasdaq'a çıkmak' is fine",
+    "'yol arkadaşı olarak' is a literal rendering of 'Begleiter'; it should be 'danışman'",
+    "'Börsengang' for Windward Bio and vVardis was rendered as 'New York borsasında'; the German says they went public in New York, so it should be 'New York'ta halka arz oldu'",
+    "'ilk fiyat arz ve talepten oluşur' is acceptable; 'Wertpapierprospekt' is rendered as 'izahname', which is correct"
+   ],
+   "rev_dbg": [
+    7,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Frankfurt Menkul Kıymetler Borsası'nın işlem salonu"
+   }
+  },
   "europa-dublin-gipfel-ki-costa-vertrauen-2026-11-14": {
    "L": {
     "body": [
@@ -1020,6 +1076,64 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Macaristan Başbakanı Péter Magyar (Mart 2026)"
+   }
+  },
+  "invest-deutschland": {
+   "L": {
+    "body": [
+     "Cuma gününden bu yana yeni: Mercedes-Benz'de olası fabrika kapatmalarına karşı direnç büyüyor. Genel iş konseyi başkanı Ergun Lümali şöyle dedi: “Fabrika kapatmalarını kesin olarak reddediyoruz ve kendimizi nasıl savunacağımızı biliyoruz.” Lümali, yönetim kurulunu Doğu Avrupa'ya taşıma tehdidinde bulunmakla suçluyor. IG Metall bölge sorumlusu Barbara Resch, kapatmaların sendikayla “yapılamayacağını” söyledi. dpa'ya göre Almanya'da üretimde saatlik işgücü maliyetleri Doğu Avrupa'dakinin beş katına kadar çıkıyor. Aralık başında dolaylı bölümler için yeni bir kıdem tazminatı programı bekleniyor. Herhangi bir kapatma kararı alınmış değil (Autohaus, Handelsblatt, 13.11.).",
+     "Federal İstatistik Dairesi ağustosta 2.067 şirket iflası saptadı; bu, bir yıl öncesine göre %4,4 daha fazla. En sık ulaştırma ve depolama sektörü etkilendi (Destatis, 13.11.). Yaklaşık 120 çalışanı olan Düsseldorf merkezli insan kaynakları danışmanlığı Intenture Group iflas başvurusunda bulundu; geçici kayyum, faaliyetin sürdürülmesi için iyi şanslar görüyor (INDat, 13.11.). Kâğıt sanayisine makine üreten Hüttenwerke Königsbronn (Ostalb), kitlesel fonlama tahvili yoluyla 1,36 milyon avro toplamak istiyor; şirketin açıklamasına göre klasik finansman yöntemleri, yeterli öz teminat bulunmadığı için sonuçsuz kaldı. Şirket iflas etmiş değil (dpa, 13.11.).",
+     "Handelsblatt ve “Welt” gazetelerine göre federal hükûmet, yakıt üreticisi Urenco'nun üçte birini RWE ve Eon'dan devralmak istiyor; bunun için bütçede yaklaşık 4 milyar avro öngörülüyor. Urenco, Gronau'da (Kuzey Ren-Vestfalya) bir tesis işletiyor. Schwarz Grubu CEO'su Gerd Chrzanowski, Mecklenburg-Batı Pomeranya ve Brandenburg'da daha önce duyurulan iki veri merkezi için 16,6 milyar avro tutarını doğruladı (Focus, 13.11.). Tesla, Grünheide'da yaklaşık 2.000 kişiyi yeni işe aldı (ecomento, 12.11.). Tablo artık 7-14.11. dönemini kapsıyor; rakamla belirtilen yatırımlar 490,0 milyon avro tutuyor (kendi hesabımız). Düşüşün nedeni, eski kayıtların tablodan çıkmış olması."
+    ],
+    "d": "İş konseyi ve IG Metall, Mercedes'in planlarına karşı çıkıyor. Ağustosta 2.067 şirket iflas başvurusu yaptı; bu, bir yıl öncesine göre %4,4 daha fazla. Federal hükûmet, Urenco'nun üçte birini satın almak istiyor.",
+    "explain": "Mercedes çalışanları, maliyetler ve üretim yerleri konusunda uzun müzakerelere hazırlıklı olmalı. Artan şirket iflasları özellikle nakliyecileri, lokanta ve restoran işletmecilerini ve inşaat firmalarını etkiliyor.",
+    "t": "Mercedes iş konseyi fabrika kapatmalarına karşı, ağustosta şirket iflasları arttı"
+   },
+   "at": "2026-11-14T07:43Z",
+   "h": "e186e1fcb3e0",
+   "rev": [
+    "Resch'in sözü: \"yapılamayacağını\" ifadesi doğrudan alıntıyla bozuk/uyumsuz, doğal ifade gerekli",
+    "\"Urenco'nun üçte birini satın almak istiyor\" teaser'da \"satın\" doğru; gövdede \"devralmak\" ile uyumlu, sorun yok",
+    "\"im Haushalt sollen ... stehen\" için \"ayrılmış olması bekleniyor\" anlam kayması: bütçede yaklaşık 4 milyar avro öngörülüyor",
+    "\"Der Rückgang kommt daher\" ve Mecklenburg-Vorpommern: Vorpommern çevrilmemiş, Türkçe yazımı \"Mecklenburg-Batı Pomeranya\"",
+    "Mercedes iş konseyi yönetimi: \"Vorstand\" = yönetim kurulu doğru; \"Gesamtbetriebsratschef\" doğru",
+    "Ağustos küçük harf doğru; \"Welt gazetesine göre\" ile Handelsblatt birlikte: \"Handelsblatt ve Welt'e göre\" daha doğru"
+   ],
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ]
+  },
+  "ipo-banken-provision-geschaeftsmodell-2026-11-14": {
+   "L": {
+    "body": [
+     "Yılın en büyük halka arzı kapıda: Yapay zeka şirketi Anthropic, 825 milyon hisseyi 70 ile 78 dolar arasında fiyatla sunuyor ve Renaissance Capital'e göre perşembe günü, 19 Kasım'da Nasdaq'ta işlem görmeye başlayacak. 10 Kasım tarihli ön izahnamede, büyük bir banka konsorsiyumunun başında Goldman Sachs ve Morgan Stanley yer alıyor; konsorsiyumda J.P. Morgan, Citigroup, Barclays, Wells Fargo, BofA, Deutsche Bank, RBC ve UBS de bulunuyor. Bankaların ne kadar alacağı izahnamede henüz belli değil; komisyon alanları boş. EvercoreISI analisti Glenn Schorr, Yahoo Finance'e göre (27 Ekim) ücretleri yaklaşık 562 milyon dolar olarak tahmin etti; bunun 112'şer milyon doları Goldman Sachs ve Morgan Stanley'e ait.",
+     "Arkasındaki iş modeli şöyle: Bankalar hisseleri şirketten devralıyor ve yatırımcılara yeniden satıyor. Kazançları, “gross spread” denen fark. ABD'li finans profesörü Jay Ritter'in verilerine göre bu oran, 2001-2025 arasındaki ABD halka arzlarında her yıl medyan olarak yüzde 7 düzeyindeydi; bir milyar doların üzerindeki ihraçlarda ortalama yalnızca yüzde 4,44 olurken, Facebook (yüzde 1,1) ya da Uber (yüzde 1,3) gibi devlerde daha da düşüktü. Buna aşırı tahsis opsiyonu (“yeşil ayakkabı” opsiyonu) ekleniyor: Anthropic'te bankalar 30 gün içinde 123,75 milyona kadar ek hisse satın alabilir; bu, arzın yüzde 15'ine denk geliyor. Morgan Stanley'in istikrar sağlayıcı banka olarak işlem başlangıcından sonra fiyatı destekleyebileceği belirtiliyor, ancak bunu yapmakla yükümlü değil. Hisselerin yüzde 20'sine kadarının aracı kurumlar üzerinden bireysel yatırımcılara gitmesi planlanıyor. Bankalar halka arzdan önce de kazandı: FT'ye göre Şubat ayında varlıklı müşterilerine Anthropic'in bir finansman turuna erişim sundular; Morgan Stanley yüzde 1 ücretle, Goldman Sachs ise yüzde 1,25 yönetim ücreti artı yüzde 17,5 kâr payı karşılığında.",
+     "Ne değişiyor: Mega işlemler yüzdeyi düşürüyor, ancak mutlak tutarlar yüksek kalıyor. Aynı zamanda paranın bir kısmı klasik yerleştirme olmadan toplanıyor; izahnameye göre Anthropic'te Google, Nvidia, AMD ve diğerleri, ayrı bir özel yerleştirmede 26 milyar dolarlık hisseyi ihraç fiyatından satın alıyor. Bankalar için halka arz işi, borsa ortamına büyük ölçüde bağlı: Renaissance Capital'in IPO endeksi Kasım ortasında yalnızca yüzde 1,2 artıda, S&P 500 ise yüzde 11,8 artıdaydı. Biyoteknoloji şirketi Rezera bu hafta halka arzını planlanan başlangıçtan kısa süre önce erteledi, vVardis hissesi ise ilk işlem gününü ihraç fiyatının yüzde 8,3 altında kapattı. Şirketler için komisyon, elde edilen geliri azaltıyor; yatırımcılar için asıl önemli olan, fiyatın makul ve sürdürülebilir olup olmadığı. Bu metin yatırım tavsiyesi değildir."
+    ],
+    "d": "Anthropic'in 19 Kasım'da Nasdaq'a açılması planlanıyor; sürece Goldman Sachs ve Morgan Stanley öncülük ediyor. Bankalar için halka arz bir komisyon işi; fırsatlar ve riskler barındırıyor.",
+    "t": "Halka arz komisyonu: Bankalar Anthropic gibi IPO'lardan nasıl kazanıyor?"
+   },
+   "at": "2026-11-14T07:43Z",
+   "h": "c19092b17fde",
+   "rev": [
+    "Greenshoe left untranslated in parentheses; replaced with the Turkish equivalent",
+    "\"Komisyon geliri azaltıyor\" lost the meaning that the commission reduces the proceeds of the companies (Erlös)",
+    "\"Anthropic'in ... Nasdaq'a açılması\" is acceptable; \"Morgan Stanley'nin\" spelling corrected to \"Morgan Stanley'in\"",
+    "\"Bankaların ne kadar alacağı izahnamede henüz belli değil\": acceptable",
+    "\"mutlak tutarlar yüksek kalıyor\" is acceptable",
+    "\"sürdürülebilir\" is a loose rendering of \"tragfähig\"; changed to a more precise wording",
+    "Morgan Stanley's right to stabilize is a plan (soll); \"belirtiliyor\" kept",
+    "Stabilisierungsbank rendering acceptable"
+   ],
+   "rev_dbg": [
+    10,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: New York'taki Times Meydanı'nda Nasdaq MarketSite"
    }
   },
   "ki-checkpoint-gateways-php2shell-wiper-angriffe-2026-11-14": {
@@ -1687,6 +1801,30 @@
     "kl": "Uzay"
    }
   },
+  "strom-ibex": {
+   "L": {
+    "body": [
+     "Bulgaristan elektrik borsası IBEX'in (BNEB) gün öncesi piyasasında, ertesi günün her saati için fiyat bir gün önce yapılan açık artırmada belirlenir. Santraller burada toptan elektrik satar; tüccarlar, tedarikçiler ve büyük şirketler satın alır. Cumartesi, 14 Kasım için günlük ortalama (Base) KDV hariç megavatsaat başına 207,91 Euro olarak belirlendi. Bu, cuma günkü 193,84 Euro'ya kıyasla %7,26 artış anlamına geliyor.",
+     "Gündüz ve gece elektriği neredeyse aynı fiyata satılıyor. Pik saatlerde (Peak, 9-20. saatler) megavatsaat başına 208,28 Euro (%6,48 artış), pik dışı saatlerde (Off-Peak, 1-8 ve 21-24. saatler) ise 207,54 Euro (%8,06 artış). Aradaki fark yalnızca 0,74 Euro (kendi hesabımız).",
+     "Cumartesi günü belirgin ölçüde daha az elektrik işlem görecek: 85.224,95 megavatsaat. Bu, cuma günkü 111.702,58 MWh'ye kıyasla %23,70 daha az (kendi hesabımız). Pik saatlere 45.536,97 MWh, pik dışı saatlere 39.687,98 MWh düşüyor. Kısa vadeli gün içi piyasasında BTA haber ajansı, haberini yayımladığı sırada ağırlıklı ortalama fiyatları 143,82 Euro (60 dakikalık ürünler) ve 156,81 Euro (15 dakikalık ürünler) olarak bildirdi.",
+     "Hükümet, yüksek enerji fiyatları nedeniyle 12 Kasım'da 2 milyar Euro'luk bir yardım paketi açıkladı. BNT televizyonuna göre, devlet fonu şirketlere her ay elektrik fiyatının megavatsaat başına 180 Euro'yu aşan kısmını ödeyecek. Hanehalkları için elektrik ve uzaktan ısıtma fiyatlarının 1 Temmuz 2027'ye kadar artmaması öngörülüyor."
+    ],
+    "d": "IBEX, 14 Kasım için KDV hariç megavatsaat başına 207,91 Euro ortalama fiyat bildirdi. Cuma günkü sert düşüşün ardından fiyat yeniden yükseliyor. İşlem hacmi yaklaşık dörtte bir oranında düşüyor.",
+    "explain": "Elektriği borsa fiyatlarından satın alan şirketler cumartesi günü cuma gününe göre biraz daha fazla ödeyecek. Hanehalkları, düzenleyici kurum KEVR'in belirlediği fiyatları öder; bu nedenle faturaları doğrudan değişmez.",
+    "t": "Bulgaristan'da cumartesi borsa elektriği: MWh başına 207,91 Euro, %7,26 artış"
+   },
+   "at": "2026-11-14T07:43Z",
+   "h": "fdd3ee3706ec",
+   "rev": [
+    "Teaser: \"İşlem hacmi yaklaşık dörtte bir azalıyor\" – the German says 'almost a quarter' (23.70 %), so 'yaklaşık' is fine, but the sentence is unclear; changed to be more precise.",
+    "Unit written as \"megawatt saat\" instead of the consistent \"megavatsaat\"."
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ]
+  },
   "trump-xi-putin-gipfel-shenzhen-2026-11-14-b08": {
    "L": {
     "body": [
@@ -1712,6 +1850,61 @@
    "x": {
     "img.alt": "Arşiv fotoğrafı: Shenzhen silüeti",
     "kl": "ABD"
+   }
+  },
+  "ufc-334-medic-alaska-holland": {
+   "L": {
+    "body": [
+     "Uroš Medić, cumartesi günü Madison Square Garden'da UFC 334'ün ana kart maçlarından birinde yer alacak: Welter sıklet dövüşçüsü Kevin Holland ile karşılaşacak. Cageside Press'e göre çarşamba günkü basın gününde rahat görünen Medić, “Bu maçla ilgili hiçbir sorunum yok. Sabırsızlıkla bekliyorum” dedi. New York'a ilk kez geliyor; “bu şehrin enerjisi eşsiz” diye konuştu.",
+     "Medić, Alaska'ya taşındı. Yeni yaşam merkezi hakkında şunları söyledi: “Doğayı seçtim, her zaman doğayı seçeceğim.” Holland'ı kurnaz, alışılmışın dışında bir rakip olarak tanımlayan Medić, rakibinin laflarının ek bir etken olduğunu belirtti.",
+     "Medić, “Bence bu benim için büyük bir zorluk ve bence bu zorluk için yeterince iyiyim” dedi. CBS Sports'a göre cuma günkü resmi tartıda Medić 171 pound, Holland ise 170,4 pound geldi."
+    ],
+    "d": "Alaska'ya taşınan welter sıklet dövüşçüsü New York'taki ilk maçından önce Kevin Holland ile karşılaşacak. Medić, maçı büyük bir zorluk olarak görüyor ve bu zorluğun üstesinden gelebileceğini söylüyor.",
+    "t": "UFC 334: Uroš Medić Holland karşısında sakin – “Doğayı seçtim”"
+   },
+   "at": "2026-11-14T07:43Z",
+   "h": "6e0115454276",
+   "rev": [
+    "\"sıklet atlet\" is a wrong rendering of \"Weltergewichtler\"; should be \"welter sıklet dövüşçüsü\"",
+    "Weekday \"Çarşamba\" wrongly capitalised (TDK: lowercase)",
+    "\"hileli\" is a poor rendering of \"trickreich\" (hileli = cheating); \"ceregeli/kurnaz\" fits better",
+    "Teaser: the \"gewachsen sei\" attribution is awkward; \"söylediği\" misplaces who said it"
+   ],
+   "rev_dbg": [
+    4,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Kapak görseli: UFC 334 – Uroš Medić, Kevin Holland maçı öncesinde"
+   }
+  },
+  "ufc-334-wiegen-titelkaempfe-offiziell": {
+   "L": {
+    "body": [
+     "UFC 334'ün New York'taki Madison Square Garden'da yapılacak iki şampiyonluk maçı kesinleşti: CBS Sports'a göre cuma günkü resmi tartıda ağır sıklet şampiyonu Ciryl Gane 242,6 pound (yaklaşık 110 kilogram), rakibi Josh Hokit ise 231,4 pound (yaklaşık 105 kilogram) geldi. Her ikisi de 265 pound'luk ağır sıklet sınırının belirgin biçimde altında kaldı.",
+     "Yardımcı ana maçta horoz sıklet şampiyonu Kayla Harrison ile geri dönen Amanda Nunes ikisi de tam 135 pound geldi; bu, şampiyonluk maçları için geçerli sınır. MiddleEasy'ye göre, bir çekilme olması durumunda devreye girecek yedek dövüşçü Joselyne Edwards 134,8 pound geldi.",
+     "İki dövüşçü kiloyu tutturamadı: Terrance McKinney, Jim Miller ile yapacağı hafif sıklet maçı öncesinde 156 pound'luk sınırın 4,2 pound üzerinde kaldı; Juan Diaz ise MiddleEasy'ye göre Alatengheili ile yapacağı horoz sıklet maçı öncesinde 136,4 pound olarak kaydedildi, yani 0,4 pound fazla. UFC 334, Almanya saatiyle cumartesiyi pazara bağlayan gece yapılacak. UFC, törensel tartıyı YouTube kanalında yayımladı."
+    ],
+    "d": "Ağır sıklet şampiyonu Ciryl Gane 242,6 pound geldi, rakibi Josh Hokit 231,4 pound. Kayla Harrison ve Amanda Nunes 135 pound'luk şampiyonluk sınırına tam olarak ulaştı.",
+    "t": "UFC 334: İki şampiyonluk maçı da kesinleşti – Gane, Hokit'ten on bir pound ağır"
+   },
+   "at": "2026-11-14T07:43Z",
+   "h": "d03cfa1fce9b",
+   "rev": [
+    "Added 'Türkiye saatiyle değil' which is not in the German original; removed",
+    "Number format: '265 poundluk' written without apostrophe, inconsistent with '135 pound'luk' and a proper-noun-like unit apostrophe is not needed, but consistency fixed",
+    "'Rio 2016' rendered unnaturally as '2016 Rio'daki'; reworded",
+    "Harrison and Nunes each weighed exactly 135 – draft says 'tam 135 pound geldi' for both, acceptable; 'jeweils' made explicit",
+    "Edwards sentence: attribution 'MiddleEasy'ye göre' present, conditional 'devreye girecek' kept; fine"
+   ],
+   "rev_dbg": [
+    5,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Kayla Harrison, 2016 Rio Olimpiyatları'ndaki judo zaferinin ardından (Arşiv fotoğrafı)"
    }
   },
   "welt-eisenkot-netanjahu-rassismus-vorwurf-2026-11-14": {

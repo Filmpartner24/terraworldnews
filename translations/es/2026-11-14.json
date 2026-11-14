@@ -360,6 +360,30 @@
     "img.alt": "Imagen simbólica: paso fronterizo y aduanero búlgaro"
    }
   },
+  "deutsche-boerse": {
+   "L": {
+    "body": [
+     "Pausa tras el récord en Xetra (sistema electrónico de negociación de la Bolsa de Fráncfort): el índice de referencia Dax (las 40 mayores empresas cotizadas de Alemania) cerró el viernes prácticamente sin cambios, un 0,08 % a la baja, en 26.749,95 puntos (dpa-AFX). El jueves había superado por primera vez los 27.000. En la semana acumula una subida del 3,6 %. El MDax (50 valores de mediana capitalización) perdió un 0,51 %, hasta 30.699,96 puntos, el SDax (valores más pequeños) un 1,08 %, hasta 17.758,85, y el índice tecnológico TecDax un 0,76 %, hasta 4077,57. El Euro Stoxx 50 (50 empresas líderes de la zona euro) cedió un 0,19 %, hasta 6386,86 puntos, pero ganó un 3,5 % en la semana, su mayor subida semanal desde abril.",
+     "El viento en contra llegó de EE. UU.: el índice tecnológico Nasdaq 100 cotizaba con pérdidas de más de un 2 % al cierre de la sesión europea. Eso afectó a los valores de chips: Infineon perdió un 4,3 % y fue el farolillo rojo del Dax; en el MDax, Aixtron, Jenoptik, Suss Microtec y Siltronic cayeron entre un 3 % y un 4,7 %. Los precios de producción en EE. UU. subieron en octubre un 6,5 % interanual, algo menos de lo esperado.",
+     "Las empresas de servicios públicos tuvieron demanda: Eon ganó un 1,7 % y RWE un 0,6 %, según informaciones de medios, de acuerdo con las cuales el Gobierno federal podría comprar un tercio del fabricante de combustible Urenco. El valor más alcista del Dax fue el comerciante de productos químicos Brenntag (+2,1 %). Las acciones de Deutsche Pfandbriefbank, que ya el jueves habían sufrido por unas cifras trimestrales débiles y una previsión rebajada de forma sorpresiva, se hundieron otro 7,3 % hasta un mínimo histórico.",
+     "Un analista de CapTrader consideró que los inversores estaban divididos entre la euforia por los récords y el miedo a las pérdidas; según dijo, la salida a bolsa de Anthropic, prevista para la próxima semana, pondría a prueba el apetito por el riesgo (dpa-AFX)."
+    ],
+    "d": "El Dax cerró el viernes un 0,08 % a la baja, en 26.749,95 puntos, con un alza semanal del 3,6 %. Infineon cayó un 4,3 % por la debilidad de los valores de chips en EE. UU. y Eon subió un 1,7 %.",
+    "explain": "El cambio semanal muestra cuánto se ha movido un índice desde el cierre del viernes anterior. Un día tranquilo tras un récord es normal y no dice nada seguro sobre los próximos días.",
+    "t": "El Dax respira tras el récord y cierra la semana con un alza del 3,6 %"
+   },
+   "at": "2026-11-14T07:43Z",
+   "h": "cbc7c6521d59",
+   "rev": [
+    "Indirect speech: \"pondrá a prueba\" is stated as a plain fact after \"según dijo\"; the German subjunctive (werde) is better rendered with a conditional to keep the reporting marker clear.",
+    "\"Las acciones del Deutsche Pfandbriefbank\": the bank's name needs the correct article (\"del\" is wrong with the feminine \"Deutsche Pfandbriefbank\" as a company; \"de la\" is more natural)."
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ]
+  },
   "deutschland-afd-berthold-bundespraesident-kandidat-2026-11-14": {
    "L": {
     "body": [
@@ -761,6 +785,31 @@
     "img.alt": "Gráfico de portada: Calefacción urbana de Sofía: Energía detecta deficiencias «sumamente preocupantes»"
    }
   },
+  "erklaervideo-boersengang-unternehmen-2026-11-14": {
+   "L": {
+    "body": [
+     "Las salidas a bolsa son el tema de la semana. Según Renaissance Capital, la empresa de IA Anthropic debutaría en el Nasdaq el jueves 19 de noviembre. Ya el 13 de noviembre salieron a bolsa en Nueva York la biotecnológica Windward Bio y la especialista dental vVardis, con resultados muy distintos: Windward Bio cerró la primera jornada un 67,6 por ciento por encima del precio de emisión y vVardis un 8,3 por ciento por debajo. ¿Cómo llega una empresa a bolsa? De eso trata el capítulo 3 del vídeo bursátil para principiantes de Deutsche Börse.",
+     "En una salida a bolsa (en inglés Initial Public Offering, IPO), una empresa vende acciones por primera vez al gran público. Antes busca bancos que la acompañen, se somete a una auditoría y publica un folleto con cifras, planes y riesgos que debe aprobar el supervisor. Después se comunica un rango de precios, los inversores presentan sus ofertas y al final queda fijado el precio de emisión. El primer día de negociación se forma en bolsa la primera cotización a partir de la oferta y la demanda; desde entonces, cualquiera puede comprar y vender la acción.",
+     "Para las empresas, la salida a bolsa es una vía para captar mucho dinero para crecer sin pedir un crédito. A cambio, deben revelar de forma permanente cómo les va y asumir los costes de bancos y auditores. Para los inversores vale lo siguiente: un nuevo valor bursátil aún no tiene historial de cotización y el precio puede fluctuar con fuerza ya el primer día, tanto al alza como a la baja. Este texto no es asesoramiento de inversión."
+    ],
+    "d": "Anthropic quiere debutar en el Nasdaq el 19 de noviembre, y dos empresas suizas acaban de estrenarse en Nueva York. Un vídeo de Deutsche Börse explica paso a paso cómo funciona una salida a bolsa.",
+    "t": "Vídeo explicativo: cómo sale una empresa a bolsa"
+   },
+   "at": "2026-11-14T07:43Z",
+   "h": "15b39bfe0f79",
+   "rev": [
+    "\"Initial Public Offering\" is the English term and is correct in the draft (the flagged words are part of an English name, not untranslated German).",
+    "\"Börsenfilm\" rendered as \"película bursátil\", which is unnatural for an explainer video; \"vídeo\" is better and consistent with the headline."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: sala de negociación de la Bolsa de Fráncfort"
+   }
+  },
   "europa-dublin-gipfel-ki-costa-vertrauen-2026-11-14": {
    "L": {
     "body": [
@@ -952,6 +1001,52 @@
    ],
    "x": {
     "img.alt": "Foto de archivo: el primer ministro húngaro Péter Magyar (marzo de 2026)"
+   }
+  },
+  "invest-deutschland": {
+   "L": {
+    "body": [
+     "Novedad desde el viernes: en Mercedes-Benz crece la resistencia a posibles cierres de plantas. El presidente del comité de empresa general, Ergun Lümali, dijo: «Rechazamos rotundamente los cierres de plantas y sabemos defendernos». Acusa a la dirección de amenazar con un traslado a Europa del Este. La responsable regional de IG Metall, Barbara Resch, dijo que los cierres «no se podrían hacer» con el sindicato. Según dpa, los costes laborales por hora en la producción en Alemania son hasta cinco veces más altos que en Europa del Este. A principios de diciembre se espera un nuevo programa de indemnizaciones para áreas indirectas. No se ha decidido ningún cierre (Autohaus, Handelsblatt, 13.11.).",
+     "La Oficina Federal de Estadística contabilizó en agosto 2.067 insolvencias de empresas, un 4,4 % más que un año antes. El sector más afectado fue el de transporte y almacenamiento (Destatis, 13.11.). La consultora de personal Intenture Group, de Düsseldorf, con unos 120 empleados, ha solicitado la insolvencia; el administrador provisional ve buenas posibilidades de continuidad (INDat, 13.11.). Hüttenwerke Königsbronn (Ostalb), fabricante de máquinas para la industria papelera, quiere recaudar 1,36 millones de euros mediante un bono de crowdfunding; según la empresa, la financiación clásica fracasó por falta de garantías propias. La empresa no está insolvente (dpa, 13.11.).",
+     "Según Handelsblatt y «Welt», el Gobierno federal quiere adquirir de RWE y Eon un tercio del fabricante de combustible Urenco; en el presupuesto estarían reservados unos 4.000 millones de euros para ello. Urenco opera una planta en Gronau (Renania del Norte-Westfalia). El director del Grupo Schwarz, Gerd Chrzanowski, confirmó 16.600 millones de euros para dos centros de datos ya anunciados en Mecklemburgo-Pomerania Occidental y Brandeburgo (Focus, 13.11.). Tesla ha contratado a unas 2.000 personas nuevas en Grünheide (ecomento, 12.11.). La tabla abarca ahora del 7 al 14.11.; las inversiones cuantificadas suman 490,0 millones de euros (cálculo propio). El descenso se debe a que han salido entradas más antiguas."
+    ],
+    "d": "El comité de empresa e IG Metall se oponen a los planes de Mercedes. En agosto 2.067 empresas se declararon insolventes, un 4,4 % más que hace un año. Berlín quiere comprar un tercio de Urenco.",
+    "explain": "Los empleados de Mercedes deben contar con largas negociaciones sobre costes y centros de producción. El aumento de las quiebras afecta sobre todo a transportistas, hosteleros y constructoras.",
+    "t": "El comité de empresa de Mercedes rechaza cierres de plantas; más quiebras en agosto"
+   },
+   "at": "2026-11-14T07:43Z",
+   "h": "e186e1fcb3e0",
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ]
+  },
+  "ipo-banken-provision-geschaeftsmodell-2026-11-14": {
+   "L": {
+    "body": [
+     "Se acerca la mayor salida a bolsa del año: la empresa de IA Anthropic ofrece 825 millones de acciones a entre 70 y 78 dólares y, según Renaissance Capital, debutará en el Nasdaq el jueves 19 de noviembre. En el borrador del folleto del 10 de noviembre, Goldman Sachs y Morgan Stanley encabezan un amplio consorcio de bancos, entre los que figuran J.P. Morgan, Citigroup, Barclays, Wells Fargo, BofA, Deutsche Bank, RBC y UBS. Cuánto recibirán los bancos sigue sin estar claro en el documento: los campos de la comisión están vacíos. El analista Glenn Schorr, de EvercoreISI, estimó según Yahoo Finance (27 de octubre) las comisiones en unos 562 millones de dólares, de los cuales 112 millones corresponderían a Goldman Sachs y otros 112 millones a Morgan Stanley.",
+     "El modelo de negocio es el siguiente: los bancos adquieren las acciones de la empresa y las revenden a los inversores. Su remuneración es la diferencia, el llamado «gross spread». Según datos del profesor estadounidense de finanzas Jay Ritter, esta tasa se situó en una mediana del 7 % cada año en las salidas a bolsa en EE. UU. de 2001 a 2025; en emisiones de más de mil millones de dólares fue de media solo del 4,44 %, y aún menor en gigantes como Facebook (1,1 %) o Uber (1,3 %). A ello se suma la opción de sobreasignación («greenshoe»): en el caso de Anthropic, los bancos pueden comprar en un plazo de 30 días hasta 123,75 millones de acciones adicionales, el 15 % de la oferta. Morgan Stanley, como banco estabilizador, estaría autorizado a sostener la cotización tras el estreno, pero no está obligado a ello. Está previsto que hasta un 20 % de las acciones vaya a inversores particulares a través de brókeres. Los bancos ya ganaron dinero antes de la salida a bolsa: según el FT, en febrero ofrecieron a clientes ricos acceso a una ronda de financiación de Anthropic, Morgan Stanley con una comisión del 1 % y Goldman Sachs con una comisión de gestión del 1,25 % más un 17,5 % de participación en los beneficios.",
+     "Qué cambia: las megaoperaciones reducen el porcentaje, pero dejan elevadas sumas absolutas. Al mismo tiempo, parte del dinero se capta sin colocación clásica: en el caso de Anthropic, según el folleto, Google, Nvidia, AMD y otros compran acciones por 26.000 millones de dólares en una colocación privada aparte al precio de emisión. Para los bancos, el negocio de las OPV depende mucho del entorno bursátil: el índice IPO de Renaissance Capital registraba a mediados de noviembre solo un 1,2 % de ganancia, frente al 11,8 % del S&P 500. Esta semana, la biotecnológica Rezera aplazó su salida a bolsa poco antes de la fecha prevista, y la acción de vVardis cerró su primer día de negociación un 8,3 % por debajo del precio de emisión. Para las empresas, la comisión reduce los ingresos; para los inversores, lo decisivo es si el precio es sostenible. Este texto no constituye asesoramiento de inversión."
+    ],
+    "d": "Anthropic debutará en el Nasdaq el 19 de noviembre, con Goldman Sachs y Morgan Stanley al frente. Para los bancos, una OPV es un negocio de comisiones, con oportunidades y riesgos.",
+    "t": "Comisiones por salir a bolsa: cómo ganan dinero los bancos con OPV como la de Anthropic"
+   },
+   "at": "2026-11-14T07:43Z",
+   "h": "c19092b17fde",
+   "rev": [
+    "Se añadió «hasta» en la frase de los inversores particulares, aunque en alemán es «Bis zu 20 Prozent … sollen … gehen»: se perdió el matiz de «sollen» (condicional/atribución).",
+    "«Morgan Stanley soll … dürfen» se tradujo con «podría», lo que cambia la modalidad; se ajusta a «según está previsto».",
+    "La frase «Hasta un 20 % … irá» presenta como hecho firme un plan; se ajusta a «está previsto que».",
+    "Titular: «salir a bolsa» y «OPV» son correctos; título y teaser dentro del límite."
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Nasdaq MarketSite en Times Square, Nueva York"
    }
   },
   "ki-checkpoint-gateways-php2shell-wiper-angriffe-2026-11-14": {
@@ -1565,6 +1660,26 @@
     "kl": "Astronáutica"
    }
   },
+  "strom-ibex": {
+   "L": {
+    "body": [
+     "En el mercado diario de la bolsa eléctrica búlgara IBEX (BNEB), el precio de cada hora del día siguiente se fija el día anterior en una subasta. Las centrales venden aquí electricidad al por mayor; comercializadores, suministradores y grandes empresas compran. Para el sábado 14 de noviembre, la media diaria (Base) se sitúa en 207,91 euros por megavatio hora sin IVA. Es un 7,26 % más que el viernes, cuando fue de 193,84 euros.",
+     "La electricidad diurna y la nocturna cuestan casi lo mismo. En las horas punta (Peak, horas 9-20) son 208,28 euros por megavatio hora (+6,48 %). En las horas valle (Off-Peak, horas 1-8 y 21-24) son 207,54 euros (+8,06 %). La diferencia es de solo 0,74 euros (cálculo propio).",
+     "El sábado se negociará claramente menos electricidad: 85.224,95 megavatios hora. Es un 23,70 % menos que el viernes, con 111.702,58 MWh (cálculo propio). A las horas punta corresponden 45.536,97 MWh y a las horas valle 39.687,98 MWh. En el mercado intradiario a corto plazo, la agencia BTA informa, en el momento de su despacho, de precios medios ponderados de 143,82 euros (productos de 60 minutos) y 156,81 euros (productos de 15 minutos).",
+     "El Gobierno anunció el 12 de noviembre un paquete de ayudas de 2.000 millones de euros por los altos precios de la energía. Según la cadena BNT, un fondo estatal pagará cada mes a las empresas la parte del precio de la electricidad que supere los 180 euros por megavatio hora. La electricidad y la calefacción urbana no deberían encarecerse para los hogares hasta el 1 de julio de 2027."
+    ],
+    "d": "Para el 14 de noviembre, IBEX informa de un precio medio de 207,91 euros por megavatio hora sin IVA. Tras la fuerte caída del viernes, el precio vuelve a subir. El volumen negociado baja casi una cuarta parte.",
+    "explain": "Las empresas que compran electricidad a precios de bolsa pagan el sábado algo más que el viernes. Los hogares pagan precios fijados por el regulador KEVR; su factura no cambia directamente por ello.",
+    "t": "Electricidad en bolsa en Bulgaria el sábado: 207,91 euros/MWh, un 7,26 % más"
+   },
+   "at": "2026-11-14T07:43Z",
+   "h": "fdd3ee3706ec",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ]
+  },
   "trump-xi-putin-gipfel-shenzhen-2026-11-14-b08": {
    "L": {
     "body": [
@@ -1589,6 +1704,52 @@
    "x": {
     "img.alt": "Foto de archivo: panorámica de Shenzhen",
     "kl": "EE. UU."
+   }
+  },
+  "ufc-334-medic-alaska-holland": {
+   "L": {
+    "body": [
+     "Uroš Medić disputa el sábado en el Madison Square Garden uno de los combates de la cartelera principal de UFC 334: el peso wélter se enfrenta a Kevin Holland. En el día de medios del miércoles se mostró relajado, según Cageside Press: «No tengo ningún problema con este combate. Tengo ganas de que llegue». Es su primera visita a Nueva York; «la energía de esta ciudad no tiene igual», dijo.",
+     "Medić se mudó a Alaska. Sobre su nuevo lugar de residencia dijo: «Elegí la naturaleza, siempre elegiré la naturaleza». Describe a Holland como un rival astuto y poco ortodoxo, cuyas palabras, según dijo, son un factor adicional.",
+     "«Creo que es un gran desafío para mí y creo que soy lo bastante bueno para este desafío», dijo Medić. En el pesaje oficial del viernes, según CBS Sports, marcó 171 libras en la báscula y Holland, 170,4 libras."
+    ],
+    "d": "Antes de su primera aparición en Nueva York, el peso wélter que se mudó a Alaska se enfrenta a Kevin Holland. Medić afirma que ve el combate como un gran desafío para el que está preparado.",
+    "t": "UFC 334: Uroš Medić se toma con calma a Holland: «Elegí la naturaleza»"
+   },
+   "at": "2026-11-14T07:43Z",
+   "h": "6e0115454276",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico de portada: UFC 334 – Uroš Medić antes del combate con Kevin Holland"
+   }
+  },
+  "ufc-334-wiegen-titelkaempfe-offiziell": {
+   "L": {
+    "body": [
+     "Los dos combates por el título de UFC 334 en el Madison Square Garden de Nueva York ya están confirmados: en el pesaje oficial del viernes, el campeón de los pesos pesados, Ciryl Gane, pesó 242,6 libras (unos 110 kilogramos), según CBS Sports, y el aspirante Josh Hokit, 231,4 libras (unos 105 kilogramos). Ambos quedaron así claramente por debajo del límite de peso pesado de 265 libras.",
+     "En el combate co-estelar, la campeona de los pesos gallo, Kayla Harrison, y Amanda Nunes, que regresa, pesaron exactamente 135 libras cada una, el límite para combates por el título. La peleadora suplente Joselyne Edwards, que entraría en caso de baja, pesó 134,8 libras, según MiddleEasy.",
+     "Dos peleadores no dieron el peso: Terrance McKinney quedó 4,2 libras por encima del límite de 156 libras antes de su combate de peso ligero contra Jim Miller, y Juan Diaz figuraba, según MiddleEasy, con 136,4 libras antes de su combate de peso gallo contra Alatengheili, es decir, 0,4 libras de más. UFC 334 se celebra en la noche del sábado al domingo, hora alemana. La UFC ha publicado el pesaje ceremonial en su canal de YouTube."
+    ],
+    "d": "El campeón de los pesos pesados, Ciryl Gane, marcó 242,6 libras; el aspirante Josh Hokit, 231,4. Kayla Harrison y Amanda Nunes marcaron exactamente el límite de 135 libras de los combates por el título.",
+    "t": "UFC 334: Ambos combates por el título, oficiales – Gane pesa once libras más que Hokit"
+   },
+   "at": "2026-11-14T07:43Z",
+   "h": "d03cfa1fce9b",
+   "rev": [
+    "Gane's weight attribution: 'laut CBS Sports' in the German applies to both fighters' weights; the Spanish placement is acceptable, no change",
+    "Teaser: 'dieron exactamente el límite' is awkward/unnatural; 'clavaron' or 'marcaron' fits better"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Kayla Harrison tras su oro olímpico en judo en Río 2016 (Foto de archivo)"
    }
   },
   "welt-eisenkot-netanjahu-rassismus-vorwurf-2026-11-14": {
