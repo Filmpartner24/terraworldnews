@@ -8,7 +8,7 @@
   "tr": "easyCredit BBL (Almanya)"
  },
  "season": "2026/27",
- "asof": "2026-11-13",
+ "asof": "2026-11-14",
  "tables": [
   {
    "name": {},
@@ -50,6 +50,13 @@
      "pa": 660
     },
     {
+     "team": "MHP RIESEN Ludwigsburg",
+     "w": 5,
+     "l": 4,
+     "pf": 682,
+     "pa": 688
+    },
+    {
      "team": "SKYLINERS",
      "w": 4,
      "l": 2,
@@ -76,13 +83,6 @@
      "l": 4,
      "pf": 595,
      "pa": 656
-    },
-    {
-     "team": "MHP RIESEN Ludwigsburg",
-     "w": 4,
-     "l": 4,
-     "pf": 682,
-     "pa": 688
     },
     {
      "team": "ALBA BERLIN",
@@ -136,7 +136,7 @@
     {
      "team": "Phoenix Hagen",
      "w": 2,
-     "l": 6,
+     "l": 7,
      "pf": 672,
      "pa": 735
     }
@@ -144,15 +144,6 @@
   }
  ],
  "matches": [
-  {
-   "t1": "FC Bayern München Basketball",
-   "t2": "Basketball Löwen Braunschweig",
-   "date": "2026-11-03",
-   "ft": [
-    108,
-    66
-   ]
-  },
   {
    "t1": "ALBA BERLIN",
    "t2": "Phoenix Hagen",
@@ -238,7 +229,10 @@
    "t1": "Phoenix Hagen",
    "t2": "MHP RIESEN Ludwigsburg",
    "date": "2026-11-13",
-   "time": "20:00"
+   "ft": [
+    79,
+    93
+   ]
   },
   {
    "t1": "ratiopharm ulm",
@@ -290,6 +284,14 @@
   }
  ],
  "src": [
+  {
+   "n": "Phoenix Hagen – Bitteres Ende eines kämpferischen Auftritts (79:93 gegen Ludwigsburg, 14.11.2026)",
+   "u": "https://www.phoenix-hagen.de/bitteres-ende-eines-kaempferischen-auftritts/"
+  },
+  {
+   "n": "MHP RIESEN Ludwigsburg – Big Plays bringen Big Points (Bilanz 5:4, 14.11.2026)",
+   "u": "https://mhp-riesen-ludwigsburg.de/news/big-plays-bringen-big-points/"
+  },
   {
    "n": "easyCredit BBL – Tabelle (letzte Aktualisierung 09.11.2026, 22:12 Uhr)",
    "u": "https://www.easycredit-bbl.de/saison/tabelle"
