@@ -117,6 +117,32 @@
     "kl": "Berlin"
    }
   },
+  "bg-energie-aktien": {
+   "L": {
+    "body": [
+     "Bulgaristan Borsası'nın (BFB) ana endeksi haftayı hafif düşüşle kapattı. En önemli 15 hisseyi yansıtan SOFIX, cuma günü, 13 Kasım'da, %0,10 kaybederek 2093,77 puana geriledi. Haftanın tamamında düşüş yaklaşık %0,5 oldu (Investor.bg). Böylece endeks, 30 Ekim'deki 2120,40 puanlık rekor kapanış seviyesinin %1,26 altında bulunuyor (kendi hesabımız).",
+     "40 hisseden oluşan BGBX40 da %0,10 gerileyerek 310,20 puana indi (haftalık bazda %0,61 düşüş). BGTR30 (eşit ağırlıklı 30 hisse) %0,27 artışla 1271,14 puana, gayrimenkul endeksi BGREIT ise %0,31 artışla 243,04 puana yükselerek kapandı. Ana piyasada 4,79 milyon avroluk işlem hacmi gerçekleşti; bunun yaklaşık dörtte üçü holding şirketi VEI Invest'e aitti, hissesi %14,29 sıçrayarak 1,20 avroya çıktı (BTA, Investor.bg).",
+     "Akıllı elektrik kontrol cihazları üreticisi Shelly Group, 32 işlemle en çok işlem gören hisse oldu: Hisse %0,63 artışla yaklaşık 114.000 avroluk hacimle 64,40 avroya yükseldi. Böylece Fransız Schneider Electric'in hisse başına teklif ettiği 70 avronun %8,0 altında bulunuyor (kendi hesabımız). Mali denetim kurumu KFN, teklifin ön incelemesini 23 Ekim'de tamamladı; kesin onay henüz bildirilmedi.",
+     "Enerji hisselerinde Eurohold Bulgaria 4,28 avroda değişmeden kapattı (son işlem 16:39, hacim 20.002 avro). Petrol'de 11 Kasım'dan bu yana işlem yapılmadı (0,420 avro), Toplofikazija Russe'de ise 2 Kasım'dan bu yana (4,30 avro)."
+    ],
+    "d": "SOFIX cuma günü %0,10 gerileyerek 2093,77 puana indi, haftalık bazda düşüş yaklaşık %0,5. Shelly Group 64,40 avroya yükseldi, Eurohold 4,28 avroda kaldı.",
+    "explain": "Sofya Borsası, güçlü geçen ekimin ardından bu hafta neredeyse yerinde saydı. Bir şirket için satın alma teklifi bulunduğunda hisse fiyatı genellikle teklif fiyatına yakın kalır. Yatırım tavsiyesi değildir.",
+    "t": "SOFIX haftayı yaklaşık %0,5'lik hafif düşüşle tamamladı"
+   },
+   "at": "2026-11-14T08:40Z",
+   "h": "cd0c5f19f299",
+   "rev": [
+    "Turkish: 'Toplofikazija Russe' is a proper name, kept as is",
+    "Month names: 'ekim' in explain is correct lowercase when used generically",
+    "Minor: 'Haftanın tamamında düşüş yaklaşık %0,5' lacks a verb but is understandable; made more fluent",
+    "Shelly sentence: 'bulunuyor' subject is clear but the sentence was clumsy; kept"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ]
+  },
   "bulgarien-apollonia-sosopol-burgas-metropolitan-museum-2026-11-14": {
    "L": {
     "body": [
@@ -1743,6 +1769,33 @@
     "img.alt": "Sembolik fotoğraf: Bulgaristan Bakanlar Kurulu binası, Sofya"
    }
   },
+  "leben-trail-ridge-road-rocky-mountain-winterpause-2026-11-14": {
+   "L": {
+    "body": [
+     "Colorado'daki Rocky Mountain Ulusal Parkı'nda bulunan Trail Ridge Road, 13 Kasım Cuma gününden beri geçiş trafiğine kapalı. Haberi 9News kanalı verdi. Manzaralı yol, doğudaki Estes Park ile batıdaki Grand Lake yerleşimlerini birbirine bağlıyor ve ABD'nin en yüksek kesintisiz asfalt yolu olarak kabul ediliyor. ABD Ulusal Park Servisi NPS'nin bildirdiğine göre yol, doğu tarafındaki Many Parks Curve ile batı tarafındaki Colorado River Trailhead arasında kapalı.",
+     "NPS'ye göre güzergâh 48 mil (yaklaşık 77 kilometre) uzunluğunda ve 12.183 feet, yani yaklaşık 3.713 metreye ulaşıyor. On bir mil (18 kilometreden az) 11.500 feet (yaklaşık 3.500 metre) üzerinde uzanıyor. Yol genellikle mayısın son haftasında açılıyor; bu yıl açılış 29 Mayıs'ta oldu. Hava koşulları izin verdiği sürece de açık kalıyor.",
+     "Park kışın tamamen kapalı değil: Kapatılan bölüm yayalara, bisikletlilere ve tasmalı köpeklere açık kalıyor; ancak bisikletler ve köpekler yalnızca yolda kalabiliyor, patikalarda veya tundrada bulunamıyor. Sürücüler Bear Lake Road ve Endovalley Road'a, ayrıca doğu tarafında Hidden Valley'e, batı tarafında ise Grand Lake girişinden Colorado River Trailhead'e kadar olan bölüme ulaşmaya devam edebiliyor."
+    ],
+    "d": "Rocky Mountain Ulusal Parkı'ndaki Trail Ridge Road cuma gününden beri geçiş trafiğine kapalı. Yol 3.713 metreye kadar çıkıyor; yayalar ve bisikletliler yukarı çıkmaya devam edebiliyor.",
+    "t": "Rocky Mountain: ABD'nin en yüksek kesintisiz asfalt yolu kış molasına girdi"
+   },
+   "at": "2026-11-14T08:40Z",
+   "h": "3c0e4c5a5bb0",
+   "rev_dbg": [
+    4,
+    0,
+    0
+   ],
+   "x": {
+    "facts": [
+     "Konum: Rocky Mountain Ulusal Parkı, Colorado (ABD), Estes Park ile Grand Lake arasında (9News)",
+     "Uzunluk: 48 mil (yaklaşık 77 km), en yüksek nokta 12.183 feet (yaklaşık 3.713 m) (NPS, 12.11.2026 itibarıyla)",
+     "Durum: 13.11.2026'dan beri geçiş trafiğine kapalı; yayalara, bisikletlilere ve tasmalı köpeklere açık (9News)",
+     "En iyi zaman: Yaz sezonu – açılış genellikle mayısın son haftasında, 2026'da 29 Mayıs'ta (9News)"
+    ],
+    "img.alt": "Rocky Mountain Ulusal Parkı'nda karla kaplı Trail Ridge Road (Arşiv fotoğrafı)"
+   }
+  },
   "leben-weltdiabetestag-gesundheitsbericht-frueherkennung-2026-11-14": {
    "L": {
     "body": [
@@ -2036,6 +2089,33 @@
    "x": {
     "img.alt": "Kayla Harrison, 2016 Rio Olimpiyatları'ndaki judo zaferinin ardından (Arşiv fotoğrafı)"
    }
+  },
+  "wallstreet": {
+   "L": {
+    "body": [
+     "Not: Wall Street'te hafta sonu işlem yapılmıyor – tüm fiyatlar 13 Kasım Cuma günkü kapanış fiyatlarıdır. S&P 500 (500 büyük ABD şirketi) 30,73 puan veya %0,40 düşerek 7561,67'ye geriledi. Teknoloji ağırlıklı Nasdaq Composite 229,82 puan (%0,91) kaybederek 25.136,27'ye indi. Dow Jones (30 büyük şirket) ise 50,46 puan (%0,10) yükselerek 52.347,55'e çıktı (AP). S&P 500'deki hisselerin %60'ından fazlası yükseldi, ancak ağır siklet yapay zekâ hisseleri endeksi aşağı çekti (AP). Haftalık bazda yine de kazanç var: S&P 500 +%2,5, Nasdaq +%2,3, Dow +%2,1, Russell 2000 (daha küçük şirketler) +%1,3 (AP). Böylece Nasdaq ve S&P 500 için dört haftalık kayıp serisi sona erdi (Reuters).",
+     "Nvidia ana gündem maddesi olmayı sürdürdü. Hisse, perşembe günü zaten %4,34 kaybetmişken %2,01 düşerek 162,85 dolara geriledi (Stock Titan). 6 Kasım kapanışına (186,64 dolar) göre bu yaklaşık %12,7'lik bir kayıp anlamına geliyor (kendi hesabımız); üst üste altıncı kayıp haftası ve Ekim 2012'den bu yana en uzun seri (Reuters). AP'ye göre Nvidia bu hafta piyasa değerinden yaklaşık 600 milyar dolar kaybetti; piyasa değeri 4 trilyon doların altında kapandı (Yahoo Finance). Jensen Huang, CEO'luk görevinden derhal geçerli olmak üzere istifa etmişti; Nvidia gerekçe belirtmedi. Geçici olarak Mali İşler Direktörü Colette Kress şirketi yönetiyor (Nvidia). „Financial Times“ gazetesine göre (Reuters aktardı) yönetim kurulu, Arm CEO'su Rene Haas'a olası halef olarak yaklaştı. Nvidia, 17 Kasım Salı günü çeyrek sonuçlarını kalıcı bir CEO olmadan açıklayacak.",
+     "Rakipler perşembe günkü kazançlarını geri verdi: AMD %8,75, Broadcom %4,76 düştü (Stock Titan). Cisco, rekor satış bildirmesine rağmen %6,24 kaybetti – brüt marj geriledi. Microsoft, Outlook ve diğer Microsoft 365 hizmetlerindeki arızaya rağmen %0,17 yükselişle kapandı. Modine, Bloomberg'in Samsung ile devralma görüşmelerine ilişkin haberinin ardından %27,95 sıçradı; Samsung haberi doğrulamadı (Stock Titan). Reuters, bir başka baskı unsuru olarak gelecek hafta planlanan Anthropic halka arzını gösteriyor; Reuters'e göre halka arz, yatırımcı parasını yerleşik yapay zekâ şirketlerinden çekebilir.",
+     "On yıllık ABD tahvillerinin getirisi (yıllık faiz) %5,10'dan %5,15'e yükseldi (AP); hafta boyunca 0,29 puan arttı (Investrade). ABD üretici fiyatları (şirketlerin mallar için talep ettiği fiyatlar) ekimde bir önceki aya göre %0,3 arttı – beklenen %0,4'ün biraz altında; yıllık bazda artış %6,5 oldu ve Kasım 2022'den bu yana en güçlü yükseliş oldu (Reuters, Stock Titan). Tüccarlar, ABD Merkez Bankası Fed'in aralıkta faiz artıracağını kesin olarak bekliyor (Reuters). Brent petrol varil başına 95,84 dolardan (+0,02 dolar), WTI 88,56 dolardan (−%0,20) kapandı. Altın (aralık kontratı) ons başına 3886,30 dolardan (+1,00 dolar) işlem gördü ve haftalık bazda yaklaşık %4 kaybetti (Investrade)."
+    ],
+    "d": "Cuma kapanışı: S&P 500 −%0,4, Nasdaq −%0,9, Dow +%0,1. Haftalık bazda üçü de %2,1 ile %2,5 arasında yükseldi. Nvidia yine %2, AMD %8,8 düştü. On yıllık tahvil faizi %5,15'e çıktı.",
+    "explain": "Haftalık bilanço, cuma kapanışını önceki haftanın kapanışıyla karşılaştırır. Yükselen tahvil getirileri kredileri pahalılaştırır ve tahvilleri hisselere kıyasla daha cazip hale getirir – bu da çoğunlukla özellikle teknoloji hisselerini baskılar.",
+    "t": "Wall Street: Dow hafif artıda, teknoloji düştü – Nvidia krizine rağmen haftalık kazanç"
+   },
+   "at": "2026-11-14T08:40Z",
+   "h": "73613db269e3",
+   "rev": [
+    "Nvidia'nın piyasa değeri cümlesinde 'şirket 4 trilyon doların altında kapandı' belirsiz; 'piyasa değeri' belirtilmeli",
+    "'Teknoloji düştü' başlığı biraz kısa ama kabul edilebilir; değişiklik yok",
+    "Nvidia'nın 17 Kasım'daki sonuç açıklaması: 'sürekli bir CEO olmadan' ifadesi doğal değil",
+    "Yönetim kurulunun Haas ile görüşmesi: 'angesprochen' = yaklaştı/teklif götürdü, 'görüştü' anlamı biraz kaydırıyor",
+    "Reuters'in Anthropic halka arzı ile ilgili ifadesi: 'belirtiliyor' kaynağı belirsiz bırakıyor"
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ]
   },
   "welt-eisenkot-netanjahu-rassismus-vorwurf-2026-11-14": {
    "L": {
