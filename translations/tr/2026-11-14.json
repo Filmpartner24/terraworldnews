@@ -251,6 +251,34 @@
     "kl": "Berlin"
    }
   },
+  "berlin-kudamm-demo-polizei-nahost-versammlung-2026-11-14-b1530": {
+   "L": {
+    "body": [
+     "Cumartesi akşamı için bildirilen ve Kurfürstendamm üzerinden geçecek “Gen Z regelt – Phase 2” gösterisi, Berlin Polisi tarafından gençlik protestosu olarak değil, Orta Doğu mitingi olarak ele alınıyor. “Berliner Kurier”in haberine göre, polis bilgilerine dayanarak başvurunun arkasında, yetkililerin Filistin yanlısı çevreye dahil ettiği tek bir kişi bulunuyor. Polise göre bu kişinin “Gen Z regelt” girişimiyle hiçbir bağlantısı yok. Buna göre yürüyüş için Orta Doğu mitinglerinde olağan olan kısıtlamalar geçerli.",
+     "Polisin toplantı listesine göre yürüyüş 17.15 ile 23.00 saatleri arasında bildirilmiş durumda. Güzergah Savignyplatz’tan Kant Caddesi (Kantstraße), Joachimsthaler Straße ve Kurfürstendamm’ın tamamı üzerinden Halensee S-Bahn istasyonuna uzanıyor. “Berliner Kurier”e göre bildirilen katılımcı sayısı yalnızca 100. Gazetenin “Berliner Morgenpost”a dayanarak aktardığına göre ise polis, “üç haneli rakamların alt sınırından dört haneli rakamların üst sınırına kadar” bir katılım bekliyor.",
+     "Ku’damm öğleden sonra erken saatlerde başka bir gösteriye daha sahne olacak: İran’daki idamlara karşı insanlar 14.30 ile 18.00 saatleri arasında Wittenbergplatz’tan Tauentzien Caddesi (Tauentzienstraße) ve Kurfürstendamm üzerinden Adenauerplatz’a yürüyecek. “Berliner Kurier”e göre 31 Ekim’de Prenzlauer Berg yönünde yapılan Gen Z protestolarında olaylar çıkmış ve yaklaşık 60 kişi gözaltına alınmıştı."
+    ],
+    "d": "Polise göre akşam yürüyüşünün arkasında gençlik girişimi değil, Filistin yanlısı çevreden bir kişi var. Yüzlerce ila birkaç bin kişinin katılması bekleniyor.",
+    "t": "Ku’damm yürüyüşü “Gen Z regelt – Phase 2”: Polis Orta Doğu mitingi sayıyor"
+   },
+   "at": "2026-11-14T14:03Z",
+   "h": "5f5a554bba58",
+   "rev": [
+    "Untranslated German street names: Kantstraße, Tauentzienstraße (the instruction asks for translation, but they are proper street names, so a Turkish generic is added)",
+    "\"17.15 ile 23 arasında\" lacks \"saat\" and is unnatural; clock times need a Turkish form",
+    "\"Bereits am Nachmittag\" was rendered as \"öğleden sonra da\", which loses the meaning of 'already'",
+    "Quote marks: German-style \"Berliner Kurier\" quotes are acceptable; the \"Gen Z regelt\" quote is fine"
+   ],
+   "rev_dbg": [
+    4,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin’de Kurfürstendamm (Sembolik fotoğraf)",
+    "kl": "Berlin"
+   }
+  },
   "bg-energie-aktien": {
    "L": {
     "body": [
@@ -799,6 +827,33 @@
     "img.alt": "Derek Chisora (Arşiv fotoğrafı)"
    }
   },
+  "cornell-psyche-metallasteroid-video": {
+   "L": {
+    "body": [
+     "Cornell Üniversitesi, 12 Kasım'da Lindy Elkins-Tanton'ın bir konuşmasını yayımladı. Elkins-Tanton, NASA'nın Psyche misyonunun bilimsel lideri ve University of California, Berkeley'deki Space Sciences Laboratory'nin direktörü. Elkins-Tanton, 11 Eylül'de Cornell Astronomi Bölümü'nün Terzian konuk konuşmacısı olarak Psyche misyonu hakkında konuşmuştu (başlık: “The NASA Psyche Mission: First Journey to a Metal World”); videoda asteroidin gizemlerini anlatıyor ve misyon hakkında bilgi veriyor.",
+     "Hedef, Mars ile Jüpiter arasındaki ana kuşakta bulunan (16) Psyche asteroidi. Asteroid büyük ölçüde metalden oluşuyor, en geniş yerinde yaklaşık 280 kilometre ölçüyor ve yaklaşık 4,5 milyar yıl önce Güneş Sistemi'nin erken döneminde oluştu. Araştırmacılar, asteroid üzerinden kayaç gezegenlerin metalik çekirdekleri hakkında daha fazla şey öğrenmeyi umuyor.",
+     "Uzay aracı güneş enerjili elektrikli itki sistemiyle uçuyor. Araç, 15 Mayıs 2026'da Mars'ın yüzeyinden yaklaşık 4600 kilometre yükseklikte geçti ve yakıt harcamadan rotasını ayarlamak için gezegenin yerçekiminden yararlandı. Aracın Ağustos 2029'da asteroidin yörüngesine girmesi planlanıyor. Misyon Arizona State University tarafından yürütülüyor; NASA'nın JPL laboratuvarı yönetimden ve uçuş operasyonlarından sorumlu."
+    ],
+    "d": "NASA'nın Psyche uzay aracı, büyük ölçüde metalden oluşan bir asteroide doğru yol alıyor. Cornell videosunda bilimsel lider Lindy Elkins-Tanton, orada nelerin araştırılacağını anlatıyor.",
+    "t": "Metal bir dünyaya yolculuk: Cornell videosunda Psyche araştırmacısı Elkins-Tanton"
+   },
+   "at": "2026-11-14T14:03Z",
+   "h": "f0cafdf74a65",
+   "rev": [
+    "'Astronomi' is left untranslated/literal in the Cornell department name; Turkish convention is 'Astronomi Bölümü', which is acceptable, but the sentence structure was kept",
+    "'in rund 4600 Kilometern Höhe' means at an altitude of about 4,600 km, not 'yakınından' (from a distance of)",
+    "Psyche is 'Mars'ın yaklaşık 4600 kilometre yakınından' – altitude wording corrected"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Psyche uzay aracı 2022'de NASA'nın Kennedy Uzay Merkezi'nde fırlatma hazırlıkları sırasında",
+    "kl": "Uzay"
+   }
+  },
   "davies-kanada-verletzt-2026-11-14": {
    "L": {
     "body": [
@@ -1208,6 +1263,27 @@
    ],
    "x": {
     "img.alt": "Kapak görseli: 50+1 kuralı – Lig yönetimi kulüplerin oylamasını istiyor"
+   }
+  },
+  "dlr-opus3-windturbine-video": {
+   "L": {
+    "body": [
+     "Alman Havacılık ve Uzay Merkezi (DLR), 11 Kasım'da yeni araştırma rüzgar türbini OPUS 3 hakkında kısa bir video yayımladı. Türbin, Krummendeich'taki (Aşağı Saksonya) DLR Rüzgar Enerjisi Araştırma Parkı WiValdi'de bulunuyor ve OPUS 1 ile OPUS 2'den sonra parktaki üçüncü türbin. DLR'ye göre türbinin kurulumu 23 Eylül'de tamamlandı; şu anda devreye alma çalışmaları sürüyor, düzenli araştırma faaliyetinin 2027'nin başında başlaması planlanıyor.",
+     "500 kilovat nominal güce, 50 metre kule yüksekliğine ve şu anda 50 metre rotor çapına sahip olan OPUS 3, bilinçli olarak günümüzdeki birçok türbinden belirgin biçimde daha küçük tutuldu. DLR türbini araştırma amacıyla kendisi tasarladı: Kanatlar, dişli kutusunun parçaları ve kontrol sistemi değiştirilebiliyor ve yeniden birleştirilebiliyor; yeni kontrol algoritmaları işletme sırasında test edilebiliyor. Ticari türbinlerde bu esneklikte bir uygulama mümkün değil.",
+     "OPUS 3'ün, simülasyon, laboratuvar testleri ve büyük endüstriyel tesisler arasındaki boşluğu kapatması hedefleniyor; planlananlar arasında özellikle esnek kanatlarla yapılacak denemeler de var. Araştırmacılar, nasel monte edilmeden önce de kulenin rüzgarda nasıl salındığını ölçtü; verilerin, rüzgar türbinlerinin montajı sırasında ortaya çıkan bu tür durumların daha iyi anlaşılmasına yardımcı olması bekleniyor. Proje yöneticisi Lukas Firmhofer, OPUS 3'ün “rüzgar enerjisi sektörü için yeni teknolojilerin geliştirilmesindeki önemli bir boşluğu kapattığını” söyledi."
+    ],
+    "d": "Aşağı Saksonya'daki WiValdi araştırma parkında, kanatları, dişli kutusu parçaları ve kontrol sistemi değiştirilebilen 500 kilovatlık bir türbin duruyor. Araştırmalar 2027'nin başında başlayacak.",
+    "t": "Yapboz gibi rüzgar türbini: DLR videosu OPUS 3 araştırma türbinini gösteriyor"
+   },
+   "at": "2026-11-14T14:03Z",
+   "h": "82fa1c224740",
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: DLR WiValdi araştırma parkındaki OPUS 1 araştırma rüzgar türbini – yeni OPUS 3 türbini değil"
    }
   },
   "dr-martens-halbjahr-umsatz-stiefel-hitze": {
@@ -1693,6 +1769,32 @@
    "x": {
     "img.alt": "Lewis Hamilton, 2025 İtalya Grand Prix'si sıralama turlarında Ferrari ile (Arşiv fotoğrafı)",
     "kl": "Formula 1"
+   }
+  },
+  "fraunhofer-ilt-ehla-fahrwerk": {
+   "L": {
+    "body": [
+     "Uçakların iniş takımı parçaları, örneğin tekerlek akslarıyla pistonlar ve pimler, aşınır ve korozyona uğrar. Çok fazla malzeme kaybedildiğinde çoğu zaman tek çare parçayı değiştirmek olur; bu da yüksek maliyet, uzun bekleme süreleri ve yüksek kaynak tüketimi anlamına gelir. Aachen'deki Fraunhofer Lazer Teknolojisi Enstitüsü ILT, 12 Kasım'da yaptığı açıklamaya göre bu nedenle LEGATO projesinde yüksek yük altındaki iniş takımı bileşenleri için lazer tabanlı bir onarım zinciri geliştiriyor. Sanayi ortağı Liebherr-Aerospace'tir.",
+     "Çalışmanın özünde, kaybedilen malzemeyi hedefli biçimde yeniden uygulayan aşırı yüksek hızlı lazer kaplama kaynağı (EHLA) yer alıyor. SCaRB adlı birleşik yöntemde lazeri doğrudan bir yüzey haddeleme aleti izliyor ve henüz sıcak olan katmanı işliyor. Bu, yüzeyi pürüzsüzleştiriyor, yüzeye yakın sertliği artırıyor ve uygun koşullarda çekme gerilimlerini basma gerilimlerine dönüştürebiliyor; bu da yorulma dayanımı açısından avantajlı. Bunun ömür üzerindeki etkisi bir sonraki adımda incelenecek. Haddeleme aleti ortak Hegenscheidt-MFD'den geliyor, Fraunhofer IWS ise lazerle uyarılan yüzey dalgalarına dayanan tahribatsız bir muayene yöntemi katkısında bulunuyor.",
+     "İncelenen malzemeler arasında yüksek mukavemetli 300M çeliği ve korozyona dayanıklı 15-5PH çeliği yer aldı. Ekip bir sonraki adımda yöntemi gerçek bileşen geometrilerine ve gerçekçi yüklere uyarlamak istiyor. Uzun vadeli hedef, tek bir bağlamada tarama, kaplama, haddeleme, son işlem ve muayeneden oluşan tam otomatik bir zincir; ILT'ye göre standartlaştırma öncesinde daha fazla geliştirme ve yeterlilik çalışması gerekiyor."
+    ],
+    "d": "Aachen'deki Fraunhofer ILT, aşınmış iniş takımı parçaları için lazerle onarım yöntemi geliştiriyor. Yeni katmanın uygulanması ve haddelenmesi tek bir süreç akışında gerçekleşiyor.",
+    "t": "Değiştirmek yerine onarmak: Fraunhofer lazeri uçak iniş takımı parçalarını onaracak"
+   },
+   "at": "2026-11-14T14:03Z",
+   "h": "3a392df52a35",
+   "rev": [
+    "Teaser: \"Glattwalzen\" (deep rolling/burnishing) was rendered as \"pürüzsüzleştirilmesi\"; the technical term \"haddeleme\" is used in the body, so the teaser is aligned with it.",
+    "Elliptical sentence \"Sanayi ortağı Liebherr-Aerospace.\" has no verb and is unnatural; it is made a complete sentence.",
+    "\"Glättet die Oberfläche\" was rendered as \"düzleştiriyor\" (flattens); \"pürüzsüzleştiriyor\" (smooths) is the correct meaning."
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Aachen'deki Fraunhofer Lazer Teknolojisi Enstitüsü ILT binası"
    }
   },
   "gemini-for-healthcare-kliniken": {
@@ -3074,6 +3176,32 @@
     "img.alt": "Tyson Fury, Aralık 2017'de Kanada'nın Laval kentinde (Arşiv fotoğrafı)"
    }
   },
+  "merz-deutschland-2040-neumuenster-2026-11-14-b1530": {
+   "L": {
+    "body": [
+     "Federal Şansölye Friedrich Merz (CDU), “Almanya 2040” hedef tablosunu her zaman yeterince açıklamadığını kabul etti. CDU Genel Başkanı bunu cumartesi günü Neumünster’de Schleswig-Holstein CDU’sunun eyalet parti kongresinde söyledi; haberi dpa haber ajansı aktardı. 240’tan fazla delege onu alkışlarla karşıladı. Merz, proje hakkında somut yeni ayrıntılar vermedi.",
+     "Şansölye, hızlı ve kalıcı reformlar için destek istedi. “Kısa vadeli iyileştirmelere ihtiyacımız var, ama uzun vadeli değişimlere de ihtiyacımız var” dedi. Merz’e göre ekonomi güçlü bir baskı altında olup insanlar yüksek fiyatlardan muzdaripti. Almanya’nın iyi iş imkânları sunan bir sanayi ülkesi olarak kalması gerektiğini söyledi. Merz, “Bu Almanya 2040 kendiliğinden ortaya çıkmaz” dedi.",
+     "Merz, nesiller arası adalet talep etti ve gençlerin geleceğe yeniden güvenle bakabilmesi gerektiğini belirtti. Almanya’nın gerileme içinde olduğu düşüncesine karşı çıktı: “Gelecek cesaretine ihtiyacımız var.” dpa’nın verdiği bilgiye göre Holstenhallen’in önünde aralarında sendikaların da bulunduğu çeşitli gruplar gösteri yaptı. Gruplar, federal hükümetin emeklilik, çalışma süresi yasası ve sosyal güvenceye ilişkin planlarını protesto etti."
+    ],
+    "d": "Şansölye, Neumünster’deki CDU eyalet parti kongresinde hızlı reformlar çağrısı yaptı ve “gelecek cesareti” istedi. Salonun önünde sendikalar emeklilik ve çalışma süresi planlarını protesto etti.",
+    "t": "Merz hata yaptığını kabul etti: “Almanya 2040” hedef tablosunu yeterince anlatmadı"
+   },
+   "at": "2026-11-14T14:03Z",
+   "h": "f9223675e770",
+   "rev": [
+    "Weekday \"Cumartesi\" should be lowercase per TDK (\"cumartesi\")",
+    "\"Zukunftsmut\" translated inconsistently: \"gelecek cesareti\" vs \"gelecek cesaretine\" – fine, but \"Şansölye ... destek istedi\" is acceptable; \"Federal Şansölye\" should be lowercase \"Federal Şansölye\" is",
+    "Indirect speech: \"insanlar yüksek fiyatlardan muzdarip\" was rendered as plain fact; attribution made explicit"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Friedrich Merz (Arşiv fotoğrafı)"
+   }
+  },
   "metaphor-refantazio-switch-2-test": {
    "L": {
     "body": [
@@ -3114,6 +3242,37 @@
      "Dikkat çekici çizim stili ve müzikler"
     ],
     "rv.score": "Nintendo Life 8/10 · Worthplaying 8,5/10"
+   }
+  },
+  "mv-rot-rot-gruen-weg-frei-2026-11-14-b1530": {
+   "L": {
+    "body": [
+     "Mecklenburg-Vorpommern'de ilk kırmızı-kırmızı-yeşil eyalet hükümetinin önü açıldı. ZDFheute ve dpa'nın haberine göre SPD'nin Güstrow'daki olağanüstü kongresi koalisyon anlaşmasını cumartesi günü oybirliğiyle onayladı. Yeşiller, Stralsund'daki kongrede bir çekimser oyla anlaşmaya evet dedi. Sol Parti ise cuma günü yeşil ışık yakmıştı.",
+     "“Dayanışma, Güven, Gelecek” (Zusammenhalt, Zuversicht, Zukunft) başlıklı 133 sayfalık anlaşmanın cumartesi akşamı Greifswald'da imzalanması planlanıyor. 2017'den beri görevde olan eyalet başbakanı Manuela Schwesig (SPD), pazartesi günü eyalet meclisinde yeniden seçilmek istiyor. İttifakın mecliste 71 sandalyenin 39'u var. Tek muhalefet partisi, 32 milletvekiliyle AfD; parti 20 Eylül'deki eyalet seçiminde en güçlü parti olmuştu.",
+     "Schwesig, Güstrow'daki delegelere yaptığı konuşmada “SPD, Yeşiller ve Sol Parti'nin bu koalisyonuyla AfD ile iş birliği olmayacak ve olamaz” dedi. SPD beş bakanlığı ve Başbakanlık Dairesi başkanlığını, Sol Parti iki bakanlığı, Yeşiller ise bir bakanlığı alıyor. Yeşiller siyasetçisi Claudia Müller'in çevre, doğa, iklim koruma, enerji, ulaşım ve eşitlik bakanı olması öngörülüyor. Müller, Stralsund'da “Üç ortağın en küçüğü olarak neler elde ettiğimizle gerçekten gurur duyuyorum” dedi."
+    ],
+    "d": "Sol Parti'nin ardından SPD ve Yeşiller de Mecklenburg-Vorpommern'deki ittifaka onay verdi. Akşam Greifswald'da imza atılacak, Schwesig pazartesi günü eyalet meclisinde yeniden seçilmek istiyor.",
+    "t": "Schwerin'de kırmızı-kırmızı-yeşil koalisyona onay: SPD ve Yeşiller anlaşmayı kabul etti"
+   },
+   "at": "2026-11-14T14:03Z",
+   "h": "467112642e22",
+   "rev": [
+    "Typo 'mmecliste' in paragraph 2",
+    "German-style quotation marks „…“ around the title in paragraph 2 replaced with Turkish-appropriate quotes, and the untranslated German title is kept as proper title with translation",
+    "Wording 'Dayanışma, Güven, Gelecek' is fine; 'Zusammenhalt' remains only as the title's original",
+    "Sentence about AfD: 'sie war ... stärkste Kraft geworden' reads as attached to the number; make clearer",
+    "'Tek muhalefet partisi' lacks the verb/clarity; fix sentence",
+    "'Eyalet Başbakanı' should be lowercase mid-sentence",
+    "Headline 'kırmızı-kırmızı-yeşil' is a literal rendering; 'kırmızı-kırmızı-yeşil' is understandable but Turkish press uses 'kırmızı-kırmızı-yeşil'; left as is",
+    "Missing 'noch' nuance: 'akşam' in teaser is fine"
+   ],
+   "rev_dbg": [
+    8,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Eyalet meclisinin merkezi Schwerin Sarayı (Arşiv fotoğrafı)"
    }
   },
   "nba-spurs-elfter-sieg-castle-warriors-2026-11-14": {
@@ -3194,6 +3353,34 @@
    ],
    "x": {
     "img.alt": "Tijjani Reijnders (Arşiv fotoğrafı)"
+   }
+  },
+  "norwegen-wales-haaland-oslo-nations-league-2026-11-14-b1530": {
+   "L": {
+    "body": [
+     "Uluslar Ligi'nde bugün Almanya saatiyle 18:00'de Oslo'daki Ullevaal Stadyumu'nda Norveç ile Galler karşı karşıya geliyor. İki takımın da grubunda üç puanı var, Norveç ikili averaj nedeniyle sonuncu sırada. İki takımın da çeyrek final şansını koruması için galibiyete ihtiyacı var. Norveç son üç grup maçını kaybetti.",
+     "Dikkatler, 20 maçta attığı 22 golle Uluslar Ligi tarihinin en çok gol atan oyuncusu olan Erling Haaland'da. Ekim ayında Cardiff'te oynanan ve Galler'in 2-1 kazandığı ilk maçta gol atamadı. Galler teknik direktörü Craig Bellamy, “Bu, bireysel değil, kolektif bir sorumluluk” dedi. “Cardiff'te Norveç'e karşı yaptığımız burada yetmeyecek.”",
+     "Bellamy, uyluk sakatlığı sonrasında Ağustos'tan bu yana yalnızca iki dakika forma giymiş olmasına rağmen savunmacı Joe Rodon'u Haaland'a karşı ilk dakikadan oynatmak istiyor. Cezalı olan Ben Cabango ve Sorba Thomas kadroda yok. Galler, Norveç'te oynadığı beş deplasman maçının hiçbirini kazanamadı."
+    ],
+    "d": "Norveç, Uluslar Ligi'nde saat 18:00'de Galler'i ağırlıyor. İki takımın da üç puanı var ve galibiyete ihtiyaçları var. Galler teknik direktörü Craig Bellamy, Haaland'a karşı savunmayı bir takım işi olarak tanımlıyor.",
+    "t": "Oslo'da küme düşme düellosu: Galler Haaland'ı durdurmak istiyor, Bellamy Rodon'a güveniyor"
+   },
+   "at": "2026-11-14T14:03Z",
+   "h": "9816af0f9965",
+   "rev": [
+    "Headline: 'dibe oynayanların maçı' is an unnatural rendering of 'Kellerduell'; the headline is also well over the sensible length, so it was shortened to a natural wording",
+    "Teaser: 'Haaland'a karşı savunmayı takım işi olarak niteliyor' is clumsy; reworded",
+    "Body 1: 'aralarındaki maç sonucu' should be 'averaj' (direct comparison), clearer",
+    "Body 2: 'en golcü ismi' should be 'en çok gol atan oyuncusu'",
+    "Body 3: 'obwohl' (although) was lost; the draft turned it into a plain relative clause, so the contrast was restored; the injury is a thigh injury, and the 'since August only two minutes' is a result "
+   ],
+   "rev_dbg": [
+    5,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Oslo'daki Ullevaal Stadyumu (Arşiv fotoğrafı)"
    }
   },
   "nvidia-arm-haas-nachfolge-huang-2026-11-14-b11": {
@@ -3384,6 +3571,68 @@
     "img.alt": "Viddal Riley antrenmanda (Arşiv fotoğrafı)"
    }
   },
+  "rub-drohne-brueckenpruefung": {
+   "L": {
+    "body": [
+     "Bochum Ruhr Üniversitesi'nden (RUB) bir ekip, beton köprülerdeki çatlakları tespit eden otonom bir dron geliştiriyor. Üniversite bunu 12 Kasım'da duyurdu. Arka plan: Almanya'da her yıl binlerce köprünün denetlenmesi gerekiyor; bunların birçoğu 1960'lı ile 1980'li yıllar arasında inşa edildi. Denetçiler şimdiye kadar yerinde çoğunlukla mandallı not tahtası ve kamerayla çalışıyor. İnşaat bilişimcisi Patrick Herbers'e göre bu yöntem zahmetli ve hataya açık.",
+     "Dronun çapı 23 santimetre; bu nedenle birçok köprünün dar kutu kesitleri için yeterince küçük. İlk prototip yalnızca sekiz santimetreydi, ancak sadece beş ila altı dakika uçabiliyordu. İç mekânda GPS çalışmadığı için dron SLAM yöntemiyle yön buluyor: Çevresinin haritasını çıkarırken aynı anda konumunu da belirliyor. Dronda bulunan bir görüntü tanıma sistemi, çekilen görüntüleri piksel piksel çatlaklar açısından denetliyor. Herbers'e göre çatlaklar yaklaşık 0,2 ila 0,3 milimetre genişlikten itibaren kritik hale geliyor.",
+     "“Dronumuz rotasını kendisi planlıyor ve sonuçları doğrudan bir SD karta kaydediyor” diyor Kontrol Tekniği ve Sistem Teorisi Kürsüsü'nden Dr. Raphael Dyrska. Dron şu anda RUB'un ZESS merkezindeki bir uçuş laboratuvarında test ediliyor; sırada gerçek bir köprüde kullanım planlanıyor. Dronun insan denetçilerin yerini almayacağı, onlara destek olacağı belirtiliyor: Kritik noktaları işaretliyor, nihai değerlendirme insanda kalıyor."
+    ],
+    "d": "Bochum Ruhr Üniversitesi'nin 23 santimetrelik dronunun, beton köprülerin dar kutu kesitlerinde kendi başına uçarak kılcal çatlakları bulması hedefleniyor; köprü denetçilerine yardımcı olacak.",
+    "t": "Mini dron köprülerin içine uçuyor: Bochum ekibi betondaki çatlakları buluyor"
+   },
+   "at": "2026-11-14T14:03Z",
+   "h": "70d336e842e7",
+   "rev": [
+    "Headline: 'spürt auf' rendered as 'arıyor' (is searching) instead of finding/detecting",
+    "Teaser: 'Mini-Drohne' size and 'Hohlkästen' fine, but 'ataç tutacaklı not tahtası' is a clumsy rendering of 'Klemmbrett'",
+    "Last paragraph: 'soll ... unterstützen' is a statement of intent; the draft's 'belirtiliyor' is acceptable but 'Ruhr Üniversitesi' name order is unnatural",
+    "Name order: 'Bochum Ruhr Üniversitesi' should be 'Bochum Ruhr Üniversitesi' - kept; 'Lehrstuhl für Regelungstechnik und Systemtheorie' fine"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Bochum Ruhr Üniversitesi kampüsünün havadan görünümü (2014)"
+   }
+  },
+  "rudern-kurzhantel-richtig-ausfuehren-2026-11-14": {
+   "L": {
+    "body": [
+     "Birçok antrenman programı, esas olarak göğsü ve omuzların ön kısmını çalıştıran şınav veya bench press gibi itme egzersizlerine dayanır. Dambılla öne eğilerek kürek çekme ise bunun karşıt kutbunu oluşturur: Mayo Clinic'te spor hekimi olan Edward Laskowski, kliniğin bir uygulama videosunda, bu egzersizin diğer kasların yanı sıra omzun arkasındaki deltoid kasının arka kısmını çalıştırdığını söylüyor. Laskowski'ye göre birçok kişi omzun ön kısmına odaklanıyor; hedefin ise omuz kaslarının dengede olması olduğunu belirtiyor. Fizyoterapi platformu Physitrack'e göre ayrıca geniş sırt kası, rhomboid kaslar, trapez kası, pazı kası (biseps) ve gövde kasları da devreye giriyor.",
+     "Mayo Clinic'in talimatına göre temel hareket şöyle yapılıyor: Bir elinize bir dambıl alın, ayakları yaklaşık omuz genişliğinde açın, karın kaslarını sıkın, dizleri bükün ve kalçadan öne doğru eğilin – sırt düz kalacak şekilde. Kol, omzun hemen altında dik biçimde sarkar. Ardından ağırlığı yavaşça, dirsek omuz hizasının hemen altına gelene kadar kaldırın ve aynı yavaşlıkla yeniden indirin; çalışma omzun arkasında ve üst sırtta hissedilir. Physitrack daha dengeli bir varyasyonu şöyle anlatıyor: Boştaki el ve aynı taraftaki diz bir sıraya dayanır, kürek kemikleri birbirine yaklaştırılır ve dambıl yandan göğüs kafesine doğru çekilir. Barın göbeğe doğru çekildiği uzun halter versiyonunu ise ABD'li fitness kuruluşu ACE ileri düzey için bir egzersiz olarak sınıflandırıyor.",
+     "Tipik hatalar şunlar: yuvarlak sırt, öne doğru kayan omuz – Mayo talimatı buna karşı açıkça uyarıyor –, kontrollü hareket yerine ivme kullanmak ve fazla ağır bir ağırlık; Physitrack'e göre yeni başlayanlar hafif başlamalı. Mayo Clinic'in bilgilerine göre çoğu kişi için, kasları sonunda yoracak bir ağırlıkla 12 ila 15 tekrarlık bir set yeterli. Klinik, tüm büyük kas grupları için haftada en az iki kez kuvvet antrenmanı öneriyor. Sırt veya omuz ağrısı olanlar, antrenmandan önce hangi egzersizlerin uygun olduğunu doktora ya da fizyoterapiste danışarak netleştirmeli."
+    ],
+    "d": "Öne eğilerek kürek çekme, üst sırtı ve omuzların arka kısmını güçlendirir – şınav ve itme egzersizlerine karşı bir denge unsuru. Önemli olan düz bir sırt ve sakin hareketlerdir.",
+    "facts": [
+     "Çalışan kaslar: arka omuz, üst sırt, geniş sırt kası, pazı kası (biseps), gövde",
+     "Uygulama: kalçadan eğilin, sırt düz, karın sıkı, dambılı yavaşça omuz hizasının hemen altına kadar çekin",
+     "Sık yapılan hatalar: yuvarlak sırt, öne kayan omuz, ivme, fazla ağırlık",
+     "Hacim: çoğu kişi için 12 ila 15 tekrarlık bir set (Mayo Clinic)"
+    ],
+    "t": "Dambılla kürek çekme: Egzersiz nasıl doğru yapılır, tipik hatalar neler"
+   },
+   "at": "2026-11-14T14:03Z",
+   "h": "a11432a6e671",
+   "rev": [
+    "Indirect speech: the Laskowski sentence about the goal of muscle balance should be reported as his statement; 'hedef ... olmalı' changed to a reported form.",
+    "Meaning: 'Gewicht ... bis Ellbogen knapp unter Schulterhöhe' is fine; 'dayanır' for supporting hand and knee is fine.",
+    "Wrong spelling of foreign term: 'Kurzhalter' is German; Turkish is 'dambıl'.",
+    "'Bench press' replaced by the Turkish term 'bench press' is acceptable; 'barbell' → 'halter (uzun bar)' for Langhantel.",
+    "Heading: 've tipik hatalar' reads less naturally."
+   ],
+   "rev_dbg": [
+    5,
+    7,
+    0
+   ],
+   "x": {
+    "img.alt": "Üst sırt için kürek çekme egzersizinin illüstrasyonu (Sembolik fotoğraf)",
+    "kl": "Kuvvet antrenmanı ve kas geliştirme"
+   }
+  },
   "schwarzer-tod-pest-europa-1347-2026-11-14": {
    "L": {
     "body": [
@@ -3429,6 +3678,36 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Belfast'taki Seasalt Cornwall mağazası (2019)"
+   }
+  },
+  "selenskyj-usa-donbas-gegen-nato-beitritt-2026-11-14-b1530": {
+   "L": {
+    "body": [
+     "Ukrayna Devlet Başkanı Volodymyr Zelenskyy'nin verdiği bilgiye göre ABD'li müzakereciler, Ukrayna'nın NATO üyeliği karşılığında Donbas'tan çekilebileceği fikrini ortaya attı. Zelenskyy gazetecilere yaptığı açıklamada, Amerikalıların Ukrayna NATO'ya katılırsa ne olacağını ve bu durumda Donbas'ı boşaltıp boşaltmayacağını sorduklarını söyledi. Reuters haber ajansının aktardığına göre Zelenskyy'nin ofisi açıklamaları cumartesi günü yayımladı. Zelenskyy'ye göre müzakerelerde NATO üyeliği ilk kez toprak tavizleriyle ilişkilendirildi.",
+     "Zelenskyy, Kiev'in toprak vermeye hazır olmadığını vurguladı. Bir toprak düzenlemesini ancak Ukrayna güvenlik garantileri, güçlü ve finanse edilen bir ordu ile yeniden imar için para içeren kapsamlı bir paket alırsa halk oylamasına sunacağını belirtti. İrlanda yayıncısı RTÉ'ye göre Zelenskyy, böyle bir kararı tek başına veremeyeceğini söyledi. Reuters'ın notuna göre Kremlin lideri Vladimir Putin, Ukrayna'nın NATO üyeliğini uzun zamandır kırmızı çizgi olarak nitelendiriyor.",
+     "ABD'nin arabuluculuğunda Rusya ile Ukrayna arasında Abu Dabi'de yürütülen görüşmeler çarşamba günü büyük bir atılım olmadan sona erdi; 1.000'den fazla kişiyi kapsayan bir esir takası üzerinde anlaşıldı. ABD'li temsilciler Steve Witkoff ve Jared Kushner, perşembe günü Moskova'da Putin ile yapacakları görüşmede enerji alanında bir ateşkesi gündeme getirmeyi vaat etmişti. Zelenskyy, herhangi bir ilerlemeden haberi olmadığını söyledi: “Putin şahsen ateşkesi desteklemiyor.”"
+    ],
+    "d": "Zelenskyy, görüşmelerde ilk kez NATO üyeliğinin toprak tavizleriyle ilişkilendirildiğini söyledi. Kiev toprak vermeye hazır değil; referandumu ancak kapsamlı bir paket olursa mümkün görüyor.",
+    "t": "Zelenskyy: ABD, NATO üyeliği karşılığında Donbas'tan çekilme fikrini gündeme getirdi"
+   },
+   "at": "2026-11-14T14:03Z",
+   "flag": [
+    "Zahlen fehlen oder weichen ab: 1000"
+   ],
+   "h": "547380cb9349",
+   "rev": [
+    "Headline 'Zelenskyy: ABD ... gündeme getirdi' is acceptable; no change.",
+    "Last sentence of paragraph 1: 'Zelenskyy'ye göre ... ilişkilendirilmişti' – pluperfect; adjusted to 'ilişkilendirildi' to match the German reported statement (it was the first time).",
+    "'1.000'den fazla kişiyi' – German 'mehr als 1000 Menschen'; fine.",
+    "Paragraph 3: Witkoff and Kushner 'zugesagt' – fine."
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Volodymyr Zelenskyy (Arşiv fotoğrafı)"
    }
   },
   "serbien-deutschland-1-3-endspiel-niederlande-2026-11-14-b08": {
@@ -3735,6 +4014,34 @@
     "kl": "Ruh sağlığı"
    }
   },
+  "tesla-cybercab-bestellungen-abo-2026-11-14-b1530": {
+   "L": {
+    "body": [
+     "Tesla, Cybercab için bireysel kullanıma yönelik siparişleri açtı – şimdilik yalnızca davet edilen “seçilmiş müşteriler” için. Direksiyonu ve pedalı olmayan iki kişilik aracın vergi öncesi fiyatı 29.990 dolar; buna iade edilmeyen 1.000 dolarlık ön ödeme de ekleniyor. Ayrıca ayda 299 dolarlık bir “Autonomy” aboneliği zorunlu. Sipariş sayfasına göre teslimatlar Aralık ayında Austin'de başlayacak.",
+     "Araç yalnızca Tesla'nın robotaksi bölgelerinde kullanılabiliyor: Texas'ta Austin, Dallas, Houston, Fort Worth ve San Antonio'da, Florida'da ise Miami, Orlando ve Tampa'da. Electrek sitesi, yalnızca abonelik için yıllık 3.588 dolar hesaplıyor. YouTuber Marques Brownlee'nin eleştirisinin ardından Tesla CEO'su Elon Musk, X'te şunu kabul etti: “But the monthly fee is too high.” Musk, ücretin diğer modellerdeki FSD ve bağlantı maliyetlerine göre belirlenmesi gerektiğini söyledi; bir zaman çizelgesi vermedi.",
+     "Ruhsat konusu hâlâ belirsiz: ABD Ulusal Karayolu Trafik Güvenliği İdaresi (NHTSA), Tesla'dan fren pedalı olmayan bir aracın federal standartları karşıladığını yeminli beyanla ortaya koymasını istedi. Tesla 30 Ekim'de yanıt verdi ve gizli işlem görmesini talep etti; karar bekleniyor. Tesla hisseleri cuma günü normal işlem saatlerinde yüzde 2'ye yakın değer kaybetti."
+    ],
+    "d": "Tesla, direksiyonsuz robotaksisini seçilmiş müşterilere satıyor – yalnızca Texas ve Florida'daki robotaksi bölgelerinde ve ayda 299 dolarlık zorunlu abonelikle kullanılabiliyor.",
+    "t": "Cybercab 29.990 dolara: Tesla siparişleri açtı – Musk abonelik ücretini çok yüksek buldu"
+   },
+   "at": "2026-11-14T14:03Z",
+   "h": "b2f85f54328f",
+   "rev": [
+    "Teaser: \"Robotaksi bölgelerinde\" capitalised unnecessarily (common noun)",
+    "Body: \"Robotaksi bölgelerinde\" capitalised unnecessarily",
+    "Musk quote: \"But\" is ok; indirect speech keeps attribution – fine",
+    "Musk's fee remark: \"belirlenmeli\" is acceptable but \"belirlenmesi gerektiğini söyledi\" is more faithful as reported speech",
+    "\"bir takvim açıklamadı\" – better \"zaman çizelgesi vermedi\""
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Tesla Cybercab (Arşiv fotoğrafı)"
+   }
+  },
   "tn-fritz-musetti-stockholm-finale-tirante-2026-11-14": {
    "L": {
     "body": [
@@ -3792,6 +4099,35 @@
     "kl": "Tenis"
    }
   },
+  "trakia-unglueck-13-tote-2026-11-14-b1530": {
+   "L": {
+    "body": [
+     "Bulgaristan'daki Trakia otoyolunda meydana gelen zincirleme kazalarda ölenlerin sayısı 13'e yükseldi. Devlet televizyonu BNT'nin cumartesi günü bildirdiğine göre, Elhovo'dan 42 yaşındaki bir adam Burgas'taki “Deva Mariya” Üniversite Hastanesi'nde ağır yaralarına dayanamayarak hayatını kaybetti. Birkaç gün önce Sliven'deki hastanede de bir yaralı ölmüştü. Başbakan Rumen Radev, kazanın hemen ardından 11 ölü ve 48 yaralıdan söz etmişti.",
+     "Kazalar, 10 Kasım Salı sabahı saat 7'den kısa süre sonra, Yambol bölgesinde Simnitsa otoyol kavşağı yakınlarında 289. kilometrede yoğun sis altında meydana geldi. Nbox portalının bildirdiğine göre 86 araç kazaya karıştı, bunların arasında 20'den fazla kamyon var; toplam 51 kişi yaralandı. Habere göre Burgas'ta iki hasta hâlâ yaşamsal tehlike altında, Sliven'de 16 kişi, Yambol'da beş kişi tedavi görüyor.",
+     "Soruşturmayı Ulusal Soruşturma Dairesi yürütüyor. BNT'ye göre soruşturmacı Yasen Todorov, henüz öne çıkan bir senaryo olmadığını, tüm olasılıkların incelendiğini söyledi. Todorov'a göre soruşturma sanıksız sonuçlanabileceği gibi birden fazla şüpheliyle de sonuçlanabilir. Kazaya karışan kamyonun sürücüsü hakkında şu ana kadar iddianame için yeterli delil bulunmadığını belirten Todorov, bilirkişi raporlarının henüz gelmediğini ve soruşturmacıların yeni tanıkların başvurmasını istediğini ifade etti."
+    ],
+    "d": "Yambol yakınlarında sisli havada yaşanan zincirleme kazaların dört gün sonrasında 42 yaşındaki bir adam Burgas'taki bir hastanede öldü. Aynı hastanedeki iki yaralı daha hâlâ yaşamsal tehlike altında.",
+    "t": "Trakia otoyolundaki kaza: Ölü sayısı 13'e yükseldi – Soruşturmacılar yeni tanık arıyor"
+   },
+   "at": "2026-11-14T14:03Z",
+   "h": "72e6ffac9954",
+   "rev": [
+    "Teaser: \"dört gün ardından\" is ungrammatical, should be \"dört gün sonra\"; \"sisli havadaki\" is awkward",
+    "Teaser: \"Diğer iki yaralı\" loses \"weitere\" (two more injured) and \"dort\" (in Burgas)",
+    "Headline: \"Müfettişler\" is an unnatural rendering of Ermittler, should be \"Soruşturmacılar\"; \"Trakya\" inconsistent with \"Trakia\" in body",
+    "Body 1: \"Birkaç gün önce\" fine; \"Trakia otoyolunda\" fine",
+    "Body 3: \"yeni tanıkları başvurmaya çağırdığını\" ungrammatical; should be \"yeni tanıkların başvurmasını istediğini\"",
+    "Body 3: \"bilirkişi raporlarının henüz beklendiğini\" is imprecise; should say reports are still pending"
+   ],
+   "rev_dbg": [
+    6,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Trakia otoyolu (Sembolik fotoğraf)"
+   }
+  },
   "tripwire-interactive-entlassungen": {
    "L": {
     "body": [
@@ -3838,6 +4174,34 @@
    "x": {
     "img.alt": "Arşiv fotoğrafı: Shenzhen silüeti",
     "kl": "ABD"
+   }
+  },
+  "tugraz-spuerroboter-video": {
+   "L": {
+    "body": [
+     "Graz Teknik Üniversitesi (TU Graz), 5 Kasım'da YouTube kanalında, ORF'nin “Wissenswert” serisine ait ve tespit robotunu konu alan bir yayın paylaştı. TU Graz'a göre robot, tehlikeli maddeleri “koklayabiliyor” ve müdahalelerde öncü olarak destek verebiliyor. Robot, TU Graz'ın koordine ettiği ve Avusturya Araştırma Teşvik Kurumu FFG tarafından desteklenen bir potansiyel analizi olan DETECTION ROBOTS projesinde incelendi.",
+     "Teknik açıdan robot, itfaiyelerin halihazırda kullandığı gaz ölçüm cihazlarıyla birleştirilmiş, kompakt, uzaktan kumandalı ve dört bacaklı bir yürüyen robot. Kirletici konsantrasyonlarını ölçüyor ve değerleri kamera görüntüleriyle birlikte gerçek zamanlı olarak aktarıyor; bunun için uydu navigasyonuna ya da harici bir iletişim altyapısına ihtiyaç duymuyor. Üniversitenin verdiği bilgiye göre, büyük kirletici tatbikatlarında testler hareket kabiliyeti, kullanım kolaylığı ve etkinlik açısından çok umut verici geçti.",
+     "Projeye diğer kurumların yanı sıra Disaster Competence Network Austria ile Štayermark ve Yukarı Avusturya eyalet itfaiye birlikleri de katıldı. Uzmanlar, bu tür robotların itfaiyenin kirletici maddeler özel birimlerine dahil edilmesini ve eğitimin buna göre uyarlanmasını öneriyor. Uzmanlar, ölçüm cihazlarının dijitalleştirilmesinde ve ucuz yürüyen robotların koruma sınıfında iyileştirme gerektiğini belirtiyor."
+    ],
+    "d": "TU Graz'da test edilen yürüyen robot, tehlikeli madde müdahalelerinde kirleticileri ölçüyor; değerleri ve kamera görüntülerini gerçek zamanlı aktarıyor – ekipler henüz koruyucu donanımlarını giyerken.",
+    "t": "İtfaiyenin öncüsü robot: TU Graz videosu dört bacaklı tespit robotunu gösteriyor"
+   },
+   "at": "2026-11-14T14:03Z",
+   "h": "686a108b73c0",
+   "rev": [
+    "Untranslated German word \"Steiermark\" should be \"Štayermark\" in Turkish, i.e. \"Steiermark\" → \"Styria (Štayermark)\"; the common Turkish form is \"Steiermark/Štayermarkt\", so use \"Štayermark\"",
+    "German quote marks „…“ are not the Turkish convention; use “…”",
+    "\"kompakt\" is a Turkish word already; no change needed",
+    "\"Kirletici\" for Schadstoff is acceptable",
+    "\"Schadstoffübungen\" and \"Schadstoff-Sondereinheiten\" are kept as in the draft"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: TU Graz'ın Inffeldgasse kampüsündeki bina – tespit robotu değil"
    }
   },
   "u21-deutschland-belgien-1-2-essen-2026-11-14-b11": {
@@ -4004,6 +4368,40 @@
    "x": {
     "img.alt": "İnsan beyninin renkli anatomik modeli (sembolik fotoğraf)",
     "kl": "Beyin ve Beden"
+   }
+  },
+  "video-mayo-sport-im-winter-2026-11-14": {
+   "L": {
+    "body": [
+     "Kışın dışarıda kendinizi riske atmadan nasıl antrenman yapılır? Mayo Clinic'in Şubat 2018'de yayımladığı “Mayo Clinic Minute” serisinden bir video bu soruyu yanıtlıyor. ABD'deki kliniğin spor hekimi Sara Filmalter videoda üç öneride bulunuyor. Birincisi: koşulları bilmek. Soğuk ya da sıcak havayı yanlış tahmin edenlerin sorun yaşayacağını söyleyen Filmalter, bu nedenle önceden hava durumuna bakılmasını ve hissedilen sıcaklığı düşüren rüzgârın da hesaba katılmasını öneriyor. İkincisi: katmanlı giyinmek. Filmalter'e göre kışın insan hem fazla ince hem de fazla sıcak giyinebilir; birkaç kat giyildiğinde zamanla bir şeyler çıkarılabilir. Kulaklar, eller ve burun örtülmeli, çünkü donma çoğunlukla ilk orada görülüyor. Üçüncüsü: su içmek. Filmalter'e göre fark edilmese de insan kıyafetlerinin altında terliyor ve sıvı kaybediyor; bu kayıplar küçümsenmemeli. Filmalter, antrenmandan sonra hızla sıcak bir yere girilmesini öneriyor, çünkü ciltteki ter vücudu çabucak soğutuyor.",
+     "Mayo Clinic spor hekimliği birimi katmanlı giyinme ilkesini daha ayrıntılı anlatıyor: içte pamuk yerine sentetik liften ince bir fonksiyonel katman, üstünde polar ya da yün, dışta su geçirmez, nefes alabilen bir ceket. Birimin bilgisine göre hissedilen sıcaklık eksi 28 derecenin altındayken açıkta kalan ciltte donma 30 dakika içinde oluşabilir; eksi 18 derecenin altında ya da çok şiddetli rüzgârda ise kapalı alanda antrenman yapmak düşünülmeye değer olabilir. Hipotermi belirtileri şiddetli titreme, peltek konuşma, koordinasyon sorunları ve bitkinliktir; bu durumda hemen yardım çağrılmalı. Karanlıkta yansıtıcı kıyafetler, buzda ve karda ise tabanı iyi tutuş sağlayan ayakkabılar yardımcı olur.",
+     "Bağımsız bir değerlendirmeyi Harvard Tıp Fakültesi'nin sağlık yayınevi Harvard Health Publishing sunuyor: Soğuk damarları daraltıyor, kalp daha fazla çalışmak zorunda kalıyor. Kalp, akciğer ya da denge sorunu olanların bu nedenle soğukta antrenmandan önce nelerin mümkün olduğunu doktora danışması gerektiği belirtiliyor. Özellikle yaşlılara yavaş ısınmaları öneriliyor – örneğin yaklaşık beş dakika sakin yürümek ya da olduğu yerde yürümek – ve göğüs ağrısı, nefes darlığı, titreme ya da aşırı yorgunlukta antrenmanı hemen bırakıp yardım istemeleri tavsiye ediliyor. Harvard Health, aşırı soğukta, yağmurda, karda ya da buzda kapalı alanda antrenman yapmayı öneriyor."
+    ],
+    "d": "Havayı kontrol etmek, kat kat giyinmek, yeterince su içmek: spor hekimi Sara Filmalter, soğuk mevsimde açık havada antrenman yaparken nelere dikkat edilmesi gerektiğini anlatıyor.",
+    "facts": [
+     "Video: “Mayo Clinic Minute”, Mayo Clinic, Şubat 2018",
+     "Uzman: Sara Filmalter, Mayo Clinic spor hekimi",
+     "Üç ipucu: hava durumunu ve rüzgârı kontrol etmek, katmanlı giyinmek, yeterince su içmek",
+     "Dikkat: kalp, akciğer ya da denge sorunlarında önceden doktora danışın"
+    ],
+    "t": "Video: Kışın spor – Mayo Clinic spor hekiminden üç ipucu"
+   },
+   "at": "2026-11-14T14:03Z",
+   "h": "e049657eecc6",
+   "rev": [
+    "Teaser'da emir kipi (kontrol et, giyin, iç) kullanılmış; haber dilinde isim-fiil kalıbı daha doğal.",
+    "Üçüncü paragrafta 'Hipotermi belirtileri...' cümlesi doğru, değişiklik gerekmedi; ‘soğuk ısırığı’ yerine Türkçede yerleşik 'donma' kullanılmalı.",
+    "'Auch wenn man es kaum merkt' cümlesinde atıf var, doğru.",
+    "Harvard Health Publishing'in 'Medical School' adı 'Harvard Tıp Fakültesi' olarak doğru; değişiklik yok."
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Karla kaplı bir yolda koşan kadın (Sembolik fotoğraf)",
+    "kl": "Antrenörler anlatıyor"
    }
   },
   "wallstreet": {
@@ -4435,6 +4833,33 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Erdoğan, Katar Emiri Tamim ve diğer devlet ve hükümet başkanları, BM merkezinde ABD Başkanı Trump ile bir toplantıda (2025)"
+   }
+  },
+  "werder-fuellkrug-thioune-verbleib-2026-11-14-b1530": {
+   "L": {
+    "body": [
+     "Werder Bremen, Niclas Füllkrug'u devam eden sezonun ötesinde de kadrosunda tutmak istiyor. “Bence istek her taraftan net biçimde ortada”, diye konuştu teknik direktör Daniel Thioune, Transfermarkt.de'ye verdiği röportajda. Thioune'ye göre kulüp, kendisi ve Füllkrug “yaz sonrasında da birlikte çalışmakla çok ilgileniyor”. 33 yaşındaki oyuncu yaza kadar kiralık olarak Weser kıyısında forma giyiyor.",
+     "Ancak karar yalnızca Bremen'e bağlı değil. Füllkrug'un asıl kulübü, onu 2024'te 27 milyon euroya Borussia Dortmund'dan transfer eden ve şu anda ikinci ligde oynayan West Ham United. “Ve dürüst olmamız gerekirse: Biz neye gücümüz yeter, Niclas neye hazır?”, dedi Thioune. Thioune, geri getirme hamlesinin “her yerde heyecan yaratmadığını” kabul etti.",
+     "Sportif açıdan bu adım şimdiye kadar karşılığını verdi: Füllkrug, dokuz maçta attığı dokuz golle Bundesliga gol krallığı yarışında başta gidiyor. Genel Müdür Klaus Filbry “Bild”e, “sonunda bir transferin gerçekleşebileceği konusunda temkinli biçimde olumlu” olduğunu söyledi. Filbry aynı zamanda West Ham ile birlikte “henüz üçüncü bir önemli tarafın” da işin içinde olduğuna dikkat çekti."
+    ],
+    "d": "Werder Bremen Teknik Direktörü Daniel Thioune, Bundesliga'nın en golcü ismi Niclas Füllkrug'un yaz sonrasında da Bremen'de kalmasını istiyor. Ancak karar West Ham'a da bağlı.",
+    "t": "Werder, Füllkrug'u tutmak istiyor – Thioune: “İstek her taraftan net biçimde ortada”"
+   },
+   "at": "2026-11-14T14:03Z",
+   "h": "fbed81f90663",
+   "rev": [
+    "Typo: 'muktediriz' should be 'muktedir/ne yapabilecek durumdayız' (wrong spelling, unnatural)",
+    "'Teknik Direktörü' capitalisation in running text should be lowercase after name/title use ('Teknik Direktör Daniel Thioune' as common noun)",
+    "Quote mark style: closing quote in headline/body mixes; fine. 'West Ham'a da bağlı' lost 'aber' nuance slightly; kept",
+    "'Bundesliga'nın gol kralı adayı' – German 'Toptorjäger' is current top scorer; 'gol krallığında zirvedeki' more accurate"
+   ],
+   "rev_dbg": [
+    4,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Niclas Füllkrug Werder formasıyla (Arşiv fotoğrafı)"
    }
   },
   "wirtschaft-bulgarien-fiskalrat-gesetz-erste-lesung-2026-11-14": {
