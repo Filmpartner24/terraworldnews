@@ -1,0 +1,383 @@
+{
+ "date": "2026-11-14",
+ "items": [
+  {
+   "id": "gemini-for-healthcare-kliniken",
+   "s": "ai",
+   "time": "12:33",
+   "kl": {
+    "de": "KI-Agent",
+    "bg": "ИИ агент",
+    "en": "AI agent"
+   },
+   "yt": {
+    "id": "uqmXoKOs_o0",
+    "ch": "Google Cloud",
+    "kind": "video",
+    "t": {
+     "de": "Gemini for healthcare",
+     "bg": "Gemini for healthcare",
+     "en": "Gemini for healthcare"
+    }
+   },
+   "src": [
+    {
+     "n": "Google Cloud – Google Cloud Launches Gemini for Healthcare (10.11.2026)",
+     "u": "https://www.googlecloudpresscorner.com/2026-11-10-Google-Cloud-Launches-Gemini-for-Healthcare"
+    },
+    {
+     "n": "The Next Web – Google Cloud launches Gemini for healthcare to take on hospital paperwork (10.11.2026)",
+     "u": "https://thenextweb.com/news/gemini-for-healthcare-google-cloud-ai-agent-launch"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-14/gemini-for-healthcare-kliniken.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Dllu",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tilt_Brush_at_Google_Cloud_Next_2017.jpg",
+    "alt": {
+     "de": "Symbolbild: Messestand auf der Google-Konferenz Cloud Next 2017",
+     "bg": "Символна снимка: щанд на конференцията на Google Cloud Next през 2017 г.",
+     "en": "Symbol image: exhibition stand at Google's Cloud Next conference in 2017"
+    }
+   },
+   "de": {
+    "t": "Weniger Papierkram in Kliniken: Google startet KI-Agenten Gemini for healthcare",
+    "d": "Der Agent liest Patientenakten aus Epic und Oracle Health, prüft Versicherungsleistungen und bereitet Termine vor. Ändern darf er die Akten nicht – das bleibt Ärzten und Pflegekräften vorbehalten.",
+    "body": [
+     "Google Cloud hat Gemini for healthcare vorgestellt, einen KI-Agenten für Krankenhäuser und Krankenversicherer. Er soll Daten aus Patientenakten, Abrechnungssystemen, medizinischen Leitlinien und Daten der US-Behörde CMS zusammenführen und mehrstufige Arbeitsabläufe unter menschlicher Aufsicht erledigen – etwa Akten zusammenfassen, Arztgespräche vorbereiten oder Versicherungsleistungen prüfen. Das Angebot startet als Vorschau in den USA für Kunden von Gemini Enterprise Standard und Plus. Zu den ersten Kunden zählen unter anderem HCA Healthcare, Northwell Health, Optum, Hartford HealthCare und die Stanford School of Medicine.",
+     "Auf die Patientenakten der Anbieter Epic und Oracle Health greift der Agent nur lesend zu; Änderungen an den Akten nehmen weiterhin Ärzte und Pflegekräfte selbst vor. Eine Anbindung an NextGen Healthcare ist in Arbeit. Kunden können Modelle von Google, Anthropic oder OpenAI wählen. Patientendaten bleiben laut Google in der eigenen Cloud-Umgebung des Kunden und werden nicht zum Training der Google-Basismodelle verwendet.",
+     "Google begründet das Angebot mit einer eigenen Umfrage zusammen mit The Harris Poll, nach der medizinisches Fachpersonal fast 28 Stunden pro Woche mit Dokumentation und Verwaltung verbringen. Das offizielle Video von Google Cloud stellt den Agenten vor."
+    ]
+   },
+   "bg": {
+    "t": "По-малко бумащина в болниците: Google пуска ИИ агента Gemini for healthcare",
+    "d": "Агентът чете медицински досиета от Epic и Oracle Health, проверява застрахователни покрития и подготвя прегледи. Промени в досиетата не може да прави – това остава за лекарите и сестрите.",
+    "body": [
+     "Google Cloud представи Gemini for healthcare – ИИ агент за болници и здравни застрахователи. Той трябва да обединява данни от медицински досиета, системи за фактуриране, медицински указания и данни на американската агенция CMS и да изпълнява многостъпкови задачи под човешки надзор – например да обобщава досиета, да подготвя прегледи или да проверява застрахователни покрития. Услугата стартира като предварителна версия в САЩ за клиенти на Gemini Enterprise Standard и Plus. Сред първите клиенти са HCA Healthcare, Northwell Health, Optum, Hartford HealthCare и медицинският факултет на Станфорд.",
+     "Агентът има достъп до досиетата в системите на Epic и Oracle Health само за четене; промените в тях продължават да правят самите лекари и медицински сестри. Връзка с NextGen Healthcare е в процес на разработка. Клиентите могат да избират модели на Google, Anthropic или OpenAI. Според Google данните на пациентите остават в собствената облачна среда на клиента и не се използват за обучение на базовите модели на компанията.",
+     "Google обосновава продукта със собствено проучване с The Harris Poll, според което медицинските специалисти прекарват близо 28 часа седмично в документация и администрация. Официалното видео на Google Cloud представя агента."
+    ]
+   },
+   "en": {
+    "t": "Less hospital paperwork: Google launches AI agent Gemini for healthcare",
+    "d": "The agent reads patient records from Epic and Oracle Health, checks insurance benefits and prepares appointments. It cannot change the records – that stays with doctors and nurses.",
+    "body": [
+     "Google Cloud has unveiled Gemini for healthcare, an AI agent for hospitals and health insurers. It is designed to pull together data from patient records, billing systems, clinical guidelines and data from the US agency CMS, and to carry out multi-step workflows under human oversight – such as summarising records, preparing appointments or checking insurance benefits. It launches as a preview in the US for Gemini Enterprise Standard and Plus customers. Early customers include HCA Healthcare, Northwell Health, Optum, Hartford HealthCare and Stanford School of Medicine.",
+     "The agent has read-only access to patient records from Epic and Oracle Health; changes to the records are still made by doctors and nurses themselves. A connection to NextGen Healthcare is in development. Customers can choose models from Google, Anthropic or OpenAI. According to Google, patient data stays in the customer's own cloud environment and is not used to train Google's foundation models.",
+     "Google justifies the product with its own survey with The Harris Poll, which found that clinicians spend nearly 28 hours a week on documentation and administration. The official Google Cloud video introduces the agent."
+    ]
+   }
+  },
+  {
+   "id": "gento-tianji-roboterhand-corl",
+   "s": "ai",
+   "time": "12:33",
+   "kl": {
+    "de": "Robotik",
+    "bg": "Роботика",
+    "en": "Robotics"
+   },
+   "yt": {
+    "id": "MvGF66f_SXA",
+    "ch": "Tianji Robotics",
+    "kind": "video",
+    "t": {
+     "de": "Marvin Pro – Fixed Force-Controlled Humanoid Dual-Arm Platform",
+     "bg": "Marvin Pro – Fixed Force-Controlled Humanoid Dual-Arm Platform",
+     "en": "Marvin Pro – Fixed Force-Controlled Humanoid Dual-Arm Platform"
+    }
+   },
+   "src": [
+    {
+     "n": "PR Newswire / GENTO – Tianji Intelligence Debuts 21-DoF Dexterous Hand at CoRL 2026 as NVIDIA Demos GR00T 2 on Custom Marvin Pro (10.11.2026)",
+     "u": "https://www.prnewswire.com/news-releases/tianji-intelligence-debuts-21-dof-dexterous-hand-at-corl-2026-as-nvidia-demos-gr00t-2-on-custom-marvin-pro-302934702.html"
+    },
+    {
+     "n": "Robotics & Automation News – GENTO unveils humanoid robot technology and dexterous hand at CoRL 2026 (13.11.2026)",
+     "u": "https://roboticsandautomationnews.com/2026/11/13/why-build-a-humanoid-robot-from-the-sensor-up-the-thinking-behind-gentos-corl-2026-debut/107075/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-14/gento-tianji-roboterhand-corl-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Roboterhand mit 21 Freiheitsgraden – Tianji zeigt Prototyp auf der CoRL",
+     "bg": "Заглавна графика: Роботизирана ръка с 21 степени на свобода – Tianji показва прототип на CoRL",
+     "en": "Title graphic: Robot hand with 21 degrees of freedom – Tianji shows prototype at CoRL"
+    }
+   },
+   "de": {
+    "t": "Roboterhand mit 21 Freiheitsgraden: Chinesische Firma Tianji zeigt Prototyp in Austin",
+    "d": "Auf der Robotik-Konferenz CoRL zeigte die Robotermarke GENTO eine neue Hand und den Zweiarm-Roboter Marvin Pro. Auf einer Sonderversion führte Nvidia sein Robotermodell GR00T 2 vor.",
+    "body": [
+     "Die Robotermarke GENTO des chinesischen Unternehmens Tianji Intelligence hat auf der Robotik-Konferenz CoRL in Austin (Texas, 9. bis 11. November) erstmals öffentlich den Prototyp einer Roboterhand mit 21 Freiheitsgraden gezeigt: fünf im Daumen und je vier in den übrigen Fingern. Nach Firmenangaben wiegt die Hand ohne Kabel 750 Gramm, greift Gegenstände mit bis zu 100 Millimetern Durchmesser, schließt in einer halben Sekunde und ist auf eine Million Greifzyklen ausgelegt. Auf dem Stand war sie nur als Ausstellungsstück zu sehen.",
+     "Im Einsatz zeigte GENTO den Zweiarm-Roboter Marvin Pro mit fester Basis: Er wählt auf gesprochene englische Anweisung einen Gegenstand aus und greift ihn. Eine eigens für Nvidia gebaute Version nutzte der Chipkonzern zur Vorstellung seines Robotermodells GR00T 2, das von Menschen vorgeführte Fähigkeiten auf Roboter übertragen kann – etwa beim Zubereiten von Bananenjoghurt mit zwei Händen.",
+     "Die Angaben zu Hand und Roboter stammen vom Hersteller und wurden nicht unabhängig überprüft. Das offizielle Video von Tianji Robotics stellt die Plattform Marvin Pro vor."
+    ]
+   },
+   "bg": {
+    "t": "Роботизирана ръка с 21 степени на свобода: китайската Tianji показва прототип в Остин",
+    "d": "На конференцията по роботика CoRL марката GENTO показа нова ръка и двуръкия робот Marvin Pro. На специална версия Nvidia демонстрира своя модел за роботи GR00T 2.",
+    "body": [
+     "Марката за роботи GENTO на китайската компания Tianji Intelligence показа за първи път публично на конференцията по роботика CoRL в Остин (Тексас, 9–11 ноември) прототип на роботизирана ръка с 21 степени на свобода: пет в палеца и по четири в останалите пръсти. По данни на компанията ръката тежи 750 грама без кабелите, хваща предмети с диаметър до 100 милиметра, затваря се за половин секунда и е проектирана за един милион цикъла на хващане. На щанда тя беше показана само като експонат.",
+     "В действие GENTO показа двуръкия робот Marvin Pro с неподвижна основа: по устна инструкция на английски той избира предмет и го хваща. Специално изградена за Nvidia версия беше използвана от чиповия концерн за представянето на модела за роботи GR00T 2, който може да пренася умения, демонстрирани от хора, върху роботи – например при приготвяне на бананов йогурт с две ръце.",
+     "Данните за ръката и робота са на производителя и не са проверени независимо. Официалното видео на Tianji Robotics представя платформата Marvin Pro."
+    ]
+   },
+   "en": {
+    "t": "Robot hand with 21 degrees of freedom: Chinese firm Tianji shows prototype in Austin",
+    "d": "At the CoRL robotics conference, the robot brand GENTO showed a new hand and the dual-arm robot Marvin Pro. Nvidia demonstrated its GR00T 2 robot model on a custom version.",
+    "body": [
+     "GENTO, the robotics brand of Chinese company Tianji Intelligence, has publicly shown for the first time a prototype robot hand with 21 degrees of freedom at the CoRL robotics conference in Austin, Texas (9–11 November): five in the thumb and four in each of the other fingers. According to the company, the hand weighs 750 grams without cables, grasps objects up to 100 millimetres in diameter, closes in half a second and is rated for one million grasp cycles. At the booth it was on static display only.",
+     "In action, GENTO showed the fixed-base dual-arm robot Marvin Pro, which picks out and grasps an object on spoken English instructions. A version custom-built for Nvidia was used by the chipmaker to present its GR00T 2 robot model, which can transfer skills demonstrated by humans to robots – for example preparing banana yoghurt with two hands.",
+     "The figures for the hand and robot come from the manufacturer and have not been independently verified. The official Tianji Robotics video introduces the Marvin Pro platform."
+    ]
+   }
+  },
+  {
+   "id": "chatgpt-wallet-dots-einkauf",
+   "s": "ai",
+   "mn": true,
+   "time": "12:33",
+   "kl": {
+    "de": "KI-Agenten",
+    "bg": "ИИ агенти",
+    "en": "AI agents"
+   },
+   "src": [
+    {
+     "n": "TechCrunch – ChatGPT's new Wallet lets AI agents shop and check out for you (13.11.2026)",
+     "u": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"
+    },
+    {
+     "n": "9to5Mac – OpenAI launches ChatGPT Wallet, enabling 'dot' agents to make purchases (13.11.2026)",
+     "u": "https://9to5mac.com/2026/11/13/openai-launches-chatgpt-wallet-enabling-dot-agents-to-make-purchases/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-14/chatgpt-wallet-dots-einkauf.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Artem.G",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ChatGPT_street_art_in_Tel_Aviv.jpg",
+    "alt": {
+     "de": "Symbolbild: Straßenkunst mit ChatGPT-Bezug in Tel Aviv",
+     "bg": "Символна снимка: улично изкуство, свързано с ChatGPT, в Тел Авив",
+     "en": "Symbol image: ChatGPT-themed street art in Tel Aviv"
+    }
+   },
+   "de": {
+    "t": "KI-Agent an der Kasse: OpenAI startet ChatGPT Wallet für Einkäufe",
+    "d": "Die ChatGPT-Agenten „dots“ können jetzt selbst bezahlen – nach Freigabe per Face ID oder Fingerabdruck. Zum Start gilt das nur für einen Teil der Pro-Abonnenten in den USA.",
+    "body": [
+     "OpenAI hat am Freitag (13. November) ChatGPT Wallet gestartet. Damit können die ChatGPT-Agenten, die das Unternehmen „dots“ nennt, Nutzern nicht mehr nur bei der Auswahl von Produkten helfen, sondern den Kauf auch abschließen. Zunächst steht die Funktion einer begrenzten Zahl von ChatGPT-Pro-Abonnenten in den USA ab 18 Jahren zur Verfügung, die eine in den USA ausgegebene Karte von Visa, Mastercard oder American Express hinterlegen.",
+     "Vor jedem Kauf sehen Nutzer Artikel, Gesamtbetrag und Karte und müssen per Face ID oder Fingerabdruck zustimmen. Bezahlt wird mit einem Zahlungs-Token des Kartennetzwerks, das die echten Kartendaten ersetzt – weder der Agent noch der Händler sehen sie. Kartenprämien und Rückbuchungsrechte bleiben laut OpenAI erhalten. Später sollen Ausgabenlimits, Regeln nach Kategorie oder Zeitraum sowie Vorab-Freigaben folgen.",
+     "Grenzen hat das System bei Händlern, die KI-Agenten aussperren. Der größte davon ist laut TechCrunch Amazon, das Kunden auf den eigenen Assistenten Alexa lenkt. OpenAI hat für Händler einen Leitfaden veröffentlicht, wie sie Einkäufe durch Agenten unterstützen können."
+    ]
+   },
+   "bg": {
+    "t": "ИИ агент на касата: OpenAI пуска ChatGPT Wallet за покупки",
+    "d": "Агентите на ChatGPT „dots“ вече могат сами да плащат – след одобрение с Face ID или пръстов отпечатък. В началото това важи само за част от абонатите на Pro в САЩ.",
+    "body": [
+     "OpenAI пусна в петък (13 ноември) ChatGPT Wallet. С него агентите на ChatGPT, които компанията нарича „dots“, вече не само помагат на потребителите да изберат продукти, но и могат да завършат покупката. Първоначално функцията е достъпна за ограничен брой абонати на ChatGPT Pro в САЩ на възраст над 18 години, които добавят карта Visa, Mastercard или American Express, издадена в САЩ.",
+     "Преди всяка покупка потребителите виждат артикулите, общата сума и картата и трябва да потвърдят с Face ID или пръстов отпечатък. Плащането става с платежен токен от картовата мрежа, който замества истинските данни на картата – нито агентът, нито търговецът ги виждат. Според OpenAI бонусите по картите и правата за оспорване на плащания се запазват. По-късно трябва да бъдат добавени лимити на разходите, правила по категория или период и предварителни одобрения.",
+     "Системата има граници при търговци, които блокират ИИ агенти. Най-големият от тях според TechCrunch е Amazon, който насочва клиентите към собствения си асистент Alexa. OpenAI публикува ръководство за търговци как да поддържат покупки чрез агенти."
+    ]
+   },
+   "en": {
+    "t": "AI agent at the checkout: OpenAI launches ChatGPT Wallet for purchases",
+    "d": "ChatGPT's 'dots' agents can now pay on their own – after approval via Face ID or fingerprint. At launch, this is limited to some Pro subscribers in the US.",
+    "body": [
+     "OpenAI launched ChatGPT Wallet on Friday (13 November). It lets ChatGPT's agents, which the company calls 'dots', not only help users choose products but also complete the purchase. Initially, the feature is available to a limited number of ChatGPT Pro subscribers in the US aged 18 and over who add a US-issued Visa, Mastercard or American Express card.",
+     "Before every purchase, users see the items, the total and the card, and must approve with Face ID or a fingerprint. Payment uses a token from the card network that replaces the real card details – neither the agent nor the merchant sees them. According to OpenAI, card rewards and dispute rights are preserved. Spending limits, rules by category or time period and pre-approvals are to follow later.",
+     "The system has limits with retailers that block AI agents. The biggest of these, according to TechCrunch, is Amazon, which steers customers to its own Alexa assistant. OpenAI has published a playbook for retailers on how to support purchases by agents."
+    ]
+   }
+  },
+  {
+   "id": "openai-robotik-team-aufgeloest",
+   "s": "ai",
+   "mn": true,
+   "time": "12:33",
+   "kl": {
+    "de": "Personalien",
+    "bg": "Кадрови промени",
+    "en": "People"
+   },
+   "src": [
+    {
+     "n": "Fortune – OpenAI disbands its stand-alone robotics team as its general-purpose AI models start running robots (13.11.2026)",
+     "u": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-14/openai-robotik-team-aufgeloest.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "TechCrunch",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Disrupt_SF_TechCrunch_Disrupt_San_Francisco_2019_-_Day_2_(48838199806).jpg",
+    "alt": {
+     "de": "Archivbild: OpenAI-Mitgründer Greg Brockman auf der TechCrunch Disrupt in San Francisco (2019)",
+     "bg": "Архивна снимка: съоснователят на OpenAI Грег Брокман на TechCrunch Disrupt в Сан Франциско (2019)",
+     "en": "Archive image: OpenAI co-founder Greg Brockman at TechCrunch Disrupt in San Francisco (2019)"
+    }
+   },
+   "de": {
+    "t": "Umbau bei OpenAI: Robotik-Team aufgelöst – allgemeine KI-Modelle sollen Roboter steuern",
+    "d": "Die Forscher wechseln in die Hauptforschung, Hardware-Leute in die Produktsparte. OpenAI betont, Robotik bleibe Teil der langfristigen Pläne.",
+    "body": [
+     "OpenAI hat sein eigenständiges Robotik-Team aufgelöst und die Mitarbeiter auf andere Bereiche verteilt. Das Unternehmen bestätigte dies dem Wirtschaftsmagazin Fortune. Die Robotik-Forscher gehören nun zur zentralen Forschung unter Forschungschef Mark Chen, die Teams für angewandte Robotik und Hardware zur Produktsparte Applied, die an Präsident Greg Brockman berichtet. Wie viele Menschen betroffen sind, nannte Fortune nicht.",
+     "OpenAI begründet den Schritt damit, dass sich seine allgemeinen KI-Modelle direkt für Roboter einsetzen lassen. In einer Studie von Nvidia erreichte ein Agent mit dem Modell GPT-6 Astra bei einem simulierten Greif-Test eine Erfolgsquote von 74,8 Prozent, die besten spezialisierten Robotermodelle kamen dort auf 51,0 Prozent. Robotik bleibe ein zentraler Teil der langfristigen Vision, so das Unternehmen.",
+     "Laut Fortune steht OpenAI zugleich unter Druck, Kosten zu senken und sich auf Kernprodukte zu konzentrieren. Nach eigenen Angaben entwickelt das Unternehmen weiter einen eigenen humanoiden Roboter, dessen erste öffentliche Vorführung Chef Sam Altman für 2027 anstrebt."
+    ]
+   },
+   "bg": {
+    "t": "OpenAI разпусна екипа си по роботика – общите ИИ модели ще управляват роботи",
+    "d": "Изследователите преминават в основните изследвания, хардуерните екипи – в продуктовото звено. OpenAI подчертава, че роботиката остава част от дългосрочните планове.",
+    "body": [
+     "OpenAI разпусна самостоятелния си екип по роботика и разпредели служителите в други звена. Компанията потвърди това пред бизнес списанието Fortune. Изследователите по роботика вече са част от централните изследвания под ръководството на главния директор по изследванията Марк Чен, а екипите за приложна роботика и хардуер – към продуктовото звено Applied, което се отчита пред президента Грег Брокман. Колко души са засегнати, Fortune не посочва.",
+     "OpenAI обяснява стъпката с това, че общите ѝ ИИ модели могат да се използват директно за роботи. В проучване на Nvidia агент с модела GPT-6 Astra постига 74,8% успеваемост в симулиран тест за хващане на предмети, докато най-добрите специализирани модели за роботи стигат до 51,0%. Според компанията роботиката остава централна част от дългосрочната ѝ визия.",
+     "Според Fortune OpenAI същевременно е под натиск да намали разходите и да се съсредоточи върху основните си продукти. Според самата компания тя продължава да разработва собствен хуманоиден робот, чиято първа публична демонстрация главният изпълнителен директор Сам Алтман цели за 2027 г."
+    ]
+   },
+   "en": {
+    "t": "Shake-up at OpenAI: stand-alone robotics team disbanded as models start running robots",
+    "d": "Researchers move to core research, hardware staff to the product division. OpenAI stresses that robotics remains part of its long-term plans.",
+    "body": [
+     "OpenAI has disbanded its stand-alone robotics team and reassigned its staff to other parts of the company, as it confirmed to Fortune. The robotics researchers now belong to the core research team under Chief Research Officer Mark Chen, while the applied robotics and hardware teams have moved to the Applied organisation, which reports to President Greg Brockman. Fortune did not say how many people are affected.",
+     "OpenAI says the move reflects the fact that its general-purpose AI models can be applied directly to robots. In a study by Nvidia, an agent using the GPT-6 Astra model reached a 74.8 per cent success rate on a simulated manipulation benchmark, while the best specialised robot models scored 51.0 per cent. Robotics remains a core part of its long-term vision, the company said.",
+     "According to Fortune, OpenAI is also under pressure to cut costs and focus on core products. The company says it is still developing its own humanoid robot, with CEO Sam Altman targeting a first public demonstration in 2027."
+    ]
+   }
+  },
+  {
+   "id": "blackwell-chips-chinesische-ki-modelle",
+   "s": "ai",
+   "mn": true,
+   "time": "12:33",
+   "kl": {
+    "de": "Chips",
+    "bg": "Чипове",
+    "en": "Chips"
+   },
+   "src": [
+    {
+     "n": "TechCrunch – Export-banned Nvidia chips are behind China's most powerful AI models (13.11.2026)",
+     "u": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-14/blackwell-chips-chinesische-ki-modelle.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Pronoia",
+    "lic": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jensen_Huang_-_RTX_Blackwell_-_Nvidia_Keynote_-_CES_2025_Las_Vegas_(3).jpg",
+    "alt": {
+     "de": "Archivbild: Nvidia-Präsentation der Blackwell-Chipgeneration auf der CES 2025 in Las Vegas",
+     "bg": "Архивна снимка: представяне на поколението чипове Blackwell на Nvidia на CES 2025 в Лас Вегас",
+     "en": "Archive image: Nvidia presenting its Blackwell chip generation at CES 2025 in Las Vegas"
+    }
+   },
+   "de": {
+    "t": "Spuren in den Modelldaten: Chinas Top-KI soll mit gesperrten Nvidia-Chips trainiert sein",
+    "d": "Ein Ex-OpenAI-Forscher will in offenen Modellen von Moonshot und DeepSeek Hinweise auf Blackwell-Chips gefunden haben. Ein Gesetzesverstoß ist damit nicht belegt.",
+    "body": [
+     "Führende frei verfügbare KI-Modelle chinesischer Firmen sollen zumindest teilweise auf Nvidia-Chips trainiert worden sein, die nicht nach China exportiert werden dürfen. Das berichtet TechCrunch unter Berufung auf eine Analyse von Will DePue, einem früheren OpenAI-Forscher, der die gemeinnützige Organisation Unemployment Labs leitet. Er untersuchte die veröffentlichten Gewichte der Modelle, die Spuren der beim Training genutzten Hardware enthalten.",
+     "Betroffen sind demnach die Kimi-K3-Modelle von Moonshot AI und die V4-Modelle von DeepSeek; auch Modelle von MiniMax und Ant Group wurden untersucht. Sie trügen Merkmale eines Trainings auf Blackwell-Chips, deren Export nach China oder an chinesische Firmen verboten ist. TechCrunch betont: Das heißt weder, dass die Modelle ausschließlich darauf trainiert wurden, noch, dass Gesetze gebrochen wurden – die Chips könnten etwa in Rechenzentren außerhalb Chinas wie in Malaysia stehen. Stellungnahmen der Firmen enthält der Bericht nicht.",
+     "Die Forschungsgruppe Epoch AI schätzt, dass 2024 und 2025 rund zwei Millionen moderne Chips über verschleierte Lieferwege nach China gelangten. Laut TechCrunch hat Nvidia-Chef Jensen Huang das Unternehmen in dieser Woche verlassen."
+    ]
+   },
+   "bg": {
+    "t": "Следи в данните на моделите: топ ИИ от Китай обучен със забранени чипове на Nvidia?",
+    "d": "Бивш изследовател на OpenAI твърди, че е открил в отворени модели на Moonshot и DeepSeek следи от чипове Blackwell. Нарушение на закона с това не е доказано.",
+    "body": [
+     "Водещи свободно достъпни ИИ модели на китайски компании вероятно са били обучени поне отчасти с чипове на Nvidia, които не могат да се изнасят за Китай. Това съобщава TechCrunch, позовавайки се на анализ на Уил Дипю, бивш изследовател в OpenAI, който ръководи организацията с нестопанска цел Unemployment Labs. Той е изследвал публикуваните тегла на моделите, които съдържат следи от хардуера, използван при обучението.",
+     "Според анализа става дума за моделите Kimi K3 на Moonshot AI и V4 на DeepSeek; изследвани са и модели на MiniMax и Ant Group. Те носели белези на обучение с чипове Blackwell, чийто износ за Китай или за китайски компании е забранен. TechCrunch подчертава, че това не означава нито че моделите са обучени изцяло с тях, нито че са нарушени закони – чиповете може да се намират в центрове за данни извън Китай, например в Малайзия. Становища на компаниите в публикацията няма.",
+     "Изследователската група Epoch AI изчислява, че през 2024 и 2025 г. около два милиона модерни чипа са попаднали в Китай по прикрити канали за доставка. Според TechCrunch шефът на Nvidia Дженсън Хуанг е напуснал компанията тази седмица."
+    ]
+   },
+   "en": {
+    "t": "Traces in the weights: China's top AI models reportedly trained on banned Nvidia chips",
+    "d": "A former OpenAI researcher says he found signs of Blackwell chips in open models from Moonshot and DeepSeek. That does not prove any law was broken.",
+    "body": [
+     "Leading openly available AI models from Chinese companies were reportedly trained, at least partly, on Nvidia chips that may not be exported to China, TechCrunch reports, citing an analysis by Will DePue, a former OpenAI researcher who leads the nonprofit Unemployment Labs. He examined the models' published weights, which retain traces of the hardware used to train them.",
+     "According to the analysis, this applies to Moonshot AI's Kimi K3 models and DeepSeek's V4 models; models from MiniMax and Ant Group were also examined. They bear the hallmarks of training on Blackwell chips, whose export to China or Chinese-owned firms is banned. TechCrunch stresses that this means neither that the models were trained entirely on them nor that any laws were broken – the chips could be in data centres outside China, for example in Malaysia. The report contains no statements from the companies.",
+     "Research group Epoch AI estimates that around two million advanced chips reached China in 2024 and 2025 via supply routes designed to hide their destination. According to TechCrunch, Nvidia CEO Jensen Huang left the company this week."
+    ]
+   }
+  },
+  {
+   "id": "asus-gallop-humanoide-fabrik",
+   "s": "ai",
+   "mn": true,
+   "time": "12:33",
+   "kl": {
+    "de": "Robotik",
+    "bg": "Роботика",
+    "en": "Robotics"
+   },
+   "src": [
+    {
+     "n": "ASUS Pressroom – Factory-Proven Physical AI: Why ASUS Is Building a Humanoid Robot (13.11.2026)",
+     "u": "https://press.asus.com/blog/factory-proven-physical-ai-asus-gallop-humanoid-robot"
+    },
+    {
+     "n": "Humanoids Daily – ASUS Unveils Gallop, Its First Humanoid Robot (13.11.2026)",
+     "u": "https://www.humanoidsdaily.com/news/asus-gallop-humanoid-robot-jetson-thor-2028"
+    },
+    {
+     "n": "Interesting Engineering – Gallop: ASUS's new humanoid robot learns to pack tiny motherboard parts in factory (13.11.2026)",
+     "u": "https://interestingengineering.com/ai-robotics/asus-gallop-humanoid-robot-unveiled"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-14/asus-gallop-humanoide-fabrik.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "翁維德 (Wei-Te Wong)",
+    "lic": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ASUSTeK_Computer_headquarters_20150711.jpg",
+    "alt": {
+     "de": "Archivbild: Firmenzentrale von ASUS in Taipeh (2015)",
+     "bg": "Архивна снимка: централата на ASUS в Тайпе (2015)",
+     "en": "Archive image: ASUS headquarters in Taipei (2015)"
+    }
+   },
+   "de": {
+    "t": "Lernt von Fabrikarbeitern: ASUS stellt seinen ersten humanoiden Roboter Gallop vor",
+    "d": "Der Zweiarm-Roboter packt Zubehör für Mainboards in einem Werk der ASUS-Gruppe. Kunden-Pilotprojekte sind für 2027 geplant, der Marktstart für die zweite Hälfte 2028.",
+    "body": [
+     "Der taiwanische Computerhersteller ASUS hat seinen ersten humanoiden Roboter vorgestellt. Gallop hat zwei Arme auf einer festen Basis und packt in einem Elektronikwerk der ASUS-Gruppe Zubehör in Mainboard-Kartons: 15 kleine Teile, viele davon in dünnen Plastiktüten, in rund 20 Sekunden pro Mainboard. Ziel ist eine Erfolgsquote von 99,5 Prozent in dieser Zeit – nach ASUS-Angaben derselbe Maßstab wie für einen Menschen. Eine gemessene Quote hat das Unternehmen noch nicht veröffentlicht.",
+     "Gallop lernt, indem erfahrene Arbeiter mit ihrer Zustimmung Kopfkameras tragen; dazu kommen Simulation und Fernsteuerung per VR-Brille. Gesteuert wird der Roboter von einem einzigen Nvidia-Computer Jetson AGX Thor. „Eine Demo zeigt, dass ein Roboter etwas einmal kann. Eine Fabrik braucht einen Roboter, der die Arbeit jeden Tag macht“, schreibt Albert Chang von ASUS im Firmenblog.",
+     "Als Nächstes plant ASUS eine eigene Roboterhand und eine Version auf Rädern; auf der Computex 2027 soll Gallop Kunden vorgeführt werden. Pilotprojekte bei Kunden sind für 2027 vorgesehen, der Marktstart für die zweite Hälfte 2028 – zuerst in der Elektronikfertigung, später möglicherweise in Krankenhäusern."
+    ]
+   },
+   "bg": {
+    "t": "Учи се от работниците: ASUS представи първия си хуманоиден робот Gallop",
+    "d": "Двуръкият робот опакова аксесоари за дънни платки в завод на групата ASUS. Пилотни проекти при клиенти са планирани за 2027 г., пускането на пазара – за втората половина на 2028 г.",
+    "body": [
+     "Тайванският производител на компютри ASUS представи първия си хуманоиден робот. Gallop има две ръце на неподвижна основа и в завод за електроника на групата ASUS опакова аксесоари в кутии за дънни платки: 15 малки части, много от тях в тънки найлонови пликчета, за около 20 секунди на дънна платка. Целта е 99,5% успеваемост за това време – според ASUS същият стандарт като за човек. Измерена успеваемост компанията все още не е публикувала.",
+     "Gallop се учи, като опитни работници носят камери на главата със своето съгласие; към това се добавят симулация и дистанционно управление с VR очила. Роботът се управлява от един компютър Jetson AGX Thor на Nvidia. „Демонстрацията показва, че роботът може да направи нещо веднъж. Фабриката се нуждае от робот, който върши работата всеки ден“, пише Албърт Чан от ASUS във фирмения блог.",
+     "Като следваща стъпка ASUS планира собствена роботизирана ръка и версия на колела; на Computex 2027 Gallop трябва да бъде показан на клиенти. Пилотни проекти при клиенти са предвидени за 2027 г., а пускането на пазара – за втората половина на 2028 г., първо в производството на електроника, а по-късно евентуално в болници."
+    ]
+   },
+   "en": {
+    "t": "Learning from factory workers: ASUS unveils its first humanoid robot, Gallop",
+    "d": "The two-armed robot packs motherboard accessories at an ASUS group plant. Customer pilots are planned for 2027 and market launch for the second half of 2028.",
+    "body": [
+     "Taiwanese computer maker ASUS has unveiled its first humanoid robot. Gallop has two arms on a fixed base and packs accessories into motherboard boxes at an ASUS group electronics plant: 15 small parts, many in thin plastic bags, in about 20 seconds per board. The target is a 99.5 per cent success rate within that time – according to ASUS the same standard it holds a person to. The company has not yet published a measured rate.",
+     "Gallop learns from experienced workers who wear head-mounted cameras with their consent, combined with simulation and teleoperation via a VR headset. The robot runs on a single Nvidia Jetson AGX Thor computer. \"A demo shows that a robot can do something once. A factory needs a robot that does the job every day,\" Albert Chang of ASUS writes on the company blog.",
+     "Next, ASUS plans its own robot hand and a wheeled version; Gallop is to be shown to customers at Computex 2027. Customer pilots are planned for 2027 and market launch for the second half of 2028 – first in electronics manufacturing, later possibly in hospitals."
+    ]
+   }
+  }
+ ]
+}
