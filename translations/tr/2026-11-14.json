@@ -170,6 +170,34 @@
     "kl": "ABD"
    }
   },
+  "alaska-ranked-choice-voting-2026-11-14-b21": {
+   "L": {
+    "body": [
+     "Alaska'daki seçmenler, sıralamalı oy ve partiler üstü ilk dörtlü ön seçimden oluşan seçim sisteminin kaldırılmasını reddetti. NPR'ın aktardığına göre AP haber ajansı, halk oylamasının başarısız olduğunu gece boyunca erken sayıma dayanarak açıkladı. Ön seçimde en çok oy alan dört aday bir üst tura çıkıyor; ana seçimde çoğunluk sağlanamazsa oyların sıralaması belirleyici oluyor.",
+     "FairVote'un verdiği bilgiye göre “hayır” oyları son olarak yüzde 53'e karşı yüzde 47 ile önde; sayım sürüyor ve posta oyları 3 Kasım'daki seçimden sonraki 15 güne kadar kabul ediliyor. Alaska sistemi 2020'de uygulamaya koymuştu; 2024'teki kaldırma girişimi az farkla başarısız olmuştu. Eleştirmenler uygulamayı kafa karıştırıcı ve manipülasyona açık buluyor.",
+     "NPR'a göre dört adaylı Senato seçiminin de sıralamayla belirlenmesi muhtemel. Reform fonu Unite America'nın başkanı Nick Troiano şunları söyledi: “Vergi parasıyla finanse edilen her seçimde, parti ne olursa olsun, her aday için oy kullanma özgürlüğünü istiyorlar.”"
+    ],
+    "d": "Alaska'daki seçmenler seçim sisteminin kaldırılmasını yeniden reddetti. AP halk oylamasının başarısız olduğunu açıkladı; Senato seçiminin de sıralamayla belirlenmesi muhtemel.",
+    "t": "Alaska sıralamalı oy ve ilk dörtlü ön seçimi koruyor; kaldırma girişimi başarısız"
+   },
+   "at": "2026-11-14T19:00Z",
+   "h": "49ea3f464104",
+   "rev": [
+    "Headline: \"Ranked-Choice\" rendered as \"tercihli oy\" while the body uses \"sıralamalı oy\"; made consistent",
+    "Teaser and body: \"Abschaffung des Wahlsystems\" in the teaser is fine, but \"erneut\" is retained; no change needed",
+    "Body 3: \"Sie wollen\" (voters) – the quote is correct; fine",
+    "Body 2: \"ein Abschaffungsversuch 2024\" is correct; \"Alaska sistemi 2020'de uygulamaya koymuştu\" is fine"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Alaska eyalet Kapitol binası, Juneau (Arşiv fotoğrafı)",
+    "kl": "ABD"
+   }
+  },
   "asus-gallop-humanoide-fabrik": {
    "L": {
     "body": [
@@ -312,6 +340,33 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Berlin’de Kurfürstendamm",
+    "kl": "Berlin"
+   }
+  },
+  "berlin-grosseinsatz-ukraine-gipfel-genz-2026-11-14-b21": {
+   "L": {
+    "body": [
+     "Berlin polisi önümüzdeki hafta için büyük bir operasyona hazırlanıyor. Polis Sendikası'na (GdP) göre yaklaşık 3.000 görevli gerekiyor; sendika ayrıca “federal hükümetten ve eyaletlerden yoğun destek” bekliyor. Neden, Şansölye Friedrich Merz'in (CDU) 19 Kasım Perşembe günü için davet ettiği Ukrayna konulu “Gönüllüler Koalisyonu” toplantısı. GdP, en yüksek tehdit seviyesi 1'deki devlet konuklarının geleceğini öngörüyor; bazı katılımcılar daha Çarşamba akşamı gelebilir.",
+     "“Gen Z regelt” girişimi 20 Kasım Cuma günü yeniden gösteri yapmak istiyor. Organizatörlerin verdiği bilgiye göre Berlin'de 15.000 katılımcı kayıtlı; Nordkurier'e göre Avrupa çapında bir gençlik grevi planlanıyor. Talepler okullara daha fazla para ayrılmasından zorunlu askerliğin reddedilmesine kadar uzanıyor; grup şiddetten uzak durduğunu açıkladı.",
+     "Daha önce 31 Ekim'deki protestolara polis verilerine göre yaklaşık 5.000 kişi katılmıştı; akşam yapılan bir gösteride görevlilere saldırılar oldu ve çok sayıda gözaltı yapıldı. Bugün, Cumartesi günü de Charlottenburg'da 700 polisin görev yaptığı “Gen Z regelt – Phase 2” gösterisi düzenlendi; polisin akşama kadar açıklanmış bir bilançosu yoktu."
+    ],
+    "d": "Polis Sendikası GdP'ye göre Berlin'in önümüzdeki hafta yaklaşık 3.000 görevliye ihtiyacı var: 19 Kasım'da Ukrayna toplantısı, 20 Kasım'da “Gen Z regelt” gösterisi.",
+    "t": "Berlin'de büyük operasyon: Ukrayna zirvesi ve kayıtlı 15.000 “Gen Z” göstericisi"
+   },
+   "at": "2026-11-14T19:00Z",
+   "h": "3e0f9ea0416f",
+   "rev": [
+    "Kanzler was rendered as \"Başbakan\"; the established Turkish term for the German chancellor is \"Şansölye\"",
+    "\"Gerekçe\" is an unnatural rendering of \"Anlass\"; \"Neden\" fits better",
+    "Weekdays after dates should follow TDK convention; \"Bugün, Cumartesi günü\" is kept as is"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin polisine ait bir müdahale aracı (Sembolik fotoğraf)",
     "kl": "Berlin"
    }
   },
@@ -1330,6 +1385,32 @@
     "img.alt": "Arşiv fotoğrafı: Kiel yakınlarındaki B 503 federal yolunda 100 km/s hız sınırı levhası"
    }
   },
+  "dfb-niederlande-berlin-karten-2026-11-14-b21": {
+   "L": {
+    "body": [
+     "Pazartesi günü Berlin'deki Olympiastadion'da oynanacak Hollanda maçı neredeyse tamamen dolu bir tribün önünde gerçekleşecek. BILD'in verdiği bilgiye göre yaklaşık 71.000 oturma yerinin 70.435'i satıldı; ön satışta yalnızca birkaç yüz bilet kaldı.",
+     "Maç 20:45'te başlayacak, ARD canlı yayınlayacak. rbb|24'e göre stadyum kapıları iki saat önce açılacak; iki ülkenin 50. karşılaşması olacak. Maç gününde ayrıca saat 14'te SC Westend 1901 tesislerinde taraftar karmaları karşılaşacak, giriş ücretsiz.",
+     "Sportif açıdan Sırbistan'daki 3-1'lik galibiyet başlangıç durumunu iyileştirdi. Almanya Milli Takım Teknik Direktörü Jürgen Klopp maçın ardından şöyle demişti: “Bu finali Berlin'de oynamak istedik.” Amsterdam'daki ilk maç 1-1 sona ermişti."
+    ],
+    "d": "BILD'in verdiği bilgiye göre yaklaşık 71.000 koltuğun 70.400'ü satıldı. Almanya, pazartesi günü (20:45, ARD) Berlin'de Nations League çeyrek finali için sahaya çıkıyor.",
+    "t": "Oranje'ye karşı final niteliğinde maç: Olympiastadion neredeyse tamamen doldu"
+   },
+   "at": "2026-11-14T19:00Z",
+   "h": "b4f66a8c2519",
+   "rev": [
+    "Weekday 'Pazartesi' is wrongly capitalised mid-sentence (TDK: lowercase), in the teaser and in the body.",
+    "'um 14 Uhr' was rendered as 'saat 14 sularında' (around 14:00), which adds an approximation.",
+    "The Klopp quote 'dieses Endspiel in Berlin' was rendered less precisely."
+   ],
+   "rev_dbg": [
+    3,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin Olympiastadion (Arşiv fotoğrafı)"
+   }
+  },
   "dfl-50plus1-votum-2026-11-14": {
    "L": {
     "body": [
@@ -1834,6 +1915,26 @@
     "img.alt": "Arşiv fotoğrafı: Macaristan Başbakanı Péter Magyar (Mart 2026)"
    }
   },
+  "ext-cliffdiving-saison-2026-11-14": {
+   "L": {
+    "body": [
+     "2026 Red Bull Cliff Diving World Series'e geriye dönüş: Polignano a Mare'deki final ve Rhiannan Iffland'ın 10. şampiyonluk peşindeki mücadelesi."
+    ],
+    "d": "2026 Red Bull Cliff Diving World Series'e geriye dönüş: Polignano a Mare'deki final ve Rhiannan Iffland'ın 10. şampiyonluk peşindeki mücadelesi.",
+    "t": "Uçurum dalışı 2026: en çekişmeli şampiyonluk mücadelesi"
+   },
+   "at": "2026-11-14T19:00Z",
+   "h": "73c0d1fcf091",
+   "rev_dbg": [
+    3,
+    0,
+    1
+   ],
+   "x": {
+    "img.alt": "2016'da La Rochelle'deki bir yarışmada uçurum dalışı yapan sporcu (Arşiv fotoğrafı)",
+    "kl": "Ekstrem spor"
+   }
+  },
   "ext-nazare-bigwave-2026-11-14": {
    "L": {
     "body": [
@@ -2228,6 +2329,27 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: işlenmemiş, laboratuvarda yetiştirilmiş elmas tek kristali"
+   }
+  },
+  "google-antigravity-teamwork-2026-11-14-b21": {
+   "L": {
+    "body": [
+     "Google, geliştirme ortamı Antigravity için “/teamwork” adlı çoklu ajan özelliğini tanıttı. Birden fazla uzmanlaşmış yapay zekâ ajanı çözüm yollarını paralel olarak araştırıyor; Lean 4 kanıt asistanı, test paketleri veya simülatörler gibi denetim araçlarının hatalı adayları elemesi öngörülüyor. Yazı, Google araştırma başkanı Vahab Mirrokni tarafından 13 Kasım'da yayımlandı.",
+     "Google örnek olarak Weil sanılarının makine tarafından doğrulanabilir bir biçimselleştirilmesini gösteriyor: yaklaşık 28.800 alt ajan çağrısıyla yaklaşık 1,8 milyon satır Lean kodu. Google'a göre ayrıca 1927'de ortaya atılan Birkhoff probleminin biçimselleştirilmesi ve Bochner-Riesz sanısına ilişkin daha yeni bir kanıttaki bir boşluğun tespiti de başarılmış. Rapora göre Navier-Stokes'ta yalnızca daha yeni bir kanıt biçimselleştirildi, milenyum problemi çözülmüş değil.",
+     "Rakamlar Google'dan ve çalışanlarından geliyor ve bağımsız olarak yinelenmedi; uzmanlar sonuçları yayımlanmadan önce inceledi ve düzenledi. “Teamwork” ve kodlama iş akışı “/boost” Antigravity'de kullanılabiliyor, kanıt araçlarının daha sonra gelmesi planlanıyor. Google, 10.000 araştırmacıya altı ay ücretsiz erişim vermek istiyor."
+    ],
+    "d": "Google'ın Antigravity özelliği “/teamwork”, çok sayıda yapay zekâ ajanının birlikte araştırma yapmasını sağlıyor. Google'a göre sonuçlar uzmanlarca incelendi, bağımsız olarak henüz doğrulanmadı.",
+    "t": "Google: YZ ajan ekibi Weil sanılarını 1,8 milyon satır Lean koduyla biçimselleştirdi"
+   },
+   "at": "2026-11-14T19:00Z",
+   "h": "85cac344c957",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Google'ın Mountain View'daki merkezi (Arşiv fotoğrafı)"
    }
   },
   "gq-men-of-the-year-party-2026-looks": {
@@ -3965,6 +4087,32 @@
     "img.alt": "Oslo'daki Ullevaal Stadyumu (Arşiv fotoğrafı)"
    }
   },
+  "norwegen-wales-nations-league-2026-11-14-b21": {
+   "L": {
+    "body": [
+     "Norveç, Uluslar Ligi A 4. Grup'ta Oslo'da Galler'i 3-1 yendi. Golsüz geçen ilk yarının ardından Antonio Nusa 59. dakikada 1-0'ı getirdi, Andreas Schjelderup 68. dakikada skoru 2-0'a çıkardı.",
+     "David Brooks 79. dakikada Galler adına farkı bire indirdi. Maçın bitimine kısa süre kala Erling Haaland penaltıdan attığı golle 3-1'lik final skorunu belirledi. VG gazetesinin haberine göre Norveç böylece grupta en azından üçüncülüğü garantiledi ve ekim ayında Cardiff'te 1-2 kaybettiği Galler'in ikili averajda önünde bulunuyor.",
+     "Maçtan önce iki takımın da üç puanı vardı, Norveç şimdi altı puanda. Norveç, 17 Kasım Salı günü Danimarka ile oynayacak, Galler ise grup lideri Portekiz ile karşılaşacak."
+    ],
+    "d": "Oslo'da ilk yarı 0-0 bitti, ev sahibi ikinci yarıda açıldı: Nusa ve Schjelderup attı, Brooks farkı azalttı, Haaland penaltıdan işi bitirdi.",
+    "t": "Norveç, Galler'i 3-1 yendi: Nusa, Schjelderup ve Haaland gol attı"
+   },
+   "at": "2026-11-14T19:00Z",
+   "h": "4b671a718220",
+   "rev": [
+    "\"Uluslar Ligi A Ligi 4. Grup\" is redundant and awkward; the German says \"Nations League A (Gruppe 4)\"",
+    "\"im direkten Vergleich\" was rendered as \"averajda\" (goal average), but head-to-head is \"aralarındaki maçlarda\"",
+    "Date format: \"17 Kasım Salı\" is fine under TDK, so no change"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Oslo'daki Ullevaal Stadyumu (Arşiv fotoğrafı)"
+   }
+  },
   "nvidia-arm-haas-nachfolge-huang-2026-11-14-b11": {
    "L": {
     "body": [
@@ -4164,6 +4312,33 @@
    ],
    "x": {
     "img.alt": "Mauricio Pochettino, ABD milli takımı teknik direktörü olarak Mart 2026'da Atlanta'da (Arşiv fotoğrafı)"
+   }
+  },
+  "rente-abschlaege-hoffmann-2026-11-14-b21": {
+   "L": {
+    "body": [
+     "CSU Eyalet Grubu Başkanı Alexander Hoffmann, erken emeklilikte daha yüksek kesintiler uygulanacağını duyurdu. Redaktionsnetzwerk Deutschland'a (RND) konuşan Hoffmann, “Kesintilerin aylık yüzde 0,3'ten 0,4'e çıkması gerekiyor, bu çoktan yapılmalıydı” dedi. Değişikliği mümkünse 2027 bütçe yılından itibaren istediğini belirten Hoffmann, Çalışma Bakanlığı'nın bir zaman çizelgesi sunması gerektiğini söyledi. Alman Emeklilik Sigortası Kurumu'nun verilerine göre yüzde 0,3'lük kesintiler 1990'lı yıllardan beri değişmedi.",
+     "Arka planda, federal hükümetin emeklilik sigortasına yaptığı katkıyı 2027'de şimdiye kadar beklenen bir milyar avro yerine üç milyar avro azaltmak istemesi yatıyor. Hoffmann'a göre daha yüksek kesintiler bunun bir kısmını telafi ediyor ve prim oranını planlanan çerçevede tutuyor. Hoffmann, 45 prim yılı sonrasındaki kesintisiz emekliliği milyarlara mal olan bir tasarım hatası olarak nitelendirdi; SPD bunu korumak istiyorsa, eşdeğer tasarruf önermesi gerektiğini söyledi.",
+     "SPD Grup Başkanı Matthias Miersch, yeni Çalışma Bakanı Alexander Schweitzer'den önümüzdeki haftalarda bir taslak, bu yıl içinde de bir kabine kararı beklediğini belirtti. Miersch'e göre Emeklilik Komisyonu'nun 33 önerisinden 30'unda Birlik ve SPD aynı görüşte; 45 yıl sonrası emeklilik ise istisna olup Miersch burada az alan görüyor. Daha önce dile getirilen 10 milyar avroluk tasarrufu gerçekçi bulmadığını da ifade etti."
+    ],
+    "d": "CSU Eyalet Grubu Başkanı Hoffmann, kesintilerin aylık yüzde 0,3'ten 0,4'e çıkarılmasını, mümkünse 2027'den itibaren istiyor. SPD Grup Başkanı Miersch, 45 yıl sonrası emeklilikte uzlaşma alanı görmüyor.",
+    "t": "Emeklilik: CSU erken emeklilikte daha yüksek kesinti istiyor, SPD pek alan görmüyor"
+   },
+   "at": "2026-11-14T19:00Z",
+   "h": "2d2ef02e4f9e",
+   "rev": [
+    "Redaktionsnetzwerk Deutschland left untranslated/unnatural; it is a proper name but the sentence grammar 'a konuşan' is awkward",
+    "Deutsche Rentenversicherung rendered as translation plus German in parentheses; keep the Turkish only",
+    "Meaning: 'Bund' is the federal government/federal state; acceptable. 'Alman Federal Meclisi' for Bundestag: established Turkish usage is 'Federal Meclis' or 'Bundestag'; changed to Bundestag",
+    "Indirect speech 'Union und SPD seien sich einig' lacks reporting marker in second clause; 'die Rente nach 45 Jahren sei die Ausnahme' is Miersch's claim"
+   ],
+   "rev_dbg": [
+    4,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Bundestag genel kurul salonu (Arşiv fotoğrafı)"
    }
   },
   "review-pur-bleib-mir": {
@@ -4530,6 +4705,31 @@
     "img.alt": "Arşiv fotoğrafı: Simone Rocha ve John Rocha Londra'da"
    }
   },
+  "sledovateli-vss-izbor-2026-11-14-b21": {
+   "L": {
+    "body": [
+     "Soruşturmacılar genel kurulu, soruşturmacıların yeni Yüksek Yargı Konseyi'ndeki (VSS) temsilcisini belirlemek üzere Sofya'da toplandı. BTA'nın verdiği bilgiye göre 453 soruşturmacının oy hakkı vardı; ilk çağrıda toplantı yeter sayısı sağlanamadığı için oturum bir saat gecikmeyle başladı.",
+     "Genel kurul başkanını ve seçim komisyonunu seçti, seçim bölümlerini oluşturdu ve soruşturmacılar arasından aday olan iki ismi dinledi. Ardından Sofya, Plovdiv, Veliko Tarnovo, Varna ve Burgas'taki bölümler için üçer asıl ve üçer yedek üye belirledi.",
+     "VSS'nin kabul ettiği takvime göre magistratlar, aday gösterilen soruşturmacılardan hangisinin yeni VSS'ye gireceğini 21 Kasım 2026 Cumartesi günü oylayacak."
+    ],
+    "d": "Sofya'daki soruşturmacılar genel kurulu, yeni Yüksek Yargı Konseyi'ndeki temsilcilerinin seçimi için seçim bölümlerini oluşturdu. Magistratlar 21 Kasım'da oy kullanacak.",
+    "t": "Yüksek Yargı Konseyi seçimi: Soruşturmacılar beş şehirde seçim komisyonlarını belirledi"
+   },
+   "at": "2026-11-14T19:00Z",
+   "h": "f991be701aad",
+   "rev": [
+    "Teaser: 'Hâkim ve savcılar' used for 'Magistrate' while body uses 'magistratlar' – inconsistent; the German term is 'Magistrate', so it is aligned with the body.",
+    "Teaser lacks the year, but this matches the German, so it is left unchanged."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Sofya'daki Adalet Sarayı (Arşiv fotoğrafı)"
+   }
+  },
   "sofia-metro-mord-festnahme-israel-2026-11-14-b08": {
    "L": {
     "body": [
@@ -4610,6 +4810,35 @@
    ],
    "x": {
     "img.alt": "SPD Genel Başkanı Lars Klingbeil (Arşiv fotoğrafı)"
+   }
+  },
+  "spritpreisdeckel-miersch-reiche-2026-11-14-b21": {
+   "L": {
+    "body": [
+     "SPD Grup Başkanı Matthias Miersch, Ekonomi Bakanı Katherina Reiche'den (CDU) planlanan akaryakıt fiyat tavanında düzeltme yapmasını istedi. Taslağı mevcut haliyle yetersiz buluyor. Miersch, bir fiyat tavanını başlı başına anlamlı olarak nitelendiriyor; çünkü ona göre yakıt indiriminin aksine milyarlarca avroluk yeni harcama gerektirmiyor.",
+     "Miersch'in verdiği bilgiye göre yasanın Aralık ortasına kadar kabul edilmesi öngörülüyor, çünkü yakıt indirimi yıl sonunda sona eriyor. Miersch, 1 Nisan'dan bu yana yürürlükte olan ve akaryakıt fiyatlarının günde yalnızca bir kez, saat 12:00'de artmasına izin veren kuralın “henüz en uygun araç olmadığını” ve yeniden değerlendirilmesi gerektiğini söyledi.",
+     "Miersch ayrıca, diğer Avrupa ülkelerinin halihazırda uyguladığı gibi bir aşırı kâr vergisi için yeniden çağrıda bulundu. Taslağın ayrıntıları kamuoyunda şimdiye kadar yalnızca kısmen biliniyor."
+    ],
+    "d": "SPD, Ekonomi Bakanı Reiche'nin taslağını yetersiz buluyor. Miersch daha sıkı kurallar talep ediyor; yasanın Aralık ortasına kadar hazır olması ve yıl sonunda yakıt indiriminin yerini alması öngörülüyor.",
+    "t": "Akaryakıt fiyat tavanı: SPD Grup Başkanı Miersch, Reiche'den düzeltme istedi"
+   },
+   "at": "2026-11-14T19:00Z",
+   "flag": [
+    "Zahlen fehlen oder weichen ab: 12"
+   ],
+   "h": "83b8d3dabe02",
+   "rev": [
+    "Teaser: 'Ekonomi Bakanı Reiche' is fine; 'Miersch ... bir aşırı kâr vergisi için yeniden destek verdi' is awkward (warb für = campaigned for)",
+    "Paragraph 1: 'Einen Deckel an sich nennt er sinnvoll, weil ... erfordere' is Miersch's reasoning (indirect speech); the Turkish presents the 'çünkü' clause as plain fact",
+    "Paragraph 2: 'Kraftstoffpreise nur einmal täglich um 12 Uhr steigen dürfen' – the Turkish is acceptable"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin'deki Federal Ekonomi Bakanlığı (Arşiv fotoğrafı)"
    }
   },
   "starship-flug-15-booster-feuerball-schiff-fang-2026-11-14-b08": {
