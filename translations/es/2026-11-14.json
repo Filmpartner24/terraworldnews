@@ -107,6 +107,34 @@
     "img.alt": "Foto de archivo: retrato oficial de Rumen Radev, 2026"
    }
   },
+  "bulgarien-filipow-mord-helfer-haft-ermittler-tot-2026-11-14": {
+   "L": {
+    "body": [
+     "En el caso del asesinato del empresario de Plovdiv Iliyan Filipov, el Tribunal de Distrito de Plovdiv ordenó el viernes prisión preventiva indefinida contra un segundo acusado. Se le imputa complicidad. Según el fiscal responsable, Dimitar Molev, el acusado habría seguido a Filipov y habría transmitido al presunto autor principal información sobre sus hábitos y su rutina diaria. «Tenemos declaraciones de testigos» que lo confirman, dijo Molev, según Novini.bg.",
+     "El abogado defensor del acusado, Krasimir Eldarov, puso en duda las pruebas y anunció que recurrirá la decisión de prisión. Además, dijo que el investigador policial que había llevado a cabo la mayor parte de las diligencias había fallecido entretanto. Según Mediapool, por el momento no había confirmación oficial del Ministerio del Interior ni de la Fiscalía; no se han dado a conocer el nombre del investigador ni las circunstancias de su muerte.",
+     "Filipov, propietario de la empresa de transporte PIMK y del club de fútbol Botev Plovdiv, fue asesinado a tiros a finales de septiembre. Pocas horas después del crimen, la policía detuvo a un antiguo empleado, considerado presunto autor; los medios citan como posible móvil una disputa por dinero de apuestas deportivas ilegales. El segundo acusado fue detenido el miércoles."
+    ],
+    "d": "El Tribunal de Distrito de Plovdiv ordenó prisión preventiva para el segundo acusado por el asesinato del empresario Iliyan Filipov. Su abogado afirma que el principal investigador policial ha muerto.",
+    "t": "Caso Filipov: presunto cómplice sigue preso; abogado dice que murió el investigador"
+   },
+   "at": "2026-11-14T06:47Z",
+   "h": "edb4b831714b",
+   "rev": [
+    "Headline: the lawyer's claim is stated as fact (\"murió\"); it needs the perfect tense and attribution, and the headline must stay within 90 characters",
+    "Teaser: \"ha muerto\" is attributed (\"afirma\"), which is fine, but \"principal investigador\" is acceptable; no change needed",
+    "Body: \"habría fallecido\" puts the lawyer's statement in conditional, but it should be \"había fallecido/ha fallecido\" under \"dijo\" (indirect speech); the conditional adds doubt not in the German, so it",
+    "Body: \"en un principio no había confirmación\" should be \"por el momento no había\" (zunächst); minor wording",
+    "\"Su nombre\" is ambiguous; it should be the name of the investigator and the circumstances of the death"
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: vista de Plovdiv con el teatro antiguo"
+   }
+  },
   "bulgarien-gdbop-operation-endgame-schadsoftware-2026-11-14": {
    "L": {
     "body": [
@@ -131,6 +159,33 @@
    ],
    "x": {
     "img.alt": "Imagen simbólica: sede de Europol en La Haya"
+   }
+  },
+  "bulgarien-haushalt-2027-justiz-protest-polizei-2026-11-14": {
+   "L": {
+    "body": [
+     "Bajo el lema «Los invisibles del sistema judicial», empleados de tribunales y fiscalías protestaron el viernes en 20 ciudades contra el proyecto de presupuesto de 2027, entre ellas Sofía, Varna, Burgas, Ruse, Pleven y Stara Zagora. Según la agencia BTA, el proyecto prevé un aumento salarial del cinco por ciento, pero suprime la asignación anual de vestuario para el personal judicial; solo se mantiene una ayuda para togas de hasta 500 euros. Trabajadores de la Fiscalía Regional de Sofía lanzaron una petición nacional contra el proyecto.",
+     "Un empleado administrativo de la Fiscalía Regional de Blagoevgrad lamentó que los salarios iniciales estuvieran cerca del salario mínimo pese a la gran responsabilidad; un empleado del Tribunal Regional de Stara Zagora expresó su preocupación por posibles recortes de plantilla. El ministro de Justicia, Nikolay Naydenov, invitó a representantes de los magistrados y de los empleados de justicia a una reunión sobre las retribuciones el 16 de noviembre.",
+     "El ministro del Interior, Ivan Demerdzhiev, aseguró el viernes ante el Consejo de Asociación Social de su ministerio que no se despedirá a ningún funcionario que cumpla tareas policiales esenciales en servicio exterior y que no habrá recortes automáticos. Según dijo, la situación financiera de 2027 no permitiría, sin embargo, una subida salarial. Iliya Hrisimov, vicepresidente de la Federación Sindical de los Empleados del Ministerio del Interior, afirmó ante los periodistas que la exclusión del aumento general del cinco por ciento para los empleados públicos haría que los trabajadores sintieran que se les castiga."
+    ],
+    "d": "Empleados de la justicia protestaron en todo el país contra el proyecto de presupuesto de 2027. El ministro del Interior, Demerdzhiev, aseguró que no habrá despidos de policías de calle, pero tampoco más dinero.",
+    "t": "Presupuesto 2027: empleados de justicia protestan en 20 ciudades; policías sin subida"
+   },
+   "at": "2026-11-14T06:47Z",
+   "h": "cdb79f0a0e3e",
+   "rev": [
+    "Nombre del ministro de Justicia con caracteres cirílicos mezclados (Nayденov)",
+    "Estilo indirecto: «hace que los trabajadores sientan» presentado como hecho; debe ir en subjuntivo/condicional",
+    "«lamentó que los salarios iniciales estarían cerca» – construcción incorrecta; mejor «estaban/estuvieran» con atribución clara",
+    "Inconsistencia en la transliteración del nombre del ministro (Nikolaj → Nikolay)"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: el Palacio de Justicia de Sofía"
    }
   },
   "bulgarien-island-0-5-nations-league-2026-11-14-b08": {
@@ -255,6 +310,33 @@
    "x": {
     "img.alt": "Imagen simbólica: coche de policía en Sofía, 2026",
     "kl": "Sofía"
+   }
+  },
+  "bulgarien-zigaretten-schmuggel-studie-bia-zoll-2026-11-14": {
+   "L": {
+    "body": [
+     "La proporción de cigarrillos ilegales en Bulgaria sigue siendo la más baja de la UE, según un estudio de mercado. Como informa la agencia BTA, en 2025 una media del 2,6 por ciento de los cigarrillos analizados no estaba destinada al mercado búlgaro; en el segundo trimestre de 2026 fue el 2,2 por ciento. Para el estudio se recogen y analizan cajetillas de cigarrillos vacías. Fue presentado el viernes en Sofía por empresas de la «Iniciativa contra el comercio ilegal» de la patronal BIA, en presencia de representantes del Ministerio del Interior y de las aduanas.",
+     "Al mismo tiempo, las autoridades informan de más contrabando: en 2026 las aduanas incautaron, según BTA, más de 96 millones de cigarrillos ilegales, más de 39 millones de ellos solo en octubre, un récord de los últimos diez años. El subdirector de aduanas, Georgi Aleksandrov, dijo, según BTA, que la adhesión a Schengen había traído nuevos desafíos, a los que se había respondido con un análisis de riesgos adaptado. Según las empresas, fábricas ilegales desmanteladas recientemente en Bulgaria también han suministrado mercancía a otros países de la UE.",
+     "Para las arcas públicas hay mucho dinero en juego: según BTA, los productos del tabaco y la nicotina aportan el 56 por ciento de los ingresos por impuestos especiales y casi el diez por ciento de todos los ingresos fiscales: en 2025, más de 2.100 millones de euros. «El comercio ilegal de productos del tabaco no es solo un problema de un único sector económico», dijo el presidente de BIA, Dobri Mitrev."
+    ],
+    "d": "Según un estudio de cajetillas, en 2025 solo el 2,6 por ciento de los cigarrillos fumados en Bulgaria no procedía del mercado nacional. Las aduanas incautaron en 2026 más de 96 millones.",
+    "t": "Contrabando de cigarrillos: Bulgaria, cuota más baja de UE; aduanas registran récord"
+   },
+   "at": "2026-11-14T06:47Z",
+   "h": "5331f1c5b248",
+   "rev": [
+    "Indirect speech rendered with conditional 'habría traído/habría respondido', which suggests doubt or hypothesis; should be a reported statement with attribution",
+    "'demnach' (according to BTA) attribution lost",
+    "Spelling of the name: Alexandrow → Aleksandrov is acceptable for Bulgarian transliteration, left unchanged",
+    "'Laut den Unternehmen haben ... geliefert' is attributed, but the Spanish past tense 'suministraron' is acceptable; adjusted to the perfect tense for closer tense match"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: paso fronterizo y aduanero búlgaro"
    }
   },
   "deutschland-afd-berthold-bundespraesident-kandidat-2026-11-14": {
@@ -387,6 +469,28 @@
    "x": {
     "img.alt": "Imagen simbólica: interior de un Spätkauf berlinés",
     "kl": "Berlín"
+   }
+  },
+  "deutschland-bulgarien-tourismus-dimitrow-dehoga-drv-sundair-2026-11-14": {
+   "L": {
+    "body": [
+     "Tras su visita al Bundestag, el ministro búlgaro de Turismo, Ilin Dimitrov, habló en Berlín con representantes de primer nivel del sector turístico alemán. Según la agencia de noticias búlgara BTA, que cita a su ministerio, las reservas anticipadas desde Alemania han arrancado de forma positiva. Los touroperadores Schauinsland-Reisen y DERTOUR consideran posible, según esa información, duplicar el número de huéspedes alemanes en Bulgaria en tres años, siempre que haya conexiones aéreas estables, marketing conjunto y una colaboración más estrecha con las agencias de viajes.",
+     "La aerolínea Sundair quiere ampliar en 2027 su capacidad en torno a un diez por ciento, hasta unas 27.000 plazas a Varna y Burgas, con vuelos desde Berlín y Dresde; según BTA, se prevén plazas adicionales con vistas a la fecha de Eurovisión en Burgas. Corendon Airlines también reafirmó su interés a largo plazo por Bulgaria. Con la asociación hotelera y de restauración DEHOGA, dirigida por su directora general Jana Schimke, se trataron la clasificación hotelera, la formación y la falta de personal cualificado; con la Federación Alemana de la Industria Turística (BTW), los contactos con nuevos operadores y aerolíneas. «La confianza en Bulgaria como destino seguro y atractivo se refleja en las decisiones de los turistas y en los planes de negocio», dijo Dimitrov, según BTA.",
+     "Con la Asociación Alemana de Viajes (DRV), el ministro habló de atraer a más visitantes más allá de las vacaciones de playa tradicionales. Del 5 al 8 de abril de 2027 está previsto que una delegación de unos diez operadores alemanes de viajes culturales, circuitos y bienestar visite Bulgaria. Ya en septiembre, Dimitrov había adelantado para 2027 un aumento del 25 al 30 por ciento de huéspedes alemanes y había hablado de entre 150.000 y 160.000 plazas aéreas adicionales desde Alemania."
+    ],
+    "d": "El ministro búlgaro de Turismo, Ilin Dimitrov, negoció en Berlín con DEHOGA, BTW, DRV, touroperadores y aerolíneas. Según dijo, las reservas anticipadas desde Alemania han arrancado bien.",
+    "t": "Más turistas alemanes para Bulgaria: Sundair amplía en 2027 sus vuelos a Varna y Burgas"
+   },
+   "at": "2026-11-14T06:47Z",
+   "h": "583f7782a11d",
+   "rev_dbg": [
+    1,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: playa y dunas de arena en Sunny Beach, en la costa búlgara del mar Negro",
+    "kl": "Alemania–Bulgaria"
    }
   },
   "deutschland-bw-cdu-klima-fake-news-register-2026-11-14": {
@@ -563,6 +667,33 @@
     "img.alt": "Foto de archivo: la ministra de Familia, Karin Prien"
    }
   },
+  "energie-energieministerkonferenz-goettingen-stromsteuer-2026-11-14": {
+   "L": {
+    "body": [
+     "Los ministros de Energía de los Länder pidieron en su conferencia en Gotinga una rebaja del impuesto a la electricidad para todos los consumidores. «Los éxitos de la transición energética deben llegar a los consumidores. El impuesto a la electricidad debe reducirse de forma drástica», afirmó el presidente, el ministro de Energía de Baja Sajonia, Christian Meyer (Los Verdes). Hasta ahora, el impuesto a la electricidad solo se ha reducido para la industria, el sector productivo y la agricultura y silvicultura; en el presupuesto federal del próximo año no está prevista una rebaja para todos los ciudadanos.",
+     "Todos los Länder salvo Baviera se pronunciaron además a favor de volver a examinar un impuesto a los beneficios extraordinarios para las petroleras. La ministra federal de Economía, Katherina Reiche (CDU), que estuvo conectada por vídeo durante aproximadamente una hora, se opuso con vehemencia, según Meyer, a las comparaciones con países que ya aplican ese impuesto. Meyer dijo que tenía la «sensación de que la ministra federal de Economía, lo digo también así, no escucha bien». El ministro de Energía de Hesse, Kaweh Mansoori (SPD), criticó que algunos se enriquezcan a costa de millones de alemanes: «una situación sencillamente inaceptable».",
+     "Los Länder exigieron además una vía de pago para un subsidio climático y una reforma a tiempo de la Ley de Energías Renovables (EEG), para que las ayudas no expiren a principios de 2027. La ministra de Medio Ambiente y Energía de Baden-Wurtemberg, Thekla Walker, reclamó facilidades para la expansión de la energía eólica, por ejemplo en el transporte pesado de palas de rotor y en las distancias mínimas a las líneas ferroviarias. La presidencia de la conferencia pasará el próximo año al ministro de Energía de Hesse, Mansoori."
+    ],
+    "d": "En su conferencia en Gotinga, los ministros de Energía de los Länder reclaman alivios para los ciudadanos. Con la ministra federal de Economía, Reiche, hubo disputa por un impuesto a los beneficios extraordinarios.",
+    "t": "Ministros de Energía de Länder piden bajar impuesto eléctrico y tasar superbeneficios"
+   },
+   "at": "2026-11-14T06:47Z",
+   "h": "ffbd02f271b0",
+   "rev": [
+    "Headline: 'gravar beneficios extra' is imprecise; the German says 'Übergewinnsteuer' (windfall tax), so 'impuesto a los beneficios extraordinarios' is more accurate.",
+    "'ein schlicht inakzeptabler Vorgang' was rendered as 'un proceso sencillamente inaceptable'; 'proceso' is a poor fit, 'una práctica/situación' is more natural.",
+    "'Klimageld' rendered 'subsidio climático'; the established term is 'bono climático', but this is minor and left unchanged.",
+    "'Hasta ahora ... se ha reducido': correct, left unchanged."
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: Antiguo Ayuntamiento de Gotinga"
+   }
+  },
   "energie-iea-oelangebot-uebersteigt-nachfrage-2026-11-14": {
    "L": {
     "body": [
@@ -586,6 +717,27 @@
    ],
    "x": {
     "img.alt": "Gráfico de portada: AIE: por primera vez desde el inicio de la guerra de Irán hay más petróleo que demanda"
+   }
+  },
+  "energie-sofia-fernwaerme-ministerium-pruefbericht-2026-11-14": {
+   "L": {
+    "body": [
+     "El Ministerio de Energía de Bulgaria ha detectado problemas «sumamente preocupantes» en la red de calefacción urbana de la capital. Lo dijo la ministra de Energía, Iva Petrova, el viernes en la sesión de preguntas del Parlamento, en respuesta a una pregunta del diputado de Vazrazhdane Petar Petrov, según informó la agencia BTA. Según Petrova, el problema afectaría sobre todo a la cantidad y la calidad del agua de reposición con la que se compensan las pérdidas de la red. Esto podría afectar al estado y la fiabilidad de las instalaciones, así como a la calidad del suministro de calor, afirmó.",
+     "Petrova había ordenado el 5 de octubre una inspección de la zona de calefacción urbana Sofia-Iztok para evaluar el estado técnico y la preparación para la temporada de calefacción. Las autoridades de supervisión entregaron el informe de la inspección a la empresa municipal Toplofikatsiya Sofia el 11 de noviembre. «Los resultados de la inspección muestran que no se cumplieron las instrucciones vinculantes del Ministerio», dijo Petrova. La empresa debe presentar más información antes de principios de la próxima semana y son posibles sanciones administrativas adicionales.",
+     "Según Petrova, este año ya se han constatado dos infracciones contra la empresa. El Ministerio, según dijo, se dirigió por escrito el 18 y el 31 de agosto al Ayuntamiento de Sofía y a la presidencia del Concejo Municipal y advirtió de problemas técnicos. «A pesar de las dos cartas, hasta hoy ningún representante del propietario único de Toplofikatsiya Sofia ha mostrado disposición al diálogo», dijo la ministra."
+    ],
+    "d": "Una inspección a la empresa Toplofikatsiya Sofia revela problemas graves, según la ministra de Energía, Iva Petrova. La compañía se enfrenta a nuevas sanciones.",
+    "t": "Calefacción urbana de Sofía: Energía detecta deficiencias «sumamente preocupantes»"
+   },
+   "at": "2026-11-14T06:47Z",
+   "h": "e22668d2cb1e",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico de portada: Calefacción urbana de Sofía: Energía detecta deficiencias «sumamente preocupantes»"
    }
   },
   "europa-dublin-gipfel-ki-costa-vertrauen-2026-11-14": {
@@ -638,6 +790,27 @@
    ],
    "x": {
     "img.alt": "Foto de archivo: António Costa, Volodymyr Zelenski y Ursula von der Leyen el 24 de febrero de 2026 en Kiev"
+   }
+  },
+  "europa-ezb-lagarde-nachfolge-hernandez-de-cos-2026-11-14": {
+   "L": {
+    "body": [
+     "En la carrera por la sucesión de la presidenta del BCE, Christine Lagarde, al parecer se perfila una decisión previa. Un representante de la UE confirmó el viernes, al margen de la cumbre de Dublín, según Euronews, que hay dos candidatos nominados. Según Euronews, se trata del ex gobernador del banco central de España Pablo Hernández de Cos y del ex gobernador del banco central de los Países Bajos Klaas Knot. Según informaciones del diario español El País, Francia y Alemania trabajan en un acuerdo en el que Hernández de Cos se considera el favorito para la presidencia.",
+     "El trasfondo es que en menos de cinco meses quedarán vacantes tres de los seis puestos del Comité Ejecutivo del BCE. Según Handelsblatt, un posible acuerdo contemplaría que Berlín nombre al economista jefe y París asuma el puesto de operaciones de mercado, que hasta ahora ocupa Isabel Schnabel; la Cancillería favorecería, según el diario, al economista de Princeton Markus Brunnermeier. Schnabel se incorpora al FMI el 3 de enero y el economista jefe, Philip Lane, deja el cargo en mayo. Un portavoz del Gobierno federal dijo que Berlín quiere una representación «adecuada» en la dirección del BCE.",
+     "Según Euronews, el canciller federal Friedrich Merz quiere coordinarse aún unos días con su coalición y presentar la propuesta alemana la próxima semana. Las nominaciones para los otros dos puestos del Comité Ejecutivo son posibles hasta el 18 de noviembre. En la cumbre de la UE del 26 de noviembre, el presidente del Consejo, António Costa, quiere iniciar las consultas con el Parlamento Europeo y el Consejo de Gobierno del BCE. Oficialmente, todavía no se ha decidido nada."
+    ],
+    "d": "Francia y Alemania están, según medios, cerca de un paquete para la cúpula del BCE. El favorito es el español Pablo Hernández de Cos; Merz quiere fijar la posición alemana la próxima semana.",
+    "t": "Sucesión de Lagarde: París y Berlín, al parecer cerca de un acuerdo sobre Hernández de Cos"
+   },
+   "at": "2026-11-14T06:47Z",
+   "h": "9e2f727c597f",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: sede del Banco Central Europeo en Fráncfort"
    }
   },
   "europa-frankreich-protest-samstag-paris-metro-2026-11-14": {
@@ -829,6 +1002,34 @@
     "kl": "Astronáutica"
    }
   },
+  "ki-thailand-nt-seekabel-singapur-europa-japan-2026-11-14": {
+   "L": {
+    "body": [
+     "La empresa estatal de telecomunicaciones de Tailandia, National Telecom (NT), solicita 16.100 millones de bats de fondos públicos para una nueva red internacional de cable submarino, según un informe de Telecom Review Asia del 12 de noviembre. La red debe reforzar las conexiones del país con Singapur, Europa y Japón y ofrecer más ancho de banda para servicios en la nube, aplicaciones de IA y grandes centros de datos.",
+     "Según el informe, se planean dos sistemas de cable a Singapur por 6.600 millones de bats, uno a Europa por 4.000 millones y uno a Japón por 5.500 millones de bats. NT justifica el proyecto con el argumento de que los cables existentes envejecen y ya no pueden absorber el creciente tráfico de datos, lo que, según la empresa, pone en peligro la competitividad de Tailandia. La empresa ya opera nueve sistemas internacionales de cable submarino.",
+     "El proyecto está aún en una fase inicial: todavía no existen un estudio de viabilidad ni planes. Hasta diciembre, NT quiere buscar socios y formar un consorcio, y a principios de 2027 debe licitarse un contrato internacional. El tramo a Singapur debe estar listo en junio de 2027 y las conexiones con Europa y Japón en septiembre. Además, se necesitan permisos de varias autoridades, también para trazados a través de parques nacionales."
+    ],
+    "d": "El operador estatal National Telecom quiere 16.100 millones de bats para cuatro nuevos sistemas internacionales de cable submarino. Las líneas antiguas ya no soportan el tráfico de datos.",
+    "t": "Más ancho de banda: Tailandia planea nuevos cables submarinos a Singapur, Europa y Japón"
+   },
+   "at": "2026-11-14T06:47Z",
+   "flag": [
+    "Zahlen fehlen oder weichen ab: 1"
+   ],
+   "h": "7475f53bc0dc",
+   "rev": [
+    "\"Singapur\" is the correct Spanish form, so no change is needed there.",
+    "In the second paragraph, \"NT justifica el proyecto porque los cables existentes envejecen...\" makes the claim read as the reasoning itself rather than attributed; it should read as NT's stated justifi"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: sección transversal de un cable submarino histórico con armadura de alambre de acero en el Taiping Telegraph Museum"
+   }
+  },
   "ki-tsmc-datenleck-mitarbeiterdaten-cloud-anbieter-2026-11-14": {
    "L": {
     "body": [
@@ -905,6 +1106,35 @@
    ],
    "x": {
     "img.alt": "Imagen simbólica: anomalías de la temperatura de la superficie del mar en el Pacífico (mapa de NOAA)"
+   }
+  },
+  "kultur-alt-j-then-again-tour-2027-2026-11-14": {
+   "L": {
+    "body": [
+     "La banda indie británica Alt-J vuelve a los escenarios tras una larga pausa. Según informa la revista musical NME, el trío realizará en el verano de 2027 su primera gira por el Reino Unido en cinco años. La «Then Again Tour» incluye cuatro conciertos en julio, entre ellos uno en el O2 Arena de Londres el 14 de julio, además de actuaciones al aire libre en el Castlefield Bowl de Mánchester, en The Piece Hall de Halifax y en el castillo de Cardiff.",
+     "En las redes sociales, la banda escribió: «We've been quiet for a while but break time is over». Según el comunicado de prensa, Alt-J quieren tocar canciones de todo su catálogo; en el anuncio no se menciona un nuevo álbum. El último álbum de la banda hasta ahora, el cuarto, se titula «The Dream». El cantante Joe Newman publicó entretanto un álbum en solitario con el nombre de JJerome87.",
+     "Una preventa comienza el miércoles 18 de noviembre y la venta anticipada general el viernes 20 de noviembre a las 10:00 hora británica a través de Ticketmaster UK. Por ahora no se han anunciado conciertos en Alemania, Austria, Suiza ni Bulgaria."
+    ],
+    "d": "La banda indie británica Alt-J ofrecerá cuatro conciertos al aire libre y en recintos cerrados en julio de 2027 con su «Then Again Tour». Por ahora no hay fechas en Alemania, Austria ni Suiza.",
+    "t": "Alt-J vuelven: primera gira por Reino Unido en cinco años, con show en el O2 de Londres"
+   },
+   "at": "2026-11-14T06:47Z",
+   "h": "42b2e25cd76e",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "facts": [
+     "02.07.2027 – Mánchester, Castlefield Bowl",
+     "14.07.2027 – Londres, The O2",
+     "17.07.2027 – Halifax, The Piece Hall",
+     "18.07.2027 – Cardiff, Castillo de Cardiff",
+     "Fechas en Alemania, Austria, Suiza y Bulgaria: por ahora ninguna",
+     "Preventa desde el 18.11.2026; venta anticipada general desde el 20.11.2026, 10:00 (GMT), a través de Ticketmaster UK"
+    ],
+    "img.alt": "Foto de archivo: Alt-J en directo en Charlotte (2015)"
    }
   },
   "kultur-dead-pioneers-deutschland-tour-2027-2026-11-14": {
@@ -1329,6 +1559,34 @@
     "img.alt": "Gráfico de portada: Guinea: al menos diez muertos en choques por la prohibición de la minería de oro"
    }
   },
+  "welt-iaea-bericht-iran-isfahan-inspektionen-2026-11-14": {
+   "L": {
+    "body": [
+     "El Organismo Internacional de Energía Atómica (OIEA) ha exigido a Irán que vuelva a permitir a sus inspectores el acceso a sus instalaciones nucleares. En un informe distribuido el viernes a los Estados miembros, el organismo califica, según AP, la falta de información como «motivo de preocupación en materia de proliferación», que debería resolverse «con la máxima urgencia». Desde los ataques estadounidenses e israelíes contra instalaciones nucleares iraníes en junio de 2025, Teherán solo permite controles muy limitados.",
+     "Según Reuters, el OIEA expresa su preocupación por una planta subterránea de enriquecimiento de uranio cerca de Isfahán, que Irán notificó en 2025 pero nunca abrió a los inspectores. Los inspectores no conocen ni su ubicación exacta ni si hay material nuclear en ella; el informe no constató que allí se esté enriqueciendo uranio. Tampoco puede el organismo verificar desde 2025 el paradero de las existencias de uranio casi apto para armas.",
+     "Teherán comunicó al OIEA que, ante las «amenazas continuas, explícitas y públicas» del presidente de Estados Unidos, las inspecciones no serían posibles por el momento. El portavoz del Ministerio de Exteriores, Esmaeil Baghaei, reiteró que Irán mantendría su adhesión al Tratado de No Proliferación Nuclear. El director del OIEA, Rafael Grossi, abogó por pasos técnicos limitados que podrían volver a hacer posibles las visitas; según dijo, el organismo estaría dispuesto a reanudar sus controles «a corto plazo»."
+    ],
+    "d": "El Organismo Internacional de Energía Atómica exige que se permita de nuevo la entrada de sus inspectores al país. Sobre una planta subterránea de enriquecimiento cerca de Isfahán casi no sabe nada.",
+    "t": "Informe del OIEA: la agencia exige acceso a las instalaciones de Irán; preocupa Isfahán"
+   },
+   "at": "2026-11-14T06:47Z",
+   "h": "a6d92b706c31",
+   "rev": [
+    "Teaser: \"sabe casi nada\" is unnatural and the subject is unclear; rephrase to \"sabe casi nada\" with the subject stated",
+    "Indirect speech: Teherán's statement that inspections are not possible reads as plain fact; needs conditional/attribution",
+    "Baghaei's statement reads as plain fact; needs conditional/attribution",
+    "Grossi: \"estaría dispuesto\" is acceptable but the sentence is clumsy; \"según dijo\" is fine, no change",
+    "Headline: ambiguous subject for \"exige\" (OIEA missing as a clear subject); rephrase"
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: Vienna International Centre, sede del OIEA"
+   }
+  },
   "welt-israel-einreiseverbot-melenchon-frankreich-2026-11-14": {
    "L": {
     "body": [
@@ -1353,6 +1611,31 @@
    ],
    "x": {
     "img.alt": "Foto de archivo: Jean-Luc Mélenchon en mayo de 2026"
+   }
+  },
+  "welt-kenia-hauseinsturz-syokimau-2026-11-14": {
+   "L": {
+    "body": [
+     "Un edificio inacabado de ocho plantas se derrumbó el viernes por la mañana en Syokimau, en las afueras de la capital keniana, Nairobi. Al menos seis personas murieron. Según informaciones de la televisión, cinco personas fueron rescatadas con vida de los escombros y trasladadas a hospitales. No está claro cuántos obreros se encontraban en la obra en el momento del accidente; los bomberos y equipos de rescate especializados siguieron buscando a posibles personas atrapadas.",
+     "Según los informes, cedió la losa de hormigón superior y arrastró consigo una parte de la estructura. Un informe preliminar del equipo de catástrofes del condado de Nairobi no pudo esclarecer aún la causa. El diputado local Patrick Makau instó a los equipos de rescate a darse prisa: «Cada segundo cuenta».",
+     "Hace apenas unas semanas, el 23 de octubre, ocho personas murieron en el derrumbe de un edificio de varias plantas en Nairobi. Un instituto de investigación estatal señala como causas frecuentes de este tipo de accidentes la mala ejecución de las obras, la falta de supervisión, los materiales de calidad inferior y los errores de planificación. Tras los dos derrumbes, aumentan las exigencias de controles de construcción más estrictos."
+    ],
+    "d": "Un edificio inacabado de ocho plantas se ha derrumbado en Syokimau, en las afueras de Nairobi. Al menos seis personas murieron y cinco fueron rescatadas con vida de los escombros.",
+    "t": "Kenia: se derrumba edificio en obras cerca de Nairobi; seis muertos, buscan atrapados"
+   },
+   "at": "2026-11-14T06:47Z",
+   "h": "460964649122",
+   "rev": [
+    "\"Erst am 23. Oktober\" means only recently (\"just on 23 October\"); \"Apenas el 23 de octubre\" is unnatural and could be misread. Replaced with \"El pasado 23 de octubre, hace poco\"-type wording.",
+    "Teaser \"se ha derrumbado\" is fine; no change."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: edificio en obras en una construcción de la zona de Nairobi"
    }
   },
   "welt-masern-usa-zehn-tote-streit-kennedy-2026-11-14": {
@@ -1565,6 +1848,31 @@
     "kl": "EE. UU."
    }
   },
+  "welt-tuerkei-katar-verteidigungspakt-2026-11-14": {
+   "L": {
+    "body": [
+     "Turquía y Catar firmaron el viernes en Estambul un acuerdo de defensa mutua. El presidente Recep Tayyip Erdoğan y el emir Tamim bin Hamad Al Thani acordaron, según Al Jazeera, adoptar una «postura unificada» ante cualquier ataque armado externo contra una de las dos partes. Además, se firmaron otros acuerdos, entre ellos una declaración de intenciones sobre paz, reconciliación y resolución de conflictos.",
+     "La oficina de Erdoğan afirmó que el acuerdo daría a las relaciones «una nueva dimensión» y que Turquía quería evitar, junto con Catar, que la guerra volviera a estallar en la región del Golfo. El emir habló de una «asociación estratégica». El analista de seguridad Yusuf Alabarda dijo a Al Jazeera que Catar, en particular, duda de que las garantías de seguridad de EE. UU. funcionen; a largo plazo, podrían desplegarse armas y sistemas de defensa aérea turcos en Catar.",
+     "El pacto se suma a una serie de nuevas alianzas en el contexto de la guerra entre EE. UU., Israel e Irán. En agosto, Turquía, Pakistán y Arabia Saudí firmaron un pacto de defensa regional, que el Parlamento turco ratificó la semana pasada. En octubre, Catar, Indonesia, Pakistán y Turquía firmaron en Doha una declaración de intenciones sobre cooperación en defensa."
+    ],
+    "d": "Erdoğan y el emir de Catar firmaron en Estambul un acuerdo de defensa mutua. Ambas partes quieren actuar juntas si una de ellas sufre un ataque armado.",
+    "t": "Turquía y Catar firman un pacto de defensa; el Golfo duda de la protección de EE. UU."
+   },
+   "at": "2026-11-14T06:47Z",
+   "h": "93e2a5124ee7",
+   "rev": [
+    "Headline exceeds 90 characters (about 101); shortened while keeping the meaning.",
+    "Indirect speech: 'querría evitar' and 'daría' are acceptable conditionals, but 'Turquía querría evitar' is an unnatural, stilted rendering of 'wolle verhindern'; adjusted slightly, keeping the attribu"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Erdoğan, el emir de Catar, Tamim, y otros jefes de Estado y de Gobierno en una reunión con el presidente de EE. UU., Trump, en la sede de la ONU (2025)"
+   }
+  },
   "wirtschaft-bulgarien-verbot-pelztierzucht-2026-11-14": {
    "L": {
     "body": [
@@ -1615,6 +1923,75 @@
    ],
    "x": {
     "img.alt": "Imagen simbólica: escultura del euro en Fráncfort"
+   }
+  },
+  "wirtschaft-upwork-stellenabbau-37-prozent-2026-11-14": {
+   "L": {
+    "body": [
+     "La plataforma estadounidense de freelancers Upwork elimina bastantes más puestos de los anunciados hasta ahora. El consejo de administración aprobó nuevos recortes el 10 de noviembre, según una comunicación obligatoria publicada el 12 de noviembre. En total, desaparecen así cerca del 37 % de los puestos de trabajo, frente al 24 % aproximado anunciado en mayo. Los costes de reestructuración previstos suben a entre 27 y 37 millones de dólares; antes se habían estimado entre 16 y 23 millones de dólares.",
+     "El negocio de la plataforma se contrae: en el tercer trimestre la empresa facturó 185,6 millones de dólares, y el volumen de encargos gestionados a través de la plataforma cayó un 10,1 % hasta 914,1 millones de dólares. Para el cuarto trimestre, Upwork espera unos ingresos de solo 169 a 177 millones de dólares. La empresa ve crecimiento en los encargos relacionados con la IA, cuya demanda aumentó un 55 % en el tercer trimestre, según Upwork. La reestructuración debería estar en gran parte terminada en el primer trimestre de 2027.",
+     "También el grupo de bebidas y aperitivos PepsiCo recorta puestos en su negocio en Norteamérica para simplificar las estructuras. La empresa ya había confirmado los recortes el lunes, pero sin indicar una cifra. Según Börse Express, el «Wall Street Journal» estima que están afectados unos 1000 puestos de trabajo."
+    ],
+    "d": "Upwork amplía el recorte de empleo a cerca del 37 % de su plantilla. En EE. UU., PepsiCo también anuncia recortes: según el «Wall Street Journal», unos 1000 puestos.",
+    "t": "Upwork recorta más de un tercio de sus puestos; PepsiCo también reduce plantilla"
+   },
+   "at": "2026-11-14T06:47Z",
+   "h": "d3b49807000c",
+   "x": {
+    "img.alt": "Imagen simbólica: puestos de oficina vacíos"
+   }
+  },
+  "wirtschaft-usa-erzeugerpreise-oktober-zinserhoehung-2026-11-14": {
+   "L": {
+    "body": [
+     "Los precios de producción en EE. UU. subieron en octubre un 6,5 % interanual. Así lo comunicó el Departamento de Trabajo estadounidense el viernes. Según dpa-AFX, los economistas esperaban un 6,6 %; en septiembre la tasa fue del 6,3 % y en agosto del 5,4 %. Según TheStreet, es el mayor aumento desde noviembre de 2022. Respecto al mes anterior, los precios subieron un 0,3 %.",
+     "Sin los componentes volátiles de energía y alimentos, la tasa anual fue del 5,0 %. «Los mayores costes de transporte han elevado los precios de producción subyacentes anuales hasta el 5,0 %», dijo Jeffrey Roach, economista jefe de LPL Financial. Los precios de producción se consideran un indicador adelantado de los precios al consumo, porque las empresas suelen trasladar los mayores costes a los clientes.",
+     "Según TheStreet, los mercados financieros descuentan para la reunión de la Reserva Federal del 8 y 9 de diciembre una subida de tipos de un cuarto de punto; la probabilidad de un aumento de medio punto supera, según estas mismas fuentes, el diez por ciento. Austan Goolsbee, presidente de la Fed de Chicago, dijo que el banco central «definitivamente aún tiene trabajo por delante» para restablecer su credibilidad. Según Rio Times, el rendimiento de los bonos estadounidenses a diez años superó la marca del cinco por ciento."
+    ],
+    "d": "Los precios de producción en EE. UU. subieron en octubre al mayor ritmo desde noviembre de 2022. En los mercados se considera probable una subida de tipos de la Fed en diciembre.",
+    "t": "EE. UU.: precios de producción +6,5 %; mercados prevén alza de tipos en diciembre"
+   },
+   "at": "2026-11-14T06:47Z",
+   "h": "70c9aa7be44a",
+   "rev": [
+    "Unnatural wording: 'es, según esto,' is a literal rendering of 'demnach'."
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: el edificio Eccles de la Reserva Federal de EE. UU. en Washington"
+   }
+  },
+  "wirtschaft-voestalpine-kindberg-us-zoelle-stellenabbau-2026-11-14": {
+   "L": {
+    "body": [
+     "El grupo siderúrgico austríaco Voestalpine negocia con el comité de empresa un plan social para unos 150 empleados de su división de tubos Tubulars en Kindberg, en Estiria. Según una consulta de la agencia APA, el plan debería estar listo a finales de noviembre; después seguirán conversaciones individuales con los afectados. Los recortes deben realizarse de forma gradual hasta marzo de 2027. Como motivo, la empresa cita los altos aranceles estadounidenses que se mantienen; aproximadamente el 15 por ciento de la producción se destina a EE. UU.",
+     "Según el consejero delegado Herbert Eibensteiner, los aranceles afectan duramente al negocio de tubos sin soldadura. Dijo que desviar las ventas a clientes del sector energético de Oriente Próximo no es por ahora una opción debido a la guerra en Irán. A nivel del grupo, sin contar la venta de Böhler Profile, está previsto que desaparezcan unos 850 puestos a tiempo completo. La división Metal Engineering registró en el trimestre una caída del resultado operativo (EBITDA) de 15 millones de euros, sobre todo por Tubulars.",
+     "El presidente del SPÖ de Estiria, Max Lercher, advirtió de que, tras los 170 empleos ya perdidos, otros 150 están ahora en peligro en Kindberg. Exigió un escudo protector de la UE de dos años con ayudas transitorias. El presidente del comité de empresa del grupo, Franz Jantscher, apoya una solución europea y señala que los tubos serán necesarios para el futuro suministro de hidrógeno en Europa. Los afectados deberían ser reubicados dentro de la empresa o en compañías de la región; además, la fundación siderúrgica de la propia planta está disponible."
+    ],
+    "d": "Por los altos aranceles estadounidenses a los tubos sin soldadura, el grupo siderúrgico Voestalpine suprime unos 150 empleos en Kindberg, en Estiria. El plan social debería estar listo a finales de noviembre.",
+    "t": "Aranceles de EEUU dañan acero austríaco: Voestalpine recorta 150 empleos en Kindberg"
+   },
+   "at": "2026-11-14T06:47Z",
+   "h": "71d33b82682e",
+   "rev": [
+    "Headline: \"golpean\" is unnatural without an article and the headline is slightly clumsy; kept as is because it is acceptable.",
+    "\"desaparecerían unos 850 puestos\" renders \"sollen ... wegfallen\" with a conditional, which is acceptable but is ambiguous; better to use \"deben desaparecer\" / \"está previsto que desaparezcan\".",
+    "\"Ein Ausweichen ... sei\" is attributed correctly (\"Dijo que\").",
+    "Lercher's statement is attributed correctly (\"advirtió de que\").",
+    "\"Der Abbau soll schrittweise... erfolgen\" is rendered as a plain future; it should reflect \"soll\" (planned).",
+    "Eibensteiner's statement: \"Dijo que\" is fine."
+   ],
+   "rev_dbg": [
+    6,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico del titular: Aranceles de EE. UU. golpean al acero austríaco: Voestalpine recorta 150 empleos en Kindberg"
    }
   }
  }
