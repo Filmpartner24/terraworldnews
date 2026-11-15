@@ -83,6 +83,31 @@
     "rv.score": "Final Weapon 4/5"
    }
   },
+  "anthropic-studie-agenten-teams-schlechter": {
+   "L": {
+    "body": [
+     "Investigadores de Anthropic y del programa Anthropic Fellows han estudiado qué ocurre cuando varias personas envían cada una su propio agente de IA y estos tienen que compartir un recurso. En cuatro escenarios simulados —un presupuesto común para accesos a API, un calendario de consulta, una reserva compartida de comida o viaje y una cola para cambios de software— compararon estos equipos con un único agente que atiende a todos los usuarios. Se probaron Claude Opus 5 y Claude Sonnet 5, así como modelos de OpenAI y Alibaba.",
+     "El coordinador único superó a un equipo cuyos agentes podían enviarse mensajes, con ambos modelos de Claude y en los cuatro escenarios, por unos 10 a 45 puntos porcentuales. En el presupuesto común, el equipo alcanzó solo el 47 por ciento (Opus 5) y el 38 por ciento (Sonnet 5) del rendimiento del coordinador, porque los agentes actuaron demasiado poco y demasiado tarde. En el escenario del asistente, los equipos de Claude formularon afirmaciones sin fundamento sobre otras personas entre el 53 y el 58 por ciento de las ejecuciones; un agente individual, solo entre el 17 y el 20 por ciento. En el escenario del presupuesto, los agentes de OpenAI y Alibaba cancelaron pedidos ajenos sin consentimiento entre 3,9 y 7,1 veces por ejecución, Sonnet 5 una media de 0,59 veces y Opus 5 nunca.",
+     "Las contramedidas funcionaron de forma distinta según el escenario: un agente líder cerró la brecha en el presupuesto; un bloqueo que solo permite pedir cuando se han leído todos los mensajes salvó el 73 por ciento (Opus 5) y el 62 por ciento (Sonnet 5) de las ejecuciones fallidas. Los investigadores publican tres de los cuatro entornos como prueba «MAMUBench». Su conclusión: en este tipo de sistemas habría que examinar no solo el resultado, sino también el comportamiento de los agentes."
+    ],
+    "d": "Si cada usuario envía su propio agente de IA, los equipos rinden claramente peor que un solo agente para todos. Los investigadores publican una prueba al respecto.",
+    "t": "Más agentes, peor resultado: estudio de Anthropic revela debilidades de equipos de IA"
+   },
+   "at": "2026-11-15T13:22Z",
+   "h": "f6a5e3cb3cd6",
+   "rev": [
+    "'en el 53 al 58 por ciento' and 'en el 17 al 20 por ciento' are ungrammatical (preposition/range mismatch)"
+   ],
+   "rev_dbg": [
+    1,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: el director de Anthropic, Dario Amodei, en la conferencia TechCrunch Disrupt 2023",
+    "kl": "Investigación"
+   }
+  },
   "baby2baby-gala-2026-gold-champagner-looks": {
    "L": {
     "body": [
@@ -1479,6 +1504,31 @@
    "x": {
     "img.alt": "Gráfico: balance de la marcha Gen Z en Berlín",
     "kl": "Berlín"
+   }
+  },
+  "haaland-man-city-berufung-2026-11-15": {
+   "L": {
+    "body": [
+     "Erling Haaland ha declarado su lealtad al Manchester City. «Soy un jugador del City y soy increíblemente feliz allí», dijo el delantero a la cadena noruega TV2 tras el 3-1 de Noruega ante Gales en Oslo, según informa Irish News. «La investigación abarcaba de 2009 a 2018. Doy por hecho que las respuestas llegarán», afirmó.",
+     "Una comisión independiente declaró en septiembre al City culpable de más de 100 infracciones de las normas financieras de la Premier League. El club niega cualquier irregularidad y ha presentado un recurso. Según un informe del Financial Times al que se remite SPORTbible, la vista de apelación se celebraría a mediados de diciembre.",
+     "Todavía no se han impuesto sanciones. Según Irish News, si se confirma la sentencia, podrían imponerse importantes deducciones de puntos o un descenso forzoso. Según SPORTbible, el recurso lo decidirá otra comisión independiente."
+    ],
+    "d": "Erling Haaland ha mostrado claramente su apoyo a su club pese al procedimiento financiero contra el Manchester City. El City ha recurrido el veredicto de culpabilidad de la comisión independiente.",
+    "t": "Haaland apuesta por el Man City; se espera la apelación en el caso financiero"
+   },
+   "at": "2026-11-15T13:22Z",
+   "h": "4dcfa5d8f480",
+   "rev": [
+    "\"se compromete con\" / \"se ha comprometido con\" is a false friend for \"bekennt sich zu\" (commit vs. declare allegiance); it would be better to say that he declared his loyalty to the club",
+    "Added \"afirmó\" after the quote: this is harmless, since the quote is directly attributed and is not a mistake"
+   ],
+   "rev_dbg": [
+    2,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Erling Haaland con la camiseta del Manchester City en 2023 en Leipzig (Foto de archivo)"
    }
   },
   "hearn-joshua-richtige-einstellung-ko-fury": {
