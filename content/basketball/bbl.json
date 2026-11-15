@@ -8,7 +8,7 @@
   "tr": "easyCredit BBL (Almanya)"
  },
  "season": "2026/27",
- "asof": "2026-11-14",
+ "asof": "2026-11-15",
  "tables": [
   {
    "name": {},
@@ -36,6 +36,13 @@
      "pa": 641
     },
     {
+     "team": "Telekom Baskets Bonn",
+     "w": 6,
+     "l": 3,
+     "pf": 789,
+     "pa": 731
+    },
+    {
      "team": "ROSTOCK SEAWOLVES",
      "w": 5,
      "l": 3,
@@ -43,18 +50,18 @@
      "pa": 659
     },
     {
-     "team": "Telekom Baskets Bonn",
-     "w": 5,
-     "l": 3,
-     "pf": 704,
-     "pa": 660
-    },
-    {
      "team": "MHP RIESEN Ludwigsburg",
      "w": 5,
      "l": 4,
      "pf": 682,
      "pa": 688
+    },
+    {
+     "team": "ALBA BERLIN",
+     "w": 5,
+     "l": 4,
+     "pf": 785,
+     "pa": 779
     },
     {
      "team": "SKYLINERS",
@@ -66,30 +73,30 @@
     {
      "team": "Fitness First Würzburg Baskets",
      "w": 4,
-     "l": 3,
-     "pf": 570,
-     "pa": 575
+     "l": 4,
+     "pf": 654,
+     "pa": 666
     },
     {
      "team": "BMA365 Bamberg Baskets",
      "w": 4,
-     "l": 4,
-     "pf": 695,
-     "pa": 686
+     "l": 5,
+     "pf": 766,
+     "pa": 771
+    },
+    {
+     "team": "ratiopharm ulm",
+     "w": 4,
+     "l": 5,
+     "pf": 757,
+     "pa": 769
     },
     {
      "team": "EWE Baskets Oldenburg",
      "w": 4,
-     "l": 4,
-     "pf": 595,
-     "pa": 656
-    },
-    {
-     "team": "ALBA BERLIN",
-     "w": 4,
-     "l": 4,
-     "pf": 690,
-     "pa": 702
+     "l": 5,
+     "pf": 672,
+     "pa": 751
     },
     {
      "team": "Basketball Löwen Braunschweig",
@@ -106,25 +113,11 @@
      "pa": 726
     },
     {
-     "team": "ratiopharm ulm",
-     "w": 3,
-     "l": 5,
-     "pf": 660,
-     "pa": 691
-    },
-    {
      "team": "Veolia Towers Hamburg",
-     "w": 2,
+     "w": 3,
      "l": 6,
-     "pf": 659,
-     "pa": 733
-    },
-    {
-     "team": "Science City Jena",
-     "w": 2,
-     "l": 6,
-     "pf": 623,
-     "pa": 709
+     "pf": 750,
+     "pa": 817
     },
     {
      "team": "NINERS Chemnitz",
@@ -132,6 +125,13 @@
      "l": 6,
      "pf": 697,
      "pa": 720
+    },
+    {
+     "team": "Science City Jena",
+     "w": 2,
+     "l": 7,
+     "pf": 701,
+     "pa": 806
     },
     {
      "team": "Phoenix Hagen",
@@ -144,42 +144,6 @@
   }
  ],
  "matches": [
-  {
-   "t1": "ALBA BERLIN",
-   "t2": "Phoenix Hagen",
-   "date": "2026-11-06",
-   "ft": [
-    102,
-    72
-   ]
-  },
-  {
-   "t1": "ROSTOCK SEAWOLVES",
-   "t2": "ratiopharm ulm",
-   "date": "2026-11-07",
-   "ft": [
-    97,
-    87
-   ]
-  },
-  {
-   "t1": "VET-CONCEPT Gladiators Trier",
-   "t2": "BMA365 Bamberg Baskets",
-   "date": "2026-11-07",
-   "ft": [
-    92,
-    79
-   ]
-  },
-  {
-   "t1": "RASTA Vechta",
-   "t2": "NINERS Chemnitz",
-   "date": "2026-11-07",
-   "ft": [
-    99,
-    90
-   ]
-  },
   {
    "t1": "Telekom Baskets Bonn",
    "t2": "Basketball Löwen Braunschweig",
@@ -238,25 +202,37 @@
    "t1": "ratiopharm ulm",
    "t2": "Science City Jena",
    "date": "2026-11-14",
-   "time": "18:30"
+   "ft": [
+    97,
+    78
+   ]
   },
   {
    "t1": "BMA365 Bamberg Baskets",
    "t2": "Telekom Baskets Bonn",
    "date": "2026-11-14",
-   "time": "18:30"
+   "ft": [
+    71,
+    85
+   ]
   },
   {
    "t1": "EWE Baskets Oldenburg",
    "t2": "ALBA BERLIN",
    "date": "2026-11-14",
-   "time": "20:00"
+   "ft": [
+    77,
+    95
+   ]
   },
   {
    "t1": "Veolia Towers Hamburg",
    "t2": "Fitness First Würzburg Baskets",
    "date": "2026-11-14",
-   "time": "20:00"
+   "ft": [
+    91,
+    84
+   ]
   },
   {
    "t1": "SKYLINERS",
@@ -284,6 +260,14 @@
   }
  ],
  "src": [
+  {
+   "n": "easyCredit BBL – Startseite/NewsCenter mit den Ergebnissen vom 14.11.2026 (abgerufen 15.11.2026)",
+   "u": "https://www.easycredit-bbl.de/"
+  },
+  {
+   "n": "dpa/Volksstimme – Alba gelingt erster Liga-Auswärtssieg in dieser Saison (14.11.2026)",
+   "u": "https://www.volksstimme.de/panorama/alba-gelingt-erster-liga-auswartssieg-in-dieser-saison-4356587"
+  },
   {
    "n": "Phoenix Hagen – Bitteres Ende eines kämpferischen Auftritts (79:93 gegen Ludwigsburg, 14.11.2026)",
    "u": "https://www.phoenix-hagen.de/bitteres-ende-eines-kaempferischen-auftritts/"
