@@ -1915,6 +1915,64 @@
     "kl": "Fórmula 1"
    }
   },
+  "ffest-berlinale-wiener-blues-kinostart": {
+   "L": {
+    "body": [
+     "La película austriaca «Wiener Blues – The Loneliest Man in Town», de Tizza Covi y Rainer Frimmel, se estrena el 19 de noviembre en los cines alemanes; la distribuidora es Weltkino. La cinta tuvo su estreno mundial en febrero en la competición de la 76.ª Berlinale. En Austria se proyecta desde el 13 de noviembre, según Stadtkino Wien; en la Viennale 2026 fue la película de clausura.",
+     "En el centro de la historia está el músico de blues vienés Alois Koch, alias Al Cook, que interpreta una versión de sí mismo: desde la muerte de su esposa, el antiguo músico de escenario vive solo en su piso, rodeado de discos, cintas de vídeo y recuerdos. Cuando unos promotores inmobiliarios quieren derribar el edificio, amenaza con perder su hogar, y de ello surge poco a poco, según la distribuidora, la oportunidad de un nuevo comienzo. Weltkino describe la película, de 86 minutos de duración, como una comedia cálida con rasgos autobiográficos y mucha música.",
+     "En la Berlinale, la película recibió una mención de honor del jurado del Premio de Cine de la Gilde (Gilde-Filmpreis). Covi y Frimmel trabajan juntos desde hace años, entre otras, en «La Pivellina», «Der Glanz des Tages» (El brillo del día) y «Mister Universo». La 77.ª Berlinale se celebrará del 10 al 21 de febrero de 2027."
+    ],
+    "d": "La película de Tizza Covi y Rainer Frimmel sobre el músico de blues vienés Al Cook llega a los cines alemanes tras su estreno en la competición de la Berlinale y la clausura de la Viennale.",
+    "t": "«Wiener Blues», película de la Berlinale, se estrena en cines alemanes el 19 de noviembre"
+   },
+   "at": "2026-11-15T04:47Z",
+   "h": "812608b14f44",
+   "rev": [
+    "«Gilde-Filmpreis» left untranslated; render as Spanish (premio del cine de la Gilde)",
+    "«competición de la Berlinale» in the teaser: German says Berlinale-Wettbewerb (sección oficial); acceptable, but 'en la competición' is fine",
+    "Teaser: 'Premiere' ok",
+    "Film title «Der Glanz des Tages» left in German; Spanish release title is 'El brillo del día'",
+    "«entre otras» should be «entre otras películas» for clarity, with gender-neutral 'entre otras'"
+   ],
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ],
+   "x": {
+    "fk": "Berlinale · 10.–21.02.2027",
+    "img.alt": "Foto de archivo: Rainer Frimmel, Al Cook (Alois Koch) y Tizza Covi en el photocall de la Berlinale 2026"
+   }
+  },
+  "ffest-cannes-premier-continent-abidjan": {
+   "L": {
+    "body": [
+     "El Festival de Cannes apoya el proyecto «Premier Continent» en Costa de Marfil. Detrás están el actor Isaach de Bankolé y el director Philippe Lacôte: en Abiyán se prevén una escuela de teatro y cine centrada en la interpretación y un festival internacional de cine, cuya primera edición debería comenzar, según el Festival de Cannes, a finales de 2027. El proyecto se presentó el 26 de octubre en el cine Majestic Ivoire, según informó Cannes el 6 de noviembre.",
+     "El delegado general de Cannes, Thierry Frémaux, viajó con este fin a Abiyán del 25 al 27 de octubre, visitó el futuro recinto de la escuela y se reunió con cineastas y estudiantes. La noche del 26 de octubre presentó en el cine Pathé Cap Sud la película ganadora de la Palma de Oro de este año, «Fjord», de Cristian Mungiu. Según el festival, asistieron la ministra de Cultura, Françoise Remarck, y el ministro de Comunicación, Amadou Coulibaly; la delegación se reunió además con el primer ministro, Robert Beugré Mambé.",
+     "Según Abidjan.net, la escuela se ubicaría en el barrio de Riviera Golf y formaría a actores del país y de la región. También se estudian proyecciones gratuitas al aire libre en varios barrios de Abiyán y la restauración de clásicos del cine marfileño. Ya en 2025, según indicó la propia Cannes, ayudó a crear el centro cinematográfico congoleño en Kinshasa."
+    ],
+    "d": "Isaach de Bankolé y Philippe Lacôte planean una escuela de interpretación y un festival internacional de cine en Costa de Marfil. El jefe de Cannes, Thierry Frémaux, viajó a Abiyán para el arranque.",
+    "t": "Cannes apoya «Premier Continent»: escuela de cine y festival en Abiyán"
+   },
+   "at": "2026-11-15T04:47Z",
+   "h": "113e76b5904c",
+   "rev": [
+    "Hedge lost: the German says the first edition \"soll ... starten\" (is supposed to start), but the draft states \"comenzará\" as a plain fact.",
+    "Teaser: \"zum Start\" was rendered as \"para el arranque\", which is acceptable, so it is left unchanged.",
+    "\"Ya en 2025, según sus propias indicaciones\" is unnatural; changed to \"según sus propias declaraciones\" / \"según indicó la propia Cannes\".",
+    "\"se construirá\" is stronger than \"soll ... entstehen\" (reportedly to be built); changed to the conditional/\"estaría prevista\" form.",
+    "\"Abend\" was rendered as \"tarde\"; changed to \"noche\" to match the German."
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "fk": "Festival de Cannes · 11–22.05.2027",
+    "img.alt": "Foto de archivo: el actor Isaach de Bankolé en un photocall del Festival de Cannes 2026"
+   }
+  },
   "ffest-sundance-boulder-gala-ehrungen": {
    "L": {
     "body": [
