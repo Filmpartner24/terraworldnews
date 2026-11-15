@@ -11,7 +11,7 @@
   "de": "Professional Fighters League",
   "en": "Professional Fighters League"
  },
- "asof": "2026-11-14",
+ "asof": "2026-11-15",
  "champions": [
   {
    "div": {
@@ -20,8 +20,13 @@
     "en": "Heavyweight"
    },
    "limit": "bis 120,2 kg (265 lb)",
-   "name": "Vadim Nemkov",
-   "country": "Russland"
+   "name": "Sergei Bilostenniy",
+   "country": "Russland",
+   "note": {
+    "bg": "Спечели титлата на 14 ноември 2026 г. в Дубай срещу Вадим Немков",
+    "de": "Gewann den Titel am 14. November 2026 in Dubai gegen Vadim Nemkov",
+    "en": "Won the title on November 14, 2026 in Dubai against Vadim Nemkov"
+   }
   },
   {
    "div": {
@@ -146,23 +151,6 @@
  ],
  "upcoming": [
   {
-   "date": "2026-11-14",
-   "place": "Dubai, Vereinigte Arabische Emirate",
-   "f1": "Vadim Nemkov",
-   "f2": "Sergei Bilostenniy",
-   "div": {
-    "bg": "Тежка категория",
-    "de": "Schwergewicht",
-    "en": "Heavyweight"
-   },
-   "title": {
-    "bg": "PFL Dubai – главен двубой, мач за титлата",
-    "de": "PFL Dubai – Hauptkampf, Titelkampf",
-    "en": "PFL Dubai – main event, title fight"
-   },
-   "note": "Coca-Cola Arena; Wiegen: Nemkov 244,6 lb, Bilostenniy 262 lb – alle 26 Kämpfer im Limit"
-  },
-  {
    "date": "2026-12-19",
    "place": "Lyon-Décines, Frankreich",
    "f1": "Taylor Lapilus",
@@ -198,6 +186,27 @@
   }
  ],
  "results": [
+  {
+   "date": "2026-11-14",
+   "place": "Coca-Cola Arena, Dubai, Vereinigte Arabische Emirate",
+   "f1": "Sergei Bilostenniy",
+   "f2": "Vadim Nemkov",
+   "res": {
+    "bg": "единодушно съдийско решение (49-46, 48-47, 48-47)",
+    "de": "einstimmige Punktentscheidung (49-46, 48-47, 48-47)",
+    "en": "unanimous decision (49-46, 48-47, 48-47)"
+   },
+   "div": {
+    "bg": "Тежка категория",
+    "de": "Schwergewicht",
+    "en": "Heavyweight"
+   },
+   "title": {
+    "bg": "PFL Дубай – главен двубой, мач за титла",
+    "de": "PFL Dubai – Hauptkampf, Titelkampf",
+    "en": "PFL Dubai – main event, title fight"
+   }
+  },
   {
    "date": "2026-10-16",
    "place": "Chicago, USA",
@@ -306,6 +315,10 @@
   }
  ],
  "src": [
+  {
+   "n": "Uncrowned/Yahoo Sports – PFL Dubai results (14.11.2026)",
+   "u": "https://sports.yahoo.com/mma/article/pfl-dubai-results-sergei-bilostenniy-stuns-vadim-nemkov-to-seize-heavyweight-title-214434674.html"
+  },
   {
    "n": "PFL – Rankings",
    "u": "https://pflmma.com/rankings"
