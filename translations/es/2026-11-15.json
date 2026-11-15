@@ -186,6 +186,33 @@
     "img.alt": "Foto de archivo: la Asamblea Nacional de Bulgaria en Sofía"
    }
   },
+  "bulgarien-sp-reaktionen-haushalt-2027-2026-11-15": {
+   "L": {
+    "body": [
+     "La decisión de S&P Global Ratings de mantener la calificación de Bulgaria en BBB+/A-2, pero rebajar la perspectiva de positiva a estable, provocó el sábado duras reacciones políticas. Según BNT y Fakti.bg, la agencia prevé para 2026 un déficit presupuestario del 5,1 por ciento y un déficit por cuenta corriente del 8,7 por ciento del PIB. La coalición Bulgaria Democrática exigió reescribir el presupuesto de 2027 con un déficit inferior al 3 por ciento. Martin Dimitrov habló de un nuevo juicio negativo tras el del Consejo Fiscal.",
+     "El exprimer ministro Nikolái Denkov (Continuamos el Cambio) dijo en el programa de BNT «Govori sega» que a continuación podría llegar una perspectiva negativa y que, con este presupuesto amenaza una recesión. El político del GERB Vladislav Goranov señaló, según Fakti.bg, que S&P cambió la perspectiva solo unos meses después de la mejora de mayo. Todor Dzhikov, del gobernante Bulgaria Progresista, replicó que la perspectiva «no se ha rebajado, sino modificado» y afirmó que el proyecto reduce el déficit en tres años. La primera votación en el Parlamento se espera para la próxima semana."
+    ],
+    "d": "Bulgaria Democrática exige un déficit inferior al 3 por ciento y Denkov advierte de recesión. El partido en el Gobierno defiende su proyecto antes de la primera lectura.",
+    "t": "Tras la señal de S&P, la oposición quiere reescribir el presupuesto de 2027; el Gobierno resta importancia"
+   },
+   "at": "2026-11-15T07:12Z",
+   "flag": [
+    "Titel zu lang (106 Zeichen)"
+   ],
+   "h": "0cc839593db1",
+   "rev": [
+    "Indirect speech by Dzhikov: \"afirmó que el proyecto reduce el déficit\" is acceptable, but \"habría riesgo de recesión\" in Denkov's statement is weaker than the German \"drohe eine Rezession\"",
+    "The German says \"könne ... folgen\" and \"drohe\"; the draft's conditional \"habría riesgo\" is odd and slightly changes the meaning"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: el edificio de la Asamblea Nacional de Bulgaria en Sofía"
+   }
+  },
   "bulgarien-trakia-staatsanwalt-prueft-behoerden-2026-11-15": {
    "L": {
     "body": [
@@ -260,6 +287,34 @@
    ],
    "x": {
     "img.alt": "Gráfico de portada: Domingo nublado y fresco: las temperaturas volverán a subir a 20 grados hasta el jueves"
+   }
+  },
+  "deutschland-afd-remigration-weidel-bovino-gottschalk-2026-11-15": {
+   "L": {
+    "body": [
+     "Se agrava la disputa en la AfD sobre la «remigración». Según las investigaciones de Correctiv, la desencadenó un vídeo del copresidente del partido, Tino Chrupalla, que vinculó las pérdidas de los republicanos estadounidenses en las elecciones de mitad de mandato con las duras deportaciones de la agencia ICE y reclamó una política migratoria más humana. El diputado del Bundestag Maximilian Krah rechazó en el portal «Nius» una «remigración de millones de personas»: dijo que, legalmente, solo unas 200.000 personas podrían ser deportadas.",
+     "Por el contrario, el diputado del Bundestag Kay Gottschalk compartió en X un comunicado del extremista de derechas austriaco Martin Sellner y escribió: «La remigración es humana». El concepto de Sellner incluye también a ciudadanos alemanes con historia migratoria. Según la versión de Correctiv, el Tribunal Administrativo Federal dictaminó en 2025 que el concepto preveía la privación de la nacionalidad como medio para crear un «pueblo étnicamente alemán» y que era incompatible con la dignidad humana. El documento de posición de la AfD de 2024 limita el término a los extranjeros obligados a abandonar el país.",
+     "La copresidenta Alice Weidel agradeció en X al antiguo jefe del ICE, Gregory Bovino: «Muchas gracias, Gregory K Bovino. ¡Todo lo mejor para ti! #Remigration». Antes había dicho que, en su opinión, una actuación como la de EE. UU. no sería, desde su punto de vista, el enfoque para Alemania. Correctiv considera que la publicación de Gottschalk podría haber cruzado una línea roja constitucional. El debate llega en un momento en que la AfD podría lograr por primera vez el jefe de gobierno regional en Sajonia-Anhalt en diciembre."
+    ],
+    "d": "Según Correctiv, se agrava el conflicto en la AfD por el término. Un diputado difunde tesis que el Tribunal Administrativo Federal calificó de inconstitucionales.",
+    "t": "«Remigración»: Weidel agradece a exjefe del ICE; Gottschalk comparte idea de Sellner"
+   },
+   "at": "2026-11-15T07:12Z",
+   "h": "e008f8b2967e",
+   "rev": [
+    "Teaser: the German says the Federal Administrative Court classified the theses as unconstitutional, but the draft attributes the claim to Correctiv only partially; this is acceptable, so no change the",
+    "Krah's statement: the Konjunktiv is kept with 'dijo que', but 'pueden ser deportadas' is slightly imprecise; 'solo unas 200.000 personas podrían ser deportadas' keeps the reported-speech sense.",
+    "Court ruling: the tense 'preveía' / 'era' is reported speech and fine; 'desnacionalizaciones' is unnatural for 'Ausbürgerungen' (should be 'privaciones de la nacionalidad').",
+    "Weidel: 'no es el enfoque adecuado' adds 'adecuado' and states the claim flatly; changed to the conditional/subjunctive-style 'no fuera el enfoque para Alemania'.",
+    "'primer ministro regional' is unnatural for Ministerpräsident; 'presidente regional' / 'jefe de gobierno regional' is better."
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Alice Weidel (AfD) habla en la CPAC Hungary 2025"
    }
   },
   "deutschland-asylzahlen-oktober-tiefstand-bmi-2026-11-15": {
@@ -435,6 +490,33 @@
    ],
    "x": {
     "img.alt": "Foto de archivo: vista del interior de una nave de construcción naval de Meyer Werft en Papenburg"
+   }
+  },
+  "deutschland-pantisano-emde-merkel-linke-berlin-2026-11-15": {
+   "L": {
+    "body": [
+     "El líder de La Izquierda, Luigi Pantisano, pidió paciencia en el caso de la polémica diputada berlinesa Vanessa Emde. «Esto dura lo que dura», dijo a la «Neue Osnabrücker Zeitung», según informa el Tagesspiegel. «Vivimos en un Estado de derecho y no en un régimen autoritario». Según Pantisano, Emde se ha descalificado a sí misma. Según el Tagesspiegel, para expulsarla del grupo de 44 miembros se necesita una mayoría de dos tercios de sus integrantes; por un plazo de preaviso, la votación no puede celebrarse antes del 24 de noviembre.",
+     "Emde ganó el 20 de septiembre el escaño directo en Neukölln. Se le reprocha, entre otras cosas, cuestionar el derecho a existir de Israel. Ella rechaza renunciar a su escaño. El caso lastra las negociaciones de coalición entre La Izquierda, los Verdes y el SPD, en marcha desde principios de noviembre. La Izquierda ganó en septiembre las elecciones al Parlamento regional de Berlín y la CDU quedó segunda. La candidata de La Izquierda, Elif Eralp, podría convertirse en alcaldesa gobernante.",
+     "La excanciller Angela Merkel (CDU) se mostró escéptica con la alianza prevista en el pódcast «Kaffee und Fluchen» (13 de noviembre). «Yo no lo haría», dijo refiriéndose al SPD y a los Verdes. Remitió a la resolución de incompatibilidad de la CDU respecto a La Izquierda y afirmó que La Izquierda de Berlín tiene «especialmente un problema» con Israel. Al mismo tiempo, se mostró sorprendida de que el SPD y los Verdes ni siquiera hablen con la CDU."
+    ],
+    "d": "El líder de La Izquierda defendió el largo proceso de expulsión de la diputada de Neukölln. La excanciller Merkel afirmó que no formaría coalición con La Izquierda de Berlín.",
+    "t": "Emde: Pantisano pide paciencia; Merkel disuade a SPD y Verdes del pacto con Izquierda"
+   },
+   "at": "2026-11-15T07:12Z",
+   "h": "6a54239521ee",
+   "rev": [
+    "Teaser: 'afirmó que no formaría coalición' misrepresents the German; the original has Merkel say she would not coalesce, but the verb 'afirmó' is acceptable. Kept.",
+    "Headline too long: over 90 characters",
+    "Body: 'Esto dura lo que dura' is fine; 'Según Pantisano, Emde se ha descalificado' is fine.",
+    "'ni siquiera hablen' is present subjunctive; in indirect speech after 'sorprendida de que' it is acceptable."
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: el edificio del Parlamento regional de Berlín en noviembre de 2013"
    }
   },
   "deutschland-radew-ukraine-hilfe-merz-appell-2026-11-15": {
@@ -889,6 +971,31 @@
     "img.alt": "Gráfico: Alemania desarrolla armas hipersónicas"
    }
   },
+  "invest-deutschland": {
+   "L": {
+    "body": [
+     "Novedad del fin de semana: el fabricante de maquinaria agrícola Lemken suprime unos 200 de sus aproximadamente 1.300 empleos en Alemania. Se ven afectados los dos centros de Alpen (Renania del Norte-Westfalia) y la planta de Haren, en el Ems (Baja Sajonia), prácticamente todas las áreas y niveles. Los agricultores aplazan la compra de nuevas máquinas por los altos costes y la fluctuación de los precios. Primero habrá un programa voluntario (top agrar, citando a «Rheinische Post», 14.11.).",
+     "Meyer Werft, en Papenburg, podría pasar a manos de la naviera ginebrina MSC. Según «Spiegel», el Gobierno federal, el estado de Baja Sajonia y MSC quieren firmar el martes un acuerdo que da a MSC el derecho a comprar cerca del 80 % del astillero. No está confirmado; el estado dejó abierto si firmará (Handelsblatt, 14.11.). El Estado había entrado en 2024 con 400 millones de euros para salvar el astillero.",
+     "En Mercedes-Benz, el responsable de producción, Michael Schiebe, ha planteado, según dpa, el cierre de dos fábricas alemanas si los costes no bajan; el objetivo, según dijo, sería mantener todos los centros (Autohaus, 14.11.). Sebastian Lechner, líder de la CDU en Baja Sajonia, propuso que el estado renuncie temporalmente a su dividendo de VW para un pacto que garantice las plantas de VW (dpa-AFX, 14.11.). Añadido: la empresa de defensa Elbit ha cancelado una implantación en Sangerhausen (Sajonia-Anhalt); se hablaba de unos 400 empleos (Mitteldeutsche Zeitung, 12.11.).",
+     "La tabla incluye 30 entradas del 9 al 15 de noviembre. Las inversiones cuantificadas suman, sin cambios, 490,0 millones de euros (cálculo propio), porque ninguna de las nuevas noticias menciona una cifra de inversión."
+    ],
+    "d": "El fabricante de maquinaria agrícola recorta en Alpen y Haren cerca del 15 % de la plantilla. Según «Spiegel», MSC obtendría el derecho a comprar el 80 % del astillero de Papenburg. En Mercedes se debaten dos fábricas.",
+    "explain": "Para los empleados de la maquinaria agrícola y de la industria del automóvil, la situación sigue siendo tensa. Si Meyer Werft cambia de propietario podría aclararse el martes.",
+    "t": "Lemken suprime 200 empleos; informe: MSC podría entrar en Meyer Werft"
+   },
+   "at": "2026-11-15T07:12Z",
+   "h": "02da3328dd43",
+   "rev": [
+    "Teaser: el German says Lemken cuts about 15 % of jobs; draft says \"de la plantilla\" which is fine, but \"Haren an der Ems\" is an unnatural half-German form; use \"Haren (Ems)\"",
+    "Mercedes: \"según dijo\" attributes the objective to Schiebe, but the German only has indirect speech without explicit \"dijo\"; conditional is already present, so acceptable. \"ha planteado\" okay.",
+    "\"el estado\" lowercase for the federal state is inconsistent with \"el Estado\" for the national state; Land Niedersachsen should be \"el Land de Baja Sajonia\" or \"el estado federado\""
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ]
+  },
   "italien-meta-strafe-805-millionen-galerie-2026-11-15-b08": {
    "L": {
     "body": [
@@ -934,6 +1041,33 @@
    ],
    "x": {
     "img.alt": "Imagen simbólica: sistema de servidor con dos procesadores AMD Epyc 9754 y memoria RAM DDR5"
+   }
+  },
+  "ki-bsi-warnt-danfoss-kuehlsteuerungen-2026-11-15": {
+   "L": {
+    "body": [
+     "La Oficina Federal de Seguridad de la Información (BSI) advirtió el viernes de que siguen existiendo vulnerabilidades en los controladores de refrigeración del tipo AK-SM800A del fabricante danés Danfoss. Según informó Reuters, desconocidos manipularon recientemente a través de estos dispositivos las vitrinas refrigeradas de supermercados. El BSI aconseja comprobar si los dispositivos son accesibles directamente desde internet y, en su caso, desconectarlos de la red. Si fuera necesaria una conexión permanente con otras sedes, esta debería protegerse mediante VPN.",
+     "Según la autoridad, Danfoss no habría proporcionado hasta ahora actualizaciones de software suficientes. «Tampoco los nuevos parches suponen una garantía», advirtió el BSI, ya que en poco tiempo podrían darse a conocer más fallos. La empresa neerlandesa Midnight Blue publicó el 11 de noviembre un informe sobre seis vulnerabilidades hasta ahora desconocidas que podrían permitir un control del dispositivo sin necesidad de iniciar sesión. Según S-EDV, Danfoss lanzó el 12 de noviembre la versión 5.4.0; no está confirmado si esta corrige los fallos.",
+     "La advertencia se enmarca en una oleada mayor. Una semana antes, el FBI, la agencia estadounidense de ciberseguridad CISA y varios ministerios habían alertado de ataques contra reguladores de temperatura conectados a internet en comercios de alimentación y almacenes frigoríficos; previamente se había producido una serie de ciberataques contra instalaciones de refrigeración comerciales en Estados Unidos y Europa. Hasta ahora no está confirmado que las seis nuevas vulnerabilidades ya se estén explotando. Las oleadas de ataques desde octubre iban dirigidas contra dispositivos con una interfaz de administración accesible abiertamente."
+    ],
+    "d": "Tras los ataques a la refrigeración de supermercados, el BSI aconseja desconectar de internet los controladores de Danfoss. Investigadores hallaron seis vulnerabilidades más.",
+    "t": "Frigoríficos hackeados: el BSI alerta de más fallos en controladores de Danfoss"
+   },
+   "at": "2026-11-15T07:12Z",
+   "h": "bfdf09b38c3c",
+   "rev": [
+    "Indirect speech 'Die Behörde kritisiert, Danfoss habe…' is rendered as a plain fact; it needs an explicit attribution as the authority's criticism, with a conditional/subjunctive marker",
+    "'Sei eine dauerhafte Verbindung… nötig, solle sie…' is acceptable with 'debería' and attributed to the BSI via the preceding sentence; no change needed",
+    "'Der Bericht … die eine Übernahme ohne Anmeldung erlauben könnten' is correct",
+    "'Midnight Blue' in German is 'die niederländische Firma'; kept"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: la Oficina Federal de Seguridad de la Información (BSI) en Bonn-Bad Godesberg, vista aérea"
    }
   },
   "ki-faa-ausfall-software-update-statt-hackerangriff-2026-11-15": {
@@ -1541,6 +1675,32 @@
     "img.alt": "Foto de archivo: el Jardín de los Médicos (Doktorska gradina) en Sofía"
    }
   },
+  "metka-metlen-boersengang-athen-2026-11-15": {
+   "L": {
+    "body": [
+     "El grupo industrial griego Metlen Energy & Metals anunció el 11 de noviembre que sacará a bolsa su filial de infraestructuras METKA en Euronext Atenas. Mediante una ampliación de capital, se prevé que entren en las arcas de la empresa unos 250 millones de euros. Además, una sociedad de Metlen vende acciones existentes; ese ingreso irá al grupo, no a METKA. Metlen quiere mantener indirectamente la mayoría. El rango de precios y la fecha de cotización aún no se conocen; se darán a conocer solo tras la aprobación del folleto por el regulador del mercado de capitales griego. Según Fortune Greece, se espera la oferta en los últimos diez días de noviembre y la valoración rondaría los mil millones de euros. El diario económico Naftemporiki informa de que se pretende ofrecer cerca del 30 por ciento de las acciones. La oferta está coordinada, entre otros, por Morgan Stanley, BNP Paribas y Citigroup, así como por varios bancos griegos.",
+     "METKA es más que una constructora. Además de la construcción clásica (METKA ATE), incluye la división M Concessions, dedicada a asociaciones público-privadas (APP) y concesiones, y el proveedor de servicios de edificios UNISON. Según Metlen, la facturación pasó de 364 millones de euros en 2024 a 869 millones de euros en los doce meses hasta junio de 2026, y el EBITDA de 57 a 158 millones de euros; las cifras más recientes no están auditadas. La cartera de pedidos en construcción rondaba a finales de junio los 2.100 millones de euros. En proyectos APP como la circunvalación de Salónica o 17 escuelas bioclimáticas, METKA no solo construye, sino que recibe durante décadas pagos por disponibilidad del sector público: en proporción, unos 1.700 millones de euros con una duración residual ponderada de unos 26 años. El dinero de la salida a bolsa se destinará sobre todo a nuevos proyectos APP y de concesiones. Como distribución de dividendos, METKA aspira a cerca del 35 por ciento del beneficio después de impuestos.",
+     "El presidente del consejo de administración de Metlen, Evangelos Mytilineos, no habla, según el comunicado, de una separación, sino de una evolución natural del modelo del grupo. La empresa ve oportunidades en 19 licitaciones APP en curso y en otros proyectos de infraestructura. Los riesgos (un apartado detallado de riesgos solo llegará con el folleto): se pueden perder licitaciones, parte de la cartera de pedidos aún no está firmada y los actuales altos márgenes de construcción tenderían a normalizarse con el tiempo; a medio plazo, METKA aspira en construcción a un margen de dos dígitos bajos en porcentaje. A ello se suman la dependencia de clientes públicos y la influencia de un accionista mayoritario. Según Metlen, que la salida a bolsa se concrete depende de la situación del mercado y de las autorizaciones. De interés para Bulgaria: además de Grecia, METKA menciona expresamente proyectos seleccionados en el sudeste de Europa como posible ámbito de inversión."
+    ],
+    "d": "El grupo griego Metlen quiere sacar a bolsa su constructora METKA en Euronext Atenas aún en noviembre. Se prevé captar unos 250 millones de euros con nuevas acciones: modelo de negocio, oportunidades y riesgos.",
+    "t": "Construir, operar, cobrar: Metlen saca a bolsa su filial de infraestructuras METKA"
+   },
+   "at": "2026-11-15T07:12Z",
+   "h": "5d060116622e",
+   "rev": [
+    "Teaser: 'noch im November' was rendered as 'este mismo mes', which wrongly assumes the publication month; it should be 'en noviembre'.",
+    "Date: the German says 'zwölf Monate bis Juni 2026' and the draft keeps it, which is consistent, so no change was needed.",
+    "Indirect speech with Fortune Greece is correctly attributed with 'Según' and the conditional 'rondaría'; no change was needed."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico de portada: METKA, filial de infraestructuras de Metlen, antes de su salida a bolsa en Euronext Atenas"
+   }
+  },
   "miersch-spd-junge-waehler-ohrfeige-2026-11-15-b08": {
    "L": {
     "body": [
@@ -1565,6 +1725,57 @@
    "x": {
     "img.alt": "Matthias Miersch en el Bundestag (foto de archivo)"
    }
+  },
+  "millicom-entel-peru-uebernahme-2026-11-15": {
+   "L": {
+    "body": [
+     "El grupo de telefonía móvil Millicom, con sede en Luxemburgo y conocido en Latinoamérica con la marca Tigo, acordó el viernes 13 de noviembre la compra de Entel Perú. El vendedor es el grupo de telecomunicaciones chileno Entel, que cede el 100 % de Entel Perú y de Americatel Perú. Según The Rio Times, el valor empresarial asciende a 1.714 millones de dólares estadounidenses, incluidas las obligaciones de arrendamiento. Eso equivale a 5,3 veces el resultado operativo antes de amortizaciones (EBITDA) de los doce meses hasta junio de 2026 y a 5,0 veces la estimación de Millicom para 2026. El pago se hará a plazos: el 65 % al cierre, el 10 % al cabo de un año y el 25 % a los 18 meses. Según RTTNews, Millicom financia la compra con créditos locales y fondos propios; el cierre está previsto para principios de diciembre.",
+     "Para Entel, la venta supone un repliegue hacia su mercado de origen. Según Latin Times, la empresa llegó a Perú en 2013 con la compra del negocio de Nextel por unos 400 millones de dólares. Entel Perú tiene algo más de diez millones de clientes y representa en torno al 36 % de la facturación del grupo. Según The Rio Times, el director general de Entel, Antonio Büchi, quiere concentrarse en adelante en Chile, sobre todo en internet para el hogar y servicios digitales. Entel prevé una ganancia neta extraordinaria de unos 98.000 millones de pesos chilenos. El consejo de administración quiere proponer un dividendo de 2.100 pesos por acción, pero solo si se completa la venta. Los accionistas votarán el 30 de noviembre. La acción de Entel cerró el viernes con una subida del 12,2 %; la de Millicom cedió un 1,86 % en la sesión regular.",
+     "Millicom continúa así una serie de adquisiciones: antes había comprado, entre otras, las filiales de Telefónica en Uruguay y Ecuador, así como Movistar Chile. Con Perú, Tigo estaría presente en 13 mercados de Latinoamérica. Las oportunidades: mayor tamaño y, según Millicom, margen para más eficiencia y mayor generación de caja; el grupo espera que la compra aumente ya en el primer año tras el cierre el flujo de caja libre para los accionistas. Los riesgos: toda adquisición debe integrarse primero, los pagos escalonados inmovilizan dinero hasta aproximadamente mediados de 2028 y en Perú Tigo se enfrenta a competidores fuertes como Claro y Movistar. Los informes difieren sobre si deben dar su aprobación las autoridades peruanas y cuáles. Hasta ahora no se han anunciado cambios en tarifas o contratos para la clientela."
+    ],
+    "d": "El grupo de telefonía móvil Millicom adquiere el negocio peruano de la chilena Entel. Los accionistas de Entel podrían recibir un dividendo especial; Millicom gana tamaño y también obligaciones.",
+    "t": "Tigo da el salto a Perú: Millicom compra Entel Perú por 1.700 millones de dólares"
+   },
+   "at": "2026-11-15T07:12Z",
+   "h": "65dac243a894",
+   "rev": [
+    "Teaser: the German says Entel shareholders can expect a special dividend (\"winkt\") and Millicom's size and obligations grow; \"podrían recibir\" is acceptable, but the dividend is conditional on the sal",
+    "Headline: \"1.700 millones\" is a rounded form of 1,7 Milliarden, which matches the German; no change needed.",
+    "Sentence about authorities: missing the preposition \"a\" before \"autoridades peruanas\" (grammar, and it is ambiguous as to subject).",
+    "The Indirect speech sentence \"Con Perú, Tigo estaría presente\" already uses the conditional, so it is fine."
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico de portada: Millicom adquiere Entel Perú por 1.714 millones de dólares estadounidenses"
+   }
+  },
+  "strom-ibex": {
+   "L": {
+    "body": [
+     "En el mercado diario de la bolsa eléctrica búlgara IBEX (BNEB), productores, comercializadores y grandes empresas compran y venden electricidad al por mayor. El precio de cada hora del día siguiente se fija el día anterior en una subasta. Para el domingo 15 de noviembre, la media diaria (Base) es de 183,96 euros por megavatio hora sin IVA. Es un 11,52 % menos que el sábado, con 207,91 euros.",
+     "Esta vez la electricidad diurna es más barata que la nocturna. En horas punta (Peak, horas 9–20) el megavatio hora cuesta 180,05 euros (−13,55 %). En horas valle (Off-Peak, horas 1–8 y 21–24) son 187,87 euros (−9,48 %). Así, las horas valle son 7,82 euros más caras que las horas punta (cálculo propio).",
+     "Pese a ser domingo, se negocia más electricidad: 98.734,52 megavatios hora, un 15,85 % más que los 85.224,95 MWh del sábado (cálculo propio). A las horas punta corresponden 52.754,42 MWh y a las horas valle 45.980,10 MWh. Los propios datos de la bolsa no indican ningún motivo del movimiento de precios."
+    ],
+    "d": "El precio medio de IBEX para el 15 de noviembre es de 183,96 euros por megavatio hora sin IVA, un 11,52 % menos que el sábado. El mayor descenso se da durante el día. Se negocia casi un 16 % más.",
+    "explain": "Las empresas que compran electricidad a precios de bolsa pagan el domingo, de media, algo más de un noveno menos que el sábado. Los hogares pagan precios fijados por el regulador KEVR, por lo que su factura no cambia directamente.",
+    "t": "Electricidad en bolsa en Bulgaria, un 11,5 % más barata el domingo: 183,96 €/MWh"
+   },
+   "at": "2026-11-15T07:12Z",
+   "h": "ce5cc134526e",
+   "rev": [
+    "Teaser: 'Am stärksten fällt der Preis tagsüber' was rendered as 'El mayor descenso se da durante el día', which is fine, so no change was needed.",
+    "Explain: 'gut ein Neuntel' rendered as 'algo más de una novena parte', which is acceptable but unnatural; changed to 'un noveno'.",
+    "Title: 'Börsenstrom' contains no error; kept."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ]
   },
   "ufc-334-gane-hokit-titel-2026-11-15-b08": {
    "L": {
@@ -1697,6 +1908,33 @@
    ],
    "x": {
     "img.alt": "Foto de archivo: el horizonte de Riad (2018)"
+   }
+  },
+  "welt-istgh-afghanistan-us-soldaten-ermittlungen-eingestellt-2026-11-15": {
+   "L": {
+    "body": [
+     "La Corte Penal Internacional (CPI) de La Haya ha puesto fin a la investigación sobre presuntos crímenes de soldados estadounidenses en Afganistán. En una decisión adoptada el jueves y publicada el viernes, los jueces ordenaron a la Fiscalía centrarse en los actos de los talibanes desde agosto de 2021. Según Al Jazeera, como justificación señalaron «importantes limitaciones» de la Fiscalía para llevar a cabo investigaciones y asegurar pruebas. También se cerró la parte relativa a la filial afgana de la milicia terrorista Estado Islámico (ISKP).",
+     "La Fiscalía comunicó a AP y Reuters que ya había presentado un recurso de apelación. La investigación, abierta en 2020, abarcaba presuntos actos de las fuerzas del Gobierno afgano, de los talibanes, de soldados estadounidenses y de agentes de inteligencia desde 2002. El entonces fiscal jefe, Karim Khan, había aplazado en 2021 la investigación contra las fuerzas estadounidenses. El secretario de Estado de EE. UU., Marco Rubio, declaró: «El presidente Trump nunca permitirá que la Corte Penal Internacional persiga a estadounidenses». Washington ha impuesto sanciones a 13 empleados actuales y anteriores de la corte."
+    ],
+    "d": "Los jueces ordenaron a la Fiscalía centrarse en los crímenes de los talibanes desde 2021. La Fiscalía ya ha presentado un recurso de apelación.",
+    "t": "La Corte Penal Internacional cierra la investigación sobre soldados de EE. UU. en Afganistán"
+   },
+   "at": "2026-11-15T07:12Z",
+   "flag": [
+    "Titel zu lang (92 Zeichen)"
+   ],
+   "h": "c26285761fe6",
+   "rev": [
+    "Indirect speech rendered with a conditional 'habría presentado', which suggests doubt or a hypothesis. The attribution is already explicit ('comunicó a AP y Reuters'), so the sentence should use a reg",
+    "The decision was taken on Thursday and published on Friday; the draft is correct there."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: el edificio de la Corte Penal Internacional en La Haya (2022)"
    }
   },
   "welt-netanjahu-eisenkot-iran-angriffe-mossad-2026-11-15": {
