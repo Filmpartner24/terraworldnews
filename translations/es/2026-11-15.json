@@ -249,6 +249,36 @@
     "kl": "Berlín"
    }
   },
+  "berlin-lichtenberg-messerstiche-einkaufszentrum-2026-11-15-b1830": {
+   "L": {
+    "body": [
+     "En Berlín-Lichtenberg fue hallado el sábado por la noche un joven con varias puñaladas. Según la Policía de Berlín, un testigo llamó al número de emergencias hacia las 19:45 porque un hombre yacía en el suelo de un centro comercial de la calle Herzbergstraße. Los servicios de rescate constataron en el joven de 20 años varias heridas por arma blanca en la zona de la espalda y lo trasladaron a un hospital.",
+     "Allí el hombre tuvo que ser operado de urgencia. Debido a su estado de salud, hasta ahora no ha podido ser interrogado sobre cómo se produjeron las heridas, según la policía. La policía no mencionó de momento indicios de un sospechoso ni un posible móvil.",
+     "Una comisaría especializada de la Dirección de Policía 3 (Este) se ha hecho cargo de las investigaciones por lesiones peligrosas. La Policía de Berlín había hecho público el caso el domingo en sus comunicados policiales."
+    ],
+    "d": "En un centro comercial de Berlín-Lichtenberg fue hallado un joven de 20 años con varias puñaladas en la espalda. Tuvo que ser operado de urgencia; una comisaría especializada investiga el caso.",
+    "t": "Lichtenberg: hallan a un joven de 20 años apuñalado en un centro comercial"
+   },
+   "at": "2026-11-15T17:18Z",
+   "h": "6725a1363892",
+   "rev": [
+    "\"Samstagabend\" rendered as \"sábado por la tarde\"; 19:45 is evening (noche/tarde-noche), changed to \"la noche del sábado\"",
+    "\"gefährliche Körperverletzung\" is a specific offence, rendered too loosely as \"lesiones graves\"; corrected to \"lesiones peligrosas\" (legal term lesiones con medios peligrosos)",
+    "\"Herzbergstraße\" is a street name: \"calle Herzbergstraße\" is more natural",
+    "\"Einsatzfahrzeug\" rendered as plain \"Vehículo\"; \"vehículo policial\" is more accurate",
+    "\"Rettungskräfte\" is fine; \"Fachkommissariat\" ok",
+    "Teaser \"apuñalado\" in headline loses \"Not-OP\" but is acceptable"
+   ],
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Vehículo de intervención de la Policía de Berlín – Imagen simbólica",
+    "kl": "Berlín"
+   }
+  },
   "berlin-tiergarten-kind-bus-unfall-2026-11-15-b11": {
    "L": {
     "body": [
@@ -417,6 +447,32 @@
    ],
    "x": {
     "img.alt": "Imagen simbólica: carretera entre Vidin y Montana"
+   }
+  },
+  "bulgarien-flagge-kopfueber-strassentote-petition-2026-11-15-b1830": {
+   "L": {
+    "body": [
+     "Con una bandera nacional izada al revés, la asociación búlgara de víctimas de accidentes de tráfico dio la voz de alarma el domingo. La acción tuvo lugar al inicio de la autopista Trakia, en las afueras de Sofía, en el mismo tramo en el que esta semana se produjeron dos graves colisiones múltiples con víctimas mortales; en la más grave murieron 13 personas. El motivo fue el Día Mundial en Recuerdo de las Víctimas de Accidentes de Tráfico, que se conmemora cada año el tercer domingo de noviembre. Una bandera invertida sería una señal de que un país atraviesa una crisis, explicó un portavoz de la asociación. Según sus palabras, en las carreteras de Bulgaria han muerto en los últimos 20 años más personas que soldados perdió el país en la Segunda Guerra Mundial.",
+     "Al mismo tiempo, la asociación presentó una petición en todo el país que, según la agencia de noticias BTA, ya ha reunido casi 200.000 firmas. Se entregará a la Asamblea Nacional y al Consejo de Ministros. El núcleo de las demandas: el dinero del fondo de seguridad vial, que se nutre sobre todo de multas y que, según un informe del Tribunal de Cuentas, contiene cientos de millones, debería destinarse realmente a carreteras más seguras y no solo a prioridades del Ministerio del Interior. Además, los activistas exigen que se corrijan con prioridad los tramos más peligrosos del país: falta de guardarraíles, baches, señalización de advertencia insuficiente. También tendría que cambiar el comportamiento de los conductores, pero sin una infraestructura segura eso no basta, afirmaron.",
+     "Las cifras subrayan la presión: desde principios de año, según el Ministerio del Interior, 442 personas han muerto en accidentes de tráfico y 7480 han resultado heridas; en total hubo 5998 accidentes con daños personales. Bulgaria figura desde hace años entre los países de la UE con mayor número de muertos en carretera en relación con la población. Durante el acto, una fundación y una parroquia anunciaron además una donación de 30.000 euros para las víctimas de la colisión múltiple de la Trakia. También en otras ciudades, como Lovech y Stara Zagora, se recordó a los fallecidos con actos conmemorativos."
+    ],
+    "d": "En el día de recuerdo de las víctimas de tráfico, víctimas de accidentes izan en Sofía la bandera nacional al revés. Su petición se dirige al Parlamento y al Gobierno.",
+    "t": "Bandera al revés en la Trakia: casi 200.000 piden el fin de la «guerra en las carreteras»"
+   },
+   "at": "2026-11-15T17:18Z",
+   "h": "d5af6da97039",
+   "rev": [
+    "Teaser: 'Unfallopfer' rendered as 'supervivientes de accidentes', which is a narrowing/addition (victims, not necessarily survivors)",
+    "Indirect speech 'Eine umgedrehte Flagge sei ein Zeichen…' read as plain fact; 'explicó un portavoz' follows but the clause itself is not conditional/attributed in form",
+    "Indirect speech: the final sentence in paragraph 2 has 'afirmaron' attached, but 'también tendría que cambiar' is awkward; it is acceptable, so only the first one is changed"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Autopista Trakia – Foto de archivo"
    }
   },
   "bulgarien-hemus-lkw-beschraenkung-topli-dol-2026-11-15": {
@@ -1142,6 +1198,34 @@
     "img.alt": "Sede de Adidas en Herzogenaurach (Foto de archivo)"
    }
   },
+  "dfb-zeugwart-heller-abschied-oranje-2026-11-15-b1830": {
+   "L": {
+    "body": [
+     "En el último entrenamiento, el seleccionador Jürgen Klopp homenajeó al utillero Jan Heller, que deja la DFB tras 14 años. Según BILD, el partido de la Liga de Naciones contra los Países Bajos, el lunes a las 20:45 en el Olímpico de Berlín, será su último servicio como empleado de la DFB. Heller, de 60 años, se incorporó en febrero de 2001 al comité organizador del Mundial de 2006 y es utillero de la selección desde 2012.",
+     "Heller ya ha formado a su sucesor, Boban Aleric; según BILD, el relevo debería producirse sin contratiempos. En una rueda de prensa con Klopp y Kai Havertz se prevé despedir oficialmente a Heller y a otros empleados que se marchan.",
+     "En lo deportivo, Klopp no tiene preocupaciones, según SID: los 24 jugadores participaron el domingo por la mañana en el último entrenamiento en Herzogenaurach, aunque el seleccionador aún debe descartar a un jugador de la convocatoria del partido. Después, el equipo voló de Núremberg a Berlín. Según se indica, con una victoria Alemania estaría sin duda en cuartos de final; un empate bastaría si Grecia pierde a la vez contra Serbia, que no tiene puntos."
+    ],
+    "d": "Antes de la final del lunes en Berlín contra los Países Bajos, la DFB se despide del utillero Jan Heller. El seleccionador Klopp no tiene problemas de plantilla: los 24 jugadores entrenaron.",
+    "t": "Tras 14 años: el utillero de la DFB, Heller, ante su último partido; Klopp sin bajas"
+   },
+   "at": "2026-11-15T17:18Z",
+   "h": "82771d39c8a3",
+   "rev": [
+    "Titular: «Klopp sin bajas» no equivale a «sin Personalsorgen» de forma exacta, pero es aceptable; sin cambio.",
+    "Cuerpo: «Según se indica» añadido sin base en el original; el pasaje es Konjunktiv (wäre/reicht) y el condicional ya basta, pero el añadido se mantiene como marcador; sin cambio necesario.",
+    "«Heller… se despedirá oficialmente» perdió el matiz de «sollen» (se prevé que); se corrige.",
+    "«Núremberg» vs. Herzogenaurach: correcto según el original.",
+    "«Final» (Endspiel) en un partido de la Liga de Naciones con cuartos de final en juego: se mantiene según el original."
+   ],
+   "rev_dbg": [
+    5,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Camiseta de la selección alemana – Imagen simbólica"
+   }
+  },
   "dobritsch-baltschik-unfall-drei-tote-2026-11-15-b08": {
    "L": {
     "body": [
@@ -1477,6 +1561,66 @@
     "img.alt": "Foto de archivo: el inventor Ernő Rubik (centro) con el presidente de Hungría, János Áder, y el speedcuber Anthony Brooks"
    }
   },
+  "ext-freeride-loschi-2026-11-15": {
+   "L": {
+    "body": [
+     "Red Bull muestra las mejores escenas de la ganadora del primer Natural Selection Ski, con grandes saltos en terreno empinado."
+    ],
+    "d": "Red Bull muestra las mejores escenas de la ganadora del primer Natural Selection Ski, con grandes saltos en terreno empinado.",
+    "t": "La esquiadora de freeride Manon Loschi en acción"
+   },
+   "at": "2026-11-15T17:18Z",
+   "h": "8ccef14c573b",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Freerider en nieve profunda (Imagen simbólica)",
+    "kl": "Deportes extremos"
+   }
+  },
+  "ext-hard-enduro-2026-11-15": {
+   "L": {
+    "body": [
+     "Los momentos más salvajes de 30 años de Red Bull Erzbergrodeo, con Manuel Lettenbichler, Billy Bolt, Graham Jarvis y Jonny Walker."
+    ],
+    "d": "Los momentos más salvajes de 30 años de Red Bull Erzbergrodeo, con Manuel Lettenbichler, Billy Bolt, Graham Jarvis y Jonny Walker.",
+    "t": "Caídas y rescates en el Erzberg"
+   },
+   "at": "2026-11-15T17:18Z",
+   "h": "0a8e646da81c",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Piloto de hard enduro en terreno rocoso (Imagen simbólica)",
+    "kl": "Deporte extremo"
+   }
+  },
+  "ext-surf-siargao-2026-11-15": {
+   "L": {
+    "body": [
+     "La World Surf League muestra todas las olas con puntuación excelente de la nueva parada del circuito, entre ellas las de Gabriel Medina y Caitlin Simmers."
+    ],
+    "d": "La World Surf League muestra todas las olas con puntuación excelente de la nueva parada del circuito, entre ellas las de Gabriel Medina y Caitlin Simmers.",
+    "t": "Todas las mejores olas del Philippines Pro"
+   },
+   "at": "2026-11-15T17:18Z",
+   "h": "b9abeb7d0548",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Surfista en la isla de Siargao, Filipinas (Imagen simbólica)",
+    "kl": "Deportes extremos"
+   }
+  },
   "f1-fia-sperrt-journalist-daily-mail-boykott-2026-11-15": {
    "L": {
     "body": [
@@ -1777,6 +1921,32 @@
     "img.alt": "Bandera arcoíris – Imagen simbólica"
    }
   },
+  "frankreich-tuerkei-mbappe-zidane-2026-11-15-b1830": {
+   "L": {
+    "body": [
+     "Para Francia está todo en juego el domingo por la noche (20:45) en Burdeos: en el último partido de grupo de la Liga de Naciones contra Turquía, a la selección francesa le basta un empate para entrar en los cuartos de final. Francia e Italia están igualadas con diez puntos en el Grupo A1, y los franceses son segundos. Italia juega en paralelo en Bélgica.",
+     "El seleccionador Zinédine Zidane vuelve a poder contar con Kylian Mbappé. El delantero del Real Madrid se perdió la derrota ante Italia por problemas en el muslo. «Mañana estará con nosotros», dijo Zidane, según AFP. Según Zidane, el regreso lo cambia «todo»: «Prefiero tenerlo conmigo que no tenerlo».",
+     "Zidane rechazó los informes sobre tensiones: «No puedo impedir que la gente diga lo que dice, pero es una tontería y bastante irritante». Mbappé ya ha marcado 17 goles oficiales esta temporada con el Real Madrid."
+    ],
+    "d": "Francia necesita esta noche al menos un empate en Burdeos ante Turquía para los cuartos de la Liga de Naciones. Zidane puede volver a contar con Kylian Mbappé.",
+    "t": "Francia-Turquía: Mbappé vuelve; Zidane: «Lo cambia todo»"
+   },
+   "at": "2026-11-15T17:18Z",
+   "h": "b63c2cb5d226",
+   "rev": [
+    "Indirect speech is attributed (\"Según Zidane\"), so that part is fine, but \"Équipe Tricolore\" is a proper name and may stay; \"Équipe Tricolore\" left untranslated is acceptable, but a more natural Spani",
+    "Teaser: \"heute Abend\" rendered as \"esta noche\" is acceptable; no change needed",
+    "\"Berichte über Spannungen\" translated correctly"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Selección de Francia – Foto de archivo"
+   }
+  },
   "fulghum-schlaegt-pacheco-carson": {
    "L": {
     "body": [
@@ -1915,6 +2085,26 @@
    "x": {
     "img.alt": "Mano sosteniendo un smartphone (imagen simbólica)",
     "kl": "Amor y relaciones"
+   }
+  },
+  "gwr-pferdeschweif-2026-11-15": {
+   "L": {
+    "body": [
+     "Récord: la cola de la yegua estadounidense Jenny, alias «Mountjoy’s Ice Princess», mide 412,62 centímetros."
+    ],
+    "d": "Récord: la cola de la yegua estadounidense Jenny, alias «Mountjoy’s Ice Princess», mide 412,62 centímetros.",
+    "t": "La yegua Jenny tiene la cola de caballo más larga del mundo"
+   },
+   "at": "2026-11-15T17:18Z",
+   "h": "4a1e9e2aa5ea",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Caballo negro con la cola ondeando al viento (Imagen simbólica)",
+    "kl": "Récords Guinness"
    }
   },
   "haaland-man-city-berufung-2026-11-15": {
@@ -2179,6 +2369,27 @@
    "x": {
     "img.alt": "Imagen simbólica: el sitio web de la plataforma de IA Hugging Face bajo la lupa",
     "kl": "Código abierto"
+   }
+  },
+  "insa-sonntagstrend-union-19-prozent-2026-11-15-b1830": {
+   "L": {
+    "body": [
+     "La Unión sigue sin salir del bache en la intención de voto. Según el nuevo INSA-Sonntagstrend, publicado el domingo, la CDU y la CSU alcanzan el 19 % y pierden de nuevo medio punto. La AfD lidera con claridad con el 28 % (menos 0,5). Le siguen Los Verdes con el 15 % (más 0,5) y el SPD, que se mantiene sin cambios en el 14 %. La Izquierda llega al 10 % (más 0,5).",
+     "Según la encuesta, el FDP volvería a entrar por poco en el Bundestag con el 5 %, mientras que el BSW estaría en el 3 %. Los demás partidos suman el 6 %. La coalición negro-roja del canciller Friedrich Merz sumaría en conjunto solo el 33 % y estaría así lejos de una mayoría propia. Ya la semana anterior la Unión estaba por debajo del 20 %.",
+     "Para la encuesta, INSA entrevistó del 9 al 13 de noviembre a 1.204 personas con derecho a voto por teléfono y en línea. Las cifras se conocen en un momento en que la coalición discute sobre política fiscal y la reducción del impuesto sobre la electricidad. Las encuestas solo reflejan una instantánea y conllevan incertidumbres estadísticas."
+    ],
+    "d": "En el nuevo INSA-Sonntagstrend la Unión sigue por debajo del 20 % y la AfD le saca nueve puntos. Los Verdes y La Izquierda suben ligeramente; la coalición de la Unión y el SPD solo obtendría el 33 %.",
+    "t": "Encuesta INSA: AfD al 28 %, la Unión se queda en el 19 % – coalición negro-roja solo 33 %"
+   },
+   "at": "2026-11-15T17:18Z",
+   "h": "4e8818782018",
+   "rev_dbg": [
+    3,
+    2,
+    1
+   ],
+   "x": {
+    "img.alt": "Urna electoral – Imagen simbólica"
    }
   },
   "invest-bulgarien": {
@@ -2753,6 +2964,32 @@
      "Venta general: 19.11.2026, 10:00, hora local"
     ],
     "img.alt": "Foto de archivo: Sam Fender en un concierto en Leeds en 2019"
+   }
+  },
+  "lamborghini-nahost-temerario-premiere-la-2026": {
+   "L": {
+    "body": [
+     "Lamborghini puede volver a entregar con normalidad en Oriente Medio. En abril, el fabricante había suspendido por completo las ventas y entregas allí debido al conflicto en la región. «En septiembre y octubre ha mejorado nuestra capacidad de entregar los vehículos», dijo el responsable de ventas y marketing, Federico Foschini, ante periodistas en la sede de la empresa en Sant'Agata Bolognese, según Reuters. Más previsiones serían difíciles, dijo; según Reuters, las perspectivas siguen siendo muy inciertas. La región representa unos 450 coches al año, alrededor del cinco por ciento de las ventas, y se considera especialmente rentable en márgenes.",
+     "Según Foschini, los planes para un coche totalmente eléctrico están en suspenso; sin embargo, la investigación continuaría, porque «tarde o temprano» habría que abordar esta tecnología.",
+     "En cuanto a los modelos, se acerca el próximo estreno: Lamborghini anunció que el primer derivado de la familia Temerario celebrará su estreno mundial la próxima semana; según una invitación a los medios, la presentación está prevista para el 18 de noviembre en Los Ángeles. Se espera una versión descapotable Spyder del superdeportivo híbrido con 920 CV, algo que Lamborghini no ha confirmado hasta ahora."
+    ],
+    "d": "Según Lamborghini, las entregas a Oriente Medio, detenidas en abril, vuelven a la normalidad. El 18 de noviembre la marca mostrará en Los Ángeles el primer derivado del Temerario.",
+    "t": "Lamborghini vuelve a entregar en Oriente Medio; nuevo Temerario llega a Los Ángeles"
+   },
+   "at": "2026-11-15T17:18Z",
+   "h": "548c97fda899",
+   "rev": [
+    "\"Añadió que es difícil hacer más previsiones\" renders the Konjunktiv \"seien ... schwierig, sagte er\" as a plain fact; it needs an explicit \"dijo\" attribution.",
+    "Headline: \"Los Ángeles\" is fine, but \"entregar\" is used without an object; this is acceptable, so no change.",
+    "\"la próxima semana\" is consistent with the German; no change."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Lamborghini Temerario Coupé: no es el nuevo modelo (imagen simbólica)"
    }
   },
   "langchain-300-millionen-langsmith": {
@@ -3354,6 +3591,37 @@
     "kl": "Financiación"
    }
   },
+  "merz-csu-vorstand-aigner-2026-11-15-b1830": {
+   "L": {
+    "body": [
+     "El canciller federal Friedrich Merz (CDU) viaja el lunes a Múnich y participa allí en la reunión de la junta directiva de la CSU. Así lo informó el domingo la agencia de noticias alemana dpa. Es la primera vez que Merz asiste como canciller a una reunión de la junta directiva de la CSU. Según la CSU, el último invitado de este tipo fue hace muchos años Angela Merkel, entonces en una reunión a puerta cerrada de la junta. Tras la reunión está prevista una rueda de prensa conjunta con el presidente de la CSU, Markus Söder.",
+     "Según dpa, la visita estaba prevista desde hacía tiempo, pero ha cobrado un peso adicional por la reciente decisión de personal. Hace aproximadamente una semana, la presidenta del Parlamento regional bávaro, Ilse Aigner (CSU), fue designada candidata de la Unión al cargo de presidenta federal; Merz la había propuesto oficialmente. Aigner debe suceder a Frank-Walter Steinmeier. Según el informe, además de la CDU y la CSU, también el socio de coalición SPD y los Verdes apoyan su candidatura.",
+     "A finales de octubre, Merz ya había hablado en el congreso del partido de la CSU en Múnich y recibió muchos aplausos, pero entonces no mencionó la búsqueda de un sucesor de Steinmeier. La comparecencia en Múnich se produce en una fase difícil para la Unión: en las encuestas actuales, la CDU y la CSU están por debajo del 20 por ciento."
+    ],
+    "d": "El canciller Merz participa el lunes en Múnich en la reunión de la junta directiva de la CSU, por primera vez en su mandato. Después está prevista una comparecencia conjunta con el líder del partido, Söder.",
+    "t": "Estreno tras la elección de Aigner: Merz asiste como canciller a la junta de la CSU"
+   },
+   "at": "2026-11-15T17:18Z",
+   "h": "19077b01ae36",
+   "rev": [
+    "Headline omits the 'Aigner-Kür' context from the German original",
+    "'Deutsche Presse-Agentur' left untranslated in the draft",
+    "'Personalentscheidung' rendered literally as 'decisión sobre personas'",
+    "'Klausur' rendered awkwardly as 'reunión de retiro'",
+    "'Bundespräsidentin' rendered as 'presidencia federal', and the feminine form is lost",
+    "'dem Bericht zufolge' rendered as 'Según el informe' (should be the dpa report)",
+    "'Parteitag' rendered as 'congreso', acceptable but 'congreso del partido' is clearer",
+    "'Los Verdes' should be 'los Verdes'"
+   ],
+   "rev_dbg": [
+    9,
+    7,
+    0
+   ],
+   "x": {
+    "img.alt": "Friedrich Merz – Foto de archivo"
+   }
+  },
   "metka-metlen-boersengang-athen-2026-11-15": {
    "L": {
     "body": [
@@ -3779,6 +4047,28 @@
    "x": {
     "img.alt": "Aesop Rock en la Capitol Hill Block Party de Seattle en 2007 (foto de archivo)",
     "rv.score": "RIFF Magazine: 7/10"
+   }
+  },
+  "review-iron-savior-deathbringer": {
+   "L": {
+    "body": [
+     "Iron Savior publicaron el 13 de noviembre su nuevo álbum «Deathbringer» con Frontiers. Es un álbum conceptual de ciencia ficción: tras 200 años de paz, regresan los «Shadows», un enemigo de la humanidad de aspecto insectoide al que deben hacer frente la banda y la «Alianza». El cantante y guitarrista Piet Sielck ha compuesto todas las canciones y ha producido, mezclado y masterizado el álbum él mismo en su Powerhouse Studio. La formación incluye además al guitarrista Joachim «Piesel» Küstner, al bajista Patrick Opitz y al batería Patrick Klose.",
+     "El disco incluye 13 temas, entre ellos los bonus tracks «No Deal» y «Fever», una versión de Judas Priest. Metal Hammer (Simon Ludwig) califica «Deathbringer» de «una obra conceptual absolutamente arrolladora» y le da 5 de 7 puntos. La crítica destaca la mezcla de power metal bombástico e himnico con speed metal afilado, además de tormentas de doble bombo, estribillos ascendentes y solos llamativos, por ejemplo en el tema que da título al disco, con una introducción de teclados de ciencia ficción, así como en «Light In The Dark» y «Gunslinger».",
+     "La trama, de aire algo infantil según la reseña, es mejor separarla de la música, que resulta claramente más seria. La conclusión, según la reseña: habría «algo para todos». Como primer sencillo se publicó «Back From The Fires Of Hell»; el vídeo visualizer oficial está en el canal de YouTube del sello Frontiers."
+    ],
+    "d": "La banda de Piet Sielck cuenta una historia de ciencia ficción sobre el regreso de los «Shadows». Metal Hammer le da 5 de 7 puntos y elogia la mezcla de himnos y speed metal.",
+    "t": "Iron Savior – «Deathbringer»: álbum conceptual de power metal contra insectos"
+   },
+   "at": "2026-11-15T17:18Z",
+   "h": "d473826c5c91",
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Iron Savior en el Rock Hard Festival 2014 en Gelsenkirchen (foto de archivo)",
+    "rv.score": "Metal Hammer: 5/7 – «una obra conceptual absolutamente arrolladora»"
    }
   },
   "review-walls-of-jericho-system-error-humanity": {
@@ -4213,6 +4503,34 @@
     "img.alt": "Autopista Trakia en Bulgaria (Foto de archivo)"
    }
   },
+  "trump-flugstopp-kongress-geld-2026-11-15-b1830": {
+   "L": {
+    "body": [
+     "El presidente de EE. UU., Donald Trump, se pronunció públicamente el domingo por primera vez sobre la prohibición de despegues en todo el país, que desde la tarde del viernes había desbaratado el tráfico aéreo en Estados Unidos. Hasta entonces solo había escrito en las redes sociales sobre otros temas, informa la agencia AP. Trump afirmó que su Gobierno había comenzado a modernizar el control del tráfico aéreo, pero que los trabajos no deberían hacerse poco a poco. «Si el Congreso aprueba el dinero que tanto se necesita para el control aéreo, podremos construirlo con rapidez y eficiencia», escribió. Al mismo tiempo, responsabilizó al Gobierno anterior de Joe Biden del estado del sistema, aunque, según AP, la ley de infraestructuras de Biden de 2021 preveía 25.000 millones de dólares para la autoridad de aviación FAA.",
+     "El secretario de Transporte, Sean Duffy, ofreció en entrevistas televisivas nuevos detalles sobre la causa. El contratista L3Harris estaría examinando dos routers de instalaciones de la FAA en Texas y Arkansas. Según Duffy, el problema habría comenzado cuando L3Harris sustituyó antiguos cables de cobre por fibra óptica y sobrecargó el sistema; una avería posterior en Amarillo (Texas) se habría extendido después hasta provocar la prohibición de despegues. Según AP, se investiga si la culpa fue de un error del contratista o de un router defectuoso. «No puedo disculparme por lo que se nos dejó», dijo Duffy a la cadena NBC. Según las autoridades, no hay indicios de un ciberataque.",
+     "El Congreso aprobó el año pasado 12.500 millones de dólares para renovar el control del tráfico aéreo; Duffy lo califica de «pago inicial» para una renovación más amplia. La prohibición de despegues, de más de cuatro horas, fue la mayor paralización de vuelos en EE. UU. en 25 años. El sábado se cancelaron más de 6.600 de los 41.000 vuelos previstos, según datos de FlightAware; el domingo, según el servicio de análisis Cirium, algo más de 1.300. Duffy espera que el tráfico vuelva a funcionar con normalidad hasta el domingo por la noche o el lunes; las aerolíneas renuncian por ahora a cobrar cambios de reserva."
+    ],
+    "d": "Dos días después de la prohibición de despegues en todo el país, Trump habla por primera vez y exige miles de millones para el control aéreo. El secretario de Transporte, Duffy, señala un router sobrecargado como origen.",
+    "t": "Tras el cierre aéreo, Trump rompe su silencio y pide más dinero al Congreso"
+   },
+   "at": "2026-11-15T17:18Z",
+   "h": "93c3b4fb5415",
+   "rev": [
+    "Indirect speech: 'Trump afirmó que su Gobierno había comenzado… los trabajos no deben hacerse poco a poco' – 'dürften' was rendered as a plain statement; make it conditional.",
+    "'Anzahlung' rendered as 'entrada' – 'pago inicial' is more natural.",
+    "'más de cuatro horas' ok; 'bis Sonntagabend bzw. Montag' rendered with 'o', acceptable.",
+    "'Duffy espera… a lo largo del domingo por la noche' is awkward; fix to 'hasta el domingo por la noche o el lunes'."
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Torre de control de la FAA – Imagen simbólica",
+    "kl": "EE. UU."
+   }
+  },
   "ufc-334-gane-hokit-titel-2026-11-15-b08": {
    "L": {
     "body": [
@@ -4482,6 +4800,28 @@
    ],
    "x": {
     "img.alt": "Imagen simbólica: robot realizando soldadura por fricción-agitación (empresa Grenzebach) – no es el sistema de Virginia Tech"
+   }
+  },
+  "vulcan-amazon-leo-rueckkehr-2026-11-15-b1830": {
+   "L": {
+    "body": [
+     "La empresa de cohetes United Launch Alliance (ULA) quiere volver a lanzar el domingo su cohete Vulcan por primera vez en nueve meses. Según ULA, la ventana de lanzamiento en la Estación de la Fuerza Espacial de Cabo Cañaveral, en Florida, se abre a las 12:11 hora local (18:11 CET) y dura algo menos de media hora. A bordo de la misión «Vulcan Leo 1» viajan 40 satélites para el servicio de internet de Amazon, Amazon Leo, la mayor carga hasta ahora para la red, según el grupo. El lanzamiento estaba previsto inicialmente para el viernes y se aplazó dos veces: primero por un problema eléctrico en un proveedor de nitrógeno gaseoso y después por una avería de comunicación entre las instalaciones en tierra y el cohete. ULA declaró el sábado: «The vehicle and spacecraft are healthy.» Al cierre de la edición aún no se conocía el resultado del intento de lanzamiento.",
+     "La larga pausa se debe a problemas con los propulsores de combustible sólido. En el segundo vuelo del Vulcan, en octubre de 2024, y de nuevo en el cuarto vuelo, el 12 de febrero de 2026, se desprendió una tobera de un propulsor poco después del despegue; en ambos casos el cohete alcanzó igualmente su órbita. Después, la Fuerza Espacial de EE. UU. suspendió los lanzamientos de misiones de seguridad nacional con el Vulcan. Para este vuelo, ULA utiliza, según sus propias indicaciones, una tobera rediseñada; según Spaceflight Now, se encontraron tres posibles causas y se corrigieron mediante cambios en el diseño y la fabricación. El director de ULA, Mark Peller, dijo que cada vuelo aporta datos y que la Fuerza Espacial quiere examinarlos antes de decidir.",
+     "Para Amazon, el lanzamiento es importante para recuperar terreno en el despliegue de la red. Desde abril de 2025, el grupo ha lanzado casi 400 satélites Leo, pero ninguno desde julio; el regulador estadounidense FCC espera que la primera generación, con 3.232 satélites, esté en órbita en julio de 2029. SpaceX ha lanzado más de 13.000 satélites desde 2019. Amazon ha reservado 38 lanzamientos del Vulcan. «Vulcan will launch close to half our first-generation constellation», dijo Melissa Wuerl, de Amazon Leo. Por primera vez, el cohete vuela en la configuración con seis propulsores y una etapa superior Centaur V acortada."
+    ],
+    "d": "El cohete Vulcan de United Launch Alliance tuvo el domingo una ventana de lanzamiento en Florida desde las 18:11, con una tobera de propulsor nueva y por primera vez con satélites de internet de Amazon.",
+    "t": "Tras nueve meses de pausa, el cohete Vulcan debe llevar 40 satélites de Amazon al espacio"
+   },
+   "at": "2026-11-15T17:18Z",
+   "h": "80e1a59e16a5",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Cohete Vulcan durante el despegue – Foto de archivo",
+    "kl": "Astronáutica"
    }
   },
   "vw-blume-ziele-2030-neun-millionen-2026-11-15-b11": {
