@@ -555,7 +555,10 @@
      "time": "18:00",
      "t1": "Norwegen",
      "t2": "Wales",
-     "ft": null,
+     "ft": [
+      3,
+      1
+     ],
      "city": "Oslo"
     },
     {
@@ -564,7 +567,10 @@
      "time": "20:45",
      "t1": "Portugal",
      "t2": "Dänemark",
-     "ft": null,
+     "ft": [
+      1,
+      4
+     ],
      "city": "Braga"
     },
     {
@@ -835,7 +841,10 @@
      "time": "18:00",
      "t1": "Georgien",
      "t2": "Ungarn",
-     "ft": null,
+     "ft": [
+      0,
+      2
+     ],
      "city": "Tiflis"
     },
     {
@@ -844,7 +853,10 @@
      "time": "20:45",
      "t1": "Nordirland",
      "t2": "Ukraine",
-     "ft": null,
+     "ft": [
+      1,
+      0
+     ],
      "city": "Belfast"
     },
     {
@@ -972,7 +984,10 @@
      "time": "15:00",
      "t1": "Kosovo",
      "t2": "Israel",
-     "ft": null,
+     "ft": [
+      0,
+      0
+     ],
      "city": "Pristina"
     },
     {
@@ -981,7 +996,10 @@
      "time": "20:45",
      "t1": "Österreich",
      "t2": "Irland",
-     "ft": null,
+     "ft": [
+      1,
+      0
+     ],
      "city": "Linz"
     },
     {
@@ -1109,7 +1127,10 @@
      "time": "20:45",
      "t1": "Schweden",
      "t2": "Bosnien und Herzegowina",
-     "ft": null,
+     "ft": [
+      3,
+      2
+     ],
      "city": "Solna"
     },
     {
@@ -1118,7 +1139,10 @@
      "time": "20:45",
      "t1": "Rumänien",
      "t2": "Polen",
-     "ft": null,
+     "ft": [
+      2,
+      1
+     ],
      "city": "Bukarest"
     },
     {
