@@ -1538,6 +1538,32 @@
     "img.alt": "Carson'daki Dignity Health Sports Park, 2024'te bir futbol maçı sırasında (Sembolik fotoğraf)"
    }
   },
+  "gemini-brille-samsung-vorbestellung": {
+   "L": {
+    "body": [
+     "Samsung ve Google, ortak yapay zekâ gözlükleri için ön siparişleri 12 Kasım'da açtı. Çerçeveler Warby Parker ve Gentle Monster gözlük markalarından geliyor: Warby Parker yalnızca ABD'de olmak üzere üç tasarımı 395 dolardan başlayan fiyatlarla sunuyor. Gentle Monster ise ABD'de ve Güney Kore'de altı tasarımı 449 ile 489 dolar arasında satıyor; Güney Kore'de fiyat 650.000 wondan başlıyor. Satış 10 Aralık'ta başlayacak.",
+     "Gözlüklerde 12 megapiksellik bir kamera ve Qualcomm'un Snapdragon AR1 çipi bulunuyor; ağırlıkları yaklaşık 41 gram. Pilin dokuz saate kadar, şarj kutusuyla birlikte ise 72 saate kadar dayanması bekleniyor. “Hey Gemini” komutuyla yapay zekâ, gözlüğü takan kişinin o an ne gördüğünü açıklıyor, örneğin bir broşürdeki randevuyu takvime ekliyor, yol tarif ediyor veya konuşmaları çeviriyor; Korea Times'a göre 70'ten fazla dilde. Gözlükler iPhone'ların yanı sıra Galaxy ve bazı Pixel akıllı telefonlarla çalışıyor.",
+     "Diğer insanları korumak için kayıt sırasında bir ışık yanıyor; ışık örtülürse kamera kapanıyor. The Next Web'e göre Gemini bir görüntüyü işlemeden önce yoldan geçenlerin yüzleri tanınmaz hale getiriliyor. Samsung'un verdiği bilgiye göre kaydedilen görüntü verileri ne yapay zekâ eğitimi ne de reklam için kullanılıyor. Samsung'un resmi videosu Warby Parker modellerini tanıtıyor."
+    ],
+    "d": "Warby Parker ve Gentle Monster gözlüklerinde kamera ve Google'ın yapay zekâsı Gemini bulunuyor. Teslimat 10 Aralık'ta ABD ve Güney Kore'de başlayacak.",
+    "t": "Kameralı yapay zekâ gözlüğü: Samsung ve Google ön siparişleri 395 dolardan başlattı"
+   },
+   "at": "2026-11-15T12:12Z",
+   "h": "676c1d3cbb8a",
+   "rev": [
+    "Teaser: 'Warby Parker ve Gentle Monster çerçeveli gözlüklerde' reads awkwardly; the original says the glasses from these brands have a camera and Gemini",
+    "'ışık kapatılırsa' (switched off) does not match 'abgedeckt' (covered); the light is covered, not switched off"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Warby Parker gözlük markasının Birmingham, Alabama'daki mağazası",
+    "kl": "Yapay zekâ gözlüğü"
+   }
+  },
   "gen-z-demo-kudamm-22-festnahmen-bilanz-2026-11-15-b08": {
    "L": {
     "body": [
@@ -2765,6 +2791,34 @@
      "Güzel sunum ve animasyonlar"
     ],
     "rv.score": "But Why Tho? 9/10 · Bonus Action 8/10"
+   }
+  },
+  "mercor-750-millionen-ki-training": {
+   "L": {
+    "body": [
+     "ABD merkezli girişim Mercor, Seri D turunda 750 milyon dolar topladı ve şirketin değeri artık 20 milyar dolar olarak belirleniyor; bu, Ekim 2025'teki önceki turun iki katı. The Next Web'e göre yatırımcılar arasında Benchmark, Felicis, General Catalyst, Nvidia, Salesforce, Sapphire Ventures ve Zoom da bulunuyor. Tur, çalışanların hisse satışını da kapsıyor; bunun ne kadarının çalışanlara ait olduğu bilinmiyor.",
+     "Mercor, yapay zekâ destekli bir işe alım platformu olarak yola çıktı. Şirket, kendi açıklamasına göre bugün yapay zekâ modellerini eğitmeleri ve değerlendirmeleri için beş milyondan fazla uzmana ödeme yapıyor; ayrıca özel olarak hazırlanmış testler ve ek eğitim (post-training) hizmeti satıyor. Bunları önce büyük yapay zekâ laboratuvarlarına, şimdilerde ise diğer şirketlere de sunuyor. Eş genel müdür Brendan Foody, ekonomideki her işin kendi yapay zekâ ajanlarına ihtiyaç duyacağını yazdı.",
+     "Nisan ayında Mercor'da yaşanan bir veri sızıntısı, Meta'nın yapay zekâ verileri konusundaki iş birliğini askıya almasına yol açmıştı. The Next Web'e göre finansman duyurusunda bu olaydan söz edilmiyor. Mercor ciro rakamları açıklamadı."
+    ],
+    "d": "Girişim, yapay zekâ modellerini eğitmeleri ve test etmeleri için beş milyondan fazla uzmana ödeme yapıyor. Değerlemesi bir yılı biraz aşkın sürede ikiye katlandı.",
+    "t": "Değeri 20 milyar dolar: Mercor, yapay zekâ eğitimi için 750 milyon dolar topladı"
+   },
+   "at": "2026-11-15T12:12Z",
+   "h": "e54f458add96",
+   "rev": [
+    "\"wie viel davon auf ihn entfällt\" – the draft says \"kendisine ait\" (referring to the employees' share, singular 'ihn' is odd in the original too); the Turkish should read naturally as the employees' s",
+    "Indirect speech \"Foody schreibt\" is attributed correctly with \"yazdı\", so it needs no change",
+    "\"Seri D turunda\" and \"değeri ... belirleniyor\" are acceptable, but \"Seri D\" should be written with a lowercase d for the Turkish convention",
+    "Unnatural wording: \"bir yıldan biraz uzun sürede\" is replaced with a more natural phrase"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Kapak görseli: Mercor 750 milyon dolar topladı",
+    "kl": "Finansman"
    }
   },
   "metka-metlen-boersengang-athen-2026-11-15": {
@@ -4195,6 +4249,34 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: 2001 tarihli ilk Xbox konsolu ve Controller S"
+   }
+  },
+  "xinhua-ubtech-roboter-nachrichtensprecher": {
+   "L": {
+    "body": [
+     "Çin devlet haber ajansı Xinhua ile robot üreticisi UBTECH, Pekin'de haber spikeri olarak görev yapacak iki insan boyutunda insansı robotu tanıttı. Spiker Xinyan ve spiker Xinyu, ilk kez 5 Kasım'da 7. Dünya Medya Zirvesi'nde (World Media Summit) sahneye çıktı. Xinhua, onları dünyanın ilk biyonik insansı haber spikerleri olarak tanımlıyor. Robotların yapay derisi ve hareketli bir yüzü var; görünümlerini film yönetmeni Zhang Yimou (“Hero”) tasarladı.",
+     "İçerikler, ajansın yayınlarından haber alan Xinhua'nın yapay zekâ sistemi “Xinhua Yudian”dan geliyor. The Gadgeteer'a göre her haber önceden kontrol ediliyor, editoryal denetim insanlarda kalıyor. UBTECH'in bir modeli mimikleri, bakışları ve jestleri yönetiyor. Robotların birden fazla dilde haber sunması, gazetecilere destek olması, konukları karşılaması ve insanlarla sohbet etmesi amaçlanıyor.",
+     "Xinhua Yeni Medya Merkezi Müdürü Qian Tong'un verdiği bilgiye göre robotların haber merkezinde yeni görevler üstlenmesi amaçlanıyor, ancak yıldız olmaları amaçlanmıyor. Xinhua düzenli bir yayın için tarih belirtmedi; robotlar satılık değil. UBTECH'in resmi videosunda iki spiker görülüyor."
+    ],
+    "d": "Xinyan ve Xinyu'yu UBTECH üretti, görünümlerini yönetmen Zhang Yimou tasarladı. Haberleri ajansın bir yapay zekâ sistemi sağlıyor; denetim editörlerde kalıyor.",
+    "t": "Yapay deriye sahip robotlar: Xinhua iki insansı haber spikerini tanıttı"
+   },
+   "at": "2026-11-15T12:12Z",
+   "h": "b28851acc24e",
+   "rev": [
+    "Teaser: Xinhua'nın 'Staatsagentur' ifadesi ve 'Die Kontrolle bleibt bei Redakteuren' doğru; sorun yok",
+    "'Dünya Medya Zirvesi' kullanımı kabul edilebilir; 'World Media Summit' resmi adı olarak daha güvenli hâle getirildi",
+    "'sollen... übernehmen' kipi 'üstlenecek' ile kesin gerçek olarak verilmiş; 'üstlenmesi amaçlanıyor' ile hafifletildi",
+    "'Sprecherin Xinyan' çevirisinde 'Spiker' tekrarı doğal; değişiklik yok"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Xinhua haber ajansının Pekin'deki merkez binasının kapısı (2021)",
+    "kl": "Robotik"
    }
   },
   "zar-kalojan-schlacht-adrianopel-1205-2026-11-15": {
