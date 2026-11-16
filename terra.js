@@ -189,10 +189,10 @@ var html='<section class="twr'+(isPop?' twr-pop':'')+'" aria-label="'+esc(t.r)+'
 (isPop?'':'<button type="button" class="twr-popb">↗ '+esc(t.p)+' <small>'+esc(t.ph)+'</small></button>')+
 '<p class="twr-ai">'+esc(t.ai)+'</p><audio preload="none"></audio></section>';
 var V=el('<section class="twr twr-tvp'+(isPop?' twr-pop':'')+'" aria-label="'+esc(t.tvb)+'"'+(isPop?'':' hidden')+' style="--c1:#d4161c;--c2:#3b8bff"><div class="twr-glow" aria-hidden="true"></div>'+
-'<header class="twr-h"><div><b class="twr-brand">'+esc(t.tvb)+'</b><small>'+esc(t.tvtag)+'</small></div>'+(isPop?'':'<button type="button" class="twr-x" aria-label="'+esc(t.x)+'">×</button>')+'</header>'+
+'<header class="twr-h"><div><b class="twr-brand">'+esc(t.tvb)+'</b><small>'+esc(t.tvtag)+'</small></div>'+(isPop?'':'<span class="twr-hb"><button type="button" class="twr-x twr-popb" title="'+esc(t.p+' – '+t.ph)+'" aria-label="'+esc(t.p)+'">↗</button><button type="button" class="twr-x twr-xx" aria-label="'+esc(t.x)+'">×</button></span>')+'</header>'+
 '<div class="twr-scr"><div class="twr-vid"><p class="twr-pick"><span aria-hidden="true">📺</span>'+esc(t.pick)+'</p></div><div class="twr-scr-b"><small class="twr-via"></small><span><button type="button" class="twr-big">⤢ '+esc(t.big)+'</button> <button type="button" class="twr-tvx">× '+esc(t.tvx)+'</button></span></div></div>'+
-'<h3 class="twr-sh">'+esc(t.chs)+'</h3><div class="twr-tv"></div>'+'<div class="twr-lrw" hidden><h3 class="twr-sh">📻 '+esc(t.lr)+'</h3><div class="twr-lrbox"></div><p class="twr-lf">'+esc(t.lrn)+'</p></div>'+
-(isPop?'':'<button type="button" class="twr-popb">↗ '+esc(t.p)+' <small>'+esc(t.ph)+'</small></button>')+'<p class="twr-ai">'+esc(t.yt)+'</p></section>');
+'<h3 class="twr-sh">'+esc(t.chs)+'</h3><div class="twr-tv"></div>'+'<div class="twr-lrw" hidden><h3 class="twr-sh">📻 '+esc(t.lr)+'</h3><div class="twr-lrbox"></div></div>'+
+'<p class="twr-ai">'+esc(t.yt)+' '+esc(t.lrn)+'</p></section>');
 var R=el(html),au=R.querySelector('audio'),list=[],cur=-1,ctx=null,an=null,raf=0,BAR=R.querySelectorAll('.twr-viz i');
 function setVol(v){au.volume=v;R.querySelector('.twr-vol input').value=v;ls('twr-vol',String(v))}
 setVol(parseFloat(ls('twr-vol')||'0.9'));R.querySelector('.twr-vol input').addEventListener('input',function(){setVol(parseFloat(this.value))});
@@ -254,7 +254,7 @@ var tb=el('<button type="button" class="twr-b twr-b1" aria-expanded="false"><spa
 document.body.appendChild(tb);document.body.appendChild(V);var tvl=false;
 function sh(p,b,on){p.hidden=!on;b.setAttribute('aria-expanded',on?'true':'false')}
 tb.addEventListener('click',function(){var o=V.hidden;if(o){if(!tvl){loadTV();tvl=true}else if(!V.querySelector('.twr-lrbox iframe'))vlShow()}else{tvStop();vlStop()}sh(V,tb,o)});
-V.querySelector('.twr-x').addEventListener('click',function(){tvStop();vlStop();sh(V,tb,false)});   /* × beendet alles (Nedy 05.11.2026) */
+V.querySelector('.twr-xx').addEventListener('click',function(){tvStop();vlStop();sh(V,tb,false)});   /* × beendet alles (Nedy 05.11.2026) */
 V.querySelector('.twr-popb').addEventListener('click',function(){tvStop();vlStop();window.open('/radio.html?l='+L+'&tv=1','twnlive','width=720,height=900')});
 /* Artikel anhören – Gerätestimme (kostenlos) */
 var art=document.querySelector('article.article'),S=window.speechSynthesis;if(!art||!S||!window.SpeechSynthesisUtterance)return;

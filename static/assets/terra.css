@@ -2047,3 +2047,11 @@ background:linear-gradient(135deg,color-mix(in srgb,var(--c1) 26%,#0a1030),color
 .twr-rtx{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:1px}
 .twr-rtx b{font-size:13.5px}.twr-rtx small{font-size:11px;color:#c7d0f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .twr-rpl{flex:none;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;font-size:14px;background:#fff;color:#111;padding-left:2px}
+
+/* TERRA WORLD LIVE ohne inneres Scrollen (Nedy 16.11.2026): nur noch ein Button → Fenster tiefer, Fenster-Knopf in den Kopf, Hinweise in einer Zeile */
+.twr.twr-tvp{bottom:72px;max-height:calc(100vh - 88px)}
+.twr-hb{display:flex;gap:6px;flex:none}.twr-hb .twr-popb{width:30px;height:30px;margin:0;padding:0;display:grid;place-items:center;font-size:15px;text-align:center;border-radius:50%}
+.twr-tvp .twr-sh{margin:9px 0 5px}
+.twr-tvp .twr-tvc{padding:6px 10px}
+.twr-tvp .twr-rrow{padding:6px 10px}.twr-tvp .twr-ralb{width:36px;height:36px}
+.twr-tvp .twr-ai{margin:8px 0 0;font-size:10.5px;line-height:1.35}
