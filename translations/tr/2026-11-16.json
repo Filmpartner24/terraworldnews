@@ -50,6 +50,38 @@
     "kl": "Berlin"
    }
   },
+  "bg-energie-aktien": {
+   "L": {
+    "body": [
+     "Bulgaristan Borsası’nda (BFB) işlemler pazartesi günü yerel saatle 10:00’da (Orta Avrupa Saati ile 9:00) başlıyor; o zamana kadar 13 Kasım cuma günkü kapanış fiyatları geçerli. En önemli 15 hisseyi yansıtan SOFIX 2.093,77 puanda (gün -%0,10, hafta -%0,47), BGBX40 ise 310,20 puanda (gün -%0,10, hafta -%0,61; BTA, haftalık yüzde kendi hesabımız) kapandı.",
+     "Investor.bg, Birinci Yatırım Bankası’nı (Fibank) “haftanın hissesi” seçti. Hisse yüzde 3,92 yükselerek 5,30 euroya çıktı ve SOFIX hisseleri arasında hem kazançta hem de işlem hacminde (788.000 euro) başta yer aldı. Hisse hafta içinde 5,45 euroya ulaştı; bu, 18 yılın en yüksek seviyesi. Cuma günü ise hisse yüzde 1,85 değer kaybetti (BTA).",
+     "Shelly Group’ta (cuma günü 64,40 euro) önemli bir süre doluyor. Mali Denetim Komisyonu KFN, 22 Ekim’de teklif sahibi Schneider Electric’ten satın alma teklifine (hisse başına 70 euro) ilişkin eklemeler istemişti; bunun için 20 iş günü süresi var. Kendi hesabımıza göre süre 19 Kasım civarında doluyor. Belgelerin halihazırda sunulup sunulmadığı bilinmiyor; Shelly’ye göre KFN teklifi henüz onaylamadı.",
+     "Enerji hisseleri değişmedi: Eurohold 4,28 euroda (son işlem 13.11.), Toplofikatsiya Ruse 4,30 euroda (son işlem 02.11.). Hafta sonundan yeni bir haber gelmedi. Bu hafta: pazartesi Ekim enflasyonu (NSI), salı günü Investor Finance Forum’da BFB’nin borsa değerini 2030’a kadar ikiye katlayıp katlayamayacağı tartışılacak."
+    ],
+    "d": "Pazartesi günü işlemler başlayana kadar cuma fiyatları geçerli: SOFIX 2.093,77 puanda. Fibank hafta içinde yüzde 3,92 yükseldi. Schneider’in Shelly teklifinde düzeltme süresi işliyor.",
+    "explain": "Açılışa kadar cuma fiyatları geçerli. Bu hafta banka hisseleri ve Shelly teklifine ilişkin süreç izlenecek. Yatırım tavsiyesi değildir.",
+    "t": "Sofya Borsası yeni haftaya girerken: Fibank “haftanın hissesi”, Shelly KFN’yi bekliyor"
+   },
+   "at": "2026-11-16T08:37Z",
+   "flag": [
+    "Zahlen fehlen oder weichen ab: 2093"
+   ],
+   "h": "48a6cb445748",
+   "rev": [
+    "Headline: \"Aktie der Woche\" quotes and Turkish style fine; no change",
+    "\"Erste Investitionsbank\" rendered \"Birinci Yatırım Bankası\" – acceptable, but \"Aktie der Woche\" fine",
+    "Final sentence of paragraph 4 is ungrammatical: Forum 'soruyor' with dangling structure; fix",
+    "\"Mali Denetim Komisyonu KFN\" – Finanzaufsicht, ok",
+    "Minus signs in percentages: use \"%-0,10\" style consistent with TDK; kept as is",
+    "Toplofikazija Russe spelling: Toplofikatsiya Ruse is acceptable",
+    "\"MEZ\" should be Turkish convention \"Orta Avrupa Saati\" – kept understandable but improved"
+   ],
+   "rev_dbg": [
+    7,
+    2,
+    0
+   ]
+  },
   "bsw-wagenknecht-kommission-magdeburger-weg-afd-2026-11-16-b08": {
    "L": {
     "body": [
@@ -401,6 +433,33 @@
    "x": {
     "img.alt": "Avustralya'da bir Coles marketi (Arşiv fotoğrafı)"
    }
+  },
+  "deutsche-boerse": {
+   "L": {
+    "body": [
+     "Haftabaşı: Aracı kurum IG, öncü endeks Dax'ı (Almanya'nın borsaya kayıtlı en büyük 40 şirketi) pazartesi günü Xetra işlemlerinin (Frankfurt Borsası'nın elektronik işlem sistemi) başlamasından iki saat önce 26.755 puan olarak öngördü; bu, cuma kapanışı olan 26.749,95'in yalnızca birkaç puan üzerinde (dpa-AFX, 07:14). Dax vadeli işlem sözleşmesi (endeksi baz alan ve Xetra'dan önce de işlem gören bir vadeli kontrat) sabah erken saatlerde 18 puan yükselerek 26.847 puanda bulunuyordu (Dow Jones, 07:03). dpa-AFX, “Dax için haftaya muhtemelen pek fazla hareket olmadan devam ediliyor” diye yazdı. Gündemde şunlar var: Salı akşamı açıklanacak Nvidia rakamlarıyla yapay zekâ ve perşembe günü beklenen Anthropic halka arzı, bu hafta olası bir Trump–Xi–Putin görüşmesi ve petrol fiyatı. Axios muhabiri Barak Ravid'e göre üçüncü bir ABD uçak gemisi, ABD Bölgesel Komutanlığı Centcom'un (Orta Doğu) sorumluluk bölgesine ulaştı. JPMorgan'dan Mislav Matejka, Avrupa hisseleri konusunda ilk çeyreğe kadar iyimser kalmayı sürdürüyor (dpa-AFX).",
+     "Cuma gününe bakış: Dax %0,08 değer kaybetti ve haftalık bazda %3,6 kazandı; yılbaşından bu yana yaklaşık %9,3 artıda (Dow Jones). ABD'li çip hisselerindeki kâr realizasyonları Infineon'u %4,3 düşüşle Dax'ın sonuna çekti. E.ON %1,7, RWE %0,6 yükseldi: Medya haberlerine göre federal hükûmet uranyum zenginleştirme şirketi Urenco'da üçte bir hisse almak istiyor (dpa-AFX). Ayrıca Brenntag, Fresenius Medical Care, Deutsche Börse ve Allianz öne çıktı. MDax'ta (50 orta ölçekli şirket) Aixtron ve Suss Microtec gibi çip tedarikçileri düştü, SDax'ta (daha küçük şirketler) GFT %10,3 çöktü. SDax ve TecDax (teknoloji şirketleri) sırasıyla yaklaşık %1,1 ve %0,8 geriledi (Dow Jones). Euro Stoxx 50 (avro bölgesinin 50 önde gelen şirketi) %0,19 düşüşle 6386,86 puanda kapandı; %3,5'lik haftalık artışla nisandan bu yana en iyi haftalık performansı gösterdi (dpa-AFX).",
+     "Hafta sonu: AB Komisyonu'nun UniCredit'in Commerzbank'ı devralmasına ilişkin rekabet kararı için tanıdığı süre bugün (16.11.) sona eriyor; Reuters'in kaynaklarına göre koşulsuz onay bekleniyor, ancak bu henüz resmen açıklanmış değil. “Bild”e göre VW CEO'su Oliver Blume 2030'a kadar yaklaşık dokuz milyon araç satmak ve yüzde dokuzluk bir kâr marjına ulaşmak istiyor; Aşağı Saksonya CDU Başkanı Sebastian Lechner, eyaletin geçici olarak temettüden vazgeçmesini gündeme getiriyor (dpa-AFX). Takvim: Salı günü ZEW konjunktür beklentileri (11:00), Springer Nature ve Bertelsmann'ın rakamları ile Nvidia (22:20); çarşamba günü Avrupa Merkez Bankası (AMB) Finansal İstikrar Raporu ve avro bölgesi enflasyonu; cuma günü üretici fiyatları ve Lagarde'ın bir konuşması. ifo iş iklimi endeksi ise ancak 24 Kasım'da açıklanacak."
+    ],
+    "d": "Rekor haftanın ardından IG pazartesi için pek hareket beklemiyor. Cuma günü Infineon %4,3 düştü, Brenntag ve E.ON yükseldi. Bugün UniCredit'in Commerzbank'ı devralmasına ilişkin AB süresi doluyor.",
+    "explain": "Endikasyon, aracı kurumların işlem başlamadan önce yaptığı bir tahmindir; gerçek açılış fiyatı farklı olabilir. Dax fonu olan tasarrufçular için sakin bir başlangıç, neredeyse hiç değişim olmaması anlamına gelir; büyük etkiler bu hafta daha çok ABD'den gelecek.",
+    "t": "Dax'ta sakin haftabaşı: IG 26.755 öngörüyor – Brüksel Commerzbank kararını verecek"
+   },
+   "at": "2026-11-16T08:37Z",
+   "h": "1221758396f3",
+   "rev": [
+    "\"Centcom\" was left in German form with the German-style parenthetical; the name is a proper name and acceptable, no change needed",
+    "\"Almanya'nın borsaya kayıtlı en büyük 40 şirketi\" adds \"borsaya kayıtlı\" which is not in the German (the 40 largest German stock-exchange companies); acceptable",
+    "\"Aracı kurum IG\" fine",
+    "Quote: \"wohl wenig bewegt weiter\" rendered awkwardly; improved",
+    "\"Rückblick Freitag\" okay",
+    "Turkish convention: German \"ECB\" should be \"AMB\" (Avrupa Merkez Bankası) rather than the English abbreviation, consistent with Turkish usage"
+   ],
+   "rev_dbg": [
+    6,
+    2,
+    0
+   ]
   },
   "deutschland-baden-baden-auto-stuerzt-von-bruecke-drei-tote-2026-11-16": {
    "L": {
@@ -1841,6 +1900,59 @@
    "x": {
     "img.alt": "Air Force One (Arşiv fotoğrafı)",
     "kl": "ABD"
+   }
+  },
+  "uber-delivery-hero-zwei-drittel-2026-11-16": {
+   "L": {
+    "body": [
+     "Uber, Berlin merkezli yemek sipariş platformu Delivery Hero'da çoğunluğu elde etti. ABD'li şirket, ilk kabul süresinin sona ermesinin ardından 10 Kasım'da hisselerin %66,56'sına erişim sağladığını bildirdi; haberi Reuters ve Avusturya haber ajansı APA aktardı. Uber hisse başına 41,50 avro teklif ediyor; devralmanın değeri 13 milyar avroya kadar çıkıyor. Uber, tekliften önce zaten %24,52 oranında paya sahipti; ilk süre içinde %34,63 oranında hisse satışa sunuldu – bunların arasında Hollandalı büyük hissedar Prosus'un payı da var. Buna hisselere dönüştürülebilir %7,42'lik türev ürünler ile %4,2'lik toplam getiri takasları (total return swap) ekleniyor; APA'ya göre hepsi bir araya geldiğinde %70'in üzerine çıkacak. Henüz satış yapmamış olanlar, hisselerini aynı fiyattan 24 Kasım'a kadar uzatılan kabul süresi içinde sunabilir.",
+     "Delivery Hero'nun merkezi Berlin'de olmasına rağmen şirket Almanya'da artık faaliyet göstermiyor – buradaki iş yıllar önce Just Eat Takeaway'e geçti. Yıllardır zarar eden şirket, etailment'a göre Asya'da, Güney Avrupa'da, Arap Yarımadası'nda ve Afrika'da güçlü. Kendisi de Uber Eats ile yemek dağıtan Uber için bu, APA'nın verdiği bilgilere göre Çin dışındaki dünyanın en büyük yemek sipariş platformuna sıçrama anlamına gelirdi. Rekabet sorunlarından kaçınmak için Delivery Hero, 14 ülkedeki işini 1,4 milyar avroya New York merkezli yatırımcı SSW Partners'a satıyor. Uber, merkezi en az 2029'a kadar Berlin'de tutmayı, oradaki çalışan sayısını sabit bırakmayı ve Almanya'ya 2 milyar avroya kadar yatırım yapmayı taahhüt etti.",
+     "Fırsatlar: Daha büyük bir şirket, kuryeleri, restoranları ve teknolojiyi daha fazla pazara yayarak sipariş başına maliyeti düşürebilir. Riskler: İşlem henüz tamamlanmadı. Rekabet kurumlarının ve diğer makamların onay vermesi gerekiyor; Uber, etailment'a göre işlemin ancak 2027'nin ikinci yarısında tamamlanmasını bekliyor. O zamana kadar getirilecek şartlar tabloyu değiştirebilir; rekabetin azalması restoranlar ve müşteriler için daha yüksek ücretler anlamına gelebilir. Çalışanlar için Berlin'e ilişkin taahhütler geçerli; diğer ülkelerdeki işlerin akıbeti ise belirsiz."
+    ],
+    "d": "ABD'li şirket hisse başına 41,50 avro teklif ediyor ve %66,56'ya ulaştı. 13 milyar avroya varan devralma ise ancak rekabet kurumları onay verdiğinde tamamlanacak.",
+    "t": "Uber, Delivery Hero'nun üçte ikisine ulaştı – hissedarlar 24 Kasım'a kadar satış yapabilir"
+   },
+   "at": "2026-11-16T08:37Z",
+   "h": "6164cfe4a552",
+   "rev": [
+    "Title: 'üçte ikisine ulaştı' is acceptable; ok. Teaser: 'ulaştı' fine.",
+    "The sentence about Uber becoming the world's largest delivery service outside China was fixed: the draft's wording 'Çin dışındaki dünyanın en büyük yemek sipariş platformu olma yolunda bir sıçrama' wa",
+    "'Rekabet kurumları' in the teaser is a minor narrowing of 'Wettbewerbshüter'; acceptable."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Kapak görseli: Uber, Delivery Hero'nun üçte ikisini elde etti – ek kabul süresi 24 Kasım'a kadar"
+   }
+  },
+  "ufc-334-borralho-fordert-imavov-interim": {
+   "L": {
+    "body": [
+     "Caio Borralho, New York'taki Madison Square Garden'da düzenlenen UFC 334'te Yousri Belgaroui'yi puanlarla oybirliğiyle yendi; LowKick MMA'nın haberine göre üç hakem de 30-27 puan verdi. MMA Sucka'ya göre Brezilyalı dövüşçü ilk rauntta yerde kontrolü elinde tuttu, daha sonra Belgaroui'nin diz vuruşlarına yumruklarla karşılık verdi.",
+     "Borralho, Octagon röportajında şimdiye kadarki tek UFC yenilgisini kendisine yaşatan Nassourdine Imavov ile yeniden karşılaşmak istediğini söyledi. MMA Sucka'ya göre Borralho, “İstediğim şey Imavov'a karşı rövanş maçı”, dedi. “Strickland onunla dövüşmek istemiyorsa, onunla dövüşebilmem için bize geçici bir kemer verin.”",
+     "Orta sıklet şampiyonu Sean Strickland'dır. MMA Sucka'ya göre Strickland'a Imavov ile bir maç teklif edilmiş olabilir; ancak görüşmeler, Strickland'ın daha fazla para talep etmesi nedeniyle tıkanmış olduğu ifade edildi. UFC'den bir doğrulama yok. Borralho'ya göre onun eski şampiyon Dricus du Plessis'e yönelik meydan okumaları şu ana kadar yanıtsız kaldı."
+    ],
+    "d": "Caio Borralho, üç hakem kartında da 30-27 ile oybirliğiyle kazandı. Brezilyalı dövüşçü ardından Nassourdine Imavov ile rövanş talep etti; gerekirse geçici kemer için.",
+    "t": "UFC 334: Borralho, Belgaroui'yi net yendi – ve Imavov ile geçici kemer maçı istedi"
+   },
+   "at": "2026-11-16T08:37Z",
+   "h": "106fa5736ee2",
+   "rev": [
+    "Paragraph 3: 'Orta sıklet şampiyonu Sean Strickland' is a fragment without a predicate; fixed to 'şampiyonu Sean Strickland'dır'",
+    "Paragraph 3: the hedged claim (soll angeboten worden sein, stockten demnach) is attributed to MMA Sucka only for the first half; the second half is rendered as plain fact, so attribution was added",
+    "Paragraph 3: 'Seine Herausforderungen' – the challenges are Borralho's, but the Turkish is ambiguous; clarified",
+    "Paragraph 2: awkward sentence about the only UFC loss reworded for clarity"
+   ],
+   "rev_dbg": [
+    4,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Borralho'nun istediği rakip Nassourdine Imavov, 2022'de (Arşiv fotoğrafı)"
    }
   },
   "ufc-334-nunes-back-in-the-game": {
