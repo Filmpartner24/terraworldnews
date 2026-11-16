@@ -1,6 +1,27 @@
 {
  "date": "2026-11-16",
  "items": {
+  "batteriespeicher-geschaeftsmodell-2026-11-16": {
+   "L": {
+    "body": [
+     "Büyük batarya depolama tesisleri, enerji dönüşümünün en hızlı büyüyen iş alanlarından biri. Depolama sağlayıcısı Return, Kasım ayı başında Deutsche Bank ve Rabobank'tan 835 milyon euroluk portföy finansmanı sağladı. Para önce Herzberg, Brilon ve Quedlinburg'daki toplam 117 megavat kapasiteli üç projeye aktarılacak; Return 2027'den itibaren Almanya'da her yıl en az bir gigavat kapasite eklemeyi ve piyasa koşullarına bağlı olarak bunun için yılda 750 milyon ile 1,2 milyar euro arasında yatırım yapmayı planlıyor. Aynı zamanda endişe de artıyor: dpa-AFX'e göre şebeke operatörleri Almanya genelinde şimdiden 100 gigavattan fazla bağlantı gücü taahhüt etti; oysa Alman şebekesindeki zirve yük yaklaşık 80 gigavat. 50Hertz'in başkanı Stefan Kapferer, “Acil freni çekmemiz gerekiyor” dedi.",
+     "Bir depolama tesisi nasıl para kazanır? Birincisi, fiyat farklarıyla: Elektrik ucuzken, örneğin güneşin bol olduğu öğle saatlerinde şarj olur, pahalıyken, çoğunlukla akşam saatlerinde, şebekeye verir. İşlemler gün öncesi ve gün içi piyasasında yapılır. İkincisi, regülasyon gücüyle: Şebeke operatörleri, bataryaların şebekedeki dalgalanmaları saniyeler içinde dengelemek üzere hazır beklemesi için ödeme yapar. Üçüncüsü, işletmeciler kapasiteyi kendi portföylerini yönetmek için kullanan enerji şirketlerine satar; Return örneğin Engie ile 400 megavat, Centrica ile 100 megavat için sözleşme yaptı. Bunun getirisi büyük ölçüde değişiyor: photovoltaik.sh'nin analiz kuruluşu Environ'un verilerine dayanan bir değerlendirmesine göre on iki aylık ortalama megavat başına yılda yaklaşık 155.000 euro oldu; aylık değerler 5.700 euro (Aralık 2025) ile 18.900 euro (Eylül 2025) arasında değişti.",
+     "Fırsatlar: Şebekeye ne kadar çok rüzgar ve güneş elektriği girerse, esnek depolama tesislerine duyulan ihtiyaç o kadar artıyor; bankalar da artık tek tek tesisler yerine portföylerin tamamını finanse etmeye hazır. Riskler: Her yeni bataryayla birlikte, herkesin kazandığı fiyat farkları küçülüyor. photovoltaik.sh'ye göre birincil regülasyon gücünde 1,35 gigavat onaylanmış durumda, ancak yalnızca 550 ile 600 megavata ihtiyaç var. Şebeke ücretlerinden muafiyet yalnızca Ağustos 2029'a kadar devreye giren tesisler için geçerli. Siyaset, 50Hertz'in talep ettiği gibi şebeke bağlantısında sanayi işletmelerine öncelik verirse, depolama projeleri daha uzun süre bekleyebilir."
+    ],
+    "d": "Bankalar batarya parkları için yüzlerce milyon euro kredi veriyor, bir şebeke operatörü ise acil fren çağrısı yapıyor. İş modelinin ardında ne var ve kârlar her yeni depolama tesisiyle neden azalabilir?",
+    "t": "Ucuza şarj et, pahalıya sat: Büyük batarya depolama tesisleri nasıl para kazanıyor"
+   },
+   "at": "2026-11-16T07:14Z",
+   "h": "cdc1af8d3df6",
+   "rev_dbg": [
+    6,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Kapak grafiği: Büyük batarya depolama tesisleri fiyat farkları ve yedek güçle nasıl para kazanıyor"
+   }
+  },
   "berlin-moabit-explosion-fenster-sprengstoff-2026-11-16-b08": {
    "L": {
     "body": [
@@ -1706,6 +1727,35 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Narenciye dilimleri"
+   }
+  },
+  "se3-drohnen-software-muenchen-2026-11-16": {
+   "L": {
+    "body": [
+     "Münihli girişim SE3, 30 milyon ABD doları tutarında, yaklaşık 27 milyon avroya denk gelen bir Seri A finansman turunu tamamladı. Bunu The Next Web, Trending Topics ve uzman portal hartpunkt 12 Kasım'da bildirdi. Turu ABD'li risk sermayedarı Accel yönetiyor; ayrıca Keen Venture Partners ile mevcut yatırımcılar Lakestar ve Seedcamp da turda yer alıyor. Trending Topics'e göre SE3, daha haziranda 5,5 milyon avroluk bir başlangıç finansmanı açıklamıştı. Şirket bir değerleme belirtmiyor. SE3, Profesör Daniel Cremers'in Münih Teknik Üniversitesi'ndeki Bilgisayarla Görme ve Yapay Zeka kürsüsünden çıkan bir girişim; Lukas Köstler (CEO) ve Simon Klenk doktorasını orada yaptı.",
+     "SE3 drone değil, yazılım üretiyor. Yazılım, farklı üreticilerin drone'larından ve kara araçlarından gelen sensör verilerini çevrenin ortak bir üç boyutlu görüntüsünde birleştiriyor, sürülerin rotalarını ve konumlarını planlıyor ve sesli komutları kabul ediyor. Programlar doğrudan cihazlar üzerinde çalışıyor; bu, uydu navigasyonunun bozulduğu durumlarda önemli. İş modeli: Üreticiler ve ordular, her sistem için ayrı bir çözüm geliştirmek yerine yazılımı üreticiden bağımsız bir katman olarak satın alıyor. Kendi verdiği bilgilere göre SE3 iki yılda binlerce sistem teslim etti ve Ukrayna ve Bundeswehr ile siparişler üzerinde çalışıyor; ortakları arasında Hensoldt ve Auterion de bulunuyor. “Savunma alanında çalışmak, teknolojimizin sahada baskı altında çalışması gerektiği anlamına geliyor,” dedi Köstler, Trending Topics'e göre.",
+     "SE3, elde ettiği parayla geliştirme, satış ve operasyonları genişletmek, Birleşik Krallık'ta bir ofis açmak ve Almanya ile Ukrayna'da büyümek istiyor. Fırsatlar: Avrupa orduları giderek daha fazla açık ve birleştirilebilir sistemlere yöneliyor ve AB, The Next Web'e göre 2030'a kadar savunma için yaklaşık 800 milyar avro seferber etmek istiyor. Yazılımın 2027'den itibaren robotik alanında ve kurtarma operasyonlarında da kullanılması planlanıyor. Riskler: Ciro ve sipariş hacmi açıklanmış değil, teslim edilen sistemlere ilişkin bilgiler şirketin kendisinden geliyor ve iş, büyük ölçüde savunma bütçelerine ve savaşların seyrine bağlı. Ayrıca pazarda rekabet sert; Helsing ve Stark gibi tanınmış isimlerin değeri şimdiden milyarlarla ifade ediliyor."
+    ],
+    "d": "TU München'in çıkış şirketi, farklı üreticilerin drone'larını ve kara araçlarını tek bir 3D durum görüntüsünde birleştiriyor. Savunma sanayisindeki patlama işe yarıyor, ancak işi bağımlı da kılıyor.",
+    "t": "Drone değil yazılım: Münihli girişim SE3 30 milyon dolar yatırım aldı"
+   },
+   "at": "2026-11-16T07:14Z",
+   "h": "b6960b831790",
+   "rev": [
+    "Quote punctuation: the comma was placed outside the closing quotation mark, and the quote marks were inconsistent",
+    "Inconsistent spelling of 'drone' and 'dron' (headline vs. teaser/body)",
+    "Unnatural phrasing: 'Savunma patlaması' for 'Rüstungsboom'",
+    "'haziranda' should be 'Haziran'da' – no, TDK writes month names in lowercase when no day is given, so the draft is correct; kept",
+    "'Ukrayna ile Bundeswehr ile' is clumsy; 'Ukrayna ve Bundeswehr ile' reads better",
+    "'TU München'in' lacks an apostrophe-safe Turkish form; kept as a proper name"
+   ],
+   "rev_dbg": [
+    6,
+    6,
+    0
+   ],
+   "x": {
+    "img.alt": "Kapak görseli: Münihli girişim SE3, drone'lara 3D durum görüntüsü sağlayan yazılım için 30 milyon dolar topladı"
    }
   },
   "trump-asienreise-xi-putin-atomgipfel-2026-11-16-b08": {
