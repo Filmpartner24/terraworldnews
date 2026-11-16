@@ -41,6 +41,33 @@
     "rv.score": "Game Critix 4,5/5"
    }
   },
+  "alibaba-qwen4-max-release-2026-11-16-b1830": {
+   "L": {
+    "body": [
+     "Alibaba, yeni yapay zekâ amiral gemisi Qwen4-Max'i pazartesi günü genel kullanıma açtı. Model, 2,4 trilyon parametreli, token başına 71 milyarı etkin olan, sözde Uzmanların Karışımı (Mixture-of-Experts) mimarisine sahip ve bir milyon token'lık bağlam penceresiyle metin, görüntü ve video işliyor. Çıktı metin olarak veriliyor.",
+     "Digital Trends ve DataCamp'e göre model, QwenCloud API üzerinden milyon girdi token'ı başına 1,50 dolar, milyon çıktı token'ı başına 4,50 dolar. Digital Trends'e göre çıktı fiyatı böylece Anthropic'in Claude Opus 5.5 modelinin çeyreğinden azdır. Ağırlıklar kamuya açık değil; daha küçük Qwen4 modellerinin sonradan açık kaynak olarak yayımlanması planlanıyor.",
+     "Performans değerlerinde temkinli olmak gerekiyor: Alibaba, model için örneğin ajan görevlerinde en iyi sonuçları bildiriyor; ancak üreticinin grafiğine göre Terminal-Bench 4.0'da Kimi K3.1'in, Humanity's Last Exam'da ise Claude Opus 5.5'in gerisinde kalıyor. Bağımsız olarak Artificial Analysis, modeli zekâ endeksinde dokuzuncu sıraya yerleştiriyor. Digital Trends'e göre henüz harici bir güvenlik denetimi yok."
+    ],
+    "d": "Amiral gemisi model QwenCloud API üzerinden kullanılabiliyor ancak kapalı kalıyor. Güçlü kıyaslama sonuçlarının büyük kısmı Alibaba'nın kendisinden geliyor.",
+    "t": "Alibaba Qwen4-Max'i yayımladı: 1 milyon token bağlam, girdi 1,50 dolardan başlıyor"
+   },
+   "at": "2026-11-16T17:09Z",
+   "h": "d2cbbed25f26",
+   "rev": [
+    "Headline: 'veröffentlicht' was rendered as 'duyurdu' (announced), which is less accurate than 'yayımladı'.",
+    "'Mixture-of-Experts' was left untranslated. It is a technical term, so it is rendered as 'Uzmanların Karışımı (Mixture-of-Experts)'.",
+    "'Çıktı fiyatı ... çeyreğinden azdır' is stated as a plain fact. It is attributed to Digital Trends, but the wording is clumsy, so it is smoothed out.",
+    "'Unabhängig führt Artificial Analysis es auf Rang neun': the Turkish says 'Bağımsız kuruluş', which adds a claim, so it is changed to 'Bağımsız olarak'."
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Alibaba'nın Hangzhou'daki merkezi (Arşiv fotoğrafı)"
+   }
+  },
   "anthropic-ipo-nachfrage-2026-11-16-b1530": {
    "L": {
     "body": [
@@ -262,6 +289,54 @@
    "x": {
     "img.alt": "Berlin polisine ait bir müdahale aracı (Sembolik fotoğraf)",
     "kl": "Berlin"
+   }
+  },
+  "berlin-neukoelln-lastenrad-hasenheide-festnahme-2026-11-16-b1830": {
+   "L": {
+    "body": [
+     "Berlin: Polis açıklamasına göre bir kadın pazar akşamı saat 20.00 sıralarında, Warschauer Straße'de kilitli bıraktığı yük bisikletinin çalındığını bildirdi. Kadın bisikleti konum takibiyle Volkspark Hasenheide'a kadar izleyebildi. Saat 20.50 sıralarında görevliler, yeşil alandan bisikletle çıkan bir adamla karşılaştı.",
+     "İddiaya göre şüpheli, gözaltı sırasında şiddetle direndi, memurlara vurdu, tekme attı ve bir polisin eline ısırdı. Birkaç memur yaralandı ancak görevine devam etti. Gözaltına alınan kişi yüzünden yaralandı ve bir hastanede tedavi edildi.",
+     "Polisler üst araması sırasında içinde esrar bulunan birkaç adet kilitli poşet buldu; şüphelinin rıza gösterdiği telefon incelemesi, polise göre yasa dışı uyuşturucu ticareti şüphesini destekledi. Soruşturma, kolluk görevlilerine fiili saldırı, yasa dışı esrar ticareti ve nitelikli hırsızlık suçlamalarıyla yürütülüyor. Adam için masumiyet karinesi geçerlidir."
+    ],
+    "d": "Polisler bisikletli adamla Hasenheide'da karşılaştı. Şüphelinin memurlara vurduğu, tekme attığı ve onları ısırdığı iddia ediliyor; üzerinde esrar bulundu. Üç suçlamayla soruşturma var.",
+    "t": "Neukölln: Çalıntı yük bisikleti konum takibiyle bulundu, şüpheli gözaltında direndi"
+   },
+   "at": "2026-11-16T17:09Z",
+   "h": "aee1445b951a",
+   "x": {
+    "img.alt": "Berlin Polisi devriye aracı (Sembolik fotoğraf)",
+    "kl": "Berlin"
+   }
+  },
+  "betul-8-frachter-kaliakra-drohnen-2026-11-16-b1830": {
+   "L": {
+    "body": [
+     "BETUL 8 yük gemisi pazartesi günü Bulgaristan'ın Karadeniz'deki ekonomik bölgesinde, Kaliakra Burnu'nun yaklaşık 40 deniz mili güneydoğusunda alabora oldu. Varna'daki kurtarma koordinasyon merkezi saat 9.15'te acil durum çağrısı aldı. Donanmanın verdiği bilgiye göre gemi ters dönmüş durumda, baş kısmı sudan çıkıyor. Medya haberlerine göre gemi Somali bayrağı taşıyordu ve Romanya'daki Tulcea'dan Mısır'a buğday yüklemişti.",
+     "On iki mürettebat üyesinin tamamı can sallarından iki Cougar helikopteriyle alınarak karaya çıkarıldı. Donanma Komutan Yardımcısı Tuğamiral Vanyo Musinski, mürettebatın üşüdüğünü (hipotermi belirtileri gösterdiğini), bir kişinin başında hafif bir yara olduğunu ve ciddi bir durum bulunmadığını söyledi. Operasyona Bulgaristan, Romanya ve Türkiye donanmalarına ait gemiler ile bir Su-25 keşif uçuşu katıldı.",
+     "Bir mürettebat üyesi muhabirlere, gemiye iki insansız deniz aracının çarptığını ve bunların Rus olduğunu düşündüğünü söyledi. Bu, kendi değerlendirmesi; incelenen haberlere göre resmi bir sorumlu tespiti yok, yetkililer nedeni şimdiye kadar doğrulamadı."
+    ],
+    "d": "Mürettebatın ifadesine göre gemiye iki insansız deniz aracı çarpmış. Nedenine ya da sorumlulara ilişkin şimdiye kadar resmi bir doğrulama yok.",
+    "t": "Karadeniz: BETUL 8 yük gemisi Kaliakra açıklarında alabora oldu, 12 mürettebat kurtarıldı"
+   },
+   "at": "2026-11-16T17:09Z",
+   "h": "2ac5b93bc0d1",
+   "rev": [
+    "Teaser: \"çarpmış\" (rumor/inferential form) is okay but \"soll ... getroffen worden sein\" is better rendered with a reporting marker; kept as is",
+    "\"On iki mürettebatın tamamı\" is ungrammatical; should be \"On iki mürettebat üyesinin tamamı\"",
+    "\"can salından ... alınarak\" lost the plural \"Rettungsinseln\" and the sentence is clumsy",
+    "\"hipotermi geçirdiğini\" overstates \"unterkühlt\"; \"üşümüş/hipotermi belirtileri\" is closer, and the sentence also lost the clear hedge",
+    "\"başından hafif yaralandığını\" is a clumsy phrasing",
+    "\"Flottillenadmiral\" is a rank between Kapitän zur See and Konteradmiral; it corresponds to \"Tuğamiral\", but \"Flotilla Amirali\" is the literal rank; Tuğamiral is acceptable",
+    "\"resmi bir atıf yok\" is a vague rendering of \"offizielle Zuordnung\"",
+    "\"baş kısmı sudan çıkıyor\" is acceptable but \"baş tarafı su üstünde\" is more natural"
+   ],
+   "rev_dbg": [
+    8,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Bulgaristan'ın Karadeniz kıyısındaki Kaliakra Burnu (arşiv fotoğrafı)"
    }
   },
   "bg-energie-aktien": {
@@ -718,6 +793,27 @@
    ],
    "x": {
     "img.alt": "Cardiff'in merkezindeki Principality Stadium, 2016'dan hava fotoğrafı (Arşiv fotoğrafı)"
+   }
+  },
+  "chatzialexiou-eintracht-frankfurt-nuernberg-fruehere-freigabe-2026-11-16-b1830": {
+   "L": {
+    "body": [
+     "Joti Chatzialexiou, Eintracht Frankfurt'taki yeni görevine planlanandan daha erken başlayabilecek. 1. FC Nürnberg, Bundesliga ekibiyle erken transfer konusunda anlaştıklarını açıkladı. Spor direktörünün Nürnberg'deki başlangıçta 31 Ocak 2027'ye kadar olan sözleşmesi böylece 30 Kasım 2026'da sona eriyor.",
+     "Chatzialexiou, Frankfurt'ta kulübün beş yılı aşkın bir sürenin ardından Ekim ortasında görevden aldığı Markus Krösche'nin yerine geçiyor. Başlangıçta öngörülen göreve başlama tarihi 2027'nin başıydı; dpa'ya göre kesin yeni başlangıç tarihi henüz açıklanmadı, hr'nin aktardığına göre 1 Aralık'ta başlamak mümkün olabilir. Haberlere göre Frankfurt başlangıçta açıklama yapmadı.",
+     "Nürnberg yaklaşık iki hafta önce Chatzialexiou ile yolları ayırmış ve yeni spor direktörü olarak Dieter Frey'i açıklamıştı. Denetim kurulu başkanı Peter Meier, “Geçişin artık düzenlenmiş ve tüm ayrıntıların netleşmiş olmasından memnunuz” dedi."
+    ],
+    "d": "1. FC Nürnberg ile Eintracht, Markus Krösche'nin halefinin erken transferi konusunda anlaştı. Chatzialexiou'nun Nürnberg'deki sözleşmesi şimdi daha erken sona eriyor.",
+    "t": "Eintracht: Chatzialexiou erken geliyor – Nürnberg onu 30 Kasım'da serbest bırakıyor"
+   },
+   "at": "2026-11-16T17:08Z",
+   "h": "a7d1cea64590",
+   "rev_dbg": [
+    4,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Eintracht Frankfurt müzesi (Sembolik fotoğraf)"
    }
   },
   "chavez-jr-nachfolger-canelo": {
@@ -1242,6 +1338,34 @@
     "img.alt": "Arşiv fotoğrafı: Hubertus Heil (SPD), 2021"
    }
   },
+  "dobrindt-return-hubs-ruanda-wien-2026-11-16-b1830": {
+   "L": {
+    "body": [
+     "Federal İçişleri Bakanı Alexander Dobrindt (CSU) pazartesi günü Viyana'da Avusturya, Danimarka, Yunanistan ve Hollanda ile Ruanda'nın katılımıyla sözde Return Hub'ları görüştü. Bunlar, ülkelerinden ayrılmakla yükümlü olan ancak kendi menşe ülkelerine dönemeyen sığınmacılar için AB dışında kurulacak merkezleri ifade ediyor. Diplomatların verdiği bilgiye göre ilk merkez Ruanda'da kurulacak; Avusturya Başbakanı Christian Stocker merkezin 2027'de açılabileceğini söyledi. 2027 federal bütçesinde pilot proje için 20 milyon avro öngörülüyor.",
+     "Dobrindt, “işleyen bir göç politikasını hayata geçirmek için” böyle bir olanağa ihtiyaç duyulduğunu söyledi. Dobrindt, planların başarısız olan İngiltere'nin Ruanda projesiyle “en ufak ölçüde bile kıyaslanamayacağını” belirtti; Ruanda'nın Avrupalılarla görüşmeleri yürütmesinden dolayı minnettar olduğunu ifade etti.",
+     "Yeşiller Eş Genel Başkanı Felix Banaszak, Return Hub'ları “modern bir af ticareti” olarak nitelendirdi. SPD'li iç politika uzmanı Sebastian Fiedler ülkeyle ilgili cevapsız sorular bulunduğuna işaret ederek şöyle eleştirdi: “Tüm Almanya için 40 yer karşılığında 20 milyon avro.” SPD'nin yönettiği Adalet Bakanlığı, taz gazetesinin (Welt'e atıfla) haberine göre, sürece resmen dahil edilmediğini; bu tür merkezlere sınır dışı işlemlerinin ancak çok dar koşullar altında söz konusu olabileceğini açıkladı."
+    ],
+    "d": "Viyana'daki görüşmenin ardından beş AB ülkesi, mümkünse 2027'den itibaren Ruanda'da bir sınır dışı merkezi kurmak istiyor. SPD, Yeşiller ve Sol Parti'den itiraz geliyor.",
+    "t": "Dobrindt Ruanda'daki Return Hub'ları savundu – SPD ve Yeşiller sert eleştiriyor"
+   },
+   "at": "2026-11-16T17:09Z",
+   "h": "fc524ff43095",
+   "rev": [
+    "Weekday 'Pazartesi' wrongly capitalised mid-sentence (TDK: lowercase)",
+    "'Ablasshandel' rendered as 'af satışı', which is unnatural; the established Turkish equivalent is 'günah çıkarma/af ticareti'",
+    "Quote in the second paragraph is detached from its clause, so the sentence reads awkwardly",
+    "Teaser says 'sınır dışı merkezi'; fine, no change",
+    "Wording 'en ufak ölçüde kıyaslanamayacağını' is clumsy"
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Alexander Dobrindt (Arşiv fotoğrafı)"
+   }
+  },
   "dragoman-18-jaehrige-getoetet-2026-11-16-b08": {
    "L": {
     "body": [
@@ -1375,6 +1499,33 @@
    ],
    "x": {
     "img.alt": "Harry Kane (Arşiv fotoğrafı)"
+   }
+  },
+  "eu-genehmigt-unicredit-commerzbank-2026-11-16-b1830": {
+   "L": {
+    "body": [
+     "AB Komisyonu, İtalyan Unicredit'in Commerzbank'ı devralma planına koşulsuz onay verdi. Rekabet otoriteleri özellikle Almanya'daki bankacılık hizmetlerini, bu çerçevede Unicredit'in HVB üzerinden faaliyet gösterdiği orta ölçekli şirketlere kredi verilmesini inceledi. Ortak pazar paylarının makul düzeyde olduğu ve alternatif sağlayıcıların bulunduğu belirtildi. Rekabetten sorumlu Komisyon Üyesi Teresa Ribera, “Avrupa'nın rekabetçi olan, büyüyebilen ve şirketlerimizi ile ailelerimizi destekleyebilen daha güçlü bankalara ihtiyacı var” dedi.",
+     "Unicredit'in Mayıs ayında tüm Commerzbank hissedarlarına yaptığı teklif, şirketin yaklaşık yüzde 50'sine erişim sağladı; Alman devleti ise yüzde 13'ün biraz üzerinde paya sahip. Avrupa Merkez Bankası (ECB), payın yüzde 30'un üzerine çıkarılmasına izin verdi. Unicredit CEO'su Andrea Orcel, diğer tüm onayların Kasım ayı sonuna kadar alınmasını bekliyor.",
+     "Federal Maliye Bakanlığı kendi koşullarını belirledi: İstihdamın korunması; Maliye Bakanı Lars Klingbeil (SPD) mümkün olduğunca işletme gerekçeli işten çıkarmalardan kaçınmak istiyor, Commerzbank borsada işlem gören, merkezi Frankfurt'ta bulunan bir anonim şirket olarak kalmalı, orta ölçekli işletme faaliyetleri sürdürülmeli. Haberde yer alan bilgilere göre Unicredit yaklaşık 7.000 pozisyonu kaldırmayı ve yurt dışı ağını küçültmeyi planlıyor. Federal Hükûmet'le görüşmeler sürüyor, ancak henüz tamamlanmadı."
+    ],
+    "d": "Brüksel rekabet hukuku açısından bir endişe görmüyor. Başka onaylar bekleniyor; Federal Hükûmet'in istihdamın korunması ve Frankfurt'taki merkezin muhafazası gibi kendi talepleri var.",
+    "t": "AB Komisyonu, Unicredit'in Commerzbank'ı devralmasına koşulsuz onay verdi"
+   },
+   "at": "2026-11-16T17:09Z",
+   "h": "1c7e5f6d3d26",
+   "rev": [
+    "\"Bund\" was rendered as \"Federal Hükûmet\" (federal government) in the sentence on the shareholding; it should be \"Federal Almanya Devleti/Alman devleti\" (the Bund holds the stake, not the government).",
+    "The Turkish \"Mayıs ayında ... teklif ... erişim sağladı\" is correct, but \"işletmesel nedenlerle işten çıkarma\" is unnatural; the correct term is \"operasyonel/işletme gerekçeli işten çıkarma\".",
+    "\"Haberde yer alan bilgilere göre\" is a vague rendering of \"nach Angaben des Berichts\", but it keeps the attribution and was left as is.",
+    "The indirect speech on market shares has attribution (\"belirtildi\"), which is acceptable."
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Frankfurt am Main'daki Commerzbank Kulesi (Arşiv fotoğrafı)"
    }
   },
   "europa-estland-sabotage-drohnenfirma-grenze-2026-11-16": {
@@ -3230,6 +3381,35 @@
     "kl": "ABD"
    }
   },
+  "trump-putin-zugestaendnisse-shenzhen-2026-11-16-b1830": {
+   "L": {
+    "body": [
+     "ABD Başkanı Donald Trump pazartesi günü gazetecilere yaptığı açıklamada, Rusya Devlet Başkanı Vladimir Putin'in Ukrayna meselesinde geri adım attığını söyledi. Trump, APA ajansının aktardığına göre şöyle dedi: \"Putin Ukrayna'da biraz geri adım atıyor. Çok daha sert olabilirdi. Açıkçası taviz veriyor.\" Trump hangi tavizleri kastettiğini açıklamadı; incelenen haberlerde Moskova'dan ya da Kiev'den bir doğrulama yer almıyordu.",
+     "Trump aynı zamanda Çin ziyareti sırasında Putin ile görüşeceğini doğruladı. ABD, Rusya ve Çin devlet ve hükümet başkanlarının ilk üçlü görüşmesinin, APA'ya göre 19 Kasım'da Shenzhen'de APEC zirvesinin kenarında yapılması planlanıyor. Gündemde buna göre nükleer silahların yayılmasının önlenmesi, Ukrayna ve İran var. Trump, Kuzey Kore lideri Kim Jong Un ile ayrı bir görüşmeyi de mümkün görüyor.",
+     "Trump, Pekin ile ilişkiler hakkında şöyle dedi: \"Çin bizimle oyunlar oynuyor. Biz de Çin'le oyunlar oynuyoruz. Ama ülkemiz her zamankinden daha güçlü.\" Arka planda, ABD'nin arabuluculuğunda Rus ve Ukraynalı temsilciler arasında 10 Kasım'da Abu Dabi'de yapılan ve savaşın sona ermesi, toprak meseleleri ve güvenlik garantilerinin ele alındığı görüşmeler yer alıyor."
+    ],
+    "d": "ABD Başkanı Trump, Putin'in Ukrayna konusunda \"biraz geri adım attığını\" söyledi. Şi ve Putin ile üçlü görüşmenin 19 Kasım'da APEC zirvesinin kenarında yapılması planlanıyor.",
+    "t": "Trump: Putin Ukrayna konusunda taviz veriyormuş – Şi ile üçlü zirve 19.11.'de Shenzhen'de"
+   },
+   "at": "2026-11-16T17:09Z",
+   "h": "30597bb3b857",
+   "rev": [
+    "Headline stated Putin's concession as plain fact; the German is a Trump claim, so attribution is needed",
+    "Teaser: the meeting is described as being with 'Şi ve Putin ile görüşme', but it is a three-way meeting; also the quote marks should be Turkish style",
+    "Body: wrong quote marks and a weak rendering of 'lenke ein' as 'geri adım attığını'; the reported statement should stay attributed (it is, but clarify)",
+    "Weekday 'Pazartesi' should be lowercase in the middle of a sentence per TDK",
+    "Trump's remark 'Ehrlich gesagt macht er Zugeständnisse' is fine; no change"
+   ],
+   "rev_dbg": [
+    5,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Donald Trump (Arşiv fotoğrafı)",
+    "kl": "ABD"
+   }
+  },
   "uber-delivery-hero-zwei-drittel-2026-11-16": {
    "L": {
     "body": [
@@ -3280,6 +3460,32 @@
    ],
    "x": {
     "img.alt": "UEFA'nın Nyon'daki genel merkezi (Sembolik fotoğraf)"
+   }
+  },
+  "ufc-2027-erste-sechs-events-bekannt-2026-11-16-b1830": {
+   "L": {
+    "body": [
+     "MMA Junkie'nin aktardığına göre UFC, 2027 yılının ilk altı etkinliğini resmen duyurdu. Açılışı 16 Ocak'ta Dallas'ta düzenlenecek Fight Night yapacak; Yair Rodriguez, Steve Garcia ile karşılaşacak. Bir hafta sonra Las Vegas'ta welter siklette Sean Brady, Gabriel Bonfim ile karşı karşıya gelecek.",
+     "30 Ocak'ta Toronto'daki Scotiabank Arena'da UFC 336 yapılacak: Sinek siklet şampiyonu Joshua Van, Manel Kape ile karşılaşacak; yardımcı ana maçta welter siklette geçici kemer için Carlos Prates ile Michael Morales mücadele edecek. Ardından 6 Şubat'ta Sydney'de (Quillan Salkilld - Benoît Saint Denis) ve 13 Şubat'ta Cleveland'da (Bo Nickal - Joe Pyfer, orta siklet, beş raunt) Fight Night etkinlikleri planlandı.",
+     "UFC 337, 20 Şubat'ta Orlando'da düzenlenecek; ana maç, haberin yayımlandığı sırada henüz belli değildi."
+    ],
+    "d": "UFC, Ocak ve Şubat 2027 için tarihleri ve ana maçları resmen belirledi. Toronto'da sinek siklet şampiyonu Joshua Van, Manel Kape'ye karşı kemerini savunacak.",
+    "t": "UFC, 2027'nin ilk altı etkinliğini açıkladı: UFC 336, 30 Ocak'ta Toronto'da"
+   },
+   "at": "2026-11-16T17:08Z",
+   "h": "e28df97554bd",
+   "rev": [
+    "Headline 'UFC 2027'nin ilk altı etkinliğini açıkladı' was ungrammatical and unclear (the genitive construction suggests UFC 2027 is the subject); corrected to 'UFC, 2027'nin ...'",
+    "In the German original the Dallas fight is not described as the main event ('ana maç'); it only says Yair Rodriguez vs Steve Garcia – this is minor and kept as is, but 'ana maçta' is an addition",
+    "Teaser: 'kemerini savunacak' is acceptable; no change"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Toronto'daki Scotiabank Arena (Arşiv fotoğrafı)"
    }
   },
   "ufc-334-borralho-fordert-imavov-interim": {

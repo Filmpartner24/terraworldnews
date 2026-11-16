@@ -39,6 +39,32 @@
     "rv.score": "Game Critix 4,5/5"
    }
   },
+  "alibaba-qwen4-max-release-2026-11-16-b1830": {
+   "L": {
+    "body": [
+     "Alibaba puso el lunes a disposición general su nuevo modelo de IA estrella, Qwen4-Max. Es un modelo de los llamados de mezcla de expertos (Mixture-of-Experts) con 2,4 billones de parámetros, de los cuales 71.000 millones están activos por token, y procesa texto, imágenes y vídeo con una ventana de contexto de un millón de tokens. La salida se genera en forma de texto.",
+     "A través de la API de QwenCloud, el modelo cuesta, según Digital Trends y DataCamp, 1,50 dólares por millón de tokens de entrada y 4,50 dólares por millón de tokens de salida. Según Digital Trends, el precio de salida queda así por debajo de una cuarta parte del de Claude Opus 5.5, de Anthropic. Los pesos no son públicos; está previsto que los modelos Qwen4 más pequeños se publiquen más adelante como código abierto.",
+     "Conviene ser prudente con los resultados: Alibaba cita para el modelo los mejores resultados, por ejemplo en tareas de agentes, pero en Terminal-Bench 4.0 queda, según el gráfico del fabricante, por detrás de Kimi K3.1 y en Humanity's Last Exam por detrás de Claude Opus 5.5. De forma independiente, Artificial Analysis lo sitúa en el noveno puesto de su índice de inteligencia. Según Digital Trends, todavía no existe una auditoría de seguridad externa."
+    ],
+    "d": "El modelo estrella está disponible en la API de QwenCloud, pero sigue siendo cerrado. Los buenos resultados en las pruebas de referencia proceden en su mayoría de la propia Alibaba.",
+    "t": "Alibaba lanza Qwen4-Max: contexto de 1 millón de tokens y entrada desde 1,50 dólares"
+   },
+   "at": "2026-11-16T17:09Z",
+   "h": "d2cbbed25f26",
+   "rev": [
+    "\"Mixture-of-Experts\" left untranslated; use Spanish \"mezcla de expertos\"",
+    "\"modelos Qwen4 más pequeños deberían publicarse\" is a weak rendering of \"sollen ... folgen\" (planned); better \"está previsto que ... se publiquen\"",
+    "\"Mejores marcas\" is unclear for \"Bestwerte\"; \"los mejores resultados\" is more natural"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Sede de Alibaba en Hangzhou (Foto de archivo)"
+   }
+  },
   "anthropic-ipo-nachfrage-2026-11-16-b1530": {
    "L": {
     "body": [
@@ -238,6 +264,54 @@
    "x": {
     "img.alt": "Vehículo de intervención de la policía de Berlín (Imagen simbólica)",
     "kl": "Berlín"
+   }
+  },
+  "berlin-neukoelln-lastenrad-hasenheide-festnahme-2026-11-16-b1830": {
+   "L": {
+    "body": [
+     "Berlín: Según la policía, una mujer denunció el domingo por la noche, hacia las 20:00, el robo de su bicicleta de carga, que había dejado atada en la Warschauer Straße. Mediante localización pudo seguirla hasta el parque Volkspark Hasenheide. Hacia las 20:50, los agentes se encontraron con un hombre que salía de la zona verde con la bicicleta.",
+     "El presunto autor se habría resistido con fuerza durante la detención, habría golpeado y pateado a los agentes y habría mordido en la mano a un policía. Varios agentes resultaron heridos, pero continuaron en servicio. El detenido sufrió lesiones en la cara y recibió tratamiento en un hospital.",
+     "Durante el registro, los policías encontraron varias bolsas con cierre hermético que contenían cannabis; la revisión de su teléfono móvil, a la que dio su consentimiento, reforzó, según la policía, la sospecha de tráfico ilegal de drogas. Se investiga por agresión a agentes de la autoridad, tráfico ilegal de cannabis y robo con agravantes. Para el hombre rige la presunción de inocencia."
+    ],
+    "d": "Los agentes se toparon con el hombre y la bicicleta en Hasenheide. Presuntamente golpeó, pateó y mordió a policías; llevaba cannabis. Se investigan tres delitos.",
+    "t": "Neukölln: localizan por GPS una bicicleta de carga robada; presunto ladrón se resiste"
+   },
+   "at": "2026-11-16T17:09Z",
+   "h": "aee1445b951a",
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Coche patrulla de la Policía de Berlín (Imagen simbólica)",
+    "kl": "Berlín"
+   }
+  },
+  "betul-8-frachter-kaliakra-drohnen-2026-11-16-b1830": {
+   "L": {
+    "body": [
+     "El carguero BETUL 8 volcó el lunes en la zona económica búlgara del mar Negro, a unas 40 millas náuticas al sudeste del cabo Kaliakra. El centro de coordinación de rescate de Varna recibió la llamada de socorro a las 9.15 horas. Según la Armada, el barco está con la quilla al aire y la proa sobresale del agua. Según informes de medios, navegaba bajo bandera de Somalia y transportaba trigo desde Tulcea, en Rumanía, hacia Egipto.",
+     "Los doce tripulantes fueron recogidos de las balsas salvavidas por dos helicópteros Cougar y trasladados a tierra. El comandante adjunto de la Armada, contraalmirante Vanyo Musinski, dijo que presentaban hipotermia, que un hombre tenía una herida leve en la cabeza y que no era nada grave. En la operación participaron buques de las armadas de Bulgaria, Rumanía y Turquía, así como un vuelo de reconocimiento de un Su-25.",
+     "Un tripulante dijo a los periodistas que dos drones marinos habían alcanzado el barco y que, en su opinión, eran rusos. Se trata de su propia valoración; según los informes consultados no existe una atribución oficial y las autoridades no han confirmado hasta ahora la causa."
+    ],
+    "d": "Según la tripulación, el barco habría sido alcanzado por dos drones marinos. Hasta ahora no hay confirmación oficial de la causa ni de los autores.",
+    "t": "Mar Negro: el carguero BETUL 8 vuelca frente a Kaliakra; rescatados los 12 tripulantes"
+   },
+   "at": "2026-11-16T17:09Z",
+   "h": "2ac5b93bc0d1",
+   "rev": [
+    "\"Flottillenadmiral\" is rendered as \"contraalmirante de flotilla\"; the Spanish equivalent is \"contraalmirante\" (flotilla admiral = comodoro/contraalmirante), so the rank is simplified",
+    "Name spelling: \"Wanjo\" rendered as \"Vanyo\" – acceptable transliteration, left unchanged",
+    "Minor: Su-25 reconnaissance flight wording is fine; no other errors found"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Cabo Kaliakra, en la costa búlgara del mar Negro (Foto de archivo)"
    }
   },
   "bg-energie-aktien": {
@@ -650,6 +724,32 @@
    ],
    "x": {
     "img.alt": "El Principality Stadium, en pleno centro de Cardiff, vista aérea de 2016 (Foto de archivo)"
+   }
+  },
+  "chatzialexiou-eintracht-frankfurt-nuernberg-fruehere-freigabe-2026-11-16-b1830": {
+   "L": {
+    "body": [
+     "Joti Chatzialexiou podrá asumir su nueva tarea en el Eintracht Frankfurt antes de lo previsto. El 1. FC Núremberg comunicó que había llegado a un acuerdo con el club de la Bundesliga para un traspaso anticipado. El contrato del director deportivo en Núremberg, que originalmente duraba hasta el 31 de enero de 2027, termina así ya el 30 de noviembre de 2026.",
+     "Chatzialexiou sucede en Fráncfort a Markus Krösche, a quien el club destituyó a mediados de octubre tras más de cinco años. La toma de posesión estaba prevista inicialmente para principios de 2027; según dpa, aún no se ha anunciado una nueva fecha exacta de inicio, y según la versión del hr, sería posible empezar el 1 de diciembre. Según los informes, Fráncfort no se pronunció en un primer momento.",
+     "Núremberg se había separado de Chatzialexiou unas dos semanas antes y había designado a Dieter Frey como nuevo director deportivo. El presidente del consejo de supervisión, Peter Meier, dijo: «Nos alegramos de que la transición esté ahora regulada y de que todas las modalidades estén aclaradas»."
+    ],
+    "d": "El 1. FC Núremberg y el Eintracht acordaron un traspaso anticipado del sucesor de Markus Krösche. El contrato en Núremberg termina ahora antes de lo previsto.",
+    "t": "Eintracht: Chatzialexiou llega antes – el Núremberg le libera el 30 de noviembre"
+   },
+   "at": "2026-11-16T17:09Z",
+   "h": "a7d1cea64590",
+   "rev": [
+    "\"la hr\" – the broadcaster Hessischer Rundfunk is masculine in Spanish (\"el hr\")",
+    "Indirect speech: \"comunicó que había llegado a un acuerdo\" reads as plain fact without clear attribution of the agreement; kept as reported speech but the verb is fine – no change needed",
+    "Teaser \"termina ahora antes de lo previsto\" is acceptable"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Museo del Eintracht Frankfurt (Imagen simbólica)"
    }
   },
   "chavez-jr-nachfolger-canelo": {
@@ -1133,6 +1233,31 @@
     "img.alt": "Foto de archivo: Hubertus Heil (SPD), 2021"
    }
   },
+  "dobrindt-return-hubs-ruanda-wien-2026-11-16-b1830": {
+   "L": {
+    "body": [
+     "El ministro federal del Interior, Alexander Dobrindt (CSU), debatió el lunes en Viena con Austria, Dinamarca, Grecia y los Países Bajos, así como con Ruanda, sobre los llamados Return Hubs. Se trata de centros fuera de la UE para solicitantes de asilo obligados a abandonar el país que no pueden regresar a sus países de origen. Según diplomáticos, la primera sede se ubicaría en Ruanda; el canciller austriaco, Christian Stocker, habló de una posible apertura ya en 2027. El presupuesto federal de 2027 prevé 20 millones de euros para el proyecto piloto.",
+     "Dobrindt dijo que se necesita una posibilidad así «para imponer una política migratoria que funcione». Según afirmó, los planes «no son comparables ni de lejos» con el fracasado proyecto británico en Ruanda; añadió que está agradecido de que Ruanda mantenga las conversaciones con los europeos.",
+     "El líder de Los Verdes, Felix Banaszak, calificó los Return Hubs de «moderna venta de indulgencias». El experto en política interior del SPD Sebastian Fiedler señaló que quedan preguntas abiertas sobre el país y criticó: «20 millones de euros para 40 plazas para toda Alemania». El Ministerio de Justicia, dirigido por el SPD, declaró, según taz (que cita a Die Welt), que no está implicado formalmente, según afirmó; las deportaciones a esos centros solo entrarían en consideración en condiciones muy estrictas."
+    ],
+    "d": "Tras una reunión en Viena, cinco países de la UE quieren crear un centro de deportación en Ruanda, a ser posible desde 2027. Desde el SPD, Los Verdes y La Izquierda llegan objeciones.",
+    "t": "Dobrindt defiende los Return Hubs en Ruanda; SPD y Los Verdes critican con dureza"
+   },
+   "at": "2026-11-16T17:09Z",
+   "h": "fc524ff43095",
+   "rev": [
+    "\"Los Verdes\" vs. established \"Los Verdes\" is fine; \"venta de indulgencias moderna\" is unnatural word order, better \"moderno tráfico de indulgencias\"",
+    "Ministry statement \"no está implicado formalmente\" was rendered as a present-tense fact; it should be reported speech (\"no estaba implicado formalmente\" / \"no estar\")"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Alexander Dobrindt (Foto de archivo)"
+   }
+  },
   "dragoman-18-jaehrige-getoetet-2026-11-16-b08": {
    "L": {
     "body": [
@@ -1252,6 +1377,31 @@
    ],
    "x": {
     "img.alt": "Harry Kane (Foto de archivo)"
+   }
+  },
+  "eu-genehmigt-unicredit-commerzbank-2026-11-16-b1830": {
+   "L": {
+    "body": [
+     "La Comisión Europea ha autorizado sin condiciones la prevista adquisición de Commerzbank por la italiana Unicredit. Los responsables de competencia examinaron sobre todo los servicios bancarios en Alemania, en especial la concesión de créditos a empresas medianas, donde Unicredit opera a través de HVB. Según la Comisión, las cuotas de mercado conjuntas serían moderadas y existirían proveedores alternativos. La comisaria de Competencia, Teresa Ribera, dijo: «Europa necesita bancos más fuertes, que sean competitivos, crezcan y puedan apoyar a nuestras empresas y familias».",
+     "La oferta de Unicredit a todos los accionistas de Commerzbank en mayo abrió el acceso a casi el 50 por ciento de la empresa; el Estado federal posee algo más del 13 por ciento. El BCE ha permitido elevar la participación por encima del 30 por ciento. El consejero delegado de Unicredit, Andrea Orcel, espera obtener todas las demás autorizaciones a finales de noviembre.",
+     "El Ministerio federal de Finanzas ha formulado sus propias condiciones: garantizar los empleos; el ministro de Finanzas, Lars Klingbeil (SPD), quiere evitar en lo posible los despidos por razones operativas, Commerzbank debe seguir siendo una sociedad anónima cotizada con sede en Fráncfort y debe mantenerse el negocio con las pymes. Según el informe, Unicredit prevé suprimir unos 7.000 puestos y reducir la red en el extranjero. Las conversaciones con el Gobierno federal están en marcha, pero no han concluido."
+    ],
+    "d": "Bruselas no ve problemas de competencia. Faltan otras autorizaciones; el Gobierno alemán tiene sus propias exigencias, entre ellas mantener los empleos y la sede en Fráncfort.",
+    "t": "La Comisión Europea autoriza sin condiciones la compra de Commerzbank por Unicredit"
+   },
+   "at": "2026-11-16T17:09Z",
+   "h": "1c7e5f6d3d26",
+   "rev": [
+    "Indirect speech about market shares: 'Según se indicó' is vague and gives no source; the attribution should be the Commission/competition authorities.",
+    "'Unicredit plant nach Angaben des Berichts' is fine."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Torre de Commerzbank en Fráncfort del Meno (Foto de archivo)"
    }
   },
   "europa-estland-sabotage-drohnenfirma-grenze-2026-11-16": {
@@ -3035,6 +3185,33 @@
     "kl": "EE. UU."
    }
   },
+  "trump-putin-zugestaendnisse-shenzhen-2026-11-16-b1830": {
+   "L": {
+    "body": [
+     "El presidente estadounidense, Donald Trump, declaró el lunes ante periodistas que el presidente ruso, Vladímir Putin, estaba cediendo en la cuestión de Ucrania. «Putin cede un poco en Ucrania. Podría haber sido mucho más duro. Siendo sincero, está haciendo concesiones», dijo Trump, según la agencia APA. No precisó a qué concesiones se refiere; en los informes consultados no figuraba confirmación alguna de Moscú ni de Kiev.",
+     "Al mismo tiempo, Trump confirmó que se reunirá con Putin durante su viaje a China. Según APA, la primera reunión a tres de los jefes de Estado y de Gobierno de EE. UU., Rusia y China está prevista para el 19 de noviembre en Shenzhen, en el marco de la cumbre de la APEC. En la agenda figuran, según la agencia, la no proliferación nuclear, Ucrania e Irán. Trump considera posible una reunión aparte con el líder norcoreano, Kim Jong Un.",
+     "Sobre la relación con Pekín, Trump dijo: «China se anda con jueguecitos con nosotros. Nosotros también nos andamos con jueguecitos con China. Pero nuestro país es más fuerte que nunca». El trasfondo son las conversaciones entre representantes rusos y ucranianos, mediadas por EE. UU., celebradas el 10 de noviembre en Abu Dabi, en las que se trató el fin de la guerra, cuestiones territoriales y garantías de seguridad."
+    ],
+    "d": "El presidente estadounidense, Trump, dijo que Putin «cede un poco» en Ucrania. La reunión con Xi y Putin está prevista para el 19 de noviembre en el marco de la cumbre de la APEC.",
+    "t": "Trump: Putin cede en Ucrania – cumbre a tres con Xi el 19.11. en Shenzhen"
+   },
+   "at": "2026-11-16T17:09Z",
+   "h": "30597bb3b857",
+   "rev": [
+    "Teaser: 'am Rande des APEC-Gipfels' rendered as 'en el marco de', acceptable; 'Spielchen' translated literally as 'juega con nosotros', which loses the sense of 'games' (playing games)",
+    "Awkward 'según esto' in the agenda sentence",
+    "Headline: Putin's concession stated as plain fact without attribution (the German headline also has the claim attributed via 'Trump:' prefix, so acceptable)"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Donald Trump (Foto de archivo)",
+    "kl": "EE. UU."
+   }
+  },
   "uber-delivery-hero-zwei-drittel-2026-11-16": {
    "L": {
     "body": [
@@ -3081,6 +3258,31 @@
    ],
    "x": {
     "img.alt": "Sede de la UEFA en Nyon (Imagen simbólica)"
+   }
+  },
+  "ufc-2027-erste-sechs-events-bekannt-2026-11-16-b1830": {
+   "L": {
+    "body": [
+     "Según MMA Junkie, la UFC ha anunciado oficialmente sus seis primeros eventos de 2027. El 16 de enero abrirá el año una Fight Night en Dallas con Yair Rodriguez contra Steve Garcia; una semana después, en Las Vegas, seguirá Sean Brady contra Gabriel Bonfim en el peso welter.",
+     "El 30 de enero se celebra el UFC 336 en la Scotiabank Arena de Toronto: el campeón del peso mosca Joshua Van se enfrenta a Manel Kape y, en el combate co-estelar, Carlos Prates y Michael Morales se disputan el título interino del peso welter. Después están programadas Fight Nights el 6 de febrero en Sídney (Quillan Salkilld contra Benoît Saint Denis) y el 13 de febrero en Cleveland (Bo Nickal contra Joe Pyfer, peso medio a cinco asaltos).",
+     "El UFC 337 tendrá lugar el 20 de febrero en Orlando; en el momento de publicarse el informe aún no se conocía el combate principal."
+    ],
+    "d": "La UFC ha fijado oficialmente fechas y combates principales para enero y febrero de 2027. En Toronto, el campeón del peso mosca Joshua Van defiende el título ante Manel Kape.",
+    "t": "La UFC anuncia sus seis primeros eventos de 2027: UFC 336, el 30 de enero en Toronto"
+   },
+   "at": "2026-11-16T17:09Z",
+   "h": "e28df97554bd",
+   "rev": [
+    "En el título, \"Fight Night\" y \"UFC 336\" están bien, pero \"Scotiabank Arena\" concuerda mejor con el femenino \"la arena\"; se corrige \"el Scotiabank Arena\" por \"la Scotiabank Arena\"",
+    "\"en el momento del informe\" es poco natural; se reformula como \"en el momento de la publicación del informe\""
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Scotiabank Arena de Toronto (Foto de archivo)"
    }
   },
   "ufc-334-borralho-fordert-imavov-interim": {
