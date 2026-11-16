@@ -150,7 +150,10 @@
      "time": "20:45",
      "t1": "Frankreich",
      "t2": "Türkei",
-     "ft": null,
+     "ft": [
+      2,
+      1
+     ],
      "city": "Bordeaux"
     },
     {
@@ -159,7 +162,10 @@
      "time": "20:45",
      "t1": "Belgien",
      "t2": "Italien",
-     "ft": null,
+     "ft": [
+      4,
+      1
+     ],
      "city": "Brüssel"
     }
    ]
@@ -436,7 +442,10 @@
      "time": "20:45",
      "t1": "Kroatien",
      "t2": "Tschechien",
-     "ft": null,
+     "ft": [
+      2,
+      1
+     ],
      "city": "Osijek"
     },
     {
@@ -445,7 +454,10 @@
      "time": "20:45",
      "t1": "Spanien",
      "t2": "England",
-     "ft": null,
+     "ft": [
+      2,
+      3
+     ],
      "city": "Madrid"
     }
    ]
