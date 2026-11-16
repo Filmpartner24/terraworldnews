@@ -3195,13 +3195,25 @@ def build():
         _H = HOMEU.get(l, HOMEU['en'])
         _grp = [('g_news', ['bulgarien', 'deutschland', 'welt', 'europa'] if l == 'bg' else ['welt', 'europa', 'deutschland', 'bulgarien']), ('g_know', ['wirtschaft', 'business', 'energie', 'ki', 'ai', 'klima', 'auto']), ('g_life', ['leben', 'mode']), ('g_ent', ['film', 'musik', 'games', 'sport'])]
         rails = ''
+        _used = set()
+        def _rail_items(s):   # aktuelle Beiträge der Rubrik; fehlen welche, mit den neuesten älteren auffüllen (Nedy 16.11.2026: keine Lücken)
+            its = lv if s == 'leben' else [it for it in rest if it['s'] == s]
+            if len(its) < 4:
+                _ids = {x['id'] for x in its}
+                its = list(its) + [x for x in sorted([it for it in items_l if it['s'] == s], key=lambda x: (x['date'], x['time']), reverse=True) if x['id'] not in _ids][:4 - len(its)]
+            return its
         for gk, gs in _grp:
-            gr = ''
+            blocks = []
             for s in gs:
-                its = lv if s == 'leben' else [it for it in rest if it['s'] == s]
-                if s == 'leben' and len(its) < 4: its = sorted([it for it in items_l if it['s'] == 'leben'], key=lambda x: (x['date'], x['time']), reverse=True)[:4]
-                if len(its) >= 2: gr += hrail(s, its[:4])
-            if gr: rails += f'<h2 class="hgrp"><span>{e(_H[gk])}</span></h2><div class="hgrp-b">{gr}</div>'
+                its = _rail_items(s)
+                if len(its) >= 2: blocks.append(hrail(s, its[:4])); _used.add(s)
+            if len(blocks) % 2:   # immer paarweise (2 Kästen pro Reihe): erst Füll-Rubrik, sonst den letzten Kasten weglassen
+                for fs in ('history', 'kultur'):
+                    if fs in SEC[l] and fs in SEC_COLOR and fs not in _used:
+                        its = _rail_items(fs)
+                        if len(its) >= 2: blocks.append(hrail(fs, its[:4])); _used.add(fs); break
+                if len(blocks) % 2: blocks.pop()
+            if blocks: rails += f'<h2 class="hgrp"><span>{e(_H[gk])}</span></h2><div class="hgrp-b">{"".join(blocks)}</div>'
         _vids = [it for it in sorted(items_l, key=lambda x: (x['date'], x['time']), reverse=True) if it.get('yt') and not it.get('ex') and it['s'] != 'business' and it['date'] >= (rest[-1]['date'] if rest else latest['date'])][:24]
         _seen, vsel = set(), []
         for it in _vids:  # höchstens 2 Videos pro Rubrik, damit das Band gemischt bleibt
