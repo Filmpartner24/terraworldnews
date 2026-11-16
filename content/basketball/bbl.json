@@ -8,7 +8,7 @@
   "tr": "easyCredit BBL (Almanya)"
  },
  "season": "2026/27",
- "asof": "2026-11-15",
+ "asof": "2026-11-16",
  "tables": [
   {
    "name": {},
@@ -16,24 +16,24 @@
    "rows": [
     {
      "team": "FC Bayern München Basketball",
-     "w": 7,
+     "w": 8,
      "l": 1,
-     "pf": 768,
-     "pa": 561
+     "pf": 859,
+     "pa": 622
     },
     {
      "team": "VET-CONCEPT Gladiators Trier",
-     "w": 6,
+     "w": 7,
      "l": 1,
-     "pf": 689,
-     "pa": 603
+     "pf": 788,
+     "pa": 688
     },
     {
      "team": "SYNTAINICS MBC",
      "w": 6,
-     "l": 2,
-     "pf": 693,
-     "pa": 641
+     "l": 3,
+     "pf": 754,
+     "pa": 732
     },
     {
      "team": "Telekom Baskets Bonn",
@@ -44,17 +44,17 @@
     },
     {
      "team": "ROSTOCK SEAWOLVES",
-     "w": 5,
+     "w": 6,
      "l": 3,
-     "pf": 718,
-     "pa": 659
+     "pf": 804,
+     "pa": 734
     },
     {
      "team": "MHP RIESEN Ludwigsburg",
      "w": 5,
      "l": 4,
-     "pf": 682,
-     "pa": 688
+     "pf": 775,
+     "pa": 767
     },
     {
      "team": "ALBA BERLIN",
@@ -66,9 +66,9 @@
     {
      "team": "SKYLINERS",
      "w": 4,
-     "l": 2,
-     "pf": 524,
-     "pa": 500
+     "l": 3,
+     "pf": 609,
+     "pa": 599
     },
     {
      "team": "Fitness First Würzburg Baskets",
@@ -78,18 +78,18 @@
      "pa": 666
     },
     {
-     "team": "BMA365 Bamberg Baskets",
-     "w": 4,
-     "l": 5,
-     "pf": 766,
-     "pa": 771
-    },
-    {
      "team": "ratiopharm ulm",
      "w": 4,
      "l": 5,
      "pf": 757,
      "pa": 769
+    },
+    {
+     "team": "BMA365 Bamberg Baskets",
+     "w": 4,
+     "l": 5,
+     "pf": 766,
+     "pa": 771
     },
     {
      "team": "EWE Baskets Oldenburg",
@@ -99,18 +99,18 @@
      "pa": 751
     },
     {
-     "team": "Basketball Löwen Braunschweig",
+     "team": "NINERS Chemnitz",
      "w": 3,
-     "l": 5,
-     "pf": 688,
-     "pa": 772
+     "l": 6,
+     "pf": 808,
+     "pa": 799
     },
     {
      "team": "RASTA Vechta",
      "w": 3,
-     "l": 5,
-     "pf": 690,
-     "pa": 726
+     "l": 6,
+     "pf": 765,
+     "pa": 812
     },
     {
      "team": "Veolia Towers Hamburg",
@@ -120,11 +120,11 @@
      "pa": 817
     },
     {
-     "team": "NINERS Chemnitz",
-     "w": 2,
+     "team": "Basketball Löwen Braunschweig",
+     "w": 3,
      "l": 6,
-     "pf": 697,
-     "pa": 720
+     "pf": 767,
+     "pa": 883
     },
     {
      "team": "Science City Jena",
@@ -137,49 +137,13 @@
      "team": "Phoenix Hagen",
      "w": 2,
      "l": 7,
-     "pf": 672,
-     "pa": 735
+     "pf": 751,
+     "pa": 828
     }
    ]
   }
  ],
  "matches": [
-  {
-   "t1": "Telekom Baskets Bonn",
-   "t2": "Basketball Löwen Braunschweig",
-   "date": "2026-11-07",
-   "ft": [
-    97,
-    87
-   ]
-  },
-  {
-   "t1": "SYNTAINICS MBC",
-   "t2": "SKYLINERS",
-   "date": "2026-11-08",
-   "ft": [
-    77,
-    73
-   ]
-  },
-  {
-   "t1": "MHP RIESEN Ludwigsburg",
-   "t2": "EWE Baskets Oldenburg",
-   "date": "2026-11-08",
-   "ft": [
-    72,
-    74
-   ]
-  },
-  {
-   "t1": "Fitness First Würzburg Baskets",
-   "t2": "FC Bayern München Basketball",
-   "date": "2026-11-08",
-   "ft": [
-    73,
-    94
-   ]
-  },
   {
    "t1": "Science City Jena",
    "t2": "Veolia Towers Hamburg",
@@ -238,28 +202,118 @@
    "t1": "SKYLINERS",
    "t2": "VET-CONCEPT Gladiators Trier",
    "date": "2026-11-15",
-   "time": "15:00"
+   "ft": [
+    85,
+    99
+   ]
   },
   {
    "t1": "ROSTOCK SEAWOLVES",
    "t2": "RASTA Vechta",
    "date": "2026-11-15",
-   "time": "15:00"
+   "ft": [
+    86,
+    75
+   ]
   },
   {
    "t1": "FC Bayern München Basketball",
    "t2": "SYNTAINICS MBC",
    "date": "2026-11-15",
-   "time": "16:30"
+   "ft": [
+    91,
+    61
+   ]
   },
   {
    "t1": "NINERS Chemnitz",
    "t2": "Basketball Löwen Braunschweig",
    "date": "2026-11-15",
+   "ft": [
+    111,
+    79
+   ]
+  },
+  {
+   "t1": "Fitness First Würzburg Baskets",
+   "t2": "RASTA Vechta",
+   "date": "2026-11-20",
+   "time": "20:00"
+  },
+  {
+   "t1": "Science City Jena",
+   "t2": "ROSTOCK SEAWOLVES",
+   "date": "2026-11-21",
+   "time": "16:00"
+  },
+  {
+   "t1": "Basketball Löwen Braunschweig",
+   "t2": "BMA365 Bamberg Baskets",
+   "date": "2026-11-21",
+   "time": "18:30"
+  },
+  {
+   "t1": "VET-CONCEPT Gladiators Trier",
+   "t2": "NINERS Chemnitz",
+   "date": "2026-11-21",
+   "time": "20:00"
+  },
+  {
+   "t1": "EWE Baskets Oldenburg",
+   "t2": "SKYLINERS",
+   "date": "2026-11-21",
+   "time": "20:00"
+  },
+  {
+   "t1": "Telekom Baskets Bonn",
+   "t2": "ratiopharm ulm",
+   "date": "2026-11-22",
+   "time": "15:00"
+  },
+  {
+   "t1": "MHP RIESEN Ludwigsburg",
+   "t2": "SYNTAINICS MBC",
+   "date": "2026-11-22",
+   "time": "16:30"
+  },
+  {
+   "t1": "Veolia Towers Hamburg",
+   "t2": "Phoenix Hagen",
+   "date": "2026-11-22",
+   "time": "16:30"
+  },
+  {
+   "t1": "ALBA BERLIN",
+   "t2": "FC Bayern München Basketball",
+   "date": "2026-11-22",
    "time": "18:00"
   }
  ],
  "src": [
+  {
+   "n": "easyCredit BBL – Tabelle (Stand 14.11.2026, 22:17 Uhr), fortgeschrieben mit den vier Ergebnissen vom 15.11.2026; bei Gleichstand vorläufig nach Korbdifferenz",
+   "u": "https://www.easycredit-bbl.de/saison/tabelle"
+  },
+  {
+   "n": "easyCredit BBL – Aktuelle Spiele (Spieltag 20.–22.11.2026, abgerufen 16.11.2026)",
+   "u": "https://www.easycredit-bbl.de/saison/aktuelle-spiele"
+  },
+  {
+   "n": "FC Bayern Basketball – Spielbericht gegen den MBC, 91:61 (15.11.2026)",
+   "u": "https://fcbayern.com/basketball/de/news/spielberichte/2026-27/11/fc-bayern-basketball---syntainics-mbc"
+  },
+  {
+   "n": "Frankfurt Skyliners – SKYLINERS unterliegen Trier trotz starkem Start, 85:99 (15.11.2026)",
+   "u": "https://www.frankfurt-skyliners.de/news-service/details/skyliners-unterliegen-trier-trotz-starkem-start"
+  },
+  {
+   "n": "Nordkurier – Rostock Seawolves überrollen Vechta, 86:75 (15.11.2026)",
+   "u": "https://www.nordkurier.de/sport/fuenfter-heimsieg-in-folge-rostock-seawolves-ueberrollen-vechta-5012653"
+  },
+  {
+   "n": "NINERS Chemnitz – Saison/Spielplan, 111:79 gegen Braunschweig (15.11.2026)",
+   "u": "https://www.chemnitz99.de/saison"
+  },
   {
    "n": "easyCredit BBL – Startseite/NewsCenter mit den Ergebnissen vom 14.11.2026 (abgerufen 15.11.2026)",
    "u": "https://www.easycredit-bbl.de/"
@@ -275,30 +329,6 @@
   {
    "n": "MHP RIESEN Ludwigsburg – Big Plays bringen Big Points (Bilanz 5:4, 14.11.2026)",
    "u": "https://mhp-riesen-ludwigsburg.de/news/big-plays-bringen-big-points/"
-  },
-  {
-   "n": "easyCredit BBL – Tabelle (letzte Aktualisierung 09.11.2026, 22:12 Uhr)",
-   "u": "https://www.easycredit-bbl.de/saison/tabelle"
-  },
-  {
-   "n": "easyCredit BBL – Aufatmen bei den Towers: Hamburg gewinnt das Kellerduell in Jena (10.11.2026)",
-   "u": "https://easycredit-bbl.de/de/n/news/2026/november/aufatmen-in-hamburg-towers-gewinnen-das-kellerduell-in-jena"
-  },
-  {
-   "n": "easyCredit BBL – Aktuelle Spiele, 9. Spieltag (abgerufen 13.11.2026)",
-   "u": "https://www.easycredit-bbl.de/saison/aktuelle-spiele"
-  },
-  {
-   "n": "Würzburg Baskets – Gegen dominante Bayern bis zum Schluss gekämpft (08.11.2026)",
-   "u": "https://www.wuerzburg-baskets.de/news/newsdetails/gegen-dominante-bayern-bis-zum-schluss-gekaempft"
-  },
-  {
-   "n": "Sport1/SID – Überraschungsteam zieht mit FCB gleich (07.11.2026)",
-   "u": "https://wp.sport1.de/news/basketball/bbl/2026/11/bbl-trier-bleibt-in-der-erfolgsspur"
-  },
-  {
-   "n": "ROSTOCK SEAWOLVES – Seawolves feiern Heimsieg gegen Ulm",
-   "u": "https://www.seawolves.de/spielbericht/seawolves-feiern-heimsieg-gegen-ulm/"
   }
  ],
  "img": {

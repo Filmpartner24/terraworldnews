@@ -8,7 +8,7 @@
   "tr": "Liga Endesa (İspanya)"
  },
  "season": "2026/27",
- "asof": "2026-11-15",
+ "asof": "2026-11-16",
  "tables": [
   {
    "name": {},
@@ -16,10 +16,17 @@
    "rows": [
     {
      "team": "Real Madrid",
-     "w": 7,
+     "w": 8,
      "l": 0,
-     "pf": 744,
-     "pa": 597
+     "pf": 842,
+     "pa": 681
+    },
+    {
+     "team": "Valencia Basket",
+     "w": 6,
+     "l": 2,
+     "pf": 805,
+     "pa": 713
     },
     {
      "team": "La Laguna Tenerife",
@@ -29,25 +36,18 @@
      "pa": 637
     },
     {
-     "team": "Valencia Basket",
-     "w": 5,
+     "team": "Barça",
+     "w": 6,
      "l": 2,
-     "pf": 694,
-     "pa": 616
+     "pf": 789,
+     "pa": 744
     },
     {
      "team": "Kosner Baskonia",
      "w": 5,
-     "l": 2,
-     "pf": 665,
-     "pa": 590
-    },
-    {
-     "team": "Barça",
-     "w": 5,
-     "l": 2,
-     "pf": 681,
-     "pa": 661
+     "l": 3,
+     "pf": 749,
+     "pa": 688
     },
     {
      "team": "Río Breogán",
@@ -64,46 +64,32 @@
      "pa": 713
     },
     {
+     "team": "Unicaja",
+     "w": 4,
+     "l": 4,
+     "pf": 703,
+     "pa": 673
+    },
+    {
      "team": "Surne Bilbao",
      "w": 4,
-     "l": 3,
-     "pf": 644,
-     "pa": 648
+     "l": 4,
+     "pf": 720,
+     "pa": 732
+    },
+    {
+     "team": "UCAM Murcia",
+     "w": 4,
+     "l": 4,
+     "pf": 715,
+     "pa": 729
     },
     {
      "team": "FIATC Girona",
      "w": 4,
-     "l": 3,
-     "pf": 635,
-     "pa": 681
-    },
-    {
-     "team": "Unicaja",
-     "w": 3,
      "l": 4,
-     "pf": 621,
-     "pa": 603
-    },
-    {
-     "team": "UCAM Murcia",
-     "w": 3,
-     "l": 4,
-     "pf": 631,
-     "pa": 653
-    },
-    {
-     "team": "Monbus Obradoiro",
-     "w": 3,
-     "l": 4,
-     "pf": 632,
-     "pa": 676
-    },
-    {
-     "team": "Leyma Coruña",
-     "w": 3,
-     "l": 4,
-     "pf": 643,
-     "pa": 699
+     "pf": 705,
+     "pa": 763
     },
     {
      "team": "Asisa Joventut",
@@ -113,6 +99,20 @@
      "pa": 723
     },
     {
+     "team": "Monbus Obradoiro",
+     "w": 3,
+     "l": 5,
+     "pf": 715,
+     "pa": 784
+    },
+    {
+     "team": "Leyma Coruña",
+     "w": 3,
+     "l": 5,
+     "pf": 740,
+     "pa": 810
+    },
+    {
      "team": "Recoletas Salud San Pablo Burgos",
      "w": 2,
      "l": 6,
@@ -120,18 +120,11 @@
      "pa": 744
     },
     {
-     "team": "iLERNA Lleida",
-     "w": 1,
-     "l": 6,
-     "pf": 650,
-     "pa": 739
-    },
-    {
      "team": "Kids&Us Manresa",
-     "w": 1,
+     "w": 2,
      "l": 6,
-     "pf": 606,
-     "pa": 716
+     "pf": 704,
+     "pa": 808
     },
     {
      "team": "MoraBanc Andorra",
@@ -139,56 +132,18 @@
      "l": 7,
      "pf": 691,
      "pa": 772
+    },
+    {
+     "team": "iLERNA Lleida",
+     "w": 1,
+     "l": 7,
+     "pf": 742,
+     "pa": 837
     }
    ]
   }
  ],
  "matches": [
-  {
-   "t1": "iLERNA Lleida",
-   "t2": "Kosner Baskonia",
-   "date": "2026-11-07",
-   "ft": [
-    93,
-    98
-   ]
-  },
-  {
-   "t1": "Barça",
-   "t2": "Río Breogán",
-   "date": "2026-11-08",
-   "ft": [
-    99,
-    91
-   ]
-  },
-  {
-   "t1": "Recoletas Salud San Pablo Burgos",
-   "t2": "Valencia Basket",
-   "date": "2026-11-08",
-   "ft": [
-    93,
-    100
-   ]
-  },
-  {
-   "t1": "La Laguna Tenerife",
-   "t2": "Asisa Joventut",
-   "date": "2026-11-08",
-   "ft": [
-    80,
-    74
-   ]
-  },
-  {
-   "t1": "Casademont Zaragoza",
-   "t2": "Unicaja",
-   "date": "2026-11-08",
-   "ft": [
-    96,
-    91
-   ]
-  },
   {
    "t1": "Leyma Coruña",
    "t2": "MoraBanc Andorra",
@@ -237,32 +192,47 @@
   {
    "t1": "iLERNA Lleida",
    "t2": "Kids&Us Manresa",
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "ft": [
+    92,
+    98
+   ]
   },
   {
    "t1": "Valencia Basket",
    "t2": "Leyma Coruña",
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "ft": [
+    111,
+    97
+   ]
   },
   {
    "t1": "Unicaja",
    "t2": "FIATC Girona",
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "ft": [
+    82,
+    70
+   ]
   },
   {
    "t1": "Barça",
    "t2": "Monbus Obradoiro",
-   "date": "2026-11-15"
-  },
-  {
-   "t1": "Surne Bilbao",
-   "t2": "UCAM Murcia",
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "ft": [
+    108,
+    83
+   ]
   },
   {
    "t1": "Kosner Baskonia",
    "t2": "Real Madrid",
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "ft": [
+    84,
+    98
+   ]
   },
   {
    "t1": "Recoletas Salud San Pablo Burgos",
@@ -297,6 +267,18 @@
  ],
  "src": [
   {
+   "n": "ACB – Clasificación Liga Endesa 2026-27 (tras la jornada 8, abgerufen 16.11.2026)",
+   "u": "https://acb.com/es/liga/clasificacion"
+  },
+  {
+   "n": "Europa Press/Diario Siglo XXI – Real Madrid y Barça imponen su ley ante Baskonia y Obradoiro (15.11.2026)",
+   "u": "https://www.diariosigloxxi.com/texto-ep/mostrar/20261115214528/cronica-real-madrid-barca-imponen-ley-ante-baskonia-obradoiro"
+  },
+  {
+   "n": "EFE/Infobae – 84-98. El Real Madrid, más líder ante un Baskonia en plena reconstrucción (15.11.2026)",
+   "u": "https://www.infobae.com/espana/agencias/2026/11/15/84-98-el-real-madrid-mas-lider-ante-un-baskonia-en-plena-reconstruccion/"
+  },
+  {
    "n": "ACB – Calendario Liga Endesa 2026-27, Jornadas 8 y 9 (abgerufen 15.11.2026)",
    "u": "https://acb.com/es/liga/calendario"
   },
@@ -307,14 +289,6 @@
   {
    "n": "Unicaja Baloncesto – Clasificación Liga Endesa 2026/27 (Jornada 7, abgerufen 09.11.2026)",
    "u": "https://www.unicajabaloncesto.com/clasificacion/ver/id/7"
-  },
-  {
-   "n": "Europa Press/Diario Siglo XXI – El Real Madrid tumba al UCAM Murcia y el Barça gana con secuelas (08.11.2026)",
-   "u": "https://www.diariosigloxxi.com/texto-ep/mostrar/20261108233240/cronica-real-madrid-tumba-ucam-murcia-barca-gana-secuelas"
-  },
-  {
-   "n": "ACB – Calendario Liga Endesa 2026-27, Jornada 8 (abgerufen 13.11.2026)",
-   "u": "https://acb.com/es/liga/calendario"
   }
  ],
  "img": {
