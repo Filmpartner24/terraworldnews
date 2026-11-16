@@ -1,6 +1,64 @@
 {
  "date": "2026-11-16",
  "items": {
+  "berlin-moabit-explosion-fenster-sprengstoff-2026-11-16-b08": {
+   "L": {
+    "body": [
+     "Pazar akşamı Berlin-Moabit'te meydana gelen bir patlama, bir apartmandaki birçok dairenin penceresine zarar verdi. Polisin açıklamasına göre görgü tanıkları, bilinmeyen kişilerin muhtemelen bitişikteki sokağa “küre bomba” denen bir patlayıcı attığını ifade etti. Bir polis sözcüsü, “el yapımı bir patlayıcı olması mümkün” dedi. İlk bulgulara göre Polonya'dan gelen belirli kuvvetli havai fişekler de söz konusu olabilir.",
+     "Çevre sakinleri çok yüksek sesli bir patlama duyduklarını anlattı. Başlangıçta yaralandığına dair bir bilgi verilmedi. Polis, Patlayıcı Maddeler Yasası'nın şüpheli ihlali nedeniyle soruşturma yürütüyor; şüphelilerin kimliği başlangıçta açıklanmadı."
+    ],
+    "d": "Pazar akşamı Berlin-Moabit'te yüksek sesli bir patlama bir apartmanın birçok pencere camını kırdı. Görgü tanıklarına göre bilinmeyen kişiler muhtemelen sokağa “küre bomba” denen bir patlayıcı attı.",
+    "t": "Moabit'te patlama pencereleri kırdı; polis el yapımı patlayıcıyı inceliyor"
+   },
+   "at": "2026-11-16T06:03Z",
+   "h": "85890e03527b",
+   "rev": [
+    "Kugelbombe left untranslated in teaser and body; should be translated (küre bomba / küre şeklinde bomba)",
+    "Teaser: 'havai fişek' for Kugelbombe is inconsistent with body ('patlayıcı'); unify",
+    "'Böller' rendered as 'kuvvetli havai fişekler' - acceptable, kept",
+    "Lost hedge 'Nach ersten Erkenntnissen' is kept; 'mutmaßlich' rendered 'iddia edilen' - better 'şüpheli'",
+    "Quote 'selbstgebauten Sprengsatz' sentence: plain quote with 'dedi' is attributed, ok but 'mümkün' wording refined"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin polisine ait bir müdahale aracı (Sembolik fotoğraf)",
+    "kl": "Berlin"
+   }
+  },
+  "bsw-wagenknecht-kommission-magdeburger-weg-afd-2026-11-16-b08": {
+   "L": {
+    "body": [
+     "BSW'nin AfD ile ilişkiler konusundaki yön tartışmasında partinin Temel Değerler Komisyonu, „Magdeburg Yolu“ olarak adlandırılan çizginin arkasında durdu. Parti kurucusu Sahra Wagenknecht'in başkanlık ettiği kurulun kararında, dpa'nın aktardığına göre şöyle deniyor: „BSW, seçimden önce vaat ettiği çizgiyi tutarlı biçimde uygulamalıdır.“ Karara göre, anlamlı önergelere kim sunarsa sunsun destek verilmeli; ortak önergeler de mümkün olmalı. Belge, Saksonya-Anhalt Eyalet Meclisi'nde AfD ile birlikte kabul edilen Ukrayna önergesini „başarılı bir örnek“ olarak niteliyor.",
+     "Komisyon, AfD ile koalisyonu ya da AfD azınlık hükümetinin hoşgörüyle desteklenmesini reddediyor; ancak aynı şekilde „set“ (Brandmauer) koalisyonuna katılımı da reddediyor. Komisyona göre bugünkü AfD'yi „Nazi partisi“ olarak nitelemenin „tamamen gerçeklikten uzak“ olduğu belirtiliyor. Belge aynı zamanda, bir iş birliğinin aşırı görüşlerin etkisini artırabileceği yönündeki kaygıları kabul ediyor: „Bu sorun karşısında gözlerimizi kapatmıyoruz.“",
+     "Karar, aralarında birkaç genel başkan yardımcısı ve yönetim kurulu üyeleri Sevim Dağdelen ile Klaus Ernst'in de bulunduğu isimlerin desteklediği parti kongresi değişiklik önergesiyle çelişiyor; bu isimler resmi ya da fiili desteğin de dışlanmasını istiyor. Saksonya-Anhalt'ta AfD eylülde yaklaşık yüzde 44 oy almıştı; yüzde 5'in biraz üzerinde oy alan BSW ise dengeyi belirleyen taraf konumunda. Federal parti kongresi 27 ve 28 Kasım'da Dresden'de yapılacak."
+    ],
+    "d": "Sahra Wagenknecht'in başkanlık ettiği komisyon, Saksonya-Anhalt'ta AfD ile ortak Ukrayna önergesini „başarılı bir örnek“ olarak niteledi; böylece üst düzey parti arkadaşlarına karşı çıktı.",
+    "t": "BSW'de tartışma: Wagenknecht'in komisyonu AfD ile konu bazlı çoğunluğu destekliyor"
+   },
+   "at": "2026-11-16T06:04Z",
+   "h": "c4472a4e32a2",
+   "rev": [
+    "Indirect speech/opinion: \"Nazi partisi\" sentence rendered with conditional \"olurdu\" instead of reporting the commission's view (sei = according to the commission)",
+    "\"Brandmauer\" left in German; translate as \"Brandmauer\" is not established in Turkish, so use \"set\" (brandmauer) -> \"set\" koalisyonu",
+    "\"AfD ile koalisyonu\" is ungrammatical; should be \"AfD ile koalisyonu\" -> \"AfD'yle koalisyonu\"; also \"desteklenmesini\" for Tolerierung is ok",
+    "\"mantıklı önergelere kimin sunduğuna\" is ungrammatical (missing case: should be \"kimin sunduğuna bakılmaksızın\" with \"önergelere\" ok but the sentence is missing the verb object); reported speech needs",
+    "\"genel başkan yardımcısının\" plural mismatch",
+    "\"Zünglein an der Waage\" fine",
+    "\"Dresden'de\" fine"
+   ],
+   "rev_dbg": [
+    7,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Sahra Wagenknecht (Arşiv fotoğrafı)"
+   }
+  },
   "bulgarien-442-verkehrstote-gedenktag-2026-11-16": {
    "L": {
     "body": [
@@ -214,6 +272,88 @@
     "img.alt": "Arşiv fotoğrafı: İliyana Yotova"
    }
   },
+  "bulgarien-manolowa-handelsketten-aufschlaege-40-prozent-2026-11-16": {
+   "L": {
+    "body": [
+     "Bulgaristan'daki perakende zincirleri, özel tekliflerde yüzde 30 ile 40 arasında ek fiyat uyguluyor; bu çoğu zaman aralarında Bulgar gıda üreticilerinin de bulunduğu tedarikçilerin zararına oluyor. Bunu tüketici koruma komisyonu KZP'nin başkanı Maya Manolova, BNT'de yayımlanan “Röportaj” programında söyledi. Manolova, “En büyük beş zincirde yaptığımız denetimlerde, kampanyalarda yüzde 40'a varan ek fiyat uyguladıklarını tespit ettik” dedi. Manolova, KZP'nin cirosunun yüzde 10'una kadar para cezası verebilen rekabet komisyonu KZK'yı devreye soktuğunu söyledi.",
+     "Manolova'ya göre ayrıca, bir kategorideki benzer ürünlerde ek fiyatların yüzde 10'dan fazla farklılık göstermesini yasaklayan kurala aykırılıklar da tespit edildi; belgeleri zincirlerin kendilerinin sunduğunu belirtti. Manolova, “Onları korumak için hiçbir nedenimiz yok” dedi. Yaklaşık 20 temel gıdada marjların, raf fiyatlarının yalnızca artmayı bırakmakla kalmayıp gerçekten düşeceği şekilde azaltılmasını istiyor. Azami fiyatlarını ithalatçıların şimdiye kadar etkili bir denetim olmaksızın belirlediği reçetesiz ilaçlar için de değişiklikler hazırlanıyor.",
+     "Manolova ayrıca uzaktan ısıtma şirketi Toplofikasiya Sofia'yı uyardı: Kasım faturalarında ısıtmasız geçen günler için tazminat yer almazsa, KZP'nin toplu davalar açacağını söyledi. Açıklamalar, rekabet komisyonunun Kaufland'a verdiği yaklaşık 76 milyon euroluk rekor cezanın ardından geldi."
+    ],
+    "d": "Tüketici koruma kurumu, en büyük beş zincirde yaptığı denetimlerin ardından rekabet kurumunu devreye soktu. Manolova, yaklaşık 20 temel gıdada marjların düşürülmesini istiyor.",
+    "t": "Tüketici koruma başkanı Manolova: Zincirler kampanyalarda %40'a varan zam yapıyor"
+   },
+   "at": "2026-11-16T06:03Z",
+   "h": "e7fb8daf5864",
+   "rev": [
+    "Headline: 'Handelsketten' (retail chains) and 'Verbraucherschutz-Chefin' rendered loosely; 'Zincirler' acceptable, but 'zam yapıyor' fine – no change",
+    "Teaser: KZK is the competition/antitrust authority; 'Kartellwächter' rendered 'rekabet kurumu' – acceptable",
+    "Name spelling: 'Toplofikatsiya Sofia' vs established Turkish transliteration 'Toplofikasiya Sofia'; original 'Toplofikazija' – adjusted to Turkish convention",
+    "Indirect speech: 'Fernwärmeversorger' warning had 'söyledi' – fine; KZP involvement attributed ('belirtildi') but source is Manolova, so attribution made explicit",
+    "Awkward 'Manolova' repetition in the second paragraph reduced; 'ek fiyat' (Aufschlag) kept",
+    "Indirect speech about documents: 'ifade edildi' lacks explicit subject, tied to Manolova"
+   ],
+   "rev_dbg": [
+    6,
+    6,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Sofya'daki bir süpermarkette süt ürünleri reyonu"
+   }
+  },
+  "bulgarien-popow-gruendet-partei-strassensicherheit-2026-11-16": {
+   "L": {
+    "body": [
+     "Trafik kazasında hayatını kaybeden kız çocuğu Siyana'nın babası Nikolay Popov, siyasi parti kuracağını duyurdu. Parti, onun başkanlığını yaptığı sivil toplum derneğinden doğacak; News.bg'ye göre partinin adı “Siyanie” (Işıltı), diğer medya organları ise adı “Siyana” olarak aktarıyor. Popov açıklamayı NOVA televizyonunun “Na fokus” programında yaptı. Trakia otoyolunda 13 kişinin öldüğü ağır kaza, Popov'a göre “sebep değil, ama belki de katalizörlerden biri” olmuştu.",
+     "Popov, en yüksek önceliğin yol güvenliği olacağını belirtti: “Bizde bu birinci sırada yer alacak.” Popov'a göre diğer ağırlık noktaları sağlık sistemi ve yargı olacak. Devletin Yol Güvenliği Ajansı'nı, denetim yetkileri olan ve ağır kazaların analizinden sorumlu bir koordinasyon kurumuna dönüştürmek istiyor. Gerekçeler arasında engelli kişilere yönelik kişisel asistanlık desteğinde yapılan kesintileri ve kızının ölümüyle ilgili davadaki, yanlış bulduğu adli tıp raporu tartışmasını da saydı.",
+     "Popov, desteği sosyal medya hesabında yaptığı bir ankette görüyor: Yaklaşık 6.500 katılımcının neredeyse yüzde 98'i onay vermiş. Popov'a göre partinin çekirdeğini 100 ila 200 kişi oluşturuyor, 3.000'e yakın kişi ise yerel yapıların kurulmasına yardım ediyor. 2023'te GERB'den ayrılan Popov, hedefini “partiler üstü” olarak niteledi. Sivil hareket daha önce parlamento seçimlerine bir ittifak içinde katılmış ve o dönem yaklaşık yüzde 3 oy almıştı."
+    ],
+    "d": "Nikolay Popov, sivil toplum derneğini siyasi partiye dönüştürüyor. Trakia otoyolundaki kazanın “katalizörlerden biri” olduğunu söylüyor.",
+    "t": "Hayatını kaybeden Siyana'nın babası parti kuruyor: Öncelik yol güvenliği"
+   },
+   "at": "2026-11-16T06:03Z",
+   "flag": [
+    "Zahlen fehlen oder weichen ab: 3000, 6500"
+   ],
+   "h": "894d5209cfd5",
+   "rev": [
+    "Teaser: indirect speech \"olmuş, diyor\" is awkward and the quote is cut off; the accident is named as \"Trakya otoyolu\" while the body uses \"Trakia\"",
+    "Headline: \"Siyana'nın\" and \"parti kuruyor\" are acceptable; no change",
+    "Body: \"Işıltı\" for \"Strahlen\" is acceptable; \"Bizde birinci sırada yer alacak\" is clumsy, improved",
+    "Body: \"Popov'a göre diğer ağırlık noktaları ... olacak\" is acceptable attribution; kept",
+    "Survey results: \"onay vermiş\" and \"destek\" – German says Popov sees backing in a survey; fine",
+    "Body: \"sivil hareket\" for Bürgerbewegung is fine; \"yardım ediyor\" – reported claim (hülfen) lacks attribution, added \"Popov'a göre\""
+   ],
+   "rev_dbg": [
+    6,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Nova Zagora yakınlarındaki Trakia otoyolu"
+   }
+  },
+  "coles-cyberangriff-australien-2026-11-16-b08": {
+   "L": {
+    "body": [
+     "Avustralya'nın ikinci büyük perakendecisi Coles siber saldırının hedefi oldu. Şirket olayı pazartesi sabahı (yerel saat) borsaya yaptığı açıklamayla duyurdu. Açıklamada, “müşteri, çalışan veya tedarikçi verilerinin ele geçirildiğine ya da Coles sistemlerinden çıkarıldığına dair hiçbir kanıt bulunmadığı” belirtildi. Haber ajansı AAP'ye göre ise kesin bir değerlendirme yapmak için henüz erken. Soruşturmaya, BT ortamının korunması amacıyla Australian Cyber Security Centre ve uluslararası güvenlik uzmanları yardımcı oluyor.",
+     "Şirket verilerine göre mağazalar ve çevrimiçi mağaza çalışmaya devam ediyor. Hediye kartlarının ve Flybuys sadakat programı hesaplarının belirgin şekilde etkilenmediği, yalnızca bazı müşterilerin iştirak Liquorland'daki mağazadan teslim alma siparişleriyle ilgili yaşadığı sorunların incelendiği bildirildi. Coles, şifrelerin düzenli olarak güçlü ve benzersiz şifrelerle değiştirilmesini ve şüpheli bağlantılara ile kişisel bilgi talep etme girişimlerine karşı dikkatli olunmasını tavsiye ediyor.",
+     "Başlıca rakip Woolworths da sorunlarla boğuşuyor: Müşteriler hafta sonu dijital hediye kartlarındaki bakiyenin yetkisiz işlemlerle boşaltıldığını bildirdi. Woolworths e-hediye kartlarıyla ilgili bir sorun olduğunu kabul etti, inceleme yürütüyor ve özür diledi."
+    ],
+    "d": "Avustralya'nın market zinciri Coles bir siber güvenlik olayını inceliyor. Şirkete göre müşteri, çalışan veya tedarikçi verilerinin sızdırıldığına dair şimdiye kadar kanıt yok, alışveriş normal şekilde yapılabiliyor.",
+    "t": "Avustralyalı market devi Coles'e siber saldırı – veri çalındı belirtisi henüz yok"
+   },
+   "at": "2026-11-16T06:04Z",
+   "h": "8ff1bcdafbe6",
+   "rev_dbg": [
+    7,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Avustralya'da bir Coles marketi (Arşiv fotoğrafı)"
+   }
+  },
   "deutschland-baden-baden-auto-stuerzt-von-bruecke-drei-tote-2026-11-16": {
    "L": {
     "body": [
@@ -237,6 +377,35 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Baden-Württemberg'de polis devriye aracı"
+   }
+  },
+  "deutschland-berlin-nius-brandanschlag-bekennerschreiben-2026-11-16": {
+   "L": {
+    "body": [
+     "“Nius” genel yayın yönetmeni Julian Reichelt'in Berlin-Charlottenburg'daki aracına yönelik kundaklama saldırısının ardından polis, bir sorumluluk bildirisini inceliyor. Bildiri, Anayasayı Koruma Dairesi'nin aşırı solcu olarak sınıflandırdığı Indymedia platformunda yayımlanmıştı ve Reichelt'in “Nius” için yaptığı çalışmaya atıfta bulunuyor. Bir polis sözcüsü, dpa'nın aktardığına göre pazar günü “Bildiri Devlet Koruma Birimi tarafından biliniyor ve inceleme altında” dedi. Bildirinin gerçek olup olmadığı belirsiz. Indymedia'da herkes anonim olarak yayın yapabiliyor; orada daha önce yayımlanan birçok sözde sorumluluk bildiriminin sahte olduğu ortaya çıkmıştı.",
+     "Araç, cuma gününe karşı gece ateşe verilmişti; bir yaya yangını saat 2.07'de ihbar etti. Polis kundaklamadan şüpheleniyor. Siyasi bir saikin dışlanamaması nedeniyle Eyalet Kriminal Dairesi bünyesindeki polis Devlet Koruma Birimi soruşturma yürütüyor. Polis, şüphelilere ilişkin bilgi vermedi: “Soruşturma sürüyor.” Reichelt ise olayı “bu aşırı solculuğa karşı duran yeni özgür medyaya yönelik bir yıldırma girişimi” olarak nitelendirdi."
+    ],
+    "d": "Aşırı solcu olarak sınıflandırılan Indymedia platformunda bilinmeyen kişiler Charlottenburg'daki eylemi üstlendi. Metnin gerçek olup olmadığı belirsiz.",
+    "t": "“Nius” genel yayın yönetmeninin aracına kundaklama: Devlet Koruma Birimi inceliyor"
+   },
+   "at": "2026-11-16T06:03Z",
+   "h": "40226d0116ac",
+   "rev": [
+    "Staatsschutz rendered as \"Devlet Koruma Birimi\"; the established Turkish term is \"Devlet Koruma\" (polis Devlet Koruma Şubesi), but the term was used consistently, so it is left as is",
+    "\"Solcu aşırılıkçı\" is clumsy; \"aşırı sol\" is the natural Turkish term",
+    "Reichelt quote: \"Linksextremismus\" should read \"aşırı solculuk\"",
+    "\"gerçek olup olmadığı belirsiz\" is acceptable; \"bir yaya\" for Passant is acceptable",
+    "Garbled quote sentence: attribution placed awkwardly before the quote and the dpa wording is ungrammatical",
+    "Weekday \"pazar günü\" is lowercase, which is correct"
+   ],
+   "rev_dbg": [
+    6,
+    6,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Berlin polisine ait devriye aracı",
+    "kl": "Berlin"
    }
   },
   "deutschland-berlin-prenzlauer-berg-widerstand-festnahme-2026-11-16": {
@@ -296,6 +465,27 @@
     "kl": "Berlin"
    }
   },
+  "deutschland-bsw-gruender-afd-distanz-2026-11-16": {
+   "L": {
+    "body": [
+     "BSW'nin önde gelen üyeleri, partinin AfD ile koalisyonları dışlamasının yanı sıra AfD liderliğindeki bir hükümetin “resmî ya da fiilî olarak tolere edilmesini” de dışlamasını istiyor. Alman Basın Ajansı dpa'nın aktardığına göre bu, 27 ve 28 Kasım'daki Dresden federal parti kongresi için hazırlanan bir değişiklik önergesinde yer alıyor. Önergenin sahipleri yardımcı başkanlar Christian Leye, Amid Rabieh, Ralph Suikat ve Jessica Tatti ile yönetim üyeleri Sevim Dagdelen, Klaus Ernst ve Ralf Krämer. Önergede AfD'nin “BSW için bir ortak olamayacağı” belirtiliyor. Büyük bağışçı Thomas Stanger de önergeyi imzaladı.",
+     "Arka planda Saksonya-Anhalt'taki çizgi var: BSW orada birçok kez AfD ile birlikte oy kullandı, örneğin Ukrayna'ya yeni yardımlara karşı. Eyalet örgütü, bir koalisyona ya da AfD'nin başbakan adayı Ulrich Siegmund'un başbakan seçilmesine karşı çıkıyor; ancak AfD liderliğindeki bir azınlık hükümetinin nasıl bir politika uygulayacağını konuştuğu belirtiliyor. Sahra Wagenknecht başkanlığındaki Temel Değerler Komisyonu, değişen çoğunluklara dayanan bu “Magdeburg yolunu” destekliyor. Önerge sahiplerinin çoğu Sol Parti kökenli; dpa'ya göre partide sağa kayma endişesi büyüyor.",
+     "Yönetimin ana önergesi de şimdiye kadar AfD ile koalisyonları dışlıyor, ancak tolerasyon konusunda bir şey söylemiyor. Ayrıca çarşamba günü Federal Anayasa Mahkemesi'nin 2025 federal seçim sonucuna ilişkin kararının açıklanması bekleniyor. BSW o dönem yüzde 4,981 ile yüzde 5 barajını kıl payı aşamamıştı ve sayım hataları olduğunu ileri sürüyor."
+    ],
+    "d": "Dresden'deki parti kongresi öncesinde yardımcı başkanlar ve yönetim üyeleri, AfD liderliğindeki bir hükümete verilecek her desteği dışlamak istiyor. Karlsruhe çarşamba günü BSW'nin seçim itirazına karar verecek.",
+    "t": "BSW'nin kurucuları AfD'ye net ret istiyor – hoşgörü de olmasın"
+   },
+   "at": "2026-11-16T06:03Z",
+   "h": "7afa8bb7b328",
+   "rev_dbg": [
+    7,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: BSW'nin kurucusu Sahra Wagenknecht, 2023"
+   }
+  },
   "deutschland-bulgaria-wants-you-frankfurt-rueckkehrer-2026-11-16": {
    "L": {
     "body": [
@@ -315,6 +505,54 @@
    "x": {
     "img.alt": "Sembolik fotoğraf: Frankfurt am Main silueti",
     "kl": "Almanya–Bulgaristan"
+   }
+  },
+  "deutschland-facharzt-termine-selbstzahler-gassen-kritik-2026-11-16": {
+   "L": {
+    "body": [
+     "Federal Kasa Hekimleri Birliği Başkanı Andreas Gassen, yasal sigortalı hastaların daha hızlı uzman randevuları için gelecekte kendilerinin ödeme yapmak zorunda kalacağını öngörüyor. Gassen, Redaktionsnetzwerk Deutschland'a (RND) verdiği demeçte “Özel muayenede teklifler olacağını düşünüyorum, çünkü orada her randevu ücretlendiriliyor” dedi. Gassen'e göre bunun nedeni, federal hükümetin sağlık tasarruf paketi kapsamında yapılan üç milyar avroluk ödenek kesintileri. Gassen'in belirttiğine göre özellikle KBB, ortopedi, kardiyoloji, radyoloji ve romatoloji etkilenecek. Gassen, “Muayenehanelerin sınırsız bir hizmet yükümlülüğü yok” dedi.",
+     "SPD Genel Başkanı ve Maliye Bakanı Lars Klingbeil, Potsdam'da yaklaşık 120 parti üyesiyle yaptığı toplantıda “böyle bir önerinin bizimle yapılamayacağını” vurguladı ve üzerinde anlaşılan randevu garantisine işaret etti. GKV Merkez Birliği'nden Stefanie Stoff-Ahnis, yasal sigortalıların “rehin alındığını” söyledi ve “skandal bir tutumdan” söz etti. Sozialverband Deutschland Başkanı Michaela Engelmeier ise “son derece dayanışmadan uzak ve sosyal açıdan adaletsiz” görünen bir senaryodan söz etti.",
+     "Pazar günü eski Sağlık Bakanı Karl Lauterbach (SPD) de tartışmaya katıldı. ZDF'nin canlı yayın akışına göre Lauterbach, “Rheinische Post”a yaptığı açıklamada ücretli uzman randevusu fikrini reddetti; ona göre bununla hastaların sağlık alanındaki zor durumu mali çıkarlar için istismar ediliyor. Gassen, bütçe tükendikten sonra hastaların belki de bir sonraki çeyreğe kadar randevu için beklemek zorunda kalabileceği uyarısında bulunmuştu."
+    ],
+    "d": "KBV Başkanı Gassen, ödenek kesintileri nedeniyle yasal sigortalı hastalar için ücretli özel muayene teklifleri bekliyor. SPD Başkanı Klingbeil, sağlık sigortaları ve bir sosyal dernek bunu reddetti.",
+    "t": "Uzmana daha hızlı ulaşmak yalnızca parayla mı? Kasa doktorları başkanına sert eleştiri"
+   },
+   "at": "2026-11-16T06:03Z",
+   "h": "cfc34494ad68",
+   "rev_dbg": [
+    6,
+    6,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Federal Kasa Hekimleri Birliği'nin (KBV) Berlin'deki merkezi"
+   }
+  },
+  "deutschland-linke-pantisano-nahost-mieten-2026-11-16": {
+   "L": {
+    "body": [
+     "Sol Parti Eş Genel Başkanı Luigi Pantisano, Yahudi ve Filistinli insanların ortak bir devlette barış içinde yaşayıp yaşayamayacağı sorusunu haklı buluyor. Pantisano, “Politico” dergisine yaptığı açıklamada, uluslararası hukukçuların ve çok sayıda devletin de bunu tartıştığını söyledi; haberi dts haber ajansı aktardı. Pantisano'ya göre Sol Parti bununla İsrail'in varlık hakkını sorgulamıyor. Pantisano, İsrail'in Gazze'deki ve Batı Şeria'daki eylemlerini soykırım ve savaş suçu olarak niteledi; ancak bunun antisemitizm olmadığını belirtti. Partisinin bir Filistin devletinden yana olduğunu söyledi.",
+     "Pantisano, tartışmalı Berlin milletvekili Vanessa Emde konusunda meselenin onun İsrail'in varlık hakkına karşı olup olmadığı değil, Yahudi ve Filistinli insanlar için bir devlet çözümü olduğunu söyledi. Emde'nin tutumunun bir kırmızı çizgi olup olmadığı sorusunu ise, milletvekilinin gruptan olası ihracına ilişkin süren sürece atıfta bulunarak yanıtsız bıraktı. Konut konusunda Pantisano, kirelerin düşürülmesi vaadinde ısrar etti; ancak daha önce Eş Genel Başkan Ines Schwerdtner'in de yaptığı gibi, büyük konut şirketlerinin toplumsallaştırılmasının ardından da artışların mümkün olacağını kabul etti: Vonovia'nın şu anda uyguladığı yüzde beş yerine, yalnızca istisnai durumlarda ve yılda en fazla yüzde iki. Gelirlerin bakım ve yenileme çalışmalarına aktarılması gerektiğini söyledi."
+    ],
+    "d": "Pantisano, Sol Parti'nin İsrail'in varlık hakkını sorgulamadığını “Politico”ya söyledi. Berlin'deki kira vaadinde artışların mümkün olacağını kabul etti: yılda en fazla yüzde iki.",
+    "t": "Sol Parti Eş Genel Başkanı Pantisano, Orta Doğu'da ortak devlet tartışmasını haklı buluyor"
+   },
+   "at": "2026-11-16T06:03Z",
+   "h": "f2f0deb4ab5e",
+   "rev": [
+    "Headline: 'Linken-Chef' rendered as 'Sol Parti Başkanı' although the body says Eş Genel Başkan; also 'Die Linke' is normally 'Die Linke' or 'Sol Parti', which is acceptable, so only the title is align",
+    "Teaser: first sentence lacks the subject (Pantisano) and the quote marks are non-standard for Turkish",
+    "Body: 'Gazze'de ve Batı Şeria'daki' is ungrammatical",
+    "'Dergisine yaptığı açıklamada' is slightly unnatural; wording smoothed",
+    "'yılda en fazla yüzde iki' follows a colon in an awkward way; 'statt der fünf Prozent' placement is acceptable, left as is"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Luigi Pantisano, Berlin'de bir gösteride konuşuyor, Nisan 2026"
    }
   },
   "deutschland-marzahn-getoetete-schuelerin-polizei-warnt-geruechte-2026-11-16": {
@@ -366,6 +604,85 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Manuela Schwesig (SPD), 2023"
+   }
+  },
+  "deutschland-soeder-stromsteuer-finanzierbar-2026-11-16": {
+   "L": {
+    "body": [
+     "CSU lideri ve Bavyera Başbakanı Markus Söder, ZDF'de elektrik vergisi ve soğuk progresyonun azaltılması konusunda uzlaşma talep etti. “Bu iki konunun masadan kalkması gerekiyor” diyen Söder, hanelere sağlanacak rahatlamanın gerçi “birçok kişinin tahmin ettiği kadar yüksek olmadığını” söyledi. Söder şöyle devam etti: “Ama bu bir güvenilirlik meselesi.” Finansmana ilişkin olarak “Bunun finanse edilebilir olduğuna inanıyorum” dedi. Söder, iklim fonunda kullanılmayan üç ila dört milyar avro görmekte olan uzmanlara işaret etti; teknik olarak uygulanabilirse petrol şirketlerine yönelik bir aşırı kâr vergisine de açık olduğunu belirtti.",
+     "Söder, kendisine göre “dokuz milyon kadını” ilgilendiren, kararlaştırılmış anne aylığı genişletmesinden vazgeçilmesine karşı çıkıyor. Koalisyon sözleşmesi, elektrik vergisinin herkes için Avrupa'daki asgari düzeye indirilmesini vaat ediyor; şu ana kadar yalnızca sanayi, üretim sektörü ile tarım ve ormancılık yararlanıyor. Başbakan Friedrich Merz (CDU), herkes için indirimin şimdilik gelmeyeceğini açıkladı, ancak 2027 hedefini koruyor; bütçede bunun için yaklaşık 5 milyar avro eksik. Maliye Bakanı Lars Klingbeil (SPD) ise ciddi bir karşı finansman istiyor.",
+     "Birlik cephesinde öfke büyük: “Bild”e göre bir grup toplantısının ardından 30'dan fazla milletvekili eleştirel konuşmuş; haberi Tagesspiegel aktardı. Kaynak olarak diğerlerinin yanı sıra EEG hesabındaki fazlalar ve iklim fonundaki kesintiler tartışılıyor; SPD'nin bunlara muhtemelen eleştirel yaklaşacağı düşünülüyor. Koalisyon komitesi salı günü Başbakanlık'ta toplanıyor."
+    ],
+    "d": "CSU lideri, salı günkü koalisyon komitesi öncesinde uzlaşma için baskı yapıyor. Herkes için indirimde yaklaşık 5 milyar avro eksik; Maliye Bakanı Klingbeil ise kaynak görmüyor.",
+    "t": "Söder elektrik vergisi indirimini “finanse edilebilir” buluyor – anne aylığı tartışma dışı"
+   },
+   "at": "2026-11-16T06:03Z",
+   "h": "2a06e8752388",
+   "rev": [
+    "Headline: 'Mütterrente' (mother's pension) rendered as 'anne aylığı'; acceptable, kept. Quote mark style „…“ is German, replaced with Turkish quotation marks.",
+    "Para 3: 'sollen sich laut Bild … geäußert haben, berichtete der Tagesspiegel' – the draft states it as plain fact ('eleştirel konuştu'); hedge restored.",
+    "Para 3: 'was die SPD kritisch sehen dürfte' – the draft's 'belirtiliyor' adds an unsupported attribution; changed to a plain presumption.",
+    "Para 1: the Söder quote opening was broken and the quote mark style was German."
+   ],
+   "rev_dbg": [
+    4,
+    8,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: CSU lideri Markus Söder bir basın toplantısında, 2021"
+   }
+  },
+  "dragoman-18-jaehrige-getoetet-2026-11-16-b08": {
+   "L": {
+    "body": [
+     "Sofya'nın batısındaki Dragoman kasabasında pazar günü sabaha karşı saat 5.10 sularında 18 yaşındaki bir genç kadına otomobil çarptı ve genç kadın hayatını kaybetti. Birçok Bulgar medyasının birbiriyle örtüşen haberlerine göre aracı bir sınır polisi memurunun kullandığı iddia ediliyor; memur, haberlere göre kazadan kısa süre sonra gözaltına alındı.",
+     "İçişleri Bakanlığından veya savcılıktan olayın koşullarına ilişkin resmi bir doğrulama pazartesi sabahı itibarıyla gelmedi; sürücü için masumiyet karinesi geçerli. Trafficnews.bg'nin verdiği bilgiye göre belediyeye ait güvenlik kameralarının görüntüleri istendi.",
+     "“Yol Melekleri” derneği, İçişleri Bakanlığından test sonuçları, olayın seyri, video kayıtları ve soruşturmanın aşaması hakkında bilgi istedi. Dernek, “Peşin hüküm istemiyoruz. Gerçeği istiyoruz” açıklamasını yaptı. Olay, Trakia Otoyolu'nda en az on iki kişinin öldüğü ve Bulgaristan'da trafik güvenliği konusunda geniş bir tartışma başlatan kazadan birkaç gün sonra yaşandı."
+    ],
+    "d": "Sofya yakınlarındaki Dragoman'da 18 yaşındaki bir genç kadın otomobilin çarpması sonucu öldü. Medya haberlerine göre sınır polisi olduğu belirtilen sürücü gözaltına alındı. Resmi açıklama henüz yok.",
+    "t": "Dragoman'da 18 yaşındaki genç araç çarpması sonucu öldü; sürücü medyaya göre sınır polisi"
+   },
+   "at": "2026-11-16T06:04Z",
+   "h": "ec2ab00c2ab0",
+   "rev": [
+    "Headline: the claim that the driver is a border police officer is given as 'sürücü medyaya göre sınır polisi' (acceptable), but the sentence structure around 'öldü' is fine; length OK.",
+    "Teaser: 'sınır polisi olan sürücü' states the profession as fact; the German says 'laut Medienberichten'. Rephrased so the hedge applies to the profession.",
+    "Body 3: 'Trakya otoyolu' is a wrong name for the Trakia motorway (Bulgaria); the established Turkish name is 'Trakya Otoyolu' only for Turkey, so use 'Trakia Otoyolu'.",
+    "Body 3: 'Önyargılı hüküm istemiyoruz' is unnatural for 'Vorverurteilung'; changed to 'Peşin hüküm'."
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Dragoman (Arşiv fotoğrafı)"
+   }
+  },
+  "energie-50hertz-batteriespeicher-netzanschluesse-industrie-2026-11-16": {
+   "L": {
+    "body": [
+     "İletim şebekesi işletmecisi 50Hertz, büyük batarya depolama tesislerindeki furyanın yeni sanayi tesislerini yıllarca şebeke bağlantılarından mahrum bırakabileceği uyarısında bulundu. Yönetim kurulu başkanı Stefan Kapferer, Redaktionsnetzwerk Deutschland'a yaptığı açıklamada, depolama şirketlerinin bağlantı başvurularında çok profesyonel davrandığını söyledi. Kapferer, “Sanayi tesisleri, gelecekteki ihtiyaçlarını kısmen henüz bilmedikleri için sıklıkla geride kalıyor” dedi. Depolama projelerinin hiç inşa edilmemesi, buna karşın trafo merkezlerindeki bağlantıların bu projeler için ayrılmış olarak kalması riskinin, özellikle Doğu Almanya'da arttığını belirtti.",
+     "Şirketin verdiği bilgiye göre yalnızca 50Hertz'te ileri planlama aşamasında olan yaklaşık 160 batarya depolama başvurusu bulunuyor. Şebeke işletmecileri Almanya genelinde şimdiden 100 gigawattın üzerinde bağlantı gücünü taahhüt etti; oysa Almanya şebekesindeki azami yük yaklaşık 80 gigawatt. Kapferer, “Acil freni çekmemiz gerekiyor” dedi. Kapferer, sanayi şirketlerine bağlantıların tahsisinde öncelik tanınabilmesi için yasa değişikliği talep ediyor ve federal hükümeti bunu planlanan şebeke paketinde hızla hayata geçirmeye çağırıyor."
+    ],
+    "d": "Depolama projeleri, belki hiç kullanılmayacak bağlantı kapasitesi ayırtıyor. Özellikle Doğu Almanya'daki yeni sanayi tesisleri yıllarca beklemek zorunda kalabilir.",
+    "t": "Batarya furyası: 50Hertz, sanayi için şebeke bağlantılarında darboğaz uyarısı yaptı"
+   },
+   "at": "2026-11-16T06:03Z",
+   "h": "1acfb0913f2a",
+   "rev": [
+    "\"Boom\" rendered as \"patlama\" (explosion) in the headline and body; this is a literal mistranslation of the idiom and should be \"patlama/yükseliş\" in the sense of a boom",
+    "\"nie gebaut würden\" (subjunctive: risk that projects are never built) rendered with \"rağmen\" (although), which distorts the logic of the sentence",
+    "The \"Anträge … vorliegen\" sentence is slightly awkward and \"fortgeschrittenem Planungsstadium\" is attached to the wrong element"
+   ],
+   "rev_dbg": [
+    3,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Batarya depolama tesisi"
    }
   },
   "energie-entsoe-winterausblick-strom-europa-2026-11-16": {
@@ -423,6 +740,60 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Hannover'de çatıya kurulu fotovoltaik sistem"
+   }
+  },
+  "england-beendet-spaniens-serie-madrid-2026-11-16-b08": {
+   "L": {
+    "body": [
+     "İngiltere Milli Takımı pazar akşamı Madrid'de İspanya'nın 43 maçlık yenilmezlik serisine son verdi. Uluslar Ligi'nin son grup maçında Thomas Tuchel'in takımı 3-2 kazandı ve A3 Grubu'nda ilk sırayı aldı. İki takımın da 15 puanı var, İngiltere daha iyi averajla önde. Çeyrek finale iki takım da daha önce yükselmişti.",
+     "Harry Kane, Pau Cubarsí'nin kendisini düşürmesinin ardından devre arasına kısa süre kala penaltıdan İngiltere'yi öne geçirdi; bu, onun 93. milli maç golüydü. İkinci yarıda Declan Rice'ın kullandığı kornerde Ezri Konsa kafayla (53.) ve birkaç dakika sonra Ben White farkı artırdı. Ardından Elliot Anderson, Lamine Yamal'a ceza sahası içinde yaptığı faulün ardından kırmızı kart gördü (63.), Mikel Oyarzabal penaltıyı gole çevirdi. Sonradan oyuna giren Nico Williams, Yamal'ın pasıyla farkı bire indirdi, ancak kaleci James Trafford geç dakikalarda art arda iki kurtarışla galibiyeti korudu.",
+     "Tuchel, “Bu, inanç, takım ruhu ve birliktelik açısından en üst seviyeydi” dedi. Tuchel, kırmızı kart ve penaltının maçın temposunu ve karakterini değiştirdiğini söyledi. Orta saha oyuncusu Rice ise “dev bir galibiyet” dedi. İngiltere için bu, üst üste onuncu deplasman galibiyetiydi. Diğer maçlarda Fransa, Türkiye'yi 2-1 yendi, Belçika İtalya'yı 4-1 mağlup etti."
+    ],
+    "d": "İngiltere, Uluslar Ligi'nde bir kişi eksik kalmasına rağmen İspanya'yı 3-2 yendi ve grup lideri oldu. Kane penaltıdan 93. milli maç golünü attı, Anderson kırmızı kart gördü.",
+    "t": "Madrid'de 3-2: İngiltere, İspanya'nın 43 maçlık yenilmezlik serisine son verdi"
+   },
+   "at": "2026-11-16T06:04Z",
+   "h": "772c581639f4",
+   "rev": [
+    "Headline uses 'yenilmezlik serisine son verdi' – fine. Teaser: 'bir kişi eksik' is fine.",
+    "Reported speech: 'Die Rote Karte und der Elfmeter hätten ... verändert' was rendered as plain fact ('değiştirdi' with 'Tuchel'e göre'); hedge is attributed but the subjunctive is better kept with 'değ",
+    "'Kane ... 93. milli maç golü' attribution fine; 'sonradan oyuna giren' fine"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Harry Kane (Arşiv fotoğrafı)"
+   }
+  },
+  "europa-eu-schattenflotte-tanker-midag-aussenrat-sanktionen-2026-11-16": {
+   "L": {
+    "body": [
+     "AB'nin EUNAVFOR MED Irini operasyonuna bağlı deniz unsurları, 13 Kasım cuma günü Akdeniz'de Rus gölge filosuna ait olduğu değerlendirilen bir tankere çıktı. AB Dış İlişkiler ve Güvenlik Politikası Yüksek Temsilcisi Kaja Kallas pazar günü yaptığı açıklamada, kontrolün MV MIDAG'ın sahte bayrakla seyrettiğini doğruladığını söyledi. MarineTraffic'e göre gemi Zimbabve bayrağıyla kayıtlıydı. Hukuki dayanak, BM Deniz Hukuku Sözleşmesi'nin 110. maddesiydi. Kallas X'te “AB, Rus gölge filosunu denizde ve diplomatik yollarla engellemeye devam edecek” diye yazdı. Tankerin alıkonulup alıkonulmayacağını söylemedi.",
+     "AB güçleri Ağustos ayında da şüpheli başka bir tankeri, MV Sun'ı denetlemişti. Gölge filo, Moskova'nın Batı yaptırımlarına rağmen petrol ihraç ettiği, çoğu zaman yetersiz sigortalı ve sahipleri belirsiz eski tankerlerden oluşuyor. Ukrayna hükümetinin bir kaydı, Mayıs 2026'da bu filoya toplam 1.404 gemi sayıyordu.",
+     "AB dışişleri bakanları pazartesi günü Brüksel'de toplanıyor. Ön haberlere göre Konsey, aralarında bankaların, petrol alıcılarının, rafinerilerin ve gölge filoyu destekleyen şirketlerin de bulunduğu 145 kişi ve kuruluşu Rusya yaptırım listelerine eklemek istiyor. Fransa, Rusya'da faaliyet gösteren 50 bankanın çoğunun listeye alınmasını önerdi. Ayrıca hava savunma sistemleri ile Ukrayna'nın enerji ve su altyapısına yönelik kış yardımı da gündemde; Ukrayna Dışişleri Bakanı Andriy Sybiha bizzat katılıyor. Komisyon finansmanla ilgili bilgi verecek: Ukrayna'nın 2027 için 70 milyar avro açığı bulunuyor, AB bunun 45 milyarını üstlenmek istiyor."
+    ],
+    "d": "Irini misyonu, MIDAG tankerinin sahte bayrakla seyrettiğini tespit etti. AB dışişleri bakanları Brüksel'de Ukrayna için hava savunmasını ve 145 yeni yaptırım listesi kaydını görüşüyor.",
+    "t": "AB, Gölge filo tankerine çıktı – Dışişleri bakanları bugün yeni yaptırımları görüşüyor"
+   },
+   "at": "2026-11-16T06:03Z",
+   "h": "c8ef8f672247",
+   "rev": [
+    "Headline: \"entert\" (boarded) is rendered as \"tankerine çıktı\" but the German phrase \"Schattenflotten-Tanker\" is reduced to \"gölge filo tankerine\"; this is acceptable, so it is left unchanged",
+    "Name spelling: \"Andrii Sybiha\" should follow the established Turkish spelling \"Andriy Sybiha\"",
+    "The \"Außenminister\" in the sentence about Sybiha is Ukraine's foreign minister; the draft's \"Dışişleri Bakanı\" is ambiguous, so \"Ukrayna Dışişleri Bakanı\" is added",
+    "Weekday capitalization: Turkish weekdays and months are written in lowercase mid-sentence under TDK rules (\"Cuma\", \"Pazar\", \"Pazartesi\" → \"cuma\", \"pazar\", \"pazartesi\")",
+    "Month \"Kasım\" and \"Mayıs\" are likewise written in lowercase under TDK rules"
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Açık denizde petrol tankeri (Kıbrıs açıklarında Histria Tiger)"
    }
   },
   "europa-kanaren-el-hierro-migranten-rekord-2026-11-16": {
@@ -559,6 +930,61 @@
     "img.alt": "Arşiv fotoğrafı: ABD'nin Avenger hava savunma sistemi, Romanya'daki “Southern Shield” tatbikatında, Kasım 2024"
    }
   },
+  "ey-industrie-umsatz-plus-140000-jobs-weg-2026-11-16-b08": {
+   "L": {
+    "body": [
+     "Alman sanayisi üçüncü çeyrekte son dört yılın en yüksek cirosuna ulaştı: EY danışmanlık şirketinin Federal İstatistik Dairesi verilerine dayanan analizine göre gelirler bir önceki yıla kıyasla yüzde 4,6 artarak 546,3 milyar avro oldu. Bu, art arda üçüncü artıştı. Artışın itici gücü yapay zekâ patlaması, fiyat artışları ve milyarlarca avroluk savunma harcamaları oldu; rakamlar enflasyondan arındırılmış değil. Metal üretimi (yüzde 19,5 artış) ve elektrik-elektronik sanayisi (yüzde 12'nin biraz üzerinde artış) veri merkezlerinin inşasından yararlandı.",
+     "İstihdamda ise düşüş sürüyor: Eylül sonunda sanayide hâlâ 5,3 milyon kişi çalışıyordu; bu, bir yıl öncesine göre 140.200 kişi, yani yüzde 2,6 azalmaya karşılık geliyor. 2019'dan bu yana yaklaşık 405.800 pozisyon ortadan kalktı; bu, sanayideki her on dört işten yaklaşık birine denk geliyor. En zayıf sektör otomotiv: ciro yüzde 2 geriledi, bir yıl içinde 36.100 pozisyon azaldı.",
+     "EY Almanya Yönetici Ortağı Jan Brorhilker, “Sanayi, ciro açısından yeniden biraz toparlandı” dedi. Ancak istihdam piyasasında yakın zamanda bir dönüş beklemediğini söyledi. “Tasarruf yapıldığında önce yeni kadrolar için alımlar frenleniyor ve bundan ilk etkilenenler mesleğe yeni başlayanlar oluyor.”"
+    ],
+    "d": "EY araştırmasına göre sanayi cirosu üçüncü çeyrekte yüzde 4,6 artarak 546,3 milyar avroya yükseldi. Ancak bir yıl içinde 140.200 pozisyon ortadan kalktı; en çok otomotiv sektöründe azaldı.",
+    "t": "Sanayi cirosu dört yılın en yüksek seviyesinde, buna rağmen 140.200 iş azaldı"
+   },
+   "at": "2026-11-16T06:04Z",
+   "h": "f15ccd14149e",
+   "rev": [
+    "Headline: \"dört yılın zirvesinde\" is not natural Turkish and \"iş kaybı\" is imprecise; reworded to \"dört yılın en yüksek seviyesinde\" and \"140.200 iş azaldı\"",
+    "Teaser: \"en çok kayıp otomotivde yaşandı\" is imprecise; the German says the jobs fell away most strongly in the auto industry",
+    "Body 1: \"elektrik sanayisi\" should be \"elektrik-elektronik sanayisi\" as the usual term for Elektroindustrie",
+    "Body 3: \"yeni istihdam\" mistranslates \"neue Stellen\"; should be \"yeni alımlar/kadrolar\"",
+    "Body 3: \"Managing Partner\" rendered as \"Yönetici Ortağı\" is acceptable; the quote with \"toparlandı\" is slightly off: \"Boden unter den Füßen\" means regaining firm ground, which is acceptable, so left a"
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Almanya'da bir sanayi tesisi (Sembolik fotoğraf)"
+   }
+  },
+  "havertz-neuner-debatte-endspiel-oranje-2026-11-16-b08": {
+   "L": {
+    "body": [
+     "Alman Milli Futbol Takımı, pazartesi akşamı (20.45, ARD) Berlin Olimpiyat Stadı'nda Uluslar Ligi'ndeki son grup maçında Hollanda ile karşılaşacak. Galibiyet halinde Teknik Direktör Jürgen Klopp'un çalıştırdığı takım çeyrek finale yükselecek. Beraberlik durumunda ise ancak Yunanistan paralel maçta Sırbistan'a yenilirse yetecek. Oranje grubu 11 puanla yönetiyor, Almanya ve Yunanistan'ın ise 8'er puanı var.",
+     "Klopp, pazar akşamı düzenlenen basın toplantısında, Sırbistan'daki 3-1'lik maçta iki net pozisyonu kaçıran Kai Havertz'in arkasında durdu. Klopp, “Her zaman onun olağanüstü bir maç çıkarabileceğini hesaba katmak gerekir” dedi. Havertz ise santrfor rolü etrafındaki sürekli tartışmaya sakin yaklaştı: “Tartışma hep vardı, hep de olacak. Bunu kabullendim.” Havertz, kendisi için önemli olanın takımın başarısı olduğunu belirtti.",
+     "Klopp, komşu ile yapılacak mücadele öncesinde mücadeleci bir tavır sergiledi: “Üst düzey bir maç oynamaktan başka bir planımız yok.” Milli takımda ilk kez forma giyen Brajan Gruda'nın yeniden ilk 11'de başlayıp başlamayacağını açıklamadı. Oranje'yi, 2015'te Barcelona ile Olimpiyat Stadı'nda Şampiyonlar Ligi'ni kazanan Xavi çalıştırıyor."
+    ],
+    "d": "Hollanda ile oynanacak Uluslar Ligi finali öncesinde (20.45, ARD) Klopp, Havertz'in arkasında durdu. Forvet oyuncusu rolü hakkındaki tartışma için şöyle dedi: “Bunu kabullendim.”",
+    "t": "Berlin'de bugün final: Havertz forvet tartışmasını “kabullendi”, Klopp ondan yana"
+   },
+   "at": "2026-11-16T06:04Z",
+   "h": "326b99176c46",
+   "rev": [
+    "Weekdays 'Pazartesi' and 'Pazar' wrongly capitalised mid-sentence (TDK)",
+    "Garbled sentence 'Havertz'e göre önemli olan takımın başarısı olduğunu söyledi' (mixed construction); fixed to proper reported speech",
+    "'Debütant' rendered as 'ilk kez forma giyen' – German says only debutant; acceptable but 'Teknik Direktör' wrongly capitalised; Bundestrainer should be 'Almanya Teknik Direktörü'",
+    "Missing 'Bundestrainer' nuance minor; 'Final' in headline: 'Endspiel' ok"
+   ],
+   "rev_dbg": [
+    4,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Kai Havertz (Arşiv fotoğrafı)"
+   }
+  },
   "ki-chipfabriken-roboter-ladestandard-2026-11-16": {
    "L": {
     "body": [
@@ -644,6 +1070,32 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Mikroskop altında iki stronsiyum titanat kristali (SrTiO3)"
+   }
+  },
+  "ki-nvidia-bessent-chef-von-aussen-2026-11-16": {
+   "L": {
+    "body": [
+     "ABD Hazine Bakanı Scott Bessent, Nvidia'da köklü bir yeniden yapılanma talep etti. Tayvanlı sektör haber servisi Digitimes'a göre Bessent, çip şirketinin yönetim kurulunun bir sonraki CEO'yu şirket dışından araması gerektiğini pazar günü söyledi. Açıklama, Jensen Huang'ın Nvidia CEO'luğundan istifa etmesinden üç gün sonra geldi. Digitimes'a göre Bessent ayrıca on gün içinde Çin'e yapılan çip satışlarına ilişkin yanıt istiyor.",
+     "Digitimes'ın haberine göre Nvidia bu arada Tayvan'da bir çalışanı hakkındaki soruşturmalara karşı çıkıyor ve Tayvanlı yetkililer nezdinde kendi tutumunu savunuyor. Savcılık, yapay zekâ sunucularının iddiaya göre Çin'e yönlendirilmesine ilişkin davada çalışanı hakkında iddianame hazırladı. Nvidia, iç incelemenin çalışanın iddia edilen eylemden haberdar olduğuna dair herhangi bir bulgu ortaya koymadığını belirtti. Dava, şirketin şüpheli vakalarla nasıl başa çıktığına dair soruları gündeme getiriyor; bu, Nvidia'nın üretiminin merkezi lokasyonlarından biri olan Tayvan için siyasi açıdan hassas bir konu."
+    ],
+    "d": "Scott Bessent çip şirketinde köklü bir yeniden yapılanma talep ediyor ve Çin'e yapılan çip satışlarına ilişkin yanıt istiyor. Nvidia, Tayvan'da hakkında iddianame düzenlenen çalışanının arkasında duruyor.",
+    "t": "Huang'ın istifasının ardından: ABD Hazine Bakanı Bessent, Nvidia'ya dışarıdan CEO istiyor"
+   },
+   "at": "2026-11-16T06:03Z",
+   "h": "dbe1f68d508f",
+   "rev": [
+    "\"Nvidia'ya dışarıdan CEO istiyor\" in the headline is a loose rendering; it is more natural as \"Nvidia için dışarıdan bir CEO istiyor\" (minor, left as is)",
+    "The teaser's \"hakkında dava açılan çalışan\" is imprecise: \"angeklagt\" means an indictment was filed, and the body text says this correctly",
+    "\"Verfahren\" was rendered as \"dava\" in the body, which is acceptable",
+    "\"Çin'e yapılan çip satışlarına ilişkin yanıt istiyor\" is fine"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Nvidia'nın Kaliforniya'nın Santa Clara kentindeki merkezi"
    }
   },
   "ki-tuerkei-quantencomputer-54-qubits-tubitak-2026-11-16": {
@@ -828,6 +1280,77 @@
     "img.alt": "Arşiv fotoğrafı: Billy Idol, Copenhell Festivali'nde (2025)"
    }
   },
+  "kultur-slayer-araya-unterbricht-konzert-forum-2026-11-16": {
+   "L": {
+    "body": [
+     "Slayer, cumartesi günü (14 Kasım) Los Angeles yakınlarındaki Inglewood'da bulunan Kia Forum'daki konserine kısa süreliğine ara verdi. Konser, “Reign In Blood” albümünün 40. yıl dönümü kapsamındaki iki gecenin ikincisiydi. Louder'a göre solist Tom Araya, ilk setin sekizinci şarkısından sonra hayranların salonun bazı bölümlerine zarar verdiğini fark etti. Grubu durdurdu ve salon ışıklarını açtırdı.",
+     "Seyirci yuhalamaya başlayınca Araya, yetkililerin salonu kapatabileceği konusunda uyardı ve grubun durum yatışana kadar bekleyeceğini söyledi. “Ne dediğimi anlıyor musunuz? Tamam, bakalım nasıl davranacaksınız. Belki geri döneriz” sözlerini Louder, theprp.com sitesinin yazıya döktüğü metne dayanarak aktarıyor. “Sonuçlar olması gerek” diye ekledi. Araya'ya göre sorumlu olanlar ön sıralardaki hayranlar değil, arkadakilerdi.",
+     "Yaklaşık beş dakika sonra konser devam etti. Louder, “South of Heaven” turnesinde New York'ta hayranların koltuk minderlerini söktüğü benzer bir olayı hatırlatıyor. Slayer, Aralık 2026'da Güney Amerika'da, yine “Reign In Blood”un 40. yılı kapsamında kısa bir konser serisi verecek."
+    ],
+    "d": "Kia Forum'daki “Reign In Blood”un 40. yıl kutlaması konserinde solist grubu durdurdu ve salon ışıklarını açtırdı. Beş dakika sonra konser devam etti.",
+    "t": "Slayer Los Angeles konserine ara verdi – Tom Araya ortalığı dağıtan hayranları uyardı"
+   },
+   "at": "2026-11-16T06:03Z",
+   "h": "218c56d7c56f",
+   "rev": [
+    "Quote sentence is broken: the Louder attribution sentence is ungrammatical and reverses the structure (the quote is not properly attributed with a verb of citing)",
+    "\"Wir brauchen Konsequenzen\" mistranslated as \"Sonuçlarına katlanmamız gerek\" (we must bear the consequences); should be that consequences are needed",
+    "Teaser: \"Kia Forum'da\" placement unclear and the anniversary show wording slightly awkward; \"ortalığı dağıtan\" in headline acceptable",
+    "Araya's warning about authorities reads fairly, but the statement should be clearly attributed; \"yetkililerin salonu kapatabileceği konusunda uyardı\" is acceptable"
+   ],
+   "rev_dbg": [
+    4,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Slayer'dan Tom Araya, Rock im Park'ta (2019)"
+   }
+  },
+  "leben-alzheimer-hirnscan-arc-score-stanford-2026-11-16": {
+   "L": {
+    "body": [
+     "Stanford Medicine'deki araştırmacılar, dinlenme durumundaki beynin fonksiyonel MRG görüntülerinden bir kişinin Alzheimer'a ne kadar yatkın olduğunu tahmin etmeyi amaçlayan bir değer geliştirdi. Çalışma, 4 Kasım 2026'da Science Advances dergisinde yayımlandı. Kıdemli yazar Yu Zhang ve ilk yazar Kanhao (Alex) Zhao'nun ekibi, Alzheimer hastası 75 yaş üstü 110 kişi ile bellek performansı yaklaşık 45 yaşındakilere denk gelen, aynı yaştaki 180 sözde süper yaşlının beyin bölgeleri arasındaki bağlantıları karşılaştırdı. Bundan türetilen ARC değeri iki grubu yaklaşık yüzde 85 doğrulukla ayırdı.",
+     "Araştırmacılar ardından değeri, 55 ila 70 yaşları arasındaki, zihinsel olarak sağlıklı 1.300'den fazla kişiye uyguladı; bu kişiler en fazla on iki yıl, çoğunlukla yaklaşık beş ila altı yıl boyunca izlendi. Taraması Alzheimer hastalarınınkine benzeyenlerde zihinsel gerileme daha sık görüldü, daha fazla amiloid-beta birikti ve daha sık tanı konuldu. Başlangıçta belirgin bir fark görülmüyordu. Yazarlara göre ARC, sonraki gerilemeyi demografik özellikler, genetik risk ve amiloid ile tau biyobelirteçleri kadar iyi, en azından onlar kadar iyi öngörüyor. Zhao, “Modelimiz benzer ya da daha iyi bir öngörü gücü gösteriyor, üstelik daha erken bir aşamada” dedi.",
+     "Araştırmacılar, değerin Alzheimer tanısı koymak için değil, olası bir risk değerlendirme aracı olarak tasarlandığını vurguluyor. Beyin etkinliği zamanla değişiyor; beyin yaralanmaları ve ruhsal hastalıklar da örüntüleri etkiliyor. Bu örüntüler değiştirilirse hastalığın önlenip önlenemeyeceği belirsiz. Çalışma mevcut veri setlerine dayanıyor; yüzde 85, iki uç grubun ayrılmasına ilişkindir, tek tek kişiler için yapılan öngörüye değil."
+    ],
+    "d": "Stanford'lu araştırmacılar dinlenme durumundaki MRG görüntülerinden bir risk değeri geliştirdi. Zihinsel gerilemeyi bazı bilinen belirteçlerden daha erken öngörüyor; ancak bir tanı yöntemi değil.",
+    "t": "Alzheimer: Beyin taraması riski ilk belirtilerden yıllar önce gösterebilir"
+   },
+   "at": "2026-11-16T06:03Z",
+   "h": "c120f8b2b71c",
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Hastane önünde mobil MRG cihazı"
+   }
+  },
+  "leben-cinque-terre-weg-587-corniglia-gesperrt-2026-11-16": {
+   "L": {
+    "body": [
+     "Cinque Terre'deki Corniglia ile Case Pianca arasındaki 587 numaralı yürüyüş yolu, 16 Kasım 2026'dan bu yana hafta sonları da dahil her iki yönde kapalı. Bu bilgi, ad-hoc-news.de'nin haberine konu olan milli parkın resmi duyurusunda yer aldı. Böylece Volastra ile Corniglia arasındaki Case Pianca üzerinden geçen yaya bağlantısı kesilmiş durumda. Yürüyüşçülerin parkın güncel yol bilgilerini kontrol etmesi ve alternatif rotalara yönelmesi isteniyor. Çalışmaların ne zaman biteceği belirtilmedi.",
+     "Planlanan çalışmalar arasında aşınmış kaldırımın yenilenmesi, taş yüzeyin onarılması ve duvar örgülü merdivenlerin yeniden yapılması yer alıyor. Proje Vernazza belediyesi tarafından talep edildi ve planlandı; finansmanını milli park sağlıyor. Cinque Terre, Liguria kıyısında beş köyden oluşuyor: Monterosso al Mare, Vernazza, Corniglia, Manarola ve Riomaggiore. Park 3.868 hektarlık bir alanı kapsıyor ve İtalya'nın en küçük milli parklarından biri sayılıyor; kıyı şeridi yaklaşık 18 kilometre uzunluğunda.",
+     "Cinque Terre, Portovenere ve Palmaria, Tino ve Tinetto adalarıyla birlikte 1997'den beri UNESCO Dünya Mirası Listesi'nde yer alıyor. UNESCO, Levanto ile La Spezia arasındaki kıyıyı, üzüm bağları ve zeytin ağaçlarıyla dolu taş teraslarla şekillenen bir kültürel peyzaj olarak tanımlıyor. En bilinen güzergâhlar arasında köyleri birbirine bağlayan Sentiero Azzurro, yani “Mavi Yol” bulunuyor."
+    ],
+    "d": "Liguria'daki milli park, Corniglia – Case Pianca güzergâhındaki kaldırım taşlarını ve merdivenleri yeniliyor. Case Pianca üzerinden Volastra – Corniglia bağlantısı kesildi.",
+    "t": "Cinque Terre: 587 numaralı yürüyüş yolu Corniglia'da inşaat nedeniyle kapandı"
+   },
+   "at": "2026-11-16T06:03Z",
+   "h": "041042766fef",
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "facts": [
+     "Konum: Liguria, La Spezia ili, İtalya; Punta Mesco ile Punta di Montenero arasında yaklaşık 18 km kıyı",
+     "Büyüklük: 3.868 hektar – İtalya'nın en küçük milli parklarından biri",
+     "Koruma statüsü: Milli park; 1997'den beri UNESCO Dünya Mirası (Portovenere, Cinque Terre ve adalar)",
+     "16.11.2026'dan itibaren kapalı: 587 numaralı Corniglia – Case Pianca yolu, her iki yön, bitiş tarihi belirtilmedi",
+     "Seyahat zamanı: Sonbahar ve kışın yol çalışmaları sürüyor – yürüyüşten önce kapalı yolları milli parktan kontrol edin"
+    ],
+    "img.alt": "Arşiv fotoğrafı: 587 numaralı yürüyüş yolundan görünen Corniglia"
+   }
+  },
   "leben-grosshandelspreise-oktober-8-8-prozent-2026-11-16": {
    "L": {
     "body": [
@@ -847,6 +1370,38 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Münih Toptan Hali"
+   }
+  },
+  "leben-hallasan-jeju-museum-wiedereroeffnung-unesco-2026-11-16": {
+   "L": {
+    "body": [
+     "Güney Kore'nin Jeju Adası'ndaki Hallasan Millî Parkı'nda bulunan Mount Halla Müzesi, yenilemenin ardından 24 Kasım 2026 Salı günü yeniden açılıyor. Haberi Deep Arrival, 14 Kasım'da Güney Kore medyası Kyunghyang Shinmun ve Yonhap haber ajansına dayanarak aktardı. Müze 2 Aralık 2025'ten beri kapalıydı ve başlangıçta 18 Haziran'dan sonra yeniden açılması planlanıyordu; bu da yaklaşık beş aylık gecikme anlamına geliyor. Gecikmenin nedeni belirtilmedi. 2015'te açılan müzeyi Jeju Adası Dünya Mirası Genel Merkezi işletiyor.",
+     "2,6 milyar wonluk proje, kalıcı ve geçici sergileri yeniliyor; etkileşimli ve medya sanatı istasyonları ekliyor. Üç kalıcı sergi salonu dağ kültürüne ve insanlığın mirasına, doğaya (çocuklar için etkileşimli istasyonlarla) ve bağışlanan ile arşiv nesnelerine ayrılmış durumda. Resim ve heykellerin yer aldığı “Mount Halla Again” özel sergisi 24 Kasım 2026'dan 31 Mart 2027'ye kadar sürecek. Müze pazartesi günleri kapalı; çalışma saatleri ve giriş ücretleri henüz açıklanmadı.",
+     "Hallasan, 1.947 metreyle Güney Kore'nin en yüksek dağı. UNESCO Dünya Doğal Mirası alanı “Jeju Volkanik Adası ve Lav Tünelleri”nin bir parçası. Gwaneumsa ve Seongpanak rotalarındaki zirve yürüyüşleri yalnızca önceden rezervasyonla yapılabiliyor. Kuzey yamaçtaki Gwaneumsa rotası 8,7 kilometre uzunluğunda ve her yönde yaklaşık beş saat sürüyor; gruplar, dağ barınağındaki bir kontrol noktasından belirli bir saate kadar geçmek zorunda."
+    ],
+    "d": "Güney Kore'nin en yüksek dağını çevreleyen millî parktaki müze 2,6 milyar wonluk yatırımla yenilendi. Müze, planlanandan yaklaşık beş ay geç açılıyor.",
+    "t": "Jeju'daki Hallasan: Dağ müzesi 24 Kasım'da yeniden açılıyor"
+   },
+   "at": "2026-11-16T06:03Z",
+   "h": "1d7b658d71b7",
+   "rev": [
+    "Gwaneumsa route: 'Schutzhütte' rendered as 'sığınak' (bunker/shelter); 'barınak/dağ evi' is more natural, and the checkpoint is at the shelter",
+    "Stiff sentence structure in the second paragraph (semicolon list) – made more fluent"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "facts": [
+     "Konum: Jeju Adası, Güney Kore",
+     "Yükseklik: 1.947 m – Güney Kore'nin en yüksek dağı",
+     "Koruma statüsü: Millî park; UNESCO Dünya Doğal Mirası “Jeju Volkanik Adası ve Lav Tünelleri”nin parçası",
+     "Mount Halla Müzesi: 24.11.2026'dan itibaren yeniden açık, pazartesi kapalı; özel sergi 31.03.2027'ye kadar",
+     "Ziyaret: Gwaneumsa ve Seongpanak üzerinden zirve turları yalnızca rezervasyonla; Gwaneumsa 8,7 km, her yönde yaklaşık 5 saat"
+    ],
+    "img.alt": "Arşiv fotoğrafı: Jeju'daki Hallasan Millî Parkı'nda Yeongsil yürüyüş yolu"
    }
   },
   "leben-liebesbetrug-dating-app-700000-dollar-us-senat-2026-11-16": {
@@ -877,6 +1432,58 @@
     "kl": "Aşk ve ilişkiler"
    }
   },
+  "leben-sofia-haeuser-wohnanlagen-colliers-850000-euro-2026-11-16": {
+   "L": {
+    "body": [
+     "Sofya'da kapalı bir site içindeki müstakil bir ev, KDV ve otopark yeri dahil ortalama 850.000 euroya mal oluyor. Bu, gayrimenkul danışmanlık şirketi Colliers'ın 2026 üçüncü çeyrek raporunda yer alıyor; raporu “Standart” gazetesi haberleştirdi. İkiz evler ortalama 740.000 euro, sıra evler 565.000 euro tutuyor. Rakamlar, başkentteki tüm evleri değil, üst ve en üst segmentteki sitelerde yer alan evleri kapsıyor.",
+     "Karşılaştırma için: Novinite'nin haber yaptığı Colliers'ın 2025 üçüncü çeyrek raporunda müstakil evin ortalama fiyatı 700.000 euro, ikiz evin 620.000 euro, sıra evin ise 460.000 euro idi. Böylece fiyatlar bir yıl içinde müstakil evlerde yaklaşık yüzde 21, ikiz evlerde yaklaşık yüzde 19, sıra evlerde ise yaklaşık yüzde 23 arttı. Arz da büyüyor: Colliers'a göre sitelerde artık 2.170 birim bulunuyor, 1.460 birimin inşaatı ise sürüyor; bir yıl önce bu sayılar 1.910 tamamlanmış ve 1.500 inşaat halinde birimdi.",
+     "Rapor Sofya'daki diğer pazarları da kapsıyor. Vitosha Bulvarı'nda en yüksek kira metrekare başına aylık 59 euro, büyük alışveriş merkezlerinde 46 euro. A sınıfı ofisler ortalama metrekare başına 17 euro (KDV hariç) fiyatla sunuluyor. 2026'nın başından bu yana Bulgaristan gayrimenkullerine 472,2 milyon euro yatırım yapıldı. Konutlarda en yüksek getiri yüzde 3,75; bir yıl önce bu oran yüzde 4 idi."
+    ],
+    "d": "Colliers'ın 2026 üçüncü çeyrek raporuna göre üst segmentteki evlerin fiyatları yaklaşık beşte bir oranında yükseliyor. Arz da büyüyor.",
+    "t": "Sofya: Site içindeki evin ortalama fiyatı 850.000 euro, 2025'e göre yüzde 21 daha yüksek"
+   },
+   "at": "2026-11-16T06:03Z",
+   "h": "26881c7fc2c7",
+   "rev": [
+    "Turkish wording \"rapordan ... söz etti\" and \"Bu, ... raporundan çıkıyor\" is unnatural for \"geht hervor / berichtete\"",
+    "Teaser said prices \"arttı\" (rose), the German says \"steigen\" (are rising), and the German \"Auch das Angebot wächst\" is fine",
+    "Headline: \"yüzde 21 daha yüksek\" is acceptable, no change"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Sofya'nın ve Vitosha Dağı'nın manzarası"
+   }
+  },
+  "leben-statine-ueber-70-absetzen-studie-2026-11-16": {
+   "L": {
+    "body": [
+     "Statinleri yalnızca önlem amacıyla kullanan 70 yaş üstü kişilerde, ilaçların bırakılmasından sonraki ilk yıllarda risk muhtemelen daha yüksek değil. Bu sonuç, 6-9 Kasım 2026 tarihlerinde Chicago'da düzenlenen Amerikan Kalp Derneği (AHA) Bilimsel Oturumları'nda sunulan randomize bir çalışmadan geliyor. Çalışmanın ilk yazarı, San Francisco'daki Kaliforniya Üniversitesi'nden kardiyolog Rita Redberg. İsviçre, Fransa ve Hollanda'daki 24 klinikte, yaş ortalaması 77 olan 1.880 yetişkin çalışmaya katıldı; hepsinin en az iki kronik hastalığı vardı, ancak daha önce kalp krizi veya felç geçirmemişlerdi.",
+     "938 katılımcı statinleri bıraktı, 942 katılımcı kullanmaya devam etti. ScienceDaily'nin 13 Kasım 2026'da yayımladığı özete göre, yaklaşık iki yıl sonra bırakma grubunda kalp krizi, felç veya ölüm sayısında istatistiksel olarak anlamlı bir artış görülmedi. Ancak dört yıla kadar süren takipte, bu grubun yüzde 12,7'si kalp krizi veya felç geçirdi ya da öldü; tedaviye devam edenlerde bu oran yüzde 9,2 oldu. Yaşam kalitesi, kas ağrıları, düşmeler ve kas kaybı iki grupta benzerdi; yani ilacı bırakmak ölçülebilir bir iyileşme sağlamadı.",
+     "Bunlar kongrede sunulan ön verilerdir. Katılımcıların yaklaşık yüzde 14'ü çalışma sırasında grup değiştirdi ve sonuçlar yalnızca bilinen bir kalp-damar hastalığı olmayan önleme amaçlı kullanım için geçerli. Yazarlar, bu hasta grubunda statinlerin bırakılmasına ilişkin “genel bir öneri” verilemeyeceğini yazdı. Redberg ise kararın hasta ile hekim tarafından birlikte verilmesi gerektiğini vurguladı. İlaçların kendi başına bırakılmaması gerektiğini de belirtti."
+    ],
+    "d": "70 yaş üstü 1.880 kişiyle yapılan bir çalışmada, statinlerin bırakılmasından sonraki ilk iki yılda kalp krizi sayısında anlamlı bir artış bulunmadı. Daha sonra fark büyüdü.",
+    "t": "70 yaşından sonra statinleri bırakmak: Kısa vadede ek risk yok – dört yıl sonra var"
+   },
+   "at": "2026-11-16T06:03Z",
+   "h": "07e8535fc631",
+   "rev": [
+    "Quote handling: the German quotes „keine allgemeine Empfehlung“, but the Turkish rendering with “genel bir öneride” bulunulamayacağını is awkward, so it was rephrased",
+    "The final sentence, 'Medikamente sollten nicht eigenmächtig abgesetzt werden', is a general statement in the German; 'İlaçların ... belirtti' attributes it to Redberg, which is acceptable, so it was l",
+    "The headline's 'var' is ambiguous: 'dört yıl sonra var' was rephrased to 'dört yıl sonra risk var' for clarity"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    1
+   ],
+   "x": {
+    "img.alt": "Kapak görseli: 70 yaşından sonra statinleri bırakmak: Kısa vadede ek risk yok – dört yıl sonra var"
+   }
+  },
   "leben-usa-mieten-billigste-teuerste-staedte-2026-11-16": {
    "L": {
     "body": [
@@ -905,6 +1512,83 @@
    ],
    "x": {
     "img.alt": "Arşiv fotoğrafı: Louisiana'daki Shreveport'un şehir merkezi"
+   }
+  },
+  "leben-vitamin-c-nitrosamine-modellstudie-waterloo-2026-11-16": {
+   "L": {
+    "body": [
+     "Nitrat ve nitritle birlikte alınan C vitamini, artan kanser riskiyle ilişkilendirilen bileşiklerin oluşumunu zorlaştırabilir. Kanadalı University of Waterloo'daki matematikçilerin Journal of Theoretical Biology'de yayımlanan model çalışması bunu düşündürüyor. ScienceDaily konuyu 15 Kasım 2026'da haberleştirdi. Yazarlar Gordon McNicol, Nandita Basu ve Anita Layton, nitrat ve nitritin vücutta nasıl ilerleyip değiştiğini tükürük bezlerinde, midede, ince bağırsakta ve kan plazmasında simüle etti.",
+     "Nitrat örneğin sebzelerde ve içme suyunda bulunuyor, nitrit ise pastırma ve salam gibi işlenmiş etlere katılıyor. Midede bunlardan nitrozo bileşikleri adı verilen maddeler oluşabiliyor. Modele göre, öğünde bulunan C vitamini bu süreci zayıflatabilir. Bu, C vitamini de içeren ıspanak gibi nitrattan zengin gıdaların neden mutlaka aynı riski taşımadığını açıklayabilir. Simülasyonlar ayrıca yemek saatlerini, midedeki koşulları, ağızdaki bakterileri ve su kalitesini de hesaba katıyor. McNicol, “Çalışmamız, gıdalardaki C vitamininin bu çelişkileri açıklamaya yardımcı olabileceğine işaret ediyor” dedi.",
+     "Araştırmacılar çalışmanın sınırlarını vurguluyor. Sonuçlar bilgisayar simülasyonlarına dayanıyor, insanlar üzerindeki çalışmalara değil. Nitrozo bileşiklerinin azalmasının kanser riskini gerçekten düşürüp düşürmediği bilinmiyor; nitrozlaşma ile kanser arasındaki bağlantının yalnızca varsayım olduğu belirtiliyor ve nitrat ile nitrit üzerine yapılan önceki çalışmalar çelişkili sonuçlar verdi. Layton, “Bu çalışma, gelecekteki klinik ve laboratuvar çalışmaları için mekanistik bir yol haritası sunuyor” dedi."
+    ],
+    "d": "University of Waterloo'dan matematiksel bir model, C vitamininin gıdalardaki nitrat ve nitritle nasıl etkileştiğini gösteriyor. Sonuç simülasyonlara dayanıyor, insanlar üzerindeki çalışmalara değil.",
+    "t": "C vitamini midede kanser şüphesi uyandıran maddeleri yavaşlatabilir – model çalışması"
+   },
+   "at": "2026-11-16T06:03Z",
+   "h": "b184ec18ced4",
+   "rev": [
+    "Headline: 'krebsverdächtige Stoffe' rendered as 'kanserle ilişkilendirilen' (linked to cancer), which overstates; original says suspected of causing cancer",
+    "McNicol quote: 'deutet darauf hin' rendered as 'gösteriyor' (shows), which is stronger than the German hedge",
+    "Hedge 'könnte' lost in the sentence about Vitamin C weakening the process (Turkish 'zayıflatabiliyor' is a statement of fact)"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Narenciye dilimleri"
+   }
+  },
+  "trump-asienreise-xi-putin-atomgipfel-2026-11-16-b08": {
+   "L": {
+    "body": [
+     "Donald Trump, pazartesi günü önce Manila'ya, ardından Shenzhen'e uğrayacak çok günlü bir Asya gezisine çıkıyor. Beyaz Saray'ın açıklamasına göre Trump, Filipinler'in başkentinde Tayland ile bir ticaret anlaşması imzalamak istiyor; ayrıca Hindistan, Japonya ve Avustralya ile bir Quad toplantısı, ABD ile ASEAN ülkeleri arasında bir özel zirve ve çarşamba günü Filipinler hükümetine devlet ziyareti programda yer alıyor.",
+     "Ardından Trump, APEC zirvesi için Shenzhen'e gidecek. Perşembe günü Çin Devlet Başkanı Xi Jinping ile ikili bir görüşme ve Xi ile Rusya Devlet Başkanı Vladimir Putin'in katılacağı ilk üçlü görüşme planlanıyor. ABD hükümeti yetkilileri, AP'ye göre görüşmede nükleer silah cephaneliklerinin ele alınacağını, Ukrayna'daki savaşın ise gündemde olmadığını söyledi. AP'ye göre ABD'nin İran ile süregelen savaşının ise gündemde olması bekleniyor.",
+     "Trump zayıflamış bir halde yola çıkıyor: Cumhuriyetçiler ara seçimlerde Kongre'nin her iki kanadını da kaybetti, son olarak ülke çapındaki uçuş durdurma kaosa yol açtı. AP'ye göre Tesla ve SpaceX'in başkanı Elon Musk da gezide yer alacak; ANI'nin verdiği bilgiye göre ise Musk resmi programlara katılmayacak. AP'ye göre Trump, Nvidia'nın başkanı Jensen Huang'ın istifasını Xi ile görüşmesinde gündeme getirmeyi düşünmüyor."
+    ],
+    "d": "ABD Başkanı Trump bugün Asya gezisine çıkıyor. Manila'daki zirvelerin ardından perşembe günü Shenzhen'de Xi ve Putin ile ilk üçlü görüşme yapılacak; gündemde nükleer silahlar var, Ukrayna yok.",
+    "t": "Trump Asya'ya gidiyor: Manila'da ticaret anlaşmaları, Xi ve Putin ile nükleer görüşmeler"
+   },
+   "at": "2026-11-16T06:04Z",
+   "h": "4f4c1043ed10",
+   "rev": [
+    "Weekdays capitalised against TDK (Perşembe, Pazartesi, Çarşamba should be lowercase)",
+    "Teaser: weekday capitalised",
+    "Awkward/ungrammatical: 'Xi ile Rusya Devlet Başkanı Vladimir Putin ile' double 'ile'",
+    "Indirect speech attribution word order: 'AP'ye göre' attached oddly to officials; improve to 'AP'ye konuşan ... söyledi' keeping 'laut AP'",
+    "'Shenzhen'e uğrayacak' wording ok; 'Ukrayna yok' acceptable",
+    "Sentence about Iran: 'ise' contrastive fine"
+   ],
+   "rev_dbg": [
+    6,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Air Force One (Arşiv fotoğrafı)",
+    "kl": "ABD"
+   }
+  },
+  "welt-faa-flugsicherung-milliarden-demokraten-2026-11-16": {
+   "L": {
+    "body": [
+     "ABD genelinde tüm uçuşlara getirilen kalkış yasağının ardından Başkan Donald Trump'ın hükümeti, eskimiş hava trafik kontrol sisteminin modernizasyonu için milyarlarca dolar talep ediyor. Ulaştırma Bakanı Sean Duffy, AP haber ajansının aktardığına göre, eski bakır hatları fiber optikle değiştiren bir yükleniciyi sorumlu tuttu; Duffy'ye göre bu sırada aşırı yüklenmeler yaşandı. Hükümetin kapsamlı onarımlardan önce “asıl nedeni” belirlemek istediği ifade edildi. Son haftalarda Arkansas ve Teksas'taki FAA tesislerine kurulduğu belirtilen iki yönlendiricinin incelendiği bildirildi.",
+     "AP'ye göre Demokratlar, daha önce onaylanan kaynakların nasıl kullanıldığını ve yeni talebin neden bu kadar yüksek olduğunu soruyor. Kongre modernizasyon için daha önce de ödenek ayırmıştı, ancak bunun büyük bölümü henüz harcanmadı. Trump iki gün boyunca sessiz kalmıştı ve pazar günü sosyal medyada modern bir sistem için daha fazla para talep etti. Havayolu şirketleri hafta sonu binlerce seferi daha iptal etti; FAA, uçuş programlarının pazartesiye kadar normale dönmesini bekliyordu."
+    ],
+    "d": "Ulaştırma Bakanı Duffy bir yükleniciyi sorumlu tutuyor, önce nedenin netleşmesini istiyor. İncelemenin odağında iki yeni yönlendirici var. Demokratlar, daha önce onaylanan parayı soruyor.",
+    "t": "Uçuş yasağının ardından hükümet hava trafiğine milyarlar istiyor, Demokratlar kuşkulu"
+   },
+   "at": "2026-11-16T06:03Z",
+   "h": "972ff739b151",
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: FAA'nın Washington'daki hava trafik kontrol merkezinde hava trafik kontrolörleri",
+    "kl": "ABD"
    }
   },
   "welt-gaza-israel-toetet-hamas-kommandeur-2026-11-16": {
@@ -1280,6 +1964,32 @@
     "img.alt": "Kapak görseli: YouTube, Ukrayna'da 16 Rus kanalını engelledi – “Maşa ile Koca Ayı” da aralarında"
    }
   },
+  "wirtschaft-bank-of-america-anlegerklage-geldwaesche-2026-11-16": {
+   "L": {
+    "body": [
+     "Bank of America yatırımcıları, kuruma karşı New York'ta bir federal mahkemede dava açtı ve toplu dava (sınıf davası) statüsü talep ediyor. Dava 12 Kasım'da açıldı ve 20 Ocak 2022 ile 13 Ekim 2026 arasında bankanın adi hisselerini veya QQ serisi imtiyazlı depo makbuzlarını satın alan herkesi kapsamalı. Davacılar, bankanın hissedarları kara para aklamaya karşı denetimleri konusunda yanılttığını öne sürüyor: Davacılara göre banka, uyum programlarını sağlam olarak göstermiş, oysa sistemler başarısız olmuş.",
+     "Davacılar, ABD Bankacılık Denetleme Kurumu OCC'nin Aralık 2024 tarihli bir emrine işaret ediyor; bu emre göre bankanın bir iştiraki kara para aklama ve yaptırımlara uyum konusunda etkili programlar bulundurmuyordu. Dava dilekçesine göre iştirak, federal yasanın kasıtlı ihlallerini kabul etti ve 5 milyar doları aşan şüpheli işlemleri mali denetim kurumu FinCEN'e bildirmedi. ABD Hazine Bakanlığı 13 Ekim 2026'da 1,21 milyar doları aşan cezalar açıklamıştı. Yeni davadaki iddialar henüz mahkeme tarafından incelenmedi."
+    ],
+    "d": "Hissedarlar, bankanın kara para aklamaya karşı denetimleri konusunda kendilerini yanılttığını iddia ediyor. Bir ay önce ABD makamları 1,21 milyar doları aşan cezalar açıklamıştı.",
+    "t": "Kara para aklama cezasının ardından yatırımcılar Bank of America'ya New York'ta dava açtı"
+   },
+   "at": "2026-11-16T06:03Z",
+   "h": "1e35ee0cac89",
+   "rev": [
+    "Teaser: German says the penalties were imposed \"einen Monat zuvor\" (verhängt); the draft's \"açıklamıştı\" is acceptable, but the claim that shareholders say they were misled is correctly attributed.",
+    "Body: \"satın alan\" is correct for \"gekauft haben\"; the draft said \"satın alan\", so no change needed.",
+    "Indirect speech sentence: \"oysa sistemler başarısız olmuştu\" reads as plain fact within the claim; changed to reported form.",
+    "OCC order: \"wonach ... unterhielt\" is reported content of the order; \"bulundurmuyordu\" is fine, but \"iştirak\" acceptable."
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: New York, Manhattan'daki Bank of America Tower"
+   }
+  },
   "wirtschaft-bulgarien-grosshandelspreise-mehl-paprika-2026-11-16": {
    "L": {
     "body": [
@@ -1349,6 +2059,26 @@
    ],
    "x": {
     "img.alt": "Sembolik fotoğraf: Tokyo'daki Ginza alışveriş bölgesi akşam saatlerinde"
+   }
+  },
+  "wirtschaft-lechner-vw-dividende-niedersachsen-2026-11-16": {
+   "L": {
+    "body": [
+     "Aşağı Saksonya CDU Başkanı Sebastian Lechner, eyaletin Volkswagen'den aldığı temettüden geçici olarak vazgeçmesini önerdi. dpa-AFX haber ajansının aktardığına göre 45 yaşındaki Lechner öneriyi Hannover'deki küçük parti kongresinde sundu. Lechner'e göre diğer büyük hissedarlar da böyle bir adımı değerlendirmeli, yönetim kurulu ise primler konusunda bir işaret vermeli. Lechner, “Ortak bir çaba gerekiyor. Herkes katkı sunmak zorunda” dedi. Aşağı Saksonya, otomobil grubunun büyük hissedarları arasında yer alıyor.",
+     "Girişim, Volkswagen'in ciddi baskı altında olduğu bir döneme denk geldi. Aynı zamanda Grup CEO'su Oliver Blume “Bild” gazetesinde iddialı hedefler çizdi: Grup, 2030'da dünya genelinde yaklaşık dokuz milyon araç satmayı ve yüzde dokuz getiri elde etmeyi hedefliyor. Blume, getiri hedefine işaret ederek “Bunu Volkswagen Grubu tarihinde henüz hiç başarmadık” dedi."
+    ],
+    "d": "Sebastian Lechner, eyaletin VW temettüsünden geçici olarak vazgeçmesini istiyor ve yönetim kurulundan primler konusunda işaret vermesini talep ediyor. CEO Blume 2030 için rekor getiri vaat ediyor.",
+    "t": "VW krizi: Aşağı Saksonya CDU Başkanı Lechner, eyaletin temettüden vazgeçmesini önerdi"
+   },
+   "at": "2026-11-16T06:03Z",
+   "h": "f49de2665063",
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Wolfsburg'daki Volkswagen fabrikasının havadan görünümü"
    }
   }
  }
