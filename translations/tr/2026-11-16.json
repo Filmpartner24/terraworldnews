@@ -3417,22 +3417,29 @@
   "ukraine-rekord-drohnenangriff-krimbruecke-2026-11-16-b1530": {
    "L": {
     "body": [
-     "Rus makamlarının açıklamasına göre Ukrayna, pazartesiye bağlayan gece savaşın başından bu yana Rusya'ya yönelik en büyük insansız hava aracı saldırısını başlattı. Kerç Boğazı üzerindeki Kırım Köprüsü de vuruldu. Rusya Savunma Bakanlığı gece boyunca 1.336, 24 saat içinde ise 2.049 İHA'nın düşürüldüğünü bildirdi. Financial Times'a göre hedefler 15 bölgedeydi.",
-     "Moskova Belediye Başkanı Sergey Sobyanin, başkent bölgesine doğru yaklaşık 600 İHA'nın yöneldiğini, bunların çoğunun düşürüldüğünü söyledi. Kremlin Sözcüsü Dmitri Peskov, köprüdeki hasarı “önemsiz” olarak nitelendirdi. Moskova'nın atadığı Kırım yöneticisi Sergey Aksyonov, karayolu trafiğinin en az öğlene kadar kısıtlı kalacağını açıkladı; Ulaştırma Bakanlığı'na göre trenler seferlerini sürdürdü.",
-     "Rus yetkililerin açıklamasına göre Bryansk bölgesinde 59 yaşındaki bir kişi hayatını kaybetti, Krasnodar bölgesinde ikisi reşit olmayan en az altı kişi yaralandı. Kiev, öğleden sonraya kadar köprüye yönelik saldırı hakkında resmî bir açıklama yapmadı. Saldırı, geçen hafta sonuçsuz sona eren, ABD arabuluculuğundaki barış görüşmelerinin ardından geldi."
+     "Rusya'nın açıklamalarına göre Ukrayna, pazartesiye karşı gece savaşın başlangıcından bu yana Rusya'ya yönelik en büyük İHA saldırısını gerçekleştirdi. Kerç Boğazı üzerindeki Kırım Köprüsü de vuruldu. Rusya Savunma Bakanlığı, gece boyunca 1.336, 24 saat içinde ise 2.049 İHA'nın düşürüldüğünü bildirdi. Financial Times'a göre hedefler 15 bölgedeydi.",
+     "Moskova Belediye Başkanı Sergey Sobyanin, başkent bölgesine doğru yaklaşık 600 İHA'nın yöneldiğini ve çoğunun düşürüldüğünü söyledi. Kremlin Sözcüsü Dmitri Peskov, köprüdeki hasarı “önemsiz” olarak niteledi. Moskova'nın atadığı Kırım yöneticisi Sergey Aksyonov, araç trafiğinin en az öğlene kadar kısıtlı kalacağını açıkladı; Ulaştırma Bakanlığı'na göre trenler seferlerini sürdürdü.",
+     "Rus yetkililerin açıklamasına göre Bryansk bölgesinde 59 yaşındaki bir kişi öldü, Krasnodar bölgesinde ikisi reşit olmayan en az altı kişi yaralandı. Kiev, öğleden sonraya kadar köprüye yönelik saldırı konusunda resmi bir açıklama yapmadı. Saldırı, geçen hafta ABD'nin arabuluculuğuyla yürütülen ve sonuçsuz biten barış görüşmelerinin ardından gerçekleşti."
     ],
-    "d": "Rus verilerine göre 24 saatte 2.049 İHA düşürüldü; Moskova Belediye Başkanı'na göre yaklaşık 600'ü başkente yöneldi. Kerç Köprüsü hasar gördü.",
-    "t": "Rusya, Ukrayna'nın rekor İHA saldırısını bildirdi: Kırım Köprüsü de hasar gördü"
+    "d": "Rusya'ya göre 24 saatte 2.049 İHA düşürüldü; Moskova Belediye Başkanı'na göre yaklaşık 600'ü başkente yöneldi. Kremlin, Kırım Köprüsü'ndeki hasarı “önemsiz” olarak niteledi.",
+    "t": "Rusya, Ukrayna'nın rekor İHA saldırısını bildirdi – Kırım Köprüsü de hasar gördü"
    },
-   "at": "2026-11-16T14:05Z",
-   "h": "82d8cbe26e91",
+   "at": "2026-11-16T14:31Z",
+   "h": "c78e3582a79f",
+   "rev": [
+    "Headline: 'Rusya ... bildirdi' is fine, but 'Kırım Köprüsü de hasar gördü' states the damage as plain fact; the German does too, so it is left unchanged.",
+    "Teaser: 'Kremlin' is used for the Kremlin spokesman in the body; acceptable.",
+    "Teaser: 'Rusya'ya göre ... düşürüldü' conveys the attribution correctly; the mayor is also attributed.",
+    "Body 1: 'Kırım Köprüsü de hedef alındı' – the German says 'Getroffen wurde auch' (the bridge was hit), so 'hedef alındı' (was targeted) weakens the meaning; replaced with 'vuruldu'.",
+    "Body 3: 'Rus yetkililerin açıklamasına göre' covers only the Bryansk death; the Krasnodar injuries are attributed to the same source in the German, which is acceptable."
+   ],
    "rev_dbg": [
-    3,
-    0,
+    5,
+    1,
     0
    ],
    "x": {
-    "img.alt": "Kerç yakınındaki Kırım Köprüsü (Arşiv fotoğrafı)"
+    "img.alt": "Kerç yakınlarındaki Kırım Köprüsü (Arşiv fotoğrafı)"
    }
   },
   "video-durchleuchtung-cleveland-2026-11-16": {
