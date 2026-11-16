@@ -2032,3 +2032,18 @@ background:linear-gradient(135deg,color-mix(in srgb,var(--c1) 26%,#0a1030),color
 .byline>span:first-child{display:inline-flex;align-items:center;gap:9px}
 .au-av-l{flex:none;line-height:0}
 .au-av{width:36px;height:36px;border-radius:50%;object-fit:cover;object-position:50% 25%;filter:grayscale(1);border:1px solid var(--rule)}
+
+/* TERRA WORLD LIVE kompakt (Nedy 16.11.2026): Senderknöpfe als schmale Zeilen, Radio als Leiste */
+.twr-tvp .twr-tv{gap:6px;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.twr-tvp .twr-tvc{min-width:0;overflow:hidden}
+.twr-tvp .twr-tvc{flex-direction:row;align-items:center;gap:8px;padding:8px 10px;border-radius:11px;min-height:0}
+.twr-tvp .twr-tvc .e{font-size:15px;line-height:1}
+.twr-tvp .twr-tvc b{font-size:13px;line-height:1.2;flex:1 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.twr-tvp .twr-tvc small{font-size:10px;font-weight:700;color:#c7d0f0;padding:1px 5px;border-radius:4px;background:rgba(255,255,255,.1);flex:none}
+.twr-tvp .twr-tvc em.twr-lv{position:static;flex:none;padding:0;width:8px;height:8px;border-radius:50%;font-size:0;background:#ff2b2b!important}
+.twr-rrow{display:flex;align-items:center;gap:10px;width:100%;padding:8px 10px;border-radius:12px;border:1px solid color-mix(in srgb,var(--c1) 45%,transparent);background:linear-gradient(120deg,color-mix(in srgb,var(--c1) 30%,#0b1430),color-mix(in srgb,var(--c2) 60%,#0b1430));color:#fff;cursor:pointer;text-align:left;font:inherit}
+.twr-rrow:hover{box-shadow:0 6px 20px color-mix(in srgb,var(--c1) 35%,transparent)}
+.twr-ralb{flex:none;width:40px;height:40px;border-radius:9px;display:grid;place-items:center;font-size:20px;background:linear-gradient(135deg,var(--c1),var(--c2))}
+.twr-rtx{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:1px}
+.twr-rtx b{font-size:13.5px}.twr-rtx small{font-size:11px;color:#c7d0f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.twr-rpl{flex:none;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;font-size:14px;background:#fff;color:#111;padding-left:2px}
