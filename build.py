@@ -2288,7 +2288,11 @@ def fb_rounds(lg):
 def fb_state(lg, today):
     rs = fb_rounds(lg)
     done = [r for r, ms in rs.items() if all(m.get('ft') is not None or m.get('status') == 'postponed' for m in ms) and any(m.get('ft') is not None for m in ms)]
-    nxt = next((r for r, ms in rs.items() if any(m.get('ft') is None and m.get('status') != 'postponed' for m in ms)), None)
+    # Nächster Spieltag = Spieltag des frühesten noch offenen Spiels ab heute (Nedy 16.11.2026: ein verlegtes Nachholspiel
+    # des 10. Spieltags im Dezember ließ die Parwa Liga „14. Spieltag ✓ · Nächster Spieltag: 10.“ anzeigen)
+    op = [(m.get('date', ''), r) for r, ms in rs.items() for m in ms if m.get('ft') is None and m.get('status') != 'postponed']
+    fut = [x for x in op if x[0] >= (today or '')]
+    nxt = min(fut)[1] if fut else (min(r for _, r in op) if op else None)
     return rs, done, nxt
 
 def fb_note(n, l):
@@ -2624,9 +2628,10 @@ def most_read(items_l, l, latest_date, n=5):
 def fb_overview(l, today, news_html, others):
     f = FBU[l]; title = f'{SEC[l]["sport"][0]} · {SUB[l]["fussball"][0]}'
     seasons = sorted({FB[k]['season'] for k in FB})
-    cards = ''.join(fb_league_card(k, l, today) for k in fb_order(l) if k in FB)
+    cards = ''.join(fb_league_card(k, l, today) for k in fb_order(l) if k in FB) + nl_fb_card(l, today)   # Kachel Länderspiele (Nedy 16.11.2026)
+    _cr = [(FB[k]["name"][l], FB_IMG.get(k)) for k in fb_order(l) if k in FB] + ([(SUB[l]['laenderspiele'][0], NL_IMG.get('liga-a'))] if NL else [])
     return (f'<div class="gp gp-sport"><div class="gp-head"><h1 class="gp-title">{e(title)}</h1><span class="gp-date">{e(f["season"])} {e(" / ".join(seasons))}</span></div>'
-            f'<div class="gp-main"><div class="gp-panel"><h2 class="gp-h">{e(f["leagues"])}</h2><div class="fb-grid">{cards}</div>{grid_cr([(FB[k]["name"][l], FB_IMG.get(k)) for k in fb_order(l) if k in FB], l)}{live_box(l, "club")}{news_html}{tv_block(l)}</div>'
+            f'<div class="gp-main"><div class="gp-panel"><h2 class="gp-h">{e(f["leagues"])}</h2><div class="fb-grid">{cards}</div>{grid_cr(_cr, l)}{live_box(l, "club")}{news_html}{tv_block(l)}</div>'
             f'<aside class="sec-side"><h2 class="list-h">{e(UI[l]["more"] if False else LX({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"})[l])}</h2>{others}</aside></div></div>')
 
 def uefa_empty(lg, l, today):   # CL/EL: Live-Block immer sichtbar – ohne Spiele heute Hinweis auf den nächsten Spieltag
@@ -2789,15 +2794,38 @@ def nl_lg(g, l):  # Gruppe im Format der Fußball-Ligen (für fb_table/fb_state/
     return {'tz': NL.get('tz', 'Europe/Berlin'), 'matches': [dict(m, t1=nt(m['t1'], l), t2=nt(m['t2'], l)) for m in g['matches']]}
 def nl_gname(g, l): return NLU[l]['grp'].format(L=g['g'][0], n=g['g'][1:])
 def nl_url(g, l): return f"{sub_url('sport', 'laenderspiele', l)}{g['g'].lower()}/"
-def nl_table(lg, l, hl=None):
+def nl_table(lg, l, hl=None, nz=2):   # nz: Plätze mit Viertelfinale/Aufstieg (Liga A: 2, Liga B: 1)
     f = FBU[l]; tab = fb_table(lg)
-    rows = ''.join(f'<tr{" class=fb-top" if i < 2 else ""}{" style=font-weight:700" if hl and t == hl else ""}><td class="n">{i + 1}</td><th scope="row">{e(t)}</th><td class="n">{r[0]}</td><td class="n">{r[1]}</td><td class="n">{r[2]}</td><td class="n">{r[3]}</td><td class="n">{r[4]}:{r[5]}</td><td class="n">{"+" if r[4] - r[5] > 0 else ""}{r[4] - r[5]}</td><td class="n fb-pts">{r[6]}</td></tr>' for i, (t, r) in enumerate(tab))
+    rows = ''.join(f'<tr{" class=fb-top" if i < nz else ""}{" style=font-weight:700" if hl and t == hl else ""}><td class="n">{i + 1}</td><th scope="row">{e(t)}</th><td class="n">{r[0]}</td><td class="n">{r[1]}</td><td class="n">{r[2]}</td><td class="n">{r[3]}</td><td class="n">{r[4]}:{r[5]}</td><td class="n">{"+" if r[4] - r[5] > 0 else ""}{r[4] - r[5]}</td><td class="n fb-pts">{r[6]}</td></tr>' for i, (t, r) in enumerate(tab))
     return (f'<div class="tbl-wrap"><table class="fb-t"><thead><tr><th class="n">{f["pos"]}</th><th>{ LX({"bg": "Отбор", "de": "Team", "en": "Team"})[l] }</th><th class="n">{f["p"]}</th><th class="n">{f["w"]}</th><th class="n">{f["d"]}</th><th class="n">{f["l"]}</th><th class="n">{f["g"]}</th><th class="n">{f["gd"]}</th><th class="n">{f["pts"]}</th></tr></thead><tbody>{rows}</tbody></table></div>')
+NLZ = {'bg': {'A': 'Места 1–2: четвъртфинал', 'B': 'Място 1: влиза в Лига A'},   # Zonen laut Modus-Text der Daten (Liga A: 1–2 Viertelfinale, Liga B: Sieger steigt auf)
+       'de': {'A': 'Platz 1–2: Viertelfinale', 'B': 'Platz 1: Aufstieg in Liga A'},
+       'en': {'A': 'Places 1–2: quarter-finals', 'B': 'Place 1: promoted to League A'}}
+def nl_zone(g, i): return i < 2 if g['g'][0] == 'A' else i < 1
+def nl_fb_card(l, today):   # Kachel „Länderspiele“ auf der Fußball-Übersicht (Nedy 16.11.2026)
+    if not NL: return ''
+    f = FBU[l]; u = NLU[l]; ger = nt('Deutschland', l)
+    im = NL_IMG.get('liga-a'); st = f' style="background-image:url({im["f"]})"' if im else ''
+    txt = ''
+    a2 = next((g for g in NL.get('groups', []) if any('Deutschland' in (m['t1'], m['t2']) for m in g['matches'])), None)
+    if a2:
+        tab = fb_table(nl_lg(a2, l)); pos = next((i for i, (t, r) in enumerate(tab) if t == ger), None)
+        if pos is not None:
+            txt += f'<p class="fb-lead">{e(ger)}: <b>{LX({"bg": "{n}. място", "de": "Platz {n}", "en": "place {n}"})[l].format(n=pos + 1)}</b> · {e(nl_gname(a2, l))} · {tab[pos][1][6]} {e(f["lead_pts"])}</p>'
+    nx = sorted((m for m in NL.get('dfb', []) if m.get('ft') is None and m['date'] >= today), key=lambda m: (m['date'], m.get('time', '')))
+    if nx:
+        m = nx[0]; t1, t2 = (ger, nt(m['opp'], l)) if m.get('ha') == 'h' else (nt(m['opp'], l), ger)
+        when = fb_dt(m, {'tz': NL.get('tz', 'Europe/Berlin')}, l)
+        txt += f'<p class="gr-meta">{e(LX({"bg": "Следващ мач", "de": "Nächstes Spiel", "en": "Next match"})[l])}: {e(when)} · {e(t1)} – {e(t2)}</p>'
+    return (f'<article class="fb-card"><a href="{sub_url("sport", "laenderspiele", l)}"><div class="fb-img"{st}><span class="gr-badge">{e(u["name"])} {e(NL.get("season", ""))}</span>'
+            f'<span class="fb-name">{e(SUB[l]["laenderspiele"][0])}</span></div><div class="fb-card-txt">{txt}'
+            f'<span class="gr-more">{e(LX({"bg": "Към мачовете →", "de": "Zu den Länderspielen →", "en": "Go to internationals →"})[l])}</span></div></a></article>')
 def nl_card(g, l, today):
     f = FBU[l]; lg = nl_lg(g, l); tab = fb_table(lg); rs, done, nxt = fb_state(lg, today)
     im = NL_IMG.get('liga-' + g['g'][0].lower())
     st = f' style="background-image:url({im["f"]})"' if im else ''
-    mini = ''.join(f'<li><span>{i + 1}. {e(t)}</span><b>{r[6]}</b></li>' for i, (t, r) in enumerate(tab))
+    ger = nt('Deutschland', l)
+    mini = ''.join(f'<li class="{"nl-q" if nl_zone(g, i) else ""}{" nl-ger" if t == ger else ""}"><span>{i + 1}. {e(t)}</span><b>{r[6]}</b></li>' for i, (t, r) in enumerate(tab))
     return (f'<article class="fb-card"><a href="{nl_url(g, l)}"><div class="fb-img"{st}><span class="gr-badge">{e(NLU[l]["name"])} {e(NL.get("season", ""))}</span><span class="fb-name">{e(nl_gname(g, l))}</span></div>'
             f'<div class="fb-card-txt"><ul class="nl-mini">{mini}</ul>' + (f'<p class="gr-meta">{e(f["md"].format(n=done[-1]))} ✓' + (f' · {e(f["next"])}: {e(f["md"].format(n=nxt))}' if nxt else '') + '</p>' if done else '') +
             f'<span class="gr-more">{e(NLU[l]["open"])}</span></div></a></article>')
@@ -2836,9 +2864,10 @@ def nl_group_block(g, l, hl=None, table=True):  # Tabelle + alle Ergebnisse + an
     u = NLU[l]; lg = nl_lg(g, l); raw = {'tz': lg['tz']}
     ms = sorted(g['matches'], key=lambda m: (m['date'], m.get('time', '')))
     done = [m for m in ms if m.get('ft') is not None]; todo = [m for m in ms if m.get('ft') is None]
-    h = (nl_table(lg, l, hl) if table else '')
-    if done: h += f'<h3 class="nl-day">{e(u["grs"])}</h3><div class="tbl-wrap"><table class="fb-m nl-dfb"><tbody>{"".join(nl_mrow(m, g, l, raw) for m in reversed(done))}</tbody></table></div>'
+    h = (nl_table(lg, l, hl, 2 if g['g'][0] == 'A' else 1) if table else '')
+    # Reihenfolge (Nedy 16.11.2026): erst anstehende Spiele, dann Ergebnisse (neueste zuerst)
     if todo: h += f'<h3 class="nl-day">{e(u["fix"])}</h3><div class="tbl-wrap"><table class="fb-m nl-dfb"><tbody>{"".join(nl_mrow(m, g, l, raw) for m in todo)}</tbody></table></div>'
+    if done: h += f'<h3 class="nl-day">{e(u["grs"])}</h3><div class="tbl-wrap"><table class="fb-m nl-dfb"><tbody>{"".join(nl_mrow(m, g, l, raw) for m in reversed(done))}</tbody></table></div>'
     return h
 def nl_overview(l, today, news, hls, others):
     u = NLU[l]; f = FBU[l]; title = f'{SEC[l]["sport"][0]} · {SUB[l]["laenderspiele"][0]}'
@@ -2850,6 +2879,14 @@ def nl_overview(l, today, news, hls, others):
             f'<div class="gp-main"><div class="gp-panel">')
     html += live_box(l, 'nat') + f'<h2 class="gp-h">{e(u["ger"])}</h2>{nl_dfb_rows(l)}'
     if a2: html += f'<h2 class="gp-h">{e(u["name"])} · {e(nl_gname(a2, l))}</h2>{nl_table(nl_lg(a2, l), l, nt("Deutschland", l))}'
+    # Gruppen auf einen Blick, nach Liga sortiert (Nedy 16.11.2026: „viel besser sortiert, übersichtlicher“)
+    if gs:
+        html += f'<h2 class="gp-h">{e(u["name"])} · {e(LX({"bg": "Всички групи с един поглед", "de": "Alle Gruppen auf einen Blick", "en": "All groups at a glance"})[l])}</h2>'
+        for L_ in sorted({g['g'][0] for g in gs}):
+            gl = sorted((g for g in gs if g['g'][0] == L_), key=lambda g: g['g'])
+            html += (f'<h3 class="nl-lh">{e(LX({"bg": "Лига", "de": "Liga", "en": "League"})[l])} {L_}<span class="nl-zl">{e(NLZ[l].get(L_, ""))}</span></h3>'
+                     f'<div class="fb-grid">{"".join(nl_card(g, l, today) for g in gl)}</div>')
+        html += grid_cr([(f'{u["name"]} {x.upper()}', NL_IMG.get("liga-" + x)) for x in ("a", "b")], l)
     html += nl_window(l, today, True) + nl_window(l, today, False)   # Nedys Vorgabe: Ergebnisse und nächste Spiele ALLER Gruppen
     if news: html += f'<h2 class="gp-h">{e(u["news"])}</h2>{bx_news_grid(news, l)}'
     if hls:  # Spielzusammenfassungen nach Spieltag-Datum (Feld "mdate", sonst Veröffentlichungsdatum), neueste zuerst
@@ -2858,12 +2895,16 @@ def nl_overview(l, today, news, hls, others):
         for x in sorted(hls, key=lambda x: (x.get('mdate') or x['date'], x['time']), reverse=True): _by.setdefault(x.get('mdate') or x['date'], []).append(x)
         for dd, xs in _by.items():
             html += f'<h3 class="nl-day">{e(WEEKDAYS[l][datetime.date.fromisoformat(dd).weekday()].capitalize())}, {short_date(dd, l)}</h3>{bx_news_grid(xs, l)}'
-    if gs:
+    if gs:   # Details aller Gruppen: nach Liga A/B und Gruppennummer sortiert, aufklappbar; Gruppe mit Deutschland offen
         html += f'<h2 class="gp-h">{e(u["name"])} · {e(u["allg"])}</h2>'
-        for g in nl_gorder():
-            html += f'<h3 class="nl-gh"><a href="{nl_url(g, l)}">{e(nl_gname(g, l))}</a></h3>' + nl_group_block(g, l, nt('Deutschland', l) if g is a2 else None)
-    if cards: html += (f'<h2 class="gp-h">{e(u["name"])} · {e(u["groups"])}</h2><div class="fb-grid">{cards}</div>'
-                       + grid_cr([(f'{u["name"]} {x.upper()}', NL_IMG.get("liga-" + x)) for x in ("a", "b")], l))
+        ger = nt('Deutschland', l)
+        for L_ in sorted({g['g'][0] for g in gs}):
+            html += f'<h3 class="nl-lh">{e(LX({"bg": "Лига", "de": "Liga", "en": "League"})[l])} {L_}</h3>'
+            for g in sorted((g for g in gs if g['g'][0] == L_), key=lambda g: g['g']):
+                tab = fb_table(nl_lg(g, l)); lead = tab[0] if tab and tab[0][1][0] else None
+                sm = f'<span class="nl-sl">{e(FBU[l]["leader"])}: {e(lead[0])} · {lead[1][6]} {e(FBU[l]["lead_pts"])}</span>' if lead else ''
+                html += (f'<details class="fb-md nl-det"{" open" if g is a2 else ""}><summary>{e(nl_gname(g, l))}{sm}</summary>'
+                         + nl_group_block(g, l, ger if g is a2 else None) + f'<p class="fb-ko"><a href="{nl_url(g, l)}">{e(u["open"])}</a></p></details>')
     html += tv_block(l)   # TV-Liste ganz unten (Nedys Vorgabe 06.10.2026: News und Fakten zuerst)
     if NL.get('format'): html += f'<p class="fb-ko"><b>{e(u["fmt"])}:</b> {e(NL["format"].get(l) or NL["format"].get("en", ""))}</p>'
     html += (f'<p class="fb-ko">{e(f["src"])}: {srcs}</p></div>'
@@ -2881,7 +2922,7 @@ def nl_group_page(g, l, today, others):
     side = ''.join(f'<li><a href="{nl_url(x, l)}"{" aria-current=page" if x is g else ""}>{e(nl_gname(x, l))}</a></li>' for x in NL.get('groups', []))
     srcs = ' · '.join(f'<a href="{e(x["u"])}" rel="noopener nofollow" target="_blank">{e(x["n"])}</a>' for x in NL.get('src', []))
     return (f'<div class="gp gp-sport fb-page"><div class="gp-head"><h1 class="gp-title">{e(u["name"])} · {e(nl_gname(g, l))}</h1><span class="fb-season">{e(f["season"])} {e(NL.get("season", ""))}</span></div>'
-            f'<div class="gp-main"><div class="gp-panel">{hero}<h2 class="gp-h">{e(f["table"])}</h2>{nl_table(lg, l)}{md}<p class="fb-ko">{e(f["ko"])}</p><p class="fb-ko">{e(f["src"])}: {srcs}</p></div>'
+            f'<div class="gp-main"><div class="gp-panel">{hero}<h2 class="gp-h">{e(f["table"])}</h2>{nl_table(lg, l, None, 2 if g["g"][0] == "A" else 1)}<p class="fb-ko">{e(NLZ[l].get(g["g"][0], ""))}</p>{md}<p class="fb-ko">{e(f["ko"])}</p><p class="fb-ko">{e(f["src"])}: {srcs}</p></div>'
             f'<aside class="sec-side"><h2 class="list-h">{e(u["groups"])}</h2><ul class="fb-ll">{side}</ul>'
             f'<h2 class="list-h">{e(LX({"bg": "Други рубрики", "de": "Aus anderen Ressorts", "en": "From other sections"})[l])}</h2>{others}</aside></div></div>')
 
