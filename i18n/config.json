@@ -19,5 +19,14 @@
  "effort_translate": "low",
  "model_review": "claude-sonnet-5-5",
  "effort_review": "medium",
- "batch": true
+ "batch": true,
+ "translate_sources": [
+  "breaking",
+  "nedy",
+  "maya",
+  "ostwest",
+  "wind",
+  "exklusiv"
+ ],
+ "translate_sources_note": "Spar-Modus seit 16.11.2026 (Nedy): nur Breaking News + eigene Artikel (Nedy/Maya, Ost & West, WIND, Exklusiv). Zurück auf alles: [\"*\"]. Schlüssel = Dateiname nach dem Datum (content/2026-11-16-breaking.json -> \"breaking\", content/2026-11-16.json -> \"tagesausgabe\", content/business/* -> \"business\")."
 }

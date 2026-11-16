@@ -502,6 +502,11 @@ def run_batch(items, store, flagged, spent, budget):
     return tot, done, fatal
 
 
+def src_ok(k):   # Nedy 16.11.2026: welche Inhalte übersetzt werden – ["*"] oder fehlend = alles
+    srcs = CFG.get('translate_sources') or ['*']
+    return '*' in srcs or k in srcs
+
+
 def main():
     if not os.environ.get('ANTHROPIC_API_KEY'):
         print('translate: kein ANTHROPIC_API_KEY – übersprungen'); return
@@ -518,6 +523,8 @@ def main():
     for f in sorted(glob.glob(os.path.join(HERE, 'content', '*.json'))):
         date = os.path.basename(f)[:10]
         if date < start:
+            continue
+        if not src_ok(os.path.basename(f)[11:-5] or 'tagesausgabe'):   # Spar-Modus: nur ausgewählte Quellen (i18n/config.json "translate_sources")
             continue
         try:
             d = json.load(open(f, encoding='utf-8'))
@@ -538,7 +545,7 @@ def main():
             if need:
                 todo.append((d['date'], it, need, f.endswith('-breaking.json')))
     # Business-Detailberichte (content/business/*.json) ebenfalls übersetzen – ES/TR wie EN (Nedy 31.10.2026)
-    for f in sorted(glob.glob(os.path.join(HERE, 'content', 'business', '*.json'))):
+    for f in sorted(glob.glob(os.path.join(HERE, 'content', 'business', '*.json'))) if src_ok('business') else []:
         try:
             d = json.load(open(f, encoding='utf-8'))
         except ValueError:
