@@ -7,7 +7,7 @@
 import json, os, sys, urllib.request, urllib.error, urllib.parse, xml.etree.ElementTree as ET, datetime
 from zoneinfo import ZoneInfo
 
-KEY = '2049bbf38319833cc271f38180251969'
+KEY = '109db2692694f4f64d973a12956b7210'   # neuer Schlüssel 16.11.2026 (alter 2049bbf… wurde mit 403 UserForbiddedToAccessSite abgelehnt)
 HOST = 'terraworldnews.com'
 SITE = f'https://{HOST}'
 NS = {'s': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
