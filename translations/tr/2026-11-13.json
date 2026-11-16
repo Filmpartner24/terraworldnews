@@ -464,6 +464,32 @@
     "kl": "Berlin"
    }
   },
+  "bg-energie-aktien": {
+   "L": {
+    "body": [
+     "Bulgaristan Borsası'nın (BFB) ana endeksi üst üste ikinci gün geriledi. En önemli 15 hisseyi kapsayan SOFIX, 12 Kasım perşembe günü 6,89 puan veya yüzde 0,33 düşüşle 2095,79 puana indi. Böylece endeks, 30 Ekim'deki 2120,40 puanlık rekor kapanış seviyesinin yüzde 1,16 altında bulunuyor (BTA; kendi hesaplamamız).",
+     "Diğer ana endeksler de düşüşle kapandı: En çok işlem gören 40 hisseyi kapsayan BGBX40 yüzde 0,43 kaybederek 310,52 puana indi. BGTR30 (eşit ağırlıklı 30 hisse) yüzde 0,09 düşüşle 1267,67 puana, gayrimenkul endeksi BGREIT ise yüzde 0,55 düşüşle 242,29 puana geriledi. SOFIX hisselerinde işlem hacmi 448.147 euro oldu (infostock.bg).",
+     "Elektrik tüketimini kontrol eden akıllı cihazlar üreten Shelly Group, 31.776 euro işlem hacmiyle yüzde 0,31 düşerek 64,00 euroya indi. Böylece hisse fiyatı, Fransız Schneider Electric'in hisse başına teklif ettiği 70 euronun yüzde 8,6 altında bulunuyor; mali denetim otoritesi teklifi henüz onaylamadı. Shelly, dokuz aylık dönemde hissedarlara ait 23,6 milyon euro kâr açıkladı (yüzde 28,6 artış); operasyonel nakit girişi 6,67 milyon eurodan 26,38 milyon euroya yükseldi.",
+     "Enerji hisselerinde Eurohold Bulgaria, 4,28 euroda değişmeden kapandı (son işlem saat 16:20). Petrol'de 11 Kasım'dan beri işlem yapılmadı (0,420 euro), Toplofikazija Russe'de ise 2 Kasım'dan beri işlem yapılmadı (4,30 euro)."
+    ],
+    "d": "SOFIX perşembe günü yüzde 0,33 değer kaybederek 2095,79 puana geriledi, tüm ana endeksler düşüşle kapandı. Shelly Group 64,00 euroya indi, Eurohold 4,28 euroda kaldı.",
+    "explain": "Sofya Borsası, güçlü geçen ekim ayının ardından ikinci gün hafif geriledi; yalnızca küçük tutarlarda işlem yapılıyor. Bir şirket için satın alma teklifi bulunduğunda hisse fiyatı genellikle teklif fiyatına yakın kalır. Yatırım tavsiyesi değildir.",
+    "t": "SOFIX 2100 puanın altına düştü – Sofya Borsası'nda ikinci kayıp günü"
+   },
+   "at": "2026-11-16T10:15Z",
+   "h": "007d287f953c",
+   "rev": [
+    "Turkish weekday capitalisation: 'Perşembe' must be lowercase per TDK (teaser and body)",
+    "Date format 'Perşembe günü, 12 Kasım'da' is ungrammatical; corrected to '12 Kasım Perşembe günü'",
+    "'Toplofikazija Russe' spelling altered to 'Toplofikatsia Ruse'; restored to match the original",
+    "'+yüzde 28,6' unnatural; changed to '%28,6 artış'"
+   ],
+   "rev_dbg": [
+    4,
+    4,
+    0
+   ]
+  },
   "black-forest-games-third-signal": {
    "L": {
     "body": [
