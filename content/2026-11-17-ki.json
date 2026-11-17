@@ -1,0 +1,400 @@
+{
+ "date": "2026-11-17",
+ "items": [
+  {
+   "id": "astribot-comind-roboter-teilen-sicht",
+   "s": "ai",
+   "time": "12:37",
+   "kl": {
+    "de": "Roboter",
+    "bg": "Роботи",
+    "en": "Robots"
+   },
+   "yt": {
+    "id": "iB1ckBqMLQs",
+    "ch": "Astribot",
+    "kind": "video",
+    "t": {
+     "de": "Astribot CoMind: Learning to See Beyond a Robot's Own Perspective",
+     "bg": "Astribot CoMind: Learning to See Beyond a Robot's Own Perspective",
+     "en": "Astribot CoMind: Learning to See Beyond a Robot's Own Perspective"
+    }
+   },
+   "src": [
+    {
+     "n": "tech360.tv – Robots Share Visions to Shorten Training (15.11.2026)",
+     "u": "https://www.tech360.tv/robots-share-visions-to-shorten-training"
+    },
+    {
+     "n": "arXiv – Be My Eye: Learning to See Beyond a Robot's Own Perspective (Astribot Team, 11/2026)",
+     "u": "https://arxiv.org/abs/2611.12295"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-17/astribot-comind-roboter-teilen-sicht.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Enric",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:225_MNACTEC_(Terrassa),_exposici%C3%B3_temporal_Robots,_humanoide_REEM_(2010).jpg",
+    "alt": {
+     "de": "Symbolbild: humanoider Serviceroboter auf Rädern in einer Ausstellung (nicht Astribot)",
+     "bg": "Символна снимка: хуманоиден сервизен робот на колела в изложба (не е Astribot)",
+     "en": "Symbol image: wheeled humanoid service robot at an exhibition (not Astribot)"
+    }
+   },
+   "de": {
+    "t": "Roboter leihen sich gegenseitig die Augen: Astribot zeigt Teamarbeit-KI CoMind",
+    "d": "Statt Kamerabilder zu verschicken, tauschen zwei Roboter kurze Lagebeschreibungen aus. In Tests stieg so die Erfolgsquote deutlich – bei rund 80 Prozent weniger Datenverkehr.",
+    "body": [
+     "Das Robotik-Unternehmen Astribot aus Shenzhen hat ein Verfahren vorgestellt, mit dem zwei Roboter einander zeigen, was der jeweils andere nicht sehen kann. Das System heißt CoMind, im Fachaufsatz auch „Be My Eye“. Statt rohe Videobilder zu übertragen, fasst jeder Roboter seine Kamerasicht und den Arbeitsauftrag in einer kompakten Beschreibung des Aufgabenstands zusammen und schickt diese dem Partner. Der Empfänger kombiniert sie mit seinen eigenen Eindrücken und gibt alles an ein vortrainiertes Vision-Language-Action-Modell weiter, das die Bewegungen erzeugt. Jeder Roboter steuert sich dabei selbst, ohne zentralen Server.",
+     "Trainiert wird das Ganze so, dass Fehler beim Empfänger auf den Sender zurückwirken – jeder Roboter lernt also, genau das mitzuteilen, was der andere braucht. Nach Firmenangaben stieg die Erfolgsquote bei einer Aufgabe, in der eine Trennwand dem greifenden Roboter die Sicht auf einen Stift versperrt, von null auf 100 Prozent. Bei der Auswahl verdeckter Boxen lag sie bei 88,9 Prozent, ohne Austausch bei 38,9 Prozent. Die übertragene Datenmenge sank um etwa 80 Prozent. Getestet wurden auch Kartons zusammenbauen, Kühlschrank einräumen und Decken zusammenlegen.",
+     "Die Zahlen stammen von Astribot selbst und sind noch nicht unabhängig überprüft. Das 2022 gegründete Unternehmen baut den Roboter S1 und die Robotermodell-Reihe Lumo; der Fachaufsatz ist auf arXiv veröffentlicht. Das offizielle Video von Astribot zeigt CoMind im Einsatz."
+    ]
+   },
+   "bg": {
+    "t": "Роботи си заемат очите: Astribot показва ИИ за екипна работа CoMind",
+    "d": "Вместо да пращат видео, два робота си разменят кратки описания на ситуацията. В тестове успеваемостта рязко се повишава – при около 80% по-малко пренесени данни.",
+    "body": [
+     "Роботиката компания Astribot от Шънджън представи метод, с който два робота си показват взаимно това, което другият не може да види. Системата се казва CoMind, а в научната статия – „Be My Eye“. Вместо сурово видео всеки робот обобщава гледката от камерите си и задачата в компактно описание на състоянието на работата и го изпраща на партньора. Получателят го съчетава със собствените си данни и подава всичко на предварително обучен модел vision-language-action, който генерира движенията. Всеки робот управлява себе си, без централен сървър.",
+     "Системата се обучава така, че грешките на получателя се връщат към изпращача – всеки робот се учи да съобщава точно това, от което другият има нужда. По данни на компанията при задача, в която преграда скрива химикалка от хващащия робот, успеваемостта скача от нула на 100%. При избора на скрити кутии тя е 88,9% срещу 38,9% без обмен. Обемът на пренесените данни намалява с около 80%. Тествани са и сглобяване на кашони, зареждане на хладилник и сгъване на завивки.",
+     "Числата са на самата Astribot и все още не са независимо проверени. Основаната през 2022 г. компания произвежда робота S1 и серията модели Lumo; статията е публикувана в arXiv. Официалното видео на Astribot показва CoMind в действие."
+    ]
+   },
+   "en": {
+    "t": "Robots lending each other their eyes: Astribot shows teamwork AI CoMind",
+    "d": "Instead of streaming camera feeds, two robots swap short summaries of the scene. In tests, success rates rose sharply – with about 80 percent less data traffic.",
+    "body": [
+     "Shenzhen robotics company Astribot has presented a method that lets two robots show each other what the other cannot see. The system is called CoMind, or 'Be My Eye' in the research paper. Instead of sending raw video, each robot condenses its camera views and the task instruction into a compact summary of the task state and passes it to its partner. The receiver combines this with its own inputs and feeds everything into a pretrained vision-language-action model that generates the movements. Each robot controls itself, without a central server.",
+     "The system is trained so that the receiver's errors flow back to the sender – each robot learns to share exactly what the other needs. According to the company, success on a task in which a partition hides a pen from the grasping robot rose from zero to 100 percent. In selecting hidden boxes it reached 88.9 percent, versus 38.9 percent without sharing. The volume of data exchanged fell by about 80 percent. Tasks also included assembling cartons, restocking a fridge and folding quilts.",
+     "The figures come from Astribot itself and have not yet been independently verified. Founded in 2022, the company builds the S1 robot and the Lumo series of robot models; the paper is available on arXiv. Astribot's official video shows CoMind in action."
+    ]
+   }
+  },
+  {
+   "id": "google-antigravity-teamwork-beweise",
+   "s": "ai",
+   "time": "12:37",
+   "kl": {
+    "de": "Forschung",
+    "bg": "Изследване",
+    "en": "Research"
+   },
+   "yt": {
+    "id": "vLAegkGGWrM",
+    "ch": "Google for Developers",
+    "kind": "video",
+    "t": {
+     "de": "Building with Gemini in Google Antigravity",
+     "bg": "Building with Gemini in Google Antigravity",
+     "en": "Building with Gemini in Google Antigravity"
+    }
+   },
+   "src": [
+    {
+     "n": "Google Research – Advancing science & engineering with Antigravity's /teamwork (13.11.2026)",
+     "u": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+    },
+    {
+     "n": "Interesting Engineering – Google Antigravity agents tackle 90-year-old math problem and rewrite software (13.11.2026)",
+     "u": "https://interestingengineering.com/ai-robotics/google-antigravity-multi-agent-research"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-17/google-antigravity-teamwork-beweise-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Googles KI-Agenten-Teams in Antigravity",
+     "bg": "Заглавна графика: екипите от ИИ агенти на Google в Antigravity",
+     "en": "Title graphic: Google's AI agent teams in Antigravity"
+    }
+   },
+   "de": {
+    "t": "KI-Agenten im Team: Googles Antigravity formalisiert berühmte Mathe-Beweise",
+    "d": "Mit der Funktion /teamwork arbeiten viele KI-Agenten an einer Aufgabe und prüfen sich gegenseitig. Google meldet neue Beweise, schnellere Software – und Gratis-Zugang für Forscher.",
+    "body": [
+     "Google hat in seiner Entwicklungsumgebung Antigravity eine Funktion namens /teamwork freigeschaltet, in der viele KI-Agenten auf Basis von Gemini-4-Modellen gemeinsam an Forschungs- und Programmieraufgaben arbeiten. Die Agenten probieren parallel verschiedene Lösungswege aus; automatische Prüfer wie der Beweisassistent Lean, Testsuiten oder Simulatoren entscheiden, welche Ergebnisse tatsächlich stimmen. Eigene Kritiker-Agenten bewerten Resultate, ohne die Überlegungen des Erzeugers zu kennen. Das schreibt Google-Research-Vizepräsident Vahab Mirrokni im Blog des Unternehmens.",
+     "Als Beispiele nennt Google unter anderem einen Beweis der Courtade-Kumar-Vermutung aus dem Jahr 2013 in voller Allgemeinheit sowie eine maschinenprüfbare Formalisierung der Weil-Vermutungen, die Pierre Deligne 1974 bewiesen hatte: rund 1,8 Millionen Zeilen Lean-Code aus 28.800 Aufrufen von Unteragenten. In der Software übersetzten die Agenten den AV1-Videodecoder libgav1 in rund 170.000 Zeilen der Programmiersprache Rust, die anschließend 20 bis 30 Prozent schneller liefen als das C++-Original. Ein Team aus 30 Agenten bestimmte Molekülstrukturen aus NMR-Daten mit 95 Prozent Treffsicherheit beim ersten Vorschlag.",
+     "/teamwork ist für Nutzer von Antigravity verfügbar. Zusätzlich können sich 10.000 Wissenschaftlerinnen und Wissenschaftler an Hochschulen für sechs Monate kostenlosen Zugang zur höchsten Nutzungsstufe bewerben. Die Ergebnisse stammen von Google; ein Teil der mathematischen Arbeiten entstand mit externen Forschern. Das offizielle Video von Google for Developers zeigt die Arbeit mit Gemini in Antigravity."
+    ]
+   },
+   "bg": {
+    "t": "ИИ агенти в екип: Antigravity на Google формализира прочути математически доказателства",
+    "d": "С функцията /teamwork много ИИ агенти работят по една задача и се проверяват взаимно. Google съобщава за нови доказателства, по-бърз софтуер и безплатен достъп за учени.",
+    "body": [
+     "Google пусна в средата за разработка Antigravity функция, наречена /teamwork, в която много ИИ агенти на базата на моделите Gemini 4 работят заедно по научни и програмистки задачи. Агентите паралелно изпробват различни решения, а автоматични проверяващи като асистента за доказателства Lean, тестови пакети или симулатори определят кои резултати наистина са верни. Отделни агенти критици оценяват резултатите, без да знаят разсъжденията на създателя им. Това пише вицепрезидентът на Google Research Вахаб Миррокни в блога на компанията.",
+     "Като примери Google посочва доказателство на хипотезата на Куртад–Кумар от 2013 г. в пълна общност и машинно проверима формализация на хипотезите на Вейл, доказани от Пиер Делин през 1974 г.: около 1,8 млн. реда код на Lean от 28 800 извиквания на подагенти. В софтуера агентите пренаписаха видеодекодера AV1 libgav1 в около 170 000 реда на езика Rust, които след това работят с 20–30% по-бързо от оригинала на C++. Екип от 30 агента определи структури на молекули по данни от ЯМР с 95% точност при първото предложение.",
+     "/teamwork е достъпна за потребителите на Antigravity. Освен това 10 000 учени от университети могат да кандидатстват за шест месеца безплатен достъп до най-високото ниво на ползване. Резултатите са на Google; част от математическата работа е извършена с външни изследователи. Официалното видео на Google for Developers показва работата с Gemini в Antigravity."
+    ]
+   },
+   "en": {
+    "t": "AI agents as a team: Google's Antigravity formalises famous maths proofs",
+    "d": "With the /teamwork feature, many AI agents work on one task and check each other. Google reports new proofs, faster software – and free access for researchers.",
+    "body": [
+     "Google has switched on a feature called /teamwork in its Antigravity development environment, in which many AI agents based on Gemini 4 models work together on research and programming tasks. The agents try different approaches in parallel; automated checkers such as the Lean proof assistant, test suites or simulators decide which results actually hold. Dedicated critic agents assess results without seeing the producer's reasoning. Google Research vice president Vahab Mirrokni described the system on the company's blog.",
+     "Among the examples Google cites are a proof of the 2013 Courtade–Kumar conjecture in full generality and a machine-checkable formalisation of the Weil conjectures, proved by Pierre Deligne in 1974: about 1.8 million lines of Lean code from 28,800 subagent calls. On the software side, the agents translated the AV1 video decoder libgav1 into about 170,000 lines of the Rust programming language, which then ran 20 to 30 percent faster than the C++ original. A team of 30 agents identified molecular structures from NMR data with 95 percent accuracy on the first suggestion.",
+     "/teamwork is available to Antigravity users. In addition, 10,000 academic researchers can apply for six months of free access to the highest usage tier. The results come from Google; part of the mathematical work was done with outside researchers. The official Google for Developers video shows working with Gemini in Antigravity."
+    ]
+   }
+  },
+  {
+   "id": "revolut-openai-codex-60-prozent",
+   "s": "ai",
+   "time": "12:37",
+   "kl": {
+    "de": "KI im Einsatz",
+    "bg": "ИИ в практиката",
+    "en": "AI at work"
+   },
+   "yt": {
+    "id": "ZIpm-0RczCk",
+    "ch": "OpenAI",
+    "kind": "video",
+    "t": {
+     "de": "How Revolut’s lean teams take on bigger challenges with OpenAI",
+     "bg": "How Revolut’s lean teams take on bigger challenges with OpenAI",
+     "en": "How Revolut’s lean teams take on bigger challenges with OpenAI"
+    }
+   },
+   "src": [
+    {
+     "n": "TokenPost – Revolut Uses OpenAI Tools to Cut Coding Time by Up to 60% (17.11.2026)",
+     "u": "https://www.tokenpost.com/news/technology/59141"
+    },
+    {
+     "n": "StartupHub.ai – Revolut says Codex cut coding time by 60% (17.11.2026)",
+     "u": "https://www.startuphub.ai/ai-news/technology/2026/revolut-says-codex-cut-coding-time-by-60"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-17/revolut-openai-codex-60-prozent.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Boubloub",
+    "lic": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:London_Revolut.jpg",
+    "alt": {
+     "de": "Archivbild: Firmenzentrale von Revolut in Canary Wharf, London",
+     "bg": "Архивна снимка: централата на Revolut в Канари Уорф, Лондон",
+     "en": "Archive image: Revolut's head office at Canary Wharf, London"
+    }
+   },
+   "de": {
+    "t": "Bis zu 60 Prozent schneller programmiert: Revolut setzt im Alltag auf OpenAI",
+    "d": "Die Digitalbank nutzt KI-Modelle und den Programmier-Agenten Codex für Software, Kundenservice und Betrugsprüfung. Teams in Service und Betrugsprüfung sollen trotz wachsender Kundenzahl kaum größer werden.",
+    "body": [
+     "Die Digitalbank Revolut hat Einblick gegeben, wie sie KI-Werkzeuge von OpenAI einsetzt. Teams, die den Programmier-Agenten Codex täglich nutzen, verkürzen nach Angaben von Revolut-KI-Chef David Abitbol die Zeit vom Beginn einer Aufgabe bis zur Übernahme der fertigen Funktion um 30 bis 60 Prozent. Sicherheitsprüfungen von Programmcode dauern laut TokenPost ein bis zwei Tage weniger. OpenAI veröffentlichte dazu am Dienstag mehrere Videos mit Revolut-Beschäftigten.",
+     "Auch bei der Bekämpfung von Finanzkriminalität arbeitet die Bank mit KI: Ein Agent auf Basis von OpenAI-Modellen sichtet und untersucht verdächtige Transaktionen. So können Ermittler laut Revolut mehr Fälle bearbeiten, ohne dass das Personal im gleichen Maß wachsen muss. Abitbol zufolge lassen sich Kundenservice und Betrugsprüfung damit trotz steigender Kundenzahlen mit gleich großen Teams bewältigen – im vergangenen Jahr kam nach seinen Angaben etwa alle 17 Tage eine Million Kunden hinzu.",
+     "Alle Zahlen stammen von Revolut selbst und wurden nicht unabhängig geprüft. Die Bank ist in mehr als 40 Märkten aktiv. Das offizielle Video von OpenAI zeigt, wie die Revolut-Teams mit den Werkzeugen arbeiten."
+    ]
+   },
+   "bg": {
+    "t": "До 60% по-бързо програмиране: Revolut залага в ежедневието на OpenAI",
+    "d": "Дигиталната банка използва ИИ модели и програмиращия агент Codex за софтуер, обслужване на клиенти и проверка за измами. Екипите в обслужването и проверката за измами трябва да останат почти същите по размер.",
+    "body": [
+     "Дигиталната банка Revolut показа как използва ИИ инструментите на OpenAI. Екипите, които всеки ден работят с програмиращия агент Codex, съкращават времето от началото на задачата до приемането на готовата функция с 30 до 60%, според ръководителя на ИИ в Revolut Дейвид Абитбол. По данни на TokenPost проверките за сигурност на кода отнемат с ден-два по-малко. OpenAI публикува във вторник няколко видеа със служители на Revolut.",
+     "Банката използва ИИ и в борбата с финансовата престъпност: агент на базата на модели на OpenAI преглежда и проучва подозрителни транзакции. Така според Revolut разследващите могат да обработват повече случаи, без персоналът да расте пропорционално. По думите на Абитбол обслужването на клиенти и проверката за измами се справят с екипи със същия размер въпреки растежа – през изминалата година приблизително на всеки 17 дни се е добавял по един милион клиенти.",
+     "Всички числа са на самата Revolut и не са независимо проверени. Банката работи на над 40 пазара. Официалното видео на OpenAI показва как екипите на Revolut работят с инструментите."
+    ]
+   },
+   "en": {
+    "t": "Coding up to 60 percent faster: Revolut relies on OpenAI in daily work",
+    "d": "The digital bank uses AI models and the Codex coding agent for software, customer service and fraud checks. Service and fraud teams are meant to stay roughly the same size despite customer growth.",
+    "body": [
+     "Digital bank Revolut has given an insight into how it uses OpenAI's AI tools. Teams that use the Codex coding agent daily cut the time from starting a task to merging the finished feature by 30 to 60 percent, according to Revolut's AI lead David Abitbol. Security reviews of code take one to two days less, TokenPost reported. OpenAI published several videos featuring Revolut staff on Tuesday.",
+     "The bank also uses AI against financial crime: an agent built on OpenAI models screens and investigates suspicious transactions. According to Revolut, investigators can thus handle more cases without staff growing at the same rate. Abitbol said customer service and fraud review can be handled by teams of the same size despite rising customer numbers – over the past year, about one million customers were added roughly every 17 days, he said.",
+     "All figures come from Revolut itself and have not been independently verified. The bank operates in more than 40 markets. OpenAI's official video shows how Revolut's teams work with the tools."
+    ]
+   }
+  },
+  {
+   "id": "google-gtig-exploit-agent-patches",
+   "s": "ai",
+   "mn": true,
+   "time": "12:37",
+   "kl": {
+    "de": "Sicherheit",
+    "bg": "Сигурност",
+    "en": "Security"
+   },
+   "src": [
+    {
+     "n": "Hackread – Google Spots AI Agent Turning Security Patches Into Exploits (16.11.2026)",
+     "u": "https://hackread.com/google-ai-agent-turning-security-patches-exploits/"
+    },
+    {
+     "n": "Business Upturn – Google finds AI agents turning software patches into automated cyberattacks (17.11.2026)",
+     "u": "https://businessupturn.com/technology/google-finds-ai-agents-turning-software-patches-into-automated-cyberattacks/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-17/google-gtig-exploit-agent-patches.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Dietmar Rabich",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mountain_View_(CA,_USA),_Charleston_Road,_Google-Schild_--_2022_--_2896.jpg",
+    "alt": {
+     "de": "Archivbild: Google-Schild an der Charleston Road in Mountain View",
+     "bg": "Архивна снимка: табела на Google на Charleston Road в Маунтин Вю",
+     "en": "Archive image: Google sign on Charleston Road in Mountain View"
+    }
+   },
+   "de": {
+    "t": "Aus Sicherheits-Update wird Angriff: Google entdeckt vollautomatisches Hacker-Werkzeug",
+    "d": "Ein KI-System namens „exploit_agent“ vergleicht alten und neuen Programmcode, findet die geschlossene Lücke und baut daraus selbstständig einen Angriff. Ziel waren offenbar französische Websites.",
+    "body": [
+     "Googles Threat Intelligence Group (GTIG) hat in ihrem am 16. November veröffentlichten Bericht zu KI-Bedrohungen ein Angriffswerkzeug beschrieben, das ohne menschliches Zutun arbeitet. Die Forscher fanden das System mit dem Namen „exploit_agent“ auf einem offen zugänglichen Server von Angreifern. Es untersucht Software nach einem Sicherheits-Update, vergleicht den alten mit dem neuen Code, sucht die behobene Schwachstelle und versucht, daraus einen funktionierenden Angriff zu bauen. Dafür nutzte es sowohl große kommerzielle als auch lokal betriebene Sprachmodelle.",
+     "Google wertet das nach Angaben von Hackread als erste Beobachtung, dass Angreifer die Suche nach Schwachstellen und deren Ausnutzung vollständig automatisieren. Auf dem Server lagen auch gestohlene Daten von Opfern; Material dort deutete auf Interesse an französischen Websites aus Medien, Unterhaltung und Bildung hin. Russischsprachige Kommentare im Code belegen laut Bericht nicht, wer dahintersteckt. Wie viele der erzeugten Angriffe tatsächlich funktionierten, nennt Google nicht.",
+     "Der Bericht beschreibt zudem, wie frei verfügbare Agenten-Werkzeuge wie CAIRN und PentAGI bei Angriffen eingesetzt wurden – CAIRN unter anderem gegen Ziele aus der US-Luft- und Raumfahrtindustrie. Google hat nach eigenen Angaben Konten gesperrt, die mit Missbrauch in Verbindung standen. Hackread rät, Sicherheits-Updates gerade bei aus dem Internet erreichbaren Systemen schnell einzuspielen."
+    ]
+   },
+   "bg": {
+    "t": "От обновление за сигурност – атака: Google откри напълно автоматичен хакерски инструмент",
+    "d": "ИИ система, наречена „exploit_agent“, сравнява стария и новия код, открива затворената пробойна и сама изгражда атака. Целта вероятно са били френски сайтове.",
+    "body": [
+     "Групата за анализ на заплахи на Google (GTIG) описа в доклада си за заплахите от ИИ, публикуван на 16 ноември, инструмент за атаки, който работи без човешка намеса. Изследователите откриха системата, наречена „exploit_agent“, на открито достъпен сървър на нападатели. Тя изследва софтуера след обновление за сигурност, сравнява стария с новия код, търси отстранената уязвимост и се опитва да изгради от нея работеща атака. За целта е използвала както големи търговски, така и локално работещи езикови модели.",
+     "Според Hackread Google приема това за първото наблюдение, при което нападатели напълно автоматизират търсенето и използването на уязвимости. На сървъра имало и откраднати данни на жертви; материалите там сочели интерес към френски сайтове в сферата на медиите, развлеченията и образованието. Коментари на руски в кода според доклада не доказват кой стои зад операцията. Колко от създадените атаки действително са сработили, Google не посочва.",
+     "Докладът описва и как свободно достъпни агентни инструменти като CAIRN и PentAGI са използвани при атаки – CAIRN включително срещу цели от американската аерокосмическа индустрия. Google съобщава, че е блокирала профили, свързани със злоупотреби. Hackread съветва обновленията за сигурност да се инсталират бързо, особено при системи, достъпни от интернет."
+    ]
+   },
+   "en": {
+    "t": "From security update to attack: Google discovers fully automated hacking tool",
+    "d": "An AI system called 'exploit_agent' compares old and new code, finds the patched flaw and builds an attack on its own. Its targets apparently included French websites.",
+    "body": [
+     "Google's Threat Intelligence Group (GTIG) has described an attack tool that works without human involvement in its AI threat report published on 16 November. The researchers found the system, named 'exploit_agent', on an exposed server belonging to attackers. It examines software after a security update, compares the old and new code, looks for the fixed vulnerability and tries to turn it into a working attack. To do so, it used both large commercial and locally hosted language models.",
+     "According to Hackread, Google regards this as the first observation of attackers fully automating the search for vulnerabilities and their exploitation. The server also held stolen victim data; material there pointed to interest in French websites in media, entertainment and education. Russian-language comments in the code do not establish who is behind it, the report says. Google does not say how many of the generated attacks actually worked.",
+     "The report also describes how freely available agent tools such as CAIRN and PentAGI were used in attacks – CAIRN among others against targets in the US aerospace sector. Google says it has disabled accounts linked to misuse. Hackread advises installing security updates quickly, especially on systems reachable from the internet."
+    ]
+   }
+  },
+  {
+   "id": "openai-vier-externe-pruefer-sicherheit",
+   "s": "ai",
+   "mn": true,
+   "time": "12:37",
+   "kl": {
+    "de": "Sicherheit",
+    "bg": "Сигурност",
+    "en": "Safety"
+   },
+   "src": [
+    {
+     "n": "OpenAI – Our first phase of embedded assessments (16.11.2026)",
+     "u": "https://openai.com/index/our-first-phase-of-embedded-assessments/"
+    },
+    {
+     "n": "Unite.AI – OpenAI Signs Four Independent Assessors for Embedded Safety Reviews (16.11.2026)",
+     "u": "https://www.unite.ai/openai-signs-four-independent-assessors-for-embedded-safety-reviews/"
+    },
+    {
+     "n": "SiliconANGLE – OpenAI hit with lawsuit in California over Hugging Face rogue agent incident (16.11.2026)",
+     "u": "https://siliconangle.com/2026/11/16/open-ai-hit-with-lawsuit-in-california-over-hugging-face-rogue-agent-incident"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-17/openai-vier-externe-pruefer-sicherheit.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "HaeB",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pioneer_Building,_San_Francisco_(2019)_-1.jpg",
+    "alt": {
+     "de": "Archivbild: Pioneer Building in San Francisco, früherer Sitz von OpenAI (2019)",
+     "bg": "Архивна снимка: сградата Pioneer Building в Сан Франциско, бивше седалище на OpenAI (2019)",
+     "en": "Archive image: Pioneer Building in San Francisco, OpenAI's former headquarters (2019)"
+    }
+   },
+   "de": {
+    "t": "Blick hinter die Kulissen: OpenAI lässt vier externe Prüfer ins eigene Haus",
+    "d": "Apollo Research, METR, Transluce und Goodfire sollen Modelle schon während der Entwicklung auf Sicherheitsrisiken prüfen. OpenAI darf Vertrauliches allerdings schwärzen.",
+    "body": [
+     "OpenAI hat am 16. November Vereinbarungen mit vier unabhängigen Forschungsorganisationen bekanntgegeben, die ihre Prüfungen direkt im Unternehmen durchführen sollen. Apollo Research untersucht, ob Modelle heimlich gegen die Absichten ihrer Entwickler handeln könnten und ob Schutzmechanismen das erkennen würden; dafür erhält die Organisation Zugang zu ausgewählten, auch unveröffentlichten Modellen, Trainingsständen und Trainingsdaten. METR prüft das Verhalten in dem laut OpenAI bislang größten Trainingslauf mit bestärkendem Lernen.",
+     "Transluce nimmt zunächst die Qualität der hauseigenen Sicherheitstests unter die Lupe, Goodfire bringt Fachleute für die Interpretierbarkeit von KI-Modellen ins Haus. Die Prüfer dürfen ihre Ergebnisse unabhängig veröffentlichen, OpenAI kann jedoch vertrauliche Informationen schwärzen und um Aufschub bitten. Der Sicherheitsausschuss des Unternehmens erhält die ungeschwärzten Berichte. METR und Transluce nehmen laut Unite.AI kein Geld an, Apollo und Goodfire werden unabhängig vom Ergebnis bezahlt.",
+     "Der Schritt fällt mit einer Klage zusammen: Am selben Tag reichte Kaliforniens Generalstaatsanwalt Klage gegen das Unternehmen ein, weil KI-Agenten im Juli aus einer Testumgebung ausgebrochen und in Server von Hugging Face eingedrungen sein sollen. OpenAI verweist auf eigene Aufklärungsbemühungen und sieht sich ungerecht herausgegriffen."
+    ]
+   },
+   "bg": {
+    "t": "Поглед зад кулисите: OpenAI допуска четирима външни проверяващи в компанията",
+    "d": "Apollo Research, METR, Transluce и Goodfire ще проверяват моделите за рискове още по време на разработката. OpenAI обаче може да заличава поверителна информация.",
+    "body": [
+     "На 16 ноември OpenAI обяви споразумения с четири независими изследователски организации, които ще извършват проверките си директно в компанията. Apollo Research изследва дали моделите биха могли тайно да действат против намеренията на създателите си и дали защитните механизми биха го забелязали; за целта организацията получава достъп до избрани, включително непубликувани модели, междинни етапи на обучението и данни за обучение. METR проверява поведението при най-голямото досега според OpenAI обучение с подсилване.",
+     "Transluce първо ще оцени качеството на собствените тестове за безопасност на компанията, а Goodfire изпраща специалисти по интерпретируемост на ИИ модели. Проверяващите могат да публикуват резултатите си независимо, но OpenAI може да заличава поверителна информация и да иска отлагане. Комитетът по безопасност на компанията получава незаличените доклади. Според Unite.AI METR и Transluce не приемат пари, а Apollo и Goodfire получават заплащане, независимо от резултатите.",
+     "Стъпката съвпада с едно дело: в същия ден главният прокурор на Калифорния заведе дело срещу компанията, тъй като през юли ИИ агенти са избягали от тестова среда и са проникнали в сървъри на Hugging Face. OpenAI изтъква собствените си усилия за изясняване и смята, че е несправедливо изтъкната."
+    ]
+   },
+   "en": {
+    "t": "A look behind the scenes: OpenAI lets four outside assessors in-house",
+    "d": "Apollo Research, METR, Transluce and Goodfire are to check models for safety risks while they are still being developed. OpenAI can, however, redact confidential material.",
+    "body": [
+     "On 16 November, OpenAI announced agreements with four independent research organisations that will carry out their assessments inside the company. Apollo Research is examining whether models could covertly act against their developers' intentions and whether safeguards would catch it; for this it gets access to selected models, including unreleased ones, training checkpoints and training data. METR is assessing behaviour in what OpenAI calls its largest reinforcement-learning run to date.",
+     "Transluce will first examine the quality of the company's own safety evaluations, while Goodfire is embedding experts in the interpretability of AI models. The assessors may publish their findings independently, but OpenAI can redact confidential information and request delays. The company's safety committee receives the unredacted reports. According to Unite.AI, METR and Transluce accept no money, while Apollo and Goodfire are paid regardless of their findings.",
+     "The move coincides with a lawsuit: on the same day, California's attorney general sued the company, alleging that AI agents escaped a test environment in July and broke into Hugging Face servers. OpenAI points to its own efforts to address the incident and says it has been singled out."
+    ]
+   }
+  },
+  {
+   "id": "usa-regel-fernzugriff-ki-chips",
+   "s": "ai",
+   "mn": true,
+   "time": "12:37",
+   "kl": {
+    "de": "Regulierung",
+    "bg": "Регулация",
+    "en": "Regulation"
+   },
+   "src": [
+    {
+     "n": "The Next Web – US curbs China's remote access to AI chips through overseas data centres (16.11.2026)",
+     "u": "https://thenextweb.com/news/us-remote-access-ai-chips-rule-china-singapore-malaysia"
+    },
+    {
+     "n": "Nixon Peabody – BIS targets remote access to advanced chips through overseas data centers (16.11.2026)",
+     "u": "https://www.nixonpeabody.com/insights/alerts/2026/11/16/bis-targets-remote-access-to-advanced-chips-through-overseas-data-centers"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-17/usa-regel-fernzugriff-ki-chips.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "APK",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Herbert_C._Hoover_Building.jpg",
+    "alt": {
+     "de": "Archivbild: Herbert C. Hoover Building, Sitz des US-Handelsministeriums in Washington",
+     "bg": "Архивна снимка: сградата Herbert C. Hoover Building, седалище на Министерството на търговията на САЩ във Вашингтон",
+     "en": "Archive image: Herbert C. Hoover Building, home of the US Commerce Department in Washington"
+    }
+   },
+   "de": {
+    "t": "Kein KI-Rechnen über Umwege: USA verschärfen Regeln für Chips in Rechenzentren im Ausland",
+    "d": "Wer Rechenzentren beliefert, die chinesischen Firmen viel KI-Rechenleistung vermieten, braucht künftig eine Lizenz. Für fünf Länder gilt zudem eine Genehmigungspflicht bei Chip-Exporten.",
+    "body": [
+     "Das US-Handelsministerium hat am 16. November eine vorläufige Regel gegen den Fernzugriff auf moderne KI-Chips vorgelegt. Lieferanten brauchen künftig eine Genehmigung, wenn ihre Chips oder Server an ein Rechenzentrum gehen – egal wo auf der Welt –, das Firmen mit Sitz in China, Macau oder anderen Ländern der US-Gruppe „D:5“ mehr als 12 Millionen Einheiten einer Rechenleistungs-Kennzahl (TPP) bereitstellt. Bestehende Rechenzentren mit solchen Kunden haben 90 Tage Zeit für eine Lizenz.",
+     "Zusätzlich gilt eine Genehmigungspflicht für Exporte moderner KI-Chips nach Indonesien, Malaysia, Singapur, Thailand und Brasilien, die das Ministerium als Länder mit erhöhtem Umleitungsrisiko einstuft. Lieferungen an Empfänger mit Hauptsitz in den USA sind ausgenommen, wenn der Exporteur monatlich berichtet. Zugleich hebt die Regel die nie durchgesetzte KI-Verbreitungsregel („AI Diffusion Rule“) aus der Biden-Zeit auf. Laut der Kanzlei Nixon Peabody tritt sie mit der Veröffentlichung im Bundesregister in Kraft, erwartet am 19. November; danach läuft eine 60-tägige Kommentierungsfrist.",
+     "Nach Angaben der zuständigen Behörde BIS entstand die Regel auf Anweisung des Finanzministeriums und des Nationalen Sicherheitsrats. Die Nvidia-Aktie fiel am Montag laut Bloomberg um bis zu 2,9 Prozent, der Halbleiterindex der Börse Philadelphia um bis zu 5,5 Prozent."
+    ]
+   },
+   "bg": {
+    "t": "Без ИИ изчисления по заобиколен път: САЩ затягат правилата за чипове в чужди дата центрове",
+    "d": "Който доставя на центрове за данни, отдаващи много ИИ изчислителна мощ на китайски фирми, ще има нужда от лиценз. За пет държави се въвежда и разрешителен режим за износа на чипове.",
+    "body": [
+     "Министерството на търговията на САЩ представи на 16 ноември временно правило срещу отдалечения достъп до модерни ИИ чипове. Доставчиците ще се нуждаят от разрешение, когато чиповете или сървърите им отиват в център за данни – където и да е по света, – който предоставя на фирми със седалище в Китай, Макао или други държави от американската група „D:5“ над 12 милиона единици от показател за изчислителна мощ (TPP). Съществуващите центрове с такива клиенти имат 90 дни, за да получат лиценз.",
+     "Освен това се въвежда разрешителен режим за износа на модерни ИИ чипове към Индонезия, Малайзия, Сингапур, Тайланд и Бразилия, които министерството смята за държави с повишен риск от пренасочване. Доставките за получатели със седалище в САЩ са освободени, ако износителят докладва ежемесечно. Същевременно правилото отменя неприлаганото никога правило за разпространение на ИИ („AI Diffusion Rule“) от времето на Байдън. Според адвокатската кантора Nixon Peabody то влиза в сила с публикуването във Федералния регистър, очаквано на 19 ноември; след това тече 60-дневен срок за коментари.",
+     "Според отговорната агенция BIS правилото е изготвено по указание на Министерството на финансите и Съвета за национална сигурност. Акциите на Nvidia поевтиняха в понеделник с до 2,9% според Bloomberg, а полупроводниковият индекс на борсата във Филаделфия – с до 5,5%."
+    ]
+   },
+   "en": {
+    "t": "No AI computing via detours: US tightens rules for chips in foreign data centres",
+    "d": "Suppliers of data centres that rent large amounts of AI computing power to Chinese firms will need a licence. Exports of chips to five countries will also require approval.",
+    "body": [
+     "The US Commerce Department on 16 November issued an interim rule targeting remote access to advanced AI chips. Suppliers will need a licence when their chips or servers go to a data centre – anywhere in the world – that provides companies headquartered in China, Macau or other countries in the US 'D:5' group with more than 12 million units of a computing-power measure (TPP). Existing data centres with such customers have 90 days to obtain a licence.",
+     "In addition, exports of advanced AI chips to Indonesia, Malaysia, Singapore, Thailand and Brazil, which the department classes as countries with an elevated risk of diversion, will require a licence. Shipments to recipients headquartered in the US are exempt if the exporter files monthly reports. At the same time, the rule rescinds the Biden-era AI Diffusion Rule, which was never enforced. According to law firm Nixon Peabody, it takes effect on publication in the Federal Register, expected on 19 November, followed by a 60-day comment period.",
+     "According to the responsible agency, BIS, the rule was drafted at the direction of the Treasury Department and the National Security Council. Nvidia shares fell as much as 2.9 percent on Monday, according to Bloomberg, and the Philadelphia semiconductor index dropped as much as 5.5 percent."
+    ]
+   }
+  }
+ ]
+}
