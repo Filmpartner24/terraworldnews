@@ -11,7 +11,7 @@
   "de": "Ultimate Fighting Championship",
   "en": "Ultimate Fighting Championship"
  },
- "asof": "2026-11-16",
+ "asof": "2026-11-17",
  "champions": [
   {
    "div": {
@@ -219,6 +219,39 @@
    "note": "T-Mobile Arena; kein Titelkampf"
   },
   {
+   "date": "2027-01-16",
+   "place": "American Airlines Center, Dallas, USA",
+   "f1": "Yair Rodríguez",
+   "f2": "Steve Garcia",
+   "div": {
+    "bg": "Перо",
+    "de": "Federgewicht",
+    "en": "Featherweight"
+   },
+   "title": {
+    "bg": "UFC Fight Night (Далас) – главен мач",
+    "de": "UFC Fight Night (Dallas) – Hauptkampf",
+    "en": "UFC Fight Night (Dallas) – main event"
+   },
+   "note": "von UFC 335 verlegt"
+  },
+  {
+   "date": "2027-01-23",
+   "place": "Meta Apex, Las Vegas, USA",
+   "f1": "Sean Brady",
+   "f2": "Gabriel Bonfim",
+   "div": {
+    "bg": "Полусредна категория",
+    "de": "Weltergewicht",
+    "en": "Welterweight"
+   },
+   "title": {
+    "bg": "UFC Fight Night (Лас Вегас) – главен мач",
+    "de": "UFC Fight Night (Las Vegas) – Hauptkampf",
+    "en": "UFC Fight Night (Las Vegas) – main event"
+   }
+  },
+  {
    "date": "2027-01-30",
    "place": "Scotiabank Arena, Toronto, Kanada",
    "f1": "Joshua Van",
@@ -265,7 +298,8 @@
     "bg": "UFC Fight Night (Сидни) – главен мач",
     "de": "UFC Fight Night (Sydney) – Hauptkampf",
     "en": "UFC Fight Night (Sydney) – main event"
-   }
+   },
+   "note": "MMA Junkie/NY Fights nennen die Qudos Bank Arena"
   },
   {
    "date": "2027-02-06",
@@ -282,7 +316,23 @@
     "de": "UFC Fight Night (Sydney) – Co-Hauptkampf",
     "en": "UFC Fight Night (Sydney) – co-main event"
    },
-   "note": "Ortszeit 7. Februar 2027"
+   "note": "Ortszeit 7. Februar 2027; MMA Junkie/NY Fights nennen die Qudos Bank Arena"
+  },
+  {
+   "date": "2027-02-13",
+   "place": "Rocket Arena, Cleveland, USA",
+   "f1": "Bo Nickal",
+   "f2": "Joe Pyfer",
+   "div": {
+    "bg": "Средна категория",
+    "de": "Mittelgewicht",
+    "en": "Middleweight"
+   },
+   "title": {
+    "bg": "UFC Fight Night (Кливланд) – главен мач (5 рунда)",
+    "de": "UFC Fight Night (Cleveland) – Hauptkampf (5 Runden)",
+    "en": "UFC Fight Night (Cleveland) – main event (5 rounds)"
+   }
   }
  ],
  "results": [
@@ -708,6 +758,14 @@
   {
    "n": "CBS Sports – UFC 334 weigh-in results (13.11.2026)",
    "u": "https://www.cbssports.com/ufc/news/ufc-334-weigh-in-results-ciryl-gane-josh-hokit-kayla-harrison-amanda-nunes/"
+  },
+  {
+   "n": "MMA Junkie via Yahoo Sports – UFC early 2027 schedule revealed (15.11.2026)",
+   "u": "https://sports.yahoo.com/articles/ufc-early-2027-schedule-revealed-013038371.html"
+  },
+  {
+   "n": "UFC.com – Fight By Fight Preview: UFC Fight Night Procházka vs Stirling (16.11.2026)",
+   "u": "https://www.ufc.com/news/fight-by-fight-preview-ufc-fight-night-prochazka-vs-stirling-qatar"
   }
  ]
 }
