@@ -299,7 +299,10 @@
      "time": "20:45",
      "t1": "Deutschland",
      "t2": "Niederlande",
-     "ft": null,
+     "ft": [
+      5,
+      0
+     ],
      "city": "Berlin"
     },
     {
@@ -308,7 +311,10 @@
      "time": "20:45",
      "t1": "Griechenland",
      "t2": "Serbien",
-     "ft": null,
+     "ft": [
+      1,
+      0
+     ],
      "city": "Volos"
     }
    ]
@@ -734,7 +740,10 @@
      "time": "20:45",
      "t1": "Schweiz",
      "t2": "Schottland",
-     "ft": null,
+     "ft": [
+      4,
+      0
+     ],
      "city": "St. Gallen"
     },
     {
@@ -743,7 +752,10 @@
      "time": "20:45",
      "t1": "Nordmazedonien",
      "t2": "Slowenien",
-     "ft": null,
+     "ft": [
+      0,
+      3
+     ],
      "city": "Skopje"
     }
    ]
@@ -1251,8 +1263,11 @@
    "ha": "h",
    "comp": "nl",
    "venue": "Berlin, Olympiastadion",
-   "ft": null,
-   "u": "https://www.dfb.de/maenner/nationalmannschaften/nationalmannschaft/spiele-und-termine"
+   "ft": [
+    5,
+    0
+   ],
+   "u": "https://www.sportschau.de/fussball/nationalmannschaft/50-deutschland-gegen-niederlande-wie-im-rausch,deutschland-niederlande-spielbericht-102.html"
   }
  ]
 }
