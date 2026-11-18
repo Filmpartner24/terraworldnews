@@ -1,0 +1,379 @@
+{
+ "date": "2026-11-18",
+ "items": [
+  {
+   "id": "microsoft-mai-code-2-ignite",
+   "s": "ai",
+   "time": "12:38",
+   "kl": {
+    "de": "Neues Modell",
+    "bg": "Нов модел",
+    "en": "New model"
+   },
+   "yt": {
+    "id": "Nv8-Km25Qj4",
+    "ch": "Microsoft",
+    "kind": "video",
+    "t": {
+     "de": "Satya Nadella Microsoft Ignite 2026 Keynote Open",
+     "bg": "Satya Nadella Microsoft Ignite 2026 Keynote Open",
+     "en": "Satya Nadella Microsoft Ignite 2026 Keynote Open"
+    }
+   },
+   "src": [
+    {
+     "n": "Microsoft AI – Seven new world class models at scalable price-performance (17.11.2026)",
+     "u": "https://microsoft.ai/news/microsoft-ignite-2026/"
+    },
+    {
+     "n": "Official Microsoft Blog – Ignite 2026: Building the frontier ecosystem (17.11.2026)",
+     "u": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-18/microsoft-mai-code-2-ignite.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Christopher Wilson",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mustafa_Suleyman_photo.jpg",
+    "alt": {
+     "de": "Archivbild: Mustafa Suleyman, Chef der Sparte Microsoft AI",
+     "bg": "Архивна снимка: Мустафа Сюлейман, ръководител на звеното Microsoft AI",
+     "en": "Archive image: Mustafa Suleyman, head of Microsoft AI"
+    }
+   },
+   "de": {
+    "t": "Programmier-KI zum Bruchteil des Preises: Microsoft stellt MAI Code 2 vor",
+    "d": "Auf der Ignite präsentiert Microsoft sieben eigene KI-Modelle. MAI Code 2 soll fast an die Spitzenmodelle von OpenAI und Anthropic heranreichen – für einen Bruchteil der Kosten.",
+    "body": [
+     "Microsoft hat auf seiner Entwicklerkonferenz Ignite in San Francisco sieben neue Modelle aus der eigenen Sparte Microsoft AI (MAI) vorgestellt. Im Mittelpunkt steht MAI Code 2, ein Modell für das selbstständige Programmieren. Nach Microsofts Angaben erreicht es im Schnitt 98 Prozent der Leistung von OpenAIs GPT-6.1 Sol zu etwa 40 Prozent des Preises – und 96 Prozent der Leistung von Anthropics Claude Opus 5.5 zu 5 Prozent des Preises. Gemessen wurde mit vier Programmier-Tests, darunter Terminal Bench 2.1. MAI Code 2 ist in GitHub Copilot verfügbar; die kleinere Variante Code 2 Flash zusätzlich als eingeschränkte Vorschau in Microsoft Foundry.",
+     "Dazu kommen unter anderem das Sicherheitsmodell MAI Cyber 2 Flash, die Bildmodelle MAI Image 2.7 und 2.7 Flash, das Sprachmodell MAI Realtime 1, das Transkriptionsmodell Dragon Copilot Transcribe sowie Decision 1.1, ein Modell, das Anfragen an das jeweils passende KI-Modell weiterleitet. Mit „MAI Licensed Weights“ sollen ausgewählte Firmenkunden die Modelle zudem in ihrer eigenen Azure-Umgebung mit eigenen Daten anpassen können. Microsoft räumt ein, dass MAI Code 2 noch nicht für Grundlagenforschung oder sehr lange Agenten-Aufgaben abgestimmt ist.",
+     "Alle Leistungs- und Preisvergleiche stammen von Microsoft selbst und sind nicht unabhängig geprüft. Das offizielle Microsoft-Video zeigt den Auftakt der Ignite-Keynote."
+    ]
+   },
+   "bg": {
+    "t": "ИИ за програмиране на част от цената: Microsoft представи MAI Code 2",
+    "d": "На Ignite Microsoft показа седем собствени ИИ модела. MAI Code 2 почти достига водещите модели на OpenAI и Anthropic – срещу малка част от цената им.",
+    "body": [
+     "На своята конференция Ignite в Сан Франциско Microsoft представи седем нови модела от звеното Microsoft AI (MAI). В центъра е MAI Code 2 – модел за самостоятелно програмиране. По данни на Microsoft той достига средно 98% от представянето на GPT-6.1 Sol на OpenAI при около 40% от цената, и 96% от представянето на Claude Opus 5.5 на Anthropic при 5% от цената. Измерванията са с четири теста за програмиране, сред които Terminal Bench 2.1. MAI Code 2 е достъпен в GitHub Copilot, а по-малкият вариант Code 2 Flash – и като ограничен предварителен достъп в Microsoft Foundry.",
+     "Освен това идват, наред с други, моделът за киберсигурност MAI Cyber 2 Flash, моделите за изображения MAI Image 2.7 и 2.7 Flash, гласовият модел MAI Realtime 1, моделът за транскрипция Dragon Copilot Transcribe, както и Decision 1.1 – модел, който насочва заявките към най-подходящия ИИ модел. С „MAI Licensed Weights“ избрани корпоративни клиенти ще могат да адаптират моделите със собствени данни в своята среда в Azure. Microsoft признава, че MAI Code 2 все още не е настроен за фундаментални научни изследвания или много дълги задачи на агенти.",
+     "Всички сравнения на представяне и цени са на самата Microsoft и не са проверени независимо. Официалното видео на Microsoft показва началото на основната презентация на Ignite."
+    ]
+   },
+   "en": {
+    "t": "Coding AI at a fraction of the price: Microsoft unveils MAI Code 2",
+    "d": "At Ignite, Microsoft presented seven in-house AI models. MAI Code 2 is said to come close to OpenAI's and Anthropic's top models – at a fraction of the cost.",
+    "body": [
+     "At its Ignite conference in San Francisco, Microsoft unveiled seven new models from its Microsoft AI (MAI) division. The centrepiece is MAI Code 2, a model for autonomous programming. According to Microsoft, it averages 98 per cent of the performance of OpenAI's GPT-6.1 Sol at about 40 per cent of the price – and 96 per cent of the performance of Anthropic's Claude Opus 5.5 at 5 per cent of the price. The comparison used four coding benchmarks, including Terminal Bench 2.1. MAI Code 2 is available in GitHub Copilot; the smaller Code 2 Flash is also in limited preview in Microsoft Foundry.",
+     "Also announced were, among others, the security model MAI Cyber 2 Flash, the image models MAI Image 2.7 and 2.7 Flash, the voice model MAI Realtime 1, the transcription model Dragon Copilot Transcribe and Decision 1.1, a model that routes requests to the most suitable AI model. With 'MAI Licensed Weights', selected business customers are to be able to customise the models with their own data in their own Azure environment. Microsoft concedes that MAI Code 2 is not yet tuned for fundamental science research or very long agentic tasks.",
+     "All performance and price comparisons come from Microsoft itself and have not been independently verified. The official Microsoft video shows the opening of the Ignite keynote."
+    ]
+   }
+  },
+  {
+   "id": "heygen-avatar-6-videos-aus-foto",
+   "s": "ai",
+   "time": "12:38",
+   "kl": {
+    "de": "KI-Video",
+    "bg": "ИИ видео",
+    "en": "AI video"
+   },
+   "yt": {
+    "id": "8ZVeOsIFUPg",
+    "ch": "HeyGen",
+    "kind": "video",
+    "t": {
+     "de": "HeyGen Avatar 6: Show Up as Your Best Self, Every Time",
+     "bg": "HeyGen Avatar 6: Show Up as Your Best Self, Every Time",
+     "en": "HeyGen Avatar 6: Show Up as Your Best Self, Every Time"
+    }
+   },
+   "src": [
+    {
+     "n": "Unite.AI – HeyGen Launches Avatar 6 with Script-Aware Gestures and 2K Video (17.11.2026)",
+     "u": "https://www.unite.ai/heygen-launches-avatar-6-with-script-aware-gestures-and-2k-video/"
+    },
+    {
+     "n": "TechBuzz Ireland – HeyGen Launches Avatar 6 (17.11.2026)",
+     "u": "https://techbuzzireland.com/2026/11/17/heygen-launches-avatar-6/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-18/heygen-avatar-6-videos-aus-foto.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Peachyeung316",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A_Cameraman_and_women_in_the_street.jpg",
+    "alt": {
+     "de": "Symbolbild: Kameramann bei Videoaufnahmen auf der Straße",
+     "bg": "Символна снимка: оператор снима видео на улицата",
+     "en": "Symbol image: camera operator filming in the street"
+    }
+   },
+   "de": {
+    "t": "Digitaler Doppelgänger mit passenden Gesten: HeyGen startet Avatar 6",
+    "d": "Das neue KI-Modell erzeugt aus einem Foto oder kurzen Clip sprechende Videos einer Person – in 2K und mit Handbewegungen, die zum Text passen. Für echte Personen ist eine Einwilligung nötig.",
+    "body": [
+     "Der KI-Videodienst HeyGen hat am 17. November sein Modell Avatar 6 veröffentlicht. Es erzeugt Videos, in denen ein digitaler Doppelgänger einen vorgegebenen Text spricht – aus einem einzigen Foto oder aus rund 30 Sekunden Videomaterial. Neu ist, dass das Modell Gesten passend zum Inhalt setzt, etwa Zeigen oder Aufzählen an der richtigen Stelle. Die Videos entstehen in 2K-Auflösung; in HeyGens Beispielen laufen sie 25 bis 28 Minuten am Stück. Avatar 6 ist in der Web-App, der Mobil-App und über die Programmierschnittstelle verfügbar.",
+     "„Menschliche Natürlichkeit nachzubilden, bleibt eine der schwierigsten Aufgaben bei KI-Videos“, sagte HeyGen-Technikchef Rong Yan. In einem Test nach Art des Turing-Tests hätten laut HeyGen 84 Prozent der Teilnehmer den Avatar als genauso realistisch eingestuft wie die echte Person. Im Blindvergleich „Avatar Arena“ von New Measure lag das Modell in beiden Kategorien vorn.",
+     "Weil solche Avatare auch für Täuschungen missbraucht werden können, verlangt HeyGen nach eigenen Angaben für Avatare echter Personen eine Live-Identitätsprüfung und eine ausdrückliche Einwilligung vor der Kamera. Das offizielle HeyGen-Video zeigt das neue Modell."
+    ]
+   },
+   "bg": {
+    "t": "Дигитален двойник с подходящи жестове: HeyGen пусна Avatar 6",
+    "d": "Новият ИИ модел създава говорещи видеа на човек от една снимка или кратък клип – в 2K и с жестове, съобразени с текста. За реални хора е нужно съгласие.",
+    "body": [
+     "Услугата за ИИ видео HeyGen пусна на 17 ноември модела Avatar 6. Той създава видеа, в които дигитален двойник изговаря зададен текст – от една-единствена снимка или от около 30 секунди видеоматериал. Новото е, че моделът поставя жестове според съдържанието, например посочване или изброяване на точното място. Видеата са с 2K резолюция; в примерите на HeyGen те продължават без прекъсване от 25 до 28 минути. Avatar 6 е достъпен в уеб приложението, мобилното приложение и чрез програмния интерфейс.",
+     "„Пресъздаването на човешката естественост остава едно от най-трудните предизвикателства при ИИ видеото“, каза техническият директор на HeyGen Ронг Ян. При тест по модела на теста на Тюринг 84% от участниците според HeyGen оценили аватара като също толкова реалистичен, колкото истинския човек. В слепото сравнение „Avatar Arena“ на New Measure моделът е на първо място и в двете категории.",
+     "Тъй като такива аватари могат да бъдат злоупотребени за измами, HeyGen по собствени данни изисква за аватари на реални хора проверка на самоличността на живо и изрично съгласие пред камерата. Официалното видео на HeyGen показва новия модел."
+    ]
+   },
+   "en": {
+    "t": "Digital double with matching gestures: HeyGen launches Avatar 6",
+    "d": "The new AI model creates talking videos of a person from one photo or a short clip – in 2K and with hand movements that fit the script. Real people must give consent.",
+    "body": [
+     "AI video service HeyGen released its Avatar 6 model on 17 November. It generates videos in which a digital double speaks a given script – from a single photo or about 30 seconds of video footage. What is new is that the model places gestures to match the content, such as pointing or counting at the right moment. The videos are produced in 2K resolution; in HeyGen's examples they run for 25 to 28 minutes without a break. Avatar 6 is available in the web app, the mobile app and via the API.",
+     "\"Modeling human realism remains one of the hardest challenges in AI video,\" said HeyGen CTO Rong Yan. In Turing-style testing, according to HeyGen, 84 per cent of participants rated the avatar as equally realistic as the real person. In New Measure's blind \"Avatar Arena\" comparison, the model came first in both categories.",
+     "Because such avatars can be misused for deception, HeyGen says avatars of real people require live identity verification and explicit on-camera consent. The official HeyGen video shows the new model."
+    ]
+   }
+  },
+  {
+   "id": "anthropic-900-milliarden-rechenzentren",
+   "s": "ai",
+   "mn": true,
+   "time": "12:38",
+   "kl": {
+    "de": "Rechenzentren",
+    "bg": "Центрове за данни",
+    "en": "Data centres"
+   },
+   "src": [
+    {
+     "n": "Forbes – Anthropic IPO Reveals $900 Billion In AI Infrastructure Commitments (17.11.2026)",
+     "u": "https://www.forbes.com/sites/janakirammsv/2026/11/17/anthropic-ipo-puts-900-billion-of-compute-bills-on-public-view/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-18/anthropic-900-milliarden-rechenzentren.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "TechCrunch",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dario_Amodei_at_TechCrunch_Disrupt_2023_01.jpg",
+    "alt": {
+     "de": "Archivbild: Anthropic-Chef Dario Amodei auf der TechCrunch Disrupt (2023)",
+     "bg": "Архивна снимка: шефът на Anthropic Дарио Амодей на TechCrunch Disrupt (2023)",
+     "en": "Archive image: Anthropic CEO Dario Amodei at TechCrunch Disrupt (2023)"
+    }
+   },
+   "de": {
+    "t": "900,9 Mrd. Dollar für Rechenleistung: Anthropics Börsenprospekt zeigt Verpflichtungen",
+    "d": "Vor dem Börsengang legt der Claude-Entwickler offen, wie viel er für Chips, Rechenzentren und Strom bis 2045 zugesagt hat. Ein Teil der Verträge ist kündbar oder an Bedingungen geknüpft.",
+    "body": [
+     "Der KI-Entwickler Anthropic hat in seinen Börsenunterlagen Kauf- und Mietverpflichtungen von insgesamt 900,9 Milliarden Dollar ausgewiesen, vor allem für Rechenleistung und Infrastruktur und mit Laufzeiten bis 2045. Darüber berichtet unter anderem das Magazin Forbes. Rund 70,7 Milliarden Dollar werden in den zwölf Monaten nach dem 30. September 2026 fällig, bis 2030 summieren sich die Zusagen auf 451,6 Milliarden. Etwa 186,2 Milliarden Dollar hängen an Verträgen mit Kündigungsrechten oder Bedingungen, etwa dass Lieferanten ihre Finanzierung sichern.",
+     "Zu den größten Partnern zählen laut Bericht Google mit mindestens 121,3 Milliarden Dollar bis 2033, SpaceXAI mit bis zu 120,5 Milliarden, Amazon mit mindestens 110 Milliarden und Microsoft mit 47,2 bis 49,2 Milliarden Dollar. Anthropic nutzt Chips von vier Familien: Amazons Trainium, Googles TPUs sowie Grafikprozessoren von Nvidia und AMD. Im dritten Quartal 2026 setzte das Unternehmen rund 17 Milliarden Dollar um, schrieb aber einen operativen Verlust von 567 Millionen Dollar – unter anderem wegen teurer kurzfristiger Zukäufe von Rechenleistung.",
+     "Laut Forbes soll der Ausgabepreis am 18. November festgelegt werden, die Aktie soll an der Nasdaq unter dem Kürzel ANT gehandelt werden; die Preisspanne liegt bei 70 bis 78 Dollar. Als Risiko nennt der Prospekt unter anderem, dass die großen Cloud-Partner zugleich Konkurrenten sind und möglicherweise nicht immer die volle Kapazität liefern."
+    ]
+   },
+   "bg": {
+    "t": "900,9 млрд. долара за изчислителна мощ: проспектът на Anthropic разкрива задълженията",
+    "d": "Преди борсовия дебют разработчикът на Claude разкри колко е поел за чипове, центрове за данни и ток до 2045 г. Част от договорите могат да бъдат прекратени или са с условия.",
+    "body": [
+     "Разработчикът на ИИ Anthropic е посочил в документите си за борсата задължения за покупки и наеми общо за 900,9 млрд. долара, предимно за изчислителна мощ и инфраструктура и със срокове до 2045 г. За това съобщава, наред с други, списание Forbes. Около 70,7 млрд. долара са дължими през 12-те месеца след 30 септември 2026 г., а до 2030 г. задълженията достигат 451,6 млрд. Около 186,2 млрд. долара са свързани с договори с право на прекратяване или с условия, например доставчиците да осигурят финансирането си.",
+     "Сред най-големите партньори според публикацията са Google с поне 121,3 млрд. долара до 2033 г., SpaceXAI с до 120,5 млрд., Amazon с поне 110 млрд. и Microsoft с 47,2 до 49,2 млрд. долара. Anthropic използва чипове от четири фамилии: Trainium на Amazon, TPU на Google и графични процесори на Nvidia и AMD. През третото тримесечие на 2026 г. компанията има приходи от около 17 млрд. долара, но отчита оперативна загуба от 567 млн. долара – наред с другото заради скъпи краткосрочни покупки на изчислителна мощ.",
+     "Според Forbes цената на акциите трябва да бъде определена на 18 ноември, а книжата ще се търгуват на Nasdaq под символа ANT; ценовият диапазон е 70 до 78 долара. Като риск проспектът посочва, наред с другото, че големите облачни партньори са едновременно конкуренти и може не винаги да доставят пълния капацитет."
+    ]
+   },
+   "en": {
+    "t": "$900.9 billion for compute: Anthropic's IPO filing reveals its commitments",
+    "d": "Ahead of its stock market debut, the Claude developer has disclosed how much it has committed to chips, data centres and power through 2045. Some contracts can be terminated or carry conditions.",
+    "body": [
+     "AI developer Anthropic has disclosed purchase and lease commitments totalling $900.9 billion in its IPO filings, mostly for compute and infrastructure and running through 2045, Forbes and others report. About $70.7 billion falls due in the twelve months after 30 September 2026, and the commitments add up to $451.6 billion through 2030. Around $186.2 billion is tied to contracts with termination rights or conditions, such as suppliers securing financing.",
+     "According to the report, the biggest partners include Google with at least $121.3 billion through 2033, SpaceXAI with up to $120.5 billion, Amazon with at least $110 billion and Microsoft with $47.2 billion to $49.2 billion. Anthropic uses four chip families: Amazon's Trainium, Google's TPUs and GPUs from Nvidia and AMD. In the third quarter of 2026 the company had revenue of about $17 billion but posted an operating loss of $567 million – partly because of expensive short-term compute purchases.",
+     "According to Forbes, the share price is due to be set on 18 November, with the stock to trade on Nasdaq under the ticker ANT; the price range is $70 to $78. Among the risks, the prospectus notes that its large cloud partners are also competitors and may not always deliver full capacity."
+    ]
+   }
+  },
+  {
+   "id": "china-destillation-us-ki-modelle",
+   "s": "ai",
+   "mn": true,
+   "time": "12:38",
+   "kl": {
+    "de": "China",
+    "bg": "Китай",
+    "en": "China"
+   },
+   "src": [
+    {
+     "n": "International Business Times via Yahoo News – China Turns To American AI To Train Its Own Models (17.11.2026)",
+     "u": "https://www.yahoo.com/news/world/articles/china-turns-american-ai-train-175533385.html"
+    },
+    {
+     "n": "Startup Fortune – Reuters finds Chinese labs training rivals on OpenAI model answers (17.11.2026)",
+     "u": "https://startupfortune.com/reuters-finds-chinese-labs-training-rivals-on-openai-model-answers/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-18/china-destillation-us-ki-modelle.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Danielinblue",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TaobaoCity_Alibaba_Xixi_Park.jpg",
+    "alt": {
+     "de": "Archivbild: Alibaba-Zentrale „Taobao City“ im Xixi-Park in Hangzhou",
+     "bg": "Архивна снимка: централата на Alibaba „Taobao City“ в парка Сиси в Ханджоу",
+     "en": "Archive image: Alibaba headquarters 'Taobao City' in Xixi Park, Hangzhou"
+    }
+   },
+   "de": {
+    "t": "Lernen von OpenAI: Reuters findet Destillation US-amerikanischer KI in China",
+    "d": "Mehr als 300 chinesische Dokumente zeigen laut Reuters, dass Antworten von OpenAI-Modellen zum Training chinesischer KI genutzt werden. Die betroffenen Firmen äußerten sich nicht.",
+    "body": [
+     "Die Nachrichtenagentur Reuters hat mehr als 300 chinesische Fachaufsätze, Patente, Firmenunterlagen, Stellenanzeigen und Regierungsdokumente ausgewertet. Ergebnis: Die sogenannte Destillation – dabei lernt ein Modell aus den Antworten eines leistungsfähigeren „Lehrer“-Modells – ist in Chinas KI-Entwicklung weit verbreitet. Als Quellen werden in den Unterlagen OpenAIs Modelle o1, GPT-4, GPT-4o und GPT-4o mini genannt.",
+     "Ein Beispiel: Forscher der Shanghai Jiao Tong University wählten rund 5.000 Antworten von o1 aus und machten daraus 10.750 zweisprachige Trainingsbeispiele für Alibabas offenes Modell Qwen2.5-72B. Auch Alibaba-Forscher nutzten laut den Dokumenten Ausgaben von GPT-4 und GPT-4o, Forscher des Lieferdienstes Meituan solche von GPT-4o. Die Universität, Alibaba und Meituan reagierten nicht auf Anfragen von Reuters. OpenAI und Anthropic schränken in ihren Nutzungsbedingungen ein, dass ihre Ausgaben zum Bau konkurrierender Modelle verwendet werden.",
+     "Ein US-Regierungsvertreter sagte Reuters, Washington sehe die Destillation als wesentlichen Faktor dafür, warum chinesische Modelle aufgeholt hätten. Zwei mit chinesischen Entwicklern vertraute Personen widersprachen: Sie sei nur ein Faktor neben Technik, Algorithmen und Daten. Die Recherche erschien kurz nachdem die US-Regierung den Fernzugriff auf amerikanische KI-Chips weiter eingeschränkt hatte."
+    ]
+   },
+   "bg": {
+    "t": "Учене от OpenAI: Ройтерс открива дестилация на американски ИИ в Китай",
+    "d": "Над 300 китайски документа показват според Ройтерс, че отговори на модели на OpenAI се използват за обучение на китайски ИИ. Засегнатите компании не коментираха.",
+    "body": [
+     "Агенция Ройтерс е анализирала над 300 китайски научни статии, патенти, корпоративни документи, обяви за работа и правителствени документи. Изводът: т. нар. дестилация – при която един модел се учи от отговорите на по-мощен модел „учител“ – е широко разпространена в китайската разработка на ИИ. Като източници в документите са посочени моделите на OpenAI o1, GPT-4, GPT-4o и GPT-4o mini.",
+     "Пример: изследователи от Шанхайския университет „Дзяо Тун“ подбрали около 5000 отговора на o1 и ги превърнали в 10 750 двуезични примера за обучение на отворения модел на Alibaba Qwen2.5-72B. Според документите изследователи на Alibaba също са използвали резултати от GPT-4 и GPT-4o, а изследователи на услугата за доставки Meituan – от GPT-4o. Университетът, Alibaba и Meituan не отговориха на запитванията на Ройтерс. OpenAI и Anthropic ограничават в условията си използването на техните резултати за създаване на конкурентни модели.",
+     "Представител на американското правителство каза пред Ройтерс, че Вашингтон смята дестилацията за съществен фактор за това китайските модели да наваксат. Двама души, запознати с работата на китайските разработчици, възразиха: тя е само един фактор наред с инженерството, алгоритмите и данните. Разследването излезе малко след като правителството на САЩ допълнително ограничи отдалечения достъп до американски ИИ чипове."
+    ]
+   },
+   "en": {
+    "t": "Learning from OpenAI: Reuters finds distillation of US AI in China",
+    "d": "More than 300 Chinese documents show, according to Reuters, that answers from OpenAI models are used to train Chinese AI. The companies concerned did not comment.",
+    "body": [
+     "Reuters news agency has reviewed more than 300 Chinese academic papers, patents, corporate filings, job postings and government documents. The finding: so-called distillation – in which a model learns from the answers of a more capable 'teacher' model – is widespread in Chinese AI development. The documents name OpenAI's o1, GPT-4, GPT-4o and GPT-4o mini as sources.",
+     "One example: researchers at Shanghai Jiao Tong University selected about 5,000 answers from o1 and turned them into 10,750 bilingual training examples for Alibaba's open model Qwen2.5-72B. According to the documents, Alibaba researchers also used outputs from GPT-4 and GPT-4o, and researchers at delivery company Meituan outputs from GPT-4o. The university, Alibaba and Meituan did not respond to Reuters' requests for comment. OpenAI and Anthropic restrict the use of their outputs to build competing models in their terms.",
+     "A US official told Reuters that Washington sees distillation as a major factor in why Chinese models have caught up. Two people familiar with Chinese developers disagreed, saying it is only one factor alongside engineering, algorithms and data. The investigation appeared shortly after the US government further restricted remote access to American AI chips."
+    ]
+   }
+  },
+  {
+   "id": "genesis-ai-500-millionen-eno",
+   "s": "ai",
+   "mn": true,
+   "time": "12:38",
+   "kl": {
+    "de": "Finanzierung",
+    "bg": "Финансиране",
+    "en": "Funding"
+   },
+   "src": [
+    {
+     "n": "The Next Web – Genesis AI raises $500m at a $3.5bn valuation to put Eno robots to work (17.11.2026)",
+     "u": "https://thenextweb.com/news/genesis-ai-500m-series-a-3-5bn-valuation-eno-robot"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-18/genesis-ai-500-millionen-eno.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Shixart1985",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Robot_arm_picks_up_cylindrical_objects_in_a_factory_setting.jpg",
+    "alt": {
+     "de": "Symbolbild: Roboterarm greift Werkstücke in einer Fabrik (nicht Genesis AI)",
+     "bg": "Символна снимка: роботизирана ръка хваща детайли във фабрика (не е Genesis AI)",
+     "en": "Symbol image: robot arm picking up parts in a factory (not Genesis AI)"
+    }
+   },
+   "de": {
+    "t": "Roboter ohne Kopf: Pariser Start-up Genesis AI holt 500 Millionen Dollar",
+    "d": "Das Robotik-Unternehmen wird nun mit 3,5 Milliarden Dollar bewertet. Sein Roboter Eno hat zwei Arme auf einem fahrbaren Sockel – und bewusst keinen Kopf.",
+    "body": [
+     "Das 2024 gegründete Robotik-Start-up Genesis AI mit Sitz in Paris hat 500 Millionen Dollar eingesammelt und wird damit mit 3,5 Milliarden Dollar bewertet. Angeführt wurde die Finanzierungsrunde von Khosla Ventures, Premji Invest und Eclipse; beteiligt sind unter anderem Nvidias Fonds NVentures, AMD Ventures und die französische Förderbank Bpifrance. Im Juli 2025 hatte das Unternehmen bereits 105 Millionen Dollar erhalten.",
+     "Genesis AI baut Modell, Hardware und Simulator selbst. Sein erster Roboter Eno hat zwei Arme auf einem drehbaren, fahrbaren Sockel, aber keinen humanoiden Kopf. „Ich verstehe nicht, warum Roboter einen Kopf brauchen“, sagte Mitgründer und Chef Zhou Xian. Trainiert wird das KI-Modell GENE mit Daten von mehr als 100 Menschen, die Sensorhandschuhe und Kopfkameras tragen. Bisher wurden 30 bis 40 Enos gebaut, die bei einigen Kunden erprobt werden, darunter bei LG CNS aus Südkorea.",
+     "Eine Serienfertigung durch einen Auftragsfertiger in den USA soll im kommenden Jahr beginnen, ein breiterer Einsatz ist für 2027 geplant. Größter Engpass ist laut Zhou die Hardware: Die Roboterhände halten im regulären Betrieb nur wenige Wochen."
+    ]
+   },
+   "bg": {
+    "t": "Робот без глава: парижкият стартъп Genesis AI набра 500 млн. долара",
+    "d": "Компанията за роботика вече е оценена на 3,5 млрд. долара. Нейният робот Eno има две ръце върху подвижна основа – и съзнателно няма глава.",
+    "body": [
+     "Основаният през 2024 г. стартъп за роботика Genesis AI със седалище в Париж набра 500 млн. долара, което го оценява на 3,5 млрд. долара. Кръгът е воден от Khosla Ventures, Premji Invest и Eclipse; участват и фондът на Nvidia NVentures, AMD Ventures и френската държавна банка Bpifrance. През юли 2025 г. компанията вече получи 105 млн. долара.",
+     "Genesis AI сама разработва модела, хардуера и симулатора. Първият ѝ робот Eno има две ръце върху въртяща се основа на колела, но няма хуманоидна глава. „Не разбирам защо роботите се нуждаят от глава“, каза съоснователят и главен изпълнителен директор Джоу Шиен. ИИ моделът GENE се обучава с данни от над 100 души, които носят сензорни ръкавици и камери на главата. Досега са произведени 30 до 40 робота Eno, които се изпробват при няколко клиенти, сред които LG CNS от Южна Корея.",
+     "Серийното производство от договорен производител в САЩ трябва да започне догодина, а по-широко внедряване се планира за 2027 г. Според Джоу най-голямото препятствие е хардуерът: роботизираните ръце издържат само няколко седмици редовна работа."
+    ]
+   },
+   "en": {
+    "t": "Robot without a head: Paris start-up Genesis AI raises $500 million",
+    "d": "The robotics company is now valued at $3.5 billion. Its robot Eno has two arms on a wheeled base – and deliberately no head.",
+    "body": [
+     "Paris-based robotics start-up Genesis AI, founded in 2024, has raised $500 million, valuing it at $3.5 billion. The round was co-led by Khosla Ventures, Premji Invest and Eclipse, with participants including Nvidia's NVentures fund, AMD Ventures and French public investment bank Bpifrance. The company had already raised $105 million in July 2025.",
+     "Genesis AI builds its own model, hardware and simulator. Its first robot, Eno, has two arms on a rotating wheeled base but no humanoid head. \"I don't understand why robots need a head,\" said co-founder and CEO Zhou Xian. The AI model GENE is trained on data from more than 100 people wearing sensor gloves and head cameras. So far 30 to 40 Enos have been built and are being trialled with a few customers, including South Korea's LG CNS.",
+     "A contract manufacturer is to start series production in the US next year, with wider deployment planned for 2027. According to Zhou, the biggest bottleneck is hardware: the robot hands last only a few weeks in regular operation."
+    ]
+   }
+  },
+  {
+   "id": "proton-lumo-desktop-ki-agent",
+   "s": "ai",
+   "mn": true,
+   "time": "12:38",
+   "kl": {
+    "de": "Datenschutz",
+    "bg": "Поверителност",
+    "en": "Privacy"
+   },
+   "src": [
+    {
+     "n": "TechCrunch – Proton's Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop (17.11.2026)",
+     "u": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/"
+    },
+    {
+     "n": "Unite.AI – Proton Launches Lumo Desktop With Connectors and AI Task Scheduling (17.11.2026)",
+     "u": "https://www.unite.ai/proton-launches-lumo-desktop-with-connectors-and-ai-task-scheduling/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-18/proton-lumo-desktop-ki-agent-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Proton bringt KI-Assistenten Lumo auf den Desktop",
+     "bg": "Заглавна графика: Proton пуска ИИ асистента Lumo за компютри",
+     "en": "Title graphic: Proton brings AI assistant Lumo to the desktop"
+    }
+   },
+   "de": {
+    "t": "KI-Assistent mit Datenschutz-Versprechen: Proton bringt Lumo auf den Desktop",
+    "d": "Der Schweizer Anbieter macht seinen KI-Assistenten Lumo zum Agenten für Windows, macOS und Linux. Nutzer legen für jede Aktion fest, ob sie automatisch läuft, nachfragt oder gesperrt ist.",
+    "body": [
+     "Der Schweizer Datenschutz-Anbieter Proton hat am 17. November Lumo Desktop für Windows, macOS und Linux veröffentlicht. Damit kann sein KI-Assistent Lumo auch Aufgaben auf dem Rechner erledigen: Über sogenannte Konnektoren greift er auf lokale Dateien, die Kommandozeile, Proton Mail sowie Dienste wie Google Drive, Slack, Dropbox, Jira und Confluence zu; auch eigene MCP-Server lassen sich anbinden. Mit „Schedules“ laufen Aufgaben zu festen Zeiten oder regelmäßig, mit „Skills“ speichert Lumo wiederverwendbare Anleitungen und Vorlagen.",
+     "Für jede Aktion legen Nutzer fest, ob sie automatisch ausgeführt wird, eine Bestätigung braucht oder gesperrt ist. Laut Unite.AI sind die Aktionen ab Werk auf automatische Freigabe gestellt und die Konnektoren aktiviert – wer mehr Kontrolle möchte, muss das im Tools-Menü ändern. Für den Einstieg reicht ein kostenloses Proton-Konto, bezahlte Tarife bieten höhere Nutzungsgrenzen.",
+     "Proton verspricht, dass nur die Nutzer ihren Chatverlauf lesen können, dass keine serverseitigen Protokolle gespeichert werden und dass Gespräche sowie Daten aus verbundenen Apps nie für personalisierte Werbung oder KI-Training genutzt werden. Die Server stehen in Europa; zugleich nimmt Proton in der Schweiz seinen ersten eigenen Rechencluster mit Nvidia-B300-Chips in Betrieb."
+    ]
+   },
+   "bg": {
+    "t": "ИИ асистент с обещание за поверителност: Proton пуска Lumo за компютри",
+    "d": "Швейцарската компания превръща своя ИИ асистент Lumo в агент за Windows, macOS и Linux. Потребителите задават за всяко действие дали да е автоматично, с одобрение или блокирано.",
+    "body": [
+     "Швейцарската компания за поверителност Proton пусна на 17 ноември Lumo Desktop за Windows, macOS и Linux. Така ИИ асистентът Lumo може да изпълнява задачи и на компютъра: чрез т. нар. конектори той има достъп до локални файлове, командния ред, Proton Mail, както и до услуги като Google Drive, Slack, Dropbox, Jira и Confluence; могат да се свързват и собствени MCP сървъри. С „Schedules“ задачите се изпълняват в определено време или редовно, а със „Skills“ Lumo съхранява инструкции и шаблони за многократна употреба.",
+     "За всяко действие потребителите определят дали да се изпълнява автоматично, да изисква потвърждение или да е блокирано. Според Unite.AI по подразбиране действията са с автоматично одобрение, а конекторите са включени – който иска повече контрол, трябва да промени това в менюто Tools. За начало е достатъчен безплатен акаунт в Proton, а платените планове дават по-високи лимити.",
+     "Proton обещава, че само потребителите могат да четат историята на чатовете си, че не се пазят записи на сървърите и че разговорите и данните от свързаните приложения никога не се използват за персонализирана реклама или обучение на ИИ. Сървърите са в Европа; същевременно Proton пуска в Швейцария първия си собствен изчислителен клъстер с чипове Nvidia B300."
+    ]
+   },
+   "en": {
+    "t": "AI assistant with a privacy promise: Proton brings Lumo to the desktop",
+    "d": "The Swiss company is turning its AI assistant Lumo into an agent for Windows, macOS and Linux. Users decide for each action whether it runs automatically, asks first or is blocked.",
+    "body": [
+     "Swiss privacy company Proton released Lumo Desktop for Windows, macOS and Linux on 17 November. This lets its AI assistant Lumo carry out tasks on the computer: through so-called connectors it can access local files, the command line, Proton Mail and services such as Google Drive, Slack, Dropbox, Jira and Confluence; custom MCP servers can also be connected. With 'Schedules', tasks run at set times or on a recurring basis, and with 'Skills', Lumo stores reusable instructions and templates.",
+     "For each action, users decide whether it runs automatically, requires approval or is blocked. According to Unite.AI, actions are set to auto-approve by default and connectors are switched on – anyone wanting more control has to change this in the Tools menu. A free Proton account is enough to start; paid plans offer higher usage limits.",
+     "Proton promises that only users can read their chat history, that no server-side logs are kept, and that conversations and data from connected apps are never used for personalised advertising or AI training. Its servers are in Europe; at the same time, Proton is bringing its first own computing cluster with Nvidia B300 chips online in Switzerland."
+    ]
+   }
+  }
+ ]
+}
