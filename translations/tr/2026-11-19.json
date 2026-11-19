@@ -26,6 +26,34 @@
     "img.alt": "Times Meydanı'ndaki Nasdaq MarketSite (Sembolik fotoğraf)"
    }
   },
+  "berlin-grosseinsatz-ukraine-gipfel-2500-polizisten-2026-11-19-b1100": {
+   "L": {
+    "body": [
+     "Şansölyelik Binası'ndaki Ukrayna zirvesi için Berlin'de perşembe günü, diğer eyaletlerin ve federal hükümetin desteğiyle birlikte yaklaşık 2500 ek polis görev yapıyor. Zelenski için en yüksek tehdit seviyesi geçerli. Polis, tüm hükümet bölgesinde geniş çaplı kapatmalar yapılacağını duyurdu; polis açıklamalarına göre Berlin hava sahası da kapatıldı.",
+     "U5 metro hattı zaman zaman Bundestag istasyonunda durmuyor, hükümet bölgesinde gemi trafiği mümkün değil. BVG ve S-Bahn, özellikle Brandenburg Kapısı'nda güzergâh değişiklikleri ve kısıtlamalar bekliyor. Brandenburg polisi, cuma gününe kadar BER Havalimanı çevresinde yer yer ciddi aksamalar yaşanabileceği uyarısında bulundu ve yolculara belirgin biçimde daha fazla zaman ayırmalarını tavsiye etti.",
+     "Operasyon cuma günü de sürüyor: O gün Mitte'de bir Alman-Ukrayna ekonomi forumu ve “Gen Z regelt” ittifakının protestoları yapılacak. Berlin GdP eyalet başkanı Stephan Weh, Dışişleri Bakanlığı ile koordinasyonu sert biçimde eleştirdi: “Hazırlık tek başına tam bir felaket.”"
+    ],
+    "d": "Hükümet bölgesinde geniş çaplı kapatmalar, U5 hattı zaman zaman Bundestag'da durmuyor, BER çevresinde trafik sıkışıklığı: Şansölyelik Binası'ndaki zirve başkentin bazı kesimlerini felç ediyor.",
+    "t": "Berlin'de büyük operasyon: Ukrayna zirvesi için 2500 ek polis görevde"
+   },
+   "at": "2026-11-19T09:04Z",
+   "h": "391f79a0b741",
+   "rev": [
+    "Untranslated German 'Brandenburger Tor' should be Turkish 'Brandenburg Kapısı'",
+    "Quotation marks inconsistent: „Gen Z regelt“ uses German style; Turkish convention uses straight/curly quotes",
+    "'Şansölyelik' with apostrophe is wrong; Kanzleramt is better rendered as 'Şansölye Ofisi'/'Başbakanlık'; fix apostrophe/wording",
+    "Ukrainian president's name: established Turkish spelling is Zelenski"
+   ],
+   "rev_dbg": [
+    4,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin polisine ait bir müdahale aracı (Sembolik fotoğraf)",
+    "kl": "Berlin"
+   }
+  },
   "berlin-schoeneberg-schuesse-dominicusstrasse-zwei-verletzte-2026-11-19-b0800": {
    "L": {
     "body": [
@@ -131,6 +159,58 @@
     "img.alt": "DFB Başkanı Bernd Neuendorf (Arşiv fotoğrafı)"
    }
   },
+  "dreesen-musiala-hoeness-kompany-koeln-2026-11-19-b1100": {
+   "L": {
+    "body": [
+     "Cuma günü saat 20.30'da 1. FC Köln'e karşı oynanacak iç saha maçı öncesinde Bayern Yönetim Kurulu Başkanı Jan-Christian Dreesen, Şeref Başkanı Uli Hoeneß'in Jamal Musiala hakkındaki kamuoyuna yansıyan şüphelerine yanıt verdi. Hoeneß, milli oyuncunun sağlık sorunlarının ardından eski formuna dönüp dönemeyeceğini sorgulamıştı. Dreesen, “Uli konuya hassas yaklaştı, aynı zamanda hepimizin kulübe karşı bir sorumluluğu da var” dedi. Dreesen'e göre kulüp, Musiala'nın gelişimini sakin bir şekilde izlemek istiyor.",
+     "Musiala, kas lifi yırtığının ardından takım antrenmanlarına döndü; Dreesen, oyuncunun “cuma günü oynayacağını” açıkladı. Teknik direktör Vincent Kompany de yaklaşık dört haftalık zorunlu aranın ardından Köln maçında yeniden kulübede olacak. Dreesen'e göre Kompany “oldukça keyifli”.",
+     "Kulüp, Kompany'nin yokluğunun ardından vereceği ilk basın toplantısını perşembe günü saat 10.00'a koymuştu. Kompany'nin yokluğunda takımın başında yardımcı antrenör Aaron Danks bulundu ve beş resmi maçta dört galibiyet ile bir beraberlik elde etti."
+    ],
+    "d": "Cuma günkü Köln maçı öncesinde Bayern CEO'su Dreesen, Musiala'yı savundu. Teknik direktör Kompany, yaklaşık dört haftalık zorunlu aranın ardından yeniden kulübede olacak.",
+    "t": "Dreesen, Hoeneß'in Musiala şüphelerine yanıt verdi – Kompany Köln maçında geri dönüyor"
+   },
+   "at": "2026-11-19T09:04Z",
+   "h": "5cfc0d0d7d90",
+   "rev": [
+    "\"Kompany'nin yokluğundan bu yana ilk basın toplantısı\" is wrong: the German says Kompany's first press conference since his absence, i.e. his own first press conference. The phrasing is ambiguous and "
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Jamal Musiala (Arşiv fotoğrafı)"
+   }
+  },
+  "google-gemini-4-neon-2026-11-19-b1100": {
+   "L": {
+    "body": [
+     "Google, Çarşamba gecesi geç saatlerde yeni yapay zekâ ailesinin bir başka modeli olan Gemini 4 Neon'u tanıttı. Model karmaşık yazılım geliştirme, bilgi odaklı işler ve bilimsel görevler için tasarlandı ve hızlı günlük kullanım modeli Hydrogen ile en üst model Carbon arasında yer alıyor. Neon aynı zamanda mevcut Argon modelinin yerini alıyor; Gemini 3.1 Pro ise kullanımdan kaldırılıyor.",
+     "Google'a göre Neon, standart ayarda görev başına Carbon'dan yüzde 32 daha ucuza geliyor. Geliştiriciler milyon giriş token'ı için 3 dolar, milyon çıkış token'ı için 15 dolar ödüyor; bağlam penceresi bir milyon token'ı kapsıyor. Şirket açıklamalarına göre model, Artificial Analysis'in Coding Agent Index'inde birinci, genel Zekâ Endeksi'nde üçüncü sırada yer alıyor.",
+     "Neon, Gemini uygulamasında Google AI Pro ve Ultra'nın ücretli müşterileri için, ayrıca AI Studio'daki ücretli Gemini arayüzü üzerinden ve kurumlar için kullanıma sunuldu. Google DeepMind yöneticisi Koray Kavukcuoglu, modelin çok adımlı işleri kestirme yollara başvurmadan, sonuç uydurmadan ve kullanıcıların sınırlarını aşmadan tamamlayacak şekilde eğitildiğini yazdı."
+    ],
+    "d": "Yeni modelin kod ve analizde en üst düzey model Carbon'a neredeyse yaklaşması hedefleniyor, ancak görev başına yaklaşık üçte bir daha ucuz. AI Pro ve Ultra aboneleri hemen kullanabiliyor.",
+    "t": "Google, Gemini 4 Neon'u tanıttı: Kodlamada üst düzey model, daha düşük fiyatla"
+   },
+   "at": "2026-11-19T09:04Z",
+   "h": "2f102a673e24",
+   "rev": [
+    "Headline: 'Spitzenmodell fürs Programmieren zum kleineren Preis' – 'Kodlamada üst düzey model' acceptable; headline length fine",
+    "Teaser: 'en üst modeli Carbon'a' is awkward; 'Topmodell Carbon' should read 'amiral gemisi/üst seviye model Carbon'",
+    "Teaser: 'ab sofort' fine; 'kostet ... rund ein Drittel weniger' rendered ok",
+    "Body 2: 'Coding Agent Index' fine; 'Zekâ Endeksi' ok",
+    "Body 1: 'bisherige Modell Argon' rendered as 'mevcut' – acceptable"
+   ],
+   "rev_dbg": [
+    5,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Google'ın Mountain View'daki merkezi (Sembolik fotoğraf)"
+   }
+  },
   "justizministerkonferenz-hamburg-hessen-abschiebung-ki-klagen-2026-11-19-b0800": {
    "L": {
     "body": [
@@ -153,6 +233,86 @@
    ],
    "x": {
     "img.alt": "Hamburg Belediye Sarayı (Sembolik fotoğraf)"
+   }
+  },
+  "parlament-gaubici-caesar-iris-t-2026-11-19-b1100": {
+   "L": {
+    "body": [
+     "Bulgaristan parlamentosu perşembe günü, Fransa'dan 57 adet Caesar tipi (155 milimetre kalibre) kundağı motorlu obüsün ekipmanlarıyla birlikte yaklaşık 686 milyon euroya satın alınmasını onayladı. Teklif lehine 158 milletvekili oy kullandı, GERB-SDS'li 19 milletvekili çekimser kaldı, Demokratik Bulgaristan oylamaya katılmadı. Ödeme, AB'nin SAFE savunma aracı ve savunma bütçesi üzerinden yapılacak; teslimatın 2030 sonuna kadar gerçekleştirilmesi öngörülüyor. Topların, Sovyet yapımı Gvozdika sistemlerinin yerini alması planlanıyor.",
+     "GERB'li milletvekili Hristo Gadzhev, projenin 650 milyon euro olarak hesaplandığını, maliyetlerin ise belirsiz olduğunu söyleyerek eleştirdi. Savunma Bakanı Dimitar Stoyanov, ek maliyetlerin rezerv olduğunu belirterek “Bu, bu kaynakların harcanacağı anlamına gelmiyor” dedi. Stoyanov, her eşlik eden anlaşmanın önceden AB Komisyonu tarafından inceleneceğini ifade etti.",
+     "24 Chasa'ya göre milletvekilleri ayrıca Alman üretici Diehl'in IRIS-T hava savunma sistemlerine de onay verdi; bunlardan beşinin SAFE üzerinden 926 milyon euroyla finanse edilmesi öngörülüyor. Bulgaristan'ın programdan toplam yaklaşık 3,27 milyar euro alması bekleniyor."
+    ],
+    "d": "Sofya'daki parlamento, AB'nin SAFE programı üzerinden finanse edilecek 57 Fransız kundağı motorlu obüsün alımını onayladı. Alman IRIS-T hava savunma sistemlerine de onay verildi.",
+    "t": "Bulgaristan, 686 milyon euroya 57 Fransız Caesar obüsü satın alıyor"
+   },
+   "at": "2026-11-19T09:04Z",
+   "h": "64da7e19d4f0",
+   "rev": [
+    "Stojanow'un 'Jedes Begleitgeschäft werde ... geprüft' ifadesi dolaylı anlatım (Konjunktiv); taslakta 'inceleniyor' şeklinde düz bilgi gibi, bu yüzden aktarma kipi gerekir",
+    "Teaser'da 'Fransız' ve SAFE cümlesi doğru; 'grünes Licht' ifadesi doğru aktarılmış, ancak 'finanse edilecek' ifadesi 'Fransa'dan' bilgisini koruyor, sorun yok",
+    "Gadschew'in 'Kosten seien unklar' ifadesi atfedilmiş, doğru"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Caesar kundağı motorlu obüs (Sembolik fotoğraf)"
+   }
+  },
+  "reiche-schneider-eeg-reform-mehrkosten-2026-11-19-b1100": {
+   "L": {
+    "body": [
+     "Ekonomi Bakanı Katherina Reiche (CDU) ile Çevre Bakanı Carsten Schneider (SPD), hükümet gruplarını planlanan enerji reformlarında maliyetli düzeltmelere gidilmesine karşı uyardı. Birlik partileri ve SPD, Federal Meclis'te haftalardır Yenilenebilir Enerji Kaynakları Yasası'nın (EEG) reformu ve bir şebeke paketi konusunda uzlaşmaya çalışıyor. Ekonomistler, federal bütçe üzerinden vergi mükelleflerini etkileyecek milyarlarca avroluk ek maliyetlerden endişe ediyor.",
+     "Reiche, hükümetin iklim hedeflerinin arkasında durduğunu söyledi; her yıl teşvike milyarlarca avro aktarıldığı için her avronun mümkün olduğunca etkili kullanılması gerektiğini belirtti. Reiche'ye göre, özellikle en ucuz elektrik üreticileri teşvik edilmeli. Schneider ise yenilenebilir enerjilerin yaygınlaştırılmasının önemli olduğunu, ancak gerekenden daha pahalı olmaması gerektiğini vurguladı. Schneider, EEG reformunu dengeli bir uzlaşma olarak görüyor.",
+     "SPD'li enerji politikacısı Nina Scheer'in verdiği bilgiye göre, 25 kilovata kadar küçük güneş enerjisi santralleri şebekeye verdikleri elektrik için verilen ödemeyi (Einspeisevergütung) korumalı, ayrıca biyogaz teşviki genişletilmeli. Birlik partileri ise genel bir uzlaşmayı şebeke paketine bağlıyor; SPD'nin bu pakette, tıkanıklık bölgelerindeki yeni rüzgar ve güneş enerjisi tesisleri için tazminatların azaltılmasına çekinceleri var. Çevre kuruluşları, yeşil elektrik kapasitesinin genişletilmesinin frenlenmesi riskine karşı uyarıyor."
+    ],
+    "d": "Birlik partileri ve SPD Federal Meclis'te yeşil elektrik teşviki ile şebeke paketi üzerinde görüşürken, Ekonomi Bakanı ve Çevre Bakanı birlikte maliyet disiplini çağrısı yaptı.",
+    "t": "EEG reformu: Reiche ve Schneider koalisyon gruplarını ek maliyetlere karşı uyardı"
+   },
+   "at": "2026-11-19T09:04Z",
+   "h": "6765184e4ca2",
+   "rev": [
+    "Gender: \"Wirtschaftsministerin\" rendered as \"Ekonomi Bakanı\" is fine in Turkish (no gender), no change needed",
+    "\"Ökostrom-Ausbau\" rendered as \"yeşil elektrik yatırımlarının\" – meaning shifted (Ausbau = expansion, not investments)",
+    "\"Bremse für den Ökostrom-Ausbau\" turned into a hedged \"yavaşlatılabileceği\" – warning content altered; restored closer to the original",
+    "\"Förderung/Einspeisevergütung\" – \"teşvik\" for Einspeisevergütung is imprecise, now \"sabit fiyatlı alım garantisi (şebekeye verilen elektrik için ödeme)\""
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Ekonomi Bakanı Katherina Reiche (Arşiv fotoğrafı)"
+   }
+  },
+  "strassburg-matos-trainer-swansea-2026-11-19-b1100": {
+   "L": {
+    "body": [
+     "Racing Strasbourg teknik direktör değişikliğini tamamladı: Ligue 1 ekibi çarşamba akşamı Hugo Oliveira ile yollarını ayırdı ve halefi olarak Galler'in ikinci lig takımı Swansea City'den Vítor Matos'u tanıttı. Yaz aylarında Famalicão'dan gelen Oliveira yönetiminde Strasbourg son altı lig maçının beşini kaybetti ve 13. sırada düşme hattının yalnızca iki puan üzerinde bulunuyor.",
+     "38 yaşındaki Portekizli, beş sezon boyunca Jürgen Klopp'un FC Liverpool'daki teknik ekibinde görev yaptı. Swansea'de Kasım 2025'te Championship'te 20. sırada bulunan bir takımı devraldı ve onu 11. sıraya kadar çıkardı; Galler ekibi şu anda altıncı sırada. Swansea perşembe sabahına kadar resmi bir açıklama yapmadı; BBC'ye göre kulübün yaklaşık beş milyon sterlin transfer bedeli alacağı belirtiliyor.",
+     "Matos, Liam Rosenior, Gary O'Neil ve Oliveira'dan sonra bu yıl Strasbourg'un dördüncü teknik direktörü oldu. İlk maçına cumartesi günü evinde Stade Brest karşısında çıkacak."
+    ],
+    "d": "Racing Strasbourg, ligde altı maçta beş yenilgi alan Hugo Oliveira'nın yerine Swansea'den Vítor Matos'u getirdi. Matos cumartesi günü Brest karşısında ilk maçına çıkacak.",
+    "t": "Resmen açıklandı: Klopp'un eski yardımcısı Vítor Matos Strasbourg'un teknik direktörü"
+   },
+   "at": "2026-11-19T09:04Z",
+   "h": "dd395a85748a",
+   "rev": [
+    "Teaser: 'Swansea'nin teknik direktörü' is wrong; Matos is leaving Swansea and is the new Strasbourg coach, so it should say he comes from Swansea.",
+    "Teaser: 'altı maçta beş yenilgi alan' is clumsy, but the meaning is correct, so left unchanged.",
+    "Body: 'Oliveira yönetiminde... bulunuyor' is acceptable; the 'Tabellen-13.' phrasing is rendered correctly.",
+    "Body: 'laut BBC soll' is rendered only as 'BBC'ye göre ... alacak', which loses the hedge 'soll'; changed to a hedged form."
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Vítor Matos (Arşiv fotoğrafı)"
    }
   },
   "trump-putin-treffen-shenzhen-2026-11-19-b0800": {
@@ -182,6 +342,33 @@
     "kl": "ABD"
    }
   },
+  "trump-xi-ukraine-krieg-shenzhen-2026-11-19-b1100": {
+   "L": {
+    "body": [
+     "ABD Başkanı Donald Trump, APEC zirvesi kapsamında Shenzhen'de Çin Devlet Başkanı Xi Jinping'i, Ukrayna'daki savaşın sona ermesi için birlikte çaba göstermeye çağırdı. Reuters'e göre Trump görüşmede, her iki tarafın da Rusya ile Ukrayna arasındaki savaşta yardımcı olmak istediğini söyledi. Trump, savaşın sona erdiğini görmek istediğini ve ikisi adına konuşabileceğine inandığını belirtti. Analistlerin gözlemine göre Xi, kamuoyuna yaptığı açıklamalarda ne Ukrayna'ya ne de İran'a değindi.",
+     "Trump'ın verdiği bilgiye göre Washington ve Pekin, İran savaşı nedeniyle aksayan petrol taşımacılığının Hürmüz Boğazı'ndan yeniden başlaması gerektiği konusunda hemfikir. Trump, ticarette adil ilişkiler için bir “denge” bulunduğunu söyledi; Xi ise istikrarlı ticari ilişkiler için ABD ile birlikte çalışacağını taahhüt etti.",
+     "Trump bundan önce Kremlin lideri Vladimir Putin ile yaklaşık 40 dakikalık bire bir görüşme yapmış ve onu “dost” olarak nitelendirmişti. ANI ajansının verdiği bilgiye göre ardından üç başkanın ilk üçlü görüşmesi başladı; gündemde nükleer silahsızlanma, İran, ticaret ve Ukrayna var. Analistler büyük anlaşmalar beklemiyor."
+    ],
+    "d": "Putin'in de katılacağı Shenzhen'deki üçlü zirveden önce Trump, Xi'den Ukrayna'da ortak hareket etmesini istedi. Trump'a göre iki taraf, Hürmüz Boğazı'ndan petrol sevkiyatının yeniden akması gerektiği konusunda hemfikir.",
+    "t": "Trump'tan Xi'ye: ABD ve Çin, Ukrayna savaşının bitmesine birlikte yardım etmeli"
+   },
+   "at": "2026-11-19T09:04Z",
+   "h": "3bc7beb74c20",
+   "rev": [
+    "Headline: \"Ukrayna savaşının sona ermesine birlikte yardım etmeli\" is awkward and the grammar is off",
+    "Teaser: \"Putin'le Shenzhen'deki üçlü zirveden önce\" is clumsy, the German says \"Dreiergipfel mit Putin\"",
+    "Body: \"Trump bundan önce ... görüşme yapmış\" - the German says Trump met Putin; this is fine, no change"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Donald Trump ve Xi Jinping (Arşiv fotoğrafı)",
+    "kl": "ABD"
+   }
+  },
   "ufc-katar-hooker-ortega-media-day-2026-11-19-b0800": {
    "L": {
     "body": [
@@ -206,6 +393,32 @@
    ],
    "x": {
     "img.alt": "Brian Ortega (Arşiv fotoğrafı)"
+   }
+  },
+  "ukraine-gipfel-koalition-der-willigen-kanzleramt-2026-11-19-b1100": {
+   "L": {
+    "body": [
+     "Federal Şansölye Friedrich Merz (CDU), perşembe günü Şansölyelik binasında Ukrayna’yı destekleyen ülkelerin oluşturduğu “Gönüllüler Koalisyonu” olarak anılan grubu ağırlıyor. Federal hükümetin verdiği bilgiye göre 37 ülke temsil edilecek; dpa’ya göre yaklaşık 30 devlet ve hükümet başkanının katılması bekleniyor. Fransa Cumhurbaşkanı Emmanuel Macron ve İngiltere Başbakanı Andy Burnham’ın yanı sıra Ukrayna Cumhurbaşkanı Volodymyr Zelenskyy ile ABD’li müzakereciler Steve Witkoff ve Jared Kushner’in de katılması bekleniyor; ayrıca AB yöneticileri ve NATO Genel Sekreteri Mark Rutte de toplantıda olacak.",
+     "Programa göre Merz, Macron ve Burnham saat 13.30’da önce Zelenskyy ile bir araya gelecek, saat 14.00’ten itibaren ise tüm katılımcılar toplanacak. Saat 17.15 civarında ortak bir basın toplantısı planlanıyor. Gündemde kalıcı barışa giden yollar, hava savunması ve kış öncesi enerji yardımı ile ateşkes sonrası dönem için çok uluslu bir güç dahil güvenlik garantileri yer alıyor.",
+     "Avrupalılar ayrıca Kiev ile Moskova arasındaki müzakerelerde masada yer almak istiyor. Zirve, ABD Başkanı Donald Trump, Çin Devlet Başkanı Xi Jinping ve Kremlin lideri Vladimir Putin’in Çin’in Shenzhen kentindeki üçlü görüşmesiyle aynı zamana denk geliyor. Zelenskyy, “ikinci bir Yalta” konusunda uyarıda bulunmuştu."
+    ],
+    "d": "Toplantıya Zelenskyy, Macron, Burnham ile ABD’li müzakereciler Witkoff ve Kushner’in katılması bekleniyor. Gündemde güvenlik garantileri, kış yardımı ve Kiev için para var.",
+    "t": "Şansölyelikte Ukrayna zirvesi: Merz, 37 ülkeden “Gönüllüler Koalisyonu”nu ağırlıyor"
+   },
+   "at": "2026-11-19T09:04Z",
+   "h": "d717494ff432",
+   "rev": [
+    "\"Bundeskanzler\" rendered as \"Federal Başbakan\"; the standard Turkish term is \"Federal Şansölye\"",
+    "\"Kanzleramt\" rendered as \"Şansölyelik binası\" is acceptable, but the title \"Federal Başbakan\" is incorrect",
+    "\"Kremlchef\" rendered as \"Kremlin lideri\" is acceptable, no change"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin’deki Federal Şansölyelik binası (Sembolik fotoğraf)"
    }
   }
  }
