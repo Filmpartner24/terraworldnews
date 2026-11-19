@@ -11,7 +11,7 @@
   "de": "ONE Championship",
   "en": "ONE Championship"
  },
- "asof": "2026-11-18",
+ "asof": "2026-11-19",
  "champions": [
   {
    "div": {
@@ -65,8 +65,13 @@
     "en": "Welterweight"
    },
    "limit": "bis 83,9 kg (185 lb)",
-   "name": "Christian Lee",
-   "country": "Singapur/USA"
+   "name": "vakant",
+   "country": "",
+   "note": {
+    "de": "vakant – ONE erklärte den Titel von Christian Lee am 18.11.2026 wegen Inaktivität für vakant",
+    "bg": "Вакантна – ONE обяви титлата на Крисчън Лий за вакантна на 18.11.2026 заради неактивност",
+    "en": "Vacant – ONE vacated Christian Lee's title due to inactivity on 18 Nov 2026"
+   }
   },
   {
    "div": {
@@ -141,23 +146,6 @@
  ],
  "upcoming": [
   {
-   "date": "2026-11-18",
-   "place": "EBARA WAVE Arena Ota, Tokio, Japan",
-   "f1": "Joshua Pacio",
-   "f2": "Keito Yamakita",
-   "div": {
-    "bg": "Категория слама",
-    "de": "Strohgewicht",
-    "en": "Strawweight"
-   },
-   "title": {
-    "bg": "ONE SAMURAI 5 – мач за световната титла",
-    "de": "ONE SAMURAI 5 – WM-Titelkampf",
-    "en": "ONE SAMURAI 5 – world title fight"
-   },
-   "note": "Pacio verteidigt den ONE-Strohgewichts-MMA-Titel."
-  },
-  {
    "date": "2026-12-02",
    "place": "Yokohama Buntai, Yokohama, Japan",
    "f1": "Chihiro Sawada",
@@ -175,6 +163,27 @@
   }
  ],
  "results": [
+  {
+   "date": "2026-11-18",
+   "place": "EBARA WAVE Arena Ota, Tokio, Japan",
+   "f1": "Joshua Pacio",
+   "f2": "Keito Yamakita",
+   "res": {
+    "bg": "събмишън (арм-триъгълник), 4-ти рунд (4:17)",
+    "de": "Submission (Arm-Triangle-Choke), 4. Runde (4:17)",
+    "en": "Submission (arm-triangle choke), round 4 (4:17)"
+   },
+   "div": {
+    "bg": "Сламена категория",
+    "de": "Strohgewicht",
+    "en": "Strawweight"
+   },
+   "title": {
+    "bg": "ONE SAMURAI 5 – мач за световната титла (защита)",
+    "de": "ONE SAMURAI 5 – WM-Titelkampf (Titelverteidigung)",
+    "en": "ONE SAMURAI 5 – world title fight (defence)"
+   }
+  },
   {
    "date": "2026-11-06",
    "place": "Lumpinee Stadium, Bangkok, Thailand",
@@ -240,6 +249,14 @@
   }
  ],
  "src": [
+  {
+   "n": "ONE Championship – ONE SAMURAI 5 results (18.11.2026)",
+   "u": "https://www.onefc.com/news/one-samurai-5-results-and-highlights-for-every-fight/"
+  },
+  {
+   "n": "ONE Championship – Welterweight MMA World Title vacant (18.11.2026)",
+   "u": "https://www.onefc.com/press-releases/one-championship-declares-one-welterweight-mma-world-title-vacant/"
+  },
   {
    "n": "ONE Championship – ONE Fight Night 49 main event result (07.11.2026)",
    "u": "https://www.onefc.com/news/one-fight-night-49-main-event-result-magomed-magomedov-edges-lucas-gabriel-to-stay-perfect-in-debut/"
