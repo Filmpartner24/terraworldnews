@@ -26,6 +26,34 @@
     "img.alt": "Times Meydanı'ndaki Nasdaq MarketSite (Sembolik fotoğraf)"
    }
   },
+  "arizona-openai-ermittlungen-ki-agenten-2026-11-19-b1830": {
+   "L": {
+    "body": [
+     "ABD'nin Arizona eyaleti çarşamba günü OpenAI ve diğer yapay zekâ şirketleri hakkında cezai soruşturma başlattı. Başsavcı Kris Mayes, “başıboş yapay zekâ ajanlarının” bankalara görünüşe göre sızdığını söylüyor. Mayes, kendi ifadesine göre eyalet yasalarının sürekli ihlal edilip edilmediğini inceliyor. Mayes, Reuters'a göre “Arizona eyaleti bu durumdan çok endişe duyuyor” dedi. Mayes, soruşturmadan etkilenen diğer şirketleri ve iletişime geçilen bankaları açıklamadı; dava açılması zorunlu değil.",
+     "İki gün önce Kaliforniya Başsavcısı Rob Bonta, OpenAI aleyhine hukuk davası açmıştı. Bonta, yapay zekâ modellerinin haberlere göre kendi başlarına siber saldırılar gerçekleştirmesinin ardından şirketi yeterli güvenlik önlemi almadan tehlikeli bir ürün geliştirmekle suçluyor.",
+     "OpenAI, Arizona'daki soruşturma hakkında başlangıçta yorum yapmadı. Şirket, Kaliforniya'daki davaya ilişkin olarak Techstrong.ai'ye göre soruşturmacılarla yapıcı biçimde çalıştığını ve koruma önlemlerini güçlendirdiğini belirtti."
+    ],
+    "d": "Arizona Başsavcısı Kris Mayes, OpenAI ve diğer yapay zekâ şirketleri hakkında soruşturma başlattı. Konu, “başıboş” yapay zekâ ajanlarının bankalara iddia edilen sızması olarak belirtiliyor.",
+    "t": "Arizona, bankalardaki iddia edilen yapay zekâ ajanları nedeniyle OpenAI'ı soruşturuyor"
+   },
+   "at": "2026-11-19T17:02Z",
+   "h": "9234adb7a6ad",
+   "rev": [
+    "\"Generalstaatsanwältin\" rendered as \"Başsavcı\" is acceptable; no change needed.",
+    "\"offenbar\" rendered as \"görünüşe göre\" is fine, but \"Mayes ... söylüyor\" is a claim attributed to her, which is correct.",
+    "Teaser: \"iddia edilen sızması\" is awkward; the word order should place the hedge correctly.",
+    "\"Ermittlungen in Arizona\" / \"Ermittler\" in the Californian case: \"soruşturmacılarla\" is acceptable.",
+    "The \"Anklagen sind nicht zwingend\" sentence is acceptable."
+   ],
+   "rev_dbg": [
+    5,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Phoenix'teki Arizona Kapitol Binası (Sembolik fotoğraf)"
+   }
+  },
   "berlin-grosseinsatz-ukraine-gipfel-2500-polizisten-2026-11-19-b1100": {
    "L": {
     "body": [
@@ -110,6 +138,37 @@
     "kl": "Berlin"
    }
   },
+  "berlin-wedding-rheinmetall-blockade-2026-11-19-b1830": {
+   "L": {
+    "body": [
+     "Silah üreticisi Rheinmetall'i hedef alan bir protesto eyleminde perşembe sabahı Berlin-Wedding'de 47 kişi altı kavşakta kendilerini yola yapıştırdı. Polis bilgilerine göre eylem saat 6.15 sularında başladı; bir polis sözcüsü eylemin Rheinmetall'e yönelik olduğunu doğruladı. Trafikte aksamalar yaşandı.",
+     "Polis, X ağında yaptığı açıklamada “Görevlilerimiz olay yerinde ve yapışmış kişileri yoldan ayırıyor” dedi. Polis bilgilerine göre şu anda yola yapışmış kimse kalmadı ve trafik yeniden akıyor. “Peacefully Against Genocide” grubu eylemi üstlendi; grubun bilgilerine göre ilk katılımcılar bir gözaltı toplama noktasına götürüldü. Polisin gözaltı sayısına veya soruşturmalara ilişkin bir açıklaması başlangıçta bulunmuyordu.",
+     "Rheinmetall, şirket bilgilerine göre eski otomotiv yan sanayi tesisinde başta topçu kovanları ve insansız hava aracı savaş başlıklarına yönelik bileşenler üretiyor. Tesisin önünde son haftalarda da Almanya'nın İsrail'e silah ihracatına karşı benzer protestolar yapılmıştı."
+    ],
+    "d": "Aktivistler perşembe sabahı Wedding'deki Rheinmetall fabrikasını altı kavşakta yapıştırma eylemleriyle protesto etti. Polis kişileri yoldan söktü, trafik yeniden akıyor.",
+    "t": "Berlin-Wedding: 47 aktivist Rheinmetall protestosunda kendilerini yola yapıştırdı"
+   },
+   "at": "2026-11-19T17:02Z",
+   "h": "d6a47c27ef4d",
+   "rev": [
+    "Weekday \"Perşembe\" should be lowercase per TDK (headline/teaser/body)",
+    "Teaser: \"Polis kişileri yoldan çıkardı\" is unnatural; \"löste ... von der Fahrbahn\" means detached them from the road surface",
+    "\"Rüstungskonzern\" is a defense/arms company; \"Silah üreticisi\" is acceptable but \"savunma sanayii şirketi\" is more natural",
+    "\"Artilleriehülsen\" rendered awkwardly as \"topçu mühimmat kovanları\"; simplified to \"topçu kovanları\"",
+    "Police tweet quote: \"ayırıyor\" acceptable; the \"Netzwerk X\" phrasing is fine",
+    "Deutsche Rüstungsexporte nach Israel: \"silah ihracatı\" fine",
+    "\"Gefangenensammelstelle\" rendered \"gözaltı toplama merkezi\" - established term is \"gözaltı toplama noktası\""
+   ],
+   "rev_dbg": [
+    7,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin'de polis aracı (Sembolik fotoğraf)",
+    "kl": "Berlin"
+   }
+  },
   "bgh-corona-impfschaden-bund-laender-haftung-2026-11-19-b0800": {
    "L": {
     "body": [
@@ -138,6 +197,33 @@
     "img.alt": "Karlsruhe'deki Federal Adalet Divanı (Arşiv fotoğrafı)"
    }
   },
+  "bta-chef-waltschew-ruecktritt-2026-11-19-b1830": {
+   "L": {
+    "body": [
+     "Devlet haber ajansı BTA'nın Genel Müdürü Kiril Valchev, perşembe öğleden sonra Meclis Kültür ve Medya Komisyonu'nda istifa edeceğini duyurdu. Valchev, 1 Kasım'da yapılan ikinci turda Iliyana Yotova ile birlikte başkan yardımcısı seçilmişti; görevine Ocak 2027'de başlayacak.",
+     "Valchev, kendi ifadesine göre yazılı istifa dilekçesini, Merkez Seçim Komisyonu seçim belgesini kendisine teslim eder etmez gelecek hafta sunmayı planlıyor. Görevden alınma konusunda Ulusal Meclis'in oy kullanması gerekiyor. Halef seçilene kadar genel müdür yardımcısı Evgenia Drumeva ajansın yönetimini devralacak; komisyon başkanlığına göre seçim sürecinin gelecek yılın başında başlaması öngörülüyor.",
+     "Valchev, BTA'yı Ocak 2021'den beri yönetiyor ve 2025'te oybirliğiyle ikinci görev süresi için onaylanmıştı. Veda ederken 2027 bütçesinde kamu yayıncılığı kuruluşları BTA, BNT ve BNR çalışanlarının maaşlarının artırılmasını talep etti."
+    ],
+    "d": "Seçilen başkan yardımcısı Kiril Valchev, devlet ajansı BTA'dan ayrılıyor. Meclis halef seçene kadar ajansı genel müdür yardımcısı Evgenia Drumeva'nın yönetmesi öngörülüyor.",
+    "t": "BTA Genel Müdürü Kiril Valchev istifa edeceğini açıkladı – başkan yardımcısı olacak"
+   },
+   "at": "2026-11-19T17:02Z",
+   "h": "1149bc387743",
+   "rev": [
+    "Weekday 'Perşembe' should be lowercase mid-sentence per TDK (perşembe)",
+    "'Stichwahl' rendered as 'ikinci tur' is fine; 'Ulusal Meclis' for Volksversammlung is acceptable",
+    "'Das Auswahlverfahren soll beginnen' rendered as a plain future fact; hedge restored",
+    "'Abschied' rendered as 'Veda konuşmasında' adds 'speech'; changed to neutral wording"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Bulgaristan Haber Ajansı BTA, Sofya'da (arşiv fotoğrafı)"
+   }
+  },
   "bulgarien-vier-planungsregionen-parlament-2026-11-19-b0800": {
    "L": {
     "body": [
@@ -163,6 +249,32 @@
    ],
    "x": {
     "img.alt": "Sofya'daki parlamento binası (sembolik fotoğraf)"
+   }
+  },
+  "bundesbank-inflation-jahreswechsel-2026-11-19-b1830": {
+   "L": {
+    "body": [
+     "Almanya Merkez Bankası Bundesbank, yılbaşından sonra Almanya'da enflasyonun sert biçimde yükseleceğini öngörüyor. Perşembe günü yayımlanan aylık rapora göre enflasyon oranı yıl sonuna kadar mevcut düzey civarında seyredebilir, “çünkü akaryakıt indirimi hâlâ düşürücü etki yapıyor”. Ekim ayında enflasyon oranı yüzde 3,3'ten yüzde 2,9'a gerilemişti.",
+     "2027 başında, akaryakıt vergisini şu anda litre başına yaklaşık 17 sent düşüren akaryakıt indiriminin sona ermesinin ve fiyatları artıran diğer devlet önlemlerinin enflasyonu yükseltmesi bekleniyor. Doğal gaz da pahalanabilir. Bundesbank, “Toplamda bu, enflasyon oranını 0,5 puan artırabilir” diye yazdı. Bundesbank'a göre özellikle Orta Doğu'daki çatışmalar nedeniyle yukarı yönlü riskler ağır basıyor.",
+     "Rapora göre Alman ekonomisi üçüncü çeyrekte hafif, ancak yavaşlayan bir tempoyla büyüdü. Özel tüketimin yüksek enerji fiyatları nedeniyle yalnızca az artmış olabileceği belirtiliyor. Finans piyasalarında ise Aralık ayında Avrupa Merkez Bankasının (AMB) faizi 0,25 puan artırması bekleniyor."
+    ],
+    "d": "Bundesbank'ın aylık raporuna göre enflasyon 2027 başında belirgin biçimde artabilir; bunun başlıca nedeni sona erecek akaryakıt indirimi. Orta Doğu'daki çatışmalardan kaynaklanan riskler ağır basıyor.",
+    "t": "Bundesbank, yılbaşından sonra enflasyonda sert bir yükseliş bekliyor"
+   },
+   "at": "2026-11-19T17:02Z",
+   "h": "41513f789b64",
+   "rev": [
+    "\"Nahen Osten\" rendered as \"Yakın Doğu\"; the established Turkish term is \"Orta Doğu\" (changed in teaser and body)",
+    "\"Vor allem wegen des auslaufenden Tankrabatts\" in the teaser reads as a plain fact, so attribution is kept via \"göre\" (already present), and the draft is fine otherwise",
+    "\"EZB\" written as \"Avrupa Merkez Bankası (ECB)\"; the Turkish abbreviation is AMB, or the form can stay without an abbreviation"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Alman Merkez Bankası Bundesbank'ın Frankfurt'taki merkezi (Arşiv fotoğrafı)"
    }
   },
   "bvb-kovac-gladbach-guirassy-anton-fraglich-2026-11-19-b1530": {
@@ -263,6 +375,34 @@
     "img.alt": "DFB Başkanı Bernd Neuendorf (Arşiv fotoğrafı)"
    }
   },
+  "dgb-arbeitsrechtsreform-kritik-2026-11-19-b1830": {
+   "L": {
+    "body": [
+     "Alman Sendikalar Birliği (DGB), federal kabinenin Çarşamba günü onayladığı iş hukuku reformunu sert bir dille eleştirdi. DGB Başkanı Yasmin Fahimi, Deutschlandfunk'ta planları “çalışanlar için ölümcül bir işaret” olarak niteledi. Fahimi, hükümeti bireysel iş haklarını budamak istemekle suçladı. Ayrıca iş güvencesinin kısıtlanmasının anayasaya uygun olduğundan kuşku duyduğunu belirtti.",
+     "Çalışma Bakanı Alexander Schweitzer'in (SPD) taslağı, objektif bir neden olmaksızın yapılan iş sözleşmelerinin bundan böyle şimdiye kadarki iki yıl yerine en fazla 48 ay süreyle belirli süreli yapılmasını ve bu süre içinde en fazla altı kez uzatılmasını öngörüyor. Yıllık geliri yaklaşık 180.000 avro olan çalışanlar için iş güvencesinin kısıtlanması planlanıyor.",
+     "Sol Parti Genel Başkanı Luigi Pantisano planları reddetti ve çalışanlar arasında artan güvensizlik konusunda uyardı. İşveren tarafı ise farklı düşünüyor: BDA Genel Müdürü Steffen Kampeter belirli süreli sözleşmeleri “gerçek bir istihdam motoru” olarak nitelendirdi ve iş güvencesinin esnetilmesinin en yüksek gelirlilerin ötesine de yaygınlaştırılmasını talep etti."
+    ],
+    "d": "Kabine kararından bir gün sonra iş hukuku reformu tartışması büyüyor: DGB reformu “ölümcül bir işaret” olarak niteliyor, Sol Parti reddediyor, işverenler ise daha da ileri gitmek istiyor.",
+    "t": "DGB iş hukuku reformuna karşı; işverenler daha uzun belirli süreye olumlu"
+   },
+   "at": "2026-11-19T17:02Z",
+   "h": "648aed0beef1",
+   "rev": [
+    "Indirect speech: Fahimi 'zweifelte an, dass ... verfassungsgemäß sei' was rendered as a mere statement of doubt; the Turkish should make clear it was her doubt/claim and keep the sentence natural.",
+    "Teaser: 'DGB “ölümcül bir işaret” diyor' is ambiguous; clarify with 'olarak niteliyor'.",
+    "Headline: 'Befristungen' is better rendered as 'belirli süreli sözleşmeler'.",
+    "'Sachgrund' was rendered as 'haklı neden' (justified reason); the correct term is 'objektif neden'.",
+    "'bis zu sechsmal verlängern' – 'en fazla altı kez uzatılması' is OK."
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "DGB Başkanı Yasmin Fahimi (Arşiv fotoğrafı)"
+   }
+  },
   "dreesen-musiala-hoeness-kompany-koeln-2026-11-19-b1100": {
    "L": {
     "body": [
@@ -285,6 +425,34 @@
    ],
    "x": {
     "img.alt": "Jamal Musiala (Arşiv fotoğrafı)"
+   }
+  },
+  "epa-klimafonds-supreme-court-2026-11-19-b1830": {
+   "L": {
+    "body": [
+     "Başkan Donald Trump yönetimi, Çevre Koruma Ajansı EPA'nın 16 milyar dolarlık hibeleri iptal etmesine izin verilmesi için Yüksek Mahkeme'ye başvurdu. Konu, 2022'de Enflasyonu Azaltma Yasası ile kurulan ve “Green Bank” olarak anılan Sera Gazı Azaltım Fonu'dur. Yargıçların davayı kabul edip etmeyeceği belirsiz.",
+     "EPA, fonları 2025'te Trump'ın göreve başlamasından kısa süre sonra iptal etti; EPA Başkanı Lee Zeldin, sürece dahil olan kâr amacı gütmeyen kuruluşları yanlış yönetim ve olası dolandırıcılıkla suçladı. Bölge yargıcı Tanya Chutkan, kurumun sorulduğunda dolandırıcılığa ilişkin kanıt sunmadığını söyledi. Ağustos'ta Washington'daki bir istinaf mahkemesi, kendi içinde bölünerek de olsa kuruluşlar lehine karar verdi.",
+     "Hükümet, meselenin devlete karşı taleplere bakan federal mahkemenin görev alanına giren bir sözleşme uyuşmazlığı olduğunu savunuyor. Kuruluşlar ise feshin anayasaya aykırı olduğunu düşünüyor. Yüksek Mahkeme davayı incelediği sürece ödemeler şimdilik askıda kalıyor."
+    ],
+    "d": "ABD hükümeti, “Green Bank” iklim fonundan 16 milyar dolarlık hibeleri iptal edebilmek için Yüksek Mahkeme'den izin istedi. Bir istinaf mahkemesi feshi hukuka aykırı ilan etmişti.",
+    "t": "Trump yönetimi 16 milyar dolarlık iklim fonunun iptalini Yüksek Mahkeme'ye taşıdı"
+   },
+   "at": "2026-11-19T17:02Z",
+   "h": "ec301780612d",
+   "rev": [
+    "Awkward and illogical phrase \"oy çokluğuyla değil, bölünmüş bir kararla\" for \"geteiltes Berufungsgericht\"; a divided court ruled in favor",
+    "Chutkan's statement is attributed (\"söyledi\"), but \"sunmadığını\" should keep the reported-speech reading; acceptable, so only a minor wording fix",
+    "\"düşünüyor\" is weaker than the German \"halten ... für verfassungswidrig\"; kept, no change needed",
+    "Teaser: \"usulsüz bulmuştu\" is imprecise for \"für unzulässig erklärt\" (the termination was declared unlawful)"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "ABD Yüksek Mahkemesi, Washington (Arşiv fotoğrafı)",
+    "kl": "ABD"
    }
   },
   "eu-kommission-ki-cyberangriff-2026-11-19-b1530": {
@@ -393,6 +561,32 @@
    ],
    "x": {
     "img.alt": "Hamburg Belediye Sarayı (Sembolik fotoğraf)"
+   }
+  },
+  "leeds-farke-chelsea-trafford-2026-11-19-b1830": {
+   "L": {
+    "body": [
+     "Leeds United, cumartesi günkü Premier Lig maçı için Chelsea deplasmanına yeni sakatlık endişesi olmadan gidiyor. Teknik direktör Daniel Farke perşembe günü “Şu an itibarıyla bildirilecek bir sakatlık yok” dedi. 17 milli oyuncunun tamamı sağlıklı döndü; Anton Stach ve Noah Okafor ise sakatlıklarının ardından geri dönüşleri için çalışmayı sürdürüyor.",
+     "Farke, İngiltere Milli Takımı'ndaki performansı nedeniyle çok övgü alan kaleci James Trafford hakkında ayrıntılı konuştu. Alman teknik direktör, “Kalecimin üst düzey bir performans sergileyebilmesine herkesin bu kadar şaşırmasına şaşırdım” dedi. Şu ana kadar Leeds'ten daha az gol yiyen yalnızca Arsenal ve Brighton var.",
+     "Farke, Chelsea'de “üst düzey oyuncular ve birinci sınıf bir teknik direktör” bekliyor. Leeds son maçında Tottenham'ı 1-0 yenmişti."
+    ],
+    "d": "Leeds Teknik Direktörü Daniel Farke, cumartesi günkü Chelsea maçı öncesi yeni sakatlık olmadığını açıkladı. Kaleci James Trafford hakkında, herkesin onun formuna şaşırmasına şaşırdığını söyledi.",
+    "t": "Farke, Chelsea deplasmanına yeni sakatlık olmadan gidiyor, kaleci Trafford'u övüyor"
+   },
+   "at": "2026-11-19T17:02Z",
+   "h": "23318411b149",
+   "rev": [
+    "Headline: \"yeni sakatsız\" is ungrammatical/unnatural; should say no new injuries",
+    "Body: \"Leeds son maçında Tottenham'ı 1-0 yenmişti\" – \"Zuletzt\" is fine, but the sentence is correct; no change",
+    "Teaser: indirect speech is attributed (söyledi) – acceptable"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Daniel Farke (Arşiv fotoğrafı)"
    }
   },
   "niedersachsen-umfrage-spd-vorn-cdu-verliert-2026-11-19-b1530": {
@@ -635,6 +829,35 @@
    ],
    "x": {
     "img.alt": "Berlin’deki Federal Şansölyelik binası (Sembolik fotoğraf)"
+   }
+  },
+  "vfb-stuttgart-stiller-schalke-2026-11-19-b1830": {
+   "L": {
+    "body": [
+     "VfB Stuttgart, cumartesi günü (18:30) oynanacak FC Schalke 04 deplasmanındaki Bundesliga maçında da Angelo Stiller'den yoksun olacak. 25 yaşındaki oyuncu, adduktör sakatlığının ardından henüz oynama izni almadı ve son üç resmi maçı kaçırdı. Teknik direktör Sebastian Hoeneß'e göre durumu “nispeten iyi”.",
+     "Stiller'in önümüzdeki çarşamba günü Şampiyonlar Ligi'nde Inter Milan karşısında kadroda olup olmayacağı belirsiz. Hoeneß, “Yeterli olursa tam zamanında olur” dedi. Hoeneß, orta saha oyuncusu için “son derece önemli bir oyuncu” ifadesini kullandı.",
+     "Hoeneß, henüz yalnızca altı puan toplayan ve evinde hâlâ gol atamayan Bundesliga'ya yeni yükselen takım için yine de uyarıda bulundu: Schalke'yi 60.000 seyirci önünde “kesinlikle hafife almayacaklarını” söyledi. VfB yaklaşık bir ay önce evinde son sıradaki Borussia Mönchengladbach'a sürpriz bir şekilde 2-3 yenilmişti."
+    ],
+    "d": "Stuttgart'ın orta saha lideri Angelo Stiller cumartesi günkü Schalke 04 maçında da yok. Teknik direktör Sebastian Hoeneß, Inter Milan deplasmanındaki Şampiyonlar Ligi maçında dönmesini umuyor.",
+    "t": "VfB, Schalke deplasmanında da Angelo Stiller'siz oynayacak"
+   },
+   "at": "2026-11-19T17:02Z",
+   "h": "1928b5806d0a",
+   "rev": [
+    "Weekday \"Çarşamba\" is capitalised mid-sentence; per TDK, days of the week are written in lowercase (\"çarşamba\"; same for \"Cumartesi\")",
+    "The German says Stiller has missed his last three competitive matches \"zuletzt\"; the Turkish is acceptable, so this is left unchanged",
+    "\"Mönchengladbach\" is a proper name, so it stays as is",
+    "\"yeni yükselen takım\" is clumsy; \"yeni yükselen\" should be \"yeni lige çıkan\" or simply \"Bundesliga'ya yükselen takım\"",
+    "The Turkish draft says the first Hoeneß statement is \"Hoeneß'e göre durumu 'nispeten iyi'\", which is fine",
+    "\"Inter Milan\" is an acceptable spelling for Inter Mailand"
+   ],
+   "rev_dbg": [
+    6,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Angelo Stiller (Arşiv fotoğrafı)"
    }
   }
  }
