@@ -54,6 +54,33 @@
     "kl": "Berlin"
    }
   },
+  "berlin-mariendorf-messerangriff-kruckenbergstrasse-2026-11-19-b1530": {
+   "L": {
+    "body": [
+     "Polis bilgilerine göre Berlin-Mariendorf'ta 54 yaşındaki bir adam çarşamba akşamı bıçakla yaralandı. Saat 21.30 sularında Kruckenbergstraße'deki kaldırımda kimliği belirsiz bir kişinin adama seslendiği ve uyarıda bulunmadan göğsüne bıçak sapladığı belirtiliyor. Şüpheli saldırgan ardından bilinmeyen bir yöne kaçtı.",
+     "Kurtarma ekipleri yaralıya olay yerinde müdahale etti; yaralı daha sonra kendi isteğiyle taburcu edildi. Polis, tehlikeli yaralama suçundan soruşturma yürütüyor. Polis Müdürlüğü 4'ün (Güney) bir uzman komiserliği, olayın arka planına ilişkin soruşturmalar da dahil olmak üzere sonraki soruşturmaları devraldı."
+    ],
+    "d": "Polis bilgilerine göre bir adam çarşamba akşamı Kruckenbergstraße'deki kaldırımda ansızın bıçakla saldırıya uğradı. Saldırgan kaçtı, kriminal polis soruşturuyor.",
+    "t": "Berlin-Mariendorf: Polisin bildirdiğine göre bir adam uyarısız bıçakla yaralandı"
+   },
+   "at": "2026-11-19T14:01Z",
+   "h": "ffaaec65a621",
+   "rev": [
+    "Weekdays should be lowercase per TDK (Çarşamba -> çarşamba), in teaser and body",
+    "Kruckenbergstraße is a proper name; Turkish suffix form should be kept consistent, so no change",
+    "Lost hedge: 'mutmaßlich' rendered as 'İddiaya göre saldırgan' - changed to 'Şüpheli saldırgan' to keep presumption of innocence",
+    "'Fachkommissariat' and 'Täter' in the teaser stated as fact; teaser should keep the attribution to the police, which is present, so no change"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin Polisi'ne ait bir müdahale aracı (Sembolik fotoğraf)",
+    "kl": "Berlin"
+   }
+  },
   "berlin-schoeneberg-schuesse-dominicusstrasse-zwei-verletzte-2026-11-19-b0800": {
    "L": {
     "body": [
@@ -138,6 +165,83 @@
     "img.alt": "Sofya'daki parlamento binası (sembolik fotoğraf)"
    }
   },
+  "bvb-kovac-gladbach-guirassy-anton-fraglich-2026-11-19-b1530": {
+   "L": {
+    "body": [
+     "Borussia Dortmund, cumartesi günü (15:30) Borussia Mönchengladbach deplasmanında oynayacağı Bundesliga maçı öncesinde iki önemli oyuncusu için endişe yaşıyor. Forvet Serhou Guirassy, Betis Sevilla'ya karşı alınan 2-1'lik maçtan kalma bir uyluk kası zorlanmasıyla uğraşıyor; defans oyuncusu Waldemar Anton ise kas sorunları yaşıyor ve bu nedenle milli takım yolculuğuna katılmadı. İkisi de son olarak bireysel çalıştı. Kararın son anda verilmesi bekleniyor. Teknik direktör Niko Kovač perşembe günü “Oynamaları göz ardı edilmiyor” dedi.",
+     "Kovač, Samuele Inacio'nun durumunu da sorunlu olarak nitelendirdi: “Biraz sorunlu olan tek kişi, sakat dönen Samu.” Elversberg maçında erken dakikada oyundan çıkarılmak zorunda kalan Carney Chukwuemeka, sol uyluğundaki kas sakatlığı nedeniyle şimdilik forma giyemeyecek; bu yıl içinde dönmesi mümkün görülüyor. Kulüp kesin bir teşhis açıklamadı.",
+     "Ligin ikinci sırasındaki takım, son sıradaki ekibin deplasmanına gidiyor ve serisini sürdürmek istiyor. Teknik direktör, GTA 6 video oyununa değinerek şaka yaptı ve oyuncularının onu “gece ile gündüzü karıştıracak kadar aşırı oynamamasını” umduğunu söyledi."
+    ],
+    "d": "BVB Teknik Direktörü, vücudu yara almış oyuncuları hakkında son anda karar verecek. Son sıradaki takımın deplasmanı öncesinde Chukwuemeka da şimdilik yok.",
+    "t": "Kovač Gladbach maçı öncesi: Guirassy ve Anton'un oynaması “göz ardı edilmiyor”"
+   },
+   "at": "2026-11-19T14:01Z",
+   "h": "b5724c5aacdf",
+   "rev": [
+    "Weekdays capitalised mid-sentence (Cumartesi, Perşembe); TDK requires lowercase",
+    "Sevilla was flagged as untranslated, but it is a proper name (Betis Sevilla), so it stays",
+    "Score format: 2-1'lik maçtan is acceptable but 'Betis Sevilla'ya karşı 2-1'lik galibiyetten' is more natural; the German only says '2:1 gegen', so the result is left as is",
+    "Headline quote marks and 'Son sıradaki takım deplasmanı' in the teaser are ungrammatical/ambiguous",
+    "Kovač's quote omitted 'Der Einzige, der so ein bisschen problematisch ist' nuance; kept, but 'etwas verletzt' rendered as 'sakat dönen' is acceptable",
+    "Teaser: 'angeschlagenen Profis' = 'sakatlık yaşayan' is slightly off; 'vorerst fehlt' fine"
+   ],
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Niko Kovač (Arşiv fotoğrafı)"
+   }
+  },
+  "commerzbank-unicredit-bund-einigung-2026-11-19-b1530": {
+   "L": {
+    "body": [
+     "Federal hükümet, Commerzbank'ın İtalyan Unicredit tarafından devralınmasına artık karşı çıkmıyor. Maliye Bakanı Lars Klingbeil (SPD) ile Unicredit CEO'su Andrea Orcel arasındaki görüşmelerin ardından her iki tarafın ortak bir zemin bulduğu bildirildi. Klingbeil, “Federal hükümet artık sürecin hızlı bir şekilde devam etmesini ve kontrolün düzenli biçimde devredilmesini destekliyor” dedi.",
+     "Anlaşmaya göre Commerzbank, merkezi Frankfurt'ta bulunan borsaya kote bir anonim şirket olarak kalacak, önemli kararlar Almanya'da alınacak ve orta ölçekli işletmelere yönelik faaliyetler genişletilecek. Yüzde 13'ün biraz üzerinde hisseye sahip olan federal hükümet, iki denetim kurulu üyesini belirleme hakkından vazgeçiyor; Unicredit iki bağımsız aday önerecek. Unicredit, Commerzbank'ın yaklaşık yüzde 50'sini şimdiden elde etti.",
+     "Klingbeil, federal hükümetin hisselerini satıp satmayacağını ve ne zaman satacağını açık bıraktı. Orcel, Unicredit'in bir satışı destekleyeceğini yazdı. Taahhüt, operasyonel nedenlerle yapılan işten çıkarmalardan açıkça vazgeçildiğini içermiyor; çalışan temsilcileri binlerce iş kaybından endişe ediyor."
+    ],
+    "d": "Maliye Bakanı Klingbeil ile Unicredit CEO'su Orcel anlaştı. Commerzbank borsada işlem görmeye ve merkezi Frankfurt'ta kalmaya devam edecek; işten çıkarmalardan vazgeçileceğine dair bir taahhüt yok.",
+    "t": "Commerzbank: Federal hükümet Unicredit'in devralmasına karşı direnişten vazgeçti"
+   },
+   "at": "2026-11-19T14:01Z",
+   "h": "2c9a5816248c",
+   "rev": [
+    "Teaser: 'işten çıkarmaların hariç tutulacağına dair bir taahhüt yok' is imprecise; the German says there is no waiver of dismissals (specifically operational ones in the body)",
+    "Indirect speech: 'Orcel ... destekleyeceğini yazdı' is acceptable as attributed; no change needed",
+    "'Gut 13 Prozent' rendered 'yüzde 13'ün biraz üzerinde' - fine",
+    "'Unicredit' is a proper name, kept"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Frankfurt silüetinde Commerzbank Tower (Arşiv fotoğrafı)"
+   }
+  },
+  "db-familienpaket-170-mio-euro-demografie-2026-11-19-b1530": {
+   "L": {
+    "body": [
+     "Demokratik Bulgaristan (DB) ittifakı, vergi yasalarında ve 2027 bütçesinde yapılacak değişikliklerle ülkedeki demografik krizle mücadele etmek istiyor. “Önce aile” başlıklı paketin hacmi yaklaşık 170 milyon euro; partinin verdiği bilgiye göre karşı finansman kaynakları öngörülüyor. Milletvekili Vladislav Panev, önerileri perşembe günü mecliste sundu.",
+     "Planlananlar arasında, 18 yaşın altında üçüncü ve dördüncü çocuğu olan aileler için belirgin ölçüde daha yüksek vergi indirimleri, üniversite okuyan anneler için dönem harçlarının silinmesi ve çocuklu genç aileler için yüzde 23 daha düşük emlak edinme vergisi yer alıyor. Ebeveyn izninin ikinci yılında işe dönen annelerin tam analık ödeneği alması öngörülüyor.",
+     "Milletvekili Elisaveta Belobradova ayrıca kreş grupları için ortak standartları, kreş veya anaokulu yeri bulunmayan çocuklar için daha yüksek telafi ödemelerini ve devlet tarafından finanse edilen bir erken teşhis programını dile getirdi. DB, birçok ailenin karşılayamayacağı, aylık 1200 ile 1400 euro arasında değişen özel kreş ücretlerine işaret ediyor."
+    ],
+    "d": "“Önce aile”: üçüncü ve dördüncü çocuklar için daha yüksek vergi muafiyeti, genç aileler için daha düşük emlak edinme vergisi ve işe erken dönen annelere tam analık ödeneği.",
+    "t": "Bulgaristan: Demokratik Bulgaristan 170 milyon euroluk aile paketi önerdi"
+   },
+   "at": "2026-11-19T14:01Z",
+   "h": "2fd1bf4488b3",
+   "rev_dbg": [
+    4,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Bulgaristan Ulusal Meclisi binası, Sofya (Arşiv fotoğrafı)"
+   }
+  },
   "dfb-unterstuetzt-diallo-fifa-wahl-2026-11-19-b0800": {
    "L": {
     "body": [
@@ -183,6 +287,33 @@
     "img.alt": "Jamal Musiala (Arşiv fotoğrafı)"
    }
   },
+  "eu-kommission-ki-cyberangriff-2026-11-19-b1530": {
+   "L": {
+    "body": [
+     "Avrupa Komisyonu, yapay zekâ araçlarının kullanıldığı bir siber saldırının hedefi oldu. Komisyon sözcüsü Thomas Regnier perşembe günü Brüksel'de bunu doğruladı: “This was an AI-generated cybercampaign.” (Bu, yapay zekâyla oluşturulmuş bir siber kampanyaydı.) Komisyonun verdiği bilgiye göre olay 22 Ekim'de tespit edildi. Komisyona göre birkaç uygulama önlem amacıyla ağdan çıkarıldı, çoğu şimdi yeniden çalışıyor.",
+     "Politico'nun haberine göre maaş bordrosu ve mesai takibi için kullanılan personel sistemleri ile sağlık giderlerinin geri ödenmesine yönelik bir sistem yaklaşık on gün boyunca kapalı kaldı; haberde, büyük miktarda kişisel verinin etkilenmiş olabileceği belirtildi. Regnier ise buna karşılık, çalışanların tümünü etkileyen bir veri sızıntısına dair herhangi bir işaret bulunmadığını söyledi. Komisyonun en üst düzey iç kriz kurulu acil toplantı için bir araya geldi; Teknoloji Komiseri Henna Virkkunen çarşamba günü meslektaşlarını bilgilendirdi.",
+     "Regnier, saldırının arkasında kimin olduğunu söylemek istemedi. Bir fidye talebinden haberi olmadığını, soruşturmanın sürdüğünü ifade etti. Olay, bu yıl kritik sistemlere yönelik saldırı dizisine ekleniyor; bunlar arasında ABD'deki su işletmeleri ve Los Angeles toplu taşıma ağı da yer alıyor."
+    ],
+    "d": "Brüksel olayı “yapay zekâyla oluşturulmuş siber kampanya” olarak niteliyor. Maaş ve sağlık gideri sistemleri yaklaşık on gün kapalı kaldı, soruşturma sürüyor.",
+    "t": "AB Komisyonu yapay zekâ araçlı siber saldırıyı doğruladı: sistemler günlerce kapalı kaldı"
+   },
+   "at": "2026-11-19T14:01Z",
+   "h": "051b54828961",
+   "rev": [
+    "Weekdays capitalised mid-sentence (Perşembe, Çarşamba); TDK requires lowercase",
+    "\"Komisyon Sözcüsü\" and \"Teknoloji Komiseri\" are titles before a name but should be lowercase when used as a descriptive job description; adjusted to lowercase",
+    "\"Mehrere Anwendungen\" rendered as \"birçok uygulama\" (many); should be \"several\" (bazı/birkaç)",
+    "The \"Mehrere ... seien\" sentence was attributed to Regnier, but the German attributes it to the Commission (nach Angaben der Kommission)"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "AB Komisyonu'nun Brüksel'deki Berlaymont binası (Sembolik fotoğraf)"
+   }
+  },
   "google-gemini-4-neon-2026-11-19-b1100": {
    "L": {
     "body": [
@@ -211,6 +342,35 @@
     "img.alt": "Google'ın Mountain View'daki merkezi (Sembolik fotoğraf)"
    }
   },
+  "igh-myanmar-voelkermord-rohingya-urteil-2026-11-19-b1530": {
+   "L": {
+    "body": [
+     "Lahey'deki Uluslararası Adalet Divanı (UAD) perşembe günü, Myanmar'ın ordusunun 2016/17'deki sözde temizlik operasyonlarında Müslüman azınlık Rohingyalara karşı soykırım işlediğine karar verdi. Mahkeme Başkanı Yuji Iwasawa karar duyurusunda, mahkemenin, Myanmar'ın Rohingya nüfusunun önemli bir bölümünü yok etme niyetiyle hareket ettiğine “fully convinced” (tamamen ikna olmuş) olduğunu söyledi. BM'nin en yüksek mahkemesinin bir devleti soykırımdan doğrudan sorumlu tutması bir ilk.",
+     "Mahkemenin tespitlerine göre Myanmar güvenlik güçleri yaklaşık 10.000 Rohingyayı öldürdü, yaygın cinsel şiddet uyguladı ve köyleri sistematik biçimde yok etti. Myanmar tazminat ödemek, bu kapsamda Rohingyaların kendi yurtlarına güvenli dönüşüne olanak tanımak ve mülklerini iade etmek ya da bedelini ödemek zorunda.",
+     "Gambiya davayı Kasım 2019'da BM Soykırım Sözleşmesi temelinde açmıştı. Uluslararası Af Örgütü Genel Sekreteri Agnès Callamard kararı “tarihi” olarak nitelendirdi. Myanmar'ın lideri Min Aung Hlaing hakkında ayrıca Uluslararası Ceza Mahkemesi'nde tutuklama emri talebi bulunuyor."
+    ],
+    "d": "Uluslararası Adalet Divanı ilk kez bir devleti soykırımdan sorumlu buldu. Myanmar tazminat ödemek ve Rohingyaların dönüşüne olanak tanımak zorunda.",
+    "t": "Tarihi karar: BM mahkemesi Myanmar'ın Rohingyalara soykırım uyguladığına hükmetti"
+   },
+   "at": "2026-11-19T14:01Z",
+   "h": "c28976178d88",
+   "rev": [
+    "Weekday \"Perşembe\" should be lowercase per TDK.",
+    "Indirect speech sentence is ungrammatical/awkward: \"fully convinced\" clause is broken; the quoted phrase must be integrated properly.",
+    "Third sentence of paragraph 1 is not a faithful rendering: it should say it is the first time the UN's highest court holds a state itself responsible for genocide.",
+    "Quotation marks should follow Turkish convention (use \"…\" style consistent), kept simple.",
+    "Teaser: \"Rohingyaların dönüşüne olanak tanımak\" fine; no change."
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Bangladeş'teki Rohingya mülteci kampı (Arşiv fotoğrafı)",
+    "kl": "Myanmar"
+   }
+  },
   "justizministerkonferenz-hamburg-hessen-abschiebung-ki-klagen-2026-11-19-b0800": {
    "L": {
     "body": [
@@ -233,6 +393,35 @@
    ],
    "x": {
     "img.alt": "Hamburg Belediye Sarayı (Sembolik fotoğraf)"
+   }
+  },
+  "niedersachsen-umfrage-spd-vorn-cdu-verliert-2026-11-19-b1530": {
+   "L": {
+    "body": [
+     "Infratest dimap'ın NDR için yaptığı yeni ankete göre, Aşağı Saksonya'da Başbakan Olaf Lies'in SPD'si yüzde 27 oy oranına ulaştı. CDU, Kasım 2025'teki ankete kıyasla beş puan kaybederek yüzde 21'e düştü ve bir puan artışla yüzde 21'e çıkan AfD ile aynı seviyede yer aldı. Yeşiller üç puan artışla yüzde 15'e ulaştı.",
+     "Sol Parti yüzde 5 ile eyalet meclisine zar zor girebilecek, FDP ise yüzde 4 ile giremeyecek. Anket sonuçlarına göre iktidardaki SPD-Yeşiller koalisyonunun artık kendi çoğunluğu olmayacaktı. SPD ile CDU'dan oluşan bir büyük koalisyon ya da SPD, Yeşiller ve Sol Parti'den oluşan bir ittifak mümkün olabilir; diğer tüm partiler AfD ile iş birliğini reddediyor.",
+     "Ankete 1152 seçmen katıldı. Aşağı Saksonya'da bir sonraki eyalet seçiminin olağan takvimle 26 Eylül 2027'de yapılması planlanıyor."
+    ],
+    "d": "Eyalet seçimine bir yıldan az süre kala Başbakan Lies'in SPD'si yüzde 27 ile önde. CDU beş puan kaybederek yüzde 21'e geriledi ve AfD ile aynı seviyede.",
+    "t": "Aşağı Saksonya anketi: CDU çöktü, AfD ile başa baş – SPD-Yeşiller anketlerde çoğunluksuz"
+   },
+   "at": "2026-11-19T14:01Z",
+   "h": "980ebc87c78a",
+   "rev": [
+    "Title: 'SPD-Yeşiller çoğunluğu kaybetti' states a fact, whereas the German says 'ohne Mehrheit' in a poll; made it poll-based.",
+    "Teaser: 'Ministerpräsident' rendered as 'Başbakan' (state premier); 'Eyalet Başbakanı' is clearer. 'Bir yıldan az' vs 'knapp ein Jahr' acceptable.",
+    "Indirect speech: the sentence about the coalition lacking a majority reads as plain fact; needs attribution to the poll.",
+    "'möglich wären' rendered as 'mümkün görünüyor', which is a slight addition; changed to a conditional.",
+    "Body: the poll was 'für den NDR'; 'CDU ... fällt' fine."
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Hannover'deki Leineschloss, Aşağı Saksonya Eyalet Meclisi'nin merkezi (Arşiv fotoğrafı)",
+    "kl": "Aşağı Saksonya"
    }
   },
   "parlament-gaubici-caesar-iris-t-2026-11-19-b1100": {
@@ -259,6 +448,33 @@
    ],
    "x": {
     "img.alt": "Caesar kundağı motorlu obüs (Sembolik fotoğraf)"
+   }
+  },
+  "pochettino-pressekonferenz-ausnahme-liverpool-united-2026-11-19-b1530": {
+   "L": {
+    "body": [
+     "Premier League, Manchester United'a Mauricio Pochettino'nun ilk basın toplantısı için istisna tanıdı. Yeni teknik direktör cuma günü İngiltere saatiyle 14:00'te gazetecilerin sorularını yanıtlayacak; United toplantı saatini perşembe sabahı doğruladı. Lig el kitabına göre hafta sonu maç oynayan kulüplerin basın toplantılarını perşembe veya cuma günü en geç 13:30'a kadar yapması gerekiyor; olağanüstü koşulların bulunması hâli bunun dışında tutuluyor.",
+     "Kurallar, örnek olarak perşembe akşamı oynanan Avrupa kupası maçlarından geç dönülmesini gösteriyor. Lig, Pochettino'nun milli takım teknik direktörlüğü görevinden Manchester'a geçişini bununla kıyaslanabilir buldu. Gazeteci Steven Railston'a (Manchester Evening News) göre United, Arjantinli teknik adamın çok yoğun bir hafta geçirdiğine işaret etti.",
+     "Pochettino perşembe günü Carrington'da ilk kez antrenmanı yönetti, cuma günü ise son idmanı yönetecek. İlk maçı pazar günü Anfield'da Liverpool'a karşı oynanacak. Geldiğinde “It's an honour” (Bu bir onur) dedi."
+    ],
+    "d": "Manchester United'ın yeni teknik direktörü cuma günü medyanın karşısına olağan sürenin yarım saat sonrasında, saat 14:00'te çıkacak. Pazar günü Liverpool ile karşılaşacak.",
+    "t": "Pochettino için istisna: Premier League ilk United basın toplantısını erteledi"
+   },
+   "at": "2026-11-19T14:01Z",
+   "h": "798b78e1deb7",
+   "rev": [
+    "Weekday names (Cuma, Perşembe, Pazar) are capitalised mid-sentence, which is wrong under TDK rules; they should be lower case.",
+    "The teaser's last sentence 'Pazar günü rakip Liverpool.' is incomplete and lacks the verb 'wartet'.",
+    "'Cuma günü ise son idmanı yönetecek' is stylistically awkward, but it is correct and was left as is.",
+    "The indirect speech 'Laut Ligahandbuch' keeps its attribution ('Lig el kitabına göre'), so no change is needed."
+   ],
+   "rev_dbg": [
+    4,
+    8,
+    0
+   ],
+   "x": {
+    "img.alt": "Mauricio Pochettino (Arşiv fotoğrafı)"
    }
   },
   "reiche-schneider-eeg-reform-mehrkosten-2026-11-19-b1100": {
