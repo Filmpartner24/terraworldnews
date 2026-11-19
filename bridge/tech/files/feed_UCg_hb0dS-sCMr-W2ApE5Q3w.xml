@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCg_hb0dS-sCMr-W2ApE5Q3w"/>
+ <id>yt:channel:g_hb0dS-sCMr-W2ApE5Q3w</id>
+ <yt:channelId>g_hb0dS-sCMr-W2ApE5Q3w</yt:channelId>
+ <title>ORI - Oxford Robotics Institute</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCg_hb0dS-sCMr-W2ApE5Q3w"/>
+ <author>
+  <name>ORI - Oxford Robotics Institute</name>
+  <uri>https://www.youtube.com/channel/UCg_hb0dS-sCMr-W2ApE5Q3w</uri>
+ </author>
+ <published>2011-09-23T16:23:08+00:00</published>
+ <entry>
+  <id>yt:video:eVFQbRyilCA</id>
+  <yt:videoId>eVFQbRyilCA</yt:videoId>
+  <yt:channelId>UCg_hb0dS-sCMr-W2ApE5Q3w</yt:channelId>
+  <title>Gaitor: Learning a Unified Representation Across Gaits for Real-World Quadruped Locomotion</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=eVFQbRyilCA"/>
+  <author>
+   <name>ORI - Oxford Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCg_hb0dS-sCMr-W2ApE5Q3w</uri>
+  </author>
+  <published>2024-10-02T12:08:45+00:00</published>
+  <updated>2026-10-04T09:10:07+00:00</updated>
+  <media:group>
+   <media:title>Gaitor: Learning a Unified Representation Across Gaits for Real-World Quadruped Locomotion</media:title>
+   <media:content url="https://www.youtube.com/v/eVFQbRyilCA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/eVFQbRyilCA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Accepted to the 8th Conference on Robot Learning (CoRL 2024), Munich, Germany.
+Abstract: The current state-of-the-art in quadruped locomotion is able to produce a variety of complex motions. These methods either rely on switching between a discrete set of skills or learn a distribution across gaits using complex black-box models. Alternatively, we present Gaitor, which learns a disentangled and 2D representation across locomotion gaits. This learnt representation forms a planning space for closed-loop control delivering continuous gait transitions and perceptive terrain traversal. Gaitor’s latent space is readily interpretable and we discover that during gait transitions, novel unseen gaits emerge. The latent space is disentangled with respect to footswing heights and lengths. This means that these gait characteristics can be varied independently in the 2D latent representation. Together with a simple terrain encoding and a learnt planner operating in the latent space, Gaitor can take motion commands including desired gait type and swing characteristics all while reacting to uneven terrain. We evaluate Gaitor in both simulation and the real world on the ANYmal C platform. To the best of our knowledge, this is the first work learning a unified and interpretable latent space for multiple gaits, resulting in continuous blending between different locomotion modes on a real quadruped robot.</media:description>
+   <media:community>
+    <media:starRating count="10" average="5.00" min="1" max="5"/>
+    <media:statistics views="461"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:dCbAiKrq1Jw</id>
+  <yt:videoId>dCbAiKrq1Jw</yt:videoId>
+  <yt:channelId>UCg_hb0dS-sCMr-W2ApE5Q3w</yt:channelId>
+  <title>[CVPR 2023] Visual DNA: Representing and Comparing Images using Distributions of Neuron Activations</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=dCbAiKrq1Jw"/>
+  <author>
+   <name>ORI - Oxford Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCg_hb0dS-sCMr-W2ApE5Q3w</uri>
+  </author>
+  <published>2023-05-31T15:59:48+00:00</published>
+  <updated>2026-10-04T23:31:54+00:00</updated>
+  <media:group>
+   <media:title>[CVPR 2023] Visual DNA: Representing and Comparing Images using Distributions of Neuron Activations</media:title>
+   <media:content url="https://www.youtube.com/v/dCbAiKrq1Jw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/dCbAiKrq1Jw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Video introducing our paper “Visual DNA: Representing and Comparing Images using Distributions of Neuron Activations”, presented at the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2023.
+Project page: https://bramtoula.github.io/vdna/
+arxiv: https://arxiv.org/abs/2304.10036
+Code: https://github.com/bramtoula/vdna</media:description>
+   <media:community>
+    <media:starRating count="7" average="5.00" min="1" max="5"/>
+    <media:statistics views="297"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:bMRUbZf7E7c</id>
+  <yt:videoId>bMRUbZf7E7c</yt:videoId>
+  <yt:channelId>UCg_hb0dS-sCMr-W2ApE5Q3w</yt:channelId>
+  <title>Team ORIon Bangkok 2022</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=bMRUbZf7E7c"/>
+  <author>
+   <name>ORI - Oxford Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCg_hb0dS-sCMr-W2ApE5Q3w</uri>
+  </author>
+  <published>2023-05-10T08:45:43+00:00</published>
+  <updated>2026-10-04T21:29:42+00:00</updated>
+  <media:group>
+   <media:title>Team ORIon Bangkok 2022</media:title>
+   <media:content url="https://www.youtube.com/v/bMRUbZf7E7c?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/bMRUbZf7E7c/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This video is about Team ORIon's participation in the 2022 RoboCup held in Bangkok, Thailand. RoboCup is an international robotics competition that promotes research in robotics and AI. Team ORIon, supported by the ORI, the Department of Engineering Science, and private donors, sent nine members to compete in the &quot;@Home&quot; domestic standard platform league. In this league, the robots have to assist humans in household environments by performing tasks such as greeting guests, storing groceries, and taking out the garbage. The competition required the integration of the robot's navigation, task-level planning, manipulation, voice recognition, vision, and semantic mapping capabilities. Check out the link to learn more about Team ORIon and their achievements. 
+
+https://www.ori.ox.ac.uk/student-teams/team-orion/
+
+Music Used:
+Neonscapes by | e s c p | https://escp-music.bandcamp.com
+Music promoted by https://www.free-stock-music.com
+Creative Commons / Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="539"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:1VjL_nTk9r4</id>
+  <yt:videoId>1VjL_nTk9r4</yt:videoId>
+  <yt:channelId>UCg_hb0dS-sCMr-W2ApE5Q3w</yt:channelId>
+  <title>Oxford RobotCar Dataset</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=1VjL_nTk9r4"/>
+  <author>
+   <name>ORI - Oxford Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCg_hb0dS-sCMr-W2ApE5Q3w</uri>
+  </author>
+  <published>2023-03-27T14:58:37+00:00</published>
+  <updated>2026-10-03T09:22:00+00:00</updated>
+  <media:group>
+   <media:title>Oxford RobotCar Dataset</media:title>
+   <media:content url="https://www.youtube.com/v/1VjL_nTk9r4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/1VjL_nTk9r4/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="7" average="5.00" min="1" max="5"/>
+    <media:statistics views="3519"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:-C-L6cM6cg0</id>
+  <yt:videoId>-C-L6cM6cg0</yt:videoId>
+  <yt:channelId>UCg_hb0dS-sCMr-W2ApE5Q3w</yt:channelId>
+  <title>1  Oxford ScenePrior   3D point cloud Broad Street Loop</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=-C-L6cM6cg0"/>
+  <author>
+   <name>ORI - Oxford Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCg_hb0dS-sCMr-W2ApE5Q3w</uri>
+  </author>
+  <published>2023-03-27T14:52:18+00:00</published>
+  <updated>2026-10-04T12:05:40+00:00</updated>
+  <media:group>
+   <media:title>1  Oxford ScenePrior   3D point cloud Broad Street Loop</media:title>
+   <media:content url="https://www.youtube.com/v/-C-L6cM6cg0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/-C-L6cM6cg0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The view of the learnt workspace as seen by the vehicle as it moves down Broad Street in Oxford past the iconic Sheldonian Theatre and Balliol College.</media:description>
+   <media:community>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="3643"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:XXMzj_VMZ6A</id>
+  <yt:videoId>XXMzj_VMZ6A</yt:videoId>
+  <yt:channelId>UCg_hb0dS-sCMr-W2ApE5Q3w</yt:channelId>
+  <title>Walton Street Pointcloud</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=XXMzj_VMZ6A"/>
+  <author>
+   <name>ORI - Oxford Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCg_hb0dS-sCMr-W2ApE5Q3w</uri>
+  </author>
+  <published>2023-03-27T14:50:26+00:00</published>
+  <updated>2026-10-04T13:59:51+00:00</updated>
+  <media:group>
+   <media:title>Walton Street Pointcloud</media:title>
+   <media:content url="https://www.youtube.com/v/XXMzj_VMZ6A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/XXMzj_VMZ6A/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="92"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:QkenKPMEn98</id>
+  <yt:videoId>QkenKPMEn98</yt:videoId>
+  <yt:channelId>UCg_hb0dS-sCMr-W2ApE5Q3w</yt:channelId>
+  <title>Experience Based Navigation - Oxford 10k</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=QkenKPMEn98"/>
+  <author>
+   <name>ORI - Oxford Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCg_hb0dS-sCMr-W2ApE5Q3w</uri>
+  </author>
+  <published>2023-03-27T14:49:56+00:00</published>
+  <updated>2026-10-03T20:31:49+00:00</updated>
+  <media:group>
+   <media:title>Experience Based Navigation - Oxford 10k</media:title>
+   <media:content url="https://www.youtube.com/v/QkenKPMEn98?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/QkenKPMEn98/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="88"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:gkABDhehrNM</id>
+  <yt:videoId>gkABDhehrNM</yt:videoId>
+  <yt:channelId>UCg_hb0dS-sCMr-W2ApE5Q3w</yt:channelId>
+  <title>LIDAR Mesh - Mansfield Rd</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=gkABDhehrNM"/>
+  <author>
+   <name>ORI - Oxford Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCg_hb0dS-sCMr-W2ApE5Q3w</uri>
+  </author>
+  <published>2023-03-27T14:49:14+00:00</published>
+  <updated>2026-10-05T06:07:38+00:00</updated>
+  <media:group>
+   <media:title>LIDAR Mesh - Mansfield Rd</media:title>
+   <media:content url="https://www.youtube.com/v/gkABDhehrNM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/gkABDhehrNM/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="141"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:xOwI-f6rqLI</id>
+  <yt:videoId>xOwI-f6rqLI</yt:videoId>
+  <yt:channelId>UCg_hb0dS-sCMr-W2ApE5Q3w</yt:channelId>
+  <title>Parks Road Pointcloud</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=xOwI-f6rqLI"/>
+  <author>
+   <name>ORI - Oxford Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCg_hb0dS-sCMr-W2ApE5Q3w</uri>
+  </author>
+  <published>2023-03-27T14:48:29+00:00</published>
+  <updated>2026-10-04T09:15:44+00:00</updated>
+  <media:group>
+   <media:title>Parks Road Pointcloud</media:title>
+   <media:content url="https://www.youtube.com/v/xOwI-f6rqLI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/xOwI-f6rqLI/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="73"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:P_rEnLtkn8Q</id>
+  <yt:videoId>P_rEnLtkn8Q</yt:videoId>
+  <yt:channelId>UCg_hb0dS-sCMr-W2ApE5Q3w</yt:channelId>
+  <title>Pedestrian Detection</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=P_rEnLtkn8Q"/>
+  <author>
+   <name>ORI - Oxford Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCg_hb0dS-sCMr-W2ApE5Q3w</uri>
+  </author>
+  <published>2023-03-27T14:48:03+00:00</published>
+  <updated>2026-11-17T16:03:05+00:00</updated>
+  <media:group>
+   <media:title>Pedestrian Detection</media:title>
+   <media:content url="https://www.youtube.com/v/P_rEnLtkn8Q?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/P_rEnLtkn8Q/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="246"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:IEsIA75YWqc</id>
+  <yt:videoId>IEsIA75YWqc</yt:videoId>
+  <yt:channelId>UCg_hb0dS-sCMr-W2ApE5Q3w</yt:channelId>
+  <title>Traffic Light Detection</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=IEsIA75YWqc"/>
+  <author>
+   <name>ORI - Oxford Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCg_hb0dS-sCMr-W2ApE5Q3w</uri>
+  </author>
+  <published>2023-03-27T14:46:54+00:00</published>
+  <updated>2026-10-04T01:26:04+00:00</updated>
+  <media:group>
+   <media:title>Traffic Light Detection</media:title>
+   <media:content url="https://www.youtube.com/v/IEsIA75YWqc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/IEsIA75YWqc/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="194"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:dyInkXPVfhc</id>
+  <yt:videoId>dyInkXPVfhc</yt:videoId>
+  <yt:channelId>UCg_hb0dS-sCMr-W2ApE5Q3w</yt:channelId>
+  <title>Paradise Street Pointcloud</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=dyInkXPVfhc"/>
+  <author>
+   <name>ORI - Oxford Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCg_hb0dS-sCMr-W2ApE5Q3w</uri>
+  </author>
+  <published>2023-03-27T14:46:13+00:00</published>
+  <updated>2026-10-05T02:30:22+00:00</updated>
+  <media:group>
+   <media:title>Paradise Street Pointcloud</media:title>
+   <media:content url="https://www.youtube.com/v/dyInkXPVfhc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/dyInkXPVfhc/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="107"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:kY_fCzR7bAs</id>
+  <yt:videoId>kY_fCzR7bAs</yt:videoId>
+  <yt:channelId>UCg_hb0dS-sCMr-W2ApE5Q3w</yt:channelId>
+  <title>LAPS Live Demo</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=kY_fCzR7bAs"/>
+  <author>
+   <name>ORI - Oxford Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCg_hb0dS-sCMr-W2ApE5Q3w</uri>
+  </author>
+  <published>2023-03-27T14:45:48+00:00</published>
+  <updated>2026-10-05T15:36:03+00:00</updated>
+  <media:group>
+   <media:title>LAPS Live Demo</media:title>
+   <media:content url="https://www.youtube.com/v/kY_fCzR7bAs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/kY_fCzR7bAs/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="142"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:bLAezj90b60</id>
+  <yt:videoId>bLAezj90b60</yt:videoId>
+  <yt:channelId>UCg_hb0dS-sCMr-W2ApE5Q3w</yt:channelId>
+  <title>What Lies Behind: Recovering Hidden Shape in Dense Mapping</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=bLAezj90b60"/>
+  <author>
+   <name>ORI - Oxford Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCg_hb0dS-sCMr-W2ApE5Q3w</uri>
+  </author>
+  <published>2023-03-27T14:45:01+00:00</published>
+  <updated>2026-10-05T15:12:40+00:00</updated>
+  <media:group>
+   <media:title>What Lies Behind: Recovering Hidden Shape in Dense Mapping</media:title>
+   <media:content url="https://www.youtube.com/v/bLAezj90b60?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/bLAezj90b60/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="181"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:iUZW963Tj2Q</id>
+  <yt:videoId>iUZW963Tj2Q</yt:videoId>
+  <yt:channelId>UCg_hb0dS-sCMr-W2ApE5Q3w</yt:channelId>
+  <title>Robotcar Dataset Broad Street</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=iUZW963Tj2Q"/>
+  <author>
+   <name>ORI - Oxford Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCg_hb0dS-sCMr-W2ApE5Q3w</uri>
+  </author>
+  <published>2023-03-27T14:43:47+00:00</published>
+  <updated>2026-10-05T11:00:41+00:00</updated>
+  <media:group>
+   <media:title>Robotcar Dataset Broad Street</media:title>
+   <media:content url="https://www.youtube.com/v/iUZW963Tj2Q?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/iUZW963Tj2Q/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Projection of LIDAR data into camera images from the Oxford Robotcar Dataset (robotcar-dataset.robots.ox.ac.uk)</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="2415"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCW2eNKQeNIvl6MgFNKwLgBQ"/>
+ <id>yt:channel:W2eNKQeNIvl6MgFNKwLgBQ</id>
+ <yt:channelId>W2eNKQeNIvl6MgFNKwLgBQ</yt:channelId>
+ <title>CMU Robotics Institute</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCW2eNKQeNIvl6MgFNKwLgBQ"/>
+ <author>
+  <name>CMU Robotics Institute</name>
+  <uri>https://www.youtube.com/channel/UCW2eNKQeNIvl6MgFNKwLgBQ</uri>
+ </author>
+ <published>2007-03-02T22:53:18+00:00</published>
+ <entry>
+  <id>yt:video:emwdTrHhL3Q</id>
+  <yt:videoId>emwdTrHhL3Q</yt:videoId>
+  <yt:channelId>UCW2eNKQeNIvl6MgFNKwLgBQ</yt:channelId>
+  <title>RI Seminar: Ben Burchfiel : Learning in Production: Building Physical AI at Walden Robotics</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=emwdTrHhL3Q"/>
+  <author>
+   <name>CMU Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCW2eNKQeNIvl6MgFNKwLgBQ</uri>
+  </author>
+  <published>2026-11-13T20:56:17+00:00</published>
+  <updated>2026-11-18T10:36:35+00:00</updated>
+  <media:group>
+   <media:title>RI Seminar: Ben Burchfiel : Learning in Production: Building Physical AI at Walden Robotics</media:title>
+   <media:content url="https://www.youtube.com/v/emwdTrHhL3Q?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/emwdTrHhL3Q/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Ben Burchfiel
+Co-Founder &amp; CTO
+Walden Robotics
+
+November 6, 2026
+https://www.ri.cmu.edu/event/learning-in-production-building-physical-ai-at-walden-robotics/
+
+Learning in Production: Building Physical AI at Walden Robotics
+ 
+Abstract:
+
+Walden Robotics is a full-stack company building both the hardware and physical AI for general-purpose manufacturing robots. Walden was founded in January 2026 and deployed its first robot into production manufacturing two months later. It’s still there and the fleet has been learning on the job ever since. Our core conviction is that the best physical AI will be built via a continuous cycle of deployment and learning grounded in real work. I’ll share lessons from the frontier of end-to-end learning in production manufacturing and why we believe physical AI has reached an inflection point.
+
+Bio:
+
+Ben Burchfiel is the Co-founder and CTO of Walden Robotics, which develops general-purpose robots that continuously learn and improve while performing real-world industrial tasks. Previously, at Toyota Research Institute, Ben co-led a 60+ person robot learning organization responsible for projects including Diffusion Policy, UMI, OpenVLA, and LBM1.0. Ben earned his PhD in computer science at Duke University and completed a postdoctoral fellowship in Brown University’s Department of Computer Science.</media:description>
+   <media:community>
+    <media:starRating count="56" average="5.00" min="1" max="5"/>
+    <media:statistics views="4053"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:EylBfvkwI90</id>
+  <yt:videoId>EylBfvkwI90</yt:videoId>
+  <yt:channelId>UCW2eNKQeNIvl6MgFNKwLgBQ</yt:channelId>
+  <title>RI Seminar: Roberto Martín-Martín : Expanding What Robots Can Learn in the Real World</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=EylBfvkwI90"/>
+  <author>
+   <name>CMU Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCW2eNKQeNIvl6MgFNKwLgBQ</uri>
+  </author>
+  <published>2026-10-31T15:28:27+00:00</published>
+  <updated>2026-11-04T02:15:11+00:00</updated>
+  <media:group>
+   <media:title>RI Seminar: Roberto Martín-Martín : Expanding What Robots Can Learn in the Real World</media:title>
+   <media:content url="https://www.youtube.com/v/EylBfvkwI90?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/EylBfvkwI90/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Roberto Martín-Martín
+Assistant Professor
+Computer Science, University of Texas at Austin
+October 30, 2026
+
+Expanding What Robots Can Learn in the Real World
+
+Abstract: Two robots can be equally capable today yet very different to teach tomorrow. As foundation models expand what robots can already do, an equally important question is how to expand their learning potential: the capabilities they can acquire next with the limited experience and supervision available to them. In this talk, I will argue that expanding this potential requires asking not only how robots learn, but what they should learn and reuse to acquire new capabilities safely and efficiently through real-world interaction. I will present selected learning systems for mobile manipulation that address this question in three ways: learning reusable action spaces that support safer and more efficient physical exploration; using human demonstrations and corrections to guide real-world refinement; and selecting or collecting experience according to its contribution to policy improvement. I will close with a perspective on memory and continual learning as steps toward making these improvements persist across tasks and deployments. Together, these directions aim to expand the learning frontier by preserving useful knowledge while enabling the changes that new tasks require.
+Bio: Roberto Martín-Martín is an Assistant Professor of Computer Science at the University of Texas at Austin, where he directs the Robot Interactive Intelligence Lab (RobIn). He builds robotic systems that learn in the real world, studying how robots can acquire useful skills from people and physical interaction, learn safely from limited experience, and keep improving continuously over time. He pursues these questions through mobile and whole-body manipulation, contact-rich interaction, and long-horizon tasks in everyday environments. He earned his Ph.D. at TU Berlin under Oliver Brock and conducted postdoctoral research at the Stanford Vision and Learning Lab with Fei-Fei Li and Silvio Savarese. His work has received the RSS Best Systems Paper Award, ICRA Best Paper Award, and IROS Best Mechanism Award, and was awarded the NSF CAREER Award, Amazon Faculty Award, Meta Research Award and TRI Young Faculty Researcher Award. He also serves the robotics community as Chair of the IEEE Technical Committee on Mobile Manipulation and as a co-founder of QueerInRobotics.</media:description>
+   <media:community>
+    <media:starRating count="30" average="5.00" min="1" max="5"/>
+    <media:statistics views="2353"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ut8k_R-BB6Y</id>
+  <yt:videoId>ut8k_R-BB6Y</yt:videoId>
+  <yt:channelId>UCW2eNKQeNIvl6MgFNKwLgBQ</yt:channelId>
+  <title>RI Seminar: Abhishek Gupta : Simulation-Driven Robot Learning for the Lazy Researcher</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ut8k_R-BB6Y"/>
+  <author>
+   <name>CMU Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCW2eNKQeNIvl6MgFNKwLgBQ</uri>
+  </author>
+  <published>2026-10-23T22:33:39+00:00</published>
+  <updated>2026-10-27T03:38:31+00:00</updated>
+  <media:group>
+   <media:title>RI Seminar: Abhishek Gupta : Simulation-Driven Robot Learning for the Lazy Researcher</media:title>
+   <media:content url="https://www.youtube.com/v/ut8k_R-BB6Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/ut8k_R-BB6Y/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Abhishek Gupta
+Assistant Professor
+Computer Science and Engineering, University of Washington
+October 23, 2026
+
+https://www.ri.cmu.edu/event/simulation-driven-robot-learning-for-the-lazy-researcher/
+
+Simulation-Driven Robot Learning for the Lazy Researcher
+Abstract: This talk will delve into the workflow of building robot learning methods powered by large-scale physics simulation. While the promise of simulation is low-effort data generation that scales cheaply with human effort, the reality is often not as simple, with considerable human effort required to actually make simulation a useful tool for real-world robotic manipulation. In this talk, I will study how to develop methods that explicitly reduce manual human effort in enabling simulation as a data generation tool – from behavior generation, to model selection, to enabling downstream transfer to the real-world. In doing so, I will outline an effort-efficient path to leveraging simulation as a data source for robot learning – hopefully to make robotics easier for lazy researchers like me!
+Bio: Abhishek Gupta is an assistant professor in computer science and engineering at the Paul G. Allen School of Computer Science and Engineering at the University of Washington since 2022. He leads the Washington Embodied Intelligence and Robotics Development lab focusing on robot learning and reinforcement learning. Previously, he was a postdoctoral scholar at MIT, collaborating with Russ Tedrake and Pulkit Agrawal. Prior to that he received his Ph.D. and B.S degrees from UC Berkeley, working with Sergey Levine and Pieter Abbeel. Abhishek is the recipient of IEEE RAS Early Career Award, Toyota Research Institute Young Investigator award and an Amazon Science Hub award, along with award nominations at several top conferences and workshops. His research interests lie in scalable reinforcement learning methods for robot learning, in particular methods for continual adaptation in the real world and what role simulation can play in this process.</media:description>
+   <media:community>
+    <media:starRating count="75" average="5.00" min="1" max="5"/>
+    <media:statistics views="7143"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:mFfhfChhU6A</id>
+  <yt:videoId>mFfhfChhU6A</yt:videoId>
+  <yt:channelId>UCW2eNKQeNIvl6MgFNKwLgBQ</yt:channelId>
+  <title>Raj Reddy: AGI, ASI and AI Bill of Rights, Talk at ICAIS in Beijing Oct 19, 2026</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=mFfhfChhU6A"/>
+  <author>
+   <name>CMU Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCW2eNKQeNIvl6MgFNKwLgBQ</uri>
+  </author>
+  <published>2026-10-19T12:58:03+00:00</published>
+  <updated>2026-10-23T03:01:14+00:00</updated>
+  <media:group>
+   <media:title>Raj Reddy: AGI, ASI and AI Bill of Rights, Talk at ICAIS in Beijing Oct 19, 2026</media:title>
+   <media:content url="https://www.youtube.com/v/mFfhfChhU6A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/mFfhfChhU6A/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Raj Reddy: AGI, ASI and AI Bill of Rights
+
+International Conference on AI Scientists
+Beijing Oct 17-19, 2026
+
+https://icais.ai</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="665"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:gVBNTQyMQJI</id>
+  <yt:videoId>gVBNTQyMQJI</yt:videoId>
+  <yt:channelId>UCW2eNKQeNIvl6MgFNKwLgBQ</yt:channelId>
+  <title>RI Seminar: Yong-Lae Park : Shaping the Body of Robots with Soft Skin and Muscles</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=gVBNTQyMQJI"/>
+  <author>
+   <name>CMU Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCW2eNKQeNIvl6MgFNKwLgBQ</uri>
+  </author>
+  <published>2026-10-11T02:28:12+00:00</published>
+  <updated>2026-10-14T03:47:19+00:00</updated>
+  <media:group>
+   <media:title>RI Seminar: Yong-Lae Park : Shaping the Body of Robots with Soft Skin and Muscles</media:title>
+   <media:content url="https://www.youtube.com/v/gVBNTQyMQJI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/gVBNTQyMQJI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Yong-Lae Park
+Professor of Mechanical Engineering
+Seoul National University
+October 2, 2026
+
+Shaping the Body of Robots with Soft Skin and Muscles
+
+Abstract:
+Just as skin and muscle give living creatures their ability to sense, move, and adapt, soft sensors and actuators are giving shape to a new kind of robot body. Built from flexible, compliant materials, soft robots can closely mimic the movements of biological systems, a significant step beyond conventional rigid machines. This talk explores recent technologies for designing and fabricating the two essential components of that body: artificial skin that lets robots feel their surroundings, and artificial muscles that let them move with natural, fluid motion. We will discuss how these components are engineered for responsiveness and reliability, how their signals can be interpreted despite the complex, nonlinear behavior of soft structures, and how sensing and actuation can be co-designed into a single integrated system. By integrating skin and muscle into a unified soft body, we can develop a new generation of robots capable of seamless and safe interaction in human environments.
+Bio:
+Yong-Lae Park (Member, IEEE) received the Ph.D. degree in mechanical engineering from Stanford University, Stanford, CA, USA, in 2010.
+He is currently a Professor with the Department of Mechanical Engineering, Seoul National University, Seoul, South Korea. Prior to joining SNU, he was an Assistant Professor in the Robotics Institute, Carnegie Mellon University, Pittsburgh, PA, USA (2013–2017) and a Technology Development Fellow in the Wyss Institute for Biologically Inspired Engineering, Harvard University, Cambridge, MA, USA (2010–2013). His research interests include artificial skin sensors and muscle actuators, soft robots, wearable robots, rehabilitation robots, and medical robots.
+Prof. Park is the recipient of  the Best Conference Paper Award from the IEEE International Conference of Soft Robotics (2019), the Best Application Paper Award from the IEEE Transactions on Haptics (2019), and the Best Paper Award from the IEEE Sensors Journal (2013). He is currently serving as a Senior Editor in IEEE Robotics and Automation Letters, an Associate Editor in Soft Robotics and npj Robotics.</media:description>
+   <media:community>
+    <media:starRating count="52" average="5.00" min="1" max="5"/>
+    <media:statistics views="4045"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:YOdFtIUjXKM</id>
+  <yt:videoId>YOdFtIUjXKM</yt:videoId>
+  <yt:channelId>UCW2eNKQeNIvl6MgFNKwLgBQ</yt:channelId>
+  <title>RI Seminar: Negar Mehr : How Can Robots Learn to Interact and Coordinate with Others?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=YOdFtIUjXKM"/>
+  <author>
+   <name>CMU Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCW2eNKQeNIvl6MgFNKwLgBQ</uri>
+  </author>
+  <published>2026-10-11T02:26:21+00:00</published>
+  <updated>2026-10-15T09:31:21+00:00</updated>
+  <media:group>
+   <media:title>RI Seminar: Negar Mehr : How Can Robots Learn to Interact and Coordinate with Others?</media:title>
+   <media:content url="https://www.youtube.com/v/YOdFtIUjXKM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/YOdFtIUjXKM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Negar Mehr
+Assistant Professor
+Mechanical Engineering Department, University of California at Berkeley
+October 9, 2026
+
+How Can Robots Learn to Interact and Coordinate with Others?
+Abstract: Robots in the real world rarely act alone. They share spaces with other robots and with people, and succeeding there means learning to interact and coordinate with them. This talk looks at what makes interaction hard and how we might get there. I start with multi-agent reinforcement learning, where challenges like credit assignment make coordination difficult to learn, and show how the reasoning capabilities of foundation models can help coach robots to learn coordination. Coordination doesn’t have to be learned through trial and error though, so I then look at learning it from demonstrations. Imitating interacting agents turns out to be quite different from imitating a single one but it can still build on single-agent imitation. I then close by reversing the question: rather than asking what single-agent methods can do for multi-agent problems, I ask what multi-agent thinking can do for a single robot and show that continual learning, for example, can be cast as a consensus optimization problem which results in a natural way to balance learning new tasks against retaining old ones.
+
+Bio: Negar Mehr is an Assistant Professor of Mechanical Engineering at UC Berkeley, where she directs the Berkeley Intelligent Control (ICON) Lab. Her research focuses on multi-agent interactions. Her lab develops learning-based methods grounded in game theory and control to enable robots to interact safely and intelligently with humans and other autonomous agents. She received her Ph.D. in Mechanical Engineering from UC Berkeley in 2019 and was a postdoctoral scholar in Aeronautics and Astronautics at Stanford University. Before returning to Berkeley, she was an Assistant Professor of Aerospace Engineering at the University of Illinois Urbana-Champaign. She is a recipient of the ONR Young Investigator Award, the NSF CAREER Award, the ASME Rising Star Award, and the IEEE ITSS Best Ph.D. Dissertation Award.
+
+https://www.ri.cmu.edu/event/ri-seminar-with-negar-mehr/</media:description>
+   <media:community>
+    <media:starRating count="55" average="5.00" min="1" max="5"/>
+    <media:statistics views="4249"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:KGebTsBpXjg</id>
+  <yt:videoId>KGebTsBpXjg</yt:videoId>
+  <yt:channelId>UCW2eNKQeNIvl6MgFNKwLgBQ</yt:channelId>
+  <title>CMU Graphics Colloquium : Ken Museth : OpenVDB</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=KGebTsBpXjg"/>
+  <author>
+   <name>CMU Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCW2eNKQeNIvl6MgFNKwLgBQ</uri>
+  </author>
+  <published>2026-09-16T13:06:38+00:00</published>
+  <updated>2026-11-12T02:07:37+00:00</updated>
+  <media:group>
+   <media:title>CMU Graphics Colloquium : Ken Museth : OpenVDB</media:title>
+   <media:content url="https://www.youtube.com/v/KGebTsBpXjg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/KGebTsBpXjg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The Carnegie Mellon Graphics Colloquium is hosted by the Carnegie Mellon Graphics Lab and supported by Meta and Adobe.
+
+Ken Museth
+Senior Director
+High-Fidelity Physics Research, Nvidia
+November 20, 2025
+
+https://www.ri.cmu.edu/event/openvdb/
+
+OpenVDB
+Abstract: As the inventor of VDB and founder of OpenVDB, I am excited to talk about its history, motivation, and diverse adoption. Specifically, this lecture will cover the underlying VDB data structure, and its adoption to computer graphics, physics simulations and more recently machine learning. Since its open-source release in 2012, OpenVDB has become an industry standard and has been used in numerous VFX franchises like “Avatar”, “Avengers”, “The Mummy”, “Pirates of the Caribbean”, “Kung Fu Panda”, and “How to Train Your Dragon”. It is adopted by numerous commercial software packages used by the entertainment industry, including Houdini, RenderMan, Arnold, Blender, and Unreal Engine, just to mention a few. OpenVDB has also found use in many areas outside of media and entertainment, including SLAM, autonomous driving, topology optimization, semiconductor designs, 3D printing, medical imaging, rocket design, aerial surveillance, robotics, and many machine learning applications. Finally, OpenVDB was the first open-source project to be adopted by the Academy Software Foundation (ASWF) and the Linux Foundation (in 2018).
+
+Bio: Ken Museth is Sr Director of the High-Fidelity Physics Research team at Nvidia and chair of the Technical Steering Committee for OpenVDB under the Academy Software Foundation. He has a PhD in quantum physics from Copenhagen University and did his postgraduate studies in computer science at Caltech. Previously he was a Sr. Computational Scientist at SpaceX for six years, working on CFD simulations of the Raptor engine, Head of Simulation R&amp;D at Weta FX for three years, working on James Cameron’s Avatar 2, director for FX and CFX simulation teams at DreamWorks Animation for eight years, Sr Software Engineer at Digital Domain for three years, full tenured professor in computer graphics at Linköping University for four years, where he supervised five PhD and 15 MSc students, and research scientist at NASA’s Jet Propulsion Laboratory for three years, working on space-mission design and visualization. Ken invented and founded OpenVDB for which he won two Academy Awards from the Academy of Motion Picture Arts and Sciences; a Technical Achievement Award (Academy Certificate) in 2015 and a Scientific &amp; Engineering Award (Academy Plaque) in 2024. Additionally, in 2023 he was awarded the ACM SIGGRAPH Practitioner Award and was accepted into the ACM SIGGRAPH Academy. Ken has served on the Technical Papers Committee for ACM SIGGRAPH multiple times and has 29 movie credits, including on franchises like “Avatar”, “Avengers”, “The Mummy”, “Pirates of the Caribbean”, “Kung Fu Panda”, and “How to Train Your Dragon”.
+
+Website: https://research.nvidia.com/labs/prl/author/ken-museth/
+
+Poster:  https://graphics.cs.cmu.edu/cmgc/ken-museth.pdf</media:description>
+   <media:community>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="683"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:0-diCMEpOuw</id>
+  <yt:videoId>0-diCMEpOuw</yt:videoId>
+  <yt:channelId>UCW2eNKQeNIvl6MgFNKwLgBQ</yt:channelId>
+  <title>Graphics Colloquium : Maneesh Agrawala : Making is Decision Making</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=0-diCMEpOuw"/>
+  <author>
+   <name>CMU Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCW2eNKQeNIvl6MgFNKwLgBQ</uri>
+  </author>
+  <published>2026-09-16T13:06:12+00:00</published>
+  <updated>2026-10-30T23:02:06+00:00</updated>
+  <media:group>
+   <media:title>Graphics Colloquium : Maneesh Agrawala : Making is Decision Making</media:title>
+   <media:content url="https://www.youtube.com/v/0-diCMEpOuw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/0-diCMEpOuw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Maneesh Agrawala
+Forest Baskett Professor Computer Science
+Director of the Brown Institute for Media Innovation
+Stanford University
+
+September 15, 2026
+
+Making is Decision Making
+Abstract:  Human creation of high-quality content requires making decisions – from coarse, high-level decisions about content and style, to precise low-level decisions about the color of an individual pixel. Modern generative AI promises to serve a collaborative assistant capable of executing design decisions specified in simple text prompts into high-quality content. Yet today’s AI systems are poor collaborators. They frequently misinterpret user intent, while users lack a predictive conceptual model of how an AI will interpret a prompt or why it produces a particular result. Without shared conceptual grounding, collaboration devolves into trial and error, with users repeatedly rewriting prompts, using the AI to generate a result and then adjusting the prompt to try again, in the hope of obtaining the desired outcome. In this talk I’ll argue that for generative AI to fulfill its promise we must develop techniques and interfaces that enable users and AI models to establish shared conceptual grounding. I’ll outline two complementary research challenges; First, we must identify the concepts that human creators commonly use when reasoning about and communicating within a content creation domain.  Here, I’ll show how we might extend methods from cognitive psychology to elicit, represent, and analyze domain-specific conceptual structures.  Second, we must develop interfaces for teaching these concepts to AI models. While machine learning is rapidly advancing methods for teaching AI new concepts, I’ll show how adapting these techniques to the diverse domains of human content creation requires new interaction techniques that support the way people think, communicate, and create. Finally, I’ll demonstrate a few implementations of these ideas that we have developed in our group at Stanford.
+
+Bio: Maneesh Agrawala is the Forest Baskett Professor of Computer Science and Director of the Brown Institute for Media Innovation at Stanford University. He is also a consulting AI Scientist at Roblox. He works on computer graphics, human computer interaction and visualization. His focus is on investigating how cognitive design principles can be used to improve the effectiveness of audio/visual media. The goals of this work are to discover the design principles and then instantiate them in both interactive and automated design tools. Honors include an Okawa Foundation Research Grant (2006), an Alfred P. Sloan Foundation Fellowship (2007), an NSF CAREER Award (2007), a SIGGRAPH Significant New Researcher Award (2008), a MacArthur Foundation Fellowship (2009), an Allen Distinguished Investigator Award (2014) and induction into the SIGCHI Academy (2021). He was named an ACM Fellow in 2022.
+
+https://graphics.cs.cmu.edu/cmgc/</media:description>
+   <media:community>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="826"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:gSOci0alw6g</id>
+  <yt:videoId>gSOci0alw6g</yt:videoId>
+  <yt:channelId>UCW2eNKQeNIvl6MgFNKwLgBQ</yt:channelId>
+  <title>RI Seminar: Erol Şahin : Augmenting Bee Colonies with Robotics and AI Tech...</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=gSOci0alw6g"/>
+  <author>
+   <name>CMU Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCW2eNKQeNIvl6MgFNKwLgBQ</uri>
+  </author>
+  <published>2026-09-11T21:20:36+00:00</published>
+  <updated>2026-10-14T04:50:10+00:00</updated>
+  <media:group>
+   <media:title>RI Seminar: Erol Şahin : Augmenting Bee Colonies with Robotics and AI Tech...</media:title>
+   <media:content url="https://www.youtube.com/v/gSOci0alw6g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/gSOci0alw6g/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Augmenting Bee Colonies with Robotics and AI Technologies for Ecosystem Support
+
+https://www.ri.cmu.edu/event/augmenting-bee-colonies-with-robotics-and-ai-technologies-for-ecosystem-support/
+
+Erol Şahin
+Professor
+Department of Computer Engineering, Middle East Technical University (METU)
+September 11, 2026
+
+Abstract: Earth’s ecosystems are facing a rapid decline in biodiversity, with honeybees —keystone pollinators critical to ecosystem stability— being among the most affected. The EU-funded RoboRoyale project addresses this crisis by integrating advanced robotics and AI to augment the beehive, enabling observation at unprecedented resolutions and scales. Featured on the cover of Science Robotics and receiving the 6th Edge of Government Award at the World Government Summit in 2024 our system tracks the Queen’s behaviors, colony efficiency, comb states, and long-term foraging activities, while advancing micro-robotic intervention capabilities to support hive health. In this talk, I will discuss the challenges of developing this system, share key findings regarding complex social interactions, and explore the future potential of bio-hybrid research.
+
+Bio: Erol Şahin is a Professor of Computer Engineering at Middle East Technical University (METU) and the founding Director of the Center for Robotics and AI (ROMER). Established with over 5 million Euros in funding, ROMER spans 25,000 square feet of state-of-the-art facilities, including prototyping workshops, specialized research arenas, and advanced robotic platforms. Dr. Şahin earned his PhD in Cognitive and Neural Systems from Boston University, following a BSc in Electrical and Electronics Engineering from Bilkent University and an MSc in Computer Engineering from METU. Before assuming his current position, he worked as postdoctoral researcher at the Université Libre de Bruxelles.   Between 2013 and 2015, Dr. Sahin spent two years at the Robotics Institute of Carnegie Mellon University during his sabbatical. His research interests include swarm robotics, robotic learning, and human-robot interaction—work that has secured more than 2.5 million Euros from the European Union, TUBITAK, and industrial partners. Notably, his contributions to robotic learning were awarded a 53-DOF iCub humanoid platform through the RobotCub project in 2007. Dr. Şahin has edited several journal special issues and books, currently serves as an Associate Editor for Adaptive Behavior, and is a member of the Editorial Board for the Swarm Intelligence journal.</media:description>
+   <media:community>
+    <media:starRating count="10" average="5.00" min="1" max="5"/>
+    <media:statistics views="1153"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:UORyjGbp0Jc</id>
+  <yt:videoId>UORyjGbp0Jc</yt:videoId>
+  <yt:channelId>UCW2eNKQeNIvl6MgFNKwLgBQ</yt:channelId>
+  <title>2007: Ralph Hollis : Haptic Interaction through Lorentz Magnetic Levitation: a Personal Journey</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=UORyjGbp0Jc"/>
+  <author>
+   <name>CMU Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCW2eNKQeNIvl6MgFNKwLgBQ</uri>
+  </author>
+  <published>2026-06-22T11:46:51+00:00</published>
+  <updated>2026-10-15T04:10:10+00:00</updated>
+  <media:group>
+   <media:title>2007: Ralph Hollis : Haptic Interaction through Lorentz Magnetic Levitation: a Personal Journey</media:title>
+   <media:content url="https://www.youtube.com/v/UORyjGbp0Jc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/UORyjGbp0Jc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>From the RI Archive
+an RI Seminar with Ralph Hollis from September 2007
+
+Haptic Interaction through Lorentz Magnetic Levitation: 
+a Personal Journey
+
+Features collaborations with:
+
+Peter Berkelman, David Baraff, Zack Butler, Chris Donohue, Mark Dzmura, Jay Gowdy, Maximillian Heinig, Jonathan Hurst, Roberta Klatzky, Michael Kummer, Susan Lederman, Joey Liang, Alex Nicolaidis, Dan OHallaron, Todd Okimoto, Matt Pucevich, Storm Orion, Tim Salcudean, George Stetten, Tomas Szabo, Andy Thompson, Bert Unger, Vinithra Varadharajan, Stella Yu and many others
+
+Abstract
+ 
+We summarize efforts over the past two decades to explore haptic (sense of touch) interaction with virtual and remote three-dimensional environments mediated by a novel form of magnetic levitation. Unlike conventional haptic devices that resemble back-driven serial or parallel robotic mechanisms with links, joints, motors and encoders, and gears, belts, or cable transmissions, magnetic levitation haptic devices have a single moving part that can move freely in six degrees of freedom. In operation, a user manipulates a levitated handle to input position information to a computer while forces and torques are output to the hand. The technology provides the highest known interaction fidelity in terms of bandwidth and motion resolution, yet is almost unknown outside of a small community of researchers.  This talk will trace the history of Lorentz levitation haptics and illustrate its potential or virtual and augmented reality, teleoperation, and the psychophysical measurement of touch, with likely future applications in computer augmented design, medical training, telemanipulation, and vehicle control, among others.
+
+Speaker Biography (at the time of this talk in 2007)
+ 
+Ralph Hollis received the B.S. and M.S. degrees in physics from Kansas State University, Manhattan, in 1964 and 1965, and the Ph.D. degree in solid state physics from the University of Colorado, Boulder, in 1975. From 1965 to 1970, he was engaged in computer simulation of space-flight vehicles at the Autonetics Division of North American Aviation.  He was a National Science Foundation / Centre Nationale de la Reserche Scientifique Exchange Scientist at the Universite de Pierre et Marie Curie, Paris, for part of 1976-77.  He joined IBM in 1978 at the Thomas J. Watson Research Center as a Research Staff Member, where he worked in magnetism, acoustics, and robotics.  From 1986 to 1993, he was Manager of Advanced Robotics in the Manufacturing Research Department.
+
+Dr. Hollis joined the faculty at Carnegie Mellon University in 1993 where he is a Research Professor in the Robotics Institute, School of Computer Science.  Dr. Hollis is a member of the American Physical Society and a Fellow of IEEE.  He has served on several government panels, and the editorial boards of the Journal of Micromechanics and microengineering: Structures, Devices, and Systems, and the IEEE Transactions on Robotics and Automation.  At IBM, he received five Invention Achievement Awards and an Outstanding Technical Achievement Award for work in precision robotic positioning.  He was recipient of the Nakamura Prize for best paper at the International Symposium on Intelligent Robots and Systems in 1995 and 2001, the IEEE Robotics and Automation Society Best Video award in 1999, and was a Christopher Columbus Fellowship Foundation Discover Award Finalist in 2000.  He is founding director of the Microdynamic Systems Laboratory at Carnegie Mellon University where his research centers on haptics, agile manufacturing, and dynamically-stable mobile robots.
+
+Current Robotics Institute page:
+https://www.ri.cmu.edu/ri-faculty/ralph-hollis/
+
+Ralph's Lab Website:
+http://www.msl.ri.cmu.edu</media:description>
+   <media:community>
+    <media:starRating count="7" average="5.00" min="1" max="5"/>
+    <media:statistics views="308"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:c6hqnyyFRRs</id>
+  <yt:videoId>c6hqnyyFRRs</yt:videoId>
+  <yt:channelId>UCW2eNKQeNIvl6MgFNKwLgBQ</yt:channelId>
+  <title>Kantor Lab Team &quot;The Fire Blighters&quot; wins D1 Amiga Innovation Award at the Farm Robotics Challenge</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=c6hqnyyFRRs"/>
+  <author>
+   <name>CMU Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCW2eNKQeNIvl6MgFNKwLgBQ</uri>
+  </author>
+  <published>2026-05-26T13:36:16+00:00</published>
+  <updated>2026-10-04T09:22:49+00:00</updated>
+  <media:group>
+   <media:title>Kantor Lab Team &quot;The Fire Blighters&quot; wins D1 Amiga Innovation Award at the Farm Robotics Challenge</media:title>
+   <media:content url="https://www.youtube.com/v/c6hqnyyFRRs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/c6hqnyyFRRs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The Fire Blighters developed an autonomous ground robot built on the Amiga platform that detects, maps and physically marks fire blight infections in apple orchards. GPS waypoint following and LiDAR localization guide the robot down the rows, while a 6-DOF robotic arm equipped with a light-invariant in-hand camera reaches into occluded parts of the canopy to inspect branches up close. Detected infections are classified by severity and registered in global coordinates to build a spatial disease map of the block. An integrated marking mechanism then physically tags infected trees so pruning crews can act on the data with confidence, slowing the spread of one of the apple industry's most damaging diseases.
+
+More about the challenge here:
+https://www.farmroboticschallenge.ai
+
+More about the winners here:
+https://www.farmroboticschallenge.ai/2026results</media:description>
+   <media:community>
+    <media:starRating count="12" average="5.00" min="1" max="5"/>
+    <media:statistics views="448"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:r1oAw_KWLWg</id>
+  <yt:videoId>r1oAw_KWLWg</yt:videoId>
+  <yt:channelId>UCW2eNKQeNIvl6MgFNKwLgBQ</yt:channelId>
+  <title>RI Seminar: Leslie Kaelbling : The Role of Rationality in Modern Robotics</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=r1oAw_KWLWg"/>
+  <author>
+   <name>CMU Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCW2eNKQeNIvl6MgFNKwLgBQ</uri>
+  </author>
+  <published>2026-04-20T13:04:51+00:00</published>
+  <updated>2026-10-30T16:03:02+00:00</updated>
+  <media:group>
+   <media:title>RI Seminar: Leslie Kaelbling : The Role of Rationality in Modern Robotics</media:title>
+   <media:content url="https://www.youtube.com/v/r1oAw_KWLWg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/r1oAw_KWLWg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>https://www.ri.cmu.edu/event/the-role-of-rationality-in-modern-robotics/
+
+Leslie Kaelbling
+Panasonic Professor of Computer Science and Engineering
+Department of Electrical Engineering and Computer Science, Massachusetts Institute of Technology
+April 17, 2026
+
+The Role of Rationality in Modern Robotics
+Abstract: The classical approach to AI designed systems that were rational at run-time: they had explicit representations of beliefs, goals, and plans and ran inference algorithms, online, to select actions. The rational approach was criticized (by the behaviorists) and modified (by the probabilists) but persisted in some form. More recently, relatively unstructured data-driven end-to-end approaches have demonstrated great success in a wide variety of domains, and began to seem like a plausible route to general-purpose intelligent robots. However, most recently, we have begun to see the limits of pure behavior learning and many practitioners are re-integrating forms of search and explicit reasoning into their approaches.
+
+I will revisit the rational-agent approach to the design of intelligent robots, from the perspectives of engineering effort, computational efficiency, cognitive modeling and understandability. I will present some current research focused on understanding the roles of learning in runtime-rational agents with the ultimate aim of constructing general-purpose human-level intelligent robots as well as understanding human intelligence.
+
+Bio: Leslie is a Professor at MIT. She has an undergraduate degree in Philosophy and a PhD in Computer Science from Stanford, and was previously on the faculty at Brown University. She was the founding editor-in-chief of the Journal of Machine Learning Research. Her research agenda is to make intelligent robots using methods including learning, planning, and reasoning about uncertainty. She was doing agentic AI way before it was cool.</media:description>
+   <media:community>
+    <media:starRating count="55" average="5.00" min="1" max="5"/>
+    <media:statistics views="2667"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ydnOSMbyyQo</id>
+  <yt:videoId>ydnOSMbyyQo</yt:videoId>
+  <yt:channelId>UCW2eNKQeNIvl6MgFNKwLgBQ</yt:channelId>
+  <title>Raj Reddy : The Future of AI : Doomers vs. Abundance</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ydnOSMbyyQo"/>
+  <author>
+   <name>CMU Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCW2eNKQeNIvl6MgFNKwLgBQ</uri>
+  </author>
+  <published>2026-04-17T13:59:57+00:00</published>
+  <updated>2026-10-16T03:09:02+00:00</updated>
+  <media:group>
+   <media:title>Raj Reddy : The Future of AI : Doomers vs. Abundance</media:title>
+   <media:content url="https://www.youtube.com/v/ydnOSMbyyQo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/ydnOSMbyyQo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Raj Reddy
+Moza Bint Nasser University Professor
+Carnegie Mellon University
+April 10, 2026
+
+The last decade has seen extraordinary advances in AI. The potential arrival of Artificial General Intelligence (AGI) has profound implications for future of our society. We anticipate a world where AI assistants and humanoid-robots will perform most of the  tasks requiring human expertise and skill at 10% of current costs. In this paradigm, essential services—including food, housing, energy, education, healthcare, and transportation—will be provided via Universal Basic Services, signaling a historic shift  from a society of scarcity to one of abundance.
+
+This transformation raises a critical concern: widespread displacement of traditional labor. What is the human role when AI can do everything? This talk presents an  alternative scenario: a “Human-in-the-Loop” evolution. In this model, humans  transition into high-level supervisory roles, collaborating with AGI to train robots in novel skills and adapt them to unforeseen tasks.
+
+We explore this as the “Maharaja Model” where technology serves humanity so comprehensively that work will be optional for humans. Finally, we will discuss how  institutions like the Robotics Institute must lead this transition, developing the hybrid technologies and ethical frameworks necessary to bridge the gap between our current economy and a robot-assisted future.
+
+—
+
+Raj Reddy is a University Professor of Computer Science and Robotics and Moza Bint Nasser Chair at Carnegie Mellon University. He was an Assistant Professor at Stanford from 1966-69 and Faculty Member at Carnegie Mellon since 1969. He served as the founding Director of the Robotics Institute from 1979 to 1991 and the Dean of School of Computer Science from 1991 to 1999.
+
+He has been active in AI research for over five decades in the areas of AI, Speech Understanding, Image Understanding, Robotics, Multi-sensor Fusion, and Intelligent Agents. Dr. Reddy’s current research interests include: Technology in Service of Society, Voice Computing for the 3B semi-literate populations at the bottom of the pyramid, Digital Democracy, and Learning Science and Technologies.
+
+He is a member of the National Academy of Engineering and the American Academy of Arts and Sciences. He served as co-chair of President Clinton’s Information Technology Advisory Committee (PITAC) from 1999 to 2001. Dr. Reddy is the recipient of the Legion of Honor in 1984, the ACM Turing Award in 1994, the Padma Bhushan in 2001, the Honda Prize in 2005 and Vannevar Bush Award in 2006.</media:description>
+   <media:community>
+    <media:starRating count="851" average="5.00" min="1" max="5"/>
+    <media:statistics views="60876"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:UA7UMj7jMJA</id>
+  <yt:videoId>UA7UMj7jMJA</yt:videoId>
+  <yt:channelId>UCW2eNKQeNIvl6MgFNKwLgBQ</yt:channelId>
+  <title>Yata Memorial Lecture : Boris Sofman : Journeys from Research to Commercialization</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=UA7UMj7jMJA"/>
+  <author>
+   <name>CMU Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCW2eNKQeNIvl6MgFNKwLgBQ</uri>
+  </author>
+  <published>2026-04-10T13:48:25+00:00</published>
+  <updated>2026-10-13T17:34:42+00:00</updated>
+  <media:group>
+   <media:title>Yata Memorial Lecture : Boris Sofman : Journeys from Research to Commercialization</media:title>
+   <media:content url="https://www.youtube.com/v/UA7UMj7jMJA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/UA7UMj7jMJA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>https://www.ri.cmu.edu/event/the-teruko-yata-memorial-lecture-in-robotics-boris-sofman/
+
+Boris Sofman
+April 9, 2026
+Journeys from Research to Commercialization: Lessons from Anki, Waymo, and Bedrock Robotics
+
+Boris Sofman (Carnegie Mellon Robotics Institute, PhD, 2010) has experienced many stages of the company-building journey in robotics: founding startups from scratch, scaling products to mass market, and operating within one of the world’s most ambitious and expensive technology programs. At Anki, he took an idea from prototype to millions of consumer robots in homes around the world. At Waymo, he was part of the leadership team during the inflection point from a decade of R&amp;D into one of the most dramatic commercial adoptions in tech history. Now, at Bedrock Robotics, he’s bringing autonomous systems to 50-ton construction machines to help America build infrastructure at an unprecedented speed and scale.
+
+In this lecture, Boris will share an honest account of that journey and its lessons, including the energizing wins, the wrong turns and painful surprises, and the moments where an earlier experience turned out to matter more than expected. Closing with a deeper look at Bedrock, he will share why he believes autonomous construction is one of the most important problems robotics can tackle right now, driven by a unique convergence of maturing technology and critical industry need. For students at the beginning of their own paths, this is a talk about how a career in robotics and entrepreneurship might actually unfold, the many variables one navigates in the journey, and why the connections you cannot yet see may end up being the most valuable ones.
+
+About the Lecture: The Yata Memorial Lecture in Robotics is presented by the Robotics Institute, in conjunction with the SCS Distinguished Lecture Series. Teruko Yata was a postdoctoral fellow in the Robotics Institute from 2000 until her untimely death in 2002. After graduating from the University of Tsukuba, working under the guidance of Prof. Yuta, she came to the United States. At Carnegie Mellon, she served as a post-doctoral fellow in the Robotics Institute for three years, under Chuck Thorpe. Teruko’s accomplishments in the field of ultrasonic sensing were highly regarded and won her the Best Student Paper Award at the International Conference on Robotics and Automation in 1999. It was frequently noted, and we always remember, that “the quality of her work was exceeded only by her kindness and thoughtfulness as a friend.” Join us in paying tribute to our extraordinary colleague and friend through this most unique and always exciting lecture.</media:description>
+   <media:community>
+    <media:starRating count="48" average="5.00" min="1" max="5"/>
+    <media:statistics views="1798"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:gthXSFhDt8Q</id>
+  <yt:videoId>gthXSFhDt8Q</yt:videoId>
+  <yt:channelId>UCW2eNKQeNIvl6MgFNKwLgBQ</yt:channelId>
+  <title>RI Seminar: Hadas Kress-Gazit : Formal Methods for Robotics in the Age of Big Data</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=gthXSFhDt8Q"/>
+  <author>
+   <name>CMU Robotics Institute</name>
+   <uri>https://www.youtube.com/channel/UCW2eNKQeNIvl6MgFNKwLgBQ</uri>
+  </author>
+  <published>2026-03-25T13:34:02+00:00</published>
+  <updated>2026-09-27T02:44:15+00:00</updated>
+  <media:group>
+   <media:title>RI Seminar: Hadas Kress-Gazit : Formal Methods for Robotics in the Age of Big Data</media:title>
+   <media:content url="https://www.youtube.com/v/gthXSFhDt8Q?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/gthXSFhDt8Q/hqdefault.jpg" width="480" height="360"/>
+   <media:description>https://www.ri.cmu.edu/event/formal-methods-for-robotics-in-the-age-of-big-data/
+
+Hadas Kress-Gazit
+Geoffrey S.M. Hedrick Senior Endowed Professor
+Sibley School of Mechanical and Aerospace Engineering, Cornell University
+March 20, 2026
+
+Formal Methods for Robotics in the Age of Big Data
+
+Abstract: Formal methods – mathematical techniques for describing systems, capturing requirements, and providing guarantees – have been used to synthesize robot control from high-level specification, and to verify robot behavior. Given the recent advances in robot learning and data-driven models, what role can, and should, formal methods play in advancing robotics? In this talk I will give a few examples for what we can do with formal methods, discuss their promise and challenges, and describe the synergies I see with data-driven approaches.
+
+Bio: Hadas Kress-Gazit is the Geoffrey S.M. Hedrick Sr. Professor at the Sibley School of Mechanical and Aerospace Engineering at Cornell University, and the Associate Dean for Diversity and Academic Affairs of Cornell Duffield College of Engineering. She received her Ph.D. in Electrical and Systems Engineering from the University of Pennsylvania in 2008 and has been at Cornell since 2009. Her research focuses on formal methods for robotics and automation, and more specifically on high-level specifications and synthesis for robot control. Her group has explored different types of robotic systems including modular robots, soft robots, and swarms, and how formal methods can be used for human-robot interaction. She received an NSF CAREER award in 2010, a DARPA Young Faculty Award in 2012, Cornell Engineering’s Excellence in teaching award in 2013 and 2019, and excellence in research award in 2020. She is an IEEE Fellow and has served on DARPA’s Information Science and Technology study group (ISAT), as the program chair for Robotics: Science and Systems (RSS) 2018, the program chair for the International Conference on Robotics and Automation (ICRA) 2022, and the president of the RSS board (2019-2023), among other leadership positions in the robotics community.</media:description>
+   <media:community>
+    <media:starRating count="67" average="5.00" min="1" max="5"/>
+    <media:statistics views="2466"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
