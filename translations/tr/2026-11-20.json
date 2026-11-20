@@ -1,6 +1,32 @@
 {
  "date": "2026-11-20",
  "items": {
+  "afc-awards-beiranvand-2026-11-20-b1100": {
+   "L": {
+    "body": [
+     "Alireza Beiranvand, Asya'da yılın futbolcusu seçilen ilk kaleci oldu. İran kulübü Tractor FC'nin kalecisi, Asya Futbol Konfederasyonu'nun (AFC) perşembe akşamı Bangkok'ta düzenlenen ödül töreninde, Reuters haber ajansının aktardığına göre, Suudi Arabistanlı Feras Al-Brikan ve Salem Al-Dawsari'yi geride bıraktı. Beiranvand, İran adına 90 milli maç oynadı ve bu yılki Dünya Kupası'nda üçüncü kez bir Dünya Kupası final turnuvasında kalede yer aldı.",
+     "“Bu ödülü almak, hayatımdaki inanılmaz derecede tarihi, unutulmaz ve duygusal bir an”, diyen Beiranvand, Reuters'e göre şöyle devam etti: “Bu, İran halkına ait bir onur.”",
+     "Yurt dışında forma giyen en iyi Asyalı oyuncu ödülünü yeniden, bu yıl Paris Saint-Germain ile Şampiyonlar Ligi'ni kazanan Güney Koreli Lee Kang-in aldı. Inside World Football'a göre Lee, ödülü art arda iki yıl kazanan ilk oyuncu oldu. Yılın teknik direktörü, FC Machida Zelvia'dan Japon Go Kuroda seçildi; en iyi genç oyuncu ödülünü ise yurttaşı Ryunosuke Sato (FC Tokyo/FC Valencia) aldı."
+    ],
+    "d": "İran Milli Takımı kalecisi Alireza Beiranvand, Bangkok'taki AFC gecesinde yılın oyuncusu seçildi. Güney Koreli Lee Kang-in, yurt dışında oynayanlar ödülünü yeniden kazandı.",
+    "t": "İlk kez bir kaleci: İranlı Beiranvand Asya'da yılın futbolcusu seçildi"
+   },
+   "at": "2026-11-20T09:05Z",
+   "h": "48d1fccf7913",
+   "rev": [
+    "Quote attribution is clumsy and repetitive: the second quote is split into a separate sentence with 'Beiranvand' repeated, and the 'laut Reuters' attribution is no longer clearly tied to it",
+    "Unnatural, repetitive wording: 'Dünya Kupası'nda üçüncü kez bir dünya kupası final turnuvasında'",
+    "German 'FC Tokio' is rendered as 'FC Tokyo' (this is the club's actual name, so it is left unchanged)"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "İranlı kaleci Alireza Beiranvand (Arşiv fotoğrafı)"
+   }
+  },
   "anthropic-nasdaq-erster-handelstag-2026-11-20-b0800": {
    "L": {
     "body": [
@@ -25,6 +51,34 @@
    ],
    "x": {
     "img.alt": "New York'taki Times Meydanı'nda Nasdaq MarketSite (Sembolik fotoğraf)"
+   }
+  },
+  "apple-uk-tribunal-hintertuer-2026-11-20-b1100": {
+   "L": {
+    "body": [
+     "Şifreli iCloud verilerine erişim konusundaki anlaşmazlıkta İngiliz hükümeti Apple karşısında yenilgiye uğradı. Gözetim konularına bakan özel mahkeme Investigatory Powers Tribunal, İçişleri Bakanlığının “Technical Capability Notice” adı verilen bir talimatın varlığını ne doğrulama ne de yalanlama yönündeki girişimini reddetti. Londra, bu tür bir talimatla şirketleri, makamların verilere teknik erişimini mümkün kılmakla yükümlü tutabiliyor. Böylece Apple'ın davasının büyük bölümü kamuya açık olarak görülebilecek.",
+     "Mahkemenin değerlendirmesine göre talimat, medya haberleri ve ABD hükümeti temsilcileriyle yapılan görüşmeler yoluyla çoktan geniş çevrelerce biliniyor. Hakimler, resmi bir doğrulamanın ulusal güvenliği tehlikeye atacağı varsayımını “fanciful”, yani gerçekçi olmayan olarak nitelendirdi; bakanlığın değerlendirmesinin hukuken hatalı olduğunu söylediler. Talimatın teknik ayrıntıları gizli kalmaya devam ediyor.",
+     "Apple, “Gelişmiş Veri Koruması” (Advanced Data Protection) özelliğini Birleşik Krallık'taki yeni kullanıcılar için 2025 şubatında zaten kapatmış ve arka kapı yerleştirmeyi reddetmişti. ABD'li müşterileri de kapsayan önceki talimatı Londra, Washington'ın baskısının ardından geri çekti; yeni talimatın İngiliz kullanıcılara odaklanacağı belirtiliyor. Taleplerin hukuka uygun olup olmadığı henüz karara bağlanmadı."
+    ],
+    "d": "İngiltere İçişleri Bakanlığı, Apple'a şifreli verilere erişim talimatı verdiğini kabul etmek zorunda. Özel mahkeme, güvenlik argümanını “fanciful”, yani gerçekçi olmayan olarak nitelendirdi.",
+    "t": "Şifreleme: İngiliz mahkemesi Apple talimatındaki gizliliği kaldırdı"
+   },
+   "at": "2026-11-20T09:04Z",
+   "h": "14852763d0fb",
+   "rev": [
+    "Untranslated German-flagged words: \"Technical Capability Notice\" is an English proper term; it is kept in quotes, which is acceptable, but a Turkish gloss helps readers.",
+    "\"fanciful\" is rendered as \"gerçekçi olmayan\"; the German says \"weit hergeholt\", which is \"inandırıcılıktan uzak/akla yatkın olmayan\". Changed to \"mesnetsiz, yani akla yatkın olmayan\" would alter meani",
+    "\"Şubat\" is capitalised mid-sentence correctly per TDK (months are capitalised only as proper names; \"Şubat 2025'te\" should be lowercase \"şubat 2025'te\" in running text).",
+    "Teaser: \"İngiltere\" vs. \"britisch\" fine. \"nach Druck aus Washington\" fine.",
+    "\"die neue soll sich auf britische Nutzer konzentrieren\" is rendered as reported (\"belirtiliyor\"), correct."
+   ],
+   "rev_dbg": [
+    5,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Londra'da Apple Store (Sembolik fotoğraf)"
    }
   },
   "athletic-espanyol-terzic-san-mames-2026-11-20-b0800": {
@@ -53,6 +107,37 @@
    ],
    "x": {
     "img.alt": "Edin Terzić, 2023'te hâlâ Borussia Dortmund'un teknik direktörüyken (Arşiv fotoğrafı)"
+   }
+  },
+  "berlin-nato-tagung-staatsbesuch-sperrungen-2026-11-20-b1100": {
+   "L": {
+    "body": [
+     "Berlin cuma günü yeniden polisin büyük çaplı operasyonuna sahne oluyor. NATO Parlamenter Meclisi, 72. yıllık toplantısı için pazartesiye kadar başkentte olacak; Federal Meclis'in (Bundestag) verdiği bilgilere göre toplantı 26 yıl sonra ilk kez Berlin'de yapılıyor. Bundestag'ın açıklamasına göre 32 üye ülkeden, aday ülkeler Bosna-Hersek, Gürcistan ve Ukrayna'dan, 19 ortak ülkeden ve Avrupa Parlamentosu'ndan 281'e kadar milletvekilinin katılması bekleniyor. Berliner Zeitung'a göre toplantı yeri Budapester Straße üzerindeki bir otel; burada zaman zaman aksamalar yaşanabilir.",
+     "Trafik Bilgi Merkezi'nin (VIZ) verdiği bilgilere göre, bir devlet ziyareti nedeniyle Alt-Moabit Caddesi akşam saat yaklaşık 18.00 ile 19.30 arasında Lüneburger Straße ile Moltke Köprüsü arasında her iki yönde trafiğe kapatılacak. VIZ'e göre beklenen konukların bir kısmı en yüksek tehdit seviyesinde bulunuyor. Brandenburg Polisi, cumaya kadar BER Havalimanı'nda ve bağlantı yollarında kısıtlamalar bekliyor. Yüzlerce ek polis görevde.",
+     "Aynı zamanda birden fazla gösteri de bildirildi. Polis bilgilerine göre, Federal Başbakan Merz'in istifasını talep eden “Gen Z regelt” girişiminin ve Federal Öğrenci Konferansı'nın protestoları için her biri için 5.000 katılımcı bildirildi; “Gen Z regelt” yürüyüşünün Alexanderplatz'dan Kreuzberg'deki Mariannenplatz'a gitmesi planlanıyor. “Zorunlu askerliğe karşı okul grevi” (Schulstreik gegen Wehrpflicht) girişimi, Karl-Marx-Allee'den başlayan güzergâhta birkaç bin katılımcı bekliyor. NATO toplantısının doruk noktası pazartesi günü, Genel Sekreter Mark Rutte, Dışişleri Bakanı Johann Wadephul ve video bağlantısıyla katılacak Ukrayna Devlet Başkanı Volodymyr Zelenskyy'nin yer alacağı genel oturum olacak."
+    ],
+    "d": "NATO Parlamenter Meclisi bugünden itibaren City West'te toplanıyor. Bir devlet ziyareti nedeniyle akşam Alt-Moabit kapatılacak. Yüzlerce ek polis görevde.",
+    "t": "NATO toplantısı, devlet ziyareti, gösteriler: Berlin yol kapatmalarına hazırlanıyor"
+   },
+   "at": "2026-11-20T09:05Z",
+   "h": "844b8f136b22",
+   "rev": [
+    "Untranslated German names: Moltkebrücke, \"Schulstreik gegen Wehrpflicht\" should be translated/explained",
+    "\"jeweils 5.000 Teilnehmer\" rendered as \"ikişer kez 5.000 katılımcı\" (unnatural, suggests twice)",
+    "Headline \"hazırlıklı olun\" is an addition (imperative); German says Berlin must prepare",
+    "Teaser: \"bugünden itibaren\" ok; \"Bir devlet ziyareti nedeniyle akşam Alt-Moabit kapatılacak\" ok",
+    "Wording \"Başbakan\" for Kanzler: Federal Chancellor, better \"Federal Başbakan\"",
+    "\"Alt-Moabit Caddesi\" ok; \"etwa 18\" lost 'yaklaşık'",
+    "Federal Meclis (Bundestag) is the usual Turkish; Bundestag acceptable"
+   ],
+   "rev_dbg": [
+    7,
+    6,
+    0
+   ],
+   "x": {
+    "img.alt": "Sembolik fotoğraf: Berlin Polisi'ne ait bir müdahale aracı",
+    "kl": "Berlin"
    }
   },
   "berlin-schulstreik-gen-z-demo-alexanderplatz-2026-11-20-b0800": {
@@ -116,6 +201,34 @@
     "img.alt": "Sofya'daki Ulusal Meclis binası (arşiv fotoğrafı)"
    }
   },
+  "bulgarien-vss-wahl-dps-deal-2026-11-20-b1100": {
+   "L": {
+    "body": [
+     "Bulgaristan Meclisi'nde cuma günü, Ulusal Meclis kotasından Yüksek Yargı Konseyi'nin (VSS) on bir üyesinin oylaması yapılacak. Hâkimler dairesinde altı, savcılar dairesinde beş koltuk dağıtılacak; 21 aday gösterildi. Her adayın en az 160 oya, yani üçte iki çoğunluğa ihtiyacı var. Başlangıçta bir sonuç açıklanmadı. BGNES ajansının verdiği bilgiye göre mevcut kurul, Ekim 2022'den bu yana yalnızca geçici olarak görevde.",
+     "DPS Grup Başkanı Delyan Peevski, BTA haber ajansının verdiği bilgiye göre oylamadan önce partisinin, eski bakanlar Emil Dechev ve Andrey Yankulov ile Vazrazhdane'nin adayı Tsveta Rangelova dışında tüm adayları destekleyeceğini açıkladı. Peevski, BNT'ye göre her şeyin iktidardakiler ile PP-DB arasında kararlaştırılmış olduğunu söyledi ve alaycı bir şekilde “düğün için” tebrik etti. Grup arkadaşı Hamid Hamid, kendi anlatımına göre seçilecek olan on bir isimden oluşan bir liste okudu.",
+     "İktidar partisi Progresif Bulgaristan, gerekli üçte iki çoğunluk için diğer grupların oylarına muhtaç. 24 Chasa gazetesinin aktardığı PP ve DB milletvekillerinin bilgilerine göre yedi koltuk iktidar partisinin adaylarına, dört koltuk ise PP ve DB'nin adaylarına gidecek. Bu dağılım resmen doğrulanmış değil."
+    ],
+    "d": "Bulgaristan Meclisi, Yüksek Yargı Konseyi'nin on bir üyesi için oylama yapıyor. DPS adayların neredeyse tamamını destekleyecek; hükümetin PP ve DB ile kapalı kapılar ardında pazarlık yaptığını öne sürüyor.",
+    "t": "Sofya'da Yüksek Yargı Konseyi seçimi: DPS, Dechev ve Yankulov'a karşı çıkıyor"
+   },
+   "at": "2026-11-20T09:05Z",
+   "h": "0bb14d79421d",
+   "rev": [
+    "Parliament named inconsistently: 'Bulgaristan Meclisi' vs 'Ulusal Meclis' (Volksversammlung) – kept, minor",
+    "Indirect speech 'alles sei ... abgesprochen' rendered as plain fact; needs reporting marker",
+    "Hamid's list: 'seçileceği öne sürülen' is awkward and shifts the meaning; fix to 'seçileceğini söylediği'",
+    "Headline/teaser: DPS 'wirft vor' rendered as 'suçluyor' with ungrammatical 'anlaşmakla'; fix",
+    "'düğün için' lost 'zur Hochzeit' idiom; 'düğününüz için' more natural"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Sofya'daki Bulgaristan Ulusal Meclisi binası (Arşiv fotoğrafı)"
+   }
+  },
   "bundesrat-wuest-antrittsrede-fruehstartrente-2026-11-20-b0800": {
    "L": {
     "body": [
@@ -135,6 +248,84 @@
    ],
    "x": {
     "img.alt": "Bundesrat'ın Berlin'deki genel kurul salonu (Arşiv fotoğrafı)"
+   }
+  },
+  "deutsch-ukrainisches-wirtschaftsforum-merz-reiche-2026-11-20-b1100": {
+   "L": {
+    "body": [
+     "“Gönüllüler koalisyonu” olarak adlandırılan grubun Şansölyelik Dairesi'ndeki toplantısından bir gün sonra, Alman ve Ukraynalı temsilciler cuma günü Berlin'de daha yakın ekonomik iş birliğini görüşecek. Alman Basın Ajansı'nın (dpa) bilgilerine göre, Haus der Deutschen Wirtschaft'te düzenlenecek yıllık Alman-Ukrayna Ekonomi Forumu'na Şansölye Friedrich Merz ile Ekonomi Bakanı Katherina Reiche'nin (ikisi de CDU) katılması bekleniyor. Ukrayna heyetine Başbakan Serhiy Korezkyi başkanlık edecek.",
+     "Forumda savunma sanayii ile enerji sektörünün ön planda olması bekleniyor. Alman Sanayi ve Ticaret Odaları Birliği'nin (DIHK) bilgilerine göre birkaç iş birliği anlaşması planlanıyor; ayrıntılar başlangıçta açıklanmadı. DIHK Başkanı Peter Adrian şöyle dedi: “Belirleyici olan, siyasi dayanışmanın ekonomik perspektiflere dönüşmesidir.” Şirketlerin, büyük risklere rağmen sipariş alabilecekleri, yatırım yapabilecekleri ve istihdam yaratabilecekleri koşullara ihtiyaç duyduğunu belirtti.",
+     "Alman Ekonomisi Doğu Komitesi Başkan Yardımcısı ve Siemens Energy CEO'su Christian Bruch'un verdiği bilgiye göre ikili ticaretin bu yıl yaklaşık 13 milyar avroya yükselmesi bekleniyor. Bruch, Alman şirketlerinin Rusya'nın Ukrayna'ya yönelik saldırı savaşına rağmen Ukrayna'daki taahhütlerini sürdürdüğünü ve ortaklıklarını genişlettiğini söyledi. Merz, perşembe günü Kremlin lideri Vladimir Putin'e çağrıda bulunmuştu: “Ukrayna'daki savaşı sona erdirin ve birlikte diplomatik çözümler arayalım.”"
+    ],
+    "d": "Ukrayna zirvesinin ardından Berlin'de gündem iş dünyası: Alman-Ukrayna Ekonomi Forumu'nda savunma sanayii ve enerji öne çıkıyor. Birkaç anlaşma planlanıyor.",
+    "t": "Berlin'de ekonomi forumu: Merz ve Reiche Ukrayna ekonomisini güçlendirmek istiyor"
+   },
+   "at": "2026-11-20T09:05Z",
+   "h": "b0a46df0fd8e",
+   "rev": [
+    "Merz was called \"Başbakan\" (prime minister) but is Bundeskanzler; the Ukrainian Ministerpräsident was also \"Başbakan\", which makes the two titles ambiguous",
+    "Weekdays \"Cuma\" and \"Perşembe\" are capitalised mid-sentence; TDK requires lowercase",
+    "Teaser said \"Birkaç anlaşma\" for \"Mehrere Abkommen\" – acceptable, left unchanged",
+    "\"Ukrayna ekonomisini güçlendirmek\" is fine",
+    "Unattributed \"belirtildi\" for German subjunctive is acceptable, but the Bruch statement lacks clear attribution in the second sentence; attribution added"
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Arşiv fotoğrafı: Berlin-Mitte'deki Haus der Deutschen Wirtschaft"
+   }
+  },
+  "erzeugerpreise-oktober-plus-8-1-prozent-2026-11-20-b1100": {
+   "L": {
+    "body": [
+     "Almanya'da sanayi ürünlerinin fiyatları Ekim'de üç buçuk yıldan fazla süredir görülmeyen düzeyde arttı. Federal İstatistik Dairesi'nin (Destatis) Cuma günü açıkladığı verilere göre üretici fiyatları, bir önceki yılın aynı ayının düzeyinin yüzde 8,1 üzerindeydi. Daha güçlü bir artış en son Şubat 2023'te yüzde 13,9 ile kaydedilmişti. Fiyatlar Eylül'e kıyasla yüzde 1,4 yükseldi.",
+     "Başlıca etken, bir yıl içinde yüzde 18,7 pahalanan enerji oldu. Petrol ürünleri yüzde 51,9, hafif ısıtma yağı yüzde 97,2, akaryakıt ise yüzde 38,4 daha pahalıydı. İstatistikçiler bunu İran'daki ve Orta Doğu'daki savaşa bağlıyor. Dağıtımdaki doğalgaz yüzde 21,9, elektrik yüzde 12,6 pahalandı.",
+     "Enerji hariç tutulduğunda üretici fiyatları yüzde 3,6 arttı. Ara malları yüzde 6,8 pahalandı; bunlar arasında bakır ve yarı mamul bakır ürünleri yüzde 29,4 artış gösterdi. Tüketim malları ise bir yıl öncesine göre yüzde 1,3, gıda ürünleri yüzde 3,1 daha ucuzdu; tereyağı yüzde 25 daha ucuza satıldı. Üretici fiyatları, tüketici fiyatlarındaki gelişmenin öncü göstergesi olarak kabul ediliyor."
+    ],
+    "d": "Pahalı petrol ve doğalgaz üretici fiyatlarını yukarı çekiyor: Federal İstatistik Dairesi'ne göre fiyatlar Ekim'de bir önceki yıla kıyasla yüzde 8,1 yüksekti. Enerji yüzde 18,7 pahalandı.",
+    "t": "Üretici fiyatları yüzde 8,1 arttı – Şubat 2023'ten bu yana en sert artış"
+   },
+   "at": "2026-11-20T09:04Z",
+   "h": "3556bb607c78",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Wilhelmshaven yakınlarında kıyıdaki akaryakıt depolama tesisi, havadan görünüm (Sembolik fotoğraf)"
+   }
+  },
+  "kirkland-trump-gratisarbeit-2026-11-20-b1100": {
+   "L": {
+    "body": [
+     "Önde gelen Demokratlara göre ABD'li büyük hukuk bürosu Kirkland & Ellis, Başkan Donald Trump hükümetine en az 11,8 milyon dolar değerinde ücretsiz hukuki danışmanlık verdi. Bu, büronun verdiği ve Temsilciler Meclisi üyesi Jamie Raskin ile senatörler Richard Blumenthal ve Adam Schiff'in yayımladığı bilgilere dayanıyor. Buna göre yaklaşık dört milyon dolar Ticaret Bakanlığına, 2,2 milyon dolar Savunma Bakanlığına, 1,6 milyon dolar posta idaresi USPS'ye ve iki milyon dolar devletin kalkınma finansmanı kuruluşu DFC'ye gitti.",
+     "Üç Demokrat, büyük hukuk bürolarına yönelik “görülmemiş bir devlet baskısından” söz etti ve “yolsuz anlaşmanın” şimdiye kadar bilinenden çok daha ileri gittiğini belirtti. Arka planda 2025 yılındaki anlaşmalar var: Trump, bir kararnameyle çeşitli hukuk bürolarına karşı harekete geçmişti; Trump'ın verdiği bilgiye göre Kirkland 125 milyon dolar değerinde ücretsiz hizmet sözü verdi, karşılığında eşitlik kurumu EEOC tarafından yürütülen inceleme sona erdirildi. Kararnamelere karşı dava açan hukuk büroları mahkemede haklı bulundu.",
+     "Demokratlar şimdi aralarında Skadden, Paul Weiss ve Latham & Watkins'in de bulunduğu dokuz hukuk bürosundan daha belge talep etti. Demokratlara göre çoğu şimdiye kadar esaslı yanıt vermedi. 3 Kasım'daki ara seçimlerde kazandıkları zaferin ardından Demokratlar Ocak ayından itibaren Kongre'nin her iki kanadının da denetimini elinde tutacak. Kirkland, Reuters'e göre bir yazıda, anlaşmanın pro bono çalışmalarını neredeyse hiç etkilemediğini belirtti."
+    ],
+    "d": "Önde gelen Demokratlara göre ABD'li büyük hukuk bürosu Kirkland & Ellis, hükümete en az 11,8 milyon dolar değerinde ücretsiz hukuki danışmanlık verdi. Dokuz büro daha bilgi vermeye çağrıldı.",
+    "t": "Trump için ücretsiz çalışma: Kirkland hukuk bürosu 11,8 milyon dolarlık hizmet verdi"
+   },
+   "at": "2026-11-20T09:05Z",
+   "h": "ee76f6c01330",
+   "rev": [
+    "Teaser: 'Neun weitere Kanzleien sollen Auskunft geben' – 'bilgi vermeye çağrıldı' is fine, but headline/teaser acceptable; no change",
+    "Body 1: 'Temsilciler Meclisi üyesi' and 'Senatörler' capitalisation: 'Senatörler' should be lowercase mid-sentence",
+    "Body 3: 'Die meisten hätten bislang keine substanziellen Antworten geliefert' is indirect speech; the draft's 'belirtildi' lacks attribution to the Democrats",
+    "Body 3: 'Demokratlar ... kontrol edecek' – 'kontrol etmek' is acceptable but 'denetimini ele alacak/elinde tutacak' is more natural; kept as is",
+    "Body 2: 'Kirkland ... sözü verdi' follows 'nach Trumps Angaben', which is kept"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Washington'daki Kongre Binası (Sembolik fotoğraf)",
+    "kl": "ABD"
    }
   },
   "lufthansa-1000-stellen-drehkreuze-2026-11-20-b0800": {
@@ -163,6 +354,34 @@
    ],
    "x": {
     "img.alt": "Frankfurt'ta Lufthansa Airbus A320 (Arşiv fotoğrafı)"
+   }
+  },
+  "schalke-muslic-stuttgart-2026-11-20-b1100": {
+   "L": {
+    "body": [
+     "FC Schalke 04, cumartesi günü saat 18.30'da 10. Bundesliga haftasının dev maçında VfB Stuttgart'ı konuk ediyor. Başlangıç durumu zor: Dokuz haftanın ardından Gelsenkirchen temsilcisinin hanesinde yalnızca altı puan ve beş gol var, takım bu sezon evinde henüz gol atamadı. Teknik direktör Miron Muslic, maç öncesi basın toplantısında Stuttgart karşısında alınacak bir galibiyetin “bazı şeyleri epey kolaylaştıracağını” söyledi.",
+     "Kadroda rahatlama var. Muslic'in verdiği bilgiye göre forvet Moussa Sylla beşinci haftadan bu yana ilk kez yeniden kadroda; Adrian Gantenbein ve Janik Bachmann da oynamaya hazır. Teknik direktör, “Bu, daha cumartesi için bize gerçekten çok iyi seçenekler sunuyor” dedi. Robin Gosens'in durumu ise hâlâ belirsiz – oynayıp oynamayacağına cuma günkü son antrenmanın ardından karar verilecek.",
+     "Muslic, yedi lig maçında henüz gol ve asist üretemeyen 40 yaşındaki Edin Džeko'ya destek verdi: “Çocuklara destek oluyor. Süre alıp almamasından bağımsız olarak liderlik rolünün çok iyi farkında.” Teknik direktör, “Ruhr Nachrichten”in haberine göre kaleci Loris Karius'un transfer edileceği yönündeki söylentileri kısa bir cevapla reddetti."
+    ],
+    "d": "Schalke bu sezon evinde henüz gol atamadı. cumartesi günü VfB karşısında bunun değişmesi bekleniyor – teknik direktör Muslic yeniden Sylla, Gantenbein ve Bachmann'a başvurabiliyor.",
+    "t": "Schalke, Stuttgart maçı öncesinde: Muslic geri dönen Sylla'ya güveniyor"
+   },
+   "at": "2026-11-20T09:04Z",
+   "h": "8ad39a2bda17",
+   "rev": [
+    "Weekday names capitalised against TDK (Cumartesi, Cuma should be lowercase)",
+    "Teaser: weekday and the dash/capitalisation after the dash corrected",
+    "Quote “Er unterstützt die Jungs” rendered as “Genç oyunculara destek oluyor”; “die Jungs” is the team's players, not specifically young players",
+    "“Muslic'in verdiği bilgiye göre ... Teknik direktör, “Bu, daha Cumartesi için…”: weekday capitalisation",
+    "Gerüchte über eine Verpflichtung: Karius transfer rumours rendering OK; the “Başlangıç durumu” phrasing is acceptable"
+   ],
+   "rev_dbg": [
+    5,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Gelsenkirchen'deki Veltins-Arena, FC Schalke 04'ün iç saha stadyumu (Arşiv fotoğrafı)"
    }
   },
   "usa-cyberdirektor-cairncross-abgang-2026-11-20-b0800": {
