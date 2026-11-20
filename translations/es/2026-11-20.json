@@ -126,6 +126,34 @@
     "img.alt": "Edin Terzić, en 2023 todavía como entrenador del Borussia Dortmund (Foto de archivo)"
    }
   },
+  "berlin-gen-z-demo-polizei-2026-11-20-b1830": {
+   "L": {
+    "body": [
+     "Miles de jóvenes se manifestaron el viernes en Berlín por una mejor educación y contra el servicio militar obligatorio. La marcha de la iniciativa «Gen Z regelt» partió de Alexanderplatz hacia las 13:30, unas dos horas más tarde de lo previsto, y llegó a Mariannenplatz, en Kreuzberg. Se habían registrado 5.000 participantes; la policía calculó por la tarde la cifra en unos 4.000, mientras que un portavoz de los organizadores habló de entre 10.000 y 12.000. Paralelamente, la Conferencia Federal de Estudiantes (Bundesschülerkonferenz) convocó una concentración en la Puerta de Brandeburgo.",
+     "La policía está desplegada con hasta 1.600 efectivos hasta bien entrada la noche. Según el portavoz policial Florian Nath, por el momento no se habían producido incidentes y la situación era pacífica. Por la noche hay registrada otra manifestación en Kottbusser Tor. Tras los disturbios de la noche del 31 de octubre en varias ciudades, la Oficina Federal de Policía Criminal (Bundeskriminalamt) no tenía, según sus propias declaraciones, información sobre llamamientos concretos a la violencia para las nuevas protestas.",
+     "El coorganizador Akram Selo dijo que las conversaciones por sí solas no disuadirían a la iniciativa de manifestarse; según afirmó, quieren compromisos concretos. «Quienes buscan violencia no están en nuestras manifestaciones, diría yo», declaró. Entre otras cosas, se exige más dinero para las escuelas, vivienda asequible y protección del clima. A nivel nacional, «Gen Z regelt» había comunicado unas 21.000 confirmaciones para acciones en 73 ciudades."
+    ],
+    "d": "Según la policía, unas 4.000 personas participaron en la marcha de «Gen Z regelt»; los organizadores hablan de hasta 12.000. Hay desplegados hasta 1.600 agentes.",
+    "t": "Protestas juveniles en Berlín: miles marchan pacíficamente de Alexanderplatz a Kreuzberg"
+   },
+   "at": "2026-11-20T17:04Z",
+   "h": "948238c8114e",
+   "rev": [
+    "Teaser: the German says 'bis zu 12.000' for the organizers, and the draft is consistent with it, so no change needed there.",
+    "Body: 'a las 13:30' and 'de Alexanderplatz' are fine, but the sentence structure is awkward, with the place name separated from the verb.",
+    "Bundesschülerkonferenz and Bundeskriminalamt are given as Spanish translation plus the German name in parentheses; this is acceptable, so no change.",
+    "'Según afirmó, quieren compromisos' keeps the attribution, so it is fine."
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Vehículos policiales durante una manifestación en Berlín (Imagen simbólica)",
+    "kl": "Berlín"
+   }
+  },
   "berlin-marienfelde-brandserie-tatverdaechtige-2026-11-20-b1530": {
    "L": {
     "body": [
@@ -287,6 +315,33 @@
     "img.alt": "Edificio de la Asamblea Nacional de Bulgaria en Sofía (Foto de archivo)"
    }
   },
+  "bundesrat-kita-sprachtests-vermittlungsausschuss-2026-11-20-b1830": {
+   "L": {
+    "body": [
+     "El Bundesrat ha frenado por ahora la ley Startchancengesetz: la cámara de los Länder recurrió el viernes al comité de mediación. La ley prevé registrar de forma obligatoria el desarrollo del lenguaje y otras capacidades de los niños en las guarderías y apoyar de manera específica a los niños con déficits. Las guarderías con muchos niños en situaciones vitales difíciles recibirán personal adicional. El Bundestag había aprobado la ley el 12 de noviembre con 457 votos a favor y 132 en contra.",
+     "Los Länder apoyan el objetivo, pero critican la financiación. La Federación les ofrece, mediante la renuncia a participaciones en el IVA, unos 9000 millones de euros hasta 2034; los importes anuales disminuyen y a partir de 2035 ya no fluirá dinero federal. Puesto que las nuevas tareas serían permanentes, también la financiación debería serlo, argumentan los Länder. Además, consideran que algunas exigencias para las guarderías son demasiado detalladas.",
+     "En el comité de mediación se sientan representantes del Bundestag y del Bundesrat en igual número. Si acuerdan cambios, ambas cámaras deben votar de nuevo. En la misma sesión, el Bundesrat aprobó unas 20 leyes, entre ellas la pensión de inicio temprano (la llamada «Frühstart-Rente»), la cartera digital para documentos de identidad y mayores competencias en ciberdefensa."
+    ],
+    "d": "Los Länder recurren al comité de mediación por la ley Startchancengesetz. Apoyan las pruebas, pero exigen fondos federales permanentes en lugar de una ayuda que termina en 2035.",
+    "t": "El Bundesrat frena por ahora las pruebas de idioma en guarderías: disputa por el dinero"
+   },
+   "at": "2026-11-20T17:04Z",
+   "h": "15b8323cd8f6",
+   "rev": [
+    "Indirect speech: 'Dado que las nuevas tareas son permanentes' reads as plain fact; needs conditional/attribution within the clause",
+    "Number convention: 'nueve mil millones' should be 'unos 9000 millones'",
+    "'Gesetz' wording: 'ley Startchancengesetz' redundant but proper name; keep. 'Frühstart-Rente' is a gloss with untranslated term; acceptable but 'pensión de arranque temprano' is odd, use 'Frühstart-Re",
+    "Sentence 'consideran que algunas exigencias ... son demasiado detalladas' is attributed already, fine"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Sala de plenos del Bundesrat en Berlín (Imagen simbólica)"
+   }
+  },
   "bundesrat-wuest-antrittsrede-fruehstartrente-2026-11-20-b0800": {
    "L": {
     "body": [
@@ -385,6 +440,58 @@
     "img.alt": "Grandes almacenes Galeria en Alexanderplatz, Berlín (Imagen simbólica)"
    }
   },
+  "kaliakra-schiffe-treiben-2026-11-20-b1830": {
+   "L": {
+    "body": [
+     "Dos buques mercantes dañados siguen a la deriva en la zona económica exclusiva de Bulgaria, al sureste del cabo Kaliakra. Se trata del gasero «Gas Husky» y del carguero de carga general «Betul 8». La Fuerza Aérea y la Armada búlgaras determinaron sus posiciones; para el tráfico marítimo en la zona se han emitido nuevos avisos náuticos con las coordenadas.",
+     "Según el portal EraNova, el «Betul 8» volcó el 16 de noviembre tras un ataque con un dron marino. El gasero se encontraba en su última posición conocida a unos 27 kilómetros del lugar del incidente original. Los informes no indican quién está detrás de los ataques.",
+     "La proa del carguero «Khoryv», de 119 metros de eslora, que durante semanas sobresalió del agua frente al punto más oriental de Bulgaria, se ha hundido por completo entre Tyulenovo y el cabo Shabla. Buques de la Armada midieron el 19 de noviembre unos 50 metros de agua sobre los restos. Según los informes, ya no supone un peligro para la navegación."
+    ],
+    "d": "Frente a la costa norte de Bulgaria siguen a la deriva el gasero «Gas Husky» y el carguero «Betul 8». La proa del «Khoryv» yace ahora a unos 50 metros de profundidad. Rigen nuevas alertas para la navegación.",
+    "t": "Dos mercantes dañados a la deriva frente al cabo Kaliakra; se hunde el pecio de un tercero"
+   },
+   "at": "2026-11-20T17:04Z",
+   "h": "4147752bc02a",
+   "rev": [
+    "Headline: \"se hunde el casco de un tercero\" is inaccurate; the German says the wreck of a third ship has sunk (already happened), and the body text says only the bow sank",
+    "\"en último lugar\" is an unnatural rendering of \"zuletzt\"; it should be \"últimamente/en su última posición\"",
+    "\"Betul 8\" capsized \"según el portal\", but the sentence is slightly ambiguous; this is acceptable and is left as is"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Acantilado en el cabo Kaliakra (Imagen simbólica)"
+   }
+  },
+  "katar-emir-merz-investitionen-2026-11-20-b1830": {
+   "L": {
+    "body": [
+     "Catar quiere aumentar en otros 15.000 millones de euros sus inversiones en la economía alemana. Así lo anunció el canciller federal Friedrich Merz (CDU) el viernes tras reunirse con el emir Tamim bin Hamad Al Thani en la Cancillería. Según el Gobierno federal, el dinero fluirá hacia empresas alemanas en los próximos cinco años. Según Merz, se beneficiarán sobre todo la inteligencia artificial, los semiconductores y la aeronáutica. Catar ya participa en Volkswagen, Siemens y Deutsche Bank.",
+     "Ambas partes firmaron cinco acuerdos y declaraciones de intenciones, entre otros sobre seguridad y defensa y sobre el intercambio entre las autoridades de seguridad. Los dos países también quieren prepararse conjuntamente frente a los ciberataques. Merz habló de una «asociación de 360 grados»: «Juntos logramos más». El emir afirmó que el compromiso de Catar estaría concebido a largo plazo y demostraría confianza en la fortaleza de la economía alemana.",
+     "El tema central fue la guerra con Irán. Catar, que ha sido objetivo de ataques iraníes contra sus instalaciones de gas licuado, media entre Estados Unidos y Teherán. Merz elogió este papel y calificó de posible e imprescindible una solución diplomática. Como prioridad común se mencionó además la reconstrucción de Siria. El presidente federal Frank-Walter Steinmeier, que recibió al emir con honores militares, abogó por una arquitectura de seguridad en Oriente Medio al modelo de la CSCE."
+    ],
+    "d": "Durante la visita de Estado del emir a Berlín, Alemania y Catar acuerdan una cooperación más estrecha en seguridad y economía. Merz apuesta por la diplomacia en el conflicto con Irán.",
+    "t": "Catar quiere invertir otros 15.000 millones de euros en Alemania"
+   },
+   "at": "2026-11-20T17:04Z",
+   "h": "2265fa184586",
+   "rev": [
+    "Indirect speech: the emir's statement (Konjunktiv) was rendered as a plain fact; it needs an explicit reporting frame.",
+    "The teaser and body use 'acuerdan'/'según el modelo' phrasing, which is acceptable; 'Juntos logramos más' is fine.",
+    "The 'Katar ... selbst Ziel ... Angriffe' part is correct."
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "El emir de Catar, Tamim bin Hamad Al Thani (foto de archivo, 2023)"
+   }
+  },
   "kirkland-trump-gratisarbeit-2026-11-20-b1100": {
    "L": {
     "body": [
@@ -441,6 +548,33 @@
     "img.alt": "Vincent Kompany (Foto de archivo, 2013)"
    }
   },
+  "leverkusen-martinez-paderborn-rueckkehrer-2026-11-20-b1830": {
+   "L": {
+    "body": [
+     "El Bayer Leverkusen recibe un alivio en la plantilla antes del partido en casa contra el recién ascendido SC Paderborn del sábado (15:30). Según el entrenador Carles Martínez, Moussa Diaby, Nathan Tella y Christian Kofane vuelven a la convocatoria tras sus lesiones. Ibrahim Maza también está en plena forma: «Definitivamente estará», dijo Martínez. Según Sport1, Eliesse Ben Seghir es además una opción. Martin Terrier y Kennet Eichhorn serán baja.",
+     "Para el conjunto de Leverkusen es el primer partido de la Bundesliga tras el parón de selecciones; antes había perdido 2-4 contra el VfB Stuttgart. Martínez se alegra de volver a la BayArena: «Estamos deseando volver a sentir esta atmósfera especial, la hemos echado de menos». Sobre el rival dijo: «Me gusta cómo juegan. Tienen un estilo de juego claro». Y añadió: «Tenemos que ser perfectos».",
+     "El español de 42 años habló con franqueza sobre sus conocimientos de idiomas. «Sé que sería lo mejor, mi alemán es catastrófico», dijo, según Sport1. «Pero mi atención está aquí hasta Navidad». Durante el parón, según dijo, no tuvo tiempo de aprender alemán."
+    ],
+    "d": "El entrenador del Bayer, Carles Martínez, puede contar con varios jugadores que regresan ante el recién ascendido Paderborn. Terrier y Eichhorn son baja. Sobre su alemán dice: «catastrófico».",
+    "t": "Leverkusen ante el Paderborn: vuelven Diaby, Tella y Kofane; Terrier sigue de baja"
+   },
+   "at": "2026-11-20T17:04Z",
+   "h": "d81e46c56353",
+   "rev": [
+    "\"Werkself\" left untranslated; \"el Werkself\" is also grammatically awkward",
+    "\"Sobre su alemán dice\" in the teaser: tense/attribution; the quote should be attributed more naturally",
+    "\"Ibrahim Maza también está en forma\": \"fit\" means fit/available, and the wording is slightly off",
+    "\"mi foco\" is a literal translation of \"mein Fokus\"; \"mi objetivo/mi atención\" is more natural"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "BayArena en Leverkusen (Imagen simbólica)"
+   }
+  },
   "lufthansa-1000-stellen-drehkreuze-2026-11-20-b0800": {
    "L": {
     "body": [
@@ -491,6 +625,30 @@
    ],
    "x": {
     "img.alt": "El ministro federal de Defensa, Boris Pistorius (Foto de archivo, 2025)"
+   }
+  },
+  "pochettino-erste-pk-united-liverpool-2026-11-20-b1830": {
+   "L": {
+    "body": [
+     "Mauricio Pochettino ofreció el viernes su primera rueda de prensa previa a un partido como entrenador del Manchester United. El argentino confirmó a Bruno Fernandes como capitán: «Bruno es nuestro capitán y un jugador muy importante, pero todos los jugadores deben sentir que son importantes». Al preguntársele por su ritmo de trabajo, dijo: «¡Mi primer objetivo es dormir!»",
+     "El United, con solo una victoria en diez partidos de liga, ocupa el puesto 18 y, por tanto, una plaza de descenso; no gana desde hace ocho partidos. «Cuando no se ganan partidos, la confianza baja, baja y baja», dijo Pochettino. El domingo le espera en Anfield Road el Liverpool, cuarto clasificado.",
+     "Según NBC Sports, Manuel Ugarte y Benjamin Šeško estarán de baja durante más tiempo, Carlos Baleba se perderá unas semanas y Luke Shaw es duda. Marcus Rashford trabaja en su regreso tras una lesión en la ingle, y Patrick Dorgu y Harry Maguire vuelven a entrenar. Lisandro Martínez podría volver tras cumplir su sanción por expulsión."
+    ],
+    "d": "Antes de su debut en Liverpool, el nuevo entrenador del Manchester United confirmó a Bruno Fernandes como capitán. El equipo, 18.º en la tabla, no contará con Šeško ni Ugarte.",
+    "t": "Primera rueda de prensa de Pochettino en el United: Bruno sigue de capitán – «Primer objetivo: ¡dormir!»"
+   },
+   "at": "2026-11-20T17:04Z",
+   "flag": [
+    "Titel zu lang (104 Zeichen)"
+   ],
+   "h": "3e99302fba9a",
+   "rev_dbg": [
+    1,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Mauricio Pochettino (Foto de archivo, 2026)"
    }
   },
   "polen-russische-raketen-luftraum-2026-11-20-b1530": {
@@ -548,6 +706,31 @@
     "img.alt": "La Veltins-Arena de Gelsenkirchen, estadio del FC Schalke 04 (Foto de archivo)"
    }
   },
+  "signal-sperrt-screenshots-ki-agenten-2026-11-20-b1830": {
+   "L": {
+    "body": [
+     "El servicio de mensajería cifrada Signal restringe las capturas de pantalla en smartphones para que los agentes de IA no puedan leer sus chats. Según la empresa, el bloqueo está activado por defecto. Si la aplicación detecta un intento de captura de pantalla o un asistente de IA que quiere acceder a la pantalla, aparece un aviso mediante el cual los usuarios pueden desactivar la protección. Reuters fue el primero en informar.",
+     "Según Digital Trends, en Android el bloqueo de pantalla se activa automáticamente en cuanto un asistente de IA quiere leer la pantalla. En iOS 27, Signal bloquea las capturas de pantalla en la aplicación y recibe un nuevo ajuste para excluir a Siri AI. Según Signal, en el Mac la aplicación no podría ofrecer la protección de forma fiable y por ello recomienda excluirla en los ajustes de Siri. Signal ve con especial preocupación la IA integrada directamente en el sistema operativo, como Siri AI de Apple y Gemini Intelligence de Google.",
+     "En una entrada de blog, Signal califica esta evolución de «una amenaza existencial» para el servicio y admite que la nueva protección sigue siendo incompleta. Apple, Google y Microsoft deben ofrecer a los desarrolladores vías más claras para proteger los datos sensibles frente a los agentes de IA. El trasfondo es un informe de Reuters, según el cual el agente Muse de Meta pudo leer mensajes de Signal en un Mac y en un móvil Android. Meta declaró que Muse solo accede a otras aplicaciones con permisos concedidos de forma expresa."
+    ],
+    "d": "Signal quiere impedir que los asistentes de IA del sistema operativo lean chats privados. El servicio habla de una «amenaza existencial» y pide a Apple, Google y Microsoft que actúen.",
+    "t": "Protección frente a agentes de IA: Signal bloquea por defecto las capturas en móviles"
+   },
+   "at": "2026-11-20T17:04Z",
+   "h": "b8cba86abc0c",
+   "rev": [
+    "Title: 'frente a agentes de IA' is placed ambiguously; reordered so it reads as protection against AI agents.",
+    "The Mac sentence is an indirect-speech statement. The draft wrote 'según se indica' and then used the conditional for both verbs, which blurs the attribution and distorts 'rät' (recommends). Attributi"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Aplicación Signal en un smartphone Android (Imagen simbólica)"
+   }
+  },
   "us-ki-chips-china-900000-genehmigt-2026-11-20-b1530": {
    "L": {
     "body": [
@@ -567,6 +750,28 @@
    ],
    "x": {
     "img.alt": "Gráfico de portada de TERRA WORLD NEWS"
+   }
+  },
+  "us-senat-genehmigungsreform-2026-11-20-b1830": {
+   "L": {
+    "body": [
+     "El Senado de EE. UU. aprobó en la noche del jueves al viernes (hora local del jueves por la noche) una amplia reforma de la normativa de permisos. 62 senadores votaron a favor y 33 en contra, entre ellos 31 demócratas y los republicanos Josh Hawley y Mike Rounds. La ley pasa ahora a la Cámara de Representantes, que debe ocuparse de ella tras el receso de Acción de Gracias. La Casa Blanca había expresado antes su apoyo por escrito.",
+     "El proyecto interviene en los procedimientos de evaluación previstos en varias leyes ambientales, entre ellas la ley de política ambiental NEPA, la ley de especies en peligro y la ley de aguas limpias. La agencia reguladora de energía FERC recibiría más competencias sobre las líneas eléctricas interregionales. Además, los clientes de electricidad no tendrían que pagar el suministro de los nuevos centros de datos. El texto fue negociado por los republicanos Shelley Moore Capito y Mike Lee con los demócratas Sheldon Whitehouse y Martin Heinrich.",
+     "Organizaciones ecologistas como el Sierra Club, 17 estados gobernados por demócratas y organizaciones de pueblos indígenas estadounidenses rechazan la ley; las asociaciones industriales y energéticas la apoyan. Muchos demócratas habían exigido esperar al nuevo Congreso de enero, en el que controlarán ambas cámaras. Según Roll Call, el presidente de la Cámara, Mike Johnson, considera posible una mayoría en la Cámara de Representantes."
+    ],
+    "d": "El Senado de EE. UU. aprobó por 62 votos a 33 una ley bipartidista que busca acelerar los permisos para líneas eléctricas, proyectos eólicos, solares, mineros y petroleros. Trump la respalda.",
+    "t": "El Senado de EE. UU. aprueba la reforma de permisos más ágiles; ahora decide la Cámara"
+   },
+   "at": "2026-11-20T17:04Z",
+   "h": "c7f41c25c68e",
+   "rev_dbg": [
+    2,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Pleno del Senado de EE. UU. (foto de archivo)",
+    "kl": "EE. UU."
    }
   },
   "usa-cyberdirektor-cairncross-abgang-2026-11-20-b0800": {
