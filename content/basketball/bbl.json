@@ -8,7 +8,7 @@
   "tr": "easyCredit BBL (Almanya)"
  },
  "season": "2026/27",
- "asof": "2026-11-20",
+ "asof": "2026-11-21",
  "tables": [
   {
    "name": {},
@@ -29,18 +29,18 @@
      "pa": 688
     },
     {
-     "team": "SYNTAINICS MBC",
-     "w": 6,
-     "l": 3,
-     "pf": 754,
-     "pa": 732
-    },
-    {
      "team": "Telekom Baskets Bonn",
      "w": 6,
      "l": 3,
      "pf": 789,
      "pa": 731
+    },
+    {
+     "team": "SYNTAINICS MBC",
+     "w": 6,
+     "l": 3,
+     "pf": 754,
+     "pa": 732
     },
     {
      "team": "ROSTOCK SEAWOLVES",
@@ -73,16 +73,9 @@
     {
      "team": "Fitness First Würzburg Baskets",
      "w": 4,
-     "l": 4,
-     "pf": 654,
-     "pa": 666
-    },
-    {
-     "team": "ratiopharm ulm",
-     "w": 4,
      "l": 5,
-     "pf": 757,
-     "pa": 769
+     "pf": 745,
+     "pa": 763
     },
     {
      "team": "BMA365 Bamberg Baskets",
@@ -92,6 +85,13 @@
      "pa": 771
     },
     {
+     "team": "ratiopharm ulm",
+     "w": 4,
+     "l": 5,
+     "pf": 757,
+     "pa": 769
+    },
+    {
      "team": "EWE Baskets Oldenburg",
      "w": 4,
      "l": 5,
@@ -99,18 +99,11 @@
      "pa": 751
     },
     {
-     "team": "NINERS Chemnitz",
-     "w": 3,
-     "l": 6,
-     "pf": 808,
-     "pa": 799
-    },
-    {
      "team": "RASTA Vechta",
-     "w": 3,
+     "w": 4,
      "l": 6,
-     "pf": 765,
-     "pa": 812
+     "pf": 862,
+     "pa": 903
     },
     {
      "team": "Veolia Towers Hamburg",
@@ -120,6 +113,13 @@
      "pa": 817
     },
     {
+     "team": "NINERS Chemnitz",
+     "w": 3,
+     "l": 6,
+     "pf": 808,
+     "pa": 799
+    },
+    {
      "team": "Basketball Löwen Braunschweig",
      "w": 3,
      "l": 6,
@@ -127,32 +127,23 @@
      "pa": 883
     },
     {
-     "team": "Science City Jena",
-     "w": 2,
-     "l": 7,
-     "pf": 701,
-     "pa": 806
-    },
-    {
      "team": "Phoenix Hagen",
      "w": 2,
      "l": 7,
      "pf": 751,
      "pa": 828
+    },
+    {
+     "team": "Science City Jena",
+     "w": 2,
+     "l": 7,
+     "pf": 701,
+     "pa": 806
     }
    ]
   }
  ],
  "matches": [
-  {
-   "t1": "Science City Jena",
-   "t2": "Veolia Towers Hamburg",
-   "date": "2026-11-09",
-   "ft": [
-    87,
-    91
-   ]
-  },
   {
    "t1": "Phoenix Hagen",
    "t2": "MHP RIESEN Ludwigsburg",
@@ -238,7 +229,10 @@
    "t1": "Fitness First Würzburg Baskets",
    "t2": "RASTA Vechta",
    "date": "2026-11-20",
-   "time": "20:00"
+   "ft": [
+    91,
+    97
+   ]
   },
   {
    "t1": "Science City Jena",
@@ -265,12 +259,6 @@
    "time": "20:00"
   },
   {
-   "t1": "Telekom Baskets Bonn",
-   "t2": "ratiopharm ulm",
-   "date": "2026-11-22",
-   "time": "18:30"
-  },
-  {
    "t1": "MHP RIESEN Ludwigsburg",
    "t2": "SYNTAINICS MBC",
    "date": "2026-11-22",
@@ -287,20 +275,31 @@
    "t2": "FC Bayern München Basketball",
    "date": "2026-11-22",
    "time": "18:00"
+  },
+  {
+   "t1": "Telekom Baskets Bonn",
+   "t2": "ratiopharm ulm",
+   "date": "2026-11-22",
+   "time": "18:30"
+  },
+  {
+   "t1": "SKYLINERS",
+   "t2": "Fitness First Würzburg Baskets",
+   "date": "2026-12-03"
   }
  ],
  "src": [
   {
-   "n": "Keine neuen Ligaspiele seit dem letzten Stand (nächster Spieltag 20.–22.11.2026); Stand geprüft 20.11.2026",
-   "u": "https://www.easycredit-bbl.de/saison/aktuelle-spiele"
-  },
-  {
-   "n": "easyCredit BBL – Tabelle (Stand 14.11.2026, 22:17 Uhr), fortgeschrieben mit den vier Ergebnissen vom 15.11.2026; bei Gleichstand vorläufig nach Korbdifferenz",
+   "n": "easyCredit BBL – Tabelle (Stand 20.11.2026, 22:57 Uhr)",
    "u": "https://www.easycredit-bbl.de/saison/tabelle"
   },
   {
-   "n": "easyCredit BBL – Aktuelle Spiele (Spieltag 20.–22.11.2026, abgerufen 16.11.2026)",
+   "n": "easyCredit BBL – Aktuelle Spiele, 10. Spieltag 20.–22.11.2026 (abgerufen 21.11.2026)",
    "u": "https://www.easycredit-bbl.de/saison/aktuelle-spiele"
+  },
+  {
+   "n": "Würzburg Baskets – Overtime-Krimi mit dem besseren Ende für die Gäste, 91:97 n. V. gegen Vechta (20.11.2026)",
+   "u": "https://www.wuerzburg-baskets.de/news/newsdetails/overtime-krimi-mit-dem-besseren-ende-fuer-die-gaeste"
   },
   {
    "n": "FC Bayern Basketball – Spielbericht gegen den MBC, 91:61 (15.11.2026)",
@@ -321,18 +320,6 @@
   {
    "n": "easyCredit BBL – Startseite/NewsCenter mit den Ergebnissen vom 14.11.2026 (abgerufen 15.11.2026)",
    "u": "https://www.easycredit-bbl.de/"
-  },
-  {
-   "n": "dpa/Volksstimme – Alba gelingt erster Liga-Auswärtssieg in dieser Saison (14.11.2026)",
-   "u": "https://www.volksstimme.de/panorama/alba-gelingt-erster-liga-auswartssieg-in-dieser-saison-4356587"
-  },
-  {
-   "n": "Phoenix Hagen – Bitteres Ende eines kämpferischen Auftritts (79:93 gegen Ludwigsburg, 14.11.2026)",
-   "u": "https://www.phoenix-hagen.de/bitteres-ende-eines-kaempferischen-auftritts/"
-  },
-  {
-   "n": "MHP RIESEN Ludwigsburg – Big Plays bringen Big Points (Bilanz 5:4, 14.11.2026)",
-   "u": "https://mhp-riesen-ludwigsburg.de/news/big-plays-bringen-big-points/"
   }
  ],
  "img": {
