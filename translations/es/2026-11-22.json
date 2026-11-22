@@ -98,6 +98,33 @@
     "img.alt": "Estadio de la Cerámica en Villarreal (imagen simbólica)"
    }
   },
+  "berlin-internetwache-polizei-ausfall-2026-11-22-b2100": {
+   "L": {
+    "body": [
+     "La comisaría en línea de la policía de Berlín tampoco es accesible este domingo. Desde el sábado, los ciudadanos no pueden presentar denuncias, enviar avisos ni registrar manifestaciones. «Trabajamos a toda máquina para restablecer el servicio cuanto antes y pedimos comprensión hasta entonces», informó la policía. No se sabe cuándo volverá a funcionar el servicio.",
+     "Según información de dpa, el motivo sería una brecha de seguridad en la tecnología subyacente; la página habría sido desconectada como medida preventiva hasta que se instalen actualizaciones de software. La policía no lo confirmó. Un portavoz dijo únicamente que un servicio especializado estaría tratando un problema técnico.",
+     "En caso de emergencia, el 110 sigue disponible; las personas sordas o con discapacidad del habla pueden enviar un fax al 110 o usar la app Nora. Las denuncias pueden presentarse en persona en cualquier comisaría. Ya en octubre la comisaría en línea había sido desconectada de forma preventiva por una vulnerabilidad mundial en el lenguaje de programación PHP."
+    ],
+    "d": "Sin denuncias en línea, sin avisos, sin registro de manifestaciones: la comisaría en línea de la policía de Berlín está averiada desde el sábado. Según dpa, detrás habría una brecha de seguridad.",
+    "t": "Berlín: la comisaría en línea de la policía sigue caída el domingo; causa incierta"
+   },
+   "at": "2026-11-22T19:05Z",
+   "h": "2c15d1233278",
+   "rev": [
+    "Se perdió el carácter de discurso indirecto en la declaración del portavoz: «un servicio especializado está tratando» se lee como un hecho; hay que mantener el condicional o la marca de atribución.",
+    "«Polizeiabschnitt» se tradujo como «comisaría», lo cual es aceptable; sin cambios.",
+    "«Bürgerinnen und Bürger» se reduce a «los ciudadanos»; aceptable."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Vehículo policial en Berlín (Imagen simbólica)",
+    "kl": "Berlín"
+   }
+  },
   "berlin-kliniken-feuerwehr-polizei-boellerverbot-2026-11-22-b1530": {
    "L": {
     "body": [
@@ -348,6 +375,58 @@
     "img.alt": "Estadio de la Amistad (Stadion der Freundschaft) de Cottbus (foto de archivo)"
    }
   },
+  "delta-ausfall-thanksgiving-2026-11-22-b2100": {
+   "L": {
+    "body": [
+     "Una avería en el sistema automático de peso y carga afectó considerablemente el domingo a las operaciones de la aerolínea estadounidense Delta Air Lines. La autoridad de aviación FAA ordenó por la mañana la suspensión de los despegues de vuelos de Delta al centro de operaciones de Hartsfield-Jackson, en Atlanta, medida que más tarde se convirtió en una regla de demoras. Según el servicio FlightAware, hasta el mediodía el 48 por ciento de todos los vuelos de Delta llevaba retraso.",
+     "Delta explicó que sus equipos utilizaban procedimientos manuales de emergencia para que los vuelos pudieran despegar con seguridad mientras se trabajaba en restablecer el sistema automático. Como el peso de los aviones debe calcularse a mano, los despegues tardan más y las puertas de embarque para los aviones que llegan siguen ocupadas. Los pasajeros informaron de retrasos en Newark, Nueva York-LaGuardia, Washington, Boston, Miami y Minneapolis, entre otros.",
+     "La FAA comunicó que los problemas no guardaban relación con sus propios sistemas de control del tráfico aéreo. La avería coincide con el inicio de la semana de viajes de Acción de Gracias: solo en Atlanta se esperan más de cuatro millones de pasajeros hasta el 1 de diciembre. A principios de noviembre, una avería en la red de la FAA había provocado la suspensión de despegues a nivel nacional más larga en 25 años."
+    ],
+    "d": "Un error en el sistema de peso y carga frenó en seco a Delta Air Lines el domingo. La FAA suspendió temporalmente los despegues de vuelos a Atlanta y hubo retrasos en todo el país.",
+    "t": "Antes de Acción de Gracias, fallo informático en Delta retrasa casi la mitad de sus vuelos"
+   },
+   "at": "2026-11-22T19:05Z",
+   "h": "628572b4b749",
+   "rev": [
+    "Headline: 'casi la mitad' is imprecise but acceptable; 'fallo informático' is an addition (German: Systempanne). Left as is.",
+    "Last sentence: 'más larga en 25 años' is ambiguous; the German says 'longest nationwide departure stop in 25 years'. Minor wording fix."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Aviones de Delta en el aeropuerto de Atlanta (Foto de archivo)",
+    "kl": "EE. UU."
+   }
+  },
+  "dni-clayton-tech-ausfaelle-2026-11-22-b2100": {
+   "L": {
+    "body": [
+     "El director de Inteligencia Nacional de EE. UU., Jay Clayton, advirtió el domingo de nuevas averías tecnológicas. Empresas y autoridades están sustituyendo actualmente sistemas obsoletos, dijo en una entrevista con CNN: «we are going to have glitches, gaps, interruptions in service», es decir, fallos, lagunas e interrupciones del servicio. Los cambios son necesarios para mejorar el rendimiento y la ciberseguridad, según informó Reuters.",
+     "A principios de noviembre varias caídas llamaron la atención, entre ellas una paralización del tráfico aéreo en todo el país, un fallo de Microsoft que afectó a los servicios de correo electrónico, una avería en varios grandes bancos y una interrupción temporal en la red del servicio de espionaje NSA. El presidente Donald Trump ya había explicado hace unos días la serie de fallos como consecuencia de cambios de sistemas en empresas.",
+     "En el programa de ABC «This Week», Clayton dijo sobre los incidentes de la semana: «we know that they were not coordinated and that they were not state sponsored.» No quiso pronunciarse en detalle sobre los ciberataques notificados contra el FBI y el Departamento de Agricultura. Los investigadores darán respuestas a su debido tiempo, dijo."
+    ],
+    "d": "Tras una serie de fallos en el tráfico aéreo, Microsoft y bancos, Jay Clayton espera más interrupciones. Según él, se deben a cambios de sistemas necesarios, no a ataques coordinados.",
+    "t": "Jefe de inteligencia de EE. UU.: hay que esperar más fallos tecnológicos"
+   },
+   "at": "2026-11-22T19:06Z",
+   "h": "0fd2eb84a79c",
+   "rev": [
+    "Teaser: 'Jay Clayton espera más interrupciones' lost the title 'Geheimdienstdirektor'; minor, acceptable.",
+    "Body 1: 'Clayton afirmó que los cambios serían necesarios' adds an attribution to Clayton that the German does not have (the German attributes it to Reuters); simplified to keep Reuters as the source.",
+    "Body 2: 'servicio de escuchas NSA' is a calque; the NSA is the National Security Agency, so 'Agencia de Seguridad Nacional (NSA)' is clearer."
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico de portada de TERRA WORLD NEWS"
+   }
+  },
   "dymer-drohne-wohnhaus-2026-11-22-b1100": {
    "L": {
     "body": [
@@ -393,6 +472,32 @@
    ],
    "x": {
     "img.alt": "Gráfico de portada TERRA WORLD NEWS"
+   }
+  },
+  "groehe-freiwilligendienst-1000-euro-2026-11-22-b2100": {
+   "L": {
+    "body": [
+     "El presidente de la Cruz Roja Alemana (DRK), Hermann Gröhe, reclama un aumento notable de la paga de los servicios de voluntariado. Actualmente, quienes realizan el servicio voluntario federal, el Año Social Voluntario o el Año Ecológico Voluntario reciben algo más de 400 euros al mes. Gröhe propuso al grupo de medios Funke equiparar esa cantidad con el máximo del Bafög, de unos 1.000 euros.",
+     "«No puede depender del bolsillo de los padres que alguien dedique un año a los demás», dijo Gröhe. Además, según Gröhe, al menos el trayecto hasta el lugar de servicio debería poder hacerse fácilmente con el Deutschlandticket. Según el Ministerio de Familia, unas 90.000 personas realizan cada año un servicio voluntario; la DRK es el mayor proveedor, con unas 20.000 plazas.",
+     "Gröhe exigió además una equiparación uniforme en todo el país de los ayudantes voluntarios. A diferencia del personal del THW y de los bomberos, los voluntarios de la DRK, de los Malteser (Orden de Malta), de los Johanniter (Orden de San Juan), de la ASB y de la DLRG tienen que tomarse a menudo vacaciones para ejercicios y cursos. Los estados federados que, según Gröhe, van por detrás en este aspecto deberían ponerse al día."
+    ],
+    "d": "La paga del FSJ y del servicio voluntario federal ronda los 400 euros. Gröhe quiere elevarla al máximo del Bafög, además de un Deutschlandticket para llegar al lugar de servicio.",
+    "t": "Gröhe, presidente de la Cruz Roja alemana: 1.000 euros al mes por el voluntariado"
+   },
+   "at": "2026-11-22T19:05Z",
+   "h": "daf6a77434e8",
+   "rev": [
+    "Untranslated German names Malteser and Johanniter (Spanish: Cruz Maltesa/Malteses, Johanniter → Orden de San Juan)",
+    "\"la DRK\" gender: Cruz Roja Alemana is feminine, but acronym use \"el DRK\" is more standard; minor, left",
+    "\"Länder, die hier zurücklägen\" is conditional/indirect speech and was rendered as a plain fact (\"se han quedado rezagados\")"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Hermann Gröhe (Foto de archivo)"
    }
   },
   "hertha-cottbus-hochsicherheitsspiel-2026-11-22-b1100": {
@@ -565,6 +670,33 @@
     "img.alt": "BayArena en Leverkusen (Foto de archivo)"
    }
   },
+  "liverpool-manchester-united-4-0-pochettino-2026-11-22-b2100": {
+   "L": {
+    "body": [
+     "El estreno de Mauricio Pochettino como entrenador del Manchester United fue un fracaso. Su equipo perdió el domingo 0-4 ante el Liverpool en Anfield. Ya en el minuto 8, el defensa Leny Yoro vio la tarjeta roja por una falta como último hombre sobre Alexander Isak.",
+     "Con un jugador más, el Liverpool se distanció rápidamente: Dominik Szoboszlai marcó en el minuto 10 de falta directa y Florian Wirtz amplió la ventaja tres minutos después con una volea. Tras el descanso marcaron Rio Ngumoha, de 18 años (min. 66), tras un pase de Bradley Barcola, y Víctor Muñoz (min. 82), tras una pared con Wirtz.",
+     "El equipo del entrenador Andoni Iraola avanza así al cuarto puesto y queda a un punto del Brighton y del Manchester City. Tras la jornada 11, el United es penúltimo y está a un punto de la zona de permanencia. Pochettino había sido presentado como nuevo entrenador el 13 de noviembre."
+    ],
+    "d": "Tras la temprana roja a Yoro marcaron Szoboszlai, Wirtz, Ngumoha y Muñoz. El Liverpool sube al cuarto puesto y el Manchester United, 19.º, está inmerso en la lucha por evitar el descenso.",
+    "t": "Roja a los ocho minutos: el debut de Pochettino con el United acaba 0-4 en Liverpool"
+   },
+   "at": "2026-11-22T19:06Z",
+   "h": "b2de95ba09cc",
+   "rev": [
+    "Anfield Road: el estadio se llama Anfield (en alemán «an der Anfield Road» es la calle); se deja «Anfield» sin «Road» por coherencia con el pie de foto",
+    "Marcador de minutos «(66)» y «(82)» con formato poco natural",
+    "El Liverpool de Iraola: el original dice que el equipo de Iraola (Liverpool) – dato del original, se mantiene",
+    "«19.º, está en la zona de descenso» en el teaser: el original dice «steckt im Abstiegskampf» (lucha por evitar el descenso)"
+   ],
+   "rev_dbg": [
+    4,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "El estadio Anfield de Liverpool (Foto de archivo)"
+   }
+  },
   "microsoft-entra-connect-health-luecke-2026-11-22-b0800": {
    "L": {
     "body": [
@@ -639,6 +771,32 @@
     "img.alt": "Weserstadion de Bremen (Foto de archivo)"
    }
   },
+  "petrova-tok-parno-ceni-2026-11-22-b2100": {
+   "L": {
+    "body": [
+     "Los precios de la electricidad y de la calefacción urbana para los hogares en Bulgaria no deberían cambiar hasta el 30 de junio de 2027. Lo dijo la ministra de Energía, Iva Petrova, el domingo a la cadena bTV. «Nuestro sistema energético está preparado y superará estas pruebas», afirmó en referencia a las turbulencias en los mercados internacionales. Según dijo, las centrales han concluido sus revisiones previstas.",
+     "Según la ministra, el almacén subterráneo de gas de Chiren está lleno en torno al 72 %, mientras que la media de la UE sería del 69 %. Para el año gasista 2026/27 habría diez cargamentos de gas natural licuado asegurados por contrato. El gas natural en sí ya se habría encarecido; no obstante, el Gobierno no quiere repercutir el aumento en las facturas de calefacción urbana, sino compensarlo mediante un fondo de seguridad del sistema.",
+     "Petrova criticó duramente a la empresa de calefacción urbana Toplofikatsia Sofia, cuyas deudas con empresas estatales superan, según sus palabras, los 1.300 millones de euros. Afirmó que el modelo de negocio no es viable y que no puede seguir así. Sobre el reciente incidente en la unidad 6 de la central nuclear de Kozloduy, dijo que nada ha cambiado en la seguridad nuclear."
+    ],
+    "d": "Bulgaria tiene preparado su sistema energético para el invierno, afirma la ministra Iva Petrova. El almacén de gas de Chiren está al 72 %, por encima de la media de la UE. El gas natural, en cambio, se encarece.",
+    "t": "Ministra de Energía Petrova: la luz y la calefacción urbana no subirán hasta junio de 2027"
+   },
+   "at": "2026-11-22T19:06Z",
+   "h": "44395210b931",
+   "rev": [
+    "Teaser: «El gas natural, en cambio, se encarece» is stated as plain fact; the German \"Erdgas wird dagegen teurer\" is also plain fact, so this is fine.",
+    "Body 1: «Según dijo, las centrales han concluido...» is acceptable.",
+    "Body 3: «Block 6» of the nuclear plant rendered as «reactor 6»; the German says Block 6, so «unidad 6» is the more accurate wording."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Gráfico de portada de TERRA WORLD NEWS"
+   }
+  },
   "rackspace-spot-kubernetes-einbruch-2026-11-22-b1100": {
    "L": {
     "body": [
@@ -686,6 +844,27 @@
    ],
    "x": {
     "img.alt": "Stephan Toscani (Foto de archivo)"
+   }
+  },
+  "schneider-oelstaaten-cop31-2026-11-22-b2100": {
+   "L": {
+    "body": [
+     "Tras la conclusión de la Conferencia Mundial sobre el Clima en Antalya (Turquía) sin declaración final, el ministro federal de Medio Ambiente, Carsten Schneider (SPD), acusó a algunos Estados petroleros de bloqueo deliberado. «La industria del petróleo y del gas todavía da coletazos», dijo, según la dpa. Algunos países productores se habrían dado cuenta de que para ellos la situación se pone seria y por eso bloquearían con tanta vehemencia, afirmó. El Gobierno federal mencionó al respecto a Arabia Saudí y Rusia.",
+     "Alemania y la UE habían rechazado el borrador presentado por la presidencia de la conferencia porque no menciona expresamente los combustibles fósiles. Schneider había calificado antes el texto de «inaceptable»; según dijo, un retroceso en la protección del clima sería lo último que Alemania podría permitirse. La cumbre es considerada la más larga de la historia de las conferencias climáticas de la ONU.",
+     "Schneider señaló que el resto del mundo está cambiando rápidamente a los coches eléctricos, las bombas de calor y una industria modernizada, lo que amenaza el modelo de negocio de los exportadores de petróleo y gas. Según los ministerios de Medio Ambiente y de Desarrollo, 75 Estados y 94 organizaciones se sumaron a una iniciativa para cubrir con electricidad alrededor del 35 por ciento del consumo final de energía hasta 2035. La ministra de Desarrollo, Reem Alabali Radovan (SPD), habló, pese a la decepción, de una señal de solidaridad global."
+    ],
+    "d": "«La industria del petróleo y del gas todavía da coletazos»: Carsten Schneider responsabiliza a los productores de petróleo del fracaso de Antalya. 75 Estados se suman a una iniciativa sobre electricidad.",
+    "t": "Tras el fracaso de la cumbre climática, Schneider arremete contra los países petroleros"
+   },
+   "at": "2026-11-22T19:06Z",
+   "h": "9c9ca3b35a16",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Carsten Schneider en la COP30 en Belém (foto de archivo)"
    }
   },
   "serie-a-malen-viererpack-roma-parma-lazio-2026-11-22-b1100": {
@@ -760,6 +939,30 @@
    ],
    "x": {
     "img.alt": "Jiří Procházka (Foto de archivo)"
+   }
+  },
+  "werder-hsv-nordderby-4-0-2026-11-22-b2100": {
+   "L": {
+    "body": [
+     "El Werder Bremen ganó con claridad el derbi del Norte al Hamburger SV. En el Weserstadion, el equipo del entrenador Daniel Thioune se impuso 4-0 en la jornada 10; al descanso el marcador seguía 0-0. Fue el 111.º derbi del Norte en la historia de la Bundesliga.",
+     "El capitán Marco Friedl adelantó al Werder en el minuto 55. Justin Njinmah, que entró en el once inicial por el tocado Marco Grüll, amplió la ventaja con un doblete en los minutos 66 y 70. En el tiempo añadido, Niclas Füllkrug puso el punto final tras un contraataque con su décimo gol de la temporada.",
+     "Tras el descanso, el Hamburgo tuvo más el balón, pero cayó una y otra vez en los contraataques del Bremen. En el HSV, el centrocampista Miro Muheim tuvo que abandonar el campo ya tras algo más de un cuarto de hora; en el Werder faltó Senne Lynen por enfermedad. El Bremen es sexto con 18 puntos y está a tres puntos de una plaza de Liga de Campeones; el HSV es duodécimo con 12 puntos."
+    ],
+    "d": "Tras una primera parte sin goles, el Bremen resolvió el 111.º derbi del Norte de la Bundesliga en 15 minutos. El Werder es sexto; el HSV sigue a media tabla con 12 puntos.",
+    "t": "Doblete de Njinmah y gol de Füllkrug: el Werder arrolla al HSV 4-0 en el derbi del Norte"
+   },
+   "at": "2026-11-22T19:05Z",
+   "h": "206805f19d7a",
+   "rev": [
+    "\"angeschlagenen\" (Grüll) rendered as \"lesionado\" (injured); \"angeschlagen\" means not fully fit, so it was changed to \"tocado\"."
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "El Weserstadion de Bremen (Foto de archivo)"
    }
   },
   "wintereinbruch-glaette-schnee-alpen-2026-11-22-b1100": {

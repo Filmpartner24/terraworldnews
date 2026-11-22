@@ -109,6 +109,34 @@
     "img.alt": "Villarreal'deki Estadio de la Cerámica (Sembolik fotoğraf)"
    }
   },
+  "berlin-internetwache-polizei-ausfall-2026-11-22-b2100": {
+   "L": {
+    "body": [
+     "Berlin Polisi'nin İnternet Karakolu pazar günü de erişilemiyor. Vatandaşlar cumartesiden beri burada ne suç duyurusunda bulunabiliyor, ne ihbar iletebiliyor ne de toplantı bildirimi yapabiliyor. Polis, “Hizmetin en kısa sürede yeniden kullanıma açılması için yoğun biçimde çalışıyoruz ve o zamana kadar anlayışınızı rica ediyoruz” dedi. Hizmetin ne zaman geri döneceği belli değil.",
+     "dpa'nın edindiği bilgilere göre, nedenin altta yatan teknolojideki bir güvenlik açığı olduğu öne sürülüyor; sayfa, yazılım güncellemeleri yüklenene kadar önlem amacıyla erişime kapatılmış. Polis bunu doğrulamadı. Bir sözcü yalnızca teknik bir sorunun uzman bir birim tarafından ele alındığını söyledi.",
+     "Acil durumlarda 110 ulaşılabilir durumda kalıyor; işitme ve konuşma engelli kişiler 110'a faks gönderebilir veya Nora uygulamasını kullanabilir. Suç duyuruları her polis bölümünde bizzat yapılabiliyor. İnternet Karakolu, Ekim ayında da PHP programlama dilindeki dünya çapında bir zafiyet nedeniyle önlem amacıyla kapatılmıştı."
+    ],
+    "d": "Çevrimiçi suç duyurusu, ihbar ve gösteri bildirimi yapılamıyor: Berlin Polisi'nin İnternet Karakolu cumartesiden beri arızalı. dpa'nın edindiği bilgilere göre arkasında bir güvenlik açığı olduğu öne sürülüyor.",
+    "t": "Berlin: Polis İnternet Karakolu pazar günü de çevrimdışı – neden belirsiz"
+   },
+   "at": "2026-11-22T19:05Z",
+   "h": "2c15d1233278",
+   "rev": [
+    "Quote: 'anlayışınıza sığınıyoruz' is a wrong idiom for 'bitten um Verständnis' (should be 'anlayışınızı rica ediyoruz')",
+    "Teaser: 'ihbar' for 'Hinweise' is acceptable, but the sentence 'arkasında ... olduğu öne sürülüyor' is fine; no change needed",
+    "Body para 2: 'öne sürülüyor' plus 'kapatılmış' keeps attribution; the spokesman's statement should be kept as reported speech: 'ele alındığını' is acceptable",
+    "Awkward quote introduction: 'açıklamasını yaptı' is unnatural after a quote"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin'de polis aracı (Sembolik fotoğraf)",
+    "kl": "Berlin"
+   }
+  },
   "berlin-kliniken-feuerwehr-polizei-boellerverbot-2026-11-22-b1530": {
    "L": {
     "body": [
@@ -369,6 +397,58 @@
     "img.alt": "Cottbus'taki Stadion der Freundschaft (arşiv fotoğrafı)"
    }
   },
+  "delta-ausfall-thanksgiving-2026-11-22-b2100": {
+   "L": {
+    "body": [
+     "Otomatik ağırlık ve yükleme sistemindeki bir arıza, pazar günü ABD havayolu şirketi Delta Air Lines'ın operasyonlarını önemli ölçüde etkiledi. Havacılık otoritesi FAA sabah saatlerinde, Delta'nın Atlanta'daki Hartsfield-Jackson merkezine yönelik uçuşları için kalkış durdurma kararı aldı; karar daha sonra gecikme düzenlemesine dönüştürüldü. FlightAware hizmetinin verilerine göre öğlene kadar tüm Delta uçuşlarının yüzde 48'i gecikmeliydi.",
+     "Delta, otomatik sistemin yeniden devreye alınması için çalışılırken ekiplerin uçuşların güvenli şekilde kalkabilmesi için manuel yedek prosedürler kullandığını açıkladı. Uçakların ağırlığı elle hesaplanmak zorunda olduğundan kalkışlar daha uzun sürüyor ve gelen uçaklar için kapılar dolu kalıyor. Yolcular gecikmeleri başta Newark, New York-LaGuardia, Washington, Boston, Miami ve Minneapolis olmak üzere çeşitli havalimanlarında bildirdi.",
+     "FAA, sorunların kendi hava trafik kontrol sistemleriyle bağlantılı olmadığını bildirdi. Arıza, Şükran Günü seyahat haftasının başlangıcına denk geldi: Yalnızca Atlanta'da 1 Aralık'a kadar dört milyondan fazla yolcu bekleniyor. Kasım ayının başında FAA ağındaki bir arıza, son 25 yılın en uzun ülke çapındaki kalkış durdurmasına yol açmıştı."
+    ],
+    "d": "Delta Air Lines'ın ağırlık ve yükleme sistemindeki bir arıza pazar günü operasyonları ciddi şekilde aksattı. FAA, Atlanta'ya yönelik Delta uçuşlarını geçici olarak durdurdu; gecikmeler ülke genelinde yaşandı.",
+    "t": "Şükran Günü öncesi Delta'da sistem arızası: uçuşların yaklaşık yarısı gecikti"
+   },
+   "at": "2026-11-22T19:05Z",
+   "h": "628572b4b749",
+   "rev": [
+    "Headline: 'fast jeden zweiten Flug' is rendered as 'yaklaşık yarısı', which is acceptable. No change.",
+    "Garbled passage in the Delta indirect-speech sentence: 'otomatik sistemin yeniden devreye alınması için çalışılırken' is ungrammatical and makes the sentence hard to read. The attribution 'açıkladı' i",
+    "Wrong pluralisation/case: 'uçuşlarının yüzde 48'i' is fine; 'Teaser: Startstopp' rendered as 'durdurdu' is acceptable."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Atlanta Havalimanı'nda Delta uçakları (Arşiv fotoğrafı)",
+    "kl": "ABD"
+   }
+  },
+  "dni-clayton-tech-ausfaelle-2026-11-22-b2100": {
+   "L": {
+    "body": [
+     "ABD Ulusal İstihbarat Direktörü Jay Clayton pazar günü yeni teknik arızalara karşı uyardı. Şirketlerin ve kurumların şu anda eski sistemleri değiştirdiğini belirten Clayton, CNN'e verdiği röportajda şöyle konuştu: “we are going to have glitches, gaps, interruptions in service” – yani aksaklıklar, boşluklar ve hizmet kesintileri yaşanacak. Reuters'in aktardığına göre Clayton, geçişlerin performansı ve siber güvenliği iyileştirmek için gerekli olduğunu söyledi.",
+     "Kasım ayının başında birden fazla arıza dikkat çekmişti: ülke genelinde hava trafiğinin durması, e-posta hizmetlerini etkileyen bir Microsoft arızası, birkaç büyük bankada yaşanan aksaklık ve dinleme servisi NSA'nın ağında geçici bir kesinti. Başkan Donald Trump, bu aksaklık dizisini birkaç gün önce şirketlerdeki sistem geçişleriyle açıklamıştı.",
+     "Clayton, ABC'nin “This Week” programında haftanın olaylarına ilişkin şunları söyledi: “we know that they were not coordinated and that they were not state sponsored.” FBI'ye ve Tarım Bakanlığı'na yönelik bildirilen siber saldırılar hakkında ayrıntılı bilgi vermek istemedi. Yanıtları soruşturmacıların uygun zamanda vereceğini söyledi."
+    ],
+    "d": "Hava trafiği, Microsoft ve bankalardaki aksaklık dizisinin ardından Ulusal İstihbarat Direktörü Jay Clayton yeni arızalar bekliyor. Nedenin gerekli sistem geçişleri olduğunu, koordineli saldırılar olmadığını söyledi.",
+    "t": "ABD istihbarat şefi Clayton: Amerikalılar yeni teknoloji arızalarına hazır olmalı"
+   },
+   "at": "2026-11-22T19:06Z",
+   "h": "0fd2eb84a79c",
+   "rev": [
+    "\"NSA'in\" is the wrong suffix; the correct form is \"NSA'nın\" (the agency is read \"en-es-a\")",
+    "\"FBI'a\" should be \"FBI'ye\" (read \"ef-be-ay\")"
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "TERRA WORLD NEWS başlık görseli"
+   }
+  },
   "dymer-drohne-wohnhaus-2026-11-22-b1100": {
    "L": {
     "body": [
@@ -419,6 +499,27 @@
    ],
    "x": {
     "img.alt": "TERRA WORLD NEWS başlık grafiği"
+   }
+  },
+  "groehe-freiwilligendienst-1000-euro-2026-11-22-b2100": {
+   "L": {
+    "body": [
+     "Alman Kızılhaçı (DRK) Başkanı Hermann Gröhe, gönüllü hizmetler için harçlığın belirgin biçimde artırılmasını talep ediyor. Federal Gönüllü Hizmeti'nde, Gönüllü Sosyal Yıl'da veya Gönüllü Ekolojik Yıl'da görev yapan gönüllüler şu anda ayda 400 avronun biraz üzerinde ödeme alıyor. Gröhe, Funke Medya Grubu'na yaptığı açıklamada, tutarın yaklaşık 1.000 avroluk Bafög azami tutarıyla eşitlenmesini önerdi.",
+     "Gröhe, “Birinin bir yılını başkaları için ayırıp ayırmaması ailesinin maddi imkânlarına bağlı olmamalı” dedi. Gröhe ayrıca, en azından görev yerine ulaşımın Deutschlandticket ile kolayca mümkün olması gerektiğini söyledi. Aile Bakanlığı'nın verdiği bilgiye göre her yıl yaklaşık 90.000 kişi gönüllü hizmet yapıyor; yaklaşık 20.000 kontenjanla DRK en büyük hizmet sağlayıcı.",
+     "Gröhe ayrıca gönüllü yardımcılara ülke genelinde tek tip eşit statü tanınmasını talep etti. THW ve itfaiye personelinden farklı olarak DRK, Malteser, Johanniter, ASB ve DLRG'nin yardımcılarının tatbikat ve eğitimler için çoğu zaman izin almak zorunda olduğunu belirtti. Bu konuda geride kalan eyaletlerin de adım atması gerektiğini söyledi."
+    ],
+    "d": "FSJ ve Federal Gönüllü Hizmeti'nde harçlık 400 avronun biraz üzerinde. Gröhe, bunun Bafög'ün azami tutarı düzeyine çıkarılmasını ve görev yerine ulaşım için Deutschlandticket verilmesini istiyor.",
+    "t": "DRK Başkanı Gröhe: Gönüllü hizmet için ayda 1.000 avro"
+   },
+   "at": "2026-11-22T19:05Z",
+   "h": "daf6a77434e8",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Hermann Gröhe (Arşiv fotoğrafı)"
    }
   },
   "hertha-cottbus-hochsicherheitsspiel-2026-11-22-b1100": {
@@ -603,6 +704,34 @@
     "img.alt": "Leverkusen'deki BayArena (Arşiv fotoğrafı)"
    }
   },
+  "liverpool-manchester-united-4-0-pochettino-2026-11-22-b2100": {
+   "L": {
+    "body": [
+     "Mauricio Pochettino'nun Manchester United teknik direktörü olarak ilk maçı hayal kırıklığıyla sonuçlandı. Takımı pazar günü Anfield Road'da Liverpool'a 0-4 yenildi. Savunmacı Leny Yoro, Alexander Isak'a yaptığı son adam müdahalesi nedeniyle daha sekizinci dakikada kırmızı kart gördü.",
+     "Bir adam fazlayla oynayan Liverpool hızla farkı açtı: Dominik Szoboszlai 10. dakikada direkt serbest vuruşla gol attı, Florian Wirtz üç dakika sonra vole vuruşuyla farkı artırdı. İkinci yarıda 18 yaşındaki Rio Ngumoha, Bradley Barcola'nın pasıyla 66. dakikada, Víctor Muñoz ise Wirtz'le yaptığı duvar pasının ardından 82. dakikada gol buldu.",
+     "Teknik direktör Andoni Iraola'nın takımı böylece dördüncü sıraya yükseldi ve Brighton ile Manchester City'nin bir puan gerisinde yer alıyor. United, 11. haftanın ardından sondan ikinci sırada ve düşme hattının hemen üstündeki takımın bir puan gerisinde. Pochettino, 13 Kasım'da yeni teknik direktör olarak tanıtılmıştı."
+    ],
+    "d": "Yoro'ya gösterilen erken kırmızı kartın ardından Szoboszlai, Wirtz, Ngumoha ve Muñoz gol attı. Liverpool dördüncü sıraya yükseldi, Manchester United 19. sırada düşme hattında.",
+    "t": "Sekizinci dakikada kırmızı: Pochettino'nun United'daki ilk maçı Liverpool'da 0-4 bitti"
+   },
+   "at": "2026-11-22T19:06Z",
+   "h": "b2de95ba09cc",
+   "rev": [
+    "Wrong minute format: 66. and 82. rendered as '(66.)' – should be '66. dakikada' and '82. dakikada'",
+    "'Devre arasından sonra' is ungrammatical; should be 'Devre arasından sonra' -> 'Devreden sonra'",
+    "'volley' rendered as 'röveşata' (which means bicycle kick, a meaning error); should be 'füze/ yerden gelen vuruş' → 'vole'",
+    "Logical relation: Iraola's team is one point behind Brighton and City – fine; 'düşmeyen son takım' awkward, replaced with 'düşme hattının hemen üstündeki takım'",
+    "'Anfield Road' – German says 'Anfield Road'; fine"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Liverpool'daki Anfield Stadyumu (Arşiv fotoğrafı)"
+   }
+  },
   "microsoft-entra-connect-health-luecke-2026-11-22-b0800": {
    "L": {
     "body": [
@@ -682,6 +811,31 @@
     "img.alt": "Bremen'deki Weserstadion (Arşiv fotoğrafı)"
    }
   },
+  "petrova-tok-parno-ceni-2026-11-22-b2100": {
+   "L": {
+    "body": [
+     "Bulgaristan'da konutlar için elektrik ve merkezi ısıtma fiyatlarının 30 Haziran 2027'ye kadar değişmemesi öngörülüyor. Enerji Bakanı Iva Petrova bunu pazar günü bTV'ye söyledi. Petrova, uluslararası piyasalardaki dalgalanmalara işaret ederek “Enerji sistemimiz hazırlıklı ve bu sınavları geçecek” dedi. Santrallerin planlı bakımlarını tamamladığını da belirtti.",
+     "Bakanın verdiği bilgiye göre yer altındaki Çiren gaz deposu yaklaşık yüzde 72 dolu, AB ortalaması ise yüzde 69. Petrova, 2026/27 gaz yılı için on sıvılaştırılmış doğal gaz sevkiyatının sözleşmeyle güvence altına alındığını söyledi. Doğal gazın kendisinin zaten pahalandığını belirten Petrova'ya göre hükümet, artışı merkezi ısıtma faturalarına yansıtmak istemiyor; bunun yerine sistem güvenliği fonu aracılığıyla telafi etmeyi planlıyor.",
+     "Petrova, merkezi ısıtma şirketi Toplofikatsiya Sofia'yı sert biçimde eleştirdi; sözlerine göre şirketin devlet kuruluşlarına borçları 1,3 milyar avroyu aşıyor. Petrova, iş modelinin sürdürülebilir olmadığını ve bu şekilde devam edemeyeceğini söyledi. Kozloduy Nükleer Santrali'nin 6. ünitesinde yaşanan son olayla ilgili ise nükleer güvenlikte hiçbir şeyin değişmediğini ifade etti."
+    ],
+    "d": "Bakan Iva Petrova, Bulgaristan'ın enerji sisteminin kışa hazır olduğunu söyledi. Ona göre Çiren gaz deposu yüzde 72 dolu, bu oran AB ortalamasının üzerinde. Doğal gaz ise pahalanıyor.",
+    "t": "Enerji Bakanı Petrova: Elektrik ve merkezi ısıtma fiyatları Haziran 2027'ye dek artmayacak"
+   },
+   "at": "2026-11-22T19:06Z",
+   "h": "44395210b931",
+   "rev": [
+    "Teaser: the statement about the Çiren gas storage (72%, above the EU average) is rendered as plain fact; attribution to the minister is missing",
+    "Teaser: 'Doğal gaz ise pahalanıyor' is fine as a statement, but the storage sentence needed attribution"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "TERRA WORLD NEWS başlık görseli"
+   }
+  },
   "rackspace-spot-kubernetes-einbruch-2026-11-22-b1100": {
    "L": {
     "body": [
@@ -731,6 +885,32 @@
    ],
    "x": {
     "img.alt": "Stephan Toscani (Arşiv fotoğrafı)"
+   }
+  },
+  "schneider-oelstaaten-cop31-2026-11-22-b2100": {
+   "L": {
+    "body": [
+     "Türkiye'nin Antalya kentindeki Dünya İklim Konferansı bir sonuç bildirgesi olmadan sona erdikten sonra Federal Çevre Bakanı Carsten Schneider (SPD), bazı petrol ülkelerini kasıtlı bir engellemeyle suçladı. Schneider, dpa'nın aktardığına göre “Petrol ve gaz sektörü hâlâ çırpınıyor” dedi. Schneider'e göre bazı üretici ülkeler işlerin kendileri için ciddileştiğini fark ediyor ve bu yüzden bu kadar sert engelliyor. Federal Hükümet bu bağlamda Suudi Arabistan ve Rusya'yı andı.",
+     "Almanya ve AB, konferans başkanlığının sunduğu taslağı, fosil yakıtları açıkça anmadığı için reddetmişti. Schneider daha önce metni “onaylanamaz” olarak nitelemişti; ona göre iklim korumada geriye gidiş, Almanya'nın karşılayabileceği en son şeydi. Zirvenin, BM iklim konferansları tarihindeki en uzun zirve olduğu belirtiliyor.",
+     "Schneider, dünyanın geri kalanının elektrikli araçlara, ısı pompalarına ve modernleştirilmiş sanayiye hızla geçtiğine, bunun da petrol ve gaz ihracatçılarının iş modelini tehdit ettiğine dikkat çekti. Çevre ve Kalkınma bakanlıklarının verdiği bilgiye göre 75 ülke ve 94 kuruluş, 2035'e kadar nihai enerji tüketiminin yaklaşık yüzde 35'ini elektrikle karşılamayı hedefleyen bir girişime katıldı. Kalkınma Bakanı Reem Alabali Radovan (SPD) hayal kırıklığına rağmen küresel dayanışmanın bir işaretinden söz etti."
+    ],
+    "d": "“Petrol ve gaz sektörü hâlâ çırpınıyor”: Carsten Schneider, Antalya'daki konferansın başarısızlığından petrol üreticisi ülkeleri sorumlu tuttu. 75 ülke elektrik girişimine katıldı.",
+    "t": "Başarısız iklim zirvesinin ardından Çevre Bakanı Schneider petrol ülkelerine yüklendi"
+   },
+   "at": "2026-11-22T19:05Z",
+   "h": "9c9ca3b35a16",
+   "rev": [
+    "Başlıkta 'Çevre Bakanı' ifadesi 'Federal Çevre Bakanı' olmalı mı? Hayır, sorun yok; ancak 'Federal Hükümet ... andı' cümlesi Almanca 'Die Bundesregierung nannte' ile uyumlu, değişiklik gerekmiyor.",
+    "'Zirvenin ... en uzun zirve' tekrarı ve 'Zirve' / 'konferans' kullanımı: akıcılık için küçük düzeltme",
+    "'kasıtlı olarak engelleme yapmakla' kulağa doğal gelmiyor"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Carsten Schneider, Belém'deki COP30'da (Arşiv fotoğrafı)"
    }
   },
   "serie-a-malen-viererpack-roma-parma-lazio-2026-11-22-b1100": {
@@ -815,6 +995,35 @@
    ],
    "x": {
     "img.alt": "Jiří Procházka (Arşiv fotoğrafı)"
+   }
+  },
+  "werder-hsv-nordderby-4-0-2026-11-22-b2100": {
+   "L": {
+    "body": [
+     "Werder Bremen, Hamburger SV karşısındaki Kuzey derbisini net bir skorla kazandı. Weserstadion'da teknik direktör Daniel Thioune'nin takımı 10. haftada 4-0 galip geldi, ilk yarı 0-0 sona ermişti. Bu, Bundesliga tarihindeki 111. Kuzey derbisiydi.",
+     "Kaptan Marco Friedl, Werder'i 55. dakikada öne geçirdi. Sağlık sorunu yaşayan Marco Grüll'ün yerine ilk 11'de görev alan Justin Njinmah, 66. ve 70. dakikalarda attığı iki golle farkı artırdı. Uzatma dakikalarında Niclas Füllkrug, bir kontra atağın ardından sezonun onuncu golüyle skoru belirledi.",
+     "Hamburg ikinci yarıda oyunda daha etkiliydi ancak defalarca Bremen'in kontra atakları karşısında açık verdi. HSV'de orta saha oyuncusu Miro Muheim çeyrek saati biraz geçe oyundan çıkmak zorunda kaldı, Werder'de ise Senne Lynen hastalık nedeniyle forma giyemedi. Bremen 18 puanla altıncı sırada yer alıyor ve Şampiyonlar Ligi bölgesinin üç puan gerisinde bulunuyor; HSV ise 12 puanla 12. sırada."
+    ],
+    "d": "Golsüz geçen ilk yarının ardından Bremen, 111. Bundesliga Kuzey derbisini 15 dakika içinde belirledi. Werder altıncı sırada, HSV 12 puanla orta sırada kalıyor.",
+    "t": "Njinmah çifte yaptı, Füllkrug attı: Werder Kuzey derbisinde HSV'yi 4-0 yendi"
+   },
+   "at": "2026-11-22T19:05Z",
+   "h": "206805f19d7a",
+   "rev": [
+    "Headline: \"Njinmah çifte yaptı, Füllkrug attı\" is acceptable, no change needed.",
+    "Teaser: \"binnen 15 Minuten\" rendered as \"15 dakika içinde belirledi\" is acceptable.",
+    "\"angeschlagenen\" (ailing/knocked) rendered as \"Sakatlığı bulunan\" - slightly stronger, adjusted to \"formsuz/sakat\" avoided; changed to \"sağlık sorunu yaşayan\".",
+    "\"nach gut einer Viertelstunde\" rendered \"henüz çeyrek saatin ardından\" - 'henüz' is wrong nuance; fixed to \"yaklaşık çeyrek saat sonra\"/\"çeyrek saati biraz geçe\".",
+    "\"Champions-League-Platz\" - \"Şampiyonlar Ligi sırasının\" is unnatural; fixed to \"Şampiyonlar Ligi bölgesinin\".",
+    "\"HSV ... orta sırada\" fine."
+   ],
+   "rev_dbg": [
+    6,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Bremen'deki Weserstadion (Arşiv fotoğrafı)"
    }
   },
   "wintereinbruch-glaette-schnee-alpen-2026-11-22-b1100": {
