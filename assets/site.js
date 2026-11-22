@@ -48,3 +48,11 @@
   }
   run();window.addEventListener('load',run);window.addEventListener('resize',run);
 })();
+// v36: load background images only when they come near the screen (same image quality, faster start)
+(function(){
+  var els=[].slice.call(document.querySelectorAll('.bgimg'));
+  function on(e){e.classList.add('on')}
+  if(!('IntersectionObserver' in window)){els.forEach(on);return}
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){on(e.target);io.unobserve(e.target)}})},{rootMargin:'900px 0px 900px 0px'});
+  els.forEach(function(e){io.observe(e)});
+})();
