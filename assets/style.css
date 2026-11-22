@@ -239,3 +239,5 @@ section{position:relative}
 .beings .bgimg.waechter{inset:3% -3% -4%;background-position:0% 0%}
 .beings-head{min-height:0;padding-bottom:clamp(14rem,30vh,20rem)}
 @media (max-width:900px){.beings-head{min-height:0;padding-bottom:clamp(10rem,24vh,14rem)}}
+.beings-head{padding-bottom:clamp(5rem,12vh,8rem)}
+@media (max-width:900px){.beings-head{padding-bottom:clamp(4rem,10vh,6rem)}}
