@@ -212,3 +212,7 @@ section{position:relative}
 .story-epi .story-bold{border-left:0;padding-left:0;text-shadow:0 0 22px var(--ice-soft)}
 .epi-title{font:500 clamp(.85rem,1.4vw,1rem)/1.4 var(--head);letter-spacing:.45em;text-transform:uppercase;color:var(--ice);margin-bottom:2rem;padding-left:.45em}
 .story strong{color:#fff;font-weight:600}
+
+.story-poster{width:min(560px,100%);margin:0 auto clamp(2.2rem,4vw,3rem)}
+.story-poster img{width:100%;border:1px solid rgba(154,166,178,.15);box-shadow:0 40px 80px -30px #000,0 0 60px rgba(95,208,255,.08)}
+.story-part{scroll-margin-top:90px}
