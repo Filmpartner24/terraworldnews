@@ -353,3 +353,5 @@ section{position:relative}
 /* v34: readable status lines */
 .contact .status{color:#dfe7ee;font-size:1.02rem;letter-spacing:.06em;text-shadow:0 2px 12px rgba(0,0,0,.95),0 0 24px rgba(0,0,0,.8)}
 .contact .status.coprod{margin-top:.6rem;color:var(--ice);font-family:var(--head);text-transform:uppercase;letter-spacing:.22em;font-size:.9rem}
+/* v35: lead line same style as status */
+.contact .lead{font-family:var(--body);font-weight:300;text-transform:none;color:#dfe7ee;font-size:1.02rem;letter-spacing:.06em;text-shadow:0 2px 12px rgba(0,0,0,.95),0 0 24px rgba(0,0,0,.8)}
