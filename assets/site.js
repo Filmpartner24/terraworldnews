@@ -34,3 +34,17 @@
     window.addEventListener('resize',px);px();
   }
 })();
+// v18: pull author/contact background images up so they join the image above (no black gaps)
+(function(){
+  var OV=220;
+  function chain(prevWrap,sec){
+    if(!prevWrap||!sec)return;var w=sec.querySelector(':scope>.bgwrap');if(!w)return;
+    var pb=prevWrap.getBoundingClientRect().bottom, st=sec.getBoundingClientRect().top;
+    var off=Math.min(0,Math.round(pb-st-OV));w.style.top=off+'px';w.style.bottom='0';w.style.height='auto';
+  }
+  function run(){
+    var b=document.querySelector('#beings .bgwrap2'),a=document.getElementById('author'),c=document.getElementById('contact');
+    chain(b,a); chain(a&&a.querySelector(':scope>.bgwrap'),c);
+  }
+  run();window.addEventListener('load',run);window.addEventListener('resize',run);
+})();
