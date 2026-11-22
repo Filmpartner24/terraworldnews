@@ -8,7 +8,7 @@
   "tr": "NBA"
  },
  "season": "2026/27",
- "asof": "2026-11-21",
+ "asof": "2026-11-22",
  "tables": [
   {
    "name": {
@@ -22,13 +22,13 @@
    "rows": [
     {
      "team": "Philadelphia 76ers",
-     "w": 13,
+     "w": 14,
      "l": 3
     },
     {
      "team": "Boston Celtics",
      "w": 11,
-     "l": 4
+     "l": 5
     },
     {
      "team": "Detroit Pistons",
@@ -41,12 +41,12 @@
      "l": 6
     },
     {
-     "team": "Miami Heat",
-     "w": 9,
+     "team": "New York Knicks",
+     "w": 10,
      "l": 6
     },
     {
-     "team": "New York Knicks",
+     "team": "Miami Heat",
      "w": 9,
      "l": 6
     },
@@ -93,7 +93,7 @@
     {
      "team": "Milwaukee Bucks",
      "w": 1,
-     "l": 15
+     "l": 16
     }
    ]
   },
@@ -108,19 +108,19 @@
    "z": 6,
    "rows": [
     {
+     "team": "San Antonio Spurs",
+     "w": 14,
+     "l": 3
+    },
+    {
      "team": "Los Angeles Lakers",
      "w": 14,
      "l": 3
     },
     {
-     "team": "San Antonio Spurs",
-     "w": 13,
-     "l": 3
-    },
-    {
-     "team": "Memphis Grizzlies",
+     "team": "Minnesota Timberwolves",
      "w": 12,
-     "l": 4
+     "l": 5
     },
     {
      "team": "Houston Rockets",
@@ -128,13 +128,8 @@
      "l": 5
     },
     {
-     "team": "Minnesota Timberwolves",
-     "w": 11,
-     "l": 5
-    },
-    {
-     "team": "Portland Trail Blazers",
-     "w": 10,
+     "team": "Memphis Grizzlies",
+     "w": 12,
      "l": 5
     },
     {
@@ -143,17 +138,22 @@
      "l": 5
     },
     {
+     "team": "Portland Trail Blazers",
+     "w": 10,
+     "l": 6
+    },
+    {
      "team": "Oklahoma City Thunder",
      "w": 10,
      "l": 6
     },
     {
-     "team": "Phoenix Suns",
-     "w": 8,
+     "team": "Dallas Mavericks",
+     "w": 9,
      "l": 7
     },
     {
-     "team": "Dallas Mavericks",
+     "team": "Phoenix Suns",
      "w": 8,
      "l": 7
     },
@@ -165,12 +165,12 @@
     {
      "team": "New Orleans Pelicans",
      "w": 5,
-     "l": 12
+     "l": 13
     },
     {
      "team": "LA Clippers",
      "w": 4,
-     "l": 10
+     "l": 11
     },
     {
      "team": "Utah Jazz",
@@ -179,7 +179,7 @@
     },
     {
      "team": "Sacramento Kings",
-     "w": 1,
+     "w": 2,
      "l": 14
     }
    ]
@@ -223,94 +223,58 @@
    ]
   },
   {
-   "t1": "Chicago Bulls",
-   "t2": "Washington Wizards",
-   "date": "2026-11-21",
-   "ft": [
-    94,
-    98
-   ]
-  },
-  {
-   "t1": "Oklahoma City Thunder",
-   "t2": "New Orleans Pelicans",
-   "date": "2026-11-21",
-   "ft": [
-    126,
-    120
-   ]
-  },
-  {
-   "t1": "Utah Jazz",
-   "t2": "Phoenix Suns",
-   "date": "2026-11-21",
-   "ft": [
-    101,
-    111
-   ]
-  },
-  {
-   "t1": "Denver Nuggets",
-   "t2": "Houston Rockets",
-   "date": "2026-11-21",
-   "ft": [
-    133,
-    124
-   ]
-  },
-  {
-   "t1": "Los Angeles Lakers",
-   "t2": "Sacramento Kings",
-   "date": "2026-11-21",
-   "ft": [
-    106,
-    104
-   ]
-  },
-  {
-   "t1": "Memphis Grizzlies",
-   "t2": "Golden State Warriors",
-   "date": "2026-11-20",
-   "ft": [
-    126,
-    98
-   ]
-  },
-  {
    "t1": "Philadelphia 76ers",
    "t2": "Milwaukee Bucks",
-   "date": "2026-11-21",
-   "time": "19:00"
+   "date": "2026-11-22",
+   "ft": [
+    132,
+    129
+   ]
   },
   {
    "t1": "New York Knicks",
    "t2": "Portland Trail Blazers",
    "date": "2026-11-22",
-   "time": "01:30"
+   "ft": [
+    97,
+    96
+   ]
   },
   {
    "t1": "Dallas Mavericks",
    "t2": "LA Clippers",
    "date": "2026-11-22",
-   "time": "02:00"
+   "ft": [
+    110,
+    100
+   ]
   },
   {
    "t1": "Minnesota Timberwolves",
    "t2": "Memphis Grizzlies",
    "date": "2026-11-22",
-   "time": "02:00"
+   "ft": [
+    104,
+    95
+   ]
   },
   {
    "t1": "San Antonio Spurs",
    "t2": "New Orleans Pelicans",
    "date": "2026-11-22",
-   "time": "02:00"
+   "ft": [
+    114,
+    91
+   ]
   },
   {
    "t1": "Sacramento Kings",
    "t2": "Boston Celtics",
    "date": "2026-11-22",
-   "time": "04:00"
+   "ft": [
+    97,
+    96
+   ]
   },
   {
    "t1": "Atlanta Hawks",
@@ -325,8 +289,8 @@
    "time": "00:00"
   },
   {
-   "t1": "Washington Wizards",
-   "t2": "Orlando Magic",
+   "t1": "Utah Jazz",
+   "t2": "Dallas Mavericks",
    "date": "2026-11-23",
    "time": "01:00"
   },
@@ -335,32 +299,88 @@
    "t2": "Denver Nuggets",
    "date": "2026-11-23",
    "time": "01:00"
+  },
+  {
+   "t1": "Washington Wizards",
+   "t2": "Orlando Magic",
+   "date": "2026-11-23",
+   "time": "01:00"
+  },
+  {
+   "t1": "New York Knicks",
+   "t2": "Indiana Pacers",
+   "date": "2026-11-23",
+   "time": "02:00"
+  },
+  {
+   "t1": "Golden State Warriors",
+   "t2": "Boston Celtics",
+   "date": "2026-11-23",
+   "time": "02:30"
+  },
+  {
+   "t1": "Philadelphia 76ers",
+   "t2": "Portland Trail Blazers",
+   "date": "2026-11-24",
+   "time": "01:00"
+  },
+  {
+   "t1": "Charlotte Hornets",
+   "t2": "Memphis Grizzlies",
+   "date": "2026-11-24",
+   "time": "01:00"
+  },
+  {
+   "t1": "Toronto Raptors",
+   "t2": "Milwaukee Bucks",
+   "date": "2026-11-24",
+   "time": "01:30"
+  },
+  {
+   "t1": "Indiana Pacers",
+   "t2": "Oklahoma City Thunder",
+   "date": "2026-11-24",
+   "time": "01:30"
+  },
+  {
+   "t1": "Minnesota Timberwolves",
+   "t2": "Brooklyn Nets",
+   "date": "2026-11-24",
+   "time": "01:30"
   }
  ],
  "src": [
   {
-   "n": "ESPN – NBA Scoreboard 20.11.2026 (Ortszeit): neun Spiele des NBA Cups (abgerufen 21.11.2026)",
-   "u": "https://www.espn.com/nba/scoreboard"
-  },
-  {
-   "n": "NBA.com – Emirates NBA Cup live updates, 20.11.2026",
-   "u": "https://www.nba.com/news/emirates-nba-cup-live-updates-november-20"
-  },
-  {
-   "n": "ESPN – NBA Standings 2026/27 (Stand nach den Spielen vom 20.11.2026, abgerufen 21.11.2026)",
+   "n": "ESPN – NBA Standings 2026/27 (Stand nach den Spielen vom 21.11.2026, abgerufen 22.11.2026)",
    "u": "https://www.espn.com/nba/standings"
   },
   {
-   "n": "AP/ABC News – James Harden scores 51 points to propel Cleveland past Indiana (20.11.2026)",
-   "u": "https://abcnews.com/Sports/wireStory/james-harden-scores-51-points-propel-cleveland-past-138337596"
+   "n": "AP/ABC News – Tyler Herro scores career-high 50 points, final shot waved off, 76ers beat Bucks (21.11.2026)",
+   "u": "https://abcnews.com/Sports/wireStory/tyler-herro-scores-career-high-50-points-final-138350071"
   },
   {
-   "n": "NBA.com/Magic – Franz Wagner hits game-winner to propel Orlando past Brooklyn (20.11.2026)",
-   "u": "https://www.nba.com/magic/news/franz-wagner-hits-game-winner-to-propel-orlando-magic-past-brooklyn-nets-20261120"
+   "n": "AP/KSL – Wembanyama shows off with historic 50-point performance in Spurs win (21.11.2026)",
+   "u": "https://www.ksl.com/article/51647427/wembanyama-shows-off-with-historic-50-point-performance-in-spurs-win"
   },
   {
-   "n": "NBA-Spielplan 21.–22.11.2026 (Anwurfzeiten in deutsche Zeit umgerechnet, ET+6)",
-   "u": "https://nbacalendar.com/schedule/2026-11-21/"
+   "n": "AP/CBS New York – Mikal Bridges, Knicks beat Trail Blazers 97:96 (21.11.2026)",
+   "u": "https://www.cbsnews.com/newyork/news/mikal-bridges-knicks-beat-trail-blazers/"
+  },
+  {
+   "n": "ESPN – Clippers at Mavericks 100:110 (21.11.2026)",
+   "u": "https://www.espn.com/nba/game?gameId=401910025"
+  },
+  {
+   "n": "ESPN – Grizzlies at Timberwolves 95:104 (21.11.2026)",
+   "u": "https://www.espn.com/nba/recap/_/gameId/401910026"
+  },
+  {
+   "n": "ESPN – Celtics at Kings 96:97 (21.11.2026)",
+   "u": "https://www.espn.com/nba/recap?gameId=401910028"
+  },
+  {
+   "n": "Sports Media Watch – NBA TV-Spielplan (Anwurfzeiten in deutsche Zeit umgerechnet, ET+6; abgerufen 22.11.2026)",
+   "u": "https://www.sportsmediawatch.com/tv-schedules/nba-tv-schedule/"
   },
   {
    "n": "NBA.com – Standings",

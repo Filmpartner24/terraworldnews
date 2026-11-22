@@ -8,7 +8,7 @@
   "tr": "Liga Endesa (İspanya)"
  },
  "season": "2026/27",
- "asof": "2026-11-21",
+ "asof": "2026-11-22",
  "tables": [
   {
    "name": {},
@@ -43,6 +43,13 @@
      "pa": 744
     },
     {
+     "team": "Casademont Zaragoza",
+     "w": 6,
+     "l": 3,
+     "pf": 816,
+     "pa": 785
+    },
+    {
      "team": "Kosner Baskonia",
      "w": 5,
      "l": 3,
@@ -57,18 +64,11 @@
      "pa": 801
     },
     {
-     "team": "Casademont Zaragoza",
-     "w": 5,
-     "l": 3,
-     "pf": 742,
-     "pa": 713
-    },
-    {
      "team": "Unicaja",
-     "w": 4,
+     "w": 5,
      "l": 4,
-     "pf": 703,
-     "pa": 673
+     "pf": 797,
+     "pa": 744
     },
     {
      "team": "Surne Bilbao",
@@ -78,18 +78,18 @@
      "pa": 732
     },
     {
-     "team": "UCAM Murcia",
-     "w": 4,
-     "l": 4,
-     "pf": 715,
-     "pa": 729
-    },
-    {
      "team": "FIATC Girona",
      "w": 4,
      "l": 4,
      "pf": 705,
      "pa": 763
+    },
+    {
+     "team": "UCAM Murcia",
+     "w": 4,
+     "l": 5,
+     "pf": 787,
+     "pa": 803
     },
     {
      "team": "Asisa Joventut",
@@ -113,25 +113,18 @@
      "pa": 810
     },
     {
+     "team": "Kids&Us Manresa",
+     "w": 3,
+     "l": 6,
+     "pf": 794,
+     "pa": 894
+    },
+    {
      "team": "Recoletas Salud San Pablo Burgos",
      "w": 2,
-     "l": 6,
-     "pf": 731,
-     "pa": 744
-    },
-    {
-     "team": "Kids&Us Manresa",
-     "w": 2,
-     "l": 6,
-     "pf": 704,
-     "pa": 808
-    },
-    {
-     "team": "MoraBanc Andorra",
-     "w": 1,
      "l": 7,
-     "pf": 691,
-     "pa": 772
+     "pf": 802,
+     "pa": 838
     },
     {
      "team": "iLERNA Lleida",
@@ -139,38 +132,18 @@
      "l": 7,
      "pf": 742,
      "pa": 837
+    },
+    {
+     "team": "MoraBanc Andorra",
+     "w": 1,
+     "l": 8,
+     "pf": 777,
+     "pa": 862
     }
    ]
   }
  ],
  "matches": [
-  {
-   "t1": "Río Breogán",
-   "t2": "Recoletas Salud San Pablo Burgos",
-   "date": "2026-11-14",
-   "ft": [
-    119,
-    110
-   ]
-  },
-  {
-   "t1": "MoraBanc Andorra",
-   "t2": "La Laguna Tenerife",
-   "date": "2026-11-14",
-   "ft": [
-    84,
-    90
-   ]
-  },
-  {
-   "t1": "Asisa Joventut",
-   "t2": "Casademont Zaragoza",
-   "date": "2026-11-14",
-   "ft": [
-    99,
-    94
-   ]
-  },
   {
    "t1": "iLERNA Lleida",
    "t2": "Kids&Us Manresa",
@@ -229,19 +202,28 @@
    "t1": "Recoletas Salud San Pablo Burgos",
    "t2": "Unicaja",
    "date": "2026-11-21",
-   "time": "18:00"
+   "ft": [
+    71,
+    94
+   ]
   },
   {
    "t1": "Kids&Us Manresa",
    "t2": "MoraBanc Andorra",
    "date": "2026-11-21",
-   "time": "19:30"
+   "ft": [
+    90,
+    86
+   ]
   },
   {
    "t1": "UCAM Murcia",
    "t2": "Casademont Zaragoza",
    "date": "2026-11-21",
-   "time": "21:00"
+   "ft": [
+    72,
+    74
+   ]
   },
   {
    "t1": "Monbus Obradoiro",
@@ -284,32 +266,76 @@
    "t2": "La Laguna Tenerife",
    "date": "2026-12-05",
    "time": "18:00"
+  },
+  {
+   "t1": "Monbus Obradoiro",
+   "t2": "Surne Bilbao",
+   "date": "2026-12-05",
+   "time": "19:30"
+  },
+  {
+   "t1": "Casademont Zaragoza",
+   "t2": "Río Breogán",
+   "date": "2026-12-05",
+   "time": "21:00"
+  },
+  {
+   "t1": "Kids&Us Manresa",
+   "t2": "Leyma Coruña",
+   "date": "2026-12-06",
+   "time": "12:00"
+  },
+  {
+   "t1": "FIATC Girona",
+   "t2": "Barça",
+   "date": "2026-12-06",
+   "time": "12:00"
+  },
+  {
+   "t1": "Real Madrid",
+   "t2": "MoraBanc Andorra",
+   "date": "2026-12-06",
+   "time": "12:30"
+  },
+  {
+   "t1": "Recoletas Salud San Pablo Burgos",
+   "t2": "Asisa Joventut",
+   "date": "2026-12-06",
+   "time": "17:00"
+  },
+  {
+   "t1": "Kosner Baskonia",
+   "t2": "UCAM Murcia",
+   "date": "2026-12-06",
+   "time": "18:00"
+  },
+  {
+   "t1": "Unicaja",
+   "t2": "Valencia Basket",
+   "date": "2026-12-06",
+   "time": "19:00"
   }
  ],
  "src": [
   {
-   "n": "Liga Endesa – 9. Spieltag erst am 21./22.11.2026, bei Abruf noch kein Spiel beendet; Tabelle nach dem 8. Spieltag (Stand geprüft 21.11.2026)",
-   "u": "https://www.realmadrid.com/es-ES/baloncesto/primer-equipo/clasificacion/liga-endesa"
+   "n": "ACB – Clasificación Liga Endesa (nach den Samstagsspielen des 9. Spieltags, abgerufen 22.11.2026)",
+   "u": "https://acb.com/es/liga"
   },
   {
-   "n": "ACB – Previa de la jornada 9 de Liga Endesa 2026-27",
-   "u": "https://acb.com/es/liga/noticias/previa-de-la-jornada-9-de-liga-endesa-2026-27-146490"
+   "n": "Solobasket – Unicaja gana en Burgos 71:94 (22.11.2026)",
+   "u": "https://www.solobasket.com/liga-endesa/unicaja-gana-burgos-noua-perry-racha-coliseum"
   },
   {
-   "n": "Solobasket – Jornada 9 Liga Endesa: horarios y TV (19.11.2026)",
-   "u": "https://www.solobasket.com/liga-endesa/jornada-9-liga-endesa-horarios-tv"
+   "n": "Solobasket – UCAM Murcia 72:74 Casademont Zaragoza (22.11.2026)",
+   "u": "https://www.solobasket.com/liga-endesa/ucam-murcia-casademont-zaragoza-bell-haynes-vives-partido-1000"
   },
   {
-   "n": "ACB – Calendario Liga Endesa 2026-27: todas las fechas y horarios (10. Spieltag 5./6.12.2026, Zeiten vorläufig)",
-   "u": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767"
+   "n": "Gigantes – Qué ha pasado hoy, jornada 9 Liga Endesa (21.11.2026)",
+   "u": "https://www.gigantes.com/liga-endesa/que-ha-pasado-hoy-jornada9-liga-endesa-2026/"
   },
   {
-   "n": "Flashscore – Liga ACB, jornada 8 (14./15.11.2026)",
-   "u": "https://www.flashscore.es/noticias/baloncesto-liga-acb-en-directo-jornada-8/YVDgXaKj/"
-  },
-  {
-   "n": "Unicaja Baloncesto – Clasificación Liga Endesa 2026/27 (Jornada 8)",
-   "u": "https://www.unicajabaloncesto.com/clasificacion/ver/id/7"
+   "n": "Gigantes – Calendario Liga Endesa 2026-27 (10. Spieltag 5./6.12.2026)",
+   "u": "https://www.gigantes.com/liga-endesa/calendario-liga-endesa-2026-27-partidos-horarios-jornadas-temporada-regular/"
   }
  ],
  "img": {
