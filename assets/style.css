@@ -279,3 +279,10 @@ section{position:relative}
 .beings .bgwrap2{top:122vh}
 @media (max-width:900px){.beings .bgwrap2{top:105vh}}
 .author>.bgwrap{-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 220px,#000 calc(100% - 140px),transparent 100%);mask-image:linear-gradient(180deg,transparent 0,#000 220px,#000 calc(100% - 140px),transparent 100%)}
+/* v20: mobile – three posters side by side */
+@media (max-width:900px){
+.portals{grid-template-columns:repeat(3,1fr);max-width:none;gap:.5rem;padding:0 .6rem;margin-top:-2rem}
+.portal-cap{flex-direction:column;align-items:center;gap:.15rem;padding:.55rem .25rem;text-align:center}
+.portal-cap .n{font-size:.55rem;letter-spacing:.18em}
+.portal-cap .s{font-size:.58rem;letter-spacing:.06em;text-align:center;line-height:1.25}
+}
