@@ -116,7 +116,7 @@ section{position:relative}
 .author::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(180deg,var(--bg) 0%,rgba(5,8,12,.2) 16%,rgba(5,8,12,.25) 82%,var(--bg) 100%),radial-gradient(45% 58% at 50% 50%,rgba(5,8,12,.62),transparent 88%)}
 .author-txt{text-shadow:0 2px 14px rgba(0,0,0,.85)}
 .author-txt p+p{margin-top:1.3rem}
-.author-txt p:first-child{font-size:1.15rem;color:#e3e9ee}
+.author-txt p{font-size:1.15rem;color:#e3e9ee;line-height:1.75}
 .author-txt p.pull{font-family:var(--head);font-weight:400;font-size:clamp(1.15rem,2vw,1.4rem);letter-spacing:.03em;color:#fff;line-height:1.5;border-left:2px solid var(--ice);padding-left:1.3rem;margin:2.2rem 0}
 
 .contact{position:relative;isolation:isolate;overflow:hidden;min-height:90vh;display:flex;flex-direction:column;justify-content:center;padding:clamp(6rem,12vw,9rem) 1.25rem;text-align:center}
