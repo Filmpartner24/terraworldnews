@@ -1,0 +1,410 @@
+{
+ "date": "2026-11-22",
+ "items": [
+  {
+   "id": "tesla-fsd-v15-reality-view",
+   "s": "ai",
+   "time": "12:39",
+   "kl": {
+    "de": "Autonomes Fahren",
+    "bg": "Автономно шофиране",
+    "en": "Self-driving"
+   },
+   "yt": {
+    "id": "eNBqkc7V1nU",
+    "ch": "Tesla",
+    "kind": "video",
+    "t": {
+     "de": "Introducing Tesla Self-Driving V15",
+     "bg": "Introducing Tesla Self-Driving V15",
+     "en": "Introducing Tesla Self-Driving V15"
+    }
+   },
+   "src": [
+    {
+     "n": "Teslarati – Tesla Full Self-Driving v15 rollout begins: full release notes and improvements (21.11.2026)",
+     "u": "https://www.teslarati.com/tesla-full-self-driving-v15-rollout-begins-full-release-notes-improvements/"
+    },
+    {
+     "n": "Digital Trends – FSD v15 is rolling out, and Tesla says it handles risky moments 25 times better (21.11.2026)",
+     "u": "https://www.digitaltrends.com/cars/tesla-fsd-v15-rollout/"
+    },
+    {
+     "n": "TeslaNorth – Tesla Starts Rolling Out FSD v15 With a New Reality View (21.11.2026)",
+     "u": "https://teslanorth.com/2026/11/21/tesla-fsd-v15-first-rollout-reality-view/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-22/tesla-fsd-v15-reality-view.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "OWS Photography",
+    "lic": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tesla_Model_Y_Juniper_Washington_DC_Metro_Area,_USA.jpg",
+    "alt": {
+     "de": "Symbolbild: ein Tesla Model Y im Straßenverkehr bei Washington, D.C.",
+     "bg": "Символна снимка: Tesla Model Y в движение край Вашингтон",
+     "en": "Symbolic image: a Tesla Model Y on the road near Washington, D.C."
+    }
+   },
+   "de": {
+    "t": "25-mal besser in kritischen Lagen: Tesla verteilt Fahrsoftware FSD V15",
+    "d": "Tesla schickt die erste Welle von FSD V15 an Tester. Ein neuer Bild-Encoder soll kritische Eingriffe 25-mal seltener nötig machen, „Reality View“ zeigt, was das Auto als Nächstes plant.",
+    "body": [
+     "Tesla hat am 21. November begonnen, Version 15 seines Fahrassistenzsystems „Full Self-Driving (Supervised)“ zu verteilen – zunächst an Teilnehmer des Early-Access-Programms, wie Teslarati berichtet. Laut den Versionshinweisen wurde jeder Teil des durchgängigen neuronalen Fahrnetzes überarbeitet. Kern ist ein verbesserter Bild-Encoder, den Tesla mit Millionen von Internetvideos trainiert hat und der auch für Robotaxi und den humanoiden Roboter Optimus genutzt wird. Damit soll sich die Rate kritischer Eingriffe um das 25-Fache verbessern – eine Angabe des Herstellers zu seiner eigenen Kennzahl, keine unabhängige Sicherheitsbewertung.",
+     "Neu ist „Tesla Reality View“: eine in Echtzeit erzeugte Ansicht aus einer virtuellen Kamera über dem Fahrzeug, die zeigt, was das System vorhat. Außerdem bremst FSD nun vor erkannten Blitzern ab, lernt Anfang und Ende einer Route aus den Vorlieben der Flotte und soll Schilder, Tiere, Hindernisse auf der Fahrbahn, Schlaglöcher und stehendes Wasser besser erkennen. Ein „Bike Rack Mode“ erlaubt das System auch mit Fahrradträger an der Anhängerkupplung.",
+     "Es bleibt ein überwachtes System: Der Fahrer muss jederzeit eingreifen können. Wie viele Kunden das Update bekommen und in welchen Ländern, hat Tesla nicht mitgeteilt; ältere Autos mit HW3-Rechner bleiben laut TeslaNorth auf einem eigenen Softwarezweig. Elon Musk kündigte auf X die breite Verteilung für Dezember an. Das offizielle Video trägt den Titel „Introducing Tesla Self-Driving V15“."
+    ]
+   },
+   "bg": {
+    "t": "25 пъти по-добре в критични ситуации: Tesla пуска софтуера за шофиране FSD V15",
+    "d": "Tesla изпраща първата вълна на FSD V15 до тестери. Нов енкодер за изображения трябва да намали 25 пъти критичните намеси, а „Reality View“ показва какво колата смята да направи.",
+    "body": [
+     "На 21 ноември Tesla започна да разпространява версия 15 на системата си за подпомагане на шофирането „Full Self-Driving (Supervised)“ – първо сред участниците в програмата за ранен достъп, съобщава Teslarati. Според бележките към версията всяка част от цялостната невронна мрежа за шофиране е преработена. В основата е подобрен енкодер за изображения, който Tesla е обучила с милиони видеа от интернет и който се използва и за Robotaxi, и за хуманоидния робот Optimus. Така честотата на критичните намеси трябвало да се подобри 25 пъти – това е данни на производителя за собствения му показател, а не независима оценка на безопасността.",
+     "Новост е „Tesla Reality View“: генериран в реално време изглед от виртуална камера над автомобила, който показва какво планира системата. Освен това FSD вече намалява скоростта пред разпознати камери за скорост, научава началото и края на маршрута от предпочитанията на автопарка и трябва по-добре да разпознава знаци, животни, препятствия на пътя, дупки и застояла вода. Режимът „Bike Rack Mode“ позволява използване на системата и с багажник за велосипеди на теглича.",
+     "Системата остава под надзор: шофьорът трябва да може да се намеси по всяко време. Колко клиенти ще получат обновлението и в кои държави, Tesla не е съобщила; по-старите коли с компютър HW3 остават на отделен софтуерен клон, пише TeslaNorth. Илон Мъск обяви в X широкото разпространение за декември. Официалното видео е озаглавено „Introducing Tesla Self-Driving V15“."
+    ]
+   },
+   "en": {
+    "t": "25 times better in critical moments: Tesla rolls out FSD V15 driving software",
+    "d": "Tesla is sending the first wave of FSD V15 to testers. A new vision encoder is meant to make critical interventions 25 times rarer, and “Reality View” shows what the car plans to do next.",
+    "body": [
+     "On 21 November Tesla began rolling out version 15 of its driver-assistance system “Full Self-Driving (Supervised)”, starting with members of its early access programme, Teslarati reports. According to the release notes, every part of the end-to-end neural driving network has been reworked. At its core is an upgraded vision encoder that Tesla trained on millions of internet videos and that is also used for Robotaxi and the Optimus humanoid robot. Tesla says this improves the critical intervention rate by 25 times – a manufacturer claim about its own metric, not an independent safety assessment.",
+     "New is “Tesla Reality View”: a real-time generated view from a virtual camera above the vehicle that shows what the system is planning. FSD can now also slow down for detected speed cameras, learns the start and end of a route from fleet preferences and is meant to better detect signs, animals, road debris, potholes and standing water. A “Bike Rack Mode” allows the system to be used with a bike rack on the tow hitch.",
+     "It remains a supervised system: the driver must be able to take over at any time. Tesla has not said how many customers will get the update or in which countries; older cars with the HW3 computer stay on a separate software branch, according to TeslaNorth. Elon Musk announced on X that the wide release will follow in December. The official video is titled “Introducing Tesla Self-Driving V15”."
+    ]
+   }
+  },
+  {
+   "id": "microsoft-copilot-workspaces-autopilot",
+   "s": "ai",
+   "time": "12:39",
+   "kl": {
+    "de": "KI-Agenten",
+    "bg": "ИИ агенти",
+    "en": "AI agents"
+   },
+   "yt": {
+    "id": "QJ0AfOosQQU",
+    "ch": "Microsoft",
+    "kind": "video",
+    "t": {
+     "de": "Copilot goes multiplayer: Autopilot and Workspaces",
+     "bg": "Copilot goes multiplayer: Autopilot and Workspaces",
+     "en": "Copilot goes multiplayer: Autopilot and Workspaces"
+    }
+   },
+   "src": [
+    {
+     "n": "SiliconANGLE – At Ignite 2026, Microsoft reinvents Copilot as the autonomous engine of enterprise work (18.11.2026)",
+     "u": "https://siliconangle.com/2026/11/18/at-ignite-2026-microsoft-reinvents-copilot-as-the-autonomous-engine-of-enterprise-work/"
+    },
+    {
+     "n": "Silicon Report – Microsoft announces Copilot Workspaces at Ignite 2026 (17.11.2026)",
+     "u": "https://www.siliconreport.com/microsoft-announces-copilot-workspaces-at-ignite-2026"
+    },
+    {
+     "n": "Next – Microsoft Ignite 2026 : déluge d’annonces sur Copilot, la gouvernance et la sécurité (18.11.2026)",
+     "u": "https://next.ink/268166/microsoft-ignite-2026-deluge-dannonces-sur-copilot-la-gouvernance-et-la-securite/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-22/microsoft-copilot-workspaces-autopilot.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Brian Smale and Microsoft",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Satya_smiling-print.jpg",
+    "alt": {
+     "de": "Archivbild: Microsoft-Chef Satya Nadella",
+     "bg": "Архивна снимка: шефът на Microsoft Сатя Надела",
+     "en": "Archive image: Microsoft CEO Satya Nadella"
+    }
+   },
+   "de": {
+    "t": "Copilot für Teams: Microsoft zeigt Workspaces und den selbstständigen Agenten Autopilot",
+    "d": "Microsoft baut Copilot um: In Workspaces arbeiten Menschen und KI-Agenten an gemeinsamen Projekten, Autopilot erledigt wiederkehrende Aufgaben ohne Aufforderung – zunächst für Frontier-Kunden.",
+    "body": [
+     "Microsoft hat auf seiner Konferenz Ignite in San Francisco, die am 17. November begann, seinen KI-Assistenten Copilot neu ausgerichtet. Firmenchef Satya Nadella stellte Copilot Workspaces vor: eine gemeinsame Arbeitsfläche, auf der Teams zusammen mit KI-Agenten Projekte aufbauen, prüfen und voranbringen. Laut dem französischen Fachportal Next bezeichnete Nadella Copilot als neues Betriebssystem für die Arbeit.",
+     "Dazu kommt Autopilot, ein Agent, der wiederkehrende Arbeit und Nachfassaktionen übernimmt, ohne auf eine Eingabe zu warten. Laut Silicon Report beobachtet er dafür Teams-Kanäle und Outlook-Postfächer. Jeder Agent erhält eine eigene Identität in Microsoft Entra und einen zuständigen Menschen. „Seine Anmeldungen und Aktionen werden unter seinem eigenen Namen protokolliert, sodass Sicherheitsteams eine klare Prüfspur haben“, erklärte Marketingchef Jared Spataro laut SiliconANGLE. Autopilot startet zunächst im Frontier-Programm für frühe Kunden, Workspaces ist dort bereits verfügbar.",
+     "Außerdem führt Microsoft Chat und Cowork in der neuen Oberfläche „Home“ zusammen; die Funktion „Auto“ leitet Anfragen an ein jeweils passendes Modell weiter. Word, Excel und PowerPoint sind laut Silicon Report allgemein innerhalb von Copilot verfügbar, das Programmierwerkzeug Copilot Code soll in einigen Wochen folgen. Im offiziellen Video „Copilot goes multiplayer“ erklärt Microsoft-Manager Jacob Andreou die neuen Funktionen."
+    ]
+   },
+   "bg": {
+    "t": "Copilot за екипи: Microsoft показа Workspaces и самостоятелния агент Autopilot",
+    "d": "Microsoft преустройва Copilot: в Workspaces хора и ИИ агенти работят по общи проекти, а Autopilot изпълнява повтарящи се задачи без подкана – първо за клиентите от програмата Frontier.",
+    "body": [
+     "На конференцията си Ignite в Сан Франциско, започнала на 17 ноември, Microsoft преориентира своя ИИ асистент Copilot. Главният изпълнителен директор Сатя Надела представи Copilot Workspaces: обща работна среда, в която екипи заедно с ИИ агенти изграждат, проверяват и движат проекти напред. Според френския специализиран портал Next Надела е нарекъл Copilot нова операционна система за работата.",
+     "Към това се добавя Autopilot – агент, който поема повтаряща се работа и последващи действия, без да чака команда. Според Silicon Report той следи за целта каналите в Teams и пощенските кутии в Outlook. Всеки агент получава собствена идентичност в Microsoft Entra и отговорен човек. „Влизанията и действията му се записват под собственото му име, така че екипите по сигурност имат ясна следа за проверка“, обясни маркетинг директорът Джаред Спатаро, цитиран от SiliconANGLE. Autopilot стартира първо в програмата Frontier за ранни клиенти, а Workspaces вече е достъпен там.",
+     "Освен това Microsoft обединява Chat и Cowork в новия интерфейс „Home“; функцията „Auto“ насочва запитванията към подходящ модел. Word, Excel и PowerPoint вече са общодостъпни в Copilot според Silicon Report, а инструментът за програмиране Copilot Code трябва да последва след няколко седмици. В официалното видео „Copilot goes multiplayer“ мениджърът на Microsoft Джейкъб Андреу обяснява новите функции."
+    ]
+   },
+   "en": {
+    "t": "Copilot for teams: Microsoft shows Workspaces and the autonomous agent Autopilot",
+    "d": "Microsoft is rebuilding Copilot: in Workspaces people and AI agents work on shared projects, while Autopilot handles recurring tasks without being prompted – first for Frontier customers.",
+    "body": [
+     "At its Ignite conference in San Francisco, which began on 17 November, Microsoft gave its AI assistant Copilot a new direction. CEO Satya Nadella introduced Copilot Workspaces: a shared workspace where teams build, review and move projects forward together with AI agents. According to the French tech outlet Next, Nadella described Copilot as a new operating system for work.",
+     "Alongside it comes Autopilot, an agent that takes on recurring work and follow-ups without waiting for a prompt. According to Silicon Report, it monitors Teams channels and Outlook inboxes to do so. Each agent gets its own identity in Microsoft Entra and a designated human manager. “Its sign-ins and actions are logged under its own name, so security teams have a clear audit trail,” marketing chief Jared Spataro explained, as quoted by SiliconANGLE. Autopilot is starting in the Frontier programme for early customers, where Workspaces is already available.",
+     "Microsoft is also merging Chat and Cowork in a new interface called “Home”; a feature called “Auto” routes requests to a suitable model. Word, Excel and PowerPoint are now generally available inside Copilot, according to Silicon Report, and the coding tool Copilot Code is due to follow in a few weeks. In the official video “Copilot goes multiplayer”, Microsoft executive Jacob Andreou explains the new features."
+    ]
+   }
+  },
+  {
+   "id": "boston-dynamics-globalfoundries-atlas-spot",
+   "s": "ai",
+   "time": "12:39",
+   "kl": {
+    "de": "Roboter",
+    "bg": "Робот",
+    "en": "Robot"
+   },
+   "yt": {
+    "id": "g2WhkpE1tew",
+    "ch": "Boston Dynamics",
+    "kind": "video",
+    "t": {
+     "de": "Tomorrow Reporting for Duty | Boston Dynamics",
+     "bg": "Tomorrow Reporting for Duty | Boston Dynamics",
+     "en": "Tomorrow Reporting for Duty | Boston Dynamics"
+    }
+   },
+   "src": [
+    {
+     "n": "The Robot Report – Boston Dynamics' Atlas humanoid lands first non-automotive trial (17.11.2026)",
+     "u": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/"
+    },
+    {
+     "n": "Let's Data Science – Boston Dynamics expands Spot deployment and Atlas testing at GlobalFoundries (18.11.2026)",
+     "u": "https://letsdatascience.com/news/boston-dynamics-expands-spot-deployment-and-atlas-testing-at-d23ffd8c"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-22/boston-dynamics-globalfoundries-atlas-spot.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Jonte",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Spot_by_Boston_Dynamics.jpg",
+    "alt": {
+     "de": "Archivbild: der Laufroboter Spot von Boston Dynamics",
+     "bg": "Архивна снимка: крачещият робот Spot на Boston Dynamics",
+     "en": "Archive image: the Spot walking robot by Boston Dynamics"
+    }
+   },
+   "de": {
+    "t": "Erstmals außerhalb der Autoindustrie: Chipfertiger GlobalFoundries testet Humanoid Atlas",
+    "d": "Der humanoide Roboter Atlas von Boston Dynamics soll ab Anfang 2027 in Werken von GlobalFoundries erprobt werden. Roboterhund Spot inspiziert dort bereits Anlagen und kommt nun auch nach Dresden.",
+    "body": [
+     "Der Halbleiterhersteller GlobalFoundries will den humanoiden Roboter Atlas von Boston Dynamics ab Anfang 2027 für Aufgaben in der Chipfertigung testen. Das berichtete The Robot Report am 17. November; es ist der erste angekündigte Atlas-Test außerhalb der Autoindustrie. Wie viele Roboter in welchen Werken für welche Aufgaben eingesetzt werden, teilten die Unternehmen nicht mit. Der Einstieg läuft über ein Programm für frühe Anwender samt Schulungsworkshop.",
+     "Schon im Einsatz ist der vierbeinige Roboter Spot: Zwei Exemplare haben im Werk in Singapur seit April 2026 nach Firmenangaben fast 900 Kilometer zurückgelegt und mehr als 90.000 Inspektionen in den Versorgungsbereichen unter den Reinräumen erledigt, mit einer Erfolgsquote von 99 Prozent. Der Einsatz von Spot wird nun auf die Standorte Malta (New York), Burlington (Vermont), Dresden und Singapur ausgeweitet. „Spot hat uns geholfen, von reaktiver zu vorausschauender Wartung überzugehen“, sagte Produktionschef Pradip Singh.",
+     "Größter Atlas-Kunde bleibt Mutterkonzern Hyundai, der in den kommenden Jahren 25.000 Humanoide in Werken von Hyundai und Kia einsetzen und eine US-Fabrik für 30.000 Roboter pro Jahr bauen will. Im Oktober erhielt Atlas eine neue Hand mit vier Fingern und 13 Freiheitsgraden. Das offizielle Video „Tomorrow Reporting for Duty“ vom 18. November zeigt Spot bei verschiedenen Einsätzen – nicht speziell bei GlobalFoundries."
+    ]
+   },
+   "bg": {
+    "t": "За първи път извън автоиндустрията: чипопроизводителят GlobalFoundries тества Atlas",
+    "d": "Хуманоидният робот Atlas на Boston Dynamics ще бъде тестван от началото на 2027 г. в заводи на GlobalFoundries. Роботът куче Spot вече инспектира съоръжения там и сега идва и в Дрезден.",
+    "body": [
+     "Производителят на полупроводници GlobalFoundries ще тества хуманоидния робот Atlas на Boston Dynamics от началото на 2027 г. за задачи в производството на чипове. Това съобщи The Robot Report на 17 ноември; това е първият обявен тест на Atlas извън автомобилната индустрия. Колко робота, в кои заводи и за какви задачи ще бъдат използвани, компаниите не съобщиха. Стартът е чрез програма за ранни потребители с обучителен семинар.",
+     "Вече в употреба е четириногият робот Spot: два екземпляра в завода в Сингапур са изминали от април 2026 г. според компаниите почти 900 километра и са извършили над 90 000 инспекции в техническите зони под чистите помещения, с успеваемост от 99 процента. Използването на Spot сега се разширява към обектите в Малта (Ню Йорк), Бърлингтън (Върмонт), Дрезден и Сингапур. „Spot ни помогна да преминем от реактивна към предвиждаща поддръжка“, каза производственият директор Прадип Сингх.",
+     "Най-големият клиент на Atlas остава компанията майка Hyundai, която през следващите години иска да внедри 25 000 хуманоида в заводи на Hyundai и Kia и да построи в САЩ фабрика за 30 000 робота годишно. През октомври Atlas получи нова ръка с четири пръста и 13 степени на свобода. Официалното видео „Tomorrow Reporting for Duty“ от 18 ноември показва Spot при различни задачи – не конкретно в GlobalFoundries."
+    ]
+   },
+   "en": {
+    "t": "First outside the car industry: chipmaker GlobalFoundries to test the Atlas humanoid",
+    "d": "Boston Dynamics' humanoid robot Atlas is to be trialled in GlobalFoundries plants from early 2027. The robot dog Spot is already inspecting equipment there and is now coming to Dresden too.",
+    "body": [
+     "Semiconductor manufacturer GlobalFoundries plans to test Boston Dynamics' humanoid robot Atlas on chipmaking tasks from early 2027. The Robot Report reported this on 17 November; it is the first announced Atlas trial outside the automotive industry. The companies did not say how many robots will be used, in which plants or for which tasks. The start runs through an early adopter programme including a skills workshop.",
+     "The four-legged robot Spot is already at work: according to the companies, two units at the Singapore plant have covered almost 900 kilometres since April 2026 and completed more than 90,000 inspections in the sub-fab areas beneath the clean rooms, with a 99 per cent mission success rate. Spot's deployment is now being expanded to the sites in Malta (New York), Burlington (Vermont), Dresden and Singapore. “Spot has helped us shift from reactive to predictive maintenance,” said chief manufacturing officer Pradip Singh.",
+     "Atlas's biggest customer remains parent company Hyundai, which plans to deploy 25,000 humanoids in Hyundai and Kia plants over the coming years and to build a US factory for 30,000 robots a year. In October Atlas received a new hand with four fingers and 13 degrees of freedom. The official video “Tomorrow Reporting for Duty” from 18 November shows Spot in various jobs – not specifically at GlobalFoundries."
+    ]
+   }
+  },
+  {
+   "id": "openrouter-drei-anbieter-prompts-abgegriffen",
+   "s": "ai",
+   "mn": true,
+   "time": "12:39",
+   "kl": {
+    "de": "Sicherheit",
+    "bg": "Сигурност",
+    "en": "Security"
+   },
+   "src": [
+    {
+     "n": "Dragos – Three breaches, endless leaks: Your AI supply chain needs canaries (19.11.2026)",
+     "u": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens"
+    },
+    {
+     "n": "Cyber Security News – OpenRouter Users' Private AI Chats Possibly Exposed Via Compromised Third-Party Providers (22.11.2026)",
+     "u": "https://cybersecuritynews.com/openrouter-ai-chat-leaks/"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-22/openrouter-drei-anbieter-prompts-abgegriffen.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "BalticServers.com",
+    "lic": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg",
+    "alt": {
+     "de": "Symbolbild: Serverschränke in einem Rechenzentrum",
+     "bg": "Символна снимка: сървърни шкафове в център за данни",
+     "en": "Symbolic image: server racks in a data centre"
+    }
+   },
+   "de": {
+    "t": "Fremde lasen mit: OpenRouter wirft nach Köder-Test drei KI-Anbieter raus",
+    "d": "Forscher von Dragos schickten rund zwei Millionen präparierte Anfragen an KI-Dienste – Köder-Zugangsdaten wurden später von Angreifern benutzt. OpenRouter trennt sich von drei Anbietern.",
+    "body": [
+     "Das Sicherheitsunternehmen Dragos hat von Juli bis November 2026 rund zwei Millionen Anfragen an verbreitete KI-Dienste geschickt, die eindeutige Links und als Köder präparierte Zugangsdaten enthielten. Das schreibt Forschungschef HD Moore in einem Beitrag vom 19. November. Daten von mindestens drei KI-Anbietern seien dabei nach außen gelangt. Im größten Fall wurden rund zweihundert Amazon-Cloud-Schlüssel, die Ende Oktober in Anfragen an einen Anbieter steckten, später für Zehntausende Aufrufe der Amazon-Schnittstellen benutzt. Andere Weiterverkäufer speicherten Kundenanfragen laut Dragos schlicht über ihre normale Protokollierung – ganz ohne Angriff.",
+     "Die Plattform OpenRouter, die Anfragen an viele KI-Modelle und Rechenanbieter vermittelt, hat laut einer Mitteilung vom 22. November daraufhin drei Anbieter entfernt und 125 Endpunkten die Einstufung „Zero Data Retention“ entzogen – also das Versprechen, Anfragen nicht zu speichern. Betroffene Kunden seien informiert worden. In der Mitteilung führt OpenRouter Vorfallsberichte der Anbieter Novita, Phala und Together auf. Die 125 Endpunkte bedeuten laut Cyber Security News nicht 125 bestätigte Lecks; einen Einbruch bei OpenRouter selbst gebe es nicht. Wie viele Nutzer betroffen sind, blieb offen.",
+     "Wer in Anfragen Passwörter oder API-Schlüssel mitgeschickt hat, sollte sie laut Cyber Security News austauschen und die Zugriffsprotokolle prüfen. In einem Fall tauchte ein an einen KI-Anbieter geschickter Testlink laut Dragos rund 24 Tage später in einem Firmenchat in China auf."
+    ]
+   },
+   "bg": {
+    "t": "Чужди очи четяха: OpenRouter изключва трима доставчици на ИИ след тест с примамки",
+    "d": "Изследователи от Dragos изпратиха около два милиона подготвени заявки към ИИ услуги – примамващи данни за достъп по-късно бяха използвани от нападатели. OpenRouter се разделя с трима доставчици.",
+    "body": [
+     "От юли до ноември 2026 г. компанията за киберсигурност Dragos е изпратила около два милиона заявки към популярни ИИ услуги, съдържащи уникални връзки и подготвени като примамка данни за достъп. Това пише директорът по изследванията HD Moore в публикация от 19 ноември. Данни от поне трима доставчици на ИИ са изтекли навън. В най-големия случай около двеста ключа за облака на Amazon, изпратени в края на октомври в заявки към един доставчик, по-късно са били използвани за десетки хиляди извиквания на интерфейсите на Amazon. Според Dragos други препродавачи просто са съхранявали заявките на клиенти чрез обичайното си записване – без никаква атака.",
+     "Платформата OpenRouter, която препраща заявки към много ИИ модели и доставчици на изчислителна мощ, след това е премахнала трима доставчици и е отнела на 125 крайни точки статута „Zero Data Retention“ – обещанието заявките да не се съхраняват, според съобщение от 22 ноември. Засегнатите клиенти са били уведомени. В съобщението OpenRouter изброява доклади за инциденти от доставчиците Novita, Phala и Together. Според Cyber Security News 125-те крайни точки не означават 125 потвърдени изтичания; пробив в самата OpenRouter няма. Колко потребители са засегнати, остава неясно.",
+     "Който е изпращал пароли или API ключове в заявките си, трябва да ги смени и да провери журналите за достъп, съветва Cyber Security News. В един случай тестова връзка, изпратена до доставчик на ИИ, се появила според Dragos около 24 дни по-късно в чат на фирма в Китай."
+    ]
+   },
+   "en": {
+    "t": "Strangers were reading: OpenRouter drops three AI providers after a bait test",
+    "d": "Dragos researchers sent around two million rigged requests to AI services – bait credentials were later used by attackers. OpenRouter is cutting ties with three providers.",
+    "body": [
+     "From July to November 2026 the security firm Dragos sent around two million requests to widely used AI services containing unique links and credentials planted as bait. Chief research officer HD Moore wrote this in a post on 19 November. Data from at least three AI providers was exposed. In the largest case, around two hundred Amazon cloud keys sent in requests to one provider in late October were later used for tens of thousands of calls to Amazon's interfaces. Other resellers simply retained customer prompts through their normal logging – without any attack, according to Dragos.",
+     "The platform OpenRouter, which routes requests to many AI models and compute providers, has since removed three providers and stripped 125 endpoints of their “Zero Data Retention” status – the promise not to store requests – according to a notice dated 22 November. Affected customers have been notified. In the notice, OpenRouter lists incident disclosures from the providers Novita, Phala and Together. According to Cyber Security News, the 125 endpoints do not mean 125 confirmed leaks, and there was no breach of OpenRouter itself. How many users are affected remained unclear.",
+     "Anyone who sent passwords or API keys in requests should rotate them and check access logs, Cyber Security News advises. In one case a test link sent to an AI provider turned up around 24 days later in a company chat in China, according to Dragos."
+    ]
+   }
+  },
+  {
+   "id": "amazon-decart-uebernahme-bericht",
+   "s": "ai",
+   "mn": true,
+   "time": "12:39",
+   "kl": {
+    "de": "Übernahme",
+    "bg": "Придобиване",
+    "en": "Acquisition"
+   },
+   "src": [
+    {
+     "n": "Globes – Amazon nears deal to buy Decart for over $7b (19.11.2026)",
+     "u": "https://en.globes.co.il/en/article-Amazon-nears-deal-to-buy-Decart-for-over-7b-1001564112"
+    },
+    {
+     "n": "retail-news.de – Amazon vor Milliardenübernahme: KI-Start-up Decart soll 7,5 Milliarden kosten (20.11.2026)",
+     "u": "https://retail-news.de/amazon-decart-uebernahme-ki-milliarden-deal/"
+    },
+    {
+     "n": "The Next Web – Amazon in talks to buy Decart for about $7bn, WSJ reports (13.10.2026)",
+     "u": "https://thenextweb.com/news/amazon-decart-7bn-acquisition-talks-wsj"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-22/amazon-decart-uebernahme-bericht-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Bericht über Amazons geplanten Kauf von Decart",
+     "bg": "Заглавна графика: доклад за планираната покупка на Decart от Amazon",
+     "en": "Title graphic: report on Amazon's planned purchase of Decart"
+    }
+   },
+   "de": {
+    "t": "Bericht: Amazon kurz vor Kauf des KI-Start-ups Decart für über sieben Milliarden Dollar",
+    "d": "Laut der israelischen Zeitung Globes soll der Deal noch vor Thanksgiving stehen und auf der AWS-Konferenz re:Invent am 30. November verkündet werden. Amazon und Decart haben nichts bestätigt.",
+    "body": [
+     "Amazon steht nach einem Bericht der israelischen Wirtschaftszeitung Globes vom 19. November kurz vor der Übernahme des KI-Start-ups Decart. Unter Berufung auf ungenannte Quellen schreibt Globes, Amazon zahle mehr als sieben Milliarden Dollar in bar und in Aktien, dazu kämen an Ziele geknüpfte Zahlungen über fünf Jahre. Die Einigung werde binnen einer Woche erwartet, noch vor dem US-Feiertag Thanksgiving, und solle auf der Konferenz AWS re:Invent in Las Vegas am 30. November vorgestellt werden. Laut der israelischen Zeitung Calcalist könnte der Gesamtwert mit späteren Zahlungen bis zu 7,5 Milliarden Dollar erreichen. Bestätigt haben die Unternehmen nichts.",
+     "Auf Amazon-Seite führt laut Globes Nafea Bshara die Gespräche, Chef der Chipsparte Annapurna Labs, die Amazon 2015 für 375 Millionen Dollar gekauft hatte. Die drei Gründer sollen sich verpflichtet haben, fünf Jahre zu bleiben. Decart wurde 2023 gegründet; seine Software soll KI-Anwendungen zwischen verschiedenen Chips wechseln lassen, das Modell Lucy bearbeitet Live-Videos in Echtzeit.",
+     "Im Mai war Decart nach einer Finanzierungsrunde über 300 Millionen Dollar, angeführt von Radical Ventures und mit Nvidia als neuem Investor, mit knapp vier Milliarden Dollar bewertet worden. Erste Gespräche mit Amazon hatte im Oktober das Wall Street Journal gemeldet. Zuvor hatte laut The Next Web auch Anthropic über einen Kauf für rund sechs Milliarden Dollar verhandelt, sich aber im September nach einer Prüfung zurückgezogen."
+    ]
+   },
+   "bg": {
+    "t": "Доклад: Amazon е близо до покупката на ИИ стартъпа Decart за над 7 млрд. долара",
+    "d": "Според израелския вестник „Глобс“ сделката трябва да бъде договорена още преди Деня на благодарността и обявена на конференцията AWS re:Invent на 30 ноември. Amazon и Decart не са потвърдили.",
+    "body": [
+     "Amazon е близо до придобиването на ИИ стартъпа Decart, съобщи на 19 ноември израелският икономически вестник „Глобс“. Позовавайки се на неназовани източници, изданието пише, че Amazon ще плати над седем милиарда долара в брой и в акции, плюс плащания, обвързани с цели, за пет години. Споразумението се очаквало до седмица, още преди американския празник Деня на благодарността, и трябвало да бъде представено на конференцията AWS re:Invent в Лас Вегас на 30 ноември. Според израелския вестник „Калкалист“ общата стойност с по-късните плащания може да достигне до 7,5 млрд. долара. Компаниите не са потвърдили нищо.",
+     "От страна на Amazon преговорите води Нафеа Бшара, ръководител на чиповото звено Annapurna Labs, което Amazon купи през 2015 г. за 375 млн. долара, пише „Глобс“. Тримата основатели се били задължили да останат пет години. Decart е основана през 2023 г.; софтуерът ѝ позволява ИИ приложенията да превключват между различни чипове, а моделът Lucy редактира видео на живо в реално време.",
+     "През май Decart беше оценена на близо четири милиарда долара след инвестиционен кръг от 300 млн. долара, воден от Radical Ventures, с Nvidia като нов инвеститор. Първите разговори с Amazon съобщи през октомври Wall Street Journal. Преди това според The Next Web и Anthropic е преговаряла за покупка за около шест милиарда долара, но се е оттеглила през септември след проверка."
+    ]
+   },
+   "en": {
+    "t": "Report: Amazon close to buying AI start-up Decart for more than seven billion dollars",
+    "d": "According to Israeli newspaper Globes, the deal should be done before Thanksgiving and announced at the AWS re:Invent conference on 30 November. Amazon and Decart have confirmed nothing.",
+    "body": [
+     "Amazon is close to acquiring AI start-up Decart, Israeli business daily Globes reported on 19 November. Citing unnamed sources, Globes wrote that Amazon will pay more than seven billion dollars in cash and shares, plus target-linked payments over five years. An agreement was expected within a week, before the US Thanksgiving holiday, and was to be unveiled at the AWS re:Invent conference in Las Vegas on 30 November. According to the Israeli newspaper Calcalist, the total value including later payments could reach up to 7.5 billion dollars. The companies have confirmed nothing.",
+     "On Amazon's side the talks are led by Nafea Bshara, head of the chip unit Annapurna Labs, which Amazon bought in 2015 for 375 million dollars, according to Globes. The three founders have reportedly committed to stay for five years. Decart was founded in 2023; its software lets AI applications switch between different chips, and its Lucy model edits live video in real time.",
+     "In May Decart was valued at almost four billion dollars after a 300-million-dollar funding round led by Radical Ventures, with Nvidia joining as a new investor. The Wall Street Journal first reported talks with Amazon in October. Before that, according to The Next Web, Anthropic had also negotiated a purchase for around six billion dollars but pulled out in September after due diligence."
+    ]
+   }
+  },
+  {
+   "id": "openai-amd-chipdesign-14-prozent",
+   "s": "ai",
+   "mn": true,
+   "time": "12:39",
+   "kl": {
+    "de": "Chips",
+    "bg": "Чипове",
+    "en": "Chips"
+   },
+   "src": [
+    {
+     "n": "Analytics India Magazine – OpenAI, AMD Use AI to Cut Chip Design Process From a Year to Under 5 Months (19.11.2026)",
+     "u": "https://analyticsindiamag.com/ai-news/openai-and-amd-achieve-a-year-of-chip-design-progress-in-under-five-months"
+    },
+    {
+     "n": "24/7 Wall St. – OpenAI Says Its AI Improved AMD's Best Chip Design by Up to 14% (19.11.2026)",
+     "u": "https://247wallst.com/investing/2026/11/19/openai-says-its-ai-improved-amds-best-chip-design-by-up-to-14/"
+    },
+    {
+     "n": "YourStory – AI chip design: OpenAI says its models improved AMD GPU IP (19.11.2026)",
+     "u": "https://yourstory.com/ai-story/ai-chip-design-openai-amd-gpu-ip"
+    }
+   ],
+   "img": {
+    "f": "/assets/news/2026-11-22/openai-amd-chipdesign-14-prozent-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: OpenAI-Modelle verbessern AMD-Chipdesign",
+     "bg": "Заглавна графика: модели на OpenAI подобряват дизайна на чип на AMD",
+     "en": "Title graphic: OpenAI models improve AMD chip design"
+    }
+   },
+   "de": {
+    "t": "Ein Jahr Chipentwicklung in fünf Monaten: OpenAI-Modelle verbessern AMD-Grafikchip",
+    "d": "KI-Modelle von OpenAI haben den Hardware-Code von AMDs wichtigstem Grafikchip-Baustein umgeschrieben – mit bis zu 14 Prozent besseren Werten. AMD hat Teile bereits in ein Chipdesign übernommen.",
+    "body": [
+     "OpenAI hat am 18. November Ergebnisse einer Zusammenarbeit mit dem Chiphersteller AMD veröffentlicht. Die KI-Modelle des Unternehmens schrieben dabei den Hardware-Beschreibungscode (SystemVerilog) für AMDs führende GPU-Bausteine um und erreichten gegenüber bereits stark optimierten Ausgangsentwürfen Verbesserungen von bis zu 14 Prozent bei Leistung, Energieverbrauch und Chipfläche. Geprüft wurde jede Änderung mit Werkzeugen des Chipdesign-Spezialisten Synopsys. Laut OpenAI entspricht das etwa einem Jahr Entwicklungsfortschritt in weniger als fünf Monaten; OpenAI-Präsident Greg Brockman nannte die Ergebnisse auf X „beispiellos“.",
+     "AMD hat einige der Änderungen nach Angaben von OpenAI in ein kürzlich zur Fertigung gegebenes Design übernommen, andere in die Entwurfsdateien künftiger Versionen. Laut OpenAI hat AMD bei Schlüsselbausteinen seines nächsten Spitzen-Prozessors (CPU) Verbesserungen im einstelligen Prozentbereich verifiziert. Die 14 Prozent sind ein Höchstwert für einzelne Bausteine; wie sich der Gewinn auf Leistung, Verbrauch und Fläche verteilt, hat OpenAI laut 24/7 Wall St. nicht aufgeschlüsselt.",
+     "Auch beim eigenen Inferenzchip „Jalapeño“, den OpenAI mit Broadcom entwickelt, schätzt das Unternehmen die eingesparte Fläche der Standardzellen auf etwa 13 Prozent in der Vektor- und 10 Prozent in der Matrixeinheit. Die Arbeit baut auf einer Ende September angekündigten Partnerschaft mit Synopsys auf. OpenAI und AMD hatten im Oktober 2025 vereinbart, dass OpenAI AMD-Grafikchips mit einer Leistung von bis zu sechs Gigawatt einsetzt."
+    ]
+   },
+   "bg": {
+    "t": "Година развитие на чипове за пет месеца: модели на OpenAI подобряват графичен чип на AMD",
+    "d": "ИИ модели на OpenAI са пренаписали хардуерния код на най-важния графичен блок на AMD – с до 14 процента по-добри стойности. AMD вече е включила части от промените в дизайн на чип.",
+    "body": [
+     "На 18 ноември OpenAI публикува резултати от сътрудничество с производителя на чипове AMD. ИИ моделите на компанията са пренаписали кода за хардуерно описание (SystemVerilog) на водещите графични блокове на AMD и спрямо вече силно оптимизирани изходни проекти са постигнали подобрения до 14 процента в производителност, енергопотребление и площ на чипа. Всяка промяна е проверена с инструменти на специалиста по проектиране на чипове Synopsys. Според OpenAI това се равнява на около година напредък в развитието за по-малко от пет месеца; президентът на OpenAI Грег Брокман нарече резултатите в X „безпрецедентни“.",
+     "Според OpenAI AMD е включила някои от промените в проект, наскоро изпратен за производство, а други – във файловете на бъдещи версии. Според OpenAI AMD е потвърдила при ключови блокове на следващия си водещ процесор (CPU) подобрения в рамките на едноцифрени проценти. 14-те процента са максимална стойност за отделни блокове; как се разпределя печалбата между производителност, потребление и площ, OpenAI не е уточнила, пише 24/7 Wall St.",
+     "И при собствения си чип за изпълнение на модели „Jalapeño“, който OpenAI разработва с Broadcom, компанията оценява спестената площ на стандартните клетки на около 13 процента във векторния и 10 процента в матричния блок. Работата надгражда партньорство със Synopsys, обявено в края на септември. През октомври 2025 г. OpenAI и AMD се договориха OpenAI да използва графични чипове на AMD с мощност до шест гигавата."
+    ]
+   },
+   "en": {
+    "t": "A year of chip development in five months: OpenAI models improve AMD graphics chip",
+    "d": "OpenAI's AI models rewrote the hardware code of AMD's most important graphics chip blocks – with values up to 14 per cent better. AMD has already adopted parts of it in a chip design.",
+    "body": [
+     "On 18 November OpenAI published results of a collaboration with chipmaker AMD. The company's AI models rewrote the hardware description code (SystemVerilog) for AMD's flagship GPU blocks and, against already heavily optimised baseline designs, achieved gains of up to 14 per cent in performance, power consumption and chip area. Every change was checked with tools from chip design specialist Synopsys. According to OpenAI, this amounts to roughly a year of development progress in less than five months; OpenAI president Greg Brockman called the results “unprecedented” on X.",
+     "According to OpenAI, AMD has incorporated some of the changes into a design recently sent for manufacturing and others into the design files of future versions. According to OpenAI, AMD verified single-digit percentage improvements for key blocks of its next flagship processor (CPU). The 14 per cent is a maximum for individual blocks; OpenAI did not break down how the gain is split between performance, power and area, 24/7 Wall St. notes.",
+     "For its own inference chip “Jalapeño”, which OpenAI is developing with Broadcom, the company estimates standard-cell area savings of about 13 per cent in the vector unit and 10 per cent in the matrix unit. The work builds on a partnership with Synopsys announced at the end of September. In October 2025 OpenAI and AMD agreed that OpenAI would deploy AMD graphics chips with a capacity of up to six gigawatts."
+    ]
+   }
+  }
+ ]
+}
