@@ -359,6 +359,7 @@ section{position:relative}
 .devnote{max-width:760px;margin:clamp(1.6rem,3vw,2.4rem) auto 0;padding:0 1.25rem;text-align:center;font-size:.92rem;line-height:1.7;color:#b9c5cf;letter-spacing:.02em;text-shadow:0 2px 10px rgba(0,0,0,.9)}
 .devnote strong{color:var(--ice);font-family:var(--head);font-weight:500;text-transform:uppercase;letter-spacing:.18em;font-size:.82rem;margin-right:.35rem}
 .bgimg{transition:opacity 1.2s ease}
+.contact .devnote{color:#dfe7ee;font-size:.95rem;text-shadow:0 2px 12px rgba(0,0,0,.95),0 0 26px rgba(0,0,0,.9),0 0 4px rgba(0,0,0,.9)}
 
 /* lazy background images */
 .bgimg.lenker.on{background-image:url(img/bg_lenker.svg?v=1)}
