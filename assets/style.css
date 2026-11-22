@@ -237,3 +237,5 @@ section{position:relative}
 .beings .stay{text-align:center;margin-top:2.6rem!important}
 @media (max-width:900px){.beings .bgwrap{height:110vh}.beings-head{min-height:70vh}.beings-txt::before{inset:-2rem -1.25rem}}
 .beings .bgimg.waechter{inset:3% -3% -4%;background-position:0% 0%}
+.beings-head{min-height:0;padding-bottom:clamp(14rem,30vh,20rem)}
+@media (max-width:900px){.beings-head{min-height:0;padding-bottom:clamp(10rem,24vh,14rem)}}
