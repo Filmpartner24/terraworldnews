@@ -11,7 +11,7 @@
   "de": "Ultimate Fighting Championship",
   "en": "Ultimate Fighting Championship"
  },
- "asof": "2026-11-21",
+ "asof": "2026-11-22",
  "champions": [
   {
    "div": {
@@ -135,22 +135,6 @@
   }
  ],
  "upcoming": [
-  {
-   "date": "2026-11-21",
-   "place": "Ali Bin Hamad al-Attiyah Arena, Al Rayyan, Katar",
-   "f1": "Jiří Procházka",
-   "f2": "Navajo Stirling",
-   "div": {
-    "bg": "Полутежка категория",
-    "de": "Halbschwergewicht",
-    "en": "Light Heavyweight"
-   },
-   "title": {
-    "bg": "UFC Fight Night (Катар) – главен двубой",
-    "de": "UFC Fight Night (Katar) – Hauptkampf",
-    "en": "UFC Fight Night (Qatar) – main event"
-   }
-  },
   {
    "date": "2026-12-05",
    "place": "Riad, Saudi-Arabien",
@@ -336,6 +320,27 @@
   }
  ],
  "results": [
+  {
+   "date": "2026-11-21",
+   "place": "Ali Bin Hamad al-Attiyah Arena, Al Rayyan, Katar",
+   "f1": "Navajo Stirling",
+   "f2": "Jiří Procházka",
+   "res": {
+    "bg": "нокаут (дясна ръка), 2-ри рунд (4:58)",
+    "de": "KO (rechte Hand), 2. Runde (4:58)",
+    "en": "KO (right hand), round 2 (4:58)"
+   },
+   "div": {
+    "bg": "Полутежка категория",
+    "de": "Halbschwergewicht",
+    "en": "Light Heavyweight"
+   },
+   "title": {
+    "bg": "UFC Fight Night (Катар) – главен двубой",
+    "de": "UFC Fight Night (Katar) – Hauptkampf",
+    "en": "UFC Fight Night (Qatar) – main event"
+   }
+  },
   {
    "date": "2026-11-14",
    "place": "Madison Square Garden, New York, USA",
@@ -728,6 +733,10 @@
   {
    "n": "UFC.com – UFC 336 Toronto (17.11.2026)",
    "u": "https://www.ufc.com/news/ufc-returns-to-toronto-with-world-championship-doubleheader-ufc-336"
+  },
+  {
+   "n": "UFC.com – UFC Qatar Main Card Results (21.11.2026)",
+   "u": "https://www.ufc.com/news/ufc-qatar-results-prochazka-vs-stirling"
   }
  ]
 }
