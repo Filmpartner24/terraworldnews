@@ -36,7 +36,7 @@
 })();
 // v18: pull author/contact background images up so they join the image above (no black gaps)
 (function(){
-  var OV=220;
+  var OV=-70;
   function chain(prevWrap,sec){
     if(!prevWrap||!sec)return;var w=sec.querySelector(':scope>.bgwrap');if(!w)return;
     var pb=prevWrap.getBoundingClientRect().bottom, st=sec.getBoundingClientRect().top;
