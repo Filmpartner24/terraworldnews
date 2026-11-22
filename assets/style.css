@@ -360,6 +360,9 @@ section{position:relative}
 .devnote strong{color:var(--ice);font-family:var(--head);font-weight:500;text-transform:uppercase;letter-spacing:.18em;font-size:.82rem;margin-right:.35rem}
 .bgimg{transition:opacity 1.2s ease}
 .contact .devnote{color:#dfe7ee;font-size:.95rem;text-shadow:0 2px 12px rgba(0,0,0,.95),0 0 26px rgba(0,0,0,.9),0 0 4px rgba(0,0,0,.9)}
+/* v38: WGA registration block */
+.contact .devnote.wga{margin-top:1.2rem}
+.devnote .reg{font-family:var(--head);text-transform:uppercase;letter-spacing:.14em;font-size:.8rem;color:#fff}
 
 /* lazy background images */
 .bgimg.lenker.on{background-image:url(img/bg_lenker.svg?v=1)}
