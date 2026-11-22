@@ -312,3 +312,6 @@ section{position:relative}
 .bgimg.teil3{inset:13% -2% -20%;background-position:50% 0%}
 @media (max-width:900px){.bgimg.teil3{inset:9% -2% -10%;background-position:50% 0%}}
 .bgimg.teil3{-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 9%);mask-image:linear-gradient(180deg,transparent 0,#000 9%)}
+/* v26: UTD emblem in header */
+.brand img.utd{width:auto;height:46px;filter:drop-shadow(0 0 10px rgba(95,208,255,.25))}
+@media (max-width:900px){.brand img.utd{height:38px}}
