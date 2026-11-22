@@ -286,3 +286,9 @@ section{position:relative}
 .portal-cap .n{font-size:.55rem;letter-spacing:.18em}
 .portal-cap .s{font-size:.58rem;letter-spacing:.06em;text-align:center;line-height:1.25}
 }
+/* v21: mobile – tighter hero, posters closer */
+@media (max-width:900px){
+.hero{min-height:0;padding-bottom:4.2rem}
+.portals{margin-top:-1.6rem}
+#story{padding-top:3.5rem}
+}
