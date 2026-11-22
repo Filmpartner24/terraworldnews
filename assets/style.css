@@ -216,3 +216,24 @@ section{position:relative}
 .story-poster{width:min(560px,100%);margin:0 auto clamp(2.2rem,4vw,3rem)}
 .story-poster img{width:100%;border:1px solid rgba(154,166,178,.15);box-shadow:0 40px 80px -30px #000,0 0 60px rgba(95,208,255,.08)}
 .story-part{scroll-margin-top:90px}
+
+/* creatures section (long text) */
+.beings{display:block;min-height:0;padding:0 1.25rem clamp(5rem,9vw,7rem);text-align:left}
+.beings::after{display:none}
+.beings .bgwrap{bottom:auto;height:130vh}
+.beings .bgwrap::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,var(--bg) 0%,rgba(5,8,12,0) 14%,rgba(5,8,12,0) 50%,rgba(5,8,12,.75) 80%,var(--bg) 100%)}
+.beings-head{min-height:82vh;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;padding-top:clamp(6rem,10vw,8rem);text-align:center}
+.beings-head .sec{margin-bottom:1.4rem}
+.beings-tag{font:500 clamp(1.6rem,4vw,2.8rem)/1.15 var(--head);letter-spacing:.08em;text-transform:uppercase;color:#fff;text-shadow:0 0 30px rgba(224,36,43,.65),0 2px 20px #000}
+.beings-txt{position:relative;max-width:760px;margin:0 auto;font-size:1.15rem;color:#e3e9ee;line-height:1.75;text-shadow:0 2px 14px rgba(0,0,0,.9)}
+.beings-txt::before{content:"";position:absolute;inset:-3rem -4rem;z-index:-1;background:radial-gradient(closest-side,rgba(5,8,12,.75),rgba(5,8,12,.45) 70%,transparent);pointer-events:none}
+.beings-block+.beings-block{margin-top:clamp(3.5rem,7vw,5rem)}
+.beings-block p+p{margin-top:1.1rem}
+.beings-h{font:600 clamp(1.6rem,3.6vw,2.6rem)/1.1 var(--head);letter-spacing:.04em;text-transform:uppercase;margin-bottom:1.5rem;background:linear-gradient(180deg,#f4f8fb 0%,#aab6c1 55%,#6f7b86 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.beings-txt p.beat{font:500 clamp(1.15rem,2.1vw,1.4rem)/1.45 var(--head);letter-spacing:.02em;color:#fff}
+.beings-close{margin-top:clamp(3.5rem,7vw,5rem);text-align:center}
+.beings-close p{font:500 clamp(1.2rem,2.4vw,1.6rem)/1.45 var(--head);color:#fff;letter-spacing:.03em}
+.beings-close p:last-child{color:#ff5a5f;text-shadow:0 0 24px rgba(224,36,43,.6)}
+.beings .stay{text-align:center;margin-top:2.6rem!important}
+@media (max-width:900px){.beings .bgwrap{height:110vh}.beings-head{min-height:70vh}.beings-txt::before{inset:-2rem -1.25rem}}
+.beings .bgimg.waechter{inset:3% -3% -4%;background-position:0% 0%}

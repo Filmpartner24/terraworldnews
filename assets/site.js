@@ -24,7 +24,7 @@
     function px(){
       var vh=window.innerHeight;
       layers.forEach(function(el){
-        var host=el.closest('section')||el.parentNode;var r=host.getBoundingClientRect();
+        var host=el.parentNode.classList.contains('bgwrap')?el.parentNode:(el.closest('section')||el.parentNode);var r=host.getBoundingClientRect();
         if(r.bottom<0||r.top>vh)return;
         var c=(r.top+r.height/2-vh/2)*parseFloat(el.getAttribute('data-speed'));
         el.style.transform='translate3d(0,'+(-c).toFixed(1)+'px,0)';
