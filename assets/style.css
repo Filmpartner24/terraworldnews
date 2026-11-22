@@ -345,3 +345,8 @@ section{position:relative}
 /* v32: soft dark halo instead of frame */
 .poster-wrap .story-poster{border:0;outline:0;box-shadow:0 0 40px 18px rgba(3,5,8,.9),0 0 120px 50px rgba(3,5,8,.6),0 0 220px 80px rgba(3,5,8,.3)}
 @media (max-width:900px){.poster-wrap .story-poster{outline:0;box-shadow:0 0 26px 12px rgba(3,5,8,.9),0 0 70px 30px rgba(3,5,8,.55)}}
+/* v33: desktop menu centred, languages right */
+@media (min-width:901px){
+.nav{flex:1;justify-content:center;margin-right:66px}
+.langs{position:absolute;right:clamp(1rem,4vw,3rem);top:50%;transform:translateY(-50%);margin:0;padding-left:1.2rem}
+}
