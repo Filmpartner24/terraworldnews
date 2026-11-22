@@ -1101,7 +1101,10 @@
    "time": "14:45",
    "t1": "Slavia Sofia",
    "t2": "Arda Kardzhali",
-   "ft": null
+   "ft": [
+    1,
+    1
+   ]
   },
   {
    "r": 15,
@@ -1109,7 +1112,10 @@
    "time": "17:15",
    "t1": "Spartak Varna",
    "t2": "Cherno More Varna",
-   "ft": null
+   "ft": [
+    0,
+    0
+   ]
   },
   {
    "r": 15,
@@ -1146,7 +1152,7 @@
   {
    "r": 16,
    "date": "2026-11-27",
-   "time": "18:00",
+   "time": "18:30",
    "t1": "Lokomotiv Sofia",
    "t2": "Slavia Sofia",
    "ft": null
@@ -1178,7 +1184,7 @@
   {
    "r": 16,
    "date": "2026-11-29",
-   "time": "12:30",
+   "time": "13:30",
    "t1": "Arda Kardzhali",
    "t2": "CSKA 1948",
    "ft": null
@@ -1186,7 +1192,7 @@
   {
    "r": 16,
    "date": "2026-11-29",
-   "time": "15:00",
+   "time": "16:00",
    "t1": "Septemvri Sofia",
    "t2": "Levski Sofia",
    "ft": null
@@ -1197,6 +1203,62 @@
    "time": "18:30",
    "t1": "Dunav Ruse",
    "t2": "CSKA Sofia",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2026-12-04",
+   "time": "18:00",
+   "t1": "Slavia Sofia",
+   "t2": "Botev Vratsa",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2026-12-05",
+   "time": "15:00",
+   "t1": "CSKA 1948",
+   "t2": "Lokomotiv Sofia",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2026-12-05",
+   "time": "17:30",
+   "t1": "CSKA Sofia",
+   "t2": "Septemvri Sofia",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2026-12-06",
+   "time": "12:45",
+   "t1": "Arda Kardzhali",
+   "t2": "Dunav Ruse",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2026-12-06",
+   "time": "15:15",
+   "t1": "Lokomotiv Plovdiv",
+   "t2": "Levski Sofia",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2026-12-06",
+   "time": "17:45",
+   "t1": "Spartak Varna",
+   "t2": "Botev Plovdiv",
+   "ft": null
+  },
+  {
+   "r": 17,
+   "date": "2026-12-07",
+   "time": "18:00",
+   "t1": "Ludogorets Razgrad",
+   "t2": "Cherno More Varna",
    "ft": null
   }
  ],
@@ -1846,6 +1908,22 @@
   {
    "n": "Fakti.bg – Септември – Локомотив Пловдив 0:0 (20.11.2026)",
    "u": "https://fakti.bg/sport/1102963-septemvri-i-lokomotiv-plovdiv-ne-si-vkaraha-gol"
+  },
+  {
+   "n": "БТА – Славия – Арда 1:1 (21.11.2026)",
+   "u": "https://novini247.com/novini/slaviya-arda-1-1-0-0-golmaystori-0-1-lachezar-kotev-51_11415992.html"
+  },
+  {
+   "n": "БТА – Спартак Варна – Черно море 0:0 (21.11.2026)",
+   "u": "https://www.bta.bg/bg/news/sport/1251765-spartak-1918-varna-i-cherno-more-ne-uspyaha-da-si-otbelezhat-gol-v-gradskoto-der"
+  },
+  {
+   "n": "БТА – промени в XVI кръг (03.11.2026)",
+   "u": "https://www.bta.bg/bg/news/sport/1239193-stk-premesti-macha-na-dunav-ruse-tsska-ot-29-i-noemvri-za-1-i-dekemvri-sres"
+  },
+  {
+   "n": "Novinata.bg – програма XVII кръг",
+   "u": "https://novinata.bg/sport/bfs-obqvi-programata-za-17-iq-krag-na-efbet-liga/"
   }
  ]
 }
