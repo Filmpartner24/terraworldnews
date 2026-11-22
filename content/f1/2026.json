@@ -1,14 +1,14 @@
 {
  "season": "2026",
- "round": 20,
- "updated": "2026-11-21",
+ "round": 21,
+ "updated": "2026-11-22",
  "drivers": [
   {
    "pos": 1,
    "name": "Andrea Kimi Antonelli",
    "nat": "Italian",
    "team": "Mercedes",
-   "pts": 390.0,
+   "pts": 402.0,
    "wins": 9
   },
   {
@@ -16,47 +16,47 @@
    "name": "Max Verstappen",
    "nat": "Dutch",
    "team": "Red Bull",
-   "pts": 279.0,
-   "wins": 3
+   "pts": 304.0,
+   "wins": 4
   },
   {
    "pos": 3,
-   "name": "George Russell",
-   "nat": "British",
-   "team": "Mercedes",
-   "pts": 262.0,
-   "wins": 3
-  },
-  {
-   "pos": 4,
    "name": "Lewis Hamilton",
    "nat": "British",
    "team": "Ferrari",
-   "pts": 261.0,
+   "pts": 267.0,
    "wins": 1
+  },
+  {
+   "pos": 4,
+   "name": "George Russell",
+   "nat": "British",
+   "team": "Mercedes",
+   "pts": 264.0,
+   "wins": 3
   },
   {
    "pos": 5,
-   "name": "Charles Leclerc",
-   "nat": "Monegasque",
-   "team": "Ferrari",
-   "pts": 249.0,
-   "wins": 1
-  },
-  {
-   "pos": 6,
    "name": "Lando Norris",
    "nat": "British",
    "team": "McLaren",
-   "pts": 246.0,
+   "pts": 264.0,
    "wins": 3
+  },
+  {
+   "pos": 6,
+   "name": "Charles Leclerc",
+   "nat": "Monegasque",
+   "team": "Ferrari",
+   "pts": 250.0,
+   "wins": 1
   },
   {
    "pos": 7,
    "name": "Oscar Piastri",
    "nat": "Australian",
    "team": "McLaren",
-   "pts": 152.0,
+   "pts": 167.0,
    "wins": 0
   },
   {
@@ -80,7 +80,7 @@
    "name": "Pierre Gasly",
    "nat": "French",
    "team": "Alpine F1 Team",
-   "pts": 42.0,
+   "pts": 52.0,
    "wins": 0
   },
   {
@@ -96,7 +96,7 @@
    "name": "Franco Colapinto",
    "nat": "Argentine",
    "team": "Alpine F1 Team",
-   "pts": 27.0,
+   "pts": 35.0,
    "wins": 0
   },
   {
@@ -125,6 +125,14 @@
   },
   {
    "pos": 16,
+   "name": "Carlos Sainz",
+   "nat": "Spanish",
+   "team": "Williams",
+   "pts": 11.0,
+   "wins": 0
+  },
+  {
+   "pos": 17,
    "name": "Esteban Ocon",
    "nat": "French",
    "team": "Haas F1 Team",
@@ -132,18 +140,10 @@
    "wins": 0
   },
   {
-   "pos": 17,
+   "pos": 18,
    "name": "Fernando Alonso",
    "nat": "Spanish",
    "team": "Aston Martin",
-   "pts": 7.0,
-   "wins": 0
-  },
-  {
-   "pos": 18,
-   "name": "Carlos Sainz",
-   "nat": "Spanish",
-   "team": "Williams",
    "pts": 7.0,
    "wins": 0
   },
@@ -208,25 +208,25 @@
   {
    "pos": 1,
    "name": "Mercedes",
-   "pts": 652.0,
+   "pts": 666.0,
    "wins": 12
   },
   {
    "pos": 2,
    "name": "Ferrari",
-   "pts": 510.0,
+   "pts": 517.0,
    "wins": 2
   },
   {
    "pos": 3,
    "name": "Red Bull",
-   "pts": 415.0,
-   "wins": 3
+   "pts": 440.0,
+   "wins": 4
   },
   {
    "pos": 4,
    "name": "McLaren",
-   "pts": 398.0,
+   "pts": 431.0,
    "wins": 3
   },
   {
@@ -238,7 +238,7 @@
   {
    "pos": 6,
    "name": "Alpine F1 Team",
-   "pts": 69.0,
+   "pts": 87.0,
    "wins": 0
   },
   {
@@ -256,7 +256,7 @@
   {
    "pos": 9,
    "name": "Williams",
-   "pts": 12.0,
+   "pts": 16.0,
    "wins": 0
   },
   {
@@ -500,7 +500,9 @@
    "locality": "Las Vegas",
    "country": "USA",
    "date": "2026-11-22",
-   "time": "04:00"
+   "time": "04:00",
+   "winner": "Max Verstappen",
+   "winner_team": "Red Bull"
   },
   {
    "round": 22,
