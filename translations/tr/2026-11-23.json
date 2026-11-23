@@ -55,6 +55,38 @@
     "img.alt": "Francesco Pio Esposito (Arşiv fotoğrafı)"
    }
   },
+  "bankeinbruch-frohnau-prozess-2026-11-23-b2100": {
+   "L": {
+    "body": [
+     "Berlin Bölge Mahkemesi'nde pazartesi günü Frohnau'daki çarpıcı banka soygununa ilişkin dava başladı. Sanık, iddianameye göre faillerden biri olduğu öne sürülen 35 yaşındaki bir erkek. Sanık suçlamalar hakkında sessiz kaldı; avukatı “Şu an için ifade vermiyoruz.” dedi. 9 Aralık'a kadar üç duruşma günü daha planlandı.",
+     "İddianameye göre beş erkek 21 Ekim 2020'de bir tuvalet penceresinden Ludolfingerplatz'daki tasarruf bankası (Sparkasse) şubesine girdi. Dokuz kiralık kasayı açarak yaklaşık 961.000 euro değerinde nakit para, kıymetli maden ve mücevher çaldılar. Yaklaşık dört dakika sonra kimliklerini belli etmeden kaçtılar. Ganimet bugüne kadar ortaya çıkmadı.",
+     "Savcılık Mart 2022'de dört erkek hakkında iddianame hazırlamıştı. Suç ortağı olduğundan şüphelenilen iki kişi Ekim 2022'de Königs Wusterhausen'de girişilen bir banka soygunu denemesinde yakalanmış ve bu nedenle hapis cezasına çarptırılmıştı; haklarındaki Frohnau davası durduruldu. Aynı karar, Bonn'da mahkûm edilen bir başka şüpheli için de verildi. Sanık için masumiyet karinesi geçerlidir."
+    ],
+    "d": "Berlin-Frohnau'daki bir tasarruf bankası (Sparkasse) şubesinin kiralık kasalarına yapılan soygunun üzerinden altı yıl geçti; 35 yaşındaki bir sanık mahkeme önünde. Sanık, duruşmanın açılışında ifade vermedi.",
+    "t": "Frohnau'daki banka soygunu: 961.000 euroluk ganimet kayıp – sanık sessiz kaldı"
+   },
+   "at": "2026-11-23T19:03Z",
+   "h": "2c324ebd88c2",
+   "rev": [
+    "\"Sparkasse\" left untranslated in the teaser and body (should be \"tasarruf bankası\")",
+    "\"Landgericht\" rendered as \"Eyalet Mahkemesi\" (should be \"Bölge Mahkemesi\"); the teaser's \"mahkeme önünde\" is fine",
+    "Weekday \"Pazartesi\" wrongly capitalised mid-sentence (TDK)",
+    "\"Keine Angaben derzeit\" rendered awkwardly",
+    "\"Ganimet ortaya çıkmadı\" is weaker than \"verschwunden\"; kept as is",
+    "The \"mutmaßliche Mittäter\" hedge was altered to the unnatural \"İddiaya göre suç ortağı olan\"; changed to \"şüpheli suç ortağı\"",
+    "Case was \"dropped for them\", but the draft says \"durduruldu\" without a subject; acceptable",
+    "\"Kriminalgericht\" translated as \"Ceza Mahkemesi\"; acceptable"
+   ],
+   "rev_dbg": [
+    8,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin-Moabit'teki Ceza Mahkemesi (Sembolik fotoğraf)",
+    "kl": "Berlin"
+   }
+  },
   "berlin-bombendrohungen-schulen-2026-11-23-b1530": {
    "L": {
     "body": [
@@ -240,6 +272,32 @@
    ],
    "x": {
     "img.alt": "Sofya'daki Garibaldi Meydanı ve Podkrepa sendikasının binası (Sembolik fotoğraf)"
+   }
+  },
+  "bvb-kader-arsenal-inacio-can-2026-11-23-b2100": {
+   "L": {
+    "body": [
+     "Borussia Dortmund, salı günü (21:00) oynanacak Arsenal FC ile Şampiyonlar Ligi maçı için pazartesi günü 24 kişilik kadrosunu açıkladı. Brackel'deki son antrenmanın ardından kafile 16:45'te Dortmund Havalimanı'ndan havalandı.",
+     "Kulübün açıklamasına göre forvet Serhou Guirassy ve orta saha oyuncusu Carney Chukwuemeka, sakatlıklarını atlatarak yeniden kadroda. Samuele Inácio, bir hafta önce yaşadığı menisküs sakatlığı nedeniyle yok. Kaptan Emre Can destek olmak için Londra'ya gidiyor ancak kadroda yer almıyor.",
+     "Sportschau'nun bir analizi şunu gösteriyor: Her iki takım da bu sezon kornerlerde zorlanıyor. Arsenal, on bir lig maçında korner sonrası yalnızca bir kez gol buldu; geçen sezon bu sayı 19 gol olmuştu. BVB ise 50 kornerden bir gol çıkardı; geçen sezon 181 kornerden 14 gol atmıştı."
+    ],
+    "d": "Guirassy ve Chukwuemeka, Arsenal maçının kadrosunda yer alıyor. Inácio menisküs sakatlığı nedeniyle yok; Emre Can takımla seyahat ediyor ancak kadroda değil.",
+    "t": "BVB, Inácio ve kaptan Can olmadan 24 oyuncuyla Londra'ya uçtu"
+   },
+   "at": "2026-11-23T19:03Z",
+   "h": "1223addcd936",
+   "rev": [
+    "Weekdays should be lowercase in Turkish per TDK (Salı, Pazartesi)",
+    "Awkward/redundant wording \"lig maçlarında on bir maçta\"; the German says \"in eleven league games\"",
+    "Arsenal match in German is \"FC Arsenal\" and the draft's \"Arsenal FC ile Şampiyonlar Ligi maçı\" is fine in meaning, no change"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Londra'daki Emirates Stadyumu (Arşiv fotoğrafı)"
    }
   },
   "crowdstrike-zscaler-2026-11-23-b1830": {
@@ -568,6 +626,61 @@
     "img.alt": "Enzo Maresca (Arşiv fotoğrafı)"
    }
   },
+  "merz-nato-ukraine-2008-fehler-2026-11-23-b2100": {
+   "L": {
+    "body": [
+     "Federal Şansölye Friedrich Merz (CDU), 2008'deki Bükreş NATO zirvesinde Amerikan önerisine rağmen Ukrayna'nın ittifaka alınmaması kararını geriye dönüp bakıldığında bir hata olarak değerlendiriyor. Merz, pazartesi günü Berlin'de NATO Genel Sekreteri Mark Rutte ile birlikte düzenlediği basın toplantısında “Ukrayna NATO üyesi olsaydı, bu savaş büyük olasılıkla önlenebilirdi” dedi.",
+     "Açıklamanın nedeni, Fransa Cumhurbaşkanı Emmanuel Macron'un Ukrayna'nın NATO üyeliği meselesini yeniden gündeme getirme girişimine yönelik bir soruydu. Merz, ajans haberlerine göre bu tutumu “mantıksal açıdan tutarlı” olarak nitelendirdi: Merz'e göre bu tutum, Ukrayna'nın savaşın bitiminden sonra ihtiyaç duyacağı güvenlik garantileriyle uyumluydu. Bu garantilerin 5. Madde'ye benzer olması gerektiğini, NATO üyeliğine “çok yakın” olacağını söyledi.",
+     "Eski Şansölye Angela Merkel (CDU), bir podcast'te o dönemki ret tutumunu savunmuş ve o zaman birçok Ukraynalının NATO üyeliğine karşı olduğunu belirtmişti. Rutte ise pazartesi günü daha önce Berlin'de NATO Parlamenter Meclisi'nde yaptığı konuşmada Ukrayna'nın hızlıca alınmasına karşı çıkmış, üyelikler konusunda yalnızca NATO'nun karar verdiğini ve müttefikler arasında oybirliği bulunmadığını söylemişti."
+    ],
+    "d": "Şansölye Merkel'in çizgisinden ayrılıyor: Ukrayna'ya karşı savaş, ülke NATO üyesi olsaydı “büyük olasılıkla önlenebilirdi”. Merz, 5. Madde benzeri garantilerden yana.",
+    "t": "Merz: Ukrayna'nın 2008'de NATO'ya alınmaması hataydı"
+   },
+   "at": "2026-11-23T19:03Z",
+   "h": "3d422aa87e65",
+   "rev": [
+    "Weekday \"Pazartesi\" capitalised mid-sentence; TDK requires lowercase (twice)",
+    "\"niyelendirdi\" is a typo/non-word; should be \"nitelendirdi\"",
+    "Teaser: Merz is not named in the German teaser's first sentence and the Article 5 phrasing is unnatural; \"Artikel-5-Vorbild\" should read \"5. Madde örneğinde\" with clearer wording",
+    "Teaser lacks attribution: the Turkish presents the claim as fact; add \"diyor\" attribution",
+    "Spelling of Zelensky: Turkish convention is \"Volodimir Zelenskiy\"",
+    "Body paragraph 2: \"Merz'e göre bu tutum\" redundant, but harmless; the guarantee sentence needs the subject marked as Merz's statement (already via \"söyledi\")"
+   ],
+   "rev_dbg": [
+    6,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Friedrich Merz, Mark Rutte ve Volodimir Zelenskiy, 2025 NATO zirvesinde (Arşiv fotoğrafı)"
+   }
+  },
+  "mourinho-real-madrid-psv-vinicius-2026-11-23-b2100": {
+   "L": {
+    "body": [
+     "Real Madrid, salı günü (21:00) Santiago Bernabéu'da Şampiyonlar Ligi'nin beşinci haftasında PSV Eindhoven'ı konuk ediyor. Teknik direktör José Mourinho pazartesi günü yaptığı açıklamada, on iki puanın takımına puan tablosunda güvence verdiğini, ancak play-off'ları oynamak istemediklerini söyledi.",
+     "Mourinho, Peter Bosz'un çalıştırdığı rakibi puanlarından daha değerli, iyi bir takım olarak nitelendirdi. Maçın kolay olmayacağını da söyleyen Mourinho'nun sözleri kulübün internet sitesinde yer aldı.",
+     "Mourinho, Vinícius Júnior hakkında dört maçlık cezanın oyuncunun gelişimini ve özgüvenini kesintiye uğrattığını söyledi. Ondan mümkün olan en iyi performansı beklediğini belirten Mourinho, “Maksimum potansiyeline geri dönecek” dedi."
+    ],
+    "d": "On iki puan Real Madrid'e rahatlık veriyor, ancak kulüp doğrudan son 16 turuna çıkmak istiyor, diyor teknik direktör Mourinho. Vinícius cezasının ardından dönüyor.",
+    "t": "Mourinho PSV maçı öncesi: Real Madrid Şampiyonlar Ligi play-off'larını oynamak istemiyor"
+   },
+   "at": "2026-11-23T19:03Z",
+   "h": "a4a5304e078c",
+   "rev": [
+    "Weekdays 'Salı' and 'Pazartesi' are capitalised mid-sentence; TDK requires lowercase.",
+    "The sentence on the club website is garbled: 'sözleri kulübün internet sitesine dayandırıldı' does not mean 'laut Klubwebsite'.",
+    "'Real Madrid will keine Playoffs spielen' – the teaser attribution is acceptable, no change."
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "José Mourinho (Arşiv fotoğrafı)"
+   }
+  },
   "nato-pv-berlin-merz-rutte-polen-2026-11-23-b0800": {
    "L": {
     "body": [
@@ -594,6 +707,27 @@
    ],
    "x": {
     "img.alt": "Mark Rutte, NATO Genel Sekreteri (Arşiv fotoğrafı)"
+   }
+  },
+  "pistorius-ostsee-frachter-2026-11-23-b2100": {
+   "L": {
+    "body": [
+     "Savunma Bakanı Boris Pistorius (SPD), Finlandiya Körfezi'nde bir Rus yük gemisine yönelik saldırının ardından savaşın genişlemesi konusunda uyardı. Pistorius, Pazartesi günü Berlin'de Ukraynalı mevkidaşı Yevhen Khmara ile görüşmesinin ardından “Savaş Baltık Denizi'ne yayılmamalı” dedi. Pistorius, serbest deniz taşımacılığının tehlikeye atılmaması gerektiğini söyledi.",
+     "Pistorius, Ukrayna'nın Rusya'daki, Rus saldırılarını zayıflatmak için kullanıldığı belirtilen askeri hedeflere saldırabileceğini söyledi. Aynı zamanda Ukrayna'nın özel bir sorumluluk taşıdığını da ifade etti. Pistorius, Finlandiya'nın “çok akıllıca ve çok ölçülü” davrandığını söyledi. Khmara'ya Almanya'nın desteğinin süreceği güvencesini verdi. Şansölye Friedrich Merz (CDU) de Baltık bölgesinde gerilimin tırmanmasından kaçınılması çağrısı yaptı ve Finlandiya'ya teşekkür etti: “Bu bölgenin istikrarı ve güvenliği son derece önemlidir.”",
+     "Rus makamlarının verdiği bilgiye göre, Kaliningrad'a giden yük gemisine insansız hava araçlarıyla saldırıldı. Finlandiya Sınır Muhafaza Teşkilatı, doğu Finlandiya Körfezi'nde yanan gemi için kurtarma operasyonu yürütüyor ve olası çevre zararlarına karşı önlemler hazırlıyor. Finlandiya Silahlı Kuvvetleri İletişim Direktörü Aki-Mauri Huhtinen, saldırının büyük olasılıkla Ukrayna kaynaklı olduğunu söyledi."
+    ],
+    "d": "Finlandiya Körfezi'ndeki iddiaya göre Ukrayna'ya ait insansız hava aracı saldırısının ardından Savunma Bakanı Kiev'i sorumluluğa çağırdı, Finlandiya'nın ölçülü tutumunu övdü.",
+    "t": "Pistorius'tan Rus yük gemisine saldırı sonrası uyarı: Savaş Baltık'a sıçramamalı"
+   },
+   "at": "2026-11-23T19:03Z",
+   "h": "9e8dec704e36",
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Savunma Bakanı Boris Pistorius (Arşiv fotoğrafı)"
    }
   },
   "raya-fehlt-arsenal-gegen-bvb-2026-11-23-b1530": {
@@ -797,6 +931,37 @@
     "kl": "ABD"
    }
   },
+  "trump-iowa-detonation-2026-11-23-b2100": {
+   "L": {
+    "body": [
+     "ABD Başkanı Donald Trump, orduya Middletown yakınlarındaki Iowa Army Ammunition Plant'taki 68 varil kurşun azidi şimdilik patlatmasını yasakladı. Trump, pazartesi günü Truth Social platformunda yaptığı paylaşımda, orduya 8. Bölge Federal Temyiz Mahkemesi onay verene kadar beklemesi talimatını verdiğini yazdı. Ayrıca kararı, seçilmiş Demokrat vali Rob Sand'in onayına da bağladı.",
+     "Trump'a göre Sand veya mahkeme onay vermezse patlatma gerçekleşmeyecek. Bu durumda ise gelecekteki valiyi sonuçlardan sorumlu tutacağını söyledi. Trump, kontrollü bir patlatmanın doğru ve daha güvenli yol olduğunu belirtti. Malzemenin yanlış depolanmasından ise Barack Obama yönetimini sorumlu tuttu.",
+     "Ordu, halkın sağlık ve çevre etkilerine ilişkin endişeleri üzerine planlanan tarihi üç kez erteledi, son olarak çarşamba gününe aldı. Çevre grupları, ABD Çevre Koruma Ajansı EPA'nın acil durum iznine karşı dava açtı; temyiz mahkemesi patlatmayı geçici olarak durdurmuştu. Ordu, patlamaya karşı koruyucu kapıları kaldırıldığı için sığınağın sıcaklık dalgalanmalarına karşı daha hassas olduğunu belirterek uyarıyor. Ordu, Trump'ın paylaşımı hakkında başlangıçta yorum yapmadı."
+    ],
+    "d": "Bir ordu tesisinde yaklaşık 10.000 pound bozunan patlayıcı: Trump, planlanan patlatmaya ancak bir temyiz mahkemesi ve Iowa'nın gelecekteki valisi onay verirse izin verecek.",
+    "t": "Iowa'da kurşun azid: Trump, ordunun patlatma planını şimdilik durdurdu"
+   },
+   "at": "2026-11-23T19:03Z",
+   "h": "32520a08c803",
+   "rev": [
+    "Weekdays must be lowercase in Turkish per TDK (Pazartesi, Çarşamba).",
+    "Headline: 'imha patlatması' is unnatural and adds 'imha'; the German says 'Sprengung durch die Armee'.",
+    "The first paragraph's first sentence is ungrammatical: 'orduya ... varil kurşun azidi ... patlatmayı yasakladı' should be 'patlatmasını yasakladı'.",
+    "'çevre kurumu EPA' should be 'ABD Çevre Koruma Ajansı EPA' (Umweltbehörde EPA).",
+    "'Ordu ... tarihi üç kez erteledi' is garbled: 'tarihi' means 'the date', but 'Termin' here is the scheduled date, so the sentence should read 'planlanan tarihi'.",
+    "'Ordu ... uyarısında bulunuyor' loses the Konjunktiv attribution for the army's claim; it should be rephrased with 'uyarıyor ... olduğunu'.",
+    "'sıcaklık dalgalanmalarına karşı daha hassas' is acceptable; no change needed."
+   ],
+   "rev_dbg": [
+    7,
+    7,
+    0
+   ],
+   "x": {
+    "img.alt": "TERRA WORLD NEWS başlık görseli",
+    "kl": "ABD"
+   }
+  },
   "trump-iran-angriffe-neujahr-2026-11-23-b0800": {
    "L": {
     "body": [
@@ -849,6 +1014,62 @@
    ],
    "x": {
     "img.alt": "Jensen Huang (Arşiv fotoğrafı)"
+   }
+  },
+  "varna-kotsev-oik-mandat-2026-11-23-b2100": {
+   "L": {
+    "body": [
+     "Varna Belediye Seçim Komisyonu, pazartesi akşamı Belediye Başkanı Blagomir Kozev'in görevine son verilmesine karar verdi. Bunu, BTA haber ajansı ile devlet kanalı BNT'nin aktardığına göre, komisyon başkanı Velin Şekov duyurdu. BGNES ajansına göre komisyonun 26 üyesinden 20'si lehte oy kullandı; Kozev'in seçilme belgesinin geçersiz sayıldığı belirtildi.",
+     "Kararın dayanağı, komisyona sunulan ve belediye başkanının geçen yıl yaklaşık beş ay tutuklu kaldığı dönemde kullandığı izinlere ilişkin ihbarlar. İhbarda bulunanlar, görevden uzak kalmasının hukuka uygun olup olmadığının incelenmesini talep ediyor. 2023'te “Değişime Devam Ediyoruz – Demokratik Bulgaristan” ittifakı tarafından aday gösterilen Kozev, bir hafta önce böyle bir durumda dava açacağını duyurmuştu.",
+     "Karara karşı yedi gün içinde Varna İdare Mahkemesi'nde dava açılabilir. Görev süresinin bir yıldan az bir bölümü kaldığı için ara seçim yapılmayacak: Karar kesinleşirse görevi sona kadar kimin yürüteceğine belediye meclisi karar verecek. Mecliste çoğunluğu GERB, milliyetçi “Yeniden Doğuş” partisi ve iki yerel grup oluşturuyor."
+    ],
+    "d": "Komisyon, Kozev'in 2025'te tutuklu bulunduğu dönemde kullandığı izinlere ilişkin ihbarlara dayandı. Kozev, Varna İdare Mahkemesi'nde dava açabilir.",
+    "t": "Varna: Seçim komisyonu Belediye Başkanı Kozev'in görevine son verdi"
+   },
+   "at": "2026-11-23T19:03Z",
+   "h": "28f924a9c35a",
+   "rev": [
+    "Weekday \"Pazartesi\" must be lowercase per TDK (\"pazartesi\")",
+    "\"Seçim belgesi\" is acceptable, but \"Wahlbescheinigung\" is better rendered as \"seçilme belgesi\" (certificate of election)",
+    "\"Velin Shekov\" is a non-Turkish spelling of the Bulgarian name; the established Turkish form is \"Velin Şekov\""
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Varna Belediye Binası (Arşiv fotoğrafı)"
+   }
+  },
+  "virginia-oregon-verklagen-spacex-grok-2026-11-23-b2100": {
+   "L": {
+    "body": [
+     "ABD'nin Virginia ve Oregon eyaletleri pazartesi günü SpaceX'e ve X platformu ile Grok sohbet botunu geliştiren eski xAI olan SpaceX Super Intelligence'ın da aralarında bulunduğu bağlı şirketlerine karşı ayrı ayrı davalar açtı. Davaların dayanağı eyaletlerin tüketici koruma yasaları. Associated Press'e göre Virginia'nın davası Richmond'daki bir eyalet mahkemesinde açıldı.",
+     "Virginia Başsavcısı Jay Jones, şirketleri zararlı cinselleştirilmiş görsellere karşı koruma önlemleri aldıkları ve bunları uyguladıkları yönünde yanlış beyanda bulunmakla suçluyor. Ayrıca X'in Ocak ayında, gerçek kişilerin fotoğraflarının açık kıyafetlerle düzenlenmesini engellemeyi amaçlayan değişikliklere ilişkin yanıltıcı bilgiler verdiği belirtiliyor. Virginia, kasıtlı her ihlal için 2.500 dolar ödenmesini, başka ihlallerin yasaklanmasını ve “haksız yollarla elde edilen kazançların” iadesini talep ediyor. Başsavcı Dan Rayfield yönetimindeki Oregon da benzer taleplerde bulunuyor.",
+     "Grok, Aralık 2025'ten bu yana tüm kullanıcılara görsel oluşturma ve düzenleme imkânı sunuyor. Ocak ayında gerçekçi sahte seks görsellerine yönelik dünya çapında eleştiriler geldi; araştırmacılara göre bazıları çocukları gösteriyor gibiydi. Malezya ve Endonezya, Grok'a erişimi geçici olarak engelledi. Şirketler AP'nin talebine başlangıçta yanıt vermedi; X'in güvenlik hesabı pazartesi günü yaptığı açıklamada, Grok'un koruma mekanizmalarını aşmaya çalışan kullanıcılara karşı önlem alındığını belirtti."
+    ],
+    "d": "Başsavcılar, Musk'ın şirketlerini cinselleştirilmiş deepfake'lere karşı koruma mekanizmalarını yalnızca iddia etmekle suçluyor. Virginia, kasıtlı her ihlal için 2.500 dolar talep ediyor.",
+    "t": "Cinselleştirilmiş yapay zekâ görselleri: Virginia ve Oregon, Grok nedeniyle SpaceX'e dava açtı"
+   },
+   "at": "2026-11-23T19:03Z",
+   "flag": [
+    "Titel zu lang (94 Zeichen)"
+   ],
+   "h": "6271dcc3f556",
+   "rev": [
+    "Weekday \"Pazartesi\" must be lowercase per TDK (\"pazartesi\") – occurs in paragraphs 1 and 3",
+    "Fine wording: \"2.500 dolar, başka ihlallerin yasaklanmasını\" is ungrammatical and loses the \"per violation\" structure; the demands must be rendered correctly",
+    "Headline \"t\" is ≤ 90 characters, no issue",
+    "\"pazartesi günü yaptığı açıklamada\" – fine after lowercase"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Grok yapay zekâ sohbet botunun logosu (Sembolik fotoğraf)"
    }
   }
  }
