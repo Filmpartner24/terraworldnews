@@ -1,6 +1,31 @@
 {
  "date": "2026-11-23",
  "items": {
+  "agon-verteidigungs-ki-70-millionen-2026-11-23-b1100": {
+   "L": {
+    "body": [
+     "Yapay zekâ destekli savunma sistemlerini simüle edilmiş çatışmalarda eğiten ve test eden İngiliz start-up Agon, Seri A turunda 70 milyon dolar topladı. Şirketin kendi verdiği bilgilere göre değeri bu turda 450 milyon dolar olarak belirlendi; bu yıl sağlanan 30 milyon dolarlık başlangıç finansmanıyla birlikte toplam tutar 100 milyon dolara ulaşıyor. Turun lideri risk sermayesi yatırımcısı Northzone; Sequoia'nın eski başkanı Roelof Botha da yeni yatırımcılar arasında yer aldı. İngiltere devletinin Sovereign AI Fund'ı ile National Security Strategic Investment Fund'ı da ilk kez birlikte yatırım yapıyor.",
+     "Agon, kendi anlatımına göre otonom sistemlerin binlerce senaryoya karşı mücadele ettiği bir “sentetik muharebe arenası” kuruyor; bu senaryolar arasında kitlesel dron saldırıları, bozulan navigasyon ve kesintiye uğrayan iletişim yer alıyor. Sanal rakiplerin, güncel çatışmalardan elde edilen bulgulara göre uyum sağlaması öngörülüyor. Şirket bunun yanında Avrupa'nın savunması için kendi yapay zekâ temel modellerini geliştirmek istiyor. Agon'u, daha önce Anduril ve Applied Intuition'da çalışan eski İngiliz ordu subayı Tristam Constant ile Junaid Hussain kurdu; yönetim kurulu başkanı Unity'nin kurucusu David Helgason.",
+     "Constant, “Agentik savaş çağına girerken Avrupa bir yapay zekâ silahlanma yarışının içinde” dedi. Birleşik Krallık Yapay Zekâ Bakanı Kanishka Narayan ise ülkenin savunma için kendi yapay zekâ yeteneklerine ihtiyaç duyduğunu söyledi. Şirketin merkezi Londra'da, Berlin'de de bir ofisi bulunuyor; elde edilen kaynakla özellikle geliştirme ve araştırma ekiplerinin büyütülmesi planlanıyor."
+    ],
+    "d": "Berlin'de ofisi bulunan savunma yapay zekâsı start-up'ı Agon 70 milyon dolar topladı ve şirket 450 milyon dolar değerleniyor. İki İngiliz devlet fonu ilk kez birlikte yatırım yapıyor.",
+    "t": "Yapay zekâ için sanal savaş alanı: Londralı start-up Agon 70 milyon dolar topladı"
+   },
+   "at": "2026-11-23T09:02Z",
+   "h": "059e0c877e63",
+   "rev": [
+    "Teaser: 'değerlendi' is ungrammatical/unclear; should be 'değerleme' phrasing, and the valuation is 'according to own statements' only in body (kept)",
+    "Quote rendering: Constant's quote is split oddly but acceptable; 'Agentik' fine"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Tarlada bir dron (Sembolik fotoğraf)"
+   }
+  },
   "atalanta-inter-4-4-esposito-dreierpack-2026-11-23-b0800": {
    "L": {
     "body": [
@@ -28,6 +53,36 @@
    ],
    "x": {
     "img.alt": "Francesco Pio Esposito (Arşiv fotoğrafı)"
+   }
+  },
+  "berlin-lichtenberg-klinikbrand-brandstiftung-2026-11-23-b1100": {
+   "L": {
+    "body": [
+     "Berlin-Lichtenberg'deki Evangelisches Krankenhaus Königin Elisabeth Herzberge'de pazar akşamı çıkan yangında 15 kişi yaralandı. İtfaiyenin açıklamasına göre yangın, bir bina bölümünün birinci katındaki bir hasta odasında başladı. İtfaiyeye yangın alarm sistemi üzerinden haber verildi ve ekipler alevleri kısa sürede kontrol altına aldı. Duman başka bölümlere de yayıldığı için bina boşaltılmak zorunda kaldı. Olay yerinde 83 görevli çalıştı.",
+     "İtfaiyenin açıklamasına göre bir kişi yaşamsal tehlike taşıyan şekilde, bir kişi de ağır yaralandı; ikisi de acil serviste görevli doktor eşliğinde başka hastanelere sevk edildi. 13 kişi hafif yaralandı ve olay yerinde tedavi edildi. Bir hemşire (erkek bakıcı), duman zehirlenmesi nedeniyle ayakta tedavi edildikten sonra taburcu oldu.",
+     "Polis olayı “ağır nitelikli kundaklama vakası” olarak değerlendiriyor, yangın masası soruşturmayı yürütüyor. Polisin şimdiye kadarki bulgularına göre bir hasta yatağını yakmış olabilir. Şüpheli de duman zehirlenmesi geçirdi ve yatarak tedavi ediliyor. Polis, şüphelinin kimliği veya olası bir saik hakkında şimdiye kadar bilgi vermedi."
+    ],
+    "d": "Königin Elisabeth Herzberge Hastanesi'ndeki yangının ardından polis, ağır nitelikli kundaklama suçundan soruşturma yürütüyor. Bir hastanın kendi yatağını yaktığı iddia ediliyor.",
+    "t": "Lichtenberg: Hastanın hastanede yatağını yaktığı iddia ediliyor – 15 yaralı"
+   },
+   "at": "2026-11-23T09:02Z",
+   "h": "e73b88351708",
+   "rev": [
+    "\"Pfleger\" is a male nurse, rendered \"hemşire\" – acceptable, but \"Krankenhaus\" is left untranslated in the proper name (a proper name, so it stays)",
+    "\"Pfleger konnte ... wieder gehen\" → \"taburcu oldu\" OK",
+    "\"lebensgefährlich verletzt\" rendered as \"hayati tehlike altında\" – lost the \"verletzt\" meaning; fixed to \"hayati tehlikeyle yaralandı\" style",
+    "\"Einsatzkräfte\" fine",
+    "\"soll ... haben\" rendered with \"iddia ediliyor\" in the body; the police source is missing – attribution added",
+    "Headline: \"iddia edilen hasta\" is awkward; reworded"
+   ],
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin-Lichtenberg'deki Evangelisches Krankenhaus Königin Elisabeth Herzberge (Arşiv fotoğrafı)",
+    "kl": "Berlin"
    }
   },
   "berlin-metall-warnstreik-mercedes-bmw-2026-11-23-b0800": {
@@ -59,6 +114,27 @@
     "kl": "Berlin"
    }
   },
+  "brentford-everton-monday-night-thiago-gesperrt-2026-11-23-b1100": {
+   "L": {
+    "body": [
+     "Premier Lig haftayı pazartesi akşamı Brentford-Everton maçıyla kapatıyor. Gtech Community Stadium'da maç İngiltere saatiyle 20:00'de (Orta Avrupa Saati ile 21:00) başlayacak. Everton üst üste üç resmi maç kazanmış olarak yola çıktı, Brentford ise son maçında Brighton'da 0-2 yenilmişti.",
+     "Ev sahibinde, Brighton maçında gördüğü kırmızı kart nedeniyle cezalı olan forvet Igor Thiago forma giyemeyecek. Kulübün açıklamasına göre Nathan Collins (diz) ve Aaron Hickey (uyluk) da sakatlıkları nedeniyle oynayamayacak; Rico Henry ve Kaye Furo da eksik olmayı sürdürüyor. Teknik direktör Keith Andrews, BBC'ye yaptığı açıklamada Thiago'nun “görmesi gereken korumayı görmediğini” söyleyerek eleştirdi; kulübe göre hücumda Callum Wilson görev alabilir.",
+     "Everton Teknik Direktörü David Moyes, “herkesin formda ve hazır” olmasını umduğunu belirtti ve oyuncuları fazla yormamak için kadroyu esnek kullanmak istiyor. Jack Grealish, bir hastalığın ve kulüp kurallarını ihlal ettiği için kadro dışı bırakılmasının ardından yeniden forma giyebilecek durumda. Andrews, rakip teknik direktör Moyes için “İngiliz futbolunun ikonik bir teknik direktörü” ifadesini kullandı."
+    ],
+    "d": "Haftanın son maçında Brentford, Almanya saatiyle 21:00'de Everton'ı ağırlıyor. Ev sahibinde golcü Thiago ve iki defans oyuncusu yok, Everton'da ise Grealish geri döndü.",
+    "t": "Premier Lig'de pazartesi akşamı: Brentford, Thiago'suz formda Everton'ı konuk ediyor"
+   },
+   "at": "2026-11-23T09:02Z",
+   "h": "1fad7911708f",
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Brentford'daki Gtech Community Stadium (Arşiv fotoğrafı)"
+   }
+  },
   "bulgarien-staatsdienst-warnstreiks-350-euro-2026-11-23-b0800": {
    "L": {
     "body": [
@@ -86,6 +162,61 @@
    ],
    "x": {
     "img.alt": "Sofya'daki Garibaldi Meydanı ve Podkrepa sendikasının binası (Sembolik fotoğraf)"
+   }
+  },
+  "einkaufsmanagerindex-deutschland-november-2026-11-23-b1100": {
+   "L": {
+    "body": [
+     "Alman ekonomisi kasım ayında sürpriz biçimde güçlü ivme kazandı. S&P Global'in tüm özel sektörü kapsayan satın alma yöneticileri endeksi, pazartesi günü açıklanan ilk verilere göre 53,4'ten 55,0 puana yükseldi ve böylece mart 2022'den beri en yüksek seviyeye ulaştı. Ekonomistler 53,2 puana gerileme bekliyordu. 50'nin üzerindeki değerler büyümeye işaret ediyor; bu, üst üste beşinci büyüme ayı.",
+     "İmalat sanayi endeksi 54,2'den 55,0 puana çıkarak 56 ayın zirvesine ulaştı; sanayi üretimi son 63 ayın en güçlü artışını kaydetti. Hizmet sektöründe endeks 52,5'ten 54,0 puana yükseldi; bu, son 13 ayın en yüksek değeri. Yeni siparişler dört buçuk yıldan uzun süredir görülmeyen ölçüde arttı, sanayide ise 2023'ün ortasından bu yana ilk kez yeniden istihdam artırıldı. Ancak toplamda istihdam üst üste ikinci ay hafif geriledi.",
+     "S&P Global ekonomisti Phil Smith, “Dördüncü çeyreğin başındaki büyüme yavaşlamasının kısa ömürlü olduğu ortaya çıktı” dedi. Maliyetlerdeki artış üç ayın en düşük seviyesine gerilerken, iş beklentileri dokuz ayın en yüksek seviyesine ulaştı. Şirketler arasında yapılan anket 12-19 kasım tarihleri arasında gerçekleştirildi."
+    ],
+    "d": "S&P Global'e göre özel sektör bileşik endeksi 55,0 puana yükseldi; bu, mart 2022'den beri en yüksek seviye. Sanayi ve hizmet sektörü beklentilerin üzerinde arttı.",
+    "t": "Satın alma yöneticileri: Alman ekonomisi kasımda 2022'den beri en güçlü büyümeyi kaydetti"
+   },
+   "at": "2026-11-23T09:02Z",
+   "h": "77f439aaaa07",
+   "rev": [
+    "Headline: 'Einkaufsmanager' rendered as 'Satın alma yöneticileri' is awkward; the standard Turkish term is 'Satın alma yöneticileri endeksi' (PMI), but the headline is acceptable. 'Mart 2022' in the t",
+    "Month names in running text: 'Mart 2022' should be 'mart 2022' per TDK (the draft uses lowercase 'kasım' elsewhere, so this is inconsistent).",
+    "Dates: '12-19 Kasım' should be '12-19 kasım' per TDK.",
+    "'Dienstleister ... legen stärker zu als erwartet' is rendered with 'beklentilerin üzerinde'; fine."
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Frankfurt am Main silüeti (Sembolik fotoğraf)"
+   }
+  },
+  "freie-waehler-aiwanger-nachfolge-2026-11-23-b1100": {
+   "L": {
+    "body": [
+     "Hubert Aiwanger'in ölümünden yaklaşık üç hafta sonra Özgür Seçmenler (Freie Wähler), uzun yıllardır başkanlığını yapan isim olmadan nasıl devam edeceklerini pazartesi günü netleştirmek istiyor. Eyalet meclisi grubu ve eyalet yönetim kurulu, saat 12:30'da Münih'te ortak bir basın toplantısı düzenleyeceğini duyurdu; toplantıya grup başkanı Florian Streibl ile eyalet başkan yardımcısı Armin Kroder'in katılması bekleniyor. Bavyera ekonomi bakanlığı ile başbakan yardımcılığı görevlerinin doldurulması gerekiyor. Ayrıca partinin eyalet ve federal genel başkanlığı için de bir kişi önerisi bekleniyor.",
+     "Medya haberlerine göre ekonomi bakanlığı için olası adaylar arasında bakanlığı şu anda vekâleten yöneten devlet sekreteri Tobias Gotthardt ile Çevre Bakanı Thorsten Glauber gösteriliyor. Başbakan yardımcılığı için Eğitim Bakanı Anna Stolz'un, parti genel başkanlığı için ise Dijital İşler Bakanı Fabian Mehring'in adı geçiyor; Mehring'in Regensburg Bölge Başkanı (Landrätin) Tanja Schweiger ile birlikte eş başkanlık yapması da mümkün görülüyor. Bu isimlerin hiçbiri şimdiye kadar doğrulanmadı. Yeni bakanı resmen Başbakan Markus Söder (CSU) atıyor; parti genel başkanlığına ise ancak parti kongreleri karar veriyor.",
+     "Aiwanger, 4 Kasım'da 55 yaşında Berlin'de bir otel odasında cansız halde bulunmuştu. Savcılığın açıklamasına göre otopside üçüncü kişilerin kusuruna işaret eden bir bulguya rastlanmadı. cumartesi günü memleketi Aşağı Bavyera'daki Inkofen'de toprağa verildi; organizatörlerin bildirdiğine göre yaklaşık 2.000 kişi katıldı."
+    ],
+    "d": "Özgür Seçmenler'in meclis grubu ve eyalet yönetim kurulu, Bavyera'nın ekonomi bakanı ve başbakan yardımcısı olacak ismi 12:30'da Münih'te tanıtacak. Parti genel başkanlığı da belirsiz.",
+    "t": "Aiwanger'in ölümünün ardından: Özgür Seçmenler halefi bugün öğlen açıklamak istiyor"
+   },
+   "at": "2026-11-23T09:02Z",
+   "h": "a87fd865c508",
+   "rev": [
+    "Landrätin left untranslated and in German form",
+    "Weekday \"Pazartesi\" should be lowercase mid-sentence? (TDK: days are lowercase unless starting a sentence)",
+    "Subject mismatch: \"düzenleyeceğini duyurdu\" with \"istiyor\" fine; \"Eğitim Bakanı\" for Kultusministerin acceptable",
+    "Headline: \"Özgür Seçmenler\" fine; \"Parti genel başkanlığı da belirsiz\" ok",
+    "Cumartesi should be lowercase"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Münih'te Bavyera Eyalet Meclisi'nin merkezi Maximilianeum (Arşiv fotoğrafı)"
    }
   },
   "hsv-nach-derby-pleite-werder-2026-11-23-b0800": {
@@ -140,6 +271,35 @@
     "img.alt": "Seul'deki Kore Borsası (Korea Exchange) (Sembolik fotoğraf)"
    }
   },
+  "mainz-fischer-fuenfte-niederlage-augsburg-2026-11-23-b1100": {
+   "L": {
+    "body": [
+     "FSV Mainz 05'te düşme mücadelesi kapıya dayandı. Pazar günü FC Augsburg deplasmanında alınan 1-3'lük yenilgi, üst üste beşinci resmi maç mağlubiyeti oldu; düşme hattıyla arasındaki fark üç puana indi. Michael Gregoritsch iki gol attı, Juma Bah de bir gol kaydetti; iki gol duran toplardan geldi. Ransford-Yeboah Königsdörffer yalnızca tesellî golünü atabildi, Phillip Tietz bundan önce net bir fırsatı kaçırdı.",
+     "Teknik direktör Urs Fischer hayal kırıklığı içinde bir değerlendirme yaptı: İsviçreli teknik adam, dpa'nın aktardığına göre, “Sonunda hak ettiğini alıyorsun: bir yenilgi daha” dedi. “Umarım şimdi dibe vurduk.” SWR'ye ise takımının “yeterince uyanık ve dinç olmadığını” kabul etti ve kendini eleştirerek, takımın belki de “daha büyük işler için seçilmiş” olduğunu hissedip hissetmediğini sordu.",
+     "Spor direktörü Niko Bungert bir uyarıdan söz etti: “Şu an öyle bir noktadayız ki artık iki farklı görüş olamaz.” Kulüp, teknik direktörün geleceği hakkında bir açıklama yapmadı. Mainz cumartesi saat 15:30'da, tam da Fischer'in eski kulübü Union Berlin'i konuk ediyor; ligde sondan ikinci sırada bulunan Union Berlin de kriz içinde."
+    ],
+    "d": "Augsburg'a 1-3 yenilen Mainz 05'in düşme hattına yalnızca üç puanlık farkı kaldı. Spor direktörü Bungert bunu bir uyarı olarak niteledi; cumartesi günü rakip Union Berlin geliyor.",
+    "t": "Mainz üst üste beşinci yenilgisini aldı: Fischer “dibe vurduklarını” umuyor"
+   },
+   "at": "2026-11-23T09:02Z",
+   "h": "70c1eac9dfd1",
+   "rev": [
+    "Score order: Mainz lost 1:3 in Augsburg, so the score should be 1-3, not 3-1 (teaser and body)",
+    "Teaser: 'cumartesi günü rakip Union Berlin' is ungrammatical and lacks the verb 'kommt'",
+    "Headline: used wrong quote marks and the headline was vague; Fischer hopes they've 'hit rock bottom' - 'auf dem Boden angelangt' is rendered as 'dibe vurmak' which is acceptable; quotes changed to Tur",
+    "'Juma Bah de golü attı' is awkward; 'Juma Bah de bir gol attı'",
+    "Quote opening is broken: 'dpa'ya göre “…” dedi' should place attribution cleanly",
+    "Bungert's 'Weckruf' rendered as 'uyarı' is acceptable; 'Tabellenvorletzter' = second to last, correct; 'Fischer'in eski kulübü Union Berlin'i konuk ediyor' fine"
+   ],
+   "rev_dbg": [
+    6,
+    6,
+    0
+   ],
+   "x": {
+    "img.alt": "Teknik direktör Urs Fischer (Arşiv fotoğrafı, 2022)"
+   }
+  },
   "nato-pv-berlin-merz-rutte-polen-2026-11-23-b0800": {
    "L": {
     "body": [
@@ -168,6 +328,33 @@
     "img.alt": "Mark Rutte, NATO Genel Sekreteri (Arşiv fotoğrafı)"
    }
   },
+  "selenskyj-libyen-korvette-merkury-bengasi-2026-11-23-b1100": {
+   "L": {
+    "body": [
+     "Ukrayna Devlet Başkanı Volodymyr Zelenskyy pazartesi günü yaptığı açıklamada, Ukrayna güçlerinin Rus “Merkury” korvetini Libya kıyılarında batırdığını söyledi. Zelenskyy'nin verdiği bilgiye göre bunun için Ukrayna'da üretilen yedi deniz dronu kullanıldı; ayrıca Ka-27 tipi bir savaş helikopteri de imha edilmiş. İkinci hedef olarak, Zelenskyy'ye göre Moskova'nın silah taşımacılığında kullandığı Rus “Angara” yük gemisi vurulmuş. Zelenskyy, “örnek bir Ukrayna operasyonu”ndan söz etti ve Telegram'da şunu duyurdu: “Belirlenen sularda operasyonlarımızı sürdürüyoruz.”",
+     "Haber ajanslarına göre saldırı, pazar gününe bağlanan gece Libya'nın doğusundaki Bingazi Limanı'nda gerçekleşti. İki Libyalı yetkili AP'ye, gemide ağır hasar olduğunu söyledi; Al Jazeera'nın aktardığına göre bir uydu görüntüsünde alabora olmuş bir Rus gemisi görülüyor. Libya'nın doğusundaki yetkililer, geminin yakıt ikmali ve tedarik için yanaştığını, mürettebatın kurtarıldığını açıkladı. Zelenskyy'nin açıklamaları başlangıçta bağımsız kaynaklarca doğrulanamadı.",
+     "Moskova'dan başlangıçta bir tepki gelmedi. Libya'nın doğusundaki hükümet, ülkenin Rusya-Ukrayna savaşında taraf olmadığını vurguladı. BM Libya Misyonu derhal, bağımsız ve şeffaf bir soruşturma yapılması çağrısında bulundu ve Libya'nın yabancı çatışmaların sahası olmaması gerektiği uyarısını yaptı."
+    ],
+    "d": "Ukrayna, Libya'nın Bingazi kentindeki saldırıyı üstlendi: Zelenskyy'ye göre “Merkury” korveti battı, bir yük gemisi vuruldu. BM bağımsız bir soruşturma çağrısı yapıyor.",
+    "t": "Zelenskyy: Ukrayna, Libya açıklarında Rus korvetini deniz dronlarıyla batırdı"
+   },
+   "at": "2026-11-23T09:02Z",
+   "h": "ff39e058ff10",
+   "rev": [
+    "Teaser: 'çağrısı yapıyor' is fine; weekdays must be lower case per TDK ('Pazartesi', 'Pazar' mid-sentence)",
+    "Mistranslation: 'in der Nacht zu Sonntag' should be 'Pazar gününe bağlanan gece' – OK, but the weekday capitalisation is wrong",
+    "'Libya'nın doğusundaki yönetim' omits that it is the government; changed to 'hükümet'",
+    "'Merkury' quote marks and name fine; 'sahnesi' unnatural, replaced with 'sahası'"
+   ],
+   "rev_dbg": [
+    4,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Bingazi Limanı, Libya (Arşiv fotoğrafı)"
+   }
+  },
   "steinmeier-afrika-reise-elfenbeinkueste-2026-11-23-b0800": {
    "L": {
     "body": [
@@ -186,6 +373,27 @@
    ],
    "x": {
     "img.alt": "Federal Cumhurbaşkanı Frank-Walter Steinmeier (Arşiv fotoğrafı)"
+   }
+  },
+  "stoyanov-whitaker-schwarzes-meer-drohnen-f16-2026-11-23-b1100": {
+   "L": {
+    "body": [
+     "Bulgaristan Savunma Bakanı Dimitar Stoyanov, pazartesi günü kendi daveti üzerine Bulgaristan'a gelen ABD'nin NATO Daimi Temsilcisi Matthew Whitaker'ı kabul etti. Görüşmenin odağında NATO'nun doğu kanadının savunması ve Karadeniz'deki durum vardı. Stoyanov, Sofya'nın yardım talebine hızlı yanıt veren müttefiklere, aralarında bir P-8 Poseidon deniz keşif uçağının gönderilmesi de olmak üzere, teşekkür etti. Bulgaristan'ın aynı zamanda “hava keşif yeteneklerinin hızlandırılmış tedarikine” ihtiyacı olduğunu söyledi; bununla deniz dronlarını tespit etmeye ve takip etmeye yarayan sistemler kastediliyor.",
+     "Haberlere göre ABD ile yürütülen silahlanma projeleri de ele alındı: F-16 savaş uçakları, Stryker tekerlekli zırhlı muharebe araçları ve NSM deniz hedef füzeleri. Stoyanov, teslimatların daha hızlı gelmesi gerektiğini belirtti. 2027'de ABD ile iki anlaşma daha beklediğini, bunların F-16 Block 70'in silahlandırılmasına ve bakımı için yedek parçalara ilişkin olacağını söyledi.",
+     "Haberlere göre Whitaker, Karadeniz'i müttefiklere yönelik artan tehditlerin açık bir örneği olarak nitelendirdi ve Ukrayna'daki savaşın giderek daha fazla denize sıçramasından endişe duyduğunu dile getirdi. Bulgaristan'ın savunma harcamalarını 2035'e kadar ekonomik gücün yüzde beşine çıkarma taahhüdünü memnuniyetle karşıladı. ABD'nin NATO'dan ayrılmadığını, ancak Avrupalıların ortak güvenlik için daha fazla sorumluluk üstlenmesini beklediğini söyledi."
+    ],
+    "d": "Savunma Bakanı Stoyanov, ABD'nin NATO Büyükelçisi Whitaker ile Karadeniz'in güvenliğini görüştü. Deniz dronlarına karşı hızlı keşif ile F-16 ve Stryker'ların daha çabuk teslimini istiyor.",
+    "t": "Karadeniz'de deniz dronları: Bulgaristan ABD'den silah teslimatlarının hızlanmasını istedi"
+   },
+   "at": "2026-11-23T09:02Z",
+   "h": "bb19f2ae5756",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "ABD'nin NATO Büyükelçisi Matthew Whitaker (Arşiv fotoğrafı)"
    }
   },
   "trump-iran-angriffe-neujahr-2026-11-23-b0800": {
