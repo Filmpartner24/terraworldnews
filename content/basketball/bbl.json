@@ -8,7 +8,7 @@
   "tr": "easyCredit BBL (Almanya)"
  },
  "season": "2026/27",
- "asof": "2026-11-22",
+ "asof": "2026-11-23",
  "tables": [
   {
    "name": {},
@@ -16,10 +16,10 @@
    "rows": [
     {
      "team": "FC Bayern München Basketball",
-     "w": 8,
+     "w": 9,
      "l": 1,
-     "pf": 859,
-     "pa": 622
+     "pf": 949,
+     "pa": 701
     },
     {
      "team": "VET-CONCEPT Gladiators Trier",
@@ -37,17 +37,24 @@
     },
     {
      "team": "Telekom Baskets Bonn",
-     "w": 6,
+     "w": 7,
      "l": 3,
-     "pf": 789,
-     "pa": 731
+     "pf": 878,
+     "pa": 803
+    },
+    {
+     "team": "MHP RIESEN Ludwigsburg",
+     "w": 6,
+     "l": 4,
+     "pf": 871,
+     "pa": 854
     },
     {
      "team": "SYNTAINICS MBC",
      "w": 6,
-     "l": 3,
-     "pf": 754,
-     "pa": 732
+     "l": 4,
+     "pf": 841,
+     "pa": 828
     },
     {
      "team": "SKYLINERS",
@@ -57,25 +64,18 @@
      "pa": 673
     },
     {
-     "team": "MHP RIESEN Ludwigsburg",
-     "w": 5,
-     "l": 4,
-     "pf": 775,
-     "pa": 767
-    },
-    {
-     "team": "ALBA BERLIN",
-     "w": 5,
-     "l": 4,
-     "pf": 785,
-     "pa": 779
-    },
-    {
      "team": "BMA365 Bamberg Baskets",
      "w": 5,
      "l": 5,
      "pf": 848,
      "pa": 846
+    },
+    {
+     "team": "ALBA BERLIN",
+     "w": 5,
+     "l": 5,
+     "pf": 864,
+     "pa": 869
     },
     {
      "team": "Fitness First Würzburg Baskets",
@@ -85,18 +85,18 @@
      "pa": 763
     },
     {
-     "team": "ratiopharm ulm",
-     "w": 4,
-     "l": 5,
-     "pf": 757,
-     "pa": 769
-    },
-    {
      "team": "RASTA Vechta",
      "w": 4,
      "l": 6,
      "pf": 862,
      "pa": 903
+    },
+    {
+     "team": "ratiopharm ulm",
+     "w": 4,
+     "l": 6,
+     "pf": 829,
+     "pa": 858
     },
     {
      "team": "EWE Baskets Oldenburg",
@@ -106,18 +106,18 @@
      "pa": 837
     },
     {
+     "team": "Veolia Towers Hamburg",
+     "w": 4,
+     "l": 6,
+     "pf": 847,
+     "pa": 911
+    },
+    {
      "team": "NINERS Chemnitz",
      "w": 4,
      "l": 6,
      "pf": 901,
      "pa": 879
-    },
-    {
-     "team": "Veolia Towers Hamburg",
-     "w": 3,
-     "l": 6,
-     "pf": 750,
-     "pa": 817
     },
     {
      "team": "Basketball Löwen Braunschweig",
@@ -129,9 +129,9 @@
     {
      "team": "Phoenix Hagen",
      "w": 2,
-     "l": 7,
-     "pf": 751,
-     "pa": 828
+     "l": 8,
+     "pf": 845,
+     "pa": 925
     },
     {
      "team": "Science City Jena",
@@ -144,69 +144,6 @@
   }
  ],
  "matches": [
-  {
-   "t1": "ratiopharm ulm",
-   "t2": "Science City Jena",
-   "date": "2026-11-14",
-   "ft": [
-    97,
-    78
-   ]
-  },
-  {
-   "t1": "BMA365 Bamberg Baskets",
-   "t2": "Telekom Baskets Bonn",
-   "date": "2026-11-14",
-   "ft": [
-    71,
-    85
-   ]
-  },
-  {
-   "t1": "EWE Baskets Oldenburg",
-   "t2": "ALBA BERLIN",
-   "date": "2026-11-14",
-   "ft": [
-    77,
-    95
-   ]
-  },
-  {
-   "t1": "Veolia Towers Hamburg",
-   "t2": "Fitness First Würzburg Baskets",
-   "date": "2026-11-14",
-   "ft": [
-    91,
-    84
-   ]
-  },
-  {
-   "t1": "SKYLINERS",
-   "t2": "VET-CONCEPT Gladiators Trier",
-   "date": "2026-11-15",
-   "ft": [
-    85,
-    99
-   ]
-  },
-  {
-   "t1": "ROSTOCK SEAWOLVES",
-   "t2": "RASTA Vechta",
-   "date": "2026-11-15",
-   "ft": [
-    86,
-    75
-   ]
-  },
-  {
-   "t1": "FC Bayern München Basketball",
-   "t2": "SYNTAINICS MBC",
-   "date": "2026-11-15",
-   "ft": [
-    91,
-    61
-   ]
-  },
   {
    "t1": "NINERS Chemnitz",
    "t2": "Basketball Löwen Braunschweig",
@@ -265,25 +202,37 @@
    "t1": "MHP RIESEN Ludwigsburg",
    "t2": "SYNTAINICS MBC",
    "date": "2026-11-22",
-   "time": "16:30"
+   "ft": [
+    96,
+    87
+   ]
   },
   {
    "t1": "Veolia Towers Hamburg",
    "t2": "Phoenix Hagen",
    "date": "2026-11-22",
-   "time": "16:30"
+   "ft": [
+    97,
+    94
+   ]
   },
   {
    "t1": "ALBA BERLIN",
    "t2": "FC Bayern München Basketball",
    "date": "2026-11-22",
-   "time": "18:00"
+   "ft": [
+    79,
+    90
+   ]
   },
   {
    "t1": "Telekom Baskets Bonn",
    "t2": "ratiopharm ulm",
    "date": "2026-11-22",
-   "time": "18:30"
+   "ft": [
+    89,
+    72
+   ]
   },
   {
    "t1": "SKYLINERS",
@@ -318,24 +267,20 @@
  ],
  "src": [
   {
-   "n": "Sportschau – easyCredit BBL Tabelle (Stand nach den Spielen vom 21.11.2026, abgerufen 22.11.2026)",
-   "u": "https://www.sportschau.de/live-und-ergebnisse/basketball/deutschland-bbl/tabelle"
+   "n": "easyCredit BBL – Tabelle (Letzte Aktualisierung 22.11.2026, 20:52 Uhr; Sonntagsergebnisse aus den Korbpunkten der Tabelle errechnet)",
+   "u": "https://www.easycredit-bbl.de/saison/tabelle"
   },
   {
-   "n": "Sport1 – BBL Tabelle (abgerufen 22.11.2026)",
-   "u": "https://www.sport1.de/daten/basketball/bbl/tabelle"
+   "n": "easyCredit BBL – Spielpläne (abgerufen 23.11.2026)",
+   "u": "https://www.easycredit-bbl.de/saison/spielplaene_liga-pokalspiele"
   },
   {
-   "n": "Sportschau – BBL Spiele und Ergebnisse, 10. Spieltag (abgerufen 22.11.2026)",
-   "u": "https://www.sportschau.de/live-und-ergebnisse/basketball/deutschland-bbl/spiele-und-ergebnisse"
+   "n": "easyCredit BBL – 17:4-Start in die zweite Hälfte: Bayern gewinnt erneut Finals-Neuauflage gegen Berlin (22.11.2026)",
+   "u": "https://easycredit-bbl.de/de/n/news/2026/november/174-start-in-die-zweite-haelfte-bayern-gewinnt-erneut-finals-neuauflage-gegen-berlin"
   },
   {
-   "n": "SWR/Sportschau – Siegesserie gerissen: Chemnitz zieht bei den Gladiators Trier die Handbremse (21.11.2026)",
-   "u": "https://www.sportschau.de/regional/swr/swr-siegesserie-gerissen-chemnitz-zieht-bei-den-gladiators-trier-die-handbremse-100.html"
-  },
-  {
-   "n": "basketball-world.news – Jena gegen Rostock 67:86 (21.11.2026)",
-   "u": "https://www.basketball-world.news/spiel/jena-gegen-rostock-2026-bbl-5254059/bericht"
+   "n": "FC Bayern Basketball – Spielbericht ALBA BERLIN – FC Bayern (22.11.2026)",
+   "u": "https://fcbayern.com/basketball/de/news/spielberichte/2026-27/11/alba-berlin---fc-bayern-basketball"
   },
   {
    "n": "basketball-world.news – Braunschweig gegen Bamberg 75:82 (21.11.2026)",
