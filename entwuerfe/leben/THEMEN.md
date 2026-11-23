@@ -47,3 +47,4 @@ Themen mit aktuellem Anlass bevorzugen (neue Gesetze, Fristen, Preise, Saison). 
 - 2026-11-18 – Glatteis und kaltes Büro: Deine Rechte als Beschäftigter im Winter in DE und BG – Entwurf
 - 2026-11-19 – Advent in London: Ohne ETA kein Boarding – was die Reisegenehmigung jetzt kostet – Entwurf
 - 2026-11-20 – BSI-Alarm: Lücken nach 8 Tagen ausgenutzt – der Geräte-Check für dein Zuhause in DE und BG – Entwurf
+- 2026-11-23 – Rente: Bulgarien zahlt 50 Euro zu Weihnachten, Deutschland rechnet mit 4,09 Prozent – Entwurf
