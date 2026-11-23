@@ -1,15 +1,9 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "events": [
   {
    "tour": "ATP",
    "name": "Nitto ATP Finals",
-   "start": "2026-11-15",
-   "end": "2026-11-22"
-  },
-  {
-   "tour": "WTA",
-   "name": "LP Open by IND",
    "start": "2026-11-15",
    "end": "2026-11-22"
   },
@@ -21,14 +15,14 @@
   }
  ],
  "atp": {
-  "date": "2026-11-12",
+  "date": "2026-11-19",
   "ranks": [
    {
     "r": 1,
     "prev": 1,
     "name": "Alexander Zverev",
     "cc": "GER",
-    "pts": 9320
+    "pts": 10350
    },
    {
     "r": 2,
@@ -42,60 +36,60 @@
     "prev": 3,
     "name": "Carlos Alcaraz",
     "cc": "ESP",
-    "pts": 6100
+    "pts": 7600
    },
    {
     "r": 4,
     "prev": 4,
     "name": "Ben Shelton",
     "cc": "USA",
-    "pts": 5170
+    "pts": 5570
    },
    {
     "r": 5,
     "prev": 5,
     "name": "Daniil Medvedev",
     "cc": "RUS",
-    "pts": 3820
+    "pts": 4220
    },
    {
     "r": 6,
+    "prev": 7,
+    "name": "Arthur Fils",
+    "cc": "FRA",
+    "pts": 3825
+   },
+   {
+    "r": 7,
     "prev": 6,
     "name": "Flavio Cobolli",
     "cc": "ITA",
     "pts": 3680
    },
    {
-    "r": 7,
-    "prev": 7,
-    "name": "Arthur Fils",
-    "cc": "FRA",
-    "pts": 3625
-   },
-   {
     "r": 8,
     "prev": 8,
     "name": "Frances Tiafoe",
     "cc": "USA",
-    "pts": 3390
+    "pts": 3590
    },
    {
     "r": 9,
-    "prev": 10,
+    "prev": 9,
     "name": "Taylor Fritz",
     "cc": "USA",
     "pts": 3300
    },
    {
     "r": 10,
-    "prev": 11,
+    "prev": 10,
     "name": "Rafael Jodar",
     "cc": "ESP",
     "pts": 3234
    },
    {
     "r": 11,
-    "prev": 9,
+    "prev": 11,
     "name": "Alex de Minaur",
     "cc": "AUS",
     "pts": 3170
@@ -116,28 +110,28 @@
    },
    {
     "r": 14,
-    "prev": 15,
+    "prev": 14,
     "name": "Jiri Lehecka",
     "cc": "CZE",
     "pts": 2540
    },
    {
     "r": 15,
-    "prev": 16,
+    "prev": 15,
     "name": "Jakub Mensik",
     "cc": "CZE",
     "pts": 2500
    },
    {
     "r": 16,
-    "prev": 17,
+    "prev": 16,
     "name": "Alejandro Davidovich Fokina",
     "cc": "ESP",
     "pts": 2500
    },
    {
     "r": 17,
-    "prev": 14,
+    "prev": 17,
     "name": "Felix Auger-Aliassime",
     "cc": "CAN",
     "pts": 2465
@@ -193,21 +187,21 @@
    },
    {
     "r": 25,
-    "prev": 26,
+    "prev": 25,
     "name": "Alexander Bublik",
     "cc": "KAZ",
     "pts": 1885
    },
    {
     "r": 26,
-    "prev": 27,
+    "prev": 26,
     "name": "Valentin Vacherot",
     "cc": "MON",
     "pts": 1790
    },
    {
     "r": 27,
-    "prev": 25,
+    "prev": 27,
     "name": "Lorenzo Musetti",
     "cc": "ITA",
     "pts": 1785
@@ -242,14 +236,14 @@
    },
    {
     "r": 32,
-    "prev": 33,
+    "prev": 32,
     "name": "Arthur Fery",
     "cc": "GBR",
     "pts": 1507
    },
    {
     "r": 33,
-    "prev": 32,
+    "prev": 33,
     "name": "Ignacio Buse",
     "cc": "PER",
     "pts": 1495
@@ -277,21 +271,21 @@
    },
    {
     "r": 37,
-    "prev": 38,
+    "prev": 37,
     "name": "Matteo Arnaldi",
     "cc": "ITA",
     "pts": 1321
    },
    {
     "r": 38,
-    "prev": 39,
+    "prev": 38,
     "name": "Ugo Humbert",
     "cc": "FRA",
     "pts": 1320
    },
    {
     "r": 39,
-    "prev": 37,
+    "prev": 39,
     "name": "Jan-Lennard Struff",
     "cc": "GER",
     "pts": 1296
@@ -347,49 +341,49 @@
    },
    {
     "r": 47,
-    "prev": 51,
+    "prev": 47,
     "name": "Thiago Agustin Tirante",
     "cc": "ARG",
     "pts": 1197
    },
    {
     "r": 48,
-    "prev": 47,
+    "prev": 48,
     "name": "Arthur Gea",
     "cc": "FRA",
     "pts": 1146
    },
    {
     "r": 49,
-    "prev": 48,
+    "prev": 49,
     "name": "Mariano Navone",
     "cc": "ARG",
     "pts": 1095
    },
    {
     "r": 50,
-    "prev": 49,
+    "prev": 50,
     "name": "Tallon Griekspoor",
     "cc": "NED",
     "pts": 1075
    },
    {
     "r": 51,
-    "prev": 50,
+    "prev": 51,
     "name": "Denis Shapovalov",
     "cc": "CAN",
     "pts": 1055
    },
    {
     "r": 52,
-    "prev": 53,
+    "prev": 52,
     "name": "Cameron Norrie",
     "cc": "GBR",
     "pts": 1045
    },
    {
     "r": 53,
-    "prev": 52,
+    "prev": 53,
     "name": "Sebastian Baez",
     "cc": "ARG",
     "pts": 1040
@@ -410,45 +404,45 @@
    },
    {
     "r": 56,
-    "prev": 56,
-    "name": "Adolfo Daniel Vallejo",
-    "cc": "PAR",
-    "pts": 959
-   },
-   {
-    "r": 57,
     "prev": 57,
     "name": "Jaime Faria",
     "cc": "POR",
     "pts": 941
    },
    {
-    "r": 58,
+    "r": 57,
     "prev": 58,
     "name": "Arthur Rinderknech",
     "cc": "FRA",
     "pts": 920
    },
    {
-    "r": 59,
+    "r": 58,
     "prev": 59,
     "name": "Rinky Hijikata",
     "cc": "AUS",
     "pts": 909
    },
    {
-    "r": 60,
+    "r": 59,
     "prev": 60,
     "name": "Tomas Machac",
     "cc": "CZE",
     "pts": 899
    },
    {
-    "r": 61,
+    "r": 60,
     "prev": 61,
     "name": "Adrian Mannarino",
     "cc": "FRA",
     "pts": 898
+   },
+   {
+    "r": 61,
+    "prev": 56,
+    "name": "Adolfo Daniel Vallejo",
+    "cc": "PAR",
+    "pts": 897
    },
    {
     "r": 62,
@@ -522,14 +516,14 @@
    },
    {
     "r": 72,
-    "prev": 73,
+    "prev": 72,
     "name": "Daniel Altmaier",
     "cc": "GER",
     "pts": 822
    },
    {
     "r": 73,
-    "prev": 72,
+    "prev": 73,
     "name": "Alex Molcan",
     "cc": "SVK",
     "pts": 820
@@ -550,378 +544,378 @@
    },
    {
     "r": 76,
-    "prev": 77,
+    "prev": 76,
     "name": "Pablo Carreno Busta",
     "cc": "ESP",
     "pts": 773
    },
    {
     "r": 77,
-    "prev": 76,
-    "name": "James Duckworth",
-    "cc": "AUS",
-    "pts": 772
-   },
-   {
-    "r": 78,
     "prev": 78,
     "name": "Zachary Svajda",
     "cc": "USA",
     "pts": 759
    },
    {
-    "r": 79,
-    "prev": 80,
+    "r": 78,
+    "prev": 79,
     "name": "Hamad Medjedovic",
     "cc": "SER",
     "pts": 751
    },
    {
-    "r": 80,
-    "prev": 79,
+    "r": 79,
+    "prev": 80,
     "name": "Roman Andres Burruchaga",
     "cc": "ARG",
     "pts": 735
    },
    {
-    "r": 81,
+    "r": 80,
     "prev": 81,
     "name": "Titouan Droguet",
     "cc": "FRA",
     "pts": 732
    },
    {
-    "r": 82,
+    "r": 81,
     "prev": 82,
     "name": "Kamil Majchrzak",
     "cc": "POL",
     "pts": 725
    },
    {
+    "r": 82,
+    "prev": 92,
+    "name": "Toby Samuel",
+    "cc": "GBR",
+    "pts": 722
+   },
+   {
     "r": 83,
+    "prev": 77,
+    "name": "James Duckworth",
+    "cc": "AUS",
+    "pts": 707
+   },
+   {
+    "r": 84,
+    "prev": 85,
+    "name": "Nikoloz Basilashvili",
+    "cc": "GEO",
+    "pts": 696
+   },
+   {
+    "r": 85,
     "prev": 83,
     "name": "Aleksandar Kovacevic",
     "cc": "USA",
     "pts": 693
    },
    {
-    "r": 84,
+    "r": 86,
     "prev": 84,
     "name": "Chak Lam Coleman Wong",
     "cc": "HKG",
     "pts": 692
    },
    {
-    "r": 85,
+    "r": 87,
     "prev": 86,
-    "name": "Nikoloz Basilashvili",
-    "cc": "GEO",
+    "name": "Kyrian Jacquet",
+    "cc": "FRA",
     "pts": 688
    },
    {
-    "r": 86,
-    "prev": 85,
-    "name": "Kyrian Jacquet",
-    "cc": "FRA",
-    "pts": 680
-   },
-   {
-    "r": 87,
-    "prev": 87,
-    "name": "Jacob Fearnley",
-    "cc": "GBR",
-    "pts": 671
-   },
-   {
     "r": 88,
-    "prev": 88,
-    "name": "Marco Trungelliti",
-    "cc": "ARG",
-    "pts": 670
+    "prev": 101,
+    "name": "Thiago Seyboth Wild",
+    "cc": "BRA",
+    "pts": 680
    },
    {
     "r": 89,
     "prev": 89,
     "name": "Dino Prizmic",
     "cc": "CRO",
-    "pts": 663
+    "pts": 679
    },
    {
     "r": 90,
+    "prev": 87,
+    "name": "Jacob Fearnley",
+    "cc": "GBR",
+    "pts": 671
+   },
+   {
+    "r": 91,
     "prev": 90,
     "name": "Damir Dzumhur",
     "cc": "BIH",
     "pts": 661
    },
    {
-    "r": 91,
+    "r": 92,
+    "prev": 88,
+    "name": "Marco Trungelliti",
+    "cc": "ARG",
+    "pts": 660
+   },
+   {
+    "r": 93,
     "prev": 91,
     "name": "Benjamin Bonzi",
     "cc": "FRA",
     "pts": 657
    },
    {
-    "r": 92,
-    "prev": 95,
-    "name": "Toby Samuel",
-    "cc": "GBR",
-    "pts": 647
-   },
-   {
-    "r": 93,
-    "prev": 92,
+    "r": 94,
+    "prev": 93,
     "name": "Bu Yunchaokete",
     "cc": "CHN",
     "pts": 646
    },
    {
-    "r": 94,
-    "prev": 93,
+    "r": 95,
+    "prev": 94,
     "name": "Jenson Brooksby",
     "cc": "USA",
     "pts": 638
    },
    {
-    "r": 95,
-    "prev": 94,
+    "r": 96,
+    "prev": 95,
     "name": "Marcos Giron",
     "cc": "USA",
     "pts": 638
    },
    {
-    "r": 96,
-    "prev": 99,
-    "name": "Zsombor Piros",
-    "cc": "HUN",
-    "pts": 620
+    "r": 97,
+    "prev": 116,
+    "name": "Otto Virtanen",
+    "cc": "FIN",
+    "pts": 634
    },
    {
-    "r": 97,
+    "r": 98,
     "prev": 96,
+    "name": "Zsombor Piros",
+    "cc": "HUN",
+    "pts": 624
+   },
+   {
+    "r": 99,
+    "prev": 97,
     "name": "Adam Walton",
     "cc": "AUS",
     "pts": 619
    },
    {
-    "r": 98,
-    "prev": 100,
+    "r": 100,
+    "prev": 98,
     "name": "Michael Zheng",
     "cc": "USA",
     "pts": 616
    },
    {
-    "r": 99,
-    "prev": 97,
+    "r": 101,
+    "prev": 99,
     "name": "Marin Cilic",
     "cc": "CRO",
     "pts": 613
    },
    {
-    "r": 100,
-    "prev": 107,
+    "r": 102,
+    "prev": 100,
     "name": "Aleksandr Shevchenko",
     "cc": "KAZ",
     "pts": 609
    },
    {
-    "r": 101,
-    "prev": 98,
-    "name": "Thiago Seyboth Wild",
-    "cc": "BRA",
-    "pts": 609
-   },
-   {
-    "r": 102,
-    "prev": 101,
+    "r": 103,
+    "prev": 102,
     "name": "Sebastian Korda",
     "cc": "USA",
     "pts": 590
    },
    {
-    "r": 103,
-    "prev": 102,
+    "r": 104,
+    "prev": 103,
     "name": "Martin Damm",
     "cc": "USA",
     "pts": 588
    },
    {
-    "r": 104,
-    "prev": 103,
+    "r": 105,
+    "prev": 104,
     "name": "Lloyd Harris",
     "cc": "RSA",
     "pts": 579
    },
    {
-    "r": 105,
-    "prev": 104,
+    "r": 106,
+    "prev": 105,
     "name": "Jesper de Jong",
     "cc": "NED",
     "pts": 575
    },
    {
-    "r": 106,
-    "prev": 105,
+    "r": 107,
+    "prev": 106,
     "name": "Wu Yibing",
     "cc": "CHN",
     "pts": 571
    },
    {
-    "r": 107,
-    "prev": 106,
+    "r": 108,
+    "prev": 107,
     "name": "Hugo Dellien",
     "cc": "BOL",
     "pts": 566
    },
    {
-    "r": 108,
+    "r": 109,
+    "prev": 115,
+    "name": "Nishesh Basavareddy",
+    "cc": "USA",
+    "pts": 545
+   },
+   {
+    "r": 110,
     "prev": 108,
     "name": "Corentin Moutet",
     "cc": "FRA",
     "pts": 540
    },
    {
-    "r": 109,
-    "prev": 115,
+    "r": 111,
+    "prev": 109,
     "name": "Lorenzo Sonego",
     "cc": "ITA",
     "pts": 539
    },
    {
-    "r": 110,
-    "prev": 109,
+    "r": 112,
+    "prev": 110,
     "name": "Hugo Gaston",
     "cc": "FRA",
+    "pts": 531
+   },
+   {
+    "r": 113,
+    "prev": 112,
+    "name": "Dalibor Svrcina",
+    "cc": "CZE",
     "pts": 530
    },
    {
-    "r": 111,
-    "prev": 110,
+    "r": 114,
+    "prev": 111,
     "name": "Jan Choinski",
     "cc": "GBR",
     "pts": 527
    },
    {
-    "r": 112,
-    "prev": 112,
-    "name": "Dalibor Svrcina",
-    "cc": "CZE",
-    "pts": 521
+    "r": 115,
+    "prev": 114,
+    "name": "Henrique Rocha",
+    "cc": "POR",
+    "pts": 527
    },
    {
-    "r": 113,
-    "prev": 114,
+    "r": 116,
+    "prev": 125,
+    "name": "Clement Chidekh",
+    "cc": "FRA",
+    "pts": 527
+   },
+   {
+    "r": 117,
+    "prev": 113,
     "name": "Nicolas Mejia",
     "cc": "COL",
     "pts": 521
    },
    {
-    "r": 114,
-    "prev": 111,
-    "name": "Henrique Rocha",
-    "cc": "POR",
-    "pts": 521
-   },
-   {
-    "r": 115,
-    "prev": 126,
-    "name": "Nishesh Basavareddy",
-    "cc": "USA",
-    "pts": 510
-   },
-   {
-    "r": 116,
-    "prev": 127,
-    "name": "Otto Virtanen",
-    "cc": "FIN",
-    "pts": 509
-   },
-   {
-    "r": 117,
+    "r": 118,
     "prev": 117,
     "name": "Christopher O'Connell",
     "cc": "AUS",
     "pts": 505
    },
    {
-    "r": 118,
-    "prev": 113,
-    "name": "Gustavo Heide",
-    "cc": "BRA",
-    "pts": 504
+    "r": 119,
+    "prev": 120,
+    "name": "Jurij Rodionov",
+    "cc": "AUT",
+    "pts": 498
    },
    {
-    "r": 119,
-    "prev": 124,
+    "r": 120,
+    "prev": 119,
     "name": "Pedro Martinez",
     "cc": "ESP",
     "pts": 497
    },
    {
-    "r": 120,
-    "prev": 118,
-    "name": "Jurij Rodionov",
-    "cc": "AUT",
-    "pts": 496
-   },
-   {
     "r": 121,
-    "prev": 116,
-    "name": "Dane Sweeny",
-    "cc": "AUS",
-    "pts": 493
-   },
-   {
-    "r": 122,
-    "prev": 119,
+    "prev": 122,
     "name": "Valentin Royer",
     "cc": "FRA",
     "pts": 493
    },
    {
-    "r": 123,
-    "prev": 120,
+    "r": 122,
+    "prev": 123,
     "name": "Sebastian Ofner",
     "cc": "AUT",
     "pts": 491
    },
    {
-    "r": 124,
-    "prev": 122,
-    "name": "Rei Sakamoto",
-    "cc": "JPN",
-    "pts": 487
-   },
-   {
-    "r": 125,
-    "prev": 129,
-    "name": "Clement Chidekh",
-    "cc": "FRA",
+    "r": 123,
+    "prev": 121,
+    "name": "Dane Sweeny",
+    "cc": "AUS",
     "pts": 481
    },
    {
-    "r": 126,
-    "prev": 121,
+    "r": 124,
+    "prev": 126,
     "name": "Emilio Nava",
     "cc": "USA",
     "pts": 477
    },
    {
-    "r": 127,
-    "prev": 134,
+    "r": 125,
+    "prev": 127,
     "name": "Borna Gojo",
     "cc": "CRO",
-    "pts": 461
+    "pts": 469
    },
    {
-    "r": 128,
-    "prev": 123,
+    "r": 126,
+    "prev": 158,
+    "name": "Francesco Passaro",
+    "cc": "ITA",
+    "pts": 465
+   },
+   {
+    "r": 127,
+    "prev": 128,
     "name": "Sho Shimabukuro",
     "cc": "JPN",
     "pts": 457
    },
    {
+    "r": 128,
+    "prev": 136,
+    "name": "Laslo Djere",
+    "cc": "SER",
+    "pts": 454
+   },
+   {
     "r": 129,
-    "prev": 125,
+    "prev": 129,
     "name": "Alexei Popyrin",
     "cc": "AUS",
     "pts": 448
@@ -929,154 +923,154 @@
    {
     "r": 130,
     "prev": 131,
-    "name": "Max Alcala Gurri",
-    "cc": "ESP",
-    "pts": 446
-   },
-   {
-    "r": 131,
-    "prev": 128,
     "name": "Shintaro Mochizuki",
     "cc": "JPN",
     "pts": 444
    },
    {
-    "r": 132,
+    "r": 131,
     "prev": 130,
+    "name": "Max Alcala Gurri",
+    "cc": "ESP",
+    "pts": 442
+   },
+   {
+    "r": 132,
+    "prev": 140,
+    "name": "Nikolas Sanchez Izquierdo",
+    "cc": "ESP",
+    "pts": 438
+   },
+   {
+    "r": 133,
+    "prev": 132,
     "name": "Stefanos Sakellaridis",
     "cc": "GRE",
     "pts": 431
    },
    {
-    "r": 133,
-    "prev": 132,
+    "r": 134,
+    "prev": 133,
     "name": "Moise Kouame",
     "cc": "FRA",
     "pts": 429
    },
    {
-    "r": 134,
-    "prev": 135,
+    "r": 135,
+    "prev": 118,
+    "name": "Gustavo Heide",
+    "cc": "BRA",
+    "pts": 429
+   },
+   {
+    "r": 136,
+    "prev": 134,
     "name": "Grigor Dimitrov",
     "cc": "BUL",
     "pts": 422
    },
    {
-    "r": 135,
-    "prev": 138,
+    "r": 137,
+    "prev": 135,
     "name": "Francisco Comesana",
     "cc": "ARG",
     "pts": 421
    },
    {
-    "r": 136,
-    "prev": 133,
-    "name": "Laslo Djere",
-    "cc": "SER",
+    "r": 138,
+    "prev": 124,
+    "name": "Rei Sakamoto",
+    "cc": "JPN",
+    "pts": 420
+   },
+   {
+    "r": 139,
+    "prev": 156,
+    "name": "SoonWoo Kwon",
+    "cc": "KOR",
     "pts": 419
    },
    {
-    "r": 137,
+    "r": 140,
     "prev": 137,
     "name": "Aleksandar Vukic",
     "cc": "AUS",
     "pts": 418
    },
    {
-    "r": 138,
-    "prev": 139,
+    "r": 141,
+    "prev": 138,
     "name": "Federico Cina",
     "cc": "ITA",
     "pts": 415
    },
    {
-    "r": 139,
-    "prev": 140,
+    "r": 142,
+    "prev": 139,
     "name": "Giovanni Mpetshi Perricard",
     "cc": "FRA",
     "pts": 411
    },
    {
-    "r": 140,
-    "prev": 151,
-    "name": "Nikolas Sanchez Izquierdo",
-    "cc": "ESP",
+    "r": 143,
+    "prev": 145,
+    "name": "Tristan Schoolkate",
+    "cc": "AUS",
     "pts": 407
    },
    {
-    "r": 141,
-    "prev": 136,
+    "r": 144,
+    "prev": 141,
     "name": "Matej Dodig",
     "cc": "CRO",
     "pts": 406
    },
    {
-    "r": 142,
-    "prev": 141,
+    "r": 145,
+    "prev": 142,
     "name": "Andrea Pellegrino",
     "cc": "ITA",
     "pts": 404
    },
    {
-    "r": 143,
-    "prev": 142,
+    "r": 146,
+    "prev": 143,
     "name": "Pablo Llamas Ruiz",
     "cc": "ESP",
     "pts": 403
    },
    {
-    "r": 144,
-    "prev": 143,
+    "r": 147,
+    "prev": 144,
     "name": "Jerome Kym",
     "cc": "SUI",
     "pts": 403
    },
    {
-    "r": 145,
-    "prev": 144,
-    "name": "Tristan Schoolkate",
-    "cc": "AUS",
-    "pts": 401
-   },
-   {
-    "r": 146,
-    "prev": 145,
+    "r": 148,
+    "prev": 146,
     "name": "Marton Fucsovics",
     "cc": "HUN",
     "pts": 400
    },
    {
-    "r": 147,
-    "prev": 147,
-    "name": "Ilia Simakin",
-    "cc": "RUS",
-    "pts": 393
-   },
-   {
-    "r": 148,
-    "prev": 146,
-    "name": "Vilius Gaubas",
-    "cc": "LTU",
-    "pts": 389
-   },
-   {
     "r": 149,
-    "prev": 148,
+    "prev": 149,
     "name": "Elmer Moller",
     "cc": "DEN",
-    "pts": 386
+    "pts": 396
    },
    {
     "r": 150,
-    "prev": 150,
-    "name": "Michael Mmoh",
-    "cc": "USA",
-    "pts": 386
+    "prev": 147,
+    "name": "Ilia Simakin",
+    "cc": "RUS",
+    "pts": 392
    }
   ]
  },
  "wta": {
-  "date": "2026-11-12",
+  "date": "2026-11-19",
   "ranks": [
    {
     "r": 1,
@@ -1087,14 +1081,14 @@
    },
    {
     "r": 2,
-    "prev": 3,
+    "prev": 2,
     "name": "Mirra Andreeva",
     "cc": "RUS",
     "pts": 7806
    },
    {
     "r": 3,
-    "prev": 2,
+    "prev": 3,
     "name": "Aryna Sabalenka",
     "cc": "BLR",
     "pts": 6685
@@ -1122,14 +1116,14 @@
    },
    {
     "r": 7,
-    "prev": 8,
+    "prev": 7,
     "name": "Linda Noskova",
     "cc": "CZE",
     "pts": 4743
    },
    {
     "r": 8,
-    "prev": 7,
+    "prev": 8,
     "name": "Karolina Muchova",
     "cc": "CZE",
     "pts": 4665
@@ -1160,7 +1154,7 @@
     "prev": 12,
     "name": "Maja Chwalinska",
     "cc": "POL",
-    "pts": 3016
+    "pts": 3004
    },
    {
     "r": 13,
@@ -1325,17 +1319,17 @@
    },
    {
     "r": 36,
-    "prev": 36,
-    "name": "Talia Gibson",
-    "cc": "AUS",
-    "pts": 1342
-   },
-   {
-    "r": 37,
     "prev": 37,
     "name": "Peyton Stearns",
     "cc": "USA",
     "pts": 1316
+   },
+   {
+    "r": 37,
+    "prev": 36,
+    "name": "Talia Gibson",
+    "cc": "AUS",
+    "pts": 1296
    },
    {
     "r": 38,
@@ -1402,17 +1396,17 @@
    },
    {
     "r": 47,
-    "prev": 47,
-    "name": "Kimberly Birrell",
-    "cc": "AUS",
-    "pts": 1146
-   },
-   {
-    "r": 48,
     "prev": 48,
     "name": "Katerina Siniakova",
     "cc": "CZE",
     "pts": 1143
+   },
+   {
+    "r": 48,
+    "prev": 47,
+    "name": "Kimberly Birrell",
+    "cc": "AUS",
+    "pts": 1137
    },
    {
     "r": 49,
@@ -1508,328 +1502,328 @@
    {
     "r": 62,
     "prev": 63,
-    "name": "Lanlana Tararudee",
-    "cc": "THA",
-    "pts": 1012
-   },
-   {
-    "r": 63,
-    "prev": 64,
     "name": "Zeynep Sonmez",
     "cc": "TUR",
     "pts": 1011
    },
    {
-    "r": 64,
+    "r": 63,
     "prev": 65,
-    "name": "Mayar Sherif",
-    "cc": "EGY",
-    "pts": 1006
-   },
-   {
-    "r": 65,
-    "prev": 66,
     "name": "Yulia Putintseva",
     "cc": "KAZ",
     "pts": 1000
    },
    {
-    "r": 66,
-    "prev": 67,
+    "r": 64,
+    "prev": 62,
+    "name": "Lanlana Tararudee",
+    "cc": "THA",
+    "pts": 1000
+   },
+   {
+    "r": 65,
+    "prev": 66,
     "name": "Catherine McNally",
     "cc": "USA",
     "pts": 999
    },
    {
-    "r": 67,
-    "prev": 62,
+    "r": 66,
+    "prev": 67,
     "name": "Tamara Korpatsch",
     "cc": "GER",
     "pts": 997
    },
    {
-    "r": 68,
+    "r": 67,
     "prev": 68,
     "name": "Tatjana Maria",
     "cc": "GER",
     "pts": 996
    },
    {
-    "r": 69,
+    "r": 68,
     "prev": 69,
     "name": "Claire Liu",
     "cc": "USA",
     "pts": 972
    },
    {
-    "r": 70,
-    "prev": 70,
-    "name": "Oleksandra Oliynykova",
-    "cc": "UKR",
-    "pts": 957
+    "r": 69,
+    "prev": 64,
+    "name": "Mayar Sherif",
+    "cc": "EGY",
+    "pts": 959
    },
    {
-    "r": 71,
+    "r": 70,
     "prev": 71,
     "name": "Camila Osorio",
     "cc": "COL",
     "pts": 953
    },
    {
-    "r": 72,
-    "prev": 72,
-    "name": "Maria Timofeeva",
-    "cc": "UZB",
-    "pts": 952
-   },
-   {
-    "r": 73,
+    "r": 71,
     "prev": 73,
     "name": "Kaitlin Quevedo",
     "cc": "ESP",
     "pts": 937
    },
    {
-    "r": 74,
+    "r": 72,
+    "prev": 72,
+    "name": "Maria Timofeeva",
+    "cc": "UZB",
+    "pts": 932
+   },
+   {
+    "r": 73,
     "prev": 74,
     "name": "Elisabetta Cocciaretto",
     "cc": "ITA",
     "pts": 931
    },
    {
-    "r": 75,
+    "r": 74,
     "prev": 75,
     "name": "Daria Kasatkina",
     "cc": "AUS",
     "pts": 928
    },
    {
-    "r": 76,
+    "r": 75,
     "prev": 76,
     "name": "Anna Bondar",
     "cc": "HUN",
     "pts": 913
    },
    {
-    "r": 77,
-    "prev": 100,
+    "r": 76,
+    "prev": 77,
     "name": "Bianca Andreescu",
     "cc": "CAN",
     "pts": 900
    },
    {
-    "r": 78,
-    "prev": 77,
+    "r": 77,
+    "prev": 78,
     "name": "Antonia Ruzic",
     "cc": "CRO",
     "pts": 898
    },
    {
-    "r": 79,
-    "prev": 78,
+    "r": 78,
+    "prev": 79,
     "name": "Alina Korneeva",
     "cc": "RUS",
     "pts": 895
    },
    {
+    "r": 79,
+    "prev": 70,
+    "name": "Oleksandra Oliynykova",
+    "cc": "UKR",
+    "pts": 886
+   },
+   {
     "r": 80,
-    "prev": 79,
+    "prev": 80,
     "name": "Mananchaya Sawangkaew",
     "cc": "THA",
     "pts": 886
    },
    {
     "r": 81,
-    "prev": 80,
+    "prev": 81,
     "name": "Katie Volynets",
     "cc": "USA",
     "pts": 874
    },
    {
     "r": 82,
-    "prev": 81,
+    "prev": 82,
     "name": "Jaqueline Cristian",
     "cc": "ROM",
     "pts": 869
    },
    {
     "r": 83,
-    "prev": 82,
+    "prev": 83,
     "name": "Wang Xiyu",
     "cc": "CHN",
     "pts": 868
    },
    {
     "r": 84,
-    "prev": 83,
+    "prev": 84,
     "name": "Alina Charaeva",
     "cc": "ARM",
     "pts": 859
    },
    {
     "r": 85,
-    "prev": 84,
+    "prev": 85,
     "name": "Harriet Dart",
     "cc": "GBR",
     "pts": 854
    },
    {
     "r": 86,
-    "prev": 85,
+    "prev": 86,
     "name": "Tereza Valentova",
     "cc": "CZE",
     "pts": 853
    },
    {
     "r": 87,
-    "prev": 86,
+    "prev": 87,
     "name": "Polina Kudermetova",
     "cc": "UZB",
     "pts": 852
    },
    {
     "r": 88,
-    "prev": 87,
+    "prev": 88,
     "name": "Panna Udvardy",
     "cc": "HUN",
     "pts": 848
    },
    {
     "r": 89,
-    "prev": 88,
+    "prev": 89,
     "name": "Petra Marcinko",
     "cc": "CRO",
     "pts": 845
    },
    {
     "r": 90,
-    "prev": 89,
-    "name": "Leolia Jeanjean",
-    "cc": "FRA",
-    "pts": 841
-   },
-   {
-    "r": 91,
-    "prev": 90,
+    "prev": 91,
     "name": "Aliaksandra Sasnovich",
     "cc": "BLR",
     "pts": 839
    },
    {
-    "r": 92,
+    "r": 91,
     "prev": 92,
     "name": "Maya Joint",
     "cc": "AUS",
     "pts": 832
    },
    {
-    "r": 93,
+    "r": 92,
     "prev": 93,
     "name": "Taylor Townsend",
     "cc": "USA",
     "pts": 831
    },
    {
-    "r": 94,
+    "r": 93,
     "prev": 94,
     "name": "Viktorija Golubic",
     "cc": "SUI",
     "pts": 831
    },
    {
-    "r": 95,
-    "prev": 91,
+    "r": 94,
+    "prev": 95,
     "name": "Taylah Preston",
     "cc": "AUS",
     "pts": 828
    },
    {
-    "r": 96,
-    "prev": 95,
+    "r": 95,
+    "prev": 96,
     "name": "Sinja Kraus",
     "cc": "AUT",
     "pts": 814
    },
    {
-    "r": 97,
-    "prev": 96,
+    "r": 96,
+    "prev": 97,
     "name": "Darja Vidmanova",
     "cc": "CZE",
     "pts": 812
    },
    {
-    "r": 98,
-    "prev": 97,
-    "name": "Zhang Shuai",
-    "cc": "CHN",
-    "pts": 802
-   },
-   {
-    "r": 99,
-    "prev": 98,
+    "r": 97,
+    "prev": 99,
     "name": "Fiona Ferro",
     "cc": "FRA",
     "pts": 795
    },
    {
-    "r": 100,
-    "prev": 99,
+    "r": 98,
+    "prev": 98,
+    "name": "Zhang Shuai",
+    "cc": "CHN",
+    "pts": 792
+   },
+   {
+    "r": 99,
+    "prev": 100,
     "name": "Francesca Jones",
     "cc": "GBR",
     "pts": 778
    },
    {
-    "r": 101,
+    "r": 100,
     "prev": 101,
     "name": "Anna Blinkova",
     "cc": "FRA",
     "pts": 776
    },
    {
-    "r": 102,
+    "r": 101,
     "prev": 102,
     "name": "Anastasia Zakharova",
     "cc": "RUS",
     "pts": 772
    },
    {
-    "r": 103,
+    "r": 102,
     "prev": 103,
     "name": "Dayana Yastremska",
     "cc": "UKR",
     "pts": 770
    },
    {
-    "r": 104,
+    "r": 103,
     "prev": 104,
     "name": "Jessica Bouzas Maneiro",
     "cc": "ESP",
     "pts": 769
    },
    {
+    "r": 104,
+    "prev": 90,
+    "name": "Leolia Jeanjean",
+    "cc": "FRA",
+    "pts": 762
+   },
+   {
     "r": 105,
-    "prev": 106,
+    "prev": 111,
+    "name": "Leyre Romero Gormaz",
+    "cc": "ESP",
+    "pts": 761
+   },
+   {
+    "r": 106,
+    "prev": 105,
     "name": "Solana Sierra",
     "cc": "ARG",
     "pts": 730
    },
    {
-    "r": 106,
-    "prev": 105,
+    "r": 107,
+    "prev": 106,
     "name": "Kristina Liutova",
     "cc": "RUS",
     "pts": 725
    },
    {
-    "r": 107,
-    "prev": 119,
-    "name": "Laura Samson",
-    "cc": "CZE",
-    "pts": 719
-   },
-   {
     "r": 108,
-    "prev": 107,
+    "prev": 108,
     "name": "Emma Raducanu",
     "cc": "GBR",
     "pts": 709
@@ -1843,17 +1837,17 @@
    },
    {
     "r": 110,
+    "prev": 107,
+    "name": "Laura Samson",
+    "cc": "CZE",
+    "pts": 697
+   },
+   {
+    "r": 111,
     "prev": 110,
     "name": "Lucrezia Stefanini",
     "cc": "ITA",
     "pts": 696
-   },
-   {
-    "r": 111,
-    "prev": 111,
-    "name": "Leyre Romero Gormaz",
-    "cc": "ESP",
-    "pts": 695
    },
    {
     "r": 112,
@@ -1871,28 +1865,28 @@
    },
    {
     "r": 114,
-    "prev": 115,
+    "prev": 114,
     "name": "Julia Grabher",
     "cc": "AUT",
     "pts": 685
    },
    {
     "r": 115,
-    "prev": 114,
+    "prev": 115,
     "name": "Renata Zarazua",
     "cc": "MEX",
     "pts": 685
    },
    {
     "r": 116,
-    "prev": 117,
+    "prev": 116,
     "name": "Sloane Stephens",
     "cc": "USA",
-    "pts": 678
+    "pts": 675
    },
    {
     "r": 117,
-    "prev": 108,
+    "prev": 117,
     "name": "Lisa Pigato",
     "cc": "ITA",
     "pts": 675
@@ -1906,14 +1900,14 @@
    },
    {
     "r": 119,
-    "prev": 120,
+    "prev": 119,
     "name": "Moyuka Uchijima",
     "cc": "JPN",
     "pts": 660
    },
    {
     "r": 120,
-    "prev": 121,
+    "prev": 120,
     "name": "Veronika Podrez",
     "cc": "UKR",
     "pts": 654
@@ -1921,79 +1915,79 @@
    {
     "r": 121,
     "prev": 122,
-    "name": "Oksana Selekhmeteva",
-    "cc": "ESP",
-    "pts": 648
-   },
-   {
-    "r": 122,
-    "prev": 123,
     "name": "Tatiana Prozorova",
     "cc": "RUS",
     "pts": 648
    },
    {
-    "r": 123,
-    "prev": 116,
-    "name": "Mary Stoiana",
-    "cc": "USA",
-    "pts": 646
+    "r": 122,
+    "prev": 121,
+    "name": "Oksana Selekhmeteva",
+    "cc": "ESP",
+    "pts": 647
    },
    {
-    "r": 124,
+    "r": 123,
     "prev": 124,
     "name": "Mia Pohankova",
     "cc": "SVK",
     "pts": 645
    },
    {
-    "r": 125,
+    "r": 124,
     "prev": 125,
     "name": "Elvina Kalieva",
     "cc": "USA",
     "pts": 638
    },
    {
-    "r": 126,
+    "r": 125,
     "prev": 126,
     "name": "Kayla Day",
     "cc": "USA",
     "pts": 635
    },
    {
-    "r": 127,
+    "r": 126,
     "prev": 127,
     "name": "Alexandra Shubladze",
     "cc": "RUS",
     "pts": 629
    },
    {
+    "r": 127,
+    "prev": 123,
+    "name": "Mary Stoiana",
+    "cc": "USA",
+    "pts": 616
+   },
+   {
     "r": 128,
-    "prev": 128,
-    "name": "Jeline Vandromme",
-    "cc": "BEL",
-    "pts": 622
+    "prev": 135,
+    "name": "Lucia Bronzetti",
+    "cc": "ITA",
+    "pts": 603
    },
    {
     "r": 129,
     "prev": 130,
-    "name": "Himeno Sakatsume",
-    "cc": "JPN",
-    "pts": 612
+    "name": "Marina Bassols Ribera",
+    "cc": "ESP",
+    "pts": 599
    },
    {
     "r": 130,
-    "prev": 129,
-    "name": "Marina Bassols Ribera",
-    "cc": "ESP",
-    "pts": 609
-   },
-   {
-    "r": 131,
     "prev": 131,
     "name": "Dominika Salkova",
     "cc": "CZE",
     "pts": 597
+   },
+   {
+    "r": 131,
+    "prev": 160,
+    "name": "Rebeka Masarova",
+    "cc": "SUI",
+    "pts": 592
    },
    {
     "r": 132,
@@ -2005,128 +1999,128 @@
    {
     "r": 133,
     "prev": 134,
-    "name": "Emerson Jones",
-    "cc": "AUS",
-    "pts": 590
-   },
-   {
-    "r": 134,
-    "prev": 133,
     "name": "Robin Montgomery",
     "cc": "USA",
     "pts": 584
    },
    {
+    "r": 134,
+    "prev": 128,
+    "name": "Jeline Vandromme",
+    "cc": "BEL",
+    "pts": 582
+   },
+   {
     "r": 135,
-    "prev": 136,
-    "name": "Lucia Bronzetti",
-    "cc": "ITA",
-    "pts": 566
+    "prev": 142,
+    "name": "Elizara Yaneva",
+    "cc": "BUL",
+    "pts": 577
    },
    {
     "r": 136,
-    "prev": 135,
+    "prev": 152,
+    "name": "Joanna Garland",
+    "cc": "TPO",
+    "pts": 569
+   },
+   {
+    "r": 137,
+    "prev": 140,
+    "name": "Andrea Lazaro Garcia",
+    "cc": "ESP",
+    "pts": 566
+   },
+   {
+    "r": 138,
+    "prev": 136,
     "name": "Simona Waltert",
     "cc": "SUI",
     "pts": 561
    },
    {
-    "r": 137,
+    "r": 139,
     "prev": 137,
     "name": "Julia Riera",
     "cc": "ARG",
     "pts": 558
    },
    {
-    "r": 138,
+    "r": 140,
+    "prev": 133,
+    "name": "Emerson Jones",
+    "cc": "AUS",
+    "pts": 557
+   },
+   {
+    "r": 141,
     "prev": 138,
     "name": "Maddison Inglis",
     "cc": "AUS",
     "pts": 548
    },
    {
-    "r": 139,
-    "prev": 146,
+    "r": 142,
+    "prev": 139,
     "name": "Alice Tubello",
     "cc": "FRA",
     "pts": 543
    },
    {
-    "r": 140,
-    "prev": 143,
-    "name": "Andrea Lazaro Garcia",
-    "cc": "ESP",
-    "pts": 541
-   },
-   {
-    "r": 141,
-    "prev": 156,
+    "r": 143,
+    "prev": 141,
     "name": "Carol Young Suh Lee",
     "cc": "USA",
     "pts": 539
    },
    {
-    "r": 142,
-    "prev": 139,
-    "name": "Elizara Yaneva",
-    "cc": "BUL",
-    "pts": 535
-   },
-   {
-    "r": 143,
-    "prev": 140,
+    "r": 144,
+    "prev": 143,
     "name": "Shi Han",
     "cc": "CHN",
     "pts": 531
    },
    {
-    "r": 144,
-    "prev": 141,
+    "r": 145,
+    "prev": 144,
     "name": "Martyna Kubka",
     "cc": "POL",
     "pts": 528
    },
    {
-    "r": 145,
-    "prev": 142,
+    "r": 146,
+    "prev": 145,
     "name": "Tamara Zidansek",
     "cc": "SLO",
     "pts": 527
    },
    {
-    "r": 146,
-    "prev": 144,
-    "name": "Teodora Kostovic",
-    "cc": "SER",
-    "pts": 522
+    "r": 147,
+    "prev": 158,
+    "name": "Guiomar Maristany Zuleta De Reales",
+    "cc": "ESP",
+    "pts": 518
    },
    {
-    "r": 147,
+    "r": 148,
     "prev": 147,
     "name": "Ajla Tomljanovic",
     "cc": "AUS",
     "pts": 516
    },
    {
-    "r": 148,
-    "prev": 149,
-    "name": "Clara Burel",
-    "cc": "FRA",
-    "pts": 512
-   },
-   {
     "r": 149,
-    "prev": 150,
-    "name": "Jil Teichmann",
-    "cc": "SUI",
-    "pts": 507
+    "prev": 146,
+    "name": "Teodora Kostovic",
+    "cc": "SER",
+    "pts": 515
    },
    {
     "r": 150,
-    "prev": 151,
-    "name": "Rebecca Sramkova",
-    "cc": "SVK",
-    "pts": 507
+    "prev": 129,
+    "name": "Himeno Sakatsume",
+    "cc": "JPN",
+    "pts": 514
    }
   ]
  },
