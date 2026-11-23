@@ -10,7 +10,7 @@
   "de": "World Boxing Association",
   "en": "World Boxing Association"
  },
- "asof": "2026-11-22",
+ "asof": "2026-11-23",
  "champions": [
   {
    "div": {
@@ -423,6 +423,23 @@
    }
   },
   {
+   "date": "2027-01-09",
+   "place": "Coliseo de Puerto Rico, San Juan, Puerto Rico",
+   "f1": "Oscar Collazo",
+   "f2": "Joey Canoy",
+   "div": {
+    "bg": "Сламена категория",
+    "de": "Strohgewicht",
+    "en": "Minimumweight"
+   },
+   "title": {
+    "bg": "Световна титла на WBA",
+    "de": "WBA-WM",
+    "en": "WBA world title"
+   },
+   "note": "Am 17.11.2026 von Most Valuable Promotions angekündigt; auch Ring-Magazine-Titel; Co-Hauptkampf bei Serrano vs. Falzon"
+  },
+  {
    "date": "2027-01-11",
    "place": "Toyota Arena Tokyo, Tokio, Japan",
    "f1": "Shokichi Iwata",
@@ -561,27 +578,6 @@
     "bg": "Световна титла на WBA (редовна)",
     "de": "WBA-WM (World/regulär)",
     "en": "WBA world (regular) title"
-   }
-  },
-  {
-   "date": "2026-08-22",
-   "place": "Las Vegas, USA",
-   "f1": "Teofimo López",
-   "f2": "Rolando Romero",
-   "res": {
-    "bg": "мнозинско съдийско решение (116-112, 115-113, 114-114)",
-    "de": "Mehrheitsentscheidung nach Punkten (116-112, 115-113, 114-114)",
-    "en": "majority decision (116-112, 115-113, 114-114)"
-   },
-   "div": {
-    "bg": "Полусредна категория",
-    "de": "Weltergewicht",
-    "en": "Welterweight"
-   },
-   "title": {
-    "bg": "Световна титла на WBA",
-    "de": "WBA-WM",
-    "en": "WBA world title"
    }
   }
  ],
@@ -757,6 +753,10 @@
   {
    "n": "MiddleEasy, 18.11.2026",
    "u": "https://middleeasy.com/boxing/shokichi-iwata-rene-santiago-rematch-january11-unification/"
+  },
+  {
+   "n": "Most Valuable Promotions, 17.11.2026",
+   "u": "https://www.mostvaluablepromotions.com/oscar-collazo-vs-joey-canoy-world-championship-co-main-event-the-last-walk/"
   }
  ]
 }
