@@ -1247,28 +1247,44 @@
    "t1": "Frisch Auf Göppingen",
    "t2": "Füchse Berlin",
    "date": "2026-11-22",
-   "time": "15:00"
+   "time": "15:00",
+   "ft": [
+    31,
+    32
+   ]
   },
   {
    "r": 13,
    "t1": "SG Flensburg-Handewitt",
    "t2": "Rhein-Neckar-Löwen",
    "date": "2026-11-22",
-   "time": "16:30"
+   "time": "16:30",
+   "ft": [
+    40,
+    33
+   ]
   },
   {
    "r": 13,
    "t1": "HSV Hamburg",
    "t2": "SC Magdeburg",
    "date": "2026-11-22",
-   "time": "17:00"
+   "time": "17:00",
+   "ft": [
+    22,
+    33
+   ]
   },
   {
    "r": 13,
    "t1": "THW Kiel",
    "t2": "HSG Wetzlar",
    "date": "2026-11-22",
-   "time": "18:00"
+   "time": "18:00",
+   "ft": [
+    31,
+    22
+   ]
   },
   {
    "r": 14,
@@ -1411,49 +1427,57 @@
    "r": 16,
    "t1": "Rhein-Neckar-Löwen",
    "t2": "HC Erlangen",
-   "date": "2026-12-10"
+   "date": "2026-12-10",
+   "time": "19:00"
   },
   {
    "r": 16,
    "t1": "Bergischer HC",
    "t2": "Frisch Auf Göppingen",
-   "date": "2026-12-10"
+   "date": "2026-12-10",
+   "time": "19:00"
   },
   {
    "r": 16,
    "t1": "HBW Balingen-Weilstetten",
    "t2": "SG BBM Bietigheim",
-   "date": "2026-12-11"
+   "date": "2026-12-11",
+   "time": "20:00"
   },
   {
    "r": 16,
    "t1": "ThSV Eisenach",
    "t2": "TSV Hannover-Burgdorf",
-   "date": "2026-12-12"
+   "date": "2026-12-12",
+   "time": "19:00"
   },
   {
    "r": 16,
    "t1": "HSG Wetzlar",
    "t2": "SG Flensburg-Handewitt",
-   "date": "2026-12-13"
+   "date": "2026-12-13",
+   "time": "15:00"
   },
   {
    "r": 16,
    "t1": "Füchse Berlin",
    "t2": "HSV Hamburg",
-   "date": "2026-12-13"
+   "date": "2026-12-13",
+   "time": "16:30"
   },
   {
    "r": 16,
    "t1": "MT Melsungen",
    "t2": "TBV Lemgo",
-   "date": "2026-12-13"
+   "date": "2026-12-13",
+   "time": "18:00"
   },
   {
    "r": 16,
    "t1": "VfL Gummersbach",
    "t2": "TVB 1898 Stuttgart",
-   "date": "2026-12-13"
+   "date": "2026-12-13",
+   "time": "18:00"
   }
  ],
  "cups": [],
@@ -1501,6 +1525,10 @@
   {
    "n": "hessenschau.de – Handball-Bundesliga, 15. Spieltag",
    "u": "https://www.hessenschau.de/sport/ergebnisse-tabellen/handball-1bl100~_matchday-15.html"
+  },
+  {
+   "n": "hessenschau.de – Handball-Bundesliga, 16. Spieltag",
+   "u": "https://www.hessenschau.de/sport/ergebnisse-tabellen/handball-1bl100~_matchday-16.html"
   }
  ]
 }

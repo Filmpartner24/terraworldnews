@@ -1123,7 +1123,10 @@
    "time": "13:00",
    "t1": "Botev Vratsa",
    "t2": "CSKA 1948",
-   "ft": null
+   "ft": [
+    1,
+    1
+   ]
   },
   {
    "r": 15,
@@ -1131,7 +1134,10 @@
    "time": "15:30",
    "t1": "Levski Sofia",
    "t2": "Lokomotiv Sofia",
-   "ft": null
+   "ft": [
+    4,
+    1
+   ]
   },
   {
    "r": 15,
@@ -1139,7 +1145,10 @@
    "time": "18:00",
    "t1": "Botev Plovdiv",
    "t2": "CSKA Sofia",
-   "ft": null
+   "ft": [
+    3,
+    3
+   ]
   },
   {
    "r": 15,
@@ -1924,6 +1933,22 @@
   {
    "n": "Novinata.bg – програма XVII кръг",
    "u": "https://novinata.bg/sport/bfs-obqvi-programata-za-17-iq-krag-na-efbet-liga/"
+  },
+  {
+   "n": "БТА – Ботев (Враца) – ЦСКА 1948 1:1 (22.11.2026)",
+   "u": "https://www.bta.bg/bg/news/sport/1251970-tsska-1948-ne-uspya-da-pobedi-botev-vratsa-kato-gost"
+  },
+  {
+   "n": "БТА – Левски – Локомотив София 4:1 (22.11.2026)",
+   "u": "https://www.bta.bg/bg/news/sport/1252030-levski-postigna-ubeditelna-pobeda-sreshtu-lokomotiv-sofiya-i-pone-vremenno-se-"
+  },
+  {
+   "n": "БТА – Ботев (Пловдив) – ЦСКА 3:3 (22.11.2026)",
+   "u": "https://www.bta.bg/bg/news/sport/1252071-botev-plovdiv-i-tsska-ne-izlachiha-pobeditel-v-zrelishten-mach-s-shest-gola"
+  },
+  {
+   "n": "БТА – програма XVII кръг (31.10.2026)",
+   "u": "https://www.bta.bg/bg/news/sport/1236868-balgarskiyat-futbolen-sayuz-obyavi-programata-za-17-iya-krag-v-parva-liga"
   }
  ]
 }

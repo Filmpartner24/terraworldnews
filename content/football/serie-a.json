@@ -1269,7 +1269,10 @@
    "time": "12:30",
    "t1": "US Sassuolo Calcio",
    "t2": "Genoa CFC",
-   "ft": null
+   "ft": [
+    0,
+    2
+   ]
   },
   {
    "r": 12,
@@ -1277,7 +1280,10 @@
    "time": "15:00",
    "t1": "AC Milan",
    "t2": "Frosinone Calcio",
-   "ft": null
+   "ft": [
+    5,
+    1
+   ]
   },
   {
    "r": 12,
@@ -1285,7 +1291,10 @@
    "time": "18:00",
    "t1": "Bologna FC 1909",
    "t2": "Udinese Calcio",
-   "ft": null
+   "ft": [
+    1,
+    1
+   ]
   },
   {
    "r": 12,
@@ -1293,7 +1302,10 @@
    "time": "20:45",
    "t1": "Atalanta BC",
    "t2": "FC Internazionale Milano",
-   "ft": null
+   "ft": [
+    4,
+    4
+   ]
   },
   {
    "r": 12,
@@ -1309,7 +1321,10 @@
    "time": "20:45",
    "t1": "Juventus FC",
    "t2": "Venezia FC",
-   "ft": null
+   "ft": [
+    4,
+    0
+   ]
   },
   {
    "r": 13,
@@ -3772,6 +3787,26 @@
   {
    "n": "Sky Sport – Roma 3-0 Sassuolo (07.11.2026)",
    "u": "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-11/roma-sassuolo/risultato-gol"
+  },
+  {
+   "n": "ANSA – Sassuolo 0:2 Genoa (22.11.2026)",
+   "u": "https://www.ansa.it/sito/notizie/sport/calcio/2026/11/22/serie-a-il-genoa-batte-il-sassuolo-2-0_edba0a22-02ac-417a-9571-bd69271a2a33.html"
+  },
+  {
+   "n": "AC Milan – 5:1 gegen Frosinone (22.11.2026)",
+   "u": "https://www.acmilan.com/it/news/articoli/serie-a/2026-11-22/milan-forza-cinque-frosinone-battuto-a-san-siro"
+  },
+  {
+   "n": "Sportschau – Atalanta 4:4 Inter (22.11.2026)",
+   "u": "https://www.sportschau.de/live-und-ergebnisse/fussball/italien-serie-a/ma12131143/atalanta_inter-mailand/blitztabelle"
+  },
+  {
+   "n": "Adnkronos – Juventus 4:0 Venezia (22.11.2026, vorverlegt)",
+   "u": "https://www.adnkronos.com/sport/juve-venezia-oggi-serie-a-4-0_4USL95axNzKKgMLdzfcVGo"
+  },
+  {
+   "n": "ESPN – Bologna 1:1 Udinese (22.11.2026)",
+   "u": "https://www.espn.com/soccer/match/_/gameId/401875047/udinese-bologna"
   }
  ]
 }

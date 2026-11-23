@@ -1071,7 +1071,10 @@
    "time": "15:00",
    "t1": "Paris FC",
    "t2": "Angers SCO",
-   "ft": null
+   "ft": [
+    4,
+    0
+   ]
   },
   {
    "r": 11,
@@ -1079,7 +1082,10 @@
    "time": "17:15",
    "t1": "FC Lorient",
    "t2": "Stade Rennais FC 1901",
-   "ft": null
+   "ft": [
+    1,
+    1
+   ]
   },
   {
    "r": 11,
@@ -1087,7 +1093,10 @@
    "time": "20:45",
    "t1": "Olympique de Marseille",
    "t2": "Le Mans FC",
-   "ft": null
+   "ft": [
+    2,
+    3
+   ]
   },
   {
    "r": 12,
@@ -2862,6 +2871,18 @@
   {
    "n": "ESPN – Troyes 3:1 Le Havre (20.11.2026)",
    "u": "https://www.espn.co.uk/football/match/_/gameId/401876395"
+  },
+  {
+   "n": "Paris FC – 4:0 gegen Angers (22.11.2026)",
+   "u": "https://parisfc.fr/equipe-pro/le-paris-fc-se-regale-face-a-angers-et-signe-une-grande-victoire-collective-4-0/"
+  },
+  {
+   "n": "ESPN – Lorient 1:1 Rennes (22.11.2026)",
+   "u": "https://www.espn.com/soccer/match/_/gameId/401876401"
+  },
+  {
+   "n": "Footeo – Marseille 2:3 Le Mans (22.11.2026)",
+   "u": "https://news.footeo.com/2026/11/22/om-le-mans-2-3-mene-2-0-a-la-pause-le-promu-manceau-renverse-marseille-au-velodrome-18338"
   }
  ]
 }

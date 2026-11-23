@@ -1148,7 +1148,10 @@
    "time": "15:00",
    "t1": "Liverpool FC",
    "t2": "Manchester United FC",
-   "ft": null
+   "ft": [
+    4,
+    0
+   ]
   },
   {
    "r": 11,
@@ -1156,7 +1159,10 @@
    "time": "15:00",
    "t1": "Hull City AFC",
    "t2": "Brighton & Hove Albion FC",
-   "ft": null
+   "ft": [
+    2,
+    0
+   ]
   },
   {
    "r": 11,
@@ -3783,6 +3789,14 @@
   {
    "n": "Sporting Life – Premier League Ergebnisse (06./07.11.2026)",
    "u": "https://www.sportinglife.com/football/league-tables/english-premier-league/1/scores-and-fixtures"
+  },
+  {
+   "n": "ESPN – Liverpool 4:0 Manchester United (22.11.2026)",
+   "u": "https://www.espn.com/soccer/report/_/gameId/401878755"
+  },
+  {
+   "n": "theScore – Hull City 2:0 Brighton (22.11.2026)",
+   "u": "https://www.thescore.com/epl/event/98368"
   }
  ]
 }
