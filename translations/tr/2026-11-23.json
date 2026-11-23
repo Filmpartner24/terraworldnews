@@ -82,6 +82,32 @@
     "kl": "Berlin"
    }
   },
+  "berlin-internetwache-wieder-online-2026-11-23-b1830": {
+   "L": {
+    "body": [
+     "Berlin Polisi'nin internet karakoluna pazartesi öğleden sonradan beri yeniden erişilebiliyor. Tagesspiegel, dpa'ya dayanarak bunu bildirdi. Cumartesi akşamından beri vatandaşlar çevrimiçi suç duyurusunda bulunamıyor, ihbar iletemiyor ve toplantı bildiriminde bulunamıyordu.",
+     "dpa'nın edindiği bilgilere göre nedeni, altyapıdaki teknolojide bulunan bir güvenlik açığıydı; portal ise dpa'ya göre, yazılım güncellemeleri yüklenene kadar önlem amacıyla kapatılmıştı. Polis bunu resmen doğrulamadı; bir sözcü yalnızca bir uzman biriminin ilgilendiği teknik bir sorundan söz etti. Açığın saldırganlar tarafından kullanılıp kullanılmadığı belirsiz.",
+     "İnternet karakolu Ekim ayında da zaman zaman devre dışı kalmıştı: bir kez hatalı bir yazılım güncellemesi nedeniyle, bir kez de PHP programlama dilindeki küresel bir açık yüzünden; bu açık nedeniyle birkaç Berlin ve Brandenburg kurumu sitelerini kısıtlamıştı. Acil durumlarda 110 geçerli olmaya devam ediyor."
+    ],
+    "d": "Yaklaşık iki günlük kesintinin ardından Berlinliler yeniden çevrimiçi suç duyurusunda bulunabiliyor ve ihbar iletebiliyor. Portal cumartesi akşamından beri kapalıydı.",
+    "t": "Berlin Polisi'nin internet karakolu kesintinin ardından yeniden erişilebilir"
+   },
+   "at": "2026-11-23T17:04Z",
+   "h": "5bf56faa40c0",
+   "rev": [
+    "Indirect speech: 'portal ... kapatılmıştı' reads as a plain fact; the German has 'sei ... abgeschaltet worden' (reported by dpa), so the attribution must be kept.",
+    "Grammar: 'internet karakoluna ... yeniden erişilebiliyor' lacks 'is accessible since' sense; 'seit Montagnachmittag' should be 'pazartesi öğleden sonradan beri'."
+   ],
+   "rev_dbg": [
+    2,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin Emniyet Müdürlüğü (Sembolik fotoğraf)",
+    "kl": "Berlin"
+   }
+  },
   "berlin-lichtenberg-klinikbrand-brandstiftung-2026-11-23-b1100": {
    "L": {
     "body": [
@@ -141,6 +167,31 @@
     "kl": "Berlin"
    }
   },
+  "bobov-dol-zatvor-zakrit-2026-11-23-b1830": {
+   "L": {
+    "body": [
+     "Bakanlığın pazartesi günü yaptığı açıklamaya göre, Bulgaristan'ın batısındaki Bobov Dol'da bulunan cezaevi 20 Kasım itibarıyla kapatıldı. Bakanlık gerekçe olarak binanın çok kötü durumda olmasını ve burada yapılacak ek yatırımların değmeyeceğini gösterdi.",
+     "Yaklaşık 200 mahkûmun kademeli olarak Samoranovo'daki cezaevine nakledilmesi planlanıyor, personel de oraya taşınıyor. Taşınmanın Aralık ortasına kadar tamamlanması öngörülüyor. Yeni kompleks 400 mahkûm kapasitesine sahip; ayrıca bir okul, atölyeler, bir spor sahası, bir şapel ve bir geçiş konutu da bulunuyor. Kompleks, Norveç Finansman Mekanizması'ndan finanse edildi.",
+     "Bakanlığın açıklamasına göre bu adım, infaz kurumunun maliyetlerini ve idari yükünü azaltıyor ve Bulgaristan'ın uluslararası yükümlülüklerini yerine getiriyor. Adalet Bakanı Nikolay Naydenov kapatma kararını birkaç gün önce duyurmuştu. Bakanlık, personelin işine son verilmeyeceğini söyledi."
+    ],
+    "d": "Bulgaristan Adalet Bakanlığı, harap durumdaki Bobov Dol cezaevini kapattı. Yaklaşık 200 mahkûm ve personel, Aralık ortasına kadar Samoranovo'daki yeni binaya taşınacak.",
+    "t": "Bobov Dol cezaevi kapatıldı – 200 mahkûm Samoranovo'ya nakledilecek"
+   },
+   "at": "2026-11-23T17:04Z",
+   "h": "0f482eb5e68d",
+   "rev": [
+    "Weekday \"Pazartesi\" should be lowercase per TDK (\"pazartesi\")",
+    "\"Ek yatırımların değmeyeceği\" was presented as the ministry's reasoning, which is fine; the indirect speech about personnel already has an attribution, so no change needed"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Bobov Dol (Sembolik fotoğraf)"
+   }
+  },
   "brentford-everton-monday-night-thiago-gesperrt-2026-11-23-b1100": {
    "L": {
     "body": [
@@ -189,6 +240,31 @@
    ],
    "x": {
     "img.alt": "Sofya'daki Garibaldi Meydanı ve Podkrepa sendikasının binası (Sembolik fotoğraf)"
+   }
+  },
+  "crowdstrike-zscaler-2026-11-23-b1830": {
+   "L": {
+    "body": [
+     "ABD'li siber güvenlik şirketi CrowdStrike, rakibi Zscaler'ı satın almak istiyor. Pazartesi günü duyurulan işlem, Zscaler'ı yaklaşık 43,9 milyar dolar olarak değerliyor ve tamamen hisse senedi ile ödenecek. Zscaler hissedarlarının hisse başına 1,135 CrowdStrike hissesi alması öngörülüyor; bu, şirket açıklamalarına göre hisse başına yaklaşık 260 dolara ve cuma günkü kapanış fiyatına göre yaklaşık yüzde 34 prime karşılık geliyor.",
+     "CrowdStrike dizüstü bilgisayar ve akıllı telefon gibi uç cihazların korunmasında, Zscaler ise “Zero Trust” ilkesine dayalı bulut tabanlı ağ güvenliğinde uzmanlaşmış durumda. “Güvenlik eskiden düşmanı dışarıda tutmakla ilgiliydi. Bugün güvenlik, yapay zekânın içeri alınabilmesinin ön koşulu”, diye açıklayan CrowdStrike CEO'su George Kurtz konuştu. Zscaler CEO'su Jay Chaudhry ise yapay zekâ ajanlarının hızla yeni en zayıf halka haline geleceği uyarısında bulundu.",
+     "Anlaşmanın tamamlanmasının ardından mevcut CrowdStrike hissedarlarının birleşen şirketin yaklaşık yüzde 84,1'ini elinde tutması öngörülüyor. Satın almanın CrowdStrike'ın 2028 mali yılının ikinci yarısında tamamlanması planlanıyor; bunun için yetkili makamların ve Zscaler hissedarlarının onayı gerekiyor. AP'ye göre borsa öncesi işlemlerde CrowdStrike hisseleri yüzde 8'den fazla düşerken, Zscaler hisseleri yüzde 17 yükseldi."
+    ],
+    "d": "ABD'li siber güvenlik şirketi yalnızca hisse senedi ile ödeme yapacak ve yüzde 34 prim öneriyor. Her iki şirket de anlaşmayı yapay zekânın yol açtığı artan risklerle gerekçelendiriyor.",
+    "t": "CrowdStrike, Zscaler'ı yaklaşık 44 milyar dolara satın almak istiyor"
+   },
+   "at": "2026-11-23T17:04Z",
+   "h": "2c4f9f272cd0",
+   "rev": [
+    "Quote sentence in paragraph 2 is broken: the awkward construction 'diyen ... açıklama yaptı' is ungrammatical",
+    "'Gegner' was rendered as 'rakip' (competitor), but it means 'adversary/attacker' in this context"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "CrowdStrike'ın Sunnyvale'deki ofisi (Sembolik fotoğraf)"
    }
   },
   "einkaufsmanagerindex-deutschland-november-2026-11-23-b1100": {
@@ -327,6 +403,34 @@
     "img.alt": "Esmaeil Baghaei (Arşiv fotoğrafı)"
    }
   },
+  "kalte-progression-soeder-2026-11-23-b1830": {
+   "L": {
+    "body": [
+     "Federal hükümet, CSU lideri Markus Söder'in gelecek yıl soğuk progresyonun telafi edilmesi yönündeki talebini reddetti. Hükümet Sözcüsü Stefan Kornelius, Şansölye Friedrich Merz'in (CDU) telafiye prensipte olumlu baktığını söyledi. Kornelius, konunun bütçe görüşmelerinde ele alındığını ve bu görüşmelerin tamamlandığını belirtti.",
+     "dpa'nın verdiği bilgiye göre, 2027'de tam bir telafinin federal hükümete, eyaletlere ve belediyelere toplam yaklaşık 4,2 milyar euroya mal olacağı belirtiliyor. Söder, \"Bild am Sonntag\" gazetesine Bavyera'nın maliyetlere katılacağını söylemişti. Maliye Bakanı Lars Klingbeil'in (SPD) bir sözcüsü, küçük ve orta gelirlilerle çocuklu aileleri rahatlatması planlanan gelir vergisi reformuna işaret etti.",
+     "Söder'e Saksonya Başbakanı Michael Kretschmer'den (CDU) destek geldi. Kretschmer, \"Kölner Stadt-Anzeiger\" gazetesine \"Her gün çalışıp katkı sağlayan insanların yanında durmalıyız\" dedi. Kuzey Ren-Vestfalya Başbakanı Hendrik Wüst (CDU) ise telafiyi arzu edilir ancak uygulanabilir bulmadığını belirtti. Federal Meclis'in 2027 bütçesini cuma günü kabul etmesi bekleniyor."
+    ],
+    "d": "Hükümet, CSU lideri Söder'in talep ettiği 2027 soğuk progresyon telafisini reddetti. Saksonya Başbakanı Kretschmer, Söder'e destek verdi.",
+    "t": "Soğuk progresyon: Federal hükümet Söder'in talebini reddetti"
+   },
+   "at": "2026-11-23T17:04Z",
+   "h": "2474b1575974",
+   "rev": [
+    "Quotation marks „ “ are German style and should be Turkish quotation marks",
+    "The statement about the cost of a full compensation is rendered as plain fact; it should be conditional/attributed",
+    "\"jeden Tag etwas leisten\" translated as \"bir şeyler üreten\" (produce), which changes the meaning; should be \"çalışan/katkı sağlayan\"",
+    "Missing nuance: Klingbeil's spokesperson reference and the plan are fine; \"Federal Meclis\" is acceptable",
+    "Bundesregierung rendered \"federal hükümete\" for Bund in the cost sentence; Bund means the federal government, acceptable"
+   ],
+   "rev_dbg": [
+    5,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Markus Söder (Arşiv fotoğrafı)"
+   }
+  },
   "ki-ausverkauf-asien-kospi-2026-11-23-b0800": {
    "L": {
     "body": [
@@ -349,6 +453,34 @@
    ],
    "x": {
     "img.alt": "Seul'deki Kore Borsası (Korea Exchange) (Sembolik fotoğraf)"
+   }
+  },
+  "kircher-var-2026-11-23-b1830": {
+   "L": {
+    "body": [
+     "Video yardımcı hakem (VAR), Alman profesyonel futbolunda bu sezon belirgin biçimde daha seyrek müdahale ediyor. DFB Schiri GmbH'nin başkanı Knut Kircher, dpa'nın aktardığına göre Frankfurter Allgemeine Zeitung'a şunları söyledi: “Bundesliga'da geçen yılın değerinin yaklaşık yüzde 10 altındayız. İkinci ligde müdahale sayısı yüzde 20 daha az.”",
+     "Kircher'in verdiği bilgiye göre Bundesliga'nın ilk dokuz haftasının ardından 12 On-Field-Review yapıldı; önceki sezonun aynı döneminde bu sayı 20'ydi. Bir müdahalenin ortalama süresi 122 saniyeden 73 saniyeye düştü: “Bugün 73 saniyedeyiz.”",
+     "Eski FIFA hakemi, düşüşü bu sezondan itibaren geçerli olan çizgiye bağlıyor: VAR artık yalnızca birinci veya ikinci kamera açısında görülebilen “net” ya da “açık” hataları arayacak. Kircher'e göre bu durum, hararetli tartışmalara artık “çok daha seyrek” yol açıyor."
+    ],
+    "d": "Knut Kircher'e göre Bundesliga'da VAR müdahaleleri yaklaşık yüzde 10, 2. Lig'de yüzde 20 azaldı. Bir müdahale ortalama olarak artık yalnızca 73 saniye sürüyor.",
+    "t": "Hakem patronu Kircher: VAR Bundesliga'da daha seyrek ve daha kısa müdahale ediyor"
+   },
+   "at": "2026-11-23T17:04Z",
+   "flag": [
+    "Zitate fehlen (5 statt 6)"
+   ],
+   "h": "2c3088a11910",
+   "rev": [
+    "Son cümlede anlam bozuk: \"çok daha seyrek olarak ... yol açıyor\" ifadesi \"viel seltener zu hitzigen Debatten\" anlamını yanlış veriyor; aktarma kipi de korunmalı",
+    "\"2. Lig'de\" ve \"ikinci ligde\" ifadeleri tutarlı değil ama anlam hatası yok; değiştirilmedi"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Knut Kircher (Arşiv fotoğrafı)"
    }
   },
   "lennart-karl-plan-b-2026-11-23-b1530": {
@@ -407,6 +539,33 @@
    ],
    "x": {
     "img.alt": "Teknik direktör Urs Fischer (Arşiv fotoğrafı, 2022)"
+   }
+  },
+  "maresca-napoli-2026-11-23-b1830": {
+   "L": {
+    "body": [
+     "Manchester City Teknik Direktörü Enzo Maresca, takımının içinde bulunduğu zayıf dönemi Pep Guardiola döneminin ardından yaşanan köklü değişimin doğal bir sonucu olarak görüyor. İtalyan teknik adam, SSC Napoli ile oynanacak Şampiyonlar Ligi maçı öncesindeki pazartesi günkü basın toplantısında “Bana göre bu sürecin bir parçası, çünkü bu bir reset gibi” dedi. City, sezona Premier Lig'de art arda yedi galibiyetle başlamasının ardından dört maçtır kazanamıyor.",
+     "Etihad Stadyumu'ndaki maç salı günü saat 21:00'de başlayacak. Napoli'de City'nin eski oyuncusu Kevin De Bruyne forma giyiyor. Maresca, De Bruyne hakkında şunları söyledi: “Kevin burada oynadı ve önemli bir oyuncuydu, fantastik bir oyuncu.”",
+     "Matheus Nunes, ayak bileği sorunlarının ardından yeniden göreve hazır. Maresca'ya göre tek eksik Antoine Semenyo. City, dört maçta üç galibiyetle Şampiyonlar Ligi puan tablosunda yedinci sırada yer alıyor."
+    ],
+    "d": "Manchester City Teknik Direktörü Enzo Maresca, Guardiola döneminin ardından Premier Lig'de yaşanan dört maçlık galibiyetsizlik serisini normal buluyor. City, salı günü SSC Napoli'yi ağırlıyor.",
+    "t": "Maresca, City'deki kötü gidişe “reset” dedi – Napoli ve De Bruyne maçı öncesi"
+   },
+   "at": "2026-11-23T17:04Z",
+   "h": "3770744ce9d1",
+   "rev": [
+    "Weekdays 'Salı'/'Pazartesi' incorrectly capitalised mid-sentence (TDK: lowercase)",
+    "Quotation marks in headline inconsistent with the other quotes; 'reset' in the headline should be quoted properly",
+    "'Kevin war hier' rendered as 'burada oynadı' – minor, kept as is",
+    "Teaser: 'Salı günü' capitalised"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    1
+   ],
+   "x": {
+    "img.alt": "Enzo Maresca (Arşiv fotoğrafı)"
    }
   },
   "nato-pv-berlin-merz-rutte-polen-2026-11-23-b0800": {
@@ -486,6 +645,35 @@
    ],
    "x": {
     "img.alt": "Tim Klüssendorf (Arşiv fotoğrafı)"
+   }
+  },
+  "russland-atomwaffe-all-2026-11-23-b1830": {
+   "L": {
+    "body": [
+     "Alman hükümeti, Rusya’nın bu yıl içinde bir nükleer silahı uydu aracılığıyla uzaya çıkarabileceğine ilişkin medya haberlerini “çok ciddiye alıyor”. hükümet sözcüsü Stefan Kornelius pazartesi günü Berlin’de yaptığı açıklamada, şu anda acil bir tehdidin bulunmadığını söyledi. Kornelius aynı zamanda aşırı tedirginliğe karşı uyardı.",
+     "WDR, NDR ve “Süddeutsche Zeitung”un araştırmalarına göre, aralarında BND’nin de bulunduğu Batılı istihbarat servisleri Kasım ayı başında bilgi alışverişinde bulundu; bu bilgilere göre “Sputnik-S” uydusu 60 gün içinde fırlatılabilir. Haberlere göre Alman Silahlı Kuvvetleri Uzay Komutanlığı, fırlatmanın daha Aralık ayında gerçekleşebileceğini değerlendiriyor.",
+     "Dışişleri Bakanlığı, nükleer silahların uzaya konuşlandırılmasını 1967 tarihli Uzay Antlaşması’nın “çarpıcı bir ihlali” olarak nitelendirdi. Kremlin sözcüsü Dmitri Peskov, haberlere ilişkin elinde herhangi bir bilgi bulunmadığını söyledi; Rusya’nın büyükelçiliği ise suçlamaları temelsiz diyerek reddetti."
+    ],
+    "d": "Medyaya göre Batılı istihbarat servisleri, Rusya’nın yakında nükleer başlıklı bir uydu fırlatabileceği uyarısında bulundu. Hükümet acil bir tehdit görmüyor.",
+    "t": "Uzayda nükleer silah mı? Alman hükümeti Rusya raporlarını “çok ciddiye alıyor”"
+   },
+   "at": "2026-11-23T17:04Z",
+   "h": "643e8ca61d53",
+   "rev": [
+    "Weekday \"Pazartesi\" wrongly capitalised (TDK: lowercase \"pazartesi\")",
+    "\"Hükümet Sözcüsü\" capitalised as a common title before a name; should be \"Hükümet Sözcüsü\" → \"hükümet sözcüsü\"",
+    "\"Kremlin Sözcüsü\" title capitalised; should be lowercase",
+    "Teaser: \"Batılı istihbarat servisleri ... uyarısında bulundu\" is stated as fact of the warning; \"Medyaya göre\" attribution is kept, so acceptable",
+    "The \"Berlin Büyükelçiliği\" is an addition; German says only \"die russische Botschaft\"",
+    "Peskov spelling: established Turkish spelling is \"Peskov\", fine"
+   ],
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Stefan Kornelius (Arşiv fotoğrafı)"
    }
   },
   "selenskyj-libyen-korvette-merkury-bengasi-2026-11-23-b1100": {
@@ -580,6 +768,33 @@
    ],
    "x": {
     "img.alt": "Razgrad (Sembolik fotoğraf)"
+   }
+  },
+  "trump-doj-newsom-todesstrafe-2026-11-23-b1830": {
+   "L": {
+    "body": [
+     "ABD Başkanı Donald Trump, pazartesi öğleden sonra yerel saatle (MEZ 22.30) Washington'daki Adalet Bakanlığı'nda, Beyaz Saray'a göre Amerikan ailelerinin korunmasına adanmış bir konuşma yapacak. ABD medyasının haberlerine göre konuşmanın merkezinde, Kaliforniya Valisi Gavin Newsom'un 548 hükümlünün idam cezasını şartlı tahliye olanağı bulunmayan müebbet hapse çevirme planı yer alacak. Trump'ın yanında Adalet Bakanı Todd Blanche ile FBI Direktörü Kash Patel'in de yer alacağı belirtiliyor.",
+     "Beyaz Saray'ın açıklamasına göre Kaliforniyalı on cinayet kurbanının yakınları da etkinliğe katılacak. Newsom, planını 5 Kasım'da duyurmuştu. Hükümlülerin birden fazla kez ağır suçlardan mahkûm edilmiş olması nedeniyle, önce eyaletin Yüksek Mahkemesinin bir tavsiye kararı vermesi gerekiyor; Sacramento'daki yönetim bu kararı beklemek istiyor.",
+     "Newsom, adımını “devletin onayladığı öldürmenin Kaliforniya'nın değerleriyle bağdaşmadığını” söyleyerek gerekçelendirdi. Bu, Trump'ın iki yıldan kısa bir süre içinde Adalet Bakanlığı'ndaki ikinci konuşması olacak; konuşma, Cumhuriyetçilerin ara seçimlerde uğradığı ağır kayıpların birkaç hafta ardından geliyor."
+    ],
+    "d": "ABD Başkanı, pazartesi akşamı (MEZ) Adalet Bakanlığı'nda Kaliforniya Valisi'nin 548 idam cezasını dönüştürme planına karşı konuşacak.",
+    "t": "Trump, 548 idam cezasının dönüştürülmesi nedeniyle Newsom'a saldırmayı planlıyor"
+   },
+   "at": "2026-11-23T17:04Z",
+   "h": "07613482f257",
+   "rev": [
+    "Weekday capitalised mid-sentence in teaser (Pazartesi) – TDK requires lowercase",
+    "Quote paraphrase in the last paragraph: wording slightly awkward but attributed; Sacramento is a proper name (left as is)",
+    "\"Auftritt\" rendered as \"konuşma\" is acceptable; \"MEZ 22.30\" ok"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Gavin Newsom (Arşiv fotoğrafı)",
+    "kl": "ABD"
    }
   },
   "trump-iran-angriffe-neujahr-2026-11-23-b0800": {

@@ -77,6 +77,33 @@
     "kl": "Berlín"
    }
   },
+  "berlin-internetwache-wieder-online-2026-11-23-b1830": {
+   "L": {
+    "body": [
+     "La comisaría en línea de la Policía de Berlín vuelve a estar accesible desde la tarde del lunes. Así lo informa el Tagesspiegel citando a dpa. Desde la noche del sábado, los ciudadanos no podían presentar denuncias en línea, ni facilitar información ni notificar concentraciones.",
+     "Según información de dpa, el motivo fue una vulnerabilidad de seguridad en la tecnología subyacente; el portal habría sido desconectado por precaución hasta que se instalaran actualizaciones de software. La Policía no lo confirmó oficialmente; un portavoz habló únicamente de un problema técnico del que se ocupa un servicio especializado. No está claro si los atacantes aprovecharon la vulnerabilidad.",
+     "Ya en octubre la comisaría en línea había dejado de funcionar temporalmente: una vez por una actualización de software defectuosa y otra por una vulnerabilidad mundial en el lenguaje de programación PHP, por la que varias autoridades de Berlín y Brandeburgo restringieron sus páginas. En caso de emergencia sigue vigente el número 110."
+    ],
+    "d": "Tras casi dos días de caída, los berlineses pueden volver a presentar denuncias y facilitar información en línea. El portal estaba desconectado desde el sábado por la noche.",
+    "t": "La comisaría en línea de la Policía de Berlín vuelve a estar accesible tras una caída"
+   },
+   "at": "2026-11-23T17:04Z",
+   "h": "5bf56faa40c0",
+   "rev": [
+    "\"Internetwache\" left untranslated in headline and body; it is a common noun (online police station), so translate it",
+    "\"Imagen simbólica\" should be \"Imagen simbólica\" in lowercase style \"imagen simbólica\" (minor, left as is)",
+    "Emergency number: \"el 110\" is fine but \"sigue siendo válido\" is unnatural; use \"sigue vigente el 110\" (Germany's emergency number)"
+   ],
+   "rev_dbg": [
+    3,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "Jefatura de Policía de Berlín (Imagen simbólica)",
+    "kl": "Berlín"
+   }
+  },
   "berlin-lichtenberg-klinikbrand-brandstiftung-2026-11-23-b1100": {
    "L": {
     "body": [
@@ -124,6 +151,32 @@
    "x": {
     "img.alt": "Planta de Mercedes-Benz en Berlín-Marienfelde (Foto de archivo)",
     "kl": "Berlín"
+   }
+  },
+  "bobov-dol-zatvor-zakrit-2026-11-23-b1830": {
+   "L": {
+    "body": [
+     "La prisión de Bobov Dol, en el oeste de Bulgaria, fue cerrada con efecto desde el 20 de noviembre, según informó el Ministerio de Justicia el lunes. Como motivos, el ministerio señaló el estado muy deteriorado del edificio y que no merecía la pena realizar más inversiones en él.",
+     "Unos 200 reclusos serán trasladados de forma gradual al centro penitenciario de Samoranovo, y el personal también se mudará allí. La mudanza debería concluir a mediados de diciembre. El nuevo complejo tiene capacidad para 400 presos y cuenta además con una escuela, talleres, un campo deportivo, una capilla y un alojamiento de transición; fue financiado con el Mecanismo Financiero Noruego.",
+     "Según el ministerio, la medida reduce los costes y la carga administrativa de la autoridad penitenciaria y cumple compromisos internacionales de Bulgaria. El ministro de Justicia, Nikolay Naydenov, había anunciado el cierre hace unos días. El ministerio afirmó que no se recortará personal."
+    ],
+    "d": "El Ministerio de Justicia de Bulgaria ha cerrado la deteriorada prisión de Bobov Dol. Unos 200 reclusos y el personal se trasladarán al nuevo edificio de Samoranovo a más tardar a mediados de diciembre.",
+    "t": "Cierra la prisión de Bobov Dol: 200 presos serán trasladados a Samoranovo"
+   },
+   "at": "2026-11-23T17:04Z",
+   "h": "0f482eb5e68d",
+   "rev": [
+    "Spanish convention: 'Imagen simbólica' should be lowercase in parentheses; 'Mecanismo Financiero Noruego' is fine",
+    "Minister name spelled in Spanish transliteration inconsistent with German 'Nikolaj Najdenow'; 'Nikolay Naydenov' is an accepted Spanish transliteration, left unchanged",
+    "Teaser says 'se mudarán a mediados de diciembre' while German says 'bis Mitte Dezember' (by mid-December), which is a deadline"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Bobov Dol (imagen simbólica)"
    }
   },
   "brentford-everton-monday-night-thiago-gesperrt-2026-11-23-b1100": {
@@ -179,6 +232,27 @@
    ],
    "x": {
     "img.alt": "Plaza Garibaldi de Sofía con la sede del sindicato Podkrepa (imagen simbólica)"
+   }
+  },
+  "crowdstrike-zscaler-2026-11-23-b1830": {
+   "L": {
+    "body": [
+     "La empresa estadounidense de ciberseguridad CrowdStrike quiere adquirir a su competidora Zscaler. La transacción, anunciada el lunes, valora Zscaler en unos 43.900 millones de dólares y se pagará íntegramente en acciones. Los accionistas de Zscaler recibirían 1,135 acciones de CrowdStrike por cada acción; según las compañías, esto equivale a unos 260 dólares por acción y a una prima de alrededor del 34 % sobre el precio de cierre del viernes.",
+     "CrowdStrike está especializada en la protección de dispositivos finales como portátiles y teléfonos inteligentes; Zscaler, en seguridad de red basada en la nube según el principio «Zero Trust». «Antes, la seguridad consistía en mantener fuera al adversario. Hoy, la seguridad es el requisito para dejar entrar a la IA», afirmó el consejero delegado de CrowdStrike, George Kurtz. El consejero delegado de Zscaler, Jay Chaudhry, advirtió de que los agentes de IA se convertirían rápidamente en el nuevo eslabón más débil.",
+     "Tras el cierre, los actuales accionistas de CrowdStrike poseerían alrededor del 84,1 % de la empresa fusionada. La adquisición debería completarse en la segunda mitad del ejercicio fiscal 2028 de CrowdStrike; para ello se necesita la aprobación de las autoridades y de los accionistas de Zscaler. En la preapertura, según AP, las acciones de CrowdStrike cayeron más de un 8 %, mientras que los títulos de Zscaler subieron un 17 %."
+    ],
+    "d": "La empresa estadounidense de ciberseguridad pagará exclusivamente en acciones y ofrece una prima del 34 %. Ambas compañías justifican el acuerdo por los crecientes riesgos de la inteligencia artificial.",
+    "t": "CrowdStrike quiere adquirir Zscaler por unos 44.000 millones de dólares"
+   },
+   "at": "2026-11-23T17:04Z",
+   "h": "2c4f9f272cd0",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Oficina de CrowdStrike en Sunnyvale (Imagen simbólica)"
    }
   },
   "einkaufsmanagerindex-deutschland-november-2026-11-23-b1100": {
@@ -305,6 +379,33 @@
     "img.alt": "Esmaeil Baghaei (Foto de archivo)"
    }
   },
+  "kalte-progression-soeder-2026-11-23-b1830": {
+   "L": {
+    "body": [
+     "El Gobierno federal ha rechazado la exigencia del líder de la CSU, Markus Söder, de compensar la progresión en frío el próximo año. El canciller Friedrich Merz (CDU) apoya en principio una compensación, dijo el portavoz del Gobierno, Stefan Kornelius. Según afirmó, la cuestión ya se trató en las deliberaciones presupuestarias, y estas han concluido.",
+     "Una compensación completa en 2027 costaría en conjunto a la Federación, los Länder y los municipios unos 4.200 millones de euros, según datos de dpa. Söder había dicho a «Bild am Sonntag» que Baviera participaría en los costes. Un portavoz del ministro de Finanzas, Lars Klingbeil (SPD), remitió a la prevista reforma del impuesto sobre la renta, que debe aliviar a los ingresos bajos y medios y a las familias con hijos.",
+     "Söder recibió el respaldo del presidente de Sajonia, Michael Kretschmer (CDU): «Tenemos que estar al lado de las personas que rinden cada día», dijo al «Kölner Stadt-Anzeiger». El presidente de Renania del Norte-Westfalia, Hendrik Wüst (CDU), considera que una compensación es deseable, pero no factible. El Bundestag debe aprobar el presupuesto de 2027 el viernes."
+    ],
+    "d": "El Gobierno rechaza compensar la progresión en frío en 2027, como exige el líder de la CSU, Söder. El jefe del Gobierno de Sajonia, Kretschmer, respalda a Söder.",
+    "t": "Progresión en frío: el Gobierno federal rechaza la propuesta de Söder"
+   },
+   "at": "2026-11-23T17:04Z",
+   "h": "2474b1575974",
+   "rev": [
+    "Los \"Länder\" se mantienen, pero \"Renania del Norte-Westfalia\" es la grafía incorrecta; la forma establecida es \"Renania del Norte-Westfalia\" → \"Renania del Norte-Westfalia\" (sin cambio) y el cargo \"pr",
+    "\"Kretschmer, respalda\" en el teaser lleva una coma innecesaria entre sujeto y verbo en la aposición; correcto como aposición, sin cambio.",
+    "\"Merz apoya en principio una compensación\" es estilo indirecto sin marcador en la oración, pero queda atribuido por \"dijo el portavoz\"; se mantiene.",
+    "Se corrige la grafía de \"Renania del Norte-Westfalia\" a \"Renania del Norte-Westfalia\" solo si hace falta: la forma correcta en español es \"Renania del Norte-Westfalia\"."
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Markus Söder (Foto de archivo)"
+   }
+  },
   "ki-ausverkauf-asien-kospi-2026-11-23-b0800": {
    "L": {
     "body": [
@@ -327,6 +428,32 @@
    ],
    "x": {
     "img.alt": "Bolsa Korea Exchange en Seúl (imagen simbólica)"
+   }
+  },
+  "kircher-var-2026-11-23-b1830": {
+   "L": {
+    "body": [
+     "El asistente de vídeo (VAR) interviene este año bastante menos en el fútbol profesional alemán. «En la Bundesliga estamos aproximadamente un diez por ciento por debajo del valor del año anterior», dijo Knut Kircher, director de DFB Schiri GmbH, a la Frankfurter Allgemeine Zeitung, según dpa. «En la segunda división tenemos incluso un 20 por ciento menos de intervenciones».",
+     "Según Kircher, tras las primeras nueve jornadas de la Bundesliga hubo 12 revisiones en el campo (on-field reviews); en el mismo periodo de la temporada anterior fueron 20. La duración media de una intervención bajó de 122 a 73 segundos: «Hoy estamos en 73 segundos».",
+     "El ex árbitro de la FIFA atribuye el descenso a la línea vigente desde esta temporada: el VAR solo debe buscar errores «claros» u «obvios» que se vean en el primer o el segundo ángulo de cámara. Según Kircher, esto provoca «con mucha menos frecuencia» debates acalorados."
+    ],
+    "d": "Según Knut Kircher, las intervenciones del VAR en la Bundesliga han bajado un 10 % y en la 2. Liga un 20 %. Una intervención dura ahora de media solo 73 segundos.",
+    "t": "Kircher: el VAR interviene menos y más rápido en la Bundesliga"
+   },
+   "at": "2026-11-23T17:04Z",
+   "h": "2c3088a11910",
+   "rev": [
+    "\"On-Field-Reviews\" left untranslated/German hyphenated form",
+    "Awkward word order \"«mucho menos» a menudo\" in last sentence; also \"provoca\" loses reported-speech nuance (attribution kept via \"Según Kircher\")",
+    "\"Frankfurter Allgemeine Zeitung\" should take feminine article: a la Frankfurter Allgemeine Zeitung"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Knut Kircher (Foto de archivo)"
    }
   },
   "lennart-karl-plan-b-2026-11-23-b1530": {
@@ -375,6 +502,31 @@
    ],
    "x": {
     "img.alt": "El entrenador Urs Fischer (Foto de archivo, 2022)"
+   }
+  },
+  "maresca-napoli-2026-11-23-b1830": {
+   "L": {
+    "body": [
+     "El entrenador del Manchester City, Enzo Maresca, ve la mala racha de su equipo como una consecuencia natural del cambio tras la era de Pep Guardiola. «Para mí esto forma parte del proceso, porque es como un reset», dijo el italiano el lunes en la rueda de prensa previa al partido de Liga de Campeones contra el SSC Nápoles. El City lleva cuatro partidos de Premier League sin ganar, después de haber empezado la temporada con siete victorias ligueras consecutivas.",
+     "El partido en el Etihad Stadium comenzará el martes a las 21:00. En el Nápoles juega el exjugador del City Kevin De Bruyne, sobre quien Maresca dijo: «Kevin estuvo aquí y fue un jugador importante, un jugador fantástico».",
+     "Matheus Nunes vuelve a estar disponible tras sus problemas de tobillo; según Maresca, la única baja es Antoine Semenyo. El City es séptimo en la clasificación de la Liga de Campeones con tres victorias en cuatro partidos."
+    ],
+    "d": "El entrenador del Manchester City, Enzo Maresca, considera normal la racha de cuatro partidos de Premier League sin ganar tras la era Guardiola. El martes el City recibe al SSC Nápoles.",
+    "t": "Maresca califica la crisis del City de «reset» – antes del duelo con Nápoles y De Bruyne"
+   },
+   "at": "2026-11-23T17:04Z",
+   "h": "3770744ce9d1",
+   "rev": [
+    "\"frühere City-Profi\" was rendered as \"excentro\", which wrongly implies a midfielder; it should be \"exjugador\"",
+    "\"Nápoles\" in the headline is inconsistent with \"SSC Nápoles\" in the body, but this is acceptable, so it is left unchanged"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Enzo Maresca (Foto de archivo)"
    }
   },
   "nato-pv-berlin-merz-rutte-polen-2026-11-23-b0800": {
@@ -453,6 +605,31 @@
    ],
    "x": {
     "img.alt": "Tim Klüssendorf (foto de archivo)"
+   }
+  },
+  "russland-atomwaffe-all-2026-11-23-b1830": {
+   "L": {
+    "body": [
+     "El Gobierno alemán se toma «muy en serio» los informes de medios según los cuales Rusia podría poner en órbita un arma nuclear mediante un satélite este mismo año. Por el momento no existe una amenaza inmediata, dijo el portavoz del Gobierno, Stefan Kornelius, el lunes en Berlín. Al mismo tiempo advirtió contra un nerviosismo excesivo.",
+     "Según las pesquisas de WDR, NDR y «Süddeutsche Zeitung», servicios de inteligencia occidentales, entre ellos el BND, intercambiaron a principios de noviembre información según la cual el satélite «Sputnik-S» podría lanzarse en un plazo de 60 días. Según los informes, el Mando Espacial de la Bundeswehr considera posible un lanzamiento ya en diciembre.",
+     "El Ministerio de Exteriores calificó el despliegue de armas nucleares en el espacio como una «flagrante violación» del Tratado del Espacio Exterior de 1967. El portavoz del Kremlin, Dmitri Peskov, dijo que no disponía de información sobre los informes; la embajada rusa rechazó las acusaciones por infundadas."
+    ],
+    "d": "Según medios, servicios occidentales advierten de que Rusia podría lanzar pronto un satélite con ojiva nuclear. El Gobierno no ve una amenaza inmediata.",
+    "t": "¿Armas nucleares en el espacio? Berlín se toma «muy en serio» los informes sobre Rusia"
+   },
+   "at": "2026-11-23T17:04Z",
+   "h": "643e8ca61d53",
+   "rev": [
+    "«Süddeutsche Zeitung» is a proper name (newspaper) and stays as is; no change needed",
+    "\"Por el momento no existiría una amenaza inmediata\": the conditional wrongly introduces doubt about the government's statement; it should be reported speech (\"no existe\" with attribution)"
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Stefan Kornelius (Foto de archivo)"
    }
   },
   "selenskyj-libyen-korvette-merkury-bengasi-2026-11-23-b1100": {
@@ -557,6 +734,33 @@
    ],
    "x": {
     "img.alt": "Razgrad (Imagen simbólica)"
+   }
+  },
+  "trump-doj-newsom-todesstrafe-2026-11-23-b1830": {
+   "L": {
+    "body": [
+     "El presidente de EE. UU., Donald Trump, pronunciará el lunes por la tarde, hora local (22.30 horas, hora central europea), un discurso en el Departamento de Justicia en Washington que, según la Casa Blanca, estará dedicado a la protección de las familias estadounidenses. Según medios estadounidenses, el eje será el plan del gobernador de California, Gavin Newsom, de conmutar las condenas a muerte de 548 reos por cadena perpetua sin libertad condicional. Junto a Trump comparecerían el secretario de Justicia, Todd Blanche, y el director del FBI, Kash Patel.",
+     "Según la Casa Blanca, asistirán familiares de diez víctimas de asesinato de California. Newsom anunció su propósito el 5 de noviembre. Como los condenados lo han sido varias veces por delitos graves, el Tribunal Supremo del estado debe emitir antes una recomendación; el Gobierno en Sacramento quiere esperarla.",
+     "Newsom justificó su decisión diciendo que «matar con sanción estatal es incompatible con los valores de California». Es la segunda intervención de Trump en el Departamento de Justicia en menos de dos años, y llega pocas semanas después de las graves pérdidas de los republicanos en las elecciones de mitad de mandato."
+    ],
+    "d": "El presidente de EE. UU. hablará el lunes por la noche (hora central europea) en el Departamento de Justicia contra el plan del gobernador de California de conmutar 548 condenas a muerte.",
+    "t": "Trump arremeterá contra Newsom por la conmutación de 548 condenas a muerte"
+   },
+   "at": "2026-11-23T17:04Z",
+   "h": "07613482f257",
+   "rev": [
+    "Teaser: el German dice «Montagabend (MEZ)», el borrador dice «lunes por la tarde (hora local)»; se corrige para coincidir con el original",
+    "Sacramento se mantiene: es nombre propio, no requiere traducción",
+    "La cita indirecta de Newsom ya lleva atribución («justificó... diciendo que»), pero el verbo «es» en indicativo dentro de la cita está bien por ser cita textual"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Gavin Newsom (Foto de archivo)",
+    "kl": "EE. UU."
    }
   },
   "trump-iran-angriffe-neujahr-2026-11-23-b0800": {
