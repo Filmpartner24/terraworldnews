@@ -6,3 +6,11 @@ https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=jso
 https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term=10.1371/journal.pone.0353787[doi] pm_plos.json
 https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353787 plos_article.html
 https://link.springer.com/article/10.1007/s40279-026-02428-1 springer_article.html
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42873141&rettype=abstract&retmode=xml pm_42873141.xml
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42632303&rettype=abstract&retmode=xml pm_42632303.xml
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=29934848&rettype=abstract&retmode=xml pm_29934848.xml
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=12525859&rettype=abstract&retmode=xml pm_12525859.xml
+https://api.crossref.org/works/10.1002/oby.70349 crossref_oby.json
+https://www.who.int/europe/news-room/fact-sheets/item/physical-activity who_pa.html
+https://www.dge.de/gesunde-ernaehrung/faq/wie-viel-wasser-sollte-man-trinken/ dge_wasser.html
+https://www.efsa.europa.eu/en/efsajournal/pub/1459 efsa_water.html
