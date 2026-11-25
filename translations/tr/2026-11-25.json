@@ -1,6 +1,36 @@
 {
  "date": "2026-11-25",
  "items": {
+  "abrego-garcia-spanien-selbstausreise-2026-11-25-b1830": {
+   "L": {
+    "body": [
+     "Kilmar Abrego Garcia çarşamba günü Madrid'e ulaştı. AP haber ajansının aktardığına göre, minibüse binerken yumruğunu havaya kaldırdı ve gazetecilerle konuşmadı. Demokrat Senatör Chris Van Hollen, Abrego Garcia'nın bir Afrika ülkesine sınır dışı edilme riskini göze almak yerine kendi isteğiyle ülkeden ayrıldığını doğruladı. Liberya, Uganda ve Esvatini gündemdeydi.",
+     "Göçmenlik makamı ICE, X'te yaptığı açıklamada uçuş ücretini kendisinin ödediğini ve “hiçbir teşvik” almadığını belirtti. ICE, onun ABD'ye “ASLA” geri alınmayacağını söyledi. Van Hollen, Abrego Garcia'nın artık “güvende, seçtiği bir ülkede ve özgür” olmasından dolayı “rahatladığını” söyledi.",
+     "Maryland'li adam, mahkeme yasağına rağmen Mart 2025'te El Salvador'daki dev CECOT cezaevine sınır dışı edilmişti; hükümet hata yapıldığını kabul etti. Yüksek Mahkeme'nin kararının ardından Haziran 2025'te geri döndü. Bir federal yargıç, insan kaçakçılığı iddianamesini “intikam amaçlı” gerekçelerle reddetti; hükümet itiraz etti. Abrego Garcia, MS-13 üyesi olduğu iddiasını reddediyor."
+    ],
+    "d": "2025'te yanlışlıkla El Salvador'a sınır dışı edilen Salvadorlu, ABD'den gönüllü olarak ayrıldı. Bir Afrika ülkesi yerine İspanya'yı seçti. ICE: “ASLA” geri dönemeyecek.",
+    "t": "Abrego Garcia Madrid'e indi: Trump yönetimiyle yaşanan sınır dışı anlaşmazlığı sona erdi"
+   },
+   "at": "2026-11-25T17:01Z",
+   "h": "c0e1d5f33f15",
+   "rev": [
+    "Headline: 'sürdürülen sınır dışı davası' is inaccurate for 'Abschiebestreit'; it should be 'anlaşmazlık'.",
+    "Teaser: 'ICE: “ASLA” geri dönemeyecek' is acceptable, but 'Bir Afrika ülkesi yerine İspanya'yı seçti' is fine.",
+    "'Van Hollen ... rahatlık duyduğunu ifade etti' is awkward: 'erleichtert' should be 'rahatladığını'.",
+    "'Yüksek Mahkeme'nin kararı' should be 'Yüksek Mahkeme kararı' for naturalness; the German says Supreme Court judgment, which is acceptable as is.",
+    "Missing hedge/info: the German says the judge dismissed the charge, and 'Anklage' was 'abgewiesen' – the draft says 'suçlamasını ... reddetti', which is acceptable but 'davayı düşürdü' is more precise",
+    "Mild: 'geri alınmayacağını' → 'geri alınmayacağını' is kept; the attribution is present."
+   ],
+   "rev_dbg": [
+    6,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Madrid-Barajas Havalimanı (Sembolik fotoğraf)",
+    "kl": "ABD"
+   }
+  },
   "arbeitsinspektion-streik-podkrepa-2026-11-25-b0800": {
    "L": {
     "body": [
@@ -83,6 +113,35 @@
     "kl": "Berlin"
    }
   },
+  "berlin-schleuser-razzia-2026-11-25-b1830": {
+   "L": {
+    "body": [
+     "Berlin Polisi ve Federal Polis, Salı akşamından geceye kadar on arama kararını uyguladı: sekizi Biesdorf, Marzahn, Alt-Hohenschönhausen ve Friedrichsfelde'de, ikisi Brandenburg eyaletindeki Ahrensfelde'de. Operasyonun arka planında, yabancıların iddiaya göre ticari amaçla ve çete halinde ülkeye kaçak sokulmasına ilişkin soruşturma bulunuyor.",
+     "Yetkililerin bildirdiğine göre 40 yaşındaki şüpheli, çok sayıda Vietnam vatandaşının ülkeye girişini organize etmiş ve onları kimi zaman aylarca sekiz müstakil evde ve bir daire içinde barındırmış olabilir. Aralarında altı çocuğun da bulunduğu 58 kişiye rastlandı. Bunlardan on biri hakkında iddiaya göre izinsiz ikamet nedeniyle soruşturma yürütülüyor.",
+     "Ahrensfelde'de soruşturmacılar, altı haneli rakamların orta aralığında nakit para, altın külçeler ve mücevher ele geçirdi. Ayrıca elektronik cihazlar ile orada bulunan kişilerin hiçbirine ait olmayan çok sayıda pasaport ve kimlik belgesine el konuldu. 40 yaşındaki şüpheli geçici olarak gözaltına alındı; Çarşamba günü bir sulh ceza hâkimi, savcılığın talebi üzerine tutuklama kararı verdi. Masumiyet karinesi geçerlidir."
+    ],
+    "d": "Polis ve Federal Polis, Berlin ve Ahrensfelde'de on adreste arama yaptı. 40 yaşındaki bir erkeğin çete halinde yabancıları ülkeye kaçak soktuğu öne sürülüyor. Nakit para, altın külçeler ve pasaportlar bulundu.",
+    "t": "Kaçakçılara baskın: Evlerde 58 kişi bulundu – 40 yaşındaki şüpheli tutuklandı"
+   },
+   "at": "2026-11-25T17:01Z",
+   "h": "2308fb548bb2",
+   "rev": [
+    "Teaser: \"soll ... eingeschleust haben\" was rendered as \"şüphelenilmektedir\", which is clumsy and the grammar is wrong; reworded with a hedge",
+    "Headline: \"40-Jähriger in U-Haft\" should read as the arrest of a suspect; the draft is acceptable",
+    "Body 1: \"Einschleusen\" and \"gewerbsmäßig\" should be rendered more precisely (\"iddiaya göre\" plus \"ticari\" is acceptable); \"Arka planda\" is unnatural, so it was changed to \"Soruşturma ... ilişkin\"",
+    "Body 2: \"Einfamilienhäusern\" is a \"müstakil ev\" and \"Eigentumswohnung\" is a \"mülk daire\", which is unnatural; changed to \"kendi mülkü olan bir daire\"; the sentence about children was garbled",
+    "Body 3: \"Bargeld im mittleren sechsstelligen Bereich\" was rendered nonsensically; \"müfettişler\" is wrong for \"Ermittler\" (soruşturmacılar/ekipler); \"Ermittlungsrichter\" is a \"sulh ceza hâkimi\", which "
+   ],
+   "rev_dbg": [
+    5,
+    5,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin Polisi'nin bir müdahale aracı (Sembolik fotoğraf)",
+    "kl": "Berlin"
+   }
+  },
   "berlin-spandau-brand-seniorenheim-69-jaehriger-tot-2026-11-25-b0800": {
    "L": {
     "body": [
@@ -145,6 +204,61 @@
    ],
    "x": {
     "img.alt": "Boyko Borisov (Arşiv fotoğrafı)"
+   }
+  },
+  "china-protestnote-boschanow-2026-11-25-b1830": {
+   "L": {
+    "body": [
+     "Milletvekili Bozhidar Bozhanov'un açıklamasına göre Çin'in Sofya Büyükelçiliği, Bulgaristan Meclisi'ne bir protesto notası gönderdi. Notanın gerekçesi, “Evet, Bulgaristan” eş genel başkanının, Bulgar kurumlarına yönelik siber casusluğun arkasında Pekin destekli hacker gruplarının olabileceğine dair sözleri oldu. Bozhanov notanın içeriğini kamuoyuyla paylaşmadı; konuyu çarşamba günü Facebook'ta duyurdu, BTA haberi aktardı.",
+     "Dijital Dönüşüm Bakanı Ivan Vasilev, 18 Kasım'da Bulgaristan idaresine yönelik bilinen en uzun casusluk operasyonunun durdurulduğunu bildirmişti. Vasilev'e göre operasyonda en az 130 GB'lık devlet belgesi, yani 62 milyondan fazla sayfa, yasa dışı yollarla indirilmişti.",
+     "Bozhanov, büyükelçiliğin tutumunu “diplomatik bir skandal” olarak nitelendirdi. “Çin gibi güçlü bir devletten bile gelse, bir nota benim tutumumu değiştirmeyecek” diye yazdı. Yabancı büyükelçiliklerin Bulgar kurumlarına notaları yalnızca Dışişleri Bakanlığı aracılığıyla iletebileceğini belirtti. Bakanlığı yazılı olarak bilgilendirmek istediğini söyleyen Bozhanov, hükümeti Pekin karşısında boyun eğmekle suçladı."
+    ],
+    "d": "Bozhidar Bozhanov, Bulgaristan idaresine yönelik saldırının arkasında Pekin destekli hackerlar olabileceğini düşünmüştü. Bozhanov, büyükelçiliklere değil vatandaşlara karşı sorumlu olduğunu söyledi.",
+    "t": "Siber casusluk: Çin, Milletvekili Bozhanov nedeniyle Meclis'e protesto notası gönderdi"
+   },
+   "at": "2026-11-25T17:01Z",
+   "h": "234d7862abe0",
+   "rev": [
+    "Teaser: 'Pekin destekli hackerlar olabileceğini düşünmüştü' is acceptable; no change needed.",
+    "Body 1: 'Anlass sind Äußerungen' sentence is a fragment ('sözleri.') without a verb; made grammatical.",
+    "Body 2: 'Vasilev'e göre' attribution is present; indirect speech preserved."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Bozhidar Bozhanov (Arşiv fotoğrafı)"
+   }
+  },
+  "eintracht-fans-krawalle-stuttgart-82-urteile-2026-11-25-b1830": {
+   "L": {
+    "body": [
+     "Eintracht Frankfurt'un VfB Stuttgart ile oynadığı Bundesliga maçı öncesindeki ağır olayların üzerinden tam üç yıl geçtikten sonra Frankfurt Cumhuriyet Savcılığı bir bilanço çıkardı. Savcılığın açıklamasına göre tüm soruşturmalar tamamlandı. Taraftar kesiminden 126 kişi hakkında soruşturma başlatıldı, 89 kişi hakkında iddianame düzenlendi; suçlamalar ağırlıklı olarak ağır nitelikli kamu barışını bozma, kısmen de kolluk görevlilerine fiili saldırı ve yaralama oldu.",
+     "82 karar ve 18 ceza emri çıkarıldı. Verilen hapis cezaları toplam 49 yıl 6 ayı buluyor; cezalar, ertelenmiş altı aydan ertelenmeyen iki yıla kadar değişiyor. Para cezaları ve yükümlülükler yaklaşık 443.000 avro tutarında. Altı dava para yükümlülüğü karşılığında durduruldu, bir sanık failin kendisi olmadığı kesinleştiği için beraat etti.",
+     "Savcılığa göre 25 Kasım 2023'teki olayların başlangıcı, 40 numaralı blokta giriş kontrollerinde yaşanan ve bir görevlinin saldırıya uğradığı tartışmalardı. Kuzeybatı tribününden yaklaşık 300 kişi daha olaya katıldı ve polise şişe, piroteknik malzeme ve yangın söndürücülerle saldırdı. 50 polis yaralandı, maddi hasar yaklaşık 137.000 avro oldu. Polis memurlarının olası usulsüz davranışlarına ilişkin 22 ön incelemeden 19'u kapatıldı, üç olayda soruşturma başlatılmadı. Eintracht maçı o gün 1-2 kaybetti."
+    ],
+    "d": "Frankfurt Cumhuriyet Savcılığı, Kasım 2023'teki olaylara ilişkin tüm soruşturmaları tamamladı. Hapis cezaları toplam 49,5 yıla, para cezaları ve yükümlülükler yaklaşık 443.000 avroya ulaşıyor.",
+    "t": "Stuttgart maçındaki olaylardan üç yıl sonra: Eintracht taraftarlarına 82 karar"
+   },
+   "at": "2026-11-25T17:01Z",
+   "h": "940558dadfad",
+   "rev": [
+    "'Prüfvorgänge' in the German refers to review procedures; the Turkish rendering is acceptable. 'Ausschreitungen' in the headline was rendered as 'olaylar', which is fine.",
+    "Teaser: 'tuttu' for 'summieren sich' (present tense) – changed to the present tense for consistency.",
+    "'Schwerer Landfriedensbruch' – 'ağır toplumsal barışı bozma' is awkward; the established Turkish rendering is 'ağır nitelikli kamu barışını bozma'.",
+    "'Körperverletzung' rendered as 'kasten yaralama' – this adds 'intentionally', which the German does not say; changed to 'yaralama'.",
+    "'Verilen hapis cezaları toplam 49 yıl 6 ay tuttu' – tense changed to the present, matching the German 'summieren sich'.",
+    "'Tätlicher Angriff auf Vollstreckungsbeamte' – 'icra memurlarına' could be misread as bailiffs; changed to 'kolluk görevlilerine'."
+   ],
+   "rev_dbg": [
+    6,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Frankfurt am Main'daki stadyum (Arşiv fotoğrafı)"
    }
   },
   "eu-kommission-sorge-deutscher-haushalt-2026-11-25-b0800": {
@@ -508,6 +622,27 @@
     "img.alt": "Kylian Mbappé (Arşiv fotoğrafı)"
    }
   },
+  "sporting-manchester-united-pochettino-champions-league-2026-11-25-b1830": {
+   "L": {
+    "body": [
+     "Mauricio Pochettino için çarşamba akşamı (21:00) Estádio José Alvalade'de Manchester United teknik direktörü olarak ilk Şampiyonlar Ligi maçı var. Premier Lig'deki ilk maçı pazar günü Liverpool deplasmanında 0-4'lük yenilgiyle kötü geçmişti; United ligde 19. sırada. Kulüp, Şampiyonlar Ligi'nde dört maçta iki galibiyet aldı. Pochettino maç öncesinde “Kırılgan olduğumuzu söylemiyorum, güçlü olduğumuzu söylüyorum, harika bir zihniyetimiz ve tavrımız var” dedi.",
+     "United, AS Roma maçında gördüğü ikinci sarı karttan dolayı cezalı olan Matheus Cunha'dan yoksun. Carlos Baleba, Manuel Ugarte ve Benjamin Šeško sakatlıkları nedeniyle yok; Luke Shaw, Marcus Rashford ve Karl Darlow için soru işaretleri var. Savunmacı Leny Yoro ise oynayabilecek durumda: İngiltere Futbol Federasyonu FA'nın bağımsız komisyonu, itiraz üzerine Liverpool maçında gördüğü kırmızı kartı iptal etti.",
+     "Sporting, Galatasaray, Lens ve Shakhtar karşısında aldığı galibiyetlerle topladığı dokuz puanla lig aşamasında onuncu sırada. 4 Kasım'dan bu yana görevde olan teknik direktör Paulo Fonseca, United'ın değerlendirilmesinin zor olduğunu ancak “çok güçlü oyunculardan oluşan çok güçlü bir takım” olacağını söyledi. United, son resmi maçı Kasım 2007'de 2-1 kazanmıştı."
+    ],
+    "d": "Manchester United bugün saat 21:00'de Sporting deplasmanında – cezalı Cunha yok, ancak kırmızı kartı iptal edilen Yoro var. Pochettino: “Güçlü olduğumuzu söylüyorum.”",
+    "t": "Anfield'da 0-4'ten sonra: Pochettino, Lizbon'da United ile Şampiyonlar Ligi'ne çıkıyor"
+   },
+   "at": "2026-11-25T17:01Z",
+   "h": "a0ee183313f4",
+   "rev_dbg": [
+    5,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Mauricio Pochettino (Arşiv fotoğrafı, 2026)"
+   }
+  },
   "steinmeier-kenia-ruto-2026-11-25-b1530": {
    "L": {
     "body": [
@@ -532,6 +667,33 @@
    ],
    "x": {
     "img.alt": "Almanya Cumhurbaşkanı Frank-Walter Steinmeier (Arşiv fotoğrafı)"
+   }
+  },
+  "terror-18-festnahmen-jugendliche-2026-11-25-b1830": {
+   "L": {
+    "body": [
+     "Federal Savcılık çarşamba günü, Almanya'daki bir terör örgütüne üye oldukları iddia edilen üç gencin gözaltına alınmasını sağladı. Karlsruhe'deki kurumun bildirdiğine göre BKA'nın memurları Teltow-Fläming (Brandenburg) ilçesinde, Helmstedt (Aşağı Saksonya) ilçesinde ve Itzehoe'de (Schleswig-Holstein) operasyon düzenledi. Birkaç eyalette toplam on yerde arama yapıldı; yaklaşık 70 BKA memuru ile eyalet polisleri görev aldı.",
+     "Grubun, “Terror 18” adlı internet topluluğundan çıktığı iddia ediliyor. Federal Savcılığa göre amaç, devletle mücadele etmek ve halkı tedirgin etmekti; bunun için, diğer yöntemlerin yanı sıra, kundaklama ve yabancıların ile siyasi rakiplerin öldürülmesi öngörülmüş. Ekim ayı sonunda Winsen'deki (Luhe) bir mülteci barınağına kundaklama saldırısı planlandığı, ancak polisin bunu önlediği öne sürülüyor. Federal Savcılık, “Bu grubun üyelerini siyasi ve demokratik düzene yönelik derin bir ret birleştiriyor” dedi.",
+     "Üç şüpheli üyenin daha zaten tutuklu olduğu belirtildi; Federal Savcılık, soruşturmaları Flensburg, Lüneburg ve Rostock'tan devraldı. Dört genç hakkında ise destek verdikleri iddiasıyla soruşturma yürütülüyor. Gözaltına alınanların çarşamba günü soruşturma hakimine çıkarılması planlanıyordu. Soruşturmaların başlamasına Anayasayı Koruma Teşkilatı'ndan gelen ihbarlar neden oldu. Masumiyet karinesi geçerlidir."
+    ],
+    "d": "Aşırı sağcı olduğu öne sürülen grubun kundaklama saldırıları ve cinayetler planladığı belirtiliyor; bunlar arasında Winsen (Luhe)'deki bir mülteci barınağına yönelik saldırı da var. Gözaltına alınanlar 14 ve 15 yaşında.",
+    "t": "“Terror 18”: Federal Savcılık terör şüphesiyle üç gencin gözaltına alınmasını sağladı"
+   },
+   "at": "2026-11-25T17:01Z",
+   "h": "74d963c2d22a",
+   "rev": [
+    "Indirect speech \"Ziel sei es gewesen\" rendered as plain fact (\"amaçlanmış\") without clear attribution; \"Brandstiftungen und Tötungen\" distorted: arson and killings are both means, draft says \"başta ku",
+    "\"Federal Savcılık\" is not the established name; use \"Federal Başsavcılık\" (Bundesanwaltschaft)",
+    "Missing \"Karlsruher Behörde\" attribution is fine; \"Üç şüpheli üyenin daha\" is awkward",
+    "Teaser: \"İddiaya göre ... belirtiliyor\" redundant and clumsy; \"Gözaltına alınanlar\" fine"
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Grafik: TERRA WORLD NEWS"
    }
   },
   "trump-administration-debate-iran-leaders-2026-11-25-b1100": {
@@ -589,6 +751,32 @@
     "kl": "ABD"
    }
   },
+  "trump-tsmc-spatenstich-arizona-2026-11-25-b1830": {
+   "L": {
+    "body": [
+     "ABD Başkanı Donald Trump'ın 4 Aralık'ta TSMC'nin ABD'nin Arizona eyaletindeki Phoenix çip fabrikasının bir sonraki genişlemesi için düzenlenecek temel atma töreninde yer alması planlanıyor. Haberi ilk olarak Bloomberg haber ajansı verdi; bir Beyaz Saray yetkilisi tarihi önceden, adı açıklanmadan doğruladı. Buna göre törende TSMC yöneticilerinin yanı sıra tedarikçilerin, müşterilerin ve iş ortaklarının bulunması bekleniyor. Törene ilişkin diğer ayrıntılar henüz kamuoyuna açıklanmadı.",
+     "Tayvanlı şirket, dünyanın en büyük sözleşmeli yarı iletken üreticisi. TSMC, Temmuz 2026'da Arizona'ya ek olarak 100 milyar dolar yatırım yapacağını ve Phoenix'in kuzeyindeki tesisi yeni üretim ve paketleme tesisleriyle genişleteceğini duyurmuştu. Bloomberg'e göre tesiste şimdiden Nvidia'nın Blackwell çipleri üretiliyor; ayrıca TSMC, Phoenix'te AMD ve Apple için de üretim yapıyor.",
+     "Tarih, ABD'nin çip politikasına ilişkin tartışmaların sertleştiği bir döneme denk geliyor: Bloomberg'e göre Nvidia CEO'su Jensen Huang, temel atma töreninden bir gün önce, 3 Aralık'ta ABD Senatosu'nda yapay zekâ çiplerine yönelik ihracat kontrolleri konusunda ifade vermesi bekleniyor. Huang'ın Phoenix'e de gidip gitmeyeceği belirsiz."
+    ],
+    "d": "ABD Başkanı Trump'ın, Beyaz Saray kaynaklarına göre TSMC'nin Phoenix tesisinin bir sonraki genişleme aşamasının temel atma törenine katılması planlanıyor. Çip şirketi orada 100 milyar dolar daha yatırım yapıyor.",
+    "t": "Arizona'dan çip: Trump'ın 4 Aralık'ta TSMC'nin genişlemesi için temel atması bekleniyor"
+   },
+   "at": "2026-11-25T17:01Z",
+   "h": "f052c72e5dc4",
+   "rev": [
+    "Teaser: 'Şirket 100 milyar dolar daha yatırım yapıyor' lost the context of the Phoenix plant ('dort'); clarified.",
+    "Teaser: 'will ... dabei sein' and 'nach Angaben' kept, but the headline 'soll' is rendered as 'bekleniyor', which is acceptable.",
+    "Body: 'Huang ... ifade verecek' – 'soll laut Bloomberg ... aussagen' is reported; attribution is kept ('Bloomberg'e göre'), but the conditional nuance is lost; changed to 'ifade verecek' → 'ifade verm"
+   ],
+   "rev_dbg": [
+    3,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Arizona'nın Phoenix kentinde inşaat halindeki TSMC tesisi (Arşiv fotoğrafı, 2023)"
+   }
+  },
   "union-blockiert-reichensteuer-arbeitsrecht-2026-11-25-b0800": {
    "L": {
     "body": [
@@ -614,6 +802,35 @@
    ],
    "x": {
     "img.alt": "CDU, CSU ve SPD'nin 2025 koalisyon sözleşmesinin imzalanması (Arşiv fotoğrafı)"
+   }
+  },
+  "wehretat-2027-bundestag-2026-11-25-b1830": {
+   "L": {
+    "body": [
+     "Bundestag, çarşamba öğleden sonra Savunma Bakanı Boris Pistorius'un (SPD) bütçesini ikinci okumada görüştü. 2027 için toplam yaklaşık 139,4 milyar euro öngörülüyor; Bundestag'ın verdiği bilgiye göre bu tutar Soğuk Savaş'ın sona ermesinden bu yana en yüksek değer ve 2026'dan 31,2 milyar euro daha fazla. Normal 14. bütçe bölümü 82,7 milyar euro'dan 109,7 milyar euro'ya yükseliyor, buna Bundeswehr Özel Fonu'ndan 29,6 milyar euro ekleniyor. Bütçe Komisyonu bu payı daha önce 305 milyon euro azaltmıştı.",
+     "Böylece askeri tedarik için 60 milyar euro'nun üzerinde kaynak ayrılmış oluyor; içinde bulunulan yılda bu rakam 45 milyar euro idi. Kışlalara ve konaklama tesislerine (11,5 milyar yerine 19,3 milyar euro) ile araştırma ve geliştirmeye (1,6 milyar yerine 2,9 milyar euro) da belirgin şekilde daha fazla para aktarılıyor. Personel için 26,7 milyar euro planlandı. Ayrıca 60. bütçe bölümünde, başta Ukrayna olmak üzere saldırıya uğrayan devletlere destek için 11,6 milyar euro'nun üzerinde kaynak öngörülüyor.",
+     "Daha önce parlamento, 5,99 milyar euro ile bir önceki yılın hafif altında kalan Dışişleri Bakanlığı bütçesini görüşmüştü. Yeşiller ve Sol Parti, Eylül ayındaki ilk okumada, askeri harcamalar artarken insani yardım ve kriz önleme alanlarında tasarruf edilmesini eleştirmişti."
+    ],
+    "d": "Savunma bütçesi 2027 öğleden sonra oylamaya sunuldu: normal bütçeden yaklaşık 110 milyar euro artı Özel Fon'dan 29,6 milyar euro – 2026'ya göre 31,2 milyar euro fazla.",
+    "t": "Soğuk Savaş'tan bu yana rekor: Bundestag 139 milyar euroluk savunma bütçesini görüştü"
+   },
+   "at": "2026-11-25T17:01Z",
+   "h": "8240069dd26d",
+   "rev": [
+    "Teaser: 'zur Abstimmung stand' was rendered as 'oylamaya sunuldu', and the draft lacks the date context; the meaning is acceptable, so left unchanged",
+    "Weekday 'Çarşamba' is wrongly capitalised mid-sentence (TDK)",
+    "Month 'Eylül ayındaki' is fine; no change needed",
+    "Procurement sentence: 'nach 45 Milliarden im laufenden Jahr' is rendered awkwardly ('bu tutar ... 45 milyar euro'), reads as if the whole amount were 45",
+    "Draft 'Özel Fon' is vague for 'Sondervermögen' in the teaser, but acceptable",
+    "Last sentence: the object construction 'tasarruf edilmesini eleştirmişti' lost the 'dass' clause structure but keeps the meaning"
+   ],
+   "rev_dbg": [
+    6,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Boris Pistorius (Arşiv fotoğrafı, 2018)"
    }
   }
  }
