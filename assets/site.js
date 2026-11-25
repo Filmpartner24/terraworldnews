@@ -83,7 +83,7 @@
   function load(i,play){
     idx=(i+T.length)%T.length;var t=T[idx];
     T.forEach(function(b){b.classList.toggle('on',b===t);b.removeAttribute('aria-current')});t.setAttribute('aria-current','true');
-    A.src=t.dataset.src;peaks=dec(t.dataset.w);
+    A.src=t.dataset.src;peaks=dec(t.dataset.w);pend=-1;full(t.dataset.src,idx);
     ti.textContent=t.querySelector('.ti').textContent;pt.textContent=parts[t.dataset.p-1];
     tot.textContent=fmt(+t.dataset.d);cur.textContent='0:00';W.setAttribute('aria-valuemax',t.dataset.d);
     draw();
@@ -102,7 +102,22 @@
   A.addEventListener('loadedmetadata',function(){tot.textContent=fmt(A.duration)});
   A.volume=+vol.value;vol.addEventListener('input',function(){A.volume=+vol.value});
   function pos(e){var r=W.getBoundingClientRect();return Math.min(1,Math.max(0,(e.clientX-r.left)/r.width))}
-  function seek(f){if(!A.getAttribute('src'))load(idx,false);var go=function(){A.currentTime=f*A.duration;if(A.paused)A.play()};if(A.duration)go();else{A.addEventListener('loadedmetadata',go,{once:true});A.load()}}
+  // server streams without byte ranges -> load the whole file once as blob so seeking works
+  var blobs={},pend=-1;
+  function full(src,i){
+    if(blobs[src]){swap(blobs[src]);return}
+    fetch(src).then(function(r){return r.blob()}).then(function(b){blobs[src]=URL.createObjectURL(b);if(idx===i&&T[idx].dataset.src===src)swap(blobs[src])}).catch(function(){});
+  }
+  function swap(u){
+    if(A.src===u)return;var t=pend>=0?pend:A.currentTime,pl=!A.paused||pend>=0&&P.classList.contains('wantplay');
+    A.src=u;A.addEventListener('loadedmetadata',function(){try{A.currentTime=t}catch(e){}if(pl)A.play();pend=-1;P.classList.remove('wantplay')},{once:true});A.load();
+  }
+  function seek(f){
+    if(!A.getAttribute('src'))load(idx,false);
+    var src=T[idx].dataset.src,d=A.duration||+T[idx].dataset.d;
+    if(blobs[src]&&A.src===blobs[src]){A.currentTime=f*d;if(A.paused)A.play();return}
+    pend=f*d;P.classList.add('wantplay');cur.textContent=fmt(pend);
+  }
   W.addEventListener('click',function(e){seek(pos(e))});
   W.addEventListener('mousemove',function(e){hover=pos(e);draw()});
   W.addEventListener('mouseleave',function(){hover=-1;draw()});
