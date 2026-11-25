@@ -429,6 +429,11 @@ section{position:relative}
  .sc-list{max-height:none}
 }
 @media (prefers-reduced-motion:reduce){.sc-player.playing .sc-tr.on .eq i{animation:none;height:70%}}
+.sc-wip{margin:clamp(1.2rem,3vw,1.6rem) 0 0;padding:.8rem 1rem;border:1px solid rgba(95,208,255,.18);border-radius:4px;background:rgba(95,208,255,.04);font-size:.86rem;line-height:1.55;color:#c9d2db;letter-spacing:.02em}
+.sc-wip strong{font:500 .74rem/1 var(--head);letter-spacing:.24em;text-transform:uppercase;color:var(--ice);margin-right:.5rem}
+.sc-wip .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--red);margin-right:.55rem;vertical-align:.1em;box-shadow:0 0 8px var(--red);animation:scdot 2s ease-in-out infinite}
+@keyframes scdot{0%,100%{opacity:1}50%{opacity:.35}}
+@media (prefers-reduced-motion:reduce){.sc-wip .dot{animation:none}}
 
 /* lazy background images */
 .bgimg.lenker.on{background-image:url(img/bg_lenker.webp)}
