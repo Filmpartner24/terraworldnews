@@ -443,6 +443,12 @@ section{position:relative}
 .sc-gh span{color:#c9d2db;font-weight:400}
 .sc-grp:first-child .sc-gh{margin-top:1rem}
 .sc-part{color:#e0242b}
+/* v43: parts in blue instead of red */
+.sc-tab[data-p]:not([data-p="0"]){color:var(--ice)}
+.sc-tab[data-p]:not([data-p="0"]):hover{color:#9be3ff}
+.sc-tab[data-p]:not([data-p="0"])[aria-pressed="true"]{color:#9be3ff;border-bottom-color:var(--ice)}
+.sc-gh{color:var(--ice);border-bottom-color:rgba(95,208,255,.3);text-shadow:0 0 14px rgba(95,208,255,.3)}
+.sc-part{color:var(--ice)}
 
 /* lazy background images */
 .bgimg.lenker.on{background-image:url(img/bg_lenker.webp)}
