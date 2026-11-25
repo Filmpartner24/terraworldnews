@@ -55,6 +55,34 @@
     "img.alt": "Londra'daki Emirates Stadium (Arşiv fotoğrafı)"
    }
   },
+  "berlin-hotel-polizeischuesse-hund-2026-11-25-b1530": {
+   "L": {
+    "body": [
+     "Berlin-Charlottenburg'daki Kantstraße'de bulunan bir otelde gece yapılan operasyonda bir polis memuru bir köpeği vurarak öldürdü. Polisin verdiği bilgiye göre, öncesinde tanıklar Breitscheidplatz'ta silaha benzer bir nesne taşıyan bir adamı ihbar etmişti; polis memurları adamı daha sonra yakındaki bir otelde buldu.",
+     "Saat 04:00 sularında polis memurları oda kapısını çaldı. Adam kapıyı açtığında nesneyi görevlilere doğrultmuş olduğu iddia ediliyor. Bir polis memuru ilk atışı yaptı, kurşun kimseye isabet etmedi. Ardından polisin verdiği bilgiye göre muhtemelen bir kaniş olan bir köpek odadan dışarı koştu; bir memur hayvana ateş etti ve köpek olay yerinde öldü. Bir polis sözcüsü, köpeğin memur için “bir tür tehdit” oluşturduğunu söyledi.",
+     "Polise göre söz konusu nesne, tabanca şeklinde bir hayvan savuşturma spreyiydi. 63 yaşındaki şüpheli gözaltına alındı ve psikolojik açıdan dikkat çeken durumu nedeniyle hastaneye götürüldü. Toplam kaç el ateş edildiği başlangıçta belirsizdi."
+    ],
+    "d": "Bir adamın, Kantstraße'deki bir otelde polis memurlarını tabanca şeklinde bir spreyle tehdit ettiği iddia ediliyor. Bir kurşun kimseye isabet etmedi, ardından bir polis memuru bir köpeği vurdu.",
+    "t": "Berlin'deki otelde silah sesleri: Polis köpeği öldürdü, 63 yaşındaki adam gözaltında"
+   },
+   "at": "2026-11-25T14:06Z",
+   "h": "d06ac1fb93ec",
+   "rev": [
+    "Teaser: 'bir polis köpeği vurdu' reads as 'a police dog', not 'a police officer shot a dog' – mistranslation",
+    "Headline: 'gözaltında' is acceptable, but the headline lacks the Berlin context; no change needed",
+    "Kantstraße is a proper name (street) – kept, but Turkish 'Kantstraße'te' is fine",
+    "Teaser: the Spray sentence is correct; the dog sentence needs a subject"
+   ],
+   "rev_dbg": [
+    4,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Berlin polisine ait devriye aracı (Sembolik fotoğraf)",
+    "kl": "Berlin"
+   }
+  },
   "berlin-spandau-brand-seniorenheim-69-jaehriger-tot-2026-11-25-b0800": {
    "L": {
     "body": [
@@ -146,6 +174,31 @@
     "img.alt": "AB Komisyonu'nun Brüksel'deki merkezi (Sembolik fotoğraf)"
    }
   },
+  "eu-quantum-act-tech-fonds-2026-11-25-b1530": {
+   "L": {
+    "body": [
+     "AB Komisyonu çarşamba günü Quantum Act taslağını sundu. Taslağın özünü, kuantum teknolojisi, yapay zekâ ve diğer kilit teknolojilerde faaliyet gösteren şirketlere ortak olması öngörülen, 50 milyar euroya kadar kaynağa sahip “Sovereign Tech Equity Fund” oluşturuyor. Komisyonun açıklamasına göre amaç, Avrupa'yı 2030'a kadar kuantum teknolojilerinde dünya lideri yapmak. AB Teknoloji Komiseri Henna Virkkunen, “Kuantum teknolojileri sanayinin, güvenliğin ve inovasyonun geleceğini şekillendirecek” dedi.",
+     "Reuters'in haberine göre taslak, kamu ihalelerini AB kontrolündeki tedarikçilerin ürün ve hizmetleriyle sınırlamayı öngörüyor; ortaklık anlaşması bulunan ülkelerin şirketleri ise teklif vermeye devam edebilecek. Ayrıca önde gelen araştırma enstitülerinden oluşan bir ağ, kuantum bilgisayarları ve simülatörlerinden oluşan Avrupa çapında bir altyapı, kuantum güvenli şifrelemeye geçiş ve tedarik zincirlerinin daha sıkı izlenmesi planlanıyor. Arka planda ABD teknolojisine bağımlılık ve olası “Kill Switch”ler endişesi de var.",
+     "Komisyonun açıklamasına göre dünyadaki kuantum şirketlerinin yaklaşık üçte biri AB'de bulunuyor. Ancak finansmanda Avrupa geride kalıyor: Reuters'e göre özel yatırımcılar son dönemde Avrupalı kuantum girişimlerine 1,1 milyar euro yatırdı; ABD'de bu rakam 7 milyar oldu. Taslağın üye devletler ve Avrupa Parlamentosu ile müzakere edilmesi gerekiyor."
+    ],
+    "d": "AB Komisyonu, kuantum ve yapay zekâ şirketleri için 50 milyar euroluk bir iştirak fonu öneriyor. Kamu ihalelerinde Avrupalı tedarikçilere öncelik verilmesi öngörülüyor.",
+    "t": "Quantum Act: AB, 50 milyar euroluk fonla 2030'a kadar dünya lideri olmak istiyor"
+   },
+   "at": "2026-11-25T14:06Z",
+   "h": "5514c524b97a",
+   "rev": [
+    "Headline: 'Weltspitze werden' was rendered as 'zirveye çıkmak', which is vague; 'dünya lideri olmak' is clearer.",
+    "'ABD'de bu rakam 7 milyar oldu' lacks the currency; 'milyar euro' is added for clarity (the German says '7 Milliarden' without a currency, so this is only a minor stylistic point)."
+   ],
+   "rev_dbg": [
+    2,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "AB Teknoloji Komiseri Henna Virkkunen (Arşiv fotoğrafı)"
+   }
+  },
   "galatasaray-aston-villa-1-0-gul-champions-league-2026-11-25-b0800": {
    "L": {
     "body": [
@@ -165,6 +218,33 @@
    ],
    "x": {
     "img.alt": "İstanbul’daki Galatasaray stadyumu (Arşiv fotoğrafı)"
+   }
+  },
+  "hemus-avansi-api-obvinenie-2026-11-25-b1530": {
+   "L": {
+    "body": [
+     "“Hemus” otoyolu skandalında Sofya Şehir Savcılığı çarşamba günü, devlete ait yol kurumu API'nin eski yönetim kurulu başkanı hakkında dava açtı. Kendisi, özellikle büyük çaplı zarara yol açan görevi kötü yönetme suçlamasıyla karşı karşıya; suç, özellikle ağır vaka olarak sınıflandırılıyor ve üç ila on yıl hapis cezası öngörüyor. Şehir Savcılığı Sözcüsü Nikolay Nikolaev'in verdiği bilgiye göre soruşturmada şu ana kadar dört kişi suçlanıyor. Sanık için masumiyet karinesi geçerlidir.",
+     "İddianameye göre dava, Haziran 2019 ile Haziran 2020 arasındaki dönemi kapsıyor. Devlete ait Avtomagistrali şirketiyle 4, 5 ve 6. kesimler için yapılan ek bir anlaşma üzerinden KDV hariç 260 milyon leva (yaklaşık 133 milyon avro), vergiyle birlikte 312 milyon leva (yaklaşık 159,5 milyon avro) tutarında bir avans ödenmesi talimatı verildiği öne sürülüyor; oysa asıl sözleşme peşin ödemeleri açıkça dışlıyordu. Soruşturmacıların anlatımına göre 5 ve 6. kesimler için o dönemde ne proje belgeleri ne de inşaat ruhsatları vardı; bunlar ancak 2025 sonunda ve 2026'da verildi.",
+     "Soruşturmayı organize suçlarla mücadele dairesi (GDBOP) yürüttü. Savcılığın bilgilerine göre para daha sonra nakit olarak çekildi; aralarında kara para aklamaya ilişkin ayrı bir soruşturmanın da bulunduğu soruşturmalar sürüyor. Mediapool'a göre Avtomagistrali, önceki GERB hükümeti döneminde ihaleleri özel şirketlere aktaran bir ara durak işlevi görüyordu."
+    ],
+    "d": "Sofya Savcılığı, API yol kurumunun eski başkanını görevi kötü yönetmekle suçluyor: Proje ve inşaat ruhsatı olmadan 260 milyon leva avans ödendiği öne sürülüyor.",
+    "t": "“Hemus” otoyolu: Eski yol kurumu başkanına milyonluk avanslar nedeniyle iddianame"
+   },
+   "at": "2026-11-25T14:06Z",
+   "h": "75eadb7275ec",
+   "rev": [
+    "Headline: 'dava' is vague; the German says the former chief was indicted ('angeklagt'), so 'iddianame' is more accurate",
+    "Para 1: 'Sanık için masumiyet karinesi' – the German says 'Beschuldigter'; 'şüpheli/sanık' is acceptable, no change",
+    "Para 1: 'iddianame hazırladı' should be 'iddianame düzenledi/dava açtı'; 'Anklage erhoben' means the indictment was filed – adjusted",
+    "Teaser: 'ödendiği öne sürülüyor' is fine; 'görevi kötü yönetmek' is acceptable"
+   ],
+   "rev_dbg": [
+    4,
+    2,
+    0
+   ],
+   "x": {
+    "img.alt": "Bulgaristan'daki “Hemus” otoyolu (arşiv fotoğrafı)"
    }
   },
   "huawei-schuldspruch-brooklyn-iran-sanktionen-2026-11-25-b0800": {
@@ -192,6 +272,32 @@
    ],
    "x": {
     "img.alt": "Huawei'nin Shenzhen'deki merkezi (Sembolik fotoğraf)"
+   }
+  },
+  "jemen-hodeidah-huthis-2026-11-25-b1530": {
+   "L": {
+    "body": [
+     "Suudi Arabistan liderliğindeki askeri koalisyon, kendi açıklamasına göre Çarşamba günü Yemen'in Hudeyde Limanı'nda Husi milislerinin “operasyonel yeteneklerini” hedef aldı ve Saada ile Amran illerindeki hedefleri imha etti. Koalisyon sözcüsü Turki al-Maliki, daha önce sivilleri liman bölgesini terk etmeye çağırmıştı. Suudi yetkililerin verdiği bilgiye göre Salı günü bir Husi insansız hava aracı, Riyad'ın King Abdullah Mali Bölgesi'ndeki en yüksek kuleyi vurdu ve en az on bir kişi yaralandı. Katar ve Pakistan saldırıyı kınadı.",
+     "Husiler, Hudeyde'ye yönelik saldırılar olması halinde Cidde'yi ve Suudi Arabistan'ın Kızıldeniz'deki diğer tüm limanlarını hedef alacaklarını söylüyor. Husilerin askeri sözcüsü Yahya Saree, liman işçilerini ve bölge sakinlerini bölgeleri derhal boşaltmaya çağırdı ve denizcilik şirketlerinden gemilerini çekmelerini istedi. Al-Maliki'nin verdiği bilgiye göre Suudi hava savunması Çarşamba sabahı Ras Tanura petrol limanı üzerinde dört insansız hava aracını imha etti; başlangıçta can kaybı bildirilmedi. Al-Maliki, sivil hedeflere yönelik saldırılara kararlı bir yanıt verileceğini duyurdu.",
+     "Medya haberlerine göre Yemen'e yönelik insani yardımın büyük bölümü Hudeyde üzerinden geçiyor; BM, gerilimin tırmanmasının önemli tedarik yollarını tehlikeye attığı uyarısında bulundu. BM verilerine göre Ağustos başından bu yana ülkede 364.000'den fazla kişi yerinden edildi. Orta Doğu Devlet Bakanı Stephen Doughty'nin verdiği bilgiye göre Birleşik Krallık, Riyad'a hava savunması, havada yakıt ikmali ve Typhoon savaş uçaklarıyla destek veriyor."
+    ],
+    "d": "Riyad'ın en yüksek kulesine yönelik insansız hava aracı saldırısının ardından koalisyon üç ilde hedefleri vurdu. Husiler, Suudi Arabistan'ın Kızıldeniz'deki tüm limanlarını tehdit ediyor.",
+    "t": "Yemen: Suudi koalisyonu Hudeyde'yi bombaladı, Husiler Cidde'yi tehdit ediyor"
+   },
+   "at": "2026-11-25T14:06Z",
+   "h": "c65c41c8d355",
+   "rev": [
+    "Broken sentence: \"siviller çağrıda bulunarak\" reverses who is addressed (civilians were called upon, not the callers)",
+    "\"Koalisyon Sözcüsü\" capitalisation: title after a name/role should be lowercase per TDK",
+    "\"en yüksek kuleyi\" in the financial district: the wording is slightly ambiguous but meaning is retained, so left as is"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Kapak görseli: Yemen: Suudi koalisyonu Hudeyde'yi bombaladı, Husiler Cidde'yi tehdit ediyor"
    }
   },
   "koepenick-blutwoche-denkmal-hakenkreuze-2026-11-25-b1100": {
@@ -243,6 +349,34 @@
     "img.alt": "Leipzig'deki Red Bull Arena (Arşiv fotoğrafı)"
    }
   },
+  "lincoln-city-cohen-shaw-entlassen-2026-11-25-b1530": {
+   "L": {
+    "body": [
+     "Lincoln City, yalnızca yaklaşık altı ay sonra iki başantrenörü Chris Cohen ve Tom Shaw ile yollarını ayırdı. BBC'nin haberine göre ikili, ikinci lig Championship'te oynanan 17 lig maçının yalnızca dördünü kazandı. Salı akşamı Charlton Athletic deplasmanında alınan 0-4'lük yenilgi, üst üste beşinci mağlubiyet oldu. 65 yıl sonra ilk kez yeniden ikinci ligde yer alan kulüp, BBC'nin verdiği bilgiye göre düşme hattının yalnızca üç puan üzerinde bulunuyor.",
+     "Kulüp başkanı Ron Fowler, kararın kulübün “en iyi çıkarına” olduğunu, ligde kalmak için ellerinden gelen her şeyi yapacaklarını söyledi. Şimdilik yardımcı antrenör Shaun Pearson göreve geliyor; ona Paul McShane ve David Preece destek verecek. Lincoln, cumartesi günü Wolverhampton Wanderers'ı konuk edecek.",
+     "Cohen ve Shaw, Lincoln'ün geçen sezon birlikte League One şampiyonu olduğu Michael Skubala'nın yardımcılarıydı. Skubala'nın Bristol City'ye geçmesinin ardından yaz aylarında birlikte başantrenörlüğe yükseldiler; bu olağandışı bir çözümdü. Daha önce Nottingham Forest ve West Ham United'da orta saha oyuncusu olarak oynayan Cohen, bunun “dışarıdan bakıldığında normal görünmediğini” kendisi de kabul etmişti."
+    ],
+    "d": "İngiltere Championship'teki yeni yükselen takım, Charlton deplasmanındaki 0-4'lük yenilginin ardından iki başantrenörünü görevden aldı. Geçici olarak Shaun Pearson göreve geldi.",
+    "t": "Üst üste beş yenilgi: Lincoln City, Cohen ve Shaw ikilisiyle yollarını ayırdı"
+   },
+   "at": "2026-11-25T14:06Z",
+   "h": "b177835271c9",
+   "rev": [
+    "\"Aufsteiger aus der englischen Championship\" was mistranslated as a team promoted to the Championship; the German says the club is a promoted side from the Championship, which is itself inconsistent, ",
+    "Mistranslation of \"mit dem Lincoln ... Meister der League One wurde\": \"Skubala'nın yardımcılarıydı\" works, but the sentence structure was awkward and ambiguous",
+    "\"nur rund sechs Monaten\" was rendered as \"yalnızca yaklaşık altı ay sonra\"; acceptable, left unchanged",
+    "\"Bis auf Weiteres\" was rendered as \"Bir sonraki duyuruya kadar\"; unnatural, replaced with \"Until further notice\" wording",
+    "\"übernimmt\" was rendered as \"göreve geliyor\"; the teaser says \"geçici olarak\", fine; left unchanged"
+   ],
+   "rev_dbg": [
+    5,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Kapak görseli: Üst üste beş yenilgi: Lincoln City, Cohen ve Shaw ikilisiyle yollarını ayırdı"
+   }
+  },
   "merz-generaldebatte-schoenheitspreis-haushalt-2026-11-25-b1100": {
    "L": {
     "body": [
@@ -272,6 +406,56 @@
    ],
    "x": {
     "img.alt": "Federal Şansölye Friedrich Merz Federal Meclis'te (Arşiv fotoğrafı)"
+   }
+  },
+  "metall-tarifrunde-mannheim-2026-11-25-b1530": {
+   "L": {
+    "body": [
+     "Metal ve elektrik sanayisindeki toplu sözleşme uyuşmazlığında dördüncü müzakere turu Çarşamba günü saat 13:00 civarında Mannheim'deki Rosengarten Kongre Merkezi'nde başladı. IG Metall yönetimi, Baden-Württemberg ve Kuzey Ren-Vestfalya bölgelerini işverenlerin yeni bir teklifini kabul etmekle görevlendirdi. Hedef, daha sonra Almanya genelinde yaklaşık 3,7 milyon çalışan için geçerli olması öngörülen bir pilot anlaşma. Görüşmeler dpa'nın verdiği bilgiye göre uzun sürebilir.",
+     "Sendika, 12 ay süreyle yüzde beş zam ile iş yerlerinin ve üretim tesislerinin güvence altına alınmasına ilişkin bağlayıcı taahhütler talep ediyor. Gesamtmetall şu ana kadar, belirli koşullar altında ertelenebilecek bir tek seferlik ödeme ile 26 ay süreyle Temmuz 2028'den itibaren yüzde 1,3 zam teklif ediyor. İşverenlerin istediği gibi toplu sözleşmeden sapmaların yalnızca işletmede iş yeri konseyleriyle düzenlenip düzenlenmeyeceği de tartışmalı.",
+     "IG Metall'in verdiği bilgiye göre, görüşmelerden önce 20-24 Kasım tarihleri arasında 330 işletmede yaklaşık 500.000 çalışan 24 saatlik uyarı grevlerine katıldı. Bunlar, sektörde sekiz yıldan bu yana yapılan ilk tam gün grevlerdi. Baden-Württemberg bölge başkanı Barbara Resch, “işverenlerden nihayet müzakereye elverişli bir teklif” beklediğini söyledi. İşveren örgütü Südwestmetall'den Peter Sebastian Krause ise bir çözüm bulmak için masaya oturduklarını, ancak bunun kolay olmayacağını söyledi."
+    ],
+    "d": "IG Metall ve işveren temsilcileri, 3,7 milyon çalışanı kapsayacak pilot anlaşma için saat 13:00'ten beri Mannheim'de görüşüyor. Sendikaya göre öncesinde yaklaşık 500.000 kişi iş bıraktı.",
+    "t": "Metal toplu sözleşme turu: Tam gün uyarı grevlerinin ardından Mannheim'de dördüncü tur"
+   },
+   "at": "2026-11-25T14:06Z",
+   "h": "613746ea0d7a",
+   "rev": [
+    "Headline: \"Ful gün\" is an unnatural spelling; should be \"Tam gün\"",
+    "Headline: Mannheim'da is wrong suffix; should be Mannheim'de (front vowel in the last syllable)",
+    "Teaser and body: \"Mannheim'da\" corrected to \"Mannheim'de\"",
+    "\"Congress Center\" left untranslated: rendered as \"Kongre Merkezi\"",
+    "Arbeitgeber/Betriebsräte: \"işyeri temsilcileri\" should be \"iş yeri konseyleri\" (works councils)",
+    "Warnstreiks: \"20-24 Kasım\" fine; \"Südwestmetall\" fine"
+   ],
+   "rev_dbg": [
+    6,
+    4,
+    0
+   ],
+   "x": {
+    "img.alt": "IG Metall'in uyarı grevi (Arşiv fotoğrafı)"
+   }
+  },
+  "musiala-bayern-statement-2026-11-25-b1530": {
+   "L": {
+    "body": [
+     "FC Bayern München ve 11WINS ajansı Çarşamba günü yaptıkları ortak açıklamada Jamal Musiala vakasına ilişkin görüş bildirdi. Açıklamaya göre 23 yaşındaki oyuncu, kulübün sağlık departmanıyla istişare içinde ve nörolojik şikâyetlerin ilk ortaya çıkmasının hemen ardından, “22 Nisan 2025'te absans benzeri belirtiler nedeniyle ilk kez muayene edildi”. Musiala, 2030'a kadar geçerli sözleşmesini 14 Şubat 2025'te, yani iki aydan biraz fazla bir süre önce imzalamıştı.",
+     "dpa'nın aktardığına göre Başkan Herbert Hainer, Yönetim Kurulu Başkanı Jan-Christian Dreesen ve Spor Direktörü Max Eberl, Lille'deki Şampiyonlar Ligi maçına çıkmadan önce Salı günü Säbener Straße'de Musiala'nın danışmanlarıyla bir araya geldi. Her iki taraf da görüşmenin yapıcı geçtiğini belirtti ve müzakereleri “ortaklık anlayışıyla ve gizlilik içinde” sürdürmek istiyor. Açıklamada, “Oyuncunun sağlığı her iki taraf için de her şeyin üzerinde” ifadesi yer aldı.",
+     "Arka planda, Onursal Başkan Uli Hoeneß ile Denetim Kurulu üyesi Karl-Heinz Rummenigge'nin başlattığı bir tartışma var: İkili, Musiala eski seviyesine dönemezse maaştan feragat edilmesi seçeneğini kamuoyu önünde gündeme getirmişti. Uluslararası futbolcu sendikası FIFPRO, AFP'ye göre kulübü oyuncu üzerinde baskı kurmakla suçladı. Kulüp, Musiala'nın dönüşü için bir tarih vermedi."
+    ],
+    "d": "Menajerlik ajansıyla ortak açıklama: İlk muayene 22 Nisan 2025'te, imzadan iki aydan biraz fazla süre sonra yapıldı. Görüşmeler gizlilik içinde sürecek.",
+    "t": "Bayern açıkladı: Musiala'nın belirtileri sözleşme uzatmasından sonra ortaya çıktı"
+   },
+   "at": "2026-11-25T14:06Z",
+   "h": "4033b14eff4b",
+   "rev_dbg": [
+    3,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Jamal Musiala 2026 Dünya Kupası'nda (Arşiv fotoğrafı)"
    }
   },
   "openai-gpt6-protein-design-onava-2026-11-25-b1100": {
@@ -322,6 +506,32 @@
    ],
    "x": {
     "img.alt": "Kylian Mbappé (Arşiv fotoğrafı)"
+   }
+  },
+  "steinmeier-kenia-ruto-2026-11-25-b1530": {
+   "L": {
+    "body": [
+     "Almanya Cumhurbaşkanı Frank-Walter Steinmeier, Nairobi'de Kenya ile eğitim ve nitelikli işgücü alanında daha yakın iş birliğinden yana olduğunu belirtti. State House'taki resmi karşılamanın ardından Cumhurbaşkanı William Ruto ile görüştü. Temel, 2024'te kararlaştırılan Göç ve Hareketlilik Ortaklığı; Steinmeier bu ortaklığı “daha da fazla hayata geçirmek” istiyor. “Genç insanlara perspektifler sunmak istiyoruz” dedi.",
+     "Ruto'nun verdiği bilgiye göre, Almanya'da yasal olarak çalışan Kenyalıların sayısı Mart 2024 ile Mart 2026 arasında 7.000'den 9.500'e, çıraklık yapanların sayısı ise 820'den 1.260'a yükseldi. İki lider ayrıca daha hızlı vize ve işe alım süreçlerini de ele aldı. Steinmeier, reddedilen sığınmacılar için Ruanda'da geri dönüş merkezleri kurulmasına ilişkin Avrupa planları hakkında şunları söyledi: “Tüm bu süreçler yürürlükteki uluslararası hukuka uygun olmalıdır.”",
+     "Kenya, Côte d'Ivoire ve Gana'dan sonra Afrika gezisinin son durağı. Steinmeier, ülkenin enerjisinin yaklaşık yüzde 80'ini yenilenebilir kaynaklardan elde ettiğini vurguladı ve şöyle dedi: “Alman şirketleri her halükârda Kenya'ya yatırım yapmaya hazır.” Steinmeier'in perşembe günü Naivasha'da sivil toplum temsilcileriyle bir araya gelmesi ve ardından Berlin'e dönmesi planlanıyor."
+    ],
+    "d": "Almanya Cumhurbaşkanı, Kenya ile göç ortaklığını daha etkin hale getirmek istiyor. AB'nin Ruanda'da geri gönderme merkezleri kurma planlarına ise temkinli yaklaştı.",
+    "t": "Steinmeier Nairobi'de Ruto ile görüştü: Almanya için Kenya'dan daha fazla nitelikli işgücü"
+   },
+   "at": "2026-11-25T14:06Z",
+   "h": "5f6dc50dc965",
+   "rev": [
+    "Weekday \"Perşembe\" wrongly capitalised mid-sentence (TDK: lowercase)",
+    "Teaser: \"geri gönderme merkezleri\" for Abschiebezentren vs. body \"geri dönüş merkezleri\" (Rückkehrzentren); the teaser's wording is acceptable, but the body should stay as is",
+    "Teaser says \"temkinli yaklaştı\" – acceptable"
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Almanya Cumhurbaşkanı Frank-Walter Steinmeier (Arşiv fotoğrafı)"
    }
   },
   "trump-administration-debate-iran-leaders-2026-11-25-b1100": {
