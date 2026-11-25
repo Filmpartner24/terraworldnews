@@ -434,6 +434,15 @@ section{position:relative}
 .sc-wip .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--red);margin-right:.55rem;vertical-align:.1em;box-shadow:0 0 8px var(--red);animation:scdot 2s ease-in-out infinite}
 @keyframes scdot{0%,100%{opacity:1}50%{opacity:.35}}
 @media (prefers-reduced-motion:reduce){.sc-wip .dot{animation:none}}
+/* v42: parts in red */
+.sc-tab[data-p]:not([data-p="0"]){color:#e0242b}
+.sc-tab[data-p]:not([data-p="0"]) span{color:#c9d2db;opacity:.8}
+.sc-tab[data-p]:not([data-p="0"]):hover{color:#ff4a50}
+.sc-tab[data-p]:not([data-p="0"])[aria-pressed="true"]{color:#ff3b42;border-bottom-color:#e0242b}
+.sc-gh{font:500 .86rem/1 var(--head);letter-spacing:.3em;color:#e0242b;margin:1.8rem 0 .5rem;padding:0 0 .6rem .2rem;border-bottom:1px solid rgba(224,36,43,.35);text-shadow:0 0 14px rgba(224,36,43,.35)}
+.sc-gh span{color:#c9d2db;font-weight:400}
+.sc-grp:first-child .sc-gh{margin-top:1rem}
+.sc-part{color:#e0242b}
 
 /* lazy background images */
 .bgimg.lenker.on{background-image:url(img/bg_lenker.webp)}
