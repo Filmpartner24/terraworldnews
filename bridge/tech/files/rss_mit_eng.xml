@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0" xml:base="https://news.mit.edu">
+  <channel>
+    <title>MIT News - Engineering</title>
+    <link>https://news.mit.edu/rss/topic/engineering</link>
+    <atom:link href="https://news.mit.edu/rss/topic/engineering" rel="self" type="application/rss+xml"/>
+    <description>MIT news feed about: Engineering</description>
+    <language>en</language>
+    
+    <lastBuildDate>Thu, 26 Mar 2026 16:45:00 -0400</lastBuildDate>
+    <item>
+  <title>Seeing sounds</title>
+  <link>https://news.mit.edu/2026/seeing-sounds-mariano-salcedo-0326</link>
+  <description>Mariano Salcedo ’25, a master’s student in the new Music Technology and Computation Graduate Program, is designing an AI to visualize and express music and other sounds.</description>
+  <pubDate>Thu, 26 Mar 2026 16:45:00 -0400</pubDate>
+    <guid isPermaLink="true">https://news.mit.edu/2026/seeing-sounds-mariano-salcedo-0326</guid>
+        <dc:creator>Benjamin Daniel | School of Humanities, Arts, and Social Sciences</dc:creator>
+  <content:encoded>&lt;p&gt;As one of the first students in MIT’s new&amp;nbsp;&lt;a href="https://musictech.mit.edu/mtcgp/"&gt;Music Technology and Computation Graduate Program,&lt;/a&gt; Mariano Salcedo ’25 is researching the intersection between artificial intelligence and music visuals.&lt;/p&gt;&lt;p&gt;Specifically, his graduate research focuses on neural cellular automata (NCA), which merges classical cellular automata with machine learning techniques to grow images that can regenerate.&lt;/p&gt;&lt;p&gt;When paired with a stimulus like music, these images can “show” sounds in action.&lt;/p&gt;&lt;p&gt;“This approach enables anyone to create music-driven visuals while leveraging the expressive and sometimes unpredictable dynamics of self-organized systems,” Salcedo says. Through the web interface Salcedo has designed, users can adjust the relationship between the music’s energy and the NCA system to create unique visual performances using any music audio stream.&lt;/p&gt;&lt;p&gt;“I want the visuals to complement and elevate the listening experience,” he says.&lt;/p&gt;&lt;p&gt;Last year Salcedo, the Alex Rigopulos (1992) Fellow in Music Technology and Computation, earned a BS in&amp;nbsp;&lt;a href="https://www.eecs.mit.edu/research/artificial-intelligence-decision-making/"&gt;artificial intelligence and decision making&lt;/a&gt; from MIT, where he explored signal processing in machine learning and how a classical understanding of signals can inform how we understand AI. Now he’s one of five master’s students in the&amp;nbsp;Music Technology and Computation Graduate Program’s inaugural cohort.&lt;/p&gt;&lt;p&gt;The program, directed by professor of the practice in music technology&amp;nbsp;&lt;a href="https://mta.mit.edu/person/eran-egozy"&gt;Eran Egozy&lt;/a&gt; ’93, MNG ’95,&amp;nbsp;is a collaboration between&amp;nbsp;&lt;a href="https://mta.mit.edu/"&gt;MIT Music and Theater Arts&lt;/a&gt; in the&amp;nbsp;&lt;a href="https://shass.mit.edu/"&gt;School of Humanities, Arts, and Social Sciences&lt;/a&gt;, and the&amp;nbsp;&lt;a href="https://engineering.mit.edu/"&gt;School of Engineering&lt;/a&gt;.&amp;nbsp;It&amp;nbsp;invites practitioners to study, discover, and develop new computational approaches to music. It also includes a speaker series that exposes students and the broader MIT community to music industry professionals, artists, technologists, and other researchers.&lt;/p&gt;&lt;p&gt;Rigopulos ’92, SM ’94, is a video game designer, musician, and former CEO of&amp;nbsp;&lt;a href="https://www.harmonixmusic.com/"&gt;Harmonix Music Systems&lt;/a&gt;, a company he co-founded with Egozy in 1995. Harmonix is now a part of Epic Games, where Rigopulos is the director of game development for music.&lt;/p&gt;&lt;p&gt;“MIT is where I was first able to pursue my passion for music technology decades ago, and that experience was the springboard for a long and fulfilling career,” says Rigopulos. “So, when MIT launched an advanced degree program in music technology, I was thrilled to fund a fellowship to help propel this exciting new program.”&lt;/p&gt;&lt;p&gt;Egozy is enthusiastic about Salcedo’s work and his commitment to further exploring its possibilities. “He is a beautiful example of a multidisciplinary researcher who thinks deeply about how to best use technology to enhance and expand human creativity,” he says.&lt;/p&gt;&lt;p&gt;Salcedo has been selected to deliver the student address at the 2026 Advanced Degree Ceremony for the School of Humanities, Arts, and Social Sciences. “It’s an honor and it’s daunting,” he says. “It feels like a huge responsibility,” though one he’s eager to embrace. His selection also pleases Egozy. “I am super excited that Mariano was chosen to deliver this year’s keynote,” he enthuses.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Changing gears&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Growing up in Mexico and Texas, Mariano Salcedo couldn’t readily indulge his passion for creating music. “There are no bands in Mexican public schools,” he says. While some families could pay for instruments and lessons, others like Salcedo’s were less fortunate.&lt;/p&gt;&lt;p&gt;“I’ve always loved music,” he continues. “I was a listener.”&lt;/p&gt;&lt;p&gt;Salcedo began his MIT journey as a mechanical engineering student, applying to MIT through the&amp;nbsp;&lt;a href="https://www.questbridge.org/"&gt;Questbridge&lt;/a&gt; program. “I heard if you like engineering and science that attending MIT would be a great choice,” he recalls. “Nerds are welcomed and embraced.” While he dutifully worked toward completing his MechE curriculum, music and technology came calling after a chance encounter with an LLM.&lt;/p&gt;&lt;p&gt;“I was introduced to an LLM chatbot and was blown away,” he recalls. “This was something that was speaking to me. I was both awed and frightened.” After his encounter with the chatbot, Salcedo switched his major from mechanical engineering to artificial intelligence and decision making.&lt;/p&gt;&lt;p&gt;“I basically started over after being two thirds of the way through the MechE curriculum,” he says. He learned about the possibilities available with AI but also confronted some of the challenges bedeviling researchers and developers including its potential power, ensuring its responsible use, human bias, limited access for people from underrepresented groups, and a lack of diversity among developers. He decided he might be able to change that picture.&lt;/p&gt;&lt;p&gt;“I thought one more person in the field could make a difference,” he says.&lt;/p&gt;&lt;p&gt;While completing his undergraduate studies, Salcedo’s love of music resurfaced. “I began DJ’ing at MIT and was hooked,” he says. While he hadn’t learned to play a traditional instrument, he discovered he could create engaging soundscapes with technology. “I bought a digital audio work station to help me make music,” he continues.&lt;/p&gt;&lt;p&gt;Egozy and Salcedo met in 2024 while Salcedo completed an&amp;nbsp;&lt;a href="https://urop.mit.edu/"&gt;Undergraduate Research Opportunities Program&lt;/a&gt; rotation as a game developer in Egozy’s lab. “He was incredibly curious and has grown tremendously over a very short time period,” Egozy says. Egozy became an informal, though important, mentor to Salcedo. “He brings great energy and thoughtfulness to his work, and to supporting others in the [music technology and computation graduate] program,” Egozy notes.&lt;/p&gt;&lt;p&gt;Salcedo also took a class with Egozy, 21M.385/21M.585/6.4450 (Interactive Music Systems), which further fed his appetite for the creativity he craved while also allowing him to indulge his fascination with music’s possibilities. By taking advantage of courses in the HASS curriculum, he further developed his understanding of music theory and related technologies.&lt;/p&gt;&lt;p&gt;“I took a class with professor Leslie Tilley, 21M.240 (Critically Thinking in Music), which helped establish a valuable framework for understanding music making,” he says, “while a class like 6.3000 (Signal Processing) helped me connect intuition with science.”&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Working across disciplines&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;While Salcedo is passionate about his music and his research, he’s also invested in building relationships with his fellow students. He’s a member of the fraternity Sigma Nu, where he says he “found a home and community.” He also took a&amp;nbsp;&lt;a href="https://misti.mit.edu/"&gt;MISTI&lt;/a&gt; trip to Chile in summer 2023, where he conducted music technology research. Salcedo praises the culture of camaraderie at MIT and is grateful for its influence on his work as a scholar. “MIT has taught me how to learn,” he says.&lt;/p&gt;&lt;p&gt;Professors encouraged him to present his research and findings. He presented his work —&amp;nbsp;&lt;a href="https://openreview.net/forum?id=tkGnjTNHm2"&gt;Artificial Dancing Intelligence: Neural Cellular Automata for Visual Performance of Music&lt;/a&gt; — at the&amp;nbsp;&lt;a href="https://aaai.org/"&gt;Association for the Advancement of Artificial Intelligence&lt;/a&gt; conference in Singapore in January 2026.&lt;/p&gt;&lt;p&gt;Salcedo believes his research can potentially move beyond music visualization. “What if we could improve the ways we model self-organized systems?” he asks. “That is, systems like multicellular organisms, flocks of birds, or societies that interact locally but exhibit interesting behaviors.” Any system, Salcedo says, where the whole is more than the sum of its parts.&lt;/p&gt;&lt;p&gt;Developing the technology used to design his application can potentially help answer important ethical questions regarding AI’s continued expansion and growth. The path to his work’s development is both daunting and lonely, but those challenges feed his work ethic.&lt;/p&gt;&lt;p&gt;“It’s intimidating to pursue this path when the academy is currently focused on LLMs,” he says. “But it’s also important to explain and explore the base technology before digging into more nuanced work, which can help audiences understand it better.” Knowing that he has the support of his professors helps Salcedo maintain excitement for his ideas. “They only ask that we ground our interests in research,” he says.&lt;/p&gt;&lt;p&gt;His investigations are impacting his work as a musician. “My music has gotten more interesting because of the classes I’m taking,” he says. He’s also interested in understanding whose music the academy and the world hears, exploring biases toward Western music in the canon and exploring how to reduce biases related to which kinds of music are valued.&lt;/p&gt;&lt;p&gt;“The work we do as technologists is far less subjective than we’re led to believe,” he believes.&lt;/p&gt;&lt;p&gt;Salcedo is especially grateful for the support he’s received during his time at MIT. “Program faculty encourage a variety of pursuits,” he says, “and ask us to advance our individual aims rather than focusing on theirs.” During his time in the graduate program, he notes with enthusiasm how often he’s been challenged to pursue his ideas.&lt;/p&gt;&lt;p&gt;Ultimately, Salcedo wants people to experience the joy he feels working at the intersection of the humanities and the sciences. Music and technology impact nearly everyone. Inviting audiences into his laboratory as participants in the creative and research processes offers the same kind of satisfaction he gets from crafting a great beat or solving for a thorny technical challenge. Helping audiences understand his work’s value fuels his drive to succeed.&lt;/p&gt;&lt;p&gt;“I want users to feel movement and explore sounds and their impact more fully,” he says.&lt;/p&gt;</content:encoded>
+      <media:content url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202603/mit-shass-music-Carlos-Mariano-Salcedo.jpg?itok=IZfmOz8J" medium="image" type="image/jpeg" width="390" height="260">
+              <media:description type="plain">Mariano Salcedo is a student in the new Music Technology and Computation Graduate Program. “MIT has taught me how to learn,” he says.</media:description>
+              <media:credit>Photo: Hanley Valentin</media:credit>
+      </media:content>
+        <category domain="https://news.mit.edu/topic/profile">Profile</category>
+      <category domain="https://news.mit.edu/topic/students">Students</category>
+      <category domain="https://news.mit.edu/topic/graduate">Graduate, postdoctoral</category>
+      <category domain="https://news.mit.edu/topic/mechanical-engineering">Mechanical engineering</category>
+      <category domain="https://news.mit.edu/topic/music-and-theater-arts">Music and theater arts</category>
+      <category domain="https://news.mit.edu/topic/music">Music technology</category>
+      <category domain="https://news.mit.edu/topic/music2">Music</category>
+      <category domain="https://news.mit.edu/topic/classes-and-programs">Classes and programs</category>
+      <category domain="https://news.mit.edu/topic/computers">Computer science and technology</category>
+      <category domain="https://news.mit.edu/topic/artificial-intelligence2">Artificial intelligence</category>
+      <category domain="https://news.mit.edu/topic/games">Games</category>
+      <category domain="https://news.mit.edu/topic/arts">Arts</category>
+      <category domain="https://news.mit.edu/topic/engineering">Engineering</category>
+      <category domain="https://news.mit.edu/topic/humanities">Humanities</category>
+      <category domain="https://news.mit.edu/topic/urop">Undergraduate Research Opportunities Program (UROP)</category>
+      <category domain="https://news.mit.edu/topic/electrical-engineering-computer-science-eecs">Electrical engineering and computer science (EECS)</category>
+      <category domain="https://news.mit.edu/topic/school-engineering">School of Engineering</category>
+      <category domain="https://news.mit.edu/topic/school-humanities-arts-and-social-sciences">School of Humanities Arts and Social Sciences</category>
+    </item>
+<item>
+  <title>Making a path to ethical, socially beneficial artificial intelligence</title>
+  <link>https://news.mit.edu/2019/mit-schwarzman-celebration-panel-explores-path-to-ethical-socially-beneficial-ai-0305</link>
+  <description>Leaders from government, philanthropy, academia, and industry say collaboration is key to make sure artificial intelligence serves the public good.</description>
+  <pubDate>Tue, 05 Mar 2019 12:25:00 -0500</pubDate>
+    <guid isPermaLink="true">https://news.mit.edu/2019/mit-schwarzman-celebration-panel-explores-path-to-ethical-socially-beneficial-ai-0305</guid>
+        <dc:creator>School of Humanities, Arts, and Social Sciences</dc:creator>
+  <content:encoded>&lt;p&gt;Toward the close of the three-day celebration of the MIT Stephen A. Schwarzman College of Computing, there was one inescapable takeaway: "We are at an inflection point. With the progressing technologies of artificial intelligence, we are on the verge of incredible things," said IBM Executive Vice President John E. Kelly.&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+Less clear to many participants and audience members after a whirlwind of TED-like talks, demonstrations, and discussion&amp;nbsp;was whether advanced computation can truly work primarily for the benefit of humanity.&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+"We are undergoing a massive shift that can make the world a better place," noted David Siegel, co-founder and co-chairman of Two Sigma. "But I fear we could move in a direction that is far from an algorithmic utopia."&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+&lt;strong&gt;Meeting the challenges of artificial intelligence&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Many speakers at the three-day celebration, which was held on Feb. 26-28, called for an approach to education, research, and tool-making that combines collective knowledge from the technology, humanities, arts, and social science fields, throwing the&amp;nbsp;double-edged promise of the new machine age into stark relief.&lt;/p&gt;
+
+&lt;p&gt;As &lt;a href="https://shass.mit.edu/about/Dean/Nobles" target="_blank"&gt;Melissa Nobles&lt;/a&gt;, the Kenan Sahin Dean of MIT’s School of Humanities, Arts, and Social Sciences, introduced the final panel of the celebration,&amp;nbsp;she reinforced the need for such an approach, noting that that the humanities, social sciences, and arts are grappling “with the ways in which computation is changing the world,” and that “technologists themselves must much more deeply understand what they are doing, how they are deeply changing human life."&lt;/p&gt;
+
+&lt;p&gt;The final panel was “Computing for the People: Ethics and AI,”&amp;nbsp;moderated by &lt;em&gt;New York Times&lt;/em&gt; columnist &lt;a href="https://www.nytimes.com/column/thomas-l-friedman" target="_blank"&gt;Thomas Friedman&lt;/a&gt;. In a conversation afterward, Nobles also emphasized that the goal of the new college is to advance computation and to give all students a greater “awareness of the larger political, social context in which we’re all living.” That is the MIT vision for developing “bilinguals” — engineers, scholars, professionals, civic leaders, and policymakers who have both superb technical expertise and an understanding of complex societal issues gained from study in the humanities, arts, and social science fields. &amp;nbsp;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The perils of speed and limited perspective&lt;/strong&gt;&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+The five panelists on “Computing for the People” — representing industry, academia, government, and philanthropy — contributed particulars to the vision of a society infused with those bilinguals,&amp;nbsp;and attested to the perils posed by an overly-swift integration of advanced computing into all domains of modern existence.&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+"I think of AI as jetpacks and blindfolds that will send us careening in whatever direction we're already&amp;nbsp;headed," said &lt;a href="https://www.media.mit.edu/people/joi/overview/" target="_blank"&gt;Joi Ito&lt;/a&gt;, director of the MIT Media Lab. "It's going to make us more powerful but not necessarily more wise.”&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+The key problem, according to Ito, is that machine learning and AI have to date been exclusively the province of engineers, who tend to talk only with each other. This means they can deny accountability when their work proves socially, politically, or economically destructive. "Asked to explain their code, technological people say: ‘We're just technical people, we don't deal with racial or political problems,’" Ito said.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Can AI advance justice, strengthen democracy?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.fordfoundation.org/about/people/darren-walker/" target="_blank"&gt;Darren Walker&lt;/a&gt;, president of the Ford Foundation, zeroed in on the value void at the center of this new technology.&lt;/p&gt;
+
+&lt;p&gt;"If we go deep [into AI tool-making] without a view as to whether AI can advance justice, whether it can strengthen our democracy, if we engage this enterprise without those questions driving our discourse, we are doomed," he said.&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+As a case in point, he cited the predictive analytics of AI that more frequently deny parole to black men than to white men with comparable records. "So AI is in fact reifying and amplifying rather than correcting the historic biases we see every day in America," Walker said. "Will AI be a lever for good, or simply compound disadvantages built into our systems?"&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+Walker also noted that during the recent congressional hearings featuring the testimony of Facebook CEO Mark Zuckerberg, politicians demonstrated ignorance about the workings of social media platforms and of cellphone technology.&lt;/p&gt;
+
+&lt;p&gt;"At any other hearing of importance in our society, there would be some smart person sitting behind a congressperson to say, [of the person testifying] ‘Challenge him, he's wrong,’" said Walker. But, he continued, "there are very few people on the Hill working in the public interest on this larger issue of the fourth industrial revolution."&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+&lt;strong&gt;Collaborations to make a better world&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Panelists also emphasized that the speed of the current technological transformation threatens to undermine efforts to control it. "By the time we realize there's something we must do to right the ship, the ship will be in the middle of the ocean," said &lt;a href="https://veon.com/whoweare/leadership/Management/" target="_blank"&gt;Ursula Burns&lt;/a&gt;, executive chairman and CEO of VEON, Ltd.&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+But Burns and her fellow panelists believe the new MIT Schwarzman College of Computing, by bringing together computer scientists with scholars from the social sciences and humanities, could help reverse the potentially destructive course of AI.&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+"It's not just about getting a whole bunch of computer scientists writing new programs, it is about making the world a better place," Burns said. "It's active engagement, broad knowledge, and responsibility to other people."&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/research/people/jchayes/" target="_blank"&gt;Jennifer Chayes&lt;/a&gt;, a technical fellow and managing director of Microsoft Research New England, described an initiative in her labs to promote "fairness, accountability, transparency, and ethics," or FATE,&amp;nbsp;in software platforms and information systems.&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+"It's a nascent field that brings together legal scholars, ethicists, social scientists, and people in AI to ask how we can make some decisions together in a more equitable fashion," she said&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+Chayes also highlighted a method she called “algorithmic greenlining,” which makes it possible to purge inherent bias from decision-making codes that determine who in a particular population gets into a school or receives a loan. "We have a fairness component that takes an objective function and optimizes the data in a way that amplifies equities, rather than inequities," she said.&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+&lt;strong&gt;Accountability and human-centered AI&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;As U.S. Secretary of Defense, &lt;a href="https://www.belfercenter.org/person/ash-carter" target="_blank"&gt;Ash Carter&lt;/a&gt;, now the director of Harvard University's Belfer Center for Science and International Affairs, said he learned that "accountability as an algorithmic matter isn't automatic," he said. "It needs to be a criterion for people designing AI."&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+Machines easily amplify "crummy data," said Carter, so unless system designers establish "data standards and transparency, you're just massaging yesterday into a perfected version of then rather than creating 'tomorrow,'" he said.&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+Throughout his career, which involved deploying new technologies in the most perilous of circumstances, Carter said he always felt the imperative to act and think with broad ethical considerations in mind. In 2012, he recalled, he issued a directive at the Department of Defense dealing with the use of autonomous weapons.&lt;/p&gt;
+
+&lt;p&gt;"It said that with any decisions to use lethal force on behalf of our people, there must be a human involved in the decision — a directive that is still in force to this day," he said.&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+Since machines now weigh in on matters of life and death, justice and freedom, there is an urgency to creating an ethical, socially-informed culture in the fields of AI and data science. Panelists expressed the hope that the new MIT Schwarzman College of Computing would serve as an incubator for more and much stronger interdisciplinary approaches to research and education.&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+&lt;strong&gt;The future for bilinguals&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;"With this new college, we could not just diversify tech, but technify everything else and really work on the hardest problems together in a collaborative way," said &lt;a href="https://shift7.com/team"&gt;Megan Smith&lt;/a&gt; ’86, SM ’88, former U.S. chief technology officer and founder and CEO of shift7. "Feeding 22 million children in a free and reduced lunch program is a big data problem, more important than self-driving cars, and it's the kind of computing I think we should do on inequality and poverty."&lt;/p&gt;
+
+&lt;p&gt;Panelists also voiced confidence that the new college will serve as a model to other higher education institutions seeking to engage the engineering and liberal arts fields to solve important societal problems collaboratively. They discussed the importance of faculty and students representing not just a range of disciplines, but a range of human beings, people whose lived experiences are relevant to discerning the ethical and societal implications of AI tools.&lt;/p&gt;
+
+&lt;p&gt;The panelists also welcomed the opportunity to help nurture the MIT bilinguals — students with expertise in both technical and liberal arts fields — who could swiftly assume positions as policy advisors and leaders in government and industry.&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+"MIT is going to be the anchor of what we will know in this society as public interest technology," predicted Darren Walker. "What MIT is doing will set the pace for every other university that wants to be relevant in the future."&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-size:12px;"&gt;&lt;em&gt;Story prepared by MIT SHASS Communications&lt;br /&gt;
+Editorial team: Leda Zimmerman and Emily Hiestand &lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+</content:encoded>
+      <media:content url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/201903/Schwarzman-Celebtration-Ethics-Panel-MIT-00.jpeg?itok=sR1LuYSS" medium="image" type="image/jpeg" width="390" height="260">
+              <media:description type="plain">"MIT is going to be the anchor of what we will know in this society as public interest technology," predicted Darren Walker, president of the Ford Foundation, in a recent MIT panel discussion on ethics and artificial intelligence. "What MIT is doing will set the pace for every other university that wants to be relevant in the future."</media:description>
+              <media:credit>Photo: Rose Lincoln</media:credit>
+      </media:content>
+        <category domain="https://news.mit.edu/topic/mit-schwarzman-college-computing">MIT Schwarzman College of Computing</category>
+      <category domain="https://news.mit.edu/topic/media-lab-0">Media Lab</category>
+      <category domain="https://news.mit.edu/topic/ethics">Ethics</category>
+      <category domain="https://news.mit.edu/topic/technology-society">Technology and society</category>
+      <category domain="https://news.mit.edu/topic/arts">Arts</category>
+      <category domain="https://news.mit.edu/topic/engineering">Engineering</category>
+      <category domain="https://news.mit.edu/topic/collaboration">Collaboration</category>
+      <category domain="https://news.mit.edu/topic/special-events">Special events and guest speakers</category>
+      <category domain="https://news.mit.edu/topic/faculty">Faculty</category>
+      <category domain="https://news.mit.edu/topic/alumni">Alumni/ae</category>
+      <category domain="https://news.mit.edu/topic/industry">Industry</category>
+      <category domain="https://news.mit.edu/topic/school-architecture-and-planning">School of Architecture and Planning</category>
+      <category domain="https://news.mit.edu/topic/equity-and-inclusion">Equity and inclusion</category>
+      <category domain="https://news.mit.edu/topic/school-humanities-arts-and-social-sciences">School of Humanities Arts and Social Sciences</category>
+    </item>
+<item>
+  <title>Students build assistive technologies at MIT’s annual ATHack</title>
+  <link>https://news.mit.edu/2018/students-build-assistive-technologies-mit-annual-athack-0312</link>
+  <description>Citizens with disabilities from Greater Boston and students gathered to build prototypes of personalized assistive devices.&lt;br&gt;
+ &lt;br&gt;
+</description>
+  <pubDate>Mon, 12 Mar 2018 16:45:01 -0400</pubDate>
+    <guid isPermaLink="true">https://news.mit.edu/2018/students-build-assistive-technologies-mit-annual-athack-0312</guid>
+        <dc:creator>Anne McGovern | Lincoln Laboratory</dc:creator>
+  <content:encoded>&lt;p&gt;On Saturday, March 3, the Beaver Works facility was alive with hardworking university students collaborating with Boston-area citizens with disabilities. Wood and metal parts, PVC piping, laptops, pizza, and a host of gadgets were spread around the rooms. The atmosphere was equal parts boisterous and quietly contemplative.&lt;/p&gt;
+
+&lt;p&gt;The participants had gathered for the Assistive Technologies Hackathon (ATHack) hosted annually by MIT. It is a one-day event that brings people living with disabilities — called co-designers — together with undergraduate, graduate, and PhD students from multiple disciplines to build prototypes of assistive devices. For 10 hours, the students and co-designers worked in teams to build an accessible beanbag-toss game, a personalized blood pressure cuff, a portable and collapsible shower chair, battery and structural optimizations for power soccer league wheelchairs, and more.&lt;/p&gt;
+
+&lt;p&gt;“Our goal [for ATHack] is to inspire everyone there to think about accessibility and to pursue projects in this space in the future,” said Jaya Narain, co-founder and co-organizer of the event and a graduate student in mechanical engineering at MIT.&lt;/p&gt;
+
+&lt;p&gt;The event was founded in 2014 by a group of MIT students who were inspired by an assistive technologies class created by the late professor &lt;a href="https://news.mit.edu/2014/professor-seth-teller-dies" target="_blank"&gt;Seth Teller&lt;/a&gt;. As with the class, which is still offered each fall, a team of students is paired with a member of the Greater Boston community who has a disability, and they work together to solve an accessibility issue that the co-designer faces.&lt;/p&gt;
+
+&lt;p&gt;“Hopefully, [ATHack] inspires people to look for projects that are closer to home, as opposed to looking for that next big thing to solve,” said Ishwarya Ananthabhotla, co-founder and co-organizer of the event and a graduate student in the Media Lab at MIT. “There are interesting problems right around you.”&lt;/p&gt;
+
+&lt;p&gt;This year, 70 students and 13 co-designers formed 16 teams. At the end of the day, prizes were awarded in three different categories: co-designer collaboration, functionality, and engineering design.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A hands-on experience with meaningful results &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“I had never done a hackathon before ... and I wanted to do this one because I think it’s different from other big hackathons,” said Jeba Sania, an MIT undergraduate student in electrical engineering and computer science. “We work with problems that have direct solutions immediately. ... I’ve always wanted to get into tech that has a direct social impact.”&lt;/p&gt;
+
+&lt;p&gt;Sania was part of a team that worked with Juan Ramirez, a power soccer player who plans to compete in the national tournament this June. Ramirez joined the hackathon as a co-designer to search for a way to modify his soccer team’s chairs for better kicking performance — within the rules of the league, of course.&lt;/p&gt;
+
+&lt;p&gt;Kicking performance is directly related to how fast players’ chairs can spin. At the hackathon, the students devised a solution to use ultracapacitors that could release energy with a burst while spinning, and then slowly charge up again. They also developed a prototype wireless communication device with buttons and colored lights that would allow players to strategize more easily.&lt;/p&gt;
+
+&lt;p&gt;“Being able to have something with a physical structure with big buttons helps with communications,” said Ramirez. “I’m very excited about these solutions that [the students] have brought up. ... They are taking this very seriously, and I’m so surprised by the outcome.”&lt;/p&gt;
+
+&lt;p&gt;At the end of the day, Ramirez’s team won second place in the co-designer collaboration category.&lt;/p&gt;
+
+&lt;p&gt;“My goal in life is to keep making technology and to produce things that help others,” said Sania, who plans to enroll in the assistive technologies course that inspired ATHack.&lt;/p&gt;
+
+&lt;p&gt;“[ATHack] is a really cool way to build technical skills but also make a product that has actual meaningful impact — we can work directly with a partner to make something that’s immediately useful in their lives,” said Nathan Duarte, another member of Ramirez’s team, and an undergraduate student currently doing research in biomedical engineering at Harvard.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;In addition to acquiring unique skills and delivering social impact, students were also drawn to ATHack because of the interdisciplinary setting and opportunity to step outside of academic norms.&lt;/p&gt;
+
+&lt;p&gt;“My previous research experience was about wearable robotics,” said Hyun-Geun Song, a PhD student in the Harvard-MIT Program in Health Sciences and Technology. “People say you do wearable robotics research to help people, but what you actually do is quite far from that. [ATHack is] closer to doing something that helps people, instead of just doing something fancy.”&lt;/p&gt;
+
+&lt;p&gt;Song was part of a team that built a blood pressure cuff prototype operated with one hand. Their co-designer, Ellen Kornmehl, had lost her right arm because of a sarcoma. The cuff that the team built contains straps from snowboarding boots that would allow her to easily ratchet it tighter. The team received first place in the engineering design category.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Not your average hackathon&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ATHack is unique in both its structure and output. Most hackathons operate on a first-come-first-served and one-size-fits-all basis in terms of materials. During those hackathons, participants must create something using items from a limited stockroom, and when the items run out or are not in stock, then the participants must rethink their plans. ATHack is different as it involves two weeks of prior planning, which allows the organizers to gather the materials that each team of students and a co-designer requests beforehand. Therefore, on the day of the event, the teams spend most of their time building and troubleshooting.&lt;/p&gt;
+
+&lt;p&gt;Each year, ATHack also keeps a database of the prototypes that the participants have created. “Even though our project might not be successful, we have documentation on what we tried and thought of, and someone else can go through it and learn from what we did,” said Thanh Nguyen, an MIT undergraduate in mechanical engineering. “Even if we don’t have a successful project, someone else will learn from what we did.”&lt;/p&gt;
+
+&lt;p&gt;The interaction between the co-designers and the students is also distinct, ATHack focuses on partnership in problem-solving rather than a two-step process in which end users and developers are kept at a distance.&lt;/p&gt;
+
+&lt;p&gt;Amanda Fike, a co-organizer and a mechanical engineering undergraduate student at MIT, explained that running and completing a successful ATHack event is “one of the best feelings in the world. [ATHack] gets people who never thought about doing anything related to assistive technology really interested and aware of the field and aware of problems that never occur in their own day-to-day.”&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;MIT students Sally Beiruti, an undergraduate student in mechanical engineering, Tally Portnoi, a graduate student in electrical engineering and computer science, and Hosea Siu, an aerospace engineering PhD student, also co-organized the event. Other volunteers included Kurt Krueger and Richard Landry from Lincoln Laboratory, who staffed the machine shop, as well as Ryan McKindles, also from Lincoln Laboratory, who volunteered as a mentor. MIT mechanical engineering graduate students Guillermo Diaz Lankenau and Michael Buchman also worked in the shop.&lt;/p&gt;
+
+&lt;p&gt;As the 12-hour event came to a close and the awards were announced, Kornmehl, who was the co-designer for two ATHack teams, stood up to address the room: “I’m so impressed with all of you. I thank you for being so engaged.”&lt;/p&gt;
+</content:encoded>
+      <media:content url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/201803/514236-004D_sized.jpg?itok=pyg2TKRE" medium="image" type="image/jpeg" width="390" height="260">
+              <media:description type="plain">MIT undergraduates Abdalla Osman (left) and Mohammed Nasir (right) work on optimizing a power soccer chair. </media:description>
+              <media:credit>Photo: Glen Cooper</media:credit>
+      </media:content>
+        <category domain="https://news.mit.edu/topic/assistive-technology">Assistive technology</category>
+      <category domain="https://news.mit.edu/topic/hackathon">Hackathon</category>
+      <category domain="https://news.mit.edu/topic/lincoln-laboratory-0">Lincoln Laboratory</category>
+      <category domain="https://news.mit.edu/topic/beaver-works">Beaver works</category>
+      <category domain="https://news.mit.edu/topic/mechanical-engineering">Mechanical engineering</category>
+      <category domain="https://news.mit.edu/topic/engineering">Engineering</category>
+      <category domain="https://news.mit.edu/topic/special-events">Special events and guest speakers</category>
+      <category domain="https://news.mit.edu/topic/students">Students</category>
+      <category domain="https://news.mit.edu/topic/school-engineering">School of Engineering</category>
+      <category domain="https://news.mit.edu/topic/contests">Contests and academic competitions</category>
+      <category domain="https://news.mit.edu/topic/design">Design</category>
+      <category domain="https://news.mit.edu/topic/aeronautics">Aeronautical and astronautical engineering</category>
+    </item>
+<item>
+  <title>MIT ranked as nation’s No. 7 university by U.S. News</title>
+  <link>https://news.mit.edu/2014/us-news-ranking-0909</link>
+  <description>Undergraduate engineering program is again No. 1; undergraduate business program is No. 2.</description>
+  <pubDate>Tue, 09 Sep 2014 00:01:00 -0400</pubDate>
+    <guid isPermaLink="true">https://news.mit.edu/2014/us-news-ranking-0909</guid>
+        <dc:creator>News Office</dc:creator>
+  <content:encoded>&lt;p&gt;MIT again holds the No. 7 slot in &lt;em&gt;U.S. News and World Report&lt;/em&gt;’s annual rankings of the United States’ best colleges and universities, which were released today.&lt;/p&gt;&lt;p&gt;The Institute maintained its standing as the nation’s top undergraduate engineering program at a doctoral institution, a position it has held since 1990. As was the case last year, MIT was also rated as the top university in six individual engineering disciplines.&lt;/p&gt;&lt;p&gt;MIT tied with the University of California at Berkeley as the nation’s No. 2 undergraduate business program; its undergraduate programs were also ranked No. 1 in four business subfields, up from two last year, with new top ratings in entrepreneurship and management information systems.&lt;/p&gt;&lt;p&gt;All rankings went online today and can be viewed at: &lt;a href="http://www.usnews.com/colleges"&gt;http://www.usnews.com/colleges&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;The overall institutional ranking is unchanged from last year, when MIT tied for No. 7 with Duke University and the University of Pennsylvania — which both share the No. 8 slot this year. Princeton University holds this year’s top slot, followed by Harvard University and Yale University. Columbia University, Stanford University, and the University of Chicago are tied at No. 4.&lt;/p&gt;&lt;p&gt;Among individual factors contributing to overall institutional standings, &lt;em&gt;U.S. News&lt;/em&gt; ranked MIT first in selectivity, a criterion encompassing undergraduate acceptance rate, number of incoming students in the top decile of their high school class, and standardized test scores; the Institute tied at No. 1 with Caltech on these metrics.&lt;/p&gt;&lt;p&gt;MIT shared top billing with Harvard and Stanford in assessments by presidents, provosts, and top admissions officials at peer institutions. MIT also tied for first — with Princeton, Harvard, Yale, Columbia, and Stanford — in the assessment of high school guidance counselors.&lt;/p&gt;&lt;p&gt;As last year, among undergraduate engineering specialties, MIT ranks first in six categories: aerospace/aeronautical/astronautical engineering; chemical engineering; computer engineering; electrical/electronic/communications engineering; materials engineering; and mechanical engineering. The Institute’s undergraduate program in engineering science/engineering physics ranked second (tied with Stanford and Berkeley), and its undergraduate program in biomedical engineering ranked third.&lt;/p&gt;&lt;p&gt;Other schools in the top five overall for undergraduate engineering programs are Stanford, Berkeley, Caltech, and Georgia Tech.&lt;/p&gt;&lt;p&gt;In undergraduate business specialties, the MIT Sloan School of Management ranks first in four areas: entrepreneurship; management information systems; productions/operations management; and quantitative analysis/methods. MIT Sloan ranks second in two additional disciplines: finance and supply-chain management/logistics.&lt;/p&gt;&lt;p&gt;Penn’s undergraduate business program ranks No. 1 overall; MIT is tied with Berkeley in second place. The University of Michigan and New York University round out the top five undergraduate business programs.&lt;/p&gt;
+</content:encoded>
+      <media:content url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/201409/NewsImage_dome-trees_0.jpg?itok=3idMOJab" medium="image" type="image/jpeg" width="390" height="260">
+              </media:content>
+        <category domain="https://news.mit.edu/topic/business">Business and management</category>
+      <category domain="https://news.mit.edu/topic/engineering">Engineering</category>
+      <category domain="https://news.mit.edu/topic/education">Education, teaching, academics</category>
+      <category domain="https://news.mit.edu/topic/rankings">Rankings</category>
+      <category domain="https://news.mit.edu/topic/undergraduate">Undergraduate</category>
+      <category domain="https://news.mit.edu/topic/school-engineering">School of Engineering</category>
+      <category domain="https://news.mit.edu/topic/mit-sloan-school-management">MIT Sloan School of Management</category>
+    </item>
+<item>
+  <title>Harnessing the speed of light</title>
+  <link>https://news.mit.edu/2014/harnessing-speed-light</link>
+  <description>Nicholas Fang pushes the limits of light to improve performance in communication, fabrication, and medical imaging.</description>
+  <pubDate>Tue, 08 Jul 2014 12:00:01 -0400</pubDate>
+    <guid isPermaLink="true">https://news.mit.edu/2014/harnessing-speed-light</guid>
+        <dc:creator>Steve Calechman | MIT Industrial Liaison Program</dc:creator>
+  <content:encoded>&lt;p&gt;The fields of data communication, fabrication, and ultrasound imaging share a common challenge when it comes to improving speed and efficiency: light’s diffraction limit. Nicholas Fang thinks his group at MIT might have found a solution.&lt;/p&gt;
+
+&lt;p&gt;“In my group we play tricks with optics,” says Fang, an associate professor of mechanical engineering. These tricks have led to findings that allow for generating three-dimensional microstructures, using graphene as a more efficient delivery channel, and creating a new lens that would produce intense ultrasonic energy. With the ability to focus and target light onto the nanoscale, not only would data communication become quicker, but the diagnosis and treatment of disease would also become more precise, less invasive, less cumbersome, and more cost effective than current approaches.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Narrowing the target&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One of Fang’s key discoveries is finding how to beat the diffraction of light. Since light and sound waves tend to spread out when blocked by an obstacle, images and communication signals can become blurry and muddled. In his lab, Fang discovered that by breaking the diffraction barrier, light signals can be sent at 10 times greater capacity. This has allowed him to produce results on the sub-nanometer scale, with light as a machining tool providing “a new degree of precision,” he says.&lt;/p&gt;
+
+&lt;p&gt;The benefits are two-fold: First, such technology could allow for printing electronic circuits using more manageable and less expensive equipment. Currently, to produce nanoscale features on computing chips, an extreme UV light source is needed. The investment costs can be in the hundreds of millions of dollars, Fang says. With new, high-resolution optics that can print nanoscale elements on the wafer scale, he says, costs can decrease to hundreds of thousands of dollars.&lt;/p&gt;
+
+&lt;p&gt;Second, the technology also provides the means to print and generate biosensors and scaffolding for tissue growth for artificial livers and artificial tumor models, among other things. When it comes to drug therapy, screening would become faster and delivery more precise, Fang says. The eventual goal, he says, is the creation of nanorobots and nanodevices that would can flow into the blood stream to detect malicious cells at an early stage and create a long-term, self-sustained care system.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A smarter optical fabric for chips&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Fang says that he’s particularly excited about the potential to control and deliver a large bundle of light signals for communication over a small area. Increasing the downloading speed of data is nothing new — and is happening continually. But the ramifications of Fang’s work reach beyond downloading videos on a smartphone in under 30 seconds. The improvement means the same amount of data can be handled and exchanged across different chips, he says.&lt;/p&gt;
+
+&lt;p&gt;“Our vision is the cell phone will eventually be replaced by wearable devices,” says Fang, noting Pebble and Google Glass as current examples. This will help create a better user experience, through providing a more visual life that’s more transparent, portable, and energy efficient, he says.&lt;/p&gt;
+
+&lt;p&gt;The hope could lie in transmitting light on chips with graphene. Light itself is a marvelous carrier of information, Fang says, because it’s not limited by bandwidth, and signals don’t necessarily interfere with each other. The only problem is that the diffraction limit creates a bottleneck in which close signals can start bending towards each other. Think of a highway with everyone trying to exit at the same place at the same time. To prevent this kind of jamming with information, each signal needs to maintain its own identity.&lt;/p&gt;
+
+&lt;p&gt;This is where graphene comes in. The electronic benefits of the carbon-based material are already known, but the optical properties remain untapped. Graphene is 10 times faster optically than electronically and can guide light precisely, keeping signals in their own channel, in a sense, making light signals look more like motorcycles (smaller) rather than a big vans in traffic, Fang says. With light signals having a reduced size, more signals can be driven in the same field. “We could use graphene as our information highway,” he says.&lt;/p&gt;
+
+&lt;p&gt;One big question that remains is how much power is needed to drive each bit. But potential applications include implementation in Intel or IBM chips, increasing the amount of data capacity while decreasing the amount of response time to information. The end product? A smarter chip, Fang says.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Seeing cells through the body&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For another project, Fang is applying his knowledge of optics to acoustics and ultrasound. Being able to generate intense ultrasonic energy would break up specific cells or cell membranes and inject them with drug particles. The challenge, once again, is the diffraction limit. Available medical devices can operate down to half a millimeter, but individual cells are micrometers. The need is to overcome 10 times the lens change in order to treat or cure one particular cell.&lt;/p&gt;
+
+&lt;p&gt;Fang says his research holds this possibility: He's shown the ability to generate a flat lens that can deliver acoustic energy into a tightly focused spot, meaning a healthy cell could be differentiated from a malignant one, and therapy could be targeted. A physician collaborator is still needed to build a suitable test that would gain eventual FDA approval, but Fang says he is excited about the potential. Compared to current methods, the device would be more precise — a large fiber bundle wouldn’t be needed to penetrate the body’s tissue — and would only need a fraction of the power. “We do consider this medical ultrasound innovation could be less invasive and it could be less painful for the patients,” he says.&lt;/p&gt;
+</content:encoded>
+      <media:content url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/201407/fang.jpg?itok=T0lKiUhp" medium="image" type="image/jpeg" width="390" height="260">
+              </media:content>
+        <category domain="https://news.mit.edu/topic/engineering">Engineering</category>
+      <category domain="https://news.mit.edu/topic/mechanical-engineering">Mechanical engineering</category>
+      <category domain="https://news.mit.edu/topic/energy">Energy</category>
+      <category domain="https://news.mit.edu/topic/light">Light</category>
+      <category domain="https://news.mit.edu/topic/optics">Optics</category>
+      <category domain="https://news.mit.edu/topic/nanotech">Nanoscience and nanotechnology</category>
+      <category domain="https://news.mit.edu/topic/materialsscienceandengineering">Materials science and engineering</category>
+    </item>
+<item>
+  <title>Resonating MIT </title>
+  <link>https://news.mit.edu/2014/resonating-mit</link>
+  <description>Exploring the sounds of campus with visiting artists Scanner, Stephen Vitiello, and Either/Or </description>
+  <pubDate>Tue, 10 Jun 2014 11:00:01 -0400</pubDate>
+    <guid isPermaLink="true">https://news.mit.edu/2014/resonating-mit</guid>
+        <dc:creator>Anya Ventura | Center for Art, Science &amp; Technology</dc:creator>
+  <content:encoded>&lt;p&gt;From the underground tunnels to the palatial skylit dome, MIT is a campus rich in unusual spaces, each with its own particular acoustic and cultural resonance. These are nooks and crannies that hum and vibrate, whisper and sing. This spring, MIT and Berklee College of Music students creatively explored these locations through a series of sound installations at the intersection of music, art, architecture, and sound engineering.&lt;/p&gt;
+
+&lt;p&gt;The course 4.373/374 (Sound Installations and Sonic Interventions), sponsored by the Center for Art, Science and Technology (CAST), explored how sound can offer new ways of understanding space and place. It was led by artist Gediminas Urbonas, an associate professor in MIT’s program in Art, Culture and Technology (ACT), in conjunction with two composition classes, 21M.065 (Introduction to Music Composition) and 21M. 351 (Music Composition), both taught by Keeril Makan, an associate professor of music at MIT.&lt;/p&gt;
+
+&lt;p&gt;Instrumental to these investigations were visiting artists Scanner (otherwise known as Robin Rimbaud), Stephen Vitiello, and members of the experimental ensemble Either/Or. These artists served as creative catalysts, coming to campus once a month throughout the semester to advise students on their projects, perform original works, and discuss their own pioneering work in music and sound art.&lt;/p&gt;
+
+&lt;p&gt;Other collaborators were Neil Leonard, an MIT research affiliate and artistic director of Berklee's Interdisciplinary Arts Institute, and Ann Lui SM '14, the course’s teaching assistant. Seth Avecilla, a fabrication associate, and Madeleine Gallagher, a media associate, both set up the electronic production lab for the sound installations.&lt;/p&gt;
+
+&lt;p&gt;With these acclaimed artists, students explored the burgeoning — albeit difficult to define — field of sound art. Sound conveys information and orients us to our location. Yet, according to some, Western philosophy has long dismissed hearing as subordinate sense to vision as way to acquire knowledge. Recent scholarship and creative work has, in turn, sought to reestablish the value of sound as a significant learning tool, exploring both the cognitive and cultural dimensions of auditory perception.&lt;/p&gt;
+
+&lt;p&gt;“As soon as these artists started coming in, everyone went off on a new tangent. Their opinions were what drove us forward and gave us new ideas,” says Chris Martin MA '15, who, together with Berklee students Audri Acuña and Zai Zhe, amplified a hidden metal staircase in the funhouse-like Stata Center by processing the resonances produced by the space’s vibrations. “It was exhilarating playing the staircase as if it were a giant metallic instrument," Acuña says.&lt;/p&gt;
+
+&lt;p&gt;Another project by Carolina Lopez-Trevino '15 and Berklee student Jonas Margraf brought to life the desk-lined gymnasium of Walker Memorial, infamous to undergraduates as the dreaded site of final exams. With its complex acoustics, Lopez-Trevino says, the gymnasium is a place where “you can hear everything and nothing all at the same time.”&lt;/p&gt;
+
+&lt;p&gt;In “Pedestrian Music,” a microphone was installed in the grand, domed lobby of Building 7. Using custom software, the piece picked out and amplified individual tones from the larger tapestry of ambient noise to reflect beautiful new sonic textures. It was created by Longrui Peng, a graduate student in the department of urban studies and planning, and Berklee students Dalton Harts and Ni Cai.&lt;/p&gt;
+
+&lt;p&gt;Sara Goheen '14 and Berklee students Collin Russell and Pamela Gonzalez piped underwater sounds into the Green Building’s radome, a fiberglass bubble enclosing the building’s weather radar dish. &amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;The course also presented a unique opportunity to bring together students from different disciplines. “Being in a partnership made us braver,” says Nisa Ari, a doctoral candidate in art history, who collaborated with Berklee student Chelsea Southard. Together, they created “BexPhone,” a monument to the soon-to-be-demolished Bexley Hall, a famously eccentric MIT dormitory. &amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;The class “did much to promote dialogue about sound and society within our communities and beyond,” Leonard says. Documentation of this work can be accessed on the course’s website, &lt;a href="http://artsm.it/1nEuvsV"&gt;Resonating MIT&lt;/a&gt;, which also allows visitors to “pin” their own sounds on an interactive map and for MIT community members to upload sound-based events and recordings pertinent to their research. In celebrating spaces on campus that might otherwise be overlooked, these projects inspired audiences to recalibrate their senses towards the built environment. As Martin says: “The soundwalk really explored MIT to its fullest.”&lt;/p&gt;
+
+&lt;p&gt;Scanner and Vitiello culminated their residency in an improvised and immersive sound performance, “Sonic Bodies,” accompanied by Either/Or members David Shively and Jennifer Choi. Artist Madeleine Gallagher created a backdrop of kaleidoscopic visuals. Surrounded by speakers, audiences were immersed in a rich and ever-shifting sonic landscape whose resonances could be felt within the body.&lt;/p&gt;
+
+&lt;p&gt;“It was the perfect capstone to an amazing class,” Urbonas&amp;nbsp;says. “These sonic interventions produced series of creative acts, that made research spaces and disciplinary boundaries resonate, making the essence of things go out of themselves producing new spaces. Once again we could witness the power of art appropriating these new emerging territories for critical exploration.”&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+</content:encoded>
+      <media:content url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/201406/resonate.jpg?itok=ouvyi-yf" medium="image" type="image/jpeg" width="390" height="260">
+              </media:content>
+        <category domain="https://news.mit.edu/topic/architecture">Architecture</category>
+      <category domain="https://news.mit.edu/topic/arts">Arts</category>
+      <category domain="https://news.mit.edu/topic/engineering">Engineering</category>
+      <category domain="https://news.mit.edu/topic/special-events">Special events and guest speakers</category>
+      <category domain="https://news.mit.edu/topic/music2">Music</category>
+    </item>
+<item>
+  <title>MIT students create original kinetic art </title>
+  <link>https://news.mit.edu/2014/mit-students-create-original-kinetic-art</link>
+  <description/>
+  <pubDate>Thu, 29 May 2014 14:20:01 -0400</pubDate>
+    <guid isPermaLink="true">https://news.mit.edu/2014/mit-students-create-original-kinetic-art</guid>
+        <dc:creator>Anya Ventura | Center for Art, Science &amp; Technology</dc:creator>
+  <content:encoded>&lt;p&gt;It all begins with a feeling. For their first exercise at the beginning of the spring semester, students in “Exhibiting Science” (STS.035) — a class in MIT’s Program in Science, Technology, and Society — were instructed to write on a Post-it note their response to the question, “How does it feel to start a new semester at MIT?”&lt;/p&gt;
+
+&lt;p&gt;Each student then had to design a kinetic sculpture that used movement to embody their described feeling — whether of fear, anticipation, or excitement. Using everything from bamboo to rubber bands to foam, students built kinetic art that translated energy into motion — either through force of gravity or elasticity of a material — to convey something about the contents of the human heart.&lt;/p&gt;
+
+&lt;p&gt;“Exhibiting Science” is taught by MIT Museum Director John Durant and Museum Studio Co-Directors Seth Riskin and Allan Doyle. The theme this spring derives from the &lt;a href="http://web.mit.edu/museum/exhibitions/5000.html"&gt;MIT Museum’s 5000 Moving Parts&lt;/a&gt;, an exhibition of kinetic sculptures, curated by Laura Knott, and featuring artists &lt;a href="http://arts.mit.edu/artists/anne-lilly-3/"&gt;Anne Lilly&lt;/a&gt;, Rafael Lozano-Hemmer, &lt;a href="http://arts.mit.edu/artists/john-douglas-powers-2/"&gt;John Powers&lt;/a&gt;, Takis, and &lt;a href="http://arts.mit.edu/artists/arthur-ganson/"&gt;Arthur Ganson&lt;/a&gt;, in collaboration with sound artist Christina Campanella.&lt;/p&gt;
+
+&lt;p&gt;Originating with early 20th-century sculptors such as Marcel Duchamp, Naum Gabo, and László Moholy-Nagy, kinetic art — where movement in a piece of art is perceivable to the viewer — deploys physical movement as its chief agent of expression. The MIT Museum has declared this the “year of kinetic art,” building upon a long-standing tradition of displaying this unique type of work — the poetic and wily machines of Ganson, for example, having been on permanent exhibition since 1995.&lt;/p&gt;
+
+&lt;p&gt;With the exhibition as inspiration, the students from the “Exhibiting Science” class have now created their own kinetic sculptures to display at the MIT Museum. Powers, Lilly, and Ganson mentored students as they embarked upon their mechanical creations, culminating in the rare opportunity for students to display their work for thousands of visitors. “They’re not just creating prototypes for an end-of-semester review,” Riskin says. “The students have to create pieces that are going to last and meaningfully engage Museum visitors. They have to be well done in terms of both art and engineering.”&lt;/p&gt;
+
+&lt;p&gt;The Museum Studio, housed off MIT’s bustling Infinite Corridor in the Compton Gallery — is the newest satellite of the MIT Museum. Here — among the worktops densely covered in wire, glue, circuit boards, soldering irons, X-Acto knives, PVC pipes, and other tools — is a space for creative experimentation. The Museum Studio “is a place where the art studio, the engineering lab and public forum combine to create a genuinely 21st-century learning environment,” Riskin says.&lt;/p&gt;
+
+&lt;p&gt;As a kind of research and development lab for interdisciplinary work, the studio serves as an incubator for student-led projects with exhibition potential. “It’s an ongoing exhibition of the creative process,” Riskin says, “a place for students to explore technologies as vehicles of expression and, equally, for visitors to see learning in action.”&lt;/p&gt;
+
+&lt;p&gt;For the first half of the semester, students learned “how to use the metaphor-making mind,” Riskin says. For instance, they learned how to “see gesture” in mechanical motion and how to embody ideas in form and movement. Next, it was a balancing act between the art and engineering processes — realizing their artistic concept, while engineering a functional piece.&lt;/p&gt;
+
+&lt;p&gt;But unlike a typical engineering class, “Exhibiting Science” is not all about solutions. “It’s not about getting the problem sets right. Through the projects students learn about themselves and find their voices to communicate about things that matter to them,” Riskin says.&lt;/p&gt;
+
+&lt;p&gt;At the beginning of the class, Doyle recounted a radio interview he’d recently heard with someone who had just taken a tightrope-walking class. At the end of the week, the person said, he wasn’t better at balancing but he was more comfortable being out of balance. And that was the same thing Doyle hoped to instill in his students: to accept uncertainty.&lt;/p&gt;
+
+&lt;p&gt;I’ve just been finding that my mind has been opened up in ways that are very different from in a technical education,” says Dana Gretton, a sophomore who had been a fan of Ganson’s since glimpsing his work on YouTube in middle school.&lt;/p&gt;
+
+&lt;p&gt;“The idea of having a visual vocabulary is really powerful,” he adds, noting that art offers a language for what is difficult to express in words. His sculpture, which is about “the loss of self in grief,” features a kettle submerged in a tank of water that’s pouring liquid into a small teacup — an act that highlights the permeability of boundaries between inside and outside.&lt;/p&gt;
+
+&lt;p&gt;Yoonjeong Cha, a computer science and biology double major, was also looking for something outside the norm. “It’s so different from all of my other classes,” she says, adding, “We’re not doing something that’s already set by the instructors, it’s really about exploring. I thought that was really cool.” In her piece, two flaps of paper, affixed to wooden rods like sails, slowly rotate and periodically brush against each other. Viewers, she says, should feel viscerally the resistance of the paper, as it comes together slowly and then pushes apart.&lt;/p&gt;
+
+&lt;p&gt;The students’ sculptures, Riskin believes, represent their “lives, memories, experiences, and ambitions.” They are autobiographical, he says, adding, “The sculptures not only convey intended messages; they disclose something of their creators — the characters and imagination of MIT students.”&lt;/p&gt;
+
+&lt;p&gt;The kinetic sculptures from “Exhibiting Science,” as well as works by winners of the competition, Inventions: 2014 Student Showcase, will be on view from May 30 through December 31 in the Peterson Gallery A of the MIT Museum (Building N51, 265 Massachusetts Ave, Cambridge, MA) in an exhibition made possible by support from the Council for the Arts at MIT and the MIT Museum Friends and Patrons. Many of the works were created with the support and mentorship of the MIT Museum Studio. “Exhibiting Science” is sponsored by the Center for Art, Science &amp;amp; Technology (CAST) and the MIT Program in Science, Technology and Society.&lt;/p&gt;
+</content:encoded>
+      <media:content url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/201405/studio-sts035-1.jpeg?itok=SaEFoiWR" medium="image" type="image/jpeg" width="390" height="260">
+              </media:content>
+        <category domain="https://news.mit.edu/topic/arts">Arts</category>
+      <category domain="https://news.mit.edu/topic/engineering">Engineering</category>
+      <category domain="https://news.mit.edu/topic/students">Students</category>
+      <category domain="https://news.mit.edu/topic/special-events">Special events and guest speakers</category>
+      <category domain="https://news.mit.edu/topic/mit-museum">MIT Museum</category>
+    </item>
+<item>
+  <title>Lemelson-MIT InvenTeam students showcase invention projects at White House Science Fair</title>
+  <link>https://news.mit.edu/2014/lemelson-mit-inventeam-students-showcase-invention-projects-white-house-science-fair</link>
+  <description>Students from Natick High School and Newton North High School selected to exhibit. </description>
+  <pubDate>Tue, 27 May 2014 09:30:00 -0400</pubDate>
+    <guid isPermaLink="true">https://news.mit.edu/2014/lemelson-mit-inventeam-students-showcase-invention-projects-white-house-science-fair</guid>
+        <dc:creator/>
+  <content:encoded>&lt;p&gt;Students from Natick High School and Newton North High School traveled to today’s White House Science Fair to show their &lt;a href="http://web.mit.edu/inventeams/index.html"&gt;Lemelson-MIT InvenTeam&lt;/a&gt; projects to President Barack Obama. The students were among hundreds of others from around the country selected to participate in the event, which recognizes winners from a broad range of science, technology, engineering, and math (STEM) competitions.&lt;/p&gt;
+
+&lt;p&gt;The White House Science Fair fulfills a commitment Obama made at the launch of his &lt;a href="http://www.whitehouse.gov/issues/education/k-12/educate-innovate"&gt;Educate to Innovate&lt;/a&gt; campaign in November 2009 — to inspire boys and girls to excel in math and science. The president noted at the start of this program, “If you win the NCAA championship, you come to the White House. Well, if you’re a young person and you produce the best experiment or design, the best hardware or software, you ought to be recognized for that achievement, too.”&lt;/p&gt;
+
+&lt;p&gt;The students from Natick and Newton North were honored for their achievements as 2012-2013 Lemelson-MIT InvenTeam grant recipients from the &lt;a href="http://web.mit.edu/invent/"&gt;Lemelson-MIT Program&lt;/a&gt;. The InvenTeam initiative inspires young people to pursue creative lives and careers through invention. InvenTeams are granted up to $10,000 each to conceptualize, design, and build technological solutions to real-world problems.&lt;/p&gt;
+
+&lt;p&gt;Katelyn Sweeney and Olivia Van Amsterdam represented the &lt;a href="http://web.mit.edu/inventeams/teams/2013/natick.html"&gt;Natick High School InvenTeam&lt;/a&gt;. The team developed a remotely operated vehicle for ice-search and rescue-dive teams. The land vehicle will quickly traverse the ice and lower a submersible detection device, which will assist a dive team when searching for objects or bodies in dangerously cold waters, with temperatures of 33 to 45 degrees Fahrenheit. Sweeney and Van Amsterdam have been instrumental in the filing of a U.S. utility patent for their device.&lt;/p&gt;
+
+&lt;p&gt;Felege Gebru and Karen Cheuk-Wing Fan represented the &lt;a href="http://web.mit.edu/inventeams/teams/2013/newton.html"&gt;Newton North High School InvenTeam&lt;/a&gt;. The team developed a pedestrian alert system to be used in Addis Ababa, Ethiopia, to alert crossing pedestrians of approaching vehicles, increasing pedestrian safety. Gebru shared his firsthand knowledge of the dangers that pedestrians encounter in his home country of Ethiopia, and the InvenTeam has partnered with a sister school in Ethiopia to inform its understanding of the problem and guide the design.&lt;/p&gt;
+
+&lt;p&gt;“An invitation to the White House Science Fair is an incredible honor for these students,” said Leigh Estabrooks, the Lemelson-MIT Program’s invention education officer, who oversees the national InvenTeam initiative. “Katelyn, Olivia, Felege, and Karen exemplify the qualities we look for in our InvenTeams because of their passion for invention and devotion to inspiring other youth. These students have successfully blended their minds-on knowledge with their hands-on skills, and show what is possible when rigorous academics are blended with relevant career and technical education.”&lt;/p&gt;
+
+&lt;p&gt;Katelyn Sweeney is a senior at Natick High School and enjoys engaging with youth at the MIT Museum, talking about the fun of invention. In addition to InvenTeams, Sweeney is a member of Business Professionals of America. She seeks to help younger girls envision themselves as engineers and helped establish an all-girls robotics team at Natick High School with Van Amsterdam. She is also a counselor at the Natick High School robotics camp for middle school girls and boys. Sweeney will attend MIT in the fall.&lt;/p&gt;
+
+&lt;p&gt;Olivia Van Amsterdam is a junior at Natick High School and represented the Lemelson-MIT Program and her InvenTeam at the Massachusetts STEM Summit last fall. In addition to leading the InvenTeam, Van Amsterdam is the captain of a coed robotics team and a member of Business Professionals of America. Van Amsterdam is a counselor at the Natick High School robotics camp for middle school girls and boys. She also volunteers teaching robotics to Girl Scouts, and has participated in the U.S. Army Leadership program at the Army’s Natick Soldier Systems Center.&lt;/p&gt;
+
+&lt;p&gt;Felege Gebru moved to the United States with his family from Ethiopia. He was a star student at Newton North High School, excelling in his Advanced Placement classes while being involved with the design department, student government, and football. He is currently focusing his studies on computer science and visual arts at Brown University.&lt;/p&gt;
+
+&lt;p&gt;Karen Cheuk-Wing Fan&lt;strong&gt; &lt;/strong&gt;is a senior at Newton North High School and spends her spare time volunteering with the Greater Boston Chinese Culture Association and the Chinese Progressive Association, where she organized the effort to build a library in the Chinatown neighborhood of Boston. Fan is a leader on the InvenTeam, and was recently selected to represent her teammates at a presentation to Newton Mayor Setti Warren and Rep. Joe Kennedy (D-Mass.). She will attend MIT in the fall.&lt;/p&gt;
+</content:encoded>
+      <media:content url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/201405/Group_Photo_1.jpeg?itok=iXpRpHdN" medium="image" type="image/jpeg" width="390" height="260">
+              </media:content>
+        <category domain="https://news.mit.edu/topic/lemelson-mit-program">Lemelson-MIT Program</category>
+      <category domain="https://news.mit.edu/topic/students">Students</category>
+      <category domain="https://news.mit.edu/topic/stem-education">STEM education</category>
+      <category domain="https://news.mit.edu/topic/volunteering">Volunteering, outreach, public service</category>
+      <category domain="https://news.mit.edu/topic/invention">Invention</category>
+      <category domain="https://news.mit.edu/topic/engineering">Engineering</category>
+    </item>
+<item>
+  <title>The art and politics of public space</title>
+  <link>https://news.mit.edu/2014/art-and-politics-public-space</link>
+  <description>Symposium and exhibition honor MIT professor Antoni Muntadas</description>
+  <pubDate>Fri, 16 May 2014 14:00:00 -0400</pubDate>
+    <guid isPermaLink="true">https://news.mit.edu/2014/art-and-politics-public-space</guid>
+        <dc:creator>Anya Ventura | Center for Art, Science &amp; Technology</dc:creator>
+  <content:encoded>&lt;p&gt;“Urban Crisis” was spelled out in red capital letters, against a neon background, on the screen behind Antoni Muntadas, a professor in MIT’s Art, Culture and Technology (ACT) program. Muntadas, now retiring, was at the podium discussing his multi-decade art and activist practice at the symposium, “&lt;a href="http://public-space.mit.edu/index/"&gt;Public Space? Lost and Found&lt;/a&gt;,” held in his honor.&lt;/p&gt;
+
+&lt;p&gt;From photography and video to installations and urban interventions, Muntadas’ work has served as a model for an engaged practice in which art and politics are intimately entwined. His exhortation, “Perception requires involvement,” a phrase appearing often in his work, was a call to arms for a symposium geared towards seeking new ways to intervene in the public sphere.&lt;/p&gt;
+
+&lt;p&gt;As exemplified by reform movements such as Occupy Wall Street and the demonstrations at Tahrir Square, people today are fighting for social change. The question posed by the symposium was: What role might artists and architects play in these struggles? Bringing together artists, architects, planners, and theorists from MIT and beyond in a two-day event and exhibition, the symposium explored how creative methodologies can produce new knowledge and effect social change. Presented by ACT and the Center for Art, Science &amp;amp; Technology (CAST), the symposium aimed to show how space — physical, social, and virtual — can be rethought, rebuilt, and redreamed to create a more democratic society in the face of increasing militarization, corporatization, and ecological destruction.&lt;/p&gt;
+
+&lt;p&gt;The interventions displayed and discussed at the symposium spanned the globe — from a crowded Tokyo streetscape, to a rural Alabama town, to the sun-choked borderlands between San Diego and Tijuana — revealing the often-invisible ways in which public space is produced and regulated, and how artists reshape these geographic and social contexts. In one instance, artist Jennifer Allora SM ’03 placed immense pieces of chalk in city plazas around the world, inviting citizens to scribble ephemeral messages on the urban canvas. In another project, Matthew Mazzotta SM ’09 created an open-air theater out of salvaged materials from an abandoned house.&lt;/p&gt;
+
+&lt;p&gt;The themes of the symposium drew from Muntadas’ long and influential career at MIT. Muntadas came to MIT in 1977 as a research fellow at the Center for Advanced Visual Studies (CAVS), a decade after the pioneering interdisciplinary program was founded. His work embodied the center’s commitment to “art on a civic scale” and belief in the social role of the artist. Muntadas became an ACT professor in 1990 and has since tirelessly investigated the relationships between mass media, the public sphere, and private life. During his early years at CAVS, in the late 1970s, Muntadas coined the now common phrase, “media landscape,” giving name to the beginnings of today’s information-rich society.&lt;/p&gt;
+
+&lt;p&gt;The exhibition accompanying the symposium, installed in the lobby of the MIT Media Lab, features several large free-standing photographs, striking in scale, with their plywood supports exposed. Shelves are attached to the back of the structures to form a viewing station, where visitors can peruse documentation — such as posters, research materials, and travel photos — of various public art works created by Muntadas’ students since 2001. The exhibit is also a celebration of the art of pedagogy — an homage to an artist and educator who inspired his students to critically engage with the world.&lt;/p&gt;
+
+&lt;p&gt;The greatest strength of the symposium was its gathering of artists, architects, philosophers, urban planners, and engineers in conversation, says Gediminas Urbonas, an associate professor and the Mitsui Career Development Chair for ACT. “We all could speak the same language,” he says, adding, “and that was built on understanding that art is the shared and common territory.”&lt;/p&gt;
+
+&lt;p&gt;The interdisciplinary discussions catalyzed by the symposium will be continued through an upcoming publication that seeks to “identify and frame the tools, tactics, and consequences of actively reclaiming public space,” according to Urbonas. “In addition to symposium participants, contributors represent a diverse array of key scholars and practitioners across the disciplines of art, architecture, and urban studies who are shaping the discourse around public art and public space.”&lt;/p&gt;
+
+&lt;p&gt;The “Public Space? Lost and Found” exhibit will be on display in the lobby of the Media Lab from April 18 to Oct. 30, 2014.&lt;/p&gt;
+</content:encoded>
+      <media:content url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/201405/DSC_0158.jpg?itok=T-dMy236" medium="image" type="image/jpeg" width="390" height="260">
+              </media:content>
+        <category domain="https://news.mit.edu/topic/arts">Arts</category>
+      <category domain="https://news.mit.edu/topic/architecture">Architecture</category>
+      <category domain="https://news.mit.edu/topic/engineering">Engineering</category>
+      <category domain="https://news.mit.edu/topic/special-events">Special events and guest speakers</category>
+      <category domain="https://news.mit.edu/topic/exhibits">Exhibits</category>
+      <category domain="https://news.mit.edu/topic/school-architecture-and-planning">School of Architecture and Planning</category>
+      <category domain="https://news.mit.edu/topic/urban-studies">Urban studies and planning</category>
+    </item>
+<item>
+  <title>Fast, furious, and soon to be electric</title>
+  <link>https://news.mit.edu/2014/fast-furious-and-soon-be-electric</link>
+  <description>The MIT Formula SAE team heats up the road&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+</description>
+  <pubDate>Wed, 23 Apr 2014 11:00:00 -0400</pubDate>
+    <guid isPermaLink="true">https://news.mit.edu/2014/fast-furious-and-soon-be-electric</guid>
+        <dc:creator>Hannah Hailan Pang '16</dc:creator>
+  <content:encoded>&lt;p&gt;Early on Saturday mornings, before the rest of campus stirs awake, Jacqueline Sly ’14 grabs coffee and heads down Massachusetts Ave. to building N51. Winding through familiar walkways, past boxes of scrap metal and old pipes, she arrives at a large, airy room dominated by two nearly finished frames of certified Formula One cars. To Sly and the rest of the MIT Formula SAE team, this is home.&lt;/p&gt;
+
+&lt;p&gt;Seated unassumingly next to the MIT Museum, N51 houses multiple student teams working under the auspices of the Edgerton Center, including the Formula SAE team, the Marine Robotics Team, and the Solar Electric Vehicle Team.&lt;/p&gt;
+
+&lt;p&gt;The students and alumni involved in these teams are intense, passionate, and motivated. For the Formula SAE team, building a car means more than the annual summer collegiate competition. It means family and fun — a home for mechanical and electrical engineers exploring their love for design and engineering in a very exciting way.&lt;/p&gt;
+
+&lt;p&gt;As team members examine a still-functioning car built for the 2011 competition, for instance, sophomore Connor McMahan remarks on the finesse of engineering the seat and firewall to "keep the driver from burning up.”&lt;/p&gt;
+
+&lt;p&gt;“Safety really is a big deal,” he adds, “It’s not something we can treat lightly or gloss over.”&lt;/p&gt;
+
+&lt;p&gt;Working on these safety features, McMahan spends almost all day Saturdays in the N51 lab, and, during crunch time, sometimes from sunrise to sunset. Indeed, good amounts of energy and stress (and a lot of hot pizza) can fuel hours of work from the entire team — usually sprawled out in different nooks throughout the crowded lab — all day and night on Saturdays.&lt;/p&gt;
+
+&lt;p&gt;This year, the seniors of Formula SAE have started a new mentorship program for underclassmen. Freshman José Zuniga, who joined last fall, is guided through the research and implementation of a new dashboard user interface. He is one of many participants in a new pairing project between upperclassmen and new members, which Sly says is effective in building a strong community of members who stay and perform well as years go by.&lt;/p&gt;
+
+&lt;p&gt;Seniors like Sly and others shape the Formula SAE team into a family of dedicated and driven engineers. This year, Sly and others organized their participation in another race at the University of Toronto for fun — and for her teammates to learn and bond. Sly has been strongly involved with Edgerton clubs since freshman year, but to her, Formula SAE is about her love both of cars and of “the idea of a highly collaborative project that requires the combined effort of an entire group of students.”&lt;/p&gt;
+
+&lt;p&gt;At an upcoming competition in Lincoln, Neb. in June, the team will debut a new electric car that has required more careful designing, building, and maintenance. Because the driver — who is always a teammate and MIT student — could be hurt if the car fails, this group, unlike most other student groups on campus, has a keen sense of potential danger and the importance of skilled engineering. And creativity: Although the word is too often “only tied to the traditional arts — painting, drawing, performance arts, visual arts, music, and writing,” Sly says, “creativity is an important force in engineering.” And there is no better example of the intersection of creativity and engineering than the endearingly messy lab space at N51.&lt;/p&gt;
+</content:encoded>
+      <media:content url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/201404/fsae.jpeg?itok=mUUW4Vvn" medium="image" type="image/jpeg" width="390" height="260">
+              <media:description type="plain">Formula SAE racing in MIchigan in 2013</media:description>
+              <media:credit>Photo: Formula SAE</media:credit>
+      </media:content>
+        <category domain="https://news.mit.edu/topic/engineering">Engineering</category>
+      <category domain="https://news.mit.edu/topic/competition">competition</category>
+      <category domain="https://news.mit.edu/topic/mechanical-engineering">Mechanical engineering</category>
+      <category domain="https://news.mit.edu/topic/students">Students</category>
+      <category domain="https://news.mit.edu/topic/student-life">Student life</category>
+      <category domain="https://news.mit.edu/topic/edgerton">Edgerton</category>
+    </item>
+<item>
+  <title>Flight path: Into the volcanic plume</title>
+  <link>https://news.mit.edu/2014/into-the-volcanic-plume</link>
+  <description>Researchers in EAPS are using small unmanned aircraft systems to better understand environmental phenomena, such as dangerous volcanic plumes.</description>
+  <pubDate>Tue, 15 Apr 2014 10:30:00 -0400</pubDate>
+    <guid isPermaLink="true">https://news.mit.edu/2014/into-the-volcanic-plume</guid>
+        <dc:creator>Genevieve Wanucha | Program in Atmospheres Oceans and Climate</dc:creator>
+  <content:encoded>&lt;p&gt;In the thick, dry grass of the Paso de Cortés mountain pass in Mexico, MIT’s Earth Signals and Systems (&lt;a href="http://essg.mit.edu/" target="_blank"&gt;ESS&lt;/a&gt;) group struggled to launch a small aircraft high up into the volcanic plume rising steadily from Popocatépetl. It was a windy day, and nothing was going right. Then the volcano began to erupt. “It sounded like a big engine going off, a loud boom,” says Sai Ravela, principal research scientist in the MIT Department of Earth, Atmospheres, and Planetary Science. Their escort from&amp;nbsp;&lt;a href="http://www.cenapred.gob.mx/es/" target="_blank"&gt;CENAPRED&lt;/a&gt;, Mexico’s federal disaster prevention agency, told them to drop everything and leave.&lt;/p&gt;
+
+&lt;p&gt;Fortunately, that day last autumn was the only time Popocatépetl has derailed the group’s mission to gather the first data set of its kind: the chemical composition and dispersion of a volcanic plume. They have developed a novel application of technology, termed a cooperative autonomous observing system (&lt;a href="http://caos.mit.edu/"&gt;CAOS&lt;/a&gt;) to capture dynamic maps of a natural hazard as it billows into the atmosphere, or to “follow the plumes and puffs.”&lt;/p&gt;
+
+&lt;p&gt;This kind of targeted, real-time measurement of volcanic emissions could provide, for example, a far more detailed understanding of the role of aerosols in climate change. More practically, remote monitoring downstream of eruptions could help airports gauge the extent of air traffic snarls, such as the delays due to Iceland’s Eyjafjallajökull surprise in 2010.&lt;/p&gt;
+
+&lt;p&gt;The electric unmanned aircraft, with up to a 3-meter wingspan and tail propeller, can stay in the air for two hours. Its reinforced foam body carries a hefty payload, including lithium batteries, a camera, GPS, particle counters, chemical probes, and wind-speed and inertial sensors. The vehicle can follow flight instructions from a handheld remote control or operate in autonomous mode. At MIT, the ESS group tweaks the design everyday to make the aircraft a more power-efficient sampling instrument, and a more graceful flying machine.&lt;/p&gt;
+
+&lt;p&gt;"The confluence of the small scale at which these problems are of interest and the small size of the aerial vehicle that can match these scales is really what enables the environmental application," Ravela says. "Their abilities range from flying a lawnmower pattern to grab data to actually tracking and mapping the whole structure."&lt;/p&gt;
+
+&lt;p&gt;The ESS group, arguably the most diverse in EAPS in terms of science and engineering backgrounds, aim beyond improved methods of data collection. They interpret localized atmospheric phenomena — including small ones, such as volcanic plumes or factory smokestack emissions — in computer models to better quantify risk. And that means reinventing the relationship between data and models.&lt;/p&gt;
+
+&lt;p&gt;The CAOS method is called "targeted observation" and involves successive rounds of intelligent data sampling. In this envisioned scheme, one aircraft flies to the plume and monitors its characteristics using an imaging sensor. On the ground, a computer program transforms the data points into a simple model — “a moving stick figure” of the plume. This initial sampling serves as a plan for a second aircraft to fly in for supplementary measurements. The model, constantly updating in response to new information, gets closer and closer to a good representation of the plume’s evolution in reality.&lt;/p&gt;
+
+&lt;p&gt;Ravela estimates a quick, easy, and inexpensive application of this complex data science, calling for just “two guys in a pick-up truck, a couple of drones, and a small laptop computer." He says this scenario could play out by the end of the year.&lt;/p&gt;
+
+&lt;p&gt;The motivation behind CAOS — to address real-world environmental problems — sets the project apart from those in other earth science, robotics, and aerospace engineering programs at MIT. “The difference being,” Ravela says, “is that we don't do methodology for the sake of methodology. On the earth science side, we are gathering data not just to constrain models, but are turning that paradigm on its head by using models to gather data more effectively. On the robotics side, instead of building abstract machine learning algorithms, we build ones that assist technology in effective data-driven science.”&lt;/p&gt;
+
+&lt;p&gt;Eventually, the ESS group will set their sights on low-lying clouds. Cloud processes are currently the biggest uncertainty in climate models, partly because researchers do not have reliable measurements of these evolving small-scale structures. But cloud-monitoring unmanned aerial vehicles could change that. Ravela imagines the possibility of dense space-time maps of clouds from specific locations. A database of different types of clouds could serve as a reference guide for any modeler.&lt;/p&gt;
+
+&lt;p&gt;For now, CAOS researchers are processing the data from the initial experiments at Popocatépetl and waiting to see if the measurements reveal any of the plume’s secrets. And they are not the only ones. The excitement is palpable in the hallways of MIT. Because hiking up volcanoes or flying piloted jets into toxic clouds of smoke are not options, people just want to see and touch the data from inside the volcanic plume. It’s not uncommon for Earle Williams, principal research engineer in the MIT Department of Civil and Environmental Engineering, who &lt;a href="http://www.web.mit.edu/earlerw/www/Research.html" target="_blank"&gt;studies&lt;/a&gt; how water released in volcanic eruptions can trigger lightning, to pop his head into Ravela’s office: “Do you have them yet?”&lt;/p&gt;
+</content:encoded>
+      <media:content url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/201404/volcanicplume.JPG?itok=bWmglanf" medium="image" type="image/jpeg" width="390" height="260">
+              <media:description type="plain">A version of the aircraft designed and flown by the Earth Signals and Systems (ESS) group.</media:description>
+              <media:credit>Photo: Sai Ravela</media:credit>
+      </media:content>
+        <category domain="https://news.mit.edu/topic/volcanoes">Volcanoes</category>
+      <category domain="https://news.mit.edu/topic/engineering">Engineering</category>
+      <category domain="https://news.mit.edu/topic/computer-modeling">Computer modeling</category>
+      <category domain="https://news.mit.edu/topic/uav">UAV</category>
+    </item>
+<item>
+  <title>Thirty-one MIT students selected as Burchard Scholars for 2014</title>
+  <link>https://news.mit.edu/2014/31-mit-students-selected-as-burchard-scholars-for-2014</link>
+  <description/>
+  <pubDate>Wed, 12 Mar 2014 10:44:18 -0400</pubDate>
+    <guid isPermaLink="true">https://news.mit.edu/2014/31-mit-students-selected-as-burchard-scholars-for-2014</guid>
+        <dc:creator>School of Humanities, Arts, and Social Sciences</dc:creator>
+  <content:encoded>&lt;p&gt;The School of Humanities, Arts, and Social Sciences (SHASS) has named 31 exceptional MIT undergraduates as Burchard Scholars for 2014. The award honors sophomores and juniors who demonstrate academic excellence in the humanities, arts, and social sciences, as well as in science and engineering.&lt;/p&gt;
+
+&lt;p&gt;Burchard Scholars can come from any school or department of the Institute, and this year’s honorees major in a wide range of disicplines, including biology, linguistics, chemistry, electrical engineering and political science.&amp;nbsp; "What binds the group together," says Margery Resnick, professor of literature and director of the Burchard program, "is a powerful curiosity about ideas."&lt;/p&gt;
+
+&lt;p&gt;“The Burchard scholars are some of MIT’s liveliest undergraduates,” she adds. “Selection is extremely competitive, and the students chosen are unafraid to wrestle with new ideas.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ideas and conversation at dinner seminars&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Named in honor of the first SHASS dean, John Ely Burchard, the Burchard Scholars Program brings undergraduates together with distinguished members of the faculty for a series of eight dinner seminars that reflect the range of research in the school. Past gathering have featured talks on the presence of law in everyday life; how American social policies work; what philosophy tells us about how to make big decisions; political misinformation; and the art of discovery.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;“The Burchard dinners are, for faculty and students alike, an oasis in our busy lives,” Resnick notes. “I look forward to every dinner as the powerful ideas generated by our faculty are reflected upon, challenged, and enjoyed by this wonderful group.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Expanding horizons, in community&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The Burchard gatherings are famous not only for presenting leading edge research, but also for building a warm, supportive community, and giving students experience in the art of intellectual give-and-take — a skill students value for success in every field.&lt;/p&gt;
+
+&lt;p&gt;"Engaging and engaged are defining characteristics of MIT's Burchard Scholars,” Resnick says, noting that many past winners have gone on to receive other distinguished honors, including Rhodes, Marshall, and Truman scholarships and fellowships.&lt;/p&gt;
+
+&lt;p&gt;Deborah K. Fitzgerald, the Kenan Sahin Dean of SHASS, congratulated the 2014 Burchard Scholars at a reception held in their honor in February.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Congratulations to the 2014 Burchard Scholars:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Elizabeth Berg ’16&lt;br /&gt;
+physics; minor, literature&lt;/p&gt;
+
+&lt;p&gt;Halide Bey ’15&lt;br /&gt;
+biology; political science&lt;/p&gt;
+
+&lt;p&gt;Kathryn Buggs ’16&lt;br /&gt;
+economics; minor, Spanish&lt;/p&gt;
+
+&lt;p&gt;Matthew Davis ’16&lt;br /&gt;
+physics&lt;/p&gt;
+
+&lt;p&gt;Alexandriya Emonds ’15&lt;br /&gt;
+electrical engineering; brain and cognitive sciences&lt;/p&gt;
+
+&lt;p&gt;Sofia Essayan-Perez ’15&lt;br /&gt;
+brain and cognitive sciences; minor, applied international studies&lt;/p&gt;
+
+&lt;p&gt;Hope Flaxman ’16&lt;br /&gt;
+chemistry; minor, economics&lt;/p&gt;
+
+&lt;p&gt;Marisa Fryer ’15&lt;br /&gt;
+environmental engineering; minor, literature&lt;/p&gt;
+
+&lt;p&gt;Beth Hadley ’15&lt;br /&gt;
+computer science; minor, music&lt;/p&gt;
+
+&lt;p&gt;John W. Halloran, Jr.&amp;nbsp; ’15&lt;br /&gt;
+political science&lt;/p&gt;
+
+&lt;p&gt;Felicia Hsu ’15&lt;br /&gt;
+biological engineering&lt;/p&gt;
+
+&lt;p&gt;Emily Kellison-Linn ’16&lt;br /&gt;
+computer science and engineering&lt;/p&gt;
+
+&lt;p&gt;Kelly Kochanski ’15&lt;br /&gt;
+physics; earth, atmospheric and planetary science&lt;/p&gt;
+
+&lt;p&gt;Emily LaVerriere ’15&lt;br /&gt;
+brain and cognitive sciences; biology; minor, literature&lt;/p&gt;
+
+&lt;p&gt;Taibo Li ’15&lt;br /&gt;
+electrical engineering and computer science&lt;/p&gt;
+
+&lt;p&gt;Carl Lian ’15&lt;br /&gt;
+mathematics; minor, Music&lt;/p&gt;
+
+&lt;p&gt;Royal Morris ’15&lt;br /&gt;
+comparative media studies; computer science and engineering; minor, brain and cognitive sciences&lt;/p&gt;
+
+&lt;p&gt;Olivia Murton ’15&lt;br /&gt;
+linguistics&lt;/p&gt;
+
+&lt;p&gt;Alyssa Napier ’16&lt;br /&gt;
+chemistry; linguistics&lt;/p&gt;
+
+&lt;p&gt;Quynh Nguyen ’15&lt;br /&gt;
+biology; minor, ancient and medieval studies; chemistry&lt;/p&gt;
+
+&lt;p&gt;Kayvon Pedram ’15&lt;br /&gt;
+chemistry&lt;/p&gt;
+
+&lt;p&gt;Julie Ramseier ’15&lt;br /&gt;
+biological engineering; minor, music&lt;/p&gt;
+
+&lt;p&gt;Stephen Suen ’15&lt;br /&gt;
+comparative media studies&lt;/p&gt;
+
+&lt;p&gt;Caitlin Tan ’16&lt;br /&gt;
+brain and cognitive sciences&lt;/p&gt;
+
+&lt;p&gt;Phong T. Vo ’16&lt;br /&gt;
+physics&lt;/p&gt;
+
+&lt;p&gt;Anna Walsh ’16&lt;br /&gt;
+computer science and engineering&lt;/p&gt;
+
+&lt;p&gt;Spencer Wilson ’15&lt;br /&gt;
+mechanical engineering; minor, comparative media studies&lt;/p&gt;
+
+&lt;p&gt;Anthony Yu ’16&lt;br /&gt;
+economics; mathematics&lt;/p&gt;
+
+&lt;p&gt;Laura Zhang ’15&lt;br /&gt;
+mathematics and computer science; writing; minor, economics&lt;/p&gt;
+
+&lt;p&gt;Joanne Zhou ’15&lt;br /&gt;
+biology; minor, brain and cognitive sciences&lt;/p&gt;
+
+&lt;p&gt;Penghui Zhou ’16&lt;br /&gt;
+economics; computer science; minor, psychology&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p class="shass"&gt;Story prepared by MIT SHASS Communications&lt;br /&gt;
+Editorial and Design Director: Emily Hiestand&lt;br /&gt;
+Senior Writer: Kathryn O'Neill&lt;br /&gt;
+Communications Assistant: Kierstin Wesolowski&lt;br /&gt;
+&amp;nbsp;&lt;/p&gt;
+</content:encoded>
+      <media:content url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/201403/buchard.jpg?itok=TP9vIsK_" medium="image" type="image/jpeg" width="390" height="260">
+              </media:content>
+        <category domain="https://news.mit.edu/topic/arts">Arts</category>
+      <category domain="https://news.mit.edu/topic/awards">Awards, honors and fellowships</category>
+      <category domain="https://news.mit.edu/topic/engineering">Engineering</category>
+      <category domain="https://news.mit.edu/topic/student-life">Student life</category>
+      <category domain="https://news.mit.edu/topic/students">Students</category>
+      <category domain="https://news.mit.edu/topic/school-humanities-arts-and-social-sciences">School of Humanities Arts and Social Sciences</category>
+    </item>
+<item>
+  <title>Going beyond the job description</title>
+  <link>https://news.mit.edu/2014/going-beyond-the-job-description</link>
+  <description>Excellence Awards honor exceptional performance and service</description>
+  <pubDate>Wed, 19 Feb 2014 16:30:00 -0500</pubDate>
+    <guid isPermaLink="true">https://news.mit.edu/2014/going-beyond-the-job-description</guid>
+        <dc:creator>Michelle Choate | Human Resources</dc:creator>
+  <content:encoded>The 2014 Excellence Awards continue MIT’s proud tradition of honoring the dedication and talents of outstanding staff. This year’s honorees represent a broad range of individuals and teams with a variety of backgrounds and expertise. But common threads run through their experiences: They have high expectations of themselves in every aspect of their job performance, with no thought of reward; they enrich the environment and performance level of their colleagues; and they share a selfless commitment to improving all aspects of the MIT community. &lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Honoring the legacy of Sean Collier&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;The Collier Medal, which will be awarded for the first time at the 2014 Excellence Awards ceremony, recognizes dedication to service at the highest level. Created to honor the memory of Officer Sean Collier — who was shot and killed on April 18, 2013 while protecting and serving MIT — the Collier Medal will be awarded to a member or team of the extended MIT community who exemplifies the model citizenship exhibited by Officer Collier. Through the medal, Officer Collier and his passionate commitment will live on as a lasting part of the MIT community. &lt;br /&gt;&lt;br /&gt;The Collier Medal winner will be announced at the Excellence Awards ceremony on Feb. 25. &lt;br /&gt;&lt;br /&gt;&lt;strong&gt;It’s all in a day’s work for Unsung Hero recipient &lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;Stefan Wolpert will receive the Unsung Hero Award. As sensor system engineer for Lincoln Laboratory, Wolpert develops, tests, and applies digital electronics and embedded software in sensor networks. In addition to possessing the depth of knowledge and versatility that are essential in a successful engineer, Wolpert displays an exceptional commitment to teamwork and hands-on problem solving. &lt;br /&gt;&lt;br /&gt;As his nominator states, “Stefan’s productivity is extraordinary, even within MIT. His software and circuits are often at the core of a new electrical prototype, similar to the metabolism of a living organism or a foundation beneath a building. And yet making these things work requires unusual skill, dedication, and perseverance. Everyone who works on a team with Stefan knows that the team’s success depends in large part on Stefan’s considerable efforts.”&lt;br /&gt;&lt;br /&gt;“As an engineer, I try to optimize everything, to make things as economical, efficient, and high-performing as they can be,” Wolpert says. &lt;br /&gt;&lt;br /&gt;As detailed in his nomination, Wolpert “is often found after hours and weekends and conducting work wherever it must be done …. Since his projects must solve real problems, his work continues outside in all conditions and climates …. Stefan has volunteered to work in underground, confined spaces that were never intended for human presence. Yet because the project needs it, Stefan has persevered without complaint.” &lt;br /&gt;“Receiving this award was a great surprise to me,” Wolpert says. “It is wonderful recognition, and I am grateful to those who took the time to nominate me.”&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Sustaining MIT through exceptional teamwork and dedication&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;Eight members of the MIT Medical and Emergency Operations Center Flu Clinic Coordination Team will be honored with the Sustaining MIT Award. The Flu Clinic Team win is apropos of the evolution of this award (formerly known as the Greening MIT Award), which now takes a broader view of sustainability-related efforts and recognizes those who “act as a guardian of MIT's resources by implementing more efficient or cost effective practices that improve MIT’s ecological, financial, or community health and wellbeing.” &lt;br /&gt;&lt;br /&gt;The annual MIT Flu Clinics are known across campus as a model of efficiency and dependability, and they have increased the number of vaccinations given each year — even setting a single-day record for flu shots during the fall 2013 clinic. &lt;br /&gt;&lt;br /&gt;As described in the award nomination, the clinic is the consummate collaborative effort: “While MIT Medical administers the vaccines, the planning effort goes far beyond the halls of E23. Members of the Emergency Operations Center, MIT News, the President's Office, and CopyTech all contributed toward this past year's clinic. Each team performed at the top of their level.”&lt;br /&gt;&lt;br /&gt;“I couldn’t be more proud and excited for my colleagues that are receiving this honor,” says nominator David Tytell, communications manager at MIT Medical. “The reason the Flu Clinics run so smoothly and are so incredibly efficient is because of the tremendous amount of planning that goes into the event. The entire MIT community is healthier as a direct result of the team’s hard work, and it is so wonderful that they are being recognized for their important contributions.”&lt;br /&gt; &lt;br /&gt;“We are thrilled and honored that the community recognized all of our efforts,” says team member Phyl Winn, administrative coordinator at MIT Medical. “It’s part of what we all do every day to keep the community healthy and safe in any way that we can. We are honored and proud to put on this annual event, and very excited and grateful for the recognition.” &lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Come and celebrate excellence &lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;The 2014 Excellence Awards and the presentation of the Collier Medal will take place on Tuesday, Feb. 25 at 3 p.m. in Kresge Auditorium. In addition to the awards noted above, the ceremony will also honor award winners in the categories of Advancing Inclusion and Global Perspectives, Bringing out the Best, Innovative Solutions, and Serving the Client. A reception in the Kresge lobby will follow. All members of the MIT community are encouraged to attend. For a complete list of the 2014 award winners and a schedule of ceremony events, visit &lt;a href="http://hrweb.mit.edu/rewards/excellence" target="_blank"&gt;http://hrweb.mit.edu/rewards/excellence&lt;/a&gt;.</content:encoded>
+      <media:content url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/201402/20140219132754-2.jpg?itok=TLC81fVB" medium="image" type="image/jpeg" width="390" height="260">
+              </media:content>
+        <category domain="https://news.mit.edu/topic/awards">Awards, honors and fellowships</category>
+      <category domain="https://news.mit.edu/topic/sean-collier">Sean Collier</category>
+      <category domain="https://news.mit.edu/topic/human-resources">Human Resources</category>
+      <category domain="https://news.mit.edu/topic/staff">Staff</category>
+      <category domain="https://news.mit.edu/topic/community">Community</category>
+      <category domain="https://news.mit.edu/topic/engineering">Engineering</category>
+      <category domain="https://news.mit.edu/topic/mit-health">MIT Health</category>
+    </item>
+<item>
+  <title>Students get an inside view of manufacturing and operations at partner companies</title>
+  <link>https://news.mit.edu/2014/students-get-an-inside-view-of-manufacturing-and-operations-at-partner-companies</link>
+  <description>MIT LGO's domestic plant trek visits seven sites in two weeks</description>
+  <pubDate>Tue, 18 Feb 2014 20:00:00 -0500</pubDate>
+    <guid isPermaLink="true">https://news.mit.edu/2014/students-get-an-inside-view-of-manufacturing-and-operations-at-partner-companies</guid>
+        <dc:creator>Alice Waugh</dc:creator>
+  <content:encoded>The domestic plant trek for first-year LGOs spanned two weeks, seven partner companies, and more than 90 degrees — with temperatures ranging from -10 F at General Motors in Michigan to the balmy 80s at Amgen in Juncos, Puerto Rico.&lt;br /&gt;&lt;br /&gt;LGOs are first-year students in the dual-degree &lt;a href="http://lgo.mit.edu/" target="_blank"&gt;MIT Leaders for Global Operations program&lt;/a&gt;, which offers an MBA from MIT Sloan School of Management plus an SM from one of seven MIT engineering programs to students interested in careers in operations and manufacturing. &lt;br /&gt;&lt;br /&gt;Just getting started proved to be a lesson in logistics and airline load capacity. When the flight from Boston to Detroit was canceled due to a winter storm in the Midwest, the group of 40-plus students and staff rented vans and drove through the night amid snow and fog to attend the General Motors tour the next day. &lt;br /&gt;&lt;br /&gt;The intrepid travelers were rewarded with visits to GM's facility in Brownstown, Mich., which assembles and tests electric lithium batteries for the Chevy Volt and Cadillac ELR, and the factory and assembly facility in Hamtramck. The group ate dinner at the GM Heritage Center, which showcases the company's 100 years of history. "So many amazing rides and styles," wrote Alex Whigham in his blog entry about the trip.&lt;br /&gt;&lt;br /&gt;Next stop: Portland, Ore., where the group met with Nike executives and visited the manufacturing plant where the company makes "air bags" (the inflated pads in the soles of the shoes). As David Hahs recounted in his blog, the group also saw the first Air Jordan shoes and the original waffle iron that was used in making prototype shoes in the 1970s. Then the group hopped on a bus north to Washington state for stops at several Boeing facilities, including the 737 production facility in Renton, the Future of Flight Aviation Center in Everett, the Dreamliner Gallery, and the 98-acre Boeing Everett factory.&lt;br /&gt;&lt;br /&gt;"My favorite part was the 737 facility," wrote Yalu Wu in her blog. "It was just a great example of a really well run plant that had undergone lean and really amazing to see." &lt;br /&gt;&lt;br /&gt;After a day off in Seattle for some sightseeing and karaoke, the group headed south to Rancho Cucamonga, Calif., about an hour east of Los Angeles, and visited an Amazon fulfillment center in San Bernardino.&lt;br /&gt;"The facility was so impressive — lots of automation and exciting solutions," Whigham wrote. "I continue to be impressed by Amazon's ability to improve the consumer experience."&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Riding the bus to Raytheon&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;Then it was time for more group bonding during a seven-hour bus ride east to Raytheon Missile Systems in Tucson, Ariz. The tour included a visit to an assembly building and a "petting zoo" with models of the many different missiles the company makes.&lt;br /&gt;&lt;br /&gt;"It was inspirational to see our class principles being applied to great detail at the level of the operator," says Albert Chan. “The workstations were designed to be ergonomic, safe, and protected against human error. I was also surprised at the detail of inspection and quality control we could see in the factory. This shows the value of our LGO education in terms of diagnosing and improving real operations."&lt;br /&gt;Part of the plant trek experience after each visit was having a group of students who had been assigned to each company share their impressions and answer questions from LGO program director Don Rosenfield and Professor Shoji Shiba, a former LGO faculty member and expert on TQM (total quality management). "It was an honor for the class to have Professor Shiba on the trip with us," Lin says. "He shared with us his super-valuable insights on each company from historical, organizational, and manufacturing perspectives."&lt;br /&gt;&lt;br /&gt;At Dell in Austin, Texas, the LGOs were treated to a Q&amp;amp;A with CEO Michael Dell, who discussed the company's recent re-privatization and how that is changing its business focus. They also toured the company's data center, housing hundreds of servers, and spoke with several other senior leaders about how the business operates. "Dell's supply-chain strategy is similar to what we learned in our operations and logistics classes — postponement, reduction of lead time, SKU reduction, network and node analysis, risk management, and A/B/C classification of products," says Cynthia Lin.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Pharmaceutical plant in P.R.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;The last leg of the journey stretched from Texas to Puerto Rico for a visit to Amgen. Before entering the areas where the company employs both robots and human workers for packaging drugs, students donned clean-room garb, including coveralls, booties, and hairnets — including a net for the lower face of the bearded Whigham.&lt;br /&gt;&lt;br /&gt;On the final bus ride from Amgen to the hotel, students presented Rosenfield (who is retiring from his full-time role this summer) with his own YOTO ("You Only Trek Once") T-shirt signed by everyone in the class to commemorate his last domestic plant trek as LGO program director. Then it was time for a bit of rest and relaxation, as many students took a few extra days to enjoy Puerto Rico before heading back to chilly Boston.&lt;br /&gt;&lt;br /&gt;"Plant trek was great — we got a lot more inside access and straight talk than what we expected," Lin says. "We also weren't expecting to be so well prepared for what the companies talked to us about. They spoke in a language we wouldn't have been able to understand prior to coming to LGO. By visiting, we got a good picture of how the things we're learning at MIT can help the companies resolve challenges they face."</content:encoded>
+      <media:content url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/201402/20140213171806-1.jpg?itok=x8QGmQyL" medium="image" type="image/jpeg" width="390" height="260">
+              <media:description type="plain">MIT LGO students playfully gaze from the windows of a airplane fuselage at Boeing.</media:description>
+          </media:content>
+        <category domain="https://news.mit.edu/topic/leaders-global-operations-lgo">Leaders for Global Operations (LGO)</category>
+      <category domain="https://news.mit.edu/topic/engineering">Engineering</category>
+      <category domain="https://news.mit.edu/topic/student-life">Student life</category>
+      <category domain="https://news.mit.edu/topic/students">Students</category>
+    </item>
+<item>
+  <title>Lights, camera, inspiration</title>
+  <link>https://news.mit.edu/2014/lights-camera-inspiration</link>
+  <description>Alumni from the 2004 MIT Remote Operated Vehicle team and the Carl Hayden Community High School Falcon Robotics team meet up for a documentary film.</description>
+  <pubDate>Mon, 03 Feb 2014 17:00:00 -0500</pubDate>
+    <guid isPermaLink="true">https://news.mit.edu/2014/lights-camera-inspiration</guid>
+        <dc:creator>Camilla Brinkman | Edgerton Center</dc:creator>
+  <content:encoded>&lt;p&gt;Alumni from MIT’s 2004 Remote Operated Vehicle (ROV) Team and the Carl Hayden Community High School Falcon Robotics Team met this past November at the Edgerton Center to film a conversation about a period in their lives — almost 10 years ago — when they were competing neck-and-neck for first prize in the national &lt;a href="http://www.marinetech.org/rov-competition/" target="_blank"&gt;MATE (Marine Advanced Technology Education) ROV Competition&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+Back in 2004, the MIT ROV team, made up mostly of first and second-year students, was just getting off the ground. Another Edgerton-supported team, &lt;a href="http://web.mit.edu/orca/www/" target="_blank"&gt;Project: ORCA&lt;/a&gt;, had won the &lt;a href="http://www.auvsifoundation.org/foundation/competitions/robosub/" target="_blank"&gt;Association for Unmanned Vehicle Systems International RoboSub&lt;/a&gt; competition from 1998 to 2004, except in 2001 and 2003. The Falcon Robotics team from Phoenix, Ariz. – made up of four Mexican-American teenagers with very few resources – surprised everyone, winning the competition by one point and gaining the status implied by "beating MIT."&lt;br /&gt;
+&lt;br /&gt;
+An article in &lt;i&gt;Wired&lt;/i&gt; magazine, “&lt;a href="http://www.wired.com/wired/archive/13.04/robot.html?pg=1&amp;amp;topic=robot&amp;amp;topic_set=" target="_blank"&gt;La Vida Robot&lt;/a&gt;” by Joshua Davis, and coverage from major media outlets created an outpouring of support for the Carl Hayden students while also raising public consciousness about the plight of undocumented students. Edgerton Center Instructor Ed Moriarty suggested that the Edgerton Center fly the team out from Phoenix to celebrate their victory at MIT. “Passionate engineering knows no boundaries, and to celebrate these students’ impressive feat was the right thing to do,” said Moriarty. These plans, however, could not materialize because the students were undocumented and could not travel by air in a post-9/11 world.&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;Nine years later, a trip to MIT for Carl Hayden alumni&lt;/strong&gt;&lt;br /&gt;
+&lt;br /&gt;
+So on November 23, alumni from the Falcon Robotics Team (who could now travel legally) and the MIT ROV team came to MIT to participate in the documentary film “Underwater Dreams” by filmmaker Mary Mazzio of &lt;a href="http://www.50eggs.com/" target="_blank"&gt;50 Eggs Films&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+Members of the Falcon Robotics Team (Luis Aranda, Lorenzo Santillan, Cristian Arcega, Oscar Vazquez, coach Fredi Lajvardi) and the MIT team (Kurt Stiehl ‘07, Lauren Cooney ’06, Jordan Stanway ’06, and Thaddeus Stefanov-Wagner ’06) gathered in the lab at the Edgerton Center to reflect on the competition and their lives since then.&lt;br /&gt;
+&lt;br /&gt;
+Judges from the 2004 competition, Bryce Merrill and Martin Klein ’62, longtime friend and colleague of “Doc” Edgerton, came for the day of filming, as well as Pappalardo Professor Emeritus of Mechanical Engineering Woodie Flowers SM ’68, MEng ’71, PhD ’73, and Edgerton Center Director J. Kim Vandiver, a professor of mechanical engineering. Students from the John D. O’Bryant School of Mathematics and Science and other local schools also came to observe and participate.&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;A full day of filming &lt;/strong&gt;&lt;br /&gt;
+&lt;br /&gt;
+In a conversation moderated by Moriarty, the teams commiserated about the egregious mishaps they experienced at the 2004 competition. The Carl Hayden team’s soldered components, out of which the robot was made, melted in the hot Arizona sun en route to the competition. MIT’s ROV robot suffered catastrophic damage in transit and had to be rebuilt. Then, the day prior to the competition, the Carl Hayden team discovered that the mechanical housing of their robot was leaking. One of the teenage boys from the Carl Hayden team was sent to buy tampons from the local drugstore to use as a plug to keep water from leaking inside the robot.&lt;br /&gt;
+&lt;br /&gt;
+Klein added his own wisdom to the conversation in a remark about using the right tool for the job. “Doc [Edgerton] was one of the world’s masters at solving problems while under duress,” he said. “Often challenges had to be solved out in the Pacific on a remote island or on a bouncing ship that is going 24 hours a day. It is 4 a.m., and you are tired and seasick, and everyone on board is counting on you to keep the equipment operational. You might have to seal a leak with some chewing gum, some sticky tape, or even a condom or tampon. But no matter what, you have to come home with results, not with excuses.”&lt;br /&gt;
+&lt;br /&gt;
+“It’s still affecting my life, even 10 years after,” said Falcon Robotics alumnus Vazquez to an O’Bryant student who asked how the experience had changed his life. “It gave me a career in engineering; it helped me pay for college; it brought me to MIT today; it sent me on the right path.”&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;Celebrating the passion behind true engineering&lt;/strong&gt;&lt;br /&gt;
+&lt;br /&gt;
+For Moriarty, it was an intensely emotional experience. “It brought closure,” he said. “My hands were tied when I wanted to fly them in, because of their undocumented status. To relive their accomplishments when they were here, to see how far these individuals have come and how much they have overcome, and celebrate that with our alumni from the ROV team, with local students, with honored faculty, it was magical."&lt;br /&gt;
+&lt;br /&gt;
+“Underwater Dreams” will screen in Washington, D.C., in late February. Film release dates and details will be posted on the Edgerton Center's &lt;a href="https://www.facebook.com/MITEdgertonCenter" target="_blank"&gt;Facebook&lt;/a&gt; and &lt;a href="https://twitter.com/MITEdgerton" target="_blank"&gt;Twitter&lt;/a&gt; feeds. A Pantelion Films movie based on the team, starring Marisa Tomei and George Lopez, will release in fall 2014.&lt;/p&gt;
+</content:encoded>
+      <media:content url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/201402/20140131102523-1.jpg?itok=5wTkvc6U" medium="image" type="image/jpeg" width="390" height="260">
+              <media:description type="plain">50 Eggs Films cinematographer Donald McIntosh films the conversation.</media:description>
+              <media:credit>&lt;br /&gt;Photo: Camilla Brinkman</media:credit>
+      </media:content>
+        <category domain="https://news.mit.edu/topic/edgerton">Edgerton</category>
+      <category domain="https://news.mit.edu/topic/alumni">Alumni/ae</category>
+      <category domain="https://news.mit.edu/topic/mechanical-engineering">Mechanical engineering</category>
+      <category domain="https://news.mit.edu/topic/robotics">Robotics</category>
+      <category domain="https://news.mit.edu/topic/engineering">Engineering</category>
+      <category domain="https://news.mit.edu/topic/community">Community</category>
+      <category domain="https://news.mit.edu/topic/film-and-television">Film and Television</category>
+    </item>
+<item>
+  <title>‘Wise chisels’: Art, craftsmanship, and power tools</title>
+  <link>https://news.mit.edu/2013/smart-tools-1122</link>
+  <description>MIT project melds personal style and technique with computerized control systems.</description>
+  <pubDate>Fri, 22 Nov 2013 05:00:00 -0500</pubDate>
+    <guid isPermaLink="true">https://news.mit.edu/2013/smart-tools-1122</guid>
+        <dc:creator>David L. Chandler, MIT News Office</dc:creator>
+  <content:encoded>&lt;p&gt;It’s often easy to tell at a glance the difference between a mass-produced object and one that has been handcrafted: The handmade item is likely to have distinctive imperfections and clear signs of an individual’s technique and style.&lt;br /&gt;
+&lt;br /&gt;
+Now, some researchers at MIT are finding ways to blur those distinctions, making it possible, for example, to sculpt items with those distinctive signs of handicraft, while controlling the outcome so that the object doesn’t stray too far from the desired form. They described their work at the recent Association for Computing Machinery Symposium on User Interface Software and Technology.&lt;br /&gt;
+&lt;br /&gt;
+Amit Zoran, a postdoc at the MIT Media Lab who did much of this work as part of his doctoral thesis research, is the lead author of the reports. He says that, in an age of increasing standardization and mass-production, he has been “searching for this human quality, for ways to translate the long heritage of craft and creativity” into the digital age.&lt;br /&gt;
+&lt;br /&gt;
+For example, in work with graduate student Roy Shilkrot, Zoran has designed a handheld carving tool that can be programmed with a desired three-dimensional shape. When the user begins to carve a block of material, anytime his motions would extend into the region of the desired final form, the device provides physical feedback that slows the motion.&lt;br /&gt;
+&amp;nbsp;&lt;/p&gt;
+
+&lt;div class="video_captions"&gt;&lt;iframe frameborder="0" height="315" src="http://www.youtube.com/embed/krRTZqFFn6c" width="560"&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;If the carving alters the shape so much that it would compromise the structural integrity of the object, the computerized system can adjust the shape accordingly, in real time. For example, if in sculpting a giraffe the user carved too far into the neck, the computer can adjust the shape, introducing a bend in the neck that maintains its strength.&lt;br /&gt;
+&lt;br /&gt;
+The basic principles Zoran and his colleagues are pursuing could also extend into physical safety. For example, by recognizing when they might be about to inflict damage, these “smart tools” could sense that a sharp blade is getting too close to a user’s fingers, for example, and automatically deflect its path to avoid injury.&lt;br /&gt;
+&lt;br /&gt;
+“We’re developing tools that don’t have a direct physical, craft heritage, but are entirely new,” Zoran says of a project conducted with graduate student Pragun Goyal. “Creativity is all about error. … We’re looking for creativity, for something that surprises us.”&lt;br /&gt;
+&lt;br /&gt;
+To demonstrate the inherent flexibility and creativity of these computer-assisted tools, Zoran had several different people make carvings based on the same programmed shape — in this case, a cat. As expected, each piece had a unique appearance, with distinctive textures, forms, and styles.&lt;br /&gt;
+&lt;br /&gt;
+Steve Hodges, a researcher with Microsoft Research who was not involved in this work, says this research “is exciting because it combines digital design and production with the expressive nature of hand tools. This opens up a range of new possibilities — for example, it could empower and encourage less-skilled artisans to practice and develop their skills.” Hodges adds that while the present versions of smart tools are expensive laboratory devices, “one challenge will be the integration of an alternative tracking technology which would make the system cheaper and more accessible.”&lt;br /&gt;
+&lt;br /&gt;
+Goyal and his advisor, Joseph Paradiso, an associate professor of media arts and sciences, have also developed a handheld inkjet printer head. The device can be programmed to print a specific image, but instead of moving across a fixed track as in a conventional printer, it can be guided by hand across any surface. This would allow, for example, a highly detailed image to be printed onto a complex 3-D shape — something no conventional printer can do.&lt;br /&gt;
+&lt;br /&gt;
+This combination of digital capabilities and human control could permit a new kind of tool for measurement or testing, explains Goyal. For example, a handheld probe could be used to test an electronic circuit board — but unlike ordinary probes, it could be preprogrammed with details of the circuit. So instead of having to manually set parameters, such as the expected voltage range at a given point, the device would know what range to set, and do so instantly. It would also record the reading and automatically associate each result with the exact location where it was taken.&lt;br /&gt;
+&lt;br /&gt;
+Zoran, Goyal, and Shilkrot carried out this research with Paradiso and Pattie Maes as part of the Media Lab’s groups on Responsive Environment and Fluid Interfaces.&lt;/p&gt;
+</content:encoded>
+      <media:content url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/201311/20131121165911-0_1.jpg?itok=MxYxvIFR" medium="image" type="image/jpeg" width="390" height="260">
+              <media:description type="plain">A carving tool designed by MIT Media Lab postdoc Amit Zoran, called FreeD, allows the user to control the carving process while aided by a computer guidance system that is preprogrammed with the desired three-dimensional shape.</media:description>
+              <media:credit>Image courtesy of the researchers</media:credit>
+      </media:content>
+        <category domain="https://news.mit.edu/topic/invention">Invention</category>
+      <category domain="https://news.mit.edu/clp/media-lab">Media Lab</category>
+      <category domain="https://news.mit.edu/topic/engineering">Engineering</category>
+    </item>
+
+  </channel>
+</rss>
