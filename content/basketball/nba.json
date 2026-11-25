@@ -8,7 +8,7 @@
   "tr": "NBA"
  },
  "season": "2026/27",
- "asof": "2026-11-24",
+ "asof": "2026-11-25",
  "tables": [
   {
    "name": {
@@ -26,12 +26,12 @@
      "l": 4
     },
     {
-     "team": "Atlanta Hawks",
-     "w": 11,
+     "team": "Boston Celtics",
+     "w": 12,
      "l": 6
     },
     {
-     "team": "Boston Celtics",
+     "team": "Atlanta Hawks",
      "w": 11,
      "l": 6
     },
@@ -42,7 +42,7 @@
     },
     {
      "team": "Detroit Pistons",
-     "w": 10,
+     "w": 11,
      "l": 6
     },
     {
@@ -58,12 +58,12 @@
     {
      "team": "Orlando Magic",
      "w": 7,
-     "l": 9
+     "l": 10
     },
     {
      "team": "Washington Wizards",
      "w": 7,
-     "l": 11
+     "l": 12
     },
     {
      "team": "Toronto Raptors",
@@ -133,18 +133,18 @@
      "l": 5
     },
     {
-     "team": "Denver Nuggets",
-     "w": 10,
-     "l": 5
-    },
-    {
      "team": "Portland Trail Blazers",
      "w": 11,
      "l": 6
     },
     {
-     "team": "Dallas Mavericks",
+     "team": "Denver Nuggets",
      "w": 10,
+     "l": 6
+    },
+    {
+     "team": "Dallas Mavericks",
+     "w": 11,
      "l": 7
     },
     {
@@ -186,33 +186,6 @@
   }
  ],
  "matches": [
-  {
-   "t1": "Philadelphia 76ers",
-   "t2": "Portland Trail Blazers",
-   "date": "2026-11-24",
-   "ft": [
-    111,
-    128
-   ]
-  },
-  {
-   "t1": "Charlotte Hornets",
-   "t2": "Memphis Grizzlies",
-   "date": "2026-11-24",
-   "ft": [
-    111,
-    117
-   ]
-  },
-  {
-   "t1": "Oklahoma City Thunder",
-   "t2": "Indiana Pacers",
-   "date": "2026-11-24",
-   "ft": [
-    120,
-    125
-   ]
-  },
   {
    "t1": "Minnesota Timberwolves",
    "t2": "Brooklyn Nets",
@@ -280,19 +253,28 @@
    "t1": "Orlando Magic",
    "t2": "Detroit Pistons",
    "date": "2026-11-25",
-   "time": "01:00"
+   "ft": [
+    86,
+    104
+   ]
   },
   {
    "t1": "Washington Wizards",
    "t2": "Boston Celtics",
    "date": "2026-11-25",
-   "time": "02:00"
+   "ft": [
+    116,
+    131
+   ]
   },
   {
    "t1": "Denver Nuggets",
    "t2": "Dallas Mavericks",
    "date": "2026-11-25",
-   "time": "04:00"
+   "ft": [
+    101,
+    120
+   ]
   },
   {
    "t1": "Philadelphia 76ers",
@@ -339,24 +321,24 @@
  ],
  "src": [
   {
+   "n": "NBA.com – Emirates NBA Cup 2026: Live-Updates 24. November (Ergebnisse Celtics–Wizards, Pistons–Magic, Mavericks–Nuggets)",
+   "u": "https://www.nba.com/news/emirates-nba-cup-2026-live-updates-november-24"
+  },
+  {
+   "n": "ESPN/AP – Pistons 104-86 Magic (24.11.2026; Bilanzen Pistons 11-6, Magic 7-10)",
+   "u": "https://www.espn.com/nba/recap/_/gameId/401909314"
+  },
+  {
+   "n": "Denver Gazette – Mavericks 120-101 Nuggets (24.11.2026; Bilanz Nuggets 10-6)",
+   "u": "https://www.denvergazette.com/2026/11/24/nuggets-nba-cup-dreams-likely-dashed-with-sloppy-loss-to-dallas/"
+  },
+  {
+   "n": "Alejandro Wheeler – Tuesday Night Recap (Bilanzen Celtics 12-6, Mavericks 11-7)",
+   "u": "https://alejandrowheeler.substack.com/p/ice-and-hardwood-tango-for-tuesday"
+  },
+  {
    "n": "ESPN – NBA Standings 2026-27 (abgerufen 24.11.2026, nach den Spielen vom 23.11.2026 US-Zeit)",
    "u": "https://www.espn.com/nba/standings"
-  },
-  {
-   "n": "Alejandro Wheeler – Monday's NBA Basketball Recap, alle zehn Ergebnisse (24.11.2026)",
-   "u": "https://alejandrowheeler.substack.com/p/10-games-big-statements-mondays-nba"
-  },
-  {
-   "n": "ESPN/AP – Bulls 122-108 Cavaliers (23.11.2026)",
-   "u": "https://www.espn.com/nba/recap/_/gameId/401910041"
-  },
-  {
-   "n": "ESPN/AP – Rockets 116-104 Clippers (23.11.2026)",
-   "u": "https://www.espn.com/nba/recap/_/gameId/401910043"
-  },
-  {
-   "n": "Yahoo Sports – NBA Cup November 24 Schedule (Anwurfzeiten ET, in deutsche Zeit umgerechnet, ET+6)",
-   "u": "https://sports.yahoo.com/articles/nba-cup-november-24-schedule-093757847.html"
   },
   {
    "n": "ESPN UK – NBA Fixtures (Spiele 25.11.2026 US-Zeit, in deutsche Zeit umgerechnet)",
