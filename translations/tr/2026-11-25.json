@@ -128,25 +128,24 @@
   "huawei-schuldspruch-brooklyn-iran-sanktionen-2026-11-25-b0800": {
    "L": {
     "body": [
-     "Brooklyn'deki federal mahkemede görev yapan jüri, Çinli teknoloji şirketi Huawei'yi Salı günü 12 suçlama maddesinin 10'unda suçlu buldu. Bunların arasında banka ve havale dolandırıcılığı, İran yaptırımlarının ihlali ve ticari sırların çalınması için komplo yer alıyor. Huawei, mafya karşıtı RICO yasası kapsamındaki komplo suçlamasından ve adaletin engellenmesi için komplo suçlamasından beraat etti. ABD Adalet Bakanlığı'nın açıklamasına göre mahkûmiyet kararı, aralarında Futurewei'nin de bulunduğu üç iştiraki de kapsıyor.",
-     "İddianame, Huawei'yi İran'la yürüttüğü işlemler nedeniyle HSBC, Standard Chartered ve BNP Paribas gibi bankaları yanıltmakla suçluyordu. Ayrıca şirketin, Cisco yönlendiricilerinin kaynak kodunu ve Quintel firmasının anten teknolojisini ele geçirdiği iddia edildi. Dava iki aydan uzun sürdü, jüri beş gün müzakere etti. ABD Savcısı Joseph Nocella şöyle dedi: “Few crimes are as serious as Huawei's decades-long pattern of endangering US national security” (Çok az suç, Huawei'nin on yıllardır süren ve ABD'nin ulusal güvenliğini tehlikeye atan tutumu kadar ağırdır).",
-     "Huawei'nin avukatı Brian Heberlig, “Temyize gideceğimizden kesinlikle eminiz” dedi. Heberlig'e göre racketeering suçlamasından verilen beraat kararı, şirketteki kurallara uyum kültürünü doğruladığını söyledi. Hâkim Ann Donnelly cezayı 14 Eylül 2027 tarihinde açıklamayı planlıyor. Dava, 2018'de mali işler direktörü Meng Wanzhou'nun Kanada'da gözaltına alınmasıyla başlamıştı."
+     "Brooklyn'deki federal mahkemede görev yapan jüri, Çinli teknoloji şirketi Huawei'yi salı günü 12 suçlama maddesinin 10'unda suçlu buldu. Bunlar arasında banka ve havale dolandırıcılığı, İran yaptırımlarının ihlali ve ticari sırların çalınması için komplo yer alıyor. Huawei, mafya karşıtı RICO yasası kapsamındaki komplo suçlamasından ve adaletin engellenmesi için komplo suçlamasından beraat etti. ABD Adalet Bakanlığı'nın verdiği bilgiye göre mahkûmiyet kararı, aralarında Futurewei'nin de bulunduğu üç iştiraki de kapsıyor.",
+     "İddianamede Huawei'nin, İran'la yürüttüğü işler konusunda HSBC, Standard Chartered ve BNP Paribas gibi bankaları yanılttığı öne sürüldü. Ayrıca şirketin Cisco yönlendiricilerine ait kaynak kodunu ve Quintel şirketine ait anten teknolojisini ele geçirdiği iddia edildi. Dava iki aydan uzun sürdü, jüri beş gün müzakere etti. ABD Savcısı Joseph Nocella şunları söyledi: “Few crimes are as serious as Huawei's decades-long pattern of endangering US national security” (Çok az suç, Huawei'nin onlarca yıldır süren ve ABD'nin ulusal güvenliğini tehlikeye atan tutumu kadar ağırdır).",
+     "Huawei'nin avukatı Brian Heberlig, “Temyize gideceğimizden kesinlikle eminiz” dedi. Heberlig'e göre racketeering suçlamasından verilen beraat kararı, şirketteki kurallara uyum kültürünü doğruluyor. Hâkim Ann Donnelly, cezayı 14 Eylül 2027 tarihinde açıklamayı planlıyor. Dava, 2018'de Finans Direktörü Meng Wanzhou'nun Kanada'da gözaltına alınmasıyla başlamıştı."
     ],
-    "d": "Brooklyn'deki federal mahkeme, Huawei'yi başta banka dolandırıcılığı, yaptırım ihlalleri ve ticari sırların çalınması için komplo olmak üzere çeşitli suçlardan mahkum etti. Şirket, racketeering suçlamasından beraat etti.",
-    "t": "ABD jürisi Huawei'yi 12 maddenin 10'unda suçlu buldu – İran yaptırımları da dahil"
+    "d": "Brooklyn'deki jüri, Huawei'yi banka dolandırıcılığı, yaptırım ihlalleri ve ticari sırların çalınması için komplo da dahil olmak üzere çeşitli suçlamalardan suçlu buldu. Şirket, racketeering suçlamasından beraat etti.",
+    "t": "ABD jürisi Huawei'yi 12 maddenin 10'unda suçlu buldu: İran yaptırımları nedeniyle de"
    },
-   "at": "2026-11-25T06:05Z",
-   "h": "6e88aa85617e",
+   "at": "2026-11-25T06:26Z",
+   "h": "f0ac6ff546e7",
    "rev": [
-    "Teaser: 'ticari sırların çalınması için komploya katılma suçlarından' is clumsy and 'unter anderem' is lost; the sentence is reworded so that it is clear and complete",
-    "Date format '14.09.2027' is not in editorial style; changed to '14 Eylül 2027'",
-    "'ticari sırların çalınması için komplo' is turned into 'ticari sır hırsızlığına yönelik komplo' (more natural); left as is where acceptable",
-    "Heberlig's opinion: 'doğruluyor' is rendered as plain fact; changed to the 'doğruladığını söyledi' form",
-    "Teaser 'Bank fraud' is only bank fraud, and 'Racketeering' is kept as is"
+    "Date format 14.09.2027 is not in the target-language convention; should be written out with the month name (\"14 Eylül 2027\")",
+    "Headline: \"da var\" is unnatural and does not match the German \"auch wegen Iran-Sanktionen\"",
+    "Teaser: \"gibi suçlamalardan\" weakens \"unter anderem\" and the structure is awkward",
+    "\"Mali İşler Direktörü\" is an inaccurate rendering of \"Finanzchefin\"; the usual term is \"Finans Direktörü\""
    ],
    "rev_dbg": [
-    5,
-    3,
+    4,
+    4,
     0
    ],
    "x": {
