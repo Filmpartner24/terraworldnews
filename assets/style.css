@@ -449,6 +449,15 @@ section{position:relative}
 .sc-tab[data-p]:not([data-p="0"])[aria-pressed="true"]{color:#9be3ff;border-bottom-color:var(--ice)}
 .sc-gh{color:var(--ice);border-bottom-color:rgba(95,208,255,.3);text-shadow:0 0 14px rgba(95,208,255,.3)}
 .sc-part{color:var(--ice)}
+/* v44: battle background behind score */
+.score{overflow:hidden}
+.score>.bgwrap.scorebg{inset:0;height:auto;z-index:-2;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 18%,#000 82%,transparent 100%);mask-image:linear-gradient(180deg,transparent 0,#000 18%,#000 82%,transparent 100%)}
+.score>.bgwrap.scorebg::after{display:none}
+.bgimg.schlacht{inset:-8% -3%;opacity:.8;filter:brightness(.95) contrast(1.05);background-position:center 40%}
+.score-glow{background:linear-gradient(180deg,var(--bg) 0%,rgba(5,8,12,.35) 18%,rgba(5,8,12,.45) 82%,var(--bg) 100%),radial-gradient(48% 46% at 50% 55%,rgba(5,8,12,.55),transparent 90%)}
+.score-lead,.score-note{text-shadow:0 2px 12px rgba(0,0,0,.95)}
+.score-note{color:#aeb8c2}
+.sc-player{background:linear-gradient(180deg,rgba(14,20,28,.82),rgba(6,9,13,.9));-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
 
 /* lazy background images */
 .bgimg.lenker.on{background-image:url(img/bg_lenker.webp)}
@@ -462,3 +471,4 @@ section{position:relative}
 .bgimg.teil3.on{background-image:url(img/bg_teil3.webp)}
 .bgimg.thron.on{background-image:url(img/bg_thron.webp)}
 .bgimg.angriff.on{background-image:url(img/bg_angriff.webp)}
+.bgimg.schlacht.on{background-image:url(img/bg_schlacht.webp)}
