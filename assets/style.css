@@ -458,6 +458,34 @@ section{position:relative}
 .score-lead,.score-note{text-shadow:0 2px 12px rgba(0,0,0,.95)}
 .score-note{color:#aeb8c2}
 .sc-player{background:linear-gradient(180deg,rgba(14,20,28,.82),rgba(6,9,13,.9));-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+/* v45: concept films */
+.films{position:relative;isolation:isolate;padding:clamp(5rem,10vw,8rem) 1.25rem clamp(3rem,6vw,4rem);text-align:center}
+.films::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(55% 45% at 50% 48%,rgba(95,208,255,.07),transparent 75%)}
+.films .sec{margin-bottom:1rem}
+.films-lead{color:var(--steel);font-weight:300;letter-spacing:.06em;margin:0 auto clamp(2rem,5vw,3rem);max-width:42rem}
+.film{max-width:1040px;margin:0 auto clamp(2.5rem,6vw,4rem);text-align:left}
+.film-frame{position:relative;aspect-ratio:16/9;border-radius:6px;overflow:hidden;background:#000;border:1px solid rgba(154,166,178,.16);box-shadow:0 40px 100px rgba(0,0,0,.7),0 0 0 1px rgba(0,0,0,.6),0 0 60px rgba(95,208,255,.06)}
+.film-frame::before{content:"";position:absolute;left:8%;right:8%;top:0;height:1px;z-index:3;background:linear-gradient(90deg,transparent,rgba(95,208,255,.7),transparent)}
+.film-frame picture,.film-frame img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.2s cubic-bezier(.2,.7,.2,1),filter .6s}
+.film-frame::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:radial-gradient(70% 70% at 50% 50%,transparent 50%,rgba(0,0,0,.55)),linear-gradient(180deg,transparent 60%,rgba(0,0,0,.55))}
+.film-frame:hover img{transform:scale(1.025);filter:brightness(1.08)}
+.film-play{position:absolute;left:50%;top:50%;z-index:2;width:clamp(72px,9vw,104px);height:clamp(72px,9vw,104px);transform:translate(-50%,-50%);border-radius:50%;border:1px solid rgba(95,208,255,.7);background:radial-gradient(circle at 50% 35%,rgba(95,208,255,.3),rgba(5,8,12,.78) 70%);color:#fff;display:grid;place-items:center;cursor:pointer;-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);box-shadow:0 0 0 10px rgba(95,208,255,.07),0 0 50px rgba(95,208,255,.4);transition:transform .25s,box-shadow .3s}
+.film-play::before{content:"";position:absolute;inset:-12px;border-radius:50%;border:1px solid rgba(95,208,255,.35);animation:filmpulse 2.6s ease-out infinite}
+@keyframes filmpulse{0%{transform:scale(.85);opacity:.9}100%{transform:scale(1.35);opacity:0}}
+.film-play svg{width:42%;height:42%;fill:currentColor;margin-left:6%}
+.film-frame:hover .film-play,.film-play:focus-visible{transform:translate(-50%,-50%) scale(1.07);box-shadow:0 0 0 14px rgba(95,208,255,.1),0 0 70px rgba(95,208,255,.6)}
+.film-dur{position:absolute;right:1rem;bottom:1rem;z-index:2;font:500 .78rem/1 var(--head);letter-spacing:.16em;color:#fff;background:rgba(5,8,12,.7);border:1px solid rgba(154,166,178,.25);padding:.45rem .6rem;border-radius:3px}
+.film-frame.on picture,.film-frame.on .film-play,.film-frame.on .film-dur,.film-frame.on::after{display:none}
+.film-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0;z-index:2}
+.film-cap{display:grid;grid-template-columns:1fr auto;gap:.3rem 2rem;align-items:end;margin-top:1.3rem;padding:0 .2rem}
+.film-kick{grid-column:1/-1;font:400 .72rem/1 var(--head);letter-spacing:.3em;text-transform:uppercase;color:var(--ice);margin:0}
+.film-title{font:500 clamp(1.4rem,3vw,2rem)/1.1 var(--head);letter-spacing:.08em;text-transform:uppercase;color:#eef3f7;margin:.2rem 0 0}
+.film-line{grid-column:1;color:var(--text);font-weight:300;margin:.4rem 0 0;max-width:46rem}
+.film-yt{grid-column:2;grid-row:2/4;align-self:end;font:400 .74rem/1 var(--head);letter-spacing:.22em;text-transform:uppercase;color:var(--steel);text-decoration:none;border-bottom:1px solid rgba(154,166,178,.3);padding-bottom:.3rem;white-space:nowrap}
+.film-yt:hover{color:var(--ice);border-color:var(--ice)}
+.films-note{max-width:44rem;margin:0 auto;font-size:.82rem;color:var(--dim);letter-spacing:.03em;line-height:1.6}
+@media (max-width:640px){.film-cap{grid-template-columns:1fr}.film-yt{grid-column:1;grid-row:auto;justify-self:start;margin-top:.6rem}.film-dur{right:.6rem;bottom:.6rem}}
+@media (prefers-reduced-motion:reduce){.film-play::before{animation:none}}
 
 /* lazy background images */
 .bgimg.lenker.on{background-image:url(img/bg_lenker.webp)}

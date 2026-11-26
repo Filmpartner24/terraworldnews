@@ -134,3 +134,17 @@
   peaks=dec(T[0].dataset.w);T[0].classList.add('on');
   window.addEventListener('resize',draw);if('ResizeObserver' in window)new ResizeObserver(draw).observe(W);draw();
 })();
+// v45: concept films – YouTube loads only after click (privacy)
+(function(){
+  [].forEach.call(document.querySelectorAll('.film-frame[data-yt]'),function(f){
+    function go(){
+      if(f.classList.contains('on'))return;
+      var a=document.querySelector('.sc-audio');if(a&&!a.paused)a.pause();
+      var i=document.createElement('iframe');
+      i.src='https://www.youtube-nocookie.com/embed/'+f.dataset.yt+'?autoplay=1&rel=0&modestbranding=1&playsinline=1&color=white';
+      i.title=f.querySelector('img').alt;i.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';i.allowFullscreen=true;i.referrerPolicy='strict-origin-when-cross-origin';
+      f.appendChild(i);f.classList.add('on');
+    }
+    f.addEventListener('click',go);
+  });
+})();
