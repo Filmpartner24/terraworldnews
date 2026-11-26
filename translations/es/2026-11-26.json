@@ -27,6 +27,28 @@
     "img.alt": "Joshua Kimmich – Foto de archivo"
    }
   },
+  "berlin-intensivtaeter-zahlen": {
+   "L": {
+    "body": [
+     "La policía y la fiscalía de Berlín llegan a resultados contrapuestos sobre el número de delincuentes habituales. A principios de noviembre la policía contabilizaba 167 personas como delincuentes habituales; en enero aún eran 194. La fiscalía, en cambio, contó 287 a 30 de junio, 13 más que a finales de 2025. Así se desprende de una respuesta, hasta ahora inédita, de la Administración de Interior a una pregunta del diputado de la AfD Martin Kohler, de la que informa la Berliner Zeitung.",
+     "Según el informe, el motivo de la diferencia son los distintos sistemas de registro y las clasificaciones propias de la policía. Se considera delincuente habitual, entre otros casos, a quien haya cometido al menos cinco delitos graves en el plazo de un año. Según la fiscalía, 57 de ellos están en prisión, 24 de ellos en prisión preventiva; contra doce hay una orden de detención.",
+     "Según estos datos, la mayoría de los delincuentes habituales vive en Neukölln (48), Mitte (35) y Reinickendorf (34). Kohler calificó de «incomprensible» que el Senado no sepa cuántos de ellos están obligados a abandonar el país."
+    ],
+    "d": "La policía registra 167 delincuentes habituales; la fiscalía, 287. Así consta en una respuesta del Senado de la que informa la Berliner Zeitung.",
+    "t": "Berlín: la policía cuenta menos delincuentes habituales; la fiscalía, más"
+   },
+   "at": "2026-11-26T09:09Z",
+   "h": "ceb2caf66823",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: coche patrulla de la policía de Berlín",
+    "kl": "Berlín"
+   }
+  },
   "berlin-spionageprozess-kammergericht-2026-11-26-b0800": {
    "L": {
     "body": [
@@ -81,6 +103,57 @@
     "kl": "Espacio"
    }
   },
+  "gaza-neun-tote-abu-nada": {
+   "L": {
+    "body": [
+     "En ataques aéreos y disparos israelíes en la Franja de Gaza durante la noche del jueves y el jueves murieron al menos nueve palestinos, según los sanitarios, informa la agencia Reuters. Fue la tercera noche consecutiva de ataques, a pesar de que desde hace aproximadamente un año rige una tregua.",
+     "En Deir al-Balah, un ataque alcanzó una vivienda; murieron Khaled Abu Nada, viceministro de Educación designado por Hamás, y su esposa. Israel le acusa de haber dirigido el departamento económico y la red financiera de Hamás. Otros dos ataques mataron a seis personas en la ciudad de Gaza, y en el campo de Bureij un hombre de 62 años murió por disparos israelíes.",
+     "El primer ministro Benjamin Netanyahu dijo, según Reuters, que ningún terrorista sería inmune. Desde el inicio de la tregua en octubre de 2025 han muerto, según esa información, al menos 1.600 palestinos y cinco soldados israelíes."
+    ],
+    "d": "Tercera noche seguida de ataques: según los sanitarios, entre los muertos hay un viceministro de Educación designado por Hamás y su esposa.",
+    "t": "Gaza: Israel mata a nueve personas pese a la tregua, entre ellas un viceministro de Hamás"
+   },
+   "at": "2026-11-26T09:09Z",
+   "h": "f53216fef630",
+   "rev": [
+    "Indirect speech: Netanyahu's statement 'kein Terrorist sei immun' is rendered with an indicative present, which reads as plain fact; it needs a subjunctive or conditional marker."
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: edificios destruidos en Deir al-Balah"
+   }
+  },
+  "inter-stuttgart-2-0-cl": {
+   "L": {
+    "body": [
+     "El VfB Stuttgart perdió 0-2 ante el Inter de Milán en la Champions League. Tras una primera parte sin goles –Nicolò Barella estrelló el balón en el interior del poste en el minuto 44–, el Inter obtuvo un penalti por mano en el minuto 55: un centro de Federico Dimarco había tocado el brazo de Josha Vagnoman. Petar Sučić lo transformó en el minuto 57 y Lautaro Martínez amplió la ventaja en el minuto 74.",
+     "Tras ir perdiendo, el entrenador Sebastian Hoeneß dio entrada a Deniz Undav y Jamie Leweling; en el minuto 70, Angelo Stiller volvió a jugar tras un mes de baja por lesión. Hoeneß calificó, según Sportschau, la sequía goleadora de su equipo de «como embrujada», literalmente «como si estuviera embrujada»; al mismo tiempo dijo: «Hemos defendido con solidez durante gran parte del partido». El delantero Ermedin Demirović afirmó en DAZN: «En algún momento también se soltará el nudo».",
+     "El Stuttgart sigue con siete puntos en puesto de play-off; el Inter suma ahora nueve puntos."
+    ],
+    "d": "Un penalti por mano y un gol de Lautaro Martínez deciden el partido de Champions League. El VfB sigue en puesto de play-off con siete puntos.",
+    "t": "0-2 en San Siro: el Stuttgart sigue sin marcar – Hoeneß habla de «como embrujados»"
+   },
+   "at": "2026-11-26T09:09Z",
+   "h": "744360be6838",
+   "rev": [
+    "Headline: «gafe» does not render «wie verhext» (the quote is of Hoeneß describing the goal drought, and «gafe» means a jinx or a person who brings bad luck); changed to a quote closer to the original.",
+    "Body 2: «como embrujada» is ungrammatical/unnatural as a quote and agrees with nothing; rephrased as «como embrujada» → «como si estuviera embrujada».",
+    "Body 2: «Tras el 0-1» is wrong; the German says «Nach dem Rückstand» and the score was 0-1 at that point only after the 57th minute, so «Tras ponerse por detrás en el marcador» is safer, and the subst",
+    "Body 2: the Stiller comeback in minute 70 — fine."
+   ],
+   "rev_dbg": [
+    4,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Stadio Giuseppe Meazza (San Siro) en Milán"
+   }
+  },
   "kloeckner-sanktionen-linke-blockade-barnea-2026-11-26-b0800": {
    "L": {
     "body": [
@@ -109,6 +182,32 @@
     "img.alt": "Edificio del Reichstag y Paul-Löbe-Haus en Berlín – Imagen simbólica"
    }
   },
+  "konsumklima-dezember-2026": {
+   "L": {
+    "body": [
+     "Según GfK y el Instituto de Núremberg para las Decisiones de Mercado (NIM), el clima de consumo para diciembre sube 0,7 puntos hasta los menos 30,2 puntos. El valor del mes anterior se corrigió a menos 30,9 puntos. Las expectativas de ingresos y la propensión a comprar aumentan ligeramente, mientras que la propensión al ahorro baja algo. Las expectativas económicas, en cambio, retroceden.",
+     "«El clima de consumo, pues, se estanca más o menos, y además en un nivel bajo», dijo el experto del NIM Rolf Bürkl. «Para la inminente campaña navideña, no son buenos presagios.»",
+     "La asociación del sector digital Bitkom calcula que los consumidores gastarán en el Black Friday y el Cyber Monday una media de unos 304 euros, un 2,6 por ciento menos que el año anterior. La asociación del comercio HDE espera, no obstante, un aumento de las ventas del 2 por ciento en noviembre y diciembre, hasta los 129.200 millones de euros. Los próximos datos del clima de consumo se publicarán el 18 de diciembre."
+    ],
+    "d": "El ánimo de compra de los alemanes mejora solo mínimamente en diciembre. El experto del NIM Rolf Bürkl ve «no son buenos presagios» para la campaña navideña.",
+    "t": "El clima de consumo se estanca: menos 30,2 puntos antes de la campaña navideña"
+   },
+   "at": "2026-11-26T09:09Z",
+   "h": "bc1408b9b399",
+   "rev": [
+    "Teaser: the quote «keine guten Vorzeichen» was rendered as «malos presagios», which changes the quoted wording; restored as «no son buenos presagios»",
+    "Image alt: «am Abend» translated as «al atardecer»; corrected to «por la noche»",
+    "Quote in paragraph 2: «tritt also mehr oder weniger auf der Stelle» is awkward; word order smoothed"
+   ],
+   "rev_dbg": [
+    3,
+    3,
+    0
+   ],
+   "x": {
+    "img.alt": "Imagen simbólica: calle comercial por la noche (Münster, Prinzipalmarkt)"
+   }
+  },
   "metall-tarif-nachtsitzung-mannheim-2026-11-26-b0800": {
    "L": {
     "body": [
@@ -128,6 +227,77 @@
    ],
    "x": {
     "img.alt": "Centro de congresos Rosengarten en Mannheim – Imagen simbólica"
+   }
+  },
+  "nvidia-server-stopp-suedostasien": {
+   "L": {
+    "body": [
+     "Nvidia ha ordenado a sus socios de fabricación, según un informe del Financial Times, que por el momento no envíen más servidores a Malasia, Singapur, Tailandia e Indonesia. El diario se basa en tres fuentes internas. Según el periódico, socios como Dell y Supermicro han comunicado a clientes de la región que sus pedidos no se entregarán.",
+     "El motivo son los controles de exportación de EE. UU. vigentes desde el 19 de noviembre: desde entonces, los envíos de chips avanzados de IA a estos cuatro países y a Brasil requieren una licencia estadounidense. Washington quiere así evitar que chips de alto rendimiento lleguen a China por vías indirectas.",
+     "No está claro si la suspensión de los envíos es solo temporal. La agencia Reuters no pudo confirmar inicialmente el informe; Nvidia, Dell y Supermicro no se pronunciaron de inmediato."
+    ],
+    "d": "Según el Financial Times, el fabricante de chips ordenó a sus socios de fabricación dejar de enviar servidores a cuatro países del Sudeste Asiático. El motivo son las nuevas normas de exportación de EE. UU.",
+    "t": "Informe: Nvidia suspende el envío de servidores a Malasia, Singapur, Tailandia e Indonesia"
+   },
+   "at": "2026-11-26T09:09Z",
+   "h": "f98f44487224",
+   "rev_dbg": [
+    0,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: sede de Nvidia en Santa Clara"
+   }
+  },
+  "psg-rom-2-2-cl": {
+   "L": {
+    "body": [
+     "El Paris Saint-Germain no pasó del 2-2 ante la AS Roma en la Liga de Campeones. Mario Hermoso adelantó a los visitantes en el minuto 5 e Illia Zabarnyi empató de cabeza tras un córner (31.). Ousmane Dembélé marcó de penalti el 2-1 en el minuto 62, antes de que el recién ingresado Donyell Malen, exjugador del Dortmund, empatara también desde los once metros en el minuto 78. En el tiempo añadido, el portero de la Roma, Mile Svilar, detuvo un disparo de Dembélé.",
+     "Así termina la racha de doce victorias oficiales consecutivas del PSG. «Fue el rival más fuerte contra el que hemos jugado esta temporada», dijo el entrenador Luis Enrique. París es segundo con 13 puntos, por detrás del Real Madrid.",
+     "La Roma tiene cinco puntos y ocupa el puesto 25, a un punto de la última plaza de playoff. Con ello, Malen ha marcado cinco goles en cinco partidos de Liga de Campeones con el equipo romano."
+    ],
+    "d": "Tras doce victorias oficiales seguidas, el Paris Saint-Germain cede por primera vez puntos en la fase de liga. Luis Enrique calificó a la Roma como el rival más fuerte de la temporada.",
+    "t": "Malen marca de penalti: la Roma frena la racha del PSG con un 2-2 en París"
+   },
+   "at": "2026-11-26T09:09Z",
+   "h": "80acb79d63bb",
+   "rev": [
+    "Hermoso's goal: the German gives it to Roma ('die Gäste'), but the draft's sentence structure is fine. The first-paragraph wording 'a las visitantes' is not an error.",
+    "'suplente' lost the nuance 'eingewechselt' (substitute who came on); changed to 'que había entrado desde el banquillo'.",
+    "Dembélé's 'parierte … gegen Dembélé' was rendered as 'detuvo un disparo', which is acceptable; left as is."
+   ],
+   "rev_dbg": [
+    3,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: el Parc des Princes en París"
+   }
+  },
+  "radew-bruessel-strafe-ukraine": {
+   "L": {
+    "body": [
+     "El primer ministro de Bulgaria, Rumen Radev, rechazó en Bruselas, antes de la cumbre extraordinaria de la UE, la multa propuesta por la Comisión Europea en el procedimiento por déficit. La Comisión propone una multa de hasta 25 millones de euros; Bulgaria es el primer país al que se aplica según las nuevas normas. Según Radev, la cantidad es más bien simbólica desde el punto de vista financiero, pero perjudica la reputación del país. «Este déficit excesivo no surgió de repente en mayo. Se acumuló en los años anteriores», afirmó. Según dijo, una suspensión de los fondos de la UE «no entra en consideración en absoluto».",
+     "Para el presupuesto de la UE 2028-2034, Sofía plantea tres condiciones: que se mantengan los fondos de cohesión, que haya dinero propio para la región del mar Negro y que Bulgaria rechace los nuevos recursos propios procedentes del comercio de emisiones y del impuesto sobre el tabaco. En el préstamo previsto de 45.000 millones de euros para Ucrania, Bulgaria solo quiere participar en la parte no militar, de 20.000 millones.",
+     "Radev dijo que hoy «difícilmente» habrá un acuerdo. El Consejo de la UE debe decidir sobre la multa a mediados de diciembre."
+    ],
+    "d": "Antes de la cumbre extraordinaria de la UE, el jefe del Gobierno búlgaro rechaza la multa propuesta y plantea tres condiciones para el próximo presupuesto de la UE.",
+    "t": "Radev en Bruselas: multa por déficit injusta; dinero para Ucrania solo para ayuda civil"
+   },
+   "at": "2026-11-26T09:09Z",
+   "h": "83cfd3dc411e",
+   "rev": [
+    "Estructura rota en la enumeración de condiciones: «que Bulgaria rechaza los nuevos recursos propios» no es paralela a las otras condiciones y es gramaticalmente incorrecta (debe ser «y que Bulgaria re"
+   ],
+   "rev_dbg": [
+    1,
+    1,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Rumen Radev"
    }
   },
   "sporting-manchester-united-pochettino-2026-11-26-b0800": {
@@ -154,6 +324,27 @@
    ],
    "x": {
     "img.alt": "Mauricio Pochettino – Foto de archivo"
+   }
+  },
+  "terror18-jugendliche-auflagen-frei": {
+   "L": {
+    "body": [
+     "Los tres menores, detenidos el miércoles por su presunta pertenencia al grupo de extrema derecha «Terror 18», vuelven a estar en libertad. Según informa la agencia Deutsche Presse-Agentur, un juez de instrucción del Tribunal Supremo Federal en Karlsruhe suspendió la ejecución de las órdenes de detención con condiciones. Se desconoce qué condiciones se aplican.",
+     "Los jóvenes de 14 y 15 años habían sido detenidos en Teltow-Fläming, Helmstedt e Itzehoe. La Fiscalía Federal acusa al grupo de haber pretendido cometer atentados incendiarios y actos de violencia, hasta llegar al asesinato de extranjeros y adversarios políticos. A finales de octubre, el grupo habría planeado un atentado incendiario contra un alojamiento de refugiados en Winsen (Luhe).",
+     "De forma paralela se registraron los domicilios de otras cinco personas en Baviera, Mecklemburgo-Pomerania Occidental, Sajonia, Brandeburgo y Baja Sajonia. Otros tres presuntos miembros ya se encuentran en prisión preventiva. Rige la presunción de inocencia para todos los investigados."
+    ],
+    "d": "Un juez de instrucción del Tribunal Supremo Federal suspendió las órdenes de detención contra tres jóvenes de 14 y 15 años. La Fiscalía Federal sigue investigando por sospecha de terrorismo.",
+    "t": "«Terror 18»: liberan con condiciones a los menores detenidos"
+   },
+   "at": "2026-11-26T09:09Z",
+   "h": "1df1aa5f955a",
+   "rev_dbg": [
+    2,
+    0,
+    0
+   ],
+   "x": {
+    "img.alt": "Foto de archivo: Tribunal Supremo Federal en Karlsruhe"
    }
   },
   "trend-umfrage-jotowa-pp-wasraschdane-2026-11-26-b0800": {
