@@ -1,0 +1,414 @@
+{
+ "date": "2026-11-26",
+ "items": [
+  {
+   "id": "openai-astra-exoplaneten-amateure",
+   "s": "ai",
+   "time": "12:45",
+   "kl": {
+    "de": "Forschung",
+    "bg": "Наука",
+    "en": "Research"
+   },
+   "yt": {
+    "id": "p8lvQQebvpg",
+    "ch": "OpenAI",
+    "kind": "video",
+    "t": {
+     "de": "How to Search for Exoplanets",
+     "bg": "How to Search for Exoplanets",
+     "en": "How to Search for Exoplanets"
+    }
+   },
+   "src": [
+    {
+     "n": "OpenAI – Searching for distant planets with Astra (24.11.2026)",
+     "u": "https://openai.com/index/searching-for-distant-planets-with-astra/"
+    },
+    {
+     "n": "Interesting Engineering – Amateur astronomers use OpenAI to hunt down 49 potential planets in public NASA data (24.11.2026)",
+     "u": "https://interestingengineering.com/ai-robotics/amateur-astronomers-openai-49-planet-candidates"
+    },
+    {
+     "n": "OpenAI-Video auf YouTube: How to Search for Exoplanets",
+     "u": "https://www.youtube.com/watch?v=p8lvQQebvpg"
+    }
+   ],
+   "de": {
+    "t": "Planetenjagd ohne Teleskop: Hobby-Astronomen finden mit OpenAI-KI 49 Kandidaten",
+    "d": "Zwei Amateure haben mit OpenAIs Modell Astra und dem Programmierwerkzeug Codex öffentliche NASA-Daten durchsucht. Bestätigt ist noch kein neuer Planet – das kann Monate oder Jahre dauern.",
+    "body": [
+     "OpenAI hat am Dienstag beschrieben, wie zwei Hobby-Astronomen mit KI-Werkzeugen nach fernen Planeten suchen. Sie werten frei zugängliche Messdaten der NASA-Weltraumteleskope Kepler und TESS aus und achten auf winzige, regelmäßige Helligkeitseinbrüche von Sternen – ein Hinweis darauf, dass ein Planet vor dem Stern vorbeizieht.",
+     "OpenAI-Ingenieur Kevin Bond ließ sich von Codex ein Suchprogramm für rund 100.000 Kepler-Sterne bauen. Es meldete mehr als 200 Signale, darunter zehn bereits bekannte Planeten. Eines der zwei auffälligsten Signale stammt vom Stern KIC 5689121 im Sternbild Leier: Er wird alle 13,8 Tage etwas dunkler – handelt es sich um einen Planeten, wäre dieser im Durchmesser etwa 2,4-mal so groß wie die Erde. Eine unabhängige Suche des SETI-Instituts fand diese beiden Signale ebenfalls. „Unsere ersten Prüfungen sind ermutigend, und Folgebeobachtungen werden uns mehr verraten“, sagte Vishal Gajjar vom SETI-Institut.",
+     "Der Unternehmer Ethan Byrd durchsuchte mit dem Modell Astra Daten von rund 19 Millionen Sternen und kam im ersten Durchgang auf 49 Kandidaten. Einen seiner stärksten Kandidaten hat er an Forscher der TESS-Mission geschickt. Bestätigt ist bislang kein neuer Planet: Dafür sind weitere Messungen und eine begutachtete Veröffentlichung nötig. Ein neues OpenAI-Video erklärt, wie die Suche funktioniert."
+    ]
+   },
+   "bg": {
+    "t": "Лов на планети без телескоп: астрономи любители откриха 49 кандидата с ИИ на OpenAI",
+    "d": "Двама любители претърсиха публични данни на НАСА с модела Astra на OpenAI и инструмента Codex. Нова планета все още не е потвърдена – това може да отнеме месеци или години.",
+    "body": [
+     "OpenAI описа във вторник как двама астрономи любители търсят далечни планети с помощта на ИИ инструменти. Те анализират свободно достъпни данни от космическите телескопи на НАСА Kepler и TESS и следят за малки, редовни спадове в яркостта на звездите – знак, че пред звездата преминава планета.",
+     "Инженерът на OpenAI Кевин Бонд накара Codex да му създаде програма за търсене сред около 100 000 звезди от Kepler. Тя отчете над 200 сигнала, сред които десет вече известни планети. Сред двата най-забележителни сигнала е звездата KIC 5689121 в съзвездието Лира: тя потъмнява леко на всеки 13,8 дни – ако става дума за планета, тя би била около 2,4 пъти по-голяма от Земята по диаметър. Независимо търсене на института SETI също откри тези два сигнала. „Първите ни проверки са обнадеждаващи, а последващите наблюдения ще ни кажат повече“, каза Вишал Гаджар от института SETI.",
+     "Предприемачът Итън Бърд претърси с модела Astra данни за около 19 милиона звезди и при първото преминаване стигна до 49 кандидата. Един от най-силните си кандидати той е изпратил на изследователи от мисията TESS. Засега нито една нова планета не е потвърдена: за това са нужни допълнителни измервания и рецензирана публикация. Ново видео на OpenAI обяснява как работи търсенето."
+    ]
+   },
+   "en": {
+    "t": "Planet hunting without a telescope: amateurs find 49 candidates with OpenAI's AI",
+    "d": "Two amateurs searched public NASA data using OpenAI's Astra model and its Codex coding tool. No new planet has been confirmed yet – that could take months or years.",
+    "body": [
+     "OpenAI on Tuesday described how two amateur astronomers are using AI tools to search for distant planets. They analyse freely available data from NASA's Kepler and TESS space telescopes, looking for tiny, regular dips in a star's brightness – a sign that a planet may be passing in front of it.",
+     "OpenAI engineer Kevin Bond had Codex build him a search program covering about 100,000 Kepler stars. It flagged more than 200 signals, including ten already known planets. One of the two standout signals comes from the star KIC 5689121 in the constellation Lyra: it dims slightly every 13.8 days – if a planet is the cause, it would be about 2.4 times Earth's diameter. An independent search by the SETI Institute also found both of these signals. \"Our initial checks are encouraging, and follow-up observations will tell us more,\" said Vishal Gajjar of the SETI Institute.",
+     "Entrepreneur Ethan Byrd used the Astra model to search data on about 19 million stars and came up with 49 candidates in a first pass. He has sent one of his strongest candidates to researchers on the TESS mission. No new planet has been confirmed so far: that requires further measurements and a peer-reviewed publication. A new OpenAI video explains how the search works."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-26/openai-astra-exoplaneten-amateure.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "NASA",
+    "lic": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Telescope_Kepler-NASA.jpeg",
+    "alt": {
+     "de": "Symbolbild: NASA-Illustration des Weltraumteleskops Kepler",
+     "bg": "Символна снимка: илюстрация на НАСА на космическия телескоп Kepler",
+     "en": "Symbolic image: NASA illustration of the Kepler space telescope"
+    }
+   }
+  },
+  {
+   "id": "niji-8-anime-modell-midjourney",
+   "s": "ai",
+   "time": "12:45",
+   "kl": {
+    "de": "Neues Modell",
+    "bg": "Нов модел",
+    "en": "New model"
+   },
+   "yt": {
+    "id": "9kKPpT7ORNA",
+    "ch": "niji · journey",
+    "kind": "video",
+    "t": {
+     "de": "[MV] Mystical Departure (short ver.) - niji・journey 8 announcement trailer",
+     "bg": "[MV] Mystical Departure (short ver.) - niji・journey 8 announcement trailer",
+     "en": "[MV] Mystical Departure (short ver.) - niji・journey 8 announcement trailer"
+    }
+   },
+   "src": [
+    {
+     "n": "AlphaSignal – Midjourney's Niji 8 Rewrites Anime Character Continuity With Reference Editing (24.11.2026)",
+     "u": "https://alphasignal.ai/news/midjourney-s-niji-8-rewrites-anime-character-continuity-with-reference-editing"
+    },
+    {
+     "n": "Data Studios – Midjourney launches Niji 8 with character editing on plans from $10 a month (26.11.2026)",
+     "u": "https://www.datastudios.org/post/midjourney-niji-8-anime-model-character-editing-plans-from-10"
+    },
+    {
+     "n": "Emergent – Midjourney Niji V8 Launches With Built-In Anime Editing (25.11.2026)",
+     "u": "https://emergent.sh/news/midjourney-niji-v8-launches-built-anime"
+    },
+    {
+     "n": "niji・journey-Video auf YouTube: niji・journey 8 announcement trailer",
+     "u": "https://www.youtube.com/watch?v=9kKPpT7ORNA"
+    }
+   ],
+   "de": {
+    "t": "Figur bleibt Figur: Midjourney bringt Anime-Bildmodell Niji 8 mit Bearbeitungsfunktion",
+    "d": "Mit Niji 8 lassen sich Anime-Figuren aus einem Bild in ein anderes übertragen und per Textbefehl verändern. Das Modell steht allen zahlenden Midjourney-Kunden zur Verfügung.",
+    "body": [
+     "Der Bildgenerator Midjourney hat am Dienstag die achte Version seines Anime-Modells Niji veröffentlicht. „Niji V8 is now live“, teilte das Unternehmen auf X mit; im Blog nannte es Niji 8 sein bisher schnellstes und stimmigstes Niji-Modell. Niji ist auf Anime und ostasiatische Bildsprache ausgerichtet und entsteht gemeinsam mit dem Partner Spellbrush.",
+     "Wichtigste Neuerung ist ein Bearbeitungsmodell, das die frühere Funktion für Figuren-Referenzen ersetzt. Nutzer verweisen in der Anweisung auf ihre Vorlagen nach Position – etwa: Nimm die Figur aus Bild 1 und setze sie liegend in Bild 2. So soll dieselbe Figur in verschiedenen Szenen gleich aussehen; auch einfache Comicseiten mit mehreren Feldern sollen aus einer einzigen Anweisung entstehen.",
+     "Aufgerufen wird das Modell im Discord-Server oder auf der Website mit dem Parameter „--niji 8“. Es ist für alle zahlenden Abonnenten freigeschaltet; die Tarife beginnen bei 10 Dollar im Monat. Angaben zu Leistungsmessungen oder einer Programmierschnittstelle machte Midjourney nicht. Ein Ankündigungs-Musikvideo zeigt Bilder im neuen Stil."
+    ]
+   },
+   "bg": {
+    "t": "Героят остава същият: Midjourney пуска аниме модела Niji 8 с функция за редакция",
+    "d": "С Niji 8 аниме герои могат да се пренасят от едно изображение в друго и да се променят с текстова команда. Моделът е достъпен за всички платени клиенти на Midjourney.",
+    "body": [
+     "Генераторът на изображения Midjourney пусна във вторник осмата версия на своя аниме модел Niji. „Niji V8 is now live“, съобщи компанията в X, а в блога си нарече Niji 8 своя най-бърз и най-последователен модел Niji досега. Niji е насочен към аниме и източноазиатска визуална естетика и се разработва съвместно с партньора Spellbrush.",
+     "Най-важната новост е модел за редакция, който заменя по-ранната функция за препратки към герои. Потребителите посочват образците си в инструкцията по позиция – например: вземи героя от изображение 1 и го постави легнал в изображение 2. Така един и същ герой трябва да изглежда еднакво в различни сцени; от една-единствена инструкция могат да се получат и прости комикс страници с няколко кадъра.",
+     "Моделът се стартира в Discord сървъра или на уебсайта с параметъра „--niji 8“. Той е отключен за всички платени абонати; плановете започват от 10 долара на месец. Данни за тестове на производителността или програмен интерфейс Midjourney не посочи. Музикален клип към обявяването показва изображения в новия стил."
+    ]
+   },
+   "en": {
+    "t": "Characters stay consistent: Midjourney launches anime image model Niji 8 with editing",
+    "d": "Niji 8 can move anime characters from one image into another and change them with a text instruction. The model is available to all paying Midjourney subscribers.",
+    "body": [
+     "Image generator Midjourney on Tuesday released the eighth version of its anime model Niji. \"Niji V8 is now live,\" the company posted on X; in its blog it called Niji 8 its fastest and most coherent Niji model yet. Niji focuses on anime and East Asian aesthetics and is developed together with partner Spellbrush.",
+     "The key new feature is an editing model that replaces the earlier character-reference function. Users refer to their source images by position in the instruction – for example: take the character from image 1 and put it into image 2, lying down. The aim is for the same character to look the same across different scenes; simple comic pages with several panels are also meant to come from a single instruction.",
+     "The model is called up on the Discord server or the website with the parameter \"--niji 8\". It is unlocked for all paying subscribers; plans start at 10 dollars a month. Midjourney gave no benchmark figures or details of an API. An announcement music video shows images in the new style."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-26/niji-8-anime-modell-midjourney-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Midjourney bringt Anime-Bildmodell Niji 8",
+     "bg": "Заглавна графика: Midjourney пуска аниме модела Niji 8",
+     "en": "Title graphic: Midjourney launches anime image model Niji 8"
+    }
+   }
+  },
+  {
+   "id": "neuralink-link-studie-fda",
+   "s": "ai",
+   "time": "12:45",
+   "kl": {
+    "de": "Hirn-Computer-Schnittstelle",
+    "bg": "Мозъчен интерфейс",
+    "en": "Brain-computer interface"
+   },
+   "yt": {
+    "id": "05EgtB4L8x4",
+    "ch": "Neuralink",
+    "kind": "video",
+    "t": {
+     "de": "Using Telepathy To Play GTA VI | Neuralink",
+     "bg": "Using Telepathy To Play GTA VI | Neuralink",
+     "en": "Using Telepathy To Play GTA VI | Neuralink"
+    }
+   },
+   "src": [
+    {
+     "n": "Engadget – Neuralink receives FDA approval for 'pivotal' brain implant trial in ALS patients (26.11.2026)",
+     "u": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/"
+    },
+    {
+     "n": "TeslaNorth – Neuralink Says FDA Cleared Its First Pivotal Brain Implant Trial (25.11.2026)",
+     "u": "https://teslanorth.com/2026/11/25/neuralink-fda-link-pivotal-brain-implant-trial-als/"
+    },
+    {
+     "n": "Interesting Engineering – Neuralink participant steers GTA VI speedboat using brain implant in new demonstration (21.11.2026)",
+     "u": "https://interestingengineering.com/culture/neuralink-brain-implant-gta-vi-blindsight-approval"
+    },
+    {
+     "n": "Neuralink-Video auf YouTube: Using Telepathy To Play GTA VI",
+     "u": "https://www.youtube.com/watch?v=05EgtB4L8x4"
+    }
+   ],
+   "de": {
+    "t": "Entscheidende Studie genehmigt: Neuralink darf Hirnimplantat bei ALS-Patienten prüfen",
+    "d": "Die US-Arzneimittelbehörde FDA hat Neuralink die Studie LINK erlaubt. Sie soll Belege für eine spätere Zulassung liefern. Ein Video zeigt einen Teilnehmer, der per Gedanken „GTA VI“ spielt.",
+    "body": [
+     "Das Hirnimplantat-Unternehmen Neuralink von Elon Musk hat nach eigenen Angaben von der FDA grünes Licht für die Studie LINK bekommen. „Wir haben die FDA-Genehmigung erhalten, LINK zu starten – die erste zulassungsrelevante Studie für eine implantierbare Gehirn-Computer-Schnittstelle in den USA“, schrieb Neuralink am Mittwoch auf X. Sie baue auf der Arbeit mit bislang mehr als 30 Teilnehmern auf.",
+     "Teilnehmen können Menschen mit der Nervenkrankheit ALS. Sie steuern mit dem Implantat digitale Geräte allein über ihre Hirnsignale; untersucht werden der praktische Nutzen sowie die langfristige Sicherheit und Zuverlässigkeit. Eine solche Studie soll die Belege für einen späteren Zulassungsantrag liefern. Das Implantat ist weiterhin ein Prüfprodukt und nicht allgemein zugelassen. Wie viele Teilnehmer aufgenommen werden, teilte Neuralink nicht mit.",
+     "Wenige Tage zuvor hatte Neuralink ein Video veröffentlicht, in dem ein nicht namentlich genannter Studienteilnehmer das Spiel „GTA VI“ ohne Controller spielt. Das System liest Signale aus der Hirnregion, die für Handbewegungen zuständig ist. Angaben zu Genauigkeit oder Verzögerung hat das Unternehmen nicht veröffentlicht."
+    ]
+   },
+   "bg": {
+    "t": "Ключово проучване одобрено: Neuralink ще изпитва мозъчния си имплант при пациенти с ALS",
+    "d": "Американската агенция по храните и лекарствата FDA разреши на Neuralink проучването LINK. То трябва да даде доказателства за бъдещо одобрение. Видео показва участник, който играе „GTA VI“ с мисълта си.",
+    "body": [
+     "Компанията за мозъчни импланти Neuralink на Илон Мъск съобщи, че е получила зелена светлина от FDA за проучването LINK. „Получихме одобрение от FDA да стартираме LINK – първото регистрационно проучване за имплантируем мозъчно-компютърен интерфейс в САЩ“, написа Neuralink в сряда в X. То надграждало работата с над 30 участници досега.",
+     "В проучването могат да участват хора с нервното заболяване ALS. С импланта те управляват цифрови устройства само чрез мозъчните си сигнали; изследват се практическата полза, както и дългосрочната безопасност и надеждност. Подобно проучване трябва да осигури доказателствата за бъдещо заявление за одобрение. Имплантът остава изпитвано изделие и не е общо одобрен. Колко участници ще бъдат включени, Neuralink не съобщи.",
+     "Няколко дни по-рано Neuralink публикува видео, в което неназован участник в проучването играе „GTA VI“ без контролер. Системата разчита сигнали от мозъчната област, отговаряща за движенията на ръката. Данни за точността или забавянето компанията не е публикувала."
+    ]
+   },
+   "en": {
+    "t": "Pivotal trial approved: Neuralink may test its brain implant in ALS patients",
+    "d": "The US Food and Drug Administration has allowed Neuralink to run the LINK study, which is meant to provide evidence for later approval. A video shows a participant playing \"GTA VI\" by thought.",
+    "body": [
+     "Elon Musk's brain implant company Neuralink says it has received the go-ahead from the FDA for the LINK study. \"We've received FDA approval to launch LINK, the first pivotal trial for an implantable brain-computer interface in the US,\" Neuralink wrote on X on Wednesday. It builds on work with more than 30 participants to date, the company said.",
+     "People with the nerve disease ALS may take part. They use the implant to control digital devices with their brain signals alone; the trial examines practical benefit as well as long-term safety and reliability. Such a study is meant to provide the evidence for a later approval application. The implant remains an investigational device and is not generally approved. Neuralink did not say how many participants will be enrolled.",
+     "A few days earlier, Neuralink published a video in which an unnamed study participant plays \"GTA VI\" without a controller. The system reads signals from the brain region that controls hand movement. The company has not published any figures on accuracy or latency."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-26/neuralink-link-studie-fda.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Steve Jurvetson",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Elon_Musk_and_the_Neuralink_Future.jpg",
+    "alt": {
+     "de": "Archivbild: Elon Musk neben dem Neuralink-Operationsroboter bei einer Präsentation",
+     "bg": "Архивна снимка: Илон Мъск до хирургичния робот на Neuralink по време на представяне",
+     "en": "Archive photo: Elon Musk next to the Neuralink surgical robot at a presentation"
+    }
+   }
+  },
+  {
+   "id": "characterai-auktion-42-generalstaatsanwaelte",
+   "s": "ai",
+   "mn": true,
+   "time": "12:45",
+   "kl": {
+    "de": "Datenschutz",
+    "bg": "Защита на данните",
+    "en": "Privacy"
+   },
+   "src": [
+    {
+     "n": "Computing.net – Mystery Bidder Formed One Day Before Selection Targets Character.AI Private Chat Data (26.11.2026)",
+     "u": "https://computing.net/mystery-bidder-formed-one-day-before-selection-targets-character-ai-private-chat-data/"
+    },
+    {
+     "n": "Androidpure – 42 AGs Ask Court to Reject Character.AI's Dec. 1 Chat Sale (26.11.2026)",
+     "u": "https://www.androidpure.com/characterai-chat-data-auction/"
+    },
+    {
+     "n": "AI Weekly – 42 State AGs Move to Block Character.AI Chat-Data Auction (26.11.2026)",
+     "u": "https://aiweekly.co/alerts/42-state-ags-move-to-block-characterai-chat-data-auction"
+    }
+   ],
+   "de": {
+    "t": "Chats von Millionen Nutzern unterm Hammer: 42 US-Justizminister wehren sich",
+    "d": "Der insolvente Chatbot-Anbieter Character.AI will am 1. Dezember Daten von mehr als 21 Millionen US-Konten versteigern. Ein breites Bündnis von Generalstaatsanwälten will das stoppen.",
+    "body": [
+     "Im Insolvenzverfahren von Character.AI stellen sich die Justizminister von 42 US-Bundesstaaten gegen den geplanten Verkauf von Nutzerdaten. Die Auktion ist für den 1. Dezember angesetzt. Betroffen wären Chatverläufe und IP-Adressen von mehr als 21 Millionen US-Konten, davon über 2,1 Millionen von Minderjährigen. Character.AI hatte im Oktober Insolvenz nach Kapitel 11 des US-Konkursrechts angemeldet.",
+     "Einziger bekannter Bieter ist die Firma Smirks and Pangs Acquisition LLC. Sie wurde laut den Berichten am 13. November in Delaware gegründet und schon am nächsten Tag als maßgeblicher Erstbieter ausgewählt; wer hinter ihr steht, ist nicht offengelegt. Die Bundesstaaten verlangen, sie als Erstbieter abzulehnen, ihr keine Ausfallprämie von 350.000 Dollar zuzugestehen und mindestens die Chats von Kindern und andere sensible Daten aus dem Verkauf herauszunehmen. Die Chats enthalten auch Gespräche über sensible Gesundheitsthemen.",
+     "Character.AI hatte in seiner Datenschutzerklärung versprochen, persönliche Daten nicht gegen Geld zu verkaufen. Ein Insolvenzverfahren dürfe nicht genutzt werden, um diesen Verbraucherschutz zu umgehen, erklärte Kaliforniens Generalstaatsanwalt Rob Bonta. Nach Lesart der Bundesstaaten wäre ein Käufer nach den Vertragsbedingungen nicht an die Erklärung gebunden. Eine Entscheidung des Gerichts lag zunächst nicht vor."
+    ]
+   },
+   "bg": {
+    "t": "Чатовете на милиони потребители на търг: 42 главни прокурори в САЩ се противопоставят",
+    "d": "Фалиралият доставчик на чатботове Character.AI иска на 1 декември да продаде на търг данни от над 21 милиона американски акаунта. Широка коалиция от главни прокурори иска да го спре.",
+    "body": [
+     "В процедурата по несъстоятелност на Character.AI главните прокурори на 42 американски щата се противопоставят на планираната продажба на потребителски данни. Търгът е насрочен за 1 декември. Засегнати биха били историите на чатовете и IP адресите от над 21 милиона акаунта в САЩ, от които над 2,1 милиона на непълнолетни. Character.AI подаде през октомври молба за защита от кредиторите по Глава 11 от американския закон за несъстоятелността.",
+     "Единственият известен кандидат-купувач е фирмата Smirks and Pangs Acquisition LLC. Според публикациите тя е регистрирана на 13 ноември в Делауеър и още на следващия ден е избрана за основен първоначален участник; кой стои зад нея, не е оповестено. Щатите настояват тя да бъде отхвърлена като първоначален участник, да не ѝ бъде призната компенсация от 350 000 долара при отказ и най-малкото чатовете на деца и други чувствителни данни да бъдат извадени от продажбата. Чатовете съдържат и разговори по чувствителни здравни теми.",
+     "Character.AI беше обещала в политиката си за поверителност да не продава лични данни срещу пари. Процедурата по несъстоятелност не бива да се използва за заобикаляне на тази защита на потребителите, заяви главният прокурор на Калифорния Роб Бонта. Според щатите условията на договора не биха обвързали купувача с тази политика. Решение на съда засега няма."
+    ]
+   },
+   "en": {
+    "t": "Millions of users' chats up for auction: 42 US attorneys general push back",
+    "d": "Bankrupt chatbot company Character.AI wants to auction data from more than 21 million US accounts on 1 December. A broad coalition of state attorneys general wants to stop it.",
+    "body": [
+     "In Character.AI's bankruptcy case, the attorneys general of 42 US states are opposing the planned sale of user data. The auction is scheduled for 1 December. It would cover chat histories and IP addresses from more than 21 million US accounts, over 2.1 million of them belonging to minors. Character.AI filed for Chapter 11 bankruptcy protection in October.",
+     "The only known bidder is Smirks and Pangs Acquisition LLC. According to the reports, it was formed in Delaware on 13 November and selected as the lead bidder the very next day; its backers have not been disclosed. The states are asking the court to reject it as lead bidder, deny it a 350,000-dollar break-up fee and, at a minimum, exclude children's chats and other sensitive data from the sale. The chats also include conversations about sensitive health topics.",
+     "Character.AI had promised in its privacy policy not to sell personal data for money. Bankruptcy should not be used to sidestep these consumer protections, said California Attorney General Rob Bonta. According to the states, under the sale terms a buyer would not be bound by that policy. There was no court ruling at first."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-26/characterai-auktion-42-generalstaatsanwaelte.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Pi.1415926535",
+    "lic": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rob_Bonta_at_Central_Bay_Operations_and_Maintenance_Facility_opening,_December_2018.JPG",
+    "alt": {
+     "de": "Archivbild: Kaliforniens heutiger Generalstaatsanwalt Rob Bonta im Jahr 2018",
+     "bg": "Архивна снимка: настоящият главен прокурор на Калифорния Роб Бонта през 2018 г.",
+     "en": "Archive photo: California's current Attorney General Rob Bonta in 2018"
+    }
+   }
+  },
+  {
+   "id": "new-york-verbot-ki-chatbot-spielzeug",
+   "s": "ai",
+   "mn": true,
+   "time": "12:45",
+   "kl": {
+    "de": "Regulierung",
+    "bg": "Регулация",
+    "en": "Regulation"
+   },
+   "src": [
+    {
+     "n": "Governor Kathy Hochul – As Consumers Begin Their Holiday Shopping Season, Governor Hochul Signs Five-Year Ban on AI Chatbot Toys (24.11.2026)",
+     "u": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot"
+    }
+   ],
+   "de": {
+    "t": "Kein sprechender Teddy mit KI: New York verbietet Chatbot-Spielzeug für fünf Jahre",
+    "d": "Gouverneurin Kathy Hochul hat ein Moratorium für Spielzeug mit eingebautem KI-Chatbot unterzeichnet. Es gilt ab 90 Tagen nach der Unterschrift – für das Weihnachtsgeschäft also noch nicht.",
+    "body": [
+     "New Yorks Gouverneurin Kathy Hochul hat am Dienstag ein Gesetz unterzeichnet, das Herstellung, Vertrieb und Verkauf von Spielzeug mit eingebautem KI-Chatbot im Bundesstaat für fünf Jahre untersagt. Gemeint sind etwa sprechende Kuscheltiere, Puppen und mit dem Internet verbundene Roboter. Das Verbot tritt 90 Tage nach der Unterzeichnung in Kraft; in diesem Weihnachtsgeschäft gilt es nach Angaben des Gouverneursbüros noch nicht.",
+     "Verstöße können mit zivilrechtlichen Strafen von bis zu 15.000 Dollar pro Tag und Verstoß geahndet werden; durchsetzen soll das die Generalstaatsanwältin. Hochul verwies auf einen Test einer Verbraucherschutzorganisation mit Chatbot-Spielzeug für Kinder von drei bis zwölf Jahren: Manche Geräte sprachen über sexuell explizite Themen, erklärten Kindern, wo sie Streichhölzer finden, oder reagierten verärgert, wenn ein Kind gehen wollte. Elternkontrollen fehlten weitgehend.",
+     "Die Pause verschaffe Zeit, die Folgen für Kinder zu untersuchen und Schutzregeln zu entwickeln, erklärte Senator Andrew Gounardes. „Dieses Moratorium für KI-Spielzeug in New York kommt keinen Moment zu früh“, erklärte James P. Steyer, Gründer der Organisation Common Sense Media. Bereits im Oktober hatte Hochul ein Gesetz unterzeichnet, das bestimmte riskante Chatbot-Funktionen für Minderjährige untersagt."
+    ]
+   },
+   "bg": {
+    "t": "Без говорещо мече с ИИ: Ню Йорк забранява играчки с чатбот за пет години",
+    "d": "Губернаторът Кати Хоукъл подписа мораториум върху играчки с вграден ИИ чатбот. Той влиза в сила 90 дни след подписването – т.е. не важи за коледния сезон.",
+    "body": [
+     "Губернаторът на Ню Йорк Кати Хоукъл подписа във вторник закон, който забранява за пет години производството, разпространението и продажбата в щата на играчки с вграден ИИ чатбот. Става дума например за говорещи плюшени играчки, кукли и свързани с интернет роботи. Забраната влиза в сила 90 дни след подписването; според офиса на губернатора тя все още няма да важи за тазгодишния коледен сезон.",
+     "Нарушенията могат да се наказват с граждански санкции до 15 000 долара на ден за всяко нарушение; прилагането ще бъде в ръцете на главния прокурор. Хоукъл се позова на тест на организация за защита на потребителите с играчки с чатбот за деца от три до дванадесет години: някои устройства говореха по сексуално откровени теми, обясняваха на децата къде да намерят кибрит или реагираха раздразнено, когато детето искаше да си тръгне. Родителски контрол почти липсваше.",
+     "Паузата дава време да се изследват последиците за децата и да се разработят защитни правила, заяви сенаторът Андрю Гунардес. „Този мораториум върху ИИ играчките в Ню Йорк не би могъл да дойде достатъчно скоро“, заяви Джеймс П. Стайър, основател на организацията Common Sense Media. Още през октомври Хоукъл подписа закон, който забранява определени рискови функции на чатботове за непълнолетни."
+    ]
+   },
+   "en": {
+    "t": "No talking AI teddy: New York bans chatbot toys for five years",
+    "d": "Governor Kathy Hochul has signed a moratorium on toys with built-in AI chatbots. It takes effect 90 days after signing – so not for this holiday shopping season.",
+    "body": [
+     "New York Governor Kathy Hochul on Tuesday signed a law banning the manufacture, distribution and sale of toys with built-in AI chatbots in the state for five years. This covers items such as talking stuffed animals, dolls and internet-connected robots. The ban takes effect 90 days after signing; according to the governor's office, it will not yet apply this holiday shopping season.",
+     "Violations can draw civil penalties of up to 15,000 dollars per day for each violation, enforced by the Attorney General. Hochul pointed to a consumer watchdog's test of chatbot toys for children aged three to twelve: some devices discussed sexually explicit topics, told children where to find matches or acted upset when a child wanted to leave. Parental controls were largely missing.",
+     "The pause gives time to study the effects on children and develop safeguards, said State Senator Andrew Gounardes. \"This moratorium on AI toys in New York could not come soon enough,\" said James P. Steyer, founder of the organisation Common Sense Media. In October, Hochul had already signed a law barring certain risky chatbot features for minors."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-26/new-york-verbot-ki-chatbot-spielzeug.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Marc A. Hermann / Metropolitan Transportation Authority",
+    "lic": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Metropolitan_Transportation_Authority,_Federal_Security_Funding,_October_2025,_Kathy_Hochul_speaking_hands_open.jpg",
+    "alt": {
+     "de": "Archivbild: New Yorks Gouverneurin Kathy Hochul bei einem Pressetermin im Oktober 2025",
+     "bg": "Архивна снимка: губернаторът на Ню Йорк Кати Хоукъл на пресконференция през октомври 2025 г.",
+     "en": "Archive photo: New York Governor Kathy Hochul at a press event in October 2025"
+    }
+   }
+  },
+  {
+   "id": "tidal-verbannt-ki-musik",
+   "s": "ai",
+   "mn": true,
+   "time": "12:45",
+   "kl": {
+    "de": "Musik & KI",
+    "bg": "Музика и ИИ",
+    "en": "Music & AI"
+   },
+   "src": [
+    {
+     "n": "TechCrunch – Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming (24.11.2026)",
+     "u": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
+    },
+    {
+     "n": "Notebookcheck – Tidal bans AI-generated music and removes 29 million songs (25.11.2026)",
+     "u": "https://www.notebookcheck.net/Tidal-bans-AI-generated-music-and-removes-29-million-songs.1459690.0.html"
+    }
+   ],
+   "de": {
+    "t": "Schluss mit reiner KI-Musik: Tidal will bis Jahresende über 29 Millionen Songs löschen",
+    "d": "Der Streamingdienst Tidal nimmt ab 9. Dezember keine vollständig KI-erzeugten Titel mehr an und entfernt vorhandene. Zuletzt kamen mehr als zwei von fünf neu gelieferten Songs von einer KI.",
+    "body": [
+     "Der Musikstreamingdienst Tidal verbannt vollständig von KI erzeugte Musik. Wie das Unternehmen am Dienstag mitteilte, wurden mehr als 43 Prozent der Titel, die in den vergangenen 90 Tagen an Tidal geliefert wurden, als KI-generiert erkannt. Ab dem 9. Dezember sollen solche Songs abgelehnt und vorhandene gelöscht werden – bis Jahresende voraussichtlich mehr als 29 Millionen.",
+     "Laut Tidal sind rund 27 Millionen Titel, etwa 6,3 Prozent des Katalogs, komplett von einer KI erstellt; 96 Prozent davon wurden nie abgespielt. Täglich rechnet der Dienst mit 80.000 bis 85.000 abgelehnten Einsendungen. Vertriebsfirmen dürfen solche Titel nicht mehr liefern. Musik, bei der KI nur unterstützend eingesetzt wurde, bleibt erlaubt – auch weil heutige Erkennungsverfahren an Grenzen stoßen und menschliche Musik nicht fälschlich aussortiert werden soll.",
+     "Schon im Juni hatte Tidal begonnen, KI-Musik zu kennzeichnen und von Tantiemen auszuschließen. Das habe die Flut neuer Uploads aber nicht gebremst, hieß es. Andere Plattformen gehen unterschiedlich vor: Bandcamp verbannte KI-Musik bereits im Januar, Spotify und YouTube Music setzen auf Kennzeichnungen."
+    ]
+   },
+   "bg": {
+    "t": "Край на изцяло ИИ музиката: Tidal ще изтрие над 29 милиона песни до края на годината",
+    "d": "Стрийминг услугата Tidal от 9 декември няма да приема изцяло създадени от ИИ записи и ще премахне съществуващите. Напоследък над две от всеки пет доставени песни бяха от ИИ.",
+    "body": [
+     "Музикалната стрийминг услуга Tidal забранява изцяло създадената от ИИ музика. Както съобщи компанията във вторник, над 43 процента от записите, доставени на Tidal през последните 90 дни, са разпознати като генерирани от ИИ. От 9 декември такива песни ще бъдат отхвърляни, а съществуващите – изтривани; до края на годината се очаква това да са над 29 милиона.",
+     "Според Tidal около 27 милиона записа, приблизително 6,3 процента от каталога, са изцяло създадени от ИИ; 96 процента от тях никога не са били слушани. Услугата очаква всеки ден да отхвърля между 80 000 и 85 000 изпратени записа. Дистрибуторите вече няма да могат да доставят такива песни. Музика, при която ИИ е използван само като помощно средство, остава разрешена – и защото днешните методи за разпознаване имат ограничения, а човешката музика не бива да бъде погрешно отстранявана.",
+     "Още през юни Tidal започна да обозначава ИИ музиката и да я изключва от авторските възнаграждения. Това обаче не е спряло потока от нови качвания, посочиха от компанията. Други платформи действат различно: Bandcamp забрани ИИ музиката още през януари, а Spotify и YouTube Music залагат на обозначения."
+    ]
+   },
+   "en": {
+    "t": "No more pure AI music: Tidal plans to delete over 29 million songs by year-end",
+    "d": "From 9 December, streaming service Tidal will no longer accept fully AI-generated tracks and will remove existing ones. Recently, more than two in five newly delivered songs came from an AI.",
+    "body": [
+     "Music streaming service Tidal is banning fully AI-generated music. The company said on Tuesday that more than 43 per cent of tracks delivered to Tidal in the past 90 days had been detected as AI-generated. From 9 December, such songs are to be rejected and existing ones deleted – more than 29 million of them expected by the end of the year.",
+     "According to Tidal, around 27 million tracks, about 6.3 per cent of the catalogue, were created entirely by AI; 96 per cent of these have never been played. The service expects to reject 80,000 to 85,000 submissions a day. Distributors will no longer be allowed to deliver such tracks. Music in which AI was only used as an aid remains permitted – partly because current detection methods have limits and human-made music should not be wrongly removed.",
+     "Tidal had already begun labelling AI music and excluding it from royalties in June. That did not slow the flood of new uploads, the company said. Other platforms take different approaches: Bandcamp banned AI music back in January, while Spotify and YouTube Music rely on labels."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-26/tidal-verbannt-ki-musik-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Tidal verbannt vollständig KI-erzeugte Musik",
+     "bg": "Заглавна графика: Tidal забранява изцяло създадената от ИИ музика",
+     "en": "Title graphic: Tidal bans fully AI-generated music"
+    }
+   }
+  }
+ ]
+}
