@@ -1,0 +1,415 @@
+{
+ "date": "2026-11-27",
+ "items": [
+  {
+   "id": "nvidia-offene-modelle-transparenz-video",
+   "s": "ai",
+   "time": "12:45",
+   "kl": {
+    "de": "Offene Modelle",
+    "bg": "Отворени модели",
+    "en": "Open models"
+   },
+   "yt": {
+    "id": "aAbtjH0-oQQ",
+    "ch": "NVIDIA",
+    "kind": "video",
+    "t": {
+     "de": "Why Transparency Matters for AI Security",
+     "bg": "Why Transparency Matters for AI Security",
+     "en": "Why Transparency Matters for AI Security"
+    }
+   },
+   "src": [
+    {
+     "n": "Reuters/Investing.com – Huang's return to Nvidia brings open-weight AI debate to forefront in Washington (24.11.2026)",
+     "u": "https://investing.com/news/stock-market-news/huangs-return-to-nvidia-brings-openweight-ai-debate-to-forefront-in-washington-5049260"
+    },
+    {
+     "n": "Wccftech – NVIDIA Releases Open Weights For Nemotron-Labs-Image-30B-A3B (25.11.2026)",
+     "u": "https://wccftech.com/nvidia-quietly-releases-open-weights-for-nemotron-labs-image-30b-a3b/"
+    },
+    {
+     "n": "Dataconomy – NVIDIA Releases Open Image Model With 3B Active Parameters (26.11.2026)",
+     "u": "https://dataconomy.com/2026/11/26/nvidia-releases-open-image-model-with-3b-active-parameters/"
+    },
+    {
+     "n": "Hugging Face – Modellkarte nvidia/Nemotron-Labs-Image-30B-A3B",
+     "u": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B"
+    },
+    {
+     "n": "NVIDIA-Video auf YouTube: Why Transparency Matters for AI Security",
+     "u": "https://www.youtube.com/watch?v=aAbtjH0-oQQ"
+    }
+   ],
+   "de": {
+    "t": "Streit um offene KI-Modelle: NVIDIA wirbt für Transparenz und legt ein Bildmodell nach",
+    "d": "Mit Jensen Huangs Rückkehr rückt in Washington die Frage nach frei verfügbaren KI-Modellen in den Vordergrund. NVIDIA veröffentlicht ein Video zur KI-Sicherheit und die Gewichte eines neuen Bildgenerators.",
+    "body": [
+     "Nach der Rückkehr von Jensen Huang an die Spitze von NVIDIA rückt in Washington der Streit um sogenannte Open-Weight-Modelle wieder in den Vordergrund – KI-Modelle, deren trainierte Gewichte jeder herunterladen kann. Huang hatte laut Reuters Kongress und Regierung gedrängt, US-Firmen zu unterstützen, die solche Modelle entwickeln, und in einem Brief vor „verfrühten Beschränkungen“ gewarnt. Microsoft und Palantir unterzeichneten den Brief, Anthropic nicht. Ein Vertreter des Weißen Hauses erklärte, die Regierung unterstütze offene Modelle seit Langem klar.",
+     "Passend dazu hat NVIDIA auf seinem YouTube-Kanal ein Video mit dem Titel „Why Transparency Matters for AI Security“ (Warum Transparenz für KI-Sicherheit wichtig ist) veröffentlicht. Zugleich stellte der Konzern ohne große Ankündigung die Gewichte des Bildgenerators Nemotron-Labs-Image-30B-A3B auf die Plattform Hugging Face. Das Modell erzeugt Bilder aus Textbeschreibungen; von seinen 30 Milliarden Parametern sind pro Token nur 3 Milliarden aktiv.",
+     "Frei nutzbar ist es allerdings nicht: Die Lizenz erlaubt nur nicht-kommerzielle Forschung und Tests. In NVIDIAs eigenen Messungen liegt das Modell in den meisten Tests vor GPT Image 2 von OpenAI, in zwei deutlich dahinter; unabhängig überprüft sind die Werte noch nicht."
+    ]
+   },
+   "bg": {
+    "t": "Спор за отворените ИИ модели: NVIDIA залага на прозрачност и пуска модел за изображения",
+    "d": "С връщането на Дженсън Хуанг във Вашингтон отново на преден план излиза въпросът за свободно достъпните ИИ модели. NVIDIA публикува видео за сигурността на ИИ и теглата на нов генератор на изображения.",
+    "body": [
+     "След завръщането на Дженсън Хуанг начело на NVIDIA във Вашингтон отново на преден план излиза спорът за т.нар. модели с отворени тегла – ИИ модели, чиито обучени тегла всеки може да изтегли. По данни на Ройтерс Хуанг е настоявал пред Конгреса и администрацията да подкрепят американските компании, които разработват такива модели, и в писмо е предупредил срещу „преждевременни ограничения“. Microsoft и Palantir подписаха писмото, Anthropic – не. Представител на Белия дом заяви, че администрацията отдавна ясно подкрепя отворените модели.",
+     "В тази връзка NVIDIA публикува в своя канал в YouTube видео със заглавие „Why Transparency Matters for AI Security“ (Защо прозрачността е важна за сигурността на ИИ). Едновременно компанията без голямо обявяване качи в платформата Hugging Face теглата на генератора на изображения Nemotron-Labs-Image-30B-A3B. Моделът създава изображения по текстово описание; от неговите 30 милиарда параметъра на токен са активни само 3 милиарда.",
+     "Свободно използваем обаче не е: лицензът позволява само некомерсиални изследвания и тестове. По собствените измервания на NVIDIA моделът изпреварва GPT Image 2 на OpenAI в повечето тестове, а в два изостава значително; стойностите все още не са проверени независимо."
+    ]
+   },
+   "en": {
+    "t": "Open AI model debate: NVIDIA makes the case for transparency and releases an image model",
+    "d": "With Jensen Huang's return, the question of freely available AI models is moving to the fore in Washington. NVIDIA has published a video on AI security and the weights of a new image generator.",
+    "body": [
+     "Following Jensen Huang's return to the helm of NVIDIA, the dispute over so-called open-weight models is back at the forefront in Washington – AI models whose trained weights anyone can download. According to Reuters, Huang had pushed Congress and the administration to support US companies developing such models and warned in a letter against \"premature restrictions\". Microsoft and Palantir signed the letter; Anthropic did not. A White House official said the administration has long clearly supported open models.",
+     "Fittingly, NVIDIA has published a video on its YouTube channel titled \"Why Transparency Matters for AI Security\". At the same time, the company quietly posted the weights of the image generator Nemotron-Labs-Image-30B-A3B on the Hugging Face platform. The model creates images from text descriptions; of its 30 billion parameters, only 3 billion are active per token.",
+     "It is not free to use, however: the licence permits only non-commercial research and evaluation. In NVIDIA's own measurements the model beats OpenAI's GPT Image 2 in most tests and trails it clearly in two; the figures have not yet been independently verified."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-27/nvidia-offene-modelle-transparenz-video.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Coolcaesar",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:NVIDIA_Headquarters.jpg",
+    "alt": {
+     "de": "Archivbild: NVIDIA-Zentrale in Santa Clara, Kalifornien (2018)",
+     "bg": "Архивна снимка: централата на NVIDIA в Санта Клара, Калифорния (2018)",
+     "en": "Archive image: NVIDIA headquarters in Santa Clara, California (2018)"
+    }
+   }
+  },
+  {
+   "id": "nvidia-lilly-wirkstoffsuche-video",
+   "s": "ai",
+   "time": "12:45",
+   "kl": {
+    "de": "Medizin",
+    "bg": "Медицина",
+    "en": "Medicine"
+   },
+   "yt": {
+    "id": "z7tcQiyLK8E",
+    "ch": "NVIDIA",
+    "kind": "video",
+    "t": {
+     "de": "How Eli Lilly and Company Accelerates Drug Discovery with NVIDIA",
+     "bg": "How Eli Lilly and Company Accelerates Drug Discovery with NVIDIA",
+     "en": "How Eli Lilly and Company Accelerates Drug Discovery with NVIDIA"
+    }
+   },
+   "src": [
+    {
+     "n": "NVIDIA Newsroom – NVIDIA and Lilly Announce Co-Innovation AI Lab to Reinvent Drug Discovery in the Age of AI (12.01.2026)",
+     "u": "https://nvidianews.nvidia.com/news/nvidia-and-lilly-announce-co-innovation-lab-to-reinvent-drug-discovery-in-the-age-of-ai"
+    },
+    {
+     "n": "Fierce Biotech – Lilly debuts Nvidia supercomputer with fanfare and focus on escaping traditional pharma lifecycle (2026)",
+     "u": "https://www.fiercebiotech.com/biotech/lilly-debuts-nvidia-supercomputer-fanfare-and-focus-escaping-traditional-pharma-lifecycle"
+    },
+    {
+     "n": "PR Newswire/Yahoo Finance – Lilly to host Innovation Day 2026 (23.11.2026)",
+     "u": "https://finance.yahoo.com/healthcare/articles/lilly-host-innovation-day-2026-150000658.html"
+    },
+    {
+     "n": "NVIDIA-Video auf YouTube: How Eli Lilly and Company Accelerates Drug Discovery with NVIDIA",
+     "u": "https://www.youtube.com/watch?v=z7tcQiyLK8E"
+    }
+   ],
+   "de": {
+    "t": "Medikamente schneller finden: NVIDIA-Video zeigt Lillys Arbeit mit KI-Rechnern",
+    "d": "Der Pharmakonzern Eli Lilly setzt bei der Wirkstoffsuche auf KI-Supercomputer von NVIDIA. Ein neues Video des Chipkonzerns stellt die Zusammenarbeit vor.",
+    "body": [
+     "NVIDIA hat auf seinem YouTube-Kanal ein neues Video veröffentlicht, das zeigt, wie der US-Pharmakonzern Eli Lilly mit NVIDIA-Technik die Suche nach neuen Wirkstoffen beschleunigen will. Die beiden Unternehmen arbeiten seit Anfang des Jahres enger zusammen: Im Januar kündigten sie ein gemeinsames KI-Labor in der Bucht von San Francisco an, in das über fünf Jahre bis zu einer Milliarde Dollar fließen sollen.",
+     "Herzstück ist Lillys Supercomputer mit 1.016 NVIDIA-Grafikprozessoren, den der Konzern Ende Februar vorstellte. Lillys IT- und Digitalchef Diogo Rau hofft, die Entwicklungszeit für Medikamente von rund zehn auf etwa fünf Jahre zu verkürzen – vor allem durch Automatisierung in klinischen Studien und eine optimierte Produktion; der Supercomputer soll dabei schrittweise helfen. „Wir versuchen, dem traditionellen Lebenszyklus der Pharmaindustrie zu entkommen“, sagte Rau dem Fachdienst Fierce Biotech.",
+     "Ob das gelingt, muss sich erst zeigen: Auch mit KI entworfene Wirkstoffe müssen die üblichen klinischen Studien durchlaufen. Weitere Einblicke in seine Forschung will Lilly bei einem „Innovation Day“ am 7. Dezember geben, der öffentlich im Netz übertragen wird."
+    ]
+   },
+   "bg": {
+    "t": "По-бързо до нови лекарства: видео на NVIDIA показва работата на Lilly с ИИ компютри",
+    "d": "Фармацевтичната компания Eli Lilly разчита на ИИ суперкомпютри на NVIDIA при търсенето на нови активни вещества. Ново видео на производителя на чипове представя сътрудничеството.",
+    "body": [
+     "NVIDIA публикува в своя канал в YouTube ново видео, което показва как американската фармацевтична компания Eli Lilly иска да ускори търсенето на нови активни вещества с технологии на NVIDIA. Двете компании си сътрудничат по-тясно от началото на годината: през януари те обявиха обща ИИ лаборатория в района на залива на Сан Франциско, в която за пет години трябва да бъдат вложени до един милиард долара.",
+     "В центъра е суперкомпютърът на Lilly с 1016 графични процесора на NVIDIA, който компанията представи в края на февруари. Директорът по информационни технологии и дигитализация на Lilly Диогу Рау се надява времето за разработка на лекарства да бъде съкратено от около десет на около пет години – преди всичко чрез автоматизация в клиничните изпитвания и оптимизирано производство; суперкомпютърът трябва да помага постепенно. „Опитваме се да избягаме от традиционния жизнен цикъл на фармацевтичната индустрия“, каза Рау пред специализираното издание Fierce Biotech.",
+     "Дали това ще успее, тепърва ще стане ясно: и активните вещества, създадени с ИИ, трябва да преминат обичайните клинични изпитвания. Повече за своите изследвания Lilly иска да покаже на „Innovation Day“ на 7 декември, който ще бъде излъчван публично в интернет."
+    ]
+   },
+   "en": {
+    "t": "Finding drugs faster: NVIDIA video shows Lilly's work with AI computers",
+    "d": "Drugmaker Eli Lilly is relying on NVIDIA AI supercomputers in its search for new drug candidates. A new video from the chipmaker presents the collaboration.",
+    "body": [
+     "NVIDIA has published a new video on its YouTube channel showing how US drugmaker Eli Lilly aims to speed up the search for new drug candidates with NVIDIA technology. The two companies have been working more closely since the start of the year: in January they announced a joint AI lab in the San Francisco Bay Area, with up to one billion dollars to be invested over five years.",
+     "At its core is Lilly's supercomputer with 1,016 NVIDIA graphics processors, which the company unveiled at the end of February. Lilly's chief information and digital officer Diogo Rau hopes to cut drug development times from around ten years to about five – mainly by automating clinical-trial tasks and optimising manufacturing, with the supercomputer helping step by step. \"We're trying to escape the traditional pharma industry life cycle,\" Rau told the trade outlet Fierce Biotech.",
+     "Whether that works remains to be seen: drug candidates designed with AI must still pass the usual clinical trials. Lilly plans to give further insight into its research at an \"Innovation Day\" on 7 December, which will be webcast publicly."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-27/nvidia-lilly-wirkstoffsuche-video.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Paul Sableman",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Eli_Lilly_and_Company_Corporate_Center_-_Feb_2011.jpg",
+    "alt": {
+     "de": "Archivbild: Firmenzentrale von Eli Lilly in Indianapolis (2011)",
+     "bg": "Архивна снимка: централата на Eli Lilly в Индианаполис (2011)",
+     "en": "Archive image: Eli Lilly's corporate center in Indianapolis (2011)"
+    }
+   }
+  },
+  {
+   "id": "volvo-hexagon-aeon-gent",
+   "s": "ai",
+   "mn": true,
+   "time": "12:45",
+   "kl": {
+    "de": "Roboter",
+    "bg": "Роботи",
+    "en": "Robots"
+   },
+   "src": [
+    {
+     "n": "Volvo Cars – Volvo Cars trains Hexagon Robotics' humanoids for manufacturing (26.11.2026)",
+     "u": "https://www.volvocars.com/intl/media/press-releases/CC9EB8A9723DD536/"
+    },
+    {
+     "n": "TNW – Volvo humanoid robots Hexagon AEON Ghent (26.11.2026)",
+     "u": "https://thenextweb.com/news/volvo-humanoid-robots-hexagon-aeon-ghent"
+    },
+    {
+     "n": "Robotics & Automation News – Volvo Cars begins training Hexagon humanoid robots for factory work (26.11.2026)",
+     "u": "https://roboticsandautomationnews.com/2026/11/26/volvo-cars-begins-training-hexagon-humanoid-robots-for-factory-work/107733/"
+    }
+   ],
+   "de": {
+    "t": "Humanoide im Autowerk: Volvo lernt in Gent Roboter von Hexagon an",
+    "d": "Im belgischen Werk Gent lernt Volvo humanoide Roboter vom Typ AEON für erste Handgriffe an. Ab Mitte 2027 sollen sie in der echten Produktion mitarbeiten.",
+    "body": [
+     "Volvo Cars testet in seinem Werk im belgischen Gent erstmals humanoide Roboter. Die Maschinen vom Typ AEON stammen vom schwedischen Technologiekonzern Hexagon. Ein Volvo-Team trainiert sie gemeinsam mit Hexagon; die Roboter lernen durch Nachahmen – zunächst, Bauteile in zwei Vorrichtungen einzulegen. In der ersten Jahreshälfte 2027 soll ein größerer Pilotversuch folgen, ab Mitte 2027 der Einsatz in der laufenden Produktion. Wie viele Roboter es werden, teilte Volvo nicht mit.",
+     "AEON ist 1,65 Meter groß, wiegt 60 Kilogramm, kann 10 Kilogramm tragen und fährt auf Rädern mit bis zu 2,4 Metern pro Sekunde. „Dank seiner humanoiden Bauweise passt AEON in unsere Produktion, so wie sie heute ist – neben unsere Teams und die vorhandene Automatisierung“, sagte Volvos Produktionschef Magnus Nilsson.",
+     "Gent ist damit Volvos erstes Werk mit Humanoiden. Hexagon-Robotics-Chef Arnaud Robert betonte den wirtschaftlichen Anspruch: Der Zweck humanoider Robotik sei es, den Kunden einen geschäftlichen Nutzen zu bringen."
+    ]
+   },
+   "bg": {
+    "t": "Хуманоиди в автомобилен завод: Volvo обучава роботи на Hexagon в Гент",
+    "d": "В белгийския завод в Гент Volvo обучава хуманоидни роботи AEON за първите операции. От средата на 2027 г. те трябва да работят в реалното производство.",
+    "body": [
+     "Volvo Cars тества за първи път хуманоидни роботи в завода си в белгийския град Гент. Машините от типа AEON са на шведската технологична група Hexagon. Екип на Volvo ги обучава заедно с Hexagon; роботите се учат чрез подражание – първо да поставят детайли в две приспособления. През първата половина на 2027 г. трябва да последва по-голям пилотен проект, а от средата на 2027 г. – използване в текущото производство. Колко робота ще бъдат, Volvo не съобщи.",
+     "AEON е висок 1,65 метра, тежи 60 килограма, може да носи 10 килограма и се движи на колела със скорост до 2,4 метра в секунда. „Благодарение на хуманоидната си конструкция AEON пасва на производството ни такова, каквото е днес – редом с нашите екипи и съществуващата автоматизация“, каза производственият директор на Volvo Магнус Нилсон.",
+     "Така Гент става първият завод на Volvo с хуманоиди. Ръководителят на Hexagon Robotics Арно Робер подчерта икономическата цел: смисълът на хуманоидната роботика е да носи бизнес полза на клиентите."
+    ]
+   },
+   "en": {
+    "t": "Humanoids in the car plant: Volvo trains Hexagon robots in Ghent",
+    "d": "At the Belgian plant in Ghent, Volvo is training AEON humanoid robots for their first tasks. From mid-2027 the robots are to work in real production.",
+    "body": [
+     "Volvo Cars is testing humanoid robots for the first time at its plant in Ghent, Belgium. The AEON machines come from Swedish technology group Hexagon. A Volvo team is training them together with Hexagon; the robots learn by imitation – starting with placing parts into two fixtures. A larger pilot is to follow in the first half of 2027, with use in live production from mid-2027. Volvo did not say how many robots will be involved.",
+     "AEON is 1.65 metres tall, weighs 60 kilograms, can carry 10 kilograms and moves on wheels at up to 2.4 metres per second. \"AEON's humanoid design means it can fit into our production as it is today, alongside our teams and existing automation,\" said Volvo's chief manufacturing officer Magnus Nilsson.",
+     "Ghent thus becomes Volvo's first plant with humanoids. Hexagon Robotics president Arnaud Robert stressed the commercial aim: \"The purpose of humanoid robotics is to deliver business value to our customers.\""
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-27/volvo-hexagon-aeon-gent-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Humanoide im Autowerk – Volvo lernt in Gent Roboter von Hexagon an",
+     "bg": "Заглавна графика: Хуманоиди в автомобилен завод – Volvo обучава роботи на Hexagon в Гент",
+     "en": "Title graphic: Humanoids in the car plant – Volvo trains Hexagon robots in Ghent"
+    }
+   }
+  },
+  {
+   "id": "microsoft-artex-staatshacker",
+   "s": "ai",
+   "mn": true,
+   "time": "12:45",
+   "kl": {
+    "de": "Sicherheit",
+    "bg": "Сигурност",
+    "en": "Security"
+   },
+   "src": [
+    {
+     "n": "TNW – Microsoft: ARTEX used by Salt Typhoon and North Korean state hackers (26.11.2026)",
+     "u": "https://thenextweb.com/news/microsoft-artex-salt-typhoon-north-korea-state-hackers"
+    },
+    {
+     "n": "Help Net Security – ARTEX AI pentest framework used by Chinese and North Korean state hackers (27.11.2026)",
+     "u": "https://www.helpnetsecurity.com/2026/11/27/artex-ai-pentest-framework-china-north-korea-state-hackers/"
+    }
+   ],
+   "de": {
+    "t": "KI-Angriffswerkzeug in falschen Händen: Microsoft sieht Staatshacker mit ARTEX",
+    "d": "Hackergruppen, die Microsoft China und Nordkorea zuordnet, nutzen laut einem Bericht des Konzerns ein frei verfügbares KI-Werkzeug für Penetrationstests. Neue Angriffstechniken bringt es nicht – aber Tempo.",
+    "body": [
+     "Microsoft hat staatlich gesteuerte Hackergruppen dabei beobachtet, wie sie das KI-gestützte Angriffswerkzeug ARTEX einsetzen. Genannt werden unter anderem die China zugeordneten Gruppen Salt Typhoon und Crystal Typhoon sowie die Nordkorea zugeordneten Onyx Sleet und Pearl Sleet. ARTEX ist eigentlich ein Rahmenwerk für Penetrationstests, mit denen Firmen ihre eigenen Systeme prüfen; es war im Juli auf GitHub aufgetaucht.",
+     "„ARTEX führt keine neuen Angriffstechniken ein; es nutzt gängige, bereits bestehende Werkzeuge und Techniken für Penetrationstests“, schreibt Microsoft. Gefährlich ist vor allem die Geschwindigkeit: Bei einer Kampagne registrierte der Konzern mehr als 151.000 fehlgeschlagene Anmeldeversuche, in der Spitze 2.900 pro Minute. In einem Fall gelangte ein KI-Agent in fünf Minuten von Zugangsdaten auf GitHub bis zu Daten in einem Azure-Schlüsseltresor.",
+     "Das chinesische Sicherheitsunternehmen ThreatBook beanspruchte ARTEX im November für sich und verkauft eine Pro-Version. Microsoft bringt ThreatBook nicht mit den Angriffen in Verbindung."
+    ]
+   },
+   "bg": {
+    "t": "ИИ инструмент за атаки в грешни ръце: Microsoft засича държавни хакери с ARTEX",
+    "d": "Хакерски групи, които Microsoft свързва с Китай и Северна Корея, използват свободно достъпен ИИ инструмент за тестове за проникване, сочи доклад на компанията. Нови техники няма – но има скорост.",
+    "body": [
+     "Microsoft е наблюдавала как хакерски групи, управлявани от държави, използват подпомагания от ИИ инструмент за атаки ARTEX. Посочени са сред други свързваните с Китай групи Salt Typhoon и Crystal Typhoon, както и свързваните със Северна Корея Onyx Sleet и Pearl Sleet. ARTEX всъщност е рамка за тестове за проникване, с които фирмите проверяват собствените си системи; тя се появи в GitHub през юли.",
+     "„ARTEX не въвежда нови техники за атака; той използва обичайни, вече съществуващи инструменти и техники за тестове за проникване“, пише Microsoft. Опасна е преди всичко скоростта: при една кампания компанията е регистрирала над 151 000 неуспешни опита за вход, в пика 2900 в минута. В един случай ИИ агент е стигнал за пет минути от данни за достъп в GitHub до данни в хранилище за ключове на Azure.",
+     "Китайската компания за сигурност ThreatBook заяви през ноември, че ARTEX е неин, и продава Pro версия. Microsoft не свързва ThreatBook с атаките."
+    ]
+   },
+   "en": {
+    "t": "AI attack tool in the wrong hands: Microsoft spots state hackers using ARTEX",
+    "d": "Hacking groups that Microsoft attributes to China and North Korea are using a freely available AI penetration-testing tool, according to a company report. It brings no new techniques – but speed.",
+    "body": [
+     "Microsoft has observed state-backed hacking groups using the AI-assisted attack tool ARTEX. They include the China-attributed groups Salt Typhoon and Crystal Typhoon and the North Korea-attributed Onyx Sleet and Pearl Sleet. ARTEX is actually a framework for penetration testing, which companies use to probe their own systems; it appeared on GitHub in July.",
+     "\"ARTEX does not introduce new attack techniques; it uses common, pre-existing penetration testing tools and techniques,\" Microsoft writes. The main danger is speed: in one campaign the company recorded more than 151,000 failed sign-in attempts, peaking at 2,900 per minute. In one case an AI agent went from credentials on GitHub to data in an Azure Key Vault in five minutes.",
+     "Chinese security firm ThreatBook claimed ARTEX in November and sells a Pro version. Microsoft does not link ThreatBook to the attacks."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-27/microsoft-artex-staatshacker.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Coolcaesar",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Building92microsoft.jpg",
+    "alt": {
+     "de": "Archivbild: Gebäude 92 auf dem Microsoft-Campus in Redmond (2016)",
+     "bg": "Архивна снимка: сграда 92 в кампуса на Microsoft в Редмънд (2016)",
+     "en": "Archive image: Building 92 on Microsoft's Redmond campus (2016)"
+    }
+   }
+  },
+  {
+   "id": "japan-rechenzentren-anwohner",
+   "s": "ai",
+   "mn": true,
+   "time": "12:45",
+   "kl": {
+    "de": "Rechenzentren",
+    "bg": "Центрове за данни",
+    "en": "Data centres"
+   },
+   "src": [
+    {
+     "n": "Reuters/Korea Times – Japan's data center boom faces growing revolt from urban residents (26.11.2026)",
+     "u": "https://www.koreatimes.co.kr/world/20261126/japans-data-center-boom-faces-growing-revolt-from-urban-residents"
+    },
+    {
+     "n": "Reuters/Yahoo – Japan's data centre boom faces growing revolt (26.11.2026)",
+     "u": "https://www.yahoo.com/news/world/articles/japans-data-centre-boom-faces-230607861.html"
+    }
+   ],
+   "de": {
+    "t": "Rechenzentrum vor dem Fenster: In Japan wächst der Widerstand von Anwohnern",
+    "d": "Der KI-Boom treibt den Bau von Rechenzentren rund um Tokio. In mehreren Städten wehren sich Nachbarn gegen Großbauten direkt neben Wohnhäusern – teils vor Gericht.",
+    "body": [
+     "In Japan stoßen neue Rechenzentren zunehmend auf Widerstand, wie die Nachrichtenagentur Reuters berichtet. Rund 60 Prozent der Anlagen des Landes stehen im Großraum Tokio, und dort rücken die Bauten immer näher an Wohngebiete heran. In Kashiwa stehen zwei 31 Meter hohe Rechenzentren nahe an Wohnhäusern, zwei weitere sind geplant; im Tokioter Bezirk Koto ein 51 Meter hoher Bau nur 3,7 Meter von einem Apartmenthaus entfernt – samt 1,2 Millionen Litern Schweröl, die unterirdisch gelagert werden sollen.",
+     "In Inzai klagen Anwohner gegen ein 32-Megawatt-Rechenzentrum. „Es fühlt sich erdrückend an. Das Tag für Tag zu sehen, zehrt wirklich an den Nerven“, sagte Anwohner Susumu Goto. Der Anwalt Satoshi Oikawa kritisiert: „Japan hat nicht die passenden Gesetze geschaffen.“",
+     "Der Markt wächst trotzdem: Das Immobilienberatungsunternehmen JLL erwartet für Japan einen Anstieg von 23,4 Milliarden Dollar im Jahr 2024 auf 33,4 Milliarden Dollar im Jahr 2030."
+    ]
+   },
+   "bg": {
+    "t": "Център за данни пред прозореца: в Япония расте съпротивата на живущите наблизо",
+    "d": "Бумът на ИИ ускорява строежа на центрове за данни около Токио. В няколко града съседи се противопоставят на огромни сгради точно до жилищата си – отчасти и в съда.",
+    "body": [
+     "В Япония новите центрове за данни срещат все по-голяма съпротива, съобщава агенция Ройтерс. Около 60 процента от съоръженията в страната се намират в района на Токио, където сградите се приближават все повече до жилищните квартали. В Кашива вече има два центъра за данни с височина 31 метра близо до жилища и са планирани още две, а в токийския район Кото – 51-метрова сграда само на 3,7 метра от жилищен блок, заедно с 1,2 милиона литра мазут, който ще се съхранява под земята.",
+     "В Индзай живущи наблизо съдят център за данни с мощност 32 мегавата. „Усещането е потискащо. Да гледаш това ден след ден наистина изтощава психически“, каза жителят Сусуму Гото. Адвокатът Сатоши Оикава критикува: „Япония не е създала подходящите закони.“",
+     "Пазарът въпреки това расте: консултантската компания за недвижими имоти JLL очаква ръст в Япония от 23,4 милиарда долара през 2024 г. до 33,4 милиарда долара през 2030 г."
+    ]
+   },
+   "en": {
+    "t": "A data centre outside the window: resistance from residents grows in Japan",
+    "d": "The AI boom is driving data centre construction around Tokyo. In several cities, neighbours are fighting huge buildings right next to their homes – in some cases in court.",
+    "body": [
+     "New data centres in Japan are meeting growing resistance, the Reuters news agency reports. About 60 per cent of the country's facilities are in the Tokyo area, where the buildings are moving ever closer to residential neighbourhoods. In Kashiwa, two 31-metre data centres already stand near homes, with two more planned; in Tokyo's Koto ward, a 51-metre building is planned just 3.7 metres from an apartment block – along with 1.2 million litres of heavy oil to be stored underground.",
+     "In Inzai, residents are suing over a 32-megawatt data centre. \"It feels oppressive. Seeing that day after day takes a real mental toll,\" said resident Susumu Goto. Lawyer Satoshi Oikawa criticised: \"Japan hasn't established the proper laws.\"",
+     "The market is growing regardless: real-estate consultancy JLL expects Japan's market to rise from 23.4 billion dollars in 2024 to 33.4 billion dollars in 2030."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-27/japan-rechenzentren-anwohner.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "nakashi",
+    "lic": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:NTT_DATA_Corporation_Mitaka_Data_Center_East_-_Nov_14,_2020.jpg",
+    "alt": {
+     "de": "Symbolbild: Rechenzentrum in Mitaka bei Tokio (2020)",
+     "bg": "Символна снимка: център за данни в Митака край Токио (2020)",
+     "en": "Symbolic image: data centre in Mitaka near Tokyo (2020)"
+    }
+   }
+  },
+  {
+   "id": "kanada-ki-rechenfonds",
+   "s": "ai",
+   "mn": true,
+   "time": "12:45",
+   "kl": {
+    "de": "Förderung",
+    "bg": "Финансиране",
+    "en": "Funding"
+   },
+   "src": [
+    {
+     "n": "Regierung Kanadas (ISED) – AI Compute Access Fund (aktualisiert 26.11.2026)",
+     "u": "https://ised-isde.canada.ca/site/ised/en/canadian-sovereign-ai-compute-strategy/ai-compute-access-fund"
+    },
+    {
+     "n": "GSM Global News – Canada AI Compute Access Fund (27.11.2026)",
+     "u": "https://gsmglobalnews.com/article/d20261127-bfrc15.html"
+    },
+    {
+     "n": "i10x – Canada AI Compute Access Fund reaches 1 billion (27.11.2026)",
+     "u": "https://i10x.ai/news/canada-ai-compute-access-fund-1-billion-sovereign-compute-80-percent"
+    }
+   ],
+   "de": {
+    "t": "Rechenleistung aus dem eigenen Land: Kanada stockt KI-Fonds auf eine Milliarde auf",
+    "d": "Kanada legt 700 Millionen kanadische Dollar in seinen Fonds für KI-Rechenleistung nach. Den höchsten Kostenanteil übernimmt der Staat, wenn Firmen Anbieter in kanadischer Hand nutzen.",
+    "body": [
+     "Kanada stockt seinen Fonds, der Unternehmen den Zugang zu KI-Rechenleistung erleichtern soll, um 700 Millionen auf eine Milliarde kanadische Dollar auf. Das kündigte KI-Minister Evan Solomon am Donnerstag an. Der Fonds war im Dezember 2024 mit 300 Millionen gestartet.",
+     "Die Förderung soll die „souveräne“ Rechenleistung stärken: Nutzen Firmen einen Anbieter in kanadischem Besitz, übernimmt der Staat bis zu 80 Prozent der förderfähigen Kosten, bei anderen Anbietern mit Sitz in Kanada bis zu 50 Prozent. Gefördert werden Projekte zwischen 100.000 und 5 Millionen kanadischen Dollar, längstens bis Ende März 2030.",
+     "Die erste neue Ausschreibung richtet sich an Gesundheit und Biowissenschaften: Interessenbekundungen sind bis 17. Dezember möglich, vollständige Anträge bis 4. Januar 2027. Bisher sind laut Regierung mehr als 118 Millionen kanadische Dollar an 89 kleine und mittlere Unternehmen geflossen."
+    ]
+   },
+   "bg": {
+    "t": "Изчислителна мощ от собствената страна: Канада увеличава фонда за ИИ до един милиард",
+    "d": "Канада добавя 700 милиона канадски долара към фонда си за изчислителна мощ за ИИ. Най-голям дял от разходите държавата поема, когато фирмите използват доставчици с канадски собственици.",
+    "body": [
+     "Канада увеличава с 700 милиона до един милиард канадски долара фонда си, който трябва да улесни достъпа на компаниите до изчислителна мощ за ИИ. Това обяви министърът на ИИ Евън Соломон в четвъртък. Фондът стартира през декември 2024 г. с 300 милиона.",
+     "Подкрепата цели да укрепи „суверенната“ изчислителна мощ: ако фирмите използват доставчик с канадски собственик, държавата поема до 80 процента от допустимите разходи, а при други доставчици със седалище в Канада – до 50 процента. Финансират се проекти между 100 000 и 5 милиона канадски долара, най-късно до края на март 2030 г.",
+     "Първата нова покана е насочена към здравеопазването и науките за живота: заявления за интерес могат да се подават до 17 декември, пълни кандидатури – до 4 януари 2027 г. Досега по данни на правителството над 118 милиона канадски долара са отишли при 89 малки и средни предприятия."
+    ]
+   },
+   "en": {
+    "t": "Compute at home: Canada tops up its AI fund to one billion dollars",
+    "d": "Canada is adding 700 million Canadian dollars to its fund for AI computing power. The state covers the largest share of costs when firms use Canadian-owned providers.",
+    "body": [
+     "Canada is increasing its fund to help companies access AI computing power by 700 million to one billion Canadian dollars. AI minister Evan Solomon announced the move on Thursday. The fund launched with 300 million in December 2024.",
+     "The money is meant to strengthen \"sovereign\" compute: if firms use a Canadian-owned provider, the government covers up to 80 per cent of eligible costs; with other Canada-based providers, up to 50 per cent. Projects of between 100,000 and 5 million Canadian dollars are eligible, running until the end of March 2030 at the latest.",
+     "The first new call targets health and life sciences: statements of interest are due by 17 December, full applications by 4 January 2027. According to the government, more than 118 million Canadian dollars have so far gone to 89 small and medium-sized businesses."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-27/kanada-ki-rechenfonds.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "JasonParis from Toronto, Canada",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Evan_Solomon.jpg",
+    "alt": {
+     "de": "Archivbild: Evan Solomon, heute Kanadas KI-Minister, in seiner früheren Zeit als Journalist beim Sender CBC",
+     "bg": "Архивна снимка: Евън Соломон, днес министър на ИИ на Канада, по времето, когато е журналист в CBC",
+     "en": "Archive image: Evan Solomon, now Canada's AI minister, during his earlier career as a CBC journalist"
+    }
+   }
+  }
+ ]
+}
