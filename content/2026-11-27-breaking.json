@@ -1,0 +1,508 @@
+{
+ "date": "2026-11-27",
+ "items": [
+  {
+   "id": "sap-verdaechtige-aktivitaeten-github-2026-11-27-b0800",
+   "pos": 1,
+   "s": "deutschland",
+   "hk": "wirtschaft",
+   "time": "08:00",
+   "src": [
+    {
+     "n": "Tagesspiegel/dpa",
+     "u": "https://www.tagesspiegel.de/wirtschaft/dpa-softwarekonzern-sap-haben-verdachtige-aktivitaten-identifiziert-16332556.html"
+    },
+    {
+     "n": "Handelsblatt",
+     "u": "https://www.handelsblatt.com/technik/ki/sap-it-sicherheitsvorfall-bei-sap-haben-verdaechtige-aktivitaeten-identifiziert/100273138.html"
+    }
+   ],
+   "de": {
+    "t": "Bericht über Hackerangriff: SAP meldet „verdächtige Aktivitäten“ bei GitHub",
+    "d": "Der Walldorfer Softwarekonzern hat nach eigenen Angaben sofort Gegenmaßnahmen ergriffen. Hinweise auf einen Zugriff auf Kundendaten gebe es bislang nicht. Der „Spiegel“ berichtet von gestohlenen Zugangstoken.",
+    "body": [
+     "Der Softwarekonzern SAP hat am Donnerstagabend einen IT-Sicherheitsvorfall bestätigt. Das Dax-Unternehmen aus Walldorf erklärte auf Anfrage der Deutschen Presse-Agentur, es habe „verdächtige Aktivitäten“ festgestellt und „unverzüglich die notwendigen Maßnahmen ergriffen“. Zuvor hatte der „Spiegel“ über einen Hackerangriff berichtet; diese Einordnung übernahm SAP zunächst nicht. Welcher Art die Aktivitäten waren, wann sie entdeckt wurden und welche Bereiche betroffen sind, ließ der Konzern offen.",
+     "Nach dem derzeitigen Stand der Untersuchung gebe es „keine Hinweise auf einen unbefugten Zugriff auf Geschäftsdaten von Kunden“, teilte SAP mit. Einem internen Schreiben zufolge, das die dpa in Teilen einsehen konnte, wurden die Mitarbeiter bereits vor einigen Tagen informiert. Darin ist von verdächtigen Aktivitäten auf der Entwicklerplattform GitHub die Rede, auf der SAP-Programmierer Quellcode ablegen und gemeinsam bearbeiten. Beschäftigte sollten prüfen, ob sie etwa ihre Zugangsdaten ändern müssen.",
+     "Der „Spiegel“ berichtet unter Berufung auf einen Insider, die Angreifer hätten Authentifizierungs-Token von SAP-Beschäftigten erbeutet, mit denen sich Quellcode möglicherweise einsehen und verändern ließe. Nach Informationen des „Handelsblatts“ ist die Softwareentwicklung betroffen; unter dem internen Namen „Project Granite“ habe SAP den Zugang zu GitHub eingeschränkt, automatisierte Abläufe gestoppt und Signaturschlüssel ausgetauscht. Angaben zu Angriffsweg und Tätern machte der Konzern nicht."
+    ]
+   },
+   "bg": {
+    "t": "Сигнал за хакерска атака: SAP съобщава за „подозрителни дейности“ в GitHub",
+    "d": "Софтуерният концерн от Валдорф заяви, че веднага е взел мерки. Засега няма данни за достъп до данни на клиенти. Според „Шпигел“ нападателите са откраднали токени за достъп.",
+    "body": [
+     "Германският софтуерен концерн SAP потвърди в четвъртък вечерта инцидент с ИТ сигурността. Компанията от индекса DAX със седалище във Валдорф заяви пред агенция ДПА, че е установила „подозрителни дейности“ и „незабавно е предприела необходимите мерки“. Преди това списание „Шпигел“ съобщи за хакерска атака; SAP първоначално не потвърди тази квалификация. Концернът не уточни какви са били дейностите, кога са открити и кои области са засегнати.",
+     "Според настоящия етап на разследването няма „данни за неразрешен достъп до бизнес данни на клиенти“, съобщи SAP. Според вътрешно писмо, което ДПА е видяла частично, служителите са били информирани още преди няколко дни. В него става дума за подозрителни дейности в платформата за разработчици GitHub, където програмистите на SAP съхраняват и съвместно редактират програмен код. Служителите са призовани да проверят дали трябва например да сменят данните си за достъп.",
+     "„Шпигел“ съобщава, позовавайки се на вътрешен източник, че нападателите са се сдобили с токени за автентикация на служители на SAP, с които евентуално може да се вижда и променя програмен код. Според информация на „Хенделсблат“ е засегната разработката на софтуер; под вътрешното име „Project Granite“ SAP е ограничила достъпа до GitHub, спряла е автоматизирани процеси и е сменила ключовете за подписване. Концернът не даде информация за начина на атаката и извършителите."
+    ]
+   },
+   "en": {
+    "t": "SAP reports 'suspicious activities' on GitHub after report of hacking attack",
+    "d": "The Walldorf-based software group said it took immediate countermeasures and has so far found no sign that customer data was accessed. Der Spiegel reported that authentication tokens were stolen.",
+    "body": [
+     "German software group SAP confirmed an IT security incident on Thursday evening. The DAX-listed company, based in Walldorf, told the German Press Agency dpa it had identified \"suspicious activities\" and had \"immediately taken the necessary measures.\" News magazine Der Spiegel had earlier reported a hacking attack, a description SAP did not initially adopt. The company did not say what kind of activities were involved, when they were discovered or which areas were affected.",
+     "Based on the current state of its investigation, SAP said it had found no evidence of unauthorized access to customers' business data. According to an internal letter partly seen by dpa, staff were informed several days ago. The letter referred to suspicious activities on the developer platform GitHub, where SAP programmers store and jointly edit source code. Employees were asked to check whether they needed to take steps such as changing their login credentials.",
+     "Citing an insider, Der Spiegel reported that the attackers obtained authentication tokens belonging to SAP employees that could potentially be used to view and alter source code. Handelsblatt reported that software development was affected and that, under the internal name \"Project Granite,\" SAP restricted access to GitHub, halted automated processes and replaced signing keys. The company gave no details on how the attack was carried out or who was behind it."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-27/sap-verdaechtige-aktivitaeten-github-2026-11-27-b0800.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Vladislav Bezrukov from Walldorf, Germany",
+    "lic": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SAP_AG_headquarter_Walldorf_building_1.jpg",
+    "alt": {
+     "de": "Archivbild: Firmenzentrale von SAP in Walldorf",
+     "bg": "Архивна снимка: централата на SAP във Валдорф",
+     "en": "Archive image: SAP headquarters in Walldorf"
+    }
+   }
+  },
+  {
+   "id": "merz-haushaltsabstimmung-gipfel-abgebrochen-2026-11-27-b0800",
+   "pos": 2,
+   "s": "deutschland",
+   "hk": "bund",
+   "time": "08:00",
+   "src": [
+    {
+     "n": "t-online",
+     "u": "https://www.t-online.de/nachrichten/ausland/internationale-politik/id_101548682/friedrich-merz-in-bruessel-kanzler-erlebt-abbruch-des-gipfels.html"
+    },
+    {
+     "n": "Ruhr Nachrichten",
+     "u": "https://ruhrnachrichten.de/ueberregionales/politik-newsblog-merz-bundeskanzler-bundesregierung-cdu-spd-afd-gruene-linke-27-november-2026-w1278877-2002312819"
+    },
+    {
+     "n": "ZDFheute",
+     "u": "https://www.zdfheute.de/politik/ausland/eu-gipfel-haushalt-bruessel-europaeische-union-merz-abbruch-100.html"
+    },
+    {
+     "n": "ZDFheute Newsticker",
+     "u": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+    },
+    {
+     "n": "Yahoo Nachrichten",
+     "u": "https://de.nachrichten.yahoo.com/bundestag-haushalt-2027-verabschieden-030528360.html"
+    }
+   ],
+   "de": {
+    "t": "Gipfel vorzeitig beendet: Merz kann nun doch über den Haushalt 2027 abstimmen",
+    "d": "Weil der EU-Sondergipfel in Brüssel ohne Ergebnis abgebrochen wurde, kann der Kanzler an der Schlussabstimmung im Bundestag teilnehmen. Der Etat sieht Ausgaben von rund 556 Milliarden Euro vor.",
+    "body": [
+     "Bundeskanzler Friedrich Merz (CDU) kann am Freitag unverhofft doch an der Abstimmung über den Bundeshaushalt 2027 teilnehmen. Er hatte mit der Unionsfraktion vereinbart, bei dem Votum fehlen zu dürfen, weil er bis Freitagabend in Brüssel erwartet wurde. Der EU-Sondergipfel zum langfristigen Finanzrahmen wurde jedoch in der Nacht ohne Ergebnis vorzeitig beendet. Die Staats- und Regierungschefs verständigten sich darauf, die Beratungen am Freitagvormittag nicht fortzusetzen.",
+     "Der Bundestag schließt am Freitag ab 9 Uhr die Haushaltswoche ab; die namentliche Schlussabstimmung ist nach einer 90-minütigen Debatte ab etwa 12.40 Uhr geplant. Der Etat sieht nach Angaben des ZDF Ausgaben von rund 556 Milliarden Euro vor, etwa 31 Milliarden mehr als 2026. Die Verteidigungsausgaben sollen auf fast 140 Milliarden Euro steigen.",
+     "In Brüssel liegen die Positionen zum EU-Finanzplan für 2028 bis 2034 weiter weit auseinander. „Wir müssen feststellen, dass die Vorstellungen darüber, wie wir ihn gestalten sollen, noch weit auseinanderliegen“, sagte Merz. Er dringt mit einer Gruppe sparsamer Staaten auf Kürzungen und hält den vorgeschlagenen Gesamtumfang von 1,78 Billionen Euro für zu hoch. Eine Einigung soll nun beim Gipfel im Dezember kurz vor Weihnachten gelingen."
+    ]
+   },
+   "bg": {
+    "t": "Срещата на върха приключи по-рано: Мерц все пак ще гласува за бюджета за 2027 г.",
+    "d": "Тъй като извънредната среща на ЕС в Брюксел беше прекъсната без резултат, канцлерът може да участва в окончателното гласуване в Бундестага. Бюджетът предвижда разходи от около 556 млрд. евро.",
+    "body": [
+     "Германският канцлер Фридрих Мерц (ХДС) неочаквано ще може да участва в петък в гласуването на федералния бюджет за 2027 г. Той се беше договорил с парламентарната група на ХДС/ХСС, че може да отсъства от вота, тъй като се очакваше да остане в Брюксел до петък вечерта. Извънредната среща на върха на ЕС за дългосрочната финансова рамка обаче приключи през нощта предсрочно и без резултат. Държавните и правителствените ръководители решиха да не продължават разговорите в петък сутринта.",
+     "Бундестагът завършва в петък от 9 часа бюджетната седмица; поименното окончателно гласуване е планирано след 90-минутен дебат от около 12:40 ч. Според ZDF бюджетът предвижда разходи от около 556 млрд. евро – с около 31 млрд. повече от 2026 г. Разходите за отбрана трябва да нараснат до почти 140 млрд. евро.",
+     "В Брюксел позициите за финансовата рамка на ЕС за 2028–2034 г. остават далеч една от друга. „Трябва да констатираме, че представите как да я оформим все още са много различни“, заяви Мерц. Заедно с група пестеливи държави той настоява за съкращения и смята предложения общ размер от 1,78 трилиона евро за твърде висок. Споразумение трябва да бъде постигнато на срещата на върха през декември, малко преди Коледа."
+    ]
+   },
+   "en": {
+    "t": "EU summit cut short: Merz can vote on Germany's 2027 budget after all",
+    "d": "With the special EU summit in Brussels ending early without a deal, the chancellor can take part in the Bundestag's final vote. The budget foresees spending of about 556 billion euros.",
+    "body": [
+     "German Chancellor Friedrich Merz will unexpectedly be able to take part in Friday's vote on the 2027 federal budget. He had agreed with his conservative parliamentary group that he could miss the vote because he was expected to remain in Brussels until Friday evening. But the special EU summit on the bloc's long-term budget ended early overnight without a result. Leaders agreed not to resume talks on Friday morning.",
+     "The Bundestag wraps up its budget week from 9 a.m. on Friday, with a roll-call final vote planned after a 90-minute debate from around 12:40 p.m. According to public broadcaster ZDF, the budget foresees spending of about 556 billion euros, some 31 billion more than in 2026. Defense spending is set to rise to almost 140 billion euros.",
+     "In Brussels, positions on the EU's 2028-2034 financial framework remain far apart. \"We have to recognize that ideas on how we should shape it are still far apart,\" Merz said. Together with a group of frugal states, he is pushing for cuts and considers the proposed overall volume of 1.78 trillion euros too high. A deal is now meant to be reached at a summit in December, shortly before Christmas."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-27/merz-haushaltsabstimmung-gipfel-abgebrochen-2026-11-27-b0800.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Michael Lucan",
+    "lic": "CC BY-SA 3.0 de",
+    "page": "https://commons.wikimedia.org/wiki/File:20240417-Friedrich_Merz_1808.jpg",
+    "alt": {
+     "de": "Archivbild: Bundeskanzler Friedrich Merz (2024)",
+     "bg": "Архивна снимка: канцлерът Фридрих Мерц (2024)",
+     "en": "Archive image: Chancellor Friedrich Merz (2024)"
+    }
+   }
+  },
+  {
+   "id": "rigaer-94-braende-festnahme-2026-11-27-b0800",
+   "pos": 3,
+   "s": "deutschland",
+   "kl": {
+    "bg": "Берлин",
+    "de": "Berlin",
+    "en": "Berlin"
+   },
+   "hk": "laender",
+   "time": "08:00",
+   "src": [
+    {
+     "n": "Tagesspiegel/dpa",
+     "u": "https://www.tagesspiegel.de/berlin/dpa-eine-festnahme-raumung-am-15-dezember--zwei-feuer-nahe-rigaer-strasse-94-16329744.html"
+    },
+    {
+     "n": "t-online Berlin",
+     "u": "https://berlin.t-online.de/region/berlin/id_101545100/rigaer-strasse-94-in-friedrichshain-raeumung-am-15-dezember-geplant.html"
+    }
+   ],
+   "de": {
+    "t": "Zwei Brände nahe der Rigaer 94 – Staatsschutz ermittelt vor der Räumung",
+    "d": "In Friedrichshain brannten nachts eine Mülltonne und ein Sofa. Ein 35-Jähriger wurde vorläufig festgenommen. Die Polizei prüft einen Zusammenhang mit der für den 15. Dezember geplanten Räumung.",
+    "body": [
+     "Nahe dem 1990 besetzten Haus in der Rigaer Straße 94 in Berlin-Friedrichshain hat es in der Nacht zu Donnerstag zweimal gebrannt. Gegen Mitternacht ging nach Polizeiangaben zunächst eine Mülltonne in Flammen auf, etwa zwei Stunden später wurde eine Couch angezündet. Die Feuerwehr löschte beide Brände, die Polizei sicherte die Einsätze ab. Beim ersten Einsatz unterstützte ein Polizeihubschrauber.",
+     "Die Beamten nahmen einen 35-jährigen Tatverdächtigen vorläufig fest. Er soll nach Polizeiangaben ein Regal auf das zweite Feuer geworfen haben. Nach der Feststellung seiner Personalien wurde der Mann wieder entlassen. Weil ein politisches Motiv angenommen wird, hat der Staatsschutz die Ermittlungen übernommen. Ob die Brände mit der bevorstehenden Räumung zusammenhängen, wird geprüft.",
+     "Mehrere Wohnungen in Seitenflügel und Hinterhaus der Rigaer 94 sollen am 15. Dezember geräumt werden. Die Räumungsankündigungen wurden nach dpa-Angaben in der vergangenen Woche zugestellt; betroffen sind nach Angaben der Berliner Zivilgerichte neun Menschen. Die Polizei soll einem Gerichtsvollzieher Amtshilfe leisten. Das Anfang 1990 besetzte Haus gilt als Symbol der linksautonomen Szene, um die Wohnungen wird seit Jahren juristisch gestritten."
+    ]
+   },
+   "bg": {
+    "t": "Два пожара край „Ригаер 94“ – политическа полиция разследва преди извеждането",
+    "d": "Във Фридрихсхайн през нощта горяха контейнер за смет и диван. 35-годишен мъж беше временно задържан. Полицията проверява дали има връзка с извеждането, насрочено за 15 декември.",
+    "body": [
+     "В близост до окупираната през 1990 г. сграда на улица „Ригаер щрасе“ 94 в берлинския квартал Фридрихсхайн в нощта срещу четвъртък два пъти избухна пожар. Около полунощ според полицията първо се запалил контейнер за смет, а около два часа по-късно бил подпален диван. Пожарната потуши и двата пожара, а полицията осигуряваше акциите. При първата намеса помагал и полицейски хеликоптер.",
+     "Полицаите временно задържаха 35-годишен заподозрян. Според полицията той хвърлил рафт върху втория огън. След установяване на самоличността му мъжът бил освободен. Тъй като се предполага политически мотив, разследването е поето от отдела за държавна сигурност на полицията. Проверява се дали пожарите са свързани с предстоящото извеждане на обитателите.",
+     "Няколко апартамента в страничното крило и задната сграда на „Ригаер 94“ трябва да бъдат опразнени на 15 декември. Според dpa уведомленията за извеждане са връчени миналата седмица; по данни на берлинските граждански съдилища засегнати са девет души. Полицията ще окаже съдействие на съдебния изпълнител. Окупираната в началото на 1990 г. сграда е символ на лявоавтономната сцена, а за апартаментите от години се водят съдебни спорове."
+    ]
+   },
+   "en": {
+    "t": "Two fires near Berlin's Rigaer 94 – police probe political motive ahead of eviction",
+    "d": "A garbage bin and a couch were set alight overnight in Friedrichshain. A 35-year-old man was briefly detained. Police are examining a possible link to the eviction planned for Dec. 15.",
+    "body": [
+     "Two fires broke out overnight into Thursday near the building, squatted in 1990, at Rigaer Strasse 94 in Berlin's Friedrichshain district. According to police, a garbage bin caught fire around midnight, and about two hours later a couch was set alight. Firefighters put out both blazes while police secured the scene. A police helicopter supported the first operation.",
+     "Officers provisionally detained a 35-year-old suspect who, according to police, threw a shelf onto the second fire. He was released after his identity was recorded. Because a political motive is suspected, the state security unit has taken over the investigation. Police are examining whether the fires are linked to the upcoming eviction.",
+     "Several apartments in the side wing and rear building of Rigaer 94 are to be cleared on Dec. 15. According to dpa, the eviction notices were delivered last week; Berlin's civil courts said nine people are affected. Police are to assist a bailiff with the eviction. The building, occupied in early 1990, is seen as a symbol of the far-left autonomous scene, and the apartments have been the subject of legal disputes for years."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-27/rigaer-94-braende-festnahme-2026-11-27-b0800.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Lear 21",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Polizei_Berlin_02.jpg",
+    "alt": {
+     "de": "Symbolbild: Einsatzfahrzeug der Berliner Polizei",
+     "bg": "Символна снимка: полицейски автомобил в Берлин",
+     "en": "Symbolic image: Berlin police vehicle"
+    }
+   }
+  },
+  {
+   "id": "trump-iran-pickaxe-mountain-2026-11-27-b0800",
+   "pos": 4,
+   "s": "welt",
+   "hk": "usa",
+   "kl": {
+    "de": "USA",
+    "bg": "САЩ",
+    "en": "USA"
+   },
+   "time": "08:00",
+   "src": [
+    {
+     "n": "Al Jazeera",
+     "u": "https://www.aljazeera.com/news/2026/11/27/trump-downplays-russia-china-support-for-iran-during-talks-with-us-troops"
+    },
+    {
+     "n": "TASS",
+     "u": "https://tass.com/world/2225639"
+    }
+   ],
+   "de": {
+    "t": "Trump droht Iran: Bei neuen US-Angriffen wäre der Pickaxe Mountain das Ziel",
+    "d": "Zu Thanksgiving telefonierte Trump mit Soldaten und sprach in Mar-a-Lago mit Reportern. Er nannte ein mutmaßliches Atomziel bei Natans – und sagte, der Sieg sei „zum Greifen nah“.",
+    "body": [
+     "US-Präsident Donald Trump hat Iran mit einem Angriff auf den Pickaxe Mountain gedroht, falls die USA erneut zuschlagen. „Wenn wir etwas unternehmen, werden wir definitiv den Pickaxe Mountain treffen“, sagte Trump am Donnerstag nach Angaben von Al Jazeera. Laut der russischen Agentur TASS fügte er hinzu, dort sei bislang „keine wirkliche Aktivität“ zu sehen. Der Berg liegt nahe der Atomanlage Natans; die USA vermuten dort eine versteckte Nuklearanlage, Iran weist das als haltlos zurück.",
+     "Trump äußerte sich zu Thanksgiving in seinem Club Mar-a-Lago in Florida, von wo aus er telefonisch zu US-Soldaten sprach und Fragen von Reportern beantwortete. Den Soldaten sagte er, sie würden ihren Einsatz fortsetzen, „und der Sieg ist zum Greifen nah“. Zugleich erklärte er: „Wir geben ihnen jede Chance, einen Deal zu machen und viele Leben zu retten.“ Eine Entscheidung über neue Angriffe verkündete er nicht.",
+     "Die Unterstützung Russlands und Chinas für Teheran spielte Trump herunter. China sei „sehr wenig in Iran involviert“, sagte er. Iran hat zuletzt nach Berichten seine Angriffe auf US-Militärziele in der Region verstärkt. Kuwait macht Iran für einen Drohnenangriff verantwortlich, bei dem zwei italienische Arbeiter getötet wurden; Teheran bestreitet das."
+    ]
+   },
+   "bg": {
+    "t": "Тръмп заплаши Иран: при нови удари на САЩ целта ще е планината Пикакс",
+    "d": "На Деня на благодарността Тръмп разговаря по телефона с военни и отговаря на журналисти в Мар-а-Лаго. Той посочи предполагаем ядрен обект край Натанз и каза, че победата е „на една ръка разстояние“.",
+    "body": [
+     "Американският президент Доналд Тръмп заплаши Иран с удар по планината Пикакс, ако САЩ отново атакуват. „Ако предприемем нещо, определено ще ударим планината Пикакс“, заяви Тръмп в четвъртък, според Al Jazeera. По данни на руската агенция ТАСС той добави, че засега там не се наблюдава „никаква реална активност“. Планината се намира край ядрения обект Натанз; САЩ подозират, че там има скрито ядрено съоръжение, а Иран отхвърля това като безпочвено.",
+     "Тръмп говори на Деня на благодарността в клуба си Мар-а-Лаго във Флорида, откъдето разговаря по телефона с американски военни и отговаря на въпроси на журналисти. Пред военните той каза, че мисията им продължава, „и победата е на една ръка разстояние“. Същевременно заяви: „Даваме им всеки шанс да сключат сделка и да спасят много животи.“ Решение за нови удари той не обяви.",
+     "Тръмп омаловажи подкрепата на Русия и Китай за Техеран. Китай бил „много малко ангажиран с Иран“, каза той. Според съобщения Иран напоследък засили атаките си срещу американски военни цели в региона. Кувейт обвинява Иран за удар с дрон, при който загинаха двама италиански работници; Техеран отрича."
+    ]
+   },
+   "en": {
+    "t": "Trump warns Iran: Pickaxe Mountain would be the target if the US strikes again",
+    "d": "Speaking to troops by phone and to reporters at Mar-a-Lago on Thanksgiving, Trump named a suspected nuclear site near Natanz and said victory was \"at hand.\"",
+    "body": [
+     "U.S. President Donald Trump warned Iran that Pickaxe Mountain would be hit if the United States strikes again. \"If we do something, we will definitely hit Pickaxe Mountain,\" Trump said on Thursday, according to Al Jazeera. Russia's TASS news agency quoted him as adding that \"we haven't seen any real activity there.\" The mountain lies near the Natanz nuclear complex; Washington suspects it may hide a nuclear facility, a claim Iran rejects as baseless.",
+     "Trump spoke on Thanksgiving at his Mar-a-Lago club in Florida, from where he addressed U.S. service members by phone and took questions from reporters. He told the troops they would continue their deployment, \"and we have victory at hand.\" He also said: \"We're giving them every chance to make a deal and save a lot of lives.\" He did not announce any decision on new strikes.",
+     "Trump played down Russian and Chinese support for Tehran, saying China was \"very little involved with Iran.\" Iran has reportedly stepped up attacks on U.S. military targets in the region. Kuwait has blamed Iran for a drone attack that killed two Italian workers; Tehran denies involvement."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-27/trump-iran-pickaxe-mountain-2026-11-27-b0800.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "The White House",
+    "lic": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:P20251228DT-0417_President_Donald_Trump_meets_with_Ukrainian_President_Volodymyr_Zelensky_at_Mar-a-Lago.jpg",
+    "alt": {
+     "de": "Archivbild: US-Präsident Donald Trump in Mar-a-Lago",
+     "bg": "Архивна снимка: президентът на САЩ Доналд Тръмп в Мар-а-Лаго",
+     "en": "Archive image: US President Donald Trump at Mar-a-Lago"
+    }
+   }
+  },
+  {
+   "id": "bulgarien-katasteramt-streik-350-euro-2026-11-27-b0800",
+   "pos": 5,
+   "s": "bulgarien",
+   "hk": "wirtschaft",
+   "time": "08:00",
+   "src": [
+    {
+     "n": "BTA",
+     "u": "https://www.bta.bg/bg/news/bulgaria/1251538-sindikatat-na-administrativnite-sluzhiteli-podkrepa-zapochva-ednochasovi-stach"
+    },
+    {
+     "n": "BTA",
+     "u": "https://www.bta.bg/bg/news/bulgaria/1254807-chlenove-na-kt-podkrepa-v-agentsiyata-po-vpisvaniyata-vav-vratsa-izlyazoha-na-"
+    },
+    {
+     "n": "BNT",
+     "u": "https://bntnews.bg/news/darzhavni-sluzhiteli-zapochvat-ednochasovi-stachki-za-po-visoki-zaplati-1423618news.html"
+    },
+    {
+     "n": "Fakti.bg",
+     "u": "https://fakti.bg/bulgaria/1104995-peti-den-stachka-v-darjavnata-administracia-za-po-visoki-zaplati"
+    },
+    {
+     "n": "Focus",
+     "u": "https://www.focus-news.net/novini/Bylgaria/Tezi-durzhavni-sluzhiteli-stachkuvat-dnes-3062775"
+    }
+   ],
+   "de": {
+    "t": "Streik-Staffel erreicht das Katasteramt: Staatsdiener fordern 350 Euro mehr",
+    "d": "Am fünften Tag der Warnstreiks legen die Beschäftigten des Katasteramts landesweit eine Stunde die Arbeit nieder. Die Gewerkschaft Podkrepa verlangt 54 Millionen Euro mehr im Haushalt 2027.",
+    "body": [
+     "In ganz Bulgarien stehen am Freitag von 10 bis 11 Uhr die Büros der Agentur für Geodäsie, Kartografie und Kataster still. Es ist der fünfte Tag einer Streik-Staffel, zu der die Gewerkschaft der Verwaltungsangestellten von Podkrepa aufgerufen hat. Seit Montag legt jeden Werktag eine andere Behörde für eine Stunde die Arbeit nieder – den Anfang machten die Sozialhilfeagentur und die Arbeitsagentur, es folgten die Arbeitsinspektion und die Registeragentur. Am Montag ist das Statistikamt NSI an der Reihe, am 1. Dezember zum Abschluss die Sozialversicherung NOI.",
+     "Die Gewerkschaft fordert für die Beschäftigten der sieben Behörden ab Anfang 2027 eine feste Erhöhung um 350 Euro im Monat. Außerdem soll der Zuschlag für Dienstjahre und Berufserfahrung wieder eingeführt werden. Dafür müssten nach Angaben der Gewerkschaft 54 Millionen Euro zusätzlich in den Staatshaushalt 2027 aufgenommen werden, der vor wenigen Tagen in erster Lesung gebilligt wurde. Profitieren sollen davon mehr als 12.000 gering bezahlte Angestellte.",
+     "Laut Medienberichten (Fakti.bg) liegen die Einstiegsgehälter in diesen Behörden brutto nur knapp über dem Mindestlohn, erfahrene Fachkräfte kommen auf etwa 1.000 Euro. Podkrepa-Präsident Dimitar Manolow erklärte nach Angaben der Nachrichtenagentur BTA, die Gewerkschaft akzeptiere die im Haushalt geplante Erhöhung der Lohnmittel im Staatsdienst um nur 5 Prozent nicht. Eine Entscheidung der Regierung über das zusätzliche Geld ist bislang nicht bekannt."
+    ]
+   },
+   "bg": {
+    "t": "Щафетата на стачките стигна до кадастъра: държавни служители искат 350 евро повече",
+    "d": "В петия ден на предупредителните стачки служителите на кадастъра в цялата страна спират работа за час. „Подкрепа“ настоява за още 54 млн. евро в бюджета за 2027 г.",
+    "body": [
+     "В петък от 10:00 до 11:00 ч. офисите на Агенцията по геодезия, картография и кадастър в цялата страна спират работа. Това е петият ден от щафетната стачка, организирана от Синдиката на административните служители „Подкрепа“. От понеделник всеки работен ден различна институция прекъсва работа за един час – първи бяха Агенцията за социално подпомагане и Агенцията по заетостта, след тях Инспекцията по труда и Агенцията по вписванията. В понеделник е ред на НСИ, а на 1 декември стачките завършват в НОИ.",
+     "Синдикатът иска от началото на 2027 г. заплатите в седемте администрации да бъдат увеличени с фиксирани 350 евро месечно. Той настоява и за връщане на добавката за „клас прослужено време“ и професионален опит. По данни на синдиката за това са нужни допълнителни 54 млн. евро в държавния бюджет за 2027 г., който преди дни беше приет на първо четене. Увеличението би обхванало над 12 000 нископлатени служители.",
+     "Според медийни публикации началните брутни заплати в тези агенции са малко над минималната работна заплата, а опитните специалисти получават около 1000 евро. Президентът на КТ „Подкрепа“ Димитър Манолов е заявил, че синдикатът не приема заложеното в бюджета увеличение на средствата за заплати в администрацията с едва 5%, съобщи БТА. Решение на правителството за допълнителните средства засега не е известно."
+    ]
+   },
+   "en": {
+    "t": "Bulgaria strike relay reaches cadastre agency as civil servants seek 350 euros more",
+    "d": "Cadastre agency staff across Bulgaria stop work for an hour on the fifth day of warning strikes. The Podkrepa union wants an extra 54 million euros in the 2027 budget.",
+    "body": [
+     "Offices of Bulgaria's Geodesy, Cartography and Cadastre Agency nationwide halted work from 10:00 to 11:00 on Friday, the fifth day of a relay strike called by the Podkrepa union of administrative employees. Since Monday, a different agency has stopped work for one hour each working day, starting with the Social Assistance Agency and the Employment Agency, followed by the Labour Inspectorate and the Registry Agency. The National Statistical Institute is next on Monday, and the National Social Security Institute closes the series on Dec. 1.",
+     "The union is demanding a flat monthly pay rise of 350 euros from early 2027 for staff at the seven agencies, as well as the restoration of a bonus for length of service and professional experience. It says this would require an additional 54 million euros in the 2027 state budget, which parliament approved at first reading earlier this week. More than 12,000 low-paid employees would benefit, according to the union.",
+     "Starting gross salaries at the agencies are only slightly above the national minimum wage, while experienced specialists earn about 1,000 euros, media reported. Podkrepa President Dimitar Manolov said the union does not accept the planned increase of just 5% in funds for public-sector wages, according to the BTA news agency. No government decision on the extra funding has been reported."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-27/bulgarien-katasteramt-streik-350-euro-2026-11-27-b0800.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Vassto",
+    "lic": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Piazza_Garibaldi_-_Sofia,_Bulgaria.jpg",
+    "alt": {
+     "de": "Symbolbild: Sitz der Gewerkschaft Podkrepa in Sofia",
+     "bg": "Символна снимка: седалището на КТ „Подкрепа“ в София",
+     "en": "Symbolic image: Podkrepa union headquarters in Sofia"
+    }
+   }
+  },
+  {
+   "id": "freiburg-twente-beste-2026-11-27-b0800",
+   "pos": 6,
+   "s": "sport",
+   "sub": "fussball",
+   "uc": "conferenceleague",
+   "time": "08:00",
+   "src": [
+    {
+     "n": "SC Freiburg",
+     "u": "https://www.scfreiburg.com/en/latest/first-team/match-reports/2026-27/sc-snatch-dramatic-stoppage-time-winner-against-fc-twente/"
+    },
+    {
+     "n": "ZDFheute (dpa/SID)",
+     "u": "https://www.zdfheute.de/sport/fussball-conference-league-sc-freiburg-twente-enschede-26-27-tore-ergebnis-100.html"
+    },
+    {
+     "n": "Flashscore",
+     "u": "https://www.flashscore.com/news/soccer-conference-league-freiburg-twente-report-26-11-2026/OlvcJoC6/"
+    }
+   ],
+   "de": {
+    "t": "Ginter trifft den Pfosten, Beste den Nachschuss: Freiburg schlägt Twente spät mit 2:1",
+    "d": "Der SC Freiburg hat in der Conference League einen Sieg in letzter Minute gefeiert: Joker Niklas Beste traf in der Nachspielzeit, nachdem Ginter einen Elfmeter an den Pfosten gesetzt hatte.",
+    "body": [
+     "Der SC Freiburg hat am Donnerstagabend in der Ligaphase der Conference League den FC Twente Enschede mit 2:1 (1:0) besiegt. Vor 32.500 Zuschauern im Europa-Park-Stadion brachte Cyriaque Irié die Gastgeber in der 11. Minute nach einem Konter in Führung, Yuito Suzuki hatte ihn freigespielt. Twentes Younes Taha glich in der 62. Minute mit einem direkt verwandelten Freistoß aus gut 17 Metern aus.",
+     "Die Entscheidung fiel in der Nachspielzeit: Nach einem Foul an Derry Scherhant bekam Freiburg einen Strafstoß, Matthias Ginter traf jedoch nur den Pfosten. Den Abpraller und die folgenden Versuche verwertete schließlich der eingewechselte Niklas Beste aus spitzem Winkel. Der Treffer hielt nach Angaben von dpa und SID auch einer Videoüberprüfung stand. Nach Angaben von Flashscore rückte Freiburg damit unter die besten acht der Ligaphase, für Twente endete eine Serie von sechs Spielen ohne Niederlage.",
+     "Trainer Julian Schuster lobte laut Vereinsbericht den Gegner, der in der ersten Halbzeit extrem gut am Ball gewesen sei. Nach der Pause habe sich seine Mannschaft gefangen und mit mehr Überzeugung gespielt; genau diese Art von Schwung habe man sich hart erarbeitet. In der Ligaphase warten auf Freiburg noch Panathinaikos Athen und Žalgiris Kaunas."
+    ]
+   },
+   "bg": {
+    "t": "Гинтер уцели гредата, Бесте – добивката: Фрайбург би Твенте с 2:1 в края",
+    "d": "СК Фрайбург спечели драматично в Лигата на конференциите: резервата Никлас Бесте вкара в добавеното време, след като Матиас Гинтер беше пратил дузпа в гредата.",
+    "body": [
+     "СК Фрайбург победи в четвъртък вечер Твенте Енсхеде с 2:1 (1:0) в основната фаза на Лигата на конференциите. Пред 32 500 зрители на „Европа-Парк-Щадион“ Сирияк Ирие изведе домакините напред в 11-ата минута след контраатака, при която го пусна Юито Сузуки. Юнес Таха изравни за Твенте в 62-рата минута с пряк свободен удар от около 17 метра.",
+     "Развръзката дойде в добавеното време: след фаул срещу Дери Шерхант Фрайбург получи дузпа, но Матиас Гинтер уцели само гредата. Резервата Никлас Бесте в крайна сметка се възползва от отскока и последвалите опити и вкара от остър ъгъл. Според dpa и SID попадението беше потвърдено и след видеопроверка. По данни на Flashscore Фрайбург влезе в първите осем на основната фаза, а серията на Твенте от шест мача без загуба приключи.",
+     "Според клубния доклад треньорът Юлиан Шустер похвали съперника, който през първото полувреме бил изключително добър с топката. След почивката отборът му се стегнал и играл с повече увереност; точно за такъв устрем се работило усилено, каза той. В основната фаза Фрайбург предстои да играе още с Панатинайкос и Жалгирис Каунас."
+    ]
+   },
+   "en": {
+    "t": "Ginter hits the post, Beste the rebound: Freiburg snatch late 2-1 win over Twente",
+    "d": "SC Freiburg celebrated a last-gasp Conference League win as substitute Niklas Beste scored in stoppage time after Matthias Ginter had struck the post with a penalty.",
+    "body": [
+     "SC Freiburg beat FC Twente 2-1 in the Conference League league phase on Thursday night. In front of 32,500 fans at the Europa-Park Stadion, Cyriaque Irié put the hosts ahead on a counterattack in the 11th minute after being played through by Yuito Suzuki. Twente's Younes Taha equalised in the 62nd minute with a curling free kick from around 20 yards.",
+     "The decisive moment came in stoppage time. Freiburg were awarded a penalty after Derry Scherhant was fouled, but Matthias Ginter's spot kick hit the post. Substitute Niklas Beste eventually converted the loose ball from a tight angle, and according to dpa and SID the goal stood after a video review. According to Flashscore, the win lifted Freiburg into the top eight of the league phase and ended Twente's six-game unbeaten run.",
+     "Coach Julian Schuster praised the opponents. \"Our opponents were extremely good on the ball and we found that out in the first half,\" he said, according to the club's match report. \"We managed to steady ourselves after the break and played with more belief. This is exactly the kind of momentum we've worked hard to build.\" Freiburg still face Panathinaikos and Žalgiris Kaunas in the league phase."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-27/freiburg-twente-beste-2026-11-27-b0800.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "Andreas Schwarzkopf",
+    "lic": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Europa_Park_Stadion_in_Freiburg_mit_Fu%C3%9Fg%C3%A4ngerboulevard.jpg",
+    "alt": {
+     "de": "Archivbild: Europa-Park-Stadion des SC Freiburg",
+     "bg": "Архивна снимка: стадион „Европа-Парк“ на Фрайбург",
+     "en": "Archive image: SC Freiburg's Europa-Park Stadion"
+    }
+   }
+  },
+  {
+   "id": "crystal-palace-real-sociedad-frank-2026-11-27-b0800",
+   "pos": 7,
+   "s": "sport",
+   "sub": "fussball",
+   "uc": "europaleague",
+   "time": "08:00",
+   "src": [
+    {
+     "n": "Sky Sports",
+     "u": "https://www.skysports.com/football/news/13616782/crystal-palace-2-1-real-sociedad-thomas-frank-earns-first-win-as-eagles-boss-with-europa-league-comeback-victory"
+    },
+    {
+     "n": "BBC Sport (via Yahoo Sports)",
+     "u": "https://sports.yahoo.com/soccer/articles/frank-gains-first-victory-palace-215934682.html"
+    }
+   ],
+   "de": {
+    "t": "Erster Sieg für Thomas Frank: Palace dreht Spiel gegen Real Sociedad zum 2:1",
+    "d": "Im zweiten Spiel als Trainer von Crystal Palace hat Thomas Frank den ersten Sieg gefeiert. Gegen zehn Spieler von Real Sociedad drehten Mateta und McNeil in der Europa League einen Rückstand.",
+    "body": [
+     "Crystal Palace hat in der Ligaphase der Europa League Real Sociedad mit 2:1 geschlagen und Thomas Frank damit den ersten Sieg als Trainer der Londoner beschert. Frank hatte sein erstes Spiel am Wochenende gegen Coventry City verloren. Im Selhurst Park brachte Mamadou Sarr die Basken nach gut einer Stunde nach einer flachen Hereingabe von Job Ochieng in Führung.",
+     "Kurz darauf kippte die Partie: Jon Martin sah in der 71. Minute nach einem Foul an Jean-Philippe Mateta im Strafraum die Gelb-Rote Karte, Mateta verwandelte den fälligen Elfmeter selbst. Wenige Minuten vor Schluss stocherte Dwight McNeil den Ball zum Siegtreffer über die Linie, nachdem ein Fallrückzieher von Jørgen Strand Larsen in den Fünfmeterraum getrudelt war. In der Nachspielzeit hielt Sociedad-Torwart Unai Marrero noch einen Strafstoß von Yeremy Pino.",
+     "Palace kletterte nach Angaben von Sky Sports auf Rang zwölf der Ligaphase, zwei Plätze hinter den direkten Achtelfinalplätzen, Real Sociedad fiel auf Platz 27 zurück. Auf die Frage, ob der Sieg ein Wendepunkt sein könne, sagte Frank dem Sender TNT Sports: „Das hoffe ich sehr. Man darf einen Sieg nicht unterschätzen – was er der Gruppe gibt, was sie fühlen.“ Am Sonntag empfängt Palace Hull City."
+    ]
+   },
+   "bg": {
+    "t": "Първа победа за Томас Франк: Палас обърна Реал Сосиедад с 2:1",
+    "d": "Във втория си мач начело на Кристъл Палас Томас Франк записа първа победа. Срещу десетима от Реал Сосиедад Матета и Макнийл обърнаха резултата в Лига Европа.",
+    "body": [
+     "Кристъл Палас победи Реал Сосиедад с 2:1 в основната фаза на Лига Европа и донесе на Томас Франк първа победа като треньор на лондончани. Франк загуби първия си мач през уикенда срещу Ковънтри Сити. На „Селхърст Парк“ Мамаду Сар изведе баските напред малко след час игра след нисък център на Джоб Очиенг.",
+     "Скоро след това мачът се обърна: Йон Мартин получи втори жълт картон в 71-вата минута за нарушение срещу Жан-Филип Матета в наказателното поле, а самият Матета реализира дузпата. Няколко минути преди края Дуайт Макнийл вкара победния гол, след като задна ножица на Йорген Странд Ларсен отскочи в вратарското поле. В добавеното време вратарят на Сосиедад Унай Мареро спаси дузпа на Йереми Пино.",
+     "Според Sky Sports Палас се изкачи на 12-о място в основната фаза, на две позиции от директните места за осминафиналите, а Реал Сосиедад падна на 27-о. На въпрос дали победата може да е повратна точка Франк заяви пред TNT Sports: „Наистина се надявам. Не бива да се подценява победата – какво дава тя на групата, какво чувстват играчите.“ В неделя Палас приема Хъл Сити."
+    ]
+   },
+   "en": {
+    "t": "Thomas Frank earns first win as Palace come from behind to beat Real Sociedad 2-1",
+    "d": "Thomas Frank won for the first time as Crystal Palace manager in his second game, as Jean-Philippe Mateta and Dwight McNeil turned the Europa League match around against 10-man Real Sociedad.",
+    "body": [
+     "Crystal Palace beat Real Sociedad 2-1 in the Europa League league phase on Thursday, giving Thomas Frank his first win as the London club's manager. Frank had lost his opening game in charge against Coventry City at the weekend. At Selhurst Park, Mamadou Sarr put the Basque side ahead just after the hour, tapping in a low cross from Job Ochieng.",
+     "The game turned shortly afterwards. Jon Martin was sent off for a second yellow card in the 71st minute for fouling Jean-Philippe Mateta in the box, and Mateta converted the penalty himself. With less than 10 minutes left, Dwight McNeil poked home the winner after Jørgen Strand Larsen's overhead kick bobbled into the six-yard box. In stoppage time, Sociedad goalkeeper Unai Marrero saved a penalty from Yeremy Pino.",
+     "According to Sky Sports, Palace climbed to 12th in the league-phase table, two places outside the automatic last-16 spots, while Real Sociedad dropped to 27th. Asked whether the win could be a turning point, Frank told TNT Sports: \"I surely hope so. You can't underestimate a win, what that gives the group, what they're feeling.\" Palace host Hull City on Sunday."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-27/crystal-palace-real-sociedad-frank-2026-11-27-b0800-tg.webp",
+    "w": 1200,
+    "h": 675,
+    "own": true,
+    "alt": {
+     "de": "Titelgrafik: Erster Sieg für Thomas Frank: Palace dreht Spiel gegen Real Sociedad zum 2:1",
+     "bg": "Заглавна графика: Първа победа за Томас Франк: Палас обърна Реал Сосиедад с 2:1",
+     "en": "Title graphic: Thomas Frank earns first win as Palace come from behind to beat Real Sociedad 2-1"
+    }
+   }
+  },
+  {
+   "id": "jaxa-astronauten-auswahl-2026-11-27-b0800",
+   "pos": 8,
+   "s": "ki",
+   "sub": "raumfahrt",
+   "kl": {
+    "de": "Raumfahrt",
+    "bg": "Космос",
+    "en": "Space"
+   },
+   "time": "08:00",
+   "src": [
+    {
+     "n": "ITmedia NEWS",
+     "u": "https://www.itmedia.co.jp/news/article/2611/27/2000003512/"
+    },
+    {
+     "n": "Mynavi TECH+",
+     "u": "https://news.mynavi.jp/techplus/article/20261127-5420535/"
+    },
+    {
+     "n": "Joho Todai",
+     "u": "https://joho-todai.com/jaxa-astronaut-recruitment-2027-no-education-requirements/"
+    }
+   ],
+   "de": {
+    "t": "Für Mond und Orbit: Japan sucht ab 2027 neue Astronauten – ohne Vorgabe zum Studium",
+    "d": "Erstmals seit rund fünf Jahren will die JAXA neue Astronauten auswählen. Bewerbungen sollen ab Juni 2027 möglich sein, das Ergebnis wird für Herbst 2028 erwartet.",
+    "body": [
+     "Japans Raumfahrtagentur JAXA sucht neue Astronautinnen und Astronauten. Das Bildungs- und Wissenschaftsministerium MEXT gab den Plan am Freitag bekannt. Ausgewählt werden soll eine kleine Zahl von Kandidaten, eine genaue Zahl wurde nicht genannt. Sie sollen künftig an Mondmissionen und an Einsätzen in der Erdumlaufbahn teilnehmen.",
+     "Die Ausschreibung soll um April 2027 veröffentlicht werden, Bewerbungen sind ab etwa Juni 2027 für rund drei Monate vorgesehen. Die Auswahl soll im Herbst 2028 feststehen. Wie bei der vorigen Runde sollen Bildungsabschluss und Fachrichtung keine Rolle spielen. Die genauen Bewerbungsvoraussetzungen will die JAXA später festlegen.",
+     "Bei der letzten Runde ab Dezember 2021 hatten sich 4.127 Menschen beworben – ein Rekord. Ausgewählt wurden 2023 zwei Kandidaten: Makoto Suwa, früher bei der Weltbank, und die ehemalige Chirurgin Ayu Yoneda; beide sind seit 2024 zertifizierte Astronauten. Hintergrund ist die Verlagerung der bemannten Raumfahrt von der ISS hin zum Mond im Rahmen des Artemis-Programms der NASA."
+    ]
+   },
+   "bg": {
+    "t": "За Луната и орбитата: Япония търси нови астронавти от 2027 г. – без изискване за диплома",
+    "d": "За първи път от около пет години JAXA ще избира нови астронавти. Кандидатстването трябва да започне през юни 2027 г., а резултатът се очаква през есента на 2028 г.",
+    "body": [
+     "Японската космическа агенция JAXA търси нови астронавти. Министерството на образованието и науката MEXT обяви плана в петък. Ще бъдат избрани малък брой кандидати, без да е посочен точен брой. Те трябва да участват в бъдещи мисии до Луната и в полети в околоземна орбита.",
+     "Обявата трябва да бъде публикувана около април 2027 г., а кандидатстването е предвидено от около юни 2027 г. за около три месеца. Изборът трябва да приключи през есента на 2028 г. Както при предишния набор, образованието и специалността няма да имат значение. Точните изисквания JAXA ще определи по-късно.",
+     "При последния набор от декември 2021 г. кандидатстваха рекордните 4127 души. През 2023 г. бяха избрани двама: Макото Сува, бивш служител на Световната банка, и бившата хирургка Аю Йонеда; двамата са сертифицирани астронавти от 2024 г. Фонът е преместването на пилотираните полети от МКС към Луната в рамките на програмата „Артемис“ на НАСА."
+    ]
+   },
+   "en": {
+    "t": "Japan to recruit new astronauts for Moon missions from 2027, no degree requirement",
+    "d": "JAXA plans its first astronaut selection in about five years. Applications are set to open in June 2027, with results expected in autumn 2028.",
+    "body": [
+     "Japan's space agency JAXA is looking for new astronauts. The education and science ministry, MEXT, announced the plan on Friday. A small number of candidates will be selected, though no exact figure was given. They are expected to take part in future Moon missions and work in low Earth orbit.",
+     "The official call is due to be published around April 2027, with applications accepted for about three months from around June 2027. The selection is expected to be finalized in autumn 2028. As in the previous round, educational background and field of study will not be restricted. JAXA will set the detailed requirements later.",
+     "The last recruitment round, launched in December 2021, drew a record 4,127 applicants. Two candidates were selected in 2023: Makoto Suwa, formerly of the World Bank, and former surgeon Ayu Yoneda; both were certified as astronauts in 2024. The move comes as crewed spaceflight shifts from the ISS toward the Moon under NASA's Artemis program."
+    ]
+   },
+   "img": {
+    "f": "/assets/news/2026-11-27/jaxa-astronauten-auswahl-2026-11-27-b0800.webp",
+    "w": 1200,
+    "h": 675,
+    "art": "NASA Johnson Space Center",
+    "lic": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:JAXA_astronaut_Satoshi_Furukawa_(iss069e082580).jpg",
+    "alt": {
+     "de": "Archivbild: JAXA-Astronaut Satoshi Furukawa auf der ISS",
+     "bg": "Архивна снимка: астронавтът на JAXA Сатоши Фурукава на МКС",
+     "en": "Archive image: JAXA astronaut Satoshi Furukawa aboard the ISS"
+    }
+   }
+  }
+ ]
+}
