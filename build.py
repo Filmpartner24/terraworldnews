@@ -3746,10 +3746,10 @@ def trim_static(n):
     """Dateigrenze ohne Neubau einhalten (27.11.2026): Cloudflare brach Builds nach >35 Min. ab, weil build() bei
     zu vielen Dateien bis zu dreimal neu lief. Jetzt werden nach EINEM Durchlauf die ältesten Einzel-Artikeldateien
     in die Archiv-Bündel /_arch/<l>/<datum>/<bucket>.json verschoben (fnlib/arch.js liefert sie unter derselben
-    Adresse aus), bis die Grenze eingehalten ist. Der neueste Tag bleibt immer als Einzeldateien erhalten."""
+    Adresse aus), bis die Grenze eingehalten ist – notfalls auch der neueste Tag (bis die Fotos ausgelagert sind)."""
     if n <= FILE_LIMIT or not STATIC_ARTS: return n
     days = sorted({d for d, *_ in STATIC_ARTS})
-    for day in days[:-1]:
+    for day in days:
         groups = {}
         for d, l, slug, fp in STATIC_ARTS:
             if d == day and os.path.isfile(fp): groups.setdefault((l, arch_bucket(slug)), []).append((slug, fp))
@@ -3772,6 +3772,6 @@ if __name__ == '__main__':
     # Schutz (27.10.2026): Zusatzsprachen (tr/es/it) dürfen die Seite nie über die Dateigrenze bringen –
     # erst kürzer statisch (ältere Artikel ins Archiv), notfalls ohne Zusatzsprachen bauen.
     if n > FILE_LIMIT:
-        print(f'WARNUNG: {n} Dateien > {FILE_LIMIT} – Zusatzsprachen nur 1 Tag statisch'); lang_extra.STATIC_OVERRIDE = 1; n = build()
+        print(f'WARNUNG: {n} Dateien > {FILE_LIMIT} – Zusatzsprachen diesmal ausgelassen'); lang_extra.PUBLISH = False; n = trim_static(build())
     if n > FILE_LIMIT:
-        print(f'WARNUNG: {n} Dateien > {FILE_LIMIT} – Zusatzsprachen diesmal ausgelassen'); lang_extra.PUBLISH = False; n = build()
+        print(f'FEHLER: {n} Dateien > {FILE_LIMIT} – Cloudflare wird die Veröffentlichung ablehnen')
