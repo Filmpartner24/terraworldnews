@@ -3079,6 +3079,7 @@ BIZ = {}   # Datum -> Business-Datei
 ARCH = {}            # Artikel älter als STATIC_DAYS: gebündelt in /_arch/<l>/<datum>/<bucket>.json, ausgeliefert von functions/
 STATIC_DAYS = 5      # (Nedy 08.11.2026: 10 → 5, damit ES/TR unter die Cloudflare-Grenze von 20.000 Dateien passen; ältere Artikel kommen aus dem Archiv, gleiche Adresse) so viele Tage liegen Artikel als einzelne HTML-Dateien vor
 ARCH_BUCKETS = 8
+STATIC_ARTS = []     # (datum, sprache, slug, datei) aller als Einzeldatei geschriebenen Artikel – für trim_static()
 STATIC_FROM = '0000-00-00'
 def arch_bucket(slug):
     h = 2166136261
@@ -3150,6 +3151,7 @@ def build():
     STATIC_FROM = (_dt.date.fromisoformat(latest['date']) - _dt.timedelta(days=STATIC_DAYS - 1)).isoformat()
     STATIC_FROM_X = (_dt.date.fromisoformat(latest['date']) - _dt.timedelta(days=lang_extra.static_days(STATIC_DAYS) - 1)).isoformat()   # Türkisch/Spanisch: kürzer statisch (Dateigrenze Cloudflare)
     ARCH.clear()
+    STATIC_ARTS.clear()
     urls = []  # (url, alternates, lastmod)
     def write(path, content):
         fp = os.path.join(OUT, path.lstrip('/'))
@@ -3157,6 +3159,7 @@ def build():
         elif not os.path.splitext(fp)[1]: fp += '.html'   # Adressen ohne .html (Cloudflare leitet .html sonst per 301 um – Search Console 08.11.2026), Datei bleibt .html
         os.makedirs(os.path.dirname(fp), exist_ok=True)
         open(fp, 'w', encoding='utf-8').write(content)
+        return fp
 
     for l in act:
         u = UI[l]
@@ -3606,7 +3609,7 @@ def build():
                   {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": u['home'], "item": SITE + home(l)}, {"@type": "ListItem", "position": 2, "name": SEC[l][it['s']][0], "item": SITE + sec_home(it['s'], l, it.get('sub'))}, {"@type": "ListItem", "position": 3, "name": T['t']}]}]}
             extra = f'<meta property="article:published_time" content="{iso(it)}"><meta property="article:section" content="{e(SEC[l][it["s"]][0])}">'
             _html = page(l, act, f'{T["t"]} | TWN', T['d'], art_url(it, l), body, aalts, ld, og_type='article', issue=latest.get('issue', 1), date=it['date'], extra_head=extra, og_img=(it['img']['f'] if it.get('img') else None))
-            if it['date'] >= (STATIC_FROM_X if l in lang_extra.EXTRA else STATIC_FROM): write(art_url(it, l), _html)
+            if it['date'] >= (STATIC_FROM_X if l in lang_extra.EXTRA else STATIC_FROM): STATIC_ARTS.append((it['date'], l, it['id'], write(art_url(it, l), _html)))
             else: ARCH.setdefault((l, it['date'], arch_bucket(it['id'])), {})[it['id']] = _html
             urls.append((art_url(it, l), aalts, it['date']))
         # ---- legal
@@ -3739,8 +3742,33 @@ lang_extra.apply(globals())   # Türkisch + Spanisch: Tabellen ergänzen (seit 2
 
 FILE_LIMIT = 19500   # Cloudflare Pages: 20.000 Dateien je Veröffentlichung (95.000 am 08.11.2026 getestet → Cloudflare-Bau fehlgeschlagen, zurück)
 
+def trim_static(n):
+    """Dateigrenze ohne Neubau einhalten (27.11.2026): Cloudflare brach Builds nach >35 Min. ab, weil build() bei
+    zu vielen Dateien bis zu dreimal neu lief. Jetzt werden nach EINEM Durchlauf die ältesten Einzel-Artikeldateien
+    in die Archiv-Bündel /_arch/<l>/<datum>/<bucket>.json verschoben (fnlib/arch.js liefert sie unter derselben
+    Adresse aus), bis die Grenze eingehalten ist. Der neueste Tag bleibt immer als Einzeldateien erhalten."""
+    if n <= FILE_LIMIT or not STATIC_ARTS: return n
+    days = sorted({d for d, *_ in STATIC_ARTS})
+    for day in days[:-1]:
+        groups = {}
+        for d, l, slug, fp in STATIC_ARTS:
+            if d == day and os.path.isfile(fp): groups.setdefault((l, arch_bucket(slug)), []).append((slug, fp))
+        for (l, b), arts in groups.items():
+            bp = os.path.join(OUT, '_arch', l, day, f'{b}.json')
+            os.makedirs(os.path.dirname(bp), exist_ok=True)
+            pages = json.load(open(bp, encoding='utf-8')) if os.path.isfile(bp) else {}
+            for slug, fp in arts:
+                pages[slug] = open(fp, encoding='utf-8').read()
+                os.remove(fp)
+            open(bp, 'w', encoding='utf-8').write(json.dumps(pages, ensure_ascii=False, separators=(',', ':')))
+        n = sum(1 for _ in glob.glob(OUT + '/**/*', recursive=True) if os.path.isfile(_))
+        print(f'Dateigrenze: Artikel vom {day} ins Archiv verschoben – jetzt {n} Dateien')
+        if n <= FILE_LIMIT: break
+    return n
+
 if __name__ == '__main__':
     n = build()
+    n = trim_static(n)   # erst ältere Einzelartikel ins Archiv verschieben (kein Neubau, alle Sprachen bleiben)
     # Schutz (27.10.2026): Zusatzsprachen (tr/es/it) dürfen die Seite nie über die Dateigrenze bringen –
     # erst kürzer statisch (ältere Artikel ins Archiv), notfalls ohne Zusatzsprachen bauen.
     if n > FILE_LIMIT:
