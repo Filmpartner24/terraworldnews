@@ -51,3 +51,4 @@ Themen mit aktuellem Anlass bevorzugen (neue Gesetze, Fristen, Preise, Saison). 
 - 2026-11-24 – Wasser wird teurer: Was 2027 in Deutschland und Bulgarien auf die Rechnung kommt – Entwurf
 - 2026-11-25 – Heiligabend und Silvester: Wer arbeiten muss – und welche Zuschläge in DE und BG gelten – Entwurf
 - 2026-11-26 – Krank im Winterurlaub: Was die EHIC in Deutschland und Bulgarien zahlt – und was nicht – Entwurf
+- 2026-11-27 – Altes Handy weg? So löschst du es sicher – und hier gibst du es in DE und BG ab – Entwurf
