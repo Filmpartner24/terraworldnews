@@ -498,6 +498,12 @@ section{position:relative}
 .contact .imdb-line a:hover{border-color:#f5c518}
 .contact .imdb-line b{font:800 .8rem/1 Arial,Helvetica,sans-serif;letter-spacing:-.02em;color:#000;background:#f5c518;border-radius:2px;padding:.28rem .4rem;text-transform:none}
 .contact .imdb-line{margin-top:1.8rem}
+/* v48: IMDb links in footer */
+.foot .imdb-line{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:.6rem 1rem;margin:1.2rem auto .4rem;font:400 .74rem/1 var(--head);letter-spacing:.2em;text-transform:uppercase;color:#dfe7ee}
+.foot .imdb-line>span{width:100%;color:var(--steel);margin-bottom:.2rem}
+.foot .imdb-line a{display:inline-flex;align-items:center;gap:.5rem;color:#e9eef2;text-decoration:none;border:1px solid rgba(245,197,24,.3);border-radius:3px;padding:.3rem .7rem .3rem .3rem;background:rgba(5,8,12,.5)}
+.foot .imdb-line a:hover{border-color:#f5c518;color:#fff}
+.foot .imdb-line b{font:800 .8rem/1 Arial,Helvetica,sans-serif;letter-spacing:-.02em;color:#000;background:#f5c518;border-radius:2px;padding:.28rem .4rem;text-transform:none}
 
 /* lazy background images */
 .bgimg.lenker.on{background-image:url(img/bg_lenker.webp)}
