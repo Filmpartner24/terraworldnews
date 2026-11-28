@@ -285,7 +285,7 @@
     "d": "Das offene KI-Modell entscheidet selbst, ob es einen Roboterarm über gelernte Bewegungen oder über selbst geschriebenen Code steuert. Erste Tests mit echten Armen gelangen überwiegend.",
     "body": [
      "Der chinesische KI-Konzern SenseTime hat das Robotermodell SenseNova-RoboRSI-27B mit offenen Gewichten unter der freien Lizenz Apache 2.0 veröffentlicht. Das Modell mit rund 27 Milliarden Parametern wählt bei jeder Aufgabe, ob es eine gelernte Bewegungsstrategie (ein sogenanntes VLA-Modell) aufruft, eine Bewegungsbahn prüft oder selbst Steuerungscode schreibt. In den Testläufen entfielen 41,9 Prozent der Schritte auf gelernte Bewegungen und 58,1 Prozent auf Code.",
-     "Im Simulationstest RoboDojo erreichte das Modell nach SenseTimes eigenen Angaben durchschnittlich 34,7 Punkte, gegenüber 10,0 für die Vorabversion und 27,6 für OpenAIs GPT-6 Astra. An echten Roboterarmen gelang das Stapeln von Klötzen in 9 von 10 Versuchen, das Ablegen von Gegenständen in eine Schale in 6 von 10.",
+     "Im Simulationstest RoboDojo erreichte das Modell nach SenseTimes eigenen Angaben durchschnittlich 34,7 Punkte, gegenüber 10,0 für die Vorabversion und 27,6 für OpenAIs GPT-6 Astra (laut Liste des RoboDojo-Teams). An echten Roboterarmen gelang das Stapeln von Klötzen in 9 von 10 Versuchen, das Ablegen von Gegenständen in eine Schale in 6 von 10.",
      "Unabhängig überprüft sind die Ergebnisse noch nicht, und sie beruhen auf wenigen Durchläufen. Zudem diente GPT-6 Astra beim Training als Lehrer-Modell. Das Skript zum Nachvollziehen der Werte will SenseTime erst nach der Einreichung bei der RoboDojo-Rangliste veröffentlichen."
     ]
    },
@@ -294,7 +294,7 @@
     "d": "Отвореният ИИ модел сам решава дали да управлява роботизирана ръка чрез научени движения или чрез код, който сам пише. Първите тестове с реални ръце са предимно успешни.",
     "body": [
      "Китайската ИИ компания SenseTime публикува модела за роботи SenseNova-RoboRSI-27B с отворени тегла под свободния лиценз Apache 2.0. Моделът с около 27 милиарда параметъра избира при всяка задача дали да извика научена стратегия за движение (т.нар. VLA модел), да провери траектория или сам да напише управляващ код. В тестовете 41,9 процента от стъпките са били научени движения, а 58,1 процента – код.",
-     "В симулационния тест RoboDojo моделът е постигнал по собствени данни на SenseTime средно 34,7 точки при 10,0 за предварителната версия и 27,6 за GPT-6 Astra на OpenAI. С реални роботизирани ръце подреждането на блокчета е успяло в 9 от 10 опита, а поставянето на предмети в купа – в 6 от 10.",
+     "В симулационния тест RoboDojo моделът е постигнал по собствени данни на SenseTime средно 34,7 точки при 10,0 за предварителната версия и 27,6 за GPT-6 Astra на OpenAI (според списъка на екипа на RoboDojo). С реални роботизирани ръце подреждането на блокчета е успяло в 9 от 10 опита, а поставянето на предмети в купа – в 6 от 10.",
      "Резултатите все още не са проверени независимо и се основават на малко на брой опити. Освен това GPT-6 Astra е служил като модел учител при обучението. Скрипта за възпроизвеждане на стойностите SenseTime ще публикува едва след подаването в класацията RoboDojo."
     ]
    },
@@ -303,7 +303,7 @@
     "d": "The open AI model decides for itself whether to control a robot arm via learned movements or via code it writes itself. Most first tests with real arms succeeded.",
     "body": [
      "Chinese AI company SenseTime has released the robot model SenseNova-RoboRSI-27B with open weights under the permissive Apache 2.0 licence. The model, with around 27 billion parameters, chooses for each task whether to call a learned motion policy (a so-called VLA model), check a trajectory or write control code itself. In the test runs, 41.9 per cent of steps used learned motions and 58.1 per cent used code.",
-     "In the RoboDojo simulation benchmark, the model scored an average of 34.7 points according to SenseTime's own figures, compared with 10.0 for the preview version and 27.6 for OpenAI's GPT-6 Astra. On real robot arms, stacking blocks succeeded in 9 of 10 trials and placing objects in a dish in 6 of 10.",
+     "In the RoboDojo simulation benchmark, the model scored an average of 34.7 points according to SenseTime's own figures, compared with 10.0 for the preview version and 27.6 for OpenAI's GPT-6 Astra (according to the RoboDojo team's listing). On real robot arms, stacking blocks succeeded in 9 of 10 trials and placing objects in a dish in 6 of 10.",
      "The results have not yet been independently verified and are based on few runs. In addition, GPT-6 Astra served as the teacher model during training. SenseTime plans to publish the script for reproducing the figures only after submitting to the RoboDojo leaderboard."
     ]
    },
