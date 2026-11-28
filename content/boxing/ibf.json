@@ -10,7 +10,7 @@
   "de": "International Boxing Federation",
   "en": "International Boxing Federation"
  },
- "asof": "2026-11-27",
+ "asof": "2026-11-28",
  "champions": [
   {
    "div": {
@@ -114,12 +114,12 @@
     "en": "Lightweight"
    },
    "limit": "bis 61,2 kg (135 lb)",
-   "name": "",
-   "country": "",
+   "name": "Andy Cruz",
+   "country": "Kuba",
    "note": {
-    "de": "vakant (Raymond Muratalla legte den Titel 2026 nieder); Andy Cruz und Artur Subkhankulov boxen am 27.11.2026 in Ufa um den Titel",
-    "bg": "вакантна (Реймънд Мураталя освободи титлата през 2026 г.); Анди Крус и Артур Субханкулов се бият за титлата на 27.11.2026 г. в Уфа",
-    "en": "vacant (Raymond Muratalla relinquished the title in 2026); Andy Cruz and Artur Subkhankulov fight for it on 27 Nov 2026 in Ufa"
+    "de": "Gewann den vakanten Titel am 27.11.2026 in Ufa gegen Artur Subkhankulov",
+    "bg": "Спечели вакантната титла на 27.11.2026 г. в Уфа срещу Артур Субханкулов",
+    "en": "Won the vacant title on 27 Nov 2026 in Ufa against Artur Subkhankulov"
    }
   },
   {
@@ -210,22 +210,6 @@
  ],
  "upcoming": [
   {
-   "date": "2026-11-27",
-   "place": "Ringerpalast, Ufa, Russland",
-   "f1": "Andy Cruz",
-   "f2": "Artur Subkhankulov",
-   "div": {
-    "bg": "Лека категория",
-    "de": "Leichtgewicht",
-    "en": "Lightweight"
-   },
-   "title": {
-    "bg": "Световна титла на IBF (вакантна)",
-    "de": "IBF-WM (vakant)",
-    "en": "IBF world title (vacant)"
-   }
-  },
-  {
    "date": "2026-12-04",
    "place": "The Venue, Riad, Saudi-Arabien",
    "f1": "Aaron McKenna",
@@ -278,6 +262,27 @@
   }
  ],
  "results": [
+  {
+   "date": "2026-11-27",
+   "place": "Ringerpalast, Ufa, Russland",
+   "f1": "Andy Cruz",
+   "f2": "Artur Subkhankulov",
+   "res": {
+    "bg": "разделно съдийско решение (116-110, 116-110, 112-114)",
+    "de": "geteilte Punktentscheidung (116-110, 116-110, 112-114)",
+    "en": "split decision (116-110, 116-110, 112-114)"
+   },
+   "div": {
+    "bg": "Лека категория",
+    "de": "Leichtgewicht",
+    "en": "Lightweight"
+   },
+   "title": {
+    "bg": "Световна титла на IBF (вакантна)",
+    "de": "IBF-WM (vakant)",
+    "en": "IBF world title (vacant)"
+   }
+  },
   {
    "date": "2026-11-26",
    "place": "Ebara Wave Arena Ota, Tokio, Japan",
@@ -549,6 +554,10 @@
   {
    "n": "Boxing 24/7, 23.11.2026",
    "u": "https://www.boxing247.com/boxing-news/devin-haney-refuses-vada-amendment-for-liam-paro-fight/311482"
+  },
+  {
+   "n": "Boxing247, 27.11.2026",
+   "u": "https://www.boxing247.com/boxing-news/andy-cruz-survives-knockdown-to-beat-artur-subkhankulov/311521"
   }
  ]
 }
