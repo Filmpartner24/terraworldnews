@@ -1302,21 +1302,33 @@
    "t1": "VfL Gummersbach",
    "t2": "HC Erlangen",
    "date": "2026-11-27",
-   "time": "19:00"
+   "time": "19:00",
+   "ft": [
+    28,
+    25
+   ]
   },
   {
    "r": 14,
    "t1": "HSG Wetzlar",
    "t2": "Frisch Auf Göppingen",
    "date": "2026-11-27",
-   "time": "20:00"
+   "time": "20:00",
+   "ft": [
+    33,
+    26
+   ]
   },
   {
    "r": 14,
    "t1": "Bergischer HC",
    "t2": "THW Kiel",
    "date": "2026-11-27",
-   "time": "20:00"
+   "time": "20:00",
+   "ft": [
+    26,
+    34
+   ]
   },
   {
    "r": 14,
@@ -1482,6 +1494,60 @@
    "t2": "TVB 1898 Stuttgart",
    "date": "2026-12-13",
    "time": "18:00"
+  },
+  {
+   "r": 17,
+   "t1": "THW Kiel",
+   "t2": "MT Melsungen",
+   "date": "2026-12-19"
+  },
+  {
+   "r": 17,
+   "t1": "Frisch Auf Göppingen",
+   "t2": "HBW Balingen-Weilstetten",
+   "date": "2026-12-19"
+  },
+  {
+   "r": 17,
+   "t1": "Rhein-Neckar-Löwen",
+   "t2": "Füchse Berlin",
+   "date": "2026-12-19"
+  },
+  {
+   "r": 17,
+   "t1": "HSV Hamburg",
+   "t2": "VfL Gummersbach",
+   "date": "2026-12-19"
+  },
+  {
+   "r": 17,
+   "t1": "SG BBM Bietigheim",
+   "t2": "SG Flensburg-Handewitt",
+   "date": "2026-12-20"
+  },
+  {
+   "r": 17,
+   "t1": "TSV Hannover-Burgdorf",
+   "t2": "SC Magdeburg",
+   "date": "2026-12-20"
+  },
+  {
+   "r": 17,
+   "t1": "TVB 1898 Stuttgart",
+   "t2": "HC Erlangen",
+   "date": "2026-12-20"
+  },
+  {
+   "r": 17,
+   "t1": "TBV Lemgo",
+   "t2": "ThSV Eisenach",
+   "date": "2026-12-20"
+  },
+  {
+   "r": 17,
+   "t1": "HSG Wetzlar",
+   "t2": "Bergischer HC",
+   "date": "2026-12-20"
   }
  ],
  "cups": [],
