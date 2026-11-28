@@ -504,6 +504,11 @@ section{position:relative}
 .foot .imdb-line a{display:inline-flex;align-items:center;gap:.5rem;color:#e9eef2;text-decoration:none;border:1px solid rgba(245,197,24,.3);border-radius:3px;padding:.3rem .7rem .3rem .3rem;background:rgba(5,8,12,.5)}
 .foot .imdb-line a:hover{border-color:#f5c518;color:#fff}
 .foot .imdb-line b{font:800 .8rem/1 Arial,Helvetica,sans-serif;letter-spacing:-.02em;color:#000;background:#f5c518;border-radius:2px;padding:.28rem .4rem;text-transform:none}
+/* v49: footer IMDb more prominent */
+.foot .imdb-line{margin:1.8rem auto .8rem;gap:.8rem 1.1rem}
+.foot .imdb-line>span{color:#eef3f7;font:500 .9rem/1.2 var(--head);letter-spacing:.32em;margin-bottom:.5rem;text-shadow:0 0 18px rgba(245,197,24,.25)}
+.foot .imdb-line a{font:500 .86rem/1 var(--head);letter-spacing:.18em;padding:.45rem .95rem .45rem .45rem;border-color:rgba(245,197,24,.6);color:#fff}
+.foot .imdb-line b{font-size:.95rem;padding:.36rem .5rem}
 
 /* lazy background images */
 .bgimg.lenker.on{background-image:url(img/bg_lenker.webp)}
