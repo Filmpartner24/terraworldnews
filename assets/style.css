@@ -486,6 +486,17 @@ section{position:relative}
 .films-note{max-width:44rem;margin:0 auto;font-size:.82rem;color:var(--dim);letter-spacing:.03em;line-height:1.6}
 @media (max-width:640px){.film-cap{grid-template-columns:1fr}.film-yt{grid-column:1;grid-row:auto;justify-self:start;margin-top:.6rem}.film-dur{right:.6rem;bottom:.6rem}}
 @media (prefers-reduced-motion:reduce){.film-play::before{animation:none}}
+/* v46: IMDb links */
+.imdb-row{margin-top:1.6rem!important}
+.imdb-btn{display:inline-flex;align-items:center;gap:.75rem;text-decoration:none;padding:.35rem .9rem .35rem .35rem;border:1px solid rgba(245,197,24,.35);border-radius:4px;background:rgba(5,8,12,.55);transition:border-color .2s,background .2s,transform .2s}
+.imdb-btn:hover{border-color:#f5c518;background:rgba(245,197,24,.08);transform:translateY(-1px)}
+.imdb-logo{font:800 .95rem/1 Arial,Helvetica,sans-serif;letter-spacing:-.02em;color:#000;background:#f5c518;border-radius:3px;padding:.38rem .5rem}
+.imdb-txt{font:400 .74rem/1 var(--head);letter-spacing:.22em;text-transform:uppercase;color:#e9eef2}
+.contact .imdb-line{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:.6rem 1rem;margin:1.4rem auto 0;font:400 .76rem/1 var(--head);letter-spacing:.2em;text-transform:uppercase;color:#dfe7ee;text-shadow:0 2px 12px rgba(0,0,0,.95)}
+.contact .imdb-line>span{width:100%;color:var(--steel);margin-bottom:.2rem}
+.contact .imdb-line a{display:inline-flex;align-items:center;gap:.5rem;color:#e9eef2;text-decoration:none;border:1px solid rgba(245,197,24,.3);border-radius:3px;padding:.3rem .7rem .3rem .3rem;background:rgba(5,8,12,.5)}
+.contact .imdb-line a:hover{border-color:#f5c518}
+.contact .imdb-line b{font:800 .8rem/1 Arial,Helvetica,sans-serif;letter-spacing:-.02em;color:#000;background:#f5c518;border-radius:2px;padding:.28rem .4rem;text-transform:none}
 
 /* lazy background images */
 .bgimg.lenker.on{background-image:url(img/bg_lenker.webp)}
