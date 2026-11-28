@@ -1,54 +1,179 @@
 {
  "date": "2026-11-27",
- "views": 12,
- "visits": 8,
+ "views": 89,
+ "visits": 69,
  "countries": [
   {
+   "k": "US",
+   "views": 26,
+   "visits": 26
+  },
+  {
    "k": "CN",
+   "views": 16,
+   "visits": 16
+  },
+  {
+   "k": "SG",
+   "views": 7,
+   "visits": 7
+  },
+  {
+   "k": "TR",
    "views": 4,
    "visits": 4
   },
   {
-   "k": "US",
+   "k": "NG",
+   "views": 3,
+   "visits": 3
+  },
+  {
+   "k": "VN",
    "views": 2,
    "visits": 2
   },
   {
-   "k": "SG",
+   "k": "IN",
    "views": 2,
+   "visits": 2
+  },
+  {
+   "k": "TW",
+   "views": 11,
    "visits": 2
   },
   {
    "k": "DE",
-   "views": 4,
+   "views": 11,
+   "visits": 1
+  },
+  {
+   "k": "BD",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "UA",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "TN",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "JP",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "EC",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "HK",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "BE",
+   "views": 1,
    "visits": 0
   }
  ],
  "referers": [
   {
    "k": "(direkt)",
-   "views": 8,
-   "visits": 8
+   "views": 65,
+   "visits": 65
+  },
+  {
+   "k": "m.facebook.com",
+   "views": 2,
+   "visits": 2
+  },
+  {
+   "k": "l.meta.ai",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "www.google.com",
+   "views": 1,
+   "visits": 1
   },
   {
    "k": "terraworldnews.com",
-   "views": 4,
+   "views": 20,
    "visits": 0
   }
  ],
  "paths": [
+  {
+   "k": "/de/",
+   "views": 5,
+   "visits": 0
+  },
+  {
+   "k": "/en/",
+   "views": 4,
+   "visits": 3
+  },
+  {
+   "k": "/en/news/2026/11/26/hsv-polzin-bayern-volkspark-2026-11-26-b2100",
+   "views": 2,
+   "visits": 2
+  },
+  {
+   "k": "/en/news/2026/10/12/elie-saab-fs27-a-fleur-de-peau.html",
+   "views": 2,
+   "visits": 2
+  },
+  {
+   "k": "/en/world/",
+   "views": 2,
+   "visits": 0
+  },
   {
    "k": "/de/bulgarien/",
    "views": 2,
    "visits": 0
   },
   {
-   "k": "/en/news/2026/11/26/exoprimal-abschaltung",
+   "k": "/en/news/2026/11/25/xpeng-ai-day-iron-origin",
+   "views": 2,
+   "visits": 2
+  },
+  {
+   "k": "/en/news/2026/11/23/eth-mikroroboter-blutgerinnsel-video",
+   "views": 2,
+   "visits": 2
+  },
+  {
+   "k": "/en/bulgaria/",
+   "views": 2,
+   "visits": 0
+  },
+  {
+   "k": "/en/news/2026/11/25/wirtschaft-eu-schutzverfahren-glasfaser-harze-china-2026-11-25",
+   "views": 2,
+   "visits": 2
+  },
+  {
+   "k": "/es/videojuegos/survival-horror/",
    "views": 1,
    "visits": 1
   },
   {
-   "k": "/en/games/",
+   "k": "/en/news/2026/11/23/hyunjin-stray-kids-dior-botschafter",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/15/chanel-sampha-feiertagsfilm-uhren-schmuck-video",
    "views": 1,
    "visits": 1
   },
@@ -58,7 +183,102 @@
    "visits": 1
   },
   {
+   "k": "/en/games/",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/es/videojuegos/racing/",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/26/niederlande-match-act-asml-2026-11-26-b1830",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/10/23/welt-nordkorea-propaganda-lautsprecher-kim-yo-jong-2026-10-23",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/21/cliff-booth-premiere-hollywood-looks-pitt-de-ramon-tiffany-brosche",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/26/characterai-auktion-42-generalstaatsanwaelte",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/sport/",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/22/energie-oesterreich-windkraft-ausbaudeckel-2026-11-22",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/es/videojuegos/city-builders/",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/economy/",
+   "views": 1,
+   "visits": 0
+  },
+  {
+   "k": "/en/news/2026/11/09/strom-ibex",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/13/uforce-drohnen-700-mio-finanzierung-2026-11-13",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/20/tour-dick-brave-christmas-2027",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/26/fiba-dbb-lettland-riga-wm-ticket-2026-11-26",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/25/yyforce-six-seven-concierge",
+   "views": 1,
+   "visits": 1
+  },
+  {
    "k": "/en/news/2026/11/26/leben-oecd-health-at-a-glance-europe-2026-2026-11-26",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/es/energia/hidrogeno-y-almacenamiento/",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/24/sumikkogurashi-poka-poka-onsen-test",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/17/fiba-dbb-kader-lettland-polen-tischler-2026-11-17",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/25/berlin-schleuser-razzia-2026-11-25-b1830",
    "views": 1,
    "visits": 1
   },
@@ -68,9 +288,84 @@
    "visits": 1
   },
   {
-   "k": "/de/",
+   "k": "/en/world/middle-east/",
    "views": 1,
    "visits": 0
+  },
+  {
+   "k": "/en/news/2026/11/23/patagonia-worn-wear-europa-black-friday",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/20/ucsd-weicher-laufroboter-video",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/26/retail-media-haendler-werbung-geschaeftsmodell-2026-11-26",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/10/04/ki-smart-2-elektro-zweisitzer",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/26/calvin-klein-jung-kook-feiertagskampagne-denim",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/24/kloeckner-digitale-gewalt-frauen-plattformen-2026-11-24-b1100",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/22/kuppeln-statt-swipen-freunde-familie-2026-11-22",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/es/autores/nedy-john-cross",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/es/vida-cotidiana/east-west/",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/17/auto-guangzhou-2026-vorschau",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/sport/tennis/",
+   "views": 1,
+   "visits": 0
+  },
+  {
+   "k": "/en/news/2026/11/24/fiba-dbb-lehrgang-frankfurt-lukosius-mumbru-2026-11-24",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/europe/",
+   "views": 1,
+   "visits": 0
+  },
+  {
+   "k": "/en/news/2026/11/26/acea-neuzulassungen-oktober-2026",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/22/invest-deutschland",
+   "views": 1,
+   "visits": 1
   },
   {
    "k": "/de/welt/",
@@ -78,7 +373,42 @@
    "visits": 0
   },
   {
-   "k": "/en/",
+   "k": "/es/musica/clasica/",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/26/ls-vfb-inter-stiller-2026-11-26",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/21/ucdavis-agri-photovoltaik-video",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/26/konzert-mosel-musikfestival-2027",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/10/28/leben-saron-strahlentherapie-lungenkrebs-esmo-2026-10-28.html",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/22/berlin-kliniken-feuerwehr-polizei-boellerverbot-2026-11-22-b1530",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/es/history/un-dia-como-hoy/",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/26/ki-osaki-electric-ransomware-stromzaehler-2026-11-26",
    "views": 1,
    "visits": 1
   },
@@ -91,25 +421,85 @@
    "k": "/en/news/2026/11/04/sabine-marcelis-light-and-color-museum-fuer-gestaltung-zuerich",
    "views": 1,
    "visits": 1
+  },
+  {
+   "k": "/en/germany/",
+   "views": 1,
+   "visits": 0
+  },
+  {
+   "k": "/es/clima/clima-en-video/",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/23/nato-pv-berlin-merz-rutte-polen-2026-11-23-b0800",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/12/hyperinflation-1923-rentenmark-2026-11-12",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/es/autores/geronimo-fuchs",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/world/asia-pacific/",
+   "views": 1,
+   "visits": 0
+  },
+  {
+   "k": "/en/news/2026/11/24/europa-portugal-haushalt-2027-schlussabstimmung-2026-11-24",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/20/athletic-espanyol-terzic-san-mames-2026-11-20-b0800",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/es/history/guerras-mundiales/",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/26/openai-astra-exoplaneten-amateure",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/en/news/2026/11/26/exoprimal-abschaltung",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "/de/deutschland/",
+   "views": 1,
+   "visits": 0
   }
  ],
  "devices": [
   {
    "k": "desktop",
-   "views": 11,
-   "visits": 7
+   "views": 71,
+   "visits": 62
   },
   {
    "k": "mobile",
-   "views": 1,
-   "visits": 1
+   "views": 18,
+   "visits": 7
   }
  ],
  "hosts": [
   {
    "k": "terraworldnews.com",
-   "views": 12,
-   "visits": 8
+   "views": 89,
+   "visits": 69
   }
  ],
  "hours": [
@@ -120,14 +510,109 @@
   },
   {
    "k": "01",
-   "views": 6,
+   "views": 7,
+   "visits": 3
+  },
+  {
+   "k": "02",
+   "views": 4,
+   "visits": 1
+  },
+  {
+   "k": "03",
+   "views": 12,
+   "visits": 12
+  },
+  {
+   "k": "04",
+   "views": 10,
+   "visits": 9
+  },
+  {
+   "k": "06",
+   "views": 2,
    "visits": 2
+  },
+  {
+   "k": "07",
+   "views": 3,
+   "visits": 3
+  },
+  {
+   "k": "08",
+   "views": 2,
+   "visits": 1
+  },
+  {
+   "k": "09",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "10",
+   "views": 5,
+   "visits": 5
+  },
+  {
+   "k": "11",
+   "views": 3,
+   "visits": 3
+  },
+  {
+   "k": "12",
+   "views": 3,
+   "visits": 3
+  },
+  {
+   "k": "13",
+   "views": 14,
+   "visits": 5
+  },
+  {
+   "k": "14",
+   "views": 2,
+   "visits": 2
+  },
+  {
+   "k": "15",
+   "views": 2,
+   "visits": 2
+  },
+  {
+   "k": "16",
+   "views": 4,
+   "visits": 4
+  },
+  {
+   "k": "17",
+   "views": 3,
+   "visits": 3
+  },
+  {
+   "k": "19",
+   "views": 2,
+   "visits": 2
+  },
+  {
+   "k": "20",
+   "views": 2,
+   "visits": 0
+  },
+  {
+   "k": "22",
+   "views": 1,
+   "visits": 1
+  },
+  {
+   "k": "23",
+   "views": 1,
+   "visits": 1
   }
  ],
  "lang_views": {
-  "bg": 0,
-  "de": 4,
-  "en": 8
+  "bg": 11,
+  "de": 9,
+  "en": 69
  },
- "fetched": "2026-11-27T01:09+01:00"
+ "fetched": "2026-11-28T11:52+01:00"
 }
